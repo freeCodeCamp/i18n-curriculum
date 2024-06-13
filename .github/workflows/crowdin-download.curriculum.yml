@@ -383,7 +383,7 @@ jobs:
       - name: Debug
         run: |
           git status
-          git log --online -1
+          git log --oneline -1
 
       # Create PR
       - name: Create PR
