@@ -370,6 +370,10 @@ jobs:
       # - name: Overwrite Execute-Brain.md
       #   run: sudo tools/scripts/move-bf.sh
 
+      - name: Debug 1
+        run: |
+          git status
+
       # Create Commit
       - name: Commit Changes
         uses: freecodecamp/crowdin-action@main
@@ -380,7 +384,7 @@ jobs:
           GH_BRANCH: 'i18n-sync-curriculum'
           GH_MESSAGE: 'chore(i18n,learn): processed translations'
 
-      - name: Debug
+      - name: Debug 2
         run: |
           git status
           git log --oneline -1
