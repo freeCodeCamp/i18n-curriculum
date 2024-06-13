@@ -94,7 +94,7 @@ jobs:
           base_url: ${{ secrets.CROWDIN_BASE_URL_FCC }}
 
           # Uncomment below to debug
-          dryrun_action: true
+          # dryrun_action: true
 
       ##### Download Italian #####
       # - name: Crowdin Download Italian Translations
