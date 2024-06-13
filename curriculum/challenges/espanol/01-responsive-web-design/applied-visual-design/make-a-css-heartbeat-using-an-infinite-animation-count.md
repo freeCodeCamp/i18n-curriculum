@@ -1,6 +1,6 @@
 ---
 id: 587d78a8367417b2b2512ae4
-title: Make a CSS Heartbeat using an Infinite Animation Count
+title: Haz latir un corazón con CSS usando un recuento de animación infinita
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cDZpDUr'
 forumTopicId: 301062
@@ -9,23 +9,23 @@ dashedName: make-a-css-heartbeat-using-an-infinite-animation-count
 
 # --description--
 
-Here's one more continuous animation example with the `animation-iteration-count` property that uses the heart you designed in a previous challenge.
+Aquí hay un ejemplo más de animación con la propiedad `animation-iteration-count` que usa el corazón que diseñaste en un desafío anterior.
 
-The one-second long heartbeat animation consists of two animated pieces. The `heart` elements (including the `:before` and `:after` pieces) are animated to change size using the `transform` property, and the background `div` is animated to change its color using the `background` property.
+La animación del latido de un segundo consta de dos piezas animadas. Los elementos `heart` (incluyendo las piezas `:before` y `:after`) se animan para cambiar el tamaño usando la propiedad `transform`, y el fondo `div` se anima para cambiar su color usando la propiedad `background`.
 
 # --instructions--
 
-Keep the heart beating by adding the `animation-iteration-count` property for both the `back` class and the `heart` class and setting the value to `infinite`. The `heart:before` and `heart:after` selectors do not need any animation properties.
+Mantén el corazón latiendo agregando la propiedad `animation-iteration-count` tanto para la clase `back` como para la clase `heart` y estableciendo el valor en `infinite`. Los selectores `heart:before` y `heart:after` no necesitan ninguna propiedad de animación.
 
 # --hints--
 
-The `animation-iteration-count` property for the `heart` class should have a value of `infinite`.
+La propiedad `animation-iteration-count` para la clase `heart` debe tener un valor de `infinite`.
 
 ```js
 assert($('.heart').css('animation-iteration-count') == 'infinite');
 ```
 
-The `animation-iteration-count` property for the `back` class should have a value of `infinite`.
+La propiedad `animation-iteration-count` para la clase `back` debe tener un valor de `infinite`.
 
 ```js
 assert($('.back').css('animation-iteration-count') == 'infinite');

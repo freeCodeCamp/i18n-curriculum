@@ -1,6 +1,6 @@
 ---
 id: 587d781e367417b2b2512aca
-title: Move a Relatively Positioned Element with CSS Offsets
+title: Mueve un elemento posicionado relativamente con desplazamientos de CSS
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/c9bQEA4'
 forumTopicId: 301065
@@ -9,21 +9,21 @@ dashedName: move-a-relatively-positioned-element-with-css-offsets
 
 # --description--
 
-The CSS offsets of `top` or `bottom`, and `left` or `right` tell the browser how far to offset an item relative to where it would sit in the normal flow of the document. You're offsetting an element away from a given spot, which moves the element away from the referenced side (effectively, the opposite direction). As you saw in the last challenge, using the `top` offset moved the `h2` downwards. Likewise, using a `left` offset moves an item to the right.
+Los desplazamientos CSS de `top` o `bottom` y `left` o `right` indican al navegador hasta que punto debe compensar un elemento en relación con el lugar donde se ubicara en el flujo normal del documento. Está compensando un elemento lejos de un punto dado, lo que aleja el elemento del lado al que se hace referencia (efectivamente, en la dirección opuesta). Como viste en el último desafío, usando el desplazamiento `top` movió el `h2` hacia abajo. Del mismo modo, usando un desplazamiento `left` mueve un elemento hacia la derecha.
 
 # --instructions--
 
-Use CSS offsets to move the `h2` 15 pixels to the right and 10 pixels up.
+Utiliza los desplazamientos CSS para mover los `h2` 15 píxeles a la derecha y 10 píxeles hacia arriba.
 
 # --hints--
 
-Your code should use a CSS offset to relatively position the `h2` 10px upwards. In other words, move it 10px away from the `bottom` of where it normally sits.
+Tu código debe usar un desplazamiento CSS para posicionar relativamente el `h2` 10px hacia arriba. En otras palabras, alejarlo 10px de la `bottom` de donde normalmente se encuentra.
 
 ```js
 assert($('h2').css('bottom') == '10px');
 ```
 
-Your code should use a CSS offset to relatively position the `h2` 15px towards the right. In other words, move it 15px away from the `left` of where it normally sits.
+Tu código debe usar un desplazamiento CSS para posicionar relativamente el `h2` 15px hacia la derecha. En otras palabras, alejarlo 15px de la `left` de donde normalmente se encuentra.
 
 ```js
 assert($('h2').css('left') == '15px');

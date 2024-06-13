@@ -1,6 +1,6 @@
 ---
 id: 587d781c367417b2b2512ac4
-title: Set the font-size of Paragraph Text
+title: Establece el tamaño de fuente del texto del párrafo
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cVJ36Cr'
 forumTopicId: 301068
@@ -9,15 +9,15 @@ dashedName: set-the-font-size-of-paragraph-text
 
 # --description--
 
-The `font-size` property in CSS is not limited to headings, it can be applied to any element containing text.
+La propiedad `font-size` en CSS no se limita a los títulos, se puede aplicar a cualquier elemento que contenga texto.
 
 # --instructions--
 
-Change the value of the `font-size` property for the paragraph to 16px to make it more visible.
+Cambia el valor de la propiedad `font-size` para el párrafo a 16px para hacerlo más visible.
 
 # --hints--
 
-Your `p` tag should have a `font-size` of 16 pixels.
+Tu etiqueta `p` debe tener un `font-size` de 16 píxeles.
 
 ```js
 assert($('p').css('font-size') == '16px');

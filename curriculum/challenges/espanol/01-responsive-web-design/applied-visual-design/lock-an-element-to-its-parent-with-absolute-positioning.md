@@ -1,6 +1,6 @@
 ---
 id: 587d781e367417b2b2512acb
-title: Lock an Element to its Parent with Absolute Positioning
+title: Bloquea un elemento con relación a su padre con el posicionamiento absoluto
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cyLJ7c3'
 forumTopicId: 301060
@@ -9,29 +9,29 @@ dashedName: lock-an-element-to-its-parent-with-absolute-positioning
 
 # --description--
 
-The next option for the CSS `position` property is `absolute`, which locks the element in place relative to its parent container. Unlike the `relative` position, this removes the element from the normal flow of the document, so surrounding items ignore it. The CSS offset properties (top or bottom and left or right) are used to adjust the position.
+La siguiente opción para la propiedad CSS `position` es `absolute`, que bloquea el elemento en su lugar en relación con su contenedor principal. A diferencia de la posición `relative`, esto elimina el elemento del flujo normal del documento, por lo que los elementos circundantes lo ignoran. Las propiedades de desplazamiento de CSS (superior o inferior e izquierda o derecha) se utilizan para ajustar la posición.
 
-One nuance with absolute positioning is that it will be locked relative to its closest *positioned* ancestor. If you forget to add a position rule to the parent item, (this is typically done using `position: relative;`), the browser will keep looking up the chain and ultimately default to the `body` tag.
+Un matiz del posicionamiento absoluto es que estará bloqueado en relación con su antepasado *posicionado* más cercano. Si olvidas agregar una regla de posición al elemento principal, (esto generalmente se hace usando `position: relative;`), el navegador seguirá buscando en la jerarquía de elementos y, en última instancia tomará por defecto la etiqueta `body`.
 
 # --instructions--
 
-Lock the `#searchbar` element to the top-right of its `section` parent by declaring its `position` as `absolute`. Give it `top` and `right` offsets of 50 pixels each.
+Bloquea el elemento `#searchbar` en al parte superior derecha de su `section` padre declarando su `position`como `absolute`. Dale desplazamientos `top` y `right` de 50 píxeles cada uno.
 
 # --hints--
 
-The `#searchbar` element should have a `position` set to `absolute`.
+El elemento `#searchbar` debe tener una `position` establecida en `absolute`.
 
 ```js
 assert($('#searchbar').css('position') == 'absolute');
 ```
 
-Your code should use the `top` CSS offset of 50 pixels on the `#searchbar` element.
+Tu código debe usar el desplazamiento CSS `top` de 50 píxeles en el elemento `#searchbar`.
 
 ```js
 assert($('#searchbar').css('top') == '50px');
 ```
 
-Your code should use the `right` CSS offset of 50 pixels on the `#searchbar` element.
+Tu código debe usar el desplazamiento CSS `right` de 50 píxeles en el elemento `#searchbar`.
 
 ```js
 assert($('#searchbar').css('right') == '50px');
