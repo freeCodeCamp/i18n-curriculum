@@ -1,6 +1,6 @@
 ---
 id: 587d78a3367417b2b2512ace
-title: Push Elements Left or Right with the float Property
+title: Empuja elementos hacia la izquierda o hacia la derecha con la propiedad float
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/c2MDqu2'
 forumTopicId: 301066
@@ -9,21 +9,21 @@ dashedName: push-elements-left-or-right-with-the-float-property
 
 # --description--
 
-The next positioning tool does not actually use `position`, but sets the `float` property of an element. Floating elements are removed from the normal flow of a document and pushed to either the `left` or `right` of their containing parent element. It's commonly used with the `width` property to specify how much horizontal space the floated element requires.
+La siguiente herramienta de posicionamiento en realidad no usa `position`, sino que establece la propiedad `float` de un elemento. Los elementos flotantes se eliminan del flujo normal de un documento y se empujan a `left` o `right` de su elemento padre contenedor. Se usa comúnmente con la propiedad `width` para especificar cuanto espacio horizontal requiere el elemento flotante.
 
 # --instructions--
 
-The given markup would work well as a two-column layout, with the `section` and `aside` elements next to each other. Give the `#left` item a `float` of `left` and the `#right` item a `float` of `right`.
+El lenguaje de marcado dado funcionaria bien como un diseño de dos columnas, con los elementos `section` y `aside` uno al lado del otro. Da el `#left` elemento `float` de `left` y `#right` elemento `float` de `right`.
 
 # --hints--
 
-The element with id `left` should have a `float` value of `left`.
+El elemento con id `left` debe tener un valor `float` de `left`.
 
 ```js
 assert($('#left').css('float') == 'left');
 ```
 
-The element with id `right` should have a `float` value of `right`.
+El elemento con id `right` debe tener un valor `float` de `right`.
 
 ```js
 assert($('#right').css('float') == 'right');

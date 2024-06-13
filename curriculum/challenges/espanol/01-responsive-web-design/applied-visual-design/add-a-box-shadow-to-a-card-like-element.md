@@ -1,6 +1,6 @@
 ---
 id: 587d781b367417b2b2512abe
-title: Add a box-shadow to a Card-like Element
+title: Agrega box-shadow a un elemento tipo tarjeta
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cvVZdUd'
 forumTopicId: 301031
@@ -9,23 +9,23 @@ dashedName: add-a-box-shadow-to-a-card-like-element
 
 # --description--
 
-The `box-shadow` property applies one or more shadows to an element.
+La propiedad `box-shadow` aplica una o más sombras a un elemento.
 
-The `box-shadow` property takes the following values, in order:
+La propiedad `box-shadow` toma los siguientes valores, en orden:
 
 <ul>
-  <li><code>offset-x</code> (how far to push the shadow horizontally from the element)</li>
-  <li><code>offset-y</code> (how far to push the shadow vertically from the element)</li>
+  <li><code>offset-x</code> (qué tan lejos extender la sombra horizontalmente desde el elemento)</li>
+  <li><code>offset-y</code> (qué tan lejos extender la sombra verticalmente desde el elemento)</li>
   <li><code>blur-radius</code></li>
   <li><code>spread-radius</code></li>
   <li><code>color</code></li>
 </ul>
 
-The `blur-radius` and `spread-radius` values are optional.
+Los valores `blur-radius` y `spread-radius` son opcionales.
 
-Multiple box-shadows can be created by using commas to separate properties of each `box-shadow` element.
+Se pueden crear múltiples box-shadows usando comas para separar las propiedades de cada elemento `box-shadow`.
 
-Here's an example of the CSS to create multiple shadows with some blur, at mostly-transparent black colors:
+A continuación un ejemplo de CSS para crear múltiples sombras con un poco de desenfoque, con colores negros casi transparentes:
 
 ```css
 box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
@@ -33,17 +33,17 @@ box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 
 # --instructions--
 
-The element now has an id of `thumbnail`. With this selector, use the example CSS values above to place a `box-shadow` on the card.
+El elemento ahora tiene un id de `thumbnail`. Con este selector, usa el los valores del ejemplo CSS anterior para aplicar `box-shadow` sobre la tarjeta.
 
 # --hints--
 
-Your code should add a `box-shadow` property for the `thumbnail` id.
+Tu código debe agregar la propiedad `box-shadow` para el id `thumbnail`.
 
 ```js
 assert(code.match(/#thumbnail\s*?{\s*?box-shadow/g));
 ```
 
-You should use the given CSS for the `box-shadow` value.
+Debes usar el CSS proporcionado para el valor `box-shadow`.
 
 ```js
 assert(

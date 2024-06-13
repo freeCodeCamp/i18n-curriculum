@@ -1,6 +1,6 @@
 ---
 id: 587d781b367417b2b2512abd
-title: Adjust the Size of a Heading Element Versus a Paragraph Element
+title: Ajustar el tamaño de un elemento de encabezado frente a un elemento de párrafo
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/c3bRPTz'
 forumTopicId: 301037
@@ -9,15 +9,15 @@ dashedName: adjust-the-size-of-a-heading-element-versus-a-paragraph-element
 
 # --description--
 
-The font size of heading elements (`h1` through `h6`) should generally be larger than the font size of paragraph tags. This makes it easier for the user to visually understand the layout and level of importance of everything on the page. You use the `font-size` property to adjust the size of the text in an element.
+El tamaño de fuente de las etiquetas de encabezado (`h1` a `h6`) generalmente debe ser mayor que el tamaño de fuente de las etiquetas de párrafos. Esto hace que sea más sencillo para que el usuario entienda visualmente el diseño y el nivel de importancia de cada elemento en la página. Utiliza la propiedad `font-size` para ajustar el tamaño del texto en un elemento.
 
 # --instructions--
 
-To make the heading significantly larger than the paragraph, change the `font-size` of the `h4` element to 27 pixels.
+Para que el encabezado sea significativamente más grande que el párrafo, cambia el `font-size` del elemento `h4` a 27 píxeles.
 
 # --hints--
 
-Your code should add a `font-size` property to the `h4` element set to 27 pixels.
+Tu código debe agregar una propiedad `font-size` al elemento `h4` y establecerlo en 27 píxeles.
 
 ```js
 assert($('h4').css('font-size') == '27px');

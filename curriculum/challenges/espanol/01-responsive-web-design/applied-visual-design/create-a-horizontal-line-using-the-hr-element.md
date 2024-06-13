@@ -1,6 +1,6 @@
 ---
 id: 587d781b367417b2b2512abb
-title: Create a Horizontal Line Using the hr Element
+title: Crea una línea horizontal usando el elemento hr
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/c3bR8t7'
 forumTopicId: 301049
@@ -9,23 +9,23 @@ dashedName: create-a-horizontal-line-using-the-hr-element
 
 # --description--
 
-You can use the `hr` tag to add a horizontal line across the width of its containing element. This can be used to define a change in topic or to visually separate groups of content.
+Puedes usar la etiqueta `hr` para agregar una línea horizontal a través del ancho de su elemento contenedor. Esto se puede usar para definir un cambio de tema o para separa grupos de contenido visualmente.
 
 # --instructions--
 
-Add an `hr` tag underneath the `h4` which contains the card title.
+Agrega una etiqueta `hr` debajo de `h4` que contiene el título de la tarjeta.
 
-**Note:** In HTML, `hr` is a self-closing tag, and therefore doesn't need a separate closing tag.
+**Nota:** en HTML, la etiqueta `hr` se cierra sola, por lo tanto no necesita una etiqueta de cierre por separado.
 
 # --hints--
 
-Your code should add an `hr` tag to the markup.
+Tu código debe agregar una etiqueta `hr` al lenguaje de marcado.
 
 ```js
 assert($('hr').length == 1);
 ```
 
-The `hr` tag should come between the title and the paragraph.
+La etiqueta `hr` debe estar entre el título y el párrafo.
 
 ```js
 assert(code.match(/<\/h4>\s*?<hr(>|\s*?\/>)\s*?<p>/gi));
