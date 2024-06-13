@@ -1,6 +1,6 @@
 ---
 id: 587d781c367417b2b2512ac2
-title: Set the font-size for Multiple Heading Elements
+title: Establece el tamaño de fuente para varios elementos de títulos
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cPpQNT3'
 forumTopicId: 301067
@@ -9,57 +9,57 @@ dashedName: set-the-font-size-for-multiple-heading-elements
 
 # --description--
 
-The `font-size` property is used to specify how large the text is in a given element. This rule can be used for multiple elements to create visual consistency of text on a page. In this challenge, you'll set the values for all `h1` through `h6` tags to balance the heading sizes.
+La propiedad `font-size` se usa para especificar que tan grande es el texto en un elemento dado. Esta regla se puede utilizar para varios elementos para crear coherencia visual del texto en una página. En este desafío, establecerá los valores para todas las etiquetas `h1` a `h6` para equilibrar los tamaños de los títulos.
 
 # --instructions--
 
-In the `style` tags, set the `font-size` of the:
+En las etiquetas `style`, establece el `font-size` de:
 
-- `h1` tag to 68px.
-- `h2` tag to 52px.
-- `h3` tag to 40px.
-- `h4` tag to 32px.
-- `h5` tag to 21px.
-- `h6` tag to 14px.
+- Etiqueta `h1` a 68px.
+- Etiqueta `h2` a 52px.
+- Etiqueta `h3` a 40px.
+- Etiqueta `h4` a 32px.
+- Etiqueta `h5` a 21px.
+- Etiqueta `h6` a 14px.
 
 # --hints--
 
-Your code should set the `font-size` property for the `h1` tag to 68 pixels.
+Tu código debe establecer la propiedad `font-size` para la etiqueta `h1` en 68 píxeles.
 
 ```js
  const fontSizeOfh1 = new __helpers.CSSHelp(document).getStyle('h1')?.getPropertyValue('font-size');
  assert(fontSizeOfh1 === '68px');
 ```
 
-Your code should set the `font-size` property for the `h2` tag to 52 pixels.
+Tu código debe establecer la propiedad `font-size` para la etiqueta `h2` en 52 píxeles.
 
 ```js
  const fontSizeOfh2 = new __helpers.CSSHelp(document).getStyle('h2')?.getPropertyValue('font-size');
  assert(fontSizeOfh2 === '52px');
 ```
 
-Your code should set the `font-size` property for the `h3` tag to 40 pixels.
+Tu código debe establecer la propiedad `font-size` para la etiqueta `h3` en 40 píxeles.
 
 ```js
  const fontSizeOfh3 = new __helpers.CSSHelp(document).getStyle('h3')?.getPropertyValue('font-size');
  assert(fontSizeOfh3 === '40px');
 ```
 
-Your code should set the `font-size` property for the `h4` tag to 32 pixels.
+Tu código debe establecer la propiedad `font-size` para la etiqueta `h4` en 32 píxeles.
 
 ```js
  const fontSizeOfh4 = new __helpers.CSSHelp(document).getStyle('h4')?.getPropertyValue('font-size');
  assert(fontSizeOfh4 === '32px');
 ```
 
-Your code should set the `font-size` property for the `h5` tag to 21 pixels.
+Tu código debe establecer la propiedad `font-size` para la etiqueta `h5` en 21 píxeles.
 
 ```js
  const fontSizeOfh5 = new __helpers.CSSHelp(document).getStyle('h5')?.getPropertyValue('font-size');
  assert(fontSizeOfh5 === '21px');
 ```
 
-Your code should set the `font-size` property for the `h6` tag to 14 pixels.
+Tu código debe establecer la propiedad `font-size` para la etiqueta `h6` en 14 píxeles.
 
 ```js
  const fontSizeOfh6 = new __helpers.CSSHelp(document).getStyle('h6')?.getPropertyValue('font-size');

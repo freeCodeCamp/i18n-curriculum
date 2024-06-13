@@ -1,6 +1,6 @@
 ---
 id: 587d78a4367417b2b2512ad3
-title: Adjust the Color of Various Elements to Complementary Colors
+title: Adjustar los colores de varios elementos para colores complementarios
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cWmPpud'
 forumTopicId: 301033
@@ -9,33 +9,33 @@ dashedName: adjust-the-color-of-various-elements-to-complementary-colors
 
 # --description--
 
-The Complementary Colors challenge showed that opposite colors on the color wheel can make each other appear more vibrant when placed side-by-side. However, the strong visual contrast can be jarring if it's overused on a website, and can sometimes make text harder to read if it's placed on a complementary-colored background. In practice, one of the colors is usually dominant and the complement is used to bring visual attention to certain content on the page.
+En el desafío de colores complementarios vimos que al colocar dos colores opuestos del círculo cromático, parecen más vivos. Sin embargo, el contraste visual fuerte puede ser molesto si se utiliza en un sitio web y algunos veces pueden hacer que el texto sea difícil de leer si está dentro de un complementary-color background. En la práctica, usualmente se usa uno de los colores como dominante y los complementarios se usan para atraer atención visual a cierto contenido dentro de la página.
 
 # --instructions--
 
-This page will use a shade of teal (`#09A7A1`) as the dominant color, and its orange (`#FF790E`) complement to visually highlight the sign-up buttons. Change the `background-color` of both the `header` and `footer` from black to the teal color. Then change the `h2` text `color` to teal as well. Finally, change the `background-color` of the `button` to the orange color.
+Está página utilizará una sombra de cerceta (`#09A7A1`) como color dominante y el complementario naranja (`#FF790E`) para resaltar los botones de inicio de sesión. Cambia el `background-color` del `header` y `footer` de negro a cerceta. Después, cambia `h2` texto `color` también a cerceta. Por último, pon naranja el `background-color` del `button`.
 
 # --hints--
 
-The `header` element should have a `background-color` of #09A7A1.
+El elemento `header` debe tener un `background-color` de #09A7A1.
 
 ```js
 assert($('header').css('background-color') == 'rgb(9, 167, 161)');
 ```
 
-The `footer` element should have a `background-color` of #09A7A1.
+El elemento `footer` debe tener un `background-color` de #09A7A1.
 
 ```js
 assert($('footer').css('background-color') == 'rgb(9, 167, 161)');
 ```
 
-The `h2` element should have a `color` of #09A7A1.
+El elemento `h2` debe tener un `color` de #09A7A1.
 
 ```js
 assert($('h2').css('color') == 'rgb(9, 167, 161)');
 ```
 
-The `button` element should have a `background-color` of #FF790E.
+El elemento `button` debe tener un `background-color` de #FF790E.
 
 ```js
 assert($('button').css('background-color') == 'rgb(255, 121, 14)');

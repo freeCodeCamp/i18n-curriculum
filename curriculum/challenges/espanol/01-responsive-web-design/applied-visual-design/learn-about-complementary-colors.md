@@ -1,6 +1,6 @@
 ---
 id: 587d78a3367417b2b2512ad1
-title: Learn about Complementary Colors
+title: Aprende sobre colores complementarios
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/c2MD3Tr'
 forumTopicId: 301056
@@ -9,33 +9,33 @@ dashedName: learn-about-complementary-colors
 
 # --description--
 
-Color theory and its impact on design is a deep topic and only the basics are covered in the following challenges. On a website, color can draw attention to content, evoke emotions, or create visual harmony. Using different combinations of colors can really change the look of a website, and a lot of thought can go into picking a color palette that works with your content.
+La teoría del color y su impacto en el diseño es un tema pesado y solo cubriremos los aspectos básicos en los próximos desafíos. En un sitio web, los colores llaman la atención, provocan emociones y crean una armonía visual. Con diferentes combinaciones de colores se puede cambiar el aspecto de un sitio web y requiere una planificación extensa decidirse por una paleta de color que se integre con nuestro contenido.
 
-The color wheel is a useful tool to visualize how colors relate to each other - it's a circle where similar hues are neighbors and different hues are farther apart. When two colors are opposite each other on the wheel, they are called complementary colors. They have the characteristic that if they are combined, they "cancel" each other out and create a gray color. However, when placed side-by-side, these colors appear more vibrant and produce a strong visual contrast.
+El círculo cromático es una herramienta útil para observar cómo los colores están relacionados entre sí - es un círculo donde los tonos similares están juntos y los tonos diferentes alejados. Cuando dos colores opuestos están juntos en el círculo, se los llama colores complementarios. Se caracterizan porque si se combinan, se cancelan así mismos y crean un color gris. Sin embargo, al ubicarse juntos, estos colores parecen más brillantes y producen un contraste visual fuerte.
 
-Some examples of complementary colors with their hex codes are:
+A continuación hay algunos ejemplos de colores con sus códigos hexadecimales:
 
-<blockquote>red (#FF0000) and cyan (#00FFFF)<br>green (#00FF00) and magenta (#FF00FF)<br>blue (#0000FF) and yellow (#FFFF00)</blockquote>
+<blockquote>rojo (#FF0000) y cian (#00FFFF)<br>verde(#00FF00) y magenta (#FF00FF)<br>azul (#0000FF) y amarillo (#FFFF00)</blockquote>
 
-This is different than the outdated RYB color model that many of us were taught in school, which has different primary and complementary colors. Modern color theory uses the additive RGB model (like on a computer screen) and the subtractive CMY(K) model (like in printing).
+Esto es diferente del anticuado modelo de color RYB que muchos de nosotros aprendimos en la escuela, que tiene diferentes colores primarios y complementarios. La teoría moderna del color utiliza el modelo aditivo RGB (como en una pantalla de computadora) y el modelo restante CMY(K) (como en la impresión).
 
-There are many color picking tools available online that have an option to find the complement of a color.
+Hay muchas herramientas de selección de color disponibles en línea que tienen la opción de encontrar el complemento de un color.
 
-**Note:** Using color can be a powerful way to add visual interest to a page. However, color alone should not be used as the only way to convey important information because users with visual impairments may not understand that content. This issue will be covered in more detail in the Applied Accessibility challenges.
+**Nota:** El uso del color puede ser una forma poderosa de agregar interés visual a una página. Sin embargo, el color por sí solo no debe utilizarse como la única manera de transmitir información importante porque los usuarios con deficiencias visuales pueden no entender ese contenido. Esta cuestión se tratará con más detalle en los desafíos de accesibilidad aplicada.
 
 # --instructions--
 
-Change the `background-color` property of the `blue` and `yellow` classes to their respective colors. Notice how the colors look different next to each other than they do compared against the white background.
+Cambia la propiedad `background-color` de las clases `blue` y `yellow` a sus colores respectivos. Observa cómo se ven los colores unos a otros distintos de los que se comparan con el fondo blanco.
 
 # --hints--
 
-The `div` element with class `blue` should have a `background-color` of blue.
+El elemento `div` con clase `blue` debe tener un `background-color` azul.
 
 ```js
 assert($('.blue').css('background-color') == 'rgb(0, 0, 255)');
 ```
 
-The `div` element with class `yellow` should have a `background-color` of yellow.
+El elemento `div` con clase `yellow` debe tener un `background-color` amarillo.
 
 ```js
 assert($('.yellow').css('background-color') == 'rgb(255, 255, 0)');
