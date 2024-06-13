@@ -370,6 +370,11 @@ jobs:
       # - name: Overwrite Execute-Brain.md
       #   run: sudo tools/scripts/move-bf.sh
 
+      - name: Check Paths
+        uses: freecodecamp/crowdin-action@main
+        env:
+          PLUGIN: 'check-paths'
+
       - name: Debug 1
         run: |
           git status
