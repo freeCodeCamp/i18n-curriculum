@@ -1,6 +1,6 @@
 ---
 id: 587d781a367417b2b2512ab9
-title: Usa la etiqueta em para poner texto en cursiva
+title: Use the em Tag to Italicize Text
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cVJRBtp'
 forumTopicId: 301078
@@ -9,21 +9,21 @@ dashedName: use-the-em-tag-to-italicize-text
 
 # --description--
 
-Para enfatizar el texto, puedes usar la etiqueta `em`. Esto muestra el texto en cursiva, ya que el navegador aplica el CSS de `font-style: italic;` al elemento.
+To emphasize text, you can use the `em` tag. This displays text as italicized, as the browser applies the CSS of `font-style: italic;` to the element.
 
 # --instructions--
 
-Envuelve una etiqueta `em` alrededor del contenido de la etiqueta de párrafo para darle énfasis.
+Wrap an `em` tag around the contents of the paragraph tag to give it emphasis.
 
 # --hints--
 
-Tu código debe agregar una etiqueta `em` al lenguaje de marcado.
+Your code should add an `em` tag to the markup.
 
 ```js
 assert($('em').length == 1);
 ```
 
-La etiqueta `em` debe envolver el contenido de la etiqueta `p` pero no la etiqueta `p` en sí.
+The `em` tag should wrap around the contents of the `p` tag but not the `p` tag itself.
 
 ```js
 assert($('p').children().length == 1 && $('em').children().length == 2);

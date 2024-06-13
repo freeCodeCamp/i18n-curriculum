@@ -1,6 +1,6 @@
 ---
 id: 587d78a7367417b2b2512ae2
-title: Crear dirección visual desvaneciendo un elemento de izquierda a derecha
+title: Create Visual Direction by Fading an Element from Left to Right
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cGJqqAE'
 forumTopicId: 301054
@@ -9,17 +9,17 @@ dashedName: create-visual-direction-by-fading-an-element-from-left-to-right
 
 # --description--
 
-Para este desafío, cambiarás la opacidad (`opacity`) de un elemento animado para que se desvanezca gradualmente a medida que llega al lado derecho de la pantalla.
+For this challenge, you'll change the `opacity` of an animated element so it gradually fades as it reaches the right side of the screen.
 
-En la animación mostrada, el elemento redondo con el fondo degradado se mueve hacia la derecha con la marca del 50% de la animación según la regla `@keyframes`.
+In the displayed animation, the round element with the gradient background moves to the right by the 50% mark of the animation per the `@keyframes` rule.
 
 # --instructions--
 
-Apunta al elemento con el id de `ball` y agrega la propiedad `opacity` establecida en 0.1 en `50%`, de modo que el elemento se desvanezca a medida que se mueve hacia la derecha.
+Target the element with the id of `ball` and add the `opacity` property set to 0.1 at `50%`, so the element fades as it moves to the right.
 
 # --hints--
 
-La regla `keyframes` para desvanecimiento debe establecer la propiedad `opacity` en 0.1 al 50%.
+The `keyframes` rule for fade should set the `opacity` property to 0.1 at 50%.
 
 ```js
 assert(

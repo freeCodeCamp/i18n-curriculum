@@ -1,6 +1,6 @@
 ---
 id: 587d78a5367417b2b2512ad6
-title: Crea un gradiente lineal de CSS gradual
+title: Create a Gradual CSS Linear Gradient
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cg4dpt9'
 forumTopicId: 301047
@@ -9,15 +9,15 @@ dashedName: create-a-gradual-css-linear-gradient
 
 # --description--
 
-La aplicación de un color en elementos HTML no se limita a un tono plano. CSS proporciona la capacidad de usar transiciones de color, también conocidas como degradados, en los elementos. Esto se accede a través de la función `linear-gradient()` de la propiedad `background`. Aquí está la sintaxis general:
+Applying a color on HTML elements is not limited to one flat hue. CSS provides the ability to use color transitions, otherwise known as gradients, on elements. This is accessed through the `background` property's `linear-gradient()` function. Here is the general syntax:
 
 ```css
 background: linear-gradient(gradient_direction, color 1, color 2, color 3, ...);
 ```
 
-El primer argumento especifica la dirección desde la que comienza la transición de color, se puede establecer como un grado, donde `90deg` hace un gradiente horizontal (de izquierda a derecha) y `45deg` hace un gradiente diagonal (de abajo a izquierda hacia arriba a la derecha). Los siguientes argumentos especifican el orden de los colores utilizados en el degradado.
+The first argument specifies the direction from which color transition starts - it can be stated as a degree, where `90deg` makes a horizontal gradient (from left to right) and `45deg` makes a diagonal gradient (from bottom left to top right). The following arguments specify the order of colors used in the gradient.
 
-Ejemplo:
+Example:
 
 ```css
 background: linear-gradient(90deg, red, yellow, rgb(204, 204, 255));
@@ -25,11 +25,11 @@ background: linear-gradient(90deg, red, yellow, rgb(204, 204, 255));
 
 # --instructions--
 
-Utiliza un `linear-gradient()` para el `background` del elemento `div` y configúralo desde una dirección de 35 grados para cambiar el color de `#CCFFFF` a `#FFCCCC`.
+Use a `linear-gradient()` for the `div` element's `background`, and set it from a direction of 35 degrees to change the color from `#CCFFFF` to `#FFCCCC`.
 
 # --hints--
 
-El elemento `div` debe tener un `linear-gradient` `background` con la dirección y los colores especificados.
+The `div` element should have a `linear-gradient` `background` with the specified direction and colors.
 
 ```js
 assert(

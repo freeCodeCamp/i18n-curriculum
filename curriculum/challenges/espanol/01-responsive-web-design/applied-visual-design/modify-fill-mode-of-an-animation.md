@@ -1,6 +1,6 @@
 ---
 id: 58a7a6ebf9a6318348e2d5aa
-title: Modifica el modo de relleno de una animación (animation-fill-mode)
+title: Modify Fill Mode of an Animation
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cVJDmcE'
 forumTopicId: 301064
@@ -9,9 +9,9 @@ dashedName: modify-fill-mode-of-an-animation
 
 # --description--
 
-Eso es genial, pero aún no funciona bien. Observa como la animación se restablece después de que haya pasado `500ms`, haciendo que el botón vuelva al color original. Lo que quieres es que el botón permanezca resaltado.
+That's great, but it doesn't work right yet. Notice how the animation resets after `500ms` has passed, causing the button to revert back to the original color. You want the button to stay highlighted.
 
-Esto se puede hacer estableciendo la propiedad `animation-fill-mode` en `forwards`. El `animation-fill-mode` especifica el estilo aplicado a un elemento cuando la animación ha finalizado. Puedes configurarlo así:
+This can be done by setting the `animation-fill-mode` property to `forwards`. The `animation-fill-mode` specifies the style applied to an element when the animation has finished. You can set it like so:
 
 ```css
 animation-fill-mode: forwards;
@@ -19,11 +19,11 @@ animation-fill-mode: forwards;
 
 # --instructions--
 
-Establece la propiedad `animation-fill-mode` de `button:hover` en `forwards` para que el botón permanezca resaltado cuando un usuario pase sobre el.
+Set the `animation-fill-mode` property of `button:hover` to `forwards` so the button stays highlighted when a user hovers over it.
 
 # --hints--
 
-`button:hover` debe tener una propiedad `animation-fill-mode` con un valor de `forwards`.
+`button:hover` should have a `animation-fill-mode` property with a value of `forwards`.
 
 ```js
 assert(

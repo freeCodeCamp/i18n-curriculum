@@ -1,6 +1,6 @@
 ---
 id: 587d78a9367417b2b2512aea
-title: Haz que el movimiento sea más natural usando una curva de Bezier
+title: Make Motion More Natural Using a Bezier Curve
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/c7akWUv'
 forumTopicId: 301063
@@ -9,25 +9,25 @@ dashedName: make-motion-more-natural-using-a-bezier-curve
 
 # --description--
 
-Este desafío anima un elemento para replicar el movimiento de una pelota que se hace rebotes. Los desafíos anteriores cubrirán las curvas cúbicas de Bezier `linear` y `ease-out`, sin embargo, ninguna representa el movimiento de rebotes con precisión. Necesitas personalizar una curva de Bezier para esto.
+This challenge animates an element to replicate the movement of a ball being juggled. Prior challenges covered the `linear` and `ease-out` cubic Bezier curves, however neither depicts the juggling movement accurately. You need to customize a Bezier curve for this.
 
-La función `animation-timing-function` se realiza automáticamente en cada fotograma clave (keyframe) cuando el `animation-iteration-count` se establece en infinito. Dado que hay una regla de fotogramas clave establecida en el medio de la duración de la animación (en `50%`, da como resultado dos progresiones de animación idénticas en el movimiento hacia arriba y hacia abajo de la pelota.
+The `animation-timing-function` automatically loops at every keyframe when the `animation-iteration-count` is set to infinite. Since there is a keyframe rule set in the middle of the animation duration (at `50%`), it results in two identical animation progressions at the upward and downward movement of the ball.
 
-La siguiente curva cúbica de Bezier simula el movimiento de rebotes:
+The following cubic Bezier curve simulates a juggling movement:
 
 ```css
 cubic-bezier(0.3, 0.4, 0.5, 1.6);
 ```
 
-Observa que el valor de y2 es mayor que 1. Aunque la curva cúbica de Bezier se mapea en un sistema de coordenadas 1 por 1, y solo puede aceptar valores x de 0 a 1, el valor y se puede establecer en números mayores que uno. Esto da como resultado un movimiento de rebote que es ideal para simular la pelota rebotando.
+Notice that the value of y2 is larger than 1. Although the cubic Bezier curve is mapped on a 1 by 1 coordinate system, and it can only accept x values from 0 to 1, the y value can be set to numbers larger than one. This results in a bouncing movement that is ideal for simulating the juggling ball.
 
 # --instructions--
 
-Cambia el valor de la función `animation-timing-function` del elemento con el id de `green` a una función `cubic-bezier` con valores x1, y1, x2, y2 establecidos respectivamente en 0.311, 0.441, 0.444, 1.649.
+Change value of the `animation-timing-function` of the element with the id of `green` to a `cubic-bezier` function with x1, y1, x2, y2 values set respectively to 0.311, 0.441, 0.444, 1.649.
 
 # --hints--
 
-El valor de la propiedad `animation-timing-function` para el elemento con el id `green` debe ser una función `cubic-bezier` con valores x1, y1, x2, y2 como se especifica.
+The value of the `animation-timing-function` property for the element with the id `green` should be a `cubic-bezier` function with x1, y1, x2, y2 values as specified.
 
 ```js
 assert(

@@ -1,6 +1,6 @@
 ---
 id: 587d7791367417b2b2512ab4
-title: Ajusta el ancho de un elemento utilizando la propiedad width
+title: Adjust the Width of an Element Using the width Property
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cvVLPtN'
 forumTopicId: 301039
@@ -9,7 +9,7 @@ dashedName: adjust-the-width-of-an-element-using-the-width-property
 
 # --description--
 
-Puedes especificar el ancho de un elemento con la propiedad `width` en CSS. Los valores se pueden dar en unidades de longitud relativa (como `em`, unidades de longitud absoluta (como `px`, o como un porcentaje de su elemento padre contenedor. El siguiente ejemplo cambia el ancho de una imagen a 220px:
+You can specify the width of an element using the `width` property in CSS. Values can be given in relative length units (such as `em`), absolute length units (such as `px`), or as a percentage of its containing parent element. Here's an example that changes the width of an image to 220px:
 
 ```css
 img {
@@ -19,11 +19,11 @@ img {
 
 # --instructions--
 
-Añade la propiedad `width` a toda la tarjeta y establécelo en un valor absoluto de 245px. Utiliza la clase `fullCard` para seleccionar el elemento.
+Add a `width` property to the entire card and set it to an absolute value of 245px. Use the `fullCard` class to select the element.
 
 # --hints--
 
-El código debe cambiar la propiedad `width` de la tarjeta a 245 píxeles con el selector de clase `fullCard`.
+Your code should change the `width` property of the card to 245 pixels by using the `fullCard` class selector.
 
 ```js
 const fullCard = code.match(/\.fullCard\s*{[\s\S]+?[^}]}/g);

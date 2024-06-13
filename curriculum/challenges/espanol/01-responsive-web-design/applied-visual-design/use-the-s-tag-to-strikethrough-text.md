@@ -1,6 +1,6 @@
 ---
 id: 587d781b367417b2b2512aba
-title: Usa la etiqueta s para tachar texto
+title: Use the s Tag to Strikethrough Text
 challengeType: 0
 forumTopicId: 301079
 dashedName: use-the-s-tag-to-strikethrough-text
@@ -8,21 +8,21 @@ dashedName: use-the-s-tag-to-strikethrough-text
 
 # --description--
 
-Para tachar el texto, que es cuando una línea horizontal atraviesa los caracteres, puede usar la etiqueta `s`. Muestra que una sección de texto ya no es válida. Con la etiqueta `s`, el navegador aplica el CSS de `text-decoration: line-through;` al elemento.
+To strikethrough text, which is when a horizontal line cuts across the characters, you can use the `s` tag. It shows that a section of text is no longer valid. With the `s` tag, the browser applies the CSS of `text-decoration: line-through;` to the element.
 
 # --instructions--
 
-Envuelve la etiqueta `s` alrededor de `Google` dentro de la etiqueta `h4` y luego agrega la palabra `Alphabet` al lado sin el formato de tachado.
+Wrap the `s` tag around `Google` inside the `h4` tag and then add the word `Alphabet` beside it without the strikethrough formatting.
 
 # --hints--
 
-Tu código debe agregar una etiqueta `s` al lenguaje de marcado.
+Your code should add one `s` tag to the markup.
 
 ```js
 assert($('s').length == 1);
 ```
 
-Una etiqueta `s` debe envolver alrededor del texto `Google` en la etiqueta `h4`. No debe contener la palabra `Alphabet`.
+A `s` tag should wrap around the `Google` text in the `h4` tag. It should not contain the word `Alphabet`.
 
 ```js
 assert(
@@ -35,7 +35,7 @@ assert(
 );
 ```
 
-Debes incluir la palabra `Alphabet` en la etiqueta `h4`, sin formato de tachado.
+You should include the word `Alphabet` in the `h4` tag, without strikethrough formatting.
 
 ```js
 assert(
