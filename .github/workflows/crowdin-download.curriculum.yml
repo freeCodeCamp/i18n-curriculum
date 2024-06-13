@@ -380,6 +380,11 @@ jobs:
           GH_BRANCH: 'i18n-sync-curriculum'
           GH_MESSAGE: 'chore(i18n,learn): processed translations'
 
+      - name: Debug
+        run: |
+          git status
+          git log --online -1
+
       # Create PR
       - name: Create PR
         uses: freecodecamp/crowdin-action@main
