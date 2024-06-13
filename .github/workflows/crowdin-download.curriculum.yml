@@ -393,6 +393,7 @@ jobs:
         run: |
           git status
           git log --oneline -1
+          git remote -v
 
       # Create PR
       - name: Create PR
