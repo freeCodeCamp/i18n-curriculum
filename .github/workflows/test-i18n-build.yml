@@ -50,8 +50,8 @@ jobs:
 
       - name: Copy i18n Challenges
         run: |
-          cp -r curriculum/challenges freecodecamp/curriculum/challenges
-          cp -r curriculum/dictionaries freecodecamp/curriculum/dictionaries
+          cp -r curriculum/challenges fcc/curriculum/challenges
+          cp -r curriculum/dictionaries fcc/curriculum/dictionaries
 
       - name: Debug 2
         run: |
