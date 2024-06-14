@@ -23,7 +23,7 @@ jobs:
         run: |
           pwd
           echo "----------------"
-          ls
+          ls -la
 
       - name: Remove English
         run: |
