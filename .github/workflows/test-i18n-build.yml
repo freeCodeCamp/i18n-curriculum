@@ -42,6 +42,7 @@ jobs:
 
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@60edb5dd545a775178f52524783378180af0d1f8 # v4.0.2
+        working-directory: freeCodeCamp
         with:
           node-version: ${{ matrix.node-version }}
           cache: pnpm
@@ -114,6 +115,28 @@ jobs:
           CURRICULUM_LOCALE: ${{ matrix.locale }}
           CLIENT_LOCALE: ${{ matrix.locale }}
         run: pnpm test:curriculum
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
