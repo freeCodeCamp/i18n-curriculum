@@ -26,9 +26,6 @@ jobs:
         run: |
           pwd
           ls -la
-          echo "----------------"
-          cd ..
-          ls -la
 
       - name: Remove English
         run: |
@@ -50,8 +47,8 @@ jobs:
 
       - name: Copy i18n Challenges
         run: |
-          cp -r curriculum/challenges fcc/curriculum/challenges
-          cp -r curriculum/dictionaries fcc/curriculum/dictionaries
+          cp -r curriculum/challenges/* fcc/curriculum/challenges
+          cp -r curriculum/dictionaries/* fcc/curriculum/dictionaries
 
       - name: Debug 2
         run: |
