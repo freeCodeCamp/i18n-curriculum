@@ -25,8 +25,7 @@ jobs:
         run: git clone https://github.com/freeCodeCamp/freeCodeCamp.git
 
       - name: Remove i18n Challenges from freeCodeCamp
-        run: |
-          rm -rf freeCodeCamp/curriculum/{challenges/{arabic,chinese,chinese-traditional,espanol,german,italian,japanese,korean,portuguese,swahili,ukrainian},dictionaries/{arabic,chinese,chinese-traditional,espanol,german,italian,japanese,korean,portuguese,swahili,ukrainian}}
+        run: rm -rf freeCodeCamp/curriculum/{challenges/{arabic,chinese,chinese-traditional,espanol,german,italian,japanese,korean,portuguese,swahili,ukrainian},dictionaries/{arabic,chinese,chinese-traditional,espanol,german,italian,japanese,korean,portuguese,swahili,ukrainian}}
 
       - name: Copy i18n Challenges
         run: |
@@ -45,15 +44,15 @@ jobs:
           cache: pnpm
 
       - name: Set Environment variables
-        run: |
-          cp freeCodeCamp/sample.env freeCodeCamp/.env
-          cat freeCodeCamp/.env
+        working-directory: freeCodeCamp
+        run: cp sample.env .env
 
       - name: Install node_modules
+        working-directory: freeCodeCamp
         run: cd freeCodeCamp && pnpm install
 
-    outputs:
-      freecodecamp_path: freeCodeCamp
+    # outputs:
+    #   freecodecamp_path: freeCodeCamp
 
   build:
     needs: setup
@@ -93,23 +92,25 @@ jobs:
         run: cp -r curriculum/challenges/* freeCodeCamp/curriculum/challenges/
 
       - name: Build Client in ${{ matrix.locale }}
+        working-directory: freeCodeCamp
         env:
           CURRICULUM_LOCALE: ${{ matrix.locale }}
           CLIENT_LOCALE: ${{ matrix.locale }}
-        run: |
-          cd freeCodeCamp && pnpm run build
+        run: pnpm run build
 
       - name: Audit Challenges
+        working-directory: freeCodeCamp
         env:
           CURRICULUM_LOCALE: ${{ matrix.locale }}
           CLIENT_LOCALE: ${{ matrix.locale }}
-        run: cd freeCodeCamp && pnpm run audit-challenges
+        run: pnpm run audit-challenges
 
       - name: Run Tests
+        working-directory: freeCodeCamp
         env:
           CURRICULUM_LOCALE: ${{ matrix.locale }}
           CLIENT_LOCALE: ${{ matrix.locale }}
-        run: cd freeCodeCamp && pnpm test:curriculum
+        run: pnpm test:curriculum
 
 
 
