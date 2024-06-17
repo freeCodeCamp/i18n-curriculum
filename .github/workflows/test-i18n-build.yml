@@ -34,28 +34,28 @@ jobs:
       # Todo: Remove this step after we remove the files from the repo
       - name: Remove i18n Challenges from freeCodeCamp
         run: |
-          rm -rf freecodecamp/curriculum/challenges/english/arabic
-          rm -rf freecodecamp/curriculum/challenges/english/chinese
-          rm -rf freecodecamp/curriculum/challenges/english/chinese-traditional
-          rm -rf freecodecamp/curriculum/challenges/english/espanol
-          rm -rf freecodecamp/curriculum/challenges/english/german
-          rm -rf freecodecamp/curriculum/challenges/english/italian
-          rm -rf freecodecamp/curriculum/challenges/english/japanese
-          rm -rf freecodecamp/curriculum/challenges/english/korean
-          rm -rf freecodecamp/curriculum/challenges/english/portuguese
-          rm -rf freecodecamp/curriculum/challenges/english/swahili
-          rm -rf freecodecamp/curriculum/challenges/english/ukrainian
-          rm -rf freecodecamp/curriculum/dictionaries/english/arabic
-          rm -rf freecodecamp/curriculum/dictionaries/english/chinese
-          rm -rf freecodecamp/curriculum/dictionaries/english/chinese-traditional
-          rm -rf freecodecamp/curriculum/dictionaries/english/espanol
-          rm -rf freecodecamp/curriculum/dictionaries/english/german
-          rm -rf freecodecamp/curriculum/dictionaries/english/italian
-          rm -rf freecodecamp/curriculum/dictionaries/english/japanese
-          rm -rf freecodecamp/curriculum/dictionaries/english/korean
-          rm -rf freecodecamp/curriculum/dictionaries/english/portuguese
-          rm -rf freecodecamp/curriculum/dictionaries/english/swahili
-          rm -rf freecodecamp/curriculum/dictionaries/english/ukrainian
+          rm -rf freecodecamp/curriculum/challenges/arabic
+          rm -rf freecodecamp/curriculum/challenges/chinese
+          rm -rf freecodecamp/curriculum/challenges/chinese-traditional
+          rm -rf freecodecamp/curriculum/challenges/espanol
+          rm -rf freecodecamp/curriculum/challenges/german
+          rm -rf freecodecamp/curriculum/challenges/italian
+          rm -rf freecodecamp/curriculum/challenges/japanese
+          rm -rf freecodecamp/curriculum/challenges/korean
+          rm -rf freecodecamp/curriculum/challenges/portuguese
+          rm -rf freecodecamp/curriculum/challenges/swahili
+          rm -rf freecodecamp/curriculum/challenges/ukrainian
+          rm -rf freecodecamp/curriculum/dictionaries/arabic
+          rm -rf freecodecamp/curriculum/dictionaries/chinese
+          rm -rf freecodecamp/curriculum/dictionaries/chinese-traditional
+          rm -rf freecodecamp/curriculum/dictionaries/espanol
+          rm -rf freecodecamp/curriculum/dictionaries/german
+          rm -rf freecodecamp/curriculum/dictionaries/italian
+          rm -rf freecodecamp/curriculum/dictionaries/japanese
+          rm -rf freecodecamp/curriculum/dictionaries/korean
+          rm -rf freecodecamp/curriculum/dictionaries/portuguese
+          rm -rf freecodecamp/curriculum/dictionaries/swahili
+          rm -rf freecodecamp/curriculum/dictionaries/ukrainian
 
       - name: Debug
         run: |
