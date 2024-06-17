@@ -27,9 +27,9 @@ jobs:
           rm -rf curriculum/challenges/english/
           rm -rf curriculum/dictionaries/english/
 
-      - name: Checkout Main Repo
+      - name: Clone freeCodeCamp Repo
         run: |
-          git clone https://github.com/freeCodeCamp/freeCodeCamp.git freecodecamp
+          git clone https://github.com/freeCodeCamp/freeCodeCamp.git
 
       # Todo: Remove this step after we remove the files from the repo
       - name: Remove i18n Challenges from freeCodeCamp
@@ -59,6 +59,10 @@ jobs:
 
       - name: Debug
         run: |
+          ls -la
+          echo "----------------"
+          ls -la freecodecamp
+          echo "----------------"
           ls -la freecodecamp/curriculum/challenges
           echo "----------------"
           ls -la freecodecamp/curriculum/dictionaries
