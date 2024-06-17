@@ -22,36 +22,54 @@ jobs:
       - name: Checkout Source Files
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
 
-      - name: Debug 1
-        run: |
-          pwd
-          ls -la
-
       - name: Remove English
         run: |
           rm -rf curriculum/challenges/english/
           rm -rf curriculum/dictionaries/english/
 
-      - name: Debug 2
-        run: |
-          ls -la curriculum/challenges
-          echo "----------------"
-          ls -la curriculum/dictionaries
-
       - name: Checkout Main Repo
         run: |
-          git clone https://github.com/moT01/fcc.git fcc
+          git clone https://github.com/freeCodeCamp/freeCodeCamp.git freecodecamp
 
-      - name: Debug 3
-        run: ls -la
+      # Todo: Remove this step after we remove the files from the repo
+      - name: Remove i18n Challenges from freeCodeCamp
+        run: |
+          rm -rf freecodecamp/curriculum/challenges/english/arabic
+          rm -rf freecodecamp/curriculum/challenges/english/chinese
+          rm -rf freecodecamp/curriculum/challenges/english/chinese-traditional
+          rm -rf freecodecamp/curriculum/challenges/english/espanol
+          rm -rf freecodecamp/curriculum/challenges/english/german
+          rm -rf freecodecamp/curriculum/challenges/english/italian
+          rm -rf freecodecamp/curriculum/challenges/english/japanese
+          rm -rf freecodecamp/curriculum/challenges/english/korean
+          rm -rf freecodecamp/curriculum/challenges/english/portuguese
+          rm -rf freecodecamp/curriculum/challenges/english/swahili
+          rm -rf freecodecamp/curriculum/challenges/english/ukrainian
+          rm -rf freecodecamp/curriculum/dictionaries/english/arabic
+          rm -rf freecodecamp/curriculum/dictionaries/english/chinese
+          rm -rf freecodecamp/curriculum/dictionaries/english/chinese-traditional
+          rm -rf freecodecamp/curriculum/dictionaries/english/espanol
+          rm -rf freecodecamp/curriculum/dictionaries/english/german
+          rm -rf freecodecamp/curriculum/dictionaries/english/italian
+          rm -rf freecodecamp/curriculum/dictionaries/english/japanese
+          rm -rf freecodecamp/curriculum/dictionaries/english/korean
+          rm -rf freecodecamp/curriculum/dictionaries/english/portuguese
+          rm -rf freecodecamp/curriculum/dictionaries/english/swahili
+          rm -rf freecodecamp/curriculum/dictionaries/english/ukrainian
+
+      - name: Debug
+        run: |
+          ls -la freecodecamp/curriculum/challenges
+          echo "----------------"
+          ls -la freecodecamp/curriculum/dictionaries
 
       - name: Copy i18n Challenges
         run: |
-          cp -r curriculum/challenges/* fcc/curriculum/challenges
-          cp -r curriculum/dictionaries/* fcc/curriculum/dictionaries
+          cp -r curriculum/challenges/* freecodecamp/curriculum/challenges
+          cp -r curriculum/dictionaries/* freecodecamp/curriculum/dictionaries
 
-      - name: Debug 2
+      - name: Debug
         run: |
-          ls -la fcc/curriculum/challenges
+          ls -la freecodecamp/curriculum/challenges
           echo "----------------"
-          ls -la fcc/curriculum/dictionaries
+          ls -la freecodecamp/curriculum/dictionaries
