@@ -76,7 +76,7 @@ jobs:
           - 'ukrainian'
       fail-fast: false
 
-    # steps:
+    steps:
     #   - name: Checkout Source Files
     #     uses: actions/checkout@v4.1.1
 
