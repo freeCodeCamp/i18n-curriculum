@@ -10,7 +10,8 @@ permissions:
   contents: read
 
 jobs:
-  setup:
+  validate-i18n-curriculum:
+    name: Validate i18n Curriculum
     runs-on: ubuntu-22.04
     strategy:
       matrix:
