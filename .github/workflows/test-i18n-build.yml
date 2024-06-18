@@ -78,6 +78,11 @@ jobs:
       fail-fast: false
 
     steps:
+      - name: Debug
+        run: |
+          ls -la
+          echo "----------------"
+          la -la freeCodeCamp
     #   - name: Checkout Source Files
     #     uses: actions/checkout@v4.1.1
 
