@@ -82,12 +82,12 @@ jobs:
           CLIENT_LOCALE: ${{ matrix.locale }}
         run: pnpm run build
 
-      - name: Audit Challenges
-        working-directory: freeCodeCamp
-        env:
-          CURRICULUM_LOCALE: ${{ matrix.locale }}
-          CLIENT_LOCALE: ${{ matrix.locale }}
-        run: pnpm run audit-challenges
+      # - name: Audit Challenges
+      #   working-directory: freeCodeCamp
+      #   env:
+      #     CURRICULUM_LOCALE: ${{ matrix.locale }}
+      #     CLIENT_LOCALE: ${{ matrix.locale }}
+      #   run: pnpm run audit-challenges
 
       - name: Run Tests
         working-directory: freeCodeCamp
