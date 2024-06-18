@@ -55,8 +55,18 @@ jobs:
         working-directory: freeCodeCamp
         run: pnpm install
 
+      - name: Archive freeCodeCamp directory
+        run: tar -czf freeCodeCamp.tar.gz freeCodeCamp
+
+      - name: Upload freeCodeCamp artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: freeCodeCamp
+          path: freeCodeCamp.tar.gz
+
     # outputs:
     #   freecodecamp_path: freeCodeCamp
+
 
   build:
     needs: setup
@@ -78,6 +88,15 @@ jobs:
       fail-fast: false
 
     steps:
+      - name: Download freeCodeCamp artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: freeCodeCamp
+          path: .
+
+      - name: Extract freeCodeCamp archive
+        run: tar -xzf freeCodeCamp.tar.gz
+
       - name: Debug
         run: |
           ls -la
