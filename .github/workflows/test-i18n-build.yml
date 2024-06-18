@@ -53,7 +53,7 @@ jobs:
 
       - name: Install node_modules
         working-directory: freeCodeCamp
-        run: cd freeCodeCamp && pnpm install
+        run: pnpm install
 
     # outputs:
     #   freecodecamp_path: freeCodeCamp
