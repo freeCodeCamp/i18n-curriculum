@@ -9,8 +9,8 @@ env:
   CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID_CURRICULUM }}
 
 jobs:
-  i18n-download-curriculum-translations:
-    name: Curriculum
+  download-i18n-curriculum:
+    name: Download i18n Curriculum
     runs-on: ubuntu-22.04
     strategy:
       matrix:
