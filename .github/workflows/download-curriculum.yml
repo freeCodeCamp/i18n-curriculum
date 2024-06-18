@@ -78,8 +78,8 @@ jobs:
           import_eq_suggestions: false
 
           # downloads
-          # download_sources: true
-          # push_sources: false
+          download_sources: true
+          push_sources: false
           download_translations: true
           download_language: es-EM
           skip_untranslated_strings: false
