@@ -45,7 +45,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: pnpm
-          cache-dependency-path: freeCodeCamp/package-lock.json
+          cache-dependency-path: freeCodeCamp/pnpm-lock.yaml
 
       - name: Set Environment variables
         working-directory: freeCodeCamp
