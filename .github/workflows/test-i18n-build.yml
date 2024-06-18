@@ -15,6 +15,19 @@ jobs:
     strategy:
       matrix:
         node-version: [20.x]
+        locale:
+          - 'arabic'
+          - 'chinese'
+          - 'chinese-traditional'
+          - 'espanol'
+          - 'german'
+          - 'italian'
+          - 'japanese'
+          - 'korean'
+          - 'portuguese'
+          - 'swahili'
+          - 'ukrainian'
+
     steps:
       - name: Checkout Source Files
         uses: actions/checkout@v4.1.1
@@ -55,69 +68,11 @@ jobs:
         working-directory: freeCodeCamp
         run: pnpm install
 
-      - name: Archive freeCodeCamp directory
-        run: tar -czf freeCodeCamp.tar.gz freeCodeCamp
-
-      - name: Upload freeCodeCamp artifact
-        uses: actions/upload-artifact@v3
-        with:
-          name: freeCodeCamp
-          path: freeCodeCamp.tar.gz
-
-    # outputs:
-    #   freecodecamp_path: freeCodeCamp
-
-
-  build:
-    needs: setup
-    runs-on: ubuntu-22.04
-    strategy:
-      matrix:
-        locale:
-          - 'arabic'
-          - 'chinese'
-          - 'chinese-traditional'
-          - 'espanol'
-          - 'german'
-          - 'italian'
-          - 'japanese'
-          - 'korean'
-          - 'portuguese'
-          - 'swahili'
-          - 'ukrainian'
-      fail-fast: false
-
-    steps:
-      - name: Download freeCodeCamp artifact
-        uses: actions/download-artifact@v3
-        with:
-          name: freeCodeCamp
-          path: .
-
-      - name: Extract freeCodeCamp archive
-        run: tar -xzf freeCodeCamp.tar.gz
-
       - name: Debug
         run: |
           ls -la
           echo "----------------"
           ls -la freeCodeCamp
-    #   - name: Checkout Source Files
-    #     uses: actions/checkout@v4.1.1
-
-      # - name: Setup pnpm
-      #   uses: pnpm/action-setup@v3.0.0
-      #   with:
-      #     version: 8
-
-      # - name: Use Node.js 20.x
-      #   uses: actions/setup-node@v4.0.2
-      #   with:
-      #     node-version: 20.x
-      #     cache: pnpm
-
-      # - name: Copy i18n Challenges
-      #   run: cp -r curriculum/challenges/* freeCodeCamp/curriculum/challenges/
 
       - name: Build Client in ${{ matrix.locale }}
         working-directory: freeCodeCamp
