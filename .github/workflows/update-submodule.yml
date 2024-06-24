@@ -1,0 +1,54 @@
+name: Update i18n-curriculum Submodule
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+env:
+  GITHUB_TOKEN: ${{ secrets.CROWDIN_CAMPERBOT_PAT }}
+  CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_CAMPERBOT_SERVICE_TOKEN }}
+  CROWDIN_API_URL: 'https://freecodecamp.crowdin.com/api/v2/'
+  CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID_CURRICULUM }}
+
+jobs:
+  update-i18n-curriculum-submodule:
+    name: Update i18n-curriculum Submodule
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: Checkout Source Files
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
+        with:
+          # Todo: Change to fcc repo after this is transferred
+          repository: 'moT01/fcc'
+          token: ${{ secrets.CROWDIN_CAMPERBOT_PAT }}
+          submodules: true
+
+      - name: Ensure correct submodule path and initialization
+        run: |
+          git submodule sync
+          git submodule update --init --recursive
+
+      - name: Update submodule
+        run: |
+          git config --global user.email "${{ secrets.ACTIONS_CAMPERBOT_EMAIL }}"
+          git config --global user.name "camperbot"
+          git checkout -b chore/update-i18n-curriculum-submodule
+          git submodule update --remote i18n-curriculum
+          cd i18n-curriculum && SUBMODULE_HASH=$(git rev-parse --short HEAD) && cd ..
+          git add .
+          git commit -m "chore(curriculum): Update i18n-curriculum submodule to $SUBMODULE_HASH"
+          git push -u origin chore/update-i18n-curriculum-submodule
+
+      - name: Create PR
+        uses: freecodecamp/crowdin-action@main
+        env:
+          PLUGIN: 'pull-request'
+          GH_TOKEN: ${{ secrets.CROWDIN_CAMPERBOT_PAT }}
+          BRANCH: 'chore/update-i18n-curriculum-submodule'
+          # Todo: Change to fcc repo after this is transferred
+          REPOSITORY: 'moT01/fcc'
+          BASE: 'main'
+          TITLE: 'chore(i18n,learn): update i18n-curriculum submodule'
+          BODY: 'This PR was opened auto-magically by Camperbot.'

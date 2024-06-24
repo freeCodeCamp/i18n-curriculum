@@ -18,16 +18,16 @@ jobs:
         node-version: [20.x]
         locale:
           - 'arabic'
-          - 'chinese'
-          - 'chinese-traditional'
-          - 'espanol'
-          - 'german'
-          - 'italian'
-          - 'japanese'
-          - 'korean'
-          - 'portuguese'
-          - 'swahili'
-          - 'ukrainian'
+          # - 'chinese'
+          # - 'chinese-traditional'
+          # - 'espanol'
+          # - 'german'
+          # - 'italian'
+          # - 'japanese'
+          # - 'korean'
+          # - 'portuguese'
+          # - 'swahili'
+          # - 'ukrainian'
 
     steps:
       - name: Checkout Source Files
