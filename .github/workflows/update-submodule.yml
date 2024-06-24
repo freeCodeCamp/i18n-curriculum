@@ -1,3 +1,4 @@
+# This action creates a PR on the freeCodeCamp repo to update the i18n-curriculum submodule.
 name: Update i18n-curriculum Submodule
 on:
   workflow_dispatch:
