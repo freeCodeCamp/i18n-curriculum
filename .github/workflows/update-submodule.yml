@@ -40,9 +40,9 @@ jobs:
 
   update-i18n-curriculum-submodule:
     name: Update i18n-curriculum Submodule
-      needs: check-conditions
-      runs-on: ubuntu-22.04
-      if: needs.check-conditions.outputs.run_update == 'true'
+    needs: check-conditions
+    runs-on: ubuntu-22.04
+    if: needs.check-pr-title.outputs.run_update == 'true'
 
     steps:
       - name: Checkout Source Files
