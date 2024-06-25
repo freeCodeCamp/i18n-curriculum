@@ -21,7 +21,8 @@ jobs:
       - name: Authenticate GitHub CLI
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh auth login --with-token <<< "${GITHUB_TOKEN}"
+        run: |
+          echo "${GITHUB_TOKEN}" | gh auth login --with-token
 
       - name: Merge PR
         env:
