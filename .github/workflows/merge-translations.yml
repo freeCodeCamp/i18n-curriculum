@@ -1,4 +1,4 @@
-name: Auto Merge camperbot PR's
+name: Merge camperbot PR's
 
 on:
   pull_request:
@@ -12,19 +12,20 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-
-      - name: Get PR Information
-        id: pr-info
-        uses: actions/github-script@v6
+      - name: Checkout Repository
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
         with:
-          script: |
-            return { author: context.payload.pull_request.user.login };
+          sparse-checkout: '.'
+
+      # - name: Authenticate GitHub CLI
+      #   run: |
+      #     echo "${GITHUB_TOKEN}" | gh auth login --with-token
 
       - name: Merge PR
-        if: steps.pr-info.outputs.author == 'camperbot'
-        uses: peter-evans/merge-pull-request@v2
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          merge-method: squash
+        run: |
+          pr_user=$(gh pr view ${{ github.event.pull_request.number }} --json author --jq '.author.login')
+          if [ "$pr_user" = "moT01" ]; then
+            gh pr merge ${{ github.event.pull_request.number }} --merge
+          else
+            echo "PR author is not camperbot, skipping merge."
+          fi
