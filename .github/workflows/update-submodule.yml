@@ -40,7 +40,7 @@ jobs:
 
   update-i18n-curriculum-submodule:
     name: Update i18n-curriculum Submodule
-    needs: check-conditions
+    needs: check-pr-title
     runs-on: ubuntu-22.04
     if: needs.check-pr-title.outputs.run_update == 'true'
 
