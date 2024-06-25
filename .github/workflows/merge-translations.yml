@@ -1,4 +1,4 @@
-name: Auto Merge camperbot PR's
+name: Merge camperbot PR's
 
 on:
   pull_request:
@@ -8,23 +8,32 @@ env:
   GITHUB_TOKEN: ${{ secrets.CROWDIN_CAMPERBOT_PAT }}
 
 jobs:
-  merge-camperbot-pr:
+  auto-merge:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout Repository
         uses: actions/checkout@v2
 
-      - name: Get PR Information
-        id: pr-info
+      - name: Merge camperbot PR
+        if: github.actor == 'camperbot'
         uses: actions/github-script@v6
         with:
           script: |
-            return { author: context.payload.pull_request.user.login };
+            const { owner, repo, pull_number } = context.issue;
+            const octokit = github.getOctokit(process.env.GITHUB_TOKEN);
+            const pr = await octokit.pulls.get({
+              owner,
+              repo,
+              pull_number
+            });
 
-      - name: Merge PR
-        if: steps.pr-info.outputs.author == 'moT01'
-        uses: peter-evans/merge-pull-request@v2
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          merge-method: squash
+            if (pr.data.user.login === 'moT01') {
+              await octokit.pulls.merge({
+                owner,
+                repo,
+                pull_number
+              });
+            } else {
+              console.log('PR author is not camperbot');
+            }
