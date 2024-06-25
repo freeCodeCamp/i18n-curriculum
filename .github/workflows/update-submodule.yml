@@ -32,7 +32,7 @@ jobs:
 
             const author = pr.data.user.login;
 
-            if (author === 'camperbot') {
+            if (author === 'moT01') {
               return { run_update: 'true' };
             } else {
               return { run_update: 'false' };
@@ -79,4 +79,4 @@ jobs:
           REPOSITORY: 'moT01/fcc'
           BASE: 'main'
           TITLE: 'chore(i18n,learn): update i18n-curriculum submodule'
-          BODY: 'This PR was opened auto-magically by Camperbot.'
+          BODY: 'This PR was opened auto-magically by camperbot.'
