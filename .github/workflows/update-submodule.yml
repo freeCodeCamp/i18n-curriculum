@@ -20,23 +20,15 @@ jobs:
     steps:
       - name: Check PR Title
         id: check
-        uses: actions/github-script@v6
-        with:
-          script: |
-            const pr_number = context.payload.head_commit.message.match(/#(\d+)/)[1];
-            const pr = await github.pulls.get({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              pull_number: pr_number
-            });
+        run: |
+          pr_number=$(echo $GITHUB_REF | awk -F/ '{print $3}')
+          author=$(gh pr view $pr_number --json user.login -q '.user.login')
 
-            const author = pr.data.user.login;
-
-            if (author === 'moT01') {
-              return { run_update: 'true' };
-            } else {
-              return { run_update: 'false' };
-            }
+          if [ "$author" == "moT01" ]; then
+            echo "::set-output name=run_update::true"
+          else
+            echo "::set-output name=run_update::false"
+          fi
 
   update-i18n-curriculum-submodule:
     name: Update i18n-curriculum Submodule
