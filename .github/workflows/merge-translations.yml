@@ -17,18 +17,11 @@ jobs:
         with:
           sparse-checkout: '.'
 
-      - name: Install GitHub CLI
-        run: sudo apt-get install -y gh
-
       - name: Authenticate GitHub CLI
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           echo "${GITHUB_TOKEN}" | gh auth login --with-token
 
       - name: Merge PR
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           pr_user=$(gh pr view ${{ github.event.pull_request.number }} --json author --jq '.author.login')
           if [ "$pr_user" = "moT01" ]; then
