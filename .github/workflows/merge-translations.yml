@@ -1,4 +1,4 @@
-name: Auto Merge PRs from Specific User
+name: Auto Merge camperbot PR's
 
 on:
   pull_request:
@@ -22,7 +22,7 @@ jobs:
           script: |
             return { author: context.payload.pull_request.user.login };
 
-      - name: Auto Merge PR
+      - name: Merge PR
         if: steps.pr-info.outputs.author == 'camperbot'
         uses: peter-evans/merge-pull-request@v2
         with:
