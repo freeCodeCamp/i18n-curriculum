@@ -1,0 +1,30 @@
+name: Auto Merge PRs from Specific User
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+env:
+  GITHUB_TOKEN: ${{ secrets.CROWDIN_CAMPERBOT_PAT }}
+
+jobs:
+  auto-merge:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Get PR Information
+        id: pr-info
+        uses: actions/github-script@v6
+        with:
+          script: |
+            return { author: context.payload.pull_request.user.login };
+
+      - name: Auto Merge PR
+        if: steps.pr-info.outputs.author == 'camperbot'
+        uses: peter-evans/merge-pull-request@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          merge-method: squash
