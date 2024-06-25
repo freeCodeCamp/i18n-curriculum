@@ -1,9 +1,10 @@
 name: Download i18n Curriculum
 on:
   workflow_dispatch:
-  schedule:
-    # runs Monday and Wednesday at 12:15 PM UTC
-    - cron: '15 12 * * 1,3'
+  # temporaily only run on dispatch
+  # schedule:
+  #   # runs Monday and Wednesday at 12:15 PM UTC
+  #   - cron: '15 12 * * 1,3'
 
 env:
   GITHUB_TOKEN: ${{ secrets.CROWDIN_CAMPERBOT_PAT }}
@@ -370,8 +371,7 @@ jobs:
           PLUGIN: 'pull-request'
           GH_TOKEN: ${{ secrets.CROWDIN_CAMPERBOT_PAT }}
           BRANCH: 'i18n-sync-curriculum'
-          # Todo: Change to fcc repo after this is transferred
-          REPOSITORY: 'moT01/i18n-curriculum'
+          REPOSITORY: 'freeCodeCamp/i18n-curriculum'
           BASE: 'main'
           TITLE: 'chore(i18n,learn): processed translations'
           BODY: 'This PR was opened auto-magically by Crowdin.'
