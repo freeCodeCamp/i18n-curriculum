@@ -40,7 +40,7 @@ jobs:
           cd i18n-curriculum && SUBMODULE_HASH=$(git rev-parse --short HEAD) && cd ..
           git add .
           git commit -m "chore(curriculum): Update i18n-curriculum submodule to $SUBMODULE_HASH"
-          git push -u origin chore/update-i18n-curriculum-submodule
+          git push -u origin chore/update-i18n-curriculum-submodule -f
 
       - name: Create PR
         uses: freecodecamp/crowdin-action@main
