@@ -28,7 +28,7 @@ jobs:
         run: |
           git log -1 --pretty=format:'%an'
           author=$(git log -1 --pretty=format:'%an')
-          if [ "$author" == "Tom" ]; then
+          if [ "$author" == "freeCodeCamp's Camper Bot" ]; then
             echo "Setting run_update to true."
             echo "::set-output name=run_update::true"
           else
@@ -46,8 +46,7 @@ jobs:
       - name: Checkout Source Files
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
         with:
-          # Todo: Change to fcc repo after this is transferred
-          repository: 'moT01/fcc'
+          repository: 'freeCodeCamp/freeCodeCamp'
           token: ${{ secrets.CROWDIN_CAMPERBOT_PAT }}
           submodules: true
 
@@ -73,8 +72,7 @@ jobs:
           PLUGIN: 'pull-request'
           GH_TOKEN: ${{ secrets.CROWDIN_CAMPERBOT_PAT }}
           BRANCH: 'chore/update-i18n-curriculum-submodule'
-          # Todo: Change to fcc repo after this is transferred
-          REPOSITORY: 'moT01/fcc'
+          REPOSITORY: 'freeCodeCamp/freeCodeCamp'
           BASE: 'main'
           TITLE: 'chore(i18n,learn): update i18n-curriculum submodule'
           BODY: 'This PR was opened auto-magically by camperbot.'
