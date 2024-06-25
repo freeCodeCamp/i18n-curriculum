@@ -30,11 +30,10 @@ jobs:
         id: check
         run: |
           author=$(git log -1 --pretty=format:'%an')
-
           if [ "$author" == "moT01" ]; then
-            echo "::set-output name=run_update::true"
+            "::set-output name=run_update::true"
           else
-            echo "::set-output name=run_update::false"
+            "::set-output name=run_update::false"
           fi
 
   update-i18n-curriculum-submodule:
@@ -44,14 +43,6 @@ jobs:
     if: needs.check-pr-title.outputs.run_update == 'true'
 
     steps:
-      # - name: Checkout Source Files
-      #   uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
-      #   with:
-      #     # Todo: Change to fcc repo after this is transferred
-      #     repository: 'moT01/fcc'
-      #     token: ${{ secrets.CROWDIN_CAMPERBOT_PAT }}
-      #     submodules: true
-
       - name: Ensure correct submodule path and initialization
         run: |
           git submodule sync
