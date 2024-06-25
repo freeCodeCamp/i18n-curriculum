@@ -31,9 +31,11 @@ jobs:
         run: |
           author=$(git log -1 --pretty=format:'%an')
           if [ "$author" == "moT01" ]; then
-            "::set-output name=run_update::true"
+            echo "Setting run_update to true."
+            echo "::set-output name=run_update::true"
           else
-            "::set-output name=run_update::false"
+            echo "Setting run_update to false."
+            echo "::set-output name=run_update::false"
           fi
 
   update-i18n-curriculum-submodule:
