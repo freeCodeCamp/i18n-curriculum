@@ -27,9 +27,8 @@ jobs:
         id: check
         run: |
           git log -1 --pretty=format:'%an'
-          author=$(git log -1 --pretty=format:'%an')\
-          echo "author = $author"
-          if [ "$author" == "moT01" ]; then
+          author=$(git log -1 --pretty=format:'%an')
+          if [ "$author" == "Tom" ]; then
             echo "Setting run_update to true."
             echo "::set-output name=run_update::true"
           else
