@@ -13,9 +13,36 @@ env:
   CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID_CURRICULUM }}
 
 jobs:
+  check-pr-title:
+    runs-on: ubuntu-22.04
+    outputs:
+      run_update: ${{ steps.check.outputs.run_update }}
+    steps:
+      - name: Check PR Title
+        id: check
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const pr_number = context.payload.head_commit.message.match(/#(\d+)/)[1];
+            const pr = await github.pulls.get({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: pr_number
+            });
+
+            const author = pr.data.user.login;
+
+            if (author === 'camperbot') {
+              return { run_update: 'true' };
+            } else {
+              return { run_update: 'false' };
+            }
+
   update-i18n-curriculum-submodule:
     name: Update i18n-curriculum Submodule
+    needs: check-conditions
     runs-on: ubuntu-22.04
+    if: needs.check-conditions.outputs.run_update == 'true'
 
     steps:
       - name: Checkout Source Files
