@@ -29,7 +29,7 @@ jobs:
       - name: Check PR Title
         id: check
         run: |
-          author=$(gh pr view ${{ github.event.pull_request.number }} --json author --jq '.author.login')
+          author=$(git log -1 --pretty=format:'%an')
 
           if [ "$author" == "moT01" ]; then
             echo "::set-output name=run_update::true"
