@@ -8,7 +8,7 @@ env:
   GITHUB_TOKEN: ${{ secrets.CROWDIN_CAMPERBOT_PAT }}
 
 jobs:
-  auto-merge:
+  merge-camperbot-pr:
     runs-on: ubuntu-latest
 
     steps:
@@ -23,7 +23,7 @@ jobs:
             return { author: context.payload.pull_request.user.login };
 
       - name: Merge PR
-        if: steps.pr-info.outputs.author == 'camperbot'
+        if: steps.pr-info.outputs.author == 'moT01'
         uses: peter-evans/merge-pull-request@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
