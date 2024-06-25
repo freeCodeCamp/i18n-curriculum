@@ -30,9 +30,8 @@ jobs:
         id: check
         run: |
           git log -1 --pretty=format:'%an'
-          author=$(cd i18n-curriculum && git log -1 --pretty=format:'%an')
-
-          echo "$author"
+          author=$(git log -1 --pretty=format:'%an')\
+          echo "author = $author"
           if [ "$author" == "moT01" ]; then
             echo "Setting run_update to true."
             echo "::set-output name=run_update::true"
