@@ -354,12 +354,6 @@ jobs:
       # - name: Overwrite Execute-Brain.md
       #   run: sudo tools/scripts/move-bf.sh
 
-      # Remove English
-      - name: Remove English
-        run: |
-          sudo rm -rf curriculum/challenges/english
-          sudo rm -rf curriculum/dictionaries/english
-
       # Create Commit
       - name: Commit Changes
         uses: freecodecamp/crowdin-action@main
