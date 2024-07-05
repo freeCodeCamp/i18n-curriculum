@@ -5,7 +5,7 @@ on:
     types: [opened, synchronize]
 
 env:
-  GITHUB_TOKEN: ${{ secrets.CROWDIN_CAMPERBOT_PAT }}
+  GH_TOKEN: ${{ secrets.CROWDIN_CAMPERBOT_PAT }}
 
 jobs:
   auto-merge:
