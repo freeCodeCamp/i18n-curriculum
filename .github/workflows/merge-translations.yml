@@ -1,8 +1,9 @@
 name: Merge camperbot PR's
 
 on:
-  pull_request:
-    types: [opened, synchronize]
+  workflow_dispatch:
+  # pull_request:
+  #   types: [opened, synchronize]
 
 env:
   GITHUB_TOKEN: ${{ secrets.CROWDIN_CAMPERBOT_PAT }}
