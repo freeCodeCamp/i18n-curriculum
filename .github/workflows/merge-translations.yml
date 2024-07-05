@@ -6,7 +6,6 @@ on:
 
 env:
   GITHUB_TOKEN: ${{ secrets.CROWDIN_CAMPERBOT_PAT }}
-  GH_TOKEN: ${{ secrets.CROWDIN_CAMPERBOT_PAT }}
 
 jobs:
   auto-merge:
@@ -22,7 +21,7 @@ jobs:
         run: |
           pr_user=$(gh pr view ${{ github.event.pull_request.number }} --json author --jq '.author.login')
           if [ "$pr_user" = "camperbot" ]; then
-            gh pr merge ${{ github.event.pull_request.number }} --merge
+            gh pr merge ${{ github.event.pull_request.number }} --squash
           else
             echo "PR author is not camperbot, skipping merge."
           fi
