@@ -357,8 +357,8 @@ jobs:
       # Remove English
       - name: Remove English
         run: |
-          rm -rf curriculum/challenges/english
-          rm -rf curriculum/dictionaries/english
+          sudo rm -rf curriculum/challenges/english
+          sudo rm -rf curriculum/dictionaries/english
 
       # Create Commit
       - name: Commit Changes
