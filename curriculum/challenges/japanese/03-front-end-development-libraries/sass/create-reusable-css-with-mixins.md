@@ -70,7 +70,7 @@ nav a {
 
 `shape` という名前のミックスインを記述し、`$w`、`$h`、`$bg-color` という 3 つの仮引数を指定してください。
 
-Use the `shape` mixin to give the `#square` element a width and height of `50px`, and the background color `red`. For the `#rect-a` element add a width of `100px`, a height of `50px`, and the background color `blue`. Finally, for the `#rect-b` element add a width of `50px`, a height of `100px`, and the background color `orange`.
+ミックスイン `shape` を使用して、`#square` の要素の幅と高さを `50px`、背景色を `red` にしてください。 `#rect-a` の要素は、幅 `100px`、高さ `50px`、背景色を `blue` にしてください。 そして `#rect-b` の要素は、幅 `50px`、高さ `100px`、背景色を `orange` にしてください。
 
 # --hints--
 
@@ -98,19 +98,19 @@ assert.match(__helpers.removeWhiteSpace(code), /height:\$h;/gi);
 assert.match(__helpers.removeWhiteSpace(code), /background-color:\$bg\-color;/gi);
 ```
 
-`@include` キーワードを使用して、`#square` セレクター内のスタイルを `shape` ミックスインの呼び出しに置き換えてください。 Setting a width and height of `50px`, and the background color `red`.
+`@include` キーワードを使用して、`#square` セレクター内のスタイルを `shape` ミックスインの呼び出しに置き換えてください。 幅と高さは `50px`、背景色は `red` に設定してください。
 
 ```js
 assert.match(code, /#square\s*{\s*@include\s+shape\s*\(\s*50px\s*,\s*50px\s*,\s*red\s*\)\s*;\s*}/gi);
 ```
 
-`@include` キーワードを使用して、`#rect-a` セレクター内のスタイルを `shape` ミックスインの呼び出しに置き換えてください。 Setting a width of `100px`, a height of `50px`, and the background color `blue`.
+`@include` キーワードを使用して、`#rect-a` セレクター内のスタイルを `shape` ミックスインの呼び出しに置き換えてください。 幅 `100px`、高さ `50px`、背景色を `blue` にしてください。
 
 ```js
 assert.match(code, /#rect-a\s*{\s*@include\s+shape\s*\(\s*100px\s*,\s*50px\s*,\s*blue\s*\)\s*;\s*}/gi);
 ```
 
-`@include` キーワードを使用して、`#rect-b` セレクター内のスタイルを `shape` ミックスインの呼び出しに置き換えてください。 Setting a width of `50px`, a height of `100px`, and the background color `orange`.
+`@include` キーワードを使用して、`#rect-b` セレクター内のスタイルを `shape` ミックスインの呼び出しに置き換えてください。 幅 `50px`、高さ `100px`、背景色を `orange` にしてください。
 
 ```js
 assert.match(code, /#rect-b\s*{\s*@include\s+shape\s*\(\s*50px\s*,\s*100px\s*,\s*orange\s*\)\s*;\s*}/gi);
