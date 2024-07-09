@@ -162,7 +162,7 @@ jobs:
           # Uncomment below to debug
           # dryrun_action: true
 
-          ##### Download Ukrainian #####
+      ##### Download Ukrainian #####
       - name: Crowdin Download Ukrainian Translations
         uses: crowdin/github-action@master
         # options: https://github.com/crowdin/github-action/blob/master/action.yml
@@ -281,7 +281,7 @@ jobs:
           # Uncomment below to debug
           # dryrun_action: true
 
-          ##### Download Swahili #####
+      ##### Download Swahili #####
       - name: Crowdin Download Swahili Translations
         uses: crowdin/github-action@master
         # options: https://github.com/crowdin/github-action/blob/master/action.yml
@@ -342,17 +342,14 @@ jobs:
           # dryrun_action: true
 
       ###### Lowercase directory names #####
-
       - name: Lowercase Directories
         uses: freecodecamp/crowdin-action@main
         env:
           PLUGIN: 'lowercase-directories'
           FILE_PATH: 'curriculum/challenges'
 
-      # Pretty sure this is fixed on crowdin's end and we don't need it.
-      # We will find out when testing the repo.
-      # - name: Overwrite Execute-Brain.md
-      #   run: sudo tools/scripts/move-bf.sh
+      - name: Overwrite Execute-Brain.md
+        run: sudo tools/scripts/move-bf.sh
 
       # Create Commit
       - name: Commit Changes
