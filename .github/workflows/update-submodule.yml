@@ -15,8 +15,6 @@ env:
 jobs:
   check-pr-title:
     runs-on: ubuntu-22.04
-    outputs:
-      run_update: ${{ steps.check.outputs.run_update }}
     steps:
       - name: Checkout Source Files
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
@@ -24,23 +22,18 @@ jobs:
           sparse-checkout: '.'
 
       - name: Check PR Title
-        id: check
         run: |
           git log -1 --pretty=format:'%an'
           author=$(git log -1 --pretty=format:'%an')
-          if [ "$author" == "freeCodeCamp's Camper Bot" ]; then
-            echo "Setting run_update to true."
-            echo "::set-output name=run_update::true"
-          else
-            echo "Setting run_update to false."
-            echo "::set-output name=run_update::false"
+          if [ "$author" != "freeCodeCamp's Camper Bot" ]; then
+            echo "Incorrect author"
+            exit 1
           fi
 
   update-i18n-curriculum-submodule:
     name: Update i18n-curriculum Submodule
     needs: check-pr-title
     runs-on: ubuntu-22.04
-    if: needs.check-pr-title.outputs.run_update == 'true'
 
     steps:
       - name: Checkout Source Files
