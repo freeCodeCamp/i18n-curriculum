@@ -40,7 +40,6 @@ jobs:
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
         with:
           repository: 'freeCodeCamp/freeCodeCamp'
-          token: ${{ secrets.CROWDIN_CAMPERBOT_PAT }}
           submodules: true
 
       - name: Ensure correct submodule path and initialization
