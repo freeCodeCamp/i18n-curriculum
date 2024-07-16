@@ -3,6 +3,8 @@ name: Merge curriculum updates and update i18n-curriculum submodule
 on:
   pull_request:
     types: [opened, synchronize]
+    paths:
+      - curriculum
 
 env:
   GITHUB_TOKEN: ${{ secrets.CROWDIN_CAMPERBOT_PAT }}
