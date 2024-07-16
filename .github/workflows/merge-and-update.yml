@@ -31,7 +31,8 @@ jobs:
           if [ "$pr_user" = "camperbot" ]; then
             gh pr merge ${{ github.event.pull_request.number }} --squash
           else
-            echo "PR author is not camperbot, skipping merge."
+            echo "PR author is not camperbot"
+            exit 1
           fi
 
   update-i18n-curriculum-submodule:
