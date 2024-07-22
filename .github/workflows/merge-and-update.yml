@@ -60,7 +60,7 @@ jobs:
           git config --global user.email "${{ secrets.ACTIONS_CAMPERBOT_EMAIL }}"
           git config --global user.name "camperbot"
           git checkout -b chore/update-i18n-curriculum-submodule
-          git submodule update --remote i18n-curriculum
+          git submodule update --remote curriculum/i18n-curriculum
           cd i18n-curriculum && SUBMODULE_HASH=$(git rev-parse --short HEAD) && cd ..
           git add .
           git commit -m "chore(curriculum): Update i18n-curriculum submodule to $SUBMODULE_HASH"
