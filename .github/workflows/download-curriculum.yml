@@ -9,7 +9,7 @@ on:
 env:
   GITHUB_TOKEN: ${{ secrets.CROWDIN_CAMPERBOT_PAT }}
   CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_CAMPERBOT_SERVICE_TOKEN }}
-  CROWDIN_API_URL: 'https://freecodecamp.crowdin.com/api/v2/'
+  CROWDIN_API_URL: "https://freecodecamp.crowdin.com/api/v2/"
   CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID_CURRICULUM }}
 
 jobs:
@@ -30,8 +30,8 @@ jobs:
       - name: Generate Crowdin Config
         uses: freecodecamp/crowdin-action@main
         env:
-          PLUGIN: 'generate-config'
-          PROJECT_NAME: 'curriculum'
+          PLUGIN: "generate-config"
+          PROJECT_NAME: "curriculum"
 
       ##### Download Chinese #####
       - name: Crowdin Download Chinese Translations
@@ -59,7 +59,7 @@ jobs:
           create_pull_request: false
 
           # global options
-          config: './crowdin-config.yml'
+          config: "./crowdin-config.yml"
           base_url: ${{ secrets.CROWDIN_BASE_URL_FCC }}
 
           # Uncomment below to debug
@@ -69,7 +69,7 @@ jobs:
       - name: Convert Chinese
         uses: freecodecamp/crowdin-action@main
         env:
-          PLUGIN: 'convert-chinese'
+          PLUGIN: "convert-chinese"
           FILE_PATHS: '["/curriculum/challenges/chinese/", "/curriculum/dictionaries/chinese"]'
 
       ##### Download Espanol #####
@@ -96,7 +96,7 @@ jobs:
           create_pull_request: false
 
           # global options
-          config: './crowdin-config.yml'
+          config: "./crowdin-config.yml"
           base_url: ${{ secrets.CROWDIN_BASE_URL_FCC }}
 
           # Uncomment below to debug
@@ -126,7 +126,7 @@ jobs:
           create_pull_request: false
 
           # global options
-          config: './crowdin-config.yml'
+          config: "./crowdin-config.yml"
           base_url: ${{ secrets.CROWDIN_BASE_URL_FCC }}
 
           # Uncomment below to debug
@@ -156,7 +156,7 @@ jobs:
           create_pull_request: false
 
           # global options
-          config: './crowdin-config.yml'
+          config: "./crowdin-config.yml"
           base_url: ${{ secrets.CROWDIN_BASE_URL_FCC }}
 
           # Uncomment below to debug
@@ -186,7 +186,7 @@ jobs:
           create_pull_request: false
 
           # global options
-          config: './crowdin-config.yml'
+          config: "./crowdin-config.yml"
           base_url: ${{ secrets.CROWDIN_BASE_URL_FCC }}
 
           # Uncomment below to debug
@@ -216,7 +216,7 @@ jobs:
           create_pull_request: false
 
           # global options
-          config: './crowdin-config.yml'
+          config: "./crowdin-config.yml"
           base_url: ${{ secrets.CROWDIN_BASE_URL_FCC }}
 
           # Uncomment below to debug
@@ -246,7 +246,7 @@ jobs:
           create_pull_request: false
 
           # global options
-          config: './crowdin-config.yml'
+          config: "./crowdin-config.yml"
           base_url: ${{ secrets.CROWDIN_BASE_URL_FCC }}
 
           # Uncomment below to debug
@@ -275,7 +275,7 @@ jobs:
           create_pull_request: false
 
           # global options
-          config: './crowdin-config.yml'
+          config: "./crowdin-config.yml"
           base_url: ${{ secrets.CROWDIN_BASE_URL_FCC }}
 
           # Uncomment below to debug
@@ -305,7 +305,7 @@ jobs:
           create_pull_request: false
 
           # global options
-          config: './crowdin-config.yml'
+          config: "./crowdin-config.yml"
           base_url: ${{ secrets.CROWDIN_BASE_URL_FCC }}
 
           # Uncomment below to debug
@@ -335,7 +335,7 @@ jobs:
           create_pull_request: false
 
           # global options
-          config: './crowdin-config.yml'
+          config: "./crowdin-config.yml"
           base_url: ${{ secrets.CROWDIN_BASE_URL_FCC }}
 
           # Uncomment below to debug
@@ -345,8 +345,8 @@ jobs:
       - name: Lowercase Directories
         uses: freecodecamp/crowdin-action@main
         env:
-          PLUGIN: 'lowercase-directories'
-          FILE_PATH: 'curriculum/challenges'
+          PLUGIN: "lowercase-directories"
+          FILE_PATH: "curriculum/challenges"
 
       - name: Overwrite Execute-Brain.md
         run: sudo scripts/move-bf.sh
@@ -355,20 +355,20 @@ jobs:
       - name: Commit Changes
         uses: freecodecamp/crowdin-action@main
         env:
-          PLUGIN: 'commit-changes'
-          GH_USERNAME: 'camperbot'
+          PLUGIN: "commit-changes"
+          GH_USERNAME: "camperbot"
           GH_EMAIL: ${{ secrets.ACTIONS_CAMPERBOT_EMAIL }}
-          GH_BRANCH: 'i18n-sync-curriculum'
-          GH_MESSAGE: 'chore(i18n,learn): processed translations'
+          GH_BRANCH: "i18n-sync-curriculum"
+          GH_MESSAGE: "chore(i18n,learn): processed translations"
 
       # Create PR
       - name: Create PR
         uses: freecodecamp/crowdin-action@main
         env:
-          PLUGIN: 'pull-request'
+          PLUGIN: "pull-request"
           GH_TOKEN: ${{ secrets.CROWDIN_CAMPERBOT_PAT }}
-          BRANCH: 'i18n-sync-curriculum'
-          REPOSITORY: 'freeCodeCamp/i18n-curriculum'
-          BASE: 'main'
-          TITLE: 'chore(i18n,learn): processed translations'
-          BODY: 'This PR was opened auto-magically by Crowdin.'
+          BRANCH: "i18n-sync-curriculum"
+          REPOSITORY: "freeCodeCamp/i18n-curriculum"
+          BASE: "main"
+          TITLE: "chore(i18n,learn): processed translations"
+          BODY: "This PR was opened auto-magically by Crowdin."

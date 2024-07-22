@@ -1,52 +1,52 @@
-# This action creates a PR on the freeCodeCamp repo to update the i18n-curriculum submodule.
-name: Update i18n-curriculum Submodule
+name: Merge curriculum updates and update i18n-curriculum submodule
+
 on:
-  workflow_dispatch:
-  # push:
-  #   branches:
-  #     - main
+  pull_request:
+    types: [opened, synchronize]
+    paths:
+      - curriculum
 
 env:
   GITHUB_TOKEN: ${{ secrets.CROWDIN_CAMPERBOT_PAT }}
-  CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_CAMPERBOT_SERVICE_TOKEN }}
-  CROWDIN_API_URL: 'https://freecodecamp.crowdin.com/api/v2/'
-  CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID_CURRICULUM }}
+  GH_TOKEN: ${{ secrets.CROWDIN_CAMPERBOT_PAT }}
 
 jobs:
-  check-pr-title:
-    runs-on: ubuntu-22.04
-    outputs:
-      run_update: ${{ steps.check.outputs.run_update }}
+  auto-merge:
+    runs-on: ubuntu-latest
+
     steps:
       - name: Checkout Source Files
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
         with:
-          sparse-checkout: '.'
+          sparse-checkout: "."
 
-      - name: Check PR Title
-        id: check
+      - name: Merge PR
         run: |
-          git log -1 --pretty=format:'%an'
-          author=$(git log -1 --pretty=format:'%an')
-          if [ "$author" == "freeCodeCamp's Camper Bot" ]; then
-            echo "Setting run_update to true."
-            echo "::set-output name=run_update::true"
+          if [ -z "${GH_TOKEN}" ]; then
+            echo "GH_TOKEN is not set. Exiting gracefully."
+            exit 0
+          fi
+
+          pr_user=$(gh pr view ${{ github.event.pull_request.number }} --json author --jq '.author.login')
+          if [ "$pr_user" = "camperbot" ]; then
+            gh pr merge ${{ github.event.pull_request.number }} --squash
           else
-            echo "Setting run_update to false."
-            echo "::set-output name=run_update::false"
+            echo "PR author is not camperbot"
+            exit 1
           fi
 
   update-i18n-curriculum-submodule:
+    # Now that the curriculum has been updated, we can update the
+    # i18n-curriculum submodule in the freeCodeCamp repository
     name: Update i18n-curriculum Submodule
-    needs: check-pr-title
+    needs: auto-merge
     runs-on: ubuntu-22.04
-    if: needs.check-pr-title.outputs.run_update == 'true'
 
     steps:
       - name: Checkout Source Files
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
         with:
-          repository: 'freeCodeCamp/freeCodeCamp'
+          repository: "freeCodeCamp/freeCodeCamp"
           token: ${{ secrets.CROWDIN_CAMPERBOT_PAT }}
           submodules: true
 
@@ -69,10 +69,10 @@ jobs:
       - name: Create PR
         uses: freecodecamp/crowdin-action@main
         env:
-          PLUGIN: 'pull-request'
+          PLUGIN: "pull-request"
           GH_TOKEN: ${{ secrets.CROWDIN_CAMPERBOT_PAT }}
-          BRANCH: 'chore/update-i18n-curriculum-submodule'
-          REPOSITORY: 'freeCodeCamp/freeCodeCamp'
-          BASE: 'main'
-          TITLE: 'chore(i18n,learn): update i18n-curriculum submodule'
-          BODY: 'This PR was opened auto-magically by camperbot.'
+          BRANCH: "chore/update-i18n-curriculum-submodule"
+          REPOSITORY: "freeCodeCamp/freeCodeCamp"
+          BASE: "main"
+          TITLE: "chore(i18n,learn): update i18n-curriculum submodule"
+          BODY: "This PR was opened auto-magically by camperbot."
