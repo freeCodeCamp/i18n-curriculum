@@ -4,7 +4,7 @@ on:
   pull_request:
     types: [opened, synchronize]
     paths:
-      - curriculum
+      - curriculum/**
 
 env:
   GITHUB_TOKEN: ${{ secrets.CROWDIN_CAMPERBOT_PAT }}
