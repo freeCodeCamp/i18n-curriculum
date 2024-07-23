@@ -9,6 +9,9 @@ on:
 env:
   GITHUB_TOKEN: ${{ secrets.CROWDIN_CAMPERBOT_PAT }}
   GH_TOKEN: ${{ secrets.CROWDIN_CAMPERBOT_PAT }}
+  CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID_CURRICULUM }}
+  CROWDIN_API_URL: 'https://freecodecamp.crowdin.com/api/v2/'
+  CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID_CURRICULUM }}
 
 jobs:
   auto-merge:
