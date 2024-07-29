@@ -40,7 +40,7 @@ HTML 服务器通常有一个或多个用户可以访问的目录。 你可以�
   );
 ```
 
-Your app should not serve files from any other folders except from `/public` directory
+你的应用不应该发送其他文件夹的文件，只能从 `/public` 目录发送文件。
 
 ```js
 (getUserInput) =>

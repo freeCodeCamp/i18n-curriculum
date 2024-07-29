@@ -20,7 +20,7 @@ Crie um arquivo `.env` na raiz do diretório do seu projeto e armazene a variáv
 
 Depois, no manipulador da rota GET `/json` que você criou no último desafio, acesse `process.env.MESSAGE_STYLE` e transforme a `message` do objeto de resposta em letras maiúsculas se a variável for igual a `uppercase`. O objeto de resposta deve ser `{"message": "Hello json"}` ou `{"message": "HELLO JSON"}`, dependendo do valor de `MESSAGE_STYLE`. Observe que você deve ler o valor de `process.env.MESSAGE_STYLE` **dentro** do manipulador de rota, não fora dela, devido ao modo como nossos testes são executados.
 
-Se você estiver trabalhando localmente, precisará do pacote `dotenv`. Ele carrega as variáveis de ambiente do seu arquivo `.env` em `process.env`. O pacote `dotenv` já foi instalado e está no arquivo `package.json` do projeto. Na parte superior do seu arquivo `myApp.js`, adicione `require('dotenv').config()` para carregar as variáveis de ambiente.
+Você precisará usar o pacote `dotenv`. Ele carrega as variáveis de ambiente do seu arquivo `.env` em `process.env`. O pacote `dotenv` já foi instalado e está no arquivo `package.json` do projeto. Na parte superior do seu arquivo `myApp.js`, adicione `require('dotenv').config()` para carregar as variáveis de ambiente.
 
 # --hints--
 
