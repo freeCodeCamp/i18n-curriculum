@@ -11,12 +11,12 @@ dashedName: how-to-use-package-json-the-core-of-any-node-js-project-or-npm-packa
 你可以採用下面的任意一種編寫代碼的方式來完成這些挑戰：
 
 - 克隆<a href="https://github.com/freeCodeCamp/boilerplate-npm/" target="_blank" rel="noopener noreferrer nofollow">這個 GitHub 倉庫</a>，並在本地完成這些挑戰。
-- Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-npm/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete these challenges.
+- 使用<a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-npm/" target="_blank" rel="noopener noreferrer nofollow">我們的 Gitpod 初始項目</a>來完成這些挑戰。
 - 使用你選擇的網站生成器來完成項目。 需要包含我們 GitHub 倉庫的所有文件。
 
-`package.json` 文件是所有 Node.js 項目和 npm 包的樞紐， It stores information about your project. 它由單個 JSON 對象組成，並以鍵值對的形式存儲項目信息， There are only two required fields; `name` and `version`, but it’s good practice to provide additional information.
+`package.json` 文件是所有 Node.js 項目和 npm 包的樞紐， 它存儲有關你的項目的信息。 它由單個 JSON 對象組成，並以鍵值對的形式存儲項目信息， 只有兩個必需的字段：`name` 和 `version`，但提供附加信息是一個好習慣。
 
-You can create the `package.json` file from the terminal using the `npm init` command. This will run a guided setup. Using `npm init` with the `-y` flag will generate the file without having it ask any questions, `npm init -y`.
+你可以使用 `npm init` 命令從終端創建 `package.json` 文件。 這將運行一個有引導的設置。 使用帶有 `-y` 標誌的 `npm init` 將生成文件，而無需詢問任何問題，`npm init -y`。
 
 如果你查看項目的文件樹，那麼可以在文件樹的最外層找到 `package.json`。 在接下來的幾個挑戰中你將完善這個文件。
 
@@ -32,7 +32,7 @@ You can create the `package.json` file from the terminal using the `npm init` co
 
 **注意：**你正在寫 JSON，所有的字段名必須用雙引號（"）包裹，也必須用逗號（,）分割。
 
-If you are using Gitpod, make sure the app is running and the preview window is open. Copy the preview window's URL and paste it into the Solution Link input below.
+如果你正在使用 Gitpod，請確保應用程序正在運行、預覽窗口已打開。 複製預覽窗口的 URL 並粘貼到下面的解決方案鏈接輸入框中。
 
 # --hints--
 

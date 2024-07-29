@@ -40,7 +40,7 @@ HTML 服務器通常有一個或多個用戶可以訪問的目錄。 你可以�
   );
 ```
 
-Your app should not serve files from any other folders except from `/public` directory
+你的應用不應該發送其他文件夾的文件，只能從 `/public` 目錄發送文件。
 
 ```js
 (getUserInput) =>

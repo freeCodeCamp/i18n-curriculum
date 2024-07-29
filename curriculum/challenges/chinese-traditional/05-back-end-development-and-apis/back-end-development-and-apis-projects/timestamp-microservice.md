@@ -11,7 +11,7 @@ dashedName: timestamp-microservice
 構建一個功能類似於此的全棧 JavaScript 應用程序：<a href="https://timestamp-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://timestamp-microservice.freecodecamp.rocks</a>。 在這個項目中，你將使用以下方法之一編寫你的代碼：
 
 -   克隆<a href="https://github.com/freeCodeCamp/boilerplate-project-timestamp/"  target="_blank" rel="noopener noreferrer nofollow">這個 GitHub 倉庫</a>，並在本地完成你的項目。
--   Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-timestamp/"  target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete your project.
+-   使用<a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-timestamp/"  target="_blank" rel="noopener noreferrer nofollow">我們的 Gitpod 初始項目</a>來完成你的項目。
 -   使用你選擇的網站生成器來完成項目。 需要包含我們 GitHub 倉庫的所有文件。
 
 **注意：**時區轉換不是本項目的目的，因此假設所有發送的有效日期將使用 `new Date()` 解析爲 GMT 日期。

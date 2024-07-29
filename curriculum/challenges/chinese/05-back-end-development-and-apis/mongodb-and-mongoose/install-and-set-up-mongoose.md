@@ -11,12 +11,12 @@ dashedName: install-and-set-up-mongoose
 你可以采用下面的任意一种编写代码的方式来完成这些挑战：
 
 - 克隆<a href="https://github.com/freeCodeCamp/boilerplate-mongomongoose/" target="_blank" rel="noopener noreferrer nofollow">这个 GitHub 仓库</a>，并在本地完成这些挑战。
-- Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mongomongoose/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete these challenges.
+- 使用 <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mongomongoose/" target="_blank" rel="noopener noreferrer nofollow">我们的 Gitpod 初始项目</a> 来完成这些挑战。
 - 使用你选择的网站生成器来完成项目。 需要包含我们 GitHub 仓库的所有文件。
 
 在这个挑战中，你将建立一个 MongoDB Atlas 数据库并导入连接到它所需的软件包。
 
-按照<a href='https://https://www.freecodecamp.org/chinese/news/get-started-with-mongodb-atlas/' target="_blank" rel="noopener noreferrer nofollow">这篇教程</a>在 MongoDB Atlas 创建一个托管数据库。
+按照<a href='https://www.freecodecamp.org/chinese/news/get-started-with-mongodb-atlas/' target="_blank" rel="noopener noreferrer nofollow">这篇教程</a>在 MongoDB Atlas 创建一个托管数据库。
 
 # --instructions--
 
