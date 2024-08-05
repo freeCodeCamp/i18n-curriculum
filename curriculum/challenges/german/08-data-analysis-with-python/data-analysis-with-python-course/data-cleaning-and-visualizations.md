@@ -35,7 +35,7 @@ Meine Abbildung wird eine Spalte und zwei Zeilen haben, und ich beginne in dem e
 
 ---
 
-I am going to start drawing in the first (left) plot, my figure will have two rows, and my figure will have one column.
+Ich beginne mit dem ersten (linken) Plot, meine Abbildung hat zwei Zeilen und eine Spalte.
 
 ---
 
