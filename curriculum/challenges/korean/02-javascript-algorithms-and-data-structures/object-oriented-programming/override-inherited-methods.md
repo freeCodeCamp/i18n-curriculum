@@ -1,6 +1,6 @@
 ---
 id: 587d7db1367417b2b2512b88
-title: Override Inherited Methods
+title: 상속 받은 메서드 덮어 쓰기
 challengeType: 1
 forumTopicId: 301322
 dashedName: override-inherited-methods
@@ -8,19 +8,19 @@ dashedName: override-inherited-methods
 
 # --description--
 
-In previous lessons, you learned that an object can inherit its behavior (methods) from another object by referencing its `prototype` object:
+이전 과제들에서 객체는 객체 `prototype`을 참조하여 다른 객체로부터 그 행동(메소드)을 상속받을 수 있다는 것을 배웠습니다.
 
 ```js
 ChildObject.prototype = Object.create(ParentObject.prototype);
 ```
 
-Then the `ChildObject` received its own methods by chaining them onto its `prototype`:
+그런 다음 `ChildObject`는 그 메서드들을 `prototype`에 엮어(chaining) 자신의 메서드로 받을 수 있습니다.
 
 ```js
 ChildObject.prototype.methodName = function() {...};
 ```
 
-It's possible to override an inherited method. It's done the same way - by adding a method to `ChildObject.prototype` using the same method name as the one to override. Here's an example of `Bird` overriding the `eat()` method inherited from `Animal`:
+상속 받은 메서드를 덮어 쓰기가 가능합니다. 덮어 쓸 메서드 이름과 같은 이름으로 `ChildObject.prototype`에 메서드를 추가하면 됩니다. `Animal`로부터 상속 받은 `eat()` 메서드를 덮어 쓰기하는 `Bird` 예시가 있습니다.
 
 ```js
 function Animal() { }
@@ -36,26 +36,26 @@ Bird.prototype.eat = function() {
 };
 ```
 
-If you have an instance `let duck = new Bird();` and you call `duck.eat()`, this is how JavaScript looks for the method on the `prototype` chain of `duck`:
+`let duck = new Bird();` 인스턴스가 있고 `duck.eat()`을 호출한다면 이는 자바스크립트가 `duck`의 `prototype` 체인(chain)에서 그 메서드를 찾는 방법입니다.
 
-1.  `duck` => Is `eat()` defined here? No.
-2.  `Bird` => Is `eat()` defined here? => Yes. Execute it and stop searching.
-3.  `Animal` => `eat()` is also defined, but JavaScript stopped searching before reaching this level.
-4.  Object => JavaScript stopped searching before reaching this level.
+1.  `duck` => `eat()`이 여기 정의되었는가? 아니오.
+2.  `Bird` => `eat()`가 여기 정의되었는가? => 예. 실행하고 찾기를 멈춘다.
+3.  `Animal` => `eat()`가 역시 정의되었지만 자바스크립트는 이 단계에 도달하기 전에 찾기를 멈추었습니다.
+4.  Object => 자바스크립트는 이 단계에 도달하기 전에 찾기를 멈추었습니다.
 
 # --instructions--
 
-Override the `fly()` method for `Penguin` so that it returns the string `Alas, this is a flightless bird.`
+문자열 `Alas, this is a flightless bird.`을 반환할 수 있도록 `Penguin`의 메서드 `fly()`를 덮어쓰기 하시오.
 
 # --hints--
 
-`penguin.fly()` should return the string `Alas, this is a flightless bird.`
+`penguin.fly()`은 문자열 `Alas, this is a flightless bird.`을 반환해야 합니다.
 
 ```js
 assert(penguin.fly() === 'Alas, this is a flightless bird.');
 ```
 
-The `bird.fly()` method should return the string `I am flying!`
+메서드 `bird.fly()`는 `I am flying!`를 반환해야 합니다.
 
 ```js
 assert(new Bird().fly() === 'I am flying!');
