@@ -9,11 +9,11 @@ dashedName: manipulate-arrays-with-pop
 
 # --description--
 
-Another way to change the data in an array is with the `.pop()` function.
+배열 내의 데이터를 변경하는 방법으로 `.pop()` 함수도 있습니다.
 
-`.pop()` is used to pop a value off of the end of an array. We can store this popped off value by assigning it to a variable. In other words, `.pop()` removes the last element from an array and returns that element.
+`.pop()`은 배열의 끝에서 값을 제거하는 데 사용됩니다. 이 제거된 값을 변수에 할당하여 저장할 수 있습니다. 다르게 표현하자면, `.pop()`은 배열의 마지막 항목을 삭제하고 그 항목을 돌려줍니다.
 
-Any type of entry can be popped off of an array - numbers, strings, even nested arrays.
+어떠한 종류의 항목이든 숫자, 문자열, 심지어 중첩된 배열까지 배열에서 제거될 수 있습니다.
 
 ```js
 const threeArr = [1, 4, 6];
@@ -22,15 +22,15 @@ console.log(oneDown);
 console.log(threeArr);
 ```
 
-The first `console.log` will display the value `6`, and the second will display the value `[1, 4]`.
+첫 번째 `console.log`는 값 `6`을 표시하고, 두 번째는 값 `[1, 4]`를 표시합니다.
 
 # --instructions--
 
-Use the `.pop()` function to remove the last item from `myArray` and assign the popped off value to a new variable, `removedFromMyArray`.
+`.pop()` 함수를 사용해서 `myArray`의 맨 마지막 항목을 제거하고 이 제거된 값을 `removedFromMyArray`에 할당하세요.
 
 # --hints--
 
-`myArray` should only contain `[["John", 23]]`.
+`myArray`는 `[["John", 23]]`만 가지고 있어야 합니다.
 
 ```js
 assert(
@@ -44,13 +44,13 @@ assert(
 );
 ```
 
-You should use `pop()` on `myArray`.
+`myArray`에 `pop()`을 사용해야 합니다.
 
 ```js
 assert(/removedFromMyArray\s*=\s*myArray\s*.\s*pop\s*(\s*)/.test(__helpers.removeJSComments(code)));
 ```
 
-`removedFromMyArray` should only contain `["cat", 2]`.
+`removedFromMyArray`는 `["cat", 2]`만 가지고 있어야 합니다.
 
 ```js
 assert(

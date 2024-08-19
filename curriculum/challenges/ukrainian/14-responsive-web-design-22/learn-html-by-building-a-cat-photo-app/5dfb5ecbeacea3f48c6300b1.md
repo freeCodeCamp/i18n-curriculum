@@ -7,9 +7,9 @@ dashedName: step-21
 
 # --description--
 
-The `li` element is used to create a list item in an ordered or unordered list.
+Елемент `li` використовують, щоб створити елемент списку для впорядкованого або невпорядкованого списку.
 
-Here is an example of list items in an unordered list:
+Ось приклад елементів невпорядкованого списку:
 
 ```html
 <ul>
@@ -18,13 +18,13 @@ Here is an example of list items in an unordered list:
 </ul>
 ```
 
-Within the `ul` element nest three list items to display three things cats love:
+Вкладіть три елементи списку до елемента `ul`, перерахувавши три речі, які люблять коти:
 
 `cat nip` `laser pointers` `lasagna`
 
 # --hints--
 
-Ви повинні мати три елементи `li`. Each `li` element should have its own opening and closing tag.
+Ви повинні мати три елементи `li`. Кожен елемент `li` повинен мати власні початковий та кінцевий теги.
 
 ```js
 assert($('li').length === 3 && code.match(/<\/li\>/g).length === 3);
@@ -41,7 +41,7 @@ assert.deepStrictEqual(
 );
 ```
 
-The three `li` elements should be located between the `ul` element's opening and closing tags.
+Три елементи `li` мають бути розташованими між початковим та кінцевим тегами елемента `ul`.
 
 ```js
 assert(

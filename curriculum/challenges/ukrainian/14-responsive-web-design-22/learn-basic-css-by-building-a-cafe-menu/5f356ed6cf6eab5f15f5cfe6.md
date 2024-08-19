@@ -13,7 +13,7 @@ Inside the opening `div` tag, add the `id` attribute with a value of `menu`.
 
 # --hints--
 
-Your opening `<div>` tag should have an `id` attribute set to `menu`.
+Початковий тег `<div>` повинен мати атрибут `id` зі значенням `menu`.
 
 ```js
 const div = $('div')[0];
