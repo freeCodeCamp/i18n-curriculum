@@ -9,7 +9,7 @@ dashedName: step-15
 
 У попередніх кроках ви використовували елемент прив’язки, щоб перетворити текст на посилання. Інші типи вмісту також можна перетворити на посилання, загорнувши їх в теги прив’язки.
 
-Here is an example of turning an image into a link:
+Ось приклад перетворення зображення на посилання:
 
 ```html
 <a href="example-link">
@@ -21,7 +21,7 @@ Here is an example of turning an image into a link:
 
 # --hints--
 
-You should have an `img` element with a `src` value of `https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg`. Можливо, ви випадково видалили його.
+Ви повинні мати елемент `img` з `src` зі значенням `https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg`. Можливо, ви випадково видалили його.
 
 ```js
 assert(

@@ -1,6 +1,6 @@
 ---
 id: 56533eb9ac21ba0edf2244b3
-title: Convert Celsius to Fahrenheit
+title: 섭씨를 화씨로 변환하기
 challengeType: 1
 forumTopicId: 16806
 dashedName: convert-celsius-to-fahrenheit
@@ -8,43 +8,43 @@ dashedName: convert-celsius-to-fahrenheit
 
 # --description--
 
-The formula to convert from Celsius to Fahrenheit is the temperature in Celsius times `9/5`, plus `32`.
+섭씨를 화씨로 변환하는 공식은 섭씨 온도에 `9/5`를 곱하고 `32`를 더하는 것입니다.
 
-You are given a variable `celsius` representing a temperature in Celsius. Use the variable `fahrenheit` already defined and assign it the Fahrenheit temperature equivalent to the given Celsius temperature. Use the formula mentioned above to help convert the Celsius temperature to Fahrenheit.
+섭씨 온도를 나타내는 변수 `celsius`가 있습니다. 주어진 변수 `fahrenheit` 를 사용하여 주어진 섭씨 온도와 일치하는 화씨 온도를 해당 변수에 할당하시오. 섭씨 온도를 화씨 온도로 바꾸기 위해 위에서 언급한 공식을 사용하시오.
 
 # --hints--
 
-`convertCtoF(0)` should return a number
+`convertCtoF(0)`는 숫자를 반환해야 합니다.
 
 ```js
 assert(typeof convertCtoF(0) === 'number');
 ```
 
-`convertCtoF(-30)` should return a value of `-22`
+`convertCtoF(-30)`는 `-22` 를 반환해야 합니다.
 
 ```js
 assert(convertCtoF(-30) === -22);
 ```
 
-`convertCtoF(-10)` should return a value of `14`
+`convertCtoF(-10)`는 `14`를 반환해야 합니다.
 
 ```js
 assert(convertCtoF(-10) === 14);
 ```
 
-`convertCtoF(0)` should return a value of `32`
+`convertCtoF(0)`는 `32`를 반환해야 합니다.
 
 ```js
 assert(convertCtoF(0) === 32);
 ```
 
-`convertCtoF(20)` should return a value of `68`
+`convertCtoF(20)`는 `68`을 반환해야 합니다.
 
 ```js
 assert(convertCtoF(20) === 68);
 ```
 
-`convertCtoF(30)` should return a value of `86`
+`convertCtoF(30)`는 `86`을 반환해야 합니다.
 
 ```js
 assert(convertCtoF(30) === 86);

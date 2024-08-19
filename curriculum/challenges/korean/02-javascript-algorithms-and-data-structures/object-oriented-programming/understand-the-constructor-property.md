@@ -1,6 +1,6 @@
 ---
 id: 587d7daf367417b2b2512b7e
-title: Understand the Constructor Property
+title: 생성자 속성 이해하기
 challengeType: 1
 forumTopicId: 301327
 dashedName: understand-the-constructor-property
@@ -8,7 +8,7 @@ dashedName: understand-the-constructor-property
 
 # --description--
 
-There is a special `constructor` property located on the object instances `duck` and `beagle` that were created in the previous challenges:
+이전 과제에서 생성된 `duck`과 `beagle` 인스턴스 객체에는 특별한 `constructor` 속성이 있습니다.
 
 ```js
 let duck = new Bird();
@@ -18,9 +18,9 @@ console.log(duck.constructor === Bird);
 console.log(beagle.constructor === Dog);
 ```
 
-Both of these `console.log` calls would display `true` in the console.
+두 `console.log`는 콘솔에서 `true`를 보여줄 것입니다.
 
-Note that the `constructor` property is a reference to the constructor function that created the instance. The advantage of the `constructor` property is that it's possible to check for this property to find out what kind of object it is. Here's an example of how this could be used:
+`constructor` 속성은 인스턴스를 생성한 생성자 함수에 대한 참조임을 유의하세요. `constructor` 속성의 이점은 이 속성이 어떤 객체인지 확인할 수 있다는 것입니다. 여기 이것이 어떻게 사용될 수 있는지 보여주는 예시가 있습니다.
 
 ```js
 function joinBirdFraternity(candidate) {
@@ -32,27 +32,27 @@ function joinBirdFraternity(candidate) {
 }
 ```
 
-**Note:** Since the `constructor` property can be overwritten (which will be covered in the next two challenges) it’s generally better to use the `instanceof` method to check the type of an object.
+**주의:** `constructor` 속성은 덮어 쓰기가 될 수 있기 때문에(이는 다음 두 과제에서 다룰 예정입니다) 객체의 타입을 확인할 때는 일반적으로 `instanceof` 메서드를 사용하는 것이 더 좋습니다.
 
 # --instructions--
 
-Write a `joinDogFraternity` function that takes a `candidate` parameter and, using the `constructor` property, return `true` if the candidate is a `Dog`, otherwise return `false`.
+`candidate` 매개변수를 받아 `constructor` 속성을 사용하여 해당 후보가 `Dog`이면 `true`, 그렇지 않으면 `false`를 반환하는 `joinDogFraternity` 함수를 작성하시오.
 
 # --hints--
 
-`joinDogFraternity` should be defined as a function.
+`joinDogFraternity`는 함수로 정의되어야 합니다.
 
 ```js
 assert(typeof joinDogFraternity === 'function');
 ```
 
-`joinDogFraternity` should return `true` if `candidate` is an instance of `Dog`.
+`joinDogFraternity`는 `candidate`(후보)가 `Dog`의 인스턴스면 `true`를 반환해야 합니다.
 
 ```js
 assert(joinDogFraternity(new Dog('')) === true);
 ```
 
-`joinDogFraternity` should use the `constructor` property.
+`joinDogFraternity`는 `constructor` 속성을 사용해야 합니다.
 
 ```js
 assert(/\.constructor/.test(__helpers.removeJSComments(code)) && !/instanceof/.test(__helpers.removeJSComments(code)));
