@@ -1,15 +1,15 @@
 ---
 id: 661e27578602567c118451d3
-title: Learn Arrays and Loops Lesson C
+title: Вивчіть масиви та цикли. Урок №3
 challengeType: 15
 dashedName: learn-arrays-and-loops-lesson-c
 ---
 
 # --description--
 
-One of the most common ways to add a new element to an array is by using the `push()` method. The `push()` method adds one or more elements to the end of an array and returns the new length of the array.
+Найпоширеніший спосіб додати новий елемент до масиву — використати метод `push()`. Метод `push()` додає один чи більше елементів в кінець масиву та повертає масив нової довжини.
 
-For example, to add a new element to the `pet` array, you can use the following code:
+Наприклад, щоб додати новий елемент до масиву `pet`, можна використати такий код:
 
 ```javascript
 const pet = ['cat', 'dog', 'bunny'];
@@ -17,9 +17,9 @@ pet.push('parrot');
 console.log(pet); // Output: ['cat', 'dog', 'bunny', 'parrot']
 ```
 
-To remove the last element of an array, you can use the `pop()` method. The `pop()` method removes the last element from an array and returns that element.
+Щоб видалити останній елемент масиву, використовують метод `pop()`. Метод `pop()` видаляє останній елемент з масиву та повертає цей елемент.
 
-For example, to remove the last element from the `pet` array, you can use the following code:
+Наприклад, щоб видалити останній елемент з масиву `pet`, можна використати такий код:
 
 ```javascript
 const pet = ['cat', 'dog', 'tiger'];
@@ -32,7 +32,7 @@ console.log(pet); // Output: ['cat', 'dog']
 
 ## --text--
 
-Given the following JavaScript code, what will be the output after executing the code snippet?
+Дано фрагмент коду JavaScript. Яким буде вивід після його виконання?
 
 ```javascript
 const animals = ['deer', 'whale', 'frog'];
@@ -45,19 +45,19 @@ console.log(removed);
 
 ## --answers--
 
-`['deer', 'whale', 'frog', 'shark', 'bear']` and `'bear'`
+`['deer', 'whale', 'frog', 'shark', 'bear']` та `'bear'`
 
 ---
 
-`['deer', 'whale', 'frog', 'shark']` and `'bear'`
+`['deer', 'whale', 'frog', 'shark']` та `'bear'`
 
 ---
 
-`['deer', 'whale', 'frog', 'shark', 'bear']` and `null`
+`['deer', 'whale', 'frog', 'shark', 'bear']` та `null`
 
 ---
 
-`['deer', 'whale', 'frog', 'shark', 'bear']` and `['deer', 'whale', 'frog', 'shark']`
+`['deer', 'whale', 'frog', 'shark', 'bear']` та `['deer', 'whale', 'frog', 'shark']`
 
 ## --video-solution--
 

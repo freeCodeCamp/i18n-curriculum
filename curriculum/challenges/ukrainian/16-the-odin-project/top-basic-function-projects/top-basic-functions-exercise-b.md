@@ -1,6 +1,6 @@
 ---
 id: 661e131f068359c3ccf2f4d6
-title: Базові функції. Вправа B
+title: Базові функції. Вправа №2
 challengeType: 1
 dashedName: top-basic-functions-exercise-b
 ---

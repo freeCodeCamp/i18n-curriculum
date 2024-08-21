@@ -1,17 +1,17 @@
 ---
 id: 661e27508602567c118451d1
-title: Learn Arrays and Loops Lesson A
+title: Вивчіть масиви та цикли. Урок №1
 challengeType: 15
 dashedName: learn-arrays-and-loops-lesson-a
 ---
 
 # --description--
 
-Strings and numbers may be our building blocks, but as your scripts get more complex, you're going to need a way to deal with large quantities of them. Luckily, JavaScript has a couple of data types that are used for just that. An Array is an ordered collection of items (Strings, numbers, or other things).
+Рядки та числа можна вважати будівельними блоками. А оскільки скрипти стають все складнішими, вам доведеться справлятись з великою кількістю цих блоків. На щастя, JavaScript має декілька типів даних для цього. Масив — це впорядкована колекція елементів (рядків, чисел та багато іншого).
 
-Arrays are a way to store multiple values in a single variable. They are a special type of object that has a length property and a series of numbered properties. Each numbered property is called an element, and each element can store a value of any type.
+Завдяки масивам можна зберігати декілька значень в одній змінній. Це спеціальний тип об’єкта, який має властивість довжини та декілька пронумерованих властивостей. Пронумеровану властивість називають елементом, а кожен елемент може зберігати значення будь-якого типу.
 
-An Example of an array is:
+Ось приклад масиву:
 
 ```javascript
 const fruits = ['apple', 'banana', 'orange'];
@@ -21,23 +21,23 @@ const fruits = ['apple', 'banana', 'orange'];
 
 ## --text--
 
-What is an array in JavaScript?
+Що таке масив у JavaScript?
 
 ## --answers--
 
-A function that stores multiple strings and numbers.
+Функція, яка зберігає кілька рядків та чисел.
 
 ---
 
-A data type used exclusively for numerical operations.
+Тип даних, який використовується виключно для числових операцій.
 
 ---
 
-An ordered collection of items that can store values of any type, including strings and numbers.
+Впорядкована колекція елементів, яка може зберігати значення будь-якого типу, включно з рядками та числами.
 
 ---
 
-A variable that can only store string values.
+Змінна, яка може зберігати лише значення рядків.
 
 ## --video-solution--
 

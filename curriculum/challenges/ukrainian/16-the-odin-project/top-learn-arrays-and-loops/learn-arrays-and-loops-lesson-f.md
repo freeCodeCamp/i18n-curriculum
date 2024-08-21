@@ -1,13 +1,13 @@
 ---
 id: 661e27598602567c118451d6
-title: Learn Arrays and Loops Lesson F
+title: Вивчіть масиви та цикли. Урок №6
 challengeType: 15
 dashedName: learn-arrays-and-loops-lesson-f
 ---
 
 # --description--
 
-The `for` loop is another type of loop that is used to execute a block of code multiple times. The `for` loop is used when the number of iterations is known. Синтаксис циклу `for` такий:
+Цикл `for` — ще один тип циклу, який використовують для виконання блоку коду декілька разів. Цикл `for` використовують, якщо відома кількість ітерацій. Синтаксис циклу `for` такий:
 
 ```javascript
 for (initialization; condition; increment/decrement) {
@@ -15,7 +15,7 @@ for (initialization; condition; increment/decrement) {
 }
 ```
 
-For example, the following code snippet prints the numbers from 1 to 5:
+Наприклад, наведений нижче фрагмент коду друкує числа від 1 до 5:
 
 ```javascript
 for (let i = 1; i <= 5; i++) {
@@ -23,7 +23,7 @@ for (let i = 1; i <= 5; i++) {
 }
 ```
 
-To iterate over an array using a `for` loop, you can use the array's length property. For example, the following code snippet prints the elements of an array:
+Щоб ітерувати над масивом за допомогою методу `for`, можна використати властивість довжини масиву. Наприклад, наведений нижче фрагмент коду надрукує елементи масиву:
 
 ```javascript
 const arr = [1, 2, 3, 4, 5];
@@ -36,7 +36,7 @@ for (let i = 0; i < arr.length; i++) {
 
 ## --text--
 
-What will be the output of the following JavaScript code snippet?
+Яким буде вивід даного фрагменту коду JavaScript?
 
 ```javascript
 const items = ['apple', 'banana', 'cherry', 'date'];

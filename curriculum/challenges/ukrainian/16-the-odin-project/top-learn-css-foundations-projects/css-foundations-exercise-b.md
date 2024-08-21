@@ -1,6 +1,6 @@
 ---
 id: 63ee3fe4381756f9716727f0
-title: Основи CSS. Вправа B
+title: Основи CSS. Вправа №2
 challengeType: 14
 dashedName: css-foundations-exercise-b
 ---
