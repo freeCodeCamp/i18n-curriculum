@@ -1,13 +1,13 @@
 ---
 id: 661e27588602567c118451d5
-title: Learn Arrays and Loops Lesson E
+title: Вивчіть масиви та цикли. Урок №5
 challengeType: 15
 dashedName: learn-arrays-and-loops-lesson-e
 ---
 
 # --description--
 
-Now that you have a basic understanding about arrays, let's talk about loops. Loops are used to execute a block of code multiple times. One of those loops is the `while` loop. The `while` loop executes a block of code as long as the condition is true. Синтаксис циклу `while` такий:
+Тепер у вас є базові знання щодо масивів, тому поговоримо про цикли. Цикли використовують, щоб виконати блок коду декілька разів. Одним з таких циклів є `while`. Цикл `while` виконує блок коду доки виконується умова. Синтаксис циклу `while` такий:
 
 ```javascript
 while (condition) {
@@ -15,7 +15,7 @@ while (condition) {
 }
 ```
 
-For example, the following code snippet prints the numbers from 1 to 5:
+Наприклад, наведений нижче фрагмент коду друкує числа від 1 до 5:
 
 ```javascript
 let i = 1;
@@ -25,13 +25,13 @@ while (i <= 5) {
 }
 ```
 
-The above code snippet initializes a variable `i` with the value `1`. The `while` loop executes the block of code as long as the value of `i` is less than or equal to `5`. The value of `i` is incremented by `1` in each iteration.
+У прикладі вище змінній `i` надано значення `1`. Цикл `while` виконує блок коду, якщо значення `i` менше або дорівнює `5`. Значення `i` збільшується на `1` під час кожної ітерації.
 
 # --question--
 
 ## --text--
 
-What will be the output of the following JavaScript code snippet?
+Яким буде вивід даного фрагменту коду JavaScript?
 
 ```javascript
 let i = 5;

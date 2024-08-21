@@ -1,15 +1,15 @@
 ---
 id: 661e27588602567c118451d4
-title: Learn Arrays and Loops Lesson D
+title: Вивчіть масиви та цикли. Урок №4
 challengeType: 15
 dashedName: learn-arrays-and-loops-lesson-d
 ---
 
 # --description--
 
-One of the more complex methods used with arrays are the `splice()` and `slice()` methods. The `splice()` method changes the contents of an array by removing or replacing an element in the array. The `slice()` method returns a shallow copy of a portion of an array into a new array object selected from `begin` to `end` (`end` not included). The original array will not be modified.
+Одними з найскладніших методів, які використовують з масивами, є `splice()` та `slice()`. Метод `splice()` змінює вміст масиву, видаляючи або замінюючи елемент в масиві. Метод `slice()` повертає поверхневу копію частини масиву від `begin` до `end` (не включаючи `end`) у вигляді нового об’єкту. Вхідний масив не змінюється.
 
-For example, to remove the second element from the `characters` array, you can use the following code:
+Наприклад, щоб видалити другий елемент з масиву `characters`, можна використати такий код:
 
 ```javascript
 const characters = ['Harry', 'Ron', 'Hermione'];
@@ -17,10 +17,10 @@ characters.splice(1, 1);
 console.log(characters); // Output: ['Harry', 'Hermione']
 ```
 
-The above element removes the second element from the `characters` array. The `splice()` method takes two arguments: the index of the element to remove and the number of elements to remove.
+У прикладі вище видалено другий елемент з масиву `characters`. Метод `splice()` приймає два аргументи: індекс елемента, який потрібно видалити, та кількість елементів, які потрібно видалити.
 
 
-To create a new array with the second element from the `character` array, you can use the following code:
+Щоб створити новий масив з другим елементом масиву `character`, можна використати такий код:
 
 ```javascript
 const characters = ['Harry', 'Ron', 'Hermione'];
@@ -28,13 +28,13 @@ const newCharacters = characters.slice(1, 2);
 console.log(newCharacters); // Output: ['Ron']
 ```
 
-The above code creates a new array `newCharacters` with the second element from the `characters` array. The `slice()` method takes two arguments: the index of the element to start the slice and the index of the element to end the slice (not included).
+У прикладі вище створено новий масив `newCharacters`, який містить другий елемент з масиву `characters`. Метод `slice()` приймає два аргументи: індекс елемента, з якого починається розріз, та індекс елемента, де розріз закінчується (його не включено).
 
 # --question--
 
 ## --text--
 
-What will be the output of the following JavaScript code snippet?
+Яким буде вивід даного фрагменту коду JavaScript?
 
 
 ```javascript
@@ -48,19 +48,19 @@ console.log(slicedNumbers);
 
 ## --answers--
 
-`numbers` output: `[10, 20, 30, 50]` and `slicedNumbers` output: `[30, 50]`
+Виводом `numbers` буде `[10, 20, 30, 50]`, а `slicedNumbers` — `[30, 50]`
 
 ---
 
-`numbers` output: `[10, 20, 30, 40]` and `slicedNumbers` output: `[30, 40]`
+Виводом `numbers` буде `[10, 20, 30, 40]`, а `slicedNumbers` — `[30, 40]`
 
 ---
 
-`numbers` output: `[10, 20, 50, 40]` and `slicedNumbers` output: `[20, 50]`
+Виводом `numbers` буде `[10, 20, 50, 40]`, а `slicedNumbers` — `[20, 50]`
 
 ---
 
-`numbers` output: `[10, 20, 30, 50, 40]` and `slicedNumbers` output: `[30, 50]`
+Виводом `numbers` буде `[10, 20, 30, 50, 40]`, а `slicedNumbers` — `[30, 50]`
 
 ## --video-solution--
 

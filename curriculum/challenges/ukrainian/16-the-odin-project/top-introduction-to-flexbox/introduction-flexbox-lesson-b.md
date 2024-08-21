@@ -1,39 +1,39 @@
 ---
 id: 6571b2fecc1de61d7b4dd380
-title: Introduction to Flexbox Lesson B
+title: Вступ до гнучкого контейнера. Урок №2
 challengeType: 15
 dashedName: introduction-flexbox-lesson-b
 ---
 
 # --description--
 
-As you’ve seen, flexbox is not just a single CSS property but a whole toolbox of properties that you can use to put things where you need them. Some of these properties belong on the flex container, while some go on the flex items. This is a simple yet important concept.
+Як ви вже помітили, flexbox — це не просто властивість CSS, а цілий набір властивостей, які можна використовувати, щоб розмістити елементи так, як потрібно. Деякі з цих властивостей належать до гнучкого контейнера, а деякі — до гнучких предметів. Це просте, але важливе поняття.
 
-A flex container is any element that has `display: flex` on it. A flex item is any element that lives directly inside of a flex container.
+Гнучкий контейнер — це будь-який елемент, який має `display: flex`. Гнучкий предмет — це будь-який елемент, який живе в гнучкому контейнері.
 
-<img src="https://cdn.freecodecamp.org/curriculum/odin-project/flex-box/flexbox-01.png" style="width: 95%; height: 95%;" alt="An outer rectangle representing a flex container encompassing three smaller inner rectangles lined up side by side, each representing a flex item." />
+<img src="https://cdn.freecodecamp.org/curriculum/odin-project/flex-box/flexbox-01.png" style="width: 95%; height: 95%;" alt="Зовнішній прямокутник, що представляє гнучкий контейнер, який охоплює три менші внутрішні прямокутники, розташовані поруч, кожен з яких представляє гнучкий предмет." />
 
 # --question--
 
 ## --text--
 
-What’s the difference between a flex container and a flex item?
+Яка різниця між гнучким контейнером та гнучким предметом?
 
 ## --answers--
 
-Flex containers are elements with `display: flex`, while flex items are elements within flex containers.
+Гнучкі контейнери — це елементи з `display: flex`, а гнучкі предмети — це елементи в межах гнучких контейнерів.
 
 ---
 
-Flex containers are elements within flex items, while flex items define the overall layout.
+Гнучкі контейнери — це елементи в межах гнучких предметів, а гнучкі предмети визначають загальний макет.
 
 ---
 
-Flex containers are elements using flexbox, and flex items are inline elements.
+Гнучкі контейнери — це елементи, які використовують flexbox, а гнучкі предмети є рядковими елементами.
 
 ---
 
-Flex containers are elements that define the layout structure, while flex items control the overall page design.
+Гнучкі контейнери — це елементи, які визначають структуру макета, а гнучкі предмети контролюють загальний дизайн сторінки.
 
 ## --video-solution--
 

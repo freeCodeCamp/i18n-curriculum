@@ -11,7 +11,7 @@ dashedName: step-25
 
 # --hints--
 
-Селектор `.cat-left-ear` повинен мати властивість `position` зі значенням `absolute`. Don't forget to add a semicolon.
+Селектор `.cat-left-ear` повинен мати властивість `position` зі значенням `absolute`. Не забудьте про крапку з комою.
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.position === 'absolute')

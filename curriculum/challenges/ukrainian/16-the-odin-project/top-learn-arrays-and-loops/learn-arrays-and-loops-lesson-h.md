@@ -1,13 +1,13 @@
 ---
 id: 661e275a8602567c118451d8
-title: Learn Arrays and Loops Lesson H
+title: Вивчіть масиви та цикли. Урок №8
 challengeType: 15
 dashedName: learn-arrays-and-loops-lesson-h
 ---
 
 # --description--
 
-One other useful array method is the `filter()` method. The `filter()` method creates a new array with all elements that pass the test implemented by the provided function. Синтаксис методу `filter()` такий:
+`filter()` — ще один корисний метод масиву. Метод `filter()` створює новий масив з усіх елементів, які проходять тест, реалізований наданою функцією. Синтаксис методу `filter()` такий:
 
 ```javascript
 const numbers = [2, 5, 6, 1, 9, -1]
@@ -19,13 +19,13 @@ const newNumbers = numbers.filter((number) => {
 console.log(newNumbers); // Output: [5, 6, 9]
 ```
 
-The `filter()` method creates a new array with all elements that are greater than 2. The `filter()` method does not change the original array.
+Метод `filter()` створює новий масив з усіма елементами, які більші за 2. Метод `filter()` не змінює вхідний масив.
 
 # --question--
 
 ## --text--
 
-What will be the output of the following JavaScript code snippet?
+Яким буде вивід даного фрагменту коду JavaScript?
 
 ```javascript
 const strings = ['apple', 'banana', 'cherry', 'orange', 'kiwi', 'mango'];
