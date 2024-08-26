@@ -14,19 +14,19 @@ dashedName: step-47
 既存の `section` 要素を変更しないようにしてください。
 
 ```js
-assert($('section').length === 2);
+assert.lengthOf(document.querySelectorAll('section'), 2);
 ```
 
 2 つ目の `section` 要素内に、`h2` 要素を 1 つ追加する必要があります。
 
 ```js
-assert($('section')[1].children[0].tagName === 'H2');
+assert.strictEqual(document.querySelectorAll('section')?.[1]?.children?.[0]?.tagName, 'H2');
 ```
 
 新しい `h2` 要素は `Desserts` というテキストをもつ必要があります。
 
 ```js
-assert($('h2')[1].innerText.match(/Desserts/i));
+assert.match(document.querySelectorAll('h2')?.[1]?.innerText, /Desserts/i);
 ```
 
 # --seed--

@@ -14,20 +14,22 @@ Ahora aplica la clase `established` al texto `Est. 2020`.
 El atributo `class` del elemento `p` debería tener el valor `established`.
 
 ```js
-assert(code.match(/<p class=('|")established\1>/i));
+assert.match(code,/<p class=('|")established\1>/i);
 ```
 
 Tu clase `established` debe estar en el elemento con el texto `Est. 2020`.
 
 ```js
-const established = $('.established');
-assert(established[0].innerText.match(/Est\.\s2020/i));
+assert.match(document.querySelector('.established')?.innerText, /Est\.\s2020/i);
 ```
 
 Tu elemento con la clase `established` debe tener letras en itálicas.
 
 ```js
-assert($('.established').css('font-style') === 'italic');
+const establishElement = document.querySelector('.established');
+
+const establishedFont = window.getComputedStyle(establishElement)?.getPropertyValue('font-style');
+assert.equal(establishedFont,"italic");
 ```
 
 # --seed--

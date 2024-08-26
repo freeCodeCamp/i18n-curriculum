@@ -14,25 +14,27 @@ Tornerai a breve ad agire sullo stile del menu, intanto prosegui aggiungendo un 
 Dovresti avere un tag di apertura `section`.
 
 ```js
-assert(code.match(/<section>/ig).length === 2);
+assert.lengthOf(code.match(/<section>/ig) ,2);
 ```
 
 Dovresti avere un tag di chiusura `section`.
 
 ```js
-assert(code.match(/<\/section>/ig).length === 2);
+assert.lengthOf(code.match(/<\/section>/ig) ,2);
 ```
 
 Non dovresti cambiare l'elemento `main` esistente.
 
 ```js
-assert($('main').length === 1);
+assert.lengthOf (document.querySelectorAll('main'), 1);
 ```
 
 Il nuovo elemento `section` dovrebbe essere annidato nell'elemento `main`.
 
 ```js
-assert($('main').children('section').length === 2);
+const main = document.querySelector('main');
+const sections = main?.querySelectorAll(`:scope ${'section'}`);
+assert.lengthOf(sections,2);
 ```
 
 # --seed--

@@ -27,7 +27,8 @@ Dentro del elemento ul se anidan 3 elementos de la lista para mostrar tres cosas
 Deberías tener tres elementos `li`. Cada elemento `li` debe tener su propia etiqueta de apertura y cierre.
 
 ```js
-assert($('li').length === 3 && code.match(/<\/li\>/g).length === 3);
+assert.lengthOf(document.querySelectorAll('li'),3)
+assert.lengthOf(code.match(/<\/li\>/g),3);
 ```
 
 Debes tener tres elementos `li` con el texto `cat nip`, `punteros láser` y `lasaña` en cualquier orden. Has omitido algún texto o tienes un error tipográfico.

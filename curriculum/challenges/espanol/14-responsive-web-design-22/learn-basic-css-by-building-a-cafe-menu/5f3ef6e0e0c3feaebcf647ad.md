@@ -14,19 +14,19 @@ Añade un elemento `h2` con el texto `Desserts` dentro del nuevo elemento sectio
 No debes modificar el elemento `section` existente.
 
 ```js
-assert($('section').length === 2);
+assert.lengthOf(document.querySelectorAll('section'), 2);
 ```
 
 Debes anidar un elemento `h2` dentro del segundo elemento `section`.
 
 ```js
-assert($('section')[1].children[0].tagName === 'H2');
+assert.strictEqual(document.querySelectorAll('section')?.[1]?.children?.[0]?.tagName, 'H2');
 ```
 
 Tu nuevo elemento `h2` debe tener el texto `Desserts`.
 
 ```js
-assert($('h2')[1].innerText.match(/Desserts/i));
+assert.match(document.querySelectorAll('h2')?.[1]?.innerText, /Desserts/i);
 ```
 
 # --seed--

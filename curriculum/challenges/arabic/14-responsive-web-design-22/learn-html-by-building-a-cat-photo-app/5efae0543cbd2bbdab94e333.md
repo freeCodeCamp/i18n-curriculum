@@ -28,7 +28,7 @@ assert(code.match(/<\/figure>/g).length === 2);
 يجب أن يكون هناك عنصر `figure` أعلى closing tag عنصر `section` الاخير.
 
 ```js
-assert($('main > section')[1].lastElementChild.nodeName === 'FIGURE');
+assert.strictEqual(document.querySelectorAll('main > section')?.[1]?.lastElementChild?.nodeName, 'FIGURE');
 ```
 
 عنصر `img` للـ Cats يجب أن يدمج في عنصر `figure`.

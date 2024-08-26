@@ -14,25 +14,27 @@ dashedName: step-46
 يجب أن يكون لديك علامة مفتوحة (opening tag) الآتي `section`.
 
 ```js
-assert(code.match(/<section>/ig).length === 2);
+assert.lengthOf(code.match(/<section>/ig) ,2);
 ```
 
 يجب أن يكون لديك علامة مغلقة (closing tag) الآتي `section`.
 
 ```js
-assert(code.match(/<\/section>/ig).length === 2);
+assert.lengthOf(code.match(/<\/section>/ig) ,2);
 ```
 
 لا يجب عليك تغيير عنصر `main` الحالي.
 
 ```js
-assert($('main').length === 1);
+assert.lengthOf (document.querySelectorAll('main'), 1);
 ```
 
 عنصر `section` الجديد الخاص بك يجب أن يكون متداخلا في عنصر `main`.
 
 ```js
-assert($('main').children('section').length === 2);
+const main = document.querySelector('main');
+const sections = main?.querySelectorAll(`:scope ${'section'}`);
+assert.lengthOf(sections,2);
 ```
 
 # --seed--

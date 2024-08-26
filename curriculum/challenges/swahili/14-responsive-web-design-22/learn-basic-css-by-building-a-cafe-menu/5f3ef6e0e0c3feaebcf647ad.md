@@ -14,19 +14,19 @@ Ongeza kipengee cha `h2` katika sehemu mpya na ukipe maandishi `Desserts`.
 Hupaswi kubadilisha kipengele chako cha `section` kilichopo.
 
 ```js
-assert($('section').length === 2);
+assert.lengthOf(document.querySelectorAll('section'), 2);
 ```
 
 Unapaswa kuongeza kipengele cha `h2` katika kipengele chako cha pili cha `section`.
 
 ```js
-assert($('section')[1].children[0].tagName === 'H2');
+assert.strictEqual(document.querySelectorAll('section')?.[1]?.children?.[0]?.tagName, 'H2');
 ```
 
 Kipengele chako kipya cha `h2` kinafaa kuwa na maandishi `Desserts`.
 
 ```js
-assert($('h2')[1].innerText.match(/Desserts/i));
+assert.match(document.querySelectorAll('h2')?.[1]?.innerText, /Desserts/i);
 ```
 
 # --seed--

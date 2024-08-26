@@ -26,7 +26,7 @@ assert(code.match(/<\/figure>/g).length >= 2);
 在第二個 `section` 元素的結束標籤上方應該有一個 `figure` 元素。 你把順序寫錯了。
 
 ```js
-assert($('main > section')[1].lastElementChild.nodeName === 'FIGURE');
+assert.strictEqual(document.querySelectorAll('main > section')?.[1]?.lastElementChild?.nodeName, 'FIGURE');
 ```
 
 你應該在 `figure` 元素中嵌套第三個 `img` 元素。

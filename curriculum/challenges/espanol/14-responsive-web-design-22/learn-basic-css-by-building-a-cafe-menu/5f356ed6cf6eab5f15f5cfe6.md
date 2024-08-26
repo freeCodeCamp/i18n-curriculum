@@ -16,8 +16,7 @@ Dentro de la etiqueta `div` de apertura, añade el atributo `id` con un valor de
 Tu etiqueta `<div>` de apertura debe tener un atributo `id` establecido en `menu`.
 
 ```js
-const div = $('div')[0];
-assert(div.id === 'menu');
+assert.strictEqual(document.querySelector('div')?.id, 'menu');
 ```
 
 Debes tener una etiqueta `</div>` de cierre.
@@ -29,14 +28,13 @@ assert(code.match(/<\/div>/i));
 No debes cambiar tu elemento `body` existente. Asegúrate de no haber eliminado la etiqueta de cierre.
 
 ```js
-assert($('body').length === 1);
+assert.lengthOf(document.querySelectorAll('body'), 1);
 ```
 
 Tu etiqueta `div` debe estar anidado dentro del `body`.
 
 ```js
-const div = $('div')[0];
-assert(div.parentElement.tagName === 'BODY');
+assert.equal(document.querySelector('div')?.parentElement?.tagName, 'BODY');
 ```
 
 

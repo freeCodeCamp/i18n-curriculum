@@ -27,7 +27,8 @@ Bette innerhalb des `ul`-Elements drei Listen-Elemente ein, um drei Dinge anzuze
 Du solltest drei `li`-Elemente haben. Jedes `li`-Element sollte ein eigenes öffnendes und schließendes Tag besitzen.
 
 ```js
-assert($('li').length === 3 && code.match(/<\/li\>/g).length === 3);
+assert.lengthOf(document.querySelectorAll('li'),3)
+assert.lengthOf(code.match(/<\/li\>/g),3);
 ```
 
 Du solltest drei `li`-Elemente mit dem Text `cat nip`, `laser pointers` und `lasagna` in beliebiger Reihenfolge haben. Du hast entweder etwas Text weggelassen oder einen Tippfehler gemacht.

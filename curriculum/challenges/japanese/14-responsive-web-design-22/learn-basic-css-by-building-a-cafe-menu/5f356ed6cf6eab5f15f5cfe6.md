@@ -16,8 +16,7 @@ dashedName: step-20
 `<div>` の開始タグは、`id` 属性が `menu` に設定されている必要があります。
 
 ```js
-const div = $('div')[0];
-assert(div.id === 'menu');
+assert.strictEqual(document.querySelector('div')?.id, 'menu');
 ```
 
 終了タグ `</div>` が必要です。
@@ -29,14 +28,13 @@ assert(code.match(/<\/div>/i));
 既存の `body` 要素を変更しないでください。 終了タグを削除していないか確認してください。
 
 ```js
-assert($('body').length === 1);
+assert.lengthOf(document.querySelectorAll('body'), 1);
 ```
 
 `div` タグは `body` の中にネストされている必要があります。
 
 ```js
-const div = $('div')[0];
-assert(div.parentElement.tagName === 'BODY');
+assert.equal(document.querySelector('div')?.parentElement?.tagName, 'BODY');
 ```
 
 

@@ -14,19 +14,19 @@ Füge ein `h2`-Element in den neuen Abschnitt hinzu und gib ihm den Text `Desser
 Du solltest nicht das vorhandene `section`-Element ändern.
 
 ```js
-assert($('section').length === 2);
+assert.lengthOf(document.querySelectorAll('section'), 2);
 ```
 
 Du solltest ein `h2`-Element innerhalb des zweiten `section`-Elements verschachteln.
 
 ```js
-assert($('section')[1].children[0].tagName === 'H2');
+assert.strictEqual(document.querySelectorAll('section')?.[1]?.children?.[0]?.tagName, 'H2');
 ```
 
 Dein neues `h2`-Element sollte den Text `Desserts` haben.
 
 ```js
-assert($('h2')[1].innerText.match(/Desserts/i));
+assert.match(document.querySelectorAll('h2')?.[1]?.innerText, /Desserts/i);
 ```
 
 # --seed--

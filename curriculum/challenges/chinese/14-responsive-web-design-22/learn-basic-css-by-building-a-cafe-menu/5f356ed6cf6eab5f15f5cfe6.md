@@ -16,8 +16,7 @@ dashedName: step-20
 你的 `div` 开始标签的 `id` 属性值应为 `menu`。
 
 ```js
-const div = $('div')[0];
-assert(div.id === 'menu');
+assert.strictEqual(document.querySelector('div')?.id, 'menu');
 ```
 
 你应该有一个 `</div>` 结束标签。
@@ -29,14 +28,13 @@ assert(code.match(/<\/div>/i));
 你不应该改变你现有的 `body`元素。 确保你没有删除结束标签。
 
 ```js
-assert($('body').length === 1);
+assert.lengthOf(document.querySelectorAll('body'), 1);
 ```
 
 你的 `div` 元素应该嵌套在你的 `body` 元素中。
 
 ```js
-const div = $('div')[0];
-assert(div.parentElement.tagName === 'BODY');
+assert.equal(document.querySelector('div')?.parentElement?.tagName, 'BODY');
 ```
 
 

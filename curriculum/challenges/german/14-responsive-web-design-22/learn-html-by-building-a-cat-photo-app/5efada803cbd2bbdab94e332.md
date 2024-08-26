@@ -26,7 +26,7 @@ assert(code.match(/<\/figure>/g).length >= 2);
 Es sollte ein zweites `figure`-Element genau über dem zweiten schließenden Tag des `section`-Elements geben. Sie sind in falscher Reihenfolge.
 
 ```js
-assert($('main > section')[1].lastElementChild.nodeName === 'FIGURE');
+assert.strictEqual(document.querySelectorAll('main > section')?.[1]?.lastElementChild?.nodeName, 'FIGURE');
 ```
 
 Du solltest ein drittes `img`-Element in dem `figure`-Element einbetten.

@@ -27,7 +27,8 @@ dashedName: step-21
 你应该有三个 `li` 元素。 每个 `li` 元素都应该有自己的开始和结束标签。
 
 ```js
-assert($('li').length === 3 && code.match(/<\/li\>/g).length === 3);
+assert.lengthOf(document.querySelectorAll('li'),3)
+assert.lengthOf(code.match(/<\/li\>/g),3);
 ```
 
 你应该有三个 `li` 元素，其中包含任意顺序的文本 `cat nip`、`laser pointers` 和 `lasagna`。 你可能忽略了文本或有拼写错误。

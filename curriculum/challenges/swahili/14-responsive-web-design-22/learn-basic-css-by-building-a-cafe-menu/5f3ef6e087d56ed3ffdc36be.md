@@ -14,20 +14,22 @@ Sasa tumia class ya `established` kwa maandishi ya `Est. 2020`.
 Unapaswa kuweka `class` ya kipengele cha `p` kuwa `established`.
 
 ```js
-assert(code.match(/<p class=('|")established\1>/i));
+assert.match(code,/<p class=('|")established\1>/i);
 ```
 
 Class yako ya `established` inapaswa kuwa kwenye kipengele chenye maandishi `Est. 2020`.
 
 ```js
-const established = $('.established');
-assert(established[0].innerText.match(/Est\.\s2020/i));
+assert.match(document.querySelector('.established')?.innerText, /Est\.\s2020/i);
 ```
 
 Kipengele chako cha class ya `established` kinapaswa kuwa na maandishi ya italiki.
 
 ```js
-assert($('.established').css('font-style') === 'italic');
+const establishElement = document.querySelector('.established');
+
+const establishedFont = window.getComputedStyle(establishElement)?.getPropertyValue('font-style');
+assert.equal(establishedFont,"italic");
 ```
 
 # --seed--

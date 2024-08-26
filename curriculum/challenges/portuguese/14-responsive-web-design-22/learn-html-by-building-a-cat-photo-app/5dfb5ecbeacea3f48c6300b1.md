@@ -27,7 +27,8 @@ Aninhe no elemento `ul` uma lista de três coisas que gatos adoram:
 Você deve usar três elementos `li`. Cada elemento `li` deve ter sua própria tag de abertura e de fechamento.
 
 ```js
-assert($('li').length === 3 && code.match(/<\/li\>/g).length === 3);
+assert.lengthOf(document.querySelectorAll('li'),3)
+assert.lengthOf(code.match(/<\/li\>/g),3);
 ```
 
 Use três elementos `li` com os textos `cat nip`, `laser pointers` e `lasagna`, em qualquer ordem. Você esqueceu algum dos textos ou cometeu um erro de digitação.

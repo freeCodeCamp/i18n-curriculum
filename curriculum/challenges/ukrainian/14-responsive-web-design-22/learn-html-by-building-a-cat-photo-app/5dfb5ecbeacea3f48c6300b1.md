@@ -27,7 +27,8 @@ dashedName: step-21
 Ви повинні мати три елементи `li`. Кожен елемент `li` повинен мати власні початковий та кінцевий теги.
 
 ```js
-assert($('li').length === 3 && code.match(/<\/li\>/g).length === 3);
+assert.lengthOf(document.querySelectorAll('li'),3)
+assert.lengthOf(code.match(/<\/li\>/g),3);
 ```
 
 У вас мають бути три елементи `li` з текстом `cat nip`, `laser pointers` та `lasagna` у будь-якому порядку. Ви або не написали текст, або маєте друкарську помилку.

@@ -14,19 +14,19 @@ dashedName: step-47
 لا يجب عليك تغيير عنصر `section` الحالي.
 
 ```js
-assert($('section').length === 2);
+assert.lengthOf(document.querySelectorAll('section'), 2);
 ```
 
 يجب عليك دمج عنصر `h2` واحد داخل ثاني عنصر `section`.
 
 ```js
-assert($('section')[1].children[0].tagName === 'H2');
+assert.strictEqual(document.querySelectorAll('section')?.[1]?.children?.[0]?.tagName, 'H2');
 ```
 
 يجب أن يحتوي العنصر `h2` الجديد على النص `Desserts`.
 
 ```js
-assert($('h2')[1].innerText.match(/Desserts/i));
+assert.match(document.querySelectorAll('h2')?.[1]?.innerText, /Desserts/i);
 ```
 
 # --seed--

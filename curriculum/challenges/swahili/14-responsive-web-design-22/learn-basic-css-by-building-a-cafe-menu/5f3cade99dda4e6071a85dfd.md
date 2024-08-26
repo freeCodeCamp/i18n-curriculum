@@ -14,25 +14,27 @@ Utarudi kutengeneza menyu katika hatua chache, lakini kwa sasa, endelea na uonge
 Unapaswa kuwa na tagi ya kufungua `section`.
 
 ```js
-assert(code.match(/<section>/ig).length === 2);
+assert.lengthOf(code.match(/<section>/ig) ,2);
 ```
 
 Unapaswa kuwa na tagi ya kufunga ya `section`.
 
 ```js
-assert(code.match(/<\/section>/ig).length === 2);
+assert.lengthOf(code.match(/<\/section>/ig) ,2);
 ```
 
 Hupaswi kubadilisha kipengele cha `main` kilichopo.
 
 ```js
-assert($('main').length === 1);
+assert.lengthOf (document.querySelectorAll('main'), 1);
 ```
 
 Kipengee chako kipya cha `section` kinapaswa kuwekwa katika kipengele cha `main`.
 
 ```js
-assert($('main').children('section').length === 2);
+const main = document.querySelector('main');
+const sections = main?.querySelectorAll(`:scope ${'section'}`);
+assert.lengthOf(sections,2);
 ```
 
 # --seed--

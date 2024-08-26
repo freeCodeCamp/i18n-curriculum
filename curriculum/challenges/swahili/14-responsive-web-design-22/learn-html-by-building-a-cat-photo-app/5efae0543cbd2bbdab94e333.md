@@ -28,7 +28,7 @@ assert(code.match(/<\/figure>/g).length === 2);
 Kunapaswa kuwa na kipengele cha `figure` juu ya tagi ya mwisho ya kufunga ya kipengele cha pili cha `section`.
 
 ```js
-assert($('main > section')[1].lastElementChild.nodeName === 'FIGURE');
+assert.strictEqual(document.querySelectorAll('main > section')?.[1]?.lastElementChild?.nodeName, 'FIGURE');
 ```
 
 Kipengee cha Cats cha `img` kinapaswa kuwekwa katika kipengee cha `figure`.

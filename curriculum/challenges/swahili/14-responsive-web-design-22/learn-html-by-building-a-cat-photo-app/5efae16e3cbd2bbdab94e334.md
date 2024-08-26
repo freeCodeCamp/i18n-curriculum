@@ -26,7 +26,7 @@ assert(code.match(/<\/figcaption\>/g).length === 2);
 Kunapaswa kuwa na kipengele cha `figure` juu ya tagi ya kufunga ya kipengele cha pili cha `section`.
 
 ```js
-assert($('main > section')[1].lastElementChild.nodeName === 'FIGURE');
+assert.strictEqual(document.querySelectorAll('main > section')?.[1]?.lastElementChild?.nodeName, 'FIGURE');
 ```
 
 Kipengele cha mwisho cha `img` kinafaa kuwekwa kwenye kipengee cha `figure`.
