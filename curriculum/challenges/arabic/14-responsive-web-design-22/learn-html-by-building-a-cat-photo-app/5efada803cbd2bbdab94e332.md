@@ -26,7 +26,7 @@ assert(code.match(/<\/figure>/g).length >= 2);
 يجب أن يكون هناك عنصر `figure` ثاني أعلى closing tag عنصر `section` الثاني. لقد وضعتهم بترتيب خاطئ.
 
 ```js
-assert($('main > section')[1].lastElementChild.nodeName === 'FIGURE');
+assert.strictEqual(document.querySelectorAll('main > section')?.[1]?.lastElementChild?.nodeName, 'FIGURE');
 ```
 
 يجب أن يكون لديك عنصر `img` ثالث مدمج في عنصر `figure`.

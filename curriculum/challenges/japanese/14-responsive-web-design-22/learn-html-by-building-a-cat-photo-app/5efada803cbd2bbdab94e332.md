@@ -26,7 +26,7 @@ assert(code.match(/<\/figure>/g).length >= 2);
 2 つ目の `section` 要素の終了タグのすぐ上に 2 つ目の `figure` 要素が必要です。 順番が誤っているようです。
 
 ```js
-assert($('main > section')[1].lastElementChild.nodeName === 'FIGURE');
+assert.strictEqual(document.querySelectorAll('main > section')?.[1]?.lastElementChild?.nodeName, 'FIGURE');
 ```
 
 3 つ目の `img` 要素を `figure` 要素内にネストする必要があります。

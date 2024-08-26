@@ -14,20 +14,22 @@ Wende jetzt die `established`-Klasse auf den Text `Est. 2020` an.
 Du solltest die `class` des `p`-Elements auf `established` setzen.
 
 ```js
-assert(code.match(/<p class=('|")established\1>/i));
+assert.match(code,/<p class=('|")established\1>/i);
 ```
 
 Deine `established`-Klasse sollte sich auf dem Element mit dem Text `Est. 2020` befinden.
 
 ```js
-const established = $('.established');
-assert(established[0].innerText.match(/Est\.\s2020/i));
+assert.match(document.querySelector('.established')?.innerText, /Est\.\s2020/i);
 ```
 
 Dein `established`-Klassen-Element sollte einen kursiven Text haben.
 
 ```js
-assert($('.established').css('font-style') === 'italic');
+const establishElement = document.querySelector('.established');
+
+const establishedFont = window.getComputedStyle(establishElement)?.getPropertyValue('font-style');
+assert.equal(establishedFont,"italic");
 ```
 
 # --seed--

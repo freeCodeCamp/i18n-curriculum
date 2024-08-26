@@ -28,7 +28,7 @@ assert(code.match(/<\/figure>/g).length === 2);
 Ci dovrebbe essere un elemento `figure` proprio sopra il tag di chiusura dell'ultimo elemento `section`.
 
 ```js
-assert($('main > section')[1].lastElementChild.nodeName === 'FIGURE');
+assert.strictEqual(document.querySelectorAll('main > section')?.[1]?.lastElementChild?.nodeName, 'FIGURE');
 ```
 
 L'elemento `img` con i gatti dovrebbe essere annidato nell'elemento `figure`.

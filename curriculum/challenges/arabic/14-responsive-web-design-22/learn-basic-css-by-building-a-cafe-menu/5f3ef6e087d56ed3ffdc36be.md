@@ -14,20 +14,22 @@ dashedName: step-61
 يجب عليك تعيين `class` عنصر `p` إلى `established`.
 
 ```js
-assert(code.match(/<p class=('|")established\1>/i));
+assert.match(code,/<p class=('|")established\1>/i);
 ```
 
 يجب أن تكون class مسمى `established` الخاص بك في العنصر الذي يحتوي النص `Est. 2020`.
 
 ```js
-const established = $('.established');
-assert(established[0].innerText.match(/Est\.\s2020/i));
+assert.match(document.querySelector('.established')?.innerText, /Est\.\s2020/i);
 ```
 
 يجب أن يحتوي عنصر class مسمى `established` على نص مائل (italic).
 
 ```js
-assert($('.established').css('font-style') === 'italic');
+const establishElement = document.querySelector('.established');
+
+const establishedFont = window.getComputedStyle(establishElement)?.getPropertyValue('font-style');
+assert.equal(establishedFont,"italic");
 ```
 
 # --seed--

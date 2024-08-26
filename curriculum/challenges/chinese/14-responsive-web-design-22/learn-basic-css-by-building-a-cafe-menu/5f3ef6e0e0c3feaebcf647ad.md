@@ -14,19 +14,19 @@ dashedName: step-47
 你不应该改变你现有的 `section` 元素。
 
 ```js
-assert($('section').length === 2);
+assert.lengthOf(document.querySelectorAll('section'), 2);
 ```
 
 你应该在你的第二个 `section` 元素中添加一个 `h2` 元素。
 
 ```js
-assert($('section')[1].children[0].tagName === 'H2');
+assert.strictEqual(document.querySelectorAll('section')?.[1]?.children?.[0]?.tagName, 'H2');
 ```
 
 你的新 `h2` 元素应该有文字 `Desserts`。
 
 ```js
-assert($('h2')[1].innerText.match(/Desserts/i));
+assert.match(document.querySelectorAll('h2')?.[1]?.innerText, /Desserts/i);
 ```
 
 # --seed--

@@ -26,7 +26,7 @@ assert(code.match(/<\/figcaption\>/g).length === 2);
 2 つ目の `section` 要素の終了タグのすぐ上に `figure` 要素が必要です。
 
 ```js
-assert($('main > section')[1].lastElementChild.nodeName === 'FIGURE');
+assert.strictEqual(document.querySelectorAll('main > section')?.[1]?.lastElementChild?.nodeName, 'FIGURE');
 ```
 
 最後の `img` 要素は `figure` 要素内にネストされている必要があります。

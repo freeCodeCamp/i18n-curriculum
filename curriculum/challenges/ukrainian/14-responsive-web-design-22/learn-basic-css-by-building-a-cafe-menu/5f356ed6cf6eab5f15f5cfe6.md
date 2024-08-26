@@ -16,8 +16,7 @@ dashedName: step-20
 Початковий тег `<div>` повинен мати атрибут `id` зі значенням `menu`.
 
 ```js
-const div = $('div')[0];
-assert(div.id === 'menu');
+assert.strictEqual(document.querySelector('div')?.id, 'menu');
 ```
 
 Ви повинні мати кінцевий тег `</div>`.
@@ -29,14 +28,13 @@ assert(code.match(/<\/div>/i));
 Не змінюйте наявний елемент `body`. Переконайтеся, що не видалили кінцевий тег.
 
 ```js
-assert($('body').length === 1);
+assert.lengthOf(document.querySelectorAll('body'), 1);
 ```
 
 Тег `div` має бути вкладеним в `body`.
 
 ```js
-const div = $('div')[0];
-assert(div.parentElement.tagName === 'BODY');
+assert.equal(document.querySelector('div')?.parentElement?.tagName, 'BODY');
 ```
 
 

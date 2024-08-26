@@ -14,20 +14,22 @@ dashedName: step-61
 你应该将 `p` 元素的 `class` 设置为 `established`
 
 ```js
-assert(code.match(/<p class=('|")established\1>/i));
+assert.match(code,/<p class=('|")established\1>/i);
 ```
 
 在具有文字 `Est. 2020` 的元素上应该有 `established` 类。
 
 ```js
-const established = $('.established');
-assert(established[0].innerText.match(/Est\.\s2020/i));
+assert.match(document.querySelector('.established')?.innerText, /Est\.\s2020/i);
 ```
 
 你的 `established` 类元素应该有斜体字。
 
 ```js
-assert($('.established').css('font-style') === 'italic');
+const establishElement = document.querySelector('.established');
+
+const establishedFont = window.getComputedStyle(establishElement)?.getPropertyValue('font-style');
+assert.equal(establishedFont,"italic");
 ```
 
 # --seed--

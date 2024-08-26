@@ -26,7 +26,7 @@ assert(code.match(/<\/figcaption\>/g).length === 2);
 Прямо над кінцевим теґом другого елемента `section` повинен бути елемент `figure`.
 
 ```js
-assert($('main > section')[1].lastElementChild.nodeName === 'FIGURE');
+assert.strictEqual(document.querySelectorAll('main > section')?.[1]?.lastElementChild?.nodeName, 'FIGURE');
 ```
 
 Останній елемент `img` повинен бути вкладеним в елементі `figure`.

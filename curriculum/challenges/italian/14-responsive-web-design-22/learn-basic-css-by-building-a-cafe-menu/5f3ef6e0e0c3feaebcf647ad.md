@@ -14,19 +14,19 @@ Nella nuova sezione, aggiungi un elemento `h2` con il testo `Desserts`.
 Non dovresti cambiare l'elemento `section` esistente.
 
 ```js
-assert($('section').length === 2);
+assert.lengthOf(document.querySelectorAll('section'), 2);
 ```
 
 Dovresti aggiungere un elemento `h2` nel secondo elemento `section`.
 
 ```js
-assert($('section')[1].children[0].tagName === 'H2');
+assert.strictEqual(document.querySelectorAll('section')?.[1]?.children?.[0]?.tagName, 'H2');
 ```
 
 Il nuovo elemento `h2` dovrebbe avere il testo `Desserts`.
 
 ```js
-assert($('h2')[1].innerText.match(/Desserts/i));
+assert.match(document.querySelectorAll('h2')?.[1]?.innerText, /Desserts/i);
 ```
 
 # --seed--

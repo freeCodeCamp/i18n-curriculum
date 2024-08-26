@@ -14,25 +14,27 @@ Você ainda vai voltar à estilização do menu, mas, por agora, adicione um seg
 Você deve acrescentar uma tag de abertura para `section`.
 
 ```js
-assert(code.match(/<section>/ig).length === 2);
+assert.lengthOf(code.match(/<section>/ig) ,2);
 ```
 
 Você deve acrescentar uma tag de fechamento para `section`.
 
 ```js
-assert(code.match(/<\/section>/ig).length === 2);
+assert.lengthOf(code.match(/<\/section>/ig) ,2);
 ```
 
 O elemento preexistente `main` deve permanecer o mesmo.
 
 ```js
-assert($('main').length === 1);
+assert.lengthOf (document.querySelectorAll('main'), 1);
 ```
 
 O novo elemento `section` deve estar dentro do elemento `main`.
 
 ```js
-assert($('main').children('section').length === 2);
+const main = document.querySelector('main');
+const sections = main?.querySelectorAll(`:scope ${'section'}`);
+assert.lengthOf(sections,2);
 ```
 
 # --seed--

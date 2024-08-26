@@ -14,25 +14,27 @@ Du wirst in ein paar Schritten auf die Gestaltung der Speisekarte zurückkommen,
 Du solltest ein öffnendes `section`-Tag haben.
 
 ```js
-assert(code.match(/<section>/ig).length === 2);
+assert.lengthOf(code.match(/<section>/ig) ,2);
 ```
 
 Du solltest ein schließendes `section`-Tag haben.
 
 ```js
-assert(code.match(/<\/section>/ig).length === 2);
+assert.lengthOf(code.match(/<\/section>/ig) ,2);
 ```
 
 Du solltest das vorhandene `main`-Element nicht ändern.
 
 ```js
-assert($('main').length === 1);
+assert.lengthOf (document.querySelectorAll('main'), 1);
 ```
 
 Dein neues `section`-Element sollte im `main`-Element verschachtelt sein.
 
 ```js
-assert($('main').children('section').length === 2);
+const main = document.querySelector('main');
+const sections = main?.querySelectorAll(`:scope ${'section'}`);
+assert.lengthOf(sections,2);
 ```
 
 # --seed--

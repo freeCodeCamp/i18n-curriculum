@@ -14,25 +14,27 @@ dashedName: step-46
 你应该有一个 `section` 开始标签。
 
 ```js
-assert(code.match(/<section>/ig).length === 2);
+assert.lengthOf(code.match(/<section>/ig) ,2);
 ```
 
 你应该有一个 `section` 结束标签。
 
 ```js
-assert(code.match(/<\/section>/ig).length === 2);
+assert.lengthOf(code.match(/<\/section>/ig) ,2);
 ```
 
 你不应该改变你现有的 `main` 元素。
 
 ```js
-assert($('main').length === 1);
+assert.lengthOf (document.querySelectorAll('main'), 1);
 ```
 
 你的新 `section` 元素应该嵌套在 `main` 元素中。
 
 ```js
-assert($('main').children('section').length === 2);
+const main = document.querySelector('main');
+const sections = main?.querySelectorAll(`:scope ${'section'}`);
+assert.lengthOf(sections,2);
 ```
 
 # --seed--

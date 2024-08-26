@@ -27,7 +27,8 @@ dashedName: step-21
 `li` 要素が 3 つ必要です。 各 `li` 要素に開始タグと終了タグが必要です。
 
 ```js
-assert($('li').length === 3 && code.match(/<\/li\>/g).length === 3);
+assert.lengthOf(document.querySelectorAll('li'),3)
+assert.lengthOf(code.match(/<\/li\>/g),3);
 ```
 
 3 つの `li` 要素に、任意の順番でテキスト `cat nip`、`laser pointers`、`lasagna` が設定されている必要があります。 テキストが設定されていないか、誤字脱字があります。

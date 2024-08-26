@@ -26,7 +26,7 @@ assert(code.match(/<\/figcaption\>/g).length === 2);
 在第二个 `section` 元素的结束标签上方应该有一个 `figure` 元素。
 
 ```js
-assert($('main > section')[1].lastElementChild.nodeName === 'FIGURE');
+assert.strictEqual(document.querySelectorAll('main > section')?.[1]?.lastElementChild?.nodeName, 'FIGURE');
 ```
 
 最后一个 `img` 元素应该嵌套在 `figure` 元素中。

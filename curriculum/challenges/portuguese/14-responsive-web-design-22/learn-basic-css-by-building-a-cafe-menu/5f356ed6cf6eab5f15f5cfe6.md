@@ -16,8 +16,7 @@ Dentro da tag de abertura da `div`, adicione o atributo `id` com o valor de `men
 A tag de abertura da `<div>` deve ter o atributo `id` definido como `menu`.
 
 ```js
-const div = $('div')[0];
-assert(div.id === 'menu');
+assert.strictEqual(document.querySelector('div')?.id, 'menu');
 ```
 
 Você deve acrescentar uma tag de fechamento `</div>`.
@@ -29,14 +28,13 @@ assert(code.match(/<\/div>/i));
 Você não dever alterar o elemento `body` existente. Certifique-se de que você não excluiu a tag de fechamento.
 
 ```js
-assert($('body').length === 1);
+assert.lengthOf(document.querySelectorAll('body'), 1);
 ```
 
 O elemento `div` deve estar dentro do elemento `body`.
 
 ```js
-const div = $('div')[0];
-assert(div.parentElement.tagName === 'BODY');
+assert.equal(document.querySelector('div')?.parentElement?.tagName, 'BODY');
 ```
 
 

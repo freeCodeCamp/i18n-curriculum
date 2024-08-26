@@ -14,19 +14,19 @@ dashedName: step-47
 Ви не повинні змінювати наявний елемент `section`.
 
 ```js
-assert($('section').length === 2);
+assert.lengthOf(document.querySelectorAll('section'), 2);
 ```
 
 Ви повинні додати елемент `h2` до другого елемента `section`.
 
 ```js
-assert($('section')[1].children[0].tagName === 'H2');
+assert.strictEqual(document.querySelectorAll('section')?.[1]?.children?.[0]?.tagName, 'H2');
 ```
 
 Ваш новий елемент `h2` повинен мати текст `Desserts`.
 
 ```js
-assert($('h2')[1].innerText.match(/Desserts/i));
+assert.match(document.querySelectorAll('h2')?.[1]?.innerText, /Desserts/i);
 ```
 
 # --seed--

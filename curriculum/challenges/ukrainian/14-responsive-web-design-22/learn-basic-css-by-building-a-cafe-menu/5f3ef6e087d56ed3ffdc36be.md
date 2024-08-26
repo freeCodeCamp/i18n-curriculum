@@ -14,20 +14,22 @@ dashedName: step-61
 Ви повинні встановити клас `class` елемента `p` на `established`.
 
 ```js
-assert(code.match(/<p class=('|")established\1>/i));
+assert.match(code,/<p class=('|")established\1>/i);
 ```
 
 Ваш клас `established` повинен бути на елементі з текстом `Est. 2020`.
 
 ```js
-const established = $('.established');
-assert(established[0].innerText.match(/Est\.\s2020/i));
+assert.match(document.querySelector('.established')?.innerText, /Est\.\s2020/i);
 ```
 
 Ваш елемент класу `established` повинен мати курсивний текст.
 
 ```js
-assert($('.established').css('font-style') === 'italic');
+const establishElement = document.querySelector('.established');
+
+const establishedFont = window.getComputedStyle(establishElement)?.getPropertyValue('font-style');
+assert.equal(establishedFont,"italic");
 ```
 
 # --seed--

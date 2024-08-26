@@ -16,8 +16,7 @@ Füge innerhalb des öffnenden `div`-Tags das `id`-Attribut mit dem Wert `menu` 
 Dein öffnendes `<div>`-Tag sollte ein `id`-Attribut auf `menu` gesetzt haben.
 
 ```js
-const div = $('div')[0];
-assert(div.id === 'menu');
+assert.strictEqual(document.querySelector('div')?.id, 'menu');
 ```
 
 Du solltest ein abschließendes `</div>`-Tag haben.
@@ -29,14 +28,13 @@ assert(code.match(/<\/div>/i));
 Du solltest dein vorhandenes `body`-Element nicht verändern. Stelle sicher, dass du das abschließende Tag nicht gelöscht hast.
 
 ```js
-assert($('body').length === 1);
+assert.lengthOf(document.querySelectorAll('body'), 1);
 ```
 
 Dein `div`-Tag sollte innerhalb deines `body`-Elements verschachtelt sein.
 
 ```js
-const div = $('div')[0];
-assert(div.parentElement.tagName === 'BODY');
+assert.equal(document.querySelector('div')?.parentElement?.tagName, 'BODY');
 ```
 
 

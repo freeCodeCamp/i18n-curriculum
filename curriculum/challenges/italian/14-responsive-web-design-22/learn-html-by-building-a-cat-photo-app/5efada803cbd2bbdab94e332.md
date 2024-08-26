@@ -26,7 +26,7 @@ assert(code.match(/<\/figure>/g).length >= 2);
 Ci dovrebbe essere un secondo elemento `figure` proprio sopra il tag di chiusura del secondo elemento `section`. Sono nell'ordine sbagliato.
 
 ```js
-assert($('main > section')[1].lastElementChild.nodeName === 'FIGURE');
+assert.strictEqual(document.querySelectorAll('main > section')?.[1]?.lastElementChild?.nodeName, 'FIGURE');
 ```
 
 Dovresti avere un terzo elemento `img` annidato nell'elemento `figure`.
