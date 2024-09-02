@@ -19,7 +19,7 @@ Quando um objeto de retângulo é criado, ele deve ser inicializado com atributo
 - `get_area`: retorna a área (`width * height`)
 - `get_perimeter`: retorna o perímetro (`2 * width + 2 * height`)
 - `get_diagonal`: retorna a diagonal (`(width ** 2 + height ** 2) ** .5`)
-- `get_picture`: Returns a string that represents the shape using lines of '\*'. The number of lines should be equal to the height and the number of '\*' in each line should be equal to the width. Deve haver uma nova linha (`\n`) no final de cada linha. If the width or height is larger than 50, this should return the string: `'Too big for picture.'`.
+- `get_picture`: retorna uma string que representa a forma usando as linhas de '\*'. The number of lines should be equal to the height and the number of '\*' in each line should be equal to the width. Deve haver uma nova linha (`\n`) no final de cada linha. If the width or height is larger than 50, this should return the string: `'Too big for picture.'`.
 - `get_amount_inside`: Pega outra forma (quadrado ou retângulo) como um argumento. Retorna o número de vezes que a forma passada como argumento poderia caber dentro da forma (sem rotações). Por exemplo, um retângulo com uma largura de 4 e uma altura de 8 poderia caber em dois quadrados com lados de 4.
 
 Additionally, if an instance of a `Rectangle` is represented as a string, it should look like: `'Rectangle(width=5, height=10)'`.
