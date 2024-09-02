@@ -1,6 +1,6 @@
 ---
 id: 662347b1bb7b3cdfcccffa57
-title: Task 48
+title: Tarefa 48
 challengeType: 22
 dashedName: task-48
 ---
