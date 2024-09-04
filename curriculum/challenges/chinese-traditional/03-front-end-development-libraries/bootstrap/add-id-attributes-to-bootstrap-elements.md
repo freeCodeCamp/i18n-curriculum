@@ -27,19 +27,17 @@ dashedName: add-id-attributes-to-bootstrap-elements
 左邊的 `well` 的 id 應爲 `left-well`。
 
 ```js
-assert(
-  $('.col-xs-6').children('#left-well') &&
-    $('.col-xs-6').children('#left-well').length > 0
-);
+const column = document.querySelectorAll('.col-xs-6')[0];
+const leftWall = column?.querySelectorAll(`:scope ${'#left-well'}`);
+assert.lengthOf(leftWall,1)
 ```
 
 右邊的 `well` 的 id 應爲 `right-well`。
 
 ```js
-assert(
-  $('.col-xs-6').children('#right-well') &&
-    $('.col-xs-6').children('#right-well').length > 0
-);
+const column = document.querySelectorAll('.col-xs-6')[1];
+const rightWall = column?.querySelectorAll(`:scope ${'#right-well'}`);
+assert.lengthOf(rightWall,1)
 ```
 
 # --seed--

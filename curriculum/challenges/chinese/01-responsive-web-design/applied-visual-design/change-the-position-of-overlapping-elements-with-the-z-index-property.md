@@ -20,7 +20,9 @@ dashedName: change-the-position-of-overlapping-elements-with-the-z-index-propert
 class 为 `first` 的元素的 `z-index` 属性值应为 2。
 
 ```js
-assert($('.first').css('z-index') == '2');
+const firstElement = document.querySelector('.first');
+const firstStyle = window.getComputedStyle(firstElement); 
+assert.equal(firstStyle?.zIndex, '2');
 ```
 
 # --seed--

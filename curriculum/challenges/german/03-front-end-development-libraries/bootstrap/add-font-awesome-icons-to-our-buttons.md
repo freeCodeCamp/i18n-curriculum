@@ -39,33 +39,34 @@ Benutze Font Awesome um ein `thumbs-up` Icon zu deinem Like-Button hinzuzufügen
 Du solltest ein `i` Element mit den Klassen `fas` und `fa-thumbs-up` hinzufügen.
 
 ```js
-assert($('i').is('.fas.fa-thumbs-up') || $('span').is('.fas.fa-thumbs-up'));
+assert.isTrue(document.querySelector('i')?.classList?.value === 'fas fa-thumbs-up' || document.querySelector('span')?.classList?.value === 'fas fa-thumbs-up');
 ```
 
 Dein `fa-thumbs-up`-Icon soll innerhalb des Like-Buttons platziert sein.
 
 ```js
-assert(
-  ($('i.fa-thumbs-up').parent().text().match(/Like/gi) &&
-    $('.btn-primary > i').is('.fas.fa-thumbs-up')) ||
-    ($('span.fa-thumbs-up').parent().text().match(/Like/gi) &&
-      $('.btn-primary > span').is('.fas.fa-thumbs-up'))
-);
+const iconTextContent = document.querySelector('i.fa-thumbs-up')?.parentNode?.textContent;  
+const spanTextContent = document.querySelector('span.fa-thumbs-up')?.parentNode?.textContent;  
+assert.isTrue(
+  (iconTextContent?.match(/Like/gi) &&
+    document.querySelector('.btn-primary > i') === document.querySelector('.fas.fa-thumbs-up')) ||
+    (spanTextContent?.match(/Like/gi) &&
+      document.querySelector('.btn-primary > span') === document.querySelector('.fas.fa-thumbs-up')));
 ```
 
 Dein `i` Element sollte innerhalb deines `button` Elements verschachtelt sein.
 
 ```js
-assert(
-  $('button').children('i').length > 0 ||
-    $('button').children('span').length > 0
-);
+const button = document.querySelector('button'); 
+const i = button?.querySelectorAll("i");
+const span =  button?.querySelectorAll("span");
+assert(i.length > 0 ||span.length > 0);
 ```
 
 Dein Icon-Element sollte einen abschließenden Tag haben.
 
 ```js
-assert(code.match(/<\/i>|<\/span>/g));
+assert.match(code, /(<\/i>|<\/span>)\s*Like\s*<\/button>/g);
 ```
 
 # --seed--

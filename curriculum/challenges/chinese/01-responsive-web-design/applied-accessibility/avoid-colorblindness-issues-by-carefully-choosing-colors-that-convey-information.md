@@ -26,7 +26,9 @@ Camper Cat 正在测试一个重要按钮的不同样式。 在色轮上，用�
 `button` 内容文本的 `color` 属性值应为深蓝色。
 
 ```js
-assert($('button').css('color') == 'rgb(0, 51, 102)');
+const button = document.querySelector('button');
+const buttonColor = window.getComputedStyle(button).color; 
+assert.equal(buttonColor, 'rgb(0, 51, 102)');
 ```
 
 # --seed--

@@ -20,7 +20,7 @@ dashedName: use-the-css-transform-property-skewy-to-skew-an-element-along-the-y-
 Елемент з ідентифікатором `top` повинен переміститись на -10 градуси по вісі Y.
 
 ```js
-assert(code.match(/#top\s*?{\s*?.*?\s*?transform:\s*?skewY\(-10deg\);/g));
+assert.match(code, /#top\s*?{\s*?.*?\s*?transform:\s*?skewY\(-10deg\);/g);
 ```
 
 # --seed--

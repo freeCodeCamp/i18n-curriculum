@@ -24,11 +24,10 @@ CSS 裏的 `opacity` 屬性用來設置元素的透明度。
 應使用 `links` class 選擇所有的超鏈接，並設置其 `opacity` 屬性值爲 0.7。
 
 ```js
-assert(
-  /\.links\s*{([\s\S]*?;)*\s*opacity\s*:\s*0*\.70*\s*(;[\s\S]*?|\s*)}/.test(
-    $('style').text()
-  )
-);
+assert.match(
+  document.querySelector('style')?.textContent,
+  /\.links\s*{([\s\S]*?;)*\s*opacity\s*:\s*0*\.70*\s*(;[\s\S]*?|\s*)}/
+  );
 ```
 
 # --seed--

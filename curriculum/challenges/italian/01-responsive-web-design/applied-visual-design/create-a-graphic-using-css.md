@@ -26,21 +26,19 @@ Manipola l'elemento quadrato nell'editor per creare la forma della luna. Innanzi
 Il valore della proprietà `background-color` dovrebbe essere impostato su `transparent`.
 
 ```js
-assert(code.match(/background-color:\s*?transparent;/gi));
+assert.match(code,/background-color:\s*?transparent;/gi);
 ```
 
 Il valore della proprietà `border-radius` dovrebbe essere impostato a `50%`.
 
 ```js
-assert(code.match(/border-radius:\s*?50%;/gi));
+assert.match(code,/border-radius:\s*?50%;/gi);
 ```
 
 I valori della proprietà `box-shadow` dovrebbero essere impostati a 25px per l'`offset-x`, 10px per l'`offset-y`, 0 per il `blur-radius`, 0 per lo `spread-radius`, e infine `blue` per `color`.
 
 ```js
-assert(
-  code.match(/box-shadow:\s*?25px\s+?10px\s+?0(px)?\s+?0(px)?\s+?blue\s*?;/gi)
-);
+assert.match(code,/box-shadow:\s*?25px\s+?10px\s+?0(px)?\s+?0(px)?\s+?blue\s*?;/gi);
 ```
 
 # --seed--

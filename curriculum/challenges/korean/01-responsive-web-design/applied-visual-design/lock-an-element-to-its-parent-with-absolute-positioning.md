@@ -22,19 +22,25 @@ CSS의 `position` 속성의 다음 옵션은 `absolute`로, 이는 요소를 부
 `#searchbar` 요소의 `position`을 `absolute`으로 설정합니다.
 
 ```js
-assert($('#searchbar').css('position') == 'absolute');
+const searchbarElement = document.querySelector('#searchbar');
+const searchbarStyle = window.getComputedStyle(searchbarElement);
+assert.equal(searchbarStyle?.position, 'absolute');
 ```
 
 `#searchbar` 요소에 50 픽셀의 `top` CSS 오프셋을 사용합니다.
 
 ```js
-assert($('#searchbar').css('top') == '50px');
+const searchbarElement = document.querySelector('#searchbar');
+const searchbarStyle = window.getComputedStyle(searchbarElement);
+assert.equal(searchbarStyle?.top, '50px');
 ```
 
 `#searchbar` 요소에 50 픽셀의 `right` CSS 오프셋을 사용합니다.
 
 ```js
-assert($('#searchbar').css('right') == '50px');
+const searchbarElement = document.querySelector('#searchbar');
+const searchbarStyle = window.getComputedStyle(searchbarElement);
+assert.equal(searchbarStyle?.right, '50px');
 ```
 
 # --seed--

@@ -30,13 +30,17 @@ dashedName: create-visual-balance-using-the-text-align-property
 코드에서 text-align 속성을 사용하여 `h4` 태그의 텍스트를 `center`에 맞추도록 설정해야 합니다.
 
 ```js
-assert($('h4').css('text-align') == 'center');
+const h4Element =document.querySelector('h4')
+const h4Style = window.getComputedStyle(h4Element);
+assert.equal(h4Style?.textAlign, 'center');
 ```
 
 코드에서 text-align 속성을 사용하여 `p` 태그의 텍스트를 `justify`로 설정해야 합니다.
 
 ```js
-assert($('p').css('text-align') == 'justify');
+const pElement =document.querySelector('p')
+const pStyle = window.getComputedStyle(pElement);
+assert.equal(pStyle?.textAlign, 'justify');
 ```
 
 # --seed--

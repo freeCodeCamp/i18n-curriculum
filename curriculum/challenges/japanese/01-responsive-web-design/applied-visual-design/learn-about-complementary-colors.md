@@ -32,13 +32,17 @@ dashedName: learn-about-complementary-colors
 クラスが `blue` の `div` 要素の `background-color` は青である必要があります。
 
 ```js
-assert($('.blue').css('background-color') == 'rgb(0, 0, 255)');
+const blueElement = document.querySelector('.blue');
+const blueStyle = window.getComputedStyle(blueElement); 
+assert.equal(blueStyle?.backgroundColor, 'rgb(0, 0, 255)');
 ```
 
 クラスが `yellow` の `div` 要素の `background-color` は黄色である必要があります。
 
 ```js
-assert($('.yellow').css('background-color') == 'rgb(255, 255, 0)');
+const yellowElement = document.querySelector('.yellow');
+const yellowStyle = window.getComputedStyle(yellowElement);
+assert.equal(yellowStyle?.backgroundColor, 'rgb(255, 255, 0)');
 ```
 
 # --seed--

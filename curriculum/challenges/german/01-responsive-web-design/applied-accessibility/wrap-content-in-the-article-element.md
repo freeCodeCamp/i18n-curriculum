@@ -28,13 +28,13 @@ Camper Cat hat `article`-Tags verwendet, um die Beiträge auf seiner Blog-Seite 
 Dein Code sollte ein `article`-Tag enthalten.
 
 ```js
-assert($('article').length == 3);
+assert.lengthOf(document.querySelectorAll('article') ,3);
 ```
 
 Dein Code sollte keine `div`-Tags beinhalten.
 
 ```js
-assert($('div').length == 0);
+assert.lengthOf(document.querySelectorAll('div'), 0);
 ```
 
 # --seed--

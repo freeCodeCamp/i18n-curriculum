@@ -20,11 +20,7 @@ dashedName: create-texture-by-adding-a-subtle-pattern-as-a-background-image
 당신의 `body` 요소는 주어진 링크를 사용한 `url()`로 설정된 `background` 속성이 있어야 합니다.
 
 ```js
-assert(
-  code.match(
-    /background(-image)?:\s*?url\(\s*("|'|)https:\/\/cdn-media-1\.freecodecamp\.org\/imgr\/MJAkxbh\.png\2\s*\)/gi
-  )
-);
+assert.match(code,/background(-image)?:\s*?url\(\s*("|'|)https:\/\/cdn-media-1\.freecodecamp\.org\/imgr\/MJAkxbh\.png\2\s*\)/gi);
 ```
 
 # --seed--

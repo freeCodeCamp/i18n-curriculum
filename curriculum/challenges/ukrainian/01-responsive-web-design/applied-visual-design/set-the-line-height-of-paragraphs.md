@@ -20,7 +20,9 @@ CSS пропонує характеристику `line-height`, щоб змін
 Ваш код повинен встановити `line-height` тегу `p` до 25 пікселів.
 
 ```js
-assert($('p').css('line-height') == '25px');
+const pElement =document.querySelector('p')
+const pStyle = window.getComputedStyle(pElement);
+assert.equal(pStyle?.lineHeight, '25px');
 ```
 
 # --seed--

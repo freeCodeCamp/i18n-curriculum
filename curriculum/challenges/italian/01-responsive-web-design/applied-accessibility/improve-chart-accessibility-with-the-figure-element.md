@@ -34,39 +34,40 @@ Camper Cat sta lavorando sodo per creare un grafico a barre che mostra la quanti
 Il tuo codice dovrebbe avere un tag `figure`.
 
 ```js
-assert($('figure').length == 1);
+assert.lengthOf(document.querySelectorAll('figure') , 1);
 ```
 
 Il tuo codice dovrebbe avere un tag `figcaption`.
 
 ```js
-assert($('figcaption').length == 1);
+assert.lengthOf(document.querySelectorAll('figcaption') , 1);
 ```
 
 Il tuo codice non dovrebbe avere alcun tag `div`.
 
 ```js
-assert($('div').length == 0);
+assert.lengthOf(document.querySelectorAll('div'), 0);
 ```
 
 Il tuo codice non dovrebbe avere alcun tag `p`.
 
 ```js
-assert($('p').length == 0);
+assert.lengthOf(document.querySelectorAll('p') , 0);
 ```
 
 La `figcaption` dovrebbe essere un elemento figlio (child) del tag `figure`.
 
 ```js
-assert($('figure').children('figcaption').length == 1);
+const figure = document.querySelector('figure');
+const children = figure?.querySelectorAll(`:scope ${'figcaption'}`);
+assert.lengthOf(children, 1);
 ```
 
 Il tuo elemento `figure` dovrebbe avere un tag di chiusura.
 
 ```js
-assert(
-  code.match(/<\/figure>/g) &&
-    code.match(/<\/figure>/g).length === code.match(/<figure>/g).length
+assert.isTrue(
+    code.match(/<\/figure>/g)?.length === code.match(/<figure>/g)?.length
 );
 ```
 

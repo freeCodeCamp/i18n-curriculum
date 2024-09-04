@@ -20,13 +20,17 @@ Usa gli spostamenti CSS per spostare `h2` di 15 pixel verso destra e 10 pixel ve
 Il tuo codice dovrebbe utilizzare un offset CSS per posizionare `h2` di 10px verso l'alto. In altre parole, spostalo di 10px lontano dal lato `bottom` rispetto alla sua posizione normale.
 
 ```js
-assert($('h2').css('bottom') == '10px');
+const h2Element =document.querySelector('h2')
+const h2Style = window.getComputedStyle(h2Element);
+assert.equal(h2Style?.bottom, '10px');
 ```
 
 Il tuo codice dovrebbe utilizzare un offset CSS per posizionare relativamente l'`h2` di 15px verso destra. In altre parole, spostalo 15px lontano dal lato `left` di dove si trova normalmente.
 
 ```js
-assert($('h2').css('left') == '15px');
+const h2Element =document.querySelector('h2')
+const h2Style = window.getComputedStyle(h2Element);
+assert.equal(h2Style?.left , '15px');
 ```
 
 # --seed--

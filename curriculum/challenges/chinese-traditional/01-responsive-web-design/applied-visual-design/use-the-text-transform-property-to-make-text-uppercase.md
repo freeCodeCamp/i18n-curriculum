@@ -24,13 +24,15 @@ CSS 裏的 `text-transform` 屬性可以改變英文字母的大小寫。 使用
 `h4` 內容文本中的所有字母均應爲 `uppercase` 大寫 。
 
 ```js
-assert($('h4').css('text-transform') === 'uppercase');
+const h4Element =document.querySelector('h4')
+const h4Style = window.getComputedStyle(h4Element);
+assert.equal(h4Style?.textTransform, 'uppercase');
 ```
 
 `h4` 內的原文不應改變。
 
 ```js
-assert($('h4').text() !== $('h4').text().toUpperCase());
+assert.notEqual(document.querySelector('h4')?.textContent, document.querySelector('h4')?.textContent?.toUpperCase());
 ```
 
 # --seed--

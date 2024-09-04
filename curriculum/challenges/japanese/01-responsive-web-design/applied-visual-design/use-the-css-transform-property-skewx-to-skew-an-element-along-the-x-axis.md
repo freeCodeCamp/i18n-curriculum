@@ -28,7 +28,7 @@ p {
 id が `bottom` の要素は X 軸に沿って 24 度傾けられている必要があります。
 
 ```js
-assert(code.match(/#bottom\s*?{\s*?.*?\s*?transform:\s*?skewX\(24deg\);/g));
+assert.match(code, /#bottom\s*?{\s*?.*?\s*?transform:\s*?skewX\(24deg\);/g);
 ```
 
 # --seed--

@@ -28,17 +28,17 @@ a:hover {
 Колір якірного тегу `color` має залишатися чорним, додайте правила CSS лише для стану `:hover`.
 
 ```js
-assert($('a').css('color') == 'rgb(0, 0, 0)');
+const anchorElement = document.querySelector("a"); 
+const anchorStyle = window.getComputedStyle(anchorElement);
+assert.equal(anchorStyle?.color, 'rgb(0, 0, 0)');
 ```
 
 Колір якірного тега має ставати синім `color` при наведенні.
 
 ```js
-assert(
-  code.match(
+assert.match(code,
     /a:hover\s*?{\s*?color:\s*?(blue|rgba\(\s*?0\s*?,\s*?0\s*?,\s*?255\s*?,\s*?1\s*?\)|#00F|rgb\(\s*?0\s*?,\s*?0\s*?,\s*?255\s*?\))\s*?;\s*?}/gi
-  )
-);
+  );
 ```
 
 # --seed--

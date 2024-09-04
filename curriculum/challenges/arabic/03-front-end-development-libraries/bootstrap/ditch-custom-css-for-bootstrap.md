@@ -23,35 +23,33 @@ dashedName: ditch-custom-css-for-bootstrap
 عُنصر `h2` يجب ألّا يحتوي على فئة باسم `red-text`.
 
 ```js
-assert(!$('h2').hasClass('red-text'));
+assert.isFalse(document.querySelector('h2')?.classList?.contains('red-text'));
 ```
 
 عُنصر `h2` يجب يحتوي فئة باسم `text-primary` حالياً.
 
 ```js
-assert($('h2').hasClass('text-primary'));
+assert.isTrue(document.querySelector('h2')?.classList?.contains('text-primary'));
 ```
 
 عناصر الفِقْرة الخاصة بك يجب ألّا يستخدم خط `Monospace`.
 
 ```js
-assert(
-  !$('p')
-    .css('font-family')
-    .match(/monospace/i)
-);
+const paragraphElement = document.querySelector('p');
+const paragraphFontFamily = window.getComputedStyle(paragraphElement)["font-family"]; 
+assert.notMatch(paragraphFontFamily,/monospace/i);
 ```
 
 يجب إزالة فئة `smaller-image` من أعلى صورتك.
 
 ```js
-assert(!$('img').hasClass('smaller-image'));
+assert.isFalse(document.querySelector('img')?.classList?.contains('smaller-image'));
 ```
 
 يجب عليك إضافة فئة `img-responsive` إلى أعلى صورتك.
 
 ```js
-assert($('.img-responsive').length > 1);
+assert.lengthOf(document.querySelectorAll('.img-responsive'),2);
 ```
 
 # --seed--

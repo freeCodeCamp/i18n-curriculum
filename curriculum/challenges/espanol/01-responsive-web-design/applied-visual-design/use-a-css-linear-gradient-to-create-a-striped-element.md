@@ -32,37 +32,37 @@ Haz rayas cambiando el `repeating-linear-gradient()` para usar un ángulo gradie
 El ángulo del `repeating-linear-gradient()` debe ser 45deg.
 
 ```js
-assert(code.match(/background:\s*?repeating-linear-gradient\(\s*?45deg/gi));
+assert.match(code,/background:\s*?repeating-linear-gradient\(\s*?45deg/gi);
 ```
 
 El ángulo del `repeating-linear-gradient()` ya no debe ser 90deg
 
 ```js
-assert(!code.match(/90deg/gi));
+assert.notMatch(code, /90deg/gi);
 ```
 
 La parada de color en 0 píxeles debe ser `yellow`.
 
 ```js
-assert(code.match(/yellow\s+?0(px)?/gi));
+assert.match(code, /yellow\s+?0(px)?/gi);
 ```
 
 La primera parada de color en 40 píxeles debe ser `yellow`.
 
 ```js
-assert(code.match(/yellow\s+?40px/gi));
+assert.match(code, /yellow\s+?40px/gi);
 ```
 
 La segunda parada de color en 40 píxeles debe ser `black`.
 
 ```js
-assert(code.match(/yellow\s+?40px,\s*?black\s+?40px/gi));
+assert.match(code, /yellow\s+?40px,\s*?black\s+?40px/gi);
 ```
 
 La última parada de color en 80 píxeles debe ser `black`.
 
 ```js
-assert(code.match(/black\s+?80px/gi));
+assert.match(code, /black\s+?80px/gi);
 ```
 
 # --seed--

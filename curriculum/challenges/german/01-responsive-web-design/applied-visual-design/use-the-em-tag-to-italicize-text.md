@@ -20,13 +20,16 @@ Umschließe den Inhalt des Absatz-Tags mit einem `em`-Tag, um ihn zu betonen.
 Dein Code sollte dem Markup ein `em`-Tag hinzufügen.
 
 ```js
-assert($('em').length == 1);
+assert.lengthOf(document.querySelectorAll('em'),1);
 ```
 
 Das `em`-Tag sollte den Inhalt des `p`-Tags umfassen, aber nicht das `p`-Tag selbst.
 
 ```js
-assert($('p').children().length == 1 && $('em').children().length == 2);
+const paragraphElement = document.querySelector('p');
+const emElement = document.querySelector('em');
+assert.lengthOf(paragraphElement?.children, 1);
+assert.lengthOf(emElement?.children, 2);
 ```
 
 # --seed--

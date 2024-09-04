@@ -26,10 +26,8 @@ p {
 `#ball2`의 `transform` 속성은 크기를 1.5배로 조정하도록 설정해야 합니다.
 
 ```js
-assert(
-  code.match(
+assert.match(code,
     /#ball2\s*?{\s*?left:\s*?65%;\s*?transform:\s*?scale\(1\.5\);\s*?}|#ball2\s*?{\s*?transform:\s*?scale\(1\.5\);\s*?left:\s*?65%;\s*?}/gi
-  )
 );
 ```
 

@@ -29,23 +29,27 @@ Um zu beginnen, sollten wir unseren HTML-Code (ausgenommen der `link`-Tag und da
 Dein `div`-Element sollte die Klasse `container-fluid` haben.
 
 ```js
-assert($('div').hasClass('container-fluid'));
+assert.isTrue(document.querySelector('div')?.classList?.contains('container-fluid'));
 ```
 
 Dein `div`-Element sollte einen abschließenden Tag haben.
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/g);
+assert.match(code,/<div/g);
+assert.equal(code.match(/<\/div>/g).length ,code.match(/<div/g).length);
 ```
 
 Alle HTML-Elemente nach dem abschließenden `style`-Tag sollten in `.container-fluid` verschachtelt werden.
 
 ```js
-assert($('.container-fluid').children().length >= 8 && !$('.container-fluid').has("style").length && !$('.container-fluid').has("link").length);
+const fluidContainer = document.querySelector('.container-fluid');
+const possibleStyleElements = fluidContainer?.querySelectorAll(`:scope ${'style'}`);
+const possibleLinkElements = fluidContainer?.querySelectorAll(`:scope ${'link'}`);
+
+assert.lengthOf(fluidContainer?.children,8);
+assert.isEmpty(possibleStyleElements);
+assert.isEmpty(possibleLinkElements);
 ```
 
 # --seed--

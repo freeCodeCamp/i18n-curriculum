@@ -21,35 +21,40 @@ Anida tu primera imagen y tu elemento `h2` dentro de un solo elemento `<div clas
 Tu elemento `h2` y el elemento superior `img` deben estar anidados juntos dentro de un elemento `div` con la clase `row`.
 
 ```js
-assert($('div.row:has(h2)').length > 0 && $('div.row:has(img)').length > 0);
+const row = document.querySelector('div.row');
+const h2 = row?.querySelectorAll(`:scope ${'h2'}`)
+const image = row?.querySelectorAll(`:scope ${'img'}`)
+assert.lengthOf(h2,1);
+assert.lengthOf(image ,1);
 ```
 
 Tu elemento superior `img` debe estar anidado dentro de un `div` con la clase `col-xs-4`.
 
 ```js
-assert(
-  $('div.col-xs-4:has(img)').length > 0 &&
-    $('div.col-xs-4:has(div)').length === 0
-);
+const column = document.querySelector('div.col-xs-4');
+const div = column?.querySelectorAll(`:scope ${'div'}`);
+const img = column?.querySelectorAll(`:scope ${'img'}`)
+assert.isEmpty(div);
+assert.lengthOf(img,1)
 ```
 
 Tu elemento `h2` debe estar anidado dentro de un `div` con la clase `col-xs-8`.
 
 ```js
-assert(
-  $('div.col-xs-8:has(h2)').length > 0 &&
-    $('div.col-xs-8:has(div)').length === 0
-);
+const column = document.querySelector('div.col-xs-8');
+const div = column?.querySelectorAll(`:scope ${'div'}`);
+const h2 = column?.querySelectorAll(`:scope ${'h2'}`)
+
+assert.isEmpty(div);
+assert.lengthOf(h2, 1);
 ```
 
 Todos tus elementos `div` deben tener etiquetas de cierre.
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/g);
+assert.match(code,/<div/g);
+assert.equal(code.match(/<\/div>/g).length,code.match(/<div/g).length);
 ```
 
 # --seed--

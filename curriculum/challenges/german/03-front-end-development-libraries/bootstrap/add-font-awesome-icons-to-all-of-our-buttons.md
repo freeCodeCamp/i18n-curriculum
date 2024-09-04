@@ -25,29 +25,29 @@ Benutze Font Awesome um ein `info-circle`-Icon zu deinem Informationsbutton hinz
 Du solltest ein `<i class="fas fa-info-circle"></i>` innerhalb deines `info` Button-Elements hinzufügen.
 
 ```js
-assert(
-  $('.btn-info > i').is('.fas.fa-info-circle') ||
-    $('.btn-info > span').is('.fas.fa-info-circle')
+assert.isTrue(
+  document.querySelector('.btn-info > i')?.classList?.value === 'fas fa-info-circle' ||
+    document.querySelector('.btn-info > span')?.classList?.value === 'fas fa-info-circle'
 );
 ```
 
 Du sollst einen `<i class="fas fa-trash"></i>` innerhalb deines `delete`-Button-Elements hinzufügen.
 
 ```js
-assert(
-  $('.btn-danger > i').is('.fas.fa-trash') ||
-    $('.btn-danger > span').is('.fas.fa-trash')
+assert.isTrue(
+  document.querySelector('.btn-danger > i')?.classList?.value === 'fas fa-trash' ||
+    document.querySelector('.btn-danger > span')?.classList?.value === 'fas fa-trash'
 );
 ```
 
 Jedes deiner `i` Elemente sollte ein abschließendes Tag haben und `<i class="fas fa-thumbs-up"></i>` ist in deinem `like` Button-Element.
 
 ```js
-assert(
-  code.match(/<\/i>|<\/span/g) &&
-    code.match(/<\/i|<\/span>/g).length > 2 &&
-    ($('.btn-primary > i').is('.fas.fa-thumbs-up') ||
-      $('.btn-primary > span').is('.fas.fa-thumbs-up'))
+assert.match(code,/<\/i>|<\/span/g);
+assert.lengthOf(code.match(/<\/i|<\/span>/g),4)
+assert.isTrue(
+    document.querySelector('.btn-primary > i')?.classList?.value === 'fas fa-thumbs-up' ||
+      document.querySelector('.btn-primary > span')?.classList?.value === 'fas fa-thumbs-up'
 );
 ```
 

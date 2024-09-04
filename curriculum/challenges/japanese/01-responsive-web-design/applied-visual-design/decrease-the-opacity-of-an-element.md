@@ -24,11 +24,10 @@ CSSの `opacity` プロパティは、アイテムの不透明度を調整した
 `links` のクラスを選択して、アンカータグの `opacity` プロパティを 0.7 に設定する必要があります。
 
 ```js
-assert(
-  /\.links\s*{([\s\S]*?;)*\s*opacity\s*:\s*0*\.70*\s*(;[\s\S]*?|\s*)}/.test(
-    $('style').text()
-  )
-);
+assert.match(
+  document.querySelector('style')?.textContent,
+  /\.links\s*{([\s\S]*?;)*\s*opacity\s*:\s*0*\.70*\s*(;[\s\S]*?|\s*)}/
+  );
 ```
 
 # --seed--

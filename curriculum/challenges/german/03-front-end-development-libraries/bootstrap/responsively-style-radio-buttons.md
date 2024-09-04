@@ -24,23 +24,23 @@ Verschachtel deine beiden Optionsfelder in einem `<div class="row">`-Element. Ve
 All deine Radio-Buttons sollten innerhalb eines `div` mit der Klasse `row` verschachtelt sein.
 
 ```js
-assert($('div.row:has(input[type="radio"])').length > 0);
+const radioButtons = document.querySelectorAll(`div.row input[type=radio]`); 
+assert.lengthOf(radioButtons , 2);
 ```
 
 Jeder deiner Radio-Buttons sollte in einem eigenen `div` mit der Klasse `col-xs-6` verschachtelt sein.
 
 ```js
-assert($('div.col-xs-6:has(input[type="radio"])').length > 1);
+const radioButtons = document.querySelectorAll(`div.col-xs-6 input[type=radio]`); 
+assert.lengthOf(radioButtons , 2);
 ```
 
 All deine `div`-Elemente sollten abschließende Tags haben.
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/);
+assert.match(code,/<div/g);
+assert.equal(code.match(/<\/div>/g).length,code.match(/<div/g).length);
 ```
 
 # --seed--

@@ -26,7 +26,9 @@ dashedName: >-
 يجب أن يغير الكود الخاص بك لون نص `color` للزر `button` إلى اللون الأزرق الداكن.
 
 ```js
-assert($('button').css('color') == 'rgb(0, 51, 102)');
+const button = document.querySelector('button');
+const buttonColor = window.getComputedStyle(button).color; 
+assert.equal(buttonColor, 'rgb(0, 51, 102)');
 ```
 
 # --seed--

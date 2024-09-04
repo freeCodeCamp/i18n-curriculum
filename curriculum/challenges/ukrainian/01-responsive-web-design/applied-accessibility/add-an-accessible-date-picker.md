@@ -31,25 +31,25 @@ dashedName: add-an-accessible-date-picker
 Ваш код має додати один теґ `input` для поля вибору дати.
 
 ```js
-assert($('input').length == 2);
+assert.lengthOf(document.querySelectorAll('input'), 2);
 ```
 
 Ваш теґ `input` повинен містити атрибут `type` зі значенням `date`.
 
 ```js
-assert($('input').attr('type') == 'date');
+assert.equal(document.querySelector('input')?.getAttribute('type'), 'date');
 ```
 
 Ваш теґ `input` повинен містити атрибут `id` зі значенням `pickdate`.
 
 ```js
-assert($('input').attr('id') == 'pickdate');
+assert.equal(document.querySelector('input')?.getAttribute('id'),'pickdate');
 ```
 
 Ваш теґ `input` повинен містити атрибут `name` зі значенням `date`.
 
 ```js
-assert($('input').attr('name') == 'date');
+assert.equal(document.querySelector('input')?.getAttribute('name'), 'date');
 ```
 
 # --seed--

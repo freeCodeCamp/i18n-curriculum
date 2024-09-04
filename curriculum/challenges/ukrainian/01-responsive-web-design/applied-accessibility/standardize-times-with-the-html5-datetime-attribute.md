@@ -26,28 +26,25 @@ dashedName: standardize-times-with-the-html5-datetime-attribute
 Ваш код має містити елемент `p`, що включає текст `Thank you to everyone for responding to Master Camper Cat's survey.` і елемент `time`.
 
 ```js
-assert(timeElement);
+assert.exists(timeElement);
 ```
 
 Додані теґи `time` мають обгортати текст `Thursday, September 15<sup>th</sup>`.
 
 ```js
-assert(
-  timeElement &&
-    timeElement?.innerHTML?.trim() === 'Thursday, September 15<sup>th</sup>'
-);
+assert.strictEqual(timeElement?.innerHTML?.trim(), 'Thursday, September 15<sup>th</sup>');
 ```
 
 Доданий теґ `time` має містити атрибут `datetime`, який не є порожнім.
 
 ```js
-assert(datetimeAttr && datetimeAttr?.length);
+assert(datetimeAttr?.length != 0);
 ```
 
 Доданий атрибут `datetime` має бути встановленим на значення `2016-09-15`.
 
 ```js
-assert(datetimeAttr === '2016-09-15');
+assert.equal(datetimeAttr , '2016-09-15');
 ```
 
 # --seed--

@@ -24,32 +24,33 @@ Esse é o último desafio que faremos para nossa aplicação de fotos de gatos p
 O botão de envio e o input de texto do formulário devem estar aninhados dentro de uma div com a classe `row`.
 
 ```js
-assert(
-  $('div.row:has(input[type="text"])').length > 0 &&
-    $('div.row:has(button[type="submit"])').length > 0
-);
+const textInput = document.querySelectorAll('div.row input[type="text"]'); 
+const submitInput = document.querySelectorAll('div.row button[type="submit"]');
+assert.lengthOf(textInput,1);
+assert.lengthOf(submitInput, 1);
 ```
 
 O input de texto do formulário deve estar aninhado dentro de uma div com a classe `col-xs-7`.
 
 ```js
-assert($('div.col-xs-7:has(input[type="text"])').length > 0);
+const textInput = document.querySelectorAll('div.col-xs-7 input[type="text"]'); 
+assert.lengthOf(textInput ,1);
 ```
 
 O botão de envio do formulário deve estar aninhado dentro de uma div com a classe `col-xs-5`.
 
 ```js
-assert($('div.col-xs-5:has(button[type="submit"])').length > 0);
+const submitInput  = document.querySelectorAll('div.col-xs-5 button[type="submit"]'); 
+assert.lengthOf(submitInput ,1);
 ```
 
 Todos os elementos `div` devem ter tags de fechamento.
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/g);
+assert.match(code,/<div/g);
+
+assert.equal(code.match(/<\/div>/g).length,code.match(/<div/g).length);
 ```
 
 # --seed--

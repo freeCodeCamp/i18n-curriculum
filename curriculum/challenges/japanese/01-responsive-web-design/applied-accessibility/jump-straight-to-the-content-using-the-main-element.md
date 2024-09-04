@@ -26,13 +26,13 @@ Camper Cat は忍者の武器に関するページのアイデアを持ってい
 コードには `main` タグが1つ必要です。
 
 ```js
-assert($('main').length == 1);
+assert.lengthOf(document.querySelectorAll('main'),1);
 ```
 
 `main` タグは、`header` の終了タグと `footer` の開始タグの間でなければなりません。
 
 ```js
-assert(code.match(/<\/header>\s*?<main>\s*?<\/main>/gi));
+assert.match(code,/<\/header>\s*?<main>\s*?<\/main>/gi);
 ```
 
 # --seed--

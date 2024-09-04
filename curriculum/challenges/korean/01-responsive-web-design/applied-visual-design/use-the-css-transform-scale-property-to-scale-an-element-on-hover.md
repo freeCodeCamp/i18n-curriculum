@@ -30,7 +30,7 @@ p:hover {
 사용자가 호버할 때 `div` 요소의 크기는 1.1배로 확대되어야 합니다.
 
 ```js
-assert(code.match(/div:hover\s*?{\s*?transform:\s*?scale\(1\.1\);/gi));
+assert.match(code, /div:hover\s*?{\s*?transform:\s*?scale\(1\.1\);/gi);
 ```
 
 # --seed--

@@ -20,7 +20,7 @@ dashedName: use-the-css-transform-property-skewy-to-skew-an-element-along-the-y-
 `top` id를 가진 요소는 Y축을 따라 -10도만큼 기울어야 합니다.
 
 ```js
-assert(code.match(/#top\s*?{\s*?.*?\s*?transform:\s*?skewY\(-10deg\);/g));
+assert.match(code, /#top\s*?{\s*?.*?\s*?transform:\s*?skewY\(-10deg\);/g);
 ```
 
 # --seed--

@@ -30,13 +30,13 @@ Camper Cat закодували макет сторінки для розділ�
 Ваш тег `img` має містити атрибут `alt`.
 
 ```js
-assert(!($('img').attr('alt') == undefined));
+assert.isTrue(document.querySelector('img')?.hasAttribute('alt'));
 ```
 
 Атрибуту `alt` має бути призначений порожній рядок.
 
 ```js
-assert($('img').attr('alt') == '');
+assert.isEmpty(document.querySelector('img')?.getAttribute('alt'));
 ```
 
 # --seed--

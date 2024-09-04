@@ -20,7 +20,9 @@ Cambia il valore della proprietà `font-size` per il paragrafo a 16px per render
 Il tuo tag `p` dovrebbe avere un `font-size` di 16 pixels.
 
 ```js
-assert($('p').css('font-size') == '16px');
+const pElement =document.querySelector('p')
+const pStyle = window.getComputedStyle(pElement);
+assert.equal(pStyle?.fontSize, '16px');
 ```
 
 # --seed--

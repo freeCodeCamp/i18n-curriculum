@@ -19,23 +19,22 @@ Observe que esse botão ainda precisa das classes `btn` e `btn-block`.
 O botão deve ter a classe `btn-primary`.
 
 ```js
-assert($('button').hasClass('btn-primary'));
+assert.isTrue(document.querySelector('button')?.classList?.contains('btn-primary'));
 ```
 
 O botão ainda deve ter as classes `btn` e `btn-block`.
 
 ```js
-assert($('button').hasClass('btn-block') && $('button').hasClass('btn'));
+assert.isTrue(document.querySelector('button')?.classList?.contains('btn-block'));
+assert.isTrue(document.querySelector('button')?.classList?.contains('btn'));
 ```
 
 Todos os elementos `button` devem ter tags de fechamento.
 
 ```js
-assert(
-  code.match(/<\/button>/g) &&
-    code.match(/<button/g) &&
-    code.match(/<\/button>/g).length === code.match(/<button/g).length
-);
+assert.match(code,/<\/button>/g);
+assert.match(code,/<button/g);
+assert.equal(code.match(/<\/button>/g).length , code.match(/<button/g).length);
 ```
 
 # --seed--

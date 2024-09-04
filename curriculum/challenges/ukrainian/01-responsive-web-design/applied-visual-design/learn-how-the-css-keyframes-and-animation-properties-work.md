@@ -44,37 +44,41 @@ dashedName: learn-how-the-css-keyframes-and-animation-properties-work
 Елемент з id `rect` повинен мати властивість `animation-name` зі значенням `rainbow`.
 
 ```js
-assert($('#rect').css('animation-name') == 'rainbow');
+const rectElement = document.querySelector('#rect');
+const rectStyle = window.getComputedStyle(rectElement);
+assert.equal(rectStyle?.animationName, 'rainbow');
 ```
 
 Елемент з id `rect` повинен мати `animation-duration` 4 секунд.
 
 ```js
-assert($('#rect').css('animation-duration') == '4s');
+const rectElement = document.querySelector('#rect');
+const rectStyle = window.getComputedStyle(rectElement);
+assert.equal(rectStyle?.animationDuration, '4s');
 ```
 
 Правило `@keyframes` повинно використовувати `animation-name` `rainbow`.
 
 ```js
-assert(code.match(/@keyframes\s+?rainbow\s*?{/g));
+assert.match(code ,/@keyframes\s+?rainbow\s*?{/g);
 ```
 
 Правило `@keyframes` повинно використовувати для `rainbow` `blue` `background-color` при 0%.
 
 ```js
-assert(code.match(/0%\s*?{\s*?background-color:\s*?blue;\s*?}/gi));
+assert.match(code,/0%\s*?{\s*?background-color:\s*?blue;\s*?}/gi);
 ```
 
 Правило `@keyframes` повинно використовувати для `rainbow` `green` `background-color` при 50%.
 
 ```js
-assert(code.match(/50%\s*?{\s*?background-color:\s*?green;\s*?}/gi));
+assert.match(code,/50%\s*?{\s*?background-color:\s*?green;\s*?}/gi);
 ```
 
 Правило `@keyframes` повинно використовувати для `rainbow` `yellow` `background-color` при 100%.
 
 ```js
-assert(code.match(/100%\s*?{\s*?background-color:\s*?yellow;\s*?}/gi));
+assert.match(code,/100%\s*?{\s*?background-color:\s*?yellow;\s*?}/gi);
 ```
 
 # --seed--

@@ -22,21 +22,21 @@ CSS 애니메이션에서, `animation-timing-function` 속성은 애니메이션
 아이디가 `ball1`인 요소의 `animation-timing-function` 속성값은 `linear`이어야 합니다.
 
 ```js
-const ball1Animation = __helpers.removeWhiteSpace(
-  $('#ball1').css('animation-timing-function')
-);
-assert(ball1Animation == 'linear' || ball1Animation == 'cubic-bezier(0,0,1,1)');
+const ballOne =document.querySelector('#ball1'); 
+const ballOneStyle = window.getComputedStyle(ballOne); 
+
+const ball1Animation = __helpers.removeWhiteSpace(ballOneStyle?.animationTimingFunction);
+assert.isTrue(ball1Animation == 'linear' || ball1Animation == 'cubic-bezier(0,0,1,1)');
 ```
 
 아이디가 `ball2`인 요소의 `animation-timing-function` 속성값은 `ease-out`이어야 합니다.
 
 ```js
-const ball2Animation = __helpers.removeWhiteSpace(
-  $('#ball2').css('animation-timing-function')
-);
-assert(
-  ball2Animation == 'ease-out' || ball2Animation == 'cubic-bezier(0,0,0.58,1)'
-);
+const ballTwo = document.querySelector('#ball2'); 
+const ballTwoStyle = window.getComputedStyle(ballTwo); 
+
+const ball2Animation = __helpers.removeWhiteSpace(ballTwoStyle?.animationTimingFunction);
+assert.isTrue(ball2Animation == 'ease-out' || ball2Animation == 'cubic-bezier(0,0,0.58,1)');
 ```
 
 # --seed--

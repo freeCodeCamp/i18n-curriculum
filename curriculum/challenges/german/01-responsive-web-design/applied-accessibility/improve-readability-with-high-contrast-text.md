@@ -22,13 +22,17 @@ Camper Cat benutzt eine hellgraue Farbe für seinen Text auf weißem Hintergrund
 Dein Code sollte die Textfarbe `color` für den `body` auf das dunklere Grau ändern.
 
 ```js
-assert($('body').css('color') == 'rgb(99, 99, 99)');
+const body = document.querySelector('body');
+const bodyColor = window.getComputedStyle(body).color; 
+assert(bodyColor == 'rgb(99, 99, 99)');
 ```
 
 Dein Code sollte die Hintergrundfarbe `background-color` für den `body` nicht ändern.
 
 ```js
-assert($('body').css('background-color') == 'rgb(255, 255, 255)');
+const body = document.querySelector('body');
+const backgroundColor = window.getComputedStyle(body).backgroundColor; 
+assert.equal(backgroundColor , 'rgb(255, 255, 255)');
 ```
 
 # --seed--

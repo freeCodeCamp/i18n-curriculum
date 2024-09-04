@@ -17,23 +17,22 @@ Bootstrap には `well` と呼ばれるクラスがあり、列を立体的な�
 クラス `col-xs-6` を持つ各 `div` 要素の中に、クラス `well` を持つ `div` 要素を追加します。
 
 ```js
-assert($('div.col-xs-6').not(':has(>div.well)').length < 1);
+const wells = document.querySelectorAll('div.col-xs-6 > div.well');
+assert.lengthOf( wells,2 ); 
 ```
 
 クラス `col-xs-6` を持つ `div` 要素はどちらも、クラス `row` を持つ `div` 要素の中にネストする必要があります。
 
 ```js
-assert($('div.row > div.col-xs-6').length > 1);
+assert.lengthOf(document.querySelectorAll('div.row > div.col-xs-6'),2);
 ```
 
 `div` 要素にはすべて終了タグが必要です。
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/g);
+assert.match(code,/<div/g);
+assert.equal(code.match(/<\/div>/g)?.length , code.match(/<div/g)?.length);
 ```
 
 # --seed--

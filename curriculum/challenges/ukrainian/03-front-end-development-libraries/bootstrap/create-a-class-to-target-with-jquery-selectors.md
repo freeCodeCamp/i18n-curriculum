@@ -17,7 +17,7 @@ dashedName: create-a-class-to-target-with-jquery-selectors
 Застосуйте клас `target` до кожного елемента `button`.
 
 ```js
-assert($('.target').length > 5);
+assert.lengthOf(document.querySelectorAll('.target'),6);
 ```
 
 # --seed--

@@ -17,23 +17,24 @@ dashedName: house-our-page-within-a-bootstrap-container-fluid-div
 يجب أن يمتلك عنصر `div` الخاص بك فئة `container-fluid`.
 
 ```js
-assert($('div').hasClass('container-fluid'));
+assert.isTrue(document.querySelector('div')?.classList?.contains('container-fluid'));
 ```
 
 لا بد أن يوجد وسم إغلاق لكل عناصر `div`.
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/g);
+assert.match(code,/<div/g);
+
+assert.equal(code.match(/<\/div>/g).length ,code.match(/<div/g).length);
 ```
 
 عنصر `h3` الخاص بك يجب أن يكون متداخلا داخل عنصر `div`.
 
 ```js
-assert($('div').children('h3').length > 0);
+const divElement = document.querySelector('div');
+const divChildren = divElement?.querySelectorAll(`:scope ${'h3'}`)
+assert.lengthOf(divChildren,1);
 ```
 
 # --seed--

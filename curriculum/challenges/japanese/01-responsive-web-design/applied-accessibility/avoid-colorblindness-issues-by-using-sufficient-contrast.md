@@ -26,13 +26,13 @@ Camper Cat は、ブログのテキストと背景に色を使うテストを行
 テキストの `color` プロパティの明度の値だけを 15% に変更してください。
 
 ```js
-assert(code.match(/color:\s*?hsl\(0,\s*?55%,\s*?15%\)/gi));
+assert.match(code ,/color:\s*?hsl\(0,\s*?55%,\s*?15%\)/gi);
 ```
 
 `background-color` プロパティの明度の値だけを 55% に変更してください。
 
 ```js
-assert(code.match(/background-color:\s*?hsl\(120,\s*?25%,\s*?55%\)/gi));
+assert.match(code ,/background-color:\s*?hsl\(120,\s*?25%,\s*?55%\)/gi);
 ```
 
 # --seed--

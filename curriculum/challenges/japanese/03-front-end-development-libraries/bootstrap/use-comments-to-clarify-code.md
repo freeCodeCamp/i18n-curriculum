@@ -21,25 +21,25 @@ HTML の先頭に、`Code below this line should not be changed` というコメ
 HTML の先頭で、`<!--` を使用してコメントの開始を示します。
 
 ```js
-assert(code.match(/^\s*<!--/));
+assert.match(code,(/^\s*<!--/));
 ```
 
 コメントのテキストを `Code below this line should not be changed` にします。
 
 ```js
-assert(code.match(/<!--(?!(>|->|.*-->.*this line))\s*.*this line.*\s*-->/gi));
+assert.match(code,(/<!--(?!(>|->|.*-->.*this line))\s*.*this line.*\s*-->/gi));
 ```
 
 `-->` を使用してコメントの終了を示します。
 
 ```js
-assert(code.match(/-->.*\n+.+/g));
+assert.match(code,(/-->.*\n+.+/g));
 ```
 
 コメントの開始と終了の数は同じにする必要があります。
 
 ```js
-assert(code.match(/<!--/g).length === code.match(/-->/g).length);
+assert.equal(code.match(/<!--/g).length,code.match(/-->/g).length);
 ```
 
 # --seed--

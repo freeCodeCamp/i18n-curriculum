@@ -24,11 +24,10 @@ Establece la `opacity` de las etiquetas de anclajes en 0.7 usando la clase `link
 Tu código debe establecer la propiedad `opacity` en 0.7 en las etiquetas de anclajes seleccionando la clase de `links`.
 
 ```js
-assert(
-  /\.links\s*{([\s\S]*?;)*\s*opacity\s*:\s*0*\.70*\s*(;[\s\S]*?|\s*)}/.test(
-    $('style').text()
-  )
-);
+assert.match(
+  document.querySelector('style')?.textContent,
+  /\.links\s*{([\s\S]*?;)*\s*opacity\s*:\s*0*\.70*\s*(;[\s\S]*?|\s*)}/
+  );
 ```
 
 # --seed--

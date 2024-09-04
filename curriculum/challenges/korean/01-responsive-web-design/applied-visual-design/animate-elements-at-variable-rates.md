@@ -22,7 +22,7 @@ dashedName: animate-elements-at-variable-rates
 `star-1` 클래스의 `@keyframes` 규칙을 50%로 변경해야 합니다.
 
 ```js
-assert(code.match(/twinkle-1\s*?{\s*?50%/g));
+assert.match(code,/twinkle-1\s*?{\s*?50%/g);
 ```
 
 # --seed--

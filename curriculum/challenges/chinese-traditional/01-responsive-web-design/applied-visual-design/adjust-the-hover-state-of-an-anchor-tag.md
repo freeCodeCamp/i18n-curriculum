@@ -28,17 +28,17 @@ a:hover {
 The anchor tag `color` should remain black, only add CSS rules for the `:hover` state.
 
 ```js
-assert($('a').css('color') == 'rgb(0, 0, 0)');
+const anchorElement = document.querySelector("a"); 
+const anchorStyle = window.getComputedStyle(anchorElement);
+assert.equal(anchorStyle?.color, 'rgb(0, 0, 0)');
 ```
 
 懸停錨標籤時它的 `color` 應該變成藍色。
 
 ```js
-assert(
-  code.match(
+assert.match(code,
     /a:hover\s*?{\s*?color:\s*?(blue|rgba\(\s*?0\s*?,\s*?0\s*?,\s*?255\s*?,\s*?1\s*?\)|#00F|rgb\(\s*?0\s*?,\s*?0\s*?,\s*?255\s*?\))\s*?;\s*?}/gi
-  )
-);
+  );
 ```
 
 # --seed--

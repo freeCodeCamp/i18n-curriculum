@@ -20,7 +20,10 @@ Para tornar o título significativamente maior do que o parágrafo, altere a pro
 Adicione ao elemento `h4` a propriedade `font-size` com o valor de 27 pixels.
 
 ```js
-assert($('h4').css('font-size') == '27px');
+
+const h4Element =document.querySelector('h4')
+const h4Style = window.getComputedStyle(h4Element);
+assert.equal(h4Style?.fontSize,'27px');
 ```
 
 # --seed--

@@ -27,25 +27,31 @@ Hier sind drei Farben, die mit dem Split-Komplementär-Schema erstellt wurden:
 Das `div`-Element mit der Klasse `orange` sollte eine `background-color` von Orange haben.
 
 ```js
-assert($('.orange').css('background-color') == 'rgb(255, 127, 0)');
+const orangeElement = document.querySelector('.orange');
+const orangeStyle = window.getComputedStyle(orangeElement);
+assert.equal(orangeStyle?.backgroundColor, 'rgb(255, 127, 0)');
 ```
 
 Das `div`-Element mit der Klasse `cyan` sollte eine `background-color` von Cyan haben.
 
 ```js
-assert($('.cyan').css('background-color') == 'rgb(0, 255, 255)');
+const cyanElement = document.querySelector('.cyan');
+const cyanStyle = window.getComputedStyle(cyanElement);
+assert.equal(cyanStyle?.backgroundColor, 'rgb(0, 255, 255)');
 ```
 
 Das `div`-Element mit der Klasse `raspberry` sollte eine himbeerfarbene `background-color` haben.
 
 ```js
-assert($('.raspberry').css('background-color') == 'rgb(255, 0, 127)');
+const raspberryElement = document.querySelector('.raspberry');
+const raspberryStyle = window.getComputedStyle(raspberryElement);
+assert.equal(raspberryStyle?.backgroundColor, 'rgb(255, 0, 127)');
 ```
 
 Alle `background-color`-Werte für die Farbklassen sollten Hex-Codes und nicht Farbnamen sein.
 
 ```js
-assert(!/background-color:\s(orange|cyan|raspberry)/.test(code));
+assert.notMatch(code, /background-color:\s(orange|cyan|raspberry)/);
 ```
 
 # --seed--

@@ -33,13 +33,13 @@ Camper Cat espera que haya mucho interés en sus publicaciones bien armadas en e
 Tu código debe tener un atributo `for` en una etiqueta `label` que no esté vacía.
 
 ```js
-assert($('label').attr('for'));
+assert.isNotEmpty(document.querySelector('label')?.getAttribute('for'));
 ```
 
 El valor del atributo `for` debe coincidir con el valor `id` en el correo electrónico `input`.
 
 ```js
-assert($('label').attr('for') == 'email');
+assert.equal(document.querySelector('label')?.getAttribute('for'), 'email');
 ```
 
 # --seed--

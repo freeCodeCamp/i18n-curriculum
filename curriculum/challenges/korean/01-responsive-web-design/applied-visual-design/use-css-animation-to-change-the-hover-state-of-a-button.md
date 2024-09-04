@@ -44,13 +44,13 @@ CSS의 `@keyframes`를 사용하여 유저가 마우스를 호버했을 때 `but
 @keyframes 규칙에서 `animation-name`은 background-color가 되어야 합니다.
 
 ```js
-assert(code.match(/@keyframes\s+?background-color\s*?{/g));
+assert.match(code, /@keyframes\s+?background-color\s*?{/g);
 ```
 
 `@keyframes`에는 100%일 때 `background-color`를 `#4791d0`색으로 변경하는 규칙이 하나여야 합니다.
 
 ```js
-assert(code.match(/100%\s*?{\s*?background-color:\s*?#4791d0;\s*?}/gi));
+assert.match(code, /100%\s*?{\s*?background-color:\s*?#4791d0;\s*?}/gi);
 ```
 
 # --seed--

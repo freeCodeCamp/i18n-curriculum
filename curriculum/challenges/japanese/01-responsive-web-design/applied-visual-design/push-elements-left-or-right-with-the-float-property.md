@@ -20,13 +20,17 @@ dashedName: push-elements-left-or-right-with-the-float-property
 id が `left` の要素の `float` の値は `left` に設定してください。
 
 ```js
-assert($('#left').css('float') == 'left');
+const leftElement = document.querySelector('#left');
+const leftStyle = window.getComputedStyle(leftElement);
+assert.equal(leftStyle?.float, 'left');
 ```
 
 id が `right` の要素の `float` の値は `right` に設定してください。
 
 ```js
-assert($('#right').css('float') == 'right');
+const rightElement = document.querySelector('#right');
+const rightStyle = window.getComputedStyle(rightElement);
+assert.equal(rightStyle?.float, 'right');
 ```
 
 # --seed--

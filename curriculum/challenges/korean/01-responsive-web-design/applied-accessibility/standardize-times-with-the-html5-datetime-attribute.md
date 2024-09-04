@@ -26,28 +26,25 @@ dashedName: standardize-times-with-the-html5-datetime-attribute
 코드에는 `p` 요소가 있어야 하며 그 안에는 텍스트 `Thank you to everyone for responding to Master Camper Cat's survey.`와 `time` 요소를 포함해야 합니다.
 
 ```js
-assert(timeElement);
+assert.exists(timeElement);
 ```
 
 추가한 `time` 태그는 텍스트 `Thursday, September 15<sup>th</sup>`을 감싸야 합니다.
 
 ```js
-assert(
-  timeElement &&
-    timeElement?.innerHTML?.trim() === 'Thursday, September 15<sup>th</sup>'
-);
+assert.strictEqual(timeElement?.innerHTML?.trim(), 'Thursday, September 15<sup>th</sup>');
 ```
 
 `time` 태그에는 `datetime` 속성이 있어야 하며, 이 속성은 비어있으면 안 됩니다.
 
 ```js
-assert(datetimeAttr && datetimeAttr?.length);
+assert(datetimeAttr?.length != 0);
 ```
 
 추가한 `datetime` 속성은 `2016-09-15`로 설정되어야 합니다.
 
 ```js
-assert(datetimeAttr === '2016-09-15');
+assert.equal(datetimeAttr , '2016-09-15');
 ```
 
 # --seed--

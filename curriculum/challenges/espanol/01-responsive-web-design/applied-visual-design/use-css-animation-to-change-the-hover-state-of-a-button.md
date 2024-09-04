@@ -44,13 +44,13 @@ Utiliza CSS `@keyframes` para cambiar el `background-color` del elemento `button
 La regla @keyframes debe usar el `animation-name` background-color.
 
 ```js
-assert(code.match(/@keyframes\s+?background-color\s*?{/g));
+assert.match(code, /@keyframes\s+?background-color\s*?{/g);
 ```
 
 Debe haber una regla en `@keyframes` que cambie el `background-color` a `#4791d0` al 100%.
 
 ```js
-assert(code.match(/100%\s*?{\s*?background-color:\s*?#4791d0;\s*?}/gi));
+assert.match(code, /100%\s*?{\s*?background-color:\s*?#4791d0;\s*?}/gi);
 ```
 
 # --seed--

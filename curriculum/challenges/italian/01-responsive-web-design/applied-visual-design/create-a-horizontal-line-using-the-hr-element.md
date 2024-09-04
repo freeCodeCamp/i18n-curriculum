@@ -22,13 +22,13 @@ Aggiungi un tag `hr` sotto il tag `h4` che contiene il titolo della card.
 Il tuo codice dovrebbe aggiungere un tag `hr` al markup.
 
 ```js
-assert($('hr').length == 1);
+assert.lengthOf(document.querySelectorAll('hr'),1);
 ```
 
 Il tag `hr` dovrebbe stare tra il titolo e il paragrafo.
 
 ```js
-assert(code.match(/<\/h4>\s*?<hr(>|\s*?\/>)\s*?<p>/gi));
+assert.match(code,/<\/h4>\s*?<hr(>|\s*?\/>)\s*?<p>/gi);
 ```
 
 # --seed--

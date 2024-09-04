@@ -19,55 +19,49 @@ dashedName: give-each-element-a-unique-id
 한 `button` 요소는 `target1` 이라는 id를 가져야 합니다.
 
 ```js
-assert(
-  $('#left-well').children('#target1') &&
-    $('#left-well').children('#target1').length > 0
-);
+const leftWall = document.querySelector('#left-well'); 
+const targetOne = leftWall?.querySelectorAll(`:scope ${'#target1'}`)
+assert.lengthOf(targetOne,1);
 ```
 
 한 `button` 요소는 `target2` 이라는 id를 가져야 합니다.
 
 ```js
-assert(
-  $('#left-well').children('#target2') &&
-    $('#left-well').children('#target2').length > 0
-);
+const leftWall = document.querySelector('#left-well'); 
+const targetTwo = leftWall?.querySelectorAll(`:scope ${'#target2'}`)
+assert.lengthOf(targetTwo,1);
 ```
 
 한 `button` 요소는 `target3` 이라는 id를 가져야 합니다.
 
 ```js
-assert(
-  $('#left-well').children('#target3') &&
-    $('#left-well').children('#target3').length > 0
-);
+const leftWall = document.querySelector('#left-well'); 
+const targetThree = leftWall?.querySelectorAll(`:scope ${'#target3'}`)
+assert.lengthOf(targetThree,1);
 ```
 
 한 `button` 요소는 `target4` 이라는 id를 가져야 합니다.
 
 ```js
-assert(
-  $('#right-well').children('#target4') &&
-    $('#right-well').children('#target4').length > 0
-);
+const leftWall = document.querySelector('#right-well'); 
+const targetFour = leftWall?.querySelectorAll(`:scope ${'#target4'}`)
+assert.lengthOf(targetFour,1);
 ```
 
 한 `button` 요소는 `target5` 이라는 id를 가져야 합니다.
 
 ```js
-assert(
-  $('#right-well').children('#target5') &&
-    $('#right-well').children('#target5').length > 0
-);
+const leftWall = document.querySelector('#right-well'); 
+const targetFive = leftWall?.querySelectorAll(`:scope ${'#target5'}`)
+assert.lengthOf(targetFive,1);
 ```
 
 한 `button` 요소는 `target6` 이라는 id를 가져야 합니다.
 
 ```js
-assert(
-  $('#right-well').children('#target6') &&
-    $('#right-well').children('#target6').length > 0
-);
+const leftWall = document.querySelector('#right-well'); 
+const targetSix = leftWall?.querySelectorAll(`:scope ${'#target6'}`)
+assert.lengthOf(targetSix,1);
 ```
 
 # --seed--

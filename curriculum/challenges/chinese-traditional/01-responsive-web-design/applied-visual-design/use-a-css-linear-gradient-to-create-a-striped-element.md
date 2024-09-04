@@ -32,37 +32,37 @@ dashedName: use-a-css-linear-gradient-to-create-a-striped-element
 `repeating-linear-gradient()` 的漸變角度應爲 45deg。
 
 ```js
-assert(code.match(/background:\s*?repeating-linear-gradient\(\s*?45deg/gi));
+assert.match(code,/background:\s*?repeating-linear-gradient\(\s*?45deg/gi);
 ```
 
 `repeating-linear-gradient()` 的漸變角度應該不再是 90deg。
 
 ```js
-assert(!code.match(/90deg/gi));
+assert.notMatch(code, /90deg/gi);
 ```
 
 0px 處的漸變顏色應該是 `yellow`。
 
 ```js
-assert(code.match(/yellow\s+?0(px)?/gi));
+assert.match(code, /yellow\s+?0(px)?/gi);
 ```
 
 40 像素處的第一個色標應該是 `yellow`。
 
 ```js
-assert(code.match(/yellow\s+?40px/gi));
+assert.match(code, /yellow\s+?40px/gi);
 ```
 
 40px 處的第二個漸變顏色應該是 `black`。
 
 ```js
-assert(code.match(/yellow\s+?40px,\s*?black\s+?40px/gi));
+assert.match(code, /yellow\s+?40px,\s*?black\s+?40px/gi);
 ```
 
 80px 處的最後一個漸變顏色應該是 `black`。
 
 ```js
-assert(code.match(/black\s+?80px/gi));
+assert.match(code, /black\s+?80px/gi);
 ```
 
 # --seed--

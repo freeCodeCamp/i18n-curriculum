@@ -22,19 +22,25 @@ La barra di navigazione nel codice è etichettata con un id `navbar`. Cambia la 
 L'elemento `#navbar` deve avere una `position` impostata su `fixed`.
 
 ```js
-assert($('#navbar').css('position') == 'fixed');
+const navbarElement = document.querySelector('#navbar');
+const navbarStyle = window.getComputedStyle(navbarElement);
+ assert.equal(navbarStyle?.position, 'fixed');
 ```
 
 Il tuo codice deve avere un offset `top` di 0 pixel sull'elemento `#navbar`.
 
 ```js
-assert($('#navbar').css('top') == '0px');
+const navbarElement = document.querySelector('#navbar');
+ const navbarStyle = window.getComputedStyle(navbarElement);
+assert.equal(navbarStyle?.top, '0px');
 ```
 
 Il tuo codice deve usare un offset `left` di 0 pixel sull'elemento `#navbar`.
 
 ```js
-assert($('#navbar').css('left') == '0px');
+const navbarElement = document.querySelector('#navbar');
+ const navbarStyle = window.getComputedStyle(navbarElement);
+ assert.equal(navbarStyle?.left, '0px');
 ```
 
 # --seed--

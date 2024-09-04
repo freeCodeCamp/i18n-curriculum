@@ -19,29 +19,30 @@ Nota che questi pulsanti hanno ancora bisogno delle classi `btn` e `btn-block`.
 Dovresti creare un nuovo elemento `button` con il testo `Info`.
 
 ```js
-assert(new RegExp('info', 'gi').test($('button').text()));
+const infoButton = document.querySelectorAll('button')?.[1]; 
+assert.match(infoButton.textContent,/info/gi);
 ```
 
 Entrambi i pulsanti di Bootstrap dovrebbero avere le classi `btn` e `btn-block`.
 
 ```js
-assert($('button.btn-block.btn').length > 1);
+assert.lengthOf(document.querySelectorAll('button.btn-block.btn'),2);
 ```
 
 Il tuo nuovo pulsante dovrebbe avere la classe `btn-info`.
 
 ```js
-assert($('button').hasClass('btn-info'));
+const infoButton = [...document.querySelectorAll('button')].at(1);
+assert.isTrue(infoButton?.classList?.contains('btn-info'));
 ```
 
 Tutti i tuoi elementi `button` dovrebbero avere dei tag di chiusura.
 
 ```js
-assert(
-  code.match(/<\/button>/g) &&
-    code.match(/<button/g) &&
-    code.match(/<\/button>/g).length === code.match(/<button/g).length
-);
+assert.match(code,/<\/button>/g);
+assert.match(code,/<button/g);
+
+assert.equal(code.match(/<\/button>/g)?.length,code.match(/<button/g)?.length);
 ```
 
 # --seed--

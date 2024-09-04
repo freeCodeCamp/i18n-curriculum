@@ -28,24 +28,30 @@ Para ver o efeito desta curva de Bézier em ação, altere a `animation-timing-f
 O valor da propriedade `animation-timing-function` do elemento com o id `red` deve ser uma função `cubic-bezier` com os valores x1, y1, x2, y2 definidos respectivamente como 0, 0, 0.58, 1.
 
 ```js
-assert(
-  $('#red').css('animation-timing-function') == 'cubic-bezier(0, 0, 0.58, 1)'
+const redElement = document.querySelector('#red');
+const redStyle = window.getComputedStyle(redElement);
+assert.equal(
+  redStyle?.animationTimingFunction, 'cubic-bezier(0, 0, 0.58, 1)'
 );
 ```
 
 O elemento com o id `red` não deve mais ter a propriedade `animation-timing-function` de valor `linear`.
 
 ```js
-assert($('#red').css('animation-timing-function') !== 'linear');
+const redElement = document.querySelector('#red');
+const redStyle = window.getComputedStyle(redElement);
+assert.notEqual(redStyle?.animationTimingFunction, 'linear');
 ```
 
 O valor da propriedade `animation-timing-function` para o elemento com o id `blue` não deve ser alterado.
 
 ```js
+const blueElement = document.querySelector('#blue');
+const blueStyle = window.getComputedStyle( blueElement);
 const blueBallAnimation = __helpers.removeWhiteSpace(
-  $('#blue').css('animation-timing-function')
+  blueStyle?.animationTimingFunction
 );
-assert(
+assert.isTrue(
   blueBallAnimation == 'ease-out' ||
     blueBallAnimation == 'cubic-bezier(0,0,0.58,1)'
 );

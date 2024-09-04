@@ -28,13 +28,13 @@ Camper Cat은 사용자들에 대한 정보를 모으기 위한 새로운 설문
 폼 지침을 보유한 `p` 태그에 `tabindex` 속성을 추가해야합니다.
 
 ```js
-assert($('p').attr('tabindex'));
+assert.isNotNull(document.querySelector('p')?.getAttribute('tabindex'));
 ```
 
 `p` 태그에 있는 `tabindex` 속성값은 0 이어야 합니다.
 
 ```js
-assert($('p').attr('tabindex') == '0');
+assert.equal(document.querySelector('p')?.getAttribute('tabindex'), '0');
 ```
 
 # --seed--

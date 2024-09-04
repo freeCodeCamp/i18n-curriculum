@@ -30,7 +30,7 @@ p:hover {
 `div` 元素在懸停時大小應該縮放到原始大小的 1.1 倍。
 
 ```js
-assert(code.match(/div:hover\s*?{\s*?transform:\s*?scale\(1\.1\);/gi));
+assert.match(code, /div:hover\s*?{\s*?transform:\s*?scale\(1\.1\);/gi);
 ```
 
 # --seed--

@@ -20,13 +20,16 @@ Envolva o conteúdo da tag de parágrafo com uma tag `em` para dar ênfase.
 O código deve adicionar uma tag `em` ao html.
 
 ```js
-assert($('em').length == 1);
+assert.lengthOf(document.querySelectorAll('em'),1);
 ```
 
 A tag `em` deve envolver o conteúdo da tag `p`, mas não a tag `p` em si.
 
 ```js
-assert($('p').children().length == 1 && $('em').children().length == 2);
+const paragraphElement = document.querySelector('p');
+const emElement = document.querySelector('em');
+assert.lengthOf(paragraphElement?.children, 1);
+assert.lengthOf(emElement?.children, 2);
 ```
 
 # --seed--

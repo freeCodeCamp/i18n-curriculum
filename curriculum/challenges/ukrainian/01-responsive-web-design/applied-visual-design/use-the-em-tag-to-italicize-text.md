@@ -20,13 +20,16 @@ dashedName: use-the-em-tag-to-italicize-text
 Ваш код має додати тег `em` у текст розмітки.
 
 ```js
-assert($('em').length == 1);
+assert.lengthOf(document.querySelectorAll('em'),1);
 ```
 
 Тег `em` має охопити вміст `p` тегу, а не сам `p` тег.
 
 ```js
-assert($('p').children().length == 1 && $('em').children().length == 2);
+const paragraphElement = document.querySelector('p');
+const emElement = document.querySelector('em');
+assert.lengthOf(paragraphElement?.children, 1);
+assert.lengthOf(emElement?.children, 2);
 ```
 
 # --seed--

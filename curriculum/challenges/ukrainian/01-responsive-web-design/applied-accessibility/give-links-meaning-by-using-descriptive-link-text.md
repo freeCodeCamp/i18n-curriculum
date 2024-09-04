@@ -22,26 +22,19 @@ dashedName: give-links-meaning-by-using-descriptive-link-text
 Ваш код має перемістити теґи прив'язки `a` навколо слів `Click here` так, щоб огорнути слова `information about batteries`.
 
 ```js
-assert(
-  $('a')
-    .text()
-    .match(/^(information about batteries)$/g)
-);
+assert.match(document.querySelector('a')?.textContent, /^(information about batteries)$/g);
 ```
 
 Елемент `a` повинен мати атрибут `href` зі значенням порожнього рядка `""`.
 
 ```js
-assert($('a').attr('href') === '');
+assert.isEmpty(document.querySelector('a')?.getAttribute('href'));
 ```
 
 Елемент `a` повинен мати кінцевий тег.
 
 ```js
-assert(
-  code.match(/<\/a>/g) &&
-    code.match(/<\/a>/g).length === code.match(/<a href=(''|"")>/g).length
-);
+assert.isTrue(code.match(/<\/a>/g)?.length === code.match(/<a href=(''|"")>/g)?.length);
 ```
 
 # --seed--

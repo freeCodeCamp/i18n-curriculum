@@ -30,8 +30,10 @@ animation-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
 id 为 `ball1` 的元素的 `animation-timing-function` 属性值应该为和 linear 预定值等价的 `cubic-bezier` 函数值。
 
 ```js
-assert(
-  $('#ball1').css('animation-timing-function') ==
+const ballOne = document.querySelector('#ball1');
+const ballOneStyle = window.getComputedStyle(ballOne); 
+assert.equal(
+  ballOneStyle?.animationTimingFunction,
     'cubic-bezier(0.25, 0.25, 0.75, 0.75)'
 );
 ```
@@ -39,10 +41,10 @@ assert(
 id 为 `ball2` 的元素的 `animation-timing-function` 属性值不应改变。
 
 ```js
-const ball2Animation = __helpers.removeWhiteSpace(
-  $('#ball2').css('animation-timing-function')
-);
-assert(
+const ballTwoElement = document.querySelector('#ball2');
+const ballTwoStyle = window.getComputedStyle(ballTwoElement); 
+const ball2Animation = __helpers.removeWhiteSpace(ballTwoStyle?.animationTimingFunction);
+assert.isTrue(
   ball2Animation == 'ease-out' || ball2Animation == 'cubic-bezier(0,0,0.58,1)'
 );
 ```

@@ -30,25 +30,25 @@ Camper Cat хоче мати сторінку, яка призначена дл�
 Ваш код повинен налічувати 6 `h3` елементів.
 
 ```js
-assert($('h3').length === 6);
+assert.lengthOf(document.querySelectorAll('h3') , 6);
 ```
 
 Ваш код має містити 6 тегів `h3`.
 
 ```js
-assert((code.match(/\/h3/g) || []).length === 6);
+assert.lengthOf((code.match(/\/h3/g) || []) ,6);
 ```
 
 Ваш код не повинен містити жодних елементів `h5`.
 
 ```js
-assert($('h5').length === 0);
+assert.isEmpty(document.querySelectorAll('h5'));
 ```
 
 Ваш код не повинен містити жодних тегів `h5`.
 
 ```js
-assert(/\/h5/.test(code) === false);
+assert.notMatch(code, /\/h5/);
 ```
 
 # --seed--

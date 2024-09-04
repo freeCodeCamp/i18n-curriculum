@@ -22,19 +22,25 @@ CSS の `position` プロパティの次のオプションは `absolute` です�
 `#searchbar` 要素の `position` を `absolute` に設定してください。
 
 ```js
-assert($('#searchbar').css('position') == 'absolute');
+const searchbarElement = document.querySelector('#searchbar');
+const searchbarStyle = window.getComputedStyle(searchbarElement);
+assert.equal(searchbarStyle?.position, 'absolute');
 ```
 
 50 ピクセルの `top` CSS オフセットを `#searchbar` 要素に使用する必要があります。
 
 ```js
-assert($('#searchbar').css('top') == '50px');
+const searchbarElement = document.querySelector('#searchbar');
+const searchbarStyle = window.getComputedStyle(searchbarElement);
+assert.equal(searchbarStyle?.top, '50px');
 ```
 
 50 ピクセルの `right` CSS オフセットを `#searchbar` 要素に使用する必要があります。
 
 ```js
-assert($('#searchbar').css('right') == '50px');
+const searchbarElement = document.querySelector('#searchbar');
+const searchbarStyle = window.getComputedStyle(searchbarElement);
+assert.equal(searchbarStyle?.right, '50px');
 ```
 
 # --seed--

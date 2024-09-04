@@ -26,7 +26,9 @@ Para manter a bola quicando à direita em um loop contínuo, altere a propriedad
 A propriedade `animation-iteration-count` deve ter um valor de `infinite`.
 
 ```js
-assert($('#ball').css('animation-iteration-count') == 'infinite');
+const ballElement = document.querySelector('#ball');
+const ballStyle = window.getComputedStyle(ballElement); 
+assert.equal(ballStyle?.animationIterationCount, 'infinite');
 ```
 
 # --seed--

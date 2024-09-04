@@ -25,29 +25,29 @@ Font Awesome 是一個非常便利的圖標庫。 這些圖標可以是網絡字
 應在 `info` 按鈕元素中添加一個 `<i class="fas fa-info-circle"></i>`。
 
 ```js
-assert(
-  $('.btn-info > i').is('.fas.fa-info-circle') ||
-    $('.btn-info > span').is('.fas.fa-info-circle')
+assert.isTrue(
+  document.querySelector('.btn-info > i')?.classList?.value === 'fas fa-info-circle' ||
+    document.querySelector('.btn-info > span')?.classList?.value === 'fas fa-info-circle'
 );
 ```
 
 應在 `delete` 按鈕元素中添加一個 `<i class="fas fa-trash"></i>`。
 
 ```js
-assert(
-  $('.btn-danger > i').is('.fas.fa-trash') ||
-    $('.btn-danger > span').is('.fas.fa-trash')
+assert.isTrue(
+  document.querySelector('.btn-danger > i')?.classList?.value === 'fas fa-trash' ||
+    document.querySelector('.btn-danger > span')?.classList?.value === 'fas fa-trash'
 );
 ```
 
 每個 `i` 元素都應有一個閉合標籤，`<i class="fas fa-thumbs-up"></i>` 在 `like` 標籤元素中。
 
 ```js
-assert(
-  code.match(/<\/i>|<\/span/g) &&
-    code.match(/<\/i|<\/span>/g).length > 2 &&
-    ($('.btn-primary > i').is('.fas.fa-thumbs-up') ||
-      $('.btn-primary > span').is('.fas.fa-thumbs-up'))
+assert.match(code,/<\/i>|<\/span/g);
+assert.lengthOf(code.match(/<\/i|<\/span>/g),4)
+assert.isTrue(
+    document.querySelector('.btn-primary > i')?.classList?.value === 'fas fa-thumbs-up' ||
+      document.querySelector('.btn-primary > span')?.classList?.value === 'fas fa-thumbs-up'
 );
 ```
 

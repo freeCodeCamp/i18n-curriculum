@@ -17,26 +17,27 @@ Aninhe três elementos `button` dentro de cada um dos elementos `div` contendo o
 Três elementos `button` devem ser aninhados dentro de cada um dos elementos `div` com a classe `well`.
 
 ```js
-assert(
-  $('div.well:eq(0)').children('button').length === 3 &&
-    $('div.well:eq(1)').children('button').length === 3
-);
+const buttonOne = document.querySelectorAll('div.well')?.[0];
+const buttonOneChildren = buttonOne?.querySelectorAll(`:scope ${'button'}`);
+assert.lengthOf(buttonOneChildren,3);
+
+const buttonTwo = document.querySelectorAll('div.well')?.[1]
+const buttonTwoChildren = buttonTwo?.querySelectorAll(`:scope ${'button'}`);
+assert.lengthOf(buttonTwoChildren,3);
 ```
 
 Você deve ter o total de 6 elementos `button`.
 
 ```js
-assert($('button') && $('button').length > 5);
+assert.lengthOf(document.querySelectorAll('button'), 6);
 ```
 
 Todos os elementos `button` devem ter tags de fechamento.
 
 ```js
-assert(
-  code.match(/<\/button>/g) &&
-    code.match(/<button/g) &&
-    code.match(/<\/button>/g).length === code.match(/<button/g).length
-);
+assert.match(code,/<\/button>/g);
+assert.match(code,/<button/g);
+assert.equal(code.match(/<\/button>/g).length,code.match(/<button/g).length);
 ```
 
 # --seed--

@@ -25,29 +25,29 @@ Utilize Font Awesome para adicionar um ícone `info-circle` ao botão de informa
 Você deve adicionar um `<i class="fas fa-info-circle"></i>` dentro do elemento de botão `info`.
 
 ```js
-assert(
-  $('.btn-info > i').is('.fas.fa-info-circle') ||
-    $('.btn-info > span').is('.fas.fa-info-circle')
+assert.isTrue(
+  document.querySelector('.btn-info > i')?.classList?.value === 'fas fa-info-circle' ||
+    document.querySelector('.btn-info > span')?.classList?.value === 'fas fa-info-circle'
 );
 ```
 
 Você deve adicionar um `<i class="fas fa-trash"></i>` dentro do elemento de botão `delete`.
 
 ```js
-assert(
-  $('.btn-danger > i').is('.fas.fa-trash') ||
-    $('.btn-danger > span').is('.fas.fa-trash')
+assert.isTrue(
+  document.querySelector('.btn-danger > i')?.classList?.value === 'fas fa-trash' ||
+    document.querySelector('.btn-danger > span')?.classList?.value === 'fas fa-trash'
 );
 ```
 
 Cada um dos elementos `i` deve ter uma tag de fechamento e `<i class="fas fa-thumbs-up"></i>` está no elemento de botão `like`.
 
 ```js
-assert(
-  code.match(/<\/i>|<\/span/g) &&
-    code.match(/<\/i|<\/span>/g).length > 2 &&
-    ($('.btn-primary > i').is('.fas.fa-thumbs-up') ||
-      $('.btn-primary > span').is('.fas.fa-thumbs-up'))
+assert.match(code,/<\/i>|<\/span/g);
+assert.lengthOf(code.match(/<\/i|<\/span>/g),4)
+assert.isTrue(
+    document.querySelector('.btn-primary > i')?.classList?.value === 'fas fa-thumbs-up' ||
+      document.querySelector('.btn-primary > span')?.classList?.value === 'fas fa-thumbs-up'
 );
 ```
 

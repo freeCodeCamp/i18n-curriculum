@@ -40,34 +40,31 @@ dashedName: wrap-radio-buttons-in-a-fieldset-element-for-better-accessibility
 應存在 1 個 `fieldset` 標籤包含單選按鈕組。
 
 ```js
-assert($('fieldset').length == 1);
+assert.lengthOf(document.querySelectorAll('fieldset'),1);
 ```
 
 確保 `fieldset` 標籤是閉合的。
 
 ```js
-assert(
-  code.match(/<\/fieldset>/g) &&
-    code.match(/<\/fieldset>/g).length === code.match(/<fieldset>/g).length
-);
+assert.isTrue(code.match(/<\/fieldset>/g)?.length === code.match(/<fieldset>/g)?.length);
 ```
 
 應存在 1 個包含詢問用戶忍者等級內容文字的 `legend` 標籤。
 
 ```js
-assert($('legend').length == 1);
+assert.lengthOf(document.querySelectorAll('legend') ,1);
 ```
 
 不應存在 `div` 標籤。
 
 ```js
-assert($('div').length == 0);
+assert.lengthOf(document.querySelectorAll('div') ,0);
 ```
 
 不應存在包含詢問用戶忍者等級內容文字的 `p` 標籤。
 
 ```js
-assert($('p').length == 4);
+assert.lengthOf(document.querySelectorAll('p') ,4);
 ```
 
 # --seed--

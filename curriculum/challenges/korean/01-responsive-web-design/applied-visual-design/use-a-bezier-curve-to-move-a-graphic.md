@@ -28,24 +28,30 @@ Bezier curve가 동작하는 결과를 보려면, id가 `red`인 요소의 `anim
 Id가 `red`인 요소의 `animation-timing-function`속성 값은 x1, y1, x2, y2값이 각각 0, 0, 0.58, 1인`cubic-bezier`함수가 되어야 합니다.
 
 ```js
-assert(
-  $('#red').css('animation-timing-function') == 'cubic-bezier(0, 0, 0.58, 1)'
+const redElement = document.querySelector('#red');
+const redStyle = window.getComputedStyle(redElement);
+assert.equal(
+  redStyle?.animationTimingFunction, 'cubic-bezier(0, 0, 0.58, 1)'
 );
 ```
 
 Id가 `red`인 요소는 `animation-timing-function`속성이 더이상 `linear`를 가지지 않아야 합니다.
 
 ```js
-assert($('#red').css('animation-timing-function') !== 'linear');
+const redElement = document.querySelector('#red');
+const redStyle = window.getComputedStyle(redElement);
+assert.notEqual(redStyle?.animationTimingFunction, 'linear');
 ```
 
 Id가 `blue`인 요소의 `animation-timing-function` 속성 값은 변경되지 않아야 합니다.
 
 ```js
+const blueElement = document.querySelector('#blue');
+const blueStyle = window.getComputedStyle( blueElement);
 const blueBallAnimation = __helpers.removeWhiteSpace(
-  $('#blue').css('animation-timing-function')
+  blueStyle?.animationTimingFunction
 );
-assert(
+assert.isTrue(
   blueBallAnimation == 'ease-out' ||
     blueBallAnimation == 'cubic-bezier(0,0,0.58,1)'
 );

@@ -20,7 +20,9 @@ CSS에서 `font-size` 속성은 제목 태그로만 제한되지 않으며 텍�
 `p`태그는 16px의 `font-size`가 있어야 합니다.
 
 ```js
-assert($('p').css('font-size') == '16px');
+const pElement =document.querySelector('p')
+const pStyle = window.getComputedStyle(pElement);
+assert.equal(pStyle?.fontSize, '16px');
 ```
 
 # --seed--

@@ -22,37 +22,49 @@ dashedName: set-the-font-weight-for-multiple-heading-elements
 당신의 코드는 `h1` 태그의 `font-weight` 속성을 800으로 설정해야 합니다.
 
 ```js
-assert($('h1').css('font-weight') == '800');
+const h1Element =document.querySelector('h1')
+const h1Style = window.getComputedStyle(h1Element);
+assert.equal(h1Style?.fontWeight, '800');
 ```
 
 당신의 코드는 `h2` 태그의 `font-weight` 속성을 600으로 설정해야 합니다.
 
 ```js
-assert($('h2').css('font-weight') == '600');
+const h2Element =document.querySelector('h2')
+const h2Style = window.getComputedStyle(h2Element);
+assert.equal(h2Style?.fontWeight, '600');
 ```
 
 당신의 코드는 `h3` 태그의 `font-weight` 속성을 500으로 설정해야 합니다.
 
 ```js
-assert($('h3').css('font-weight') == '500');
+const h3Element =document.querySelector('h3')
+const h3Style = window.getComputedStyle(h3Element);
+assert.equal(h3Style?.fontWeight, '500');
 ```
 
 당신의 코드는 `h4` 태그의 `font-weight` 속성을 400으로 설정해야 합니다.
 
 ```js
-assert($('h4').css('font-weight') == '400');
+const h4Element =document.querySelector('h4')
+const h4Style = window.getComputedStyle(h4Element);
+assert.equal(h4Style?.fontWeight, '400');
 ```
 
 당신의 코드는 `h5` 태그의 `font-weight` 속성을 300으로 설정해야 합니다.
 
 ```js
-assert($('h5').css('font-weight') == '300');
+const h5Element =document.querySelector('h5')
+const h5Style = window.getComputedStyle(h5Element);
+assert.equal(h5Style?.fontWeight, '300');
 ```
 
 당신의 코드는 `h6` 태그의 `font-weight` 속성을 200으로 설정해야 합니다.
 
 ```js
-assert($('h6').css('font-weight') == '200');
+const h6Element =document.querySelector('h6')
+const h6Style = window.getComputedStyle(h6Element);
+assert.equal(h6Style?.fontWeight, '200');
 ```
 
 # --seed--

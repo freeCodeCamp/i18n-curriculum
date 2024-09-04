@@ -22,19 +22,25 @@ Sperre das `#searchbar`-Element oben rechts in seinem Elternteil `section`, inde
 Das `#searchbar`-Element sollte eine `position`-Eigenschaft mit Wert `absolute` haben.
 
 ```js
-assert($('#searchbar').css('position') == 'absolute');
+const searchbarElement = document.querySelector('#searchbar');
+const searchbarStyle = window.getComputedStyle(searchbarElement);
+assert.equal(searchbarStyle?.position, 'absolute');
 ```
 
 Dein Code sollte einen `top`-Offset von 50 Pixel auf dem `#searchbar`-Element verwenden.
 
 ```js
-assert($('#searchbar').css('top') == '50px');
+const searchbarElement = document.querySelector('#searchbar');
+const searchbarStyle = window.getComputedStyle(searchbarElement);
+assert.equal(searchbarStyle?.top, '50px');
 ```
 
 Dein Code sollte einen `right`-Offset von 50 Pixel auf dem `#searchbar`-Element verwenden.
 
 ```js
-assert($('#searchbar').css('right') == '50px');
+const searchbarElement = document.querySelector('#searchbar');
+const searchbarStyle = window.getComputedStyle(searchbarElement);
+assert.equal(searchbarStyle?.right, '50px');
 ```
 
 # --seed--

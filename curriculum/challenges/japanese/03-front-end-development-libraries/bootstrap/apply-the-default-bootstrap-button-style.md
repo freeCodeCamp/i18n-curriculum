@@ -17,13 +17,13 @@ Bootstrap には `btn-default` という別のボタンクラスがあります�
 各 `button` 要素に `btn` クラスを適用します。
 
 ```js
-assert($('.btn').length > 5);
+assert.lengthOf(document.querySelectorAll('.btn'),6);
 ```
 
 各 `button` 要素に `btn-default` クラスを適用します。
 
 ```js
-assert($('.btn-default').length > 5);
+assert.lengthOf(document.querySelectorAll('.btn-default'), 6);
 ```
 
 # --seed--

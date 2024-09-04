@@ -29,23 +29,27 @@ Bootstrap 会根据屏幕大小来动态调整 HTML 元素的大小————�
 `div` 元素应该有 `container-fluid` class。
 
 ```js
-assert($('div').hasClass('container-fluid'));
+assert.isTrue(document.querySelector('div')?.classList?.contains('container-fluid'));
 ```
 
 `div` 元素应该有结束标签。
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/g);
+assert.match(code,/<div/g);
+assert.equal(code.match(/<\/div>/g).length ,code.match(/<div/g).length);
 ```
 
 `style` 结束标签后面的所有 HTML 元素都应该被嵌套在 `.container-fluid` 里面。
 
 ```js
-assert($('.container-fluid').children().length >= 8 && !$('.container-fluid').has("style").length && !$('.container-fluid').has("link").length);
+const fluidContainer = document.querySelector('.container-fluid');
+const possibleStyleElements = fluidContainer?.querySelectorAll(`:scope ${'style'}`);
+const possibleLinkElements = fluidContainer?.querySelectorAll(`:scope ${'link'}`);
+
+assert.lengthOf(fluidContainer?.children,8);
+assert.isEmpty(possibleStyleElements);
+assert.isEmpty(possibleLinkElements);
 ```
 
 # --seed--

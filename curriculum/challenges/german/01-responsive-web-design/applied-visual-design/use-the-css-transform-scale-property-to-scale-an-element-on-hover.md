@@ -30,7 +30,7 @@ Füge eine CSS-Regel für den `hover`-Status des `div` hinzu und verwende die Ei
 Die Größe des `div`-Elements sollte um das 1,1-fache skaliert werden, wenn ein Benutzer über das Element fährt.
 
 ```js
-assert(code.match(/div:hover\s*?{\s*?transform:\s*?scale\(1\.1\);/gi));
+assert.match(code, /div:hover\s*?{\s*?transform:\s*?scale\(1\.1\);/gi);
 ```
 
 # --seed--

@@ -20,7 +20,9 @@ CSS 裏面的 `font-size` 屬性不只限於標題，還可以應用於任何包
 `p` 標籤的 `font-size` 屬性值應爲 16px。
 
 ```js
-assert($('p').css('font-size') == '16px');
+const pElement =document.querySelector('p')
+const pStyle = window.getComputedStyle(pElement);
+assert.equal(pStyle?.fontSize, '16px');
 ```
 
 # --seed--

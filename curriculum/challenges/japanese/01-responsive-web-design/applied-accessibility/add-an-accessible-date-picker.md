@@ -31,25 +31,25 @@ Camper Cat は Mortal Kombatトーナメントを実施しており、競技参�
 日付選択フィールドとして `input` タグを追加します。
 
 ```js
-assert($('input').length == 2);
+assert.lengthOf(document.querySelectorAll('input'), 2);
 ```
 
 `input` タグは `date` 値が設定された `type` 属性を持つ必要があります。
 
 ```js
-assert($('input').attr('type') == 'date');
+assert.equal(document.querySelector('input')?.getAttribute('type'), 'date');
 ```
 
 `input` タグは `pickdate` 値が設定された `id` 属性を持つ必要があります。
 
 ```js
-assert($('input').attr('id') == 'pickdate');
+assert.equal(document.querySelector('input')?.getAttribute('id'),'pickdate');
 ```
 
 `input` タグは `date` 値が設定された `name` 属性を持つ必要があります。
 
 ```js
-assert($('input').attr('name') == 'date');
+assert.equal(document.querySelector('input')?.getAttribute('name'), 'date');
 ```
 
 # --seed--

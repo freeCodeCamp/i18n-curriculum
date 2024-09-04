@@ -24,23 +24,23 @@ Bootstrap 的 `col-xs-*` class 也可以用在 `form` 元素上！ 這樣就可�
 所有的單選按鈕應該放置於具有 `row` class 的 `div` 元素中。
 
 ```js
-assert($('div.row:has(input[type="radio"])').length > 0);
+const radioButtons = document.querySelectorAll(`div.row input[type=radio]`); 
+assert.lengthOf(radioButtons , 2);
 ```
 
 每一個單選按鈕應該嵌套於具有 class 屬性爲 `col-xs-6` 的 `div` 元素之中。
 
 ```js
-assert($('div.col-xs-6:has(input[type="radio"])').length > 1);
+const radioButtons = document.querySelectorAll(`div.col-xs-6 input[type=radio]`); 
+assert.lengthOf(radioButtons , 2);
 ```
 
 確保所有 `div` 元素都有閉合標籤。
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/);
+assert.match(code,/<div/g);
+assert.equal(code.match(/<\/div>/g).length,code.match(/<div/g).length);
 ```
 
 # --seed--

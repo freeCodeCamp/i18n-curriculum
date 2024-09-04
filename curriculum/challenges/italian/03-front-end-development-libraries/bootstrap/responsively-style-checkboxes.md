@@ -24,23 +24,23 @@ Annida tutte e tre le caselle di spunta in un elemento `<div class="row">`. Poi 
 Tutte le caselle di spunta dovrebbero essere annidate in un `div` di classe `row`.
 
 ```js
-assert($('div.row:has(input[type="checkbox"])').length > 0);
+const checkboxes = document.querySelectorAll(`div.row input[type="checkbox"]`); 
+assert.lengthOf(checkboxes,3);
 ```
 
 Ognuna delle tue caselle di spunta dovrebbe essere annidata all'interno del suo `div` di classe `col-xs-4`.
 
 ```js
-assert($('div.col-xs-4:has(input[type="checkbox"])').length > 2);
+const checkboxes = document.querySelectorAll(`div.col-xs-4 input[type="checkbox"]`); 
+assert.lengthOf(checkboxes,3);
 ```
 
 Tutti i tuoi elementi `div` dovrebbero avere dei tag di chiusura.
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/g);
+assert.match(code,/<div/g);
+assert.equal(code.match(/<\/div>/g).length ,code.match(/<div/g).length);
 ```
 
 # --seed--

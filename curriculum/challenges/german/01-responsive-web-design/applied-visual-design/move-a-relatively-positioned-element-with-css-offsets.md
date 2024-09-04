@@ -20,13 +20,17 @@ Verwende Offsets, um die `h2` um 15 Pixel nach rechts und 10 Pixel nach oben zu 
 Dein Code sollte Offsets verwenden, um die `h2` 10px relativ nach oben zu versetzen. Anders ausgedrückt, setze es 10px von `bottom` ab, wo es sich normalerweise befindet.
 
 ```js
-assert($('h2').css('bottom') == '10px');
+const h2Element =document.querySelector('h2')
+const h2Style = window.getComputedStyle(h2Element);
+assert.equal(h2Style?.bottom, '10px');
 ```
 
 Dein Code sollte Offsets verwenden, um die `h2` 15px relativ nach rechts zu versetzen. Anders ausgedrückt, setze es 15px von `left` ab, wo es sich normalerweise befindet.
 
 ```js
-assert($('h2').css('left') == '15px');
+const h2Element =document.querySelector('h2')
+const h2Style = window.getComputedStyle(h2Element);
+assert.equal(h2Style?.left , '15px');
 ```
 
 # --seed--

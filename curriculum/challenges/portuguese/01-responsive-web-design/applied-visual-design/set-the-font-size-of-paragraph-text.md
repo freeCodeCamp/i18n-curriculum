@@ -20,7 +20,9 @@ Altere o valor da propriedade `font-size` do parágrafo para 16px para torná-lo
 A tag `p` deve ter a propriedade `font-size` com o valor de 16 pixels.
 
 ```js
-assert($('p').css('font-size') == '16px');
+const pElement =document.querySelector('p')
+const pStyle = window.getComputedStyle(pElement);
+assert.equal(pStyle?.fontSize, '16px');
 ```
 
 # --seed--

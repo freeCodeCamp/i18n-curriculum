@@ -20,7 +20,9 @@ CSS 提供 `line-height` 屬性來設置行間的距離。 行高，顧名思義
 `p` 標籤的 `line-height` 屬性值應爲 25px。
 
 ```js
-assert($('p').css('line-height') == '25px');
+const pElement =document.querySelector('p')
+const pStyle = window.getComputedStyle(pElement);
+assert.equal(pStyle?.lineHeight, '25px');
 ```
 
 # --seed--

@@ -40,34 +40,31 @@ Camper Cat quiere información sobre el nivel ninja de sus usuarios cuando se re
 Tu código debe tener una etiqueta `fieldset` alrededor del conjunto de botones de radio.
 
 ```js
-assert($('fieldset').length == 1);
+assert.lengthOf(document.querySelectorAll('fieldset'),1);
 ```
 
 El elemento `fieldset` debe tener una etiqueta de cierre.
 
 ```js
-assert(
-  code.match(/<\/fieldset>/g) &&
-    code.match(/<\/fieldset>/g).length === code.match(/<fieldset>/g).length
-);
+assert.isTrue(code.match(/<\/fieldset>/g)?.length === code.match(/<fieldset>/g)?.length);
 ```
 
 Tu código debe tener una etiqueta `legend` alrededor del texto preguntando que nivel ninja es un usuario.
 
 ```js
-assert($('legend').length == 1);
+assert.lengthOf(document.querySelectorAll('legend') ,1);
 ```
 
 Tu código no debe tener ninguna etiqueta `div`.
 
 ```js
-assert($('div').length == 0);
+assert.lengthOf(document.querySelectorAll('div') ,0);
 ```
 
 Tu código ya no debería tener una etiqueta `p` alrededor del texto preguntando que nivel ninja es un usuario.
 
 ```js
-assert($('p').length == 4);
+assert.lengthOf(document.querySelectorAll('p') ,4);
 ```
 
 # --seed--

@@ -42,25 +42,29 @@ Camper Cat створив просто чудову гістограму для 
 Ваш код має встановити властивість `position` класу `sr-only` на значення `absolute`.
 
 ```js
-assert($('.sr-only').css('position') == 'absolute');
+const srOnly = document.querySelector('.sr-only');
+const position = window.getComputedStyle(srOnly).position; 
+assert.equal(position, 'absolute');
 ```
 
 Ваш код має встановити властивість `left` класу `sr-only` на значення `-10000px`.
 
 ```js
-assert($('.sr-only').css('left') == '-10000px');
+const srOnly = document.querySelector('.sr-only');
+const left = window.getComputedStyle(srOnly).left;
+assert.equal(left, '-10000px');
 ```
 
 Ваш код має встановити властивість `width` класу `sr-only` на значення `1` піксель.
 
 ```js
-assert(code.match(/width:\s*?1px/gi));
+assert.match(code , /width:\s*?1px/gi);
 ```
 
 Ваш код має встановити властивість `height` класу `sr-only` на значення `1` піксель.
 
 ```js
-assert(code.match(/height:\s*?1px/gi));
+assert.match(code , /height:\s*?1px/gi);
 ```
 
 # --seed--

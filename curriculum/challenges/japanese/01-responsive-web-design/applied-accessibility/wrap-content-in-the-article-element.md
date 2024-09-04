@@ -28,13 +28,13 @@ Camper Cat は `article` タグを使ってブログページの投稿を囲い�
 コードには `article` タグが3つ必要です。
 
 ```js
-assert($('article').length == 3);
+assert.lengthOf(document.querySelectorAll('article') ,3);
 ```
 
 コードに `div` タグを含めないでください。
 
 ```js
-assert($('div').length == 0);
+assert.lengthOf(document.querySelectorAll('div'), 0);
 ```
 
 # --seed--

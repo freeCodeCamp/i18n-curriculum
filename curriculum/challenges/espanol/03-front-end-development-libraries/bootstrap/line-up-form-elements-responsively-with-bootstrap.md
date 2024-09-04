@@ -24,32 +24,33 @@ Este es el ultima desafio que vamos a hacer para nuestro 'Cat Photo App' por aho
 Tu botón de envío del formulario y el campo de texto deben anidarse en un div con la clase `row`.
 
 ```js
-assert(
-  $('div.row:has(input[type="text"])').length > 0 &&
-    $('div.row:has(button[type="submit"])').length > 0
-);
+const textInput = document.querySelectorAll('div.row input[type="text"]'); 
+const submitInput = document.querySelectorAll('div.row button[type="submit"]');
+assert.lengthOf(textInput,1);
+assert.lengthOf(submitInput, 1);
 ```
 
 Tu campo de texto debe estar anidado en un div con la clase `col-xs-7`.
 
 ```js
-assert($('div.col-xs-7:has(input[type="text"])').length > 0);
+const textInput = document.querySelectorAll('div.col-xs-7 input[type="text"]'); 
+assert.lengthOf(textInput ,1);
 ```
 
 Tu botón de envío del formulario debe estar anidado en un div con la clase `col-xs-5`.
 
 ```js
-assert($('div.col-xs-5:has(button[type="submit"])').length > 0);
+const submitInput  = document.querySelectorAll('div.col-xs-5 button[type="submit"]'); 
+assert.lengthOf(submitInput ,1);
 ```
 
 Todos tus elementos `div` deben tener etiquetas de cierre.
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/g);
+assert.match(code,/<div/g);
+
+assert.equal(code.match(/<\/div>/g).length,code.match(/<div/g).length);
 ```
 
 # --seed--

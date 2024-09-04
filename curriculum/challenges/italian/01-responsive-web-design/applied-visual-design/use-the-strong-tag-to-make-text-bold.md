@@ -20,23 +20,21 @@ Avvolgi le `strong` tag attorno al testo `Stanford University` dentro al tag `p`
 Il tuo codice dovrebbe aggiungere un tag `strong` al markup.
 
 ```js
-assert($('strong').length == 1);
+assert.lengthOf(document.querySelectorAll('strong'),1);
 ```
 
 Il tag `strong` dovrebbe essere all'interno del tag `p`.
 
 ```js
-assert($('p').children('strong').length == 1);
+const pargraphElement = document.querySelector('p');
+const pargraphChildren = pargraphElement?.querySelectorAll(`:scope ${'strong'}`);
+assert.lengthOf(pargraphChildren, 1);
 ```
 
 Il tag `strong` dovrebbe avvolgere le parole `Stanford University`.
 
 ```js
-assert(
-  $('strong')
-    .text()
-    .match(/^Stanford University\.?$/gi)
-);
+assert.match(document.querySelector('strong')?.textContent, /^Stanford University\.?$/gi);
 ```
 
 # --seed--

@@ -20,7 +20,10 @@ Um die Überschrift deutlich größer als den Absatz zu machen, ändere die `fon
 Dein Code sollte dem `h4` Element, das auf 27 Pixel gesetzt ist, die Eigenschaft `font-size` geben.
 
 ```js
-assert($('h4').css('font-size') == '27px');
+
+const h4Element =document.querySelector('h4')
+const h4Style = window.getComputedStyle(h4Element);
+assert.equal(h4Style?.fontSize,'27px');
 ```
 
 # --seed--

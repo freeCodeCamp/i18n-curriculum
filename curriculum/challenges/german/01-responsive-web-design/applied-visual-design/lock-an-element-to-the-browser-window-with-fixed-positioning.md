@@ -22,19 +22,25 @@ Die Navigationsleiste im Code ist mit einer Id von `navbar` markiert. Ändere se
 Das `#navbar`-Element sollte eine `position`-Eigenschaft mit Wert `fixed` haben.
 
 ```js
-assert($('#navbar').css('position') == 'fixed');
+const navbarElement = document.querySelector('#navbar');
+const navbarStyle = window.getComputedStyle(navbarElement);
+ assert.equal(navbarStyle?.position, 'fixed');
 ```
 
 Dein Code sollte einen `top`-Offset von 0 Pixel auf dem `#navbar`-Element verwenden.
 
 ```js
-assert($('#navbar').css('top') == '0px');
+const navbarElement = document.querySelector('#navbar');
+ const navbarStyle = window.getComputedStyle(navbarElement);
+assert.equal(navbarStyle?.top, '0px');
 ```
 
 Dein Code sollte einen `left`-Offset von 0 Pixel auf dem `#navbar`-Element verwenden.
 
 ```js
-assert($('#navbar').css('left') == '0px');
+const navbarElement = document.querySelector('#navbar');
+ const navbarStyle = window.getComputedStyle(navbarElement);
+ assert.equal(navbarStyle?.left, '0px');
 ```
 
 # --seed--

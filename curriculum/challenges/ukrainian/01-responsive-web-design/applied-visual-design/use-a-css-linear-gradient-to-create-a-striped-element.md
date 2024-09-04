@@ -32,37 +32,37 @@ dashedName: use-a-css-linear-gradient-to-create-a-striped-element
 Кут `repeating-linear-gradient()` повинен складати 45 градусів.
 
 ```js
-assert(code.match(/background:\s*?repeating-linear-gradient\(\s*?45deg/gi));
+assert.match(code,/background:\s*?repeating-linear-gradient\(\s*?45deg/gi);
 ```
 
 Кут `repeating-linear-gradient()` повинен складати не більше 90 градусів
 
 ```js
-assert(!code.match(/90deg/gi));
+assert.notMatch(code, /90deg/gi);
 ```
 
 Стоп-колір на рівні 0 пікселів повинен бути `yellow` (жовтий).
 
 ```js
-assert(code.match(/yellow\s+?0(px)?/gi));
+assert.match(code, /yellow\s+?0(px)?/gi);
 ```
 
 Перший стоп-колір на 40 пікселях повинен бути `yellow`.
 
 ```js
-assert(code.match(/yellow\s+?40px/gi));
+assert.match(code, /yellow\s+?40px/gi);
 ```
 
 Другий стоп-колір на рівні 40 пікселів повинен бути `black` (чорний).
 
 ```js
-assert(code.match(/yellow\s+?40px,\s*?black\s+?40px/gi));
+assert.match(code, /yellow\s+?40px,\s*?black\s+?40px/gi);
 ```
 
 Останній стоп-колір на рівні 80 пікселів повинен бути `black` (чорний).
 
 ```js
-assert(code.match(/black\s+?80px/gi));
+assert.match(code, /black\s+?80px/gi);
 ```
 
 # --seed--

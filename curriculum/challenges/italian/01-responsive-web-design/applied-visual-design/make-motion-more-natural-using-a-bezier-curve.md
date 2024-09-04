@@ -30,10 +30,9 @@ Cambia il valore della funzione `animation-timing-function` dell'elemento con l'
 Il valore della proprietà `animation-timing-function` per l'elemento con id `green` dovrebbe essere una funzione `cubic-bezier` con valori x1, y1, x2, y2 impostati come specificato.
 
 ```js
-assert(
-  $('#green').css('animation-timing-function') ==
-    'cubic-bezier(0.311, 0.441, 0.444, 1.649)'
-);
+const greenElement = document.querySelector('#green');
+ const greenStyle = window.getComputedStyle(greenElement);
+assert.equal(greenStyle?.animationTimingFunction, 'cubic-bezier(0.311, 0.441, 0.444, 1.649)');
 ```
 
 # --seed--

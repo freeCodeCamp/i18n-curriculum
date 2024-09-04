@@ -33,13 +33,13 @@ Camper Cat 覺得他的博客文章會有很多人訂閱，因此他想添加一
 `label`標籤應該有一個非空的 `for` 屬性。
 
 ```js
-assert($('label').attr('for'));
+assert.isNotEmpty(document.querySelector('label')?.getAttribute('for'));
 ```
 
 `for` 的屬性值應與用於輸入郵箱的 `input` 標籤 `id` 屬性值相同。
 
 ```js
-assert($('label').attr('for') == 'email');
+assert.equal(document.querySelector('label')?.getAttribute('for'), 'email');
 ```
 
 # --seed--

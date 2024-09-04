@@ -33,13 +33,13 @@ Camper Cat очікує великого інтересу до своїх про
 Ваш код має містити атрибут `for` у не пустому тезі `label`.
 
 ```js
-assert($('label').attr('for'));
+assert.isNotEmpty(document.querySelector('label')?.getAttribute('for'));
 ```
 
 Ваше значення атрибута `for` має співпадати зі значенням `id` у полі `input` електронної адреси.
 
 ```js
-assert($('label').attr('for') == 'email');
+assert.equal(document.querySelector('label')?.getAttribute('for'), 'email');
 ```
 
 # --seed--

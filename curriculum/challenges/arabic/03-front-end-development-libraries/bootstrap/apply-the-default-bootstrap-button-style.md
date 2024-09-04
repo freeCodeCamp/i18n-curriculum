@@ -17,13 +17,13 @@ Bootstrap لديه فئة أخرى للزر تسمى `btn-default`.
 يجب عليك إضافة فئة `btn` إلى عنصر `button` الخاص بك.
 
 ```js
-assert($('.btn').length > 5);
+assert.lengthOf(document.querySelectorAll('.btn'),6);
 ```
 
 يجب عليك إضافة فئة `btn-default` إلى عنصر `button` الخاص بك.
 
 ```js
-assert($('.btn-default').length > 5);
+assert.lengthOf(document.querySelectorAll('.btn-default'), 6);
 ```
 
 # --seed--

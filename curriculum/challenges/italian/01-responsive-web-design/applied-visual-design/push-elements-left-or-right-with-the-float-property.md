@@ -20,13 +20,17 @@ Il "markup" dato funzionerebbe bene con un layout a due colonne, con gli element
 L'elemento con id `left` dovrebbe avere un `float` di `left`.
 
 ```js
-assert($('#left').css('float') == 'left');
+const leftElement = document.querySelector('#left');
+const leftStyle = window.getComputedStyle(leftElement);
+assert.equal(leftStyle?.float, 'left');
 ```
 
 L'elemento con id `right` dovrebbe avere un `float` di `right`.
 
 ```js
-assert($('#right').css('float') == 'right');
+const rightElement = document.querySelector('#right');
+const rightStyle = window.getComputedStyle(rightElement);
+assert.equal(rightStyle?.float, 'right');
 ```
 
 # --seed--

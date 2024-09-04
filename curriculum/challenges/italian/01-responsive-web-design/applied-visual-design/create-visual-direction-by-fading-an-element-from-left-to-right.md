@@ -22,10 +22,7 @@ Prendi l'elemento con l'id `ball` e aggiungi la proprietà `opacity` impostata a
 La regola `keyframes` per la dissolvenza deve impostare la proprietà `opacity` a 0.1 al 50%.
 
 ```js
-assert(
-  code.match(
-    /@keyframes fade\s*?{\s*?50%\s*?{\s*?(?:left:\s*?60%;\s*?opacity:\s*?0?\.1;|opacity:\s*?0?\.1;\s*?left:\s*?60%;)/gi
-  )
+assert.match(code,/@keyframes fade\s*?{\s*?50%\s*?{\s*?(?:left:\s*?60%;\s*?opacity:\s*?0?\.1;|opacity:\s*?0?\.1;\s*?left:\s*?60%;)/gi
 );
 ```
 

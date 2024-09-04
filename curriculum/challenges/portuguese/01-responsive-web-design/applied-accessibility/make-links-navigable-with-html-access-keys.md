@@ -28,25 +28,25 @@ O Camper Cat quer que os links em torno dos títulos dos dois artigos do blog te
 O código deve adicionar um atributo `accesskey` à tag `a` com o `id` de `first`.
 
 ```js
-assert($('#first').attr('accesskey'));
+assert.isTrue(document.querySelector('#first')?.hasAttribute('accesskey'));
 ```
 
 O código deve adicionar um atributo `accesskey` à tag `a` com o `id` de `second`.
 
 ```js
-assert($('#second').attr('accesskey'));
+assert.isTrue(document.querySelector('#second')?.hasAttribute('accesskey'));
 ```
 
 O código deve definir o atributo `accesskey` na tag `a` com o `id` de `first` para `g`. Observe que maiúsculas e minúsculas diferem.
 
 ```js
-assert($('#first').attr('accesskey') == 'g');
+assert.equal(document.querySelector('#first')?.getAttribute('accesskey'), 'g');
 ```
 
 O código deve definir o atributo `accesskey` na tag `a` com o `id` de `second` para `c`. Observe que maiúsculas e minúsculas diferem.
 
 ```js
-assert($('#second').attr('accesskey') == 'c');
+assert.equal(document.querySelector('#second')?.getAttribute('accesskey'), 'c');
 ```
 
 # --seed--

@@ -30,13 +30,17 @@ web 内容大部分都是文本。 CSS 里面的 `text-align` 属性可以控制
 `h4` 标签应有值为 `center` 的 text-align 属性。
 
 ```js
-assert($('h4').css('text-align') == 'center');
+const h4Element =document.querySelector('h4')
+const h4Style = window.getComputedStyle(h4Element);
+assert.equal(h4Style?.textAlign, 'center');
 ```
 
 `p` 标签应有值为 `justify` 的 text-align 属性。
 
 ```js
-assert($('p').css('text-align') == 'justify');
+const pElement =document.querySelector('p')
+const pStyle = window.getComputedStyle(pElement);
+assert.equal(pStyle?.textAlign, 'justify');
 ```
 
 # --seed--

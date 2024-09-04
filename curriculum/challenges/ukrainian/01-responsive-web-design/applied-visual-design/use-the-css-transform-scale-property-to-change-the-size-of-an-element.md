@@ -26,10 +26,8 @@ p {
 Властивість `transform` для `#ball2` має бути збільшено в 1.5 рази від початкового розміру.
 
 ```js
-assert(
-  code.match(
+assert.match(code,
     /#ball2\s*?{\s*?left:\s*?65%;\s*?transform:\s*?scale\(1\.5\);\s*?}|#ball2\s*?{\s*?transform:\s*?scale\(1\.5\);\s*?left:\s*?65%;\s*?}/gi
-  )
 );
 ```
 

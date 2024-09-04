@@ -42,25 +42,29 @@ Camper Cat 为他的训练页面创建了一个十分酷炫的条形图。 考�
 设置 `sr-only` class 的 `position` 属性值为 `absolute`。
 
 ```js
-assert($('.sr-only').css('position') == 'absolute');
+const srOnly = document.querySelector('.sr-only');
+const position = window.getComputedStyle(srOnly).position; 
+assert.equal(position, 'absolute');
 ```
 
 设置 `sr-only` class 的 `left` 属性值为`-10000px`。
 
 ```js
-assert($('.sr-only').css('left') == '-10000px');
+const srOnly = document.querySelector('.sr-only');
+const left = window.getComputedStyle(srOnly).left;
+assert.equal(left, '-10000px');
 ```
 
 设置 `sr-only` class 的 `width` 属性值为 `1` 像素。
 
 ```js
-assert(code.match(/width:\s*?1px/gi));
+assert.match(code , /width:\s*?1px/gi);
 ```
 
 设置 `sr-only` class 的 `height` 属性值为 `1` 像素。
 
 ```js
-assert(code.match(/height:\s*?1px/gi));
+assert.match(code , /height:\s*?1px/gi);
 ```
 
 # --seed--

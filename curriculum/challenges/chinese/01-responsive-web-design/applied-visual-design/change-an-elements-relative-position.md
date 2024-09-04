@@ -33,13 +33,17 @@ p {
 `h2` 元素应有一个值为 `relative` 的 `position` 属性。
 
 ```js
-assert($('h2').css('position') == 'relative');
+const h2Element =document.querySelector('h2')
+const h2Style = window.getComputedStyle(h2Element);
+assert.equal(h2Style?.position, 'relative');
 ```
 
 你应该使用 CSS 属性调整 `h2` 的位置，使其从原来的位置相对 `top` 偏移 15px。
 
 ```js
-assert($('h2').css('top') == '15px');
+const h2Element =document.querySelector('h2')
+const h2Style = window.getComputedStyle(h2Element);
+assert.equal(h2Style?.top, '15px');
 ```
 
 # --seed--

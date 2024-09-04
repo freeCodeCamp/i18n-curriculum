@@ -28,7 +28,7 @@ Camper Cat ist zufällig sowohl ein Coding Ninja als auch ein tatsächlicher Nin
 Dein `img`-Tag sollte ein `alt`-Attribut besitzen und dieses sollte nicht leer sein.
 
 ```js
-assert($('img').attr('alt'));
+assert.isNotEmpty(document.querySelector('img')?.getAttribute('alt'));
 ```
 
 # --seed--

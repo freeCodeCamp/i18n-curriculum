@@ -42,25 +42,29 @@ O Camper Cat criou um gráfico de barras empilhadas muito legal para a página d
 O código deve definir a propriedade `position` da classe `sr-only` com um valor de `absolute`.
 
 ```js
-assert($('.sr-only').css('position') == 'absolute');
+const srOnly = document.querySelector('.sr-only');
+const position = window.getComputedStyle(srOnly).position; 
+assert.equal(position, 'absolute');
 ```
 
 O código deve definir a propriedade `left` da classe `sr-only` com um valor de `-10000px`.
 
 ```js
-assert($('.sr-only').css('left') == '-10000px');
+const srOnly = document.querySelector('.sr-only');
+const left = window.getComputedStyle(srOnly).left;
+assert.equal(left, '-10000px');
 ```
 
 O código deve definir a propriedade `width` da classe `sr-only` com um valor de `1` pixel.
 
 ```js
-assert(code.match(/width:\s*?1px/gi));
+assert.match(code , /width:\s*?1px/gi);
 ```
 
 O código deve definir a propriedade `height` da classe `sr-only` com um valor de `1` pixel.
 
 ```js
-assert(code.match(/height:\s*?1px/gi));
+assert.match(code , /height:\s*?1px/gi);
 ```
 
 # --seed--

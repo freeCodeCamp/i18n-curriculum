@@ -22,37 +22,49 @@ La propiedad `font-weight` establece que tan gruesos o delgados son los caracter
 Tu código debe establecer la propiedad `font-weight` para la etiqueta `h1` en 800.
 
 ```js
-assert($('h1').css('font-weight') == '800');
+const h1Element =document.querySelector('h1')
+const h1Style = window.getComputedStyle(h1Element);
+assert.equal(h1Style?.fontWeight, '800');
 ```
 
 Tu código debe establecer la propiedad `font-weight` para la etiqueta `h2` en 600.
 
 ```js
-assert($('h2').css('font-weight') == '600');
+const h2Element =document.querySelector('h2')
+const h2Style = window.getComputedStyle(h2Element);
+assert.equal(h2Style?.fontWeight, '600');
 ```
 
 Tu código debe establecer la propiedad `font-weight` para la etiqueta `h3` en 500.
 
 ```js
-assert($('h3').css('font-weight') == '500');
+const h3Element =document.querySelector('h3')
+const h3Style = window.getComputedStyle(h3Element);
+assert.equal(h3Style?.fontWeight, '500');
 ```
 
 Tu código debe establecer la propiedad `font-weight` para la etiqueta `h4` en 400.
 
 ```js
-assert($('h4').css('font-weight') == '400');
+const h4Element =document.querySelector('h4')
+const h4Style = window.getComputedStyle(h4Element);
+assert.equal(h4Style?.fontWeight, '400');
 ```
 
 Tu código debe establecer la propiedad `font-weight` para la etiqueta `h5` en 300.
 
 ```js
-assert($('h5').css('font-weight') == '300');
+const h5Element =document.querySelector('h5')
+const h5Style = window.getComputedStyle(h5Element);
+assert.equal(h5Style?.fontWeight, '300');
 ```
 
 Tu código debe establecer la propiedad `font-weight` para la etiqueta `h6` en 200.
 
 ```js
-assert($('h6').css('font-weight') == '200');
+const h6Element =document.querySelector('h6')
+const h6Style = window.getComputedStyle(h6Element);
+assert.equal(h6Style?.fontWeight, '200');
 ```
 
 # --seed--

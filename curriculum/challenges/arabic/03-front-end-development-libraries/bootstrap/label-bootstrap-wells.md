@@ -19,31 +19,34 @@ dashedName: label-bootstrap-wells
 يجب عليك إضافة عنصر `h4` لكل عنصر من عناصرك `<div class="col-xs-6">`.
 
 ```js
-assert(
-  $('.col-xs-6').children('h4') && $('.col-xs-6').children('h4').length > 1
-);
+const columnSixes = document.querySelectorAll('.col-xs-6');
+const columnSixOneChildren = columnSixes?.[0]?.querySelectorAll(`:scope ${'h4'}`);
+assert.lengthOf(columnSixOneChildren,1); 
+
+const columnSixTwoChildren = columnSixes?.[1]?.querySelectorAll(`:scope ${'h4'}`);
+assert.lengthOf(columnSixTwoChildren,1); 
 ```
 
 عنصر `h4` يجب أن يحتوي على النص `#left-well`.
 
 ```js
-assert(new RegExp('#left-well', 'gi').test($('h4').text()));
+const firstH4 = document.querySelectorAll('h4')?.[0]; 
+assert.match(firstH4?.textContent,/#left-well/gi); 
 ```
 
 عنصر `h4` يجب أن يحتوي على النص `#right-well`.
 
 ```js
-assert(new RegExp('#right-well', 'gi').test($('h4').text()));
+const secondH4 = document.querySelectorAll('h4')?.[1]; 
+assert.match(secondH4?.textContent,/#right-well/gi); 
 ```
 
 لا بد أن يوجد وسم إغلاق لكل عناصر `h4`.
 
 ```js
-assert(
-  code.match(/<\/h4>/g) &&
-    code.match(/<h4/g) &&
-    code.match(/<\/h4>/g).length === code.match(/<h4/g).length
-);
+assert.match(code,/<\/h4>/g);
+assert.match(code,/<h4/g);
+assert.equal(code.match(/<\/h4>/g).length , code.match(/<h4/g).length);
 ```
 
 # --seed--

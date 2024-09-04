@@ -21,25 +21,25 @@ dashedName: use-comments-to-clarify-code
 يجب عليك بَدْء تعليق مع `<!--` في الجزء العلوي من HTML.
 
 ```js
-assert(code.match(/^\s*<!--/));
+assert.match(code,(/^\s*<!--/));
 ```
 
 يجب أن يحتوي تعليقك على نص `Code below this line should not be changed`.
 
 ```js
-assert(code.match(/<!--(?!(>|->|.*-->.*this line))\s*.*this line.*\s*-->/gi));
+assert.match(code,(/<!--(?!(>|->|.*-->.*this line))\s*.*this line.*\s*-->/gi));
 ```
 
 يجب عليك إغلاق تعليقك مع `-->`.
 
 ```js
-assert(code.match(/-->.*\n+.+/g));
+assert.match(code,(/-->.*\n+.+/g));
 ```
 
 يجب أن يكون لديك نفس العدد من علامات فتح التعليقات وعلامات غلقهم.
 
 ```js
-assert(code.match(/<!--/g).length === code.match(/-->/g).length);
+assert.equal(code.match(/<!--/g).length,code.match(/-->/g).length);
 ```
 
 # --seed--

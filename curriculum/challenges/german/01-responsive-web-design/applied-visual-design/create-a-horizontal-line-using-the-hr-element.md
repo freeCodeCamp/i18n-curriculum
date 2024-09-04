@@ -22,13 +22,13 @@ Füge ein `hr`-Tag unterhalb des `h4` ein, welches den Kartentitel enthält.
 Dein Code sollte ein `hr`-Tag in das Markup einfügen.
 
 ```js
-assert($('hr').length == 1);
+assert.lengthOf(document.querySelectorAll('hr'),1);
 ```
 
 Der `hr`-Tag sollte zwischen dem Titel und dem Absatz stehen.
 
 ```js
-assert(code.match(/<\/h4>\s*?<hr(>|\s*?\/>)\s*?<p>/gi));
+assert.match(code,/<\/h4>\s*?<hr(>|\s*?\/>)\s*?<p>/gi);
 ```
 
 # --seed--

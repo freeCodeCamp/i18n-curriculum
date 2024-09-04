@@ -33,13 +33,13 @@ Camper Cat은 그의 생각 깊은 블로그 글들로부터 많은 수익을 �
 코드에는 `label` 태그에 비어 있지 않은 `for` 속성이 있어야 합니다.
 
 ```js
-assert($('label').attr('for'));
+assert.isNotEmpty(document.querySelector('label')?.getAttribute('for'));
 ```
 
 `for` 속성 값은 이메일 `input`에 있는 `id` 값과 일치해야 합니다.
 
 ```js
-assert($('label').attr('for') == 'email');
+assert.equal(document.querySelector('label')?.getAttribute('for'), 'email');
 ```
 
 # --seed--

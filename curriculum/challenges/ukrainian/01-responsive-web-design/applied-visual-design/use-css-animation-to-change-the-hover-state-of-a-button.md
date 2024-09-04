@@ -44,13 +44,13 @@ dashedName: use-css-animation-to-change-the-hover-state-of-a-button
 Правило @keyframes повинне використовувати колір фону `animation-name`.
 
 ```js
-assert(code.match(/@keyframes\s+?background-color\s*?{/g));
+assert.match(code, /@keyframes\s+?background-color\s*?{/g);
 ```
 
 Повинна бути лише одна умова під `@keyframes`, яка змінює `background-color` до `#4791d0` на 100%.
 
 ```js
-assert(code.match(/100%\s*?{\s*?background-color:\s*?#4791d0;\s*?}/gi));
+assert.match(code, /100%\s*?{\s*?background-color:\s*?#4791d0;\s*?}/gi);
 ```
 
 # --seed--

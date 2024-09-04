@@ -17,37 +17,37 @@ Gib jedem deiner `button`-Elemente den Text, der seinem Id-Selektor entspricht.
 Dein `button`-Element mit der Id `target1` sollte den Text `#target1` beinhalten.
 
 ```js
-assert(new RegExp('#target1', 'gi').test($('#target1').text()));
+assert.match(document.querySelector('#target1')?.textContent,/#target1/gi)
 ```
 
 Dein `button`-Element mit der Id `target2` sollte den Text `#target2` beinhalten.
 
 ```js
-assert(new RegExp('#target2', 'gi').test($('#target2').text()));
+assert.match(document.querySelector('#target2')?.textContent,/#target2/gi)
 ```
 
 Dein `button`-Element mit der Id `target3` sollte den Text `#target3` beinhalten.
 
 ```js
-assert(new RegExp('#target3', 'gi').test($('#target3').text()));
+assert.match(document.querySelector('#target3')?.textContent,/#target3/gi)
 ```
 
 Dein `button`-Element mit der Id `target4` sollte den Text `#target4` beinhalten.
 
 ```js
-assert(new RegExp('#target4', 'gi').test($('#target4').text()));
+assert.match(document.querySelector('#target4')?.textContent,/#target4/gi)
 ```
 
 Dein `button`-Element mit der Id `target5` sollte den Text `#target5` beinhalten.
 
 ```js
-assert(new RegExp('#target5', 'gi').test($('#target5').text()));
+assert.match(document.querySelector('#target5')?.textContent,/#target5/gi)
 ```
 
 Dein `button`-Element mit der Id `target6` sollte den Text `#target6` beinhalten.
 
 ```js
-assert(new RegExp('#target6', 'gi').test($('#target6').text()));
+assert.match(document.querySelector('#target6')?.textContent,/#target6/gi)
 ```
 
 # --seed--

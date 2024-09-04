@@ -28,13 +28,13 @@ O Camper Cat usou a tag `article` para envolver as postagens do blog, mas se esq
 O código deve ter três tags `article`.
 
 ```js
-assert($('article').length == 3);
+assert.lengthOf(document.querySelectorAll('article') ,3);
 ```
 
 O código não deve ter nenhuma tag `div`.
 
 ```js
-assert($('div').length == 0);
+assert.lengthOf(document.querySelectorAll('div'), 0);
 ```
 
 # --seed--

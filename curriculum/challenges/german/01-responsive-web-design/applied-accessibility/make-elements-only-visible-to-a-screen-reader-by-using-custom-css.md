@@ -42,25 +42,29 @@ Camper Cat hat für seine Trainingsseite ein wirklich cooles gestapeltes Balkend
 Dein Code sollte die Eigenschaft `position` der `sr-only` Klasse auf einen Wert von `absolute` setzen.
 
 ```js
-assert($('.sr-only').css('position') == 'absolute');
+const srOnly = document.querySelector('.sr-only');
+const position = window.getComputedStyle(srOnly).position; 
+assert.equal(position, 'absolute');
 ```
 
 Dein Code sollte die Eigenschaft `left` der `sr-only` Klasse auf einen Wert von `-10000px` setzen.
 
 ```js
-assert($('.sr-only').css('left') == '-10000px');
+const srOnly = document.querySelector('.sr-only');
+const left = window.getComputedStyle(srOnly).left;
+assert.equal(left, '-10000px');
 ```
 
 Dein Code sollte die Eigenschaft `width` der `sr-only` Klasse auf einen Wert von `1` Pixel setzen.
 
 ```js
-assert(code.match(/width:\s*?1px/gi));
+assert.match(code , /width:\s*?1px/gi);
 ```
 
 Dein Code sollte die Eigenschaft `height` der `sr-only` Klasse auf einen Wert von `1` Pixel setzen.
 
 ```js
-assert(code.match(/height:\s*?1px/gi));
+assert.match(code , /height:\s*?1px/gi);
 ```
 
 # --seed--

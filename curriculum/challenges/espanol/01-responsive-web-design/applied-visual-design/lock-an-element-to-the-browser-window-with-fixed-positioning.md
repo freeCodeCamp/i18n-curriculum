@@ -22,19 +22,25 @@ La barra de navegación en el código está etiquetada con un id de `navbar`. Ca
 El elemento `#navbar` debe tener una `position` establecida en `fixed`.
 
 ```js
-assert($('#navbar').css('position') == 'fixed');
+const navbarElement = document.querySelector('#navbar');
+const navbarStyle = window.getComputedStyle(navbarElement);
+ assert.equal(navbarStyle?.position, 'fixed');
 ```
 
 Tu código debe usar el desplazamiento CSS `top` de 0 pixeles en el elemento `#navbar`.
 
 ```js
-assert($('#navbar').css('top') == '0px');
+const navbarElement = document.querySelector('#navbar');
+ const navbarStyle = window.getComputedStyle(navbarElement);
+assert.equal(navbarStyle?.top, '0px');
 ```
 
 Tu código debe usar el desplazamiento CSS `left` de 0 pixeles en el elemento `#navbar`.
 
 ```js
-assert($('#navbar').css('left') == '0px');
+const navbarElement = document.querySelector('#navbar');
+ const navbarStyle = window.getComputedStyle(navbarElement);
+ assert.equal(navbarStyle?.left, '0px');
 ```
 
 # --seed--

@@ -33,13 +33,13 @@ The value of the `for` attribute must be the same as the value of the `id` attri
 Your code should have a `for` attribute on the `label` tag that is not empty.
 
 ```js
-assert($('label').attr('for'));
+assert.isNotEmpty(document.querySelector('label')?.getAttribute('for'));
 ```
 
 Your `for` attribute value should match the `id` value on the email `input`.
 
 ```js
-assert($('label').attr('for') == 'email');
+assert.equal(document.querySelector('label')?.getAttribute('for'), 'email');
 ```
 
 # --seed--

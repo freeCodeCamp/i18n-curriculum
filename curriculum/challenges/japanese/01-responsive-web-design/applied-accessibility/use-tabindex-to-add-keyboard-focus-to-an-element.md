@@ -28,13 +28,13 @@ Camper Cat は、ユーザーに関する情報を収集するための新しい
 コードではフォームの説明文を保持する `p` タグに `tabindex` 属性を追加してください。
 
 ```js
-assert($('p').attr('tabindex'));
+assert.isNotNull(document.querySelector('p')?.getAttribute('tabindex'));
 ```
 
 コードには `p` タグの `tabindex` 属性として 0 を設定する必要があります。
 
 ```js
-assert($('p').attr('tabindex') == '0');
+assert.equal(document.querySelector('p')?.getAttribute('tabindex'), '0');
 ```
 
 # --seed--

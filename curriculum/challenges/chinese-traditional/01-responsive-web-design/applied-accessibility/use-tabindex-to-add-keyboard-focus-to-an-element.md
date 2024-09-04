@@ -28,13 +28,13 @@ Camper Cat 新建了一個用來收集他的用戶信息的調查。 他知道�
 表單中，作爲指示文字（Instructions）的 `p` 標籤應具有 `tabindex` 屬性。
 
 ```js
-assert($('p').attr('tabindex'));
+assert.isNotNull(document.querySelector('p')?.getAttribute('tabindex'));
 ```
 
 `p` 標籤的 `tabindex` 屬性值應設置爲 0。
 
 ```js
-assert($('p').attr('tabindex') == '0');
+assert.equal(document.querySelector('p')?.getAttribute('tabindex'), '0');
 ```
 
 # --seed--

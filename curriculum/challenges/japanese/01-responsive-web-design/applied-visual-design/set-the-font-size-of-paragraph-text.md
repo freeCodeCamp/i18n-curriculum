@@ -20,7 +20,9 @@ CSS の `font-size` プロパティは見出しだけでなく、テキストを
 `p` タグの `font-size` は 16 ピクセルに設定されている必要があります。
 
 ```js
-assert($('p').css('font-size') == '16px');
+const pElement =document.querySelector('p')
+const pStyle = window.getComputedStyle(pElement);
+assert.equal(pStyle?.fontSize, '16px');
 ```
 
 # --seed--

@@ -20,7 +20,7 @@ dashedName: use-the-css-transform-property-skewy-to-skew-an-element-along-the-y-
 id 为 `top` 的元素应该沿着 Y 轴翻转 -10 度。
 
 ```js
-assert(code.match(/#top\s*?{\s*?.*?\s*?transform:\s*?skewY\(-10deg\);/g));
+assert.match(code, /#top\s*?{\s*?.*?\s*?transform:\s*?skewY\(-10deg\);/g);
 ```
 
 # --seed--

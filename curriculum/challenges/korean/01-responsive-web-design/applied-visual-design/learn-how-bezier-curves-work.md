@@ -30,8 +30,10 @@ id가 `ball1`인 요소의 `animation-timing-function` 속성 값을 `linear`에
 id가 `ball1`인 요소의 `animation-timing-function` 속성 값은 선형과 동등한 `cubic-bezier` 함수여야 합니다.
 
 ```js
-assert(
-  $('#ball1').css('animation-timing-function') ==
+const ballOne = document.querySelector('#ball1');
+const ballOneStyle = window.getComputedStyle(ballOne); 
+assert.equal(
+  ballOneStyle?.animationTimingFunction,
     'cubic-bezier(0.25, 0.25, 0.75, 0.75)'
 );
 ```
@@ -39,10 +41,10 @@ assert(
 `ball2` id를 가진 요소의 `animation-timing-function` 속성 값은 변경하지 않아야 합니다.
 
 ```js
-const ball2Animation = __helpers.removeWhiteSpace(
-  $('#ball2').css('animation-timing-function')
-);
-assert(
+const ballTwoElement = document.querySelector('#ball2');
+const ballTwoStyle = window.getComputedStyle(ballTwoElement); 
+const ball2Animation = __helpers.removeWhiteSpace(ballTwoStyle?.animationTimingFunction);
+assert.isTrue(
   ball2Animation == 'ease-out' || ball2Animation == 'cubic-bezier(0,0,0.58,1)'
 );
 ```

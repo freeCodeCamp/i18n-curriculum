@@ -28,13 +28,13 @@ Camper Cat використовував теги `article`, щоб обгорт�
 Ваш код повинен мати три теги `article`.
 
 ```js
-assert($('article').length == 3);
+assert.lengthOf(document.querySelectorAll('article') ,3);
 ```
 
 Ваш код не повинен містити жодних тегів `div`.
 
 ```js
-assert($('div').length == 0);
+assert.lengthOf(document.querySelectorAll('div'), 0);
 ```
 
 # --seed--

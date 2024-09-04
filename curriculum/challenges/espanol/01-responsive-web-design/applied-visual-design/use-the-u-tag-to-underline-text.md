@@ -22,13 +22,13 @@ Envuelve la etiqueta `u` solo alrededor del texto `Ph.D. students`.
 Tu código debe agregar una etiqueta `u` al lenguaje de marcado.
 
 ```js
-assert($('u').length === 1);
+assert.lengthOf(document.querySelectorAll('u'), 1);
 ```
 
 La etiqueta `u` debe envolver alrededor del texto `Ph.D. students`.
 
 ```js
-assert($('u').text() === 'Ph.D. students');
+assert.equal(document.querySelector('u')?.textContent , 'Ph.D. students');
 ```
 
 # --seed--

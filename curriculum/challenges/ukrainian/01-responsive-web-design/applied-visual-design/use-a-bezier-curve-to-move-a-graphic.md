@@ -28,24 +28,30 @@ animation-timing-function: cubic-bezier(0, 0, 0.58, 1);
 Значення властивості `animation-timing-function` для елемента з ідентифікацією `red` повинно бути функцією `cubic-bezier` зі значеннями x1, y1, x2, y2, які вказані відповідно до 0, 0, 0.58, 1 .
 
 ```js
-assert(
-  $('#red').css('animation-timing-function') == 'cubic-bezier(0, 0, 0.58, 1)'
+const redElement = document.querySelector('#red');
+const redStyle = window.getComputedStyle(redElement);
+assert.equal(
+  redStyle?.animationTimingFunction, 'cubic-bezier(0, 0, 0.58, 1)'
 );
 ```
 
 Елемент з ідентифікацією `red` більше не повинен мати властивість `animation-timing-function` коду `linear`.
 
 ```js
-assert($('#red').css('animation-timing-function') !== 'linear');
+const redElement = document.querySelector('#red');
+const redStyle = window.getComputedStyle(redElement);
+assert.notEqual(redStyle?.animationTimingFunction, 'linear');
 ```
 
 Значення властивості `animation-timing-function` для елемента з ідентифікацією `blue` не повинно змінюватися.
 
 ```js
+const blueElement = document.querySelector('#blue');
+const blueStyle = window.getComputedStyle( blueElement);
 const blueBallAnimation = __helpers.removeWhiteSpace(
-  $('#blue').css('animation-timing-function')
+  blueStyle?.animationTimingFunction
 );
-assert(
+assert.isTrue(
   blueBallAnimation == 'ease-out' ||
     blueBallAnimation == 'cubic-bezier(0,0,0.58,1)'
 );

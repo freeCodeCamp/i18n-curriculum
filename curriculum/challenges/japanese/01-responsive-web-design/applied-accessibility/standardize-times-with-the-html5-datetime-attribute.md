@@ -26,28 +26,25 @@ Camper Cat の Mortal Kombat の調査結果が出ました！ `Thursday, Septem
 コードには `Thank you to everyone for responding to Master Camper Cat's survey.` のテキストを持つ `p` 要素と、`time` 要素が必要です。
 
 ```js
-assert(timeElement);
+assert.exists(timeElement);
 ```
 
 追加された `time` タグは `Thursday, September 15<sup>th</sup>` テキストをラップしなければなりません。
 
 ```js
-assert(
-  timeElement &&
-    timeElement?.innerHTML?.trim() === 'Thursday, September 15<sup>th</sup>'
-);
+assert.strictEqual(timeElement?.innerHTML?.trim(), 'Thursday, September 15<sup>th</sup>');
 ```
 
 `time` タグは空ではない `datetime` 属性を持つ必要があります。
 
 ```js
-assert(datetimeAttr && datetimeAttr?.length);
+assert(datetimeAttr?.length != 0);
 ```
 
 追加された `datetime` 属性には `2016-09-15` の値を設定する必要があります。
 
 ```js
-assert(datetimeAttr === '2016-09-15');
+assert.equal(datetimeAttr , '2016-09-15');
 ```
 
 # --seed--

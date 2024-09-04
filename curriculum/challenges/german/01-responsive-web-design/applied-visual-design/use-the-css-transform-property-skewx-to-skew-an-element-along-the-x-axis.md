@@ -28,7 +28,7 @@ Verzerre das Element mit der Id `bottom` um 24 Grad entlang der x-Achse mit der 
 Das Element mit der Id `bottom` sollte um 24 Grad entlang seiner X-Achse verzerrt werden.
 
 ```js
-assert(code.match(/#bottom\s*?{\s*?.*?\s*?transform:\s*?skewX\(24deg\);/g));
+assert.match(code, /#bottom\s*?{\s*?.*?\s*?transform:\s*?skewX\(24deg\);/g);
 ```
 
 # --seed--

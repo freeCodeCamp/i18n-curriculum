@@ -26,21 +26,19 @@ Manipule o elemento quadrado no editor para criar a forma da lua. Primeiro, alte
 A propriedade `background-color` deve ter o valor de `transparent`.
 
 ```js
-assert(code.match(/background-color:\s*?transparent;/gi));
+assert.match(code,/background-color:\s*?transparent;/gi);
 ```
 
 A propriedade `border-radius` deve ter o valor de `50%`.
 
 ```js
-assert(code.match(/border-radius:\s*?50%;/gi));
+assert.match(code,/border-radius:\s*?50%;/gi);
 ```
 
 A propriedade `box-shadow` deve receber 25px para o eixo horizontal (`offset-x`), 10px para o eixo vertical (`offset-y`), 0 para `blur-radius`, 0 para `spread-radius` e, finalmente, azul (`blue`) para `color`.
 
 ```js
-assert(
-  code.match(/box-shadow:\s*?25px\s+?10px\s+?0(px)?\s+?0(px)?\s+?blue\s*?;/gi)
-);
+assert.match(code,/box-shadow:\s*?25px\s+?10px\s+?0(px)?\s+?0(px)?\s+?blue\s*?;/gi);
 ```
 
 # --seed--

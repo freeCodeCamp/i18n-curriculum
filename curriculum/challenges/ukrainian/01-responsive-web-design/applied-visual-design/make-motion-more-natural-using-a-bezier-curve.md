@@ -30,10 +30,9 @@ cubic-bezier(0.3, 0.4, 0.5, 1.6);
 Значення властивості `animation-timing-function` для елемента з ідентифікацією `green` повинне бути функцією `cubic-bezier` з вказаними значеннями x1, y1, x2, y2.
 
 ```js
-assert(
-  $('#green').css('animation-timing-function') ==
-    'cubic-bezier(0.311, 0.441, 0.444, 1.649)'
-);
+const greenElement = document.querySelector('#green');
+ const greenStyle = window.getComputedStyle(greenElement);
+assert.equal(greenStyle?.animationTimingFunction, 'cubic-bezier(0.311, 0.441, 0.444, 1.649)');
 ```
 
 # --seed--

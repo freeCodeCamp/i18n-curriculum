@@ -26,28 +26,25 @@ Camper Cat 格鬥的調查結果出來了！ 用 `time` 標籤包裹文本 `Thur
 應存在一個 `time` 元素和一個內容文本爲 `Thank you to everyone for responding to Master Camper Cat's survey.` 的 `p` 元素。
 
 ```js
-assert(timeElement);
+assert.exists(timeElement);
 ```
 
 `time` 元素的內容文本應爲 `Thursday, September 15<sup>th</sup>`。
 
 ```js
-assert(
-  timeElement &&
-    timeElement?.innerHTML?.trim() === 'Thursday, September 15<sup>th</sup>'
-);
+assert.strictEqual(timeElement?.innerHTML?.trim(), 'Thursday, September 15<sup>th</sup>');
 ```
 
 `time` 元素應包含非空的 `datetime` 屬性。
 
 ```js
-assert(datetimeAttr && datetimeAttr?.length);
+assert(datetimeAttr?.length != 0);
 ```
 
 `datetime` 的屬性值應爲 `2016-09-15`。
 
 ```js
-assert(datetimeAttr === '2016-09-15');
+assert.equal(datetimeAttr , '2016-09-15');
 ```
 
 # --seed--

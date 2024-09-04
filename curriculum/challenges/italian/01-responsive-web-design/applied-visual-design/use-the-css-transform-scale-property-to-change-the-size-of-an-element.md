@@ -26,10 +26,8 @@ Aumenta la dimensione dell'elemento con l'id di `ball2` di 1,5 volte rispetto al
 La proprietà `transform` per `#ball2` dovrebbe essere impostata per ingrandirla di 1,5 volte.
 
 ```js
-assert(
-  code.match(
+assert.match(code,
     /#ball2\s*?{\s*?left:\s*?65%;\s*?transform:\s*?scale\(1\.5\);\s*?}|#ball2\s*?{\s*?transform:\s*?scale\(1\.5\);\s*?left:\s*?65%;\s*?}/gi
-  )
 );
 ```
 

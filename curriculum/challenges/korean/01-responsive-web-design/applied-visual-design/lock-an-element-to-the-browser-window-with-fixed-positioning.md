@@ -22,19 +22,25 @@ CSS가 제공하는 다음 레이아웃은 `fixed` 위치입니다. 이는 브�
 `#navbar` 요소의 `position` 속성을 `fixed`로 설정해야 합니다.
 
 ```js
-assert($('#navbar').css('position') == 'fixed');
+const navbarElement = document.querySelector('#navbar');
+const navbarStyle = window.getComputedStyle(navbarElement);
+ assert.equal(navbarStyle?.position, 'fixed');
 ```
 
 `#navbar` 요소의 `top` CSS 오프셋을 0 픽셀로 설정해야 합니다.
 
 ```js
-assert($('#navbar').css('top') == '0px');
+const navbarElement = document.querySelector('#navbar');
+ const navbarStyle = window.getComputedStyle(navbarElement);
+assert.equal(navbarStyle?.top, '0px');
 ```
 
 `#navbar` 요소의 `left` CSS 오프셋을 0 픽셀로 설정해야 합니다.
 
 ```js
-assert($('#navbar').css('left') == '0px');
+const navbarElement = document.querySelector('#navbar');
+ const navbarStyle = window.getComputedStyle(navbarElement);
+ assert.equal(navbarStyle?.left, '0px');
 ```
 
 # --seed--

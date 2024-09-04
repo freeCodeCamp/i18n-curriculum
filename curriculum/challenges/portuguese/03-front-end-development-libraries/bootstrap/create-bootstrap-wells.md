@@ -17,23 +17,22 @@ Aninhe um elemento `div` com a classe `well` dentro de cada um de seus elementos
 Você deve adicionar um elemento `div` com a classe `well` dentro de cada um dos elementos `div` com a classe `col-xs-6`
 
 ```js
-assert($('div.col-xs-6').not(':has(>div.well)').length < 1);
+const wells = document.querySelectorAll('div.col-xs-6 > div.well');
+assert.lengthOf( wells,2 ); 
 ```
 
 Ambos os elementos `div` com a classe `col-xs-6` devem estar aninhados dentro do elemento `div` com a classe `row`.
 
 ```js
-assert($('div.row > div.col-xs-6').length > 1);
+assert.lengthOf(document.querySelectorAll('div.row > div.col-xs-6'),2);
 ```
 
 Todos os elementos `div` devem ter tags de fechamento.
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/g);
+assert.match(code,/<div/g);
+assert.equal(code.match(/<\/div>/g)?.length , code.match(/<div/g)?.length);
 ```
 
 # --seed--

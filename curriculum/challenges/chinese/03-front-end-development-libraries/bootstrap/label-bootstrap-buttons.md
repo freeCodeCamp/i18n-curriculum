@@ -17,37 +17,37 @@ dashedName: label-bootstrap-buttons
 应给 id 为 `target1` 的 `button` 元素设置文本为 `#target1`。
 
 ```js
-assert(new RegExp('#target1', 'gi').test($('#target1').text()));
+assert.match(document.querySelector('#target1')?.textContent,/#target1/gi)
 ```
 
 应给 id 为 `target2` 的 `button` 元素设置文本为`#target2`。
 
 ```js
-assert(new RegExp('#target2', 'gi').test($('#target2').text()));
+assert.match(document.querySelector('#target2')?.textContent,/#target2/gi)
 ```
 
 应给 id 为 `target3` 的 `button` 元素设置文本为 `#target3`。
 
 ```js
-assert(new RegExp('#target3', 'gi').test($('#target3').text()));
+assert.match(document.querySelector('#target3')?.textContent,/#target3/gi)
 ```
 
 应给 id 为 `target4` 的 `button` 元素设置文本为 `#target4`。
 
 ```js
-assert(new RegExp('#target4', 'gi').test($('#target4').text()));
+assert.match(document.querySelector('#target4')?.textContent,/#target4/gi)
 ```
 
 应给 id 为 `target5` 的 `button` 元素设置文本为`#target5`。
 
 ```js
-assert(new RegExp('#target5', 'gi').test($('#target5').text()));
+assert.match(document.querySelector('#target5')?.textContent,/#target5/gi)
 ```
 
 应给 id 为 `target6` 的 `button` 元素设置文本为`#target6`。
 
 ```js
-assert(new RegExp('#target6', 'gi').test($('#target6').text()));
+assert.match(document.querySelector('#target6')?.textContent,/#target6/gi)
 ```
 
 # --seed--

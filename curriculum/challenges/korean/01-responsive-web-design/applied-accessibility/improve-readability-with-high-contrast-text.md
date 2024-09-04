@@ -22,13 +22,17 @@ dashedName: improve-readability-with-high-contrast-text
 코드를 이용해서 `body`의 텍스트 `color`를 더 진한 회색으로 변경해야 합니다.
 
 ```js
-assert($('body').css('color') == 'rgb(99, 99, 99)');
+const body = document.querySelector('body');
+const bodyColor = window.getComputedStyle(body).color; 
+assert(bodyColor == 'rgb(99, 99, 99)');
 ```
 
 코드에서 `body`의 `background-color`를 변경해서는 안 됩니다.
 
 ```js
-assert($('body').css('background-color') == 'rgb(255, 255, 255)');
+const body = document.querySelector('body');
+const backgroundColor = window.getComputedStyle(body).backgroundColor; 
+assert.equal(backgroundColor , 'rgb(255, 255, 255)');
 ```
 
 # --seed--

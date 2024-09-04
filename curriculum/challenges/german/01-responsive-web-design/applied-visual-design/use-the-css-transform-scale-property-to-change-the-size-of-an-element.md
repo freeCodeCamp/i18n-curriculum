@@ -26,10 +26,8 @@ Vergrößere das Element mit der Id `ball2` auf das 1,5-fache seiner ursprüngli
 Die Eigenschaft `transform` für `#ball2` sollte so eingestellt werden, dass er 1,5-mal so groß ist.
 
 ```js
-assert(
-  code.match(
+assert.match(code,
     /#ball2\s*?{\s*?left:\s*?65%;\s*?transform:\s*?scale\(1\.5\);\s*?}|#ball2\s*?{\s*?transform:\s*?scale\(1\.5\);\s*?left:\s*?65%;\s*?}/gi
-  )
 );
 ```
 

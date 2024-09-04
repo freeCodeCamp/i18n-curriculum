@@ -20,13 +20,17 @@ O código fornecido funcionaria bem como um layout de duas colunas, com os eleme
 O elemento com id `left` deve ter a propriedade `float` com o valor `left`.
 
 ```js
-assert($('#left').css('float') == 'left');
+const leftElement = document.querySelector('#left');
+const leftStyle = window.getComputedStyle(leftElement);
+assert.equal(leftStyle?.float, 'left');
 ```
 
 O elemento com id `right` deve ter a propriedade`float` com o valor `right`.
 
 ```js
-assert($('#right').css('float') == 'right');
+const rightElement = document.querySelector('#right');
+const rightStyle = window.getComputedStyle(rightElement);
+assert.equal(rightStyle?.float, 'right');
 ```
 
 # --seed--

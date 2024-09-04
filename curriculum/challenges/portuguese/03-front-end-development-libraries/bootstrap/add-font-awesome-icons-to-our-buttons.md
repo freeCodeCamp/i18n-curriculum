@@ -39,33 +39,34 @@ Use o Font Awesome para adicionar um ícone `thumbs-up` ao botão like, doando-o
 Você deve adicionar um elemento `i` com as classes `fas` e `fa-thumbs-up`.
 
 ```js
-assert($('i').is('.fas.fa-thumbs-up') || $('span').is('.fas.fa-thumbs-up'));
+assert.isTrue(document.querySelector('i')?.classList?.value === 'fas fa-thumbs-up' || document.querySelector('span')?.classList?.value === 'fas fa-thumbs-up');
 ```
 
 O ícone `fa-thumbs-up` deve estar localizado dentro do botão Like.
 
 ```js
-assert(
-  ($('i.fa-thumbs-up').parent().text().match(/Like/gi) &&
-    $('.btn-primary > i').is('.fas.fa-thumbs-up')) ||
-    ($('span.fa-thumbs-up').parent().text().match(/Like/gi) &&
-      $('.btn-primary > span').is('.fas.fa-thumbs-up'))
-);
+const iconTextContent = document.querySelector('i.fa-thumbs-up')?.parentNode?.textContent;  
+const spanTextContent = document.querySelector('span.fa-thumbs-up')?.parentNode?.textContent;  
+assert.isTrue(
+  (iconTextContent?.match(/Like/gi) &&
+    document.querySelector('.btn-primary > i') === document.querySelector('.fas.fa-thumbs-up')) ||
+    (spanTextContent?.match(/Like/gi) &&
+      document.querySelector('.btn-primary > span') === document.querySelector('.fas.fa-thumbs-up')));
 ```
 
 O elemento `i` deve estar dentro do novo elemento `button`.
 
 ```js
-assert(
-  $('button').children('i').length > 0 ||
-    $('button').children('span').length > 0
-);
+const button = document.querySelector('button'); 
+const i = button?.querySelectorAll("i");
+const span =  button?.querySelectorAll("span");
+assert(i.length > 0 ||span.length > 0);
 ```
 
 O elemento de ícone deve ter uma tag de fechamento.
 
 ```js
-assert(code.match(/<\/i>|<\/span>/g));
+assert.match(code, /(<\/i>|<\/span>)\s*Like\s*<\/button>/g);
 ```
 
 # --seed--

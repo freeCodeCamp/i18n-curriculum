@@ -39,28 +39,26 @@ dashedName: create-a-more-complex-shape-using-css-and-html
 `.heart::after` セレクターの `background-color` プロパティは `pink` である必要があります。
 
 ```js
-const heartAfter = code.match(/\.heart::after\s*{[\s\S]+?[^\}]}/g)[0];
-assert(
-  /({|;)\s*background-color\s*:\s*pink\s*(;|})/g.test(heartAfter)
-);
+const heartAfter = code.match(/\.heart::after\s*{[\s\S]+?[^\}]}/g)?.[0];
+assert.match(heartAfter, /({|;)\s*background-color\s*:\s*pink\s*(;|})/g);
 ```
 
 `.heart::after` セレクターの `border-radius` は 50% である必要があります。
 
 ```js
-assert(code.match(/border-radius\s*?:\s*?50%/gi).length == 2);
+assert.lengthOf(code.match(/border-radius\s*?:\s*?50%/gi),2);
 ```
 
 `heart` クラスの `transform` プロパティは `rotate()` 関数を使用し、-45deg に設定されている必要があります。
 
 ```js
-assert(code.match(/transform\s*?:\s*?rotate\(\s*?-45deg\s*?\)/gi));
+assert.match(code,/transform\s*?:\s*?rotate\(\s*?-45deg\s*?\)/gi);
 ```
 
 `.heart::before` セレクターの `content` は空文字列である必要があります。
 
 ```js
-assert(code.match(/\.heart::before\s*?{\s*?content\s*?:\s*?("|')\1\s*?;/gi));
+assert.match(code,/\.heart::before\s*?{\s*?content\s*?:\s*?("|')\1\s*?;/gi);
 ```
 
 # --seed--

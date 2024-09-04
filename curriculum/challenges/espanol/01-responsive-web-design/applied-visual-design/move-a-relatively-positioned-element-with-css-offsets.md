@@ -20,13 +20,17 @@ Utiliza los desplazamientos CSS para mover los `h2` 15 píxeles a la derecha y 1
 Tu código debe usar un desplazamiento CSS para posicionar relativamente el `h2` 10px hacia arriba. En otras palabras, alejarlo 10px de la `bottom` de donde normalmente se encuentra.
 
 ```js
-assert($('h2').css('bottom') == '10px');
+const h2Element =document.querySelector('h2')
+const h2Style = window.getComputedStyle(h2Element);
+assert.equal(h2Style?.bottom, '10px');
 ```
 
 Tu código debe usar un desplazamiento CSS para posicionar relativamente el `h2` 15px hacia la derecha. En otras palabras, alejarlo 15px de la `left` de donde normalmente se encuentra.
 
 ```js
-assert($('h2').css('left') == '15px');
+const h2Element =document.querySelector('h2')
+const h2Style = window.getComputedStyle(h2Element);
+assert.equal(h2Style?.left , '15px');
 ```
 
 # --seed--

@@ -31,25 +31,25 @@ Camper Cat 想举办一场比武大会，他想收集参赛者的最佳参赛时
 日期选择器应有一个 `input` 标签。
 
 ```js
-assert($('input').length == 2);
+assert.lengthOf(document.querySelectorAll('input'), 2);
 ```
 
 `input` 标签应有一个值为 `date` 的 `type` 属性。
 
 ```js
-assert($('input').attr('type') == 'date');
+assert.equal(document.querySelector('input')?.getAttribute('type'), 'date');
 ```
 
 `input` 标签应有一个值为 `pickdate` 的 `id` 属性。
 
 ```js
-assert($('input').attr('id') == 'pickdate');
+assert.equal(document.querySelector('input')?.getAttribute('id'),'pickdate');
 ```
 
 `input` 标签应有一个值为 `date` 的 `name` 属性。
 
 ```js
-assert($('input').attr('name') == 'date');
+assert.equal(document.querySelector('input')?.getAttribute('name'), 'date');
 ```
 
 # --seed--

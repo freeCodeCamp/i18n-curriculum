@@ -26,7 +26,9 @@ Camper Cat 正在測試一個重要按鈕的不同樣式。 在色輪上，用�
 `button` 內容文本的 `color` 屬性值應爲深藍色。
 
 ```js
-assert($('button').css('color') == 'rgb(0, 51, 102)');
+const button = document.querySelector('button');
+const buttonColor = window.getComputedStyle(button).color; 
+assert.equal(buttonColor, 'rgb(0, 51, 102)');
 ```
 
 # --seed--

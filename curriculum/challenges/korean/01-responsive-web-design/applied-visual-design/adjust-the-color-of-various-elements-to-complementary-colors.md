@@ -20,25 +20,33 @@ dashedName: adjust-the-color-of-various-elements-to-complementary-colors
 `header` 요소의 `background-color`를 #09A7A1로 설정해야 합니다.
 
 ```js
-assert($('header').css('background-color') == 'rgb(9, 167, 161)');
+const headerElement = document.querySelector('header'); 
+const headerStyle = window.getComputedStyle(headerElement);
+assert.equal(headerStyle?.backgroundColor, 'rgb(9, 167, 161)');
 ```
 
 `footer` 요소의 `background-color`를 #09A7A1로 설정해야 합니다.
 
 ```js
-assert($('footer').css('background-color') == 'rgb(9, 167, 161)');
+const footerElement = document.querySelector('footer'); 
+const footerStyle = window.getComputedStyle(footerElement);
+assert.equal(footerStyle?.backgroundColor, 'rgb(9, 167, 161)');
 ```
 
 `h2` 요소의 `color`를 #09A7A1로 설정해야 합니다.
 
 ```js
-assert($('h2').css('color') == 'rgb(9, 167, 161)');
+const h2Element = document.querySelector('h2'); 
+const h2Style = window.getComputedStyle(h2Element);
+assert.equal(h2Style?.color, 'rgb(9, 167, 161)');
 ```
 
 `button` 요소의 `background-color`를 #FF790E로 설정해야 합니다.
 
 ```js
-assert($('button').css('background-color') == 'rgb(255, 121, 14)');
+const buttonElement = document.querySelector('button'); 
+const buttonStyle = window.getComputedStyle(buttonElement);
+assert.equal(buttonStyle?.backgroundColor, 'rgb(255, 121, 14)');
 ```
 
 # --seed--

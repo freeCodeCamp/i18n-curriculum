@@ -17,23 +17,22 @@ Bootstrap لديه فئة يسمى `well` يمكنه إنشاء إحساس بص�
 يجب عليك إضافة عنصر `div` مع فئة `well` داخل كل عنصر من عناصر `div` مع فئة `col-xs-6`
 
 ```js
-assert($('div.col-xs-6').not(':has(>div.well)').length < 1);
+const wells = document.querySelectorAll('div.col-xs-6 > div.well');
+assert.lengthOf( wells,2 ); 
 ```
 
 يجب أن يتداخل عنصري `div` مع فئة `col-xs-6` داخل عنصر `div` مع فئة `row`.
 
 ```js
-assert($('div.row > div.col-xs-6').length > 1);
+assert.lengthOf(document.querySelectorAll('div.row > div.col-xs-6'),2);
 ```
 
 لا بد وجود وسم إغلاق لكل عناصر `div`.
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/g);
+assert.match(code,/<div/g);
+assert.equal(code.match(/<\/div>/g)?.length , code.match(/<div/g)?.length);
 ```
 
 # --seed--

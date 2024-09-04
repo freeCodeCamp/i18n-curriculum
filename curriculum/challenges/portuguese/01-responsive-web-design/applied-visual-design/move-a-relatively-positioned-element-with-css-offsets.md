@@ -20,13 +20,17 @@ Use as propriedade de deslocamento CSS para mover o `h2` 15 pixels para a direit
 Você deve usar um deslocamento CSS para posicionar o elemento `h2` 10px para cima. Em outras palavras, use a propriedade `bottom` para movê-lo de onde ele está.
 
 ```js
-assert($('h2').css('bottom') == '10px');
+const h2Element =document.querySelector('h2')
+const h2Style = window.getComputedStyle(h2Element);
+assert.equal(h2Style?.bottom, '10px');
 ```
 
 Você deve usar um deslocamento CSS para posicionar o elemento `h2` 15px à direita. Em outras palavras, use a propriedade `left` para move-lo de onde ele está.
 
 ```js
-assert($('h2').css('left') == '15px');
+const h2Element =document.querySelector('h2')
+const h2Style = window.getComputedStyle(h2Element);
+assert.equal(h2Style?.left , '15px');
 ```
 
 # --seed--

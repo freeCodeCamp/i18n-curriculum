@@ -28,13 +28,13 @@ dashedName: wrap-content-in-the-article-element
 الكود الخاص بك يجب أن يحتوي على ثلاث علامات `article`.
 
 ```js
-assert($('article').length == 3);
+assert.lengthOf(document.querySelectorAll('article') ,3);
 ```
 
 يجب ألا يحتوي الكود الخاص بك على أي علامة `div`.
 
 ```js
-assert($('div').length == 0);
+assert.lengthOf(document.querySelectorAll('div'), 0);
 ```
 
 # --seed--

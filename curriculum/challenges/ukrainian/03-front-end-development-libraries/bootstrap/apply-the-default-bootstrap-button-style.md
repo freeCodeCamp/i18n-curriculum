@@ -17,13 +17,13 @@ Bootstrap має ще один клас кнопок під назвою `btn-de
 Застосуйте клас `btn` до кожного елемента `button`.
 
 ```js
-assert($('.btn').length > 5);
+assert.lengthOf(document.querySelectorAll('.btn'),6);
 ```
 
 Застосуйте клас `btn-default` до кожного елемента `button`.
 
 ```js
-assert($('.btn-default').length > 5);
+assert.lengthOf(document.querySelectorAll('.btn-default'), 6);
 ```
 
 # --seed--

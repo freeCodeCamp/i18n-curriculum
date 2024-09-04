@@ -20,7 +20,9 @@ Cambia el valor de la propiedad `font-size` para el párrafo a 16px para hacerlo
 Tu etiqueta `p` debe tener un `font-size` de 16 píxeles.
 
 ```js
-assert($('p').css('font-size') == '16px');
+const pElement =document.querySelector('p')
+const pStyle = window.getComputedStyle(pElement);
+assert.equal(pStyle?.fontSize, '16px');
 ```
 
 # --seed--

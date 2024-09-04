@@ -22,19 +22,25 @@ Blocca l'elemento `#searchbar` in alto a destra nella sua `section` genitore dic
 L'elemento `#searchbar` dovrebbe avere una `position` impostata su `absolute`.
 
 ```js
-assert($('#searchbar').css('position') == 'absolute');
+const searchbarElement = document.querySelector('#searchbar');
+const searchbarStyle = window.getComputedStyle(searchbarElement);
+assert.equal(searchbarStyle?.position, 'absolute');
 ```
 
 Il tuo codice dovrebbe utilizzare un offset CSS `top` di 50 pixel sull'elemento `#searchbar`.
 
 ```js
-assert($('#searchbar').css('top') == '50px');
+const searchbarElement = document.querySelector('#searchbar');
+const searchbarStyle = window.getComputedStyle(searchbarElement);
+assert.equal(searchbarStyle?.top, '50px');
 ```
 
 Il tuo codice dovrebbe utilizzare uno spostamento `right` di 50 pixel sull'elemento `#searchbar`.
 
 ```js
-assert($('#searchbar').css('right') == '50px');
+const searchbarElement = document.querySelector('#searchbar');
+const searchbarStyle = window.getComputedStyle(searchbarElement);
+assert.equal(searchbarStyle?.right, '50px');
 ```
 
 # --seed--

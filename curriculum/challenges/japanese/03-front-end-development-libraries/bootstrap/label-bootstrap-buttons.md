@@ -17,37 +17,37 @@ dashedName: label-bootstrap-buttons
 id が `target1` の `button` 要素にテキスト `#target1` を付けます。
 
 ```js
-assert(new RegExp('#target1', 'gi').test($('#target1').text()));
+assert.match(document.querySelector('#target1')?.textContent,/#target1/gi)
 ```
 
 id が `target2` の `button` 要素にテキスト `#target2` を付けます。
 
 ```js
-assert(new RegExp('#target2', 'gi').test($('#target2').text()));
+assert.match(document.querySelector('#target2')?.textContent,/#target2/gi)
 ```
 
 id が `target3` の `button` 要素にテキスト `#target3` を付けます。
 
 ```js
-assert(new RegExp('#target3', 'gi').test($('#target3').text()));
+assert.match(document.querySelector('#target3')?.textContent,/#target3/gi)
 ```
 
 id が `target4` の `button` 要素にテキスト `#target4` を付けます。
 
 ```js
-assert(new RegExp('#target4', 'gi').test($('#target4').text()));
+assert.match(document.querySelector('#target4')?.textContent,/#target4/gi)
 ```
 
 id が `target5` の `button` 要素にテキスト `#target5` を付けます。
 
 ```js
-assert(new RegExp('#target5', 'gi').test($('#target5').text()));
+assert.match(document.querySelector('#target5')?.textContent,/#target5/gi)
 ```
 
 id が `target6` の `button` 要素にテキスト `#target6` を付けます。
 
 ```js
-assert(new RegExp('#target6', 'gi').test($('#target6').text()));
+assert.match(document.querySelector('#target6')?.textContent,/#target6/gi)
 ```
 
 # --seed--

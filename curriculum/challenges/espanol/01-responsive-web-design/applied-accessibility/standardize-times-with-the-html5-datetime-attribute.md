@@ -26,28 +26,25 @@ Aquí hay un ejemplo:
 Tu código debe tener un elemento `p` que incluya el texto `Thank you to everyone for responding to Master Camper Cat's survey.` e incluya un elemento `time`.
 
 ```js
-assert(timeElement);
+assert.exists(timeElement);
 ```
 
 Las etiquetas `time` añadidas deben envolver el texto `Thursday, September 15<sup>th</sup>`.
 
 ```js
-assert(
-  timeElement &&
-    timeElement?.innerHTML?.trim() === 'Thursday, September 15<sup>th</sup>'
-);
+assert.strictEqual(timeElement?.innerHTML?.trim(), 'Thursday, September 15<sup>th</sup>');
 ```
 
 Tu etiqueta `time` agregada debe tener un atributo `datetime` que no esté vacío.
 
 ```js
-assert(datetimeAttr && datetimeAttr?.length);
+assert(datetimeAttr?.length != 0);
 ```
 
 Tu atributo `datetime` agregado debe establecerse en un valor de `2016-09-15`.
 
 ```js
-assert(datetimeAttr === '2016-09-15');
+assert.equal(datetimeAttr , '2016-09-15');
 ```
 
 # --seed--

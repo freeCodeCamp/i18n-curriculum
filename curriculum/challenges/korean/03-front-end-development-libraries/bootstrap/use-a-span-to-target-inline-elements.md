@@ -31,35 +31,28 @@ dashedName: use-a-span-to-target-inline-elements
 `span` 요소는 `p` 요소 안에 있어야 합니다.
 
 ```js
-assert($('p span') && $('p span').length > 0);
+assert.lengthOf(document.querySelectorAll('p span'),1);
 ```
 
 `span` 요소는 `love`라는 글자를 가져야 합니다.
 
 ```js
-assert(
-  $('p span') &&
-    $('p span').text().match(/love/i) &&
-    !$('p span')
-      .text()
-      .match(/Things cats/i)
-);
+assert.match(document.querySelector('p span')?.textContent,/love/i);
+assert.notMatch(document.querySelector('p span')?.textContent, /Things cats/i);
 ```
 
 `span` 요소는 `text-danger` 클래스를 가져야 합니다.
 
 ```js
-assert($('span').hasClass('text-danger'));
+assert.isTrue(document.querySelector('span')?.classList?.contains('text-danger'));
 ```
 
 `span` 요소는 닫는 태그를 가져야 합니다.
 
 ```js
-assert(
-  code.match(/<\/span>/g) &&
-    code.match(/<span/g) &&
-    code.match(/<\/span>/g).length === code.match(/<span/g).length
-);
+assert.match(code,/<\/span>/g);
+assert.match(code,/<span/g);
+assert.equal(code.match(/<\/span>/g).length,code.match(/<span/g).length);
 ```
 
 # --seed--

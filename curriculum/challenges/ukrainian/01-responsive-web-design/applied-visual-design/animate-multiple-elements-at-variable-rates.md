@@ -22,19 +22,25 @@ dashedName: animate-multiple-elements-at-variable-rates
 Так `animation-duration` властивість для зірки класу `star-1` має становити 1 секунду.
 
 ```js
-assert($('.star-1').css('animation-duration') == '1s');
+const starOne = document.querySelector('.star-1');
+const starOneStyle = window.getComputedStyle(starOne); 
+assert.equal(starOneStyle?.animationDuration, '1s');
 ```
 
 Тоді як `animation-duration` властивість для зірки класу `star-2` має становити 0.9 секунди.
 
 ```js
-assert($('.star-2').css('animation-duration') == '0.9s');
+const starTwo = document.querySelector('.star-2');
+const starTwoStyle = window.getComputedStyle(starTwo); 
+assert.equal(starTwoStyle?.animationDuration , '0.9s');
 ```
 
 А `animation-duration` властивість для зірки класу `star-3` має складати 1.1 секунди.
 
 ```js
-assert($('.star-3').css('animation-duration') == '1.1s');
+const starThree = document.querySelector('.star-3');
+const starThreeStyle = window.getComputedStyle(starThree); 
+assert.equal(starThreeStyle?.animationDuration, '1.1s');
 ```
 
 # --seed--

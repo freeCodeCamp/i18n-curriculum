@@ -19,30 +19,20 @@ dashedName: use-the-s-tag-to-strikethrough-text
 당신의 코드는 마크업에 `s` 태그를 하나 추가해야 합니다.
 
 ```js
-assert($('s').length == 1);
+assert.lengthOf(document.querySelectorAll('s'),1);
 ```
 
 `s` 태그는 `h4`태그 안에서 `Google` 텍스트를 감싸야 합니다. 이것은 `Alphabet`단어를 포함하지 않아야 합니다.
 
 ```js
-assert(
-  $('h4 > s')
-    .text()
-    .match(/Google/gi) &&
-    !$('h4 > s')
-      .text()
-      .match(/Alphabet/gi)
-);
+assert.match(document.querySelector('h4 > s')?.textContent, /Google/gi);
+assert.notMatch(document.querySelector('h4 > s')?.textContent, /Alphabet/gi);
 ```
 
 `Alphabet` 단어를 `h4`태그 내부에 취소선없이 포함하여야 합니다.
 
 ```js
-assert(
-  $('h4')
-    .html()
-    .match(/Alphabet/gi)
-);
+assert.match(document.querySelector('h4')?.innerHTML, /Alphabet/gi);
 ```
 
 # --seed--

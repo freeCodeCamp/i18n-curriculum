@@ -19,30 +19,20 @@ dashedName: use-the-s-tag-to-strikethrough-text
 應添加一個 `s` 標籤。
 
 ```js
-assert($('s').length == 1);
+assert.lengthOf(document.querySelectorAll('s'),1);
 ```
 
 `s` 標籤應該在 `h4` 標籤內的 `Google` 文字外面， 它不應包含單詞 `Alphabet`。
 
 ```js
-assert(
-  $('h4 > s')
-    .text()
-    .match(/Google/gi) &&
-    !$('h4 > s')
-      .text()
-      .match(/Alphabet/gi)
-);
+assert.match(document.querySelector('h4 > s')?.textContent, /Google/gi);
+assert.notMatch(document.querySelector('h4 > s')?.textContent, /Alphabet/gi);
 ```
 
 `h4` 標籤內應有單詞 `Alphabet`，單詞不應有刪除線樣式。
 
 ```js
-assert(
-  $('h4')
-    .html()
-    .match(/Alphabet/gi)
-);
+assert.match(document.querySelector('h4')?.innerHTML, /Alphabet/gi);
 ```
 
 # --seed--

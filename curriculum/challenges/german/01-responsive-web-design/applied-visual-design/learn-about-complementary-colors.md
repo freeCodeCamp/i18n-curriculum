@@ -32,13 +32,17 @@ Es gibt online viele Farbauswahltools mit einer Option zum Finden einer Kompleme
 Das `div`-Element mit der Klasse `blue` sollte eine `background-color` von blue haben.
 
 ```js
-assert($('.blue').css('background-color') == 'rgb(0, 0, 255)');
+const blueElement = document.querySelector('.blue');
+const blueStyle = window.getComputedStyle(blueElement); 
+assert.equal(blueStyle?.backgroundColor, 'rgb(0, 0, 255)');
 ```
 
 Das `div`-Element mit der Klasse `yellow` sollte eine `background-color` von yellow haben.
 
 ```js
-assert($('.yellow').css('background-color') == 'rgb(255, 255, 0)');
+const yellowElement = document.querySelector('.yellow');
+const yellowStyle = window.getComputedStyle(yellowElement);
+assert.equal(yellowStyle?.backgroundColor, 'rgb(255, 255, 0)');
 ```
 
 # --seed--

@@ -22,13 +22,17 @@ dashedName: make-a-css-heartbeat-using-an-infinite-animation-count
 `heart` 클래스의 `animation-iteration-count` 속성은 `infinite`여야 합니다.
 
 ```js
-assert($('.heart').css('animation-iteration-count') == 'infinite');
+const heartElement = document.querySelector('.heart');
+ const heartStyle = window.getComputedStyle(heartElement);
+ assert.equal(heartStyle?.animationIterationCount, 'infinite');
 ```
 
 `back` 클래스의 `animation-iteration-count` 속성은 `infinite`여야 합니다.
 
 ```js
-assert($('.back').css('animation-iteration-count') == 'infinite');
+const backElement = document.querySelector('.back');
+ const backStyle = window.getComputedStyle(backElement);
+ assert.equal(backStyle?.animationIterationCount, 'infinite');
 ```
 
 # --seed--

@@ -17,26 +17,27 @@ Verschachtel drei `button`-Elemente in jedes deiner `div`-Elemente mit dem Klass
 Drei `button`-Elemente sollten in jedem deiner `div`-Elemente der Klasse `well` verschachtelt sein.
 
 ```js
-assert(
-  $('div.well:eq(0)').children('button').length === 3 &&
-    $('div.well:eq(1)').children('button').length === 3
-);
+const buttonOne = document.querySelectorAll('div.well')?.[0];
+const buttonOneChildren = buttonOne?.querySelectorAll(`:scope ${'button'}`);
+assert.lengthOf(buttonOneChildren,3);
+
+const buttonTwo = document.querySelectorAll('div.well')?.[1]
+const buttonTwoChildren = buttonTwo?.querySelectorAll(`:scope ${'button'}`);
+assert.lengthOf(buttonTwoChildren,3);
 ```
 
 Du solltest insgesamt 6 `button`-Elemente haben.
 
 ```js
-assert($('button') && $('button').length > 5);
+assert.lengthOf(document.querySelectorAll('button'), 6);
 ```
 
 All deine `button`-Elemente sollten abschließende Tags enthalten.
 
 ```js
-assert(
-  code.match(/<\/button>/g) &&
-    code.match(/<button/g) &&
-    code.match(/<\/button>/g).length === code.match(/<button/g).length
-);
+assert.match(code,/<\/button>/g);
+assert.match(code,/<button/g);
+assert.equal(code.match(/<\/button>/g).length,code.match(/<button/g).length);
 ```
 
 # --seed--

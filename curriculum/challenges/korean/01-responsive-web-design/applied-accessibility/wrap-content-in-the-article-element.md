@@ -28,13 +28,13 @@ dashedName: wrap-content-in-the-article-element
 코드에는 `article` 태그가 세 개 있어야 합니다.
 
 ```js
-assert($('article').length == 3);
+assert.lengthOf(document.querySelectorAll('article') ,3);
 ```
 
 `div` 태그는 하나도 없어야 합니다.
 
 ```js
-assert($('div').length == 0);
+assert.lengthOf(document.querySelectorAll('div'), 0);
 ```
 
 # --seed--

@@ -22,19 +22,25 @@ A barra de navegação no código CSS está rotulada com o id de `navbar`. Modif
 O elemento `#navbar` deve ter a propriedade `position` com o valor `fixed`.
 
 ```js
-assert($('#navbar').css('position') == 'fixed');
+const navbarElement = document.querySelector('#navbar');
+const navbarStyle = window.getComputedStyle(navbarElement);
+ assert.equal(navbarStyle?.position, 'fixed');
 ```
 
 A propriedade `top` deve ter o valor de 0 pixels no elemento `#navbar`.
 
 ```js
-assert($('#navbar').css('top') == '0px');
+const navbarElement = document.querySelector('#navbar');
+ const navbarStyle = window.getComputedStyle(navbarElement);
+assert.equal(navbarStyle?.top, '0px');
 ```
 
 A propriedade `left` deve ter o valor de 0 pixels no elemento `#navbar`.
 
 ```js
-assert($('#navbar').css('left') == '0px');
+const navbarElement = document.querySelector('#navbar');
+ const navbarStyle = window.getComputedStyle(navbarElement);
+ assert.equal(navbarStyle?.left, '0px');
 ```
 
 # --seed--

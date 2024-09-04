@@ -26,13 +26,13 @@ Camper Cat sta sperimentato colori per il testo e lo sfondo del suo blog, ma la 
 Il tuo codice dovrebbe cambiare solamente il valore di luminosità per la proprietà `color` del testo a un valore del 15%.
 
 ```js
-assert(code.match(/color:\s*?hsl\(0,\s*?55%,\s*?15%\)/gi));
+assert.match(code ,/color:\s*?hsl\(0,\s*?55%,\s*?15%\)/gi);
 ```
 
 Il tuo codice dovrebbe solamente portare il valore di luminosità per la proprietà `background-color` a un valore del 55%.
 
 ```js
-assert(code.match(/background-color:\s*?hsl\(120,\s*?25%,\s*?55%\)/gi));
+assert.match(code ,/background-color:\s*?hsl\(120,\s*?25%,\s*?55%\)/gi);
 ```
 
 # --seed--

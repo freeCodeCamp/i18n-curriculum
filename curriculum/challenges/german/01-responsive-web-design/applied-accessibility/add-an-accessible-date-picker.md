@@ -31,25 +31,25 @@ Camper Cat stellt ein Mortal Kombat-Turnier auf die Beine und möchte seine Teil
 Dein Code sollte einen `input` Tag für das Datumsauswahlfeld hinzufügen.
 
 ```js
-assert($('input').length == 2);
+assert.lengthOf(document.querySelectorAll('input'), 2);
 ```
 
 Dein `input`-Tag sollte ein `type`-Attribut mit einem Wert `date` enthalten.
 
 ```js
-assert($('input').attr('type') == 'date');
+assert.equal(document.querySelector('input')?.getAttribute('type'), 'date');
 ```
 
 Dein `input`-Tag sollte ein `id`-Attribut mit einem Wert `pickdate` enthalten.
 
 ```js
-assert($('input').attr('id') == 'pickdate');
+assert.equal(document.querySelector('input')?.getAttribute('id'),'pickdate');
 ```
 
 Dein `input`-Tag sollte ein `name`-Attribut mit einem Wert `date` enthalten.
 
 ```js
-assert($('input').attr('name') == 'date');
+assert.equal(document.querySelector('input')?.getAttribute('name'), 'date');
 ```
 
 # --seed--

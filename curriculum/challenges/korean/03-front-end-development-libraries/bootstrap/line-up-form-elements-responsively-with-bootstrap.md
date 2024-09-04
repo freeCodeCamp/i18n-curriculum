@@ -24,32 +24,33 @@ dashedName: line-up-form-elements-responsively-with-bootstrap
 폼 제출 버튼과 텍스트 입력란 요소는 `row` 클래스를 가진 div 하위에 있어야 합니다.
 
 ```js
-assert(
-  $('div.row:has(input[type="text"])').length > 0 &&
-    $('div.row:has(button[type="submit"])').length > 0
-);
+const textInput = document.querySelectorAll('div.row input[type="text"]'); 
+const submitInput = document.querySelectorAll('div.row button[type="submit"]');
+assert.lengthOf(textInput,1);
+assert.lengthOf(submitInput, 1);
 ```
 
 텍스트 입력란 요소는 `col-xs-7` 클래스가 있는 div 내에 들어있어야 합니다.
 
 ```js
-assert($('div.col-xs-7:has(input[type="text"])').length > 0);
+const textInput = document.querySelectorAll('div.col-xs-7 input[type="text"]'); 
+assert.lengthOf(textInput ,1);
 ```
 
 폼 제출 버튼은 `col-xs-5` 클래스가 있는 div 내에 들어있어야 합니다.
 
 ```js
-assert($('div.col-xs-5:has(button[type="submit"])').length > 0);
+const submitInput  = document.querySelectorAll('div.col-xs-5 button[type="submit"]'); 
+assert.lengthOf(submitInput ,1);
 ```
 
 모든 `div` 요소는 닫는 태그를 가져야 합니다.
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/g);
+assert.match(code,/<div/g);
+
+assert.equal(code.match(/<\/div>/g).length,code.match(/<div/g).length);
 ```
 
 # --seed--

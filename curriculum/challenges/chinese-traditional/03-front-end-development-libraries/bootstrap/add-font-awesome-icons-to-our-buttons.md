@@ -39,33 +39,34 @@ Font Awesome 是一個非常便利的圖標庫。 我們可以通過 webfont 或
 應添加一個 class 包含 `fas` 和 `fa-thumbs-up` 的 `i` 元素。
 
 ```js
-assert($('i').is('.fas.fa-thumbs-up') || $('span').is('.fas.fa-thumbs-up'));
+assert.isTrue(document.querySelector('i')?.classList?.value === 'fas fa-thumbs-up' || document.querySelector('span')?.classList?.value === 'fas fa-thumbs-up');
 ```
 
 Like 按鈕中應包含 `fa-thumbs-up` 圖標。
 
 ```js
-assert(
-  ($('i.fa-thumbs-up').parent().text().match(/Like/gi) &&
-    $('.btn-primary > i').is('.fas.fa-thumbs-up')) ||
-    ($('span.fa-thumbs-up').parent().text().match(/Like/gi) &&
-      $('.btn-primary > span').is('.fas.fa-thumbs-up'))
-);
+const iconTextContent = document.querySelector('i.fa-thumbs-up')?.parentNode?.textContent;  
+const spanTextContent = document.querySelector('span.fa-thumbs-up')?.parentNode?.textContent;  
+assert.isTrue(
+  (iconTextContent?.match(/Like/gi) &&
+    document.querySelector('.btn-primary > i') === document.querySelector('.fas.fa-thumbs-up')) ||
+    (spanTextContent?.match(/Like/gi) &&
+      document.querySelector('.btn-primary > span') === document.querySelector('.fas.fa-thumbs-up')));
 ```
 
 `i` 元素應出現在 `button` 元素內。
 
 ```js
-assert(
-  $('button').children('i').length > 0 ||
-    $('button').children('span').length > 0
-);
+const button = document.querySelector('button'); 
+const i = button?.querySelectorAll("i");
+const span =  button?.querySelectorAll("span");
+assert(i.length > 0 ||span.length > 0);
 ```
 
 表示圖標的元素應有閉合標籤。
 
 ```js
-assert(code.match(/<\/i>|<\/span>/g));
+assert.match(code, /(<\/i>|<\/span>)\s*Like\s*<\/button>/g);
 ```
 
 # --seed--

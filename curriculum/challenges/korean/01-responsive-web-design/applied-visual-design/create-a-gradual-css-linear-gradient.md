@@ -32,13 +32,9 @@ background: linear-gradient(90deg, red, yellow, rgb(204, 204, 255));
 `div` 요소는 지정된 방향과 색상을 가진 `linear-gradient` `background`을 가져야 합니다.
 
 ```js
-assert(
-  $('div')
-    .css('background-image')
-    .match(
-      /linear-gradient\(35deg, rgb\(204, 255, 255\), rgb\(255, 204, 204\)\)/gi
-    )
-);
+const divElement = document.querySelector('div');
+const divStyle = window.getComputedStyle(divElement); 
+assert.match(divStyle?.background, /linear-gradient\(35deg, rgb\(204, 255, 255\), rgb\(255, 204, 204\)\)/gi);
 ```
 
 # --seed--

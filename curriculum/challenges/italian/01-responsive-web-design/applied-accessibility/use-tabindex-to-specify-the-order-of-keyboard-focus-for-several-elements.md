@@ -36,25 +36,25 @@ Un'altra cosa da notare è che alcuni browser possono posizionarti al centro del
 Il tuo codice dovrebbe aggiungere un attributo `tabindex` al tag `input` di tipo `search`.
 
 ```js
-assert($('#search').attr('tabindex'));
+assert.isNotNull(document.querySelector('#search')?.getAttribute('tabindex'));
 ```
 
 Il tuo codice dovrebbe aggiungere un attributo `tabindex` al tag `input` di tipo `submit`.
 
 ```js
-assert($('#submit').attr('tabindex'));
+assert.isNotNull(document.querySelector('#submit')?.getAttribute('tabindex'));
 ```
 
 Il tuo codice dovrebbe impostare l'attributo `tabindex` del tag `input` di tipo `search` ad un valore di 1.
 
 ```js
-assert($('#search').attr('tabindex') == '1');
+assert.equal(document.querySelector('#search')?.getAttribute('tabindex'), '1');
 ```
 
 Il tuo codice dovrebbe impostare l'attributo `tabindex` del tag `input` di tipo `submit` a un valore di 2.
 
 ```js
-assert($('#submit').attr('tabindex') == '2');
+assert.equal(document.querySelector('#submit')?.getAttribute('tabindex'), '2');
 ```
 
 # --seed--

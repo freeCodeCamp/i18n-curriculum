@@ -22,7 +22,7 @@ Als Beispiel dient uns die Animation auf der rechten Seite, welche aus zwei Ster
 Die `@keyframes`-Regel der `star-1`-Klasse sollte bei 50 % liegen.
 
 ```js
-assert(code.match(/twinkle-1\s*?{\s*?50%/g));
+assert.match(code,/twinkle-1\s*?{\s*?50%/g);
 ```
 
 # --seed--

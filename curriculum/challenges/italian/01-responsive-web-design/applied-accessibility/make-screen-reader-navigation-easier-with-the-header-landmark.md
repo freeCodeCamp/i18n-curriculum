@@ -24,28 +24,27 @@ Camper Cat sta scrivendo alcuni grandi articoli sull'allenamento ninja, e vuole 
 Il tuo codice dovrebbe avere un tag `header`.
 
 ```js
-assert($('header').length == 1);
+assert.lengthOf(document.querySelectorAll('header'),1);
 ```
 
 I tag `header` dovrebbero racchiudere il tag `h1`.
 
 ```js
-assert($('header').children('h1').length == 1);
+const header = document.querySelector('header');
+const children = header?.querySelectorAll(`:scope ${'h1'}`);
+assert.lengthOf(children , 1);
 ```
 
 Il tuo codice non dovrebbe avere alcun tag `div`.
 
 ```js
-assert($('div').length == 0);
+assert.lengthOf(document.querySelectorAll('div') , 0);
 ```
 
 Il tuo elemento `header` dovrebbe avere un tag di chiusura.
 
 ```js
-assert(
-  code.match(/<\/header>/g) &&
-    code.match(/<\/header>/g).length === code.match(/<header>/g).length
-);
+assert.isTrue(code.match(/<\/header>/g)?.length === code.match(/<header>/g)?.length);
 ```
 
 # --seed--

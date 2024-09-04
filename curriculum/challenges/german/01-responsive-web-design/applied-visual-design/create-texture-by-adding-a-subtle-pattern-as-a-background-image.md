@@ -20,11 +20,7 @@ Lege unter Verwendung der URL `https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh
 Dein `body`-Element sollte eine `background`-Eigenschaft auf eine `url()` mit dem angegebenen Link setzen.
 
 ```js
-assert(
-  code.match(
-    /background(-image)?:\s*?url\(\s*("|'|)https:\/\/cdn-media-1\.freecodecamp\.org\/imgr\/MJAkxbh\.png\2\s*\)/gi
-  )
-);
+assert.match(code,/background(-image)?:\s*?url\(\s*("|'|)https:\/\/cdn-media-1\.freecodecamp\.org\/imgr\/MJAkxbh\.png\2\s*\)/gi);
 ```
 
 # --seed--

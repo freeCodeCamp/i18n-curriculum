@@ -22,7 +22,7 @@ dashedName: animate-elements-at-variable-rates
 class 爲 `star-1` 的元素的 `@keyframes` 規則應爲 50%。
 
 ```js
-assert(code.match(/twinkle-1\s*?{\s*?50%/g));
+assert.match(code,/twinkle-1\s*?{\s*?50%/g);
 ```
 
 # --seed--

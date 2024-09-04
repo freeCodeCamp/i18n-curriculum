@@ -17,37 +17,37 @@ Dê a cada um de seus elementos `button` o texto que corresponde ao seu seletor 
 O elemento `button` com o id `target1` deve ter o texto `#target1`.
 
 ```js
-assert(new RegExp('#target1', 'gi').test($('#target1').text()));
+assert.match(document.querySelector('#target1')?.textContent,/#target1/gi)
 ```
 
 O elemento `button` com o id `target2` deve ter o texto `#target2`.
 
 ```js
-assert(new RegExp('#target2', 'gi').test($('#target2').text()));
+assert.match(document.querySelector('#target2')?.textContent,/#target2/gi)
 ```
 
 O elemento `button` com o id `target3` deve ter o texto `#target3`.
 
 ```js
-assert(new RegExp('#target3', 'gi').test($('#target3').text()));
+assert.match(document.querySelector('#target3')?.textContent,/#target3/gi)
 ```
 
 O elemento `button` com o id `target4` deve ter o texto `#target4`.
 
 ```js
-assert(new RegExp('#target4', 'gi').test($('#target4').text()));
+assert.match(document.querySelector('#target4')?.textContent,/#target4/gi)
 ```
 
 Seu elemento `button` com o id `target5` deve ter o texto `#target5`.
 
 ```js
-assert(new RegExp('#target5', 'gi').test($('#target5').text()));
+assert.match(document.querySelector('#target5')?.textContent,/#target5/gi)
 ```
 
 Seu elemento `button` com o id `target6` deve ter o texto `#target6`.
 
 ```js
-assert(new RegExp('#target6', 'gi').test($('#target6').text()));
+assert.match(document.querySelector('#target6')?.textContent,/#target6/gi)
 ```
 
 # --seed--

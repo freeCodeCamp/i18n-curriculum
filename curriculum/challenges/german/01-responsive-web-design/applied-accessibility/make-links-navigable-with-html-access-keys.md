@@ -28,25 +28,25 @@ Camper Cat möchte, dass die Links rund um die beiden Blog-Artikel-Titel mit Tas
 Dein Code sollte ein `accesskey`-Attribut zum `a`-Tag mit der `id` von `first` hinzufügen.
 
 ```js
-assert($('#first').attr('accesskey'));
+assert.isTrue(document.querySelector('#first')?.hasAttribute('accesskey'));
 ```
 
 Dein Code sollte ein `accesskey`-Attribut zum `a`-Tag mit der `id` von `second` hinzufügen.
 
 ```js
-assert($('#second').attr('accesskey'));
+assert.isTrue(document.querySelector('#second')?.hasAttribute('accesskey'));
 ```
 
 Dein Code sollte das `accesskey`-Attribut auf dem `a`-Tag mit der `id` von `first` auf `g` setzen. Beachte, dass die Groß-/Kleinschreibung eine Rolle spielt.
 
 ```js
-assert($('#first').attr('accesskey') == 'g');
+assert.equal(document.querySelector('#first')?.getAttribute('accesskey'), 'g');
 ```
 
 Dein Code sollte das `accesskey`-Attribut auf dem `a`-Tag mit der `id` von `second` auf `c` setzen. Beachte, dass die Groß-/Kleinschreibung eine Rolle spielt.
 
 ```js
-assert($('#second').attr('accesskey') == 'c');
+assert.equal(document.querySelector('#second')?.getAttribute('accesskey'), 'c');
 ```
 
 # --seed--

@@ -24,32 +24,33 @@ dashedName: line-up-form-elements-responsively-with-bootstrap
 زر الإرسال النموذج الخاص بك وإدخال النص يجب أن يتداخلا في حوار يحتوي على فئة `row`.
 
 ```js
-assert(
-  $('div.row:has(input[type="text"])').length > 0 &&
-    $('div.row:has(button[type="submit"])').length > 0
-);
+const textInput = document.querySelectorAll('div.row input[type="text"]'); 
+const submitInput = document.querySelectorAll('div.row button[type="submit"]');
+assert.lengthOf(textInput,1);
+assert.lengthOf(submitInput, 1);
 ```
 
 يجب أن يكون إدخال النص الخاص بك متداخلا في عنصر مع الفئة `col-xs-7`.
 
 ```js
-assert($('div.col-xs-7:has(input[type="text"])').length > 0);
+const textInput = document.querySelectorAll('div.col-xs-7 input[type="text"]'); 
+assert.lengthOf(textInput ,1);
 ```
 
 زر الإرسال النموذج الخاص بك يجب أن يكون متداخلا في عنصر مع الفئة `col-xs-5`.
 
 ```js
-assert($('div.col-xs-5:has(button[type="submit"])').length > 0);
+const submitInput  = document.querySelectorAll('div.col-xs-5 button[type="submit"]'); 
+assert.lengthOf(submitInput ,1);
 ```
 
 لا بد أن يوجد وسم إغلاق لكل عناصر `div`.
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/g);
+assert.match(code,/<div/g);
+
+assert.equal(code.match(/<\/div>/g).length,code.match(/<div/g).length);
 ```
 
 # --seed--

@@ -22,19 +22,25 @@ dashedName: animate-multiple-elements-at-variable-rates
 `star-1` クラスの星が持つ `animation-duration` プロパティは、1 秒のままにします。
 
 ```js
-assert($('.star-1').css('animation-duration') == '1s');
+const starOne = document.querySelector('.star-1');
+const starOneStyle = window.getComputedStyle(starOne); 
+assert.equal(starOneStyle?.animationDuration, '1s');
 ```
 
 `star-2` クラスの星が持つ `animation-duration` プロパティは、0.9 秒でなければなりません。
 
 ```js
-assert($('.star-2').css('animation-duration') == '0.9s');
+const starTwo = document.querySelector('.star-2');
+const starTwoStyle = window.getComputedStyle(starTwo); 
+assert.equal(starTwoStyle?.animationDuration , '0.9s');
 ```
 
 `star-3` クラスの星が持つ `animation-duration` プロパティは、1.1 秒でなければなりません。
 
 ```js
-assert($('.star-3').css('animation-duration') == '1.1s');
+const starThree = document.querySelector('.star-3');
+const starThreeStyle = window.getComputedStyle(starThree); 
+assert.equal(starThreeStyle?.animationDuration, '1.1s');
 ```
 
 # --seed--

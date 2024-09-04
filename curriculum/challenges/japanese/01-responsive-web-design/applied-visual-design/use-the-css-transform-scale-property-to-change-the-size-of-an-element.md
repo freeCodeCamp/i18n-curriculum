@@ -26,10 +26,8 @@ id が `ball2` の要素のサイズを、元のサイズの 1.5 倍の大きさ
 `#ball2` の `transform` プロパティを、サイズが 1.5 倍に拡大するように設定してください。
 
 ```js
-assert(
-  code.match(
+assert.match(code,
     /#ball2\s*?{\s*?left:\s*?65%;\s*?transform:\s*?scale\(1\.5\);\s*?}|#ball2\s*?{\s*?transform:\s*?scale\(1\.5\);\s*?left:\s*?65%;\s*?}/gi
-  )
 );
 ```
 

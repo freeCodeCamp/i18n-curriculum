@@ -26,13 +26,13 @@ O Camper Cat tem grandes ideias para a página de armas ninja que ele criou. Aju
 O código deve ter uma tag `main`.
 
 ```js
-assert($('main').length == 1);
+assert.lengthOf(document.querySelectorAll('main'),1);
 ```
 
 A tag `main` deve estar entre a tag de fechamento `header` e a tag de abertura `footer`.
 
 ```js
-assert(code.match(/<\/header>\s*?<main>\s*?<\/main>/gi));
+assert.match(code,/<\/header>\s*?<main>\s*?<\/main>/gi);
 ```
 
 # --seed--

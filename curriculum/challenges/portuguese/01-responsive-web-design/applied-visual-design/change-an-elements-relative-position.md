@@ -33,13 +33,17 @@ No elemento `h2`, altere a propriedade `position` para `relative` e use a propri
 O elemento `h2` deve ter a propriedade `position` com o valor de `relative`.
 
 ```js
-assert($('h2').css('position') == 'relative');
+const h2Element =document.querySelector('h2')
+const h2Style = window.getComputedStyle(h2Element);
+assert.equal(h2Style?.position, 'relative');
 ```
 
 Você deve utilizar a propriedade CSS de deslocamento `top` para afastar o elemento `h2` em 15 pixels.
 
 ```js
-assert($('h2').css('top') == '15px');
+const h2Element =document.querySelector('h2')
+const h2Style = window.getComputedStyle(h2Element);
+assert.equal(h2Style?.top, '15px');
 ```
 
 # --seed--

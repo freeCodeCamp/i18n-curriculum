@@ -22,19 +22,25 @@ CSS が提供する次のレイアウトスキームは `fixed` ポジション�
 `#navbar` 要素の `position` を `fixed` に設定してください。
 
 ```js
-assert($('#navbar').css('position') == 'fixed');
+const navbarElement = document.querySelector('#navbar');
+const navbarStyle = window.getComputedStyle(navbarElement);
+ assert.equal(navbarStyle?.position, 'fixed');
 ```
 
 0 ピクセルの `top` CSS オフセットを `#navbar` 要素に使用する必要があります。
 
 ```js
-assert($('#navbar').css('top') == '0px');
+const navbarElement = document.querySelector('#navbar');
+ const navbarStyle = window.getComputedStyle(navbarElement);
+assert.equal(navbarStyle?.top, '0px');
 ```
 
 0 ピクセルの `left` CSS オフセットを `#navbar` 要素に使用する必要があります。
 
 ```js
-assert($('#navbar').css('left') == '0px');
+const navbarElement = document.querySelector('#navbar');
+ const navbarStyle = window.getComputedStyle(navbarElement);
+ assert.equal(navbarStyle?.left, '0px');
 ```
 
 # --seed--

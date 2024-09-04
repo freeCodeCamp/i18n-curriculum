@@ -19,30 +19,20 @@ dashedName: use-the-s-tag-to-strikethrough-text
 Ваш код має додати тег `s` у текст розмітки.
 
 ```js
-assert($('s').length == 1);
+assert.lengthOf(document.querySelectorAll('s'),1);
 ```
 
 Тег `s` повинен бути розміщеним навколо тексту `Google` в тезі `h4`. Він не повинен містити слово `Alphabet`.
 
 ```js
-assert(
-  $('h4 > s')
-    .text()
-    .match(/Google/gi) &&
-    !$('h4 > s')
-      .text()
-      .match(/Alphabet/gi)
-);
+assert.match(document.querySelector('h4 > s')?.textContent, /Google/gi);
+assert.notMatch(document.querySelector('h4 > s')?.textContent, /Alphabet/gi);
 ```
 
 Ви повинні додати слово `Alphabet` в тег `h4` без викреслення.
 
 ```js
-assert(
-  $('h4')
-    .html()
-    .match(/Alphabet/gi)
-);
+assert.match(document.querySelector('h4')?.innerHTML, /Alphabet/gi);
 ```
 
 # --seed--

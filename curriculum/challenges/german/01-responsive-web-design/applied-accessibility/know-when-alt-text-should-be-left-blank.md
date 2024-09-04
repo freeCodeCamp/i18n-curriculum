@@ -30,13 +30,13 @@ Camper Cat hat ein Seitengerüst für den Blog-Teil seiner Website codiert. Er p
 Dein `img`-Tag sollte ein `alt`-Attribut haben.
 
 ```js
-assert(!($('img').attr('alt') == undefined));
+assert.isTrue(document.querySelector('img')?.hasAttribute('alt'));
 ```
 
 Das `alt`-Attribut sollte auf einen leeren String gesetzt werden.
 
 ```js
-assert($('img').attr('alt') == '');
+assert.isEmpty(document.querySelector('img')?.getAttribute('alt'));
 ```
 
 # --seed--

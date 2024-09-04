@@ -22,37 +22,49 @@ A propriedade `font-weight` define a grossura ou finura dos caracteres de um tex
 No seletor `h1`, você deve definir a propriedade `font-weight` com o valor de 800.
 
 ```js
-assert($('h1').css('font-weight') == '800');
+const h1Element =document.querySelector('h1')
+const h1Style = window.getComputedStyle(h1Element);
+assert.equal(h1Style?.fontWeight, '800');
 ```
 
 No seletor `h2`, você deve definir a propriedade `font-weight` com o valor de 600.
 
 ```js
-assert($('h2').css('font-weight') == '600');
+const h2Element =document.querySelector('h2')
+const h2Style = window.getComputedStyle(h2Element);
+assert.equal(h2Style?.fontWeight, '600');
 ```
 
 No seletor `h3`, você deve definir a propriedade `font-weight` com o valor de 500.
 
 ```js
-assert($('h3').css('font-weight') == '500');
+const h3Element =document.querySelector('h3')
+const h3Style = window.getComputedStyle(h3Element);
+assert.equal(h3Style?.fontWeight, '500');
 ```
 
 No seletor `h4`, você deve definir a propriedade `font-weight` com o valor de 400.
 
 ```js
-assert($('h4').css('font-weight') == '400');
+const h4Element =document.querySelector('h4')
+const h4Style = window.getComputedStyle(h4Element);
+assert.equal(h4Style?.fontWeight, '400');
 ```
 
 No seletor `h5`, você deve definir a propriedade `font-weight` com o valor de 300.
 
 ```js
-assert($('h5').css('font-weight') == '300');
+const h5Element =document.querySelector('h5')
+const h5Style = window.getComputedStyle(h5Element);
+assert.equal(h5Style?.fontWeight, '300');
 ```
 
 No seletor `h6`, você deve definir a propriedade `font-weight` com o valor de 200.
 
 ```js
-assert($('h6').css('font-weight') == '200');
+const h6Element =document.querySelector('h6')
+const h6Style = window.getComputedStyle(h6Element);
+assert.equal(h6Style?.fontWeight, '200');
 ```
 
 # --seed--

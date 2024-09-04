@@ -36,25 +36,25 @@ dashedName: use-tabindex-to-specify-the-order-of-keyboard-focus-for-several-elem
 `tabindex` 속성을 `search` `input` 태그에 추가해야 합니다.
 
 ```js
-assert($('#search').attr('tabindex'));
+assert.isNotNull(document.querySelector('#search')?.getAttribute('tabindex'));
 ```
 
 `tabindex` 속성을 `submit` `input` 태그에 추가해야 합니다.
 
 ```js
-assert($('#submit').attr('tabindex'));
+assert.isNotNull(document.querySelector('#submit')?.getAttribute('tabindex'));
 ```
 
 `search` `input` 태그에 있는 `tabindex` 속성을 1로 설정해야 합니다.
 
 ```js
-assert($('#search').attr('tabindex') == '1');
+assert.equal(document.querySelector('#search')?.getAttribute('tabindex'), '1');
 ```
 
 `submit` `input` 태그에 있는 `tabindex` 속성을 2로 설정해야 합니다.
 
 ```js
-assert($('#submit').attr('tabindex') == '2');
+assert.equal(document.querySelector('#submit')?.getAttribute('tabindex'), '2');
 ```
 
 # --seed--

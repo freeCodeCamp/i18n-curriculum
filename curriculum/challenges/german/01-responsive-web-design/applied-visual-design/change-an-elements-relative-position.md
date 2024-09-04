@@ -33,13 +33,17 @@ Wenn du die Position eines Elements auf relativ änderst, wird es nicht aus dem 
 Das `h2`-Element sollte eine `position`-Eigenschaft haben, die auf `relative` gesetzt ist.
 
 ```js
-assert($('h2').css('position') == 'relative');
+const h2Element =document.querySelector('h2')
+const h2Style = window.getComputedStyle(h2Element);
+assert.equal(h2Style?.position, 'relative');
 ```
 
 Dein Code sollte einen CSS-Offset verwenden, um das `h2` 15px relativ von `top` zu positionieren, wo es normalerweise sitzt.
 
 ```js
-assert($('h2').css('top') == '15px');
+const h2Element =document.querySelector('h2')
+const h2Style = window.getComputedStyle(h2Element);
+assert.equal(h2Style?.top, '15px');
 ```
 
 # --seed--

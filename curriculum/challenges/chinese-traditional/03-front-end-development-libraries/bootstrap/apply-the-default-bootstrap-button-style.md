@@ -17,13 +17,13 @@ Bootstrap 還有另外一種按鈕 class 屬性叫做 `btn-default`。
 應該將 `btn` class 添加到所有的 `button` 元素中。
 
 ```js
-assert($('.btn').length > 5);
+assert.lengthOf(document.querySelectorAll('.btn'),6);
 ```
 
 應該將 `btn-default` class 添加到每一個 `button` 元素中。
 
 ```js
-assert($('.btn-default').length > 5);
+assert.lengthOf(document.querySelectorAll('.btn-default'), 6);
 ```
 
 # --seed--

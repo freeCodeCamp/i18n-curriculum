@@ -22,13 +22,17 @@ dashedName: make-a-css-heartbeat-using-an-infinite-animation-count
 `heart` クラスの `animation-iteration-count` プロパティは `infinite` の値を持つ必要があります。
 
 ```js
-assert($('.heart').css('animation-iteration-count') == 'infinite');
+const heartElement = document.querySelector('.heart');
+ const heartStyle = window.getComputedStyle(heartElement);
+ assert.equal(heartStyle?.animationIterationCount, 'infinite');
 ```
 
 `back` クラスの `animation-iteration-count` プロパティは `infinite` の値を持つ必要があります。
 
 ```js
-assert($('.back').css('animation-iteration-count') == 'infinite');
+const backElement = document.querySelector('.back');
+ const backStyle = window.getComputedStyle(backElement);
+ assert.equal(backStyle?.animationIterationCount, 'infinite');
 ```
 
 # --seed--

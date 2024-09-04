@@ -24,11 +24,10 @@ Setze die `opacity` der Ankertags auf 0.7 und wähle sie mit der `links`-Klasse 
 Dein Code sollte die Eigenschaft `opacity` der Ankertags auf 0.7 setzen, indem du die Klasse `links` auswählst.
 
 ```js
-assert(
-  /\.links\s*{([\s\S]*?;)*\s*opacity\s*:\s*0*\.70*\s*(;[\s\S]*?|\s*)}/.test(
-    $('style').text()
-  )
-);
+assert.match(
+  document.querySelector('style')?.textContent,
+  /\.links\s*{([\s\S]*?;)*\s*opacity\s*:\s*0*\.70*\s*(;[\s\S]*?|\s*)}/
+  );
 ```
 
 # --seed--

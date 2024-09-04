@@ -20,13 +20,16 @@ dashedName: use-the-em-tag-to-italicize-text
 コード内でマークアップに `em` タグを 1 つ追加する必要があります。
 
 ```js
-assert($('em').length == 1);
+assert.lengthOf(document.querySelectorAll('em'),1);
 ```
 
 `em` タグは `p` タグの内容を囲む必要がありますが、`p` タグ自体は含めないようにしてください。
 
 ```js
-assert($('p').children().length == 1 && $('em').children().length == 2);
+const paragraphElement = document.querySelector('p');
+const emElement = document.querySelector('em');
+assert.lengthOf(paragraphElement?.children, 1);
+assert.lengthOf(emElement?.children, 2);
 ```
 
 # --seed--

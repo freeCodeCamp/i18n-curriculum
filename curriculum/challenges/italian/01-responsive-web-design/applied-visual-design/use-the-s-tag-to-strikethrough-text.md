@@ -19,30 +19,20 @@ Avvolgi le tag `s` attorno a `Google` dentro le tag `h4` e poi aggiungi la parol
 Il tuo codice dovrebbe aggiungere un tag `s` al markup.
 
 ```js
-assert($('s').length == 1);
+assert.lengthOf(document.querySelectorAll('s'),1);
 ```
 
 Un tag `s` dovrebbe avvolgere il testo `Google` nel tag `h4`. Esso non dovrebbe contenere la parola `Alphabet`.
 
 ```js
-assert(
-  $('h4 > s')
-    .text()
-    .match(/Google/gi) &&
-    !$('h4 > s')
-      .text()
-      .match(/Alphabet/gi)
-);
+assert.match(document.querySelector('h4 > s')?.textContent, /Google/gi);
+assert.notMatch(document.querySelector('h4 > s')?.textContent, /Alphabet/gi);
 ```
 
 Dovresti includere la parola `Alphabet` nel tag `h4`, senza formattazione barrata.
 
 ```js
-assert(
-  $('h4')
-    .html()
-    .match(/Alphabet/gi)
-);
+assert.match(document.querySelector('h4')?.innerHTML, /Alphabet/gi);
 ```
 
 # --seed--

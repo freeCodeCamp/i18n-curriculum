@@ -22,19 +22,25 @@ dashedName: animate-multiple-elements-at-variable-rates
 클래스가 `star-1`인 별의 `animation-duration` 속성은 1초로 유지되어야 합니다.
 
 ```js
-assert($('.star-1').css('animation-duration') == '1s');
+const starOne = document.querySelector('.star-1');
+const starOneStyle = window.getComputedStyle(starOne); 
+assert.equal(starOneStyle?.animationDuration, '1s');
 ```
 
 클래스가 `star-2`인 별의 `animation-duration` 속성은 0.9초여야 합니다.
 
 ```js
-assert($('.star-2').css('animation-duration') == '0.9s');
+const starTwo = document.querySelector('.star-2');
+const starTwoStyle = window.getComputedStyle(starTwo); 
+assert.equal(starTwoStyle?.animationDuration , '0.9s');
 ```
 
 클래스가 `star-3`인 별의 `animation-duration` 속성은 1.1초여야 합니다.
 
 ```js
-assert($('.star-3').css('animation-duration') == '1.1s');
+const starThree = document.querySelector('.star-3');
+const starThreeStyle = window.getComputedStyle(starThree); 
+assert.equal(starThreeStyle?.animationDuration, '1.1s');
 ```
 
 # --seed--

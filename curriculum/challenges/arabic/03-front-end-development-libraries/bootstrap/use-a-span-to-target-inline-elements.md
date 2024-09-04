@@ -31,35 +31,28 @@ dashedName: use-a-span-to-target-inline-elements
 يجب أن يكون عنصر `span` داخل عنصر `p` الخاص بك.
 
 ```js
-assert($('p span') && $('p span').length > 0);
+assert.lengthOf(document.querySelectorAll('p span'),1);
 ```
 
 يجب أن يحتوي عنصر `span` على النص `love` فقط.
 
 ```js
-assert(
-  $('p span') &&
-    $('p span').text().match(/love/i) &&
-    !$('p span')
-      .text()
-      .match(/Things cats/i)
-);
+assert.match(document.querySelector('p span')?.textContent,/love/i);
+assert.notMatch(document.querySelector('p span')?.textContent, /Things cats/i);
 ```
 
 يجب أن يحتوي عنصر `span` الخاص بك على فئة `text-danger`.
 
 ```js
-assert($('span').hasClass('text-danger'));
+assert.isTrue(document.querySelector('span')?.classList?.contains('text-danger'));
 ```
 
 يجب أن يكون عنصر `span` الخاص بك علامة إغلاق.
 
 ```js
-assert(
-  code.match(/<\/span>/g) &&
-    code.match(/<span/g) &&
-    code.match(/<\/span>/g).length === code.match(/<span/g).length
-);
+assert.match(code,/<\/span>/g);
+assert.match(code,/<span/g);
+assert.equal(code.match(/<\/span>/g).length,code.match(/<span/g).length);
 ```
 
 # --seed--

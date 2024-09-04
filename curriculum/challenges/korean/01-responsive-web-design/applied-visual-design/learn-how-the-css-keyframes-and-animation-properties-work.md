@@ -44,37 +44,41 @@ dashedName: learn-how-the-css-keyframes-and-animation-properties-work
 `rect`라는 id를 가진 요소는 `animation-name`이라는 속성을 가져야 하며 이 속성값은 `rainbow`어야 합니다.
 
 ```js
-assert($('#rect').css('animation-name') == 'rainbow');
+const rectElement = document.querySelector('#rect');
+const rectStyle = window.getComputedStyle(rectElement);
+assert.equal(rectStyle?.animationName, 'rainbow');
 ```
 
 `rect`라는 id를 가진 요소는 `animation-duration`이라는 속성을 가져야 하며 이 속성값은 4초로 지정돼야 합니다.
 
 ```js
-assert($('#rect').css('animation-duration') == '4s');
+const rectElement = document.querySelector('#rect');
+const rectStyle = window.getComputedStyle(rectElement);
+assert.equal(rectStyle?.animationDuration, '4s');
 ```
 
 `@keyframes`규칙은 `rainbow`라는 `animation-name`에 적용됩니다.
 
 ```js
-assert(code.match(/@keyframes\s+?rainbow\s*?{/g));
+assert.match(code ,/@keyframes\s+?rainbow\s*?{/g);
 ```
 
 `rainbow`에 적용되는 `@keyframes` 규칙은 0%에서 `background-color`를 `blue`로 설정해야 합니다.
 
 ```js
-assert(code.match(/0%\s*?{\s*?background-color:\s*?blue;\s*?}/gi));
+assert.match(code,/0%\s*?{\s*?background-color:\s*?blue;\s*?}/gi);
 ```
 
 `rainbow`에 적용되는 `@keyframes` 규칙은 50%에서 `background-color`를 `green`로 설정해야 합니다.
 
 ```js
-assert(code.match(/50%\s*?{\s*?background-color:\s*?green;\s*?}/gi));
+assert.match(code,/50%\s*?{\s*?background-color:\s*?green;\s*?}/gi);
 ```
 
 `rainbow`에 적용되는 `@keyframes` 규칙은 100%에서 `background-color`를 `yellow`로 설정해야 합니다.
 
 ```js
-assert(code.match(/100%\s*?{\s*?background-color:\s*?yellow;\s*?}/gi));
+assert.match(code,/100%\s*?{\s*?background-color:\s*?yellow;\s*?}/gi);
 ```
 
 # --seed--

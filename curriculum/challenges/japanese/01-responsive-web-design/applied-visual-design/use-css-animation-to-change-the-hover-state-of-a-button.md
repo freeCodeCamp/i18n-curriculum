@@ -44,13 +44,13 @@ CSS の `@keyframes` を使用して `button` 要素の `background-color` を�
 @keyframes ルールは background-color という `animation-name` を使う必要があります。
 
 ```js
-assert(code.match(/@keyframes\s+?background-color\s*?{/g));
+assert.match(code, /@keyframes\s+?background-color\s*?{/g);
 ```
 
 `@keyframes` には、100% 時点で `background-color` を `#4791d0` に変更するルール 1 つだけがあるようにしてください。
 
 ```js
-assert(code.match(/100%\s*?{\s*?background-color:\s*?#4791d0;\s*?}/gi));
+assert.match(code, /100%\s*?{\s*?background-color:\s*?#4791d0;\s*?}/gi);
 ```
 
 # --seed--

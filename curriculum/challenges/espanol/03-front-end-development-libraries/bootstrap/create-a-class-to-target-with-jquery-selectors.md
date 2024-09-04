@@ -17,7 +17,7 @@ Dale a cada uno de tus elementos `button` la clase `target`.
 Debes aplicar la clase `target` a cada uno de tus elementos `button`.
 
 ```js
-assert($('.target').length > 5);
+assert.lengthOf(document.querySelectorAll('.target'),6);
 ```
 
 # --seed--

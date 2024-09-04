@@ -33,13 +33,13 @@ Camper Cat は彼の示唆に富んだブログ記事に多くの関心が寄せ
 `label` タグの `for` 属性は空にしてはいけません。
 
 ```js
-assert($('label').attr('for'));
+assert.isNotEmpty(document.querySelector('label')?.getAttribute('for'));
 ```
 
 `for` 属性の値は電子メールの `input` の `id` 値と一致している必要があります。
 
 ```js
-assert($('label').attr('for') == 'email');
+assert.equal(document.querySelector('label')?.getAttribute('for'), 'email');
 ```
 
 # --seed--

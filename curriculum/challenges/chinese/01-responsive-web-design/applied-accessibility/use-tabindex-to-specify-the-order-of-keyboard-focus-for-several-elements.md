@@ -36,25 +36,25 @@ Camper Cat 在他的励志名言页面中有一个搜索区域，他打算使用
 应给 `search` `input` 标签添加一个 `tabindex` 属性。
 
 ```js
-assert($('#search').attr('tabindex'));
+assert.isNotNull(document.querySelector('#search')?.getAttribute('tabindex'));
 ```
 
 应给 `submit` `input` 标签添加一个 `tabindex` 属性。
 
 ```js
-assert($('#submit').attr('tabindex'));
+assert.isNotNull(document.querySelector('#submit')?.getAttribute('tabindex'));
 ```
 
 `search` `input` 标签的 `tabindex` 属性值应为 1。
 
 ```js
-assert($('#search').attr('tabindex') == '1');
+assert.equal(document.querySelector('#search')?.getAttribute('tabindex'), '1');
 ```
 
 `submit` `input` 标签的 `tabindex` 属性值应为 2。
 
 ```js
-assert($('#submit').attr('tabindex') == '2');
+assert.equal(document.querySelector('#submit')?.getAttribute('tabindex'), '2');
 ```
 
 # --seed--

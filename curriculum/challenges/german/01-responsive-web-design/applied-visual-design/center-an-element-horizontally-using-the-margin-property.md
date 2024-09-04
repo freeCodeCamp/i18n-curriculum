@@ -22,7 +22,7 @@ Zentriere das `div` auf dieser Seite, indem du eine `margin`-Eigenschaft mit ein
 Das `div` sollte eine `margin` mit einem Wert von `auto` haben.
 
 ```js
-assert(new __helpers.CSSHelp(document).getStyle('div')?.margin === 'auto');
+assert.equal(new __helpers.CSSHelp(document).getStyle('div')?.margin ,'auto');
 ```
 
 # --seed--

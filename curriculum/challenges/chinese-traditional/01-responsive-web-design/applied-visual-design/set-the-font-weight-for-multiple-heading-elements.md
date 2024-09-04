@@ -22,37 +22,49 @@ dashedName: set-the-font-weight-for-multiple-heading-elements
 `h1` 標籤的 `font-weight` 屬性值應爲 800。
 
 ```js
-assert($('h1').css('font-weight') == '800');
+const h1Element =document.querySelector('h1')
+const h1Style = window.getComputedStyle(h1Element);
+assert.equal(h1Style?.fontWeight, '800');
 ```
 
 `h2` 標籤的 `font-weight` 屬性值應爲 600。
 
 ```js
-assert($('h2').css('font-weight') == '600');
+const h2Element =document.querySelector('h2')
+const h2Style = window.getComputedStyle(h2Element);
+assert.equal(h2Style?.fontWeight, '600');
 ```
 
 `h3` 標籤的 `font-weight` 屬性值應爲 500。
 
 ```js
-assert($('h3').css('font-weight') == '500');
+const h3Element =document.querySelector('h3')
+const h3Style = window.getComputedStyle(h3Element);
+assert.equal(h3Style?.fontWeight, '500');
 ```
 
 `h4` 標籤的 `font-weight` 屬性值應爲 400。
 
 ```js
-assert($('h4').css('font-weight') == '400');
+const h4Element =document.querySelector('h4')
+const h4Style = window.getComputedStyle(h4Element);
+assert.equal(h4Style?.fontWeight, '400');
 ```
 
 `h5` 標籤的 `font-weight` 屬性值應爲 300。
 
 ```js
-assert($('h5').css('font-weight') == '300');
+const h5Element =document.querySelector('h5')
+const h5Style = window.getComputedStyle(h5Element);
+assert.equal(h5Style?.fontWeight, '300');
 ```
 
 `h6` 標籤的 `font-weight` 屬性值應爲 200。
 
 ```js
-assert($('h6').css('font-weight') == '200');
+const h6Element =document.querySelector('h6')
+const h6Style = window.getComputedStyle(h6Element);
+assert.equal(h6Style?.fontWeight, '200');
 ```
 
 # --seed--

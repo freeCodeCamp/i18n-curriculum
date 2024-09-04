@@ -20,19 +20,19 @@ A página de treinamento do Camper Cat está avançando bem. Altere a `div` que 
 O código deve ter uma tag `footer`.
 
 ```js
-assert($('footer').length == 1);
+assert.lengthOf(document.querySelectorAll('footer') ,1);
 ```
 
 O código não deve ter nenhuma tag `div`.
 
 ```js
-assert($('div').length == 0);
+assert.lengthOf(document.querySelectorAll('div'), 0);
 ```
 
 O código deve ter uma tag de abertura e fechamento `footer`.
 
 ```js
-assert(code.match(/<footer>\s*&copy; 2018 Camper Cat\s*<\/footer>/g));
+assert.match(code,/<footer>\s*&copy; 2018 Camper Cat\s*<\/footer>/g);
 ```
 
 # --seed--

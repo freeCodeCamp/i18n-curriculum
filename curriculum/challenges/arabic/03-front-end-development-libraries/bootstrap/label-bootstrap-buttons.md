@@ -17,37 +17,37 @@ dashedName: label-bootstrap-buttons
 `button` الخاص بك مع المعرف `target1` يجب أن يحتوي على النص `#target1`.
 
 ```js
-assert(new RegExp('#target1', 'gi').test($('#target1').text()));
+assert.match(document.querySelector('#target1')?.textContent,/#target1/gi)
 ```
 
 `button` الخاص بك مع المعرف `target2` يجب أن يحتوي على النص `#target2`.
 
 ```js
-assert(new RegExp('#target2', 'gi').test($('#target2').text()));
+assert.match(document.querySelector('#target2')?.textContent,/#target2/gi)
 ```
 
 `button` الخاص بك مع المعرف `target3` يجب أن يحتوي على النص `#target3`.
 
 ```js
-assert(new RegExp('#target3', 'gi').test($('#target3').text()));
+assert.match(document.querySelector('#target3')?.textContent,/#target3/gi)
 ```
 
 `button` الخاص بك مع المعرف `target4` يجب أن يحتوي على النص `#target4`.
 
 ```js
-assert(new RegExp('#target4', 'gi').test($('#target4').text()));
+assert.match(document.querySelector('#target4')?.textContent,/#target4/gi)
 ```
 
 `button` الخاص بك مع المعرف `target5` يجب أن يحتوي على النص `#target5`.
 
 ```js
-assert(new RegExp('#target5', 'gi').test($('#target5').text()));
+assert.match(document.querySelector('#target5')?.textContent,/#target5/gi)
 ```
 
 `button` الخاص بك مع المعرف `target6` يجب أن يحتوي على النص `#target6`.
 
 ```js
-assert(new RegExp('#target6', 'gi').test($('#target6').text()));
+assert.match(document.querySelector('#target6')?.textContent,/#target6/gi)
 ```
 
 # --seed--

@@ -28,13 +28,13 @@ Camper Cat ha usato i tag `article` per racchiudere i post sulla sua pagina del 
 Il tuo codice dovrebbe avere tre tag `article`.
 
 ```js
-assert($('article').length == 3);
+assert.lengthOf(document.querySelectorAll('article') ,3);
 ```
 
 Il tuo codice non dovrebbe avere nessun tag `div`.
 
 ```js
-assert($('div').length == 0);
+assert.lengthOf(document.querySelectorAll('div'), 0);
 ```
 
 # --seed--

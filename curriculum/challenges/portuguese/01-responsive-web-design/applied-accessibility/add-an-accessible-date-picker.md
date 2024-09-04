@@ -31,25 +31,25 @@ O Camper Cat está organizando um campeonato de Mortal Kombat e quer perguntar p
 O código deve adicionar uma tag `input` para o campo seletor de data.
 
 ```js
-assert($('input').length == 2);
+assert.lengthOf(document.querySelectorAll('input'), 2);
 ```
 
 A tag `input` deve ter um atributo `type` com o valor `date`.
 
 ```js
-assert($('input').attr('type') == 'date');
+assert.equal(document.querySelector('input')?.getAttribute('type'), 'date');
 ```
 
 A tag `input` deve ter um atributo `id` com o valor `pickdate`.
 
 ```js
-assert($('input').attr('id') == 'pickdate');
+assert.equal(document.querySelector('input')?.getAttribute('id'),'pickdate');
 ```
 
 A tag `input` deve ter um atributo `name` com o valor `date`.
 
 ```js
-assert($('input').attr('name') == 'date');
+assert.equal(document.querySelector('input')?.getAttribute('name'), 'date');
 ```
 
 # --seed--

@@ -44,13 +44,13 @@ Use a regra CSS `@keyframes` para alterar a propriedade `background-color` do el
 A regra @keyframes deve usar como nome o valor da propriedade `animation-name`, que é background-color.
 
 ```js
-assert(code.match(/@keyframes\s+?background-color\s*?{/g));
+assert.match(code, /@keyframes\s+?background-color\s*?{/g);
 ```
 
 Deve haver uma regra no `@keyframes` que altera a propriedade `background-color` para `#4791d0` quando a animação estiver em 100%.
 
 ```js
-assert(code.match(/100%\s*?{\s*?background-color:\s*?#4791d0;\s*?}/gi));
+assert.match(code, /100%\s*?{\s*?background-color:\s*?#4791d0;\s*?}/gi);
 ```
 
 # --seed--

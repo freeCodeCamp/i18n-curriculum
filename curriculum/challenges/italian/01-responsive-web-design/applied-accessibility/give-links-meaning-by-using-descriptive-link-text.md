@@ -22,26 +22,19 @@ Il testo del link che Camper Cat usa, privato del contesto, non è molto descrit
 Il tuo codice dovrebbe spostare gli anchor tag `a` dalla loro posizione intorno alle parole `Click here` per racchiudere le parole `information about batteries`.
 
 ```js
-assert(
-  $('a')
-    .text()
-    .match(/^(information about batteries)$/g)
-);
+assert.match(document.querySelector('a')?.textContent, /^(information about batteries)$/g);
 ```
 
 L'elemento `a` dovrebbe avere un attributo `href` con un valore di una stringa vuota `""`.
 
 ```js
-assert($('a').attr('href') === '');
+assert.isEmpty(document.querySelector('a')?.getAttribute('href'));
 ```
 
 L'elemento `a` dovrebbe avere un tag di chiusura.
 
 ```js
-assert(
-  code.match(/<\/a>/g) &&
-    code.match(/<\/a>/g).length === code.match(/<a href=(''|"")>/g).length
-);
+assert.isTrue(code.match(/<\/a>/g)?.length === code.match(/<a href=(''|"")>/g)?.length);
 ```
 
 # --seed--

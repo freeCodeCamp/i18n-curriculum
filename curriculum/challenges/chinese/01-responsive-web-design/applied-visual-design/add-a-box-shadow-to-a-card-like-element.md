@@ -40,7 +40,7 @@ box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 应该给 id 为 `thumbnail` 的元素添加 `box-shadow` 属性。
 
 ```js
-assert(code.match(/#thumbnail\s*?{\s*?box-shadow/g));
+assert.match(code,(/#thumbnail\s*?{\s*?box-shadow/g));
 ```
 
 `box-shadow` 属性值应该是题目说明中指定的 CSS 值。

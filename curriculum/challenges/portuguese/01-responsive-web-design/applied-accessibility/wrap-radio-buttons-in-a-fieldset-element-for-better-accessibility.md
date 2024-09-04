@@ -40,34 +40,31 @@ O Camper Cat quer informações sobre o nível ninja dos usuários quando eles s
 O código deve ter uma tag `fieldset` ao redor do grupo de botões de opção.
 
 ```js
-assert($('fieldset').length == 1);
+assert.lengthOf(document.querySelectorAll('fieldset'),1);
 ```
 
 O elemento `fieldset` deve ter uma tag de fechamento.
 
 ```js
-assert(
-  code.match(/<\/fieldset>/g) &&
-    code.match(/<\/fieldset>/g).length === code.match(/<fieldset>/g).length
-);
+assert.isTrue(code.match(/<\/fieldset>/g)?.length === code.match(/<fieldset>/g)?.length);
 ```
 
 O código deve ter uma tag `legend` ao redor do texto perguntando em que nível ninja o usuário está.
 
 ```js
-assert($('legend').length == 1);
+assert.lengthOf(document.querySelectorAll('legend') ,1);
 ```
 
 O código não deve ter nenhuma tag `div`.
 
 ```js
-assert($('div').length == 0);
+assert.lengthOf(document.querySelectorAll('div') ,0);
 ```
 
 O código não deve mais ter uma tag `p` ao redor do texto perguntando em que nível ninja o usuário está.
 
 ```js
-assert($('p').length == 4);
+assert.lengthOf(document.querySelectorAll('p') ,4);
 ```
 
 # --seed--

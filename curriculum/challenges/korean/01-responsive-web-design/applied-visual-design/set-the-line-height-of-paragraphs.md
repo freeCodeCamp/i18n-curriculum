@@ -20,7 +20,9 @@ CSS의 `line-height` 속성은 텍스트 블록에서 각 줄 높이를 변경�
 코드에서 `p` 태그의 `line-height` 값을 25 픽셀로 설정해야 합니다.
 
 ```js
-assert($('p').css('line-height') == '25px');
+const pElement =document.querySelector('p')
+const pStyle = window.getComputedStyle(pElement);
+assert.equal(pStyle?.lineHeight, '25px');
 ```
 
 # --seed--

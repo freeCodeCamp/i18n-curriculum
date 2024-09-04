@@ -33,13 +33,17 @@ Cambia la `position` di `h2` a `relative`, e usa un offset CSS per spostarlo a 1
 L'elemento `h2` dovrebbe avere una proprietà `position` impostata a `relative`.
 
 ```js
-assert($('h2').css('position') == 'relative');
+const h2Element =document.querySelector('h2')
+const h2Style = window.getComputedStyle(h2Element);
+assert.equal(h2Style?.position, 'relative');
 ```
 
 Il tuo codice dovrebbe utilizzare un offset CSS per posizionare relativamente `h2` a 15px dal `top` rispetto a dove si troverebbe normalmente.
 
 ```js
-assert($('h2').css('top') == '15px');
+const h2Element =document.querySelector('h2')
+const h2Style = window.getComputedStyle(h2Element);
+assert.equal(h2Style?.top, '15px');
 ```
 
 # --seed--

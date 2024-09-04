@@ -26,7 +26,9 @@ dashedName: >-
 Ваш код має змінити колір тексту `color` для кнопки `button` на темно-блакитний.
 
 ```js
-assert($('button').css('color') == 'rgb(0, 51, 102)');
+const button = document.querySelector('button');
+const buttonColor = window.getComputedStyle(button).color; 
+assert.equal(buttonColor, 'rgb(0, 51, 102)');
 ```
 
 # --seed--

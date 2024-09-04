@@ -20,7 +20,7 @@ Inclina el elemento con el id de `top` -10 grados a lo largo del eje Y utilizand
 El elemento con id `top` debe estar inclinado en -10 grados a lo largo de su eje Y.
 
 ```js
-assert(code.match(/#top\s*?{\s*?.*?\s*?transform:\s*?skewY\(-10deg\);/g));
+assert.match(code, /#top\s*?{\s*?.*?\s*?transform:\s*?skewY\(-10deg\);/g);
 ```
 
 # --seed--

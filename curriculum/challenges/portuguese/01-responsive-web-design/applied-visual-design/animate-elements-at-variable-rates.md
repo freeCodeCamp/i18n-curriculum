@@ -22,7 +22,7 @@ Altere o momento da animação do elemento que possui a classe `star-1` trocando
 A regra `@keyframes` para a classe `star-1` deve ter o valor de 50%.
 
 ```js
-assert(code.match(/twinkle-1\s*?{\s*?50%/g));
+assert.match(code,/twinkle-1\s*?{\s*?50%/g);
 ```
 
 # --seed--

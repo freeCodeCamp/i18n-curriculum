@@ -22,19 +22,25 @@ dashedName: lock-an-element-to-its-parent-with-absolute-positioning
 Елемент `#searchbar` має містити `position`, встановлену на `absolute`.
 
 ```js
-assert($('#searchbar').css('position') == 'absolute');
+const searchbarElement = document.querySelector('#searchbar');
+const searchbarStyle = window.getComputedStyle(searchbarElement);
+assert.equal(searchbarStyle?.position, 'absolute');
 ```
 
 Ваш код має використовувати зміщення CSS `top` зі значенням 50 пікселів на елементі `#searchbar`.
 
 ```js
-assert($('#searchbar').css('top') == '50px');
+const searchbarElement = document.querySelector('#searchbar');
+const searchbarStyle = window.getComputedStyle(searchbarElement);
+assert.equal(searchbarStyle?.top, '50px');
 ```
 
 Ваш код має використовувати зміщення CSS `right` зі значенням 50 пікселів на елементі `#searchbar`.
 
 ```js
-assert($('#searchbar').css('right') == '50px');
+const searchbarElement = document.querySelector('#searchbar');
+const searchbarStyle = window.getComputedStyle(searchbarElement);
+assert.equal(searchbarStyle?.right, '50px');
 ```
 
 # --seed--

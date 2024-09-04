@@ -26,7 +26,9 @@ dashedName: >-
 여러분의 코드는 `button` 의 텍스트 `color` 를 어두운 파랑으로 바꾸어야 합니다.
 
 ```js
-assert($('button').css('color') == 'rgb(0, 51, 102)');
+const button = document.querySelector('button');
+const buttonColor = window.getComputedStyle(button).color; 
+assert.equal(buttonColor, 'rgb(0, 51, 102)');
 ```
 
 # --seed--

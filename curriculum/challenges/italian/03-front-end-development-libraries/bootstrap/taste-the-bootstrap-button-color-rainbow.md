@@ -19,23 +19,22 @@ Nota che questo pulsante avrà ancora bisogno delle classi `btn` e `btn-block`.
 Il tuo pulsante dovrebbe avere la classe `btn-primary`.
 
 ```js
-assert($('button').hasClass('btn-primary'));
+assert.isTrue(document.querySelector('button')?.classList?.contains('btn-primary'));
 ```
 
 Il tuo pulsante dovrebbe avere ancora le classi `btn` e `btn-block`.
 
 ```js
-assert($('button').hasClass('btn-block') && $('button').hasClass('btn'));
+assert.isTrue(document.querySelector('button')?.classList?.contains('btn-block'));
+assert.isTrue(document.querySelector('button')?.classList?.contains('btn'));
 ```
 
 Tutti i tuoi elementi `button` dovrebbero avere dei tag di chiusura.
 
 ```js
-assert(
-  code.match(/<\/button>/g) &&
-    code.match(/<button/g) &&
-    code.match(/<\/button>/g).length === code.match(/<button/g).length
-);
+assert.match(code,/<\/button>/g);
+assert.match(code,/<button/g);
+assert.equal(code.match(/<\/button>/g).length , code.match(/<button/g).length);
 ```
 
 # --seed--

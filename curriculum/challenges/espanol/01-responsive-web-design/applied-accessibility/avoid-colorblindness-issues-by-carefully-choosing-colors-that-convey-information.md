@@ -26,7 +26,9 @@ Camper Cat está probando diferentes estilos para un botón importante, pero el 
 Tu código debe cambiar el `color` del texto en el `button` al color azul oscuro.
 
 ```js
-assert($('button').css('color') == 'rgb(0, 51, 102)');
+const button = document.querySelector('button');
+const buttonColor = window.getComputedStyle(button).color; 
+assert.equal(buttonColor, 'rgb(0, 51, 102)');
 ```
 
 # --seed--

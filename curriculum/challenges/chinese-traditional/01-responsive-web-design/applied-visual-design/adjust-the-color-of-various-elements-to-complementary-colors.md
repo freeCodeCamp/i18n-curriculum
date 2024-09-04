@@ -20,25 +20,33 @@ dashedName: adjust-the-color-of-various-elements-to-complementary-colors
 `header` 元素的 `background-color` 屬性值應爲 #09A7A1。
 
 ```js
-assert($('header').css('background-color') == 'rgb(9, 167, 161)');
+const headerElement = document.querySelector('header'); 
+const headerStyle = window.getComputedStyle(headerElement);
+assert.equal(headerStyle?.backgroundColor, 'rgb(9, 167, 161)');
 ```
 
 `footer` 元素的 `background-color` 屬性值應爲 #09A7A1。
 
 ```js
-assert($('footer').css('background-color') == 'rgb(9, 167, 161)');
+const footerElement = document.querySelector('footer'); 
+const footerStyle = window.getComputedStyle(footerElement);
+assert.equal(footerStyle?.backgroundColor, 'rgb(9, 167, 161)');
 ```
 
 `h2` 元素的 `color` 屬性值應爲 #09A7A1。
 
 ```js
-assert($('h2').css('color') == 'rgb(9, 167, 161)');
+const h2Element = document.querySelector('h2'); 
+const h2Style = window.getComputedStyle(h2Element);
+assert.equal(h2Style?.color, 'rgb(9, 167, 161)');
 ```
 
 `button` 元素的 `background-color` 屬性值應爲 #FF790E。
 
 ```js
-assert($('button').css('background-color') == 'rgb(255, 121, 14)');
+const buttonElement = document.querySelector('button'); 
+const buttonStyle = window.getComputedStyle(buttonElement);
+assert.equal(buttonStyle?.backgroundColor, 'rgb(255, 121, 14)');
 ```
 
 # --seed--

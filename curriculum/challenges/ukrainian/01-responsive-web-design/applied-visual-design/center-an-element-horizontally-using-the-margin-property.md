@@ -22,7 +22,7 @@ dashedName: center-an-element-horizontally-using-the-margin-property
 Властивість `margin` для `div` потрібно встановити на `auto`.
 
 ```js
-assert(new __helpers.CSSHelp(document).getStyle('div')?.margin === 'auto');
+assert.equal(new __helpers.CSSHelp(document).getStyle('div')?.margin ,'auto');
 ```
 
 # --seed--

@@ -20,7 +20,9 @@ Füge dem Element mit dem Klassennamen `first` (das rote Rechteck) eine Eigensch
 Das Element mit der Klasse `first` sollte einen `z-index`-Wert von 2 besitzen.
 
 ```js
-assert($('.first').css('z-index') == '2');
+const firstElement = document.querySelector('.first');
+const firstStyle = window.getComputedStyle(firstElement); 
+assert.equal(firstStyle?.zIndex, '2');
 ```
 
 # --seed--

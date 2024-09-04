@@ -20,25 +20,33 @@ Questa pagina userà una tonalità color foglia di tè (`#09A7A1`) come colore d
 L'elemento `header` dovrebbe avere un `background-color` di #09A7A1.
 
 ```js
-assert($('header').css('background-color') == 'rgb(9, 167, 161)');
+const headerElement = document.querySelector('header'); 
+const headerStyle = window.getComputedStyle(headerElement);
+assert.equal(headerStyle?.backgroundColor, 'rgb(9, 167, 161)');
 ```
 
 L'elemento `footer` dovrebbe avere un `background-color` di #09A7A1.
 
 ```js
-assert($('footer').css('background-color') == 'rgb(9, 167, 161)');
+const footerElement = document.querySelector('footer'); 
+const footerStyle = window.getComputedStyle(footerElement);
+assert.equal(footerStyle?.backgroundColor, 'rgb(9, 167, 161)');
 ```
 
 L'elemento `h2` dovrebbe avere un `color` di #09A7A1.
 
 ```js
-assert($('h2').css('color') == 'rgb(9, 167, 161)');
+const h2Element = document.querySelector('h2'); 
+const h2Style = window.getComputedStyle(h2Element);
+assert.equal(h2Style?.color, 'rgb(9, 167, 161)');
 ```
 
 L'elemento `button` dovrebbe avere un `background-color` di #FF790E.
 
 ```js
-assert($('button').css('background-color') == 'rgb(255, 121, 14)');
+const buttonElement = document.querySelector('button'); 
+const buttonStyle = window.getComputedStyle(buttonElement);
+assert.equal(buttonStyle?.backgroundColor, 'rgb(255, 121, 14)');
 ```
 
 # --seed--

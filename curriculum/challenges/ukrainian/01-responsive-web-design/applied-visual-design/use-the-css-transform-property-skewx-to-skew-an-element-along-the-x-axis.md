@@ -28,7 +28,7 @@ p {
 Елемент з ідентифікатором `bottom` повинен переміститись на 24 градуси по вісі Х.
 
 ```js
-assert(code.match(/#bottom\s*?{\s*?.*?\s*?transform:\s*?skewX\(24deg\);/g));
+assert.match(code, /#bottom\s*?{\s*?.*?\s*?transform:\s*?skewX\(24deg\);/g);
 ```
 
 # --seed--

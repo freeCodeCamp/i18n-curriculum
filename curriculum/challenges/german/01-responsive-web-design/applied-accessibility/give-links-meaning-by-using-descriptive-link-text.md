@@ -22,26 +22,19 @@ Der Linktext, den Camper Cat benutzt ist nicht sehr aussagekräftig ohne den ihn
 Dein Code sollte die Anchor-Tags `a` um die Wörter `Click here` versetzen, so dass sie die Wörter `information about batteries` umschliessen.
 
 ```js
-assert(
-  $('a')
-    .text()
-    .match(/^(information about batteries)$/g)
-);
+assert.match(document.querySelector('a')?.textContent, /^(information about batteries)$/g);
 ```
 
 Das `a` Element sollte ein `href` Attribut mit dem Wert eines leeren Strings `""` haben.
 
 ```js
-assert($('a').attr('href') === '');
+assert.isEmpty(document.querySelector('a')?.getAttribute('href'));
 ```
 
 Das `a` Element sollte ein schliessendes Tag haben.
 
 ```js
-assert(
-  code.match(/<\/a>/g) &&
-    code.match(/<\/a>/g).length === code.match(/<a href=(''|"")>/g).length
-);
+assert.isTrue(code.match(/<\/a>/g)?.length === code.match(/<a href=(''|"")>/g)?.length);
 ```
 
 # --seed--

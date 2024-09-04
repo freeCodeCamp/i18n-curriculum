@@ -22,13 +22,13 @@ dashedName: create-a-horizontal-line-using-the-hr-element
 應存在一個 `hr` 標籤。
 
 ```js
-assert($('hr').length == 1);
+assert.lengthOf(document.querySelectorAll('hr'),1);
 ```
 
 `hr` 應在標題和段落之間。
 
 ```js
-assert(code.match(/<\/h4>\s*?<hr(>|\s*?\/>)\s*?<p>/gi));
+assert.match(code,/<\/h4>\s*?<hr(>|\s*?\/>)\s*?<p>/gi);
 ```
 
 # --seed--

@@ -21,13 +21,13 @@ dashedName: center-text-with-bootstrap
 `h2` 요소는 `text-center` 클래스를 적용해서 가운데 정렬되어야 합니다.
 
 ```js
-assert($('h2').hasClass('text-center'));
+assert.isTrue(document.querySelector('h2')?.classList?.contains('text-center'));
 ```
 
 `h2` 요소는 여전히 `red-text` 클래스를 가지고 있어야 합니다.
 
 ```js
-assert($('h2').hasClass('red-text'));
+assert.isTrue(document.querySelector('h2')?.classList?.contains('red-text'));
 ```
 
 # --seed--

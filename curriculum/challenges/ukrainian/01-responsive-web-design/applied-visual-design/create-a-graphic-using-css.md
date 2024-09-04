@@ -26,21 +26,19 @@ dashedName: create-a-graphic-using-css
 Значення властивості `background-color` має бути встановлено на `transparent`.
 
 ```js
-assert(code.match(/background-color:\s*?transparent;/gi));
+assert.match(code,/background-color:\s*?transparent;/gi);
 ```
 
 Значення властивості `border-radius` має бути встановлено на `50%`.
 
 ```js
-assert(code.match(/border-radius:\s*?50%;/gi));
+assert.match(code,/border-radius:\s*?50%;/gi);
 ```
 
 Значення властивості `box-shadow` повинне бути 25 пікселів для `offset-x`, 10 пікселів для `offset-y`, 0 для `blur-radius`, 0 для `spread-radius`, а також `blue` для `color`.
 
 ```js
-assert(
-  code.match(/box-shadow:\s*?25px\s+?10px\s+?0(px)?\s+?0(px)?\s+?blue\s*?;/gi)
-);
+assert.match(code,/box-shadow:\s*?25px\s+?10px\s+?0(px)?\s+?0(px)?\s+?blue\s*?;/gi);
 ```
 
 # --seed--
