@@ -21,13 +21,13 @@ dashedName: center-text-with-bootstrap
 عنصر `h2` الخاص بك يجب أن يتمركز بتطبيق فئة `text-center`
 
 ```js
-assert($('h2').hasClass('text-center'));
+assert.isTrue(document.querySelector('h2')?.classList?.contains('text-center'));
 ```
 
 عُنصر `h2` يجب يحتوي فئة باسم `red-text`
 
 ```js
-assert($('h2').hasClass('red-text'));
+assert.isTrue(document.querySelector('h2')?.classList?.contains('red-text'));
 ```
 
 # --seed--

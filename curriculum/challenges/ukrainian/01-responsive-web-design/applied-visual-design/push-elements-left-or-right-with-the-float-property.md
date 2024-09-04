@@ -20,13 +20,17 @@ dashedName: push-elements-left-or-right-with-the-float-property
 Елемент з ідентифікатором `left` має мати значення `left` `float`.
 
 ```js
-assert($('#left').css('float') == 'left');
+const leftElement = document.querySelector('#left');
+const leftStyle = window.getComputedStyle(leftElement);
+assert.equal(leftStyle?.float, 'left');
 ```
 
 Елемент з ідентифікатором `right` має мати значення `right` `float`.
 
 ```js
-assert($('#right').css('float') == 'right');
+const rightElement = document.querySelector('#right');
+const rightStyle = window.getComputedStyle(rightElement);
+assert.equal(rightStyle?.float, 'right');
 ```
 
 # --seed--

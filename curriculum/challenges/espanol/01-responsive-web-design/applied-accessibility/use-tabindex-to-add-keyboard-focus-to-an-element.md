@@ -28,13 +28,13 @@ Camper Cat creó una nueva encuesta para recopilar información sobre sus usuari
 Tu código debe agregar un atributo `tabindex` a la etiqueta `p` que contiene las instrucciones del formulario.
 
 ```js
-assert($('p').attr('tabindex'));
+assert.isNotNull(document.querySelector('p')?.getAttribute('tabindex'));
 ```
 
 Tu código debe establecer el atributo `tabindex` en la etiqueta `p` en un valor de 0.
 
 ```js
-assert($('p').attr('tabindex') == '0');
+assert.equal(document.querySelector('p')?.getAttribute('tabindex'), '0');
 ```
 
 # --seed--

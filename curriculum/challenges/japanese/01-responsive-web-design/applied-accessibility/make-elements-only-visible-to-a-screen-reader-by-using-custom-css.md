@@ -42,25 +42,29 @@ Camper Cat は、トレーニングページ用の非常にクールな積み上
 `sr-only` クラスの `position` プロパティに値 `absolute` を設定する必要があります。
 
 ```js
-assert($('.sr-only').css('position') == 'absolute');
+const srOnly = document.querySelector('.sr-only');
+const position = window.getComputedStyle(srOnly).position; 
+assert.equal(position, 'absolute');
 ```
 
 `sr-only` クラスの `left` プロパティに値 `-10000px` を設定する必要があります。
 
 ```js
-assert($('.sr-only').css('left') == '-10000px');
+const srOnly = document.querySelector('.sr-only');
+const left = window.getComputedStyle(srOnly).left;
+assert.equal(left, '-10000px');
 ```
 
 `sr-only` クラスの `width` プロパティに値 `1` ピクセルを設定する必要があります。
 
 ```js
-assert(code.match(/width:\s*?1px/gi));
+assert.match(code , /width:\s*?1px/gi);
 ```
 
 `sr-only` クラスの `height` プロパティに値 `1` ピクセルを設定する必要があります。
 
 ```js
-assert(code.match(/height:\s*?1px/gi));
+assert.match(code , /height:\s*?1px/gi);
 ```
 
 # --seed--

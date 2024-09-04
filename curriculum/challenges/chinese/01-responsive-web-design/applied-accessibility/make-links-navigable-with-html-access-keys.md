@@ -28,25 +28,25 @@ Camper Cat 希望为他两篇博客的标题链接设置快捷键，以使用户
 `id` 为 `first` 的 `a` 标签应具有 `accesskey` 属性。
 
 ```js
-assert($('#first').attr('accesskey'));
+assert.isTrue(document.querySelector('#first')?.hasAttribute('accesskey'));
 ```
 
 `id` 为 `second` 的 `a` 标签应具有 `accesskey` 属性。
 
 ```js
-assert($('#second').attr('accesskey'));
+assert.isTrue(document.querySelector('#second')?.hasAttribute('accesskey'));
 ```
 
 `id` 为 `first` 的 `a` 标签的 `accesskey` 属性值应为 `g`。 注意要使用小写。
 
 ```js
-assert($('#first').attr('accesskey') == 'g');
+assert.equal(document.querySelector('#first')?.getAttribute('accesskey'), 'g');
 ```
 
 `id` 为 `second` 的 `a` 标签的 `accesskey` 属性值应为 `c`。 注意使用小写。
 
 ```js
-assert($('#second').attr('accesskey') == 'c');
+assert.equal(document.querySelector('#second')?.getAttribute('accesskey'), 'c');
 ```
 
 # --seed--

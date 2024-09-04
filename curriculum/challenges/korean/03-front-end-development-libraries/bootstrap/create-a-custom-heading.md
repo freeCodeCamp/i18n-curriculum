@@ -21,35 +21,40 @@ Cat Photo App을 위한 간단한 헤딩을 만들어봅시다. 제목과 나른
 `h2` 요소와 가장 상단의 `img` 요소는 둘 다 `row` 클래스가 있는 `div` 요소 내에 배치돼야 합니다.
 
 ```js
-assert($('div.row:has(h2)').length > 0 && $('div.row:has(img)').length > 0);
+const row = document.querySelector('div.row');
+const h2 = row?.querySelectorAll(`:scope ${'h2'}`)
+const image = row?.querySelectorAll(`:scope ${'img'}`)
+assert.lengthOf(h2,1);
+assert.lengthOf(image ,1);
 ```
 
 가장 상단의 `img` 요소는 `col-xs-4` 클래스가 있는 `div` 내에 들어있어야 합니다.
 
 ```js
-assert(
-  $('div.col-xs-4:has(img)').length > 0 &&
-    $('div.col-xs-4:has(div)').length === 0
-);
+const column = document.querySelector('div.col-xs-4');
+const div = column?.querySelectorAll(`:scope ${'div'}`);
+const img = column?.querySelectorAll(`:scope ${'img'}`)
+assert.isEmpty(div);
+assert.lengthOf(img,1)
 ```
 
 `h2` 요소는 `col-xs-8` 클래스가 있는 `div` 내에 있어야 합니다.
 
 ```js
-assert(
-  $('div.col-xs-8:has(h2)').length > 0 &&
-    $('div.col-xs-8:has(div)').length === 0
-);
+const column = document.querySelector('div.col-xs-8');
+const div = column?.querySelectorAll(`:scope ${'div'}`);
+const h2 = column?.querySelectorAll(`:scope ${'h2'}`)
+
+assert.isEmpty(div);
+assert.lengthOf(h2, 1);
 ```
 
 모든 `div` 요소는 닫는 태그를 가져야 합니다.
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/g);
+assert.match(code,/<div/g);
+assert.equal(code.match(/<\/div>/g).length,code.match(/<div/g).length);
 ```
 
 # --seed--

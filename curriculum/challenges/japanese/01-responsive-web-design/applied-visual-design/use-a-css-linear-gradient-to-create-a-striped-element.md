@@ -32,37 +32,37 @@ dashedName: use-a-css-linear-gradient-to-create-a-striped-element
 `repeating-linear-gradient()` の角度は 45deg である必要があります。
 
 ```js
-assert(code.match(/background:\s*?repeating-linear-gradient\(\s*?45deg/gi));
+assert.match(code,/background:\s*?repeating-linear-gradient\(\s*?45deg/gi);
 ```
 
 `repeating-linear-gradient()` の角度が 90deg ではないようにしてください。
 
 ```js
-assert(!code.match(/90deg/gi));
+assert.notMatch(code, /90deg/gi);
 ```
 
 0 ピクセルの色経由点の色は `yellow` である必要があります。
 
 ```js
-assert(code.match(/yellow\s+?0(px)?/gi));
+assert.match(code, /yellow\s+?0(px)?/gi);
 ```
 
 40 ピクセルの 1 つめの色経由点の色は `yellow` である必要があります。
 
 ```js
-assert(code.match(/yellow\s+?40px/gi));
+assert.match(code, /yellow\s+?40px/gi);
 ```
 
 40 ピクセルの 2 つめの色経由点の色は `black` である必要があります。
 
 ```js
-assert(code.match(/yellow\s+?40px,\s*?black\s+?40px/gi));
+assert.match(code, /yellow\s+?40px,\s*?black\s+?40px/gi);
 ```
 
 最後の、80 ピクセルの色経由点の色は `black` である必要があります。
 
 ```js
-assert(code.match(/black\s+?80px/gi));
+assert.match(code, /black\s+?80px/gi);
 ```
 
 # --seed--

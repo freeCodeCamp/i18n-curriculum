@@ -30,7 +30,7 @@ Agrega una regla CSS para el estado `hover` del `div` y usa la propiedad `transf
 El tamaño del elemento `div` debe escalar 1.1 veces cuando el usuario pase el cursor sobre él.
 
 ```js
-assert(code.match(/div:hover\s*?{\s*?transform:\s*?scale\(1\.1\);/gi));
+assert.match(code, /div:hover\s*?{\s*?transform:\s*?scale\(1\.1\);/gi);
 ```
 
 # --seed--

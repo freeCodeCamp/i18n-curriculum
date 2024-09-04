@@ -20,13 +20,17 @@ Das angegebene Markup würde gut als Zweispalten-Layout, mit den `section`- und 
 Das Element mit der Id `left` sollte einen `float`-Wert von `left` haben.
 
 ```js
-assert($('#left').css('float') == 'left');
+const leftElement = document.querySelector('#left');
+const leftStyle = window.getComputedStyle(leftElement);
+assert.equal(leftStyle?.float, 'left');
 ```
 
 Das Element mit der Id `right` sollte einen `float`-Wert von `right` haben.
 
 ```js
-assert($('#right').css('float') == 'right');
+const rightElement = document.querySelector('#right');
+const rightStyle = window.getComputedStyle(rightElement);
+assert.equal(rightStyle?.float, 'right');
 ```
 
 # --seed--

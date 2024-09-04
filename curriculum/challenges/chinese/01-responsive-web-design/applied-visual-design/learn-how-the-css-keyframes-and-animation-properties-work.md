@@ -44,37 +44,41 @@ id 为 `anim` 的元素，我们在代码中将它的 `animation-name` 设置为
 id 为 `rect` 的元素应该有一个值为 `rainbow` 的 `animation-name` 属性。
 
 ```js
-assert($('#rect').css('animation-name') == 'rainbow');
+const rectElement = document.querySelector('#rect');
+const rectStyle = window.getComputedStyle(rectElement);
+assert.equal(rectStyle?.animationName, 'rainbow');
 ```
 
 id 为 `rect` 的元素应该有一个值为 4s 的 `animation-duration` 属性。
 
 ```js
-assert($('#rect').css('animation-duration') == '4s');
+const rectElement = document.querySelector('#rect');
+const rectStyle = window.getComputedStyle(rectElement);
+assert.equal(rectStyle?.animationDuration, '4s');
 ```
 
 `@keyframes` 规则的 `animation-name` 应为 `rainbow`。
 
 ```js
-assert(code.match(/@keyframes\s+?rainbow\s*?{/g));
+assert.match(code ,/@keyframes\s+?rainbow\s*?{/g);
 ```
 
 `@keyframes` 规则的 `rainbow` 在 0% 时的 `background-color` 应为 `blue`。
 
 ```js
-assert(code.match(/0%\s*?{\s*?background-color:\s*?blue;\s*?}/gi));
+assert.match(code,/0%\s*?{\s*?background-color:\s*?blue;\s*?}/gi);
 ```
 
 `@keyframes` 规则的 `rainbow` 在 50% 时的 `background-color` 应为 `green`。
 
 ```js
-assert(code.match(/50%\s*?{\s*?background-color:\s*?green;\s*?}/gi));
+assert.match(code,/50%\s*?{\s*?background-color:\s*?green;\s*?}/gi);
 ```
 
 `@keyframes` 规则的 rainbow 在 100% 时的 `background-color` 应为 `yellow`。
 
 ```js
-assert(code.match(/100%\s*?{\s*?background-color:\s*?yellow;\s*?}/gi));
+assert.match(code,/100%\s*?{\s*?background-color:\s*?yellow;\s*?}/gi);
 ```
 
 # --seed--

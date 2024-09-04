@@ -17,34 +17,31 @@ Erstelle ein `div` Element unter dem `h3` Tag mit der Klasse `row`.
 Du solltest ein `div` Element unter deinem `h3` Element hinzufügen.
 
 ```js
-assert(
-  $('div').length > 1 &&
-    $('div.row h3.text-primary').length == 0 &&
-    $('div.row + h3.text-primary').length == 0 &&
-    $('h3.text-primary + div.row').length > 0
-);
+assert.lengthOf(document.querySelectorAll('div'),2);
+assert.lengthOf(document.querySelectorAll('div.row h3.text-primary'),0);
+assert.lengthOf(document.querySelectorAll('div.row + h3.text-primary'),0)
+assert.lengthOf(document.querySelectorAll('h3.text-primary + div.row'),1);
 ```
 
 Dein `div` Element soll die Klasse `row` haben
 
 ```js
-assert($('div').hasClass('row'));
+const newDiv = document.querySelectorAll('div')?.[1]; 
+assert.isTrue(newDiv?.classList?.contains('row'));
 ```
 
 Dein `row div` soll innerhalb des `container-fluid div` verschachtelt sein
 
 ```js
-assert($('div.container-fluid div.row').length > 0);
+assert.lengthOf(document.querySelectorAll('div.container-fluid div.row'),1);
 ```
 
 Dein `div` Element sollte einen abschließenden Tag haben.
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/g);
+assert.match(code,/<div/g);
+assert.equal(code.match(/<\/div>/g).length ,code.match(/<div/g).length);
 ```
 
 # --seed--

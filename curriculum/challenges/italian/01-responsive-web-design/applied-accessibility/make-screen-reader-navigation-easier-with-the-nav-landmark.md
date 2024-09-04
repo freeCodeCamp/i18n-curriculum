@@ -22,28 +22,27 @@ Camper Cat ha incluso link di navigazione nella parte superiore della sua pagina
 Il tuo codice dovrebbe avere un tag `nav`.
 
 ```js
-assert($('nav').length == 1);
+assert.lengthOf(document.querySelectorAll('nav') , 1);
 ```
 
 I tuoi tag `nav` dovrebbero avvolgere i tag `ul` e gli elementi della lista.
 
 ```js
-assert($('nav').children('ul').length == 1);
+const nav = document.querySelector('nav');
+const children = nav?.querySelectorAll(`:scope ${'ul'}`);
+assert.lengthOf(children,1);
 ```
 
 Il tuo codice non dovrebbe avere alcun tag `div`.
 
 ```js
-assert($('div').length == 0);
+assert.lengthOf(document.querySelectorAll('div') , 0);
 ```
 
 Il tuo elemento `nav` dovrebbe avere un tag di chiusura.
 
 ```js
-assert(
-  code.match(/<\/nav>/g) &&
-    code.match(/<\/nav>/g).length === code.match(/<nav>/g).length
-);
+assert.isTrue(code.match(/<\/nav>/g)?.length === code.match(/<nav>/g)?.length);
 ```
 
 # --seed--

@@ -33,13 +33,17 @@ Cambia la propiedad `position` de `h2` a `relative`, y usa CSS desplazamiento pa
 El elemento `h2` debe tener una propiedad `position` con valor `relative`.
 
 ```js
-assert($('h2').css('position') == 'relative');
+const h2Element =document.querySelector('h2')
+const h2Style = window.getComputedStyle(h2Element);
+assert.equal(h2Style?.position, 'relative');
 ```
 
 Tu código debe usar un desplazamiento CSS para posicionar relativamente el elemento `h2` a 15px lejos de la parte superior `top` donde se ubica normalmente.
 
 ```js
-assert($('h2').css('top') == '15px');
+const h2Element =document.querySelector('h2')
+const h2Style = window.getComputedStyle(h2Element);
+assert.equal(h2Style?.top, '15px');
 ```
 
 # --seed--

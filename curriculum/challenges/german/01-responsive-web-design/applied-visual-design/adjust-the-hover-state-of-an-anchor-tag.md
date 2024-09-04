@@ -28,17 +28,17 @@ Der Texteditor enthält eine CSS-Regel, um alle `a`-Tags schwarz zu stylen. Füg
 Die Anchor-Tag-`color` sollte Schwarz bleiben, füge nur CSS-Regeln für den `:hover`-Status hinzu.
 
 ```js
-assert($('a').css('color') == 'rgb(0, 0, 0)');
+const anchorElement = document.querySelector("a"); 
+const anchorStyle = window.getComputedStyle(anchorElement);
+assert.equal(anchorStyle?.color, 'rgb(0, 0, 0)');
 ```
 
 Das Anchor-Tag sollte die `color` Blau haben, wenn man darüber fährt.
 
 ```js
-assert(
-  code.match(
+assert.match(code,
     /a:hover\s*?{\s*?color:\s*?(blue|rgba\(\s*?0\s*?,\s*?0\s*?,\s*?255\s*?,\s*?1\s*?\)|#00F|rgb\(\s*?0\s*?,\s*?0\s*?,\s*?255\s*?\))\s*?;\s*?}/gi
-  )
-);
+  );
 ```
 
 # --seed--

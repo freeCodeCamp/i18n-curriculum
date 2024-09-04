@@ -40,7 +40,7 @@ L'elemento adesso ha un id di `thumbnail`. Tramite questo selettore, utilizza i 
 Il tuo codice dovrebbe aggiungere una proprietà `box-shadow` per l'id `thumbnail`.
 
 ```js
-assert(code.match(/#thumbnail\s*?{\s*?box-shadow/g));
+assert.match(code,(/#thumbnail\s*?{\s*?box-shadow/g));
 ```
 
 Dovresti usare il CSS nell'esempio per assegnare il valore di `box-shadow`.

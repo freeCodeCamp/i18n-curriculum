@@ -22,7 +22,7 @@ dashedName: center-an-element-horizontally-using-the-margin-property
 `div`는 `margin`이 `auto`로 설정되어야 합니다.
 
 ```js
-assert(new __helpers.CSSHelp(document).getStyle('div')?.margin === 'auto');
+assert.equal(new __helpers.CSSHelp(document).getStyle('div')?.margin ,'auto');
 ```
 
 # --seed--

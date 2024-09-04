@@ -22,13 +22,13 @@ Schließe das `u`-Tag nur um den Text `Ph.D. students`.
 Dein Code sollte dem Markup ein `u`-Tag hinzufügen.
 
 ```js
-assert($('u').length === 1);
+assert.lengthOf(document.querySelectorAll('u'), 1);
 ```
 
 Das `u`-Tag sollte den Text `Ph.D. students` umschließen.
 
 ```js
-assert($('u').text() === 'Ph.D. students');
+assert.equal(document.querySelector('u')?.textContent , 'Ph.D. students');
 ```
 
 # --seed--

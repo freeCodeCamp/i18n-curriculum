@@ -24,23 +24,23 @@ Anida las tres casillas de verificación en un elemento `<div class="row">`. Lue
 Todas las casillas de verificación deben anidarse dentro de un `div` con la clase `row`.
 
 ```js
-assert($('div.row:has(input[type="checkbox"])').length > 0);
+const checkboxes = document.querySelectorAll(`div.row input[type="checkbox"]`); 
+assert.lengthOf(checkboxes,3);
 ```
 
 Cada casilla de verificación debe anidarse dentro de un `div` con la clase `col-xs-4`.
 
 ```js
-assert($('div.col-xs-4:has(input[type="checkbox"])').length > 2);
+const checkboxes = document.querySelectorAll(`div.col-xs-4 input[type="checkbox"]`); 
+assert.lengthOf(checkboxes,3);
 ```
 
 Todos tus elementos `div` deben tener etiquetas de cierre.
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/g);
+assert.match(code,/<div/g);
+assert.equal(code.match(/<\/div>/g).length ,code.match(/<div/g).length);
 ```
 
 # --seed--

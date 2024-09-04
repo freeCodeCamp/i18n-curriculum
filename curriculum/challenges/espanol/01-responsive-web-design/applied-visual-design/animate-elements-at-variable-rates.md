@@ -22,7 +22,7 @@ Cambia la velocidad de animación del elemento con el nombre de la clase `star-1
 La regla `@keyframes` para la clase `star-1` debe ser del 50%.
 
 ```js
-assert(code.match(/twinkle-1\s*?{\s*?50%/g));
+assert.match(code,/twinkle-1\s*?{\s*?50%/g);
 ```
 
 # --seed--

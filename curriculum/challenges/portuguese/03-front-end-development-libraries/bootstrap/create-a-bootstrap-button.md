@@ -17,26 +17,23 @@ Crie um novo elemento `button` abaixo da foto grande do gatinho. Dê a ele as cl
 Você deve criar um novo elemento `button` com o texto `Like`.
 
 ```js
-assert(
-  new RegExp('like', 'gi').test($('button').text()) &&
-    $('img.img-responsive + button.btn').length > 0
-);
+assert.match(document.querySelector('button')?.textContent, /like/gi);
+assert.lengthOf(document.querySelectorAll('img.img-responsive + button.btn'),1)
 ```
 
 O novo botão deve ter duas classes: `btn` e `btn-default`.
 
 ```js
-assert($('button').hasClass('btn') && $('button').hasClass('btn-default'));
+assert.isTrue(document.querySelector('button')?.classList?.contains('btn') )
+assert.isTrue(document.querySelector('button')?.classList?.contains('btn-default'));
 ```
 
 Todos os elementos `button` devem ter tags de fechamento.
 
 ```js
-assert(
-  code.match(/<\/button>/g) &&
-    code.match(/<button/g) &&
-    code.match(/<\/button>/g).length === code.match(/<button/g).length
-);
+assert.match(code,/<\/button>/g);
+assert.match(code,/<button/g);
+assert.equal(code.match(/<\/button>/g).length ,code.match(/<button/g).length);
 ```
 
 # --seed--

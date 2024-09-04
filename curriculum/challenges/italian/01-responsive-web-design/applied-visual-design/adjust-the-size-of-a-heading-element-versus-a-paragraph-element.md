@@ -20,7 +20,10 @@ Per rendere l'intestazione significativamente più grande del paragrafo, porta `
 Il tuo codice dovrebbe aggiungere una proprietà `font-size` all'elemento `h4`, impostata a 27 pixel.
 
 ```js
-assert($('h4').css('font-size') == '27px');
+
+const h4Element =document.querySelector('h4')
+const h4Style = window.getComputedStyle(h4Element);
+assert.equal(h4Style?.fontSize,'27px');
 ```
 
 # --seed--

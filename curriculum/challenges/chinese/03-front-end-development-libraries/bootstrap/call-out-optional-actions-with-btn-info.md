@@ -19,29 +19,30 @@ Bootstrap 有着丰富的预定义按钮颜色。 浅蓝色的 `btn-info` class 
 应创建一个新的包含 `Info` 文本的 `button` 元素。
 
 ```js
-assert(new RegExp('info', 'gi').test($('button').text()));
+const infoButton = document.querySelectorAll('button')?.[1]; 
+assert.match(infoButton.textContent,/info/gi);
 ```
 
 两个按钮的 class 属性应该包含 `btn` 和 `btn-block`。
 
 ```js
-assert($('button.btn-block.btn').length > 1);
+assert.lengthOf(document.querySelectorAll('button.btn-block.btn'),2);
 ```
 
 新按钮的 class 属性应该含有 `btn-info`。
 
 ```js
-assert($('button').hasClass('btn-info'));
+const infoButton = [...document.querySelectorAll('button')].at(1);
+assert.isTrue(infoButton?.classList?.contains('btn-info'));
 ```
 
 确保所有的 `button` 元素都有一个闭合标签。
 
 ```js
-assert(
-  code.match(/<\/button>/g) &&
-    code.match(/<button/g) &&
-    code.match(/<\/button>/g).length === code.match(/<button/g).length
-);
+assert.match(code,/<\/button>/g);
+assert.match(code,/<button/g);
+
+assert.equal(code.match(/<\/button>/g)?.length,code.match(/<button/g)?.length);
 ```
 
 # --seed--

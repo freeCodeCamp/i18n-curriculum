@@ -25,33 +25,41 @@ La classe `row` viene applicata a un `div`, e i bottoni stessi possono essere an
 I tuoi bottoni dovrebbero essere tutti annidati all'interno dello stesso elemento `div` di classe `row`.
 
 ```js
-assert($('div.row:has(button)').length > 0);
+const row = document.querySelector('div.row');
+const rowChildren = row?.querySelectorAll(`:scope ${'button'}`); 
+assert.lengthOf(rowChildren, 3);
 ```
 
 Ognuno dei tuoi bottoni Bootstrap dovrebbe essere annidato all'interno del suo elemento `div` di classe `col-xs-4`.
 
 ```js
-assert($('div.col-xs-4:has(button)').length > 2);
+const columns = document.querySelectorAll('div.col-xs-4');
+
+const firstButton = columns?.[0]?.querySelectorAll(`:scope ${'button'}`)
+assert.lengthOf(firstButton,1);
+
+const secondButton = columns?.[1]?.querySelectorAll(`:scope ${'button'}`)
+assert.lengthOf(secondButton,1);
+
+const thirdButton = columns?.[2]?.querySelectorAll(`:scope ${'button'}`)
+assert.lengthOf(thirdButton,1);
+
 ```
 
 Ognuno dei tuoi elementi `button` dovrebbe avere un tag di chiusura.
 
 ```js
-assert(
-  code.match(/<\/button>/g) &&
-    code.match(/<button/g) &&
-    code.match(/<\/button>/g).length === code.match(/<button/g).length
-);
+assert.match(code,/<\/button>/g);
+assert.match(code,/<button/g);
+assert.equal(code.match(/<\/button>/g).length , code.match(/<button/g).length);
 ```
 
 Ognuno dei tuoi elementi `div` dovrebbe avere un tag di chiusura.
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/g);
+assert.match(code,/<div/g);
+assert.equal(code.match(/<\/div>/g).length , code.match(/<div/g).length);
 ```
 
 # --seed--

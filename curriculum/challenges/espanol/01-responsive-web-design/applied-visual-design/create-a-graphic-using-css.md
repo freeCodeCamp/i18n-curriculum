@@ -26,21 +26,19 @@ Manipula el elemento cuadrado en el editor para crear la figura de luna. Primero
 El valor de la propiedad `background-color` debe establecerse como `transparent`.
 
 ```js
-assert(code.match(/background-color:\s*?transparent;/gi));
+assert.match(code,/background-color:\s*?transparent;/gi);
 ```
 
 El valor de la propiedad `border-radius` debe establecerse como `50%`.
 
 ```js
-assert(code.match(/border-radius:\s*?50%;/gi));
+assert.match(code,/border-radius:\s*?50%;/gi);
 ```
 
 El valor de la propiedad `box-shadow` debe ser fijado a 25px para `offset-x`, 10px para `offset-y`, 0 para `blur-radius`, 0 para `spread-radius`, y finalmente `blue` para el `color`.
 
 ```js
-assert(
-  code.match(/box-shadow:\s*?25px\s+?10px\s+?0(px)?\s+?0(px)?\s+?blue\s*?;/gi)
-);
+assert.match(code,/box-shadow:\s*?25px\s+?10px\s+?0(px)?\s+?0(px)?\s+?blue\s*?;/gi);
 ```
 
 # --seed--

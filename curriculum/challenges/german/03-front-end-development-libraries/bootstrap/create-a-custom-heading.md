@@ -21,35 +21,40 @@ Hast du bemerkt, dass das Bild jetzt genau die richtige Größe hat, um neben de
 Dein `h2`-Element und das oberste `img`-Element sollten beide in einem `div`-Element der Klasse `row` verschachtelt werden.
 
 ```js
-assert($('div.row:has(h2)').length > 0 && $('div.row:has(img)').length > 0);
+const row = document.querySelector('div.row');
+const h2 = row?.querySelectorAll(`:scope ${'h2'}`)
+const image = row?.querySelectorAll(`:scope ${'img'}`)
+assert.lengthOf(h2,1);
+assert.lengthOf(image ,1);
 ```
 
 Dein oberstes `img`-Element sollte in einem `div` der Klasse `col-xs-4` verschachtelt sein.
 
 ```js
-assert(
-  $('div.col-xs-4:has(img)').length > 0 &&
-    $('div.col-xs-4:has(div)').length === 0
-);
+const column = document.querySelector('div.col-xs-4');
+const div = column?.querySelectorAll(`:scope ${'div'}`);
+const img = column?.querySelectorAll(`:scope ${'img'}`)
+assert.isEmpty(div);
+assert.lengthOf(img,1)
 ```
 
 Dein `h2`-Element sollte in einem `div` der Klasse `col-xs-8` verschachtelt sein.
 
 ```js
-assert(
-  $('div.col-xs-8:has(h2)').length > 0 &&
-    $('div.col-xs-8:has(div)').length === 0
-);
+const column = document.querySelector('div.col-xs-8');
+const div = column?.querySelectorAll(`:scope ${'div'}`);
+const h2 = column?.querySelectorAll(`:scope ${'h2'}`)
+
+assert.isEmpty(div);
+assert.lengthOf(h2, 1);
 ```
 
 All deine `div` Elemente sollten abschließende Tags haben.
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/g);
+assert.match(code,/<div/g);
+assert.equal(code.match(/<\/div>/g).length,code.match(/<div/g).length);
 ```
 
 # --seed--

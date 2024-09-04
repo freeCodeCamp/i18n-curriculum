@@ -20,7 +20,10 @@ dashedName: adjust-the-size-of-a-heading-element-versus-a-paragraph-element
 你的代碼應該將 `font-size` 屬性添加到設置爲 27 像素的 `h4` 元素。
 
 ```js
-assert($('h4').css('font-size') == '27px');
+
+const h4Element =document.querySelector('h4')
+const h4Style = window.getComputedStyle(h4Element);
+assert.equal(h4Style?.fontSize,'27px');
 ```
 
 # --seed--

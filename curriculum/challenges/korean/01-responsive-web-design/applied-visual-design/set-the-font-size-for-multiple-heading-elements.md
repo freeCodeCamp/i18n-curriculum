@@ -28,42 +28,42 @@ dashedName: set-the-font-size-for-multiple-heading-elements
 
 ```js
  const fontSizeOfh1 = new __helpers.CSSHelp(document).getStyle('h1')?.getPropertyValue('font-size');
- assert(fontSizeOfh1 === '68px');
+ assert.equal(fontSizeOfh1 ,'68px');
 ```
 
 코드에서 `h2` 태그의 `font-size` 속성을 52픽셀로 설정해야 합니다.
 
 ```js
  const fontSizeOfh2 = new __helpers.CSSHelp(document).getStyle('h2')?.getPropertyValue('font-size');
- assert(fontSizeOfh2 === '52px');
+ assert.equal(fontSizeOfh2 ,'52px');
 ```
 
 코드에서 `h3` 태그의 `font-size` 속성을 40픽셀로 설정해야 합니다.
 
 ```js
  const fontSizeOfh3 = new __helpers.CSSHelp(document).getStyle('h3')?.getPropertyValue('font-size');
- assert(fontSizeOfh3 === '40px');
+ assert.equal(fontSizeOfh3 ,'40px');
 ```
 
 코드에서 `h4` 태그의 `font-size` 속성을 32픽셀로 설정해야 합니다.
 
 ```js
  const fontSizeOfh4 = new __helpers.CSSHelp(document).getStyle('h4')?.getPropertyValue('font-size');
- assert(fontSizeOfh4 === '32px');
+ assert.equal(fontSizeOfh4 , '32px');
 ```
 
 코드에서 `h5` 태그의 `font-size` 속성을 21픽셀로 설정해야 합니다.
 
 ```js
  const fontSizeOfh5 = new __helpers.CSSHelp(document).getStyle('h5')?.getPropertyValue('font-size');
- assert(fontSizeOfh5 === '21px');
+ assert.equal(fontSizeOfh5 ,'21px');
 ```
 
 코드에서 `h6` 태그의 `font-size` 속성을 14픽셀로 설정해야 합니다.
 
 ```js
  const fontSizeOfh6 = new __helpers.CSSHelp(document).getStyle('h6')?.getPropertyValue('font-size');
- assert(fontSizeOfh6 === '14px');
+ assert.equal(fontSizeOfh6 , '14px');
 ```
 
 # --seed--

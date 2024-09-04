@@ -24,32 +24,33 @@ Questa è l'ultima sfida che faremo per la nostra Cat Photo App per ora. Ci augu
 Il pulsante di invio del modulo e l'input di testo dovrebbero essere annidati in un div di classe `row`.
 
 ```js
-assert(
-  $('div.row:has(input[type="text"])').length > 0 &&
-    $('div.row:has(button[type="submit"])').length > 0
-);
+const textInput = document.querySelectorAll('div.row input[type="text"]'); 
+const submitInput = document.querySelectorAll('div.row button[type="submit"]');
+assert.lengthOf(textInput,1);
+assert.lengthOf(submitInput, 1);
 ```
 
 Il tuo input di testo del modulo dovrebbe essere annidato in un div di classe `col-xs-7`.
 
 ```js
-assert($('div.col-xs-7:has(input[type="text"])').length > 0);
+const textInput = document.querySelectorAll('div.col-xs-7 input[type="text"]'); 
+assert.lengthOf(textInput ,1);
 ```
 
 Il pulsante di invio del modulo dovrebbe essere annidato in un div di classe `col-xs-5`.
 
 ```js
-assert($('div.col-xs-5:has(button[type="submit"])').length > 0);
+const submitInput  = document.querySelectorAll('div.col-xs-5 button[type="submit"]'); 
+assert.lengthOf(submitInput ,1);
 ```
 
 Tutti i tuoi elementi `div` dovrebbero avere dei tag di chiusura.
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/g);
+assert.match(code,/<div/g);
+
+assert.equal(code.match(/<\/div>/g).length,code.match(/<div/g).length);
 ```
 
 # --seed--

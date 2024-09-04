@@ -30,13 +30,13 @@ Camper Cat ha programado una página esqueleto para la parte del blog de su siti
 Tu etiqueta `img` debe tener un atributo `alt`.
 
 ```js
-assert(!($('img').attr('alt') == undefined));
+assert.isTrue(document.querySelector('img')?.hasAttribute('alt'));
 ```
 
 El atributo `alt` debe establecerse en una cadena vacía.
 
 ```js
-assert($('img').attr('alt') == '');
+assert.isEmpty(document.querySelector('img')?.getAttribute('alt'));
 ```
 
 # --seed--

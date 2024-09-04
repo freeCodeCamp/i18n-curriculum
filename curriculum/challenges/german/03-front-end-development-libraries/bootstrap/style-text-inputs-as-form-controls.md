@@ -24,25 +24,30 @@ Alle textuellen `<input>`-, `<textarea>`- und `<select>`-Elemente mit der Klasse
 <p spaces-before="0">Der Bestätigungsbutton in deinem Formular sollte die Klassen <code>btn btn-primary` haben.
 
 ```js
-assert($('button[type="submit"]').hasClass('btn btn-primary'));
+assert.isTrue(document.querySelector('button[type="submit"]')?.classList?.contains('btn'));
+assert.isTrue(document.querySelector('button[type="submit"]')?.classList?.contains('btn-primary'));
 ```
 
 Du solltest ein `<i class="fa fa-paper-plane"></i>` innerhalb deines `button`-Elements hinzufügen.
 
 ```js
-assert($('button[type="submit"]:has(i.fa.fa-paper-plane)').length > 0);
+const submitButton = document.querySelector('button[type="submit"]');
+const fontIcon = submitButton?.querySelectorAll('i.fa.fa-paper-plane'); 
+
+assert.lengthOf(fontIcon ,1);
 ```
 
 Der Text `input` in deinem Formular sollte die Klasse `form-control` haben.
 
 ```js
-assert($('input[type="text"]').hasClass('form-control'));
+assert.isTrue(document.querySelector('input[type="text"]')?.classList?.contains('form-control'));
 ```
 
 Jedes deiner `i`-Elemente sollte ein abschließendes Tag haben.
 
 ```js
-assert(code.match(/<\/i>/g) && code.match(/<\/i/g).length > 3);
+assert.match(code,/<\/i>/g);
+assert.lengthOf(code.match(/<\/i/g),4);
 ```
 
 # --seed--

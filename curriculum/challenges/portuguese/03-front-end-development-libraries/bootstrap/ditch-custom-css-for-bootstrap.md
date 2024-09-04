@@ -23,35 +23,33 @@ Finalmente, remova a classe `smaller-image` do primeiro elemento `img` e substit
 O elemento `h2` não deve mais conter a classe `red-text`.
 
 ```js
-assert(!$('h2').hasClass('red-text'));
+assert.isFalse(document.querySelector('h2')?.classList?.contains('red-text'));
 ```
 
 O elemento `h2` deve ter agora a classe `text-primary`.
 
 ```js
-assert($('h2').hasClass('text-primary'));
+assert.isTrue(document.querySelector('h2')?.classList?.contains('text-primary'));
 ```
 
 Os elementos de parágrafo não devem mais usar a fonte `Monospace`.
 
 ```js
-assert(
-  !$('p')
-    .css('font-family')
-    .match(/monospace/i)
-);
+const paragraphElement = document.querySelector('p');
+const paragraphFontFamily = window.getComputedStyle(paragraphElement)["font-family"]; 
+assert.notMatch(paragraphFontFamily,/monospace/i);
 ```
 
 A classe `smaller-image` deve ser removida da imagem superior.
 
 ```js
-assert(!$('img').hasClass('smaller-image'));
+assert.isFalse(document.querySelector('img')?.classList?.contains('smaller-image'));
 ```
 
 Você deve adicionar a classe `img-responsive` à imagem superior.
 
 ```js
-assert($('.img-responsive').length > 1);
+assert.lengthOf(document.querySelectorAll('.img-responsive'),2);
 ```
 
 # --seed--

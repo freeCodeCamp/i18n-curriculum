@@ -30,13 +30,17 @@ Allinea il testo del tag `h4`, quello che dice "Google", al centro. Giustifica q
 Il tuo codice dovrebbe utilizzare la proprietà text-align sul tag `h4` per impostarlo a `center`.
 
 ```js
-assert($('h4').css('text-align') == 'center');
+const h4Element =document.querySelector('h4')
+const h4Style = window.getComputedStyle(h4Element);
+assert.equal(h4Style?.textAlign, 'center');
 ```
 
 Il tuo codice dovrebbe utilizzare la proprietà text-align sul tag `p` per impostarlo su `justify`.
 
 ```js
-assert($('p').css('text-align') == 'justify');
+const pElement =document.querySelector('p')
+const pStyle = window.getComputedStyle(pElement);
+assert.equal(pStyle?.textAlign, 'justify');
 ```
 
 # --seed--

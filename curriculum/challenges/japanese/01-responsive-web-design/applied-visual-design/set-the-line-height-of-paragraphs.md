@@ -20,7 +20,9 @@ CSS でテキストブロック内の各行の高さを変更するために `li
 `p` タグの `line-height` を 25 ピクセルに設定してください。
 
 ```js
-assert($('p').css('line-height') == '25px');
+const pElement =document.querySelector('p')
+const pStyle = window.getComputedStyle(pElement);
+assert.equal(pStyle?.lineHeight, '25px');
 ```
 
 # --seed--

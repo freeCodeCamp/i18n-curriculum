@@ -30,10 +30,9 @@ Beachte, dass der Wert von y2 größer als 1 ist. Obwohl die kubische Bézierkur
 Der Wert der Eigenschaft `animation-timing-function` für das Element mit der Id `green` sollte wie angegeben eine `cubic-bezier`-Funktion mit x1, y1, x2, y2 Werten sein.
 
 ```js
-assert(
-  $('#green').css('animation-timing-function') ==
-    'cubic-bezier(0.311, 0.441, 0.444, 1.649)'
-);
+const greenElement = document.querySelector('#green');
+ const greenStyle = window.getComputedStyle(greenElement);
+assert.equal(greenStyle?.animationTimingFunction, 'cubic-bezier(0.311, 0.441, 0.444, 1.649)');
 ```
 
 # --seed--

@@ -20,23 +20,21 @@ Umschließe den Text `Stanford University` mit einem `strong`-Tag innerhalb des 
 Dein Code sollte ein `strong`-Tag in das Markup einfügen.
 
 ```js
-assert($('strong').length == 1);
+assert.lengthOf(document.querySelectorAll('strong'),1);
 ```
 
 Das `strong`-Tag sollte innerhalb des `p`-Tags sein.
 
 ```js
-assert($('p').children('strong').length == 1);
+const pargraphElement = document.querySelector('p');
+const pargraphChildren = pargraphElement?.querySelectorAll(`:scope ${'strong'}`);
+assert.lengthOf(pargraphChildren, 1);
 ```
 
 Das `strong`-Tag sollte die Worte `Stanford University` umschließen.
 
 ```js
-assert(
-  $('strong')
-    .text()
-    .match(/^Stanford University\.?$/gi)
-);
+assert.match(document.querySelector('strong')?.textContent, /^Stanford University\.?$/gi);
 ```
 
 # --seed--

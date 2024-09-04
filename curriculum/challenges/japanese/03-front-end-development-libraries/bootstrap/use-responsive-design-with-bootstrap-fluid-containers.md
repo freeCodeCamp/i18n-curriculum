@@ -29,23 +29,27 @@ HTML の先頭に次のコードを追加して、任意のアプリに Bootstra
 `div` 要素にクラス `container-fluid` を付けます。
 
 ```js
-assert($('div').hasClass('container-fluid'));
+assert.isTrue(document.querySelector('div')?.classList?.contains('container-fluid'));
 ```
 
 `div` 要素には終了タグが必要です。
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/g);
+assert.match(code,/<div/g);
+assert.equal(code.match(/<\/div>/g).length ,code.match(/<div/g).length);
 ```
 
 `style` の終了タグの後にあるすべての HTML 要素を `.container-fluid` の中にネストします。
 
 ```js
-assert($('.container-fluid').children().length >= 8 && !$('.container-fluid').has("style").length && !$('.container-fluid').has("link").length);
+const fluidContainer = document.querySelector('.container-fluid');
+const possibleStyleElements = fluidContainer?.querySelectorAll(`:scope ${'style'}`);
+const possibleLinkElements = fluidContainer?.querySelectorAll(`:scope ${'link'}`);
+
+assert.lengthOf(fluidContainer?.children,8);
+assert.isEmpty(possibleStyleElements);
+assert.isEmpty(possibleLinkElements);
 ```
 
 # --seed--

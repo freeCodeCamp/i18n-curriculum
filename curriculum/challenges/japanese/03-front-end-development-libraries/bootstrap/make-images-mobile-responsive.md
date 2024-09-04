@@ -19,35 +19,33 @@ dashedName: make-images-mobile-responsive
 画像は全部で２枚必要です。
 
 ```js
-assert($('img').length === 2);
+assert.lengthOf(document.querySelectorAll('img'), 2);
 ```
 
 新しい画像は古い画像の下に表示し、クラス `img-responsive` を付けます。
 
 ```js
-assert($('img:eq(1)').hasClass('img-responsive'));
+assert.isTrue(document.querySelectorAll('img')?.[1]?.classList?.contains('img-responsive'));
 ```
 
 新しい画像にはクラス `smaller-image` を付けません。
 
 ```js
-assert(!$('img:eq(1)').hasClass('smaller-image'));
+assert.isFalse(document.querySelectorAll('img')?.[1]?.classList?.contains('smaller-image'));
 ```
 
 新しい画像の `src` を `https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg` に設定します。
 
 ```js
-assert($('img:eq(1)').attr('src') === 'https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg');
+assert.equal(document.querySelectorAll('img')?.[1]?.getAttribute('src') , 'https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg');
 ```
 
 新しい `img` 要素には終了を示す角かっこが必要です。
 
 ```js
-assert(
-  code.match(/<img/g) &&
-    code.match(/<img[^<]*>/g).length === 2 &&
-    code.match(/<img/g).length === 2
-);
+assert.match(code,/<img/g);
+assert.lengthOf(code.match(/<img[^<]*>/g), 2);
+assert.lengthOf(code.match(/<img/g), 2);
 ```
 
 # --seed--

@@ -20,11 +20,7 @@ dashedName: create-texture-by-adding-a-subtle-pattern-as-a-background-image
 `body` 元素選擇器應包含 `background` 屬性，且屬性值應爲給定的 `url`。
 
 ```js
-assert(
-  code.match(
-    /background(-image)?:\s*?url\(\s*("|'|)https:\/\/cdn-media-1\.freecodecamp\.org\/imgr\/MJAkxbh\.png\2\s*\)/gi
-  )
-);
+assert.match(code,/background(-image)?:\s*?url\(\s*("|'|)https:\/\/cdn-media-1\.freecodecamp\.org\/imgr\/MJAkxbh\.png\2\s*\)/gi);
 ```
 
 # --seed--

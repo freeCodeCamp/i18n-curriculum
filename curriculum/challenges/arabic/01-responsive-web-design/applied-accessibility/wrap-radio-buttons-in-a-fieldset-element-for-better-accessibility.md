@@ -40,34 +40,31 @@ dashedName: wrap-radio-buttons-in-a-fieldset-element-for-better-accessibility
 يجب أن يكون الكود الخاص بك فيه علامة `fieldset` حول مجموعة أزرار الراديو.
 
 ```js
-assert($('fieldset').length == 1);
+assert.lengthOf(document.querySelectorAll('fieldset'),1);
 ```
 
 يجب أن يكون لعلامة `fieldset` علامة اغلاق أيضا.
 
 ```js
-assert(
-  code.match(/<\/fieldset>/g) &&
-    code.match(/<\/fieldset>/g).length === code.match(/<fieldset>/g).length
-);
+assert.isTrue(code.match(/<\/fieldset>/g)?.length === code.match(/<fieldset>/g)?.length);
 ```
 
 يجب أن يحتوي الكود الخاصة بك على علامة `legend` حول النص الذي يسأل عن مستوى النينجا للمستخدم.
 
 ```js
-assert($('legend').length == 1);
+assert.lengthOf(document.querySelectorAll('legend') ,1);
 ```
 
 يجب ألا يحتوي الكود الخاص بك على أي علامة `div`.
 
 ```js
-assert($('div').length == 0);
+assert.lengthOf(document.querySelectorAll('div') ,0);
 ```
 
 يجب ألا يحتوي الكود الخاصة بك على علامة `p` حول النص الذي يسأل عن مستوى النينجا للمستخدم.
 
 ```js
-assert($('p').length == 4);
+assert.lengthOf(document.querySelectorAll('p') ,4);
 ```
 
 # --seed--

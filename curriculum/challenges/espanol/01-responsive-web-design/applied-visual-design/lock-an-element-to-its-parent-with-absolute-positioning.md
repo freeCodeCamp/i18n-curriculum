@@ -22,19 +22,25 @@ Bloquea el elemento `#searchbar` en al parte superior derecha de su `section` pa
 El elemento `#searchbar` debe tener una `position` establecida en `absolute`.
 
 ```js
-assert($('#searchbar').css('position') == 'absolute');
+const searchbarElement = document.querySelector('#searchbar');
+const searchbarStyle = window.getComputedStyle(searchbarElement);
+assert.equal(searchbarStyle?.position, 'absolute');
 ```
 
 Tu código debe usar el desplazamiento CSS `top` de 50 píxeles en el elemento `#searchbar`.
 
 ```js
-assert($('#searchbar').css('top') == '50px');
+const searchbarElement = document.querySelector('#searchbar');
+const searchbarStyle = window.getComputedStyle(searchbarElement);
+assert.equal(searchbarStyle?.top, '50px');
 ```
 
 Tu código debe usar el desplazamiento CSS `right` de 50 píxeles en el elemento `#searchbar`.
 
 ```js
-assert($('#searchbar').css('right') == '50px');
+const searchbarElement = document.querySelector('#searchbar');
+const searchbarStyle = window.getComputedStyle(searchbarElement);
+assert.equal(searchbarStyle?.right, '50px');
 ```
 
 # --seed--

@@ -20,13 +20,16 @@ dashedName: use-the-em-tag-to-italicize-text
 코드로 마크업에 `em`태그를 추가해야 합니다.
 
 ```js
-assert($('em').length == 1);
+assert.lengthOf(document.querySelectorAll('em'),1);
 ```
 
 `em` 태그는 `p` 태그 안의 컨텐츠를 감싸야 합니다. 하지만 `p` 태그 자체를 감싸서는 안됩니다.
 
 ```js
-assert($('p').children().length == 1 && $('em').children().length == 2);
+const paragraphElement = document.querySelector('p');
+const emElement = document.querySelector('em');
+assert.lengthOf(paragraphElement?.children, 1);
+assert.lengthOf(emElement?.children, 2);
 ```
 
 # --seed--

@@ -22,21 +22,21 @@ Per gli elementi con id `ball1` e `ball2`, aggiungi una proprietà `animation-ti
 Il valore della proprietà `animation-timing-function` per l'elemento con id `ball1` dovrebbe essere `linear`.
 
 ```js
-const ball1Animation = __helpers.removeWhiteSpace(
-  $('#ball1').css('animation-timing-function')
-);
-assert(ball1Animation == 'linear' || ball1Animation == 'cubic-bezier(0,0,1,1)');
+const ballOne =document.querySelector('#ball1'); 
+const ballOneStyle = window.getComputedStyle(ballOne); 
+
+const ball1Animation = __helpers.removeWhiteSpace(ballOneStyle?.animationTimingFunction);
+assert.isTrue(ball1Animation == 'linear' || ball1Animation == 'cubic-bezier(0,0,1,1)');
 ```
 
 Il valore della proprietà `animation-timing-function` per l'elemento con id `ball2` dovrebbe essere `ease-out`.
 
 ```js
-const ball2Animation = __helpers.removeWhiteSpace(
-  $('#ball2').css('animation-timing-function')
-);
-assert(
-  ball2Animation == 'ease-out' || ball2Animation == 'cubic-bezier(0,0,0.58,1)'
-);
+const ballTwo = document.querySelector('#ball2'); 
+const ballTwoStyle = window.getComputedStyle(ballTwo); 
+
+const ball2Animation = __helpers.removeWhiteSpace(ballTwoStyle?.animationTimingFunction);
+assert.isTrue(ball2Animation == 'ease-out' || ball2Animation == 'cubic-bezier(0,0,0.58,1)');
 ```
 
 # --seed--

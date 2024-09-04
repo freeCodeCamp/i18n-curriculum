@@ -25,33 +25,41 @@ Bootstrap では、ユーザーの画面の幅に応じて、さまざまな列�
 すべてのボタンを、クラス `row` を持つ同じ `div` 要素の中に入れます。
 
 ```js
-assert($('div.row:has(button)').length > 0);
+const row = document.querySelector('div.row');
+const rowChildren = row?.querySelectorAll(`:scope ${'button'}`); 
+assert.lengthOf(rowChildren, 3);
 ```
 
 各 Bootstrap ボタンを、クラス `col-xs-4` を持つ自身の `div` の中に入れます。
 
 ```js
-assert($('div.col-xs-4:has(button)').length > 2);
+const columns = document.querySelectorAll('div.col-xs-4');
+
+const firstButton = columns?.[0]?.querySelectorAll(`:scope ${'button'}`)
+assert.lengthOf(firstButton,1);
+
+const secondButton = columns?.[1]?.querySelectorAll(`:scope ${'button'}`)
+assert.lengthOf(secondButton,1);
+
+const thirdButton = columns?.[2]?.querySelectorAll(`:scope ${'button'}`)
+assert.lengthOf(thirdButton,1);
+
 ```
 
 それぞれの `button` 要素に終了タグが必要です。
 
 ```js
-assert(
-  code.match(/<\/button>/g) &&
-    code.match(/<button/g) &&
-    code.match(/<\/button>/g).length === code.match(/<button/g).length
-);
+assert.match(code,/<\/button>/g);
+assert.match(code,/<button/g);
+assert.equal(code.match(/<\/button>/g).length , code.match(/<button/g).length);
 ```
 
 それぞれの `div` 要素に終了タグが必要です。
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/g);
+assert.match(code,/<div/g);
+assert.equal(code.match(/<\/div>/g).length , code.match(/<div/g).length);
 ```
 
 # --seed--

@@ -28,25 +28,25 @@ Camper Cat quiere que los enlaces alrededor de los dos títulos de artículos de
 Tu código debe agregar un atributo `accesskey` a la etiqueta `a` con el `id` de `first`.
 
 ```js
-assert($('#first').attr('accesskey'));
+assert.isTrue(document.querySelector('#first')?.hasAttribute('accesskey'));
 ```
 
 Tu código debe agregar un atributo `accesskey` a la etiqueta `a` con el `id` de `second`.
 
 ```js
-assert($('#second').attr('accesskey'));
+assert.isTrue(document.querySelector('#second')?.hasAttribute('accesskey'));
 ```
 
 Tu código debe establecer el atributo `accesskey` en la etiqueta `a` con el `id` de `first` en `g`. Ten en cuenta que las mayúsculas y minúsculas importan.
 
 ```js
-assert($('#first').attr('accesskey') == 'g');
+assert.equal(document.querySelector('#first')?.getAttribute('accesskey'), 'g');
 ```
 
 Tu código debe establecer `accesskey` en la etiqueta `a` con el `id` de `second` en `c`. Ten en cuenta que las mayúsculas y minúsculas importan.
 
 ```js
-assert($('#second').attr('accesskey') == 'c');
+assert.equal(document.querySelector('#second')?.getAttribute('accesskey'), 'c');
 ```
 
 # --seed--

@@ -36,25 +36,25 @@ Camper Cat 在他的勵志名言頁面中有一個搜索區域，他打算使用
 應給 `search` `input` 標籤添加一個 `tabindex` 屬性。
 
 ```js
-assert($('#search').attr('tabindex'));
+assert.isNotNull(document.querySelector('#search')?.getAttribute('tabindex'));
 ```
 
 應給 `submit` `input` 標籤添加一個 `tabindex` 屬性。
 
 ```js
-assert($('#submit').attr('tabindex'));
+assert.isNotNull(document.querySelector('#submit')?.getAttribute('tabindex'));
 ```
 
 `search` `input` 標籤的 `tabindex` 屬性值應爲 1。
 
 ```js
-assert($('#search').attr('tabindex') == '1');
+assert.equal(document.querySelector('#search')?.getAttribute('tabindex'), '1');
 ```
 
 `submit` `input` 標籤的 `tabindex` 屬性值應爲 2。
 
 ```js
-assert($('#submit').attr('tabindex') == '2');
+assert.equal(document.querySelector('#submit')?.getAttribute('tabindex'), '2');
 ```
 
 # --seed--

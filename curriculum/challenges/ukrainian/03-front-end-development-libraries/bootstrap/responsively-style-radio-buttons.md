@@ -24,23 +24,23 @@ dashedName: responsively-style-radio-buttons
 Усі радіокнопки мають бути вкладеними в одному елементі `div` з класом `row`.
 
 ```js
-assert($('div.row:has(input[type="radio"])').length > 0);
+const radioButtons = document.querySelectorAll(`div.row input[type=radio]`); 
+assert.lengthOf(radioButtons , 2);
 ```
 
 Кожна радіокнопка має бути вкладена у власному елементі `div` з класом `col-xs-6`.
 
 ```js
-assert($('div.col-xs-6:has(input[type="radio"])').length > 1);
+const radioButtons = document.querySelectorAll(`div.col-xs-6 input[type=radio]`); 
+assert.lengthOf(radioButtons , 2);
 ```
 
 Усі елементи `div` повинні мати кінцеві теги.
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/);
+assert.match(code,/<div/g);
+assert.equal(code.match(/<\/div>/g).length,code.match(/<div/g).length);
 ```
 
 # --seed--

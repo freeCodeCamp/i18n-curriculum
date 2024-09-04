@@ -21,35 +21,33 @@ Dê ao elemento `h3` uma cor com a classe `text-primary`, e centralize-o com a c
 Você deve adicionar um elemento `h3` à página.
 
 ```js
-assert($('h3') && $('h3').length > 0);
+assert.lengthOf(document.querySelectorAll('h3'),1);
 ```
 
 O elemento `h3` deve ter uma tag de fechamento.
 
 ```js
-assert(
-  code.match(/<\/h3>/g) &&
-    code.match(/<h3/g) &&
-    code.match(/<\/h3>/g).length === code.match(/<h3/g).length
-);
+assert.match(code,/<\/h3>/g);
+assert.match(code,/<h3/g);
+assert.equal( code.match(/<\/h3>/g).length , code.match(/<h3/g).length);
 ```
 
 O elemento `h3` deve ser colorido ao aplicar a classe `text-primary`
 
 ```js
-assert($('h3').hasClass('text-primary'));
+assert.isTrue(document.querySelector('h3')?.classList?.contains('text-primary'));
 ```
 
 O elemento `h3` deve ser centralizado ao aplicar a classe `text-center`
 
 ```js
-assert($('h3').hasClass('text-center'));
+assert.isTrue(document.querySelector('h3')?.classList?.contains('text-center'));
 ```
 
 O elemento `h3` deve ter o texto `jQuery Playground`.
 
 ```js
-assert.isTrue(/jquery(\s)+playground/gi.test($('h3').text()));
+assert.match(document.querySelector('h3')?.textContent, /jquery(\s)+playground/gi);
 ```
 
 # --seed--

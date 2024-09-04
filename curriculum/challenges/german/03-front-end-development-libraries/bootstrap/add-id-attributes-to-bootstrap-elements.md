@@ -27,19 +27,17 @@ Gib dem Well auf der linken Seite die Id `left-well`. Gib dem Well auf der recht
 Dein linker `well` sollte die Id `left-well` haben.
 
 ```js
-assert(
-  $('.col-xs-6').children('#left-well') &&
-    $('.col-xs-6').children('#left-well').length > 0
-);
+const column = document.querySelectorAll('.col-xs-6')[0];
+const leftWall = column?.querySelectorAll(`:scope ${'#left-well'}`);
+assert.lengthOf(leftWall,1)
 ```
 
 Dein rechter `well` sollte die Id `right-well` haben.
 
 ```js
-assert(
-  $('.col-xs-6').children('#right-well') &&
-    $('.col-xs-6').children('#right-well').length > 0
-);
+const column = document.querySelectorAll('.col-xs-6')[1];
+const rightWall = column?.querySelectorAll(`:scope ${'#right-well'}`);
+assert.lengthOf(rightWall,1)
 ```
 
 # --seed--

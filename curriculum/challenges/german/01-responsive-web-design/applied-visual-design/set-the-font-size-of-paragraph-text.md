@@ -20,7 +20,9 @@ Die Eigenschaft `font-size` ist nicht auf Überschriften beschränkt, sie kann a
 Dein `p`-Tag sollte eine `font-size` von 16 Pixel haben.
 
 ```js
-assert($('p').css('font-size') == '16px');
+const pElement =document.querySelector('p')
+const pStyle = window.getComputedStyle(pElement);
+assert.equal(pStyle?.fontSize, '16px');
 ```
 
 # --seed--

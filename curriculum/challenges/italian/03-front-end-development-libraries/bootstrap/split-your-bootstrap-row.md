@@ -17,17 +17,15 @@ Crea due elementi `div` all'interno della tua riga, entrambi di classe `col-xs-6
 Due elementi `div class="col-xs-6"` dovrebbero essere annidati all'interno dell'elemento `div class="row"`.
 
 ```js
-assert($('div.row > div.col-xs-6').length > 1);
+assert.lengthOf(document.querySelectorAll('div.row > div.col-xs-6'),2);
 ```
 
 Tutti i tuoi elementi `div` dovrebbero avere un tag di chiusura.
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/g);
+assert.match(code,/<div/g);
+assert.equal(code.match(/<\/div>/g).length , code.match(/<div/g).length);
 ```
 
 # --seed--

@@ -26,13 +26,13 @@ Camper Cat은 닌자 무기 페이지에 대해 몇 가지 좋은 아이디어�
 `main` 태그가 하나여야 합니다.
 
 ```js
-assert($('main').length == 1);
+assert.lengthOf(document.querySelectorAll('main'),1);
 ```
 
 `main` 태그들은 닫는 `header` 태그와 여는 `footer` 태그 사이에 있어야 합니다.
 
 ```js
-assert(code.match(/<\/header>\s*?<main>\s*?<\/main>/gi));
+assert.match(code,/<\/header>\s*?<main>\s*?<\/main>/gi);
 ```
 
 # --seed--

@@ -19,30 +19,20 @@ Envuelve la etiqueta `s` alrededor de `Google` dentro de la etiqueta `h4` y lueg
 Tu código debe agregar una etiqueta `s` al lenguaje de marcado.
 
 ```js
-assert($('s').length == 1);
+assert.lengthOf(document.querySelectorAll('s'),1);
 ```
 
 Una etiqueta `s` debe envolver alrededor del texto `Google` en la etiqueta `h4`. No debe contener la palabra `Alphabet`.
 
 ```js
-assert(
-  $('h4 > s')
-    .text()
-    .match(/Google/gi) &&
-    !$('h4 > s')
-      .text()
-      .match(/Alphabet/gi)
-);
+assert.match(document.querySelector('h4 > s')?.textContent, /Google/gi);
+assert.notMatch(document.querySelector('h4 > s')?.textContent, /Alphabet/gi);
 ```
 
 Debes incluir la palabra `Alphabet` en la etiqueta `h4`, sin formato de tachado.
 
 ```js
-assert(
-  $('h4')
-    .html()
-    .match(/Alphabet/gi)
-);
+assert.match(document.querySelector('h4')?.innerHTML, /Alphabet/gi);
 ```
 
 # --seed--

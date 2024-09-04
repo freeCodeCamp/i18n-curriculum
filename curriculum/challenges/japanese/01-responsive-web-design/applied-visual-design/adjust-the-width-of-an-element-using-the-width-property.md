@@ -27,11 +27,12 @@ img {
 
 ```js
 const fullCard = code.match(/\.fullCard\s*{[\s\S]+?[^}]}/g);
-assert(
-  fullCard &&
-    /width\s*:\s*245px\s*(;|})/gi.test(fullCard[0]) &&
-    $('.fullCard').css('maxWidth') === 'none'
-);
+const fullCardElement = document.querySelector('.fullCard');
+const fullCardStyle = window.getComputedStyle(fullCardElement); 
+assert.match(code,/\.fullCard\s*{[\s\S]+?[^}]}/g); 
+
+assert.match(fullCard?.[0],/width\s*:\s*245px\s*(;|})/gi);
+assert.equal(fullCardStyle?.maxWidth, 'none');
 ```
 
 # --seed--

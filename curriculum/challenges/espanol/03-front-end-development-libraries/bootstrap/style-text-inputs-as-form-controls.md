@@ -24,25 +24,30 @@ Todos los elementos textuales `<input>`, `<textarea>`, y `<select>` con la clase
 El botón de envío en tu formulario debe tener las clases `btn btn-primary`.
 
 ```js
-assert($('button[type="submit"]').hasClass('btn btn-primary'));
+assert.isTrue(document.querySelector('button[type="submit"]')?.classList?.contains('btn'));
+assert.isTrue(document.querySelector('button[type="submit"]')?.classList?.contains('btn-primary'));
 ```
 
 Debes añadir un `<i class="fa fa-paper-plane"></i>` dentro de tu elemento `button`.
 
 ```js
-assert($('button[type="submit"]:has(i.fa.fa-paper-plane)').length > 0);
+const submitButton = document.querySelector('button[type="submit"]');
+const fontIcon = submitButton?.querySelectorAll('i.fa.fa-paper-plane'); 
+
+assert.lengthOf(fontIcon ,1);
 ```
 
 El `input` de tipo texto en tu formulario debe tener la clase `form-control`.
 
 ```js
-assert($('input[type="text"]').hasClass('form-control'));
+assert.isTrue(document.querySelector('input[type="text"]')?.classList?.contains('form-control'));
 ```
 
 Cada uno de tus elementos `i` debe tener una etiqueta de cierre.
 
 ```js
-assert(code.match(/<\/i>/g) && code.match(/<\/i/g).length > 3);
+assert.match(code,/<\/i>/g);
+assert.lengthOf(code.match(/<\/i/g),4);
 ```
 
 # --seed--

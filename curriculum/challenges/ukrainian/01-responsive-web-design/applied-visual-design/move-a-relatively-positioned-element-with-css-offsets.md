@@ -20,13 +20,17 @@ dashedName: move-a-relatively-positioned-element-with-css-offsets
 Ваш код повинен використовувати CSS offset, щоб змістити `h2` на 10 пікселів вгору. Іншими словами, перемістіть його на 10 пікселів від `bottom`, де він зазвичай розташований.
 
 ```js
-assert($('h2').css('bottom') == '10px');
+const h2Element =document.querySelector('h2')
+const h2Style = window.getComputedStyle(h2Element);
+assert.equal(h2Style?.bottom, '10px');
 ```
 
 Ваш код повинен використовувати CSS offset, щоб змістити `h2` на 15 пікселів праворуч. Іншими словами, перемістіть його на 15 пікселів від `left`, де він зазвичай розташований.
 
 ```js
-assert($('h2').css('left') == '15px');
+const h2Element =document.querySelector('h2')
+const h2Style = window.getComputedStyle(h2Element);
+assert.equal(h2Style?.left , '15px');
 ```
 
 # --seed--

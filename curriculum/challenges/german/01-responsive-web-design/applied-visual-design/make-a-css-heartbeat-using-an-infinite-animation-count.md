@@ -22,13 +22,17 @@ Lass das Herz beständig weiter schlagen, indem du die `animation-iteration-coun
 Die `animation-iteration-count`-Eigenschaft für die `heart`-Klasse sollte einen Wert von `infinite` besitzen.
 
 ```js
-assert($('.heart').css('animation-iteration-count') == 'infinite');
+const heartElement = document.querySelector('.heart');
+ const heartStyle = window.getComputedStyle(heartElement);
+ assert.equal(heartStyle?.animationIterationCount, 'infinite');
 ```
 
 Die Eigenschaft `animation-iteration-count` für die `back`-Klasse sollte einen Wert von `infinite` haben.
 
 ```js
-assert($('.back').css('animation-iteration-count') == 'infinite');
+const backElement = document.querySelector('.back');
+ const backStyle = window.getComputedStyle(backElement);
+ assert.equal(backStyle?.animationIterationCount, 'infinite');
 ```
 
 # --seed--

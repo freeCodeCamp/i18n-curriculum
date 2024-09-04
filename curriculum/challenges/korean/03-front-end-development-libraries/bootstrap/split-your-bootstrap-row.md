@@ -17,17 +17,15 @@ dashedName: split-your-bootstrap-row
 두 개의 `div class="col-xs-6"` 요소는 `div class="row"` 요소 안에 중첩되어야 합니다.
 
 ```js
-assert($('div.row > div.col-xs-6').length > 1);
+assert.lengthOf(document.querySelectorAll('div.row > div.col-xs-6'),2);
 ```
 
 모든 `div` 요소는 닫는 태그를 가져야 합니다.
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/g);
+assert.match(code,/<div/g);
+assert.equal(code.match(/<\/div>/g).length , code.match(/<div/g).length);
 ```
 
 # --seed--

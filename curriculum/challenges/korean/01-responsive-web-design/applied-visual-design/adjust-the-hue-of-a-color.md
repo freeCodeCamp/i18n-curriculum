@@ -30,37 +30,43 @@ dashedName: adjust-the-hue-of-a-color
 초록색을 사용하기 위해 `hsl()` 함수를 사용해야 합니다.
 
 ```js
-assert(code.match(/\.green\s*?{\s*?background-color\s*:\s*?hsl/gi));
+assert.match(code,/\.green\s*?{\s*?background-color\s*:\s*?hsl/gi);
 ```
 
 옥색(cyan)을 사용하기 위해 `hsl()` 함수를 사용해야 합니다.
 
 ```js
-assert(code.match(/\.cyan\s*?{\s*?background-color\s*:\s*?hsl/gi));
+assert.match(code,/\.cyan\s*?{\s*?background-color\s*:\s*?hsl/gi);
 ```
 
 파란색을 사용하기 위해 `hsl()` 함수를 사용해야 합니다.
 
 ```js
-assert(code.match(/\.blue\s*?{\s*?background-color\s*:\s*?hsl/gi));
+assert.match(code,/\.blue\s*?{\s*?background-color\s*:\s*?hsl/gi);
 ```
 
 `green` 클래스의 `div` 요소는 `background-color`가 초록색이어야 합니다.
 
 ```js
-assert($('.green').css('background-color') == 'rgb(0, 255, 0)');
+const greenElement = document.querySelector(".green");
+const greenStyle = window.getComputedStyle(greenElement); 
+assert.equal(greenStyle?.backgroundColor, 'rgb(0, 255, 0)');
 ```
 
 클래스 이름이 `cyan`인 `div` 요소는 청록색의 `background-color`를 가져야 합니다.
 
 ```js
-assert($('.cyan').css('background-color') == 'rgb(0, 255, 255)');
+const cyanElement = document.querySelector(".cyan");
+const cyanStyle = window.getComputedStyle(cyanElement); 
+assert.equal(cyanStyle?.backgroundColor, 'rgb(0, 255, 255)');
 ```
 
 `blue` 클래스의 `div` 요소는 `background-color`가 파란색이어야 합니다.
 
 ```js
-assert($('.blue').css('background-color') == 'rgb(0, 0, 255)');
+const blueElement = document.querySelector(".blue");
+const blueStyle = window.getComputedStyle(blueElement); 
+assert.equal(blueStyle?.backgroundColor, 'rgb(0, 0, 255)');
 ```
 
 # --seed--

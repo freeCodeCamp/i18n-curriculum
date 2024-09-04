@@ -20,7 +20,9 @@ dashedName: set-the-font-size-of-paragraph-text
 Ваш тег `p` повинен мати розмір шрифту 16 pixels `font-size`.
 
 ```js
-assert($('p').css('font-size') == '16px');
+const pElement =document.querySelector('p')
+const pStyle = window.getComputedStyle(pElement);
+assert.equal(pStyle?.fontSize, '16px');
 ```
 
 # --seed--

@@ -19,35 +19,33 @@ Afortunadamente, con Bootstrap, todo lo que necesitamos hacer es agregar la clas
 Debes tener un total de dos imágenes.
 
 ```js
-assert($('img').length === 2);
+assert.lengthOf(document.querySelectorAll('img'), 2);
 ```
 
 Tu nueva imagen debe estar debajo de la anterior y tener la clase `img-responsive`.
 
 ```js
-assert($('img:eq(1)').hasClass('img-responsive'));
+assert.isTrue(document.querySelectorAll('img')?.[1]?.classList?.contains('img-responsive'));
 ```
 
 Tu nueva imagen no debe tener la clase `smaller-image`.
 
 ```js
-assert(!$('img:eq(1)').hasClass('smaller-image'));
+assert.isFalse(document.querySelectorAll('img')?.[1]?.classList?.contains('smaller-image'));
 ```
 
 Tu nueva imagen debe tener el atributo `src` con el valor `https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg`.
 
 ```js
-assert($('img:eq(1)').attr('src') === 'https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg');
+assert.equal(document.querySelectorAll('img')?.[1]?.getAttribute('src') , 'https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg');
 ```
 
 Tu nuevo elemento `img` debe tener etiqueta de cierre.
 
 ```js
-assert(
-  code.match(/<img/g) &&
-    code.match(/<img[^<]*>/g).length === 2 &&
-    code.match(/<img/g).length === 2
-);
+assert.match(code,/<img/g);
+assert.lengthOf(code.match(/<img[^<]*>/g), 2);
+assert.lengthOf(code.match(/<img/g), 2);
 ```
 
 # --seed--

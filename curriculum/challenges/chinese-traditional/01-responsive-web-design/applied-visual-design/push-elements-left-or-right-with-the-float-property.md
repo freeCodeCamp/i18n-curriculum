@@ -20,13 +20,17 @@ dashedName: push-elements-left-or-right-with-the-float-property
 id 爲 `left` 的元素的 `float` 屬性值應爲 `left`。
 
 ```js
-assert($('#left').css('float') == 'left');
+const leftElement = document.querySelector('#left');
+const leftStyle = window.getComputedStyle(leftElement);
+assert.equal(leftStyle?.float, 'left');
 ```
 
 id 爲 `right` 的元素的 `float` 屬性值應爲 `right`。
 
 ```js
-assert($('#right').css('float') == 'right');
+const rightElement = document.querySelector('#right');
+const rightStyle = window.getComputedStyle(rightElement);
+assert.equal(rightStyle?.float, 'right');
 ```
 
 # --seed--

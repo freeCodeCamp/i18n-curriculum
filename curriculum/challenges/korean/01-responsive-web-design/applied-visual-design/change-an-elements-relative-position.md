@@ -33,13 +33,17 @@ p {
 `h2`요소의 `position` 속성을 `relative`로 설정해야 합니다.
 
 ```js
-assert($('h2').css('position') == 'relative');
+const h2Element =document.querySelector('h2')
+const h2Style = window.getComputedStyle(h2Element);
+assert.equal(h2Style?.position, 'relative');
 ```
 
 CSS 오프셋을 이용해서 `h2`를 일반적 위치 `top`에서 15px 만큼 이동하도록 해야 합니다.
 
 ```js
-assert($('h2').css('top') == '15px');
+const h2Element =document.querySelector('h2')
+const h2Style = window.getComputedStyle(h2Element);
+assert.equal(h2Style?.top, '15px');
 ```
 
 # --seed--

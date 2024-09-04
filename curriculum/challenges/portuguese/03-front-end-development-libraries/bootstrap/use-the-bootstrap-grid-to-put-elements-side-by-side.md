@@ -25,33 +25,41 @@ A classe `row` é aplicada à `div`. Os próprios botões podem ser aninhados de
 Os botões devem estar aninhados dentro do mesmo elemento `div` com a classe `row`.
 
 ```js
-assert($('div.row:has(button)').length > 0);
+const row = document.querySelector('div.row');
+const rowChildren = row?.querySelectorAll(`:scope ${'button'}`); 
+assert.lengthOf(rowChildren, 3);
 ```
 
 Cada um dos botões do Bootstrap deve estar aninhado dentro do próprio elemento `div` com a classe `col-xs-4`.
 
 ```js
-assert($('div.col-xs-4:has(button)').length > 2);
+const columns = document.querySelectorAll('div.col-xs-4');
+
+const firstButton = columns?.[0]?.querySelectorAll(`:scope ${'button'}`)
+assert.lengthOf(firstButton,1);
+
+const secondButton = columns?.[1]?.querySelectorAll(`:scope ${'button'}`)
+assert.lengthOf(secondButton,1);
+
+const thirdButton = columns?.[2]?.querySelectorAll(`:scope ${'button'}`)
+assert.lengthOf(thirdButton,1);
+
 ```
 
 Cada um dos elementos `button` deve ter uma tag de fechamento.
 
 ```js
-assert(
-  code.match(/<\/button>/g) &&
-    code.match(/<button/g) &&
-    code.match(/<\/button>/g).length === code.match(/<button/g).length
-);
+assert.match(code,/<\/button>/g);
+assert.match(code,/<button/g);
+assert.equal(code.match(/<\/button>/g).length , code.match(/<button/g).length);
 ```
 
 Cada um dos elementos `div` deve ter uma tag de fechamento.
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/g);
+assert.match(code,/<div/g);
+assert.equal(code.match(/<\/div>/g).length , code.match(/<div/g).length);
 ```
 
 # --seed--

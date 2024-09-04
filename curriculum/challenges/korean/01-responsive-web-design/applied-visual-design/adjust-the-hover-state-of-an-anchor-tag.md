@@ -28,17 +28,17 @@ a:hover {
 앵커 태그의 `color`는 검은색으로 유지되어야 하며, `:hover` 상태에 대한 CSS 규칙만 추가하세요.
 
 ```js
-assert($('a').css('color') == 'rgb(0, 0, 0)');
+const anchorElement = document.querySelector("a"); 
+const anchorStyle = window.getComputedStyle(anchorElement);
+assert.equal(anchorStyle?.color, 'rgb(0, 0, 0)');
 ```
 
 앵커 태그는 hover 상태일 때 `color`가 파란색이어야 합니다.
 
 ```js
-assert(
-  code.match(
+assert.match(code,
     /a:hover\s*?{\s*?color:\s*?(blue|rgba\(\s*?0\s*?,\s*?0\s*?,\s*?255\s*?,\s*?1\s*?\)|#00F|rgb\(\s*?0\s*?,\s*?0\s*?,\s*?255\s*?\))\s*?;\s*?}/gi
-  )
-);
+  );
 ```
 
 # --seed--

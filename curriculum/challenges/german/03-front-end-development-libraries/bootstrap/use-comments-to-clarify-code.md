@@ -21,25 +21,25 @@ Füge den Kommentar `Code below this line should not be changed` am Anfang deine
 Du solltest einen Kommentar mit `<!--` am Anfang deiner HTML-Datei beginnen.
 
 ```js
-assert(code.match(/^\s*<!--/));
+assert.match(code,(/^\s*<!--/));
 ```
 
 Dein Kommentar sollte den Text `Code below this line should not be changed` enthalten.
 
 ```js
-assert(code.match(/<!--(?!(>|->|.*-->.*this line))\s*.*this line.*\s*-->/gi));
+assert.match(code,(/<!--(?!(>|->|.*-->.*this line))\s*.*this line.*\s*-->/gi));
 ```
 
 Du solltest deinen Kommentar mit `-->` schließen.
 
 ```js
-assert(code.match(/-->.*\n+.+/g));
+assert.match(code,(/-->.*\n+.+/g));
 ```
 
 Du solltest gleich viele Kommentar-Öffner und -Schließer haben.
 
 ```js
-assert(code.match(/<!--/g).length === code.match(/-->/g).length);
+assert.equal(code.match(/<!--/g).length,code.match(/-->/g).length);
 ```
 
 # --seed--

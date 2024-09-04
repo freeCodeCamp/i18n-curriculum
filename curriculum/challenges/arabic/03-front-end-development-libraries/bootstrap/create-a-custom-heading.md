@@ -21,35 +21,40 @@ dashedName: create-a-custom-heading
 عنصر `h2` الخاص بك و أعلى `img` يجب أن يتداخل مع عنصر `div` مع `row`.
 
 ```js
-assert($('div.row:has(h2)').length > 0 && $('div.row:has(img)').length > 0);
+const row = document.querySelector('div.row');
+const h2 = row?.querySelectorAll(`:scope ${'h2'}`)
+const image = row?.querySelectorAll(`:scope ${'img'}`)
+assert.lengthOf(h2,1);
+assert.lengthOf(image ,1);
 ```
 
 يجب أدخال أعلى عنصر `img` الخاصة بك في `div` مع فئة يسمي `col-xs-4`.
 
 ```js
-assert(
-  $('div.col-xs-4:has(img)').length > 0 &&
-    $('div.col-xs-4:has(div)').length === 0
-);
+const column = document.querySelector('div.col-xs-4');
+const div = column?.querySelectorAll(`:scope ${'div'}`);
+const img = column?.querySelectorAll(`:scope ${'img'}`)
+assert.isEmpty(div);
+assert.lengthOf(img,1)
 ```
 
 يجب أدخال عنصر `h2` الخاصة بك في `div` مع فئة يسمي `col-xs-8`.
 
 ```js
-assert(
-  $('div.col-xs-8:has(h2)').length > 0 &&
-    $('div.col-xs-8:has(div)').length === 0
-);
+const column = document.querySelector('div.col-xs-8');
+const div = column?.querySelectorAll(`:scope ${'div'}`);
+const h2 = column?.querySelectorAll(`:scope ${'h2'}`)
+
+assert.isEmpty(div);
+assert.lengthOf(h2, 1);
 ```
 
 لا بد أن يوجد وسم إغلاق لكل عناصر `div`.
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/g);
+assert.match(code,/<div/g);
+assert.equal(code.match(/<\/div>/g).length,code.match(/<div/g).length);
 ```
 
 # --seed--

@@ -37,23 +37,22 @@ Füge die Klasse `btn-block` zu deinem Bootstrap Button hinzu.
 Dein Button soll immer noch die Klassen `btn` und `btn-default` haben.
 
 ```js
-assert($('button').hasClass('btn') && $('button').hasClass('btn-default'));
+assert.isTrue(document.querySelector('button')?.classList?.contains('btn'));
+assert.isTrue(document.querySelector('button')?.classList?.contains('btn-default'));
 ```
 
 Dein Button soll die Klasse `btn-block` haben.
 
 ```js
-assert($('button').hasClass('btn-block'));
+assert.isTrue(document.querySelector('button')?.classList?.contains('btn-block'));
 ```
 
 All deine `button` Elemente sollten abschließende Tags haben.
 
 ```js
-assert(
-  code.match(/<\/button>/g) &&
-    code.match(/<button/g) &&
-    code.match(/<\/button>/g).length === code.match(/<button/g).length
-);
+assert.match(code,/<\/button>/g);
+assert.match(code,/<button/g);
+assert.equal(code.match(/<\/button>/g).length, code.match(/<button/g).length);
 ```
 
 # --seed--

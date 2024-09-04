@@ -26,7 +26,9 @@ animation-iteration-count: 3;
 Властивості `animation-iteration-count` має бути надано значення `infinite`.
 
 ```js
-assert($('#ball').css('animation-iteration-count') == 'infinite');
+const ballElement = document.querySelector('#ball');
+const ballStyle = window.getComputedStyle(ballElement); 
+assert.equal(ballStyle?.animationIterationCount, 'infinite');
 ```
 
 # --seed--

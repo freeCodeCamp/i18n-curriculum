@@ -28,7 +28,7 @@ p {
 id가 `bottom`인 요소는 X축을 따라 24도를 비틀어야 합니다.
 
 ```js
-assert(code.match(/#bottom\s*?{\s*?.*?\s*?transform:\s*?skewX\(24deg\);/g));
+assert.match(code, /#bottom\s*?{\s*?.*?\s*?transform:\s*?skewX\(24deg\);/g);
 ```
 
 # --seed--

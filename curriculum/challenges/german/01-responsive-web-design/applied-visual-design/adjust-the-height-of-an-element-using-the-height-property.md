@@ -28,11 +28,10 @@ Füge eine `height`-Eigenschaft zu dem `h4`-Tag hinzu und setze es auf 25px.
 Dein Code sollte die `height`-Eigenschaft des `h4`-Elements auf 25px setzen.
 
 ```js
-assert(
-  Math.round(document.querySelector('h4').getBoundingClientRect().height) ===
-    25 &&
-    /h4{\S*height:25px(;\S*}|})/.test($('style').text().replace(/\s/g, ''))
-);
+const spaceFreeText = document.querySelector("style")?.textContent?.replace(/\s/g, ''); 
+const h4Element = document.querySelector('h4');
+assert.equal(Math.round(h4Element?.getBoundingClientRect()?.height),25);
+assert.match(spaceFreeText,/h4{\S*height:25px(;\S*}|})/);
 ```
 
 # --seed--

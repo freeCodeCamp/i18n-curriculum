@@ -27,25 +27,31 @@ dashedName: learn-about-tertiary-colors
 `orange` 클래스의 `div` 엘리먼트는 `background-color`가 주황색이어야 합니다.
 
 ```js
-assert($('.orange').css('background-color') == 'rgb(255, 127, 0)');
+const orangeElement = document.querySelector('.orange');
+const orangeStyle = window.getComputedStyle(orangeElement);
+assert.equal(orangeStyle?.backgroundColor, 'rgb(255, 127, 0)');
 ```
 
 `cyan` 클래스의 `div` 엘리먼트는 `background-color`가 청록색이어야 합니다.
 
 ```js
-assert($('.cyan').css('background-color') == 'rgb(0, 255, 255)');
+const cyanElement = document.querySelector('.cyan');
+const cyanStyle = window.getComputedStyle(cyanElement);
+assert.equal(cyanStyle?.backgroundColor, 'rgb(0, 255, 255)');
 ```
 
 `raspberry` 클래스의 `div` 엘리먼트는 `background-color`가 라즈베리 색이어야 합니다.
 
 ```js
-assert($('.raspberry').css('background-color') == 'rgb(255, 0, 127)');
+const raspberryElement = document.querySelector('.raspberry');
+const raspberryStyle = window.getComputedStyle(raspberryElement);
+assert.equal(raspberryStyle?.backgroundColor, 'rgb(255, 0, 127)');
 ```
 
 색상 클래스의 모든 `background-color` 값은 색상의 이름이 아닌 헥스 코드여야 합니다.
 
 ```js
-assert(!/background-color:\s(orange|cyan|raspberry)/.test(code));
+assert.notMatch(code, /background-color:\s(orange|cyan|raspberry)/);
 ```
 
 # --seed--

@@ -42,25 +42,29 @@ dashedName: make-elements-only-visible-to-a-screen-reader-by-using-custom-css
 코드에서 `sr-only` 클래스의 `position` 속성 값을 `absolute` 로 설정해야 합니다.
 
 ```js
-assert($('.sr-only').css('position') == 'absolute');
+const srOnly = document.querySelector('.sr-only');
+const position = window.getComputedStyle(srOnly).position; 
+assert.equal(position, 'absolute');
 ```
 
 코드에서 `sr-only` 클래스의 `left` 속성 값을 `-10000px` 로 설정해야 합니다.
 
 ```js
-assert($('.sr-only').css('left') == '-10000px');
+const srOnly = document.querySelector('.sr-only');
+const left = window.getComputedStyle(srOnly).left;
+assert.equal(left, '-10000px');
 ```
 
 코드에서 `sr-only` 클래스의 `width` 속성 값을 `1`픽셀로 설정해야 합니다.
 
 ```js
-assert(code.match(/width:\s*?1px/gi));
+assert.match(code , /width:\s*?1px/gi);
 ```
 
 코드에서 `sr-only` 클래스의 `height` 속성 값을 `1`픽셀로 설정해야 합니다.
 
 ```js
-assert(code.match(/height:\s*?1px/gi));
+assert.match(code , /height:\s*?1px/gi);
 ```
 
 # --seed--

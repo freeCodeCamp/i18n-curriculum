@@ -32,37 +32,37 @@ Faça listras alterando o `repeating-linear-gradient()` para usar um ângulo de 
 O ângulo do `repeating-linear-gradient()` deve ser de 45 graus.
 
 ```js
-assert(code.match(/background:\s*?repeating-linear-gradient\(\s*?45deg/gi));
+assert.match(code,/background:\s*?repeating-linear-gradient\(\s*?45deg/gi);
 ```
 
 O ângulo do `repeating-linear-gradient()` não deve mais ser de 90 graus.
 
 ```js
-assert(!code.match(/90deg/gi));
+assert.notMatch(code, /90deg/gi);
 ```
 
 A interrupção de cor em 0 pixels deve ser `yellow`.
 
 ```js
-assert(code.match(/yellow\s+?0(px)?/gi));
+assert.match(code, /yellow\s+?0(px)?/gi);
 ```
 
 A primeira interrupção de cor em 40 pixels deve ser `yellow`.
 
 ```js
-assert(code.match(/yellow\s+?40px/gi));
+assert.match(code, /yellow\s+?40px/gi);
 ```
 
 A segunda interrupção de cor em 40 pixels deve ser `black`.
 
 ```js
-assert(code.match(/yellow\s+?40px,\s*?black\s+?40px/gi));
+assert.match(code, /yellow\s+?40px,\s*?black\s+?40px/gi);
 ```
 
 A última interrupção de cor em 80 pixels deve ser `black`.
 
 ```js
-assert(code.match(/black\s+?80px/gi));
+assert.match(code, /black\s+?80px/gi);
 ```
 
 # --seed--

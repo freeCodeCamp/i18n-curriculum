@@ -19,35 +19,33 @@ dashedName: make-images-mobile-responsive
 두 개의 이미지가 있어야 합니다.
 
 ```js
-assert($('img').length === 2);
+assert.lengthOf(document.querySelectorAll('img'), 2);
 ```
 
 새로운 이미지는 기존 이미지 아래에 위치하고 `img-responsive`라는 클래스를 가져야 합니다.
 
 ```js
-assert($('img:eq(1)').hasClass('img-responsive'));
+assert.isTrue(document.querySelectorAll('img')?.[1]?.classList?.contains('img-responsive'));
 ```
 
 새로운 이미지는 `smaller-image`라는 클래스를 가지지 않아야 합니다.
 
 ```js
-assert(!$('img:eq(1)').hasClass('smaller-image'));
+assert.isFalse(document.querySelectorAll('img')?.[1]?.classList?.contains('smaller-image'));
 ```
 
 새로운 이미지는 `src` 속성이 `https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg`로 설정되어야 합니다.
 
 ```js
-assert($('img:eq(1)').attr('src') === 'https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg');
+assert.equal(document.querySelectorAll('img')?.[1]?.getAttribute('src') , 'https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg');
 ```
 
 새로운 `img` 요소에는 닫는 꺽쇠 괄호가 있어야 합니다.
 
 ```js
-assert(
-  code.match(/<img/g) &&
-    code.match(/<img[^<]*>/g).length === 2 &&
-    code.match(/<img/g).length === 2
-);
+assert.match(code,/<img/g);
+assert.lengthOf(code.match(/<img[^<]*>/g), 2);
+assert.lengthOf(code.match(/<img/g), 2);
 ```
 
 # --seed--

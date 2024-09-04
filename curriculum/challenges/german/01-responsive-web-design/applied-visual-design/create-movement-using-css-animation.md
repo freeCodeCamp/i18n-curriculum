@@ -39,19 +39,19 @@ Füge der Animation des `div` eine horizontale Bewegung hinzu. Verwende die `lef
 Die `@keyframes`-Regel für `0%` sollte den `left`-Offset von 0px verwenden.
 
 ```js
-assert(code.match(/[^50]0%\s*?{[\s\S]*?left:\s*?0px(;[\s\S]*?|\s*?)}/gi));
+assert.match(code,/[^50]0%\s*?{[\s\S]*?left:\s*?0px(;[\s\S]*?|\s*?)}/gi);
 ```
 
 Die `@keyframes`-Regel für `50%` sollte den `left`-Offset von 25px verwenden.
 
 ```js
-assert(code.match(/50%\s*?{[\s\S]*?left:\s*?25px(;[\s\S]*?|\s*?)}/gi));
+assert.match(code,/50%\s*?{[\s\S]*?left:\s*?25px(;[\s\S]*?|\s*?)}/gi);
 ```
 
 Die `@keyframes`-Regel für `100%` sollte den `left`-Offset von -25px verwenden.
 
 ```js
-assert(code.match(/100%\s*?{[\s\S]*?left:\s*?-25px(;[\s\S]*?|\s*?)}/gi));
+assert.match(code,/100%\s*?{[\s\S]*?left:\s*?-25px(;[\s\S]*?|\s*?)}/gi);
 ```
 
 # --seed--

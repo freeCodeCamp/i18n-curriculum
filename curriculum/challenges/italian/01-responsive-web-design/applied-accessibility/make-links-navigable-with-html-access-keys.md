@@ -28,25 +28,25 @@ Camper Cat vuole che i link intorno ai due titoli degli articoli del blog abbian
 Il tuo codice dovrebbe avere un attributo `accesskey` sul tag `a` con l' `id` di `first`.
 
 ```js
-assert($('#first').attr('accesskey'));
+assert.isTrue(document.querySelector('#first')?.hasAttribute('accesskey'));
 ```
 
 Il tuo codice dovrebbe avere un attributo `accesskey` sul tag `a` con l' `id` di `second`.
 
 ```js
-assert($('#second').attr('accesskey'));
+assert.isTrue(document.querySelector('#second')?.hasAttribute('accesskey'));
 ```
 
 Il tuo codice dovrebbe impostare l'attributo `accesskey` sul tag `a` con l'`id` di `first` a `g`. Nota che c'è differenza tra lettere maiuscole e minuscole.
 
 ```js
-assert($('#first').attr('accesskey') == 'g');
+assert.equal(document.querySelector('#first')?.getAttribute('accesskey'), 'g');
 ```
 
 Il tuo codice dovrebbe impostare l'attributo `accesskey` sul tag `a` con l'`id` di `second` a `c`. Nota che c'è differenza tra lettere maiuscole e minuscole.
 
 ```js
-assert($('#second').attr('accesskey') == 'c');
+assert.equal(document.querySelector('#second')?.getAttribute('accesskey'), 'c');
 ```
 
 # --seed--

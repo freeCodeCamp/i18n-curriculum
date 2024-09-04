@@ -26,13 +26,13 @@ Camper Cat експериментує з кольорами тексту та т
 Ваш код має змінити світлість кольору тексту `color` на значення 15%.
 
 ```js
-assert(code.match(/color:\s*?hsl\(0,\s*?55%,\s*?15%\)/gi));
+assert.match(code ,/color:\s*?hsl\(0,\s*?55%,\s*?15%\)/gi);
 ```
 
 Ваш код має змінити світлість фонового кольору `background-color` на значення 55%.
 
 ```js
-assert(code.match(/background-color:\s*?hsl\(120,\s*?25%,\s*?55%\)/gi));
+assert.match(code ,/background-color:\s*?hsl\(120,\s*?25%,\s*?55%\)/gi);
 ```
 
 # --seed--

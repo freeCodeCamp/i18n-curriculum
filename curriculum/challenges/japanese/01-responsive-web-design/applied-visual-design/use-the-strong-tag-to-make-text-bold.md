@@ -20,23 +20,21 @@ dashedName: use-the-strong-tag-to-make-text-bold
 コード内でマークアップに `strong` タグを 1 つ追加する必要があります。
 
 ```js
-assert($('strong').length == 1);
+assert.lengthOf(document.querySelectorAll('strong'),1);
 ```
 
 `strong` タグは `p` タグの内側にあるようにしてください。
 
 ```js
-assert($('p').children('strong').length == 1);
+const pargraphElement = document.querySelector('p');
+const pargraphChildren = pargraphElement?.querySelectorAll(`:scope ${'strong'}`);
+assert.lengthOf(pargraphChildren, 1);
 ```
 
 `strong` タグが `Stanford University` の語句を囲むようにしてください。
 
 ```js
-assert(
-  $('strong')
-    .text()
-    .match(/^Stanford University\.?$/gi)
-);
+assert.match(document.querySelector('strong')?.textContent, /^Stanford University\.?$/gi);
 ```
 
 # --seed--

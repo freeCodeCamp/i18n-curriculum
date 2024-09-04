@@ -22,26 +22,19 @@ Camper Cat 在鏈接中使用的文本在脫離上下文的情況下，描述性
 應修改 `a` 標籤，將其包含的文本從 `Click here` 改爲 `information about batteries`。
 
 ```js
-assert(
-  $('a')
-    .text()
-    .match(/^(information about batteries)$/g)
-);
+assert.match(document.querySelector('a')?.textContent, /^(information about batteries)$/g);
 ```
 
 `a` 元素應該有一個 `href` 屬性，且其屬性值爲空字符串 `""`。
 
 ```js
-assert($('a').attr('href') === '');
+assert.isEmpty(document.querySelector('a')?.getAttribute('href'));
 ```
 
 `a` 元素應該有一個結束標籤。
 
 ```js
-assert(
-  code.match(/<\/a>/g) &&
-    code.match(/<\/a>/g).length === code.match(/<a href=(''|"")>/g).length
-);
+assert.isTrue(code.match(/<\/a>/g)?.length === code.match(/<a href=(''|"")>/g)?.length);
 ```
 
 # --seed--

@@ -31,25 +31,25 @@ Camper Cat está organizando un torneo de Mortal Kombat y quiere pedir a los par
 Tu código debería añadir una etiqueta `input` para el campo de selección de fecha.
 
 ```js
-assert($('input').length == 2);
+assert.lengthOf(document.querySelectorAll('input'), 2);
 ```
 
 Tu etiqueta `input` debe tener un atributo `type` con un valor de `date`.
 
 ```js
-assert($('input').attr('type') == 'date');
+assert.equal(document.querySelector('input')?.getAttribute('type'), 'date');
 ```
 
 Tu etiqueta `input` debe tener un atributo `id` con un valor de `pickdate`.
 
 ```js
-assert($('input').attr('id') == 'pickdate');
+assert.equal(document.querySelector('input')?.getAttribute('id'),'pickdate');
 ```
 
 Tu etiqueta `input` debe tener un atributo `name` con un valor de `date`.
 
 ```js
-assert($('input').attr('name') == 'date');
+assert.equal(document.querySelector('input')?.getAttribute('name'), 'date');
 ```
 
 # --seed--

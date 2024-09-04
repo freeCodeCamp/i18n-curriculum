@@ -20,23 +20,21 @@ Envuelve una etiqueta `strong` alrededor del texto `Stanford University` dentro 
 Tu código debe agregar una etiqueta `strong` al lenguaje de marcado.
 
 ```js
-assert($('strong').length == 1);
+assert.lengthOf(document.querySelectorAll('strong'),1);
 ```
 
 La etiqueta `strong` debe estar dentro de la etiqueta `p`.
 
 ```js
-assert($('p').children('strong').length == 1);
+const pargraphElement = document.querySelector('p');
+const pargraphChildren = pargraphElement?.querySelectorAll(`:scope ${'strong'}`);
+assert.lengthOf(pargraphChildren, 1);
 ```
 
 La etiqueta `strong` debe envolver el texto `Stanford University`.
 
 ```js
-assert(
-  $('strong')
-    .text()
-    .match(/^Stanford University\.?$/gi)
-);
+assert.match(document.querySelector('strong')?.textContent, /^Stanford University\.?$/gi);
 ```
 
 # --seed--

@@ -40,7 +40,7 @@ box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 Ваш код повинен додати властивість `box-shadow` до id `thumbnail`.
 
 ```js
-assert(code.match(/#thumbnail\s*?{\s*?box-shadow/g));
+assert.match(code,(/#thumbnail\s*?{\s*?box-shadow/g));
 ```
 
 Вам потрібно використати даний CSS для значення `box-shadow`.

@@ -28,7 +28,7 @@ Inclina l'elemento con l'id `bottom` di 24 gradi sull'asse X usando la propriet√
 L'elemento con l'id `bottom` dovrebbe essere inclinato di 24 gradi dal suo asse X.
 
 ```js
-assert(code.match(/#bottom\s*?{\s*?.*?\s*?transform:\s*?skewX\(24deg\);/g));
+assert.match(code, /#bottom\s*?{\s*?.*?\s*?transform:\s*?skewX\(24deg\);/g);
 ```
 
 # --seed--

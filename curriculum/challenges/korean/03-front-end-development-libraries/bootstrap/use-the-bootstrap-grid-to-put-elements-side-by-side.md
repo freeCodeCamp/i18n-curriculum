@@ -25,33 +25,41 @@ dashedName: use-the-bootstrap-grid-to-put-elements-side-by-side
 `row`를 가진 같은 `div` 요소에 모든 버튼이 있어야 합니다.
 
 ```js
-assert($('div.row:has(button)').length > 0);
+const row = document.querySelector('div.row');
+const rowChildren = row?.querySelectorAll(`:scope ${'button'}`); 
+assert.lengthOf(rowChildren, 3);
 ```
 
 각각의 부트스트랩 버튼은 `col-xs-4` 클래스를 가진 `div` 요소 안에 있어야 합니다.
 
 ```js
-assert($('div.col-xs-4:has(button)').length > 2);
+const columns = document.querySelectorAll('div.col-xs-4');
+
+const firstButton = columns?.[0]?.querySelectorAll(`:scope ${'button'}`)
+assert.lengthOf(firstButton,1);
+
+const secondButton = columns?.[1]?.querySelectorAll(`:scope ${'button'}`)
+assert.lengthOf(secondButton,1);
+
+const thirdButton = columns?.[2]?.querySelectorAll(`:scope ${'button'}`)
+assert.lengthOf(thirdButton,1);
+
 ```
 
 각각의 `button` 요소는 닫는 태그를 가져야 합니다.
 
 ```js
-assert(
-  code.match(/<\/button>/g) &&
-    code.match(/<button/g) &&
-    code.match(/<\/button>/g).length === code.match(/<button/g).length
-);
+assert.match(code,/<\/button>/g);
+assert.match(code,/<button/g);
+assert.equal(code.match(/<\/button>/g).length , code.match(/<button/g).length);
 ```
 
 각가의 `div` 요소는 닫는 태그를 가져야 합니다.
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/g);
+assert.match(code,/<div/g);
+assert.equal(code.match(/<\/div>/g).length , code.match(/<div/g).length);
 ```
 
 # --seed--

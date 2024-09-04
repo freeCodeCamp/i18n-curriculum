@@ -25,33 +25,41 @@ Bootstrap له خصائص عرض عمود مختلفة يستخدمها اعتم
 يجب أن تكون جميع الأزرار متداخلة داخل نفس عنصر `div` مع الفئة `row`.
 
 ```js
-assert($('div.row:has(button)').length > 0);
+const row = document.querySelector('div.row');
+const rowChildren = row?.querySelectorAll(`:scope ${'button'}`); 
+assert.lengthOf(rowChildren, 3);
 ```
 
 كل من أزرار Bootstrap الخاصة بك يجب أن تكون متداخلة داخل عنصر `div` الخاص بها مع فئة `col-xs-4`.
 
 ```js
-assert($('div.col-xs-4:has(button)').length > 2);
+const columns = document.querySelectorAll('div.col-xs-4');
+
+const firstButton = columns?.[0]?.querySelectorAll(`:scope ${'button'}`)
+assert.lengthOf(firstButton,1);
+
+const secondButton = columns?.[1]?.querySelectorAll(`:scope ${'button'}`)
+assert.lengthOf(secondButton,1);
+
+const thirdButton = columns?.[2]?.querySelectorAll(`:scope ${'button'}`)
+assert.lengthOf(thirdButton,1);
+
 ```
 
 كل عنصر من عناصر `button` الخاص بك يجب أن يحتوي على وسم إغلاق (closing tag).
 
 ```js
-assert(
-  code.match(/<\/button>/g) &&
-    code.match(/<button/g) &&
-    code.match(/<\/button>/g).length === code.match(/<button/g).length
-);
+assert.match(code,/<\/button>/g);
+assert.match(code,/<button/g);
+assert.equal(code.match(/<\/button>/g).length , code.match(/<button/g).length);
 ```
 
 كل عنصر من عناصر `div` الخاص بك يجب أن يحتوي على وسم إغلاق (closing tag).
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/g);
+assert.match(code,/<div/g);
+assert.equal(code.match(/<\/div>/g).length , code.match(/<div/g).length);
 ```
 
 # --seed--

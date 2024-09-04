@@ -30,13 +30,13 @@ Background images usually fall under the 'decorative' label as well. However, th
 Your `img` tag should have an `alt` attribute.
 
 ```js
-assert(!($('img').attr('alt') == undefined));
+assert.isTrue(document.querySelector('img')?.hasAttribute('alt'));
 ```
 
 The `alt` attribute should be set to an empty string.
 
 ```js
-assert($('img').attr('alt') == '');
+assert.isEmpty(document.querySelector('img')?.getAttribute('alt'));
 ```
 
 # --seed--

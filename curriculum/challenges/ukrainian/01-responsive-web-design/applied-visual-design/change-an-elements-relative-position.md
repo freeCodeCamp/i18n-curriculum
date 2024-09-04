@@ -33,13 +33,17 @@ p {
 Елемент `h2` повинен мати властивість `position` зі значенням `relative`.
 
 ```js
-assert($('h2').css('position') == 'relative');
+const h2Element =document.querySelector('h2')
+const h2Style = window.getComputedStyle(h2Element);
+assert.equal(h2Style?.position, 'relative');
 ```
 
 Ваш код має використовувати зсув CSS, щоб змістити `h2` на 15 пікселів від його стандартного розташування відносно `top`.
 
 ```js
-assert($('h2').css('top') == '15px');
+const h2Element =document.querySelector('h2')
+const h2Style = window.getComputedStyle(h2Element);
+assert.equal(h2Style?.top, '15px');
 ```
 
 # --seed--

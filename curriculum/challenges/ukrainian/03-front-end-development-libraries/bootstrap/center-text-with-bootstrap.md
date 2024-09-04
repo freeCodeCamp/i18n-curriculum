@@ -21,13 +21,13 @@ dashedName: center-text-with-bootstrap
 Елемент `h2` має бути відцентрованим за допомогою класу `text-center`
 
 ```js
-assert($('h2').hasClass('text-center'));
+assert.isTrue(document.querySelector('h2')?.classList?.contains('text-center'));
 ```
 
 Елемент `h2` досі повинен мати клас `red-text`
 
 ```js
-assert($('h2').hasClass('red-text'));
+assert.isTrue(document.querySelector('h2')?.classList?.contains('red-text'));
 ```
 
 # --seed--

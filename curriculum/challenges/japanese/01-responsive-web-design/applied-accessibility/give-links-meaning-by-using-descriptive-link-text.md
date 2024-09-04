@@ -22,26 +22,19 @@ Camper Cat が使用しているリンクテキストは、周囲のコンテキ
 コードでは、アンカーの `a` タグを `Click here` という単語の周りから `information about batteries` という単語の周りを囲うように移動させる必要があります。
 
 ```js
-assert(
-  $('a')
-    .text()
-    .match(/^(information about batteries)$/g)
-);
+assert.match(document.querySelector('a')?.textContent, /^(information about batteries)$/g);
 ```
 
 `a` 要素は空文字列の値 `""` が指定された `href` 属性を持たなければなりません。
 
 ```js
-assert($('a').attr('href') === '');
+assert.isEmpty(document.querySelector('a')?.getAttribute('href'));
 ```
 
 `a` 要素には終了タグが必要です。
 
 ```js
-assert(
-  code.match(/<\/a>/g) &&
-    code.match(/<\/a>/g).length === code.match(/<a href=(''|"")>/g).length
-);
+assert.isTrue(code.match(/<\/a>/g)?.length === code.match(/<a href=(''|"")>/g)?.length);
 ```
 
 # --seed--

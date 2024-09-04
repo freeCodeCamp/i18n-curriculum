@@ -19,29 +19,29 @@ Bootstrap يأتي مع عدة ألوان محددة سلفًا للأزرار. 
 يجب عليك إنشاء عنصر `button` جديد بالنص `Delete`.
 
 ```js
-assert(new RegExp('Delete', 'gi').test($('button').text()));
+const deleteButton = document.querySelectorAll('button')?.[2]; 
+assert.match(deleteButton?.textContent ,/delete/gi);
 ```
 
 يجب أن يكون لكل من أزرار Bootstrap الخاص بك فئة `btn` و `btn-block`.
 
 ```js
-assert($('button.btn-block.btn').length > 2);
+assert.lengthOf(document.querySelectorAll('button.btn-block.btn'),3);
 ```
 
 الزر الجديد الخاص بك يجب أن يحتوي على الفئة `btn-danger`.
 
 ```js
-assert($('button').hasClass('btn-danger'));
+const deleteButton = document.querySelectorAll('button')?.[2]; 
+assert.isTrue(deleteButton?.classList?.contains('btn-danger'));
 ```
 
 لا بد أن يوجد وسم إغلاق للعناصر `button`.
 
 ```js
-assert(
-  code.match(/<\/button>/g) &&
-    code.match(/<button/g) &&
-    code.match(/<\/button>/g).length === code.match(/<button/g).length
-);
+assert.match(code,/<\/button>/g);
+assert.match(code,/<button/g);
+assert.equal(code.match(/<\/button>/g).length,code.match(/<button/g).length);
 ```
 
 # --seed--

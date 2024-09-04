@@ -31,25 +31,25 @@ dashedName: add-an-accessible-date-picker
 يجب أن يحتوي الكود علي علامة `input` واحد لخانة محدد التاريخ.
 
 ```js
-assert($('input').length == 2);
+assert.lengthOf(document.querySelectorAll('input'), 2);
 ```
 
 يجب أن يحتوي علامة `input` على سمة `type` بقيمة `date`.
 
 ```js
-assert($('input').attr('type') == 'date');
+assert.equal(document.querySelector('input')?.getAttribute('type'), 'date');
 ```
 
 يجب أن يحتوي علامة `input` على سمة `id` بقيمة `pickdate`.
 
 ```js
-assert($('input').attr('id') == 'pickdate');
+assert.equal(document.querySelector('input')?.getAttribute('id'),'pickdate');
 ```
 
 يجب أن يحتوي علامة `input` على سمة `name` بقيمة `date`.
 
 ```js
-assert($('input').attr('name') == 'date');
+assert.equal(document.querySelector('input')?.getAttribute('name'), 'date');
 ```
 
 # --seed--

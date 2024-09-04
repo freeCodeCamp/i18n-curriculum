@@ -17,7 +17,7 @@ dashedName: create-a-class-to-target-with-jquery-selectors
 يجب عليك إضافة فئة `target` إلى عنصر `button` الخاص بك.
 
 ```js
-assert($('.target').length > 5);
+assert.lengthOf(document.querySelectorAll('.target'),6);
 ```
 
 # --seed--

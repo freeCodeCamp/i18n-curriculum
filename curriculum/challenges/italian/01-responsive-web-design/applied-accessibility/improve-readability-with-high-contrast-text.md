@@ -22,13 +22,17 @@ La scelta di Camper Cat di un testo grigio chiaro su uno sfondo bianco per il su
 Il tuo codice dovrebbe cambiare il valore di `color` per il `body` al grigio più scuro.
 
 ```js
-assert($('body').css('color') == 'rgb(99, 99, 99)');
+const body = document.querySelector('body');
+const bodyColor = window.getComputedStyle(body).color; 
+assert(bodyColor == 'rgb(99, 99, 99)');
 ```
 
 Il tuo codice non dovrebbe cambiare il `background-color` del `body`.
 
 ```js
-assert($('body').css('background-color') == 'rgb(255, 255, 255)');
+const body = document.querySelector('body');
+const backgroundColor = window.getComputedStyle(body).backgroundColor; 
+assert.equal(backgroundColor , 'rgb(255, 255, 255)');
 ```
 
 # --seed--

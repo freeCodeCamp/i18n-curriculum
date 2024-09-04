@@ -28,7 +28,7 @@ dashedName: add-a-text-alternative-to-images-for-visually-impaired-accessibility
 `img` 標籤應該包含一個非空的 `alt` 屬性。
 
 ```js
-assert($('img').attr('alt'));
+assert.isNotEmpty(document.querySelector('img')?.getAttribute('alt'));
 ```
 
 # --seed--

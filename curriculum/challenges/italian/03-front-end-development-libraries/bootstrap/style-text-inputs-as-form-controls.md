@@ -24,25 +24,30 @@ Tutti gli elementi testuali `<input>`, `<textarea>`, e `<select>` di classe `.fo
 Il bottone di invio nel tuo modulo dovrebbe avere le classi `btn btn-primary`.
 
 ```js
-assert($('button[type="submit"]').hasClass('btn btn-primary'));
+assert.isTrue(document.querySelector('button[type="submit"]')?.classList?.contains('btn'));
+assert.isTrue(document.querySelector('button[type="submit"]')?.classList?.contains('btn-primary'));
 ```
 
 Dovresti aggiungere un elemento `<i class="fa fa-paper-plane"></i>` all'interno del tuo `button` di invio.
 
 ```js
-assert($('button[type="submit"]:has(i.fa.fa-paper-plane)').length > 0);
+const submitButton = document.querySelector('button[type="submit"]');
+const fontIcon = submitButton?.querySelectorAll('i.fa.fa-paper-plane'); 
+
+assert.lengthOf(fontIcon ,1);
 ```
 
 L'`input` di testo nel tuo modulo dovrebbe avere la classe `form-control`.
 
 ```js
-assert($('input[type="text"]').hasClass('form-control'));
+assert.isTrue(document.querySelector('input[type="text"]')?.classList?.contains('form-control'));
 ```
 
 Ognuno dei tuoi elementi `i` dovrebbe avere un tag di chiusura.
 
 ```js
-assert(code.match(/<\/i>/g) && code.match(/<\/i/g).length > 3);
+assert.match(code,/<\/i>/g);
+assert.lengthOf(code.match(/<\/i/g),4);
 ```
 
 # --seed--

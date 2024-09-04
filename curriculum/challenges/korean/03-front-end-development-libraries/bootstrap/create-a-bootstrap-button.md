@@ -17,26 +17,23 @@ dashedName: create-a-bootstrap-button
 `Like`라는 텍스트를 가진 `button` 요소를 생성해야 합니다.
 
 ```js
-assert(
-  new RegExp('like', 'gi').test($('button').text()) &&
-    $('img.img-responsive + button.btn').length > 0
-);
+assert.match(document.querySelector('button')?.textContent, /like/gi);
+assert.lengthOf(document.querySelectorAll('img.img-responsive + button.btn'),1)
 ```
 
 버튼 요소에는 `btn`, `btn-default` 이렇게 2개의 클래스가 있어야 합니다.
 
 ```js
-assert($('button').hasClass('btn') && $('button').hasClass('btn-default'));
+assert.isTrue(document.querySelector('button')?.classList?.contains('btn') )
+assert.isTrue(document.querySelector('button')?.classList?.contains('btn-default'));
 ```
 
 모든 `button` 요소들에는 닫는 태그가 있어야 합니다.
 
 ```js
-assert(
-  code.match(/<\/button>/g) &&
-    code.match(/<button/g) &&
-    code.match(/<\/button>/g).length === code.match(/<button/g).length
-);
+assert.match(code,/<\/button>/g);
+assert.match(code,/<button/g);
+assert.equal(code.match(/<\/button>/g).length ,code.match(/<button/g).length);
 ```
 
 # --seed--

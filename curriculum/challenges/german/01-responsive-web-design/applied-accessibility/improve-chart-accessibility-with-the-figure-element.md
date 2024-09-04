@@ -34,39 +34,40 @@ Camper Cat arbeitet hart daran, ein gestapeltes Säulendiagramm zu erstellen, da
 Dein Code sollte ein `figure`  Tag haben.
 
 ```js
-assert($('figure').length == 1);
+assert.lengthOf(document.querySelectorAll('figure') , 1);
 ```
 
 Dein Code sollte ein `figcaption` Tag haben.
 
 ```js
-assert($('figcaption').length == 1);
+assert.lengthOf(document.querySelectorAll('figcaption') , 1);
 ```
 
 Dein Code sollte keine `div` Tags haben.
 
 ```js
-assert($('div').length == 0);
+assert.lengthOf(document.querySelectorAll('div'), 0);
 ```
 
 Dein Code sollte keine `p` Tags haben.
 
 ```js
-assert($('p').length == 0);
+assert.lengthOf(document.querySelectorAll('p') , 0);
 ```
 
 Die `figcaption`-Element sollte ein Kindelement des `figure`-Tags sein.
 
 ```js
-assert($('figure').children('figcaption').length == 1);
+const figure = document.querySelector('figure');
+const children = figure?.querySelectorAll(`:scope ${'figcaption'}`);
+assert.lengthOf(children, 1);
 ```
 
 Dein `figure`-Element sollte ein schließendes Tag haben.
 
 ```js
-assert(
-  code.match(/<\/figure>/g) &&
-    code.match(/<\/figure>/g).length === code.match(/<figure>/g).length
+assert.isTrue(
+    code.match(/<\/figure>/g)?.length === code.match(/<figure>/g)?.length
 );
 ```
 

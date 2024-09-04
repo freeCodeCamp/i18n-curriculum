@@ -26,13 +26,13 @@ Camper Cat experimentiert mit der Verwendung von Farbe für seinen Blogtext und 
 Dein Code sollte nur den Helligkeitswert für die Textfarbe `color` auf einen Wert von 15 % ändern.
 
 ```js
-assert(code.match(/color:\s*?hsl\(0,\s*?55%,\s*?15%\)/gi));
+assert.match(code ,/color:\s*?hsl\(0,\s*?55%,\s*?15%\)/gi);
 ```
 
 Dein Code sollte nur den Helligkeitswert für die Hintergrundfarbe `background-color` auf einen Wert von 55% ändern.
 
 ```js
-assert(code.match(/background-color:\s*?hsl\(120,\s*?25%,\s*?55%\)/gi));
+assert.match(code ,/background-color:\s*?hsl\(120,\s*?25%,\s*?55%\)/gi);
 ```
 
 # --seed--

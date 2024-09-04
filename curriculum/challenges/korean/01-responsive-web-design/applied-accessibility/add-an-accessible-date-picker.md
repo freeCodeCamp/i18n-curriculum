@@ -31,25 +31,25 @@ Mortal Kombat 토너먼트를 준비 중인 Camper Cat은 그의 참가자들에
 코드에 날짜 선택 필드를 위한 `input` 태그 하나를 추가합니다.
 
 ```js
-assert($('input').length == 2);
+assert.lengthOf(document.querySelectorAll('input'), 2);
 ```
 
 `input` 태그에 `date`라는 값을 가지는 `type` 속성을 포함해야 합니다.
 
 ```js
-assert($('input').attr('type') == 'date');
+assert.equal(document.querySelector('input')?.getAttribute('type'), 'date');
 ```
 
 `input` 태그에 `pickdate`라는 값을 가지는 `id` 속성을 포함해야 합니다.
 
 ```js
-assert($('input').attr('id') == 'pickdate');
+assert.equal(document.querySelector('input')?.getAttribute('id'),'pickdate');
 ```
 
 `input` 태그에 `date`라는 값을 가지는 `name` 속성을 추가해야 합니다.
 
 ```js
-assert($('input').attr('name') == 'date');
+assert.equal(document.querySelector('input')?.getAttribute('name'), 'date');
 ```
 
 # --seed--

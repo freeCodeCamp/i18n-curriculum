@@ -26,13 +26,13 @@ Camper Cat 正在嘗試爲他的博客文本與背景配置顏色。 他目前�
 應將 `color` 屬性的亮度值設置爲 15%。
 
 ```js
-assert(code.match(/color:\s*?hsl\(0,\s*?55%,\s*?15%\)/gi));
+assert.match(code ,/color:\s*?hsl\(0,\s*?55%,\s*?15%\)/gi);
 ```
 
 應將 `background-color` 屬性的亮度值設置爲 55%。
 
 ```js
-assert(code.match(/background-color:\s*?hsl\(120,\s*?25%,\s*?55%\)/gi));
+assert.match(code ,/background-color:\s*?hsl\(120,\s*?25%,\s*?55%\)/gi);
 ```
 
 # --seed--

@@ -28,7 +28,7 @@ O Camper Cat é tanto um ninja do código quanto um ninja de verdade. Ele está 
 A tag `img` deve ter um atributo `alt` e o texto dele não deve estar vazio.
 
 ```js
-assert($('img').attr('alt'));
+assert.isNotEmpty(document.querySelector('img')?.getAttribute('alt'));
 ```
 
 # --seed--

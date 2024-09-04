@@ -24,23 +24,23 @@ dashedName: responsively-style-radio-buttons
 모든 라디오 버튼은 `row` 클래스를 가진 하나의 `div` 요소 안에 중첩되어야 합니다.
 
 ```js
-assert($('div.row:has(input[type="radio"])').length > 0);
+const radioButtons = document.querySelectorAll(`div.row input[type=radio]`); 
+assert.lengthOf(radioButtons , 2);
 ```
 
 각 라디오 버튼은 `col-xs-6` 클래스를 가진 개별적인 `div` 안에 중첩되어야 합니다.
 
 ```js
-assert($('div.col-xs-6:has(input[type="radio"])').length > 1);
+const radioButtons = document.querySelectorAll(`div.col-xs-6 input[type=radio]`); 
+assert.lengthOf(radioButtons , 2);
 ```
 
 모든 `div` 요소는 닫는 태그를 가져야 합니다.
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/);
+assert.match(code,/<div/g);
+assert.equal(code.match(/<\/div>/g).length,code.match(/<div/g).length);
 ```
 
 # --seed--

@@ -28,24 +28,30 @@ animation-timing-function: cubic-bezier(0, 0, 0.58, 1);
 id 为 `red` 的元素的 `animation-timing-function` 属性应为 `cubic-bezier` 函数，其中 x1、y1、x2、y2 值分别为 0、0、0.58、1。
 
 ```js
-assert(
-  $('#red').css('animation-timing-function') == 'cubic-bezier(0, 0, 0.58, 1)'
+const redElement = document.querySelector('#red');
+const redStyle = window.getComputedStyle(redElement);
+assert.equal(
+  redStyle?.animationTimingFunction, 'cubic-bezier(0, 0, 0.58, 1)'
 );
 ```
 
 id 为 `red` 的元素不应有值为 `linear` 的 `animation-timing-function` 属性。
 
 ```js
-assert($('#red').css('animation-timing-function') !== 'linear');
+const redElement = document.querySelector('#red');
+const redStyle = window.getComputedStyle(redElement);
+assert.notEqual(redStyle?.animationTimingFunction, 'linear');
 ```
 
 id 为 `blue` 的元素的 `animation-timing-function` 属性值不应该改变。
 
 ```js
+const blueElement = document.querySelector('#blue');
+const blueStyle = window.getComputedStyle( blueElement);
 const blueBallAnimation = __helpers.removeWhiteSpace(
-  $('#blue').css('animation-timing-function')
+  blueStyle?.animationTimingFunction
 );
-assert(
+assert.isTrue(
   blueBallAnimation == 'ease-out' ||
     blueBallAnimation == 'cubic-bezier(0,0,0.58,1)'
 );

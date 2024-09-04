@@ -24,23 +24,23 @@ Anida tus dos botones de radio dentro de un elemento `<div class="row">`. Luego,
 Todos tus botones de radio deben estar anidados dentro de un `div` con la clase `row`.
 
 ```js
-assert($('div.row:has(input[type="radio"])').length > 0);
+const radioButtons = document.querySelectorAll(`div.row input[type=radio]`); 
+assert.lengthOf(radioButtons , 2);
 ```
 
 Cada uno de tus botones de radio debe estar anidado dentro de su propio `div` con la clase `col-xs-6`.
 
 ```js
-assert($('div.col-xs-6:has(input[type="radio"])').length > 1);
+const radioButtons = document.querySelectorAll(`div.col-xs-6 input[type=radio]`); 
+assert.lengthOf(radioButtons , 2);
 ```
 
 Todos tus elementos `div` deben tener etiquetas de cierre.
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/);
+assert.match(code,/<div/g);
+assert.equal(code.match(/<\/div>/g).length,code.match(/<div/g).length);
 ```
 
 # --seed--

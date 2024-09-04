@@ -28,13 +28,13 @@ Camper Cat створив нову анкету, щоб зібрати інфо�
 Ваш код повинен додати значення `tabindex` до тегу `p`, який містить інструкції до форми.
 
 ```js
-assert($('p').attr('tabindex'));
+assert.isNotNull(document.querySelector('p')?.getAttribute('tabindex'));
 ```
 
 Ваш код повинен встановити значення `tabindex` до тегу `p` зі значенням 0.
 
 ```js
-assert($('p').attr('tabindex') == '0');
+assert.equal(document.querySelector('p')?.getAttribute('tabindex'), '0');
 ```
 
 # --seed--

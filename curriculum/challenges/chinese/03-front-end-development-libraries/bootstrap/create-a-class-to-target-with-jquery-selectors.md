@@ -17,7 +17,7 @@ dashedName: create-a-class-to-target-with-jquery-selectors
 每一个 `button` 元素都应该设置 `target` class
 
 ```js
-assert($('.target').length > 5);
+assert.lengthOf(document.querySelectorAll('.target'),6);
 ```
 
 # --seed--

@@ -24,25 +24,30 @@ dashedName: style-text-inputs-as-form-controls
 폼에 있는 제출 버튼은 `btn btn-primary` 클래스를 가져야 합니다.
 
 ```js
-assert($('button[type="submit"]').hasClass('btn btn-primary'));
+assert.isTrue(document.querySelector('button[type="submit"]')?.classList?.contains('btn'));
+assert.isTrue(document.querySelector('button[type="submit"]')?.classList?.contains('btn-primary'));
 ```
 
 제출 `button` 요소 내에 `<i class="fa fa-paper-plane"></i>`를 추가해야 합니다.
 
 ```js
-assert($('button[type="submit"]:has(i.fa.fa-paper-plane)').length > 0);
+const submitButton = document.querySelector('button[type="submit"]');
+const fontIcon = submitButton?.querySelectorAll('i.fa.fa-paper-plane'); 
+
+assert.lengthOf(fontIcon ,1);
 ```
 
 폼에 있는 글자 `input`은 `form-control` 클래스를 가져야 합니다.
 
 ```js
-assert($('input[type="text"]').hasClass('form-control'));
+assert.isTrue(document.querySelector('input[type="text"]')?.classList?.contains('form-control'));
 ```
 
 각각의 `i` 요소는 닫는 태그를 가져야 합니다.
 
 ```js
-assert(code.match(/<\/i>/g) && code.match(/<\/i/g).length > 3);
+assert.match(code,/<\/i>/g);
+assert.lengthOf(code.match(/<\/i/g),4);
 ```
 
 # --seed--

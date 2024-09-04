@@ -22,7 +22,7 @@ dashedName: animate-elements-at-variable-rates
 `star-1` クラスの `@keyframes` ルールは 50% でなければなりません。
 
 ```js
-assert(code.match(/twinkle-1\s*?{\s*?50%/g));
+assert.match(code,/twinkle-1\s*?{\s*?50%/g);
 ```
 
 # --seed--

@@ -28,13 +28,13 @@ Camper Cat usó etiquetas `article` para envolver las publicaciones en la págin
 Tu código debe tener tres etiquetas `article`.
 
 ```js
-assert($('article').length == 3);
+assert.lengthOf(document.querySelectorAll('article') ,3);
 ```
 
 Tu código no debe tener ninguna etiqueta `div`.
 
 ```js
-assert($('div').length == 0);
+assert.lengthOf(document.querySelectorAll('div'), 0);
 ```
 
 # --seed--

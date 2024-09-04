@@ -20,13 +20,17 @@ CSS オフセットを使用して、`h2` を 15 ピクセル右方向に、10 �
 `h2` を相対的に 10px 上に配置する CSS オフセットを使用する必要があります。 言い換えれば、通常配置される場所の `bottom` から 10px 離れたところに移動させてください。
 
 ```js
-assert($('h2').css('bottom') == '10px');
+const h2Element =document.querySelector('h2')
+const h2Style = window.getComputedStyle(h2Element);
+assert.equal(h2Style?.bottom, '10px');
 ```
 
 `h2` を相対的に 15px 右に配置する CSS オフセットを使用する必要があります。 言い換えれば、通常配置される場所の `left` から 15px 離れたところに移動させてください。
 
 ```js
-assert($('h2').css('left') == '15px');
+const h2Element =document.querySelector('h2')
+const h2Style = window.getComputedStyle(h2Element);
+assert.equal(h2Style?.left , '15px');
 ```
 
 # --seed--

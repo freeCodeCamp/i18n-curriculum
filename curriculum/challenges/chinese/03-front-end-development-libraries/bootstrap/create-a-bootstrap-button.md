@@ -17,26 +17,23 @@ Bootstrap 的 `button` 元素有着独有的、比默认 HTML 按钮更好的样
 应创建一个新的包含 `Like` 文本的 `button` 元素。
 
 ```js
-assert(
-  new RegExp('like', 'gi').test($('button').text()) &&
-    $('img.img-responsive + button.btn').length > 0
-);
+assert.match(document.querySelector('button')?.textContent, /like/gi);
+assert.lengthOf(document.querySelectorAll('img.img-responsive + button.btn'),1)
 ```
 
 新的按钮元素应该有两个 classes: `btn` 和 `btn-default`。
 
 ```js
-assert($('button').hasClass('btn') && $('button').hasClass('btn-default'));
+assert.isTrue(document.querySelector('button')?.classList?.contains('btn') )
+assert.isTrue(document.querySelector('button')?.classList?.contains('btn-default'));
 ```
 
 确保所有 `button` 元素都有闭合标签。
 
 ```js
-assert(
-  code.match(/<\/button>/g) &&
-    code.match(/<button/g) &&
-    code.match(/<\/button>/g).length === code.match(/<button/g).length
-);
+assert.match(code,/<\/button>/g);
+assert.match(code,/<button/g);
+assert.equal(code.match(/<\/button>/g).length ,code.match(/<button/g).length);
 ```
 
 # --seed--

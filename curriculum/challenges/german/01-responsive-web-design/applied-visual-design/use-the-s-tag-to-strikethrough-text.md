@@ -19,30 +19,20 @@ Umschließe mit dem `s`-Tag `Google` innerhalb des `h4`-Tags und füge dann das 
 Dein Code sollte ein `s`-Tag zum Markup hinzufügen.
 
 ```js
-assert($('s').length == 1);
+assert.lengthOf(document.querySelectorAll('s'),1);
 ```
 
 Ein `s`-Tag sollte den Text `Google` im `h4`-Tag umschließen. Es sollte nicht das Wort `Alphabet` enthalten.
 
 ```js
-assert(
-  $('h4 > s')
-    .text()
-    .match(/Google/gi) &&
-    !$('h4 > s')
-      .text()
-      .match(/Alphabet/gi)
-);
+assert.match(document.querySelector('h4 > s')?.textContent, /Google/gi);
+assert.notMatch(document.querySelector('h4 > s')?.textContent, /Alphabet/gi);
 ```
 
 Du solltest das Wort `Alphabet` mit dem `h4`-Tag umfassen, allerdings ohne es durchzustreichen.
 
 ```js
-assert(
-  $('h4')
-    .html()
-    .match(/Alphabet/gi)
-);
+assert.match(document.querySelector('h4')?.innerHTML, /Alphabet/gi);
 ```
 
 # --seed--

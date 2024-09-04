@@ -20,7 +20,7 @@ dashedName: use-the-css-transform-property-skewy-to-skew-an-element-along-the-y-
 id が `top` の要素は Y 軸に沿って -10 度傾けられている必要があります。
 
 ```js
-assert(code.match(/#top\s*?{\s*?.*?\s*?transform:\s*?skewY\(-10deg\);/g));
+assert.match(code, /#top\s*?{\s*?.*?\s*?transform:\s*?skewY\(-10deg\);/g);
 ```
 
 # --seed--

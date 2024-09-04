@@ -22,19 +22,25 @@ Defina a propriedade `animation-duration` dos elementos com as classes `star-1`,
 O valor da propriedade `animation-duration` da estrela com a classe `star-1` deve permanecer em 1s.
 
 ```js
-assert($('.star-1').css('animation-duration') == '1s');
+const starOne = document.querySelector('.star-1');
+const starOneStyle = window.getComputedStyle(starOne); 
+assert.equal(starOneStyle?.animationDuration, '1s');
 ```
 
 O valor da propriedade `animation-duration` da estrela com a classe `star-2` deve ser 0.9s.
 
 ```js
-assert($('.star-2').css('animation-duration') == '0.9s');
+const starTwo = document.querySelector('.star-2');
+const starTwoStyle = window.getComputedStyle(starTwo); 
+assert.equal(starTwoStyle?.animationDuration , '0.9s');
 ```
 
 O valor da propriedade `animation-duration` da estrela com a classe `star-3` deve ser 1.1s.
 
 ```js
-assert($('.star-3').css('animation-duration') == '1.1s');
+const starThree = document.querySelector('.star-3');
+const starThreeStyle = window.getComputedStyle(starThree); 
+assert.equal(starThreeStyle?.animationDuration, '1.1s');
 ```
 
 # --seed--

@@ -17,34 +17,31 @@ Crie um elemento `div` abaixo da tag `h3`, com a classe `row`.
 Você deve adicionar o elemento `div` abaixo do elemento `h3`.
 
 ```js
-assert(
-  $('div').length > 1 &&
-    $('div.row h3.text-primary').length == 0 &&
-    $('div.row + h3.text-primary').length == 0 &&
-    $('h3.text-primary + div.row').length > 0
-);
+assert.lengthOf(document.querySelectorAll('div'),2);
+assert.lengthOf(document.querySelectorAll('div.row h3.text-primary'),0);
+assert.lengthOf(document.querySelectorAll('div.row + h3.text-primary'),0)
+assert.lengthOf(document.querySelectorAll('h3.text-primary + div.row'),1);
 ```
 
 O elemento `div` deve ter a classe `row`
 
 ```js
-assert($('div').hasClass('row'));
+const newDiv = document.querySelectorAll('div')?.[1]; 
+assert.isTrue(newDiv?.classList?.contains('row'));
 ```
 
 O `row div` deve estar aninhado dentro de `container-fluid div`
 
 ```js
-assert($('div.container-fluid div.row').length > 0);
+assert.lengthOf(document.querySelectorAll('div.container-fluid div.row'),1);
 ```
 
 O elemento `div` deve ter uma tag de fechamento.
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/g);
+assert.match(code,/<div/g);
+assert.equal(code.match(/<\/div>/g).length ,code.match(/<div/g).length);
 ```
 
 # --seed--

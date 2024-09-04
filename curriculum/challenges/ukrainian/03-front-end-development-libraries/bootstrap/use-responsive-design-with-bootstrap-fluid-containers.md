@@ -29,23 +29,27 @@ Bootstrap можна використати у будь-якому застос�
 Елемент `div` повинен мати клас `container-fluid`.
 
 ```js
-assert($('div').hasClass('container-fluid'));
+assert.isTrue(document.querySelector('div')?.classList?.contains('container-fluid'));
 ```
 
 Елемент `div` повинен мати кінцевий тег.
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/g);
+assert.match(code,/<div/g);
+assert.equal(code.match(/<\/div>/g).length ,code.match(/<div/g).length);
 ```
 
 Усі елементи HTML, розташовані після тегу `style`, мають бути вкладеними в `.container-fluid`.
 
 ```js
-assert($('.container-fluid').children().length >= 8 && !$('.container-fluid').has("style").length && !$('.container-fluid').has("link").length);
+const fluidContainer = document.querySelector('.container-fluid');
+const possibleStyleElements = fluidContainer?.querySelectorAll(`:scope ${'style'}`);
+const possibleLinkElements = fluidContainer?.querySelectorAll(`:scope ${'link'}`);
+
+assert.lengthOf(fluidContainer?.children,8);
+assert.isEmpty(possibleStyleElements);
+assert.isEmpty(possibleLinkElements);
 ```
 
 # --seed--

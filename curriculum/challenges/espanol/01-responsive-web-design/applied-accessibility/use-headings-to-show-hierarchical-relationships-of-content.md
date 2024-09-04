@@ -30,25 +30,25 @@ Camper Cat quiere una página en su sitio dedicada a convertirse en un ninja. Ay
 Tu código debe tener 6 elementos `h3`.
 
 ```js
-assert($('h3').length === 6);
+assert.lengthOf(document.querySelectorAll('h3') , 6);
 ```
 
 Tu código debe tener 6 etiquetas de cierre `h3`.
 
 ```js
-assert((code.match(/\/h3/g) || []).length === 6);
+assert.lengthOf((code.match(/\/h3/g) || []) ,6);
 ```
 
 Tu código no debe tener ningún elemento `h5`.
 
 ```js
-assert($('h5').length === 0);
+assert.isEmpty(document.querySelectorAll('h5'));
 ```
 
 Tu código no debe tener ninguna etiqueta de cierre `h5`.
 
 ```js
-assert(/\/h5/.test(code) === false);
+assert.notMatch(code, /\/h5/);
 ```
 
 # --seed--

@@ -40,34 +40,31 @@ dashedName: wrap-radio-buttons-in-a-fieldset-element-for-better-accessibility
 라디오 버튼 세트를 감싸는 `fieldset` 태그가 있어야 합니다.
 
 ```js
-assert($('fieldset').length == 1);
+assert.lengthOf(document.querySelectorAll('fieldset'),1);
 ```
 
 `fieldset` 요소는 닫는 태그가 있어야 합니다.
 
 ```js
-assert(
-  code.match(/<\/fieldset>/g) &&
-    code.match(/<\/fieldset>/g).length === code.match(/<fieldset>/g).length
-);
+assert.isTrue(code.match(/<\/fieldset>/g)?.length === code.match(/<fieldset>/g)?.length);
 ```
 
 사용자가 어떤 닌자 레벨인지 묻는 텍스트를 `legend` 태그가 감싸고 있어야 합니다.
 
 ```js
-assert($('legend').length == 1);
+assert.lengthOf(document.querySelectorAll('legend') ,1);
 ```
 
 `div` 태그는 하나도 없어야 합니다.
 
 ```js
-assert($('div').length == 0);
+assert.lengthOf(document.querySelectorAll('div') ,0);
 ```
 
 사용자가 어떤 닌자 레벨인지 묻는 텍스트를 `p` 태그가 감싸고 있어선 안됩니다.
 
 ```js
-assert($('p').length == 4);
+assert.lengthOf(document.querySelectorAll('p') ,4);
 ```
 
 # --seed--

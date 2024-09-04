@@ -23,35 +23,33 @@ dashedName: ditch-custom-css-for-bootstrap
 `h2` 요소는 더 이상 `red-text` 클래스를 가지지 않아야 합니다.
 
 ```js
-assert(!$('h2').hasClass('red-text'));
+assert.isFalse(document.querySelector('h2')?.classList?.contains('red-text'));
 ```
 
 `h2` 요소는 이제 `text-primary` 클래스를 가져야 합니다.
 
 ```js
-assert($('h2').hasClass('text-primary'));
+assert.isTrue(document.querySelector('h2')?.classList?.contains('text-primary'));
 ```
 
 문단 요소는 더이상 `Monospace`를 사용하지 않아야 합니다.
 
 ```js
-assert(
-  !$('p')
-    .css('font-family')
-    .match(/monospace/i)
-);
+const paragraphElement = document.querySelector('p');
+const paragraphFontFamily = window.getComputedStyle(paragraphElement)["font-family"]; 
+assert.notMatch(paragraphFontFamily,/monospace/i);
 ```
 
 `smaller-image`는 상단 이미지로부터 삭제되어야 합니다.
 
 ```js
-assert(!$('img').hasClass('smaller-image'));
+assert.isFalse(document.querySelector('img')?.classList?.contains('smaller-image'));
 ```
 
 상단 이미지에 `img-responsive`를 추가해야 합니다.
 
 ```js
-assert($('.img-responsive').length > 1);
+assert.lengthOf(document.querySelectorAll('.img-responsive'),2);
 ```
 
 # --seed--

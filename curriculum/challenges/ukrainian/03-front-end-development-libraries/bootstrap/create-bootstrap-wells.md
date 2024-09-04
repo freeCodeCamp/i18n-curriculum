@@ -17,23 +17,22 @@ Bootstrap має клас під назвою `well`, який може ство
 Додайте елемент `div` з класом `well` всередині кожного елемента `div` з класом `col-xs-6`
 
 ```js
-assert($('div.col-xs-6').not(':has(>div.well)').length < 1);
+const wells = document.querySelectorAll('div.col-xs-6 > div.well');
+assert.lengthOf( wells,2 ); 
 ```
 
 Обидва елементи `div` з класом `col-xs-6` мають бути вкладеними в елементі `div` з класом `row`.
 
 ```js
-assert($('div.row > div.col-xs-6').length > 1);
+assert.lengthOf(document.querySelectorAll('div.row > div.col-xs-6'),2);
 ```
 
 Усі елементи `div` повинні мати кінцеві теги.
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/g);
+assert.match(code,/<div/g);
+assert.equal(code.match(/<\/div>/g)?.length , code.match(/<div/g)?.length);
 ```
 
 # --seed--

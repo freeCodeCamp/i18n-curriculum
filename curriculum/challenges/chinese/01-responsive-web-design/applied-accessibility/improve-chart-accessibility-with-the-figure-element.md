@@ -34,39 +34,40 @@ Camper Cat 正在努力创建一张条形图，用来显示每周用于隐形、
 应存在一个 `figure` 标签。
 
 ```js
-assert($('figure').length == 1);
+assert.lengthOf(document.querySelectorAll('figure') , 1);
 ```
 
 应存在一个 `figcaption` 标签。
 
 ```js
-assert($('figcaption').length == 1);
+assert.lengthOf(document.querySelectorAll('figcaption') , 1);
 ```
 
 不应存在 `div` 标签。
 
 ```js
-assert($('div').length == 0);
+assert.lengthOf(document.querySelectorAll('div'), 0);
 ```
 
 不应存在 `p` 标签。
 
 ```js
-assert($('p').length == 0);
+assert.lengthOf(document.querySelectorAll('p') , 0);
 ```
 
 `figcaption` 应为 `figure` 的子标签。
 
 ```js
-assert($('figure').children('figcaption').length == 1);
+const figure = document.querySelector('figure');
+const children = figure?.querySelectorAll(`:scope ${'figcaption'}`);
+assert.lengthOf(children, 1);
 ```
 
 确保 `figure` 元素有结束标签。
 
 ```js
-assert(
-  code.match(/<\/figure>/g) &&
-    code.match(/<\/figure>/g).length === code.match(/<figure>/g).length
+assert.isTrue(
+    code.match(/<\/figure>/g)?.length === code.match(/<figure>/g)?.length
 );
 ```
 

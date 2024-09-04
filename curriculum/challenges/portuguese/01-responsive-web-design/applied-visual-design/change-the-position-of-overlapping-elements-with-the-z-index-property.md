@@ -20,7 +20,9 @@ Na classe `first`, adicione a propriedade `z-index` com o valor de 2. Isso fará
 O elemento com a classe `first` deve ter a propriedade `z-index` com o valor de 2.
 
 ```js
-assert($('.first').css('z-index') == '2');
+const firstElement = document.querySelector('.first');
+const firstStyle = window.getComputedStyle(firstElement); 
+assert.equal(firstStyle?.zIndex, '2');
 ```
 
 # --seed--

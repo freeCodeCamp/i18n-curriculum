@@ -44,13 +44,13 @@ Usa `@keyframes` per cambiare il `background-color` del `button` in modo che div
 La regola @keyframes dovrebbe usare il background-color `animation-name`.
 
 ```js
-assert(code.match(/@keyframes\s+?background-color\s*?{/g));
+assert.match(code, /@keyframes\s+?background-color\s*?{/g);
 ```
 
 Ci dovrebbe essere una regola in `@keyframes` che cambia il `background-color` a `#4791d0` al 100%.
 
 ```js
-assert(code.match(/100%\s*?{\s*?background-color:\s*?#4791d0;\s*?}/gi));
+assert.match(code, /100%\s*?{\s*?background-color:\s*?#4791d0;\s*?}/gi);
 ```
 
 # --seed--

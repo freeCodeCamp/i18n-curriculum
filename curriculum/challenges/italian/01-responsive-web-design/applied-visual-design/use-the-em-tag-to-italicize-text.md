@@ -20,13 +20,16 @@ Inserisci il contenuto di un tag paragrafo in un tag `em`.
 Il tuo codice dovrebbe aggiungere un tag `em` al markup.
 
 ```js
-assert($('em').length == 1);
+assert.lengthOf(document.querySelectorAll('em'),1);
 ```
 
 Il tag `em` dovrebbe racchiudere il contenuto del tag `p` ma non il tag `p` stesso.
 
 ```js
-assert($('p').children().length == 1 && $('em').children().length == 2);
+const paragraphElement = document.querySelector('p');
+const emElement = document.querySelector('em');
+assert.lengthOf(paragraphElement?.children, 1);
+assert.lengthOf(emElement?.children, 2);
 ```
 
 # --seed--

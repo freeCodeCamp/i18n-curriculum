@@ -21,25 +21,25 @@ dashedName: use-comments-to-clarify-code
 应该在 HTML 顶部增加此代码 `<!--` 以开始注释。
 
 ```js
-assert(code.match(/^\s*<!--/));
+assert.match(code,(/^\s*<!--/));
 ```
 
 注释内容应该为 `Code below this line should not be changed`。
 
 ```js
-assert(code.match(/<!--(?!(>|->|.*-->.*this line))\s*.*this line.*\s*-->/gi));
+assert.match(code,(/<!--(?!(>|->|.*-->.*this line))\s*.*this line.*\s*-->/gi));
 ```
 
 注释应该用 `-->` 进行闭合。
 
 ```js
-assert(code.match(/-->.*\n+.+/g));
+assert.match(code,(/-->.*\n+.+/g));
 ```
 
 注意，注释的开始标签和闭合标签数量应该一一对应，保持数量一致。
 
 ```js
-assert(code.match(/<!--/g).length === code.match(/-->/g).length);
+assert.equal(code.match(/<!--/g).length,code.match(/-->/g).length);
 ```
 
 # --seed--

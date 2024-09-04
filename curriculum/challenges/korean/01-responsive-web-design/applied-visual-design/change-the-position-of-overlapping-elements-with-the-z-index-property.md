@@ -20,7 +20,9 @@ dashedName: change-the-position-of-overlapping-elements-with-the-z-index-propert
 클래스 이름이 `first`인 요소는 `z-index`값이 2여야 합니다.
 
 ```js
-assert($('.first').css('z-index') == '2');
+const firstElement = document.querySelector('.first');
+const firstStyle = window.getComputedStyle(firstElement); 
+assert.equal(firstStyle?.zIndex, '2');
 ```
 
 # --seed--

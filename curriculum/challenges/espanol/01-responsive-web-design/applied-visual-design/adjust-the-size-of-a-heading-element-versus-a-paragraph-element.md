@@ -20,7 +20,10 @@ Para que el encabezado sea significativamente más grande que el párrafo, cambi
 Tu código debe agregar una propiedad `font-size` al elemento `h4` y establecerlo en 27 píxeles.
 
 ```js
-assert($('h4').css('font-size') == '27px');
+
+const h4Element =document.querySelector('h4')
+const h4Style = window.getComputedStyle(h4Element);
+assert.equal(h4Style?.fontSize,'27px');
 ```
 
 # --seed--

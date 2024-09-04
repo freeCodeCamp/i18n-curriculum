@@ -32,13 +32,9 @@ background: linear-gradient(90deg, red, yellow, rgb(204, 204, 255));
 `div` 元素應有一個指定方向和顏色的 `linear-gradient` `background`。
 
 ```js
-assert(
-  $('div')
-    .css('background-image')
-    .match(
-      /linear-gradient\(35deg, rgb\(204, 255, 255\), rgb\(255, 204, 204\)\)/gi
-    )
-);
+const divElement = document.querySelector('div');
+const divStyle = window.getComputedStyle(divElement); 
+assert.match(divStyle?.background, /linear-gradient\(35deg, rgb\(204, 255, 255\), rgb\(255, 204, 204\)\)/gi);
 ```
 
 # --seed--

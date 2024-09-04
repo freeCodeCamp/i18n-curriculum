@@ -28,7 +28,7 @@ Inclina el elemento con el id de `bottom` en 24 grados a lo largo del eje X util
 El elemento con id `bottom` debe estar inclinado por 24 grados a lo largo de su eje X.
 
 ```js
-assert(code.match(/#bottom\s*?{\s*?.*?\s*?transform:\s*?skewX\(24deg\);/g));
+assert.match(code, /#bottom\s*?{\s*?.*?\s*?transform:\s*?skewX\(24deg\);/g);
 ```
 
 # --seed--

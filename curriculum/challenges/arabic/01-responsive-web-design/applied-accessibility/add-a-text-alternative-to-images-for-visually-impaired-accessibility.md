@@ -28,7 +28,7 @@ Camper Cat هو نينجا في البرمجة وهو أيضا نينجا حقي
 يجب أن يحتوي وسم `img` الخاص بك علي خاصية `alt` ويجب ألا يكون فارغا.
 
 ```js
-assert($('img').attr('alt'));
+assert.isNotEmpty(document.querySelector('img')?.getAttribute('alt'));
 ```
 
 # --seed--

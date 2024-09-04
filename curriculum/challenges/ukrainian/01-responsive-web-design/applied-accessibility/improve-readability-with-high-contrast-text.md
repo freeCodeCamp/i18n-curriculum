@@ -22,13 +22,17 @@ dashedName: improve-readability-with-high-contrast-text
 Ваш код повинен змінити текст `color` для `body` на темно-сірий.
 
 ```js
-assert($('body').css('color') == 'rgb(99, 99, 99)');
+const body = document.querySelector('body');
+const bodyColor = window.getComputedStyle(body).color; 
+assert(bodyColor == 'rgb(99, 99, 99)');
 ```
 
 Ваш код не повинен міняти колір фона `background-color` для `body`.
 
 ```js
-assert($('body').css('background-color') == 'rgb(255, 255, 255)');
+const body = document.querySelector('body');
+const backgroundColor = window.getComputedStyle(body).backgroundColor; 
+assert.equal(backgroundColor , 'rgb(255, 255, 255)');
 ```
 
 # --seed--

@@ -22,28 +22,27 @@ Camper Cat 在他的忍者訓練頁面頂端放置了多個導航鏈接，但這
 應存在一個 `nav` 標籤。
 
 ```js
-assert($('nav').length == 1);
+assert.lengthOf(document.querySelectorAll('nav') , 1);
 ```
 
 `nav` 標籤應包含 `ul` 標籤及其列表項。
 
 ```js
-assert($('nav').children('ul').length == 1);
+const nav = document.querySelector('nav');
+const children = nav?.querySelectorAll(`:scope ${'ul'}`);
+assert.lengthOf(children,1);
 ```
 
 不應存在 `div` 標籤。
 
 ```js
-assert($('div').length == 0);
+assert.lengthOf(document.querySelectorAll('div') , 0);
 ```
 
 確保 `nav` 標籤是閉合的。
 
 ```js
-assert(
-  code.match(/<\/nav>/g) &&
-    code.match(/<\/nav>/g).length === code.match(/<nav>/g).length
-);
+assert.isTrue(code.match(/<\/nav>/g)?.length === code.match(/<nav>/g)?.length);
 ```
 
 # --seed--

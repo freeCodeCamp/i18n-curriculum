@@ -28,7 +28,7 @@ Camper Cat はコーディング忍者かつ実際の忍者でもあり、その
 `img` タグは空ではない `alt` 属性を持つ必要があります。
 
 ```js
-assert($('img').attr('alt'));
+assert.isNotEmpty(document.querySelector('img')?.getAttribute('alt'));
 ```
 
 # --seed--

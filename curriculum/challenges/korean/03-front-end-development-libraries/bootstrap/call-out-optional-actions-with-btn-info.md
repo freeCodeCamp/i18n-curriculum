@@ -19,29 +19,30 @@ dashedName: call-out-optional-actions-with-btn-info
 `button` 요소와 `Info` 텍스트를 새로 만들어야 합니다.
 
 ```js
-assert(new RegExp('info', 'gi').test($('button').text()));
+const infoButton = document.querySelectorAll('button')?.[1]; 
+assert.match(infoButton.textContent,/info/gi);
 ```
 
 부트스트랩 버튼들에는 `btn`와 `btn-block` 클래스들이 있어야 합니다.
 
 ```js
-assert($('button.btn-block.btn').length > 1);
+assert.lengthOf(document.querySelectorAll('button.btn-block.btn'),2);
 ```
 
 새 버튼에는 `btn-info` 클래스가 있어야 합니다.
 
 ```js
-assert($('button').hasClass('btn-info'));
+const infoButton = [...document.querySelectorAll('button')].at(1);
+assert.isTrue(infoButton?.classList?.contains('btn-info'));
 ```
 
 모든 `button` 요소들에는 닫는 태그가 있어야 합니다.
 
 ```js
-assert(
-  code.match(/<\/button>/g) &&
-    code.match(/<button/g) &&
-    code.match(/<\/button>/g).length === code.match(/<button/g).length
-);
+assert.match(code,/<\/button>/g);
+assert.match(code,/<button/g);
+
+assert.equal(code.match(/<\/button>/g)?.length,code.match(/<button/g)?.length);
 ```
 
 # --seed--

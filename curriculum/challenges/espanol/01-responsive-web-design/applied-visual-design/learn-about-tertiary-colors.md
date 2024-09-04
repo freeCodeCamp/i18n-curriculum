@@ -27,25 +27,31 @@ Cambia la propiedad `background-color` de las clases `orange`, `cyan` y `raspber
 El elemento `div` con clase `orange` debe tener un `background-color` naranja.
 
 ```js
-assert($('.orange').css('background-color') == 'rgb(255, 127, 0)');
+const orangeElement = document.querySelector('.orange');
+const orangeStyle = window.getComputedStyle(orangeElement);
+assert.equal(orangeStyle?.backgroundColor, 'rgb(255, 127, 0)');
 ```
 
 El elemento `div` con clase `cyan` debe tener un `background-color` cian.
 
 ```js
-assert($('.cyan').css('background-color') == 'rgb(0, 255, 255)');
+const cyanElement = document.querySelector('.cyan');
+const cyanStyle = window.getComputedStyle(cyanElement);
+assert.equal(cyanStyle?.backgroundColor, 'rgb(0, 255, 255)');
 ```
 
 El elemento `div` con clase `raspberry` debe tener un `background-color` frambuesa.
 
 ```js
-assert($('.raspberry').css('background-color') == 'rgb(255, 0, 127)');
+const raspberryElement = document.querySelector('.raspberry');
+const raspberryStyle = window.getComputedStyle(raspberryElement);
+assert.equal(raspberryStyle?.backgroundColor, 'rgb(255, 0, 127)');
 ```
 
 Todos los valores de `background-color` para las clases de color deben ser códigos hexadecimales y no nombres de color.
 
 ```js
-assert(!/background-color:\s(orange|cyan|raspberry)/.test(code));
+assert.notMatch(code, /background-color:\s(orange|cyan|raspberry)/);
 ```
 
 # --seed--

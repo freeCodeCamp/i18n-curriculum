@@ -30,8 +30,10 @@ Para el elemento con el id de `ball1`, cambia el valor de la propiedad `animatio
 El valor de la propiedad `animation-timing-function` para el elemento con el id `ball1` debe ser la función lineal `cubic-bezier` equivalente.
 
 ```js
-assert(
-  $('#ball1').css('animation-timing-function') ==
+const ballOne = document.querySelector('#ball1');
+const ballOneStyle = window.getComputedStyle(ballOne); 
+assert.equal(
+  ballOneStyle?.animationTimingFunction,
     'cubic-bezier(0.25, 0.25, 0.75, 0.75)'
 );
 ```
@@ -39,10 +41,10 @@ assert(
 El valor de la propiedad `animation-timing-function` para el elemento con el id `ball2` no debe cambiar.
 
 ```js
-const ball2Animation = __helpers.removeWhiteSpace(
-  $('#ball2').css('animation-timing-function')
-);
-assert(
+const ballTwoElement = document.querySelector('#ball2');
+const ballTwoStyle = window.getComputedStyle(ballTwoElement); 
+const ball2Animation = __helpers.removeWhiteSpace(ballTwoStyle?.animationTimingFunction);
+assert.isTrue(
   ball2Animation == 'ease-out' || ball2Animation == 'cubic-bezier(0,0,0.58,1)'
 );
 ```

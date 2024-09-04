@@ -26,21 +26,19 @@ dashedName: create-a-graphic-using-css
 `background-color` プロパティの値は `transparent` に設定されている必要があります。
 
 ```js
-assert(code.match(/background-color:\s*?transparent;/gi));
+assert.match(code,/background-color:\s*?transparent;/gi);
 ```
 
 `border-radius` プロパティの値は `50%` に設定されている必要があります。
 
 ```js
-assert(code.match(/border-radius:\s*?50%;/gi));
+assert.match(code,/border-radius:\s*?50%;/gi);
 ```
 
 `box-shadow` プロパティの値は `offset-x` が 25px、`offset-y` が 10px、`blur-radius` が 0、`spread-radius` が 0、最後に `color` が `blue` に設定されている必要があります。
 
 ```js
-assert(
-  code.match(/box-shadow:\s*?25px\s+?10px\s+?0(px)?\s+?0(px)?\s+?blue\s*?;/gi)
-);
+assert.match(code,/box-shadow:\s*?25px\s+?10px\s+?0(px)?\s+?0(px)?\s+?blue\s*?;/gi);
 ```
 
 # --seed--

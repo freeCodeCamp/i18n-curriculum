@@ -20,7 +20,9 @@ Agrega una propiedad `z-index` al elemento con la clase `first` (el rectángulo 
 El elemento con clase `first` debe tener un valor `z-index` de 2.
 
 ```js
-assert($('.first').css('z-index') == '2');
+const firstElement = document.querySelector('.first');
+const firstStyle = window.getComputedStyle(firstElement); 
+assert.equal(firstStyle?.zIndex, '2');
 ```
 
 # --seed--

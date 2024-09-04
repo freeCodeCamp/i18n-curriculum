@@ -17,34 +17,31 @@ dashedName: create-a-bootstrap-row
 يجب عليك إضافة عنصر `div` تحت عنصر `h3` الخاص بك.
 
 ```js
-assert(
-  $('div').length > 1 &&
-    $('div.row h3.text-primary').length == 0 &&
-    $('div.row + h3.text-primary').length == 0 &&
-    $('h3.text-primary + div.row').length > 0
-);
+assert.lengthOf(document.querySelectorAll('div'),2);
+assert.lengthOf(document.querySelectorAll('div.row h3.text-primary'),0);
+assert.lengthOf(document.querySelectorAll('div.row + h3.text-primary'),0)
+assert.lengthOf(document.querySelectorAll('h3.text-primary + div.row'),1);
 ```
 
 يجب يحتوي عنصر `div` على فئة `row`
 
 ```js
-assert($('div').hasClass('row'));
+const newDiv = document.querySelectorAll('div')?.[1]; 
+assert.isTrue(newDiv?.classList?.contains('row'));
 ```
 
 يجب أدخال `row div` في `container-fluid div`
 
 ```js
-assert($('div.container-fluid div.row').length > 0);
+assert.lengthOf(document.querySelectorAll('div.container-fluid div.row'),1);
 ```
 
 يجب أن يحتوى عنصر `div` على علامة إغلاق.
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/g);
+assert.match(code,/<div/g);
+assert.equal(code.match(/<\/div>/g).length ,code.match(/<div/g).length);
 ```
 
 # --seed--

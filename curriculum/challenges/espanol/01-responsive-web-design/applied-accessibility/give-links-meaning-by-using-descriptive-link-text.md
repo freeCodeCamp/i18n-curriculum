@@ -22,26 +22,19 @@ El texto de los enlaces que utiliza el Camper Cat no es muy descriptivo si se lo
 Tu código debe mover las etiquetas anchor `a` de las palabras `Click here` para envolver las palabras `information about batteries`.
 
 ```js
-assert(
-  $('a')
-    .text()
-    .match(/^(information about batteries)$/g)
-);
+assert.match(document.querySelector('a')?.textContent, /^(information about batteries)$/g);
 ```
 
 El elemento `a` debe tener un atributo `href` con un valor de cadena vacía `""`.
 
 ```js
-assert($('a').attr('href') === '');
+assert.isEmpty(document.querySelector('a')?.getAttribute('href'));
 ```
 
 Tu elemento `a` debe tener una etiqueta de cierre.
 
 ```js
-assert(
-  code.match(/<\/a>/g) &&
-    code.match(/<\/a>/g).length === code.match(/<a href=(''|"")>/g).length
-);
+assert.isTrue(code.match(/<\/a>/g)?.length === code.match(/<a href=(''|"")>/g)?.length);
 ```
 
 # --seed--

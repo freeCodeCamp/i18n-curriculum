@@ -39,19 +39,19 @@ dashedName: create-movement-using-css-animation
 `0%` の `@keyframes` ルールは、`left` オフセットが 0px である必要があります。
 
 ```js
-assert(code.match(/[^50]0%\s*?{[\s\S]*?left:\s*?0px(;[\s\S]*?|\s*?)}/gi));
+assert.match(code,/[^50]0%\s*?{[\s\S]*?left:\s*?0px(;[\s\S]*?|\s*?)}/gi);
 ```
 
 `50%` の `@keyframes` ルールは、`left` オフセットが 25px である必要があります。
 
 ```js
-assert(code.match(/50%\s*?{[\s\S]*?left:\s*?25px(;[\s\S]*?|\s*?)}/gi));
+assert.match(code,/50%\s*?{[\s\S]*?left:\s*?25px(;[\s\S]*?|\s*?)}/gi);
 ```
 
 `100%` の `@keyframes` ルールは、`left` オフセットが -25px である必要があります。
 
 ```js
-assert(code.match(/100%\s*?{[\s\S]*?left:\s*?-25px(;[\s\S]*?|\s*?)}/gi));
+assert.match(code,/100%\s*?{[\s\S]*?left:\s*?-25px(;[\s\S]*?|\s*?)}/gi);
 ```
 
 # --seed--

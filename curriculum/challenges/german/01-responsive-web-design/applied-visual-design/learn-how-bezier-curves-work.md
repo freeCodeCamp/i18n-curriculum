@@ -30,8 +30,10 @@ Im obigen Beispiel sind die x- und y-Werte für jeden Punkt gleich. (x1 = 0.25 =
 Der Wert der Eigenschaft `animation-timing-function` für das Element mit der ID `ball1` sollte eine gleichartige lineare `cubic-bezier` Funktion sein.
 
 ```js
-assert(
-  $('#ball1').css('animation-timing-function') ==
+const ballOne = document.querySelector('#ball1');
+const ballOneStyle = window.getComputedStyle(ballOne); 
+assert.equal(
+  ballOneStyle?.animationTimingFunction,
     'cubic-bezier(0.25, 0.25, 0.75, 0.75)'
 );
 ```
@@ -39,10 +41,10 @@ assert(
 Der Wert der Eigenschaft `animation-timing-function` für das Element mit der ID `ball2` sollte sich nicht ändern.
 
 ```js
-const ball2Animation = __helpers.removeWhiteSpace(
-  $('#ball2').css('animation-timing-function')
-);
-assert(
+const ballTwoElement = document.querySelector('#ball2');
+const ballTwoStyle = window.getComputedStyle(ballTwoElement); 
+const ball2Animation = __helpers.removeWhiteSpace(ballTwoStyle?.animationTimingFunction);
+assert.isTrue(
   ball2Animation == 'ease-out' || ball2Animation == 'cubic-bezier(0,0,0.58,1)'
 );
 ```

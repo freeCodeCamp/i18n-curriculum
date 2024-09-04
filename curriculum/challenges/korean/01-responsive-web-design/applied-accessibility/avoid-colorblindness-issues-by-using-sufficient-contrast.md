@@ -26,13 +26,13 @@ dashedName: avoid-colorblindness-issues-by-using-sufficient-contrast
 여러분의 코드는 텍스트 `color` 속성의 명도를 15%로 변경해야 합니다.
 
 ```js
-assert(code.match(/color:\s*?hsl\(0,\s*?55%,\s*?15%\)/gi));
+assert.match(code ,/color:\s*?hsl\(0,\s*?55%,\s*?15%\)/gi);
 ```
 
 여러분의 코드는 `background-color`속성의 명도를 55%로 변경해야 합니다.
 
 ```js
-assert(code.match(/background-color:\s*?hsl\(120,\s*?25%,\s*?55%\)/gi));
+assert.match(code ,/background-color:\s*?hsl\(120,\s*?25%,\s*?55%\)/gi);
 ```
 
 # --seed--

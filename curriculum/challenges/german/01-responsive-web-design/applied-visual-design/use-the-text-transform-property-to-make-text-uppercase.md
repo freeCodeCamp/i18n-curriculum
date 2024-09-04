@@ -24,13 +24,15 @@ Wandle den Text des `h4` Elements mit der Eigenschaft `text-transform` in Großb
 Der `h4` Text sollte in Großbuchstaben (`uppercase`) geschrieben sein.
 
 ```js
-assert($('h4').css('text-transform') === 'uppercase');
+const h4Element =document.querySelector('h4')
+const h4Style = window.getComputedStyle(h4Element);
+assert.equal(h4Style?.textTransform, 'uppercase');
 ```
 
 Der ursprüngliche Text des h4-Tags sollte nicht geändert werden.
 
 ```js
-assert($('h4').text() !== $('h4').text().toUpperCase());
+assert.notEqual(document.querySelector('h4')?.textContent, document.querySelector('h4')?.textContent?.toUpperCase());
 ```
 
 # --seed--

@@ -28,13 +28,13 @@ Camper Cat hat eine neue Umfrage erstellt, um Informationen über seine Nutzer z
 Dein Code sollte ein `tabindex`-Attribut zum `p`-Tag hinzufügen, das die Formularanweisungen enthält.
 
 ```js
-assert($('p').attr('tabindex'));
+assert.isNotNull(document.querySelector('p')?.getAttribute('tabindex'));
 ```
 
 Dein Code sollte das `tabindex`-Attribut am `p`-Tag auf den Wert 0 setzen.
 
 ```js
-assert($('p').attr('tabindex') == '0');
+assert.equal(document.querySelector('p')?.getAttribute('tabindex'), '0');
 ```
 
 # --seed--

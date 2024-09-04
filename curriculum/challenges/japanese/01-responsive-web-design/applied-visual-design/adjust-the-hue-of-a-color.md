@@ -30,37 +30,43 @@ dashedName: adjust-the-hue-of-a-color
 `hsl()` 関数を使って、緑色を宣言してください。
 
 ```js
-assert(code.match(/\.green\s*?{\s*?background-color\s*:\s*?hsl/gi));
+assert.match(code,/\.green\s*?{\s*?background-color\s*:\s*?hsl/gi);
 ```
 
 `hsl()` 関数を使って、シアンを宣言してください。
 
 ```js
-assert(code.match(/\.cyan\s*?{\s*?background-color\s*:\s*?hsl/gi));
+assert.match(code,/\.cyan\s*?{\s*?background-color\s*:\s*?hsl/gi);
 ```
 
 `hsl()` 関数を使って、青色を宣言してください。
 
 ```js
-assert(code.match(/\.blue\s*?{\s*?background-color\s*:\s*?hsl/gi));
+assert.match(code,/\.blue\s*?{\s*?background-color\s*:\s*?hsl/gi);
 ```
 
 クラスが `green` の `div` 要素の `background-color` は緑である必要があります。
 
 ```js
-assert($('.green').css('background-color') == 'rgb(0, 255, 0)');
+const greenElement = document.querySelector(".green");
+const greenStyle = window.getComputedStyle(greenElement); 
+assert.equal(greenStyle?.backgroundColor, 'rgb(0, 255, 0)');
 ```
 
 クラスが `cyan` の `div` 要素の `background-color` はシアンである必要があります。
 
 ```js
-assert($('.cyan').css('background-color') == 'rgb(0, 255, 255)');
+const cyanElement = document.querySelector(".cyan");
+const cyanStyle = window.getComputedStyle(cyanElement); 
+assert.equal(cyanStyle?.backgroundColor, 'rgb(0, 255, 255)');
 ```
 
 クラスが `blue` の `div` 要素の `background-color` は青である必要があります。
 
 ```js
-assert($('.blue').css('background-color') == 'rgb(0, 0, 255)');
+const blueElement = document.querySelector(".blue");
+const blueStyle = window.getComputedStyle(blueElement); 
+assert.equal(blueStyle?.backgroundColor, 'rgb(0, 0, 255)');
 ```
 
 # --seed--

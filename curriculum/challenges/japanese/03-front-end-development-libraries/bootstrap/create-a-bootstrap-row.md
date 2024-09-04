@@ -17,34 +17,31 @@ dashedName: create-a-bootstrap-row
 `h3` 要素の下に `div` 要素を追加します。
 
 ```js
-assert(
-  $('div').length > 1 &&
-    $('div.row h3.text-primary').length == 0 &&
-    $('div.row + h3.text-primary').length == 0 &&
-    $('h3.text-primary + div.row').length > 0
-);
+assert.lengthOf(document.querySelectorAll('div'),2);
+assert.lengthOf(document.querySelectorAll('div.row h3.text-primary'),0);
+assert.lengthOf(document.querySelectorAll('div.row + h3.text-primary'),0)
+assert.lengthOf(document.querySelectorAll('h3.text-primary + div.row'),1);
 ```
 
 `div` 要素にクラス `row` を付けます。
 
 ```js
-assert($('div').hasClass('row'));
+const newDiv = document.querySelectorAll('div')?.[1]; 
+assert.isTrue(newDiv?.classList?.contains('row'));
 ```
 
 クラス `row` の div はクラス `container-fluid` の div の内側に入れる必要があります。
 
 ```js
-assert($('div.container-fluid div.row').length > 0);
+assert.lengthOf(document.querySelectorAll('div.container-fluid div.row'),1);
 ```
 
 `div` 要素には終了タグが必要です。
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/g);
+assert.match(code,/<div/g);
+assert.equal(code.match(/<\/div>/g).length ,code.match(/<div/g).length);
 ```
 
 # --seed--

@@ -29,23 +29,27 @@ HTML에 다음 코드를 추가하여 어떤 앱에든지 부트스트랩을 추
 `div` 요소는 `container-fluid`라는 클래스 이름을 가져야 합니다.
 
 ```js
-assert($('div').hasClass('container-fluid'));
+assert.isTrue(document.querySelector('div')?.classList?.contains('container-fluid'));
 ```
 
 `div` 요소는 닫는 태그를 가져야 합니다.
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/g);
+assert.match(code,/<div/g);
+assert.equal(code.match(/<\/div>/g).length ,code.match(/<div/g).length);
 ```
 
 `style` 태그 다음에 오는 모든 HTML 요소는 `.container-fluid` 안에 중첩되어야 합니다.
 
 ```js
-assert($('.container-fluid').children().length >= 8 && !$('.container-fluid').has("style").length && !$('.container-fluid').has("link").length);
+const fluidContainer = document.querySelector('.container-fluid');
+const possibleStyleElements = fluidContainer?.querySelectorAll(`:scope ${'style'}`);
+const possibleLinkElements = fluidContainer?.querySelectorAll(`:scope ${'link'}`);
+
+assert.lengthOf(fluidContainer?.children,8);
+assert.isEmpty(possibleStyleElements);
+assert.isEmpty(possibleLinkElements);
 ```
 
 # --seed--

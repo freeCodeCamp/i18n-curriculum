@@ -20,23 +20,21 @@ dashedName: use-the-strong-tag-to-make-text-bold
 코드에서 마크업에 `strong` 태그를 하나 추가해야 합니다.
 
 ```js
-assert($('strong').length == 1);
+assert.lengthOf(document.querySelectorAll('strong'),1);
 ```
 
 `strong` 태그는 `p` 태그 내부에 위치해야 합니다.
 
 ```js
-assert($('p').children('strong').length == 1);
+const pargraphElement = document.querySelector('p');
+const pargraphChildren = pargraphElement?.querySelectorAll(`:scope ${'strong'}`);
+assert.lengthOf(pargraphChildren, 1);
 ```
 
 `strong` 태그는 `Stanford University`라는 단어를 감싸야 합니다.
 
 ```js
-assert(
-  $('strong')
-    .text()
-    .match(/^Stanford University\.?$/gi)
-);
+assert.match(document.querySelector('strong')?.textContent, /^Stanford University\.?$/gi);
 ```
 
 # --seed--

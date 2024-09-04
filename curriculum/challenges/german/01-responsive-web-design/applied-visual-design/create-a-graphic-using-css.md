@@ -26,21 +26,19 @@ Verändere das quadratische Element im Editor, um die Mondform zu erzeugen. Änd
 Der Wert der Eigenschaft `background-color` sollte auf `transparent` gesetzt werden.
 
 ```js
-assert(code.match(/background-color:\s*?transparent;/gi));
+assert.match(code,/background-color:\s*?transparent;/gi);
 ```
 
 Der Wert der Eigenschaft `border-radius` sollte auf `50%` gesetzt werden.
 
 ```js
-assert(code.match(/border-radius:\s*?50%;/gi));
+assert.match(code,/border-radius:\s*?50%;/gi);
 ```
 
 Der Wert der `box-shadow` Eigenschaft sollte 25px für `offset-x`, 10px für `offset-y`, 0 für `blur-radius`, 0 für `spread-radius`, und schließlich `blue` für `color` betragen.
 
 ```js
-assert(
-  code.match(/box-shadow:\s*?25px\s+?10px\s+?0(px)?\s+?0(px)?\s+?blue\s*?;/gi)
-);
+assert.match(code,/box-shadow:\s*?25px\s+?10px\s+?0(px)?\s+?0(px)?\s+?blue\s*?;/gi);
 ```
 
 # --seed--

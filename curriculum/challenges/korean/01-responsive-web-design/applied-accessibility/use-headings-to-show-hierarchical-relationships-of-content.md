@@ -30,25 +30,25 @@ dashedName: use-headings-to-show-hierarchical-relationships-of-content
 코드에는 6개의 `h3` 요소가 있어야 합니다.
 
 ```js
-assert($('h3').length === 6);
+assert.lengthOf(document.querySelectorAll('h3') , 6);
 ```
 
 코드에는 6개의 `h3` 닫는 태그가 있어야 합니다.
 
 ```js
-assert((code.match(/\/h3/g) || []).length === 6);
+assert.lengthOf((code.match(/\/h3/g) || []) ,6);
 ```
 
 `h5` 태그는 하나도 없어야 합니다.
 
 ```js
-assert($('h5').length === 0);
+assert.isEmpty(document.querySelectorAll('h5'));
 ```
 
 `h5`의 닫는 태그는 하나도 없어야 합니다.
 
 ```js
-assert(/\/h5/.test(code) === false);
+assert.notMatch(code, /\/h5/);
 ```
 
 # --seed--

@@ -19,35 +19,33 @@ dashedName: make-images-mobile-responsive
 該頁面共有兩張圖片。
 
 ```js
-assert($('img').length === 2);
+assert.lengthOf(document.querySelectorAll('img'), 2);
 ```
 
 新的圖片應該在舊的圖片下面並且有值包含 `img-responsive` 的 class 屬性。
 
 ```js
-assert($('img:eq(1)').hasClass('img-responsive'));
+assert.isTrue(document.querySelectorAll('img')?.[1]?.classList?.contains('img-responsive'));
 ```
 
 新圖片的 class 不應該包含 `smaller-image`。
 
 ```js
-assert(!$('img:eq(1)').hasClass('smaller-image'));
+assert.isFalse(document.querySelectorAll('img')?.[1]?.classList?.contains('smaller-image'));
 ```
 
 新圖片應該有一個值爲 `https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg` 的 `src` 屬性。
 
 ```js
-assert($('img:eq(1)').attr('src') === 'https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg');
+assert.equal(document.querySelectorAll('img')?.[1]?.getAttribute('src') , 'https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg');
 ```
 
 確保新的 `img` 元素有一個閉合的尖括號。
 
 ```js
-assert(
-  code.match(/<img/g) &&
-    code.match(/<img[^<]*>/g).length === 2 &&
-    code.match(/<img/g).length === 2
-);
+assert.match(code,/<img/g);
+assert.lengthOf(code.match(/<img[^<]*>/g), 2);
+assert.lengthOf(code.match(/<img/g), 2);
 ```
 
 # --seed--

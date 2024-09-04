@@ -20,19 +20,19 @@ Camper Cat 的忍者訓練頁面進展順利。 請將他在頁面底部呈現�
 應存在一個 `footer` 標籤。
 
 ```js
-assert($('footer').length == 1);
+assert.lengthOf(document.querySelectorAll('footer') ,1);
 ```
 
 不應存在 `div` 標籤。
 
 ```js
-assert($('div').length == 0);
+assert.lengthOf(document.querySelectorAll('div'), 0);
 ```
 
 確保 `footer` 元素有結束標籤。
 
 ```js
-assert(code.match(/<footer>\s*&copy; 2018 Camper Cat\s*<\/footer>/g));
+assert.match(code,/<footer>\s*&copy; 2018 Camper Cat\s*<\/footer>/g);
 ```
 
 # --seed--

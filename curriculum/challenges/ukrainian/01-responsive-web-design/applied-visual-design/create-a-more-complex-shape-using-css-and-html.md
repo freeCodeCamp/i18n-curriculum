@@ -39,28 +39,26 @@ dashedName: create-a-more-complex-shape-using-css-and-html
 Селектор `.heart::after` повинен мати властивість `background-color` зі значенням `pink`.
 
 ```js
-const heartAfter = code.match(/\.heart::after\s*{[\s\S]+?[^\}]}/g)[0];
-assert(
-  /({|;)\s*background-color\s*:\s*pink\s*(;|})/g.test(heartAfter)
-);
+const heartAfter = code.match(/\.heart::after\s*{[\s\S]+?[^\}]}/g)?.[0];
+assert.match(heartAfter, /({|;)\s*background-color\s*:\s*pink\s*(;|})/g);
 ```
 
 Властивість `border-radius` селектора `.heart::after` повинна мати значення 50%.
 
 ```js
-assert(code.match(/border-radius\s*?:\s*?50%/gi).length == 2);
+assert.lengthOf(code.match(/border-radius\s*?:\s*?50%/gi),2);
 ```
 
 Властивість `transform` класу `heart` повинна використовувати функцію `rotate()`, встановлену на -45 градусів.
 
 ```js
-assert(code.match(/transform\s*?:\s*?rotate\(\s*?-45deg\s*?\)/gi));
+assert.match(code,/transform\s*?:\s*?rotate\(\s*?-45deg\s*?\)/gi);
 ```
 
 `content` селектора `.heart::before` повинен бути порожнім рядком.
 
 ```js
-assert(code.match(/\.heart::before\s*?{\s*?content\s*?:\s*?("|')\1\s*?;/gi));
+assert.match(code,/\.heart::before\s*?{\s*?content\s*?:\s*?("|')\1\s*?;/gi);
 ```
 
 # --seed--

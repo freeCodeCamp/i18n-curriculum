@@ -19,23 +19,22 @@ Bootstrap のボタンの `btn-default` クラスを `btn-primary` に置き換�
 ボタンにクラス `btn-primary` を持たせます。
 
 ```js
-assert($('button').hasClass('btn-primary'));
+assert.isTrue(document.querySelector('button')?.classList?.contains('btn-primary'));
 ```
 
 ボタンには `btn` クラスと `btn-block` クラスも必要です。
 
 ```js
-assert($('button').hasClass('btn-block') && $('button').hasClass('btn'));
+assert.isTrue(document.querySelector('button')?.classList?.contains('btn-block'));
+assert.isTrue(document.querySelector('button')?.classList?.contains('btn'));
 ```
 
 `button` 要素にはすべて終了タグが必要です。
 
 ```js
-assert(
-  code.match(/<\/button>/g) &&
-    code.match(/<button/g) &&
-    code.match(/<\/button>/g).length === code.match(/<button/g).length
-);
+assert.match(code,/<\/button>/g);
+assert.match(code,/<button/g);
+assert.equal(code.match(/<\/button>/g).length , code.match(/<button/g).length);
 ```
 
 # --seed--

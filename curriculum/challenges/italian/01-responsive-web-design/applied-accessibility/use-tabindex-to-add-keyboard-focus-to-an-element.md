@@ -28,13 +28,13 @@ Camper Cat ha creato un nuovo sondaggio per raccogliere informazioni sui suoi ut
 Il tuo codice dovrebbe aggiungere un attributo `tabindex` sul tag `p` che contiene le istruzioni del modulo.
 
 ```js
-assert($('p').attr('tabindex'));
+assert.isNotNull(document.querySelector('p')?.getAttribute('tabindex'));
 ```
 
 Il tuo codice dovrebbe impostare l'attributo `tabindex` sul tag `p` ad un valore di 0.
 
 ```js
-assert($('p').attr('tabindex') == '0');
+assert.equal(document.querySelector('p')?.getAttribute('tabindex'), '0');
 ```
 
 # --seed--

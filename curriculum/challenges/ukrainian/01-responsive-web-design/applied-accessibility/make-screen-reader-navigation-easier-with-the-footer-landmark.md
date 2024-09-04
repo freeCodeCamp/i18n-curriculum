@@ -20,19 +20,19 @@ dashedName: make-screen-reader-navigation-easier-with-the-footer-landmark
 Ваш код повинен містити один тег `footer`.
 
 ```js
-assert($('footer').length == 1);
+assert.lengthOf(document.querySelectorAll('footer') ,1);
 ```
 
 Ваш код не повинен містити жодних тегів `div`.
 
 ```js
-assert($('div').length == 0);
+assert.lengthOf(document.querySelectorAll('div'), 0);
 ```
 
 Ваш код повинен містити відкритий і закритий тег `footer` tag.
 
 ```js
-assert(code.match(/<footer>\s*&copy; 2018 Camper Cat\s*<\/footer>/g));
+assert.match(code,/<footer>\s*&copy; 2018 Camper Cat\s*<\/footer>/g);
 ```
 
 # --seed--

@@ -22,10 +22,7 @@ Wähle das Element mit der Id `ball` und füge die Eigenschaft `opacity` hinzu, 
 Die `keyframes`-Regel zum Ausblenden sollte die Eigenschaft `opacity` auf 0.1 bei 50% setzen.
 
 ```js
-assert(
-  code.match(
-    /@keyframes fade\s*?{\s*?50%\s*?{\s*?(?:left:\s*?60%;\s*?opacity:\s*?0?\.1;|opacity:\s*?0?\.1;\s*?left:\s*?60%;)/gi
-  )
+assert.match(code,/@keyframes fade\s*?{\s*?50%\s*?{\s*?(?:left:\s*?60%;\s*?opacity:\s*?0?\.1;|opacity:\s*?0?\.1;\s*?left:\s*?60%;)/gi
 );
 ```
 

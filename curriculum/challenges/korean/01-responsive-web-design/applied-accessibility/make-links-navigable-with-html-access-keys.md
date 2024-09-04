@@ -28,25 +28,25 @@ HTML5에서는 이 속성을 모든 요소에 사용할 수 있지만, 상호작
 코드에서 `a` 태그에 `id`가 `first`인 `accesskey` 속성을 추가해야 합니다.
 
 ```js
-assert($('#first').attr('accesskey'));
+assert.isTrue(document.querySelector('#first')?.hasAttribute('accesskey'));
 ```
 
 코드에서 `a` 태그에 `id`가 `second`인 `accesskey` 속성을 추가해야 합니다.
 
 ```js
-assert($('#second').attr('accesskey'));
+assert.isTrue(document.querySelector('#second')?.hasAttribute('accesskey'));
 ```
 
 코드에서 `id`가 `first`인 `a` 태그의 `accesskey` 속성을 `g`로 설정해야 합니다. 대소문자가 영향을 미친다는 사실을 주의하세요.
 
 ```js
-assert($('#first').attr('accesskey') == 'g');
+assert.equal(document.querySelector('#first')?.getAttribute('accesskey'), 'g');
 ```
 
 코드에서 `id`가 `second`인 `a` 태그에 `accesskey` 속성을 `c`로 설정해야 합니다. 대소문자가 영향을 미친다는 사실을 주의하세요.
 
 ```js
-assert($('#second').attr('accesskey') == 'c');
+assert.equal(document.querySelector('#second')?.getAttribute('accesskey'), 'c');
 ```
 
 # --seed--

@@ -26,7 +26,9 @@ animation-iteration-count: 3;
 `animation-iteration-count` 属性的值应为 `infinite`。
 
 ```js
-assert($('#ball').css('animation-iteration-count') == 'infinite');
+const ballElement = document.querySelector('#ball');
+const ballStyle = window.getComputedStyle(ballElement); 
+assert.equal(ballStyle?.animationIterationCount, 'infinite');
 ```
 
 # --seed--

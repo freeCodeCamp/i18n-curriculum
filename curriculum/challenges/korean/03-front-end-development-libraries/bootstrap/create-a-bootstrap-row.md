@@ -17,34 +17,31 @@ dashedName: create-a-bootstrap-row
 `h3` 요소 아래에 `div` 요소를 추가해야 합니다.
 
 ```js
-assert(
-  $('div').length > 1 &&
-    $('div.row h3.text-primary').length == 0 &&
-    $('div.row + h3.text-primary').length == 0 &&
-    $('h3.text-primary + div.row').length > 0
-);
+assert.lengthOf(document.querySelectorAll('div'),2);
+assert.lengthOf(document.querySelectorAll('div.row h3.text-primary'),0);
+assert.lengthOf(document.querySelectorAll('div.row + h3.text-primary'),0)
+assert.lengthOf(document.querySelectorAll('h3.text-primary + div.row'),1);
 ```
 
 `div` 요소에는 `row` 클래스가 있어야 합니다.
 
 ```js
-assert($('div').hasClass('row'));
+const newDiv = document.querySelectorAll('div')?.[1]; 
+assert.isTrue(newDiv?.classList?.contains('row'));
 ```
 
 `row div`는 `container-fluid div` 안에 들어있어야 합니다.
 
 ```js
-assert($('div.container-fluid div.row').length > 0);
+assert.lengthOf(document.querySelectorAll('div.container-fluid div.row'),1);
 ```
 
 `div` 요소는 닫는 태그를 가져야 합니다.
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/g);
+assert.match(code,/<div/g);
+assert.equal(code.match(/<\/div>/g).length ,code.match(/<div/g).length);
 ```
 
 # --seed--

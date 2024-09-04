@@ -37,23 +37,22 @@ Bootstrap の `btn-block` クラスを Bootstrap ボタンに追加してくだ�
 ボタンには `btn` クラスと `btn-default` クラスを持たせる必要もあります。
 
 ```js
-assert($('button').hasClass('btn') && $('button').hasClass('btn-default'));
+assert.isTrue(document.querySelector('button')?.classList?.contains('btn'));
+assert.isTrue(document.querySelector('button')?.classList?.contains('btn-default'));
 ```
 
 ボタンにクラス `btn-block` を持たせます。
 
 ```js
-assert($('button').hasClass('btn-block'));
+assert.isTrue(document.querySelector('button')?.classList?.contains('btn-block'));
 ```
 
 `button` 要素にはすべて終了タグが必要です。
 
 ```js
-assert(
-  code.match(/<\/button>/g) &&
-    code.match(/<button/g) &&
-    code.match(/<\/button>/g).length === code.match(/<button/g).length
-);
+assert.match(code,/<\/button>/g);
+assert.match(code,/<button/g);
+assert.equal(code.match(/<\/button>/g).length, code.match(/<button/g).length);
 ```
 
 # --seed--

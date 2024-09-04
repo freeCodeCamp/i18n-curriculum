@@ -20,13 +20,17 @@ CSS 裏面的 `top`、`bottom`、`left` 和 `right` 定義了元素在相應方�
 應使用 CSS 屬性使 `h2` 相對當前位置向上移動 10px。 也就是說，從當前位置相對於 `bottom` 移動 10px。
 
 ```js
-assert($('h2').css('bottom') == '10px');
+const h2Element =document.querySelector('h2')
+const h2Style = window.getComputedStyle(h2Element);
+assert.equal(h2Style?.bottom, '10px');
 ```
 
 應使用 CSS 屬性使 `h2` 相對當前位置向右移動 15px。 也就是說，從當前位置相對於 `left` 移動 15px。
 
 ```js
-assert($('h2').css('left') == '15px');
+const h2Element =document.querySelector('h2')
+const h2Style = window.getComputedStyle(h2Element);
+assert.equal(h2Style?.left , '15px');
 ```
 
 # --seed--

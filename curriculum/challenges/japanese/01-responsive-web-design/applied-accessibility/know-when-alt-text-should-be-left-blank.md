@@ -30,13 +30,13 @@ Camper Cat は彼のウェブサイトのブログ部分の骨組みとなるコ
 `img` 要素には `alt` 属性が必要です。
 
 ```js
-assert(!($('img').attr('alt') == undefined));
+assert.isTrue(document.querySelector('img')?.hasAttribute('alt'));
 ```
 
 `alt` 属性は空文字列に設定する必要があります。
 
 ```js
-assert($('img').attr('alt') == '');
+assert.isEmpty(document.querySelector('img')?.getAttribute('alt'));
 ```
 
 # --seed--

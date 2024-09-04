@@ -42,25 +42,29 @@ Camper Cat creó un gráfico de barras apiladas realmente genial para su página
 Tu código debe establecer la propiedad `position` de la clase `sr-only` en un valor de `absolute`.
 
 ```js
-assert($('.sr-only').css('position') == 'absolute');
+const srOnly = document.querySelector('.sr-only');
+const position = window.getComputedStyle(srOnly).position; 
+assert.equal(position, 'absolute');
 ```
 
 Tu código debe establecer la propiedad `left` de la clase `sr-only` en un valor de `-10000px`.
 
 ```js
-assert($('.sr-only').css('left') == '-10000px');
+const srOnly = document.querySelector('.sr-only');
+const left = window.getComputedStyle(srOnly).left;
+assert.equal(left, '-10000px');
 ```
 
 Tu código debe establecer la propiedad `width` de la clase `sr-only` en un valor de `1` píxel.
 
 ```js
-assert(code.match(/width:\s*?1px/gi));
+assert.match(code , /width:\s*?1px/gi);
 ```
 
 Tu código debe establecer la propiedad `height` de la clase `sr-only` en un valor de `1` píxel.
 
 ```js
-assert(code.match(/height:\s*?1px/gi));
+assert.match(code , /height:\s*?1px/gi);
 ```
 
 # --seed--

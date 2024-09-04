@@ -31,35 +31,28 @@ Aqui está como você faria isso para o elemento `p` que possui o texto `Top 3 t
 O elemento `span` deve estar dentro do elemento `p`.
 
 ```js
-assert($('p span') && $('p span').length > 0);
+assert.lengthOf(document.querySelectorAll('p span'),1);
 ```
 
 O elemento `span` deve ter apenas o texto `love`.
 
 ```js
-assert(
-  $('p span') &&
-    $('p span').text().match(/love/i) &&
-    !$('p span')
-      .text()
-      .match(/Things cats/i)
-);
+assert.match(document.querySelector('p span')?.textContent,/love/i);
+assert.notMatch(document.querySelector('p span')?.textContent, /Things cats/i);
 ```
 
 O elemento `span` deve ter a classe `text-danger`.
 
 ```js
-assert($('span').hasClass('text-danger'));
+assert.isTrue(document.querySelector('span')?.classList?.contains('text-danger'));
 ```
 
 O elemento `span` deve ter uma tag de fechamento.
 
 ```js
-assert(
-  code.match(/<\/span>/g) &&
-    code.match(/<span/g) &&
-    code.match(/<\/span>/g).length === code.match(/<span/g).length
-);
+assert.match(code,/<\/span>/g);
+assert.match(code,/<span/g);
+assert.equal(code.match(/<\/span>/g).length,code.match(/<span/g).length);
 ```
 
 # --seed--

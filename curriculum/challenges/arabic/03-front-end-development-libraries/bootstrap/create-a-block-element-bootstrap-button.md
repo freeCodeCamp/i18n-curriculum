@@ -37,23 +37,22 @@ dashedName: create-a-block-element-bootstrap-button
 يجب أن يحتوي الزر الخاص بك على فئات `btn` و `btn-default`.
 
 ```js
-assert($('button').hasClass('btn') && $('button').hasClass('btn-default'));
+assert.isTrue(document.querySelector('button')?.classList?.contains('btn'));
+assert.isTrue(document.querySelector('button')?.classList?.contains('btn-default'));
 ```
 
 الزر الخاص بك يجب أن يحتوي على الفئة `btn-block`.
 
 ```js
-assert($('button').hasClass('btn-block'));
+assert.isTrue(document.querySelector('button')?.classList?.contains('btn-block'));
 ```
 
 لا بد أن يوجد وسم إغلاق للعناصر `button`.
 
 ```js
-assert(
-  code.match(/<\/button>/g) &&
-    code.match(/<button/g) &&
-    code.match(/<\/button>/g).length === code.match(/<button/g).length
-);
+assert.match(code,/<\/button>/g);
+assert.match(code,/<button/g);
+assert.equal(code.match(/<\/button>/g).length, code.match(/<button/g).length);
 ```
 
 # --seed--

@@ -30,25 +30,25 @@ Camper Cat は忍者になる方法についての専用ページをサイト上
 コードには `h3` 要素が 6 つ必要です。
 
 ```js
-assert($('h3').length === 6);
+assert.lengthOf(document.querySelectorAll('h3') , 6);
 ```
 
 コードには `h3` の終了タグが 6 つ必要です。
 
 ```js
-assert((code.match(/\/h3/g) || []).length === 6);
+assert.lengthOf((code.match(/\/h3/g) || []) ,6);
 ```
 
 コードに `h5` 要素を含めないでください。
 
 ```js
-assert($('h5').length === 0);
+assert.isEmpty(document.querySelectorAll('h5'));
 ```
 
 コードに `h5` の終了タグを含めないでください。
 
 ```js
-assert(/\/h5/.test(code) === false);
+assert.notMatch(code, /\/h5/);
 ```
 
 # --seed--

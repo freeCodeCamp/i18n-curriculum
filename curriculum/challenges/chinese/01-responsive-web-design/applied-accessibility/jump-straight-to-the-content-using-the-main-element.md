@@ -26,13 +26,13 @@ Camper Cat 对他的忍者武器页面有一些新的想法。 请帮他在 `hea
 应存在一个 `main` 标签。
 
 ```js
-assert($('main').length == 1);
+assert.lengthOf(document.querySelectorAll('main'),1);
 ```
 
 `main` 标签应位于 `header` 结束标签与 `footer` 开始标签之间。
 
 ```js
-assert(code.match(/<\/header>\s*?<main>\s*?<\/main>/gi));
+assert.match(code,/<\/header>\s*?<main>\s*?<\/main>/gi);
 ```
 
 # --seed--

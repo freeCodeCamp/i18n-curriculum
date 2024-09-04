@@ -24,25 +24,30 @@ dashedName: style-text-inputs-as-form-controls
 Кнопка надсилання форми повинна мати класи `btn btn-primary`.
 
 ```js
-assert($('button[type="submit"]').hasClass('btn btn-primary'));
+assert.isTrue(document.querySelector('button[type="submit"]')?.classList?.contains('btn'));
+assert.isTrue(document.querySelector('button[type="submit"]')?.classList?.contains('btn-primary'));
 ```
 
 Додайте `<i class="fa fa-paper-plane"></i>` в межах кнопки надсилання (`button`).
 
 ```js
-assert($('button[type="submit"]:has(i.fa.fa-paper-plane)').length > 0);
+const submitButton = document.querySelector('button[type="submit"]');
+const fontIcon = submitButton?.querySelectorAll('i.fa.fa-paper-plane'); 
+
+assert.lengthOf(fontIcon ,1);
 ```
 
 Текстове введення (`input`) повинне мати клас `form-control`.
 
 ```js
-assert($('input[type="text"]').hasClass('form-control'));
+assert.isTrue(document.querySelector('input[type="text"]')?.classList?.contains('form-control'));
 ```
 
 Кожен елемент `i` повинен мати кінцевий тег.
 
 ```js
-assert(code.match(/<\/i>/g) && code.match(/<\/i/g).length > 3);
+assert.match(code,/<\/i>/g);
+assert.lengthOf(code.match(/<\/i/g),4);
 ```
 
 # --seed--

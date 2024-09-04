@@ -17,13 +17,13 @@ dashedName: apply-the-default-bootstrap-button-style
 `btn` 클래스를 각각의 `button` 요소들에 추가해야 합니다.
 
 ```js
-assert($('.btn').length > 5);
+assert.lengthOf(document.querySelectorAll('.btn'),6);
 ```
 
 `btn-default` 클래스를 각각의 `button` 요소들에 추가해야 합니다.
 
 ```js
-assert($('.btn-default').length > 5);
+assert.lengthOf(document.querySelectorAll('.btn-default'), 6);
 ```
 
 # --seed--

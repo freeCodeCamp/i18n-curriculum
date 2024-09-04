@@ -39,19 +39,19 @@ Adicione um movimento horizontal na `div`. Usando a propriedade de deslocamento 
 A regra `@keyframes` em `0%` deve usar a propriedade `left` com o valor de 0px.
 
 ```js
-assert(code.match(/[^50]0%\s*?{[\s\S]*?left:\s*?0px(;[\s\S]*?|\s*?)}/gi));
+assert.match(code,/[^50]0%\s*?{[\s\S]*?left:\s*?0px(;[\s\S]*?|\s*?)}/gi);
 ```
 
 A regra `@keyframes` em `50%` deve usar a propriedade `left` com o valor de 25px.
 
 ```js
-assert(code.match(/50%\s*?{[\s\S]*?left:\s*?25px(;[\s\S]*?|\s*?)}/gi));
+assert.match(code,/50%\s*?{[\s\S]*?left:\s*?25px(;[\s\S]*?|\s*?)}/gi);
 ```
 
 A regra `@keyframes` em `100%` deve usar a propriedade `left` com o valor de -25px.
 
 ```js
-assert(code.match(/100%\s*?{[\s\S]*?left:\s*?-25px(;[\s\S]*?|\s*?)}/gi));
+assert.match(code,/100%\s*?{[\s\S]*?left:\s*?-25px(;[\s\S]*?|\s*?)}/gi);
 ```
 
 # --seed--

@@ -21,13 +21,13 @@ Bootstrap を使用しているので、見出し要素を中央に配置して�
 `h2` 要素に `text-center` を適用して中央寄せにします。
 
 ```js
-assert($('h2').hasClass('text-center'));
+assert.isTrue(document.querySelector('h2')?.classList?.contains('text-center'));
 ```
 
 `h2` 要素にもクラス `red-text` が必要です。
 
 ```js
-assert($('h2').hasClass('red-text'));
+assert.isTrue(document.querySelector('h2')?.classList?.contains('red-text'));
 ```
 
 # --seed--

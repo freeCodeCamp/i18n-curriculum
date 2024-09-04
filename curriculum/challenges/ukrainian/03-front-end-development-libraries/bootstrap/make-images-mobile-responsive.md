@@ -19,35 +19,33 @@ dashedName: make-images-mobile-responsive
 Ви повинні мати два зображення.
 
 ```js
-assert($('img').length === 2);
+assert.lengthOf(document.querySelectorAll('img'), 2);
 ```
 
 Нове зображення має знаходитись під старим зображенням та мати клас `img-responsive`.
 
 ```js
-assert($('img:eq(1)').hasClass('img-responsive'));
+assert.isTrue(document.querySelectorAll('img')?.[1]?.classList?.contains('img-responsive'));
 ```
 
 Нове зображення не повинне мати клас `smaller-image`.
 
 ```js
-assert(!$('img:eq(1)').hasClass('smaller-image'));
+assert.isFalse(document.querySelectorAll('img')?.[1]?.classList?.contains('smaller-image'));
 ```
 
 Нове зображення повинне мати `src` зі значенням `https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg`.
 
 ```js
-assert($('img:eq(1)').attr('src') === 'https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg');
+assert.equal(document.querySelectorAll('img')?.[1]?.getAttribute('src') , 'https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg');
 ```
 
 Новий елемент `img` повинен мати кінцеву кутову дужку.
 
 ```js
-assert(
-  code.match(/<img/g) &&
-    code.match(/<img[^<]*>/g).length === 2 &&
-    code.match(/<img/g).length === 2
-);
+assert.match(code,/<img/g);
+assert.lengthOf(code.match(/<img[^<]*>/g), 2);
+assert.lengthOf(code.match(/<img/g), 2);
 ```
 
 # --seed--

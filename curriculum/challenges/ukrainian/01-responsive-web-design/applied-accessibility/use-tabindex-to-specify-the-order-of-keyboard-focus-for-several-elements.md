@@ -36,25 +36,25 @@ Cлід також зауважити, що деякі браузери можу
 Ваш код повинен додати значення `tabindex` до тегу `search` `input`.
 
 ```js
-assert($('#search').attr('tabindex'));
+assert.isNotNull(document.querySelector('#search')?.getAttribute('tabindex'));
 ```
 
 Ваш код повинен додати значення `tabindex` до тегу `submit` `input`.
 
 ```js
-assert($('#submit').attr('tabindex'));
+assert.isNotNull(document.querySelector('#submit')?.getAttribute('tabindex'));
 ```
 
 Ваш код повинен встановити значення `tabindex` до тегу `search` `input` зі значенням 1.
 
 ```js
-assert($('#search').attr('tabindex') == '1');
+assert.equal(document.querySelector('#search')?.getAttribute('tabindex'), '1');
 ```
 
 Ваш код повинен встановити значення `tabindex` до тегу `submit` `input` зі значенням 2.
 
 ```js
-assert($('#submit').attr('tabindex') == '2');
+assert.equal(document.querySelector('#submit')?.getAttribute('tabindex'), '2');
 ```
 
 # --seed--

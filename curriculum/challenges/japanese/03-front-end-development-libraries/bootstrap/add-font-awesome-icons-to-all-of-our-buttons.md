@@ -25,29 +25,29 @@ Font Awesome を使用して、info ボタンに `info-circle` アイコンを�
 `info` ボタン要素の中に `<i class="fas fa-info-circle"></i>` を追加します。
 
 ```js
-assert(
-  $('.btn-info > i').is('.fas.fa-info-circle') ||
-    $('.btn-info > span').is('.fas.fa-info-circle')
+assert.isTrue(
+  document.querySelector('.btn-info > i')?.classList?.value === 'fas fa-info-circle' ||
+    document.querySelector('.btn-info > span')?.classList?.value === 'fas fa-info-circle'
 );
 ```
 
 `delete` ボタン要素の中に `<i class="fas fa-trash"></i>` を追加します。
 
 ```js
-assert(
-  $('.btn-danger > i').is('.fas.fa-trash') ||
-    $('.btn-danger > span').is('.fas.fa-trash')
+assert.isTrue(
+  document.querySelector('.btn-danger > i')?.classList?.value === 'fas fa-trash' ||
+    document.querySelector('.btn-danger > span')?.classList?.value === 'fas fa-trash'
 );
 ```
 
 それぞれの `i` 要素に終了タグを付け、`like` ボタン要素に `<i class="fas fa-thumbs-up"></i>` を入れます。
 
 ```js
-assert(
-  code.match(/<\/i>|<\/span/g) &&
-    code.match(/<\/i|<\/span>/g).length > 2 &&
-    ($('.btn-primary > i').is('.fas.fa-thumbs-up') ||
-      $('.btn-primary > span').is('.fas.fa-thumbs-up'))
+assert.match(code,/<\/i>|<\/span/g);
+assert.lengthOf(code.match(/<\/i|<\/span>/g),4)
+assert.isTrue(
+    document.querySelector('.btn-primary > i')?.classList?.value === 'fas fa-thumbs-up' ||
+      document.querySelector('.btn-primary > span')?.classList?.value === 'fas fa-thumbs-up'
 );
 ```
 

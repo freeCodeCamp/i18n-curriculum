@@ -39,19 +39,19 @@ dashedName: create-movement-using-css-animation
 `@keyframes` 규칙의 `0%` 부분은 `left` 오프셋을 0px로 사용해야 합니다.
 
 ```js
-assert(code.match(/[^50]0%\s*?{[\s\S]*?left:\s*?0px(;[\s\S]*?|\s*?)}/gi));
+assert.match(code,/[^50]0%\s*?{[\s\S]*?left:\s*?0px(;[\s\S]*?|\s*?)}/gi);
 ```
 
 `@keyframes` 규칙의 `50%` 부분은 `left` 오프셋을 25px로 사용해야 합니다.
 
 ```js
-assert(code.match(/50%\s*?{[\s\S]*?left:\s*?25px(;[\s\S]*?|\s*?)}/gi));
+assert.match(code,/50%\s*?{[\s\S]*?left:\s*?25px(;[\s\S]*?|\s*?)}/gi);
 ```
 
 `@keyframes` 규칙의 `100%` 부분은 `left` 오프셋을 -25px로 사용해야 합니다.
 
 ```js
-assert(code.match(/100%\s*?{[\s\S]*?left:\s*?-25px(;[\s\S]*?|\s*?)}/gi));
+assert.match(code,/100%\s*?{[\s\S]*?left:\s*?-25px(;[\s\S]*?|\s*?)}/gi);
 ```
 
 # --seed--

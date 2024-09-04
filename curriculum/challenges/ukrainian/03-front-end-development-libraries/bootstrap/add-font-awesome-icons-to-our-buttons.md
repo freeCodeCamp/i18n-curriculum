@@ -39,33 +39,34 @@ Font Awesome можна використати у будь-якому засто
 Додайте елемент `i` з класами `fas` та `fa-thumbs-up`.
 
 ```js
-assert($('i').is('.fas.fa-thumbs-up') || $('span').is('.fas.fa-thumbs-up'));
+assert.isTrue(document.querySelector('i')?.classList?.value === 'fas fa-thumbs-up' || document.querySelector('span')?.classList?.value === 'fas fa-thumbs-up');
 ```
 
 Іконка `fa-thumbs-up` має знаходитись в межах кнопки вподобання.
 
 ```js
-assert(
-  ($('i.fa-thumbs-up').parent().text().match(/Like/gi) &&
-    $('.btn-primary > i').is('.fas.fa-thumbs-up')) ||
-    ($('span.fa-thumbs-up').parent().text().match(/Like/gi) &&
-      $('.btn-primary > span').is('.fas.fa-thumbs-up'))
-);
+const iconTextContent = document.querySelector('i.fa-thumbs-up')?.parentNode?.textContent;  
+const spanTextContent = document.querySelector('span.fa-thumbs-up')?.parentNode?.textContent;  
+assert.isTrue(
+  (iconTextContent?.match(/Like/gi) &&
+    document.querySelector('.btn-primary > i') === document.querySelector('.fas.fa-thumbs-up')) ||
+    (spanTextContent?.match(/Like/gi) &&
+      document.querySelector('.btn-primary > span') === document.querySelector('.fas.fa-thumbs-up')));
 ```
 
 Елемент `i` має бути вкладеним в межах елемента `button`.
 
 ```js
-assert(
-  $('button').children('i').length > 0 ||
-    $('button').children('span').length > 0
-);
+const button = document.querySelector('button'); 
+const i = button?.querySelectorAll("i");
+const span =  button?.querySelectorAll("span");
+assert(i.length > 0 ||span.length > 0);
 ```
 
 Елемент іконки повинен мати кінцевий тег.
 
 ```js
-assert(code.match(/<\/i>|<\/span>/g));
+assert.match(code, /(<\/i>|<\/span>)\s*Like\s*<\/button>/g);
 ```
 
 # --seed--

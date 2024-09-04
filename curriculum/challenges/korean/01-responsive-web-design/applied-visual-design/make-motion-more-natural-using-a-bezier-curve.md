@@ -30,10 +30,9 @@ Id가 `green`인 요소의 `animation-timing-function` 값을 x1, y1, x2, y2 값
 Id가 `green`인 요소의 `animation-timing-function` 속성 값은 지정한 x1, y1, x2, y2 값을 가진 `cubic-bezier` 함수여야 합니다.
 
 ```js
-assert(
-  $('#green').css('animation-timing-function') ==
-    'cubic-bezier(0.311, 0.441, 0.444, 1.649)'
-);
+const greenElement = document.querySelector('#green');
+ const greenStyle = window.getComputedStyle(greenElement);
+assert.equal(greenStyle?.animationTimingFunction, 'cubic-bezier(0.311, 0.441, 0.444, 1.649)');
 ```
 
 # --seed--

@@ -19,29 +19,30 @@ Ten en cuenta que estos botones todavía necesitan las clases `btn` y `btn-block
 Debes crear un nuevo elemento `button` con el texto `Info`.
 
 ```js
-assert(new RegExp('info', 'gi').test($('button').text()));
+const infoButton = document.querySelectorAll('button')?.[1]; 
+assert.match(infoButton.textContent,/info/gi);
 ```
 
 Tus dos botones de Bootstrap deben tener las clases `btn` y `btn-block`.
 
 ```js
-assert($('button.btn-block.btn').length > 1);
+assert.lengthOf(document.querySelectorAll('button.btn-block.btn'),2);
 ```
 
 Tu nuevo botón debe tener la clase `btn-info`.
 
 ```js
-assert($('button').hasClass('btn-info'));
+const infoButton = [...document.querySelectorAll('button')].at(1);
+assert.isTrue(infoButton?.classList?.contains('btn-info'));
 ```
 
 Todos los elementos `button` deben tener etiquetas de cierre.
 
 ```js
-assert(
-  code.match(/<\/button>/g) &&
-    code.match(/<button/g) &&
-    code.match(/<\/button>/g).length === code.match(/<button/g).length
-);
+assert.match(code,/<\/button>/g);
+assert.match(code,/<button/g);
+
+assert.equal(code.match(/<\/button>/g)?.length,code.match(/<button/g)?.length);
 ```
 
 # --seed--

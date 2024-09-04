@@ -17,37 +17,37 @@ dashedName: label-bootstrap-buttons
 `target1`이라는 id를 가진 `button` 요소는 `#target1`이라는 텍스트를 가져야 합니다.
 
 ```js
-assert(new RegExp('#target1', 'gi').test($('#target1').text()));
+assert.match(document.querySelector('#target1')?.textContent,/#target1/gi)
 ```
 
 `target2`이라는 id를 가진 `button` 요소는 `#target2`이라는 텍스트를 가져야 합니다.
 
 ```js
-assert(new RegExp('#target2', 'gi').test($('#target2').text()));
+assert.match(document.querySelector('#target2')?.textContent,/#target2/gi)
 ```
 
 `target3`이라는 id를 가진 `button` 요소는 `#target3`이라는 텍스트를 가져야 합니다.
 
 ```js
-assert(new RegExp('#target3', 'gi').test($('#target3').text()));
+assert.match(document.querySelector('#target3')?.textContent,/#target3/gi)
 ```
 
 `target4`이라는 id를 가진 `button` 요소는 `#target4`이라는 텍스트를 가져야 합니다.
 
 ```js
-assert(new RegExp('#target4', 'gi').test($('#target4').text()));
+assert.match(document.querySelector('#target4')?.textContent,/#target4/gi)
 ```
 
 `target5`이라는 id를 가진 `button` 요소는 `#target5`이라는 텍스트를 가져야 합니다.
 
 ```js
-assert(new RegExp('#target5', 'gi').test($('#target5').text()));
+assert.match(document.querySelector('#target5')?.textContent,/#target5/gi)
 ```
 
 `target6`이라는 id를 가진 `button` 요소는 `#target6`이라는 텍스트를 가져야 합니다.
 
 ```js
-assert(new RegExp('#target6', 'gi').test($('#target6').text()));
+assert.match(document.querySelector('#target6')?.textContent,/#target6/gi)
 ```
 
 # --seed--

@@ -22,19 +22,25 @@ Prenda o elemento `#searchbar` no canto superior direito do elemento `section` p
 O elemento `#searchbar` deve ter a proprieade `position` com o valor de `absolute`.
 
 ```js
-assert($('#searchbar').css('position') == 'absolute');
+const searchbarElement = document.querySelector('#searchbar');
+const searchbarStyle = window.getComputedStyle(searchbarElement);
+assert.equal(searchbarStyle?.position, 'absolute');
 ```
 
 Você deve usar a propriedade CSS `top` com o valor de 50 pixels no elemento `#searchbar`.
 
 ```js
-assert($('#searchbar').css('top') == '50px');
+const searchbarElement = document.querySelector('#searchbar');
+const searchbarStyle = window.getComputedStyle(searchbarElement);
+assert.equal(searchbarStyle?.top, '50px');
 ```
 
 Você deve usar a propriedade CSS `right` com o valor de 50 pixels no elemento `#searchbar`.
 
 ```js
-assert($('#searchbar').css('right') == '50px');
+const searchbarElement = document.querySelector('#searchbar');
+const searchbarStyle = window.getComputedStyle(searchbarElement);
+assert.equal(searchbarStyle?.right, '50px');
 ```
 
 # --seed--

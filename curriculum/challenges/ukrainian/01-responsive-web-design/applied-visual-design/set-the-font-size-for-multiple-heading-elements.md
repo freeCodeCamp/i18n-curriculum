@@ -28,42 +28,42 @@ dashedName: set-the-font-size-for-multiple-heading-elements
 
 ```js
  const fontSizeOfh1 = new __helpers.CSSHelp(document).getStyle('h1')?.getPropertyValue('font-size');
- assert(fontSizeOfh1 === '68px');
+ assert.equal(fontSizeOfh1 ,'68px');
 ```
 
 Ваш код має встановити властивість `font-size` для `h2` тегу до 52 пікселів.
 
 ```js
  const fontSizeOfh2 = new __helpers.CSSHelp(document).getStyle('h2')?.getPropertyValue('font-size');
- assert(fontSizeOfh2 === '52px');
+ assert.equal(fontSizeOfh2 ,'52px');
 ```
 
 Ваш код має встановити властивість `font-size` для `h3` тегу до 40 пікселів.
 
 ```js
  const fontSizeOfh3 = new __helpers.CSSHelp(document).getStyle('h3')?.getPropertyValue('font-size');
- assert(fontSizeOfh3 === '40px');
+ assert.equal(fontSizeOfh3 ,'40px');
 ```
 
 Ваш код має встановити властивість `font-size` для `h4` тегу до 32 пікселів.
 
 ```js
  const fontSizeOfh4 = new __helpers.CSSHelp(document).getStyle('h4')?.getPropertyValue('font-size');
- assert(fontSizeOfh4 === '32px');
+ assert.equal(fontSizeOfh4 , '32px');
 ```
 
 Ваш код має встановити властивість `font-size` для `h5` тегу до 21 пікселів.
 
 ```js
  const fontSizeOfh5 = new __helpers.CSSHelp(document).getStyle('h5')?.getPropertyValue('font-size');
- assert(fontSizeOfh5 === '21px');
+ assert.equal(fontSizeOfh5 ,'21px');
 ```
 
 Ваш код має встановити властивість `font-size` для `h6` тегу до 14 пікселів.
 
 ```js
  const fontSizeOfh6 = new __helpers.CSSHelp(document).getStyle('h6')?.getPropertyValue('font-size');
- assert(fontSizeOfh6 === '14px');
+ assert.equal(fontSizeOfh6 , '14px');
 ```
 
 # --seed--

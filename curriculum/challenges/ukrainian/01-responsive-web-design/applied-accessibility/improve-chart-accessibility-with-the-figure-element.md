@@ -34,39 +34,40 @@ HTML5 впровадив елемент `figure` і пов'язаний з ни�
 Ваш код повинен містити один теґ `figure`.
 
 ```js
-assert($('figure').length == 1);
+assert.lengthOf(document.querySelectorAll('figure') , 1);
 ```
 
 Ваш код повинен містити один теґ `figcaption`.
 
 ```js
-assert($('figcaption').length == 1);
+assert.lengthOf(document.querySelectorAll('figcaption') , 1);
 ```
 
 Ваш код не повинен містити жодних теґів `div`.
 
 ```js
-assert($('div').length == 0);
+assert.lengthOf(document.querySelectorAll('div'), 0);
 ```
 
 Ваш код не повинен містити жодних теґів `p`.
 
 ```js
-assert($('p').length == 0);
+assert.lengthOf(document.querySelectorAll('p') , 0);
 ```
 
 Теґ `figcaption` має бути дочірнім елементом теґу `figure`.
 
 ```js
-assert($('figure').children('figcaption').length == 1);
+const figure = document.querySelector('figure');
+const children = figure?.querySelectorAll(`:scope ${'figcaption'}`);
+assert.lengthOf(children, 1);
 ```
 
 Елемент `figure` повинен мати кінцевий тег.
 
 ```js
-assert(
-  code.match(/<\/figure>/g) &&
-    code.match(/<\/figure>/g).length === code.match(/<figure>/g).length
+assert.isTrue(
+    code.match(/<\/figure>/g)?.length === code.match(/<figure>/g)?.length
 );
 ```
 

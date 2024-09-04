@@ -19,29 +19,29 @@ Beachte, dass diese Buttons immer noch die Klassen `btn` und `btn-block` benöti
 Du solltest ein neues `button`-Element mit dem Text `Delete` erstellen.
 
 ```js
-assert(new RegExp('Delete', 'gi').test($('button').text()));
+const deleteButton = document.querySelectorAll('button')?.[2]; 
+assert.match(deleteButton?.textContent ,/delete/gi);
 ```
 
 All deine Bootstrap-Buttons sollten die Klassen `btn` und `btn-block` haben.
 
 ```js
-assert($('button.btn-block.btn').length > 2);
+assert.lengthOf(document.querySelectorAll('button.btn-block.btn'),3);
 ```
 
 Dein neuer Button sollte die Klasse `btn-danger` haben.
 
 ```js
-assert($('button').hasClass('btn-danger'));
+const deleteButton = document.querySelectorAll('button')?.[2]; 
+assert.isTrue(deleteButton?.classList?.contains('btn-danger'));
 ```
 
 All deine `button`-Elemente sollten abschließende Tags haben.
 
 ```js
-assert(
-  code.match(/<\/button>/g) &&
-    code.match(/<button/g) &&
-    code.match(/<\/button>/g).length === code.match(/<button/g).length
-);
+assert.match(code,/<\/button>/g);
+assert.match(code,/<button/g);
+assert.equal(code.match(/<\/button>/g).length,code.match(/<button/g).length);
 ```
 
 # --seed--

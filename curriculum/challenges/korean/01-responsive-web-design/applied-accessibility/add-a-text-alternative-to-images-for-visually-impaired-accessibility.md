@@ -28,7 +28,7 @@ dashedName: add-a-text-alternative-to-images-for-visually-impaired-accessibility
 `img` 태그에는 `alt` 속성이 있어야 하며, 빈 텍스트가 들어가면 안 됩니다.
 
 ```js
-assert($('img').attr('alt'));
+assert.isNotEmpty(document.querySelector('img')?.getAttribute('alt'));
 ```
 
 # --seed--

@@ -30,13 +30,13 @@ Camper Cat 已经大体写好了博客页面。 他打算在他的两篇文章�
 `img` 标签应具有 `alt` 属性。
 
 ```js
-assert(!($('img').attr('alt') == undefined));
+assert.isTrue(document.querySelector('img')?.hasAttribute('alt'));
 ```
 
 `alt` 的属性值应为空。
 
 ```js
-assert($('img').attr('alt') == '');
+assert.isEmpty(document.querySelector('img')?.getAttribute('alt'));
 ```
 
 # --seed--

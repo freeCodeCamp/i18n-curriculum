@@ -24,28 +24,27 @@ Camper Cat anaandika baadhi ya nakala nzuri kuhusu mafunzo ya ninja, na anataka 
 Code yako unapaswa kuwa na lebo moja ya `header`.
 
 ```js
-assert($('header').length == 1);
+assert.lengthOf(document.querySelectorAll('header'),1);
 ```
 
 Lebo zako za `header` zinapaswa kuzunguka `h1`.
 
 ```js
-assert($('header').children('h1').length == 1);
+const header = document.querySelector('header');
+const children = header?.querySelectorAll(`:scope ${'h1'}`);
+assert.lengthOf(children , 1);
 ```
 
 Code yako haipaswi kuwa na lebo zozote za `div`.
 
 ```js
-assert($('div').length == 0);
+assert.lengthOf(document.querySelectorAll('div') , 0);
 ```
 
 Kipengele chako cha `header` kinapaswa kuwa na lebo ya kufunga.
 
 ```js
-assert(
-  code.match(/<\/header>/g) &&
-    code.match(/<\/header>/g).length === code.match(/<header>/g).length
-);
+assert.isTrue(code.match(/<\/header>/g)?.length === code.match(/<header>/g)?.length);
 ```
 
 # --seed--

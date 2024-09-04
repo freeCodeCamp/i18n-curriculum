@@ -28,7 +28,7 @@ Camper Cat es tanto un ninja de la programación como un ninja de la vida real, 
 Tu etiqueta `img` debe tener un atributo `alt`, y el mismo no debería estar vacío.
 
 ```js
-assert($('img').attr('alt'));
+assert.isNotEmpty(document.querySelector('img')?.getAttribute('alt'));
 ```
 
 # --seed--

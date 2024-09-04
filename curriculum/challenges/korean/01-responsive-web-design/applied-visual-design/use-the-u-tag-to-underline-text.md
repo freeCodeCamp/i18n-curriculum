@@ -22,13 +22,13 @@ dashedName: use-the-u-tag-to-underline-text
 당신의 코드는 마크업에 `u` 태그를 추가해야 합니다.
 
 ```js
-assert($('u').length === 1);
+assert.lengthOf(document.querySelectorAll('u'), 1);
 ```
 
 `u` 태그는 `Ph.D. students`라는 텍스트를 감싸야 합니다.
 
 ```js
-assert($('u').text() === 'Ph.D. students');
+assert.equal(document.querySelector('u')?.textContent , 'Ph.D. students');
 ```
 
 # --seed--

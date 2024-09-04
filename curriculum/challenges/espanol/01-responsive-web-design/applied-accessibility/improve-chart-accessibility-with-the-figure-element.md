@@ -34,39 +34,40 @@ Camper Cat está trabajando para crear un gráfico de barras apiladas que muestr
 Tu código debe tener una etiqueta `figure`.
 
 ```js
-assert($('figure').length == 1);
+assert.lengthOf(document.querySelectorAll('figure') , 1);
 ```
 
 Tu código debe tener una etiqueta `figcaption`.
 
 ```js
-assert($('figcaption').length == 1);
+assert.lengthOf(document.querySelectorAll('figcaption') , 1);
 ```
 
 Tu código no debe tener ninguna etiqueta `div`.
 
 ```js
-assert($('div').length == 0);
+assert.lengthOf(document.querySelectorAll('div'), 0);
 ```
 
 Tu código no debe tener ninguna etiqueta `p`.
 
 ```js
-assert($('p').length == 0);
+assert.lengthOf(document.querySelectorAll('p') , 0);
 ```
 
 La etiqueta `figcaption` debe ser un hijo de la etiqueta `figure`.
 
 ```js
-assert($('figure').children('figcaption').length == 1);
+const figure = document.querySelector('figure');
+const children = figure?.querySelectorAll(`:scope ${'figcaption'}`);
+assert.lengthOf(children, 1);
 ```
 
 Tu elemento `figure` debe tener una etiqueta de cierre.
 
 ```js
-assert(
-  code.match(/<\/figure>/g) &&
-    code.match(/<\/figure>/g).length === code.match(/<figure>/g).length
+assert.isTrue(
+    code.match(/<\/figure>/g)?.length === code.match(/<figure>/g)?.length
 );
 ```
 

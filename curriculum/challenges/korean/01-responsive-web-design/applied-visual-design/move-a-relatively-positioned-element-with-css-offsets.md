@@ -20,13 +20,17 @@ CSS 오프셋을 사용하여 `h2`를 오른쪽으로 15픽셀, 위로 10픽셀 
 코드에서 CSS 오프셋을 사용하여 `h2`를 상대적으로 10px 위로 위치시켜야 합니다. 다시 말해, 원래 위치한 곳의 `bottom`에서 10px 떨어진 곳으로 이동시키세요.
 
 ```js
-assert($('h2').css('bottom') == '10px');
+const h2Element =document.querySelector('h2')
+const h2Style = window.getComputedStyle(h2Element);
+assert.equal(h2Style?.bottom, '10px');
 ```
 
 코드에서 CSS 오프셋을 사용하여 `h2`를 상대적으로 오른쪽으로 15px 떨어진 곳에 배치해야 합니다. 다시 말해, 원래 위치한 곳의 `left`에서 15px 만큼 이동시켜야 합니다.
 
 ```js
-assert($('h2').css('left') == '15px');
+const h2Element =document.querySelector('h2')
+const h2Style = window.getComputedStyle(h2Element);
+assert.equal(h2Style?.left , '15px');
 ```
 
 # --seed--

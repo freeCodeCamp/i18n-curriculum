@@ -36,25 +36,25 @@ Es ist auch zu beachten, dass manche Browser einen mitten in der Tab-Reihenfolge
 Dein Code sollte ein `tabindex`-Attribut zum `search` `input`-Tag hinzufügen.
 
 ```js
-assert($('#search').attr('tabindex'));
+assert.isNotNull(document.querySelector('#search')?.getAttribute('tabindex'));
 ```
 
 Dein Code sollte ein `tabindex`-Attribut zum `submit` `input`-Tag hinzufügen.
 
 ```js
-assert($('#submit').attr('tabindex'));
+assert.isNotNull(document.querySelector('#submit')?.getAttribute('tabindex'));
 ```
 
 Dein Code sollte das `tabindex`-Attribut auf dem `search` `input`-Tag auf einen Wert von 1 setzen.
 
 ```js
-assert($('#search').attr('tabindex') == '1');
+assert.equal(document.querySelector('#search')?.getAttribute('tabindex'), '1');
 ```
 
 Dein Code sollte das `tabindex`-Attribut auf dem `submit` `input`-Tag auf einen Wert von 2 setzen.
 
 ```js
-assert($('#submit').attr('tabindex') == '2');
+assert.equal(document.querySelector('#submit')?.getAttribute('tabindex'), '2');
 ```
 
 # --seed--

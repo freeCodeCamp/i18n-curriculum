@@ -22,10 +22,7 @@ id가 `ball`인 요소를 대상으로 하여 `opacity` 속성을 추가하고, 
 fade에 대한 `keyframes`규칙은 `opacity` 속성을 50%일 때 0.1로 설정해야 합니다.
 
 ```js
-assert(
-  code.match(
-    /@keyframes fade\s*?{\s*?50%\s*?{\s*?(?:left:\s*?60%;\s*?opacity:\s*?0?\.1;|opacity:\s*?0?\.1;\s*?left:\s*?60%;)/gi
-  )
+assert.match(code,/@keyframes fade\s*?{\s*?50%\s*?{\s*?(?:left:\s*?60%;\s*?opacity:\s*?0?\.1;|opacity:\s*?0?\.1;\s*?left:\s*?60%;)/gi
 );
 ```
 

@@ -32,13 +32,17 @@ Altere a propriedade `background-color` das classes `blue` (azul) e `yellow` (am
 O elemento `div` com a classe `blue` deve ter a propriedade `background-color` com o valor blue (azul).
 
 ```js
-assert($('.blue').css('background-color') == 'rgb(0, 0, 255)');
+const blueElement = document.querySelector('.blue');
+const blueStyle = window.getComputedStyle(blueElement); 
+assert.equal(blueStyle?.backgroundColor, 'rgb(0, 0, 255)');
 ```
 
 O elemento `div` com a classe `yellow` deve ter a propriedade `background-color` com o valor amarelo (yellow).
 
 ```js
-assert($('.yellow').css('background-color') == 'rgb(255, 255, 0)');
+const yellowElement = document.querySelector('.yellow');
+const yellowStyle = window.getComputedStyle(yellowElement);
+assert.equal(yellowStyle?.backgroundColor, 'rgb(255, 255, 0)');
 ```
 
 # --seed--

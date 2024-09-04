@@ -17,7 +17,7 @@ dashedName: create-a-class-to-target-with-jquery-selectors
 各 `button` 要素に `target` クラスを適用します。
 
 ```js
-assert($('.target').length > 5);
+assert.lengthOf(document.querySelectorAll('.target'),6);
 ```
 
 # --seed--

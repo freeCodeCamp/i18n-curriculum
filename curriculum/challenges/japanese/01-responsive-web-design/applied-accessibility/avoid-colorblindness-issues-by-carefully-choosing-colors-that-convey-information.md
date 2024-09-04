@@ -26,7 +26,9 @@ Camper Cat は重要なボタンにおける異なるスタイルをテストし
 `button` のテキストの `color` をダークブルーに変更してください。
 
 ```js
-assert($('button').css('color') == 'rgb(0, 51, 102)');
+const button = document.querySelector('button');
+const buttonColor = window.getComputedStyle(button).color; 
+assert.equal(buttonColor, 'rgb(0, 51, 102)');
 ```
 
 # --seed--

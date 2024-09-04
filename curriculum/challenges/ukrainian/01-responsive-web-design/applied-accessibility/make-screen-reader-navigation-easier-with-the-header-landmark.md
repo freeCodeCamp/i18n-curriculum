@@ -24,28 +24,27 @@ Camper Cat пише декілька захоплюючих статей про 
 Ваш код повинен містити один тег `header`.
 
 ```js
-assert($('header').length == 1);
+assert.lengthOf(document.querySelectorAll('header'),1);
 ```
 
 Ваш `header`повинен охоплювати `h1`.
 
 ```js
-assert($('header').children('h1').length == 1);
+const header = document.querySelector('header');
+const children = header?.querySelectorAll(`:scope ${'h1'}`);
+assert.lengthOf(children , 1);
 ```
 
 Ваш код не повинен містити жодних тегів `div`.
 
 ```js
-assert($('div').length == 0);
+assert.lengthOf(document.querySelectorAll('div') , 0);
 ```
 
 Елемент `header` повинен мати кінцевий тег.
 
 ```js
-assert(
-  code.match(/<\/header>/g) &&
-    code.match(/<\/header>/g).length === code.match(/<header>/g).length
-);
+assert.isTrue(code.match(/<\/header>/g)?.length === code.match(/<header>/g)?.length);
 ```
 
 # --seed--

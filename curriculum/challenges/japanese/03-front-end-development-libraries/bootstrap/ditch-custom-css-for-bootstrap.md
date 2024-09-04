@@ -23,35 +23,33 @@ dashedName: ditch-custom-css-for-bootstrap
 `h2` 要素にはクラス `red-text` はもう必要ありません。
 
 ```js
-assert(!$('h2').hasClass('red-text'));
+assert.isFalse(document.querySelector('h2')?.classList?.contains('red-text'));
 ```
 
 `h2` 要素には新しくクラス `text-primary` を持たせます。
 
 ```js
-assert($('h2').hasClass('text-primary'));
+assert.isTrue(document.querySelector('h2')?.classList?.contains('text-primary'));
 ```
 
 段落ではフォント `Monospace` を使用する必要はもうありません。
 
 ```js
-assert(
-  !$('p')
-    .css('font-family')
-    .match(/monospace/i)
-);
+const paragraphElement = document.querySelector('p');
+const paragraphFontFamily = window.getComputedStyle(paragraphElement)["font-family"]; 
+assert.notMatch(paragraphFontFamily,/monospace/i);
 ```
 
 `smaller-image` クラスを一番上の画像から削除します。
 
 ```js
-assert(!$('img').hasClass('smaller-image'));
+assert.isFalse(document.querySelector('img')?.classList?.contains('smaller-image'));
 ```
 
 `img-responsive` クラスを一番上の画像に追加します。
 
 ```js
-assert($('.img-responsive').length > 1);
+assert.lengthOf(document.querySelectorAll('.img-responsive'),2);
 ```
 
 # --seed--

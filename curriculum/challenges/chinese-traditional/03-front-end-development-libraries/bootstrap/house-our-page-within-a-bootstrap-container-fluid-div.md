@@ -17,23 +17,24 @@ dashedName: house-our-page-within-a-bootstrap-container-fluid-div
 `div` 元素 class 屬性應該爲 `container-fluid`。
 
 ```js
-assert($('div').hasClass('container-fluid'));
+assert.isTrue(document.querySelector('div')?.classList?.contains('container-fluid'));
 ```
 
 確保每一個 `div` 元素都有一個閉合標籤。
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/g);
+assert.match(code,/<div/g);
+
+assert.equal(code.match(/<\/div>/g).length ,code.match(/<div/g).length);
 ```
 
 `h3` 元素應該內嵌於 `div` 元素。
 
 ```js
-assert($('div').children('h3').length > 0);
+const divElement = document.querySelector('div');
+const divChildren = divElement?.querySelectorAll(`:scope ${'h3'}`)
+assert.lengthOf(divChildren,1);
 ```
 
 # --seed--

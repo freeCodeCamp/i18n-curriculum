@@ -37,23 +37,22 @@ dashedName: create-a-block-element-bootstrap-button
 버튼에는 여전히 `btn` 클래스와 `btn-default` 클래스가 있어야 합니다.
 
 ```js
-assert($('button').hasClass('btn') && $('button').hasClass('btn-default'));
+assert.isTrue(document.querySelector('button')?.classList?.contains('btn'));
+assert.isTrue(document.querySelector('button')?.classList?.contains('btn-default'));
 ```
 
 버튼에는 `btn-block` 클래스가 있어야 합니다.
 
 ```js
-assert($('button').hasClass('btn-block'));
+assert.isTrue(document.querySelector('button')?.classList?.contains('btn-block'));
 ```
 
 모든 `button` 요소들에는 닫는 태그가 있어야 합니다.
 
 ```js
-assert(
-  code.match(/<\/button>/g) &&
-    code.match(/<button/g) &&
-    code.match(/<\/button>/g).length === code.match(/<button/g).length
-);
+assert.match(code,/<\/button>/g);
+assert.match(code,/<button/g);
+assert.equal(code.match(/<\/button>/g).length, code.match(/<button/g).length);
 ```
 
 # --seed--

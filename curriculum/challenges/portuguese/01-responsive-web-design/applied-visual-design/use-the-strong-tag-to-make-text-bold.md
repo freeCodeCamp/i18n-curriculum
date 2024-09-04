@@ -20,23 +20,21 @@ Envolva uma tag `strong` ao redor do texto `Stanford University` dentro da tag `
 O seu código deve adicionar uma tag `strong` ao html.
 
 ```js
-assert($('strong').length == 1);
+assert.lengthOf(document.querySelectorAll('strong'),1);
 ```
 
 A tag `strong` deve estar dentro da tag `p`.
 
 ```js
-assert($('p').children('strong').length == 1);
+const pargraphElement = document.querySelector('p');
+const pargraphChildren = pargraphElement?.querySelectorAll(`:scope ${'strong'}`);
+assert.lengthOf(pargraphChildren, 1);
 ```
 
 A tag `strong` deve envolver as palavras `Stanford University`.
 
 ```js
-assert(
-  $('strong')
-    .text()
-    .match(/^Stanford University\.?$/gi)
-);
+assert.match(document.querySelector('strong')?.textContent, /^Stanford University\.?$/gi);
 ```
 
 # --seed--

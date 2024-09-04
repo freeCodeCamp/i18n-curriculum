@@ -19,23 +19,22 @@ dashedName: taste-the-bootstrap-button-color-rainbow
 按鈕的 class 屬性應該包含 `btn-primary`。
 
 ```js
-assert($('button').hasClass('btn-primary'));
+assert.isTrue(document.querySelector('button')?.classList?.contains('btn-primary'));
 ```
 
 按鈕的 class 屬性應該包含 `btn` 和 `btn-block`。
 
 ```js
-assert($('button').hasClass('btn-block') && $('button').hasClass('btn'));
+assert.isTrue(document.querySelector('button')?.classList?.contains('btn-block'));
+assert.isTrue(document.querySelector('button')?.classList?.contains('btn'));
 ```
 
 確保所有 `button` 元素都有一個閉合標籤。
 
 ```js
-assert(
-  code.match(/<\/button>/g) &&
-    code.match(/<button/g) &&
-    code.match(/<\/button>/g).length === code.match(/<button/g).length
-);
+assert.match(code,/<\/button>/g);
+assert.match(code,/<button/g);
+assert.equal(code.match(/<\/button>/g).length , code.match(/<button/g).length);
 ```
 
 # --seed--

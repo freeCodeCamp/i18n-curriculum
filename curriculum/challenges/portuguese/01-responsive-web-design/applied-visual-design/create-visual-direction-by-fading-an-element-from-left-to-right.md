@@ -22,10 +22,7 @@ Selecione o elemento com o id de `ball` e adicione a propriedade `opacity` com o
 A regra `keyframes` para esmaecimento deve definir a propriedade `opacity` para 0.1 em 50%.
 
 ```js
-assert(
-  code.match(
-    /@keyframes fade\s*?{\s*?50%\s*?{\s*?(?:left:\s*?60%;\s*?opacity:\s*?0?\.1;|opacity:\s*?0?\.1;\s*?left:\s*?60%;)/gi
-  )
+assert.match(code,/@keyframes fade\s*?{\s*?50%\s*?{\s*?(?:left:\s*?60%;\s*?opacity:\s*?0?\.1;|opacity:\s*?0?\.1;\s*?left:\s*?60%;)/gi
 );
 ```
 

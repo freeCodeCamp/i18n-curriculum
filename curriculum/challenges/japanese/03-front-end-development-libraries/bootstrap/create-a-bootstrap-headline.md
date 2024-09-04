@@ -21,35 +21,33 @@ jQuery プレイグラウンドを作成します。このプレイグラウン�
 `h3` 要素をページに追加します。
 
 ```js
-assert($('h3') && $('h3').length > 0);
+assert.lengthOf(document.querySelectorAll('h3'),1);
 ```
 
 `h3` 要素には終了タグが必要です。
 
 ```js
-assert(
-  code.match(/<\/h3>/g) &&
-    code.match(/<h3/g) &&
-    code.match(/<\/h3>/g).length === code.match(/<h3/g).length
-);
+assert.match(code,/<\/h3>/g);
+assert.match(code,/<h3/g);
+assert.equal( code.match(/<\/h3>/g).length , code.match(/<h3/g).length);
 ```
 
 `h3` 要素にクラス  `text-primary` を適用して色を付けます。
 
 ```js
-assert($('h3').hasClass('text-primary'));
+assert.isTrue(document.querySelector('h3')?.classList?.contains('text-primary'));
 ```
 
 `h3` 要素に `text-center` を適用して中央寄せにします。
 
 ```js
-assert($('h3').hasClass('text-center'));
+assert.isTrue(document.querySelector('h3')?.classList?.contains('text-center'));
 ```
 
 `h3` 要素のテキストを `jQuery Playground` にします。
 
 ```js
-assert.isTrue(/jquery(\s)+playground/gi.test($('h3').text()));
+assert.match(document.querySelector('h3')?.textContent, /jquery(\s)+playground/gi);
 ```
 
 # --seed--

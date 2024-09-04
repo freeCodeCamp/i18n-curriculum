@@ -22,26 +22,19 @@ Camper Cat이 사용하고 있는 링크 텍스트는 문맥의 이해없이는 
 `information about batteries`를 감싸도록 `Click here`로부터 `a` 태그를 옮겨야 합니다.
 
 ```js
-assert(
-  $('a')
-    .text()
-    .match(/^(information about batteries)$/g)
-);
+assert.match(document.querySelector('a')?.textContent, /^(information about batteries)$/g);
 ```
 
 `a` 요소는 빈 문자열인 `""` 값을 가진 `href` 속성을 지니고 있어야 합니다.
 
 ```js
-assert($('a').attr('href') === '');
+assert.isEmpty(document.querySelector('a')?.getAttribute('href'));
 ```
 
 `a` 요소는 닫는 태그가 있어야 합니다.
 
 ```js
-assert(
-  code.match(/<\/a>/g) &&
-    code.match(/<\/a>/g).length === code.match(/<a href=(''|"")>/g).length
-);
+assert.isTrue(code.match(/<\/a>/g)?.length === code.match(/<a href=(''|"")>/g)?.length);
 ```
 
 # --seed--

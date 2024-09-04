@@ -22,28 +22,27 @@ Camper Cat включив навігаційні посилання у верх�
 Ваш код має містити один теґ `nav`.
 
 ```js
-assert($('nav').length == 1);
+assert.lengthOf(document.querySelectorAll('nav') , 1);
 ```
 
 Ваші теґи `nav` мають обгортати `ul` і елементи його списку.
 
 ```js
-assert($('nav').children('ul').length == 1);
+const nav = document.querySelector('nav');
+const children = nav?.querySelectorAll(`:scope ${'ul'}`);
+assert.lengthOf(children,1);
 ```
 
 Ваш код не має містити жодних теґів `div`.
 
 ```js
-assert($('div').length == 0);
+assert.lengthOf(document.querySelectorAll('div') , 0);
 ```
 
 Елемент `nav` повинен мати кінцевий тег.
 
 ```js
-assert(
-  code.match(/<\/nav>/g) &&
-    code.match(/<\/nav>/g).length === code.match(/<nav>/g).length
-);
+assert.isTrue(code.match(/<\/nav>/g)?.length === code.match(/<nav>/g)?.length);
 ```
 
 # --seed--

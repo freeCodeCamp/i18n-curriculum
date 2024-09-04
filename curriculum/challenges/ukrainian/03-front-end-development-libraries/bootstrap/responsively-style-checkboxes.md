@@ -24,23 +24,23 @@ dashedName: responsively-style-checkboxes
 Усі прапорці мають бути вкладеними в одному елементі `div` з класом `row`.
 
 ```js
-assert($('div.row:has(input[type="checkbox"])').length > 0);
+const checkboxes = document.querySelectorAll(`div.row input[type="checkbox"]`); 
+assert.lengthOf(checkboxes,3);
 ```
 
 Кожен прапорець має бути вкладеним у власному елементі `div` з класом `col-xs-4`.
 
 ```js
-assert($('div.col-xs-4:has(input[type="checkbox"])').length > 2);
+const checkboxes = document.querySelectorAll(`div.col-xs-4 input[type="checkbox"]`); 
+assert.lengthOf(checkboxes,3);
 ```
 
 Усі елементи `div` повинні мати кінцеві теги.
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/g);
+assert.match(code,/<div/g);
+assert.equal(code.match(/<\/div>/g).length ,code.match(/<div/g).length);
 ```
 
 # --seed--

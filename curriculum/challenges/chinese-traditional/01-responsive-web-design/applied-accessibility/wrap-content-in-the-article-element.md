@@ -28,13 +28,13 @@ Camper Cat 打算使用 `article` 標籤來呈現他的博客頁面裏的帖子�
 應有三個 `article` 標籤。
 
 ```js
-assert($('article').length == 3);
+assert.lengthOf(document.querySelectorAll('article') ,3);
 ```
 
 不應有 `div` 標籤。
 
 ```js
-assert($('div').length == 0);
+assert.lengthOf(document.querySelectorAll('div'), 0);
 ```
 
 # --seed--

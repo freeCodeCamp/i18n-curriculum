@@ -30,37 +30,43 @@ dashedName: adjust-the-hue-of-a-color
 你的代码应该使用 `hsl()` 函数来声明绿色。
 
 ```js
-assert(code.match(/\.green\s*?{\s*?background-color\s*:\s*?hsl/gi));
+assert.match(code,/\.green\s*?{\s*?background-color\s*:\s*?hsl/gi);
 ```
 
 你的代码应该使用 `hsl()` 函数来声明蓝绿色。
 
 ```js
-assert(code.match(/\.cyan\s*?{\s*?background-color\s*:\s*?hsl/gi));
+assert.match(code,/\.cyan\s*?{\s*?background-color\s*:\s*?hsl/gi);
 ```
 
 你的代码应该使用 `hsl()` 函数来声明蓝色。
 
 ```js
-assert(code.match(/\.blue\s*?{\s*?background-color\s*:\s*?hsl/gi));
+assert.match(code,/\.blue\s*?{\s*?background-color\s*:\s*?hsl/gi);
 ```
 
 class 为 `green` 的 `div` 元素的 `background-color` 属性值应为绿色。
 
 ```js
-assert($('.green').css('background-color') == 'rgb(0, 255, 0)');
+const greenElement = document.querySelector(".green");
+const greenStyle = window.getComputedStyle(greenElement); 
+assert.equal(greenStyle?.backgroundColor, 'rgb(0, 255, 0)');
 ```
 
 class 为 `cyan` 的 `div` 元素的 `background-color` 属性值应为蓝绿色。
 
 ```js
-assert($('.cyan').css('background-color') == 'rgb(0, 255, 255)');
+const cyanElement = document.querySelector(".cyan");
+const cyanStyle = window.getComputedStyle(cyanElement); 
+assert.equal(cyanStyle?.backgroundColor, 'rgb(0, 255, 255)');
 ```
 
 class 为 `blue` 的 `div` 元素的 `background-color` 属性值应为蓝色。
 
 ```js
-assert($('.blue').css('background-color') == 'rgb(0, 0, 255)');
+const blueElement = document.querySelector(".blue");
+const blueStyle = window.getComputedStyle(blueElement); 
+assert.equal(blueStyle?.backgroundColor, 'rgb(0, 0, 255)');
 ```
 
 # --seed--

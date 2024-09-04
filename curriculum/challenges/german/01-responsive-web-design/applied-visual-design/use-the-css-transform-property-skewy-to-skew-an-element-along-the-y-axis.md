@@ -20,7 +20,7 @@ Verzerre das Element mit der Id `top` um -10 Grad entlang der y-Achse mithilfe d
 Das Element mit der Id `top` sollte um -10 Grad entlang seiner y-Achse verzerrt werden.
 
 ```js
-assert(code.match(/#top\s*?{\s*?.*?\s*?transform:\s*?skewY\(-10deg\);/g));
+assert.match(code, /#top\s*?{\s*?.*?\s*?transform:\s*?skewY\(-10deg\);/g);
 ```
 
 # --seed--

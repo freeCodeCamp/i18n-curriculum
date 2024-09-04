@@ -17,23 +17,22 @@ Nidifica un elemento `div` con la classe `well` dentro a ognuno dei tuoi element
 Dovresti aggiungere un elemento `div` di classe `well` all'interno di ciascuno dei tuoi elementi `div` di classe `col-xs-6`
 
 ```js
-assert($('div.col-xs-6').not(':has(>div.well)').length < 1);
+const wells = document.querySelectorAll('div.col-xs-6 > div.well');
+assert.lengthOf( wells,2 ); 
 ```
 
 Entrambi i tuoi elementi `div` di classe `col-xs-6` dovrebbero essere annidati nel tuo elemento `div` di classe `row`.
 
 ```js
-assert($('div.row > div.col-xs-6').length > 1);
+assert.lengthOf(document.querySelectorAll('div.row > div.col-xs-6'),2);
 ```
 
 Tutti i tuoi elementi `div` dovrebbero avere un tag di chiusura.
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/g);
+assert.match(code,/<div/g);
+assert.equal(code.match(/<\/div>/g)?.length , code.match(/<div/g)?.length);
 ```
 
 # --seed--

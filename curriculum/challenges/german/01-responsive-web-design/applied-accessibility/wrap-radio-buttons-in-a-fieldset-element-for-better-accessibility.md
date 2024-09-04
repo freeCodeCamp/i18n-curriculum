@@ -40,34 +40,31 @@ Camper Cat möchte Informationen über den Ninja-Level seiner Benutzer erhalten,
 Dein Code sollte ein `fieldset`-Tag um das Radio-Button-Set haben.
 
 ```js
-assert($('fieldset').length == 1);
+assert.lengthOf(document.querySelectorAll('fieldset'),1);
 ```
 
 Das `fieldset`-Element sollte ein schließendes Tag haben.
 
 ```js
-assert(
-  code.match(/<\/fieldset>/g) &&
-    code.match(/<\/fieldset>/g).length === code.match(/<fieldset>/g).length
-);
+assert.isTrue(code.match(/<\/fieldset>/g)?.length === code.match(/<fieldset>/g)?.length);
 ```
 
 Dein Code sollte ein `legend`-Tag um den Text enthalten, das fragt, welche Ninja-Stufe ein Benutzer hat.
 
 ```js
-assert($('legend').length == 1);
+assert.lengthOf(document.querySelectorAll('legend') ,1);
 ```
 
 Dein Code sollte keine `div`-Tags enthalten.
 
 ```js
-assert($('div').length == 0);
+assert.lengthOf(document.querySelectorAll('div') ,0);
 ```
 
 Dein Code sollte nicht mehr länger ein `p`-Tag um den Text haben, das fragt, welche Ninja-Stufe ein Benutzer hat.
 
 ```js
-assert($('p').length == 4);
+assert.lengthOf(document.querySelectorAll('p') ,4);
 ```
 
 # --seed--

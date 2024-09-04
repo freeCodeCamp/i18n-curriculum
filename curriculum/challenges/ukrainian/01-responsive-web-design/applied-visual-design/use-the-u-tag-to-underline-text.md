@@ -22,13 +22,13 @@ dashedName: use-the-u-tag-to-underline-text
 Ваш код має додати тег `u` у текст розмітки.
 
 ```js
-assert($('u').length === 1);
+assert.lengthOf(document.querySelectorAll('u'), 1);
 ```
 
 Тег `u` має містити лише текст `Ph.D. students`.
 
 ```js
-assert($('u').text() === 'Ph.D. students');
+assert.equal(document.querySelector('u')?.textContent , 'Ph.D. students');
 ```
 
 # --seed--

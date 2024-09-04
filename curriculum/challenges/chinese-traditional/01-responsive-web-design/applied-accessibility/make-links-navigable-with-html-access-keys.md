@@ -28,25 +28,25 @@ Camper Cat 希望爲他兩篇博客的標題鏈接設置快捷鍵，以使用戶
 `id` 爲 `first` 的 `a` 標籤應具有 `accesskey` 屬性。
 
 ```js
-assert($('#first').attr('accesskey'));
+assert.isTrue(document.querySelector('#first')?.hasAttribute('accesskey'));
 ```
 
 `id` 爲 `second` 的 `a` 標籤應具有 `accesskey` 屬性。
 
 ```js
-assert($('#second').attr('accesskey'));
+assert.isTrue(document.querySelector('#second')?.hasAttribute('accesskey'));
 ```
 
 `id` 爲 `first` 的 `a` 標籤的 `accesskey` 屬性值應爲 `g`。 注意要使用小寫。
 
 ```js
-assert($('#first').attr('accesskey') == 'g');
+assert.equal(document.querySelector('#first')?.getAttribute('accesskey'), 'g');
 ```
 
 `id` 爲 `second` 的 `a` 標籤的 `accesskey` 屬性值應爲 `c`。 注意使用小寫。
 
 ```js
-assert($('#second').attr('accesskey') == 'c');
+assert.equal(document.querySelector('#second')?.getAttribute('accesskey'), 'c');
 ```
 
 # --seed--

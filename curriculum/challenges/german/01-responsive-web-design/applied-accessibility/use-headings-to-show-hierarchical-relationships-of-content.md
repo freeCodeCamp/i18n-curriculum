@@ -30,25 +30,25 @@ Camper Cat möchte eine Seite auf seiner Website, auf der es darum geht, wie man
 Dein Code sollte 6 `h3`-Tags enthalten.
 
 ```js
-assert($('h3').length === 6);
+assert.lengthOf(document.querySelectorAll('h3') , 6);
 ```
 
 Dein Code sollte 6 schließende `h3`-Tags haben.
 
 ```js
-assert((code.match(/\/h3/g) || []).length === 6);
+assert.lengthOf((code.match(/\/h3/g) || []) ,6);
 ```
 
 Dein Code sollte keine `h5`-Tags enthalten.
 
 ```js
-assert($('h5').length === 0);
+assert.isEmpty(document.querySelectorAll('h5'));
 ```
 
 Dein Code sollte keine schließenden `h5`-Tags beinhalten.
 
 ```js
-assert(/\/h5/.test(code) === false);
+assert.notMatch(code, /\/h5/);
 ```
 
 # --seed--

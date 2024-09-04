@@ -24,13 +24,15 @@ Transforma el texto de `h4` en mayúsculas usando la propiedad `text-transform`.
 El texto `h4` debe ser `uppercase`.
 
 ```js
-assert($('h4').css('text-transform') === 'uppercase');
+const h4Element =document.querySelector('h4')
+const h4Style = window.getComputedStyle(h4Element);
+assert.equal(h4Style?.textTransform, 'uppercase');
 ```
 
 El texto original del h4 no debe cambiarse.
 
 ```js
-assert($('h4').text() !== $('h4').text().toUpperCase());
+assert.notEqual(document.querySelector('h4')?.textContent, document.querySelector('h4')?.textContent?.toUpperCase());
 ```
 
 # --seed--

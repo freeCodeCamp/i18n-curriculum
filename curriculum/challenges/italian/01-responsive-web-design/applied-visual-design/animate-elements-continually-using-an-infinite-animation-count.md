@@ -26,7 +26,9 @@ Per continuare a far rimbalzare la palla a destra in un ciclo continuo, porta la
 La proprietà `animation-iteration-count` dovrebbe avere un valore di `infinite`.
 
 ```js
-assert($('#ball').css('animation-iteration-count') == 'infinite');
+const ballElement = document.querySelector('#ball');
+const ballStyle = window.getComputedStyle(ballElement); 
+assert.equal(ballStyle?.animationIterationCount, 'infinite');
 ```
 
 # --seed--

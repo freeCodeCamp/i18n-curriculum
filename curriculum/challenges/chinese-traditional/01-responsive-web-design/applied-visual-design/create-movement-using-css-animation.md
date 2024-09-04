@@ -39,19 +39,19 @@ dashedName: create-movement-using-css-animation
 `0%` 的 `@keyframes` 規則應爲向 `left` 偏移 0px。
 
 ```js
-assert(code.match(/[^50]0%\s*?{[\s\S]*?left:\s*?0px(;[\s\S]*?|\s*?)}/gi));
+assert.match(code,/[^50]0%\s*?{[\s\S]*?left:\s*?0px(;[\s\S]*?|\s*?)}/gi);
 ```
 
 `50%` 的 `@keyframes` 規則應爲向 `left` 偏移 25px。
 
 ```js
-assert(code.match(/50%\s*?{[\s\S]*?left:\s*?25px(;[\s\S]*?|\s*?)}/gi));
+assert.match(code,/50%\s*?{[\s\S]*?left:\s*?25px(;[\s\S]*?|\s*?)}/gi);
 ```
 
 `100%` 的 `@keyframes` 規則應爲向 `left` 偏移 -25px。
 
 ```js
-assert(code.match(/100%\s*?{[\s\S]*?left:\s*?-25px(;[\s\S]*?|\s*?)}/gi));
+assert.match(code,/100%\s*?{[\s\S]*?left:\s*?-25px(;[\s\S]*?|\s*?)}/gi);
 ```
 
 # --seed--

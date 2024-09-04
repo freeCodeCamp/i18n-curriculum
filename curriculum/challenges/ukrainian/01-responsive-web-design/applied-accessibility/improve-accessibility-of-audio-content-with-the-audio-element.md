@@ -35,49 +35,49 @@ dashedName: improve-accessibility-of-audio-content-with-the-audio-element
 Ваш код повинен містити один теґ `audio`.
 
 ```js
-assert($('audio').length === 1);
+assert.lengthOf(document.querySelectorAll('audio'),1);
 ```
 
 Елемент `audio` повинен мати кінцевий тег.
 
 ```js
-assert(
-  code.match(/<\/audio>/g).length === 1 &&
-    code.match(/<audio.*>[\s\S]*<\/audio>/g)
-);
+assert.match(code,/<audio.*>[\s\S]*<\/audio>/g);
+assert.lengthOf(code.match(/<\/audio>/g),1);
 ```
 
 Теґ `audio` повинен містити атрибут `controls`.
 
 ```js
-assert($('audio').attr('controls'));
+assert.exists(document.querySelector('audio')?.getAttribute('controls'));
 ```
 
 Ваш код повинен містити один теґ `source`.
 
 ```js
-assert($('source').length === 1);
+assert.lengthOf(document.querySelectorAll('source'), 1);
 ```
 
 Теґ `source` повинен знаходитися всередині теґів `audio`.
 
 ```js
-assert($('audio').children('source').length === 1);
+const audio = document.querySelector('audio');
+const children = audio.querySelectorAll(`:scope ${'source'}`);
+assert.lengthOf(children,1);
 ```
 
 Значення атрибута `src` на тезі `source` має повністю збігатися з посиланням в поясненнях.
 
 ```js
-assert(
-  $('source').attr('src') ===
-    'https://cdn.freecodecamp.org/curriculum/applied-accessibility/screen-reader.mp3'
+assert.equal(
+  document.querySelector('source')?.getAttribute('src'),
+  'https://cdn.freecodecamp.org/curriculum/applied-accessibility/screen-reader.mp3'
 );
 ```
 
 Ваш код повинен містити атрибут `type` на тезі `source` зі значенням audio/mpeg.
 
 ```js
-assert($('source').attr('type') === 'audio/mpeg');
+assert.equal(document.querySelector('source')?.getAttribute('type'), 'audio/mpeg');
 ```
 
 # --seed--

@@ -30,25 +30,25 @@ Camper Cat 希望他的網站有一個介紹如何成爲忍者的頁面。 幫�
 你的代碼應該有 6 個 `h3` 元素。
 
 ```js
-assert($('h3').length === 6);
+assert.lengthOf(document.querySelectorAll('h3') , 6);
 ```
 
 確保 `h3` 有結束標籤
 
 ```js
-assert((code.match(/\/h3/g) || []).length === 6);
+assert.lengthOf((code.match(/\/h3/g) || []) ,6);
 ```
 
 你的代碼不應包含任何 `h5` 元素。
 
 ```js
-assert($('h5').length === 0);
+assert.isEmpty(document.querySelectorAll('h5'));
 ```
 
 不應該存在 `h5` 的結束標籤。
 
 ```js
-assert(/\/h5/.test(code) === false);
+assert.notMatch(code, /\/h5/);
 ```
 
 # --seed--

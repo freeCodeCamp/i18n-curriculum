@@ -19,29 +19,29 @@ Nota che questi pulsanti hanno ancora bisogno delle classi `btn` e `btn-block`.
 Dovresti creare un nuovo elemento `button` con il testo `Delete`.
 
 ```js
-assert(new RegExp('Delete', 'gi').test($('button').text()));
+const deleteButton = document.querySelectorAll('button')?.[2]; 
+assert.match(deleteButton?.textContent ,/delete/gi);
 ```
 
 Tutti i bottoni di Bootstrap dovrebbero avere le classi `btn` e `btn-block`.
 
 ```js
-assert($('button.btn-block.btn').length > 2);
+assert.lengthOf(document.querySelectorAll('button.btn-block.btn'),3);
 ```
 
 Il tuo nuovo bottone dovrebbe avere la classe `btn-danger`.
 
 ```js
-assert($('button').hasClass('btn-danger'));
+const deleteButton = document.querySelectorAll('button')?.[2]; 
+assert.isTrue(deleteButton?.classList?.contains('btn-danger'));
 ```
 
 Tutti i tuoi elementi `button` dovrebbero avere dei tag di chiusura.
 
 ```js
-assert(
-  code.match(/<\/button>/g) &&
-    code.match(/<button/g) &&
-    code.match(/<\/button>/g).length === code.match(/<button/g).length
-);
+assert.match(code,/<\/button>/g);
+assert.match(code,/<button/g);
+assert.equal(code.match(/<\/button>/g).length,code.match(/<button/g).length);
 ```
 
 # --seed--

@@ -24,28 +24,27 @@ Camper Cat está escribiendo algunos grandes artículos sobre el entrenamiento n
 Tu código debe tener una etiqueta `header`.
 
 ```js
-assert($('header').length == 1);
+assert.lengthOf(document.querySelectorAll('header'),1);
 ```
 
 Tus etiquetas `header` deben envolver `h1`.
 
 ```js
-assert($('header').children('h1').length == 1);
+const header = document.querySelector('header');
+const children = header?.querySelectorAll(`:scope ${'h1'}`);
+assert.lengthOf(children , 1);
 ```
 
 Tu código no debe tener ninguna etiqueta `div`.
 
 ```js
-assert($('div').length == 0);
+assert.lengthOf(document.querySelectorAll('div') , 0);
 ```
 
 Tu elemento `header` debe tener una etiqueta de cierre.
 
 ```js
-assert(
-  code.match(/<\/header>/g) &&
-    code.match(/<\/header>/g).length === code.match(/<header>/g).length
-);
+assert.isTrue(code.match(/<\/header>/g)?.length === code.match(/<header>/g)?.length);
 ```
 
 # --seed--

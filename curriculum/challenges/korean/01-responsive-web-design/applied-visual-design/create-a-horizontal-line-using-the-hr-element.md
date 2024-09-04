@@ -22,13 +22,13 @@ dashedName: create-a-horizontal-line-using-the-hr-element
 코드에서 마크업에 `hr` 태그를 추가해야 합니다.
 
 ```js
-assert($('hr').length == 1);
+assert.lengthOf(document.querySelectorAll('hr'),1);
 ```
 
 `hr` 태그는 제목과 단락 사이에 와야 합니다.
 
 ```js
-assert(code.match(/<\/h4>\s*?<hr(>|\s*?\/>)\s*?<p>/gi));
+assert.match(code,/<\/h4>\s*?<hr(>|\s*?\/>)\s*?<p>/gi);
 ```
 
 # --seed--

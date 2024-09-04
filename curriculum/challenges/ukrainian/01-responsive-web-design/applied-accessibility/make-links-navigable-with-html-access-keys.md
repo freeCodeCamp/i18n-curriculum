@@ -28,25 +28,25 @@ Camper Cat хоче додати клавіші доступу до посила
 Ваш код має додати атрибут `accesskey` до теґа `a` зі значенням `id` встановленим на `first`.
 
 ```js
-assert($('#first').attr('accesskey'));
+assert.isTrue(document.querySelector('#first')?.hasAttribute('accesskey'));
 ```
 
 Ваш код має додати атрибут `accesskey` до теґа `a` зі значенням `id`, встановленим на `second`.
 
 ```js
-assert($('#second').attr('accesskey'));
+assert.isTrue(document.querySelector('#second')?.hasAttribute('accesskey'));
 ```
 
 Ваш код має налаштувати атрибут `accesskey` на тезі `a` зі значенням `id`, встановленим на `first`, на `g`. Зауважте, що написання з великої чи маленької літери має значення.
 
 ```js
-assert($('#first').attr('accesskey') == 'g');
+assert.equal(document.querySelector('#first')?.getAttribute('accesskey'), 'g');
 ```
 
 Ваш код має налаштувати атрибут `accesskey` на тезі `a` зі значенням `id`, встановленим на `second`, на `c`. Зауважте, що написання з великої чи маленької літери має значення.
 
 ```js
-assert($('#second').attr('accesskey') == 'c');
+assert.equal(document.querySelector('#second')?.getAttribute('accesskey'), 'c');
 ```
 
 # --seed--

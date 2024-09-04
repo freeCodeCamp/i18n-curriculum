@@ -22,13 +22,17 @@ La elección del Gato Campero de texto gris claro sobre un fondo blanco para su 
 Tu código debe cambiar el texto `color` para el `body` al gris más oscuro.
 
 ```js
-assert($('body').css('color') == 'rgb(99, 99, 99)');
+const body = document.querySelector('body');
+const bodyColor = window.getComputedStyle(body).color; 
+assert(bodyColor == 'rgb(99, 99, 99)');
 ```
 
 Tu código no debe cambiar el `background-color` para el `body`.
 
 ```js
-assert($('body').css('background-color') == 'rgb(255, 255, 255)');
+const body = document.querySelector('body');
+const backgroundColor = window.getComputedStyle(body).backgroundColor; 
+assert.equal(backgroundColor , 'rgb(255, 255, 255)');
 ```
 
 # --seed--

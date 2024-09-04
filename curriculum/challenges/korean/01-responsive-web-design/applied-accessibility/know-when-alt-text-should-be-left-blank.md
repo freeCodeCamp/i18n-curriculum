@@ -30,13 +30,13 @@ Camper Cat은 자신 웹사이트의 블로그 부분을 위한 뼈대 페이지
 `img` 태그는 `alt` 속성이 있어야 합니다.
 
 ```js
-assert(!($('img').attr('alt') == undefined));
+assert.isTrue(document.querySelector('img')?.hasAttribute('alt'));
 ```
 
 `alt` 속성은 빈 문자열로 설정되어야 합니다.
 
 ```js
-assert($('img').attr('alt') == '');
+assert.isEmpty(document.querySelector('img')?.getAttribute('alt'));
 ```
 
 # --seed--

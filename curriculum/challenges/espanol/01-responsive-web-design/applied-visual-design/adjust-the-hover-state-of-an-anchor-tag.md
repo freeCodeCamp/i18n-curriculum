@@ -28,17 +28,17 @@ El editor de código tiene una regla CSS para dar estilo a todas las etiquetas `
 La etiqueta anchor `color` debe permanecer en negro, solo añade reglas CSS para el estado `:hover`.
 
 ```js
-assert($('a').css('color') == 'rgb(0, 0, 0)');
+const anchorElement = document.querySelector("a"); 
+const anchorStyle = window.getComputedStyle(anchorElement);
+assert.equal(anchorStyle?.color, 'rgb(0, 0, 0)');
 ```
 
 La etiqueta "anchor" debe tener un `color` al pasar el ratón.
 
 ```js
-assert(
-  code.match(
+assert.match(code,
     /a:hover\s*?{\s*?color:\s*?(blue|rgba\(\s*?0\s*?,\s*?0\s*?,\s*?255\s*?,\s*?1\s*?\)|#00F|rgb\(\s*?0\s*?,\s*?0\s*?,\s*?255\s*?\))\s*?;\s*?}/gi
-  )
-);
+  );
 ```
 
 # --seed--

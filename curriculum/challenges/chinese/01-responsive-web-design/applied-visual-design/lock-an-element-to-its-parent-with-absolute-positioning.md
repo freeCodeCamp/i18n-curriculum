@@ -22,19 +22,25 @@ dashedName: lock-an-element-to-its-parent-with-absolute-positioning
 `#searchbar` 元素的 `position` 属性值应为 `absolute`。
 
 ```js
-assert($('#searchbar').css('position') == 'absolute');
+const searchbarElement = document.querySelector('#searchbar');
+const searchbarStyle = window.getComputedStyle(searchbarElement);
+assert.equal(searchbarStyle?.position, 'absolute');
 ```
 
 `#searchbar` 元素的 `top` 属性值应为 50px。
 
 ```js
-assert($('#searchbar').css('top') == '50px');
+const searchbarElement = document.querySelector('#searchbar');
+const searchbarStyle = window.getComputedStyle(searchbarElement);
+assert.equal(searchbarStyle?.top, '50px');
 ```
 
 `#searchbar` 元素的 `right` 属性值应为 50px。
 
 ```js
-assert($('#searchbar').css('right') == '50px');
+const searchbarElement = document.querySelector('#searchbar');
+const searchbarStyle = window.getComputedStyle(searchbarElement);
+assert.equal(searchbarStyle?.right, '50px');
 ```
 
 # --seed--

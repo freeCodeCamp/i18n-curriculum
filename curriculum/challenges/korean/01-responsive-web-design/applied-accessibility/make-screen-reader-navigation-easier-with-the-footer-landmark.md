@@ -20,19 +20,19 @@ dashedName: make-screen-reader-navigation-easier-with-the-footer-landmark
 코드에는 `footer` 태그가 하나만 있어야 합니다.
 
 ```js
-assert($('footer').length == 1);
+assert.lengthOf(document.querySelectorAll('footer') ,1);
 ```
 
 코드에는 `div` 태그가 하나도 없어야 합니다.
 
 ```js
-assert($('div').length == 0);
+assert.lengthOf(document.querySelectorAll('div'), 0);
 ```
 
 코드에는 여는 `footer` 태그와 닫는 `footer` 태그가 하나씩 있어야 합니다.
 
 ```js
-assert(code.match(/<footer>\s*&copy; 2018 Camper Cat\s*<\/footer>/g));
+assert.match(code,/<footer>\s*&copy; 2018 Camper Cat\s*<\/footer>/g);
 ```
 
 # --seed--

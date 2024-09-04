@@ -20,19 +20,19 @@ Camper Cat のトレーニングページ作成は順調に進んでいます。
 コードには `footer` タグが 1 つ必要です。
 
 ```js
-assert($('footer').length == 1);
+assert.lengthOf(document.querySelectorAll('footer') ,1);
 ```
 
 コードに `div` タグを含めないでください。
 
 ```js
-assert($('div').length == 0);
+assert.lengthOf(document.querySelectorAll('div'), 0);
 ```
 
 コードには `footer` の開始タグと終了タグが必要です。
 
 ```js
-assert(code.match(/<footer>\s*&copy; 2018 Camper Cat\s*<\/footer>/g));
+assert.match(code,/<footer>\s*&copy; 2018 Camper Cat\s*<\/footer>/g);
 ```
 
 # --seed--

@@ -22,26 +22,19 @@ O texto do link que o Camper Cat está usando não é muito descritivo sem um co
 O seu código deve mover a tag `a` das palavras `Click here` para que envolva as palavras `information about batteries`.
 
 ```js
-assert(
-  $('a')
-    .text()
-    .match(/^(information about batteries)$/g)
-);
+assert.match(document.querySelector('a')?.textContent, /^(information about batteries)$/g);
 ```
 
 O elemento `a` deve ter o atributo `href` com o valor de uma string vazia `""`.
 
 ```js
-assert($('a').attr('href') === '');
+assert.isEmpty(document.querySelector('a')?.getAttribute('href'));
 ```
 
 O elemento `a` deve ter uma tag de fechamento.
 
 ```js
-assert(
-  code.match(/<\/a>/g) &&
-    code.match(/<\/a>/g).length === code.match(/<a href=(''|"")>/g).length
-);
+assert.isTrue(code.match(/<\/a>/g)?.length === code.match(/<a href=(''|"")>/g)?.length);
 ```
 
 # --seed--

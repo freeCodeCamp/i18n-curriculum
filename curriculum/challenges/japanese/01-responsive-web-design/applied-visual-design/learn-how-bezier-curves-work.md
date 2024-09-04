@@ -30,8 +30,10 @@ id が `ball1` の要素について、`animation-timing-function` プロパテ�
 id `ball1` を持つ要素の `animation-timing-function` プロパティの値は、線形 (linear) と等価の `cubic-bezier` 関数でなければなりません。
 
 ```js
-assert(
-  $('#ball1').css('animation-timing-function') ==
+const ballOne = document.querySelector('#ball1');
+const ballOneStyle = window.getComputedStyle(ballOne); 
+assert.equal(
+  ballOneStyle?.animationTimingFunction,
     'cubic-bezier(0.25, 0.25, 0.75, 0.75)'
 );
 ```
@@ -39,10 +41,10 @@ assert(
 id `ball2` を持つ要素の `animation-timing-function` プロパティの値は変更しないでください。
 
 ```js
-const ball2Animation = __helpers.removeWhiteSpace(
-  $('#ball2').css('animation-timing-function')
-);
-assert(
+const ballTwoElement = document.querySelector('#ball2');
+const ballTwoStyle = window.getComputedStyle(ballTwoElement); 
+const ball2Animation = __helpers.removeWhiteSpace(ballTwoStyle?.animationTimingFunction);
+assert.isTrue(
   ball2Animation == 'ease-out' || ball2Animation == 'cubic-bezier(0,0,0.58,1)'
 );
 ```

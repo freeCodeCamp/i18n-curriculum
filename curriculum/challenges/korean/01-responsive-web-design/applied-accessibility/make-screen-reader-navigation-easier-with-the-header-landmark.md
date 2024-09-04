@@ -24,28 +24,27 @@ dashedName: make-screen-reader-navigation-easier-with-the-header-landmark
 코드에는 `header` 태그가 하나만 있어야 합니다.
 
 ```js
-assert($('header').length == 1);
+assert.lengthOf(document.querySelectorAll('header'),1);
 ```
 
 `header` 태그는 `h1`을 감싸야 합니다.
 
 ```js
-assert($('header').children('h1').length == 1);
+const header = document.querySelector('header');
+const children = header?.querySelectorAll(`:scope ${'h1'}`);
+assert.lengthOf(children , 1);
 ```
 
 `div` 태그는 하나도 없어야 합니다.
 
 ```js
-assert($('div').length == 0);
+assert.lengthOf(document.querySelectorAll('div') , 0);
 ```
 
 `header` 요소는 닫는 태그가 있어야 합니다.
 
 ```js
-assert(
-  code.match(/<\/header>/g) &&
-    code.match(/<\/header>/g).length === code.match(/<header>/g).length
-);
+assert.isTrue(code.match(/<\/header>/g)?.length === code.match(/<header>/g)?.length);
 ```
 
 # --seed--

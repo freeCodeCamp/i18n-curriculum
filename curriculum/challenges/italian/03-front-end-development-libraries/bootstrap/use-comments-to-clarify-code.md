@@ -21,25 +21,25 @@ Aggiungi un commento nella parte superiore del tuo HTML che dica `Code below thi
 Dovresti iniziare un commento con `<!--` nella parte superiore del tuo HTML.
 
 ```js
-assert(code.match(/^\s*<!--/));
+assert.match(code,(/^\s*<!--/));
 ```
 
 Il tuo commento dovrebbe avere il testo `Code below this line should not be changed`.
 
 ```js
-assert(code.match(/<!--(?!(>|->|.*-->.*this line))\s*.*this line.*\s*-->/gi));
+assert.match(code,(/<!--(?!(>|->|.*-->.*this line))\s*.*this line.*\s*-->/gi));
 ```
 
 Dovresti chiudere il tuo commento con `-->`.
 
 ```js
-assert(code.match(/-->.*\n+.+/g));
+assert.match(code,(/-->.*\n+.+/g));
 ```
 
 Dovresti avere lo stesso numero di aperture e chiusure di commenti.
 
 ```js
-assert(code.match(/<!--/g).length === code.match(/-->/g).length);
+assert.equal(code.match(/<!--/g).length,code.match(/-->/g).length);
 ```
 
 # --seed--

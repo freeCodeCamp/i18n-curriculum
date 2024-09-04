@@ -44,13 +44,13 @@ dashedName: use-css-animation-to-change-the-hover-state-of-a-button
 @keyframes 规则的 `animation-name` 应该是 background-color。
 
 ```js
-assert(code.match(/@keyframes\s+?background-color\s*?{/g));
+assert.match(code, /@keyframes\s+?background-color\s*?{/g);
 ```
 
 在 `@keyframes` 为 100% 的位置，应将 `background-color` 改成 `#4791d0`。
 
 ```js
-assert(code.match(/100%\s*?{\s*?background-color:\s*?#4791d0;\s*?}/gi));
+assert.match(code, /100%\s*?{\s*?background-color:\s*?#4791d0;\s*?}/gi);
 ```
 
 # --seed--

@@ -23,35 +23,33 @@ Entferne schließlich die `smaller-image`-Klasse von deinem ersten `img` Element
 Dein `h2`-Element sollte nicht mehr die Klasse `red-text` haben.
 
 ```js
-assert(!$('h2').hasClass('red-text'));
+assert.isFalse(document.querySelector('h2')?.classList?.contains('red-text'));
 ```
 
 Dein `h2`-Element sollte jetzt die Klasse `text-primary` haben.
 
 ```js
-assert($('h2').hasClass('text-primary'));
+assert.isTrue(document.querySelector('h2')?.classList?.contains('text-primary'));
 ```
 
 Deine Absatzelemente sollten nicht mehr die Schriftart `Monospace` verwenden.
 
 ```js
-assert(
-  !$('p')
-    .css('font-family')
-    .match(/monospace/i)
-);
+const paragraphElement = document.querySelector('p');
+const paragraphFontFamily = window.getComputedStyle(paragraphElement)["font-family"]; 
+assert.notMatch(paragraphFontFamily,/monospace/i);
 ```
 
 Die `smaller-image`-Klasse sollte aus dem oberen Bild entfernt werden.
 
 ```js
-assert(!$('img').hasClass('smaller-image'));
+assert.isFalse(document.querySelector('img')?.classList?.contains('smaller-image'));
 ```
 
 Du solltest die `img-responsive`-Klasse zu deinem oberen Bild hinzufügen.
 
 ```js
-assert($('.img-responsive').length > 1);
+assert.lengthOf(document.querySelectorAll('.img-responsive'),2);
 ```
 
 # --seed--

@@ -19,31 +19,34 @@ dashedName: label-bootstrap-wells
 各 `<div class="col-xs-6">` 要素に `h4` 要素を追加します。
 
 ```js
-assert(
-  $('.col-xs-6').children('h4') && $('.col-xs-6').children('h4').length > 1
-);
+const columnSixes = document.querySelectorAll('.col-xs-6');
+const columnSixOneChildren = columnSixes?.[0]?.querySelectorAll(`:scope ${'h4'}`);
+assert.lengthOf(columnSixOneChildren,1); 
+
+const columnSixTwoChildren = columnSixes?.[1]?.querySelectorAll(`:scope ${'h4'}`);
+assert.lengthOf(columnSixTwoChildren,1); 
 ```
 
 一方の `h4` 要素にテキスト `#left-well` を付けます。
 
 ```js
-assert(new RegExp('#left-well', 'gi').test($('h4').text()));
+const firstH4 = document.querySelectorAll('h4')?.[0]; 
+assert.match(firstH4?.textContent,/#left-well/gi); 
 ```
 
 もう一方の `h4` 要素にテキスト `#right-well` を付けます。
 
 ```js
-assert(new RegExp('#right-well', 'gi').test($('h4').text()));
+const secondH4 = document.querySelectorAll('h4')?.[1]; 
+assert.match(secondH4?.textContent,/#right-well/gi); 
 ```
 
 `h4` 要素にはすべて終了タグが必要です。
 
 ```js
-assert(
-  code.match(/<\/h4>/g) &&
-    code.match(/<h4/g) &&
-    code.match(/<\/h4>/g).length === code.match(/<h4/g).length
-);
+assert.match(code,/<\/h4>/g);
+assert.match(code,/<h4/g);
+assert.equal(code.match(/<\/h4>/g).length , code.match(/<h4/g).length);
 ```
 
 # --seed--

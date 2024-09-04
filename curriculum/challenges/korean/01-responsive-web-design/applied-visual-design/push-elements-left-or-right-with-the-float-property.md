@@ -20,13 +20,17 @@ dashedName: push-elements-left-or-right-with-the-float-property
 아이디(id)가 `left`인 요소의 `float`값은 `left`여야 합니다.
 
 ```js
-assert($('#left').css('float') == 'left');
+const leftElement = document.querySelector('#left');
+const leftStyle = window.getComputedStyle(leftElement);
+assert.equal(leftStyle?.float, 'left');
 ```
 
 아이디(id)가 `right`인 요소의 `float`값은 `right`여야 합니다.
 
 ```js
-assert($('#right').css('float') == 'right');
+const rightElement = document.querySelector('#right');
+const rightStyle = window.getComputedStyle(rightElement);
+assert.equal(rightStyle?.float, 'right');
 ```
 
 # --seed--

@@ -32,37 +32,37 @@ Crea le strisce cambiando il `repeating-linear-gradient()` per usare un angolo d
 L'angolo del `repeating-linear-gradient()` dovrebbe essere di 45 gradi.
 
 ```js
-assert(code.match(/background:\s*?repeating-linear-gradient\(\s*?45deg/gi));
+assert.match(code,/background:\s*?repeating-linear-gradient\(\s*?45deg/gi);
 ```
 
 L'angolo del `repeating-linear-gradient()` dovrebbe essere di 90 gradi
 
 ```js
-assert(!code.match(/90deg/gi));
+assert.notMatch(code, /90deg/gi);
 ```
 
 La fermata del colore a 0 pixel dovrebbe essere `yellow`.
 
 ```js
-assert(code.match(/yellow\s+?0(px)?/gi));
+assert.match(code, /yellow\s+?0(px)?/gi);
 ```
 
 Il primo stop di colore a 40 pixel dovrebbe essere `yellow`.
 
 ```js
-assert(code.match(/yellow\s+?40px/gi));
+assert.match(code, /yellow\s+?40px/gi);
 ```
 
 Il secondo color stop a 40 pixel dovrebbe essere `black`.
 
 ```js
-assert(code.match(/yellow\s+?40px,\s*?black\s+?40px/gi));
+assert.match(code, /yellow\s+?40px,\s*?black\s+?40px/gi);
 ```
 
 L'ultimo color stop a 80 pixel dovrebbe essere `black`.
 
 ```js
-assert(code.match(/black\s+?80px/gi));
+assert.match(code, /black\s+?80px/gi);
 ```
 
 # --seed--

@@ -36,25 +36,25 @@ Otra cosa a tener en cuenta es que algunos navegadores pueden colocarlo en el ce
 Tu código debe agregar un atributo `tabindex` a la etiqueta `search` `input`.
 
 ```js
-assert($('#search').attr('tabindex'));
+assert.isNotNull(document.querySelector('#search')?.getAttribute('tabindex'));
 ```
 
 Tu código debe agregar un atributo `tabindex` a la etiqueta `submit` `input`.
 
 ```js
-assert($('#submit').attr('tabindex'));
+assert.isNotNull(document.querySelector('#submit')?.getAttribute('tabindex'));
 ```
 
 Tu código debe establecer el atributo `tabindex` en la etiqueta `search` `input` a un valor de 1.
 
 ```js
-assert($('#search').attr('tabindex') == '1');
+assert.equal(document.querySelector('#search')?.getAttribute('tabindex'), '1');
 ```
 
 Tu código debe establecer el atributo `tabindex` en la etiqueta `submit` `input` a un valor de 2.
 
 ```js
-assert($('#submit').attr('tabindex') == '2');
+assert.equal(document.querySelector('#submit')?.getAttribute('tabindex'), '2');
 ```
 
 # --seed--

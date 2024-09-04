@@ -24,11 +24,10 @@ Imposta l'`opacity` dei tag di ancoraggio a 0.7 utilizzando la classe `links` pe
 Il tuo codice dovrebbe impostare la proprietà `opacity` a 0.7 sui tag di ancoraggio selezionando la classe `links`.
 
 ```js
-assert(
-  /\.links\s*{([\s\S]*?;)*\s*opacity\s*:\s*0*\.70*\s*(;[\s\S]*?|\s*)}/.test(
-    $('style').text()
-  )
-);
+assert.match(
+  document.querySelector('style')?.textContent,
+  /\.links\s*{([\s\S]*?;)*\s*opacity\s*:\s*0*\.70*\s*(;[\s\S]*?|\s*)}/
+  );
 ```
 
 # --seed--

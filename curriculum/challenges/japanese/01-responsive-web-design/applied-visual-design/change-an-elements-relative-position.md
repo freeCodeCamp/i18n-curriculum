@@ -33,13 +33,17 @@ p {
 `h2` 要素の `position` プロパティを `relative` に設定してください。
 
 ```js
-assert($('h2').css('position') == 'relative');
+const h2Element =document.querySelector('h2')
+const h2Style = window.getComputedStyle(h2Element);
+assert.equal(h2Style?.position, 'relative');
 ```
 
 CSS オフセットを使用して、`h2` を通常の位置の `top` から相対的に 15px 離して配置する必要があります。
 
 ```js
-assert($('h2').css('top') == '15px');
+const h2Element =document.querySelector('h2')
+const h2Style = window.getComputedStyle(h2Element);
+assert.equal(h2Style?.top, '15px');
 ```
 
 # --seed--

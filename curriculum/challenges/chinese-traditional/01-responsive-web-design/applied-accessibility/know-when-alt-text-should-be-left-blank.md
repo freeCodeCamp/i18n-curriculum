@@ -30,13 +30,13 @@ Camper Cat 已經大體寫好了博客頁面。 他打算在他的兩篇文章�
 `img` 標籤應具有 `alt` 屬性。
 
 ```js
-assert(!($('img').attr('alt') == undefined));
+assert.isTrue(document.querySelector('img')?.hasAttribute('alt'));
 ```
 
 `alt` 的屬性值應爲空。
 
 ```js
-assert($('img').attr('alt') == '');
+assert.isEmpty(document.querySelector('img')?.getAttribute('alt'));
 ```
 
 # --seed--

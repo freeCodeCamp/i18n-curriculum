@@ -40,7 +40,7 @@ box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 여러분의 코드는 `thumbnail`이라는 id에 `box-shadow` 속성을 추가해야 합니다.
 
 ```js
-assert(code.match(/#thumbnail\s*?{\s*?box-shadow/g));
+assert.match(code,(/#thumbnail\s*?{\s*?box-shadow/g));
 ```
 
 주어진 CSS를 이용해 `box-shadow` 값을 사용해야 합니다.

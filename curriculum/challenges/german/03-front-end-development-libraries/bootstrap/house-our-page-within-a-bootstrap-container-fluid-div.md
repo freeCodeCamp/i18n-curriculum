@@ -17,23 +17,24 @@ Lass uns dein `h3` Element innerhalb eines `div` Elements mit der Klasse `contai
 Dein `div` Element sollte die Klasse `container-fluid` haben.
 
 ```js
-assert($('div').hasClass('container-fluid'));
+assert.isTrue(document.querySelector('div')?.classList?.contains('container-fluid'));
 ```
 
 Jedes deiner `div` Elemente sollte geschlossene Tags haben.
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/g);
+assert.match(code,/<div/g);
+
+assert.equal(code.match(/<\/div>/g).length ,code.match(/<div/g).length);
 ```
 
 Dein `h3` Element sollte in einem `div` Element eingebettet sein.
 
 ```js
-assert($('div').children('h3').length > 0);
+const divElement = document.querySelector('div');
+const divChildren = divElement?.querySelectorAll(`:scope ${'h3'}`)
+assert.lengthOf(divChildren,1);
 ```
 
 # --seed--

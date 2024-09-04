@@ -28,13 +28,13 @@ Camper Cat 新建了一个用来收集他的用户信息的调查。 他知道�
 表单中，作为指示文字（Instructions）的 `p` 标签应具有 `tabindex` 属性。
 
 ```js
-assert($('p').attr('tabindex'));
+assert.isNotNull(document.querySelector('p')?.getAttribute('tabindex'));
 ```
 
 `p` 标签的 `tabindex` 属性值应设置为 0。
 
 ```js
-assert($('p').attr('tabindex') == '0');
+assert.equal(document.querySelector('p')?.getAttribute('tabindex'), '0');
 ```
 
 # --seed--

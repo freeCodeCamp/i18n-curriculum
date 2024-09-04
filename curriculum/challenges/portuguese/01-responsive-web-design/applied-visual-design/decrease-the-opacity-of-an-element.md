@@ -24,11 +24,10 @@ Usando a classe `links`, defina a propriedade `opacity` com o valor de 0.7.
 A propriedade `opacity` deve ter o valor de 0.7 na classe `links`.
 
 ```js
-assert(
-  /\.links\s*{([\s\S]*?;)*\s*opacity\s*:\s*0*\.70*\s*(;[\s\S]*?|\s*)}/.test(
-    $('style').text()
-  )
-);
+assert.match(
+  document.querySelector('style')?.textContent,
+  /\.links\s*{([\s\S]*?;)*\s*opacity\s*:\s*0*\.70*\s*(;[\s\S]*?|\s*)}/
+  );
 ```
 
 # --seed--

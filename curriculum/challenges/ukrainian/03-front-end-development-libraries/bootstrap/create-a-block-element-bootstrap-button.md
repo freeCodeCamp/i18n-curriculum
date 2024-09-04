@@ -37,23 +37,22 @@ dashedName: create-a-block-element-bootstrap-button
 Кнопка досі повинна мати класи `btn` та `btn-default`.
 
 ```js
-assert($('button').hasClass('btn') && $('button').hasClass('btn-default'));
+assert.isTrue(document.querySelector('button')?.classList?.contains('btn'));
+assert.isTrue(document.querySelector('button')?.classList?.contains('btn-default'));
 ```
 
 Кнопка повинна мати клас `btn-block`.
 
 ```js
-assert($('button').hasClass('btn-block'));
+assert.isTrue(document.querySelector('button')?.classList?.contains('btn-block'));
 ```
 
 Усі елементи `button` повинні мати кінцеві теги.
 
 ```js
-assert(
-  code.match(/<\/button>/g) &&
-    code.match(/<button/g) &&
-    code.match(/<\/button>/g).length === code.match(/<button/g).length
-);
+assert.match(code,/<\/button>/g);
+assert.match(code,/<button/g);
+assert.equal(code.match(/<\/button>/g).length, code.match(/<button/g).length);
 ```
 
 # --seed--

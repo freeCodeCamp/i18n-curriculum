@@ -21,25 +21,25 @@ jQuery를 사용하기 시작하면 실제 HTML 안의 요소들을 변경할 �
 HTML 상단에 `<!--`가 함께 주석을 시작해야 합니다.
 
 ```js
-assert(code.match(/^\s*<!--/));
+assert.match(code,(/^\s*<!--/));
 ```
 
 주석은 `Code below this line should not be changed`이라는 글을 가져야 합니다.
 
 ```js
-assert(code.match(/<!--(?!(>|->|.*-->.*this line))\s*.*this line.*\s*-->/gi));
+assert.match(code,(/<!--(?!(>|->|.*-->.*this line))\s*.*this line.*\s*-->/gi));
 ```
 
 `-->`과 함께 주석을 닫아야 합니다.
 
 ```js
-assert(code.match(/-->.*\n+.+/g));
+assert.match(code,(/-->.*\n+.+/g));
 ```
 
 주석을 여는 것과 닫는 것의 수가 같아야 합니다.
 
 ```js
-assert(code.match(/<!--/g).length === code.match(/-->/g).length);
+assert.equal(code.match(/<!--/g).length,code.match(/-->/g).length);
 ```
 
 # --seed--

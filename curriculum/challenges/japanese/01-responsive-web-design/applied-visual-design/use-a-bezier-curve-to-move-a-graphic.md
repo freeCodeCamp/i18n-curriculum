@@ -28,24 +28,30 @@ animation-timing-function: cubic-bezier(0, 0, 0.58, 1);
 id `red` の要素の `animation-timing-function` プロパティは x1, y1, x2, y2 の値がそれぞれ 0, 0, 0.58, 1 に設定された `cubic-bezier` 関数でなければなりません。
 
 ```js
-assert(
-  $('#red').css('animation-timing-function') == 'cubic-bezier(0, 0, 0.58, 1)'
+const redElement = document.querySelector('#red');
+const redStyle = window.getComputedStyle(redElement);
+assert.equal(
+  redStyle?.animationTimingFunction, 'cubic-bezier(0, 0, 0.58, 1)'
 );
 ```
 
 id `red` の要素は `animation-timing-function` のプロパティとして `linear` を持たないようにします。
 
 ```js
-assert($('#red').css('animation-timing-function') !== 'linear');
+const redElement = document.querySelector('#red');
+const redStyle = window.getComputedStyle(redElement);
+assert.notEqual(redStyle?.animationTimingFunction, 'linear');
 ```
 
 id `blue` の要素の `animation-timing-function` プロパティの値は変更しないでください。
 
 ```js
+const blueElement = document.querySelector('#blue');
+const blueStyle = window.getComputedStyle( blueElement);
 const blueBallAnimation = __helpers.removeWhiteSpace(
-  $('#blue').css('animation-timing-function')
+  blueStyle?.animationTimingFunction
 );
-assert(
+assert.isTrue(
   blueBallAnimation == 'ease-out' ||
     blueBallAnimation == 'cubic-bezier(0,0,0.58,1)'
 );

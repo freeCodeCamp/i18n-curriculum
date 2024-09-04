@@ -26,21 +26,19 @@ dashedName: create-a-graphic-using-css
 `background-color</b> 속성값은 <code>transparent`이어야 합니다.
 
 ```js
-assert(code.match(/background-color:\s*?transparent;/gi));
+assert.match(code,/background-color:\s*?transparent;/gi);
 ```
 
 `border-radius` 속성값은 `50%`이어야 합니다.
 
 ```js
-assert(code.match(/border-radius:\s*?50%;/gi));
+assert.match(code,/border-radius:\s*?50%;/gi);
 ```
 
 `box-shadow`속성값으로 `offset-x`는 25px, `offset-y`는10px, `blut-radius`는 0, `spread-radius`는 0, `color`는 `blue`로 설정해야 합니다.
 
 ```js
-assert(
-  code.match(/box-shadow:\s*?25px\s+?10px\s+?0(px)?\s+?0(px)?\s+?blue\s*?;/gi)
-);
+assert.match(code,/box-shadow:\s*?25px\s+?10px\s+?0(px)?\s+?0(px)?\s+?blue\s*?;/gi);
 ```
 
 # --seed--

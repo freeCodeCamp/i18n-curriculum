@@ -17,26 +17,27 @@ dashedName: add-elements-within-your-bootstrap-wells
 クラス `well` を持つ各 `div` 要素の中に 3 つの `button` 要素を入れます。
 
 ```js
-assert(
-  $('div.well:eq(0)').children('button').length === 3 &&
-    $('div.well:eq(1)').children('button').length === 3
-);
+const buttonOne = document.querySelectorAll('div.well')?.[0];
+const buttonOneChildren = buttonOne?.querySelectorAll(`:scope ${'button'}`);
+assert.lengthOf(buttonOneChildren,3);
+
+const buttonTwo = document.querySelectorAll('div.well')?.[1]
+const buttonTwoChildren = buttonTwo?.querySelectorAll(`:scope ${'button'}`);
+assert.lengthOf(buttonTwoChildren,3);
 ```
 
 全部で 6 つの `button` 要素を作成します。
 
 ```js
-assert($('button') && $('button').length > 5);
+assert.lengthOf(document.querySelectorAll('button'), 6);
 ```
 
 `button` 要素にはすべて終了タグが必要です。
 
 ```js
-assert(
-  code.match(/<\/button>/g) &&
-    code.match(/<button/g) &&
-    code.match(/<\/button>/g).length === code.match(/<button/g).length
-);
+assert.match(code,/<\/button>/g);
+assert.match(code,/<button/g);
+assert.equal(code.match(/<\/button>/g).length,code.match(/<button/g).length);
 ```
 
 # --seed--

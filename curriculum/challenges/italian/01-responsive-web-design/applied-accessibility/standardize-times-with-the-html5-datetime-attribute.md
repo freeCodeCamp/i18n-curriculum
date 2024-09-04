@@ -26,28 +26,25 @@ I risultati del sondaggio di Camper Cat sul torneo di Mortal Kombat sono arrivat
 Il tuo codice dovrebbe avere un elemento `p` che include il testo `Thank you to everyone for responding to Master Camper Cat's survey.` e che abbia un elemento `time`.
 
 ```js
-assert(timeElement);
+assert.exists(timeElement);
 ```
 
 I tuoi tag `time` aggiuntivi dovrebbero avvolgere il testo `Thursday, September 15<sup>th</sup>`.
 
 ```js
-assert(
-  timeElement &&
-    timeElement?.innerHTML?.trim() === 'Thursday, September 15<sup>th</sup>'
-);
+assert.strictEqual(timeElement?.innerHTML?.trim(), 'Thursday, September 15<sup>th</sup>');
 ```
 
 Il tuo tag `time` dovrebbe avere un attributo `datetime` non vuoto.
 
 ```js
-assert(datetimeAttr && datetimeAttr?.length);
+assert(datetimeAttr?.length != 0);
 ```
 
 Il tuo attributo `datetime` dovrebbe essere impostato sul valore `2016-09-15`.
 
 ```js
-assert(datetimeAttr === '2016-09-15');
+assert.equal(datetimeAttr , '2016-09-15');
 ```
 
 # --seed--

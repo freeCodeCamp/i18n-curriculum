@@ -20,13 +20,17 @@ El lenguaje de marcado dado funcionaria bien como un diseño de dos columnas, co
 El elemento con id `left` debe tener un valor `float` de `left`.
 
 ```js
-assert($('#left').css('float') == 'left');
+const leftElement = document.querySelector('#left');
+const leftStyle = window.getComputedStyle(leftElement);
+assert.equal(leftStyle?.float, 'left');
 ```
 
 El elemento con id `right` debe tener un valor `float` de `right`.
 
 ```js
-assert($('#right').css('float') == 'right');
+const rightElement = document.querySelector('#right');
+const rightStyle = window.getComputedStyle(rightElement);
+assert.equal(rightStyle?.float, 'right');
 ```
 
 # --seed--

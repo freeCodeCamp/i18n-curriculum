@@ -26,7 +26,9 @@ Camper Cat sta testando diversi stili per un bottone importante, ma il giallo (`
 Il tuo codice dovrebbe cambiare il valore di `color` per il `button` a blu scuro.
 
 ```js
-assert($('button').css('color') == 'rgb(0, 51, 102)');
+const button = document.querySelector('button');
+const buttonColor = window.getComputedStyle(button).color; 
+assert.equal(buttonColor, 'rgb(0, 51, 102)');
 ```
 
 # --seed--

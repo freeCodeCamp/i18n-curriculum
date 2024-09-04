@@ -24,23 +24,23 @@ Aninhe os botões de opção dentro de um elemento `<div class="row">`. Em segui
 Todos os botões de opção devem estar aninhados dentro de uma `div` com a classe `row`.
 
 ```js
-assert($('div.row:has(input[type="radio"])').length > 0);
+const radioButtons = document.querySelectorAll(`div.row input[type=radio]`); 
+assert.lengthOf(radioButtons , 2);
 ```
 
 Cada um dos botões de opção devem estar aninhados nas próprias `div` com a classe `col-xs-6`.
 
 ```js
-assert($('div.col-xs-6:has(input[type="radio"])').length > 1);
+const radioButtons = document.querySelectorAll(`div.col-xs-6 input[type=radio]`); 
+assert.lengthOf(radioButtons , 2);
 ```
 
 Todos os elementos `div` devem ter tags de fechamento.
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/);
+assert.match(code,/<div/g);
+assert.equal(code.match(/<\/div>/g).length,code.match(/<div/g).length);
 ```
 
 # --seed--

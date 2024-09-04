@@ -17,23 +17,24 @@ dashedName: house-our-page-within-a-bootstrap-container-fluid-div
 `div` 요소는 `container-fluid`라는 클래스를 가져야 합니다.
 
 ```js
-assert($('div').hasClass('container-fluid'));
+assert.isTrue(document.querySelector('div')?.classList?.contains('container-fluid'));
 ```
 
 각각의 `div` 요소는 닫는 태그를 가져야 합니다.
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/g);
+assert.match(code,/<div/g);
+
+assert.equal(code.match(/<\/div>/g).length ,code.match(/<div/g).length);
 ```
 
 `h3` 요소는 `div` 요소 안에 들어있어야 합니다.
 
 ```js
-assert($('div').children('h3').length > 0);
+const divElement = document.querySelector('div');
+const divChildren = divElement?.querySelectorAll(`:scope ${'h3'}`)
+assert.lengthOf(divChildren,1);
 ```
 
 # --seed--

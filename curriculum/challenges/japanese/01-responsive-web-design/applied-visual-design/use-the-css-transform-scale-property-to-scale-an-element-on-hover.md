@@ -30,7 +30,7 @@ p:hover {
 `div` 要素のサイズは、ユーザーがその上にカーソルを置いた時に 1.1 倍になる必要があります。
 
 ```js
-assert(code.match(/div:hover\s*?{\s*?transform:\s*?scale\(1\.1\);/gi));
+assert.match(code, /div:hover\s*?{\s*?transform:\s*?scale\(1\.1\);/gi);
 ```
 
 # --seed--

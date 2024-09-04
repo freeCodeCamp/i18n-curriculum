@@ -26,7 +26,9 @@ Para mantener la bola rebotando a la derecha en un bucle continuo, cambia la pro
 La propiedad `animation-iteration-count` debe tener un valor de `infinite`.
 
 ```js
-assert($('#ball').css('animation-iteration-count') == 'infinite');
+const ballElement = document.querySelector('#ball');
+const ballStyle = window.getComputedStyle(ballElement); 
+assert.equal(ballStyle?.animationIterationCount, 'infinite');
 ```
 
 # --seed--

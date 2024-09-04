@@ -20,7 +20,9 @@ Aggiungi una proprietà `line-height` al tag `p` e impostala a 25px.
 Il tuo codice dovrebbe impostare la `line-height` del tag `p` a 25 pixel.
 
 ```js
-assert($('p').css('line-height') == '25px');
+const pElement =document.querySelector('p')
+const pStyle = window.getComputedStyle(pElement);
+assert.equal(pStyle?.lineHeight, '25px');
 ```
 
 # --seed--

@@ -26,28 +26,25 @@ Os resultados da pesquisa do jogo Mortal Kombat do Camper Cat chegaram! Envolva 
 O código deve ter um elemento `p` que inclui o texto `Thank you to everyone for responding to Master Camper Cat's survey.` e inclua um elemento `time`.
 
 ```js
-assert(timeElement);
+assert.exists(timeElement);
 ```
 
 A tag `time` que você adicionou deve estar ao redor do texto `Thursday, September 15<sup>th</sup>`.
 
 ```js
-assert(
-  timeElement &&
-    timeElement?.innerHTML?.trim() === 'Thursday, September 15<sup>th</sup>'
-);
+assert.strictEqual(timeElement?.innerHTML?.trim(), 'Thursday, September 15<sup>th</sup>');
 ```
 
 A tag `time` que você adicionou deve ter um atributo `datetime` que não pode estar vazio.
 
 ```js
-assert(datetimeAttr && datetimeAttr?.length);
+assert(datetimeAttr?.length != 0);
 ```
 
 O atributo `datetime` adicionado deve ser um conjunto de valores no formato `2016-09-15`.
 
 ```js
-assert(datetimeAttr === '2016-09-15');
+assert.equal(datetimeAttr , '2016-09-15');
 ```
 
 # --seed--

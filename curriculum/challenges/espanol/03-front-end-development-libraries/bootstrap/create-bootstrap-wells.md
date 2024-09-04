@@ -17,23 +17,22 @@ Anida un elemento `div` con la clase `well` dentro de cada uno de tus elementos 
 Debes añadir un elemento `div` con la clase `well` dentro de cada uno de tus elementos `div` con la clase `col-xs-6`
 
 ```js
-assert($('div.col-xs-6').not(':has(>div.well)').length < 1);
+const wells = document.querySelectorAll('div.col-xs-6 > div.well');
+assert.lengthOf( wells,2 ); 
 ```
 
 Ambos de tus elementos `div` con la clase `col-xs-6` deben estar anidados dentro de tu elemento `div` con la clase `row`.
 
 ```js
-assert($('div.row > div.col-xs-6').length > 1);
+assert.lengthOf(document.querySelectorAll('div.row > div.col-xs-6'),2);
 ```
 
 Todos tus elementos `div` deben tener etiquetas de cierre.
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/g);
+assert.match(code,/<div/g);
+assert.equal(code.match(/<\/div>/g)?.length , code.match(/<div/g)?.length);
 ```
 
 # --seed--

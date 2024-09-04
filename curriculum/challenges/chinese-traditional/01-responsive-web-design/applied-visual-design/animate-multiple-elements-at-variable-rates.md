@@ -22,19 +22,25 @@ dashedName: animate-multiple-elements-at-variable-rates
 class 爲 `star-1` 的 `animation-duration` 屬性值應該 1s。
 
 ```js
-assert($('.star-1').css('animation-duration') == '1s');
+const starOne = document.querySelector('.star-1');
+const starOneStyle = window.getComputedStyle(starOne); 
+assert.equal(starOneStyle?.animationDuration, '1s');
 ```
 
 class 爲 `star-2` 的 `animation-duration` 屬性值應該 0.9s。
 
 ```js
-assert($('.star-2').css('animation-duration') == '0.9s');
+const starTwo = document.querySelector('.star-2');
+const starTwoStyle = window.getComputedStyle(starTwo); 
+assert.equal(starTwoStyle?.animationDuration , '0.9s');
 ```
 
 class 爲 `star-3` 的 `animation-duration` 屬性值應該 1.1s。
 
 ```js
-assert($('.star-3').css('animation-duration') == '1.1s');
+const starThree = document.querySelector('.star-3');
+const starThreeStyle = window.getComputedStyle(starThree); 
+assert.equal(starThreeStyle?.animationDuration, '1.1s');
 ```
 
 # --seed--

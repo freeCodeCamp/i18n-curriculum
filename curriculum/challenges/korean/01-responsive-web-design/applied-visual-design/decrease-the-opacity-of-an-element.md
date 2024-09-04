@@ -24,11 +24,10 @@ CSS의 `opacity` 속성은 아이템의 불투명도, 혹은 반대로 투명도
 코드는 `links` 클래스를 선택하여 앵커 태그의 `opacity` 속성을 0.7로 설정해야 합니다.
 
 ```js
-assert(
-  /\.links\s*{([\s\S]*?;)*\s*opacity\s*:\s*0*\.70*\s*(;[\s\S]*?|\s*)}/.test(
-    $('style').text()
-  )
-);
+assert.match(
+  document.querySelector('style')?.textContent,
+  /\.links\s*{([\s\S]*?;)*\s*opacity\s*:\s*0*\.70*\s*(;[\s\S]*?|\s*)}/
+  );
 ```
 
 # --seed--

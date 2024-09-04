@@ -30,10 +30,9 @@ cubic-bezier(0.3, 0.4, 0.5, 1.6);
 id 为 `green` 的元素的 `animation-timing-function` 值应为 `cubic-bezier` 函数，函数的参数 x1，y1，x2，y2 值应为指定值。
 
 ```js
-assert(
-  $('#green').css('animation-timing-function') ==
-    'cubic-bezier(0.311, 0.441, 0.444, 1.649)'
-);
+const greenElement = document.querySelector('#green');
+ const greenStyle = window.getComputedStyle(greenElement);
+assert.equal(greenStyle?.animationTimingFunction, 'cubic-bezier(0.311, 0.441, 0.444, 1.649)');
 ```
 
 # --seed--

@@ -24,23 +24,23 @@ dashedName: responsively-style-checkboxes
 جميع خانات الاختيار (checkboxes) الخاصة بك يجب أن تكون متداخلة داخل `div` واحد مع فئة `row`.
 
 ```js
-assert($('div.row:has(input[type="checkbox"])').length > 0);
+const checkboxes = document.querySelectorAll(`div.row input[type="checkbox"]`); 
+assert.lengthOf(checkboxes,3);
 ```
 
 كل خانة من خانات الاختيار (checkboxes) الخاصة بك يجب أن تكون متداخلة داخل `div` مع الفئة `col-xs-4`.
 
 ```js
-assert($('div.col-xs-4:has(input[type="checkbox"])').length > 2);
+const checkboxes = document.querySelectorAll(`div.col-xs-4 input[type="checkbox"]`); 
+assert.lengthOf(checkboxes,3);
 ```
 
 لا بد أن يوجد وسم إغلاق لكل عناصر `div`.
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/g);
+assert.match(code,/<div/g);
+assert.equal(code.match(/<\/div>/g).length ,code.match(/<div/g).length);
 ```
 
 # --seed--

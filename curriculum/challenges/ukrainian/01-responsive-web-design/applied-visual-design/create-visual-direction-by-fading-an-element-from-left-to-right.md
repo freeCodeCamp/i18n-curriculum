@@ -22,10 +22,7 @@ dashedName: create-visual-direction-by-fading-an-element-from-left-to-right
 Правило `keyframes` для затухання повинне встановити властивість `opacity` на 0.1 на 50%.
 
 ```js
-assert(
-  code.match(
-    /@keyframes fade\s*?{\s*?50%\s*?{\s*?(?:left:\s*?60%;\s*?opacity:\s*?0?\.1;|opacity:\s*?0?\.1;\s*?left:\s*?60%;)/gi
-  )
+assert.match(code,/@keyframes fade\s*?{\s*?50%\s*?{\s*?(?:left:\s*?60%;\s*?opacity:\s*?0?\.1;|opacity:\s*?0?\.1;\s*?left:\s*?60%;)/gi
 );
 ```
 

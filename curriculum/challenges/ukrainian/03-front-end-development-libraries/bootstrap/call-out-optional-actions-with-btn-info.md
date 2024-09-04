@@ -19,29 +19,30 @@ Bootstrap має набір заздалегідь встановлених ко
 Створіть новий елемент `button` із текстом `Info`.
 
 ```js
-assert(new RegExp('info', 'gi').test($('button').text()));
+const infoButton = document.querySelectorAll('button')?.[1]; 
+assert.match(infoButton.textContent,/info/gi);
 ```
 
 Обидві кнопки Bootstrap повинні мати класи `btn` та `btn-block`.
 
 ```js
-assert($('button.btn-block.btn').length > 1);
+assert.lengthOf(document.querySelectorAll('button.btn-block.btn'),2);
 ```
 
 Нова кнопка повинна мати клас `btn-info`.
 
 ```js
-assert($('button').hasClass('btn-info'));
+const infoButton = [...document.querySelectorAll('button')].at(1);
+assert.isTrue(infoButton?.classList?.contains('btn-info'));
 ```
 
 Усі елементи `button` повинні мати кінцеві теги.
 
 ```js
-assert(
-  code.match(/<\/button>/g) &&
-    code.match(/<button/g) &&
-    code.match(/<\/button>/g).length === code.match(/<button/g).length
-);
+assert.match(code,/<\/button>/g);
+assert.match(code,/<button/g);
+
+assert.equal(code.match(/<\/button>/g)?.length,code.match(/<button/g)?.length);
 ```
 
 # --seed--

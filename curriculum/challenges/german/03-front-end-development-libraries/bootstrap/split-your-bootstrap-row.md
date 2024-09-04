@@ -17,17 +17,15 @@ Erstelle innerhalb deiner Zeile zwei `div`-Elemente, beide mit der Klasse `col-x
 Zwei `div class="col-xs-6"`-Elemente sollten in deinem `div class="row"`-Element verschachtelt sein.
 
 ```js
-assert($('div.row > div.col-xs-6').length > 1);
+assert.lengthOf(document.querySelectorAll('div.row > div.col-xs-6'),2);
 ```
 
 All deine `div`-Elemente sollten abschließende Tags haben.
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/g);
+assert.match(code,/<div/g);
+assert.equal(code.match(/<\/div>/g).length , code.match(/<div/g).length);
 ```
 
 # --seed--

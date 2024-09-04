@@ -26,10 +26,8 @@ Aumente o tamanho do elemento com o id de `ball2` para 1.5 vezes seu tamanho ori
 A propriedade `transform` em `#ball2` deve ser configurada para dimensioná-la para 1.5 vezes seu tamanho.
 
 ```js
-assert(
-  code.match(
+assert.match(code,
     /#ball2\s*?{\s*?left:\s*?65%;\s*?transform:\s*?scale\(1\.5\);\s*?}|#ball2\s*?{\s*?transform:\s*?scale\(1\.5\);\s*?left:\s*?65%;\s*?}/gi
-  )
 );
 ```
 

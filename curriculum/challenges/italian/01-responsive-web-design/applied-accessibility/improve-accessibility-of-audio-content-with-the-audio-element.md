@@ -35,49 +35,49 @@ Ecco un esempio:
 Il tuo codice dovrebbe avere un tag `audio`.
 
 ```js
-assert($('audio').length === 1);
+assert.lengthOf(document.querySelectorAll('audio'),1);
 ```
 
 Il tuo elemento `audio` dovrebbe avere un tag di chiusura.
 
 ```js
-assert(
-  code.match(/<\/audio>/g).length === 1 &&
-    code.match(/<audio.*>[\s\S]*<\/audio>/g)
-);
+assert.match(code,/<audio.*>[\s\S]*<\/audio>/g);
+assert.lengthOf(code.match(/<\/audio>/g),1);
 ```
 
 Il tag `audio` dovrebbe avere l'attributo `controls`.
 
 ```js
-assert($('audio').attr('controls'));
+assert.exists(document.querySelector('audio')?.getAttribute('controls'));
 ```
 
 Il tuo codice dovrebbe avere un tag `source`.
 
 ```js
-assert($('source').length === 1);
+assert.lengthOf(document.querySelectorAll('source'), 1);
 ```
 
 Il tuo tag `source` dovrebbe essere all'interno dei tag `audio`.
 
 ```js
-assert($('audio').children('source').length === 1);
+const audio = document.querySelector('audio');
+const children = audio.querySelectorAll(`:scope ${'source'}`);
+assert.lengthOf(children,1);
 ```
 
 Il valore dell'attributo `src` all'interno del tag `source` dovrebbe corrispondere esattamente al link presente nelle istruzioni.
 
 ```js
-assert(
-  $('source').attr('src') ===
-    'https://cdn.freecodecamp.org/curriculum/applied-accessibility/screen-reader.mp3'
+assert.equal(
+  document.querySelector('source')?.getAttribute('src'),
+  'https://cdn.freecodecamp.org/curriculum/applied-accessibility/screen-reader.mp3'
 );
 ```
 
 Il tuo codice dovrebbe includere un attributo `type` all'interno del tag `source` con un valore audio/mpeg.
 
 ```js
-assert($('source').attr('type') === 'audio/mpeg');
+assert.equal(document.querySelector('source')?.getAttribute('type'), 'audio/mpeg');
 ```
 
 # --seed--

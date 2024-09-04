@@ -22,28 +22,27 @@ Camper Cat fügte Navigationslinks oben auf seiner Trainingsseite hinzu, umgab s
 Dein Code sollte ein `nav`-Tag enthalten.
 
 ```js
-assert($('nav').length == 1);
+assert.lengthOf(document.querySelectorAll('nav') , 1);
 ```
 
 Deine `nav`-Tags sollten die `ul` und deren Listenelemente umhüllen.
 
 ```js
-assert($('nav').children('ul').length == 1);
+const nav = document.querySelector('nav');
+const children = nav?.querySelectorAll(`:scope ${'ul'}`);
+assert.lengthOf(children,1);
 ```
 
 Dein Code sollte keine `div`-Tags mehr enthalten.
 
 ```js
-assert($('div').length == 0);
+assert.lengthOf(document.querySelectorAll('div') , 0);
 ```
 
 Dein `nav`-Element sollte ein schließendes Tag haben.
 
 ```js
-assert(
-  code.match(/<\/nav>/g) &&
-    code.match(/<\/nav>/g).length === code.match(/<nav>/g).length
-);
+assert.isTrue(code.match(/<\/nav>/g)?.length === code.match(/<nav>/g)?.length);
 ```
 
 # --seed--

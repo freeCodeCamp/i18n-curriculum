@@ -19,29 +19,29 @@ dashedName: warn-your-users-of-a-dangerous-action-with-btn-danger
 `Delete` 문자를 가진 `button` 버튼 요소를 생성해야 합니다.
 
 ```js
-assert(new RegExp('Delete', 'gi').test($('button').text()));
+const deleteButton = document.querySelectorAll('button')?.[2]; 
+assert.match(deleteButton?.textContent ,/delete/gi);
 ```
 
 모든 부트스트랩 버튼은 `btn`과 `btn-block` 클래스를 가져야 합니다.
 
 ```js
-assert($('button.btn-block.btn').length > 2);
+assert.lengthOf(document.querySelectorAll('button.btn-block.btn'),3);
 ```
 
 새로운 버튼은 `btn-danger` 클래스를 가져야 합니다.
 
 ```js
-assert($('button').hasClass('btn-danger'));
+const deleteButton = document.querySelectorAll('button')?.[2]; 
+assert.isTrue(deleteButton?.classList?.contains('btn-danger'));
 ```
 
 모든 `button` 요소들에는 닫는 태그가 있어야 합니다.
 
 ```js
-assert(
-  code.match(/<\/button>/g) &&
-    code.match(/<button/g) &&
-    code.match(/<\/button>/g).length === code.match(/<button/g).length
-);
+assert.match(code,/<\/button>/g);
+assert.match(code,/<button/g);
+assert.equal(code.match(/<\/button>/g).length,code.match(/<button/g).length);
 ```
 
 # --seed--

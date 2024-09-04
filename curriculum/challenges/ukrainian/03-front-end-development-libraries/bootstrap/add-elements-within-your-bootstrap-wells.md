@@ -17,26 +17,27 @@ dashedName: add-elements-within-your-bootstrap-wells
 Три елементи `button` мають бути вкладеними у кожному елементі `div` з класом `well`.
 
 ```js
-assert(
-  $('div.well:eq(0)').children('button').length === 3 &&
-    $('div.well:eq(1)').children('button').length === 3
-);
+const buttonOne = document.querySelectorAll('div.well')?.[0];
+const buttonOneChildren = buttonOne?.querySelectorAll(`:scope ${'button'}`);
+assert.lengthOf(buttonOneChildren,3);
+
+const buttonTwo = document.querySelectorAll('div.well')?.[1]
+const buttonTwoChildren = buttonTwo?.querySelectorAll(`:scope ${'button'}`);
+assert.lengthOf(buttonTwoChildren,3);
 ```
 
 Загалом має бути 6 елементів `button`.
 
 ```js
-assert($('button') && $('button').length > 5);
+assert.lengthOf(document.querySelectorAll('button'), 6);
 ```
 
 Усі елементи `button` повинні мати кінцеві теги.
 
 ```js
-assert(
-  code.match(/<\/button>/g) &&
-    code.match(/<button/g) &&
-    code.match(/<\/button>/g).length === code.match(/<button/g).length
-);
+assert.match(code,/<\/button>/g);
+assert.match(code,/<button/g);
+assert.equal(code.match(/<\/button>/g).length,code.match(/<button/g).length);
 ```
 
 # --seed--

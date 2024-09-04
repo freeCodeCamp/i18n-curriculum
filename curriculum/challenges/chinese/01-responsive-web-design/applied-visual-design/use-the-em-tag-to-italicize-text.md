@@ -20,13 +20,16 @@ dashedName: use-the-em-tag-to-italicize-text
 应添加一个 `em` 标签。
 
 ```js
-assert($('em').length == 1);
+assert.lengthOf(document.querySelectorAll('em'),1);
 ```
 
 `em` 标签应包裹 `p` 标签里的内容，但不包裹 `p` 标签本身。
 
 ```js
-assert($('p').children().length == 1 && $('em').children().length == 2);
+const paragraphElement = document.querySelector('p');
+const emElement = document.querySelector('em');
+assert.lengthOf(paragraphElement?.children, 1);
+assert.lengthOf(emElement?.children, 2);
 ```
 
 # --seed--

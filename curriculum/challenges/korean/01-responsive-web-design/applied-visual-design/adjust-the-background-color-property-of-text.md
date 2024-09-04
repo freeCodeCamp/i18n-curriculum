@@ -38,18 +38,20 @@ assert(
 여러분의 코드에서 `h4` 요소의 `padding` 속성은 10 픽셀로 적용되어야 합니다.
 
 ```js
-assert(
-  $('h4').css('padding-top') == '10px' &&
-    $('h4').css('padding-right') == '10px' &&
-    $('h4').css('padding-bottom') == '10px' &&
-    $('h4').css('padding-left') == '10px'
-);
+const h4Element = document.querySelector("h4"); 
+const h4style = window.getComputedStyle(h4Element);
+assert.equal(h4style?.paddingTop, "10px");
+assert.equal(h4style?.paddingRight, "10px");
+assert.equal(h4style?.paddingBottom, "10px");
+assert.equal(h4style?.paddingLeft, "10px");
 ```
 
 `h4` 요소의 `height` 속성은 지우셔야 합니다.
 
 ```js
-assert(!($('h4').css('height') == '25px'));
+const h4Element = document.querySelector("h4"); 
+const h4style = window.getComputedStyle(h4Element);
+assert.notEqual(h4style?.height, '25px');
 ```
 
 # --seed--

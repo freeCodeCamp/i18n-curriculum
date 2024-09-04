@@ -24,23 +24,23 @@ dashedName: responsively-style-checkboxes
 모든 체크박스는 `row` 클래스를 가진 하나의 `div` 안에 중첩되어야 합니다.
 
 ```js
-assert($('div.row:has(input[type="checkbox"])').length > 0);
+const checkboxes = document.querySelectorAll(`div.row input[type="checkbox"]`); 
+assert.lengthOf(checkboxes,3);
 ```
 
 각 체크박스는 `col-xs-4` 클래스를 가진 `div` 안에 중첩되어야 합니다.
 
 ```js
-assert($('div.col-xs-4:has(input[type="checkbox"])').length > 2);
+const checkboxes = document.querySelectorAll(`div.col-xs-4 input[type="checkbox"]`); 
+assert.lengthOf(checkboxes,3);
 ```
 
 모든 `div` 요소는 닫는 태그를 가져야 합니다.
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/g);
+assert.match(code,/<div/g);
+assert.equal(code.match(/<\/div>/g).length ,code.match(/<div/g).length);
 ```
 
 # --seed--

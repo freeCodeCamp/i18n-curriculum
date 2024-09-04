@@ -22,19 +22,25 @@ dashedName: lock-an-element-to-the-browser-window-with-fixed-positioning
 Елемент `#navbar` повинен мати `position` встановлену як `fixed`.
 
 ```js
-assert($('#navbar').css('position') == 'fixed');
+const navbarElement = document.querySelector('#navbar');
+const navbarStyle = window.getComputedStyle(navbarElement);
+ assert.equal(navbarStyle?.position, 'fixed');
 ```
 
 Ваш код повинен застосовувати `top` CSS offset в 0 пікселів на елементі `#navbar`.
 
 ```js
-assert($('#navbar').css('top') == '0px');
+const navbarElement = document.querySelector('#navbar');
+ const navbarStyle = window.getComputedStyle(navbarElement);
+assert.equal(navbarStyle?.top, '0px');
 ```
 
 Ваш код повинен використовувати `left` CSS 0 пікселів на елемент`#navbar`.
 
 ```js
-assert($('#navbar').css('left') == '0px');
+const navbarElement = document.querySelector('#navbar');
+ const navbarStyle = window.getComputedStyle(navbarElement);
+ assert.equal(navbarStyle?.left, '0px');
 ```
 
 # --seed--

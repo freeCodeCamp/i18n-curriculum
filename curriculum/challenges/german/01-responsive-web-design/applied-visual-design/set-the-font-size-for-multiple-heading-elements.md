@@ -28,42 +28,42 @@ Dein Code sollte die Eigenschaft `font-size` für das Tag `h1` auf 68 Pixel setz
 
 ```js
  const fontSizeOfh1 = new __helpers.CSSHelp(document).getStyle('h1')?.getPropertyValue('font-size');
- assert(fontSizeOfh1 === '68px');
+ assert.equal(fontSizeOfh1 ,'68px');
 ```
 
 Dein Code sollte die Eigenschaft `font-size` für das Tag `h2` auf 52 Pixel setzen.
 
 ```js
  const fontSizeOfh2 = new __helpers.CSSHelp(document).getStyle('h2')?.getPropertyValue('font-size');
- assert(fontSizeOfh2 === '52px');
+ assert.equal(fontSizeOfh2 ,'52px');
 ```
 
 Dein Code sollte die Eigenschaft `font-size` für das Tag `h3` auf 40 Pixel setzen.
 
 ```js
  const fontSizeOfh3 = new __helpers.CSSHelp(document).getStyle('h3')?.getPropertyValue('font-size');
- assert(fontSizeOfh3 === '40px');
+ assert.equal(fontSizeOfh3 ,'40px');
 ```
 
 Dein Code sollte die Eigenschaft `font-size` für das Tag `h4` auf 32 Pixel setzen.
 
 ```js
  const fontSizeOfh4 = new __helpers.CSSHelp(document).getStyle('h4')?.getPropertyValue('font-size');
- assert(fontSizeOfh4 === '32px');
+ assert.equal(fontSizeOfh4 , '32px');
 ```
 
 Dein Code sollte die Eigenschaft `font-size` für das Tag `h5` auf 21 Pixel setzen.
 
 ```js
  const fontSizeOfh5 = new __helpers.CSSHelp(document).getStyle('h5')?.getPropertyValue('font-size');
- assert(fontSizeOfh5 === '21px');
+ assert.equal(fontSizeOfh5 ,'21px');
 ```
 
 Dein Code sollte die Eigenschaft `font-size` für das Tag `h6` auf 14 Pixel setzen.
 
 ```js
  const fontSizeOfh6 = new __helpers.CSSHelp(document).getStyle('h6')?.getPropertyValue('font-size');
- assert(fontSizeOfh6 === '14px');
+ assert.equal(fontSizeOfh6 , '14px');
 ```
 
 # --seed--

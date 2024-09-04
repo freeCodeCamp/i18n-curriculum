@@ -28,25 +28,25 @@ Camper Cat は、2 つのブログ記事タイトル周りのリンクがキー�
 コードは `id` が `first` 値を持つ `a` タグに `accesskey` 属性を追加する必要があります。
 
 ```js
-assert($('#first').attr('accesskey'));
+assert.isTrue(document.querySelector('#first')?.hasAttribute('accesskey'));
 ```
 
 コードは `id` が `second` 値を持つ `a` タグに `accesskey` 属性を追加する必要があります。
 
 ```js
-assert($('#second').attr('accesskey'));
+assert.isTrue(document.querySelector('#second')?.hasAttribute('accesskey'));
 ```
 
 コードには `id` が `first` 値を持つ `a` タグに `accesskey` 属性として `g` を設定する必要があります。 大文字・小文字が区別されることに注意してください。
 
 ```js
-assert($('#first').attr('accesskey') == 'g');
+assert.equal(document.querySelector('#first')?.getAttribute('accesskey'), 'g');
 ```
 
 コードには `id` が `second` 値を持つ `a` タグに `accesskey` 属性として `c` を設定する必要があります。 大文字・小文字が区別されることに注意してください。
 
 ```js
-assert($('#second').attr('accesskey') == 'c');
+assert.equal(document.querySelector('#second')?.getAttribute('accesskey'), 'c');
 ```
 
 # --seed--

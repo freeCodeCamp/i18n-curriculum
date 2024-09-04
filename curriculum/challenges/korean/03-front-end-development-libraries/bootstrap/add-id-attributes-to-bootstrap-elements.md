@@ -27,19 +27,17 @@ dashedName: add-id-attributes-to-bootstrap-elements
 왼쪽의 `well`에는 `left-well`이라는 id가 있어야 합니다.
 
 ```js
-assert(
-  $('.col-xs-6').children('#left-well') &&
-    $('.col-xs-6').children('#left-well').length > 0
-);
+const column = document.querySelectorAll('.col-xs-6')[0];
+const leftWall = column?.querySelectorAll(`:scope ${'#left-well'}`);
+assert.lengthOf(leftWall,1)
 ```
 
 오른쪽의 `well`에는 `right-well`이라는 id가 있어야 합니다.
 
 ```js
-assert(
-  $('.col-xs-6').children('#right-well') &&
-    $('.col-xs-6').children('#right-well').length > 0
-);
+const column = document.querySelectorAll('.col-xs-6')[1];
+const rightWall = column?.querySelectorAll(`:scope ${'#right-well'}`);
+assert.lengthOf(rightWall,1)
 ```
 
 # --seed--

@@ -28,13 +28,13 @@ Camper Cat alitumia lebo za `article` kufunga machapisho kwenye ukurasa wake wa 
 Code yako inapaswa kuwa na lebo tatu za `article`.
 
 ```js
-assert($('article').length == 3);
+assert.lengthOf(document.querySelectorAll('article') ,3);
 ```
 
 Code yako haipaswi kuwa na lebo zozote za `div`.
 
 ```js
-assert($('div').length == 0);
+assert.lengthOf(document.querySelectorAll('div'), 0);
 ```
 
 # --seed--

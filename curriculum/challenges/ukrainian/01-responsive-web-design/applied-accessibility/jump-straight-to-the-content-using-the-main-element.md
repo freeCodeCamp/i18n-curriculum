@@ -26,13 +26,13 @@ HTML5 ввів декілька нових елементів, які надаю
 Ваш код має містити один теґ `main`.
 
 ```js
-assert($('main').length == 1);
+assert.lengthOf(document.querySelectorAll('main'),1);
 ```
 
 Теги `main` мають знаходитися між кінцевим теґом `header` і початковим теґом `footer`.
 
 ```js
-assert(code.match(/<\/header>\s*?<main>\s*?<\/main>/gi));
+assert.match(code,/<\/header>\s*?<main>\s*?<\/main>/gi);
 ```
 
 # --seed--

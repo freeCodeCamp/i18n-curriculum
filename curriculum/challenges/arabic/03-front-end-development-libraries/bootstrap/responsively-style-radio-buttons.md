@@ -24,23 +24,23 @@ dashedName: responsively-style-radio-buttons
 جميع أزرار الراديو الخاصة بك يجب أن تكون متداخلة داخل `div` مع فئة `row`.
 
 ```js
-assert($('div.row:has(input[type="radio"])').length > 0);
+const radioButtons = document.querySelectorAll(`div.row input[type=radio]`); 
+assert.lengthOf(radioButtons , 2);
 ```
 
 كل من أزرار الراديو الخاصة بك يجب أن تكون متداخلة داخل `div` مع الفئة `col-xs-6`.
 
 ```js
-assert($('div.col-xs-6:has(input[type="radio"])').length > 1);
+const radioButtons = document.querySelectorAll(`div.col-xs-6 input[type=radio]`); 
+assert.lengthOf(radioButtons , 2);
 ```
 
 لا بد أن يوجد وسم إغلاق لكل عناصر `div`.
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/);
+assert.match(code,/<div/g);
+assert.equal(code.match(/<\/div>/g).length,code.match(/<div/g).length);
 ```
 
 # --seed--

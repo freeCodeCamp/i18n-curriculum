@@ -19,29 +19,30 @@ Bootstrap يأتي مع عدة ألوان محددة سلفًا للأزرار. 
 يجب عليك إنشاء عنصر `button` جديد بالنص `Info`.
 
 ```js
-assert(new RegExp('info', 'gi').test($('button').text()));
+const infoButton = document.querySelectorAll('button')?.[1]; 
+assert.match(infoButton.textContent,/info/gi);
 ```
 
 يجب أن يكون لكل من أزرار Bootstrap الخاص بك فئة `btn` و `btn-block`.
 
 ```js
-assert($('button.btn-block.btn').length > 1);
+assert.lengthOf(document.querySelectorAll('button.btn-block.btn'),2);
 ```
 
 الزر الجديد الخاص بك يجب أن يحتوي على الفئة `btn-info`.
 
 ```js
-assert($('button').hasClass('btn-info'));
+const infoButton = [...document.querySelectorAll('button')].at(1);
+assert.isTrue(infoButton?.classList?.contains('btn-info'));
 ```
 
 لا بد أن يوجد وسم إغلاق للعناصر `button`.
 
 ```js
-assert(
-  code.match(/<\/button>/g) &&
-    code.match(/<button/g) &&
-    code.match(/<\/button>/g).length === code.match(/<button/g).length
-);
+assert.match(code,/<\/button>/g);
+assert.match(code,/<button/g);
+
+assert.equal(code.match(/<\/button>/g)?.length,code.match(/<button/g)?.length);
 ```
 
 # --seed--

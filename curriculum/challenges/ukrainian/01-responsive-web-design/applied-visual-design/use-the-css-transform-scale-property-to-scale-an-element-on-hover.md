@@ -30,7 +30,7 @@ p:hover {
 Розмір елемента `div` має масштабуватись в 1,1 рази, коли користувач наводить на нього.
 
 ```js
-assert(code.match(/div:hover\s*?{\s*?transform:\s*?scale\(1\.1\);/gi));
+assert.match(code, /div:hover\s*?{\s*?transform:\s*?scale\(1\.1\);/gi);
 ```
 
 # --seed--

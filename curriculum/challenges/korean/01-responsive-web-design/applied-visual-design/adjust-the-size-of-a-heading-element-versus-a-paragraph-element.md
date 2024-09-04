@@ -20,7 +20,10 @@ dashedName: adjust-the-size-of-a-heading-element-versus-a-paragraph-element
 `h4` 요소의 `font-size` 속성은 27 픽셀로 적용되어야 합니다.
 
 ```js
-assert($('h4').css('font-size') == '27px');
+
+const h4Element =document.querySelector('h4')
+const h4Style = window.getComputedStyle(h4Element);
+assert.equal(h4Style?.fontSize,'27px');
 ```
 
 # --seed--

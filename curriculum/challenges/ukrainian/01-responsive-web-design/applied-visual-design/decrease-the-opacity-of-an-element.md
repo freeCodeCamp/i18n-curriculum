@@ -24,11 +24,10 @@ dashedName: decrease-the-opacity-of-an-element
 Ваш код має встановити властивість `opacity` на значення 0.7 на якірних теґах, обравши клас `links`.
 
 ```js
-assert(
-  /\.links\s*{([\s\S]*?;)*\s*opacity\s*:\s*0*\.70*\s*(;[\s\S]*?|\s*)}/.test(
-    $('style').text()
-  )
-);
+assert.match(
+  document.querySelector('style')?.textContent,
+  /\.links\s*{([\s\S]*?;)*\s*opacity\s*:\s*0*\.70*\s*(;[\s\S]*?|\s*)}/
+  );
 ```
 
 # --seed--

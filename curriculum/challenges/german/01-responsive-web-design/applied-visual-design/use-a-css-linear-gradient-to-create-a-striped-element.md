@@ -32,37 +32,37 @@ Erstelle Streifen, indem du der `repeating-linear-gradient()`-Funktion einen Ver
 Der Winkel der `repeating-linear-gradient()`-Funktion sollte 45 Grad betragen.
 
 ```js
-assert(code.match(/background:\s*?repeating-linear-gradient\(\s*?45deg/gi));
+assert.match(code,/background:\s*?repeating-linear-gradient\(\s*?45deg/gi);
 ```
 
 Der Winkel der `repeating-linear-gradient()`-Funktion sollte nicht mehr 90 Grad sein.
 
 ```js
-assert(!code.match(/90deg/gi));
+assert.notMatch(code, /90deg/gi);
 ```
 
 Der Farbstopp bei 0 Pixel sollte `yellow` sein.
 
 ```js
-assert(code.match(/yellow\s+?0(px)?/gi));
+assert.match(code, /yellow\s+?0(px)?/gi);
 ```
 
 Der erste Farbstopp bei 40 Pixel sollte `yellow` sein.
 
 ```js
-assert(code.match(/yellow\s+?40px/gi));
+assert.match(code, /yellow\s+?40px/gi);
 ```
 
 Der zweite Farbstopp bei 40 Pixel sollte `black` sein.
 
 ```js
-assert(code.match(/yellow\s+?40px,\s*?black\s+?40px/gi));
+assert.match(code, /yellow\s+?40px,\s*?black\s+?40px/gi);
 ```
 
 Der letzte Farbstopp bei 80 Pixel sollte `black` sein.
 
 ```js
-assert(code.match(/black\s+?80px/gi));
+assert.match(code, /black\s+?80px/gi);
 ```
 
 # --seed--

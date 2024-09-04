@@ -40,34 +40,31 @@ Camper Cat хоче отримувати інформацію про рівен�
 Ваш код має містити теґ `fieldset` навколо набору радіокнопок.
 
 ```js
-assert($('fieldset').length == 1);
+assert.lengthOf(document.querySelectorAll('fieldset'),1);
 ```
 
 Елемент `fieldset` повинен мати кінцевий тег.
 
 ```js
-assert(
-  code.match(/<\/fieldset>/g) &&
-    code.match(/<\/fieldset>/g).length === code.match(/<fieldset>/g).length
-);
+assert.isTrue(code.match(/<\/fieldset>/g)?.length === code.match(/<fieldset>/g)?.length);
 ```
 
 Ваш код має містити теґ `legend` навколо тексту із запитанням про рівень ніндзя.
 
 ```js
-assert($('legend').length == 1);
+assert.lengthOf(document.querySelectorAll('legend') ,1);
 ```
 
 Ваш код не повинен містити жодних тегів `div`.
 
 ```js
-assert($('div').length == 0);
+assert.lengthOf(document.querySelectorAll('div') ,0);
 ```
 
 Ваш код уже не має містити теґ `p` навколо тексту з запитанням про рівень ніндзя.
 
 ```js
-assert($('p').length == 4);
+assert.lengthOf(document.querySelectorAll('p') ,4);
 ```
 
 # --seed--

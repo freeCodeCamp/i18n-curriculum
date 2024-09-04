@@ -32,37 +32,37 @@ dashedName: use-a-css-linear-gradient-to-create-a-striped-element
 `repeating-linear-gradient()`의 각도는 45도여야 합니다.
 
 ```js
-assert(code.match(/background:\s*?repeating-linear-gradient\(\s*?45deg/gi));
+assert.match(code,/background:\s*?repeating-linear-gradient\(\s*?45deg/gi);
 ```
 
 `repeating-linear-gradient()`의 각도는 더이상 90도여선 안됩니다.
 
 ```js
-assert(!code.match(/90deg/gi));
+assert.notMatch(code, /90deg/gi);
 ```
 
 0픽셀 부분의 색상 정지점은 `yellow`여야 합니다.
 
 ```js
-assert(code.match(/yellow\s+?0(px)?/gi));
+assert.match(code, /yellow\s+?0(px)?/gi);
 ```
 
 40픽셀 부분의 첫번째 색상 정지점은 `yellow`여야 합니다.
 
 ```js
-assert(code.match(/yellow\s+?40px/gi));
+assert.match(code, /yellow\s+?40px/gi);
 ```
 
 40픽셀 부분의 두번째 색상 정지점은 `black`여야 합니다.
 
 ```js
-assert(code.match(/yellow\s+?40px,\s*?black\s+?40px/gi));
+assert.match(code, /yellow\s+?40px,\s*?black\s+?40px/gi);
 ```
 
 80픽셀 부분의 마지막 색상 정지점은 `black`여야 합니다.
 
 ```js
-assert(code.match(/black\s+?80px/gi));
+assert.match(code, /black\s+?80px/gi);
 ```
 
 # --seed--

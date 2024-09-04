@@ -28,42 +28,42 @@ Tu código debe establecer la propiedad `font-size` para la etiqueta `h1` en 68 
 
 ```js
  const fontSizeOfh1 = new __helpers.CSSHelp(document).getStyle('h1')?.getPropertyValue('font-size');
- assert(fontSizeOfh1 === '68px');
+ assert.equal(fontSizeOfh1 ,'68px');
 ```
 
 Tu código debe establecer la propiedad `font-size` para la etiqueta `h2` en 52 píxeles.
 
 ```js
  const fontSizeOfh2 = new __helpers.CSSHelp(document).getStyle('h2')?.getPropertyValue('font-size');
- assert(fontSizeOfh2 === '52px');
+ assert.equal(fontSizeOfh2 ,'52px');
 ```
 
 Tu código debe establecer la propiedad `font-size` para la etiqueta `h3` en 40 píxeles.
 
 ```js
  const fontSizeOfh3 = new __helpers.CSSHelp(document).getStyle('h3')?.getPropertyValue('font-size');
- assert(fontSizeOfh3 === '40px');
+ assert.equal(fontSizeOfh3 ,'40px');
 ```
 
 Tu código debe establecer la propiedad `font-size` para la etiqueta `h4` en 32 píxeles.
 
 ```js
  const fontSizeOfh4 = new __helpers.CSSHelp(document).getStyle('h4')?.getPropertyValue('font-size');
- assert(fontSizeOfh4 === '32px');
+ assert.equal(fontSizeOfh4 , '32px');
 ```
 
 Tu código debe establecer la propiedad `font-size` para la etiqueta `h5` en 21 píxeles.
 
 ```js
  const fontSizeOfh5 = new __helpers.CSSHelp(document).getStyle('h5')?.getPropertyValue('font-size');
- assert(fontSizeOfh5 === '21px');
+ assert.equal(fontSizeOfh5 ,'21px');
 ```
 
 Tu código debe establecer la propiedad `font-size` para la etiqueta `h6` en 14 píxeles.
 
 ```js
  const fontSizeOfh6 = new __helpers.CSSHelp(document).getStyle('h6')?.getPropertyValue('font-size');
- assert(fontSizeOfh6 === '14px');
+ assert.equal(fontSizeOfh6 , '14px');
 ```
 
 # --seed--

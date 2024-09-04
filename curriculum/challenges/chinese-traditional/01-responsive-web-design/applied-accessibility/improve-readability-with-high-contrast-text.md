@@ -22,13 +22,17 @@ Camper Cat 爲他的博客選擇了白色背景和淺灰色文字，對比度爲
 應該將 `body` 的 `color` 修改爲深灰色。
 
 ```js
-assert($('body').css('color') == 'rgb(99, 99, 99)');
+const body = document.querySelector('body');
+const bodyColor = window.getComputedStyle(body).color; 
+assert(bodyColor == 'rgb(99, 99, 99)');
 ```
 
 不應修改 `body` 的 `background-color`。
 
 ```js
-assert($('body').css('background-color') == 'rgb(255, 255, 255)');
+const body = document.querySelector('body');
+const backgroundColor = window.getComputedStyle(body).backgroundColor; 
+assert.equal(backgroundColor , 'rgb(255, 255, 255)');
 ```
 
 # --seed--

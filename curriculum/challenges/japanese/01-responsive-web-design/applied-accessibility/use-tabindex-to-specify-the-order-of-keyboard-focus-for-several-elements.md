@@ -36,25 +36,25 @@ Camper Cat の Inspirational Quotes のページには検索フィールドが�
 コードは `search` `input` タグに `tabindex` 属性を追加する必要があります。
 
 ```js
-assert($('#search').attr('tabindex'));
+assert.isNotNull(document.querySelector('#search')?.getAttribute('tabindex'));
 ```
 
 コードは `submit` `input` タグに `tabindex` 属性を追加する必要があります。
 
 ```js
-assert($('#submit').attr('tabindex'));
+assert.isNotNull(document.querySelector('#submit')?.getAttribute('tabindex'));
 ```
 
 コードは `search` `input` タグの `tabindex` 属性として 1 を設定する必要があります。
 
 ```js
-assert($('#search').attr('tabindex') == '1');
+assert.equal(document.querySelector('#search')?.getAttribute('tabindex'), '1');
 ```
 
 コードは `submit` `input` タグの`tabindex`属性として 2 を設定する必要があります。
 
 ```js
-assert($('#submit').attr('tabindex') == '2');
+assert.equal(document.querySelector('#submit')?.getAttribute('tabindex'), '2');
 ```
 
 # --seed--

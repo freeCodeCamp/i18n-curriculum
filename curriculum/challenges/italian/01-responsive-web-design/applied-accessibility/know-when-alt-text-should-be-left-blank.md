@@ -30,13 +30,13 @@ Camper Cat ha scritto lo scheletro della pagina per la sezione blog del suo sito
 Il tuo tag `img` dovrebbe avere un attributo `alt`.
 
 ```js
-assert(!($('img').attr('alt') == undefined));
+assert.isTrue(document.querySelector('img')?.hasAttribute('alt'));
 ```
 
 L'attributo `alt` dovrebbe essere impostato su una stringa vuota.
 
 ```js
-assert($('img').attr('alt') == '');
+assert.isEmpty(document.querySelector('img')?.getAttribute('alt'));
 ```
 
 # --seed--

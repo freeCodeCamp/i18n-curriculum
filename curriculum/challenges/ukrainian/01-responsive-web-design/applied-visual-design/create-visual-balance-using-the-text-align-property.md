@@ -30,13 +30,17 @@ dashedName: create-visual-balance-using-the-text-align-property
 Ваш код повинен використовувати властивість вирівнювання тексту в тезі `h4`, щоб вирівняти його по центру (`center`).
 
 ```js
-assert($('h4').css('text-align') == 'center');
+const h4Element =document.querySelector('h4')
+const h4Style = window.getComputedStyle(h4Element);
+assert.equal(h4Style?.textAlign, 'center');
 ```
 
 Ваш код повинен використовувати властивість вирівнювання тексту в тезі `p` tag, щоб вирівняти його за шириною (`justify`).
 
 ```js
-assert($('p').css('text-align') == 'justify');
+const pElement =document.querySelector('p')
+const pStyle = window.getComputedStyle(pElement);
+assert.equal(pStyle?.textAlign, 'justify');
 ```
 
 # --seed--

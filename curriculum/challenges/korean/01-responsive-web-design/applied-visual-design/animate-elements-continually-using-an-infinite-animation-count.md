@@ -26,7 +26,9 @@ animation-iteration-count: 3;
 `animation-iteration-count` 속성의 값은 `infinite`여야 합니다.
 
 ```js
-assert($('#ball').css('animation-iteration-count') == 'infinite');
+const ballElement = document.querySelector('#ball');
+const ballStyle = window.getComputedStyle(ballElement); 
+assert.equal(ballStyle?.animationIterationCount, 'infinite');
 ```
 
 # --seed--

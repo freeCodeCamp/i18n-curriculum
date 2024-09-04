@@ -20,7 +20,9 @@ dashedName: change-the-position-of-overlapping-elements-with-the-z-index-propert
 クラスが `first` の要素の `z-index` の値は 2 である必要があります。
 
 ```js
-assert($('.first').css('z-index') == '2');
+const firstElement = document.querySelector('.first');
+const firstStyle = window.getComputedStyle(firstElement); 
+assert.equal(firstStyle?.zIndex, '2');
 ```
 
 # --seed--

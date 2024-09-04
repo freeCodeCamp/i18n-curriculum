@@ -40,34 +40,31 @@ Camper Cat は、ユーザーがメールリストに登録するとき、忍者
 ラジオボタンセットの周りに `fieldset` タグがなければなりません。
 
 ```js
-assert($('fieldset').length == 1);
+assert.lengthOf(document.querySelectorAll('fieldset'),1);
 ```
 
 `fieldset` 要素には終了タグが必要です。
 
 ```js
-assert(
-  code.match(/<\/fieldset>/g) &&
-    code.match(/<\/fieldset>/g).length === code.match(/<fieldset>/g).length
-);
+assert.isTrue(code.match(/<\/fieldset>/g)?.length === code.match(/<fieldset>/g)?.length);
 ```
 
 コードには、ユーザーがどのレベルの忍者かを尋ねるテキストの周りに `legend` タグが必要です。
 
 ```js
-assert($('legend').length == 1);
+assert.lengthOf(document.querySelectorAll('legend') ,1);
 ```
 
 コードに `div` タグを含めないでください。
 
 ```js
-assert($('div').length == 0);
+assert.lengthOf(document.querySelectorAll('div') ,0);
 ```
 
 コードには、ユーザーがどのレベルの忍者かを尋ねるテキストの周りの `p` タグが無いようにしてください。
 
 ```js
-assert($('p').length == 4);
+assert.lengthOf(document.querySelectorAll('p') ,4);
 ```
 
 # --seed--

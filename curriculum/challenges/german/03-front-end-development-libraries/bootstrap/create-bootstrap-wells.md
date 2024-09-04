@@ -17,23 +17,22 @@ Verschachtle ein `div`-Element mit der Klasse `well` in jedem deiner `col-xs-6` 
 Du solltest ein `div` Element mit der Klasse `well` in jedem deiner `div` Elemente mit der Klasse `col-xs-6` hinzufügen
 
 ```js
-assert($('div.col-xs-6').not(':has(>div.well)').length < 1);
+const wells = document.querySelectorAll('div.col-xs-6 > div.well');
+assert.lengthOf( wells,2 ); 
 ```
 
 Deine beiden `div`-Elemente der Klasse `col-xs-6` sollten in deinem `div`-Element der Klasse `row` eingebettet sein.
 
 ```js
-assert($('div.row > div.col-xs-6').length > 1);
+assert.lengthOf(document.querySelectorAll('div.row > div.col-xs-6'),2);
 ```
 
 All deine `div`-Elemente sollen abschließende Tags enthalten.
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<div/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div/g).length
-);
+assert.match(code,/<\/div>/g);
+assert.match(code,/<div/g);
+assert.equal(code.match(/<\/div>/g)?.length , code.match(/<div/g)?.length);
 ```
 
 # --seed--

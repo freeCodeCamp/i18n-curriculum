@@ -32,13 +32,17 @@ Cambia la proprietà `background-color` delle classi `blue` e `yellow` con i ris
 L'elemento `div` con classe `blue` dovrebbe avere un `background-color` blu.
 
 ```js
-assert($('.blue').css('background-color') == 'rgb(0, 0, 255)');
+const blueElement = document.querySelector('.blue');
+const blueStyle = window.getComputedStyle(blueElement); 
+assert.equal(blueStyle?.backgroundColor, 'rgb(0, 0, 255)');
 ```
 
 L'elemento `div` con classe `yellow` dovrebbe avere un `background-color` giallo.
 
 ```js
-assert($('.yellow').css('background-color') == 'rgb(255, 255, 0)');
+const yellowElement = document.querySelector('.yellow');
+const yellowStyle = window.getComputedStyle(yellowElement);
+assert.equal(yellowStyle?.backgroundColor, 'rgb(255, 255, 0)');
 ```
 
 # --seed--

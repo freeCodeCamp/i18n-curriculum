@@ -26,7 +26,9 @@ Camper Cat testet verschiedene Stile für eine wichtige Schaltfläche, aber die 
 Dein Code sollte die Textfarbe `color` für die Schaltfläche `button` in dunkelblau ändern.
 
 ```js
-assert($('button').css('color') == 'rgb(0, 51, 102)');
+const button = document.querySelector('button');
+const buttonColor = window.getComputedStyle(button).color; 
+assert.equal(buttonColor, 'rgb(0, 51, 102)');
 ```
 
 # --seed--

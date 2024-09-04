@@ -30,10 +30,9 @@ id `green` の要素の `animation-timing-function` プロパティを、x1, y1,
 id `green` の要素の `animation-timing-function` プロパティは、指定の x1, y1, x2, y2 の値を持つ `cubic-bezier` 関数でなければなりません。
 
 ```js
-assert(
-  $('#green').css('animation-timing-function') ==
-    'cubic-bezier(0.311, 0.441, 0.444, 1.649)'
-);
+const greenElement = document.querySelector('#green');
+ const greenStyle = window.getComputedStyle(greenElement);
+assert.equal(greenStyle?.animationTimingFunction, 'cubic-bezier(0.311, 0.441, 0.444, 1.649)');
 ```
 
 # --seed--

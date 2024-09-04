@@ -22,13 +22,13 @@ dashedName: use-the-u-tag-to-underline-text
 應添加一個 `u` 標籤。
 
 ```js
-assert($('u').length === 1);
+assert.lengthOf(document.querySelectorAll('u'), 1);
 ```
 
 `u` 標籤的內容文本應爲 `Ph.D. students`。
 
 ```js
-assert($('u').text() === 'Ph.D. students');
+assert.equal(document.querySelector('u')?.textContent , 'Ph.D. students');
 ```
 
 # --seed--

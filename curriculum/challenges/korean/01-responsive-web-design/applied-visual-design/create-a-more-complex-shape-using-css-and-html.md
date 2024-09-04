@@ -39,28 +39,26 @@ dashedName: create-a-more-complex-shape-using-css-and-html
 `.heart::after` 선택자의 `background-color` 속성은 `pink`로 되어 있어야 합니다.
 
 ```js
-const heartAfter = code.match(/\.heart::after\s*{[\s\S]+?[^\}]}/g)[0];
-assert(
-  /({|;)\s*background-color\s*:\s*pink\s*(;|})/g.test(heartAfter)
-);
+const heartAfter = code.match(/\.heart::after\s*{[\s\S]+?[^\}]}/g)?.[0];
+assert.match(heartAfter, /({|;)\s*background-color\s*:\s*pink\s*(;|})/g);
 ```
 
 `.heart::after` 선택자의 `border-radius`는 50%여야 합니다.
 
 ```js
-assert(code.match(/border-radius\s*?:\s*?50%/gi).length == 2);
+assert.lengthOf(code.match(/border-radius\s*?:\s*?50%/gi),2);
 ```
 
 `heart` 클래스의 `transform` 속성은 -45도로 설정된 `rotate()` 함수를 사용해야 합니다.
 
 ```js
-assert(code.match(/transform\s*?:\s*?rotate\(\s*?-45deg\s*?\)/gi));
+assert.match(code,/transform\s*?:\s*?rotate\(\s*?-45deg\s*?\)/gi);
 ```
 
 `.heart::before` 선택자의 `content`는 비어 있는 문자열이어야 합니다.
 
 ```js
-assert(code.match(/\.heart::before\s*?{\s*?content\s*?:\s*?("|')\1\s*?;/gi));
+assert.match(code,/\.heart::before\s*?{\s*?content\s*?:\s*?("|')\1\s*?;/gi);
 ```
 
 # --seed--

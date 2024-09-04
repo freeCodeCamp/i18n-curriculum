@@ -19,30 +19,20 @@ Envolva a tag `s` em torno da palavra `Google` que está dentro da tag `h4` e, e
 O código deve adicionar uma tag `s` ao código html.
 
 ```js
-assert($('s').length == 1);
+assert.lengthOf(document.querySelectorAll('s'),1);
 ```
 
 A tag `s` deve envolver o texto `Google` na tag `h4`. A palavra `Alphabet` não deve estar tachada.
 
 ```js
-assert(
-  $('h4 > s')
-    .text()
-    .match(/Google/gi) &&
-    !$('h4 > s')
-      .text()
-      .match(/Alphabet/gi)
-);
+assert.match(document.querySelector('h4 > s')?.textContent, /Google/gi);
+assert.notMatch(document.querySelector('h4 > s')?.textContent, /Alphabet/gi);
 ```
 
 Você deve incluir a palavra `Alphabet` na tag `h4`, sem deixá-la tachada.
 
 ```js
-assert(
-  $('h4')
-    .html()
-    .match(/Alphabet/gi)
-);
+assert.match(document.querySelector('h4')?.innerHTML, /Alphabet/gi);
 ```
 
 # --seed--

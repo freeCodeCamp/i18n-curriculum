@@ -19,30 +19,20 @@ dashedName: use-the-s-tag-to-strikethrough-text
 コード内でマークアップに `s` タグを 1 つ追加する必要があります。
 
 ```js
-assert($('s').length == 1);
+assert.lengthOf(document.querySelectorAll('s'),1);
 ```
 
 `s` タグは `h4` タグ内の `Google` のテキストを囲む必要があります。 これには単語 `Alphabet` を含めないでください。
 
 ```js
-assert(
-  $('h4 > s')
-    .text()
-    .match(/Google/gi) &&
-    !$('h4 > s')
-      .text()
-      .match(/Alphabet/gi)
-);
+assert.match(document.querySelector('h4 > s')?.textContent, /Google/gi);
+assert.notMatch(document.querySelector('h4 > s')?.textContent, /Alphabet/gi);
 ```
 
 `h4` タグの中に、`Alphabet` という単語が取り消し線がない状態で含まれている必要があります。
 
 ```js
-assert(
-  $('h4')
-    .html()
-    .match(/Alphabet/gi)
-);
+assert.match(document.querySelector('h4')?.innerHTML, /Alphabet/gi);
 ```
 
 # --seed--

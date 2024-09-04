@@ -30,13 +30,17 @@ dashedName: create-visual-balance-using-the-text-align-property
 `h4` タグの text-align プロパティを使用し、`center` に設定してください。
 
 ```js
-assert($('h4').css('text-align') == 'center');
+const h4Element =document.querySelector('h4')
+const h4Style = window.getComputedStyle(h4Element);
+assert.equal(h4Style?.textAlign, 'center');
 ```
 
 `p` タグの text-align プロパティを使用し、`justify` に設定してください。
 
 ```js
-assert($('p').css('text-align') == 'justify');
+const pElement =document.querySelector('p')
+const pStyle = window.getComputedStyle(pElement);
+assert.equal(pStyle?.textAlign, 'justify');
 ```
 
 # --seed--

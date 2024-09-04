@@ -21,13 +21,13 @@ Recuerda que puedes agregar varias clases al mismo elemento separando cada una d
 Tu elemento `h2` debe estar centrado al aplicar la clase `text-center`
 
 ```js
-assert($('h2').hasClass('text-center'));
+assert.isTrue(document.querySelector('h2')?.classList?.contains('text-center'));
 ```
 
 Tu elemento `h2` debe conservar la clase `red-text`
 
 ```js
-assert($('h2').hasClass('red-text'));
+assert.isTrue(document.querySelector('h2')?.classList?.contains('red-text'));
 ```
 
 # --seed--

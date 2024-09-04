@@ -26,7 +26,9 @@ Um den Ball auf der rechten Seite ununterbrochen springen zu lassen, ändere die
 Die Eigenschaft `animation-iteration-count` sollte einen Wert von `infinite` haben.
 
 ```js
-assert($('#ball').css('animation-iteration-count') == 'infinite');
+const ballElement = document.querySelector('#ball');
+const ballStyle = window.getComputedStyle(ballElement); 
+assert.equal(ballStyle?.animationIterationCount, 'infinite');
 ```
 
 # --seed--
