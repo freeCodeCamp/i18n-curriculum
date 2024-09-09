@@ -7,9 +7,9 @@ dashedName: step-31
 
 # --description--
 
-Inside your `select` element, add the following five `option` elements with these corresponding values for the option text and `value` attribute:
+Dentro do elemento `select`, adicione os seguintes cinco elementos `option` com esses valores correspondentes para o texto dos atributos `value` e `option`:
 
-**Value Attribute:**
+**Atributo value:**
 
 - poor
 - satisfactory
@@ -17,7 +17,7 @@ Inside your `select` element, add the following five `option` elements with thes
 - very-good
 - excellent
 
-**Option Text:**
+**Texto de option:**
 
 - Poor
 - Satisfactory
@@ -26,73 +26,73 @@ Inside your `select` element, add the following five `option` elements with thes
 - Excellent
 
 
-Don't forget to add the `selected` attribute to the `option` element with the value of `"excellent"`.
+Não se esqueça de adicionar o atributo `selected` ao elemento `option` com o valor `"excellent"`.
 
 # --hints--
 
-You should have an `option` element with the value set to `"poor"`.
+Você deve ter um elemento `option` com o valor definido como `"poor"`.
 
 ```js
 assert(document.querySelector('fieldset:nth-of-type(4) select#food option[value="poor"]'));
 ```
 
-Your `option` with the `value` of `"poor"` should have the text `"Poor"`.
+O elemento `option` com o `value` de `"poor"` deve ter o texto `"Poor"`.
 
 ```js
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="poor"]').textContent, 'Poor');
 ```
 
-You should have an `option` element with the `value` set to `"satisfactory"`.
+Você deve ter um elemento `option` com o `valor` definido como `"satisfactory"`.
 
 ```js
 assert(document.querySelector('fieldset:nth-of-type(4) select#food option[value="satisfactory"]'));
 ```
 
-Your `option` with the `value` of `"satisfactory"` should have the text `"Satisfactory"`.
+O elemento `option` com o `value` de `"satisfactory"` deve ter o texto `"Satisfactory"`.
 
 ```js
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="satisfactory"]').textContent, 'Satisfactory');
 ```
 
-You should have an `option` element with the `value` set to `"good"`.
+Você deve ter um elemento `option` com o `valor` definido como `"good"`.
 
 ```js
 assert(document.querySelector('fieldset:nth-of-type(4) select#food option[value="good"]'));
 ```
 
-Your `option` with the `value` of `"good"` should have the text `"Good"`.
+O elemento `option` com o `value` de `"good"` deve ter o texto `"Good"`.
 
 ```js
 
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="good"]').textContent, 'Good');
 ```
 
-You should have an `option` element with the value set to `"very-good"`.
+Você deve ter um elemento `option` com o valor definido como `"very-good"`.
 
 ```js
 assert(document.querySelector('fieldset:nth-of-type(4) select#food option[value="very-good"]'));
 ```
 
-Your `option` with the `value` of `"very-good"` should have the text `"Very Good"`.
+O elemento `option` com o `value` de `"very-good"` deve ter o texto `"Very Good"`.
 
 ```js
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="very-good"]').textContent, 'Very Good');
 ```
 
-You should have an `option` element with the value set to `"excellent"`.
+Você deve ter um elemento `option` com o valor definido como `"excellent"`.
 
 ```js
 assert(document.querySelector('fieldset:nth-of-type(4) select#food option[value="excellent"]'));
 ```
 
-Your `option` with the `value` of `"excellent"` should have the text `"Excellent"`.
+O elemento `option` com o `value` de `"excellent"` deve ter o texto `"Excellent"`.
 
 ```js
 
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="excellent"]').textContent, 'Excellent');
 ```
 
-You should have an `option` element with the `selected` attribute set to `"excellent"`.
+Você deve ter um elemento `option` com o atributo `selected` definido como `"excellent"`.
 
 ```js
 assert(document.querySelector('fieldset:nth-of-type(4) select#food option[value="excellent"][selected]'));

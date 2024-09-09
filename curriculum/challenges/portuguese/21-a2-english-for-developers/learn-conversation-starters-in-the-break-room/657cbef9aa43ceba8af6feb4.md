@@ -9,9 +9,9 @@ dashedName: task-49
 
 # --description--
 
-When you like doing something very much, you can say you `enjoy` it. It's a simple way to express that something makes you happy.
+Quando você gosta muito de fazer algo, você pode dizer que `enjoy` isso. É uma maneira simples de expressar que algo faz você feliz.
 
-For example, you can say, `I enjoy playing video games` if playing video games is fun for you. In the dialogue, Sophie tells us something that Maria enjoys in her job.
+Por exemplo, você pode dizer, `I enjoy playing video games` se jogar video games é divertido para você. No diálogo, Sophie nos conta algo que Maria aprecia em seu trabalho.
 
 # --fillInTheBlank--
 
@@ -25,7 +25,7 @@ For example, you can say, `I enjoy playing video games` if playing video games i
 
 ### --feedback--
 
-What word would you use to say that Maria finds happiness in guiding the team? It's the same word used when you have fun or like doing an activity.
+Que palavra você usaria para dizer que Maria encontra felicidade em liderar a equipe? É a mesma palavra usada quando você se diverte ou gosta de fazer uma atividade.
 
 # --cena--
 
