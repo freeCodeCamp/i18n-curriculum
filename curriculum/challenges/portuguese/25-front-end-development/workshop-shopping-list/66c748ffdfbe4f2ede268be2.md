@@ -7,13 +7,13 @@ dashedName: step-20
 
 # --description--
 
-In this final step of the workshop, log the final grocery list to the console.
+Na etapa final do workshop, registre a lista de compras final no console.
 
-And with this last step your grocery list is complete!
+Com este último passo, a lista de compras está completa!
 
 # --hints--
 
-You should log the `shoppingList` array to the console.
+Você deve exibir o array `shoppingList` no console.
 
 ```js
 assert.match(code, /console\.log\(\s*shoppingList\s*\)/);
