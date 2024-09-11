@@ -1,31 +1,31 @@
 ---
 id: 637633162724a688c04636e4
-title: HTML Foundations Lesson H
+title: Lição H sobre Fundamentos de HTML
 challengeType: 15
 dashedName: html-foundations-lesson-h
 ---
 
 # --description--
 
-Many helpful resources out there keep referring to HTML and CSS as programming languages, but if you want to get technical, labeling them as such is not quite accurate. This is because they are only concerned with presenting information. They are not used to program logic. JavaScript, which you will learn in the next section, is a programming language because it’s used to make webpages do things. Yet, there is quite a lot you can do with just HTML and CSS, and you will definitely need them both. Throughout our curriculum, the following lessons focus on giving you the tools you need to succeed once you reach JavaScript content.
+Muitos recursos úteis seguem se referindo ao HTML e ao CSS como linguagens de programação. Se quisermos ser técnicos, no entanto, chamá-las assim não é algo preciso. Isso ocorre porque se tratam apenas de apresentar informações. Elas não são usadas para programar a lógica. O JavaScript, que você aprenderá na próxima seção, é uma linguagem de programação, pois é usada para fazer as páginas da web fazerem coisas. No entanto, há muito que você pode fazer apenas com o HTML e o CSS – e você, definitivamente, vai precisar dos dois. As lições a seguir visam dar a você as ferramentas necessárias para que possa seguir com sucesso ao alcançar o conteúdo do JavaScript.
 
 # --question--
 
 ## --text--
 
-Why are HTML and CSS not typically classified as programming languages?
+Por que HTML e CSS não são tipicamente classificados como linguagens de programação?
 
 ## --answers--
 
-They lack the ability to create webpages.
+Eles não têm a capacidade de criar páginas da web.
 
 ---
 
-They focus on presenting information rather than programming logic.
+Eles se concentram em apresentar informação e não na lógica da programação.
 
 ---
 
-They are outdated technologies.
+Eles são tecnologias ultrapassadas.
 
 ## --video-solution--
 

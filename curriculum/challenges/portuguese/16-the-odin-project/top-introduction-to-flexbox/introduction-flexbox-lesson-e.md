@@ -1,6 +1,6 @@
 ---
 id: 6571b300cc1de61d7b4dd383
-title: Introduction to Flexbox Lesson E
+title: Lição E de Introdução ao Flexbox
 challengeType: 15
 dashedName: introduction-flexbox-lesson-e
 ---

@@ -18,7 +18,7 @@ Watch and follow along to Kevin Powell’s brilliant Building your first web pag
 
 ---
 
-Build some muscle memory by deleting the contents of the `index.html` file and trying to write out all the boilerplate again from memory. Don’t worry if you have to peek at the lesson content the first few times if you get stuck. Just keep going until you can do it a couple of times from memory.
+Build some muscle memory by deleting the contents of the `index.html` file and trying to write out all the boilerplate again from memory. Não se preocupe se precisar dar uma olhada no conteúdo da lição nas primeiras vezes caso não saiba o que fazer. Just keep going until you can do it a couple of times from memory.
 
 ---
 

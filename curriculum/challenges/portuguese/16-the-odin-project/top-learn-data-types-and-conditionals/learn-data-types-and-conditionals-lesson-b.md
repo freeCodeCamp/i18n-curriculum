@@ -31,15 +31,15 @@ The `trim()` method should be used to only remove the trailing space from the st
 
 ---
 
-The `replace()` method should be used to only remove the trailing space from the string.
+O método `replace()` deve ser usado para remover apenas o espaço à direita da string.
 
 ---
 
-The `trimEnd()` method should be used to only remove the trailing space from the string.
+O método `trimEnd()` deve ser usado para remover apenas o espaço à direita da string.
 
 ---
 
-The `trimStart()` method should be used to only remove the trailing space from the string.
+O método `trimStart()` deve ser usado para remover apenas o espaço à direita da string.
 
 ## --video-solution--
 

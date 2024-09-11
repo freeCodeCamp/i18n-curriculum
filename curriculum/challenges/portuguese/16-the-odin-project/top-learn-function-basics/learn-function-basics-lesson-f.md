@@ -1,6 +1,6 @@
 ---
 id: 6617aef85b87c334e7ae8017
-title: Learn Function Basics Lesson F
+title: Lição F de Aprenda funções básicas
 challengeType: 15
 dashedName: learn-function-basics-lesson-f
 ---

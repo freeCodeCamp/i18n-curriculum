@@ -1,19 +1,19 @@
 ---
 id: 65e1957a500d930ce8ed90a6
-title: Learn Variables and Operators Lesson C
+title: Lição C de Aprenda variáveis e operadores
 challengeType: 15
 dashedName: learn-variables-and-operators-lesson-c
 ---
 
 # --description--
 
-To declare a constant (unchanging) variable, use `const` instead of `let`:
+Para declarar uma constante (uma "variável inalterável"), use `const` em vez de `let`:
 
 ```javascript
 const myBirthday = '16-09-2003';
 ```
 
-Variables declared using `const` are called "constants". They cannot be reassigned. An attempt to do so would cause an error:
+Variáveis declaradas usando `const` são chamadas de "constantes". Elas não podem ser reatribuídas. Uma tentativa de fazer isso causaria um erro:
 
 ```javascript
 const myBirthday = '16-09-2003';
@@ -21,29 +21,29 @@ const myBirthday = '16-09-2003';
 myBirthday = '01-01-2001'; // error, can't reassign the constant!
 ```
 
-When a programmer is sure that a variable will never change, they can declare it with `const` to guarantee and communicate that fact to everyone.
+Quando um programador tem certeza de que uma variável nunca mudará, ele pode declará-la com `const` para garantir isso e para comunicar esse fato a todos.
 
 # --question--
 
 ## --text--
 
-What is the result of attempting to reassign a `const` declared variable in JavaScript?
+Qual é o resultado de tentar reatribuir uma variável declarada com `const` em JavaScript?
 
 ## --answers--
 
-The reassignment succeeds with no errors.
+A reatribuição ocorre sem erros.
 
 ---
 
-An error is thrown because `const` declared variables cannot be reassigned.
+Um erro é lançado porque variáveis declaradas com `const` não podem ser reatribuídas.
 
 ---
 
-JavaScript silently ignores the reassignment.
+O JavaScript ignora silenciosamente a reatribuição.
 
 ---
 
-The variable type is automatically changed to `let`.
+O tipo da variável é automaticamente alterado para `let`.
 
 
 ## --video-solution--

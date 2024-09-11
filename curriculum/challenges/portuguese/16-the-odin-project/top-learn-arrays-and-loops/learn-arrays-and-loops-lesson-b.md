@@ -1,15 +1,15 @@
 ---
 id: 661e27568602567c118451d2
-title: Learn Arrays and Loops Lesson B
+title: Lição B de Aprenda arrays e laços
 challengeType: 15
 dashedName: learn-arrays-and-loops-lesson-b
 ---
 
 # --description--
 
-To access the elements of an array, you can use the index number. The index number starts from 0, so the first element of an array is at index 0, the second element is at index 1, and so on.
+Para acessar os elementos de um array, você pode usar o número do índice. O número do índice começa de 0. Por isso, o primeiro elemento de um array está no índice 0, o segundo elemento está no índice 1 e assim por diante.
 
-For example, to access the first element of the `fruits` array, you can use the following code:
+Por exemplo, para acessar o primeiro elemento do array `fruits`, você pode usar o seguinte código:
 
 ```javascript
 const fruits = ['apple', 'banana', 'orange'];
@@ -17,14 +17,14 @@ console.log(fruits[0]); // Output: apple
 console.log(fruits[2]); // Output: orange
 ```
 
-If the index is out of range, JavaScript will return `undefined`. Meaning that if you try to access `fruits[3]` in the above example, it will return `undefined`.
+Se o índice estiver fora do intervalo, o JavaScript retornará `undefined`. Isso significa que, se você tentar acessar `fruits[3]` no exemplo acima, ele retornará `undefined`.
 
 
 # --question--
 
 ## --text--
 
-What is the element at the fourth index of the `fruits` array?
+Qual é o elemento no quarto índice do array `fruits`?
 
 ## --answers--
 

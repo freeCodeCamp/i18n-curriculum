@@ -1,6 +1,6 @@
 ---
 id: 661e27598602567c118451d6
-title: Learn Arrays and Loops Lesson F
+title: Lição F de Aprenda arrays e laços
 challengeType: 15
 dashedName: learn-arrays-and-loops-lesson-f
 ---

@@ -1,13 +1,13 @@
 ---
 id: 6489cf5882cf2e4f86f03ae5
-title: The Cascade of CSS Lesson D
+title: Lição D sobre a cascata do CSS
 challengeType: 15
 dashedName: the-cascade-of-css-lesson-d
 ---
 
 # --description--
 
-Now, let’s change things a little bit:
+Agora, vamos mudar um pouco as coisas:
 
 ```html
 <!-- index.html -->
@@ -29,29 +29,29 @@ Now, let’s change things a little bit:
 }
 ```
 
-In the example above, despite rule 2 having more class selectors than ID selectors, rule 1 is more specific because ID beats class.
+No exemplo acima, apesar da regra 2 ter mais seletores de classe do que seletores de ID, a regra 1 é mais específica porque ID sempre vence a classe.
 
 # --question--
 
 ## --text--
 
-Based on the modified HTML and CSS code, which color would the `<div class="list" id="subsection"></div>` element be rendered as?
+Com base no código HTML e CSS modificado, com qual cor o elemento `<div class="list" id="subsection"></div>` seria renderizado?
 
 ## --answers--
 
-orange
+laranja
 
 ---
 
-red
+vermelho
 
 ---
 
-blue
+azul
 
 ---
 
-cyan
+ciano
 
 ## --video-solution--
 
