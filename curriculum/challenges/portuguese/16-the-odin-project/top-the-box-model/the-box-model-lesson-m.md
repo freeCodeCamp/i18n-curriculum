@@ -1,19 +1,19 @@
 ---
 id: 64a674c27a7d00f97013ed14
 videoId: rIO5326FgPE
-title: The Box Model Lesson M
+title: Lição M sobre o modelo de caixas
 challengeType: 15
 dashedName: the-box-model-lesson-m
 --- 
 # --description--
 
-Because the box model concept is so incredibly fundamental, let’s dig a bit deeper with <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#what_is_the_css_box_model" target="_blank">this lesson from MDN</a>. It covers the same material as the video above and will introduce you to inline boxes that we will explore in the next lesson. Pay close attention to the examples and take the time to experiment with their in-browser editor!
+Como o conceito do modelo de caixas é incrivelmente fundamental, vamos nos aprofundar um pouco com <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#what_is_the_css_box_model" target="_blank">esta lição do MDN</a>. Ela trata do mesmo material que o vídeo acima e apresentará caixas em linha, das quais trataremos na próxima lição. Preste muita atenção aos exemplos e reserve um tempo para experimentar com o editor no navegador!
 
 # --question--
 
 ## --text--
 
-How do you set the alternative box model for all of your elements?
+Como você define o modelo de caixas alternativo para todos os elementos?
 
 ## --answers--
 

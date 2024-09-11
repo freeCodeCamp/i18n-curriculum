@@ -1,41 +1,41 @@
 ---
 id: 6489c96782cf2e4f86f03ae2
-title: The Cascade of CSS Lesson B
+title: Lição B sobre a cascata do CSS
 challengeType: 15
 dashedName: the-cascade-of-css-lesson-b
 ---
 
 # --description--
 
-A CSS declaration that is more specific will take precedence over less specific ones. Inline styles, which you went over in a previous lesson, have the highest specificity compared to selectors, while each type of selector has its own specificity level that contributes to how specific a declaration is. Other selectors contribute to specificity, but you're focusing only on the ones you’ve gone over so far:
+Uma declaração de CSS mais específica terá precedência sobre as declarações menos específicas. Estilos em linha, que você viu em uma lição anterior, têm a mais alta especificidade comparada aos seletores, enquanto cada tipo de seletor tem seu próprio nível de especificidade, que contribui para a declaração ser mais ou menos específica. Outros seletores contribuem para a especificidade, mas concentre-se apenas naqueles que você viu até agora:
 
-1. ID selectors (most specific selector)
-2. Class selectors
-3. Type selectors
+1. Seletores de ID (seletor mais específico)
+2. Seletores de classe
+3. Seletores de tipo
 
-Specificity will only be taken into account when an element has multiple, conflicting declarations targeting it, sort of like a tie-breaker. An ID selector will always beat any number of class selectors, a class selector will always beat any number of type selectors, and a type selector will always beat any number of anything less specific than it. When no declaration has a selector with a higher specificity, a larger amount of a single selector will beat a smaller amount of that same selector.
+A especificidade só será levada em conta quando um elemento tiver declarações múltiplas e conflitantes que o tenham como alvo, uma espécie de critério de desempate. Um seletor de ID sempre vencerá qualquer número de seletores de classe, um seletor de classe sempre vencerá qualquer número de seletores de tipo e um seletor de tipo sempre vencerá qualquer número de algo menos específico que ele. Quando nenhuma declaração tem um seletor com uma especificidade superior, uma quantidade maior de um único seletor vencerá uma quantidade menor desse mesmo seletor.
 
 # --question--
 
 ## --text--
 
-Which of the following is the correct order of specificity for CSS selectors, from most specific to least specific?
+Qual das seguintes opções é a ordem correta de especificidade para os seletores do CSS, do mais específico ao menos específico?
 
 ## --answers--
 
-Type selectors, class selectors, ID selectors
+Seletores de tipo, seletores de classe, seletores de ID
 
 ---
 
-ID selectors, class selectors, type selectors
+Seletores de ID, seletores de classe, seletores de tipos
 
 ---
 
-Class selectors, type selectors, ID selectors
+Seletores de classe, seletores de tipo, seletores de ID
 
 ---
 
-ID selectors, type selectors, class selectors
+Seletores de ID, seletores de tipo, seletores de classe
 
 ## --video-solution--
 

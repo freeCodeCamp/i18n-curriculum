@@ -1,6 +1,6 @@
 ---
 id: 65704484e7b02272663824e7
-title: Learn Block and Inline Lesson I
+title: Lição I de Aprenda sobre block e inline
 challengeType: 15
 dashedName: learn-block-and-inline-lesson-i
 ---

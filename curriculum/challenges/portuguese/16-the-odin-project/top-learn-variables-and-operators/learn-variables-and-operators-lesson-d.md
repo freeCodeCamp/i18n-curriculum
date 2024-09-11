@@ -1,25 +1,25 @@
 ---
 id: 65e1985e500d930ce8ed90a7
-title: Learn Variables and Operators Lesson D
+title: Lição D de Aprenda variáveis e operadores
 challengeType: 15
 dashedName: learn-variables-and-operators-lesson-d
 ---
 
 # --description--
 
-There are two limitations on variable names in JavaScript:
+Existem duas limitações nos nomes de variáveis em JavaScript:
 
-1. The name must contain only letters, digits, or the symbols `$` and `_`.
-1. The first character must not be a digit.
+1. O nome deve conter apenas letras, dígitos ou os símbolos `$` e `_`.
+1. O primeiro caractere não deve ser um dígito.
 
-Examples of valid names:
+Exemplos de nomes válidos:
 
 ```js
 let userName;
 let test123;
 ```
 
-What’s interesting – the dollar sign `'$'` and the underscore `'_'` can also be used in names. They are regular symbols, just like letters, without any special meaning.
+Uma coisa interessante: o símbolo de cifrão, `'$'`, e o sublinhado, `'_'`, também podem ser usados em nomes. They are regular symbols, just like letters, without any special meaning.
 
 These names are valid:
 

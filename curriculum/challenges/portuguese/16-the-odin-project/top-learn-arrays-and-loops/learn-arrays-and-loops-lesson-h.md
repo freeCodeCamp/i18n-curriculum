@@ -1,13 +1,13 @@
 ---
 id: 661e275a8602567c118451d8
-title: Learn Arrays and Loops Lesson H
+title: Lição H de Aprenda arrays e laços
 challengeType: 15
 dashedName: learn-arrays-and-loops-lesson-h
 ---
 
 # --description--
 
-One other useful array method is the `filter()` method. The `filter()` method creates a new array with all elements that pass the test implemented by the provided function. The syntax of the `filter()` method is as follows:
+Um outro método útil de array é o método `filter()`. O método `filter()` cria um novo array com todos os elementos que passam no teste implementado pela função fornecida. A sintaxe do método `filter()` é a seguinte:
 
 ```javascript
 const numbers = [2, 5, 6, 1, 9, -1]
@@ -19,13 +19,13 @@ const newNumbers = numbers.filter((number) => {
 console.log(newNumbers); // Output: [5, 6, 9]
 ```
 
-The `filter()` method creates a new array with all elements that are greater than 2. The `filter()` method does not change the original array.
+O método `filter()` cria um array com todos os elementos que são maiores que 2. O método `filter()` não altera o array original.
 
 # --question--
 
 ## --text--
 
-What will be the output of the following JavaScript code snippet?
+Como será a saída do seguinte trecho de código em JavaScript?
 
 ```javascript
 const strings = ['apple', 'banana', 'cherry', 'orange', 'kiwi', 'mango'];

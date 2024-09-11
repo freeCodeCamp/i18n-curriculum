@@ -1,7 +1,7 @@
 ---
 id: 63ee351d0d8d4841c3a7091a
 videoId: LGQuIIv2RVA
-title: CSS Foundations Lesson A
+title: Lição A sobre os fundamentos do CSS
 challengeType: 15
 dashedName: css-foundations-lesson-a
 ---

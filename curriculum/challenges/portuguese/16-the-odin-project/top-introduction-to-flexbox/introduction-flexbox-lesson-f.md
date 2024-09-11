@@ -1,39 +1,39 @@
 ---
 id: 6571b300cc1de61d7b4dd384
-title: Introduction to Flexbox Lesson F
+title: Lição F de Introdução ao Flexbox
 challengeType: 15
 dashedName: introduction-flexbox-lesson-f
 ---
 
 # --description--
 
-`flex-grow` expects a single number as its value, and that number is used as the flex-item's "growth factor". When you applied `flex: 1` to every div inside our container, you were telling every div to grow the same amount. The result of this is that every div ends up the exact same size. If you instead add `flex: 2` to just one of the divs, then that div would grow to 2x the size of the others.
+`flex-grow` espera um único número como seu valor, e esse número é usado como o "fator de crescimento" do flex-item. Quando você aplicou `flex: 1` a cada div dentro de nosso contêiner, estava dizendo a cada div para crescer a mesma quantidade. O resultado disso é que cada div acaba tendo exatamente o mesmo tamanho. Se, em vez disso, você adicionar `flex: 2` a apenas uma das divs, então essa div crescerá 2x mais que o tamanho dos outras.
 
-In the following example the `flex` shorthand has values for `flex-shrink` and `flex-basis` specified with their default values.
+No exemplo a seguir, o atalho `flex` possui valores para `flex-shrink` e `flex-basis` especificados com seus valores padrão.
 
-<iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="300" width="100%" name="cp_embed_1" scrolling="no" src="https://codepen.io/TheOdinProjectExamples/embed/YzQqvgK?height=300&amp;default-tab=html%2Cresult&amp;slug-hash=YzQqvgK&amp;editable=true&amp;user=TheOdinProjectExamples&amp;name=cp_embed_1" style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy" id="cp_embed_YzQqvgK"></iframe>
+<iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="300" width="100%" name="cp_embed_1" scrolling="no" src="https://codepen.io/TheOdinProjectExamples/embed/YzQqvgK?height=300&amp;default-tab=html%2Cresult&amp;slug-hash=YzQqvgK&amp;editable=true&amp;user=TheOdinProjectExamples&amp;name=cp_embed_1" style="width: 100%; overflow:hidden; display:block;" title="CodePen incorporado" loading="lazy" id="cp_embed_YzQqvgK"></iframe>
 
 # --question--
 
 ## --text--
 
-What does setting `flex: 2` to one specific div inside a flex container, while other divs have `flex: 1`, imply?
+O que significa definir `flex: 2` para uma div específica dentro de um contêiner flex, enquanto as outras divs têm `flex: 1`?
 
 ## --answers--
 
-The container will shrink to accommodate the larger div.
+O contêiner se ajustará para acomodar a div maior.
 
 ---
 
-All divs will retain the same size due to conflicting `flex` values.
+Todas as divs manterão o mesmo tamanho devido aos valores de `flex` conflitantes.
 
 ---
 
-The specific div will grow to be twice the size of the others.
+A div específica crescerá para ser duas vezes o tamanho das outras.
 
 ---
 
-All divs will shrink equally to adjust to the new `flex` values.
+Todas as divs vão encolher igualmente para se ajustar aos novos valores de `flex`.
 
 ## --video-solution--
 

@@ -1,41 +1,41 @@
 ---
 id: 65e9725a484dd50f720e6fe9
-title: Learn Data Types and Conditionals Lesson D
+title: Lição D de Aprenda tipos de dados e condicionais
 challengeType: 15
 dashedName: learn-data-types-and-conditionals-lesson-d
 ---
 
 # --description--
 
-Seeing the example below You want to know the index of the last occurence of the word `The` in the string.
+Ao ver o exemplo abaixo, você vai querer descobrir o índice da última ocorrência da palavra `The` na string.
 
 ```javascript
 let sentence = "freeCodeCamp loves The Odin Project! The Odin Project is great!";
 ```
 
-<a href="https://www.freecodecamp.org/news/javascript-string-handbook" target="_blank"> Link to Guide </a>
+<a href="https://www.freecodecamp.org/news/javascript-string-handbook" target="_blank"> Link para o guia </a>
 
 # --question--
 
 ## --text--
 
-Which method should be used to find the index of the last occurence of the word `The` in the string?
+Que método deve ser usado para encontrar o índice da última ocorrência da palavra `The` na string?
 
 ## --answers--
 
-The `includes()` method should be used to find the index of the last occurence of the word `The` in the string.
+O método `includes()` deve ser usado para encontrar o índice da última ocorrência da palavra `The` na string.
 
 ---
 
-The `lastIndexOf()` method should be used to find the index of the last occurence of the word `The` in the string.
+O método `lastIndexOf()` deve ser usado para encontrar o índice da última ocorrência da palavra `The` na string.
 
 ---
 
-The `indexOf()` method should be used to find the index of the last occurence of the word `The` in the string.
+O método `indexOf()` deve ser usado para encontrar o índice da última ocorrência da palavra `The` na string.
 
 ---
 
-The `search()` method should be used to find the index of the last occurence of the word `The` in the string.
+O método `search()` deve ser usado para encontrar o índice da última ocorrência da palavra `The` na string.
 
 ## --video-solution--
 

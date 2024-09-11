@@ -1,6 +1,6 @@
 ---
 id: 66581a7eb1eb228115949300
-title: Learn to Solve Problems and Understand Errors Lesson G
+title: Lição G de Aprenda a resolver problemas e a entender erros
 challengeType: 15
 dashedName: learn-to-solve-problems-and-understand-errors-lesson-g
 ---

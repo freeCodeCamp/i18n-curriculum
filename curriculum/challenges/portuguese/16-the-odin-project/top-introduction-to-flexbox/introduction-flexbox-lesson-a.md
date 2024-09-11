@@ -1,6 +1,6 @@
 ---
 id: 6571b2fccc1de61d7b4dd37f
-title: Introduction to Flexbox Lesson A
+title: Lição A de Introdução ao Flexbox
 challengeType: 15
 dashedName: introduction-flexbox-lesson-a
 ---
@@ -9,11 +9,11 @@ dashedName: introduction-flexbox-lesson-a
 
 ## Before we get started
 
-Flexbox layouts can get a little complicated. In a previous lesson, you learned how to inspect and debug things using your browser’s developer tools. Those tools will be crucial for you in the following lessons. If something isn’t behaving the way you expect, inspecting it in the developer tools should be your first step every time.
+Flexbox layouts can get a little complicated. Em uma lição anterior, você aprendeu como inspecionar e depurar coisas usando as ferramentas de desenvolvedor do seu navegador. Those tools will be crucial for you in the following lessons. If something isn’t behaving the way you expect, inspecting it in the developer tools should be your first step every time.
 
-Flexbox isn’t necessarily any more difficult than the other concepts that we’ve covered so far, but it does have a few more moving parts. It is going to be somewhat difficult to make use of any of the things you’re learning in these first lessons until you get to the end and can put it all together. As we go, do yourself a favor and <strong>play with all of the code examples.</strong>
+Flexbox isn’t necessarily any more difficult than the other concepts that we’ve covered so far, but it does have a few more moving parts. Vai ser um pouco difícil usar qualquer uma das coisas que você está aprendendo nestas primeiras lições até chegar ao fim e conseguir juntar tudo. As we go, do yourself a favor and <strong>play with all of the code examples.</strong>
 
-You will almost definitely need to come back and reference these lessons (or a couple of the resources we share with you) when you get to the assignments at the end of the section, but if you take your time and experiment with all the code examples we provide, you’ll know better where to look when that time comes.
+Você quase definitivamente precisará voltar e se referir a essas lições (ou a alguns dos recursos que compartilhamos com você) quando chegar às atividades no final da seção, mas se você levar seu tempo e experimentar todos os exemplos de código que fornecemos, saberá melhor onde procurar quando esse momento chegar.
 
 ## Let’s flex
 

@@ -1,6 +1,6 @@
 ---
 id: 66581a7ab1eb2281159492fb
-title: Learn to Solve Problems and Understand Errors Lesson B
+title: Lição B de Aprenda a resolver problemas e a entender erros
 challengeType: 15
 dashedName: learn-to-solve-problems-and-understand-errors-lesson-b
 ---

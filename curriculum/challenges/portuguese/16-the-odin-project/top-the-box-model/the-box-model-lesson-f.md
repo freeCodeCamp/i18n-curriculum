@@ -1,14 +1,14 @@
 ---
 id: 64a66c917a7d00f97013ed0d
-title: The Box Model Lesson F
+title: Lição F sobre o modelo de caixas
 challengeType: 15
 dashedName: the-box-model-lesson-f
 --- 
 # --description--
 
-The first important concept that you need to understand to be successful in CSS is the box model. It isn’t complicated, but skipping over it now will cause you much frustration down the line.
+O primeiro conceito importante que você precisa entender para ter sucesso em CSS é o modelo de caixas. Não é complicado, mas ignorá-lo agora causará muita frustração mais tarde.
 
-Every single thing on a webpage is a rectangular box. These boxes can have other boxes in them and can sit alongside one another. You can get a rough idea of how this works by sticking a border on every item on the page like this:
+Cada objeto em uma página é uma caixa retangular. Essas caixas podem ter outras caixas dentro elas e/ou ficar lado a lado. Você pode ter uma ideia aproximada de como isso funciona colocando uma borda em cada item da página, assim:
 
 ```css
 * {
@@ -18,29 +18,29 @@ Every single thing on a webpage is a rectangular box. These boxes can have other
 
 # --assignment--
 
-Add a border to every element on the page and see how the boxes are laid out.
+Adicione uma borda a cada elemento na página e veja como as caixas são traçadas.
 
 # --question--
 
 ## --text--
 
-What is the fundamental concept in CSS that helps you understand the structure of elements as rectangular boxes?
+Qual é o conceito fundamental em CSS que ajuda você a entender a estrutura de elementos como caixas retangulares?
 
 ## --answers--
 
-Box-sizing
+Tamanho das caixas
 
 ---
 
-Box-shadow
+Sombra das caixas
 
 ---
 
-Box model
+Modelo de caixas
 
 ---
 
-Border-box
+Borda das caixas
 
 
 ## --video-solution--

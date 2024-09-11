@@ -1,6 +1,6 @@
 ---
 id: 6571c34868e4b3b17d3957fb
-title: Introduction to Flexbox Lesson J
+title: Lição J de Introdução ao Flexbox
 challengeType: 15
 dashedName: introduction-flexbox-lesson-j
 ---
@@ -25,7 +25,7 @@ Remove `flex: 1` from `.item` and add `justify-content: space-between` to `.cont
 
 ## --assignment--
 
-Before moving on to the next lesson, see what is possible with the `justify-content` property. Read this [interactive article on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content) and play around with the different values of `justify-content` on the example.
+Antes de passar para a próxima lição, veja o que é possível com a propriedade `justify-content`. Read this [interactive article on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content) and play around with the different values of `justify-content` on the example.
 
 ## --text--
 
