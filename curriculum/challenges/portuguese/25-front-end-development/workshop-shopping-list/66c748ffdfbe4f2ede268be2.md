@@ -7,7 +7,7 @@ dashedName: step-20
 
 # --description--
 
-Na etapa final do workshop, registre a lista de compras final no console.
+No passo final do workshop, registre a lista de compras final no console.
 
 Com este último passo, a lista de compras está completa!
 

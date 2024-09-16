@@ -8,9 +8,9 @@ dashedName: prevent-ie-from-opening-untrusted-html-with-helmet-ienoopen
 
 # --description--
 
-As a reminder, this project is being built upon the following starter project on <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-infosec/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>, or cloned from <a href="https://github.com/freeCodeCamp/boilerplate-infosec/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
+Como recordatorio, este proyecto se está construyendo según el siguiente proyecto inicial en <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-infosec/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>, o clonando desde <a href="https://github.com/freeCodeCamp/boilerplate-infosec/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
 
-Algunas aplicaciones web servirán HTML no confiable en la descarga. Algunas versiones de Internet Explorer por defecto abren estos archivos HTML en el contexto de tu sitio web. Esto significa que una página HTML no confiable podría haber empezado a hacer cosas malas en el contenido de tus páginas. Este middleware ajusta la cabecera X-Download-Options en noopen. This will prevent IE users from executing downloads in the trusted site's context.
+Algunas aplicaciones web servirán HTML no confiable en la descarga. Algunas versiones de Internet Explorer por defecto abren estos archivos HTML en el contexto de tu sitio web. Esto significa que una página HTML no confiable podría haber empezado a hacer cosas malas en el contenido de tus páginas. Este middleware ajusta la cabecera X-Download-Options en noopen. Esto evitará que los usuarios de IE ejecuten descargas en el contexto de sitio de confianza.
 
 # --instructions--
 

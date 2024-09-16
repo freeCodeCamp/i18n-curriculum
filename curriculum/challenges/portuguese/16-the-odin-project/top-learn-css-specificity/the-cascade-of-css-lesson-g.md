@@ -1,15 +1,15 @@
 ---
 id: 6489cf7682cf2e4f86f03ae8
-title: The Cascade of CSS Lesson G
+title: Lição G sobre a cascata do CSS
 challengeType: 15
 dashedName: the-cascade-of-css-lesson-g
 ---
 
 # --description--
 
-Inheritance refers to certain CSS properties that, when applied to an element, are inherited by that element’s descendants, even if we don’t explicitly write a rule for those descendants. Typography based properties (`color`, `font-size`, `font-family`, etc.) are usually inherited, while most other properties aren’t.
+A herança se refere a certas propriedades do CSS que, quando aplicadas a um elemento, são herdados pelos descendentes desse elemento, mesmo se não escrevermos explicitamente uma regra para esses descendentes. Propriedades baseadas em tipografia (`color`, `font-size`, `font-family`, entre outras) são geralmente herdadas, enquanto a maioria das outras propriedades não é.
 
-The exception to this is when directly targeting an element, as this always beats inheritance:
+A exceção a isso é quando se tem um elemento como alvo diretamente, já que isso sempre vence a herança:
 
 ```html
 <!-- index.html -->
@@ -31,29 +31,29 @@ The exception to this is when directly targeting an element, as this always beat
 }
 ```
 
-Despite the `parent` element having a higher specificity with an ID, the `child` element would have the `color: blue` style applied since that declaration directly targets it, while `color: red` from the parent is only inherited.
+Apesar do elemento `parent` (pai) ter uma especificidade maior com um ID, o elemento `child` (filho) terá o estilo `color: blue` aplicado, pois essa declaração o tem como alvo diretamente, enquanto o estilo `color: red` do pai é apenas herdado.
 
 # --question--
 
 ## --text--
 
-Based on the given HTML and CSS code, what would be the color of the `<div class="child"></div>` element?
+Com base nos códigos HTML e CSS fornecidos, qual seria a cor do elemento `<div class="child"></div>`?
 
 ## --answers--
 
-Red
+Vermelho
 
 ---
 
-Blue
+Azul
 
 ---
 
-Inherited from the parent element
+Herdada do elemento pai
 
 ---
 
-Transparent
+Transparente
 
 ## --video-solution--
 

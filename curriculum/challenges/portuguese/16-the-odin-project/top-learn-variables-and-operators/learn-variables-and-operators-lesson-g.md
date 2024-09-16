@@ -1,17 +1,17 @@
 ---
 id: 65e1aaf8500d930ce8ed90aa
-title: Learn Variables and Operators Lesson G
+title: Lição G de Aprenda variáveis e operadores
 challengeType: 15
 dashedName: learn-variables-and-operators-lesson-g
 ---
 
 # --description--
 
-The plus `+` exists in two forms: the binary form that you used in the last challenge and the unary form.
+O sinal de mais `+` existe em duas formas: a forma binária que você usou no último desafio e a forma unária.
 
-The unary plus or, in other words, the plus operator `+` applied to a single value, doesn’t do anything to numbers. But if the operand is not a number, the unary plus converts it into a number.
+O sinal de mais unário ou, em outras palavras, o operador de mais `+` aplicado a um único valor, não faz nada com números. Se o operando, no entanto, não for um número, o mais unário o converte em um número.
 
-For example:
+Por exemplo:
 
 ```js
 // No effect on numbers
@@ -26,9 +26,9 @@ console.log( +true ); // 1
 console.log( +"" );   //
 ```
 
-The need to convert strings to numbers arises very often. For example, if you are getting values from HTML form fields, they are usually strings. What if you want to sum them?
+A necessidade de converter strings em números surge com muita frequência. Por exemplo, se você está obtendo valores de campos de formulário HTML, eles geralmente são strings. O que você faria se quisesse somá-los?
 
-The binary plus would add them as strings:
+O sinal de mais binário os adicionaria como strings:
 
 ```js
 let apples = "2";
@@ -37,7 +37,7 @@ let oranges = "3";
 alert( apples + oranges ); // "23", the binary plus concatenates strings
 ```
 
-If you want to treat them as numbers, you need to convert and then sum them:
+Se você quiser tratá-los como números, você precisa convertê-los e depois somá-los:
 
 ```js
 let apples = "2";
@@ -50,14 +50,14 @@ alert( +apples + +oranges ); // 5
 // alert( Number(apples) + Number(oranges) ); // 5
 ```
 
-From a mathematician’s standpoint, the abundance of pluses may seem strange. But from a programmer’s standpoint, there’s nothing special: unary pluses are applied first, they convert strings to numbers, and then the binary plus sums them up.
+Do ponto de vista de um matemático, a abundância de sinais de mais pode parecer estranha. Do ponto de vista de um programador, no entanto, não há nada de especial: os mais unários são aplicados primeiro, convertem strings em números e o mais binário os soma.
 
-Why are unary pluses applied to values before the binary ones? As you’re going to see, that’s because of their _higher_ precedence.
+Por que os mais unários são aplicados aos valores antes dos binários? Como você verá, isso é por causa de sua _maior_ precedência.
 
 # --question--
 
 ## --text--
-Given the explanation of unary and binary `+` operators in JavaScript, how can you correctly sum the string values `'2'` and `'3'` as numbers using unary `+`?
+Dada a explicação dos operadores `+` unário e binário em JavaScript, como você pode somar corretamente os valores de string `'2'` e `'3'` como números usando o `+` unário?
 
 ## --answers--
 

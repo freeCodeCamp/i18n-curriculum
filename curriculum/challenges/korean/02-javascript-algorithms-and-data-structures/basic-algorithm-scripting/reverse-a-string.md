@@ -1,6 +1,6 @@
 ---
 id: a202eed8fc186c8434cb6d61
-title: Reverse a String
+title: 문자열 뒤집기
 challengeType: 1
 forumTopicId: 16043
 dashedName: reverse-a-string
@@ -8,31 +8,31 @@ dashedName: reverse-a-string
 
 # --description--
 
-Reverse the provided string and return the reversed string.
+주어진 문자열을 역순으로 나열하고 그 나열된 문자열을 반환하세요.
 
-For example, `"hello"` should become `"olleh"`.
+예를 들어, `"hello"`는 `"olleh"`를 반환해야 합니다.
 
 # --hints--
 
-`reverseString("hello")` should return a string.
+`reverseString("hello")`은 문자열을 반환해야 합니다.
 
 ```js
 assert(typeof reverseString('hello') === 'string');
 ```
 
-`reverseString("hello")` should return the string `olleh`.
+`reverseString("hello")`은 문자열 `olleh`를 반환해야 합니다.
 
 ```js
 assert(reverseString('hello') === 'olleh');
 ```
 
-`reverseString("Howdy")` should return the string `ydwoH`.
+`reverseString("Howdy")`은 문자열 `ydwoH`을 반환해야 합니다.
 
 ```js
 assert(reverseString('Howdy') === 'ydwoH');
 ```
 
-`reverseString("Greetings from Earth")` should return the string `htraE morf sgniteerG`.
+`reverseString("Greetings from Earth")`은 문자열 `htraE morf sgniteerG`을 반환해야 합니다.
 
 ```js
 assert(reverseString('Greetings from Earth') === 'htraE morf sgniteerG');

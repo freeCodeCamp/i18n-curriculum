@@ -17,11 +17,11 @@ Para mudar o posicionamento dos itens ao longo do eixo transversal, use `align-i
 
 Como `justify-content` e `align-items` são baseados no eixo principal e no eixo transversal do seu contêiner, o comportamento muda quando você muda a flex-direction de um contêiner flexível. Por exemplo, quando você altera `flex-direction` para `column`, `justify-content` alinha verticalmente e `align-items` alinha horizontalmente. O comportamento mais comum, no entanto, é o padrão, ou seja, `justify-content` alinha os itens na horizontal (pois o eixo principal é o horizontal por padrão) e `align-items` os alinha na vertical. Um dos maiores pontos de confusão para iniciantes com flexbox é quando esse comportamento muda.
 
-# --question--
-
-## --assignment--
+# --assignment--
 
 Antes de passar para a próxima lição, veja se você consegue entender como `align-items` se comporta quando você muda a propriedade `flex-direction` para `column`.
+
+# --question--
 
 ## --text--
 

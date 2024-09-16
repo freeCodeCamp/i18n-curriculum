@@ -8,7 +8,7 @@ dashedName: medical-data-visualizer
 
 # --description--
 
-You will be <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-medical-data-visualizer/" target="_blank" rel="noopener noreferrer nofollow">working on this project with our Gitpod starter code</a>.
+Estarás <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-medical-data-visualizer/" target="_blank" rel="noopener noreferrer nofollow">trabajando en este proyecto con nuestro código inicial en Gitpod</a>.
 
 Todavía estamos desarrollando la parte interactiva del currículo de Python. Por ahora, aquí hay algunos vídeos en nuestro canal de YouTube freeCodeCamp.org que te enseñará todo lo que necesitas saber para completer este proyecto:
 
@@ -18,7 +18,7 @@ Todavía estamos desarrollando la parte interactiva del currículo de Python. Po
 
 # --instructions--
 
-In this project, you will visualize and make calculations from medical examination data using `matplotlib`, `seaborn`, and `pandas`. Los valores del conjunto de datos (dataset) se recogieron durante los exámenes médicos.
+En este proyecto, visualizarás y realizarás cálculos a partir de datos de exámenes médicos usando `matplotlib`, `seaborn` y `pandas`. Los valores del conjunto de datos (dataset) se recogieron durante los exámenes médicos.
 
 ## Descripción de datos
 
@@ -43,7 +43,7 @@ Nombre del archivo: medical_examination.csv
 
 ## Tareas
 
-Create a chart similar to `examples/Figure_1.png`, where we show the counts of good and bad outcomes for the `cholesterol`, `gluc`, `alco`, `active`, and `smoke` variables for patients with `cardio=1` and `cardio=0` in different panels.
+Crear un gráfico similar a `examples/Figure_1.png`, donde mostramos las cifras de resultados buenos y malos para las variables `cholesterol`, `gluc`, `alco`, `active` y `smoke` en los pacientes con `cardio=1` y `cardio=0` en diferentes paneles.
 
 Utiliza los datos para completar las siguientes tareas en `medical_data_visualizer.py`:
 

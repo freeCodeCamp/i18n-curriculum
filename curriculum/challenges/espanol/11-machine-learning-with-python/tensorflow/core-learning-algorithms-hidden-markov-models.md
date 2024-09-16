@@ -1,6 +1,6 @@
 ---
 id: 5e8f2f13c4cdbe86b5c72d90
-title: 'Core Learning Algorithms: Hidden Markov Models'
+title: 'Algoritmos de Aprendizaje Central: Modelos Markov Ocultos'
 challengeType: 11
 videoId: IZg24y4wEPY
 bilibiliIds:
@@ -14,19 +14,19 @@ dashedName: core-learning-algorithms-hidden-markov-models
 
 ## --text--
 
-What makes a Hidden Markov model different than linear regression or classification?
+¿Qué hace a un modelo de Markov oculto diferente de una regresión o clasificación lineal?
 
 ## --answers--
 
-It uses probability distributions to predict future events or states.
+Usa distribuciones de probabilidades para predecir eventos o estados futuros.
 
 ---
 
-It analyzes the relationship between independent and dependent variables to make predictions.
+Analiza la relación entre entre variables dependientes e independientes para hacer predicciones.
 
 ---
 
-It separates data points into separate categories.
+Separa los puntos de datos en categorías separadas.
 
 ## --video-solution--
 

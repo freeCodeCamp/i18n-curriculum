@@ -1,6 +1,6 @@
 ---
 id: 6489cf6282cf2e4f86f03ae6
-title: The Cascade of CSS Lesson E
+title: Lição E sobre a cascata do CSS
 challengeType: 15
 dashedName: the-cascade-of-css-lesson-e
 ---
@@ -20,31 +20,31 @@ dashedName: the-cascade-of-css-lesson-e
 }
 ```
 
-In this final example, both rules are using ID and class selectors, so neither rule is using a more specific selector than the other. The cascade then checks the amounts of each selector type. Both rules only have one ID selector, but rule 2 has more class selectors, so rule 2 has a higher specificity!
+Neste exemplo final, as duas regras estão usando seletores de ID e de classe. Portanto, nenhuma regra está usando um seletor mais específico que a outra. A cascata, então, verifica as quantidades de cada tipo de seletor. As duas regras só têm um seletor de ID, mas a regra 2 tem mais seletores de classe, então a regra 2 tem uma especificidade superior!
 
-While the `color: red` declaration would take precedence, the `background-color: yellow` declaration would still be applied since there’s no conflicting declaration for it.
+Embora a declaração de `color: red` tenha precedência, a declaração de `background-color: yellow` ainda será aplicada, pois não há nenhuma declaração conflitante para ela.
 
 # --question--
 
 ## --text--
 
-Considering the updated CSS code, which of the following describes the rendering of the `<div class="list" id="subsection"></div>` element?
+Considerando o código em CSS atualizado, qual das afirmações abaixo descreve a renderização do elemento `<div class="list" id="subsection"></div>`?
 
 ## --answers--
 
-Text color: Red, Background color: Transparent
+Cor do texto: vermelho; cor de fundo: transparente
 
 ---
 
-Text color: Red, Background color: Yellow
+Cor do texto: vermelho; cor de fundo: amarelo
 
 ---
 
-Text color: Blue, Background color: Transparent
+Cor do texto: azul; cor de fundo: transparente
 
 ---
 
-Text color: Blue, Background color: Yellow
+Cor do texto: azul; cor de fundo: amarelo
 
 ## --video-solution--
 

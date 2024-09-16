@@ -16,15 +16,15 @@ dashedName: build-a-pong-game
 
 **User Story:** I can control a paddle.
 
-**User Story:** The computer can control the other paddle.
+**Historia de usuario:** El computador puede controlar la otra paleta.
 
-**User Story:** The computer's paddle is unbeatable. It should never miss the ball.
+**Historia de usuario:** La paleta del computador es imbatible. Nunca debe fallar el balón.
 
-**User Story:** The game keeps track of the player and computer's score.
+**Historia de usuario:** Se mantiene registro de los puntajes del jugador y el computador.
 
 Cuando hayas terminado, incluye un enlace a tu proyecto en CodePen y haz clic en el botón "He completado este desafío".
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+Puedes recibir retroalimentación de tu proyecto compartiendolo en el <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">foro de freeCodeCamp</a>.
 
 # --solutions--
 

@@ -1,15 +1,15 @@
 ---
 id: 65e9728d484dd50f720e6ff0
-title: Learn Data Types and Conditionals Lesson K
+title: Lição K de Aprenda tipos de dados e condicionais
 challengeType: 15
 dashedName: learn-data-types-and-conditionals-lesson-k
 ---
 
 # --description--
 
-The `switch` statement is used to perform different actions based on different conditions. It is similar to the `if-else` statement, but is more readable and easier to understand when there are multiple conditions to check. The `switch` statement is used to select one of many code blocks to be executed.
+A instrução `switch` é usada para realizar ações diferentes com base em diferentes condições. É semelhante à instrução `if-else`, mas é mais legível e mais fácil de entender quando há várias condições a verificar. A instrução `switch` é usada para selecionar um de muitos blocos de código a serem executados.
 
-The `switch` statement evaluates an expression and compares it with the values of each case. If there is a match, the associated block of code is executed. If there is no match, the default block of code is executed.
+A instrução `switch` avalia uma expressão e a compara com os valores de cada caso. Se houver correspondência, o bloco de código associado é executado. Se não houver correspondência, o bloco de código padrão é executado.
 
 ```javascript
 let day = "Monday";
@@ -41,13 +41,13 @@ switch (day) {
 }
 ```
 
-In the above example, the value of the `day` variable is compared with the values of each case. If there is a match, the associated block of code is executed. If there is no match, the default block of code is executed.
+No exemplo acima, o valor da variável `day` é comparado com os valores de cada caso. Se houver correspondência, o bloco de código associado é executado. Se não houver correspondência, o bloco de código padrão é executado.
 
 # --question--
 
 ## --text--
 
-Given the JavaScript code snippet below, which modifies the `activity` variable based on the day of the week, what will be the value of the `activity` variable if the value of the `day` variable is `"Tuesday"`?
+Dado o trecho de código em JavaScript abaixo, que modifica a variável `activity` com base no dia da semana, qual será o valor da variável `activity` se o valor da variável `day` for `"Tuesday"`?
 
 ```javascript
 let day = "Tuesday";
@@ -83,19 +83,19 @@ switch (day) {
 
 ## --answers--
 
-The value of the `activity` variable will be `"Attend coding meetup"`.
+O valor da variável `activity` será `"Attend coding meetup"`.
 
 ---
 
-The value of the `activity` variable will be `"Watch a movie"`.
+O valor da variável `activity` será `"Watch a movie"`.
 
 ---
 
-The value of the `activity` variable will be `"Undefined day"`.
+O valor da variável `activity` será `"Undefined day"`.
 
 ---
 
-The value of the `activity` variable will be `"Go to the gym"`.
+O valor da variável `activity` será `"Go to the gym"`.
 
 ## --video-solution--
 

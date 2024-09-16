@@ -1,35 +1,35 @@
 ---
 id: 64a6749a7a7d00f97013ed10
 videoId: rIO5326FgPE
-title: The Box Model Lesson I
+title: Lição I sobre o modelo de caixas
 challengeType: 15
 dashedName: the-box-model-lesson-i
 --- 
 # --description--
 
-Because the box model concept is so incredibly fundamental, let’s dig a bit deeper with <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#what_is_the_css_box_model" target="_blank">this lesson from MDN</a>. Ela trata do mesmo material que o vídeo acima e apresentará as caixas em linha, das quais trataremos na próxima lição. Pay close attention to the examples and take the time to experiment with their in-browser editor!
+Como o conceito do modelo de caixas é incrivelmente fundamental, vamos aprofundar um pouco com <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#what_is_the_css_box_model" target="_blank">esta lição do MDN</a>. Ela trata do mesmo material que o vídeo acima e apresentará as caixas em linha, das quais trataremos na próxima lição. Preste muita atenção nos exemplos e reserve um tempo para experimentar com o editor no navegador!
 
 # --question--
 
 ## --text--
 
-What is the difference between the standard and alternative box model?
+Qual é a diferença entre o modelo de caixas padrão e o modelo alternativo?
 
 ## --answers--
 
-The standard box model calculates the width and height of an element based on the content alone, while the alternative box model calculates based on the content plus padding and border.
+O modelo de caixas padrão calcula a largura e a altura de um elemento com base exclusivamente no conteúdo, enquanto o modelo alternativo de caixas calcula ambos com base no conteúdo mais preenchimento e borda.
 
 ---
 
-The standard box model includes content, padding, and border, while the alternative box model includes only the content.
+O modelo de caixas padrão inclui conteúdo, preenchimento e borda, enquanto o modelo de caixas alternativo inclui apenas o conteúdo.
 
 ---
 
-The standard box model and the alternative box model are the same and have no differences.
+O modelo de caixas padrão e o modelo de caixas alternativo são a mesma coisa, não tendo diferenças.
 
 ---
 
-The standard box model includes only the content, while the alternative box model includes content, padding, and border.
+O modelo de caixas padrão inclui apenas o conteúdo, enquanto o modelo alternativo inclui conteúdo, preenchimento e borda.
 
 ## --video-solution--
 

@@ -1,13 +1,13 @@
 ---
 id: 6617aee95b87c334e7ae8015
-title: Learn Function Basics Lesson D
+title: Lição D de Aprenda funções básicas
 challengeType: 15
 dashedName: learn-function-basics-lesson-d
 ---
 
 # --description--
 
-If a function is called, but an argument is not provided, then the parameter will be assigned the value of `undefined`. This can lead to unexpected results if the function is not designed to handle this case.
+Se uma função é chamada, mas um argumento não é fornecido, então o parâmetro receberá o valor `undefined`. Isso pode levar a resultados inesperados se a função não estiver projetada para lidar com esse caso.
 
 ```js
 function favoriteAnimal(animal) {
@@ -17,9 +17,9 @@ function favoriteAnimal(animal) {
 console.log(favoriteAnimal()); // Output: undefined is my favorite animal!
 ```
 
-In the example above, the function `favoriteAnimal` is called without an argument. The parameter `animal` is assigned the value of `undefined`, which is then concatenated with the string `" is my favorite animal!"`.
+No exemplo acima, a função `favoriteAnimal` é chamada sem um argumento. O parâmetro `animal` recebe o valor de `undefined`, que é então concatenado com a string `" is my favorite animal!"`.
 
-If a value is not provided you can make use of default parameters. Default parameters allow you to assign a default value to a parameter if no value is provided when the function is called.
+Se um valor não for fornecido, você pode fazer uso de parâmetros padrão. Parâmetros padrão permitem que você atribua um valor padrão a um parâmetro se nenhum valor for fornecido quando a função é chamada.
 
 ```js
 function favoriteAnimal(animal = 'Giant Panda') {
@@ -27,29 +27,29 @@ function favoriteAnimal(animal = 'Giant Panda') {
 }
 ```
 
-In the example above, the default value of the parameter `animal` is set to `'Giant Panda'`. If the function `favoriteAnimal` is called without an argument, the parameter `animal` will be assigned the value `'Giant Panda'`.
+No exemplo acima, o valor padrão do parâmetro `animal` é definido como `'Giant Panda'`. Se a função `favoriteAnimal` for chamada sem um argumento, o parâmetro `animal` receberá o valor `'Giant Panda'`.
 
 # --question--
 
 ## --text--
 
-How do default parameters in JavaScript functions enhance the behavior of functions like `favoriteAnimal` when called without any arguments?
+Como os parâmetros padrão em funções JavaScript melhoram o comportamento de funções como `favoriteAnimal` quando chamadas sem argumentos?
 
 ## --answers--
 
-They cause the function to throw an error if no argument is provided.
+Eles fazem com que a função lance um erro se nenhum argumento for fornecido.
 
 ---
 
-They prevent the function from being called without the required number of arguments.
+Eles impedem que a função seja chamada sem o número necessário de argumentos.
 
 ---
 
-They ensure the function returns `null` to indicate that no argument was passed.
+Eles garantem que a função retorne `null` para indicar que nenhum argumento foi passado.
 
 ---
 
-They allow the function to execute with a predefined value, avoiding `undefined` related issues.
+Eles permitem que a função seja executada com um valor predefinido, evitando problemas relacionados ao `undefined`.
 
 ## --video-solution--
 

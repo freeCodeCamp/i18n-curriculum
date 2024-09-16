@@ -11,12 +11,12 @@ dashedName: learn-how-javascript-assertions-work
 Trabajar en estos desafíos implica escribir tu código usando uno de los siguientes métodos:
 
 - Clone este repositorio de <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow"> GitHub</a> y complete estos desafíos localmente.
-- Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete these challenges.
+- Utiliza <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">nuestro proyecto inicial en Gitpod</a> para completar estos desafíos.
 - Utiliza un constructor de sitios web de tu elección para completar el proyecto. Asegúrate de incorporar todos los archivos de nuestro repositorio de GitHub.
 
 # --instructions--
 
-Within `tests/1_unit-tests.js` under the test labeled `#1` in the `Basic Assertions` suite, change each `assert` to either `assert.isNull` or `assert.isNotNull` to make the test pass (should evaluate to `true`). No cambies los argumentos pasados a las aserciones.
+Dentro de `tests/1_unit-tests.js`, bajo la prueba etiquetada como `#1` en el conjunto de prueba `Basic Assertions`, cambia cada `assert` a `assert.isNull` o `assert.isNotNull` para pasar la prueba (deber evaluarse como `true`). No cambies los argumentos pasados a las aserciones.
 
 # --hints--
 

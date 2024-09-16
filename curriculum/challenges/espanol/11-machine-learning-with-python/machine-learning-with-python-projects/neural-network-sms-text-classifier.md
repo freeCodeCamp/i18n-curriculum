@@ -8,7 +8,7 @@ dashedName: neural-network-sms-text-classifier
 
 # --description--
 
-You will be <a href="https://colab.research.google.com/github/freeCodeCamp/boilerplate-neural-network-sms-text-classifier/blob/master/fcc_sms_text_classification.ipynb" target="_blank" rel="noopener noreferrer nofollow">working on this project with Google Colaboratory</a>.
+Estarás <a href="https://colab.research.google.com/github/freeCodeCamp/boilerplate-neural-network-sms-text-classifier/blob/master/fcc_sms_text_classification.ipynb" target="_blank" rel="noopener noreferrer nofollow">trabajando en este proyecto con Google Colaboratory</a>.
 
 Después de acceder al enlace, crea una copia del cuaderno ya sea en tu propia cuenta o de manera local. Una vez hayas completado el proyecto y superes el test (incluido en el enlace), envía el enlace del proyecto a continuación. Si envias un enlace a Google Colaboratory, asegúrate de que activas el uso compartido para "cualquiera con el enlace."
 
@@ -16,17 +16,17 @@ Todavía estamos desarrollando el contenido instructivo interactivo para el plan
 
 # --instructions--
 
-In this challenge, you need to create a machine learning model that will classify SMS messages as either "ham" or "spam". A "ham" message is a normal message sent by a friend. A "spam" message is an advertisement or a message sent by a company.
+En este desafío, necesitas crear un modelo de aprendizaje automático que clasifique los mensajes SMS como "jamón" o "spam". Un mensaje "ham" es un mensaje normal enviado por un amigo. Un mensaje "spam" es un anuncio o un mensaje enviado por una empresa.
 
-You should create a function called `predict_message` that takes a message string as an argument and returns a list. The first element in the list should be a number between zero and one that indicates the likeliness of "ham" (0) or "spam" (1). The second element in the list should be the word "ham" or "spam", depending on which is most likely.
+Debes crear una función llamada `predict_message` que toma una cadena de mensaje como argumento y devuelve una lista. El primer elemento de la lista debe ser un número entre cero y uno que indique la probabilidad de "jamón" (0) o "spam" (1). El segundo elemento de la lista debe ser la palabra "jamón" o "spam", dependiendo de cuál sea más probable.
 
-For this challenge, you will use the <a href="http://www.dt.fee.unicamp.br/~tiago/smsspamcollection/" target="_blank" rel="noopener noreferrer nofollow">SMS Spam Collection</a> dataset. The dataset has already been grouped into train data and test data.
+Para este desafío, usarás el conjunto de datos <a href="http://www.dt.fee.unicamp.br/~tiago/smsspamcollection/" target="_blank" rel="noopener noreferrer nofollow">SMS Spam Collection</a>. El conjunto de datos ya ha sido agrupado en datos de entrenamiento y de pruebas.
 
-The first two cells import the libraries and data. The final cell tests your model and function. Add your code in between these cells.
+Las dos primeras celdas importan las bibliotecas y los datos. La celda final prueba tu modelo y función. Escribe tu código entre esas celdas.
 
 # --hints--
 
-It should pass all Python tests.
+Debes pasar todas las pruebas de Python.
 
 ```js
 

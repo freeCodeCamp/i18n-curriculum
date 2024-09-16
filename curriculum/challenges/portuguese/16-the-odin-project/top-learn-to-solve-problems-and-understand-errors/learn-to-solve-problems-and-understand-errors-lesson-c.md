@@ -1,17 +1,17 @@
 ---
 id: 66581a7bb1eb2281159492fc
-title: Learn to Solve Problems and Understand Errors Lesson C
+title: Lição C de Aprenda a resolver problemas e a entender erros
 challengeType: 15
 dashedName: learn-to-solve-problems-and-understand-errors-lesson-c
 ---
 
 # --description--
 
-## Psuedocode
+## Pseudocódigo
 
-Pseudocode is writing out the logic for your program in natural language instead of code. It helps you slow down and think through the steps your program will have to go through to solve the problem.
+Pseudocódigo é escrever a lógica do seu programa em linguagem natural em vez de código. Ele ajuda você a desacelerar e pensar sobre as etapas que seu programa terá que seguir para resolver o problema.
 
-Here’s an example of what the pseudocode for a program that prints all numbers up to an inputted number might look like:
+Aqui está um exemplo de como pode ser o pseudocódigo para um programa que imprime todos os números até um número inserido:
 
 ```bash
 When the user inputs a number
@@ -20,33 +20,33 @@ While counter is smaller than user inputted number increment the counter by one
 Print the value of the counter variable
 ```
 
-This is a basic program to demonstrate how pseudocode looks. There will be more examples of pseudocode included in the assignments.
+Este é um programa básico para demonstrar como o pseudocódigo se parece. Haverá mais exemplos de pseudocódigo incluídos nas tarefas.
 
+# --assignment--
+
+Leia o artigo <a href="https://builtin.com/data-science/pseudocode" target="_blank"> Pseudocódigo: O que é e como escrevê-lo</a>, da Built In.
 
 # --question--
 
-## --assignment--
-Read this <a href="https://builtin.com/data-science/pseudocode" target="_blank"> Pseudocode: What It Is and How to Write It</a> article from Built In.
-
 ## --text--
 
-What are the benefits of using pseudocode according to the linked article?
+Quais são os benefícios do uso de pseudocódigo de acordo com o artigo vinculado?
 
 ## --answers--
 
-Pseudocode is primarily beneficial for beginners as it helps them learn programming languages faster by skipping complex syntax.
+O pseudocódigo é principalmente benéfico para iniciantes, pois os ajuda a aprender linguagens de programação mais rapidamente, pulando a sintaxe complexa.
 
 ---
 
-Pseudocode simplifies communication with non-programmers, aids in code construction, provides a good basis for documentation, and helps in bug detection.
+O pseudocódigo simplifica a comunicação com pessoas que não são programadores, auxilia na construção de código, fornece uma boa base para documentação e ajuda na detecção de erros.
 
 ---
 
-Pseudocode entirely eliminates the need for programmers to understand or use programming languages, making it the primary tool for professional coders.
+O pseudocódigo elimina totalmente a necessidade de programadores entenderem ou usarem linguagens de programação, tornando-se a ferramenta principal para programadores profissionais.
 
 ---
 
-Pseudocode is used exclusively for creating detailed flowcharts that replace traditional coding in complex software development environments.
+O pseudocódigo é usado exclusivamente para criar fluxogramas detalhados que substituem a codificação tradicional em ambientes de desenvolvimento de software complexos.
 
 ## --video-solution--
 

@@ -1,37 +1,37 @@
 ---
 id: 66581a7bb1eb2281159492fd
-title: Learn to Solve Problems and Understand Errors Lesson D
+title: Lição D de Aprenda a resolver problemas e a entender erros
 challengeType: 15
 dashedName: learn-to-solve-problems-and-understand-errors-lesson-d
 ---
 
 # --description--
 
-Reading and understanding error messages is a requirement as a developer. At first glance, many beginners shrink away from error messages as they appear to be “scary” and difficult to understand because they include terms one may not be familiar with.
+Ler e entender mensagens de erro é um requisito como desenvolvedor. À primeira vista, muitos iniciantes recuam diante das mensagens de erro, pois elas parecem "assustadoras" e difíceis de entender, já que incluem termos com os quais você pode não estar familiarizado.
 
-However, error messages provide developers with a treasure trove of knowledge, and tell you everything you need to know about how to resolve them! Being able to parse error messages and warnings without fear will enable you to effectively debug your applications, receive meaningful help from others, and empower yourself to push forward when faced with an error.
+No entanto, as mensagens de erro fornecem aos desenvolvedores um tesouro de conhecimento e informam tudo que você precisa saber sobre como resolvê-las! Ser capaz de interpretar mensagens de erro e avisos sem medo permitirá que você depure efetivamente suas aplicações, receba ajuda significativa de outros e se fortaleça para seguir em frente quando enfrentar um erro.
 
 # --question--
 
 ## --text--
 
-According to the text, why should developers not shy away from error messages?
+De acordo com o texto, por que os desenvolvedores não devem fugir das mensagens de erro?
 
 ## --answers--
 
-Error messages are only for advanced programmers and can be ignored by beginners until they gain more experience.
+Mensagens de erro são apenas para programadores avançados e podem ser ignoradas por iniciantes até que ganhem mais experiência.
 
 ---
 
-Error messages need to be memorized completely to be effective in programming.
+Mensagens de erro precisam ser completamente memorizadas para serem eficazes na programação.
 
 ---
 
-Error messages provide crucial information that helps developers understand and fix problems in their code.
+Mensagens de erro fornecem informações cruciais que ajudam os desenvolvedores a entender e corrigir problemas em seu código.
 
 ---
 
-Error messages are meant to be handled by automated debugging tools and do not require human interpretation.
+Mensagens de erro devem ser tratadas por ferramentas automatizadas de depuração e não requerem interpretação humana.
 
 
 ## --video-solution--

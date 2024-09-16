@@ -1,44 +1,44 @@
 ---
 id: 64a5551d02815a7d323aab8a
-title: The Box Model Lesson C
+title: Lição C sobre o modelo de caixas
 challengeType: 15
 dashedName: the-box-model-lesson-c
 --- 
 # --description--
 
-In the Elements pane, you can see the entire HTML structure of your page. You can click on any of the elements in this pane to select that specific element. Alternatively, you can click the blue-highlighted icon shown below on the left, and hover over any element on the page.
+No painel Elementos, é possível ver toda a estrutura do HTML da página. Você pode clicar em qualquer um dos elementos nesse painel para selecionar o elemento específico. Como alternativa, você pode clicar no ícone realçado em azul mostrado abaixo e à esquerda, passando o mouse sobre qualquer elemento da página.
 
 <img src="https://cdn.freecodecamp.org/curriculum/odin-project/the-box-model/inspector-icon.png" alt="Um ambiente de desenvolvimento para a web com ferramentas de desenvolvedor abertas, destacando um ícone azul de inspetor no canto superior esquerdo para selecionar elementos da página da web para visualizar a estrutura HTML e estilos." />
 
-When an element is selected, the Styles tab will show all the currently applied styles, as well as any styles that are being overwritten (indicated by a strikethrough of the text). For example, if you use the inspector to click on the “Your Career in Web Development Starts Here” header on <a href="https://www.theodinproject.com/" target="_blank">the The Odin Project homepage</a>, on the right-hand side you’ll see all the styles that are currently affecting the element, as seen below:
+Quando um elemento é selecionado, a guia Estilos mostrará todos os estilos atualmente aplicados, assim como quaisquer estilos que estão sendo substituídos (indicado por um texto com um risco no meio). Por exemplo, se você usar o inspetor para clicar no cabeçalho "Your Career in Web Development Starts Here" na <a href="https://www.theodinproject.com/" target="_blank">página do The Odin Project</a>, no lado direito, você verá todos os estilos que atualmente estão afetando o elemento, como vistos abaixo:
 
-<img src="https://cdn.freecodecamp.org/curriculum/odin-project/the-box-model/overwritten-style.png" alt="CSS code snippet in the developer console showing .hero_main-heading with applied margin-bottom: 100px, padding-bottom: 1.875rem, .accent color #ce973e. h1 style rules include font-size, weight, letter-spacing, with its margin-bottom: 2rem overridden." />
+<img src="https://cdn.freecodecamp.org/curriculum/odin-project/the-box-model/overwritten-style.png" alt="Trecho de código do CSS no console de desenvolvedor mostrando .hero_main-heading com margin-bottom: 100px, padding-bottom: 1.875rem e .accent color #ce973e aplicados. As regras de estilo de h1 incluem tamanho da fonte, peso, espaçamento das letras, e margem inferior de 2rem sobrescrita." />
 
 # --assignment--
 
-Play around with Chrome Dev Tools and see if you can answer the following question.
+Divirta-se um pouco com as ferramentas de desenvolvimento do Chrome e veja se consegue responder à seguinte pergunta.
 
 # --question--
 
 ## --text--
 
-Which feature in the Elements pane allows you to select any element on a webpage by hovering over it?
+Qual recurso no painel Elementos permite selecionar qualquer elemento em uma página da web, passando o mouse sobre ele?
 
 ## --answers--
 
-Blue-highlighted icon
+O ícone realçado em azul
 
 ---
 
-Styles tab
+A guia Estilos
 
 ---
 
-Inspector tab
+A guia Inspetor
 
 ---
 
-HTML structure view
+A visualização de estrutura do HTML
 
 
 ## --video-solution--

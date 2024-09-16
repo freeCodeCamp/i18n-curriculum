@@ -7,20 +7,20 @@ dashedName: learn-data-types-and-conditionals-lesson-f
 
 # --description--
 
-You know that JavaScript has a variety of data types, including strings, numbers and booleans. You can use comparison operators to compare these data types and make decisions based on the results.
+Você sabe que o JavaScript possui uma variedade de tipos de dados, incluindo strings, números e booleanos. Você pode usar operadores de comparação para comparar esses tipos de dados e tomar decisões baseadas nos resultados.
 
-The following comparison operators are available in JavaScript:
+Os seguintes operadores de comparação estão disponíveis no JavaScript:
 
-| Operator | Description              | Example |
-| -------- | ------------------------ | ------- |
-| ==       | Equal (value comparison) | x == y  |
-| !=       | Not equal                | x != y  |
-| >        | Greater than             | x > y   |
-| <        | Less than                | x < y   |
-| >=       | Greater than or equal to | x >= y  |
-| <=       | Less than or equal to    | x <= y  |
+| Operador | Descrição                   | Exemplo |
+| -------- | --------------------------- | ------- |
+| ==       | Igual (comparação de valor) | x == y  |
+| !=       | Não igual                   | x != y  |
+| >        | Maior que                   | x > y   |
+| <        | Menor que                   | x < y   |
+| >=       | Maior ou igual a            | x >= y  |
+| <=       | Menor ou igual a            | x <= y  |
 
-To use a comparison in a variable assignment, you can use the `==` operator. For example:
+Para usar uma comparação em uma atribuição de variável, você pode usar o operador `==`. Por exemplo:
 
 ```javascript
 let x = 5;
@@ -36,7 +36,7 @@ console.log(result); // true
 
 ## --text--
 
-Which of the following is the correct way to check if the variable `x` is equal to the number `5` in JavaScript?
+Qual das seguintes é a maneira correta de verificar se a variável `x` é igual ao número `5` em JavaScript?
 
 ## --answers--
 

@@ -9,11 +9,11 @@ dashedName: learn-block-and-inline-lesson-b
 
 Elementos inline, no entanto, não começam em uma nova linha. Eles aparecem na linha com quaisquer elementos ao lado dos quais são colocados. Um exemplo claro de um elemento inline é um link, ou tag `<a>`. Se você inserir um desses no meio de um parágrafo de texto, ele se comportará como parte do parágrafo. <a  href="https://www.freecodecamp.org/" target="_blank">(assim)</a> O texto do link ficará ao lado de outras palavras nesse parágrafo. Além disso, padding e margem se comportam de maneira diferente em elementos inline. Em geral, você não deve tentar adicionar padding ou margem extra em elementos inline.
 
-# --question--
-
-## --assignment--
+# --assignment--
 
 Procure na web uma lista de elementos `block` e uma lista de elementos `inline`.
+
+# --question--
 
 ## --text--
 

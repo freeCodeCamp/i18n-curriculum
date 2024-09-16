@@ -8,7 +8,7 @@ dashedName: build-a-periodic-table-database
 
 # --description--
 
-Este es uno de los proyectos necesarios para obtener su certificación. Para este proyecto, creará Bash un script para obtener información sobre elementos químicos de una base de datos de tabla periódica.
+Este es uno de los proyectos necesarios para obtener su certificación. For this project, you will create a Bash script to get information about chemical elements from a periodic table database.
 
 # --instructions--
 

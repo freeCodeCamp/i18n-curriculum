@@ -1,15 +1,15 @@
 ---
 id: 661e27588602567c118451d4
-title: Learn Arrays and Loops Lesson D
+title: Lição D de Aprenda arrays e laços
 challengeType: 15
 dashedName: learn-arrays-and-loops-lesson-d
 ---
 
 # --description--
 
-One of the more complex methods used with arrays are the `splice()` and `slice()` methods. The `splice()` method changes the contents of an array by removing or replacing an element in the array. The `slice()` method returns a shallow copy of a portion of an array into a new array object selected from `begin` to `end` (`end` not included). The original array will not be modified.
+Entre os métodos mais complexos usados com arrays estão os métodos `splice()` e `slice()`. O método `splice()` altera o conteúdo de um array removendo ou substituindo um elemento no array. O método `slice()` retorna uma cópia rasa de uma porção de um array em um novo objeto de array selecionado de `begin` até `end` (não incluindo `end`). O array original não será modificado.
 
-For example, to remove the second element from the `characters` array, you can use the following code:
+Por exemplo, para remover o segundo elemento do array `characters`, você pode usar o seguinte código:
 
 ```javascript
 const characters = ['Harry', 'Ron', 'Hermione'];
@@ -17,10 +17,10 @@ characters.splice(1, 1);
 console.log(characters); // Output: ['Harry', 'Hermione']
 ```
 
-The above element removes the second element from the `characters` array. The `splice()` method takes two arguments: the index of the element to remove and the number of elements to remove.
+O elemento acima remove o segundo elemento do array `characters`. O método `splice()` recebe dois argumentos: o índice do elemento a ser removido e o número de elementos a remover.
 
 
-To create a new array with the second element from the `character` array, you can use the following code:
+Para criar um array com o segundo elemento do array `character`, você pode usar o seguinte código:
 
 ```javascript
 const characters = ['Harry', 'Ron', 'Hermione'];
@@ -28,13 +28,13 @@ const newCharacters = characters.slice(1, 2);
 console.log(newCharacters); // Output: ['Ron']
 ```
 
-The above code creates a new array `newCharacters` with the second element from the `characters` array. The `slice()` method takes two arguments: the index of the element to start the slice and the index of the element to end the slice (not included).
+O código acima cria um array `newCharacters` com o segundo elemento do array `characters`. O método `slice()` recebe dois argumentos: o índice do elemento para iniciar o corte e o índice do elemento para terminar o corte (não incluído).
 
 # --question--
 
 ## --text--
 
-What will be the output of the following JavaScript code snippet?
+Qual será a saída do seguinte trecho de código em JavaScript?
 
 
 ```javascript
@@ -48,19 +48,19 @@ console.log(slicedNumbers);
 
 ## --answers--
 
-`numbers` output: `[10, 20, 30, 50]` and `slicedNumbers` output: `[30, 50]`
+Saída de `numbers`: `[10, 20, 30, 50]`. Saída de `slicedNumbers`: `[30, 50]`
 
 ---
 
-`numbers` output: `[10, 20, 30, 40]` and `slicedNumbers` output: `[30, 40]`
+Saída de `numbers`: `[10, 20, 30, 40]`. Saída de `slicedNumbers`: `[30, 40]`
 
 ---
 
-`numbers` output: `[10, 20, 50, 40]` and `slicedNumbers` output: `[20, 50]`
+Saída de `numbers`: `[10, 20, 50, 40]`. Saída de `slicedNumbers`: `[20, 50]`
 
 ---
 
-`numbers` output: `[10, 20, 30, 50, 40]` and `slicedNumbers` output: `[30, 50]`
+Saída de `numbers`: `[10, 20, 30, 50, 40]`. Saída de `slicedNumbers`: `[30, 50]`
 
 ## --video-solution--
 

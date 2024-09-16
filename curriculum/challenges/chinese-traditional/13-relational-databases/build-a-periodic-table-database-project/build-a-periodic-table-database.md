@@ -8,7 +8,7 @@ dashedName: build-a-periodic-table-database
 
 # --description--
 
-這是你獲得認證的必做項目之一。 對於此項目，你將創建 Bash 腳本以從元素週期表數據庫中獲取有關化學元素的信息。
+這是你獲得認證的必做項目之一。 For this project, you will create a Bash script to get information about chemical elements from a periodic table database.
 
 # --instructions--
 
