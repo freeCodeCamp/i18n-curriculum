@@ -8,11 +8,11 @@ dashedName: page-view-time-series-visualizer
 
 # --description--
 
-You will be <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-page-view-time-series-visualizer" target="_blank" rel="noopener noreferrer nofollow">working on this project with our Gitpod starter code</a>.
+Estarás <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-page-view-time-series-visualizer" target="_blank" rel="noopener noreferrer nofollow">trabajando en este proyecto con nuestro código inicial en Gitpod</a>.
 
 Todavía estamos desarrollando la parte interactiva del currículo de Python. Por el momento, aquí hay algunos videos en el canal de YouTube de freeCodeCamp.org que te enseñaran todo lo que necesitas saber para completar este proyecto:
 
-- <a href="https://www.freecodecamp.org/news/python-for-everybody/" target="_blank" rel="noopener noreferrer nofollow">Python for Everybody Video Course</a> (14 hours)
+- <a href="https://www.freecodecamp.org/news/python-for-everybody/" target="_blank" rel="noopener noreferrer nofollow">Curso en Vídeo de Python para Todos</a> (Duración: 14 horas)
 
 - <a href="https://www.freecodecamp.org/news/how-to-analyze-data-with-python-pandas/" target="_blank" rel="noopener noreferrer nofollow">How to Analyze Data with Python Pandas</a> (10 horas)
 
@@ -34,11 +34,11 @@ El boilerplate también incluye los comandos para guardar y devolver la imagen.
 
 ## Desarrollo
 
-Write your code in `time_series_visualizer.py`. For development, you can use `main.py` to test your code.
+Escribe tu código en `time_series_visualizer.py`. Para el desarrollo, puedes utilizar `main.py` para probar tu código.
 
 ## Pruebas
 
-The unit tests for this project are in `test_module.py`. Hemos importado las pruebas de `test_module.py` a `main.py` para tu conveniencia.
+Las pruebas unitarias para este proyecto están en `test_module.py`. Hemos importado las pruebas de `test_module.py` a `main.py` para tu conveniencia.
 
 ## Envío
 

@@ -1,17 +1,17 @@
 ---
 id: 65e9713d484dd50f720e6fe6
-title: Learn Data Types and Conditionals Lesson A
+title: Lição A de Aprenda tipos de dados e condicionais
 challengeType: 15
 dashedName: learn-data-types-and-conditionals-lesson-a
 ---
 
 # --description--
 
-Depending on what kind of work you're doing, you might end up working more with pieces of text rather than numbers. A **string** is a piece of text… and is a fundamental building block of the language.
+Dependendo do tipo de trabalho que você está fazendo, você pode acabar trabalhando mais com trechos de texto em vez de números. Uma **string** é um trecho de texto... e é um bloco de construção fundamental da linguagem.
 
-HTML provides structure and meaning to text, CSS allows us to precisely style it, and JavaScript offers many features for manipulating strings. These include creating custom welcome messages and prompts, showing the right text labels when needed, sorting terms into the desired order, and much more.
+O HTML fornece estrutura e significado ao texto, o CSS nos permite estilizá-lo com precisão e o JavaScript oferece muitos recursos para manipulação de strings. Isso inclui criar mensagens de boas-vindas personalizadas e prompts, mostrar os rótulos de texto corretos quando necessário, classificar termos na ordem desejada e muito mais.
 
-Strings are a fundamental data type in JavaScript. They are used to represent text and are wrapped in either single, double quotes or backticks:
+Strings são um tipo de dado fundamental em JavaScript. Elas são usadas para representar texto e são envoltas em aspas simples, duplas ou crases:
 
 ```javascript
 let greeting = "Hello World!";
@@ -21,29 +21,29 @@ let greeting2 = 'I am learning JavaScript!';
 let greeting3 = `with The Odin Project!`;
 ```
 
-Strings declared using single quotes and strings declared using double quotes are the same, and which you use is down to personal preference — although it is good practice to choose one style and use it consistently in your code.
+Strings declaradas usando aspas simples e strings declaradas usando aspas duplas produzem o mesmo resultado. O tipo de aspas que você usará dependerá de sua preferência pessoal — embora seja uma boa prática escolher um estilo e usá-lo consistentemente no seu código.
 
 # --assignment--
 
-There are many ways to manipulate strings in JavaScript. Go through points 8 through 12 of our <a href="https://www.freecodecamp.org/news/javascript-string-handbook/" target="_blank">JavaScript String Handbook</a>
+Há muitas maneiras de se manipular strings em JavaScript. Passe pelos pontos 8 a 12 do nosso <a href="https://www.freecodecamp.org/news/javascript-string-handbook/" target="_blank">JavaScript String Handbook</a>
 
 # --question--
 
 ## --text--
 
-Which statement accurately describes the versatility and use of strings in JavaScript in conjunction with HTML, CSS, and JavaScript itself?
+Qual instrução descreve com precisão a versatilidade e o uso de strings em JavaScript em conjunto com HTML, CSS e o próprio JavaScript?
 
 ## --answers--
 
-Strings in JavaScript can only be manipulated using CSS for web page design.
+Strings em JavaScript só podem ser manipuladas usando CSS para design de páginas da web.
 
 ---
 
-JavaScript strings are exclusively used for mathematical computations and cannot interact with HTML or CSS.
+Strings em JavaScript são usadas exclusivamente para cálculos matemáticos e não podem interagir com HTML ou CSS.
 
 ---
 
-Strings allow for text manipulation in JavaScript, including but not limited to creating custom messages, sorting terms, and dynamically updating HTML content with CSS styling.
+Strings permitem a manipulação de texto em JavaScript, incluindo, mas não se limitando a, criar mensagens personalizadas, classificar termos e atualizar dinamicamente o conteúdo HTML com estilo CSS.
 
 
 ## --video-solution--

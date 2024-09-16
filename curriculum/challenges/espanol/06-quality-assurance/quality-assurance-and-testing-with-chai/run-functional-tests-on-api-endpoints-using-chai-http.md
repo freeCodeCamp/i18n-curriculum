@@ -8,7 +8,7 @@ dashedName: run-functional-tests-on-api-endpoints-using-chai-http
 
 # --description--
 
-As a reminder, this project is being built upon the following starter project on <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>, or cloned from <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
+Como recordatorio, este proyecto se está construyendo según el siguiente proyecto inicial en <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a> o clonando desde <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
 
 Mocha te permite comprobar operaciones asíncronas como llamadas a los endpoints de la API con un complemento llamado `chai-http`.
 
@@ -42,13 +42,13 @@ Sin embargo, las pruebas que se ejecutan cuando envía el enlace para tu proyect
 
 # --instructions--
 
-Dentro de `tests/2_functional-tests.js`, altera la prueba `'Test GET /hello with no name'` (`// #1`) para afirmar el `status` y el `text` de la respuesta para hacer que la prueba pase. Do not alter the arguments passed to the asserts.
+Dentro de `tests/2_functional-tests.js`, altera la prueba `'Test GET /hello with no name'` (`// #1`) para afirmar el `status` y el `text` de la respuesta para hacer que la prueba pase. No altere los argumentos pasados a las afirmaciones.
 
-There should be no URL query. Without a name URL query, the endpoint responds with `hello Guest`.
+No debe haber ninguna consulta de URL. Sin una consulta de URL de nombre, el extremo responde con `hello Guest`.
 
 # --hints--
 
-All tests should pass
+Todas las pruebas deben pasar
 
 ```js
 (getUserInput) =>
@@ -62,7 +62,7 @@ All tests should pass
   );
 ```
 
-You should test for `res.status` == 200
+Debe probar para `res.status` == 200
 
 ```js
 (getUserInput) =>
@@ -78,7 +78,7 @@ You should test for `res.status` == 200
   );
 ```
 
-You should test for `res.text` == `'hello Guest'`
+Debe probar `res.text` == `'hello Guest'`
 
 ```js
 (getUserInput) =>

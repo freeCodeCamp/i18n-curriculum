@@ -8,25 +8,25 @@ dashedName: use-the-twitch-json-api
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://codepen.io/freeCodeCamp/full/Myvqmo/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/Myvqmo/</a>.
+**Objetivo:** Construye una aplicación que sea funcionalmente similar a esta: <a href="https://codepen.io/freeCodeCamp/full/Myvqmo/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/Myvqmo/</a>.
 
-The Twitch API is a RESTful API that lets developers build creative integrations for the broader Twitch community.
+La API de Twitch es una API RESTful que permite a los desarrolladores construir integraciones creativas para la comunidad de Twitch más amplia.
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+Completa las siguientes historias de usuario y consigue que todas las pruebas pasen. Utiliza cualquier librería o API que necesites. Dale tu propio estilo.
 
-**User Story:** I can see whether freeCodeCamp is currently streaming on Twitch.tv.
+**Historia del usuario:** Puedo ver si freeCodeCamp está transmitiendo en Twitch.tv.
 
-**User Story:** I can click the status output and be sent directly to the freeCodeCamp's Twitch.tv channel.
+**Historia del usuario:** Puedo hacer clic en la salida del estado y ser enviado directamente al canal Twitch.tv de freeCodeCamp.
 
-**User Story:** If a Twitch user is currently streaming, I can see additional details about what they are streaming.
+**Historia del usuario:** Si un usuario de Twitch está transmitiendo actualmente, puedo ver detalles adicionales sobre lo que está transmitiendo.
 
-**Hint:** Here's an array of the Twitch.tv usernames of people who regularly stream: `["ESL_SC2", "OgamingSC2", "cretetion", "freecodecamp", "storbeck", "habathcx", "RobotCaleb", "noobs2ninjas"]`
+**Sugerencia:** Aquí hay un arreglo de los nombres de usuario Twitch.tv de las personas que regularmente transmiten: `["ESL_SC2", "OgamingSC2", "cretetion", "freecodecamp", "storbeck", "habathcx", "RobotCaleb", "noobs2ninjas"]`
 
-**UPDATE:** Due to a change in conditions on API usage, Twitch.tv requires an API key, but we've built a workaround. Use <a href="https://twitch-proxy.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://twitch-proxy.freecodecamp.rocks/</a> instead of Twitch's API base URL and you'll still be able to get account information, without needing to sign up for an API key.
+**ACTUALIZACIÓN:** Debido a un cambio en las condiciones de uso de la API, Twitch.tv requiere una clave API, pero hemos creado una solución para ello. Usa <a href="https://twitch-proxy.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://twitch-proxy.freecodecamp. ocks/</a> en lugar de la URL base de la API de Twitter y todavía podrá obtener información de la cuenta, sin necesidad de registrarse en una clave API.
 
 Cuando hayas terminado, incluye un enlace a tu proyecto en CodePen y haz clic en el botón "He completado este desafío".
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+Puedes obtener opiniones de tu proyecto compartiéndolo en el <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">foro freeCodeCamp</a>.
 
 # --solutions--
 

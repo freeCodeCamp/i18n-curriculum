@@ -21,11 +21,11 @@ dashedName: learn-to-solve-problems-and-understand-errors-lesson-a
 
 Найкращий спосіб покращити цю навичку — набувати досвід, створюючи багато програм. Чим більше практики, тим краще ви будете розв’язувати реальні проблеми.
 
-# --question--
-
-## --assignment--
+# --assignment--
 
 Прочитайте статтю <a href="https://www.freecodecamp.org/ukrainian/news/dumay-yak-prohramist-uroky-rozv-yazannya-problem/" target="_blank">«Думай як програміст: уроки розв’язання проблем»</a> Річарда Рейса.
+
+# --question--
 
 ## --text--
 

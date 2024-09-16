@@ -22,11 +22,11 @@ Print the value of the counter variable
 
 Це базова програма, щоб продемонструвати псевдокод. У завданнях буде ще більше прикладів псевдокоду.
 
+# --assignment--
+
+Прочитайте статтю <a href="https://builtin.com/data-science/pseudocode" target="_blank"> «Псевдокод: що це і як його написати»</a> від Built In (англійською мовою).
 
 # --question--
-
-## --assignment--
-Прочитайте статтю <a href="https://builtin.com/data-science/pseudocode" target="_blank"> «Псевдокод: що це і як його написати»</a> від Built In (англійською мовою).
 
 ## --text--
 

@@ -1,35 +1,35 @@
 ---
 id: 6570447fe7b02272663824e3
-title: Learn Block and Inline Lesson E
+title: Lição E de Aprenda sobre block e inline
 challengeType: 15
 dashedName: learn-block-and-inline-lesson-e
 ---
 
 # --description--
 
-Inline-block elements behave like inline elements, but with block-style padding and margin. `display: inline-block` is a useful tool to know about, but in practice, you'll probably end up reaching for flexbox more often if you're trying to line up a bunch of boxes. Flexbox will be covered in-depth in the next lesson.
+Elementos de inline-block se comportam como elementos inline, mas com preenchimento e margem em estilo de bloco. `display: inline-block` é uma ferramenta útil de se conhecer, mas na prática, você provavelmente acabará recorrendo ao flexbox com mais frequência se estiver tentando alinhar um monte de caixas. Flexbox será tratado em mais detalhes na próxima lição.
 
 # --question--
 
 ## --text--
 
-What is the difference between an `inline` element and an `inline-block` element?
+Qual é a diferença entre um elemento `inline` e um elemento `inline-block`?
 
 ## --answers--
 
-`inline` elements are displayed without line breaks, while `inline-block` elements are displayed with line breaks.
+Elementos `inline` são exibidos sem quebras de linha, enquanto elementos `inline-block` são exibidos com quebras de linha.
 
 ---
 
-`inline` elements do not allow setting width and height, while `inline-block` elements allow setting width and height.
+Elementos `inline` não permitem estabelecer largura e altura, enquanto elementos `inline-block` permitem estabelecer largura e altura.
 
 ---
 
-`inline` elements are always positioned horizontally, while `inline-block` elements are positioned vertically.
+Elementos `inline` estão sempre posicionados horizontalmente, enquanto elementos `inline-block` estão posicionados verticalmente.
 
 ---
 
-`inline` elements can contain block-level elements, while `inline-block` elements cannot contain other elements.
+Elementos `inline` podem conter elementos de nível de bloco, enquanto elementos `inline-block` não podem conter outros elementos.
 
 ## --video-solution--
 

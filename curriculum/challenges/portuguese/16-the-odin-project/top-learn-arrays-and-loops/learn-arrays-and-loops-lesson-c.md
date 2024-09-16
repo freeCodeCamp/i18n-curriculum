@@ -1,15 +1,15 @@
 ---
 id: 661e27578602567c118451d3
-title: Learn Arrays and Loops Lesson C
+title: Lição C de Aprenda arrays e laços
 challengeType: 15
 dashedName: learn-arrays-and-loops-lesson-c
 ---
 
 # --description--
 
-One of the most common ways to add a new element to an array is by using the `push()` method. The `push()` method adds one or more elements to the end of an array and returns the new length of the array.
+Uma das maneiras mais comuns de adicionar um novo elemento a um array é usando o método `push()`. O método `push()` adiciona um ou mais elementos ao final de um array e retorna o novo comprimento do array.
 
-For example, to add a new element to the `pet` array, you can use the following code:
+Por exemplo, para adicionar um novo elemento ao array `pet`, você pode usar o seguinte código:
 
 ```javascript
 const pet = ['cat', 'dog', 'bunny'];
@@ -17,9 +17,9 @@ pet.push('parrot');
 console.log(pet); // Output: ['cat', 'dog', 'bunny', 'parrot']
 ```
 
-To remove the last element of an array, you can use the `pop()` method. The `pop()` method removes the last element from an array and returns that element.
+Para remover o último elemento de um array, você pode usar o método `pop()`. O método `pop()` remove o último elemento de um array e retorna aquele elemento.
 
-For example, to remove the last element from the `pet` array, you can use the following code:
+Por exemplo, para remover o último elemento do array `pet`, você pode usar o seguinte código:
 
 ```javascript
 const pet = ['cat', 'dog', 'tiger'];
@@ -32,7 +32,7 @@ console.log(pet); // Output: ['cat', 'dog']
 
 ## --text--
 
-Given the following JavaScript code, what will be the output after executing the code snippet?
+Dado o seguinte código em JavaScript, qual será a saída após a execução do trecho de código?
 
 ```javascript
 const animals = ['deer', 'whale', 'frog'];
@@ -45,19 +45,19 @@ console.log(removed);
 
 ## --answers--
 
-`['deer', 'whale', 'frog', 'shark', 'bear']` and `'bear'`
+`['deer', 'whale', 'frog', 'shark', 'bear']` e `'bear'`
 
 ---
 
-`['deer', 'whale', 'frog', 'shark']` and `'bear'`
+`['deer', 'whale', 'frog', 'shark']` e `'bear'`
 
 ---
 
-`['deer', 'whale', 'frog', 'shark', 'bear']` and `null`
+`['deer', 'whale', 'frog', 'shark', 'bear']` e `null`
 
 ---
 
-`['deer', 'whale', 'frog', 'shark', 'bear']` and `['deer', 'whale', 'frog', 'shark']`
+`['deer', 'whale', 'frog', 'shark', 'bear']` e `['deer', 'whale', 'frog', 'shark']`
 
 ## --video-solution--
 

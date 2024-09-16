@@ -1,36 +1,36 @@
 ---
 id: 64a669f77a7d00f97013ed0c
-title: The Box Model Lesson E
+title: Lição E sobre o modelo de caixas
 challengeType: 15
 dashedName: the-box-model-lesson-e
 --- 
 # --description--
 
-Now that you understand the basic syntax of HTML and CSS, we’re going to get serious. The most important skills you need to master with CSS are positioning and layout. Changing fonts and colors is a crucial skill, but being able to put things exactly where you want them on a webpage is even more crucial. After all, how many webpages can you find where absolutely every element is just stacked one on top of another?
+Agora que você entende a sintaxe básica do HTML e do CSS, vamos nos aprofundar um pouco mais. As habilidades mais importantes que você precisa dominar em CSS são o posicionamento e o layout. Alterar fontes e cores é uma habilidade crucial, mas ser capaz de colocar as coisas exatamente onde você as quer numa página da web é mais importante ainda. Afinal, quantas páginas podem ser encontradas onde os elementos estão simplesmente empilhados uns em cima dos outros?
 
-Learning to position elements on a webpage is not that difficult once you understand just a few key concepts. Unfortunately, many learners race through learning HTML and CSS to get to JavaScript and end up missing these fundamental concepts. This leads to frustration, pain, (and funny gifs) because all the JavaScript skills in the world are meaningless if you can’t stick your elements on the page where you need them to be. So with that in mind, let’s get started.
+Aprender a posicionar elementos em uma página da web não é tão difícil quando você entende apenas alguns conceitos-chave. Infelizmente, muitos alunos passam rapidamente pelo aprendizado de HTML e CSS para chegar ao JavaScript e acabam perdendo esses conceitos fundamentais. Isso leva à frustração, dor e a alguns gifs engraçados, pois todas as habilidades em JavaScript no mundo perdem o sentido se você não puder encaixar seus elementos na página onde você precisa que eles estejam. Tendo isso em mente, vamos começar.
 
 # --question--
 
 ## --text--
 
-Why is it important to have a solid understanding of CSS in web development?
+Por que é importante ter uma compreensão satisfatória do CSS no desenvolvimento para a web?
 
 ## --answers--
 
-It allows you to create complex animations and interactive effects.
+Ele permite que você crie animações complexas e efeitos interativos.
 
 ---
 
-It allows you to create complex animations and interactive effects.
+Ele permite que você crie animações complexas e efeitos interativos.
 
 ---
 
-It helps in optimizing database queries for improved performance.
+Ele ajuda a otimizar as consultas ao banco de dados para um melhor desempenho.
 
 ---
 
-It enables you to style and design webpages with precision and control.
+Ele permite a você estilizar e projetar páginas da web com precisão e controle.
 
 
 ## --video-solution--

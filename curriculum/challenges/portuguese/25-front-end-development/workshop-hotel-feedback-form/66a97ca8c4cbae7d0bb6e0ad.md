@@ -7,7 +7,7 @@ dashedName: step-31
 
 # --description--
 
-Dentro do elemento `select`, adicione os seguintes cinco elementos `option` com esses valores correspondentes para o texto dos atributos `value` e `option`:
+Inside your `select` element, add the following five `option` elements with these corresponding values for the `option` text and `value` attribute:
 
 **Atributo value:**
 

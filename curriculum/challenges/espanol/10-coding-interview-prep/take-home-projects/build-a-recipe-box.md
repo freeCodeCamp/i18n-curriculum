@@ -8,23 +8,23 @@ dashedName: build-a-recipe-box
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://codepen.io/freeCodeCamp/full/dNVazZ/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/dNVazZ/</a>.
+**Objetivo:** Construir un aplicación que sea funcionalmente similar a ésta: <a href="https://codepen.io/freeCodeCamp/full/dNVazZ/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/dNVazZ/</a>.
 
-Fulfill the below user stories and get all of the tests to pass. Utiliza cualquier librería o API que necesites. Dale tu propio estilo personal.
+Completa las historias de los usuarios que están aquí abajo y haz que pasen todas las pruebas. Utiliza cualquier librería o API que necesites. Dale tu propio estilo personal.
 
-**User Story:** I can create recipes that have names and ingredients.
+**Historia de Usuario:** Puedo crear recetas que tienen nombres e ingredientes.
 
-**User Story:** I can see an index view where the names of all the recipes are visible.
+**Historia de Usuario:** Puedo ver un índice donde son visibles los nombres de todas las recetas.
 
-**User Story:** I can click into any of those recipes to view it.
+**Historia de Usuario:** Puedo clickear cualquiera de esas recetas para verla.
 
-**User Story:** I can edit these recipes.
+**Historia de Usuario:** Puedo editar esas recetas.
 
-**User Story:** I can delete these recipes.
+**Historia de Usuario:** Puedo eliminar esas recetas.
 
-**User Story:** All new recipes I add are saved in my browser's local storage. If I refresh the page, these recipes will still be there.
+**Historia de Usuario:** Todas las nuevas recetas que agrego están guardadas en el almacenamiento local (local storage) de mi navegador. Si actualizo la página, estas recetas seguirán ahí.
 
-**Hint:** You should prefix your local storage keys on CodePen, i.e. `_username_recipes`
+**Sugerencia:** Debes prefijar tus claves de almacenamiento local en CodePen, es decir, `_username_recipes`
 
 Cuando hayas terminado, incluye un enlace a tu proyecto en CodePen y haz clic en el botón "He completado este desafío".
 

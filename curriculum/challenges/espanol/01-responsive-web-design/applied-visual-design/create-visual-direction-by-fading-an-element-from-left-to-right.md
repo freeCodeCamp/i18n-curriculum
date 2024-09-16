@@ -1,6 +1,6 @@
 ---
 id: 587d78a7367417b2b2512ae2
-title: Crear dirección visual desvaneciendo un elemento de izquierda a derecha
+title: Crea dirección visual desvaneciendo un elemento de izquierda a derecha
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cGJqqAE'
 forumTopicId: 301054

@@ -1,6 +1,6 @@
 ---
 id: af2170cad53daa0770fabdea
-title: Mutations
+title: 변이(Mutations)
 challengeType: 1
 forumTopicId: 16025
 dashedName: mutations
@@ -8,83 +8,83 @@ dashedName: mutations
 
 # --description--
 
-Return `true` if the string in the first element of the array contains all of the letters of the string in the second element of the array.
+배열의 첫 번째 요소에 있는 문자열이 두 번째 요소에 있는 문자열의 모든 글자를 포함하면 `true`를 반환하세요.
 
-For example, `["hello", "Hello"]`, should return `true` because all of the letters in the second string are present in the first, ignoring case.
+예를 들어, `["hello", "Hello"]`는 대/소문자 구분을 하지 않는다면 첫 번째 문자열에 두 번째 문자열의 모든 글자가 있으므로 `true`를 반환해야 합니다.
 
-The arguments `["hello", "hey"]` should return `false` because the string `hello` does not contain a `y`.
+`["hello", "hey"]`는 `hello`가 `y`를 포함하지 않기 때문에 `false`를 반환해야 합니다.
 
-Lastly, `["Alien", "line"]`, should return `true` because all of the letters in `line` are present in `Alien`.
+마지막으로 `["Alien", "line"]`는 `line`의 모든 글자가 `Alien`에 있으므로 `true`를 반환해야 합니다.
 
 # --hints--
 
-`mutation(["hello", "hey"])` should return `false`.
+`mutation(["hello", "hey"])`은 `false`를 반환해야 합니다.
 
 ```js
 assert(mutation(['hello', 'hey']) === false);
 ```
 
-`mutation(["hello", "Hello"])` should return `true`.
+`mutation(["hello", "Hello"])`은 `true`를 반환해야 합니다.
 
 ```js
 assert(mutation(['hello', 'Hello']) === true);
 ```
 
-`mutation(["zyxwvutsrqponmlkjihgfedcba", "qrstu"])` should return `true`.
+`mutation(["zyxwvutsrqponmlkjihgfedcba", "qrstu"])`은 `true`를 반환해야 합니다.
 
 ```js
 assert(mutation(['zyxwvutsrqponmlkjihgfedcba', 'qrstu']) === true);
 ```
 
-`mutation(["Mary", "Army"])` should return `true`.
+`mutation(["Mary", "Army"])`은 `true`를 반환해야 합니다.
 
 ```js
 assert(mutation(['Mary', 'Army']) === true);
 ```
 
-`mutation(["Mary", "Aarmy"])` should return `true`.
+`mutation(["Mary", "Aarmy"])`은 `true`를 반환해야 합니다.
 
 ```js
 assert(mutation(['Mary', 'Aarmy']) === true);
 ```
 
-`mutation(["Alien", "line"])` should return `true`.
+`mutation(["Alien", "line"])`은 `true`를 반환해야 합니다.
 
 ```js
 assert(mutation(['Alien', 'line']) === true);
 ```
 
-`mutation(["floor", "for"])` should return `true`.
+`mutation(["floor", "for"])`은 `true`를 반환해야 합니다.
 
 ```js
 assert(mutation(['floor', 'for']) === true);
 ```
 
-`mutation(["hello", "neo"])` should return `false`.
+`mutation(["hello", "neo"])`은 `false`를 반환해야 합니다.
 
 ```js
 assert(mutation(['hello', 'neo']) === false);
 ```
 
-`mutation(["voodoo", "no"])` should return `false`.
+`mutation(["voodoo", "no"])`은 `false`를 반환해야 합니다.
 
 ```js
 assert(mutation(['voodoo', 'no']) === false);
 ```
 
-`mutation(["ate", "date"])` should return `false`.
+`mutation(["ate", "date"])`은 `false`를 반환해야 합니다.
 
 ```js
 assert(mutation(['ate', 'date']) === false);
 ```
 
-`mutation(["Tiger", "Zebra"])` should return `false`.
+`mutation(["Tiger", "Zebra"])`은 `false`를 반환해야 합니다.
 
 ```js
 assert(mutation(['Tiger', 'Zebra']) === false);
 ```
 
-`mutation(["Noel", "Ole"])` should return `true`.
+`mutation(["Noel", "Ole"])`은 `true`를 반환해야 합니다.
 
 ```js
 assert(mutation(['Noel', 'Ole']) === true);

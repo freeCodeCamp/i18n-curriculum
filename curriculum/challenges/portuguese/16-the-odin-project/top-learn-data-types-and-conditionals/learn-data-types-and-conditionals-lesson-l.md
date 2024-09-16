@@ -1,27 +1,27 @@
 ---
 id: 65e97293484dd50f720e6ff1
-title: Learn Data Types and Conditionals Lesson L
+title: Lição L de Aprenda tipos de dados e condicionais
 challengeType: 15
 dashedName: learn-data-types-and-conditionals-lesson-l
 ---
 
 # --description--
 
-Another way to compare conditional statements would be the ternary operator. The ternary operator is a shorthand way of writing an `if-else` statement. It is used to evaluate a condition and return a value based on the result of the condition. The syntax of the ternary operator is as follows:
+Outra maneira de comparar instruções condicionais seria o operador ternário. O operador ternário é uma maneira abreviada de escrever uma instrução `if-else`. É usado para avaliar uma condição e retornar um valor com base no resultado da condição. A sintaxe do operador ternário é a seguinte:
 
 ```javascript
 let result = condition ? value1 : value2;
 ```
 
-In the above example, if the condition is true, the value of `result` will be `value1`. Otherwise, the value of `result` will be `value2`.
+No exemplo acima, se a condição for verdadeira, o valor de `result` será `value1`. Caso contrário, o valor de `result` será `value2`.
 
-Ternary operators are often used to assign a value to a variable based on a condition. They are also used to return a value based on a condition.
+Os operadores ternários são frequentemente usados para atribuir um valor a uma variável com base em uma condição. Eles também são usados para retornar um valor com base em uma condição.
 
 # --question--
 
 ## --text--
 
-What is the value of the `result` variable if the value of the `condition` variable is `true`?
+Qual é o valor da variável `result` se o valor da variável `condition` for `true`?
 
 ```javascript
 let condition = true;

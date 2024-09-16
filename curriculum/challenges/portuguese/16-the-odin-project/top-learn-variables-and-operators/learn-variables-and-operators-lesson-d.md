@@ -19,9 +19,9 @@ let userName;
 let test123;
 ```
 
-Uma coisa interessante: o símbolo de cifrão, `'$'`, e o sublinhado, `'_'`, também podem ser usados em nomes. They are regular symbols, just like letters, without any special meaning.
+Uma coisa interessante: o símbolo de cifrão, `'$'`, e o sublinhado, `'_'`, também podem ser usados em nomes. Eles são símbolos regulares, assim como as letras, sem nenhum significado especial.
 
-These names are valid:
+Esses nomes são válidos:
 
 ```js
 let $ = 1; // declared a variable with the name "$"
@@ -30,7 +30,7 @@ let _ = 2; // and now a variable with the name "_"
 console.log($ + _); // 3
 ```
 
-Examples of incorrect variable names:
+Exemplos de nomes de variáveis incorretos:
 
 ```js
 let 1a; // cannot start with a digit
@@ -42,7 +42,7 @@ let my-name; // hyphens '-' aren't allowed in the name
 
 ## --text--
 
-Which of the following is a valid JavaScript variable name?
+Qual das opções a seguir é um nome de variável válido no JavaScript?
 
 ## --answers--
 

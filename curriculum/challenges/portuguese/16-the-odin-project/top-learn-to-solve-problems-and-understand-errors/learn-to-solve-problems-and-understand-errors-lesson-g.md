@@ -7,7 +7,7 @@ dashedName: learn-to-solve-problems-and-understand-errors-lesson-g
 
 # --description--
 
-Say you have two strings that you would like to combine to create one message, such as below:
+Digamos que você tem duas strings que gostaria de combinar para criar uma mensagem, como abaixo:
 
 ```js
 const str1 = "Hello";
@@ -15,19 +15,19 @@ const str2 = "World!";
 const message = str1.push(str2);
 ```
 
-<img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/4ed59981b4ce2c60b5b83bf7415d3127b61821f5/foundations/javascript_basics/understanding_errors/imgs/03.png" style="width:100%" alt="an example of a type error in the Chrome developer console" />
+<img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/4ed59981b4ce2c60b5b83bf7415d3127b61821f5/foundations/javascript_basics/understanding_errors/imgs/03.png" style="width:100%" alt="um exemplo de um erro de tipo no console do desenvolvedor do Chrome" />
 
-Here, you'll get a `TypeError` with a message stating that `str1.push is not a function`. This is a common error message that confuses learners because you might know that `.push()` is certainly a function (for example, if you have used it to add items to arrays before).
+Aqui, você receberá um `TypeError` com uma mensagem afirmando `str1.push is not a function`. Essa é uma mensagem de erro comum que confunde os aprendizes porque você pode saber que `.push()` é certamente uma função (por exemplo, se você já a usou para adicionar itens a arrays antes).
 
-But that's the key - `.push()` is not a String method, it's an Array method. Hence, it is “not a function” that you can find as a String method. If you change`.push()` to `.concat()`, a proper String method, our code runs as intended!
+Essa é a chave – `.push()` não é um método de String; é um método de Array. Portanto, não é uma "função" que você pode encontrar como um método de String. Se você mudar `.push()` para `.concat()`, um método de String adequado, nosso código funciona como planejado!
 
-A good note to keep in mind when faced with a `TypeError` is to consider the data type you are trying to run a method or operation against. You'll likely find that it is not what you think, or the operation or method is not compatible with that type.
+Uma boa observação a se ter em mente quando confrontado com um `TypeError` é considerar o tipo de dados ao qual você está tentando aplicar um método ou operação. Você provavelmente descobrirá que não é o que você pensa ou que a operação ou método não é compatível com esse tipo.
 
 # --question--
 
 ## --text--
 
-Why does the following JavaScript code result in a `TypeError`?
+Por que o seguinte código em JavaScript resulta em um `TypeError`?
 
 ```js
 const str1 = "Hello";
@@ -37,19 +37,19 @@ const message = str1.push(str2);
 
 ## --answers--
 
-The `.push()` method can only be used on objects, not strings.
+O método `.push()` só pode ser usado em objetos, não em strings.
 
 ---
 
-The `.push()` method is not available for strings because it is an Array method.
+O método `.push()` não está disponível para strings porque é um método de arrays.
 
 ---
 
-The `.push()` method is incorrectly spelled and should be .pusch().
+O método `.push()` está escrito incorretamente e deveria ser .pusch().
 
 ---
 
-The `TypeError` is a result of a syntax error in the JavaScript code.
+O `TypeError` é resultado de um erro de sintaxe no código em JavaScript.
 
 ## --video-solution--
 

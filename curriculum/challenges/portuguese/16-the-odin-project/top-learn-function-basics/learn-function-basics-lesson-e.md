@@ -1,13 +1,13 @@
 ---
 id: 6617aef05b87c334e7ae8016
-title: Learn Function Basics Lesson E
+title: Lição E de Aprenda funções básicas
 challengeType: 15
 dashedName: learn-function-basics-lesson-e
 ---
 
 # --description--
 
-As you have seen before, functions can return a value using the `return` keyword. The `return` keyword is used to return a value from a function. When the `return` keyword is used, the function will stop executing and return the value specified after the `return` keyword.
+Como você viu antes, funções podem retornar um valor usando a palavra-chave `return`. A palavra-chave `return` é usada para retornar um valor de uma função. Quando a palavra-chave `return` é usada, a função vai parar de executar e retornar o valor especificado após a palavra-chave `return`.
 
 ```js
 function add(a, b) {
@@ -17,7 +17,7 @@ function add(a, b) {
 console.log(add(2, 3)); // Output: 5
 ```
 
-But what happens if the `return` keyword is used before the end of the function? To answer this question, consider the following example:
+O que acontece, porém, se a palavra-chave `return` for usada antes do fim da função? Para responder a essa pergunta, considere o exemplo a seguir:
 
 ```js
 function add(a, b) {
@@ -31,13 +31,13 @@ function add(a, b) {
 console.log(add(3, 7)); // Output: 7
 ```
 
-In the example above, the function `add` has a conditional statement that checks if the value of `a` is greater than `2`. If the condition is met, the function will return the value of `b` and stop executing. If the condition is not met, the function will return the sum of `a` and `b`.
+No exemplo acima, a função `add` tem uma instrução condicional que verifica se o valor de `a` é maior que `2`. Se a condição for atendida, a função retornará o valor de `b` e vai parar de executar. Se a condição não for atendida, a função retornará a soma de `a` e `b`.
 
 # --question--
 
 ## --text--
 
-What is the output of the following code snippet?
+Qual é o resultado do seguinte trecho de código?
 
 ```js
 function add(a, b = 12) {
@@ -55,19 +55,19 @@ console.log(add(3));
 
 ## --answers--
 
-The output is `24`.
+A saída é `24`.
 
 ---
 
-The output is `14`.
+A saída é `14`.
 
 ---
 
-The output is `15`.
+A saída é `15`.
 
 ---
 
-The output is `12`.
+A saída é `12`.
 
 ## --video-solution--
 

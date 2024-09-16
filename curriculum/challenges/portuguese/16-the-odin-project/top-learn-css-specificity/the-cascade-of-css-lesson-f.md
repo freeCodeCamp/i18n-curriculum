@@ -1,6 +1,6 @@
 ---
 id: 6489cf6782cf2e4f86f03ae7
-title: The Cascade of CSS Lesson F
+title: Lição F sobre a cascata do CSS
 challengeType: 15
 dashedName: the-cascade-of-css-lesson-f
 ---
@@ -19,7 +19,7 @@ dashedName: the-cascade-of-css-lesson-f
 }
 ```
 
-Here both rule 1 and rule 2 have the same specificity. Rule 1 uses a chaining selector (no space) and rule 2 uses a descendant combinator (the empty space). But both rules have two classes and the combinator symbol itself does not add to the specificity.
+Aqui, a regra 1 e a regra 2 têm a mesma especificidade. A regra 1 usa um seletor de encadeamento (sem espaço) e a regra 2 usa um combinador descendente (o espaço vazio). As duas regras, no entanto, têm duas classes e o símbolo do combinador em si não aumenta a especificidade.
 
 ```css
 /* rule 1 */
@@ -32,15 +32,15 @@ Here both rule 1 and rule 2 have the same specificity. Rule 1 uses a chaining se
 }
 ```
 
-This example shows the same thing. Even though rule 2 is using a child combinator (`>`), this does not change the specificity value. Both rules still have two classes so they have the same specificity values.
+Este exemplo mostra a mesma coisa. Mesmo que a regra 2 esteja usando um combinador de filhos (`>`), ele não altera o valor de especificidade. As duas regras ainda têm duas classes. Por isso, elas têm os mesmos valores de especificidade.
 
-*Note:* Not everything adds to specificity When comparing selectors, you may come across special symbols for the universal selector (`*`) as well as combinators (`+`, `~`, `>`, and an empty space). These symbols do not add any specificity in and of themselves.
+*Observação:* nem tudo adiciona especificidade. Ao comparar seletores, você pode encontrar símbolos especiais para o seletor universal (`*`), bem como os combinadores (`+`, `~`, `>` e o espaço vazio). Esses símbolos não adicionam nenhuma especificidade por eles mesmos.
 
 # --question--
 
 ## --text--
 
-Based on the given CSS code, which font size would be applied to elements with the class "class second-class"?
+Com base no código CSS dado, qual tamanho de fonte seria aplicado aos elementos com as classes "class second-class"?
 
 ## --answers--
 

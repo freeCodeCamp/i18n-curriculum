@@ -1,41 +1,41 @@
 ---
 id: 66581a7fb1eb228115949301
-title: Learn to Solve Problems and Understand Errors Lesson H
+title: Lição H de Aprenda a resolver problemas e a entender erros
 challengeType: 15
 dashedName: learn-to-solve-problems-and-understand-errors-lesson-h
 ---
 
 # --description--
 
-At this point, you might be wondering how you can resolve these errors.
+Neste ponto, você pode estar se perguntando como pode resolver esses erros.
 
-1. You can start by understanding that the error message is your friend - not your enemy. Error messages tell you exactly what is wrong with your code, and which lines to examine to find the source of the error. Without error messages it would be a nightmare to debug our code - because it would still not work, you just wouldn’t know why!
+1. Você pode começar entendendo que a mensagem de erro é sua amiga – não sua inimiga. As mensagens de erro dizem exatamente o que há de errado com o código e quais linhas examinar para encontrar a origem do erro. Sem mensagens de erro seria um pesadelo depurar nosso código, porque ele ainda não funcionaria, você só não saberia por quê!
 
-1. You shoud search your error on the web, most of the time you will be able to find a fix or explanation on StackOverflow or in the documentation. If nothing else, you will receive more clarity as to why you are receiving this error.
+1. Você deve pesquisar seu erro na web. Na maioria das vezes, você encontrará uma correção ou explicação no StackOverflow ou na documentação. Ao menos, você perceberá com mais clareza o motivo de estar recebendo esse erro.
 
-1. Another way is to use `console.log()` — it is a popular choice for quick debugging. For more involved troubleshooting, using the debugger might be more appropriate, but using `console.log()` is great for getting immediate feedback without needing to step through your functions. There are also other useful methods such as `console.table()`, `console.trace()`, and more!
+1. Outra maneira é usar `console.log()` — é uma escolha popular para uma depuração rápida. Para uma solução de problemas mais detalhada, usar o depurador pode ser mais apropriado, mas usar `console.log()` é ótimo para obter feedback imediato sem precisar percorrer suas funções. Existem também outros métodos úteis como `console.table()`, `console.trace()` e mais!
 
 # --question--
 
 ## --text--
 
-When encountering an error in your code, which of the following is NOT a recommended step for identifying and resolving the issue?
+Ao encontrar um erro em seu código, qual das seguintes NÃO é uma etapa recomendada para identificar e resolver o problema?
 
 ## --answers--
 
-Utilizing `console.log()` or other console methods to debug and gain insights into the values and state of your code.
+Utilizar `console.log()` ou outros métodos de console para depurar e obter insights sobre os valores e o estado do seu código.
 
 ---
 
-Searching for the error message on resources like StackOverflow or reading documentation.
+Pesquisar a mensagem de erro em recursos como o StackOverflow ou ler a documentação.
 
 ---
 
-Ignoring the error messages and guessing what might be wrong.
+Ignorar as mensagens de erro e adivinhar o que pode estar errado.
 
 ---
 
-Using error messages as a guide to understand what part of the code is causing the problem.
+Usar as mensagens de erro como um guia para entender que parte do código está causando o problema.
 
 ## --video-solution--
 

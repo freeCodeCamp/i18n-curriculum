@@ -6,7 +6,7 @@ dashedName: learn-variables-and-operators-lesson-a
 ---
 
 # --description--
-The simplest way to get started is to create an HTML file with the JavaScript code inside of it. Type the basic HTML skeleton into a file on your computer somewhere:
+A maneira mais simples de começar é criar um arquivo HTML com o código em JavaScript dentro dele. Digite o esqueleto básico do HTML em um arquivo no seu computador em algum lugar:
 
 ```html
 <!DOCTYPE html>
@@ -24,39 +24,39 @@ The simplest way to get started is to create an HTML file with the JavaScript co
 </html>
 ```
 
-Save and open this file up in a web browser (you can use <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer" target="_blank" >"Live Server" on Visual Studio Code</a> to do this!) and then open up the browser’s console by right-clicking on the blank webpage and selecting "Inspect" or "Inspect Element". In the ‘Developer Tools’ pane find and select the ‘Console’ tab, where you should see the output of our `console.log` statement.
+Salve e abra esse arquivo em um navegador da web (você pode usar o <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer" target="_blank" >"Live Server" no Visual Studio Code</a> para fazer isso!) e depois abra o console do navegador clicando com o botão direito na página da web em branco e selecionando "Inspecionar" ou "Inspecionar Elemento". No painel 'Ferramentas de Desenvolvedor', encontre e selecione a aba 'Console', onde você deve ver a saída da nossa instrução `console.log`.
 
-> `console.log()` is the command to print something to the developer console in your browser. You can use this to print the results from any of the following articles and exercises to the console. We encourage you to code along with all of the examples in this and future lessons.
+> `console.log()` é o comando para imprimir algo no console do desenvolvedor no seu navegador. Você pode usar isso para imprimir os resultados de qualquer um dos artigos e exercícios seguintes no console. Incentivamos você a programar junto com todos os exemplos nesta e em futuras lições.
 
-Another way to include JavaScript in a webpage is through an external script. This is very similar to linking external CSS docs to your website.
+Outra maneira de incluir JavaScript em uma página da web é por meio de um script externo. É muito semelhante a vincular documentos CSS externos ao seu site.
 
 ```html
   <script src="javascript.js"></script>
 ```
 
-JavaScript files have the extension `.js` similar to `.css` for stylesheets. External JavaScript files are used for more complex scripts.
+Arquivos em JavaScript têm a extensão `.js`, semelhante a `.css` para folhas de estilo. Arquivos em JavaScript externos são usados para scripts mais complexos.
 
 # --question--
 
 ## --text--
 
-Which statement accurately describes how to include JavaScript in an HTML document?
+Qual instrução descreve com precisão como incluir JavaScript em um documento HTML?
 
 ## --answers--
 
-JavaScript can only be included internally within a `<script>` tag in the HTML body.
+JavaScript só pode ser incluído internamente dentro de uma tag `<script>` no corpo do HTML.
 
 ---
 
-JavaScript code must be written in the `<head>` section of an HTML document for it to execute properly.
+O código em JavaScript deve ser escrito na seção `<head>` de um documento HTML para executar corretamente.
 
 ---
 
-JavaScript can be included directly in an HTML file using a `<script>` tag or linked externally via a `<script src="javascript.js">` tag.
+JavaScript pode ser incluído diretamente em um arquivo HTML usando uma tag `<script>` ou vinculado externamente via uma tag `<script src="javascript.js">`.
 
 ---
 
-External JavaScript files require a special attribute in the `<script>` tag to be recognized by web browsers.
+Arquivos em JavaScript externos requerem um atributo especial na tag `<script>` para serem reconhecidos pelos navegadores da web.
 
 
 ## --video-solution--

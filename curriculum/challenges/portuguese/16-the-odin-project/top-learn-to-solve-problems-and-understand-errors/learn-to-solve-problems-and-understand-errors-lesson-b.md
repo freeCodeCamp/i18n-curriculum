@@ -7,48 +7,48 @@ dashedName: learn-to-solve-problems-and-understand-errors-lesson-b
 
 # --description--
 
-## Understand the problem
-The first step to solving a problem is understanding exactly what the problem is. If you don’t understand the problem, you won’t know when you’ve successfully solved it and may waste a lot of time on a wrong solution.
+## Entender o problema
+A primeira etapa para resolver um problema é entender exatamente qual é o problema. Se você não entender o problema, não saberá quando o resolveu com sucesso e pode desperdiçar muito tempo em uma solução errada.
 
-To gain clarity and understanding of the problem, write it down on paper, reword it in plain English until it makes sense to you, and draw diagrams if that helps. When you can explain the problem to someone else in plain English, you understand it.
+Para obter clareza e compreensão do problema, escreva-o no papel, reescreva-o de maneira simples até que faça sentido para você. Desenhe diagramas se isso ajudar. Quando você consegue explicar o problema para outra pessoa com simplicidade, significa que você o entende.
 
-### Plan
-Now that you know what you’re aiming to solve, don’t jump into coding just yet. It’s time to plan out how you’re going to solve it first. Some of the questions you should answer at this stage of the process:
+### Planejamento
+Agora que você sabe o que está tentando resolver, não comece a programar ainda. É hora de planejar como você vai resolvê-lo primeiro. Algumas das perguntas que você deve responder nesta etapa do processo:
 
-- Does your program have a user interface? What will it look like? What functionality will the interface have? Sketch this out on paper.
+- Seu programa tem uma interface de usuário? Como será? Que funcionalidades a interface terá? Esboce isso no papel.
 
-- What inputs will your program have? Will the user enter data or will you get input from somewhere else?
+- Quais serão as entradas do seu programa? O usuário inserirá dados ou você obterá entrada de outro lugar?
 
-- What’s the desired output?
+- Qual é a saída desejada?
 
-- Given your inputs, what are the steps necessary to return the desired output?
+- Dadas suas entradas, quais são as etapas necessárias para retornar a saída desejada?
 
-The last question is where you will write out an algorithm to solve the problem. You can think of an algorithm as a recipe for solving a particular problem. It defines the steps that need to be taken by the computer to solve a problem in pseudocode.
+A última pergunta é onde você escreverá um algoritmo para resolver o problema. Você pode pensar em um algoritmo como uma receita para resolver um determinado problema. Ele define as etapas que o computador precisa seguir para resolver um problema em pseudocódigo.
+
+# --assignment--
+Assista <a href="https://www.youtube.com/watch?v=azcrPFhaY9k" target="_blank">Como Começar a Pensar Como um Programador</a> pelo Coding Tech. Tem uma hora de duração, mas é repleto de informações e definitivamente vale a pena assistir.
 
 # --question--
 
-## --assignment--
-Watch <a href="https://www.youtube.com/watch?v=azcrPFhaY9k" target="_blank">How to Begin Thinking Like a Programmer</a> by Coding Tech. It’s an hour long but packed full of information and definitely worth your time watching.
-
 ## --text--
 
-What should you do before starting to code according to the provided text?
+O que você deve fazer antes de começar a programar de acordo com o texto fornecido?
 
 ## --answers--
 
-Immediately start coding to see what problems arise.
+Comece a programar imediatamente para ver quais problemas surgem.
 
 ---
 
-Write out the problem in plain English and make sure you can explain it to someone else.
+Escreva o problema em linguagem simples e certifique-se de que você pode explicá-lo para outra pessoa.
 
 ---
 
-Sketch the user interface and start coding the most complex functions first.
+Desenhe a interface do usuário e comece a codificar as funções mais complexas primeiro.
 
 ---
 
-Collect all possible inputs from users and other sources.
+Colete todas as possíveis entradas dos usuários e outras fontes.
 
 
 ## --video-solution--

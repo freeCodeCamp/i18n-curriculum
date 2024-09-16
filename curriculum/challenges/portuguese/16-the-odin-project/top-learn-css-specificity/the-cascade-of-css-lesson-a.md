@@ -1,38 +1,38 @@
 ---
 id: 6489bcd7b7600c818dc297ea
-title: The Cascade of CSS Lesson A
+title: Lição A sobre a cascata do CSS
 challengeType: 15
 dashedName: the-cascade-of-css-lesson-a
 ---
 
 # --description--
 
-Sometimes we may have rules that conflict with one another, and we end up with some unexpected results. “But I wanted these paragraphs to be blue, why are they red like these other paragraphs?!” As frustrating as this can be, it’s important to understand that CSS doesn’t just do things against your wishes. CSS only does what we tell it to do. One exception to this is the default styles that are provided by a browser. These default styles vary from browser to browser, and they are why some elements create a large “gap” between themselves and other elements, or why buttons look the way they do, despite us not writing any CSS rules to style them that way.
+Por vezes, podemos ter regras que entram em conflito umas com as outras e acabamos obtendo resultados inesperados. "Mas eu queria que esses parágrafos ficassem azuis. Por que eles estão vermelhos como os outros parágrafos?!" Por mais frustrante que isso possa ser, é importante entender que o CSS não faz as coisas apenas contra seus desejos. O CSS faz apenas o que dizemos para ele fazer. Uma exceção para isso são os estilos padrão fornecidos por um navegador. Esses estilos padrão variam de navegador para navegador. São o motivo pelo qual alguns elementos criam uma grande "lacuna" entre eles mesmos e outros elementos, ou pelo qual os botões têm a aparência que têm, apesar de não escrevermos quaisquer regras do CSS para estilizá-los desse modo.
 
-So if you end up with some unexpected behavior like this it’s either because of these default styles, not understanding how a property works, or not understanding this little thing called the cascade.
+Então, se você acabar com algum comportamento inesperado como esse, pode ser por causa desses estilos padrão, por não entender como funciona uma propriedade ou por não entender essa questão chamada de "cascata".
 
-The cascade is what determines which rules actually get applied to your HTML. There are different factors that the cascade uses to determine this. We will examine three of these factors, which will hopefully help you avoid those frustrating “I hate CSS” moments.
+A cascata é o que determina quais regras realmente são aplicadas ao seu HTML. Há diferentes fatores que a cascata usa para determinar isso. Examinaremos três desses fatores, o que acreditamos que ajudará você a evitar aqueles momentos frustrantes do tipo "Odeio o CSS".
 
 # --question--
 ## --text--
 
-Why might you encounter unexpected behavior in CSS?
+Por que você pode encontrar comportamentos inesperados no CSS?
 
 ## --answers--
 
-Due to conflicting rules and unexpected results
+Devido a regras conflitantes e resultados inesperados
 
 ---
 
-Due to the browser's default styles
+Devido aos estilos padrão do navegador
 
 ---
 
-Due to a lack of understanding of CSS properties
+Devido a uma falta de compreensão das propriedades do CSS
 
 ---
 
-All of the above
+Todas as anteriores
 
 ## --video-solution--
 

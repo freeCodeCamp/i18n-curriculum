@@ -1,35 +1,35 @@
 ---
 id: 6571b2ffcc1de61d7b4dd382
-title: Introduction to Flexbox Lesson D
+title: Lição D de Introdução ao Flexbox
 challengeType: 15
 dashedName: introduction-flexbox-lesson-d
 ---
 
 # --description--
 
-Now that you have a basic understanding of how flexbox works, what is the primairy role of a flex item in a `flexbox` layout? Try and answer the question below.
+Agora que você tem um entendimento básico de como o flexbox funciona, qual é o papel primário de um item flex em um layout do `flexbox`? Tente responder a pergunta abaixo.
 
 # --question--
 
 ## --text--
 
-What role does a flex item play within a flex container?
+Qual papel um item flex desempenha dentro de um contêiner flex?
 
 ## --answers--
 
-Flex items define the overall layout structure.
+Itens flex definem a estrutura geral do layout.
 
 ---
 
-Flex items set the background colors of flex containers.
+Itens flex definem as cores de fundo dos contêineres flex.
 
 ---
 
-Flex items allow the flex container to resize based on content.
+Itens flex permitem que o contêiner flex seja redimensionado com base no conteúdo.
 
 ---
 
-Flex items are elements that reside directly within a flex container.
+Itens flex são elementos que residem diretamente dentro de um contêiner flex.
 
 ## --video-solution--
 

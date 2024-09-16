@@ -8,7 +8,7 @@ dashedName: build-a-periodic-table-database
 
 # --description--
 
-これは認定証を獲得するために必須のプロジェクトの 1 つです。 このプロジェクトでは、周期表データベースから化学元素の情報を取得する、Bash スクリプトを作成します。
+これは認定証を獲得するために必須のプロジェクトの 1 つです。 For this project, you will create a Bash script to get information about chemical elements from a periodic table database.
 
 # --instructions--
 

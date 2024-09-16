@@ -7,45 +7,45 @@ dashedName: introduction-flexbox-lesson-j
 
 # --description--
 
-Let's look at an example.
+Dê uma olhada no exemplo.
 
-<iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="400" width="100%" name="cp_embed_1" scrolling="no" src="https://codepen.io/TheOdinProjectExamples/embed/MWoyBzR?height=400&amp;default-tab=html%2Cresult&amp;slug-hash=MWoyBzR&amp;editable=true&amp;user=TheOdinProjectExamples&amp;name=cp_embed_1" style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy" id="cp_embed_MWoyBzR"></iframe>
+<iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="400" width="100%" name="cp_embed_1" scrolling="no" src="https://codepen.io/TheOdinProjectExamples/embed/MWoyBzR?height=400&amp;default-tab=html%2Cresult&amp;slug-hash=MWoyBzR&amp;editable=true&amp;user=TheOdinProjectExamples&amp;name=cp_embed_1" style="width: 100%; overflow:hidden; display:block;" title="CodePen incorporado" loading="lazy" id="cp_embed_MWoyBzR"></iframe>
 
-You should be able to predict what happens if you put `flex: 1` on the `.item` by now. Give it a shot before you move on!
+Agora você deve ser capaz de prever o que acontece se você colocar `flex: 1` no `.item`. Tente antes de continuar!
 
-Adding `flex: 1` to `.item` makes each of the items grow to fill the available space, but what if you wanted them to stay the same width, but distribute themselves differently inside the container? You can do this!
+Adicionar `flex: 1` ao `.item` faz com que cada um dos itens cresça para preencher o espaço disponível, mas o que você poderia fazer se quisesse que eles mantivessem a mesma largura, embora se distribuíssem de modo diferente dentro do contêiner? Você pode fazer isso!
 
-Remove `flex: 1` from `.item` and add `justify-content: space-between` to `.container`. Doing so should give you something like this:
+Remova `flex: 1` do `.item` e adicione `justify-content: space-between` ao `.container`. Fazendo isso, você deve obter algo assim:
 
-<img src="https://cdn.freecodecamp.org/curriculum/odin-project/flex-box/flexbox-05.png" alt="Three small boxes within a much larger rectangle. The boxes are arranged in a single row, one close to the left edge of the container, one close to the right edge of the container, and the last directly in the middle of the container, placing as much space as possible between each box." />
+<img src="https://cdn.freecodecamp.org/curriculum/odin-project/flex-box/flexbox-05.png" alt="Três pequenas caixas dentro de um retângulo muito maior. As caixas são dispostas em uma única linha, uma próxima à borda esquerda do contêiner, outra próxima à borda direita do contêiner e a última diretamente no meio do contêiner, colocando o máximo de espaço possível entre cada caixa." />
 
-`justify-content` aligns items across the **main axis**. There are a few values that you can use here. You'll learn the rest of them in the reading assignments, but for now try changing it to center, which should center the boxes along the main axis.
+`justify-content` alinha itens ao longo do **eixo principal**. Existem alguns valores que você pode usar aqui. Você aprenderá o restante nas leituras indicadas. Por enquanto, tente mudar para center, o que deve centralizar as caixas ao longo do eixo principal.
+
+# --assignment--
+
+Antes de passar para a próxima lição, veja o que é possível com a propriedade `justify-content`. Leia este [artigo interativo na MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content) e experimente com os diferentes valores de `justify-content` no exemplo.
 
 # --question--
 
-## --assignment--
-
-Antes de passar para a próxima lição, veja o que é possível com a propriedade `justify-content`. Read this [interactive article on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content) and play around with the different values of `justify-content` on the example.
-
 ## --text--
 
-How does applying `justify-content: space-between` to a flex container affect the positioning of its items?
+Como aplicar `justify-content: space-between` a um contêiner flex afeta o posicionamento dos seus itens?
 
 ## --answers--
 
-It evenly distributes space between items, pushing the first and last items to the edges.
+Distribui o espaço uniformemente entre os itens, empurrando o primeiro e o último itens para as bordas.
 
 ---
 
-It centers all items within the container.
+Centraliza todos os itens dentro do contêiner.
 
 ---
 
-It causes the items to grow to fill available space.
+Faz com que os itens cresçam para preencher o espaço disponível.
 
 ---
 
-It aligns items to the left side while leaving excessive space on the right side.
+Alinha os itens ao lado esquerdo enquanto deixa espaço excessivo no lado direito.
 
 ## --video-solution--
 

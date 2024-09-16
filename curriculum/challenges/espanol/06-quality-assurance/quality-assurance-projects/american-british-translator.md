@@ -11,7 +11,7 @@ dashedName: american-british-translator
 Crea una aplicación full stack de JavaScript que sea funcionalmente similar a esta: <a href="https://american-british-translator.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://american-british-translator.freecodecamp.rocks/</a>. Trabajar en este proyecto implicará escribir tu código utilizando uno de los siguientes métodos:
 
 -   Clone este repositorio de <a href="https://github.com/freeCodeCamp/boilerplate-project-american-british-english-translator/" target="_blank" rel="noopener noreferrer nofollow"> GitHub</a> y complete estos desafíos localmente.
--   Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-american-british-english-translator/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete your project.
+-   Usa <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-american-british-english-translator/" target="_blank" rel="noopener noreferrer nofollow">nuestro proyecto inicial de Gitpod</a>para completar tu proyecto.
 -   Usa un constructor de sitios de tu elección para completar el proyecto. Asegúrate de incorporar todos los archivos de nuestro repositorio de GitHub.
 
 # --instructions--
@@ -20,7 +20,7 @@ Crea una aplicación full stack de JavaScript que sea funcionalmente similar a e
 -   Completa la ruta `/api/translate` en `/routes/api.js`
 -   Crea todo lo de las pruebas unitarias/funcionales tests en `tests/1_unit-tests.js` y `tests/2_functional-tests.js`
 -   Consulta los archivos JavaScript en `/components` para las diferentes pronunciaciones y terminos que tu aplicación debería traducir
--   To run the tests automatically, set `NODE_ENV` to `test` without quotes in the `.env` file
+-   Para ejecutar las pruebas automáticamente, establece `NODE_ENV` a `test` sin comillas en el `.env`archivo
 -   Para ejecutar las pruebas en la consola, usa el comando: `npm run test`.
 
 Escribe las siguientes pruebas en `tests/1_unit-tests.js`:
