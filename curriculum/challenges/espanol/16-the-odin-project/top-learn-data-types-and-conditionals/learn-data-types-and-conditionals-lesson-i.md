@@ -7,9 +7,9 @@ dashedName: learn-data-types-and-conditionals-lesson-i
 
 # --description--
 
-In the last example, you had two choices `if` or `else`. But what if you want to have more than two choices? You can use the `else if` statement to add more conditions to our code. The `else if` statement allows us to check multiple conditions and execute a block of code when the first condition is true. If the first condition is false, it will check the next condition and so on. If none of the conditions are true, the `else` block will be executed.
+In the last example, you had two choices `if` or `else`. ¿Pero qué sucede si quieres tener más de dos opciones? Puedes usar la sentencia `else if` para agregar más condiciones a nuestro código. La sentencia `else if` nos permite comprobar múltiples condiciones y ejecutar un bloque de código cuando la primera condición es verdadera. Si la primera condición es falsa, se comprobará la siguiente condición y así sucesivamente. Si ninguna de las condiciones son verdaderas, el bloque `else` será ejecutado.
 
-Here is an example of the `else if` statement:
+Aquí hay un ejemplo de la sentencia `else if`:
 
 ```javascript
 let x = 5;
@@ -23,13 +23,13 @@ if (x > 10) {
 }
 ```
 
-In this example, the `x` variable is compared to the number `10` using the `>` operator. If `x` is greater than `10`, the first block of code will be executed. Otherwise, the `else if` statement will check the next condition. If `x` is greater than `5`, the second block of code will be executed. Otherwise, the `else` block will be executed.
+En este ejemplo, la variable `x` se compara con el número `10` usando el operador `>`. Si `x` es mayor que `10`, se ejecutará el primer bloque de código. De lo contrario, la sentencia `else if` comprobará la siguiente condición. Si `x` es mayor que `5`, se ejecutará el segundo bloque de código. De lo contrario, se ejecutará el bloque `else`.
 
 # --question--
 
 ## --text--
 
-What will be the output of the following code?
+¿Cuál será la salida del siguiente código?
 
 ```javascript
 let x = 4;

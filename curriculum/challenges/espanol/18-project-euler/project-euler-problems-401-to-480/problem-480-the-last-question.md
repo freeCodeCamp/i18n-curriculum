@@ -32,11 +32,11 @@ $$\begin{align}   & 1: \text{a} \\\\
   & ... \\\\   & 525069350231428029: \text{ywuuttttssssrrr} \\\\
 \end{align}$$
 
-Define $P(w)$ as the position of the word $w$.
+Define $P(w)$ como la posición de la palabra $w$.
 
-Define $W(p)$ as the word in position $p$.
+Define $W(p)$ como la palabra en la posición $p$.
 
-We can see that $P(w)$ and $W(p)$ are inverses: $P(W(p)) = p$ and $W(P(w)) = w$.
+Podemos ver que $P(w)$ y $W(p)$ son inversas: $P(W(p)) = p$ y $W(P(w)) = w$.
 
 Ejemplos:
 
@@ -44,19 +44,19 @@ $$\begin{align}   & W(10) = \text{ aaaaaacdee} \\\\
   & P(\text{aaaaaacdee}) = 10 \\\\   & W(115246685191495243) = \text{ euler} \\\\
   & P(\text{euler}) = 115246685191495243 \\\\ \end{align}$$
 
-Find $$W(P(\text{legionary}) + P(\text{calorimeters}) - P(\text{annihilate}) + P(\text{orchestrated}) - P(\text{fluttering})).$$
+Encuentra $$W(P(\text{legionary}) + P(\text{calorimeters}) - P(\text{annihilate}) + P(\text{orchestrated}) - P(\text{fluttering})).$$
 
-Give your answer using lowercase characters (no punctuation or space).
+Da tu respuesta usando caracteres en minúsculas (sin puntuación ni espacio).
 
 # --hints--
 
-`euler480()` should return a string.
+`euler480()` debe volver una cadena.
 
 ```js
 assert(typeof euler480() === 'string');
 ```
 
-`euler480()` should return the string `turnthestarson`.
+`euler480()` debe volver la cadena `turnthestarson`.
 
 ```js
 assert.strictEqual(euler480(), 'turnthestarson');

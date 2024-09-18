@@ -8,7 +8,7 @@ dashedName: problem-276-primitive-triangles
 
 # --description--
 
-Consider the triangles with integer sides $a$, $b$ and $c$ with $a ≤ b ≤ c$.
+Consideremos los triángulos con lados enteros $a$, $b$ y $c$ con $a ≤ b ≤ c$.
 
 Un triángulo de lados enteros $(a,b,c)$ se llama primitivo si $gcd(a,b,c) = 1$.
 

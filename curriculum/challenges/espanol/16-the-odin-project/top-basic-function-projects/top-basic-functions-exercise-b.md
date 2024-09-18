@@ -1,29 +1,29 @@
 ---
 id: 661e131f068359c3ccf2f4d6
-title: Basic Functions Exercise B
+title: Ejercicio de funciones básicas B
 challengeType: 1
 dashedName: top-basic-functions-exercise-b
 ---
 
 # --description--
 
-Write a function, named `multiply`, that takes two parameters and returns their product.
+Escribe una función, llamada `multiply`, que tome dos parámetros y devuelva su producto.
 
 # --hints--
 
-You should have a function named `multiply`.
+Debes tener una función llamada `multiply`.
 
 ```js
 assert.isFunction(multiply);
 ```
 
-Your function should take in two integers as arguments.
+Tu función debe recibir dos enteros como argumentos.
 
 ```js
 assert.match(multiply.toString(), /\s*multiply\(\s*\w+\s*,\s*\w+\s*\)/);
 ```
 
-You should return the product of the two integers.
+Debes devolver el producto de los dos enteros.
 
 ```js
 assert.strictEqual(multiply(10, 10), 100);

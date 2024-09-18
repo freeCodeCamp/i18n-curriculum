@@ -1,6 +1,6 @@
 ---
 id: 5900f3d01000cf542c50fee2
-title: 'Problem 99: Largest exponential'
+title: 'Problema 99: Mayor exponencial'
 challengeType: 1
 forumTopicId: 302216
 dashedName: problem-99-largest-exponential
@@ -8,27 +8,27 @@ dashedName: problem-99-largest-exponential
 
 # --description--
 
-Comparing two numbers written in index form like $2^{11}$ and $3^7$ is not difficult, as any calculator would confirm that $2^{11} = 2048 &lt; 3^7 = 2187$.
+Comparar dos números escritos en forma de índice como $2^{11}$ y $3^7$ no es difícil, como cualquier calculadora confirmaría que $2^{11} = 2048 &lt; 3^7 = 2187$.
 
-However, confirming that $632382^{518061} &lt; 519432^{525806}$ would be much more difficult, as both numbers contain over three million digits.
+Sin embargo, confirmar que $632382^{518061} &lt; 519432^{525806}$ sería mucho más difícil, ya que ambos números contienen más de tres millones de dígitos.
 
-Using the 2D `baseExp` array of base/exponent pairs, determine pair with the greatest numerical value and return it.
+Usando el arreglo 2D `baseExp` de pares de base/exponente, determine el par con el mayor valor numérico y devuélvalo.
 
 # --hints--
 
-`largestExponential(testArray1)` should return an array.
+`largestExponential(testArray1)` debe devolver un arreglo.
 
 ```js
 assert(Array.isArray(largestExponential(_testArray1)));
 ```
 
-`largestExponential(testArray1)` should return `[840237, 507276]`.
+`largestExponential(testArray1)` debe devolver `[840237, 507276]`.
 
 ```js
 assert.deepEqual(largestExponential(_testArray1), [840237, 507276]);
 ```
 
-`largestExponential(testArray2)` should return `[895447, 504922]`.
+`largestExponential(testArray2)` debe devolver `[895447, 504922]`.
 
 ```js
 assert.deepEqual(largestExponential(_testArray2), [895447, 504922]);

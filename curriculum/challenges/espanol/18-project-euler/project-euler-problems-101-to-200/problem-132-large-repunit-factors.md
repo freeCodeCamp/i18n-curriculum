@@ -8,7 +8,7 @@ dashedName: problem-132-large-repunit-factors
 
 # --description--
 
-A number consisting entirely of ones is called a repunit. We shall define $R(k)$ to be a repunit of length $k$.
+Un número que consiste enteramente en unos se llama repituno. Definiremos que $R(k)$ para ser un repituno de longitud $k$.
 
 Por ejemplo, $R(10) = 1111111111 = 11 × 41 × 271 × 9091$, y la suma de estos factores primos es 9414.
 

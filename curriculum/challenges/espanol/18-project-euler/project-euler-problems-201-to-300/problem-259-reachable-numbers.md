@@ -8,9 +8,9 @@ dashedName: problem-259-reachable-numbers
 
 # --description--
 
-A positive integer will be called reachable if it can result from an arithmetic expression obeying the following rules:
+Un entero positivo será llamado alcanzable, si este puede resultar de una expresión aritmética obedeciendo las siguientes reglas:
 
-- Uses the digits 1 through 9, in that order and exactly once each.
+- Utiliza los dígitos del 1 al 9 en ese orden, y exactamente uno a la vez.
 - Cualquier dígito sucesivo puede ser concatenado (por ejemplo, usando los dígitos 2, 3 y 4, obtendremos el número 234).
 - Sólo se permiten las cuatro operaciones aritméticas binarias habituales (adición, sustracción, multiplicación, y divición).
 - Cada operación puede ser utilizada en cualquier cantidad de veces, o de ninguna manera.

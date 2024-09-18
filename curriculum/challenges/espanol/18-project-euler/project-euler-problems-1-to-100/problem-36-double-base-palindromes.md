@@ -28,19 +28,19 @@ assert(typeof doubleBasePalindromes(1000) === 'number');
 assert(doubleBasePalindromes(1000) == 1772);
 ```
 
-`doubleBasePalindromes(50000)` should return 105795.
+`doubleBasePalindromes(50000)` debe volver 105795.
 
 ```js
 assert(doubleBasePalindromes(50000) == 105795);
 ```
 
-`doubleBasePalindromes(500000)` should return 286602.
+`doubleBasePalindromes(500000)` debe volver 286602.
 
 ```js
 assert(doubleBasePalindromes(500000) == 286602);
 ```
 
-`doubleBasePalindromes(1000000)` should return 872187.
+`doubleBasePalindromes(1000000)` debe volver 872187.
 
 ```js
 assert(doubleBasePalindromes(1000000) == 872187);

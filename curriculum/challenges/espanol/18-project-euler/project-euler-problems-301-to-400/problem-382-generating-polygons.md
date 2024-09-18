@@ -8,13 +8,13 @@ dashedName: problem-382-generating-polygons
 
 # --description--
 
-A polygon is a flat shape consisting of straight line segments that are joined to form a closed chain or circuit. A polygon consists of at least three sides and does not self-intersect.
+Un polígono es una figura plana compuesta por segmentos de línea recta que están unidos para formar una cadena cerrada o circuito. Un poligono consta de al menos tres lados y no se intersecan así mismo.
 
 Se dice que un conjunto $S$ de números positivos genera un polígono $P$ sí:
 
-- no two sides of $P$ are the same length,
-- the length of every side of $P$ is in $S$, and
-- $S$ contains no other value.
+- no hay dos lados $P$ que sean de la misma longitud,
+- la longitud de cada lado $P$ esta en $S$, y
+- $S$ no contiene otro valor.
 
 Por ejemplo:
 

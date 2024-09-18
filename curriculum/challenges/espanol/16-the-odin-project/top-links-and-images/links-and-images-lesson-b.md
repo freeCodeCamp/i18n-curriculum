@@ -36,25 +36,25 @@ Add the following `href` attribute to the anchor element you created previously 
 <a href="https://www.theodinproject.com/about">click me</a>
 ```
 
-By default, any text wrapped with an anchor tag without an `href` attribute will look like plain text. If the `href` attribute is present, the browser will give the text a blue color and underline it to signify it is a link.
+By default, any text wrapped with an anchor tag without an `href` attribute will look like plain text. Si el atributo `href` está presente, el navegador dará al texto un color azul y lo subrayará para indicar que es un enlace.
 
-It’s worth noting you can use anchor tags to link to any kind of resource on the internet, not just other HTML documents. You can link to videos, pdf files, images, and so on, but for the most part, you will be linking to other HTML documents.
+Es importante observar que puedes utilizar etiquetas de ancla para enlazar a cualquier tipo de recurso en internet, no solo otros documentos HTML. Puedes enlazar a videos, archivos pdf, imágenes, etc., pero en su mayoría estarás enlazando a otros documentos HTML.
 
 # --question--
 ## --text--
 
-What is an attribute?
+¿Qué es un atributo?
 ## --answers--
 
-An HTML attribute gives additional information to an HTML element and always goes in the element’s closing tag.
+Un atributo de HTML proporciona información adicional a un elemento HTML y siempre va en la etiqueta de cierre del elemento.
 
 ---
 
-An HTML attribute is used to tell the browser what the element contains.
+Un atributo de HTML se utiliza para informar al navegador sobre el contenido del elemento.
 
 ---
 
-An HTML attribute gives additional information to an HTML element and always goes in the element’s opening tag.
+Un atributo de HTML proporciona información adicional a un elemento HTML y siempre va en la etiqueta de apertura del elemento.
 
 
 ## --video-solution--

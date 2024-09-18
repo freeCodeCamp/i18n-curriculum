@@ -8,37 +8,37 @@ dashedName: problem-62-cubic-permutations
 
 # --description--
 
-The cube, 41063625 ($345^3$), can be permuted to produce two other cubes: 56623104 ($384^3$) and 66430125 ($405^3$). In fact, 41063625 is the smallest cube which has exactly three permutations of its digits which are also cube.
+El cubo, 41063625 ($345^3$), puede ser permutado para producir otros dos cubos: 56623104 ($384^3$) y 66430125 ($405^3$). De hecho, 41063625 es el cubo más pequeño que tiene exactamente tres permutaciones de sus dígitos que también son un cubo.
 
 Encuentra el cubo más pequeño para el cual exactamente `n` permutaciones de sus dígitos son cubos.
 
 # --hints--
 
-`cubicPermutations(2)` debería devolver un número.
+`cubicPermutations(2)` debe devolver un número.
 
 ```js
 assert(typeof cubicPermutations(2) === 'number');
 ```
 
-`cubicPermutations(2)` debería devolver `125`.
+`cubicPermutations(2)` debe devolver `125`.
 
 ```js
 assert.strictEqual(cubicPermutations(2), 125);
 ```
 
-`cubicPermutations(3)` debería devolver `41063625`.
+`cubicPermutations(3)` debe devolver `41063625`.
 
 ```js
 assert.strictEqual(cubicPermutations(3), 41063625);
 ```
 
-`cubicPermutations(4)` debería devolver `1006012008`.
+`cubicPermutations(4)` debe devolver `1006012008`.
 
 ```js
 assert.strictEqual(cubicPermutations(4), 1006012008);
 ```
 
-`cubicPermutations(5)` debería devolver `127035954683`.
+`cubicPermutations(5)` debe devolver `127035954683`.
 
 ```js
 assert.strictEqual(cubicPermutations(5), 127035954683);

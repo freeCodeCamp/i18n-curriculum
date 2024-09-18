@@ -1,29 +1,29 @@
 ---
 id: 661e151f068359c3ccf2f4d7
-title: Basic Functions Exercise C
+title: Ejercicio de funciones básicas C
 challengeType: 1
 dashedName: top-basic-functions-exercise-c
 ---
 
 # --description--
 
-Write a function, named `capitalize`, that takes a string as an parameter and returns a new string with the first letter capitalized.
+Escribe una función, llamada `capitalize`, que toma una cadena como un parámetro y devuelve una nueva cadena con la primer letra en mayúscula.
 
 # --hints--
 
-You should have a function named `capitalize`.
+Debes tener una función llamada `capitalize`.
 
 ```js
 assert.isFunction(capitalize);
 ```
 
-Your function should take in a string as a parameter.
+Tu función debe tomar una cadena como parámetro.
 
 ```js
 assert.match(capitalize.toString(), /\s*capitalize\(\s*\w+\s*\)/);
 ```
 
-Your function should return a new string with the first letter capitalized.
+Tu función debe devolver una nueva cadena con la primer letra en mayúscula.
 
 ```js
 assert.strictEqual(capitalize('sem'), 'Sem');

@@ -1,14 +1,14 @@
 ---
 id: 63ee354c0d8d4841c3a70921
 videoId: LGQuIIv2RVA
-title: CSS Foundations Lesson H
+title: Lección H de Fundamentos de CSS
 challengeType: 15
 dashedName: css-foundations-lesson-h
 ---
 
 # --description--
 
-Inline `CSS` makes it possible to add styles directly to `HTML` elements, though this method isn’t as recommended:
+El `CSS` en línea hace posible agregar estilos directamente a los elementos de `HTML`, aunque este método no es tan recomendado:
 
 ```html
 <body>
@@ -16,9 +16,9 @@ Inline `CSS` makes it possible to add styles directly to `HTML` elements, though
 </body>
 ```
 
-The first thing to note is that there aren't any selectors here, since the styles are being added directly to the opening `<div>` tag itself. Next, you have the `style` attribute, with its value within the pair of quotation marks being the declarations.
+Lo primero a observar es que aquí no hay selectores, ya que los estilos se están agregando directamente a la etiqueta de apertura `<div>` en sí. A continuación, tienes el atributo `style`, con su valor dentro del par de comillas siendo las declaraciones.
 
-If you need to add a unique style for a single element, this method can work just fine. Generally, though, this isn’t exactly a recommended way for adding CSS to HTML for a few reasons:
+Si necesitas agregar un estilo único para un solo elemento, este método puede funcionar bastante bien. Generally, though, this isn’t exactly a recommended way for adding CSS to HTML for a few reasons:
 
 It can quickly become pretty messy once you start adding a lot of declarations to a single element, causing your HTML file to become unnecessarily bloated. If you want many elements to have the same style, you would have to copy + paste the same style to each individual element, causing lots of unnecessary repetition and more bloat. Any inline CSS will override the other two methods, which can cause unexpected results. (While you won’t dive into it here, this can actually be taken advantage of).
 

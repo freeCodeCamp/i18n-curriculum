@@ -1,6 +1,6 @@
 ---
 id: 5900f5001000cf542c510012
-title: 'Problem 404: Crisscross Ellipses'
+title: 'Problema 404: Entrecruzado Elipses'
 challengeType: 1
 forumTopicId: 302072
 dashedName: problem-404-crisscross-ellipses
@@ -8,27 +8,27 @@ dashedName: problem-404-crisscross-ellipses
 
 # --description--
 
-$E_a$ is an ellipse with an equation of the form $x^2 + 4y^2 = 4a^2$.
+$E_a$ es una elipse con una ecuación de la forma $x^2 + 4y^2 = 4a^2$.
 
-$E_a'$ is the rotated image of $E_a$ by $θ$ degrees counterclockwise around the origin $O(0, 0)$ for $0° &lt; θ &lt; 90°$.
+$E_a'$ es la imagen rotada de $E_a$ por $θ$ grados en sentido antihorario alrededor del origen $O(0, 0)$ para $0° &lt; θ &lt; 90°$.
 
-<img alt="ellipse E_a and ellipse rotated by θ degrees E_a'" src="https://cdn.freecodecamp.org/curriculum/project-euler/crisscross-ellipses.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
+<img alt="elipse E_a y elipse rotada por θ grados E_a'" src="https://cdn.freecodecamp.org/curriculum/project-euler/crisscross-ellipses.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-$b$ is the distance to the origin of the two intersection points closest to the origin and $c$ is the distance of the two other intersection points.
+$b$ es la distancia al origen de los dos puntos de intersección más cercanos al origen y $c$ es la distancia de los otros dos puntos de intersección.
 
-We call an ordered triplet ($a$, $b$, $c$) a canonical ellipsoidal triplet if $a$, $b$ and $c$ are positive integers.
+Llamamos a un triplete ordenado ($a$, $b$, $c$) un triplete elipsoidal canónico si $a$, $b$ y $c$ son enteros positivos.
 
-For example, (209, 247, 286) is a canonical ellipsoidal triplet.
+Por ejemplo, (209, 247, 286) es un triplete elipsoidal canónico.
 
-Let $C(N)$ be the number of distinct canonical ellipsoidal triplets ($a$, $b$, $c$) for $a ≤ N$.
+Sea $C(N)$ el número de tripletes elipsoidales canónicos distintos ($a$, $b$, $c$) para $a ≤ N$.
 
-It can be verified that $C({10}^3) = 7$, $C({10}^4) = 106$ and $C({10}^6) = 11\\,845$.
+Se puede verificar que $C({10}^3) = 7$, $C({10}^4) = 106$ y $C({10}^6) = 11\\,845$.
 
-Find $C({10}^{17})$.
+Encuentra $C({10}^{17})$.
 
 # --hints--
 
-`crisscrossEllipses()` should return `1199215615081353`.
+`crisscrossEllipses()` debería volver `1199215615081353`.
 
 ```js
 assert.strictEqual(crisscrossEllipses(), 1199215615081353);

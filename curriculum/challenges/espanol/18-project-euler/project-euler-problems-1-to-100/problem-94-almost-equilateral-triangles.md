@@ -10,37 +10,37 @@ dashedName: problem-94-almost-equilateral-triangles
 
 It is easily proved that no equilateral triangle exists with integral length sides and integral area. However, the almost equilateral triangle 5-5-6 has an area of 12 square units.
 
-We shall define an <dfn>almost equilateral triangle</dfn> to be a triangle for which two sides are equal and the third differs by no more than one unit.
+Definiremos un <dfn>triángulo casi equilátero</dfn> como un triángulo para el cual dos lados son iguales y el tercer lado difiere en no más de una unidad.
 
-Find the sum of the perimeters of all almost equilateral triangles with integral side lengths and area and whose perimeters do not exceed `limit`.
+Encuentra la suma de los perímetros de todos los triángulos casi equiláteros con longitudes de lado enteras y área y cuyos perímetros no excedan `limit`.
 
 # --hints--
 
-`almostEquilateralTriangles(50)` should return a number.
+`almostEquilateralTriangles(50)` debe volver un número.
 
 ```js
 assert(typeof almostEquilateralTriangles(50) === 'number');
 ```
 
-`almostEquilateralTriangles(50)` should return `66`.
+`almostEquilateralTriangles(50)` debe volver `66`.
 
 ```js
 assert.strictEqual(almostEquilateralTriangles(50), 66);
 ```
 
-`almostEquilateralTriangles(10000)` should return `3688`.
+`almostEquilateralTriangles(10000)` debe volver `3688`.
 
 ```js
 assert.strictEqual(almostEquilateralTriangles(10000), 3688);
 ```
 
-`almostEquilateralTriangles(10000000)` should return `9973078`.
+`almostEquilateralTriangles(10000000)` debe volver `9973078`.
 
 ```js
 assert.strictEqual(almostEquilateralTriangles(10000000), 9973078);
 ```
 
-`almostEquilateralTriangles(1000000000)` should return `518408346`.
+`almostEquilateralTriangles(1000000000)` debe volver `518408346`.
 
 ```js
 assert.strictEqual(almostEquilateralTriangles(1000000000), 518408346);

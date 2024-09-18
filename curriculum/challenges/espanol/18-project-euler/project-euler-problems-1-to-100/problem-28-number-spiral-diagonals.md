@@ -1,6 +1,6 @@
 ---
 id: 5900f3881000cf542c50fe9b
-title: 'Problem 28: Number spiral diagonals'
+title: 'Problema 28: Diagonales de la espiral numérica'
 challengeType: 1
 forumTopicId: 301930
 dashedName: problem-28-number-spiral-diagonals
@@ -8,7 +8,7 @@ dashedName: problem-28-number-spiral-diagonals
 
 # --description--
 
-Starting with the number 1 and moving to the right in a clockwise direction a 5 by 5 spiral is formed as follows:
+Comenzando por el 1 y moviéndose hacia la derecha en sentido horario, se genera una espiral de dimensiones 5 por 5, como se muestra a continuación:
 
 <div style='padding-left: 4em;'>
   <div style='color: red; display: inline;'>21</div> 22 23 24 <div style='color: red; display: inline;'>25</div><br>

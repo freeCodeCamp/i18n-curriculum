@@ -8,11 +8,11 @@ dashedName: problem-91-right-triangles-with-integer-coordinates
 
 # --description--
 
-The points ${P}(x_1, y_1)$ and ${Q}(x_2, y_2)$ are plotted at integer coordinates and are joined to the origin, ${O}(0, 0)$, to form ${\Delta}OPQ$.
+Los puntos ${P}(x_1, y_1)$ y ${Q}(x_2, y_2)$ son trazados con coordenadas enteras y se unen al origen, ${O}(0, 0)$, para formar ${\Delta}OPQ$.
 
 <img alt="un gráfico de puntos P (x_1, y_1) and Q(x_2, y_2) en coordenadas enteras que se unen al origen O (0, 0)" src="https://cdn-media-1.freecodecamp.org/project-euler/right-triangles-integer-coordinates-1.png" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-There are exactly fourteen triangles containing a right angle that can be formed when each coordinate lies between 0 and 2 inclusive; that is, $0 ≤ x_1, y_1, x_2, y_2 ≤ 2$.
+Hay exactamente catorce triángulos que contienen un ángulo recto que pueden formarse cuando cada coordenada se encuentra entre 0 y 2 inclusivo; es decir, $0 ≤ x_1, y_1, x_2, y_2 ≤ 2$.
 
 <img alt="un diagrama muestra los 14 triángulos conteniendo un ángulo recto que puede ser formado cuando cada coordenada esta entre 0 y 2" src="https://cdn-media-1.freecodecamp.org/project-euler/right-triangles-integer-coordinates-2.png" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 

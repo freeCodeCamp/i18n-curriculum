@@ -14,24 +14,24 @@ Both players start with empty memories. Both players always add new missed numbe
 
 Example game:
 
-| Turn | Called number | Larry's memory | Larry's score | Robin's memory | Robin's score |
-| ---- | ------------- | --------------:| ------------- | -------------- | ------------- |
-| 1    | 1             |              1 | 0             | 1              | 0             |
-| 2    | 2             |            1,2 | 0             | 1,2            | 0             |
-| 3    | 4             |          1,2,4 | 0             | 1,2,4          | 0             |
-| 4    | 6             |        1,2,4,6 | 0             | 1,2,4,6        | 0             |
-| 5    | 1             |        1,2,4,6 | 1             | 1,2,4,6        | 1             |
-| 6    | 8             |      1,2,4,6,8 | 1             | 1,2,4,6,8      | 1             |
-| 7    | 10            |     1,4,6,8,10 | 1             | 2,4,6,8,10     | 1             |
-| 8    | 2             |     1,2,6,8,10 | 1             | 2,4,6,8,10     | 2             |
-| 9    | 4             |     1,2,4,8,10 | 1             | 2,4,6,8,10     | 3             |
-| 10   | 1             |     1,2,4,8,10 | 2             | 1,4,6,8,10     | 3             |
+| Turn | Número llamado | Memoria de Larry | Puntuación de Larry | Memoria de Robin | Puntuación de Robin |
+| ---- | -------------- | ----------------:| ------------------- | ---------------- | ------------------- |
+| 1    | 1              |                1 | 0                   | 1                | 0                   |
+| 2    | 2              |              1,2 | 0                   | 1,2              | 0                   |
+| 3    | 4              |            1,2,4 | 0                   | 1,2,4            | 0                   |
+| 4    | 6              |          1,2,4,6 | 0                   | 1,2,4,6          | 0                   |
+| 5    | 1              |          1,2,4,6 | 1                   | 1,2,4,6          | 1                   |
+| 6    | 8              |        1,2,4,6,8 | 1                   | 1,2,4,6,8        | 1                   |
+| 7    | 10             |       1,4,6,8,10 | 1                   | 2,4,6,8,10       | 1                   |
+| 8    | 2              |       1,2,6,8,10 | 1                   | 2,4,6,8,10       | 2                   |
+| 9    | 4              |       1,2,4,8,10 | 1                   | 2,4,6,8,10       | 3                   |
+| 10   | 1              |       1,2,4,8,10 | 2                   | 1,4,6,8,10       | 3                   |
 
-Denoting Larry's score by $L$ and Robin's score by $R$, what is the expected value of $|L - R|$ after 50 turns? Give your answer rounded to eight decimal places using the format x.xxxxxxxx .
+Denotando la puntuación de Larry por $L$ y la puntuación de Robin por $R$, ¿cuál es el valor esperado de $|L - R|$ después de 50 turnos? Da tu respuesta redondeada a ocho lugares decimales usando el formato x.xxxxxxxx.
 
 # --hints--
 
-`selectiveAmnesia()` should return `1.76882294`.
+`selectiveAmnesia()` debe volver `1.76882294`.
 
 ```js
 assert.strictEqual(selectiveAmnesia(), 1.76882294);

@@ -63,9 +63,9 @@ But you will usually want to organize your website directories a little better. 
 
 Create a directory named `pages` within the `odin-links-and-images` directory and move the `about.html` file into this new directory.
 
-Refresh the `index` page in the browser and then click on the `about` link. It will now be broken. This is because the location of the `about` page file has changed.
+Refresh the `index` page in the browser and then click on the `about` link. It will now be broken. Esto se debe a que la ubicación del archivo de la página `about` ha cambiado.
 
-To fix this, you just need to update the `about` link `href` value to include the `pages/` directory since that is the new location of the `about.html` file relative to the `index.html` file.
+Para solucionar esto, solo necesitas actualizar el valor `href` del enlace `about` para incluir el directorio `pages/` ya que esa es la nueva ubicación del archivo `about.html` en relación con el archivo `index.html`.
 
 ```html
 <body>
@@ -74,9 +74,9 @@ To fix this, you just need to update the `about` link `href` value to include th
 </body>
 ```
 
-Refresh the `index` page in the browser and try clicking the `about` link again, it should now be back in working order.
+Actualiza la página `index` en el navegador e intenta hacer clic en el enlace `about` nuevamente, ahora debe estar funcionando.
 
-In many cases, this will work just fine; however, you can still run into unexpected issues with this approach. Prepending `./` before the link will in most cases prevent such issues. By adding `./` you are specifying to your code that it should start looking for the file/directory relative to the **current** directory.
+En muchos casos, esto funcionará bien; sin embargo, aún puedes encontrarte con problemas inesperados con este enfoque. Anteponer `./` antes del enlace, en la mayoría de los casos, evitará tales problemas. Al agregar `./` estás especificando a tu código que debe comenzar a buscar el archivo/directorio en relación con el directorio **actual**.
 
 ```html
 <body>
@@ -85,27 +85,27 @@ In many cases, this will work just fine; however, you can still run into unexpec
 </body>
 ```
 
-# --assignment--
+# --tarea--
 
-Watch Kevin Powell’s HTML File Structure video above.
+Mira el video de estructura de archivos HTML de Kevin Powell arriba.
 
 # --question--
 
 ## --text--
 
-What is the difference between an absolute and a relative link?
+¿Cuál es la diferencia entre un enlace absoluto y un enlace relativo?
 
 ## --answers--
 
-An absolute link is a link to another page on the current website. A relative link is a link to another website.
+Un enlace absoluto es un enlace a otra página en el sitio web actual. Un enlace relativo es un enlace a otro sitio web.
 
 ---
 
-An absolute link is a link to another website. A relative link is a link another page on the current website.
+Un enlace absoluto es un enlace a otro sitio web. Un enlace relativo es un enlace a otra página en el sitio web actual.
 
 ---
 
-There is no difference between absolute and relative links.
+No hay diferencia entre enlaces absolutos y relativos.
 
 ## --video-solution--
 

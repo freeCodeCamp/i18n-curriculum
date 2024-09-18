@@ -1,35 +1,35 @@
 ---
 id: 6570447ee7b02272663824e1
-title: Learn Block and Inline Lesson C
+title: Aprende la lección de bloqueo y en línea C
 challengeType: 15
 dashedName: learn-block-and-inline-lesson-c
 ---
 
 # --description--
 
-Padding is used to create space around an element's content, inside of any defined borders. With inline elements, padding adds space to the left, right, top, and bottom of the content. However, it's important to note that while padding does affect the space around the content, it does not affect the layout of other elements around the inline element. This means that horizontal padding (left and right) is respected, but vertical padding (top and bottom) does not cause other elements to move away.
+El relleno se utiliza para crear espacio alrededor del contenido de un elemento, dentro de cualquier borde definido. Con los elementos en línea, el relleno agrega espacio a la izquierda, derecha, arriba y abajo del contenido. Sin embargo, es importante observar que aunque el relleno afecta el espacio alrededor del contenido, no afecta el diseño de otros elementos alrededor del elemento en línea. Esto significa que el relleno horizontal (izquierda y derecha) se respeta, pero el relleno vertical (arriba y abajo) no hace que otros elementos se alejen.
 
 # --question--
 
 ## --text--
 
-How does `padding` affect `inline` elements?
+¿Cómo afecta el `padding` a los elementos `inline`?
 
 ## --answers--
 
-Padding has no effect on `inline` elements.
+El `padding` no tiene efecto en los elementos `inline`.
 
 ---
 
-Padding increases the width and height of `inline` elements.
+El `padding` aumenta el ancho y alto de los elementos `inline`.
 
 ---
 
-Padding only affects the horizontal spacing of `inline` elements.
+El `padding` solo afecta el espacio horizontal de los elementos `inline`.
 
 ---
 
-Padding only affects the vertical spacing of `inline` elements.
+El `padding` solo afecta el espacio vertical de los elementos `inline`.
 
 ## --video-solution--
 

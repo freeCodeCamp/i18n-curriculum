@@ -1,6 +1,6 @@
 ---
 id: 5900f4201000cf542c50ff33
-title: 'Problem 180: Rational zeros of a function of three variables'
+title: 'Problema 180: Ceros racionales de una función de tres variables'
 challengeType: 1
 forumTopicId: 301816
 dashedName: problem-180-rational-zeros-of-a-function-of-three-variables
@@ -8,26 +8,26 @@ dashedName: problem-180-rational-zeros-of-a-function-of-three-variables
 
 # --description--
 
-For any integer $n$, consider the three functions
+Para cualquier entero $n$, considere las tres funciones
 
-$$\begin{align}   & f_{1,n}(x,y,z) = x^{n + 1} + y^{n + 1} − z^{n + 1}\\\\
-  & f_{2,n}(x,y,z) = (xy + yz + zx) \times (x^{n - 1} + y^{n - 1} − z^{n - 1})\\\\ & f_{3,n}(x,y,z) = xyz \times (x^{n - 2} + y^{n - 2} − z^{n - 2}) \end{align}$$
+$$\begin{align}   & f_{1,n}(x,y,z) = x^{n + 1} + y^{n + 1} - z^{n + 1}\\\\
+  & f_{2,n}(x,y,z) = (xy + yz + zx) \times (x^{n - 1} + y^{n - 1} - z^{n - 1})\\\\ & f_{3,n}(x,y,z) = xyz \times (x^{n - 2} + y^{n - 2} - z^{n - 2}) \end{align}$$
 
-and their combination
+y su combinación
 
-$$\begin{align} & f_n(x,y,z) = f_{1,n}(x,y,z) + f_{2,n}(x,y,z) − f_{3,n}(x,y,z) \end{align}$$
+$$\begin{align} & f_n(x,y,z) = f_{1,n}(x,y,z) + f_{2,n}(x,y,z) - f_{3,n}(x,y,z) \end{align}$$
 
-We call $(x,y,z)$ a golden triple of order $k$ if $x$, $y$, and $z$ are all rational numbers of the form $\frac{a}{b}$ with $0 &lt; a &lt; b ≤ k$ and there is (at least) one integer $n$, so that $f_n(x,y,z) = 0$.
+Llamamos $(x,y,z)$ un triple dorado de orden $k$ si $x$, $y$ y $z$ son todos números racionales del formulario $\frac{a}{b}$ con $0 < a < b ≤ k$ y hay (al menos) un entero $n$, de modo que $f_n(x,y,z) = 0$.
 
-Let $s(x,y,z) = x + y + z$.
+Deja $s(x,y,z) = x + y + z$.
 
-Let $t = \frac{u}{v}$ be the sum of all distinct $s(x,y,z)$ for all golden triples $(x,y,z)$ of order 35. All the $s(x,y,z)$ and $t$ must be in reduced form.
+Deja $t = \frac{u}{v}$ la suma de todos los $s(x,y,z)$ distintos para todas las triples doradas $(x,y,z)$ de orden 35. Todos los $s(x,y,z)$ y $t$ deben estar en forma reducida.
 
-Find $u + v$.
+Encuentra $u + v$.
 
 # --hints--
 
-`rationalZeros()` should return `285196020571078980`.
+`rationalZeros()` debe volver `285196020571078980`.
 
 ```js
 assert.strictEqual(rationalZeros(), 285196020571078980);

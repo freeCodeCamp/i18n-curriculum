@@ -1,39 +1,39 @@
 ---
 id: 6570447de7b02272663824e0
-title: Learn Block and Inline Lesson B
+title: Aprender lección de bloque e Inline B
 challengeType: 15
 dashedName: learn-block-and-inline-lesson-b
 ---
 
 # --description--
 
-Inline elements, however, do not start on a new line. They appear in line with whatever elements they are placed beside. A clear example of an inline element is a link, or `<a>` tag. If you stick one of these in the middle of a paragraph of text, it will behave like a part of the paragraph. <a  href="https://www.freecodecamp.org/" target="_blank">(Like this)</a> The link’s text will sit alongside other words in that paragraph. Additionally, padding and margin behave differently on inline elements. In general, you do not want to try to put extra padding or margin on inline elements.
+Sin embargo, los elementos en línea no comienzan en una nueva línea. Aparecen en la línea junto con cualquier elemento que se coloque al lado. Un ejemplo claro de un elemento en línea es un enlace, o etiqueta `<a>`. Si colocas uno de estos en medio de un párrafo de texto, se comportará como parte del párrafo. <a  href="https://www.freecodecamp.org/" target="_blank">(Como esto)</a> El texto del enlace se situará junto a otras palabras en ese párrafo. Además, el relleno y el margen se comportan de manera diferente en los elementos en línea. En general, no querrás intentar agregar relleno o margen extra a los elementos en línea.
 
-# --assignment--
+# --tarea--
 
-Search the web for a list of `block` elements and a list of `inline` elements.
+Busca en la web una lista de elementos `block` y una lista de elementos `inline`.
 
 # --question--
 
 ## --text--
 
-What is the difference between a `block` element and an `inline` element?
+¿Cuál es la diferencia entre un elemento `block` y un elemento `inline`?
 
 ## --answers--
 
-`block` elements are displayed without line breaks, while `inline` elements are displayed with line breaks.
+Los elementos `block` se muestran sin saltos de línea, mientras que los elementos `inline` se muestran con saltos de línea.
 
 ---
 
-`block` elements take up the full width available, while `inline` elements only take up the space necessary for their content.
+Los elementos `block` ocupan todo el ancho disponible, mientras que los elementos `inline` solo ocupan el espacio necesario para su contenido.
 
 ---
 
-`block` elements are always positioned horizontally, while `inline` elements are positioned vertically.
+Los elementos `block` siempre están posicionados horizontalmente, mientras que los elementos `inline` están posicionados verticalmente.
 
 ---
 
-`block` elements are used for small sections of text, while `inline` elements are used for larger chunks of content.
+Los elementos `block` se usan para pequeñas secciones de texto, mientras que los elementos `inline` se usan para trozos más grandes de contenido.
 
 
 ## --video-solution--

@@ -8,7 +8,7 @@ dashedName: problem-338-cutting-rectangular-grid-paper
 
 # --description--
 
-A rectangular sheet of grid paper with integer dimensions $w$ × $h$ is given. Its grid spacing is 1.
+Se da una hoja rectangular de papel cuadrículada con dimensiones enteras $w$ × $h$. Su espaciado de cuadrícula es 1.
 
 Cuando cortamos la hoja a lo largo de las líneas de cuadrícula en dos piezas y reorganizamos estás piezas sin superponerse, podemos hacer nuevos rectángulos con diferentes dimensiones.
 

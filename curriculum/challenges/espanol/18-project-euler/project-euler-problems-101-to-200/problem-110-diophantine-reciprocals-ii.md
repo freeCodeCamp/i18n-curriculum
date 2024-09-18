@@ -8,7 +8,7 @@ dashedName: problem-110-diophantine-reciprocals-ii
 
 # --description--
 
-In the following equation x, y, and n are positive integers.
+En la siguiente ecuación x, y, y n son enteros positivos.
 
 $$\frac{1}{x} + \frac{1}{y} = \frac{1}{n}$$
 

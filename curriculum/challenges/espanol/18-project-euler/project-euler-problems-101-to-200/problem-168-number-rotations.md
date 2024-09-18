@@ -18,7 +18,7 @@ Para los dígitos del numero entero $a$ y $b$, encuentra los últimos 5 dígitos
 
 # --hints--
 
-`numberRotations(2, 10)` deberia devolver `98311`.
+`numberRotations(2, 10)` debe devolver `98311`.
 
 ```js
 assert.strictEqual(numberRotations(2, 10), 98311);

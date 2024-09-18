@@ -1,6 +1,6 @@
 ---
 id: 5900f5141000cf542c510026
-title: 'Problem 424: Kakuro'
+title: 'Problema 424: Kakuro'
 challengeType: 1
 forumTopicId: 302094
 dashedName: problem-424-kakuro
@@ -8,25 +8,25 @@ dashedName: problem-424-kakuro
 
 # --description--
 
-<img alt="kakuro example" src="https://cdn.freecodecamp.org/curriculum/project-euler/kakuro.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
+<img alt="ejemplo de kakuro" src="https://cdn.freecodecamp.org/curriculum/project-euler/kakuro.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-The above is an example of a cryptic kakuro (also known as cross sums, or even sums cross) puzzle, with its final solution on the right. (The common rules of kakuro puzzles can be found easily on numerous internet sites. Other related information can also be currently found at krazydad.com whose author has provided the puzzle data for this challenge.)
+Arriba está un ejemplo de un enigma de kakuro críptico (también conocido como sumas cruzadas), con su solución final a la derecha. (Las reglas comunes de los enigmas de kakuro se pueden encontrar fácilmente en numerosos sitios de internet. Otra información relacionada también se puede encontrar actualmente en krazydad.com cuyo autor ha proporcionado los datos del desafío para este enigma.)
 
-The `testPuzzles` array contains the description of 200 such puzzles, a mix of 5x5 and 6x6 types. The first puzzle in the file is the above example which is coded as string as follows:
+El arreglo `testPuzzles` contiene la descripción de 200 de estos enigmas, una mezcla de tipos 5x5 y 6x6. El primer enigma en el archivo es el ejemplo anterior que está codificado como cadena de la siguiente manera:
 
 `6,X,X,(vCC),(vI),X,X,X,(hH),B,O,(vCA),(vJE),X,(hFE,vD),O,O,O,O,(hA),O,I,(hJC,vB),O,O,(hJC),H,O,O,O,X,X,X,(hJE),O,O,X`
 
-The first character is a numerical digit indicating the size of the information grid. It would be either a 6 (for a 5x5 kakuro puzzle) or a 7 (for a 6x6 puzzle) followed by a comma (,). The extra top line and left column are needed to insert information.
+El primer carácter es un dígito numérico que indica el tamaño de la cuadrícula de información. Sería un 6 (para un enigma kakuro 5x5) o un 7 (para un enigma 6x6) seguido de una coma (,). La línea superior adicional y la columna izquierda son necesarias para insertar información.
 
-The content of each cell is then described and followed by a comma, going left to right and starting with the top line.
+El contenido de cada celda se describe y sigue por una coma, de izquierda a derecha comenzando con la línea superior.
 
-`X` = Gray cell, not required to be filled by a digit.
+`X` = Celda gris, no necesita ser llenada por un dígito.
 
-`O` (upper case letter)= White empty cell to be filled by a digit.
+`O` (letra mayúscula)= Celda blanca vacía que debe ser llenada por un dígito.
 
-`A` = Or any one of the upper case letters from A to J to be replaced by its equivalent digit in the solved puzzle.
+`A` = O cualquiera de las letras mayúsculas de la A a la J que serán reemplazadas por su dígito equivalente en el enigma resuelto.
 
-`( )` = Location of the encrypted sums. Horizontal sums are preceded by a lower case "h" and vertical sums are preceded by a lower case "v". Those are followed by one or two upper case letters depending if the sum is a single digit or double digit one. For double digit sums, the first letter would be for the "tens" and the second one for the "units". When the cell must contain information for both a horizontal and a vertical sum, the first one is always for the horizontal sum and the two are separated by a comma within the same set of brackets, ex.: (hFE,vD). Each set of brackets is also immediately followed by a comma.
+`( )` = Ubicación de las sumas encriptadas. Las sumas horizontales están precedidas por una "h" minúscula y las sumas verticales por una "v" minúscula. Estas son seguidas por una o dos letras mayúsculas dependiendo de si la suma es de un dígito o de dos dígitos. Para las sumas de dos dígitos, la primera letra sería para las "decenas" y la segunda para las "unidades". When the cell must contain information for both a horizontal and a vertical sum, the first one is always for the horizontal sum and the two are separated by a comma within the same set of brackets, ex.: (hFE,vD). Each set of brackets is also immediately followed by a comma.
 
 The description of the last cell is followed by a Carriage Return/Line Feed (CRLF) instead of a comma.
 

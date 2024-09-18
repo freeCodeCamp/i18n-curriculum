@@ -1,6 +1,6 @@
 ---
 id: 5900f4d61000cf542c50ffe9
-title: 'Problem 362: Squarefree factors'
+title: 'Problema 362: Factores sin cuadrados'
 challengeType: 1
 forumTopicId: 302023
 dashedName: problem-362-squarefree-factors
@@ -8,25 +8,25 @@ dashedName: problem-362-squarefree-factors
 
 # --description--
 
-Consider the number 54.
+Considera el número 54.
 
-54 can be factored in 7 distinct ways into one or more factors larger than 1:
+54 se puede factorizar de 7 maneras distintas en uno o más factores mayores que 1:
 
-$$54, 2 × 27, 3 × 18, 6 × 9, 3 × 3 × 6, 2 × 3 × 9 \text{ and } 2 × 3 × 3 × 3$$
+$$54, 2 × 27, 3 × 18, 6 × 9, 3 × 3 × 6, 2 × 3 × 9 \texto{ y } 2 × 3 × 3 × 3$$
 
-If we require that the factors are all squarefree only two ways remain: $3 × 3 × 6$ and $2 × 3 × 3 × 3$.
+Si requerimos que los factores sean todos sin cuadrados, solo quedan dos maneras: $3 × 3 × 6$ y $2 × 3 × 3 × 3$.
 
-Let's call $Fsf(n)$ the number of ways $n$ can be factored into one or more squarefree factors larger than 1, so $Fsf(54) = 2$.
+Llamemos $Fsf(n)$ al número de maneras en que $n$ puede ser factorizado en uno o más factores sin cuadrados mayores que 1, así $Fsf(54) = 2$.
 
-Let $S(n)$ be $\sum Fsf(k)$ for $k = 2$ to $n$.
+Sea $S(n)$ $\sum Fsf(k)$ para $k = 2$ a $n$.
 
 $S(100) = 193$.
 
-Find $S(10\\,000\\,000\\,000)$.
+Encuentra $S(10\,000\,000\,000)$.
 
 # --hints--
 
-`squarefreeFactors()` should return `457895958010`.
+`squarefreeFactors()` debe volver `457895958010`.
 
 ```js
 assert.strictEqual(squarefreeFactors(), 457895958010);

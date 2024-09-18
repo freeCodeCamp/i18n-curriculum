@@ -1,13 +1,13 @@
 ---
 id: 66581a7cb1eb2281159492fe
-title: Learn to Solve Problems and Understand Errors Lesson E
+title: Aprende a resolver problemas y comprender errores Lección E
 challengeType: 15
 dashedName: learn-to-solve-problems-and-understand-errors-lesson-e
 ---
 
 # --description--
 
-Let’s assume you have written the following code:
+Supongamos que has escrito el siguiente código:
 
 ```javascript
 const a = "Hello";
@@ -16,7 +16,7 @@ const b = "World";
 console.log(c);
 ```
 
-This code will run, but it will generate an error. In technical terms, this is called <dfn>throwing</dfn> an error. The first part of an error displays the type of error. This provides the first clue as to what you're dealing with. You'll learn more about the different error types later in the lesson. In this example, you have a `ReferenceError`.
+Este código se ejecutará, pero generará un error. In technical terms, this is called <dfn>throwing</dfn> an error. The first part of an error displays the type of error. This provides the first clue as to what you're dealing with. You'll learn more about the different error types later in the lesson. In this example, you have a `ReferenceError`.
 
 <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/175b5ef2a1b4758a7b75f4ef43d7e27203e5707b/foundations/javascript_basics/understanding_errors/imgs/00.png" width="100%" alt="An error being displayed in the developer console" />
 

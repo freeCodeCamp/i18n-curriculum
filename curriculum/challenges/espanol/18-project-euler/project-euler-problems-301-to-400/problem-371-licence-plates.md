@@ -1,6 +1,6 @@
 ---
 id: 5900f4e01000cf542c50fff2
-title: 'Problem 371: Licence plates'
+title: 'Problema 371: Placas de matrícula'
 challengeType: 1
 forumTopicId: 302033
 dashedName: problem-371-licence-plates
@@ -8,21 +8,21 @@ dashedName: problem-371-licence-plates
 
 # --description--
 
-Oregon licence plates consist of three letters followed by a three digit number (each digit can be from [0...9]).
+Las placas de matrícula de Oregón consisten en tres letras seguidas de un número de tres dígitos (cada dígito puede ser de [0...9]).
 
-While driving to work Seth plays the following game:
+Mientras conduce al trabajo, Seth juega el siguiente juego:
 
-Whenever the numbers of two licence plates seen on his trip add to 1000 that's a win.
+Siempre que los números de dos placas de matrícula vistas en su viaje se sumen a 1000, eso es una victoria.
 
-E.g. `MIC-012` and `HAN-988` is a win and `RYU-500` and `SET-500` too (as long as he sees them in the same trip).
+P. ej. `MIC-012` y `HAN-988` es una victoria y `RYU-500` y `SET-500` también (siempre que las vea en el mismo viaje).
 
-Find the expected number of plates he needs to see for a win. Give your answer rounded to 8 decimal places behind the decimal point.
+Encuentra el número esperado de placas de matrícula que necesita ver para ganar. Da tu respuesta redondeada a 8 lugares decimales detrás del punto decimal.
 
-**Note:** We assume that each licence plate seen is equally likely to have any three digit number on it.
+**Nota:** Suponemos que cada placa de matrícula vista tiene igual probabilidad de tener cualquier número de tres dígitos.
 
 # --hints--
 
-`licensePlates()` should return `40.66368097`.
+`licensePlates()` debe volver `40.66368097`.
 
 ```js
 assert.strictEqual(licensePlates(), 40.66368097);

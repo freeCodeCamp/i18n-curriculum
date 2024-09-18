@@ -26,25 +26,25 @@ Add the following to the `body` of the `index.html` page you created and open it
 <a>click me</a>
 ```
 
-You may have noticed that clicking this link doesn’t do anything. This is because an anchor tag on its own won’t know where you want to link to. You have to tell it a destination to go to. You do this by using an HTML attribute.
+You may have noticed that clicking this link doesn’t do anything. Esto se debe a que una etiqueta de ancla por sí sola no sabrá a dónde quieres enlazar. Debes indicarle un destino al que dirigirse. Esto se hace utilizando un atributo HTML.
 
-An HTML attribute gives additional information to an HTML element and always goes in the element’s opening tag. An attribute is usually made up of two parts: a name, and a value; however, not all attributes require a value. In your case, you need to add an `href` (hyperlink reference) attribute to the opening anchor tag. The value of the `href` attribute is the destination you want your link to go to.
+Un atributo HTML brinda información adicional a un elemento HTML y siempre va en la etiqueta de apertura del elemento. Un atributo suele estar compuesto por dos partes: un nombre y un valor; sin embargo, no todos los atributos requieren un valor. En tu caso, necesitas agregar un atributo `href` (referencia de enlace) a la etiqueta de apertura del ancla. El valor del atributo `href` es el destino al que deseas que tu enlace vaya.
 
-Add the following `href` attribute to the anchor element you created previously and try clicking it again, don’t forget to refresh the browser so the new changes can be applied.
+Agrega el siguiente atributo `href` al elemento de ancla que creaste anteriormente y vuelve a intentar hacer clic, no olvides refrescar el navegador para que se apliquen los nuevos cambios.
 
 ```html
 <a href="https://www.theodinproject.com/about">click me</a>
 ```
 
-By default, any text wrapped with an anchor tag without an `href` attribute will look like plain text. If the `href` attribute is present, the browser will give the text a blue color and underline it to signify it is a link.
+Por defecto, cualquier texto envuelto con una etiqueta de ancla sin un atributo `href` se verá como texto plano. Si el atributo `href` está presente, el navegador dará al texto un color azul y lo subrayará para indicar que es un enlace.
 
-It’s worth noting you can use anchor tags to link to any kind of resource on the internet, not just other HTML documents. You can link to videos, pdf files, images, and so on, but for the most part, you will be linking to other HTML documents.
+Cabe destacar que puedes usar etiquetas de ancla para enlazar a cualquier tipo de recurso en internet, no solo a otros documentos HTML. Puedes enlazar a videos, archivos pdf, imágenes, etc., pero en su mayoría, estarás enlazando a otros documentos HTML.
 
 # --question--
 
 ## --text--
 
-What attribute tells links where to go to?
+¿Qué atributo indica a los enlaces a dónde deben ir?
 
 ## --answers--
 

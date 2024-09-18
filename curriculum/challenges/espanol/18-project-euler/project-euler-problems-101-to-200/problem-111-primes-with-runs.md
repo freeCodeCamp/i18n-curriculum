@@ -31,11 +31,11 @@ In the same way we obtain the following results for 4-digit primes.
 | 8        | 3         | 1         | 8887      |
 | 9        | 3         | 7         | 48073     |
 
-For d = 0 to 9, the sum of all $S(4, d)$ is 273700. Find the sum of all $S(10, d)$.
+Para d = 0 a 9, la suma de todos los $S(4, d)$ es 273700. Encuentra la suma de todos los $S(10, d)$.
 
 # --hints--
 
-`primesWithRuns()` should return `612407567715`.
+`primesWithRuns()` debe volver `612407567715`.
 
 ```js
 assert.strictEqual(primesWithRuns(), 612407567715);

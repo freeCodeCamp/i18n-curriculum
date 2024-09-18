@@ -8,7 +8,7 @@ dashedName: problem-74-digit-factorial-chains
 
 # --description--
 
-The number 145 is well known for the property that the sum of the factorial of its digits is equal to 145:
+El número 145 es bien conocido por la propiedad que la suma del factorial de sus dígitos es igual a 145:
 
 $$1! + 4! + 5! = 1 + 24 + 120 = 145$$
 

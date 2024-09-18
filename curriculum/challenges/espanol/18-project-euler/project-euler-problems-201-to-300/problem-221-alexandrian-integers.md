@@ -23,7 +23,7 @@ Encuentra el valor Alejandrino 150000.
 
 # --hints--
 
-`alexandrianIntegers()` deberia devolver `1884161251122450`.
+`alexandrianIntegers()` debe devolver `1884161251122450`.
 
 ```js
 assert.strictEqual(alexandrianIntegers(), 1884161251122450);
