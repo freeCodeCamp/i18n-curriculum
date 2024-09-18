@@ -1,54 +1,54 @@
 ---
 id: 66629f407d679d3105e8317f
-title: Build a Rock Paper Scissors Game
+title: Construye un juego de piedra, papel o tijera
 challengeType: 14
 dashedName: top-build-a-rock-paper-scissors-game
 ---
 
 # --description--
-Your game will be played against the computer. You will write a function that randomly returns `"rock"`, `"paper"` or `"scissors"`.
+Tu juego se jugará contra la computadora. Escribe una función que devuelva aleatoriamente `"rock"`, `"paper"` o `"scissors"`.
 
-You do not need to worry about the front-end part of the game. You will only write the logic for the game. Open the `script.js` and start following the instructions.
+No necesitas preocuparte por la parte del front-end del juego. Solo escribe la lógica del juego. Abre el `script.js` y comienza a seguir las instrucciones.
 
-**User stories:**
+**Historia de usuario:**
 
-1. You should have a function named `getComputerChoice`.
+1. Debes tener una función llamada `getComputerChoice`.
 
-1. Your `getComputerChoice` function should return `"rock"`, `"paper"`, or `"scissors"` at random.
+1. Tu función `getComputerChoice` debe devolver aleatoriamente `"rock"`, `"paper"`, o `"scissors"`.
 
-**Hint:** The [Math.random](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random) method returns a random number that’s greater than or equal to 0 and less than 1. Think about how you can use this to conditionally return one of the multiple choices.
+**Pista:** El método [Math.random](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random) devuelve un número aleatorio que es mayor o igual a 0 y menor que 1. Piensa en cómo puedes usar esto para devolver condicionalmente una de las múltiples opciones.
 
-Your game will be played by a human player. You will write a function that takes the user's choice and returns it.
+Tu juego será jugado por un jugador humano. Escribe una función que tome la elección del usuario y la devuelva.
 
-1. Create a function named `getHumanChoice`.
+1. Crea una función llamada `getHumanChoice`.
 
-1. Write the code so that `getHumanChoice` will return one of the valid choices depending on what the user inputs.
+1. Escribe el código para que `getHumanChoice` devuelva una de las opciones válidas dependiendo de lo que el usuario ingrese.
 
-**Hint:** Use the [prompt](https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt) method to get the user’s input.
+**Pista:** Usa el método [prompt](https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt) para obtener la entrada del usuario.
 
-Your game will keep track of the player's score. You will write variables to keep track of the player's score.
+Tu juego lleva el registro de la puntuación del jugador. Escribe variables para llevar el registro de la puntuación del jugador.
 
-1. Create two new variables named `humanScore` and `computerScore` in the global scope.
+1. Crea dos nuevas variables llamadas `humanScore` y `computerScore` en el ámbito global.
 
-1. Initialize those variables with the value of `0`.
+1. Inicializa esas variables con el valor de `0`.
 
-Your game will be played round by round. You will write a function that takes the human and computer player choices as arguments, plays a single round, increments the round winner’s score and logs a winner announcement.
+Tu juego se jugará ronda por ronda. Escribe una función que tome las elecciones del jugador humano y la computadora como argumentos, juegue una sola ronda, incremente la puntuación del ganador de la ronda y registre un anuncio del ganador.
 
-1. Create a new function named `playRound`.
+1. Crea una nueva función llamada `playRound`.
 
-1. Define two parameters for `playRound`. Parameter one `humanChoice` and parameter two `computerChoice`. Use these two parameters to take the human and computer choices as arguments.
+1. Define dos parámetros para `playRound`. Parámetro uno `humanChoice` y parámetro dos `computerChoice`. Usa estos dos parámetros para tomar las elecciones del humano y del ordenador como argumentos.
 
-1. Make your function’s `humanChoice` parameter case-insensitive so that players can input `"rock"`, `"ROCK"`, `"RocK"`, or other variations.
+1. Haz que el parámetro `humanChoice` de tu función sea insensible a mayúsculas y minúsculas para que los jugadores puedan ingresar `"rock"`, `"ROCK"`, `"RocK"`, u otras variaciones.
 
-1. Write the code for your `playRound` function that returns a string value representing the round winner.
+1. Escribe el código para tu función `playRound` que devuelva un valor de cadena que represente al ganador de la ronda.
 
-- If it is a tie, it should return `"It's a tie!"`.
+- Si hay un empate, debe devolver `"It's a tie!"`.
 
-- If the player wins, it should return `"You win! [player choice] beats [computer choice]"`.
+- Si el jugador gana, debe devolver `"You win! [player choice] beats [computer choice]"`.
 
-- If the computer wins, it should return `"You lose! [computer choice] beats [player choice]"`.
+- Si la computadora gana, debe devolver `"You lose! [computer choice] beats [player choice]"`.
 
-1. Increment the `humanScore` or `computerScore` variable based on the round winner.
+1. Incrementa la variable `humanScore` o `computerScore` basada en el ganador de la ronda.
 
 Your game will play 3 rounds. You will write a function named `playGame` that calls `playRound` to play 3 rounds, keeps track of the scores, and declares a winner at the end.
 

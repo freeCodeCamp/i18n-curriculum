@@ -25,15 +25,15 @@ The same network can be represented by the matrix below.
 | G | -  | -  | -  | 23 | 11 | 27 | -  |
 
 
-However, it is possible to optimise the network by removing some edges and still ensure that all points on the network remain connected. The network which achieves the maximum saving is shown below. It has a weight of 93, representing a saving of 243 − 93 = 150 from the original network.
+Sin embargo, es posible optimizar la red eliminando algunas aristas y asegurando que todos los puntos de la red permanezcan conectados. La red que logra el ahorro máximo se muestra a continuación. Tiene un peso de 93, representando un ahorro de 243 − 93 = 150 del red original.
 
-<img alt="Network with seven vertices and left six edges: AB, BD, CA, DE, DF, EG" src="https://cdn.freecodecamp.org/curriculum/project-euler/minimal-network-2.png" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
+<img alt="Red con siete vértices y seis aristas: AB, BD, CA, DE, DF, EG" src="https://cdn.freecodecamp.org/curriculum/project-euler/minimal-network-2.png" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-Using `network`, an 2D array representing network in matrix form, find the maximum saving which can be achieved by removing redundant edges whilst ensuring that the network remains connected. Vertices not having connection will be represented with `-1`.
+Usando `network`, un arreglo 2D que representa la red en formulario de matriz, encuentra el máximo ahorro que puede lograrse eliminando aristas redundantes mientras aseguras que la red permanezca conectada. Los vértices que no tienen conexión se representarán con `-1`.
 
 # --hints--
 
-`minimalNetwork(testNetwork)` should return `259679`.
+`minimalNetwork(testNetwork)` debe volver `259679`.
 
 ```js
 assert.strictEqual(minimalNetwork(_testNetwork), 259679);

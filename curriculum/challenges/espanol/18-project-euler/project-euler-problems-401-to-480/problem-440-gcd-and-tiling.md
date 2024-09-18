@@ -8,7 +8,7 @@ dashedName: problem-440-gcd-and-tiling
 
 # --description--
 
-We want to tile a board of length $n$ and height 1 completely, with either 1 × 2 blocks or 1 × 1 blocks with a single decimal digit on top:
+Queremos poner azulejos a una pizarra de longitud $n$ y el peso 1 completamente, con cualquiera 1 × 2 bloques o 1 × 1 bloques con un único dígito decimal en lo alto:
 
 <img alt="diez bloques de 1x1 con un dígito decimal en la parte superior, y un bloque 1x2" src="https://cdn.freecodecamp.org/curriculum/project-euler/gcd-and-tiling-1.png" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
@@ -31,7 +31,7 @@ Encuentra $S(2000)\bmod 987\\,898\\,789$.
 
 # --hints--
 
-`gcdAndTiling()` debería devolver `970746056`.
+`gcdAndTiling()` debe devolver `970746056`.
 
 ```js
 assert.strictEqual(gcdAndTiling(), 970746056);

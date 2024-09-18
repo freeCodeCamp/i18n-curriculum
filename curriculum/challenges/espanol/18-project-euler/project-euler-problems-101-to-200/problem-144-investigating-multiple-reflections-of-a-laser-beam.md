@@ -8,14 +8,14 @@ dashedName: problem-144-investigating-multiple-reflections-of-a-laser-beam
 
 # --description--
 
-In laser physics, a "white cell" is a mirror system that acts as a delay line for the laser beam. The beam enters the cell, bounces around on the mirrors, and eventually works its way back out.
+En la física de láser, una "celula blanca" es un sistema espejo que actúa como una línea de retardo para el rayo láser. El rayo entra en la celda, rebota alrededor sobre los espejos, y eventualmente vuelve a salir nuevamente.
 
 La celda blanca específica a ser considerada es una elipse con la ecuación $4{x}^2 + y^2 = 100$
 
 La sección correspondiente a $−0.01 ≤ x ≤ +0.01$ en lo alto está ausente, permitiendo a la luz entrar y salir a través del agujero.
 
 <div style="text-align: center">
-  <img alt="light beam starting at point (0.0, 10.1), and impacting the mirror at point (1.4, -9.6)" src="https://cdn.freecodecamp.org/curriculum/project-euler/investigating-multiple-reflections-of-a-laser-beam-1.png" style="display: inline-block; background-color: white; padding: 10px;">
+  <img alt="rayo de luz iniciando en el punto (0.0, 10.1), e impactando el espejo en el punto (1.4, -9.6)" src="https://cdn.freecodecamp.org/curriculum/project-euler/investigating-multiple-reflections-of-a-laser-beam-1.png" style="display: inline-block; background-color: white; padding: 10px;">
   <img alt="animación con los primeros 10 reflexiones de el haz" src="https://cdn.freecodecamp.org/curriculum/project-euler/investigating-multiple-reflections-of-a-laser-beam-2.gif" style="display: inline-block; background-color: white; padding: 10px;">
 </div><br>
 
@@ -35,7 +35,7 @@ La animación sobre la derecha muestra las primeras 10 reflexiones de el haz.
 
 # --hints--
 
-`laserBeamReflections()` debería devolver `354`.
+`laserBeamReflections()` debe devolver `354`.
 
 ```js
 assert.strictEqual(laserBeamReflections(), 354);

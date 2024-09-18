@@ -1,6 +1,6 @@
 ---
 id: 5900f4cf1000cf542c50ffe1
-title: 'Problem 354: Distances in a bee''s honeycomb'
+title: 'Problema 354: Distancias en un panal de abejas'
 challengeType: 1
 forumTopicId: 302014
 dashedName: problem-354-distances-in-a-bees-honeycomb
@@ -8,19 +8,19 @@ dashedName: problem-354-distances-in-a-bees-honeycomb
 
 # --description--
 
-Consider a honey bee's honeycomb where each cell is a perfect regular hexagon with side length 1.
+Considera un panal de una abeja donde cada celda es un hexágono regular perfecto con lado de longitud 1.
 
-<img alt="honeycomb with hexagon sides of length 1" src="https://cdn.freecodecamp.org/curriculum/project-euler/distances-in-a-bees-honeycomb.png" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
+<img alt="panal con lados de hexágonos de longitud 1" src="https://cdn.freecodecamp.org/curriculum/project-euler/distances-in-a-bees-honeycomb.png" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-One particular cell is occupied by the queen bee. For a positive real number $L$, let $B(L)$ count the cells with distance $L$ from the queen bee cell (all distances are measured from centre to centre); you may assume that the honeycomb is large enough to accommodate for any distance we wish to consider.
+Una celda particular está ocupada por la abeja reina. Para un número real positivo $L$, sea $B(L)$ el conteo de las celdas con distancia $L$ desde la celda de la abeja reina (todas las distancias se miden de centro a centro); puedes asumir que el panal es lo suficientemente grande para acomodar cualquier distancia que deseemos considerar.
 
-For example, $B(\sqrt{3}) = 6$, $B(\sqrt{21}) = 12$ and $B(111\\,111\\,111) = 54$.
+Por ejemplo, $B(\sqrt{3}) = 6$, $B(\sqrt{21}) = 12$ y $B(111\\,111\\,111) = 54$.
 
-Find the number of $L ≤ 5 \times {10}^{11}$ such that $B(L) = 450$.
+Encuentra el número de $L ≤ 5 \times {10}^{11}$ tal que $B(L) = 450$.
 
 # --hints--
 
-`distancesInHoneycomb()` should return `58065134`.
+`distancesInHoneycomb()` debe volver `58065134`.
 
 ```js
 assert.strictEqual(distancesInHoneycomb(), 58065134);

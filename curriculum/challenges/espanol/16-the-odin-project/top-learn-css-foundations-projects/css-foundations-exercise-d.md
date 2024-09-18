@@ -1,57 +1,57 @@
 ---
 id: 63ee3ff1381756f9716727f2
-title: CSS Foundations Exercise D
+title: Ejercicio de Fundamentos de CSS D
 challengeType: 14
 dashedName: css-foundations-exercise-d
 ---
 
 # --description--
 
-With this exercise, we've provided you a completed HTML file, so you will only have to edit the CSS file. For this exercise, it's more important to understand how chaining different selectors works than how to actually add the attributes.
+Con este ejercicio, te hemos proporcionado un archivo HTML completo, por lo que solo tendrás que editar el archivo CSS. Para este ejercicio, es más importante comprender cómo funciona encadenar diferentes selectores que cómo realmente agregar los atributos.
 
-1. You should see a `width` of `300px` on the `avatar` and `proportioned` class.
-1. You should give it a height so that it retains its original square proportions (don't hardcode in a pixel value for the height!).
-1. You should give the elements with both the `avatar` and `distorted` classes a `width` of `200px`.
-1. You should give it a `height` twice as big as it's width.
+1. Debe ver un `width` de `300px` en la clase `avatar` y `proportioned`.
+1. Debe darle una altura para que conserve sus proporciones cuadradas originales (¡no codifique un valor de píxel para la altura!).
+1. Debe darle a los elementos con ambas clases `avatar` y `distorted` un `width` de `200px`.
+1. Debe darle una `height` dos veces mayor que su anchura.
 
 # --hints--
 
-You should have a `width` of `300px` on the `avatar` and `proportioned` class.
+Debe tener un `width` de `300px` en la clase `avatar` y `proportioned`.
 
 ```js
 const style = new __helpers.CSSHelp(document).getStyle(`.avatar.proportioned`) || new __helpers.CSSHelp(document).getStyle(`.proportioned.avatar`);
 assert(style?.width === '300px');
 ```
 
-You should have a height of `auto` on the `avatar` and `proportioned` class.
+Debe tener una altura de `auto` en la clase `avatar` y `proportioned`.
 
 ```js
 const style = new __helpers.CSSHelp(document).getStyle(`.avatar.proportioned`) || new __helpers.CSSHelp(document).getStyle(`.proportioned.avatar`)
 assert(style?.height === 'auto');
 ```
 
-You should use a chaining selector on the `avatar` and `proportioned` class.
+Debe usar un selector de encadenamiento en la clase `avatar` y `proportioned`.
 
 ```js
 const style = new __helpers.CSSHelp(document).getStyle(`.avatar.proportioned`) || new __helpers.CSSHelp(document).getStyle(`.proportioned.avatar`);
 assert(style);
 ```
 
-You should have a `width` of `200px` on the `avatar` and `distorted` class.
+Debe tener un `width` de `200px` en la clase `avatar` y `distorted`.
 
 ```js
 const style = new __helpers.CSSHelp(document).getStyle(`.avatar.distorted`) || new __helpers.CSSHelp(document).getStyle(`.distorted.avatar`);
 assert(style?.width === '200px');
 ```
 
-You should use a chaining selector on the `avatar` and `distorted` class.
+Debe usar un selector de encadenamiento en la clase `avatar` y `distorted`.
 
 ```js
 const style = new __helpers.CSSHelp(document).getStyle(`.avatar.distorted`) || new __helpers.CSSHelp(document).getStyle(`.distorted.avatar`);
 assert(style);
 ```
 
-You should have a `height` two times the width on the `avatar` and `distorted` class.
+Debe tener una `height` dos veces la anchura en la clase `avatar` y `distorted`.
 
 ```js
 const style = new __helpers.CSSHelp(document).getStyle(`.avatar.distorted`) || new __helpers.CSSHelp(document).getStyle(`.distorted.avatar`);

@@ -1,6 +1,6 @@
 ---
 id: 5900f49a1000cf542c50ffac
-title: 'Problem 300: Protein folding'
+title: 'Problema 300: Plegamiento de proteínas'
 challengeType: 1
 forumTopicId: 301954
 dashedName: problem-300-protein-folding
@@ -8,11 +8,11 @@ dashedName: problem-300-protein-folding
 
 # --description--
 
-In a very simplified form, we can consider proteins as strings consisting of hydrophobic (H) and polar (P) elements, e.g. HHPPHHHPHHPH.
+En una forma muy simplificada, podemos considerar las proteínas como cadenas compuestas de elementos hidrofóbicos (H) y polares (P), por ejemplo, HHPPHHHPHHPH.
 
-For this problem, the orientation of a protein is important; e.g. HPP is considered distinct from PPH. Thus, there are $2^n$ distinct proteins consisting of $n$ elements.
+Para este problema, la orientación de una proteína es importante; por ejemplo, HPP se considera distinto de PPH. Así, hay $2^n$ proteínas distintas que constan de $n$ elementos.
 
-When one encounters these strings in nature, they are always folded in such a way that the number of H-H contact points is as large as possible, since this is energetically advantageous.
+Cuando uno encuentra estas cadenas en la naturaleza, siempre están plegadas de tal manera que el número de puntos de contacto H-H es lo más grande posible, ya que esto es ventajoso energéticamente.
 
 As a result, the H-elements tend to accumulate in the inner part, with the P-elements on the outside.
 

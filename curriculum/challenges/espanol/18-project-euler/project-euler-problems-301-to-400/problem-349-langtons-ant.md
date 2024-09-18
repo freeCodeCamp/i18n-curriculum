@@ -1,6 +1,6 @@
 ---
 id: 5900f4ca1000cf542c50ffdc
-title: 'Problem 349: Langton''s ant'
+title: 'Problema 349: La hormiga de Langton'
 challengeType: 1
 forumTopicId: 302008
 dashedName: problem-349-langtons-ant
@@ -8,18 +8,18 @@ dashedName: problem-349-langtons-ant
 
 # --description--
 
-An ant moves on a regular grid of squares that are coloured either black or white.
+Una hormiga se mueve en una cuadrícula regular de cuadrados que están coloreados en negro o blanco.
 
-The ant is always oriented in one of the cardinal directions (left, right, up or down) and moves from square to adjacent square according to the following rules:
+La hormiga siempre está orientada en una de las direcciones cardinales (izquierda, derecha, arriba o abajo) y se mueve de un cuadrado a uno adyacente siguiendo las siguientes reglas:
 
-- if it is on a black square, it flips the color of the square to white, rotates 90° counterclockwise and moves forward one square.
-- if it is on a white square, it flips the color of the square to black, rotates 90° clockwise and moves forward one square.
+- si está en un cuadrado negro, cambia el color del cuadrado a blanco, gira 90° en sentido antihorario y avanza un cuadrado.
+- si está en un cuadrado blanco, cambia el color del cuadrado a negro, gira 90° en sentido horario y avanza un cuadrado.
 
-Starting with a grid that is entirely white, how many squares are black after ${10}^{18}$ moves of the ant?
+Comenzando con una cuadrícula que es completamente blanca, ¿cuántos cuadrados son negros después de ${10}^{18}$ movimientos de la hormiga?
 
 # --hints--
 
-`langtonsAnt()` should return `115384615384614940`.
+`langtonsAnt()` debe volver `115384615384614940`.
 
 ```js
 assert.strictEqual(langtonsAnt(), 115384615384614940);

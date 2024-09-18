@@ -20,17 +20,17 @@ It is easy to prove that the three triangles can be similar, only if $a = c$.
 
 So, given that $a = c$, we are looking for triplets ($a$, $b$, $d$) such that at least one point $P$ (with integer coordinates) exists on $AC$, making the three triangles $ABP$, $CDP$ and $BDP$ all similar.
 
-For example, if $(a, b, d) = (2, 3, 4)$, it can be easily verified that point $P(1, 1)$ satisfies the above condition. Note that the triplets (2,3,4) and (2,4,3) are considered as distinct, although point $P(1, 1)$ is common for both.
+Por ejemplo, si $(a, b, d) = (2, 3, 4)$, se puede verificar fácilmente que el punto $P(1, 1)$ satisface la condición anterior. Observa que los tríos (2,3,4) y (2,4,3) se consideran distintos, aunque el punto $P(1, 1)$ es común para ambos.
 
-If $b + d &lt; 100$, there are 92 distinct triplets ($a$, $b$, $d$) such that point $P$ exists.
+Si $b + d &lt; 100$, hay 92 tripletas distintas ($a$, $b$, $d$) tales que el punto $P$ existe.
 
-If $b + d &lt; 100\\,000$, there are 320471 distinct triplets ($a$, $b$, $d$) such that point $P$ exists.
+Si $b + d &lt; 100\\,000$, hay 320471 tripletas distintas ($a$, $b$, $d$) tales que el punto $P$ existe.
 
-If $b + d &lt; 100\\,000\\,000$, how many distinct triplets ($a$, $b$, $d$) are there such that point $P$ exists?
+Si $b + d &lt; 100\\,000\\,000$, ¿cuántas tripletas distintas ($a$, $b$, $d$) hay tales que el punto $P$ existe?
 
 # --hints--
 
-`threeSimilarTriangles()` should return `549936643`.
+`threeSimilarTriangles()` debe volver `549936643`.
 
 ```js
 assert.strictEqual(threeSimilarTriangles(), 549936643);

@@ -1,6 +1,6 @@
 ---
 id: 5900f3c11000cf542c50fed4
-title: 'Problem 85: Counting rectangles'
+title: 'Problema 85: Contando rectángulos'
 challengeType: 1
 forumTopicId: 302199
 dashedName: problem-85-counting-rectangles
@@ -8,45 +8,45 @@ dashedName: problem-85-counting-rectangles
 
 # --description--
 
-By counting carefully it can be seen that a rectangular grid measuring 3 by 2 contains eighteen rectangles:
+Contando cuidadosamente, se puede ver que una cuadrícula rectangular de 3 por 2 contiene dieciocho rectángulos:
 
-<img alt="a diagram of the different rectangles found within a 3 by 2 rectangular grid" src="https://cdn-media-1.freecodecamp.org/project-euler/counting-rectangles.png" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
+<img alt="un diagrama de los diferentes rectángulos encontrados dentro de una cuadrícula rectangular de 3 por 2" src="https://cdn-media-1.freecodecamp.org/project-euler/counting-rectangles.png" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-Although there may not exists a rectangular grid that contains exactly `n` rectangles, find the area of the grid with the nearest solution.
+Aunque puede que no exista una cuadrícula rectangular que contenga exactamente `n` rectángulos, encuentra el área de la cuadrícula con la solución más cercana.
 
 # --hints--
 
-`countingRectangles(18)` should return a number.
+`countingRectangles(18)` debe devolver un número.
 
 ```js
 assert(typeof countingRectangles(18) === 'number');
 ```
 
-`countingRectangles(18)` should return `6`.
+`countingRectangles(18)` debe devolver `6`.
 
 ```js
 assert.strictEqual(countingRectangles(18), 6);
 ```
 
-`countingRectangles(250)` should return `22`.
+`countingRectangles(250)` debe devolver `22`.
 
 ```js
 assert.strictEqual(countingRectangles(250), 22);
 ```
 
-`countingRectangles(50000)` should return `364`.
+`countingRectangles(50000)` debe devolver `364`.
 
 ```js
 assert.strictEqual(countingRectangles(50000), 364);
 ```
 
-`countingRectangles(1000000)` should return `1632`.
+`countingRectangles(1000000)` debe devolver `1632`.
 
 ```js
 assert.strictEqual(countingRectangles(1000000), 1632);
 ```
 
-`countingRectangles(2000000)` should return `2772`.
+`countingRectangles(2000000)` debe devolver `2772`.
 
 ```js
 assert.strictEqual(countingRectangles(2000000), 2772);

@@ -1,6 +1,6 @@
 ---
 id: 5900f4bd1000cf542c50ffcf
-title: 'Problem 336: Maximix Arrangements'
+title: 'Problema 336: Arreglos Maximix'
 challengeType: 1
 forumTopicId: 301994
 dashedName: problem-336-maximix-arrangements
@@ -8,31 +8,31 @@ dashedName: problem-336-maximix-arrangements
 
 # --description--
 
-A train is used to transport four carriages in the order: $ABCD$. However, sometimes when the train arrives to collect the carriages they are not in the correct order.
+Un tren se utiliza para transportar cuatro vagones en el orden: $ABCD$. Sin embargo, a veces cuando el tren llega a recoger los vagones, no están en el orden correcto.
 
-To rearrange the carriages, they are all shunted onto a large rotating turntable. After the carriages are uncoupled at a specific point, the train moves off the turntable pulling the carriages still attached with it. The remaining carriages are rotated 180°. All of the carriages are then rejoined and this process is repeated as often as necessary in order to obtain the least number of uses of the turntable.
+Para reorganizar los vagones, todos se empujan hacia una gran plataforma giratoria. Después de que los vagones se desacoplan en un punto específico, el tren se mueve fuera de la plataforma, llevándose los vagones aún unidos. Los vagones restantes se giran 180°. Todos los vagones se vuelven a unir y este proceso se repite tantas veces como sea necesario para obtener el menor número de usos de la plataforma giratoria.
 
-Some arrangements, such as $ADCB$, can be solved easily: the carriages are separated between $A$ and $D$, and after $DCB$ are rotated the correct order has been achieved.
+Algunos arreglos, como $ADCB$, pueden resolverse fácilmente: los vagones se separan entre $A$ y $D$, y después de que $DCB$ se giren, se ha logrado el orden correcto.
 
-However, Simple Simon, the train driver, is not known for his efficiency, so he always solves the problem by initially getting carriage $A$ in the correct place, then carriage $B$, and so on.
+Sin embargo, Simple Simon, el conductor del tren, no es conocido por su eficiencia, por lo que siempre resuelve el problema colocando inicialmente el vagón $A$ en el lugar correcto, luego el vagón $B$, y así sucesivamente.
 
-Using four carriages, the worst possible arrangements for Simon, which we shall call maximix arrangements, are $DACB$ and $DBAC$; each requiring him five rotations (although, using the most efficient approach, they could be solved using just three rotations). The process he uses for $DACB$ is shown below.
+Usando cuatro vagones, los peores arreglos posibles para Simon, que llamaremos arreglos maximix, son $DACB$ y $DBAC$; cada uno requiriendo cinco rotaciones (aunque, con el enfoque más eficiente, podrían resolverse usando solo tres rotaciones). El proceso que utiliza para $DACB$ se muestra a continuación.
 
-<img alt="five rotations for maximix arrangement DACB" src="https://cdn.freecodecamp.org/curriculum/project-euler/maximix-arrangements.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
+<img alt="cinco rotaciones para el arreglo maximix DACB" src="https://cdn.freecodecamp.org/curriculum/project-euler/maximix-arrangements.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-It can be verified that there are 24 maximix arrangements for six carriages, of which the tenth lexicographic maximix arrangement is $DFAECB$.
+Se puede verificar que hay 24 arreglos maximix para seis vagones, de los cuales el décimo arreglo maximix lexicográfico es $DFAECB$.
 
-Find the ${2011}^{\text{th}}$ lexicographic maximix arrangement for eleven carriages.
+Encuentra el ${2011}^{\text{th}}$ arreglo maximix lexicográfico para once vagones.
 
 # --hints--
 
-`maximixArrangements()` should return a string.
+`maximixArrangements()` debe devolver una cadena.
 
 ```js
 assert(typeof maximixArrangements() === 'string');
 ```
 
-`maximixArrangements()` should return the string `CAGBIHEFJDK`.
+`maximixArrangements()` debe devolver la cadena `CAGBIHEFJDK`.
 
 ```js
 assert.strictEqual(maximixArrangements(), 'CAGBIHEFJDK');

@@ -1,6 +1,6 @@
 ---
 id: 5900f3a61000cf542c50feb9
-title: 'Problem 58: Spiral primes'
+title: 'Problema 58: Espiral de primos'
 challengeType: 1
 forumTopicId: 302169
 dashedName: problem-58-spiral-primes
@@ -8,7 +8,7 @@ dashedName: problem-58-spiral-primes
 
 # --description--
 
-Starting with 1 and spiralling anticlockwise in the following way, a square spiral with side length 7 is formed.
+Comenzando en 1 y en espiral con sentido opuesto a las manecillas del reloj, es formada una espiral de cuadrados con longitud 7.
 
 <div style='text-align: center;'>
   <strong><span style='color: red;'>37</span></strong> 36 35 34 33 32 <strong><span style='color: red;'>31</span></strong><br>

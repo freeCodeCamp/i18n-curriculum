@@ -25,15 +25,15 @@ Flex containers are elements with `display: flex`, while flex items are elements
 
 ---
 
-Flex containers are elements within flex items, while flex items define the overall layout.
+Los contenedores flex son elementos dentro de los elementos flex, mientras que los elementos flex definen la disposición general.
 
 ---
 
-Flex containers are elements using flexbox, and flex items are inline elements.
+Los contenedores flex son elementos que utilizan flexbox, y los elementos flex son elementos en línea.
 
 ---
 
-Flex containers are elements that define the layout structure, while flex items control the overall page design.
+Los contenedores flex son elementos que definen la estructura del diseño, mientras que los elementos flex controlan el diseño general de la página.
 
 ## --video-solution--
 

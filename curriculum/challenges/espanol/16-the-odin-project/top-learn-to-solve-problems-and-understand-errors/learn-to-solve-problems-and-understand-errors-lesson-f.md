@@ -1,13 +1,13 @@
 ---
 id: 66581a7db1eb2281159492ff
-title: Learn to Solve Problems and Understand Errors Lesson F
+title: Aprende a resolver problemas y comprender errores Lección F
 challengeType: 15
 dashedName: learn-to-solve-problems-and-understand-errors-lesson-f
 ---
 
 # --description--
 
-Another important part of an error is the stack trace. This helps you understand when the error was thrown in your application, and what functions were called that led up to the error. So, for example, if you have the following code:
+Otra parte importante de un error es el seguimiento de la pila. Esto te ayuda a entender cuándo se lanzó el error en tu aplicación, y qué funciones se llamaron que condujeron al error. Por ejemplo, si tienes el siguiente código:
 
 ```javascript
 const a = 5;
@@ -24,39 +24,39 @@ function print() {
 print();
 ```
 
-Our function `print()` should call on `add()`, which returns a variable named `c`, which currently has not been declared. The corresponding error is as follows:
+Nuestra función `print()` debe llamar a `add()`, que devuelve una variable llamada `c`, que actualmente no ha sido declarada. El error correspondiente es el siguiente:
 
-<img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/284f0cdc998be7e4751e29e8458323ad5d320303/foundations/javascript_basics/understanding_errors/imgs/01.png" width="100%" alt="An error showing with a stacktrace in the developer console" />
+<img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/284f0cdc998be7e4751e29e8458323ad5d320303/foundations/javascript_basics/understanding_errors/imgs/01.png" width="100%" alt="Un error mostrando un seguimiento de la pila en la consola de desarrolladores" />
 
-The stack trace tells us that:
+El seguimiento de la pila nos dice que:
 
-1. `c is not defined` in scope of `add()`, which is declared on line 5.
-1. `add()` was called by `print()`, which was declared on line 9.
-1. `print()` itself was called on line 12.
+1. `c is not defined` en el ámbito de `add()`, que se declara en la línea 5.
+1. `add()` fue llamada por `print()`, que fue declarado en la línea 9.
+1. `print()` se llamó en la línea 12.
 
-Thus the stack trace lets you trace the evolution of an error back to its origin, which here is the declaration of `add()`.
+Así, el seguimiento de pila te permite rastrear la evolución de un error hasta su origen, que aquí es la declaración de `add()`.
 
 # --question--
 
 ## --text--
 
-How does the stack trace help in debugging the error in the provided JavaScript code?
+¿Cómo ayuda el seguimiento de pila para depurar el error en el código de JavaScript proporcionado?
 
 ## --answers--
 
-The stack trace shows that the function `add()` correctly returns the value of `c`.
+El seguimiento de pila muestra que la función `add()` devuelve correctamente el valor de `c`.
 
 ---
 
-The stack trace indicates which line in the code needs to be edited to correct a syntax error.
+El seguimiento de pila indica qué línea en el código necesita ser editada para corregir un error de sintaxis.
 
 ---
 
-The stack trace provides a detailed path of function calls leading to the error, helping identify where `c` is incorrectly referenced.
+El seguimiento de pila proporciona una ruta detallada de las funciones llamadas que llevan al error, ayudando a identificar donde `c` está referenciado incorrectamente.
 
 ---
 
-The stack trace only indicates that `print()` was called, but does not provide details about the error in `add()`.
+El seguimiento de pila solo indica que `print()` fue llamado, pero no proporciona detalles sobre el error en `add()`.
 
 ## --video-solution--
 

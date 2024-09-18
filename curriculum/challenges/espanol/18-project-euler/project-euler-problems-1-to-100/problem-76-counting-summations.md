@@ -35,19 +35,19 @@ assert(typeof countingSummations(5) === 'number');
 assert.strictEqual(countingSummations(5), 6);
 ```
 
-`countingSummations(20)` should return `626`.
+`countingSummations(20)` debe devolver `626`.
 
 ```js
 assert.strictEqual(countingSummations(20), 626);
 ```
 
-`countingSummations(50)` should return `204225`.
+`countingSummations(50)` debe devolver `204225`.
 
 ```js
 assert.strictEqual(countingSummations(50), 204225);
 ```
 
-`countingSummations(100)` should return `190569291`.
+`countingSummations(100)` debe devolver `190569291`.
 
 ```js
 assert.strictEqual(countingSummations(100), 190569291);

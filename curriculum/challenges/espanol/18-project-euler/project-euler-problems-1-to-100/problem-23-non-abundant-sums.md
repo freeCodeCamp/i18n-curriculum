@@ -8,7 +8,7 @@ dashedName: problem-23-non-abundant-sums
 
 # --description--
 
-A perfect number is a number for which the sum of its proper divisors is exactly equal to the number. For example, the sum of the proper divisors of 28 would be 1 + 2 + 4 + 7 + 14 = 28, which means that 28 is a perfect number.
+Un número perfecto es aquel que es igual a la suma de sus divisores propios. Por ejemplo, la suma de los divisores propios de 28 es 1 + 2 + 4 + 7 + 14 = 28, con lo cual 28 es un número perfecto.
 
 Un número `n` es deficiente si la suma de sus divisores propios es menor que `n`, y es abundante si dicha suma es mayor que `n`.
 

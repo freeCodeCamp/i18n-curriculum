@@ -1,6 +1,6 @@
 ---
 id: 5900f3b71000cf542c50feca
-title: 'Problem 75: Singular integer right triangles'
+title: 'Problema 75: Triángulos rectángulos enteros singulares'
 challengeType: 1
 forumTopicId: 302188
 dashedName: problem-75-singular-integer-right-triangles
@@ -8,7 +8,7 @@ dashedName: problem-75-singular-integer-right-triangles
 
 # --description--
 
-It turns out that 12 cm is the smallest length of wire that can be bent to form an integer sided right angle triangle in exactly one way, but there are many more examples.
+Resulta que 12 cm es la longitud más pequeña de alambre que se puede doblar para formar un triángulo rectángulo con lados enteros de exactamente una manera, pero hay muchos más ejemplos.
 
 <div style='margin-left: 4em;'>
   <strong>12 cm:</strong> (3,4,5)<br>
@@ -19,41 +19,41 @@ It turns out that 12 cm is the smallest length of wire that can be bent to form 
   <strong>48 cm:</strong> (12,16,20)<br><br>
 </div>
 
-In contrast, some lengths of wire, like 20 cm, cannot be bent to form an integer sided right angle triangle, and other lengths allow more than one solution to be found; for example, using 120 cm it is possible to form exactly three different integer sided right angle triangles.
+En cambio, algunas longitudes de alambre, como 20 cm, no se pueden doblar para formar un triángulo rectángulo con lados enteros, y otras longitudes permiten encontrar más de una solución; por ejemplo, usando 120 cm es posible formar exactamente tres triángulos rectángulos con lados enteros diferentes.
 
 <div style='margin-left: 4em;'>
   <strong>120 cm:</strong> (30,40,50), (20,48,52), (24,45,51)<br><br>
 </div>
 
-Given that L is the length of the wire, for how many values of L ≤ `n` can exactly one, integer sided right angle, triangle be formed?
+Dado que L es la longitud del alambre, ¿para cuántos valores de L ≤ `n` se puede formar exactamente un triángulo rectángulo con lados enteros?
 
 # --hints--
 
-`singularIntRightTriangles(48)` should return a number.
+`singularIntRightTriangles(48)` debe devolver un número.
 
 ```js
 assert(typeof singularIntRightTriangles(48) === 'number');
 ```
 
-`singularIntRightTriangles(48)` should return `6`.
+`singularIntRightTriangles(48)` debe devolver `6`.
 
 ```js
 assert.strictEqual(singularIntRightTriangles(48), 6);
 ```
 
-`singularIntRightTriangles(700000)` should return `75783`.
+`singularIntRightTriangles(700000)` debe devolver `75783`.
 
 ```js
 assert.strictEqual(singularIntRightTriangles(700000), 75783);
 ```
 
-`singularIntRightTriangles(1000000)` should return `107876`.
+`singularIntRightTriangles(1000000)` debe devolver `107876`.
 
 ```js
 assert.strictEqual(singularIntRightTriangles(1000000), 107876);
 ```
 
-`singularIntRightTriangles(1500000)` should return `161667`.
+`singularIntRightTriangles(1500000)` debe devolver `161667`.
 
 ```js
 assert.strictEqual(singularIntRightTriangles(1500000), 161667);

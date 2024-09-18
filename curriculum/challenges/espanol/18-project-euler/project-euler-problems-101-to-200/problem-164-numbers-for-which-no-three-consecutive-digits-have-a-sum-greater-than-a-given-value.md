@@ -10,7 +10,7 @@ dashedName: >-
 
 # --description--
 
-How many 20 digit numbers $n$ (without any leading zero) exist such that no three consecutive digits of $n$ have a sum greater than 9?
+¿Cuántos números de 20 dígitos $n$ (sin cero al principio) existen de tal manera que no hay tres dígitos consecutivos de $n$ con una suma mayor de 9?
 
 # --hints--
 

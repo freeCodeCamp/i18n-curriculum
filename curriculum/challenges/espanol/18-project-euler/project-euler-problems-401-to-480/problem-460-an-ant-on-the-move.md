@@ -1,6 +1,6 @@
 ---
 id: 5900f5381000cf542c51004b
-title: 'Problem 460: An ant on the move'
+title: 'Problema 460: Una hormiga en movimiento'
 challengeType: 1
 forumTopicId: 302135
 dashedName: problem-460-an-ant-on-the-move
@@ -8,30 +8,30 @@ dashedName: problem-460-an-ant-on-the-move
 
 # --description--
 
-On the Euclidean plane, an ant travels from point $A(0, 1)$ to point $B(d, 1)$ for an integer $d$.
+En el plano euclidiano, una hormiga viaja desde el punto $A(0, 1)$ al punto $B(d, 1)$ para un número entero $d$.
 
-In each step, the ant at point ($x_0$, $y_0$) chooses one of the lattice points ($x_1$, $y_1$) which satisfy $x_1 ≥ 0$ and $y_1 ≥ 1$ and goes straight to ($x_1$, $y_1$) at a constant velocity $v$. The value of $v$ depends on $y_0$ and $y_1$ as follows:
+En cada paso, la hormiga en el punto ($x_0$, $y_0$) elige uno de los puntos de red ($x_1$, $y_1$) que satisface $x_1 ≥ 0$ y $y_1 ≥ 1$ y va directamente a ($x_1$, $y_1$) a una velocidad constante $v$. El valor de $v$ depende de $y_0$ y $y_1$ de la siguiente manera:
 
-- If $y_0 = y_1$, the value of $v$ equals $y_0$.
-- If $y_0 ≠ y_1$, the value of $v$ equals $\frac{y_1 - y_0}{\ln y_1 - \ln y_0}$.
+- Si $y_0 = y_1$, el valor de $v$ es igual a $y_0$.
+- Si $y_0 ≠ y_1$, el valor de $v$ es igual a $\frac{y_1 - y_0}{\ln y_1 - \ln y_0}$.
 
-The left image is one of the possible paths for $d = 4$. First the ant goes from $A(0, 1)$ to $P_1(1, 3)$ at velocity $\frac{3 - 1}{\ln 3 - \ln 1} ≈ 1.8205$. Then the required time is $\frac{\sqrt{5}}{1.820} ≈ 1.2283$.
+La imagen izquierda es una de las posibles rutas para $d = 4$. Primer, la hormiga va de $A(0, 1)$ a $P_1(1, 3)$ a una velocidad de $\frac{3 - 1}{\ln 3 - \ln 1} ≈ 1.8205$. Entonces el tiempo requerido es $\frac{\sqrt{5}}{1.820} ≈ 1.2283$.
 
-From $P_1(1, 3)$ to $P_2(3, 3)$ the ant travels at velocity 3 so the required time is $\frac{2}{3} ≈ 0.6667$. From $P_2(3, 3)$ to $B(4, 1)$ the ant travels at velocity $\frac{1 - 3}{\ln 1 - \ln 3} ≈ 1.8205$ so the required time is $\frac{\sqrt{5}}{1.8205} ≈ 1.2283$.
+Desde $P_1(1, 3)$ a $P_2(3, 3)$ la hormiga viaja a una velocidad de 3, por lo que el tiempo requerido es $\frac{2}{3} ≈ 0.6667$. Desde $P_2(3, 3)$ a $B(4, 1)$ la hormiga viaja a una velocidad de $\frac{1 - 3}{\ln 1 - \ln 3} ≈ 1.8205$, por lo que el tiempo requerido es $\frac{\sqrt{5}}{1.8205} ≈ 1.2283$.
 
-Thus the total required time is $1.2283 + 0.6667 + 1.2283 = 3.1233$.
+Así, el tiempo total requerido es $1.2283 + 0.6667 + 1.2283 = 3.1233$.
 
-The right image is another path. The total required time is calculated as $0.98026 + 1 + 0.98026 = 2.96052$. It can be shown that this is the quickest path for $d = 4$.
+La imagen derecha es otro camino. El tiempo total requerido se calcula como $0.98026 + 1 + 0.98026 = 2.96052$. Se puede demostrar que este es el camino más rápido para $d = 4$.
 
-<img alt="two possible paths for d = 4" src="https://cdn.freecodecamp.org/curriculum/project-euler/an-ant-on-the-move.jpg" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
+<img alt="dos posibles caminos para d = 4" src="https://cdn.freecodecamp.org/curriculum/project-euler/an-ant-on-the-move.jpg" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-Let $F(d)$ be the total required time if the ant chooses the quickest path. For example, $F(4) ≈ 2.960\\,516\\,287$. We can verify that $F(10) ≈ 4.668\\,187\\,834$ and $F(100) ≈ 9.217\\,221\\,972$.
+Sea $F(d)$ el tiempo total requerido si la hormiga elige el camino más rápido. Por ejemplo, $F(4) ≈ 2.960\\,516\\,287$. Podemos verificar que $F(10) ≈ 4.668\\,187\\,834$ y $F(100) ≈ 9.217\\,221\\,972$.
 
-Find $F(10\\,000)$. Give your answer rounded to nine decimal places.
+Encuentra $F(10\\,000)$. Da tu respuesta redondeada a nueve lugares decimales.
 
 # --hints--
 
-`antOnTheMove()` should return `18.420738199`.
+`antOnTheMove()` debe volver `18.420738199`.
 
 ```js
 assert.strictEqual(antOnTheMove(), 18.420738199);

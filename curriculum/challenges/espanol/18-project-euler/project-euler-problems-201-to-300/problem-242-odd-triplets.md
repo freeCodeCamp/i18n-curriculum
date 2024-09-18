@@ -8,7 +8,7 @@ dashedName: problem-242-odd-triplets
 
 # --description--
 
-Given the set {1,2,..., $n$}, we define $f(n, k)$ as the number of its $k$-element subsets with an odd sum of elements. For example, $f(5,3) = 4$, since the set {1,2,3,4,5} has four 3-element subsets having an odd sum of elements, i.e.: {1,2,4}, {1,3,5}, {2,3,4} and {2,4,5}.
+Dado el conjunto {1,2,..., $n$}, definimos $f(n, k)$ como número de sus $k$-element subconjuntos con una suma impar de elementos. Por ejemplo, $f(5,3) = 4$, ya que el conjunto {1,2,3,4,5} tiene cuatro subconjuntos de 3-elementos con una suma impar de elementos, p. ej.: {1,2,4}, {1,3,5}, {2,3,4} y {2,4,5}.
 
 Cuando los tres valores $n$, $k$ y $f(n, k)$ son impares, decimos que hacen un triple impar $[n, k, f(n, k)]$.
 

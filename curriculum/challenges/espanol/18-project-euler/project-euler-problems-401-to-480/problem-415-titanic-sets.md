@@ -8,7 +8,7 @@ dashedName: problem-415-titanic-sets
 
 # --description--
 
-A set of lattice points $S$ is called a titanic set if there exists a line passing through exactly two points in $S$.
+Un conjunto de puntos de celosía $S$ se denomina conjunto titanic si existe una línea que pasa exactamente por dos puntos en $S$.
 
 Un ejemplo de un conjunto titanic es $S = \\{(0, 0), (0, 1), (0, 2), (1, 1), (2, 0), (1, 0)\\}$, donde la linea pasa a través de (0, 1) y (2, 0) no pasa a través de ningun otro punto en $S$.
 

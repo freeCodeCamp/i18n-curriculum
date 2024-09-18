@@ -1,24 +1,24 @@
 ---
 id: 63ee3fe9381756f9716727f1
-title: CSS Foundations Exercise C
+title: Ejercicio C de las bases de CSS
 challengeType: 14
 dashedName: css-foundations-exercise-c
 ---
 
 # --description--
 
-Let's build a little off the previous exercise, in which you added multiple classes to a single element in order to apply two different rules to it.
+Compilamos un poco sobre el ejercicio anterior, en el cual agregaste múltiples clases a un solo elemento para aplicar dos reglas diferentes a este.
 
-1. You should see a black background and white text on the first `button` element.
-1. You should see a yellow background on the second `button` element.
-1. You should set a font size of `28px` using a grouping selector.
-1. You should have a list of fonts containing `Helvetica` and `Times New Roman` with `sans-serif` as a fallback.
-1. You should see a unique class name on each element.
-1. You should have a grouping selector for styles that both elements share.
+1. Debes ver un fondo negro y texto blanco en el primer elemento `button`.
+1. Debes ver un fondo amarillo en el segundo elemento `button`.
+1. Debes establecer un tamaño de fuente de `28px` usando un selector de agrupamiento.
+1. Debes tener una lista de fuentes que contenga `Helvetica` y `Times New Roman` con `sans-serif` como alternativa.
+1. Debes ver un nombre de clase único en cada elemento.
+1. Debes tener un selector de agrupamiento para estilos que ambos elementos comparten.
 
 # --hints--
 
-You should have a `black` background on the first element.
+Debes tener un fondo `black` en el primer elemento.
 
 ```js
 const classes = document.querySelectorAll('button')?.[0].classList;
@@ -29,7 +29,7 @@ assert.equal(style?.backgroundColor, 'black');
 
 ```
 
-Your first element should have a text color of `white`.
+Tu primer elemento debe tener un color de texto de `white`.
 
 ```js
 
@@ -41,7 +41,7 @@ assert.equal(style?.color, 'white');
 
 ```
 
-You should set the `font-size` for both elements to `28px` using a grouping selector.
+Debe establecer el `font-size` para ambos elementos a `28px` usando un selector de agrupamiento.
 
 ```js
 const classOne = document.querySelectorAll('button')?.[0].classList?.[0];
@@ -54,7 +54,7 @@ function eitherOr() {
 assert.equal(eitherOr()?.fontSize, '28px');
 ```
 
-You have a unique class name on each element.
+Tienes un nombre de clase único en cada elemento.
 
 ```js
 const elementOneClasses = document.querySelectorAll('button')?.[0].classList;
@@ -66,7 +66,7 @@ for(let i = 0; i < elementOneClasses.length; i++){
 
 ```
 
-You should have a grouping selector for styles that both elements share.
+Debes tener un selector de agrupamiento para estilos que ambos elementos comparten.
 
 ```js
 const classOne = document.querySelectorAll('button')?.[0].classList?.[0];
@@ -79,7 +79,7 @@ function eitherOr() {
 assert.exists(eitherOr());
 ```
 
-You should have a list of fonts containing `Helvetica` and `Times New Roman` with `sans-serif` as a fallback.
+Debes tener una lista de fuentes que contenga `Helvetica` y `Times New Roman` con `sans-serif` como alternativa.
 
 ```js
 const classOne = document.querySelectorAll('button')?.[0].classList?.[0];
@@ -93,7 +93,7 @@ function eitherOr() {
 assert.equal(eitherOr()?.fontFamily, 'Helvetica, "Times New Roman", sans-serif');
 ```
 
-Each element should only have one class.
+Cada elemento solo debe tener una clase.
 
 ```js
 const elementOneClasses = document.querySelectorAll('button')?.[0].classList;

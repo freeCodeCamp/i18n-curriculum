@@ -1,6 +1,6 @@
 ---
 id: 5900f43f1000cf542c50ff51
-title: 'Problem 208: Robot Walks'
+title: 'Problema 208: Caminatas de Robot'
 challengeType: 1
 forumTopicId: 301849
 dashedName: problem-208-robot-walks
@@ -8,19 +8,19 @@ dashedName: problem-208-robot-walks
 
 # --description--
 
-A robot moves in a series of one-fifth circular arcs (72°), with a free choice of a clockwise or an anticlockwise arc for each step, but no turning on the spot.
+Un robot se mueve en una serie de arcos circulares de un quinto (72°), con una elección libre de un arco en el sentido horario o antihorario para cada paso, pero sin girar en el lugar.
 
-One of 70932 possible closed paths of 25 arcs starting northward is
+Uno de los 70932 caminos cerrados posibles de 25 arcos comenzando hacia el norte es
 
-<img alt="closed path of 25 arcs, starting northward" src="https://cdn.freecodecamp.org/curriculum/project-euler/robot-walks.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
+<img alt="camino cerrado de 25 arcos, comenzando hacia el norte" src="https://cdn.freecodecamp.org/curriculum/project-euler/robot-walks.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-Given that the robot starts facing North, how many journeys of 70 arcs in length can it take that return it, after the final arc, to its starting position?
+Dado que el robot comienza mirando hacia el norte, ¿cuántos recorridos de 70 arcos de longitud puede tomar que lo devuelvan, después del arco final, a su posición inicial?
 
-**Note:** Any arc may be traversed multiple times.
+**Nota:** Cualquier arco puede ser recorrido múltiples veces.
 
 # --hints--
 
-`robotWalks()` should return `331951449665644800`.
+`robotWalks()` debe volver `331951449665644800`.
 
 ```js
 assert.strictEqual(robotWalks(), 331951449665644800);

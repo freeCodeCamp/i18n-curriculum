@@ -1,31 +1,31 @@
 ---
 id: 637f4e4672c65bc8e73dfe25
-title: Working With Text Lesson I
+title: Trabajando con texto lección I
 challengeType: 15
 dashedName: working-with-text-lesson-i
 ---
 
 # --description--
 
-If you want to have a list of items where the order doesn’t matter, like a shopping list of items that can be bought in any order, then you can use an unordered list.
+Si desea tener una lista de elementos donde el orden no importa,, como una lista de compras de artículos que se pueden comprar en cualquier orden, entonces puede usar una lista sin numerar.
 
-Unordered lists are created using the `<ul>` element, and each item within the list is created using the list item element `<li>`.
+Las listas sin numerar se crean usando el elemento `<ul>`, y cada elemento dentro de la lista se crea usando el elemento de lista `<li>`.
 
-Each list item in an unordered list begins with a bullet point:
+Cada elemento de la lista en una lista sin numerar comienza con un punto de viñeta:
 
-<iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="300" width="100%" name="cp_embed_1" scrolling="no" src="https://codepen.io/TheOdinProjectExamples/embed/powjajd?height=300&amp;theme-id=dark&amp;default-tab=html%2Cresult&amp;slug-hash=powjajd&amp;user=TheOdinProjectExamples&amp;name=cp_embed_1" style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy" id="cp_embed_powjajd"></iframe>
+<iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="300" width="100%" name="cp_embed_1" scrolling="no" src="https://codepen.io/TheOdinProjectExamples/embed/powjajd?height=300&amp;theme-id=dark&amp;default-tab=html%2Cresult&amp;slug-hash=powjajd&amp;user=TheOdinProjectExamples&amp;name=cp_embed_1" style="width: 100%; overflow:hidden; display:block;" title="Inserción de CodePen" loading="lazy" id="cp_embed_powjajd"></iframe>
 
-If you instead want to create a list of items where the order does matter, like step-by-step instructions for a recipe, or your top 10 favorite TV shows, then you can use an ordered list.
+Si en cambio desea crear una lista de elementos donde el orden sí importa, como instrucciones paso a paso para una receta, o sus 10 programas de televisión favoritos, entonces puede usar una lista numerada.
 
-Ordered lists are created using the `<ol>` element. Each individual item in them is again created using the list item element `<li>`. However, each list item in an ordered list begins with a number instead:
+Las listas numeradas se crean utilizando el elemento `<ol>`. Cada elemento individual en ellas se crea nuevamente usando el elemento de lista `<li>`. Sin embargo, cada elemento de la lista en una lista numerada comienza con un número en su lugar:
 
-<iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="300" width="100%" name="cp_embed_2" scrolling="no" src="https://codepen.io/TheOdinProjectExamples/embed/yLXYvYp?height=300&amp;theme-id=dark&amp;default-tab=html%2Cresult&amp;slug-hash=yLXYvYp&amp;user=TheOdinProjectExamples&amp;name=cp_embed_2" style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy" id="cp_embed_yLXYvYp"></iframe>
+<iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="300" width="100%" name="cp_embed_2" scrolling="no" src="https://codepen.io/TheOdinProjectExamples/embed/yLXYvYp?height=300&amp;theme-id=dark&amp;default-tab=html%2Cresultados&amp;slug-hash=yLXYvYp&amp;user=TheOdinProjectExamples&amp;name=nombre=cp_embed_2" style="width: 100%; overflow:hidden; display:block;" title="Inserción de CodePen" loading="lazy" id="cp_embed_yLXYvYp"></iframe>
 
 # --question--
 
 ## --text--
 
-What HTML tag is used to create an ordered list?
+¿Qué etiqueta HTML se utiliza para crear una lista numerada?
 
 ## --answers--
 

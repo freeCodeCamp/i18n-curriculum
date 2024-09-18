@@ -8,10 +8,10 @@ dashedName: problem-464-mbius-function-and-intervals
 
 # --description--
 
-The Möbius function, denoted $μ(n)$, is defined as:
+La función Möbius, denotada $μ(n)$, es definida como:
 
-- $μ(n) = (-1)^{ω(n)}$ if $n$ is squarefree (where $ω(n)$ is the number of distinct prime factors of $n$)
-- $μ(n) = 0$ if $n$ is not squarefree.
+- $μ(n) = (-1)^{ω(n)}$ si $n$ sin radicales (where $ω(n)$ es el número de distintos factores primos de $n$)
+- $μ(n) = 0$ si $n$ no tiene radicales.
 
 Sean $P(a, b)$ el número de enteros $n$ en el intervalo $[a, b]$ tales que $μ(n) = 1$.
 

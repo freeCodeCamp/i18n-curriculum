@@ -1,35 +1,35 @@
 ---
 id: 65e1aedc500d930ce8ed90ac
-title: Learn Variables and Operators Lesson H
+title: Aprende variables y operadores lección H
 challengeType: 15
 dashedName: learn-variables-and-operators-lesson-h
 ---
 
 # --description--
 
-If an expression has more than one operator, the execution order is defined by their precedence, or, in other words, the default priority order of operators.
+Si una expresión tiene más de un operador, el orden de ejecución está definido por su precedencia, o, en otras palabras, el orden de prioridad predeterminado de los operadores.
 
-From school, you know that the multiplication in the expression `1 + 2 * 2` should be calculated before the addition. That’s exactly the precedence thing. The multiplication is said to have a higher precedence than the addition.
+Desde la escuela, sabes que la multiplicación en la expresión `1 + 2 * 2` debe ser calculada antes de la suma. Eso es precisamente la cuestión de la precedencia. Se dice que la multiplicación tiene una precedencia más alta que la suma.
 
-Parentheses override any precedence, so if you’re not satisfied with the default order, you can use them to change it. For example, write `(1 + 2) * 2`.
+Los paréntesis anulan cualquier precedencia, así que si no estás satisfecho con el orden predeterminado, puedes usarlos para cambiarlo. Por ejemplo, escribe `(1 + 2) * 2`.
 
-There are many operators in JavaScript. Every operator has a corresponding precedence number. The one with the larger number executes first. If the precedence is the same, the execution order is from left to right.
+Hay muchos operadores en JavaScript. Cada operador tiene un número de precedencia correspondiente. El que tiene el número más grande se ejecuta primero. Si la precedencia es la misma, el orden de ejecución es de izquierda a derecha.
 
-Here’s an extract from the precedence table (you don’t need to remember this, but note that unary operators are higher than corresponding binary ones):
+Aquí hay un extracto de la tabla de precedencia (no necesitas recordar esto, pero observa que los operadores unarios tienen una precedencia más alta que los binarios correspondientes):
 
-| Precedence | Name           | Sign |
-| ---------- | -------------- | ---- |
-| ...        | ...            | ...  |
-| 14         | unary plus     | +    |
-| 14         | unary negation | -    |
-| 13         | exponentiation | **   |
-| 12         | multiplication | *    |
-| 12         | division       | /    |
-| 11         | addition       | +    |
-| 11         | subtraction    | -    |
-| ...        | ...            | ...  |
-| 2          | assignment     | =    |
-| ...        | ...            | ...  |
+| Precedencia | Nombre          | Signo |
+| ----------- | --------------- | ----- |
+| ...         | ...             | ...   |
+| 14          | unario más      | +     |
+| 14          | negación unaria | -     |
+| 13          | exponentiation  | **    |
+| 12          | multiplication  | *     |
+| 12          | division        | /     |
+| 11          | addition        | +     |
+| 11          | subtraction     | -     |
+| ...         | ...             | ...   |
+| 2           | assignment      | =     |
+| ...         | ...             | ...   |
 
 
 

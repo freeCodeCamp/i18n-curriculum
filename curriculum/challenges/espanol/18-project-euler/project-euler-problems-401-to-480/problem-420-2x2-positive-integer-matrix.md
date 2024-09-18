@@ -8,7 +8,7 @@ dashedName: problem-420-2x2-positive-integer-matrix
 
 # --description--
 
-A positive integer matrix is a matrix whose elements are all positive integers.
+Una matriz de enteros positivos es una matriz en la cual todos los elementos son enteros positivos.
 
 Algunas matrices de enteros positivos pueden ser expresadas como una matriz de cuadrados de dos diferentes maneras. Aquí hay un ejemplo:
 
