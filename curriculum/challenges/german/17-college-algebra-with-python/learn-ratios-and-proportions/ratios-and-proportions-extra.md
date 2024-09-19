@@ -14,7 +14,7 @@ Das letzte Video in diesem Abschnitt zeigt, wie man Proportionen in anderen Anwe
 
 Öffne das folgende Colab-Notizbuch, führe die Zelle aus und <a href="https://colab.research.google.com/drive/1XjmHoERFKcvol7FPidQE-wgdvR82HV45" target="_blank" rel="noopener noreferrer nofollow">übe das Lösen von einstufigen Algebraaufgaben.</a> Zusätzlich kannst du dir den Code ansehen, der die Übungsaufgaben generiert.
 
-# --question--
+# --questions--
 
 ## --text--
 

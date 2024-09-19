@@ -16,7 +16,7 @@ dashedName: perform-operations-on-arrays-using-helpers-methods-in-c-sharp
 
 Виконайте модуль <a href="https://learn.microsoft.com/training/modules/csharp-arrays-operations/" target="_blank" rel="noreferrer">«Виконайте операції на масивах, використовуючи допоміжні методи в C#»</a> на Microsoft Learn. Потім дайте відповідь на запитання нижче.
 
-# --question--
+# --questions--
 
 ## --text--
 

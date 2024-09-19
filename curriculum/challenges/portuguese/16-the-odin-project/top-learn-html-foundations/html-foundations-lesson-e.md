@@ -41,7 +41,7 @@ De volta ao arquivo `index.html`, vamos adicionar um elemento `head` e, dentro d
 </html>
 ```
 
-# --question--
+# --questions--
 
 ## --text--
 

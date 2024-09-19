@@ -16,7 +16,7 @@ Hier ist das <a href="https://colab.research.google.com/drive/1Q7nCcbrnoYttkwiHB
 
 Füge den Code aus dem Video in das Algebra-Colab-Notizbuch ein, das du im ersten Schritt erstellt hast.
 
-# --question--
+# --questions--
 
 ## --text--
 

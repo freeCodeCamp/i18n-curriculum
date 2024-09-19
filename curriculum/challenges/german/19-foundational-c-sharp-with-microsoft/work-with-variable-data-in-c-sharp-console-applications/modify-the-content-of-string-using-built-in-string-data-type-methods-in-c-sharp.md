@@ -16,7 +16,7 @@ Diese Aufgabe wird teilweise auf der Microsoft Learn-Plattform gelöst. Folge di
 
 Schließe das Modul <a href="https://learn.microsoft.com/training/modules/csharp-modify-content/" target="_blank" rel="noreferrer">Den Inhalt von Strings mit eingebauten String-Datentyp-Methoden in C# ändern</a> auf Microsoft Learn ab. Beantworte dann die Frage unten.
 
-# --question--
+# --questions--
 
 ## --text--
 

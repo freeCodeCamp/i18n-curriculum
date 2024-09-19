@@ -16,7 +16,7 @@ dashedName: create-c-sharp-methods-that-return-values
 
 Microsoft Learn で <a href="https://learn.microsoft.com/training/modules/create-c-sharp-methods-return-values/" target="_blank" rel="noreferrer">値を返す C# メソッドを作成する</a> モジュールを完了させてください。 次に、下記の質問に回答してください。
 
-# --question--
+# --questions--
 
 ## --text--
 

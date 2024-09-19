@@ -24,7 +24,7 @@ Lembre-se de estudar os diagramas cuidadosamente.
 
 Adicione uma borda a cada elemento na página e veja como as caixas são traçadas.
 
-# --question--
+# --questions--
 
 ## --text--
 

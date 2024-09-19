@@ -9,7 +9,7 @@ dashedName: introduction-flexbox-lesson-d
 
 У вас є базове розуміння того, як працює flexbox. Яка головна роль гнучких предметів в макеті `flexbox`? Спробуйте відповісти на запитання нижче.
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -9,7 +9,7 @@ dashedName: learn-block-and-inline-lesson-c
 
 O padding (ou preenchimento) é usado para criar espaço ao redor do conteúdo de um elemento, dentro de qualquer borda definida. Com elementos inline, o padding adiciona espaço à esquerda, à direita, acima e abaixo do conteúdo. No entanto, é importante notar que, enquanto o padding afeta o espaço ao redor do conteúdo, ele não afeta o layout de outros elementos ao redor do elemento inline. Isso significa que o padding horizontal (esquerda e direita) é respeitado, mas o padding vertical (superior e inferior) não faz com que outros elementos se afastem.
 
-# --question--
+# --questions--
 
 ## --text--
 

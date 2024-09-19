@@ -16,7 +16,7 @@ Diese Aufgabe wird teilweise auf der Microsoft Learn-Plattform gelöst. Folge di
 
 Schließe das Modul <a href="https://learn.microsoft.com/training/modules/csharp-literals-variables/" target="_blank" rel="noreferrer">Speichern und Abrufen der Daten mit Literal- und Variablewerten in C#</a> auf Microsoft Learn ab. Beantworte dann die Frage unten.
 
-# --question--
+# --questions--
 
 ## --text--
 

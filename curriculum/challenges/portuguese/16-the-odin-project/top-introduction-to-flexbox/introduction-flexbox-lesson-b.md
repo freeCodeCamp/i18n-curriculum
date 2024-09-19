@@ -13,7 +13,7 @@ Um contêiner flex é qualquer elemento que possui `display: flex`. Um item flex
 
 <img src="https://cdn.freecodecamp.org/curriculum/odin-project/flex-box/flexbox-01.png" style="width: 95%; height: 95%;" alt="Um retângulo externo representando um contêiner flex abrangendo três retângulos internos menores alinhados lado a lado, cada um representando um item flex." />
 
-# --question--
+# --questions--
 
 ## --text--
 

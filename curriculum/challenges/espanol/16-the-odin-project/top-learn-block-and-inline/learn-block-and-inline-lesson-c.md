@@ -9,7 +9,7 @@ dashedName: learn-block-and-inline-lesson-c
 
 El relleno se utiliza para crear espacio alrededor del contenido de un elemento, dentro de cualquier borde definido. Con los elementos en línea, el relleno agrega espacio a la izquierda, derecha, arriba y abajo del contenido. Sin embargo, es importante observar que aunque el relleno afecta el espacio alrededor del contenido, no afecta el diseño de otros elementos alrededor del elemento en línea. Esto significa que el relleno horizontal (izquierda y derecha) se respeta, pero el relleno vertical (arriba y abajo) no hace que otros elementos se alejen.
 
-# --question--
+# --questions--
 
 ## --text--
 

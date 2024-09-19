@@ -13,7 +13,7 @@ En el siguiente ejemplo, la abreviatura `flex` tiene valores para `flex-shrink` 
 
 <iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="300" width="100%" name="cp_embed_1" scrolling="no" src="https://codepen.io/TheOdinProjectExamples/embed/YzQqvgK?height=300&amp;default-tab=html%2Cresult&amp;slug-hash=YzQqvgK&amp;editable=true&amp;user=TheOdinProjectExamples&amp;name=cp_embed_1" style="width: 100%; overflow:hidden; display:block;" title="Inserción de CodePen" loading="lazy" id="cp_embed_YzQqvgK"></iframe>
 
-# --question--
+# --questions--
 
 ## --text--
 
@@ -33,7 +33,7 @@ El div específico crecerá hasta ser el doble del tamaño de los otros.
 
 ---
 
-All divs will shrink equally to adjust to the new `flex` values.
+Todos los divs se encogerán igualmente para ajustarse a los nuevos valores de `flex`.
 
 ## --video-solution--
 

@@ -11,7 +11,7 @@ Ler e entender mensagens de erro é um requisito como desenvolvedor. À primeira
 
 No entanto, as mensagens de erro fornecem aos desenvolvedores um tesouro de conhecimento e informam tudo que você precisa saber sobre como resolvê-las! Ser capaz de interpretar mensagens de erro e avisos sem medo permitirá que você depure efetivamente suas aplicações, receba ajuda significativa de outros e se fortaleça para seguir em frente quando enfrentar um erro.
 
-# --question--
+# --questions--
 
 ## --text--
 

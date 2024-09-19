@@ -44,7 +44,7 @@ Nossos seletores `.read` e `.unread` compartilham as declarações `color: white
 
 Os dois exemplos acima (com e sem agrupamento) terão o mesmo resultado, mas o segundo exemplo reduz a repetição de declarações e torna mais fácil editar `color` ou `background-color` para as duas classes de uma vez.
 
-# --question--
+# --questions--
 
 ## --text--
 

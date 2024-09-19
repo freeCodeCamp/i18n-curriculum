@@ -16,7 +16,7 @@ Diese Aufgabe wird teilweise auf der Microsoft Learn-Plattform gelöst. Folge di
 
 Complete the <a href="https://learn.microsoft.com/training/modules/guided-project-debug-handle-exceptions-c-sharp-console-application/" target="_blank" rel="noreferrer">Debug and Handle Exceptions in a C# Console Application Using Visual Studio Code</a> guided project on Microsoft Learn. Beantworte dann die Frage unten.
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -17,7 +17,7 @@ Um exemplo de um array é:
 const fruits = ['apple', 'banana', 'orange'];
 ```
 
-# --question--
+# --questions--
 
 ## --text--
 

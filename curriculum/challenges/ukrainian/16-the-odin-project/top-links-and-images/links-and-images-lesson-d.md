@@ -89,7 +89,7 @@ dashedName: links-and-images-lesson-d
 
 Перегляньте відео Кевіна Павелла про структуру файлів у HTML (розміщене вище).
 
-# --question--
+# --questions--
 
 ## --text--
 

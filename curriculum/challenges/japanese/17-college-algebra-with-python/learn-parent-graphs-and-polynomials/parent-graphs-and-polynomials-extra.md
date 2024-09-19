@@ -12,7 +12,7 @@ dashedName: parent-graphs-and-polynomials-extra
 
 この動画と合わせて<a href="https://colab.research.google.com/drive/1bspkmQVcKOXUuk-Orb0Mwl0GUGbqMpka?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">こちらの Colab ノートブック</a>も利用してください。
 
-# --question--
+# --questions--
 
 ## --text--
 

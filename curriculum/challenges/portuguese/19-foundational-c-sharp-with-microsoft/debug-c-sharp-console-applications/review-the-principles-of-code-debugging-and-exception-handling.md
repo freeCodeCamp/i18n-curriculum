@@ -16,7 +16,7 @@ Este desafio será parcialmente concluído na plataforma Microsoft Learn. Siga e
 
 Complete o módulo <a href="https://learn.microsoft.com/training/modules/review-principles-code-debugging-exception-handling-c-sharp/" target="_blank" rel="noreferrer">Revise os princípios de depuração de código e tratamento de exceções</a> no Microsoft Learn. Em seguida, responda a pergunta abaixo.
 
-# --question--
+# --questions--
 
 ## --text--
 

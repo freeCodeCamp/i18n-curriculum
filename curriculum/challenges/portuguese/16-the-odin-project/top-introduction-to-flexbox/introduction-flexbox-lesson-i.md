@@ -17,7 +17,7 @@ O exemplo acima corrigiu isso especificando `flex: 1 1 auto`, dizendo aos itens 
 
 Outro detalhe a ser observado: quando você alterou a `flex-direction` para `column`, `flex-basis` refere-se a `height` em vez de `width`. Dado o contexto, isso pode ser óbvio, mas é algo a se ter em mente.
 
-# --question--
+# --questions--
 
 ## --text--
 

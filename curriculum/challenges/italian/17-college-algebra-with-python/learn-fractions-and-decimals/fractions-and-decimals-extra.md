@@ -20,7 +20,7 @@ Aggiungi il codice per fattorizzare e risolvere per una variabile al tuo noteboo
 
 Esegui il seguente notebook per fare <a href="https://colab.research.google.com/drive/1qON4GYbMkaZJA7MYd7-RcDROOkuuBJg9?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">pratica a convertire frazioni e decimali.</a> Inoltre, guarda il codice usato per generare i problemi di pratica.
 
-# --question--
+# --questions--
 
 ## --text--
 

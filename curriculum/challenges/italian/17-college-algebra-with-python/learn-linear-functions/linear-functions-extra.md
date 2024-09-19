@@ -12,7 +12,7 @@ Questo video ti darà una visione più approfondita nello sviluppo di equazioni 
 
 Ecco il <a href="https://colab.research.google.com/drive/1OzC7gqCNWNzwv50ziNeG2IJhbXm88-XK?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">notebook Colab usato in questo video.</a>
 
-# --question--
+# --questions--
 
 ## --text--
 

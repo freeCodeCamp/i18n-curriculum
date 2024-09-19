@@ -15,7 +15,7 @@ Uma declaração de CSS mais específica terá precedência sobre as declaraçõ
 
 A especificidade só será levada em conta quando um elemento tiver declarações múltiplas e conflitantes que o tenham como alvo, uma espécie de critério de desempate. Um seletor de ID sempre vencerá qualquer número de seletores de classe, um seletor de classe sempre vencerá qualquer número de seletores de tipo e um seletor de tipo sempre vencerá qualquer número de algo menos específico que ele. Quando nenhuma declaração tem um seletor com uma especificidade superior, uma quantidade maior de um único seletor vencerá uma quantidade menor desse mesmo seletor.
 
-# --question--
+# --questions--
 
 ## --text--
 

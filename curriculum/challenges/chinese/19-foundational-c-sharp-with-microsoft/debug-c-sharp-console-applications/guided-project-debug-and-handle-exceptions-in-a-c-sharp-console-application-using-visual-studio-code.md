@@ -16,7 +16,7 @@ dashedName: guided-project-debug-and-handle-exceptions-in-a-c-sharp-console-appl
 
 在 Microsoft Learn 上完成<a href="https://learn.microsoft.com/training/modules/guided-project-debug-handle-exceptions-c-sharp-console-application/" target="_blank" rel="noreferrer">使用 Visual Studio Code 调试和处理 C# 控制台应用程序中的异常</a>的引导项目。 然后，回答下面的问题。
 
-# --question--
+# --questions--
 
 ## --text--
 

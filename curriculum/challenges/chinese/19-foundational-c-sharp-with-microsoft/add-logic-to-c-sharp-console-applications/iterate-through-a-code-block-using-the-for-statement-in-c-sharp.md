@@ -16,7 +16,7 @@ dashedName: iterate-through-a-code-block-using-the-for-statement-in-c-sharp
 
 在 Microsoft Learn 上完成 <a href="https://learn.microsoft.com/training/modules/csharp-for/" target="_blank" rel="noreferrer">在 C# 中使用 for 语句遍历代码块</a> 模块。 然后，回答下面的问题。
 
-# --question--
+# --questions--
 
 ## --text--
 

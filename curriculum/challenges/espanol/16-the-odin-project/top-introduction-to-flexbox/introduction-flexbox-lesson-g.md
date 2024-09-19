@@ -17,7 +17,7 @@ Aquí hay un ejemplo. Si reduces la ventana de tu navegador, notarás que `.two`
 
 Una implicación importante a notar aquí es que cuando especificas `flex-grow` o `flex-shrink`, los elementos flex no necesariamente respetan tus valores dados para `width`. En el ejemplo anterior, a los 3 divs se les da un `width` de `250px`, pero cuando su contenedor principal es lo suficientemente grande, crecen para llenarlo. Asimismo, cuando el contenedor principal es demasiado pequeño, el comportamiento predeterminado es que se reduzcan para caber. Esto no es un error, pero podría ser un comportamiento confuso si no lo esperas.
 
-# --question--
+# --questions--
 
 ## --text--
 

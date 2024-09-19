@@ -33,7 +33,7 @@ Aqui está uma parte da tabela de precedência (você não precisa lembrar disso
 
 
 
-# --question--
+# --questions--
 
 ## --text--
 

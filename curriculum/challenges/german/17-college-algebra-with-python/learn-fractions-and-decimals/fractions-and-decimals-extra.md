@@ -20,7 +20,7 @@ Füge den Code zum Faktorisieren und Lösen für eine Variable in dein Algebra-C
 
 Führe den Code im folgenden Notizbuch aus, um <a href="https://colab.research.google.com/drive/1qON4GYbMkaZJA7MYd7-RcDROOkuuBJg9?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">die Umrechnung von Brüchen und Dezimalzahlen zu üben.</a> Zusätzlich kannst du dir den Code ansehen, der zur Erstellung der Übungsaufgaben verwendet wurde.
 
-# --question--
+# --questions--
 
 ## --text--
 

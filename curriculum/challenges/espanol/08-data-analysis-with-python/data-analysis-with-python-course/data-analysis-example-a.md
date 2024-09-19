@@ -19,7 +19,7 @@ Más recursos:
 -  <a href="https://github.com/ine-rmotr-curriculum/FreeCodeCamp-Pandas-Real-Life-Example" target="_blank" rel="noopener noreferrer nofollow">Libros de notas en GitHub</a>
 -  <a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb" target="_blank" rel="noopener noreferrer nofollow">Cómo abrir libros de notas desde GitHub usando Google Colab.</a>
 
-# --question--
+# --questions--
 
 ## --text--
 

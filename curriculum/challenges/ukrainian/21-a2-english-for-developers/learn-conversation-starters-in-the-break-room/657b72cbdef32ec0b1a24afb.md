@@ -11,7 +11,7 @@ dashedName: task-29
 
 Можна виокремити два види гітар: `electric` та `acoustic`. Для `electric guitars` зазвичай потрібен підсилювач, щоб звук був гучнішим. Для `acoustic guitars` не потрібне додаткове обладнання.
 
-# --question--
+# --questions--
 
 ## --text--
 

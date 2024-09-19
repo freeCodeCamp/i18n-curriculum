@@ -16,7 +16,7 @@ dashedName: challenge-project-debug-a-c-sharp-console-application-using-visual-s
 
 在 Microsoft Learn 上完成<a href="https://learn.microsoft.com/training/modules/challenge-project-debug-c-sharp-console-application/" target="_blank" rel="noreferrer">挑战项目 - 使用 Visual Studio Code 调试 C# 控制台应用程序</a>的挑战项目。 然后，回答下面的问题。
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -10,7 +10,7 @@ dashedName: simple-and-compound-interest-extra
 
 Dieses Video macht einen Bogen um den Python-Code und zeigt dir, wie du in Google Sheets Amortisationstabellen für Hypothekenzahlungen erstellen kannst. Du wirst auch erfahren, wie du mit einer sehr ähnlichen Methode die Rendite von Rentenkonten schätzen kannst. Dieses Video zeigt dir, wohin dein Geld fließt.
 
-# --question--
+# --questions--
 
 ## --text--
 

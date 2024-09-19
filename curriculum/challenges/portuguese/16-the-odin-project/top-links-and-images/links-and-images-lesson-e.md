@@ -75,7 +75,7 @@ O atributo `alt` é usado para descrever uma imagem. Ele será usado no lugar da
 
 Assista ao vídeo de Kevin Powell sobre imagens do HTML acima.
 
-# --question--
+# --questions--
 
 ## --text--
 

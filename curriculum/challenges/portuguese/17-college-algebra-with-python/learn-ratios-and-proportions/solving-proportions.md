@@ -16,7 +16,7 @@ Aqui está o <a href="https://colab.research.google.com/drive/1Q7nCcbrnoYttkwiHB
 
 Adicione o código do vídeo ao notebook do Colaboratory de álgebra que você criou no primeiro passo.
 
-# --question--
+# --questions--
 
 ## --text--
 

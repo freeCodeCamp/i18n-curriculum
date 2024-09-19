@@ -16,7 +16,7 @@ dashedName: control-variable-scope-and-logic-using-code-blocks-in-c-sharp
 
 在 Microsoft Learn 上完成 <a href="https://learn.microsoft.com/training/modules/csharp-code-blocks/" target="_blank" rel="noreferrer">在 C# 中使用代码块控制变量作用域和逻辑</a> 模块。 然后，回答下面的问题。
 
-# --question--
+# --questions--
 
 ## --text--
 

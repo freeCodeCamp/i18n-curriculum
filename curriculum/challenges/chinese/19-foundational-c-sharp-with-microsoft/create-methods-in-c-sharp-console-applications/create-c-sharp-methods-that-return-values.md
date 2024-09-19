@@ -16,7 +16,7 @@ dashedName: create-c-sharp-methods-that-return-values
 
 在 Microsoft Learn 上完成 <a href="https://learn.microsoft.com/training/modules/create-c-sharp-methods-return-values/" target="_blank" rel="noreferrer">创建有返回值的 C# 方法</a> 模块。 然后，回答下面的问题。
 
-# --question--
+# --questions--
 
 ## --text--
 

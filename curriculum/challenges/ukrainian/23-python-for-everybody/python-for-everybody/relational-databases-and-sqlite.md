@@ -20,7 +20,7 @@ dashedName: relational-databases-and-sqlite
 
 \- <a href="https://www.sqlite.org/famous.html" target="_blank" rel="noopener noreferrer nofollow">Використання SQLite</a>
 
-# --question--
+# --questions--
 
 ## --text--
 

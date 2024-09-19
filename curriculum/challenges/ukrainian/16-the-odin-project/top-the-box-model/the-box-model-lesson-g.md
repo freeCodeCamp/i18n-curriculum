@@ -24,7 +24,7 @@ dashedName: the-box-model-lesson-g
 
 Додайте кордон до кожного елемента на сторінці та подивіться, як розміщені блоки.
 
-# --question--
+# --questions--
 
 ## --text--
 

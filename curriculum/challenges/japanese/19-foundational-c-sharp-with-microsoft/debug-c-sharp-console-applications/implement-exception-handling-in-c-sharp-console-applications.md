@@ -16,7 +16,7 @@ dashedName: implement-exception-handling-in-c-sharp-console-applications
 
 Microsoft Learn で「<a href="https://learn.microsoft.com/training/modules/implement-exception-handling-c-sharp/" target="_blank" rel="noreferrer">C# コンソール アプリケーションで例外処理を実装する</a>」モジュールを完了してください。 次に、下記の質問に回答してください。
 
-# --question--
+# --questions--
 
 ## --text--
 

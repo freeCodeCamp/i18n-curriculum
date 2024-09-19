@@ -12,7 +12,7 @@ dashedName: linear-functions-extra
 
 <a href="https://colab.research.google.com/drive/1OzC7gqCNWNzwv50ziNeG2IJhbXm88-XK?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">この動画で使用している Colab ノートブックはこちら</a>です。
 
-# --question--
+# --questions--
 
 ## --text--
 

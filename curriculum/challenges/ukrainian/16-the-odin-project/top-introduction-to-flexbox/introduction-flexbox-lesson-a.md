@@ -33,7 +33,7 @@ dashedName: introduction-flexbox-lesson-a
 
 > Якщо важко побачити зміни в невеликому вбудованому CodePen, натисніть на кнопку «Edit on CodePen» або «Fork on CodePen». Це покаже приклад у повноекранному середовищі. Це особливо знадобиться для деяких наступних прикладів.
 
-# --question--
+# --questions--
 
 ## --text--
 

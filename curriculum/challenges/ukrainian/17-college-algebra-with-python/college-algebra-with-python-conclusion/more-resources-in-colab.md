@@ -10,7 +10,7 @@ dashedName: more-resources-in-colab
 
 Ще одне... Це коротке відео повідомить про деякі ресурси, доступні у блокнотах Google Colab.
 
-# --question--
+# --questions--
 
 ## --text--
 

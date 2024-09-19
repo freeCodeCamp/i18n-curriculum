@@ -9,7 +9,7 @@ dashedName: the-box-model-lesson-m
 
 Como o conceito do modelo de caixas é incrivelmente fundamental, vamos nos aprofundar um pouco com <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#what_is_the_css_box_model" target="_blank">esta lição do MDN</a>. Ela trata do mesmo material que o vídeo acima e apresentará caixas em linha, das quais trataremos na próxima lição. Preste muita atenção aos exemplos e reserve um tempo para experimentar com o editor no navegador!
 
-# --question--
+# --questions--
 
 ## --text--
 

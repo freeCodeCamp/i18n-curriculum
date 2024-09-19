@@ -12,7 +12,7 @@ dashedName: solving-systems-of-equations-extra
 
 Ось <a href="https://colab.research.google.com/drive/1a_RtRtVfeO0m2528T4V-bCXozWf3HpM7?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">блокнот Colab для цього відео.</a> Це приклад того, яким повинен бути ваш блокнот наразі, оскільки у вас вже є декілька функцій та ви створили пару заголовків.
 
-# --question--
+# --questions--
 
 ## --text--
 

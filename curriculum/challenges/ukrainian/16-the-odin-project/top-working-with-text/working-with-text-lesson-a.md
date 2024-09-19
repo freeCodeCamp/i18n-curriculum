@@ -36,7 +36,7 @@ dashedName: working-with-text-lesson-a
 
 Перегляньте відео Кевіна Павелла про абзаци та заголовки у HTML (розміщене вище).
 
-# --question--
+# --questions--
 
 ## --text--
 

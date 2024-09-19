@@ -20,7 +20,7 @@ dashedName: fractions-and-decimals-extra
 
 在下面的笔记本中运行代码以<a href="https://colab.research.google.com/drive/1qON4GYbMkaZJA7MYd7-RcDROOkuuBJg9?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">练习转换分数和小数</a>。作为奖励，看看用来产生练习问题的代码。
 
-# --question--
+# --questions--
 
 ## --text--
 

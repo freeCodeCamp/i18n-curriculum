@@ -16,7 +16,7 @@ dashedName: create-c-sharp-methods-that-return-values
 
 Виконайте модуль <a href="https://learn.microsoft.com/training/modules/create-c-sharp-methods-return-values/" target="_blank" rel="noreferrer">«Створіть методи C#, які повертають значення»</a> на Microsoft Learn. Потім дайте відповідь на запитання нижче.
 
-# --question--
+# --questions--
 
 ## --text--
 

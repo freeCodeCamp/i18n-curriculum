@@ -16,7 +16,7 @@ Diese Aufgabe wird teilweise auf der Microsoft Learn-Plattform gelöst. Folge di
 
 Complete the <a href="https://learn.microsoft.com/training/modules/challenge-project-develop-branching-looping-structures-c-sharp/" target="_blank" rel="noreferrer">Develop Branching and Looping Structures in C#</a> challenge project on Microsoft Learn. Beantworte dann die Frage unten.
 
-# --question--
+# --questions--
 
 ## --text--
 

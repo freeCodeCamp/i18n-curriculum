@@ -16,7 +16,7 @@ More resources:
 
 <a href="https://www.youtube.com/watch?v=-9TfJF2dwHI" target="_blank" rel="noopener noreferrer nofollow">تمرين</a>
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -16,7 +16,7 @@ Aqui está o <a href="https://colab.research.google.com/drive/1dgeEEODP7cwm_96_J
 
 Adicione o código para converter frações e números decimais ao seu notebook do Colaboratory de álgebra.
 
-# --question--
+# --questions--
 
 ## --text--
 

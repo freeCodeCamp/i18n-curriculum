@@ -16,7 +16,7 @@ dashedName: challenge-project-develop-branching-and-looping-structures-in-c-shar
 
 Виконайте проєкт завдання <a href="https://learn.microsoft.com/training/modules/challenge-project-develop-branching-looping-structures-c-sharp/" target="_blank" rel="noreferrer">«Розробіть гілкові та циклові структури в C#»</a> на Microsoft Learn. Потім дайте відповідь на запитання нижче.
 
-# --question--
+# --questions--
 
 ## --text--
 

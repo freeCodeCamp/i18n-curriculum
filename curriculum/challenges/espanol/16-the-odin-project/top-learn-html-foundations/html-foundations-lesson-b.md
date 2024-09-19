@@ -15,7 +15,7 @@ HTML tiene una amplia lista de etiquetas predefinidas que puedes usar para crear
 
 Usar los elementos correctos para el contenido se llama HTML semántico. Explorarás esto con mucho más detalle más adelante en el currículo.
 
-# --question--
+# --questions--
 
 ## --text--
 

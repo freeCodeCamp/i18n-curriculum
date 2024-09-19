@@ -10,7 +10,7 @@ dashedName: spreadsheets-and-additional-resources
 
 数学と Python の知識を外部データに結びつける方法を見てみましょう。 この動画では、他のソースからデータを取得して変換し、グラフ表示して解釈できるようにする方法を説明します。
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -16,7 +16,7 @@ dashedName: challenge-project-work-with-variable-data-in-c-sharp
 
 Виконайте проєкт завдання <a href="https://learn.microsoft.com/training/modules/challenge-project-work-variable-data-c-sharp/" target="_blank" rel="noreferrer">«Попрацюйте з даними змінних в C#»</a> на Microsoft Learn. Потім дайте відповідь на запитання нижче.
 
-# --question--
+# --questions--
 
 ## --text--
 

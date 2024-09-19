@@ -16,7 +16,7 @@ dashedName: challenge-project-develop-foreach-and-if-elseif-else-structures-to-p
 
 Виконайте проєкт завдання <a href="https://learn.microsoft.com/training/modules/challenge-project-arrays-iteration-selection/" target="_blank" rel="noreferrer">«Розробіть структури foreach та if-elseif-else, щоб обробити дані масиву в C#»</a> на Microsoft Learn. Потім дайте відповідь на запитання нижче.
 
-# --question--
+# --questions--
 
 ## --text--
 

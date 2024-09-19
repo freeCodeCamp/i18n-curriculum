@@ -1,13 +1,13 @@
 ---
 id: 6489cb0b82cf2e4f86f03ae3
-title: The Cascade of CSS Lesson C
+title: La cascada de CSS lección C
 challengeType: 15
 dashedName: the-cascade-of-css-lesson-c
 ---
 
 # --description--
 
-Let’s take a look at a few quick examples to visualize how specificity works. Consider the following HTML and CSS code:
+Echemos un vistazo a algunos ejemplos rápidos para visualizar cómo funciona la especificidad. Considera el siguiente código HTML y CSS:
 
 ```html
 <!-- index.html -->
@@ -29,29 +29,29 @@ Let’s take a look at a few quick examples to visualize how specificity works. 
 }
 ```
 
-In the example above, both rules are using only class selectors, but rule 2 is more specific because it is using more class selectors.
+En el ejemplo anterior, ambas reglas están usando solo selectores de clase, pero la regla 2 es más específica porque está usando más selectores de clase.
 
-# --question--
+# --questions--
 
 ## --text--
 
-Based on the given HTML and CSS code, which color would the `<div class="list subsection"></div>` element be rendered as?
+Basado en el código HTML y CSS dado, ¿de qué color sería renderizado el elemento `<div class="list subsection"></div>`?
 
 ## --answers--
 
-blue
+azul
 
 ---
 
-red
+rojo
 
 ---
 
-purple
+morado
 
 ---
 
-black
+negro
 
 ## --video-solution--
 

@@ -36,7 +36,7 @@ Ao mudar nosso exemplo de antes para usar elementos dos parágrafos, corrigimos 
 
 Assista o vídeo de Kevin Powell sobre Parágrafos e títulos do HTML acima.
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -19,7 +19,7 @@ console.log(greeting);
 
 <a href="https://www.freecodecamp.org/news/javascript-string-handbook" target="_blank"> Посилання на інструкцію </a>
 
-# --question--
+# --questions--
 
 ## --text--
 

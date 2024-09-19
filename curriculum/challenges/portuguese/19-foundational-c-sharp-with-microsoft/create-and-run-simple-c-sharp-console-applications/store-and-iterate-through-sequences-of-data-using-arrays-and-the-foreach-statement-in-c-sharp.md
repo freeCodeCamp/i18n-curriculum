@@ -16,7 +16,7 @@ Este desafio será parcialmente concluído na plataforma Microsoft Learn. Siga e
 
 Complete o módulo <a href="https://learn.microsoft.com/training/modules/csharp-arrays/" target="_blank" rel="noreferrer">Armazene e percorra sequências de dados usando arrays e a instrução `foreach` em C#</a> no Microsoft Learn. Em seguida, responda a pergunta abaixo.
 
-# --question--
+# --questions--
 
 ## --text--
 

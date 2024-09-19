@@ -16,7 +16,7 @@ Ecco il <a href="https://colab.research.google.com/drive/1UJ1w-XFTuCfK6FI3H2GT0l
 
 Aggiungi il codice al notebook Colab per tracciare una funzione dai punti o dall'input dell'equazione.
 
-# --question--
+# --questions--
 
 ## --text--
 

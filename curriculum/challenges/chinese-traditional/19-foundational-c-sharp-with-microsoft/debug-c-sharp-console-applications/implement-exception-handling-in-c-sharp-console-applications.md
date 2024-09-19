@@ -16,7 +16,7 @@ dashedName: implement-exception-handling-in-c-sharp-console-applications
 
 在 Microsoft Learn 上完成 <a href="https://learn.microsoft.com/training/modules/implement-exception-handling-c-sharp/" target="_blank" rel="noreferrer">在 C# 控制檯應用程序中實現異常處理</a> 模塊。 然後，回答下面的問題。
 
-# --question--
+# --questions--
 
 ## --text--
 

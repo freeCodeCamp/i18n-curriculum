@@ -16,7 +16,7 @@ dashedName: guided-project-calculate-and-print-student-grades
 
 Виконайте керований проєкт <a href="https://learn.microsoft.com/training/modules/guided-project-calculate-print-student-grades/" target="_blank" rel="noreferrer">«Розрахунок та друк оцінок студента»</a> на Microsoft Learn. Потім дайте відповідь на запитання нижче.
 
-# --question--
+# --questions--
 
 ## --text--
 

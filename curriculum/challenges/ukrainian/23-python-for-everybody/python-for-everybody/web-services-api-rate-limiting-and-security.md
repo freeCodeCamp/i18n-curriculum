@@ -22,7 +22,7 @@ dashedName: web-services-api-rate-limiting-and-security
 
 \- <a href="https://www.youtube.com/watch?v=AopYOlDa-vY" target="_blank" rel="noopener noreferrer nofollow">Вправа: XML</a>
 
-# --question--
+# --questions--
 
 ## --text--
 

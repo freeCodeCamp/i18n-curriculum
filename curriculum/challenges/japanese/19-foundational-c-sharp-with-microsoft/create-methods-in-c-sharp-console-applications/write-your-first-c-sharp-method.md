@@ -16,7 +16,7 @@ dashedName: write-your-first-c-sharp-method
 
 Microsoft Learn で <a href="https://learn.microsoft.com/training/modules/write-first-c-sharp-method/" target="_blank" rel="noreferrer">初めての C# メソッドを記述する</a> モジュールを完了させてください。 次に、下記の質問に回答してください。
 
-# --question--
+# --questions--
 
 ## --text--
 

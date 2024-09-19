@@ -42,7 +42,7 @@ dashedName: working-with-text-lesson-h
 
 Зробіть впорядкований список з п’яти улюблених відеоігор або фільмів.
 
-# --question--
+# --questions--
 
 ## --text--
 

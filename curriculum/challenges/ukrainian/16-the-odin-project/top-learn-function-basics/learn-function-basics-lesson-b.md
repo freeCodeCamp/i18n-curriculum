@@ -25,7 +25,7 @@ console.log(favoriteAnimal('Goat'));
 
 Зверніть увагу: якщо викликати `favoriteAnimal()` в межах `console.log()` з аргументом `'Goat'`, то ви отримаєте повернене значення функції — надрукований рядок `"Goat is my favorite animal!"` на консолі. Аргумент `favoriteAnimal('Goat')` передається до виклику функції в іншому виклику функції — `log()`.
 
-# --question--
+# --questions--
 
 ## --text--
 

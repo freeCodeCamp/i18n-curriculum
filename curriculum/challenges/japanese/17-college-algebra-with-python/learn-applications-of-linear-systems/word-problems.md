@@ -24,7 +24,7 @@ dashedName: word-problems
 
 『Algebra and Trigonometry』の 304 ページ、308 ページ、321 ページにある問題を解いてください。
 
-# --question--
+# --questions--
 
 ## --text--
 

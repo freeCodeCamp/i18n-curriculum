@@ -1,23 +1,23 @@
 ---
 id: 637f700b72c65bc8e73dfe2f
-title: Links and Images Lesson H
+title: Enlaces e imágenes lección H
 challengeType: 15
 dashedName: links-and-images-lesson-h
 ---
 
 # --description--
 
-Websites would be fairly boring if they could only display text. Luckily HTML provides a wide variety of elements for displaying all sorts of different media. The most widely used of these is the image element.
+Los sitios web serían bastante aburridos si solo pudieran mostrar texto. Afortunadamente, HTML ofrece una amplia variedad de elementos para mostrar todo tipo de medios diferentes. El más utilizado de ellos es el elemento de imagen.
 
-To display an image in HTML you use the `<img>` element. Unlike the other elements you have encountered, the `<img>` element is self-closing. Empty, self-closing HTML elements do not need a closing tag.
+Para mostrar una imagen en HTML, utiliza el elemento `<img>`. A diferencia de los otros elementos que has encontrado, el elemento `<img>` es auto-cerrado. Los elementos HTML vacíos y auto-cerrados no necesitan una etiqueta de cierre.
 
-Instead of wrapping content with an opening and closing tag, it embeds an image into the page using a `src` attribute which tells the browser where the image file is located. The `src` attribute works much like the `href` attribute for anchor tags. It can embed an image using both absolute and relative paths.
+En lugar de envolver el contenido con una etiqueta de apertura y cierre, inserta una imagen en la página usando un atributo `src` que le dice al navegador dónde se encuentra el archivo de imagen. El atributo `src` funciona de manera muy similar al atributo `href` para las etiquetas de ancla. Puede insertar una imagen usando tanto rutas absolutas como relativas.
 
-For example, using an absolute path you can display an image located on The Odin Project site:
+Por ejemplo, usando una ruta absoluta puedes mostrar una imagen ubicada en el sitio de The Odin Project:
 
-<iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="300" width="100%" name="cp_embed_1" scrolling="no" src="https://codepen.io/TheOdinProjectExamples/embed/gORbExZ?height=300&amp;theme-id=dark&amp;default-tab=html%2Cresult&amp;slug-hash=gORbExZ&amp;user=TheOdinProjectExamples&amp;name=cp_embed_1" style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy" id="cp_embed_gORbExZ"></iframe>
+<iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="300" width="100%" name="cp_embed_1" scrolling="no" src="https://codepen.io/TheOdinProjectExamples/embed/gORbExZ?height=300&amp;theme-id=dark&amp;default-tab=html%2Cresult&amp;slug-hash=gORbExZ&amp;user=TheOdinProjectExamples&amp;name=cp_embed_1" style="width: 100%; overflow:hidden; display:block;" title="Código Pen insertar" loading="lazy" id="cp_embed_gORbExZ"></iframe>
 
-To use images that you have on your own websites, you can use a relative path.
+Para usar imágenes que tienes en tus propios sitios web, puedes usar una ruta relativa.
 
 - Create a new directory named `images` within the `odin-links-and-images` project.
 
@@ -68,13 +68,13 @@ Besides the `src` attribute, every image element should also have an `alt` (alte
 The `alt` attribute is used to describe an image. It will be used in place of the image if it cannot be loaded. It is also used with screen readers to describe what the image is to visually impaired users.
 
 This is how the The Odin Project logo example you used earlier looks with an alt attribute included:
-<iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="300" width="100%" name="cp_embed_2" scrolling="no" src="https://codepen.io/TheOdinProjectExamples/embed/ExXjoEp?height=300&amp;theme-id=dark&amp;default-tab=html%2Cresult&amp;slug-hash=ExXjoEp&amp;user=TheOdinProjectExamples&amp;name=cp_embed_2" style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy" id="cp_embed_ExXjoEp"></iframe>
+<iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="300" width="100%" name="cp_embed_2" scrolling="no" src="https://codepen.io/TheOdinProjectExamples/embed/ExXjoEp?height=300&amp;theme-id=dark&amp;default-tab=html%2Cresult&amp;slug-hash=ExXjoEp&amp;user=TheOdinProjectExamples&amp;name=cp_embed_2" style="width: 100%; overflow:hidden; display:block;" title="Insertar CodePen" loading="lazy" id="cp_embed_ExXjoEp"></iframe>
 
 # --assignment--
 
 Read about the <a href="https://www.freecodecamp.org/news/image-file-types-picture-format-extensions-jpeg-gif-png-svg-tiff/" target="_blank">four main image formats</a> that can be used on the web.
 
-# --question--
+# --questions--
 
 ## --text--
 

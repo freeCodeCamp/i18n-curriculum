@@ -27,7 +27,7 @@ Strings declaradas usando aspas simples e strings declaradas usando aspas duplas
 
 Há muitas maneiras de se manipular strings em JavaScript. Passe pelos pontos 8 a 12 do nosso <a href="https://www.freecodecamp.org/news/javascript-string-handbook/" target="_blank">JavaScript String Handbook</a>
 
-# --question--
+# --questions--
 
 ## --text--
 

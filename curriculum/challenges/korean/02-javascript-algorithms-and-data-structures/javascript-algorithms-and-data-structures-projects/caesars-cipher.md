@@ -1,6 +1,6 @@
 ---
 id: 56533eb9ac21ba0edf2244e2
-title: Caesars Cipher
+title: 시저 암호
 challengeType: 5
 forumTopicId: 16003
 dashedName: caesars-cipher
@@ -8,35 +8,35 @@ dashedName: caesars-cipher
 
 # --description--
 
-One of the simplest and most widely known <dfn>ciphers</dfn> is a <dfn>Caesar cipher</dfn>, also known as a <dfn>shift cipher</dfn>. In a shift cipher the meanings of the letters are shifted by some set amount.
+가장 간단하고 널리 알려진 <dfn>암호</dfn> 중 하나인 <dfn>시저 암호</dfn>는 <dfn>이동 암호</dfn>라고도 알려져 있습니다. 이동 암호에서는 문자의 의미가 일정량만큼 이동 됩니다.
 
-A common modern use is the <a href="https://www.freecodecamp.org/news/how-to-code-the-caesar-cipher-an-introduction-to-basic-encryption-3bf77b4e19f7/" target="_blank" rel="noopener noreferrer nofollow">ROT13</a> cipher, where the values of the letters are shifted by 13 places. Thus `A ↔ N`, `B ↔ O` and so on.
+현대의 일반적인 사용 예로는 <a href="https://www.freecodecamp.org/news/how-to-code-the-caesar-cipher-an-introduction-to-basic-encryption-3bf77b4e19f7/" target="_blank" rel="noopener noreferrer nofollow">ROT13</a> 암호가 있으며, 여기서는 문자의 값이 13자리 이동 됩니다. 따라서 `A ↔ N`, `B ↔ O` 등으로 변환됩니다.
 
-Write a function which takes a <a href="https://www.freecodecamp.org/news/how-to-code-the-caesar-cipher-an-introduction-to-basic-encryption-3bf77b4e19f7/" target="_blank" rel="noopener noreferrer nofollow">ROT13</a> encoded string as input and returns a decoded string.
+<a href="https://www.freecodecamp.org/news/how-to-code-the-caesar-cipher-an-introduction-to-basic-encryption-3bf77b4e19f7/" target="_blank" rel="noopener noreferrer nofollow">ROT13</a> 인코딩된 문자열을 입력값으로 받아 디코드 된 문자열을 반환하는 함수를 작성하세요.
 
-All letters will be uppercase. Do not transform any non-alphabetic character (i.e. spaces, punctuation), but do pass them on.
+모든 문자는 대문자로 변환됩니다. 비알파벳 문자(즉, 공백, 구두점)는 변형하지 않고 그대로 전달합니다.
 
 # --hints--
 
-`rot13("SERR PBQR PNZC")` should decode to the string `FREE CODE CAMP`
+`rot13("SERR PBQR PNZC")`는 문자열 `FREE CODE CAMP`로 디코드 되어야 합니다.
 
 ```js
 assert(rot13('SERR PBQR PNZC') === 'FREE CODE CAMP');
 ```
 
-`rot13("SERR CVMMN!")` should decode to the string `FREE PIZZA!`
+`rot13("SERR CVMMN!")`는 문자열 `FREE PIZZA!`로 디코드 되어야 합니다.
 
 ```js
 assert(rot13('SERR CVMMN!') === 'FREE PIZZA!');
 ```
 
-`rot13("SERR YBIR?")` should decode to the string `FREE LOVE?`
+`rot13("SERR YBIR?")`는 문자열 `FREE LOVE?`로 디코드 되어야 합니다.
 
 ```js
 assert(rot13('SERR YBIR?') === 'FREE LOVE?');
 ```
 
-`rot13("GUR DHVPX OEBJA SBK WHZCF BIRE GUR YNML QBT.")` should decode to the string `THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.`
+`rot13("GUR DHVPX OEBJA SBK WHZCF BIRE GUR YNML QBT.")`는 문자열 `THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.`로 디코드 되어야 합니다.
 
 ```js
 assert(

@@ -16,7 +16,7 @@ Diese Aufgabe wird teilweise auf der Microsoft Learn-Plattform gelöst. Folge di
 
 Schließe das Modul <a href="https://learn.microsoft.com/training/modules/review-principles-code-debugging-exception-handling-c-sharp/" target="_blank" rel="noreferrer">Überprüfung der Grundsätze der Code-Fehlersuche und der Behandlung von Ausnahmen</a> auf Microsoft Learn ab. Beantworte dann die Frage unten.
 
-# --question--
+# --questions--
 
 ## --text--
 

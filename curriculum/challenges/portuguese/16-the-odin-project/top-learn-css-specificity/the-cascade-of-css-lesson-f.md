@@ -36,7 +36,7 @@ Este exemplo mostra a mesma coisa. Mesmo que a regra 2 esteja usando um combinad
 
 *Observação:* nem tudo adiciona especificidade. Ao comparar seletores, você pode encontrar símbolos especiais para o seletor universal (`*`), bem como os combinadores (`+`, `~`, `>` e o espaço vazio). Esses símbolos não adicionam nenhuma especificidade por eles mesmos.
 
-# --question--
+# --questions--
 
 ## --text--
 

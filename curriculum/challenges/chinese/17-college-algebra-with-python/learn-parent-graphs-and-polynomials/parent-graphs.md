@@ -12,7 +12,7 @@ dashedName: parent-graphs
 
 这是<a href="https://colab.research.google.com/drive/1uwKuaHCC2WCUFKmXW-5NqWUlEP9ak7Pz?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">和这个视频配套的 Colab 笔记本</a>。
 
-# --question--
+# --questions--
 
 ## --text--
 

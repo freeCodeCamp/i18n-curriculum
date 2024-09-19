@@ -16,7 +16,7 @@ dashedName: guided-project-develop-conditional-branching-and-looping-structures-
 
 Виконайте керований проєкт <a href="https://learn.microsoft.com/training/modules/guided-project-develop-conditional-branching-looping/" target="_blank" rel="noreferrer">«Розробіть умовні гілкові та циклові структури в C#»</a> на Microsoft Learn. Потім дайте відповідь на запитання нижче.
 
-# --question--
+# --questions--
 
 ## --text--
 

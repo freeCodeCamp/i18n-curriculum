@@ -45,7 +45,7 @@ Vale a pena notar que você pode usar tags de âncora para vincular qualquer tip
 
 Assista ao vídeo de Kevin Powell sobre links do HTML acima.
 
-# --question--
+# --questions--
 
 ## --text--
 

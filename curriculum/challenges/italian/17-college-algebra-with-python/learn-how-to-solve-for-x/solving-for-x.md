@@ -16,7 +16,7 @@ Ecco il <a href="https://colab.research.google.com/drive/11Zi77gs1FKoEqfPqYa2HtT
 
 Aggiungi il codice per risolvere per x dal video al tuo notebook Colab.
 
-# --question--
+# --questions--
 
 ## --text--
 

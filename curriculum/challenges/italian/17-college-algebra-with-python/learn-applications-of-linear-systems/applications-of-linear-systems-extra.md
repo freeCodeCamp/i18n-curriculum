@@ -10,7 +10,7 @@ dashedName: applications-of-linear-systems-extra
 
 Il prossimo video contiene altri esempi di come impostare le equazioni e utilizzare il tuo notebook Colab per risolverle.
 
-# --question--
+# --questions--
 
 ## --text--
 

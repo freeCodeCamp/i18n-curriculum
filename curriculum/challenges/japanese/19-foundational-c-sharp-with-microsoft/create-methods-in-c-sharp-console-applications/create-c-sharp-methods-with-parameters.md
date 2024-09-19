@@ -16,7 +16,7 @@ dashedName: create-c-sharp-methods-with-parameters
 
 Microsoft Learn で「<a href="https://learn.microsoft.com/training/modules/create-c-sharp-methods-parameters/" target="_blank" rel="noreferrer">パラメーターを使用して C# メソッドを作成する</a>」モジュールを完了してください。 次に、下記の質問に回答してください。
 
-# --question--
+# --questions--
 
 ## --text--
 

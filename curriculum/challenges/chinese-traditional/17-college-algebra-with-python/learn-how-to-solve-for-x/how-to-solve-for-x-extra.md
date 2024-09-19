@@ -20,7 +20,7 @@ dashedName: how-to-solve-for-x-extra
 
 打開以下 Colab 筆記本，運行單元格，然後<a href="https://colab.research.google.com/drive/1XjmHoERFKcvol7FPidQE-wgdvR82HV45" target="_blank" rel="noopener noreferrer nofollow">練習解決一步和兩步的代數問題</a>。作爲獎勵，看看生成練習題的代碼。
 
-# --question--
+# --questions--
 
 ## --text--
 

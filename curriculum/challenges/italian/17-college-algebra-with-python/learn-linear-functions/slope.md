@@ -12,7 +12,7 @@ Questo primo video si concentra sulla pendenza di una retta (coefficiente angola
 
 Ecco il <a href="https://colab.research.google.com/drive/1UJ1w-XFTuCfK6FI3H2GT0lbxd2HO3tQ6?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">notebook Colab usato in questo e nei prossimi video.</a>
 
-# --question--
+# --questions--
 
 ## --text--
 

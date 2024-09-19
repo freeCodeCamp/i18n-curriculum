@@ -20,7 +20,7 @@ dashedName: demand-and-revenue
 
 完成《商业数学分步手册（2021）》第 155 和 163 页的问题。
 
-# --question--
+# --questions--
 
 ## --text--
 

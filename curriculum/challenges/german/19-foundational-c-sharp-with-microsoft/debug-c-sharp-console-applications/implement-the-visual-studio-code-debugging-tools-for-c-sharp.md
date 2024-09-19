@@ -16,7 +16,7 @@ Diese Aufgabe wird teilweise auf der Microsoft Learn-Plattform gelöst. Folge di
 
 Schließe das Modul <a href="https://learn.microsoft.com/training/modules/implement-visual-studio-code-debugging-tools/" target="_blank" rel="noreferrer">Implementierung der Visual Studio Code Debugging Tools für C#</a> auf Microsoft Learn ab. Beantworte dann die Frage unten.
 
-# --question--
+# --questions--
 
 ## --text--
 

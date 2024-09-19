@@ -24,7 +24,7 @@ Löse die Aufgaben auf den Seiten 63, 75, 85 und 118 aus dem Lehrbuch "Business 
 
 Löse die Aufgaben auf den Seiten 304, 308 und 321 aus dem Lehrbuch "Algebra and Trigonometry".
 
-# --question--
+# --questions--
 
 ## --text--
 

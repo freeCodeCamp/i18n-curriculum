@@ -16,7 +16,7 @@ Este desafio será parcialmente concluído na plataforma Microsoft Learn. Siga e
 
 Complete o projeto guiado <a href="https://learn.microsoft.com/training/modules/guided-project-visit-petting-zoo/" target="_blank" rel="noreferrer">Planeje uma visita ao minizoológico</a> no Microsoft Learn. Em seguida, responda a pergunta abaixo.
 
-# --question--
+# --questions--
 
 ## --text--
 

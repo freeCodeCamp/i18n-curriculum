@@ -16,7 +16,7 @@ dashedName: perform-basic-operations-on-numbers-in-c-sharp
 
 在 Microsoft Learn 上完成 <a href="https://learn.microsoft.com/training/modules/csharp-basic-operations/" target="_blank" rel="noreferrer">“在 C# 中執行數字的基本運算”</a> 模塊。 然後，回答下面的問題。
 
-# --question--
+# --questions--
 
 ## --text--
 

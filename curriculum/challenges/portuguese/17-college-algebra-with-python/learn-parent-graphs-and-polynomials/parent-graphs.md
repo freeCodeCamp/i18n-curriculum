@@ -12,7 +12,7 @@ Neste vídeo, você verá como são esses gráficos pais, como modificá-los e c
 
 Aqui está o <a href="https://colab.research.google.com/drive/1uwKuaHCC2WCUFKmXW-5NqWUlEP9ak7Pz?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">notebook do Colaboratory que acompanha este vídeo.</a>
 
-# --question--
+# --questions--
 
 ## --text--
 

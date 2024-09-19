@@ -10,7 +10,7 @@ dashedName: business-applications-of-college-algebra-extra
 
 この動画では、経済学への応用例をいくつか紹介し、グラフや式を作成します。
 
-# --question--
+# --questions--
 
 ## --text--
 

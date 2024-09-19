@@ -24,7 +24,7 @@ Você, provavelmente, usará o elemento `strong` muito mais em combinação com 
 
 Assista ao vídeo de Kevin Powell sobre Negrito e Itálico do HTML acima.
 
-# --question--
+# --questions--
 
 ## --text--
 

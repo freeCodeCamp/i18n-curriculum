@@ -21,7 +21,7 @@ console.log(newArray); // Output: [2, 4, 6, 8, 10]
 
 O método `map()` cria um array aplicando a função `(arrayValue) => { return arrayValue * 2;` para cada elemento do array original. Isso é particularmente útil quando você quer transformar os elementos de um array sem alterar o array original.
 
-# --question--
+# --questions--
 
 ## --text--
 

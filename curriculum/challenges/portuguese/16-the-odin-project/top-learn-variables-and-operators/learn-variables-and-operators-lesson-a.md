@@ -36,7 +36,7 @@ Outra maneira de incluir JavaScript em uma página da web é por meio de um scri
 
 Arquivos em JavaScript têm a extensão `.js`, semelhante a `.css` para folhas de estilo. Arquivos em JavaScript externos são usados para scripts mais complexos.
 
-# --question--
+# --questions--
 
 ## --text--
 

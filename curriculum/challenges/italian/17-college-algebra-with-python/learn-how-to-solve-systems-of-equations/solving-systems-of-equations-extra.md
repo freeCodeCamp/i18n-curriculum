@@ -12,7 +12,7 @@ Questo video ti mostrerà un modo per creare una calcolatrice che risolve e trac
 
 Ecco il <a href="https://colab.research.google.com/drive/1a_RtRtVfeO0m2528T4V-bCXozWf3HpM7?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">notebook Colab notebook usato in questo video.</a> Ti darà un esempio di come potrebbe essere il tuo notebook, con delle funzioni e delle intestazioni per le prossime funzioni.
 
-# --question--
+# --questions--
 
 ## --text--
 

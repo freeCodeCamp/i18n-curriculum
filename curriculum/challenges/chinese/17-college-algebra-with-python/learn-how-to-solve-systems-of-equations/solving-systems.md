@@ -16,7 +16,7 @@ dashedName: solving-systems
 
 在你的笔记本上添加代码，以求解方程组和绘制图像。
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -10,7 +10,7 @@ dashedName: simple-and-compound-interest-extra
 
 Ecco una deviazione dal codice Python, in quanto questo video mostra come creare tabelle di ammortamento dei pagamenti ipotecari in Google Sheets. Imparerai anche come utilizzare una configurazione molto simile per stimare i rendimenti degli investimenti del fondo pensione. Questo è il video che ti mostra dove stanno andando i tuoi soldi.
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -17,7 +17,7 @@ Aqui está um exemplo. Se você encolher a janela do navegador, perceberá que `
 
 Uma importante implicação que deve ser percebida aqui é o fato de que, quando você especifica `flex-grow` ou `flex-shrink`, os itens flexíveis não necessariamente respeitam seus valores dados para `width`. No exemplo acima, os 3 elementos div recebem uma `width` de `250px`, mas quando o pai é suficientemente grande, crescem para o preencher. Da mesma maneira, quando o contêiner pai é muito pequeno, o comportamento padrão é que eles encolham para caber. Isso não é um bug, mas pode ser um comportamento confuso se você não estiver esperando por isso.
 
-# --question--
+# --questions--
 
 ## --text--
 

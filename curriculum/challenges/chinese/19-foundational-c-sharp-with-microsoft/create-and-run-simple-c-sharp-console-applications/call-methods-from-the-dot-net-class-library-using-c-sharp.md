@@ -16,7 +16,7 @@ dashedName: call-methods-from-the-dot-net-class-library-using-c-sharp
 
 在 Microsoft Learn 上完成 <a href="https://learn.microsoft.com/training/modules/csharp-call-methods/" target="_blank" rel="noreferrer">使用 C# 从 .NET 类库调用方法</a> 模块。 然后，回答下面的问题。
 
-# --question--
+# --questions--
 
 ## --text--
 

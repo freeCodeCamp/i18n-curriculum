@@ -9,7 +9,7 @@ dashedName: learn-block-and-inline-lesson-j
 
 Agora que você tem um entendimento básico de como adicionar largura e altura a elementos `inline` funciona, o que acontece quando você adiciona um padding superior de 10 pixels a um elemento `span`?
 
-# --question--
+# --questions--
 
 ## --text--
 

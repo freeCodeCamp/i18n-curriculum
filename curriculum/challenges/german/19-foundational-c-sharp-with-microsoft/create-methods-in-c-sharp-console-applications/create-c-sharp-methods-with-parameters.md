@@ -16,7 +16,7 @@ Diese Aufgabe wird teilweise auf der Microsoft Learn-Plattform gelöst. Folge di
 
 Schließe das Modul <a href="https://learn.microsoft.com/training/modules/create-c-sharp-methods-parameters/" target="_blank" rel="noreferrer">Erstellen von C#-Methoden mit Parametern</a> auf Microsoft Learn ab. Beantworte dann die Frage unten.
 
-# --question--
+# --questions--
 
 ## --text--
 

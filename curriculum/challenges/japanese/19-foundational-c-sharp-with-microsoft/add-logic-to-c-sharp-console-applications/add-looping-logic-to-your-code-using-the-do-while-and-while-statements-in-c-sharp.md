@@ -16,7 +16,7 @@ dashedName: add-looping-logic-to-your-code-using-the-do-while-and-while-statemen
 
 Microsoft Learn で「<a href="https://learn.microsoft.com/training/modules/csharp-do-while/" target="_blank" rel="noreferrer">C# で `do`-`while` ステートメントと `while` ステートメントを使用して、ループ ロジックをコードに追加する</a>」モジュールを完了してください。 次に、下記の質問に回答してください。
 
-# --question--
+# --questions--
 
 ## --text--
 

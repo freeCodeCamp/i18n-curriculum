@@ -20,7 +20,7 @@ Aggiungi il codice per altri modi per risolvere per x dal video al tuo notebook 
 
 Apri il seguente notebook Colab, esegui la cella e <a href="https://colab.research.google.com/drive/1XjmHoERFKcvol7FPidQE-wgdvR82HV45" target="_blank" rel="noopener noreferrer nofollow">fai pratica a risolvere problemi di algebra in due passaggi.</a> Inoltre, guarda anche il codice che genera i problemi di pratica.
 
-# --question--
+# --questions--
 
 ## --text--
 

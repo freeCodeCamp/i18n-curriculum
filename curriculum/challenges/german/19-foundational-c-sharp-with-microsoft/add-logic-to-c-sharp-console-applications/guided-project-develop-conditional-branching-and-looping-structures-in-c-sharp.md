@@ -16,7 +16,7 @@ Diese Aufgabe wird teilweise auf der Microsoft Learn-Plattform gelöst. Folge di
 
 Complete the <a href="https://learn.microsoft.com/training/modules/guided-project-develop-conditional-branching-looping/" target="_blank" rel="noreferrer">Develop Conditional Branching and Looping Structures in C#</a> guided project on Microsoft Learn. Beantworte dann die Frage unten.
 
-# --question--
+# --questions--
 
 ## --text--
 

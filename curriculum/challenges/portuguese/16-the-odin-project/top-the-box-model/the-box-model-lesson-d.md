@@ -18,7 +18,7 @@ Quando um elemento é selecionado, a guia Estilos mostrará todos os estilos atu
 
 Divirta-se um pouco com as ferramentas de desenvolvimento do Chrome e veja se consegue responder à seguinte pergunta.
 
-# --question--
+# --questions--
 
 ## --text--
 

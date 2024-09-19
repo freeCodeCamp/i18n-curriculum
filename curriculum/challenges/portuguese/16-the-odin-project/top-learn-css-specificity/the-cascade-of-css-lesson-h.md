@@ -25,7 +25,7 @@ O fator final, o final da linha, o desempate dos desempates. Digamos que depois 
 
 Para um elemento que possui as classes `alert` e `warning`, a cascata passaria por todos os outros fatores, incluindo herança (não há nenhuma aqui) e especificidade (não há nenhuma regra mais específica do que a outra). Como a regra `.warning` foi a última definida, e como nenhum outro fator foi capaz de determinar qual regra aplicar, ela é a regra que será aplicada ao elemento.
 
-# --question--
+# --questions--
 ## --text--
 
 O que determina qual regra do CSS é aplicada quando há regras conflitantes que visam o mesmo elemento?

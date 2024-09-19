@@ -16,7 +16,7 @@ dashedName: guided-project-calculate-final-gpa
 
 Виконайте керований проєкт <a href="https://learn.microsoft.com/training/modules/guided-project-calculate-final-gpa/" target="_blank" rel="noreferrer">«Розрахунок GPA»</a> на Microsoft Learn. Потім дайте відповідь на запитання нижче.
 
-# --question--
+# --questions--
 
 ## --text--
 

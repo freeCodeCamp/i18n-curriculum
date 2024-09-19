@@ -16,7 +16,7 @@ Hier ist das <a href="https://colab.research.google.com/drive/1UYorWd9-Btf_ZQyA9
 
 Add code to your algebra Colab notebook for functions and graphing.
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -17,7 +17,7 @@ Criar e aninhar múltiplos contêineres flex e itens flex é a principal forma d
 
 Certamente, a imagem apresenta uma representação de um layout Flexbox CSS com contêineres flex aninhados. O contêiner externo é marcado como "ALSO a flex container" destacado em azul, e dentro dele há outro contêiner marcado como "with flex items" em vermelho. Dentro do contêiner vermelho, há três itens rotulados como "flex items" na cor pêssego. Isso demonstra que um contêiner flex pode ser aninhado dentro de outro contêiner flex e conter seus próprios itens flex, mostrando a natureza recursiva das estruturas de layout Flexbox.
 
-# --question--
+# --questions--
 
 ## --text--
 

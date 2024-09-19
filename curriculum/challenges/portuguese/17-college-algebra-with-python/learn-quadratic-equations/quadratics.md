@@ -12,7 +12,7 @@ Este vídeo mostra como resolver equações do segundo grau e explica os coefici
 
 Aqui está o <a href="https://colab.research.google.com/drive/1jr_k4awSSW1CBs9ma9oS_WnDblDjX3pc?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">notebook do Colaboratory que acompanha este vídeo.</a>
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -16,7 +16,7 @@ dashedName: perform-operations-on-arrays-using-helpers-methods-in-c-sharp
 
 Microsoft Learn で「<a href="https://learn.microsoft.com/training/modules/csharp-arrays-operations/" target="_blank" rel="noreferrer">C# でヘルパー メソッドを使用して配列の操作を実行する</a>」モジュールを完了してください。 次に、下記の質問に回答してください。
 
-# --question--
+# --questions--
 
 ## --text--
 

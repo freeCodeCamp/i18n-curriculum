@@ -16,7 +16,7 @@ Diese Aufgabe wird teilweise auf der Microsoft Learn Plattform erledigt. Folge d
 
 Schließe das Modul <a href="https://learn.microsoft.com/training/modules/csharp-basic-operations/" target="_blank" rel="noreferrer">Grundlegende Operationen mit Zahlen in C# durchführen</a> auf Microsoft Learn ab. Beantworte dann die Frage unten.
 
-# --question--
+# --questions--
 
 ## --text--
 

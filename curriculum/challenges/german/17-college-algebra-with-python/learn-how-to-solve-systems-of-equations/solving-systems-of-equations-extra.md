@@ -12,7 +12,7 @@ Dieses Video zeigt dir eine Möglichkeit, einen Rechner zu erstellen, der Aufgab
 
 Hier ist das <a href="https://colab.research.google.com/drive/1a_RtRtVfeO0m2528T4V-bCXozWf3HpM7?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">Colab-Notizbuch, das in diesem Video verwendet wird.</a> Dies gibt dir ein Beispiel dafür, wie dein Notizbuch bis jetzt aussehen könnte, da du dort einige Funktionen eingetragen hast und Überschriften für die nächsten Funktionen erstellst.
 
-# --question--
+# --questions--
 
 ## --text--
 

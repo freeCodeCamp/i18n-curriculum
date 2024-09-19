@@ -10,7 +10,7 @@ dashedName: spreadsheets-and-additional-resources
 
 Sehen wir uns an, wie du Mathematik- und Pythonkenntnisse mit externen Daten verbinden kannst. In diesem Video erfährst du, wie du Daten aus anderen Quellen abrufen und dann so umwandeln kannst, dass du sie grafisch darstellen und interpretieren kannst.
 
-# --question--
+# --questions--
 
 ## --text--
 

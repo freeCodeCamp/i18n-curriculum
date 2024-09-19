@@ -27,7 +27,7 @@ while (i <= 5) {
 
 O trecho de código acima inicializa uma variável `i` com o valor `1`. O laço `while` executa o bloco de código enquanto o valor de `i` for menor ou igual a `5`. O valor de `i` é incrementado em `1` em cada iteração.
 
-# --question--
+# --questions--
 
 ## --text--
 

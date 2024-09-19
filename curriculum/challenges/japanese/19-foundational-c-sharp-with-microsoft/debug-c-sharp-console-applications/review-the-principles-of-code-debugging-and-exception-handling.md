@@ -16,7 +16,7 @@ dashedName: review-the-principles-of-code-debugging-and-exception-handling
 
 Microsoft Learn で「<a href="https://learn.microsoft.com/training/modules/review-principles-code-debugging-exception-handling-c-sharp/" target="_blank" rel="noreferrer">コード デバッグと例外処理の原則を確認する</a>」モジュールを完了してください。 次に、下記の質問に回答してください。
 
-# --question--
+# --questions--
 
 ## --text--
 

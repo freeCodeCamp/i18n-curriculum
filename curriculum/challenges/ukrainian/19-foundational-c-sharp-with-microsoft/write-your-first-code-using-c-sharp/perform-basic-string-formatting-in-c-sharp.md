@@ -16,7 +16,7 @@ dashedName: perform-basic-string-formatting-in-c-sharp
 
 Виконайте модуль <a href="https://learn.microsoft.com/training/modules/csharp-basic-formatting/" target="_blank" rel="noreferrer">«Виконайте базове форматування рядків в C#»</a> на Microsoft Learn. Потім дайте відповідь на запитання нижче.
 
-# --question--
+# --questions--
 
 ## --text--
 

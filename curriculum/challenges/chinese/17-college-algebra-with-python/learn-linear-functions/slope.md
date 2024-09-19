@@ -12,7 +12,7 @@ dashedName: slope
 
 这是<a href="https://colab.research.google.com/drive/1UJ1w-XFTuCfK6FI3H2GT0lbxd2HO3tQ6?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">这个和下一个视频中用到的 Colab 笔记本</a>。
 
-# --question--
+# --questions--
 
 ## --text--
 

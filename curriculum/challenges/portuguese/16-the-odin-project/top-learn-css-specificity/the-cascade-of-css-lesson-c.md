@@ -31,7 +31,7 @@ Vamos dar uma olhada em alguns exemplos rápidos para visualizar como a especifi
 
 No exemplo acima, as duas regras estão usando apenas seletores de classe, mas a regra 2 é mais específica porque está usando mais seletores de classe.
 
-# --question--
+# --questions--
 
 ## --text--
 

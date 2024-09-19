@@ -19,7 +19,7 @@ let greeting = `Hello, my name is ${name} and I am ${age} years old.`;
 
 resultará na variável `greeting` com a string "Hello, my name is John and I am 25 years old."
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -16,7 +16,7 @@ dashedName: challenge-project-work-with-variable-data-in-c-sharp
 
 在 Microsoft Learn 上完成 <a href="https://learn.microsoft.com/training/modules/challenge-project-work-variable-data-c-sharp/" target="_blank" rel="noreferrer">在 C# 中使用变量数据</a> 的挑战项目。 然后，回答下面的问题。
 
-# --question--
+# --questions--
 
 ## --text--
 

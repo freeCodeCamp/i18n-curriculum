@@ -16,7 +16,7 @@ dashedName: implement-the-visual-studio-code-debugging-tools-for-c-sharp
 
 在 Microsoft Learn 上完成 <a href="https://learn.microsoft.com/training/modules/implement-visual-studio-code-debugging-tools/" target="_blank" rel="noreferrer">实现 C# 的 VS Code 调试工具</a> 模块。 然后，回答下面的问题。
 
-# --question--
+# --questions--
 
 ## --text--
 

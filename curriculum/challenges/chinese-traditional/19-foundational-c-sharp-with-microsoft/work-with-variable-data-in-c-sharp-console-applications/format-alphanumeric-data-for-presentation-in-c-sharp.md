@@ -16,7 +16,7 @@ dashedName: format-alphanumeric-data-for-presentation-in-c-sharp
 
 在 Microsoft Learn 上完成 <a href="https://learn.microsoft.com/training/modules/csharp-format-strings/" target="_blank" rel="noreferrer">在 C# 中格式化含字母和數字的數據以供展示</a> 模塊。 然後，回答下面的問題。
 
-# --question--
+# --questions--
 
 ## --text--
 

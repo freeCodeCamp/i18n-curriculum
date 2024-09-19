@@ -16,7 +16,7 @@ dashedName: create-readable-code-with-conventions-whitespace-and-comments-in-c-s
 
 在 Microsoft Learn 上完成 <a href="https://learn.microsoft.com/training/modules/csharp-readable-code/" target="_blank" rel="noreferrer">使用 C# 創建具有約定、空格和註釋的易讀代碼</a> 模塊。 然後，回答下面的問題。
 
-# --question--
+# --questions--
 
 ## --text--
 

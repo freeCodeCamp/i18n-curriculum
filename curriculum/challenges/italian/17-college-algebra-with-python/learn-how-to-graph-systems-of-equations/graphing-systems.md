@@ -16,7 +16,7 @@ Ecco il <a href="https://colab.research.google.com/drive/1N1JEZJctODxsntROnmg0Vq
 
 Aggiungi il codice dal video al notebook di algebra che stai costruendo e testalo con diverse funzioni.
 
-# --question--
+# --questions--
 
 ## --text--
 

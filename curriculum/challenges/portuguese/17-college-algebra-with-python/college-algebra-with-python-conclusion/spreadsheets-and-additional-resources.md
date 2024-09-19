@@ -10,7 +10,7 @@ dashedName: spreadsheets-and-additional-resources
 
 Vamos ver como você pode conectar seus conhecimentos matemáticos e de Python a dados externos. Este vídeo mostrará a você como obter dados de outras fontes e, depois, transformar esses dados para que você possa construir o gráfico e interpretá-los.
 
-# --question--
+# --questions--
 
 ## --text--
 

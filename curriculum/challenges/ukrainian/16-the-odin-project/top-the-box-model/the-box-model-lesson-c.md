@@ -18,7 +18,7 @@ dashedName: the-box-model-lesson-c
 
 Розгляньте інструменти веброзробника Chrome та дізнайтесь, чи зможете відповісти на запитання.
 
-# --question--
+# --questions--
 
 ## --text--
 

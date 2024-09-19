@@ -10,7 +10,7 @@ Agora que você entende a sintaxe básica do HTML e do CSS, vamos nos aprofundar
 
 Aprender a posicionar elementos em uma página da web não é tão difícil quando você entende apenas alguns conceitos-chave. Infelizmente, muitos alunos passam rapidamente pelo aprendizado de HTML e CSS para chegar ao JavaScript e acabam perdendo esses conceitos fundamentais. Isso leva à frustração, dor e a alguns gifs engraçados, pois todas as habilidades em JavaScript no mundo perdem o sentido se você não puder encaixar seus elementos na página onde você precisa que eles estejam. Tendo isso em mente, vamos começar.
 
-# --question--
+# --questions--
 
 ## --text--
 

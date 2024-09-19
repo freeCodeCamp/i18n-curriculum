@@ -15,7 +15,7 @@ Quando um elemento é selecionado, a guia Estilos mostrará todos os estilos apl
 
 <img src="https://cdn.freecodecamp.org/curriculum/odin-project/the-box-model/overwritten-style.png" alt="Trecho de código em CSS no console do desenvolvedor mostrando .hero_main-heading com margin-bottom: 100px, padding-bottom: 1.875rem e .accent color #ce973e aplicados. As regras de estilo de h1 incluem tamanho da fonte, peso, espaçamento das letras e margem inferior de 2rem sobrescrita." />
 
-# --question--
+# --questions--
 
 ## --text--
 

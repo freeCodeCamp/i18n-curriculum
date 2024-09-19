@@ -16,7 +16,7 @@ dashedName: functions-and-graphing-extra
 
 在你的代数 Colab 笔记本上添加代码，用于函数和图像。
 
-# --question--
+# --questions--
 
 ## --text--
 

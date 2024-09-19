@@ -17,7 +17,7 @@ No exemplo acima, se a condição for verdadeira, o valor de `result` será `val
 
 Os operadores ternários são frequentemente usados para atribuir um valor a uma variável com base em uma condição. Eles também são usados para retornar um valor com base em uma condição.
 
-# --question--
+# --questions--
 
 ## --text--
 

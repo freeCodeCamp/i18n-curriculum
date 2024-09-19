@@ -16,7 +16,7 @@ dashedName: converting-fractions-and-decimals
 
 Додайте код для перетворення дробів та десяткових чисел до свого блокнота Colab.
 
-# --question--
+# --questions--
 
 ## --text--
 

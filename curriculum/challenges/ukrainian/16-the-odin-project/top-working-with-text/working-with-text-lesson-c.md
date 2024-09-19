@@ -24,7 +24,7 @@ dashedName: working-with-text-lesson-c
 
 Перегляньте відео Кевіна Павелла про жирний шрифт та курсив у HTML (розміщене вище).
 
-# --question--
+# --questions--
 
 ## --text--
 

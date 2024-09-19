@@ -16,7 +16,7 @@ dashedName: add-looping-logic-to-your-code-using-the-do-while-and-while-statemen
 
 Виконайте модуль <a href="https://learn.microsoft.com/training/modules/csharp-do-while/" target="_blank" rel="noreferrer">«Додайте логіку циклу до свого коду, використовуючи інструкції do-while та while в C#»</a> на Microsoft Learn. Потім дайте відповідь на запитання нижче.
 
-# --question--
+# --questions--
 
 ## --text--
 

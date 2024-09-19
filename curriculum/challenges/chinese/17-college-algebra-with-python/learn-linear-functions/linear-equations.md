@@ -16,7 +16,7 @@ dashedName: linear-equations
 
 在你的代数 Colab 笔记本上添加代码，通过点或通过方程输入绘制函数图像。
 
-# --question--
+# --questions--
 
 ## --text--
 

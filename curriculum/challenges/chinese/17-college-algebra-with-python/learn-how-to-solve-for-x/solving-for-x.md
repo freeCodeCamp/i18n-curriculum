@@ -16,7 +16,7 @@ dashedName: solving-for-x
 
 将视频中求解 x 的方法的代码添加到你的代数 Colab 笔记本中。
 
-# --question--
+# --questions--
 
 ## --text--
 

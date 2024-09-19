@@ -16,7 +16,7 @@ Diese Aufgabe wird teilweise auf der Microsoft Learn-Plattform gelöst. Folge di
 
 Complete the <a href="https://learn.microsoft.com/training/modules/create-throw-exceptions-c-sharp/" target="_blank" rel="noreferrer">Create and Throw Exceptions in C# Console Applications</a> module on Microsoft Learn. Beantworte dann die Frage unten.
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -51,7 +51,7 @@ Em vez de um ponto, você usa uma hashtag imediatamente seguida do valor do atri
 
 A maior diferença entre classes e IDs é o fato de que um elemento pode ter apenas um `id`. Um `id` não pode ser repetido na mesma página. O atributo `id` também não deve conter espaços em branco.
 
-# --question--
+# --questions--
 
 ## --text--
 

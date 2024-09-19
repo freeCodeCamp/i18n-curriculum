@@ -16,7 +16,7 @@ Diese Aufgabe wird teilweise auf der Microsoft Learn-Plattform gelöst. Folge di
 
 Löse das Modul <a href="https://learn.microsoft.com/training/modules/csharp-arrays/" target="_blank" rel="noreferrer">Speichern und Wiederholen von Datenfolgen mithilfe von Arrays und der "Foreach"-Anweisung in C#</a> auf Microsoft Learn ab. Beantworte dann die Frage unten.
 
-# --question--
+# --questions--
 
 ## --text--
 

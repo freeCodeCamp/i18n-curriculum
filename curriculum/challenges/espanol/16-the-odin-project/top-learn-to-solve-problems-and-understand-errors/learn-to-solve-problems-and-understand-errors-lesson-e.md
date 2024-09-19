@@ -16,41 +16,41 @@ const b = "World";
 console.log(c);
 ```
 
-Este código se ejecutará, pero generará un error. In technical terms, this is called <dfn>throwing</dfn> an error. The first part of an error displays the type of error. This provides the first clue as to what you're dealing with. You'll learn more about the different error types later in the lesson. In this example, you have a `ReferenceError`.
+Este código se ejecutará, pero generará un error. En términos técnicos, esto se llama <dfn>lanzar</dfn> un error. La primera parte de un error muestra el tipo de error. Esto proporciona la primera pista sobre con qué estás lidiando. Aprenderás más sobre los diferentes tipos de error más tarde en la lección. En este ejemplo, tienes un `ReferenceError`.
 
-<img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/175b5ef2a1b4758a7b75f4ef43d7e27203e5707b/foundations/javascript_basics/understanding_errors/imgs/00.png" width="100%" alt="An error being displayed in the developer console" />
+<img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/175b5ef2a1b4758a7b75f4ef43d7e27203e5707b/foundations/javascript_basics/understanding_errors/imgs/00.png" width="100%" alt="Un error mostrado en la consola del desarrollador" />
 
-A `ReferenceError` is thrown when one refers to a variable that is not declared and/or initialized within the current scope. In our case, the error message explains that the error has occurred because `c is not defined`.
+Se lanza un `ReferenceError` cuando se refiere a una variable que no está declarada y/o inicializada dentro del ámbito actual. En nuestro caso, el mensaje de error explica que el error ha ocurrido porque `c is not defined`.
 
-Different errors of this type have different messages based on what is causing the `ReferenceError`. For example, another message you may run into is `ReferenceError: can't access lexical declaration 'X' before initialization`.
+Diferentes errores de este tipo tienen diferentes mensajes dependiendo de lo que esté causando el `ReferenceError`. Por ejemplo, otro mensaje con el que te puedes encontrar es `ReferenceError: can't access lexical declaration 'X' before initialization`.
 
-The next part of an error gives us the name of the file in which you can find the error (in this case, our `script.js`), and also the line number.
+La siguiente parte de un error nos da el nombre del archivo en el que puedes encontrar el error (en este caso, nuestro `script.js`), y también el número de línea.
 
-This allows you to easily navigate to the problematic line in your code. Here, the error originates from the fourth line of `script.js`, which is displayed as a link under the error message with the text at `script.js:4`. If you click this link, most browsers will navigate to the exact line of code and the rest of your script in the Sources tab of the Developer Tools.
+Esto te permite navegar fácilmente a la línea problemática en tu código. Aquí, el error se origina en la cuarta línea de `script.js`, que se muestra como un enlace debajo del mensaje de error con el texto en `script.js:4`. Si haces clic en este enlace, la mayoría de los navegadores navegarán a la línea exacta del código y el resto de tu script en la pestaña Fuentes de las Herramientas de Desarrollador.
 
-Sometimes your browser’s console will also display the column (or character) in the line at which the error is occurring. In our example, this would be at `script.js:4:13`.
+A veces, la consola de tu navegador también mostrará la columna (o carácter) en la línea donde está ocurriendo el error. En nuestro ejemplo, esto estaría en `script.js:4:13`.
 
-# --question--
+# --questions--
 
 ## --text--
 
-What does the `ReferenceError` in the provided JavaScript code indicate?
+¿Qué indica el `ReferenceError` en el código JavaScript proporcionado?
 
 ## --answers--
 
-The variable used has been declared but used incorrectly in its type.
+La variable utilizada ha sido declarada pero se ha usado incorrectamente en su tipo.
 
 ---
 
-The variable called in the code has not been declared within the current scope.
+La variable llamada en el código no ha sido declarada dentro del ámbito actual.
 
 ---
 
-The code has an issue with its syntax that prevents it from being parsed correctly.
+El código tiene un problema de sintaxis que impide que se analice correctamente.
 
 ---
 
-The variable used has been declared but not initialized within the current scope.
+La variable utilizada ha sido declarada pero no inicializada dentro del ámbito actual.
 
 
 ## --video-solution--

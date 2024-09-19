@@ -22,7 +22,7 @@ Si necesitas agregar un estilo único para un solo elemento, este método puede 
 
 It can quickly become pretty messy once you start adding a lot of declarations to a single element, causing your HTML file to become unnecessarily bloated. If you want many elements to have the same style, you would have to copy + paste the same style to each individual element, causing lots of unnecessary repetition and more bloat. Any inline CSS will override the other two methods, which can cause unexpected results. (While you won’t dive into it here, this can actually be taken advantage of).
 
-# --question--
+# --questions--
 
 ## --text--
 

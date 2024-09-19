@@ -22,7 +22,7 @@ dashedName: introduction-why-program
 
 \- <a href="https://youtu.be/wfLnZP-4sZw" target="_blank" rel="noopener noreferrer nofollow">Встановити Python на MacOS</a>
 
-# --question--
+# --questions--
 
 ## --text--
 

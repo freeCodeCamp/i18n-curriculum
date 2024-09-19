@@ -30,7 +30,7 @@ Isso permite que você navegue facilmente até a linha problemática no seu cód
 
 Às vezes, o console do seu navegador também exibirá a coluna (ou caractere) da linha onde o erro está ocorrendo. No nosso exemplo, isso seria em `script.js:4:13`.
 
-# --question--
+# --questions--
 
 ## --text--
 

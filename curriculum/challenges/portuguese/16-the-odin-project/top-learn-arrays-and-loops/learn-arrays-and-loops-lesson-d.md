@@ -30,7 +30,7 @@ console.log(newCharacters); // Output: ['Ron']
 
 O código acima cria um array `newCharacters` com o segundo elemento do array `characters`. O método `slice()` recebe dois argumentos: o índice do elemento para iniciar o corte e o índice do elemento para terminar o corte (não incluído).
 
-# --question--
+# --questions--
 
 ## --text--
 

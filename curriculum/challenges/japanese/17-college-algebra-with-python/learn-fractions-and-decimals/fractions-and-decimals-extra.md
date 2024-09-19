@@ -20,7 +20,7 @@ dashedName: fractions-and-decimals-extra
 
 次のノートブックのコードを実行して、<a href="https://colab.research.google.com/drive/1qON4GYbMkaZJA7MYd7-RcDROOkuuBJg9?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">分数と小数を変換する練習</a>をしてください。おまけとして、練習問題の生成に使用されているコードを見てみましょう。
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -16,7 +16,7 @@ dashedName: install-and-configure-visual-studio-code
 
 Виконайте модуль <a href="https://learn.microsoft.com/training/modules/install-configure-visual-studio-code/" target="_blank" rel="noreferrer">«Встановіть та налаштуйте Visual Studio Code»</a> на Microsoft Learn. Потім дайте відповідь на запитання нижче.
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -16,7 +16,7 @@ dashedName: write-your-first-c-sharp-method
 
 Виконайте модуль <a href="https://learn.microsoft.com/training/modules/write-first-c-sharp-method/" target="_blank" rel="noreferrer">«Напишіть свій перший метод C#»</a> на Microsoft Learn. Потім дайте відповідь на запитання нижче.
 
-# --question--
+# --questions--
 
 ## --text--
 

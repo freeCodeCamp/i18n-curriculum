@@ -9,7 +9,7 @@ dashedName: learn-block-and-inline-lesson-i
 
 Você não pode falar sobre elementos `block` e `inline` sem discutir `div`s e `span`s. Todos os outros elementos HTML que você encontrou até agora dão significado ao seu conteúdo. Por exemplo, elementos de parágrafo informam ao navegador para exibir o texto que contém como um parágrafo. Elementos strong informam ao navegador quais textos dentro deles são importantes e assim por diante. Ainda assim, `div`s e `span`s não dão nenhum significado particular ao seu conteúdo. Eles são apenas caixas genéricas que podem conter qualquer coisa.
 
-# --question--
+# --questions--
 
 ## --text--
 

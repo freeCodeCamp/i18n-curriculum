@@ -16,7 +16,7 @@ dashedName: functions
 
 小数を分数に変換する Python 関数を作成するコードを代数学用の Colab ノートブックに追加してください。
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -10,7 +10,7 @@ dashedName: applications-of-linear-systems-extra
 
 Im nächsten Video findest du weitere Beispiele, wie du Gleichungen aufstellen und mit deinem Colab-Notizbuch lösen kannst.
 
-# --question--
+# --questions--
 
 ## --text--
 

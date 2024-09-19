@@ -16,7 +16,7 @@ dashedName: create-c-sharp-methods-with-parameters
 
 在 Microsoft Learn 上完成 <a href="https://learn.microsoft.com/training/modules/create-c-sharp-methods-parameters/" target="_blank" rel="noreferrer">创建带参数的 C# 方法</a> 模块。 然后，回答下面的问题。
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -16,7 +16,7 @@ dashedName: evaluate-boolean-expressions-to-make-decisions-in-c-sharp
 
 Виконайте модуль <a href="https://learn.microsoft.com/training/modules/csharp-evaluate-boolean-expressions/" target="_blank" rel="noreferrer">«Оцініть булеві вирази, щоб прийняти рішення в C#»</a> на Microsoft Learn. Потім дайте відповідь на запитання нижче.
 
-# --question--
+# --questions--
 
 ## --text--
 

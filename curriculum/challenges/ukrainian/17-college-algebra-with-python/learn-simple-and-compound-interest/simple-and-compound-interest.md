@@ -14,7 +14,7 @@ dashedName: simple-and-compound-interest
 
 Ось додатковий <a href="https://colab.research.google.com/drive/1-HWYmzKn6HmEUWMBv7G525CpoQpm8TnN?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">блокнот Colab, який показує один зі способів додавання відсотків та формул розрахунку до функцій Python.</a> Ви також побачите приклад використання деяких формул для відображення результатів, спостереження за трендами та дотримання інших формул, щоб аналізувати закономірності.
 
-# --question--
+# --questions--
 
 ## --text--
 

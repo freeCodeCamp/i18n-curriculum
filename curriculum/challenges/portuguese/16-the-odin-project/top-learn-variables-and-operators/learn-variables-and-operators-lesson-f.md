@@ -52,7 +52,7 @@ console.log( 6 - '2' ); // 4, converts '2' to a number
 console.log( '6' / '2' ); // 3, converts both operands to numbers
 ```
 
-# --question--
+# --questions--
 
 ## --text--
 Considerando o comportamento do operador `+` com tipos de dados mistos em JavaScript, qual será a saída do seguinte trecho de código?

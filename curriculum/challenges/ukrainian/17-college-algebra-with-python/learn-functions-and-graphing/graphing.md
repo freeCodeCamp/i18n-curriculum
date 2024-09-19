@@ -20,7 +20,7 @@ dashedName: graphing
 
 Запустіть наступний код, щоб побачити <a href="https://colab.research.google.com/drive/1UYorWd9-Btf_ZQyA9YdUzxzKR8rnVrSV#scrollTo=yJiVB8wdHRxS" target="_blank" rel="noopener noreferrer nofollow">більше способів побудови графіків з використанням алгебри та Python.</a>
 
-# --question--
+# --questions--
 
 ## --text--
 

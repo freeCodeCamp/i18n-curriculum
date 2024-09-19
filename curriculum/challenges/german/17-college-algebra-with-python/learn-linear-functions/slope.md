@@ -12,7 +12,7 @@ In diesem ersten Video geht es um die Neigung einer Geraden und wie man sie bere
 
 Hier ist das <a href="https://colab.research.google.com/drive/1UJ1w-XFTuCfK6FI3H2GT0lbxd2HO3tQ6?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">Colab-Notizbuch, das in diesem und im nächsten Video verwendet wird.</a>
 
-# --question--
+# --questions--
 
 ## --text--
 

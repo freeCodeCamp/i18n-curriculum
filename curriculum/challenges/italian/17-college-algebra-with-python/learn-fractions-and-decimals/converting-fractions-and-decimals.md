@@ -16,7 +16,7 @@ Ecco il <a href="https://colab.research.google.com/drive/1dgeEEODP7cwm_96_Jqbjxx
 
 Aggiungi il codice per convertire frazioni e decimali al tuo notebook Colab.
 
-# --question--
+# --questions--
 
 ## --text--
 

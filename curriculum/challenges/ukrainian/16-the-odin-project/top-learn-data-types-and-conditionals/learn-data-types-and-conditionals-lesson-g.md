@@ -30,7 +30,7 @@ console.log(result); // false
 
 Прочитайте <a href="https://uk.javascript.info/comparison" target="_blank" rel="noopener noreferrer nofollow">цю статтю на JavaScript.info</a>, щоб дізнатись більше про оператори строгої рівності.
 
-# --question--
+# --questions--
 
 ## --text--
 

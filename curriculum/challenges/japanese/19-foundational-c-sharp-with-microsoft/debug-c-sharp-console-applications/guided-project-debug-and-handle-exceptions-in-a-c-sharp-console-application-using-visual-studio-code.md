@@ -16,7 +16,7 @@ dashedName: guided-project-debug-and-handle-exceptions-in-a-c-sharp-console-appl
 
 Microsoft Learn でガイド付きプロジェクト「<a href="https://learn.microsoft.com/training/modules/guided-project-debug-handle-exceptions-c-sharp-console-application/" target="_blank" rel="noreferrer">Visual Studio Code を使用した C# コンソール アプリケーションでの例外のデバッグと処理</a>」を完了してください。 次に、下記の質問に回答してください。
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -14,7 +14,7 @@ dashedName: core-learning-algorithms
 
 Las próximas videolecciones referenciarán [este cuaderno de Colab](https://colab.research.google.com/drive/15Cyy2H7nT40sGR7TBN5wBvgTd57mVKay#forceEdit=true&sandboxMode=true).
 
-# --question--
+# --questions--
 
 ## --text--
 

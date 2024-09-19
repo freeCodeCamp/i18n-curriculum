@@ -22,7 +22,7 @@ Um elemento de parágrafo completo terá esta aparência:
 
 Assista ao <a href="https://www.youtube.com/watch?v=LGQuIIv2RVA&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-" target="_blank">vídeo de introdução ao HTML</a> de Kevin Powell
 
-# --question--
+# --questions--
 
 ## --text--
 

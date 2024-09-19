@@ -16,7 +16,7 @@ dashedName: challenge-project-debug-a-c-sharp-console-application-using-visual-s
 
 Microsoft Learn でチャレンジプロジェクト「<a href="https://learn.microsoft.com/training/modules/challenge-project-debug-c-sharp-console-application/" target="_blank" rel="noreferrer">Visual Studio Code を使用して C# コンソール アプリケーションをデバッグする</a>」を完了してください。 次に、下記の質問に回答してください。
 
-# --question--
+# --questions--
 
 ## --text--
 

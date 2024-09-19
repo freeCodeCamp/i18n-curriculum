@@ -21,7 +21,7 @@ Em JavaScript, parâmetros são os itens listados entre os parênteses `()` na d
 
 No exemplo acima, a definição da função é escrita na primeira linha: `function favoriteAnimal(animal)`. O parâmetro, `animal`, é encontrado dentro dos parênteses. Você poderia facilmente substituir `animal` por `pet`, `x` ou `blah`. Neste caso, porém, nomear o parâmetro `animal` dá a alguém que está lendo o código um pouco de contexto, para que não precise adivinhar o que `animal` pode conter.
 
-# --question--
+# --questions--
 
 ## --text--
 

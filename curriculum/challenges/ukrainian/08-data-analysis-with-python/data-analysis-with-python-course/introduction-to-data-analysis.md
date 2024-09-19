@@ -17,7 +17,7 @@ dashedName: introduction-to-data-analysis
 
 \- <a href="https://www.freecodecamp.org/news/what-is-data-analysis/" rel="noopener noreferrer nofollow">Публікація</a>
 
-# --question--
+# --questions--
 
 ## --text--
 

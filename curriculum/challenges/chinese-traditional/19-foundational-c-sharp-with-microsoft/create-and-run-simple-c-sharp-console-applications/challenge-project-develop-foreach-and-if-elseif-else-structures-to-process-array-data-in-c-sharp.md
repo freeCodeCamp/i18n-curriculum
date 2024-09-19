@@ -16,7 +16,7 @@ dashedName: challenge-project-develop-foreach-and-if-elseif-else-structures-to-p
 
 在 Microsoft Learn 上完成 <a href="https://learn.microsoft.com/training/modules/challenge-project-arrays-iteration-selection/" target="_blank" rel="noreferrer">在 C# 中使用 foreach 和 if-elseif-else 結構來處理數組數據</a> 的挑戰項目。 然後，回答下面的問題。
 
-# --question--
+# --questions--
 
 ## --text--
 

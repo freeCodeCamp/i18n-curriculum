@@ -16,7 +16,7 @@ dashedName: install-and-configure-visual-studio-code
 
 Microsoft Learn で「<a href="https://learn.microsoft.com/training/modules/install-configure-visual-studio-code/" target="_blank" rel="noreferrer">Visual Studio Code をインストールして構成する</a>」モジュールを完了してください。 次に、下記の質問に回答してください。
 
-# --question--
+# --questions--
 
 ## --text--
 

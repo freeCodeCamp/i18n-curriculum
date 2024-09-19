@@ -13,7 +13,7 @@ dashedName: introduction-flexbox-lesson-b
 
 <img src="https://cdn.freecodecamp.org/curriculum/odin-project/flex-box/flexbox-01.png" style="width: 95%; height: 95%;" alt="Зовнішній прямокутник, що представляє гнучкий контейнер, який охоплює три менші внутрішні прямокутники, розташовані поруч, кожен з яких представляє гнучкий предмет." />
 
-# --question--
+# --questions--
 
 ## --text--
 

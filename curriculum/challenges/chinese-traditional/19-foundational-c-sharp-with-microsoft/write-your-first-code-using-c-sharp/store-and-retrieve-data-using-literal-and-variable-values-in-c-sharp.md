@@ -16,7 +16,7 @@ dashedName: store-and-retrieve-data-using-literal-and-variable-values-in-c-sharp
 
 在 Microsoft Learn 上完成 <a href="https://learn.microsoft.com/training/modules/csharp-literals-variables/" target="_blank" rel="noreferrer">“在 C# 中使用字面量和變量存儲和檢索數據”</a> 模塊。 然後，回答下面的問題。
 
-# --question--
+# --questions--
 
 ## --text--
 

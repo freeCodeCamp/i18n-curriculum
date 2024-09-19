@@ -16,7 +16,7 @@ Aqui está o <a href="https://colab.research.google.com/drive/11Zi77gs1FKoEqfPqY
 
 Adicione o código para resolver para x do vídeo ao seu notebook do Colaboratory de álgebra.
 
-# --question--
+# --questions--
 
 ## --text--
 

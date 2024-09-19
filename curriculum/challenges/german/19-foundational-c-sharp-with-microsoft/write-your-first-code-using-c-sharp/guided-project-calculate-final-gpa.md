@@ -16,7 +16,7 @@ Diese Aufgabe wird teilweise auf der Microsoft Learn-Plattform gelöst. Folge di
 
 Schließe das geführte Projekt zum <a href="https://learn.microsoft.com/training/modules/guided-project-calculate-final-gpa/" target="_blank" rel="noreferrer">Berechnen des entgültigen GPA</a> auf Microsoft Learn ab. Beantworte dann die Frage unten.
 
-# --question--
+# --questions--
 
 ## --text--
 

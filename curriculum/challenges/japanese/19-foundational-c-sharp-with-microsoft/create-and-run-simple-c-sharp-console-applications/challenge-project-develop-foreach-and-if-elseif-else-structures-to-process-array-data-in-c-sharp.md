@@ -16,7 +16,7 @@ dashedName: challenge-project-develop-foreach-and-if-elseif-else-structures-to-p
 
 Microsoft Learn でチャレンジプロジェクト「<a href="https://learn.microsoft.com/training/modules/challenge-project-arrays-iteration-selection/" target="_blank" rel="noreferrer">C# で配列データを処理するための `foreach` および `if`-`elseif`-`else` 構造を開発する</a>」を完了してください。 次に、下記の質問に回答してください。
 
-# --question--
+# --questions--
 
 ## --text--
 

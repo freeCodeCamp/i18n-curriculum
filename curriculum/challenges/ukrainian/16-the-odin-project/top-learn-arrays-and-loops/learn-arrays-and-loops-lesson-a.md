@@ -17,7 +17,7 @@ dashedName: learn-arrays-and-loops-lesson-a
 const fruits = ['apple', 'banana', 'orange'];
 ```
 
-# --question--
+# --questions--
 
 ## --text--
 

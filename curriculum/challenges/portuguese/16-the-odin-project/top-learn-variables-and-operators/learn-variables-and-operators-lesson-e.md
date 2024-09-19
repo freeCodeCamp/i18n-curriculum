@@ -23,7 +23,7 @@ Números são os blocos de construção da lógica de programação! Na verdade,
 
 Dada a tabela de operadores acima, escreva um trecho de programa simples que demonstre o uso de cada operador com a variável `x` inicializada como `10`.
 
-# --question--
+# --questions--
 
 ## --text--
 

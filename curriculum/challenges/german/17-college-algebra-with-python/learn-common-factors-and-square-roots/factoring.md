@@ -12,7 +12,7 @@ In diesem ersten Video wird gezeigt, wie man gemeinsame Faktoren findet und sie 
 
 Hier ist das <a href="https://colab.research.google.com/drive/1tB7N3QqHEbGk33v0BdTwZTVkS9ju9yn6?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">Colab-Notizbuch, das in diesem Video verwendet wird.</a>
 
-# --question--
+# --questions--
 
 ## --text--
 

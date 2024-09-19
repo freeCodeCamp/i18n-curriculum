@@ -16,7 +16,7 @@ dashedName: guided-project-work-with-variable-data-in-c-sharp
 
 Microsoft Learn でガイド付きプロジェクト「<a href="https://learn.microsoft.com/training/modules/guided-project-work-variable-data-c-sharp/" target="_blank" rel="noreferrer">C# で変数データを操作する</a>」を完了してください。 次に、下記の質問に回答してください。
 
-# --question--
+# --questions--
 
 ## --text--
 

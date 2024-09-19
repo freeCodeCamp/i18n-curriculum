@@ -16,7 +16,7 @@ dashedName: store-and-iterate-through-sequences-of-data-using-arrays-and-the-for
 
 在 Microsoft Learn 上完成 <a href="https://learn.microsoft.com/training/modules/csharp-arrays/" target="_blank" rel="noreferrer">使用 C# 中的数组和 foreach 语句来存储和循环访问数据序列</a> 模块。 然后，回答下面的问题。
 
-# --question--
+# --questions--
 
 ## --text--
 

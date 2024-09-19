@@ -25,7 +25,7 @@ Aqui está um diagrama para ajudar você a visualizar como os parâmetros são p
 
 Observe que ao chamar `favoriteAnimal()` dentro de `console.log()` com o argumento `'Goat'`, você obtém o valor de retorno da função, a string `"Goat is my favorite animal!"`, impresso no console. Você está passando uma chamada de função `favoriteAnimal('Goat')` como um argumento em uma chamada de função diferente - `log()`.
 
-# --question--
+# --questions--
 
 ## --text--
 

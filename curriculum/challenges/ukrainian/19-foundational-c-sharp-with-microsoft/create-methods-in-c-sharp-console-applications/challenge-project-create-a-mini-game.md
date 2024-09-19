@@ -16,7 +16,7 @@ dashedName: challenge-project-create-a-mini-game
 
 Виконайте проєкт завдання <a href="https://learn.microsoft.com/training/modules/challenge-project-create-mini-game/" target="_blank" rel="noreferrer">«Створіть міні гру»</a> на Microsoft Learn. Потім дайте відповідь на запитання нижче.
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -9,7 +9,7 @@ dashedName: learn-block-and-inline-lesson-f
 
 O conceito de “Fluxo normal” é implícito nos recursos do modelo de caixas, mas não é apresentado de modo muito específico. Leia <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Normal_Flow" target="_blank">Fluxo Normal</a> do MDN para garantir que você compreende como os elementos se dispõem por padrão.
 
-# --question--
+# --questions--
 
 ## --text--
 

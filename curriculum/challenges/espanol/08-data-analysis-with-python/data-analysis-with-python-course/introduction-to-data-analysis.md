@@ -17,7 +17,7 @@ Más recursos:
 
 \- <a href="https://www.freecodecamp.org/news/what-is-data-analysis/" rel="noopener noreferrer nofollow">Artículo de noticias</a>
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -16,7 +16,7 @@ dashedName: graphing-systems
 
 動画のコードを作成中の代数学用のノートブックに追加し、さまざまな関数でテストしてください。
 
-# --question--
+# --questions--
 
 ## --text--
 

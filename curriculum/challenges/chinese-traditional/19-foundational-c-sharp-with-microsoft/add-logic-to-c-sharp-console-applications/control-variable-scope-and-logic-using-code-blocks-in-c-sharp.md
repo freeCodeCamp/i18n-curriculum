@@ -16,7 +16,7 @@ dashedName: control-variable-scope-and-logic-using-code-blocks-in-c-sharp
 
 在 Microsoft Learn 上完成 <a href="https://learn.microsoft.com/training/modules/csharp-code-blocks/" target="_blank" rel="noreferrer">在 C# 中使用代碼塊控制變量作用域和邏輯</a> 模塊。 然後，回答下面的問題。
 
-# --question--
+# --questions--
 
 ## --text--
 

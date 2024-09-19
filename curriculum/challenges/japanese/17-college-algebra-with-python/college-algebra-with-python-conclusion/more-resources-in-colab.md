@@ -10,7 +10,7 @@ dashedName: more-resources-in-colab
 
 もう一つ、 この短い動画では、Google Colab ノートブックで利用できるリソースをいくつか紹介します。
 
-# --question--
+# --questions--
 
 ## --text--
 

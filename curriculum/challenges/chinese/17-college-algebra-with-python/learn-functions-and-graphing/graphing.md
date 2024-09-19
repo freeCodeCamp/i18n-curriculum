@@ -20,7 +20,7 @@ dashedName: graphing
 
 运行下面的笔记本看看<a href="https://colab.research.google.com/drive/1UYorWd9-Btf_ZQyA9YdUzxzKR8rnVrSV#scrollTo=yJiVB8wdHRxS" target="_blank" rel="noopener noreferrer nofollow">使用代数和 Python 创建图像的更多方法</a>。
 
-# --question--
+# --questions--
 
 ## --text--
 

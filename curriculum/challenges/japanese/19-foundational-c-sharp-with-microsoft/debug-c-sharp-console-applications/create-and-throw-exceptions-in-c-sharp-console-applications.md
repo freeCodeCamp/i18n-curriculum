@@ -16,7 +16,7 @@ dashedName: create-and-throw-exceptions-in-c-sharp-console-applications
 
 Microsoft Learn で「<a href="https://learn.microsoft.com/training/modules/create-throw-exceptions-c-sharp/" target="_blank" rel="noreferrer">C# コンソール アプリケーションで例外を作成してスローする</a>」モジュールを完了してください。 次に、下記の質問に回答してください。
 
-# --question--
+# --questions--
 
 ## --text--
 

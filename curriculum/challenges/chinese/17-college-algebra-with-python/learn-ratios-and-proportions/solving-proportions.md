@@ -16,7 +16,7 @@ dashedName: solving-proportions
 
 将视频中的代码添加到你在第一步创建的代数 Colab 笔记本中。
 
-# --question--
+# --questions--
 
 ## --text--
 

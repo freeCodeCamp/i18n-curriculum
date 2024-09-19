@@ -22,7 +22,7 @@ Se você precisar adicionar um estilo único para um único elemento, esse méto
 
 Pode se tornar um pouco confuso rapidamente quando você começar a adicionar diversas declarações a um único elemento, fazendo com que o seu arquivo HTML se torne desnecessariamente inchado. Se você quiser que muitos elementos tenham o mesmo estilo, você terá que copiar e colar o mesmo estilo para cada elemento individual, causando muitas repetições desnecessárias e mais inchaço. Qualquer CSS em linha sobrescreverá os outros dois métodos, o que pode causar resultados inesperados. (Embora não vejamos isso em detalhes aqui, é possível tirar vantagem desse método).
 
-# --question--
+# --questions--
 
 ## --text--
 

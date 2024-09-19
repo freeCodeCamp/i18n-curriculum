@@ -26,7 +26,7 @@ Print the value of the counter variable
 
 Прочитайте статтю <a href="https://builtin.com/data-science/pseudocode" target="_blank"> «Псевдокод: що це і як його написати»</a> від Built In (англійською мовою).
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -16,7 +16,7 @@ dashedName: challenge-project-create-a-mini-game
 
 Microsoft Learn でチャレンジプロジェクト「<a href="https://learn.microsoft.com/training/modules/challenge-project-create-mini-game/" target="_blank" rel="noreferrer">ミニゲームを作成する</a>」を完了させてください。 次に、下記の質問に回答してください。
 
-# --question--
+# --questions--
 
 ## --text--
 

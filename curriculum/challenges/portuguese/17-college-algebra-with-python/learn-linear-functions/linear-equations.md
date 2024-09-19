@@ -16,7 +16,7 @@ Aqui está o <a href="https://colab.research.google.com/drive/1UJ1w-XFTuCfK6FI3H
 
 Adicione código ao seu notebook do Colaboratory de álgebra para representar graficamente uma função a partir de pontos ou de entradas na equação.
 
-# --question--
+# --questions--
 
 ## --text--
 

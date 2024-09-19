@@ -27,7 +27,7 @@ let greeting3 = `with The Odin Project!`;
 
 Існує безліч способів маніпулювати рядками в JavaScript. Перегляньте пункти 8-12 <a href="https://www.freecodecamp.org/news/javascript-string-handbook/" target="_blank">нашого посібника з рядків JavaScript</a> (англійською мовою).
 
-# --question--
+# --questions--
 
 ## --text--
 

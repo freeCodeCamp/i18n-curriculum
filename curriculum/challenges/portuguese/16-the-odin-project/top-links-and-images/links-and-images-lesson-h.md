@@ -74,7 +74,7 @@ O atributo `alt` é usado para descrever uma imagem. Ele será usado no lugar da
 
 Leia sobre os <a href="https://www.freecodecamp.org/news/image-file-types-picture-format-extensions-jpeg-gif-png-svg-tiff/" target="_blank">quatro formatos principais de imagem</a> que podem ser usados na web.
 
-# --question--
+# --questions--
 
 ## --text--
 

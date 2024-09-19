@@ -16,7 +16,7 @@ dashedName: modify-the-content-of-string-using-built-in-string-data-type-methods
 
 Microsoft Learn で「<a href="https://learn.microsoft.com/training/modules/csharp-modify-content/" target="_blank" rel="noreferrer">C# で組み込みの文字列データ型メソッドを使用して、文字列の内容を変更する</a>」モジュールを完了してください。 次に、下記の質問に回答してください。
 
-# --question--
+# --questions--
 
 ## --text--
 

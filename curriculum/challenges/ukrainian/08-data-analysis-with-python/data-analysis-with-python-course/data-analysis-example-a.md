@@ -19,7 +19,7 @@ dashedName: data-analysis-example-a
 -  <a href="https://github.com/ine-rmotr-curriculum/FreeCodeCamp-Pandas-Real-Life-ample" target="_blank" rel="noopener noreferrer nofollow">Блокноти на GitHub</a>
 -  <a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb" target="_blank" rel="noopener noreferrer nofollow">Як відкрити блокноти з GitHub, використовуючи Google Colab.</a>
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -20,7 +20,7 @@ console.log(fruits[2]); // Output: orange
 Se o índice estiver fora do intervalo, o JavaScript retornará `undefined`. Isso significa que, se você tentar acessar `fruits[3]` no exemplo acima, ele retornará `undefined`.
 
 
-# --question--
+# --questions--
 
 ## --text--
 

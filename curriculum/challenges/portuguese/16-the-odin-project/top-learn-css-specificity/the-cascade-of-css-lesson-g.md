@@ -33,7 +33,7 @@ A exceção a isso é quando se tem um elemento como alvo diretamente, já que i
 
 Apesar do elemento `parent` (pai) ter uma especificidade maior com um ID, o elemento `child` (filho) terá o estilo `color: blue` aplicado, pois essa declaração o tem como alvo diretamente, enquanto o estilo `color: red` do pai é apenas herdado.
 
-# --question--
+# --questions--
 
 ## --text--
 

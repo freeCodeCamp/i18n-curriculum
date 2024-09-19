@@ -12,7 +12,7 @@ dashedName: factoring
 
 Ось <a href="https://colab.research.google.com/drive/1tB7N3QqHEbGk33v0BdTwZTVkS9ju9yn6?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">блокнот Colab для цього відео.</a>
 
-# --question--
+# --questions--
 
 ## --text--
 

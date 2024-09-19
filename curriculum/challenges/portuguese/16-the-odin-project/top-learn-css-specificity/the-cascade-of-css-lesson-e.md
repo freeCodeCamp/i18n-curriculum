@@ -24,7 +24,7 @@ Neste exemplo final, as duas regras estão usando seletores de ID e de classe. P
 
 Embora a declaração de `color: red` tenha precedência, a declaração de `background-color: yellow` ainda será aplicada, pois não há nenhuma declaração conflitante para ela.
 
-# --question--
+# --questions--
 
 ## --text--
 

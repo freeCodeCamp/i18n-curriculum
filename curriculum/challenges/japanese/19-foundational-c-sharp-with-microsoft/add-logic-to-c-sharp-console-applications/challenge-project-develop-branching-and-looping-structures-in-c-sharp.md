@@ -16,7 +16,7 @@ dashedName: challenge-project-develop-branching-and-looping-structures-in-c-shar
 
 Microsoft Learn でチャレンジプロジェクト「<a href="https://learn.microsoft.com/training/modules/challenge-project-develop-branching-looping-structures-c-sharp/" target="_blank" rel="noreferrer">C# で配列データを処理するための foreach および if-elseif-else 構造を開発する</a>」を完了してください。 次に、下記の質問に回答してください。
 
-# --question--
+# --questions--
 
 ## --text--
 

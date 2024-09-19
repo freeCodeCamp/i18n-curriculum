@@ -25,7 +25,7 @@ if (x > 3) {
 
 Neste exemplo, a variável `x` é comparada ao número `3` usando o operador `>`. Se `x` for maior que `3`, o primeiro bloco de código será executado. Caso contrário, o segundo bloco de código será executado.
 
-# --question--
+# --questions--
 
 ## --text--
 

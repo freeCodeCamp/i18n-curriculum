@@ -16,7 +16,7 @@ dashedName: evaluate-boolean-expressions-to-make-decisions-in-c-sharp
 
 Microsoft Learn で「<a href="https://learn.microsoft.com/training/modules/csharp-evaluate-boolean-expressions/" target="_blank" rel="noreferrer">C# でブール式を評価して決定を行う</a>」モジュールを完了してください。 次に、下記の質問に回答してください。
 
-# --question--
+# --questions--
 
 ## --text--
 

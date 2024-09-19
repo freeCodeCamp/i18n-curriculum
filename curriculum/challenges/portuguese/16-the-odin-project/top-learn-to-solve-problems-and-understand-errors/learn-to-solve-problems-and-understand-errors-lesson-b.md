@@ -26,9 +26,10 @@ Agora que você sabe o que está tentando resolver, não comece a programar aind
 A última pergunta é onde você escreverá um algoritmo para resolver o problema. Você pode pensar em um algoritmo como uma receita para resolver um determinado problema. Ele define as etapas que o computador precisa seguir para resolver um problema em pseudocódigo.
 
 # --assignment--
+
 Assista <a href="https://www.youtube.com/watch?v=azcrPFhaY9k" target="_blank">Como Começar a Pensar Como um Programador</a> pelo Coding Tech. Tem uma hora de duração, mas é repleto de informações e definitivamente vale a pena assistir.
 
-# --question--
+# --questions--
 
 ## --text--
 

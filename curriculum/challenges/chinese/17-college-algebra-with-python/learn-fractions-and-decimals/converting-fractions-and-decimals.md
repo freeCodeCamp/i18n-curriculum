@@ -16,7 +16,7 @@ dashedName: converting-fractions-and-decimals
 
 在你的代数 Colab 笔记本上添加转换分数和小数的代码。
 
-# --question--
+# --questions--
 
 ## --text--
 

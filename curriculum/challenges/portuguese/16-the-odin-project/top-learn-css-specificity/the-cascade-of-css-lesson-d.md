@@ -31,7 +31,7 @@ Agora, vamos mudar um pouco as coisas:
 
 No exemplo acima, apesar da regra 2 ter mais seletores de classe do que seletores de ID, a regra 1 é mais específica porque ID sempre vence a classe.
 
-# --question--
+# --questions--
 
 ## --text--
 

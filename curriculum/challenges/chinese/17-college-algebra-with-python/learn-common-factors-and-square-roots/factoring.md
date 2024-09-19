@@ -12,7 +12,7 @@ dashedName: factoring
 
 这是<a href="https://colab.research.google.com/drive/1tB7N3QqHEbGk33v0BdTwZTVkS9ju9yn6?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">这个视频中用到的 Colab 笔记本</a>。
 
-# --question--
+# --questions--
 
 ## --text--
 

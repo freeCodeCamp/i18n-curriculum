@@ -16,7 +16,7 @@ dashedName: guided-project-develop-foreach-and-if-elseif-else-structures-to-proc
 
 Виконайте керований проєкт <a href="https://learn.microsoft.com/training/modules/guided-project-arrays-iteration-selection/" target="_blank" rel="noreferrer">«Розробіть структури foreach та if-elseif-else, щоб обробити дані масиву в C#»</a> на Microsoft Learn. Потім дайте відповідь на запитання нижче.
 
-# --question--
+# --questions--
 
 ## --text--
 

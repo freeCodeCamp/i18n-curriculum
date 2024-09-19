@@ -23,7 +23,7 @@ Essa é a chave – `.push()` não é um método de String; é um método de Arr
 
 Uma boa observação a se ter em mente quando confrontado com um `TypeError` é considerar o tipo de dados ao qual você está tentando aplicar um método ou operação. Você provavelmente descobrirá que não é o que você pensa ou que a operação ou método não é compatível com esse tipo.
 
-# --question--
+# --questions--
 
 ## --text--
 

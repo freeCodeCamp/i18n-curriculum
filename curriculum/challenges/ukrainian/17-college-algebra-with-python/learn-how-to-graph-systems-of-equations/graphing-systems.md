@@ -16,7 +16,7 @@ dashedName: graphing-systems
 
 Додайте код з відео до свого блокнота та проведіть над ним тести з різними функціями.
 
-# --question--
+# --questions--
 
 ## --text--
 

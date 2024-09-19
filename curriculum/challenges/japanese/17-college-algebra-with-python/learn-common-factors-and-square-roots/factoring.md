@@ -12,7 +12,7 @@ dashedName: factoring
 
 <a href="https://colab.research.google.com/drive/1tB7N3QqHEbGk33v0BdTwZTVkS9ju9yn6?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">この動画で使用している Colab ノートブックはこちら</a>です。
 
-# --question--
+# --questions--
 
 ## --text--
 
