@@ -16,7 +16,7 @@ Ecco il <a href="https://colab.research.google.com/drive/1Q7nCcbrnoYttkwiHB_nQ-X
 
 Aggiungi il codice del video al notebook Colab che hai creato nel primo step.
 
-# --question--
+# --questions--
 
 ## --text--
 

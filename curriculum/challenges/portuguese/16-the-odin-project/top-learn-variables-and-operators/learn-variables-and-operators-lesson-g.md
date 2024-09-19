@@ -54,7 +54,7 @@ Do ponto de vista de um matemático, a abundância de sinais de mais pode parece
 
 Por que os mais unários são aplicados aos valores antes dos binários? Como você verá, isso é por causa de sua _maior_ precedência.
 
-# --question--
+# --questions--
 
 ## --text--
 Dada a explicação dos operadores `+` unário e binário em JavaScript, como você pode somar corretamente os valores de string `'2'` e `'3'` como números usando o `+` unário?

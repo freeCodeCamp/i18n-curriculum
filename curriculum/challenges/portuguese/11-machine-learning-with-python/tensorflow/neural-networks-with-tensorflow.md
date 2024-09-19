@@ -14,7 +14,7 @@ dashedName: neural-networks-with-tensorflow
 
 As próximas aulas em vídeo farão referência a [este Colab notebook](https://colab.research.google.com/drive/1m2cg3D1x3j5vrFc-Cu0gMvc48gWyCOuG#forceEdit=true&sandboxMode=true).
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -15,7 +15,7 @@ O HTML tem uma vasta lista de tags predefinidas que você pode usar para criar t
 
 O uso de elementos corretos para o conteúdo é chamado HTML semântico. Você explorará isso com mais profundidade mais a frente no currículo.
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -16,7 +16,7 @@ dashedName: call-methods-from-the-dot-net-class-library-using-c-sharp
 
 Microsoft Learn で「<a href="https://learn.microsoft.com/training/modules/csharp-call-methods/" target="_blank" rel="noreferrer">C# を使用して .NET クラス ライブラリからメソッドを呼び出す</a>」モジュールを完了してください。 次に、下記の質問に回答してください。
 
-# --question--
+# --questions--
 
 ## --text--
 

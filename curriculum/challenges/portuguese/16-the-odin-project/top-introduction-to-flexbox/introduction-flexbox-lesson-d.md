@@ -9,7 +9,7 @@ dashedName: introduction-flexbox-lesson-d
 
 Agora que você tem um entendimento básico de como o flexbox funciona, qual é o papel primário de um item flex em um layout do `flexbox`? Tente responder a pergunta abaixo.
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -42,7 +42,7 @@ Você usa a indentação para tornar o nível de aninhamento claro e legível pa
 
 As relações de pai, filho e irmãos entre os elementos se tornarão muito mais importantes depois, ao começar a estilizar seu HTML com CSS e ao adicionar um comportamento com JavaScript. Agora, porém, é apenas importante conhecer a distinção entre o modo como os elementos estão relacionados e a terminologia utilizada para descrever as suas relações.
 
-# --question--
+# --questions--
 
 ## --text--
 

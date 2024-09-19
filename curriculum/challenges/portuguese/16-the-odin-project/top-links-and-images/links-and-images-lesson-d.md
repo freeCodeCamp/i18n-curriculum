@@ -89,7 +89,7 @@ Em muitos casos, isso funcionará muito bem. No entanto, com essa abordagem, ain
 
 Assista ao vídeo de Kevin Powell sobre a estrutura dos arquivos do HTML acima.
 
-# --question--
+# --questions--
 
 ## --text--
 

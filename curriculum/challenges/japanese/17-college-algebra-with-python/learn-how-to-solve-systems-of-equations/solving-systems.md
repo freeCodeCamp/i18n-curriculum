@@ -16,7 +16,7 @@ dashedName: solving-systems
 
 連立方程式を解いてグラフ表示するコードをノートブックに追加してください。
 
-# --question--
+# --questions--
 
 ## --text--
 

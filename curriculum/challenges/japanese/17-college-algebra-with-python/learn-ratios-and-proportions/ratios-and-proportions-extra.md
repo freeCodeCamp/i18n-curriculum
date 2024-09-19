@@ -14,7 +14,7 @@ dashedName: ratios-and-proportions-extra
 
 次の Colab ノートブックを開いてセルを実行し、<a href="https://colab.research.google.com/drive/1XjmHoERFKcvol7FPidQE-wgdvR82HV45" target="_blank" rel="noopener noreferrer nofollow">1 ステップの代数問題を解く練習</a>をしてください。おまけとして、練習問題を生成するコードがどのようになっているか見てみましょう。
 
-# --question--
+# --questions--
 
 ## --text--
 

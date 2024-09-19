@@ -17,7 +17,7 @@ Os títulos são definidos do mesmo modo que os parágrafos. Por exemplo, para c
 
 Usar o nível correto de título é importante porque os níveis fornecem uma hierarquia para o conteúdo. Um título `h1` deve ser sempre usado para o título geral da página. Os títulos de nível inferior devem ser usados como títulos para o conteúdo em seções menores da página.
 
-# --question--
+# --questions--
 ## --text--
 
 Quantos níveis diferentes de títulos existem e qual é a diferença entre eles?

@@ -9,7 +9,7 @@ dashedName: learn-block-and-inline-lesson-e
 
 Elementos de inline-block se comportam como elementos inline, mas com preenchimento e margem em estilo de bloco. `display: inline-block` é uma ferramenta útil de se conhecer, mas na prática, você provavelmente acabará recorrendo ao flexbox com mais frequência se estiver tentando alinhar um monte de caixas. Flexbox será tratado em mais detalhes na próxima lição.
 
-# --question--
+# --questions--
 
 ## --text--
 

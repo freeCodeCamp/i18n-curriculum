@@ -16,7 +16,7 @@ dashedName: guided-project-calculate-and-print-student-grades
 
 Microsoft Learn でガイド付きプロジェクト「<a href="https://learn.microsoft.com/training/modules/guided-project-calculate-print-student-grades/" target="_blank" rel="noreferrer">学生の成績を計算して印刷する</a>」を完了してください。 次に、下記の質問に回答してください。
 
-# --question--
+# --questions--
 
 ## --text--
 

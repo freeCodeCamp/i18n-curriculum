@@ -17,7 +17,7 @@ dashedName: introduction-to-data-analysis
 
 \- <a href="https://chinese.freecodecamp.org/news/what-is-data-analysis/" rel="noopener noreferrer nofollow">專欄文章</a>
 
-# --question--
+# --questions--
 
 ## --text--
 

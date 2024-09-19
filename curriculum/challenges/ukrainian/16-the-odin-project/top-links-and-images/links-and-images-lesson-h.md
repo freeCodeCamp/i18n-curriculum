@@ -74,7 +74,7 @@ dashedName: links-and-images-lesson-h
 
 Прочитайте про <a href="https://www.freecodecamp.org/ukrainian/news/typy-zobrazhen-rozshyrennya-jpeg-svg-ta-png/" target="_blank">чотири основні формати зображень</a>, які можна використовувати у вебмережі.
 
-# --question--
+# --questions--
 
 ## --text--
 

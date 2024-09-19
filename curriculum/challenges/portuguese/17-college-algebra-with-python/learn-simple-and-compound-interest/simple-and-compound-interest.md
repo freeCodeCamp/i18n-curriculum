@@ -14,7 +14,7 @@ Aqui está o <a href="https://colab.research.google.com/drive/1IVBaeX84arJXS73ra
 
 Aqui temos um <a href="https://colab.research.google.com/drive/1-HWYmzKn6HmEUWMBv7G525CpoQpm8TnN?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">notebook adicional do Colaboratory que mostra uma maneira de colocar muitas dessas fórmulas de juros e de pagamento em funções em Python.</a> Você também verá um exemplo de uso de algumas fórmulas para exibir os resultados, observar uma tendência e seguir outras fórmulas para analisar padrões.
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -16,7 +16,7 @@ Aqui está o <a href="https://colab.research.google.com/drive/1d0e55NoKjKILIum34
 
 Adicione código ao notebook de álgebra do Colaboratory que cria funções do Python para conversões entre decimais e frações
 
-# --question--
+# --questions--
 
 ## --text--
 

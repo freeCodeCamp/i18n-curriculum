@@ -16,7 +16,7 @@ dashedName: create-and-throw-exceptions-in-c-sharp-console-applications
 
 Виконайте модуль <a href="https://learn.microsoft.com/training/modules/create-throw-exceptions-c-sharp/" target="_blank" rel="noreferrer">«Створіть та викиньте винятки в консольних застосунках C#»</a> на Microsoft Learn. Потім дайте відповідь на запитання нижче.
 
-# --question--
+# --questions--
 
 ## --text--
 

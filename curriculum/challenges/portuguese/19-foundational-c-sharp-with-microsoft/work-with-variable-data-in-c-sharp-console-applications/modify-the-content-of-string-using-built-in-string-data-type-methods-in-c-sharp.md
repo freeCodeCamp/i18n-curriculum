@@ -16,7 +16,7 @@ Este desafio será parcialmente concluído na plataforma Microsoft Learn. Siga e
 
 Complete o módulo <a href="https://learn.microsoft.com/training/modules/csharp-modify-content/" target="_blank" rel="noreferrer">Modifique o conteúdo de strings usando métodos integrados do tipo de dados de string em C#</a> no Microsoft Learn. Em seguida, responda a pergunta abaixo.
 
-# --question--
+# --questions--
 
 ## --text--
 

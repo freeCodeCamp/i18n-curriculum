@@ -22,7 +22,7 @@ Mais recursos:
 
 \- <a href="https://youtu.be/wfLnZP-4sZw" target="_blank" rel="noopener noreferrer nofollow">Instale Python no MacOS</a>
 
-# --question--
+# --questions--
 
 ## --text--
 

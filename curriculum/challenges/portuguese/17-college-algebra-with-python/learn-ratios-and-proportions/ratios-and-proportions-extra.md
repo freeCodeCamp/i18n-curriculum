@@ -14,7 +14,7 @@ O último vídeo nesta seção vai mostrar para você como usar proporções em 
 
 Abra o notebook do Colaboratory a seguir, execute a célula e <a href="https://colab.research.google.com/drive/1XjmHoERFKcvol7FPidQE-wgdvR82HV45" target="_blank" rel="noopener noreferrer nofollow">pratique a resolução de problemas de álgebra de uma etapa.</a> Como bônus, veja o código que gera os problemas da prática.
 
-# --question--
+# --questions--
 
 ## --text--
 

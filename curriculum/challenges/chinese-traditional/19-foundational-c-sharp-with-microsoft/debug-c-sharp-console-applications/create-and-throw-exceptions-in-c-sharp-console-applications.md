@@ -16,7 +16,7 @@ dashedName: create-and-throw-exceptions-in-c-sharp-console-applications
 
 在 Microsoft Learn 上完成 <a href="https://learn.microsoft.com/training/modules/create-throw-exceptions-c-sharp/" target="_blank" rel="noreferrer">在 C# 控制檯應用程序中創建和拋出異常</a> 模塊。 然後，回答下面的問題。
 
-# --question--
+# --questions--
 
 ## --text--
 

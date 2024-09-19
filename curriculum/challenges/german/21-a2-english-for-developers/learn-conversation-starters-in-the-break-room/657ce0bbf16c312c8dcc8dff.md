@@ -15,7 +15,7 @@ Wenn `usually` mit dem Verb `to be,` verwendet wird, wird es nach dem Verb plazi
 
 Bei anderen Verben kommt `usually` vor dem Hauptverb, zum Beispiel: `He usually works late.`
 
-# --question--
+# --questions--
 
 ## --text--
 

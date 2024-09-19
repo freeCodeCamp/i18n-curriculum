@@ -30,7 +30,7 @@ Existem muitas maneiras de usar o operador de igualdade estrita, e é importante
 
 Leia <a href="https://javascript.info/comparison" target="_blank" rel="noopener noreferrer nofollow">este artigo em JavaScript.info</a> para aprender mais sobre o operador de igualdade estrita.
 
-# --question--
+# --questions--
 
 ## --text--
 

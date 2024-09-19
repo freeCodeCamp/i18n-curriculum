@@ -9,7 +9,7 @@ dashedName: learn-block-and-inline-lesson-k
 
 Тепер ви знаєте, як додавати ширину та висоту до рядкових елементів.
 
-# --question--
+# --questions--
 
 ## --text--
 

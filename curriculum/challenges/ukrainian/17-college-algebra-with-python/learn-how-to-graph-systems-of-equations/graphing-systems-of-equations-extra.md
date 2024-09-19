@@ -12,7 +12,7 @@ dashedName: graphing-systems-of-equations-extra
 
 Ось <a href="https://colab.research.google.com/drive/1m5oG62NzUHRzBghGCPRfr1SzvbywRWPV?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">блокнот Colab для цього відео.</a>
 
-# --question--
+# --questions--
 
 ## --text--
 

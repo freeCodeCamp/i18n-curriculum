@@ -16,7 +16,7 @@ This first video will show you how to graph systems of equations with written ma
 
 将视频中的代码添加到你正在创建的代数笔记本中，并使用不同的函数进行测试。
 
-# --question--
+# --questions--
 
 ## --text--
 

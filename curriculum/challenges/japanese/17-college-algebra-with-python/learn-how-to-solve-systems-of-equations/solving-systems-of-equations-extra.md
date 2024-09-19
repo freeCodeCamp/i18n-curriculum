@@ -12,7 +12,7 @@ dashedName: solving-systems-of-equations-extra
 
 <a href="https://colab.research.google.com/drive/1a_RtRtVfeO0m2528T4V-bCXozWf3HpM7?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">この動画で使用している Colab ノートブックはこちら</a>です。ここまでの関数を作成し、この後追加する関数について見出しを作成した状態のノートブックの一例として参考にしてください。
 
-# --question--
+# --questions--
 
 ## --text--
 

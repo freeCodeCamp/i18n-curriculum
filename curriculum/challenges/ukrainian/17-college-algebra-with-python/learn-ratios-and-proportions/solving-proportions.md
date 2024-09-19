@@ -16,7 +16,7 @@ dashedName: solving-proportions
 
 Додайте код з відео до блокнота з алгебри Colab, який ви створили у першому кроці.
 
-# --question--
+# --questions--
 
 ## --text--
 

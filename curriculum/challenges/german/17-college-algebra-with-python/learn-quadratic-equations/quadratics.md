@@ -12,7 +12,7 @@ In diesem Video wird gezeigt, wie man quadratische Gleichungen löst und und es 
 
 Hier ist das <a href="https://colab.research.google.com/drive/1jr_k4awSSW1CBs9ma9oS_WnDblDjX3pc?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">Colab-Notizbuch zu diesem Video.</a>
 
-# --question--
+# --questions--
 
 ## --text--
 

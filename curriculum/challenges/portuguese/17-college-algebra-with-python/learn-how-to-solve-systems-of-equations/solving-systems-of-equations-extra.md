@@ -12,7 +12,7 @@ Este vídeo mostrará a você uma maneira de criar uma calculadora que resolve e
 
 Aqui está o <a href="https://colab.research.google.com/drive/1a_RtRtVfeO0m2528T4V-bCXozWf3HpM7?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">notebook do Colaboratory usado neste vídeo.</a> Ele dará a você um exemplo de como será a aparência do seu notebook até o momento, onde você tem algumas funções e já criou títulos para as próximas.
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -16,7 +16,7 @@ dashedName: linear-equations
 
 Додайте код для побудови графіків функції з точок чи вхідних рівнянь до свого блокнота Colab.
 
-# --question--
+# --questions--
 
 ## --text--
 

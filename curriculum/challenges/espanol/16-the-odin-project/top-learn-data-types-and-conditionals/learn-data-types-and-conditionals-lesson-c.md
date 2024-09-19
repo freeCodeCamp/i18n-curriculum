@@ -15,7 +15,7 @@ let sentence = "freeCodeCamp loves The Odin Project!";
 
 <a href="https://www.freecodecamp.org/news/javascript-string-handbook" target="_blank"> Enlace a la guía </a>
 
-# --question--
+# --questions--
 
 ## --text--
 

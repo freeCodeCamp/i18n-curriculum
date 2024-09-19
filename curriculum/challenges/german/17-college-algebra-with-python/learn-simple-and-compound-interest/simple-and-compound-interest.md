@@ -14,7 +14,7 @@ Hier ist das <a href="https://colab.research.google.com/drive/1IVBaeX84arJXS73ra
 
 Hier ist ein zusätzliches <a href="https://colab.research.google.com/drive/1-HWYmzKn6HmEUWMBv7G525CpoQpm8TnN?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">Colab-Notizbuch, das dir eine Möglichkeit zeigt, viele dieser Zins- und Zahlungsformeln in Python-Funktionen umzusetzen.</a> Außerdem wirst du ein Beispiel für die Verwendung einiger Formeln zur Ausgabe von Ergebnissen, zur Feststellung eines Trends und zur Weiterverfolgung mit anderen Formeln zur Analyse von Mustern sehen.
 
-# --question--
+# --questions--
 
 ## --text--
 

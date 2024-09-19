@@ -16,7 +16,7 @@ dashedName: control-variable-scope-and-logic-using-code-blocks-in-c-sharp
 
 Виконайте модуль <a href="https://learn.microsoft.com/training/modules/csharp-code-blocks/" target="_blank" rel="noreferrer">«Керуйте областю та логікою змінної, використовуючи блоки коду в C#»</a> на Microsoft Learn. Потім дайте відповідь на запитання нижче.
 
-# --question--
+# --questions--
 
 ## --text--
 

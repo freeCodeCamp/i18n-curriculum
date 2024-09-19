@@ -16,7 +16,7 @@ dashedName: converting-fractions-and-decimals
 
 分数と小数を変換するコードを代数学用の Colab ノートブックに追加してください。
 
-# --question--
+# --questions--
 
 ## --text--
 

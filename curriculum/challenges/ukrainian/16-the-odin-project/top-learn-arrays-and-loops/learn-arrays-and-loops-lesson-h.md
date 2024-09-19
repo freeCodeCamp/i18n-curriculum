@@ -21,7 +21,7 @@ console.log(newNumbers); // Output: [5, 6, 9]
 
 Метод `filter()` створює новий масив з усіма елементами, які більші за 2. Метод `filter()` не змінює вхідний масив.
 
-# --question--
+# --questions--
 
 ## --text--
 

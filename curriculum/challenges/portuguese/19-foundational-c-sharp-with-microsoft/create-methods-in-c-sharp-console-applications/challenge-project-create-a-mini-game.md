@@ -16,7 +16,7 @@ Este desafio será parcialmente concluído na plataforma Microsoft Learn. Siga e
 
 Complete o projeto de desafio <a href="https://learn.microsoft.com/training/modules/challenge-project-create-mini-game/" target="_blank" rel="noreferrer">Criar um minigame</a> no Microsoft Learn. Em seguida, responda a pergunta abaixo.
 
-# --question--
+# --questions--
 
 ## --text--
 

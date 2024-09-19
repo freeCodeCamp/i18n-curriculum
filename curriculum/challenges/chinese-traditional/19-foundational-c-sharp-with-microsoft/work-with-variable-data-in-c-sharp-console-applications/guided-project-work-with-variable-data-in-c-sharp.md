@@ -16,7 +16,7 @@ dashedName: guided-project-work-with-variable-data-in-c-sharp
 
 在 Microsoft Learn 上完成 <a href="https://learn.microsoft.com/training/modules/guided-project-work-variable-data-c-sharp/" target="_blank" rel="noreferrer">在 C# 中使用變量數據</a> 的引導項目。 然後，回答下面的問題。
 
-# --question--
+# --questions--
 
 ## --text--
 

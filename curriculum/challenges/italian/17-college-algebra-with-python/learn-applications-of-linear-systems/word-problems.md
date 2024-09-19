@@ -24,7 +24,7 @@ Completa i problemi alle pagine 63, 75, 85 e 118 da "Business Math, a Step-by-St
 
 Completa i problemi alle pagine 304, 308 e 321 da "Algebra and Trigonometry".
 
-# --question--
+# --questions--
 
 ## --text--
 

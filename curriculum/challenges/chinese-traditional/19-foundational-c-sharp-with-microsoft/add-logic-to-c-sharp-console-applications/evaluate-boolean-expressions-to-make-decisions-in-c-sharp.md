@@ -16,7 +16,7 @@ dashedName: evaluate-boolean-expressions-to-make-decisions-in-c-sharp
 
 在 Microsoft Learn 上完成 <a href="https://learn.microsoft.com/training/modules/csharp-evaluate-boolean-expressions/" target="_blank" rel="noreferrer">在 C# 中評估布爾表達式以做出決策</a> 模塊。 然後，回答下面的問題。
 
-# --question--
+# --questions--
 
 ## --text--
 

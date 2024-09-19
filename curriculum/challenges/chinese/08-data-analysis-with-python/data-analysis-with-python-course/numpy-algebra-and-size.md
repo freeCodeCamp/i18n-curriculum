@@ -19,7 +19,7 @@ dashedName: numpy-algebra-and-size
 -  <a href="https://github.com/ine-rmotr-curriculum/freecodecamp-intro-to-numpy" target="_blank" rel="noopener noreferrer nofollow">在 GitHub 平台的 Notebooks</a>
 -  <a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb" target="_blank" rel="noopener noreferrer nofollow">如何使用 Google Colab 来打开 GitHub 上的 Notebooks</a>
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -23,7 +23,7 @@ Algumas das vantagens desse método são:
 1. Ele mantém o HTML e o CSS separados, fazendo com que o arquivo HTML seja menor e mais limpo.
 2. Você só precisa editar o CSS em um lugar, o que é especialmente útil para sites com muitas páginas e que compartilham estilos semelhantes.
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -20,7 +20,7 @@ Este primeiro vídeo inclui uma introdução ao curso, como ele vai funcionar e 
 
 Crie um <a href="https://drive.google.com/" target="_blank" rel="noopener noreferrer nofollow">notebook do Colaboratory de álgebra no seu Google Drive</a> para que você possa acompanhar os vídeos.
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -12,7 +12,7 @@ Este vídeo examinará em detalhes o desenvolvimento de equações a partir de p
 
 Aqui está o <a href="https://colab.research.google.com/drive/1OzC7gqCNWNzwv50ziNeG2IJhbXm88-XK?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">notebook do Colaboratory usado neste vídeo.</a>
 
-# --question--
+# --questions--
 
 ## --text--
 

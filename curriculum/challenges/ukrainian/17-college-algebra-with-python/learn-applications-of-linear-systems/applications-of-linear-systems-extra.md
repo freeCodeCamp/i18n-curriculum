@@ -10,7 +10,7 @@ dashedName: applications-of-linear-systems-extra
 
 Наступне відео містить більше прикладів того, як налаштувати рівняння та розв’язати їх за допомогою блокнота Colab.
 
-# --question--
+# --questions--
 
 ## --text--
 

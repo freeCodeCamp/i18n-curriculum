@@ -29,7 +29,7 @@ function favoriteAnimal(animal = 'Giant Panda') {
 
 Значення параметра `animal` за замовчуванням в прикладі вище встановлене на `'Giant Panda'`. Якщо функція `favoriteAnimal` викликана без аргумента, то параметр `animal` матиме значення `'Giant Panda'`.
 
-# --question--
+# --questions--
 
 ## --text--
 

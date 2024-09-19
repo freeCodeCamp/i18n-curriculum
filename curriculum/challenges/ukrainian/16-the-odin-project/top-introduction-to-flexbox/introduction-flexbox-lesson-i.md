@@ -17,7 +17,7 @@ dashedName: introduction-flexbox-lesson-i
 
 Ще одна деталь, на яку варто звернути увагу: коли ви змінили `flex-direction` на `column`, то `flex-basis` посилається на `height`, а не `width`. Враховуючи контекст, це може бути очевидним, але про це варто знати.
 
-# --question--
+# --questions--
 
 ## --text--
 

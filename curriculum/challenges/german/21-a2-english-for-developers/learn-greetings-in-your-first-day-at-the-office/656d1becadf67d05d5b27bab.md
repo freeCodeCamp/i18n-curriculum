@@ -15,7 +15,7 @@ Brian: `But it is true. Sie ist die Person, zu der du gehst, wenn du Hilfe brauc
 
 Hier wird `She` von Brian verwendet, um auf Sophie zu verweisen. Instead of repeating Sophie's name, Brian uses the pronoun `she` to make the conversation smoother and avoid redundancy.
 
-# --question--
+# --questions--
 
 ## --text--
 

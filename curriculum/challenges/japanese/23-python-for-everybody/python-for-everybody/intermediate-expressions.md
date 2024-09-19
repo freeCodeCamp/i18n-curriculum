@@ -18,7 +18,7 @@ dashedName: intermediate-expressions
 
 \- <a href="https://youtu.be/wgkC8SxraAQ" target="_blank" rel="noopener noreferrer nofollow">演習 2</a>
 
-# --question--
+# --questions--
 
 ## --text--
 

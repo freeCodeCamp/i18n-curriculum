@@ -16,7 +16,7 @@ dashedName: convert-data-types-using-casting-and-conversion-techniques-in-c-shar
 
 在 Microsoft Learn 上完成 <a href="https://learn.microsoft.com/training/modules/csharp-convert-cast/" target="_blank" rel="noreferrer">在 C# 中使用強制轉換和轉換方法轉換數據類型</a> 模塊。 然後，回答下面的問題。
 
-# --question--
+# --questions--
 
 ## --text--
 

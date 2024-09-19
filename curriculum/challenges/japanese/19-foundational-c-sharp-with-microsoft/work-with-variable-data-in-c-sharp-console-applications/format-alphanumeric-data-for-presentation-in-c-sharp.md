@@ -16,7 +16,7 @@ dashedName: format-alphanumeric-data-for-presentation-in-c-sharp
 
 Microsoft Learn で「<a href="https://learn.microsoft.com/training/modules/csharp-format-strings/" target="_blank" rel="noreferrer">C# で英数字データをプレゼンテーション用に書式設定する</a>」モジュールを完了してください。 次に、下記の質問に回答してください。
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -16,7 +16,7 @@ dashedName: solving-systems
 
 Додайте код для розв’язку та побудови графіка систем рівнянь до свого блокнота.
 
-# --question--
+# --questions--
 
 ## --text--
 

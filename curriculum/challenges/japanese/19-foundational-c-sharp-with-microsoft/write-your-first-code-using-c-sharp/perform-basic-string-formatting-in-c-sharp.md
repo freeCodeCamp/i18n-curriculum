@@ -16,7 +16,7 @@ dashedName: perform-basic-string-formatting-in-c-sharp
 
 Microsoft Learn で「<a href="https://learn.microsoft.com/training/modules/csharp-basic-formatting/" target="_blank" rel="noreferrer">C# で基本的な文字列を書式設定する</a>」モジュールを完了してください。 次に、下記の質問に回答してください。
 
-# --question--
+# --questions--
 
 ## --text--
 

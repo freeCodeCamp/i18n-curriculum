@@ -12,7 +12,7 @@ dashedName: linear-functions-extra
 
 這是<a href="https://colab.research.google.com/drive/1OzC7gqCNWNzwv50ziNeG2IJhbXm88-XK?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">這個視頻中用到的 Colab 筆記本</a>。
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -20,7 +20,7 @@ Adicione o código para fatorar e resolva para uma variável em seu notebook de 
 
 Execute o código do notebook para <a href="https://colab.research.google.com/drive/1qON4GYbMkaZJA7MYd7-RcDROOkuuBJg9?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">praticar a conversão de frações em decimais.</a> Além disso, observe o código usado para gerar os problemas práticos.
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -15,7 +15,7 @@ The word `if` is often used in conditional statements to talk about a possible s
 
 `If you need help, just ask.` (The offer to help is conditional on the other person needing it.)
 
-# --question--
+# --questions--
 
 ## --text--
 

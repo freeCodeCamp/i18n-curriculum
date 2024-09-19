@@ -20,7 +20,7 @@ Adicione o código para outras formas de resolver para x do vídeo ao seu notebo
 
 Abra o notebook do Colaboratory a seguir, execute a célula e <a href="https://colab.research.google.com/drive/1XjmHoERFKcvol7FPidQE-wgdvR82HV45" target="_blank" rel="noopener noreferrer nofollow">pratique a resolução de problemas de álgebra de uma e de duas etapas.</a> Como bônus, veja o código que gera os problemas da prática.
 
-# --question--
+# --questions--
 
 ## --text--
 

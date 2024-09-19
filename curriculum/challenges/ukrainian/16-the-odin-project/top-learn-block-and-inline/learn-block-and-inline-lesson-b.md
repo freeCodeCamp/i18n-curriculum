@@ -13,7 +13,7 @@ dashedName: learn-block-and-inline-lesson-b
 
 Знайдіть в інтернеті список блокових та рядкових елементів.
 
-# --question--
+# --questions--
 
 ## --text--
 

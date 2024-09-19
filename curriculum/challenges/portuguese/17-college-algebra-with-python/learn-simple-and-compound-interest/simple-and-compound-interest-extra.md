@@ -10,7 +10,7 @@ dashedName: simple-and-compound-interest-extra
 
 Aqui, desviamos um pouco do código em Python, pois este vídeo mostra como criar tabelas de amortização de hipoteca nas planilhas do Google. Você também aprenderá sobre como usar uma configuração muito semelhante para estimar os rendimentos do investimento na conta para sua aposentadoria. Este é o vídeo que mostra para onde o seu dinheiro está indo.
 
-# --question--
+# --questions--
 
 ## --text--
 

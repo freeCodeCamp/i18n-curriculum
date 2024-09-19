@@ -36,7 +36,7 @@ El seguimiento de la pila nos dice que:
 
 Así, el seguimiento de pila te permite rastrear la evolución de un error hasta su origen, que aquí es la declaración de `add()`.
 
-# --question--
+# --questions--
 
 ## --text--
 

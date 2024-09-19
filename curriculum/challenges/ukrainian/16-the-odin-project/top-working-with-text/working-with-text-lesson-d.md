@@ -16,7 +16,7 @@ dashedName: working-with-text-lesson-d
 
 <iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="300" width="100%" name="cp_embed_7" scrolling="no" src="https://codepen.io/TheOdinProjectExamples/embed/VwWZzyj?height=300&amp;theme-id=dark&amp;default-tab=html%2Cresult&amp;slug-hash=VwWZzyj&amp;user=TheOdinProjectExamples&amp;name=cp_embed_7" style="width: 100%; overflow:hidden; display:block;" title="Вставка CodePen" loading="lazy" id="cp_embed_VwWZzyj"></iframe>
 
-# --question--
+# --questions--
 ## --text--
 
 Який елемент потрібно використати, щоб зробити текст курсивним?

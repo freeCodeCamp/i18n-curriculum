@@ -16,7 +16,7 @@ dashedName: solving-for-x
 
 x について解くコードを動画から代数学用の Colab ノートブックに追加してください。
 
-# --question--
+# --questions--
 
 ## --text--
 

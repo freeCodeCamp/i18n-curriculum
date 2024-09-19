@@ -12,7 +12,7 @@ Questo primo video ti mostrerà come trovare i fattori comuni e raccoglierli - p
 
 Ecco il <a href="https://colab.research.google.com/drive/1tB7N3QqHEbGk33v0BdTwZTVkS9ju9yn6?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">notebook Colab usato in questo video.</a>
 
-# --question--
+# --questions--
 
 ## --text--
 

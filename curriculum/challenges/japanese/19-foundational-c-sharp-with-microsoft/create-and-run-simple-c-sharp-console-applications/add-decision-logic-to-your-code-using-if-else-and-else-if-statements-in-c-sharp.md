@@ -16,7 +16,7 @@ dashedName: add-decision-logic-to-your-code-using-if-else-and-else-if-statements
 
 Microsoft Learn で「<a href="https://learn.microsoft.com/training/modules/csharp-if-elseif-else/" target="_blank" rel="noreferrer">C# の `if`、`else`、`else if` ステートメントを使って、コードに決定ロジックを追加する</a>」モジュールを完了してください。 次に、下記の質問に回答してください。
 
-# --question--
+# --questions--
 
 ## --text--
 

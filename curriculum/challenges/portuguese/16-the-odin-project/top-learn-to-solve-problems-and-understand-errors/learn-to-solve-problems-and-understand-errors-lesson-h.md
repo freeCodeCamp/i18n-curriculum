@@ -15,7 +15,7 @@ Neste ponto, você pode estar se perguntando como pode resolver esses erros.
 
 1. Outra maneira é usar `console.log()` — é uma escolha popular para uma depuração rápida. Para uma solução de problemas mais detalhada, usar o depurador pode ser mais apropriado, mas usar `console.log()` é ótimo para obter feedback imediato sem precisar percorrer suas funções. Existem também outros métodos úteis como `console.table()`, `console.trace()` e mais!
 
-# --question--
+# --questions--
 
 ## --text--
 

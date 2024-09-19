@@ -12,7 +12,7 @@ Das nächste Video zeigt dir, wie du Schieberegler zu deinen Graphen hinzufügen
 
 Hier ist das <a href="https://colab.research.google.com/drive/1bspkmQVcKOXUuk-Orb0Mwl0GUGbqMpka?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">Colab-Notizbuch zu diesem Video.</a>
 
-# --question--
+# --questions--
 
 ## --text--
 

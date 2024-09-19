@@ -16,7 +16,7 @@ dashedName: branch-the-flow-of-code-using-the-switch-case-construct-in-c-sharp
 
 Microsoft Learn で「<a href="https://learn.microsoft.com/training/modules/csharp-switch-case/" target="_blank" rel="noreferrer">C# での `switch`-`case` コンストラクトを使用したコード フローの分岐</a>」モジュールを完了してください。 次に、下記の質問に回答してください。
 
-# --question--
+# --questions--
 
 ## --text--
 

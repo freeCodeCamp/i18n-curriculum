@@ -16,7 +16,7 @@ dashedName: store-and-retrieve-data-using-literal-and-variable-values-in-c-sharp
 
 Microsoft Learn で「<a href="https://learn.microsoft.com/training/modules/csharp-literals-variables/" target="_blank" rel="noreferrer">C# でリテラル値と変数値を使用してデータを格納および取得する</a>」モジュールを完了してください。 次に、下記の質問に回答してください。
 
-# --question--
+# --questions--
 
 ## --text--
 

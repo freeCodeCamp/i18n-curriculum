@@ -16,7 +16,7 @@ dashedName: choose-the-correct-data-type-in-your-c-sharp-code
 
 Виконайте модуль <a href="https://learn.microsoft.com/training/modules/csharp-choose-data-type/" target="_blank" rel="noreferrer">«Виберіть правильний тип даних в коді C#»</a> на Microsoft Learn. Потім дайте відповідь на запитання нижче.
 
-# --question--
+# --questions--
 
 ## --text--
 

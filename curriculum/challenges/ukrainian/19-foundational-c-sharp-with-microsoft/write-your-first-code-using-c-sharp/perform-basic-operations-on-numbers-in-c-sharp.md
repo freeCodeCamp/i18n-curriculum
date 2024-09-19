@@ -16,7 +16,7 @@ dashedName: perform-basic-operations-on-numbers-in-c-sharp
 
 Виконайте модуль <a href="https://learn.microsoft.com/training/modules/csharp-basic-operations/" target="_blank" rel="noreferrer">«Виконайте базові операції з числами в C#»</a> на Microsoft Learn. Потім дайте відповідь на запитання нижче.
 
-# --question--
+# --questions--
 
 ## --text--
 

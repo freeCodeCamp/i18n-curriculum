@@ -33,7 +33,7 @@ console.log(add(3, 7)); // Output: 7
 
 No exemplo acima, a função `add` tem uma instrução condicional que verifica se o valor de `a` é maior que `2`. Se a condição for atendida, a função retornará o valor de `b` e vai parar de executar. Se a condição não for atendida, a função retornará a soma de `a` e `b`.
 
-# --question--
+# --questions--
 
 ## --text--
 

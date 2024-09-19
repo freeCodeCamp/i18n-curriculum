@@ -11,7 +11,7 @@ dashedName: task-29
 
 Wenn du von verschiedenen Arten von Gitarren hörst, können zwei gebräuchliche Arten auftauchen: `electric` und `acoustic`. `Electric guitars` benötigen in der Regel etwas, das man als Verstärker bezeichnet, damit sie laut genug zu hören sind, während `acoustic guitars` ohne zusätzliches Equipment zu hören sind.
 
-# --question--
+# --questions--
 
 ## --text--
 

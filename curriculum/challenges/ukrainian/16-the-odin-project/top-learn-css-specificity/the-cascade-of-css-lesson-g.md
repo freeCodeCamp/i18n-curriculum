@@ -33,7 +33,7 @@ dashedName: the-cascade-of-css-lesson-g
 
 Хоча елемент `parent` має вищу специфічність через ID, до елемента `child` буде застосовано стиль `color: blue`, оскільки оголошення прямо націлене на нього, а `color: red` успадковується від батька.
 
-# --question--
+# --questions--
 
 ## --text--
 

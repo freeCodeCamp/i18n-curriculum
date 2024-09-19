@@ -12,7 +12,7 @@ In questo video vedrai come appaiono i grafici genitori, come modificarli e come
 
 Ecco il <a href="https://colab.research.google.com/drive/1uwKuaHCC2WCUFKmXW-5NqWUlEP9ak7Pz?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">notebook Colab per questo video.</a>
 
-# --question--
+# --questions--
 
 ## --text--
 

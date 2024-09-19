@@ -21,7 +21,7 @@ console.log(newArray); // Output: [2, 4, 6, 8, 10]
 
 El método `map()` crea un nuevo arreglo aplicando la función `(arrayValue) => { return arrayValue * 2;` a cada elemento del arreglo original. Esto es particularmente útil cuando deseas transformar los elementos de un arreglo sin cambiar el arreglo original.
 
-# --question--
+# --questions--
 
 ## --text--
 

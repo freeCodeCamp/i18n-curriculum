@@ -36,7 +36,7 @@ O rastreamento de pilha nos diz que:
 
 Assim, o rastreamento de pilha permite que você rastreie a evolução de um erro de volta à sua origem, que aqui é a declaração de `add()`.
 
-# --question--
+# --questions--
 
 ## --text--
 

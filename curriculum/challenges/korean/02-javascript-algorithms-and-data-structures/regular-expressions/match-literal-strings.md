@@ -1,6 +1,6 @@
 ---
 id: 587d7db3367417b2b2512b8f
-title: Match Literal Strings
+title: 문자열 리터럴 일치
 challengeType: 1
 forumTopicId: 301355
 dashedName: match-literal-strings
@@ -8,7 +8,7 @@ dashedName: match-literal-strings
 
 # --description--
 
-In the last challenge, you searched for the word `Hello` using the regular expression `/Hello/`. That regex searched for a literal match of the string `Hello`. Here's another example searching for a literal match of the string `Kevin`:
+지난 도전 과제에서 정규 표현식 `/Hello/`를 사용하여 `Hello`라는 단어를 검색했습니다. 그 정규 표현식은 문자열 `Hello`의 리터럴 일치를 검색했습니다. 문자열 `Kevin`의 리터럴 일치를 검색하는 또 다른 예는 다음과 같습니다.
 
 ```js
 let testStr = "Hello, my name is Kevin.";
@@ -16,40 +16,40 @@ let testRegex = /Kevin/;
 testRegex.test(testStr);
 ```
 
-This `test` call will return `true`.
+이 `test` 호출은 `true`를 반환합니다.
 
-Any other forms of `Kevin` will not match. For example, the regex `/Kevin/` will not match `kevin` or `KEVIN`.
+`Kevin`의 다른 모든 형태는 일치하지 않습니다. 예를 들어, 정규 표현식 `/Kevin/`은 `kevin` 또는 `KEVIN`과 일치하지 않습니다.
 
 ```js
 let wrongRegex = /kevin/;
 wrongRegex.test(testStr);
 ```
 
-This `test` call will return `false`.
+이 `test` 호출은 `false`를 반환합니다.
 
-A future challenge will show how to match those other forms as well.
+미래의 도전 과제에서는 그러한 다른 형태도 일치시키는 방법을 보여줄 것입니다.
 
 # --instructions--
 
-Complete the regex `waldoRegex` to find `"Waldo"` in the string `waldoIsHiding` with a literal match.
+문자열 `waldoIsHiding`에서 literal match로 `"Waldo"`를 찾기 위해 정규 표현식 `waldoRegex`를 완성하세요.
 
 # --hints--
 
-Your regex `waldoRegex` should find the string `Waldo`
+정규 표현식 `waldoRegex`는 문자열 `Waldo`를 찾아야 합니다.
 
 ```js
 waldoRegex.lastIndex = 0;
 assert(waldoRegex.test(waldoIsHiding));
 ```
 
-Your regex `waldoRegex` should not search for anything else.
+정규 표현식 `waldoRegex`는 다른 것을 검색하지 않아야 합니다.
 
 ```js
 waldoRegex.lastIndex = 0;
 assert(!waldoRegex.test('Somewhere is hiding in this text.'));
 ```
 
-You should perform a literal string match with your regex.
+정규 표현식으로 리터럴 문자열 일치를 수행해야 합니다.
 
 ```js
 assert(!/\/.*\/i/.test(__helpers.removeJSComments(code)));

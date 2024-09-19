@@ -12,7 +12,7 @@ dashedName: quadratics
 
 Ось <a href="https://colab.research.google.com/drive/1jr_k4awSSW1CBs9ma9oS_WnDblDjX3pc?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">блокнот Colab для цього відео.</a>
 
-# --question--
+# --questions--
 
 ## --text--
 

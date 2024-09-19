@@ -16,7 +16,7 @@ dashedName: guided-project-develop-conditional-branching-and-looping-structures-
 
 Microsoft Learn でガイド付きプロジェクト「<a href="https://learn.microsoft.com/training/modules/guided-project-develop-conditional-branching-looping/" target="_blank" rel="noreferrer">C# で条件付き分岐とループ構造を開発する</a>」を完了してください。 次に、下記の質問に回答してください。
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -16,7 +16,7 @@ dashedName: branch-the-flow-of-code-using-the-switch-case-construct-in-c-sharp
 
 在 Microsoft Learn 上完成 <a href="https://learn.microsoft.com/training/modules/csharp-switch-case/" target="_blank" rel="noreferrer">在 C# 中使用 switch-case 結構對代碼流進行分支</a> 模塊。 然後，回答下面的問題。
 
-# --question--
+# --questions--
 
 ## --text--
 

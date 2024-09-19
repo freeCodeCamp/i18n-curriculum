@@ -16,7 +16,7 @@ dashedName: convert-data-types-using-casting-and-conversion-techniques-in-c-shar
 
 Виконайте модуль <a href="https://learn.microsoft.com/training/modules/csharp-convert-cast/" target="_blank" rel="noreferrer">«Конвертуйте типи даних, використовуючи приведення та перетворення в C#»</a> на Microsoft Learn. Потім дайте відповідь на запитання нижче.
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -43,7 +43,7 @@ switch (day) {
 
 No exemplo acima, o valor da variável `day` é comparado com os valores de cada caso. Se houver correspondência, o bloco de código associado é executado. Se não houver correspondência, o bloco de código padrão é executado.
 
-# --question--
+# --questions--
 
 ## --text--
 

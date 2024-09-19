@@ -16,7 +16,7 @@ dashedName: convert-data-types-using-casting-and-conversion-techniques-in-c-shar
 
 Microsoft Learn で「<a href="https://learn.microsoft.com/training/modules/csharp-convert-cast/" target="_blank" rel="noreferrer">C# のキャストと変換の手法を利用してデータ型を変換する</a>」モジュールを完了してください。 次に、下記の質問に回答してください。
 
-# --question--
+# --questions--
 
 ## --text--
 

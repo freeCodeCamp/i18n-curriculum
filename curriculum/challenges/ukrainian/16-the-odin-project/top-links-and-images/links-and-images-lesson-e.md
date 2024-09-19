@@ -75,7 +75,7 @@ dashedName: links-and-images-lesson-e
 
 Перегляньте відео Кевіна Павелла про зображення у HTML (розміщене вище).
 
-# --question--
+# --questions--
 
 ## --text--
 

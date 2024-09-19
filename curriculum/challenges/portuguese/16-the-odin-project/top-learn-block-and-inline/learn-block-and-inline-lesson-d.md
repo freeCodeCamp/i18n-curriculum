@@ -9,7 +9,7 @@ dashedName: learn-block-and-inline-lesson-d
 
 Agora que você tem uma compreensão básica de como adicionar largura e altura a elementos `inline` funciona, o que acontece quando você adiciona uma margem superior a um elemento `inline`?
 
-# --question--
+# --questions--
 
 ## --text--
 

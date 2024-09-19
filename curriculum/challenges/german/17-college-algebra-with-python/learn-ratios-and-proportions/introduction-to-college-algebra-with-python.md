@@ -20,7 +20,7 @@ Dieses erste Video enthält eine Einführung in den Kurs, wie er funktioniert un
 
 Erstelle ein Algebra-<a href="https://drive.google.com/" target="_blank" rel="noopener noreferrer nofollow">Colab-Notizbuch auf deinem Google Drive</a>, damit du die Videos mitverfolgen kannst.
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -16,7 +16,7 @@ dashedName: iterate-through-a-code-block-using-the-for-statement-in-c-sharp
 
 Виконайте модуль <a href="https://learn.microsoft.com/training/modules/csharp-for/" target="_blank" rel="noreferrer">«Переберіть код блоку, використовуючи інструкцію for в C#»</a> на Microsoft Learn. Потім дайте відповідь на запитання нижче.
 
-# --question--
+# --questions--
 
 ## --text--
 

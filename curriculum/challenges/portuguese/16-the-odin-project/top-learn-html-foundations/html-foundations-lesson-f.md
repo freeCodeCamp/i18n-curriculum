@@ -24,7 +24,7 @@ Desenvolva sua memória muscular excluindo o conteúdo do arquivo `index.html` e
 
 Teste seu boilerplate através deste [validador de HTML](https://www.freeformatter.com/html-validator.html). Os validadores garantem que a marcação está correta e são uma excelente ferramenta de aprendizado, pois fornecem feedback sobre erros de sintaxe que você pode estar cometendo de vez em quando sem saber, como deixar de colocar tags de fechamento ou adicionar espaços a mais em seu HTML.
 
-# --question--
+# --questions--
 
 ## --text--
 

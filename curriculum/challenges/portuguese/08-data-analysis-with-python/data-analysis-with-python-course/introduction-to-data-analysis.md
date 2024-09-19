@@ -17,7 +17,7 @@ Mais recursos:
 
 \- <a href="https://www.freecodecamp.org/portuguese/news/o-que-e-analise-de-dados/" rel="noopener noreferrer nofollow">Artigo do editorial</a>
 
-# --question--
+# --questions--
 
 ## --text--
 

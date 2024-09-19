@@ -33,7 +33,7 @@ myFunction();
 
 Se uma variável com o mesmo nome for declarada dentro da função, ela anulará a variável externa dentro da função.
 
-# --question--
+# --questions--
 
 ## --text--
 

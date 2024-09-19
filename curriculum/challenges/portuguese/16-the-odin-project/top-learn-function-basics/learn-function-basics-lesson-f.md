@@ -25,7 +25,7 @@ const add = (a, b) => a + b;
 
 No exemplo acima, a função de seta `add` recebe dois parâmetros `a` e `b` e retorna a sua soma. A palavra-chave `return` e as chaves `{}` foram omitidos e o resultado da operação de adição é implicitamente retornado.
 
-# --question--
+# --questions--
 
 ## --text--
 

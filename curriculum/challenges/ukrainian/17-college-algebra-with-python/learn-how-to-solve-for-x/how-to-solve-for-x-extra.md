@@ -20,7 +20,7 @@ dashedName: how-to-solve-for-x-extra
 
 Відкрийте наступний блокнот Colab, запустіть секцію та <a href="https://colab.research.google.com/drive/1XjmHoERFKcvol7FPidQE-wgdvR82HV45" target="_blank" rel="noopener noreferrer nofollow">попрактикуйтесь над розв’язком прикладів з однією й двома діями.</a> Як бонус, гляньте на код, який генерує приклади для практики.
 
-# --question--
+# --questions--
 
 ## --text--
 

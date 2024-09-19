@@ -50,27 +50,27 @@ Tu juego se jugará ronda por ronda. Escribe una función que tome las eleccione
 
 1. Incrementa la variable `humanScore` o `computerScore` basada en el ganador de la ronda.
 
-Your game will play 3 rounds. You will write a function named `playGame` that calls `playRound` to play 3 rounds, keeps track of the scores, and declares a winner at the end.
+Tu juego jugará 3 rondas. Escribirás una función llamada `playGame` que llame a `playRound` para jugar 3 rondas, lleve el registro de las puntuaciones y declare un ganador al final.
 
-1. Create a new function named `playGame`.
+1. Crea una nueva función llamada `playGame`.
 
-1. Create a loop that plays 3 rounds and calls the `playRound` function each time with the human's choice and the computer's choice functions as arguments.
+1. Crea un bucle que juegue 3 rondas y llame a la función `playRound` cada vez con las funciones de elección del humano y la computadora como argumentos.
 
-1. At the end of the game, return the winner of the game based on who won the most rounds.
+1. Al final del juego, devuelve al ganador del juego basado en quien ganó más rondas.
 
-- If the human player wins more rounds than the computer player, return a message that says `"You win the game!"`.
+- Si el jugador humano gana más rondas que la computadora, devuelve un mensaje que diga `"You win the game!"`.
 
-- If the computer player wins more rounds than the human player, return a message that says `"You lose the game!"`.
+- Si la computadora gana más rondas que el jugador humano, devuelve un mensaje que diga `"You lose the game!"`.
 
 # --hints--
 
-You should have a function called `getComputerChoice`
+Debes tener una función llamada `getComputerChoice`
 
 ```js
 assert.isFunction(getComputerChoice);
 ```
 
-Your `getComputerChoice` function should return `"rock"`, `"paper"`, or `"scissors"` at random.
+Tu función `getComputerChoice` debe devolver `"rock"`, `"paper"`, o `"scissors"` aleatoriamente.
 
 ```js
 const counts = {}
@@ -84,56 +84,56 @@ assert.include(Object.keys(counts), "paper");
 assert.include(Object.keys(counts), "scissors");
 ```
 
-You should have a function called `getHumanChoice`
+Debes tener una función llamada `getHumanChoice`
 
 ```js
 assert.isFunction(getHumanChoice);
 ```
 
-You should have two variables named `humanScore` and `computerScore` in the global scope.
+Debes tener dos variables llamadas `humanScore` y `computerScore` en el ámbito global.
 
 ```js
 assert.exists(humanScore);
 assert.exists(computerScore);
 ```
 
-You should have a function called `playRound`
+Debes tener una función llamada `playRound`
 
 ```js
 assert.isFunction(playRound);
 ```
 
-Your `playRound` function should take the human and computer player choices as arguments with the parameters `humanChoice` and `computerChoice`.
+Tu función `playRound` debe tomar las elecciones del jugador humano y de la computadora como argumentos con los parámetros `humanChoice` y `computerChoice`.
 
 ```js
 assert.match(playRound.toString(), /\s*(?:\bhumanChoice\b\s*,\s*\bcomputerChoice\b)/);
 ```
 
-Your `playRound` function should be case-insensitive so that players can input `"rock"`, `"ROCK"`, `"RocK"`, or other variations.
+Tu función `playRound` debe ser insensible a mayúsculas y minúsculas para que los jugadores puedan ingresar `"rock"`, `"ROCK"`, `"RocK"`, u otras variaciones.
 
 ```js
 assert.match(playRound.toString(), /\bhumanChoice\s*\.toLowerCase\(\)/);
 ```
 
-Your `playRound` function should return the string `"It's a tie!"` if the human and computer choices are the same.
+Tu función `playRound` debe devolver la cadena `"It's a tie!"` si las elecciones del humano y la computadora son las mismas.
 
 ```js
 assert.equal(playRound("rock", "rock"), "It's a tie!");
 ```
 
-Your `playRound` function should return the string `"You win! [player choice] beats [computer choice]"` if the player wins.
+Tu función `playRound` debe devolver la cadena `"You win! [player choice] beats [computer choice]"` si el jugador gana.
 
 ```js
 assert.equal(playRound("rock", "scissors"), "You win! rock beats scissors");
 ```
 
-Your `playRound` function should return the string `"You lose! [computer choice] beats [player choice]"` if the computer wins.
+Tu función `playRound` debe devolver la cadena `"You lose! [computer choice] beats [player choice]"` si la computadora gana.
 
 ```js
 assert.equal(playRound("rock", "paper"), "You lose! paper beats rock");
 ```
 
-Your `playRound` function should increment the `humanScore` or `computerScore` variable based on the round winner.
+Tu función `playRound` debe incrementar la variable `humanScore` o `computerScore` basada en el ganador de la ronda.
 
 ```js
 humanScore = 0;
@@ -142,19 +142,19 @@ playRound("rock", "scissors");
 assert.equal(humanScore, 1);
 ```
 
-You should have a function called `playGame`.
+Debes tener una función llamada `playGame`.
 
 ```js
 assert.isFunction(playGame);
 ```
 
-You should use a loop to play 3 rounds.
+Debes usar un bucle para jugar 3 rondas.
 
 ```js
 assert.match(playGame.toString(), /\bfor\s*\(/);
 ```
 
-You should return the winner of the game based on who won the most rounds.
+Debes devolver al ganador del juego basado en quien ganó más rondas.
 
 ```js
 window.prompt = () => "rock";

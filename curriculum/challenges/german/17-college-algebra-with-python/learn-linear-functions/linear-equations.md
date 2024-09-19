@@ -16,7 +16,7 @@ Hier ist das <a href="https://colab.research.google.com/drive/1UJ1w-XFTuCfK6FI3H
 
 Füge deinem Algebra-Colab-Notizbuch Code hinzu, um eine Funktion anhand von Punkten oder einer Gleichungseingabe grafisch darzustellen.
 
-# --question--
+# --questions--
 
 ## --text--
 

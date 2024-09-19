@@ -16,7 +16,7 @@ Ecco il <a href="https://colab.research.google.com/drive/1UfyQiXCedAAv5kcqgi_pGY
 
 Aggiungi al tuo notebook del codice per risolvere e graficare sistemi di equazioni
 
-# --question--
+# --questions--
 
 ## --text--
 

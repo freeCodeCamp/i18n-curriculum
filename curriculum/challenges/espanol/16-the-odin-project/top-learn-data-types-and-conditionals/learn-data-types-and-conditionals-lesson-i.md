@@ -1,13 +1,13 @@
 ---
 id: 65e97280484dd50f720e6fee
-title: Learn Data Types and Conditionals Lesson I
+title: Aprenda tipos de datos y condicionales lección I
 challengeType: 15
 dashedName: learn-data-types-and-conditionals-lesson-i
 ---
 
 # --description--
 
-In the last example, you had two choices `if` or `else`. ¿Pero qué sucede si quieres tener más de dos opciones? Puedes usar la sentencia `else if` para agregar más condiciones a nuestro código. La sentencia `else if` nos permite comprobar múltiples condiciones y ejecutar un bloque de código cuando la primera condición es verdadera. Si la primera condición es falsa, se comprobará la siguiente condición y así sucesivamente. Si ninguna de las condiciones son verdaderas, el bloque `else` será ejecutado.
+En el último ejemplo, tenías dos opciones `if` o `else`. ¿Pero qué sucede si quieres tener más de dos opciones? Puedes usar la sentencia `else if` para agregar más condiciones a nuestro código. La sentencia `else if` nos permite comprobar múltiples condiciones y ejecutar un bloque de código cuando la primera condición es verdadera. Si la primera condición es falsa, se comprobará la siguiente condición y así sucesivamente. Si ninguna de las condiciones son verdaderas, el bloque `else` será ejecutado.
 
 Aquí hay un ejemplo de la sentencia `else if`:
 
@@ -25,7 +25,7 @@ if (x > 10) {
 
 En este ejemplo, la variable `x` se compara con el número `10` usando el operador `>`. Si `x` es mayor que `10`, se ejecutará el primer bloque de código. De lo contrario, la sentencia `else if` comprobará la siguiente condición. Si `x` es mayor que `5`, se ejecutará el segundo bloque de código. De lo contrario, se ejecutará el bloque `else`.
 
-# --question--
+# --questions--
 
 ## --text--
 

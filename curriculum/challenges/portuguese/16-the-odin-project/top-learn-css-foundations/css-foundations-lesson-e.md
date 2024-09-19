@@ -37,7 +37,7 @@ No exemplo acima, os dois primeiros elementos com a classe `contents` (`B` e `C`
 
 Não há limite para quantos combinadores você pode adicionar a uma regra. `.one .two .three .four` seria totalmente válido. Isso apenas selecionaria um elemento que tem uma classe `four` se tiver um ancestral com uma classe de `three` e se aquele ancestral tiver seu próprio ancestral com a classe `two` e assim por diante. No entanto, você geralmente vai quer evitar tentar selecionar elementos que precisam deste nível de aninhamento, pois pode ficar muito confuso e longo, além de causar problemas quando se trata de especificidade.
 
-# --question--
+# --questions--
 
 ## --text--
 

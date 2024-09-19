@@ -16,7 +16,7 @@ dashedName: guided-project-plan-a-petting-zoo-visit
 
 Microsoft Learn でガイド付きプロジェクト「<a href="https://learn.microsoft.com/training/modules/guided-project-visit-petting-zoo/" target="_blank" rel="noreferrer">ふれあい動物園への訪問を計画する</a>」を完了させてください。 次に、下記の質問に回答してください。
 
-# --question--
+# --questions--
 
 ## --text--
 

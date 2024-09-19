@@ -20,7 +20,7 @@ dashedName: demand-and-revenue
 
 『Business Math, a Step-by-Step Handbook (2021)』の 155 ページと 163 ページにある問題を解いてください。
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -30,7 +30,7 @@ Apesar dessas diferenças, a sintaxe é exatamente a mesma que a do método exte
 
 Esse método pode ser útil para adicionar estilos exclusivos a uma página em um site, mas não mantém as responsabilidades separadas como o método externo. Dependendo de quantas regras e declarações existam, isso pode fazer com que o arquivo HTML fique muito grande.
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -33,7 +33,7 @@ Se você adicionar outra `div` ao HTML, dentro de `.flex-container`, ela aparece
 
 > Se for difícil ver o que está acontecendo no pequeno CodePen incorporado, sinta-se à vontade para clicar no botão "Edit on CodePen" ou "Fork on CodePen". Isso trará o exemplo para um ambiente de tamanho completo. Ao fazer isso, será possível visualizar melhor alguns dos exemplos posteriores.
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -16,7 +16,7 @@ Hier ist das <a href="https://colab.research.google.com/drive/1UfyQiXCedAAv5kcqg
 
 Füge deinem Notizbuch Code hinzu, um Gleichungssysteme zu lösen und grafisch darzustellen
 
-# --question--
+# --questions--
 
 ## --text--
 

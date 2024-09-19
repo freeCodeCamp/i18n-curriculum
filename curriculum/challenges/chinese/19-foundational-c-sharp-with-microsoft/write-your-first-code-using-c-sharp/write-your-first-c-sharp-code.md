@@ -16,7 +16,7 @@ dashedName: write-your-first-c-sharp-code
 
 在 Microsoft Learn 上完成 <a href="https://learn.microsoft.com/training/modules/csharp-write-first/" target="_blank" rel="noreferrer">“编写你的第一段 C# 代码”</a> 模块。 然后，回答下面的问题。
 
-# --question--
+# --questions--
 
 ## --text--
 

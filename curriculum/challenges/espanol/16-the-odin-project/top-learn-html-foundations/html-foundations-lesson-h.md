@@ -9,7 +9,7 @@ dashedName: html-foundations-lesson-h
 
 Muchos recursos útiles ahí afuera siguen refiriéndose a HTML y CSS como lenguajes de programación, pero si quieres ser técnico, etiquetarlos así no es del todo exacto. Esto se debe a que solo se preocupan por presentar información. No se usan para programar lógica. JavaScript, que aprenderás en la próxima sección, es un lenguaje de programación porque se usa para hacer que las páginas web hagan cosas. Sin embargo, hay mucho que puedes hacer solo con HTML y CSS, y definitivamente los necesitarás ambos. A lo largo de nuestro currículo, las siguientes lecciones se enfocan en darte las herramientas que necesitas para tener éxito una vez que llegues al contenido de JavaScript.
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -16,7 +16,7 @@ dashedName: guided-project-calculate-final-gpa
 
 在 Microsoft Learn 上完成 <a href="https://learn.microsoft.com/training/modules/guided-project-calculate-final-gpa/" target="_blank" rel="noreferrer">計算最終GPA</a> 的引導項目。 然後，回答下面的問題。
 
-# --question--
+# --questions--
 
 ## --text--
 

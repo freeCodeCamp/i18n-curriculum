@@ -16,7 +16,7 @@ dashedName: linear-equations
 
 点または方程式の入力から関数をグラフ表示するコードを代数学用の Colab ノートブックに追加してください。
 
-# --question--
+# --questions--
 
 ## --text--
 

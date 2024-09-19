@@ -10,7 +10,7 @@ dashedName: simple-and-compound-interest-extra
 
 Python コードから少し外れますが、この動画では、Google スプレッドシートで住宅ローンの支払い償却表を作成する方法を紹介しています。 また、これとよく似た設定を用いて、退職金口座の投資収益を見積もる方法についても説明します。 この動画でお金の流れを理解することができます。
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -16,7 +16,7 @@ dashedName: guided-project-plan-a-petting-zoo-visit
 
 在 Microsoft Learn 上完成 <a href="https://learn.microsoft.com/training/modules/guided-project-visit-petting-zoo/" target="_blank" rel="noreferrer">計劃參觀寵物動物園</a> 的引導項目。 然後，回答下面的問題。
 
-# --question--
+# --questions--
 
 ## --text--
 

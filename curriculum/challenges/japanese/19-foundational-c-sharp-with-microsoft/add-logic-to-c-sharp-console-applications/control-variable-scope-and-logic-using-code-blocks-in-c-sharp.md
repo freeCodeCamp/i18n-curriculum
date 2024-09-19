@@ -16,7 +16,7 @@ dashedName: control-variable-scope-and-logic-using-code-blocks-in-c-sharp
 
 Microsoft Learn で「<a href="https://learn.microsoft.com/training/modules/csharp-code-blocks/" target="_blank" rel="noreferrer">C# でコード ブロックを使用して変数のスコープとロジックを制御する</a>」モジュールを完了してください。 次に、下記の質問に回答してください。
 
-# --question--
+# --questions--
 
 ## --text--
 

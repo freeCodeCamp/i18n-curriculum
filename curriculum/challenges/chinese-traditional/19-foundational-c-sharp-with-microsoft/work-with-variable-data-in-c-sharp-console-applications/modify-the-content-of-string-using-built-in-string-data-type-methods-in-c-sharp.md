@@ -16,7 +16,7 @@ dashedName: modify-the-content-of-string-using-built-in-string-data-type-methods
 
 在 Microsoft Learn 上完成 <a href="https://learn.microsoft.com/training/modules/csharp-modify-content/" target="_blank" rel="noreferrer">使用 C# 中的內置字符串數據類型方法修改字符串內容</a> 模塊。 然後，回答下面的問題。
 
-# --question--
+# --questions--
 
 ## --text--
 

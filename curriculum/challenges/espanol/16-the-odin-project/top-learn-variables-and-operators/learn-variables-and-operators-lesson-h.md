@@ -22,38 +22,38 @@ Aquí hay un extracto de la tabla de precedencia (no necesitas recordar esto, pe
 | ...         | ...             | ...   |
 | 14          | unario más      | +     |
 | 14          | negación unaria | -     |
-| 13          | exponentiation  | **    |
-| 12          | multiplication  | *     |
-| 12          | division        | /     |
-| 11          | addition        | +     |
-| 11          | subtraction     | -     |
+| 13          | exponenciación  | **    |
+| 12          | multiplicación  | *     |
+| 12          | división        | /     |
+| 11          | adición         | +     |
+| 11          | sustracción     | -     |
 | ...         | ...             | ...   |
-| 2           | assignment      | =     |
+| 2           | tarea           | =     |
 | ...         | ...             | ...   |
 
 
 
-# --question--
+# --questions--
 
 ## --text--
 
-When dealing with multiple operators in a JavaScript expression, which statement is true regarding the order of execution?
+Cuando se trata de múltiples operadores en una expresión de JavaScript, ¿qué afirmación es verdadera respecto al orden de ejecución?
 
 ## --answers--
 
-Operators are executed from right to left, regardless of their precedence.
+Los operadores se ejecutan de derecha a izquierda, independientemente de su precedencia.
 
 ---
 
-Operators with higher precedence are executed first, and parentheses can override the predefined precedence.
+Los operadores con mayor precedencia se ejecutan primero, y los paréntesis pueden anular la precedencia predefinida.
 
 ---
 
-The operator precedence is determined by the operator's speed of execution.
+La precedencia del operador está determinada por la velocidad de ejecución del operador.
 
 ---
 
-Multiplication always takes precedence over addition, and unary operators are executed after binary ones.
+La multiplicación siempre tiene precedencia sobre la adición, y los operadores unarios se ejecutan después de los binarios.
 
 
 ## --video-solution--

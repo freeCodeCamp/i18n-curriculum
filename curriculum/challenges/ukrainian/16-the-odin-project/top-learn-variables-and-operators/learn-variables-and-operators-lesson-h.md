@@ -33,7 +33,7 @@ dashedName: learn-variables-and-operators-lesson-h
 
 
 
-# --question--
+# --questions--
 
 ## --text--
 

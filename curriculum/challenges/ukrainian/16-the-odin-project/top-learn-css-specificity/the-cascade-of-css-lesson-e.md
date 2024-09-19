@@ -24,7 +24,7 @@ dashedName: the-cascade-of-css-lesson-e
 
 Хоча оголошення `color: red` має перевагу, оголошення `background-color: yellow` все одно буде застосовано, оскільки не виникає конфліктуючого оголошення.
 
-# --question--
+# --questions--
 
 ## --text--
 

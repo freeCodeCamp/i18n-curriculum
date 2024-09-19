@@ -16,7 +16,7 @@ dashedName: guided-project-calculate-and-print-student-grades
 
 在 Microsoft Learn 上完成<a href="https://learn.microsoft.com/training/modules/guided-project-calculate-print-student-grades/" target="_blank" rel="noreferrer">計算並打印學生成績</a>的引導項目。 然後，回答下面的問題。
 
-# --question--
+# --questions--
 
 ## --text--
 

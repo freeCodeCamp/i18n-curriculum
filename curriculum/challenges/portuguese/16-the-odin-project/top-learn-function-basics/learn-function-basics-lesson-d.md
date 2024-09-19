@@ -29,7 +29,7 @@ function favoriteAnimal(animal = 'Giant Panda') {
 
 No exemplo acima, o valor padrão do parâmetro `animal` é definido como `'Giant Panda'`. Se a função `favoriteAnimal` for chamada sem um argumento, o parâmetro `animal` receberá o valor `'Giant Panda'`.
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -20,7 +20,7 @@ Questo primo video include un'introduzione al corso, come funziona e come utiliz
 
 Crea un <a href="https://drive.google.com/" target="_blank" rel="noopener noreferrer nofollow">notebook Colab per l'algebra sul tuo google drive</a> in modo da poter seguire i video passo passo.
 
-# --question--
+# --questions--
 
 ## --text--
 

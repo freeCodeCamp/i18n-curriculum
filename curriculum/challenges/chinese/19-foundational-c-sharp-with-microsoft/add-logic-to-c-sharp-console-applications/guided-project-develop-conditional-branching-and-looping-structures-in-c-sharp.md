@@ -16,7 +16,7 @@ dashedName: guided-project-develop-conditional-branching-and-looping-structures-
 
 在 Microsoft Learn 上完成 <a href="https://learn.microsoft.com/training/modules/guided-project-develop-conditional-branching-looping/" target="_blank" rel="noreferrer">在 C# 中开发条件分支和循环结构</a> 的引导项目。 然后，回答下面的问题。
 
-# --question--
+# --questions--
 
 ## --text--
 

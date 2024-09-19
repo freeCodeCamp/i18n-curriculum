@@ -12,7 +12,7 @@ dashedName: task-78
 Наприклад, `Health and safety regulations ensure a safe workplace`.
 
 
-# --question--
+# --questions--
 
 ## --text--
 

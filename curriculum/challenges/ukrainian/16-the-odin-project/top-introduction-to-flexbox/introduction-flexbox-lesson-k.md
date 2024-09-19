@@ -21,7 +21,7 @@ allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="400" w
 
 Перш ніж перейти до наступного уроку, переконайтесь, що розумієте, як поводиться `align-items` при зміні властивості `flex-direction` на `column`.
 
-# --question--
+# --questions--
 
 ## --text--
 

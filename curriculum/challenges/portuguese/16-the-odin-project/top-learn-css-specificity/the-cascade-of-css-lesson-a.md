@@ -13,7 +13,7 @@ Então, se você acabar com algum comportamento inesperado como esse, pode ser p
 
 A cascata é o que determina quais regras realmente são aplicadas ao seu HTML. Há diferentes fatores que a cascata usa para determinar isso. Examinaremos três desses fatores, o que acreditamos que ajudará você a evitar aqueles momentos frustrantes do tipo "Odeio o CSS".
 
-# --question--
+# --questions--
 ## --text--
 
 Por que você pode encontrar comportamentos inesperados no CSS?

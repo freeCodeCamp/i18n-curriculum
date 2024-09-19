@@ -25,7 +25,7 @@ A melhor maneira de melhorar sua capacidade de resolver problemas é ganhando ex
 
 Leia <a href="https://www.freecodecamp.org/news/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2/" target="_blank">Como Pensar Como um Programador - Lições em Resolução de Problemas</a> de Richard Reis.
 
-# --question--
+# --questions--
 
 ## --text--
 

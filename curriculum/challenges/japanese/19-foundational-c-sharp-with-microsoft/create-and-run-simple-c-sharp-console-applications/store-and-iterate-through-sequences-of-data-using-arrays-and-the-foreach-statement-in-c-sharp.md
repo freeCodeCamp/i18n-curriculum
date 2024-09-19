@@ -16,7 +16,7 @@ dashedName: store-and-iterate-through-sequences-of-data-using-arrays-and-the-for
 
 Microsoft Learn で「<a href="https://learn.microsoft.com/training/modules/csharp-arrays/" target="_blank" rel="noreferrer">C# で配列と `foreach` ステートメントを使用して、データのシーケンスを格納し、反復処理する</a>」モジュールを完了してください。 次に、下記の質問に回答してください。
 
-# --question--
+# --questions--
 
 ## --text--
 

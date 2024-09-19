@@ -10,7 +10,7 @@ dashedName: more-resources-in-colab
 
 還有一件事...... 這個簡短的視頻將介紹 Google Colab 筆記本中的一些可用的資源。
 
-# --question--
+# --questions--
 
 ## --text--
 

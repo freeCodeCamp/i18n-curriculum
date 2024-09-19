@@ -16,7 +16,7 @@ dashedName: solving-for-x
 
 Додайте код з відео для розв’язку рівняння до свого блокнота Colab.
 
-# --question--
+# --questions--
 
 ## --text--
 

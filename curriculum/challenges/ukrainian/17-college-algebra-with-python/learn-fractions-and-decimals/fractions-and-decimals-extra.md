@@ -20,7 +20,7 @@ dashedName: fractions-and-decimals-extra
 
 Запустіть код у наступному блокноті, щоб попрактикуватись <a href="https://colab.research.google.com/drive/1qON4GYbMkaZJA7MYd7-RcDROOkuuBJg9?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">перетворювати дроби та десяткові числа.</a> Як бонус, гляньте на код, який генерує приклади для практики.
 
-# --question--
+# --questions--
 
 ## --text--
 

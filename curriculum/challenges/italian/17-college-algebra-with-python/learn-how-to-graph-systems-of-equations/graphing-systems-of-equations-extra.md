@@ -12,7 +12,7 @@ Il prossimo video ti offrirà un'analisi più approfondita di quello che puoi fa
 
 Ecco il <a href="https://colab.research.google.com/drive/1m5oG62NzUHRzBghGCPRfr1SzvbywRWPV?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">notebook Colab usato in questo video.</a>
 
-# --question--
+# --questions--
 
 ## --text--
 

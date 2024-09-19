@@ -10,7 +10,7 @@ dashedName: applications-of-linear-systems-extra
 
 O próximo vídeo contém mais exemplos de como configurar equações e usar seu notebook do Colaboratory para resolvê-las.
 
-# --question--
+# --questions--
 
 ## --text--
 

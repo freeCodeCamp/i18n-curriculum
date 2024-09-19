@@ -36,7 +36,7 @@ dashedName: learn-variables-and-operators-lesson-a
 
 Файли JavaScript мають розширення `.js`, яке схоже до `.css` для таблиць стилів. Для складніших скриптів використовують зовнішні файли JavaScript.
 
-# --question--
+# --questions--
 
 ## --text--
 

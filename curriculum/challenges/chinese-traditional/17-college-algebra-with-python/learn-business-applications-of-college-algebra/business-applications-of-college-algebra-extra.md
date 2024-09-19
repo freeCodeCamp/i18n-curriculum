@@ -10,7 +10,7 @@ dashedName: business-applications-of-college-algebra-extra
 
 這個視頻向你展示了一些經濟學應用，以及創建圖像和公式。
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -45,7 +45,7 @@ dashedName: links-and-images-lesson-a
 
 Перегляньте відео Кевіна Павелла про посилання у HTML (розміщене вище).
 
-# --question--
+# --questions--
 
 ## --text--
 

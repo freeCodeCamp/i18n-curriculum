@@ -16,7 +16,7 @@ Mais recursos:
 
 \- <a href="https://www.youtube.com/watch?v=EhQxwzyT16E" target="_blank" rel="noopener noreferrer nofollow">Exercício</a>
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -16,7 +16,7 @@ dashedName: add-decision-logic-to-your-code-using-if-else-and-else-if-statements
 
 在 Microsoft Learn 上完成 <a href="https://learn.microsoft.com/training/modules/csharp-if-elseif-else/" target="_blank" rel="noreferrer">在 C# 中使用 if、else 和 else if 语句向代码中添加决策逻辑</a> 模块。 然后，回答下面的问题。
 
-# --question--
+# --questions--
 
 ## --text--
 

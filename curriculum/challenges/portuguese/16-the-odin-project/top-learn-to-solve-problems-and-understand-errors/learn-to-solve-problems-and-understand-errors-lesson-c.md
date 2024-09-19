@@ -26,7 +26,7 @@ Este é um programa básico para demonstrar como o pseudocódigo se parece. Have
 
 Leia o artigo <a href="https://builtin.com/data-science/pseudocode" target="_blank"> Pseudocódigo: O que é e como escrevê-lo</a>, da Built In.
 
-# --question--
+# --questions--
 
 ## --text--
 

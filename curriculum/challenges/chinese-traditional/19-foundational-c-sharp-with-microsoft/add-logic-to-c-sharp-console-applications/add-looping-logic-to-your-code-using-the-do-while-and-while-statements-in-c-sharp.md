@@ -16,7 +16,7 @@ dashedName: add-looping-logic-to-your-code-using-the-do-while-and-while-statemen
 
 在 Microsoft Learn 上完成 <a href="https://learn.microsoft.com/training/modules/csharp-do-while/" target="_blank" rel="noreferrer">使用 C# 中的 do-while 和 while 語句在代碼中添加循環邏輯</a> 模塊。 然後，回答下面的問題。
 
-# --question--
+# --questions--
 
 ## --text--
 

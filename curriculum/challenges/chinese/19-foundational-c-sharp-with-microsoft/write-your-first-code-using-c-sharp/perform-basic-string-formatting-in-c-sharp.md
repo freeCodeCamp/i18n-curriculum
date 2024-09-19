@@ -16,7 +16,7 @@ dashedName: perform-basic-string-formatting-in-c-sharp
 
 在 Microsoft Learn 上完成 <a href="https://learn.microsoft.com/training/modules/csharp-basic-formatting/" target="_blank" rel="noreferrer">“在 C# 中执行基本的字符串格式化”</a> 模块。 然后，回答下面的问题。
 
-# --question--
+# --questions--
 
 ## --text--
 

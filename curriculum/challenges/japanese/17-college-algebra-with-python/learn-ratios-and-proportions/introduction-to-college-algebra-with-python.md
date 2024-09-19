@@ -20,7 +20,7 @@ dashedName: introduction-to-college-algebra-with-python
 
 動画に従って手を動かせるように、代数学用の <a href="https://drive.google.com/" target="_blank" rel="noopener noreferrer nofollow">Colab ノートブックをあなたの Google Drive に作成</a> してください。
 
-# --question--
+# --questions--
 
 ## --text--
 

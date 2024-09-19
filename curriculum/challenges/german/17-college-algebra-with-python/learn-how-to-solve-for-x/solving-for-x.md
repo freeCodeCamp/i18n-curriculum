@@ -16,7 +16,7 @@ Hier findest du das <a href="https://colab.research.google.com/drive/11Zi77gs1FK
 
 Füge den Code zum Lösen von x aus dem Video in dein Algebra-Colab-Notizbuch ein.
 
-# --question--
+# --questions--
 
 ## --text--
 

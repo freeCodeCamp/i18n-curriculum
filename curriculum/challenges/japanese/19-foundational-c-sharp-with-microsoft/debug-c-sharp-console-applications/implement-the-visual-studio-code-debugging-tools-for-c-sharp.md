@@ -16,7 +16,7 @@ dashedName: implement-the-visual-studio-code-debugging-tools-for-c-sharp
 
 Microsoft Learn で「<a href="https://learn.microsoft.com/training/modules/implement-visual-studio-code-debugging-tools/" target="_blank" rel="noreferrer">C# 用の Visual Studio Code デバッグ ツールを実装する</a>」モジュールを完了してください。 次に、下記の質問に回答してください。
 
-# --question--
+# --questions--
 
 ## --text--
 

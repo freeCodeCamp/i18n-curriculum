@@ -16,7 +16,7 @@ dashedName: challenge-project-develop-branching-and-looping-structures-in-c-shar
 
 在 Microsoft Learn 上完成 <a href="https://learn.microsoft.com/training/modules/challenge-project-develop-branching-looping-structures-c-sharp/" target="_blank" rel="noreferrer">在 C# 中開發分支和循環結構</a> 的挑戰項目。 然後，回答下面的問題。
 
-# --question--
+# --questions--
 
 ## --text--
 

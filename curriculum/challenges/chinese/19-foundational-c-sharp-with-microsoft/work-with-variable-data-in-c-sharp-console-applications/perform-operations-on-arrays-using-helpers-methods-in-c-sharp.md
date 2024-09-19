@@ -16,7 +16,7 @@ dashedName: perform-operations-on-arrays-using-helpers-methods-in-c-sharp
 
 在 Microsoft Learn 上完成 <a href="https://learn.microsoft.com/training/modules/csharp-arrays-operations/" target="_blank" rel="noreferrer">使用 C# 中的帮助器方法对数组执行操作</a> 模块。 然后，回答下面的问题。
 
-# --question--
+# --questions--
 
 ## --text--
 

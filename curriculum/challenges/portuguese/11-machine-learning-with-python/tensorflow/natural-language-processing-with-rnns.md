@@ -14,7 +14,7 @@ dashedName: natural-language-processing-with-rnns
 
 As próximas aulas em vídeo farão referência a [este Colab notebook](https://colab.research.google.com/drive/1ysEKrw_LE2jMndo1snrZUh5w87LQsCxk#forceEdit=true&sandboxMode=true).
 
-# --question--
+# --questions--
 
 ## --text--
 

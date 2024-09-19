@@ -12,7 +12,7 @@ dashedName: slope
 
 Ось <a href="https://colab.research.google.com/drive/1UJ1w-XFTuCfK6FI3H2GT0lbxd2HO3tQ6?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">блокнот Colab для цього та наступних відео.</a>
 
-# --question--
+# --questions--
 
 ## --text--
 

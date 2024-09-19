@@ -16,7 +16,7 @@ Hier ist das <a href="https://colab.research.google.com/drive/1dgeEEODP7cwm_96_J
 
 Füge den Code zum Umrechnen von Brüchen und Dezimalzahlen in dein Algebra-Colab-Notizbuch ein.
 
-# --question--
+# --questions--
 
 ## --text--
 

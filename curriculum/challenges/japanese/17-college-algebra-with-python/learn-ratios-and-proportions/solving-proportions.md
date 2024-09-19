@@ -16,7 +16,7 @@ dashedName: solving-proportions
 
 最初のステップで作成した代数学用の Colab ノートブックに、動画のコードを追加してください。
 
-# --question--
+# --questions--
 
 ## --text--
 

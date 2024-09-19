@@ -10,7 +10,7 @@ dashedName: more-resources-in-colab
 
 Eine Sache noch... In diesem kurzen Video werden dir einige der Ressourcen vorgestellt, die dir in Google Colab-Notizbüchern zur Verfügung stehen.
 
-# --question--
+# --questions--
 
 ## --text--
 

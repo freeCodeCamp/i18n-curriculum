@@ -29,7 +29,7 @@ div {
 
 Aqui, todos os três elementos `<div>` seriam selecionados, enquanto o elemento `<p>` não seria.
 
-# --question--
+# --questions--
 
 ## --text--
 

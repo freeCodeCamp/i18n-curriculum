@@ -16,7 +16,7 @@ dashedName: challenge-project-create-a-mini-game
 
 在 Microsoft Learn 上完成 <a href="https://learn.microsoft.com/training/modules/challenge-project-create-mini-game/" target="_blank" rel="noreferrer">創建小遊戲</a> 的挑戰項目。 然後，回答下面的問題。
 
-# --question--
+# --questions--
 
 ## --text--
 

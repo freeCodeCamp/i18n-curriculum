@@ -21,7 +21,7 @@ Como `justify-content` e `align-items` são baseados no eixo principal e no eixo
 
 Antes de passar para a próxima lição, veja se você consegue entender como `align-items` se comporta quando você muda a propriedade `flex-direction` para `column`.
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -24,7 +24,7 @@ dashedName: word-problems
 
 完成《代数与三角学》第 304、308 和 321 页的问题。
 
-# --question--
+# --questions--
 
 ## --text--
 

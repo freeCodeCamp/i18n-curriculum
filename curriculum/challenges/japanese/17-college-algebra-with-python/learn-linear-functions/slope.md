@@ -12,7 +12,7 @@ dashedName: slope
 
 <a href="https://colab.research.google.com/drive/1UJ1w-XFTuCfK6FI3H2GT0lbxd2HO3tQ6?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">この動画と次の動画で使用している Colab ノートブックはこちら</a>です。
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -31,7 +31,7 @@ dashedName: html-foundations-lesson-c
 
 Відкрийте створений раніше файл `index.html` у текстовому редакторі та додайте `<!DOCTYPE html>` до першого рядка.
 
-# --question--
+# --questions--
 ## --text--
 
 Яка суть оголошення `DOCTYPE`?

@@ -16,7 +16,7 @@ dashedName: choose-the-correct-data-type-in-your-c-sharp-code
 
 在 Microsoft Learn 上完成 <a href="https://learn.microsoft.com/training/modules/csharp-choose-data-type/" target="_blank" rel="noreferrer">在 C# 代碼中選擇正確的數據類型</a> 模塊。 然後，回答下面的問題。
 
-# --question--
+# --questions--
 
 ## --text--
 

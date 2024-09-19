@@ -10,7 +10,7 @@ dashedName: applications-of-linear-systems-extra
 
 次の動画では、方程式を立てて Colab ノートブックを使用して解く、その他の例を紹介します。
 
-# --question--
+# --questions--
 
 ## --text--
 

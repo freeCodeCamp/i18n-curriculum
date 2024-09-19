@@ -23,7 +23,7 @@ myBirthday = '01-01-2001'; // error, can't reassign the constant!
 
 Quando um programador tem certeza de que uma variável nunca mudará, ele pode declará-la com `const` para garantir isso e para comunicar esse fato a todos.
 
-# --question--
+# --questions--
 
 ## --text--
 

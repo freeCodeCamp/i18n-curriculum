@@ -21,7 +21,7 @@ console.log(newNumbers); // Output: [5, 6, 9]
 
 O método `filter()` cria um array com todos os elementos que são maiores que 2. O método `filter()` não altera o array original.
 
-# --question--
+# --questions--
 
 ## --text--
 

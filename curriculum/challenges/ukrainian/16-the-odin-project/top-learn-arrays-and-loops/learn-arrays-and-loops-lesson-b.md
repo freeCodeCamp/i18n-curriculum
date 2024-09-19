@@ -20,7 +20,7 @@ console.log(fruits[2]); // Output: orange
 Якщо індекс поза діапазоном, JavaScript поверне `undefined`. Якби ви спробували отримати `fruits[3]` у прикладі вище, він би повернув `undefined`.
 
 
-# --question--
+# --questions--
 
 ## --text--
 

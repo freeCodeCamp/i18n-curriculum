@@ -20,7 +20,7 @@ dashedName: introduction-to-college-algebra-with-python
 
 Створіть <a href="https://drive.google.com/" target="_blank" rel="noopener noreferrer nofollow">блокнот з алгебри Colab на своєму гугл-диску</a>, щоб паралельно працювати з відео.
 
-# --question--
+# --questions--
 
 ## --text--
 

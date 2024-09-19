@@ -20,7 +20,7 @@ Adicione código ao seu notebook do Colaboratory de álgebra para funções e gr
 
 Execute o notebook a sefguir para ver <a href="https://colab.research.google.com/drive/1UYorWd9-Btf_ZQyA9YdUzxzKR8rnVrSV#scrollTo=yJiVB8wdHRxS" target="_blank" rel="noopener noreferrer nofollow">mais maneiras de criar gráficos usando álgebra e Python.</a>
 
-# --question--
+# --questions--
 
 ## --text--
 

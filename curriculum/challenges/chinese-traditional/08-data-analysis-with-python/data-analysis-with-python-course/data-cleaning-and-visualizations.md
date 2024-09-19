@@ -19,7 +19,7 @@ dashedName: data-cleaning-and-visualizations
 -  <a href="https://github.com/ine-rmotr-curriculum/data-cleaning-rmotr-freecodecamp" target="_blank" rel="noopener noreferrer nofollow">在 GitHub 平臺的 Notebooks</a>
 -  <a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb" target="_blank" rel="noopener noreferrer nofollow">如何使用 Google Colab 來打開 GitHub 上的 Notebooks</a>
 
-# --question--
+# --questions--
 
 ## --text--
 

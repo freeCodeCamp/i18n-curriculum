@@ -15,7 +15,7 @@ dashedName: the-box-model-lesson-b
 
 <img src="https://cdn.freecodecamp.org/curriculum/odin-project/the-box-model/overwritten-style.png" alt="Фрагмент коду CSS на консолі розробника, що показує .hero_main-heading із застосованими margin-bottom: 100px, padding-bottom: 1,875rem, .accent color #ce973e. Правила стилю h1 включають font-size, weight, letter-spacing та замінену властивість margin-bottom: 2rem." />
 
-# --question--
+# --questions--
 
 ## --text--
 

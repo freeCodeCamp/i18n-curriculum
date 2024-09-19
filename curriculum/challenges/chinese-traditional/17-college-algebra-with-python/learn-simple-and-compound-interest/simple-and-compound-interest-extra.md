@@ -10,7 +10,7 @@ dashedName: simple-and-compound-interest-extra
 
 下面是一段 Python 代碼的視頻，該視頻向你展示瞭如何在 Google Sheets 中創建抵押貸款付款攤銷表。 你還將瞭解到如何使用一個非常類似的設置來估算退休賬戶的投資回報。 這是顯示你的錢的去向的視頻。
 
-# --question--
+# --questions--
 
 ## --text--
 

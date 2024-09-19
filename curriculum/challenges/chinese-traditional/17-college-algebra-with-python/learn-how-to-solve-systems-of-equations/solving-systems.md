@@ -16,7 +16,7 @@ dashedName: solving-systems
 
 在你的筆記本上添加代碼，以求解方程組和繪製圖像。
 
-# --question--
+# --questions--
 
 ## --text--
 

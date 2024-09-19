@@ -14,7 +14,7 @@ dashedName: convolutional-neural-networks
 
 As próximas aulas em vídeo farão referência a [este Colab notebook](https://colab.research.google.com/drive/1ZZXnCjFEOkp_KdNcNabd14yok0BAIuwS#forceEdit=true&sandboxMode=true).
 
-# --question--
+# --questions--
 
 ## --text--
 

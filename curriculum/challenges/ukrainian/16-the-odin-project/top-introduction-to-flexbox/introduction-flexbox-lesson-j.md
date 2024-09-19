@@ -25,7 +25,7 @@ dashedName: introduction-flexbox-lesson-j
 
 Перш ніж перейти до наступного уроку, подивіться, що можливо за допомогою властивості `justify-content`. Прочитайте [цю статтю](https://webdoky.org/uk/docs/Web/CSS/justify-content/#syntaksys) (англійською мовою) та ознайомтесь з різними значеннями властивості `justify-content` на прикладі.
 
-# --question--
+# --questions--
 
 ## --text--
 

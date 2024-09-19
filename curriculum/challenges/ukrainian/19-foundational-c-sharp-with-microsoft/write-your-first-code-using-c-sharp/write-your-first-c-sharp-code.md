@@ -16,7 +16,7 @@ dashedName: write-your-first-c-sharp-code
 
 Виконайте модуль <a href="https://learn.microsoft.com/training/modules/csharp-write-first/" target="_blank" rel="noreferrer">«Напишіть свій перший код C#»</a> на Microsoft Learn. Потім дайте відповідь на запитання нижче.
 
-# --question--
+# --questions--
 
 ## --text--
 

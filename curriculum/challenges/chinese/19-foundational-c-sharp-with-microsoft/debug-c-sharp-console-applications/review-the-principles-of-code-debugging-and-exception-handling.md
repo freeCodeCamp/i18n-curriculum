@@ -16,7 +16,7 @@ dashedName: review-the-principles-of-code-debugging-and-exception-handling
 
 在 Microsoft Learn 上完成 <a href="https://learn.microsoft.com/training/modules/review-principles-code-debugging-exception-handling-c-sharp/" target="_blank" rel="noreferrer">查看代码调试和异常处理的原则</a> 模块。 然后，回答下面的问题。
 
-# --question--
+# --questions--
 
 ## --text--
 

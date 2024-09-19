@@ -16,7 +16,7 @@ dashedName: choose-the-correct-data-type-in-your-c-sharp-code
 
 Microsoft Learn で「<a href="https://learn.microsoft.com/training/modules/csharp-choose-data-type/" target="_blank" rel="noreferrer">C# コードで正しいデータ型を選択する</a>」モジュールを完了してください。 次に、下記の質問に回答してください。
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -16,7 +16,7 @@ dashedName: write-your-first-c-sharp-code
 
 Microsoft Learn で「<a href="https://learn.microsoft.com/training/modules/csharp-write-first/" target="_blank" rel="noreferrer">最初の C# コードを記述する</a>」モジュールを完了してください。 次に、下記の質問に回答してください。
 
-# --question--
+# --questions--
 
 ## --text--
 

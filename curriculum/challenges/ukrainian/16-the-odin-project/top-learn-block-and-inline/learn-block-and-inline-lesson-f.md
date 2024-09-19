@@ -9,7 +9,7 @@ dashedName: learn-block-and-inline-lesson-f
 
 Поняття «нормального потоку» (англ. Normal flow) використовується в матеріалах блокової моделі, однак не викладене конкретно. Див. <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Normal_Flow" target="_blank">Normal Flow</a> від MDN (англійською мовою), щоб підтвердити своє розуміння того, як елементи розташовуються за замовчуванням.
 
-# --question--
+# --questions--
 
 ## --text--
 

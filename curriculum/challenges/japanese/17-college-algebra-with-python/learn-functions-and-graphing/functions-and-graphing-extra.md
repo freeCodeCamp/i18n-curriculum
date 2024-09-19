@@ -16,7 +16,7 @@ dashedName: functions-and-graphing-extra
 
 関数とグラフ表示のためのコードを代数学用の Colab ノートブックに追加してください。
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -12,7 +12,7 @@ Second Candidate: I have a master's degree in computer science. -->
 
 In English, the noun suffixed with `'s` followed by a second noun structure is used to show possession or belonging. Wenn das erste Substantiv Singular ist, wie in `Sarah's laptop`, bedeutet das, dass der Laptop Sarah gehört. However, if the first noun is plural, the structure changes to noun suffixed with `'`, as in `teachers' office`, indicating an office for teachers.
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -10,7 +10,7 @@ dashedName: spreadsheets-and-additional-resources
 
 讓我們來看看如何將你的數學和 Python 知識與外部數據聯繫起來。 本視頻將向你展示如何從其他來源獲得數據，然後對其進行轉換，以便你能對其進行繪圖和解釋。
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -16,7 +16,7 @@ dashedName: install-and-configure-visual-studio-code
 
 在 Microsoft Learn 上完成 <a href="https://learn.microsoft.com/training/modules/install-configure-visual-studio-code/" target="_blank" rel="noreferrer">安裝並配置 Visual Studio Code</a> 模塊。 然後，回答下面的問題。
 
-# --question--
+# --questions--
 
 ## --text--
 

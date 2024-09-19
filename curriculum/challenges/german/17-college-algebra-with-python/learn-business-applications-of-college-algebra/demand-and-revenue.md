@@ -20,7 +20,7 @@ Hier ist das <a href="https://colab.research.google.com/drive/1foxkSd90q1tHCSqyY
 
 Löse die Aufgaben auf den Seiten 155 und 163 aus dem Lehrbuch "Business Math, a Step-by-Step Handbook (2021)".
 
-# --question--
+# --questions--
 
 ## --text--
 
