@@ -1,6 +1,6 @@
 ---
 id: 564944c91be2204b269d51e3
-title: Change Text Inside an Element Using jQuery
+title: jQuery로 요소 안의 글자 변경하기
 challengeType: 6
 forumTopicId: 16773
 dashedName: change-text-inside-an-element-using-jquery
@@ -8,27 +8,27 @@ dashedName: change-text-inside-an-element-using-jquery
 
 # --description--
 
-Using jQuery, you can change the text between the start and end tags of an element. You can even change HTML markup.
+jQuery를 사용하면 요소의 시작과 끝 태그 사이에 있는 텍스트를 변경할 수 있습니다. 심지어 HTML 마크업도 변경할 수 있습니다.
 
-jQuery has a function called `.html()` that lets you add HTML tags and text within an element. Any content previously within the element will be completely replaced with the content you provide using this function.
+jQuery는 요소 내에 HTML 태그와 텍스트를 추가할 수 있게 해주는 `.html()`라는 함수를 가지고 있습니다. 이 함수를 사용하여 제공하는 내용은 요소 내 기존의 내용을 완전히 대체합니다.
 
-Here's how you would rewrite and emphasize the text of our heading:
+다음은 헤딩의 텍스트를 다시 쓰고 강조하는 법입니다.
 
 ```js
 $("h3").html("<em>jQuery Playground</em>");
 ```
 
-jQuery also has a similar function called `.text()` that only alters text without adding tags. In other words, this function will not evaluate any HTML tags passed to it, but will instead treat it as the text you want to replace the existing content with.
+jQuery는 태그를 추가하지 않고 오직 텍스트만 변경하는 `.text()`라는 함수도 있습니다. 다시 말해, 이 함수는 전달된 HTML 태그를 평가하지 않는 대신에 기존 콘텐츠를 대체하고자 하는 텍스트로 취급합니다.
 
-Change the button with id `target4` by emphasizing its text.
+텍스트를 강조하기 위해 id `target4`를 가진 버튼을 변경합니다.
 
-<a href="https://www.freecodecamp.org/news/html-elements-explained-what-are-html-tags/#em-element" target="_blank" rel="noopener noreferrer nofollow">View our news article for &lt;em&gt;</a> to learn the difference between `<i>` and `<em>` and their uses.
+<a href="https://www.freecodecamp.org/news/html-elements-explained-what-are-html-tags/#em-element" target="_blank" rel="noopener noreferrer nofollow">&lt;em&gt; 에 대한 기사</a>를 보고 `<i>`와 `<em>`의 차이와 사용법을 배우시오.
 
-Note that while the `<i>` tag has traditionally been used to emphasize text, it has since been adopted for use as a tag for icons. The `<em>` tag is now widely accepted as the tag for emphasis. Either will work for this challenge.
+`<i>` 태그는 전통적으로 텍스트를 강조하기 위해 사용되었지만, 최근에는 아이콘 태그로 사용되기도 합니다. `<em>` 태그는 이제 강조를 위한 태그로 받아들여 집니다. 어느 방식이든 이 과제에 대해서 동작할 것입니다.
 
 # --hints--
 
-You should emphasize the text in your `target4` button by adding HTML tags.
+HTML 태그를 추가하여 `target4` 버튼의 텍스트를 강조해야 합니다.
 
 ```js
 assert.isTrue(
@@ -36,25 +36,25 @@ assert.isTrue(
 );
 ```
 
-The text should otherwise remain unchanged.
+텍스트는 변경하지 않아야 합니다.
 
 ```js
 assert($('#target4') && $('#target4').text().trim() === '#target4');
 ```
 
-You should not alter any other text.
+다른 텍스트 또한 변경하지 않아야 합니다.
 
 ```js
 assert.isFalse(/<em>|<i>/gi.test($('h3').html()));
 ```
 
-You should be using `.html()` and not `.text()`.
+`.html()`를 사용해야 하며 `.text()`를 사용하지 않아야 합니다.
 
 ```js
 assert(code.match(/\.html\(/g));
 ```
 
-You should select `button id="target4"` with jQuery.
+jQuery로 `button id="target4"`를 선택해야 합니다.
 
 ```js
 assert(code.match(/\$\(\s*?(\"|\')#target4(\"|\')\s*?\)\.html\(/));
