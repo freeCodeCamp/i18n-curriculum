@@ -17,10 +17,10 @@ The following comparison operators are available in JavaScript:
 | !=       | Not equal                | x != y  |
 | >        | Greater than             | x > y   |
 | <        | Less than                | x < y   |
-| >=       | Greater than or equal to | x >= y  |
-| <=       | Less than or equal to    | x <= y  |
+| >=       | Mayor o igual que        | x >= y  |
+| <=       | Menor o igual que        | x <= y  |
 
-To use a comparison in a variable assignment, you can use the `==` operator. For example:
+Para usar una comparación en una asignación de variable, puedes usar el operador `==`. Por ejemplo:
 
 ```javascript
 let x = 5;
@@ -36,7 +36,7 @@ console.log(result); // true
 
 ## --text--
 
-Which of the following is the correct way to check if the variable `x` is equal to the number `5` in JavaScript?
+¿Cuál de las siguientes es la manera correcta de verificar si la variable `x` es igual al número `5` en JavaScript?
 
 ## --answers--
 

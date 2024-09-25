@@ -1,6 +1,6 @@
 ---
 id: 6617a1fce90de1b3fd10bd4e
-title: Learn Function Basics Lesson B
+title: Aprenda funciones básicas lección B
 challengeType: 15
 dashedName: learn-function-basics-lesson-b
 ---
@@ -15,9 +15,9 @@ function favoriteAnimal(animal) {
 console.log(favoriteAnimal('Goat'));
 ```
 
-By putting `animal` inside the parentheses of the `favoriteAnimal()` function, you are telling JavaScript that you will send some value to your `favoriteAnimal` function. This means that animal is just a placeholder for some future value. But what value are you sending?
+Al poner `animal` dentro de los paréntesis de la función `favoriteAnimal()`, estás indicando a JavaScript que enviarás algún valor a tu función `favoriteAnimal`. Esto significa que animal es solo un marcador de posición para algún valor futuro. Pero, ¿qué valor estás enviando?
 
-The last line, `favoriteAnimal('Goat')`, is where you are calling your `favoriteAnimal` function and passing the value `'Goat'` inside that function. Here, `'Goat'` is your argument. You are telling the `favoriteAnimal` function, "Please send `'Goat'` to the `favoriteAnimal` function and use `'Goat'` wherever the `'animal'` placeholder is." Debido a la flexibilidad que ofrece el uso de un parámetro, puedes declarar cualquier animal como tu favorito.
+La última línea, `favoriteAnimal('Goat')`, es donde llamas a tu función `favoriteAnimal` y pasas el valor `'Goat'` dentro de esa función. Aquí, `'Goat'` es tu argumento. Estás diciendo a la función `favoriteAnimal`, "Por favor envía `'Goat'` a la función `favoriteAnimal` y usa `'Goat'` dondequiera que esté el marcador de posición `'animal'`." Debido a la flexibilidad que ofrece el uso de un parámetro, puedes declarar cualquier animal como tu favorito.
 
 Aquí hay un diagrama para ayudarte a visualizar cómo se pasan los parámetros a una función, y cómo los valores son devueltos de ella.
 

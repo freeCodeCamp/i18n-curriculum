@@ -18,27 +18,27 @@ El `CSS` en línea hace posible agregar estilos directamente a los elementos de 
 
 Lo primero a observar es que aquí no hay selectores, ya que los estilos se están agregando directamente a la etiqueta de apertura `<div>` en sí. A continuación, tienes el atributo `style`, con su valor dentro del par de comillas siendo las declaraciones.
 
-Si necesitas agregar un estilo único para un solo elemento, este método puede funcionar bastante bien. Generally, though, this isn’t exactly a recommended way for adding CSS to HTML for a few reasons:
+Si necesitas agregar un estilo único para un solo elemento, este método puede funcionar bastante bien. Sin embargo, generalmente, esta no es exactamente una forma recomendada para agregar CSS a HTML por varias razones:
 
-It can quickly become pretty messy once you start adding a lot of declarations to a single element, causing your HTML file to become unnecessarily bloated. If you want many elements to have the same style, you would have to copy + paste the same style to each individual element, causing lots of unnecessary repetition and more bloat. Any inline CSS will override the other two methods, which can cause unexpected results. (While you won’t dive into it here, this can actually be taken advantage of).
+Puede volverse rápidamente bastante desordenado una vez que comienzas a agregar muchas declaraciones a un solo elemento, haciendo que tu archivo HTML se vuelva innecesariamente inflado. Si deseas que muchos elementos tengan el mismo estilo, tendrías que copiar + pegar el mismo estilo a cada elemento individual, causando mucha repetición innecesaria y más inflación. Cualquier CSS en línea sobrescribirá los otros dos métodos, lo que puede causar resultados inesperados. (Aunque no profundizarás en eso aquí, se puede aprovechar esta situación).
 
 # --questions--
 
 ## --text--
 
-Which of the following is the main disadvantage of using inline CSS?
+¿Cuál de las siguientes es la principal desventaja de usar CSS en línea?
 
 ## --answers--
 
-It can quickly become pretty messy once you start adding a lot of declarations to a single element, causing your HTML file to become unnecessarily bloated.
+Puede volverse rápidamente bastante desordenado una vez que comienzas a agregar muchas declaraciones a un solo elemento, haciendo que tu archivo HTML se vuelva innecesariamente inflado.
 
 ---
 
-It requires using selectors, which can be complicated for beginners.
+Requiere usar selectores, lo cual puede ser complicado para principiantes.
 
 ---
 
-Any inline CSS will override the other two methods (internal and external), which can cause unexpected results.
+Cualquier CSS en línea sobrescribirá los otros dos métodos (interno y externo), lo que puede causar resultados inesperados.
 
 
 ## --video-solution--

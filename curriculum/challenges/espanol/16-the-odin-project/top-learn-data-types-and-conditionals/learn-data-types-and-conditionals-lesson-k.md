@@ -1,15 +1,15 @@
 ---
 id: 65e9728d484dd50f720e6ff0
-title: Learn Data Types and Conditionals Lesson K
+title: Aprenda tipos de datos y condicionales lección K
 challengeType: 15
 dashedName: learn-data-types-and-conditionals-lesson-k
 ---
 
 # --description--
 
-The `switch` statement is used to perform different actions based on different conditions. It is similar to the `if-else` statement, but is more readable and easier to understand when there are multiple conditions to check. The `switch` statement is used to select one of many code blocks to be executed.
+La declaración `switch` se utiliza para realizar diferentes acciones basadas en diferentes condiciones. Es similar a la sentencia `if-else`, pero es más legible y fácil de entender cuando hay múltiples condiciones para verificar. La declaración `switch` se utiliza para seleccionar uno de muchos bloques de código a ejecutar.
 
-The `switch` statement evaluates an expression and compares it with the values of each case. If there is a match, the associated block of code is executed. If there is no match, the default block of code is executed.
+La declaración `switch` evalúa una expresión y la compara con los valores de cada caso. Si hay una coincidencia, se ejecuta el bloque de código asociado. Si no hay coincidencia, se ejecuta el bloque de código por defecto.
 
 ```javascript
 let day = "Monday";
@@ -41,7 +41,7 @@ switch (day) {
 }
 ```
 
-In the above example, the value of the `day` variable is compared with the values of each case. If there is a match, the associated block of code is executed. If there is no match, the default block of code is executed.
+En el ejemplo anterior, el valor de la variable `day` se compara con los valores de cada caso. If there is a match, the associated block of code is executed. If there is no match, the default block of code is executed.
 
 # --questions--
 

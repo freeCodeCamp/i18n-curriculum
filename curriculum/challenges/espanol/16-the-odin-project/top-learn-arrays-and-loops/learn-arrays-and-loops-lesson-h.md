@@ -1,13 +1,13 @@
 ---
 id: 661e275a8602567c118451d8
-title: Learn Arrays and Loops Lesson H
+title: Aprende arreglos y bucles lección H
 challengeType: 15
 dashedName: learn-arrays-and-loops-lesson-h
 ---
 
 # --description--
 
-One other useful array method is the `filter()` method. The `filter()` method creates a new array with all elements that pass the test implemented by the provided function. The syntax of the `filter()` method is as follows:
+Una otra método útil de arreglo es el método `filter()`. El método `filter()` crea un nuevo arreglo con todos los elementos que pasan la prueba implementada por la función proporcionada. La sintaxis del método `filter()` es la siguiente:
 
 ```javascript
 const numbers = [2, 5, 6, 1, 9, -1]
@@ -19,13 +19,13 @@ const newNumbers = numbers.filter((number) => {
 console.log(newNumbers); // Output: [5, 6, 9]
 ```
 
-The `filter()` method creates a new array with all elements that are greater than 2. The `filter()` method does not change the original array.
+El método `filter()` crea un nuevo arreglo con todos los elementos que son mayores que 2. El método `filter()` no cambia el arreglo original.
 
 # --questions--
 
 ## --text--
 
-What will be the output of the following JavaScript code snippet?
+¿Cuál será el resultado del siguiente fragmento de código JavaScript?
 
 ```javascript
 const strings = ['apple', 'banana', 'cherry', 'orange', 'kiwi', 'mango'];

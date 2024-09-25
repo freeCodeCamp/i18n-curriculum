@@ -8,7 +8,7 @@
   "c24by8": "この行の下にコードを追加",
   "jbrt8k": "m 行目を newArray に追加",
   "zkh12d": "myString の実験チャレンジに合格した後、グループ化がどのように機能するか確認する",
-  "mobihi": "Assign 5 to oopsGlobal here",
+  "mobihi": "ここで oopsGlobal に 5 を代入する",
   "v3ups9": "ここで引数を使用して scale を呼び出す",
   "iw4a3a": "ケース 1: ターゲットに子要素がない",
   "463xp8": "ケース 2: ターゲットに子要素が 1 つある",
@@ -66,7 +66,7 @@
   "cvh4x7": "この行の下にあるコードのみを変更",
   "lvmnm7": "ネコのミーム用の新しいタブを開く",
   "avpx79": "ブラウザーコンソールを開きます。",
-  "0b5ps6": "Padding between the SVG boundary and the plot",
+  "0b5ps6": "SVG 境界とプロット間のパディング",
   "uemoej": "現在の行に n 個のゼロを push して列を作成",
   "lm86nf": "現在の行 (中に n 個のゼロが含まれている) を配列に push",
   "qscelx": "Redux メソッドは Redux オブジェクトから利用可能",
@@ -98,8 +98,8 @@
   "bheu99": "ここにセットが保持される",
   "x1djjr": "ブラウザーコンソールをクリアするには、次の行で console.clear() を使用します。",
   "22ta95": "出力変数を表示するには、console.log() を使用します。",
-  "owgrP6": "Use the classes ABOVE this line",
-  "oszrtn": "Use the classes BELOW this line",
+  "owgrP6": "この行の上のクラスを使用する",
+  "oszrtn": "この行の下のクラスを使用する",
   "w43c7l": "s = [2, 5, 7] の使用は無効です",
   "pgckoj": "変数への代入",
   "2xiqvv": "変数の宣言",
@@ -109,5 +109,5 @@
   "fho5t5": "最後に新しいタブを開くとき",
   "00kcrm": "true を生成",
   "sxpg2a": "メールボックス、ドライブ、その他の仕事用サイト",
-  "n4f332": "TODO: use a different type of loop"
+  "n4f332": "TODO: 別のタイプのループを使用する"
 }

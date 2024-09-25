@@ -24,7 +24,7 @@ PUT または PATCH (場合によっては POST) - 送信されたデータを�
 
 DELETE - Delete a resource.
 
-他にもサーバーとの接続のやり取りに使用するメソッドがいくつかあります。 GET を除いて、上記のメソッドはすべてペイロードを持つことができます (つまり、データをリクエストボディに保存できます)。 ボディ解析ミドルウェアでもこれらのメソッドを使用できます。
+他にもサーバーとの接続のやり取りに使用するメソッドがいくつかあります。 Except for GET, all the other methods listed above can have a payload (i.e. the data into the request body). ボディ解析ミドルウェアでもこれらのメソッドを使用できます。
 
 # --hints--
 

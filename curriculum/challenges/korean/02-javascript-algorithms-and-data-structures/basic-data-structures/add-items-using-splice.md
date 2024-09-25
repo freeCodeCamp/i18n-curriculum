@@ -1,6 +1,6 @@
 ---
 id: 587d78b3367417b2b2512b11
-title: Add Items Using splice()
+title: splice() 를 사용하여 항목 추가하기
 challengeType: 1
 forumTopicId: 301152
 dashedName: add-items-using-splice
@@ -8,7 +8,7 @@ dashedName: add-items-using-splice
 
 # --description--
 
-Remember in the last challenge we mentioned that `splice()` can take up to three parameters? Well, you can use the third parameter, comprised of one or more element(s), to add to the array. This can be incredibly useful for quickly switching out an element, or a set of elements, for another.
+지난 도전에서 언급하였듯이 `splice()`는 최대 세 개의 매개변수를 가질 수 있다는 것 기억하시나요? 사실, 배열에 요소를 추가하기 위해 세 번째 매개변수에 요소 하나 혹은 더 많은 요소를 넣을 수 있습니다. 이는 요소 하나 또는 일련의 요소를 빠르게 다른 것으로 바꾸는데 매우 유용할 수 있습니다.
 
 ```js
 const numbers = [10, 11, 12, 12, 15];
@@ -19,17 +19,17 @@ numbers.splice(startIndex, amountToDelete, 13, 14);
 console.log(numbers);
 ```
 
-The second occurrence of `12` is removed, and we add `13` and `14` at the same index. The `numbers` array would now be `[ 10, 11, 12, 13, 14, 15 ]`.
+위 코드를 실행하면, 두 번째로 나타난 `12`가 제거되고 그 자리에 `13`과 `14`를 추가합니다. `numbers` 배열은 이제 `[ 10, 11, 12, 13, 14, 15 ]`가 될 것입니다.
 
-Here, we begin with an array of numbers. Then, we pass the following to `splice()`: The index at which to begin deleting elements (3), the number of elements to be deleted (1), and the remaining arguments (13, 14) will be inserted starting at that same index. Note that there can be any number of elements (separated by commas) following `amountToDelete`, each of which gets inserted.
+숫자 배열 numbers를 먼저 작성하고, `splice()`에 다음을 전달합니다. 요소를 삭제할 인덱스 (3), 삭제할 요소의 개수 (1), 그리고 해당 인덱스에서 삽입될 나머지 인수 (13, 14). `amountToDelete` 뒤에 (쉼표로 구분된) 요소의 수가 어떤 개수든 올 수 있으며, 각각이 삽입됩니다.
 
 # --instructions--
 
-We have defined a function, `htmlColorNames`, which takes an array of HTML colors as an argument. Modify the function using `splice()` to remove the first two elements of the array and add `'DarkSalmon'` and `'BlanchedAlmond'` in their respective places.
+우리는 HTML 색상 배열을 인수로 사용하는 함수 `htmlColorNames`를 정의했습니다. `splice()`를 사용하여 배열의 처음 두 요소를 제거하고 대신에 `'DarkSalmon'`과 `'BlanchedAlmond'`을 각각 추가하도록 함수를 수정하세요.
 
 # --hints--
 
-`htmlColorNames` should return `["DarkSalmon", "BlanchedAlmond", "LavenderBlush", "PaleTurquoise", "FireBrick"]`
+`htmlColorNames`는 `["DarkSalmon", "BlanchedAlmond", "LavenderBlush", "PaleTurquoise", "FireBrick"]`를 반환해야 합니다.
 
 ```js
 assert.deepEqual(
@@ -50,19 +50,19 @@ assert.deepEqual(
 );
 ```
 
-The `htmlColorNames` function should utilize the `splice()` method
+`htmlColorNames` 함수는 `splice()` 메서드를 활용해야 합니다.
 
 ```js
 assert(/.splice/.test(__helpers.removeJSComments(code)));
 ```
 
-You should not use `shift()` or `unshift()`.
+`shift()` 또는 `unshift()`를 사용해서는 안 됩니다.
 
 ```js
 assert(!/shift|unshift/.test(__helpers.removeJSComments(code)));
 ```
 
-You should not use array bracket notation.
+배열 괄호 표기법을 사용해서는 안 됩니다.
 
 ```js
 assert(!/\[\d\]\s*=/.test(__helpers.removeJSComments(code)));

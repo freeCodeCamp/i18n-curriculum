@@ -1,21 +1,21 @@
 ---
 id: 66581a7bb1eb2281159492fd
-title: Learn to Solve Problems and Understand Errors Lesson D
+title: Aprende a resolver problemas y comprender errores lección D
 challengeType: 15
 dashedName: learn-to-solve-problems-and-understand-errors-lesson-d
 ---
 
 # --description--
 
-Reading and understanding error messages is a requirement as a developer. At first glance, many beginners shrink away from error messages as they appear to be “scary” and difficult to understand because they include terms one may not be familiar with.
+Leer y comprender los mensajes de error es un requisito como desarrollador. A primer vistazo, muchos principiantes se alejan de los mensajes de error ya que parecen "aterradores" y difíciles de entender porque incluyen términos con los que uno puede no estar familiarizado.
 
-However, error messages provide developers with a treasure trove of knowledge, and tell you everything you need to know about how to resolve them! Being able to parse error messages and warnings without fear will enable you to effectively debug your applications, receive meaningful help from others, and empower yourself to push forward when faced with an error.
+Sin embargo, los mensajes de error proporcionan a los desarrolladores un tesoro de conocimiento, y te dicen todo lo que necesitas saber sobre cómo resolverlos! Poder analizar los mensajes de error y advertencias sin miedo te permitirá depurar eficazmente tus aplicaciones, recibir ayuda significativa de otros y capacitarte para seguir avanzando cuando te enfrentes a un error.
 
 # --questions--
 
 ## --text--
 
-According to the text, why should developers not shy away from error messages?
+Según el texto, ¿por qué los desarrolladores no deben alejarse de los mensajes de error?
 
 ## --answers--
 

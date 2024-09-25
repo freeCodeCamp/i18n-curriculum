@@ -25,23 +25,23 @@ Before moving on to the next lesson, see if you can figure out how `align-items`
 
 ## --text--
 
-When changing the `flex-direction` property to `column` in a flex container, how does `align-items` behave in relation to the flex items?
+Al cambiar la propiedad `flex-direction` a `column` en un contenedor flex, ¿cómo se comporta `align-items` en relación con los elementos flex?
 
 ## --answers--
 
-It distributes space between items evenly.
+Distribuye el espacio entre los elementos uniformemente.
 
 ---
 
-It aligns items horizontally along the main axis.
+Alinea los elementos horizontalmente a lo largo del eje principal.
 
 ---
 
-It centers items vertically along the cross axis.
+Centra los elementos verticalmente a lo largo del eje transversal.
 
 ---
 
-It aligns items to the start of the container along the cross axis.
+Alinea los elementos al inicio del contenedor a lo largo del eje transversal.
 
 ## --video-solution--
 

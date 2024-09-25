@@ -8,7 +8,7 @@ dashedName: the-box-model-lesson-f
 
 El primer concepto importante que necesitas entender para tener éxito en CSS es el modelo de caja. No es complicado, pero saltarlo ahora te causará mucha frustración en el futuro.
 
-Every single thing on a webpage is a rectangular box. These boxes can have other boxes in them and can sit alongside one another. You can get a rough idea of how this works by sticking a border on every item on the page like this:
+Cada cosa en una página web es un cuadro rectangular. Estos cuadros pueden tener otros cuadros dentro de ellos y pueden estar uno al lado del otro. Puedes obtener una idea aproximada de cómo funciona esto colocando un borde en cada elemento de la página como este:
 
 ```css
 * {
@@ -16,15 +16,15 @@ Every single thing on a webpage is a rectangular box. These boxes can have other
 }
 ```
 
-# --assignment--
+# --tarea--
 
-Add a border to every element on the page and see how the boxes are laid out.
+Agrega un borde a cada elemento en la página y observa cómo se disponen los cuadros.
 
 # --questions--
 
 ## --text--
 
-What is the fundamental concept in CSS that helps you understand the structure of elements as rectangular boxes?
+¿Cuál es el concepto fundamental en CSS que te ayuda a entender la estructura de los elementos como cajas rectangulares?
 
 ## --answers--
 
@@ -32,11 +32,11 @@ Box-sizing
 
 ---
 
-Box-shadow
+Sombra de caja
 
 ---
 
-Box model
+Modelo de caja
 
 ---
 

@@ -43,15 +43,15 @@ anaranjado
 
 ---
 
-red
+rojo
 
 ---
 
-blue
+azul
 
 ---
 
-cyan
+cian
 
 ## --video-solution--
 

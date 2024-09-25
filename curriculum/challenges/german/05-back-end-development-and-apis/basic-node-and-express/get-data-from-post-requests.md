@@ -24,7 +24,7 @@ PUT oder PATCH (manchmal auch POST) - Aktualisieren einer Ressource anhand über
 
 DELETE - Delete a resource.
 
-Es gibt noch eine Reihe anderer Methoden, um eine Verbindung mit dem Server auszuhandeln. Mit Ausnahme von GET können alle anderen oben aufgeführten Methoden eine Payload haben (d.h. die Daten im Anfrage-Körper). Die Body-Parser-Middleware funktioniert mit diesen Methoden ebenfalls.
+Es gibt noch eine Reihe anderer Methoden, um eine Verbindung mit dem Server auszuhandeln. Except for GET, all the other methods listed above can have a payload (i.e. the data into the request body). Die Body-Parser-Middleware funktioniert mit diesen Methoden ebenfalls.
 
 # --hints--
 
