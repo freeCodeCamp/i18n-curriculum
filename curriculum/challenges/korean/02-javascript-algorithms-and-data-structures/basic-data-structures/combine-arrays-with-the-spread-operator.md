@@ -1,6 +1,6 @@
 ---
 id: 587d7b7b367417b2b2512b17
-title: Combine Arrays with the Spread Operator
+title: 전개 연산자로 배열을 결합하기
 challengeType: 1
 forumTopicId: 301156
 dashedName: combine-arrays-with-the-spread-operator
@@ -8,7 +8,7 @@ dashedName: combine-arrays-with-the-spread-operator
 
 # --description--
 
-Another huge advantage of the <dfn>spread</dfn> operator is the ability to combine arrays, or to insert all the elements of one array into another, at any index. With more traditional syntaxes, we can concatenate arrays, but this only allows us to combine arrays at the end of one, and at the start of another. Spread syntax makes the following operation extremely simple:
+또 다른 <dfn>전개</dfn> 연산자의 장점은 배열을 결합하거나 한 배열의 모든 요소를 다른 배열에 어느 인덱스에서든 삽입할 수 있는 능력입니다. 전통적인 concat 구문으로 배열을 연결할 수 있지만, 이는 한 배열의 끝에 다른 배열을 결합하는 것만 허용합니다. 전개 구문을 사용하면 다음 작업이 매우 간단해집니다.
 
 ```js
 let thisArray = ['sage', 'rosemary', 'parsley', 'thyme'];
@@ -16,23 +16,23 @@ let thisArray = ['sage', 'rosemary', 'parsley', 'thyme'];
 let thatArray = ['basil', 'cilantro', ...thisArray, 'coriander'];
 ```
 
-`thatArray` would have the value `['basil', 'cilantro', 'sage', 'rosemary', 'parsley', 'thyme', 'coriander']`.
+`thatArray`는 `['basil', 'cilantro', 'sage', 'rosemary', 'parsley', 'thyme', 'coriander']`의 값을 가지게 됩니다.
 
-Using spread syntax, we have just achieved an operation that would have been more complex and more verbose had we used traditional methods.
+전통적인 방법을 사용하면 더 복잡했을 작업을 전개 구문을 사용하여 쉽게 해낼 수 있었습니다.
 
 # --instructions--
 
-We have defined a function `spreadOut` that returns the variable `sentence`. Modify the function using the <dfn>spread</dfn> operator so that it returns the array `['learning', 'to', 'code', 'is', 'fun']`.
+우리는 변수 `sentence`를 반환하는 `spreadOut` 함수를 정의했습니다. <dfn>전개(spread)</dfn> 연산자를 사용하여 `['learning', 'to', 'code', 'is', 'fun']` 배열을 반환하도록 함수를 수정합니다.
 
 # --hints--
 
-`spreadOut` should return `["learning", "to", "code", "is", "fun"]`
+`spreadOut`은 `["learning", "to", "code", "is", "fun"]`을 반환해야 합니다.
 
 ```js
 assert.deepEqual(spreadOut(), ['learning', 'to', 'code', 'is', 'fun']);
 ```
 
-The `spreadOut` function should utilize spread syntax
+`spreadOut` 함수는 전개 구문을 활용해야 합니다.
 
 ```js
 assert.notStrictEqual(spreadOut.toString().search(/[...]/), -1);

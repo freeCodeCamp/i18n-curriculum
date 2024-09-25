@@ -1,41 +1,41 @@
 ---
 id: 65e9725a484dd50f720e6fe9
-title: Learn Data Types and Conditionals Lesson D
+title: Aprenda tipos de datos y condicionales lección D
 challengeType: 15
 dashedName: learn-data-types-and-conditionals-lesson-d
 ---
 
 # --description--
 
-Seeing the example below You want to know the index of the last occurence of the word `The` in the string.
+Viendo el ejemplo abajo quieres saber el índice de la última ocurrencia de la palabra `The` en la cadena.
 
 ```javascript
 let sentence = "freeCodeCamp loves The Odin Project! The Odin Project is great!";
 ```
 
-<a href="https://www.freecodecamp.org/news/javascript-string-handbook" target="_blank"> Link to Guide </a>
+<a href="https://www.freecodecamp.org/news/javascript-string-handbook" target="_blank"> Enlace a guía </a>
 
 # --questions--
 
 ## --text--
 
-Which method should be used to find the index of the last occurence of the word `The` in the string?
+¿Qué método debe usarse para encontrar el índice de la última ocurrencia de la palabra `The` en la cadena?
 
 ## --answers--
 
-The `includes()` method should be used to find the index of the last occurence of the word `The` in the string.
+El método `includes()` debe usarse para encontrar el índice de la última ocurrencia de la palabra `The` en la cadena.
 
 ---
 
-The `lastIndexOf()` method should be used to find the index of the last occurence of the word `The` in the string.
+El método `lastIndexOf()` debe usarse para encontrar el índice de la última ocurrencia de la palabra `The` en la cadena.
 
 ---
 
-The `indexOf()` method should be used to find the index of the last occurence of the word `The` in the string.
+El método `indexOf()` debe usarse para encontrar el índice de la última ocurrencia de la palabra `The` en la cadena.
 
 ---
 
-The `search()` method should be used to find the index of the last occurence of the word `The` in the string.
+El método `search()` debe usarse para encontrar el índice de la última ocurrencia de la palabra `The` en la cadena.
 
 ## --video-solution--
 

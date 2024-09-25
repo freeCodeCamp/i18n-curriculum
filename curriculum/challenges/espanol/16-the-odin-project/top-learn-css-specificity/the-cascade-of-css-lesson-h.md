@@ -1,15 +1,15 @@
 ---
 id: 648acb0745e79f79650fa2ac
-title: The Cascade of CSS Lesson H
+title: La Cascada de lección CSS H
 challengeType: 15
 dashedName: the-cascade-of-css-lesson-h
 ---
 
 # --description--
 
-The final factor, the end of the line, the tie-breaker of the tie-breaker. Let’s say that after every other factor has been taken into account, there are still multiple conflicting rules targeting an element. How does the cascade determine which rule to apply?
+El factor final, el final de la línea, el desempate del desempate. Digamos que después de considerar todos los demás factores, todavía hay múltiples reglas en conflicto dirigidas a un elemento. ¿Cómo determina la cascada qué regla aplicar?
 
-Really simply, actually. Whichever rule was the last defined is the winner.
+Realmente simple, en realidad. Cualquiera que sea la regla que se definió al final es la ganadora.
 
 ```css
 /* styles.css */
@@ -23,28 +23,28 @@ Really simply, actually. Whichever rule was the last defined is the winner.
 }
 ```
 
-For an element that has both the `alert` and `warning` classes, the cascade would run through every other factor, including inheritance (none here) and specificity (neither rule is more specific than the other). Since the `.warning` rule was the last one defined, and no other factor was able to determine which rule to apply, it’s the one that gets applied to the element.
+Para un elemento que tiene tanto la clase `alert` como la clase `warning`, la cascada pasaría por todos los demás factores, incluyendo la herencia (ninguna aquí) y especificidad (ninguna regla es más específica que la otra). Dado que la regla `.warning` fue la última definida, y ningún otro factor pudo determinar qué regla aplicar, es la que se aplica al elemento.
 
 # --questions--
 ## --text--
 
-What determines which CSS rule is applied when there are conflicting rules targeting the same element?
+¿Qué determina qué regla CSS se aplica cuando hay reglas en conflicto dirigidas al mismo elemento?
 
 ## --answers--
 
-The specificity of the CSS rule.
+La especificidad de la regla CSS.
 
 ---
 
-The inheritance hierarchy of the element.
+La jerarquía de herencia del elemento.
 
 ---
 
-The presence of classes or IDs on the element.
+La presencia de clases o identificadores en el elemento.
 
 ---
 
-The order in which the rules were defined.
+El orden en el que se definieron las reglas.
 
 ## --video-solution--
 

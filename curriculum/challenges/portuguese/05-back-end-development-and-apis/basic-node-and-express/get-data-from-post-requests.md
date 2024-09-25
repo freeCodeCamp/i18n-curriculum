@@ -24,7 +24,7 @@ PUT ou PATCH (às vezes, POST) – Atualiza um recurso usando os dados enviados,
 
 DELETE - Exclui um recurso.
 
-Existem também alguns outros métodos que são usados para estabelecer uma conexão com o servidor. Com a exceção de GET, todos os outros métodos listados acima podem ter uma payload(carga) (exemplo: os dados enviados no corpo da requisição). O middleware body-parser também funciona com esses métodos.
+Existem também alguns outros métodos que são usados para estabelecer uma conexão com o servidor. Except for GET, all the other methods listed above can have a payload (i.e. the data into the request body). O middleware body-parser também funciona com esses métodos.
 
 # --hints--
 

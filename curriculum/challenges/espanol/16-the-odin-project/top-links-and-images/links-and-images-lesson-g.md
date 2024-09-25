@@ -1,31 +1,31 @@
 ---
 id: 637f701572c65bc8e73dfe30
-title: Links and Images Lesson G
+title: Lección de enlaces e imágenes G
 challengeType: 15
 dashedName: links-and-images-lesson-g
 ---
 
 # --description--
 
-Websites would be fairly boring if they could only display text. Luckily HTML provides a wide variety of elements for displaying all sorts of different media. The most widely used of these is the image element.
+Los sitios web serían bastante aburridos si solo pudieran mostrar texto. Por suerte, HTML ofrece una amplia variedad de elementos para mostrar todo tipo de medios diferentes. El más utilizado de estos es el elemento de imagen.
 
-To display an image in HTML you use the `<img>` element. Unlike the other elements you have encountered, the `<img>` element is self-closing. Empty, self-closing HTML elements do not need a closing tag.
+Para mostrar una imagen en HTML se utiliza el elemento `<img>`. A diferencia de los otros elementos que has encontrado, el elemento `<img>` se cierra por sí mismo. Los elementos HTML vacíos y auto-cerrados no necesitan una etiqueta de cierre.
 
-Instead of wrapping content with an opening and closing tag, it embeds an image into the page using a `src` attribute which tells the browser where the image file is located. The `src` attribute works much like the `href` attribute for anchor tags. It can embed an image using both absolute and relative paths.
+En lugar de envolver el contenido con una etiqueta de apertura y cierre, inserta una imagen en la página utilizando un atributo `src` que le dice al navegador dónde se encuentra el archivo de imagen. El atributo `src` funciona de manera muy similar al atributo `href` para etiquetas de ancla. Puede insertar una imagen utilizando tanto rutas absolutas como relativas.
 
-For example, using an absolute path you can display an image located on The Odin Project site:
+Por ejemplo, usando una ruta absoluta puedes mostrar una imagen ubicada en el sitio de The Odin Project:
 
 <iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="300" width="100%" name="cp_embed_1" scrolling="no" src="https://codepen.io/TheOdinProjectExamples/embed/gORbExZ?height=300&amp;theme-id=dark&amp;default-tab=html%2Cresult&amp;slug-hash=gORbExZ&amp;user=TheOdinProjectExamples&amp;name=cp_embed_1" style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy" id="cp_embed_gORbExZ"></iframe>
 
-To use images that you have on your own websites, you can use a relative path.
+Para usar imágenes que tienes en tus propios sitios web, puedes usar una ruta relativa.
 
-- Create a new directory named `images` within the `odin-links-and-images` project.
+- Crea un nuevo directorio nombrado `images` dentro del proyecto `odin-links-and-images`.
 
-- Next, download <a href="https://unsplash.com/photos/Mv9hjnEUHR4/download?force=true&w=640" target="_blank">this image</a> and move it into the images directory you just created.
+- A continuación, descarga <a href="https://unsplash.com/photos/Mv9hjnEUHR4/download?force=true&w=640" target="_blank">esta imagen</a> y muévela al directorio de imágenes que acabas de crear.
 
-- Rename the image to `dog.jpg`.
+- Renombra la imagen a `dog.jpg`.
 
-Finally add the image to the `index.html` file:
+Finalmente, agrega la imagen al archivo `index.html`:
 
 ```html
 <body>
@@ -38,14 +38,14 @@ Finally add the image to the `index.html` file:
 </body>
 ```
 
-Save the `index.html` file and open it in a browser to view Charles in all his glory.
+Guarda el archivo `index.html` y ábrelo en un navegador para ver a Charles en toda su gloria.
 
 
-## Parent Directories
+## Directorios Padres
 
-What if you want to use the dog image in the `about` page? You would first have to go up one level out of the pages directory into its parent directory so you could then access the images directory.
+¿Qué pasa si quieres usar la imagen del perro en la página `about`? Primero tendrías que subir un nivel desde el directorio de páginas hacia su directorio padre para poder acceder al directorio de imágenes.
 
-To go to the parent directory you need to use two dots in the relative filepath like this: `../.` Let’s see this in action, within the `body` of the `about.html` file, add the following image below the heading you added earlier:
+Para ir al directorio padre necesitas usar dos puntos en la ruta relativa así: `../.` Veamos esto en acción, dentro del `body` del archivo `about.html`, agrega la siguiente imagen debajo del título que agregaste antes:
 
 ```html
 <img src="../images/dog.jpg">

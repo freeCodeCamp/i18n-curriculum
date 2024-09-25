@@ -1,49 +1,49 @@
 ---
 id: 65e19bc3500d930ce8ed90a8
-title: Learn Variables and Operators Lesson E
+title: Aprende variables y operadores lección E
 challengeType: 15
 dashedName: learn-variables-and-operators-lesson-e
 ---
 
 # --description--
 
-Numbers are the building blocks of programming logic! In fact, it’s hard to think of any useful programming task that doesn’t involve at least a little basic math… so knowing how numbers work is obviously quite important. Luckily, it’s also fairly straightforward.
+¡Los números son los componentes básicos de la lógica de programación! De hecho, es difícil pensar en cualquier tarea de programación útil que no involucre al menos un poco de matemáticas básicas… así que saber cómo funcionan los números es obviamente muy importante. Afortunadamente, también es bastante sencillo.
 
-| Operator | Description    | Example      |
+| Operador | Descripción    | Ejemplo      |
 | -------- | -------------- | ------------ |
-| +        | Addition       | 5 + 3 = 8    |
-| -        | Subtraction    | 5 - 3 = 2    |
-| *        | Multiplication | 5 * 3 = 15   |
-| **       | Exponentiation | 5 ** 3 = 125 |
-| /        | Division       | 6 / 3 = 2    |
-| %        | Modulus        | 5 % 3 = 2    |
+| +        | Adición        | 5 + 3 = 8    |
+| -        | Sustracción    | 5 - 3 = 2    |
+| *        | Multiplicación | 5 * 3 = 15   |
+| **       | Exponenciación | 5 ** 3 = 125 |
+| /        | División       | 6 / 3 = 2    |
+| %        | Módulo         | 5 % 3 = 2    |
 
 
-# --assignment--
+# --tarea--
 
-Given the table of operators above, write a simple program snippet that demonstrates the use of each operator with the variable `x` initialized to `10`.
+Dada la tabla de operadores anterior, escribe un fragmento de programa simple que demuestre el uso de cada operador con la variable `x` inicializada a `10`.
 
 # --questions--
 
 ## --text--
 
-What is the result of applying the modulus operator to `x` where `x = 10`?
+¿Cuál es el resultado de aplicar el operador módulo a `x` donde `x = 10`?
 
 ## --answers--
 
-`x % 3` results in `1`
+`x % 3` da como resultado `1`
 
 ---
 
-`x % 3` results in `3`
+`x % 3` da como resultado `3`
 
 ---
 
-`x % 3` results in `0`
+`x % 3` da como resultado `0`
 
 ---
 
-`x % 3` results in `2`
+`x % 3` da como resultado `2`
 
 
 ## --video-solution--

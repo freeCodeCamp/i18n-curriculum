@@ -13,29 +13,29 @@ At this point, you might be wondering how you can resolve these errors.
 
 1. You shoud search your error on the web, most of the time you will be able to find a fix or explanation on StackOverflow or in the documentation. If nothing else, you will receive more clarity as to why you are receiving this error.
 
-1. Another way is to use `console.log()` — it is a popular choice for quick debugging. For more involved troubleshooting, using the debugger might be more appropriate, but using `console.log()` is great for getting immediate feedback without needing to step through your functions. There are also other useful methods such as `console.table()`, `console.trace()`, and more!
+1. Another way is to use `console.log()` — it is a popular choice for quick debugging. Para investigar problemas más complejos, usar el depurador podría ser más apropiado, pero usar `console.log()` es genial para obtener retroalimentación inmediata sin necesidad de pasar por tus funciones. ¡También hay otros métodos útiles como `console.table()`, `console.trace()`, y más!
 
 # --questions--
 
 ## --text--
 
-When encountering an error in your code, which of the following is NOT a recommended step for identifying and resolving the issue?
+Al encontrar un error en tu código, ¿cuál de los siguientes NO es un paso recomendado para identificar y resolver el problema?
 
 ## --answers--
 
-Utilizing `console.log()` or other console methods to debug and gain insights into the values and state of your code.
+Utilizar `console.log()` u otros métodos de consola para depurar y obtener información sobre los valores y el estado de tu código.
 
 ---
 
-Searching for the error message on resources like StackOverflow or reading documentation.
+Buscar el mensaje de error en recursos como StackOverflow o leer la documentación.
 
 ---
 
-Ignoring the error messages and guessing what might be wrong.
+Ignorar los mensajes de error y adivinar qué podría estar mal.
 
 ---
 
-Using error messages as a guide to understand what part of the code is causing the problem.
+Usar los mensajes de error como guía para entender qué parte del código está causando el problema.
 
 ## --video-solution--
 

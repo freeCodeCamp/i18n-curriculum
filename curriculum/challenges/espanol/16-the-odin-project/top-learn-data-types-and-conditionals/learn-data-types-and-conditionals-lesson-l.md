@@ -1,6 +1,6 @@
 ---
 id: 65e97293484dd50f720e6ff1
-title: Learn Data Types and Conditionals Lesson L
+title: Aprenda tipos de datos y condicionales lección L
 challengeType: 15
 dashedName: learn-data-types-and-conditionals-lesson-l
 ---

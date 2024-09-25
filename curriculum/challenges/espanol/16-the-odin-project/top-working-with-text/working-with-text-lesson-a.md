@@ -22,25 +22,25 @@ What would you expect the following text to output on an HTML page?
 
 It looks like two paragraphs of text, and so you might expect it to display in that way. However that is not the case, as you can see in the output below:
 
-<iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="300" width="100%" name="cp_embed_1" scrolling="no" src="https://codepen.io/TheOdinProjectExamples/embed/xxrKqeV?height=300&amp;theme-id=dark&amp;default-tab=html%2Cresult&amp;slug-hash=xxrKqeV&amp;user=TheOdinProjectExamples&amp;name=cp_embed_1" style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy" id="cp_embed_xxrKqeV"></iframe>
+<iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="300" width="100%" name="cp_embed_1" scrolling="no" src="https://codepen.io/TheOdinProjectExamples/embed/xxrKqeV?height=300&amp;theme-id=dark&amp;default-tab=html%2Cresult&amp;slug-hash=xxrKqeV&amp;user=TheOdinProjectExamples&amp;name=cp_embed_1" style="width: 100%; overflow:hidden; display:block;" title="Insertar de CodePen" loading="lazy" id="cp_embed_xxrKqeV"></iframe>
 
-When the browser encounters new lines like this in your HTML, it will compress them down into one single space. The result of this compression is that all of the text is clumped together into one long line.
+Cuando el navegador encuentra nuevas líneas como esta en tu HTML, las comprimirá en un solo espacio. El resultado de esta compresión es que todo el texto queda agrupado en una línea larga.
 
-If you want to create paragraphs in HTML, you need to use the paragraph element, which will add a newline after each of your paragraphs. A paragraph element is defined by wrapping text content with a `<p>` tag.
+Si deseas crear párrafos en HTML, necesitas usar el elemento de párrafo, el cual agregará un salto de línea después de cada uno de tus párrafos. Un elemento de párrafo se define envolviendo el contenido de texto con una etiqueta `<p>`.
 
-Changing our example from before to use paragraph elements fixes the issue:
+Modificar nuestro ejemplo anterior para usar elementos de párrafo soluciona el problema:
 
-<iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="300" width="100%" name="cp_embed_2" scrolling="no" src="https://codepen.io/TheOdinProjectExamples/embed/mdwbmdp?height=300&amp;theme-id=dark&amp;default-tab=html%2Cresult&amp;slug-hash=mdwbmdp&amp;user=TheOdinProjectExamples&amp;name=cp_embed_2" style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy" id="cp_embed_mdwbmdp"></iframe>
+<iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="300" width="100%" name="cp_embed_2" scrolling="no" src="https://codepen.io/TheOdinProjectExamples/embed/mdwbmdp?height=300&amp;theme-id=dark&amp;default-tab=html%2Cresult&amp;slug-hash=mdwbmdp&amp;user=TheOdinProjectExamples&amp;name=cp_embed_2" style="width: 100%; overflow:hidden; display:block;" title="Insertar de CodePen" loading="lazy" id="cp_embed_mdwbmdp"></iframe>
 
-# --assignment--
+# --tarea--
 
-Watch and follow along to Kevin Powell’s HTML Paragraph and Headings Video above.
+Mira y sigue el video de Párrafos y Títulos de HTML de Kevin Powell arriba.
 
 # --questions--
 
 ## --text--
 
-How do you create a paragraph in HTML?
+¿Cómo creas un párrafo en HTML?
 
 ## --answers--
 

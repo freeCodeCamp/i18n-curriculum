@@ -1,17 +1,17 @@
 ---
 id: 637f4e8072c65bc8e73dfe2c
-title: Working With Text Lesson F
+title: Trabajando con texto lección F
 challengeType: 15
 dashedName: working-with-text-lesson-f
 ---
 
 # --description--
 
-You may have noticed that in all the examples in this lesson you indent any elements that are within other elements. This is known as nesting elements.
+Puede que hayas notado que en todos los ejemplos de esta lección indentas cualquier elemento que esté dentro de otros elementos. Esto se conoce como anidar elementos.
 
-When you nest elements within other elements, you create a parent and child relationship between them. The nested elements are the children and the element they are nested within is the parent.
+Cuando anidas elementos dentro de otros elementos, creas una relación de padre e hijo entre ellos. Los elementos anidados son los hijos y el elemento en el que están anidados es el padre.
 
-In the following example, the body element is the parent and the paragraph is the child:
+En el siguiente ejemplo, el elemento body es el padre y el párrafo es el hijo:
 
 ```html
 <html>
@@ -23,7 +23,7 @@ In the following example, the body element is the parent and the paragraph is th
  </html>
 ```
 
-Just as in human relationships, HTML parent elements can have many children. Elements at the same level of nesting are considered to be siblings.
+Al igual que en las relaciones humanas, los elementos padres en HTML pueden tener muchos hijos. Los elementos al mismo nivel de anidación se consideran hermanos.
 
 For example, the two paragraphs in the following code are siblings, since they are both children of the body tag and are at the same level of nesting as each other:
 

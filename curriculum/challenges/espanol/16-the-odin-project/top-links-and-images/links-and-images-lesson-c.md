@@ -1,32 +1,32 @@
 ---
 id: 637f703072c65bc8e73dfe34
-title: Links and Images Lesson C
+title: Enlaces e imágenes lección C
 challengeType: 15
 dashedName: links-and-images-lesson-c
 ---
 
 # --description--
 
-To get some practice using links and images throughout this lesson you need an HTML project to work with.
+Para practicar el uso de enlaces e imágenes a lo largo de esta lección, necesitas un proyecto HTML con el cual trabajar.
 
-- Create a new directory named `odin-links-and-images`.
+- Crea un nuevo directorio llamado `odin-links-and-images`.
 
-- Within that directory, create a new file named `index.html`.
+- Dentro de ese directorio, crea un nuevo archivo llamado `index.html`.
 
-- Fill in the usual HTML boilerplate.
+- Completa el boilerplate HTML habitual.
 
-- Finally, add the following `h1` to the `body`: `<h1>Homepage</h1>`
+- Finalmente, agrega el siguiente `h1` al `body`: `<h1>Homepage</h1>`
 
-## Anchor Elements
-To create a link in HTML, you use the anchor element. An anchor element is defined by wrapping the text or another HTML element you want to be a link with an `<a>` tag.
+## Elementos de ancla
+Para crear un enlace en HTML, usas el elemento de ancla. Un elemento de ancla se define envolviendo el texto u otro elemento HTML que deseas que sea un enlace con una etiqueta `<a>`.
 
-Add the following to the `body` of the `index.html` page you created and open it in the browser:
+Agrega lo siguiente al `body` de la página `index.html` que creaste y ábrela en el navegador:
 
 ```html
 <a>click me</a>
 ```
 
-You may have noticed that clicking this link doesn’t do anything. Esto se debe a que una etiqueta de ancla por sí sola no sabrá a dónde quieres enlazar. Debes indicarle un destino al que dirigirse. Esto se hace utilizando un atributo HTML.
+Puede que hayas notado que hacer clic en este enlace no hace nada. Esto se debe a que una etiqueta de ancla por sí sola no sabrá a dónde quieres enlazar. Debes indicarle un destino al que dirigirse. Esto se hace utilizando un atributo HTML.
 
 Un atributo HTML brinda información adicional a un elemento HTML y siempre va en la etiqueta de apertura del elemento. Un atributo suele estar compuesto por dos partes: un nombre y un valor; sin embargo, no todos los atributos requieren un valor. En tu caso, necesitas agregar un atributo `href` (referencia de enlace) a la etiqueta de apertura del ancla. El valor del atributo `href` es el destino al que deseas que tu enlace vaya.
 
