@@ -1,6 +1,6 @@
 ---
 id: 587d7db6367417b2b2512b98
-title: Match Single Characters Not Specified
+title: 지정되지 않은 단일 문자 일치
 challengeType: 1
 forumTopicId: 301358
 dashedName: match-single-characters-not-specified
@@ -8,31 +8,31 @@ dashedName: match-single-characters-not-specified
 
 # --description--
 
-So far, you have created a set of characters that you want to match, but you could also create a set of characters that you do not want to match. These types of character sets are called <dfn>negated character sets</dfn>.
+지금까지는 일치시키고 싶은 문자를 설정했지만, 일치시키고 싶지 않은 문자도 설정할 수 있습니다. 이러한 종류의 문자 설정은 <dfn>제외할 문자 설정</dfn>이라 부릅니다.
 
-To create a negated character set, you place a caret character (`^`) after the opening bracket and before the characters you do not want to match.
+제외할 문자 집합을 만들려면, 열리는 괄호 뒤와 일치시키지 않으려는 문자 앞에 캐럿 문자(`^`)를 배치합니다.
 
-For example, `/[^aeiou]/gi` matches all characters that are not a vowel. Note that characters like `.`, `!`, `[`, `@`, `/` and white space are matched - the negated vowel character set only excludes the vowel characters.
+예를 들어, `/[^aeiou]/gi`는 모음이 아닌 모든 문자와 일치합니다. `.`, `!`, `[`, `@`, `/` 그리고 공백과 같은 문자는 일치한다는 점에 유의하십시오. 제외할 모음 문자 집합은 모음 문자만 제외합니다.
 
 # --instructions--
 
-Create a single regex that matches all characters that are not a number or a vowel. Remember to include the appropriate flags in the regex.
+숫자나 모음이 아닌 모든 문자에 일치하는 단일 정규 표현식을 만드십시오. 정규 표현식에 적절한 플래그를 포함시키는 것을 기억하십시오.
 
 # --hints--
 
-Your regex `myRegex` should match 9 items.
+정규 표현식 `myRegex`는 9개의 항목과 일치해야 합니다.
 
 ```js
 assert(result.length == 9);
 ```
 
-Your regex `myRegex` should use the global flag.
+정규 표현식 `myRegex`는 전역 플래그를 사용해야 합니다.
 
 ```js
 assert(myRegex.flags.match(/g/).length == 1);
 ```
 
-Your regex `myRegex` should use the case insensitive flag.
+정규 표현식 `myRegex`는 대소문자 구분 없는 플래그를 사용해야 합니다.
 
 ```js
 assert(myRegex.flags.match(/i/).length == 1);

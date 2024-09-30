@@ -92,7 +92,7 @@ Your `option` with the `value` of `"excellent"` should have the text `"Excellent
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="excellent"]').textContent, 'Excellent');
 ```
 
-You should have an `option` element with the `selected` attribute set to `"excellent"`.
+Ви повинні мати елемент `option` з атрибутом `selected` зі значенням `"excellent"`.
 
 ```js
 assert(document.querySelector('fieldset:nth-of-type(4) select#food option[value="excellent"][selected]'));
