@@ -1,6 +1,6 @@
 ---
 id: 587d7db8367417b2b2512ba0
-title: Match Everything But Letters and Numbers
+title: 문자와 숫자를 제외한 모든 것과 일치시키기
 challengeType: 1
 forumTopicId: 301353
 dashedName: match-everything-but-letters-and-numbers
@@ -8,9 +8,9 @@ dashedName: match-everything-but-letters-and-numbers
 
 # --description--
 
-You've learned that you can use a shortcut to match alphanumerics `[A-Za-z0-9_]` using `\w`. A natural pattern you might want to search for is the opposite of alphanumerics.
+문자와 숫자를 `\w`를 사용하여 `[A-Za-z0-9_]`로 일치시킬 수 있는 쉬운 방법을 배웠습니다. 내가 찾고 싶은 패턴이 문자와 숫자가 아닐 수도 있습니다.
 
-You can search for the opposite of the `\w` with `\W`. Note, the opposite pattern uses a capital letter. This shortcut is the same as `[^A-Za-z0-9_]`.
+`\w`의 반대를 `\W`로 검색할 수 있습니다. 반대 패턴은 대문자를 사용한다는 점에 유의하세요. 이 방법은 `[^A-Za-z0-9_]`과 동일합니다.
 
 ```js
 let shortHand = /\W/;
@@ -20,21 +20,21 @@ numbers.match(shortHand);
 sentence.match(shortHand);
 ```
 
-The first `match` call would return the value `["%"]` and the second would return `["!"]`.
+첫 번째 `match` 호출은 `["%"]` 값을 반환하고 두 번째는 `["!"]`을 반환합니다.
 
 # --instructions--
 
-Use the shorthand character class `\W` to count the number of non-alphanumeric characters in various quotes and strings.
+여러 인용문 및 문자열에서 비알파벳 및 비숫자 문자의 수를 세기 위해 단축 문자 클래스 `\W`를 사용하세요.
 
 # --hints--
 
-Your regex should use the global flag.
+정규 표현식은 글로벌 플래그를 사용해야 합니다.
 
 ```js
 assert(nonAlphabetRegex.global);
 ```
 
-Your regex should find 6 non-alphanumeric characters in the string `The five boxing wizards jump quickly.`.
+정규 표현식은 문자열 `The five boxing wizards jump quickly.`에서 6개의 비알파벳 및 비숫자 문자를 찾아야 합니다.
 
 ```js
 assert(
@@ -42,13 +42,13 @@ assert(
 );
 ```
 
-Your regex should use the shorthand character to match characters which are non-alphanumeric.
+정규 표현식은 비알파벳 및 비숫자 문자를 일치시키기 위해 단축 문자를 사용해야 합니다.
 
 ```js
 assert(/\\W/.test(nonAlphabetRegex.source));
 ```
 
-Your regex should find 8 non-alphanumeric characters in the string `Pack my box with five dozen liquor jugs.`
+정규 표현식은 문자열 `Pack my box with five dozen liquor jugs.`에서 8개의 비알파벳 및 비숫자 문자를 찾아야 합니다.
 
 ```js
 assert(
@@ -56,7 +56,7 @@ assert(
 );
 ```
 
-Your regex should find 6 non-alphanumeric characters in the string `How vexingly quick daft zebras jump!`
+정규 표현식은 문자열 `How vexingly quick daft zebras jump!`에서 6개의 비알파벳 및 비숫자 문자를 찾아야 합니다.
 
 ```js
 assert(
@@ -64,7 +64,7 @@ assert(
 );
 ```
 
-Your regex should find 12 non-alphanumeric characters in the string `123 456 7890 ABC def GHI jkl MNO pqr STU vwx YZ.`
+정규 표현식은 문자열 `123 456 7890 ABC def GHI jkl MNO pqr STU vwx YZ.`에서 12개의 비알파벳 및 비숫자 문자를 찾아야 합니다.
 
 ```js
 assert(

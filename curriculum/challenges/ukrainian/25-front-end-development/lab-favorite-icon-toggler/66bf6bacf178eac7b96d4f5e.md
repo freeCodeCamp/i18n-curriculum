@@ -12,7 +12,7 @@ In this lab you will use JavaScript click events to toggle the appearance of a f
 
 **Objective:** Fulfill the user stories below and get all the tests to pass to complete the lab. **Do not copy this demo project**.
 
-**User Stories:**
+**Історія користувача:**
 
 1. You should have an unordered list with three items.
 2. The unordered list should have the class `item-list`.

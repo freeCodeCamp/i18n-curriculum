@@ -10,7 +10,7 @@ demoType: onClick
 
 **Objective:** Fulfill the user stories below and get all the tests to pass to complete the lab.
 
-**User Stories:**
+**Історія користувача:**
 
 1. Your portfolio should have a welcome section with an `id` of `welcome-section`.
 2. The welcome section should have an `h1` element that contains text.
@@ -106,7 +106,7 @@ const el = document.getElementById('profile-link');
 assert(!!el && el.tagName === 'A')
 ```
 
-Your `#profile-link` element should have a `target` attribute of `_blank`.
+Елемент `#profile-link` повинен мати атрибут `target` зі значенням `_blank`.
 
 ```js
 const el = document.getElementById('profile-link');

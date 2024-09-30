@@ -1,6 +1,6 @@
 ---
 id: 587d7db4367417b2b2512b93
-title: Find More Than the First Match
+title: 첫 번째 일치보다 더 많은 것을 찾기
 challengeType: 1
 forumTopicId: 301342
 dashedName: find-more-than-the-first-match
@@ -8,7 +8,7 @@ dashedName: find-more-than-the-first-match
 
 # --description--
 
-So far, you have only been able to extract or search a pattern once.
+지금까지 패턴을 한 번만 추출하거나 검색할 수 있었습니다.
 
 ```js
 let testStr = "Repeat, Repeat, Repeat";
@@ -16,39 +16,39 @@ let ourRegex = /Repeat/;
 testStr.match(ourRegex);
 ```
 
-Here `match` would return `["Repeat"]`.
+여기서 `match`는 `["Repeat"]`를 반환합니다.
 
-To search or extract a pattern more than once, you can use the global search flag: `g`.
+패턴을 한 번 이상 검색하거나 추출하려면 글로벌 검색 플래그 `g`를 사용할 수 있습니다.
 
 ```js
 let repeatRegex = /Repeat/g;
 testStr.match(repeatRegex);
 ```
 
-And here `match` returns the value `["Repeat", "Repeat", "Repeat"]`
+그리고 여기서 `match`는 `["Repeat", "Repeat", "Repeat"]` 값을 반환합니다.
 
 # --instructions--
 
-Using the regex `starRegex`, find and extract both `Twinkle` words from the string `twinkleStar`.
+정규 표현식 `starRegex`를 사용하여 문자열 `twinkleStar`에서 `Twinkle` 단어를 추출하십시오.
 
-**Note**  
-You can have multiple flags on your regex like `/search/gi`
+**참고**  
+정규 표현식에 `/search/gi`와 같은 여러 플래그를 사용할 수 있습니다.
 
 # --hints--
 
-Your regex `starRegex` should use the global flag `g`
+정규 표현식 `starRegex`는 전역 플래그 `g`를 사용해야 합니다.
 
 ```js
 assert(starRegex.flags.match(/g/).length == 1);
 ```
 
-Your regex `starRegex` should use the case insensitive flag `i`
+정규 표현식 `starRegex`는 대소문자를 구분하지 않는 플래그 `i`를 사용해야 합니다.
 
 ```js
 assert(starRegex.flags.match(/i/).length == 1);
 ```
 
-Your match should match both occurrences of the word `Twinkle`
+매치는 `Twinkle` 단어가 두 번 등장하는 경우 모두를 매칭해야 합니다.
 
 ```js
 assert(
@@ -60,7 +60,7 @@ assert(
 );
 ```
 
-Your match `result` should have two elements in it.
+매치 `result`에는 두 개의 요소가 포함되어야 합니다.
 
 ```js
 assert(result.length == 2);

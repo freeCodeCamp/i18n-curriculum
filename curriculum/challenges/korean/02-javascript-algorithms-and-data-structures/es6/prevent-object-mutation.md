@@ -1,6 +1,6 @@
 ---
 id: 598f48a36c8c40764b4e52b3
-title: Prevent Object Mutation
+title: 객체 변경 방지하기
 challengeType: 1
 forumTopicId: 301207
 dashedName: prevent-object-mutation
@@ -8,9 +8,9 @@ dashedName: prevent-object-mutation
 
 # --description--
 
-As seen in the previous challenge, `const` declaration alone doesn't really protect your data from mutation. To ensure your data doesn't change, JavaScript provides a function `Object.freeze` to prevent data mutation.
+이전 도전과제에서 본 것처럼, `const` 선언만으로는 데이터를 변경으로부터 제대로 보호하지 못합니다. 데이터가 변경되지 않도록 하기 위해, 자바스크립트는 데이터 변경을 방지하는 `Object.freeze` 함수를 제공합니다.
 
-Any attempt at changing the object will be rejected, with an error thrown if the script is running in strict mode.
+객체를 변경하려는 시도는 거부될 것이며, 스크립트가 엄격 모드로 실행 중인 경우 오류가 발생할 것입니다.
 
 ```js
 let obj = {
@@ -23,27 +23,27 @@ obj.newProp = "Test";
 console.log(obj); 
 ```
 
-The `obj.review` and `obj.newProp` assignments will result in errors, because our editor runs in strict mode by default, and the console will display the value `{ name: "FreeCodeCamp", review: "Awesome" }`.
+`obj.review` 및 `obj.newProp` 할당은 오류를 발생시킬 것입니다. 기본적으로 우리 편집기는 엄격 모드로 실행되기 때문에 콘솔에 `{ name: "FreeCodeCamp", review: "Awesome" }` 값이 표시될 것입니다.
 
 # --instructions--
 
-In this challenge you are going to use `Object.freeze` to prevent mathematical constants from changing. You need to freeze the `MATH_CONSTANTS` object so that no one is able to alter the value of `PI`, add, or delete properties.
+이 도전과제에서는 수학 상수가 변경되지 않도록 `Object.freeze`를 사용하게 됩니다. `MATH_CONSTANTS` 객체를 freeze해서 아무도 `PI`의 값을 변경하거나 프로퍼티를 추가 또는 삭제할 수 없도록 해야 합니다.
 
 # --hints--
 
-You should not replace the `const` keyword.
+`const` 키워드를 변경해서는 안 됩니다.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/const/g));
 ```
 
-`MATH_CONSTANTS` should be a constant variable (by using `const`).
+`MATH_CONSTANTS`는 (`const`를 이용하여) 상수로 선언해야 합니다.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/const\s+MATH_CONSTANTS/g));
 ```
 
-You should not change the original declaration of `MATH_CONSTANTS`.
+`MATH_CONSTANTS`의 원래 선언을 변경해서는 안 됩니다.
 
 ```js
 assert(__helpers.removeJSComments(code).match(
@@ -51,7 +51,7 @@ assert(__helpers.removeJSComments(code).match(
 ));
 ```
 
-`PI` should equal `3.14`.
+`PI`는 `3.14`와 같아야 합니다.
 
 ```js
 assert(PI === 3.14);

@@ -1,6 +1,6 @@
 ---
 id: a77dbc43c33f39daa4429b4f
-title: Boo who
+title: 원시 타입 불리언 찾기
 challengeType: 1
 forumTopicId: 16000
 dashedName: boo-who
