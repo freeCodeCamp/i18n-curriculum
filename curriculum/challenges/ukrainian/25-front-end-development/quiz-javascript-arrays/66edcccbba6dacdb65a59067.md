@@ -7,7 +7,7 @@ dashedName: quiz-javascript-arrays
 
 # --description--
 
-Answer all of the questions below correctly to pass the quiz.
+Дайте правильні відповіді на всі запитання нижче, щоб скласти тест.
 
 # --quizzes--
 

@@ -1,6 +1,6 @@
 ---
 id: 587d7dba367417b2b2512ba8
-title: Check for All or None
+title: 모두 다 이거나 혹은 아예 없음을 확인하기
 challengeType: 1
 forumTopicId: 301338
 dashedName: check-for-all-or-none
@@ -8,11 +8,11 @@ dashedName: check-for-all-or-none
 
 # --description--
 
-Sometimes the patterns you want to search for may have parts of it that may or may not exist. However, it may be important to check for them nonetheless.
+때때로 내가 찾고자 하는 패턴에 어떤 일정 부분이 있을 수도 있고 없을 수도 있습니다. 그러나 여전히 그것들을 확인하는 것이 중요할 수 있습니다.
 
-You can specify the possible existence of an element with a question mark, `?`. This checks for zero or one of the preceding element. You can think of this symbol as saying the previous element is optional.
+물음표 `?`를 사용하여 요소의 존재 가능성을 지정할 수 있습니다. 이것은 이전 요소의 0 또는 1의 존재를 확인합니다. 이 기호를 이전 요소는 선택적이라고 말하는 것으로 생각할 수 있습니다.
 
-For example, there are slight differences in American and British English and you can use the question mark to match both spellings.
+예를 들어, 미국 영어와 영국 영어의 미세한 차이가 있으며, 물음표를 사용하여 두 가지 철자를 모두 맞출 수 있습니다.
 
 ```js
 let american = "color";
@@ -22,36 +22,36 @@ rainbowRegex.test(american);
 rainbowRegex.test(british);
 ```
 
-Both uses of the `test` method would return `true`.
+`test` 메서드의 두 가지 사용 경우 모두 `true`를 반환합니다.
 
 # --instructions--
 
-Change the regex `favRegex` to match both the American English (`favorite`) and the British English (`favourite`) version of the word.
+미국 영어(`favorite`) 및 영국 영어(`favourite`) 버전의 단어를 모두 일치시키도록 정규 표현식 `favRegex`를 변경하세요.
 
 # --hints--
 
-Your regex should use the optional symbol, `?`.
+이 정규 표현식에서 선택적 기호 `?`를 사용해야 합니다.
 
 ```js
 favRegex.lastIndex = 0;
 assert(favRegex.source.match(/\?/).length > 0);
 ```
 
-Your regex should match the string `favorite`
+이 정규 표현식은 문자열 `favorite`와 일치해야 합니다.
 
 ```js
 favRegex.lastIndex = 0;
 assert(favRegex.test('favorite'));
 ```
 
-Your regex should match the string `favourite`
+이 정규 표현식은 문자열 `favourite`와 일치해야 합니다.
 
 ```js
 favRegex.lastIndex = 0;
 assert(favRegex.test('favourite'));
 ```
 
-Your regex should not match the string `fav`
+이 정규 표현식은 문자열 `fav`와 일치하지 않아야 합니다.
 
 ```js
 favRegex.lastIndex = 0;

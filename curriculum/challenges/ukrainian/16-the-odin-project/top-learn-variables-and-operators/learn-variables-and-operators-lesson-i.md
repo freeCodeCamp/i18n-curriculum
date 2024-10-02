@@ -84,19 +84,21 @@ console.log( counter++ ); // 0
 
 ## --text--
 
-Яка різниця між результатом двох інструкцій в коді JavaScript нижче?
+What are the outputs of the two `console.log` statements in the JavaScript code below?
 
 ```js
 let counter = 1;
 console.log(2 * ++counter); // Statement A
+```
 
+```js
 let counter = 1;
 console.log(2 * counter++); // Statement B
 ```
 
 ## --answers--
 
-Жодної різниці; обидві інструкції покажуть однаковий результат.
+There is no difference; both `console.log` statements will show the same result.
 
 ---
 
