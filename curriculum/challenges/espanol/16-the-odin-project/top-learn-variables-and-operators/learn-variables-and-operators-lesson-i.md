@@ -84,19 +84,21 @@ console.log( counter++ ); // 0
 
 ## --text--
 
-¿Cuál es la diferencia en el resultado de las dos sentencias de consola en el código JavaScript a continuación?
+What are the outputs of the two `console.log` statements in the JavaScript code below?
 
 ```js
 let counter = 1;
 console.log(2 * ++counter); // Statement A
+```
 
+```js
 let counter = 1;
 console.log(2 * counter++); // Statement B
 ```
 
 ## --answers--
 
-No hay diferencia; ambas sentencias de alerta mostrarán el mismo resultado.
+There is no difference; both `console.log` statements will show the same result.
 
 ---
 
