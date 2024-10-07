@@ -11,7 +11,7 @@ dashedName: target-html-elements-with-selectors-using-jquery
 
 # --description--
 
-Тепер у нас є функція `document ready`.
+Now we have a `document ready` function.
 
 Напишемо першу інструкцію в jQuery. Усі функції jQuery починаються з `$`, який зазвичай називають доларом.
 

@@ -9,7 +9,7 @@ dashedName: use-tabindex-to-specify-the-order-of-keyboard-focus-for-several-elem
 
 # --description--
 
-`tabindex` 属性还可以指定元素的 tab 键焦点顺序， 将它的值设置为大于等于 1 的整数，就可以实现这个功能。
+The `tabindex` attribute also specifies the exact tab order of elements. This is achieved when the attribute's value is set to a positive number of 1 or higher.
 
 给元素设置 `tabindex="1"`，键盘将首先把焦点放在这个元素上。 然后它按照指定的 `tabindex` 值（2、3 等等）顺序循环，再移动到默认值和 `tabindex="0"` 项目。
 

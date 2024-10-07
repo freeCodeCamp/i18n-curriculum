@@ -9,7 +9,7 @@ dashedName: accessing-object-properties-with-variables
 
 # --description--
 
-Eine weitere Verwendung der Klammerschreibweise für Objekte ist der Zugriff auf eine Eigenschaft, die als Wert einer Variablen gespeichert ist. Das kann sehr nützlich sein, um die Eigenschaften eines Objekts zu durchlaufen oder auf eine Umsetzungstabelle (lookup table) zuzugreifen.
+Another use of bracket notation on objects is to access a property which is stored as the value of a variable. This can be very useful for iterating through an object's properties or when accessing a lookup table.
 
 Hier ist ein Beispiel für die Verwendung einer Variablen, um auf eine Eigenschaft zuzugreifen:
 

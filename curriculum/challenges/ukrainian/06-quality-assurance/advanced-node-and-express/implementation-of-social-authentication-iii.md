@@ -8,7 +8,7 @@ dashedName: implementation-of-social-authentication-iii
 
 # --description--
 
-Фінальна частина стратегії обробляє профіль, повернений з GitHub. Нам потрібно завантажити базу даних користувача, якщо вона існує (або створити, якщо її немає), та заповнити поля профілю, а потім повернути об’єкт користувача. У межах кожного профілю GitHub надає нам унікальний *id*, який можна використовувати для того, щоб знайти та серіалізувати користувача (уже реалізовано). Нижче наведено приклад реалізації, який ви можете використати у своєму проєкті. Він входить до функції, яка є другим аргументом для нової стратегії, одразу під місцем, де `console.log(profile);` наразі такий:
+The final part of the strategy is handling the profile returned from GitHub. We need to load the user's database object if it exists, or create one if it doesn't, and populate the fields from the profile, then return the user's object. GitHub supplies us a unique *id* within each profile which we can use to search with to serialize the user with (already implemented). Below is an example implementation you can use in your project--it goes within the function that is the second argument for the new strategy, right below where `console.log(profile);` currently is:
 
 ```js
 myDataBase.findOneAndUpdate(

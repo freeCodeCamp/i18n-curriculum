@@ -9,7 +9,7 @@ dashedName: comparison-with-the-strict-equality-operator
 
 # --description--
 
-Строга рівність (`===`) є аналогом оператора рівності (`==`). Однак на відміну від оператора «дорівнює», який намагається перетворити обидва значення в порівнянні зі звичайним типом, оператор строгої рівності не перетворює типи даних.
+Strict equality (`===`) is the counterpart to the equality operator (`==`). However, unlike the equality operator, which attempts to convert both values being compared to a common type, the strict equality operator does not perform a type conversion.
 
 Якщо порівнювані значення мають різні типи, вони вважаються нерівними і оператор строгої рівності поверне false.
 

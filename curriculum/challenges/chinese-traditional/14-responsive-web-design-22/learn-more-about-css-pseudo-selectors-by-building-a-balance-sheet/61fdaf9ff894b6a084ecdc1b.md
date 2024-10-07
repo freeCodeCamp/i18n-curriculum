@@ -7,7 +7,7 @@ dashedName: step-33
 
 # --description--
 
-爲了防止文本內容溢出，給你的 `span[class~="sr-only"]` 選擇器一個 `overflow` 屬性設置爲 `hidden` 和 `white-space` 屬性設置爲 `nowrap`。
+To prevent the text content from overflowing, give your `span[class~="sr-only"]` selector an `overflow` property set to `hidden` and a `white-space` property set to `nowrap`.
 
 # --hints--
 

@@ -12,7 +12,7 @@ dashedName: task-78
 Example: `Health and safety regulations ensure a safe workplace.`
 
 
-# --questions--
+# --preguntas----preguntas--
 
 ## --text--
 
@@ -22,7 +22,7 @@ What are `regulations` usually in a business context?
 
 Personal preferences.
 
-### --retroalimentación--
+### --feedback--
 
 Regulations are formal rules, not personal preferences.
 
@@ -30,7 +30,7 @@ Regulations are formal rules, not personal preferences.
 
 Informal team agreements.
 
-### --retroalimentación--
+### --feedback--
 
 Regulations are more formal than informal agreements.
 
@@ -42,7 +42,7 @@ Official rules set by authorities.
 
 Suggestions for leisure activities.
 
-### --retroalimentación--
+### --feedback--
 
 They are about professional conduct, not leisure.
 

@@ -8,7 +8,7 @@ dashedName: spinal-tap-case
 
 # --description--
 
-文字列をケバブケースに変換してください。 ケバブケースとは、all-lowercase-words-joined-by-dashes のようにすべて小文字の単語をダッシュで結合したものです。
+Convert a string to spinal case. Spinal case is all-lowercase-words-joined-by-dashes.
 
 # --hints--
 

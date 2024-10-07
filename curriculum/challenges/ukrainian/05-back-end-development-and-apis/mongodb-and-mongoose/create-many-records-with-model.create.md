@@ -8,7 +8,7 @@ dashedName: create-many-records-with-model-create
 
 # --description--
 
-Часом потрібно створити багато екземплярів своїх моделей, наприклад, під час заповнення бази даних початковими даними. `Model.create()` приймає масив об’єктів, таких як `[{name: 'John', ...}, {...}, ...]` як перший аргумент та зберігає їх до бази даних.
+Sometimes you need to create many instances of your models, e.g. when seeding a database with initial data. `Model.create()` takes an array of objects like `[{name: 'John', ...}, {...}, ...]` as the first argument, and saves them all in the db.
 
 # --instructions--
 

@@ -9,7 +9,7 @@ dashedName: align-all-items-horizontally-using-justify-items
 
 # --description--
 
-Іноді ви хочете, щоб всі елементи у вашій таблиці CSS були одинаково вирівняні. Ви можете використати раніше вивчені властивості та вирівняти їх окремо, або ви можете вирівняти горизонтально всіх їх одночасно, використовуючи `justify-items` у вашому grid-контейнері. Ця властивість може прийняти всі ті ж значення, про які ви дізналися у попередніх двох завданнях, різниця в тому, що вона буде переміщати **всі** елементи в нашій таблиці до потрібного вирівнювання.
+Sometimes you want all the items in your CSS Grid to share the same alignment. You can use the previously learned properties and align them individually, or you can align them all at once horizontally by using `justify-items` on your grid container. This property can accept all the same values you learned about in the previous two challenges, the difference being that it will move **all** the items in our grid to the desired alignment.
 
 # --instructions--
 

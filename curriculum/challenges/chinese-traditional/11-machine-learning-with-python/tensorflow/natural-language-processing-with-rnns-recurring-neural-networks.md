@@ -14,7 +14,7 @@ dashedName: natural-language-processing-with-rnns-recurring-neural-networks
 
 ## --text--
 
-關於循環神經網絡，哪一項是正確的？
+What is true about Recurrent Neural Networks?
 
 ## --answers--
 

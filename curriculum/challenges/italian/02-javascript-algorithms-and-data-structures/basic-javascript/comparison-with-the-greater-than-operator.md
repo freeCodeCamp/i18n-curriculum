@@ -9,7 +9,7 @@ dashedName: comparison-with-the-greater-than-operator
 
 # --description--
 
-L'operatore di maggioranza (`>`) confronta i valori di due numeri. Se il numero a sinistra è maggiore del numero a destra, restituisce `true`. In caso contrario restituisce `false`.
+The greater than operator (`>`) compares the values of two numbers. If the number to the left is greater than the number to the right, it returns `true`. Otherwise, it returns `false`.
 
 Come l'operatore di uguaglianza, l'operatore di maggioranza convertirà i tipi di dati dei valori durante il confronto.
 

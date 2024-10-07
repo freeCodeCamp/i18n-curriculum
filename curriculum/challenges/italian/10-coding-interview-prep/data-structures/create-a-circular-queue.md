@@ -8,7 +8,7 @@ dashedName: create-a-circular-queue
 
 # --description--
 
-In questa sfida creerai una coda circolare. Una coda circolare è una coda che scrive alla fine di una collezione, poi inizia a sovrascrivere sè stessa all'inizio della collezione. Questo tipo di struttura dati è utile in determinate situazioni. Ad esempio, una coda circolare può essere utilizzata per lo streaming media. Una volta che la coda è piena, i nuovi dati multimediali sovrascriveranno i vecchi dati.
+In this challenge you will be creating a Circular Queue. A circular queue is a queue that writes to the end of a collection then begins overwriting itself at the beginning of the collection. This type of data structure is useful in certain situations. For example, a circular queue can be used for streaming media. Once the queue is full, new media data will overwrite old data.
 
 Un buon modo per illustrare questo concetto è con un array di lunghezza `5`:
 

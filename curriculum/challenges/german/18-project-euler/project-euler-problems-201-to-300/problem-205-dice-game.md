@@ -14,7 +14,7 @@ Colin hat sechs sechsseitige (kubische) Würfel mit den Seiten 1, 2, 3, 4, 5, 6.
 
 Peter und Colin würfeln und vergleichen ihre Ergebnisse: Die höchste Summe gewinnt. Das Ergebnis ist ein Unentschieden, wenn die Summen gleich sind.
 
-What is the probability that Pyramidal Pete beats Cubic Colin? Gib deine Antwort auf sieben Dezimalstellen abgerundet in der Form 0.abcdefg
+Wie groß ist die Wahrscheinlichkeit, dass der pyramidenförmige Pete den quadratischen Colin schlägt? Gib deine Antwort auf sieben Dezimalstellen abgerundet in der Form 0.abcdefg
 
 # --hints--
 

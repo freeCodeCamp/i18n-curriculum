@@ -9,7 +9,7 @@ dashedName: access-array-data-with-indexes
 
 # --description--
 
-Wir können auf die Daten innerhalb von Arrays mit <dfn>Indizes</dfn> zugreifen.
+We can access the data inside arrays using <dfn>indexes</dfn>.
 
 Array-Indizes werden in der gleichen Klammernotation wie Strings geschrieben, außer dass sie anstelle eines Zeichens einen Eintrag im Array spezifizieren. Wie bei Strings verwenden Arrays eine <dfn>nullbasierte</dfn> Indizierung, so dass das erste Element in einem Array den Index `0` hat.
 

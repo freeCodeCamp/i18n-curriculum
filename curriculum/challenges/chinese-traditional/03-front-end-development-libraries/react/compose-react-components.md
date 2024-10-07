@@ -8,7 +8,7 @@ dashedName: compose-react-components
 
 # --description--
 
-隨着挑戰繼續，將組合使用更復雜的 React 組件和 JSX，有一點需要注意。 在其它組件中渲染 ES6 風格的類組件和渲染在過去幾個挑戰中使用的簡單組件沒有什麼不同。 可以在其它組件中渲染 JSX 元素、無狀態函數組件和 ES6 類組件。
+As the challenges continue to use more complex compositions with React components and JSX, there is one important point to note. Rendering ES6 style class components within other components is no different than rendering the simple components you used in the last few challenges. You can render JSX elements, stateless functional components, and ES6 class components within other components.
 
 # --instructions--
 

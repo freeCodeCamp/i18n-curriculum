@@ -9,7 +9,7 @@ dashedName: use-a-css-linear-gradient-to-create-a-striped-element
 
 # --description--
 
-`repeating-linear-gradient()` 函數和 `linear-gradient()` 很像，主要區別是前者會重複指定的漸變。 `repeating-linear-gradient()` 有很多參數，爲了便於理解，本關只用到角度值和色標。
+The `repeating-linear-gradient()` function is very similar to `linear-gradient()` with the major difference that it repeats the specified gradient pattern. `repeating-linear-gradient()` accepts a variety of values, but for simplicity, you'll work with an angle value and color stop values in this challenge.
 
 角度就是漸變的方向。 色標代表漸變顏色及發生漸變的位置，由百分比或者像素值表示。
 

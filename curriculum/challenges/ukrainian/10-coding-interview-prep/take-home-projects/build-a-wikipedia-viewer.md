@@ -8,7 +8,7 @@ dashedName: build-a-wikipedia-viewer
 
 # --description--
 
-**Мета:** створити застосунок, функціонально схожий до цього: <a href="https://codepen.io/freeCodeCamp/full/wGqEga/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/wGqEga/</a>.
+**Objective:** Build an app that is functionally similar to this: <a href="https://codepen.io/freeCodeCamp/full/wGqEga/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/wGqEga/</a>.
 
 Вікіпедія працює завдяки програмному забезпеченню MediaWiki, а це допомагає збирати й систематизувати інформацію та робити її доступною для людей.
 
@@ -20,7 +20,7 @@ dashedName: build-a-wikipedia-viewer
 
 **Історія користувача:** я можу натиснути кнопку, щоб побачити випадкову статтю у вікіпедії.
 
-Коли закінчите, надайте посилання на свій проєкт на CodePen та натисніть кнопку «Я виконав(-ла) це завдання».
+Після завершення додайте посилання на ваш проєкт на CodePen та натисніть на кнопку "Я виконав це завдання".
 
 Ви можете отримати фідбек до свого проєкту, поділившись ним на <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">форумі freeCodeCamp</a>.
 

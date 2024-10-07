@@ -8,21 +8,21 @@ dashedName: problem-381-prime-k-factorial
 
 # --description--
 
-For a prime $p$ let $S(p) = (\sum (p - k)!)\bmod (p)$ for $1 ≤ k ≤ 5$.
+Für eine Primzahl $p$ sei $S(p) = (\sum (p - k)!)\bmod (p)$ für $1 ≤ k ≤ 5$.
 
-For example, if $p = 7$,
+Zum Beispiel, wenn $p = 7$,
 
 $$(7 - 1)! + (7 - 2)! + (7 - 3)! + (7 - 4)! + (7 - 5)! = 6! + 5! + 4! + 3! + 2! = 720 + 120 + 24 + 6 + 2 = 872$$
 
-As $872\bmod (7) = 4$, $S(7) = 4$.
+Als $872\bmod (7) = 4$, $S(7) = 4$.
 
-It can be verified that $\sum S(p) = 480$ for $5 ≤ p &lt; 100$.
+Es lässt sich nachweisen, dass $\sum S(p) = 480$ für $5 ≤ p &lt; 100$.
 
-Find $\sum S(p)$ for $5 ≤ p &lt; {10}^8$.
+Finde $\sum S(p)$ für $5 ≤ p &lt; {10}^8$.
 
 # --hints--
 
-`primeKFactorial()` should return `139602943319822`.
+`primeKFactorial()` sollte `139602943319822` zurückgeben.
 
 ```js
 assert.strictEqual(primeKFactorial(), 139602943319822);

@@ -8,7 +8,7 @@ dashedName: add-inline-styling-to-elements
 
 # --description--
 
-D3 では、`style()` メソッドを使用して動的要素にインライン CSS スタイルを追加することができます。
+D3 lets you add inline CSS styles on dynamic elements with the `style()` method.
 
 `style()` メソッドは、カンマ区切りのキーと値のペアを引数に取ります。 選択したテキストの色を青に設定する例を下に示します。
 

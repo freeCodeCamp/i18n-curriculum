@@ -9,7 +9,7 @@ dashedName: change-the-font-size-of-an-element
 
 # --description--
 
-Розмір шрифту контролюється властивістю CSS `font-size`, наприклад:
+Font size is controlled by the `font-size` CSS property, like this:
 
 ```css
 h1 {

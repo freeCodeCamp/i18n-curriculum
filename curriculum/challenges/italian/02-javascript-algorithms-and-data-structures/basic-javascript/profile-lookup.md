@@ -9,7 +9,7 @@ dashedName: profile-lookup
 
 # --description--
 
-Abbiamo un array di oggetti che rappresentano persone diverse nelle nostre liste di contatti.
+We have an array of objects representing different people in our contacts lists.
 
 Abbiamo scritto per te una funzione `lookUpProfile` che prende `name` e una proprietà (`prop`) come argomenti.
 

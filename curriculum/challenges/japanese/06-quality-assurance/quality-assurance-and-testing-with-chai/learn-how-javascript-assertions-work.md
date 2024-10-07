@@ -8,15 +8,15 @@ dashedName: learn-how-javascript-assertions-work
 
 # --description--
 
-これらのチャレンジに取り組むにあたり、以下の方法のうち 1 つを用いてコードを記述します。
+Working on these challenges will involve you writing your code using one of the following methods:
 
-- <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">GitHub リポジトリ</a>をクローンし、ローカル環境でプロジェクトを完了させる。
+- Clone <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete these challenges locally.
 - Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete these challenges.
 - 使い慣れたサイトビルダーを使用してプロジェクトを完了させる。 必ず GitHub リポジトリのすべてのファイルを取り込む。
 
 # --instructions--
 
-Within `tests/1_unit-tests.js` under the test labeled `#1` in the `Basic Assertions` suite, change each `assert` to either `assert.isNull` or `assert.isNotNull` to make the test pass (should evaluate to `true`). アサートに渡された引数は変更しないでください。
+Within `tests/1_unit-tests.js` under the test labeled `#1` in the `Basic Assertions` suite, change each `assert` to either `assert.isNull` or `assert.isNotNull` to make the test pass (should evaluate to `true`). アサートに渡された引数を変更しないでください。
 
 # --hints--
 
@@ -34,7 +34,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#1` in the `Basic Asserti
   );
 ```
 
-最初のアサーションに対して、正しいメソッドを選ぶ必要があります - `isNull` もしくは `isNotNull` です。
+You should choose the correct method for the first assertion - `isNull` vs. `isNotNull`.
 
 ```js
 (getUserInput) =>
@@ -48,7 +48,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#1` in the `Basic Asserti
   );
 ```
 
-2 番目のアサーションに対して、正しいメソッドを選ぶ必要があります- `isNull` もしくは `isNotNull` です。
+You should choose the correct method for the second assertion - `isNull` vs. `isNotNull`.
 
 ```js
 (getUserInput) =>

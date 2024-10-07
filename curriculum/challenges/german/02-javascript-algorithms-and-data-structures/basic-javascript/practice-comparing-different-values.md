@@ -9,7 +9,7 @@ dashedName: practice-comparing-different-values
 
 # --description--
 
-In den letzten beiden Aufgaben haben wir den Gleichheitsoperator (`==`) und den strikten Gleichheitsoperator (`===`) kennengelernt. Lass uns noch einmal kurz den Umgang mit diesen Operatoren üben.
+In the last two challenges, we learned about the equality operator (`==`) and the strict equality operator (`===`). Let's do a quick review and practice using these operators some more.
 
 Wenn die zu vergleichenden Werte nicht vom gleichen Typ sind, führt der Gleichheitsoperator eine Typkonvertierung durch und wertet dann die Werte aus. Der strikte Gleichheitsoperator vergleicht jedoch sowohl den Datentyp als auch den Wert wie er ist, ohne einen Typ in den anderen zu konvertieren.
 

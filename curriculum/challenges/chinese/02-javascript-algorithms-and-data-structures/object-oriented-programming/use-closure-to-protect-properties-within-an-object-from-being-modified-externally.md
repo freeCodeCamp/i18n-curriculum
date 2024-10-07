@@ -10,7 +10,7 @@ dashedName: >-
 
 # --description--
 
-在上一次挑战中，`bird` 有一个公共属性 `name`。 公共属性的定义就是：它可以在 `bird` 的定义范围之外被访问和更改。
+In the previous challenge, `bird` had a public property `name`. It is considered public because it can be accessed and changed outside of `bird`'s definition.
 
 ```js
 bird.name = "Duffy";

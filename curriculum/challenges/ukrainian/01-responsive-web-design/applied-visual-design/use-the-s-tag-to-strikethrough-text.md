@@ -8,7 +8,7 @@ dashedName: use-the-s-tag-to-strikethrough-text
 
 # --description--
 
-Для закреслення тексту, що відображається як горизонтальна лінія, яка проходить крізь символи, ви можете використати тег `s`. Таким чином можна показати, що частина тексту більше недійсна. З тегом `s` браузер застосовує `text-decoration: line-through;` CSS код до елемента.
+To strikethrough text, which is when a horizontal line cuts across the characters, you can use the `s` tag. It shows that a section of text is no longer valid. With the `s` tag, the browser applies the CSS of `text-decoration: line-through;` to the element.
 
 # --instructions--
 

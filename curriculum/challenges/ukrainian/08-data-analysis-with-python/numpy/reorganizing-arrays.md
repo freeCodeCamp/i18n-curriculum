@@ -14,7 +14,7 @@ dashedName: reorganizing-arrays
 
 ## --text--
 
-За допомогою якого коду можна отримати цей масив?
+What code would produce the following array?
 
 ```py
 [[1. 1.]

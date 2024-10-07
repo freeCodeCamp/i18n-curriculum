@@ -8,7 +8,7 @@ dashedName: css-foundations-lesson-a
 
 # --description--
 
-A type selector (or element selector) will select all elements of the given element type, and the syntax is just the name of the element:
+類型選擇器（或元素選擇器）將選擇給定元素類型的所有元素，其語法是：元素名 { css 代碼 }：
 
 ```html
 <!-- index.html -->
@@ -29,25 +29,37 @@ div {
 
 Here, all three `<div>` elements would be selected, while the `<p>` element wouldn’t be.
 
-# --questions--
+# 問題
 
 ## --text--
 
-Which of the following best describes the CSS code given above?
+以下哪一項最能描述上面給出的CSS代碼？
 
 ## --answers--
 
-The code applies a `white` color to all elements in the HTML file.
+該代碼`white`將白色應用於HTML文件中的所有元素。
 
 ---
 
-The code applies a `white` color to all `div` elements in the HTML file.
+該代碼`white`將白色應用於HTML文件中的所有
 
----
+<div>
+  元素。</p>
 
-The code applies a `white` color to all `p` elements in the HTML file.
+<hr />
+  
+  <p spaces-before="0">
+    該代碼<code>white</code>將白色應用於HTML文件中的所有
+    
+    <p>
+      元素。
+    </p>
 
 
-## --video-solution--
+<h2 spaces-before="0">
+  --video-solution--
+</h2>
 
-2
+<p spaces-before="0">
+  2
+</p>

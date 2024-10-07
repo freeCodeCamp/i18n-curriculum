@@ -9,7 +9,7 @@ dashedName: quoting-strings-with-single-quotes
 
 # --description--
 
-JavaScript 中的<dfn>字符串</dfn>可以使用開始和結束都是同類型的單引號或雙引號表示。 與其他一些編程語言不同的是，單引號和雙引號的功能在 JavaScript 中是相同的。
+<dfn>String</dfn> values in JavaScript may be written with single or double quotes, as long as you start and end with the same type of quote. Unlike some other programming languages, single and double quotes work the same in JavaScript.
 
 ```js
 const doubleQuoteStr = "This is a string"; 

@@ -9,7 +9,7 @@ dashedName: accessing-object-properties-with-dot-notation
 
 # --description--
 
-配列の場合と同様に、オブジェクトのプロパティへのアクセス方法も、ドット記法 (`.`) とブラケット記法 (`[]`) の 2 通りがあります。
+There are two ways to access the properties of an object: dot notation (`.`) and bracket notation (`[]`), similar to an array.
 
 ドット記法は、アクセスしようとしているプロパティの名前があらかじめわかっている場合に使用します。
 

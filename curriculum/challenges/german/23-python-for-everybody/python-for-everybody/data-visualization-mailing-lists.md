@@ -12,7 +12,7 @@ dashedName: data-visualization-mailing-lists
 
 # --description--
 
-More resources:
+Weitere Quellen:
 
 \- <a href="https://www.youtube.com/watch?v=KfhslNzopxo" target="_blank" rel="noopener noreferrer nofollow">Aufgabe: Geodata </a>
 

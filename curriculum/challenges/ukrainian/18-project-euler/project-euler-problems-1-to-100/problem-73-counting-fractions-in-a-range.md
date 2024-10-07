@@ -8,7 +8,7 @@ dashedName: problem-73-counting-fractions-in-a-range
 
 # --description--
 
-Розглянемо дріб $\frac{n}{d}$, де `n` та `d` є натуральними числами. Якщо `n` &lt; `d` та найбільший спільний дільник ${НСД}(n, d) = 1$, то це називається скоротним правильним дробом.
+Розглянемо дріб $\frac{n}{d}$, де `n` та `d` є додатними цілими числами. Якщо `n` &lt; `d` та найбільший спільний дільник ${НСД}(n, d) = 1$, то це називається скоротним правильним дробом.
 
 Якщо перерахувати скоротні правильні дроби для `d` ≤ 8 у порядку зростання, то отримаємо:
 
@@ -74,9 +74,9 @@ class PrimeSeive {
 
     for (let i = 0; i <= sqrtUpper; i++) {
       if (seive[i]) {
-        // Позначте значення в масиві seive
+        // Mark value in seive array
         const prime = 2 * i + 3;
-        // Позначте всі дільники цього числа як false (не цілі числа)
+        // Mark all multiples of this number as false (not prime)
         const primeSquaredIndex = 2 * i ** 2 + 6 * i + 3;
         for (let j = primeSquaredIndex; j < upper; j += prime) {
           seive[j] = false;
@@ -104,13 +104,13 @@ const primeSeive = new PrimeSeive(12001);
 function countingFractionsInARange(num) {
   const moebius = Array(num + 1).fill(1)
 
-  // Згенеруйте члени функції Мебіуса
+  // Generate Moebis function terms
   for (let i = 2; i <= num; i++) {
     if (!primeSeive.isPrime(i)) continue;
     for (let j = i; j <= num; j += i) moebius[j] *= -1;
     for (let j = i * i; j <= num; j += i * i) moebius[j] = 0;
   }
-  // Обчисліть суму функції Ейлера
+  // Evaluate totient sum
   let sum = 0;
   for (let i = 1; i <= num; i++) {
     const coeff = Math.floor(num / i - 2);

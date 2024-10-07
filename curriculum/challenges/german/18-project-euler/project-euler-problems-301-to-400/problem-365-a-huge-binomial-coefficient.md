@@ -8,7 +8,7 @@ dashedName: problem-365-a-huge-binomial-coefficient
 
 # --description--
 
-The binomial coefficient $\displaystyle\binom{{10}^{18}}{{10}^9}$ is a number with more than 9 billion ($9 × {10}^9$) digits.
+Der Binomialkoeffizient $\displaystyle\binom{{10}^{18}}{{10}^9}$ ist eine Zahl mit mehr als 9 Milliarden ($9 × {10}^9$) Ziffern.
 
 Bezeichne $M(n, k, m)$ als den Binomialkoeffizienten $\displaystyle\binom{n}{k}$ modulo $m$.
 
@@ -16,7 +16,7 @@ Berechne $\sum M({10}^{18}, {10}^9, p \times q \times r)$ für $1000 &lt; p &lt;
 
 # --hints--
 
-`hugeBinomialCoefficient()` should return `162619462356610300`.
+`hugeBinomialCoefficient()` sollte `162619462356610300` zurückgeben.
 
 ```js
 assert.strictEqual(hugeBinomialCoefficient(), 162619462356610300);

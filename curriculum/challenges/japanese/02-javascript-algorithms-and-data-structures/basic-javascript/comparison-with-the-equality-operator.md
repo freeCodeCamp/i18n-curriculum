@@ -9,7 +9,7 @@ dashedName: comparison-with-the-equality-operator
 
 # --description--
 
-JavaScript には多くの<dfn>比較演算子</dfn>があります。 これらの演算子はすべてブール値の `true` または `false` を返します。
+There are many <dfn>comparison operators</dfn> in JavaScript. All of these operators return a boolean `true` or `false` value.
 
 最も基本的な演算子は等価演算子 `==` です。 等価演算子は 2 つの値を比較し、等価な場合は `true` を、そうでない場合は `false` を返します。 等価は代入 (`=`) とは異なることに注意してください。代入は演算子の右側の値を左側の変数に割り当てるものです。
 

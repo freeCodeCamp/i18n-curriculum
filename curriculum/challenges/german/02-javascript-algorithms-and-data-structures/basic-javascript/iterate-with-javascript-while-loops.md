@@ -9,7 +9,7 @@ dashedName: iterate-with-javascript-while-loops
 
 # --description--
 
-Du kannst denselben Code mehrmals ausführen, indem du eine Schleife verwendest.
+You can run the same code multiple times by using a loop.
 
 Die erste Art von Schleife, die wir lernen werden, heißt `while`-Schleife, weil sie läuft, solange eine bestimmte Bedingung wahr ist und stoppt, sobald diese Bedingung nicht mehr wahr ist.
 

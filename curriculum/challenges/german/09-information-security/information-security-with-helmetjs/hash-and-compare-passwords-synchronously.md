@@ -16,13 +16,13 @@ Das synchrone Hashing ist ebenso einfach, kann aber zu Verzögerungen führen, w
 var hash = bcrypt.hashSync(myPlaintextPassword, saltRounds);
 ```
 
-Add this method of hashing to your code and then log the result to the console. Again, the variables used are already defined in the server so you won't need to adjust them. You may notice even though you are hashing the same password as in the async function, the result in the console is different- this is due to the salt being randomly generated each time as seen by the first 22 characters in the third string of the hash. Now to compare a password input with the new sync hash, you would use the compareSync method:
+Füge diese Hashing-Methode in deinen Code hinzu und protokolliere das Ergebnis auf der Konsole. Auch hier sind die verwendeten Variablen bereits im Server definiert, so dass du sie nicht anpassen musst. Obwohl du das gleiche Passwort wie in der asynchronen Funktion hashst, ist das Ergebnis in der Konsole unterschiedlich. Das liegt daran, dass der Salt jedes Mal zufällig generiert wird, wie an den ersten 22 Zeichen in der dritten Zeichenfolge des Hashes zu erkennen ist. Um nun eine Passworteingabe mit dem neuen Sync-Hash zu vergleichen, kannst die compareSync-Methode verwenden:
 
 ```js
 var result = bcrypt.compareSync(myPlaintextPassword, hash);
 ```
 
-with the result being a boolean true or false.
+wobei das Ergebnis ein boolescher Wert true oder false ist.
 
 # --instructions--
 

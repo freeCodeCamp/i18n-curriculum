@@ -9,7 +9,7 @@ dashedName: use-headings-to-show-hierarchical-relationships-of-content
 
 # --description--
 
-標題標籤（包括 `h1` 到 `h6`）有很高的使用率，它們用於描述內容的主題。 在屏幕閱讀器中，用戶爲了快速瞭解頁面綱要，可以設置讓閱讀器只朗讀頁面標題。 這意味着我們不應僅僅爲了設置不同字號而使用標題，而應讓標籤本身具有語義化和實質性的含義，同時不同標題之間也應關聯（具有層級關係）。
+Headings (`h1` through `h6` elements) are workhorse tags that help provide structure and labeling to your content. Screen readers can be set to read only the headings on a page so the user gets a summary. This means it is important for the heading tags in your markup to have semantic meaning and relate to each other, not be picked merely for their size values.
 
 *語義化*的意思是，標籤名能準確地表達它所含內容的信息類型。
 

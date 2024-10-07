@@ -8,7 +8,7 @@ dashedName: use-dynamic-scales
 
 # --description--
 
-Os métodos `min()` e `max()` do D3 são úteis para definir a escala.
+The D3 `min()` and `max()` methods are useful to help set the scale.
 
 Dado um conjunto de dados complexos, uma prioridade é definir a escala para que a visualização se encaixe na largura e na altura do contêiner do SVG. Você quer todos os dados plotados dentro do SVG para que sejam visíveis na página da web.
 

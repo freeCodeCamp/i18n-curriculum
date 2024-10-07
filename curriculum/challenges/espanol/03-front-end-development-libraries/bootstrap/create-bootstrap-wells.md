@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aec908848
-title: Crea Bootstrap wells
+title: Crea Bootstrap Wells
 challengeType: 0
 forumTopicId: 16825
 dashedName: create-bootstrap-wells
@@ -8,7 +8,7 @@ dashedName: create-bootstrap-wells
 
 # --description--
 
-Bootstrap tiene una clase llamada `well` que puede crear una sensación visual de profundidad en tus columnas.
+Bootstrap has a class called `well` that can create a visual sense of depth for your columns.
 
 Anida un elemento `div` con la clase `well` dentro de cada uno de tus elementos `col-xs-6` `div`.
 

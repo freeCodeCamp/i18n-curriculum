@@ -9,7 +9,7 @@ dashedName: use-html5-to-require-a-field
 
 # --description--
 
-È possibile rendere obbligatori specifici campi di un modulo in modo che l'utente non sia in grado di inviarlo fino a quando non li abbia compilati.
+You can require specific form fields so that your user will not be able to submit your form until he or she has filled them out.
 
 Per esempio, se volessi rendere obbligatorio un campo di immissione di testo, potresti semplicemente aggiungere l'attributo `required` all'interno del tuo elemento `input`, in questo modo: `<input type="text" required>`
 

@@ -9,7 +9,7 @@ dashedName: create-movement-using-css-animation
 
 # --description--
 
-在元素的 `position` 已有指定值（如 `fixed` 或者 `relative`）时，CSS 偏移属性 `right`、`left`、`top`、`bottom` 可以用在动画规则里创建动作。
+When elements have a specified `position`, such as `fixed` or `relative`, the CSS offset properties `right`, `left`, `top`, and `bottom` can be used in animation rules to create movement.
 
 就像下面的例子展示的那样，你可以在 `50%` keyframe 处设置 `top` 属性为 50px，在开始（`0%`）和结束（`100%`）keyframe 处设置为 0px，以实现元素先向下运动，然后返回的动作效果。
 

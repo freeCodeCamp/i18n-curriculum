@@ -9,7 +9,7 @@ dashedName: concatenating-strings-with-the-plus-equals-operator
 
 # --description--
 
-`+=` 演算子を使用して、既存の文字列変数の末尾に文字列を<dfn>連結する</dfn>こともできます。 これは長い文字列を複数行に分割する場合にとても便利です。
+We can also use the `+=` operator to <dfn>concatenate</dfn> a string onto the end of an existing string variable. This can be very helpful to break a long string over several lines.
 
 **注:** 空白が必要な場合は注意してください。 連結では、文字列の間に空白が追加されないため、必要な場合は自分で付け加える必要があります。
 
@@ -20,7 +20,7 @@ let ourStr = "I come first. ";
 ourStr += "I come second.";
 ```
 
-これで `ourStr` の値は文字列 `I come first. I come second.` になります。
+`ourStr` now has a value of the string `I come first. I come second.`.
 
 # --instructions--
 
@@ -34,7 +34,7 @@ ourStr += "I come second.";
 assert(/sentence\. This/.test(myStr));
 ```
 
-`myStr` の値が文字列値 `This is the first sentence. This is the second sentence.` になる必要があります。
+`myStr` should have a value of the string `This is the first sentence. This is the second sentence.`
 
 ```js
 assert(myStr === 'This is the first sentence. This is the second sentence.');

@@ -7,17 +7,17 @@ dashedName: step-29
 
 # --description--
 
-Bette innerhalb des `figure`-Elements, das du eben hinzugefügt hast, ein `img`-Element mit einem `src`-Attribut ein, das auf `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg` gesetzt ist.
+Inside the `figure` element you just added, nest an `img` element with a `src` attribute set to `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
 
 # --hints--
 
-Dein zweites `figure`-Element sollte ein öffnendes Tag haben. Öffnende Tags haben diese Syntax: `<elementName>`.
+Dein zweites `figure`-Element sollte ein öffnendes Tag haben. Öffnende Tags besitzen die folgende Syntax: `<elementName>`.
 
 ```js
 assert(document.querySelectorAll('figure').length >= 2);
 ```
 
-Dein zweites `figure`-Element sollte ein schließendes Tag haben. Schließende Tags haben ein `/` direkt nach dem `<`-Zeichen.
+Dein zweites `figure`-Element sollte ein schließendes Tag haben. Abschließende Tags haben einen `/` direkt nach dem `<`-Zeichen haben.
 
 ```js
 assert(code.match(/<\/figure>/g).length >= 2);

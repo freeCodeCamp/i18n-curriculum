@@ -8,7 +8,7 @@ dashedName: render-images-from-data-sources
 
 # --description--
 
-Die letzten Herausforderungen zeigten, dass jedes Objekt im JSON-Array den `imageLink`-Schlüssel mit einem, aus der URL des Katzenfotos bestehenden, Wert enthält.
+The last few challenges showed that each object in the JSON array contains an `imageLink` key with a value that is the URL of a cat's image.
 
 Wenn du diese Objekte durchläufst, kannst du die Eigenschaft `imageLink` verwenden, um dieses Bild in einem `img`-Element darzustellen.
 

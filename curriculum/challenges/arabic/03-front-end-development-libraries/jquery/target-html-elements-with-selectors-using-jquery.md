@@ -11,7 +11,7 @@ dashedName: target-html-elements-with-selectors-using-jquery
 
 # --description--
 
-الآن لدينا وظيفة `document ready` جاهزة.
+Now we have a `document ready` function.
 
 الآن دعونا نكتب أول بيان jQuery لدينا. تبدأ جميع وظائف jQuery بعلامة `$`، يشار إليها عادة كعملية علامة الدولار، أو سلسلة (bling).
 

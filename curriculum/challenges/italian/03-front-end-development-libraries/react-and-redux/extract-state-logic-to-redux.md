@@ -8,7 +8,7 @@ dashedName: extract-state-logic-to-redux
 
 # --description--
 
-Ora che hai finito il componente React, devi spostare la logica che esegue localmente nel suo `state` in Redux. Questo è il primo passo per collegare la semplice applicazione React a Redux. L'unica funzionalità che la tua app ha è di aggiungere nuovi messaggi dall'utente a un elenco puntato. L'esempio è semplice e serve a dimostrare come React e Redux lavorano insieme.
+Now that you finished the React component, you need to move the logic it's performing locally in its `state` into Redux. This is the first step to connect the simple React app to Redux. The only functionality your app has is to add new messages from the user to an unordered list. The example is simple in order to demonstrate how React and Redux work together.
 
 # --instructions--
 

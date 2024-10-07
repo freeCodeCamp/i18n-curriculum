@@ -8,22 +8,22 @@ dashedName: personal-library
 
 # --description--
 
-Створіть повний пакет застосунку JavaScript, який функціонально схожий до <a href="https://personal-library.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://personal-library.freecodecamp.rocks/</a>. Робота над цим проєктом передбачає написання коду за допомогою одного з наступних методів:
+Build a full stack JavaScript app that is functionally similar to this: <a href="https://personal-library.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://personal-library.freecodecamp.rocks/</a>. Робота над цим проєктом передбачає написання коду за допомогою одного з наступних методів:
 
--   Клонуйте <a href="https://github.com/freeCodeCamp/boilerplate-project-library" target="_blank" rel="noopener noreferrer nofollow">цей репозиторій GitHub</a> та виконайте свій проєкт локально.
+-   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-library" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
 -   Використайте <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-library" target="_blank" rel="noopener noreferrer nofollow">наш стартовий проєкт Gitpod</a>, щоб виконати свій проєкт.
--   Для виконання проєкту використайте конструктор сайту на власний вибір. Переконайтеся, що приєднали усі файли з нашого репозиторію GitHub.
+-   Використовуйте конструктор сайту на власний розсуд, щоб завершити проєкт. Переконайтеся, що ви зберегли всі файли з нашого репозиторію GitHub.
 
 # --instructions--
 
-1.  Додайте свій рядок з’єднання MongoDB до `.env` без лапок як `DB` Приклад: `DB=mongodb://admin:pass@1234.mlab.com:1234/fccpersonallib`
+1.  Add your MongoDB connection string to `.env` without quotes as `DB` Example: `DB=mongodb://admin:pass@1234.mlab.com:1234/fccpersonallib`
 2.  Встановіть `NODE_ENV` на `test` у своєму файлі `.env`, без лапок
 3.  Ви повинні створити усі маршрути в межах `routes/api.js`
 4.  Ви створюватимете усі функціональні тести в `tests/2_functional-tests.js`
 
 # --hints--
 
-Ви можете надати власний проєкт, а не URL-адресу прикладу.
+You can provide your own project, not the example URL.
 
 ```js
 (getUserInput) => {
@@ -33,7 +33,7 @@ dashedName: personal-library
 };
 ```
 
-Ви можете надіслати запит <b>POST</b> до `/api/books` із `title` як частиною даних форми, щоб додати книжку.  Поверненою відповіддю буде об’єкт із `title` та унікальним `_id` як ключі.  Якщо `title` немає у запиті, поверненою відповіддю повинен бути рядок `missing required field title`.
+You can send a <b>POST</b> request to `/api/books` with `title` as part of the form data to add a book.  The returned response will be an object with the `title` and a unique `_id` as keys.  If `title` is not included in the request, the returned response should be the string `missing required field title`.
 
 ```js
 async (getUserInput) => {
@@ -54,7 +54,7 @@ async (getUserInput) => {
 };
 ```
 
-Ви можете надіслати запит <b>GET</b> до `/api/books` та отримати відповідь JSON із представленням усіх книжок. Відповіддю JSON буде масив об’єктів, де кожен об’єкт (книжка) містить властивості `title`, `_id` та `commentcount`.
+You can send a <b>GET</b> request to `/api/books` and receive a JSON response representing all the books. The JSON response will be an array of objects with each object (book) containing `title`, `_id`, and `commentcount` properties.
 
 ```js
 async (getUserInput) => {
@@ -82,7 +82,7 @@ async (getUserInput) => {
 };
 ```
 
-Ви можете надіслати запит <b>GET</b> до `/api/books/{_id}`, щоб отримати книжку, яка містить властивості `title`, `_id` та масив `comments` (порожній масив, якщо коментарі відсутні). Якщо книжки не знайдено, поверніть рядок `no book exists`.
+You can send a <b>GET</b> request to `/api/books/{_id}` to retrieve a single object of a book containing the properties `title`, `_id`, and a `comments` array (empty array if no comments present). If no book is found, return the string `no book exists`.
 
 ```js
 async (getUserInput) => {
@@ -106,7 +106,7 @@ async (getUserInput) => {
 };
 ```
 
-Ви можете надіслати запит <b>POST</b>, який містить `comment` як дані форми до `/api/books/{_id}`, щоб додати коментар до книжки. Поверненою відповіддю будуть книжки, схоже до запиту <b>GET</b> `/api/books/{_id}` раніше. Якщо `comment` немає у запиті, поверніть рядок `missing required field comment`. Якщо книжки не знайдено, поверніть рядок `no book exists`.
+You can send a <b>POST</b> request containing `comment` as the form body data to `/api/books/{_id}` to add a comment to a book. The returned response will be the books object similar to <b>GET</b> `/api/books/{_id}` request in an earlier test. If `comment` is not included in the request, return the string `missing required field comment`. Якщо не знайдено книги, поверніться в рядок `no book exists`.
 
 ```js
 async (getUserInput) => {
@@ -144,7 +144,7 @@ async (getUserInput) => {
 };
 ```
 
-Ви можете надіслати запит <b>DELETE</b> до `/api/books/{_id}`, щоб видалити книжку з колекції. Поверненою відповіддю буде рядок `delete successful`, якщо все успішно. Якщо книжки не знайдено, поверніть рядок `no book exists`.
+You can send a <b>DELETE</b> request to `/api/books/{_id}` to delete a book from the collection. The returned response will be the string `delete successful` if successful. Якщо книжки не знайдено, поверніть рядок `no book exists`.
 
 ```js
 async (getUserInput) => {
@@ -168,7 +168,7 @@ async (getUserInput) => {
 };
 ```
 
-Ви можете надіслати запит <b>DELETE</b> до `/api/books`, щоб видалити всі книжки у базі даних. Поверненою відповіддю буде рядок `complete delete successful`, якщо все успішно.
+You can send a <b>DELETE</b> request to `/api/books` to delete all books in the database. The returned response will be the string `complete delete successful` if successful.
 
 ```js
 async (getUserInput) => {
@@ -185,7 +185,7 @@ async (getUserInput) => {
 };
 ```
 
-Усі 10 функціональних тестів завершено та успішно пройдено.
+All 10 functional tests required are complete and passing.
 
 ```js
 async (getUserInput) => {

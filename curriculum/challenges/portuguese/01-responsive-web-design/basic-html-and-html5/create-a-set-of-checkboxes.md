@@ -9,7 +9,7 @@ dashedName: create-a-set-of-checkboxes
 
 # --description--
 
-Os formulários normalmente usam <dfn>caixas de seleção</dfn> para perguntas que tenham mais de uma resposta.
+Forms commonly use <dfn>checkboxes</dfn> for questions that may have more than one answer.
 
 As caixas de seleção são um tipo de `input`.
 

@@ -9,7 +9,7 @@ dashedName: learn-about-complementary-colors
 
 # --description--
 
-色彩理论以及设计色彩学很复杂，这里将只涉及基础部分。 在网站设计里，颜色能让内容更醒目，能调动情绪，从而创造舒适的视觉体验。 不同的颜色组合对网站的视觉效果影响很大，精妙的设计都需要适宜的颜色来美化页面内容。
+Color theory and its impact on design is a deep topic and only the basics are covered in the following challenges. On a website, color can draw attention to content, evoke emotions, or create visual harmony. Using different combinations of colors can really change the look of a website, and a lot of thought can go into picking a color palette that works with your content.
 
 色环是我们认识颜色关系的好工具。它是一个近色相邻、异色相离的圆环。 当两个颜色恰好在色环的两端时，这两个颜色就互为补色。 两个互为补色的颜色会在混合后变成灰色。 然而，补色搭配能形成强烈的视觉对比效果。
 

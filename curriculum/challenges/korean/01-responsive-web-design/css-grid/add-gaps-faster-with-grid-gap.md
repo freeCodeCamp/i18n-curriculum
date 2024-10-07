@@ -9,7 +9,7 @@ dashedName: add-gaps-faster-with-grid-gap
 
 # --description--
 
-`grid-gap`은 이전 과제에서 살펴본 `grid-row-gap`과 `grid-column-gap`의 축약 속성이며 사용하기 더 용이합니다. `grid-gap`이 하나의 값을 가진다면 모든 행열 사이에 하나의 간격을 생성하게 될 것입니다. 그러나 값이 두 개라면 첫번째 값은 행, 두번째 값은 열에 적용될 것입니다.
+`grid-gap` is a shorthand property for `grid-row-gap` and `grid-column-gap` from the previous two challenges that's more convenient to use. If `grid-gap` has one value, it will create a gap between all rows and columns. However, if there are two values, it will use the first one to set the gap between the rows and the second value for the columns.
 
 # --instructions--
 

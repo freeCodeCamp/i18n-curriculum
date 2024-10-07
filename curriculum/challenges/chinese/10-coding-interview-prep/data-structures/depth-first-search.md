@@ -1,6 +1,6 @@
 ---
 id: 587d825d367417b2b2512c96
-title: Depth-First Search
+title: 深度优先搜索
 challengeType: 1
 forumTopicId: 301640
 dashedName: depth-first-search
@@ -10,29 +10,29 @@ dashedName: depth-first-search
 
 Similar to <dfn>breadth-first search</dfn>, here we will learn about another graph traversal algorithm called <dfn>depth-first search</dfn>.
 
-Whereas the breadth-first search searches incremental edge lengths away from the source node, <dfn>depth-first search</dfn> first goes down a path of edges as far as it can.
+广度优先搜索是在远离源节点的情况下按边长递增搜索，而 <dfn>深度优先搜索</dfn> 则是先沿着一条边的路径尽可能地搜索。
 
-Once it reaches one end of a path, the search will backtrack to the last node with an un-visited edge path and continue searching.
+一旦到达路径的一端，搜索将回溯到具有未访问边缘路径的最后一个节点并继续搜索。
 
-The animation below shows how the algorithm works. The algorithm starts with the top node and visits the nodes in the numbered order.
+下面的动画展示了算法的工作原理。 该算法从顶部节点开始，并按编号顺序访问节点。
 
 <img alt="" src='https://camo.githubusercontent.com/aaad9e39961daf34d967c616edeb50abf3bf1235/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f372f37662f44657074682d46697273742d5365617263682e676966' />
 
-Notice how, unlike breadth-first search, every time a node is visited, it doesn't visit all of its neighbors. Instead, it first visits one of its neighbors and continues down that path until there are no more nodes to be visited on that path.
+请注意，与广度优先搜索不同的是，每次访问一个节点时，它不会访问其所有邻居。 相反，它首先访问它的一个邻居，并继续沿着该路径前进，直到该路径上没有更多的节点可供访问。
 
-To implement this algorithm, you'll want to use a stack. A stack is an array where the last element added is the first to be removed. This is also known as a <dfn>Last-In-First-Out</dfn> data structure. A stack is helpful in depth-first search algorithms because, as we add neighbors to the stack, we want to visit the most recently added neighbors first and remove them from the stack.
+要实现此算法，您需要使用堆栈。 堆栈是一个数组，其中后添加的元素会被先删除。 这也称为 <dfn>后进先出</dfn> 数据结构。 堆栈在深度优先搜索算法中很有帮助，因为当我们向堆栈添加邻居时，我们要先访问最近添加的邻居，并将它们从堆栈中删除。
 
-A simple output of this algorithm is a list of nodes which are reachable from a given node. Therefore, you'll also want to keep track of the nodes you visit.
+该算法的简单输出是可从给定节点到达的节点列表。 因此，在实施此算法时，你需要跟踪你已经访问过的节点。
 
 # --instructions--
 
-Write a function `dfs()` that takes an undirected, adjacency matrix `graph` and a node label `root` as parameters. The node label will just be the numeric value of the node between `0` and `n - 1`, where `n` is the total number of nodes in the graph.
+编写一个函数 `dfs()`，它将无向、邻接矩阵 `graph` 和节点标签 `root` 作为参数。 节点标签将只是 `0` 和 `n - 1` 之间节点的数值，其中 `n` 是图中节点的总数。
 
-Your function should output an array of all nodes reachable from `root`.
+您的函数应该输出从 `root` 可达的所有节点的数组。
 
 # --hints--
 
-The input graph `[[0, 1, 0, 0], [1, 0, 1, 0], [0, 1, 0, 1], [0, 0, 1, 0]]` with a start node of `1` should return an array with `0`, `1`, `2`, and `3`.
+输入图 `[[0, 1, 0, 0], [1, 0, 1, 0], [0, 1, 0, 1], [0, 0, 1, 0]]` 和起始节点 `1`，应该返回一个包含 `0`、`1`、`2` 和 `3` 的数组。
 
 ```js
 assert.sameMembers(
@@ -49,7 +49,7 @@ assert.sameMembers(
 );
 ```
 
-The input graph `[[0, 1, 0, 0], [1, 0, 1, 0], [0, 1, 0, 1], [0, 0, 1, 0]]` with a start node of `3` should return an array with `3`, `2`, `1`, and `0`.
+输入图 `[[0, 1, 0, 0], [1, 0, 1, 0], [0, 1, 0, 1], [0, 0, 1, 0]]` 和起始节点 `3`，应该返回一个包含 `3`、`2`、`1` 和 `0` 的数组。
 
 ```js
 assert.sameMembers(
@@ -66,7 +66,7 @@ assert.sameMembers(
 );
 ```
 
-The input graph `[[0, 1, 0, 0], [1, 0, 1, 0], [0, 1, 0, 1], [0, 0, 1, 0]]` with a start node of `1` should return an array with four elements.
+输入图 `[[0, 1, 0, 0], [1, 0, 1, 0], [0, 1, 0, 1], [0, 0, 1, 0]]` 和起始节点 `1`，应该返回一个包含四个元素的数组。
 
 ```js
 assert(
@@ -82,7 +82,7 @@ assert(
 );
 ```
 
-The input graph `[[0, 1, 0, 0], [1, 0, 1, 0], [0, 1, 0, 0], [0, 0, 0, 0]]` with a start node of `3` should return an array with `3`.
+输入图 `[[0, 1, 0, 0], [1, 0, 1, 0], [0, 1, 0, 0], [0, 0, 0, 0]]` 和起始节点 `3`，应该返回一个只包含 `3` 的数组。
 
 ```js
 assert.sameMembers(
@@ -99,7 +99,7 @@ assert.sameMembers(
 );
 ```
 
-The input graph `[[0, 1, 0, 0], [1, 0, 1, 0], [0, 1, 0, 0], [0, 0, 0, 0]]` with a start node of `3` should return an array with one element.
+输入图 `[[0, 1, 0, 0], [1, 0, 1, 0], [0, 1, 0, 0], [0, 0, 0, 0]]` 和起始节点 `3`，应该返回一个只包含一个元素的数组。
 
 ```js
 assert(
@@ -115,7 +115,7 @@ assert(
 );
 ```
 
-The input graph `[[0, 1, 0, 0], [1, 0, 0, 0], [0, 0, 0, 1], [0, 0, 1, 0]]` with a start node of `3` should return an array with `2` and `3`.
+输入图 `[[0, 1, 0, 0], [1, 0, 0, 0], [0, 0, 0, 1], [0, 0, 1, 0]]` 和起始节点 `3`，应该返回一个包含 `2` 和 `3` 的数组。
 
 ```js
 assert.sameMembers(
@@ -132,7 +132,7 @@ assert.sameMembers(
 );
 ```
 
-The input graph `[[0, 1, 0, 0], [1, 0, 0, 0], [0, 0, 0, 1], [0, 0, 1, 0]]` with a start node of `3` should return an array with two elements.
+输入图 `[[0, 1, 0, 0], [1, 0, 0, 0], [0, 0, 0, 1], [0, 0, 1, 0]]` 和起始节点 `3`，应该返回一个包含两个元素的数组。
 
 ```js
 assert(
@@ -148,7 +148,7 @@ assert(
 );
 ```
 
-The input graph `[[0, 1, 0, 0], [1, 0, 0, 0], [0, 0, 0, 1], [0, 0, 1, 0]]` with a start node of `0` should return an array with `0` and `1`.
+输入图 `[[0, 1, 0, 0], [1, 0, 0, 0], [0, 0, 0, 1], [0, 0, 1, 0]]` 和起始节点 `0`，应该返回一个包含 `0` 和 `1` 的数组。
 
 ```js
 assert.sameMembers(
@@ -165,7 +165,7 @@ assert.sameMembers(
 );
 ```
 
-The input graph `[[0, 1, 0, 0], [1, 0, 0, 0], [0, 0, 0, 1], [0, 0, 1, 0]]` with a start node of `0` should return an array with two elements.
+输入图 `[[0, 1, 0, 0], [1, 0, 0, 0], [0, 0, 0, 1], [0, 0, 1, 0]]` 和起始节点 `0`，应该返回一个包含两个元素的数组。
 
 ```js
 assert(

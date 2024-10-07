@@ -1,6 +1,6 @@
 ---
 id: 587d7788367417b2b2512aa3
-title: Make Screen Reader Navigation Easier with the footer Landmark
+title: جعل تنقل قارئ الشاشة أسهل مع وسم footer
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/crVrDh8'
 forumTopicId: 301022
@@ -13,23 +13,23 @@ Similar to `header` and `nav`, the `footer` element has a built-in landmark feat
 
 # --instructions--
 
-صفحة تدريب Camper Cat تحرز تقدما جيدا. Change the `div` he used to wrap his copyright information at the bottom of the page to a `footer` element.
+صفحة تدريب Camper Cat تحرز تقدما جيدا. قم بتغيير `div` الذي استخدمه لإلقاء معلومات حقوق الطبع والنشر الخاصة به في أسفل الصفحة إلى `footer` عنصر.
 
 # --hints--
 
-Your code should have one `footer` tag.
+يجب أن يحتوي الكود الخاص بك على `footer` واحد فقط.
 
 ```js
 assert.lengthOf(document.querySelectorAll('footer') ,1);
 ```
 
-Your code should not have any `div` tags.
+يجب ألا يحتوي الكود الخاص بك علي اي وسوم `div`.
 
 ```js
 assert.lengthOf(document.querySelectorAll('div'), 0);
 ```
 
-Your code should have an opening and closing `footer` tag.
+يجب أن يكون الكود الخاص بك علامة فتح وإغلاق وسم `footer`.
 
 ```js
 assert.match(code,/<footer>\s*&copy; 2018 Camper Cat\s*<\/footer>/g);

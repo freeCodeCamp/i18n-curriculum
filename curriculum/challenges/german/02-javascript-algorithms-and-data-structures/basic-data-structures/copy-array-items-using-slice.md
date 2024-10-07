@@ -8,7 +8,7 @@ dashedName: copy-array-items-using-slice
 
 # --description--
 
-Die nächste Methode, mit der wir uns beschäftigen ist `slice()`. Anstatt einen Array zu verändern, kopiert oder *extrahiert* `slice()` eine bestimmte Anzahl an Elementen in einen neuen Array, sodass der aufgerufene Array unverändert bleibt. `slice()` benötigt nur 2 Parameter -- der erste ist der Index, an welchem die Extraktion beginnen soll, und der zweite ist der Index, an welchem die Extraktion gestoppt werden soll (die Extraktion wird bis zum Ende auftreten, jedoch ohne das Element an diesem Index). Beachte Folgendes:
+The next method we will cover is `slice()`. Rather than modifying an array, `slice()` copies or *extracts* a given number of elements to a new array, leaving the array it is called upon untouched. `slice()` takes only 2 parameters — the first is the index at which to begin extraction, and the second is the index at which to stop extraction (extraction will occur up to, but not including the element at this index). Consider this:
 
 ```js
 let weatherConditions = ['rain', 'snow', 'sleet', 'hail', 'clear'];

@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c11feddfaeb5bdef
-title: Iterate with JavaScript For Loops
+title: 자바스크립트 for문을 사용하여 반복하기
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/c9yNVCe'
 forumTopicId: 18219
@@ -11,19 +11,19 @@ dashedName: iterate-with-javascript-for-loops
 
 You can run the same code multiple times by using a loop.
 
-The most common type of JavaScript loop is called a `for` loop because it runs for a specific number of times.
+가장 일반적인 자바스크립트 루프 유형은 특정 횟수 동안 실행되기 때문에 `for`문으로 불립니다.
 
-For loops are declared with three optional expressions separated by semicolons:
+For문은 세미콜론으로 구분된 세 가지 선택적 표현식으로 선언됩니다:
 
-`for (a; b; c)`, where `a` is the initialization statement, `b` is the condition statement, and `c` is the final expression.
+`for (a; b; c)`에서 `a`는 초기화절이고, `b`는 조건절이며, `c`는 증감절입니다.
 
-The initialization statement is executed one time only before the loop starts. It is typically used to define and setup your loop variable.
+초기화절은 반복이 시작되기 전에 한번만 실행됩니다. 이는 일반적으로 반복문의 변수를 정의하고 초기화하는 데 사용됩니다.
 
-The condition statement is evaluated at the beginning of every loop iteration and will continue as long as it evaluates to `true`. When the condition is `false` at the start of the iteration, the loop will stop executing. This means if the condition starts as false, your loop will never execute.
+조건절은 매 반복 실행의 시작에 평가되고, `true`로 평가되면 계속 진행합니다. 만약 반복 실행의 시작에 조건이 `false`이면 반복문은 실행을 중단합니다. 즉, 조건절이 거짓으로 시작하면 반복문은 절대 실행되지 않습니다.
 
-The final expression is executed at the end of each loop iteration, prior to the next condition check and is usually used to increment or decrement your loop counter.
+증감절은 주로 반복문의 카운터를 증가시키거나 감소시킬때 사용되며 다음 조건절 확인 전에, 각 반복 실행의 마지막에 실행됩니다.
 
-In the following example we initialize with `i = 0` and iterate while our condition `i < 5` is true. We'll increment `i` by `1` in each loop iteration with `i++` as our final expression.
+다음의 예제에서는 `i = 0`로 초기화를 시키고, 조건 `i < 5`가 참인 동안 반복할 것 입니다. 각 반복때 `i++`를 증감절로 사용하여 `i`를 `1`씩 증가시킵니다.
 
 ```js
 const ourArray = [];
@@ -33,21 +33,21 @@ for (let i = 0; i < 5; i++) {
 }
 ```
 
-`ourArray` will now have the value `[0, 1, 2, 3, 4]`.
+`ourArray`는 이제 `[0, 1, 2, 3, 4]`를 값으로 가지게 됩니다.
 
 # --instructions--
 
-Use a `for` loop to push the values 1 through 5 onto `myArray`.
+`for`문을 사용하여 `myArray`에 값을 1부터 5까지 삽입하세요.
 
 # --hints--
 
-You should be using a `for` loop for this.
+이를 위해 `for` 루프를 사용해야 합니다.
 
 ```js
 assert(/for\s*\([^)]+?\)/.test(__helpers.removeJSComments(code)));
 ```
 
-`myArray` should equal `[1, 2, 3, 4, 5]`.
+`myArray`는 `[1, 2, 3, 4, 5]`와 같아야 합니다.
 
 ```js
 assert.deepEqual(myArray, [1, 2, 3, 4, 5]);

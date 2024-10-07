@@ -1,6 +1,6 @@
 ---
 id: 5900f4481000cf542c50ff5a
-title: 'Problem 219: Skew-cost coding'
+title: 'Problem 21: Skew-cost Programmierung'
 challengeType: 1
 forumTopicId: 301861
 dashedName: problem-219-skew-cost-coding
@@ -10,7 +10,7 @@ dashedName: problem-219-skew-cost-coding
 
 Lasse $A$ und $B$ Bit-Strings sein (Sequenzen von 0en und 1en).
 
-If $A$ is equal to the <u>left</u>most length($A$) bits of $B$, then $A$ is said to be a prefix of $B$.
+Wenn $A$ gleich den <u>linken</u>längsten($A$) Bits von $B$ ist, dann heißt es, dass $A$ ein Präfix von $B$ ist.
 
 Zum Beispiel ist 00110 ein Präfix von <u>00110</u>1001, aber nicht von 00111 oder 100110.
 

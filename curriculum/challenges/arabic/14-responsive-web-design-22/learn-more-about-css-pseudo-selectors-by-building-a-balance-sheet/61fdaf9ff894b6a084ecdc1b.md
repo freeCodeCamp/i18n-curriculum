@@ -7,7 +7,7 @@ dashedName: step-33
 
 # --description--
 
-لمنع إفراط (overflow) محتوى النص, اعطي منتقيك `span[class~="sr-only"]` خاصية `overflow` بقيمة `hidden` و خاصية `white-space` بقيمة `nowrap`.
+To prevent the text content from overflowing, give your `span[class~="sr-only"]` selector an `overflow` property set to `hidden` and a `white-space` property set to `nowrap`.
 
 # --hints--
 

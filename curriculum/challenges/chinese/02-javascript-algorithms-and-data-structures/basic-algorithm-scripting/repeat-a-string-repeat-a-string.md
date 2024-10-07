@@ -8,7 +8,7 @@ dashedName: repeat-a-string-repeat-a-string
 
 # --description--
 
-将一个给定的字符串 `str`（第一个参数）重复输出 `num`（第二个参数）次。 如果 `num` 不是正数，返回空字符串。 在这个挑战中，请*不要*使用 JavaScript 内置的 `.repeat()` 方法。
+Repeat a given string `str` (first argument) for `num` times (second argument). Return an empty string if `num` is not a positive number. For the purpose of this challenge, do *not* use the built-in `.repeat()` method.
 
 # --hints--
 

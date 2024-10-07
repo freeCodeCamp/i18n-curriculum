@@ -8,7 +8,7 @@ dashedName: build-a-number-guessing-game
 
 # --description--
 
-Questo è uno dei progetti richiesti per completare la certificazione. Per questo progetto, userai Bash scripting, PostgreSQL e Git per creare un gioco di indovinare il numero che esegue nel terminale e salva le informazioni dell'utente.
+This is one of the required projects to earn your certification. For this project, you will use Bash scripting, PostgreSQL, and Git to create a number guessing game that runs in the terminal and saves user information.
 
 # --instructions--
 

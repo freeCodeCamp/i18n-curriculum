@@ -11,7 +11,7 @@ dashedName: >-
 
 # --description--
 
-Existem várias formas de daltonismo. Elas variam de uma sensibilidade reduzida de uma frequência de luz até a incapacidade de ver qualquer cor. A forma mais comum é uma sensibilidade reduzida em detectar cores verdes.
+There are various forms of colorblindness. These can range from a reduced sensitivity to a certain wavelength of light to the inability to see color at all. The most common form is a reduced sensitivity to detect greens.
 
 Por exemplo, se duas cores verdes semelhantes são a cor de primeiro plano e de fundo do seu conteúdo, um usuário daltônico pode não ser capaz de distingui-las. Cores parecidas são vizinhas no círculo cromático e essas combinações devem ser evitadas quando se está transmitindo informações importantes.
 

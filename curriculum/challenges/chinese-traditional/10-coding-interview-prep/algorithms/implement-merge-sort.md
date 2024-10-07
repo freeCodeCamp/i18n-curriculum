@@ -8,7 +8,7 @@ dashedName: implement-merge-sort
 
 # --description--
 
-另一種常見的中間排序算法是歸併排序。 像快速排序一樣，合併排序也使用分而治之的遞歸方法對數組進行排序。 它基於這樣一個事實：要將兩個已經排好序的數組排在一起，是相對容易的。 但是我們只從一個數組作爲輸入開始，那麼我們如何從中獲得兩個已排序的數組呢？ 好吧，我們可以遞歸地將原始輸入分成兩部分，直到我們到達每個數組只有一個元素的基本情況。 單項數組是自然排序的，因此我們可以開始組合。 這個組合將展開拆分原始數組的遞歸調用，最終生成所有元素的最終排序數組。 合併排序的步驟如下：
+Another common intermediate sorting algorithm is merge sort. Like quick sort, merge sort also uses a divide-and-conquer, recursive methodology to sort an array. It takes advantage of the fact that it is relatively easy to sort two arrays as long as each is sorted in the first place. But we'll start with only one array as input, so how do we get to two sorted arrays from that? Well, we can recursively divide the original input in two until we reach the base case of an array with one item. A single-item array is naturally sorted, so then we can start combining. This combination will unwind the recursive calls that split the original array, eventually producing a final sorted array of all the elements. The steps of merge sort, then, are:
 
 **1)** 將輸入數組遞歸地分成兩部分，直到生成僅包含一個元素的子數組。
 

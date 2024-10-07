@@ -9,7 +9,7 @@ dashedName: push-elements-left-or-right-with-the-float-property
 
 # --description--
 
-Il prossimo strumento di posizionamento non utilizza effettivamente `position`, ma imposta la proprietà `float` di un elemento. Gli elementi fluttuanti vengono rimossi dal normale flusso di un documento e spinti verso `left` o `right` dell'elemento che li contiene. È comunemente usato con la proprietà `width` per specificare quanto spazio orizzontale viene richiesto dall'elemento fluttuante.
+The next positioning tool does not actually use `position`, but sets the `float` property of an element. Floating elements are removed from the normal flow of a document and pushed to either the `left` or `right` of their containing parent element. It's commonly used with the `width` property to specify how much horizontal space the floated element requires.
 
 # --instructions--
 

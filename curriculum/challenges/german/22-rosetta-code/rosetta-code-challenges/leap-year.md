@@ -8,7 +8,7 @@ dashedName: leap-year
 
 # --description--
 
-Determine whether a given year is a leap year in the Gregorian calendar.
+Bestimmen Sie, ob ein bestimmtes Jahr ein Schaltjahr im Gregorianischen Kalender ist.
 
 # --hints--
 

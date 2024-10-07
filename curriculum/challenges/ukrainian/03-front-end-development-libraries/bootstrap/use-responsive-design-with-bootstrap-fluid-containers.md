@@ -8,7 +8,7 @@ dashedName: use-responsive-design-with-bootstrap-fluid-containers
 
 # --description--
 
-У розділі freeCodeCamp, який стосувався роботи із HTML5 та CSS, ми створили застосунок з фотографіями котів. Тепер повернемося до нього. Цього разу ми стилізуємо його, використавши популярний фреймворк адаптивного CSS від Bootstrap.
+In the HTML5 and CSS section of freeCodeCamp we built a Cat Photo App. Now let's go back to it. This time, we'll style it using the popular Bootstrap responsive CSS framework.
 
 Bootstrap визначає ширину екрану та змінює розмір елементів HTML. Звідси походить назва <dfn>адаптивного дизайну</dfn>.
 

@@ -17,9 +17,9 @@ let greeting = "Hello World!  ";
 console.log(greeting);
 ```
 
-<a href="https://www.freecodecamp.org/news/javascript-string-handbook" target="_blank"> Link to Guide </a>
+<a href="https://www.freecodecamp.org/news/javascript-string-handbook" target="_blank"> Enlace a guía </a>
 
-# --questions--
+# --preguntas----preguntas--
 
 ## --text--
 

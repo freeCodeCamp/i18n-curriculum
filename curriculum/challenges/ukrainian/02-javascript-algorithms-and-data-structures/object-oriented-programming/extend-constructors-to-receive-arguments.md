@@ -8,7 +8,7 @@ dashedName: extend-constructors-to-receive-arguments
 
 # --description--
 
-Конструктори `Bird` та `Dog` з останнього завдання працювали добре. Однак зверніть увагу, що всі пташки, створені за допомогою конструктора `Bird`, автоматично називаються Альбертом, мають синій колір і мають дві ніжки. Що робити, якщо потрібні пташки з різними значеннями назви та кольору? Змінити властивості кожної пташки можна вручну, але це займе багато часу:
+The `Bird` and `Dog` constructors from the last challenge worked well. However, notice that all `Birds` that are created with the `Bird` constructor are automatically named Albert, are blue in color, and have two legs. What if you want birds with different values for name and color? It's possible to change the properties of each bird manually but that would be a lot of work:
 
 ```js
 let swan = new Bird();

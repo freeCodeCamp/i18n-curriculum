@@ -8,7 +8,7 @@ dashedName: create-and-add-to-sets-in-es6
 
 # --description--
 
-これまで ES5 を使って作業してきた方も、これから ES6 で同じようなことを行います。 その方がはるかに簡単です。 ES6 には `Set` というデータ構造が組み込まれており、これまで手作業で書いていた操作の多くが既に用意されています。 それを見てみましょう。
+Now that you have worked through ES5, you are going to perform something similar in ES6. This will be considerably easier. ES6 contains a built-in data structure `Set` so many of the operations you wrote by hand are now included for you. Let's take a look:
 
 新しい空のセット (集合) を作成するには次のようにします。
 

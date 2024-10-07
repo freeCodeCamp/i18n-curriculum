@@ -8,7 +8,7 @@ dashedName: serialization-of-a-user-object
 
 # --description--
 
-Серіалізація та десеріалізація є важливими поняттями щодо автентифікації. Серіалізувати об’єкт означає перетворити його вміст в маленький *ключ*, який потім можна десеріалізувати у вихідний об’єкт. Це дозволяє нам знати, хто користувався сервером без надсилання даних автентифікації, таких як ім’я користувача та пароль, при кожному запиті на нову сторінку.
+Serialization and deserialization are important concepts in regard to authentication. To serialize an object means to convert its contents into a small *key* that can then be deserialized into the original object. This is what allows us to know who has communicated with the server without having to send the authentication data, like the username and password, at each request for a new page.
 
 Щоб налаштувати це правильно, потрібно мати функцію серіалізації та функцію десеріалізації. У Passport їх можна створити з:
 

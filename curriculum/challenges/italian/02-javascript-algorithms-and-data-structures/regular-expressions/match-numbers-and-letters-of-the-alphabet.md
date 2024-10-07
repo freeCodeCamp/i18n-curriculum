@@ -8,7 +8,7 @@ dashedName: match-numbers-and-letters-of-the-alphabet
 
 # --description--
 
-L'uso del trattino (`-`) per riconoscere un intervallo di caratteri non è limitato alle lettere. Funziona anche per riconoscere un intervallo di numeri.
+Using the hyphen (`-`) to match a range of characters is not limited to letters. It also works to match a range of numbers.
 
 Ad esempio, `/[0-5]/` corrisponde a qualsiasi numero tra `0` e `5`, inclusi `0` e `5`.
 

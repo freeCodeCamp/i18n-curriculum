@@ -8,7 +8,7 @@ dashedName: use-export-to-share-a-code-block
 
 # --description--
 
-Stell dir eine Datei namens `math_functions.js` vor, die verschiedene Funktionen für mathematische Operationen enthält. Eine davon wird in einer Variablen, `add`, gespeichert, die zwei Zahlen aufnimmt und ihre Summe zurückgibt. Du willst diese Funktion in mehreren verschiedenen JavaScript-Dateien verwenden. Um sie mit diesen anderen Dateien zu teilen, musst du sie zuerst exportieren (`export`).
+Imagine a file called `math_functions.js` that contains several functions related to mathematical operations. One of them is stored in a variable, `add`, that takes in two numbers and returns their sum. You want to use this function in several different JavaScript files. In order to share it with these other files, you first need to `export` it.
 
 ```js
 export const add = (x, y) => {

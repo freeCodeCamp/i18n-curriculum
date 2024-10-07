@@ -9,9 +9,9 @@ dashedName: escape-sequences-in-strings
 
 # --description--
 
-Anführungszeichen sind nicht die einzigen Zeichen, die innerhalb eines Strings <dfn>ausgelassen</dfn> werden können. Escape-Sequenzen ermöglichen es dir, Zeichen zu verwenden, die du sonst nicht in einem String verwenden könntest.
+Quotes are not the only characters that can be <dfn>escaped</dfn> inside a string. Escape sequences allow you to use characters you may not otherwise be able to use in a string.
 
-<table><thead><tr><th>Code</th><th>Ausgabe</th></tr></thead><tbody><tr><td><code>\'</code></td><td>Einzelnes Anführungszeichen</td></tr><tr><td><code>\"</code></td><td>Doppeltes Anführungszeichen</td></tr><tr><td><code>\\</code></td><td>Backslash</td></tr><tr><td><code>\n</code></td><td>Zeilenumbruch</td></tr><tr><td><code>\t</code></td><td>Tabulator</td></tr><tr><td><code>\r</code></td><td>Wagenrücklauf (Carriage Return)</td></tr><tr><td><code>\b</code></td><td>Backspace</td></tr><tr><td><code>\f</code></td><td>Seitenvorschub (Formfeed)</td></tr></tbody></table>
+<table><thead><tr><th>Code</th><th>Ausgabe</th></tr></thead><tbody><tr><td><code>\'</code></td><td>single quote</td></tr><tr><td><code>\"</code></td><td>Doppeltes Anführungszeichen</td></tr><tr><td><code>\\</code></td><td>Backslash</td></tr><tr><td><code>\n</code></td><td>Zeilenumbruch</td></tr><tr><td><code>\t</code></td><td>Tabulator</td></tr><tr><td><code>\r</code></td><td>Wagenrücklauf (Carriage Return)</td></tr><tr><td><code>\b</code></td><td>Backspace</td></tr><tr><td><code>\f</code></td><td>Seitenvorschub (Formfeed)</td></tr></tbody></table>
 
 *Bitte beachte, dass das Backslash selbst mit einem Escape-Zeichen versehen werden muss, um als Backslash angezeigt zu werden.*
 
@@ -21,7 +21,7 @@ Weise die folgenden drei Textzeilen der einzelnen Variablen `myStr` mit Hilfe vo
 
 <pre>
 FirstLine
-  \SecondLine
+    \SecondLine
 ThirdLine
 </pre>
 

@@ -8,7 +8,7 @@ dashedName: reverse-a-string
 
 # --description--
 
-주어진 문자열을 역순으로 나열하고 그 나열된 문자열을 반환하세요.
+Reverse the provided string and return the reversed string.
 
 예를 들어, `"hello"`는 `"olleh"`를 반환해야 합니다.
 

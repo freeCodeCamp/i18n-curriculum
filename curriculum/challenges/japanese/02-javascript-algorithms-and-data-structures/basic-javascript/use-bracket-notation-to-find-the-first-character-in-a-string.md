@@ -9,7 +9,7 @@ dashedName: use-bracket-notation-to-find-the-first-character-in-a-string
 
 # --description--
 
-<dfn>ブラケット記法</dfn>を使用すると、文字列内の特定のインデックスにある文字を取得できます。
+<dfn>Bracket notation</dfn> is a way to get a character at a specific index within a string.
 
 JavaScript をはじめとする現代のほとんどのプログラミング言語では、人間のように 1 から数え始めることをせず、 0 から数え始めます。 これを<dfn>ゼロベースの</dfn>インデックスといいます。
 

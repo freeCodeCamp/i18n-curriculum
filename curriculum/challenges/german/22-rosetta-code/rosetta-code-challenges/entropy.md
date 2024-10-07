@@ -8,7 +8,7 @@ dashedName: entropy
 
 # --description--
 
-Calculate the Shannon entropy H of a given input string.
+Berechne die Shannon-Entropue H eines gegebenen Eingabestrings.
 
 Bei einer diskreten Zufallsvariablen $X$, die ein String von $N$ "Symbolen" (insgesamt Zeichen) ist, die aus $n$ verschiedenen Zeichen (n=2 für binär) besteht, ist die Shannon-Entropie von X in Bits/Symbol:
 

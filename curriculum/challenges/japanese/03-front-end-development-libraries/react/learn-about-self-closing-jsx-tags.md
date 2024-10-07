@@ -8,7 +8,7 @@ dashedName: learn-about-self-closing-jsx-tags
 
 # --description--
 
-ここまで、HTML クラスの定義方法について、HTML では `class` を使用するのに対し、JSX では `className` を使用するという違いがあることを説明しました。
+So far, you’ve seen how JSX differs from HTML in a key way with the use of `className` vs. `class` for defining HTML classes.
 
 もう一つ、JSX が HTML と異なる重要な点として挙げられるのが、自己終了タグの概念です。
 

@@ -9,7 +9,7 @@ dashedName: jump-straight-to-the-content-using-the-main-element
 
 # --description--
 
-HTML5 引入了一些新元素，給予開發者更多的選擇，也包含輔助功能。 HTML5 引入了諸如 `main`、`header`、`footer`、`nav`、`article`、`section` 等大量新標籤。
+HTML5 introduced several new elements that give developers more options while also incorporating accessibility features. These tags include `main`, `header`, `footer`, `nav`, `article`, and `section`, among others.
 
 默認情況下，瀏覽器呈現這些元素的方式類似於普通的 `div`。 但是，在適當的地方使用它們會讓標記文本具有更多的含義。 僅標籤名稱就可以表示它所包含的信息類型，這給內容增加了語義含義。 輔助技術可以獲取這種信息，爲用戶提供更好的頁面摘要或導航選項。
 

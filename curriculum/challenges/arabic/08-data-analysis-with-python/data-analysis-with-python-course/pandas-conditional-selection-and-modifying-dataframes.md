@@ -1,6 +1,6 @@
 ---
 id: 5e9a093a74c4063ca6f7c15b
-title: Pandas Conditional Selection and Modifying DataFrames
+title: التحديد الشرطي لـ Pandas وتعديل أُطر البيانات (Pandas Conditional Selection and Modifying DataFrames)
 challengeType: 11
 videoId: BFlH0fN5xRQ
 bilibiliIds:
@@ -14,16 +14,16 @@ dashedName: pandas-conditional-selection-and-modifying-dataframes
 
 *Instead of using notebooks.ai like it shows in the video, you can use Google Colab instead.*
 
-More resources:
+المزيد من المصادر:
 
--  <a href="https://github.com/ine-rmotr-curriculum/freecodecamp-intro-to-pandas" target="_blank" rel="noopener noreferrer nofollow">Notebooks في GitHub</a>
--  <a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb" target="_blank" rel="noopener noreferrer nofollow">كيفية فتح Notebook من GitHub باستخدام Google Colab.</a>
+-  <a href="https://github.com/ine-rmotr-curriculum/freecodecamp-intro-to-pandas" target="_blank" rel="noopener noreferrer nofollow">Notebooks on GitHub</a>
+-  <a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebookس/colab-github-demo.ipynb" target="_blank" rel="noopener noreferrer nofollow">كيفية فتح (Notebook) من (GitHub) باستخدام (Google Colab).</a>
 
 # --questions--
 
 ## --text--
 
-What will the following code print out?
+ماذا سيطبع الكود التالي؟
 
 ```py
 import pandas as pd

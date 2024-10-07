@@ -9,7 +9,7 @@ dashedName: add-rows-with-grid-template-rows
 
 # --description--
 
-La cuadrícula (grid) que creaste en el último desafío establecerá el número de filas automáticamente. Para ajustar las filas manualmente, usa la propiedad `grid-template-rows` de la misma manera en la que usaste `grid-template-columns` en el desafío anterior.
+The grid you created in the last challenge will set the number of rows automatically. To adjust the rows manually, use the `grid-template-rows` property in the same way you used `grid-template-columns` in the previous challenge.
 
 # --instructions--
 

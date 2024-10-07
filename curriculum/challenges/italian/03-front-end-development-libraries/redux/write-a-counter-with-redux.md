@@ -8,7 +8,7 @@ dashedName: write-a-counter-with-redux
 
 # --description--
 
-Ora hai imparato tutti i principi fondamentali di Redux! Hai visto come creare azioni e creatori di azioni, creare uno store di Redux, inviare le tue azioni allo store e progettare gli aggiornamenti di stato con i reducer puri. Hai visto anche come gestire uno stato complesso con la composizione di reducer e la gestione di azioni asincrone. Questi esempi sono semplicistici, ma questi concetti sono i principi fondamentali di Redux. Se li capisci bene, sei pronto a iniziare a costruire la tua app con Redux. Le prossime sfide copriranno alcuni dettagli relativi all'immutabilità dello `state`, ma prima, ecco un ripasso di tutto quello che hai imparato finora.
+Now you've learned all the core principles of Redux! You've seen how to create actions and action creators, create a Redux store, dispatch your actions against the store, and design state updates with pure reducers. You've even seen how to manage complex state with reducer composition and handle asynchronous actions. These examples are simplistic, but these concepts are the core principles of Redux. If you understand them well, you're ready to start building your own Redux app. The next challenges cover some of the details regarding `state` immutability, but first, here's a review of everything you've learned so far.
 
 # --instructions--
 

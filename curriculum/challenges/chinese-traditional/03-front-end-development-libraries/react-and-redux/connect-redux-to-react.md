@@ -8,7 +8,7 @@ dashedName: connect-redux-to-react
 
 # --description--
 
-你已經寫了`mapStateToProps()`、`mapDispatchToProps()` 兩個函數，現在可以用它們來把 `state` 和 `dispatch` 映射到 React 組件的 `props` 了。 React Redux 的 `connect` 方法可以完成這個任務。 此方法有 `mapStateToProps()`、`mapDispatchToProps()` 兩個可選參數， 它們是可選的，原因是你的組件可能僅需要訪問 `state` 但不需要分發任何 actions，反之亦然。
+Now that you've written both the `mapStateToProps()` and the `mapDispatchToProps()` functions, you can use them to map `state` and `dispatch` to the `props` of one of your React components. The `connect` method from React Redux can handle this task. This method takes two optional arguments, `mapStateToProps()` and `mapDispatchToProps()`. They are optional because you may have a component that only needs access to `state` but doesn't need to dispatch any actions, or vice versa.
 
 爲了使用此方法，需要傳入函數參數並在調用時傳入組件。 這種語法有些不尋常，如下所示：
 

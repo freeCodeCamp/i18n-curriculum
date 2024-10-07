@@ -8,9 +8,9 @@ dashedName: reset-an-inherited-constructor-property
 
 # --description--
 
-Якщо об’єкт успадковує `prototype` від іншого об’єкту, він також успадковує властивість конструктора супертипу.
+When an object inherits its `prototype` from another object, it also inherits the supertype's constructor property.
 
-Наприклад:
+Ось приклад:
 
 ```js
 function Bird() { }

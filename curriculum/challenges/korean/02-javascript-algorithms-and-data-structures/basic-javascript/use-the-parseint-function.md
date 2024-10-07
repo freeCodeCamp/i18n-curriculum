@@ -1,6 +1,6 @@
 ---
 id: 587d7b7e367417b2b2512b23
-title: Use the parseInt Function
+title: parseInt 함수 사용하기
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cm83LSW'
 forumTopicId: 301183
@@ -9,45 +9,45 @@ dashedName: use-the-parseint-function
 
 # --description--
 
-The `parseInt()` function parses a string and returns an integer. 여기 예시가 있습니다:
+The `parseInt()` function parses a string and returns an integer. Here's an example:
 
 ```js
 const a = parseInt("007");
 ```
 
-The above function converts the string `007` to the integer `7`. If the first character in the string can't be converted into a number, then it returns `NaN`.
+위의 함수는 `007`이라는 문자열을 정수 `7`로 변환합니다. 만약 문자열의 첫 번째 글자가 숫자로 변환될 수 없다면, `NaN`을 반환합니다.
 
 # --instructions--
 
-Use `parseInt()` in the `convertToInteger` function so it converts the input string `str` into an integer, and returns it.
+`convertToInteger`에서 `parseInt()` 함수를 사용해서 문자열로 주어진 `str` 인풋값을 정수로 전환한 후 이를 반환해 주세요.
 
 # --hints--
 
-`convertToInteger` should use the `parseInt()` function
+`convertToInteger` 함수 내에서 `parseInt()` 함수를 사용해야 합니다.
 
 ```js
 assert(/parseInt/g.test(__helpers.removeJSComments(code)));
 ```
 
-`convertToInteger("56")` should return a number
+`convertToInteger("56")`는 숫자를 반환해야 합니다.
 
 ```js
 assert(typeof convertToInteger('56') === 'number');
 ```
 
-`convertToInteger("56")` should return 56
+`convertToInteger("56")`는 56을 반환해야 합니다.
 
 ```js
 assert(convertToInteger('56') === 56);
 ```
 
-`convertToInteger("77")` should return 77
+`convertToInteger("77")`는 77을 반환해야 합니다.
 
 ```js
 assert(convertToInteger('77') === 77);
 ```
 
-`convertToInteger("JamesBond")` should return `NaN`
+`convertToInteger("JamesBond")`는 `NaN`을 반환해야 합니다.
 
 ```js
 assert.isNaN(convertToInteger('JamesBond'));

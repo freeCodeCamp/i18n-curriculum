@@ -7,11 +7,11 @@ dashedName: build-a-javascript-calculator
 ---
 
 # --description--
-**Примітка:** **React 18 містить відомі несумісності з тестами цього проєкту (див. [проблему](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
+**Note:** **React 18 has known incompatibilities with the tests for this project (see [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
 
 **Мета:** створити застосунок, функціонально схожий до <a href="https://javascript-calculator.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://javascript-calculator.freecodecamp.rocks/</a>.
 
-Виконайте історію користувача та пройдіть тести. Використовуйте необхідні вам бібліотеки або API. Оформте за власним стилем.
+Виконайте історію користувача та пройдіть тести. Використовуйте необхідні вам бібліотеки або API. Оформіть за вашим власним стилем.
 
 Для виконання цього проєкту можна використати різне поєднання HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux та jQuery. Потрібно використати фронтенд фреймворк (наприклад, React), оскільки цей розділ стосується їх вивчення. Ми не рекомендуємо використовувати інші технології та ресурси, що не були вказані вище, але ви можете застосовувати їх на власний розсуд. Ми розглядаємо використання інших фронтенд фреймворків, серед яких Angular та Vue, але наразі вони не підтримуються. Ми візьмемо до уваги і спробуємо виправити всі звіти, що використовують запропонований технологічний стек у цьому проєкті. Щасливого програмування!
 
@@ -49,7 +49,7 @@ dashedName: build-a-javascript-calculator
 
 **ПРИКЛАД:** `3 + 5 x 6 - 2 / 4 =`
 
--   **Логіка негайного виконання:** `11.5`
+-   **Immediate Execution Logic:** `11.5`
 -   **Логіка формул/виразів:** `32.5`
 
 Ви можете створити свій проєкт, <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">використавши цей шаблон CodePen</a> та натиснувши `Save`. Або ж ви можете скористатися цим посиланням CDN, щоб виконати тести в будь-якому середовищі: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`

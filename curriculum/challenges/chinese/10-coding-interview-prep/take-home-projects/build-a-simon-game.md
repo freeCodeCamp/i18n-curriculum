@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c442eddfaeb5bd1c
-title: Build a Simon Game
+title: 建立一个西蒙游戏
 challengeType: 3
 forumTopicId: 302357
 dashedName: build-a-simon-game
@@ -10,29 +10,29 @@ dashedName: build-a-simon-game
 
 **Objective:** Build an app that is functionally similar to this: <a href="https://codepen.io/freeCodeCamp/full/obYBjE" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/obYBjE</a>.
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+完成以下需求，并且通过所有测试。 你可以使用你需要的任何库或 API。 可以用你自己的样式来完成。
 
-**User Story:** I am presented with a random series of button presses.
+**用户故事：**呈现在我面前的是一系列随机的按键
 
-**User Story:** Each time I input a series of button presses correctly, I see the same series of button presses but with an additional step.
+**用户故事：**每当我正确地按下一连串的按钮，我都会看到同样的一连串按钮被再次按下，但多了一个步骤。
 
-**User Story:** I hear a sound that corresponds to each button both when the series of button presses plays, and when I personally press a button.
+**用户故事：**每当一系列按钮被按下时，以及当我亲自按下按钮时，我都会听到与每个按钮相对应的声音。
 
-**User Story:** If I press the wrong button, I am notified that I have done so, and that series of button presses starts again to remind me of the pattern so I can try again.
+**用户故事：**如果我按错了按钮，我会收到通知，告知我已经这样做了，并且会再次开始按一系列按钮来提醒我该顺序，以便我可以再试一次。
 
-**User Story:** I can see how many steps are in the current series of button presses.
+**用户故事：**我可以看到当前按钮按下的步数。
 
-**User Story:** If I want to restart, I can hit a button to do so, and the game will return to a single step.
+**用户故事：**如果我想重新开始，我可以点击一个按钮来执行此操作，游戏将返回到单个步骤。
 
-**User Story:** I can play in strict mode where if I get a button press wrong, it notifies me that I have done so, and the game restarts at a new random series of button presses.
+**用户故事：** 我可以在严格的模式下玩，如果我按下按钮错误，它会通知我我已经这样做了，并且游戏重新开始按下一系列按钮。
 
-**User Story:** I can win the game by getting a series of 20 steps correct. I am notified of my victory, then the game starts over.
+**用户故事：**我可以通过正确完成一系列的 20 个步骤来赢得比赛。 我被告知我的胜利，然后比赛重新开始。
 
 **Hint:** Here are mp3s you can use for each button: `https://cdn.freecodecamp.org/curriculum/take-home-projects/simonSound1.mp3`, `https://cdn.freecodecamp.org/curriculum/take-home-projects/simonSound2.mp3`, `https://cdn.freecodecamp.org/curriculum/take-home-projects/simonSound3.mp3`, `https://cdn.freecodecamp.org/curriculum/take-home-projects/simonSound4.mp3`.
 
-When you are finished, include a link to your project on CodePen and click the "I've completed this challenge" button.
+完成后，添加一个在 CodePen 上指向你项目的链接，然后单击“我已完成此挑战”按钮。
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+可以分享你的项目到 <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp 论坛</a>上获得反馈。
 
 # --solutions--
 

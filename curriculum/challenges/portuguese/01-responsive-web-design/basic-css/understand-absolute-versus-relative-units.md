@@ -9,7 +9,7 @@ dashedName: understand-absolute-versus-relative-units
 
 # --description--
 
-Todos os últimos desafios definiram a margem ou preenchimento de um elemento usando pixels (`px`). Pixels são um tipo de unidade de comprimento, que informa ao navegador como dimensionar ou espaçar um item. Além do `px`, o CSS possui outras opções de unidades de comprimento que você pode usar.
+The last several challenges all set an element's margin or padding with pixels (`px`). Pixels are a type of length unit, which is what tells the browser how to size or space an item. In addition to `px`, CSS has a number of different length unit options that you can use.
 
 Os dois principais tipos de unidades de comprimento são: absoluto e relativo. As unidades absolutas estão vinculadas às unidades físicas de comprimento. Por exemplo, `in` e `mm` referem-se a polegadas e milímetros, respectivamente. As unidades de comprimento absoluto aproximam-se da medida real em uma tela, mas existem algumas diferenças dependendo da resolução da tela.
 

@@ -8,7 +8,7 @@ dashedName: compose-react-components
 
 # --description--
 
-A medida que los desafíos continúan utilizando composiciones más complejas con componentes de React y JSX, hay un una cosa importante a tener en cuenta. Renderizar componentes de clase de estilo ES6 dentro de otros componentes es igual que renderizar los componentes simples que usaste en los últimos desafíos. Puedes renderizar elementos JSX, componentes funcionales sin estado y componentes de clase ES6, dentro de otros componentes.
+As the challenges continue to use more complex compositions with React components and JSX, there is one important point to note. Rendering ES6 style class components within other components is no different than rendering the simple components you used in the last few challenges. You can render JSX elements, stateless functional components, and ES6 class components within other components.
 
 # --instructions--
 
@@ -18,7 +18,7 @@ Anida dos componentes dentro de `Fruits`: primero `NonCitrus` y luego `Citrus`. 
 
 # --hints--
 
-El componente `TypesOfFood` debe devolver un solo elemento `div`.
+El componente `TypesOfFood` debe retornar un solo elemento `div`.
 
 ```js
 assert(
@@ -29,7 +29,7 @@ assert(
 );
 ```
 
-El componente `TypesOfFood` debe devolver el componente `Fruits`.
+El componente `TypesOfFood` debe retornar el componente `Fruits`.
 
 ```js
 assert(

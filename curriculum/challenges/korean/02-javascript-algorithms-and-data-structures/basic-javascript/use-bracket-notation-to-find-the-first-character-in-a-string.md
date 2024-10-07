@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c549eddfaeb5bdef
-title: Use Bracket Notation to Find the First Character in a String
+title: 브라켓 표기법을 사용해서 문자열의 첫 글자를 찾기
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/ca8JwhW'
 forumTopicId: 18341
@@ -11,34 +11,34 @@ dashedName: use-bracket-notation-to-find-the-first-character-in-a-string
 
 <dfn>Bracket notation</dfn> is a way to get a character at a specific index within a string.
 
-Most modern programming languages, like JavaScript, don't start counting at 1 like humans do. They start at 0. This is referred to as <dfn>Zero-based</dfn> indexing.
+JavaScript를 시작으로 하는 현대의 대부분의 프로그래밍 언어에서는 인간처럼 1부터 세지 않습니다. 대부분의 언어는 0부터 시작합니다. 이것을 <dfn>제로 베이스드(Zero-based)</dfn> 인덱싱이라고 합니다.
 
-For example, the character at index 0 in the word `Charles` is `C`. So if `const firstName = "Charles"`, you can get the value of the first letter of the string by using `firstName[0]`.
+예를 들어, `Charles`라고 하는 단어의 인덱스 0번째 문자는 `C`입니다. 그리고 만약 `const firstName = "Charles"` 라고 한다면 `firstName[0]` 라는 형식으로 이 문자열의 첫번째 문자의 값을 얻을 수 있습니다.
 
-Example:
+예:
 
 ```js
 const firstName = "Charles";
 const firstLetter = firstName[0];
 ```
 
-`firstLetter` would have a value of the string `C`.
+`firstLetter`의 값은 문자열 `C`가 될 것입니다.
 
 # --instructions--
 
-Use bracket notation to find the first character in the `lastName` variable and assign it to `firstLetterOfLastName`.
+브라켓 표기법을 사용해서 `lastName` 변수의 1번째 문자를 찾아 그것을 `firstLetterOfLastName`에 할당해 주세요.
 
-**Hint:** Try looking at the example above if you get stuck.
+**힌트:** 막혔을 때는 위의 예를 다시 봐 주세요.
 
 # --hints--
 
-The `firstLetterOfLastName` variable should have the value of `L`.
+`firstLetterOfLastName` 변수의 값은 `L`이 되어야 합니다.
 
 ```js
 assert(firstLetterOfLastName === 'L');
 ```
 
-You should use bracket notation.
+당신은 브라켓 표기법을 사용해야 합니다.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/firstLetterOfLastName\s*=\s*lastName\s*\[\s*\d\s*\]/));

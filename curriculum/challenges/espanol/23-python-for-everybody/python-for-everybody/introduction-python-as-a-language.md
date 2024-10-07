@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: introduction-python-as-a-language
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-What will print out after running these two lines of code:
+Qué se imprimirá después de ejecutar estas dos líneas de código:
 
 ```python
 x = 6

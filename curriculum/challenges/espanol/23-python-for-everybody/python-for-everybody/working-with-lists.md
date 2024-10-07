@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: working-with-lists
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-Which method is used to add an item at the end of a list?
+¿Cual es el metodo utilizado para agregar un elemento al final de una lista?
 
 ## --answers--
 

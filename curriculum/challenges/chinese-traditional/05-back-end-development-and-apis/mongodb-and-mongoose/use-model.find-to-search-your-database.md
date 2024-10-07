@@ -8,7 +8,7 @@ dashedName: use-model-find-to-search-your-database
 
 # --description--
 
-我們嘗試一種最簡單的用法，`Model.find()` 接收一個查詢 document（一個 JSON 對象）作爲第一個參數，一個回調函數作爲第二個參數， 它會返回由匹配到的數據組成的數組。 這個方法支持很多搜索選項， 詳情請參閱文檔。
+In its simplest usage, `Model.find()` accepts a query document (a JSON object) as the first argument, then a callback. It returns an array of matches. It supports an extremely wide range of search options. Read more in the docs.
 
 # --instructions--
 

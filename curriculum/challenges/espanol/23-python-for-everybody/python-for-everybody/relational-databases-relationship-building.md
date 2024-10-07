@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: relational-databases-relationship-building
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-What does the INSERT command do in SQL?
+¿Qué hace el comando INSERT en SQL?
 
 ## --answers--
 

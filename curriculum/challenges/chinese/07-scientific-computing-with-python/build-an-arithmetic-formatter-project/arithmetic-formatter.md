@@ -34,13 +34,13 @@ Output:
 -----    ------    ----    -----
 ```
 
-Function Call:
+函数调用：
 
 ```py
 arithmetic_arranger(["32 + 8", "1 - 3801", "9999 + 9999", "523 - 49"], True)
 ```
 
-Output:
+输出:
 
 ```py
   32         1      9999      523
@@ -49,7 +49,7 @@ Output:
   40     -3800     19998      474
 ```
 
-## Rules
+## 规则
 
 The function will return the correct conversion if the supplied problems are properly formatted, otherwise, it will **return** a **string** that describes an error that is meaningful to the user.
 
@@ -58,11 +58,11 @@ The function will return the correct conversion if the supplied problems are pro
   - The appropriate operators the function will accept are **addition** and **subtraction**. Multiplication and division will return an error. Other operators not mentioned in this bullet point will not need to be tested. The error returned will be: `"Error: Operator must be '+' or '-'."`
   - Each number (operand) should only contain digits. Otherwise, the function will return: `'Error: Numbers must only contain digits.'`
   - Each operand (aka number on each side of the operator) has a max of four digits in width. Otherwise, the error string returned will be: `'Error: Numbers cannot be more than four digits.'`
-- If the user supplied the correct format of problems, the conversion you return will follow these rules:
+- 如果用户提供了正确格式的问题，返回的转换将遵循以下规则：
   - There should be a single space between the operator and the longest of the two operands, the operator will be on the same line as the second operand, both operands will be in the same order as provided (the first will be the top one and the second will be the bottom).
-  - Numbers should be right-aligned.
-  - There should be four spaces between each problem.
-  - There should be dashes at the bottom of each problem. The dashes should run along the entire length of each problem individually. (The example above shows what this should look like.)
+  - 数字应该右对齐。
+  - 每个问题之间应该有四个空格。
+  - 每个问题的底部都应该有破折号。 破折号应该单独沿着每个问题的整个长度延伸。 （上面的例子展示了这应该是什么样子。）
 
 Note: open the browser console with F12 to see a more verbose output of the tests.
 

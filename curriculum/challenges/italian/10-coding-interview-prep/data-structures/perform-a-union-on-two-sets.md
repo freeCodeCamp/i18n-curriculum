@@ -8,7 +8,7 @@ dashedName: perform-a-union-on-two-sets
 
 # --description--
 
-In questo esercizio eseguiremo l'unione di due serie di dati. Creeremo un metodo sulla nostra struttura dati `Set` chiamato `union`. Questo metodo dovrebbe prendere un altro `Set` come argomento e restituire l'`union` dei due insiemi, escludendo eventuali valori duplicati.
+In this exercise we are going to perform a union on two sets of data. We will create a method on our `Set` data structure called `union`. This method should take another `Set` as an argument and return the `union` of the two sets, excluding any duplicate values.
 
 Per esempio, se `setA = ['a','b','c']` e `setB = ['a','b','d','e']`, allora l'unione di setA e setB è: `setA.union(setB) = ['a', 'b', 'c', 'd', 'e']`.
 

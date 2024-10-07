@@ -8,7 +8,7 @@ dashedName: use-the-s-tag-to-strikethrough-text
 
 # --description--
 
-Per barrare il testo, ovvero tracciare una linea orizzontale che tagli i caratteri, è possibile utilizzare il tag `s`. Esso indica che una sezione di testo non è più valida. Con il tag `s`, il browser applica il CSS di `text-decoration: line-through;` all'elemento.
+To strikethrough text, which is when a horizontal line cuts across the characters, you can use the `s` tag. It shows that a section of text is no longer valid. With the `s` tag, the browser applies the CSS of `text-decoration: line-through;` to the element.
 
 # --instructions--
 

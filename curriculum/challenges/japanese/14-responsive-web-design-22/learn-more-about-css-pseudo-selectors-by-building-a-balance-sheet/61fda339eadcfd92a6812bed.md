@@ -7,7 +7,7 @@ dashedName: step-30
 
 # --description--
 
-スタイル設定を進める前に、`sr-only` クラスを活用しましょう。 このクラスを持つ要素を、CSS を使って、視覚的なページでは非表示にしながらスクリーンリーダーでは読み上げられるようにできます。
+Before you get too far into your styling, you should make use of the `sr-only` class. You can use CSS to make elements with this class completely hidden from the visual page, but still be announced by screen readers.
 
 これから書く CSS は、要素を視覚的に隠すためによくセットで使われるプロパティです。
 

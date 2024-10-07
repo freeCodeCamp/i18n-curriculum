@@ -9,7 +9,7 @@ dashedName: comparison-with-the-less-than-operator
 
 # --description--
 
-Der Kleiner-als-Operator (`<`) vergleicht die Werte von zwei Zahlen. Wenn die Zahl auf der linken Seite kleiner ist als die Zahl auf der rechten Seite, gibt er `true` zurück. Andernfalls gibt er `false` zurück. Wie der Gleichheitsoperator konvertiert auch der Kleiner-als-Operator die Datentypen während des Vergleichs.
+The less than operator (`<`) compares the values of two numbers. If the number to the left is less than the number to the right, it returns `true`. Otherwise, it returns `false`. Like the equality operator, the less than operator converts data types while comparing.
 
 **Beispiele**
 

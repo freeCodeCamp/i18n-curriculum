@@ -14,7 +14,7 @@ dashedName: understanding-sockets-and-creating-a-tcp-server
 
 ## --text--
 
-以下哪個函數創建套接字對象？
+Which of the following functions creates a socket object?
 
 ## --answers--
 

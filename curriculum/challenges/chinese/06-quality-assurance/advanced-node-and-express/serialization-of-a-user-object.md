@@ -8,7 +8,7 @@ dashedName: serialization-of-a-user-object
 
 # --description--
 
-Serialization and deserialization are important concepts in regard to authentication. 序列化一个对象就是将其内容转换成一个体积很小的 *key*，后续可以通过它反序列化为原始对象。 这样，服务器就可以在用户未登录时识别用户，或者说给这个用户一个唯一标识，用户也不需要在每次访问不同页面时都给服务器发送用户名和密码。
+Serialization and deserialization are important concepts in regard to authentication. To serialize an object means to convert its contents into a small *key* that can then be deserialized into the original object. This is what allows us to know who has communicated with the server without having to send the authentication data, like the username and password, at each request for a new page.
 
 要正确设置此功能，你需要一个序列化的函数和一个反序列化函数。 在 Passport 中间件中，可以使用以下方法创建它们：
 

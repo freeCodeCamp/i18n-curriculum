@@ -8,7 +8,7 @@ dashedName: extend-one-set-of-css-styles-to-another-element
 
 # --description--
 
-Sass має функцію під назвою `extend`, яка дозволяє позичити правила CSS з одного елемента та застосувати їх в іншому.
+Sass has a feature called `extend` that makes it easy to borrow the CSS rules from one element and build upon them in another.
 
 Наприклад, наведений нижче блок правил СSS стилізує клас `.panel`. Він має `background-color`, `height` та `border`.
 

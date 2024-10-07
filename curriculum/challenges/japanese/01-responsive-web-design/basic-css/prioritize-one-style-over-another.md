@@ -9,7 +9,7 @@ dashedName: prioritize-one-style-over-another
 
 # --description--
 
-HTML 要素が、互いに競合する複数のスタイル指定を受け取ることがあります。
+Sometimes your HTML elements will receive multiple styles that conflict with one another.
 
 例えば、`h1` 要素を同時に緑とピンクの両方にすることはできません。
 

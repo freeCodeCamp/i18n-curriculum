@@ -8,7 +8,7 @@ dashedName: specify-exact-number-of-matches
 
 # --description--
 
-Du kannst die Unter- und Oberzahl der Muster mit Quantifizierern in geschweiften Klammern angeben. Manchmal möchtest du nur eine bestimmte Anzahl von Übereinstimmungen.
+You can specify the lower and upper number of patterns with quantity specifiers using curly brackets. Sometimes you only want a specific number of matches.
 
 Wenn du eine bestimmte Anzahl von Mustern angeben willst, gib einfach diese Zahl zwischen die geschweiften Klammern ein.
 

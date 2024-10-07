@@ -9,7 +9,7 @@ dashedName: accessing-nested-arrays
 
 # --description--
 
-Wie wir in früheren Beispielen gesehen haben, können Objekte sowohl verschachtelte Objekte als auch verschachtelte Arrays enthalten. Ähnlich wie beim Zugriff auf verschachtelte Objekte kann auch die Array-Klammerschreibweise verkettet werden, um auf verschachtelte Arrays zuzugreifen.
+As we have seen in earlier examples, objects can contain both nested objects and nested arrays. Similar to accessing nested objects, array bracket notation can be chained to access nested arrays.
 
 Hier ist ein Beispiel, wie du auf ein verschachteltes Array zugreifen kannst:
 
@@ -41,7 +41,7 @@ ourPets[1].names[0];
 
 # --instructions--
 
-Using dot and bracket notation, set the variable `secondTree` to the second element in the `list` array from the second object in the `myPlants` array.
+Setze die `secondTree`-Variable mit Hilfe der Verwendung der Punkt- und Klammernotation auf das zweite Element im `list`-Array des zweiten Objekts in `myPlants`-Array.
 
 # --hints--
 

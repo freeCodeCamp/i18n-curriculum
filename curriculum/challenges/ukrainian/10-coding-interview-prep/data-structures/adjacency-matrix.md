@@ -8,7 +8,7 @@ dashedName: adjacency-matrix
 
 # --description--
 
-Ще один спосіб представити граф — у вигляді <dfn>матриці суміжності</dfn>. <dfn>Матриця суміжності</dfn> — це двовимірний (2D) масив, де кожен вкладений масив має таку ж кількість елементів, як і зовнішній. Іншими словами, це матриця або таблиця чисел, де числа являють собою ребра.
+Another way to represent a graph is to put it in an <dfn>adjacency matrix</dfn>. An <dfn>adjacency matrix</dfn> is a two-dimensional (2D) array where each nested array has the same number of elements as the outer array. In other words, it is a matrix or grid of numbers, where the numbers represent the edges.
 
 **Примітка**: числа зверху і зліва від матриці — це лише мітки для вершин. Одиниці всередині матриці означають, що між вершинами, які представляють ряд та стовпець, існує ребро. Нулі означають, що ребра чи зв’язку немає.
 

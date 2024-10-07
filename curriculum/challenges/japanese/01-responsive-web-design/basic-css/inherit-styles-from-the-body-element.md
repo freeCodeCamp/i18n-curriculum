@@ -9,7 +9,7 @@ dashedName: inherit-styles-from-the-body-element
 
 # --description--
 
-すべての HTML ページに `body` 要素があることと、`body` 要素も CSS でスタイルを変更できることが確認できました。
+Now we've proven that every HTML page has a `body` element, and that its `body` element can also be styled with CSS.
 
 `body` 要素も他の HTML 要素と同じようにスタイルを変更できることと、他のすべての要素は `body` 要素のスタイルを継承することを覚えておきましょう。
 

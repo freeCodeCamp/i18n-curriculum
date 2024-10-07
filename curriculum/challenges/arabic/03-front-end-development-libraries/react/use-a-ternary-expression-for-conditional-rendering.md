@@ -8,7 +8,7 @@ dashedName: use-a-ternary-expression-for-conditional-rendering
 
 # --description--
 
-قبل الانتقال إلى تقنيات العرض الديناميكي، هناك طريقة أخيرة لاستخدام اشتراطات JavaScript المدمجة لتقديم ما تريده, تسمى: <dfn>ternary operator</dfn>. غالباً ما يستخدم ternary operator كاختصار لتعبيرات `if/else` في JavaScript. إنها ليست قوية تماما مثل تعبيرات `if/else` التقليدية، لكنها تحظى بشعبية كبيرة بين مطوري React. أحد أسباب هذا هو بسبب كيفية تجميع JSX، أن تعبيرات `if/else` لا يمكن إدراجها في كود JSX مباشرة. ربما كنت قد لاحظت هذا في تحديين السابقين - عندما يكون تعبير `if/else` مطلوب، كان دائماً *خارج* كلمة `return`. Ternary expressions يمكن أن تكون بديلا ممتازا إذا كنت تريد تنفيذ المنطق الشرط (conditional logic) داخل JSX. تذكر أن ternary operator له ثلاث أجزاء، ولكن يمكنك الجمع بين عدة ternary expressions. إليك الجملة الأساسية:
+Before moving on to dynamic rendering techniques, there's one last way to use built-in JavaScript conditionals to render what you want: the <dfn>ternary operator</dfn>. The ternary operator is often utilized as a shortcut for `if/else` statements in JavaScript. They're not quite as robust as traditional `if/else` statements, but they are very popular among React developers. One reason for this is because of how JSX is compiled, `if/else` statements can't be inserted directly into JSX code. You might have noticed this a couple challenges ago — when an `if/else` statement was required, it was always *outside* the `return` statement. Ternary expressions can be an excellent alternative if you want to implement conditional logic within your JSX. Recall that a ternary operator has three parts, but you can combine several ternary expressions together. Here's the basic syntax:
 
 ```jsx
 condition ? expressionIfTrue : expressionIfFalse;

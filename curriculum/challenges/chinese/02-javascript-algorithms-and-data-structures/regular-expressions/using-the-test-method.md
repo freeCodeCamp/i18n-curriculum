@@ -8,7 +8,7 @@ dashedName: using-the-test-method
 
 # --description--
 
-在编程语言中，正则表达式用于匹配指定的字符串。 通过正则表达式创建匹配模式（规则）可以帮你完成指定匹配。
+Regular expressions are used in programming languages to match parts of strings. You create patterns to help you do that matching.
 
 如果想要在字符串 `The dog chased the cat` 中匹配到 `the` 这个单词，可以使用如下正则表达式：`/the/`。 注意，正则表达式中不需要引号。
 

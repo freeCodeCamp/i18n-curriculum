@@ -18,7 +18,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#5` in the `Equality` sui
 
 # --hints--
 
-應通過所有測試。
+不應有未通過的測試
 
 ```js
 (getUserInput) =>

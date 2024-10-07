@@ -8,7 +8,7 @@ dashedName: match-everything-but-letters-and-numbers
 
 # --description--
 
-لقد تعلمت أنه يمكنك استخدام اختصار لمطابقة الحروف و الارقام `[A-Za-z0-9_]` باستخدام `\w`. نمط طبيعي قد ترغب في البحث عنه و هو ما عكس الحروف و الأرقام.
+You've learned that you can use a shortcut to match alphanumerics `[A-Za-z0-9_]` using `\w`. A natural pattern you might want to search for is the opposite of alphanumerics.
 
 يمكنك البحث عن العكس الـ `\w` باستخدام `\W`. ملاحظة: النمط المعاكس يستخدم حرف كبير. هذا الاختصار هو نفسه مثل `[^A-Za-z0-9_]`.
 

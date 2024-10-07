@@ -1,6 +1,6 @@
 ---
 id: 6579cf3ada08bdcfd5eae689
-title: Task 5
+title: 任務 5
 challengeType: 19
 dashedName: task-5
 ---
@@ -11,7 +11,7 @@ dashedName: task-5
 
 In this dialogue, Sophie is making a request to Bob. Understanding the nature of her request is essential for effective team communication and collaboration, especially in technical environments where solving problems together is common.
 
-# --questions--
+# 問題
 
 ## --text--
 

@@ -8,7 +8,7 @@ dashedName: pass-state-as-props-to-child-components
 
 # --description--
 
-在之前的挑戰中，看到了很多將 props 傳遞給子 JSX 元素和子 React 組件的例子。 你可能想知道那些 props 是從哪裏來的。 一個常見的模式是：有狀態組件中包含對應用程序很重要的 `state`，然後用它渲染子組件。 如果想讓這些組件能夠訪問該 `state` 的某些部分，就把這些部分作爲 props 傳入。
+You saw a lot of examples that passed props to child JSX elements and child React components in previous challenges. You may be wondering where those props come from. A common pattern is to have a stateful component containing the `state` important to your app, that then renders child components. You want these components to have access to some pieces of that `state`, which are passed in as props.
 
 例如，有一個 `App` 組件可以渲染 `Navbar` 以及其他組件。 `App` 裏的 `state` 包含大量用戶信息，但 `Navbar` 只需要訪問用戶的用戶名，以便顯示它。 將該 `state` 作爲 prop 傳遞給`Navbar`組件。
 

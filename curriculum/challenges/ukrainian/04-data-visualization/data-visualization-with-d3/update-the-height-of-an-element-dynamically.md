@@ -8,7 +8,7 @@ dashedName: update-the-height-of-an-element-dynamically
 
 # --description--
 
-У попередніх завданнях ми розповіли, як зобразити дані з масиву та додати класи CSS. Ви можете поєднати ці уроки, щоб створити просту стовпчикову діаграму. Для цього виконайте два кроки:
+The previous challenges covered how to display data from an array and how to add CSS classes. You can combine these lessons to create a simple bar chart. There are two steps to this:
 
 1) Створіть `div` для кожної точки даних в масиві
 

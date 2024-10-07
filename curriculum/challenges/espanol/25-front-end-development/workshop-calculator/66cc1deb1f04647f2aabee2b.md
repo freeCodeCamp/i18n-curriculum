@@ -1,6 +1,6 @@
 ---
 id: 66cc1deb1f04647f2aabee2b
-title: Step 15
+title: Paso 15
 challengeType: 1
 dashedName: step-15
 ---

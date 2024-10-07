@@ -16,7 +16,7 @@ dashedName: word-problems
 
 \- <a href="https://openstax.org/details/books/algebra-and-trigonometry" target="_blank" rel="noopener noreferrer nofollow">《代数与三角学》，作者 Jay Abramson</a>
 
-# --任务--
+# --作业--
 
 完成《商业数学分步手册（2021）》第 63、75、85 和 118 页的问题。
 

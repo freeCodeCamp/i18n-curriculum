@@ -7,7 +7,7 @@ dashedName: build-a-javascript-calculator
 ---
 
 # --description--
-**Observação:** **o React 18 tem incompatibilidades conhecidas com os testes deste projeto (ver [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
+**Note:** **React 18 has known incompatibilities with the tests for this project (see [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
 
 **Objetivo:** criar uma aplicação que funcione de modo semelhante ao que vemos em: <a href="https://javascript-calculator.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://javascript-calculator.freecodecamp.rocks/</a>.
 
@@ -49,7 +49,7 @@ Você pode usar qualquer mistura de HTML, JavaScript, CSS, Bootstrap, SASS, Reac
 
 **EXEMPLO:** `3 + 5 x 6 - 2 / 4 =`
 
--   **Lógica de execução imediata:** `11.5`
+-   **Immediate Execution Logic:** `11.5`
 -   **Lógica de fórmula/expressão:** `32.5`
 
 Você pode fazer o seu projeto <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">usando este modelo da CodePen</a> e clicando em `Save` para criar seu próprio pen. Como alternativa, use este link da nossa CDN para executar os testes em qualquer ambiente que você preferir: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`

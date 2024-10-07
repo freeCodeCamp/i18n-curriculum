@@ -1,6 +1,6 @@
 ---
 id: 587d7da9367417b2b2512b69
-title: Sort an Array Alphabetically using the sort Method
+title: sort 메소드로 알파벳 순서로 배열 정렬하기
 challengeType: 1
 forumTopicId: 18303
 dashedName: sort-an-array-alphabetically-using-the-sort-method
@@ -10,7 +10,7 @@ dashedName: sort-an-array-alphabetically-using-the-sort-method
 
 The `sort` method sorts the elements of an array according to the callback function.
 
-For example:
+예시:
 
 ```js
 function ascendingOrder(arr) {
@@ -22,7 +22,7 @@ function ascendingOrder(arr) {
 ascendingOrder([1, 5, 2, 3, 4]);
 ```
 
-This would return the value `[1, 2, 3, 4, 5]`.
+이는 `[1, 2, 3, 4, 5]`을 반환할 것입니다.
 
 ```js
 function reverseAlpha(arr) {
@@ -34,23 +34,23 @@ function reverseAlpha(arr) {
 reverseAlpha(['l', 'h', 'z', 'b', 's']);
 ```
 
-This would return the value `['z', 's', 'l', 'h', 'b']`.
+이는 `['z', 's', 'l', 'h', 'b']`을 반환할 것입니다.
 
-JavaScript's default sorting method is by string Unicode point value, which may return unexpected results. Therefore, it is encouraged to provide a callback function to specify how to sort the array items. When such a callback function, normally called `compareFunction`, is supplied, the array elements are sorted according to the return value of the `compareFunction`: If `compareFunction(a,b)` returns a value less than 0 for two elements `a` and `b`, then `a` will come before `b`. If `compareFunction(a,b)` returns a value greater than 0 for two elements `a` and `b`, then `b` will come before `a`. If `compareFunction(a,b)` returns a value equal to 0 for two elements `a` and `b`, then `a` and `b` will remain unchanged.
+자바스크립트의 정렬 메소드의 기본값은 문자열의 유니코드 값으로 정렬하는 것인데 예상치 못한 결과를 반환할지도 모릅니다. 그러므로 어떻게 배열을 정렬할 것인지 특정하기 위해 콜백 함수를 제공하는 것이 권장됩니다. 보통 `compareFunction`라고 불리는 콜백 함수가 제공될 때 배열 요소는 `compareFunction`의 반환 결과에 의해 정렬됩니다: `compareFunction(a,b)`가 두 요소 `a`와 `b`에 대해 0보다 적은 값을 반환하면 `a`가 `b` 전에 위치하게 될 것입니다. `compareFunction(a,b)`가 두 요소 `a`와 `b`에 대해 0보다 큰 값을 반환하면 `b`는 `a` 전에 위치하게 될 것입니다. `compareFunction(a,b)`가 두 요소 `a`와 `b`에 대해 0을 반환한다면 `a`와 `b`의 위치는 변하지 않을 것입니다.
 
 # --instructions--
 
-Use the `sort` method in the `alphabeticalOrder` function to sort the elements of `arr` in alphabetical order. The function should return the sorted array.
+`arr`의 요소를 알파벳 순서로 정렬하기 위해 `alphabeticalOrder` 함수에 `sort` 메소드를 사용하시오. 함수는 정렬된 배열을 반환해야 합니다.
 
 # --hints--
 
-Your code should use the `sort` method.
+`sort` 메소드를 사용해야 합니다.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/\.sort/g));
 ```
 
-`alphabeticalOrder(["a", "d", "c", "a", "z", "g"])` should return `["a", "a", "c", "d", "g", "z"]`.
+`alphabeticalOrder(["a", "d", "c", "a", "z", "g"])`는 `["a", "a", "c", "d", "g", "z"]`를 반환해야 합니다.
 
 ```js
 assert(
@@ -59,7 +59,7 @@ assert(
 );
 ```
 
-`alphabeticalOrder(["x", "h", "a", "m", "n", "m"])` should return `["a", "h", "m", "m", "n", "x"]`.
+`alphabeticalOrder(["x", "h", "a", "m", "n", "m"])`는 `["a", "h", "m", "m", "n", "x"]`를 반환해야 합니다.
 
 ```js
 assert(
@@ -68,7 +68,7 @@ assert(
 );
 ```
 
-`alphabeticalOrder(["a", "a", "a", "a", "x", "t"])` should return `["a", "a", "a", "a", "t", "x"]`.
+`alphabeticalOrder(["a", "a", "a", "a", "x", "t"])`는 `["a", "a", "a", "a", "t", "x"]`를 반환해야 합니다.
 
 ```js
 assert(

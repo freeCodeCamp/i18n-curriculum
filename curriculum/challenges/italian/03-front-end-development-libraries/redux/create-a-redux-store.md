@@ -8,7 +8,7 @@ dashedName: create-a-redux-store
 
 # --description--
 
-Redux è un framework di gestione dello stato che può essere utilizzato con una serie di diverse tecnologie web, tra cui React.
+Redux is a state management framework that can be used with a number of different web technologies, including React.
 
 In Redux c'è un singolo oggetto di stato che è responsabile per l'intero stato della tua applicazione. Ciò significa che se hai un'app React con dieci componenti, e ogni componente aveva il proprio stato locale, l'intero stato della tua app sarà definito da un singolo oggetto di stato ospitato nello `store` di Redux. Questo è il primo principio importante da capire quando si studia Redux: lo store di Redux è la singola fonte di verità quando si tratta di stato dell'applicazione.
 

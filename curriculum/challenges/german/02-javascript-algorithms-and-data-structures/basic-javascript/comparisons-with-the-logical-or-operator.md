@@ -9,11 +9,11 @@ dashedName: comparisons-with-the-logical-or-operator
 
 # --description--
 
-Der <dfn>logische Oder</dfn>-Operator (`||`) gibt `true` zurück, wenn einer der <dfn>Operanden</dfn> `true` ist. Andernfalls wird `false` zurückgegeben.
+The <dfn>logical or</dfn> operator (`||`) returns `true` if either of the <dfn>operands</dfn> is `true`. Otherwise, it returns `false`.
 
 Der <dfn>logische Oder</dfn>-Operator besteht aus zwei Pipe-Symbolen: (`||`). Diese befindet sich normalerweise zwischen der Backspace- und der Enter-Taste.
 
-The pattern below should look familiar from prior waypoints.
+Das folgende Muster sollte dir von früheren Zwischenstationen bekannt vorkommen.
 
 ```js
 if (num > 10) {

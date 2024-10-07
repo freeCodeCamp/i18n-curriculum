@@ -8,7 +8,7 @@ dashedName: match-beginning-string-patterns
 
 # --description--
 
-Попередні завдання показали, що регулярні вирази можна використовувати для багатьох збігів. Їх також використовують для пошуку шаблонів у певному місці рядка.
+Prior challenges showed that regular expressions can be used to look for a number of matches. They are also used to search for patterns in specific positions in strings.
 
 У попередньому завданні ви використали символ карет (`^`) всередині набору символів для того, щоб створити набір заперечних символів у вигляді `[^thingsThatWillNotBeMatched]`. За межами набору символів, карет використовують для пошуку шаблонів на початку рядка.
 
@@ -20,7 +20,7 @@ let notFirst = "You can't find Ricky now.";
 firstRegex.test(notFirst);
 ```
 
-Перший виклик `test` поверне `true`, а другий поверне `false`.
+Перший виклик `test` повернеться як `true`, тоді ж як другий повернеться як `false`.
 
 # --instructions--
 
@@ -34,7 +34,7 @@ firstRegex.test(notFirst);
 assert(calRegex.source == '^Cal');
 ```
 
-Ваш регулярний вираз не повинен використовувати жодних прапорців.
+Ваш регулярний вираз не повинен містити жодних прапорців.
 
 ```js
 assert(calRegex.flags == '');

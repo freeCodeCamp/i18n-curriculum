@@ -8,7 +8,7 @@ dashedName: specify-upper-and-lower-number-of-matches
 
 # --description--
 
-Пригадайте, що плюс `+` можна використовувати, щоб шукати один чи більше символів, а зірочку `*` — щоб шукати нуль чи більше символів. Це зручно, але іноді потрібно знайти збіги для певного діапазону шаблонів.
+Recall that you use the plus sign `+` to look for one or more characters and the asterisk `*` to look for zero or more characters. These are convenient but sometimes you want to match a certain range of patterns.
 
 Ви можете вказати найменшу та найбільшу кількість шаблонів за допомогою <dfn>специфікатора кількості</dfn>. Специфікатори кількості використовуються з фігурними дужками (`{` та `}`). Всередині фігурних дужок ви пишете два числа: для найменшої та найбільшої кількості шаблонів.
 
@@ -30,7 +30,7 @@ multipleA.test(A2);
 
 # --hints--
 
-Ваш регулярний вираз має використати фігурні дужки.
+У регулярного виразу мають бути фігурні дужки.
 
 ```js
 assert(ohRegex.source.match(/{.*?}/).length > 0);

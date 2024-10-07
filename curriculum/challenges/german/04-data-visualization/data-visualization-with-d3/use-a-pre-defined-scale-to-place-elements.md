@@ -8,7 +8,7 @@ dashedName: use-a-pre-defined-scale-to-place-elements
 
 # --description--
 
-Nachdem die Skalen festgelegt wurden, können nun erneut Daten in das Streudiagramm eingetragen werden. Skalen gleichen Verarbeitungsfunktionen, die `x`- und `y`-Rohdaten in Werte umwandeln, die in das SVG passen und korrekt dargestellt werden können. Sie halten die Daten innerhalb des Bildschirm-Darstellungsbereichs.
+With the scales set up, it's time to map the scatter plot again. The scales are like processing functions that turn the `x` and `y` raw data into values that fit and render correctly on the SVG. They keep the data within the screen's plotting area.
 
 Die Koordinaten-Attributwerte einer SVG-Form setzt du mithilfe der Skalierungsfunktion. Damit sind sowohl `x`- und `y`-Attribute für `rect`- bzw. `text`-Elemente als auch `cx`- und `cy`-Attribute für `circles` gemeint. Hier ein Beispiel:
 

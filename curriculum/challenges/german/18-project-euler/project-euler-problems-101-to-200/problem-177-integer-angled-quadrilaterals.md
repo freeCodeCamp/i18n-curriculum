@@ -14,7 +14,7 @@ ABCD sei ein konvexes Viereck mit den Diagonalen AC und BD. An jedem Scheitelpun
 
 Am Scheitelpunkt A beispielsweise sind die beiden Winkel CAD, CAB.
 
-We call such a quadrilateral for which all eight corner angles have integer values when measured in degrees an "integer angled quadrilateral". Ein Beispiel für ein Viereck mit ganzzahligen Winkeln ist ein Quadrat, bei dem alle acht Eckwinkel 45° betragen. Ein weiteres Beispiel ist DAC = 20°, BAC = 60°, ABD = 50°, CBD = 30°, BCA = 40°, DCA = 30°, CDB = 80°, ADB = 50°.
+Ein solches Viereck, bei dem alle acht Eckwinkel ganzzahlige Werte haben, nennen wir ein "Viereck mit ganzzahligen Winkeln". Ein Beispiel für ein Viereck mit ganzzahligen Winkeln ist ein Quadrat, bei dem alle acht Eckwinkel 45° betragen. Ein weiteres Beispiel ist DAC = 20°, BAC = 60°, ABD = 50°, CBD = 30°, BCA = 40°, DCA = 30°, CDB = 80°, ADB = 50°.
 
 Wie groß ist die Gesamtzahl der nicht-ähnlichen ganzwinkligen Vierecke?
 

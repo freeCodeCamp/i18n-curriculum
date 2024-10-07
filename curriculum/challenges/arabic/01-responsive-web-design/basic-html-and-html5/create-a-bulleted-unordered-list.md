@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedf08827
-title: Create a Bulleted Unordered List
+title: إنشاء قائمة غير مرتبة ذات تعداد نقطي
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVMPUv/cDKVPuv'
 forumTopicId: 16814
@@ -11,9 +11,9 @@ dashedName: create-a-bulleted-unordered-list
 
 HTML has a special element for creating <dfn>unordered lists</dfn>, or bullet point style lists.
 
-Unordered lists start with an opening `<ul>` element, followed by any number of `<li>` elements. Finally, unordered lists close with a `</ul>`.
+تبدأ القوائم غير المرتبة بعنصر فتح `<ul>` متبوعًا بأي عدد من عناصر `<li>`. أخيرًا ، تُغلق القوائم غير المرتبة بـ `</ul>`.
 
-For example:
+على سبيل المثال:
 
 ```html
 <ul>
@@ -22,27 +22,27 @@ For example:
 </ul>
 ```
 
-would create a bullet point style list of `milk` and `cheese`.
+ستنشئ قائمة بنمط نقطي من `milk` و `cheese`.
 
 # --instructions--
 
-Remove the last two `p` elements and create an unordered list of three things that cats love at the bottom of the page.
+قم بإزالة آخر عنصرين من نوع `p` وأنشئ قائمة غير مرتبة من ثلاثة أشياء تحبها القطط في أسفل الصفحة.
 
 # --hints--
 
-Create a `ul` element.
+قم بإنشاء عنصر `ul`.
 
 ```js
 assert($('ul').length > 0);
 ```
 
-You should have three `li` elements within your `ul` element.
+يجب أن يكون لديك ثلاثة عناصر `li` داخل عنصر `ul`.
 
 ```js
 assert($('ul li').length > 2);
 ```
 
-Your `ul` element should have a closing tag.
+يجب أن يحتوي العنصر `ul` على علامة إغلاق.
 
 ```js
 assert(
@@ -52,7 +52,7 @@ assert(
 );
 ```
 
-Your `li` elements should have closing tags.
+يجب أن تحتوي عناصر `li` على علامات إغلاق.
 
 ```js
 assert(
@@ -62,7 +62,7 @@ assert(
 );
 ```
 
-Your `li` elements should not contain an empty string or only white-space.
+يجب ألا تحتوي عناصر `li` على نص فارغ أو مسافة بيضاء فقط.
 
 ```js
 assert($('ul li').filter((_, item) => !$(item).text().trim()).length === 0);

@@ -81,7 +81,7 @@ Percentage spent by category
 
 # --hints--
 
-Метод `deposit` має створити певний об’єкт у змінній-екземплярі головної книги.
+The `deposit` method should create a specific object in the ledger instance variable.
 
 ```js
 ({
@@ -119,7 +119,7 @@ t.result.wasSuccessful()
 })
 ```
 
-Виклик методу `deposit` без опису має створити порожній опис.
+Calling the `deposit` method with no description should create a blank description.
 
 ```js
 ({
@@ -157,7 +157,7 @@ t.result.wasSuccessful()
 })
 ```
 
-Метод `withdraw` має створити певний об’єкт у змінній-екземплярі `ledger`.
+The `withdraw` method should create a specific object in the `ledger` instance variable.
 
 ```js
 ({
@@ -196,7 +196,7 @@ t.result.wasSuccessful()
 })
 ```
 
-Виклик методу `withdraw` без опису має створити порожній опис.
+Calling the `withdraw` method with no description should create a blank description.
 
 ```js
 ({
@@ -235,7 +235,7 @@ t.result.wasSuccessful()
 })
 ```
 
-Метод `withdraw` має повернути `True`, якщо зняття відбулося.
+The `withdraw` method should return `True` if the withdrawal took place.
 
 ```js
 ({
@@ -311,7 +311,7 @@ t.result.wasSuccessful()
 })
 ```
 
-Виклик методу `transfer` на об’єкті категорії має створити певний елемент головної книги в цьому об’єкті категорії.
+Calling the `transfer` method on a category object should create a specific ledger item in that category object.
 
 ```js
 ({
@@ -353,7 +353,7 @@ t.result.wasSuccessful()
 })
 ```
 
-Метод `transfer` має повернути `True`, якщо переказ відбувся.
+The `transfer` method should return `True` if the transfer took place.
 
 ```js
 ({
@@ -393,7 +393,7 @@ t.result.wasSuccessful()
 })
 ```
 
-Виклик `transfer` на об’єкті категорії має зменшити баланс в об’єкті категорії.
+Calling `transfer` on a category object should reduce the balance in the category object.
 
 ```js
 ({
@@ -435,7 +435,7 @@ t.result.wasSuccessful()
 })
 ```
 
-Метод `transfer` має збільшити баланс об’єкта категорії, переданого як аргумент.
+The `transfer` method should increase the balance of the category object passed as its argument.
 
 ```js
 ({
@@ -477,7 +477,7 @@ t.result.wasSuccessful()
 })
 ```
 
-Метод `transfer` має створити певний елемент головної книги в об’єкті категорії, переданого як аргумент.
+The `transfer` method should create a specific ledger item in the category object passed as its argument.
 
 ```js
 ({
@@ -519,7 +519,7 @@ t.result.wasSuccessful()
 })
 ```
 
-Метод `check_funds` має повернути `False`, якщо сума, передана до методу, перевищує баланс категорії.
+The `check_funds` method should return `False` if the amount passed to the method is greater than the category balance.
 
 ```js
 ({
@@ -557,7 +557,7 @@ t.result.wasSuccessful()
 })
 ```
 
-Метод `check_funds` має повернути `True`, якщо сума, передана до методу, не перевищує баланс категорії.
+The `check_funds` method should return `True` if the amount passed to the method is not greater than the category balance.
 
 ```js
 ({
@@ -595,7 +595,7 @@ t.result.wasSuccessful()
 })
 ```
 
-Метод `withdraw` має повернути `False`, якщо зняття не відбулося.
+The `withdraw` method should return `False` if the withdrawal didn't take place.
 
 ```js
 ({
@@ -632,7 +632,7 @@ t.result.wasSuccessful()
 })
 ```
 
-Метод `transfer` має повернути `False`, якщо переказ не відбувся.
+The `transfer` method should return `False` if the transfer didn't take place.
 
 ```js
 ({
@@ -670,7 +670,7 @@ t.result.wasSuccessful()
 })
 ```
 
-Друк екземпляра `Category` має дати інше рядкове представлення об’єкта.
+Printing a `Category` instance should give a different string representation of the object.
 
 ```js
 ({
@@ -711,7 +711,7 @@ t.result.wasSuccessful()
 })
 ```
 
-`create_spend_chart` має надрукувати інше представлення діаграми. Переконайтеся, що всі інтервали точні.
+`create_spend_chart` should print a different chart representation. Check that all spacing is exact. Open your browser console with F12 for more details.
 
 ```js
 ({

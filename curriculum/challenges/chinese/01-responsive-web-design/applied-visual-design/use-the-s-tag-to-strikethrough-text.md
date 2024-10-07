@@ -8,7 +8,7 @@ dashedName: use-the-s-tag-to-strikethrough-text
 
 # --description--
 
-你可以用 `s` 标签来给文字添加删除线。 删除线是位于文字水平中央的一条线，它代表着一段文字不再有效。 添加了 `s` 标签后，浏览器会自动给元素添加这段样式：`text-decoration: line-through;`。
+To strikethrough text, which is when a horizontal line cuts across the characters, you can use the `s` tag. It shows that a section of text is no longer valid. With the `s` tag, the browser applies the CSS of `text-decoration: line-through;` to the element.
 
 # --instructions--
 

@@ -9,7 +9,7 @@ dashedName: give-a-background-color-to-a-div-element
 
 # --description--
 
-`background-color` 属性可以设置元素的背景颜色。
+You can set an element's background color with the `background-color` property.
 
 如果想将一个元素的背景颜色改为 `green`，可以在 `style` 里面这样写：
 

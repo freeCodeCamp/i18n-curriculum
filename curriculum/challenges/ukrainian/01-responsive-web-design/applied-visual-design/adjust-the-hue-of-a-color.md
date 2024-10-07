@@ -9,7 +9,7 @@ dashedName: adjust-the-hue-of-a-color
 
 # --description--
 
-Кольори мають декілька характеристик, включно з відтінком, насиченістю та яскравістю. CSS3 представив функцію `hsl()` як альтернативний спосіб вибору кольору шляхом прямого визначення цих характеристик.
+Colors have several characteristics including hue, saturation, and lightness. CSS3 introduced the `hsl()` function as an alternative way to pick a color by directly stating these characteristics.
 
 Під**відтінком** люди часто розуміють колір. Якщо уявити спектр кольорів, починаючи з червоного зліва, через зелений посередині, і закінчуючи синім справа, то відтінок - це місце на цій лінії, де знаходиться колір. У `hsl()`, для визначення відтінку замість спектру використовується концепція колірного кола, де кут кольору на окружності задається значенням від 0 до 360.
 
@@ -19,7 +19,7 @@ dashedName: adjust-the-hue-of-a-color
 
 Ось кілька прикладів використання `hsl()` з максимально насиченими кольорами зі стандартною яскравістю:
 
-<table><thead><tr><th>Колір</th><th>HSL</th></tr></thead><tbody><tr><td>червоний</td><td>hsl(0, 100%, 50%)</td></tr><tr><td>жовтий</td><td>hsl(60, 100%, 50%)</td></tr><tr><td>зелений</td><td>hsl(120, 100%, 50%)</td></tr><tr><td>блакитний</td><td>hsl(180, 100%, 50%)</td></tr><tr><td>синій</td><td>hsl(240, 100%, 50%)</td></tr><tr><td>пурпуровий</td><td>hsl(300, 100%, 50%)</td></tr></tbody></table>
+<table><thead><tr><th>Color</th><th>HSL</th></tr></thead><tbody><tr><td>red</td><td>hsl(0, 100%, 50%)</td></tr><tr><td>yellow</td><td>hsl(60, 100%, 50%)</td></tr><tr><td>green</td><td>hsl(120, 100%, 50%)</td></tr><tr><td>cyan</td><td>hsl(180, 100%, 50%)</td></tr><tr><td>blue</td><td>hsl(240, 100%, 50%)</td></tr><tr><td>magenta</td><td>hsl(300, 100%, 50%)</td></tr></tbody></table>
 
 # --instructions--
 

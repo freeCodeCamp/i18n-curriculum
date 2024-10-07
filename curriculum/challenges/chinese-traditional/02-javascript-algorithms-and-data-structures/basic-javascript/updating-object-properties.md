@@ -9,7 +9,7 @@ dashedName: updating-object-properties
 
 # --description--
 
-在你創建了 JavaScript 對象後，你可以隨時更新它的屬性，就像更新任何其他變量那樣。 你可以使用點或中括號操作符來更新。
+After you've created a JavaScript object, you can update its properties at any time just like you would update any other variable. You can use either dot or bracket notation to update.
 
 舉個例子，讓我們看看 `ourDog`：
 

@@ -20,19 +20,19 @@ Complete o módulo <a href="https://learn.microsoft.com/training/modules/csharp-
 
 ## --text--
 
-Qual é a diferença entre `Console.Write` e `Console.WriteLine`?
+What is the difference between `Console.Write` and `Console.WriteLine`?
 
 ## --answers--
 
-`Console.Write` imprime a saída em uma nova linha.
+`Console.Write` prints the output on a new line.
 
 ---
 
-`Console.WriteLine` imprime a saída em uma nova linha.
+`Console.WriteLine` prints the output on a new line.
 
 ---
 
-`Console.WriteLine` anexa uma nova linha após a saída.
+`Console.WriteLine` appends a new line after the output.
 
 ## --video-solution--
 

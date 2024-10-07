@@ -8,14 +8,14 @@ dashedName: 9-billion-names-of-god-the-integer
 
 # --description--
 
-This task is a variation of the short story by Arthur C. Clarke.
+Diese Aufgabe ist eine Variation der Kurzgeschichte von Arthur C. Clarke.
 
 (Die Teilnehmer sollten sich über die Folgen der Lösung dieser Aufgabe im Klaren sein)
 
 Was genau ist die Bedeutung von einem "Namen":
 
 <ul>
-  <li>The integer 1 has 1 name "1".</li>
+  <li>Die ganze Zahl 1 hat 1 Namen "1".</li>
   <li>Der Integer 2 hat 2 Namen "1+1" und "2".</li>
   <li>Der Integer 3 hat 3 Namen "1+1+1", "2+1" und "3".</li>
   <li>Der Integer 4 hat 5 Namen "1+1+1+1", "2+1+1", "2+2", "3+1", "4".</li>

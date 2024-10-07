@@ -8,7 +8,7 @@ dashedName: create-bootstrap-wells
 
 # --description--
 
-Bootstrap لديه فئة يسمى `well` يمكنه إنشاء إحساس بصري بالعمق للعمود.
+Bootstrap has a class called `well` that can create a visual sense of depth for your columns.
 
 أدخل عنصر `div` واحد مع فئة `well` داخل كل عنصر من عناصر `col-xs-6` في `div`.
 

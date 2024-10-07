@@ -9,7 +9,7 @@ dashedName: local-scope-and-functions
 
 # --description--
 
-Змінні, оголошені в межах функції, мають <dfn>локальну</dfn> область видимості (як і параметри функції). Це означає, що вони видимі лише в межах цієї функції.
+Variables which are declared within a function, as well as the function parameters, have <dfn>local</dfn> scope. That means they are only visible within that function.
 
 Ось функція `myTest` з локальною змінною під назвою `loc`.
 

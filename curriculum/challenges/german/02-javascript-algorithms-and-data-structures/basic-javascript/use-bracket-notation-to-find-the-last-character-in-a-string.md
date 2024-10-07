@@ -9,7 +9,7 @@ dashedName: use-bracket-notation-to-find-the-last-character-in-a-string
 
 # --description--
 
-Um den letzten Buchstaben eines Strings zu erhalten, kann man einen von der Länge des Strings subtrahieren.
+In order to get the last letter of a string, you can subtract one from the string's length.
 
 Wenn zum Beispiel `const firstName = "Ada"`, kannst du den Wert des letzten Buchstabens des Strings erhalten, indem du `firstName[firstName.length - 1]` verwendest.
 

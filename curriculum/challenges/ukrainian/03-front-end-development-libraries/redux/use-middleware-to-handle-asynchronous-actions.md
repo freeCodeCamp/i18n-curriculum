@@ -8,7 +8,7 @@ dashedName: use-middleware-to-handle-asynchronous-actions
 
 # --description--
 
-До цього моменту ми уникали обговорення асинхронних дій, хоча вони є обов’язковою частиною веброзробки. Рано чи пізно вам прийдеться викликати асинхронні кінцеві точки в застосунку Redux, але як опрацювати всі типи запитів? Redux надає проміжне програмне забезпечення під назвою Redux Thunk. Коротко розглянемо, як використовувати його з Redux.
+So far these challenges have avoided discussing asynchronous actions, but they are an unavoidable part of web development. At some point you'll need to call asynchronous endpoints in your Redux app, so how do you handle these types of requests? Redux provides middleware designed specifically for this purpose, called Redux Thunk middleware. Here's a brief description how to use this with Redux.
 
 Щоб використати Redux Thunk, передайте його як аргумент до `Redux.applyMiddleware()`. Потім цю інструкцію надано як другий додатковий параметр до функції `createStore()`. Погляньте на код внизу редактора, щоб побачити це. Потім, щоб створити асинхронну дію, поверніть функцію в авторі дії, яка приймає `dispatch` як аргумент. У межах цієї функції ви можете відправляти дії та виконувати асинхронні запити.
 

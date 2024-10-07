@@ -8,7 +8,7 @@ dashedName: pass-a-callback-as-props
 
 # --description--
 
-Ви можете передати стан до дочірніх компонентів як пропс, але ви необмежені в передачі даних. Ви також можете передавати функції обробника або будь-який метод, визначений в компоненті React, до дочірнього компонента. Саме таким чином ви дозволяєте дочірнім компонентам взаємодіяти з їхніми батьківськими компонентами. Методи передають до дочірнього компонента так само, як і звичайні пропси. Йому призначено назву, а ви маєте доступ до цієї назви методу під `this.props` в дочірньому компоненті.
+You can pass `state` as props to child components, but you're not limited to passing data. You can also pass handler functions or any method that's defined on a React component to a child component. This is how you allow child components to interact with their parent components. You pass methods to a child just like a regular prop. It's assigned a name and you have access to that method name under `this.props` in the child component.
 
 # --instructions--
 

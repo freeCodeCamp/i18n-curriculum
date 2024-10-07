@@ -7,7 +7,7 @@ dashedName: step-30
 
 # --description--
 
-先ほど追加した画像のアクセシビリティを向上させるために、`alt` 属性に下記テキストを追加してください:
+To improve accessibility of the image you added, add an `alt` attribute with the text:
 
 `Five cats looking around a field.`
 
@@ -19,7 +19,7 @@ dashedName: step-30
 assert(document.querySelectorAll('figure').length === 2);
 ```
 
-`figure` 要素には終了タグが必要です。 終了タグは `<` の直後に `/` があります。
+`figure` 要素には終了タグが必要です。 終了タグは `<` の直後に `/` があるタグです。
 
 ```js
 assert(code.match(/<\/figure>/g).length === 2);

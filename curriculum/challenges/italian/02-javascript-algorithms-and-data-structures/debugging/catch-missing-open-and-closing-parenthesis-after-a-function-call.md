@@ -8,7 +8,7 @@ dashedName: catch-missing-open-and-closing-parenthesis-after-a-function-call
 
 # --description--
 
-Quando una funzione o un metodo non prende alcun argomento, potresti dimenticare di includere le parentesi (vuote) di apertura e chiusura quando la chiami. Spesso il risultato di una chiamata di funzione viene salvato in una variabile per altri utilizzi nel tuo codice. Questo errore può essere rilevato scrivendo sulla console i valori delle variabili (o i loro tipi) e vedendo che uno è impostato su un riferimento a una funzione, invece che sul valore che ci aspettiamo vanga restituito dalla funzione.
+When a function or method doesn't take any arguments, you may forget to include the (empty) opening and closing parentheses when calling it. Often times the result of a function call is saved in a variable for other use in your code. This error can be detected by logging variable values (or their types) to the console and seeing that one is set to a function reference, instead of the expected value the function returns.
 
 Le variabili nell'esempio seguente sono diverse:
 

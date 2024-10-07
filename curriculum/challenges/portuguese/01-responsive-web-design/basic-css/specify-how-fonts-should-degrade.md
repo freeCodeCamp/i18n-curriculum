@@ -9,7 +9,7 @@ dashedName: specify-how-fonts-should-degrade
 
 # --description--
 
-Por padrão, existem várias tipografias disponíveis em todos os navegadores. As tipografias padrão são: `monospace`, `serif` e `sans-serif`.
+There are several default fonts that are available in all browsers. These generic font families include `monospace`, `serif` and `sans-serif`.
 
 Quando uma tipografia não estiver disponível, você pode dizer ao navegador para usar outra tipografia.
 

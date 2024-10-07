@@ -8,7 +8,7 @@ dashedName: optimize-re-renders-with-shouldcomponentupdate
 
 # --description--
 
-ここまでは、新しい `state` または新しい `props` を受け取ったコンポーネントはどれも、自分自身とそのすべての子を再レンダーします。 通常はこの処理で大丈夫です。 しかし React では、子コンポーネントが新しい `state` または `props` を受け取ったときに呼び出すことができるライフサイクルメソッドが用意されていて、コンポーネントを更新する必要があるかどうかを具体的に宣言することができます。 これは `shouldComponentUpdate()` というメソッドで、パラメーターとして `nextProps` と `nextState` を受け取ります。
+So far, if any component receives new `state` or new `props`, it re-renders itself and all its children. This is usually okay. But React provides a lifecycle method you can call when child components receive new `state` or `props`, and declare specifically if the components should update or not. The method is `shouldComponentUpdate()`, and it takes `nextProps` and `nextState` as parameters.
 
 このメソッドはパフォーマンスを最適化する便利な手段です。 たとえばデフォルトの動作では、新しい `props` を受け取ると、たとえその `props` が変更されていなくてもコンポーネントが再レンダーされます。 `shouldComponentUpdate()` を使用して `props` を比較することで、この動作を回避することができます。 メソッドからは、コンポーネントの更新が必要かどうかを React に伝える `boolean` 値を返す必要があります。 現在の props (`this.props`) を次の props (`nextProps`) と比較して、更新する必要があるかどうかを判断し、それに応じて `true` または `false` を返すことができます。
 

@@ -9,7 +9,7 @@ dashedName: inherit-css-variables
 
 # --description--
 
-Wenn du eine Variable erstellst, steht sie innerhalb des Selektors, in dem du sie verwendest, zur Verfügung. Sie ist auch in allen Nachfahren (descendants) dieses Selektors verfügbar. Dies passiert, weil CSS-Variablen wie gewöhnliche Eigenschaften vererbt werden.
+When you create a variable, it is available for you to use inside the selector in which you create it. It also is available in any of that selector's descendants. This happens because CSS variables are inherited, just like ordinary properties.
 
 Um die Vererbung zu nutzen, werden CSS-Variablen oft im <dfn>:root</dfn>-Element definiert.
 

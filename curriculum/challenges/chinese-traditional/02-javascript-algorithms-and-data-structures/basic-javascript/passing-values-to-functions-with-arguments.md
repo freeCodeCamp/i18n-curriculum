@@ -9,7 +9,7 @@ dashedName: passing-values-to-functions-with-arguments
 
 # --description--
 
-函數的參數 （<dfn>parameters</dfn>）在函數調用中充當傳入函數的輸入佔位符（也叫形參）。 函數調用時，參數可以爲一個或多個。 調用函數時輸入（或傳遞 <dfn>"passed"</dfn>）的實際值被稱爲參數（<dfn>arguments</dfn>）。
+<dfn>Parameters</dfn> are variables that act as placeholders for the values that are to be input to a function when it is called. When a function is defined, it is typically defined along with one or more parameters. The actual values that are input (or <dfn>"passed"</dfn>) into a function when it is called are known as <dfn>arguments</dfn>.
 
 這是帶有兩個參數的函數，`param1` 和 `param2`：
 
@@ -23,7 +23,7 @@ function testFun(param1, param2) {
 
 # --instructions--
 
-<ol><li>創建一個名爲 <code>functionWithArgs</code> 的函數，它可以接收兩個參數，計算參數的和，將結果輸出到控制檯。</li><li>自己指定兩個數字作爲參數，運行函數 functionWithArgs。</li></ol>
+<ol><li>Create a function called <code>functionWithArgs</code> that accepts two arguments and outputs their sum to the dev console.</li><li>自己指定兩個數字作爲參數，運行函數 functionWithArgs。</li></ol>
 
 # --hints--
 

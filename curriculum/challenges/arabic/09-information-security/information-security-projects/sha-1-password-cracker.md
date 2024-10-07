@@ -45,7 +45,7 @@ Here are some hashed passwords to test the function with when `use_salts` is set
 
 The `hashlib` library has been imported for you. You should consider using it in your code. <a href="https://docs.python.org/3/library/hashlib.html" target="_blank" rel="noopener noreferrer nofollow">Learn more about "hashlib" here</a>.
 
-## التطوير
+## Development
 
 Write your code in `password_cracker.py`. For development, you can use `main.py` to test your code.
 

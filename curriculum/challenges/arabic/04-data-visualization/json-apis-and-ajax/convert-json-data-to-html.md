@@ -1,6 +1,6 @@
 ---
 id: 587d7fae367417b2b2512be5
-title: Convert JSON Data to HTML
+title: تحويل بيانات JSON إلى HTML
 challengeType: 6
 forumTopicId: 16807
 dashedName: convert-json-data-to-html
@@ -10,9 +10,9 @@ dashedName: convert-json-data-to-html
 
 Now that you're getting data from a JSON API, you can display it in the HTML.
 
-You can use a `forEach` method to loop through the data since the cat photo objects are held in an array. As you get to each item, you can modify the HTML elements.
+يمكنك استخدام طريقة `forEach` لتتنقل على البيانات لأن كائنات صورة القط موجودة في قائمة. عندما تصل إلى كل عنصر، يمكنك تعديل عناصر HTML.
 
-First, declare an html variable with `let html = "";`.
+أولاً، أعلن متغير html باستخدام `let html = "";`.
 
 Then, loop through the JSON, adding HTML to the variable that wraps the key names in `strong` tags, followed by the value. When the loop is finished, you render it.
 

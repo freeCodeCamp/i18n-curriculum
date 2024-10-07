@@ -9,7 +9,7 @@ dashedName: lock-an-element-to-the-browser-window-with-fixed-positioning
 
 # --description--
 
-Наступна схема, яку пропонує CSS - позиція `fixed`, яка є категоричним позиціонуванням, що блокує елемент відносно вікна браузера. Схоже до абсолютного розташування, він використовується властивостями зміщення CSS, а також видаляє елемент із стандартного потоку документів. Інші позиції більше не "реалізуються" там, де вони розташовані, що може вимагати деякого коректування макета в інших місцях.
+The next layout scheme that CSS offers is the `fixed` position, which is a type of absolute positioning that locks an element relative to the browser window. Similar to absolute positioning, it's used with the CSS offset properties and also removes the element from the normal flow of the document. Other items no longer "realize" where it is positioned, which may require some layout adjustments elsewhere.
 
 Одна ключова різниця між позиціями `fixed` та `absolute` - елемент з фіксованою позицією не переміститься при прокрутці.
 

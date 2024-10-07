@@ -8,7 +8,7 @@ dashedName: access-property-names-with-bracket-notation
 
 # --description--
 
-في تحدي الكائن الأول ذكرنا استخدام علامات الأقواس كوسيلة للوصول إلى قيم الخاصية باستخدام تقييم متغير. على سبيل المثال، تخيل أن كائننا `foods` يستخدمه مكنة لتسجيل النقود في محل تجارة. لدينا وظيفة ما و التي تعين `selectedFood` ونحن نريد التحقق من كائن `foods` للتأكد من وجود ذلك الطعام. وقد يبدو ذلك كالتالي:
+In the first object challenge we mentioned the use of bracket notation as a way to access property values using the evaluation of a variable. For instance, imagine that our `foods` object is being used in a program for a supermarket cash register. We have some function that sets the `selectedFood` and we want to check our `foods` object for the presence of that food. This might look like:
 
 ```js
 let selectedFood = getCurrentFood(scannedItem);

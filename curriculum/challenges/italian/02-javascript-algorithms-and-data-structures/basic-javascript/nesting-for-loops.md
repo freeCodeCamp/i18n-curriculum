@@ -9,7 +9,7 @@ dashedName: nesting-for-loops
 
 # --description--
 
-Se disponi di un array multidimensionale, è possibile utilizzare la stessa logica del punto precedente per iterare sia attraverso l'array che attraverso i suoi sottoarray. Ecco un esempio:
+If you have a multi-dimensional array, you can use the same logic as the prior waypoint to loop through both the array and any sub-arrays. Ecco un esempio:
 
 ```js
 const arr = [

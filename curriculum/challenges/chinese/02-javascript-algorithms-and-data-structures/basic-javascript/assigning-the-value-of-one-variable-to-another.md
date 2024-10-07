@@ -8,7 +8,7 @@ dashedName: assigning-the-value-of-one-variable-to-another
 
 # --description--
 
-在使用<dfn>赋值</dfn>运算符赋予变量某个值后，你可以使用<dfn>赋值</dfn>运算符将该变量的值赋给另一个变量。
+After a value is assigned to a variable using the <dfn>assignment</dfn> operator, you can assign the value of that variable to another variable using the <dfn>assignment</dfn> operator.
 
 ```js
 var myVar;

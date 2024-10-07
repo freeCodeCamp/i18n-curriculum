@@ -9,7 +9,7 @@ dashedName: create-texture-by-adding-a-subtle-pattern-as-a-background-image
 
 # --description--
 
-Un modo per dare consistenza e attenzione a uno sfondo e farlo risaltare di più è quello di aggiungere un motivo leggero. La chiave è l'equilibrio, in quanto non si vuole che lo sfondo si distingua troppo, e distragga dal primo piano. La proprietà `background` supporta la funzione `url()` per collegarsi a un'immagine della texture o del motivo scelto. L'indirizzo del link è inserito tra virgolette all'interno delle parentesi.
+One way to add texture and interest to a background and have it stand out more is to add a subtle pattern. The key is balance, as you don't want the background to stand out too much, and take away from the foreground. The `background` property supports the `url()` function in order to link to an image of the chosen texture or pattern. The link address is wrapped in quotes inside the parentheses.
 
 # --instructions--
 

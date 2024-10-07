@@ -11,9 +11,9 @@ dashedName: build-a-tribute-page
 **Objective:** Build an app that is functionally similar to <a href="https://tribute-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://tribute-page.freecodecamp.rocks</a>. **Do not copy this demo project**.
 
 
-**User story:**
+**User story (storia d'utente):**
 
-1. La tua Tribute Page dovrebbe avere un elemento `main` con un corrispondente `id` di `main`, che contiene tutti gli altri elementi
+1. Your tribute page should have a `main` element with a corresponding `id` of `main`, which contains all other elements
 1. Dovresti vedere un elemento con un attributo `id` del valore di `title`, che contiene una stringa (cioè del testo) che descrive il soggetto della pagina tributo (per esempio "Dr. Normal Borlaug")
 1. Dovresti vedere o un elemento `figure` o un elemento `div` con un attributo `id` del valore di `img-div`
 1. Dentro l'elemento `#img-div`, dovresti vedere un elemento `img` con un corrispondente `id="image"`
@@ -23,13 +23,13 @@ dashedName: build-a-tribute-page
 1. Il tuo elemento `#image` dovrebbe usare le proprietà `max-width` e `height` per ridimensionarsi in maniera reattiva, a seconda della larghezza dell'elemento genitore senza eccedere la dimensione originale
 1. Il tuo elemento `img` dovrebbe essere centrato dentro il suo elemento genitore
 
-Soddisfa le user story e passa tutti i test qui sotto per completare questo progetto. Usa il tuo stile personale. Buon divertimento!
+Soddisfa le user story e supera tutti i test qui sotto per completare questo progetto. Usa il tuo stile personale. Buon Coding!
 
-**Nota:** Assicurati di aggiungere `<link rel="stylesheet" href="styles.css">` nel tuo HTML per linkare il tuo foglio di stile e applicare il tuo CSS
+**Nota:** Assicurati di aggiungere `<link rel="stylesheet" href="styles.css">` nell'HTML per linkare il foglio di stile e applicare il CSS
 
 # --hints--
 
-Dovrebbe esserci un elemento `main` con un `id` del valore di `main`.
+Dovrebbe esserci un elemento `main` con un `id` di `main`.
 
 ```js
 const el = document.getElementById('main')
@@ -47,14 +47,14 @@ const el5 = document.querySelector('#main #tribute-link')
 assert(!!el1 & !!el2 && !!el3 && !!el4 && !!el5)
 ```
 
-Dovresti avere un elemento con un attributo `id` del valore di `title`.
+Dovresti avere un elemento con un attributo `id` avente valore di `title`.
 
 ```js
 const el = document.getElementById('title')
 assert(!!el)
 ```
 
-Il tuo elemento `#title` non dovrebbe essere vuoto.
+L'elemento `#title` non dovrebbe essere vuoto.
 
 ```js
 const el = document.getElementById('title')
@@ -62,21 +62,21 @@ assert(!!el && el.innerText.length > 0)
 
 ```
 
-Dovrebbe esserci o un elemento `figure` o un elemento `div` con un attributo `id` del valore di `img-div`.
+Dovrebbe esserci o un elemento `figure` o un elemento `div` con un attributo `id` di `img-div`.
 
 ```js
 const el = document.getElementById('img-div')
 assert(!!el && (el.tagName === 'DIV' || el.tagName === 'FIGURE'))
 ```
 
-Dovrebbe esserci un elemento `img` con un `id` del valore di `image`.
+Dovrebbe esserci un elemento `img` con un `id` di `image`.
 
 ```js
 const el = document.getElementById('image')
 assert(!!el && el.tagName === 'IMG')
 ```
 
-Il tuo elemento `#image` dovrebbe essere un discendente di `#img-div`.
+L'elemento `#image` dovrebbe essere un discendente di `#img-div`.
 
 ```js
 const el = document.querySelector('#img-div #image')
@@ -118,7 +118,7 @@ const el = document.getElementById('tribute-info')
 assert(!!el && el.innerText.length > 0)
 ```
 
-Dovrebbe esserci un elemento `a` con un `id` del valore di `tribute-link`.
+Dovrebbe esserci un elemento `a` con un `id` di `tribute-link`.
 
 ```js
 const el = document.getElementById('tribute-link')

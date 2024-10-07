@@ -8,7 +8,7 @@ dashedName: get-json-with-the-javascript-fetch-method
 
 # --description--
 
-Outra maneira de solicitar dados externos é usar o método `fetch()` do JavaScript. Ele é equivalente ao método `XMLHttpRequest`, mas a sintaxe é considerada mais fácil de entender.
+Another way to request external data is to use the JavaScript `fetch()` method. It is equivalent to `XMLHttpRequest`, but the syntax is considered easier to understand.
 
 Aqui está o código para fazer uma solicitação de GET para `/json/cats.json`
 

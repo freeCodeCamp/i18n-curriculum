@@ -9,7 +9,7 @@ dashedName: wrap-content-in-the-article-element
 
 # --description--
 
-`article` 是另一个具有语义化特性的 HTML5 新标签。 `article` 是一个分段标签，用于呈现独立及完整的内容。 这个标签适用于博客、论坛帖子或者新闻文章。
+`article` is another one of the new HTML5 elements that add semantic meaning to your markup. `article` is a sectioning element and is used to wrap independent, self-contained content. The tag works well with blog entries, forum posts, or news articles.
 
 确定内容是否可以单独作为一部分，通常是个人的判断，但你可以使用几个简单的测试。 如果删除了所有周围的上下文，这个内容是否仍然有意义？ 类似地，对于文本内容，可否把这些内容放到一个 RSS 推送里？
 

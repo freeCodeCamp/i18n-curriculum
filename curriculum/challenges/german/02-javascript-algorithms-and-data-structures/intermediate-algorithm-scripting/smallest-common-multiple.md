@@ -8,7 +8,7 @@ dashedName: smallest-common-multiple
 
 # --description--
 
-Finde das kleinste gemeinsame Vielfache der angegebenen Parameter, die gleichmäßig durch beide geteilt werden können sowie alle Sequenznummern im Bereich zwischen diesen Parametern.
+Find the smallest common multiple of the provided parameters that can be evenly divided by both, as well as by all sequential numbers in the range between these parameters.
 
 Der Bereich wird ein Array von zwei Zahlen sein, die nicht unbedingt in numerischer Reihenfolge sind.
 

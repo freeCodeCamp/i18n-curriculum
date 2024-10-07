@@ -8,7 +8,7 @@ dashedName: add-a-tooltip-to-a-d3-element
 
 # --description--
 
-يظهر أداة لتلميح (tooltip) المزيد من معلومات العنصر في صفحة عندما ينتقل المستخدم فوق (hovers) هذا العنصر. There are several ways to add a tooltip to a visualization. This challenge uses the SVG `title` element.
+A tooltip shows more information about an item on a page when the user hovers over that item. There are several ways to add a tooltip to a visualization. This challenge uses the SVG `title` element.
 
 يرافق `title` الطريقة (method) المسمى `text()` لإضافة البيانات بشكل ديناميكي إلى الأعمدة (bars).
 

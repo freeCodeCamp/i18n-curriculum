@@ -8,7 +8,7 @@ dashedName: bind-this-to-a-class-method
 
 # --description--
 
-بالإضافة إلى إعداد وتحديث `state`، يمكنك أيضًا تحديد طرق (methods) لفئة مكوناتك (component class). عادة ما تحتاج طريقة الفئة (class method) إلى استخدام مصطلح `this` حتى تتمكن من الوصول إلى الخصائص في الفئة (class) (مثل `state` و `props`) داخل نطاق الطريقة (method). هناك بعض الطرق للسماح لطرقية الفئة الخاص بك بالوصول إلى `this`.
+In addition to setting and updating `state`, you can also define methods for your component class. A class method typically needs to use the `this` keyword so it can access properties on the class (such as `state` and `props`) inside the scope of the method. There are a few ways to allow your class methods to access `this`.
 
 إحدى الطرق الشائعة هي ربط `this` صراحة في الإنشاء لذلك يصبح `this` مرتبطاً بأساليب الفئة (class method) عندما يتم تهيئة المكون. ربما لاحظت التحدي الأخير المستخدم `this.handleClick = this.handleClick.bind(this)` لطريقة `handleClick` في البناء. بعد ذلك، عندما تتصل بالوظيفة (function) مثل `this.setState()` ضمن طريقتك لفئة (class method)، يشير `this` إلى الفئة (class) ولن يكون `undefined`.
 

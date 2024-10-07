@@ -8,7 +8,7 @@ dashedName: find-the-longest-word-in-a-string
 
 # --description--
 
-Поверніть довжину найдовшого слова у даному реченні.
+Return the length of the longest word in the provided sentence.
 
 Ваша відповідь повинна бути числом.
 

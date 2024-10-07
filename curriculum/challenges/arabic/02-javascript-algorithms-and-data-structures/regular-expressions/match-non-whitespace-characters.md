@@ -8,7 +8,7 @@ dashedName: match-non-whitespace-characters
 
 # --description--
 
-لقد تعلمت البحث عن الـ whitespace باستخدام `\s`، وهو حرف `s` صغير بمعني lowercase. يمكنك أيضًا البحث عن كل شيء باستثناء الـ whitespace.
+You learned about searching for whitespace using `\s`, with a lowercase `s`. You can also search for everything except whitespace.
 
 البحث عن whitespace باستخدام `\S`، وهو نسخة الحرف الكبير من الـ `s`. لن يتطابق هذا النمط الـ whitespace، و الـ carriage return و tab و form feed و new line. يمكنك أن تفكر فيها مثل مجموعة الرموز الآتية `[^ \r\t\f\n\v]`.
 

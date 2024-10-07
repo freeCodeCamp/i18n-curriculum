@@ -1,6 +1,6 @@
 ---
 id: 587d7b8f367417b2b2512b61
-title: Use the map Method to Extract Data from an Array
+title: 배열에서 데이터를 얻기 위해 map 메소드 사용하기
 challengeType: 1
 forumTopicId: 18214
 dashedName: use-the-map-method-to-extract-data-from-an-array
@@ -10,17 +10,17 @@ dashedName: use-the-map-method-to-extract-data-from-an-array
 
 So far we have learned to use pure functions to avoid side effects in a program. Also, we have seen the value in having a function only depend on its input arguments.
 
-This is only the beginning. As its name suggests, functional programming is centered around a theory of functions.
+이는 단지 시작일 뿐입니다. 이 이름이 말해주듯이 함수형 프로그래밍은 함수의 이론을 중심으로 합니다.
 
-It would make sense to be able to pass them as arguments to other functions, and return a function from another function. Functions are considered <dfn>first class objects</dfn> in JavaScript, which means they can be used like any other object. They can be saved in variables, stored in an object, or passed as function arguments.
+그것들을 다른 함수에 인수로 전달하고, 다른 함수에서 함수를 반환할 수 있는 것이 합리적일 것입니다. 함수는 자바스크립트에서 <dfn>1급 객체</dfn>로 간주되는데 이는 함수들이 다른 객체처럼 사용될 수 있다는 것을 의미합니다. 함수들은 변수, 객체에 저장되거나 함수의 인자로 전달될 수 있습니다.
 
-Let's start with some simple array functions, which are methods on the array object prototype. In this exercise we are looking at `Array.prototype.map()`, or more simply `map`.
+배열 객체 프로토타입의 메소드인 간단한 배열 함수로 시작해보겠습니다. 이 연습에서는 `Array.prototype.map()` 혹은 간단히 `map`이라고 불리는 메소드를 살펴보겠습니다.
 
-The `map` method iterates over each item in an array and returns a new array containing the results of calling the callback function on each element. It does this without mutating the original array.
+`map` 메소드는 배열의 각 아이템을 순회하고 각 요소에 콜백 함수를 호출하여 얻은 결과를 담은 새로운 배열을 반환합니다. 이 메소드는 본래 배열을 변형시키지 않고 이 작업을 수행합니다.
 
-When the callback is used, it is passed three arguments. The first argument is the current element being processed. The second is the index of that element and the third is the array upon which the `map` method was called.
+콜백이 사용되면 세 개의 인자가 전달됩니다. 첫번째 인자는 처리되는 현재 요소입니다. 두번째는 해당 요소의 인덱스이며 세번째는 `map` 메소드가 호출되는 배열입니다.
 
-See below for an example using the `map` method on the `users` array to return a new array containing only the names of the users as elements. For simplicity, the example only uses the first argument of the callback.
+사용자의 이름만 담은 새로운 배열을 반환하기 위해 `users` 배열에 `map` 메소드를 사용하는 아래 예시를 보겠습니다. 간단하게 설명하기 위해 예시는 콜백의 첫번째 인자만 사용합니다.
 
 ```js
 const users = [
@@ -33,15 +33,15 @@ const names = users.map(user => user.name);
 console.log(names);
 ```
 
-The console would display the value `[ 'John', 'Amy', 'camperCat' ]`.
+콘솔은 `[ 'John', 'Amy', 'camperCat' ]` 값을 출력할 것입니다.
 
 # --instructions--
 
-The `watchList` array holds objects with information on several movies. Use `map` on `watchList` to assign a new array of objects to the `ratings` variable. Each movie in the new array should have only a `title` key with the name of the film, and a `rating` key with the IMDB rating. The code in the editor currently uses a `for` loop to do this, so you should replace the loop functionality with your `map` expression.
+`watchList` 배열은 여러 영화에 관한 정보를 담은 객체를 가지고 있습니다. 새로운 객체의 배열을 `ratings` 변수로 할당하기 위해 `watchList`에 `map`를 사용하시오. 새로운 배열의 각 영화는 영화의 이름을 갖는 `title` 키와 IMDB 평점을 가진 `rating` 키만 가져야 합니다. 편집기의 코드는 이를 위해 현재 `for` 루프를 사용하기 때문에 루프를 `map` 표현으로 대체해야 합니다.
 
 # --hints--
 
-The `watchList` variable should not change.
+`watchList` 변수는 변하지 않아야 합니다.
 
 ```js
 assert(
@@ -49,19 +49,19 @@ assert(
 );
 ```
 
-Your code should not use a `for` loop.
+`for` 루프를 사용하지 않아야 합니다.
 
 ```js
 assert(!__helpers.removeJSComments(code).match(/for\s*?\([\s\S]*?\)/));
 ```
 
-Your code should use the `map` method.
+`map` 메소드를 사용해야 합니다.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/\.map/g));
 ```
 
-`ratings` should equal `[{"title": "Inception", "rating": "8.8"}, {"title": "Interstellar", "rating": "8.6"}, {"title": "The Dark Knight", "rating": "9.0"},{"title": "Batman Begins", "rating": "8.3"}, {"title": "Avatar", "rating": "7.9"}]`.
+`ratings`은 `[{"title": "Inception", "rating": "8.8"}, {"title": "Interstellar", "rating": "8.6"}, {"title": "The Dark Knight", "rating": "9.0"},{"title": "Batman Begins", "rating": "8.3"}, {"title": "Avatar", "rating": "7.9"}]`이어야 합니다.
 
 ```js
 assert.deepEqual(ratings, [

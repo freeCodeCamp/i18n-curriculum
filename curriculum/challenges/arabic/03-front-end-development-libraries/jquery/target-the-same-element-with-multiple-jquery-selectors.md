@@ -11,7 +11,7 @@ dashedName: target-the-same-element-with-multiple-jquery-selectors
 
 # --description--
 
-الآن أنت تعرف ثلاث طرق لاستهداف العناصر: حسب النوع: `$("button")`، حسب الفئة: `$(".btn")`، والمعرف `$("#target1")`.
+Now you know three ways of targeting elements: by type: `$("button")`, by class: `$(".btn")`, and by id `$("#target1")`.
 
 مع أنّه من الممكن إضافة فئات متعددة في وظيفة `.addClass()`، ضيفها إلى نفس العنصر في *ثلاث طرق مختلفة*.
 

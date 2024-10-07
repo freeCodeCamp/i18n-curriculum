@@ -8,9 +8,9 @@ dashedName: hailstone-sequence
 
 # --description--
 
-The Hailstone sequence of numbers can be generated from a starting positive integer, `n` by:
+Die Hailstone-Zahlenfolge lässt sich aus einer positiven Ausgangszahl, `n`, wie folgt erzeugen:
 
-- If `n` is `1` then the sequence ends
+- Wenn `n` `1` ist, endet die Sequenz
 - Wenn `n` `even` ist, dann das nächste `n` der Folge `= n/2`
 - Wenn `n` `odd` ist, dann das nächste `n` der Folge `= (3 * n) + 1`
 
@@ -20,7 +20,7 @@ Die Hagelkornfolge wird auch als Hagelkornzahlen (weil die Werte in der Regel me
 
 # --instructions--
 
-1. Create a routine to generate the hailstone sequence for a number
+1. Erstellen einer Routine zur Erzeugung der Hagelkörnerfolge für eine Zahl
 2. Deine Funktion sollte eine Anordnung mit der Zahl kleiner als `limit` zurückgeben, das die längste Hagelkörnersequenz und die Länge dieser Sequenz enthält. (Zeige aber nicht die eigentliche Sequenz!)
 
 # --hints--

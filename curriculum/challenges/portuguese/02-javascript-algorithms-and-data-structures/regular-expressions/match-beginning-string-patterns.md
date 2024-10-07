@@ -8,7 +8,7 @@ dashedName: match-beginning-string-patterns
 
 # --description--
 
-Desafios anteriores mostraram que expressões regulares podem ser usadas para capturar um número de resultados. Elas também podem ser usadas para procurar em posições específicas de strings.
+Prior challenges showed that regular expressions can be used to look for a number of matches. They are also used to search for patterns in specific positions in strings.
 
 Mais cedo você usou o circunflexo (`^`) em classes de caracteres para procurar caracteres que não devem ser capturados, como em `[^caracteresQueNãoQueremos]`. Quando usados fora de classes de caracteres, o circunflexo serve para buscar a partir do começo de strings.
 
@@ -34,7 +34,7 @@ A regex deve buscar a string `Cal` com uma maiúscula.
 assert(calRegex.source == '^Cal');
 ```
 
-A regex não deve usar nenhuma flag.
+Sua regex não deve usar nenhuma flag.
 
 ```js
 assert(calRegex.flags == '');

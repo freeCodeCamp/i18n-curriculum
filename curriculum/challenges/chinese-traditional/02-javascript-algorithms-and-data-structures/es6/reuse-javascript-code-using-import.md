@@ -8,7 +8,7 @@ dashedName: reuse-javascript-code-using-import
 
 # --description--
 
-`import` 可以導入文件或模塊的一部分。 在之前的課程裏，例子從 `math_functions.js` 文件裏導出了 `add`。 下面看一下如何在其它文件導入它：
+`import` allows you to choose which parts of a file or module to load. In the previous lesson, the examples exported `add` from the `math_functions.js` file. Here's how you can import it to use in another file:
 
 ```js
 import { add } from './math_functions.js';

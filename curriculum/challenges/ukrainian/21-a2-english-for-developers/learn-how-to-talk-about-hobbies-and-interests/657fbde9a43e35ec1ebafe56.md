@@ -15,7 +15,7 @@ dashedName: task-75
 
 ## --text--
 
-What does the phrase `Would you like to come?` convey in this context?
+Що означає фраза `Would you like to come?` в цьому контексті?
 
 ## --answers--
 

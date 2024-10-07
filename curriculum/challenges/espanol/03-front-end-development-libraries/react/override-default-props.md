@@ -8,7 +8,7 @@ dashedName: override-default-props
 
 # --description--
 
-La capacidad de establecer valores por defecto para las props es una característica útil en React. La manera de reemplazar las props predeterminadas es establecer explícitamente los valores de las props para un componente.
+The ability to set default props is a useful feature in React. The way to override the default props is to explicitly set the prop values for a component.
 
 # --instructions--
 

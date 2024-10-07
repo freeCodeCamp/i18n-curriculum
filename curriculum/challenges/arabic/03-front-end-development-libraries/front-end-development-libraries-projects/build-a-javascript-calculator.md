@@ -49,7 +49,7 @@ You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and
 
 **EXAMPLE:** `3 + 5 x 6 - 2 / 4 =`
 
--   **منطق التنفيذ الفوري:** `11.5`
+-   **Immediate Execution Logic:** `11.5`
 -   **الصيغة/منطق التعبير:** `32.5`
 
 You can build your project by <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">using this CodePen template</a> and clicking `Save` to create your own pen. Or you can use this CDN link to run the tests in any environment you like: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`

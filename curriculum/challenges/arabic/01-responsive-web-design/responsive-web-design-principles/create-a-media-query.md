@@ -1,6 +1,6 @@
 ---
 id: 587d78b0367417b2b2512b08
-title: Create a Media Query
+title: إنشاء Media Query
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pzrPu4/cqwKrtm'
 forumTopicId: 301139
@@ -11,43 +11,43 @@ dashedName: create-a-media-query
 
 Media Queries are a new technique introduced in CSS3 that change the presentation of content based on different viewport sizes. The viewport is a user's visible area of a web page, and is different depending on the device used to access the site.
 
-Media Queries consist of a media type, and if that media type matches the type of device the document is displayed on, the styles are applied. You can have as many selectors and styles inside your media query as you want.
+Media Queries تتكون من نوع ال media، وإذا كان نوع ال media هذا يطابق نوع الجهاز الذي يتم عرض المستند فيه، يتم تطبيق الأنماط. يمكن أن يكون لديك العديد من المحددات والأنماط داخل استعلام الوسائط الخاص بك كما تريد.
 
-Here's an example of a media query that returns the content when the device's width is less than or equal to `100px`:
+هنا مثال ل media query الذي يعيد المحتوى عندما يكون عرض الجهاز أقل من أو يساوي `100px`:
 
 ```css
 @media (max-width: 100px) { /* CSS Rules */ }
 ```
 
-and the following media query returns the content when the device's height is more than or equal to `350px`:
+وال media query التالي يرجع المحتوى عندما يكون ارتفاع الجهاز أكثر من أو يساوي `350px`:
 
 ```css
 @media (min-height: 350px) { /* CSS Rules */ }
 ```
 
-Remember, the CSS inside the media query is applied only if the media type matches that of the device being used.
+تذكر، يتم تطبيق CSS داخل media query فقط إذا كان نوع ال media يطابق نوع الجهاز المستخدم.
 
 # --instructions--
 
-Add a media query, so that the `p` tag has a `font-size` of `10px` when the device's height is less than or equal to `800px`.
+إضافة media query، بحيث أن علامة `p` تحتوي على `font-size` يساوي `10px` عندما يكون ارتفاع الجهاز أقل من أو يساوي `800px`.
 
 # --hints--
 
-You should declare a `@media` query for devices with a `height` less than or equal to `800px`.
+يجب عليك تعريف `@media` عن الأجهزة ذات `height` أقل من أو يساوي `800px`.
 
 ```js
 const media = new __helpers.CSSHelp(document).getCSSRules('media');
 assert(media.some(x => x.media?.mediaText?.includes('(max-height: 800px)')));
 ```
 
-Your `p` element should have a `font-size` of `10px` when the device `height` is less than or equal to `800px`.
+يجب أن يكون عنصر `p` الخاص بك `font-size` من `10px` عندما يكون `height` أكثر من `800px`.
 
 ```js
 const rules = new __helpers.CSSHelp(document).getRuleListsWithinMedia('(max-height: 800px)');
 assert(rules?.find(x => x.selectorText === 'p')?.style?.fontSize === "10px");
 ```
 
-Your `p` element should have an initial `font-size` of `20px` when the device `height` is more than `800px`.
+يجب أن يكون عنصر `p` الخاص بك `font-size` من `20px` عندما يكون `height` أكثر من `800px`.
 
 ```js
 const ifPFirst = new __helpers.CSSHelp(document).getCSSRules()?.find(x => x?.selectorText === 'p' || x?.media);

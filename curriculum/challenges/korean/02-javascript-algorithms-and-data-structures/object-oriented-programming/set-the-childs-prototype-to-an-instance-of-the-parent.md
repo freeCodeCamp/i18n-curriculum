@@ -8,7 +8,7 @@ dashedName: set-the-childs-prototype-to-an-instance-of-the-parent
 
 # --description--
 
-이전 과제에서는 상위 타입(또는 부모) `Animal`로부터 동작을 상속받는 첫 번째 단계인 `Animal`의 새 인스턴스를 만드는 방법을 보았습니다.
+In the previous challenge you saw the first step for inheriting behavior from the supertype (or parent) `Animal`: making a new instance of `Animal`.
 
 이번 과제는 이 다음 단계에 대한 것입니다: 하위(혹은 자식)의 `prototype`인 `Bird`를 `Animal`의 인스턴스로 설정합니다.
 

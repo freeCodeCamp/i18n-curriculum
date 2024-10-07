@@ -8,7 +8,7 @@ dashedName: create-a-linear-scale-with-d3
 
 # --description--
 
-Стовпчикові та точкові діаграми наносять дані прямо на SVG. Однак, якщо висота стовпчика або однієї з точок даних більша за значення висоти або ширини SVG, то елемент виходив би за межі площини SVG.
+The bar and scatter plot charts both plotted data directly onto the SVG. However, if the height of a bar or one of the data points were larger than the SVG height or width values, it would go outside the SVG area.
 
 У D3 існують шкали, які допомагають накреслити дані. Шкали (`scales`) — це функції, які вказують програмі, як саме потрібно зіставити пікселі SVG із набором необроблених точок даних.
 

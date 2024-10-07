@@ -9,7 +9,7 @@ dashedName: use-the-flex-shrink-property-to-shrink-items
 
 # --description--
 
-Finora, tutte le proprietà nelle sfide si applicano al contenitore flex (il genitore degli elementi flex). Tuttavia, ci sono diverse proprietà utili per gli elementi flex.
+So far, all the properties in the challenges apply to the flex container (the parent of the flex items). However, there are several useful properties for the flex items.
 
 La prima è la proprietà `flex-shrink`. Quando viene usata, permette ad un oggetto di rimpicciolirsi se il contenitore flex è troppo piccolo. Gli oggetti si restringono quando la larghezza del contenitore genitore è minore delle larghezze combinate di tutti gli elementi flex al suo interno.
 

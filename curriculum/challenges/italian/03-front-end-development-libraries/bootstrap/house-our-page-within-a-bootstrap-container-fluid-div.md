@@ -8,7 +8,7 @@ dashedName: house-our-page-within-a-bootstrap-container-fluid-div
 
 # --description--
 
-Ora assicuriamoci che tutti i contenuti sulla tua pagina siano responsivi sui dispositivi mobili.
+Now let's make sure all the content on your page is mobile-responsive.
 
 Nidifichiamo l'elemento `h3` all'interno di un elemento `div` di classe `container-fluid`.
 

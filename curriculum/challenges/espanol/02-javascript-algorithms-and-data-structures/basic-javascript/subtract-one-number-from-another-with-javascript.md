@@ -9,7 +9,7 @@ dashedName: subtract-one-number-from-another-with-javascript
 
 # --description--
 
-También podemos restar un número de otro.
+We can also subtract one number from another.
 
 JavaScript utiliza el símbolo `-` para restar.
 

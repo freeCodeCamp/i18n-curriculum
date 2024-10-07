@@ -9,7 +9,7 @@ dashedName: place-items-in-grid-areas-using-the-grid-area-property
 
 # --description--
 
-像上一個挑戰那樣，在爲網格添加區域模板後，可以通過引用你所定義的區域的名稱，將元素放入相應的區域。 爲此，你需要對網格項使用 `grid-area`：
+After creating an area template for your grid container, as shown in the previous challenge, you can place an item in your custom area by referencing the name you gave it. To do this, you use the `grid-area` property on an item like this:
 
 ```css
 .item1 {

@@ -8,7 +8,7 @@ dashedName: set-the-childs-prototype-to-an-instance-of-the-parent
 
 # --description--
 
-前回のチャレンジでは、スーパータイプ (親) `Animal` から動作を継承するための最初のステップとして、`Animal` の新しいインスタンスを作成しました。
+In the previous challenge you saw the first step for inheriting behavior from the supertype (or parent) `Animal`: making a new instance of `Animal`.
 
 このチャレンジでは次のステップを説明します。ここでは、サブタイプ (子、この例では `Bird`) の `prototype` に `Animal` のインスタンスを設定します。
 

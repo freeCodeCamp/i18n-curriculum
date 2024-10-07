@@ -8,26 +8,26 @@ dashedName: issue-tracker
 
 # --description--
 
-Costruisci un'app JavaScript full-stack che sia funzionalmente simile a questa: <a href="https://issue-tracker.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://issue-tracker.freecodecamp.rocks/</a>. Lavorare su questo progetto ti porterà a scrivere il tuo codice utilizzando uno dei seguenti metodi:
+Build a full stack JavaScript app that is functionally similar to this: <a href="https://issue-tracker.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://issue-tracker.freecodecamp.rocks/</a>. Working on this project will involve you writing your code using one of the following methods:
 
--   Clonare <a href="https://github.com/freeCodeCamp/boilerplate-project-issuetracker/" target="_blank" rel="noopener noreferrer nofollow">questo repository GitHub</a> e completare il tuo progetto localmente.
+-   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-issuetracker/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
 -   Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-issuetracker/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete your project.
--   Usare un costruttore di siti a tua scelta per completare il progetto. Assicurati di incorporare tutti i file del nostro repository GitHub.
+-   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
 
 # --instructions--
 
--   Completa le rotte necessarie in `/routes/api.js`
+-   Complete the necessary routes in `/routes/api.js`
 -   Crea tutti i test funzionali in `tests/2_functional-tests.js`
 -   Copia il file `sample.env` su `.env` e imposta le variabili in modo appropriato
 -   To run the tests automatically, add `NODE_ENV=test` in your `.env` file
 -   To run the tests in the console, use the command `npm run test`
 
-Scrivi i seguenti test in `tests/2_functional-tests.js`:
+Write the following tests in `tests/2_functional-tests.js`:
 
--   Crea un issue con ogni campo: richiesta POST a `/api/issues/{project}`
--   Crea un issue con soli campi obbligatori: richiesta POST a `/api/issues/{project}`
--   Crea un issue con i campi obbligatori mancanti: richiesta POST a `/api/issues/{project}`
--   Visualizza gli issue di un progetto: richiesta GET a `/api/issues/{project}`
+-   Create an issue with every field: POST request to `/api/issues/{project}`
+-   Crea un'issue con soli campi obbligatori: richiesta POST a `/api/issues/{project}`
+-   Crea un'issue con i campi obbligatori mancanti: richiesta POST a `/api/issues/{project}`
+-   Visualizza i gli issue di un progetto: richiesta GET a `/api/issues/{project}`
 -   Visualizza gli issue di un progetto con un filtro: richiesta GET a `/api/issues/{project}`
 -   Visualizza gli issue di un progetto con più filtri: richiesta GET a `/api/issues/{project}`
 -   Aggiorna un campo in un issue: richiesta PUT a `/api/issues/{project}`
@@ -49,7 +49,7 @@ Scrivi i seguenti test in `tests/2_functional-tests.js`:
 };
 ```
 
-Puoi inviare una richiesta `POST` a `/api/issues/{projectname}` con i dati del modulo contenenti i campi obbligatori `issue_title`, `issue_text`, `created_by`, e opzionalmente `assigned_to` e `status_text`.
+You can send a `POST` request to `/api/issues/{projectname}` with form data containing the required fields `issue_title`, `issue_text`, `created_by`, and optionally `assigned_to` and `status_text`.
 
 ```js
 async (getUserInput) => {
@@ -71,7 +71,7 @@ async (getUserInput) => {
 };
 ```
 
-La richiesta `POST` a `/api/issues/{projectname}` restituirà l'oggetto creato, e deve includere tutti i campi inviati. I campi opzionali esclusi saranno restituiti come stringhe vuote. Inoltre, includi `created_on` (data/ora), `updated_on` (data/ora), `open` (booleano, `true` per open - valore predefinito, `false` per chiuso), e `_id`.
+The `POST` request to `/api/issues/{projectname}` will return the created object, and must include all of the submitted fields. Excluded optional fields will be returned as empty strings. Additionally, include `created_on` (date/time), `updated_on` (date/time), `open` (boolean, `true` for open - default value, `false` for closed), and `_id`.
 
 ```js
 async (getUserInput) => {
@@ -105,7 +105,7 @@ async (getUserInput) => {
 };
 ```
 
-Se invii una richiesta `POST` a `/api/issues/{projectname}` senza i campi richiesti, deve essere restituito un errore `{ error: 'required field(s) missing' }`
+If you send a `POST` request to `/api/issues/{projectname}` without the required fields, returned will be the error `{ error: 'required field(s) missing' }`
 
 ```js
 async (getUserInput) => {
@@ -123,7 +123,7 @@ async (getUserInput) => {
 };
 ```
 
-È possibile inviare una richiesta `GET` a `/api/issues/{projectname}` per un array di tutti gli issue per quel specifico `projectname`, con tutti i campi presenti per ogni issue.
+You can send a `GET` request to `/api/issues/{projectname}` for an array of all issues for that specific `projectname`, with all the fields present for each issue.
 
 ```js
 async (getUserInput) => {
@@ -170,7 +170,7 @@ async (getUserInput) => {
 };
 ```
 
-Puoi inviare una richiesta `GET` a `/api/issues/{projectname}` e filtrare la richiesta passando anche qualsiasi campo e valore come una query di URL (es. `/api/issues/{project}?open=false`). È possibile passare una o più coppie di campo/valore contemporaneamente.
+You can send a `GET` request to `/api/issues/{projectname}` and filter the request by also passing along any field and value as a URL query (ie. `/api/issues/{project}?open=false`). You can pass one or more field/value pairs at once.
 
 ```js
 async (getUserInput) => {
@@ -216,7 +216,7 @@ async (getUserInput) => {
 };
 ```
 
-Puoi inviare una richiesta `PUT` a `/api/issues/{projectname}` con un `_id` e uno o più campi da aggiornare. Al successo, il campo `updated_on` dovrebbe essere aggiornato e dovrebbe essere restituito `{  result: 'successfully updated', '_id': _id }`.
+You can send a `PUT` request to `/api/issues/{projectname}` with an `_id` and one or more fields to update. On success, the `updated_on` field should be updated, and returned should be `{  result: 'successfully updated', '_id': _id }`.
 
 ```js
 async (getUserInput) => {
@@ -251,7 +251,7 @@ async (getUserInput) => {
 };
 ```
 
-Quando la richiesta `PUT` inviata a `/api/issues/{projectname}` non include un `_id`, deve essere restituito `{ error: 'missing _id' }`.
+When the `PUT` request sent to `/api/issues/{projectname}` does not include an `_id`, the return value is `{ error: 'missing _id' }`.
 
 ```js
 async (getUserInput) => {
@@ -267,7 +267,7 @@ async (getUserInput) => {
 };
 ```
 
-Quando la richiesta `PUT` inviata a `/api/issues/{projectname}` non include campi da aggiornare, deve essere restituito `{ error: 'no update field(s) sent', '_id': _id }`. Su qualsiasi altro errore, il valore restituito deve essere `{ error: 'could not update', '_id': _id }`.
+When the `PUT` request sent to `/api/issues/{projectname}` does not include update fields, the return value is `{ error: 'no update field(s) sent', '_id': _id }`. On any other error, the return value is `{ error: 'could not update', '_id': _id }`.
 
 ```js
 async (getUserInput) => {
@@ -297,7 +297,7 @@ async (getUserInput) => {
 };
 ```
 
-Puoi inviare una richiesta `DELETE` a `/api/issues/{projectname}` con un `_id` per eliminare un issue. Se non viene inviato un `_id`, deve essere restituito `{ error: 'missing _id' }`. Al successo, deve essere restituito `{ result: 'successfully deleted', '_id': _id }`. Al fallimento, il valore restituito deve essere `{ error: 'could not delete', '_id': _id }`.
+You can send a `DELETE` request to `/api/issues/{projectname}` with an `_id` to delete an issue. If no `_id` is sent, the return value is `{ error: 'missing _id' }`. On success, the return value is `{ result: 'successfully deleted', '_id': _id }`. On failure, the return value is `{ error: 'could not delete', '_id': _id }`.
 
 ```js
 async (getUserInput) => {
@@ -339,7 +339,7 @@ async (getUserInput) => {
 };
 ```
 
-Tutti i 14 test funzionali richiesti sono completi e superati.
+All 14 functional tests are complete and passing.
 
 ```js
 async (getUserInput) => {

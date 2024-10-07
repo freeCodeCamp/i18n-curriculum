@@ -9,7 +9,7 @@ dashedName: manipulate-arrays-with-push
 
 # --description--
 
-一個將數據添加到數組末尾的簡單方式是使用 `push()` 方法。
+An easy way to append data to the end of an array is via the `push()` method.
 
 `push()` 方法需要一個或多個 <dfn>參數</dfn> 並將它們根據出現順序追加到數組的末尾。 它返回數組的新長度。
 

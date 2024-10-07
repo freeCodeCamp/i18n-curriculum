@@ -8,7 +8,7 @@ dashedName: label-bootstrap-buttons
 
 # --description--
 
-Кнопки потрібно позначати так само, як і стіни.
+Just like we labeled our wells, we want to label our buttons.
 
 Надайте кожному елементу `button` текст, який відповідає його селектору id.
 

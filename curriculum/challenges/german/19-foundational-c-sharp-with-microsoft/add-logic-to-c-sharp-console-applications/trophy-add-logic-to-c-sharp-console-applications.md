@@ -8,6 +8,6 @@ msTrophyId: learn.wwl.get-started-c-sharp-part-3.trophy
 
 # --description--
 
-Nachdem du nun alle Aufgaben zum "Hinzufügen von Logik zu C#-Konsolenanwendungen" gelöst hast, solltest du dir die Trophäe dafür auf der Microsoft Learn-Plattform verdient haben. If you don't see this trophy when viewing <a href="https://learn.microsoft.com/users/me/achievements#trophies-section" target="_blank" rel="noreferrer">your achievements page</a>, you have not completed all the tasks and your trophy cannot be verified.
+Nachdem du nun alle Aufgaben zum "Hinzufügen von Logik zu C#-Konsolenanwendungen" gelöst hast, solltest du dir die Trophäe dafür auf der Microsoft Learn-Plattform verdient haben. Wenn du diese Trophäe nicht siehst, wenn du die <a href="https://learn.microsoft.com/users/me/achievements#trophies-section" target="_blank" rel="noreferrer">Seite mit deinen Leistungen anschaust</a>, hast du nicht alle Aufgaben erfüllt und deine Trophäe kann nicht verifiziert werden.
 
-Verknüpfe deinen Microsoft-Benutzernamen mit deine freeCodeCamp-Konto und klicke auf den "Trophäe verifizieren"-Button unten, um die Aufgabe zu vervollständigen. Diese Trophäe ist **erforderlich**, um sich für die Zertifizierungsprüfung zu qualifizieren.
+Verbinde deinen Microsoft-Benutzernamen mit deinem freeCodeCamp-Konto und klicke unten auf die Schaltfläche "Trophäe verifizieren", um die Aufgabe abzuschließen. Diese Trophäe ist **erforderlich**, um sich für die Zertifizierungsprüfung zu qualifizieren.

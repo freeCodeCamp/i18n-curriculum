@@ -9,7 +9,7 @@ dashedName: manipulate-arrays-with-pop
 
 # --description--
 
-Outra forma de alterar os dados em um array é com a função `.pop()`.
+Another way to change the data in an array is with the `.pop()` function.
 
 `.pop()` é usado para remover um valor do final do array. Nós podemos armazenar esse valor removido atribuindo-o a uma variável. Em outras palavras, `.pop()` remove o último elemento de um array e retorna aquele elemento.
 

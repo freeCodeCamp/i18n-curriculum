@@ -9,7 +9,7 @@ dashedName: return-a-value-from-a-function-with-return
 
 # --description--
 
-يمكننا نقل القيم إلى وظيفة باستخدام <dfn>معطيات (arguments)</dfn>. يمكنك استخدام تعبير `return` للحصول على قيمة من وظيفة (function).
+We can pass values into a function with <dfn>arguments</dfn>. You can use a `return` statement to send a value back out of a function.
 
 **مثال**
 

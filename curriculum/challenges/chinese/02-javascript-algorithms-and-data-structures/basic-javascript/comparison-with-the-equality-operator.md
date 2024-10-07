@@ -9,7 +9,7 @@ dashedName: comparison-with-the-equality-operator
 
 # --description--
 
-在 JavaScript 中，有很多 <dfn>相互比较的操作</dfn>。 所有这些操作符都返回一个 `true` 或 `false` 值。
+There are many <dfn>comparison operators</dfn> in JavaScript. All of these operators return a boolean `true` or `false` value.
 
 最基本的运算符是相等运算符：`==`。 相等运算符比较两个值，如果它们是相等，返回 `true`，如果它们不相等，返回 `false`。 值得注意的是相等运算符不同于赋值运算符（`=`），赋值运算符是把等号右边的值赋给左边的变量。
 

@@ -9,7 +9,7 @@ dashedName: use-bracket-notation-to-find-the-nth-character-in-a-string
 
 # --description--
 
-يمكنك أيضًا استخدام <dfn> علامات الأقواس</dfn> للحصول على حرف في مواقع أخرى داخل مقطع.
+You can also use <dfn>bracket notation</dfn> to get the character at other positions within a string.
 
 تذكر أن أجهزة الكمبيوتر تبدأ في العد من `0`، لذا فإن الحرف الأول هو في الواقع الحرف الصفر.
 

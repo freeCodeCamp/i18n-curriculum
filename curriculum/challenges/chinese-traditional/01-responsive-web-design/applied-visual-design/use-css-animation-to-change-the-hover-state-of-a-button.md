@@ -9,7 +9,7 @@ dashedName: use-css-animation-to-change-the-hover-state-of-a-button
 
 # --description--
 
-你可以在按鈕懸停時使用 `@keyframes` 改變按鈕的顏色。
+You can use CSS `@keyframes` to change the color of a button in its hover state.
 
 下面是在圖片懸停時改變圖片寬度的例子：
 

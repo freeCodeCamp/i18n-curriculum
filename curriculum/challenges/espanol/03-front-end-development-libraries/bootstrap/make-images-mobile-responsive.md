@@ -8,9 +8,9 @@ dashedName: make-images-mobile-responsive
 
 # --description--
 
-Primero, agrega una nueva imagen debajo de la existente. Establece su atributo `src` a `https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg`.
+First, add a new image below the existing one. Set its `src` attribute to `https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg`.
 
-Sería genial si esta imagen pudiera tener exactamente el ancho de la pantalla de nuestro teléfono.
+Seria genial si esta imagen pudiera tener exactamente el ancho de la pantalla de nuestro teléfono.
 
 Afortunadamente, con Bootstrap, todo lo que necesitamos hacer es agregar la clase `img-responsive` a nuestra imagen. Hazlo, y la imagen debería caber perfectamente en el ancho de tu página.
 

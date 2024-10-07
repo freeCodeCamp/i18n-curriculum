@@ -8,7 +8,7 @@ dashedName: make-images-mobile-responsive
 
 # --description--
 
-はじめに、既存の画像の下に新しい画像を追加してください。 その `src` 属性を `https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg` に設定してください。
+First, add a new image below the existing one. Set its `src` attribute to `https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg`.
 
 この画像を携帯電話の画面の幅にぴったり合わせることはできるでしょうか。
 

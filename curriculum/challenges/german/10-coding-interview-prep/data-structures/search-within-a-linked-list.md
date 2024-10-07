@@ -1,6 +1,6 @@
 ---
 id: 587d8251367417b2b2512c64
-title: Search within a Linked List
+title: Suche innerhalb einer verknüpften Liste
 challengeType: 1
 forumTopicId: 301715
 dashedName: search-within-a-linked-list
@@ -10,17 +10,17 @@ dashedName: search-within-a-linked-list
 
 Let's add a few more useful methods to our linked list class. Wouldn't it be useful if we could tell if our list was empty or not, as with our `Stack` and `Queue` classes?
 
-We should also be able to find specific elements in our linked list. Traversing through data structures is something you'll want to get a lot of practice with! Let's create an `indexOf` method that takes an `element` as an argument, and returns that element's `index` in the linked list. If the element is not found in the linked list, return `-1`.
+Wir sollten auch in der Lage sein, bestimmte Elemente in unserer verknüpften Liste zu finden. Das Durchlaufen von Datenstrukturen ist etwas, das du unbedingt üben solltest! Erzeugen wir eine `indexOf`-Methode, die ein `element` als Argument annimmt und das `index` dieses Elements in der verknüpften Liste zurückgibt. Wenn das Element nicht in der verknüpften Liste gefunden wird, wird `-1` zurückgegeben.
 
-Let's also implement a method that does the opposite: an `elementAt` method that takes an `index` as an argument and returns the `element` at the given `index`. If no `element` is found, return `undefined`.
+Wir können auch eine Methode implementieren, die das Gegenteil tut: eine `elementAt`-Methode, die ein `index` als Argument nimmt und das `element` am angegebenen `index` zurückgibt. Wenn kein `element` gefunden wird, wird `undefined` zurückgegeben.
 
 # --instructions--
 
-Write an `isEmpty` method that checks if the linked list is empty, an `indexOf` method that returns the `index` of a given element, and an `elementAt` that returns an `element` at a given `index`.
+Schreibe eine `isEmpty` Methode, die überprüft ob die verlinkte Liste leer ist, eine `indexOf` Methode, die `index` eines gegebenes Elements zurückgibt und ein `elementAt` die ein `element` an einen gegebenen `index` zurückgibt.
 
 # --hints--
 
-Your `LinkedList` class should have an `isEmpty` method.
+Deine `LinkedList` Klasse sollte eine `isEmpty` Methode haben.
 
 ```js
 assert(
@@ -31,7 +31,7 @@ assert(
 );
 ```
 
-Your `isEmpty` method should return `false` when there is at least one element in linked list.
+Deine `isEmpty`-Methode sollte `false` zurückgeben, wenn es mindestens ein Element in der verknüpften Liste gibt.
 
 ```js
 assert(
@@ -45,7 +45,7 @@ assert(
 );
 ```
 
-Your `isEmpty` method should return `true` when there are no elements in linked list.
+Deine `isEmpty`-Methode sollte `true` zurückgeben, wenn es keine Elemente in der verknüpften Liste gibt.
 
 ```js
 assert(
@@ -56,7 +56,7 @@ assert(
 );
 ```
 
-Your `LinkedList` class should have an `indexOf` method.
+Deine `LinkedList`-Klasse sollte eine `indexOf`-Methode haben.
 
 ```js
 assert(
@@ -67,7 +67,7 @@ assert(
 );
 ```
 
-Your `indexOf` method should return the index of a given element found in linked list.
+Deine `indexOf` Methode sollte den Index eines bestimmten Elements in der verknüpften Liste zurückgeben.
 
 ```js
 assert(
@@ -81,7 +81,7 @@ assert(
 );
 ```
 
-Your `indexOf` method should return `-1` if the given element is not found in linked list
+Deine `indexOf` Methode sollte `-1` zurückgeben, wenn das angegebene Element nicht in der verknüpften Liste gefunden wird
 
 ```js
 assert(
@@ -95,7 +95,7 @@ assert(
 );
 ```
 
-Your `LinkedList` class should have an `elementAt` method.
+Deine `LinkedList`-Klasse sollte eine `elementAt`-Methode haben.
 
 ```js
 assert(
@@ -106,7 +106,7 @@ assert(
 );
 ```
 
-Your `elementAt` method should return the element found at a given index in linked list.
+Deine `elementAt`-Methode sollte das Element zurückgeben, das bei einem bestimmten Index in der verknüpften Liste gefunden wurde.
 
 ```js
 assert(
@@ -120,7 +120,7 @@ assert(
 );
 ```
 
-Your `elementAt` method should return `undefined` if the given element is not found at a given index in linked list.
+Deine `elementAt`-Methode sollte `undefined` zurückgeben, wenn das angegebene Element bei einem bestimmten Index in der verknüpften Liste nicht gefunden wird.
 
 ```js
 assert(

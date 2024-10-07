@@ -9,7 +9,7 @@ dashedName: manipulate-arrays-with-shift
 
 # --description--
 
-`pop()` 函數用來移出數組中最後一個元素。 如果想要移出第一個元素要怎麼辦呢？
+`pop()` always removes the last element of an array. What if you want to remove the first?
 
 這時候我們就需要 `.shift()` 了。 它的工作原理就像 `.pop()`，但它移除的是第一個元素，而不是最後一個。
 

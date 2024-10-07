@@ -8,7 +8,7 @@ dashedName: use-comments-to-clarify-code
 
 # --description--
 
-使用 jQuery 时，修改 HTML 元素时并不需要直接修改 HTML 代码。
+When we start using jQuery, we will modify HTML elements without needing to actually change them in HTML.
 
 必须确保让每个人都知道不应该直接修改此页面上的这些代码。
 

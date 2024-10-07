@@ -8,7 +8,7 @@ dashedName: render-images-from-data-sources
 
 # --description--
 
-前幾個挑戰中表明，JSON 數組中的每個對象都包含一個 `imageLink` 鍵，其值爲貓圖像的 URL。
+The last few challenges showed that each object in the JSON array contains an `imageLink` key with a value that is the URL of a cat's image.
 
 當你遍歷這些對象的時候，你可以使用 `imageLink` 屬性在 `img` 元素中顯示此圖像。
 

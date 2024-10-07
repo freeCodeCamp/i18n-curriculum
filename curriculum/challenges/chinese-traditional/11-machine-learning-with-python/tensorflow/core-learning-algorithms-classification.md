@@ -14,7 +14,7 @@ dashedName: core-learning-algorithms-classification
 
 ## --text--
 
-什麼是分類？
+What is classification?
 
 ## --answers--
 

@@ -8,7 +8,7 @@ dashedName: iterate-through-all-an-arrays-items-using-for-loops
 
 # --description--
 
-使用數組時，我們經常需要遍歷數組的所有元素來找出我們需要的一個或多個元素，抑或是對數組執行一些特定的操作。 JavaScript 爲我們提供了幾個內置的方法，它們以不同的方式遍歷數組，以便我們可以用於不同的場景（如 `every()`、`forEach()`、`map()` 等等）。 然而，最簡單的 `for` 循環不僅能實現上述這些方法的功能，而且相比之下也會更加靈活。
+Sometimes when working with arrays, it is very handy to be able to iterate through each item to find one or more elements that we might need, or to manipulate an array based on which data items meet a certain set of criteria. JavaScript offers several built in methods that each iterate over arrays in slightly different ways to achieve different results (such as `every()`, `forEach()`, `map()`, etc.), however the technique which is most flexible and offers us the greatest amount of control is a simple `for` loop.
 
 請看以下的例子：
 

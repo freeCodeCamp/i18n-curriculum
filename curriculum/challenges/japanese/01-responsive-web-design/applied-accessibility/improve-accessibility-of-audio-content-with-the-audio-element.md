@@ -9,11 +9,11 @@ dashedName: improve-accessibility-of-audio-content-with-the-audio-element
 
 # --description--
 
-HTML5 の `audio` 要素は、サウンドやオーディオストリームコンテンツを囲み、セマンティックな意味を与えます。 オーディオコンテンツには、耳が不自由であったり聞こえづらい人々がアクセスできる代替テキストも必要です。 これは、オーディオ要素の近くのテキストや、文字起こしへのリンクで実現できます。
+HTML5's `audio` element gives semantic meaning when it wraps sound or audio stream content in your markup. Audio content also needs a text alternative to be accessible to people who are deaf or hard of hearing. This can be done with nearby text on the page or a link to a transcript.
 
 `audio` タグは `controls` 属性をサポートします。 controls 属性により、ブラウザのデフォルトの再生、一時停止、その他のコントロールが表示され、キーボードによる操作ができるようになります。 controls は真偽値属性なので、値は必要ありません。タグ上にこれが存在することで設定がオンになります。
 
-例:
+こちらがその例です。
 
 ```html
 <audio id="meowClip" controls>

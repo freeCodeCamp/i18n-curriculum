@@ -8,7 +8,7 @@ dashedName: use-arrow-functions-to-write-concise-anonymous-functions
 
 # --description--
 
-In JavaScript brauchen wir unsere Funktionen oft nicht zu benennen, vor allem wenn wir eine Funktion als Argument an eine andere Funktion übergeben. Stattdessen erstellen wir Inline-Funktionen. Wir brauchen diese Funktionen nicht zu benennen, weil wir sie nirgendwo anders wiederverwenden.
+In JavaScript, we often don't need to name our functions, especially when passing a function as an argument to another function. Instead, we create inline functions. We don't need to name these functions because we do not reuse them anywhere else.
 
 Um dies zu erreichen, verwenden wir oft die folgende Syntax:
 

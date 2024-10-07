@@ -8,7 +8,7 @@ dashedName: 24-game
 
 # --description--
 
-The 24 Game tests a person's mental arithmetic.
+Das Spiel 24 testet das Kopfrechnen einer Person.
 
 Ziel des Spiels ist es, vier Zahlen so anzuordnen, dass das Ergebnis 24 ist
 
@@ -18,13 +18,13 @@ Implementiere eine Funktion, die einen String mit vier Ziffern als Argument akze
 
 **Regeln:**
 <ul>
-  <li> Only the following operators/functions are allowed: multiplication, division, addition, subtraction. </li>
+  <li> Nur die folgenden Operatoren/Funktionen sind erlaubt: Multiplikation, Division, Addition, Subtraktion. </li>
   <li> Bei der Division sollte Gleitkomma- oder rationale Arithmetik usw. verwendet werden, um Reste zu erhalten. </li>
   <li> Die Bildung von mehrstelligen Zahlen aus den angegebenen Ziffern ist nicht zulässig. (Die Antwort 12+12 bei 1, 2, 2 und 1 ist also falsch). </li>
   <li> Die Reihenfolge der angegebenen Ziffern muss nicht beibehalten werden. </li>
 </ul>
 
-| Example input             | Beispiel-Ausgabe          |
+| Beispiel-Eingabe          | Beispiel-Ausgabe          |
 | ------------------------- | ------------------------- |
 | <code>solve24("4878");</code> | <code>(7-8/8)\*4</code> |
 | <code>solve24("1234");</code> | <code>3\*1\*4\*2</code> |

@@ -8,7 +8,7 @@ dashedName: use-destructuring-assignment-to-assign-variables-from-arrays
 
 # --description--
 
-ES6 rende la destrutturazione degli array facile come quella degli oggetti.
+ES6 makes destructuring arrays as easy as destructuring objects.
 
 Una differenza fondamentale tra l'operatore spread e la destrutturazione dell'array è che l'operatore spread spacchetta tutti i contenuti di un array in una lista separata da virgole. Di conseguenza, non è possibile selezionare o scegliere quali elementi si desidera assegnare a delle variabili.
 

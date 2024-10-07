@@ -8,7 +8,7 @@ dashedName: remove-whitespace-from-start-and-end
 
 # --description--
 
-Іноді пробіли присутні навколо рядка, коли вони там непотрібні. Типовою обробкою рядка є видалення пробілів на їхньому початку та кінці.
+Sometimes whitespace characters around strings are not wanted but are there. Typical processing of strings is to remove the whitespace at the start and end of it.
 
 # --instructions--
 

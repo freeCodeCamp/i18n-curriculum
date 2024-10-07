@@ -8,9 +8,9 @@ dashedName: chart-the-stock-market
 
 # --description--
 
-Створіть повний пакет застосунку JavaScript, який функціонально схожий до <a href="https://chart-the-stock-market.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://chart-the-stock-market.freecodecamp.rocks/</a>. Для виконання проєкту використайте конструктор сайту на власний вибір.
+Build a full stack JavaScript app that is functionally similar to this: <a href="https://chart-the-stock-market.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://chart-the-stock-market.freecodecamp.rocks/</a>. Use a site builder of your choice to complete the project.
 
-Тут наведено конкретні історії користувача, які варто імплементувати в даний проєкт:
+Тут наведено конкретні історії користувача, які варто реалізувати в даному проєкті:
 
 **Історія користувача:** ви можете переглянути графік, який зображає останні тренди для кожної доданої акції.
 

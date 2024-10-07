@@ -8,7 +8,7 @@ dashedName: send-action-data-to-the-store
 
 # --description--
 
-到目前爲止，你已經學會了如何將 action dispatch 給 Redux store，但到目前爲止，這些 action 並未包含除 `type`之外的任何信息。 還可以和 action 一起發送特定數據。 事實上，這是非常常見的，因爲 action 通常源於一些用戶交互，並且往往會攜帶一些數據， Redux store 經常需要知道這些數據。
+By now you've learned how to dispatch actions to the Redux store, but so far these actions have not contained any information other than a `type`. You can also send specific data along with your actions. In fact, this is very common because actions usually originate from some user interaction and tend to carry some data with them. The Redux store often needs to know about this data.
 
 # --instructions--
 

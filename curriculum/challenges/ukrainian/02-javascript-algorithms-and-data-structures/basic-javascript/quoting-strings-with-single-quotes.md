@@ -9,7 +9,7 @@ dashedName: quoting-strings-with-single-quotes
 
 # --description--
 
-Значення <dfn>рядків</dfn> у JavaScript можна записати в одинарних чи подвійних лапках: головне, щоб спочатку та вкінці використовувались ті самі лапки. На відміну від інших мов програмування, у JavaScript одинарні і подвійні лапки працюють однаково.
+<dfn>String</dfn> values in JavaScript may be written with single or double quotes, as long as you start and end with the same type of quote. Unlike some other programming languages, single and double quotes work the same in JavaScript.
 
 ```js
 const doubleQuoteStr = "This is a string"; 

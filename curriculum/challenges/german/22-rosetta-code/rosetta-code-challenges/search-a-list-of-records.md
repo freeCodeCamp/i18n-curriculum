@@ -8,7 +8,7 @@ dashedName: search-a-list-of-records
 
 # --description--
 
-A record consists of attributes that describe an entity. Each attribute has a name and a value. For example, a person can have an attribute `age` with a value of 25. An important operation on a list of records is to find a record with a particular attribute value.
+Ein Datensatz besteht aus Attributen, die eine Entität beschreiben. Jedes Attribut hat einen Namen und einen Wert. Eine Person kann beispielsweise ein Attribut `age` mit einem Wert von 25 haben. Eine wichtige Operation in einer Liste von Datensätzen ist die Suche nach einem Datensatz mit einem bestimmten Attributwert.
 
 # --instructions--
 

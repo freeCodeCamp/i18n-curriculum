@@ -9,7 +9,7 @@ dashedName: use-a-media-query-to-change-a-variable
 
 # --description--
 
-CSS 変数は、メディアクエリの使い方をシンプルにできます。
+CSS Variables can simplify the way you use media queries.
 
 たとえば、画面がメディアクエリのブレークポイントより小さい、または大きい場合に、変数の値を変更することができます。そしてその変数が使用されている場所すべてにそのスタイルを適用できます。
 

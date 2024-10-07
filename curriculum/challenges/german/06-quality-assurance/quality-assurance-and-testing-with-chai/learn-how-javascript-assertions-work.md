@@ -8,19 +8,19 @@ dashedName: learn-how-javascript-assertions-work
 
 # --description--
 
-Bei der Arbeit an diesen Aufgaben wirst du deinen Code mithilfe folgender Methoden schreiben:
+Working on these challenges will involve you writing your code using one of the following methods:
 
-- Klone <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">diese GitHub-Repo</a> und schließe dein Projekt lokal ab.
-- Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete these challenges.
-- Verwende einen Site-Builder deiner Wahl, um das Projekt abzuschließen. Achte darauf, alle Dateien von unserem GitHub-Repo zu integrieren.
+- Clone <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete these challenges locally.
+- Verwende <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> um diese Challenge abzuschließen.
+- Benutze einen Website-Builder deiner Wahl, um das Projekt abzuschließen. Achte darauf, alle Dateien von unserem GitHub-Repo zu integrieren.
 
 # --instructions--
 
-Within `tests/1_unit-tests.js` under the test labeled `#1` in the `Basic Assertions` suite, change each `assert` to either `assert.isNull` or `assert.isNotNull` to make the test pass (should evaluate to `true`). Die an die Asserts übergebenen Argumente dürfen nicht verändert werden.
+Within `tests/1_unit-tests.js` under the test labeled `#1` in the `Basic Assertions` suite, change each `assert` to either `assert.isNull` or `assert.isNotNull` to make the test pass (should evaluate to `true`). Ändere nicht die Argumente, die an die Assertions übergeben werden.
 
 # --hints--
 
-Alle Tests sollten erfolgreich sein.
+Alle Tests sollten durchlaufen.
 
 ```js
 (getUserInput) =>
@@ -34,7 +34,7 @@ Alle Tests sollten erfolgreich sein.
   );
 ```
 
-Du solltest die richtige Methode für die erste Behauptung wählen - `isNull` vs. `isNotNull`.
+You should choose the correct method for the first assertion - `isNull` vs. `isNotNull`.
 
 ```js
 (getUserInput) =>
@@ -48,7 +48,7 @@ Du solltest die richtige Methode für die erste Behauptung wählen - `isNull` vs
   );
 ```
 
-Du solltest die richtige Methode für die zweite Behauptung wählen - `isNull` vs. `isNotNull`.
+You should choose the correct method for the second assertion - `isNull` vs. `isNotNull`.
 
 ```js
 (getUserInput) =>

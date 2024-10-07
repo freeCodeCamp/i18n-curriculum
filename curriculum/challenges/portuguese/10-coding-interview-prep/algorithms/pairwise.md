@@ -1,6 +1,6 @@
 ---
 id: a3f503de51cfab748ff001aa
-title: De par em par
+title: Pairwise
 challengeType: 1
 forumTopicId: 301617
 dashedName: pairwise
@@ -8,7 +8,7 @@ dashedName: pairwise
 
 # --description--
 
-Dado um array `arr`, encontre pares de elementos cuja soma seja igual ao segundo argumento `arg` e retorne a soma de seus índices.
+Given an array `arr`, find element pairs whose sum equal the second argument `arg` and return the sum of their indices.
 
 Você pode usar vários pares que tenham os mesmos elementos numéricos, mas com índices diferentes. Cada par deve utilizar os menores índices disponíveis. Quando um elemento tiver sido usado, ele não pode ser reutilizado para fazer par com outro elemento. Por exemplo, `pairwise([1, 1, 2], 3)` cria um par `[2, 1]` usando o 1 no índice 0 ao invés do 1 no índice 1, porque 0+2 &lt; 1+2.
 

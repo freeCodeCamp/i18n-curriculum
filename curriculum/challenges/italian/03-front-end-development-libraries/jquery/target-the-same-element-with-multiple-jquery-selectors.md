@@ -11,7 +11,7 @@ dashedName: target-the-same-element-with-multiple-jquery-selectors
 
 # --description--
 
-Ora conosci tre modi per identificare gli elementi: per tipo: `$("button")`, per classe: `$(".btn")`, e per id `$("#target1")`.
+Now you know three ways of targeting elements: by type: `$("button")`, by class: `$(".btn")`, and by id `$("#target1")`.
 
 Anche se è possibile aggiungere più classi in una singola chiamata di `.addClass()`, aggiungiamole allo stesso elemento in *tre modi diversi*.
 

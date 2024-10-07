@@ -1,6 +1,6 @@
 ---
 id: 587d781d367417b2b2512ac5
-title: Set the line-height of Paragraphs
+title: تعيين طول الفقرات
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/crVWdcv'
 forumTopicId: 301070
@@ -13,11 +13,11 @@ CSS offers the `line-height` property to change the height of each line in a blo
 
 # --instructions--
 
-Add a `line-height` property to the `p` tag and set it to 25px.
+أضف خاصية `خط الطول` إلى العلامة `p` وقم بتعيينها إلى 25px.
 
 # --hints--
 
-Your code should set the `line-height` of the `p` tag to 25 pixels.
+يجب أن تقوم التعليمات البرمجية الخاصة بك بتعيين `ارتفاع السطر` من علامة `p` إلى 25 بكسل.
 
 ```js
 const pElement =document.querySelector('p')

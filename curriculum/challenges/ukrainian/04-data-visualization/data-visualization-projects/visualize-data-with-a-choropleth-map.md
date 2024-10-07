@@ -8,11 +8,11 @@ dashedName: visualize-data-with-a-choropleth-map
 
 # --description--
 
-**Мета:** створити застосунок, функціонально схожий до <a href="https://choropleth-map.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://choropleth-map.freecodecamp.rocks</a>.
+**Objective:** Build an app that is functionally similar to this: <a href="https://choropleth-map.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://choropleth-map.freecodecamp.rocks</a>.
 
-Виконайте історію користувача та пройдіть тести. Використовуйте необхідні вам бібліотеки або API. Оформте за власним стилем.
+Виконайте історію користувача та пройдіть тести. Використовуйте необхідні вам бібліотеки чи API. Продемонструйте свій власний неповторний стиль.
 
-Ви можете використовувати HTML, JavaScript, CSS та бібліотеку візуалізації D3 на основі svg. Необхідні DOM-елементи запитуються під час кожного тесту. Якщо ви використовуєте фронтенд-фреймворк (наприклад, Vue), результати тестів можуть бути неточними для динамічного вмісту. Ми сподіваємося скоро їх налагодити, однак наразі ці фреймворки не підтримуються для проєктів D3.
+Ви можете використовувати HTML, JavaScript, CSS та бібліотеку візуалізації D3 на основі svg. Необхідні DOM-елементи запитуються під час кожного тесту. Якщо ви використовуєте фронтенд-фреймворк (наприклад, Vue), результати тестів можуть бути неточними для динамічного контенту. Ми сподіваємося скоро їх налагодити, однак наразі ці фреймворки не підтримуються для проєктів D3.
 
 **Історія користувача №1:** моя фонова картограма повинна мати заголовок з відповідним `id="title"`.
 
@@ -32,18 +32,18 @@ dashedName: visualize-data-with-a-choropleth-map
 
 **Історія користувача №9:** потрібно використати принаймні 4 різних кольори заливки для легенди.
 
-**Історія користувача №10:** я можу навести курсор на певну ділянку та побачу спливаючу підказку з відповідним `id="tooltip"`, що показує більше інформації про ділянку.
+**User Story #10:** Я можу навести курсор на область і побачити спливаючу підказку з відповідним `id="tooltip"`, що відображає більше інформації про область.
 
 **Історія користувача №11:** спливаюча підказка повинна мати властивість `data-education`, яка відповідає `data-education` наведеної ділянки.
 
 Ось набір даних, необхідних для виконання цього проєкту:
 
--   **Дані про освіту в США:**`https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/for_user_education.json`
+-   **US Education Data:**`https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/for_user_education.json`
 -   **Дані про округи в США:**`https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/counties.json`
 
-Ви можете створити свій проєкт, <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">використовуючи цей шаблон CodePen</a> і натиснувши `Save`. Або ж ви можете скористатися цим посиланням CDN, щоб виконати тести в будь-якому середовищі: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
+Ви можете створити свій проєкт, <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">використавши цей шаблон CodePen</a> та натиснувши `Save`. Або ж ви можете скористатися цим CDN-посиланням, щоб провести тести на будь-якому середовищі: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
 
-Як тільки закінчите, надайте посилання на свій проєкт з усіма пройденими тестами.
+Щойно впораєтеся, прикріпіть URL-адресу із пройденими тестами до проєкту, над яким працюєте.
 
 # --solutions--
 

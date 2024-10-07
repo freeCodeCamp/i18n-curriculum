@@ -8,7 +8,7 @@ dashedName: use-the-map-method-to-extract-data-from-an-array
 
 # --description--
 
-目前爲止，我們已經學會了使用純函數來避免程序中的副作用。 此外，我們已經看到函數的值僅取決於其輸入參數。
+So far we have learned to use pure functions to avoid side effects in a program. Also, we have seen the value in having a function only depend on its input arguments.
 
 這僅僅是個開始。 顧名思義，函數式編程以函數理論爲中心。
 

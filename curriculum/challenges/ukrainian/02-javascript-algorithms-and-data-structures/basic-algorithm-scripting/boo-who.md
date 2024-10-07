@@ -8,7 +8,7 @@ dashedName: boo-who
 
 # --description--
 
-Перевірте, чи значення належить до булевого примітивного. Поверніть `true` або `false`.
+Check if a value is classified as a boolean primitive. Return `true` or `false`.
 
 Булеві примітивні значення: `true` (правда) та `false` (брехня).
 

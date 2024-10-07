@@ -8,7 +8,7 @@ dashedName: remember-to-set-the-constructor-property-when-changing-the-prototype
 
 # --description--
 
-هناك تأثير جانبي مهم لضبط prototype يدويًا إلى كائن (object) جديد. إنه يمحو خاصية `constructor`! يمكن استخدام هذه الخاصية لمعرفة إي وظيفة منشئ (constructor function) هي التي أنشأت نموذج (instance)، ولكن بما انه تم التعديل علي الخاصية (property)، فإنها تعطي الآن نتائج خاطئة:
+There is one crucial side effect of manually setting the prototype to a new object. It erases the `constructor` property! This property can be used to check which constructor function created the instance, but since the property has been overwritten, it now gives false results:
 
 ```js
 duck.constructor === Bird;

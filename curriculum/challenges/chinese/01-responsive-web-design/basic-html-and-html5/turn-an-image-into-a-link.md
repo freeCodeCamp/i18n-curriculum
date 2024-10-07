@@ -9,9 +9,9 @@ dashedName: turn-an-image-into-a-link
 
 # --description--
 
-你可以通过把元素嵌套进 `a` 里使其变成一个链接。
+You can make elements into links by nesting them within an `a` element.
 
-如果我们要把图片嵌套进 `a` 元素， 可以这样写：
+如果我们要把图片嵌套进 `a` 元素， 这是一个示例：
 
 ```html
 <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="Three kittens running towards the camera."></a>

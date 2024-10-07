@@ -1,6 +1,6 @@
 ---
 id: 5e9a093a74c4063ca6f7c162
-title: Reading Data CSV and TXT
+title: قراءة بيانات CSV و TXT
 challengeType: 11
 videoId: ViGEv0zOzUk
 bilibiliIds:
@@ -14,16 +14,16 @@ dashedName: reading-data-csv-and-txt
 
 *Instead of using notebooks.ai like it shows in the video, you can use Google Colab instead.*
 
-More resources:
+المزيد من المصادر:
 
--  <a href="https://github.com/krishnatray/RDP-Reading-Data-with-Python-and-Pandas" target="_blank" rel="noopener noreferrer nofollow">Notebooks في GitHub</a>
--  <a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb" target="_blank" rel="noopener noreferrer nofollow">كيفية فتح Notebooks من GitHub باستخدام Google Colab.</a>
+-  <a href="https://github.com/krishnatray/RDP-Reading-Data-with-Python-and-Pandas" target="_blank" rel="noopener noreferrer nofollow">Notebooks on GitHub</a>
+-  <a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebookس/colab-github-demo.ipynb" target="_blank" rel="noopener noreferrer nofollow">كيفية فتح (Notebook) من (GitHub) باستخدام (Google Colab).</a>
 
 # --questions--
 
 ## --text--
 
-How would you import the CSV file `data.csv` and store it in a DataFrame using the Pandas module?
+كيف يمكنك استيراد ملف CSV باستخدام `data.csv` وتخزينه في إطار بيانات باستخدام وحدة Pandas؟
 
 ## --answers--
 

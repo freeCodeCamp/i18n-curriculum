@@ -9,7 +9,7 @@ dashedName: multiply-two-numbers-with-javascript
 
 # --description--
 
-我们也可在 JavaScript 中使用乘法运算。
+We can also multiply one number by another.
 
 JavaScript 使用 `*` 符号表示两数相乘。
 

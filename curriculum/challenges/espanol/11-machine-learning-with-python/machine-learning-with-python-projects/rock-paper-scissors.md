@@ -24,7 +24,7 @@ The file `RPS.py` shows an example function that you will need to update. The ex
 
 *Hint: To defeat all four opponents, your program may need to have multiple strategies that change depending on the plays of the opponent.*
 
-## Dessarrollador
+## Development
 
 Do not modify `RPS_game.py`. Write all your code in `RPS.py`. For development, you can use `main.py` to test your code.
 
@@ -48,15 +48,15 @@ play(player, quincy, 1000, verbose=True)
 
 ## Pruebas
 
-The unit tests for this project are in `test_module.py`. We imported the tests from `test_module.py` to `main.py` for your convenience. If you uncomment the last line in `main.py`, the tests will run automatically whenever you run `python main.py` in the console.
+Las pruebas unitarias para este proyecto están en `test_module.py`. Por defecto las pruebas del archivo `test_module.py` ya están importadas en el archivo `main.py` para su comodidad. If you uncomment the last line in `main.py`, the tests will run automatically whenever you run `python main.py` in the console.
 
 ## Enviar
 
-Copy your project's URL and submit it to freeCodeCamp.
+Copia la URL de tu proyecto y envíalo a freeCodeCamp.
 
 # --hints--
 
-It should pass all Python tests.
+Debería pasar todas las pruebas de Python.
 
 ```js
 

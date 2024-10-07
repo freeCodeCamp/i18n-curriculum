@@ -8,7 +8,7 @@ dashedName: set-the-childs-prototype-to-an-instance-of-the-parent
 
 # --description--
 
-في التحدي السابق رأيت الخطوة الأولى لوراثة السلوك من الـ supertype (أو الاب) `Animal`: إنشاء مثيل جديد لـ `Animal`.
+In the previous challenge you saw the first step for inheriting behavior from the supertype (or parent) `Animal`: making a new instance of `Animal`.
 
 هذا التحدي يغطي الخطوة التالية: تعيين `prototype` للنوع الفرعي (subtype) (أو الابن)- في هذه الحالة، `Bird`-تكون مثيلًا لـ `Animal`.
 

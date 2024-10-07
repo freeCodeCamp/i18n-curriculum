@@ -9,7 +9,7 @@ dashedName: create-visual-balance-using-the-text-align-property
 
 # --description--
 
-本カリキュラムのこのセクションでは、ビジュアルデザインの応用に焦点を当てます。 最初のいくつかのチャレンジでは、例として与えられたカードのレイアウトを見ながらいくつかの原則を説明します。
+This section of the curriculum focuses on Applied Visual Design. The first group of challenges build on the given card layout to show a number of core principles.
 
 テキストは多くの場合、ウェブコンテンツの大部分を占めます。 CSS には、テキストをどのように整列させるかによって `text-align` プロパティにいくつかのオプションがあります。
 

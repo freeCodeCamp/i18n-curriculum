@@ -8,7 +8,7 @@ dashedName: problem-127-abc-hits
 
 # --description--
 
-Die Wurzel von $n$, $rad(n)$, ist das Produkt der verschiedenen Primfaktoren von $n$. Zum Beispiel $504 = 2^3 × 3^2 × 7$, somit $rad(504) = 2 × 3 × 7 = 42$.
+Die Wurzel von $n$, $rad(n)$, ist das Produkt der verschiedenen Primfaktoren von $n$. Zum Beispiel: $504 = 2^3 × 3^2 × 7$, somit $rad(504) = 2 × 3 × 7 = 42$.
 
 Wir definieren das Tripel positiver Integer (a, b, c) als einen abc-Treffer, wenn:
 

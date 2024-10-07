@@ -1,6 +1,6 @@
 ---
 id: 5e8f2f13c4cdbe86b5c72d9f
-title: 'Natural Language Processing With RNNs: Making Predictions'
+title: 'Verarbeitung natürlicher Sprache mit RNNs: Prognosen erstellen'
 challengeType: 11
 videoId: WO1hINnBj20
 bilibiliIds:
@@ -18,15 +18,15 @@ Before you make a prediction with your own review, you should...:
 
 ## --answers--
 
-decode the training dataset and compare the results to the test data.
+den Trainingsdatensatz entschlüsseln und die Ergebnisse mit den Testdaten vergleichen.
 
 ---
 
-use the encodings from the training dataset to encode your review.
+die Kodierungen aus dem Trainingsdatensatz verwenden, um deine Beurteilung zu kodieren.
 
 ---
 
-assign random values between 0 and the maximum number of vocabulary in your dataset to each word in your review.
+jedem Wort in deiner Beurteilung Zufallswerte zwischen 0 und der maximalen Anzahl von Vokabeln in deinem Datensatz zuweisen.
 
 ## --video-solution--
 

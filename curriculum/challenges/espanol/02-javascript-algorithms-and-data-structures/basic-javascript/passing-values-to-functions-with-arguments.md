@@ -9,7 +9,7 @@ dashedName: passing-values-to-functions-with-arguments
 
 # --description--
 
-<dfn>Los parámetros</dfn> son variables que actúan como marcadores de posición para los valores que deben ser introducidos en una función cuando se llama. Cuando se define una función, se define típicamente junto con uno o más parámetros. Los valores reales que son introducidos (o <dfn>"pasados"</dfn>) a una función cuando se llama son conocidos como <dfn>argumentos</dfn>.
+<dfn>Parameters</dfn> are variables that act as placeholders for the values that are to be input to a function when it is called. When a function is defined, it is typically defined along with one or more parameters. The actual values that are input (or <dfn>"passed"</dfn>) into a function when it is called are known as <dfn>arguments</dfn>.
 
 Esta es una función con dos parámetros, `param1` y `param2`:
 
@@ -23,7 +23,7 @@ Entonces podemos llamar a `testFun` así: `testFun("Hello", "World");`. Hemos pa
 
 # --instructions--
 
-<ol><li>Crea una función llamada <code>functionWithArgs</code> que acepte dos argumentos y muestre la suma de ellos en la consola de desarrollador.</li><li>Llama a la función con dos números como argumentos.</li></ol>
+<ol><li>Create a function called <code>functionWithArgs</code> that accepts two arguments and outputs their sum to the dev console.</li><li>Llama a la función con dos números como argumentos.</li></ol>
 
 # --hints--
 

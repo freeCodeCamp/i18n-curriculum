@@ -12,7 +12,7 @@ dashedName: challenge-project-develop-foreach-and-if-elseif-else-structures-to-p
 1. Перейдіть до <a href="https://learn.microsoft.com/training/modules/challenge-project-arrays-iteration-selection/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/challenge-project-arrays-iteration-selection/</a> та виконайте всі завдання модуля «Проєкт завдання: розробіть структури foreach та if-elseif-else, щоб обробити дані масиву в C#». Це **обов’язково**, щоб отримати трофей зі «Створення та запуск простих консольних застосунків C#» на Microsoft Learn та мати змогу скласти сертифікаційний екзамен.
 1. Як тільки завершите, поверніться та дайте правильну відповідь на запитання нижче.
 
-# --assignment--
+# --Завдання--
 
 Виконайте проєкт завдання <a href="https://learn.microsoft.com/training/modules/challenge-project-arrays-iteration-selection/" target="_blank" rel="noreferrer">«Розробіть структури foreach та if-elseif-else, щоб обробити дані масиву в C#»</a> на Microsoft Learn. Потім дайте відповідь на запитання нижче.
 
@@ -20,19 +20,19 @@ dashedName: challenge-project-develop-foreach-and-if-elseif-else-structures-to-p
 
 ## --text--
 
-Розробник працює з двома іншими розробниками над оновленням застосунків. Вони використовуватимуть коментарі під час процесу оновлення. У якому випадку доречно використовувати коментарі в коді?
+A developer is working with two other developers to update a collection of applications. The developers will use code comments during the update process. Which of the following describes an appropriate use of code comments?
 
 ## --answers--
 
-Розробники використовують лінійні та блокові коментарі, щоб ідентифікувати оновлення кожного з них.
+When updates are made, the developers use line and block comments to identify each individual code update.
 
 ---
 
-Розробники не змінюють наявних коментарів коду. Вони додають нові коментарі, щоб вказати, що старі коментарі більше не застосовуються.
+When updates are made, the developers leave all existing code comments intact. New comments are added to indicate when old comments no longer apply.
 
 ---
 
-Розробники узагальнюють зміни, використовуючи блокові коментарі.
+When updates are made, the developers summarize changes using block comments.
 
 ## --video-solution--
 

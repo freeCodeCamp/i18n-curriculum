@@ -9,7 +9,7 @@ dashedName: modify-fill-mode-of-an-animation
 
 # --description--
 
-So weit, so gut, aber es funktioniert noch nicht richtig. Beachte wie die Animation nach `500ms` zurückgesetzt wird, wodurch der Button wieder seine ursprüngliche Farbe erhält. Wir möchten erreichen, dass der Button hervorgehoben bleibt.
+That's great, but it doesn't work right yet. Notice how the animation resets after `500ms` has passed, causing the button to revert back to the original color. You want the button to stay highlighted.
 
 Dies gelingt durch Setzen der Eigenschaft `animation-fill-mode` auf `forwards`. Der `animation-fill-mode` legt den Stil fest, der auf ein Element angewendet wird, nachdem die Animation beendet ist. Man definiert dies folgendermaßen:
 

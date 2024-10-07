@@ -9,7 +9,7 @@ dashedName: create-a-row-gap-using-grid-row-gap
 
 # --description--
 
-Puoi aggiungere uno spazio tra le righe di una griglia utilizzando `grid-row-gap` nello stesso modo in cui hai aggiunto uno spazio tra le colonne nella sfida precedente.
+You can add a gap in between the rows of a grid using `grid-row-gap` in the same way that you added a gap in between columns in the previous challenge.
 
 # --instructions--
 

@@ -8,7 +8,7 @@ dashedName: apply-functional-programming-to-convert-strings-to-url-slugs
 
 # --description--
 
-最後のいくつかのチャレンジでは、関数型プログラミングの原則に従う数多くの便利な配列メソッドや文字列メソッドを取り上げまました。 また、`reduce` についても学びました。これは強力なメソッドで、これを使用して問題をより簡単な形に減らすことができます。 平均の計算からソートに至るまで、どのような配列演算にも適用することができます。 `map` と `filter` が `reduce` の特殊なケースであることも覚えておきましょう。
+The last several challenges covered a number of useful array and string methods that follow functional programming principles. We've also learned about `reduce`, which is a powerful method used to reduce problems to simpler forms. From computing averages to sorting, any array operation can be achieved by applying it. Recall that `map` and `filter` are special cases of `reduce`.
 
 ここまで学んだことを駆使して、実際の問題を解決してみましょう。
 

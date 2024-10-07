@@ -8,7 +8,7 @@ dashedName: override-inherited-methods
 
 # --description--
 
-Nas lições passadas, você aprendeu que um objeto pode herdar seus comportamentos (métodos) de outro objeto ao referenciar o `prototype` do objeto:
+In previous lessons, you learned that an object can inherit its behavior (methods) from another object by referencing its `prototype` object:
 
 ```js
 ChildObject.prototype = Object.create(ParentObject.prototype);
@@ -38,7 +38,7 @@ Bird.prototype.eat = function() {
 
 Se você tem uma instância `let duck = new Bird();` e você chamar `duck.eat()`, é assim que o JavaScript procura pelo método na cadeia de `prototype` de `duck`:
 
-1.  `duck` => o método `eat()` está definido aqui? Não.
+1.  `duck` => Is `eat()` defined here? No.
 2.  `Bird` => o método `eat()` está definido aqui? => Sim. Execute isso e pare de procurar.
 3.  `Animal` => `eat()` também é definido, mas o JavaScript parou de procurar antes de chegar a este nível.
 4.  Objeto => JavaScript parou de procurar antes de chegar a este nível.

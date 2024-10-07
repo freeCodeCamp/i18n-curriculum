@@ -8,7 +8,7 @@ dashedName: smallest-common-multiple
 
 # --description--
 
-找到給定參數的最小公倍數，可以被這兩個參數整除，也可以被指定範圍內的所有整數整除。
+Find the smallest common multiple of the provided parameters that can be evenly divided by both, as well as by all sequential numbers in the range between these parameters.
 
 注意，較小數不一定總是出現在數組的第一個元素。
 

@@ -7,9 +7,9 @@ dashedName: step-23
 
 # --description--
 
-3 つ目の `tr` 内に `th` 要素を追加して、テキストを `Credit The outstanding balance on our credit card.` に設定してください。 テキストの `Credit` 以外の文を `span` 要素で囲み、`class` 属性を `description` に設定してください。
+Within the third `tr`, add a `th` element with the text `Credit The outstanding balance on our credit card.`. Wrap that text, except for `Credit`, within a `span` element with the `class` set to `description`.
 
-その下に `td` 要素を 3 つ追加して、`$50`、`$50`、`$75` というテキストをこの順で追加してください。 そして 3 つ目の `td` 要素の `class` を `current` に設定してください。
+その下に `td` 要素を 3 つ追加して、`$50`、`$50`、`$75` というテキストをこの順で追加してください。 3 つ目の `td` 要素の `class` を `current` に設定してください。
 
 # --hints--
 

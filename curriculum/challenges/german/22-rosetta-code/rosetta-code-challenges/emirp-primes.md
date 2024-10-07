@@ -8,14 +8,14 @@ dashedName: emirp-primes
 
 # --description--
 
-An emirp (**prime** spelled backwards) are primes that when reversed (in their decimal representation) are a different prime.
+Eine emirp (**Primzahl** rückwärts buchstabiert) sind Primzahlen, die in ihrer Umkehrung (in ihrer Dezimaldarstellung) eine andere Primzahl ergeben.
 
 # --instructions--
 
 Schreibe eine Funktion, die:
 
 <ul>
-  <li>Shows the first <code>n</code> emirp numbers.</li>
+  <li>Zeigt die ersten <code>n</code> emirp Nummern.</li>
   <li>Zeigt die emirp-Nummern in einem Bereich an.</li>
   <li>Zeigt die Anzahl der Emirps in einem Bereich an.</li>
   <li>Zeigt die <code>n<sup>th</sup></code> Mirpzahl an.</li>

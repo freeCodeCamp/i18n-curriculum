@@ -8,7 +8,7 @@ dashedName: match-anything-with-wildcard-period
 
 # --description--
 
-في بعض الأحيان لن (أو لا تحتاج إلى) معرفة الأحرف بالضبط في أنماطك. التفكير في كل الكلمات المطابقة، على سبيل المثال لخطأ إملائي، سيستغرق وقتًا طويلاً. لحسن الحظ، يمكنك توفير الوقت باستخدام الـ wildcard character الآتي: `.`
+Sometimes you won't (or don't need to) know the exact characters in your patterns. Thinking of all words that match, say, a misspelling would take a long time. Luckily, you can save time using the wildcard character: `.`
 
 الـ wildcard character الآتي `.` سيطابق اي حرف واحد. يدعى الـ wildcard أيضًا `dot` و `period`. يمكنك استخدام الـ wildcard تماما مثل أي رمز آخر في regex. على سبيل المثال، إذا كنت ترغب في مطابقة `hug` و `huh` و `hut` و `hum`، يمكنك استخدام الـ regex الآتي `/hu./` لمطابقة جميع الكلمات الأربعة.
 

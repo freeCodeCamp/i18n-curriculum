@@ -8,7 +8,7 @@ dashedName: positive-and-negative-lookahead
 
 # --description--
 
-<dfn>Lookahead</dfn> هي الأنماط التي تخبر جافا سكريبت بالبحث في الـ string الخاص بك للتحقق من الأنماط بداخله. يمكن أن يكون هذا مفيداً عندما تريد البحث عن أنماط متعددة في نفس الـ string.
+<dfn>Lookaheads</dfn> are patterns that tell JavaScript to look-ahead in your string to check for patterns further along. This can be useful when you want to search for multiple patterns over the same string.
 
 هناك نوعان من الـ lookaheads: الـ: <dfn>positive lookahead</dfn> و <dfn>negative lookahead</dfn>.
 

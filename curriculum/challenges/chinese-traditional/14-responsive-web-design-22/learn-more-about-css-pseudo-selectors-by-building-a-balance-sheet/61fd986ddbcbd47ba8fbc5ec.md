@@ -1,13 +1,13 @@
 ---
 id: 61fd986ddbcbd47ba8fbc5ec
-title: 步驟 23
+title: 步驟-23
 challengeType: 0
 dashedName: step-23
 ---
 
 # --description--
 
-在第三個 `tr` 中，添加一個 `th` 元素，其文本爲 `Credit The outstanding balance on our credit card.`。 將該文本（`Credit` 除外）包裹在 `span` 元素中，並將 `class` 設置爲 `description`。
+Within the third `tr`, add a `th` element with the text `Credit The outstanding balance on our credit card.`. Wrap that text, except for `Credit`, within a `span` element with the `class` set to `description`.
 
 在其下方添加三個 `td` 元素，並按順序爲它們提供以下文本：`$50`、`$50` 和 `$75`。 給第三個 `td` 元素一個 `class` 設置爲 `current`。
 
@@ -37,7 +37,7 @@ assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySel
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelector('th > span')?.classList?.contains('description'));
 ```
 
-應該有三個 `td` 元素。
+你應該有三個 `td` 元素。
 
 ```js
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelectorAll('td').length === 3);
@@ -61,7 +61,7 @@ assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySel
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelectorAll('td')?.[2]?.textContent === '$75');
 ```
 
-第三個 `td` 元素應該將 `class` 設置爲 `current`。
+你的第三個 `td` 元素應該將 `class` 設置爲 `current`。
 
 ```js
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelectorAll('td')?.[2]?.classList?.contains('current'));

@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: networking-write-a-web-browser
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-What does the following code create?:
+¿Qué crea el siguiente código?:
 
 ```py
 import socket

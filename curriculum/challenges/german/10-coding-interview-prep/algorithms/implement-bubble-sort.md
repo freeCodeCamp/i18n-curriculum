@@ -8,7 +8,7 @@ dashedName: implement-bubble-sort
 
 # --description--
 
-Dies ist die erste von mehreren Aufgaben zu Sortieralgorithmen. Aus einem Array mit unsortierten Elementen wollen wir ein sortiertes Array zurückgeben. Wir lernen verschiedene Methoden kennen, um dies zu erreichen, und schauen uns einige Unterschiede zwischen diesen verschiedenen Vorgehensweisen an. Während die meisten modernen Programmiersprachen eingebaute Sortierungsalgorithmen besitzen, ist es dennoch wichtig die Grundlagen zu verstehen und diese auch umsetzen zu können.
+This is the first of several challenges on sorting algorithms. Given an array of unsorted items, we want to be able to return a sorted array. We will see several different methods to do this and learn some tradeoffs between these different approaches. While most modern languages have built-in sorting methods for operations like this, it is still important to understand some of the common basic approaches and learn how they can be implemented.
 
 Hier werden wir einen Bubblesort-Algorithmus verwenden. Die Bubblesort-Methode beginnt am Anfang eines unsortierten Arrays und "bläst" unsortierte Werte zum Ende hin auf, wobei sie das Array so lange durchläuft, bis es vollständig sortiert ist. Dazu vergleicht es benachbarte Elemente und tauscht sie aus, wenn sie nicht in der richtigen Reihenfolge sind. Die Methode läuft so lange in einer Schleife durch das Array, bis keine Änderungen mehr vorgenommen werden und das Array schlussendlich sortiert ist.
 

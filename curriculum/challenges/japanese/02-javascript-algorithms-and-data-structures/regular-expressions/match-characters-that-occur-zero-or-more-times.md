@@ -8,7 +8,7 @@ dashedName: match-characters-that-occur-zero-or-more-times
 
 # --description--
 
-前回のチャレンジでは、プラス `+` 記号を使用して、1 回以上出現する文字を検索しました。 0 回以上出現する文字にマッチするオプションもあります。
+The last challenge used the plus `+` sign to look for characters that occur one or more times. There's also an option that matches characters that occur zero or more times.
 
 それにはアスタリスクまたはスター `*` 文字を使用します。
 
@@ -54,7 +54,7 @@ assert(result[0] === 'Aaaaaaaaaaaaaaaa');
 assert(result[0].length === 16);
 ```
 
-正規表現は文字列 `He made a fair move. Screaming about it can't help you.` にあるどの文字にもマッチしない必要があります。
+Your regex should not match any characters in the string `He made a fair move. Screaming about it can't help you.`
 
 ```js
 assert(
@@ -62,7 +62,7 @@ assert(
 );
 ```
 
-正規表現は文字列 `Let him have it. It's not wise to upset a Wookiee.` にあるどの文字にもマッチしない必要があります。
+Your regex should not match any characters in the string `Let him have it. It's not wise to upset a Wookiee.`
 
 ```js
 assert(

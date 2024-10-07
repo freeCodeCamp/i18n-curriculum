@@ -14,7 +14,7 @@ dashedName: reinforcement-learning-with-q-learning-part-2
 
 ## --text--
 
-Що може статися, якщо агент не має необхідного балансу між прийняттям випадкових дій та реалізацією попередньо вивчених дій?
+What can happen if the agent does not have a good balance of taking random actions and using learned actions?
 
 ## --answers--
 

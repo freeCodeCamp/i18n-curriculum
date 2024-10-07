@@ -8,7 +8,7 @@ dashedName: use-the-bootstrap-grid-to-put-elements-side-by-side
 
 # --description--
 
-Пам’ятайте, що Bootstrap використовує систему адаптивної сітки з 12 стовпців, яка полегшує розміщення елементів у рядах та визначення відносної ширини кожного елемента. Більшість класів Bootstrap можна застосувати до елемента `div`.
+Bootstrap uses a responsive 12-column grid system, which makes it easy to put elements into rows and specify each element's relative width. Most of Bootstrap's classes can be applied to a `div` element.
 
 Bootstrap має різні атрибути ширини стовпця, які використовує залежно від ширини екрана користувача. Наприклад, телефони мають вузькі екрани, а ноутбуки — широкі.
 

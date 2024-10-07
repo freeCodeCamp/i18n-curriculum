@@ -8,7 +8,7 @@ dashedName: iterate-through-the-keys-of-an-object-with-a-for---in-statement
 
 # --description--
 
-有時候你需要遍歷一個對象中的所有鍵。 你可以使用 <dfn>for...in</dfn> 循環來做這件事。 for...in 循環是這樣的：
+Sometimes you need to iterate through all the keys within an object. You can use a <dfn>for...in</dfn> loop to do this. The for...in loop looks like:
 
 ```javascript
 const refrigerator = {

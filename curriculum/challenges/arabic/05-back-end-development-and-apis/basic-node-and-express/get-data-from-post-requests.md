@@ -1,6 +1,6 @@
 ---
 id: 587d7fb2367417b2b2512bf8
-title: Get Data from POST Requests
+title: الحصول على البيانات من طلبات POST
 challengeType: 2
 forumTopicId: 301511
 dashedName: get-data-from-post-requests
@@ -8,27 +8,27 @@ dashedName: get-data-from-post-requests
 
 # --description--
 
-قم بتوصيل المعالج POST على المسار `/name`. It’s the same path as before. We have prepared a form in the html frontpage. It will submit the same data of exercise 10 (Query string). إذا تم تكوين body-parser بشكل صحيح، يجب أن تجد المعلمات (Parameters) في الكائن `req.body`. ألق نظرة على مثال المكتبة المعتاد:
+Mount a POST handler at the path `/name`. It’s the same path as before. We have prepared a form in the html frontpage. It will submit the same data of exercise 10 (Query string). If the body-parser is configured correctly, you should find the parameters in the object `req.body`. Have a look at the usual library example:
 
 <blockquote>route: POST '/library'<br>urlencoded_body: userId=546&#x26;bookId=6754 <br>req.body: {userId: '546', bookId: '6754'}</blockquote>
 
-Respond with the same JSON object as before: `{name: 'firstname lastname'}`. Test if your endpoint works using the html form we provided in the app frontpage.
+إستخدم نفس كائن JSON كما كان من قبل في الرد: `{name: 'firstname lastname'}`. اختبر ما إذا كانت نقطة النهاية (endpoint) تعمل باستخدام نموذج html الذي قدمناه في الصفحة الأمامية للتطبيق.
 
-Tip: There are several other http methods other than GET and POST. And by convention there is a correspondence between the http verb, and the operation you are going to execute on the server. The conventional mapping is:
+نصيحة: هناك العديد من طرق http الأخرى بخلاف GET و POST. ووفقًا للاتفاقية ، هناك تطابق بين فعل http والعملية التي ستقوم بتنفيذها على السيرفر. الخريطة التقليدية هي:
 
-POST (sometimes PUT) - Create a new resource using the information sent with the request,
+POST (في بعض الأحيان PUT) - إنشاء موّرد جديد باستخدام المعلومات المرسلة مع الطلب،
 
-GET - Read an existing resource without modifying it,
+GET - قراءة مورد موجود دون تعديله،
 
-PUT or PATCH (sometimes POST) - Update a resource using the data sent,
+PUT أو PATCH (أحيانا POST) - تحديث مورد باستخدام البيانات المرسلة،
 
 DELETE - Delete a resource.
 
-There are also a couple of other methods which are used to negotiate a connection with the server. Except for GET, all the other methods listed above can have a payload (i.e. the data into the request body). The body-parser middleware works with these methods as well.
+ويوجد أيضًا طريقتان أخريان تستخدمان للتفاوض مع الاتصال بالسيرفر. Except for GET, all the other methods listed above can have a payload (i.e. the data into the request body). يعمل البرنامج الوسيط (midleware) body-parser مع هذه الطرق أيضاً.
 
 # --hints--
 
-Test 1 : Your API endpoint should respond with the correct name
+الاختبار 1: نقطة نهاية API الخاصة بك يجب أن تُرسل استجابة بالاسم الصحيح
 
 ```js
 (getUserInput) =>

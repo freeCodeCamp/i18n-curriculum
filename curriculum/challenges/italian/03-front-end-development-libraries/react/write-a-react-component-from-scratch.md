@@ -8,7 +8,7 @@ dashedName: write-a-react-component-from-scratch
 
 # --description--
 
-Ora che hai imparato le basi dei componenti JSX e React, è il momento di scrivere un componente da solo. I componenti di React sono gli elementi fondamentali delle applicazioni React quindi è importante acquisire familiarità con la loro scrittura. Ricorda, un componente React tipico è una `class` ES6 che estende `React.Component`. Essa ha un metodo render che restituisce HTML (da JSX) o `null`. Questa è la forma di base di una componente React. Una volta che avrai capito bene questo, sarai pronto a iniziare a costruire progetti React più complessi.
+Now that you've learned the basics of JSX and React components, it's time to write a component on your own. React components are the core building blocks of React applications so it's important to become very familiar with writing them. Remember, a typical React component is an ES6 `class` which extends `React.Component`. It has a render method that returns HTML (from JSX) or `null`. This is the basic form of a React component. Once you understand this well, you will be prepared to start building more complex React projects.
 
 # --instructions--
 

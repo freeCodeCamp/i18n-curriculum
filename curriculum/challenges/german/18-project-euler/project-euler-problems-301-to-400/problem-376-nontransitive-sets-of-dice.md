@@ -8,7 +8,7 @@ dashedName: problem-376-nontransitive-sets-of-dice
 
 # --description--
 
-Consider the following set of dice with nonstandard pips:
+Betrachten Sie den folgenden Satz von Würfeln mit nicht standardisierten Kernen:
 
 $$\begin{array}{}   \text{Die A: } & 1 & 4 & 4 & 4 & 4 & 4 \\\\
   \text{Die B: } & 2 & 2 & 2 & 5 & 5 & 5 \\\\   \text{Die C: } & 3 & 3 & 3 & 3 & 3 & 6 \\\\
@@ -16,34 +16,34 @@ $$\begin{array}{}   \text{Die A: } & 1 & 4 & 4 & 4 & 4 & 4 \\\\
 
 Ein Spiel wird von zwei Spielern gespielt, die einen Würfel nehmen und ihn werfen. Der Spieler, der den höchsten Wert wirft, gewinnt.
 
-If the first player picks die $A$ and the second player picks die $B$ we get
+Wenn der erste Spieler den Würfel $A$ wählt und der zweite Spieler $B$, erhalten wir
 
 $P(\text{second player wins}) = \frac{7}{12} > \frac{1}{2}$
 
-If the first player picks die $B$ and the second player picks die $C$ we get
+Wenn der erste Spieler den Würfel $B$ wählt und der zweite Spieler $C$, erhalten wir
 
 $P(\text{second player wins}) = \frac{7}{12} > \frac{1}{2}$
 
-If the first player picks die $C$ and the second player picks die $A$ we get
+Wenn der erste Spieler den Würfel $C$ wählt und der zweite Spieler $A$, erhalten wir
 
 $P(\text{second player wins}) = \frac{25}{36} > \frac{1}{2}$
 
-So whatever die the first player picks, the second player can pick another die and have a larger than 50% chance of winning. Ein Würfelpaar, das diese Eigenschaft hat, wird als intransitive Würfel bezeichnet.
+Was auch immer der erste Spieler für einen Würfel auswählt, der zweite Spieler kann einen anderen Würfel wählen und eine Gewinnchance von mehr als 50 % haben. Ein Würfelpaar, das diese Eigenschaft hat, wird als intransitive Würfel bezeichnet.
 
-Wir wollen untersuchen, wie viele Reihen von intransitiven Würfeln es gibt. We will assume the following conditions:
+Wir wollen untersuchen, wie viele Reihen von intransitiven Würfeln es gibt. Wir gehen von den folgenden Bedingungen aus:
 
-- There are three six-sided dice with each side having between 1 and $N$ pips, inclusive.
-- Dice with the same set of pips are equal, regardless of which side on the die the pips are located.
-- The same pip value may appear on multiple dice; if both players roll the same value neither player wins.
+- Es gibt drei sechsseitige Würfel, wobei jede Seite zwischen 1 und einschließlich $N$ Punkte hat.
+- Würfel mit der gleichen Anzahl von Punkten sind gleichwertig, unabhängig davon, auf welcher Seite des Würfels sich die Punkte befinden.
+- Der gleiche Punkte-Wert kann bei mehreren Würfeln erscheinen; wenn beide Spieler denselben Wert würfeln, gewinnt keiner der Spieler.
 - Die Würfel-Sets $\\{A, B, C\\}$, $\\{B, C, A\\}$ und $\\{C, A, B\\}$ sind die gleichen Sets.
 
 Für $N = 7$ gibt es 9780 Sätze.
 
-How many are there for $N = 30$?
+Wie viele gibt es für $N = 30$?
 
 # --hints--
 
-`nontransitiveSetsOfDice()` should return `973059630185670`.
+`nontransitiveSetsOfDice()` sollte `973059630185670` enthalten.
 
 ```js
 assert.strictEqual(nontransitiveSetsOfDice(), 973059630185670);

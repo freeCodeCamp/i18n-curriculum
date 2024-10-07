@@ -8,7 +8,7 @@ dashedName: implement-merge-sort
 
 # --description--
 
-Ще один поширений алгоритм проміжного сортування — сортування злиттям. Як і швидке сортування, сортування злиттям також використовує принцип «Розділяй та володарюй», рекурсивну методологію для сортування масиву. Його перевага в тому, що два масиви порівняно легко відсортувати, якщо кожен з них вже відсортовано. Але ми почнемо тільки з одного масиву як з вхідного, то як же отримати з нього два відсортованих масиви? Ми можемо рекурсивно поділити початковий ввід на два, доки не досягнемо базового випадку масиву з одним елементом. Одноелементний масив вже відсортований, тому ми можемо почати комбінувати. Ця комбінація розгорне рекурсивні виклики, які розбивають початковий масив, врешті створюючи кінцевий відсортований масив з усіх елементів. Кроки сортування злиттям:
+Another common intermediate sorting algorithm is merge sort. Like quick sort, merge sort also uses a divide-and-conquer, recursive methodology to sort an array. It takes advantage of the fact that it is relatively easy to sort two arrays as long as each is sorted in the first place. But we'll start with only one array as input, so how do we get to two sorted arrays from that? Well, we can recursively divide the original input in two until we reach the base case of an array with one item. A single-item array is naturally sorted, so then we can start combining. This combination will unwind the recursive calls that split the original array, eventually producing a final sorted array of all the elements. The steps of merge sort, then, are:
 
 **1)** Рекурсивно розділити вхідний масив навпіл, поки підмасив лише з одним елементом не буде сформовано.
 

@@ -8,7 +8,7 @@ dashedName: create-a-bootstrap-button
 
 # --description--
 
-Bootstrap لديه أساليبه الخاصة لعناصر `button` التي تبدو أفضل بكثير من عناصر HTML العادية.
+Bootstrap has its own styles for `button` elements, which look much better than the plain HTML ones.
 
 أنشئ عنصر `button` أسفل صورة الكتل الكبيرة. أعطاها فئات `btn` و `btn-default`, مع نص `Like`.
 
@@ -28,7 +28,7 @@ assert.isTrue(document.querySelector('button')?.classList?.contains('btn') )
 assert.isTrue(document.querySelector('button')?.classList?.contains('btn-default'));
 ```
 
-لا بد من وجود وسم إغلاق لعناصر `button`.
+لا بد من وجود علامات إغلاق `button`.
 
 ```js
 assert.match(code,/<\/button>/g);

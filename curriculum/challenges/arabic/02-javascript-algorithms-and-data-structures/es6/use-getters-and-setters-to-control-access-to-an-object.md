@@ -8,7 +8,7 @@ dashedName: use-getters-and-setters-to-control-access-to-an-object
 
 # --description--
 
-يمكنك الحصول على قيم من الكائن وتعيين قيمة لخاصية داخل الكائن.
+You can obtain values from an object and set the value of a property within an object.
 
 هذه تسمى تقليديا بـ <dfn>getters</dfn> و <dfn>setters</dfn>.
 

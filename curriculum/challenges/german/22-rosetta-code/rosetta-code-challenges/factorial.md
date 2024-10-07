@@ -8,7 +8,7 @@ dashedName: factorial
 
 # --description--
 
-Write a function to return the factorial of a number.
+Schreibe eine Funktion, um die Fakultät einer Zahl zurückzugeben.
 
 Die Fakultät einer Zahl wird wie folgt gegeben:
 

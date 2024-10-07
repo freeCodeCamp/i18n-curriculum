@@ -9,7 +9,7 @@ dashedName: style-multiple-elements-with-a-css-class
 
 # --description--
 
-通过 CSS class 选择器，多个 HTML 元素可以使用相同的 CSS 样式规则。 你可以将 `red-text` class 添加到第一个 `p` 元素上。
+Classes allow you to use the same CSS styles on multiple HTML elements. You can see this by applying your `red-text` class to the first `p` element.
 
 # --hints--
 

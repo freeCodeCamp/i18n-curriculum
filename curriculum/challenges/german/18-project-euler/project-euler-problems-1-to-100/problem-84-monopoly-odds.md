@@ -1,6 +1,6 @@
 ---
 id: 5900f3c11000cf542c50fed3
-title: 'Problem 84: Monopoly odds'
+title: 'Problem 84: Monopoly-Gewinnchancen'
 challengeType: 1
 forumTopicId: 302198
 dashedName: problem-84-monopoly-odds
@@ -88,7 +88,7 @@ Im Spiel *Monopoly* ist das Standardspielbrett folgendermaßen aufgebaut:
   </table>
 </div><br>
 
-A player starts on the GO square and adds the scores on two 6-sided dice to determine the number of squares they advance in a clockwise direction. Ohne weitere Regeln würden wir erwarten, dass jedes Feld mit der gleichen Wahrscheinlichkeit besucht wird: 2,5 %. However, landing on G2J (Go To Jail), CC (community chest), and CH (chance) changes this distribution.
+Ein Spieler beginnt auf dem Feld LOS und addiert die Punkte auf zwei 6-seitigen Würfeln, um die Anzahl der Felder zu bestimmen, um die er im Uhrzeigersinn vorrückt. Ohne weitere Regeln würden wir erwarten, dass jedes Feld mit der gleichen Wahrscheinlichkeit besucht wird: 2,5 %. Die Landung auf G2J (Go to Jail - Gehe ins Gefängnis), CC (Community Chest - Gemeinschaftskasse) und CH (Chance) ändert diese Verteilung jedoch.
 
 Zusätzlich zu G2J und je einer Karte aus CC und CH, die den Spieler direkt ins Gefängnis bringt, wird das Ergebnis des dritten Wurfs nicht vorverlegt, wenn ein Spieler drei aufeinanderfolgende Paschs würfelt. Stattdessen kommen sie direkt ins Gefängnis.
 
@@ -97,14 +97,14 @@ Zu Beginn des Spiels werden die CC- und CH-Karten gemischt. Wenn ein Spieler auf
 <ul>
   <li>Community-Truhe (2/16 Karten):</li>
   <ol>
-    <li>Advance to GO</li>
+    <li>Vorrücken zu LOS</li>
     <li>Gehe ins GEFÄNGNIS</li>
   </ol>
 
   <li>Ereigniskarten (10/16 Karten):</li>
   <ol>
-    <li>Advance to GO</li>
-    <li>Go to JAIL</li>
+    <li>Vorrücken zu LOS</li>
+    <li>Gehe ins GEFÄNGNIS</li>
     <li>Gehe zu C1</li>
     <li>Gehe zu E3</li>
     <li>Gehe zu H2</li>
@@ -116,11 +116,11 @@ Zu Beginn des Spiels werden die CC- und CH-Karten gemischt. Wenn ein Spieler auf
   </ol>
 </ul>
 
-Der Kern dieses Problems betrifft die Wahrscheinlichkeit, einen bestimmten Platz zu besuchen. Das heißt, die Wahrscheinlichkeit, nach einem Wurf auf diesem Feld zu landen. Aus diesem Grund sollte klar sein, dass mit Ausnahme von G2J, bei dem die Wahrscheinlichkeit auf diesem Feld zu enden gleich Null ist, die CH-Felder die niedrigsten Wahrscheinlichkeiten haben, da 5/8 eine Bewegung auf ein anderes Feld verlangen, und es ist das letzte Feld, auf dem der Spieler bei jedem Wurf endet, das uns interessiert. We shall make no distinction between "Just Visiting" and being sent to JAIL, and we shall also ignore the rule about requiring a double to "get out of jail", assuming that they pay to get out on their next turn.
+Der Kern dieses Problems betrifft die Wahrscheinlichkeit, einen bestimmten Platz zu besuchen. Das heißt, die Wahrscheinlichkeit, nach einem Wurf auf diesem Feld zu landen. Aus diesem Grund sollte klar sein, dass mit Ausnahme von G2J, bei dem die Wahrscheinlichkeit auf diesem Feld zu enden gleich Null ist, die CH-Felder die niedrigsten Wahrscheinlichkeiten haben, da 5/8 eine Bewegung auf ein anderes Feld verlangen, und es ist das letzte Feld, auf dem der Spieler bei jedem Wurf endet, das uns interessiert. Wir machen keinen Unterschied zwischen "Nur zu Besuch" und "Ins Gefängnis", und wir ignorieren auch die Regel, dass man ein Pasch braucht, um "aus dem Gefängnis zu kommen", wenn man davon ausgeht, dass er in seinem nächsten Zug für die Entlassung bezahlt.
 
-By starting at GO and numbering the squares sequentially from 00 to 39 we can concatenate these two-digit numbers to produce strings that correspond with sets of squares.
+Indem wir bei LOS beginnen und die Quadrate fortlaufend von 00 bis 39 nummerieren, können wir diese zweistelligen Zahlen verketten, um Strings zu erzeugen, die mit Gruppen von Quadraten übereinstimmen.
 
-Statistically it can be shown that the three most popular squares, in order, are JAIL (6.24%) = Square 10, E3 (3.18%) = Square 24, and GO (3.09%) = Square 00. Diese drei beliebtesten Quadrate können also mit dem sechsstelligen modalen String `102400` aufgeführt werden.
+Statistisch lässt sich zeigen, dass die drei beliebtesten Quadrate in dieser Reihenfolge GEFÄNGNIS (6,24 %) = Quadrat 10, E3 (3,18 %) = Quadrat 24 und LOS (3,09 %) = Quadrat 00 sind. Diese drei beliebtesten Quadrate können also mit dem sechsstelligen modalen String `102400` aufgeführt werden.
 
 Wenn anstelle von zwei 6-seitigen Würfeln zwei `n`-seitige Würfel verwendet werden, findest du den sechsstelligen Modal-String.
 

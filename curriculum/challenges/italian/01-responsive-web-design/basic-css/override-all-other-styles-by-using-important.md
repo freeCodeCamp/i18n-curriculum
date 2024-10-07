@@ -9,7 +9,7 @@ dashedName: override-all-other-styles-by-using-important
 
 # --description--
 
-Sì! Abbiamo appena dimostrato che gli stili in linea sovrascrivono tutte le dichiarazioni CSS del tuo elemento `style`.
+Yay! We just proved that inline styles will override all the CSS declarations in your `style` element.
 
 Ma aspetta... C'è un ultimo modo per sovrascrivere CSS. Questo è il metodo più potente di tutti. Prima di farlo però parliamo del perché mai vorresti sovrascrivere i CSS.
 

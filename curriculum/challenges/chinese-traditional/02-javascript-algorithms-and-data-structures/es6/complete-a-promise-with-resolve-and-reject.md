@@ -8,7 +8,7 @@ dashedName: complete-a-promise-with-resolve-and-reject
 
 # --description--
 
-Promise 有三個狀態：`pending`、`fulfilled` 和 `rejected`。 上一個挑戰裏創建的 promise 一直阻塞在 `pending` 狀態裏，因爲沒有調用 promise 的完成方法。 Promise 提供的 `resolve` 和 `reject` 參數就是用來結束 promise 的。 Promise 成功時調用 `resolve`，promise 執行失敗時調用 `reject`， 如下文所述，這些方法需要有一個參數。
+A promise has three states: `pending`, `fulfilled`, and `rejected`. The promise you created in the last challenge is forever stuck in the `pending` state because you did not add a way to complete the promise. The `resolve` and `reject` parameters given to the promise argument are used to do this. `resolve` is used when you want your promise to succeed, and `reject` is used when you want it to fail. These are methods that take an argument, as seen below.
 
 ```js
 const myPromise = new Promise((resolve, reject) => {

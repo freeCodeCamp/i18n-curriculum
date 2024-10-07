@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: python-functions
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-What is the purpose of the "def" keyword in Python?
+¿Cuál es el propósito de la keyword "def" en Python?
 
 ## --answers--
 

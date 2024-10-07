@@ -9,7 +9,7 @@ dashedName: appending-variables-to-strings
 
 # --description--
 
-Proprio come possiamo costruire una stringa su più righe di stringhe <dfn>letterali</dfn>, possiamo anche aggiungere delle variabili a una stringa usando l'operatore `+=`.
+Just as we can build a string over multiple lines out of string <dfn>literals</dfn>, we can also append variables to a string using the plus equals (`+=`) operator.
 
 Esempio:
 

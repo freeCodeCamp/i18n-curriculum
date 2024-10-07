@@ -8,7 +8,7 @@ dashedName: build-a-periodic-table-database
 
 # --description--
 
-Це один з обов’язкових проєктів для отримання сертифікації. У цьому проєкті ви створите Bash-скрипт, щоб отримати інформацію про хімічні елементи з бази даних періодичної таблиці.
+This is one of the required projects to earn your certification. For this project, you will create a Bash script to get information about chemical elements from a periodic table database.
 
 # --instructions--
 

@@ -8,7 +8,7 @@ dashedName: add-images-to-your-website
 
 # --description--
 
-Ви можете додати зображення до свого вебсайту, якщо використаєте елемент `img` та вкажете чітку URL-адресу зображення, використовуючи атрибут `src`.
+You can add images to your website by using the `img` element, and point to a specific image's URL using the `src` attribute.
 
 Ось приклад:
 

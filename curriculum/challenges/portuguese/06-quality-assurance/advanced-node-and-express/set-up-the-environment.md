@@ -8,7 +8,7 @@ dashedName: set-up-the-environment
 
 # --description--
 
-Os desafios a seguir farão uso do arquivo `chat.pug`. Assim, em seu arquivo `routes.js`, adicione uma rota de GET apontando para `/chat`, que faz uso de `ensureAuthenticated` e renderiza `chat.pug`, com `{ user: req.user }` passado como argumento para a resposta. Agora, altere a rota `/auth/github/callback` existente para definir `req.session.user_id = req.user.id`e redirecione para `/chat`.
+The following challenges will make use of the `chat.pug` file. So, in your `routes.js` file, add a GET route pointing to `/chat` which makes use of `ensureAuthenticated`, and renders `chat.pug`, with `{ user: req.user }` passed as an argument to the response. Now, alter your existing `/auth/github/callback` route to set the `req.session.user_id = req.user.id`, and redirect to `/chat`.
 
 `socket.io@~2.3.0` já foi adicionado como uma dependência, então solicite/instancie-o no servidor com `http` (que vem integrado ao Node.js), conforme segue:
 

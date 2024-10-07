@@ -8,7 +8,7 @@ dashedName: add-images-to-your-website
 
 # --description--
 
-Puoi aggiungere immagini al tuo sito web utilizzando l'elemento `img` e facendolo puntare all'URL di un'immagine specifica usando l'attributo `src`.
+You can add images to your website by using the `img` element, and point to a specific image's URL using the `src` attribute.
 
 Un esempio di questo è:
 

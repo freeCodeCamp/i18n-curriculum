@@ -8,7 +8,7 @@ dashedName: add-a-description-to-your-package-json
 
 # --description--
 
-إن الجزء التالي من ملف package.json الجيد يكون خانة `description`؛ حيث يوجد وصف قصير ولكن زاخر بالمعلومات حول مشروعك.
+The next part of a good package.json file is the `description` field; where a short, but informative description about your project belongs.
 
 إذا خطط في يوم ما أن تنشر حزمة إلى npm، فهذا هو المقطع النصي الذي يشرح فكرتك للمستخدمون عندما يقررون تثبيت حزمتك أو لا. بالإضافة هذا ليس الاستخدام الوحيد لذلك الوصف. إنه طريقة رائعة لتلخيص وظيفة المشروع. وأيضا في أي مشروع Node.js فهو مهما بنفس القدر لمساعدة المطورين الآخرين، أو المشرفين في المستقبل، أو حتى لفهمك الخاص للمشروع بسرعة.
 

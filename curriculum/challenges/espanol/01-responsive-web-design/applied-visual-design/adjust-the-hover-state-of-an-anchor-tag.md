@@ -9,7 +9,7 @@ dashedName: adjust-the-hover-state-of-an-anchor-tag
 
 # --description--
 
-Este desafío mostrará el uso de las pseudo-clases. Una pseudo-clase es una palabra clave que se puede agregar a los selectores para seleccionar un estado específico de un elemento.
+This challenge will touch on the usage of pseudo-classes. A pseudo-class is a keyword that can be added to selectors, in order to select a specific state of the element.
 
 Por ejemplo, el estilo de una etiqueta "anchor" puede ser cambiado por el estado de su hover utilizando el selector de pseudo-clase `:hover`. Aquí está el CSS para cambiar el color `color` de la etiqueta de "anchor" a rojo durante el estado hover:
 

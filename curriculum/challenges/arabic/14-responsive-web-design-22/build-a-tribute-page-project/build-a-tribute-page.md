@@ -11,9 +11,9 @@ dashedName: build-a-tribute-page
 **Objective:** Build an app that is functionally similar to <a href="https://tribute-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://tribute-page.freecodecamp.rocks</a>. **Do not copy this demo project**.
 
 
-**المتطلبات:**
+**المطلبيات:**
 
-1. يجب أن يكون لصفحتك الثناء عنصر `main` مع `id` بقيمة `main`، الذي يحتوي على جميع العناصر الأخرى
+1. Your tribute page should have a `main` element with a corresponding `id` of `main`, which contains all other elements
 1. يجب أن ترى عنصرا مع `id` بقيمة `title`، الذي يحتوي على مقطع نصي (string)، يصف موضوع صفحة الثناء (مثل "الدكتور نورمان بورلاوغ")
 1. يجب أن ترى إما عنصر `figure` أو `div` مع `id` بقيمة `img-div`
 1. داخل عنصر `#img-div` يمكنك رؤية عنصر `img` مع `id="image"`
@@ -25,7 +25,7 @@ dashedName: build-a-tribute-page
 
 أكمل المتطلبات و قم باجتياز جميع الاختبارات أدناه لإكمال هذا المشروع. أعطيها أسلوبك الشخصي الخاص. برمجة سعيدة!
 
-**ملاحظة:** تأكد من إضافة `<link rel="stylesheet" href="styles.css">` في HTML الخاص بك لربط ورقة الأنماط (stylesheet) الخاصة بك وتطبيق الـ CSS
+**ملاحظة:** تيقن من إضافة `<link rel="stylesheet" href="styles.css">` في HTML الخاص بك لربط ورقة الأسلوب الخاصة بك وتطبيق CSS
 
 # --hints--
 

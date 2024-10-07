@@ -1,13 +1,13 @@
 ---
 id: 618a0b2befb143baefab632b
-title: Step 37
+title: Passo 37
 challengeType: 0
 dashedName: step-37
 ---
 
 # --description--
 
-Nota che i colori rosso e ciano sono molto luminosi uno accanto all'altro. Questo contrasto può distrarre se viene utilizzato in modo eccessivo su un sito web e può rendere difficile la lettura del testo se posizionato su uno sfondo del colore complementare.
+Notice that the red and cyan colors are very bright right next to each other. This contrast can be distracting if it's overused on a website, and can make text hard to read if it's placed on a complementary-colored background.
 
 È bene scegliere un unico colore dominante e utilizzare il suo colore complementare come contrasto per attirare l'attenzione su determinati contenuti della pagina.
 

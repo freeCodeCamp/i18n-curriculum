@@ -8,7 +8,7 @@ dashedName: create-a-simple-jsx-element
 
 # --description--
 
-React — це бібліотека з відкритим вихідним кодом, яку підтримує Facebook. Це хороший інструмент для візуалізації інтерфейсу користувача (UI) у сучасних вебзастосунках.
+React is an Open Source view library created and maintained by Facebook. It's a great tool to render the User Interface (UI) of modern web applications.
 
 React використовує розширення синтаксису JavaScript під назвою JSX, що дозволяє писати HTML одразу в JavaScript. JSX має декілька переваг. JSX дозволяє використовувати усі програмні можливості JavaScript у HTML, а також допомагає з читабельністю коду. JSX подібний до HTML, який ви вже вивчали, хоча є декілька ключових відмінностей, які ми розглянемо протягом завдань.
 

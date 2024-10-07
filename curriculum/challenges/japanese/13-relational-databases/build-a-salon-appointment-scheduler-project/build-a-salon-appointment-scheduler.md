@@ -8,7 +8,7 @@ dashedName: build-a-salon-appointment-scheduler
 
 # --description--
 
-これは認定証を獲得するために必須のプロジェクトの 1 つです。 このプロジェクトでは、PostgreSQL を使用して、サロンの顧客と予約を管理するインタラクティブな Bash プログラムを作成します。
+This is one of the required projects to earn your certification. For this project, you will create an interactive Bash program that uses PostgreSQL to track the customers and appointments for your salon.
 
 # --instructions--
 

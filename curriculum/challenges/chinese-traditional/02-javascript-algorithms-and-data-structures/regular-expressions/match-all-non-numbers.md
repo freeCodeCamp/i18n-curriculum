@@ -8,7 +8,7 @@ dashedName: match-all-non-numbers
 
 # --description--
 
-上一項挑戰中展示瞭如何使用帶有小寫 `d` 的縮寫 `\d` 來搜尋數字。 也可以使用類似的縮寫來搜尋非數字，該縮寫使用大寫的 `D`。
+The last challenge showed how to search for digits using the shortcut `\d` with a lowercase `d`. You can also search for non-digits using a similar shortcut that uses an uppercase `D` instead.
 
 查找非數字字符的縮寫是 `\D`。 這等同於字符串 `[^0-9]`，它查找不是 0 - 9 之間數字的單個字符。
 

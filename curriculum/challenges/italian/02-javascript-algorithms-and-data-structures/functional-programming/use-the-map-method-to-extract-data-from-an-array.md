@@ -8,7 +8,7 @@ dashedName: use-the-map-method-to-extract-data-from-an-array
 
 # --description--
 
-Finora abbiamo imparato come utilizzare funzioni pure per evitare effetti collaterali in un programma. Inoltre, abbiamo visto i vantaggi di avere una funzione che dipende solo dai suoi argomenti di input.
+So far we have learned to use pure functions to avoid side effects in a program. Also, we have seen the value in having a function only depend on its input arguments.
 
 Questo è solo l'inizio. Come suggerisce il nome, la programmazione funzionale è incentrata su una teoria delle funzioni.
 

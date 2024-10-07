@@ -8,7 +8,7 @@ dashedName: pass-props-to-a-stateless-functional-component
 
 # --description--
 
-In den vorherigen Aufgaben ging es um das Erstellen und Zusammenstellen von JSX-Elementen, funktionalen Komponenten und Klassenkomponenten im ES6-Stil in React. Mit dieser Grundlage ist es an der Zeit, sich eine weitere Funktion anzusehen, die in React sehr verbreitet ist: **props**. In React kannst du Eigenschaften (props) an Kindkomponenten übergeben. Angenommen, du hast eine Komponente `App`, die eine Kindkomponente namens `Welcome` darstellt, die eine zustandslose funktionale Komponente ist. Du kannst `Welcome` eine `user`-Eigenschaft übergeben, indem du schreibst:
+The previous challenges covered a lot about creating and composing JSX elements, functional components, and ES6 style class components in React. With this foundation, it's time to look at another feature very common in React: **props**. In React, you can pass props, or properties, to child components. Say you have an `App` component which renders a child component called `Welcome` which is a stateless functional component. You can pass `Welcome` a `user` property by writing:
 
 ```jsx
 <App>

@@ -10,9 +10,9 @@ dashedName: medical-data-visualizer
 
 You will be <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-medical-data-visualizer/" target="_blank" rel="noopener noreferrer nofollow">working on this project with our Gitpod starter code</a>.
 
-我們仍在開發 Python 課程的交互式教學部分。 目前，你可以在 YouTube 上通過 freeCodeCamp.org 上傳的一些視頻學習這個項目相關的知識。
+我們仍在開發Python課程的交互式教學部分 目前，你可以在 freeCodeCamp.org 的 YouTube 頻道中通過視頻學習到這個項目相關的所有知識
 
-- <a href="https://www.freecodecamp.org/news/python-for-everybody/" target="_blank" rel="noopener noreferrer nofollow">每個人視頻課程的 Python</a> (14小時)
+- <a href="https://www.freecodecamp.org/news/python-for-everybody/" target="_blank" rel="noopener noreferrer nofollow">Python for Everybody Video Course</a> (14 hours)
 
 - <a href="https://www.freecodecamp.org/news/how-to-analyze-data-with-python-pandas/" target="_blank" rel="noopener noreferrer nofollow">如何使用 Python Pandas 分析數據</a>（10 小時）
 
@@ -20,47 +20,27 @@ You will be <a href="https://gitpod.io/?autostart=true#https://github.com/freeCo
 
 In this project, you will visualize and make calculations from medical examination data using `matplotlib`, `seaborn`, and `pandas`. 數據集的數值是從體檢中收集的。
 
-## 數據說明
+## Data description
 
 數據集中的行代表患者，列代表身體測量、各種血液檢查的結果和生活方式等信息。 您將使用該數據集來探索心臟病、身體測量數據、血液標誌物和對生活方式的選擇之間的關係。
 
 文件名：medical_examination.csv
 
-|    項目    | 變量類型 |      變量名      |         變量值類型         |
-|:--------:|:----:|:-------------:|:---------------------:|
-|    年齡    | 客觀特徵 |     `age`     |      int (days)       |
-|    身高    | 客觀特徵 |   `height`    |       int (cm)        |
-|    體重    | 客觀特徵 |   `weight`    |      float (kg)       |
-|    性別    | 客觀特徵 |   `gender`    |         分類編碼          |
-|   收縮壓    | 檢測特徵 |    `ap_hi`    |          int          |
-|   舒張壓    | 檢測特徵 |    `ap_lo`    |          int          |
-|   膽固醇    | 檢測特徵 | `cholesterol` | 1：正常，2：高於正常，3：遠遠高於正常值 |
-|   血糖值    | 檢測特徵 |    `gluc`     | 1：正常，2：高於正常，3：遠遠高於正常值 |
-|   吸菸問題   | 主觀特徵 |    `smoke`    |        binary         |
-|   飲酒量    | 主觀特徵 |    `alco`     |        binary         |
-|   體育活動   | 主觀特徵 |   `active`    |        binary         |
-| 是否有心血管疾病 | 目標變量 |   `cardio`    |        binary         |
+|                    Feature                    |       變量類型        |      變量名      |         變量值類型         |
+|:---------------------------------------------:|:-----------------:|:-------------:|:---------------------:|
+|                      Age                      | Objective Feature |     `age`     |      int (days)       |
+|                    Height                     |       客觀特徵        |   `height`    |       int (cm)        |
+|                    Weight                     |       客觀特徵        |   `weight`    |      float (kg)       |
+|                    Gender                     |       客觀特徵        |   `gender`    |         分類編碼          |
+|            Systolic blood pressure            |       檢測特徵        |    `ap_hi`    |          int          |
+|           Diastolic blood pressure            |       檢測特徵        |    `ap_lo`    |          int          |
+|                  Cholesterol                  |       檢測特徵        | `cholesterol` | 1：正常，2：高於正常，3：遠遠高於正常值 |
+|                    Glucose                    |       檢測特徵        |    `gluc`     | 1：正常，2：高於正常，3：遠遠高於正常值 |
+|                    Smoking                    |       主觀特徵        |    `smoke`    |        binary         |
+|                Alcohol intake                 |       主觀特徵        |    `alco`     |        binary         |
+|               Physical activity               |       主觀特徵        |   `active`    |        binary         |
+| Presence or absence of cardiovascular disease |       目標變量        |   `cardio`    |        binary         |
 
-## 任務
-
-Create a chart similar to `examples/Figure_1.png`, where we show the counts of good and bad outcomes for the `cholesterol`, `gluc`, `alco`, `active`, and `smoke` variables for patients with `cardio=1` and `cardio=0` in different panels.
-
-在 `medical_data_visualizer.py` 中使用數據完成以下任務：
-
-- 給數據添加一列 `overweight`。 要確定一個人是否超重，首先通過將他們的體重（公斤）除以他們的身高（米）的平方來計算他們的 BMI。 如果該值是 > 25，則此人超重。 Use the value `0` for NOT overweight and the value `1` for overweight.
-- Normalize the data by making `0` always good and `1` always bad. If the value of `cholesterol` or `gluc` is `1`, make the value `0`. If the value is more than `1`, make the value `1`.
-- Convert the data into long format and create a chart that shows the value counts of the categorical features using `seaborn`'s `catplot()`. The dataset should be split by `Cardio` so there is one chart for each `cardio` value. 該圖表應該看起來像 `examples/Figure_1.png`。
-- 清理數據。 過濾掉以下代表不正確數據的患者段：
-  - 舒張壓高於收縮壓（使用 `(df['ap_lo'] <= df['ap_hi'])` 保留正確的數據）
-  - 高度小於第 2.5 個百分位數（使用 `(df['height'] >= df['height'].quantile(0.025))` 保留正確的數據）
-  - 身高超過第 97.5 個百分位
-  - 體重小於第 2.5 個百分位
-  - 體重超過第 97.5 個百分位
-- 使用數據集創建相關矩陣。 Plot the correlation matrix using `seaborn`'s `heatmap()`. 遮罩上三角。 該圖表應類似於 `examples/Figure_2.png`。
-
-每當變量設置爲 `None` 時，請確保將其設置爲正確的代碼。
-
-Unit tests are written for you under `test_module.py`.
 
 ## Instructions
 By each number in the `medical_data_visualizer.py` file, add the code from the associated instruction number below.
@@ -76,6 +56,7 @@ By each number in the `medical_data_visualizer.py` file, add the code from the a
 9. Do not modify the next two lines
 10. Draw the Heat Map in the `draw_heat_map` function
 11. Clean the data in the `df_heat` variable by filtering out the following patient segments that represent incorrect data:
+    - diastolic pressure is higher than systolic (Keep the correct data with `(df['ap_lo'] <= df['ap_hi'])`)
     - height is less than the 2.5th percentile (Keep the correct data with `(df['height'] >= df['height'].quantile(0.025))`)
     - height is more than the 97.5th percentile
     - weight is less than the 2.5th percentile

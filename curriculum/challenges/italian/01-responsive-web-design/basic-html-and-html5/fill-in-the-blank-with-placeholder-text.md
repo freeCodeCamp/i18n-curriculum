@@ -9,7 +9,7 @@ dashedName: fill-in-the-blank-with-placeholder-text
 
 # --description--
 
-Gli sviluppatori Web tradizionalmente usano <dfn>lorem ipsum text</dfn> come testo segnaposto. Il testo del lorem ipsum è tratto a caso da un famoso passaggio di Cicerone dell'antica Roma.
+Web developers traditionally use <dfn>lorem ipsum text</dfn> as placeholder text. The lorem ipsum text is randomly scraped from a famous passage by Cicero of Ancient Rome.
 
 Il testo lorem ipsum è stato utilizzato come testo segnaposto dai tipografi sin dal XVI secolo e questa tradizione continua sul web.
 

@@ -1,6 +1,6 @@
 ---
 id: 56533eb9ac21ba0edf2244be
-title: Global Scope and Functions
+title: 글로벌(전역) 스코프(범위) 와 함수
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cQM7mCN'
 forumTopicId: 18193
@@ -11,35 +11,35 @@ dashedName: global-scope-and-functions
 
 In JavaScript, <dfn>scope</dfn> refers to the visibility of variables. Variables which are defined outside of a function block have <dfn>Global</dfn> scope. This means, they can be seen everywhere in your JavaScript code.
 
-Variables which are declared without the `let` or `const` keywords are automatically created in the `global` scope. This can create unintended consequences elsewhere in your code or when running a function again. You should always declare your variables with `let` or `const`.
+`let` 키워드 또는`const` 키워드를 사용하지 않고 선언한 변수는 자동적으로 `글로벌(global)` 스코프로 작성됩니다. 이것은 코드 내의 다른 장소에서, 또는 함수를 다시 실행할 때, 의도하지 않은 결과를 일으킬 수도 있습니다. 당신은 항상 당신의 변수를 `let` 또는 `const`로 선언해야 합니다.
 
 # --instructions--
 
-Using `let` or `const`, declare a global variable named `myGlobal` outside of any function. Initialize it with a value of `10`.
+`let` 또는 `const`를 사용해서, 함수 외부에서 `myGlobal`이라는 글로벌 변수를 선언하세요. 그 값을 `10`으로 초기화하세요.
 
 Inside function `fun1`, assign `5` to `oopsGlobal` ***without*** using the `var`, `let` or `const` keywords.
 
 # --hints--
 
-`myGlobal` should be defined
+`myGlobal`는 정의되어야 합니다.
 
 ```js
 assert(typeof myGlobal != 'undefined');
 ```
 
-`myGlobal` should have a value of `10`
+`myGlobal`의 값은 `10`이 되어야 합니다.
 
 ```js
 assert(myGlobal === 10);
 ```
 
-`myGlobal` should be declared using the `let` or `const` keywords
+`myGlobal`는 `let` 키워드 또는 `const` 키워드를 사용해서 선언해야 합니다.
 
 ```js
 assert(/(let|const)\s+myGlobal/.test(__helpers.removeJSComments(code)));
 ```
 
-`oopsGlobal` should be a global variable and have a value of `5`
+`oopsGlobal`는 글로벌 변수이며 값은 `5`의 값을 가져야 합니다.
 
 ```js
 assert(typeof oopsGlobal != 'undefined' && oopsGlobal === 5);

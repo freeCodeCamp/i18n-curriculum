@@ -8,7 +8,7 @@ dashedName: add-comments-in-jsx
 
 # --description--
 
-JSX ist eine Syntax, die in gültiges JavaScript kompiliert wird. Manchmal musst du aus Gründen der Lesbarkeit Kommentare in deinen Code einfügen. Wie die meisten Programmiersprachen hat auch JSX seine eigene Art, dies zu tun.
+JSX is a syntax that gets compiled into valid JavaScript. Sometimes, for readability, you might need to add comments to your code. Like most programming languages, JSX has its own way to do this.
 
 Um Kommentare in JSX einzufügen, verwendest du die Syntax `{/* */}`, um den Kommentartext einzuschließen.
 

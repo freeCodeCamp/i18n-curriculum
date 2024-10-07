@@ -9,7 +9,7 @@ dashedName: apply-the-flex-direction-property-to-create-a-column-in-the-tweet-em
 
 # --description--
 
-트윗 임베드 `header`와 `footer`는 row 값을 가진 `flex-direction` 속성을 사용했습니다. 마찬가지로 `.profile-name` 요소 안에 있는 아이템은 열로 정렬되며 잘 동작할 것입니다.
+The tweet embed `header` and `footer` used the `flex-direction` property earlier with a row value. Similarly, the items inside the `.profile-name` element would work well stacked as a column.
 
 # --instructions--
 
@@ -17,7 +17,7 @@ dashedName: apply-the-flex-direction-property-to-create-a-column-in-the-tweet-em
 
 # --hints--
 
-`.follow-btn`는 페이지에 렌더링되어야 합니다. 광고 차단기 같은 확장 프로그램은 꺼야합니다.
+`.follow-btn`가 페이지에 렌더링되어야 합니다. 광고 차단기 같은 확장 프로그램은 꺼야합니다.
 
 ```js
 assert($('.follow-btn').length > 0 && $('.follow-btn').css('display') !== 'none');

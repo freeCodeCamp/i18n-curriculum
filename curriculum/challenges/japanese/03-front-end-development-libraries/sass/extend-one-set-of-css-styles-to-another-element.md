@@ -8,7 +8,7 @@ dashedName: extend-one-set-of-css-styles-to-another-element
 
 # --description--
 
-Sass には `extend` という機能があり、ある要素から CSS ルールを借用して別の要素でそれらを基にしてスタイルを構築することが簡単できます。
+Sass has a feature called `extend` that makes it easy to borrow the CSS rules from one element and build upon them in another.
 
 たとえば、次の CSS ルールのブロックは `.panel` クラスのスタイルを設定しています。 このクラスには `background-color`、`height`、`border` があります。
 

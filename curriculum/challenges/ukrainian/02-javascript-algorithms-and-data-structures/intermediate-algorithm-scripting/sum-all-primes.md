@@ -8,7 +8,7 @@ dashedName: sum-all-primes
 
 # --description--
 
-<dfn>Просте число</dfn> — це ціле число, яке більше за 1 та має два дільники: 1 і саме число. Наприклад, 2 є простим числом, оскільки воно ділиться лише на 1 і 2. І навпаки, 4 не є простим числом, оскільки воно ділиться на 1, 2 і 4.
+A <dfn>prime number</dfn> is a whole number greater than 1 with exactly two divisors: 1 and itself. For example, 2 is a prime number because it is only divisible by 1 and 2. In contrast, 4 is not prime since it is divisible by 1, 2 and 4.
 
 Перепишіть `sumPrimes` таким чином, щоб поверталася сума всіх простих чисел, які менші або дорівнюють num.
 

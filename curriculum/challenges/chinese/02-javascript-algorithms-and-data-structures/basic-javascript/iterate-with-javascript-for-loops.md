@@ -9,7 +9,7 @@ dashedName: iterate-with-javascript-for-loops
 
 # --description--
 
-你可以使用循环多次执行相同的代码。
+You can run the same code multiple times by using a loop.
 
 JavaScript 中最常见的循环就是 `for`，它可以循环指定次数。
 

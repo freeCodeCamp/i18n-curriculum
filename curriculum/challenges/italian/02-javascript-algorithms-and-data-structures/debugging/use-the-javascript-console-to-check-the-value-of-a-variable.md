@@ -8,7 +8,7 @@ dashedName: use-the-javascript-console-to-check-the-value-of-a-variable
 
 # --description--
 
-Sia Chrome che Firefox hanno ottime console JavaScript, note anche come DevTools (strumenti per sviluppatori), per effettuare il debugging del tuo JavaScript.
+Both Chrome and Firefox have excellent JavaScript consoles, also known as DevTools, for debugging your JavaScript.
 
 Puoi trovare gli Strumenti per sviluppatori nel menu di Chrome o la Web Console nel menu di Firefox. Se stai utilizzando un browser diverso, o un telefono cellulare, ti consigliamo vivamente di passare a Firefox o Chrome su desktop.
 

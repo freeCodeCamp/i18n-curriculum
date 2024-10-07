@@ -8,7 +8,7 @@ dashedName: remove-an-item-from-an-array
 
 # --description--
 
-是時候練習從數組中刪除項目了。 擴展運算符也可以在這裏使用。 其他有用的JavaScript方法包括 `slice()` 和 `concat()`。
+Time to practice removing items from an array. The spread operator can be used here as well. Other useful JavaScript methods include `slice()` and `concat()`.
 
 # --instructions--
 

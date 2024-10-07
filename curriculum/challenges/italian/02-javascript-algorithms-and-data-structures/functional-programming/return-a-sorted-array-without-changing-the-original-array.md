@@ -8,7 +8,7 @@ dashedName: return-a-sorted-array-without-changing-the-original-array
 
 # --description--
 
-Un effetto collaterale del metodo `sort` è che cambia l'ordine degli elementi nell'array originale. In altre parole, muta l'array "in place" (in posizione). Un modo per evitarlo è quello di concatenare un array vuoto a quello che deve essere ordinato (ricorda che `slice` e `concat` restituiscono un nuovo array), per poi eseguire il metodo `sort`.
+A side effect of the `sort` method is that it changes the order of the elements in the original array. In other words, it mutates the array in place. One way to avoid this is to first concatenate an empty array to the one being sorted (remember that `slice` and `concat` return a new array), then run the `sort` method.
 
 # --instructions--
 

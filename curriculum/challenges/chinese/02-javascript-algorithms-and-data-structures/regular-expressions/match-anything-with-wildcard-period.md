@@ -8,7 +8,7 @@ dashedName: match-anything-with-wildcard-period
 
 # --description--
 
-有时不（或不需要）知道匹配模式中的确切字符。 如果要精确匹配到完整的单词，那出现一个拼写错误就会匹配不到。 幸运的是，可以使用通配符 `.` 来处理这种情况。
+Sometimes you won't (or don't need to) know the exact characters in your patterns. Thinking of all words that match, say, a misspelling would take a long time. Luckily, you can save time using the wildcard character: `.`
 
 通配符 `.` 将匹配任何一个字符。 通配符也叫 `dot` 或 `period`。 可以像使用正则表达式中任何其他字符一样使用通配符。 例如，如果想匹配 `hug`、`huh`、`hut` 和 `hum`，可以使用正则表达式 `/hu./` 匹配以上四个单词。
 

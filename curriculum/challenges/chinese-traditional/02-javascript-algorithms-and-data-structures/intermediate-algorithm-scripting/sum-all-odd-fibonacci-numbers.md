@@ -8,7 +8,7 @@ dashedName: sum-all-odd-fibonacci-numbers
 
 # --description--
 
-在這道題目中，我們需要寫一個函數，參數爲一個正整數 `num`，返回值爲斐波那契數列中，小於或等於 `num` 的奇數之和。
+Given a positive integer `num`, return the sum of all odd Fibonacci numbers that are less than or equal to `num`.
 
 斐波那契數列的前兩個數字是 0 和 1。 後面的每個數字由之前兩數相加得出。 斐波那契數列的前七個數字分別爲：0、1、1、2、3、5、8。
 

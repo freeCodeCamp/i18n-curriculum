@@ -8,7 +8,7 @@ dashedName: perform-a-subset-check-on-two-sets-of-data
 
 # --description--
 
-У цій вправі ми виконаємо перевірку підмножин двох множин даних. Ми створимо метод на множині під назвою `isSubsetOf`. Цей метод дозволить порівняти першу множину з другою, а якщо перша множина повністю знаходиться в межах другої, то він поверне `true`.
+In this exercise, we are going to perform a subset test on 2 sets of data. We will create a method on our `Set` data structure called `isSubsetOf`. This will compare the first set against the second, and if the first set is fully contained within the second, it will return `true`.
 
 Наприклад, якщо `setA = ['a','b']`, а `setB = ['a','b','c','d']`, то `setA` є підмножиною множини `setB`, тому `setA.isSubsetOf(setB)` має повернути `true`.
 

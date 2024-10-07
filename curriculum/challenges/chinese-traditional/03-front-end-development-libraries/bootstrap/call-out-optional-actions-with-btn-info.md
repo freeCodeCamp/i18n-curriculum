@@ -8,7 +8,7 @@ dashedName: call-out-optional-actions-with-btn-info
 
 # --description--
 
-Bootstrap 有着豐富的預定義按鈕顏色。 淺藍色的 `btn-info` class 通常用在備選操作上。
+Bootstrap comes with several pre-defined colors for buttons. The `btn-info` class is used to call attention to optional actions that the user can take.
 
 在 `Like` 按鈕下方使用文本 `Info` 創建一個新的塊級 Bootstrap 按鈕，並向其中添加 Bootstrap 的 `btn-info` 類。
 

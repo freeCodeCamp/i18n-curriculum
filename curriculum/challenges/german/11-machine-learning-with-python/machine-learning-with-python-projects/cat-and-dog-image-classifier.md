@@ -1,6 +1,6 @@
 ---
 id: 5e46f8dcac417301a38fb92e
-title: Cat and Dog Image Classifier
+title: Katzen- und Hundebildklassifizierer
 challengeType: 10
 forumTopicId: 462377
 dashedName: cat-and-dog-image-classifier
@@ -10,19 +10,19 @@ dashedName: cat-and-dog-image-classifier
 
 You will be <a href="https://colab.research.google.com/github/freeCodeCamp/boilerplate-cat-and-dog-image-classifier/blob/master/fcc_cat_dog.ipynb" target="_blank" rel="noopener noreferrer nofollow">working on this project with Google Colaboratory</a>.
 
-After going to that link, create a copy of the notebook either in your own account or locally. Once you complete the project and it passes the test (included at that link), submit your project link below. If you are submitting a Google Colaboratory link, make sure to turn on link sharing for "anyone with the link."
+Nachdem du diesen Link aufgerufen hast, erstelle eine Kopie des Notizbuchs entweder in deinem eigenen Konto oder vor Ort. Sobald du das Projekt abgeschlossen hast und es den Test bestanden hat (unter diesem Link enthalten), reiche deinen Projektlink unten ein. Wenn du einen Google Colaboratory-Link übermittelst, stelle sicher, dass du die Linkfreigabe für alle Personen, die den Link verwenden, aktivierst.
 
-We are still developing the interactive instructional content for the machine learning curriculum. For now, you can go through the video challenges in this certification. You may also have to seek out additional learning resources, similar to what you would do when working on a real-world project.
+Wir sind noch dabei, die interaktiven Lehrinhalte für den Lehrplan zum maschinellen Lernen zu entwickeln. Vorerst kannst du die Video-Herausforderungen in dieser Zertifizierung durchgehen. Möglicherweise musst du auch nach zusätzlichen Lernressourcen suchen, ähnlich wie bei der Arbeit an einem realen Projekt.
 
 # --instructions--
 
-For this challenge, you will complete the code  to classify images of dogs and cats. You will use TensorFlow 2.0 and Keras to create a convolutional neural network that correctly classifies images of cats and dogs at least 63% of the time. (Extra credit if you get it to 70% accuracy!)
+Für diese Herausforderung vervollständige den Code, um Bilder von Hunden und Katzen zu klassifizieren. Du wirst TensorFlow 2.0 und Keras verwenden, um ein neuronales Netzwerk zu erstellen, das Bilder von Katzen und Hunden in mindestens 63% der Zeit richtig klassifiziert. (Extrapunkte, wenn du es auf 70% Genauigkeit bringst!)
 
-Some of the code is given to you but some code you must fill in to complete this challenge. Read the instruction in each text cell so you will know what you have to do in each code cell.
+Ein Teil des Codes wird dir gegeben, aber ein Teil des Codes musst du ausfüllen, um diese Herausforderung zu meistern. Lese die Anweisungen in jeder Textzelle, damit du weißt, was du in jeder Codezelle zu tun hast.
 
-The first code cell imports the required libraries. The second code cell downloads the data and sets key variables. Die dritte Zelle ist der erste Ort, an dem du deinen eigenen Code schreiben wirst.
+Die erste Codezelle importiert die erforderlichen Bibliotheken. In der zweiten Codezelle werden die Daten heruntergeladen und die Schlüsselvariablen festgelegt. Die dritte Zelle ist der erste Ort, an dem du deinen eigenen Code schreiben wirst.
 
-The structure of the dataset files that are downloaded looks like this (You will notice that the test directory has no subdirectories and the images are not labeled):
+Die Struktur der heruntergeladenen Datensatzdateien sieht folgendermaßen aus (du wirst feststellen, dass das Testverzeichnis keine Unterverzeichnisse hat und die Bilder nicht beschriftet sind):
 
 ```py
 cats_and_dogs
@@ -35,20 +35,20 @@ cats_and_dogs
 |__ test: [1.jpg, 2.jpg ...]
 ```
 
-You can tweak epochs and batch size if you like, but it is not required.
+Du kannst Epochen und Batchgröße anpassen, wenn du willst, aber es ist nicht erforderlich.
 
-The following instructions correspond to specific cell numbers, indicated with a comment at the top of the cell (such as `# 3`).
+Die folgenden Anweisungen beziehen sich auf bestimmte Zellennummern, die mit einem Kommentar am oberen Rand der Zelle angegeben werden (z. B. `# 3`).
 
-## Zelle 3
+## Cell 3
 
-Now it is your turn! Set each of the variables in this cell correctly. (They should no longer equal `None`.)
+Jetzt bist du dran! Stelle jede der Variablen in dieser Zelle korrekt ein. (Sie sollten nicht mehr gleich `None` sein.)
 
-Create image generators for each of the three image data sets (train, validation, test). Use `ImageDataGenerator` to read / decode the images and convert them into floating point tensors. Use the `rescale` argument (and no other arguments for now) to rescale the tensors from values between 0 and 255 to values between 0 and 1.
+Erstelle Bildgeneratoren für jeden der drei Bilddatensätze (Zug, Validierung, Test). Verwende `ImageDataGenerator`, um die Bilder zu lesen/dekodieren und in Fließkomma-Tensoren zu konvertieren. Verwende das Argument `rescale` (und vorerst keine anderen Argumente), um die Tensoren von Werten zwischen 0 und 255 auf Werte zwischen 0 und 1 umzuskalieren.
 
-For the `*_data_gen` variables, use the `flow_from_directory` method. Pass in the batch size, directory, target size (`(IMG_HEIGHT, IMG_WIDTH)`), class mode, and anything else required. `test_data_gen` will be the trickiest one. For `test_data_gen`, make sure to pass in `shuffle=False` to the `flow_from_directory` method. This will make sure the final predictions stay in the order that our test expects. For `test_data_gen` it will also be helpful to observe the directory structure.
+Verwende für die `*_data_gen` Variablen die `flow_from_directory Methode`. Gib die Stapelgröße, das Verzeichnis, die Zielgröße (`(IMG_HEIGHT, IMG_WIDTH)`), den Klassenmodus und alle anderen erforderlichen Angaben ein. `test_data_gen` wird der schwierigste sein. Für `test_data_gen`stelle sicher, dass `shuffle=False` an die `flow_from_directory` Methode übergeben wird. Dadurch wird sichergestellt, dass die endgültigen Vorhersagen in der Reihenfolge bleiben, die unser Test erwartet. Für `test_data_gen` wird es auch hilfreich sein, die Verzeichnisstruktur zu beobachten.
 
 
-After you run the code, the output should look like this:
+Nachdem du den Code ausgeführt hast, sollte die Ausgabe wie folgt aussehen:
 
 ```py
 Found 2000 images belonging to 2 classes.
@@ -58,51 +58,51 @@ Found 50 images belonging to 1 class.
 
 ## Zelle 4
 
-The `plotImages` function will be used a few times to plot images. It takes an array of images and a probabilities list, although the probabilities list is optional. This code is given to you. If you created the `train_data_gen` variable correctly, then running this cell will plot five random training images.
+Die `plotImages` Funktion wird ein paar Mal verwendet, um Bilder zu zeichnen. Es benötigt ein Array von Bildern und eine Wahrscheinlichkeitsliste, obwohl die Wahrscheinlichkeitsliste optional ist. Dieser Code wird dir übergeben. Wenn du die `train_data_gen` Variable korrekt erstellt hast, wird diese Zelle fünf zufällige Trainingsbilder zeichnen.
 
 ## Zelle 5
 
-Recreate the `train_image_generator` using `ImageDataGenerator`.
+Erstelle den `train_image_generator` unter Verwendung von `ImageDataGenerator`.
 
-Since there are a small number of training examples, there is a risk of overfitting. One way to fix this problem is by creating more training data from existing training examples by using random transformations.
+Da es nur eine kleine Anzahl von Trainingsbeispielen gibt, besteht die Gefahr einer Überanpassung. Eine Möglichkeit, dieses Problem zu beheben, ist die Erstellung von Schulungsdaten aus bestehenden Schulungsbeispielen durch Verwendung von willkürlichen Transformationen.
 
-Add 4-6 random transformations as arguments to `ImageDataGenerator`. Make sure to rescale the same as before.
+Füge 4-6 zufällige Transformationen als Argumente zu  `ImageDataGenerator` hinzu. Vergewissere dich, dass die Skalierung dieselbe ist wie zuvor.
 
 ## Zelle 6
 
-You don't have to do anything for this cell. `train_data_gen` is created just like before but with the new `train_image_generator`. Then, a single image is plotted five different times using different variations.
+Für diese Zelle musst du nichts tun. `train_data_gen` wird wie zuvor mit dem neuen `train_image_generator` erstellt. Dann wird ein einzelnes Bild fünfmal mit verschiedenen Variationen dargestellt.
 
 ## Zelle 7
 
-In this cell, create a model for the neural network that outputs class probabilities. It should use the Keras Sequential model. It will probably involve a stack of Conv2D and MaxPooling2D layers and then a fully connected layer on top that is activated by a ReLU activation function.
+Erstelle in dieser Zelle ein Modell für das neuronale Netzwerk, das Klassenwahrscheinlichkeiten ausgibt. Es sollte das Keras Sequential Modell verwenden. Es wird wahrscheinlich einen Stapel von Conv2D- und MaxPooling2D-Schichten und dann eine vollständig verbundene Schicht darüber beinhalten, die durch eine ReLU-Aktivierungsfunktion aktiviert wird.
 
-Compile the model passing the arguments to set the optimizer and loss. Also pass in `metrics=['accuracy']` to view training and validation accuracy for each training epoch.
+Kompiliere das Modell, das die Argumente übergibt, um Optimierer und Verlust zu setzen. Gib auch `metrics=['accuracy']` ein, um die Trainings- und Validierungsgenauigkeit für jede Schulungsperiode anzuzeigen.
 
 ## Zelle 8
 
-Use the `fit` method on your `model` to train the network. Make sure to pass in arguments for `x`, `steps_per_epoch`, `epochs`, `validation_data`, and `validation_steps`.
+Verwende die `fit` Methode deines `model`, um das Netzwerk auszubilden. Stelle sicher, dass Argumente für `x`, `steps_per_epoch`, `epochs`, `validation_data`, unxd `validation_steps` weitergegeben werden.
 
 ## Zelle 9
 
-Run this cell to visualize the accuracy and loss of the model.
+Führe diese Zelle aus, um die Genauigkeit und den Verlust des Modells anzuzeigen.
 
 ## Zelle 10
 
-Now it is time to use your model to predict whether a brand new image is a cat or a dog.
+Jetzt ist es an der Zeit, mit deinem Modell vorherzusagen, ob ein brandneues Bild eine Katze oder einen Hund darstellt.
 
-In this cell, get the probability that each test image (from `test_data_gen`) is a dog or a cat. `probabilities` should be a list of integers.
+Erhalte in dieser Zelle die Wahrscheinlichkeit, dass jedes Textbild (von `test_data_gen`) einen Hund oder eine Katze darstellt. `probabilities` sollten eine Liste von Ganzzahlen sein.
 
-Call the `plotImages` function and pass in the test images and the probabilities corresponding to each test image.
+Rufe die `plotImages` Funktion auf und reiche die Testbilder und die dazugehörigen Wahrscheinlichkeiten jedes Testbilds ein.
 
-After you run the cell, you should see all 50 test images with a label showing the percentage of "sure" that the image is a cat or a dog. The accuracy will correspond to the accuracy shown in the graph above (after running the previous cell). More training images could lead to a higher accuracy.
+Nachdem du die Zelle aufgerufen hast, solltest du alle 50 Testbilder mit einer Beschriftung sehen, die den Prozentsatz anzeigt, wie "sicher" es ist, dass das Bild eine Katze oder einen Hund darstellt. Die Genauigkeit entspricht der im obigen Diagramm gezeigten Genauigkeit (nach Ausführung der vorherigen Zelle). Mehrere Trainingsbilder könnten zu einer höheren Genauigkeit führen.
 
 ## Zelle 11
 
-Run this final cell to see if you passed the challenge or if you need to keep trying.
+Führe diese letzte Zelle aus, um zu sehen, ob du die Herausforderung bestanden hast oder ob du es weiter versuchen musst.
 
 # --hints--
 
-It should pass all Python tests.
+Er sollte alle Python-Tests bestehen.
 
 ```js
 

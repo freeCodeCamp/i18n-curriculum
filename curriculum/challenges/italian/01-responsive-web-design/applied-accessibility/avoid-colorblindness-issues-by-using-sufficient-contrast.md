@@ -9,7 +9,7 @@ dashedName: avoid-colorblindness-issues-by-using-sufficient-contrast
 
 # --description--
 
-Il colore rappresenta una grande parte del visual design, ma introduce due problemi di accessibilità. Prima di tutto, non si dovrebbe fare ricorso al solo colore per veicolare informazioni importanti in quanto gli utenti che utilizzano uno screen reader non sarebbero in grado di vederlo. In secondo luogo, i colori usati per il primo piano e per lo sfondo devono avere un contrasto sufficiente affinché le persone daltoniche possano distinguerli.
+Color is a large part of visual design, but its use introduces two accessibility issues. First, color alone should not be used as the only way to convey important information because screen reader users won't see it. Second, foreground and background colors need sufficient contrast so colorblind users can distinguish them.
 
 Nelle sfide precedenti abbiamo visto come utilizzare delle alternative testuali per risolvere il primo problema. La sfida precedente, invece, ci hamostrato come utilizzare gli strumenti per il controllo del contrasto per aiutarci a risolvere il secondo. Il rapporto di contrasto di 4.5:1 raccomandato dal WCAG vale sia per l'uso di colori che per le combinazioni in scala di grigi.
 

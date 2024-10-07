@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c11feddfaeb3bdef
-title: Add Two Numbers with JavaScript
+title: JavaScript에서 2개의 숫자를 더하기
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cM2KBAG'
 forumTopicId: 16650
@@ -11,31 +11,31 @@ dashedName: add-two-numbers-with-javascript
 
 `Number` is a data type in JavaScript which represents numeric data.
 
-Now let's try to add two numbers using JavaScript.
+그러면 이제 JavaScript에서 2개의 숫자를 더해봅시다.
 
-JavaScript uses the `+` symbol as an addition operator when placed between two numbers.
+JavaScript에서는 `+` 기호를 더하기 연산자로 2개의 숫자 사이에 넣어서 사용합니다.
 
-**Example:**
+**예:**
 
 ```js
 const myVar = 5 + 10;
 ```
 
-`myVar` now has the value `15`.
+`myVar`의 값은 이제 `15`를 갖고 있습니다.
 
 # --instructions--
 
-Change the `0` so that sum will equal `20`.
+`0`을 합이 `20`이 되도록 변경해 주세요.
 
 # --hints--
 
-`sum` should equal `20`.
+`sum`은 `20`과 같지 않으면 안됩니다.
 
 ```js
 assert(sum === 20);
 ```
 
-You should use the `+` operator.
+`+` 연산자를 사용해 주세요.
 
 ```js
 assert(/\+/.test(__helpers.removeJSComments(code)));

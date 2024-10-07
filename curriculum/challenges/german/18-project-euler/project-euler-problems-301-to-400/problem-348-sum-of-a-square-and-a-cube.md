@@ -8,7 +8,7 @@ dashedName: problem-348-sum-of-a-square-and-a-cube
 
 # --description--
 
-Many numbers can be expressed as the sum of a square and a cube. Some of them in more than one way.
+Viele Zahlen können als die Summe eines Quadrats und eines Würfels ausgedrückt werden. Einige davon in mehr als einer Weise.
 
 Betrachten wir die palindromischen Zahlen, die auf genau 4 verschiedene Arten als Summe eines Quadrats und eines Würfels, beide größer als 1, ausgedrückt werden können.
 
@@ -22,7 +22,7 @@ Finde die Summe der fünf kleinsten solchen palindromischen Zahlen.
 
 # --hints--
 
-`sumOfSquareAndCube()` should return `1004195061`.
+`sumOfSquareAndCube()` sollte `1004195061` zurückgeben.
 
 ```js
 assert.strictEqual(sumOfSquareAndCube(), 1004195061);

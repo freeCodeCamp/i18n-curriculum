@@ -8,11 +8,11 @@ dashedName: caesars-cipher
 
 # --description--
 
-Uno dei più semplici e più conosciuti <dfn>cifrari</dfn> è il <dfn>cifrario di Cesare</dfn>, noto anche come <dfn>cifrario a scorrimento</dfn>. In un cifrario a scorrimento i significati delle lettere sono spostati di un certo numero di posizioni.
+One of the simplest and most widely known <dfn>ciphers</dfn> is a <dfn>Caesar cipher</dfn>, also known as a <dfn>shift cipher</dfn>. In a shift cipher the meanings of the letters are shifted by some set amount.
 
-Un comune uso moderno è il cifrario <a href="https://www.freecodecamp.org/italian/news/come-programmare-un-cifrario-di-cesare-unintroduzione-alla-codifica-di-base/" target="_blank" rel="noopener noreferrer nofollow">ROT13</a>, dove i valori delle lettere sono shiftati di 13 posizioni. Così `A ↔ N`, `B ↔ O` e così via.
+Un comune uso moderno è il cifrario <a href="https://www.freecodecamp.org/news/how-to-code-the-caesar-cipher-an-introduction-to-basic-encryption-3bf77b4e19f7/" target="_blank" rel="noopener noreferrer nofollow">ROT13</a>, dove i valori delle letter sono shiftati di 13 posizioni. Così `A ↔ N`, `B ↔ O` e così via.
 
-Scrivi una funzione che prende come input una stringa cifrata con <a href="https://www.freecodecamp.org/italian/news/come-programmare-un-cifrario-di-cesare-unintroduzione-alla-codifica-di-base/" target="_blank" rel="noopener noreferrer nofollow">ROT13</a> e restituisce una stringa decodificata.
+Scrivi una funzione che prende una stringa cifrata con <a href="https://www.freecodecamp.org/news/how-to-code-the-caesar-cipher-an-introduction-to-basic-encryption-3bf77b4e19f7/" target="_blank" rel="noopener noreferrer nofollow">ROT13</a> come input e restituisce una stringa decodificata.
 
 Tutte le lettere saranno maiuscole. Non trasformare alcun carattere non alfabetico (cioè spazi, punteggiatura), ma passali come sono.
 
@@ -30,13 +30,13 @@ assert(rot13('SERR PBQR PNZC') === 'FREE CODE CAMP');
 assert(rot13('SERR CVMMN!') === 'FREE PIZZA!');
 ```
 
-`rot13("SERR YBIR?")` dovrebbe decodificare la stringa `FREE LOVE?`
+`rot13("SERR YBIR?")` dovrebbe restituire la stringa `FREE LOVE?`
 
 ```js
 assert(rot13('SERR YBIR?') === 'FREE LOVE?');
 ```
 
-`rot13("GUR DHVPX OEBJA SBK WHZCF BIRE GUR YNML QBT.")` dovrebbe decodificare la stringa `THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.`
+`rot13("GUR DHVPX OEBJA SBK WHZCF BIRE GUR YNML QBT.")` dovrebbe restituire la stringa `THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.`
 
 ```js
 assert(

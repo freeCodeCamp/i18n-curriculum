@@ -9,13 +9,13 @@ dashedName: delete-properties-from-a-javascript-object
 
 # --description--
 
-يمكننا أيضا حذف الخصائص من كائنات (objects) كالآتي:
+We can also delete properties from objects like this:
 
 ```js
 delete ourDog.bark;
 ```
 
-مثال:
+على سبيل المثال:
 
 ```js
 const ourDog = {

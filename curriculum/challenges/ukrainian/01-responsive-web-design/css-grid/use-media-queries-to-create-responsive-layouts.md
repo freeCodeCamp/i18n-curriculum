@@ -9,7 +9,7 @@ dashedName: use-media-queries-to-create-responsive-layouts
 
 # --description--
 
-За допомогою CSS сітки можна з легкістю зробити ваш сайт більш адаптивним, використовуючи медіа-запити, щоб змінити розташування області сітки, змінити розмір сітки, а також - розташування елементів.
+CSS Grid can be an easy way to make your site more responsive by using media queries to rearrange grid areas, change dimensions of a grid, and rearrange the placement of items.
 
 У режимі попереднього перегляду, коли ширина вюпорту становить 300px або й більше, кількість стовпців змінюється від 1 до 2. Потім рекламний простір повністю займає лівий стовпець.
 

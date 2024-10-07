@@ -8,7 +8,7 @@ dashedName: communicate-by-emitting
 
 # --description--
 
-<dfn>Emit</dfn> è il modo più comune di comunicare che utilizzerai. Quando emetti qualcosa dal server a 'io', invii il nome e i dati di un evento a tutti i socket collegati. Un buon esempio di questo concetto sarebbe emettere il numero attuale di utenti connessi ogni volta che un nuovo utente si connette!
+<dfn>Emit</dfn> is the most common way of communicating you will use. When you emit something from the server to 'io', you send an event's name and data to all the connected sockets. A good example of this concept would be emitting the current count of connected users each time a new user connects!
 
 Inizia aggiungendo una variabile per tenere traccia degli utenti, poco prima di dove stai ascolta in attesa di connessioni.
 
@@ -38,7 +38,7 @@ socket.on('user count', function(data) {
 
 Ora, prova a caricare la tua app e a fare l'autenticazione: dovresti vedere nella tua console del client un '1' che rappresenta il numero attuale di utenti! Prova a caricare altri client, e autenticati in ognuno di essi per vedere il numero che aumenta.
 
-Invia la tua pagina quando pensi di averlo fatto correttamente. Se incontri degli errori, puoi vedere <a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#communicate-by-emitting-7" target="_blank" rel="noopener noreferrer nofollow">il progetto completato fino a questo punto</a>.
+Invia la tua pagina quando pensi che sia tutto corretto. Se incontri degli errori, puoi vedere <a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#communicate-by-emitting-7" target="_blank" rel="noopener noreferrer nofollow">il progetto completato fino a questo punto</a>.
 
 # --hints--
 

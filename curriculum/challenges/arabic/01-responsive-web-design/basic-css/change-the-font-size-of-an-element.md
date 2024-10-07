@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedf08806
-title: Change the Font Size of an Element
+title: تغيير حجم الخط الخاص بالـ Element
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/c3bvDc8'
 forumTopicId: 16777
@@ -19,11 +19,11 @@ h1 {
 
 # --instructions--
 
-Inside the same `<style>` tag that contains your `red-text` class, create an entry for `p` elements and set the `font-size` to 16 pixels (`16px`).
+بداخل نفس الـ `<style>` tag الذي يحتوي على class الـ `red-text`P قُم بإنشاء عُنصر الـ `p` وتعيين الـ `font-size` الخاص به إلى 16 pixels (`16px`).
 
 # --hints--
 
-Between the `style` tags, give the `p` elements `font-size` of `16px`. Browser and Text zoom should be at 100%.
+بين علامات الـ `style` tags؛ قُم بإعطاء عناصر الـ `p` خاصية `font-size` إلى `16px`. يجب أن يكون المُتصفح Browser والـ Text zoom بـ 100%.
 
 ```js
 assert(code.match(/p\s*{\s*font-size\s*:\s*16\s*px\s*;\s*}/i));

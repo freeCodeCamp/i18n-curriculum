@@ -8,15 +8,15 @@ dashedName: stock-price-checker
 
 # --description--
 
-Costruisci un'app JavaScript full-stack che sia funzionalmente simile a questa: <a href="https://stock-price-checker.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://stock-price-checker.freecodecamp.rocks/</a>.
+Build a full stack JavaScript app that is functionally similar to this: <a href="https://stock-price-checker.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://stock-price-checker.freecodecamp.rocks/</a>.
 
 Poiché tutte le API di stock price affidabili richiedono una chiave API, abbiamo costruito una soluzione alternativa. Usa <a href="https://stock-price-checker-proxy.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://stock-price-checker-proxy.freecodecamp.rocks/</a> per ottenere informazioni aggiornate sul prezzo delle azioni senza doverti iscrivere per ottenere la tua chiave.
 
 Lavorare su questo progetto ti porterà a scrivere il tuo codice utilizzando uno dei seguenti metodi:
 
--   Clonare <a href="https://github.com/freeCodeCamp/boilerplate-project-stockchecker/" target="_blank" rel="noopener noreferrer nofollow">questo repository GitHub</a> e completare il tuo progetto localmente.
+-   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-stockchecker/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
 -   Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-stockchecker/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete your project.
--   Usare un costruttore di siti di tua scelta per completare il progetto. Assicurati di incorporare tutti i file del nostro repository GitHub.
+-   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
 
 # --instructions--
 
@@ -25,11 +25,11 @@ Lavorare su questo progetto ti porterà a scrivere il tuo codice utilizzando uno
 3.  Aggiungerai tutte le funzionalità di sicurezza a `server.js`
 4.  Creerai tutti i test funzionali in `tests/2_functional-tests.js`
 
-**Nota** Considerazioni sulla privacy: a causa del requisito che solo 1 like per IP dovrebbe essere accettato, è necessario salvare gli indirizzi IP. È importante mantenere il rispetto delle leggi sulla privacy dei dati come il General Data Protection Regulation. Una opzione è quella di ottenere il permesso di salvare i dati dell'utente, ma è molto più semplice renderlo anonimo. Per questa sfida, ricordati di anonimizzare gli indirizzi IP prima di salvarli nel database. Se hai bisogno di idee su come farlo, puoi scegliere di fare l'hash dei dati, troncare l'IP, o impostare parte dell'indirizzo IP a 0.
+**Note** Privacy Considerations: Due to the requirement that only 1 like per IP should be accepted, you will have to save IP addresses. It is important to remain compliant with data privacy laws such as the General Data Protection Regulation. One option is to get permission to save the user's data, but it is much simpler to anonymize it. For this challenge, remember to anonymize IP addresses before saving them to the database. If you need ideas on how to do this, you may choose to hash the data, truncate it, or set part of the IP address to 0.
 
 Scrivi i seguenti test in `tests/2_functional-tests.js`:
 
--   Visualizzazione di un'azione: richiesta GET a `/api/stock-prices/`
+-   Viewing one stock: GET request to `/api/stock-prices/`
 -   Visualizzazione di un'azione e aggiunta del like: richiesta GET a `/api/stock-prices/`
 -   Visualizzazione della stesse azione e nuovo like: richiesta GET a `/api/stock-prices/`
 -   Visualizzazione di due azioni: richiesta GET a `/api/stock-prices/`

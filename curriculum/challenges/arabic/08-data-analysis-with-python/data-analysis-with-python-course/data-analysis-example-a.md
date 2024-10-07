@@ -1,6 +1,6 @@
 ---
 id: 5e9a093a74c4063ca6f7c14d
-title: Data Analysis Example A
+title: مثال أ لتحليل البيانات
 challengeType: 11
 videoId: nVAaxZ34khk
 bilibiliIds:
@@ -14,32 +14,32 @@ dashedName: data-analysis-example-a
 
 *Instead of using notebooks.ai like it shows in the video, you can use Google Colab instead.*
 
-More resources:
+المزيد من المصادر:
 
--  <a href="https://github.com/ine-rmotr-curriculum/FreeCodeCamp-Pandas-Real-Life-Example" target="_blank" rel="noopener noreferrer nofollow">Notebooks على GitHub</a>
--  <a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb" target="_blank" rel="noopener noreferrer nofollow">كيفية فتح Notebooks من GitHub باستخدام Google Colab.</a>
+-  <a href="https://github.com/ine-rmotr-curriculum/FreeCodeCamp-Pandas-Real-Life-Example" target="_blank" rel="noopener noreferrer nofollow">Notebooks on GitHub</a>
+-  <a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebookس/colab-github-demo.ipynb" target="_blank" rel="noopener noreferrer nofollow">كيفية فتح (Notebook) من (GitHub) باستخدام (Google Colab).</a>
 
 # --questions--
 
 ## --text--
 
-What does the shape of our dataframe tell us?
+ماذا تخبرنا أبعاد البيانات لدينا؟
 
 ## --answers--
 
-The size in gigabytes the dataframe we loaded into memory is.
+حجم البيانات التي قمنا بتحميلها في الذاكرة بالغيغابايت هو.
 
 ---
 
-How many rows and columns our dataframe has.
+كم عدد الصفوف و الأعمدة التي لدينا في البيانات.
 
 ---
 
-How many rows the source data had before loading.
+كم عدد الصفوف التي احتوت عليها بيانات المصدر قبل التحميل.
 
 ---
 
-How many columns the source data had before loading.
+كم عدد الأعمدة التي احتوت عليها بيانات المصدر قبل التحميل.
 
 ## --video-solution--
 

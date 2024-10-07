@@ -8,7 +8,7 @@ dashedName: combine-arrays-with-the-spread-operator
 
 # --description--
 
-مِيزة كبيرة أخرى لمشغل <dfn>spread</dfn> هي القدرة على الدمج بين القوائم، أو إدراج جميع عناصر قائمة في قائمة أخرى، في أي ترتيب. في معظم اللغات التقليدية، يمكننا أن نجمع بين القوائم، لكن هذا يسمح لنا فقط بالدمج بين القوائم في نهاية واحدة منهم، وفي بداية الأخرى. تجعل صيغة Spread العملية التالية بسيطة للغاية:
+Another huge advantage of the <dfn>spread</dfn> operator is the ability to combine arrays, or to insert all the elements of one array into another, at any index. With more traditional syntaxes, we can concatenate arrays, but this only allows us to combine arrays at the end of one, and at the start of another. Spread syntax makes the following operation extremely simple:
 
 ```js
 let thisArray = ['sage', 'rosemary', 'parsley', 'thyme'];

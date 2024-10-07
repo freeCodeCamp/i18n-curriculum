@@ -20,19 +20,19 @@ Complete o projeto guiado <a href="https://learn.microsoft.com/training/modules/
 
 ## --text--
 
-Qual é a finalidade de definir um parâmetro opcional em um método?
+What is the purpose of defining an optional parameter in a method?
 
 ## --answers--
 
-Fazer com que um método realize uma tarefa diferente.
+To cause a method to perform a different task.
 
 ---
 
-Sobrecarregar um método.
+To overload a method.
 
 ---
 
-Simplificar os parâmetros obrigatórios quando um parâmetro não é significativo para o resultado.
+To simplify the required parameters when a parameter isn't significant to the result.
 
 ## --video-solution--
 

@@ -9,7 +9,7 @@ dashedName: make-elements-only-visible-to-a-screen-reader-by-using-custom-css
 
 # --description--
 
-到目前为止，所有关于可访问性的挑战都没有使用 CSS。 这是为了在介绍视觉设计方面之前强调使用逻辑结构和有语义意义的标签的重要性。
+Have you noticed that all of the applied accessibility challenges so far haven't used any CSS? This shows the importance of using a logical document outline and semantically meaningful tags around your content before introducing the visual design aspect.
 
 但如果我们想在页面中添加一些只对屏幕阅读器可见的内容，可以用 CSS 来实现。 当信息为视觉格式（例如图表）时，但屏幕阅读器用户需要备用文稿（例如表格）来访问数据，在这种情况下， 使用 CSS 将屏幕的只读元素放到浏览器窗口可视区域之外。
 
@@ -29,7 +29,7 @@ dashedName: make-elements-only-visible-to-a-screen-reader-by-using-custom-css
 **注意：** 以下的 CSS 解决方案与上面的结果不同：
 
 <ul>
-<li><code>display: none;</code> 或 <code>visibility: hidden;</code> 会把内容彻底隐藏起来，屏幕阅读器也无法获取这些内容。</li>
+<li><code>display: none;</code> or <code>visibility: hidden;</code> hides content for everyone, including screen reader users</li>
 <li>如果把值设置为 0px，如 <code>width: 0px; height: 0px;</code>，意味着让元素脱离文档流，这样做同样也会让屏幕阅读器忽略此元素。</li>
 </ul>
 

@@ -8,11 +8,11 @@ dashedName: map-the-debris
 
 # --description--
 
-وفقا لقانون كيبلر الثالث، فإن المدّة المدارية $T$ من كتلتين نقطتين تدور في مدار دائري أو إهليجي هي:
+According to Kepler's Third Law, the orbital period $T$ of two point masses orbiting each other in a circular or elliptic orbit is:
 
 $$ T = 2 \pi \sqrt{\frac{a^{3}}{\mu}} $$
 
-- $a$ هو المحور شبه الرئيس للمدار
+- $a$ is the orbit's semi-major axis
 - $μ = GM$ هو معلمة الجاذبية القياسية
 - $G$ هو الثبات الجاذبي،
 - $M$ هو كتلة الجسم الأكثر كثافة.

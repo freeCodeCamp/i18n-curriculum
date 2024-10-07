@@ -9,7 +9,7 @@ dashedName: adjust-the-width-of-an-element-using-the-width-property
 
 # --description--
 
-你可以使用 CSS 裏的 `width` 屬性來指定元素的寬度。 屬性值可以是相對單位（比如 `em`），絕對單位（比如 `px`），或者包含塊（父元素）寬度的百分比。 下面這段代碼可以把圖片的寬度設置爲 220px：
+You can specify the width of an element using the `width` property in CSS. Values can be given in relative length units (such as `em`), absolute length units (such as `px`), or as a percentage of its containing parent element. Here's an example that changes the width of an image to 220px:
 
 ```css
 img {

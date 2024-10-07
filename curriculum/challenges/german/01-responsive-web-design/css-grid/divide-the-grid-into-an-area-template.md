@@ -8,7 +8,7 @@ dashedName: divide-the-grid-into-an-area-template
 
 # --description--
 
-Du kannst Zellen deines Rasters zu einem <dfn>Bereich (Area)</dfn> zusammenfassen und dem Bereich einen eigenen Namen geben. Dazu wendest du `grid-template-areas` auf den Container an, wie hier:
+You can group cells of your grid together into an <dfn>area</dfn> and give the area a custom name. Do this by using `grid-template-areas` on the container like this:
 
 ```css
 grid-template-areas:

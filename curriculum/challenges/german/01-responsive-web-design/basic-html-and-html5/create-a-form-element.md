@@ -8,7 +8,7 @@ dashedName: create-a-form-element
 
 # --description--
 
-Du kannst Webformulare erstellen, die tatsächlich Daten an einen Server übermitteln, indem du nichts weiter als reines HTML verwendest. Dies kannst du erreichen, indem du ein `action`-Attribut in deinem `form`-Element platzierst.
+You can build web forms that actually submit data to a server using nothing more than pure HTML. You can do this by specifying an `action` attribute on your `form` element.
 
 Zum Beispiel:
 

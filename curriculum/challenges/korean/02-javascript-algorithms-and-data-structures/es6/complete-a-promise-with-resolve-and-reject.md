@@ -8,7 +8,7 @@ dashedName: complete-a-promise-with-resolve-and-reject
 
 # --description--
 
-한 프로미스는 세 가지 상태를 가집니다: `pending`, `fulfilled` 그리고 `rejected`. 이전 과제에서 생성한 프로미스는 프로미스를 완료시키는 법을 추가하지 않았기 때문에 `pending`에서 영원히 머무르게 됩니다. 프로미스에 인자로 주어진 `resolve`와 `reject` 파라미터는 이를 위해 사용됩니다. `resolve`는 프로미스가 성공할 때 사용되고 `reject`는 실패할 때 사용됩니다. 이 메소드는 아래 보이는 것처럼 인자를 취합니다.
+A promise has three states: `pending`, `fulfilled`, and `rejected`. The promise you created in the last challenge is forever stuck in the `pending` state because you did not add a way to complete the promise. The `resolve` and `reject` parameters given to the promise argument are used to do this. `resolve` is used when you want your promise to succeed, and `reject` is used when you want it to fail. These are methods that take an argument, as seen below.
 
 ```js
 const myPromise = new Promise((resolve, reject) => {

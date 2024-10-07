@@ -10,7 +10,7 @@ dashedName: >-
 
 # --description--
 
-في بعض المواقف التي تتضمن array destructuring، قد نرغب في تجميع باقي العناصر في array منفصلة.
+In some situations involving array destructuring, we might want to collect the rest of the elements into a separate array.
 
 النتيجة مشابهة لـ `Array.prototype.slice()`، كما هو موضح أدناه:
 

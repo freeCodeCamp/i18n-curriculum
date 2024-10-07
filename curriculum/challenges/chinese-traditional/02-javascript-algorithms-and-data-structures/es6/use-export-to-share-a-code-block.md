@@ -8,7 +8,7 @@ dashedName: use-export-to-share-a-code-block
 
 # --description--
 
-假設有一個文件 `math_functions.js`，該文件包含了數學運算相關的一些函數。 其中一個存儲在變量 `add` 裏，該函數接受兩個數字作爲參數返回它們的和。 你想在幾個不同的 JavaScript 文件中使用這個函數。 要實現這個目的，就需要 `export` 它。
+Imagine a file called `math_functions.js` that contains several functions related to mathematical operations. One of them is stored in a variable, `add`, that takes in two numbers and returns their sum. You want to use this function in several different JavaScript files. In order to share it with these other files, you first need to `export` it.
 
 ```js
 export const add = (x, y) => {

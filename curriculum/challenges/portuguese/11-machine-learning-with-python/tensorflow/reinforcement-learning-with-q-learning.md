@@ -12,25 +12,25 @@ dashedName: reinforcement-learning-with-q-learning
 
 # --description--
 
-As próximas aulas em vídeo farão referência a [este Colab notebook](https://colab.research.google.com/drive/1IlrlS3bB8t1Gd5Pogol4MIwUxlAjhWOQ#forceEdit=true&sandboxMode=true).
+The next few video lessons will reference [this Colab notebook](https://colab.research.google.com/drive/1IlrlS3bB8t1Gd5Pogol4MIwUxlAjhWOQ#forceEdit=true&sandboxMode=true).
 
 # --questions--
 
 ## --text--
 
-Os principais componentes da aprendizagem de reforço são...
+The key components of reinforcement learning are...
 
 ## --answers--
 
-ambiente, representante, estado, reação e recompensa.
+environment, representative, state, reaction, and reward.
 
 ---
 
-ambiente, agente, estado, ação e recompensa.
+environment, agent, state, action, and reward.
 
 ---
 
-habitat, agente, ação, estado e punição.
+habitat, agent, state, action, and punishment.
 
 ## --video-solution--
 

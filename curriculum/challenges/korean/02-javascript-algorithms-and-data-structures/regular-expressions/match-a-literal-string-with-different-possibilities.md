@@ -8,7 +8,7 @@ dashedName: match-a-literal-string-with-different-possibilities
 
 # --description--
 
-`/coding/`과 같은 정규표현식을 사용하면 다른 문자열에서 `coding` 패턴을 찾을 수 있습니다.
+Using regexes like `/coding/`, you can look for the pattern `coding` in another string.
 
 이것은 단일 문자열을 검색하기에는 좋지만, 한 가지 패턴에만 국한됩니다. 여러 패턴을 `교대` 또는 `OR` 연산자: `|`를 사용하여 검색할 수 있습니다.
 

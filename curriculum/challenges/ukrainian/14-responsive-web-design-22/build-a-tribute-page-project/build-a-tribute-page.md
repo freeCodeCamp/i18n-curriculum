@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c442eddfaeb5bd18
-title: Створіть пам'ятну сторінку
+title: Побудуйте сторінку данини
 challengeType: 14
 forumTopicId: 301147
 dashedName: build-a-tribute-page
@@ -8,12 +8,12 @@ dashedName: build-a-tribute-page
 
 # --description--
 
-**Мета:** створити застосунок, функціонально схожий до <a href="https://tribute-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://tribute-page.freecodecamp.rocks</a>. **Не копіюйте цей демонстраційний проєкт**.
+**Objective:** Build an app that is functionally similar to <a href="https://tribute-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://tribute-page.freecodecamp.rocks</a>. **Do not copy this demo project**.
 
 
 **Історія користувача:**
 
-1. Ваша пам'ятна сторінка повинна містити елемент `main` з відповідним `id` зі значенням `main`, який містить всі інші елементи
+1. Your tribute page should have a `main` element with a corresponding `id` of `main`, which contains all other elements
 1. Ви повинні бачити елемент з `id` зі значенням `title`, який містить рядок (наприклад, текст), що описує предмет пам'ятної сторінки (наприклад, «Доктор Норман Борлаґ»)
 1. Ви повинні побачити елемент `figure` або `div` з `id` зі значенням `img-div`
 1. В межах елемента `#img-div` ви маєте бачити елемент `img` з відповідним `id="image"`
@@ -23,7 +23,7 @@ dashedName: build-a-tribute-page
 1. Ваш `#image` повинен використовувати властивості `max-width` та `height`, щоб змінювати розмір відповідно до ширини батьківського елемента, не перевищуючи початковий розмір
 1. Ваш елемент `img` повинен бути зцентрованим відповідно до батьківського елемента
 
-Виконайте історію користувача та пройдіть тести, наведені нижче, щоб завершити цей проєкт. Оформте за власним стилем. Щасливого програмування!
+Виконайте історію користувача та пройдіть тести, наведені нижче, щоб завершити цей проєкт. Оформіть за вашим власним стилем. Щасливого кодування!
 
 **Примітка:** переконайтеся, що додали `<link rel="stylesheet" href="styles.css">` до HTML для прив’язки з аркушем стилів та застосували CSS
 

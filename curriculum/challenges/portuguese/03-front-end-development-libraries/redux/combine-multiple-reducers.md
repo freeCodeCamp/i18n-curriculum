@@ -8,7 +8,7 @@ dashedName: combine-multiple-reducers
 
 # --description--
 
-Quando o estado do seu app começa a se tornar mais complexo, pode ser tentador dividir o estado em várias partes. Em vez disso, lembre-se do primeiro princípio do Redux: todos os estados do aplicativo são mantidos em um único objeto de estado na store. Portanto, Redux fornece a composição do redutor como solução para um modelo de estado complexo. Você define vários reducers para lidar com diferentes partes do estado da sua aplicação, e então compõe estes reducers em um único reducer raiz. O reducer raiz é então passado para o método Redux `createStore()`.
+When the state of your app begins to grow more complex, it may be tempting to divide state into multiple pieces. Instead, remember the first principle of Redux: all app state is held in a single state object in the store. Therefore, Redux provides reducer composition as a solution for a complex state model. You define multiple reducers to handle different pieces of your application's state, then compose these reducers together into one root reducer. The root reducer is then passed into the Redux `createStore()` method.
 
 Para que possamos combinar múltiplos reducers juntos, o Redux fornece o método `combineReducers()`. Este método aceita um objeto como argumento no qual você define propriedades que associam chaves a funções específicas de reducer. Os nomes que você der às chaves serão usados pelo Redux para pedaço do nome associado do state.
 

@@ -8,7 +8,7 @@ dashedName: register-a-store-listener
 
 # --description--
 
-Іншим методом, до якого ви маєте доступ в об’єкті сховища Redux, є `store.subscribe()`. Він дозволяє прив’язати функції слухача до сховища, які викликаються, коли у сховищі відбувається дія. Простим використанням цього методу є написання функції у сховищі, що просто записує повідомлення щоразу, коли надходить дія та оновлюється сховище.
+Another method you have access to on the Redux `store` object is `store.subscribe()`. This allows you to subscribe listener functions to the store, which are called whenever an action is dispatched against the store. One simple use for this method is to subscribe a function to your store that simply logs a message every time an action is received and the store is updated.
 
 # --instructions--
 

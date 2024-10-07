@@ -9,9 +9,9 @@ dashedName: check-radio-buttons-and-checkboxes-by-default
 
 # --description--
 
-Mit dem Attribut `checked` kannst du eine Checkbox oder ein Radiobutton so einstellen, dass diese standardmäßig aktiviert sind.
+You can set a checkbox or radio button to be checked by default using the `checked` attribute.
 
-Füge dazu einfach das Wort `checked` innerhalb des `input` Elements ein. Zum Beispiel:
+Füge dazu einfach das Wort `checked` innerhalb des `input` Elements ein. Hier ein Beispiel:
 
 ```html
 <input type="radio" name="test-name" checked>

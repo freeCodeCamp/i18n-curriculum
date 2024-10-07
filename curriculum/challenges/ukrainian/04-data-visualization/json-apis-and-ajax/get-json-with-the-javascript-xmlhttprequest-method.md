@@ -8,7 +8,7 @@ dashedName: get-json-with-the-javascript-xmlhttprequest-method
 
 # --description--
 
-Ви можете надіслати запит на дані із зовнішніх джерел. Саме тут використовуються API.
+You can also request data from an external source. This is where APIs come into play.
 
 Пам’ятайте, що API (прикладний програмний інтерфейс) — це інструменти, які дозволяють комп’ютерам обмінюватись інформацією один з одним. Ви дізнаєтесь, як оновити HTML з даними, отриманими з API, за допомогою технології AJAX.
 

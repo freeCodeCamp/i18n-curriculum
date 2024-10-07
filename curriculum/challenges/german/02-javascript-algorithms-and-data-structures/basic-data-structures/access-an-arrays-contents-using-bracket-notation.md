@@ -8,7 +8,7 @@ dashedName: access-an-arrays-contents-using-bracket-notation
 
 # --description--
 
-Die grundlegende Eigenschaft jeder Datenstruktur ist natürlich die Fähigkeit, nicht nur Daten zu speichern, sondern diese Daten auch auf Befehl abrufen zu können. Nachdem wir nun gelernt haben, wie man ein Array erstellt, wollen wir uns überlegen, wie wir auf die Informationen in diesem Array zugreifen können.
+The fundamental feature of any data structure is, of course, the ability to not only store data, but to be able to retrieve that data on command. So, now that we've learned how to create an array, let's begin to think about how we can access that array's information.
 
 Wenn wir ein einfaches Array wie unten definieren, sind darin 3 Elemente enthalten:
 

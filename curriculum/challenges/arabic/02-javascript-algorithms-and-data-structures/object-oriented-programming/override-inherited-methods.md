@@ -8,7 +8,7 @@ dashedName: override-inherited-methods
 
 # --description--
 
-في الدروس السابقة، تعلمت أن الـ object يمكن أن يرث سلوكه (methods) من object آخر عن طريق الإشارة إلى الـ `prototype` الخاص بهذا الـ object:
+In previous lessons, you learned that an object can inherit its behavior (methods) from another object by referencing its `prototype` object:
 
 ```js
 ChildObject.prototype = Object.create(ParentObject.prototype);
@@ -38,7 +38,7 @@ Bird.prototype.eat = function() {
 
 إذا كان لديك instance مثل `let duck = new Bird();` واستدعيت `duck.eat()`، هذه هي الطريقة التي يبحث بها جافا سكريبت عن method على سلسلة الـ `prototype` الخاص بـ `duck`:
 
-1.  `duck` => Is `eat()` معرف هنا؟ لا.
+1.  `duck` => Is `eat()` defined here? No.
 2.  `Bird` => Is `eat()` معرف هنا؟ => نعم. قم بتنفيذه و إيقاف البحث.
 3.  `Animal` => `eat()` تم تعريفه أيضًا ، ولكن جافا سكريبت توقف عن البحث قبل الوصول إلى هذا المستوى.
 4.  Object => جافا سكريبت توقف عن البحث قبل الوصول إلى هذا المستوى.

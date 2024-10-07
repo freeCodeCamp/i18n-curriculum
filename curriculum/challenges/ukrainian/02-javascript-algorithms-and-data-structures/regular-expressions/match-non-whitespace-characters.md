@@ -8,7 +8,7 @@ dashedName: match-non-whitespace-characters
 
 # --description--
 
-Ви дізнались, як шукати пробіли за допомогою `\s` з `s` у нижньому регістрі. Ви можете також шукати все, крім пробілів.
+You learned about searching for whitespace using `\s`, with a lowercase `s`. You can also search for everything except whitespace.
 
 Ви можете шукати символи, які не є пробілами, використовуючи `\S` з `s` у верхньому регістрі. Цей шаблон не знайде збіги символів пробілу, повернення каретки, табуляції, розриву сторінки та нового рядка. Можна вважати, що це схоже на символьний клас `[^ \r\t\f\n\v]`.
 

@@ -8,7 +8,7 @@ dashedName: implement-selection-sort
 
 # --description--
 
-Тут ми виконаємо сортування вибором. Сортування вибором вибирає мінімальне значення у списку та міняє його місцями з першим значенням у списку. Потім початок йде з другої позиції, обирається найменше значення з решти списку і воно стає на місце другого елементу. Процес зміни місць продовжується, доки не дійдемо до кінця списку. Тепер список відсортовано. Сортування вибором завжди має квадратичну часову складність.
+Here we will implement selection sort. Selection sort works by selecting the minimum value in a list and swapping it with the first value in the list. It then starts at the second position, selects the smallest value in the remaining list, and swaps it with the second element. It continues iterating through the list and swapping elements until it reaches the end of the list. Now the list is sorted. Selection sort has quadratic time complexity in all cases.
 
 **Інструкція:** напишіть функцію `selectionSort`, яка приймає масив цілих чисел як вхідні дані та повертає масив цих цілих чисел у відсортованому порядку (від найменшого до найбільшого).
 

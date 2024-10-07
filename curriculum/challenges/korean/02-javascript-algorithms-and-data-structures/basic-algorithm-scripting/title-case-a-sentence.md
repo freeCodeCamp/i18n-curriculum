@@ -8,7 +8,7 @@ dashedName: title-case-a-sentence
 
 # --description--
 
-주어진 문자열을 반환하되, 각 단어의 첫 글자를 대문자로 만듭니다. 나머지 부분은 모두 소문자여야 합니다.
+Return the provided string with the first letter of each word capitalized. Make sure the rest of the word is in lower case.
 
 이 연습의 목적을 위해 `the`와 `of`와 같은 연결 단어도 대문자여야 합니다.
 

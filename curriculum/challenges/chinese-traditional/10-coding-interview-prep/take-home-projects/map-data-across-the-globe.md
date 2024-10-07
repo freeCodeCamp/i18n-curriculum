@@ -10,19 +10,19 @@ dashedName: map-data-across-the-globe
 
 **Objective:** Build an app that is functionally similar to this: <https://codepen.io/freeCodeCamp/full/mVEJag>.
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+完成以下需求，並且通過所有測試。 你可以使用你需要的任何庫或 API。 可以用你自己的樣式來完成。
 
-**User Story:** I can see where all Meteorites landed on a world map.
+**用戶故事：** 我可以看到所有隕石落在世界地圖上的位置。
 
-**User Story:** I can tell the relative size of the meteorite, just by looking at the way it's represented on the map.
+**用戶故事：** 我可以通過查看隕石在地圖上的表示方式來判斷隕石的相對大小。
 
-**User Story:** I can mouse over the meteorite's data point for additional data.
+**用戶故事：** 我可以將鼠標懸停在隕石的數據點上以獲取更多數據。
 
-**Hint:** Here's a dataset you can use to build this: <https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/meteorite-strike-data.json>
+**提示：** 這是一個可用於構建此數據集的數據集：<https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/meteorite-strike-data.json>。
 
-When you are finished, include a link to your project on CodePen and click the "I've completed this challenge" button.
+完成後，單擊“我已完成此挑戰”按鈕並添加一個指向 CodePen 的鏈接。
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+可以分享你的項目到 <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp 論壇</a>上獲得反饋。
 
 # --solutions--
 

@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: developing-a-port-scanner
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-¿Cuál es la diferencia principal entre los métodos `.connect()` y `.connect_ex()`?
+What is the main difference between the `.connect()` and `.connect_ex()` methods?
 
 ## --answers--
 

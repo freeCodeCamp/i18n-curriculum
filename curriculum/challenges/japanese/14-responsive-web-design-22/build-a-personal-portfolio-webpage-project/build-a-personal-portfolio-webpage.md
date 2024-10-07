@@ -8,12 +8,12 @@ dashedName: build-a-personal-portfolio-webpage
 
 # --description--
 
-**目標:** <a href="https://personal-portfolio.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://personal-portfolio.freecodecamp.rocks</a> と似た機能を持つアプリを作成してください。 **このデモプロジェクトをコピーしないでください**。
+**Objective:** Build an app that is functionally similar to <a href="https://personal-portfolio.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://personal-portfolio.freecodecamp.rocks</a>. **Do not copy this demo project**.
 
 
 **ユーザーストーリー:**
 
-1. あなたのポートフォリオには `id` が `welcome-section` に設定されているウェルカムセクションが 1 つあります
+1. Your portfolio should have a welcome section with an `id` of `welcome-section`
 1. そのウェルカムセクションにはテキストを含む `h1` 要素が 1 つあります
 1. あなたのポートフォリオには `id` が `projects` に設定されているプロジェクトセクションが 1 つあります
 1. プロジェクトセクションには、プロジェクトを入れるために、`class` の値が `project-tile` である要素が少なくとも 1 つあります

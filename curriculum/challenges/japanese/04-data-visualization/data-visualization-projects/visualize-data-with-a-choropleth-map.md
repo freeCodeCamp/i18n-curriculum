@@ -8,7 +8,7 @@ dashedName: visualize-data-with-a-choropleth-map
 
 # --description--
 
-**目標:** こちらと似た機能を持つアプリを構築してください: <a href="https://choropleth-map.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://choropleth-map.freecodecamp.rocks</a>
+**Objective:** Build an app that is functionally similar to this: <a href="https://choropleth-map.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://choropleth-map.freecodecamp.rocks</a>.
 
 以下のユーザーストーリーを満たし、すべてのテストが成功するようにしてください。 必要に応じて、どのようなライブラリあるいは API を使用してもかまいません。 あなた独自のアレンジを加えましょう。
 
@@ -32,16 +32,16 @@ HTML、JavaScript、CSS、および D3 の SVG ベースのビジュアライゼ
 
 **ユーザーストーリー #9:** 凡例を塗りつぶすのに使用する 4 種類以上の色が必要です。
 
-**ユーザーストーリー #10:** ある領域にマウスカーソルを合わせると、その領域の詳細情報を表示するための、対応する `id="tooltip"` を持つツールチップが表示されます。
+**ユーザーストーリー #10:**マウスをエリアの上に移動させ、エリアについての更なる情報を表示する `id="tooltip"` に対応したツールチップを表示できます。
 
 **ユーザーストーリー #11:** 私のツールチップには、アクティブな領域の `data-education` に対応する `data-education` プロパティが必要です。
 
 このプロジェクトを完了するために必要なデータセットはこちらにあります:
 
--   **米国の教育データ: **`https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/for_user_education.json`
+-   **US Education Data:**`https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/for_user_education.json`
 -   **米国の郡データ:** `https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/counties.json`
 
-<a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">この CodePen テンプレートを使用して</a> あなたのプロジェクトを構築することができます。`Save` をクリックすると、あなた用の pen を作成することができます。 または、下記の CDN リンクを使用して、使い慣れている環境でテストを実行することもできます:`https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
+<a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">この CodePen テンプレートを使用して</a>あなたのプロジェクトを構築することができます。`Save` をクリックすると、あなた用の pen を作成することができます。 または、下記の CDN リンクを使用して、使い慣れている環境でテストを実行することもできます: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
 
 完了したら、すべてのテストが成功する状態の作業プロジェクトの URL を送信してください。
 

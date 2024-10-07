@@ -9,7 +9,7 @@ dashedName: introducing-else-if-statements
 
 # --description--
 
-Se hai più condizioni che devono essere valutate, puoi concatenare le istruzioni `if` con le istruzioni `else if`.
+If you have multiple conditions that need to be addressed, you can chain `if` statements together with `else if` statements.
 
 ```js
 if (num > 15) {

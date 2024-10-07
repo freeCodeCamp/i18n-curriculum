@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d403618b
-title: Give Sibling Elements a Unique Key Attribute
+title: 형제 엘리먼트에 고유한 키 속성 제공하기
 challengeType: 6
 forumTopicId: 301394
 dashedName: give-sibling-elements-a-unique-key-attribute
@@ -10,17 +10,17 @@ dashedName: give-sibling-elements-a-unique-key-attribute
 
 The last challenge showed how the `map` method is used to dynamically render a number of elements based on user input. However, there was an important piece missing from that example. When you create an array of elements, each one needs a `key` attribute set to a unique value. React uses these keys to keep track of which items are added, changed, or removed. This helps make the re-rendering process more efficient when the list is modified in any way.
 
-**Note:** Keys only need to be unique between sibling elements, they don't need to be globally unique in your application.
+**참고:** 키는 형제 엘리먼트 사이에서만 다르면 되고, 애플리케이션 전체적으로 다를 필요는 없습니다.
 
 # --instructions--
 
-The code editor has an array with some front end frameworks and a stateless functional component named `Frameworks()`. `Frameworks()` needs to map the array to an unordered list, much like in the last challenge. Finish writing the `map` callback to return an `li` element for each framework in the `frontEndFrameworks` array. This time, make sure to give each `li` a `key` attribute, set to a unique value. The `li` elements should also contain text from `frontEndFrameworks`.
+코드 편집기에는 프론트엔드 프레임워크의 이름을 담은 배열과 상태가 없는 함수형 컴포넌트 `Frameworks()`가 있습니다. `Frameworks()`는 지난 도전과 마찬가지로 배열을 순서가 없는 리스트로 매핑(map)합니다. `frontEndFrameworks` 배열의 각 프레임워크에 대해 `li` 엘리먼트를 반환하는 `map` 콜백을 작성해보세요. 이번에는 각 `li`에 고유의 값으로 설정된 `key` 속성을 제공해보세요. `li` 엘리먼트는 `frontEndFrameworks`의 텍스트도 포함되어야 합니다.
 
-Normally, you want to make the key something that uniquely identifies the element being rendered. As a last resort the array index may be used, but typically you should try to use a unique identification.
+보통 렌더링되는 엘리먼트를 고유하게 식별할 수 있는 키를 만듭니다. 마지막 수단으로 배열의 인덱스를 사용할 수도 있지만, 보통 고유한 아이디를 사용해야 합니다.
 
 # --hints--
 
-The `Frameworks` component should exist and render to the page.
+`Frameworks` 컴포넌트는 존재하고, 페이지에 렌더링되어야 합니다.
 
 ```js
 assert(
@@ -28,19 +28,19 @@ assert(
 );
 ```
 
-`Frameworks` should render an `h1` element.
+`Frameworks`는 `h1` 엘리먼트를 렌더링해야 합니다.
 
 ```js
 assert(Enzyme.mount(React.createElement(Frameworks)).find('h1').length === 1);
 ```
 
-`Frameworks` should render a `ul` element.
+`Frameworks`는 `ul` 엘리먼트를 렌더링해야 합니다.
 
 ```js
 assert(Enzyme.mount(React.createElement(Frameworks)).find('ul').length === 1);
 ```
 
-The `ul` tag should render 6 child `li` elements.
+`ul`는 여섯 개의 `li` 엘리먼트를 렌더링해야 합니다.
 
 ```js
 assert(
@@ -54,7 +54,7 @@ assert(
 );
 ```
 
-Each list item element should have a unique `key` attribute.
+각 리스트 아이템 엘리먼트는 고유한 `key` 속성을 가지고 있어야 합니다.
 
 ```js
 assert(
@@ -73,7 +73,7 @@ assert(
 );
 ```
 
-Each list item element should contain text from `frontEndFrameworks`.
+각 리스트 아이템 엘리먼트는 `frontEndFrameworks`의 텍스트를 포함해야 합니다.
 
 ```js
 assert(

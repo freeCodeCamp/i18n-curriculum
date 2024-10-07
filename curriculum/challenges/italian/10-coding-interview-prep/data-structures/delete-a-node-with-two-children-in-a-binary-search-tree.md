@@ -8,7 +8,7 @@ dashedName: delete-a-node-with-two-children-in-a-binary-search-tree
 
 # --description--
 
-Rimuovere i nodi che hanno due figli è il caso più difficile da implementare. Rimuovere un nodo come questo produce due sotto-alberi che non sono più collegati alla struttura originale dell'albero. Come possiamo ricollegarli? Un metodo è quello di trovare il valore più piccolo nel sottoalbero destro del nodo obiettivo e sostituire il nodo obiettivo con questo valore. Selezionare il rimpiazzo in questo modo assicura che sia maggiore di ogni nodo nel sottoalbero sinistro di cui diventa il nuovo genitore ma anche minore di ogni nodo nel sottoalbero destro di cui diventa il nuovo genitore. Una volta effettuata la sostituzione, il nodo di rimpiazzo deve essere rimosso dal sotto-albero destro. Anche questa operazione è difficile perché il rimpiazzo può essere una foglia o può essere di per sé il genitore di un sottoalbero destro. Se si tratta di una foglia dobbiamo eliminare il riferimento nel suo genitore. In caso contrario, deve essere il figlio destro del nodo obiettivo. In questo caso, dobbiamo sostituire il valore obiettivo con il valore di sostituzione e far sì che il riferimento dell'obiettivo punti al figlio destro del sostituto.
+Removing nodes that have two children is the hardest case to implement. Removing a node like this produces two subtrees that are no longer connected to the original tree structure. How can we reconnect them? One method is to find the smallest value in the right subtree of the target node and replace the target node with this value. Selecting the replacement in this way ensures that it is greater than every node in the left subtree it becomes the new parent of but also less than every node in the right subtree it becomes the new parent of. Once this replacement is made the replacement node must be removed from the right subtree. Even this operation is tricky because the replacement may be a leaf or it may itself be the parent of a right subtree. If it is a leaf we must remove its parent's reference to it. Otherwise, it must be the right child of the target. In this case, we must replace the target value with the replacement value and make the target reference the replacement's right child.
 
 # --instructions--
 
@@ -16,7 +16,7 @@ Finiamo il nostro metodo `remove` gestendo il terzo caso. Abbiamo fornito di nuo
 
 # --hints--
 
-La struttura di dati `BinarySearchTree` dovrebbe esistere.
+La struttura dati `BinarySearchTree` dovrebbe esistere.
 
 ```js
 assert(

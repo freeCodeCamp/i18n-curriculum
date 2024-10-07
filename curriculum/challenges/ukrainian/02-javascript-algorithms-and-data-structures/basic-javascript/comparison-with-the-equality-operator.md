@@ -9,7 +9,7 @@ dashedName: comparison-with-the-equality-operator
 
 # --description--
 
-У JavaScript існує багато <dfn>операторів порівняння</dfn>. Всі ці оператори повертають логічне значення `true` або `false`.
+There are many <dfn>comparison operators</dfn> in JavaScript. All of these operators return a boolean `true` or `false` value.
 
 Основним є оператор «дорівнює» (`==`). Оператор «дорівнює» порівнює два значення та повертає `true`, якщо вони еквівалентні. В іншому випадку він повертає `false`. Зверніть увагу, що рівність відрізняється від присвоєння (`=`), яке присвоює значення праворуч від оператора до змінної зліва.
 

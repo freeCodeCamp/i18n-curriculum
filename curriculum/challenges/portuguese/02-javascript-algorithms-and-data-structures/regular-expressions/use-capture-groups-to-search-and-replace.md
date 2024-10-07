@@ -8,7 +8,7 @@ dashedName: use-capture-groups-to-search-and-replace
 
 # --description--
 
-Buscar texto é útil. É ainda mais útil quando você consegue modificar (ou substituir) o texto que você busca.
+Searching is useful. However, you can make searching even more powerful when it also changes (or replaces) the text you match.
 
 Você pode buscar e substituir texto em uma string usando o método `.replace()`. O primeiro parâmetro do `.replace()` é o padrão regex que você quer procurar. O segundo parâmetro é a string que substituirá o resultado da busca ou uma função que fará algo com ele.
 

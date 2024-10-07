@@ -8,7 +8,7 @@ dashedName: get-state-from-the-redux-store
 
 # --description--
 
-Redux の store オブジェクトには、ストアとのやり取りを可能にするメソッドがいくつか用意されています。 たとえば `getState()` メソッドを使用すると、Redux の store オブジェクトに保持されている現在の `state` を取得できます。
+The Redux store object provides several methods that allow you to interact with it. For example, you can retrieve the current `state` held in the Redux store object with the `getState()` method.
 
 # --instructions--
 

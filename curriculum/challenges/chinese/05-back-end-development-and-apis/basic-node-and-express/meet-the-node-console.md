@@ -8,17 +8,17 @@ dashedName: meet-the-node-console
 
 # --description--
 
-你可以采用下面的任意一种编写代码的方式来完成这些挑战：
+Working on these challenges will involve you writing your code using one of the following methods:
 
-- 克隆<a href="https://github.com/freeCodeCamp/boilerplate-express/" target="_blank" rel="noopener noreferrer nofollow">这个 GitHub 仓库</a>，并在本地完成这些挑战。
+- Clone <a href="https://github.com/freeCodeCamp/boilerplate-express/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete these challenges locally.
 - 使用<a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-express/" target="_blank" rel="noopener noreferrer nofollow">我们的 Gitpod 初始项目</a>来完成这些挑战。
 - 使用你选择的网站生成器来完成项目。 需要包含我们 GitHub 仓库的所有文件。
 
-在开发过程中，能够随时看到代码的运行结果是非常重要的。
+During the development process, it is important to be able to check what’s going on in your code.
 
-Node 只是一个 JavaScript 环境。 与客户端 JavaScript 一样，你可以使用控制台显示有用的调试信息。 在你的本地计算机上，你可以在终端中看到控制台输出。 在 Gitpod，默认情况下在编辑器底部打开了终端。
+Node is just a JavaScript environment. Like client side JavaScript, you can use the console to display useful debug information. On your local machine, you would see console output in a terminal. 在 Gitpod，默认情况下在编辑器底部打开了终端。
 
-我们建议在做这些挑战题时保持终端打开的状态。 通过阅读终端的输出，你可以看到可能发生的任何错误。
+We recommend to keep the terminal open while working at these challenges. By reading the output in the terminal, you can see any errors that may occur.
 
 更改文件后必须重新启动服务器。
 
@@ -30,11 +30,11 @@ Node 只是一个 JavaScript 环境。 与客户端 JavaScript 一样，你可�
 
 # --instructions--
 
-修改 `myApp.js` 文件，在控制台打印出 “Hello World”。
+Modify the `myApp.js` file to log "Hello World" to the console.
 
 # --hints--
 
-控制台应该输出 `"Hello World"`。
+`"Hello World"` should be in the console
 
 ```js
 (getUserInput) =>

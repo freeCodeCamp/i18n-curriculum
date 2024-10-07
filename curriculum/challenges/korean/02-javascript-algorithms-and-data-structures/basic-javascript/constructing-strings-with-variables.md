@@ -1,6 +1,6 @@
 ---
 id: 56533eb9ac21ba0edf2244b9
-title: Constructing Strings with Variables
+title: 변수들을 사용해 문자열을 제작하기
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cqk8rf4'
 forumTopicId: 16805
@@ -11,28 +11,28 @@ dashedName: constructing-strings-with-variables
 
 Sometimes you will need to build a string. By using the concatenation operator (`+`), you can insert one or more variables into a string you're building.
 
-Example:
+예:
 
 ```js
 const ourName = "freeCodeCamp";
 const ourStr = "Hello, our name is " + ourName + ", how are you?";
 ```
 
-`ourStr` would have a value of the string `Hello, our name is freeCodeCamp, how are you?`.
+`ourStr`의 값은 문자열 `Hello, our name is freeCodeCamp, how are you?`이 됩니다.
 
 # --instructions--
 
-Set `myName` to a string equal to your name and build `myStr` with `myName` between the strings `My name is` and `and I am well!`
+`myName`에 당신의 이름을 문자열을 넣고, 문자열 `My name is` 와 `and I am well!` 사이에 `myName`을 삽입한 `myStr`을 작성하세요.
 
 # --hints--
 
-`myName` should be set to a string at least 3 characters long.
+`myName`에는 3글자 이상의 길이를 가지는 문자열을 넣어야 합니다.
 
 ```js
 assert(typeof myName !== 'undefined' && myName.length > 2);
 ```
 
-You should use two `+` operators to build `myStr` with `myName` inside it.
+당신은 2개의 `+` 연산자를 사용해서 `myName`가 내부에 있는 `myStr`을 작성해야 합니다.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/["']\s*\+\s*myName\s*\+\s*["']/g).length > 0);

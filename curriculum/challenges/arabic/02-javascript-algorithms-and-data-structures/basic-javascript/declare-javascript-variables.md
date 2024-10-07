@@ -9,7 +9,7 @@ dashedName: declare-javascript-variables
 
 # --description--
 
-في علم الحاسوب (computer science)، تكون <dfn>البيانات</dfn> أي شيء ذو معني للحاسوب. يوفر JavaScript ثماني <dfn>أنواع بيانات</dfn> مختلفة و هي كالآتي `undefined`, و`null`, و`boolean`, و`string`, و`symbol`, و`bigint`, و`number`, و `object`.
+In computer science, <dfn>data</dfn> is anything that is meaningful to the computer. JavaScript provides eight different <dfn>data types</dfn> which are `undefined`, `null`, `boolean`, `string`, `symbol`, `bigint`, `number`, and `object`.
 
 على سبيل المثال، يقوم الحاسوب بالتمييز بين الأرقام، مثل الرَّقَم `12` و `strings` مثل `"12"` و `"dog"` أو `"123 cats"`, وهي مجموعات من الرموز. يمكن للحواسيب عمليات رياضية على الأعداد، ولكن ليس على المقاطع النصية (strings).
 

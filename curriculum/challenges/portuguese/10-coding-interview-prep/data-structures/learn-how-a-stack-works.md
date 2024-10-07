@@ -8,7 +8,7 @@ dashedName: learn-how-a-stack-works
 
 # --description--
 
-Você provavelmente está familiarizado com uma pilha de livros sobre sua mesa. Você provavelmente usou o recurso de desfazer de um editor de texto. Você também já deve estar acostumado a apertar o botão voltar no seu telefone para voltar ao modo de exibição anterior no seu aplicativo.
+You are probably familiar with stack of books on your table. You have likely used the undo feature of a text editor. You are also probably used to hitting the back button on your phone to go back to the previous view in your app.
 
 Sabem o que eles têm em comum? Todos eles armazenam os dados de uma maneira para que você possa percorrer os dados no sentido inverso.
 

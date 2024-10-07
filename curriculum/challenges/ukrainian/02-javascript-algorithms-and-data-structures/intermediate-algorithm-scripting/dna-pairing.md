@@ -8,7 +8,7 @@ dashedName: dna-pairing
 
 # --description--
 
-Пари ланцюжків ДНК складаються з нуклеотидів. Базові пари позначаються символами <em>AT</em> та <em>CG</em>, які утворюють будівельні блоки подвійної спіралі ДНК.
+Pairs of DNA strands consist of nucleobase pairs. Base pairs are represented by the characters <em>AT</em> and <em>CG</em>, which form building blocks of the DNA double helix.
 
 В ланцюжку ДНК відсутній один елемент. Напишіть функцію для пошуку відсутніх базових пар для наданого ланцюжка ДНК. Знайдіть відповідний символ для кожного символу в наданому рядку. Поверніть результати як 2d-масив.
 

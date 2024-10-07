@@ -9,7 +9,7 @@ dashedName: use-bracket-notation-to-find-the-first-character-in-a-string
 
 # --description--
 
-方括号表示法（<dfn>Bracket notation</dfn>）是一种在字符串中的特定 index（索引）处获取字符的方法。
+<dfn>Bracket notation</dfn> is a way to get a character at a specific index within a string.
 
 大多数现代编程语言，如 JavaScript，不同于人类从 1 开始计数。 它们是从 0 开始计数。 这被称为基于零（<dfn>Zero-based</dfn>）的索引。
 

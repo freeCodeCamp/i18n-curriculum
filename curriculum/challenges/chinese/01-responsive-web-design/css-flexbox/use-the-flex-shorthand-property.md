@@ -9,7 +9,7 @@ dashedName: use-the-flex-shorthand-property
 
 # --description--
 
-上面几个 flex 属性有一个简写方式。 `flex-grow`、`flex-shrink` 和 `flex-basis` 属性可以在 `flex` 中一并设置。
+There is a shortcut available to set several flex properties at once. The `flex-grow`, `flex-shrink`, and `flex-basis` properties can all be set together by using the `flex` property.
 
 例如，`flex: 1 0 10px;` 会把项目属性设为 `flex-grow: 1;`、`flex-shrink: 0;` 以及 `flex-basis: 10px;`。
 

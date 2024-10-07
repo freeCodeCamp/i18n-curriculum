@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: web-services-apis
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-What does API stand for?
+¿Qué significa API?
 
 ## --answers--
 

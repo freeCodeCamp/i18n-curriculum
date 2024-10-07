@@ -9,7 +9,7 @@ dashedName: adjust-the-hue-of-a-color
 
 # --description--
 
-I colori hanno diverse caratteristiche tra cui tonalità, saturazione e luminosità. CSS3 ha introdotto la funzione `hsl()` (hue-tonalità, saturation-saturazione, lightness-luminosità) come metodo alternativo per scegliere un colore indicando direttamente queste caratteristiche.
+Colors have several characteristics including hue, saturation, and lightness. CSS3 introduced the `hsl()` function as an alternative way to pick a color by directly stating these characteristics.
 
 **Tonalità** è ciò che la gente generalmente intende come 'colore'. Se si immagina uno spettro di colori che inizia con il rosso a sinistra, passando attraverso il verde nel mezzo, e blu a destra, la tonalità è dove un colore si posiziona lungo questa linea. Con l'`hsl()`, la tonalità utilizza il concetto del cerchio cromatico invece dello spettro, dove l'angolo del colore sul cerchio è indicato come valore compreso tra 0 e 360.
 
@@ -19,7 +19,7 @@ I colori hanno diverse caratteristiche tra cui tonalità, saturazione e luminosi
 
 Ecco alcuni esempi di utilizzo dell'`hsl()` con colori di luminosità normali completamente saturati:
 
-<table><thead><tr><th>Colore</th><th>HSL</th></tr></thead><tbody><tr><td>rosso</td><td>hsl(0, 100%, 50%)</td></tr><tr><td>giallo</td><td>hsl(60, 100%, 50%)</td></tr><tr><td>verde</td><td>hsl(120, 100%, 50%)</td></tr><tr><td>ciano</td><td>hsl(180, 100%, 50%)</td></tr><tr><td>blu</td><td>hsl(240, 100%, 50%)</td></tr><tr><td>magenta</td><td>hsl(300, 100%, 50%)</td></tr></tbody></table>
+<table><thead><tr><th>Color</th><th>HSL</th></tr></thead><tbody><tr><td>red</td><td>hsl(0, 100%, 50%)</td></tr><tr><td>yellow</td><td>hsl(60, 100%, 50%)</td></tr><tr><td>green</td><td>hsl(120, 100%, 50%)</td></tr><tr><td>cyan</td><td>hsl(180, 100%, 50%)</td></tr><tr><td>blue</td><td>hsl(240, 100%, 50%)</td></tr><tr><td>magenta</td><td>hsl(300, 100%, 50%)</td></tr></tbody></table>
 
 # --instructions--
 

@@ -8,7 +8,7 @@ dashedName: add-a-hover-effect-to-a-d3-element
 
 # --description--
 
-ユーザーがバーにマウスカーソルを合わせた時にバーがハイライトされるように、効果を追加することができます。 これまでのところ、長方形のスタイリングには D3 と SVG の組み込みメソッドが適用されていますが、CSS も使用できます。
+It's possible to add effects that highlight a bar when the user hovers over it with the mouse. So far, the styling for the rectangles is applied with the built-in D3 and SVG methods, but you can use CSS as well.
 
 `attr()` メソッドを使用して、CSS クラスを SVG 要素に設定します。 その後、新しいクラスの `:hover` 疑似クラスによって、あらゆるホバーエフェクトのスタイルルールが保持されます。
 

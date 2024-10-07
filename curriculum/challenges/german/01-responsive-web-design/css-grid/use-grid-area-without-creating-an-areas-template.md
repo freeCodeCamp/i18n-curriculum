@@ -9,7 +9,7 @@ dashedName: use-grid-area-without-creating-an-areas-template
 
 # --description--
 
-Die Eigenschaft `grid-area`, die du in der letzten Aufgabe kennengelernt hast, kann auf eine andere Weise verwendet werden. Wenn dein Raster keine Bereichsvorlage hat, kannst du einen Bereich für ein Element erstellen, das wie folgt platziert werden soll:
+The `grid-area` property you learned in the last challenge can be used in another way. If your grid doesn't have an areas template to reference, you can create an area on the fly for an item to be placed like this:
 
 ```css
 item1 { grid-area: 1/1/2/4; }

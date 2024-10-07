@@ -11,7 +11,7 @@ dashedName: remove-classes-from-an-element-with-jquery
 
 # --description--
 
-和用 jQuery 的 `addClass()` 方法給標籤添加類一樣，也可以利用 jQuery 的 `removeClass()` 方法移除它們。
+In the same way you can add classes to an element with jQuery's `addClass()` function, you can remove them with jQuery's `removeClass()` function.
 
 下面是爲指定按鈕執行上面的操作的代碼：
 

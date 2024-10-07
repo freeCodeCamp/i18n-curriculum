@@ -8,7 +8,7 @@ dashedName: create-a-complex-jsx-element
 
 # --description--
 
-التحدي الأخير كان المثال بسيطاً على JSX، ولكن JSX يمكن أن يمثل HTML أكثر تعقيداً أيضاً.
+The last challenge was a simple example of JSX, but JSX can represent more complex HTML as well.
 
 أحد الأشياء المهمة التي يجب أن تعلمها عن تداخل JSX هو أنه يجب أن ينتج عنصر واحد.
 

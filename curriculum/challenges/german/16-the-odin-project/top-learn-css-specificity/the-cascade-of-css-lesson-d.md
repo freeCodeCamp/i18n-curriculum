@@ -7,7 +7,7 @@ dashedName: the-cascade-of-css-lesson-d
 
 # --description--
 
-Now, let’s change things a little bit:
+Jetzt wollen wir die Dinge ein wenig ändern:
 
 ```html
 <!-- index.html -->
@@ -29,13 +29,13 @@ Now, let’s change things a little bit:
 }
 ```
 
-In the example above, despite rule 2 having more class selectors than ID selectors, rule 1 is more specific because ID beats class.
+Im obigen Beispiel hat Regel 2 zwar mehr Klassenselektoren als ID-Selektoren, aber Regel 1 ist spezifischer, weil ID besser ist als Klasse.
 
 # --questions--
 
 ## --text--
 
-Based on the modified HTML and CSS code, which color would the `<div class="list" id="subsection"></div>` element be rendered as?
+Auf der Grundlage des geänderten HTML- und CSS-Codes würde das `<div class="list" id="subsection"></div>`-Element in welcher Farbe dargestellt werden?
 
 ## --answers--
 
@@ -43,11 +43,11 @@ orange
 
 ---
 
-red
+rot
 
 ---
 
-blue
+blau
 
 ---
 

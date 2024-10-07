@@ -9,7 +9,7 @@ dashedName: lock-an-element-to-its-parent-with-absolute-positioning
 
 # --description--
 
-La siguiente opción para la propiedad CSS `position` es `absolute`, que bloquea el elemento en su lugar en relación con su contenedor principal. A diferencia de la posición `relative`, esto elimina el elemento del flujo normal del documento, por lo que los elementos circundantes lo ignoran. Las propiedades de desplazamiento de CSS (superior o inferior e izquierda o derecha) se utilizan para ajustar la posición.
+The next option for the CSS `position` property is `absolute`, which locks the element in place relative to its parent container. Unlike the `relative` position, this removes the element from the normal flow of the document, so surrounding items ignore it. The CSS offset properties (top or bottom and left or right) are used to adjust the position.
 
 Un matiz del posicionamiento absoluto es que estará bloqueado en relación con su antepasado *posicionado* más cercano. Si olvidas agregar una regla de posición al elemento principal, (esto generalmente se hace usando `position: relative;`), el navegador seguirá buscando en la jerarquía de elementos y, en última instancia tomará por defecto la etiqueta `body`.
 

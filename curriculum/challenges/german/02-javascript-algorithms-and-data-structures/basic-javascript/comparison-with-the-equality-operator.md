@@ -9,7 +9,7 @@ dashedName: comparison-with-the-equality-operator
 
 # --description--
 
-Es gibt viele <dfn>Vergleichsoperatoren</dfn> in JavaScript. Alle diese Operatoren geben einen booleschen `true` oder `false`-Wert zurück.
+There are many <dfn>comparison operators</dfn> in JavaScript. All of these operators return a boolean `true` or `false` value.
 
 Der grundlegendste Operator ist der Gleichheitsoperator `==`. Der Gleichheitsoperator vergleicht zwei Werte und gibt `true` zurück, wenn sie gleichwertig sind oder `false`, wenn sie es nicht sind. Beachte, dass Gleichheit sich von der Zuweisung (`=`) unterscheidet, die den Wert rechts vom Operator einer Variablen links zuweist.
 

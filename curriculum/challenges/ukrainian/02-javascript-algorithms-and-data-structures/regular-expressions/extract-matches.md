@@ -8,7 +8,7 @@ dashedName: extract-matches
 
 # --description--
 
-Наразі ви лише перевіряли, чи існує шаблон у межах рядка. Ви можете вилучати знайдені збіги за допомогою методу `.match()`.
+So far, you have only been checking if a pattern exists or not within a string. You can also extract the actual matches you found with the `.match()` method.
 
 Щоб використати метод `.match()`, застосуйте його до рядка та передайте регулярний вираз всередині дужок.
 

@@ -8,7 +8,7 @@ dashedName: write-a-simple-counter
 
 # --description--
 
-Você pode projetar um componente de estado mais complexo combinando os conceitos abordados até agora. Estes incluem inicializar o `state`, escrever métodos que definem `state`, e atribuir manipuladores de cliques para acionar esses métodos.
+You can design a more complex stateful component by combining the concepts covered so far. These include initializing `state`, writing methods that set `state`, and assigning click handlers to trigger these methods.
 
 # --instructions--
 

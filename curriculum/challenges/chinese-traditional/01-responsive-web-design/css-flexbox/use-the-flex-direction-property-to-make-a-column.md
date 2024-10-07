@@ -9,7 +9,7 @@ dashedName: use-the-flex-direction-property-to-make-a-column
 
 # --description--
 
-在之前兩個挑戰中，我們使用了 `flex-direction` 屬性，值爲 `row`。 這個屬性還能創建一個列，讓子元素豎直排列在 flex 容器中。
+The last two challenges used the `flex-direction` property set to `row`. This property can also create a column by vertically stacking the children of a flex container.
 
 # --instructions--
 

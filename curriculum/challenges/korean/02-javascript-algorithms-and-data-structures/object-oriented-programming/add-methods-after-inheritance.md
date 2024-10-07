@@ -8,7 +8,7 @@ dashedName: add-methods-after-inheritance
 
 # --description--
 
-상위 생성자(supertype constructor) 함수로부터 `prototype` 객체를 상속받은 생성자 함수는 상속받은 메소드 이외에도 자신의 메소드를 가질 수 있습니다.
+A constructor function that inherits its `prototype` object from a supertype constructor function can still have its own methods in addition to inherited methods.
 
 예를 들면, `Bird`는 `Animal`로부터 그 `prototype`를 상속받은 생성자입니다.
 

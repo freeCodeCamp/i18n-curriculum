@@ -8,9 +8,9 @@ dashedName: return-part-of-an-array-using-the-slice-method
 
 # --description--
 
-طريقة `slice` ترجع نسخة من عناصر معينة من ال array. يمكن أن يتطلب الأمر وسيطتين (arguments)، الأولى تعطي فهرس مكان بدء ال slice ، والثانية هي فهرس مكان إنهاء ال slice (وهي غير مشمولة). إذا لم يتم تقديم ال arguments، فإن الافتراضي هو أن يبدأ من بداية ال array حتى النهاية، وهي طريقة سهلة لصنع نسخة من ال array بأكملها. طريقة `slice` لا تغير ال array الأصلية، ولكنها تعيد array جديدة.
+The `slice` method returns a copy of certain elements of an array. It can take two arguments, the first gives the index of where to begin the slice, the second is the index for where to end the slice (and it's non-inclusive). If the arguments are not provided, the default is to start at the beginning of the array through the end, which is an easy way to make a copy of the entire array. The `slice` method does not mutate the original array, but returns a new one.
 
-إليك مثال:
+إليك مثالًا:
 
 ```js
 const arr = ["Cat", "Dog", "Tiger", "Zebra"];

@@ -8,7 +8,7 @@ dashedName: smallest-common-multiple
 
 # --description--
 
-Encontre o menor múltiplo comum dos parâmetros fornecidos que podem ser divididos sem resto por ambos, bem como por todos os números sequenciais no intervalo entre esses parâmetros.
+Find the smallest common multiple of the provided parameters that can be evenly divided by both, as well as by all sequential numbers in the range between these parameters.
 
 O intervalo será um array de dois números que não estará necessariamente em ordem numérica.
 

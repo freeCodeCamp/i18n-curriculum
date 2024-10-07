@@ -1,6 +1,6 @@
 ---
 id: 587d8258367417b2b2512c80
-title: Delete a Leaf Node in a Binary Search Tree
+title: 刪除二叉搜索樹中的葉節點
 challengeType: 1
 forumTopicId: 301637
 dashedName: delete-a-leaf-node-in-a-binary-search-tree
@@ -12,11 +12,11 @@ This is the first of three challenges where we will implement a more difficult o
 
 # --instructions--
 
-Create a method on our binary tree called `remove`. We'll build the logic for our deletion operation in here. First, you'll want to create a function within remove that finds the node we are trying to delete in the current tree. If the node is not present in the tree, `remove` should return `null`. Now, if the target node is a leaf node with no children, then the parent reference to it should be set to `null`. This effectively deletes the node from the tree. To do this, you will have to keep track of the parent of the node we are trying to delete as well. It will also be useful to create a way to track the number of children the target node has, as this will determine which case our deletion falls under. We will handle the second and third cases in the next challenges. Good luck!
+在我們的二叉樹上創建一個名爲 `remove` 的方法。 我們將在這裏爲我們的刪除操作構建邏輯。 首先，你要在 remove 中創建一個函數，找到我們在當前樹中要刪除的節點。 如果樹中不存在該節點，則 `remove` 應返回 `null`。 現在，如果目標節點是沒有子節點的葉子節點，則應將其父節點引用設置爲 `null`。 這有效地從樹中刪除節點。 爲此，您必須跟蹤我們嘗試刪除的節點的父節點。 創建一種跟蹤目標節點具有的子節點數的方法也很有用，因爲這將確定我們的刪除屬於哪種情況。 我們將在接下來的挑戰中處理第二和第三種情況。 祝你好運！
 
 # --hints--
 
-The `BinarySearchTree` data structure should exist.
+`BinarySearchTree` 數據結構應該存在。
 
 ```js
 assert(
@@ -30,7 +30,7 @@ assert(
 );
 ```
 
-The binary search tree should have a method called `remove`.
+二叉搜索樹應該有一個叫做`remove`的方法。
 
 ```js
 assert(
@@ -46,7 +46,7 @@ assert(
 );
 ```
 
-Trying to remove an element from an empty tree should return `null`.
+嘗試從空樹中刪除元素應該返回 `null`。
 
 ```js
 assert(
@@ -65,7 +65,7 @@ assert(
 );
 ```
 
-Trying to remove an element that does not exist should return `null`.
+嘗試刪除不存在的元素應該返回 `null`。
 
 ```js
 assert(
@@ -86,7 +86,7 @@ assert(
 );
 ```
 
-If the root node has no children, deleting it should set the root to `null`.
+如果根節點沒有子節點，刪除它應該將根設置爲 `null`。
 
 ```js
 assert(
@@ -107,7 +107,7 @@ assert(
 );
 ```
 
-The `remove` method should remove leaf nodes from the tree.
+`remove` 方法應該從樹中刪除子節點。
 
 ```js
 assert(

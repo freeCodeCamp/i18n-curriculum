@@ -9,7 +9,7 @@ dashedName: add-different-margins-to-each-side-of-an-element
 
 # --description--
 
-それぞれの側で異なる `margin` を持つように要素をカスタマイズしたい場合もあるでしょう。
+Sometimes you will want to customize an element so that it has a different `margin` on each of its sides.
 
 CSS では `margin-top`, `margin-right`, `margin-bottom`, `margin-left` のプロパティを使用して、要素の 4 つの辺それぞれの `margin` を制御することができます。
 

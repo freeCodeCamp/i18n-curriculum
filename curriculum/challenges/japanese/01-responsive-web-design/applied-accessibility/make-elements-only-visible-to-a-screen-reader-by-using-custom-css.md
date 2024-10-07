@@ -9,7 +9,7 @@ dashedName: make-elements-only-visible-to-a-screen-reader-by-using-custom-css
 
 # --description--
 
-応用アクセシビリティでのこれまでチャレンジでは、CSS を一切使用していないことに気付きましたか？ これは視覚的な要素を導入するより前に、論理的なドキュメントの概要とコンテンツの周りを意味のあるタグで囲むことの方が重要であることを示しています。
+Have you noticed that all of the applied accessibility challenges so far haven't used any CSS? This shows the importance of using a logical document outline and semantically meaningful tags around your content before introducing the visual design aspect.
 
 一方で、スクリーンリーダー専用のコンテンツを視覚的に隠したい場合には、CSS のマジックによってページのアクセシビリティを向上させることが可能です。 この状況は、情報が視覚的なフォーマット (チャートなど) である場合に発生します。スクリーンリーダーユーザーがデータにアクセスするためには別の表現 (表など) が必要になります。 CSS は、スクリーンリーダー専用の要素をブラウザ画面の可視エリア以外の場所に配置するために使用されます。
 
@@ -29,7 +29,7 @@ dashedName: make-elements-only-visible-to-a-screen-reader-by-using-custom-css
 **注:** 以下の CSS によるアプローチでは同じことができません。
 
 <ul>
-<li><code>display: none;</code> または <code>visibility: hidden;</code> はスクリーンリーダーユーザーを含むすべての人からコンテンツを非表示にします。</li>
+<li><code>display: none;</code> or <code>visibility: hidden;</code> hides content for everyone, including screen reader users</li>
 <li><code>width: 0px; height: 0px;</code> といったピクセルサイズが0の値は、ドキュメントの構成からその要素を取り除くため、スクリーンリーダーもこれを無視することを意味します。</li>
 </ul>
 

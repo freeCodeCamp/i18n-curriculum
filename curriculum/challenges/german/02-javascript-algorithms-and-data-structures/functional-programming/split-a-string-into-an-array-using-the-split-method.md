@@ -8,7 +8,7 @@ dashedName: split-a-string-into-an-array-using-the-split-method
 
 # --description--
 
-Die Methode `split` zerlegt einen String in ein Array von Strings. Sie benötigt ein Argument für das Trennzeichen, das ein Zeichen zum Aufbrechen des Strings oder ein regulärer Ausdruck sein kann. Wenn das Begrenzungszeichen zum Beispiel ein Leerzeichen ist, erhältst du ein Array mit Wörtern, und wenn das Begrenzungszeichen ein leerer String ist, erhältst du ein Array mit jedem Zeichen des Strings.
+The `split` method splits a string into an array of strings. It takes an argument for the delimiter, which can be a character to use to break up the string or a regular expression. For example, if the delimiter is a space, you get an array of words, and if the delimiter is an empty string, you get an array of each character in the string.
 
 Hier sind zwei Beispiele, die einen String mit Hilfe eines regulären Ausdrucks nach Leerzeichen und einen anderen nach Ziffern aufteilen:
 

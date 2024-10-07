@@ -8,18 +8,18 @@ dashedName: run-functional-tests-using-a-headless-browser-ii
 
 # --description--
 
-Нагадуємо, що цей проєкт створюється на основі наступного стартового проєкту на <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a> або клонований з <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
+As a reminder, this project is being built upon the following starter project on <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>, or cloned from <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
 
 # --instructions--
 
 У межах `tests/2_functional-tests.js` у тесті `'Submit the surname "Vespucci" in the HTML form'` (`// #6`) автоматизуйте наступне:
 
-1.  Впишіть у форму прізвище `Vespucci`
-2.  Натисніть кнопку підтвердження
+1.  Fill in the form with the surname `Vespucci`
+2.  Press the submit button
 
 У межах кнопки зворотного виклику `pressButton`:
 
-1.  Підтвердьте, що статус становить OK `200`
+1.  Assert that status is OK `200`
 2.  Підтвердьте, що текстом всередині елемента `span#name` є `'Amerigo'`
 3.  Підтвердьте, що текстом всередині елемента `span#surname` є `'Vespucci'`
 4.  Підтвердьте, що елемент(и) `span#dates` існують та їхня кількість дорівнює `1`

@@ -9,9 +9,9 @@ dashedName: modify-array-data-with-indexes
 
 # --description--
 
-A diferencia de las cadenas, las entradas de los arreglos son <dfn>mutables</dfn> y pueden cambiarse libremente, incluso si el arreglo fue declarado con `const`.
+Unlike strings, the entries of arrays are <dfn>mutable</dfn> and can be changed freely, even if the array was declared with `const`.
 
-**Ejemplo**
+**Por ejemplo**
 
 ```js
 const ourArray = [50, 40, 30];

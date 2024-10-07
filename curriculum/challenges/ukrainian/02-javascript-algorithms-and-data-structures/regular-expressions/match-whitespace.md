@@ -8,7 +8,7 @@ dashedName: match-whitespace
 
 # --description--
 
-Наразі завдання стосувались збігу літер алфавіту та чисел. Ви також можете шукати збіги пробілів або проміжків між літерами.
+The challenges so far have covered matching letters of the alphabet and numbers. You can also match the whitespace or spaces between letters.
 
 Ви можете шукати пробіли, використовуючи `\s` з `s` у нижньому регістрі. Цей шаблон знайде збіги не лише пробілу, але й повернення каретки, табуляції, розриву сторінки та нового рядка. Можна вважати, що це схоже на символьний клас `[ \r\t\f\n\v]`.
 

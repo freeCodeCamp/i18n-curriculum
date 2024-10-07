@@ -12,7 +12,7 @@ dashedName: guided-project-work-with-variable-data-in-c-sharp
 1. Перейдіть до <a href="https://learn.microsoft.com/training/modules/guided-project-work-variable-data-c-sharp/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/guided-project-work-variable-data-c-sharp/</a> та виконайте всі завдання модуля «Керований проєкт: попрацюйте з даними змінних в C#». Це **обов’язково**, щоб отримати трофей зі «Робота з даними змінних в консольних застосунках C#» на Microsoft Learn та мати змогу скласти сертифікаційний екзамен.
 1. Як тільки завершите, поверніться та дайте правильну відповідь на запитання нижче.
 
-# --assignment--
+# --Завдання--
 
 Виконайте керований проєкт <a href="https://learn.microsoft.com/training/modules/guided-project-work-variable-data-c-sharp/" target="_blank" rel="noreferrer">«Попрацюйте з даними змінних в C#»</a> на Microsoft Learn. Потім дайте відповідь на запитання нижче.
 
@@ -20,21 +20,21 @@ dashedName: guided-project-work-with-variable-data-in-c-sharp
 
 ## --text--
 
-Дано код `decimal.TryParse(numberString, out myConvert))`, де типом `numberString` є рядок.
+For the code `decimal.TryParse(numberString, out myConvert))` when the type of `numberString` is a String.
 
-Що найкраще описує тип значення `myConvert`, коли `TryParse()` успішний?
+Which best describes the value type for `myConvert` when the `TryParse()` is successful?
 
 ## --answers--
 
-Рядок, який представляє числа.
+A string representing numeric digits.
 
 ---
 
-Булеве значення.
+A Boolean value.
 
 ---
 
-Десяткове число
+A decimal
 
 ## --video-solution--
 

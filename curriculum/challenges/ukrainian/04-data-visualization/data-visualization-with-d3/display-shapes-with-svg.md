@@ -8,7 +8,7 @@ dashedName: display-shapes-with-svg
 
 # --description--
 
-Попереднім завданням було створити елемент `svg` з наданою шириною та висотою, який був помітний, оскільки мав застосований `background-color` в тегу `style`. Код створив місце для заданої ширини та висоти.
+The last challenge created an `svg` element with a given width and height, which was visible because it had a `background-color` applied to it in the `style` tag. The code made space for the given width and height.
 
 Наступним кроком є створення фігур, які знаходитимуться в площині `svg`. В SVG існує безліч підтримуваних фігур, серед яких прямокутники та круги. Їх використовують, щоб представити дані. Наприклад, прямокутник SVG (`<rect>`) може створити стовпчик в стовпчиковій діаграмі.
 

@@ -1,6 +1,6 @@
 ---
 id: 657b1a27dc6daf6ffd52ff1f
-title: Task 29
+title: Tarea 29
 challengeType: 19
 dashedName: task-29
 ---
@@ -12,7 +12,7 @@ Second Candidate: I have a master's degree in computer science. -->
 
 In English, the noun suffixed with `'s` followed by a second noun structure is used to show possession or belonging. If the first noun is singular, as in `Sarah's laptop`, it indicates that the laptop belongs to Sarah. However, if the first noun is plural, the structure changes to noun suffixed with `'`, as in `teachers' office`, indicating an office for teachers.
 
-# --questions--
+# --preguntas----preguntas--
 
 ## --text--
 
@@ -22,7 +22,7 @@ What does `master's degree` in the context of the dialogue refer to?
 
 A degree for school teachers
 
-### --retroalimentación--
+### --feedback--
 
 `Master's degree` refers to an advanced academic degree, not specifically for teachers.
 
@@ -30,7 +30,7 @@ A degree for school teachers
 
 A primary level educational degree
 
-### --retroalimentación--
+### --feedback--
 
 `Master's degree` is a higher education qualification, beyond the primary level.
 
@@ -38,7 +38,7 @@ A primary level educational degree
 
 A degree in mastering skills
 
-### --retroalimentación--
+### --feedback--
 
 While it implies expertise, `master's degree` specifically refers to an academic qualification.
 

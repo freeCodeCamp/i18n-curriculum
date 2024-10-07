@@ -8,7 +8,7 @@ dashedName: house-our-page-within-a-bootstrap-container-fluid-div
 
 # --description--
 
-Тепер переконайтеся, що весь вміст сторінки адаптований до мобільних пристроїв.
+Now let's make sure all the content on your page is mobile-responsive.
 
 Вкладіть елемент `h3` в межах елемента `div` з класом `container-fluid`.
 

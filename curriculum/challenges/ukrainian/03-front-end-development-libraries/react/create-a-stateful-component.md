@@ -8,7 +8,7 @@ dashedName: create-a-stateful-component
 
 # --description--
 
-Однією із найважливіших тем у React є стан (`state`). Стан складається з будь-яких даних, про які повинен знати ваш застосунок, і які можуть з часом зазнавати змін. Ваш застосунок має відповідати на зміну стану та представляти оновлений UI за потреби. React пропонує чудове рішення для керування станом у сучасних вебзастосунках.
+One of the most important topics in React is `state`. State consists of any data your application needs to know about, that can change over time. You want your apps to respond to state changes and present an updated UI when necessary. React offers a nice solution for the state management of modern web applications.
 
 Ви створюєте стан в компоненті React, оголосивши властивість `state` у класовому компоненті в його конструкторі. Це ініціалізує компонент з `state` після створення. Властивість `state` має бути встановлена на об’єкт JavaScript (`object`). Іншими словами, це виглядає так:
 

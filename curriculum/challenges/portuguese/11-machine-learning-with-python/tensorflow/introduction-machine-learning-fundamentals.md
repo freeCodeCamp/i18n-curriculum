@@ -14,7 +14,7 @@ dashedName: introduction-machine-learning-fundamentals
 
 ## --text--
 
-Qual das frases abaixo é **falsa**?
+Which statement below is **false**?
 
 ## --answers--
 

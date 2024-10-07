@@ -8,7 +8,7 @@ dashedName: add-labels-to-scatter-plot-circles
 
 # --description--
 
-Ви можете додати текст, щоб створити позначки для точок у точковій діаграмі.
+You can add text to create labels for the points in a scatter plot.
 
 Для цього потрібно зобразити значення, розділені комами, для першого (`x`) та другого (`y`) полів кожного елемента в `dataset`.
 

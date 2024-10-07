@@ -12,7 +12,7 @@ dashedName: add-font-awesome-icons-to-our-buttons
 
 # --description--
 
-الخط الرائع (Font Awesome) هي مكتبة عملية من الأيقونات. تكون هذه الأيقونات خطوط ويب أو رُسُوم تشكلية. هن الأيقونات تتعامل مثل الخطوط. يمكنك تحديد حجمها باستخدام وحدات بكسل، وسيفترض الأيقونات حجم الخط لعناصر الأساسية الخاصة بهم (their parent HTML).
+Font Awesome is a convenient library of icons. These icons can be webfonts or vector graphics. These icons are treated just like fonts. You can specify their size using pixels, and they will assume the font size of their parent HTML elements.
 
 يمكنك إضافة الخط الرائع (Font Awesome) في أي تطبيق خلال إضافة الرمز التالي إلى الجزء العلوي من HTML:
 

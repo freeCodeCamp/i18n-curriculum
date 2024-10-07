@@ -1,13 +1,13 @@
 ---
 id: 61fda339eadcfd92a6812bed
-title: 步骤 30
+title: 第 30 步
 challengeType: 0
 dashedName: step-30
 ---
 
 # --description--
 
-在深入了解样式之前，你应该使用 `sr-only` 类。 你可以使用 CSS 使具有此类的元素在可视页面中完全隐藏，但仍由屏幕阅读器朗读。
+Before you get too far into your styling, you should make use of the `sr-only` class. You can use CSS to make elements with this class completely hidden from the visual page, but still be announced by screen readers.
 
 你将要编写的 CSS 是一组通用属性，用于确保元素在视觉上完全隐藏。
 

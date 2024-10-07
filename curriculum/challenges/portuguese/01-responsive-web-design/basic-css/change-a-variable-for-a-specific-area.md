@@ -9,7 +9,7 @@ dashedName: change-a-variable-for-a-specific-area
 
 # --description--
 
-Quando você cria suas variáveis em `:root`, elas ficam disponíveis para uso em toda a página.
+When you create your variables in `:root` they will set the value of that variable for the whole page.
 
 Você, então, poderá sobrescrever os valores dessas variáveis definindo-as novamente em um seletor de CSS específico.
 

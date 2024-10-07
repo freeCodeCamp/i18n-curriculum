@@ -8,7 +8,7 @@ dashedName: knapsack-problemunbounded
 
 # --description--
 
-A traveler gets diverted and has to make an unscheduled stop in what turns out to be Shangri-La. Opting to leave, he is allowed to take as much as he likes of the items available there, so long as it will fit in his knapsack, and he can carry it.
+Ein Reisender wird umgeleitet und muss einen außerplanmäßigen Zwischenstopp in einem Ort einlegen, der sich als Shangri-La herausstellt. Wenn er sich dafür entscheidet, zu gehen, darf er so viel von den dort erhältlichen Gegenständen mitnehmen, wie er möchte, solange sie in seinen Rucksack passen und er sie tragen kann.
 
 Er weiß, dass er insgesamt nicht mehr als ein bestimmtes Höchstgewicht mitnehmen kann und dass die Kapazität seines Rucksacks ein begrenztes Volumen hat.
 

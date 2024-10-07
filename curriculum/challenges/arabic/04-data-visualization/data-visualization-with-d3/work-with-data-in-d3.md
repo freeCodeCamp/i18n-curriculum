@@ -1,6 +1,6 @@
 ---
 id: 587d7fa7367417b2b2512bc4
-title: Work with Data in D3
+title: العمل مع البيانات في D3
 challengeType: 6
 forumTopicId: 301497
 dashedName: work-with-data-in-d3
@@ -10,13 +10,13 @@ dashedName: work-with-data-in-d3
 
 The D3 library focuses on a data-driven approach. When you have a set of data, you can apply D3 methods to display it on the page. Data comes in many formats, but this challenge uses a simple array of numbers.
 
-The first step is to make D3 aware of the data. The `data()` method is used on a selection of DOM elements to attach the data to those elements. The data set is passed as an argument to the method.
+والخطوة الأولى هي جعل D3 على علم بالبيانات. يتم استخدام طريقة `data()` على اختيار عناصر DOM لإرفاق البيانات بتلك العناصر. وتحال مجموعة البيانات كمعطى إلى الطريقة.
 
-A common workflow pattern is to create a new element in the document for each piece of data in the set. D3 has the `enter()` method for this purpose.
+ومن أنماط تدفق العمل الشائعة إنشاء عنصر جديد في الوثيقة لكل جزء من البيانات في المجموعة. D3 لديه طريقة `enter()` لهذا الغرض.
 
-When `enter()` is combined with the `data()` method, it looks at the selected elements from the page and compares them to the number of data items in the set. If there are fewer elements than data items, it creates the missing elements.
+عندما يتم دمج `enter()` مع طريقة `data()`، ينظر D3 إلى العناصر المختارة من الصفحة ويقارنها بعدد عناصر البيانات في المجموعة. وإذا كانت هناك عناصر أقل من بنود البيانات، فإن ذلك يخلق العناصر الناقصة.
 
-Here is an example that selects a `ul` element and creates a new list item based on the number of entries in the array:
+فيما يلي مثال يحدد عنصر `ul` وينشئ عنصر قائمة جديد استنادًا إلى عدد المدخلات في القائمة:
 
 ```html
 <body>
@@ -32,21 +32,21 @@ Here is an example that selects a `ul` element and creates a new list item based
 </body>
 ```
 
-It may seem confusing to select elements that don't exist yet. This code is telling D3 to first select the `ul` on the page. Next, select all list items, which returns an empty selection. Then the `data()` method reviews the dataset and runs the following code three times, once for each item in the array. The `enter()` method sees there are no `li` elements on the page, but it needs 3 (one for each piece of data in `dataset`). New `li` elements are appended to the `ul` and have the text `New item`.
+قد يبدو أن اختيار عناصر غير موجودة حتى الآن مربكًا. هذا الكود يخبر D3 أولا بتحديد `ul` في الصفحة. بعد ذلك، حدد جميع عناصر القائمة (li)، وهذا سيرجع تحديد فارغ. ثم تقوم طريقة `data()` بمراجعة مجموعة البيانات وتشغيل الكود التالي ثلاث مرات، أي مرة واحدة لكل عنصر في القائمة. ترى طريقة `enter()` أنه لا توجد عناصر `li` في الصفحة، ولكن تحتاج إلى 3 (واحد لكل جزء من البيانات في `dataset`). تلحق عناصر `li` جديدة في `ul` ولديها نص `New item`.
 
 # --instructions--
 
-Select the `body` node, then select all `h2` elements. Have D3 create and append an `h2` tag for each item in the `dataset` array. The text in the `h2` should say `New Title`. Your code should use the `data()` and `enter()` methods.
+حدد node (عقدة) `body` ثم حدد جميع عناصر `h2`. اجعل D3 تنشئ وتلحق علامة `h2` لكل عنصر في قائمة `dataset`. يجب أن النص في `h2` يكون `New Title`. يجب أن يستخدم الكود الخاص بك طرق `data()` و `enter()`.
 
 # --hints--
 
-Your document should have 9 `h2` elements.
+يجب أن تحتوي وثيقتك على 9 عناصر `h2`.
 
 ```js
 assert($('h2').length == 9);
 ```
 
-The text in the `h2` elements should say `New Title`. The capitalization and spacing should match exactly.
+يجب أن النص في `h2` يكون `New Title`. وينبغي أن تتطابق حالة الحروف والمباعدة بينهما على وجه الدقة.
 
 ```js
 assert(
@@ -56,13 +56,13 @@ assert(
 );
 ```
 
-Your code should use the `data()` method.
+يجب أن يستخدم الكود الخاص بك طريقة `data()`.
 
 ```js
 assert(code.match(/\.data/g));
 ```
 
-Your code should use the `enter()` method.
+يجب أن يستخدم الكود الخاص بك طريقة `enter()`.
 
 ```js
 assert(code.match(/\.enter/g));

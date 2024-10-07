@@ -13,7 +13,7 @@ dashedName: line-up-form-elements-responsively-with-bootstrap
 
 # --description--
 
-الآن أحصل على النموذج (form) الخاص بك `input` و`button` الإرسال الخاص بك على نفس الخط. ذلك بنفس الطريقة التي قمت بها سابقاً: باستخدام عنصر `div` مع فئة `row`، وعناصر `div` أخرى داخله باستخدام فئة `col-xs-*`.
+Now let's get your form `input` and your submission `button` on the same line. We'll do this the same way we have previously: by using a `div` element with the class `row`, and other `div` elements within it using the `col-xs-*` class.
 
 لا يمكنك إدخال نص النموذج الخاص بك `input` و`button` الإرسال ضمن `div` مع فئة `row`. أدخل نص النموذج الخاص بك `input` داخل عنصر مع فئة `col-xs-7`. أدخل زر إرسال النموذج الخاص بك `button` في `div` مع فئة `col-xs-5`.
 

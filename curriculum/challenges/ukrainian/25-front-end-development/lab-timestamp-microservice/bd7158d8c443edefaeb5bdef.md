@@ -10,14 +10,14 @@ dashedName: lab-timestamp-microservice
 Build a full stack JavaScript app that is functionally similar to this: <a href="https://timestamp-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://timestamp-microservice.freecodecamp.rocks</a>. Working on this lab will involve you writing your code using one of the following methods:
 
 -   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-timestamp/"  target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
--   Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-timestamp/"  target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete your project.
--   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
+-   Використайте <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-timestamp/"  target="_blank" rel="noopener noreferrer nofollow">наш стартовий проєкт Gitpod</a>, щоб виконати свій проєкт.
+-   Використовуйте конструктор сайту на власний розсуд, щоб завершити проєкт. Переконайтеся, що ви зберегли всі файли з нашого репозиторію GitHub.
 
 **Note:** Time zones conversion is not a purpose of this project, so assume all sent valid dates will be parsed with `new Date()` as GMT dates.
 
 # --hints--
 
-You should provide your own project, not the example URL.
+Вам необхідно вказати свій власний проєкт, а не приклад URL-адреси.
 
 ```js
 (getUserInput) => {
@@ -45,7 +45,7 @@ A request to `/api/:date?` with a valid date should return a JSON object with a 
   );
 ```
 
-A request to `/api/:date?` with a valid date should return a JSON object with a `utc` key that is a string of the input date in the format: `Thu, 01 Jan 1970 00:00:00 GMT`
+Запит на `/api/:date?` з дійсною датою має повернути об'єкт JSON з `utc` ключем, який є рядком введеної дати в форматі: `Thu, 01 Jan 1970 00:00:00 GMT`
 
 ```js
 (getUserInput) =>
@@ -63,7 +63,7 @@ A request to `/api/:date?` with a valid date should return a JSON object with a 
   );
 ```
 
-A request to `/api/1451001600000` should return `{ unix: 1451001600000, utc: "Fri, 25 Dec 2015 00:00:00 GMT" }`
+Запит до `/api/1451001600000` має повертати `{ unix: 1451001600000, utc: "Fri, 25 Dec 2015 00:00:00 GMT" }`
 
 ```js
 (getUserInput) =>
@@ -80,7 +80,7 @@ A request to `/api/1451001600000` should return `{ unix: 1451001600000, utc: "Fr
   );
 ```
 
-Your project can handle dates that can be successfully parsed by `new Date(date_string)`
+Ваш проєкт може обробляти дати, які можуть бути успішно розпарсені за допомогою `new Date(date_string)`
 
 ```js
 (getUserInput) =>
@@ -111,7 +111,7 @@ If the input date string is invalid, the API returns an object having the struct
   );
 ```
 
-An empty date parameter should return the current time in a JSON object with a `unix` key
+Порожній параметр дати має повернути поточний час в об'єкті JSON з ключем `unix`
 
 ```js
 (getUserInput) =>
@@ -126,7 +126,7 @@ An empty date parameter should return the current time in a JSON object with a `
   );
 ```
 
-An empty date parameter should return the current time in a JSON object with a `utc` key
+Порожній параметр дати має повернути поточний час в об'єкті JSON з ключем `utc`
 
 ```js
 (getUserInput) =>

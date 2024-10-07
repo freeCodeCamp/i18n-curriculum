@@ -8,7 +8,7 @@ dashedName: top-rank-per-group
 
 # --description--
 
-Find the top `n` ranked data in each group, where `n` is provided as a parameter. Name of the rank and the group are also provided as parameter.
+Finde den obersten `n` geordneter Daten in jeder Gruppe, wobei `n` als Parameter angegeben wird. Der Name des Ranges und der Gruppe werden ebenfalls als Parameter angegeben.
 
 Gegeben sind die folgenden Daten:
 

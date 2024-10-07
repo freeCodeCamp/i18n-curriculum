@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c452eddfaeb5bdef
-title: Use Bracket Notation to Find the Nth-to-Last Character in a String
+title: 브라켓 표기법을 사용해서 문자열의 마지막부터 N번째 문자를 찾기
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cw4vkh9'
 forumTopicId: 18344
@@ -11,32 +11,32 @@ dashedName: use-bracket-notation-to-find-the-nth-to-last-character-in-a-string
 
 You can use the same principle we just used to retrieve the last character in a string to retrieve the Nth-to-last character.
 
-For example, you can get the value of the third-to-last letter of the `const firstName = "Augusta"` string by using `firstName[firstName.length - 3]`
+예를 들어 `const firstName = "Augusta"`라고 하는 문자열의 마지막에서 3번째 문자의 값을 얻기 위해 `firstName[firstName.length - 3]`를 사용할 수 있습니다.
 
-Example:
+예:
 
 ```js
 const firstName = "Augusta";
 const thirdToLastLetter = firstName[firstName.length - 3];
 ```
 
-`thirdToLastLetter` would have a value of the string `s`.
+`thirdToLastLetter`의 값은 문자열 `s`가 될 것입니다.
 
 # --instructions--
 
-Use <dfn>bracket notation</dfn> to find the second-to-last character in the `lastName` string.
+<dfn>브라켓 표기법</dfn>을 사용해서 `lastName` 문자열의 마지막에서 2번째의 문자를 찾으세요.
 
-**Hint:** Try looking at the example above if you get stuck.
+**힌트:** 막혔을 때는 위의 예시를 다시 봐주세요.
 
 # --hints--
 
-`secondToLastLetterOfLastName` should be the letter `c`.
+`secondToLastLetterOfLastName`는 문자 `c`가 되어야 합니다.
 
 ```js
 assert(secondToLastLetterOfLastName === 'c');
 ```
 
-You should use `.length` to get the second last letter.
+당신은 `.length`를 사용해서, 마지막에서 두번째 문자를 얻어야 합니다.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/\.length/g).length > 0);

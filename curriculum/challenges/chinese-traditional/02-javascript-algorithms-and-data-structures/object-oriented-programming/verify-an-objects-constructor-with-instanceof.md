@@ -8,7 +8,7 @@ dashedName: verify-an-objects-constructor-with-instanceof
 
 # --description--
 
-凡是通過構造函數創建出的新對象，這個對象都叫做這個構造函數的<dfn>實例</dfn>。 JavaScript 提供了一種很簡便的方法來驗證這個事實，那就是通過 `instanceof` 操作符。 `instanceof` 允許你將對象與構造函數之間進行比較，根據對象是否由這個構造函數創建的返回 `true` 或者 `false`。 以下是一個示例：
+Anytime a constructor function creates a new object, that object is said to be an <dfn>instance</dfn> of its constructor. JavaScript gives a convenient way to verify this with the `instanceof` operator. `instanceof` allows you to compare an object to a constructor, returning `true` or `false` based on whether or not that object was created with the constructor. 如下所示：
 
 ```js
 let Bird = function(name, color) {

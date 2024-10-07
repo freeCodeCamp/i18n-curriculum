@@ -8,7 +8,7 @@ dashedName: compare-the-properties-of-two-elements
 
 # --description--
 
-Como recordatorio, este proyecto se está construyendo según el siguiente proyecto inicial en <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a> o clonando desde <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
+As a reminder, this project is being built upon the following starter project on <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>, or cloned from <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
 
 # --instructions--
 
@@ -16,7 +16,7 @@ Dentro de `tests/1_unit-tests.js` bajo la prueba etiquetada como `#8` en el conj
 
 # --hints--
 
-Todas las pruebas deben pasar.
+Todas los test deben pasar.
 
 ```js
 (getUserInput) =>

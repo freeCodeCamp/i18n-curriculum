@@ -1,6 +1,6 @@
 ---
 id: 657e5fa49b69deff5e9bff8e
-title: Task 104
+title: Aufgabe 104
 challengeType: 22
 dashedName: task-104
 ---
@@ -9,7 +9,7 @@ dashedName: task-104
 
 # --description--
 
-Listen to the audio to complete the sentence below.
+Höre dir die Audio an, um den unteren Satz zu vervollständigen.
 
 # --fillInTheBlank--
 
@@ -17,11 +17,11 @@ Listen to the audio to complete the sentence below.
 
 `Absolutely. If you see any security breaches or incidents, you BLANK BLANK report them BLANK.`
 
-## -blanks--
+## --blanks--
 
 `have`
 
-### --Feedback--
+### --feedback--
 
 Shows a requirement.
 
@@ -29,9 +29,9 @@ Shows a requirement.
 
 `to`
 
-### --Feedback--
+### --feedback--
 
-Used with the previous word to express obligation.
+Wird mit dem vorherigen Wort verwendet, um die Verpflichtung auszudrücken.
 
 ---
 

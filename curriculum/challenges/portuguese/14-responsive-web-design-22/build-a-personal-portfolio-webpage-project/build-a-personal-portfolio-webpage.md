@@ -8,12 +8,12 @@ dashedName: build-a-personal-portfolio-webpage
 
 # --description--
 
-**Objetivo:** Construa um aplicativo que é funcionalmente igual a <a href="https://personal-portfolio.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://personal-portfolio.freecodecamp.rocks</a>. **Não copie este projeto de demonstração**.
+**Objective:** Build an app that is functionally similar to <a href="https://personal-portfolio.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://personal-portfolio.freecodecamp.rocks</a>. **Do not copy this demo project**.
 
 
 **Histórias de usuário:**
 
-1. O portfólio deve ter uma seção de boas-vindas com o `id` `welcome-section`
+1. Your portfolio should have a welcome section with an `id` of `welcome-section`
 1. A seção de boas-vindas deve ter um elemento `h1` que contenha texto
 1. O portfólio deve ter uma seção de projetos com o `id` `projects`
 1. A seção de projetos deve conter pelo menos um elemento com a `class` `project-tile` que contenha um projeto

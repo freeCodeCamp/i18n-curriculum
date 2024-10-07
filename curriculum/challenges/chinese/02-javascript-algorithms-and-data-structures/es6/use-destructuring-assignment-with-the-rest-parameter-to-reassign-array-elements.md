@@ -10,7 +10,7 @@ dashedName: >-
 
 # --description--
 
-在解构数组的某些情况下，我们可能希望将剩下的元素放进另一个数组里面。
+In some situations involving array destructuring, we might want to collect the rest of the elements into a separate array.
 
 以下代码的结果与使用 `Array.prototype.slice()` 类似：
 
@@ -50,7 +50,7 @@ assert.deepEqual(_testArr, [1, 2, 3, 4, 5])
 assert(!__helpers.removeJSComments(code).match(/\.\s*slice\s*\(/));
 ```
 
-You should use the rest syntax.
+应该使用剩余参数语法。
 
 ```js
 assert.match(code, /\.\.\./);

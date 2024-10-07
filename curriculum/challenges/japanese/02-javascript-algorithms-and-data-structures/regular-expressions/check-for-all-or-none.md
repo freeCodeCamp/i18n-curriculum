@@ -8,7 +8,7 @@ dashedName: check-for-all-or-none
 
 # --description--
 
-検索したいパターンの中に、存在するかどうかがわからない部分が含まれている場合があります。 しかし、そうした場合でも存在の有無をチェックすることが重要なことがあります。
+Sometimes the patterns you want to search for may have parts of it that may or may not exist. However, it may be important to check for them nonetheless.
 
 クエスチョンマーク `?` を使用すると、要素の存在の可能性を指定できます。 これは、直前の要素が 0 個か 1 個かをチェックします。 この記号は、前の要素が省略可能であるとみなすことができます。
 

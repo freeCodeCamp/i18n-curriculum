@@ -14,7 +14,7 @@ dashedName: loading-data-and-advanced-indexing
 
 ## --text--
 
-Dato un file chiamato `data.txt` con questi contenuti:
+Given a file named `data.txt` with these contents:
 
 <pre>
 29,97,32,100,45

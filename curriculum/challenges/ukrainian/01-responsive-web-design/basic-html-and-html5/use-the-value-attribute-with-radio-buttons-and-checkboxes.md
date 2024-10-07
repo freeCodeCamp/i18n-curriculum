@@ -8,7 +8,7 @@ dashedName: use-the-value-attribute-with-radio-buttons-and-checkboxes
 
 # --description--
 
-При відправленні форми, дані надсилаються на сервер і вмикають записи для обраних параметрів. Вхідні дані типу `radio` та`checkbox` повідомляють свої значення з атрибуту `value`.
+When a form gets submitted, the data is sent to the server and includes entries for the options selected. Inputs of type `radio` and `checkbox` report their values from the `value` attribute.
 
 Наприклад:
 

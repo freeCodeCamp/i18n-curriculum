@@ -9,9 +9,9 @@ dashedName: comparison-with-the-inequality-operator
 
 # --description--
 
-Оператор «не дорівнює» (`!=`) є протилежним до оператора «дорівнює». Це означає, що значення не еквівалентні і оператор повертає `false`, де рівність повернула б `true` та *навпаки*. Як і оператор «дорівнює», «не дорівнює» перетворює типи даних під час порівняння.
+The inequality operator (`!=`) is the opposite of the equality operator. It means not equal and returns `false` where equality would return `true` and *vice versa*. Like the equality operator, the inequality operator will convert data types of values while comparing.
 
-**Приклади**
+**Наприклад:**
 
 ```js
 1 !=  2    // true

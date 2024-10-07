@@ -19,10 +19,10 @@ Complete the `Category` class. It should be able to instantiate objects based on
 When the budget object is printed it should display:
 
 - A title line of 30 characters where the name of the category is centered in a line of `*` characters.
-- A list of the items in the ledger. Each line should show the description and amount. The first 23 characters of the description should be displayed, then the amount. The amount should be right aligned, contain two decimal places, and display a maximum of 7 characters.
-- A line displaying the category total.
+- Eine Liste der Elemente im Hauptbuch. Jede Zeile sollte die Beschreibung und den Betrag anzeigen. Die ersten 23 Zeichen der Beschreibung sollten angezeigt werden, dann der Betrag. Der Betrag sollte rechts ausgerichtet sein, zwei Dezimalstellen enthalten und maximal 7 Zeichen anzeigen.
+- Eine Zeile, die die Summe der Kategorie anzeigt.
 
-Here is an example usage:
+Hier ist ein Anwendungsbeispiel:
 
 ```py
 food = Category('Food')
@@ -34,7 +34,7 @@ food.transfer(50, clothing)
 print(food)
 ```
 
-And here is an example of the output:
+Und hier ist ein Beispiel für die Ausgabe:
 
 ```bash
 *************Food*************
@@ -45,13 +45,13 @@ Transfer to Clothing    -50.00
 Total: 923.96
 ```
 
-Besides the `Category` class, create a function (outside of the class) called `create_spend_chart` that takes a list of categories as an argument. It should return a string that is a bar chart.
+Neben der `Category`-Klasse, erstelle eine Funktion (außerhalb der Klasse) namens `create_spend_chart`, die eine Liste der Kategorien als Argument verwendet. Es sollte einen String zurückgeben, das ein Balkendiagramm ist.
 
-The chart should show the percentage spent in each category passed in to the function. The percentage spent should be calculated only with withdrawals and not with deposits. Down the left side of the chart should be labels 0 - 100. The 'bars' in the bar chart should be made out of the 'o' character. The height of each bar should be rounded down to the nearest 10. The horizontal line below the bars should go two spaces past the final bar. Each category name should be written vertically below the bar. There should be a title at the top that says 'Percentage spent by category'.
+Das Diagramm sollte den Prozentsatz jeder Kategorie anzeigen, die an die Funktion übergeben wurde. Der ausgegebene Prozentsatz sollte nur mit den Auszahlungen und nicht mit den Einzahlungen berechnet werden. Unten auf der linken Seite des Diagramms sollten die Labels 0 - 100 stehen. The 'bars' in the bar chart should be made out of the 'o' character. Die Höhe jedes Balken sollte auf die nächstgelegene 10 abgerundet werden. Die horizontale Linie unter den Balken sollte zwei Leerzeichen hinter der Endleiste haben. Jeder Kategoriename sollte vertikal unterhalb des Balkens angegeben werden. There should be a title at the top that says 'Percentage spent by category'.
 
-This function will be tested with up to four categories.
+Die Funktion wird mit bis zu vier Kategorien getestet.
 
-Look at the example output below very closely and make sure the spacing of the output matches the example exactly.
+Schau dir die Beispielausgabe unten sehr genau an und stelle sicher, dass der Abstand der Ausgabe genau dem Beispiel entspricht.
 
 ```bash
 Percentage spent by category
@@ -711,7 +711,7 @@ t.result.wasSuccessful()
 })
 ```
 
-`create_spend_chart` should print a different chart representation. Check that all spacing is exact.
+`create_spend_chart` should print a different chart representation. Check that all spacing is exact. Open your browser console with F12 for more details.
 
 ```js
 ({

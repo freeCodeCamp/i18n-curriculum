@@ -8,7 +8,7 @@ dashedName: create-a-bar-for-each-data-point-in-the-set
 
 # --description--
 
-Bei der letzten Aufgabe wurde dem `svg`-Element nur ein Rechteck hinzugefügt, um einen Balken darzustellen. Hier wirst du das kombinieren, was du bereits über `data()`, `enter()`, und SVG-Formen gelernt hast, um ein Rechteck für jeden Datenpunkt im `dataset` hinzuzufügen.
+The last challenge added only one rectangle to the `svg` element to represent a bar. Here, you'll combine what you've learned so far about `data()`, `enter()`, and SVG shapes to create and append a rectangle for each data point in `dataset`.
 
 Eine frühere Aufgabe zeigte das Format zum Erstellen und Einfügen eines `div` für jedes Element im `dataset`:
 

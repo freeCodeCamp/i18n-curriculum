@@ -42,7 +42,7 @@ Utiliza la indentación para hacer que el nivel de anidación sea claro y legibl
 
 Las relaciones de padre, hijo y hermanos entre elementos se volverán mucho más importantes más adelante cuando empieces a estilizar tu HTML con CSS y agregar comportamiento con JavaScript. Por ahora, sin embargo, es importante conocer la distinción entre cómo se relacionan los elementos y la terminología utilizada para describir sus relaciones.
 
-# --questions--
+# --preguntas----preguntas--
 
 ## --text--
 

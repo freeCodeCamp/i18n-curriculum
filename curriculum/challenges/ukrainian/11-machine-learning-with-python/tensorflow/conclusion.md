@@ -14,7 +14,7 @@ dashedName: conclusion
 
 ## --text--
 
-Більшість людей, які є фахівцями в галузі штучного інтелекту та машинного навчання зазвичай...:
+Most people that are experts in AI or machine learning usually...:
 
 ## --answers--
 

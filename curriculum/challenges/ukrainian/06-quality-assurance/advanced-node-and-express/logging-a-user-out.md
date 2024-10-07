@@ -8,7 +8,7 @@ dashedName: logging-a-user-out
 
 # --description--
 
-Створити логіку виходу з облікового запису легко. Маршрут має лише скасувати автентифікацію користувача та переадресувати на головну сторінку замість візуалізації будь-якого перегляду.
+Creating the logout logic is easy. The route should just unauthenticate the user, and redirect to the home page instead of rendering any view.
 
 Скасувати автентифікацію користувача через Passport так само легко, як викликати `req.logout()` перед переадресацією. Додайте такий маршрут `/logout`, щоб зробити це:
 

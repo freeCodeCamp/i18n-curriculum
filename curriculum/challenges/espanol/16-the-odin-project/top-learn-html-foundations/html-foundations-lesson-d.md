@@ -22,7 +22,7 @@ De vuelta en el archivo `index.html`, agreguemos el elemento `<html>` escribiend
 ## ¿Qué es el atributo lang?
 `lang` especifica el idioma del contenido de texto en ese elemento. Este atributo se utiliza principalmente para mejorar la accesibilidad de la página web. Permite que las tecnologías de asistencia, por ejemplo, los lectores de pantalla, se adapten según el idioma e invoquen la pronunciación correcta.
 
-# --questions--
+# --preguntas----preguntas--
 
 ## --text--
 

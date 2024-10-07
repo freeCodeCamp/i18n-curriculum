@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c442eedfaeb5bd1c
-title: Build a Tic Tac Toe Game
+title: Erstelle ein Tic Tac Toe Spiel
 challengeType: 3
 forumTopicId: 302358
 dashedName: build-a-tic-tac-toe-game
@@ -8,19 +8,19 @@ dashedName: build-a-tic-tac-toe-game
 
 # --description--
 
-**Aufgabe:** Erstelle eine Anwendung, die eine ähnliche Funktionalität wie <a href="https://codepen.io/freeCodeCamp/full/KzXQgy/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/KzXQgy/</a> aufweist.
+**Objective:** Build an app that is functionally similar to this: <a href="https://codepen.io/freeCodeCamp/full/KzXQgy/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/KzXQgy/</a>.
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Gib dem Ganzen deinen persönlichen Stil.
+Erfülle die untenstehenden User Stories und bringe alle Tests zum Bestehen. Verwende die Bibliotheken oder APIs deiner Wahl. Gib dem Ganzen deinen persönlichen Stil.
 
-**User Story:** I can play a game of Tic Tac Toe with the computer.
+**User Story:** Ich kann eine Partie Tic Tac Toe mit dem Computer spielen.
 
-**User Story:** My game will reset as soon as it's over so I can play again.
+**User Story:** Sobald mein Spiel vorbei ist, wird es zurückgesetzt, damit ich wieder spielen kann.
 
-**User Story:** I can choose whether I want to play as X or O.
+**User Story:** Ich kann wählen, ob ich als X oder O spielen möchte.
 
-When you are finished, include a link to your project on CodePen and click the "I've completed this challenge" button.
+Wenn du fertig bist, fügst du einen Link zu deinem Projekt auf CodePen ein und klickst auf die Schaltfläche "Ich habe diese Herausforderung abgeschlossen".
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+Du kannst Feedback zu deinem Projekt erhalten, indem du es auf dem <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp Forum</a> teilst.
 
 # --solutions--
 

@@ -14,7 +14,7 @@ dashedName: core-learning-algorithms-building-the-model
 
 ## --text--
 
-TensorFlow 推薦使用哪種估計器/模型進行分類？
+What kind of estimator/model does TensorFlow recommend using for classification?
 
 ## --answers--
 

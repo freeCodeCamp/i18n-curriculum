@@ -1,6 +1,6 @@
 ---
 id: 587d78af367417b2b2512b03
-title: Crea un formulario de encuesta
+title: Crea un Formulario de Encuesta
 challengeType: 14
 forumTopicId: 301145
 dashedName: build-a-survey-form
@@ -8,30 +8,30 @@ dashedName: build-a-survey-form
 
 # --description--
 
-**Objetivo:** Construye una aplicación que sea funcionalmente similar a <a href="https://survey-form.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://survey-form.freecodecamp.rocks</a>. **No copies este proyecto de demostración**.
+**Objective:** Build an app that is functionally similar to <a href="https://survey-form.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://survey-form.freecodecamp.rocks</a>. **Do not copy this demo project**.
 
-**Historias de usuario:**
+**Instrucciones:**
 
-1. Debes tener un título de página en un elemento `h1` con un `id` de `title`
-1. Debes tener una corta explicación en el elemento `p` con un `id` de `description`
-1. Debes tener un elemento `form` con un `id` de `survey-form`
-1. Dentro del elemento form, debe ser **required** (requerido) ingresar tu nombre en un campo de `input` que tenga un `id` de `name` y un `type` de `text`
-1. Dentro del elemento form **required** (requerido) ingresar tu nombre en un campo de `input` que tenga un `id` de `email`
-1. Si ingresas un email que no tenga el formato correcto, verás un error de validación HTML5
-1. Dentro del formulario, puedes ingresar un número en un campo de `input` que tenga un `id` de `number`
+1. You should have a page title in an `h1` element with an `id` of `title`
+1. Debes tener una pequeña explicación en un elemento `p` con un `id` de `description`
+1. Debe tener un elemento `form` con un `id` de `survey-form`
+1. Dentro del elemento form, debes ser **obligatorio** (required) ingresar tu nombre en un campo de `input` que tenga un `id` de `name` y un `type` de `text`
+1. Dentro del elemento form debe ser **obligatorio** (required) ingresar tu nombre en un campo de `input` que tenga un `id` de `email`
+1. Si introduces un correo electrónico que no tiene el formato correcto, tú debes ver una alerta de validación en THML5
+1. Dentro de tu form, tu puedes introducir un número en un campo `input` que tenga un `id` de `number`
 1. La entrada de números no debe aceptar caracteres no numéricos, ya sea impidiendo que los escribas o mostrando un error de validación HTML5 (dependiendo del navegador).
 1. Si ingresas un número que esté fuera del rango de números permitido, que es definido por los atributos `min` y `max`, verás un error de validación de HTML5
 1. Para los campos de entrada de nombre, email y número, puedes ver los correspondientes elementos `label` en el formulario, que describen el propósito de cada campo con los siguientes id: `id="name-label"`, `id="email-label"` y `id="number-label"`
-1. Para los campos de entrada de nombre, email y número, podrás ver un texto provisional que da una descripción o instrucciones para cada campo
-1. Dentro del elemento form, debes tener un elemento desplegable `select` con un `id` de `dropdown` con al menos dos opciones para elegir
-1. Dentro del elemento form, puedes seleccionar una opción de un grupo de al menos dos botones de radio que son agrupado utilizando el atributo `name`
-1. Dentro del elemento form, puedes seleccionar varios campos en una serie de casillas de verificación, cada una debe tener un atributo `value`
-1. Dentro del elemento form, se te presenta un `textarea` para comentarios adicionales
+1. Para los campos de entrada de nombre, correo electrónico y número, podrás ver un texto provisional que da una descripción o instrucciones para cada campo
+1. Dentro del elemento de formulario, debes tener un elemento desplegable `select` con un `id` de `dropdown` con al menos dos opciones para elegir
+1. Dentro del elemento de formulario, puedes seleccionar una opción de un grupo de al menos dos botones de radio que son agrupados utilizando el atributo `name`
+1. Dentro del elemento de formulario, puedes seleccionar varios campos en una serie de casillas de verificación, cada una debe tener un atributo `value`
+1. Dentro del elemento de formulario, se te presenta un `textarea` para comentarios adicionales
 1. Dentro del elemento form, se te presenta un botón con un `id` de `submit` para enviar todas las entradas
 
-Completa las historias de usuario y pasa todas las pruebas a continuación para completar este proyecto. Dale tu propio estilo personal. ¡Feliz día programando!
+Completa las intrucciones y pasa los tests de abajo para completar este projecto. Dale tu estilo personal. ¡Que tengas una feliz programación!
 
-**Nota:** Asegurate de agregar `<link rel="stylesheet" href="styles.css">` en tu HTML para enlazar tu hoja de estilos y aplicar tu CSS
+**Nota:** Asegúrese de adicionar `<link rel="stylesheet" href="styles.css">` en su HTML para enlazar su hoja de estilos y aplicarla a su CSS
 
 # --hints--
 
@@ -140,7 +140,7 @@ const el = document.querySelector('#survey-form #number')
 assert(!!el)
 ```
 
-Tu `#number` debe tner un `type`de `number`.
+Tu `#number` debe tener un `type` de `number`.
 
 ```js
 const el = document.getElementById('number')
@@ -161,7 +161,7 @@ const el = document.getElementById('number')
 assert(!!el && el.max && isFinite(el.max))
 ```
 
-Debes tener un elemento `label` con un `id` de `name-label`.
+Deber tener un elemento `label` con un `id` de `name-label`.
 
 ```js
 const el = document.getElementById('name-label')
@@ -182,21 +182,21 @@ const el = document.getElementById('number-label')
 assert(!!el && el.tagName === 'LABEL')
 ```
 
-Tu `#name-label` debe contener un texto que describa la entrada.
+Tu `#name-label` debe contener texto que describa la entrada.
 
 ```js
 const el = document.getElementById('name-label')
 assert(!!el && el.innerText.length > 0)
 ```
 
-Tu `#email-label` debe contener un texto que describa la entrada.
+Tu `#email-label` debe contener texto que describa la entrada.
 
 ```js
 const el = document.getElementById('email-label')
 assert(!!el && el.innerText.length > 0)
 ```
 
-Tu `#number-label` debe contener un texto que describa la entrada.
+Tu `#number-label` debe contener texto que describa la entrada.
 
 ```js
 const el = document.getElementById('number-label')
@@ -224,7 +224,7 @@ const el = document.querySelector('#survey-form #number-label')
 assert(!!el)
 ```
 
-Tu `#name` debe tener el atributo `placeholder` y un valor.
+Tu `#name` deber tener un atributo `placeholder` y un valor.
 
 ```js
 const el = document.getElementById('name')
@@ -266,21 +266,21 @@ const el = document.querySelector('#survey-form #dropdown')
 assert(!!el)
 ```
 
-Debes tener al menos dos elementos `input` con un `type` de `radio` (botones de radio).
+Deber tener al menos dos elementos `input` con un `type` de `radio` (botones de radio).
 
 ```js
 const els = document.querySelectorAll('input[type="radio"]')
 assert(els.length >= 2)
 ```
 
-Debes tener al menos dos botones de radio que sean descendientes de `#survey-form`.
+Debe tener al menos dos botones de radio que sean descendientes de `#survey-form`.
 
 ```js
 const els = document.querySelectorAll('#survey-form input[type="radio"]')
 assert(els.length >= 2)
 ```
 
-Todos tus botones de radio deben tener un atributo `value` y un valor.
+Todos los botones de radio deben tener un atributo `value` y un valor.
 
 ```js
 const els1 = document.querySelectorAll('input[type="radio"]')
@@ -288,7 +288,7 @@ const els2 = document.querySelectorAll('input[type="radio"][value=""], input[typ
 assert(els1.length > 0 && els2.length === 0)
 ```
 
-Todos tus botones de radio deben tener un atributo `name` y un valor.
+Todos los botones de radio deben tener un atributo `name` y un valor.
 
 ```js
 const els1 = document.querySelectorAll('input[type="radio"]')
@@ -296,7 +296,7 @@ const els2 = document.querySelectorAll('input[type="radio"][name=""], input[type
 assert(els1.length > 0 && els2.length === 0)
 ```
 
-Cada grupo de botón de radio debe tener al menos 2 botones de radio.
+Cada grupo de botones de radio deben tener al menos 2 botones de radio.
 
 ```js
 const radioButtons = document.querySelectorAll('input[type="radio"]');

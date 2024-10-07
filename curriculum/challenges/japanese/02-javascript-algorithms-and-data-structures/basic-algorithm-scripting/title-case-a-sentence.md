@@ -8,7 +8,7 @@ dashedName: title-case-a-sentence
 
 # --description--
 
-与えられた文字列を、各単語の最初の文字を大文字にして返してください。 単語の残りの文字が小文字であることを確認してください。
+Return the provided string with the first letter of each word capitalized. Make sure the rest of the word is in lower case.
 
 この演習では、 `the` や `of` のような接続語なども大文字にする必要があります。
 

@@ -8,7 +8,7 @@ dashedName: remove-whitespace-from-start-and-end
 
 # --description--
 
-文字列の両端に不要な空白文字が含まれていることがあります。 文字列の先頭と末尾の空白を削除する処理はよく行われます。
+Sometimes whitespace characters around strings are not wanted but are there. Typical processing of strings is to remove the whitespace at the start and end of it.
 
 # --instructions--
 

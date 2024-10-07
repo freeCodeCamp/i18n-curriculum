@@ -12,7 +12,7 @@ dashedName: add-font-awesome-icons-to-our-buttons
 
 # --description--
 
-Font Awesome은 간편한 아이콘 라이브러리입니다. 여기서 제공하는 아이콘들은 웹폰트 또는 벡터 그래픽입니다. 아이콘들은 폰트처럼 다룰 수 있습니다. 아이콘 크기를 픽셀로 직접 지정하거나, 부모 HTML 요소의 글꼴 크기와 연계해 지정할 수 있습니다.
+Font Awesome is a convenient library of icons. These icons can be webfonts or vector graphics. These icons are treated just like fonts. You can specify their size using pixels, and they will assume the font size of their parent HTML elements.
 
 Font Awesome은 어떤 앱에서든 사용할 수 있으며, 사용하기 위해서는 HTML 파일의 맨 위에 다음 코드를 삽입하면 됩니다.
 

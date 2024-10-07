@@ -8,7 +8,7 @@ dashedName: specify-only-the-lower-number-of-matches
 
 # --description--
 
-È possibile specificare il numero inferiore e superiore di corrispondenze con gli specificatori di quantità utilizzando le parentesi graffe. A volte si desidera specificare solo il numero inferiore di pattern senza un limite superiore.
+You can specify the lower and upper number of patterns with quantity specifiers using curly brackets. Sometimes you only want to specify the lower number of patterns with no upper limit.
 
 Per specificare solo il numero inferiore di pattern, manteni il primo numero seguito da una virgola.
 
@@ -32,7 +32,7 @@ Cambia l'espressione regolare `haRegex` per riconoscere la parola `Hazzah` solo 
 
 # --hints--
 
-L'espressione regolare dovrebbe usare parentesi graffe.
+La tua espressione regolare dovrebbe usare le parentesi graffe.
 
 ```js
 assert(haRegex.source.match(/{.*?}/).length > 0);

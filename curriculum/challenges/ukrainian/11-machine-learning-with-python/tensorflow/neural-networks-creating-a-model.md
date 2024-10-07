@@ -14,7 +14,7 @@ dashedName: neural-networks-creating-a-model
 
 ## --text--
 
-Заповніть пропуски нижче, щоб побудувати послідовну модель щільних шарів:
+Fill in the blanks below to build a sequential model of dense layers:
 
 ```py
 model = __A__.__B__([

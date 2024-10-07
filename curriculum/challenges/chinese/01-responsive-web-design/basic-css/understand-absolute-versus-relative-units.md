@@ -9,7 +9,7 @@ dashedName: understand-absolute-versus-relative-units
 
 # --description--
 
-最近的几个挑战都是设置元素的内边距和外边距的 `px` 值，即像素。 像素是一个长度单位，它告诉浏览器应该如何调整元素的大小和位置。 其实除了 `px`，CSS 也有其他单位供我们使用。
+The last several challenges all set an element's margin or padding with pixels (`px`). Pixels are a type of length unit, which is what tells the browser how to size or space an item. In addition to `px`, CSS has a number of different length unit options that you can use.
 
 单位长度的类型可以分成 2 种：相对和绝对。 绝对单位与长度的物理单位相关。 例如，`in` 和 `mm` 分别代表着英寸和毫米。 绝对长度单位会接近屏幕上的实际测量值，不过不同屏幕的分辨率会存在差异，这就可能会造成误差。
 

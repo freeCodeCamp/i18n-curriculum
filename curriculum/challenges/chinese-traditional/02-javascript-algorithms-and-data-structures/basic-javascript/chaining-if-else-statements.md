@@ -9,7 +9,7 @@ dashedName: chaining-if-else-statements
 
 # --description--
 
-`if/else` 語句串聯在一起可以實現複雜的邏輯。 這是多個 `if` / `else if` 語句串聯在一起的<dfn>僞代碼</dfn>：
+`if/else` statements can be chained together for complex logic. Here is <dfn>pseudocode</dfn> of multiple chained `if` / `else if` statements:
 
 ```js
 if (condition1) {

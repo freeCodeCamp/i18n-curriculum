@@ -1,6 +1,6 @@
 ---
 id: 5900f4231000cf542c50ff36
-title: 'Problem 183: Maximum product of parts'
+title: 'Problem 183: Maximales Produkt von Teilen'
 challengeType: 1
 forumTopicId: 301819
 dashedName: problem-183-maximum-product-of-parts
@@ -16,19 +16,19 @@ Wenn zum Beispiel 11 in fünf gleiche Teile aufgeteilt wird, 11 = 2.2 + 2.2 + 2.
 
 Lass $M(N) = P_{max}$ für einen gegebenen Wert von $N$.
 
-It turns out that the maximum for $N = 11$ is found by splitting eleven into four equal parts which leads to $P_{max} = {(\frac{11}{4})}^4$; that is, $M(11) = \frac{14641}{256} = 57.19140625$, which is a terminating decimal.
+Es stellt sich heraus, dass das Maximum für $N = 11$ gefunden wird, indem man elf in vier gleiche Teile aufteilt, was zu $P_{max} = {(\frac{11}{4})}^4$ führt; das heißt, $M(11) = \frac{14641}{256} = 57.19140625$, was eine abschließende Dezimalzahl ist.
 
-However, for $N = 8$ the maximum is achieved by splitting it into three equal parts, so $M(8) = \frac{512}{27}$, which is a non-terminating decimal.
+Für $N = 8$ wird das Maximum jedoch durch Aufteilung in drei gleiche Teile erreicht, also $M(8) = \frac{512}{27}$, was eine nicht endende Dezimalzahl ist.
 
-Let $D(N) = N$ if $M(N)$ is a non-terminating decimal and $D(N) = -N$ if $M(N)$ is a terminating decimal.
+Lasse $D(N) = N$ sein, wenn $M(N)$ eine nicht-terminierende Dezimalzahl ist und $D(N) = -N$ sein, wenn $M(N)$ eine terminierende Dezimalzahl ist.
 
-For example, $\sum D(N)$ for $5 ≤ N ≤ 100$ is 2438.
+Zum Beispiel ist $\sum D(N)$ für $5 ≤ N ≤ 100$ gleich 2438.
 
-Find $\sum D(N)$ for $5 ≤ N ≤ 10000$.
+Finde $\sum D(N)$ für $5 ≤ N ≤ 10000$.
 
 # --hints--
 
-`maximumProductOfParts()` should return `48861552`.
+`maximumProductOfParts()` sollte `48861552` zurückgeben.
 
 ```js
 assert.strictEqual(maximumProductOfParts(), 48861552);

@@ -20,7 +20,7 @@ Complete o módulo <a href="https://learn.microsoft.com/training/modules/csharp-
 
 ## --text--
 
-Qual é o valor do seguinte resultado?
+What is the value of the following result?
 
 ```clike
 int result = 3 + 1 * 5 / 2;

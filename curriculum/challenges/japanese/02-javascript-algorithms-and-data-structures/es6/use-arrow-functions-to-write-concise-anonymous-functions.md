@@ -8,7 +8,7 @@ dashedName: use-arrow-functions-to-write-concise-anonymous-functions
 
 # --description--
 
-JavaScript では多くの場合、特に他の関数に引数として関数を渡す場合に、関数に名前を付ける必要がありません。 代わりに、インライン関数を作成します。 これらの関数は他の場所で再利用することがないため、名前を付ける必要はありません。
+In JavaScript, we often don't need to name our functions, especially when passing a function as an argument to another function. Instead, we create inline functions. We don't need to name these functions because we do not reuse them anywhere else.
 
 これを実現するため、次のような構文をよく使用します。
 

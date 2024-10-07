@@ -1,6 +1,6 @@
 ---
 id: 56533eb9ac21ba0edf2244b7
-title: Concatenating Strings with Plus Operator
+title: 더하기 연산자로 문자열을 연결하기
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cNpM8AN'
 forumTopicId: 16802
@@ -11,24 +11,24 @@ dashedName: concatenating-strings-with-plus-operator
 
 In JavaScript, when the `+` operator is used with a `String` value, it is called the <dfn>concatenation</dfn> operator. You can build a new string out of other strings by <dfn>concatenating</dfn> them together.
 
-**Example**
+**예)**
 
 ```js
 'My name is Alan,' + ' I concatenate.'
 ```
 
-**Note:** Watch out for spaces. Concatenation does not add spaces between concatenated strings, so you'll need to add them yourself.
+**노트:** 공백에 주의하세요. 연결에서는 문자열 사이에 공백이 추가되지 않기 때문에, 필요한 경우에는 직접 추가할 필요가 있습니다.
 
-Example:
+예:
 
 ```js
 const ourStr = "I come first. " + "I come second.";
 ```
 
-콘솔에 문자열 `I come first. I come second.` 가 표시 될것입니다.
+The string `I come first. I come second.` would be displayed in the console.
 # --instructions--
 
-Build `myStr` from the strings `This is the start.` and `This is the end.` using the `+` operator. Be sure to include a space between the two strings.
+`+` 연산자를 사용해서, 문자열 `This is the start.` 와 `This is the end.`로 `myStr`을 제작해주세요. 2개의 문자열 사이에 공백을 반드시 포함해 주세요.
 
 # --hints--
 

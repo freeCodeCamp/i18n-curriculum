@@ -8,7 +8,7 @@ dashedName: get-geolocation-data-to-find-a-users-gps-coordinates
 
 # --description--
 
-もう一つ便利な点は、ユーザーの現在位置にアクセスできることです。 すべてのブラウザには、この情報を提供できるナビゲータが組み込まれています。
+Another cool thing you can do is access your user's current location. Every browser has a built in navigator that can give you this information.
 
 ナビゲータはユーザーの現在の経度と緯度を取得します。
 

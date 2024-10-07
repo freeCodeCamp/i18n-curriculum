@@ -1,6 +1,6 @@
 ---
 id: 587d7fb1367417b2b2512bf2
-title: Use the .env File
+title: استخدام ملف "env."
 challengeType: 2
 forumTopicId: 301521
 dashedName: use-the--env-file
@@ -10,15 +10,15 @@ dashedName: use-the--env-file
 
 The `.env` file is a hidden file that is used to pass environment variables to your application. This file is secret, no one but you can access it, and it can be used to store data that you want to keep private or hidden. For example, you can store API keys from external services or your database URI. You can also use it to store configuration options. By setting configuration options, you can change the behavior of your application, without the need to rewrite some code.
 
-The environment variables are accessible from the app as `process.env.VAR_NAME`. The `process.env` object is a global Node object, and variables are passed as strings. By convention, the variable names are all uppercase, with words separated by an underscore. The `.env` is a shell file, so you don’t need to wrap names or values in quotes. It is also important to note that there cannot be space around the equals sign when you are assigning values to your variables, e.g. `VAR_NAME=value`. Usually, you will put each variable definition on a separate line.
+استخدم `process.env.VAR_NAME` للوصول إلى متغيرات البيئة من التطبيق. `process.env` هو كائن Node متاح للوصول إليه من أي مكان. و المتغيرات تكتب كنص مقطعي. حسب التقاليد، فإن أسماء المتغيرات كلها أحرف كبيرة، و يفصل بين كل كلمة شَرطة سفلية (_). `.env` هو ملف shell، لذلك لا تحتاج الأسماء أو القيم إلى علامة الاقتباس. من المهم أيضا ملاحظة أنه لا يمكن أن تكون هناك مسافة حول علامة المساواة عندما تقوم بتعيين القيم للمتغيرات الخاصة بك، على سبيل المثال `VAR_NAME=value`. عادةً، ستضع كل تعريف متغير على خط منفصل.
 
 # --instructions--
 
-Let's add an environment variable as a configuration option.
+دعونا نضيف متغير البيئة كخيار من خيارات الإعداد.
 
-Create a `.env` file in the root of your project directory, and store the variable `MESSAGE_STYLE=uppercase` in it.
+قم بإنشاء ملف `.env` في جذر دليل المشروع الخاص بك، و قم بتخزين المتغير `MESSAGE_STYLE=uppercase` فيه.
 
-Then, in the `/json` GET route handler you created in the last challenge access `process.env.MESSAGE_STYLE` and transform the response object's `message` to uppercase if the variable equals `uppercase`. The response object should either be `{"message": "Hello json"}` or `{"message": "HELLO JSON"}`, depending on the `MESSAGE_STYLE` value. Note that you must read the value of `process.env.MESSAGE_STYLE` **inside** the route handler, not outside of it, due to the way our tests run.
+ثم ، في معالج مسار `/json` الذي قمت بإنشائه في آخر تحدي، تَوَصَّل إلى `process.env.MESSAGE_STYLE` وحوِّل رسالة كائن response في `message` إلى حروف كبيره إذا كان المتغير يساوي `uppercase`. يجب أن يكون عنصر الاستجابة إما `{"message": "Hello json"}` أو `{"message": "HELLO JSON"}`، اعتماداً على قيمة `MESSAGE_STYLE`. لاحظ أنه يجب أن تقرأ قيمة `process.env.MESSAGE_STYLE` في **داخل** معالج الطريق، ليس خارجه، بسبب الطريقة التي تعمل بها اختباراتنا.
 
 You will need to use the `dotenv` package. It loads environment variables from your `.env` file into `process.env`. The `dotenv` package has already been installed, and is in your project's `package.json` file. At the top of your `myApp.js` file, add `require('dotenv').config()` to load the environment variables.
 

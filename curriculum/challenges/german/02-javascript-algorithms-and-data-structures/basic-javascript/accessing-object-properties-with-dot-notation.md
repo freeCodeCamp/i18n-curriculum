@@ -9,7 +9,7 @@ dashedName: accessing-object-properties-with-dot-notation
 
 # --description--
 
-Es gibt zwei Möglichkeiten, auf die Eigenschaften eines Objekts zuzugreifen: die Punktschreibweise (`.`) und die Klammerschreibweise (`[]`), ähnlich wie bei einem Array.
+There are two ways to access the properties of an object: dot notation (`.`) and bracket notation (`[]`), similar to an array.
 
 Die Punktschreibweise verwendest du, wenn du den Namen der Eigenschaft, auf die du zugreifen willst, schon vorher kennst.
 

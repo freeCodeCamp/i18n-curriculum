@@ -12,7 +12,7 @@ dashedName: format-alphanumeric-data-for-presentation-in-c-sharp
 1. 跳转到 <a href="https://learn.microsoft.com/training/modules/csharp-format-strings/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/csharp-format-strings/</a>，然后完成“在 C# 中格式化含字母和数字的数据以供展示”模块的所有任务。 这是在 Microsoft Learn 上获得“在 C# 控制台应用程序中使用变量数据”的奖杯以及参加认证考试所**必需**的。
 1. 完成后，返回并正确回答下面的问题。
 
-# --任务--
+# --作业--
 
 在 Microsoft Learn 上完成 <a href="https://learn.microsoft.com/training/modules/csharp-format-strings/" target="_blank" rel="noreferrer">在 C# 中格式化含字母和数字的数据以供展示</a> 模块。 然后，回答下面的问题。
 

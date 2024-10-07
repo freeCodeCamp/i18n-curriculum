@@ -8,7 +8,7 @@ dashedName: breadth-first-search
 
 # --description--
 
-Finora, abbiamo imparato diversi modi per creare rappresentazioni di grafi. E adesso? Una domanda naturale da porsi è quali sono le distanze tra due nodi qualsiasi nel grafo? Qui entrano in gioco gli <dfn>algoritmi di attraversamento di grafi</dfn>.
+So far, we've learned different ways of creating representations of graphs. What now? One natural question to have is what are the distances between any two nodes in the graph? Enter <dfn>graph traversal algorithms</dfn>.
 
 <dfn>Gli algoritmi di attraversamento</dfn> sono algoritmi per attraversare o visitare nodi in un grafo. Un tipo di algoritmo di attraversamento è l'algoritmo Breadth-first Search (di ricerca in ampiezza).
 

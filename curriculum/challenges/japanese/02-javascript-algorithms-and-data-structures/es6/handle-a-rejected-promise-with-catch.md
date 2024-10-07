@@ -8,7 +8,7 @@ dashedName: handle-a-rejected-promise-with-catch
 
 # --description--
 
-`catch` は、プロミスが拒否されたときに使用するメソッドで、 プロミスの `reject` メソッドが呼び出された直後に実行されます。 構文は次のとおりです。
+`catch` is the method used when your promise has been rejected. It is executed immediately after a promise's `reject` method is called. Here’s the syntax:
 
 ```js
 myPromise.catch(error => {

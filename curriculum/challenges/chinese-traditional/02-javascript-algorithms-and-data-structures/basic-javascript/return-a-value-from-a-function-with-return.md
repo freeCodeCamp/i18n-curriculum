@@ -9,9 +9,9 @@ dashedName: return-a-value-from-a-function-with-return
 
 # --description--
 
-我們可以通過函數的參數（<dfn>arguments</dfn>）把值傳入函數， 也可以使用 `return` 語句把數據從一個函數中傳出來。
+We can pass values into a function with <dfn>arguments</dfn>. You can use a `return` statement to send a value back out of a function.
 
-**示例**
+**例如：**
 
 ```js
 function plusThree(num) {

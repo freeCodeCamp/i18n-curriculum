@@ -1,25 +1,25 @@
 ---
 id: bd7158d8c443edefaeb5bd0f
-title: File Metadata Microservice
+title: Microsserviço de metadados de arquivos
 challengeType: 4
 dashedName: file-metadata-microservice
 ---
 
 # --description--
 
-Build a full stack JavaScript app that is functionally similar to this: <a href="https://file-metadata-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://file-metadata-microservice.freecodecamp.rocks</a>. Working on this lab will involve you writing your code using one of the following methods:
+Crie uma aplicação full-stack em JavaScript que seja funcionalmente semelhante a esta: <a href="https://file-metadata-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://file-metadata-microservice.freecodecamp.rocks</a>. Trabalhar nesse laboratório vai fazer com que você escreva o código usando um dos seguintes métodos:
 
--   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-filemetadata/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
--   Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-filemetadata/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete your project.
--   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
+-   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-filemetadata/" target="_blank" rel="noopener noreferrer nofollow">este repositório do GitHub</a> e complete o projeto localmente.
+-   Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-filemetadata/" target="_blank" rel="noopener noreferrer nofollow">nosso projeto inicial no Gitpod</a> para completar seu projeto.
+-   Use um criador de sites de sua escolha para completar o projeto. Certifique-se de incorporar todos os arquivos do nosso repositório no GitHub.
 
 # --instructions--
 
-**HINT:** You can use the `multer` npm package to handle file uploading.
+**DICA:** você pode usar o pacote `multer` do npm para lidar com o envio de arquivos.
 
 # --hints--
 
-You should provide your own project, not the example URL.
+Você deve fornecer seu próprio projeto, não o exemplo de URL.
 
 ```js
 (getUserInput) => {
@@ -31,7 +31,7 @@ You should provide your own project, not the example URL.
 };
 ```
 
-You can submit a form that includes a file upload.
+Você pode enviar um formulário que inclua o upload de arquivos.
 
 ```js
 async (getUserInput) => {
@@ -42,7 +42,7 @@ async (getUserInput) => {
 };
 ```
 
-The form file input field has the `name` attribute set to `upfile`.
+O campo entrada do arquivo de formulário tem o atributo `name` definido como `upfile`.
 
 ```js
 async (getUserInput) => {
@@ -53,7 +53,7 @@ async (getUserInput) => {
 };
 ```
 
-When you submit a file, you receive the file `name`, `type`, and `size` in bytes within the JSON response.
+Ao enviar um arquivo, você recebe `name` (nome), `type` (tipo) e `size` (tamanho, em bytes) do arquivo dentro da resposta em JSON.
 
 ```js
 async (getUserInput) => {

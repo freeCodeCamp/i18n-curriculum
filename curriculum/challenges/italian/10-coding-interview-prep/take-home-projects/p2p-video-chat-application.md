@@ -8,7 +8,7 @@ dashedName: p2p-video-chat-application
 
 # --description--
 
-**Obiettivo:** Costruisci un'app funzionalmente simile a questa: <a href="https://p2p-video-chat-application.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://p2p-video-chat-application.freecodecamp.rocks/</a>.
+**Objective:** Build an app that is functionally similar to this: <a href="https://p2p-video-chat-application.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://p2p-video-chat-application.freecodecamp.rocks/</a>.
 
 Soddisfa le user story qui sotto e supera tutti i test. Utilizza le librerie o le API di cui hai bisogno. Usa il tuo stile personale.
 
@@ -32,7 +32,7 @@ Soddisfa le user story qui sotto e supera tutti i test. Utilizza le librerie o l
 
 Una volta terminata l'implementazione di queste user story, scrivi l'URL della tua app live e, opzionalmente, il tuo repository GitHub. Quindi clicca sul pulsante "Ho completato questa sfida".
 
-Puoi ottenere un feedback sul tuo progetto condividendolo sul forum di <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp</a>.
+Puoi ottenere un feedback sul tuo progetto condividendolo sul forum <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp</a>.
 
 # --solutions--
 

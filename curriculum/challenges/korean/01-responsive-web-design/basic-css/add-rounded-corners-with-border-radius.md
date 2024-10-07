@@ -9,7 +9,7 @@ dashedName: add-rounded-corners-with-border-radius
 
 # --description--
 
-고양이 사진은 현재 날카로운 모서리를 가지고 있습니다. `border-radius`라는 CSS 속성을 사용하여 이 모서리들을 둥글게 만들 수 있습니다.
+Your cat photo currently has sharp corners. We can round out those corners with a CSS property called `border-radius`.
 
 # --instructions--
 

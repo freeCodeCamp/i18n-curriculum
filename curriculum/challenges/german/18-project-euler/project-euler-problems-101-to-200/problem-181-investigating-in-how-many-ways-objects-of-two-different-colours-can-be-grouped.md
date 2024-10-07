@@ -1,7 +1,7 @@
 ---
 id: 5900f4231000cf542c50ff34
 title: >-
-  Problem 181: Investigating in how many ways objects of two different colours can be grouped
+  Problem 181: Untersuchen, auf wie viele Arten Objekte mit zwei verschiedenen Farben gruppiert werden können
 challengeType: 1
 forumTopicId: 301817
 dashedName: >-
@@ -10,15 +10,15 @@ dashedName: >-
 
 # --description--
 
-Having three black objects $B$ and one white object $W$ they can be grouped in 7 ways like this:
+Mit drei schwarzen Objekten $B$ und einem weißen Objekt $W$ können sie auf 7 Arten gruppiert werden:
 
 $$(BBBW)\\;(B,BBW)\\;(B,B,BW)\\;(B,B,B,W)\\;(B,BB,W)\\;(BBB,W)\\;(BB,BW)$$
 
-In how many ways can sixty black objects $B$ and forty white objects $W$ be thus grouped?
+Auf wie viele Arten können sechzig schwarze Objekte $B$ und vierzig weiße Objekte $W$ so gruppiert werden?
 
 # --hints--
 
-`colorsGrouping()` should return `83735848679360670`.
+`colorsGrouping()` sollte `83735848679360670` zurückgeben.
 
 ```js
 assert.strictEqual(colorsGrouping(), 83735848679360670);

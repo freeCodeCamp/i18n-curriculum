@@ -14,7 +14,7 @@ dashedName: understanding-sockets-and-creating-a-tcp-server
 
 ## --text--
 
-Quais das funções a seguir criam um objeto de socket?
+Which of the following functions creates a socket object?
 
 ## --answers--
 

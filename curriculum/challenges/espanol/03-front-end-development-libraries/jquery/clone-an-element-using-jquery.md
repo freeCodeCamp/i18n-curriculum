@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aed508826
-title: Clona un elemento usando jQuery
+title: Clona un Elemento usando jQuery
 challengeType: 6
 forumTopicId: 16780
 dashedName: clone-an-element-using-jquery
@@ -8,7 +8,7 @@ dashedName: clone-an-element-using-jquery
 
 # --description--
 
-Además de mover elementos, también puedes copiarlos de un lugar a otro.
+In addition to moving elements, you can also copy them from one place to another.
 
 jQuery tiene una función llamada `clone()` que hace una copia de un elemento.
 

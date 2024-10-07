@@ -8,7 +8,7 @@ dashedName: label-bootstrap-wells
 
 # --description--
 
-من أجل الوضوح، ضع وصف على كلا الآبار مع معرفيهما.
+For the sake of clarity, let's label both of our wells with their ids.
 
 فوق البئر الأيسر (left-well), داخل عنصر `col-xs-6` في `div`، أضف عنصر `h4` مع النص `#left-well`.
 

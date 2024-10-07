@@ -7,25 +7,25 @@ dashedName: task-146
 
 # --description--
 
-Just like when you learned about the pronoun `he`, pronouns like `she` are used to refer to female individuals. They help avoid repetition in conversation. Siehe dir diesen Teil des Dialogs an:
+So wie du das Pronomen `he` kennengelernt hast, werden Pronomen wie `she` verwendet, um sich auf weibliche Personen zu beziehen. Sie helfen, Wiederholungen im Gespräch zu vermeiden. Siehe dir diesen Teil des Dialogs an:
 
 Sophie: `Oh, come on, Brian!`
 
 Brian: `But it is true. Sie ist die Person, zu der du gehst, wenn du Hilfe brauchst!`
 
-Hier wird `She` von Brian verwendet, um auf Sophie zu verweisen. Instead of repeating Sophie's name, Brian uses the pronoun `she` to make the conversation smoother and avoid redundancy.
+Hier wird `She` von Brian verwendet, um auf Sophie zu verweisen. Anstatt Sophies Namen zu wiederholen, verwendet Brian das Pronomen `she`, um das Gespräch flüssiger zu gestalten und Redundanzen zu vermeiden.
 
 # --questions--
 
 ## --text--
 
-In the dialogue, which word does Brian use to refer to Sophie without repeating her name?
+Welches Wort benutzt Brian in dem Dialog, um sich auf Sophie zu beziehen, ohne ihren Namen zu nennen?
 
 ## --answers--
 
 `he`
 
-### --Feedback--
+### --feedback--
 
 `He` bezieht sich auf einen Mann.
 
@@ -33,7 +33,7 @@ In the dialogue, which word does Brian use to refer to Sophie without repeating 
 
 `they`
 
-### --Feedback--
+### --feedback--
 
 `They` ist Plural und bezieht sich auf mehr als eine Person.
 
@@ -57,7 +57,7 @@ In the dialogue, which word does Brian use to refer to Sophie without repeating 
 
 4
 
-# --blanks--
+# --scene--
 
 ```json
 {

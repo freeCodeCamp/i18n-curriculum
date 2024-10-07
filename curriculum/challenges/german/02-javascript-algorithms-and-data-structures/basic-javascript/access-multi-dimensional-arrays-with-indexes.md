@@ -9,7 +9,7 @@ dashedName: access-multi-dimensional-arrays-with-indexes
 
 # --description--
 
-Man kann sich ein <dfn>mehrdimensionales</dfn> Array als ein *Array von Arrays* vorstellen. Wenn du Klammern benutzt, um auf deinen Array zuzugreifen, bezieht sich das erste Klammerpaar auf Einträge im obersten Array (der ersten Ebene) und jedes weitere Paar auf die nächste Eintrag-Ebene.
+One way to think of a <dfn>multi-dimensional</dfn> array, is as an *array of arrays*. When you use brackets to access your array, the first set of brackets refers to the entries in the outermost (the first level) array, and each additional pair of brackets refers to the next level of entries inside.
 
 **Beispiel**
 
@@ -28,7 +28,7 @@ const element = arr[3][0][1];
 
 In diesem Beispiel, hat `subarray` den Wert `[[10, 11, 12], 13, 14]`, `nestedSubarray` hat den Wert `[10, 11, 12]`,  und `element` hat den Wert `11` .
 
-**Hinweis:** Zwischen dem Array-Namen und den eckigen Klammern sollten keine Leerzeichen stehen, zum Beispiel `array [0][0]` oder selbst dies `array [0] [0]` ist nicht erlaubt. Obwohl JavaScript dies problemlos verarbeiten kann, könnte es andere Programmierer, die deinen Code lesen, verwirren.
+**Hinweis:** Zwischen dem Array-Namen und den eckigen Klammern sollten keine Leerzeichen stehen, zum Beispiel `array [0][0]` oder selbst dies `array [0] [0]` ist nicht erlaubt. Obwohl JavaScript in der Lage ist, dies korrekt zu verarbeiten, kann dies andere Programmierer verwirren, die deinen Code lesen.
 
 # --instructions--
 

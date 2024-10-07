@@ -8,7 +8,7 @@ dashedName: create-a-redux-store
 
 # --description--
 
-Redux 是一个状态管理框架，可以与包括 React 在内的许多不同的 Web 技术一起使用。
+Redux is a state management framework that can be used with a number of different web technologies, including React.
 
 在 Redux 中，有一个状态对象负责应用程序的整个状态， 这意味着如果你有一个包含十个组件且每个组件都有自己的本地状态的 React 项目，那么这个项目的整个状态将通过 Redux `store` 被定义为单个状态对象， 这是学习 Redux 时要理解的第一个重要原则：Redux store 是应用程序状态的唯一真实来源。
 

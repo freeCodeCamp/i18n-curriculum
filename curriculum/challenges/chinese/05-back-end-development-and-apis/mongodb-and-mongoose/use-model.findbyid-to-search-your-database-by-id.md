@@ -8,7 +8,7 @@ dashedName: use-model-findbyid-to-search-your-database-by-id
 
 # --description--
 
-在保存 document 的时候，MongoDB 会自动为它添加 `_id` 字段，并给该字段设置一个唯一的仅包含数字和字母的值。 通过 `_id` 搜索是一个十分常见的操作，为此，Mongoose 提供了一个专门的方法。
+When saving a document, MongoDB automatically adds the field `_id`, and set it to a unique alphanumeric key. Searching by `_id` is an extremely frequent operation, so Mongoose provides a dedicated method for it.
 
 # --instructions--
 

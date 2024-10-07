@@ -1,6 +1,6 @@
 ---
 id: 65f6fc00be7facffe0898c6d
-title: Task 43
+title: 任务 43
 challengeType: 22
 dashedName: task-43
 ---

@@ -8,7 +8,7 @@ dashedName: modify-an-object-nested-within-an-object
 
 # --description--
 
-今度はもう少し複雑なオブジェクトを見てみましょう。 オブジェクトのプロパティは任意の深さまでネストすることができ、その値は、配列や他のオブジェクトなど、JavaScript でサポートされているあらゆる種類のデータを取ることができます。 以下の例について考えてみましょう。
+Now let's take a look at a slightly more complex object. Object properties can be nested to an arbitrary depth, and their values can be any type of data supported by JavaScript, including arrays and even other objects. Consider the following:
 
 ```js
 let nestedObject = {

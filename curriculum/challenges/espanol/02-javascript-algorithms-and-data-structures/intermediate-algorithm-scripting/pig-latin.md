@@ -8,7 +8,7 @@ dashedName: pig-latin
 
 # --description--
 
-Pig Latin (latin de los cerdos) es una manera de alterar las palabras en inglés. Las normas son las siguientes:
+Pig Latin is a way of altering English Words. The rules are as follows:
 
 \- Si una palabra comienza con una consonante, toma la primer consonante o grupo de consonantes, muévela al final de la palabra, y añade `ay` a ella.
 

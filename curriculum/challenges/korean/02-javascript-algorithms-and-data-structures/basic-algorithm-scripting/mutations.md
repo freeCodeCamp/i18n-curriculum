@@ -8,7 +8,7 @@ dashedName: mutations
 
 # --description--
 
-배열의 첫 번째 요소에 있는 문자열이 두 번째 요소에 있는 문자열의 모든 글자를 포함하면 `true`를 반환하세요.
+Return `true` if the string in the first element of the array contains all of the letters of the string in the second element of the array.
 
 예를 들어, `["hello", "Hello"]`는 대/소문자 구분을 하지 않는다면 첫 번째 문자열에 두 번째 문자열의 모든 글자가 있으므로 `true`를 반환해야 합니다.
 

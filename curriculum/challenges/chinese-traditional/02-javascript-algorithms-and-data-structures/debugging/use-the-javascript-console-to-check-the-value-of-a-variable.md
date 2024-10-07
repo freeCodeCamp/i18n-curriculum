@@ -8,7 +8,7 @@ dashedName: use-the-javascript-console-to-check-the-value-of-a-variable
 
 # --description--
 
-Chrome 和 Firefox 都有出色的 JavaScript 控制檯（也稱爲 DevTools），可以用來調試 JavaScript 代碼
+Both Chrome and Firefox have excellent JavaScript consoles, also known as DevTools, for debugging your JavaScript.
 
 可以在 Chrome 的菜單中找到“開發者工具”或 FireFox 的菜單中的 “Web 控制檯”。 如果你使用其他瀏覽器或手機，我們強烈建議你切換到桌面版 Firefox 或 Chrome。
 

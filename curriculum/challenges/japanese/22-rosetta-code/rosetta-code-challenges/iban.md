@@ -22,7 +22,7 @@ The International Bank Account Number (IBAN) is an internationally agreed means 
 
 # --instructions--
 
-パラメータとしてIBAN文字列を取る関数を記述してください。 有効なら true を、 それ以外は、falseを返します。
+パラメータとしてIBAN文字列を取る関数を記述してください。 有効なら true を、 それ以外は、false を返します。
 
 # --hints--
 

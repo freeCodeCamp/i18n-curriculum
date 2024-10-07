@@ -9,7 +9,7 @@ dashedName: use-headings-to-show-hierarchical-relationships-of-content
 
 # --description--
 
-Le intestazioni (da `h1` a `h6`) sono il cavallo di battaglia per fornire una struttura e dei titoli ai tuoi contenuti. Gli screen reader possono essere impostati per leggere solo le intestazioni di una pagina in modo che l'utente abbia un riepilogo. Questo significa che è importante che i tag di intestazione nella tua struttura abbiano un significato semantico e si relazionino l'uno con l'altro, e non che siano scelti solo per i loro valori dimensionali.
+Headings (`h1` through `h6` elements) are workhorse tags that help provide structure and labeling to your content. Screen readers can be set to read only the headings on a page so the user gets a summary. This means it is important for the heading tags in your markup to have semantic meaning and relate to each other, not be picked merely for their size values.
 
 *Significato semantico* vuol dire che il tag usato intorno ad un contenuto indica il tipo di informazioni che contiene.
 

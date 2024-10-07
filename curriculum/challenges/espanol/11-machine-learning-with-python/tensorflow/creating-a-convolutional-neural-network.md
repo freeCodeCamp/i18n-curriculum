@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: creating-a-convolutional-neural-network
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-Rellena los siguientes espacios en blanco para completar la arquitectura para una red neuronal convolucional:
+Fill in the blanks below to complete the architecture for a convolutional neural network:
 
 ```py
 model = models.__A__()

@@ -11,9 +11,9 @@ dashedName: port-scanner
 
 You will be <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-port-scanner" target="_blank" rel="noopener noreferrer nofollow">working on this project with our Gitpod starter code</a>.
 
-我們仍在開發 Python 課程的交互式教學部分。 目前，你可以在 YouTube 上通過 freeCodeCamp.org 上傳的一些視頻學習這個項目相關的知識。
+我們仍在開發Python課程的交互式教學部分 目前，你可以在 freeCodeCamp.org 的 YouTube 頻道中通過視頻學習到這個項目相關的所有知識
 
-- <a href="https://www.freecodecamp.org/news/python-for-everybody/" target="_blank" rel="noopener noreferrer nofollow">每個人視頻課程的 Python</a> (14小時)
+- <a href="https://www.freecodecamp.org/news/python-for-everybody/" target="_blank" rel="noopener noreferrer nofollow">Python for Everybody Video Course</a> (14 hours)
 
 - <a href="https://www.freecodecamp.org/news/learn-python-basics-in-depth-video-course/" target="_blank" rel="noopener noreferrer nofollow">深入學習 Python 基礎知識</a>（4 小時）
 
@@ -68,7 +68,7 @@ PORT     SERVICE
 
 如果傳入 `get_open_ports` 函數的 IP 地址無效，該函數應返回字符串：“Error:  Invalid IP address”。
 
-## 開發
+## Development
 
 在 `port_scanner.py` 中編寫你的代碼。 對於開發，你可以使用 `main.py` 來測試你的代碼。
 

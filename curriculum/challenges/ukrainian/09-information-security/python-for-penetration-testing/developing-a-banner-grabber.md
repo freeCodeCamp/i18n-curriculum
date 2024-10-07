@@ -14,7 +14,7 @@ dashedName: developing-a-banner-grabber
 
 ## --text--
 
-Заповніть пропуски, щоб завершити функцію `banner`, розміщену нижче:
+Fill in the blanks to complete the `banner` function below:
 
 ```py
 def banner(ip, port):

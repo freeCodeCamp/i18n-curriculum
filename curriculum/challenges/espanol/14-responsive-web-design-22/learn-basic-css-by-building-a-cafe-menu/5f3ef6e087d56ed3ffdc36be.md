@@ -7,7 +7,7 @@ dashedName: step-61
 
 # --description--
 
-Ahora aplica la clase `established` al texto `Est. 2020`.
+Now apply the `established` class to the `Est. 2020` text.
 
 # --hints--
 
@@ -17,7 +17,7 @@ El atributo `class` del elemento `p` debería tener el valor `established`.
 assert.match(code,/<p class=('|")established\1>/i);
 ```
 
-Tu clase `established` debe estar en el elemento con el texto `Est. 2020`.
+Your `established` class should be on the element with the text `Est. 2020`.
 
 ```js
 assert.match(document.querySelector('.established')?.innerText, /Est\.\s2020/i);

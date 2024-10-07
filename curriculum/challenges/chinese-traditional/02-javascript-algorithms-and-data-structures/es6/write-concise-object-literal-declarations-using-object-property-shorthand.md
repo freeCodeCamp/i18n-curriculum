@@ -8,7 +8,7 @@ dashedName: write-concise-object-literal-declarations-using-object-property-shor
 
 # --description--
 
-ES6 添加了一些很棒的功能，用於更方便地定義對象。
+ES6 adds some nice support for easily defining object literals.
 
 請看以下代碼：
 

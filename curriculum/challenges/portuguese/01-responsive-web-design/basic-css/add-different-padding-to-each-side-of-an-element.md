@@ -9,7 +9,7 @@ dashedName: add-different-padding-to-each-side-of-an-element
 
 # --description--
 
-Às vezes, você pode querer personalizar um elemento para que ele tenha a propriedade `padding` diferente em cada um de seus lados.
+Sometimes you will want to customize an element so that it has different amounts of `padding` on each of its sides.
 
 O CSS permite que você controle a propriedade `padding` nos quatro lados de um elemento com as seguintes propriedades: `padding-top`, `padding-right`, `padding-left` e `padding-bottom`.
 

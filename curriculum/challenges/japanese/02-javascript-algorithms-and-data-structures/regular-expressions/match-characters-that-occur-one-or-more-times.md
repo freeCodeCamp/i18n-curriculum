@@ -8,7 +8,7 @@ dashedName: match-characters-that-occur-one-or-more-times
 
 # --description--
 
-場合によっては、1 行に 1 回以上出現する文字 (または文字のグループ) にマッチさせる必要があります。 つまり、少なくとも 1 回出現し、繰り返される可能性がある文字です。
+Sometimes, you need to match a character (or group of characters) that appears one or more times in a row. This means it occurs at least once, and may be repeated.
 
 `+` 文字を使用すると、そうしたマッチかどうかを調べることができます。 文字やパターンは連続して存在する必要があることに注意してください。 つまり、文字は連続して繰り返されている必要があります。
 

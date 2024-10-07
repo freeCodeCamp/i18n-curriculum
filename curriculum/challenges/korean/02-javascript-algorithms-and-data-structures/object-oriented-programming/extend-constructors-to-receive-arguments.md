@@ -8,7 +8,7 @@ dashedName: extend-constructors-to-receive-arguments
 
 # --description--
 
-지난 과제에서 생성자 `Bird`와 `Dog`는 잘 동작했습니다. 그러나 생성자 `Bird` 로 만들어진 모든 `Birds`은 자동적으로 Albert라는 이름을 가지며 색을 파랗고 다리는 두개를 가지고 있습니다. 다른 이름과 색깔의 새를 원한다면 어떻게 해야 할까요? 각 새들의 속성을 수동으로 바꾸는 건 가능하지만 너무 많은 작업이 될지도 모릅니다.
+The `Bird` and `Dog` constructors from the last challenge worked well. However, notice that all `Birds` that are created with the `Bird` constructor are automatically named Albert, are blue in color, and have two legs. What if you want birds with different values for name and color? It's possible to change the properties of each bird manually but that would be a lot of work:
 
 ```js
 let swan = new Bird();

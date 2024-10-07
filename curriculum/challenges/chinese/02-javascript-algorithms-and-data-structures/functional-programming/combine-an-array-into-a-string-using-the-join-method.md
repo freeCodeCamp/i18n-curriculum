@@ -8,9 +8,9 @@ dashedName: combine-an-array-into-a-string-using-the-join-method
 
 # --description--
 
-`join` 方法用来把数组中的所有元素放入一个字符串。 并通过指定的分隔符参数进行分隔。
+The `join` method is used to join the elements of an array together to create a string. It takes an argument for the delimiter that is used to separate the array elements in the string.
 
-举个例子：
+请看下面的举例：
 
 ```js
 const arr = ["Hello", "World"];

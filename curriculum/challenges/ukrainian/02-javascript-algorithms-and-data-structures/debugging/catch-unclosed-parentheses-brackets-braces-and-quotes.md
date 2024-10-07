@@ -8,7 +8,7 @@ dashedName: catch-unclosed-parentheses-brackets-braces-and-quotes
 
 # --description--
 
-Ще одна синтаксична помилка, про яку варто пам’ятати: всі відкриваючі дужки та лапки мають закриваючу пару. Зазвичай про це можна забути під час редагування вже існуючого коду або вставлення елементів з одним із парних розділових знаків. Також будьте обережні, коли вкладаєте одні блоки коду в інші (наприклад, додавання функції зворотного виклику як аргумент до методу).
+Another syntax error to be aware of is that all opening parentheses, brackets, curly braces, and quotes have a closing pair. Forgetting a piece tends to happen when you're editing existing code and inserting items with one of the pair types. Also, take care when nesting code blocks into others, such as adding a callback function as an argument to a method.
 
 Один зі способів уникнути цієї помилки — одразу при відкритті лапок чи дужок закривати їх, а потім повертатись всередину та продовжувати програмувати. На щастя, більшість сучасних редакторів коду створюють другу частину пари автоматично.
 

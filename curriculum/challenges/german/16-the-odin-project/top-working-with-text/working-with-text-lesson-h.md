@@ -8,45 +8,45 @@ dashedName: working-with-text-lesson-h
 
 # --description--
 
-If you want to have a list of items where the order doesn’t matter, like a shopping list of items that can be bought in any order, then you can use an unordered list.
+Wenn du eine Liste von Einträgen haben möchtest, bei denen die Reihenfolge keine Rolle spielt, wie z. B. eine Einkaufsliste von Artikeln, die in beliebiger Reihenfolge gekauft werden können, kannst du eine unsortierte Liste verwenden.
 
-Unordered lists are created using the `<ul>` element, and each item within the list is created using the list item element `<li>`.
+Unsortierte Listen werden mit dem `<ul>`-Element erstellt und jeder Eintrag in der Liste wird mit dem Listenelement `<li>` erstellt.
 
-Each list item in an unordered list begins with a bullet point:
+Jeder Listeneintrag in einer unsortierten Liste beginnt mit einem Aufzählungspunkt:
 
-<iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="300" width="100%" name="cp_embed_1" scrolling="no" src="https://codepen.io/TheOdinProjectExamples/embed/powjajd?height=300&amp;theme-id=dark&amp;default-tab=html%2Cresult&amp;slug-hash=powjajd&amp;user=TheOdinProjectExamples&amp;name=cp_embed_1" style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy" id="cp_embed_powjajd"></iframe>
+<iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="300" width="100%" name="cp_embed_1" scrolling="no" src="https://codepen.io/TheOdinProjectExamples/embed/powjajd?height=300&amp;theme-id=dark&amp;default-tab=html%2Cresult&amp;slug-hash=powjajd&amp;user=TheOdinProjectExamples&amp;name=cp_embed_1" style="width: 100%; overflow:hidden; display:block;" title="CodePen-Einbettung" loading="lazy" id="cp_embed_powjajd"></iframe>
 
-If you instead want to create a list of items where the order does matter, like step-by-step instructions for a recipe, or your top 10 favorite TV shows, then you can use an ordered list.
+Wenn du stattdessen eine Liste mit Elementen erstellen möchtest, bei der die Reihenfolge eine Rolle spielt, wie z. B. eine Schritt-für-Schritt-Anleitung für ein Rezept oder deine 10 Lieblings-Fernsehsendungen, dann kannst du eine sortierte Liste verwenden.
 
-Ordered lists are created using the `<ol>` element. Each individual item in them is again created using the list item element `<li>`. However, each list item in an ordered list begins with a number instead:
+Sortierte Listen werden mit dem `<ol>`-Element erstellt. Jeder einzelne Eintrag in ihnen wird wiederum mit dem Listenelement `<li>` erstellt. Allerdings beginnt jeder Listeneintrag in einer sortierten Liste mit einer Zahl:
 
 <iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="300" width="100%" name="cp_embed_2" scrolling="no" src="https://codepen.io/TheOdinProjectExamples/embed/yLXYvYp?height=300&amp;theme-id=dark&amp;default-tab=html%2Cresult&amp;slug-hash=yLXYvYp&amp;user=TheOdinProjectExamples&amp;name=cp_embed_2" style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy" id="cp_embed_yLXYvYp"></iframe>
 
-# --assignment--
+# --Auftrag--
 
-Watch the first three minutes of Kevin Powell's video on Ordered and Unordered lists above.
-
----
-
-Make an unordered shopping list of your favorite foods.
+Sieh dir die ersten drei Minuten von Kevin Powells Video über geordnete und ungeordnete Listen an.
 
 ---
 
-Make an ordered list of todo’s you need to get done today.
+Erstelle eine unsortierte Einkaufsliste mit deinen Lieblingslebensmitteln.
 
 ---
 
-Make an unordered list of places you’d like to visit someday.
+Erstelle eine sortierte Liste der Aufgaben, die du heute erledigen musst.
 
 ---
 
-Make an ordered list of your all time top 5 favorite video games or movies.
+Erstelle eine unsortierte Liste von Orten, die du eines Tages gerne besuchen möchtest.
+
+---
+
+Erstelle eine sortierte Liste deiner 5 Lieblingsvideospiele oder -filme aller Zeiten.
 
 # --questions--
 
 ## --text--
 
-What HTML tag is used to create an unordered list?
+Welches HTML-Tag wird verwendet, um eine unsortierte Liste zu erstellen?
 
 ## --answers--
 

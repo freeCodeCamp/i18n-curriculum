@@ -13,7 +13,7 @@ Beim Kartenspiel Poker besteht ein Blatt aus fünf Karten, die vom niedrigsten b
 <ul>
   <li>Hohe Karte: Die Karte mit dem höchsten Wert.</li>
   <li>Ein Paar: Zwei Karten mit gleichem Wert.</li>
-  <li>Two Pairs: Two different pairs.</li>
+  <li>Zwei Paare: Zwei verschiedene Paare.</li>
   <li>Drilling: Drei Karte mit gleichem Wert.</li>
   <li>Straight: Alle Karten haben aufeinanderfolgende Werte.</li>
   <li>Flush: Alle Karten haben das gleiche Zeichen.</li>

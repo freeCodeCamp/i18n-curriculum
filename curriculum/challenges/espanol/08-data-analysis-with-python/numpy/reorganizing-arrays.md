@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: reorganizing-arrays
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-¿Qué código produciría el siguiente arreglo?
+What code would produce the following array?
 
 ```py
 [[1. 1.]

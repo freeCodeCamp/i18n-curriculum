@@ -7,7 +7,7 @@ dashedName: step-31
 
 # --description--
 
-Füge nach dem letzten `img`-Element ein `figcaption`-Element mit dem Text `Cats hate other cats.` hinzu
+After the last `img` element, add a `figcaption` element with the text `Cats hate other cats.`
 
 # --hints--
 
@@ -17,13 +17,13 @@ Dein `figcaption`-Element sollte ein öffnendes Tag haben. Öffnende Tags haben 
 assert(document.querySelectorAll('figcaption').length === 2);
 ```
 
-Dein `figcaption`-Element sollte ein schließendes Tag haben. Schließende Tags haben ein `/` direkt nach dem `<`-Zeichen.
+Dein `figcaption`-Element sollte ein schließendes Tag haben. Abschließende Tags haben einen `/` direkt nach dem `<`-Zeichen haben.
 
 ```js
 assert(code.match(/<\/figcaption\>/g).length === 2);
 ```
 
-Genau über dem zweiten schließenden Tag des `section`-Elements sollte ein `figure`-Element stehen.
+Genau über dem abschließenden Tag des zweiten `section`-Elements sollte ein `figure`-Element stehen.
 
 ```js
 assert.strictEqual(document.querySelectorAll('main > section')?.[1]?.lastElementChild?.nodeName, 'FIGURE');
@@ -66,7 +66,7 @@ assert(
 );
 ```
 
-Das `figcaption`-Element sollte den Text `Cats hate other cats.` enthalten Du hast entweder ein Wort weggelassen oder einen Tippfehler gemacht.
+The `figcaption` element should have the text `Cats hate other cats.` You have omitted a word or have a typo.
 
 ```js
 assert(

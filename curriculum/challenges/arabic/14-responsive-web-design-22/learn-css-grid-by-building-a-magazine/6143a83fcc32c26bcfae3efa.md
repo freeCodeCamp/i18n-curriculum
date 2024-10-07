@@ -7,7 +7,7 @@ dashedName: step-18
 
 # --description--
 
-أسفل عنصرك `.text`، أنشئ عنصر `section` جديد مع `class` يسمى `text text-with-images`. ضمن ذلك، أنشئ عنصر `article` مع `class` بقيمة `brief-history`, و إنشاء `aside` مع `class` بقيمة `image-wrapper`.
+Below your `.text` element, create a new `section` element and give it a `class` of `text text-with-images`. Within that, create an `article` element with a `class` set to `brief-history`, and an `aside` element with the `class` set to `image-wrapper`.
 
 # --hints--
 

@@ -9,7 +9,7 @@ dashedName: avoid-colorblindness-issues-by-using-sufficient-contrast
 
 # --description--
 
-Колір є величезною частиною візуального дизайну, але його використання призводить до двох проблем, пов'язаних із доступністю для людей з обмеженими можливостями. По-перше, колір не слід використовувати як єдиний спосіб передачі важливої інформації, адже користувачі, що використовують програми зчитування з екрану не матимуть змоги його побачити. По-друге, кольори переднього та заднього планів потребують належної контрастності, щоб користувачі з дальтонізмом могли їх розрізнити.
+Color is a large part of visual design, but its use introduces two accessibility issues. First, color alone should not be used as the only way to convey important information because screen reader users won't see it. Second, foreground and background colors need sufficient contrast so colorblind users can distinguish them.
 
 Попередні завдання були пов'язані з впровадженням текстових альтернатив для вирішення першої проблеми. В останньому завданні були представлені інструменти для перевірки контрастності, щоб розібратися з другою проблемою. Рекомендований WCAG коефіцієнт контрастності 4.5:1 підходить як для кольорів, так і для комбінацій відтінків сірого.
 

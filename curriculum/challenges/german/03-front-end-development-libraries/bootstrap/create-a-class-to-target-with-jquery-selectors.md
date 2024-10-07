@@ -8,7 +8,7 @@ dashedName: create-a-class-to-target-with-jquery-selectors
 
 # --description--
 
-Nicht jede Klasse muss ein entsprechendes CSS haben. Manchmal erstellen wir Klassen, damit wir diese Elemente mit jQuery einfacher auswählen können.
+Not every class needs to have corresponding CSS. Sometimes we create classes just for the purpose of selecting these elements more easily using jQuery.
 
 Gib jedem deiner `button` Elemente die Klasse `target`.
 

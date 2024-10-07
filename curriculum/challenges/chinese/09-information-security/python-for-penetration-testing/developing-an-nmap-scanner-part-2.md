@@ -14,7 +14,7 @@ dashedName: developing-an-nmap-scanner-part-2
 
 ## --text--
 
-以下哪项允许你扫描 21 至 443 之间的 UDP 端口？
+Which of the following allows you to scan for UDP ports between 21 to 443?
 
 ## --answers--
 

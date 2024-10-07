@@ -8,7 +8,7 @@ dashedName: use-capture-groups-to-search-and-replace
 
 # --description--
 
-البحث أمر مفيد. ومع ذلك ، يمكنك جعل البحث أكثر قوة عندما يغير أيضًا (أو يستبدل) النص الذي تطابقه.
+Searching is useful. However, you can make searching even more powerful when it also changes (or replaces) the text you match.
 
 يمكنك البحث عن النص واستبداله في سلسلة باستخدام `.replace()` على string. المدخلات لـ `.replace()` هي أولا نمط الـ regex الذي تريد البحث عنه. إن الوسيط (parameter) الثاني مقطع نصي (string) الذي يحل محل المطابقة أو وظيفة (function) للقيام بشيء ما.
 

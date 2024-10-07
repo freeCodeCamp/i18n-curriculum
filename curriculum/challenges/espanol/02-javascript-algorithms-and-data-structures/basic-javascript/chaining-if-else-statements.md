@@ -9,7 +9,7 @@ dashedName: chaining-if-else-statements
 
 # --description--
 
-Las sentencias `if/else` pueden ser encadenadas para crear una lógica compleja. Aquí hay <dfn>pseudocódigo</dfn> de múltiples declaraciones `if` / `else if` encadenadas:
+`if/else` statements can be chained together for complex logic. Here is <dfn>pseudocode</dfn> of multiple chained `if` / `else if` statements:
 
 ```js
 if (condition1) {

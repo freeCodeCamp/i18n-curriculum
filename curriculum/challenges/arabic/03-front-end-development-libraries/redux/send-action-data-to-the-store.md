@@ -8,7 +8,7 @@ dashedName: send-action-data-to-the-store
 
 # --description--
 
-لقد تعلمت الآن كيفية إرسال الإجراءات إلى متجر Redux، ولكن حتى الآن لم تحتوي هذه الإجراءات على أي معلومات غير `type`. يمكنك أيضا إرسال بيانات محددة مع إجراءاتك. والواقع أن هذا أمر شائع جدا, لأن الإجراءات تنشأ بالعادة من التفاعل بين المستعملين وتميل إلى حمل بعض البيانات مع الإجراءات. غالباً ما يحتاج متجر Redux إلى معرفة عن هذه البيانات.
+By now you've learned how to dispatch actions to the Redux store, but so far these actions have not contained any information other than a `type`. You can also send specific data along with your actions. In fact, this is very common because actions usually originate from some user interaction and tend to carry some data with them. The Redux store often needs to know about this data.
 
 # --instructions--
 

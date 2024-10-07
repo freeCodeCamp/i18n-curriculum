@@ -8,7 +8,7 @@ dashedName: serve-static-assets
 
 # --description--
 
-HTML サーバーには通常、ユーザーがアクセスできるディレクトリが 1 つ以上あります。 それらのディレクトリには、アプリに必要な静的アセット (スタイルシート、スクリプト、画像) を置くことができます。
+An HTML server usually has one or more directories that are accessible by the user. You can place there the static assets needed by your application (stylesheets, scripts, images).
 
 Express では、ミドルウェア `express.static(path)` を使用してこの機能を実現できます。ここで、`path` パラメーターはアセットのあるフォルダーの絶対パスです。
 

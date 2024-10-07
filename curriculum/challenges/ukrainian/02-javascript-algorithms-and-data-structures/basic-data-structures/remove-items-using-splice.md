@@ -8,7 +8,7 @@ dashedName: remove-items-using-splice
 
 # --description--
 
-Що ж, ми дізналися, як видалити елементи з початку і кінця масиву, використовуючи `shift()` і `pop()`, але що робити, якщо ми хочемо прибрати елемент десь зі середини? Або видалити декілька елементів одразу? Якраз тут нам на допомогу може прийти `splice()`. `splice()` дозволяє нам зробити ось що: **видалити будь-яку кількість послідовних елементів** будь-де в масиві.
+Ok, so we've learned how to remove elements from the beginning and end of arrays using `shift()` and `pop()`, but what if we want to remove an element from somewhere in the middle? Or remove more than one element at once? Well, that's where `splice()` comes in. `splice()` allows us to do just that: **remove any number of consecutive elements** from anywhere in an array.
 
 `splice()` може прийняти до трьох параметрів, але зараз ми зосередимося на перших двох. Перші два параметри `splice()` — це цілі числа, які позначають індекси або позиції елементів у масиві, для якого викликається `splice()`. Пам’ятайте, що масиви мають *нульовий індекс*, тому ми б використовували `0`, щоб позначити перший елемент масиву. Перший параметр методу `splice()` позначає індекс в масиві, з якого починають видаляти елементи, а другий параметр позначає кількість елементів, які потрібно видалити. Наприклад:
 

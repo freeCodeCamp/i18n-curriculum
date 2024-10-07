@@ -9,7 +9,7 @@ dashedName: create-visual-direction-by-fading-an-element-from-left-to-right
 
 # --description--
 
-Per questa sfida, cambierai l'`opacity` di un elemento animato in modo che svanisca gradualmente mentre raggiunge il lato destro dello schermo.
+For this challenge, you'll change the `opacity` of an animated element so it gradually fades as it reaches the right side of the screen.
 
 Nell'animazione visualizzata, l'elemento circolare con lo sfondo gradiente si muove verso destra dal 50% dell'animazione per la regola `@keyframes`.
 

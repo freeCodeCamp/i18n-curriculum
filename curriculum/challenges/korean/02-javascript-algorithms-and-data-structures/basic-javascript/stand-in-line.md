@@ -1,6 +1,6 @@
 ---
 id: 56533eb9ac21ba0edf2244c6
-title: Stand in Line
+title: 줄 서기
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/ca8Q8tP'
 forumTopicId: 18307
@@ -13,39 +13,39 @@ In Computer Science a <dfn>queue</dfn> is an abstract <dfn>Data Structure</dfn> 
 
 # --instructions--
 
-Write a function `nextInLine` which takes an array (`arr`) and a number (`item`) as arguments.
+배열 `arr`과 숫자 `item`을 인수로 받는 함수 `nextInLine`을 작성하세요.
 
-Add the number to the end of the array, then remove the first element of the array.
+이 함수는 배열의 맨 뒤에 주어진 숫자 item를 추가한 후, 배열의 첫 번째 요소를 제거합니다.
 
-The `nextInLine` function should then return the element that was removed.
+`nextInLine` 함수는 제거된 요소를 반환해야 합니다.
 
 # --hints--
 
-`nextInLine([], 5)` should return a number.
+`nextInLine([], 5)` 는 숫자를 반환해야 합니다.
 
 ```js
 assert.isNumber(nextInLine([], 5));
 ```
 
-`nextInLine([], 1)` should return `1`
+`nextInLine([], 1)`는 `1`을 반환해야 합니다.
 
 ```js
 assert(nextInLine([], 1) === 1);
 ```
 
-`nextInLine([2], 1)` should return `2`
+`nextInLine([2], 1)`는 `2`를 반환해야 합니다.
 
 ```js
 assert(nextInLine([2], 1) === 2);
 ```
 
-`nextInLine([5,6,7,8,9], 1)` should return `5`
+nextInLine([5,6,7,8,9], 1) 는 5를 반환해야 합니다.
 
 ```js
 assert(nextInLine([5, 6, 7, 8, 9], 1) === 5);
 ```
 
-After `nextInLine(testArr, 10)`, `testArr[4]` should be `10`
+`nextInLine(testArr, 10)`를 실행한 후, `testArr[4]`는 `10`이어야 합니다.
 
 ```js
 nextInLine(testArr, 10);

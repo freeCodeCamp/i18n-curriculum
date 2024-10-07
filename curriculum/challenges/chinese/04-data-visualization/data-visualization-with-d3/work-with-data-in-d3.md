@@ -8,7 +8,7 @@ dashedName: work-with-data-in-d3
 
 # --description--
 
-D3 是数据驱动的库。 可以使用 D3 的方法将数组形式的数据显示在页面上。 数据有多种格式，但这个挑战使用了一组简单的数字。
+The D3 library focuses on a data-driven approach. When you have a set of data, you can apply D3 methods to display it on the page. Data comes in many formats, but this challenge uses a simple array of numbers.
 
 第一步是让 D3 知道数据。 `data()` 方法选择连接着数据的 DOM 元素， 数据集作为参数传递给该方法。
 

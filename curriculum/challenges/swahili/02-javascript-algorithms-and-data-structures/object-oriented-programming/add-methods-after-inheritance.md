@@ -1,6 +1,6 @@
 ---
 id: 587d7db1367417b2b2512b87
-title: Add Methods After Inheritance
+title: Ongeza Vitendakazi Baada ya Urithi
 challengeType: 1
 forumTopicId: 301315
 dashedName: add-methods-after-inheritance
@@ -10,7 +10,7 @@ dashedName: add-methods-after-inheritance
 
 A constructor function that inherits its `prototype` object from a supertype constructor function can still have its own methods in addition to inherited methods.
 
-For example, `Bird` is a constructor that inherits its `prototype` from `Animal`:
+Kwa mfano, `Bird` ni kijenzi kinachorithi `prototype` yake kutoka kwa `Animal`:
 
 ```js
 function Animal() { }
@@ -22,7 +22,7 @@ Bird.prototype = Object.create(Animal.prototype);
 Bird.prototype.constructor = Bird;
 ```
 
-In addition to what is inherited from `Animal`, you want to add behavior that is unique to `Bird` objects. Here, `Bird` will get a `fly()` function. Functions are added to `Bird's` `prototype` the same way as any constructor function:
+Zaidi ya hayo yanayorithiwa kutoka kwa `Animal`, unaezataka kuongeza tabia ya kipekee kwa vipengee vya `Bird`. Hapa, `Bird` itapata kitendakazi cha `fly()`. Vitendakazi vinaongezwa kwa `Bird's` `prototype` kwa njia sawa na kitendakazi kijenzi chochote kile:
 
 ```js
 Bird.prototype.fly = function() {
@@ -30,7 +30,7 @@ Bird.prototype.fly = function() {
 };
 ```
 
-Now instances of `Bird` will have both `eat()` and `fly()` methods:
+Sasa matukio ya `Bird` yatakuwa na mbinu zote mbili za `eat()` na `fly()`:
 
 ```js
 let duck = new Bird();
@@ -38,45 +38,45 @@ duck.eat();
 duck.fly();
 ```
 
-`duck.eat()` would display the string `nom nom nom` in the console, and `duck.fly()` would display the string `I'm flying!`.
+`duck.eat()` itaonyesha tungo `nom nom nom` ndani ya console, na `duck.fly()` itaonyesha tungo `I'm flying!`.
 
 # --instructions--
 
-Add all necessary code so the `Dog` object inherits from `Animal` and the `Dog`'s `prototype` constructor is set to `Dog`. Then add a `bark()` method to the `Dog` object so that `beagle` can both `eat()` and `bark()`. The `bark()` method should print `Woof!` to the console.
+Ongeza misimbo yote muhimu ili kipengee cha `Dog` kiweze kurithi kutoka kwa `Animal` na kitendakazi kijenzi cha `prototype` ya `Dog` kiwekwe kwa `Dog`. Kisha ongeza mbinu ya `bark()` kwa kipengee cha `Dog` ili `beagle` iweze kutumia mbinu za `eat()` na `bark()`. Mbinu ya `bark()` inafaa kurejesha `Woof!` kwa console.
 
 # --hints--
 
-`Animal` should not respond to the `bark()` method.
+`Animal` haipaswi kujibu kwa mbinu ya `bark()`.
 
 ```js
 assert(typeof Animal.prototype.bark == 'undefined');
 ```
 
-`Dog` should inherit the `eat()` method from `Animal`.
+`Dog` inapaswa kuirithi mbinu ya `eat()` kutoka kwa `Animal`.
 
 ```js
 assert(typeof Dog.prototype.eat == 'function');
 ```
 
-The `Dog` prototype should have a `bark()` method.
+Mfano wa `Dog` unapaswa kuwa na mbinu ya `bark()`.
 
 ```js
 assert('bark' in Dog.prototype);
 ```
 
-`beagle` should be an `instanceof` `Animal`.
+`beagle` inapaswa kuwa `instanceof` `Animal`.
 
 ```js
 assert(beagle instanceof Animal);
 ```
 
-The constructor for `beagle` should be set to `Dog`.
+Kitendakazi kijenzi cha `beagle` kinapaswa kuwekwa kwa `Dog`.
 
 ```js
 assert(beagle.constructor === Dog);
 ```
 
-`beagle.eat()` should log the string `nom nom nom`
+`beagle.eat()` inapaswa kuingiza tungo la `nom nom nom`
 
 ```js
 capture();
@@ -85,7 +85,7 @@ uncapture();
 assert(logOutput == 'nom nom nom');
 ```
 
-`beagle.bark()` should log the string `Woof!`
+`beagle.bark()` inapaswa kuingiza tungo la `Woof!`
 
 ```js
 capture();

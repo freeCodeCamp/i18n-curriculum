@@ -7,7 +7,7 @@ dashedName: step-37
 
 # --description--
 
-注意紅色和品紅色是鄰近的顏色，非常明亮。 如果在網站上使用不當，這樣的顏色對比會使人分心，比如將文字背景色和文字顏色設置爲互補色，這樣文字會很難看清。
+Notice that the red and cyan colors are very bright right next to each other. This contrast can be distracting if it's overused on a website, and can make text hard to read if it's placed on a complementary-colored background.
 
 選擇一種顏色作爲主要顏色， 並使用其補充顏色作爲強調來提醒訪問者注意頁面上的某些內容，是一種更好的方式。
 

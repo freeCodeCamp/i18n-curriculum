@@ -12,7 +12,7 @@ Es gibt einige Primzahlen $p$, für die es einen positiven Integer $n$ gibt, sod
 
 Zum Beispiel, wenn $p = 19,\\ 8^3 + 8^2 × 19 = {12}^3$.
 
-What is perhaps most surprising is that the value of $n$ is unique for each prime with this property, and there are only four such primes below one hundred.
+Was vielleicht am meisten überrascht, ist, dass der Wert von $n$ für jede Primzahl mit dieser Eigenschaft einzigartig ist und es nur vier solcher Primzahlen unter hundert gibt.
 
 Wie viele Primzahlen unter einer Million haben diese bemerkenswerte Eigenschaft?
 

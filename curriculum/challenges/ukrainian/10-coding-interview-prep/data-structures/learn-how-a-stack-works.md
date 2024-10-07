@@ -8,7 +8,7 @@ dashedName: learn-how-a-stack-works
 
 # --description--
 
-На вашому столі, певно, є стос книг. Ви, ймовірно, використовували функцію скасування в текстовому редакторі, правда ж? А ще, вірогідно, ви часто натискаєте на кнопку «Назад», щоб повернутися до попередньої переглянутої вкладки в застосунку.
+You are probably familiar with stack of books on your table. You have likely used the undo feature of a text editor. You are also probably used to hitting the back button on your phone to go back to the previous view in your app.
 
 Знаєте, що у них спільного? Всі вони зберігають дані так, щоб ви могли повернутися до них.
 

@@ -8,7 +8,7 @@ dashedName: run-functional-tests-on-an-api-response-using-chai-http-iv---put-met
 
 # --description--
 
-Lembrete, esse projeto está sendo construido conforme o seguinte projeto inicial em <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>, ou clonado de <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
+As a reminder, this project is being built upon the following starter project on <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>, or cloned from <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
 
 Este exercício é semelhante ao anterior.
 
@@ -28,7 +28,7 @@ Envie o objeto JSON a seguir com a sua solicitação de PUT:
 
 Verifique o seguinte dentro da função de callback de `request.end`:
 
-1.  O `status` deve ser `200`
+1.  The `status` should be `200`
 2.  O `type` deve ser `application/json`
 3.  O `body.name` deve ser `Giovanni`
 4.  O `body.surname` deve ser `da Verrazzano`

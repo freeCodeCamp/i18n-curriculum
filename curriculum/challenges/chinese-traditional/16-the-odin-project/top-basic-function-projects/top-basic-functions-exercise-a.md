@@ -1,6 +1,6 @@
 ---
 id: 6619240f46cec8e04d77e03a
-title: Basic Functions Exercise A
+title: 基本函數 練習A
 challengeType: 1
 dashedName: top-basic-functions-exercise-a
 ---

@@ -9,7 +9,7 @@ dashedName: quoting-strings-with-single-quotes
 
 # --description--
 
-<dfn>String</dfn>-Werte in JavaScript können mit einfachen oder doppelten Anführungszeichen geschrieben werden, solange sie mit der gleichen Art von Anführungszeichen beginnen und enden. Im Gegensatz zu einigen anderen Programmiersprachen funktionieren einfache und doppelte Anführungszeichen in JavaScript gleich.
+<dfn>String</dfn> values in JavaScript may be written with single or double quotes, as long as you start and end with the same type of quote. Unlike some other programming languages, single and double quotes work the same in JavaScript.
 
 ```js
 const doubleQuoteStr = "This is a string"; 

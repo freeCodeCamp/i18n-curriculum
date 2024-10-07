@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aed908626
-title: Target the Same Element with Multiple jQuery Selectors
+title: 여러 jQuery 셀렉터로 같은 요소 대상 지정하기
 challengeType: 6
 forumTopicId: 18322
 required:
@@ -13,39 +13,39 @@ dashedName: target-the-same-element-with-multiple-jquery-selectors
 
 Now you know three ways of targeting elements: by type: `$("button")`, by class: `$(".btn")`, and by id `$("#target1")`.
 
-Although it is possible to add multiple classes in a single `.addClass()` call, let's add them to the same element in *three separate ways*.
+하나의 `.addClass()` 호출에 여러 클래스들을 추가할 수 있지만 *세 가지 방법*으로 이 클래스들을 같은 요소에 추가해보겠습니다.
 
-Using `.addClass()`, add only one class at a time to the same element, three different ways:
+`.addClass()`을 사용하여 세 가지 다른 방법으로 같은 요소에 한 번에 하나씩 추가하시오:
 
-Add the `animated` class to all elements with type `button`.
+`button` 유형으로 모든 요소에 `animated` 클래스를 추가하시오.
 
-Add the `shake` class to all the buttons with class `.btn`.
+`.btn` 클래스로 모든 버튼에 `shake` 클래스를 추가하시오.
 
-Add the `btn-primary` class to the button with id `#target1`.
+`#target1` 아이디로 이 버튼에 `btn-primary` 클래스를 추가하시오.
 
-**Note:** You should only be targeting one element and adding only one class at a time. Altogether, your three individual selectors will end up adding the three classes `shake`, `animated`, and `btn-primary` to `#target1`.
+**주의:** 한 번에 한 요소를 대상으로 지정하고 한 클래스만 추가해야 합니다. 모두 합치면, 세 개의 개별 셀렉터가 `#target1`에 `shake`, `animated`, 그리고 `btn-primary` 세 개의 클래스를 추가할 것입니다.
 
 # --hints--
 
-Your code should use the `$("button")` selector.
+`$("button")` 셀렉터를 사용해야 합니다.
 
 ```js
 assert(code.match(/\$\s*?\(\s*?(?:'|")\s*?button\s*?(?:'|")/gi));
 ```
 
-Your code should use the `$(".btn")` selector.
+`$(".btn")` 셀렉터를 사용해야 합니다.
 
 ```js
 assert(code.match(/\$\s*?\(\s*?(?:'|")\s*?\.btn\s*?(?:'|")/gi));
 ```
 
-Your code should use the `$("#target1")` selector.
+`$("#target1")` 셀렉터를 사용해야 합니다.
 
 ```js
 assert(code.match(/\$\s*?\(\s*?(?:'|")\s*?#target1\s*?(?:'|")/gi));
 ```
 
-You should only add one class with each of your three selectors.
+세 개의 셀렉터 각각 하나의 클래스만 추가해야 합니다.
 
 ```js
 assert(
@@ -54,7 +54,7 @@ assert(
 );
 ```
 
-Your `#target1` element should have the classes `animated`‚ `shake` and `btn-primary`.
+`#target1` 요소는 `animated`‚ `shake` 그리고 `btn-primary` 클래스를 가져야 합니다.
 
 ```js
 assert(
@@ -64,7 +64,7 @@ assert(
 );
 ```
 
-You should only use jQuery to add these classes to the element.
+이 요소에 이 클래스들을 추가하기 위해 jQuery만 사용해야 합니다.
 
 ```js
 assert(!code.match(/class.*animated/g));

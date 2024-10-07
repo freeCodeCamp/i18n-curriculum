@@ -8,7 +8,7 @@ dashedName: match-all-numbers
 
 # --description--
 
-Ви дізнались про скорочення поширених шаблонів, наприклад, алфавітно-цифрового. Іншим поширеним шаблоном є пошук цифр або чисел.
+You've learned shortcuts for common string patterns like alphanumerics. Another common pattern is looking for just digits or numbers.
 
 Скороченням для пошуку цифрових символів є `\d`, з `d` у нижньому регістрі. Це дорівнює символьному класу `[0-9]`, який шукає окремий символ, що є цифрою від 0 до 9.
 

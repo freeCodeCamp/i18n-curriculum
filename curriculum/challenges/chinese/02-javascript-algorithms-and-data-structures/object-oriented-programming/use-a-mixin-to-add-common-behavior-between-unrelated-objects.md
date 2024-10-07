@@ -8,7 +8,7 @@ dashedName: use-a-mixin-to-add-common-behavior-between-unrelated-objects
 
 # --description--
 
-正如你所见，行为是可以通过继承来共享的。 然而，在有些情况下，继承不是最好的解决方案。 继承不适用于不相关的对象，比如 `Bird` 和 `Airplane`。 虽然它们都可以飞行，但是 `Bird` 并不是一种 `Airplane`，反之亦然。
+As you have seen, behavior is shared through inheritance. However, there are cases when inheritance is not the best solution. Inheritance does not work well for unrelated objects like `Bird` and `Airplane`. They can both fly, but a `Bird` is not a type of `Airplane` and vice versa.
 
 对于不相关的对象，更好的方法是使用 <dfn>mixins</dfn>。 mixin 允许其他对象使用函数集合。
 

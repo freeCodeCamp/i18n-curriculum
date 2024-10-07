@@ -8,7 +8,7 @@ dashedName: pig-latin
 
 # --description--
 
-Pig Latin هي طريقة لتغيير الكلمات الإنجليزية. و القواعد هي كما يلي:
+Pig Latin is a way of altering English Words. The rules are as follows:
 
 \- إذا كانت الكلمة تبدأ بـ consonant فخذ الـ consonant الاول او مجموعة الـ consonants، وحركها إلى نهاية الكلمة، وأضف `ay` إليها.
 

@@ -8,7 +8,7 @@ dashedName: implement-a-root-level-request-logger-middleware
 
 # --description--
 
-Anteriormente, se te presentó la función de middleware `express.static()`. Ahora es el momento de ver lo que es un middleware con más detalle. Las funciones de Middleware son funciones que toman 3 argumentos: el objeto de la petición, el objeto de respuesta y la siguiente función en el ciclo petición-respuesta de la aplicación. Estas funciones ejecutan algún código que puede tener efectos secundarios en la aplicación, y normalmente agregan información a los objetos de la petición o respuesta. También pueden terminar el ciclo enviando una respuesta cuando se cumple alguna condición. Si no envían la respuesta cuando han terminado, comienzan la ejecución de la siguiente función en la pila de ejecución. Esto hace que se llame al tercer argumento, `next()`.
+Earlier, you were introduced to the `express.static()` middleware function. Now it’s time to see what middleware is, in more detail. Middleware functions are functions that take 3 arguments: the request object, the response object, and the next function in the application’s request-response cycle. These functions execute some code that can have side effects on the app, and usually add information to the request or response objects. They can also end the cycle by sending a response when some condition is met. If they don’t send the response when they are done, they start the execution of the next function in the stack. This triggers calling the 3rd argument, `next()`.
 
 Veamos el siguiente ejemplo:
 

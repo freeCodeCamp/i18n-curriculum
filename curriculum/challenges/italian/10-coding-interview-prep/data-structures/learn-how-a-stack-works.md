@@ -8,7 +8,7 @@ dashedName: learn-how-a-stack-works
 
 # --description--
 
-Probabilmente hai familiarità con la pila di libri sul tuo tavolo. Probabilmente hai usato la funzione di annullamento di un editor di testo. Probabilmente sei anche abituato a premere il pulsante indietro sul telefono per tornare alla vista precedente nella tua app.
+You are probably familiar with stack of books on your table. You have likely used the undo feature of a text editor. You are also probably used to hitting the back button on your phone to go back to the previous view in your app.
 
 Sai cos'hanno in comune queste cose? Tutte memorizzano i dati in modo che possano essere ripercorsi all'indietro.
 

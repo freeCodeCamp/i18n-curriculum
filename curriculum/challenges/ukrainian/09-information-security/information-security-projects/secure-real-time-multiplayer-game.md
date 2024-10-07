@@ -8,26 +8,26 @@ dashedName: secure-real-time-multiplayer-game
 
 # --description--
 
-Розробіть багатокористувацьку 2D-гру в реальному часі, використовуючи HTML Canvas API та Socket.io, яка функціонально схожа до цього: <a href="https://secure-real-time-multiplayer-game.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://secure-real-time-multiplayer-game.freecodecamp.rocks/</a>. Робота над цим проєктом передбачає написання коду за допомогою одного з наступних методів:
+Develop a 2D real time multiplayer game using the HTML Canvas API and Socket.io that is functionally similar to this: <a href="https://secure-real-time-multiplayer-game.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://secure-real-time-multiplayer-game.freecodecamp.rocks/</a>. Робота над цим проєктом передбачає написання коду за допомогою одного з наступних методів:
 
--   Клонуйте <a href="https://github.com/freeCodeCamp/boilerplate-project-secure-real-time-multiplayer-game/" target="_blank" rel="noopener noreferrer nofollow">цей репозиторій GitHub</a> та виконайте свій проєкт локально.
--   Використайте <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-secure-real-time-multiplayer-game/" target="_blank" rel="noopener noreferrer nofollow">наш стартовий проєкт Gitpod</a>, щоб виконати свій проєкт.
--   Для виконання проєкту використайте конструктор сайту на власний вибір. Переконайтеся, що приєднали усі файли з нашого репозиторію GitHub.
+-   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-secure-real-time-multiplayer-game/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
+-   Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-secure-real-time-multiplayer-game/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete your project.
+-   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
 
 # --instructions--
 
-Створіть безпечну багатокористувацьку гру, у якій кожен гравець може переміщувати свій аватар, є принаймні один колекційний предмет, а рейтинг гравців обчислюється на основі результатів.
+Create a secure multiplayer game in which each player can move their avatar, there is at least one collectible item, and the rank of the players is calculated based on their score.
 
-Для отримання детальної інформації зверніться до тестів нижче.
+For details consult the tests below.
 
-Переконайтеся, що ваша гра безпечна! Додайте такі заходи безпеки:
+Make sure that your game is secure! Include these security measures:
 
-- Клієнт не може вгадати/розпізнати тип MIME
+- The client should not be able to guess/sniff the MIME type
 - Запобігайте атакам XSS
 - Не кешуйте нічого з вебсайту в клієнті
 - У заголовках зазначено, що сайт працює на основі `PHP 7.4.3`
 
-**Примітка**: `helmet@^3.21.3` потрібний для історії користувача. Це означає, що вам потрібно буде використати попередню версію документації Helmet, щоб отримати інформацію про те, як виконати історію користувача.
+**Note**: `helmet@^3.21.3` is needed for the user stories. This means you will need to use the previous version of Helmet's docs, for information on how to achieve the user stories.
 
 # --hints--
 
@@ -43,91 +43,91 @@ dashedName: secure-real-time-multiplayer-game
 };
 ```
 
-Декілька гравців можуть приєднатися до сервера і грати.
+Multiple players can connect to a server and play.
 
 ```js
 
 ```
 
-У кожного гравця є аватар.
+Each player has an avatar.
 
 ```js
 
 ```
 
-Кожен гравець представлений об’єктом, створеним класом `Player` у `Player.mjs`.
+Each player is represented by an object created by the `Player` class in `Player.mjs`.
 
 ```js
 
 ```
 
-Як мінімум, кожен об’єкт-гравець повинен містити унікальний `id`, `score` і координати `x` та `y`, які показують поточну позицію гравця.
+At a minimum, each player object should contain a unique `id`, a `score`, and `x` and `y` coordinates representing the player's current position.
 
 ```js
 
 ```
 
-Гра має принаймні один тип колекційного предмета. Заповніть клас `Collectible` у `Collectible.mjs`, щоб впровадити це.
+The game has at least one type of collectible item. Complete the `Collectible` class in `Collectible.mjs` to implement this.
 
 ```js
 
 ```
 
-Як мінімум, кожен об’єкт-предмет, створений класом `Collectible`, повинен містити унікальний `id`, `value` і координати `x` та `y`, які показують поточну позицію предмета.
+At a minimum, each collectible item object created by the `Collectible` class should contain a unique `id`, a `value`, and `x` and `y` coordinates representing the item's current position.
 
 ```js
 
 ```
 
-Гравці можуть використовувати клавіші WASD та/або стрілки, щоб перемістити свій аватар. Заповніть метод `movePlayer` у `Player.mjs`, щоб впровадити це.
+Players can use the WASD and/or arrow keys to move their avatar. Complete the `movePlayer` method in `Player.mjs` to implement this.
 
 ```js
 
 ```
 
-Метод `movePlayer` повинен приймати два аргументи: рядок «up», «down», «left» або «right», а також кількість пікселів, на яку має змінюватися позиція гравця. `movePlayer` повинен адаптовуватися до координат (`x` та `y`) об’єкта-гравця, який його викликав.
+The `movePlayer` method should accept two arguments: a string of "up", "down", "left", or "right", and a number for the amount of pixels the player's position should change. `movePlayer` should adjust the `x` and `y` coordinates of the player object it's called from.
 
 ```js
 
 ```
 
-Рахунок гравця повинен бути використаний, щоб розрахувати рейтинг серед інших гравців. Заповніть метод `calculateRank` у `Player`, щоб впровадити це.
+The player's score should be used to calculate their rank among the other players. Complete the `calculateRank` method in the `Player` class to implement this.
 
 ```js
 
 ```
 
-Метод `calculateRank` повинен приймати масив об’єктів, представляючи усіх підключених гравців і повернути рядок `Rank: currentRanking/totalPlayers`. Наприклад, в грі з двома гравцями, якщо гравець А має рахунок 3 і гравець В має рахунок 5, `calculateRank` для гравця A повинен повернути `Rank: 2/2`.
+The `calculateRank` method should accept an array of objects representing all connected players and return the string `Rank: currentRanking/totalPlayers`. For example, in a game with two players, if Player A has a score of 3 and Player B has a score of 5, `calculateRank` for Player A should return `Rank: 2/2`.
 
 ```js
 
 ```
 
-Гравці можуть зіткнутися з колекційним предметом. Заповніть метод `collision` у `Player.mjs`, щоб впровадити це.
+Players can collide with a collectible item. Complete the `collision` method in `Player.mjs` to implement this.
 
 ```js
 
 ```
 
-Метод `collision` повинен приймати колекційний предмет як аргумент. Якщо аватар гравця перетинається з предметом, метод `collision` повинен повернути `true`.
+The `collision` method should accept a collectible item's object as an argument. If the player's avatar intersects with the item, the `collision` method should return `true`.
 
 ```js
 
 ```
 
-Всі гравці залишаються синхронізованими.
+All players are kept in sync.
 
 ```js
 
 ```
 
-Гравці можуть відключитись від гри в будь-який час.
+Players can disconnect from the game at any time.
 
 ```js
 
 ```
 
-Забороніть клієнту вгадувати/розпізнавати тип MIME.
+Prevent the client from trying to guess / sniff the MIME type.
 
 ```js
 async (getUserInput) => {
@@ -137,7 +137,7 @@ async (getUserInput) => {
 };
 ```
 
-Забороніть міжсайтові атаки XSS.
+Prevent cross-site scripting (XSS) attacks.
 
 ```js
 async (getUserInput) => {
@@ -147,7 +147,7 @@ async (getUserInput) => {
 };
 ```
 
-Ніякі дані вебсайту не розміщені у кеші клієнта.
+Nothing from the website is cached in the client.
 
 ```js
 async (getUserInput) => {
@@ -163,7 +163,7 @@ async (getUserInput) => {
 };
 ```
 
-Заголовки зазначають, що сайт працює на «PHP 7.4.3», хоча це не так (написано з міркувань безпеки).
+The headers say that the site is powered by "PHP 7.4.3" even though it isn't (as a security measure).
 
 ```js
 async (getUserInput) => {

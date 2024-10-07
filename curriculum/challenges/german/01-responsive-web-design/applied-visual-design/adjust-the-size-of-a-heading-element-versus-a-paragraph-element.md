@@ -9,7 +9,7 @@ dashedName: adjust-the-size-of-a-heading-element-versus-a-paragraph-element
 
 # --description--
 
-Die Schriftgröße von Überschriftelementen (`h1` bis `h6`) sollte im Allgemeinen größer sein als die Schriftgröße von Absatz-Tags. Dadurch wird es für den Benutzer einfacher, das Layout visuell nachzuvollziehen und die Wichtigkeit der einzelnen Elemente auf der Seite zu verstehen. Verwende die Eigenschaft `font-size`, um die Größe des Textes in einem Element anzupassen.
+The font size of heading elements (`h1` through `h6`) should generally be larger than the font size of paragraph tags. This makes it easier for the user to visually understand the layout and level of importance of everything on the page. You use the `font-size` property to adjust the size of the text in an element.
 
 # --instructions--
 

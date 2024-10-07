@@ -8,7 +8,7 @@ dashedName: delete-a-node-with-one-child-in-a-binary-search-tree
 
 # --description--
 
-Ora che sappiamo eliminare i nodi foglia, passiamo al secondo caso: eliminare un nodo con un figlio. Per questo caso, supponiamo di avere un albero con i seguenti nodi 1 — 2 — 3 dove 1 è la radice. Per eliminare il 2, dobbiamo semplicemente far puntare il riferimento destro in 1 a 3. Più in generale per eliminare un nodo con un solo figlio, facciamo in modo che il genitore di quel nodo faccia riferimento al nodo successivo nell'albero.
+Now that we can delete leaf nodes let's move on to the second case: deleting a node with one child. For this case, say we have a tree with the following nodes 1 — 2 — 3 where 1 is the root. To delete 2, we simply need to make the right reference in 1 point to 3. More generally to delete a node with only one child, we make that node's parent reference the next node in the tree.
 
 # --instructions--
 

@@ -8,7 +8,7 @@ dashedName: write-a-simple-counter
 
 # --description--
 
-Ви можете створити складніший компонент зі станом, об’єднавши всі вивчені поняття. Сюди входить ініціалізація стану, написання методів, які встановлюють стан, та призначення обробників натискання, які запускають ці методи.
+You can design a more complex stateful component by combining the concepts covered so far. These include initializing `state`, writing methods that set `state`, and assigning click handlers to trigger these methods.
 
 # --instructions--
 

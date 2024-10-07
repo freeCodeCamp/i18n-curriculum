@@ -8,7 +8,7 @@ dashedName: add-id-attributes-to-bootstrap-elements
 
 # --description--
 
-回憶一下，除了可以給元素添加 class 屬性，我們還可以給元素設置 `id` 屬性。
+Recall that in addition to class attributes, you can give each of your elements an `id` attribute.
 
 每個元素的 id 都必須是唯一的，並且在一個頁面中只能使用一次。
 

@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c11feddfaeb8bdef
-title: Modify Array Data With Indexes
+title: 인덱스로 배열 데이터를 수정하기
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/czQM4A8'
 forumTopicId: 18241
@@ -11,24 +11,24 @@ dashedName: modify-array-data-with-indexes
 
 Unlike strings, the entries of arrays are <dfn>mutable</dfn> and can be changed freely, even if the array was declared with `const`.
 
-**Example**
+**예)**
 
 ```js
 const ourArray = [50, 40, 30];
 ourArray[0] = 15;
 ```
 
-`ourArray` now has the value `[15, 40, 30]`.
+`ourArray`는 이제 `[15, 40, 30]`의 값을 가집니다.
 
-**Note:** There shouldn't be any spaces between the array name and the square brackets, like `array [0]`. Although JavaScript is able to process this correctly, this may confuse other programmers reading your code.
+**노트:** `array [0]`처럼 배열명과 중괄호(브라켓) 사이에 공백이 들어가면 안됩니다. JavaScript는 이것을 올바르게 처리하지만, 이 코드를 읽는 다른 프로그래머를 혼란시킬 위험이 있습니다.
 
 # --instructions--
 
-Modify the data stored at index `0` of `myArray` to a value of `45`.
+`myArray`의 인덱스 `0`에 할당되어 있는 값을 `45`로 변경하세요.
 
 # --hints--
 
-`myArray` should now be `[45, 64, 99]`.
+`myArray`는 이제 `[45, 64, 99]`가 되어야 합니다.
 
 ```js
 assert(
@@ -47,7 +47,7 @@ assert(
 );
 ```
 
-You should be using correct index to modify the value in `myArray`.
+당신은 올바른 인덱스를 사용해서 `myArray`의 값을 변경해야 합니다.
 
 ```js
 assert(

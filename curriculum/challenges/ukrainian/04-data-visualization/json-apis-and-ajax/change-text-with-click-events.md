@@ -8,7 +8,7 @@ dashedName: change-text-with-click-events
 
 # --description--
 
-Коли відбувається подія натискання, ви можете використати JavaScript, щоб оновити елемент HTML.
+When the click event happens, you can use JavaScript to update an HTML element.
 
 Наприклад, якщо користувач натисне кнопку `Get Message`, то вона змінить текст елемента з класом `message` на `Here is the message`.
 

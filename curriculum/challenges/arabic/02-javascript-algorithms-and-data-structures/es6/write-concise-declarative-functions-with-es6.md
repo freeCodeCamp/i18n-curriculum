@@ -8,7 +8,7 @@ dashedName: write-concise-declarative-functions-with-es6
 
 # --description--
 
-عند تعريف الـ functions داخل الـ objects في ES5، علينا استخدام الكلمة `function` كما يلي:
+When defining functions within objects in ES5, we have to use the keyword `function` as follows:
 
 ```js
 const person = {

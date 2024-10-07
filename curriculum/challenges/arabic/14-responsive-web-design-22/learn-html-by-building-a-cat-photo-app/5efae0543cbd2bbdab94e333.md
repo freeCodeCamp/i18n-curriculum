@@ -7,7 +7,7 @@ dashedName: step-30
 
 # --description--
 
-لتسهيل المنال (accessibility) في الصورة التي أضفتها، أضف خاصية `alt` مع النص:
+To improve accessibility of the image you added, add an `alt` attribute with the text:
 
 `Five cats looking around a field.`
 

@@ -8,7 +8,7 @@ dashedName: use-the-map-method-to-extract-data-from-an-array
 
 # --description--
 
-حتى الآن تعلمنا استخدام ال pure functions لتجنب التأثيرات الجانبية في البرنامج. أيضًا ، رأينا القيمة في وجود function تعتمد فقط على arguments الإدخال الخاصة بها.
+So far we have learned to use pure functions to avoid side effects in a program. Also, we have seen the value in having a function only depend on its input arguments.
 
 هذه هي البداية فقط. وكما يوحي اسمها، فإن ال functional programming تتمحور حول نظرية ال functions.
 

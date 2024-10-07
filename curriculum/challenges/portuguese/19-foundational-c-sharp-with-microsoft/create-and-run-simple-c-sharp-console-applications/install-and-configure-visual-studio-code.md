@@ -20,19 +20,19 @@ Complete o módulo <a href="https://learn.microsoft.com/training/modules/install
 
 ## --text--
 
-Qual das seguintes opções oferece a melhor descrição de um Ambiente Integrado de Desenvolvimento (IDE)?
+Which of the following choices provides the best description of an Integrated Development Environment (IDE)?
 
 ## --answers--
 
-O Visual Studio Code é um Ambiente Integrado de Desenvolvimento.
+Visual Studio Code is an Integrated Development Environment.
 
 ---
 
-Um Ambiente Integrado de Desenvolvimento é uma ferramenta que facilita a escrita de código.
+An Integrated Development Environment is tool that makes it easier to write code.
 
 ---
 
-Um IDE é um conjunto de ferramentas que oferece suporte a todo o ciclo de vida do desenvolvimento de software.
+An IDE is a suite of tools that supports the full software development lifecycle.
 
 ## --video-solution--
 

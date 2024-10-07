@@ -8,7 +8,7 @@ dashedName: catch-off-by-one-errors-when-using-indexing
 
 # --description--
 
-Gli errori <dfn>fuori di uno</dfn> (talvolta chiamati OBOE, "Off by one errors") si presentano quando si sta tentando di puntare ad un indice specifico di una stringa o di un array (per tagliare o accedere a un segmento), o quando si itera sui loro indici. L'indicizzazione JavaScript inizia da zero, non da uno, il che significa che l'ultimo indice è sempre inferiore di uno rispetto alla posizione dell'elemento. Se si tenta di accedere a un indice pari alla lunghezza, il programma potrebbe lanciare un errore di riferimento "index out of range" (indice fuori campo) o scrivere `undefined`.
+<dfn>Off by one errors</dfn> (sometimes called OBOE) crop up when you're trying to target a specific index of a string or array (to slice or access a segment), or when looping over the indices of them. JavaScript indexing starts at zero, not one, which means the last index is always one less than the length of the item. If you try to access an index equal to the length, the program may throw an "index out of range" reference error or print `undefined`.
 
 Quando si utilizzano metodi di stringa o di array che prendono intervalli di indici come argomenti, è utile leggerne la documentazione e capire se sono inclusivi (l'elemento all'indice dato fa parte di ciò che è restituito) o no. Ecco alcuni esempi di errori fuori di uno:
 

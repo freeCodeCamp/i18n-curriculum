@@ -1,6 +1,6 @@
 ---
 id: 5900f3e41000cf542c50fef6
-title: 'Problem 119: Digit power sum'
+title: 'Problem 119: Summe der Potenz'
 challengeType: 1
 forumTopicId: 301745
 dashedName: problem-119-digit-power-sum

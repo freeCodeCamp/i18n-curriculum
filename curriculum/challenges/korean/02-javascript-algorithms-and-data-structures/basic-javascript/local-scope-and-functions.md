@@ -1,6 +1,6 @@
 ---
 id: 56533eb9ac21ba0edf2244bf
-title: Local Scope and Functions
+title: 로컬(지역) 스코프(범위) 와 함수
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cd62NhM'
 forumTopicId: 18227
@@ -11,7 +11,7 @@ dashedName: local-scope-and-functions
 
 Variables which are declared within a function, as well as the function parameters, have <dfn>local</dfn> scope. That means they are only visible within that function.
 
-Here is a function `myTest` with a local variable called `loc`.
+여기에 `loc`이라는 로컬 변수를 가지는 함수 `myTest`가 있습니다.
 
 ```js
 function myTest() {
@@ -23,17 +23,17 @@ myTest();
 console.log(loc);
 ```
 
-The `myTest()` function call will display the string `foo` in the console. The `console.log(loc)` line (outside of the `myTest` function) will throw an error, as `loc` is not defined outside of the function.
+`myTest()` 함수를 부르면 콘솔에 `foo` 라는 문자열을 표시할 것입니다. 이 `console.log(loc)`라는 줄(`myTest` 함수의 바깥쪽) 은 `loc`이 함수 바깥쪽에 정의되어 있지 않다는 에러를 발생시킬 것입니다.
 
 # --instructions--
 
-The editor has two `console.log`s to help you see what is happening. Check the console as you code to see how it changes. Declare a local variable `myVar` inside `myLocalScope` and run the tests.
+에디터에 있는 2개의 `console.log`들은 당신이 동작을 확인하는 데 도움을 줄 것입니다. 코드를 치면서 그게 어떻게 변해가는 지 콘솔을 확인하세요. `myLocalScope` 안에 로컬 변수 `myVar`를 선언하고, 테스트들을 실행하세요.
 
-**Note:** The console will still display `ReferenceError: myVar is not defined`, but this will not cause the tests to fail.
+**노트:** 콘솔은 여전히 `ReferenceError: myVar is not defined` 라고 표시될 것이지만, 이것이 테스트의 실패를 야기하지는 않습니다.
 
 # --hints--
 
-The code should not contain a global `myVar` variable.
+코드에서 글로벌 변수 `myVar`을 포함되어서는 안됩니다.
 
 ```js
 function declared() {
@@ -43,7 +43,7 @@ function declared() {
 assert.throws(declared, ReferenceError);
 ```
 
-You should add a local `myVar` variable.
+당신은 로컬 변수 `myVar`를 추가해야 합니다.
 
 ```js
 assert(

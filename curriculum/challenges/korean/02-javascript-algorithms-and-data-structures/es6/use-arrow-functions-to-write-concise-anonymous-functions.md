@@ -42,7 +42,7 @@ Rewrite the function assigned to the variable `magic` which returns a `new Date(
 
 # --hints--
 
-You should replace the `var` keyword.
+키워드 `var`는 다른 선언 키워드로 교체해야 합니다.
 
 ```js
 assert.notMatch(code, /var/g)
@@ -66,7 +66,7 @@ assert(typeof magic === 'function');
 assert(magic().setHours(0, 0, 0, 0) === new Date().setHours(0, 0, 0, 0));
 ```
 
-The `function` keyword should not be used.
+키워드 `function`은 사용하지 않습니다.
 
 ```js
 assert.notMatch(code, /function/g)

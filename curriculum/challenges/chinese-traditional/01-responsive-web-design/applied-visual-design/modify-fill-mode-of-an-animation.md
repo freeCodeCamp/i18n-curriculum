@@ -9,7 +9,7 @@ dashedName: modify-fill-mode-of-an-animation
 
 # --description--
 
-太棒了，但是現在還不完美。 注意動畫在 `500ms` 之後重置了，所以按鈕又變成了之前的顏色。 而我們想要的效果是按鈕在懸停時始終高亮。
+That's great, but it doesn't work right yet. Notice how the animation resets after `500ms` has passed, causing the button to revert back to the original color. You want the button to stay highlighted.
 
 爲此，我們可以通過把 `animation-fill-mode` 設置成 `forwards` 來實現。 `animation-fill-mode` 指定了在動畫結束時元素的樣式： 你可以這樣設置：
 

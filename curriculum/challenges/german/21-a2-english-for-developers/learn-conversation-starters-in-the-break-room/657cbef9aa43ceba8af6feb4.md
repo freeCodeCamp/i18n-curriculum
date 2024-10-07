@@ -19,7 +19,7 @@ Zum Beispiel kannst du sagen `I enjoy playing video games`, wenn dir das Spielen
 
 `I think she has a passion for technology and she BLANK leading our team.`
 
-## -blanks--
+## --blanks--
 
 `enjoys`
 
@@ -27,7 +27,7 @@ Zum Beispiel kannst du sagen `I enjoy playing video games`, wenn dir das Spielen
 
 Welches Wort würdest du verwenden um zu sagen, dass Maria glücklich ist, das Team zu führen? Es ist das gleiche Wort, das verwendet wird, wenn du Spaß hast oder gerne eine Aktivität machst.
 
-# --blanks--
+# --scene--
 
 ```json
 {

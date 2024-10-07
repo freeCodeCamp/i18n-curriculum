@@ -9,7 +9,7 @@ dashedName: understanding-boolean-values
 
 # --description--
 
-另一种数据类型是布尔（<dfn>Boolean</dfn>）。 布尔值只能是两个值中的一个：`true` 或者 `false`。 它非常像电路开关，`true` 是 “开”，`false` 是 “关”。 这两种状态是互斥的。
+Another data type is the <dfn>Boolean</dfn>. Booleans may only be one of two values: `true` or `false`. They are basically little on-off switches, where `true` is on and `false` is off. These two states are mutually exclusive.
 
 **注意：** 布尔值是不带引号的。 字符串 `"true"` 和 `"false"` 不是布尔值，在 JavaScript 中也没有特殊含义。
 

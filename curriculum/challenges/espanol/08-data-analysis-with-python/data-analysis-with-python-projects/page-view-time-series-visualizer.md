@@ -8,13 +8,13 @@ dashedName: page-view-time-series-visualizer
 
 # --description--
 
-Estarás <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-page-view-time-series-visualizer" target="_blank" rel="noopener noreferrer nofollow">trabajando en este proyecto con nuestro código inicial en Gitpod</a>.
+You will be <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-page-view-time-series-visualizer" target="_blank" rel="noopener noreferrer nofollow">working on this project with our Gitpod starter code</a>.
 
-Todavía estamos desarrollando la parte interactiva del currículo de Python. Por el momento, aquí hay algunos videos en el canal de YouTube de freeCodeCamp.org que te enseñaran todo lo que necesitas saber para completar este proyecto:
+Estamos desarrollando las instrucciones interactivas del currículo de Python. Aunque puedes encontrar los siguientes videos en el canal de YouTube de freeCodeCamp.org que te enseñaran lo necesario para realizar este proyecto:
 
-- <a href="https://www.freecodecamp.org/news/python-for-everybody/" target="_blank" rel="noopener noreferrer nofollow">Curso en Vídeo de Python para Todos</a> (Duración: 14 horas)
+- <a href="https://www.freecodecamp.org/news/python-for-everybody/" target="_blank" rel="noopener noreferrer nofollow">Python for Everybody Video Course</a> (14 hours)
 
-- <a href="https://www.freecodecamp.org/news/how-to-analyze-data-with-python-pandas/" target="_blank" rel="noopener noreferrer nofollow">How to Analyze Data with Python Pandas</a> (10 horas)
+- <a href="https://www.freecodecamp.org/news/how-to-analyze-data-with-python-pandas/" target="_blank" rel="noopener noreferrer nofollow">How to Analyze Data with Python Pandas</a> (10 hours)
 
 # --instructions--
 
@@ -22,17 +22,17 @@ Para este proyecto, visualizarás los datos de las series temporales utilizando 
 
 Utiliza los datos para completar las siguientes tareas:
 
-- Usa Pandas para importar los datos desde "fcc-forum-pageviews.csv". Establece el índice para la columna `date`.
-- Limpia los datos filtrando los días en que las vistas de la página se encuentren en un alto de 2.5% del conjunto de datos o inferior de 2.5% del conjunto de datos.
-- Crea una función `draw_line_plot` que use Matplotlib para dibujar un gráfico de línea similar a "examples/Figure_1.png". El título debería ser `Daily freeCodeCamp Forum Page Views 5/2016-12/2019`. La etiqueta en el eje x debería ser `Date` y la etiqueta en el eje y debería ser `Page Views`.
-- Crea una función `draw_bar_plot` que dibuje un gráfico de barras similar a "examples/Figure_2.png". Debería mostrar el promedio diario de vistas a la página para cada mes agrupadas por año. La leyenda debería mostrar etiquetas mensuales y tener un título de `Months`. En la gráfica, la etiqueta en el eje x debería ser `Years` y la etiqueta en el eje y debería ser `Average Page Views`.
-- Crea `draw_box_plot` una función que use Seaborn para dibujar dos puntos de caja adyacentes similar a "examples/Figure_3.png". Estos diagramas de caja deberían mostrar como los valores son distribuídos dentro de un año dado o mes y como se compara con el tiempo. El título del primer gráfico debería ser `Year-wise Box Plot (Trend)` y el título del segundo gráfico debería ser `Month-wise Box Plot (Seasonality)`. Asegurese que la etiqueta mes mes en la parte inferior empiece en `Jan` y los ejes x y y estén etiquetados correctamente. La plantilla incluye comandos para preparar los datos.
+- Use Pandas to import the data from "fcc-forum-pageviews.csv". Set the index to the `date` column.
+- Limpiar los datos filtrando los días en que las vistas de la página se encuentran en el 2,5% superior del conjunto de datos o en el 2,5% inferior del conjunto de datos.
+- Crea una función llamada `draw_line_plot` que utilice Matplotlib para dibujar un gráfico de línea similar a "examples/Figure_1.png". El título debe ser `Daily freeCodeCamp Forum Page Views 5/2016-12/2019`. La etiqueta en el eje x debe ser `Date` y la etiqueta en el eje y debe ser `Page Views`.
+- Crea una función llamada `draw_bar_plot` que dibuje un gráfico de barras similar a "examples/Figure_2.png". Debe mostrar el número promedio de vistas diarias de cada mes, agrupadas por año. La leyenda debe mostrar las etiquetas de los meses y tener un título de `Months`. En el gráfico, la etiqueta en el eje x debe ser `Years` y la etiqueta en el eje y debe ser `Average Page Views`.
+- Crea una función llamada `draw_box_plot` que utilice Seaborn para dibujar dos diagramas de caja adyacentes similares a "examples/Figure_3.png". Estos diagramas de caja deben mostrar cómo se distribuyen los valores dentro de un año o mes determinado y cómo se compara con el tiempo. El título del primer gráfico debe ser `Year-wise Box Plot (Trend)` y el título del segundo gráfico debe ser `Month-wise Box Plot (Seasonality)`. Asegúrese de que las etiquetas de los meses en la parte inferior comiencen en `Jan` y que los ejes x e y estén etiquetados correctamente. El boilerplate incluye comandos para preparar los datos.
 
-Para cada gráfico, asegúrese de usar una copia de los datos.
+For each chart, make sure to use a copy of the data frame.
 
 El boilerplate también incluye los comandos para guardar y devolver la imagen.
 
-## Desarrollo
+## Development
 
 Escribe tu código en `time_series_visualizer.py`. Para el desarrollo, puedes utilizar `main.py` para probar tu código.
 
@@ -40,7 +40,7 @@ Escribe tu código en `time_series_visualizer.py`. Para el desarrollo, puedes ut
 
 Las pruebas unitarias para este proyecto están en `test_module.py`. Hemos importado las pruebas de `test_module.py` a `main.py` para tu conveniencia.
 
-## Envío
+## Enviar
 
 Copia el enlace de tu proyecto y envíalo a freeCodeCamp.
 

@@ -8,7 +8,7 @@ dashedName: problem-329-prime-frog
 
 # --description--
 
-Susan has a prime frog.
+Susan hat einen Primzahl-Frosch.
 
 Dein Frosch springt über 500 Quadrate, die mit 1 bis 500 nummeriert sind.
 
@@ -22,13 +22,13 @@ Gib deine Antwort in Form eines Strings als Bruch `p/q` in reduzierter Form an.
 
 # --hints--
 
-`primeFrog()` should return a string.
+`primeFrog()` sollte einen String zurückgeben.
 
 ```js
 assert(typeof primeFrog() === 'string');
 ```
 
-`primeFrog()` should return the string `199740353/29386561536000`.
+`primeFrog()` sollte den String `199740353/29386561536000` zurückgeben.
 
 ```js
 assert.strictEqual(primeFrog(), '199740353/29386561536000');

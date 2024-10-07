@@ -8,7 +8,7 @@ dashedName: give-sibling-elements-a-unique-key-attribute
 
 # --description--
 
-前回のチャレンジでは、`map` メソッドを使用してユーザー入力に基づいていくつかの要素を動的にレンダーする方法を紹介しました。 しかし、その例では重要なことを説明していませんでした。 要素の配列を作成するときは、一意の値に設定された `key` 属性が各要素に必要になります。 React はこれらのキーを使用して、どのアイテムが追加、変更、または削除されたのかを追跡します。 これにより、リストが何らかの方法で変更されたときに、再レンダーの処理の効率が上がります。
+The last challenge showed how the `map` method is used to dynamically render a number of elements based on user input. However, there was an important piece missing from that example. When you create an array of elements, each one needs a `key` attribute set to a unique value. React uses these keys to keep track of which items are added, changed, or removed. This helps make the re-rendering process more efficient when the list is modified in any way.
 
 **注:** キーは兄弟要素間でのみ一意であれば十分です。アプリケーションでグローバルに一意である必要はありません。
 

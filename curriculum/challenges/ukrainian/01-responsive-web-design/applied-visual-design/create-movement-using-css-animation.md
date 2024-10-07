@@ -9,7 +9,7 @@ dashedName: create-movement-using-css-animation
 
 # --description--
 
-Коли елементи мають певну `position`, наприклад `fixed` або `relative`, `right`, `left`, `top`, і `bottom` CSS офсет властивості зміщення можуть застосовуватись до анімацій, щоб створювати рух.
+When elements have a specified `position`, such as `fixed` or `relative`, the CSS offset properties `right`, `left`, `top`, and `bottom` can be used in animation rules to create movement.
 
 Як показано на прикладі нижче, ви можете перемістити об'єкт вниз, а потім вгору, якщо встановити його на 50px `50%` властивості `top`, але спочатку встановити 0px (`0%`), і останнє — (`100%`).
 

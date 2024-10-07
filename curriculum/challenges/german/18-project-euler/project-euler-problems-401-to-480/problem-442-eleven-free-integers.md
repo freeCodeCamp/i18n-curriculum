@@ -1,6 +1,6 @@
 ---
 id: 5900f5271000cf542c510039
-title: 'Problem 442: Eleven-free integers'
+title: 'Problem 442: Elf freie Integer'
 challengeType: 1
 forumTopicId: 302114
 dashedName: problem-442-eleven-free-integers
@@ -8,17 +8,17 @@ dashedName: problem-442-eleven-free-integers
 
 # --description--
 
-An integer is called eleven-free if its decimal expansion does not contain any substring representing a power of 11 except 1.
+Eine ganze Zahl wird als elffrei bezeichnet, wenn ihre dezimale Erweiterung keine Teilzeichenfolge enthält, die eine Potenz von 11 außer 1 darstellt.
 
-For example, 2404 and 13431 are eleven-free, while 911 and 4121331 are not.
+So sind beispielsweise 2404 und 13431 elffrei, 911 und 4121331 hingegen nicht.
 
-Let $E(n)$ be the $n$th positive eleven-free integer. For example, $E(3) = 3$, $E(200) = 213$ and $E(500\\,000) = 531\\,563$.
+Lasse $E(n)$ die $n$-te positive elffreie Integer sein. Zum Beispiel ist $E(3) = 3$, $E(200) = 213$ und $E(500\\.000) = 531\\.563$.
 
-Find $E({10}^{18})$.
+Finde $E({10}^{18})$.
 
 # --hints--
 
-`elevenFreeIntegers()` should return `1295552661530920200`.
+`elevenFreeIntegers()` sollte `1295552661530920200` zurückgeben.
 
 ```js
 assert.strictEqual(elevenFreeIntegers(), 1295552661530920200);

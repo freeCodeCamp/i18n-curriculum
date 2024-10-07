@@ -8,13 +8,13 @@ dashedName: handle-a-fulfilled-promise-with-then
 
 # --description--
 
-Las promesas son muy útiles, cuando tu tienes un proceso que toma una cantidad de tiempo desconocida en tu código (algo asíncrono por ejemplo), a menudo una petición de servidor. Cuando tu haces una petición a un servidor, toma algo de tiempo, después de que termina, normalmente quieres hacer algo con la respuesta del servidor. Esto se puede lograr utilizando el método `then`.
+Promises are most useful when you have a process that takes an unknown amount of time in your code (i.e. something asynchronous), often a server request. When you make a server request it takes some amount of time, and after it completes you usually want to do something with the response from the server. This can be achieved by using the `then` method.
 
 ```js
 Promise.prototype.then(onFulfilled, onRejected)
 ```
 
-The `then` method schedules callback functions for the eventual completion of a Promise - either fulfillment or rejection. One of the `onFulfilled` and `onRejected` handlers will be executed to handle the current promise's fulfillment or rejection. When the promise is fulfilled with `resolve` the `onFulfilled` handler is called.
+El método `then` agenda funciones de devolución para el cumplimiento de una Promesa - sea logro o rechazo. Uno de los controladores `onFulfilled` y `onRejected` será ejecutado para manejar el cumplimiento o el rechazo de la promesa actual. Cuando la promesa se cumple con `resolve` se llama al manejador `onFulfilled`.
 
 ```js
 myPromise.then(result => {
@@ -22,15 +22,15 @@ myPromise.then(result => {
 });
 ```
 
-`result` viene con el argumento proporcionado al método `resolve`.
+`result` comes from the argument given to the `resolve` method.
 
 # --instructions--
 
-Añade el método `then` a tu promesa. Usa `result` como parámetro de tu función callback, asimismo imprime `result` en la consola.
+Add the `then` method to your promise. Use `result` as the parameter of its callback function and log `result` to the console.
 
 # --hints--
 
-Debes llamar al método `then` en la promesa.
+You should call the `then` method on the promise.
 
 ```js
 assert(
@@ -38,7 +38,7 @@ assert(
 );
 ```
 
-El método `then`, debe tener una función callback con `result` como parámetro.
+Your `then` method should have a callback function with `result` as its parameter.
 
 ```js
 assert(resultIsParameter);

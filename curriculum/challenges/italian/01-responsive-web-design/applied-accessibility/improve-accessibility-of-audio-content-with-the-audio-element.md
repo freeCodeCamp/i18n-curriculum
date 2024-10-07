@@ -9,7 +9,7 @@ dashedName: improve-accessibility-of-audio-content-with-the-audio-element
 
 # --description--
 
-L'elemento `audio` di HTML5 fornisce un significato semantico quando racchiude un flusso audio o sonoro nel tuo markup. Per essere accessibile da persone sorde o con problemi di udito, un contenuto audio ha anche bisogno di un testo alternativo. Questo risultato può essere ottenuto inserendo un testo vicino all'elemento audio o tramite un link alla trascrizione.
+HTML5's `audio` element gives semantic meaning when it wraps sound or audio stream content in your markup. Audio content also needs a text alternative to be accessible to people who are deaf or hard of hearing. This can be done with nearby text on the page or a link to a transcript.
 
 Il tag `audio` supporta l'attributo `controls`. Questo mostra i comandi di default del browser play, pausa, ecc. e supporta l'uso direttamente da tastiera. Esso è un attributo booleano, cioè non ha bisogno di un valore: la sua presenza all'interno del tag attiva l'impostazione.
 

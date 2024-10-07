@@ -9,7 +9,7 @@ dashedName: change-an-elements-relative-position
 
 # --description--
 
-CSS는 각 HTML 요소를 별도의 상자로 취급하며 이를 일반적으로 <dfn>CSS 박스 모델</dfn>이라고 합니다. 블록 수준 항목은 자동으로 새로운 줄에서 시작합니다 (제목, 단락, div 같은 것을 생각해보세요) 반면 인라인 항목은 주변 콘텐츠 안에 위치합니다 (이미지나 span 같은 것들처럼 말이죠). 이렇게 요소의 기본 레이아웃은 문서의 <dfn>정상 흐름(normal flow)</dfn>이라고 불립니다. 그러나 CSS에서는 이를 무시하고 변경하도록 position 속성을 제공합니다.
+CSS treats each HTML element as its own box, which is usually referred to as the <dfn>CSS Box Model</dfn>. Block-level items automatically start on a new line (think headings, paragraphs, and divs) while inline items sit within surrounding content (like images or spans). The default layout of elements in this way is called the <dfn>normal flow</dfn> of a document, but CSS offers the position property to override it.
 
 요소의 위치가 `relative`로 설정되면 현재 페이지에서 그 요소가 정상 흐름일 때의 위치를 기준으로 해서 거기에 *상대적으로* 어떻게 CSS를 이용해 이동할지를 지정할 수 있습니다. 이는 CSS의 `left` 또는 `right`, 그리고 `top` 또는 `bottom` 오프셋 속성과 함께 사용됩니다. 이는 항목을 일반적으로 *위치한 곳으로부터* 얼마의 픽셀, 퍼센트 또는 em만큼을 이동할지를 나타냅니다. 다음 예제는 문단을 밑으로부터 10픽셀만큼 이동시킵니다.
 

@@ -9,7 +9,7 @@ dashedName: task-26
 
 # --description--
 
-Listen to the audio and answer the question below.
+Ouça o áudio e responda a pergunta abaixo.
 
 # --questions--
 

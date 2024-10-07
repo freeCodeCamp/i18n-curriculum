@@ -13,7 +13,7 @@ dashedName: build-a-tribute-page
 
 **Maelekezo:**
 
-1. Ukurasa wako wa heshima unapaswa kuwa na kipengele cha `main` chenye `id` inayolingana ya `main`, ambayo ina vipengele vingine vyote
+1. Your tribute page should have a `main` element with a corresponding `id` of `main`, which contains all other elements
 1. Unapaswa kuona kipengele chenye `id` ya `title`, ambayo ina string (yaani maandishi), yanayofafanua mada ya ukurasa wa kushukuru (k.m. "Dr. Norman Borlaug")
 1. Unapaswa kuona kipengele cha `figure` au `div` chenye `id` ya `img-div`
 1. Ndani ya kipengele cha `#img-div` unapaswa kuona kipengele cha `img` chenye `id="image"` sambamba

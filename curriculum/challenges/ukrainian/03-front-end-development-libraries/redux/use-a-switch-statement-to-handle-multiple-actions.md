@@ -8,7 +8,7 @@ dashedName: use-a-switch-statement-to-handle-multiple-actions
 
 # --description--
 
-Ви можете повідомити сховищу Redux, як обробляти декілька типів дій. Припустимо, ви керуєте автентифікацією користувача у своєму сховищі Redux. Вам потрібно мати чітке уявлення, коли користувачі входять у систему та коли вони виходять. Ви представляєте це єдиним об’єктом стану з властивістю `authenticated`. Вам також потрібні автори дій, які створюють дії відповідно до входу та виходу користувача, разом з самими об’єктами дій.
+You can tell the Redux store how to handle multiple action types. Say you are managing user authentication in your Redux store. You want to have a state representation for when users are logged in and when they are logged out. You represent this with a single state object with the property `authenticated`. You also need action creators that create actions corresponding to user login and user logout, along with the action objects themselves.
 
 # --instructions--
 

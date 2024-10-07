@@ -8,7 +8,7 @@ dashedName: palindrome-checker
 
 # --description--
 
-Поверніть `true`, якщо заданий рядок є паліндромом. В іншому випадку, поверніть `false`.
+Return `true` if the given string is a palindrome. Otherwise, return `false`.
 
 <dfn>Паліндром</dfn> — це слово чи речення, що однаково пишеться в обох напрямках (зліва направо та справа наліво), незважаючи на розділові знаки, велику/малу літеру чи пробіли.
 
@@ -50,7 +50,7 @@ assert(palindrome('race car') === true);
 assert(palindrome('not a palindrome') === false);
 ```
 
-`palindrome("A man, a plan, a canal. Panama")` має повертати `true`.
+`palindrome("A man, a plan, a canal. Panama")` має повернути `true`.
 
 ```js
 assert(palindrome('A man, a plan, a canal. Panama') === true);

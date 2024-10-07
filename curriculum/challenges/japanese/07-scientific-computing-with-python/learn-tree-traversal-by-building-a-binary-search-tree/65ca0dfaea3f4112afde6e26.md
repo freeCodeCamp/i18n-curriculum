@@ -1,6 +1,6 @@
 ---
 id: 65ca0dfaea3f4112afde6e26
-title: Step 52
+title: ステップ 52
 challengeType: 20
 dashedName: step-52
 ---

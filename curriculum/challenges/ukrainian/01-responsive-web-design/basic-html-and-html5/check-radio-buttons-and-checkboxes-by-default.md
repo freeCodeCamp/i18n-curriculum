@@ -9,7 +9,7 @@ dashedName: check-radio-buttons-and-checkboxes-by-default
 
 # --description--
 
-Ви можете автоматично вмикати прапорець чи радіокнопку завдяки атрибуту `checked`.
+You can set a checkbox or radio button to be checked by default using the `checked` attribute.
 
 Для цього просто додайте слово `checked` всередину елемента `input`. Наприклад:
 

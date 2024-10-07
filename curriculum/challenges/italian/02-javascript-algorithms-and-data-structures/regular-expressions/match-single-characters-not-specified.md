@@ -8,7 +8,7 @@ dashedName: match-single-characters-not-specified
 
 # --description--
 
-Finora, hai creato un insieme di caratteri che vuoi riconoscere, ma è anche possibile creare un insieme di caratteri che non vuoi riconoscere. Questi tipi di set di caratteri sono chiamati <dfn>set di caratteri negati</dfn>.
+So far, you have created a set of characters that you want to match, but you could also create a set of characters that you do not want to match. These types of character sets are called <dfn>negated character sets</dfn>.
 
 Per creare un set di caratteri negati, devi posizionare un carattere di cursore (`^`) dopo la parentesi di apertura e prima dei caratteri che non desideri riconoscere.
 

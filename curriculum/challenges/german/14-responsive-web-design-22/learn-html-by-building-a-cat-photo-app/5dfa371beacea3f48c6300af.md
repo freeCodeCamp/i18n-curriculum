@@ -7,7 +7,7 @@ dashedName: step-19
 
 # --description--
 
-Wenn du ein untergeordnetes Überschriftenelement zur Seite hinzufügst, wird angedeutet, dass du einen neuen Unterabschnitt beginnst.
+When you add a lower rank heading element to the page, it's implied that you're starting a new subsection.
 
 Füge nach dem letzten `h2`-Element des zweiten `section`-Elements ein `h3`-Element mit diesem Text hinzu:
 

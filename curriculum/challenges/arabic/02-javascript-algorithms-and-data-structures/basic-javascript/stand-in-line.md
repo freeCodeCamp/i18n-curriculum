@@ -9,7 +9,7 @@ dashedName: stand-in-line
 
 # --description--
 
-في علوم الحاسب (Computer Science) الصف أو <dfn>queue</dfn> هو <dfn>هيكل بيانات (Data Structure)</dfn> مجرد، حيث يتم حفظ العناصر بالترتيب. يمكن إضافة عناصر جديدة في الجزء الخلفي من الصف ويتم إزالة العناصر القديمة من مقدمة الصف.
+In Computer Science a <dfn>queue</dfn> is an abstract <dfn>Data Structure</dfn> where items are kept in order. New items can be added at the back of the queue and old items are taken off from the front of the queue.
 
 # --instructions--
 

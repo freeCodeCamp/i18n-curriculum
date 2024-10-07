@@ -8,7 +8,7 @@ dashedName: call-out-optional-actions-with-btn-info
 
 # --description--
 
-Bootstrap має набір заздалегідь встановлених кольорів для кнопок. Клас `btn-info` використовують, щоб привернути увагу до додаткових дій, які може виконати користувач.
+Bootstrap comes with several pre-defined colors for buttons. The `btn-info` class is used to call attention to optional actions that the user can take.
 
 Створіть нову кнопку Bootstrap на рівні блоку з текстом `Info` під кнопкою `Like` та додайте до неї клас `btn-info`.
 

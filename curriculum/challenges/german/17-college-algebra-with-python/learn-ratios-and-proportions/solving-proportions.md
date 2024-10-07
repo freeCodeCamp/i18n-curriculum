@@ -10,9 +10,9 @@ dashedName: solving-proportions
 
 Jetzt kommen wir zum mathematischen Inhalt. In diesem Video wird gezeigt, wie man Proportionen aufstellt und löst und wie man Code schreibt, um Variablen zu lösen.
 
-Hier ist das <a href="https://colab.research.google.com/drive/1Q7nCcbrnoYttkwiHB_nQ-X1JuLpUmtRD?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">Colab-Notizbuch zu diesem Video.</a> Falls du dies noch nicht getan hast, dann richte dein Algebra-Colab-Notizbuch aus dem letzten Video ein. Then, add the code from this video to it.
+Hier ist das <a href="https://colab.research.google.com/drive/1Q7nCcbrnoYttkwiHB_nQ-X1JuLpUmtRD?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">Colab-Notizbuch zu diesem Video.</a> Falls du dies noch nicht getan hast, dann richte dein Algebra-Colab-Notizbuch aus dem letzten Video ein. Füge dann den Code aus diesem Video zum Notizbuch hinzu.
 
-# --assignment--
+# --Auftrag--
 
 Füge den Code aus dem Video in das Algebra-Colab-Notizbuch ein, das du im ersten Schritt erstellt hast.
 

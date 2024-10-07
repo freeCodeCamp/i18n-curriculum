@@ -9,7 +9,7 @@ dashedName: comparison-with-the-greater-than-or-equal-to-operator
 
 # --description--
 
-使用大于等于运算符（`>=`）来比较两个数字的大小。 如果大于等于运算符左边的数字比右边的数字大或者相等，会返回 `true`。 否则，会返回 `false`。
+The greater than or equal to operator (`>=`) compares the values of two numbers. If the number to the left is greater than or equal to the number to the right, it returns `true`. Otherwise, it returns `false`.
 
 与相等运算符相似，大于等于运算符在比较的时候会转换值的数据类型。
 
@@ -24,7 +24,7 @@ dashedName: comparison-with-the-greater-than-or-equal-to-operator
 
 # --instructions--
 
-添加大于等于运算符到指定行，使得函数的返回语句有意义。
+添加`>=`运算符到指定行，使得函数的返回语句有意义。
 
 # --hints--
 

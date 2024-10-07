@@ -14,29 +14,29 @@ dashedName: core-learning-algorithms
 
 The next few video lessons will reference [this Colab notebook](https://colab.research.google.com/drive/15Cyy2H7nT40sGR7TBN5wBvgTd57mVKay#forceEdit=true&sandboxMode=true).
 
-# --questions--
+# 問題
 
 ## --text--
 
-哪種類型的分析最適合以下問題？
+Which type of analysis would be best suited for the following problem?:
 
-你擁有過去 100 年三月份的平均溫度。 使用此數據，你希望預測 5 年後 3 月的平均溫度。
+You have the average temperature in the month of March for the last 100 years. Using this data, you want to predict the average temperature in the month of March 5 years from now.
 
 ## --answers--
 
-多重回歸
+Multiple regression
 
 ---
 
-關連
+Correlation
 
 ---
 
-決策樹
+Decision tree
 
 ---
 
-線性迴歸
+Linear regression
 
 ## --video-solution--
 

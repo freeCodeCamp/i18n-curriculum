@@ -1,6 +1,6 @@
 ---
 id: 5e9a093a74c4063ca6f7c15f
-title: Data Cleaning Duplicates
+title: التخلص من البيانات المتكررة
 challengeType: 11
 videoId: kj7QqjXhH6A
 bilibiliIds:
@@ -14,30 +14,30 @@ dashedName: data-cleaning-duplicates
 
 *Instead of using notebooks.ai like it shows in the video, you can use Google Colab instead.*
 
-More resources:
+المزيد من المصادر:
 
 -  <a href="https://github.com/ine-rmotr-curriculum/data-cleaning-rmotr-freecodecamp" target="_blank" rel="noopener noreferrer nofollow">Notebooks on GitHub</a>
--  <a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb" target="_blank" rel="noopener noreferrer nofollow">How to open Notebooks from GitHub using Google Colab.</a>
+-  <a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebookس/colab-github-demo.ipynb" target="_blank" rel="noopener noreferrer nofollow">كيفية فتح (Notebook) من (GitHub) باستخدام (Google Colab).</a>
 
 # --questions--
 
 ## --text--
 
-The Python method `.duplicated()` returns a boolean Series for your DataFrame. `True` is the return value for rows that:
+دالة `()duplicated.` في لغة البايثون ترجع Series يحتوي علي قيم منطقية لل DataFrame المستخدمة. `True` هي القيمة المنطقية للصفوف أللتي:
 
 ## --answers--
 
-contain a duplicate, where the value for the row contains the first occurrence of that value.
+يحتوي على تكرار، حيث تظهر قيمة الصف للمرة الأولي.
 
 ---
 
-contain a duplicate, where the value for the row is at least the second occurrence of that value.
+يحتوي على تكرار، حيث تكون قيمة الصف ظهرت علي الأقل مرتين.
 
 ---
 
-contain a duplicate, where the value for the row contains either the first or second occurrence.
+يحتوي على تكرار، حيث تظهر قيمة الصف للمرة الأولي أو الثانية.
 
 ## --video-solution--
 
-2
+٢
 

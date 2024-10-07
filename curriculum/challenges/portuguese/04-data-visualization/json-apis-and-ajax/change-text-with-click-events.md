@@ -8,7 +8,7 @@ dashedName: change-text-with-click-events
 
 # --description--
 
-Quando ocorre o evento de clique, você pode usar o JavaScript para atualizar um elemento HTML.
+When the click event happens, you can use JavaScript to update an HTML element.
 
 Por exemplo, quando um usuário clica no botão `Get Message`, ele muda o texto do elemento com a classe `message` para que passe a dizer `Here is the message`.
 

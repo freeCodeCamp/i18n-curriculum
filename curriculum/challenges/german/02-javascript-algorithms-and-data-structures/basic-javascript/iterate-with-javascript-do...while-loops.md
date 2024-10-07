@@ -9,7 +9,7 @@ dashedName: iterate-with-javascript-do---while-loops
 
 # --description--
 
-Die nächste Art von Schleife, die du lernen wirst, heißt `do...while`-Schleife. Sie wird `do...while`-Schleife genannt, weil sie zuerst `do` einen Durchlauf des Codes innerhalb der Schleife macht, egal was passiert, und dann die Schleife `while` weiterlaufen lässt, wenn die angegebene Bedingung als `true` ausgewertet wird.
+The next type of loop you will learn is called a `do...while` loop. It is called a `do...while` loop because it will first `do` one pass of the code inside the loop no matter what, and then continue to run the loop `while` the specified condition evaluates to `true`.
 
 ```js
 const ourArray = [];

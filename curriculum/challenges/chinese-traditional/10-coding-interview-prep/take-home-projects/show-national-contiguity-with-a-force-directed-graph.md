@@ -1,6 +1,6 @@
 ---
 id: bd7198d8c242eddfaeb5bd13
-title: Show National Contiguity with a Force Directed Graph
+title: 用力導向圖顯示國家接壤
 challengeType: 3
 forumTopicId: 302367
 dashedName: show-national-contiguity-with-a-force-directed-graph
@@ -10,19 +10,19 @@ dashedName: show-national-contiguity-with-a-force-directed-graph
 
 **Objective:** Build an app that is functionally similar to this: <https://codepen.io/freeCodeCamp/full/XWEONRz>.
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+完成以下需求，並且通過所有測試。 你可以使用你需要的任何庫或 API。 可以用你自己的樣式來完成。
 
-**User Story:** I can see a Force-directed Graph that shows which countries share borders.
+**用戶故事：** 我可以看到顯示哪些國家共享邊界的力導向圖。
 
-**User Story:** I can see each country's flag on its node.
+**用戶故事：** 我可以在其節點上看到每個國家的國旗。
 
-**Hint:** Here's a dataset you can use to build this: <https://raw.githubusercontent.com/DealPete/forceDirected/master/countries.json>
+**提示：** 這是一個可用於構建此數據集的數據集： <https://raw.githubusercontent.com/DealPete/forceDirected/master/countries.json>
 
-**Hint:** You can create a spritesheet of national flags at <https://www.flag-sprites.com>.
+**提示：** 您可以在以下位置創建國旗的 spritesheet <https://www.flag-sprites.com>.
 
-When you are finished, include a link to your project on CodePen and click the "I've completed this challenge" button.
+完成後，單擊“我已完成此挑戰”按鈕並添加一個指向 CodePen 的鏈接。
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+可以分享你的項目到 <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp 論壇</a>上獲得反饋。
 
 # --solutions--
 

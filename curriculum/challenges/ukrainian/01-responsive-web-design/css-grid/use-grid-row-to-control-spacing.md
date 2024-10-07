@@ -9,7 +9,7 @@ dashedName: use-grid-row-to-control-spacing
 
 # --description--
 
-Звичайно, ви можете зробити, щоб елементи використали кілька рядків так само, як і колонки. Ви вказуєте на якій горизонтальній лінії сітки починається та закінчується елемент за допомогою властивості `grid-row`.
+Of course, you can make items consume multiple rows just like you can with columns. You define the horizontal lines you want an item to start and stop at using the `grid-row` property on a grid item.
 
 # --instructions--
 

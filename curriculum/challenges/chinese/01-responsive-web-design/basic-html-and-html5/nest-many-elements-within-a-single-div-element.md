@@ -9,7 +9,7 @@ dashedName: nest-many-elements-within-a-single-div-element
 
 # --description--
 
-`div` 元素也叫内容划分元素，是一个包裹其他元素的通用容器。
+The `div` element, also known as a division element, is a general purpose container for other elements.
 
 它也是 HTML 中出现频率最高的元素。
 
@@ -41,7 +41,7 @@ assert($('div').children('ul').length > 0);
 assert($('div').children('ol').length > 0);
 ```
 
-`div` 元素应有结束标签。
+确保该 `div` 元素有闭合标签.
 
 ```js
 assert(

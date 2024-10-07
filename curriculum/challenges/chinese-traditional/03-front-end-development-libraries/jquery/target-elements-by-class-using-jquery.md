@@ -11,7 +11,7 @@ dashedName: target-elements-by-class-using-jquery
 
 # --description--
 
-如何使所有的 `button` 標籤都有彈跳的動畫效果？ 用 `$("button")` 選取所有的 button 標籤，並用 `.addClass("animated bounce");` 給其添加一些 CSS 屬性。
+You see how we made all of your `button` elements bounce? We selected them with `$("button")`, then we added some CSS classes to them with `.addClass("animated bounce");`.
 
 jQuery 的 `.addClass()` 方法用來給標籤添加類。
 

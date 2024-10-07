@@ -1,6 +1,6 @@
 ---
 id: 587d7da9367417b2b2512b68
-title: Use the reduce Method to Analyze Data
+title: 데이터 분석을 위해 reduce 메소드 사용하기
 challengeType: 1
 forumTopicId: 301313
 dashedName: use-the-reduce-method-to-analyze-data
@@ -10,13 +10,13 @@ dashedName: use-the-reduce-method-to-analyze-data
 
 `Array.prototype.reduce()`, or simply `reduce()`, is the most general of all array operations in JavaScript. You can solve almost any array processing problem using the `reduce` method.
 
-The `reduce` method allows for more general forms of array processing, and it's possible to show that both `filter` and `map` can be derived as special applications of `reduce`. The `reduce` method iterates over each item in an array and returns a single value (i.e. string, number, object, array). This is achieved via a callback function that is called on each iteration.
+`reduce` 메소드는 더 많은 일반적인 유형의 배열 처리를 허용하며 `filter`와 `map`이 `reduce`의 특수한 적용으로 유도될 수 있다는 것을 보여줄 수 있습니다. `reduce` 메소드는 배열의 각 요소를 순회하며 하나의 값(문자열, 숫자, 객체, 배열)을 반환합니다. 이는 각 요소에 콜백 함수가 호출되어 얻을 수 있습니다.
 
-The callback function accepts four arguments. The first argument is known as the accumulator, which gets assigned the return value of the callback function from the previous iteration, the second is the current element being processed, the third is the index of that element and the fourth is the array upon which `reduce` is called.
+콜백 함수는 네 개의 인자를 받습니다. 첫 번째 인자는 누산기로 알려져 있으며, 이는 이전 반복의 콜백 함수의 반환 값이 할당됩니다. 두 번째는 현재 처리 중인 요소이며, 세 번째는 해당 요소의 인덱스이고, 네 번째는 `reduce`가 호출된 배열입니다.
 
-In addition to the callback function, `reduce` has an additional parameter which takes an initial value for the accumulator. If this second parameter is not used, then the first iteration is skipped and the second iteration gets passed the first element of the array as the accumulator.
+콜백 함수 이외에도 `reduce`는 누산기에 초기값을 받는 추가 인자를 가집니다. 이 두번째 인자가 사용되지 않으면 첫번째 순회는 누락되며 두번째 순회 때 배열의 첫번째 요소가 누산기에 전달됩니다.
 
-See below for an example using `reduce` on the `users` array to return the sum of all the users' ages. For simplicity, the example only uses the first and second arguments.
+사용자의 나이를 전부 더한 값을 반환하기 위해 `users` 배열에 `reduce`를 사용한 아래 예시를 보겠습니다. 간단하게 설명하기 위해 옛는 첫번째 그리고 두번째 인자만 사용합니다.
 
 ```js
 const users = [
@@ -29,9 +29,9 @@ const sumOfAges = users.reduce((sum, user) => sum + user.age, 0);
 console.log(sumOfAges);
 ```
 
-The console would display the value `64`.
+콘솔은 `64` 값을 출력할 것입니다.
 
-In another example, see how an object can be returned containing the names of the users as properties with their ages as values.
+다른 예시로 연령과 이름을 속성으로 두는 객체가 어떻게 반환되는지 보겠습니다.
 
 ```js
 const users = [
@@ -47,15 +47,15 @@ const usersObj = users.reduce((obj, user) => {
 console.log(usersObj);
 ```
 
-The console would display the value `{ John: 34, Amy: 20, camperCat: 10 }`.
+콘솔은 `{ John: 34, Amy: 20, camperCat: 10 }` 값을 출력할 것입니다.
 
 # --instructions--
 
-The variable `watchList` holds an array of objects with information on several movies. Use `reduce` to find the average IMDB rating of the movies directed by `Christopher Nolan`. Recall from prior challenges how to `filter` data and `map` over it to pull what you need. You may need to create other variables, and return the average rating from `getRating` function. Note that the rating values are saved as strings in the object and need to be converted into numbers before they are used in any mathematical operations.
+변수 `watchList`는 여러 영화에 관한 정보를 담은 객체의 배열을 가집니다. `Christopher Nolan`이 촬영한 영화의 IMDB 평균 평점을 얻기 위해 `reduce`를 사용하시오. 이전 과제에서 원하는 것을 얻기 위한 `filter`와 `map` 사용법을 상기하시오. 변수를 생성해야 할 수도 있으며 `getRating` 함수로부터 평균 평점을 반환해야 할 수도 있습니다. 평점 값은 객체에서 문자열로 저장되며 수학적인 연산에 사용되기 전에 숫자로 변환해야 할 수도 있다는 것에 주의하시오.
 
 # --hints--
 
-The `watchList` variable should not change.
+`watchList` 변수는 변하지 않아야 합니다.
 
 ```js
 assert(
@@ -63,25 +63,25 @@ assert(
 );
 ```
 
-Your code should use the `reduce` method.
+`reduce` 메소드를 사용해야 합니다.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/\.reduce/g));
 ```
 
-The `getRating(watchList)` should equal 8.675.
+`getRating(watchList)`는 8.675와 같아야 합니다.
 
 ```js
 assert(getRating(watchList) === 8.675);
 ```
 
-Your code should not use a `for` loop.
+`for` 루프를 사용하지 않아야 합니다.
 
 ```js
 assert(!__helpers.removeJSComments(code).match(/for\s*?\([\s\S]*?\)/g));
 ```
 
-Your code should return the correct output after modifying the `watchList` object.
+`watchList` 객체를 수정하여 올바른 출력을 반환해야 합니다.
 
 ```js
 assert(getRating(watchList.filter((_, i) => i < 1 || i > 2)) === 8.55);

@@ -8,7 +8,7 @@ dashedName: specify-upper-and-lower-number-of-matches
 
 # --description--
 
-تذكر أنك تستخدم علامة `+` للبحث عن واحد أو أكثر من الرموز والنجمة `*` للبحث عن صفر أو أكثر من الرموز. هذا مناسب ولكن في بعض الأحيان تريد مطابقة مجموعة معينة من الأنماط.
+Recall that you use the plus sign `+` to look for one or more characters and the asterisk `*` to look for zero or more characters. These are convenient but sometimes you want to match a certain range of patterns.
 
 يمكنك تحديد العدد الأدنى والأعلى من الأنماط باستخدام <dfn>quantity specifiers</dfn>. يتم استخدام محددات الكمية (Quantity specifiers) مع أقواس متعرجة (`{` و `}`). يمكنك وضع رقمين بين الأقواس المتعرجة - للعدد الأدنى والاعلي من الأنماط.
 

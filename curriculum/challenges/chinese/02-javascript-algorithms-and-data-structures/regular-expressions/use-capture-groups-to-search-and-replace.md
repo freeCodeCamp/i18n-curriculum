@@ -8,7 +8,7 @@ dashedName: use-capture-groups-to-search-and-replace
 
 # --description--
 
-搜索功能是很有用的。 但是，当搜索同时也执行更改（或替换）匹配文本的操作时，搜索功能就会显得更加强大。
+Searching is useful. However, you can make searching even more powerful when it also changes (or replaces) the text you match.
 
 可以在字符串上使用 `.replace()` 方法来搜索并替换字符串中的文本。 `.replace()` 的输入首先是想要搜索的正则表达式匹配模式。 第二个参数是用于替换匹配的字符串或用于执行某些操作的函数。
 

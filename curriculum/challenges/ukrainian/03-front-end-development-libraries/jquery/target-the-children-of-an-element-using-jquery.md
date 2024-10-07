@@ -8,7 +8,7 @@ dashedName: target-the-children-of-an-element-using-jquery
 
 # --description--
 
-Якщо елементи HTML розташовані таким чином, що один рівень знаходиться нижче іншого, їх називають <dfn>дочірніми</dfn> елементами. Наприклад, у цьому завданні кнопки з текстом `#target1`, `#target2` та `#target3` є дочірніми елементами елемента `<div class="well" id="left-well">`.
+When HTML elements are placed one level below another they are called <dfn>children</dfn> of that element. For example, the button elements in this challenge with the text `#target1`, `#target2`, and `#target3` are all children of the `<div class="well" id="left-well">` element.
 
 jQuery має функцію `children()`, яка надає доступ до дочірніх елементів будь-якого обраного елемента.
 

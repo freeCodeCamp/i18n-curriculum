@@ -1,6 +1,6 @@
 ---
 id: 587d78a3367417b2b2512ace
-title: Push Elements Left or Right with the float Property
+title: ادفع العناصر يساراً أو يميناً باستخدام خاصية float
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/c2MDqu2'
 forumTopicId: 301066

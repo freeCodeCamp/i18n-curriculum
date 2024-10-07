@@ -8,7 +8,7 @@ dashedName: use-the-twitch-json-api
 
 # --description--
 
-**目標:** こちらと似た機能を持つアプリを構築してください: <a href="https://codepen.io/freeCodeCamp/full/Myvqmo/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/Myvqmo</a>
+**Objective:** Build an app that is functionally similar to this: <a href="https://codepen.io/freeCodeCamp/full/Myvqmo/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/Myvqmo/</a>.
 
 Twitch API は RESTful API で、開発者はより広範な Twitch コミュニティ向けにクリエイティブな統合を構築できます。
 

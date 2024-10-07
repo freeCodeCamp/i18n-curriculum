@@ -8,7 +8,7 @@ dashedName: iterate-through-all-an-arrays-items-using-for-loops
 
 # --description--
 
-配列処理では、必要な 1 つ以上の要素を検索したい場合や、特定の基準を満たすデータアイテムに基づいて配列を操作したい場合に、各アイテムを繰り返し処理できるととても便利です。 JavaScript には配列の繰り返し処理を行える組み込みメソッドがいくつかありますが (`every()`、`forEach()`、`map()` など)、繰り返しの方法や得られる結果はそれぞれわずかに異なります。しかし、最も柔軟性があり、最大限の制御ができるのは、単純な `for` ループです。
+Sometimes when working with arrays, it is very handy to be able to iterate through each item to find one or more elements that we might need, or to manipulate an array based on which data items meet a certain set of criteria. JavaScript offers several built in methods that each iterate over arrays in slightly different ways to achieve different results (such as `every()`, `forEach()`, `map()`, etc.), however the technique which is most flexible and offers us the greatest amount of control is a simple `for` loop.
 
 以下の例について考えてみましょう。
 

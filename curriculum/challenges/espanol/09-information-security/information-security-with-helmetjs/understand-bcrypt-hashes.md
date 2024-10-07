@@ -1,6 +1,6 @@
 ---
 id: 58a25bcef9fc0f352b528e7c
-title: Understand BCrypt Hashes
+title: Comprender la función hash BCrypt
 challengeType: 2
 forumTopicId: 301586
 dashedName: understand-bcrypt-hashes
@@ -10,21 +10,21 @@ dashedName: understand-bcrypt-hashes
 
 For the following challenges, you will be working with a new starter project that is different from the previous one. You can find the new starter project on <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-bcrypt/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>, or clone it from <a href="https://github.com/freeCodeCamp/boilerplate-bcrypt/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
 
-BCrypt hashes are very secure. A hash is basically a fingerprint of the original data- always unique. This is accomplished by feeding the original data into an algorithm and returning a fixed length result. To further complicate this process and make it more secure, you can also *salt* your hash. Salting your hash involves adding random data to the original data before the hashing process which makes it even harder to crack the hash.
+Las hash de BCrypt son muy seguras. Un hash es básicamente una huella dactilar de los datos originales- siempre única. Esto se consigue al introducir los datos originales en un algoritmo y retornando un resultado de longitud fija. Para complicar aún más este proceso y hacerlo más seguro, puedes *añadir un salt* a tu hash. Añadir un salt al hash implica agregar datos aleatorios a los datos originales antes de realizar el proceso de hash, lo cual hace que sea aún más díficil de descifrar el hash.
 
-BCrypt hashes will always look like `$2a$13$ZyprE5MRw2Q3WpNOGZWGbeG7ADUre1Q8QO.uUUtcbqloU0yvzavOm` which does have a structure. The first small bit of data `$2a` is defining what kind of hash algorithm was used. The next portion `$13` defines the *cost*. Cost is about how much power it takes to compute the hash. It is on a logarithmic scale of 2^cost and determines how many times the data is put through the hashing algorithm. For example, at a cost of 10 you are able to hash 10 passwords a second on an average computer, however at a cost of 15 it takes 3 seconds per hash... and to take it further, at a cost of 31 it would take multiple days to complete a hash. A cost of 12 is considered very secure at this time. The last portion of your hash `$ZyprE5MRw2Q3WpNOGZWGbeG7ADUre1Q8QO.uUUtcbqloU0yvzavOm`, looks like one large string of numbers, periods, and letters but it is actually two separate pieces of information. The first 22 characters is the salt in plain text, and the rest is the hashed password!
+Los hashes BCrypt siempre tendrán un aspecto similar a `$2a$13$ZyprE5MRw2Q3WpNOGZWGbeG7ADUre1Q8QO.uUUtcbqloU0yvzavOm`, el cual posee una estructura. El primer pequeño bit de datos `$2a` define que tipo de algoritmo de hash fue utilizado. La siguiente porción `$13` define el *cost*. El costo "cost" determina la cantidad de potencia necesaria para calcular el hash. Está en una escala logarítmica de 2^cost y determina cuántas veces los datos se someten al algoritmo de hash. Por ejemplo, con un costo de 10, puedes calcular el hash de 10 contraseñas por segundo en una computadora promedio. Sin embargo, con un coste de 15, lleva 3 segundos por hash... y para llevarlo aún más lejos, con un coste de 31, tomaría varios días completar un hash. Un costo de 12 es considerado muy seguro en la actualidad. La última porción del hash `$ZyprE5MRw2Q3WpNOGZWGbeG7ADUre1Q8QO.uUUtcbqloU0yvzavOm`, parece una única cadena de números, periodos y letras pero en realidad son dos piezas separadas de información. Los primeros 22 caracteres son el salt en texto plano, ¡y el resto corresponden a la contraseña cifrada!
 
 # --instructions--
 
-Add all your code for these lessons in the `server.js` file between the code we have started you off with. Do not change or delete the code we have added for you.
+Añade todo tu código para estas lecciones en el archivo `server.js` entre las líneas de código con las que hemos iniciado. No edites ni borres el código que hemos añadido para ti.
 
-BCrypt has already been added as a dependency, so require it as `bcrypt` in your server.
+BCrypt ha sido añadido como dependencia, así que inclúyelo como `bcrypt` en tu servidor.
 
 Envía tu página cuando creas que está correcto.
 
 # --hints--
 
-BCrypt should be a dependency.
+BCrypt debe ser una dependencia.
 
 ```js
 (getUserInput) =>
@@ -43,7 +43,7 @@ BCrypt should be a dependency.
   );
 ```
 
-BCrypt should be properly required.
+BCrypt debe ser incluido apropiadamente.
 
 ```js
 (getUserInput) =>

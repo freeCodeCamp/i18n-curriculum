@@ -9,7 +9,7 @@ dashedName: add-a-negative-margin-to-an-element
 
 # --description--
 
-元素的 `margin（外边距）` 用来控制元素 `border（边框）` 与其周围元素之间的距离大小。
+An element's `margin` controls the amount of space between an element's `border` and surrounding elements.
 
 如果你把元素的 `margin` 设置为负值，元素会变得占用更多空间。
 

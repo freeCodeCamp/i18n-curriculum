@@ -9,7 +9,7 @@ dashedName: multiply-two-decimals-with-javascript
 
 # --description--
 
-在 JavaScript 中，你也可以用小数进行计算，就像整数一样。
+In JavaScript, you can also perform calculations with decimal numbers, just like whole numbers.
 
 把两个小数相乘，并得到它们乘积。
 

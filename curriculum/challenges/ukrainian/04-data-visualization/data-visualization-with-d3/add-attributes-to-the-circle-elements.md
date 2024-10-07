@@ -8,7 +8,7 @@ dashedName: add-attributes-to-the-circle-elements
 
 # --description--
 
-Попереднім завданням було створити елементи `circle` для кожної точки в `dataset` та додати їх до SVG. Але D3 потребує додаткової інформації про положення та розмір кожного елемента `circle`, щоб відобразити їх правильно.
+The last challenge created the `circle` elements for each point in the `dataset`, and appended them to the SVG. But D3 needs more information about the position and size of each `circle` to display them correctly.
 
 Елемент `circle` в SVG має три основні атрибути. Атрибути `cx` та `cy` — це координати. Вони вказують D3, де розташувати *центр* фігури на SVG. Радіус (атрибут `r`) вказує розмір елемента `circle`.
 

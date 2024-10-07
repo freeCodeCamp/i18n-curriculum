@@ -9,9 +9,9 @@ dashedName: generate-random-whole-numbers-with-javascript
 
 # --description--
 
-Ви можете генерувати випадкові десяткові числа за допомогою `Math.random()`, але іноді потрібно генерувати випадкові цілі числа. Ви отримаєте випадкове ціле число менше за `20`, виконавши ці кроки:
+You can generate random decimal numbers with `Math.random()`, but sometimes you need to generate random whole numbers. The following process will give you a random whole number less than `20`:
 
-1. Використайте `Math.random()`, щоб згенерувати випадкове десяткове число.
+1. Use `Math.random()` to generate a random decimal number.
 2. Помножте це випадкове десяткове число на `20`.
 3. Використайте `Math.floor()`, щоб заокруглити це число до найближчого цілого числа.
 

@@ -32,7 +32,7 @@ assert.strictEqual(powerDigitSum(15), 26);
 assert.strictEqual(powerDigitSum(128), 166);
 ```
 
-`powerDigitSum(1000)` should return 1366.
+`powerDigitSum(1000)` sollte 1366 zurückgeben.
 
 ```js
 assert.strictEqual(powerDigitSum(1000), 1366);

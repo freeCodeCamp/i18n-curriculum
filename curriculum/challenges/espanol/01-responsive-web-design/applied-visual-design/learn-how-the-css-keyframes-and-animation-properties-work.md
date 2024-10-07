@@ -9,7 +9,7 @@ dashedName: learn-how-the-css-keyframes-and-animation-properties-work
 
 # --description--
 
-Para animar un elemento, necesitas conocer las propiedades de animación y la regla `@keyframes`. Las propiedades de animación controlan como debe comportarse la animación y la regla `@keyframes` controla lo que sucede durante esa animación. Hay ocho propiedades de animación en total. Este desafío lo mantendrá simple y cubrirá primero los dos más importantes:
+To animate an element, you need to know about the animation properties and the `@keyframes` rule. The animation properties control how the animation should behave and the `@keyframes` rule controls what happens during that animation. There are eight animation properties in total. This challenge will keep it simple and cover the two most important ones first:
 
 `animation-name` establece el nombre de la animación, que luego es utilizada por `@keyframes` para decirle a CSS que reglas van con que animaciones.
 

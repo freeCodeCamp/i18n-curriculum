@@ -1,6 +1,6 @@
 ---
 id: 587d7fae367417b2b2512be6
-title: Render Images from Data Sources
+title: عرض الصور من مصادر البيانات
 challengeType: 6
 forumTopicId: 18265
 dashedName: render-images-from-data-sources
@@ -10,7 +10,7 @@ dashedName: render-images-from-data-sources
 
 The last few challenges showed that each object in the JSON array contains an `imageLink` key with a value that is the URL of a cat's image.
 
-When you're looping through these objects, you can use this `imageLink` property to display this image in an `img` element.
+عند التكرار عبر هذه العناصر، يمكنك استخدام هذه الخاصية `imageLink` لعرض هذه الصورة في عنصر `img`.
 
 Here's the code that does this:
 
@@ -20,17 +20,17 @@ html += "<img src = '" + val.imageLink + "' " + "alt='" + val.altText + "'>";
 
 # --instructions--
 
-Add code to use the `imageLink` and `altText` properties in an `img` tag.
+أضف كود لاستخدام `imageLink` و خصائص `altText` في علامة `img`.
 
 # --hints--
 
-You should use the `imageLink` property to display the images.
+يجب عليك استخدام خاصية `imageLink` لعرض الصور.
 
 ```js
 assert(code.match(/val\.imageLink/g));
 ```
 
-You should use the `altText` for the `alt` attribute values of the images.
+يجب عليك استخدام `altText` لقيم السمة `alt` للصور.
 
 ```js
 assert(code.match(/val\.altText/g));

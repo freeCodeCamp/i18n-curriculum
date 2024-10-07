@@ -8,7 +8,7 @@ dashedName: add-labels-to-scatter-plot-circles
 
 # --description--
 
-你可以为散点图中的点添加文本来创建标签。
+You can add text to create labels for the points in a scatter plot.
 
 目标是显示 `dataset` 中每个对象的第一个（`x`）和第二个（`y`）字段中通过逗号分隔的值。
 

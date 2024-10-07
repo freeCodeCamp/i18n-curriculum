@@ -8,7 +8,7 @@ dashedName: house-our-page-within-a-bootstrap-container-fluid-div
 
 # --description--
 
-Nun müssen wir sicherstellen, dass alle Inhalte auf deiner Seite für Mobilgeräte geeignet sind.
+Now let's make sure all the content on your page is mobile-responsive.
 
 Lass uns dein `h3` Element innerhalb eines `div` Elements mit der Klasse `container-fluid` einbetten.
 

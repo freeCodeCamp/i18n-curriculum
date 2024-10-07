@@ -12,7 +12,7 @@ Ein Beutel enthält eine rote Scheibe und eine blaue Scheibe. In einem Glückssp
 
 Der Spieler zahlt £1, um zu spielen und gewinnt, wenn am Ende des Spiels mehr blaue als rote Scheiben entnommen wurden.
 
-If the game is played for four turns, the probability of a player winning is exactly 11/120, and so the maximum prize fund the banker should allocate for winning in this game would be £10 before they would expect to incur a loss. Zu beachten ist, dass jede Auszahlung eine ganze Zahl von Pfund ist und auch die ursprünglich für das Spiel gezahlten 1 Pfund einschließt, so dass der Spieler in dem angegebenen Beispiel tatsächlich 9 Pfund gewinnt.
+Wenn das Spiel in vier Runden gespielt wird, liegt die Wahrscheinlichkeit, dass ein Spieler gewinnt, bei genau 11/120, und der maximale Preisfonds, den der Bankier für einen Gewinn in diesem Spiel bereitstellen sollte, würde 10 £ betragen, bevor ein Verlust erwartet werden würde. Zu beachten ist, dass jede Auszahlung eine ganze Zahl von Pfund ist und auch die ursprünglich für das Spiel gezahlten 1 Pfund einschließt, so dass der Spieler in dem angegebenen Beispiel tatsächlich 9 Pfund gewinnt.
 
 Finde die maximale Prämie, die in einem einzigen Spiel zugewiesen werden sollte, in dem 15 Runden gespielt werden.
 

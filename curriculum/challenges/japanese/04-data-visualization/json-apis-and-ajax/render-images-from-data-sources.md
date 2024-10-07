@@ -8,7 +8,7 @@ dashedName: render-images-from-data-sources
 
 # --description--
 
-直前のいくつかのチャレンジでは、JSON 配列内の各オブジェクトに、猫の画像の URL である値を持つ `imageLink` キーが含まれていました。
+The last few challenges showed that each object in the JSON array contains an `imageLink` key with a value that is the URL of a cat's image.
 
 これらのオブジェクトをループ処理する場合、この `imageLink` プロパティを使用すれば `img` 要素にこの画像を表示できます。
 

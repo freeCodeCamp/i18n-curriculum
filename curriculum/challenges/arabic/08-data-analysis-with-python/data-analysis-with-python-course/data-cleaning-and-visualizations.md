@@ -1,6 +1,6 @@
 ---
 id: 5e9a093a74c4063ca6f7c160
-title: Data Cleaning and Visualizations
+title: تنظيف البيانات و عرضها تصويريا
 challengeType: 11
 videoId: mHjxzFS5_Z0
 bilibiliIds:
@@ -14,16 +14,16 @@ dashedName: data-cleaning-and-visualizations
 
 *Instead of using notebooks.ai like it shows in the video, you can use Google Colab instead.*
 
-More resources:
+المزيد من المصادر:
 
--  <a href="https://github.com/ine-rmotr-curriculum/data-cleaning-rmotr-freecodecamp" target="_blank" rel="noopener noreferrer nofollow">Notebooks على GitHub</a>
--  <a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb" target="_blank" rel="noopener noreferrer nofollow">كيفية فتح Notebook من GitHub باستخدام Google Colab.</a>
+-  <a href="https://github.com/ine-rmotr-curriculum/data-cleaning-rmotr-freecodecamp" target="_blank" rel="noopener noreferrer nofollow">Notebooks on GitHub</a>
+-  <a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebookس/colab-github-demo.ipynb" target="_blank" rel="noopener noreferrer nofollow">كيفية فتح (Notebook) من (GitHub) باستخدام (Google Colab).</a>
 
 # --questions--
 
 ## --text--
 
-When using Matplotlib's global API, what does the order of numbers mean here?
+عند استخدام Matplotlib's global API ماذا يعني ترتيب الأرقام هنا؟
 
 ```py
 plt.subplot(1, 2, 1)
@@ -31,15 +31,15 @@ plt.subplot(1, 2, 1)
 
 ## --answers--
 
-My figure will have one column, two rows, and I am going to start drawing in the first (left) plot.
+سيكون لدي عمود واحد و صفان وسأبدأ بالرسم في أول قطعة (علي اليسار).
 
 ---
 
-I am going to start drawing in the first (left) plot, my figure will have two rows, and my figure will have one column.
+سيكون لدي عمود واحد و صفان وسأبدأ بالرسم في أول قطعة (علي اليمين).
 
 ---
 
-My figure will have one row, two columns, and I am going to start drawing in the first (left) plot.
+سيكون لدي عمود واحد و صفان و سأبدأ بالرسم في أول قطعة (علي اليسار).
 
 ## --video-solution--
 

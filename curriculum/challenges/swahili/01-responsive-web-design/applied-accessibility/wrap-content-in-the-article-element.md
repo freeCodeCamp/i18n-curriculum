@@ -9,7 +9,7 @@ dashedName: wrap-content-in-the-article-element
 
 # --description--
 
-`article` ni mojawapo ya vipengele vipya vya HTML5 vinavyoongeza maana ya kisemantiki kwenye lebo yako. `article` ni kipengele cha kugawanya na hutumika kufunga maudhui huru na yanayojitosheleza. Lebo inafanya kazi vyema na maingizo ya blogi, machapisho ya jukwaa, au nakala za habari.
+`article` is another one of the new HTML5 elements that add semantic meaning to your markup. `article` is a sectioning element and is used to wrap independent, self-contained content. The tag works well with blog entries, forum posts, or news articles.
 
 Kuamua ikiwa maudhui yanaweza kujisimamia peke yake kwa kawaida huwa ni hukumu, lakini unaweza kutumia majaribio machache rahisi. Jiulize ikiwa umeondoa muktadha wote unaozunguka maudhui hayo,  je,  bado yatakuwa na maana? Vile vile, kwa maandishi, je, maudhui yangejisimamia ikiwa yalikuwa katika mlisho wa RSS?
 

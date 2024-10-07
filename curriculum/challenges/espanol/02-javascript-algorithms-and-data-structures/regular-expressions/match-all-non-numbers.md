@@ -8,7 +8,7 @@ dashedName: match-all-non-numbers
 
 # --description--
 
-El último desafío mostró cómo buscar dígitos usando el atajo `\d` con una `d` minúscula. También puedes buscar caracteres que no sean dígitos usando un atajo similar que utilice una `D` mayúscula en su lugar.
+The last challenge showed how to search for digits using the shortcut `\d` with a lowercase `d`. You can also search for non-digits using a similar shortcut that uses an uppercase `D` instead.
 
 El atajo para buscar caracteres que no sean dígitos es `\D`. Esto es igual a la clase de caracteres `[^0-9]`, el cual busca un único carácter que no sea un número entre cero y nueve.
 
@@ -24,7 +24,7 @@ Tu expresión regular debe usar el carácter de atajo que coincida con caractere
 assert(/\\D/.test(noNumRegex.source));
 ```
 
-Tu expresión regular debe usar la bandera global.
+Tu expresión regular debe usar una bandera global.
 
 ```js
 assert(noNumRegex.global);

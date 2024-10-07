@@ -7,19 +7,19 @@ dashedName: task-61
 
 # --description--
 
-There are some words you can use in your sentence to express how often something happens. They are called `adverbs of frequency`.
+Коли ви хочете вказати, як часто щось відбувається, ви можете використати певні слова. Вони називаються `adverbs of frequency`.
 
-`Usually` is a word that suggests that something happens more often than not but is not constant.
+`Usually` вказує на те, що щось відбувається в більшості випадків, але не постійно.
 
-When `usually` is used with the verb `to be,` it is placed after the verb. `She is usually on time for meetings.`
+`Usually` використовують після дієслова `to be`. `She is usually on time for meetings.`
 
-With other verbs, `usually` comes before the main verb, for example: `He usually works late.`
+Якщо в реченні є інше дієслово, `usually` використовують перед основним дісєловом, наприклад, `he usually works late`.
 
 # --questions--
 
 ## --text--
 
-Choose the sentence that correctly uses the adverb `usually.`
+Виберіть речення, в якому правильно використовують прислівник `usually`.
 
 ## --answers--
 
@@ -27,7 +27,7 @@ Choose the sentence that correctly uses the adverb `usually.`
 
 ### --feedback--
 
-`Usually` should come before the main verb when not using `to be.` The correct sentence is `She is usually very careful with her work.`
+Якщо в реченні немає дієслова `to be`, тоді `usually` використовують перед основним дієсловом. Правильна відповідь — `She is usually very careful with her work`.
 
 ---
 
@@ -39,7 +39,7 @@ Choose the sentence that correctly uses the adverb `usually.`
 
 ### --feedback--
 
-`Usually` should come before the main verb in standard sentences. The correct sentence is `They usually play together on weekends.`
+`Usually` використовують перед основним дієсловом. Правильна відповідь — `They usually play together on weekends`.
 
 ---
 
@@ -47,7 +47,7 @@ Choose the sentence that correctly uses the adverb `usually.`
 
 ### --feedback--
 
-With the verb `to be,` `usually` comes after. The correct sentence is `We are usually happy to help out with new projects.`
+`Usually` використовують після `to be`. Правильна відповідь — `We are usually happy to help out with new projects`.
 
 ## --video-solution--
 

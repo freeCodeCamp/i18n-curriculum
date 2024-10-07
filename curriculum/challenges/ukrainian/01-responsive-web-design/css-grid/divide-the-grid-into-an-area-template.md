@@ -8,7 +8,7 @@ dashedName: divide-the-grid-into-an-area-template
 
 # --description--
 
-Ви можете групувати комірки вашої сітки у <dfn>area</dfn> та надавати цій області ім'я користувача. Це можливо зробити, використавши `grid-template-areas` на такому контейнері:
+You can group cells of your grid together into an <dfn>area</dfn> and give the area a custom name. Do this by using `grid-template-areas` on the container like this:
 
 ```css
 grid-template-areas:

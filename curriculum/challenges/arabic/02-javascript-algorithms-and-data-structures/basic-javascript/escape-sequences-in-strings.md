@@ -9,9 +9,9 @@ dashedName: escape-sequences-in-strings
 
 # --description--
 
-الاقتباسات (quotes) ليست الرموز الوحيدة التي يمكن أن تكتب <dfn>مخرَّجة</dfn> (escaped) داخل مقطع نصي (string). تتيح لك escape sequences استخدام الرموز التي لا تمكن استعمالها في مقطع ما بدونهم.
+Quotes are not the only characters that can be <dfn>escaped</dfn> inside a string. Escape sequences allow you to use characters you may not otherwise be able to use in a string.
 
-<table><thead><tr><th>الكود</th><th>الناتج</th></tr></thead><tbody><tr><td><code>\'</code></td><td>single quote</td></tr><tr><td><code>\"</code></td><td>double quote</td></tr><tr><td><code>\\</code></td><td>backslash</td></tr><tr><td><code>\n</code></td><td>newline</td></tr><tr><td><code>\t</code></td><td>tab</td></tr><tr><td><code>\r</code></td><td>carriage return</td></tr><tr><td><code>\b</code></td><td>backspace</td></tr><tr><td><code>\f</code></td><td>form feed</td></tr></tbody></table>
+<table><thead><tr><th>Code</th><th>الناتج</th></tr></thead><tbody><tr><td><code>\'</code></td><td>single quote</td></tr><tr><td><code>\"</code></td><td>double quote</td></tr><tr><td><code>\\</code></td><td>backslash</td></tr><tr><td><code>\n</code></td><td>newline</td></tr><tr><td><code>\t</code></td><td>tab</td></tr><tr><td><code>\r</code></td><td>carriage return</td></tr><tr><td><code>\b</code></td><td>backspace</td></tr><tr><td><code>\f</code></td><td>form feed</td></tr></tbody></table>
 
 *لاحظ أن يجب أن يكون الخط المائل (backslash) نفسه يخرَّج (escaped) ليتم عرضه كخط مائل backslash.*
 

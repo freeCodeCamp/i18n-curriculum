@@ -8,7 +8,7 @@ dashedName: match-numbers-and-letters-of-the-alphabet
 
 # --description--
 
-使用连字符（`-`）匹配字符范围并不仅限于字母。 它还可以匹配一系列数字。
+Using the hyphen (`-`) to match a range of characters is not limited to letters. It also works to match a range of numbers.
 
 例如，`/[0-5]/` 匹配 `0` 和 `5` 之间的任意数字，包含 `0` 和 `5`。
 
@@ -38,7 +38,7 @@ assert(result.length == 17);
 assert(myRegex.flags.match(/g/).length == 1);
 ```
 
-你的正则表达式 `myRegex` 应该使用忽略大小写的标志。
+你的正则表达式 `myRegex` 应该使用忽略大小写标志。
 
 ```js
 assert(myRegex.flags.match(/i/).length == 1);

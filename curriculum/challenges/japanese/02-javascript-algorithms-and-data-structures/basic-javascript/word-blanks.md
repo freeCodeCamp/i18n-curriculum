@@ -9,7 +9,7 @@ dashedName: word-blanks
 
 # --description--
 
-名詞、動詞、形容詞、副詞など、いくつかの単語が空欄となっている文章が提示されます。 そして、自由に選んだ言葉で空欄を埋めて、意味が通る文章を完成させます。
+You are provided sentences with some missing words, like nouns, verbs, adjectives and adverbs. You then fill in the missing pieces with words of your choice in a way that the completed sentence makes sense.
 
 Consider this sentence:
 

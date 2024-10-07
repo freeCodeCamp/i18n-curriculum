@@ -9,7 +9,7 @@ dashedName: style-the-html-body-element
 
 # --description--
 
-ここからは新しく CSS の継承についての話を始めましょう。
+Now let's start fresh and talk about CSS inheritance.
 
 すべての HTML ページには `body` 要素があります。
 

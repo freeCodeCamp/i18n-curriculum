@@ -1,6 +1,6 @@
 ---
 id: 657b1a27dc6daf6ffd52ff1f
-title: Task 29
+title: Aufgabe 29
 challengeType: 19
 dashedName: task-29
 ---
@@ -10,7 +10,7 @@ Second Candidate: I have a master's degree in computer science. -->
 
 # --description--
 
-In English, the noun suffixed with `'s` followed by a second noun structure is used to show possession or belonging. Wenn das erste Substantiv Singular ist, wie in `Sarah's laptop`, bedeutet das, dass der Laptop Sarah gehört. However, if the first noun is plural, the structure changes to noun suffixed with `'`, as in `teachers' office`, indicating an office for teachers.
+Im Englischen wird das Substantiv mit der Endung `'s`, gefolgt von einer zweiten Substantivstruktur, verwendet, um Besitz oder Zugehörigkeit zu zeigen. Wenn das erste Substantiv Singular ist, wie in `Sarah's laptop`, bedeutet das, dass der Laptop Sarah gehört. Wenn das erste Substantiv jedoch im Plural steht, ändert sich die Struktur in ein Substantiv mit der Endung `'`, wie in `teachers' office`, das ein Büro für Lehrer bezeichnet.
 
 # --questions--
 
@@ -22,7 +22,7 @@ Worauf bezieht sich `master's degree` im Kontext des Dialogs?
 
 Ein Abschluss für Lehrer
 
-### --Feedback--
+### --feedback--
 
 `Master's degree` bezieht sich auf einen fortgeschrittenen akademischen Abschluss, nicht speziell für Lehrer.
 
@@ -30,13 +30,13 @@ Ein Abschluss für Lehrer
 
 Ein Bildungsabschluss der Grundstufe
 
-### --Feedback--
+### --feedback--
 
 `Master's degree` ist ein höherer Bildungsabschluss, der über die Grundstufe hinausgeht.
 
 ---
 
-A degree in mastering skills
+Ein Abschluss in der Aneignung von Fähigkeiten
 
 ### --feedback--
 

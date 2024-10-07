@@ -18,19 +18,19 @@ The next few video lessons will reference [this Colab notebook](https://colab.re
 
 ## --text--
 
-L'elaborazione del linguaggio naturale è un ramo dell'intelligenza artificiale che...:
+Natural Language Processing is a branch of artificial intelligence that...:
 
 ## --answers--
 
-si occupa di come i computer capiscono ed elaborano le lingue naturali/umane.
+deals with how computers understand and process natural/human languages.
 
 ---
 
-traduce i dati delle immagini in lingue naturali/umane.
+translates image data into natural/human languages.
 
 ---
 
-si concentra sulla traduzione delle lingue informatiche in lingue naturali/umane.
+is focused on translating computer languages into natural/human languages.
 
 ## --video-solution--
 

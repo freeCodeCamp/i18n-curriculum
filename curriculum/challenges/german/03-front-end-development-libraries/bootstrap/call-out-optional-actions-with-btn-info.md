@@ -8,11 +8,11 @@ dashedName: call-out-optional-actions-with-btn-info
 
 # --description--
 
-Bootstrap enthält mehrere vordefinierte Farben für Buttons. Die Klasse `btn-info` wird verwendet, um die Aufmerksamkeit auf optionale Aktionen zu lenken, die der User ausführen kann.
+Bootstrap comes with several pre-defined colors for buttons. The `btn-info` class is used to call attention to optional actions that the user can take.
 
 Erstelle einen neuen Block-Level Bootrstrap Button unter deinem `Like` Button mit dem Text `Info` und füge die Bootstrap Klassen `btn-info` und `btn-block` hinzu.
 
-Beachte, dass diese Buttons immer noch die Klassen `btn` und `btn-block` benötigen.
+Beachten Sie, dass diese Schaltflächen immer noch die Klassen `btn` und `btn-block` benötigen.
 
 # --hints--
 
@@ -36,7 +36,7 @@ const infoButton = [...document.querySelectorAll('button')].at(1);
 assert.isTrue(infoButton?.classList?.contains('btn-info'));
 ```
 
-All deine `button` Elemente sollten abschließende Tags haben.
+All deine `button`-Elemente sollten abschließende Tags haben.
 
 ```js
 assert.match(code,/<\/button>/g);

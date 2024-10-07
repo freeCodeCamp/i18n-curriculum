@@ -9,7 +9,7 @@ dashedName: iterate-with-javascript-while-loops
 
 # --description--
 
-يمكنك تشغيل نفس الكود عدة مرات باستخدام حلقة.
+You can run the same code multiple times by using a loop.
 
 النوع الأول من الحلقة التي سنتعلمها تسمى حلقة `while` لأنها تعمل بينما يكون الشرط المحدد صحيحا ويتوقف عندما يصبح الشرط غير صحيح.
 

@@ -8,7 +8,7 @@ dashedName: dynamically-change-the-height-of-each-bar
 
 # --description--
 
-Die Höhe eines jeden Balkens kann auf den Wert des Datenpunkts im Array gesetzt werden, so ähnlich wie der `x`-Wert dynamisch gesetzt wurde.
+The height of each bar can be set to the value of the data point in the array, similar to how the `x` value was set dynamically.
 
 ```js
 selection.attr("property", (d, i) => {

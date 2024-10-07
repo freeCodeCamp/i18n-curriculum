@@ -8,7 +8,7 @@ dashedName: use-a-mixin-to-add-common-behavior-between-unrelated-objects
 
 # --description--
 
-正如你所見，行爲是可以通過繼承來共享的。 然而，在有些情況下，繼承不是最好的解決方案。 繼承不適用於不相關的對象，比如 `Bird` 和 `Airplane`。 雖然它們都可以飛行，但是 `Bird` 並不是一種 `Airplane`，反之亦然。
+As you have seen, behavior is shared through inheritance. However, there are cases when inheritance is not the best solution. Inheritance does not work well for unrelated objects like `Bird` and `Airplane`. They can both fly, but a `Bird` is not a type of `Airplane` and vice versa.
 
 對於不相關的對象，更好的方法是使用 <dfn>mixins</dfn>。 mixin 允許其他對象使用函數集合。
 

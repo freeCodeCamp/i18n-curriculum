@@ -8,11 +8,11 @@ dashedName: restrict-possible-usernames
 
 # --description--
 
-I nomi utente sono utilizzati ovunque su Internet. Sono ciò che danno agli utenti un'identità unica sui loro siti preferiti.
+Usernames are used everywhere on the internet. They are what give users a unique identity on their favorite sites.
 
 È necessario controllare tutti i nomi utente in un database. Ecco alcune semplici regole che gli utenti devono seguire durante la creazione del loro nome utente.
 
-1) Usernames can only use alphanumeric characters.
+1) I nomi utente possono utilizzare solo caratteri alfanumerici.
 
 2) Gli unici numeri nel nome utente devono essere alla fine. Ce ne possono essere zero o più alla fine. Il nome utente non può iniziare con un numero.
 

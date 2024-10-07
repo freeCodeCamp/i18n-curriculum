@@ -14,7 +14,7 @@ Even more remarkable is that if we start from any 4 digit number and repeat this
 
 This also works with numbers that have less than 4 digits if we pad the number with leading zeroes until we have 4 digits.
 
-E.g. let's start with the number 0837:
+P. ej. let's start with the number 0837:
 
 $$\begin{align}   & 8730 - 0378 = 8352 \\\\
   & 8532 - 2358 = 6174 \end{align}$$

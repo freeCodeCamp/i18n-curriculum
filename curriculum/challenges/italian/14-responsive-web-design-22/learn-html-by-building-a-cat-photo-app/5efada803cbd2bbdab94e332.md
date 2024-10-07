@@ -7,7 +7,7 @@ dashedName: step-29
 
 # --description--
 
-All'interno dell'elemento `figure` che hai appena aggiunto, annida un elemento `img` con `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg` come attributo dell'elemento `src`.
+Inside the `figure` element you just added, nest an `img` element with a `src` attribute set to `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
 
 # --hints--
 

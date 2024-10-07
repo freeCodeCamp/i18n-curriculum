@@ -1,6 +1,6 @@
 ---
 id: 5900f5431000cf542c510056
-title: 'Problem 471: Triangle inscribed in ellipse'
+title: 'Problem 471: Dreieck in Ellipse eingeschlossen'
 challengeType: 1
 forumTopicId: 302148
 dashedName: problem-471-triangle-inscribed-in-ellipse
@@ -8,33 +8,33 @@ dashedName: problem-471-triangle-inscribed-in-ellipse
 
 # --description--
 
-The triangle $ΔABC$ is inscribed in an ellipse with equation $\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$, $0 &lt; 2b &lt; a$, $a$ and $b$ integers.
+Das Dreieck $ΔABC$ ist in eine Ellipse eingeschlossen mit der Gleichung $\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$, $0 &lt; 2b &lt; a$, $a$ und $b$ Integer.
 
-Let $r(a, b)$ be the radius of the incircle of $ΔABC$ when the incircle has center $(2b, 0)$ and $A$ has coordinates $\left(\frac{a}{2}, \frac{\sqrt{3}}{2}b\right)$.
+Sei $r(a, b)$ der Radius des Inkreises von $ΔABC$, wenn der innere Kreis den Mittelpunkt $(2b, 0)$ und $A$ die Koordinaten $\left(\frac{a}{2}, \frac{\sqrt{3}}{2}b\right)$ hat.
 
-For example, $r(3, 1) = \frac{1}{2}, r(6, 2) = 1, r(12, 3) = 2$.
+Zum Beispiel: $r(3, 1) = \frac{1}{2}, r(6, 2) = 1, r(12, 3) = 2$.
 
-<img alt="triangle ΔABC inscribed in an ellipse, radius of the incircle of ΔABC r(6, 2) = 1" src="https://cdn.freecodecamp.org/curriculum/project-euler/triangle-inscribed-in-ellipse-1.png" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
+<img alt="Dreieck ΔABC eingeschlossen in eine Ellipse, Radius des Inkreises von ΔABC r(6, 2) = 1" src="https://cdn.freecodecamp.org/curriculum/project-euler/triangle-inscribed-in-ellipse-1.png" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-<img alt="triangle ΔABC inscribed in an ellipse, radius of the incircle of ΔABC r(12, 3) = 2" src="https://cdn.freecodecamp.org/curriculum/project-euler/triangle-inscribed-in-ellipse-2.png" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
+<img alt="Dreieck ΔABC eingeschrieben in eine Ellipse, Radius des Inkreises von ΔABC r(12, 3) = 2" src="https://cdn.freecodecamp.org/curriculum/project-euler/triangle-inscribed-in-ellipse-2.png" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-Let $G(n) = \sum_{a = 3}^n \sum_{b = 1}^{\left\lfloor\frac{a - 1}{2} \right\rfloor} r(a, b)$
+Sei $G(n) = \sum_{a = 3}^n \sum_{b = 1}^{\left\lfloor\frac{a - 1}{2} \right\rfloor} r(a, b)$
 
-You are given $G(10) = 20.59722222$, $G(100) = 19223.60980$ (rounded to 10 significant digits).
+Du erhältst $G(10) = 20.59722222$, $G(100) = 19223.60980$ (gerundet auf 10 signifikante Stellen).
 
-Find $G({10}^{11})$. Give your answer as a string in scientific notation rounded to 10 significant digits. Use a lowercase `e` to separate mantissa and exponent.
+Finde $G({10}^{11})$. Gib deine Antwort als String in wissenschaftlicher Notation, gerundet auf 10 signifikante Stellen, an. Verwende ein kleines `e`, um Mantisse und Exponent zu trennen.
 
-For $G(10)$ the answer would have been `2.059722222e1`
+Für $G(10)$ hätte die Antwort `2.059722222e1` gelautet
 
 # --hints--
 
-`triangleInscribedInEllipse()` should return a string.
+`triangleInscribedInEllipse()` sollte einen String zurückgeben.
 
 ```js
 assert(typeof triangleInscribedInEllipse() === 'string');
 ```
 
-`triangleInscribedInEllipse()` should return the string `1.895093981e31`.
+`triangleInscribedInEllipse()` sollte den String `1.895093981e31` zurückgeben.
 
 ```js
 assert.strictEqual(triangleInscribedInEllipse(), '1.895093981e31');

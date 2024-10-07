@@ -12,7 +12,7 @@ dashedName: guided-project-develop-foreach-and-if-elseif-else-structures-to-proc
 1. Перейдіть до <a href="https://learn.microsoft.com/training/modules/guided-project-arrays-iteration-selection/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/guided-project-arrays-iteration-selection/</a> та виконайте всі завдання модуля «Керований проєкт: розробіть структури foreach та if-elseif-else, щоб обробити дані масиву в C#». Це **обов’язково**, щоб отримати трофей зі «Створення та запуск простих консольних застосунків C#» на Microsoft Learn та мати змогу скласти сертифікаційний екзамен.
 1. Як тільки завершите, поверніться та дайте правильну відповідь на запитання нижче.
 
-# --assignment--
+# --Завдання--
 
 Виконайте керований проєкт <a href="https://learn.microsoft.com/training/modules/guided-project-arrays-iteration-selection/" target="_blank" rel="noreferrer">«Розробіть структури foreach та if-elseif-else, щоб обробити дані масиву в C#»</a> на Microsoft Learn. Потім дайте відповідь на запитання нижче.
 
@@ -20,19 +20,19 @@ dashedName: guided-project-develop-foreach-and-if-elseif-else-structures-to-proc
 
 ## --text--
 
-Розробник пише застосунок, який використовує цикл `foreach`, щоб перебрати масив з 20 елементами. Як тільки застосунок готовий, розробник дізнається, що масив повинен містити 40 елементів. Застосунок має розглядати 40 елементів масиву. Яке оновлення коду потрібно виконати?
+A developer writes an application that uses a `foreach` loop to iterate through an array containing 20 elements. After the application is complete, the developer learns that the array must be updated to include 40 elements. The application needs to examine all 40 array elements. Which of the following items describes the required code update?
 
 ## --answers--
 
-Створити другий цикл `foreach`, який перебирає додаткові елементи.
+Create a second `foreach` loop that iterates through the additional items.
 
 ---
 
-До циклу `foreach` не потрібно вносити змін.
+No changes are required to the `foreach` loop.
 
 ---
 
-Розмістити початковий цикл `foreach` всередині другого циклу `foreach`, який перебиратиметься двічі.
+Place the original `foreach` loop inside the code block of a second `foreach` loop that iterates twice.
 
 ## --video-solution--
 

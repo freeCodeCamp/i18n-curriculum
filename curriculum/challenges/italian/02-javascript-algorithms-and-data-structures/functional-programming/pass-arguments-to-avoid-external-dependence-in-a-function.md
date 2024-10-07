@@ -8,7 +8,7 @@ dashedName: pass-arguments-to-avoid-external-dependence-in-a-function
 
 # --description--
 
-L'ultima sfida è stata un passo più vicino ai principi della programmazione funzionale, ma manca ancora qualcosa.
+The last challenge was a step closer to functional programming principles, but there is still something missing.
 
 Non abbiamo modificato il valore globale della variabile, ma la funzione `incrementer` non avrebbe funzionato senza che la variabile globale `fixedValue` fosse lì.
 

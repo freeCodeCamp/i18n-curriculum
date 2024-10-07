@@ -9,7 +9,7 @@ dashedName: wrap-content-in-the-article-element
 
 # --description--
 
-`article` هو عنصر آخر من عناصر HTML5 الجديدة التي تضيف المعنى الدلالي الي الـ markup. `article` هو عنصر تقسيم ويستخدم لتغليف المحتوي القائم بذاته. يعمل العلامة بشكل جيد مع إدخالات المدونة أو مشاركات المنتدى أو المقالات الإخبارية.
+`article` is another one of the new HTML5 elements that add semantic meaning to your markup. `article` is a sectioning element and is used to wrap independent, self-contained content. The tag works well with blog entries, forum posts, or news articles.
 
 تحديد فيما إذا كان المحتوى يستطيع أن يكون مستقلا هو عادة حكم شخصي، ولكن هناك عدة اختبارات بسيطة يمكنك استخدامها. اسأل نفسك إذا كنت قد قمت بإزالة كل السياق المحيط، هل سيظل المحتوى منطقياً؟ وبالمثل بالنسبة للنص، هل سيظل المحتوى صحيحا إذا كان في RSS feed ؟
 

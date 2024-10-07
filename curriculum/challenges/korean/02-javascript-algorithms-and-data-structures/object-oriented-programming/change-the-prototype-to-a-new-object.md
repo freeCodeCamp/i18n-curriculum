@@ -1,6 +1,6 @@
 ---
 id: 587d7daf367417b2b2512b7f
-title: Change the Prototype to a New Object
+title: 프로토타입을 새 객체로 바꾸기
 challengeType: 1
 forumTopicId: 301316
 dashedName: change-the-prototype-to-a-new-object
@@ -14,7 +14,7 @@ Up until now you have been adding properties to the `prototype` individually:
 Bird.prototype.numLegs = 2;
 ```
 
-This becomes tedious after more than a few properties.
+속성들을 몇개 추가하고 나면 이 작업은 단조롭고 지루해집니다.
 
 ```js
 Bird.prototype.eat = function() {
@@ -26,7 +26,7 @@ Bird.prototype.describe = function() {
 }
 ```
 
-A more efficient way is to set the `prototype` to a new object that already contains the properties. This way, the properties are added all at once:
+더 효과적은 방법은 `prototype`를 해당 속성들을 갖고 있는 새 객체로 설정하는 것입니다. 이 방식이면 속성들을 한 번에 추가할 수 있습니다:
 
 ```js
 Bird.prototype = {
@@ -42,29 +42,29 @@ Bird.prototype = {
 
 # --instructions--
 
-Add the property `numLegs` and the two methods `eat()` and `describe()` to the `prototype` of `Dog` by setting the `prototype` to a new object.
+`prototype`을 새 객체로 설정하는 방식에 따라 속성 `numLegs`과 두 메소드 `eat()`와 `describe()`를 `Dog`의 `prototype`에 추가하시오.
 
 # --hints--
 
-`Dog.prototype` should be set to a new object.
+`Dog.prototype`는 새 객체로 설정되어야 합니다.
 
 ```js
 assert(/Dog\.prototype\s*?=\s*?{/.test(__helpers.removeJSComments(code)));
 ```
 
-`Dog.prototype` should have the property `numLegs`.
+`Dog.prototype`는 속성 `numLegs`을 가져야 합니다.
 
 ```js
 assert(Dog.prototype.numLegs !== undefined);
 ```
 
-`Dog.prototype` should have the method `eat()`.
+`Dog.prototype`는 메소드 `eat()`를 가져야 합니다.
 
 ```js
 assert(typeof Dog.prototype.eat === 'function');
 ```
 
-`Dog.prototype` should have the method `describe()`.
+`Dog.prototype`는 메소드 `describe()`를 가져야 합니다.
 
 ```js
 assert(typeof Dog.prototype.describe === 'function');

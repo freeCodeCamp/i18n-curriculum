@@ -9,7 +9,7 @@ dashedName: change-animation-timing-with-keywords
 
 # --description--
 
-在 CSS 動畫裏，`animation-timing-function` 用來定義動畫的速度曲線。 速度曲線決定了動畫從一套 CSS 樣式變爲另一套所用的時間。 如果要描述的動畫是一輛車在指定時間內（`animation-duration`）從 A 運動到 B，那麼 `animation-timing-function` 表述的就是車在運動中的加速和減速等過程。
+In CSS animations, the `animation-timing-function` property controls how quickly an animated element changes over the duration of the animation. If the animation is a car moving from point A to point B in a given time (your `animation-duration`), the `animation-timing-function` says how the car accelerates and decelerates over the course of the drive.
 
 有一些預定義的關鍵字可用於常見的選項。 比如，默認值是 `ease`，動畫以低速開始，然後加快，在結束前變慢。 其它常用的值包括 `ease-out`：動畫以高速開始，以低速結束；`ease-in`，動畫以低速開始，以高速結束；`linear`：動畫從頭到尾的速度是相同的。
 

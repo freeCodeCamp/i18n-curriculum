@@ -9,7 +9,7 @@ dashedName: add-rounded-corners-with-border-radius
 
 # --description--
 
-今、猫の写真の角はとがっています。 `border-radius` という CSS プロパティで、この角を丸くすることができます。
+Your cat photo currently has sharp corners. We can round out those corners with a CSS property called `border-radius`.
 
 # --instructions--
 

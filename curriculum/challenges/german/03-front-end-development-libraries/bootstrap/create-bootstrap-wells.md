@@ -8,7 +8,7 @@ dashedName: create-bootstrap-wells
 
 # --description--
 
-Bootstrap hat eine Klasse namens `well`, die deinen Spalten visuelle Tiefe verleihen kann.
+Bootstrap has a class called `well` that can create a visual sense of depth for your columns.
 
 Verschachtle ein `div`-Element mit der Klasse `well` in jedem deiner `col-xs-6` `div`-Elemente.
 

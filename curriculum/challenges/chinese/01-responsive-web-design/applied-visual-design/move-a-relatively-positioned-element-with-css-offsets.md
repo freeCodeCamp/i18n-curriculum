@@ -9,7 +9,7 @@ dashedName: move-a-relatively-positioned-element-with-css-offsets
 
 # --description--
 
-CSS 里面的 `top`、`bottom`、`left` 和 `right` 定义了元素在相应方位的偏移距离。 元素将从当前位置向属性相反的方向偏移。 就像你在上一个挑战看到的，`top` 属性使 `h2` 向下移动。 同样，使用 `left` 将项目移动到右边。
+The CSS offsets of `top` or `bottom`, and `left` or `right` tell the browser how far to offset an item relative to where it would sit in the normal flow of the document. You're offsetting an element away from a given spot, which moves the element away from the referenced side (effectively, the opposite direction). As you saw in the last challenge, using the `top` offset moved the `h2` downwards. Likewise, using a `left` offset moves an item to the right.
 
 # --instructions--
 

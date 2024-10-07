@@ -22,7 +22,7 @@ jennyStr.match(myRegex);
 
 # --instructions--
 
-Create a single regex that matches a range of letters between `h` and `s`, and a range of numbers between `2` and `6`. Remember to include the appropriate flags in the regex.
+Create a single regex that matches a range of letters between `h` and `s`, and a range of numbers between `2` and `6`. 정규 표현식에 적절한 플래그를 포함시키는 것을 기억하십시오.
 
 # --hints--
 
@@ -32,13 +32,13 @@ Your regex `myRegex` should match 17 items.
 assert(result.length == 17);
 ```
 
-Your regex `myRegex` should use the global flag.
+정규 표현식 `myRegex`는 전역 플래그를 사용해야 합니다.
 
 ```js
 assert(myRegex.flags.match(/g/).length == 1);
 ```
 
-Your regex `myRegex` should use the case insensitive flag.
+정규 표현식 `myRegex`는 대소문자 구분 없는 플래그를 사용해야 합니다.
 
 ```js
 assert(myRegex.flags.match(/i/).length == 1);

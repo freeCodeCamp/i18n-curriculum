@@ -8,7 +8,7 @@ dashedName: match-single-characters-not-specified
 
 # --description--
 
-حتى الآن، لقد أنشأت مجموعة من الرموز التي تريد أن تطابقها، ولكن يمكنك أيضا إنشاء مجموعة من الرموز التي لا ترد أن تطابقها. هذه الأنواع من مجموعات الرموز تسمى <dfn>negated character sets</dfn>.
+So far, you have created a set of characters that you want to match, but you could also create a set of characters that you do not want to match. These types of character sets are called <dfn>negated character sets</dfn>.
 
 لإنشاء negated character set، يمكنك وضع رمز (`^`) بعد قوس الفتح وقبل الرموز التي لا ترد مطابقتها.
 
@@ -26,13 +26,13 @@ dashedName: match-single-characters-not-specified
 assert(result.length == 9);
 ```
 
-يجب أن يستخدم الـ regex الخاص بك `myRegex` خاصية global flag.
+يجب أن يستخدم الـ regex الخاص بك `myRegex` الـ global flag.
 
 ```js
 assert(myRegex.flags.match(/g/).length == 1);
 ```
 
-يجب أن يستخدم الـ regex الخاص بك `myRegex` خاصية case insensitive flag.
+يجب أن يستخدم الـ regex الخاص بك `myRegex` الـ case insensitive flag.
 
 ```js
 assert(myRegex.flags.match(/i/).length == 1);

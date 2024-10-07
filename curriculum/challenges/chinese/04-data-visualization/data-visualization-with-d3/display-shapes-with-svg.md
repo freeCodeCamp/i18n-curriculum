@@ -8,7 +8,7 @@ dashedName: display-shapes-with-svg
 
 # --description--
 
-上个挑战用给定的宽和高创建了一个 `svg` 元素，因为在它的 `style` 标签中有 `background-color`，所以它是可见的。 这一段代码为给定的宽和高腾出空间。
+The last challenge created an `svg` element with a given width and height, which was visible because it had a `background-color` applied to it in the `style` tag. The code made space for the given width and height.
 
 下一步是在 `svg` 区域中创建图形。 SVG 支持多种图形，比如矩形和圆形， 并用它们来显示数据。 例如，在条形图中一个矩形（`<rect>`）SVG 图形可以创建一个组。
 

@@ -9,7 +9,7 @@ dashedName: comparisons-with-the-logical-or-operator
 
 # --description--
 
-L'operatore <dfn>Or logico</dfn> (`||`) restituisce `true` se uno degli <dfn>operandi</dfn> è `true`. In caso contrario, restituisce `false`.
+The <dfn>logical or</dfn> operator (`||`) returns `true` if either of the <dfn>operands</dfn> is `true`. Otherwise, it returns `false`.
 
 L'operatore <dfn>or logico</dfn> è composto da due simboli "pipe": (`||`). Questo in genere può essere trovato tra i tuoi tasti Backspace e Enter.
 

@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443eddfaeb5bdef
-title: Build a Voting App
+title: 編寫一個投票程序
 challengeType: 4
 forumTopicId: 302359
 dashedName: build-a-voting-app
@@ -10,25 +10,25 @@ dashedName: build-a-voting-app
 
 Build a full stack JavaScript app that is functionally similar to this: <a href="https://voting-app.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://voting-app.freecodecamp.rocks/</a>. Use a site builder of your choice to complete the project.
 
-Here are the specific user stories you should implement for this project:
+以下是你應該爲此項目實現的用戶故事：
 
-**User Story:** As an authenticated user, you can keep my polls and come back later to access them.
+**用戶故事：** 作爲經過身份驗證的用戶，你可以保留我的調查，稍後再回來訪問它們。
 
-**User Story:** As an authenticated user, you can share my polls with my friends.
+**用戶故事：** 作爲經過身份驗證的用戶，我可以與朋友分享我的調查。
 
-**User Story:** As an authenticated user, you can see the aggregate results of my polls.
+**用戶故事：** 作爲經過身份驗證的用戶，我可以看到我的調查的彙總結果。
 
-**User Story:** As an authenticated user, you can delete polls that I decide I don't want anymore.
+**用戶故事：** 作爲經過身份驗證的用戶，我可以刪除我認爲不再需要的調查。
 
-**User Story:** As an authenticated user, you can create a poll with any number of possible items.
+**用戶故事：** 作爲經過身份驗證的用戶，我可以創建包含任意數量項目的投票。
 
-**User Story:** As an unauthenticated or authenticated user, you can see and vote on everyone's polls.
+**用戶故事：** 作爲未經身份驗證或經過身份驗證的用戶，我可以查看並對每個人的民意調查進行投票。
 
-**User Story:** As an unauthenticated or authenticated user, you can see the results of polls in chart form. (This could be implemented using Chart.js or Google Charts.)
+**用戶故事：** 作爲未經身份驗證或經過身份驗證的用戶，我可以以圖表形式查看調查的結果。 （可以使用 Chart.js 或 Google Charts 來實現。）
 
-**User Story:** As an authenticated user, if you don't like the options on a poll, you can create a new option.
+**用戶故事：** 作爲認證用戶，如果你不喜歡調查上的選項，你可以創建一個新選項。
 
-When you are done, make sure a working demo of your project is hosted somewhere public. Then submit the URL to it in the Solution Link field. Optionally, also submit a link to your project's source code in the GitHub Link field.
+完成本項目後，請將一個正常運行的 demo（項目演示）託管在可以公開訪問的平臺。 然後將 URL 提交到 Solution Link 字段中。 也可以將項目的源碼鏈接提交到 GitHub Link 字段中。
 
 # --solutions--
 

@@ -8,7 +8,7 @@ dashedName: delete-a-node-with-one-child-in-a-binary-search-tree
 
 # --description--
 
-Agora que podemos excluir nós de folhas vamos passar para o segundo caso: excluir um nó com um filho. Para este caso, vamos supor uma árvore com os seguintes nós: 1 — 2 — 3, onde 1 é a raiz. Para excluir 2, temos simplesmente de fazer a referência da direita em 1 apontar para 3. De modo mais geral, para excluir um nó com apenas um filho, fazemos com que o pai desse nó referencie o próximo nó da árvore.
+Now that we can delete leaf nodes let's move on to the second case: deleting a node with one child. For this case, say we have a tree with the following nodes 1 — 2 — 3 where 1 is the root. To delete 2, we simply need to make the right reference in 1 point to 3. More generally to delete a node with only one child, we make that node's parent reference the next node in the tree.
 
 # --instructions--
 

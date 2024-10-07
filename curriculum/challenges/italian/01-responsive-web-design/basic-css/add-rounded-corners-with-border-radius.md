@@ -9,7 +9,7 @@ dashedName: add-rounded-corners-with-border-radius
 
 # --description--
 
-La tua foto del gatto attualmente ha gli angoli squadrati. Possiamo arrotondare gli angoli con una proprietà di CSS chiamata `border-radius`.
+Your cat photo currently has sharp corners. We can round out those corners with a CSS property called `border-radius`.
 
 # --instructions--
 

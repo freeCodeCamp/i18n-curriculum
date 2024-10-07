@@ -8,7 +8,7 @@ dashedName: ignore-case-while-matching
 
 # --description--
 
-Дотепер ви вивчали регулярні вирази, які знаходять точні збіги рядків. Можливо, колись вам знадобиться знайти збіги без урахування регістру.
+Up until now, you've looked at regexes to do literal matches of strings. But sometimes, you might want to also match case differences.
 
 Регістр (інколи регістр літер) — це різниця між великими та малими літерами. Прикладами верхнього регістру є `A`, `B` та `C`. Прикладами нижнього регістру є `a`, `b` та `c`.
 

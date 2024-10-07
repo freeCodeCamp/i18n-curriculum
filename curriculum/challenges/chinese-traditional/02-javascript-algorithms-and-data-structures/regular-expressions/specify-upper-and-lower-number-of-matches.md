@@ -8,7 +8,7 @@ dashedName: specify-upper-and-lower-number-of-matches
 
 # --description--
 
-回想一下，使用加號 `+` 查找一個或多個字符，使用星號 `*` 查找零個或多個字符。 這些都很方便，但有時需要匹配一定範圍的匹配模式。
+Recall that you use the plus sign `+` to look for one or more characters and the asterisk `*` to look for zero or more characters. These are convenient but sometimes you want to match a certain range of patterns.
 
 可以使用數量說明符（<dfn>quantity specifiers</dfn>）指定匹配模式的上下限。 數量說明符與花括號（`{` 和 `}`）一起使用。 可以在花括號之間放兩個數字，這兩個數字代表匹配模式的上限和下限。
 

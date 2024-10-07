@@ -9,13 +9,13 @@ dashedName: use-css-grid-units-to-change-the-size-of-columns-and-rows
 
 # --description--
 
-В CSS Grid можна використовувати абсолютні і відносні одиниці, такі як `px` і `em`, щоб задати розмір рядків і стовпців. Також можна використати ці:
+You can use absolute and relative units like `px` and `em` in CSS Grid to define the size of rows and columns. You can use these as well:
 
 `fr` - встановлює стовпець або рядок на частину доступного простору,
 
 `auto` - встановлює стовпець або рядок автоматично на ширину чи висоту його вмісту,
 
-`%`- коригує колонку чи рядок на певний відсоток ширини контейнера.
+`%`: adjusts the column or row to the percent width of its container.
 
 Ось код, що генерує результат у попередньому перегляді:
 

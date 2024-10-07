@@ -8,7 +8,7 @@ dashedName: explore-differences-between-the-var-and-let-keywords
 
 # --description--
 
-`var` キーワードによる変数宣言の最も大きな問題の一つは、簡単に変数宣言を上書きできてしまうことです。
+One of the biggest problems with declaring variables with the `var` keyword is that you can easily overwrite variable declarations:
 
 ```js
 var camper = "James";

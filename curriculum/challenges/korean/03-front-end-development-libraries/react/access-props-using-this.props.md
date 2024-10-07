@@ -8,7 +8,7 @@ dashedName: access-props-using-this-props
 
 # --description--
 
-앞의 몇 가지 도전에서 자식 컴포넌트로 프로퍼티(props)를 전달하는 기본적인 방법을 알아봤습니다. 하지만 프로퍼티를 전달받는 자식 컴포넌트가 상태가 없는 함수형 컴포넌트 대신에 ES6 클래스 컴포넌트라면 어떨까요? ES6 클래스 컴포넌트는 props에 접근하기 위해 조금 다른 규칙을 사용합니다.
+The last several challenges covered the basic ways to pass props to child components. But what if the child component that you're passing a prop to is an ES6 class component, rather than a stateless functional component? The ES6 class component uses a slightly different convention to access props.
 
 클래스 컴포넌트 안에서 뭔가를 참조할 때는 `this` 키워드를 사용합니다. 즉, props에 접근하기 위해서도 `this`를 붙여줍니다. 예를 들면, ES6 클래스 컴포넌트에 `data` 프로퍼티가 있다면 JSX에서 `{this.props.data}`로 작성합니다.
 

@@ -7,7 +7,7 @@ dashedName: step-47
 
 # --description--
 
-Щоб трохи відокремити елементи `fieldset`, виберіть їх та надайте `border-bottom` зі значенням `3px solid #3b3b4f`.
+To give the `fieldset` elements a bit of separation, select them and give them a `border-bottom` of `3px solid #3b3b4f`.
 
 # --hints--
 

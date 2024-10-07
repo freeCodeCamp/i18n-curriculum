@@ -8,7 +8,7 @@ dashedName: delete-a-node-with-one-child-in-a-binary-search-tree
 
 # --description--
 
-Ми вже навчились видаляти листові вузли з дерева, а зараз розглянемо другий випадок: видалення вузла з одним дочірнім елементом. Припустимо, що дано дерево з вузлами 1 — 2 — 3, де 1 є кореневим вузлом. Щоб видалити 2, нам потрібно правильно з’єднати 1 та 3. Тобто для того, щоб видалити вузол, який має лише один дочірній елемент, ми робимо так, аби батьківський вузол посилався на наступний вузол у дереві.
+Now that we can delete leaf nodes let's move on to the second case: deleting a node with one child. For this case, say we have a tree with the following nodes 1 — 2 — 3 where 1 is the root. To delete 2, we simply need to make the right reference in 1 point to 3. More generally to delete a node with only one child, we make that node's parent reference the next node in the tree.
 
 # --instructions--
 
@@ -114,7 +114,7 @@ assert(
 );
 ```
 
-Метод `remove` має видалити вузли з однією дитиною.
+Метод `remove` повинен видалити вузли з одним дочірнім елементом.
 
 ```js
 assert(

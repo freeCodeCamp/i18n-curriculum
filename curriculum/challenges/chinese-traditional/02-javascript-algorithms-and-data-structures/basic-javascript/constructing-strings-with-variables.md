@@ -9,7 +9,7 @@ dashedName: constructing-strings-with-variables
 
 # --description--
 
-有時候你需要構建一個字符串。 通過使用連接運算符（`+`），你可以插入一個或多個變量來組成一個字符串。
+Sometimes you will need to build a string. By using the concatenation operator (`+`), you can insert one or more variables into a string you're building.
 
 例如：
 

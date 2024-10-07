@@ -8,7 +8,7 @@ dashedName: getting-started-with-react-redux
 
 # --description--
 
-這一系列挑戰介紹的是 Redux 和 React 的配合， 我們先來回顧一下這兩種技術的關鍵原則是什麼。 React 是提供數據的視圖庫，能以高效、可預測的方式渲染視圖。 Redux 是狀態管理框架，可用於簡化 APP 應用狀態的管理。 在 React Redux app 應用中，通常可創建單一的 Redux store 來管理整個應用的狀態。 React 組件僅訂閱 store 中與其角色相關的數據， 可直接從 React 組件中分發 actions 以觸發 store 對象的更新。
+This series of challenges introduces how to use Redux with React. First, here's a review of some of the key principles of each technology. React is a view library that you provide with data, then it renders the view in an efficient, predictable way. Redux is a state management framework that you can use to simplify the management of your application's state. Typically, in a React Redux app, you create a single Redux store that manages the state of your entire app. Your React components subscribe to only the pieces of data in the store that are relevant to their role. Then, you dispatch actions directly from React components, which then trigger store updates.
 
 React 組件可以在本地管理自己的狀態，但是對於複雜的應用來說，它的狀態最好是用 Redux 保存在單一位置，有特定本地狀態的獨立組件例外。 當單個組件可能僅具有特定於其的本地狀態時，算是例外。 最後一點是，Redux 沒有內置的 React 支持，需要安裝 `react-redux`包， 通過這個方式把 Redux 的 `state` 和 `dispatch` 作爲 `props` 傳給組件。
 

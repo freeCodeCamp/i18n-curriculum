@@ -11,7 +11,7 @@ dashedName: task-26
 
 Listen to the audio and answer the question below.
 
-# --questions--
+# --preguntas----preguntas--
 
 ## --text--
 
@@ -21,7 +21,7 @@ Why is Tom thanking Sophie?
 
 For giving him a time management app.
 
-### --retroalimentación--
+### --feedback--
 
 Tom is thanking Sophie for tips, not for giving her an app.
 
@@ -33,7 +33,7 @@ Because he finds Sophie's tips helpful.
 
 For inviting him to lunch.
 
-### --retroalimentación--
+### --feedback--
 
 The thank you is for the advice, not for a lunch invitation.
 
@@ -41,7 +41,7 @@ The thank you is for the advice, not for a lunch invitation.
 
 For helping him with a project.
 
-### --retroalimentación--
+### --feedback--
 
 Tom's gratitude is related to the tips about organization, not specific project help.
 

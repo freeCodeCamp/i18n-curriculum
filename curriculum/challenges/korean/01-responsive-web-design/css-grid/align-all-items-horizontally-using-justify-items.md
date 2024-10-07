@@ -9,7 +9,7 @@ dashedName: align-all-items-horizontally-using-justify-items
 
 # --description--
 
-CSS 그리드에 동일하게 정렬하고 싶을 때가 있습니다. 이전에 배운 속성들을 사용하여 개별적으로 정렬하거나 그리드 컨테이너에 `justify-items`을 사용하여 한 번에 수평 정렬을 시킬 수 있습니다. 이 속성은 이전 두 과제에서 배운 모두 같은 값을 받을 수 있습니다. grid에 있는 **모든** 아이템을 원하는 정렬로 옮겨주는 게 차이가 있습니다.
+Sometimes you want all the items in your CSS Grid to share the same alignment. You can use the previously learned properties and align them individually, or you can align them all at once horizontally by using `justify-items` on your grid container. This property can accept all the same values you learned about in the previous two challenges, the difference being that it will move **all** the items in our grid to the desired alignment.
 
 # --instructions--
 

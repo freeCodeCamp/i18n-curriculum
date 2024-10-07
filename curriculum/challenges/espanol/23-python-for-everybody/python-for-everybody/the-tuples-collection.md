@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: the-tuples-collection
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-What will the following code print?:
+¿Qué imprimirá el siguiente código?:
 
 ```python
 d = dict()

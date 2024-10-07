@@ -9,11 +9,11 @@ dashedName: create-an-ordered-list
 
 # --description--
 
-HTML にはもう一つ、<dfn>順序付きリスト (ordered lists)</dfn> または番号付きリストを作成するための特別な要素があります。
+HTML has another special element for creating <dfn>ordered lists</dfn>, or numbered lists.
 
 順序付きリストは `<ol>` 要素で始まり、その後に任意の数の `<li>` 要素が続きます。 最後に、順序付きリストを `</ol>` タグで閉じます。
 
-例:
+以下に例を示します。
 
 ```html
 <ol>

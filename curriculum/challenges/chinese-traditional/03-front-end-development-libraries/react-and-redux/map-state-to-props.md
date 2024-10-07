@@ -8,7 +8,7 @@ dashedName: map-state-to-props
 
 # --description--
 
-`Provider`可向 React 組件提供 `state` 和 `dispatch` ，但必須確切地指定所需要的 state 和 actions， 以確保每個組件只能訪問所需的 state。 完成這個任務，需要創建兩個函數：`mapStateToProps()`、`mapDispatchToProps()`。
+The `Provider` component allows you to provide `state` and `dispatch` to your React components, but you must specify exactly what state and actions you want. This way, you make sure that each component only has access to the state it needs. You accomplish this by creating two functions: `mapStateToProps()` and `mapDispatchToProps()`.
 
 在這兩個函數中，聲明 state 中函數所要訪問的部分及需要 dispatch 的創建 action 的函數。 完成這些，我們就可以迎接下一個挑戰，學習如何使用 React Redux 的 `connect` 方法來把函數連接到組件了。
 

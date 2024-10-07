@@ -8,7 +8,7 @@ dashedName: style-d3-labels
 
 # --description--
 
-I metodi D3 possono aggiungere stili alle etichette delle barre. L'attributo `fill` (riempimento) imposta il colore del testo per un nodo `text`. Il metodo `style()` imposta regole CSS per altri stili, come `font-family` o `font-size`.
+D3 methods can add styles to the bar labels. The `fill` attribute sets the color of the text for a `text` node. The `style()` method sets CSS rules for other styles, such as `font-family` or `font-size`.
 
 # --instructions--
 

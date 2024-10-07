@@ -8,7 +8,7 @@ dashedName: add-inline-styles-in-react
 
 # --description--
 
-In der letzten Aufgabe hast du vielleicht bemerkt, dass es neben dem `style`-Attribut, das auf ein JavaScript-Objekt gesetzt wird, noch einige andere Syntaxunterschiede zu HTML-Inline-Stilen gibt. Erstens verwenden die Namen bestimmter CSS-Stileigenschaften die Groß- und Kleinschreibung. In der letzten Aufgabe hast du zum Beispiel die Größe der Schrift mit `fontSize` statt `font-size` festgelegt. Wörter mit Bindestrich wie `font-size` sind eine ungültige Syntax für JavaScript-Objekteigenschaften, deshalb verwendet React die Groß- und Kleinschreibung. In der Regel werden alle Stileigenschaften mit Bindestrich in JSX in Camel Case geschrieben.
+You may have noticed in the last challenge that there were several other syntax differences from HTML inline styles in addition to the `style` attribute set to a JavaScript object. First, the names of certain CSS style properties use camel case. For example, the last challenge set the size of the font with `fontSize` instead of `font-size`. Hyphenated words like `font-size` are invalid syntax for JavaScript object properties, so React uses camel case. As a rule, any hyphenated style properties are written using camel case in JSX.
 
 Alle Längeneinheiten der Eigenschaftswerte (wie `height`, `width` und `fontSize`) werden, wenn nicht anders angegeben, in `px` angenommen. Wenn du z. B. `em` verwenden willst, verpackst du den Wert und die Einheiten in Anführungszeichen, wie `{fontSize: "4em"}`. Abgesehen von den Längenwerten, die standardmäßig `px` lauten, sollten alle anderen Eigenschaftswerte in Anführungszeichen eingeschlossen werden.
 

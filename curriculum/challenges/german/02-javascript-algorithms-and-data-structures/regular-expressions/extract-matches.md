@@ -8,7 +8,7 @@ dashedName: extract-matches
 
 # --description--
 
-Bisher hast du nur geprüft, ob ein Muster in einem String existiert oder nicht. Du kannst die gefundenen Treffer auch mit der Methode `.match()` extrahieren.
+So far, you have only been checking if a pattern exists or not within a string. You can also extract the actual matches you found with the `.match()` method.
 
 Um die Methode `.match()` zu verwenden, wendest du die Methode auf einen String an und gibst den Regex innerhalb der Klammern ein.
 

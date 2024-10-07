@@ -9,11 +9,11 @@ dashedName: practice-comparing-different-values
 
 # --description--
 
-在上两个挑战中，我们学习了相等运算符 (`==`) 和严格相等运算符 (`===`)。 现在让我们快速回顾并实践一下。
+In the last two challenges, we learned about the equality operator (`==`) and the strict equality operator (`===`). Let's do a quick review and practice using these operators some more.
 
 如果要比较的值不是同一类型，相等运算符会先执行数据类型转换，然后比较值。 而严格相等运算符只比较值，不会进行数据类型转换。
 
-**示例**
+**例如：**
 
 `3 == '3'` 返回 `true` ，因为 JavaScript 执行了从字符串到数字类型的转换。 `3 === '3'` 返回 `false`，因为类型不同，没有进行类型转换。
 

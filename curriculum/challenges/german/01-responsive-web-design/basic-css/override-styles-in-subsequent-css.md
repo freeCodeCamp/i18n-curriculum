@@ -9,7 +9,7 @@ dashedName: override-styles-in-subsequent-css
 
 # --description--
 
-Unsere Klasse `pink-text` überschrieb die CSS-Deklaration unseres `body` Elements!
+Our `pink-text` class overrode our `body` element's CSS declaration!
 
 Wir haben gerade gezeigt, dass unsere Klassen das CSS unseres `body`-Elements überschreiben. Die nächste logische Frage ist also, was können wir tun, um unserem Klasse `pink-text` zu überschreiben?
 
@@ -31,13 +31,13 @@ Was hingegen wichtig ist, ist die Reihenfolge der `class`-Deklarationen im `<sty
 
 # --hints--
 
-Dein `h1`-Element sollte die Klasse `pink-text` besitzen.
+Dein `h1`-Element sollte die Klasse `pink-text` haben.
 
 ```js
 assert($('h1').hasClass('pink-text'));
 ```
 
-Dein `h1`-Element sollte die Klasse `blue-text` besitzen.
+Dein `h1`-Element sollte die Klasse `blue-text` haben.
 
 ```js
 assert($('h1').hasClass('blue-text'));

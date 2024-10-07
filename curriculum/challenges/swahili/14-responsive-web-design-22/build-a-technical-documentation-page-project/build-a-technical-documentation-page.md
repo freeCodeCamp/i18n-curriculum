@@ -12,7 +12,7 @@ dashedName: build-a-technical-documentation-page
 
 **Maelekezo:**
 
-1. Unaweza kuona kipengele cha `main` chenye `id="main-doc"`, ambacho kina maudhui kuu ya ukurasa (hati za kiufundi)
+1. You can see a `main` element with a corresponding `id="main-doc"`, which contains the page's main content (technical documentation)
 1. Ndani ya kipengele cha `#main-doc`, unaweza kuona vipengele kadhaa vya `section`, kila kimoja kikiwa na class ya`main-section`. Kunapaswa kuwa na angalau tano
 1. Kipengele cha kwanza ndani ya kila `.main-section` kinapaswa kuwa na kipengele cha `header`, ambacho kina maandishi yanayofafanua mada ya sehemu hiyo.
 1. Kila kipengele cha `section` chenye class ya `main-section` lazima pia kiwe na `id` ambayo inalingana na maandishi ya kila `header` zilizomo ndani yake. Nafasi zozote zinapaswa kubadilishwa na mistari chini (k.m. Sehemu iliyo na kichwa "JavaScript na Java" inapaswa kuwa na `id="JavaScript_and_Java"` inayolingana)

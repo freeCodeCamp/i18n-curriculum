@@ -1,6 +1,6 @@
 ---
 id: 5f3cade99dda4e6071a85dfd
-title: Step 46
+title: Hatua ya 46
 challengeType: 0
 dashedName: step-46
 ---
@@ -11,25 +11,25 @@ You will come back to styling the menu in a few steps, but for now, go ahead and
 
 # --hints--
 
-You should have an opening `section` tag.
+Unapaswa kuwa na tagi ya kufungua `section`.
 
 ```js
 assert.lengthOf(code.match(/<section>/ig) ,2);
 ```
 
-You should have a closing `section` tag.
+Unapaswa kuwa na tagi ya kufunga ya `section`.
 
 ```js
 assert.lengthOf(code.match(/<\/section>/ig) ,2);
 ```
 
-You should not change the existing `main` element.
+Hupaswi kubadilisha kipengele cha `main` kilichopo.
 
 ```js
 assert.lengthOf (document.querySelectorAll('main'), 1);
 ```
 
-Your new `section` element should be nested in the `main` element.
+Kipengee chako kipya cha `section` kinapaswa kuwekwa katika kipengele cha `main`.
 
 ```js
 const main = document.querySelector('main');

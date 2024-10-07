@@ -12,9 +12,9 @@ dashedName: introduction-to-college-algebra-with-python
 
 **このコースの動画では、下記 2 冊のテキストからの問題を参考文献として引用します。**
 
-\- <a href="https://lyryx.com/subjects/business/business-mathematics/" target="_blank" rel="noopener noreferrer nofollow">Business Math, a Step-by-Step Handbook (2021) by Jean-Paul Oliver</a>
+\- <a href="https://lyryx.com/subjects/business/business-mathematics/" target="_blank" rel="noopener noreferrer nofollow">『Business Math, a Step-by-Step Handbook (2021)』、Jean-Paul Oliver著</a>
 
-\- <a href="https://openstax.org/details/books/algebra-and-trigonometry" target="_blank" rel="noopener noreferrer nofollow">Algebra and Trigonometry by Jay Abramson</a>
+\- <a href="https://openstax.org/details/books/algebra-and-trigonometry" target="_blank" rel="noopener noreferrer nofollow">『Algebra and Trigonometry』、Jay Abramson著</a>
 
 # --assignment--
 

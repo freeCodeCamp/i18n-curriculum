@@ -8,7 +8,7 @@ dashedName: write-a-simple-counter
 
 # --description--
 
-Du kannst eine komplexere zustandsabhängige Komponente entwerfen, indem du die bisher behandelten Konzepte kombinierst. Dazu gehören die Initialisierung des `state`, das Schreiben von Methoden, die den `state` setzen, und die Zuweisung von Click-Handlern, die diese Methoden auslösen.
+You can design a more complex stateful component by combining the concepts covered so far. These include initializing `state`, writing methods that set `state`, and assigning click handlers to trigger these methods.
 
 # --instructions--
 

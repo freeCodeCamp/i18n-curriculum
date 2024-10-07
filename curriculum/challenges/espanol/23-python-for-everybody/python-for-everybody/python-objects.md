@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: python-objects
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-Which is NOT true about objects in Python?
+¿Qué NO es cierto sobre objetos en Python?
 
 ## --answers--
 

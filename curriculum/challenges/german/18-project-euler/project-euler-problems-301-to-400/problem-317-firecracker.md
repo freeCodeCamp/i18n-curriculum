@@ -8,7 +8,7 @@ dashedName: problem-317-firecracker
 
 # --description--
 
-A firecracker explodes at a height of 100 m above level ground. It breaks into a large number of very small fragments, which move in every direction; all of them have the same initial velocity of 20 $\frac{\text{m}}{\text{s}}$.
+Ein Feuerwerkskörper explodiert in einer Höhe von 100 m über dem Boden. Er zerbricht in eine große Anzahl sehr kleiner Fragmente, die sich in alle Richtungen bewegen; alle haben die gleiche Anfangsgeschwindigkeit von 20 $\frac{\text{m}}{\text{s}}$.
 
 Wir nehmen an, dass sich die Fragmente ohne Luftwiderstand in einem einheitlichen Gravitationsfeld mit $g=9,81 \frac{\text{m}}{\text{s}^2}$ bewegen.
 
@@ -16,7 +16,7 @@ Bestimme das Volumen (in $\text{m}^3$) der Region, durch die sich die Bruchstüc
 
 # --hints--
 
-`firecracker()` should return `1856532.8455`.
+`firecracker()` sollte `1856532.8455` zurückgeben.
 
 ```js
 assert.strictEqual(firecracker(), 1856532.8455);

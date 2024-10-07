@@ -8,7 +8,7 @@ dashedName: match-single-character-with-multiple-possibilities
 
 # --description--
 
-Você aprendeu a capturar padrões literais (`/literal/`) e usar o caractere curinga (`/./`). Eles são os extremos das expressões regulares: um encontra o texto exato e o outro captura qualquer coisa. Existem formas de balancear esses extremos.
+You learned how to match literal patterns (`/literal/`) and wildcard character (`/./`). Those are the extremes of regular expressions, where one finds exact matches and the other matches everything. There are options that are a balance between the two extremes.
 
 Você pode ter alguma flexibilidade ao procurar um padrão literal usando <dfn>classes de caracteres</dfn>. Classes de caracteres permitem a definição de grupos de caracteres que você quer capturar ao colocá-los entre colchetes: `[` e `]`.
 

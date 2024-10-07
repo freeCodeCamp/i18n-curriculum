@@ -1,6 +1,6 @@
 ---
 id: 587d7dad367417b2b2512b78
-title: Use a Constructor to Create Objects
+title: 객체 생성을 위한 생성자 사용하기
 challengeType: 1
 forumTopicId: 18233
 dashedName: use-a-constructor-to-create-objects
@@ -20,9 +20,9 @@ function Bird() {
 let blueBird = new Bird();
 ```
 
-**NOTE:** `this` inside the constructor always refers to the object being created.
+**주의:** 생성자 안의 `this`는 항상 생성이된 객체를 가리킵니다.
 
-Notice that the `new` operator is used when calling a constructor. This tells JavaScript to create a new instance of `Bird` called `blueBird`. Without the `new` operator, `this` inside the constructor would not point to the newly created object, giving unexpected results. Now `blueBird` has all the properties defined inside the `Bird` constructor:
+`new` 연산자가 생성자를 호출할 때 사용된다는 점에 주의를 기울일 필요가 있습니다. 이것이 자바스크립트에게 `blueBird`라는 `Bird`의 새로운 인스턴스를 만들라고 하는 것입니다. `new` 연산자 없이는 생성자의 `this`는 새로 생성된 객체를 가리키지 않으며 예상하지 못한 결과를 줄 지도 모릅니다. 이제 `blueBird`는 생성자 `Bird`안에 정의된 모든 속성을 가지고 있습니다.
 
 ```js
 blueBird.name;
@@ -30,7 +30,7 @@ blueBird.color;
 blueBird.numLegs;
 ```
 
-Just like any other object, its properties can be accessed and modified:
+다른 객체처럼 그 속성들은 접근과 수정이 가능합니다.
 
 ```js
 blueBird.name = 'Elvira';
@@ -39,17 +39,17 @@ blueBird.name;
 
 # --instructions--
 
-Use the `Dog` constructor from the last lesson to create a new instance of `Dog`, assigning it to a variable `hound`.
+`Dog`의 새로운 인스턴스를 생성하기 위해 지난 과제에서 본 생성자`Dog`를 사용하고 해당 인스턴스를 변수 `hound`로 지정하시오.
 
 # --hints--
 
-`hound` should be created using the `Dog` constructor.
+`hound`는 생성자 `Dog`를 사용하여 생성이 되어야 합니다.
 
 ```js
 assert(hound instanceof Dog);
 ```
 
-Your code should use the `new` operator to create an instance of `Dog`.
+`Dog`의 인스턴스를 생성하기 위해 `new` 연산자를 사용해야 합니다.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/new/g));

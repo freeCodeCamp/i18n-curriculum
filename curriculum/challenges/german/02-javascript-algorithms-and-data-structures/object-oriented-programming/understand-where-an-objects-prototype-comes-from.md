@@ -8,7 +8,7 @@ dashedName: understand-where-an-objects-prototype-comes-from
 
 # --description--
 
-Genau wie Menschen Gene von ihren Eltern erben, erbt ein Objekt seinen `prototype` direkt von der Konstruktionsfunktion, die es erstellt hat. Hier zum Beispiel erzeugt der `Bird`-Konstruktor das Objekt `duck`:
+Just like people inherit genes from their parents, an object inherits its `prototype` directly from the constructor function that created it. For example, here the `Bird` constructor creates the `duck` object:
 
 ```js
 function Bird(name) {

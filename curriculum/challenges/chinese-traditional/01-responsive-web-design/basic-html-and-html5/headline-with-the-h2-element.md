@@ -9,7 +9,7 @@ dashedName: headline-with-the-h2-element
 
 # --description--
 
-在接下來的幾節課裏，我們將會一步一步地製作一個展示貓咪圖片的 HTML5 app。
+Over the next few lessons, we'll build an HTML5 cat photo web app piece-by-piece.
 
 這節課中，我們將會爲頁面引入作爲第二級標題的 `h2` 元素。
 

@@ -8,7 +8,7 @@ dashedName: map-dispatch-to-props
 
 # --description--
 
-`mapDispatchToProps()` 函数可为 React 组件提供特定的创建 action 的函数，以便组件可 dispatch actions，从而更改 Redux store 中的数据。 该函数的结构跟上一挑战中的`mapStateToProps()`函数相似， 它返回一个对象，把 dispatch actions 映射到属性名上，该属性名成为`props`。 然而，每个属性都返回一个用 action creator 及与 action 相关的所有数据调用 `dispatch` 的函数，而不是返回 `state` 的一部分。 可以访问 `dispatch`，因为在定义函数时，我们以参数形式把它传入 `mapDispatchToProps()` 了，这跟 `state` 传入 `mapStateToProps()` 是一样的。 在幕后，React Redux 用 Redux 的 `store.dispatch()` 来管理这些含 `mapDispatchToProps()` 的dispatches， 这跟它使用 `store.subscribe()` 来订阅映射到 `state` 的组件的方式类似。
+The `mapDispatchToProps()` function is used to provide specific action creators to your React components so they can dispatch actions against the Redux store. It's similar in structure to the `mapStateToProps()` function you wrote in the last challenge. It returns an object that maps dispatch actions to property names, which become component `props`. However, instead of returning a piece of `state`, each property returns a function that calls `dispatch` with an action creator and any relevant action data. You have access to this `dispatch` because it's passed in to `mapDispatchToProps()` as a parameter when you define the function, just like you passed `state` to `mapStateToProps()`. Behind the scenes, React Redux is using Redux's `store.dispatch()` to conduct these dispatches with `mapDispatchToProps()`. This is similar to how it uses `store.subscribe()` for components that are mapped to `state`.
 
 例如，创建 action 的函数 `loginUser()` 把 `username` 作为 action payload， `mapDispatchToProps()` 返回给创建 action 的函数的对象如下：
 

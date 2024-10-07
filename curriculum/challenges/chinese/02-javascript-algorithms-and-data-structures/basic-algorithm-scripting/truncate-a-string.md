@@ -8,7 +8,7 @@ dashedName: truncate-a-string
 
 # --description--
 
-如果传入的字符串（第一个参数）的长度大于传入的值（第二个参数），请在这个位置截断它， 并在后面加上 `...`，然后返回结果。
+Truncate a string (first argument) if it is longer than the given maximum string length (second argument). Return the truncated string with a `...` ending.
 
 # --hints--
 

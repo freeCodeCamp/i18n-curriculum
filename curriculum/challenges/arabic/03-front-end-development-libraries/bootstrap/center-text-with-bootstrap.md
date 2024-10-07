@@ -8,7 +8,7 @@ dashedName: center-text-with-bootstrap
 
 # --description--
 
-الآن بعد أن كنا نستخدم Bootstrap، يمكننا أن وضع عنصر العنوان في المنتصف لجعله يبدو أفضل. ما تحتاج القيام به هو إضافة صف `text-center` إلى عنصر `h2` لدينا.
+Now that we're using Bootstrap, we can center our heading element to make it look better. All we need to do is add the class `text-center` to our `h2` element.
 
 تذكر أنه يمكنك إضافة عدة فئات إلى نفس العنصر بفصل كل منها مع مساحة، مثل:
 

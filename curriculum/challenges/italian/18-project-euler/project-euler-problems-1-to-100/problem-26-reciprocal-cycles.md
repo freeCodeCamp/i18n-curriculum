@@ -8,7 +8,7 @@ dashedName: problem-26-reciprocal-cycles
 
 # --description--
 
-Una frazione unitaria contiene 1 nel numeratore. La rappresentazione decimale delle frazioni unitarie con i denominatori da 2 a 10 è indicata con:
+Una frazione unitaria contiene 1 nel numeratore. Sono date le rappresentazioni decimali delle frazioni unitarie con i denominatori da 2 a 10:
 
 <div style='padding-left: 4em; display: inline-grid; grid-template-rows: auto; row-gap: 7px;'><div><sup>1</sup>/<sub>2</sub> = 0.5</div><div><sup>1</sup>/<sub>3</sub> = 0.(3)</div><div><sup>1</sup>/<sub>4</sub> = 0.25</div><div><sup>1</sup>/<sub>5</sub> = 0.2</div><div><sup>1</sup>/<sub>6</sub> = 0.1(6)</div><div><sup>1</sup>/<sub>7</sub> = 0.(142857)</div><div><sup>1</sup>/<sub>8</sub> = 0.125</div><div><sup>1</sup>/<sub>9</sub> = 0.(1)</div><div><sup>1</sup>/<sub>10</sub> = 0.1</div></div>
 

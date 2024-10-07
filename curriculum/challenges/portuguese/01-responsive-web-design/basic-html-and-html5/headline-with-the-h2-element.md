@@ -9,7 +9,7 @@ dashedName: headline-with-the-h2-element
 
 # --description--
 
-Durante as próximas lições, construiremos aos poucos um aplicativo para fotos de gatos em HTML5.
+Over the next few lessons, we'll build an HTML5 cat photo web app piece-by-piece.
 
 O elemento `h2` que você vai adicionar nesta etapa dará um título de nível dois à página da web.
 

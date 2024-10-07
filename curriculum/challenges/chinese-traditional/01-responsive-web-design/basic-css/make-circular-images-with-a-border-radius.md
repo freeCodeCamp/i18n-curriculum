@@ -9,7 +9,7 @@ dashedName: make-circular-images-with-a-border-radius
 
 # --description--
 
-除像素外，你也可以使用百分比來指定 `border-radius` 的值。
+In addition to pixels, you can also specify the `border-radius` using a percentage.
 
 # --instructions--
 

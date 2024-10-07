@@ -20,7 +20,7 @@ Complete o projeto de desafio <a href="https://learn.microsoft.com/training/modu
 
 ## --text--
 
-Um desenvolvedor quer criar um método que retorne um valor em um array. Qual das opções abaixo seria uma boa escolha para uma assinatura de método?
+A developer wants to create a method that returns a value in an array. Which of the following options would be a good choice for a method signature?
 
 ## --answers--
 

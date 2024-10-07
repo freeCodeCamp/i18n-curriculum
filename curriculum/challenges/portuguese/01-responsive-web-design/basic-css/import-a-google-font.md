@@ -9,7 +9,7 @@ dashedName: import-a-google-font
 
 # --description--
 
-Além de definir tipografias comuns que são encontradas na maioria dos sistemas operacionais, podemos também definir tipografias não padronizadas e customizadas para serem usadas em nosso site. Na Internet, existem muitos lugares onde podemos encontrar tipografias. Neste desafio, vamos usar a biblioteca do Google Fonts.
+In addition to specifying common fonts that are found on most operating systems, we can also specify non-standard, custom web fonts for use on our website. There are many sources for web fonts on the Internet. For this example we will focus on the Google Fonts library.
 
 Google Fonts é uma biblioteca gratuita de tipografias que você pode usar em seu CSS ao referenciar o URL da tipografia.
 

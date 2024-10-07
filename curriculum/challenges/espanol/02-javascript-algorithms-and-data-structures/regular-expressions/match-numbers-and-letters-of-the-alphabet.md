@@ -8,7 +8,7 @@ dashedName: match-numbers-and-letters-of-the-alphabet
 
 # --description--
 
-Usar el guión (`-`) para coincidir con un rango de caracteres no está limitado a letras. También funciona para hacer coincidir un rango de números.
+Using the hyphen (`-`) to match a range of characters is not limited to letters. It also works to match a range of numbers.
 
 Por ejemplo, `/[0-5]/` coincide con cualquier número entre `0` y `5`, incluyendo `0` y `5`.
 

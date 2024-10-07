@@ -8,15 +8,15 @@ dashedName: request-header-parser-microservice
 
 # --description--
 
-Crea una aplicación full stack de JavaScript que sea funcionalmente similar a esta: <a href="https://request-header-parser-microservice.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://request-header-parser-microservice.freecodecamp.rocks/</a>. Trabajar en este proyecto implicará escribir tu código utilizando uno de los siguientes métodos:
+Build a full stack JavaScript app that is functionally similar to this: <a href="https://request-header-parser-microservice.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://request-header-parser-microservice.freecodecamp.rocks/</a>. Working on this project will involve you writing your code using one of the following methods:
 
--   Clone este repositorio de <a href="https://github.com/freeCodeCamp/boilerplate-project-headerparser/" target="_blank" rel="noopener noreferrer nofollow"> GitHub</a> y complete estos desafíos localmente.
--   Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-headerparser/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete your project.
--   Utiliza un constructor de sitios de tu elección para completar el proyecto. Asegúrate de incorporar todos los archivos de nuestro repositorio de GitHub.
+-   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-headerparser/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
+-   Utiliza <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-headerparser/" target="_blank" rel="noopener noreferrer nofollow">nuestro proyecto inicial en Gitpod</a> para completar tu proyecto.
+-   Usa un constructor de sitios de tu elección para completar el proyecto. Asegúrate de incorporar todos los archivos de nuestro repositorio de GitHub.
 
 # --hints--
 
-Debes proporcionar tu propio proyecto, no la URL del ejemplo.
+You should provide your own project, not the example URL.
 
 ```js
 (getUserInput) => {
@@ -28,7 +28,7 @@ Debes proporcionar tu propio proyecto, no la URL del ejemplo.
 };
 ```
 
-Una petición a `/api/whoami` debe devolver un objeto JSON con tu dirección IP en la clave `ipaddress`.
+A request to `/api/whoami` should return a JSON object with your IP address in the `ipaddress` key.
 
 ```js
 (getUserInput) =>
@@ -40,7 +40,7 @@ Una petición a `/api/whoami` debe devolver un objeto JSON con tu dirección IP 
   );
 ```
 
-Una petición a `/api/whoami` debe devolver un objeto JSON con tu idioma preferido en la clave `language`.
+A request to `/api/whoami` should return a JSON object with your preferred language in the `language` key.
 
 ```js
 (getUserInput) =>
@@ -52,7 +52,7 @@ Una petición a `/api/whoami` debe devolver un objeto JSON con tu idioma preferi
   );
 ```
 
-Una petición a `/api/whoami` debe devolver un objeto JSON con tu software en la clave de `software`.
+A request to `/api/whoami` should return a JSON object with your software in the `software` key.
 
 ```js
 (getUserInput) =>

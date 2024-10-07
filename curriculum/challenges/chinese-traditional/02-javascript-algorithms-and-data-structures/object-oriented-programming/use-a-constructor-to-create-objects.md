@@ -8,7 +8,7 @@ dashedName: use-a-constructor-to-create-objects
 
 # --description--
 
-在上一個挑戰中，我們用所學到的知識創建了一個 `Bird` 構造函數：
+Here's the `Bird` constructor from the previous challenge:
 
 ```js
 function Bird() {

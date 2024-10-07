@@ -8,7 +8,7 @@ dashedName: change-text-inside-an-element-using-jquery
 
 # --description--
 
-Mit jQuery kannst du den Text zwischen den Start- und End-Tags eines Elements ändern. Du kannst sogar das HTML-Markup ändern.
+Using jQuery, you can change the text between the start and end tags of an element. You can even change HTML markup.
 
 jQuery hat eine Funktion namens `.html()`, mit der du HTML-Tags und Text innerhalb eines Elements hinzufügen kannst. Alle Inhalte, die sich zuvor in dem Element befanden, werden vollständig durch die Inhalte ersetzt, die du mit dieser Funktion bereitstellst.
 

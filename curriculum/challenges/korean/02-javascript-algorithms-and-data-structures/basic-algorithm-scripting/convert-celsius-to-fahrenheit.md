@@ -8,7 +8,7 @@ dashedName: convert-celsius-to-fahrenheit
 
 # --description--
 
-섭씨를 화씨로 변환하는 공식은 섭씨 온도에 `9/5`를 곱하고 `32`를 더하는 것입니다.
+The formula to convert from Celsius to Fahrenheit is the temperature in Celsius times `9/5`, plus `32`.
 
 섭씨 온도를 나타내는 변수 `celsius`가 있습니다. 주어진 변수 `fahrenheit` 를 사용하여 주어진 섭씨 온도와 일치하는 화씨 온도를 해당 변수에 할당하시오. 섭씨 온도를 화씨 온도로 바꾸기 위해 위에서 언급한 공식을 사용하시오.
 

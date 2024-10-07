@@ -1,6 +1,6 @@
 ---
 id: bd7150d8c442eddfafb5bd1c
-title: P2P Video Chat Application
+title: P2P 視頻聊天應用
 challengeType: 4
 forumTopicId: 302366
 dashedName: p2p-video-chat-application
@@ -10,29 +10,29 @@ dashedName: p2p-video-chat-application
 
 **Objective:** Build an app that is functionally similar to this: <a href="https://p2p-video-chat-application.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://p2p-video-chat-application.freecodecamp.rocks/</a>.
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+完成以下需求，並且通過所有測試。 你可以使用你需要的任何庫或 API。 可以用你自己的樣式來完成。
 
-**User Story:** Upon arriving, the browser will prompt me to access my camera and microphone.
+**用戶故事：** 訪問時，瀏覽器將提示我訪問我的相機和麥克風。
 
-**User Story:** After I give it permission, I am prompted to type in a room name.
+**用戶故事：** 在我授予權限後，系統會提示我輸入房間名稱。
 
-**User Story:** Once I type in the room name, a room will be created if no room of that name existed before.
+**用戶故事：** 輸入房間名稱後，如果之前沒有該房間的房間，則會創建房間。
 
-**User Story:** A friend of mine can subsequently go to the same website, type in the same room I entered, and join the same room, then enter into a video chat with me.
+**用戶故事：** 我的一個朋友可以隨後訪問同一個網站，輸入我輸入的同一個房間，然後加入同一個房間，然後與我進行視頻聊天。
 
-**User Story:** If I type in a room name, and there are already two people in that room, I get a notification that the room is full.
+**用戶故事：** 如果我輸入房間名稱，並且該房間已經有兩個人，我會收到房間已滿的通知。
 
-**User Story:** Anyone can create or join any room. And there can be any number of rooms, but all of them must have unique names.
+**用戶故事：** 任何人都可以創建或加入任何房間。 並且可以有任意數量的房間，但所有房間都必須具有唯一的名稱。
 
-**User Story:** I can choose to not permit the site to access my microphone and webcam. If I choose not to do this, or if some other driver problem occurs, I see an error message saying these are required.
+**用戶故事：** 我可以選擇不允許該網站訪問我的麥克風和網絡攝像頭。 如果我選擇不這樣做，或者如果出現其他一些驅動程序問題，我會看到一條錯誤消息，說明這些是必需的。
 
-**User Story:** When I choose to cancel the room name input step, or if I type in no name, or just spaces, it should again ask me again to type in a valid room name.
+**用戶故事：** 當我選擇取消房間名稱輸入步驟，或者如果我沒有輸入房間名或僅輸入空格時，它應該再次要求我輸入有效的房間名稱。
 
-**User Story:** If one of the two people in the room get disconnected, they can reconnect to the same room and continue chatting.
+**用戶故事：** 如果房間中的兩個人中的一個斷開連接，他們可以重新連接到同一個房間並繼續聊天。
 
-Once you've finished implementing these user stories, enter the URL to your live app and, optionally, your GitHub repository. Then click the "I've completed this challenge" button.
+一旦您實現了這些用戶故事，輸入您在運行的應用 URL 和可選的 GitHub 倉庫。 然後點擊"我已完成這項挑戰"按鈕。
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+可以分享你的項目到 <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp 論壇</a>上獲得反饋。
 
 # --solutions--
 

@@ -16,7 +16,7 @@ Josephus problem is a math puzzle with a grim description: $n$ prisoners are sta
 
 例えば、$n=5$ 人の囚人がおり、$k=2$ の場合、囚人が処刑される順番 (「執行シーケンス」と呼ぶことにしましょう) は 1、3、0、4 となり、釈放されるのは 2 番の囚人になります。
 
-任意の $n, k > 0$ が与えられた場合に、どの囚人が最後に生き残るかを求めてみましょう。
+Given any $n, k > 0$, find out which prisoner will be the final survivor.
 
 このような例の 1 つに、囚人が 41 人で、3 番目の囚人ごとに処刑された ($k=3$) という出来事があります。
 

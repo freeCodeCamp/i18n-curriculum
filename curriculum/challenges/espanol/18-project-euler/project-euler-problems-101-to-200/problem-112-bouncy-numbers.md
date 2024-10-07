@@ -8,7 +8,7 @@ dashedName: problem-112-bouncy-numbers
 
 # --description--
 
-Working from left-to-right if no digit is exceeded by the digit to its left it is called an increasing number; for example, 134468.
+Trabajando de izquierda a derecha si no excede ningún dígito por el dígito a su izquierda es llamado un número de incremento, por ejemplo, 134468.
 
 Similarmente si no hay dígito que exceda por el dígito a su derecha, se le llama un número decreciente; por ejemplo, 66420.
 

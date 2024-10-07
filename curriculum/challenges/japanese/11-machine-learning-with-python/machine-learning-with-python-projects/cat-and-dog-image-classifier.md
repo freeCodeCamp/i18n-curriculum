@@ -8,7 +8,7 @@ dashedName: cat-and-dog-image-classifier
 
 # --description--
 
-このプロジェクトには <a href="https://colab.research.google.com/github/freeCodeCamp/boilerplate-cat-and-dog-image-classifier/blob/master/fcc_cat_dog.ipynb" target="_blank" rel="noopener noreferrer nofollow">Google Colaboratory</a> を使用して取り組んでください。
+You will be <a href="https://colab.research.google.com/github/freeCodeCamp/boilerplate-cat-and-dog-image-classifier/blob/master/fcc_cat_dog.ipynb" target="_blank" rel="noopener noreferrer nofollow">working on this project with Google Colaboratory</a>.
 
 上記のリンクにアクセスした後、自分のアカウントまたはローカルに、ノートブックのコピーを作成してください。 プロジェクトを完了し、テストが成功したら (テストはリンクに含まれています)、下記入力欄からプロジェクトリンクを提出してください。 Google Colaboratory のリンクを送信する場合は、リンクの共有設定を必ず「リンクを知っている全員」に設定してください。
 
@@ -39,7 +39,7 @@ cats_and_dogs
 
 以下ではそれぞれのセル番号に対応した手順を示します。セル番号はセルの最初にコメントで示しています (`# 3` など)。
 
-## セル 3
+## Cell 3
 
 ここからは自分でコードを記述します。 このセル内の各変数を正しく設定してください (`None` でないようにしてください)。
 

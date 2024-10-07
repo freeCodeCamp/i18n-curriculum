@@ -9,7 +9,7 @@ dashedName: iterate-with-javascript-do---while-loops
 
 # --description--
 
-Il prossimo tipo di ciclo che vedremo si chiama `do...while`. Si chiama ciclo `do... while` perché prima eseguirà (`do`) un passaggio del codice all'interno del ciclo indipendentemente dalle condizioni, e poi continuerà ad eseguire il ciclo finché (`while`) la condizione specificata avrà valore `true`.
+The next type of loop you will learn is called a `do...while` loop. It is called a `do...while` loop because it will first `do` one pass of the code inside the loop no matter what, and then continue to run the loop `while` the specified condition evaluates to `true`.
 
 ```js
 const ourArray = [];

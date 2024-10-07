@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedc08826
-title: Target Elements by Class Using jQuery
+title: jQuery를 사용하여 클래스로 요소 대상 지정하기
 challengeType: 6
 forumTopicId: 18316
 required:
@@ -13,15 +13,15 @@ dashedName: target-elements-by-class-using-jquery
 
 You see how we made all of your `button` elements bounce? We selected them with `$("button")`, then we added some CSS classes to them with `.addClass("animated bounce");`.
 
-You just used jQuery's `.addClass()` function, which allows you to add classes to elements.
+요소에 클래스를 추가할 수 있게 해주는 `.addClass()` 함수를 사용했습니다.
 
-First, let's target your `div` elements with the class `well` by using the `$(".well")` selector.
+우선 `$(".well")` 셀렉터를 사용해서 `well` 클래스를 가진 `div` 요소를 대상으로 지정해보겠습니다.
 
-Note that, just like with CSS declarations, you type a `.` before the class's name.
+CSS 선언처럼 클래스 이름 전에 `.`를 적어야 한다는 것에 주의하시오.
 
-Then use jQuery's `.addClass()` function to add the classes `animated` and `shake`.
+그런 다음 `animated`와 `shake` 클래스를 추가하기 위해 `.addClass()` 함수를 사용하시오.
 
-For example, you could make all the elements with the class `text-primary` shake by adding the following to your `document ready function`:
+예를 들면 `document ready function`에 다음을 추가하여 `text-primary` 클래스를 가진 모든 요소가 흔들리도록 만들 수 있습니다:
 
 ```js
 $(".text-primary").addClass("animated shake");
@@ -29,13 +29,13 @@ $(".text-primary").addClass("animated shake");
 
 # --hints--
 
-You should use the jQuery `addClass()` function to give the classes `animated` and `shake` to all your elements with the class `well`.
+`well` 클래스를 가진 모든 요소에 `animated`와 `shake` 클래스를 부여하려면 jQuery의 `addClass()` 함수를 사용해야 합니다.
 
 ```js
 assert($('.well').hasClass('animated') && $('.well').hasClass('shake'));
 ```
 
-You should only use jQuery to add these classes to the element.
+이 요소에 이 클래스들을 추가하기 위해 jQuery만 사용해야 합니다.
 
 ```js
 assert(!code.match(/class\.\*animated/g));

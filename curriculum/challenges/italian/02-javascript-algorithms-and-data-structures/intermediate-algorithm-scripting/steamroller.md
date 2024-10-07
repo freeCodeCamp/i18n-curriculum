@@ -8,7 +8,7 @@ dashedName: steamroller
 
 # --description--
 
-Appiattisci un array nidificato. Dovrai tenere conto dei diversi livelli di nidificazione.
+Flatten a nested array. You must account for varying levels of nesting.
 
 # --hints--
 

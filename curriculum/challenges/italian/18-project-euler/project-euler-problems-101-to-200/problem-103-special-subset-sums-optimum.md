@@ -22,9 +22,9 @@ $$\begin{align}   & n = 1: \\{1\\} \\\\
 
 Sembra che per un dato set ottimale, $A = \\{a_1, a_2, \ldots, a_n\\}$, il successivo set ottimale è della forma $B = \\{b, a_1 + b, a_2 + b, \ldots, a_n + b\\}$, dove b è l'elemento "centrale" della riga precedente.
 
-Applicando la "regola" ci aspetteremmo il set ottimale per $n = 6$ sia $A = \\{11, 17, 20, 22, 23, 24\\}$, con $S(A) = 117$. Invece, questo non è il set ottimale, visto che abbiamo semplicemente applicato un algoritmo per ottenere un set quasi ottimale. Il set ottimale per $n = 6$ è $A = \\{11, 18, 19, 20, 22, 25\\}$, con $S(A) = 115$ e la stringa set corrispondente: `111819202225`.
+Applicando la "regola" ci aspetteremmo il set ottimale per $n = 6$ sia $A = \\{11, 17, 20, 22, 23, 24\\}$, con $S(A) = 117$. Invece, questo non è l'insieme ottimale, visto che abbiamo semplicemente applicato un algoritmo per ottenere un insieme quasi ottimale. L'insieme ottimale per $n = 6$ è $A = \\{11, 18, 19, 20, 22, 25\\}$, con $S(A) = 115$ e la stringa set corrispondente: `111819202225`.
 
-Dato che A è un set ottimale di somma speciale per for $n = 7$, trova la sua stringa.
+Dato che A è un insieme ottimale di somma speciale per for $n = 7$, trova la sua stringa.
 
 **Nota:** questo problema è legato al Problema 105 e al Problema 106.
 

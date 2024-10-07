@@ -8,7 +8,7 @@ dashedName: manage-state-locally-first
 
 # --description--
 
-هنا ستنتهي من إنشاء مكون `DisplayMessages`.
+Here you'll finish creating the `DisplayMessages` component.
 
 # --instructions--
 

@@ -1,6 +1,6 @@
 ---
 id: 5900f43f1000cf542c50ff51
-title: 'Problem 208: Robot Walks'
+title: 'Problem 208: Roboter-Spaziergänge'
 challengeType: 1
 forumTopicId: 301849
 dashedName: problem-208-robot-walks
@@ -8,7 +8,7 @@ dashedName: problem-208-robot-walks
 
 # --description--
 
-A robot moves in a series of one-fifth circular arcs (72°), with a free choice of a clockwise or an anticlockwise arc for each step, but no turning on the spot.
+Ein Roboter bewegt sich in einer Reihe von Bögen von einem Fünftel des Kreises (72°), wobei er bei jedem Schritt frei zwischen einem Bogen im oder gegen den Uhrzeigersinn wählen kann, aber nicht auf der Stelle dreht.
 
 Einer von 70932 möglichen geschlossenen Pfaden mit 25 Bögen, die in Richtung Norden beginnen, ist
 

@@ -8,7 +8,7 @@ dashedName: use-the-tilde-character-to-always-use-the-latest-patch-version-of-a-
 
 # --description--
 
-في التحدي الأخير، أخبرت npm أن يتضمن نسخة محددة فقط من الحزمة. هذه طريقة مفيدة لتجميد التبعية إذا كنت بحاجة إلى التأكد من أن أجزاء مختلفة من مشروعك تبقى متوافقة مع بعضها البعض. ولكن في معظم حالات الاستخدام، لا ترد أن تفوتك إصلاحات الأخطاء لأنها غالباً ما تتضمن التصحيحات الأمنية الهامة ومن الآمل أنها لا تتسبب لتخريب تطبيقك بذلك.
+In the last challenge, you told npm to only include a specific version of a package. That’s a useful way to freeze your dependencies if you need to make sure that different parts of your project stay compatible with each other. But in most use cases, you don’t want to miss bug fixes since they often include important security patches and (hopefully) don’t break things in doing so.
 
 للسماح للتبعية npm للتحديث إلى أحدث إصدار PATCH، يمكنك أن تضيف رمز (`~`) في بداية الإصدار للتبعية. Here's an example of how to allow updates to any `1.3.x` version.
 

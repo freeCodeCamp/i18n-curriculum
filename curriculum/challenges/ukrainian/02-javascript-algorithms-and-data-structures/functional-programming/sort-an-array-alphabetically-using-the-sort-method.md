@@ -8,7 +8,7 @@ dashedName: sort-an-array-alphabetically-using-the-sort-method
 
 # --description--
 
-Метод `sort` сортує елементи масиву відповідно до функції зворотного виклику.
+The `sort` method sorts the elements of an array according to the callback function.
 
 Наприклад:
 
@@ -40,7 +40,7 @@ reverseAlpha(['l', 'h', 'z', 'b', 's']);
 
 # --instructions--
 
-Використайте метод `sort` у функції `alphabeticalOrder`, щоб відсортувати елементи в `arr` за алфавітним порядком. Функція повинна повертати відсортований масив.
+Використайте метод `sort` у функції `alphabeticalOrder`, щоб відсортувати елементи в `arr` за алфавітним порядком. Функція має повернути відсортований масив.
 
 # --hints--
 

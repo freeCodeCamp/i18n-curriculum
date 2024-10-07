@@ -8,7 +8,7 @@ dashedName: problem-339-peredur-fab-efrawg
 
 # --description--
 
-"And he came towards a valley, through which ran a river; and the borders of the valley were wooded, and on each side of the river were level meadows. And on one side of the river he saw a flock of white sheep, and on the other a flock of black sheep. And whenever one of the white sheep bleated, one of the black sheep would cross over and become white; and when one of the black sheep bleated, one of the white sheep would cross over and become black." - Peredur the Son of Evrawc
+"Und er kam zu einem Tal, durch das ein Fluss floss; und die Grenzen des Tals waren bewaldet, und auf beiden Seiten des Flusses waren ebene Wiesen. Und er sah auf der einen Seite des Flusses eine Herde weißer Schafe und auf der anderen Seite eine Herde schwarzer Schafe. Und wenn eines der weißen Schafe blökte, ging eines der schwarzen Schafe hinüber und wurde weiß; und wenn eines der schwarzen Schafe blökte, ging eines der weißen Schafe hinüber und wurde schwarz." - Peredur der Sohn von Evrawc
 
 Zu Beginn besteht jede Herde aus $n$ Schafen. Jedes Schaf (unabhängig von seiner Farbe) hat die gleiche Wahrscheinlichkeit, das nächste Schaf zu sein, das blökt. Nachdem ein Schaf geblökt hat und ein Schaf aus der anderen Herde hinübergewechselt ist, kann Peredur eine Anzahl weißer Schafe entfernen, um die erwartete endgültige Anzahl schwarzer Schafe zu maximieren. Sei $E(n)$ die erwartete endgültige Anzahl schwarzer Schafe, wenn Peredur eine optimale Strategie verwendet.
 
@@ -18,7 +18,7 @@ Finde $E(10\\,000)$ und gib deine Antwort auf 6 Pläte hinter dem Dezimalpunkt g
 
 # --hints--
 
-`peredurFabEfrawg()` should return `19823.542204`.
+`peredurFabEfrawg()` sollte `19823.542204` zurückgeben.
 
 ```js
 assert.strictEqual(peredurFabEfrawg(), 19823.542204);

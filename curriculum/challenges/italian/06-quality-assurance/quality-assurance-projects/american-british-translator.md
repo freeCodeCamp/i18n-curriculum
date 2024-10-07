@@ -8,24 +8,24 @@ dashedName: american-british-translator
 
 # --description--
 
-Costruisci un'app JavaScript full-stack che sia funzionalmente simile a questa: <a href="https://american-british-translator.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://american-british-translator.freecodecamp.rocks/</a>. Lavorare su questo progetto ti porterà a scrivere il tuo codice utilizzando uno dei seguenti metodi:
+Build a full stack JavaScript app that is functionally similar to this: <a href="https://american-british-translator.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://american-british-translator.freecodecamp.rocks/</a>. Working on this project will involve you writing your code using one of the following methods:
 
--   Clonare <a href="https://github.com/freeCodeCamp/boilerplate-project-american-british-english-translator/" target="_blank" rel="noopener noreferrer nofollow">questo repository GitHub</a> e completare il tuo progetto localmente.
+-   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-american-british-english-translator/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
 -   Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-american-british-english-translator/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete your project.
--   Usare un costruttore di siti a tua scelta per completare il progetto. Assicurati di incorporare tutti i file del nostro repository GitHub.
+-   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
 
 # --instructions--
 
--   Tutta la logica può stare in `/components/translator.js`
+-   All logic can go into `/components/translator.js`
 -   Completa la rotta `/api/translate` in `/routes/api.js`
 -   Crea tutti i test delle unità/funzionali in `tests/1_unit-tests.js` e `tests/2_functional-tests.js`
 -   Vedi i file JavaScript in `/components` per la diversa ortografia e i termini che la tua applicazione dovrebbe tradurre
 -   To run the tests automatically, set `NODE_ENV` to `test` without quotes in the `.env` file
--   Per eseguire i test nella console, utilizza il comando `npm run test`.
+-   To run the tests in the console, use the command `npm run test`.
 
-Scrivi i seguenti test in `tests/1_unit-tests.js`:
+Write the following tests in `tests/1_unit-tests.js`:
 
--   Traduci `Mangoes are my favorite fruit.` in inglese britannico
+-   Translate `Mangoes are my favorite fruit.` to British English
 -   Traduci `I ate yogurt for breakfast.` in inglese britannico
 -   Traduci `We had a party at my friend's condo.` in inglese britannico
 -   Traduci `Can you toss this in the trashcan for me?` in inglese britannico
@@ -52,7 +52,7 @@ Scrivi i seguenti test in `tests/1_unit-tests.js`:
 
 Scrivi i seguenti test in `tests/2_functional-tests.js`:
 
--   Traduzione con i campi testo e localizzazione: richiesta POST a `/api/translate`
+-   Translation with text and locale fields: POST request to `/api/translate`
 -   Traduzione con i campi testo e localizzazione non validi: richiesta POST a `/api/translate`
 -   Traduzione con il campo testo mancante: richiesta POST a `/api/translate`
 -   Traduzione con il campo localizzazione mancante: richiesta POST a `/api/translate`
@@ -61,7 +61,7 @@ Scrivi i seguenti test in `tests/2_functional-tests.js`:
 
 # --hints--
 
-Dovresti fornire il tuo progetto, non l'URL di esempio.
+È necessario fornire il proprio progetto, non l'URL di esempio.
 
 ```js
 (getUserInput) => {
@@ -73,7 +73,7 @@ Dovresti fornire il tuo progetto, non l'URL di esempio.
 };
 ```
 
-Puoi fare una richiesta `POST` a `/api/translate` con un corpo contenente `text` con il testo da tradurre e `locale` con `american-to-british` (da americano a britannico) o `british-to-american` (da britannico ad americano). L'oggetto restituito dovrebbe contenere il testo inviato (`text`) e la traduzione (`translation`).
+You can `POST` to `/api/translate` with a body containing `text` with the text to translate and `locale` with either `american-to-british` or `british-to-american`. The returned object should contain the submitted `text` and `translation` with the translated text.
 
 ```js
 async (getUserInput) => {
@@ -101,7 +101,7 @@ async (getUserInput) => {
 };
 ```
 
-Il percorso `/api/translate` dovrebbe gestire la differenza di come l'ora è scritta in inglese americano o britannico. Per esempio l'orario dieci e trenta è scritto "10.30" in inglese britannico e "10:30" in inglese americano. L'elemento `span` dovrebbe racchiudere tutta la stringa del tempo, per esempio `<span class="highlight">10:30</span>`.
+The `/api/translate` route should handle the way time is written in American and British English. For example, ten thirty is written as "10.30" in British English and "10:30" in American English. The `span` element should wrap the entire time string, i.e. `<span class="highlight">10:30</span>`.
 
 ```js
 async (getUserInput) => {
@@ -128,7 +128,7 @@ async (getUserInput) => {
 };
 ```
 
-Il percorso `/api/translate` dovrebbe gestire anche la differenza di come i titoli onorifici sono abbreviati in inglese americano o britannico. Per esempio, Doctor Wright è appreviato come "Dr Wright" in inglese britannico e "Dr. Wright" in inglese americano. Vedi `/components/american-to-british-titles.js` per sapere quali titoli la tua applicazione dovrebbe essere in grado di gestire.
+The `/api/translate` route should also handle the way titles/honorifics are abbreviated in American and British English. For example, Doctor Wright is abbreviated as "Dr Wright" in British English and "Dr. Wright" in American English. See `/components/american-to-british-titles.js` for the different titles your application should handle.
 
 ```js
 async (getUserInput) => {
@@ -155,7 +155,7 @@ async (getUserInput) => {
 };
 ```
 
-Racchiudi ogni traduzione di spelling o termini con tag `<span class="highlight">...</span>` affinché appaiano in verde.
+Wrap any translated spelling or terms with `<span class="highlight">...</span>` tags so they appear in green.
 
 ```js
 async (getUserInput) => {
@@ -183,7 +183,7 @@ async (getUserInput) => {
 };
 ```
 
-Se uno o più dei campi richiesti è mancante, restuisci `{ error: 'Required field(s) missing' }`.
+If one or more of the required fields is missing, return `{ error: 'Required field(s) missing' }`.
 
 ```js
 async (getUserInput) => {
@@ -204,7 +204,7 @@ async (getUserInput) => {
 };
 ```
 
-Se `text` è vuoto restituisci `{ error: 'No text to translate' }`
+If `text` is empty, return `{ error: 'No text to translate' }`
 
 ```js
 async (getUserInput) => {
@@ -225,7 +225,7 @@ async (getUserInput) => {
 };
 ```
 
-Se `locale` non corrisponde a uno dei due locale specificati, restituisci `{ error: 'Invalid value for locale field' }`.
+If `locale` does not match one of the two specified locales, return `{ error: 'Invalid value for locale field' }`.
 
 ```js
 async (getUserInput) => {
@@ -247,7 +247,7 @@ async (getUserInput) => {
 };
 ```
 
-Se `text` non richiede traduzione, restituisci `"Everything looks good to me!"` per il valore `translation`.
+If `text` requires no translation, return `"Everything looks good to me!"` for the `translation` value.
 
 ```js
 async (getUserInput) => {
@@ -274,7 +274,7 @@ async (getUserInput) => {
 };
 ```
 
-Tutti i 24 test unitari sono completati e superati.
+All 24 unit tests are complete and passing.
 
 ```js
 async (getUserInput) => {
@@ -299,7 +299,7 @@ async (getUserInput) => {
 };
 ```
 
-Tutti i 6 test funzionali sono completati e superati.
+All 6 functional tests are complete and passing.
 
 ```js
 async (getUserInput) => {

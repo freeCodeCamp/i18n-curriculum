@@ -8,7 +8,7 @@ dashedName: change-text-inside-an-element-using-jquery
 
 # --description--
 
-可以通过 jQuery 改变元素开始和结束标签之间的文本。 甚至改变 HTML 标签。
+Using jQuery, you can change the text between the start and end tags of an element. You can even change HTML markup.
 
 jQuery 有一个 `.html()` 函数，能用其在标签里添加 HTML 标签和文本， 函数提供的内容将完全替换之前标签的内容。
 

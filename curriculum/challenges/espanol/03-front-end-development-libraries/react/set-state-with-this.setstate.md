@@ -8,7 +8,7 @@ dashedName: set-state-with-this-setstate
 
 # --description--
 
-Los desafíos anteriores cubrieron el componente `state` y cómo inicializar el state en el `constructor`. También hay una forma de cambiar el `state` del componente. React proporciona un método para actualizar el componente `state` llamado `setState`. El método `setState` dentro de tu clase de componente se llama así: `this.setState()`, pasando un objeto con pares clave-valor. Las claves son tus propiedades de estado y los valores son datos de estado actualizados. Por ejemplo, si estuviéramos almacenando un `username` en estado y quisiéramos actualizarlo, se vería así:
+The previous challenges covered component `state` and how to initialize state in the `constructor`. There is also a way to change the component's `state`. React provides a method for updating component `state` called `setState`. You call the `setState` method within your component class like so: `this.setState()`, passing in an object with key-value pairs. The keys are your state properties and the values are the updated state data. For instance, if we were storing a `username` in state and wanted to update it, it would look like this:
 
 ```jsx
 this.setState({

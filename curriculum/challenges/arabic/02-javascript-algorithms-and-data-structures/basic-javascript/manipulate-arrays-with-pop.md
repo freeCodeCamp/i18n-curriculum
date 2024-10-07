@@ -9,7 +9,7 @@ dashedName: manipulate-arrays-with-pop
 
 # --description--
 
-طريقة أخرى لتغيير البيانات في القائمة (array) هي استخدام الوظيفة `.pop()`.
+Another way to change the data in an array is with the `.pop()` function.
 
 تستخدم الوظيفة `.pop()` لإزالة (أو قفز pop) قيمة من نهاية القائمة. يمكننا تخزين هذه القيمة المستخرجة عن طريق تعيينها إلى متغير. بعبارة أخرى، تزيل الوظيفة `.pop()` العنصر الأخير من قائمة وتنتج ذلك العنصر.
 

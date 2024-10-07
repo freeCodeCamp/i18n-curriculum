@@ -1,6 +1,6 @@
 ---
 id: 587d7da9367417b2b2512b66
-title: Combine Two Arrays Using the concat Method
+title: concat 메소드로 두 배열 합치기
 challengeType: 1
 forumTopicId: 301229
 dashedName: combine-two-arrays-using-the-concat-method
@@ -14,33 +14,33 @@ dashedName: combine-two-arrays-using-the-concat-method
 [1, 2, 3].concat([4, 5, 6]);
 ```
 
-The returned array would be `[1, 2, 3, 4, 5, 6]`.
+반환된 배열은 `[1, 2, 3, 4, 5, 6]` 입니다.
 
 # --instructions--
 
-Use the `concat` method in the `nonMutatingConcat` function to concatenate `attach` to the end of `original`. The function should return the concatenated array.
+`original`의 끝에 `attach`를 추가하기 위해 `nonMutatingConcat` 함수에 `concat` 메소드를 사용하시오. 이 함수는 합쳐진 배열을 반환해야 합니다.
 
 # --hints--
 
-Your code should use the `concat` method.
+`concat`를 사용해야 합니다.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/\.concat/g));
 ```
 
-The `first` array should not change.
+`first` 배열은 변하지 않아야 합니다.
 
 ```js
 assert(JSON.stringify(first) === JSON.stringify([1, 2, 3]));
 ```
 
-The `second` array should not change.
+`second` 배열은 변하지 않아야 합니다.
 
 ```js
 assert(JSON.stringify(second) === JSON.stringify([4, 5]));
 ```
 
-`nonMutatingConcat([1, 2, 3], [4, 5])` should return `[1, 2, 3, 4, 5]`.
+`nonMutatingConcat([1, 2, 3], [4, 5])`은 `[1, 2, 3, 4, 5]`를 반환해야 합니다.
 
 ```js
 assert(

@@ -8,7 +8,7 @@ dashedName: add-items-using-splice
 
 # --description--
 
-¿Recuerdas que en el último desafío mencionamos que `splice()` puede tomar hasta tres parámetros? Pues bien, puedes usar el tercer parámetro, compuesto por uno o varios elementos, para agregarlo al arreglo. Esto puede ser increíblemente útil para cambiar rápidamente un elemento, o un conjunto de elementos, por otro.
+Remember in the last challenge we mentioned that `splice()` can take up to three parameters? Well, you can use the third parameter, comprised of one or more element(s), to add to the array. This can be incredibly useful for quickly switching out an element, or a set of elements, for another.
 
 ```js
 const numbers = [10, 11, 12, 12, 15];

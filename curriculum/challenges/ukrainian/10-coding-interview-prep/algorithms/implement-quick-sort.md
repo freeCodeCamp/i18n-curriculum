@@ -8,7 +8,7 @@ dashedName: implement-quick-sort
 
 # --description--
 
-Зараз ми перейдемо до проміжного алгоритму сортування: швидкого сортування. Швидке сортування — це ефективний рекурсивний підхід до сортування масиву «Розділяй та володарюй». У цьому методі вибирається опорне значення у вхідному масиві. Потім масив розділяється на два підмасиви зі значеннями, меншими і більшими за опорне значення. Потім ми об’єднуємо результат рекурсивного виклику алгоритму швидкого сортування в обидвох підмасивах. Це продовжується, поки не буде досягнутий базовий випадок порожнього або єдиного елементу масиву, який ми повертаємо. Розмотування рекурсивних викликів повертає нам відсортований масив.
+Here we will move on to an intermediate sorting algorithm: quick sort. Quick sort is an efficient, recursive divide-and-conquer approach to sorting an array. In this method, a pivot value is chosen in the original array. The array is then partitioned into two subarrays of values less than and greater than the pivot value. We then combine the result of recursively calling the quick sort algorithm on both sub-arrays. This continues until the base case of an empty or single-item array is reached, which we return. The unwinding of the recursive calls return us the sorted array.
 
 Швидке сортування є дуже ефективним методом, який в середньому забезпечує продуктивність *O(nlog(n))*. Також його відносно легко реалізувати. Ці властивості роблять його популярним і корисним методом сортування.
 

@@ -1,6 +1,6 @@
 ---
 id: 587d8251367417b2b2512c62
-title: Create a Linked List Class
+title: 创建链表类
 challengeType: 1
 forumTopicId: 301628
 dashedName: create-a-linked-list-class
@@ -10,23 +10,23 @@ dashedName: create-a-linked-list-class
 
 Let's create a `linked list` class. Every linked list should start out with a few basic properties: a `head` (the first item in your list) and a `length` (number of items in your list). Sometimes you'll see implementations of linked lists that incorporate a `tail` for the last element of the list, but for now we'll just stick with these two. Whenever we add an element to the linked list, our `length` property should be incremented by one.
 
-We'll want to have a way to add items to our linked list, so the first method we'll want to create is the `add` method.
+我们希望有一种向链表添加项的方法，因此我们要创建的第一个方法是 `add` 方法。
 
-If our list is empty, adding an element to our linked list is straightforward enough: we just wrap that element in a `Node` class, and we assign that node to the `head` of our linked list.
+如果我们的链表是空的，那么向链表添加一个元素就很简单了：我们只需将该元素包装在一个 `Node` 类中，然后将该节点分配给我们的链表的 `head`。
 
-But what if our list already has one or more members? How do we add an element to the list? Recall that each node in a linked list has a `next` property. To add a node to the list, find the last node in the list, and point that last node's `next` property at our new node. (Hint: you know you've reached the end of a linked list when a node's `next` property is `null`.)
+但是如果我们的列表已经有一个或多个成员呢？ 我们如何在列表中添加元素？ 回想一下，链表中的每个节点都有一个 `next` 属性。 要将节点添加到列表，在列表中找到最后一个节点，并将该节点的 `next` 属性指向新节点。 （提示：当节点的 `next` 属性为 `null` 的时候，你知道已到达链表的末尾。）
 
 # --instructions--
 
-Write an add method that assigns the first node you push to the linked list to the `head`; after that, whenever adding a node, every node should be referenced by the previous node's `next` property.
+编写一个 add 方法，将你推送到链表的第一个节点分配给 `head`；之后，每当添加节点时，每个节点都应该被前一个节点的 `next` 属性引用。
 
-Note
+注意
 
-Your list's `length` should increase by one every time an element is added to the linked list.
+每次将元素添加到链表时，列表的 `length` 都应增加 1。
 
 # --hints--
 
-Your `LinkedList` class should have a `add` method.
+你的 `LinkedList` 类应该有一个 `add` 方法。
 
 ```js
 assert(
@@ -37,7 +37,7 @@ assert(
 );
 ```
 
-Your `LinkedList` class should assign `head` to the first node added.
+你的 `LinkedList` 类应该将 `head` 分配给添加的第一个节点。
 
 ```js
 assert(
@@ -49,7 +49,7 @@ assert(
 );
 ```
 
-The previous `node` in your `LinkedList` class should have reference to the newest node created.
+`LinkedList` 类中的前一个 `node` 应该引用最新创建的节点。
 
 ```js
 assert(
@@ -63,7 +63,7 @@ assert(
 );
 ```
 
-The  `size` of your `LinkedList` class should equal the amount of nodes in the linked list.
+`LinkedList` 类的 `size` 应该等于链表中的节点数量。
 
 ```js
 assert(

@@ -9,7 +9,7 @@ dashedName: improve-accessibility-of-audio-content-with-the-audio-element
 
 # --description--
 
-Das `audio`-Element von HTML5 sorgt für eine semantische Bedeutung, wenn es Sound- oder Audio-Stream-Inhalte in dein Markup einbettet. Audioinhalte benötigen auch eine Textalternative, um für gehörlose oder schwerhörige Menschen zugänglich zu sein. Dies kann mit nahegelegenem Text auf der Seite oder einem Link zu einem Transkript geschehen.
+HTML5's `audio` element gives semantic meaning when it wraps sound or audio stream content in your markup. Audio content also needs a text alternative to be accessible to people who are deaf or hard of hearing. This can be done with nearby text on the page or a link to a transcript.
 
 Das `audio`-Tag unterstützt das `controls`-Attribut. Dies zeigt die Standard-Wiedergabe-, Pause- und andere Steuerelemente des Browsers an und unterstützt die Tastaturfunktionalität. Dies ist ein boolesches Attribut, d. h. es benötigt keinen Wert, sein Vorhandensein im Tag schaltet die Einstellung ein.
 
@@ -26,7 +26,7 @@ Hier ist ein Beispiel:
 
 # --instructions--
 
-Zeit, eine Pause von Camper Cat zu machen und seinen Kollegen Zersiax (@zersiax) zu treffen, einen Meister der Barrierefreiheit und einen Screenreader-Nutzer. To hear a clip of his screen reader in action, add an `audio` element after the `p` element. Füge das `controls`-Attribut hinzu. Then place a `source` element inside the `audio` tags with the `src` attribute set to `https://cdn.freecodecamp.org/curriculum/applied-accessibility/screen-reader.mp3` and `type` attribute set to `"audio/mpeg"`.
+Zeit, eine Pause von Camper Cat zu machen und seinen Kollegen Zersiax (@zersiax) zu treffen, einen Meister der Barrierefreiheit und einen Screenreader-Nutzer. Um einen Clip seines Screenreaders in Aktion zu hören, füge ein `audio`-Element nach dem `p`-Tag ein. Füge das `controls`-Attribut hinzu. Then place a `source` element inside the `audio` tags with the `src` attribute set to `https://cdn.freecodecamp.org/curriculum/applied-accessibility/screen-reader.mp3` and `type` attribute set to `"audio/mpeg"`.
 
 **Hinweis:** Der Audioclip klingt vielleicht schnell und ist schwer verständlich, aber das ist eine normale Geschwindigkeit für Benutzer von Screenreadern.
 

@@ -1,6 +1,6 @@
 ---
 id: 587d7b8e367417b2b2512b5d
-title: Understand the Hazards of Using Imperative Code
+title: 명령형 코드 사용의 위험 이해하기
 challengeType: 1
 forumTopicId: 301241
 dashedName: understand-the-hazards-of-using-imperative-code
@@ -10,29 +10,29 @@ dashedName: understand-the-hazards-of-using-imperative-code
 
 Functional programming is a good habit. It keeps your code easy to manage, and saves you from sneaky bugs. But before we get there, let's look at an imperative approach to programming to highlight where you may have issues.
 
-In English (and many other languages), the imperative tense is used to give commands. Similarly, an imperative style in programming is one that gives the computer a set of statements to perform a task.
+영어(그리고 다른 많은 언어들)에서 명령문은 명령을 하기 위해 사용됩니다. 유사하게 프로그래밍에서 명령형은 작업을 수행하도록 컴퓨터에게 문장 집합을 주는 형식입니다.
 
-Often the statements change the state of the program, like updating global variables. A classic example is writing a `for` loop that gives exact directions to iterate over the indices of an array.
+이 문장들은 종종 전역 변수 수정과 같이 프로그램의 상태를 변화시킵니다. 전형적인 예시로는 배열의 인덱스를 순회하기 위한 정확한 지침을 제공하는 `for` 루프를 작성하는 것입니다.
 
-In contrast, functional programming is a form of declarative programming. You tell the computer what you want done by calling a method or function.
+이와 반대로 함수형 프로그래밍은 선언형 프로그래밍의 형태입니다. 함수나 메소드를 호출하여 컴퓨터에게 원하는 것을 실행하도록 지시합니다.
 
-JavaScript offers many predefined methods that handle common tasks so you don't need to write out how the computer should perform them. For example, instead of using the `for` loop mentioned above, you could call the `map` method which handles the details of iterating over an array. This helps to avoid semantic errors, like the "Off By One Errors" that were covered in the Debugging section.
+자바스크립트는 일반적인 작업을 처리하는 미리 정의된 많은 메소드를 제공하기 때문에 컴퓨터가 어떻게 그 작업을 실행하는지 작성할 필요가 없습니다. 예를 들면 위에서 언급한 `for` 루프를 사용하는 대신 배열을 순회하여 세부 사항을 처리하는 `map` 메소드를 호출할 수 있습니다. 이렇게 하면 디버깅 섹션에서 다루었던 "Off By One Errors"와 같은 의미적 오류를 피할 수 있습니다.
 
-Consider the scenario: you are browsing the web in your browser, and want to track the tabs you have opened. Let's try to model this using some simple object-oriented code.
+한 시나리오를 고려해보겠습니다: 브라우저로 웹을 찾으며 열었던 탭을 추적하기를 원한다고 하겠습니다. 간단한 객체 지향 코드로 이를 모델링해보겠습니다.
 
-A Window object is made up of tabs, and you usually have more than one Window open. The titles of each open site in each Window object is held in an array. After working in the browser (opening new tabs, merging windows, and closing tabs), you want to print the tabs that are still open. Closed tabs are removed from the array and new tabs (for simplicity) get added to the end of it.
+창(window) 객체는 탭으로 만들어지며 사용자는 보통 하나 이상의 창을 열게 됩니다. 각 창 객체에 사이트의 제목은 배열로 담겨 있습니다. 브라우저에서 작업을 마치고(새로운 탭 열기, 창 합치기 그리고 탭 닫기) 여전히 열린 탭을 출력하기 원합니다. 닫힌 탭은 해당 배열로부터 삭제되고 새로운 탭(간단하게 말해서) 배열의 끝에 추가됩니다.
 
-The code editor shows an implementation of this functionality with functions for `tabOpen()`, `tabClose()`, and `join()`. The array `tabs` is part of the Window object that stores the name of the open pages.
+코드 편집기는 `tabOpen()`, `tabClose()` 그리고 `join()`에 대한 함수와 함께 이 기능의 사용을 보여줍니다. 배열 `tabs`은 열어본 페이지의 이름을 저장한 창 객체의 부분입니다.
 
 # --instructions--
 
-Examine the code in the editor. It's using a method that has side effects in the program, causing incorrect behaviour. The final list of open tabs, stored in `finalTabs.tabs`, should be `['FB', 'Gitter', 'Reddit', 'Twitter', 'Medium', 'new tab', 'Netflix', 'YouTube', 'Vine', 'GMail', 'Work mail', 'Docs', 'freeCodeCamp', 'new tab']` but the list produced by the code is slightly different.
+편집기에서 코드를 시험해보시오. 이 코드는 프로그램에서 잘못된 동작을 일으키는 부작용을 가진 메소드를 사용합니다. `finalTabs.tabs`에 저장된 열린 탭의 마지막 목록은 `['FB', 'Gitter', 'Reddit', 'Twitter', 'Medium', 'new tab', 'Netflix', 'YouTube', 'Vine', 'GMail', 'Work mail', 'Docs', 'freeCodeCamp', 'new tab']`이어야 하지만 코드에 의해 생성된 목록은 조금 다릅니다.
 
-Change `Window.prototype.tabClose` so that it removes the correct tab.
+`Window.prototype.tabClose`를 변화시켜 올바른 탭을 삭제할 수 있도록 만드시오.
 
 # --hints--
 
-`finalTabs.tabs` should be `['FB', 'Gitter', 'Reddit', 'Twitter', 'Medium', 'new tab', 'Netflix', 'YouTube', 'Vine', 'GMail', 'Work mail', 'Docs', 'freeCodeCamp', 'new tab']`
+`finalTabs.tabs`은 `['FB', 'Gitter', 'Reddit', 'Twitter', 'Medium', 'new tab', 'Netflix', 'YouTube', 'Vine', 'GMail', 'Work mail', 'Docs', 'freeCodeCamp', 'new tab']`이어야 합니다.
 
 ```js
 assert.deepEqual(finalTabs.tabs, [

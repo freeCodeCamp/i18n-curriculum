@@ -8,7 +8,7 @@ dashedName: pass-arguments-to-avoid-external-dependence-in-a-function
 
 # --description--
 
-Попереднє завдання було на крок ближче до принципів функційного програмування, однак чогось досі не вистачає.
+The last challenge was a step closer to functional programming principles, but there is still something missing.
 
 Ми не змінили значення глобальної змінної, але функція `incrementer` не буде працювати без глобальної змінної `fixedValue`.
 

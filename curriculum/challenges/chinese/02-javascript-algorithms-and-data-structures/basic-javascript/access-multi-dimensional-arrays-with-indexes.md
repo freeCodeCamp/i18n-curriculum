@@ -1,6 +1,6 @@
 ---
 id: 56592a60ddddeae28f7aa8e1
-title: 使用索引访问多维数组
+title: 使用索引操作多维数组
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/ckND4Cq'
 forumTopicId: 16159
@@ -9,7 +9,7 @@ dashedName: access-multi-dimensional-arrays-with-indexes
 
 # --description--
 
-我们可以把<dfn>多维</dfn>数组看作成是*数组中的数组*。 当你使用括号访问你的数组时，第一组括号指的是最外层（第一层）数组中的条目，而每一对额外的括号指的是里面下一层的条目。
+One way to think of a <dfn>multi-dimensional</dfn> array, is as an *array of arrays*. When you use brackets to access your array, the first set of brackets refers to the entries in the outermost (the first level) array, and each additional pair of brackets refers to the next level of entries inside.
 
 **例如：**
 

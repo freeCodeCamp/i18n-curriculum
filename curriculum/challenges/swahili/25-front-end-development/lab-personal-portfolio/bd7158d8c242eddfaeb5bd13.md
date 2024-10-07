@@ -8,9 +8,9 @@ demoType: onClick
 
 # --description--
 
-**Objective:** Fulfill the user stories below and get all the tests to pass to complete the lab.
+Fulfill the user stories below and get all the tests to pass to complete the lab.
 
-**User Stories:**
+**Maelekezo:**
 
 1. Your portfolio should have a welcome section with an `id` of `welcome-section`.
 2. The welcome section should have an `h1` element that contains text.

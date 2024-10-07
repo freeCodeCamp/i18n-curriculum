@@ -8,13 +8,13 @@ dashedName: sorting-algorithmspancake-sort
 
 # --description--
 
-Write a function to sort an array of integers (of any convenient size) into ascending order using Pancake sorting. The function should return the sorted array.
+Schreibe eine Funktion zum Sortieren eines Bereichs von Ganzzahlen (beliebiger Größe) in aufsteigender Reihenfolge unter Verwendung der Pancake-Sortierung. Die Funktion sollte das sortierte Array zurückgeben.
 
 Kurz gesagt, anstatt einzelne Elemente zu sortieren, ist die einzige erlaubte Operation, ein Ende der Liste zu "umzudrehen", etwa so:
 
-<pre>Before:
+<pre>Vorher:
 <b>6 7 8 9</b> 2 5 3 4 1<br>
-After:
+Nachher:
 <b>9 8 7 6</b> 2 5 3 4 1
 </pre>
 

@@ -11,7 +11,7 @@ dashedName: use-jquery-to-modify-the-entire-page
 
 # --description--
 
-لقد انتهينا من اللعب مع jQuery playground. مزقه!
+We're done playing with our jQuery playground. Let's tear it down!
 
 يمكن لـ jQuery أن يستهدف عنصر `body` أيضًا.
 

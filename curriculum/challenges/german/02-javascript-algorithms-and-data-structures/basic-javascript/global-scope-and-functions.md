@@ -9,7 +9,7 @@ dashedName: global-scope-and-functions
 
 # --description--
 
-In JavaScript bezieht sich <dfn>scope</dfn> auf die Sichtbarkeit von Variablen. Variablen, die außerhalb eines Funktionsblocks definiert werden, haben einen <dfn>globalen</dfn> Gültigkeitsbereich. Das heißt, sie sind überall in deinem JavaScript-Code zu sehen.
+In JavaScript, <dfn>scope</dfn> refers to the visibility of variables. Variables which are defined outside of a function block have <dfn>Global</dfn> scope. This means, they can be seen everywhere in your JavaScript code.
 
 Variablen, die ohne das Schlüsselwort `let` oder `const` deklariert werden, werden automatisch in dem Bereich `global` erstellt. Dies kann an anderer Stelle in deinem Code oder beim erneuten Ausführen einer Funktion unbeabsichtigte Folgen haben. Du solltest deine Variablen immer mit `let` oder `const` deklarieren.
 

@@ -30,7 +30,7 @@ Importazione dati da Google Sheets
 
 ---
 
-Tutti i precedenti
+Tutte le precendenti
 
 ## --video-solution--
 

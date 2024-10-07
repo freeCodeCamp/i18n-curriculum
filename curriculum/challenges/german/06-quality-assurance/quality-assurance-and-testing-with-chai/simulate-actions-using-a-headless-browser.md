@@ -1,6 +1,6 @@
 ---
 id: 587d824f367417b2b2512c5c
-title: Simulate Actions Using a Headless Browser
+title: Aktionen mit einem Headless Browser simulieren
 challengeType: 2
 dashedName: simulate-actions-using-a-headless-browser
 ---
@@ -9,29 +9,29 @@ dashedName: simulate-actions-using-a-headless-browser
 
 As a reminder, this project is being built upon the following starter project on <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>, or cloned from <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
 
-In the next challenges, you'll simulate human interaction with a page by using a headless browser.
+In den nächsten Aufgaben wirst du die menschliche Interaktion mit einer Seite simulieren, indem du einen Headless Browser verwendest.
 
-Headless browsers are web browsers without a GUI. They are able to render and interpret HTML, CSS, and JavaScript the same way a regular browser would, making them particularly useful for testing web pages.
+Headless-Browser sind Webbrowser ohne grafische Benutzeroberfläche. Sie sind in der Lage, HTML, CSS und JavaScript auf die gleiche Weise zu rendern und zu interpretieren wie ein normaler Browser, was sie besonders nützlich für das Testen von Webseiten macht.
 
-For the following challenges you'll use Zombie.js, which is a lightweight headless browser that doesn't rely on additional binaries to be installed. But there are many other, more powerful headless browser options.
+Für die folgenden Aufgaben werden Sie Zombie.js verwenden, einen leichtgewichtigen, kopflosen Browser, der nicht auf die Installation zusätzlicher Binärdateien angewiesen ist. Aber es gibt viele andere, leistungsfähigere Headless-Browser-Optionen.
 
-Mocha allows you to run some code before any of the actual tests run. This can be useful to do things like add entries to a database which will be used in the rest of the tests.
+Mocha ermöglicht es dir, einen Teil des Codes auszuführen, bevor einer der eigentlichen Tests läuft. Dies kann z. B. nützlich sein, um Eintragungen in eine Datenbank vorzunehmen, die in den übrigen Tests verwendet werden.
 
-With a headless browser, before running tests, you need to **visit** the page you'll test.
+Mit einem Headless-Browser musst du, bevor du Tests ausführst, **die zu testende Seite besuchen**.
 
-The `suiteSetup` hook is executed only once at the beginning of a test suite.
+Der `suiteSetup`-Hook wird nur einmal zu Beginn einer Testsuite ausgeführt.
 
-There are several other hook types that can execute code before each test, after each test, or at the end of a test suite. See the Mocha docs for more information.
+Es gibt verschiedene andere Hook-Typen, die vor jedem Test, nach jedem Test oder am Ende einer Testsuite einen Code ausführen können. Weitere Informationen dazu findest du in den Mocha-Dokumenten.
 
 # --instructions--
 
-Within `tests/2_functional-tests.js`, immediately after the `Browser` declaration, add your project URL to the `site` property of the variable:
+Füge innerhalb der `tests/2_functional-tests.js`, sofort nach der `Browser` Deklaration, deine Projekt URL zu der `site` Eigenschaft der Variablen hinzu:
 
 ```js
 Browser.site = 'http://0.0.0.0:3000'; // Your URL here
 ```
 
-Then at the root level of the `'Functional Tests with Zombie.js'` suite, instantiate a new instance of the `Browser` object with the following code:
+Dann wird auf der Hauptebene der `'Functional Tests with Zombie.js'` Suite, eine neue Instanz des `Browser`-Objekts mit dem folgenden Code instanziiert:
 
 ```js
 const browser = new Browser();

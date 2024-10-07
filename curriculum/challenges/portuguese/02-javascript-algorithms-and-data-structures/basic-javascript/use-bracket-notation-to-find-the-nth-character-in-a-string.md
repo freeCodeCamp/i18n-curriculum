@@ -9,7 +9,7 @@ dashedName: use-bracket-notation-to-find-the-nth-character-in-a-string
 
 # --description--
 
-Você também pode usar <dfn>notação de colchetes</dfn> para pegar caracteres em outras posições em uma string.
+You can also use <dfn>bracket notation</dfn> to get the character at other positions within a string.
 
 Lembre-se de que computadores começam contando do `0`. Então, o primeiro caractere é na verdade o caractere na posição 0.
 
@@ -26,7 +26,7 @@ const secondLetterOfFirstName = firstName[1];
 
 Vamos tentar definir `thirdLetterOfLastName` para ser igual a terceira letra da variável `lastName` usando notação de colchetes.
 
-**Dica:** tente olhar o exemplo acima se você ficar travado.
+**Dica:** Tente olhar o exemplo acima se você ficar travado.
 
 # --hints--
 

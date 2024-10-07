@@ -9,7 +9,7 @@ dashedName: reduce-repetition-using-the-repeat-function
 
 # --description--
 
-그리드의 구조를 정의하기 위해 `grid-template-columns`와 `grid-template-rows`를 사용했을 때, 생성한 각 행 혹은 열에 값을 입력했습니다.
+When you used `grid-template-columns` and `grid-template-rows` to define the structure of a grid, you entered a value for each row or column you created.
 
 똑같은 높이를 가진 100개의 행을 가진 그리드를 생각해 보겠습니다. 100개의 값을 일일이 넣는 것은 실용적이지 못합니다. 다행히 더 나은 방법이 있습니다 - 행 혹은 열이 반복 횟수와 쉼표와 반복되는 값을 `repeat`에 넣어 사용하면 됩니다.
 

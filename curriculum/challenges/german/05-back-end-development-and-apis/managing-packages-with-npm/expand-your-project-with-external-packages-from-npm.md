@@ -8,7 +8,7 @@ dashedName: expand-your-project-with-external-packages-from-npm
 
 # --description--
 
-Einer der wichtigsten Gründe für die Verwendung eines Paketmanagers, ist dessen leistungstarkes Abhängigkeitsmanagement. Anstatt manuell sicherzustellen, dass du alle Abhängigkeiten erhältst, wenn du ein Projekt auf einem neuen Computer einrichtest, installiert npm alles automatisch für dich. Aber wie kann npm genau wissen, was dein Projekt benötigt? Lerne den `dependencies`-Abschnitt deiner package.json Datei kennen.
+One of the biggest reasons to use a package manager, is their powerful dependency management. Instead of manually having to make sure that you get all dependencies whenever you set up a project on a new computer, npm automatically installs everything for you. But how can npm know exactly what your project needs? Meet the `dependencies` section of your package.json file.
 
 In diesem Abschnitt werden die Pakete, die dein Projekt benötigt, in folgendem Format gespeichert:
 

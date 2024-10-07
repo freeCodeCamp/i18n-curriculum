@@ -8,14 +8,14 @@ dashedName: hash-join
 
 # --description--
 
-An inner join is an operation that combines two data tables into one table, based on matching column values. The simplest way of implementing this operation is the nested loop join algorithm, but a more scalable alternative is the hash join algorithm.
+Eine innere Verknüpfung ist ein Vorgang, bei dem zwei Datentabellen auf der Grundlage übereinstimmender Spaltenwerte zu einer einzigen Tabelle kombiniert werden. Die einfachste Art, diesen Vorgang zu implementieren, ist der verschachtelte Schleifen-Join-Algorithmus, aber eine skalierbarere Alternative ist der Hash-Join-Algorithmus.
 
 Der "Hash Join"-Algorithmus besteht aus zwei Schritten:
 
 <ol>
-  <li><strong>Hash phase:</strong> Create a multimap from one of the two tables, mapping from each join column value to all the rows that contain it.</li>
+  <li><strong>Hash-Phase:</strong> Erstelle eine Multimap aus einer der beiden Tabellen, die jeden Join-Spaltenwert auf alle Zeilen abbildet, die ihn enthalten.</li>
   <ul>
-    <li>The multimap must support hash-based lookup which scales better than a simple linear search, because that's the whole point of this algorithm.</li>
+    <li>Die Multimap muss eine Hash-basierte Suche unterstützen, die besser skaliert als eine einfache lineare Suche, denn das ist der Sinn dieses Algorithmus.</li>
     <li>Idealerweise sollte die Multimap für die kleinere Tabelle erstellt werden, um die Erstellungszeit und die Speichergröße zu minimieren.</li>
   </ul>
   <li><strong>Join-Phase:</strong> Scanne die andere Tabelle und finde übereinstimmende Zeilen in der zuvor erstellten Multimap.</li>
@@ -23,18 +23,18 @@ Der "Hash Join"-Algorithmus besteht aus zwei Schritten:
 
 Als Pseudocode könnte der Algorithmus wie folgt ausgedrückt werden:
 
-<pre><strong>let</strong> <i>A</i> = the first input table (or ideally, the larger one)
-<strong>let</strong> <i>B</i> = the second input table (or ideally, the smaller one)
-<strong>let</strong> <i>j<sub>A</sub></i> = the join column ID of table <i>A</i>
-<strong>let</strong> <i>j<sub>B</sub></i> = the join column ID of table <i>B</i>
-<strong>let</strong> <i>M<sub>B</sub></i> = a multimap for mapping from single values to multiple rows of table <i>B</i> (starts out empty)
-<strong>let</strong> <i>C</i> = the output table (starts out empty)
-<strong>for each</strong> row <i>b</i> in table <i>B</i>:
-  <strong>place</strong> <i>b</i> in multimap <i>M<sub>B</sub></i> under key <i>b(j<sub>B</sub>)</i>
-<strong>for each</strong> row <i>a</i> in table <i>A</i>:
-  <strong>for each</strong> row <i>b</i> in multimap <i>M<sub>B</sub></i> under key <i>a(j<sub>A</sub>)</i>:
-    <strong>let</strong> <i>c</i> = the concatenation of row <i>a</i> and row <i>b</i>
-    <strong>place</strong> row <i>c</i> in table <i>C</i>
+<pre><strong>Sei</strong> <i>A</i> = die erste Eingabetabelle (oder idealerweise die größere Tabelle)
+<strong>Sei</strong> <i>B</i> = die zweite Eingabetabelle (oder idealerweise die kleinere Tabelle)
+<strong>Sei</strong> <i>j<sub>A</sub></i> = die Join-Spalten-ID der Tabelle  <i>A</i>
+<strong>Sei</strong> <i>j<sub>B</sub></i> = die Join-Spalten-ID der Tabelle  <i>B</i>
+<strong>Sei</strong> <i>M<sub>B</sub></i> = eine Multimap für die Zuordnung von Einzelwerten auf mehreren Tabellenzeilen <i>B</i> (zu Beginn leer)
+<strong>Sei</strong> <i>C</i> =  die Ausgabetabelle (zu Beginn leer)
+<strong>Für jede</strong> Zeile <i>b</i> in Tabelle <i>B</i>:
+  <strong>Platziere</strong> <i>b</i> im Multimap <i>M<sub>B</sub></i> unter dem Schlüssel <i>b(j<sub>B</sub>)</i>
+<strong>Für jede</strong> Zeile <i>a</i> in Tabelle <i>A</i>:
+  <strong>Für jede</strong> Zeile <i>b</i> im Multimap <i>M<sub>B</sub></i> unter dem Schlüssel <i>a(j<sub>A</sub>)</i>:
+    <strong>Sei</strong> <i>c</i> = die Verkettung von Zeile <i>a</i> und Zeile <i>b</i>
+    <strong>Platziere</strong> Zeile <i>c</i> in Tabelle <i>C</i>
 </pre>
 
 # --instructions--
@@ -113,13 +113,13 @@ Implementiere den "hash join"-Algorithmus als Funktion und zeige, dass er den un
             <i>j<sub>A</sub> =</i>
           </td>
           <td style="border:none">
-            <i><code>Name</code> (i.e. column 1)</i>
+            <i><code>Name</code> (z.B. Spalte 1)</i>
           </td>
           <td style="border:none">
             <i>j<sub>B</sub> =</i>
           </td>
           <td style="border:none">
-            <i><code>Character</code> (i.e. column 0)</i>
+            <i><code>Character</code> (z.B. Spalte 0)</i>
           </td>
         </tr>
       </table>

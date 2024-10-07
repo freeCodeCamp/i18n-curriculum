@@ -9,7 +9,7 @@ dashedName: use-a-css-linear-gradient-to-create-a-striped-element
 
 # --description--
 
-Die `repeating-linear-gradient()`-Funktion ist sehr ähnlich zur `linear-gradient()` mit dem Unterschied, dass sie den angegebenen Farbverlauf wiederholt. `repeating-linear-gradient()` akzeptiert eine Vielzahl von Werten, aber aus Gründen der Einfachheit arbeitest du in dieser Aufgabe nur mit einem Winkel und Farbstoppwerten.
+The `repeating-linear-gradient()` function is very similar to `linear-gradient()` with the major difference that it repeats the specified gradient pattern. `repeating-linear-gradient()` accepts a variety of values, but for simplicity, you'll work with an angle value and color stop values in this challenge.
 
 Der Winkelwert definiert die Richtung des Verlaufes. Farbstopps sind wie width-Werte, bei denen ein Übergang stattfindet, und sie werden mit einem Prozentsatz oder in Pixel angegeben.
 

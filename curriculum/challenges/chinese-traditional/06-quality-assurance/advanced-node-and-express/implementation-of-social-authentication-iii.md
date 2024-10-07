@@ -8,7 +8,7 @@ dashedName: implementation-of-social-authentication-iii
 
 # --description--
 
-驗證策略的最後一部分是處理從 GitHub 返回的個人信息。 如果用戶存在，我們就需要從數據庫中讀取用戶數據並在 profile 頁面加載；否則，我們需要把用戶信息添加到數據庫。 GitHub 在用戶信息中爲我們提供了獨一無二的 *id*，我們可以通過序列化的 id 在數據庫中搜索用戶（已實現）。 以下是這個邏輯的實現示例，我們應該把它傳到新策略的第二個參數，就是目前 `console.log(profile);` 的下方：
+The final part of the strategy is handling the profile returned from GitHub. We need to load the user's database object if it exists, or create one if it doesn't, and populate the fields from the profile, then return the user's object. GitHub supplies us a unique *id* within each profile which we can use to search with to serialize the user with (already implemented). Below is an example implementation you can use in your project--it goes within the function that is the second argument for the new strategy, right below where `console.log(profile);` currently is:
 
 ```js
 myDataBase.findOneAndUpdate(
@@ -43,7 +43,7 @@ myDataBase.findOneAndUpdate(
 
 你現在應該可以登錄你的應用了， 試試吧！
 
-完成上述要求後，你可以在下方提交你的頁面鏈接。 如果你在運行時遇到錯誤，可以<a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#implementation-of-social-authentication-iii-5" target="_blank" rel="noopener noreferrer nofollow">查看已完成的項目</a>。
+完成上述要求後，請提交你的頁面鏈接。 如果你在運行時遇到錯誤，可以<a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#implementation-of-social-authentication-iii-5" target="_blank" rel="noopener noreferrer nofollow">查看已完成的項目</a>。
 
 # --hints--
 

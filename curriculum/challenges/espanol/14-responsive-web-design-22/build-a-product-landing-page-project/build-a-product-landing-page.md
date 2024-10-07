@@ -8,29 +8,29 @@ dashedName: build-a-product-landing-page
 
 # --description--
 
-**Objetivo:** construye una aplicación que sea funcionalmente similar a <a href="https://product-landing-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://product-landing-page.freecodecamp.rocks</a>. **No copies este proyecto de demostración**.
+**Objective:** Build an app that is functionally similar to <a href="https://product-landing-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://product-landing-page.freecodecamp.rocks</a>. **Do not copy this demo project**.
 
-**Historias de usuario:**
+**Instrucciones:**
 
-1. Tu página de inicio de producto debe tener un elemento `header` con un correspondiente `id="header"`
-1. Puedes ver una imagen dentro del elemento `header` con un correspondiente `id="header-img"` (Un logotipo sería una buena imagen aquí)
-1. Dentro el elemento `#header`, puedes ver un elemento `nav` con su correspondiente `id="nav-bar"`
-1. Puedes ver al menos tres elementos cliqueables dentro del elemento `nav`, cafda una con la clase `nav-link`
-1. Cuando hagas click en un botón `.nav-link` en el elemento `nav`, serás redireccionado a la sección correspondiente de la página de inicio
+1. Your product landing page should have a `header` element with a corresponding `id="header"`
+1. Puedes ver una imagen dentro del elemento `header` con el correspondiente `id="header-img"` (Un logotipo sería una buena imagen aquí)
+1. Dentro del elemento `#header` puedes ver un elemento `nav` con el correspondiente `id="nav-bar"`
+1. Puedes ver al menos tres elementos que se puede hacer clic dentro del elemento `nav`, cada uno con la clase `nav-link`
+1. Cuando haces clic en un botón `.nav-link` en el elemento `nav` se te llevará a la sección correspondiente de la página de inicio
 1. Puedes ver un vídeo del producto incrustado con `id="video"`
-1. Tu página de inicio tiene un elemento `form` con un correspondiente `id="form"`
-1. Dentro del formulario, hay un campo `input` con `id="email"`, donde puedes ingresar tu dirección de email
-1. El campo de entrada `#email` debe tener un marcador de texto para que los usuarios sepan para que sirve este campo
-1. El campo de entrada `#email` usa validación HTML5 para confirmar que el texto ingresado es una dirección de email
+1. Tu página de inicio tiene un elemento `form` con un `id="form"` correspondiente
+1. Dentro del formulario, hay un campo `input` con `id="email"`, donde puedes ingresar tu correo electrónico
+1. El campo de entrada `#email` debe tener un marcador de texto para que los usuarios sepan para qué sirve este campo
+1. El campo de entrada `#email` usa validación HTML5 para confirmar que el texto ingresado sea una dirección de email
 1. Dentro del formulario, hay un `input` de tipo submit (enviar) con su correspondiente `id="submit"`
-1. Cuendo haces click en el elemento `#submit`, el email es enviado a una página web (Utiliza esta URL de pruebas: `https://www.freecodecamp.com/email-submit`)
-1. La barra de navegación siempre debe estar en la parte superior de la vista
+1. Cuando haces clic en el elemento `#submit`, el email es enviado a una página web (Utiliza esta URL de pruebas: `https://www.freecodecamp.com/email-submit`)
+1. La barra de navegación siempre debe estar en la parte superior del viewport
 1. Tu página de inicio de tu producto debe tener al menos una consulta de medios
-1. Tu página de inicio del producto debe utillizar el flexbox CSS al menos una vez
+1. Tu página de inicio de producto debe utillizar el flexbox CSS al menos una vez
 
-Completa las instrucciones y pasa todas las pruebas a continuación para completar este proyecto. Dale tu propio estilo estilo personal. ¡Feliz día programando!
+Completa las intrucciones y pasa los tests de abajo para completar este projecto. Dale tu estilo personal. ¡Que tengas una feliz programación!
 
-**Nota:** Asegúrate de agregar `<link rel="stylesheet" href="styles.css">` en tu HTML para enlazar tu hoja de estilos y aplicar tu CSS
+**Nota:** Asegúrese de adicionar `<link rel="stylesheet" href="styles.css">` en su HTML para enlazar su hoja de estilos y aplicarla a su CSS
 
 # --hints--
 
@@ -62,7 +62,7 @@ const el = document.getElementById('header-img')
 assert(!!el && !!el.src)
 ```
 
-El valor del `src` de `#header-img` debe ser una URL válida (inicia con `http`).
+El valor de `src` de `#header-img` debe ser una URL válida(inicia con `http`).
 
 ```js
 const el = document.getElementById('header-img')
@@ -100,7 +100,7 @@ els.forEach(el => {
 assert(els.length > 0)
 ```
 
-Cada elemento `.nav-link` debe estar enlazado a su elemento correspondiente en la página de aterrizaje (el valor que tiene el `href` es el id de otro elemento, por ejemplo, `#footer`).
+Cada elemento `.nav-link` debe estar enlazado a su elemento correspondiente en la página de inicio (el valor que tiene el `href` es el id de otro elemento, por ejemplo, `#footer`).
 
 ```js
 const els = document.querySelectorAll('.nav-link')
@@ -203,7 +203,7 @@ const el = document.getElementById('email')
 assert(!!el && el.name === 'email')
 ```
 
-Tu `#nav-bar` siempre debe estar en la parte superior de la ventana gráfica.
+Tu `#nav-bar` siempre debe estar en la parte superior del viewport.
 
 ```js
 (async () => {

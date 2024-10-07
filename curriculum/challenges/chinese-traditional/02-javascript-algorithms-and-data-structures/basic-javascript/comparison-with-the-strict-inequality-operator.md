@@ -9,9 +9,9 @@ dashedName: comparison-with-the-strict-inequality-operator
 
 # --description--
 
-嚴格不相等運算符（`!==`）與全等運算符是相反的。 這意味着嚴格不相等並返回 `false` 的地方，用嚴格相等運算符會返回 `true`，*反之亦然*。 嚴格不相等運算符不會轉換值的數據類型。
+The strict inequality operator (`!==`) is the logical opposite of the strict equality operator. It means "Strictly Not Equal" and returns `false` where strict equality would return `true` and *vice versa*. The strict inequality operator will not convert data types.
 
-**示例**
+**例如：**
 
 ```js
 3 !==  3  // false

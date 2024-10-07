@@ -11,7 +11,7 @@ dashedName: target-the-same-element-with-multiple-jquery-selectors
 
 # --description--
 
-现在你知道了三种选取标签的方法：用元素选择器：`$("button")`、用类选择器：`$(".btn")` 以及用 id 选择器：`$("#target1")` 。
+Now you know three ways of targeting elements: by type: `$("button")`, by class: `$(".btn")`, and by id `$("#target1")`.
 
 虽然可以在单个 `.addClass()` 内添加多个类，但是我们可以用*三种不同的方式*给一种标签添加类。
 

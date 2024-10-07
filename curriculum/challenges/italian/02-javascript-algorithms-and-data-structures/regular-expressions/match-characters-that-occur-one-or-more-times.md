@@ -8,7 +8,7 @@ dashedName: match-characters-that-occur-one-or-more-times
 
 # --description--
 
-A volte, è necessario riconoscere un carattere (o un gruppo di caratteri) che appare una o più volte in una riga. Questo significa che esso compare almeno una volta, e può essere ripetuto.
+Sometimes, you need to match a character (or group of characters) that appears one or more times in a row. This means it occurs at least once, and may be repeated.
 
 Puoi usare il carattere `+` per verificare se è così. Ricorda, il carattere o il pattern deve essere presente consecutivamente. Cioè, i caratteri ripetuti devono essere adiacenti.
 

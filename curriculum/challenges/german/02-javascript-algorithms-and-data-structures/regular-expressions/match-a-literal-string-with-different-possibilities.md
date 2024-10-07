@@ -8,7 +8,7 @@ dashedName: match-a-literal-string-with-different-possibilities
 
 # --description--
 
-Mit Regexen wie `/coding/` kannst du nach dem Muster `coding` in einem anderen String suchen.
+Using regexes like `/coding/`, you can look for the pattern `coding` in another string.
 
 Diese Funktion ist leistungsstark, um einzelne Strings zu suchen, aber sie ist auf ein einziges Muster beschränkt. Du kannst nach mehreren Mustern suchen, indem du den Operator `alternation` oder `OR` verwendest: `|`.
 

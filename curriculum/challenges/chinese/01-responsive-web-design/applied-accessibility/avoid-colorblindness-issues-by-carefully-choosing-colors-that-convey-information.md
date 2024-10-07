@@ -11,7 +11,7 @@ dashedName: >-
 
 # --description--
 
-色盲的形式有很多种， 它的表现可以从对特定波长光波的感知度较低，到完全无法看到颜色。 最常见的形式是对绿色的低感知度。
+There are various forms of colorblindness. These can range from a reduced sensitivity to a certain wavelength of light to the inability to see color at all. The most common form is a reduced sensitivity to detect greens.
 
 例如，如果内容的前景色与背景色是两种相近的绿色，那么色盲用户可能会无法区分它们。 色轮上距离较近的颜色，特别是相邻的颜色，看起来都会很难区分。 在表示重要信息的时候应避免使用这类相近颜色的组合。
 

@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d4036174
-title: Bind 'this' to a Class Method
+title: 클래스 메서드에 'this' 바인딩하기
 challengeType: 6
 forumTopicId: 301379
 dashedName: bind-this-to-a-class-method
@@ -10,21 +10,21 @@ dashedName: bind-this-to-a-class-method
 
 In addition to setting and updating `state`, you can also define methods for your component class. A class method typically needs to use the `this` keyword so it can access properties on the class (such as `state` and `props`) inside the scope of the method. There are a few ways to allow your class methods to access `this`.
 
-One common way is to explicitly bind `this` in the constructor so `this` becomes bound to the class methods when the component is initialized. You may have noticed the last challenge used `this.handleClick = this.handleClick.bind(this)` for its `handleClick` method in the constructor. Then, when you call a function like `this.setState()` within your class method, `this` refers to the class and will not be `undefined`.
+한 가지 일반적인 방법은 `this`를 생성자(constructor)에 명시적으로 연결(바인딩 혹은 bind)해서, 컴포넌트가 초기 실행 될 때 `this`가 클래스 메서드에 연결되도록 해주는 겁니다. 이전 도전에서 생성자의 `handleClick` 메서드에 `this.handleClick = this.handleClick.bind(this)`을 사용한 것을 보셨을 수도 있습니다. 클래스 메서드에서 `this.setState()` 같은 함수를 호출하면, `this`는 클래스를 나타내며 `undefined`가 되지 않습니다.
 
-**Note:** The `this` keyword is one of the most confusing aspects of JavaScript but it plays an important role in React. Although its behavior here is totally normal, these lessons aren't the place for an in-depth review of `this` so please refer to other lessons if the above is confusing!
+**참고:** `this` 키워드는 자바스크립트에서 가장 헷갈리는 요소 중 하나지만, 리액트에서 중요한 역할을 합니다. 여기서는 `this`에 대해 심도 있는 학습을 하지 않으니, 위에 내용이 혼란스럽다면 다른 수업들을 참고해주세요.
 
 # --instructions--
 
-The code editor has a component with a `state` that keeps track of the text. It also has a method which allows you to set the text to `You clicked!`. However, the method doesn't work because it's using the `this` keyword that is undefined. Fix it by explicitly binding `this` to the `handleClick()` method in the component's constructor.
+코드 편집기에는 `text`를 추적하는 `상태`가 있는 컴포넌트가 있습니다. 또한 text를 `You clicked!`로 설정할 수 있는 메서드도 있습니다. 하지만 `this` 키워드가 정의가 안되어 있어서(undefined) 메서드가 작동하지 않습니다. 컴포넌트의 생성자에 있는 `handleClick()` 메서드에 `this`를 명시적으로 바인딩해서 고쳐보세요.
 
-Next, add a click handler to the `button` element in the render method. It should trigger the `handleClick()` method when the button receives a click event. Remember that the method you pass to the `onClick` handler needs curly braces because it should be interpreted directly as JavaScript.
+그런 다음, 클릭 핸들러를, 렌더링 메서드에 있는 `button` 엘리먼트에 추가해보세요. 버튼의 클릭 이벤트가 발생하면 `handleClick()` 메서드가 실행되어야 합니다. `onClick` 핸들러에 전달하는 메서드는 자바스크립트로 처리되어야 하므로 중괄호로 감싸는 것을 잊지마세요.
 
-Once you complete the above steps you should be able to click the button and see `You clicked!`.
+위의 단계를 완료하면, 버튼을 클릭하고 `You clicked!`를 확인해보세요.
 
 # --hints--
 
-`MyComponent` should return a `div` element which wraps two elements, a button and an `h1` element, in that order.
+`MyComponent`는 `button`그리고 `h1` 엘리먼트를 순서대로 가진 `div` 엘리먼트를 반환해야 합니다.
 
 ```js
 assert(
@@ -40,7 +40,7 @@ assert(
 );
 ```
 
-The state of `MyComponent` should initialize with the key value pair `{ text: "Hello" }`.
+`MyComponent`의 상태는 키와 값의 쌍으로 초기화 되어야 합니다 `{ text: "Hello" }`
 
 ```js
 assert(
@@ -48,7 +48,7 @@ assert(
 );
 ```
 
-Clicking the `button` element should run the `handleClick` method and set the state `text` to `You clicked!`.
+`button` 엘리먼트를 클릭하면 `handleClick` 메서드가 실행되고, 상태 `text`를 `You clicked!`로 설정해야 합니다.
 
 ```js
 async () => {

@@ -7,13 +7,13 @@ dashedName: dialogue-meeting-a-client
 
 # --description--
 
-Watch the video above to understand the context of the upcoming lessons.
+Schau dir das Vides oben an, um den Kontext der kommenden Lektionen zu verstehen.
 
 # --Auftrag--
 
-Watch the video
+Schau das Video
 
-# --blanks--
+# --scene--
 
 ```json
 {

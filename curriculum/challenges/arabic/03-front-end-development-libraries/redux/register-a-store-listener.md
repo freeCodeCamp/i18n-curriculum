@@ -8,7 +8,7 @@ dashedName: register-a-store-listener
 
 # --description--
 
-طريقة أخرى لديك حق الوصول إليها على الكائن `store` في Redux هي `store.subscribe()`. هذا يسمح لك باشتراك وظائف المستمع في المتجر، التي يتم استدعاؤها كلما تم إرسال إجراء ضد المتجر. أحد الاستخدامات البسيطة لهذه الطريقة هو أرتباط وظيفة في متجرك تبسط تسجيل رسالة في كل مرة يتم فيها تلقي إجراء ويتم تحديث المتجر (store).
+Another method you have access to on the Redux `store` object is `store.subscribe()`. This allows you to subscribe listener functions to the store, which are called whenever an action is dispatched against the store. One simple use for this method is to subscribe a function to your store that simply logs a message every time an action is received and the store is updated.
 
 # --instructions--
 

@@ -8,7 +8,7 @@ dashedName: specify-upper-and-lower-number-of-matches
 
 # --description--
 
-Erinnere dich daran, dass du das Pluszeichen `+` verwendest, um nach einem oder mehreren Zeichen und das Sternchen `*`, um nach null oder mehr Zeichen zu suchen. Diese sind praktisch, aber manchmal willst du eine bestimmte Reihe von Mustern abgleichen.
+Recall that you use the plus sign `+` to look for one or more characters and the asterisk `*` to look for zero or more characters. These are convenient but sometimes you want to match a certain range of patterns.
 
 Du kannst die untere und obere Anzahl der Muster mit <dfn>Quantifizierer</dfn> festlegen. Quantifizierer werden mit geschweiften Klammern verwendet (`{` und`}`). Du setzt zwei Zahlen zwischen die geschweiften Klammern - für die untere und obere Anzahl der Muster.
 

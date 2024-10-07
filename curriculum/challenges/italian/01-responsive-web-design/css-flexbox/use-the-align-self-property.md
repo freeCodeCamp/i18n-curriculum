@@ -9,7 +9,7 @@ dashedName: use-the-align-self-property
 
 # --description--
 
-L'ultima proprietà per gli oggetti flex è `align-self`. Questa proprietà consente di regolare l'allineamento di ogni elemento singolarmente, invece di impostarli tutti contemporaneamente. Questo è utile in quanto altre tecniche di regolazione comuni che utilizzano le proprietà CSS `float`, `clear`e `vertical-align` non funzionano su elementi flex.
+The final property for flex items is `align-self`. This property allows you to adjust each item's alignment individually, instead of setting them all at once. This is useful since other common adjustment techniques using the CSS properties `float`, `clear`, and `vertical-align` do not work on flex items.
 
 `align-self` accetta gli stessi valori di `align-items` e sovrascriverà qualsiasi valore impostato dalla proprietà `align-items`.
 

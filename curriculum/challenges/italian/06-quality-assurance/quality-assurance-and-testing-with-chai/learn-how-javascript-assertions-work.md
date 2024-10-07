@@ -8,15 +8,15 @@ dashedName: learn-how-javascript-assertions-work
 
 # --description--
 
-Lavorare su queste sfide ti porterà a scrivere il tuo codice utilizzando uno dei seguenti metodi:
+Working on these challenges will involve you writing your code using one of the following methods:
 
-- Clonare <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">questo repository GitHub</a> e completare queste sfide localmente.
+- Clone <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete these challenges locally.
 - Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete these challenges.
-- Usare un costruttore di siti a tua scelta per completare il progetto. Assicurati di incorporare tutti i file del nostro repository GitHub.
+- Usare un costruttore di siti di tua scelta per completare il progetto. Assicurati di incorporare tutti i file del nostro repository GitHub.
 
 # --instructions--
 
-Within `tests/1_unit-tests.js` under the test labeled `#1` in the `Basic Assertions` suite, change each `assert` to either `assert.isNull` or `assert.isNotNull` to make the test pass (should evaluate to `true`). Non cambiare gli argomenti passati alle asserzioni.
+Within `tests/1_unit-tests.js` under the test labeled `#1` in the `Basic Assertions` suite, change each `assert` to either `assert.isNull` or `assert.isNotNull` to make the test pass (should evaluate to `true`). Non alterare gli argomenti passati alle asserzioni.
 
 # --hints--
 
@@ -34,7 +34,7 @@ Tutti i test dovrebbero essere superati.
   );
 ```
 
-Dovresti scegliere il metodo corretto per la prima asserzione - `isNull` oppure `isNotNull`.
+You should choose the correct method for the first assertion - `isNull` vs. `isNotNull`.
 
 ```js
 (getUserInput) =>
@@ -48,7 +48,7 @@ Dovresti scegliere il metodo corretto per la prima asserzione - `isNull` oppure 
   );
 ```
 
-Dovresti scegliere il metodo corretto per la seconda asserzione - `isNull` oppure `isNotNull`.
+You should choose the correct method for the second assertion - `isNull` vs. `isNotNull`.
 
 ```js
 (getUserInput) =>

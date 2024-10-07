@@ -8,7 +8,7 @@ dashedName: caesars-cipher
 
 # --description--
 
-愷撒密碼（ <dfn>Caesar cipher</dfn>）是最簡單且最廣爲人知的密碼（<dfn>ciphers</dfn>），也被稱爲移位密碼（<dfn>shift cipher</dfn>）。 在移位密碼中，明文中的字母通過按照一個固定數目進行偏移後被替換成新的字母。
+One of the simplest and most widely known <dfn>ciphers</dfn> is a <dfn>Caesar cipher</dfn>, also known as a <dfn>shift cipher</dfn>. In a shift cipher the meanings of the letters are shifted by some set amount.
 
 現代最常被應用到的一個變種就是 <a href="https://www.freecodecamp.org/news/how-to-code-the-caesar-cipher-an-introduction-to-basic-encryption-3bf77b4e19f7/" target="_blank" rel="noopener noreferrer nofollow">ROT13</a> 加密，也就是明文中的字母向後移 13 位。 也就是， `A ↔ N`，`B ↔ O` 等等。
 

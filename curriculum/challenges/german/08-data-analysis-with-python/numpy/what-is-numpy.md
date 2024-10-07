@@ -14,7 +14,7 @@ dashedName: what-is-numpy
 
 ## --text--
 
-Warum sind Numpy-Arrays schneller als normale Python-Listen?
+Why are Numpy arrays faster than regular Python lists?
 
 ## --answers--
 
@@ -22,7 +22,7 @@ Numpy führt keine Typüberprüfung durch, während es durch Objekte iteriert.
 
 ---
 
-Numpy uses fixed types.
+Numpy verwendet feste Typen.
 
 ---
 

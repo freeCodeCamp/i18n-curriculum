@@ -8,9 +8,9 @@ dashedName: rock-paper-scissors
 
 # --description--
 
-在這個挑戰中，你將創建一個程序來玩石頭、剪刀、布。 一個隨機選取的程序通常會有 50% 的時間獲勝。 要通過這一挑戰，你的程序必須與四個不同的機器人進行對戰，並達到至少 60% 勝率。
+For this challenge, you will create a program to play Rock, Paper, Scissors. A program that picks at random will usually win 50% of the time. To pass this challenge your program must play matches against four different bots, winning at least 60% of the games in each match.
 
-You will be <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-rock-paper-scissors/" target="_blank" rel="noopener noreferrer nofollow">working on this project with our Gitpod starter code</a>.
+你將 <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-rock-paper-scissors/" target="_blank" rel="noopener noreferrer nofollow">使用我們的 Gitpod 啓動代碼來處理這個項目</a>。
 
 我們仍在開發機器學習課程的交互式課程部分。 現在，你需要使用其他資源來學習如何通過這一挑戰。
 
@@ -24,7 +24,7 @@ You will be <a href="https://gitpod.io/?autostart=true#https://github.com/freeCo
 
 *提示：爲了打敗所有四個對手，你的程序可能需要有多種策略，這些策略會根據對手的棋局而改變。*
 
-## 開發
+## Development
 
 不要修改 `RPS_game.py`。 在 `RPS.py` 中編寫所有代碼。 對於開發，你可以使用 `main.py` 來測試你的代碼。
 
@@ -32,8 +32,8 @@ You will be <a href="https://gitpod.io/?autostart=true#https://github.com/freeCo
 
 要測試你的代碼，請使用 `play` 函數玩遊戲。 `play` 函數有四個參數：
 
-- 兩個玩家互相對戰（玩家實際上是函數）
-- 對戰中的比賽場數
+- two players to play against each other (the players are actually functions)
+- 比賽的比賽場數
 - 一個可選參數來查看每場比賽的日誌。 將其設置爲 `True` 以查看這些消息。
 
 ```py
@@ -48,11 +48,11 @@ play(player, quincy, 1000, verbose=True)
 
 ## 測試
 
-這個項目的單元測試在 `test_module.py` 中。 爲了你的方便，我們將測試從 `test_module.py` 導入到 `main.py`。 If you uncomment the last line in `main.py`, the tests will run automatically whenever you run `python main.py` in the console.
+此項目的單元測試在 `test_module.py` 中。 爲了你的方便，我們將測試從 `test_module.py` 導入到 `main.py`。 你如果移除 `main.py` 中最後一行的註釋，那麼每次在控制檯執行 `python main.py` 時，測試都會自動運行。
 
 ## 提交
 
-Copy your project's URL and submit it to freeCodeCamp.
+複製項目的 URL 並將其提交給 freeCodeCamp。
 
 # --hints--
 

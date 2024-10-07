@@ -8,7 +8,7 @@ dashedName: add-inline-styles-in-react
 
 # --description--
 
-在上一次挑戰中，你可能已經注意到，除了設置爲 JavaScript 對象的 `style` 屬性之外，與 HTML 內聯樣式相比，React 的內聯樣式還有其他幾個語法差異。 首先，某些 CSS 樣式屬性的名稱使用駝峯式命名。 例如，最後一個挑戰用 `fontSize` 而不是 `font-size` 來設置字體的大小。 對於 JavaScript 對象屬性來說，像 `font-size` 這樣的連字符命名是無效的語法，所以 React 使用駝峯式命名。 通常，任何連字符的 style 屬性在 JSX 中都是使用駝峯式命名的。
+You may have noticed in the last challenge that there were several other syntax differences from HTML inline styles in addition to the `style` attribute set to a JavaScript object. First, the names of certain CSS style properties use camel case. For example, the last challenge set the size of the font with `fontSize` instead of `font-size`. Hyphenated words like `font-size` are invalid syntax for JavaScript object properties, so React uses camel case. As a rule, any hyphenated style properties are written using camel case in JSX.
 
 除非另有規定，否則所有屬性值長度單位（如 `height`、`width` 和 `fontSize`）都假定爲 `px`。 例如，如果要使用 `em`，可以用引號將值和單位括起來，例如 `{fontSize: "4em"}`。 除了默認爲 `px` 的長度值之外，所有其他屬性值都應該用引號括起來。
 

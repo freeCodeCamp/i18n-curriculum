@@ -11,7 +11,7 @@ dashedName: use-jquery-to-modify-the-entire-page
 
 # --description--
 
-以上で jQuery プレイグラウンドでの作業は終了です。 片付けてしまいましょう！
+We're done playing with our jQuery playground. Let's tear it down!
 
 jQuery では `body` 要素もターゲットにすることができます。
 

@@ -9,7 +9,7 @@ dashedName: inherit-css-variables
 
 # --description--
 
-변수를 생성하면 생성한 선택자(selector) 내에서 변수를 사용할 수 있습니다. 또한 해당 선택자의 하위 항목에서도 사용할 수 있습니다. CSS의 변수는 일반 속성처럼 상속되기 때문입니다.
+When you create a variable, it is available for you to use inside the selector in which you create it. It also is available in any of that selector's descendants. This happens because CSS variables are inherited, just like ordinary properties.
 
 상속을 활용하기 위해 CSS 변수를 종종 <dfn>:root</dfn> 요소 안에 정의하기도 합니다.
 

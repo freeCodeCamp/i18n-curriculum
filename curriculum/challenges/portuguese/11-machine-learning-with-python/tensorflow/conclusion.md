@@ -14,7 +14,7 @@ dashedName: conclusion
 
 ## --text--
 
-A maioria das pessoas que são especialistas em IA ou em aprendizagem de máquina normalmente...:
+Most people that are experts in AI or machine learning usually...:
 
 ## --answers--
 

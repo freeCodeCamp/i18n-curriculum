@@ -1,6 +1,6 @@
 ---
 id: 657b72cbdef32ec0b1a24afb
-title: Task 29
+title: 任务 29
 challengeType: 19
 dashedName: task-29
 ---
@@ -11,7 +11,7 @@ dashedName: task-29
 
 When you hear about different types of guitars, two common kinds might come up: `electric` and `acoustic`. `Electric guitars` usually need something called an amplifier to be loud enough to hear, while `acoustic guitars` can be heard without any extra equipment.
 
-# --questions--
+# 问题
 
 ## --text--
 

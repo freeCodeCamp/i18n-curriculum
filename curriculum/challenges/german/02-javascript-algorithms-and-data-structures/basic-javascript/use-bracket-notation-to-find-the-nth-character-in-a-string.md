@@ -9,7 +9,7 @@ dashedName: use-bracket-notation-to-find-the-nth-character-in-a-string
 
 # --description--
 
-Du kannst die <dfn>Klammer-Notation</dfn> auch verwenden, um das Zeichen an anderen Position innerhalb eines Strings zu erhalten.
+You can also use <dfn>bracket notation</dfn> to get the character at other positions within a string.
 
 Denke daran, dass Computer bei `0` zu zählen beginnen, so dass das erste Zeichen eigentlich das nullte Zeichen ist.
 

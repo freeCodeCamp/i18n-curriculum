@@ -11,7 +11,7 @@ dashedName: manipulate-arrays-with-push
 
 An easy way to append data to the end of an array is via the `push()` method.
 
-The `push()` method takes one or more <dfn>arguments</dfn> and appends them to the end of the array, in the order in which they appear. It returns the new length of the array.
+Die `push()`-Methode nimmt einen oder mehrere <dfn>Argumente</dfn> und hängt sie an das Ende des Arrays an, in der Reihenfolge, in der sie angezeigt werden. Sie gibt die neue Länge des Arrays zurück.
 
 Beispiele:
 
@@ -23,7 +23,7 @@ const arr2 = ["Stimpson", "J", "cat"];
 arr2.push(["happy", "joy"]);
 ```
 
-`arr1` now has the value `[1, 2, 3, 4, 5]` and `arr2` has the value `["Stimpson", "J", "cat", ["happy", "joy"]]`.
+`arr1` hat jetzt den Wert `[1, 2, 3, 4, 5]` und `arr2` hat den Wert `["Stimpson", "J", "cat", ["happy", "joy"]]`.
 
 # --instructions--
 

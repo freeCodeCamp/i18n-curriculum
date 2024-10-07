@@ -1,6 +1,6 @@
 ---
 id: 587d8251367417b2b2512c65
-title: Remove Elements from a Linked List by Index
+title: 按索引從鏈表中刪除元素
 challengeType: 1
 forumTopicId: 301711
 dashedName: remove-elements-from-a-linked-list-by-index
@@ -10,21 +10,21 @@ dashedName: remove-elements-from-a-linked-list-by-index
 
 Before we move on to another data structure, let's get a couple of last bits of practice with linked lists.
 
-Let's write a `removeAt` method that removes the `element` at a given `index`. The method should be called `removeAt(index)`. To remove an `element` at a certain `index`, we'll need to keep a running count of each node as we move along the linked list.
+讓我們編寫一個 `removeAt` 方法來刪​​除給定 `index` 處的 `element`。 該方法應該被稱爲 `removeAt(index)`。 要刪除某個 `index` 處的 `element`，我們需要在沿着鏈表移動時保持每個節點的運行計數。
 
-A common technique used to iterate through the elements of a linked list involves a <dfn>'runner'</dfn>, or sentinel, that 'points' at the nodes that your code is comparing. In our case, starting at the `head` of our list, we start with a `currentIndex` variable that starts at `0`. The `currentIndex` should increment by one for each node we pass.
+用於遍歷鏈表的元素的常用技術涉及<dfn>“轉輪”</dfn>或“哨兵”，它們“指向”代碼所比較的節點。 在我們的例子中，從列表的 `head` 開始，我們從 `currentIndex` 變量爲 `0` 開始。 對於我們遍歷的每個節點， `currentIndex` 應該增加 1。
 
-Just like our `remove(element)` method, which <a href="/learn/coding-interview-prep/data-structures/remove-elements-from-a-linked-list" target="_blank" rel="noopener noreferrer nofollow">we covered in a previous lesson</a>, we need to be careful not to orphan the rest of our list when we remove the node in our `removeAt(index)` method. We keep our nodes contiguous by making sure that the node that has reference to the removed node has a reference to the next node.
+就像我們在上一課中介紹的 remove(element) 方法一樣，當我們在 removeAt(index)方法中刪除節點時，我們需要注意不要孤立列表的其餘部分。 我們通過確保引用已移除節點的節點具有對下一個節點的引用來保持節點的連續性。
 
 # --instructions--
 
-Write a `removeAt(index)` method that removes and returns a node at a given `index`. The method should return `null` if the given `index` is either negative, or greater than or equal to the `length` of the linked list.
+編寫一個 removeAt(index) 方法，該方法刪除並返回給定 index處的節點。 如果給定的 index 是負數，或者大於或等於鏈表的 length，該方法應該返回 null。
 
-**Note:** Remember to keep count of the `currentIndex`.
+注意：請記住保留對 currentIndex 的計數。
 
 # --hints--
 
-Your `LinkedList` class should have a `removeAt` method.
+你的 `LinkedList` 類應該有一個 `removeAt` 方法。
 
 ```js
 assert(
@@ -35,7 +35,7 @@ assert(
 );
 ```
 
-Your `removeAt` method should reduce the `length` of the linked list by one.
+你的 `removeAt` 方法應該將鏈表的 `length` 減少一個。
 
 ```js
 assert(
@@ -50,7 +50,7 @@ assert(
 );
 ```
 
-Your `removeAt` method should remove the element at the specified index from the linked list.
+你的 `removeAt` 方法應該從鏈表中刪除指定索引處的元素。
 
 ```js
 assert(
@@ -69,7 +69,7 @@ assert(
 );
 ```
 
-When only one element is present in the linked list, your `removeAt` method should remove and return the element at specified index, and reduce the length of the linked list.
+當鏈表中只有一個元素時，您的 `removeAt` 方法應該刪除並返回指定索引處的元素，並減少鏈表的長度。
 
 ```js
 assert(
@@ -82,7 +82,7 @@ assert(
 );
 ```
 
-Your `removeAt` method should return the element of the removed node.
+你的 `removeAt` 方法應該返回被移除節點的元素。
 
 ```js
 assert(
@@ -96,7 +96,7 @@ assert(
 );
 ```
 
-Your `removeAt` method should return `null` and the linked list should not change if the given index is less than `0`.
+你的 `removeAt` 方法應該返回 `null` 並且如果給定的索引小於 `0`，鏈表不應該改變。
 
 ```js
 assert(
@@ -115,7 +115,7 @@ assert(
 );
 ```
 
-Your `removeAt` method should return `null` and the linked list should not change if the given index is greater than or equal to the `length` of the list.
+你的 `removeAt` 方法應該返回 `null`，如果給定的索引大於或等於列表的 `length`，鏈接列表不應該改變。
 
 ```js
 assert(

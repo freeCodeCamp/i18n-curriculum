@@ -8,7 +8,7 @@ dashedName: create-a-circular-queue
 
 # --description--
 
-Neste desafio, você criará uma fila circular. Uma fila circular é uma fila escreve até o final de uma coleção e que, então, começa a se sobrescrever no início da coleção. Este tipo de estrutura de dados é útil em certas situações. Por exemplo, uma fila circular pode ser usada para streaming de mídia. Quando a fila está cheia, os novos dados de mídia vão sobrescrever os dados antigos.
+In this challenge you will be creating a Circular Queue. A circular queue is a queue that writes to the end of a collection then begins overwriting itself at the beginning of the collection. This type of data structure is useful in certain situations. For example, a circular queue can be used for streaming media. Once the queue is full, new media data will overwrite old data.
 
 Uma boa maneira de ilustrar esse conceito é com um array de tamanho `5`:
 

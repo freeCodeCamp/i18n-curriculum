@@ -7,7 +7,7 @@ dashedName: step-19
 
 # --description--
 
-Quando você adiciona um elemento de título menor à página, é implícito que você está iniciando uma nova subseção.
+When you add a lower rank heading element to the page, it's implied that you're starting a new subsection.
 
 Depois do último elemento `h2` do segundo elemento `section`, adicione um elemento `h3` com este texto:
 

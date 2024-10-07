@@ -9,7 +9,7 @@ dashedName: create-a-graphic-using-css
 
 # --description--
 
-Керуючи різними селекторами та властивостями, ви можете створювати цікаві фігури. Однією з найпростіших фігур є фігура півмісяця. Для цього завдання вам необхідно використати властивість `box-shadow`, яка задає тінь елементу, та властивість `border-radius`, яка контролює округлення кутів елементу.
+By manipulating different selectors and properties, you can make interesting shapes. One of the easier ones to try is a crescent moon shape. For this challenge you need to work with the `box-shadow` property that sets the shadow of an element, along with the `border-radius` property that controls the roundness of the element's corners.
 
 Ви створите круглий, прозорий об'єкт з чіткою тінню, що трохи зсунута в сторону і повторює форму півмісяця.
 

@@ -8,7 +8,7 @@ dashedName: change-styles-based-on-data
 
 # --description--
 
-O D3 tem a ver com a visualização e a apresentação dos dados. Você provavelmente vai querer alterar o estilo de elementos com base nos dados. Por exemplo, pode ser que você queira colorir um ponto dos dados em azul se ele tiver um valor inferior a 20, ou em vermelho se for igual ou superior. Você pode usar uma função de callback no método `style()` e incluir uma lógica condicional. A função de callback usa o parâmetro `d` para representar o ponto de dados:
+D3 is about visualization and presentation of data. It's likely you'll want to change the styling of elements based on the data. For example, you may want to color a data point blue if it has a value less than 20, and red otherwise. You can use a callback function in the `style()` method and include the conditional logic. The callback function uses the `d` parameter to represent the data point:
 
 ```js
 selection.style("color", (d) => {

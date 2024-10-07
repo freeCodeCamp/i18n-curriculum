@@ -36,7 +36,7 @@ Modificar nuestro ejemplo anterior para usar elementos de párrafo soluciona el 
 
 Mira y sigue el video de Párrafos y Títulos de HTML de Kevin Powell arriba.
 
-# --questions--
+# --preguntas--
 
 ## --text--
 

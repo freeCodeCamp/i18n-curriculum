@@ -1,6 +1,6 @@
 ---
 id: 587d7dad367417b2b2512b75
-title: Create a Method on an Object
+title: Unda Mbinu kwenye Kipenge
 challengeType: 1
 forumTopicId: 301318
 dashedName: create-a-method-on-an-object
@@ -10,7 +10,7 @@ dashedName: create-a-method-on-an-object
 
 Objects can have a special type of property, called a <dfn>method</dfn>.
 
-Methods are properties that are functions. This adds different behavior to an object. Here is the `duck` example with a method:
+Mbinu ni sifa ambazo ni vitendakazi. Hii inafanya kuongezeka kwa tabia tofauti kwa kipenge. Huu hapa ni mfano wa `duck` ulio na mbinu:
 
 ```js
 let duck = {

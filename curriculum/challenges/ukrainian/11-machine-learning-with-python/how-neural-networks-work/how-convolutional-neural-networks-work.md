@@ -10,7 +10,7 @@ dashedName: how-convolutional-neural-networks-work
 
 ## --text--
 
-Коли згорткові нейронні мережі не є корисними?
+When are Convolutional Neural Networks not useful?
 
 ## --answers--
 

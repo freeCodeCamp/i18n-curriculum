@@ -1,6 +1,6 @@
 ---
 id: 5900f4691000cf542c50ff7b
-title: 'Problem 252: Convex Holes'
+title: 'Problem 252: Konvexe Löcher'
 challengeType: 1
 forumTopicId: 301900
 dashedName: problem-252-convex-holes
@@ -8,24 +8,24 @@ dashedName: problem-252-convex-holes
 
 # --description--
 
-Given a set of points on a plane, we define a convex hole to be a convex polygon having as vertices any of the given points and not containing any of the given points in its interior (in addition to the vertices, other given points may lie on the perimeter of the polygon).
+Bei einer Menge von Punkten auf einer Ebene definieren wir ein konvexes Loch als ein konvexes Polygon, das als Scheitelpunkte jeden der gegebenen Punkte hat und keinen der gegebenen Punkte in seinem Inneren enthält (zusätzlich zu den Scheitelpunkten können andere gegebene Punkte auf dem Umfang des Polygons liegen).
 
-As an example, the image below shows a set of twenty points and a few such convex holes. The convex hole shown as a red heptagon has an area equal to 1049694.5 square units, which is the highest possible area for a convex hole on the given set of points.
+Die folgende Abbildung zeigt als Beispiel einen Satz von zwanzig Punkten und einige solcher konvexen Löcher. Das konvexe Loch, das als rotes Heptagon dargestellt ist, hat eine Fläche von 1049694,5 Quadrateinheiten, was die höchstmögliche Fläche für ein konvexes Loch auf der gegebenen Punktmenge ist.
 
-<img alt="set of twenty points and convex holes on plane" src="https://cdn.freecodecamp.org/curriculum/project-euler/convex-holes.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
+<img alt="Reihe von zwanzig Punkten und konvexen Löchern in der Ebene" src="https://cdn.freecodecamp.org/curriculum/project-euler/convex-holes.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-For our example, we used the first 20 points ($T_{2k − 1}$, $T_{2k}$), for $k = 1, 2, \ldots, 20$, produced with the pseudo-random number generator:
+Für unser Beispiel haben wir die ersten 20 Punkte ($T_{2k − 1}$, $T_{2k}$) für $k = 1, 2, Punkte, 20$ verwendet, die mit dem Pseudo-Zufallszahlengenerator erzeugt wurden:
 
 $$\begin{align}   S_0 & = 290\\,797 \\\\
   S_{n+1} & = {S_n}^2 \\; \text{mod} \\; 50\\,515\\,093 \\\\ T_n & = (S_n \\; \text{mod} \\; 2000) − 1000 \end{align}$$
 
-i.e. (527, 144), (−488, 732), (−454, −947), …
+z.B. (527, 144), (−488, 732), (−454, −947), …
 
-What is the maximum area for a convex hole on the set containing the first 500 points in the pseudo-random sequence? Specify your answer including one digit after the decimal point.
+Wie groß ist die maximale Fläche eines konvexen Lochs in der Menge, die die ersten 500 Punkte der Pseudo-Zufallsfolge enthält? Gib deine Antwort mit einer Nachkommastelle an.
 
 # --hints--
 
-`convexHoles()` should return `104924`.
+`convexHoles()` sollte `104924` zurückgeben.
 
 ```js
 assert.strictEqual(convexHoles(), 104924);

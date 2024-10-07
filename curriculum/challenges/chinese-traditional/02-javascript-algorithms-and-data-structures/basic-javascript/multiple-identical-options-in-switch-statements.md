@@ -9,7 +9,7 @@ dashedName: multiple-identical-options-in-switch-statements
 
 # --description--
 
-如果你忘了給 `switch` 的每一條 `case` 添加 `break`，那麼後續的 `case` 會一直執行，直到遇見 `break` 爲止。 如果你想爲 `switch` 中的多個不同的輸入設置相同的結果，可以這樣寫：
+If the `break` statement is omitted from a `switch` statement's `case`, the following `case` statement(s) are executed until a `break` is encountered. If you have multiple inputs with the same output, you can represent them in a `switch` statement like this:
 
 ```js
 let result = "";

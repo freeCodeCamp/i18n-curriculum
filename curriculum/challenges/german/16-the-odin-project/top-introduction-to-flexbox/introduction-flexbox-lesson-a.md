@@ -7,7 +7,7 @@ dashedName: introduction-flexbox-lesson-a
 
 # --description--
 
-## Before we get started
+## Bevor wir beginnen
 
 Flexbox layouts can get a little complicated. In a previous lesson, you learned how to inspect and debug things using your browser’s developer tools. Those tools will be crucial for you in the following lessons. If something isn’t behaving the way you expect, inspecting it in the developer tools should be your first step every time.
 

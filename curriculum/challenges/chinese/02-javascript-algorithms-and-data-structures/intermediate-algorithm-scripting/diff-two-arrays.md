@@ -8,7 +8,7 @@ dashedName: diff-two-arrays
 
 # --description--
 
-比较两个数组并返回一个新数组，包含所有只在其中一个数组中出现的元素，排除两个数组都存在的元素。 换言之，我们需要返回两个数组的对称差。
+Compare two arrays and return a new array with any items only found in one of the two given arrays, but not both. In other words, return the symmetric difference of the two arrays.
 
 **注意：**返回数组中的元素顺序不会影响挑战的测试结果。
 

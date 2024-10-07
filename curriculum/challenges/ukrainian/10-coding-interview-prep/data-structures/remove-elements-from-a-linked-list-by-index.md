@@ -8,7 +8,7 @@ dashedName: remove-elements-from-a-linked-list-by-index
 
 # --description--
 
-Перед тим, як перейти до іншої структури даних, ще попрактикуємось над зв’язаними списками.
+Before we move on to another data structure, let's get a couple of last bits of practice with linked lists.
 
 Напишемо метод `removeAt`, який видаляє елемент за заданим індексом. Метод повинен мати назву `removeAt(index)`. Щоб видалити елемент за заданим індексом, нам знадобиться оновлювати перелік вузлів у зв’язаному списку.
 

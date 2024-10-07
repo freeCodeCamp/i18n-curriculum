@@ -8,7 +8,7 @@ dashedName: render-with-an-if-else-condition
 
 # --description--
 
-Інше застосування JavaScript для контролю відтвореного вигляду — поєднати елементи, які відтворюються відповідно умови. Якщо умова правдива, відтворюється один вигляд. Якщо хибна, відтворюється інший вигляд. Це можна зробити за допомогою звичайної інструкції `if/else` в методі `render()` компонента React.
+Another application of using JavaScript to control your rendered view is to tie the elements that are rendered to a condition. When the condition is true, one view renders. When it's false, it's a different view. You can do this with a standard `if/else` statement in the `render()` method of a React component.
 
 # --instructions--
 

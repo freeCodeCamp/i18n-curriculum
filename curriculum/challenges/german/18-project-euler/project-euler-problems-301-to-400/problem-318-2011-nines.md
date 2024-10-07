@@ -8,7 +8,7 @@ dashedName: problem-318-2011-nines
 
 # --description--
 
-Consider the real number $\sqrt{2} + \sqrt{3}$.
+Betrachte die reelle Zahl $\sqrt{2} + \sqrt{3}$.
 
 Wenn wir die gleichen Kräfte von $\sqrt{2} + \sqrt{3}$ berechnen, erhalten wir:
 
@@ -26,11 +26,11 @@ Lasse $C(p,q,n)$ die Anzahl der aufeinanderfolgenden Neunen am Anfang des Brucht
 
 Lasse $N(p,q)$ der minimale Wert von $n$ sein, sodass $C(p,q,n) ≥ 2011$ ist.
 
-Find $\sum N(p,q)$ for $p + q ≤ 2011$.
+Finde $\sum N(p,q)$ für $p + q ≤ 2011$.
 
 # --hints--
 
-`twoThousandElevenNines()` should return `709313889`.
+`twoThousandElevenNines()` sollte `709313889` zurückgeben.
 
 ```js
 assert.strictEqual(twoThousandElevenNines(), 709313889);

@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c450eddfaeb5bdef
-title: Use Bracket Notation to Find the Nth Character in a String
+title: 브라켓 표기법을 사용해서 문자열의 N번째 문자를 찾기
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cWPVJua'
 forumTopicId: 18343
@@ -11,32 +11,32 @@ dashedName: use-bracket-notation-to-find-the-nth-character-in-a-string
 
 You can also use <dfn>bracket notation</dfn> to get the character at other positions within a string.
 
-Remember that computers start counting at `0`, so the first character is actually the zeroth character.
+컴퓨터들은 `0` 부터 세기 시작한다는 것을 기억하세요, 그러니 첫번째 문자는 실제로 0번째 문자입니다.
 
-Example:
+예:
 
 ```js
 const firstName = "Ada";
 const secondLetterOfFirstName = firstName[1];
 ```
 
-`secondLetterOfFirstName` would have a value of the string `d`.
+`secondLetterOfFirstName` 의 값은 문자열 `d`를 가지게 됩니다.
 
 # --instructions--
 
-Let's try to set `thirdLetterOfLastName` to equal the third letter of the `lastName` variable using bracket notation.
+브라켓 표기법을 사용해서 `lastName` 변수의 3번째 문자와 같아지도록 `thirdLetterOfLastName`를 설정해 봅시다.
 
-**Hint:** Try looking at the example above if you get stuck.
+**힌트:** 막혔을 때는 위의 예시를 다시 봐주세요.
 
 # --hints--
 
-The `thirdLetterOfLastName` variable should have the value of `v`.
+`thirdLetterOfLastName` 변수의 값은 `v`이 되어야 합니다.
 
 ```js
 assert(thirdLetterOfLastName === 'v');
 ```
 
-You should use bracket notation.
+당신은 브라켓 표기법을 사용해야 합니다.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/thirdLetterOfLastName\s*=\s*lastName\s*\[\s*\d\s*\]/));

@@ -8,7 +8,7 @@ dashedName: where-do-i-belong
 
 # --description--
 
-انتج أدنى الترتيب حيث إدراج قيمته (الحَجَّة الثانية) في القائمة (الحَجَّة الأولى) بمجرد ترتيبها. القيمة المنتجة يجب أن تكون رقما.
+Return the lowest index at which a value (second argument) should be inserted into an array (first argument) once it has been sorted. The returned value should be a number.
 
 على سبيل المثال، `getIndexToIns([1,2,3,4], 1.5)` يجب أن ينتج `1` لأنه أكبر من `1` (الترتيب 0)، ولكن أقل من `2` (الترتيب 1).
 

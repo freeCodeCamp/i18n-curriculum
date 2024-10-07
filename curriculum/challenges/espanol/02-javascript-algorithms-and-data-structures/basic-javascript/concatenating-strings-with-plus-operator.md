@@ -9,9 +9,9 @@ dashedName: concatenating-strings-with-plus-operator
 
 # --description--
 
-En JavaScript, cuando el operador `+` se utiliza con un valor de cadena (`String`), se le llama operador de <dfn>concatenación</dfn>. Puedes construir una nueva cadena a partir de otras cadenas <dfn>concatenándolas</dfn> juntas.
+In JavaScript, when the `+` operator is used with a `String` value, it is called the <dfn>concatenation</dfn> operator. You can build a new string out of other strings by <dfn>concatenating</dfn> them together.
 
-**Ejemplo**
+**Por ejemplo**
 
 ```js
 'My name is Alan,' + ' I concatenate.'
@@ -25,7 +25,7 @@ Ejemplo:
 const ourStr = "I come first. " + "I come second.";
 ```
 
-La cadena `I come first. I come second.` se mostraría en la consola.
+La cadena `I come first. I come second.` se mostrará en la consola.
 # --instructions--
 
 Construye `myStr` a partir de las cadenas `This is the start.` y `This is the end.` utilizando el operador `+`. Asegúrate de incluir un espacio entre las dos cadenas.
@@ -38,7 +38,7 @@ Construye `myStr` a partir de las cadenas `This is the start.` y `This is the en
 assert(/start\. This/.test(myStr));
 ```
 
-`myStr` debe tener un valor de la cadena `This is the start. This is the end.`
+`myStr` should have a value of the string `This is the start. This is the end.`
 
 ```js
 assert(myStr === 'This is the start. This is the end.');

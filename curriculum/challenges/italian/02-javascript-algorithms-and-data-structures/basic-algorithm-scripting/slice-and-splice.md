@@ -8,7 +8,7 @@ dashedName: slice-and-splice
 
 # --description--
 
-Ti vengono dati due array e un indice.
+You are given two arrays and an index.
 
 Copia ogni elemento del primo array nel secondo array, in ordine.
 

@@ -9,7 +9,7 @@ dashedName: use-the-css-transform-scale-property-to-scale-an-element-on-hover
 
 # --description--
 
-La proprietà `transform` ha una varietà di funzioni che ti permettono di scalare, spostare, ruotare, inclinare, ecc., i tuoi elementi. Quando usata con pseudo-classi come `:hover` che specificano lo stato di un elemento, la proprietà `transform` può facilmente aggiungere interattività ai tuoi elementi.
+The `transform` property has a variety of functions that let you scale, move, rotate, skew, etc., your elements. When used with pseudo-classes such as `:hover` that specify a certain state of an element, the `transform` property can easily add interactivity to your elements.
 
 Ecco un esempio per scalare gli elementi del paragrafo a 2.1 volte la loro dimensione originale quando un utente passa sopra di essi:
 

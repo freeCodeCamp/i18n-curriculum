@@ -12,11 +12,11 @@ These define three classifications of positive integers based on their proper di
 
 令 $P(n)$ 是 `n` 的真除數之和，其中真除數是指除 `n` 本身之外的所有正整數 `n`。
 
-如果 `P(n) < n` 那麼 `n` 被歸類爲 `deficient`
+If `P(n) < n` then `n` is classed as `deficient`
 
 如果 `P(n) === n` 那麼 `n` 被歸類爲 `perfect`
 
-如果 `P(n) > n` 那麼 `n` 被歸類爲 `abundant`
+If `P(n) > n` then `n` is classed as `abundant`
 
 **示例：** `6` 具有真除數 `1`、`2` 和 `3`。 `1 + 2 + 3 = 6`，所以 `6` 被歸類爲一個完全數。
 

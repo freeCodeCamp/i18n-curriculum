@@ -9,7 +9,7 @@ dashedName: override-class-declarations-with-inline-styles
 
 # --description--
 
-id 宣言は `style` 要素の CSS で宣言されている場所に関係なく、クラス宣言をオーバーライドすることを証明しました。
+So we've proven that id declarations override class declarations, regardless of where they are declared in your `style` element CSS.
 
 CSS をオーバーライドする方法は他にもあります。 インラインスタイルを覚えていますか？
 

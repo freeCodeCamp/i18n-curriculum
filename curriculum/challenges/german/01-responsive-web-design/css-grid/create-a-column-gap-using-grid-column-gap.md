@@ -9,7 +9,7 @@ dashedName: create-a-column-gap-using-grid-column-gap
 
 # --description--
 
-In den Rastern, die du bisher erstellt hast, sind die Spalten alle eng aneinander gerückt. Manchmal möchtest du einen Abstand zwischen den Spalten haben. Um einen Abstand zwischen den Spalten einzufügen, verwende die Eigenschaft `grid-column-gap` wie folgt:
+So far in the grids you have created, the columns have all been tight up against each other. Sometimes you want a gap in between the columns. To add a gap between the columns, use the `grid-column-gap` property like this:
 
 ```css
 grid-column-gap: 10px;

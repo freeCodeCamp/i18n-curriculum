@@ -9,7 +9,7 @@ dashedName: use-clockwise-notation-to-specify-the-padding-of-an-element
 
 # --description--
 
-Anstatt die Eigenschaften `padding-top`, `padding-right`, `padding-bottom` und `padding-left` eines Elements einzeln anzugeben, kannst du sie alle in einer Zeile angeben, wie hier:
+Instead of specifying an element's `padding-top`, `padding-right`, `padding-bottom`, and `padding-left` properties individually, you can specify them all in one line, like this:
 
 ```css
 padding: 10px 20px 10px 20px;

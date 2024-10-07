@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: python-dictionaries
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-What does dict equal after running this code?:
+¿A qué equivale dict después de ejecutar este código?:
 
 ```python
 dict = {"Fri": 20, "Thu": 6, "Sat": 1}

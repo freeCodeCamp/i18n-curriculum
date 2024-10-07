@@ -19,7 +19,7 @@ Para fazer alguns exercícios práticos usando links e imagens nesta lição, vo
 - Por fim, adicione o seguinte `h1` ao `body`: `<h1>Homepage</h1>`
 
 ## Elementos de âncora
-Para criar um link em HTML, use o elemento de âncora. Um elemento de âncora é definido agregando o texto ou outro elemento do HTML que você quer que seja um link à tag `<a>`.
+Para criar um link em HTML, use o elemento de âncora. Um elemento de âncora é definido agregando o texto ou outro elemento do HTML que você que seja um link à tag `<a>`.
 
 Adicione o seguinte ao `body` da página `index.html` que você criou e abra a página no navegador:
 
@@ -29,7 +29,7 @@ Adicione o seguinte ao `body` da página `index.html` que você criou e abra a p
 
 Você pode ter notado que, ao clicar nesse link, nada acontece. Isso ocorre porque uma tag de âncora sozinha não saberá para onde você quer ir. Você tem que informar a ela um destino. Você faz isso utilizando um atributo do HTML.
 
-Um atributo do HTML fornece informações adicionais para um elemento do HTML e sempre vai na tag de abertura do elemento. Um atributo é geralmente composto por duas partes: um nome e um valor. No entanto, nem todos os atributos requerem um valor. No seu caso, você precisa adicionar um atributo `href` (referência de hiperlink) à tag de abertura do elemento de âncora. O valor do atributo `href` é o destino para o qual você quer o seu link vá.
+Um atributo do HTML fornece informações adicionais para um elemento do HTML e sempre vai na tag de abertura do elemento. Um atributo é geralmente composto por duas partes: um nome e um valor. No entanto, nem todos os atributos requerem um valor. No seu caso, você precisa adicionar um atributo `href` (referência de hiperlink) à tag de abertura do elemento de âncora. O valor do atributo `href` é o destino para o qual você quer que o seu link vá.
 
 Adicione o atributo `href` abaixo ao elemento de âncora que você criou anteriormente e tente clicar novamente. Não se esqueça de atualizar o navegador para que as novas alterações possam ser aplicadas.
 

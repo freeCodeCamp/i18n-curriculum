@@ -1,6 +1,6 @@
 ---
 id: a3f503de51cfab748ff001aa
-title: Emparejamiento inteligente
+title: Pairwise
 challengeType: 1
 forumTopicId: 301617
 dashedName: pairwise
@@ -8,7 +8,7 @@ dashedName: pairwise
 
 # --description--
 
-Dado un arreglo `arr`, encuentra pares de elementos que sumen igual al segundo argumento `arg` y regresa la suma de sus índices.
+Given an array `arr`, find element pairs whose sum equal the second argument `arg` and return the sum of their indices.
 
 Podrías utilizar múltiples pares que tengan los mismo elementos numéricos, pero con diferentes índices. Cada par debe usar los índices más bajos posibles. Una vez un elemento se ha utilizado, no se puede emprejar otra vez con otro elemento. Por ejemplo `pairwise([1, 1, 2], 3)` crea un par `[2, 1]` usando el 1 del índice 0, en vez del 1 de el índice 1, por qué la suma de los indíces 0 + 2 &lt; (es menor que) 1+2.
 

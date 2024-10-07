@@ -8,7 +8,7 @@ dashedName: target-the-children-of-an-element-using-jquery
 
 # --description--
 
-把 HTML 標籤放到另一個級別的標籤裏，這些 HTML 標籤被稱爲該標籤的<dfn>子標籤（children element）</dfn>。 例如，本次挑戰中文本爲 `#target1`、`#target2` 和 `#target3` 的按鈕都是 `<div class="well" id="left-well">` 標籤的子標籤。
+When HTML elements are placed one level below another they are called <dfn>children</dfn> of that element. For example, the button elements in this challenge with the text `#target1`, `#target2`, and `#target3` are all children of the `<div class="well" id="left-well">` element.
 
 jQuery 有一個 `children()` 方法，可以訪問被選取標籤的子標籤。
 

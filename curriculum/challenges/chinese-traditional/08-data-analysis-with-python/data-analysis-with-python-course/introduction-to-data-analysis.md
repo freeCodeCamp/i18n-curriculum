@@ -11,13 +11,13 @@ dashedName: introduction-to-data-analysis
 ---
 
 # --description--
-數據分析是指通過清理、轉換、處理原始數據，從而洞察數據價值的行爲。
+Data analysis is the act of turning raw, messy data into useful insights by cleaning the data up, transforming it, manipulating it, and inspecting it.
 
-更多資源：
+以下有更多的資料
 
 \- <a href="https://chinese.freecodecamp.org/news/what-is-data-analysis/" rel="noopener noreferrer nofollow">專欄文章</a>
 
-# --questions--
+# 問題
 
 ## --text--
 

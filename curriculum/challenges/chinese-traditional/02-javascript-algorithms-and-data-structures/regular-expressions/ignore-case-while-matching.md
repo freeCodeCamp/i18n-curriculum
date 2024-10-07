@@ -8,7 +8,7 @@ dashedName: ignore-case-while-matching
 
 # --description--
 
-到目前爲止，已經瞭解瞭如何用正則表達式來執行字符串的匹配。 但有時候，並不關注匹配字母的大小寫。
+Up until now, you've looked at regexes to do literal matches of strings. But sometimes, you might want to also match case differences.
 
 大小寫即大寫字母和小寫字母。 大寫字母如 `A`、`B` 和 `C`。 小寫字母如 `a`、`b` 和 `c`。
 

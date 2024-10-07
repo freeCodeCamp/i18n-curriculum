@@ -9,7 +9,7 @@ dashedName: access-array-data-with-indexes
 
 # --description--
 
-<dfn>インデックス</dfn>を使用して配列内のデータにアクセスすることができます。
+We can access the data inside arrays using <dfn>indexes</dfn>.
 
 配列インデックスは文字列と同じくブラケット記法で記述します。異なっているのは、文字の代わりに配列内のエントリを指定する点です。 文字列と同様に、配列では <dfn>0 から始まる</dfn>インデックスを使用するため、配列の最初の要素のインデックスは `0` になります。
 

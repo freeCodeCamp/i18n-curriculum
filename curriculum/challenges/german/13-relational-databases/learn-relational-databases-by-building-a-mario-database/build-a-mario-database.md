@@ -8,7 +8,7 @@ dashedName: build-a-mario-database
 
 # --description--
 
-In this 165-lesson course, you will learn the basics of a relational database by creating a PostgreSQL database filled with video game characters.
+In diesem Kurs mit 165 Lektionen lernst du die Grundlagen einer relationalen Datenbank, indem du eine PostgreSQL-Datenbank mit Videospielcharakteren erstellst.
 
 # --instructions--
 

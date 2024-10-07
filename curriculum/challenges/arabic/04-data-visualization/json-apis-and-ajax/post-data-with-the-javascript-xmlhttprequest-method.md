@@ -1,6 +1,6 @@
 ---
 id: 587d7faf367417b2b2512be9
-title: Post Data with the JavaScript XMLHttpRequest Method
+title: احصل على بيانات JSON مع طريقة JavaScript XMLHttpRequest
 challengeType: 6
 forumTopicId: 301504
 dashedName: post-data-with-the-javascript-xmlhttprequest-method
@@ -10,7 +10,7 @@ dashedName: post-data-with-the-javascript-xmlhttprequest-method
 
 In the previous examples, you received data from an external resource. You can also send data to an external resource, as long as that resource supports AJAX requests and you know the URL.
 
-JavaScript's `XMLHttpRequest` method is also used to post data to a server. Here's an example:
+يتم أيضا استخدام طريقة JavaScript `XMLHttpRequest` لنشر البيانات إلى سيرفر (server). وهذا مثال على ذلك:
 
 ```js
 const xhr = new XMLHttpRequest();
@@ -26,7 +26,7 @@ const body = JSON.stringify({ userName: userName, suffix: ' loves cats!' });
 xhr.send(body);
 ```
 
-You've seen several of these methods before. Here the `open` method initializes the request as a `POST` to the given URL of the external resource, and passes `true` as the third parameter - indicating to perform the operation asynchronously.
+لقد رأيتم العديد من هذه الأساليب من قبل. Here the `open` method initializes the request as a `POST` to the given URL of the external resource, and passes `true` as the third parameter - indicating to perform the operation asynchronously.
 
 The `setRequestHeader` method sets the value of an HTTP request header, which contains information about the sender and the request. It must be called after the `open` method, but before the `send` method. The two parameters are the name of the header and the value to set as the body of that header.
 

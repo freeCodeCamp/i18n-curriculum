@@ -8,9 +8,9 @@ dashedName: implement-binary-search
 
 # --description--
 
-A busca binária é um algoritmo de eficiência **O(log(n))** para procurar um elemento em um array ordenado. Ele opera usando as seguintes etapas:
+Binary search is an **O(log(n))** efficiency algorithm for searching a sorted array to find an element. It operates using the following steps:
 
-1. Encontrar o `value` do meio de um array ordenado. Se `value == target` retornou `true` (O valor foi encontrado e a pesquisa está completa).
+1. Find the middle `value` of a sorted array. If `value == target` return `true` (The value has been found and the search is complete).
 1. Se `value < target`, procurar à direita do meio do array na próxima comparação.
 1. Se `value > target`, procurar à esquerda do meio do array na próxima comparação.
 1. Se, depois de pesquisar no array inteiro, o valor não está presente, retorne `false` (O array foi pesquisado e o valor não está no array).

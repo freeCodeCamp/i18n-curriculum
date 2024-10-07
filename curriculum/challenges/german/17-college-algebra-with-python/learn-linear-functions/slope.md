@@ -1,6 +1,6 @@
 ---
 id: 6331d291b51aeedd1a2bd651
-title: "Slope"
+title: "Neigung"
 challengeType: 15
 videoId: nURsz7SR5aM
 dashedName: slope
@@ -16,7 +16,7 @@ Hier ist das <a href="https://colab.research.google.com/drive/1UJ1w-XFTuCfK6FI3H
 
 ## --text--
 
-If you have already defined these variables, which of the following is the correct slope formula?
+Welche der folgenden Formeln ist die richtige Steigungsformel, wenn du diese Variablen bereits definiert hast?
 
 ## --answers--
 

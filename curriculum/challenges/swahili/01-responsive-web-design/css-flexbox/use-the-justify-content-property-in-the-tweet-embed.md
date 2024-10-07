@@ -9,7 +9,7 @@ dashedName: use-the-justify-content-property-in-the-tweet-embed
 
 # --description--
 
-Changamoto ya mwisho ilionyesha mfano wa kipengele cha `justify-content`. Kwa upachikaji wa tweet, kipengele hiki kinaweza kutumika ili kupanga vipengee katika kipengele cha `.profile-name`.
+The last challenge showed an example of the `justify-content` property. For the tweet embed, this property can be applied to align the items in the `.profile-name` element.
 
 # --instructions--
 

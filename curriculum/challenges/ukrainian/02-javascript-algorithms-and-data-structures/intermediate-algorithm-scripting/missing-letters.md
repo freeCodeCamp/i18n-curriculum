@@ -8,7 +8,7 @@ dashedName: missing-letters
 
 # --description--
 
-Знайдіть пропущену літеру в переданому діапазоні літер та поверніть її.
+Find the missing letter in the passed letter range and return it.
 
 Якщо у діапазоні наявні всі літери, поверніть `undefined`.
 

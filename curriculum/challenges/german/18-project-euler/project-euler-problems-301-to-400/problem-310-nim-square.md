@@ -8,7 +8,7 @@ dashedName: problem-310-nim-square
 
 # --description--
 
-Alice and Bob play the game Nim Square.
+Alice und Bob spielen das Spiel Nim Quadrat.
 
 Nim Square ist genau wie das normale Nim-Spiel mit drei Haufen, aber die Spieler dürfen nur eine quadratische Anzahl von Steinen von einem Haufen entfernen.
 
@@ -20,7 +20,7 @@ Finde die Anzahl der Verlustpositionen für den nächsten Spieler, wenn $0 ≤ a
 
 # --hints--
 
-`nimSquare()` should return `2586528661783`.
+`nimSquare()` sollte `2586528661783` zurückgeben.
 
 ```js
 assert.strictEqual(nimSquare(), 2586528661783);

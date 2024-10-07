@@ -8,7 +8,7 @@ dashedName: use-the-rest-parameter-with-function-parameters
 
 # --description--
 
-ES6 推出了用於函數參數的 <dfn>rest 操作符</dfn>幫助我們創建更加靈活的函數。 rest 操作符可以用於創建有一個變量來接受多個參數的函數。 這些參數被儲存在一個可以在函數內部讀取的數組中。
+In order to help us create more flexible functions, ES6 introduces the <dfn>rest parameter</dfn> for function parameters. With the rest parameter, you can create functions that take a variable number of arguments. These arguments are stored in an array that can be accessed later from inside the function.
 
 請看以下代碼：
 

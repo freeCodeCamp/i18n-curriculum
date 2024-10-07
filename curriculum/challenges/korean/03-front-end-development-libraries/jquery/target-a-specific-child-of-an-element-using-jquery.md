@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aed108826
-title: Target a Specific Child of an Element Using jQuery
+title: jQuery를 사용하여 요소의 특정 자식을 대상으로 지정하기
 challengeType: 6
 forumTopicId: 18315
 required:
@@ -13,21 +13,21 @@ dashedName: target-a-specific-child-of-an-element-using-jquery
 
 You've seen why id attributes are so convenient for targeting with jQuery selectors. But you won't always have such neat ids to work with.
 
-Fortunately, jQuery has some other tricks for targeting the right elements.
+다행히도 jQuery는 목표 요소를 대상으로 지정하기 위한 묘수가 있습니다.
 
-jQuery uses CSS Selectors to target elements. The `target:nth-child(n)` CSS selector allows you to select all the nth elements with the target class or element type.
+jQuery는 요소를 대상으로 지정하기 위해 CSS 셀렉터를 사용합니다. `target:nth-child(n)` CSS 셀렉터는 대상 클래스 혹은 요소 유형을 가진 n번째 요소를 모두 선택할 수 있게 해줍니다.
 
-Here's how you would give the third element in each well the bounce class:
+각 웰(well)의 세 번째 요소에 bounce 클래스를 부여하는 방법입니다:
 
 ```js
 $(".target:nth-child(3)").addClass("animated bounce");
 ```
 
-Make the second child in each of your well elements bounce. You must select the elements' children with the `target` class.
+각 웰 요소의 두 번째 자식을 bounce로 만드시오. `target` 클래스를 가진 요소의 자식을 선택해야 합니다.
 
 # --hints--
 
-The second element in your `target` elements should bounce.
+`target` 요소 안의 두 번째 요소는 바운스해야 합니다.
 
 ```js
 assert(
@@ -36,19 +36,19 @@ assert(
 );
 ```
 
-Only two elements should bounce.
+오직 두 요소만 바운스해야 합니다.
 
 ```js
 assert($('.animated.bounce').length === 2);
 ```
 
-You should use the `:nth-child()` selector to modify these elements.
+이 요소를 수정하기 위해서 `:nth-child()` 셀렉터를 사용해야 합니다.
 
 ```js
 assert(code.match(/\:nth-child\(/g));
 ```
 
-You should only use jQuery to add these classes to the element.
+이 요소에 이 클래스들을 추가하기 위해 jQuery만 사용해야 합니다.
 
 ```js
 assert(

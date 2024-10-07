@@ -9,7 +9,7 @@ dashedName: global-scope-and-functions
 
 # --description--
 
-Em JavaScript, <dfn>escopo</dfn> refere-se à visibilidade de variáveis. Variáveis que são definidas fora de um bloco de função tem o escopo <dfn>Global</dfn>. Isso significa que elas podem ser vistas em qualquer lugar no seu código JavaScript.
+In JavaScript, <dfn>scope</dfn> refers to the visibility of variables. Variables which are defined outside of a function block have <dfn>Global</dfn> scope. This means, they can be seen everywhere in your JavaScript code.
 
 Variáveis que são declaradas sem a palavra-chave `let` ou `const` são automaticamente criadas no escopo `global`. Isso pode criar consequências indesejadas em outro lugar no seu código ou quando executar uma função novamente. Você sempre deve declarar suas variáveis com `let` ou `const`.
 

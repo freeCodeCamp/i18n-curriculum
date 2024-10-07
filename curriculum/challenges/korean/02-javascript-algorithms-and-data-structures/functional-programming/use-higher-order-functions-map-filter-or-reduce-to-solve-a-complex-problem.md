@@ -8,7 +8,7 @@ dashedName: use-higher-order-functions-map-filter-or-reduce-to-solve-a-complex-p
 
 # --description--
 
-`map()`, `filter()` 그리고 `reduce()`같은 고차 함수를 사용하여 과제들을 진행했으니 이제 더 복잡한 과제해결을 위해 이 함수들을 적용해볼 수 있습니다.
+Now that you have worked through a few challenges using higher-order functions like `map()`, `filter()`, and `reduce()`, you now get to apply them to solve a more complex challenge.
 
 # --instructions--
 

@@ -9,7 +9,7 @@ dashedName: decrease-the-opacity-of-an-element
 
 # --description--
 
-CSSの `opacity` プロパティは、アイテムの不透明度を調整したり、逆に透明度を調整するために使用されます。
+The `opacity` property in CSS is used to adjust the opacity, or conversely, the transparency for an item.
 
 <blockquote>値 1 は完全に不透明です。<br>値 0.5 は半分透過します。<br>値 0 は完全に透明です。</blockquote>
 

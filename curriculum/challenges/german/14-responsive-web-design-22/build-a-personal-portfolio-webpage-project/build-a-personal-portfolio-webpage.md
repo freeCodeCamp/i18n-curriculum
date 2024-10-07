@@ -8,18 +8,18 @@ dashedName: build-a-personal-portfolio-webpage
 
 # --description--
 
-**Objective:** Erstelle eine Applikation, die eine ähnliche Funktionalität wie <a href="https://personal-portfolio.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://personal-portfolio.freecodecamp.rocks</a> aufweist. **Bitte kopiere nicht dieses Demo-Projekt **.
+**Objective:** Build an app that is functionally similar to <a href="https://personal-portfolio.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://personal-portfolio.freecodecamp.rocks</a>. **Do not copy this demo project**.
 
 
 **User Stories:**
 
-1. Dein Portfolio sollte einen Begrüßungsbereich mit einer `id` von `welcome-section` besitzen
+1. Your portfolio should have a welcome section with an `id` of `welcome-section`
 1. Der Begrüßungsbereich sollte ein `h1`-Element mit Text enthalten
 1. Dein Portfolio sollte einen Projektabschnitt mit einer `id` von `projects` besitzen
 1. Der Projektabschnitt sollte mindestens ein Element mit einer `class` von `project-tile` besitzen, um das Projekt zu halten
 1. Der Projektabschnitt sollte mindestens einen Link zu einem Projekt enthalten
 1. Dein Portfolio sollte eine Navigationsleiste mit einer ID von `navbar` haben
-1. Die Navigationsleiste sollte mindestens einen auswählbaren Link haben, der zu verschiedenen Bereichen der Seite navigiert
+1. Die Navigationsleiste sollte mindestens einen klickbaren Link beinhalten, der zu verschiedenen Sektionen auf der Seite navigiert
 1. Dein Portfolio sollte einen Link mit der ID `profile-link` haben, der dein GitHub- oder freeCodeCamp-Profil in einem neuen Tab öffnet
 1. Dein Portfolio sollte mindestens eine Media Query (Medienabfrage) enthalten
 1. Die Höhe des Begrüßungsabschnitts sollte der Höhe des Ansichtsfensters entsprechen
@@ -27,7 +27,7 @@ dashedName: build-a-personal-portfolio-webpage
 
 Erfülle die folgenden User Stories und bestehe alle Tests, um dieses Projekt abzuschließen. Gib dem Ganzen deinen persönlichen Stil. Viel Spaß beim Programmieren!
 
-**Hinweis:** Füge unbedingt `<link rel="stylesheet" href="styles.css">` in dein HTML ein, um dein Stylesheet zu verlinken und dein CSS anzuwenden
+**Hinweis:** Achte darauf, `<link rel="stylesheet" href="styles.css">` in deinen HTML-Code einzufügen, um dein Stylesheet zu verknüpfen und deinen CSS-Code anwenden zu können
 
 # --hints--
 

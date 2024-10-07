@@ -8,7 +8,7 @@ dashedName: define-a-constructor-function
 
 # --description--
 
-<dfn>Konstruktoren</dfn> sind Funktionen, die neue Objekte erzeugen. Sie definieren Eigenschaften und Verhaltensweisen, die zu dem neuen Objekt gehören werden. Betrachte sie als eine Vorlage für die Erstellung von neuen Objekten.
+<dfn>Constructors</dfn> are functions that create new objects. They define properties and behaviors that will belong to the new object. Think of them as a blueprint for the creation of new objects.
 
 Hier ist ein Beispiel für einen Konstruktor:
 
@@ -22,7 +22,7 @@ function Bird() {
 
 Dieser Konstruktor definiert ein Objekt `Bird` mit den Eigenschaften `name`, `color` und `numLegs`, die jeweils auf Albert, blue und 2 gesetzt sind. Konstruktoren folgen ein paar Konventionen:
 
-<ul><li>Konstruktoren werden mit einem großgeschriebenen Namen definiert, um sie von anderen Funktionen zu unterscheiden, die keine <code>constructors</code> sind.</li><li>Konstruktoren verwenden das Schlüsselwort <code>this</code>, um Eigenschaften des Objekts zu setzen, das sie erzeugen werden. Innerhalb des Konstruktors verweist <code>this</code> auf das neue Objekt, das erstellt wird.</li><li>Konstruktoren definieren Eigenschaften und Verhaltensweisen, anstatt einen Wert zurückzugeben, wie es andere Funktionen können.</li></ul>
+<ul><li>Constructors are defined with a capitalized name to distinguish them from other functions that are not <code>constructors</code>.</li><li>Konstruktoren verwenden das Schlüsselwort <code>this</code>, um Eigenschaften des Objekts zu setzen, das sie erzeugen werden. Innerhalb des Konstruktors verweist <code>this</code> auf das neue Objekt, das erstellt wird.</li><li>Konstruktoren definieren Eigenschaften und Verhaltensweisen, anstatt einen Wert zurückzugeben, wie es andere Funktionen können.</li></ul>
 
 # --instructions--
 

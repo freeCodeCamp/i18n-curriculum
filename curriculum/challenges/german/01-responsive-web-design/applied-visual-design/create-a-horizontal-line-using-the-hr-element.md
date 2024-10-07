@@ -9,7 +9,7 @@ dashedName: create-a-horizontal-line-using-the-hr-element
 
 # --description--
 
-Du kannst das `hr`-Tag verwenden, um eine horizontale Linie über die Breite des umgebenden Elements hinzuzufügen. Dies kann verwendet werden, um einen Themenwechsel zu kennzeichnen, oder um Gruppen von Inhalten visuell zu trennen.
+You can use the `hr` tag to add a horizontal line across the width of its containing element. This can be used to define a change in topic or to visually separate groups of content.
 
 # --instructions--
 

@@ -8,7 +8,7 @@ dashedName: add-labels-to-d3-elements
 
 # --description--
 
-D3 ti permette di etichettare un elemento grafico, come una barra, usando l'elemento SVG `text`.
+D3 lets you label a graph element, such as a bar, using the SVG `text` element.
 
 Come l'elemento `rect`, un elemento `text` deve avere attributi `x` e `y`, per essere posizionato sull'SVG. Deve inoltre accedere ai dati per visualizzare tali valori.
 

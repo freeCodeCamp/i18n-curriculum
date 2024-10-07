@@ -8,7 +8,7 @@ dashedName: iterate-over-all-properties
 
 # --description--
 
-Du hast jetzt zwei Arten von Eigenschaften gesehen: <dfn>Eigene Eigenschaften</dfn> und Prototyp (`prototype`)-Eigenschaften. Eigene Eigenschaften werden direkt in der Objektinstanz selbst definiert. Und die Prototypeigenschaften werden im `prototype` definiert.
+You have now seen two kinds of properties: <dfn>own properties</dfn> and `prototype` properties. Own properties are defined directly on the object instance itself. And prototype properties are defined on the `prototype`.
 
 ```js
 function Bird(name) {

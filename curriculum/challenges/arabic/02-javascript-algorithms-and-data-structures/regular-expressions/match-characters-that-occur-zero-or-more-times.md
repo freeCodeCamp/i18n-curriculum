@@ -8,7 +8,7 @@ dashedName: match-characters-that-occur-zero-or-more-times
 
 # --description--
 
-استخدم التحدي الأخير علامة `+` للبحث عن الرموز التي تحدث مرة أو أكثر. هناك أيضًا خيار يطابق الرموز التي تحدث صفرًا أو أكثر من المرات.
+The last challenge used the plus `+` sign to look for characters that occur one or more times. There's also an option that matches characters that occur zero or more times.
 
 الرمز الذي يقوم بذلك هو النجمة: `*`.
 
@@ -54,7 +54,7 @@ assert(result[0] === 'Aaaaaaaaaaaaaaaa');
 assert(result[0].length === 16);
 ```
 
-لا يجب أن يطابق الـ regex مع أي رمز في السلسلة `He made a fair move. Screaming about it can't help you.`
+Your regex should not match any characters in the string `He made a fair move. Screaming about it can't help you.`
 
 ```js
 assert(
@@ -62,7 +62,7 @@ assert(
 );
 ```
 
-لا يجب أن يطابق الـ regex مع أي رمز في السلسلة `Let him have it. It's not wise to upset a Wookiee.`
+Your regex should not match any characters in the string `Let him have it. It's not wise to upset a Wookiee.`
 
 ```js
 assert(

@@ -9,7 +9,7 @@ dashedName: change-the-position-of-overlapping-elements-with-the-z-index-propert
 
 # --description--
 
-當一些元素在位置上重疊時（例如，使用 `position: absolute | relative | fixed | sticky` 時），在 HTML 裏後出現的元素會默認顯示在更早出現的元素的上面。 你可以使用 `z-index` 屬性指定元素的堆疊次序。 `z-index` 的取值是整數，數值大的元素會疊放到數值小的元素上面。
+When elements are positioned to overlap (i.e. using `position: absolute | relative | fixed | sticky`), the element coming later in the HTML markup will, by default, appear on the top of the other elements. However, the `z-index` property can specify the order of how elements are stacked on top of one another. It must be an integer (i.e. a whole number and not a decimal), and higher values for the `z-index` property of an element move it higher in the stack than those with lower values.
 
 # --instructions--
 

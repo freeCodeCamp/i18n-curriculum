@@ -8,7 +8,7 @@ dashedName: understand-own-properties
 
 # --description--
 
-Nell'esempio seguente, il costruttore di `Bird` definisce due proprietà: `name` e `numLegs`:
+In the following example, the `Bird` constructor defines two properties: `name` and `numLegs`:
 
 ```js
 function Bird(name) {

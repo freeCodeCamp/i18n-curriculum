@@ -1,6 +1,6 @@
 ---
 id: 587d8258367417b2b2512c80
-title: Delete a Leaf Node in a Binary Search Tree
+title: Lösche einen Blattknoten in einem binären Suchbaum
 challengeType: 1
 forumTopicId: 301637
 dashedName: delete-a-leaf-node-in-a-binary-search-tree
@@ -12,11 +12,11 @@ This is the first of three challenges where we will implement a more difficult o
 
 # --instructions--
 
-Create a method on our binary tree called `remove`. We'll build the logic for our deletion operation in here. First, you'll want to create a function within remove that finds the node we are trying to delete in the current tree. If the node is not present in the tree, `remove` should return `null`. Now, if the target node is a leaf node with no children, then the parent reference to it should be set to `null`. This effectively deletes the node from the tree. To do this, you will have to keep track of the parent of the node we are trying to delete as well. It will also be useful to create a way to track the number of children the target node has, as this will determine which case our deletion falls under. We will handle the second and third cases in the next challenges. Viel Glück!
+Erstelle eine Methode in unserem Binärbaum mit dem Namen `remove`. Hier bauen wir die Logik für unseren Löschvorgang auf. Zuerst musst du eine Funktion innerhalb von remove erstellen, die den zu löschenden Knoten im aktuellen Baum findet. Wenn der Knoten nicht im Baum vorhanden ist, sollte `remove` `null` zurückgeben. Wenn der Zielknoten ein Blattknoten ohne Kinder ist, dann sollte der übergeordnete Verweis auf ihn auf `null` gesetzt werden. Dadurch wird der Knoten aus dem Baum gelöscht. Dazu musst du auch den übergeordneten Knoten des Knotens im Auge behalten, den wir zu löschen versuchen. Er wird auch nützlich sein, um eine Möglichkeit zu schaffen, die Anzahl der Kinder des Zielknotens zu verfolgen, da dies bestimmen wird, unter welchen Fall unsere Löschung fällt. Den zweiten und dritten Fall werden wir in den nächsten Herausforderungen behandeln. Viel Glück!
 
 # --hints--
 
-The `BinarySearchTree` data structure should exist.
+Die Datenstruktur `BinarySearchTree` sollte vorhanden sein.
 
 ```js
 assert(
@@ -30,7 +30,7 @@ assert(
 );
 ```
 
-The binary search tree should have a method called `remove`.
+Der binäre Suchbaum sollte eine Methode namens `remove` haben.
 
 ```js
 assert(
@@ -46,7 +46,7 @@ assert(
 );
 ```
 
-Trying to remove an element from an empty tree should return `null`.
+Der Versuch, ein Element aus einem leeren Baum zu entfernen, sollte `null` zurückgeben.
 
 ```js
 assert(
@@ -65,7 +65,7 @@ assert(
 );
 ```
 
-Trying to remove an element that does not exist should return `null`.
+Der Versuch, ein Element zu entfernen, das nicht existiert, sollte `null` zurückgeben.
 
 ```js
 assert(
@@ -86,7 +86,7 @@ assert(
 );
 ```
 
-If the root node has no children, deleting it should set the root to `null`.
+Er sollte auf `null` gesetzt werden, wenn der Wurzelknoten keine Kinder hat.
 
 ```js
 assert(
@@ -107,7 +107,7 @@ assert(
 );
 ```
 
-The `remove` method should remove leaf nodes from the tree.
+Die Methode `remove` soll Blattknoten aus dem Baum entfernen.
 
 ```js
 assert(

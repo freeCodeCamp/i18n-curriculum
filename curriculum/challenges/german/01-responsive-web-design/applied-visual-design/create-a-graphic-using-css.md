@@ -9,7 +9,7 @@ dashedName: create-a-graphic-using-css
 
 # --description--
 
-Durch die Bearbeitung verschiedener Selektoren und Eigenschaften kannst du interessante Formen erzeugen. Eine der Einfacheren ist eine Mondsichelform. Für diese Aufgabe musst du mit der Eigenschaft `box-shadow` arbeiten, die den Schatten eines Elements festlegt, zusammen mit der Eigenschaft `border-radius`, die die Rundheit der Ecken steuert.
+By manipulating different selectors and properties, you can make interesting shapes. One of the easier ones to try is a crescent moon shape. For this challenge you need to work with the `box-shadow` property that sets the shadow of an element, along with the `border-radius` property that controls the roundness of the element's corners.
 
 Du erstellst ein rundes, transparentes Objekt mit einem scharfen Schatten, der leicht zur Seite versetzt ist. Der Schatten wird die tatsächliche Mondform ergeben, die du siehst.
 

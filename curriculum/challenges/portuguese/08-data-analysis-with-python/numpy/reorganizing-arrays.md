@@ -14,7 +14,7 @@ dashedName: reorganizing-arrays
 
 ## --text--
 
-Qual código produziria o array a seguir?
+What code would produce the following array?
 
 ```py
 [[1. 1.]

@@ -9,13 +9,13 @@ dashedName: use-rgb-to-mix-colors
 
 # --description--
 
-헥스(hex) 코드와 마찬가지로 RGB 값을 다양하게 조합해서 사용하여 색상을 섞을 수 있습니다.
+Just like with hex code, you can mix colors in RGB by using combinations of different values.
 
 # --instructions--
 
 `style` 엘리먼트의 헥스 코드를 올바른 RGB값으로 바꿔주세요.
 
-<table><tbody><tr><th>색</th><th>RGB</th></tr><tr><td>Blue(파란색)</td><td><code>rgb(0, 0, 255)</code></td></tr><tr><td>Red(빨간색)</td><td><code>rgb(255, 0, 0)</code></td></tr><tr><td>Orchid(오키드)</td><td><code>rgb(218, 112, 214)</code></td></tr><tr><td>Sienna(시에나)</td><td><code>rgb(160, 82, 45)</code></td></tr></tbody></table>
+<table><tbody><tr><th>Color</th><th>RGB</th></tr><tr><td>Blue</td><td><code>rgb(0, 0, 255)</code></td></tr><tr><td>Red</td><td><code>rgb(255, 0, 0)</code></td></tr><tr><td>Orchid</td><td><code>rgb(218, 112, 214)</code></td></tr><tr><td>Sienna</td><td><code>rgb(160, 82, 45)</code></td></tr></tbody></table>
 
 # --hints--
 

@@ -8,7 +8,7 @@ dashedName: write-a-counter-with-redux
 
 # --description--
 
-이제 Redux의 모든 핵심 원리를 배웠습니다! 액션과 액션 생성자 만들기, Redux 저장소 생성, 저장소를 대상으로 액션 디스패치, 순수 리듀서로 상태 업데이트 설계하는 방법을 보았습니다. 리듀서 구성으로 복잡한 상태를 관리하고 비동기 액션을 처리하는 방법도 보았습니다. These examples are simplistic, but these concepts are the core principles of Redux. If you understand them well, you're ready to start building your own Redux app. The next challenges cover some of the details regarding `state` immutability, but first, here's a review of everything you've learned so far.
+Now you've learned all the core principles of Redux! You've seen how to create actions and action creators, create a Redux store, dispatch your actions against the store, and design state updates with pure reducers. You've even seen how to manage complex state with reducer composition and handle asynchronous actions. These examples are simplistic, but these concepts are the core principles of Redux. If you understand them well, you're ready to start building your own Redux app. The next challenges cover some of the details regarding `state` immutability, but first, here's a review of everything you've learned so far.
 
 # --instructions--
 

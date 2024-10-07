@@ -10,15 +10,15 @@ dashedName: problem-194-coloured-configurations
 
 Consider graphs built with the units A: <img alt="graph unit A" src="https://cdn.freecodecamp.org/curriculum/project-euler/coloured-configurations-1.png" style="display: inline-block; background-color: white; padding: 10px;" /> and B: <img  alt="graph unit B" src="https://cdn.freecodecamp.org/curriculum/project-euler/coloured-configurations-2.png" style="display: inline-block; background-color: white; padding: 10px;" />, where the units are glued along the vertical edges as in the graph <img alt="graph with four units glued along the vertical edges" src="https://cdn.freecodecamp.org/curriculum/project-euler/coloured-configurations-3.png" style="display: inline-block; background-color: white; padding: 10px;" />.
 
-Eine Konfiguration des Typs $(a,b,c)$ ist eine Grafik, die aus $a$ Einheiten A und $b$ Einheiten B gebildet wurde, und wo die Scheitelpunkte der Grafik mit bis zu $c$ Farben gefärbt werden, so dass keine zwei benachbarten Scheitelpunkte die gleiche Farbe haben. Die zusammengesetzte Grafik oben ist ein Beispiel einer Konfiguration des Typs $(2,2,6)$, eigentlich des Typs $(2,2,c)$ für alle $c ≥ 4$
+A configuration of type $(a,b,c)$ is a graph thus built of $a$ units A and $b$ units B, where the graph's vertices are coloured using up to $c$ colours, so that no two adjacent vertices have the same colour. The compound graph above is an example of a configuration of type $(2,2,6)$, in fact of type $(2,2,c)$ for all $c ≥ 4$
 
-$N(a,b,c)$ sollte die Anzahl der Konfigurationen des Typs $(a,b,c)$ sein. Zum Beispiel $N(1,0,3) = 24$, $N(0,2,4) = 92928$ und $N(2,2,3) = 20736$.
+Let $N(a,b,c)$ be the number of configurations of type $(a,b,c)$. For example, $N(1,0,3) = 24$, $N(0,2,4) = 92928$ and $N(2,2,3) = 20736$.
 
-Finde die letzten 8 Ziffern von $N(25,75,1984)$.
+Find the last 8 digits of $N(25,75,1984)$.
 
 # --hints--
 
-`coloredConfigurations()` sollte `61190912` zurückgeben.
+`coloredConfigurations()` should return `61190912`.
 
 ```js
 assert.strictEqual(coloredConfigurations(), 61190912);

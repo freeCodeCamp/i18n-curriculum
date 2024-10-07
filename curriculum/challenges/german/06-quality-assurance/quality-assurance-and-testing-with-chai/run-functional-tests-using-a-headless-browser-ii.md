@@ -1,6 +1,6 @@
 ---
 id: 5f8884f4c46685731aabfc41
-title: Run Functional Tests Using a Headless Browser II
+title: Funktionstests mit einem Headless Browser II durchführen
 challengeType: 2
 forumTopicId: 301594
 dashedName: run-functional-tests-using-a-headless-browser-ii
@@ -12,14 +12,14 @@ As a reminder, this project is being built upon the following starter project on
 
 # --instructions--
 
-Within `tests/2_functional-tests.js`, in the `'Submit the surname "Vespucci" in the HTML form'` test (`// #6`), automate the following:
+Automatisiere Folgendes innerhalb von `tests/2_functional-tests.js`, in dem `'Submit the surname "Vespucci" in the HTML form'` Test (`// #6`):
 
 1.  Fill in the form with the surname `Vespucci`
 2.  Press the submit button
 
-And within the `pressButton` callback:
+Und innerhalb des `pressButton` Callback:
 
-1.  Bestätigen, dass der Status `200` OK ist
+1.  Assert that status is OK `200`
 2.  Prüfe, ob der Text innerhalb des Elements `span#name` `'Amerigo'` ist
 3.  Prüfe, ob der Text innerhalb des Elements `span#surname` `'Vespucci'` ist
 4.  Überprüfe, ob das/die Element(e) `span#dates` existieren und deren Zahl `1` ist
@@ -28,7 +28,7 @@ Vergiss nicht, den `assert.fail()`-Aufruf zu entfernen.
 
 # --hints--
 
-Alle Tests sollten bestanden werden.
+Alle Tests sollten erfolgreich sein.
 
 ```js
 (getUserInput) =>
@@ -42,7 +42,7 @@ Alle Tests sollten bestanden werden.
   );
 ```
 
-You should assert that the headless browser request succeeded.
+Du solltest überprüfen, ob die Anfrage des Headless Browsers erfolgreich war.
 
 ```js
 (getUserInput) =>
@@ -88,7 +88,7 @@ Prüfe, ob der Text innerhalb des Elements `span#surname` `'Vespucci'` ist.
   );
 ```
 
-You should assert that the element `span#dates` exist and its count is 1.
+Du solltest überprüfen, ob das Element `span#dates` existiert und seine Anzahl 1 ist.
 
 ```js
 (getUserInput) =>

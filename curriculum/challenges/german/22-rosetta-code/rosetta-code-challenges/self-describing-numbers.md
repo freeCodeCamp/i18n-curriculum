@@ -8,20 +8,20 @@ dashedName: self-describing-numbers
 
 # --description--
 
-There are several so-called "self-describing" or "self-descriptive" integers.
+Es gibt mehrere sogenannte "selbstbeschreibende" oder "selbstbeschreibende" ganze Zahlen.
 
 Eine ganze Zahl wird als "selbstbeschreibend" bezeichnet, wenn sie die Eigenschaft hat, dass, wenn die Ziffernpositionen mit 0 bis N-1 beschriftet sind, die Ziffer an jeder Position gleich der Anzahl ist, wie oft diese Ziffer in der Zahl vorkommt.
 
 Zum Beispiel ist **2020** eine vierstellige selbstbeschreibende Zahl:
 
 <ul>
-    <li> position 0 has value 2 and there are two 0s in the number; </li>
+    <li> position 0 hat den Wert 2 und die Zahl enthält zwei 0en; </li>
     <li> Position 1 hat den Wert 0 und es gibt keine 1en in der Zahl; </li>
     <li> Position 2 hat den Wert 2 und es gibt zwei 2en; </li>
     <li> Position 3 hat den Wert 0, und es gibt keine 3er; </li>
 </ul>
 
-Selbstbeschreibende Zahlen &lt; 100.000.000 sind: 1210, 2020, 21200, 3211000, 42101000.
+Self-describing numbers &lt; 100,000,000 are: 1210, 2020, 21200, 3211000, 42101000.
 
 # --instructions--
 

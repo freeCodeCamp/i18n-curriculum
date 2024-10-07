@@ -13,7 +13,7 @@ dashedName: build-a-personal-portfolio-webpage
 
 **Maelekezo:**
 
-1. Wavuti yako inapaswa kua na sehemu ya kukaribisha yenye `id` ya `welcome-section`
+1. Your portfolio should have a welcome section with an `id` of `welcome-section`
 1. Sehemu ya kukaribisha inapaswa kuwa na kipengele cha `h1` ambacho kina maandishi
 1. Wavuti wako unapaswa kuwa na sehemu ya miradi yenye `id` ya `projects`
 1. Sehemu ya miradi inapaswa kuwa na angalau kipengele kimoja chenye `class` ya `project-tile` ili kushikilia mradi
@@ -25,7 +25,7 @@ dashedName: build-a-personal-portfolio-webpage
 1. Urefu wa sehemu ya kukaribisha unapaswa kuwa sawa na urefu wa viewport
 1. Sehemu ya navbar inapaswa kuwa juu ya viewport kila wakati
 
-Timiza maelezo haya na upite majaribio yote hapa chini ili kukamilisha mradi huu. Ipe mwonekano wako wa kibinafsi. Happy Coding!
+Timiza maelezo na upite majaribio yote hapa chini ili kukamilisha mradi huu. Ipe muundo wako wa kibinafsi. Happy Coding!
 
 **Kumbuka:** Hakikisha umeongeza `<link rel="stylesheet" href="styles.css">` katika HTML yako ili kuunganisha stylesheet yako na utumie CSS yako
 

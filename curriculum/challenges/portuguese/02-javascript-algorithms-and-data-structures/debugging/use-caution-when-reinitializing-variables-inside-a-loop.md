@@ -8,7 +8,7 @@ dashedName: use-caution-when-reinitializing-variables-inside-a-loop
 
 # --description--
 
-Às vezes é necessário salvar informações, incrementar contadores ou redefinir variáveis dentro de um laço. Um problema em potencial é quando variáveis deveriam ser reinicializadas e, não são, ou vice versa. Isso é particularmente perigoso se você acidentalmente redefinir a variável sendo usada para a condição de parada, causando um laço infinito.
+Sometimes it's necessary to save information, increment counters, or re-set variables within a loop. A potential issue is when variables either should be reinitialized, and aren't, or vice versa. This is particularly dangerous if you accidentally reset the variable being used for the terminal condition, causing an infinite loop.
 
 Imprimir os valores das variáveis em cada ciclo do seu laço usando `console.log()` pode ajudar a descobrir comportamentos com bugs relacionados a reiniciar ou falhar ao reiniciar uma variável.
 

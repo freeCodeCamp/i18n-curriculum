@@ -1,6 +1,6 @@
 ---
 id: 587d7fa5367417b2b2512bbd
-title: Extend One Set of CSS Styles to Another Element
+title: CSS 규칙을 다른 엘리먼트로 확장하기
 challengeType: 0
 forumTopicId: 301456
 dashedName: extend-one-set-of-css-styles-to-another-element
@@ -10,7 +10,7 @@ dashedName: extend-one-set-of-css-styles-to-another-element
 
 Sass has a feature called `extend` that makes it easy to borrow the CSS rules from one element and build upon them in another.
 
-For example, the below block of CSS rules style a `.panel` class. It has a `background-color`, `height` and `border`.
+예를들어, 다음 CSS 규칙은 `.panel` 클래스를 스타일링합니다. `background-color`, `height` 그리고 `border`가 있습니다.
 
 ```scss
 .panel{
@@ -20,7 +20,7 @@ For example, the below block of CSS rules style a `.panel` class. It has a `back
 }
 ```
 
-Now you want another panel called `.big-panel`. It has the same base properties as `.panel`, but also needs a `width` and `font-size`. It's possible to copy and paste the initial CSS rules from `.panel`, but the code becomes repetitive as you add more types of panels. The `extend` directive is a simple way to reuse the rules written for one element, then add more for another:
+우리는 `.big-panel`이라는 다른 패널이 필요합니다. `.panel`과 기본적으로 동일한 속성을 가지지만, `width`와 `font-size`가 필요합니다. `.panel`의 CSS 규칙을 복사해서 붙여넣을 수 있지만, 더 많은 패널을 추가할수록 코드가 반복됩니다. `extend`문은 한 엘리먼트에 작성된 규칙을 재사용해서 다른 엘리먼트에 더 추가할 수 있는 간단한 방법입니다.
 
 ```scss
 .big-panel{
@@ -30,15 +30,15 @@ Now you want another panel called `.big-panel`. It has the same base properties 
 }
 ```
 
-The `.big-panel` will have the same properties as `.panel` in addition to the new styles.
+`.big-panel`은 `.panel`와 같은 속성과 함께 새로운 스타일도 갖게됩니다.
 
 # --instructions--
 
-Make a class `.info-important` that extends `.info` and also has a `background-color` set to magenta.
+`.info`을 확장하고 `background-color`가 `magenta`를 갖는 클래스 `.info-important`를 만들어보세요.
 
 # --hints--
 
-Your `info-important` class should have a `background-color` set to `magenta`.
+`info-important` 클래스의 `background-color`는 `magenta` 이어야 합니다.
 
 ```js
 assert(
@@ -48,7 +48,7 @@ assert(
 );
 ```
 
-Your `info-important` class should use `@extend` to inherit the styling from the `info` class.
+`info-important` 클래스는 `@extend`를 사용해서 `info` 클래스에서 스타일을 상속해야 합니다.
 
 ```js
 assert(

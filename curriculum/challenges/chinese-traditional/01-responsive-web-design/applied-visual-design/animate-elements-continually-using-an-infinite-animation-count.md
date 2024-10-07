@@ -9,7 +9,7 @@ dashedName: animate-elements-continually-using-an-infinite-animation-count
 
 # --description--
 
-之前的關卡里介紹了一些動畫屬性以及 `@keyframes` 規則的用法。 還有一個常用的動畫屬性是 `animation-iteration-count`，這個屬性允許你控制動畫循環的次數。 下面是一個例子：
+The previous challenges covered how to use some of the animation properties and the `@keyframes` rule. Another animation property is the `animation-iteration-count`, which allows you to control how many times you would like to loop through the animation. 如下所示：
 
 ```css
 animation-iteration-count: 3;

@@ -9,7 +9,7 @@ dashedName: inform-with-the-paragraph-element
 
 # --description--
 
-`p` 要素はウェブサイト上で文章の段落を示すのに適した要素です。 `p` は "paragraph" (段落) の略です。
+The `p` element is the preferred element for paragraph text on websites. `p` is short for "paragraph".
 
 段落の要素は以下のように作成できます。
 

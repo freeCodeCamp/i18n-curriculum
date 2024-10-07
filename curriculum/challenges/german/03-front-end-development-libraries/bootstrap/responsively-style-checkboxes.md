@@ -13,7 +13,7 @@ dashedName: responsively-style-checkboxes
 
 # --description--
 
-Da die `col-xs-*`-Klassen von Bootstrap auf alle `form`-Elemente anwendbar sind, kannst du sie auch für deine Kontrollkästchen verwenden! Auf diese Weise werden die Kontrollkästchen gleichmäßig auf der Seite verteilt, unabhängig davon, wie breit die Bildschirmauflösung ist.
+Since Bootstrap's `col-xs-*` classes are applicable to all `form` elements, you can use them on your checkboxes too! This way, the checkboxes will be evenly spread out across the page, regardless of how wide the screen resolution is.
 
 # --instructions--
 

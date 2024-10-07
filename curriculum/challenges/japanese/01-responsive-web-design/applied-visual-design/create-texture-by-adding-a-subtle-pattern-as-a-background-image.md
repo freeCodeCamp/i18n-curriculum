@@ -9,7 +9,7 @@ dashedName: create-texture-by-adding-a-subtle-pattern-as-a-background-image
 
 # --description--
 
-背景に質感やおもしろさを加えて目立つようにする一つの方法は、かすかなパターンを追加することです。 鍵となるのはバランスです。背景が目立ちすぎて前面から注意がそれることは避けたいでしょう。 `background` プロパティは、テクスチャやパターンの画像にリンクするための `url()` 関数をサポートしています。 リンクアドレスは引用符で囲んで括弧内に入れます。
+One way to add texture and interest to a background and have it stand out more is to add a subtle pattern. The key is balance, as you don't want the background to stand out too much, and take away from the foreground. The `background` property supports the `url()` function in order to link to an image of the chosen texture or pattern. The link address is wrapped in quotes inside the parentheses.
 
 # --instructions--
 

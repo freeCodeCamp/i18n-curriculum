@@ -9,7 +9,7 @@ dashedName: make-dead-links-using-the-hash-symbol
 
 # --description--
 
-Інколи ви хочете додати `a` елементи до вашого веб-сайту ще перед тим, як дізнаєтесь, куди вони мають посилатися.
+Sometimes you want to add `a` elements to your website before you know where they will link.
 
 Це також стає в нагоді, коли ви змінюєте поведінку посилання за допомогою `JavaScript`, про який ми дізнаємося пізніше.
 

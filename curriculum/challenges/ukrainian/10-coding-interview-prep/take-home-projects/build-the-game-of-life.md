@@ -8,7 +8,7 @@ dashedName: build-the-game-of-life
 
 # --description--
 
-**Мета:** створити застосунок, функціонально схожий до цього: <a href="https://codepen.io/freeCodeCamp/full/BpwMZv/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/BpwMZv/</a>.
+**Objective:** Build an app that is functionally similar to this: <a href="https://codepen.io/freeCodeCamp/full/BpwMZv/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/BpwMZv/</a>.
 
 Гра життя — це клітинний автомат, розроблений британським математиком Джоном Хортоном Конвеєм. Це <em>гра з нульовим гравцем</em>, тобто її розвиток визначається початковим станом та не потребує подальших вводів. Людина взаємодіє з грою, створюючи початкову конфігурацію та спостерігаючи за розвитком.
 
@@ -16,7 +16,7 @@ dashedName: build-the-game-of-life
 
 На кожному кроці в часі відбуваються такі переходи:
 
-- Будь-яка жива клітинка з менше ніж двома живими сусідами гине від недостатнього заселення.
+- Any live cell with fewer than two live neighbours dies, as if by underpopulation.
 - Будь-яка жива клітинка з двома чи трьома живими сусідами живе до наступного покоління.
 - Будь-яка жива клітинка з більше ніж трьома живими сусідами гине від перенаселення.
 - Будь-яка мертва клітинка з трьома живими сусідами стає живою клітинкою шляхом репродукції.

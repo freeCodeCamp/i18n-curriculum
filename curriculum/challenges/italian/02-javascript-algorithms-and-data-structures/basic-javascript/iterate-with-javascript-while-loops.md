@@ -9,7 +9,7 @@ dashedName: iterate-with-javascript-while-loops
 
 # --description--
 
-È possibile eseguire lo stesso codice più volte utilizzando un ciclo.
+You can run the same code multiple times by using a loop.
 
 Il primo tipo di ciclo che vedremo è chiamato un ciclo `while` perché viene eseguito finché (while) una condizione specificata è vera e si arresta una volta che la condizione non è più vera.
 

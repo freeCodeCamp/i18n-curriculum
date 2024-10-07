@@ -8,7 +8,7 @@ dashedName: convert-html-entities
 
 # --description--
 
-Konvertiere die Zeichen `&`, `<`, `>`, `"` (Anführungszeichen) und `'` (Apostroph) in einem String in ihre entsprechenden HTML-Entitäten.
+Convert the characters `&`, `<`, `>`, `"` (double quote), and `'` (apostrophe), in a string to their corresponding HTML entities.
 
 # --hints--
 

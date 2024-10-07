@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedf08807
-title: Import a Google Font
+title: إستيراد الخطوط من <code> Google Font</code>
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cM9MRsJ'
 forumTopicId: 18200
@@ -11,7 +11,7 @@ dashedName: import-a-google-font
 
 In addition to specifying common fonts that are found on most operating systems, we can also specify non-standard, custom web fonts for use on our website. There are many sources for web fonts on the Internet. For this example we will focus on the Google Fonts library.
 
-Google Fonts is a free library of web fonts that you can use in your CSS by referencing the font's URL.
+خطوط جوجل هي مكتبة مجانية من خطوط الويب التي تستطيع إستخدامها في css عن طريق عنوان الخط.
 
 So, let's go ahead and import and apply a Google font (note that if Google is blocked in your country, you will need to skip this challenge).
 
@@ -33,17 +33,17 @@ Family names are case-sensitive and need to be wrapped in quotes if there is a s
 
 # --instructions--
 
-Import the `Lobster` font to your web page. Then, use an element selector to set `Lobster` as the `font-family` for your `h2` element.
+استيراد خط `Lobster` إلى صفحة الويب الخاصة بك. ثم استخدم منتقي العناصر للوصول إلى `Lobster` كـ `font-family` لعنصر `h2` الخاص بك.
 
 # --hints--
 
-You should import the `Lobster` font.
+ينبغي عليك استيراد خط `Lobster`.
 
 ```js
 assert($('link[href*="googleapis" i]').length);
 ```
 
-Your `h2` element should use the font `Lobster`.
+عنوانك فرعي `h2` ينبغي عليك إستخدام الخط `Lobster`.
 
 ```js
 assert(
@@ -53,7 +53,7 @@ assert(
 );
 ```
 
-You should only use an `h2` element selector to change the font.
+ينبغي عليك فقط إستخدام `h2` لتحديد العنصر من أجل تغيير الخط.
 
 ```js
 assert(
@@ -63,7 +63,7 @@ assert(
 );
 ```
 
-Your `p` element should still use the font `monospace`.
+`p` االعنصر ينبغي عليك إستخدام الخط `monospace`.
 
 ```js
 assert(

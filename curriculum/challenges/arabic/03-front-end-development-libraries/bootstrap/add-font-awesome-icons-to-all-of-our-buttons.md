@@ -12,7 +12,7 @@ dashedName: add-font-awesome-icons-to-all-of-our-buttons
 
 # --description--
 
-تكون Font Awesome مكتبة عملية من الأيقونات. تكون هذه الأيقونات خطوط ويب أو رُسُوم تشكلية. هن الأيقونات تتعامل مثل الخطوط. يمكنك تحديد حجمها باستخدام وحدات بكسل، وسيفترض الأيقونات حجم الخط لعناصر الأساسية الخاصة بهم (their parent HTML).
+Font Awesome is a convenient library of icons. These icons can be web fonts or vector graphics. These icons are treated just like fonts. You can specify their size using pixels, and they will assume the font size of their parent HTML elements.
 
 # --instructions--
 

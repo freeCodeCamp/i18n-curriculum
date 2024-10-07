@@ -8,7 +8,7 @@ dashedName: averagesroot-mean-square
 
 # --description--
 
-Compute the Root Mean Square (RMS) of the numbers 1 through 10 inclusive.
+Berechne den quadratischen Mittelwert (QMW) der Zahlen 1 bis 10 inklusive.
 
 Der <abbr title="Root mean square">QMW</abbr> wird anhand der quadratischen Wurzel des Mittelwerts der Quadrate der Zahlen berechnet, was durch die folgende Gleichung angegeben wird:
 

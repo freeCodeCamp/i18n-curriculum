@@ -8,7 +8,7 @@ dashedName: repeat-a-string-repeat-a-string
 
 # --description--
 
-كرر مقطع (String) نصي معين `str` (الحجَّة الأولى) لعدد `num` مرات (الحِجَّة الثانية). انتج مقطع (String) نصي فارغ إذا كان `num` ليس رقماً موجباً. لأغراض هذا التحدي، *لا* تستخدم الوظيفة `.repeat()` المدمجة.
+Repeat a given string `str` (first argument) for `num` times (second argument). Return an empty string if `num` is not a positive number. For the purpose of this challenge, do *not* use the built-in `.repeat()` method.
 
 # --hints--
 

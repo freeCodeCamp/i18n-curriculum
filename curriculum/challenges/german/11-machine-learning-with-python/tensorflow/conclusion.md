@@ -1,6 +1,6 @@
 ---
 id: 5e8f2f13c4cdbe86b5c72da6
-title: Conclusion
+title: Schlussfolgerung
 challengeType: 11
 videoId: LMNub5frQi4
 bilibiliIds:
@@ -26,7 +26,7 @@ sind auf mehrere Sachen spezialisiert.
 
 ---
 
-have a deep understanding of many different frameworks.
+haben ein tiefes Verständnis von vielen verschiedenen Frameworks.
 
 ## --video-solution--
 

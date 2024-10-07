@@ -8,7 +8,7 @@ dashedName: pre-filter-json-to-get-the-data-you-need
 
 # --description--
 
-Щоб не відтворювати кожне фото кота з API freeCodeCamp Cat Photo, використайте попередній фільтр перед використанням циклу.
+If you don't want to render every cat photo you get from the freeCodeCamp Cat Photo API, you can pre-filter the JSON before looping through it.
 
 Оскільки дані JSON зберігаються в масиві, ви можете використати метод `filter`, щоб відфільтрувати фото кота, чий `id` ключа має значення `1`.
 

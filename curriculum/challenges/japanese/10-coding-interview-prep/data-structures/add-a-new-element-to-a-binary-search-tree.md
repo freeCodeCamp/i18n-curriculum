@@ -1,6 +1,6 @@
 ---
 id: 587d8257367417b2b2512c7b
-title: 二分探索木に新しい要素を追加する
+title: Add a New Element to a Binary Search Tree
 challengeType: 1
 forumTopicId: 301618
 dashedName: add-a-new-element-to-a-binary-search-tree
@@ -8,7 +8,7 @@ dashedName: add-a-new-element-to-a-binary-search-tree
 
 # --description--
 
-この一連のチャレンジでは、ツリーデータ構造について学びます。 木 (ツリー) は、コンピュータサイエンスにおいて重要かつ汎用的なデータ構造です。 もちろん名称の由来は、そのデータ構造を視覚化すると自然界の木に似ていることです。 ツリーデータ構造は、一般に「根」と呼ばれる 1 つのノードで始まり、ここから追加のノードに枝分かれします。それぞれのノードがいくつかの子ノードに枝分かれし、その子ノードがさらに枝分かれしていきます。 データ構造を視覚化する際、通常は根ノードを一番上に置くので、木を逆さにした状態と考えることができます。
+This series of challenges will introduce the tree data structure. Trees are an important and versatile data structure in computer science. Of course, their name comes from the fact that when visualized they look much like the trees we are familiar with in the natural world. A tree data structure begins with one node, typically referred to as the root, and from here branches out to additional nodes, each of which may have more child nodes, and so on and so forth. The data structure is usually visualized with the root node at the top; you can think of it as a natural tree flipped upside down.
 
 最初に、木に関してよく使われる用語について説明します。 「根ノード」は木の一番上にあります。 木の中のデータポイントは「ノード」と呼ばれます。 他のノードにつながる枝を持つノードは、枝の先にあるノード (子) の親と呼ばれます。 他に複雑な関連用語がありますが、それぞれ言葉通りの意味です。 「部分木」は特定ノードのすべての子孫を指し、枝は「エッジ」と呼ばれることもあります。「葉ノード」は、子を持たず木の末端にあるノードです。 最後に、木は本質的に再帰的なデータ構造であることに注目してください。 つまり、あるノードの子はそれが持つ部分木の親でもあり、それが子孫で繰り返されていきます。 木に対する一般的な操作のアルゴリズムを設計する際には、木の再帰性を理解することが重要です。
 

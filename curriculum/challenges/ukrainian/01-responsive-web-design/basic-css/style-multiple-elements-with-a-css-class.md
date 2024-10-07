@@ -9,7 +9,7 @@ dashedName: style-multiple-elements-with-a-css-class
 
 # --description--
 
-Класи дозволяють вам використовувати однакові стилі CSS на різних елементах HTML. Це можна побачити, застосувавши клас `red-text` до першого елемента `p`.
+Classes allow you to use the same CSS styles on multiple HTML elements. You can see this by applying your `red-text` class to the first `p` element.
 
 # --hints--
 

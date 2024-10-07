@@ -8,7 +8,7 @@ dashedName: update-the-height-of-an-element-dynamically
 
 # --description--
 
-In den vorherigen Aufgaben ging es um das Darstellen von Array-Daten und um das Hinzufügen von CSS-Klassen. Du kannst diese Lektionen kombinieren, um ein einfaches Balkendiagramm zu erstellen. Hierfür gibt es zwei Schritte:
+The previous challenges covered how to display data from an array and how to add CSS classes. You can combine these lessons to create a simple bar chart. There are two steps to this:
 
 1) Erstelle einen `div` für jeden Datenpunkt im Array
 

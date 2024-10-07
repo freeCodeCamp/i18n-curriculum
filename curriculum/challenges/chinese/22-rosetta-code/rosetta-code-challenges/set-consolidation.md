@@ -15,7 +15,7 @@ Given two sets of items then if any item is common to any set then the result of
   <li>如果两个输入集共享一个公共项，则它们是两个输入集的并集。</li>
 </ul>
 
-给定 N 组项目，其中 N > 2，那么结果与通过合并重复替换两个集合的所有组合，直到集合对之间不可能进一步合并为止。 如果 N &lt; 2，则合并没有严格意义，可以返回输入。
+Given N sets of items where N > 2 then the result is the same as repeatedly replacing all combinations of two sets by their consolidation until no further consolidation between set pairs is possible. If N &lt; 2 then consolidation has no strict meaning and the input can be returned.
 
 这里有些例子：
 

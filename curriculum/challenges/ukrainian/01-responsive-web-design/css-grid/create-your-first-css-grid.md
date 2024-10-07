@@ -9,7 +9,7 @@ dashedName: create-your-first-css-grid
 
 # --description--
 
-Перетворіть будь-який елемент HTML у grid-контейнер, задавши властивість `display` для `grid`. Це дозволить вам використати усі властивості, що пов'язані з CSS Grid.
+Turn any HTML element into a grid container by setting its `display` property to `grid`. This gives you the ability to use all the other properties associated with CSS Grid.
 
 **Примітка:** у CSS Grid, батьківський елемент називається <dfn>container</dfn> а його дочірні елементи — <dfn>items</dfn>.
 

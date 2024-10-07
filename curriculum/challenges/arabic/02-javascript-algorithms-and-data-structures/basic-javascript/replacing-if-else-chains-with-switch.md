@@ -9,7 +9,7 @@ dashedName: replacing-if-else-chains-with-switch
 
 # --description--
 
-إذا كان لديك العديد من الخيارات التي يجب الاختيار بينها، عبارة `switch` قد تكون أسهل في الكتابة من سلسلة طويلة من عبارات `if`/`else if`. التالي:
+If you have many options to choose from, a `switch` statement can be easier to write than many chained `if`/`else if` statements. The following:
 
 ```js
 if (val === 1) {

@@ -8,7 +8,7 @@ dashedName: seek-and-destroy
 
 # --description--
 
-Вам буде надано початковий масив як перший аргумент до функції `destroyer`, який супроводжується одним або більше аргументами. Видаліть всі елементи з початкового масиву, які мають таке ж значення, як ці аргументи.
+You will be provided with an initial array as the first argument to the `destroyer` function, followed by one or more arguments. Remove all elements from the initial array that are of the same value as these arguments.
 
 Функція має приймати невизначену кількість аргументів; таку функцію часто називають варіадичною. Ви можете отримати доступ до додаткових аргументів, додавши залишковий параметр до визначення функції або використавши об’єкт `arguments`.
 

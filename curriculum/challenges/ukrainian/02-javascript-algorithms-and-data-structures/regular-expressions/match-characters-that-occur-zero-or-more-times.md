@@ -8,7 +8,7 @@ dashedName: match-characters-that-occur-zero-or-more-times
 
 # --description--
 
-У попередньому завданні ми використали `+`, щоб знайти символи, які зустрічаються один чи більше разів. Існує й варіант пошуку символів, які зустрічаються нуль чи більше разів.
+The last challenge used the plus `+` sign to look for characters that occur one or more times. There's also an option that matches characters that occur zero or more times.
 
 Для цього використовують зірочку: `*`.
 
@@ -54,7 +54,7 @@ assert(result[0] === 'Aaaaaaaaaaaaaaaa');
 assert(result[0].length === 16);
 ```
 
-Ваш регулярний вираз не повинен збігатися з рядком `He made a fair move. Screaming about it can't help you.`
+Your regex should not match any characters in the string `He made a fair move. Screaming about it can't help you.`
 
 ```js
 assert(
@@ -62,7 +62,7 @@ assert(
 );
 ```
 
-Ваш регулярний вираз не повинен збігатися з жодним символом рядка `Let him have it. It's not wise to upset a Wookiee.`
+Your regex should not match any characters in the string `Let him have it. It's not wise to upset a Wookiee.`
 
 ```js
 assert(

@@ -8,7 +8,7 @@ dashedName: set-the-childs-prototype-to-an-instance-of-the-parent
 
 # --description--
 
-在上一個挑戰中，我們學習了從超類（或者叫父類） `Animal` 繼承其行爲的第一個步驟：創建一個 `Animal` 的新實例。
+In the previous challenge you saw the first step for inheriting behavior from the supertype (or parent) `Animal`: making a new instance of `Animal`.
 
 這一節挑戰我們將學習第二個步驟：給子類型（或者子類）設置 `prototype`。 這樣一來，`Bird` 就是 `Animal` 的一個實例了。
 

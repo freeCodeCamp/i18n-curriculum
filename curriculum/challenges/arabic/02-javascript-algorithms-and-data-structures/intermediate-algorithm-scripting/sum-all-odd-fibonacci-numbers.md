@@ -8,7 +8,7 @@ dashedName: sum-all-odd-fibonacci-numbers
 
 # --description--
 
-بإعطائك عدد صحيح موجب `num` ، قم بإرجاع مجموع كل أرقام فيبوناتشي الفردية الأقل من أو تساوي `num`.
+Given a positive integer `num`, return the sum of all odd Fibonacci numbers that are less than or equal to `num`.
 
 The first two numbers in the Fibonacci sequence are 0 and 1. وكل رقم إضافي في التسلسل هو مجموع الرقمين السابقين. The first seven numbers of the Fibonacci sequence are 0, 1, 1, 2, 3, 5 and 8.
 

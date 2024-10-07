@@ -9,7 +9,7 @@ dashedName: add-different-padding-to-each-side-of-an-element
 
 # --description--
 
-A volte si vuole personalizzare un elemento in modo che abbia un diverso `padding` (imbottitura) su ciascuno dei suoi lati.
+Sometimes you will want to customize an element so that it has different amounts of `padding` on each of its sides.
 
 CSS consente di controllare il `padding` di tutti e quattro i lati di un elemento con le proprietà `padding-top`, `padding-right`, `padding-bottom`e `padding-left`.
 

@@ -8,12 +8,12 @@ dashedName: deepcopy
 
 # --description--
 
-Write a function that returns a deep copy of a given object. The copy must not be the same object that was given.
+Schreibe eine Funktion, die eine Deepcopy eines bestimmten Objekts zurückgibt. Die Kopie darf nicht dasselbe Objekt sein, das übergeben wurde.
 
 Bei dieser Aufgabe wird nicht geprüft, ob:
 
 <ul>
-  <li>Objects with properties that are functions</li>
+  <li>Objekte mit Eigenschaften, die Funktionen sind</li>
   <li>Datumsobjekte oder Objekte mit Eigenschaften, die Datumsobjekte sind</li>
   <li>RegEx oder ein Objekt mit Eigenschaften, die RegEx-Objekte sind</li>
   <li>Kopieren von Prototypen</li>

@@ -1,6 +1,6 @@
 ---
 id: 587d8250367417b2b2512c5f
-title: Create a Stack Class
+title: Erstelle eine Set-Klasse
 challengeType: 1
 forumTopicId: 301633
 dashedName: create-a-stack-class
@@ -12,11 +12,11 @@ In the last section, we talked about what a stack is and how we can use an array
 
 # --instructions--
 
-Write a `push` method that pushes an element to the top of the stack, a `pop` method that removes and returns the element on the top of the stack, a `peek` method that looks at the top element in the stack, an `isEmpty` method that checks if the stack is empty, and a `clear` method that removes all elements from the stack. Normally stacks don't have this, but we've added a `print` helper method that console logs the collection.
+Schreibe eine `push`-Methode, die ein Element an die Spitze des Stapels schiebt, eine `pop`-Methode, die das Element an der Spitze des Stapels entfernt und zurückgibt, eine `peek`-Methode, die das oberste Element im Stapel betrachtet, eine `isEmpty`-Methode, die prüft, ob der Stapel leer ist, und eine `clear`-Methode, die alle Elemente vom Stapel entfernt. Normalerweise haben Stacks dies nicht, aber wir haben eine `print` Hilfsmethode hinzugefügt, die die Sammlung auf der Konsole protokolliert.
 
 # --hints--
 
-Your `Stack` class should have a `push` method.
+Deine `Stack` Klasse sollte eine `push` Methode haben.
 
 ```js
 assert(
@@ -27,7 +27,7 @@ assert(
 );
 ```
 
-Your `Stack` class should have a `pop` method.
+Deine `Stack`-Klasse sollte eine `pop`-Methode haben.
 
 ```js
 assert(
@@ -38,7 +38,7 @@ assert(
 );
 ```
 
-Your `Stack` class should have a `peek` method.
+Deine `Stack` Klasse sollte eine `peek` Methode haben.
 
 ```js
 assert(
@@ -49,7 +49,7 @@ assert(
 );
 ```
 
-Your `Stack` class should have a `isEmpty` method.
+Deine `Stack` Klasse sollte eine `isEmpty` Methode haben.
 
 ```js
 assert(
@@ -60,7 +60,7 @@ assert(
 );
 ```
 
-Your `Stack` class should have a `clear` method.
+Deine `Stack` Klasse sollte eine `clear` Methode haben.
 
 ```js
 assert(
@@ -71,7 +71,7 @@ assert(
 );
 ```
 
-The `peek` method should return the top element of the stack
+Die Methode `peek` sollte das oberste Element des Stacks zurückgeben
 
 ```js
 assert(
@@ -84,7 +84,7 @@ assert(
 );
 ```
 
-The `pop` method should remove and return the top element of the stack
+Die Methode `pop` sollte das oberste Element des Stacks entfernen und zurückgeben
 
 ```js
 assert(
@@ -97,7 +97,7 @@ assert(
 );
 ```
 
-The `isEmpty` method should return true if a stack does not contain any elements
+Die Methode `isEmpty` sollte true zurückgeben, wenn ein Stapel keine Elemente enthält.
 
 ```js
 assert(
@@ -108,7 +108,7 @@ assert(
 );
 ```
 
-The `clear` method should remove all element from the stack
+Die Methode `clear` sollte alle Elemente vom Stapel entfernen
 
 ```js
 assert(

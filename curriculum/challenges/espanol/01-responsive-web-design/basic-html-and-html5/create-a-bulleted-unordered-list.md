@@ -9,7 +9,7 @@ dashedName: create-a-bulleted-unordered-list
 
 # --description--
 
-HTML tiene un elemento especial para crear <dfn>listas no ordenadas</dfn>, o listas con estilo de viñetas.
+HTML has a special element for creating <dfn>unordered lists</dfn>, or bullet point style lists.
 
 Las listas no ordenadas comienzan con un elemento `<ul>` de apertura, seguido de cualquier número de elementos `<li>`. Por último, las listas no ordenadas cierran con un `</ul>`.
 

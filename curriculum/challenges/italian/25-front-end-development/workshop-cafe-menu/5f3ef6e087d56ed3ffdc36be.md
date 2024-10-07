@@ -11,19 +11,19 @@ Now apply the `established` class to the `Est. 2020` text.
 
 # --hints--
 
-You should set the `class` of the `p` element to `established`.
+Dovresti assegnare alla classe dell'elemento `p` il valore `established`.
 
 ```js
 assert.match(code,/<p class=('|")established\1>/i);
 ```
 
-Your `established` class should be on the element with the text `Est. 2020`.
+La tua classe `established` dovrebbe essere sull'elemento con il testo `Est. 2020` testo.
 
 ```js
 assert.match(document.querySelector('.established')?.innerText, /Est\.\s2020/i);
 ```
 
-Your `established` class element should have italic text.
+Il testo dell'elemento di classe `established` dovrebbe essere in corsivo.
 
 ```js
 const establishElement = document.querySelector('.established');

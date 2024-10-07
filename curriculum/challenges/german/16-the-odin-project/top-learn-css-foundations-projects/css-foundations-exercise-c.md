@@ -13,7 +13,7 @@ Wir wollen ein wenig auf der vorherigen Übung aufbauen, in der du mehrere Klass
 1. Auf dem zweiten `button`-Element solltest du einen gelben Hintergrund sehen.
 1. Du solltest eine Schriftgröße von `28px` einstellen, indem du einen Gruppierungsselektor benutzt.
 1. Du solltest eine Liste von Schriftarten haben, die `Helvetica` und `Times New Roman` mit `sans-serif` als Fallback enthält.
-1. You should see a unique class name on each element.
+1. Du solltest für jedes Element einen eindeutigen Klassennamen sehen.
 1. Du solltest einen Gruppierungsselektor für Stile haben, die beide Elemente miteinander teilen.
 
 # --hints--

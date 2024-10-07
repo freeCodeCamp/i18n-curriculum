@@ -8,17 +8,17 @@ dashedName: problem-372-pencils-of-rays
 
 # --description--
 
-Let $R(M, N)$ be the number of lattice points ($x$, $y$) which satisfy $M \lt x \le N$, $M \lt y \le N$ and $\left\lfloor\frac{y^2}{x^2}\right\rfloor$ is odd.
+Lasse $R(M, N)$ die Anzahl der Gitterpunkte ($x$, $y$) sein, die $M \lt x \le N$, $M \lt y \le N$ erfüllen und $\left\lfloor\frac{y^2}{x^2}\right\rfloor$ ungerade ist.
 
-We can verify that $R(0, 100) = 3\\,019$ and $R(100, 10\\,000) = 29\\,750\\,422$.
+Wir können nachweisen, dass $R(0, 100) = 3\\,019$ und $R(100, 10\\,000) = 29\\,750\\,422$ ist.
 
-Find $R(2 \times {10}^6, {10}^9)$.
+Finde $R(2 \times {10}^6, {10}^9)$.
 
 **Hinweis:** $\lfloor x\rfloor$ steht für die Bodenfunktion.
 
 # --hints--
 
-`pencilsOfRays()` should return `301450082318807040`.
+`pencilsOfRays()` sollte `301450082318807040` zurückgeben.
 
 ```js
 assert.strictEqual(pencilsOfRays(), 301450082318807040);

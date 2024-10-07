@@ -9,9 +9,9 @@ dashedName: generate-random-whole-numbers-with-javascript
 
 # --description--
 
-Puoi generare numeri decimali casuali con `Math.random()`, ma a volte devi generare numeri interi casuali. Il seguente processo ti darà un numero intero casuale inferiore a `20`:
+You can generate random decimal numbers with `Math.random()`, but sometimes you need to generate random whole numbers. The following process will give you a random whole number less than `20`:
 
-1. Utilizza `Math.random()` per generare un numero decimale casuale.
+1. Use `Math.random()` to generate a random decimal number.
 2. Moltiplica quel numero decimale casuale per `20`.
 3. Usa `Math.floor()` per arrotondare il numero per difetto al numero intero più vicino.
 

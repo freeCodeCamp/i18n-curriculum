@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: using-web-services
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-What are the two most common ways to send data over the internet?
+¿Cuáles son las dos formas más comunes de enviar datos a través de internet?
 
 ## --answers--
 

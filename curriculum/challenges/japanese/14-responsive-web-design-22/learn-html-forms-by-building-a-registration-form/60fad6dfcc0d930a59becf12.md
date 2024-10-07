@@ -7,7 +7,7 @@ dashedName: step-43
 
 # --description--
 
-登録フォームの HTML が完成しました。 ここから、少し見た目を整えていきましょう。
+The HTML for the registration form is finished. Now, you can spruce it up a bit.
 
 まず `body` ルール内で、フォントを `Tahoma` に、フォントサイズを `16px` に変更してください。
 

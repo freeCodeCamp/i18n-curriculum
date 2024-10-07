@@ -9,7 +9,7 @@ dashedName: use-bracket-notation-to-find-the-nth-to-last-character-in-a-string
 
 # --description--
 
-Du kannst das gleiche Prinzip, das wir gerade verwendet haben, um das letzte Zeichen in einer Zeichenkette abzurufen, verwenden, um das n-te bis letzte Zeichen abzurufen.
+You can use the same principle we just used to retrieve the last character in a string to retrieve the Nth-to-last character.
 
 Zum Beispiel kannst du den Wert des drittletzten Buchstabens des Strings `const firstName = "Augusta"` erhalten, indem du `firstName[firstName.length - 3]` verwendest.
 

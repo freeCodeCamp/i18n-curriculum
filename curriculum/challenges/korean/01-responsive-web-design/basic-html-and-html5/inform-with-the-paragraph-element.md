@@ -9,7 +9,7 @@ dashedName: inform-with-the-paragraph-element
 
 # --description--
 
-`p` 요소는 웹사이트의 문단 텍스트를 위한 선호되는 요소입니다. `p`는 문단(paragraph)의 줄임말 입니다.
+The `p` element is the preferred element for paragraph text on websites. `p` is short for "paragraph".
 
 다음과 같이 문단 요소를 만들 수 있습니다:
 

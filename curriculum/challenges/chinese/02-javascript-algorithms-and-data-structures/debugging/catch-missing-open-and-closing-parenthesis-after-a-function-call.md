@@ -8,7 +8,7 @@ dashedName: catch-missing-open-and-closing-parenthesis-after-a-function-call
 
 # --description--
 
-当函数或方法不接受任何参数时，你可能忘记在调用它时加上空的左括号和右括号。 通常，函数调用的结果会保存在变量中，供其他代码使用。 可以通过将变量值（或其类型）打印到控制台，查看输出究竟是一个函数引用还是函数调用的返回值来检测这类错误。
+When a function or method doesn't take any arguments, you may forget to include the (empty) opening and closing parentheses when calling it. Often times the result of a function call is saved in a variable for other use in your code. This error can be detected by logging variable values (or their types) to the console and seeing that one is set to a function reference, instead of the expected value the function returns.
 
 下面示例中的两个变量是不同的:
 

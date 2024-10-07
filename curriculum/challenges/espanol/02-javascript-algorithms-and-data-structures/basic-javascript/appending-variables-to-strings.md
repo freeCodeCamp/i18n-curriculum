@@ -9,7 +9,7 @@ dashedName: appending-variables-to-strings
 
 # --description--
 
-Al igual que podemos crear una cadena sobre múltiples líneas a partir de las cadenas <dfn>literales</dfn>, también podemos añadir variables a una cadena usando el operador "más igual" (`+=`).
+Just as we can build a string over multiple lines out of string <dfn>literals</dfn>, we can also append variables to a string using the plus equals (`+=`) operator.
 
 Ejemplo:
 

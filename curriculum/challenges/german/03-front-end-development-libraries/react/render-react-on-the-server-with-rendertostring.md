@@ -8,7 +8,7 @@ dashedName: render-react-on-the-server-with-rendertostring
 
 # --description--
 
-Bis jetzt hast du React-Komponenten auf dem Client gerendert. Normalerweise wirst du das immer tun. Es gibt jedoch einige Anwendungsfälle, in denen es sinnvoll ist, eine React-Komponente auf dem Server zu rendern. Da React eine JavaScript-View-Bibliothek ist und du mit Node JavaScript auf dem Server ausführen kannst, ist dies möglich. Tatsächlich bietet React eine `renderToString()`-Methode, die du für diesen Zweck verwenden kannst.
+So far, you have been rendering React components on the client. Normally, this is what you will always do. However, there are some use cases where it makes sense to render a React component on the server. Since React is a JavaScript view library and you can run JavaScript on the server with Node, this is possible. In fact, React provides a `renderToString()` method you can use for this purpose.
 
 Es gibt zwei wichtige Gründe, warum das Rendering auf dem Server in einer realen Anwendung verwendet werden kann. Erstens würden deine React-Apps sonst aus einer relativ leeren HTML-Datei und einem großen Bündel von JavaScript bestehen, wenn sie zum ersten Mal in den Browser geladen werden. Das ist vielleicht nicht ideal für Suchmaschinen, die versuchen, den Inhalt deiner Seiten zu indexieren, damit die Leute dich finden können. Wenn du das anfängliche HTML-Markup auf dem Server renderst und an den Client sendest, enthält das erste Laden der Seite das gesamte Markup der Seite, das von Suchmaschinen gecrawlt werden kann. Zweitens wird die Seite dadurch schneller geladen, weil der gerenderte HTML-Code kleiner ist als der JavaScript-Code der gesamten App. React wird deine App auch nach dem ersten Laden erkennen und verwalten können.
 

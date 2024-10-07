@@ -8,7 +8,7 @@ dashedName: mutations
 
 # --description--
 
-ققم يإرجاع `true` إذا كانت المقطع النصي (string) في العنصر الأول من القائمة تحتوي على جميع الأحرف من القطع النصي (string) في العنصر الثاني من القائمة.
+Return `true` if the string in the first element of the array contains all of the letters of the string in the second element of the array.
 
 على سبيل المثال، `["hello", "Hello"]`, يجب أن ينتج `true` لأن جميع الحروف في المقطع النصي (string) الثانية موجودة في المقطع النصي (string) الأولى، وذلك بتجاهل حالة الحروف سواء كانت كبيرة أو صغيرة.
 

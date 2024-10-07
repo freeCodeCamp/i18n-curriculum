@@ -8,7 +8,7 @@ dashedName: render-html-elements-to-the-dom
 
 # --description--
 
-Ви вже дізналися, що JSX є зручним інструментом, щоб писати читабельний HTML в JavaScript. За допомогою React можна відтворити JSX одразу в HTML DOM, використавши API для відтворення від React, відомого як ReactDOM.
+So far, you've learned that JSX is a convenient tool to write readable HTML within JavaScript. With React, we can render this JSX directly to the HTML DOM using React's rendering API known as ReactDOM.
 
 ReactDOM пропонує простий метод для відтворення елементів React в DOM, який має такий вигляд: `ReactDOM.render(componentToRender, targetNode)`, де першим аргументом є елемент чи компонент React для відтворення, а другим аргументом є вузол DOM, де ви хочете відтворити компонент.
 

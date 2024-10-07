@@ -9,7 +9,7 @@ dashedName: create-a-text-field
 
 # --description--
 
-Тепер створімо вебформу.
+Now let's create a web form.
 
 Елементи `input` - зручний спосіб отримати інформацію від користувача.
 

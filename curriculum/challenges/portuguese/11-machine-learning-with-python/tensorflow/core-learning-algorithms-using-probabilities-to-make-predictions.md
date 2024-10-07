@@ -14,7 +14,7 @@ dashedName: core-learning-algorithms-using-probabilities-to-make-predictions
 
 ## --text--
 
-Qual módulo do TensorFlow você deve importar para implementar o `.HiddenMarkovModel()`?
+What TensorFlow module should you import to implement `.HiddenMarkovModel()`?
 
 ## --answers--
 

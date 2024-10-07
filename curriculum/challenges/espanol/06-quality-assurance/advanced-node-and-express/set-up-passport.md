@@ -12,9 +12,9 @@ It's time to set up *Passport* so you can finally start allowing a user to regis
 
 `passport@~0.4.1` y `express-session@~1.17.1` ya están instalados, y los dos están apuntados como dependencias en tu archivo `package.json`.
 
-You will need to set up the session settings and initialize Passport. First, create the variables `session` and `passport` to require `express-session` and `passport` respectively.
+Necesita configurar los ajustes de sesión e inicializar Passport. Primero, crea las variables `session` y `passport` que requieren `express-session` y `passport` respectivamente.
 
-Then, set up your Express app to use the session by defining the following options:
+Después, haga que su aplicación de Express use la sesión definiendo las siguientes opciones:
 
 ```javascript
 app.use(session({
@@ -25,15 +25,15 @@ app.use(session({
 }));
 ```
 
-Be sure to add `SESSION_SECRET` to your `.env` file, and give it a random value. This is used to compute the hash used to encrypt your cookie!
+Asegúrese de añadir `SESSION_SECRET` al fichero `.env`, dándole un valor aleatorio. ¡Este es utilizado para calcular el hash utilizado para encriptar sus cookies!
 
-After you do all that, tell your express app to **use** `passport.initialize()` and `passport.session()`.
+Después de todo esto, informe a su aplicación de express para que **use** `passport.initialize()` y `passport.session()`.
 
-Submit your page when you think you've got it right. If you're running into errors, you can <a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#set-up-passport-3" target="_blank" rel="noopener noreferrer nofollow">check out the project completed up to this point</a>.
+Envía tu página cuando crea que lo ha hecho bien. Si te encuentras con errores, puedes <a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#set-up-passport-3" target="_blank" rel="noopener noreferrer nofollow">comprobar el proyecto realizado hasta este momento</a>.
 
 # --hints--
 
-Passport and Express-session should be dependencies.
+Passport y Express-session deben ser dependencias.
 
 ```js
 async (getUserInput) => {
@@ -53,7 +53,7 @@ async (getUserInput) => {
 }
 ```
 
-Dependencies should be correctly required.
+Las dependencias deben ser requeridas correctamente.
 
 ```js
 async (getUserInput) => {
@@ -73,7 +73,7 @@ async (getUserInput) => {
 }
 ```
 
-Express app should use new dependencies.
+La aplicación Express debe usar nuevas dependencias.
 
 ```js
 async (getUserInput) => {
@@ -85,7 +85,7 @@ async (getUserInput) => {
 }
 ```
 
-Session and session secret should be correctly set up.
+Session y session secret deben estar configurados correctamente.
 
 ```js
 async (getUserInput) => {

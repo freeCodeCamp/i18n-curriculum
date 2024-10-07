@@ -8,7 +8,7 @@ dashedName: handle-click-events-with-javascript-using-the-onclick-property
 
 # --description--
 
-Код має виконуватись лише тоді, коли сторінка повністю завантажиться. Для цього можна прикріпити подію JavaScript до документа під назвою `DOMContentLoaded`. Ось приклад такого коду:
+You want your code to execute only once your page has finished loading. For that purpose, you can attach a JavaScript event to the document called `DOMContentLoaded`. Here's the code that does this:
 
 ```js
 document.addEventListener('DOMContentLoaded', function() {

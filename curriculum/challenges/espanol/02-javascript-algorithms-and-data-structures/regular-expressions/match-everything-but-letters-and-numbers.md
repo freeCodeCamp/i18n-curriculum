@@ -8,7 +8,7 @@ dashedName: match-everything-but-letters-and-numbers
 
 # --description--
 
-Has aprendido que puedes usar un atajo para emparejar alfanuméricos `[A-Za-z0-9_]` usando `\w`. Un patrón natural que tal vez quieras buscar es lo contrario a la alfanumérica.
+You've learned that you can use a shortcut to match alphanumerics `[A-Za-z0-9_]` using `\w`. A natural pattern you might want to search for is the opposite of alphanumerics.
 
 Puedes buscar lo contrario de `\w` con `\W`. Ten en cuenta, el patrón contrario usa letra mayúscula. Este atajo es lo mismo que `[^A-Za-z0-9_]`.
 
@@ -28,7 +28,7 @@ Usa la clase de caracteres abreviados `\W` para contar el número de caracteres 
 
 # --hints--
 
-Tu expresión regular debe usar la bandera global.
+Tu expresión regular debe usar una bandera global.
 
 ```js
 assert(nonAlphabetRegex.global);

@@ -8,7 +8,7 @@ dashedName: create-and-add-to-sets-in-es6
 
 # --description--
 
-Agora que você trabalhou na ES5 e a conhece, vamos fazer algo semelhante na ES6. Isso será consideravelmente mais fácil. A ES6 contém uma estrutura de dados integrada chamada `Set`. Portanto, muitas das operações que você escreveu à mão estão agora incluídas para você. Vamos dar uma olhada:
+Now that you have worked through ES5, you are going to perform something similar in ES6. This will be considerably easier. ES6 contains a built-in data structure `Set` so many of the operations you wrote by hand are now included for you. Let's take a look:
 
 Para criar um novo conjunto vazio:
 

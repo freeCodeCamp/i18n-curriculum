@@ -8,7 +8,7 @@ dashedName: use-destructuring-assignment-to-assign-variables-from-arrays
 
 # --description--
 
-ES6 يجعل تفصيص الـ arrays بمعني destructuring arrays سهل مثل تفصيص الـ objects او destructuring objects.
+ES6 makes destructuring arrays as easy as destructuring objects.
 
 ويتمثل أحد الاختلافات الرئيسية بين spread operator و array destructuring في أن الـ spread operator يقوم بفك جميع محتويات الـ array في قائمة مفصولة بفواصل. وبالتالي، لا يمكنك اختيار العناصر التي تريد تعيينها للمتغيرات.
 

@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: loops-and-iterations
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-What will the following code print out?:
+¿Qué imprimirá el siguiente código?:
 
 ```python
 n = 0

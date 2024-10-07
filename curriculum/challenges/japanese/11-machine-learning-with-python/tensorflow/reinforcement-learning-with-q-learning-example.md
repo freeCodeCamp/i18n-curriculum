@@ -14,7 +14,7 @@ dashedName: reinforcement-learning-with-q-learning-example
 
 ## --text--
 
-次の空欄を埋めて Q 学習の式を完成させてください。
+Fill in the blanks to complete the following Q-Learning equation:
 
 ```py
 Q[__A__, __B__] = Q[__A__, __B__] + LEARNING_RATE * (reward + GAMMA * np.max(Q[__C__, :]) - Q[__A__, __B__])

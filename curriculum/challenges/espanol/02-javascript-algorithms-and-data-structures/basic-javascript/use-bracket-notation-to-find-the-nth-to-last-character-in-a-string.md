@@ -9,7 +9,7 @@ dashedName: use-bracket-notation-to-find-the-nth-to-last-character-in-a-string
 
 # --description--
 
-Puedes usar el mismo principio que acabamos de usar para recuperar el último carácter de una cadena para recuperar el carácter enésimo final.
+You can use the same principle we just used to retrieve the last character in a string to retrieve the Nth-to-last character.
 
 Por ejemplo, puedes obtener el valor de la antepenúltima letra de la cadena `const firstName = "Augusta"` usando `firstName[firstName.length - 3]`
 

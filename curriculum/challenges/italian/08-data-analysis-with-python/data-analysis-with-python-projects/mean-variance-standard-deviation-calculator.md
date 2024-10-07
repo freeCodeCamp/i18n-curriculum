@@ -12,7 +12,7 @@ You will be <a href="https://gitpod.io/?autostart=true#https://github.com/freeCo
 
 Stiamo ancora sviluppando la parte didattica interattiva del curriculum di Python. Per ora, ecco alcuni video sul canale YouTube di freeCodeCamp.org che ti insegneranno tutto quello che devi sapere per completare questo progetto:
 
-- <a href="https://www.freecodecamp.org/news/python-for-everybody/" target="_blank" rel="noopener noreferrer nofollow">Video corso Python for Everybody</a> (14 ore)
+- <a href="https://www.freecodecamp.org/news/python-for-everybody/" target="_blank" rel="noopener noreferrer nofollow">Python for Everybody Video Course</a> (14 hours)
 
 - <a href="https://www.freecodecamp.org/news/how-to-analyze-data-with-python-pandas/" target="_blank" rel="noopener noreferrer nofollow"> Come analizzare i dati con Python Pandas </a>(10 ore)
 
@@ -50,9 +50,9 @@ Per esempio, `calculate([0,1,2,3,4,5,6,7,8])` dovrebbe restituire:
 }
 ```
 
-## Sviluppo
+## Development
 
-Write your code in `mean_var_std.py`. For development, you can use `main.py` to test your code.
+Write your code in `mean_var_std.py`. Per lo sviluppo, puoi usare `main.py` per testare il tuo codice.
 
 ## Test
 

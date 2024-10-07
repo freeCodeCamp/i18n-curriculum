@@ -9,7 +9,7 @@ dashedName: make-dead-links-using-the-hash-symbol
 
 # --description--
 
-有時你想爲網站添加一個 `a` 元素，但還不確定要將它鏈接到哪裏。
+Sometimes you want to add `a` elements to your website before you know where they will link.
 
 當你使用 `JavaScript` 更改鏈接的指向時，這也很方便，我們將在後面的課程中介紹。
 

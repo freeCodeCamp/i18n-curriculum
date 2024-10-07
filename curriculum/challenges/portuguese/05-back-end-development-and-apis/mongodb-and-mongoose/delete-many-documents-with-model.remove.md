@@ -8,7 +8,7 @@ dashedName: delete-many-documents-with-model-remove
 
 # --description--
 
-`Model.remove()` é útil para excluir todos os documentos que correspondem a determinados critérios.
+`Model.remove()` is useful to delete all the documents matching given criteria.
 
 # --instructions--
 

@@ -8,7 +8,7 @@ dashedName: using-the-test-method
 
 # --description--
 
-تستخدم Regular expressions في لغات البرمجة لمطابقة أجزاء من المقاطع النصية (strings). أنت تنشئ أنماطا لمساعدتك على القيام بهذه المطابقة.
+Regular expressions are used in programming languages to match parts of strings. You create patterns to help you do that matching.
 
 إذا كنت ترغب في العثور على كلمة `the` في مقطع `The dog chased the cat`، يمكنك استخدام regular expression التالي: `/the/`. لاحظ أن علامات الاقتباس غير مطلوبة في regular expression.
 

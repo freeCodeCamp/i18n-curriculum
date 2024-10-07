@@ -1,6 +1,6 @@
 ---
 id: 65f6f9e9cfbda7f9c04e8af7
-title: Task 41
+title: 任務 41
 challengeType: 19
 dashedName: task-41
 ---
@@ -11,7 +11,7 @@ dashedName: task-41
 
 The phrase `by the end of it` is commonly used in English to refer to the conclusion or final part of a process or period of time. It implies that at the completion of a certain activity, a specific result or understanding will be achieved.
 
-# --questions--
+# 問題
 
 ## --text--
 

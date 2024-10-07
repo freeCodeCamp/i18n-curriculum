@@ -9,7 +9,7 @@ dashedName: create-a-media-query
 
 # --description--
 
-Medienabfragen (Media Queries) sind eine neue Technik, die in CSS3 eingeführt wurde und mit der die Darstellung von Inhalten je nach Größe des Ansichtsfensters (Viewport) geändert werden kann. Der Viewport ist der für den Nutzer sichtbare Bereich einer Webseite und unterscheidet sich je nach dem Gerät, mit dem die Seite aufgerufen wird.
+Media Queries are a new technique introduced in CSS3 that change the presentation of content based on different viewport sizes. The viewport is a user's visible area of a web page, and is different depending on the device used to access the site.
 
 Medienabfragen bestehen aus einem Medientyp, und wenn dieser Medientyp mit dem Gerätetyp übereinstimmt, auf dem das Dokument angezeigt wird, werden die Stile angewendet. Du kannst so viele Selektoren und Stile in deiner Medienabfrage verwenden, wie du willst.
 

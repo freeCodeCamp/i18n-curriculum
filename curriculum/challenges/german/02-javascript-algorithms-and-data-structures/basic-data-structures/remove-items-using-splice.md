@@ -8,9 +8,9 @@ dashedName: remove-items-using-splice
 
 # --description--
 
-Ok, wir haben nun gelernt, wie man Elemente vom Beginn und vom Ende eines Arrays mittels `shift()` und `pop()` entfernt, aber was passiert, wenn wir ein Element von irgendwo in der Mitte entfernen möchten? Oder mehr als ein Element auf einmal entfernen wollen? Nun, hier kommt `splice()` ins Spiel. Mit `splice()` können wir genau das tun: eine **beliebige Anzahl aufeinander folgender Elemente** von einer beliebigen Stelle in einem Array entfernen.
+Ok, so we've learned how to remove elements from the beginning and end of arrays using `shift()` and `pop()`, but what if we want to remove an element from somewhere in the middle? Or remove more than one element at once? Well, that's where `splice()` comes in. `splice()` allows us to do just that: **remove any number of consecutive elements** from anywhere in an array.
 
-`splice()` kann bis zu drei Parameter aufgreifen, aber vorerst fokussieren wir uns nur auf die ersten beiden. Die ersten beiden Parameter von `splice()` sind ganze Zahlen, die Indizes oder Positionen der Elemente im Array darstellen, die von `splice()` aufgerufen werden. Und denke daran, Arrays sind *null-indiziert*. Um das erste Element eines Arrays auszugeben, müssen wir `0` verwenden. Der erste Parameter von `splice()` stellt den Index des Arrays dar, aus dem Elemente entfernt werden sollen, während der zweite Parameter die Anzahl der zu löschenden Elemente angibt. Zum Beispiel:
+`splice()` kann bis zu drei Parameter aufgreifen, aber vorerst fokussieren wir uns nur auf die ersten beiden. Die ersten beiden Parameter von `splice()` sind ganze Zahlen, die Indizes oder Positionen der Elemente im Array darstellen, die von `splice()` aufgerufen werden. Und denke daran, Arrays sind *null-indiziert*. Um das erste Element eines Arrays auszugeben, müssen wir `0` verwenden. Der erste Parameter von `splice()` stellt den Index des Arrays dar, aus dem Elemente entfernt werden sollen, während der zweite Parameter die Anzahl der zu löschenden Elemente angibt. Hier ein Beispiel:
 
 ```js
 let array = ['today', 'was', 'not', 'so', 'great'];

@@ -9,7 +9,7 @@ dashedName: write-reusable-javascript-with-functions
 
 # --description--
 
-У JavaScript можна розділити код на багаторазові частини, які називаються <dfn>функціями</dfn>.
+In JavaScript, we can divide up our code into reusable parts called <dfn>functions</dfn>.
 
 Приклад функції:
 
@@ -25,7 +25,7 @@ function functionName() {
 
 <ol>
   <li>
-    Створіть функцію під назвою <code>reusableFunction</code>, яка друкує рядок <code>Hi World</code> на консоль.
+    Create a function called <code>reusableFunction</code> which prints the string <code>Hi World</code> to the dev console.
   </li>
   <li>
     Викличте функцію.

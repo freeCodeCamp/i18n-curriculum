@@ -8,7 +8,7 @@ dashedName: access-property-names-with-bracket-notation
 
 # --description--
 
-У першому завданні про об’єкт ми згадували дужкову нотацію як спосіб доступу до значень властивостей за допомогою оцінювання змінної. Наприклад, уявіть, що наш об’єкт `foods` використовується в програмі для касового апарату супермаркету. У нас є функція, яка встановлює `selectedFood` і ми хочемо перевірити наш об’єкт `foods` на наявність певної їжі. Це може виглядати так:
+In the first object challenge we mentioned the use of bracket notation as a way to access property values using the evaluation of a variable. For instance, imagine that our `foods` object is being used in a program for a supermarket cash register. We have some function that sets the `selectedFood` and we want to check our `foods` object for the presence of that food. This might look like:
 
 ```js
 let selectedFood = getCurrentFood(scannedItem);

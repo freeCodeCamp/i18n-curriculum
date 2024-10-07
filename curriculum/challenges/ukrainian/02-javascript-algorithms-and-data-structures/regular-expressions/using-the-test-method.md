@@ -8,7 +8,7 @@ dashedName: using-the-test-method
 
 # --description--
 
-Регулярні вирази використовують у мовах програмування, щоб знайти збіги рядків. Ви створюєте шаблони, які допоможуть зробити це.
+Regular expressions are used in programming languages to match parts of strings. You create patterns to help you do that matching.
 
 Якщо ви хочете знайти слово `the` у рядку `The dog chased the cat`, то використайте регулярний вираз `/the/`. Зверніть увагу на те, що лапки в регулярному виразі не потрібні.
 

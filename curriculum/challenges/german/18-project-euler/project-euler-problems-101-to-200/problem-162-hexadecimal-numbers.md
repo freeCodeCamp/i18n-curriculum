@@ -12,11 +12,11 @@ Im Hexadezimalsystem werden Zahlen mit 16 verschiedenen Ziffern dargestellt:
 
 $$0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F$$
 
-Die hexadezimale Zahl AF entspricht im dezimalen Zahlensystem $10 \mal 16 + 15 = 175$.
+Die hexadezimale Zahl AF entspricht im dezimalen Zahlensystem $10 \times 16 + 15 = 175$.
 
 In den dreistelligen Hexadezimalzahlen 10A, 1A0, A10 und A01 sind die Ziffern 0, 1 und A alle vorhanden.
 
-Like numbers written in base ten we write hexadecimal numbers without leading zeroes.
+Wie Zahlen zur Basis zehn schreiben wir Hexadezimalzahlen ohne vorangestellte Nullen.
 
 Wie viele Hexadezimalzahlen mit höchstens sechzehn Hexadezimalziffern gibt es, bei denen alle Ziffern 0, 1 und A mindestens einmal vorkommen?
 

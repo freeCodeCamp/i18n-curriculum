@@ -8,7 +8,7 @@ dashedName: delete-a-node-with-one-child-in-a-binary-search-tree
 
 # --description--
 
-葉ノードを削除できるようになったので、2 つ目のケースに進みましょう。つまり、1 つの子を持つノードを削除します。 このケースでは、ノード 1 - 2 - 3 を持つ木があるとします。ここで、1 は根です。 2 を削除するには、1 から 3 への適切な参照を行うだけです。 より一般的には、子を 1 つだけ持つノードを削除するには、そのノードの親がツリー内の次のノードを参照するようにします。
+Now that we can delete leaf nodes let's move on to the second case: deleting a node with one child. For this case, say we have a tree with the following nodes 1 — 2 — 3 where 1 is the root. To delete 2, we simply need to make the right reference in 1 point to 3. More generally to delete a node with only one child, we make that node's parent reference the next node in the tree.
 
 # --instructions--
 

@@ -9,7 +9,7 @@ dashedName: add-placeholder-text-to-a-text-field
 
 # --description--
 
-Il testo segnaposto è quello che viene visualizzato nell'elemento `input` prima che l'utente abbia inserito qualcosa.
+Placeholder text is what is displayed in your `input` element before your user has inputted anything.
 
 Puoi creare il testo segnaposto in questo modo:
 

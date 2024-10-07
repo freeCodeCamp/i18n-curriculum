@@ -8,7 +8,7 @@ dashedName: render-html-elements-to-the-dom
 
 # --description--
 
-Bis jetzt hast du gelernt, dass JSX ein praktisches Werkzeug ist, um lesbares HTML in JavaScript zu schreiben. Mit React können wir dieses JSX direkt in das HTML-DOM rendern, indem wir die ReactDOM genannte Rendering-API von React verwenden.
+So far, you've learned that JSX is a convenient tool to write readable HTML within JavaScript. With React, we can render this JSX directly to the HTML DOM using React's rendering API known as ReactDOM.
 
 ReactDOM bietet eine einfache Methode zum Rendern von React-Elementen im DOM, die wie folgt aussieht: `ReactDOM.render(componentToRender, targetNode)`, wobei das erste Argument das React-Element oder die Komponente ist, die du rendern willst, und das zweite Argument der DOM-Knoten, in den du die Komponente rendern willst.
 
@@ -16,7 +16,7 @@ Wie zu erwarten, muss `ReactDOM.render()` nach den JSX-Elementdeklarationen aufg
 
 # --instructions--
 
-Der Code-Editor hat eine einfache JSX-Komponente. Verwende die Methode `ReactDOM.render()`, um diese Komponente auf der Seite darzustellen. Du kannst definierte JSX-Elemente direkt als erstes Argument übergeben und `document.getElementById()` verwenden, um den DOM-Knoten auszuwählen, in dem sie gerendert werden sollen. Es gibt ein `div` mit `id='challenge-node'`, das du verwenden kannst. Achte darauf, dass du die Konstante `JSX` nicht änderst.
+Der Code-Editor hat eine einfache JSX-Komponente. Verwende die Methode `ReactDOM.render()`, um diese Komponente auf der Seite darzustellen. Du kannst definierte JSX-Elemente direkt als erstes Argument übergeben und `document.getElementById()` verwenden, um den DOM-Knoten auszuwählen, in dem sie gerendert werden sollen. Es gibt ein `div` mit `id='challenge-node'`, dass du verwenden kannst. Achte darauf, dass du die Konstante `JSX` nicht änderst.
 
 # --hints--
 

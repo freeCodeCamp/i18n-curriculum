@@ -8,7 +8,7 @@ dashedName: create-a-doubly-linked-list
 
 # --description--
 
-これまでに作成したリンクリストは、すべて単独でリンクされたリストです。 ここでは<dfn>二重リンクリスト</dfn>を作成します。 名前が示すように、二重リンクリスト内のノードは、リスト内の次ノードと前ノードへの参照を持っています。
+All of the linked lists we've created so far are singly linked lists. Here, we'll create a <dfn>doubly linked list</dfn>. As the name implies, nodes in a doubly linked list have references to the next and previous node in the list.
 
 これにより両方向でリストを走査することができますが、すべてのノードにリスト内の前ノードへの参照を追加する必要があるため、より多くのメモリを使用することになります。
 

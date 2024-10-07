@@ -8,7 +8,7 @@ dashedName: build-a-number-guessing-game
 
 # --description--
 
-這是你獲得認證的必做項目之一。 對於這個項目，你將使用 Bash 腳本、PostgreSQL 和 Git 創建一個在終端中運行並保存用戶信息的猜數字遊戲。
+This is one of the required projects to earn your certification. For this project, you will use Bash scripting, PostgreSQL, and Git to create a number guessing game that runs in the terminal and saves user information.
 
 # --instructions--
 

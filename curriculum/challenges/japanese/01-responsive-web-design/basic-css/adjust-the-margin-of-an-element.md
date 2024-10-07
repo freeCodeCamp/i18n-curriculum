@@ -9,7 +9,7 @@ dashedName: adjust-the-margin-of-an-element
 
 # --description--
 
-要素の `margin` は、要素の `border` とその外側の要素の間のスペースを制御します。
+An element's `margin` controls the amount of space between an element's `border` and surrounding elements.
 
 ここでは、青い四角と赤い四角が黄色い四角の中に入れ子になっています。 赤い四角は青い四角より大きい `margin` を持っており、そのため小さく表示されていることに注目してください。
 

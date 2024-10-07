@@ -7,7 +7,7 @@ dashedName: step-30
 
 # --description--
 
-Ili kuboresha ufikiaji wa picha uliyoongeza, ongeza sifa ya `alt` pamoja na maandishi:
+To improve accessibility of the image you added, add an `alt` attribute with the text:
 
 `Five cats looking around a field.`
 

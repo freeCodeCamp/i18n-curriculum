@@ -8,7 +8,7 @@ dashedName: abundant-deficient-and-perfect-number-classifications
 
 # --description--
 
-These define three classifications of positive integers based on their proper divisors.
+Diese definieren drei Klassifizierungen von positiven ganzen Zahlen auf der Grundlage ihrer eigenen Teiler.
 
 Lasse $P(n)$ die Summe der richtigen Teiler von `n` sein, wobei geeignete Teiler alle positiven ganzen Zahlen `n` sind, anders als `n` selbst.
 

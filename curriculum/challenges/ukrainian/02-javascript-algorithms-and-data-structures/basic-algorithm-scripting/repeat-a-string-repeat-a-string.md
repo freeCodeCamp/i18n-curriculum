@@ -8,7 +8,7 @@ dashedName: repeat-a-string-repeat-a-string
 
 # --description--
 
-Повторіть заданий рядок `str` (перший аргумент) `num` разів (другий аргумент). Поверніть порожній рядок, якщо `num` не є додатним числом. *Не* використовуйте вбудований метод `.repeat()` для цього завдання.
+Repeat a given string `str` (first argument) for `num` times (second argument). Return an empty string if `num` is not a positive number. For the purpose of this challenge, do *not* use the built-in `.repeat()` method.
 
 # --hints--
 

@@ -9,7 +9,7 @@ dashedName: import-a-google-font
 
 # --description--
 
-在我們的網站上，除了使用系統提供的默認字體以外，我們也可以使用自定義字體。 網絡上有很多字體庫。 在這個例子中，我們將使用 Google 字體庫。
+In addition to specifying common fonts that are found on most operating systems, we can also specify non-standard, custom web fonts for use on our website. There are many sources for web fonts on the Internet. For this example we will focus on the Google Fonts library.
 
 Google 字體庫是一個免費的 Web 字體庫，我們只需要在 CSS 裏引用字體的 URL 即可使用。
 

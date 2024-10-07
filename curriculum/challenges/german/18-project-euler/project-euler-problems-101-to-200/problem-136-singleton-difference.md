@@ -8,7 +8,7 @@ dashedName: problem-136-singleton-difference
 
 # --description--
 
-Die positiven Integer $x$, $y$ und $z$ sind aufeinanderfolgende Terme einer arithmetischen Progression. Given that $n$ is a positive integer, the equation, $x^2 − y^2 − z^2 = n$, has exactly one solution when $n = 20$:
+Die positiven Integer $x$, $y$ und $z$ sind aufeinanderfolgende Terme einer arithmetischen Progression. Unter der Voraussetzung, dass $n$ eine positive ganze Zahl ist, hat die Gleichung $x^2 - y^2 - z^2 = n$ genau eine Lösung, wenn $n = 20$:
 
 $$13^2 − 10^2 − 7^2 = 20$$
 

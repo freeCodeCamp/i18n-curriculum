@@ -8,7 +8,7 @@ dashedName: apply-functional-programming-to-convert-strings-to-url-slugs
 
 # --description--
 
-Декілька попередніх завдань охоплювали ряд корисних методів масивів та рядків, які дотримуються принципів функційного програмування. Ми також дізналися про потужний метод `reduce`, який використовується для скорочення задач. За його допомогою можна виконати будь-яку операцію над масивом: від обчислення до сортування. Пригадайте, що `map` та `filter` є особливими випадками `reduce`.
+The last several challenges covered a number of useful array and string methods that follow functional programming principles. We've also learned about `reduce`, which is a powerful method used to reduce problems to simpler forms. From computing averages to sorting, any array operation can be achieved by applying it. Recall that `map` and `filter` are special cases of `reduce`.
 
 Об’єднаємо вивчене, щоб розв’язати практичне завдання.
 

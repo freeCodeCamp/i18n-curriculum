@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d403617b
-title: Pass a Callback as Props
+title: Props로 콜백 전달하기
 challengeType: 6
 forumTopicId: 301400
 dashedName: pass-a-callback-as-props
@@ -12,13 +12,13 @@ You can pass `state` as props to child components, but you're not limited to pas
 
 # --instructions--
 
-There are three components outlined in the code editor. The `MyApp` component is the parent that will render the `GetInput` and `RenderInput` child components. Add the `GetInput` component to the render method in `MyApp`, then pass it a prop called `input` assigned to `inputValue` from `MyApp`'s `state`. Also create a prop called `handleChange` and pass the input handler `handleChange` to it.
+코드 편집기에 세 개의 컴포넌트가 있습니다. `MyApp`은 부모 컴포넌트로 자식 컴포넌트인 `GetInput`과 `RenderInput`을 렌더링 해줄 겁니다. `MyApp` 렌더링 메서드에 `GetInput` 컴포넌트를 추가해주고, `MyApp`의 `상태`인 `inputValue`를 `input`이라는 프로퍼티를 통해 전달해보세요. 그리고 `handleChange`라는 프로퍼티를 만들어서 `handleChange` 핸들러는 전달해주세요.
 
-Next, add `RenderInput` to the render method in `MyApp`, then create a prop called `input` and pass the `inputValue` from `state` to it. Once you are finished you will be able to type in the `input` field in the `GetInput` component, which then calls the handler method in its parent via props. This updates the input in the `state` of the parent, which is passed as props to both children. Observe how the data flows between the components and how the single source of truth remains the `state` of the parent component. Admittedly, this example is a bit contrived, but should serve to illustrate how data and callbacks can be passed between React components.
+그런 다음 `MyApp` 렌더링 메서드에 `RenderInput` 컴포넌트를 추가해주고, `상태`의 `inputValue`를 `input`이라는 프로퍼티로 전달해보세요. 위의 도전을 마치면 `GetInput` 컴포넌트의 `input` 필드에 입력할 수 있을 것이고, 입력이 되면 프로퍼티를 통해 부모의 핸들러 메서드를 호출하게 됩니다. 그러면 부모의 `상태`의 값을 업데이트하고, 두 개의 자식 컴포넌트에 전달되는 겁니다. 데이터가 컴포넌트 간에 어떻게 흐르고 있는지, 어떻게 부모 컴포넌트의 상태`(state)`가 믿음직스런 하나의 출처(single source of truth)로 남을 수 있는지 관찰해보세요. 예시가 조금 부자연스러워 보일 수 있지만, 리액트 컴포넌트 간에 데이터와 콜백이 어떻게 전달되는지 알아보기위한 예시였습니다.
 
 # --hints--
 
-The `MyApp` component should render.
+`MyApp` 컴포넌트가 렌더링 되어야 합니다.
 
 ```js
 assert(
@@ -29,7 +29,7 @@ assert(
 );
 ```
 
-The `GetInput` component should render.
+`GetInput` 컴포넌트가 렌더링 되어야 합니다.
 
 ```js
 assert(
@@ -40,7 +40,7 @@ assert(
 );
 ```
 
-The `RenderInput` component should render.
+`RenderInput` 컴포넌트가 렌더링 되어야 합니다.
 
 ```js
 assert(
@@ -51,7 +51,7 @@ assert(
 );
 ```
 
-The `GetInput` component should receive the `MyApp` state property `inputValue` as props and contain an `input` element which modifies `MyApp` state.
+`GetInput` 컴포넌트는 `MyApp` 상태 프로퍼티 `inputValue`를 props로 전달받아야 되고, `MyApp`의 상태를 수정할 수 있는 `input` 엘리먼트를 가지고 있어야 합니다.
 
 ```js
 async () => {
@@ -74,7 +74,7 @@ async () => {
 };
 ```
 
-The `RenderInput` component should receive the `MyApp` state property `inputValue` as props.
+`RenderInput` 컴포넌트는 `MyApp`의 상태 프로퍼티인 `inputValue`를 props로 받아야 합니다.
 
 ```js
 async () => {

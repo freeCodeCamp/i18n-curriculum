@@ -1,6 +1,6 @@
 ---
 id: 5f5b969a05380d2179fe6e18
-title: Build a Bike Rental Shop
+title: Baue einen Fahrradverleih-Shop
 challengeType: 12
 url: freeCodeCamp/learn-bash-and-sql-by-building-a-bike-rental-shop
 dashedName: build-a-bike-rental-shop
@@ -8,7 +8,7 @@ dashedName: build-a-bike-rental-shop
 
 # --description--
 
-In this 210-lesson course, you will build an interactive Bash program that stores rental information for your bike rental shop using PostgreSQL.
+In diesem Kurs mit 210 Lektionen erstellst du ein interaktives Bash-Programm, das Verleihinformationen für deinen Fahrradverleih mit PostgreSQL speichert.
 
 # --instructions--
 

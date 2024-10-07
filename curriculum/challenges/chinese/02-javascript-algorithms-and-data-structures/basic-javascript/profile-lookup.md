@@ -9,7 +9,7 @@ dashedName: profile-lookup
 
 # --description--
 
-我们有一个对象数组，里面存储着通讯录。
+We have an array of objects representing different people in our contacts lists.
 
 `lookUpProfile` 函数已经写好了参数，需要 `name` 和属性 (`prop`) 参数。
 

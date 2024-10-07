@@ -8,7 +8,7 @@ dashedName: extract-state-logic-to-redux
 
 # --description--
 
-Ви закінчили компонент React, а отже потрібно перемістити логіку, яку він виконує в стані локально, до Redux. Це перший крок, який дозволяє приєднати простий застосунок React до Redux. Єдина функція, яку має ваш застосунок — це додавання нових повідомлень від користувача до невпорядкованого списку. Приклад простий, щоб показати, як React та Redux працюють разом.
+Now that you finished the React component, you need to move the logic it's performing locally in its `state` into Redux. This is the first step to connect the simple React app to Redux. The only functionality your app has is to add new messages from the user to an unordered list. The example is simple in order to demonstrate how React and Redux work together.
 
 # --instructions--
 

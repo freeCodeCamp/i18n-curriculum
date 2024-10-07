@@ -9,7 +9,7 @@ dashedName: override-all-other-styles-by-using-important
 
 # --description--
 
-Uhuu! Acabamos de provar que os estilos inline sobrescrevem todas as declarações CSS feitas no elemento `style`.
+Yay! We just proved that inline styles will override all the CSS declarations in your `style` element.
 
 Mas veja bem. Existe mais uma forma de sobrescrever o CSS que declaramos anteriormente. Este é o método mais poderoso de todos. Mas antes de continuarmos, vamos falar sobre o motivo de você querer substituir o CSS.
 

@@ -7,11 +7,11 @@ dashedName: build-a-markdown-previewer
 ---
 
 # --description--
-**참고:** **React 18은 이 프로젝트의 테스트와 알려진 호환성 문제가 있습니다 (자세한 내용은 [이슈](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922) 참조)**
+**Note:** **React 18 has known incompatibilities with the tests for this project (see [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
 
 **목표:** 다음과 기능적으로 유사한 앱을 만드세요. <a href="https://markdown-previewer.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://markdown-previewer.freecodecamp.rocks/</a>.
 
-아래 유저 스토리를 충족하고 모든 테스트를 통과시키세요. 어떤 라이브러리나 API를 사용해도 좋습니다. 원하는 스타일로 꾸며주세요.
+아래 사용자 스토리를 만족시키고 모든 테스트를 통과하시오. 필요한 라이브러리나 API를 사용하시오. 자신만의 개성을 담아 디자인을 꾸며보세요.
 
 이 프로젝트를 완료하기 위해 HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux 및 jQuery를 혼합하여 사용할 수 있습니다. 이 섹션은 프론트엔드 프레임워크를 학습하는 것이 목적이기 때문에 (React 같은) 프론트엔드 프레임워크를 사용해야 합니다. 위에 나열된 기술만 사용하여 이 프로젝트를 완료하는 것이 권장되고 이외의 기술을 사용할 경우 문제가 있을 수 있습니다. Angular 및 Vue와 같은 다른 프론트엔드 프레임워크를 지원할 예정이지만 현재는 지원되지 않습니다. 이 프로젝트에 제안된 기술 스택을 사용하는 모든 이슈 보고서를 수용하고 문제를 해결하겠습니다. 즐거운 코딩하세요!
 

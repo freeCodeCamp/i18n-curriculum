@@ -11,7 +11,7 @@ dashedName: build-a-tribute-page
 **Objective:** Build an app that is functionally similar to <a href="https://tribute-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://tribute-page.freecodecamp.rocks</a>. **Do not copy this demo project**.
 
 
-**User Stories:**
+**유저 스토리:**
 
 1. Your tribute page should have a `main` element with a corresponding `id` of `main`, which contains all other elements
 1. You should see an element with an `id` of `title`, which contains a string (i.e. text), that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug")
@@ -23,9 +23,9 @@ dashedName: build-a-tribute-page
 1. Your `#image` should use `max-width` and `height` properties to resize responsively, relative to the width of its parent element, without exceeding its original size
 1. Your `img` element should be centered within its parent element
 
-Fulfill the user stories and pass all the tests below to complete this project. Give it your own personal style. Happy Coding!
+아래의 사용자 스토리를 충족시키고 모든 테스트를 통과하여 이 프로젝트를 완료하세요. 자신만의 개성을 담아 디자인을 꾸며보세요. 즐거운 코딩 하세요!
 
-**Note:** Be sure to add `<link rel="stylesheet" href="styles.css">` in your HTML to link your stylesheet and apply your CSS
+**참고:** 스타일시트를 연결하고 CSS를 적용하려면 HTML에 `<link rel="stylesheet" href="styles.css">`를 추가하세요.
 
 # --hints--
 

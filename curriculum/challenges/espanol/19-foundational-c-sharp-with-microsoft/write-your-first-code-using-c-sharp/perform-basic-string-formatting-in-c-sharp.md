@@ -7,16 +7,16 @@ dashedName: perform-basic-string-formatting-in-c-sharp
 
 # --description--
 
-This challenge will be partially completed on the Microsoft Learn platform. Follow these instructions to complete the challenge:
+Este desafío se completará parcialmente en la plataforma de aprendizaje de Microsoft. Sigue estas instrucciones para completar el desafío:
 
-1. Go to <a href="https://learn.microsoft.com/training/modules/csharp-basic-formatting/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/csharp-basic-formatting/</a> and complete all the tasks for the "Perform Basic String Formatting in C#" module. This is **required** to earn the "Write Your First Code Using C#" trophy on Microsoft Learn, and qualify for the certification exam.
-1. When you are finished, come back and correctly answer the question below.
+1. Go to <a href="https://learn.microsoft.com/training/modules/csharp-basic-formatting/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/csharp-basic-formatting/</a> and complete all the tasks for the "Perform Basic String Formatting in C#" module. Esto es **requerido** para ganar el trofeo "Escritura de código de C# por primera vez" en Microsoft Learn, y calificar para el examen de certificación.
+1. Cuando haya terminado, vuelva y responda correctamente a la siguiente pregunta.
 
 # --tarea--
 
-Complete the <a href="https://learn.microsoft.com/training/modules/csharp-basic-formatting/" target="_blank" rel="noreferrer">Perform Basic String Formatting in C#</a> module on Microsoft Learn. Then, answer the question below.
+Complete the <a href="https://learn.microsoft.com/training/modules/csharp-basic-formatting/" target="_blank" rel="noreferrer">Perform Basic String Formatting in C#</a> module on Microsoft Learn. Luego, responda a la siguiente pregunta.
 
-# --questions--
+# --preguntas--
 
 ## --text--
 

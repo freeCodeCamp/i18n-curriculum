@@ -9,7 +9,7 @@ dashedName: inform-with-the-paragraph-element
 
 # --description--
 
-Елемент `p` найчастіше використовують в абзацах тексту на сайтах. `p` скорочено від "paragraph".
+The `p` element is the preferred element for paragraph text on websites. `p` is short for "paragraph".
 
 Ось як ви можете створити елемент paragraph:
 

@@ -9,7 +9,7 @@ dashedName: know-when-alt-text-should-be-left-blank
 
 # --description--
 
-No último desafio, você aprendeu que incluir o atributo `alt` ao usar tags `img` é obrigatório. No entanto, às vezes, as imagens são agrupadas com uma legenda que já as descreve ou são usadas apenas para decoração. Nestes casos, o texto `alt` pode parecer redundante ou desnecessário.
+In the last challenge, you learned that including an `alt` attribute when using `img` tags is mandatory. However, sometimes images are grouped with a caption already describing them, or are used for decoration only. In these cases, `alt` text may seem redundant or unnecessary.
 
 Em situações em que uma imagem já é explicada com conteúdo de texto ou não adiciona significado a uma página, o `img` ainda precisa de um atributo `alt`, mas pode ser definido como uma string vazia. Exemplo:
 

@@ -1,6 +1,6 @@
 ---
 id: 587d7fb1367417b2b2512bf1
-title: Serve JSON on a Specific Route
+title: خدمة JSON على طريق محدد
 challengeType: 2
 forumTopicId: 301517
 dashedName: serve-json-on-a-specific-route
@@ -10,15 +10,15 @@ dashedName: serve-json-on-a-specific-route
 
 While an HTML server serves HTML, an API serves data. A <dfn>REST</dfn> (REpresentational State Transfer) API allows data exchange in a simple way, without the need for clients to know any detail about the server. The client only needs to know where the resource is (the URL), and the action it wants to perform on it (the verb). The GET verb is used when you are fetching some information, without modifying anything. These days, the preferred data format for moving information around the web is JSON. Simply put, JSON is a convenient way to represent a JavaScript object as a string, so it can be easily transmitted.
 
-Let's create a simple API by creating a route that responds with JSON at the path `/json`. You can do it as usual, with the `app.get()` method. Inside the route handler, use the method `res.json()`, passing in an object as an argument. This method closes the request-response loop, returning the data. Behind the scenes, it converts a valid JavaScript object into a string, then sets the appropriate headers to tell your browser that you are serving JSON, and sends the data back. A valid object has the usual structure `{key: data}`. `data` can be a number, a string, a nested object or an array. `data` can also be a variable or the result of a function call, in which case it will be evaluated before being converted into a string.
+دعونا ننشئ API (واجهة برمجة التطبيقات) بسيطة عن طريق إنشاء مسار يستجيب مع JSON على المسار `/json`. يمكنك القيام بذلك كالمعتاد، باستخدام طريقة `app.get()`. داخل معالج الطريق، استخدم الطريقة `res.json()`، و مرر لها كائن كمعطى. هذه الطريقة تغلق حلقة الطلب والاستجابة، وتعيد البيانات. خلف الكواليس، يتحوّل كائن جافا سكريبت صالح إلى مقطع نصي، ثم تعيين الرؤوس المناسبة لإخبار المتصفح الخاص بك أنك تقدم خدمة JSON، و تقوم بإرسال البيانات مرة أخرى. الكائن الصالح له التركيب المعتاد `{key: data}`. `data` يمكن أن تكون رقما، أو مقطع نصي، أو كائن متداخل أو قائمة. `data` يمكن أن تكون أيضا متغير أو نتيجة تفعيل وظيفة، وفي هذه الحالة سيتم تقييمه قبل تحويله إلى مقطع نصي.
 
 # --instructions--
 
-Serve the object `{"message": "Hello json"}` as a response, in JSON format, to GET requests to the `/json` route. Then point your browser to `your-app-url/json`, you should see the message on the screen.
+قم بخدمة الكائن `{"message": "Hello json"}` كرد بتركيب JSON على طلبات الحصول على `/json`. ثم حدد المتصفح الخاص بك إلى `your-app-url/json`، يجب أن ترى الرسالة على الشاشة.
 
 # --hints--
 
-The endpoint `/json` should serve the JSON object `{"message": "Hello json"}`
+النقطة النهائية `/json` يجب أن تخدم كائن JSON `{"message": "Hello json"}`
 
 ```js
 (getUserInput) =>

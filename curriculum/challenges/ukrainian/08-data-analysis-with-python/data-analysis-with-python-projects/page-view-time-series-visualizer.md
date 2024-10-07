@@ -8,13 +8,13 @@ dashedName: page-view-time-series-visualizer
 
 # --description--
 
-Ви будете <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-page-view-time-series-visualizer" target="_blank" rel="noopener noreferrer nofollow">працювати над цим проєктом з нашим стартовим кодом Gitpod</a>.
+You will be <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-page-view-time-series-visualizer" target="_blank" rel="noopener noreferrer nofollow">working on this project with our Gitpod starter code</a>.
 
-Ми досі розробляємо інтерактивну частину навчальної програми з Python. Наразі є декілька відео на ютуб-каналі freeCodeCamp.org, які навчать всього необхідного для виконання цього проєкту:
+Ми все ще розробляємо інтерактивну частину навчального курсу Python. Наразі є декілька відео на ютуб-каналі freeCodeCamp.org, які навчать всього необхідного для виконання цього проєкту:
 
-- <a href="https://www.freecodecamp.org/news/python-for-everybody/" target="_blank" rel="noopener noreferrer nofollow">Python for Everybody Video Course</a> (14 годин)
+- <a href="https://www.freecodecamp.org/news/python-for-everybody/" target="_blank" rel="noopener noreferrer nofollow">Python for Everybody Video Course</a> (14 hours)
 
-- <a href="https://www.freecodecamp.org/news/how-to-analyze-data-with-python-pandas/" target="_blank" rel="noopener noreferrer nofollow">How to Analyze Data with Python Pandas</a> (10 годин)
+- <a href="https://www.freecodecamp.org/news/how-to-analyze-data-with-python-pandas/" target="_blank" rel="noopener noreferrer nofollow">How to Analyze Data with Python Pandas</a> (10 hours)
 
 # --instructions--
 
@@ -22,17 +22,17 @@ dashedName: page-view-time-series-visualizer
 
 Використайте дані для виконання наступних завдань:
 
-- Використайте Pandas для імпорту даних з «fc-forum-pageviews.csv». Встановіть індекс на стовпчик `date`.
+- Use Pandas to import the data from "fcc-forum-pageviews.csv". Set the index to the `date` column.
 - Очистить дані, відфільтрувавши дні, коли перегляди сторінок належали до верхніх 2,5% набору даних або нижніх 2,5% набору даних.
-- Створіть функцію `draw_line_plot`, яка використовує Matplotlib для створення лінійної діаграми, подібної до «examples/Figure_1.png». Заголовком повинен бути `Daily freeCodeCamp Forum Page Views 5/2016-12/2019`. Міткою на осі X повинна бути `Date`, а міткою на осі Y повинна бути `Page Views`.
-- Створіть функцію `draw_bar_plot`, яка малює стовпчикову діаграму, подібну до «examples/Figure_2.png». Вона повинна відображати середню кількість щоденних переглядів для кожного місяця, згрупованих за роками. Легенда повинна відображати мітки місяців та мати назву `Months`. На діаграмі міткою на осі X повинна бути `Years`, а міткою на осі Y повинна бути `Average Page Views`.
-- Створіть функцію `draw_box_plot`, яка використовує Seaborn, щоб намалювати два суміжні коробкові графіки, подібні до «examples/Figure_3.png». Ці коробкові графіки повинні показувати, як значення розподіляються протягом певного року чи місяця та як вони порівнюються з часом. Заголовком першої діаграми повинен бути `Year-wise Box Plot (Trend)`, а заголовком другої діаграми повинен бути `Month-wise Box Plot (Seasonality)`. Переконайтеся, що мітки місяця внизу починаються з `Jan`, а осі X та Y позначені правильно. Шаблонний код містить команди для підготовки даних.
+- Створіть функцію `draw_line_plot`, яка використовує Matplotlib для створення лінійної діаграми, подібної до «examples/Figure_1.png». Заголовок повинен бути `Daily freeCodeCamp Forum Page Views 5/2016-12/2019`. Мітка на осі X повинна бути `Date`, а мітка на осі Y повинна бути `Page Views`.
+- Створіть функцію `draw_bar_plot`, яка малює стовпчикову діаграму, подібну до «examples/Figure_2.png». Вона повинна відображати середню кількість щоденних переглядів для кожного місяця, згрупованих за роками. Легенда повинна відображати мітки місяців та мати назву `Months`. На діаграмі мітка на осі X повинна бути `Years`, а мітка на осі Y повинна бути `Average Page Views`.
+- Створіть функцію `draw_box_plot`, яка використовує Seaborn, щоб намалювати два суміжні коробкові графіки, подібні до «examples/Figure_3.png». Ці коробкові графіки повинні показувати, як значення розподіляються протягом певного року чи місяця та як вони порівнюються з часом. Заголовок першої діаграми повинен бути `Year-wise Box Plot (Trend)`, а заголовок другої діаграми повинен бути `Month-wise Box Plot (Seasonality)`. Переконайтеся, що мітки місяця внизу починаються з `Jan`, а вісь x та y позначені правильно. Шаблонний код містить команди для підготовки даних.
 
-Для кожної діаграми обов’язково використайте копію кадру даних.
+For each chart, make sure to use a copy of the data frame.
 
 Шаблон також містить команди для збереження та повернення зображення.
 
-## Розробка
+## Development
 
 Напишіть свій код в `time_series_visualizer.py`. Для розробки ви можете використати `main.py`, щоб протестувати свій код.
 
@@ -40,7 +40,7 @@ dashedName: page-view-time-series-visualizer
 
 Модульні тести для цього проєкту знаходяться в `test_module.py`. Ми імпортували тести з `test_module.py` до `main.py` для вашої зручності.
 
-## Надсилання
+## Відправка
 
 Скопіюйте URL-адресу свого проєкту та відправте її до freeCodeCamp.
 

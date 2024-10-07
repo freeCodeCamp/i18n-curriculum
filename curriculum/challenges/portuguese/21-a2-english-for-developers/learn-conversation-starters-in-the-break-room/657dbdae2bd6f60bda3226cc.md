@@ -19,11 +19,11 @@ Ouça o áudio para completar a frase abaixo.
 
 # --fillInTheBlank--
 
-## --frase--
+## --sentence--
 
 `Tell me about our team meetings, Sophie. Do they happen BLANK week?`
 
-## --espaços em branco--
+## --blanks--
 
 `every`
 
@@ -32,7 +32,7 @@ Ouça o áudio para completar a frase abaixo.
 Tom está perguntando se as reuniões acontecem toda semana.
 
 
-# --cena--
+# --scene--
 
 ```json
 {

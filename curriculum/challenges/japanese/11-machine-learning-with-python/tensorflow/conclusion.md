@@ -14,7 +14,7 @@ dashedName: conclusion
 
 ## --text--
 
-AI や機械学習を専門とするエキスパートの人のほとんどは、たいてい...
+Most people that are experts in AI or machine learning usually...:
 
 ## --answers--
 

@@ -11,7 +11,7 @@ dashedName: target-even-elements-using-jquery
 
 # --description--
 
-Mit den Selektoren `:odd` (ungerade) und `:even` (gerade) kannst du auch Elemente anhand ihrer Position auswählen.
+You can also target elements based on their positions using `:odd` or `:even` selectors.
 
 Beachte, dass jQuery einen Null-Index hat, was bedeutet, dass das erste Element in einer Auswahl die Position 0 hat. Das kann etwas verwirrend sein, da `:odd` entgegen der Intuition das zweite Element (Position 1), das vierte Element (Position 3) und so weiter auswählt.
 

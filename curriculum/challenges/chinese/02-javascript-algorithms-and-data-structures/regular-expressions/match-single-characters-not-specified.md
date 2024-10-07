@@ -8,7 +8,7 @@ dashedName: match-single-characters-not-specified
 
 # --description--
 
-到目前为止，已经创建了一个想要匹配的字符集合，但也可以创建一个不想匹配的字符集合。 这些类型的字符集称为否定字符集（ <dfn>negated character sets</dfn>）。
+So far, you have created a set of characters that you want to match, but you could also create a set of characters that you do not want to match. These types of character sets are called <dfn>negated character sets</dfn>.
 
 要创建否定字符集，需要在开始括号后面和不想匹配的字符前面放置脱字符（即`^`）。
 

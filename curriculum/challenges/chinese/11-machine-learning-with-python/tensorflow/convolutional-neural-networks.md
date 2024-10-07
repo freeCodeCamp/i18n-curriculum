@@ -14,23 +14,23 @@ dashedName: convolutional-neural-networks
 
 The next few video lessons will reference [this Colab notebook](https://colab.research.google.com/drive/1ZZXnCjFEOkp_KdNcNabd14yok0BAIuwS#forceEdit=true&sandboxMode=true).
 
-# --questions--
+# 问题
 
 ## --text--
 
-密集神经网络在全局范围内分析输入，并识别特定区域的模式。 卷积神经网络......：
+Dense neural networks analyze input on a global scale and recognize patterns in specific areas. Convolutional neural networks...:
 
 ## --answers--
 
-也在全局分析输入并从特定区域提取特征。
+also analyze input globally and extract features from specific areas.
 
 ---
 
-在图像分类或物体检测方面效果不佳。
+do not work well for image classification or object detection.
 
 ---
 
-每次一点点地扫描整个输入，并学习局部模式。
+scan through the entire input a little at a time and learn local patterns.
 
 ## --video-solution--
 

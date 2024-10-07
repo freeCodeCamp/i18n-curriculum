@@ -11,7 +11,7 @@ dashedName: remove-classes-from-an-element-with-jquery
 
 # --description--
 
-بنفس الطريقة يمكنك إضافة فئات إلى عنصر مع وظيفة jQuery's `addClass()`، يمكنك إزالتها باستخدام وظيفة jQuery's `removeClass()`.
+In the same way you can add classes to an element with jQuery's `addClass()` function, you can remove them with jQuery's `removeClass()` function.
 
 إليك كيف ستفعل هذا لزر محدد:
 

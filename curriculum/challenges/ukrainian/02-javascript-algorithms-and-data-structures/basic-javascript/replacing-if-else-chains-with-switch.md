@@ -9,7 +9,7 @@ dashedName: replacing-if-else-chains-with-switch
 
 # --description--
 
-Якщо ви маєте багато варіантів для вибору, простіше використати інструкцію `switch` замість багатьох ланцюжків `if`/`else if`. Наступне:
+If you have many options to choose from, a `switch` statement can be easier to write than many chained `if`/`else if` statements. The following:
 
 ```js
 if (val === 1) {

@@ -8,7 +8,7 @@ dashedName: invert-a-binary-tree
 
 # --description--
 
-這裏我們將創建一個反轉二叉樹的函數。 給定二叉樹，我們希望生成一個新樹，它等效於該樹的鏡像。 與原始樹的中序遍歷相比，在倒轉樹上運行中序遍歷將以相反的順序探索節點。 在我們的二叉樹上編寫一個名爲 `invert` 的方法。 調用此方法應該反轉當前樹結構。 理想情況下，我們希望在線性時間內就地執行此操作。 也就是說，我們只訪問每個節點一次，我們在不使用任何額外內存的情況下修改現有的樹結構。 祝你好運！
+Here will we create a function to invert a binary tree. Given a binary tree, we want to produce a new tree that is equivalently the mirror image of this tree. Running an inorder traversal on an inverted tree will explore the nodes in reverse order when compared to the inorder traversal of the original tree. Write a method to do this called `invert` on our binary tree. Calling this method should invert the current tree structure. Ideally, we would like to do this in-place in linear time. That is, we only visit each node once and we modify the existing tree structure as we go, without using any additional memory. Good luck!
 
 # --hints--
 

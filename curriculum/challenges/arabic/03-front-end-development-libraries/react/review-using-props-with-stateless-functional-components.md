@@ -8,7 +8,7 @@ dashedName: review-using-props-with-stateless-functional-components
 
 # --description--
 
-باستثناء التحدي الأخير، كنت تمرير المِيزات (props) إلى مكونات وظيفية عديمة الجنسية (stateless functional components). هذه المكونات تعمل مثل وظائف خالصة (pure functions). فهم يقبلون الميزات مثل مدخلات وينتجون نفس النظرة في كل مرة تمرر فيها نفس الميزات. قد تتساءل ما هي الحالة (state)، التحدي التالي سيغطيها بمزيد من التفصيل. وقبل ذلك، هنا استعراض لمصطلحات المكونات.
+Except for the last challenge, you've been passing props to stateless functional components. These components act like pure functions. They accept props as input and return the same view every time they are passed the same props. You may be wondering what state is, and the next challenge will cover it in more detail. Before that, here's a review of the terminology for components.
 
 أن *مكون وظيفي عديم الحالة (stateless functional component)* وظيفية تكتبها تقبل الميزات (props) و تنتج JSX. *مكون عديم الحالة (stateless component)*، من ناحية أخرى، هو فئة تمدد `React.Component`، ولكنه لا يستخدم الحالة الداخلية (internal state) (المشمولة في التحدي التالي). وأخيرا، فإن *مكون حالة (stateful component)* هو مكون فئة (class component) يحتفظ بحالته (state) الداخلية. قد ترى المكونات الحالة (stateful components) المشار إليها ببساطة مثل مكونات أو مكونات React.
 

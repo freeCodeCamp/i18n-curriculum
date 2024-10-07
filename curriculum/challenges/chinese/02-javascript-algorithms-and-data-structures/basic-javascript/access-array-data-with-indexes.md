@@ -9,7 +9,7 @@ dashedName: access-array-data-with-indexes
 
 # --description--
 
-我们可以使用索引（<dfn>indexes</dfn>）来访问数组中的数据。
+We can access the data inside arrays using <dfn>indexes</dfn>.
 
 数组索引与字符串一样使用方括号来表示，不同的是，它们不是指定字符，而是指定数组中的一个条目。 数组索引与字符串索引一样是从 0 开始（<dfn>zero-based</dfn>）的，所以数组中第一个元素的索引编号是 `0`。
 

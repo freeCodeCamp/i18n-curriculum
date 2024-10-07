@@ -8,19 +8,19 @@ dashedName: file-metadata-microservice
 
 # --description--
 
-Створіть повний пакет застосунку JavaScript, який функціонально схожий до <a href="https://file-metadata-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://file-metadata-microservice.freecodecamp.rocks</a>. Робота над цим проєктом передбачає написання коду за допомогою одного з наступних методів:
+Build a full stack JavaScript app that is functionally similar to this: <a href="https://file-metadata-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://file-metadata-microservice.freecodecamp.rocks</a>. Робота над цим проєктом передбачає написання коду за допомогою одного з наступних методів:
 
--   Клонуйте <a href="https://github.com/freeCodeCamp/boilerplate-project-filemetadata/" target="_blank" rel="noopener noreferrer nofollow">цей репозиторій GitHub</a> та виконайте свій проєкт локально.
+-   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-filemetadata/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
 -   Використайте <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-filemetadata/" target="_blank" rel="noopener noreferrer nofollow">наш стартовий проєкт Gitpod</a>, щоб виконати свій проєкт.
--   Для виконання проєкту використайте конструктор сайту на власний вибір. Переконайтеся, що приєднали усі файли з нашого репозиторію GitHub.
+-   Використовуйте конструктор сайту на власний розсуд, щоб завершити проєкт. Переконайтеся, що ви зберегли всі файли з нашого репозиторію GitHub.
 
 # --instructions--
 
-**ПІДКАЗКА:** ви можете використати npm-пакет `multer`, щоб опрацювати завантаження файлу.
+**HINT:** You can use the `multer` npm package to handle file uploading.
 
 # --hints--
 
-Ви повинні надати власний проєкт, а не URL-адресу прикладу.
+Вам необхідно вказати свій власний проєкт, а не приклад URL-адреси.
 
 ```js
 (getUserInput) => {
@@ -32,7 +32,7 @@ dashedName: file-metadata-microservice
 };
 ```
 
-Ви можете надіслати форму, яка містить завантаження файлу.
+You can submit a form that includes a file upload.
 
 ```js
 async (getUserInput) => {
@@ -43,7 +43,7 @@ async (getUserInput) => {
 };
 ```
 
-Поле вводу файлу форми має атрибут `name` зі значенням `upfile`.
+The form file input field has the `name` attribute set to `upfile`.
 
 ```js
 async (getUserInput) => {
@@ -54,7 +54,7 @@ async (getUserInput) => {
 };
 ```
 
-Коли ви надішлете файл, то отримаєте файл `name`, `type` та `size` у байтах у відповіді JSON.
+When you submit a file, you receive the file `name`, `type`, and `size` in bytes within the JSON response.
 
 ```js
 async (getUserInput) => {

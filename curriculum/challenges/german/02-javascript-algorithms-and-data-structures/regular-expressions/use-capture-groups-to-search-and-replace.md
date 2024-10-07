@@ -8,7 +8,7 @@ dashedName: use-capture-groups-to-search-and-replace
 
 # --description--
 
-Die Suche ist nützlich. Du kannst die Suche aber noch leistungsfähiger machen, indem du den Text, den du gefunden hast, auch veränderst (oder ersetzt).
+Searching is useful. However, you can make searching even more powerful when it also changes (or replaces) the text you match.
 
 Du kannst Text in einem String suchen und ersetzen, indem du `.replace()` auf einen String anwendest. Die Eingabe für `.replace()` ist zunächst das Regex-Muster, nach dem du suchen willst. Der zweite Parameter ist der String, der die Übereinstimmung ersetzen soll, oder eine Funktion, die etwas tut.
 

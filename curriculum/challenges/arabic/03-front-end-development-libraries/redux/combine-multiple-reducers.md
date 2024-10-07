@@ -8,7 +8,7 @@ dashedName: combine-multiple-reducers
 
 # --description--
 
-عندما تبدأ حالة التطبيق الخاص بك في النمو أكثر تعقيدا، قد يكون من المغري تقسيم الحالة إلى قطع متعددة. بدلاً من ذلك، تذكر المبدأ الأول في Redux: كل حالة التطبيق موجودة في كائن حالة واحدة في المتجر (store). ولذلك، فإن Redux يوفر تركيبة reducer كحل لنموذج معقد للحالة. يمكنك تعريف مخفضات (reducers) متعددة للتعامل مع أجزاء مختلفة من حالة تطبيقك، ثم كون هذه المخفضات (reducers) معاً في مختصر أساسي واحد. يُمرر تقصير (reducer) أساسي إلى طريقة Redux باسم `createStore()`.
+When the state of your app begins to grow more complex, it may be tempting to divide state into multiple pieces. Instead, remember the first principle of Redux: all app state is held in a single state object in the store. Therefore, Redux provides reducer composition as a solution for a complex state model. You define multiple reducers to handle different pieces of your application's state, then compose these reducers together into one root reducer. The root reducer is then passed into the Redux `createStore()` method.
 
 من أجل السماح لنا بالجمع بين عدة مخفضات (reducers) معا، يوفر Redux طريقة `combineReducers()`. تَقبل هذه الطريقة الكائن كحجة تحدد فيها الخصائص التي تربط المفاتيح بوظائف مخفيضة (reducer) معينة. الاسم الذي تعطيه للهُوِيَّات (keys) سوف يستخدم بواسطة Redux كاسم للقطعة المرتبطة بالحالة (state).
 

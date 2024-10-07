@@ -8,7 +8,7 @@ dashedName: declare-a-read-only-variable-with-the-const-keyword
 
 # --description--
 
-关键字 `let` 并不是声明变量的唯一新方法。 在 ES6 中，你还可以使用 `const` 关键字声明变量。
+The keyword `let` is not the only new way to declare variables. In ES6, you can also declare variables using the `const` keyword.
 
 `const` 具有 `let` 的所有出色功能，另外还有一个额外的好处，即使用 `const` 声明的变量是只读的。 它们是一个常量值，这意味着一旦一个变量被赋值为 `const`，它就不能被重新赋值：
 

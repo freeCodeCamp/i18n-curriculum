@@ -8,13 +8,13 @@ dashedName: factorialize-a-number
 
 # --description--
 
-Gib die Fakultät der übergebenen ganzen Zahl zurück.
+Return the factorial of the provided integer.
 
 Wenn die ganze Zahl mit dem Buchstaben `n` dargestellt wird, ist eine Fakultät das Produkt aller positiven ganzen Zahlen kleiner oder gleich `n`.
 
 Fakultäten werden häufig mit der Kurzschreibweise `n!` dargestellt.
 
-Zum Beispiel: `5! = 1 * 2 * 3 * 4 * 5 = 120`
+For example: `5! = 1 * 2 * 3 * 4 * 5 = 120`
 
 Nur ganze Zahlen größer oder gleich null werden der Funktion übergeben.
 

@@ -8,7 +8,7 @@ dashedName: specify-only-the-lower-number-of-matches
 
 # --description--
 
-يمكنك تحديد العدد الأدنى والأعلى من الأنماط باستخدام محددات الكمية باستخدام الأقواس المتعرجة. في بعض الأحيان تريد فقط تحديد العدد الأدنى من الأنماط بدون حد أعلى.
+You can specify the lower and upper number of patterns with quantity specifiers using curly brackets. Sometimes you only want to specify the lower number of patterns with no upper limit.
 
 لتحديد العدد الأدنى فقط من الأنماط، حافظ على أول رقم يتبعه فاصلة.
 

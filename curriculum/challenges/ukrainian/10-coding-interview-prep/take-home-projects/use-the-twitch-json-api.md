@@ -8,11 +8,11 @@ dashedName: use-the-twitch-json-api
 
 # --description--
 
-**Мета:** створити застосунок, функціонально схожий до цього: <a href="https://codepen.io/freeCodeCamp/full/Myvqmo/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/Myvqmo/</a>.
+**Objective:** Build an app that is functionally similar to this: <a href="https://codepen.io/freeCodeCamp/full/Myvqmo/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/Myvqmo/</a>.
 
 Twitch API — це RESTful API, який дозволяє розробникам створювати творчі інтеграції для ширшої спільноти Twitch.
 
-Виконайте історію користувача та пройдіть тести. Використовуйте необхідні вам бібліотеки або API. Оформте за власним стилем.
+Виконайте історію користувача та пройдіть тести. Використовуйте необхідні вам бібліотеки або API. Оформіть за вашим власним стилем.
 
 **Історія користувача:** я можу побачити, чи freeCodeCamp проводить трансляцію на Twitch.tv.
 

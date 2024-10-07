@@ -8,11 +8,11 @@ dashedName: problem-386-maximum-length-of-an-antichain
 
 # --description--
 
-Let $n$ be an integer and $S(n)$ be the set of factors of $n$.
+Sei $n$ ein Integer und $S(n)$ die Menge der Faktoren von $n$.
 
 Eine Teilmenge $A$ von $S(n)$ heißt eine Antikette von $S(n)$, wenn $A$ nur ein Element enthält oder wenn keines der Elemente von $A$ eines der anderen Elemente von $A$ teilt.
 
-For example: $S(30) = \\{1, 2, 3, 5, 6, 10, 15, 30\\}$
+Zum Beispiel: $S(30) = \\{1, 2, 3, 5, 6, 10, 15, 30\\}$
 
 $\\{2, 5, 6\\}$ ist keine Antikette von $S(30)$.
 
@@ -20,11 +20,11 @@ $\\{2, 3, 5\\}$ ist eine Antikette von $S(30)$.
 
 Lasse $N(n)$ die maximale Länge einer Antikette von $S(n)$.
 
-Find $\sum N(n)$ for $1 ≤ n ≤ {10}^8$
+Finde $\sum N(n)$ für $1 ≤ n ≤ {10}^8$
 
 # --hints--
 
-`maximumLengthOfAntichain()` should return `528755790`.
+`maximumLengthOfAntichain()` sollte `528755790` zurückgeben.
 
 ```js
 assert.strictEqual(maximumLengthOfAntichain(), 528755790);

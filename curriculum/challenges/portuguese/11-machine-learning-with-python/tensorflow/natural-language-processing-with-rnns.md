@@ -12,25 +12,25 @@ dashedName: natural-language-processing-with-rnns
 
 # --description--
 
-As próximas aulas em vídeo farão referência a [este Colab notebook](https://colab.research.google.com/drive/1ysEKrw_LE2jMndo1snrZUh5w87LQsCxk#forceEdit=true&sandboxMode=true).
+The next few video lessons will reference [this Colab notebook](https://colab.research.google.com/drive/1ysEKrw_LE2jMndo1snrZUh5w87LQsCxk#forceEdit=true&sandboxMode=true).
 
 # --questions--
 
 ## --text--
 
-Processamento de linguagem natural é um ramo da inteligência artificial que...:
+Natural Language Processing is a branch of artificial intelligence that...:
 
 ## --answers--
 
-lida com a maneira como os computadores entendem e processam idiomas naturais/humanos.
+deals with how computers understand and process natural/human languages.
 
 ---
 
-traduz dados de imagem para idiomas naturais/humanos.
+translates image data into natural/human languages.
 
 ---
 
-tem como foco traduzir linguagens de computador para linguagens naturais/humanas.
+is focused on translating computer languages into natural/human languages.
 
 ## --video-solution--
 

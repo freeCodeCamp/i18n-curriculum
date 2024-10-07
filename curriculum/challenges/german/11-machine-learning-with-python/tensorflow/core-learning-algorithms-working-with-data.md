@@ -1,6 +1,6 @@
 ---
 id: 5e8f2f13c4cdbe86b5c72d8a
-title: 'Core Learning Algorithms: Working with Data'
+title: 'Grundlegende Lernalgorithmen: Arbeiten mit Daten'
 challengeType: 11
 videoId: u85IOSsJsPI
 bilibiliIds:
@@ -18,15 +18,15 @@ What does the pandas `.head()` function do?
 
 ## --answers--
 
-Returns the number of entries in a data frame.
+Gibt die Anzahl der Einträge in einem Datenframe zurück.
 
 ---
 
-Returns the number of columns in a data frame.
+Gibt die Anzahl der Spalten in einem Datenframe zurück.
 
 ---
 
-By default, shows the first five rows or entries in a data frame.
+Zeigt standardmäßig die ersten fünf Zeilen oder Einträge in einem Datenframe an.
 
 ## --video-solution--
 

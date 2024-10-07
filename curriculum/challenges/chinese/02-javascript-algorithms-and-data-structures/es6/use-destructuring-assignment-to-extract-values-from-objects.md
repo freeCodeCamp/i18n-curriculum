@@ -8,7 +8,7 @@ dashedName: use-destructuring-assignment-to-extract-values-from-objects
 
 # --description--
 
-<dfn>解构赋值</dfn>是 ES6 引入的新语法，用来从数组和对象中提取值，并优雅地对变量进行赋值。
+<dfn>Destructuring assignment</dfn> is special syntax introduced in ES6, for neatly assigning values taken directly from an object.
 
 有如下 ES5 代码：
 

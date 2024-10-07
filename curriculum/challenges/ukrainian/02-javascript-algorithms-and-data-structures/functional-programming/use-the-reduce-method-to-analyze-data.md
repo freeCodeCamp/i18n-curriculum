@@ -8,7 +8,7 @@ dashedName: use-the-reduce-method-to-analyze-data
 
 # --description--
 
-`Array.prototype.reduce()`, або просто `reduce()` — найпоширеніша операція із масивами у JavaScript. Ви можете вирішити практично будь-яку проблему обробки масиву, використовуючи метод `reduce`.
+`Array.prototype.reduce()`, or simply `reduce()`, is the most general of all array operations in JavaScript. You can solve almost any array processing problem using the `reduce` method.
 
 Метод `reduce` дозволяє використовувати загальні форми обробки масивів і можна сказати, що `filter` та `map` є похідними від `reduce`. Метод `reduce` перебирає кожен елемент у масиві та повертає єдине значення (тобто рядок, число, об’єкт, масив). Це досягається за допомогою функції зворотного виклику, яка відбувається на кожній ітерації.
 

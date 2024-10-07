@@ -8,11 +8,11 @@ dashedName: build-a-product-landing-page
 
 # --description--
 
-**Objective:** Erstelle eine Applikation, die eine ähnliche Funktionalität wie <a href="https://product-landing-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://product-landing-page.freecodecamp.rocks</a> aufweist. **Kopiere nicht dieses Demo-Projekt**.
+**Objective:** Build an app that is functionally similar to <a href="https://product-landing-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://product-landing-page.freecodecamp.rocks</a>. **Do not copy this demo project**.
 
 **User Stories:**
 
-1. Deine Produkt-Landingpage sollte ein `header`-Element mit einer entsprechenden `id="header"` haben
+1. Your product landing page should have a `header` element with a corresponding `id="header"`
 1. Du kannst ein Bild innerhalb des `header`-Elements mit einer entsprechenden `id="header-img"` (Ein Logo würde hier ein gutes Bild abgeben) sehen
 1. Innerhalb des `#header`-Elements siehst du ein `nav`-Element mit dazugehöriger `id="nav-bar"`
 1. Du kannst mindestens drei anklickbare Elemente innerhalb des `nav`-Elements sehen, jedes mit der `nav-link`-Klasse
@@ -30,7 +30,7 @@ dashedName: build-a-product-landing-page
 
 Erfülle die folgenden User Stories und bestehe alle Tests, um dieses Projekt abzuschließen. Gib dem Ganzen deinen persönlichen Stil. Viel Spaß beim Programmieren!
 
-**Hinweis:** Füge unbedingt `<link rel="stylesheet" href="styles.css">` in dein HTML ein, um dein Stylesheet zu verlinken und dein CSS anzuwenden
+**Hinweis:** Achte darauf, `<link rel="stylesheet" href="styles.css">` in deinen HTML-Code einzufügen, um dein Stylesheet zu verknüpfen und deinen CSS-Code anwenden zu können
 
 # --hints--
 
@@ -100,7 +100,7 @@ els.forEach(el => {
 assert(els.length > 0)
 ```
 
-Jedes `.nav-link`-Element sollte mit einem entsprechenden Element auf der Landingpage verknüpft sein (hat ein `href` mit dem Wert der ID eines anderen Elements, wie bspw. `#footer`).
+Jedes `.nav-link`-Element sollte mit einem entsprechenden Element auf der Landingpage verknüpft sein (hat ein `href` mit dem Wert der Id eines anderen Elements, wie bspw. `#footer`).
 
 ```js
 const els = document.querySelectorAll('.nav-link')
@@ -133,7 +133,7 @@ if (sourceElement) {
 assert(el.hasAttribute('src'));
 ```
 
-Du solltest ein `form` Element mit einer `id` von `form` haben.
+Du solltest ein `form`-Element mit einer `id` von `form` haben.
 
 ```js
 const el = document.getElementById('form')
@@ -243,7 +243,7 @@ Dein `#nav-bar` sollte immer oben im Viewport liegen.
 })();
 ```
 
-Deine Produkt-Landingpage sollte mindestens eine Medienabfrage (Media Query) verwenden.
+Deine Produkt-Landingpage sollte mindestens ein Media Query verwenden.
 
 ```js
 const htmlSourceAttr = Array.from(document.querySelectorAll('source')).map(el => el.getAttribute('media'))
@@ -251,7 +251,7 @@ const cssCheck = new __helpers.CSSHelp(document).getCSSRules('media')
 assert(cssCheck.length > 0 || htmlSourceAttr.length > 0);
 ```
 
-Deine Produktseite sollte mindestens einmal die CSS-Flexbox verwenden.
+Deine Produkt-Landingpage sollte mindestens einmal CSS-Flexbox verwenden.
 
 ```js
 const hasFlex = (rule) => ["flex", "inline-flex"].includes(rule.style?.display)

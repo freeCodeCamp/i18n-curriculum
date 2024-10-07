@@ -8,7 +8,7 @@ dashedName: combine-arrays-with-the-spread-operator
 
 # --description--
 
-Ще одна величезна перевага оператора <dfn>розширення</dfn> — можливість об’єднувати масиви або вставляти всі елементи одного масиву в інший по будь-якому індексу. Використовуючи більш традиційні види синтаксу, ми можемо об’єднувати масиви, але це дозволяє нам об’єднувати масиви тільки в кінці одного і на початку іншого. Синтаксис розширення робить цю операцію надзвичайно простою:
+Another huge advantage of the <dfn>spread</dfn> operator is the ability to combine arrays, or to insert all the elements of one array into another, at any index. With more traditional syntaxes, we can concatenate arrays, but this only allows us to combine arrays at the end of one, and at the start of another. Spread syntax makes the following operation extremely simple:
 
 ```js
 let thisArray = ['sage', 'rosemary', 'parsley', 'thyme'];

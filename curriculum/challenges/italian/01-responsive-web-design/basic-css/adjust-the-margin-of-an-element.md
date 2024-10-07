@@ -9,7 +9,7 @@ dashedName: adjust-the-margin-of-an-element
 
 # --description--
 
-Il `margin` di un elemento controlla la quantità di spazio tra il suo `border` e gli elementi circostanti.
+An element's `margin` controls the amount of space between an element's `border` and surrounding elements.
 
 Qui possiamo vedere che il riquadro blu e quello rosso sono annidati all'interno del riquadro giallo. Nota che il riquadro rosso ha un `margin` più grande di quello blu, e questo fa sì che appaia più piccolo.
 

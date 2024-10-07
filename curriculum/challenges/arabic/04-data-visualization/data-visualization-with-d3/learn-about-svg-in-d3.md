@@ -1,6 +1,6 @@
 ---
 id: 587d7fa8367417b2b2512bcb
-title: Learn About SVG in D3
+title: تعلم عن SVG في D3
 challengeType: 6
 forumTopicId: 301489
 dashedName: learn-about-svg-in-d3
@@ -10,33 +10,33 @@ dashedName: learn-about-svg-in-d3
 
 <dfn>SVG</dfn> stands for <dfn>Scalable Vector Graphics</dfn>.
 
-Here "scalable" means that, if you zoom in or out on an object, it would not appear pixelated. It scales with the display system, whether it's on a small mobile screen or a large TV monitor.
+هنا يعني مصطلح "scalable" أنه إذا قمت بتكبير أو تصغير كائن ما، فلن يبدو ذلك pixelated أو منقط. إنه يغير المقياس حسب نظام العرض، سواء كان على شاشة محمول صغيرة أو شاشة تلفزيون كبيرة.
 
-SVG is used to make common geometric shapes. Since D3 maps data into a visual representation, it uses SVG to create the shapes for the visualization. SVG shapes for a web page must go within an HTML `svg` tag.
+يستخدم SVG لصنع أشكال هندسية عادية. وبما أن خرائط D3 تحوي بيانات في صورة بصرية، فإنها تستخدم SVG لإنشاء أشكال للتصور. أشكال SVG لصفحة ويب يجب أن تذهب ضمن علامة HTML المسمَّية `svg`.
 
-CSS can be scalable when styles use relative units (such as `vh`, `vw`, or percentages), but using SVG is more flexible to build data visualizations.
+يمكن تغيير مقياس CSS عندما تستخدم التصميمات وحدات نسبية (مثل `vh` و `vw` أو النسب المئوية)، ولكن استخدام SVG أكثر مرونة لبناء تصورات البيانات.
 
 # --instructions--
 
-Add an `svg` node to the `body` using `append()`. Give it a `width` attribute set to the provided `w` constant and a `height` attribute set to the provided `h` constant using the `attr()` or `style()` methods for each. You'll see it in the output because there's a `background-color` of pink applied to it in the `style` tag.
+أضف node (عقدة) `svg` إلى `body` باستخدام `append()`. أعطيه سمة `width` بقيمة الثابت المقدمة `w` و سمة `height` بقيمة الثابت المقدمة `h` باستخدام طرق `attr()` أو `style()` لكل منهما. سترى ذلك في الإنتاج لأنه يوجد `background-color` من اللون الوردي المطبق عليه في علامة `style`.
 
-**Note:** When using `attr()` width and height attributes do not have units. This is the building block of scaling - the element will always have a 5:1 width to height ratio, no matter what the zoom level is.
+**ملاحظة:** عند استخدام `attr()`، سمات العرض والارتفاع لا تحتوي على وحدات. هذه هي كتلة بناء التحجيم - سيكون للعنصر دائما نسبة عرض إلى ارتفاع 5:1، بغض النظر عن مستوى التكبير.
 
 # --hints--
 
-Your document should have 1 `svg` element.
+يجب أن تحتوي وثيقتك على عنصر `svg` واحد.
 
 ```js
 assert($('svg').length == 1);
 ```
 
-The `svg` element should have a `width` attribute set to `500` or styled to have a width of `500px`.
+يجب أن يحتوي عنصر `svg` على سمة `width` تم تعيينها إلى `500` أو تم تصميمها ليكون عرضها `500px`.
 
 ```js
 assert($('svg').attr('width') == '500' || $('svg').css('width') == '500px');
 ```
 
-The `svg` element should have a `height` attribute set to `100` or styled to have a height of `100px`.
+يجب أن يحتوي عنصر `svg` على سمة `height` تم تعيينها إلى `100` أو تم تصميمها ليكون عرضها `100px`.
 
 ```js
 assert($('svg').attr('height') == '100' || $('svg').css('height') == '100px');

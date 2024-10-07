@@ -10,7 +10,7 @@ dashedName: applications-of-linear-systems-extra
 
 下一個視頻包含了更多關於如何設置方程和使用 Colab 筆記本來解決這些問題的例子。
 
-# --questions--
+# 問題
 
 ## --text--
 

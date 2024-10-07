@@ -14,7 +14,7 @@ dashedName: what-is-numpy
 
 ## --text--
 
-Numpy の配列が通常の Python のリストよりも高速なのはなぜですか？
+Why are Numpy arrays faster than regular Python lists?
 
 ## --answers--
 

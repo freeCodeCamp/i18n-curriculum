@@ -8,7 +8,7 @@ dashedName: use-a-switch-statement-to-handle-multiple-actions
 
 # --description--
 
-È possibile dire allo store di Redux come gestire diversi tipi di azione. Diciamo che tu debba gestire l'autenticazione dell'utente nel tuo store di Redux. Vuoi avere una rappresentazione dello stato per quando gli utenti sono connessi e per quando sono disconnessi. Lo rappresenti con un singolo oggetto di stato con la proprietà `authenticated`. Hai anche bisogno di creatori di azione che creino azioni corrispondenti al login e al logout dell'utente, insieme agli oggetti azione stessi.
+You can tell the Redux store how to handle multiple action types. Say you are managing user authentication in your Redux store. You want to have a state representation for when users are logged in and when they are logged out. You represent this with a single state object with the property `authenticated`. You also need action creators that create actions corresponding to user login and user logout, along with the action objects themselves.
 
 # --instructions--
 

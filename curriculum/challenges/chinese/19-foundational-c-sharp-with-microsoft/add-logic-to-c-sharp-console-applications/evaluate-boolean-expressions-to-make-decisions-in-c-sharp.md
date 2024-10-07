@@ -12,7 +12,7 @@ dashedName: evaluate-boolean-expressions-to-make-decisions-in-c-sharp
 1. 跳转到 <a href="https://learn.microsoft.com/training/modules/csharp-evaluate-boolean-expressions/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/csharp-evaluate-boolean-expressions/</a>，然后完成“在 C# 中评估布尔表达式以做出决策”模块的所有任务。 这是在 Microsoft Learn 上获得“向 C# 控制台应用程序添加逻辑”的奖杯以及参加认证考试所**必需**的。
 1. 完成后，返回并正确回答下面的问题。
 
-# --任务--
+# --作业--
 
 在 Microsoft Learn 上完成 <a href="https://learn.microsoft.com/training/modules/csharp-evaluate-boolean-expressions/" target="_blank" rel="noreferrer">在 C# 中评估布尔表达式以做出决策</a> 模块。 然后，回答下面的问题。
 

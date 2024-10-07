@@ -8,11 +8,11 @@ dashedName: map-the-debris
 
 # --description--
 
-Згідно з третім законом Кеплера, орбітальним періодом $T$ двох точкових мас, що обертаються навколо одна одної по круговій або еліптичній орбіті, є:
+According to Kepler's Third Law, the orbital period $T$ of two point masses orbiting each other in a circular or elliptic orbit is:
 
 $$ T = 2 \pi \sqrt{\frac{a^{3}}{\mu}} $$
 
-- $a$ — велика піввісь орбіти
+- $a$ is the orbit's semi-major axis
 - $μ = GM$ — стандартний гравітаційний параметр
 - $G$ — гравітаційна стала,
 - $M$ — маса масивнішого тіла.

@@ -9,7 +9,7 @@ dashedName: accessing-nested-objects
 
 # --description--
 
-Le sotto-proprietà degli oggetti possono essere accessibili concatenando insieme la notazione a punto o a parentesi.
+The sub-properties of objects can be accessed by chaining together the dot or bracket notation.
 
 Ecco un oggetto nidificato:
 
@@ -57,7 +57,7 @@ assert.match(code, /myStorage\.car\.inside/);
 assert.match(code, /const\s+gloveBoxContents\s*=/);
 ```
 
-You should not change the `myStorage` object.
+Non dovresti cambiare l'elemento `myStorage`.
 
 ```js
 const expectedMyStorage = {

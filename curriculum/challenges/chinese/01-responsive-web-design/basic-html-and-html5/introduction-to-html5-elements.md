@@ -9,7 +9,7 @@ dashedName: introduction-to-html5-elements
 
 # --description--
 
-HTML5 引入了很多更具描述性的 HTML 元素， 包括 `main`、`header`、`footer`、`nav`、`video`、`article`、`section` 等等。
+HTML5 introduces more descriptive HTML tags. These include `main`, `header`, `footer`, `nav`, `video`, `article`, `section` and others.
 
 这些元素让 HTML 更易读，同时有助于搜索引擎优化和无障碍访问。 `main` 元素让搜索引擎和开发者能很快地找到网页的主要内容。
 

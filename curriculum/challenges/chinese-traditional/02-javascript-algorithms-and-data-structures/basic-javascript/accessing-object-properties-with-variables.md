@@ -9,7 +9,7 @@ dashedName: accessing-object-properties-with-variables
 
 # --description--
 
-對對象上使用方括號表示法，還可以訪問對象上作爲變量值存儲的屬性。 當你需要遍歷對象的所有屬性，或者根據一個變量的值查找對應的屬性值時，這種寫法尤其適用。
+Another use of bracket notation on objects is to access a property which is stored as the value of a variable. This can be very useful for iterating through an object's properties or when accessing a lookup table.
 
 以下是一個使用變量來訪問屬性的例子：
 

@@ -8,7 +8,7 @@ dashedName: use-array-map-to-dynamically-render-elements
 
 # --description--
 
-Il rendering condizionale è utile, ma potresti aver bisogno che i tuoi componenti presentino un numero sconosciuto di elementi. Spesso nella programmazione reattiva, un programmatore non ha modo di sapere qual è lo stato di un'applicazione fino al runtime, perché molto dipende dall'interazione di un utente con quel programma. I programmatori devono quindi scrivere il loro codice per gestire correttamente quello stato sconosciuto prima di conoscerlo. L'uso di `Array.map()` in React illustra questo concetto.
+Conditional rendering is useful, but you may need your components to render an unknown number of elements. Often in reactive programming, a programmer has no way to know what the state of an application is until runtime, because so much depends on a user's interaction with that program. Programmers need to write their code to correctly handle that unknown state ahead of time. Using `Array.map()` in React illustrates this concept.
 
 Creiamo ad esempio una semplice app "To Do List". Come programmatore, non hai modo di sapere quanti elementi un utente potrebbe avere nella sua lista. È necessario impostare il componente per presentare dinamicamente il numero corretto di elementi della lista molto prima che qualcuno che utilizza il programma decida che oggi è giorno di bucato.
 

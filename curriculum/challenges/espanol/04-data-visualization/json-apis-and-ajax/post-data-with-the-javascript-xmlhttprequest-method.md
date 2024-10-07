@@ -8,7 +8,7 @@ dashedName: post-data-with-the-javascript-xmlhttprequest-method
 
 # --description--
 
-En los ejemplos anteriores, recibiste datos de un recurso externo. También puedes enviar datos a un recurso externo, siempre y cuando ese recurso sea compatible con solicitudes AJAX y conozca la URL.
+In the previous examples, you received data from an external resource. You can also send data to an external resource, as long as that resource supports AJAX requests and you know the URL.
 
 El método `XMLHttpRequest` de JavaScript también se utiliza para enviar datos a un servidor. He aquí un ejemplo:
 

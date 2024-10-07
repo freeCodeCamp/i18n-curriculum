@@ -9,11 +9,11 @@ dashedName: create-a-bulleted-unordered-list
 
 # --description--
 
-HTML 有一个特定的元素用于创建<dfn>无序列表</dfn>。
+HTML has a special element for creating <dfn>unordered lists</dfn>, or bullet point style lists.
 
 无序列表以 `<ul>` 开始，中间包含一个或多个 `<li>` 元素， 最后以 `</ul>` 结束。
 
-例如:
+例如：
 
 ```html
 <ul>

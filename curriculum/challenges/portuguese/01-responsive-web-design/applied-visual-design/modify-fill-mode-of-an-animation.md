@@ -9,7 +9,7 @@ dashedName: modify-fill-mode-of-an-animation
 
 # --description--
 
-Está legal, mas ainda podemos melhorar. Observe como a animação é reiniciada após `500ms`, fazendo com que o botão volte à cor original. Nós queremos que o botão permaneça destacado.
+That's great, but it doesn't work right yet. Notice how the animation resets after `500ms` has passed, causing the button to revert back to the original color. You want the button to stay highlighted.
 
 Isso pode ser feito definindo a propriedade `animation-fill-mode` com o valor `forwards`. O `animation-fill-mode` especifica o estilo que será aplicado a um elemento quando a animação terminar. Você pode configurá-la assim:
 

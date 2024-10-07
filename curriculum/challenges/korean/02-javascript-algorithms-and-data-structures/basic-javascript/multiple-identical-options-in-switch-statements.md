@@ -1,6 +1,6 @@
 ---
 id: 56533eb9ac21ba0edf2244df
-title: Multiple Identical Options in Switch Statements
+title: Swicth문에서의 다중의 동일한 옵션
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cdBKWCV'
 forumTopicId: 18242
@@ -24,80 +24,80 @@ switch (val) {
 }
 ```
 
-Cases for 1, 2, and 3 will all produce the same result.
+1, 2, 3의 케이스는 모두 같은 결과를 생성합니다.
 
 # --instructions--
 
-Write a switch statement to set `answer` for the following ranges:  
+다음 범위에 대해 `answer`를 설정하는 switch 문을 작성합니다:  
 `1-3` - `Low`  
 `4-6` - `Mid`  
 `7-9` - `High`
 
-**Note:** You will need to have a `case` statement for each number in the range.
+**Note:** 범위의 각 숫자에 대해 `case`문이 있어야 합니다.
 
 # --hints--
 
-`sequentialSizes(1)` should return the string `Low`
+`sequentialSizes(1)` 는 `Low` 문자열을 반환해야 합니다.
 
 ```js
 assert(sequentialSizes(1) === 'Low');
 ```
 
-`sequentialSizes(2)` should return the string `Low`
+`sequentialSizes(2)` 는 `Low` 문자열을 반환해야 합니다.
 
 ```js
 assert(sequentialSizes(2) === 'Low');
 ```
 
-`sequentialSizes(3)` should return the string `Low`
+`sequentialSizes(3)` 는 `Low` 문자열을 반환해야 합니다.
 
 ```js
 assert(sequentialSizes(3) === 'Low');
 ```
 
-`sequentialSizes(4)` should return the string `Mid`
+`sequentialSizes(4)` 는 `Mid` 문자열을 반환해야 합니다.
 
 ```js
 assert(sequentialSizes(4) === 'Mid');
 ```
 
-`sequentialSizes(5)` should return the string `Mid`
+`sequentialSizes(5)` 는 `Mid` 문자열을 반환해야 합니다.
 
 ```js
 assert(sequentialSizes(5) === 'Mid');
 ```
 
-`sequentialSizes(6)` should return the string `Mid`
+`sequentialSizes(6)` 는 `Mid` 문자열을 반환해야 합니다.
 
 ```js
 assert(sequentialSizes(6) === 'Mid');
 ```
 
-`sequentialSizes(7)` should return the string `High`
+`sequentialSizes(7)` 는 `High` 문자열을 반환해야 합니다.
 
 ```js
 assert(sequentialSizes(7) === 'High');
 ```
 
-`sequentialSizes(8)` should return the string `High`
+`sequentialSizes(8)` 는 `High` 문자열을 반환해야 합니다.
 
 ```js
 assert(sequentialSizes(8) === 'High');
 ```
 
-`sequentialSizes(9)` should return the string `High`
+`sequentialSizes(9)` 는 `High` 문자열을 반환해야 합니다.
 
 ```js
 assert(sequentialSizes(9) === 'High');
 ```
 
-You should not use any `if` or `else` statements
+`if`또는 `else`문을 사용해서는 안 됩니다.
 
 ```js
 assert(!/else/g.test(__helpers.removeJSComments(code)) || !/if/g.test(__helpers.removeJSComments(code)));
 ```
 
-You should have nine `case` statements
+9개의 `case` 문을 가지고 있어야 합니다.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/case/g).length === 9);

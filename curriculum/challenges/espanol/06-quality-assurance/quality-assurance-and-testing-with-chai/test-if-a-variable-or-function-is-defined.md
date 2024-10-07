@@ -12,11 +12,11 @@ As a reminder, this project is being built upon the following starter project on
 
 # --instructions--
 
-Within `tests/1_unit-tests.js` under the test labeled `#2` in the `Basic Assertions` suite, change each `assert` to either `assert.isDefined()` or `assert.isUndefined()` to make the test pass (should evaluate to `true`). No modifiques los argumentos pasados ​​a los verificadores.
+Dentro de `tests/1_unit-tests.js` bajo el test etiquetado `#2` en el suite `Basic Assertions`, cambia cada `assert` a `assert.isDefined()` o `assert.isUndefined()` para hacer que el test pase (debe evaluarse como `true`). No modifiques los argumentos pasados ​​a los verificadores.
 
 # --hints--
 
-Todas las pruebas deben pasar.
+Todas los test deben pasar.
 
 ```js
 (getUserInput) =>

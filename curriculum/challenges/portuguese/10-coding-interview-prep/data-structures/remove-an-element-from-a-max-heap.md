@@ -8,10 +8,10 @@ dashedName: remove-an-element-from-a-max-heap
 
 # --description--
 
-Agora que podemos adicionar elementos à nossa heap, vamos ver como podemos remover elementos. Remover e inserir elementos requerem uma lógica similar. Em um max heap, você normalmente vai querer remover o maior valor, então isso envolve simplesmente tirá-lo da raiz da nossa árvore. Isto vai quebrar a propriedade heap de nossa árvore, então temos de restabelecer a propriedade de alguma forma. Normalmente, para um Max Heap, isso é feito da seguinte maneira:
+Now that we can add elements to our heap let's see how we can remove elements. Removing and inserting elements both require similar logic. In a max heap you will usually want to remove the greatest value, so this involves simply extracting it from the root of our tree. This will break the heap property of our tree, so we must reestablish it in some way. Typically, for a max heap this is done in the following way:
 
 <ol>
-  <li>Mova o último elemento no heap para a posição raiz.</li>
+  <li>Move the last element in the heap into the root position.</li>
   <li>Se qualquer filho da raiz for maior do que ela, troque a raiz pelo filho de maior valor.</li>
   <li>Continue trocando até que o pai seja maior que os dois filhos ou até que você atinja o último nível da árvore.</li>
 </ol>

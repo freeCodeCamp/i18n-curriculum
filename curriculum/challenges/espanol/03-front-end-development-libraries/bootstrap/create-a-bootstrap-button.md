@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348cd8acdf08812
-title: Crea un botón de Bootstrap
+title: Crea un Botón de Bootstrap
 challengeType: 0
 forumTopicId: 16811
 dashedName: create-a-bootstrap-button
@@ -8,9 +8,9 @@ dashedName: create-a-bootstrap-button
 
 # --description--
 
-Bootstrap tiene sus propios estilos para los elementos `button`, que se ven mucho mejor que los de HTML puro.
+Bootstrap has its own styles for `button` elements, which look much better than the plain HTML ones.
 
-Crea un nuevo elemento `button` debajo de la foto grande de tu gatito. Dale las clases `btn` y `btn-default`, así como el texto de `Like`.
+Crea un nuevo elemento `button` debajo de la foto grande del gatito. Dale las clases `btn` y `btn-default` y también el texto `Like`.
 
 # --hints--
 

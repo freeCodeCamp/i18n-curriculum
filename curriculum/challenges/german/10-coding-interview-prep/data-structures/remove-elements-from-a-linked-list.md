@@ -1,6 +1,6 @@
 ---
 id: 587d8251367417b2b2512c63
-title: Remove Elements from a Linked List
+title: Entfernen von Elementen aus einer verknüpften Liste
 challengeType: 1
 forumTopicId: 301712
 dashedName: remove-elements-from-a-linked-list
@@ -10,21 +10,21 @@ dashedName: remove-elements-from-a-linked-list
 
 The next important method that any implementation of a linked list will need is a `remove` method. This method should take the element we want to remove as an argument, and then search the list to find and remove the node that contains that element.
 
-Whenever we remove a node from a linked list, it's important that we don't accidentally orphan the rest of the list in doing so. Recall that every node's `next` property points to the node that follows it in the list. If we're removing the middle element, say, we'll want to make sure that we have a connection from that element's previous node's `next` property to the middle element's `next` property (which is the next node in the list!)
+Wenn wir einen Knoten aus einer verknüpften Liste entfernen, ist es wichtig, dass wir dabei nicht versehentlich den Rest der Liste verwaisen lassen. Die Eigenschaft `next` eines jeden Knotens zeigt auf den Knoten, der ihm in der Liste folgt. Wenn wir z.B. das mittlere Element entfernen, müssen wir sicherstellen, dass wir eine Verbindung zwischen der `next`-Eigenschaft des vorherigen Knotens dieses Elements und der `next`-Eigenschaft des mittleren Elements haben (das ist der nächste Knoten in der Liste!)
 
-This might sound really confusing, so let's return to the conga line example so we have a good conceptual model. Picture yourself in a conga line, and the person directly in front of you leaves the line. The person who just left the line no longer has her hands on anyone in line--and you no longer have your hands on the person that left. You step forward and put your hands on next person you see.
+Das mag sehr verwirrend klingen, also kehren wir zum Beispiel der Conga-Linie zurück, damit wir ein gutes konzeptionelles Modell haben. Stell dir vor, du stehst in einer Conga-Linie, und die Person direkt vor dir verlässt die Linie. Die Person, die gerade die Schlange verlassen hat, hat ihre Hände nicht mehr bei den anderen in der Schlange - und du hast deine Hände nicht mehr bei der Person, die gerade gegangen ist. Du trittst vor und legst deine Hände auf die nächste Person, die du siehst.
 
-If the element we wish to remove is the `head` element, we reassign the `head` to the second node of the linked list.
+Wenn es sich bei dem zu entfernenden Element um das `head`-Element handelt, ordnen wir den `head` dem zweiten Knoten der verknüpften Liste zu.
 
 # --instructions--
 
-Write a `remove` method that takes an element and removes it from the linked list.
+Schreib eine `remove`-Methode, die ein Element nimmt und es aus der verknüpften Liste entfernt.
 
-**Note:** The `length` of the list should decrease by one every time an element is removed from the linked list.
+**Note:** Das `length` der Liste sollte jedes Mal um eins abnehmen, wenn ein Element aus der verknüpften Liste entfernt wird.
 
 # --hints--
 
-Your `LinkedList` class should have a `remove` method.
+Deine `LinkedList`-Klasse sollte eine `remove` Methode haben.
 
 ```js
 assert(
@@ -35,7 +35,7 @@ assert(
 );
 ```
 
-Your `remove` method should reassign `head` to the second node when the first node is removed.
+Deine `remove`-Methode sollte `head` dem zweiten Knoten neu zuordnen, wenn der erste Knoten entfernt wird.
 
 ```js
 assert(
@@ -49,7 +49,7 @@ assert(
 );
 ```
 
-Your `remove` method should decrease the `length` of the linked list by one for every node removed.
+Deine `remove`-Methode sollte die `length` der verknüpften Liste für jeden entfernten Knoten um eins verringern.
 
 ```js
 assert(
@@ -65,7 +65,7 @@ assert(
 );
 ```
 
-Your `remove` method should reassign the reference of the previous node of the removed node to the removed node's `next` reference.
+Deine `remove`-Methode sollte die Referenz des vorherigen Knotens des entfernten Knotens der `next`-Referenz des entfernten Knotens neu zuweisen.
 
 ```js
 assert(
@@ -81,7 +81,7 @@ assert(
 );
 ```
 
-Your `remove` method should not change the linked list if the element does not exist in the linked list.
+Deine `remove`-Methode sollte die verknüpfte Liste nicht verändern, wenn das Element nicht in der verknüpften Liste existiert.
 
 ```js
 assert(

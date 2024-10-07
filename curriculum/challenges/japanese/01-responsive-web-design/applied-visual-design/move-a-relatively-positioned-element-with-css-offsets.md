@@ -9,7 +9,7 @@ dashedName: move-a-relatively-positioned-element-with-css-offsets
 
 # --description--
 
-`top` または `bottom`, および `left` または `right` の CSS オフセットは、あるアイテムが通常フローで配置される位置から相対的にオフセットする距離をブラウザに伝えます。 要素を指定された場所から離れるようにオフセットしているので、要素は指定された側から離れるように (事実上、反対方向に) 動きます。 ひとつ前のチャレンジで、`top` オフセットを使うと `h2` は下方向に動くことを確認しました。 同様に、`left` のオフセットを使うとアイテムは右に移動します。
+The CSS offsets of `top` or `bottom`, and `left` or `right` tell the browser how far to offset an item relative to where it would sit in the normal flow of the document. You're offsetting an element away from a given spot, which moves the element away from the referenced side (effectively, the opposite direction). As you saw in the last challenge, using the `top` offset moved the `h2` downwards. Likewise, using a `left` offset moves an item to the right.
 
 # --instructions--
 

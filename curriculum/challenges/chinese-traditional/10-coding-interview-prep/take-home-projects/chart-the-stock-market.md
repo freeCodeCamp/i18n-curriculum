@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443eddfaeb5bd0e
-title: Chart the Stock Market
+title: 繪製股市圖
 challengeType: 4
 forumTopicId: 302363
 dashedName: chart-the-stock-market
@@ -10,17 +10,17 @@ dashedName: chart-the-stock-market
 
 Build a full stack JavaScript app that is functionally similar to this: <a href="https://chart-the-stock-market.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://chart-the-stock-market.freecodecamp.rocks/</a>. Use a site builder of your choice to complete the project.
 
-Here are the specific user stories you should implement for this project:
+以下是你應該爲此項目實現的用戶故事：
 
-**User Story:** You can view a graph displaying the recent trend lines for each added stock.
+**用戶故事：** 你可以查看顯示每個新增股票的近期趨勢線的圖表。
 
-**User Story:** You can add new stocks by their symbol name.
+**用戶故事：** 你可以通過代碼名稱添加新股票。
 
-**User Story:** You can remove stocks.
+**用戶故事：** 你可以刪除股票。
 
-**User Story:** You can see changes in real-time when any other user adds or removes a stock. For this you will need to use Web Sockets.
+**用戶故事：** 當任何其他用戶添加或刪除股票時，你可以看到實時的變化。 爲此，你將需要使用 Web Sockets。
 
-When you are done, make sure a working demo of your project is hosted somewhere public. Then submit the URL to it in the Solution Link field. Optionally, also submit a link to your project's source code in the GitHub Link field.
+完成本項目後，請將一個正常運行的 demo（項目演示）託管在可以公開訪問的平臺。 然後將 URL 提交到 Solution Link 字段中。 也可以將項目的源碼鏈接提交到 GitHub Link 字段中。
 
 # --solutions--
 

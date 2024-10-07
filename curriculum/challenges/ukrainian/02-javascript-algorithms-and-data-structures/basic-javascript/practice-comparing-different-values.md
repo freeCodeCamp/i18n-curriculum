@@ -9,7 +9,7 @@ dashedName: practice-comparing-different-values
 
 # --description--
 
-В останніх двох завданнях ми вивчили оператор рівності (`==`) та оператор строгої рівності (`===`). Пригадаємо пройдену інформацію та попрактикуємо ці оператори знову.
+In the last two challenges, we learned about the equality operator (`==`) and the strict equality operator (`===`). Let's do a quick review and practice using these operators some more.
 
 Якщо ми порівнюємо значення різних типів, то оператор рівності спочатку конвертує їх, а потім вирахує значення. А ось оператор строгої рівності порівнюватиме тип даних та значення у вихідному вигляді, не конвертуючи їх.
 

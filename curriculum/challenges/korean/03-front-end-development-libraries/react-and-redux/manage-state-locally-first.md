@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d4036142
-title: Manage State Locally First
+title: 로컬 상태 먼저 관리하기
 challengeType: 6
 forumTopicId: 301431
 dashedName: manage-state-locally-first
@@ -12,15 +12,15 @@ Here you'll finish creating the `DisplayMessages` component.
 
 # --instructions--
 
-First, in the `render()` method, have the component render an `input` element, `button` element, and `ul` element. When the `input` element changes, it should trigger a `handleChange()` method. Also, the `input` element should render the value of `input` that's in the component's state. The `button` element should trigger a `submitMessage()` method when it's clicked.
+첫째, `render()` 메서드에서 컴포넌트가 `input` 요소, `button` 요소 및 `ul` 요소를 렌더링하도록 하십시오. `input` 요소가 변경되면 `handleChange()` 메서드가 트리거되어야 합니다. 또한, `input` 요소는 컴포넌트의 상태에 있는 `input` 값을 렌더링해야 합니다. `button` 요소를 클릭하면 `submitMessage()` 메서드가 트리거되어야 합니다.
 
-Second, write these two methods. The `handleChange()` method should update the `input` with what the user is typing. The `submitMessage()` method should concatenate the current message (stored in `input`) to the `messages` array in local state, and clear the value of the `input`.
+둘째, 이 두 메서드를 작성하십시오. `handleChange()` 메서드는 사용자가 입력하는 내용으로 `input`을 업데이트해야 합니다. `submitMessage()` 메서드는 현재 메시지(상태의 `input`에 저장된)를 로컬 상태의 `messages` 배열에 더하고 `input`에 있는 값은 지워야 합니다.
 
-Finally, use the `ul` to map over the array of `messages` and render it to the screen as a list of `li` elements.
+마지막으로, `ul`을 사용하여 `messages` 배열을 매핑(mapping)하고 화면에 `li` 요소 목록으로 렌더링하십시오.
 
 # --hints--
 
-The `DisplayMessages` component should initialize with a state equal to `{ input: "", messages: [] }`.
+`DisplayMessages` 컴포넌트는 `{ input: "", messages: [] }`와 같은 상태로 초기화되어야 합니다.
 
 ```js
 assert(
@@ -36,7 +36,7 @@ assert(
 );
 ```
 
-The `DisplayMessages` component should render a `div` containing an `h2` element, a `button` element, a `ul` element, and `li` elements as children.
+`DisplayMessages` 컴포넌트는 `div` 요소를 렌더링해야 하며, 그 안에는 `h2` 요소, `button` 요소, `ul` 요소 및 `li` 요소가 자식 요소로 포함되어 있어야 합니다.
 
 ```js
 () => {
@@ -56,13 +56,13 @@ The `DisplayMessages` component should render a `div` containing an `h2` element
 };
 ```
 
-`.map` should be used on the `messages` array.
+`messages` 배열에서 `.map`을 사용해야 합니다.
 
 ```js
 assert(code.match(/this\.state\.messages\.map/g));
 ```
 
-The `input` element should render the value of `input` in local state.
+`input` 요소는 로컬 상태의 `input` 값을 렌더링해야 합니다.
 
 ```js
 () => {
@@ -79,7 +79,7 @@ The `input` element should render the value of `input` in local state.
 };
 ```
 
-Calling the method `handleChange` should update the `input` value in state to the current input.
+`handleChange` 메서드를 호출하면 상태의 `input` 값을 현재 입력 요소에 업데이트해야 합니다.
 
 ```js
 () => {
@@ -100,7 +100,7 @@ Calling the method `handleChange` should update the `input` value in state to th
 };
 ```
 
-Clicking the `Add message` button should call the method `submitMessage` which should add the current `input` to the `messages` array in state.
+`Add message` 버튼을 클릭하면 `submitMessage` 메서드가 호출되어야 하며, 이는 현재 `input`을 상태의 `messages` 배열에 추가해야 합니다.
 
 ```js
 () => {
@@ -141,7 +141,7 @@ Clicking the `Add message` button should call the method `submitMessage` which s
 };
 ```
 
-The `submitMessage` method should clear the current input.
+`submitMessage` 메서드는 현재 입력 요소의 내용을 지워야 합니다.
 
 ```js
 () => {

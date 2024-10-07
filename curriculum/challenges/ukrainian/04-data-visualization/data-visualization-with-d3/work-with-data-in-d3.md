@@ -8,7 +8,7 @@ dashedName: work-with-data-in-d3
 
 # --description--
 
-Бібліотека D3 фокусується на підході керування даними. Якщо у вас є набір даних, ви можете застосувати методи D3, щоб відтворити дані на сторінці. Дані надходять у багатьох форматах, але в цьому завданні використано простий масив чисел.
+The D3 library focuses on a data-driven approach. When you have a set of data, you can apply D3 methods to display it on the page. Data comes in many formats, but this challenge uses a simple array of numbers.
 
 Перший крок: повідомити D3 про дані. Метод `data()` використовують до виділених елементів DOM, щоб приєднати дані до цих елементів. Набір даних передається як аргумент до методу.
 

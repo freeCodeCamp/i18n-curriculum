@@ -8,7 +8,7 @@ dashedName: add-inline-styles-in-react
 
 # --description--
 
-Nell'ultima sfida potresti aver notato che ci sono state diverse altre differenze di sintassi dagli stili HTML inline in aggiunta all'attributo `style` impostato su un oggetto JavaScript. In primo luogo, i nomi di alcune proprietà di stile CSS usano il camel case. Ad esempio, l'ultima sfida imposta la dimensione del carattere con `fontSize` invece di `font-size`. Le parole tratteggiate come `font-size` sono una sintassi non valida per le proprietà dell'oggetto JavaScript, quindi React usa il camel case. Di regola, tutte le proprietà di stile tratteggiate sono scritte utilizzando il camel case in JSX.
+You may have noticed in the last challenge that there were several other syntax differences from HTML inline styles in addition to the `style` attribute set to a JavaScript object. First, the names of certain CSS style properties use camel case. For example, the last challenge set the size of the font with `fontSize` instead of `font-size`. Hyphenated words like `font-size` are invalid syntax for JavaScript object properties, so React uses camel case. As a rule, any hyphenated style properties are written using camel case in JSX.
 
 Si assume che tutti i valori di lunghezza delle proprietà (come `height`, `width`, e `fontSize`) siano in `px` se non diversamente specificato. Se si desidera utilizzare `em`, ad esempio, dovrai inserire il valore e l'unità di misura tra virgolette, come ad esempio `{fontSize: "4em"}`. Oltre ai valori di lunghezza che hanno un'unità predefinita in `px`, tutti gli altri valori delle proprietà dovrebbero essere inseriti tra virgolette.
 

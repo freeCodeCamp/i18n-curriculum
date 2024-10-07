@@ -1,6 +1,6 @@
 ---
 id: 56bbb991ad1ed5201cd392cf
-title: Write Reusable JavaScript with Functions
+title: 함수를 사용해서 재이용 가능한 JavaScript를 작성하기
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cL6dqfy'
 forumTopicId: 18378
@@ -11,7 +11,7 @@ dashedName: write-reusable-javascript-with-functions
 
 In JavaScript, we can divide up our code into reusable parts called <dfn>functions</dfn>.
 
-Here's an example of a function:
+여기에 함수에 관한 예가 있습니다:
 
 ```js
 function functionName() {
@@ -19,7 +19,7 @@ function functionName() {
 }
 ```
 
-You can call or <dfn>invoke</dfn> this function by using its name followed by parentheses, like this: `functionName();` Each time the function is called it will print out the message `Hello World` on the dev console. All of the code between the curly braces will be executed every time the function is called.
+당신이 이 함수를 이름과 괄호를 붙여서(`functionName();` 처럼) <dfn>부를</dfn> 때마다, 함수는 `Hello World`라는 메시지를 개발 콘솔에 출력할 것입니다. 함수가 불러질 때마다, 중괄호 안에 있는 코드의 부분이 전부 실행될 것입니다.
 
 # --instructions--
 
@@ -28,25 +28,25 @@ You can call or <dfn>invoke</dfn> this function by using its name followed by pa
     Create a function called <code>reusableFunction</code> which prints the string <code>Hi World</code> to the dev console.
   </li>
   <li>
-    Call the function.
+    이 함수를 부르세요.
   </li>
 </ol>
 
 # --hints--
 
-`reusableFunction` should be a function.
+`reusableFunction`는 함수여야 합니다.
 
 ```js
 assert(typeof reusableFunction === 'function');
 ```
 
-If `reusableFunction` is called, it should output the string `Hi World` to the console.
+만약 `reusableFunction`이 불러지면, `Hi World`를 콘솔에 출력해야 합니다.
 
 ```js
 assert(testConsole());
 ```
 
-You should call `reusableFunction` once it is defined.
+당신은 `reusableFunction` 를 정의한 후에 불러야 합니다.
 
 ```js
 const functionStr = reusableFunction && __helpers.removeWhiteSpace(reusableFunction.toString());

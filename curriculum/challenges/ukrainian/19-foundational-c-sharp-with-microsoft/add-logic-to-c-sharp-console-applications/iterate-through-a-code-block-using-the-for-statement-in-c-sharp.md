@@ -12,7 +12,7 @@ dashedName: iterate-through-a-code-block-using-the-for-statement-in-c-sharp
 1. Перейдіть до <a href="https://learn.microsoft.com/training/modules/csharp-for/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/csharp-for/</a> та виконайте всі завдання модуля «Переберіть код блоку, використовуючи інструкцію for в C#». Це **обов’язково**, щоб отримати трофей з «Додавання логіки до консольних застосунків C#» на Microsoft Learn та мати змогу скласти сертифікаційний екзамен.
 1. Як тільки завершите, поверніться та дайте правильну відповідь на запитання нижче.
 
-# --assignment--
+# --Завдання--
 
 Виконайте модуль <a href="https://learn.microsoft.com/training/modules/csharp-for/" target="_blank" rel="noreferrer">«Переберіть код блоку, використовуючи інструкцію for в C#»</a> на Microsoft Learn. Потім дайте відповідь на запитання нижче.
 
@@ -20,7 +20,7 @@ dashedName: iterate-through-a-code-block-using-the-for-statement-in-c-sharp
 
 ## --text--
 
-Яка з перелічених інструкцій `for` правильна?
+Which of the following `for` statements is correct?
 
 ## --answers--
 

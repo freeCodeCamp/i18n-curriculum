@@ -8,7 +8,7 @@ dashedName: use-arrow-functions-to-write-concise-anonymous-functions
 
 # --description--
 
-Часто у JavaScript не потрібно називати функції, особливо коли функція передається як аргумент іншій функції. Натомість ми створюємо вбудовані функції. Їх не потрібно називати, бо вони більш ніде не використовуються.
+In JavaScript, we often don't need to name our functions, especially when passing a function as an argument to another function. Instead, we create inline functions. We don't need to name these functions because we do not reuse them anywhere else.
 
 Для цього використовується наступний синтаксис:
 
@@ -42,7 +42,7 @@ const myFunc = () => "value";
 
 # --hints--
 
-Ви повинні замінити ключове слово `var`.
+Вам слід замінити ключове слово `var`.
 
 ```js
 assert.notMatch(code, /var/g)

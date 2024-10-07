@@ -9,7 +9,7 @@ dashedName: fill-in-the-blank-with-placeholder-text
 
 # --description--
 
-웹 개발자들은 오래전부터 <dfn>lorem ipsum text</dfn>를 무작위 텍스트로 이용했습니다. lorem ipsum text는 고대 로마의 키케로(Cicero)가 쓴 유명한 구절에서 무작위로 인용한 텍스트입니다.
+Web developers traditionally use <dfn>lorem ipsum text</dfn> as placeholder text. The lorem ipsum text is randomly scraped from a famous passage by Cicero of Ancient Rome.
 
 Lorem ipsum text는 16세기부터 식자공들에 의해 무작위 텍스트로 사용되어왔으며 이 전통은 웹에서도 계속되고 있습니다.
 

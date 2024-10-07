@@ -13,11 +13,11 @@ Ouça o áudio para completar a frase abaixo.
 
 # --fillInTheBlank--
 
-## --frase--
+## --sentence--
 
 `Absolutely. If you see any security breaches or incidents, you BLANK BLANK report them BLANK.`
 
-## --espaços em branco--
+## --blanks--
 
 `have`
 

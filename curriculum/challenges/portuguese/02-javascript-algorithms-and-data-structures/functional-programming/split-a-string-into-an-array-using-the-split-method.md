@@ -8,7 +8,7 @@ dashedName: split-a-string-into-an-array-using-the-split-method
 
 # --description--
 
-O método `split` divide uma string em um array de strings. Ela recebe um delimitador, que pode ser um caractere ou uma expressão regular, como argumento para dividir a string. Por exemplo, se o delimitador for um espaço, você recebe um array de palavras. Se o delimitador for a string vazia, você recebe um array contendo os caracteres da string.
+The `split` method splits a string into an array of strings. It takes an argument for the delimiter, which can be a character to use to break up the string or a regular expression. For example, if the delimiter is a space, you get an array of words, and if the delimiter is an empty string, you get an array of each character in the string.
 
 Abaixo há dois exemplos de uso de split, um separando uma string por espaços, e outro por dígitos usando uma expressão regular:
 

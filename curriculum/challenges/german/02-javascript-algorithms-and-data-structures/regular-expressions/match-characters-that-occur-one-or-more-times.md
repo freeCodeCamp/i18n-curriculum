@@ -8,7 +8,7 @@ dashedName: match-characters-that-occur-one-or-more-times
 
 # --description--
 
-Manchmal musst du ein Zeichen (oder eine Gruppe von Zeichen) finden, das ein oder mehrere Male hintereinander auftaucht. Das bedeutet, dass es mindestens einmal vorkommt und wiederholt werden kann.
+Sometimes, you need to match a character (or group of characters) that appears one or more times in a row. This means it occurs at least once, and may be repeated.
 
 Du kannst das Zeichen `+` verwenden, um zu überprüfen, ob das der Fall ist. Denke daran, dass das Zeichen oder Muster fortlaufend vorhanden sein muss. Das heißt, das Zeichen muss nacheinander wiederholt werden.
 

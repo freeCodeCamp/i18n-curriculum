@@ -8,7 +8,7 @@ dashedName: set-state-with-this-setstate
 
 # --description--
 
-前面的挑戰涵蓋了組件的 `state` 以及如何在 `constructor` 中初始化 state。 還有一種方法可以更改組件的 `state`。 React 提供了 `setState` 方法來更新組件的 `state`。 在組件類中調用 `setState` 方法如下所示：`this.setState()`，傳入鍵值對的對象， 其中鍵是 state 屬性，值是更新後的 state 數據。 例如，如果我們在 state 中存儲 `username`，並想要更新它，代碼如下所示：
+The previous challenges covered component `state` and how to initialize state in the `constructor`. There is also a way to change the component's `state`. React provides a method for updating component `state` called `setState`. You call the `setState` method within your component class like so: `this.setState()`, passing in an object with key-value pairs. The keys are your state properties and the values are the updated state data. For instance, if we were storing a `username` in state and wanted to update it, it would look like this:
 
 ```jsx
 this.setState({

@@ -9,7 +9,7 @@ dashedName: understanding-case-sensitivity-in-variables
 
 # --description--
 
-Усі назви змінних та функцій у JavaScript чуттєві до регістру. Це означає, що написання з великої літери має значення.
+In JavaScript all variables and function names are case sensitive. This means that capitalization matters.
 
 `MYVAR` — не те саме, що `MyVar` чи `myvar`. Ви можете мати декілька різних змінних з одинаковою назвою, але різним регістром. Заради чіткості рекомендовано *не* використовувати цю особливість мови.
 

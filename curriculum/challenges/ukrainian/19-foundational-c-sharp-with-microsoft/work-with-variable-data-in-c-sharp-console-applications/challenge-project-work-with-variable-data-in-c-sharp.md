@@ -12,7 +12,7 @@ dashedName: challenge-project-work-with-variable-data-in-c-sharp
 1. Перейдіть до <a href="https://learn.microsoft.com/training/modules/challenge-project-work-variable-data-c-sharp/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/challenge-project-work-variable-data-c-sharp/</a> та виконайте всі завдання модуля «Проєкт завдання: попрацюйте з даними змінних в C#». Це **обов’язково**, щоб отримати трофей зі «Робота з даними змінних в консольних застосунках C#» на Microsoft Learn та мати змогу скласти сертифікаційний екзамен.
 1. Як тільки завершите, поверніться та дайте правильну відповідь на запитання нижче.
 
-# --assignment--
+# --Завдання--
 
 Виконайте проєкт завдання <a href="https://learn.microsoft.com/training/modules/challenge-project-work-variable-data-c-sharp/" target="_blank" rel="noreferrer">«Попрацюйте з даними змінних в C#»</a> на Microsoft Learn. Потім дайте відповідь на запитання нижче.
 
@@ -20,19 +20,19 @@ dashedName: challenge-project-work-with-variable-data-in-c-sharp
 
 ## --text--
 
-Чому перед сортуванням масиву рядків важливо використовувати метод `String.Trim()` до кожного елемента масиву?
+To sort a string array, why is it important to use the `String.Trim()` method on each array element before sorting?
 
 ## --answers--
 
-Можна відсортувати лише масиви рядків, елементи якого обрізані методом `String.Trim()`
+Only string arrays with elements trimmed with `String.Trim()` can sort
 
 ---
 
-`String.Trim()` видаляє початкові пробіли, які були б відсортовані перед числами та літерами.
+`String.Trim()` removes leading white space that would sort before numbers and letters.
 
 ---
 
-Сортування масиву пришвидшується, якщо використати `String.Trim()` до кожного елемента.
+The array sort is noticeably faster using `String.Trim()` on each element.
 
 ## --video-solution--
 

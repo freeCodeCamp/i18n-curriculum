@@ -9,7 +9,7 @@ dashedName: change-a-variable-for-a-specific-area
 
 # --description--
 
-当你在 `:root` 里创建变量时，这些变量的作用域是整个页面。
+When you create your variables in `:root` they will set the value of that variable for the whole page.
 
 然后，你可以通过在一个特定的选择器中再次设置这些变量来重写这些变量。
 

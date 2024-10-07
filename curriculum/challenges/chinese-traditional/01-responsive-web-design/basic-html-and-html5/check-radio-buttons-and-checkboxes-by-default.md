@@ -9,9 +9,9 @@ dashedName: check-radio-buttons-and-checkboxes-by-default
 
 # --description--
 
-用 `checked` 屬性把第一個複選框和單選按鈕都設置爲默認選中。
+You can set a checkbox or radio button to be checked by default using the `checked` attribute.
 
-爲此，只需將單詞 `checked` 添加到 `input` 元素的內部。 例如:
+爲此，只需將單詞 `checked` 添加到 `input` 元素的內部。 例如：
 
 ```html
 <input type="radio" name="test-name" checked>

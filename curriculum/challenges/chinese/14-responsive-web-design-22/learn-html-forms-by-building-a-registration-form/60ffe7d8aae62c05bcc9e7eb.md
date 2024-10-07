@@ -7,7 +7,7 @@ dashedName: step-58
 
 # --description--
 
-将 `display` 设置为 `block`，提交按钮与父按钮的左边缘齐平。
+With a `display` of `block` the submit button sits flush against the left edge of its parent.
 
 使用与使 `form` 居中相同的技术来居中提交按钮。
 

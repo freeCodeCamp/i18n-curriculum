@@ -8,7 +8,7 @@ dashedName: define-an-action-creator
 
 # --description--
 
-Após criar uma ação, o próximo passo é enviar a ação para o armazenamento do Redux para que ele possa atualizar seu estado. No Redux, você define os criadores de ação para realizar isso. Um criador de ação é simplesmente uma função JavaScript que retorna uma ação. Em outras palavras, criadores de ações criam objetos que representam eventos de ação.
+After creating an action, the next step is sending the action to the Redux store so it can update its state. In Redux, you define action creators to accomplish this. An action creator is simply a JavaScript function that returns an action. In other words, action creators create objects that represent action events.
 
 # --instructions--
 

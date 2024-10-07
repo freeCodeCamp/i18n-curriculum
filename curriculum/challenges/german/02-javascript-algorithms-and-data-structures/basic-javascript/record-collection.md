@@ -8,22 +8,22 @@ dashedName: record-collection
 
 # --description--
 
-Du wirst eine Funktion erstellen, die bei der Verwaltung einer Musikalbensammlung helfen wird. Die Sammlung ist als ein Objekt organisiert, das mehrere Alben enthält, die ebenfalls Objekte darstellen. Jedes Album wird in der Sammlung mit einer einzigartigen `id` als Eigenschaftsname dargestellt. Innerhalb jedes Albumobjekts befinden sich verschiedene Eigenschaften, die Informationen über das Album enthalten. Nicht alle Alben enthalten vollständige Informationen.
+You are creating a function that aids in the maintenance of a musical album collection. The collection is organized as an object that contains multiple albums which are also objects. Each album is represented in the collection with a unique `id` as the property name. Within each album object, there are various properties describing information about the album. Not all albums have complete information.
 
 Die `updateRecords`-Funktion erwartet 4 Argumente, die durch die folgenden Funktionsparameter repräsentiert werden:
 
--   `records` - ein Objekt mit mehreren einzelnen Alben
--   `id` - eine Zahl, die ein bestimmtes Album im `records`-Objekt repräsentiert
--   `prop` - ein String, der den Namen der zu aktualisierenden Eigenschaft des Albums angibt
--   `value` - ein String, der die Informationen enthält, die zur Aktualisierung der Album-Eigenschaft verwendet werden
+-   `records` - an object containing several individual albums
+-   `id` - a number representing a specific album in the `records` object
+-   `prop` - a string representing the name of the album’s property to update
+-   `value` - a string containing the information used to update the album’s property
 
 Vervollständige die Funktion mit Hilfe der folgenden Regeln, um das an die Funktion übergebene Objekt zu verändern.
 
--   Deine Funktion muss immer das gesamte `records`-Objekt zurückgeben.
+-   Your function must always return the entire `records` object.
 -   Falls `value` einen leeren String darstellt, lösche die angegebene `prop`-Eigenschaft aus dem Album.
 -   Falls `prop` nicht `tracks` darstellt und `value` kein leerer String ist, dann weise `value` dem `prop` des jeweiligen Albums zu.
 -   If `prop` is `tracks` and `value` isn't an empty string, but the album doesn't have a `tracks` property, create an empty array and add `value` to it.
--   If prop is `tracks` and `value` isn't an empty string, add `value` to the end of the album's existing `tracks` array.
+-   Wenn prop `tracks` ist und `value` keinen leeren String darstellt, füge `value` an das Ende des bestehenden `tracks`-Arrays des Albums an.
 
 **Hinweis:** Für die Tests wird eine Kopie des Objekts `recordCollection` verwendet. Du solltest das Objekt `recordCollection` nicht direkt anpassen.
 

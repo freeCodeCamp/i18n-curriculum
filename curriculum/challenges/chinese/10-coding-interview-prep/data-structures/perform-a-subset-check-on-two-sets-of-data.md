@@ -8,7 +8,7 @@ dashedName: perform-a-subset-check-on-two-sets-of-data
 
 # --description--
 
-在本练习中，我们将对 2 组数据执行子集测试。 我们将在我们的 `Set` 数据结构上创建一个名为 `isSubsetOf` 的方法。 这将比较第一组与第二组，如果第一组完全包含在第二组中，则它将返回 `true`。
+In this exercise, we are going to perform a subset test on 2 sets of data. We will create a method on our `Set` data structure called `isSubsetOf`. This will compare the first set against the second, and if the first set is fully contained within the second, it will return `true`.
 
 例如，如果 `setA = ['a','b']` 和 `setB = ['a','b','c','d']`，那么 `setA` 是 `setB` 的子集，所以 `setA.isSubsetOf(setB)` 应该返回 `true`。
 
@@ -25,7 +25,7 @@ assert(
 );
 ```
 
-The first `Set` should be contained in the second `Set`.
+第一个 Set  应该包含在第二个  Set 中。
 
 ```js
 assert(
@@ -43,7 +43,7 @@ assert(
 );
 ```
 
-`['a', 'b'].isSubsetOf(['a', 'b', 'c', 'd'])` should return `true`.
+[‘ a’，‘ b’] . isSubsetOf ([‘ a’，‘ b’，‘ c’，‘ d’]) 应该返回  true  。
 
 ```js
 assert(
@@ -62,7 +62,7 @@ assert(
 );
 ```
 
-`['a', 'b', 'c'].isSubsetOf(['a', 'b'])` should return `false`.
+[‘ a’，‘ b’，‘ c’] . isSubsetOf ([‘ a’，‘ b’])  应该返回  false 。
 
 ```js
 assert(
@@ -80,7 +80,7 @@ assert(
 );
 ```
 
-`[].isSubsetOf([])` should return `true`.
+IsSubsetOf ([]) 应该返回true 。
 
 ```js
 assert(
@@ -93,7 +93,7 @@ assert(
 );
 ```
 
-`['a', 'b'].isSubsetOf(['c', 'd'])` should return `false`.
+[‘ a’，‘ b’] . isSubsetOf ([‘ c’，‘ d’])  应该返回  false 。
 
 ```js
 assert(

@@ -8,7 +8,7 @@ dashedName: start-a-working-express-server
 
 # --description--
 
-Nelle prime due righe del file `myApp.js` puoi vedere quanto sia facile creare un oggetto app Express. Questo oggetto ha diversi metodi, che conoscerai in queste sfide. Un metodo fondamentale è `app.listen(port)`. Dice al tuo server di mettersi in ascolto su una data porta, mettendola in uno stato attivo. Per motivi di test, abbiamo bisogno che l'app sia in esecuzione in background per cui abbiamo aggiunto questo metodo nel file `server.js` per te.
+In the first two lines of the file `myApp.js`, you can see how easy it is to create an Express app object. This object has several methods, and you will learn many of them in these challenges. One fundamental method is `app.listen(port)`. It tells your server to listen on a given port, putting it in running state. For testing reasons, we need the app to be running in the background so we added this method in the `server.js` file for you.
 
 Serviamo la nostra prima stringa! In Express, le rotte hanno la seguente struttura: `app.METHOD(PATH, HANDLER)`. METHOD è un metodo http in minuscolo. PATH è un percorso relativo sul server (può essere una stringa, o anche un'espressione regolare). HANDLER è una funzione che Express chiama quando la rotta corrisponde. I gestori assumono la forma `function(req, res) {...}`, dove req è l'oggetto request (richiesta), e res è l'oggetto response (risposta). Ad esempio, il gestore
 

@@ -1,6 +1,6 @@
 ---
 id: 5900f4cd1000cf542c50ffe0
-title: 'Problem 353: Risky moon'
+title: 'Problem 353: Riskanter Mond'
 challengeType: 1
 forumTopicId: 302013
 dashedName: problem-353-risky-moon
@@ -8,27 +8,27 @@ dashedName: problem-353-risky-moon
 
 # --description--
 
-A moon could be described by the sphere $C(r)$ with centre (0, 0, 0) and radius $r$.
+Ein Mond könnte durch die Kugel $C(r)$ mit Mittelpunkt (0, 0, 0) und Radius $r$ beschrieben werden.
 
-There are stations on the moon at the points on the surface of $C(r)$ with integer coordinates. The station at (0, 0, $r$) is called North Pole station, the station at (0, 0, $-r$) is called South Pole station.
+An den Punkten auf der Oberfläche von $C(r)$ mit ganzzahligen Koordinaten befinden sich Stationen auf dem Mond. Die Station bei (0, 0, $r$) heißt Nordpolstation, die Station bei (0, 0, $-r$) heißt Südpolstation.
 
-All stations are connected with each other via the shortest road on the great arc through the stations. A journey between two stations is risky. If $d$ is the length of the road between two stations, $\{\left(\frac{d}{πr}\right)}^2$ is a measure for the risk of the journey (let us call it the risk of the road). If the journey includes more than two stations, the risk of the journey is the sum of risks of the used roads.
+Alle Stationen sind über die kürzeste Straße auf dem großen Bogen durch die Stationen miteinander verbunden. Eine Fahrt zwischen zwei Stationen ist riskant. Wenn $d$ die Länge der Straße zwischen zwei Stationen ist, ist $\{\left(\frac{d}{πr}\right)}^2$ ein Maß für das Risiko der Reise (nennen wir es das Risiko der Straße). Wenn die Reise mehr als zwei Stationen umfasst, ist das Risiko der Reise die Summe der Risiken der benutzten Straßen.
 
-A direct journey from the North Pole station to the South Pole station has the length $πr$ and risk 1. The journey from the North Pole station to the South Pole station via (0, $r$, 0) has the same length, but a smaller risk:
+Eine direkte Reise vom Nordpol bis zum Südpol hat die Länge $πr$ und Risiko 1. Die Reise vom Nordpol bis zum Südpol über (0, $r$, 0) hat die gleiche länge, aber ein geringeres Risiko:
 
 $${\left(\frac{\frac{1}{2}πr}{πr}\right)}^2+{\left(\frac{\frac{1}{2}πr}{πr}\right)}^2 = 0.5$$
 
-The minimal risk of a journey from the North Pole station to the South Pole station on $C(r)$ is $M(r)$.
+Das minimale Risiko einer Reise von der Nordpolstation zur Südpolstation auf $C(r)$ ist $M(r)$.
 
-You are given that $M(7) = 0.178\\,494\\,399\\,8$ rounded to 10 digits behind the decimal point.
+Dir wird gegeben, dass $M(7) = 0.178$\\,494\\,399\\,8$ gerundet auf 10 Ziffern hinter dem Dezimalpunkt.
 
-Find $\displaystyle\sum_{n = 1}^{15} M(2^n - 1)$.
+Finde $\displaystyle\sum_{n = 1}^{15} M(2^n - 1)$.
 
-Give your answer rounded to 10 digits behind the decimal point in the form a.bcdefghijk.
+Gib deine Antwort auf 10 Ziffern hinter dem Komma gerundet in der Form a.bcdefghijk an.
 
 # --hints--
 
-`riskyMoon()` should return `1.2759860331`.
+`riskyMoon()` sollte `1.2759860331` zurückgeben.
 
 ```js
 assert.strictEqual(riskyMoon(), 1.2759860331);

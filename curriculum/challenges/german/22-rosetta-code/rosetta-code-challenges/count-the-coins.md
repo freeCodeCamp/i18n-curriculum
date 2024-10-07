@@ -8,19 +8,19 @@ dashedName: count-the-coins
 
 # --description--
 
-There are four types of common coins in US currency:
+Es gibt vier Arten von gängigen Münzen in der US Währung:
 
 <ul>
-  <li>quarters (25 cents)</li>
-  <li>dimes (10 cents)</li>
-  <li>nickels (5 cents), and</li>
-  <li>pennies (1 cent)</li>
+  <li>vierteldollar (25 Cent)</li>
+  <li>groschen (10 Cent)</li>
+  <li>nickel (5 Cents) und</li>
+  <li>pennys (1 cent)</li>
 </ul>
 
 <p>Es gibt sechs Möglichkeiten, 15 Cent zu wechseln:</p>
 
 <ul>
-  <li>A dime and a nickel</li>
+  <li>Ein Groschen und ein Nickel</li>
   <li>Ein Groschen und 5 Pfennige</li>
   <li>3 Nickel</li>
   <li>2 Nickel und 5 Pfennig</li>

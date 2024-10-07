@@ -8,9 +8,9 @@ dashedName: create-an-es6-javascript-map
 
 # --description--
 
-La nueva version de JavaScript os proporciona un objeto de Mapa integrado que proporciona muchas de las funcionalidades que escribimos a mano en el último desafío. Este objeto mapa, aunque similar a los objetos JavaScript regulares, provee algunas funcionalidades útiles que los objetos normales no tienen. Por ejemplo, un Mapa ES6 ratrea el orden de inserción de los elementos que se le añaden. Aquí hay un resumen más completo de sus métodos:
+The new version of JavaScript provides us with a built-in Map object which provides much of the functionality we wrote by hand in the last challenge. This Map object, although similar to regular JavaScript objects, provides some useful functionality that normal objects lack. For example, an ES6 Map tracks the insertion order of items that are added to it. Here is a more complete overview of its methods:
 
-- `.has(key)` devuelve true o false basado en la presencia de una clave
+- `.has(key)` returns true or false based on the presence of a key
 - `.get(key)` devuelve el valor asociado a una clave
 - `.set(key, value)` establece un nuevo par clave, valor
 - `.delete(key)` elimina un par clave, valor

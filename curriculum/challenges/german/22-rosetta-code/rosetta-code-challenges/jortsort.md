@@ -8,7 +8,7 @@ dashedName: jortsort
 
 # --description--
 
-jortSort is a sorting toolset that makes the user do the work and guarantees efficiency because you don't have to sort ever again. It was originally presented by Jenn "Moneydollars" Schiffer at the prestigious JSConf2014.
+jortSort ist ein Sortierwerkzeugsatz, der den Benutzer dazu veranlasst, die Arbeit zu erledigen und garantiert Effizienz, weil du nie wieder sortieren musst. Es wurde ursprünglich von Jenn "Moneydollars" Schiffer auf der renommierten JSConf2014 vorgestellt.
 
 jortSort sollte eine Funktion sein, die ein einziges Array vergleichbarer Objekte als Argument annimmt. Dann sortiert es das Array in aufsteigender Reihenfolge und vergleicht das sortierte Array mit dem ursprünglich zur Verfügung gestellten Array. Wenn die Arrays übereinstimmen (also das ursprüngliche Array bereits sortiert war), gibt die Funktion „true“ zurück. Wenn die Arrays nicht übereinstimmen (das heißt, das ursprüngliche Array wurde nicht sortiert), gibt die Funktion „false“ zurück.
 

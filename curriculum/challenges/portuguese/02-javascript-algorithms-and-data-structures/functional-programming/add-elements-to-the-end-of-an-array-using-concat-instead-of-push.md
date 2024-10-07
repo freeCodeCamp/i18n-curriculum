@@ -8,7 +8,7 @@ dashedName: add-elements-to-the-end-of-an-array-using-concat-instead-of-push
 
 # --description--
 
-Programação funcional é basicamente criar e utilizar funções que não modificam os seus argumentos.
+Functional programming is all about creating and using non-mutating functions.
 
 O último desafio mostrou como usar o método `concat` para criar um novo array a partir da mescla de outros sem modificar os originais. Compare os métodos `concat` e `push`. O `push` adiciona itens ao final do mesmo array a partir do qual ele é chamado. Ele modifica o array. Exemplo:
 

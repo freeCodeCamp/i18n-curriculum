@@ -12,7 +12,7 @@ dashedName: challenge-project-debug-a-c-sharp-console-application-using-visual-s
 1. 跳轉到 <a href="https://learn.microsoft.com/training/modules/challenge-project-debug-c-sharp-console-application/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/challenge-project-debug-c-sharp-console-application/</a>，然後完成“挑戰項目 - 使用 Visual Studio Code 調試 C# 控制檯應用程序”模塊的所有任務。 這是在 Microsoft Learn 上獲得“調試 C# 控制檯應用程序”的獎盃以及參加認證考試所**必需**的。
 1. 完成後，返回並正確回答下面的問題。
 
-# --任務--
+# --作業--
 
 在 Microsoft Learn 上完成<a href="https://learn.microsoft.com/training/modules/challenge-project-debug-c-sharp-console-application/" target="_blank" rel="noreferrer">挑戰項目 - 使用 Visual Studio Code 調試 C# 控制檯應用程序</a>的挑戰項目。 然後，回答下面的問題。
 

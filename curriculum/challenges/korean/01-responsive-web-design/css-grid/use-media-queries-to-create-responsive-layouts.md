@@ -9,7 +9,7 @@ dashedName: use-media-queries-to-create-responsive-layouts
 
 # --description--
 
-CSS 그리드는 미디어 쿼리를 사용하여 그리드 영역을 재배치하고 그리드의 차원을 변경하며 항목의 배치를 재조정하여 웹사이트를 보다 반응형으로 만드는 간편한 방법이 될 수 있습니다.
+CSS Grid can be an easy way to make your site more responsive by using media queries to rearrange grid areas, change dimensions of a grid, and rearrange the placement of items.
 
 미리보기에서 viewport 너비가 300px 이상일 때 열의 수가 1에서 2로 변합니다. 그런 다음 광고 영역은 완전히 왼쪽 열을 차지합니다.
 

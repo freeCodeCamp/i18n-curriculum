@@ -8,7 +8,7 @@ dashedName: match-all-non-numbers
 
 # --description--
 
-O último desafio mostrou como procurar dígitos usando o atalho `\d` com um `d` minúsculo. Você também pode procurar não dígitos usando um atalho semelhante que usa um `D` maiúsculo.
+The last challenge showed how to search for digits using the shortcut `\d` with a lowercase `d`. You can also search for non-digits using a similar shortcut that uses an uppercase `D` instead.
 
 O atalho para procurar não dígitos é `\D`. Esse atalho é o mesmo que `[^0-9]`, que serve para procurar qualquer caractere que não seja um dígito de zero a nove.
 

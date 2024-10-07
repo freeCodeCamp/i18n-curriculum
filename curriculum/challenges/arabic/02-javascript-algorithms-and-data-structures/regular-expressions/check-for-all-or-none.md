@@ -8,7 +8,7 @@ dashedName: check-for-all-or-none
 
 # --description--
 
-في بعض الأحيان قد تحتوي الأنماط التي تريد البحث عنها على أجزاء قد تكون موجودة أو غير موجودة. ومع ذلك، قد يكون من المهم التحقق من هؤلاء.
+Sometimes the patterns you want to search for may have parts of it that may or may not exist. However, it may be important to check for them nonetheless.
 
 يمكنك تحديد احتمالية وجود عنصر ما باستخدام علامة استفهام `?`. هذا يتحقق من وجود صفر أو واحد من العناصر التي تسبقة. يمكنك أن تفكر في هذا الرمز على أنه يقول أن العنصر السابق اختياري.
 

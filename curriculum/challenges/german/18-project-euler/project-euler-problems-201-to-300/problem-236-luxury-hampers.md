@@ -22,7 +22,7 @@ Obwohl sich die Lieferanten sehr bemühen, ihre Waren in einwandfreiem Zustand z
 
 Die Anbieter vergleichen ihre Leistungen anhand von zwei Arten von Statistiken:
 
-- The five per-product spoilage rates for each supplier are equal to the number of products gone bad divided by the number of products supplied, for each of the five products in turn.
+- Die fünf Produkte pro Lieferant sind gleich der Anzahl der verdorbenen Produkte geteilt durch die Anzahl der gelieferten Produkte, und zwar für jedes der fünf Produkte der Reihe nach.
 - Die Gesamtverderbnisrate für jeden Lieferanten ist gleich der Gesamtzahl der verdorbenen Produkte geteilt durch die Gesamtzahl der von diesem Lieferanten gelieferten Produkte.
 
 Zu ihrer Überraschung stellten die Lieferanten fest, dass jede der fünf Verderbnisraten pro Produkt bei "B" um denselben Faktor (Verhältnis der Verderbnisraten), $m > 1$, schlechter (höher) war als bei "A"; und dennoch war paradoxerweise die Gesamtverderbnisrate bei "A" schlechter als bei "B", ebenfalls um einen Faktor $m$.

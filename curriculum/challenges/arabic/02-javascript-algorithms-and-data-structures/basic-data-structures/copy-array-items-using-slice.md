@@ -8,7 +8,7 @@ dashedName: copy-array-items-using-slice
 
 # --description--
 
-الوظيفة التالية التي سنغطيها هي `slice()`. بدلا من تعديل القائمة، `slice()` تنسخ أو *تستخرج* عدد معين من العناصر إلى قائمة جديدة، دون تغيير للقائمة التي استدعت عليها الوظيفة. تأخذ `slice()` وسيطين (parameters) فقط - يكون الأولى الترتيب الذي يبدأ عنده الاستخراج، ويكون الثاني الترتيب الذي يتم عنده إيقاف الاستخراج (سيحدث الاستخراج حتى الترتيب، ولكن لا يشمل العنصر نهاية الترتيب). ضع في اعتبارك هذا المثال:
+The next method we will cover is `slice()`. Rather than modifying an array, `slice()` copies or *extracts* a given number of elements to a new array, leaving the array it is called upon untouched. `slice()` takes only 2 parameters — the first is the index at which to begin extraction, and the second is the index at which to stop extraction (extraction will occur up to, but not including the element at this index). Consider this:
 
 ```js
 let weatherConditions = ['rain', 'snow', 'sleet', 'hail', 'clear'];

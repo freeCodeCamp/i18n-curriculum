@@ -9,7 +9,7 @@ dashedName: lock-an-element-to-its-parent-with-absolute-positioning
 
 # --description--
 
-Наступним варіантом для властивості CSS `position` є `absolute`, який замикає елемент на місці відносно його батьківського елемента. На відміну від положення `relative`, він видаляє елемент зі звичайного потоку документа, тож об'єкти навколо його ігнорують. Властивості зміщення CSS (вгору або вниз, ліворуч або праворуч) використовуються для налаштування розташування.
+The next option for the CSS `position` property is `absolute`, which locks the element in place relative to its parent container. Unlike the `relative` position, this removes the element from the normal flow of the document, so surrounding items ignore it. The CSS offset properties (top or bottom and left or right) are used to adjust the position.
 
 Один нюанс з абсолютною розстановкою полягає в тому, що він буде приєднаний до найближчого *positioned* родича. Якщо ви забудете додати правило розстановки до батьківського елемента (зазвичай це відбувається під час використання `position: relative;`), браузер продовжить шукати ланцюжок і за замовчуванням перемикатися на теґ `body`.
 

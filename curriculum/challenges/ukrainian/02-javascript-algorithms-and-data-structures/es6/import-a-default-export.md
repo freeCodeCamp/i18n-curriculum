@@ -8,7 +8,7 @@ dashedName: import-a-default-export
 
 # --description--
 
-У попередньому завданні ви дізнались про `export default` та його використання. Щоб імпортувати експорт за замовчуванням, потрібно використати інший синтаксис `import`. У наступному прикладі `add` є експортом за замовчуванням файлу `math_functions.js`. Як виконати імпорт:
+In the last challenge, you learned about `export default` and its uses. To import a default export, you need to use a different `import` syntax. In the following example, `add` is the default export of the `math_functions.js` file. Here is how to import it:
 
 ```js
 import add from "./math_functions.js";

@@ -9,7 +9,7 @@ dashedName: use-a-css-linear-gradient-to-create-a-striped-element
 
 # --description--
 
-Функція `repeating-linear-gradient()` дуже схожа на `linear-gradient()`. Головна різниця полягає в тому, що ця функція повторює вказаний градієнт шаблону. `repeating-linear-gradient()` набуває безлічі значень, але, щоб полегшити завдання, ви будете працювати зі значенням кута і значеннями стоп-кольору.
+The `repeating-linear-gradient()` function is very similar to `linear-gradient()` with the major difference that it repeats the specified gradient pattern. `repeating-linear-gradient()` accepts a variety of values, but for simplicity, you'll work with an angle value and color stop values in this challenge.
 
 Значення кута - це напрямок градієнта. Стоп-кольори або кольорові обмежувачі - схожі значення ширини, що позначають місце, де відбувається перехід, і вони подаються у відсотках або у кількості пікселів.
 

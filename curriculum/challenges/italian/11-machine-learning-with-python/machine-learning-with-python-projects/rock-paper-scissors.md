@@ -8,7 +8,7 @@ dashedName: rock-paper-scissors
 
 # --description--
 
-In questa sfida creerai un programma per giocare a carta, sasso, forbici. Un programma che sceglie a caso di solito vincerà il 50% delle volte. Per superare questa sfida il tuo programma deve giocare partite contro quattro diversi bot, vincendo almeno il 60% dei giochi in ogni partita.
+For this challenge, you will create a program to play Rock, Paper, Scissors. A program that picks at random will usually win 50% of the time. To pass this challenge your program must play matches against four different bots, winning at least 60% of the games in each match.
 
 You will be <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-rock-paper-scissors/" target="_blank" rel="noopener noreferrer nofollow">working on this project with our Gitpod starter code</a>.
 
@@ -24,7 +24,7 @@ Il file `RPS.py` mostra una funzione di esempio che devi aggiornare. La funzione
 
 *Suggerimento: per sconfiggere tutti e quattro gli avversari, il tuo programma potrebbe avere bisogno di diverse strategie che cambiano a seconda di come gli avversari giocano.*
 
-## Sviluppo
+## Development
 
 Non cambiare `RPS_game.py`. Scrivi tutto il tuo codice in `RPS.py`. Per lo sviluppo, puoi usare `main.py` per testare il tuo codice.
 
@@ -32,7 +32,7 @@ Non cambiare `RPS_game.py`. Scrivi tutto il tuo codice in `RPS.py`. Per lo svilu
 
 Per testare il tuo codice, fai una partita usando la funzione `play`. La funzione `play` prende quattro argomenti:
 
-- due giocatori per giocare uno contro l'altro (i giocatori sono in realtà delle funzioni)
+- two players to play against each other (the players are actually functions)
 - il numero di mani da giocare nella partita
 - un argomento opzionale per vedere la storia di ogni partita. Impostalo su `True` per vedere questi messaggi.
 
@@ -48,11 +48,11 @@ play(player, quincy, 1000, verbose=True)
 
 ## Test
 
-I test unitari per questo progetto sono in `test_module.py`. Abbiamo importato i test da `test_module.py` in `main.py` per tua comodità. If you uncomment the last line in `main.py`, the tests will run automatically whenever you run `python main.py` in the console.
+I test unitari per questo progetto sono in `test_module.py`. Abbiamo importato i test da `test_module.py` in `main.py` per tua convenienza. If you uncomment the last line in `main.py`, the tests will run automatically whenever you run `python main.py` in the console.
 
 ## Invio
 
-Copy your project's URL and submit it to freeCodeCamp.
+Copia l'URL del tuo progetto e consegnalo nell'input qua sotto.
 
 # --hints--
 

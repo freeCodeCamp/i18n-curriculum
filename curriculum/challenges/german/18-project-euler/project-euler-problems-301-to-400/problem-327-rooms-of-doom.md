@@ -1,6 +1,6 @@
 ---
 id: 5900f4b31000cf542c50ffc6
-title: 'Problem 327: Rooms of Doom'
+title: 'Problem 327: Räume des Verderbens'
 challengeType: 1
 forumTopicId: 301984
 dashedName: problem-327-rooms-of-doom
@@ -8,11 +8,11 @@ dashedName: problem-327-rooms-of-doom
 
 # --description--
 
-A series of three rooms are connected to each other by automatic doors.
+Eine Reihe von drei Räumen ist durch automatische Türen miteinander verbunden.
 
 <img alt="eine Reihe von drei Räumen, die durch automatische Türen miteinander verbunden sind" src="https://cdn.freecodecamp.org/curriculum/project-euler/rooms-of-doom.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-Each door is operated by a security card. Once you enter a room, the door automatically closes, and that security card cannot be used again. A machine will dispense an unlimited number of cards at the start, but each room (including the starting room) contains scanners. Wenn sie feststellen, dass du mehr als drei Sicherheitskarten bei dir hast, oder wenn sie eine unbeaufsichtigte Sicherheitskarte auf dem Boden entdecken, werden alle Türen dauerhaft verschlossen. Jeder Raum enthält jedoch ein Fach, in dem du eine beliebige Anzahl von Sicherheitskarten sicher aufbewahren kannst, um sie zu einem späteren Zeitpunkt zu verwenden.
+Jede Tür wird mit einer Sicherheitskarte bedient. Sobald du einen Raum betritts, schließt sich die Tür automatisch, und diese Sicherheitskarte kann nicht mehr verwendet werden. Ein Automat gibt zu Beginn eine unbegrenzte Anzahl von Karten aus, aber jeder Raum (einschließlich des Startraums) enthält Scanner. Wenn sie feststellen, dass du mehr als drei Sicherheitskarten bei dir hast, oder wenn sie eine unbeaufsichtigte Sicherheitskarte auf dem Boden entdecken, werden alle Türen dauerhaft verschlossen. Jeder Raum enthält jedoch ein Fach, in dem du eine beliebige Anzahl von Sicherheitskarten sicher aufbewahren kannst, um sie zu einem späteren Zeitpunkt zu verwenden.
 
 Wenn du einfach versucht hättest, die Räume nacheinander zu durchqueren, hättest du beim Betreten von Raum 3 alle drei Karten benutzt und wärst für immer in diesem Raum gefangen!
 
@@ -20,23 +20,23 @@ Wenn du jedoch die Aufbewahrungsboxen benutzt, ist eine Flucht möglich. Du kön
 
 Es ist möglich, sechs Räume mit insgesamt 123 Sicherheitskarten zu durchqueren, wobei maximal 3 Karten mitgeführt werden können.
 
-Let $C$ be the maximum number of cards which can be carried at any time.
+Sei $C$ die maximale Anzahl von Karten, die zu jeder Zeit mitgeführt werden können.
 
-Let $R$ be the number of rooms to travel through.
+Sei $R$ die Anzahl der zu durchlaufenden Räume.
 
-Let $M(C, R)$ be the minimum number of cards required from the dispensing machine to travel through $R$ rooms carrying up to a maximum of $C$ cards at any time.
+Sei $M(C, R)$ die minimale Anzahl von Karten, die vom Automaten benötigt werden, um durch $R$ Räume zu gelangen, in denen sich zu jedem Zeitpunkt maximal $C$ Karten befinden.
 
-For example, $M(3, 6) = 123$ and $M(4, 6) = 23$.
+Zum Beispiel $M(3, 6) = 123$ und $M(4, 6) = 23$.
 
-And, $\sum M(C, 6) = 146$ for $3 ≤ C ≤ 4$.
+Und, $\sum M(C, 6) = 146$ für $3 ≤ C ≤ 4$.
 
-You are given that $\sum M(C, 10) = 10382$ for $3 ≤ C ≤ 10$.
+Dir wird gegeben, dass $\sum M(C, 10) = 10382$ für $3 ≤ C ≤ 10$.
 
-Find $\sum M(C, 30)$ for $3 ≤ C ≤ 40$.
+Finde $\sum M(C, 30)$ für $3 ≤ C ≤ 40$.
 
 # --hints--
 
-`roomsOfDoom()` should return `34315549139516`.
+`roomsOfDoom()` sollte `34315549139516` zurückgeben.
 
 ```js
 assert.strictEqual(roomsOfDoom(), 34315549139516);

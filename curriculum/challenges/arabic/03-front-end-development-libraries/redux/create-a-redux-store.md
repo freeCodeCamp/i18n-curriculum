@@ -8,7 +8,7 @@ dashedName: create-a-redux-store
 
 # --description--
 
-Redux هو framework لإدارة الحالة (state) التي يمكن استخدامه مع عدد من تكنولوجيات الويب المختلفة، بما في ذلك React.
+Redux is a state management framework that can be used with a number of different web technologies, including React.
 
 في Redux، هناك كائن حالة (state object) واحد مسؤول عن حالة (state) تطبيقك بالكامل. هذا يعني إذا كان لديك تطبيق React يحتوي على عشرة مكونات (components)، ولكل مكون حالته (state) المحلية الخاصة به، سيتم تحديد حالة تطبيقك بالكامل من قبل كائن حالة (state object) وحيد موجود في `store` فى Redux. هذا هو أول مبدأ هام يمكن فهمه عند تعلم Redux: متجر Redux هو المصدر الوحيد للحقيقة (single source of truth) عندما يتعلق الأمر بحالة (state) التطبيق.
 

@@ -8,7 +8,7 @@ dashedName: add-items-using-splice
 
 # --description--
 
-지난 도전에서 언급하였듯이 `splice()`는 최대 세 개의 매개변수를 가질 수 있다는 것 기억하시나요? 사실, 배열에 요소를 추가하기 위해 세 번째 매개변수에 요소 하나 혹은 더 많은 요소를 넣을 수 있습니다. 이는 요소 하나 또는 일련의 요소를 빠르게 다른 것으로 바꾸는데 매우 유용할 수 있습니다.
+Remember in the last challenge we mentioned that `splice()` can take up to three parameters? Well, you can use the third parameter, comprised of one or more element(s), to add to the array. This can be incredibly useful for quickly switching out an element, or a set of elements, for another.
 
 ```js
 const numbers = [10, 11, 12, 12, 15];

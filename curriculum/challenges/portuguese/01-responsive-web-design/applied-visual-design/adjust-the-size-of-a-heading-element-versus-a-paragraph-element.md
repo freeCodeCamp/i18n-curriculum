@@ -9,7 +9,7 @@ dashedName: adjust-the-size-of-a-heading-element-versus-a-paragraph-element
 
 # --description--
 
-O tamanho da tipografia dos elementos de título (`h1` a `h6`) geralmente deve ser maior do que o tamanho da tipografia dos elementos de parágrafo. Isso torna mais fácil para o usuário entender visualmente o layout e o nível de importância de tudo na página. Você pode usar a propriedade `font-size` para ajustar o tamanho do texto de um elemento.
+The font size of heading elements (`h1` through `h6`) should generally be larger than the font size of paragraph tags. This makes it easier for the user to visually understand the layout and level of importance of everything on the page. You use the `font-size` property to adjust the size of the text in an element.
 
 # --instructions--
 

@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: python-lists
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-What is the value of x after running this code:
+Cuál es el valor de x después de ejecutar este código:
 
 ```python
 fruit = "banana"

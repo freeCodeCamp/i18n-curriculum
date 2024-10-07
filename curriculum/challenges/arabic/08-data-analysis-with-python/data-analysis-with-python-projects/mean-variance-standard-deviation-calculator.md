@@ -50,17 +50,17 @@ For example, `calculate([0,1,2,3,4,5,6,7,8])` should return:
 }
 ```
 
-## التطوير
+## Development
 
 Write your code in `mean_var_std.py`. For development, you can use `main.py` to test your code.
 
 ## الاختبار
 
-The unit tests for this project are in `test_module.py`. We imported the tests from `test_module.py` to `main.py` for your convenience.
+توجد اختبارات الوحدة أو ما يدعى unit tests لهذا المشروع في `test_module.py`. قمنا باستيراد الاختبارات من `test_module.py` إلى `main.py` من أجل تسهيل العملية لك.
 
 ## التقديم
 
-Copy your project's URL and submit it to freeCodeCamp.
+انسخ عنوان URL الخاص بمشروعك وأرسله إلى freeCodeCamp.
 
 # --hints--
 

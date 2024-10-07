@@ -8,7 +8,7 @@ dashedName: store-data-with-sass-variables
 
 # --description--
 
-Sass が CSS と異なる機能の一つは、変数の使用です。 これらは JavaScript と同様に宣言し、設定してデータを保存します。
+One feature of Sass that's different than CSS is it uses variables. They are declared and set to store data, similar to JavaScript.
 
 JavaScript では、変数は `let` キーワードと `const` キーワードを使用して定義します。 Sass では、変数は `$` で始まり、その後に変数名を付けます。
 

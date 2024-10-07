@@ -10,7 +10,7 @@ dashedName: how-convolutional-neural-networks-work
 
 ## --text--
 
-Quando as redes neurais convolucionais não são úteis?
+When are Convolutional Neural Networks not useful?
 
 ## --answers--
 

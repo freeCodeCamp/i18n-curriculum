@@ -8,7 +8,7 @@ dashedName: specify-upper-and-lower-number-of-matches
 
 # --description--
 
-Ricorda che puoi usare il segno più `+` per cercare uno o più caratteri e l'asterisco `*` per cercare zero o più caratteri. Questi sono utili, ma a volte si desidera riconoscere una certa gamma di pattern.
+Recall that you use the plus sign `+` to look for one or more characters and the asterisk `*` to look for zero or more characters. These are convenient but sometimes you want to match a certain range of patterns.
 
 È possibile specificare il numero inferiore e superiore di pattern con gli <dfn>specificatori di quantità</dfn>. Gli specificatori di quantità sono utilizzati con le parentesi graffe (`{` e `}`). Metterai due numeri tra le parentesi graffe - per il numero inferiore e superiore di pattern.
 

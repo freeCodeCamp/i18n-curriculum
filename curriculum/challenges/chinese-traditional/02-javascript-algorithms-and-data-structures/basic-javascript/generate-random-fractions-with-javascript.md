@@ -9,7 +9,7 @@ dashedName: generate-random-fractions-with-javascript
 
 # --description--
 
-隨機數非常適合用來創建隨機行爲。
+Random numbers are useful for creating random behavior.
 
 在 JavaScript 中，可以用 `Math.random()` 生成一個在`0`（包括 0）到 `1`（不包括 1）之間的隨機小數。 因此 `Math.random()` 可能返回 `0`，但絕不會返回 `1`。
 

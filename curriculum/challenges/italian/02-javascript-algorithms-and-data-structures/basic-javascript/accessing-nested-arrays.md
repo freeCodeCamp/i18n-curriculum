@@ -9,7 +9,7 @@ dashedName: accessing-nested-arrays
 
 # --description--
 
-Come abbiamo visto in precedenti esempi, gli oggetti possono contenere sia oggetti nidificati che array nidificati. Simile all'accesso agli oggetti nidificati, la notazione a parentesi dell'array può essere concatenata per accedere agli array nidificati.
+As we have seen in earlier examples, objects can contain both nested objects and nested arrays. Similar to accessing nested objects, array bracket notation can be chained to access nested arrays.
 
 Ecco un esempio di come accedere a un array nidificato:
 
@@ -41,7 +41,7 @@ ourPets[1].names[0];
 
 # --instructions--
 
-Using dot and bracket notation, set the variable `secondTree` to the second element in the `list` array from the second object in the `myPlants` array.
+Utilizzando la notazione dei punti e delle parentesi, imposta la variabile `secondTree` al secondo elemento dell'array `list` dal secondo oggetto dell'array `myPlants`.
 
 # --hints--
 

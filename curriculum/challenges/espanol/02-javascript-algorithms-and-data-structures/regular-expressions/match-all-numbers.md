@@ -8,7 +8,7 @@ dashedName: match-all-numbers
 
 # --description--
 
-Has aprendido atajos para patrones de cadenas comunes como los alfanuméricos. Otro patrón común es buscar solo dígitos o números.
+You've learned shortcuts for common string patterns like alphanumerics. Another common pattern is looking for just digits or numbers.
 
 El atajo para buscar caracteres de dígitos es `\d`, con una `d` minúscula. Esto es igual a la clase de caracteres `[0-9]`, la cual busca un solo carácter de cualquier número entre cero y nueve.
 
@@ -24,7 +24,7 @@ Tu expresión regular debe usar el carácter de atajo que coincida con caractere
 assert(/\\d/.test(numRegex.source));
 ```
 
-Tu expresión regular debe usar la bandera global.
+Tu expresión regular debe usar una bandera global.
 
 ```js
 assert(numRegex.global);

@@ -1,6 +1,6 @@
 ---
 id: 587d8251367417b2b2512c63
-title: Remove Elements from a Linked List
+title: 从链表中删除元素
 challengeType: 1
 forumTopicId: 301712
 dashedName: remove-elements-from-a-linked-list
@@ -10,21 +10,21 @@ dashedName: remove-elements-from-a-linked-list
 
 The next important method that any implementation of a linked list will need is a `remove` method. This method should take the element we want to remove as an argument, and then search the list to find and remove the node that contains that element.
 
-Whenever we remove a node from a linked list, it's important that we don't accidentally orphan the rest of the list in doing so. Recall that every node's `next` property points to the node that follows it in the list. If we're removing the middle element, say, we'll want to make sure that we have a connection from that element's previous node's `next` property to the middle element's `next` property (which is the next node in the list!)
+每当我们从链表中删除一个节点时，重要的是我们不要意外地孤立列表的其余部分。 回想一下，每个节点的`next`属性都指向列表中跟随它的节点。 如果我们删除中间元素，比如说，我们要确保我们从该元素的前一个节点的`next`属性到中间元素的`next`属性（这是列表中的下一个节点）的连接！
 
-This might sound really confusing, so let's return to the conga line example so we have a good conceptual model. Picture yourself in a conga line, and the person directly in front of you leaves the line. The person who just left the line no longer has her hands on anyone in line--and you no longer have your hands on the person that left. You step forward and put your hands on next person you see.
+这听起来可能非常混乱，所以让我们回到康加舞的例子，以便我们有一个好的概念模型。 想象一下你在一个康加线上，而你前面的人离开了队伍。 刚刚离开队伍的人不再对排队的人有手，而你也不再对离开的人有手。 你上前一步，把手放在你看到的下一个人身上。
 
-If the element we wish to remove is the `head` element, we reassign the `head` to the second node of the linked list.
+如果我们希望删除的元素是 `head` 元素，我们将 `head` 重新分配给链表的第二个节点。
 
 # --instructions--
 
-Write a `remove` method that takes an element and removes it from the linked list.
+编写一个 `remove` 方法，该方法接受一个元素并将其从链表中删除。
 
-**Note:** The `length` of the list should decrease by one every time an element is removed from the linked list.
+**注意：**每从链表中删除一个元素，链表的 `length` 就应该减 1。
 
 # --hints--
 
-Your `LinkedList` class should have a `remove` method.
+你的 `LinkedList` 类应该有一个 `remove` 方法。
 
 ```js
 assert(
@@ -35,7 +35,7 @@ assert(
 );
 ```
 
-Your `remove` method should reassign `head` to the second node when the first node is removed.
+当第一个节点被删除时，您的 `remove` 方法应该将 `head` 重新分配给第二个节点。
 
 ```js
 assert(
@@ -49,7 +49,7 @@ assert(
 );
 ```
 
-Your `remove` method should decrease the `length` of the linked list by one for every node removed.
+你的 `remove` 方法每移除一个节点，就应该将链表的 `length` 减少一个。
 
 ```js
 assert(
@@ -65,7 +65,7 @@ assert(
 );
 ```
 
-Your `remove` method should reassign the reference of the previous node of the removed node to the removed node's `next` reference.
+你的 `remove` 方法应该将被移除节点的前一个节点的引用重新分配给被移除节点的 `next` 引用。
 
 ```js
 assert(
@@ -81,7 +81,7 @@ assert(
 );
 ```
 
-Your `remove` method should not change the linked list if the element does not exist in the linked list.
+如果元素不存在于链表中，你的 `remove` 方法不应该改变链表。
 
 ```js
 assert(

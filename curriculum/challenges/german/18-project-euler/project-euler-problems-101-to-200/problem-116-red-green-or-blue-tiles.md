@@ -1,6 +1,6 @@
 ---
 id: 5900f3e01000cf542c50fef3
-title: 'Problem 116: Red, green or blue tiles'
+title: 'Problem 116: Rote, grüne oder blaue Steine'
 challengeType: 1
 forumTopicId: 301742
 dashedName: problem-116-red-green-or-blue-tiles

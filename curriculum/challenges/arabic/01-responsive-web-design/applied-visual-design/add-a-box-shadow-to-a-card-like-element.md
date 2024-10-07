@@ -1,6 +1,6 @@
 ---
 id: 587d781b367417b2b2512abe
-title: Add a box-shadow to a Card-like Element
+title: إضافة ظل إلى عنصر يشبه البطاقة
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cvVZdUd'
 forumTopicId: 301031
@@ -11,21 +11,21 @@ dashedName: add-a-box-shadow-to-a-card-like-element
 
 The `box-shadow` property applies one or more shadows to an element.
 
-The `box-shadow` property takes the following values, in order:
+خاصية `box-shadow` تأخذ القيم التالية، بالترتيب:
 
 <ul>
   <li><code>offset-x</code> (how far to push the shadow horizontally from the element)</li>
-  <li><code>offset-y</code> (how far to push the shadow vertically from the element)</li>
+  <li><code>offset-y</code> (إلى أي مدى يمكن تحريك الظل رأسيا من العنصر)،</li>
   <li><code>blur-radius</code></li>
   <li><code>spread-radius</code></li>
   <li><code>color</code></li>
 </ul>
 
-The `blur-radius` and `spread-radius` values are optional.
+قيم `blur-radius` و `spread-radius` اختيارية.
 
-Multiple box-shadows can be created by using commas to separate properties of each `box-shadow` element.
+يمكن إنشاء ظلال متعددة باستخدام فاصلة لفصل خصائص كل عنصر من `box-shadow`.
 
-Here's an example of the CSS to create multiple shadows with some blur, at mostly-transparent black colors:
+هنا مثال باستخدام CSS لإنشاء ظلال متعددة مع بعض الblur الأسود الشفاف:
 
 ```css
 box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
@@ -33,17 +33,17 @@ box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 
 # --instructions--
 
-The element now has an id of `thumbnail`. With this selector, use the example CSS values above to place a `box-shadow` on the card.
+هذا العنصر لديه الآن معرف من `thumbnail`. باستخدام هذا المعرف، استخدم مثال قيم CSS أعلاه لوضع `box-shadow` على البطاقة.
 
 # --hints--
 
-Your code should add a `box-shadow` property for the `thumbnail` id.
+يجب أن تضيف تعليماتك البرمجية خاصية `box-shadow` للمعرف `thumbnail`.
 
 ```js
 assert.match(code,(/#thumbnail\s*?{\s*?box-shadow/g));
 ```
 
-You should use the given CSS for the `box-shadow` value.
+يجب عليك استخدام CSS المعطى لقيمة `box-shadow`.
 
 ```js
 assert(

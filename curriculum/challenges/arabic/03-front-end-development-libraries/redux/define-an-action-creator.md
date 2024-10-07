@@ -8,7 +8,7 @@ dashedName: define-an-action-creator
 
 # --description--
 
-بعد إنشاء الإجراء، الخطوة التالية هي إرسال الإجراء إلى متجر Redux حتى يتمكن من تحديث حالته. في Redux، يمكنك تعريف منشئي (creators) الإجراء لتحقيق هذا. مُنشئ الإجراء هو ببساطة وظيفة JavaScript التي ترجع إجراء. بعبارة أخرى، يقوم منشئو العمل بإنشاء كائنات تمثل أحداث الإجراء.
+After creating an action, the next step is sending the action to the Redux store so it can update its state. In Redux, you define action creators to accomplish this. An action creator is simply a JavaScript function that returns an action. In other words, action creators create objects that represent action events.
 
 # --instructions--
 

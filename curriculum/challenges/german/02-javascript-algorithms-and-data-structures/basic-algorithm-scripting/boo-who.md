@@ -8,7 +8,7 @@ dashedName: boo-who
 
 # --description--
 
-Überprüfe, ob ein Wert als primitiver Boolean deklariert ist. Gib `true` (wahr) oder `false` (falsch) zurück.
+Check if a value is classified as a boolean primitive. Return `true` or `false`.
 
 Primitive boolesche Werte umfassen `true` und `false`.
 

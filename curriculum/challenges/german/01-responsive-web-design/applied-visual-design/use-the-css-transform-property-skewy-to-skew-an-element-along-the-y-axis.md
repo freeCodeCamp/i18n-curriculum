@@ -9,7 +9,7 @@ dashedName: use-the-css-transform-property-skewy-to-skew-an-element-along-the-y-
 
 # --description--
 
-Da die `skewX()`-Funktion ein ausgewähltes Element entlang der x-Achse um einen bestimmten Grad krümmt, überrascht es nicht, dass `skewY()` ein Element entlang der y-Achse verzerrt.
+Given that the `skewX()` function skews the selected element along the X-axis by a given degree, it is no surprise that the `skewY()` property skews an element along the Y (vertical) axis.
 
 # --instructions--
 

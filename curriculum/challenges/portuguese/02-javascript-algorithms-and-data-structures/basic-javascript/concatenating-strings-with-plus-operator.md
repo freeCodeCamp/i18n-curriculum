@@ -9,7 +9,7 @@ dashedName: concatenating-strings-with-plus-operator
 
 # --description--
 
-Em JavaScript, quando o operador `+` é usado com um valor de `String`, ele é chamado de operador de <dfn>concatenação</dfn>. Você pode criar uma nova string a partir de outras strings ao <dfn>concatenar</dfn> elas juntos.
+In JavaScript, when the `+` operator is used with a `String` value, it is called the <dfn>concatenation</dfn> operator. You can build a new string out of other strings by <dfn>concatenating</dfn> them together.
 
 **Exemplo**
 
@@ -38,7 +38,7 @@ Crie `myStr` a partir das strings `This is the start.` e `This is the end.` usan
 assert(/start\. This/.test(myStr));
 ```
 
-`myStr` deve ter como valor a string `This is the start. This is the end.`
+`myStr` deve ter o valor da string `This is the start. This is the end.`
 
 ```js
 assert(myStr === 'This is the start. This is the end.');

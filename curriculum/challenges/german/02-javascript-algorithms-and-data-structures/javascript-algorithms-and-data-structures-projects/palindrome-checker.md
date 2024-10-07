@@ -8,19 +8,19 @@ dashedName: palindrome-checker
 
 # --description--
 
-Gibt `true` zurück, wenn der angegebene String ein Palindrom ist. Gib ansonsten `false` zurück.
+Return `true` if the given string is a palindrome. Otherwise, return `false`.
 
-Ein <dfn>Palindrom</dfn> ist ein Wort oder ein Satz, der sowohl vorwärts als auch rückwärts gleich geschrieben wird, ohne Rücksicht auf Interpunktion, Groß- und Kleinschreibung.
+Ein <dfn>Palindrom</dfn> kann sowohl ein Wort als auch ein Satz sein, das sowohl vorwärts als auch rückwärts gelesen dasselbe Wort bzw. denselben Satz ergibt. Interpunktion, Leerzeichen sowie Groß- und Kleinschreibung ausgenommen.
 
-**Hinweis:** Du musst **alle nicht-alphanumerischen Zeichen** (Satzzeichen, Leerzeichen und Symbole) entfernen und alles in die gleiche Schreibweise (Klein- oder Großbuchstaben) umwandeln, um auf Palindrome zu prüfen.
+**Hinweis:** Entferne **alle nicht alphanumerischen Zeichen** (Interpunktion, Leerzeichen und Symbole) und setze alles in dieselbe Schreibweise (Klein- oder Großbuchstaben), um nach Palindromen zu filtern.
 
-Wir übergeben Strings mit unterschiedlichen Formaten, wie zum Beispiel `racecar`, `RaceCar`, und `race CAR`.
+Wir übergeben Strings mit unterschiedlichen Formaten, wie zum Beispiel `racecar`, `RaceCar` und `race CAR`.
 
-Wir werden auch Strings mit speziellen Symbolen übergeben, wie `2A3*3a2`, `2A3 3a2` und `2_A3*3#A2`.
+Auch Strings mit speziellen Symbolen wie `2A3*3a2`, `2A3 3a2` und `2_A3*3#A2` werden dir übergeben.
 
 # --hints--
 
-`palindrome("eye")` sollte einen booleschen Wert zurückgeben.
+`palindrome("eye")` sollte einen Boolean zurückgeben.
 
 ```js
 assert(typeof palindrome('eye') === 'boolean');
@@ -38,7 +38,7 @@ assert(palindrome('eye') === true);
 assert(palindrome('_eye') === true);
 ```
 
-`palindrome("race car")` sollte`true` zurückgeben.
+`palindrome("race car")` sollte `true` zurückgeben.
 
 ```js
 assert(palindrome('race car') === true);
@@ -50,31 +50,31 @@ assert(palindrome('race car') === true);
 assert(palindrome('not a palindrome') === false);
 ```
 
-`palindrome("A man, a plan, a canal. Panama")` sollte`true` zurückgeben.
+`palindrome("A man, a plan, a canal. Panama")` sollte `true` zurückgeben.
 
 ```js
 assert(palindrome('A man, a plan, a canal. Panama') === true);
 ```
 
-`palindrome("never odd or even")` sollte`true` zurückgeben.
+`palindrome("never odd or even")` sollte `true` zurückgeben.
 
 ```js
 assert(palindrome('never odd or even') === true);
 ```
 
-`palindrome("nope")` sollte`false` zurückgeben.
+`palindrome("nope")` sollte `false` zurückgeben.
 
 ```js
 assert(palindrome('nope') === false);
 ```
 
-`palindrome("almostomla")` sollte`false` zurückgeben.
+`palindrome("almostomla")` sollte `false` zurückgeben.
 
 ```js
 assert(palindrome('almostomla') === false);
 ```
 
-`palindrome("My age is 0, 0 si ega ym.")` sollte`true` zurückgeben.
+`palindrome("My age is 0, 0 si ega ym.")` sollte `true` zurückgeben.
 
 ```js
 assert(palindrome('My age is 0, 0 si ega ym.') === true);
@@ -86,13 +86,13 @@ assert(palindrome('My age is 0, 0 si ega ym.') === true);
 assert(palindrome('1 eye for of 1 eye.') === false);
 ```
 
-`palindrome("0_0 (: /-\ :) 0-0")` sollte`true` zurückgeben.
+`palindrome("0_0 (: /-\ :) 0-0")` sollte `true` zurückgeben.
 
 ```js
 assert(palindrome('0_0 (: /- :) 0-0') === true);
 ```
 
-`palindrome("five|\_/|four")` sollte`false` zurückgeben.
+`palindrome("five|\_/|four")` sollte `false` zurückgeben.
 
 ```js
 assert(palindrome('five|_/|four') === false);

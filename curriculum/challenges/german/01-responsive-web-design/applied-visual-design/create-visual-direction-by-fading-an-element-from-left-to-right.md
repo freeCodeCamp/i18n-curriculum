@@ -9,7 +9,7 @@ dashedName: create-visual-direction-by-fading-an-element-from-left-to-right
 
 # --description--
 
-Bei dieser Aufgabe änderst du die `opacity`-Eigenschaft (dt. Deckkraft) eines animierten Elements so, dass es allmählich ausgeblendet wird, während es sich der rechten Bildschirmseite nähert.
+For this challenge, you'll change the `opacity` of an animated element so it gradually fades as it reaches the right side of the screen.
 
 In der gezeigten Animation bewegt sich das runde Element mit dem Farbverlauf bis zur 50%-Marke der Animation nach rechts, entsprechend der `@keyframes`-Regel.
 

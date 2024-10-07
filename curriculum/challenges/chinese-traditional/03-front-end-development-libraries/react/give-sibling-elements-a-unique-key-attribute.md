@@ -8,7 +8,7 @@ dashedName: give-sibling-elements-a-unique-key-attribute
 
 # --description--
 
-上一個挑戰展示瞭如何使用 `map` 方法根據用戶輸入動態渲染多個元素。 然而，這個例子中缺少一個重要的部分。 創建元素數組時，每個元素都需要一個設置爲唯一值的 `key` 屬性。 React 使用這些鍵來跟蹤哪些項目被添加、更改或刪除。 這有助於在以任何方式修改列表時提高重新渲染過程的效率。
+The last challenge showed how the `map` method is used to dynamically render a number of elements based on user input. However, there was an important piece missing from that example. When you create an array of elements, each one needs a `key` attribute set to a unique value. React uses these keys to keep track of which items are added, changed, or removed. This helps make the re-rendering process more efficient when the list is modified in any way.
 
 **注意：** 鍵只需要在兄弟元素之間是唯一的，它們不需要在應用程序中是全局唯一的。
 

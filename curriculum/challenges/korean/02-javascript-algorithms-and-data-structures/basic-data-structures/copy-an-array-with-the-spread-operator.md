@@ -8,7 +8,7 @@ dashedName: copy-an-array-with-the-spread-operator
 
 # --description--
 
-`slice()`는 어떤 배열 요소를 복사할지 선택할 수 있게 해줄 수 있는 반면에, ES6로 할 수 있는 여러 가지 유용한 작업 중, 새로운 <dfn>전개(spread) 연산자</dfn>는 간단하고 읽기 쉬운 구문으로 배열의 *모든* 요소를 손쉽게 복사할 수 있게 해줍니다. 전개 구문은 다음과 같이 아주 간단합니다. `...`
+While `slice()` allows us to be selective about what elements of an array to copy, among several other useful tasks, ES6's new <dfn>spread operator</dfn> allows us to easily copy *all* of an array's elements, in order, with a simple and highly readable syntax. The spread syntax simply looks like this: `...`
 
 실제로 전개 연산자를 사용하여 다음과 같이 배열을 복사할 수 있습니다.
 

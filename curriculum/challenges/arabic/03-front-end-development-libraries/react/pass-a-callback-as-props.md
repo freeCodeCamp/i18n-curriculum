@@ -8,7 +8,7 @@ dashedName: pass-a-callback-as-props
 
 # --description--
 
-يمكنك تمرير `state` مثل مِيزة للمكونات الفرعية، ولكن لا تقتصر على تمرير البيانات. يمكنك أيضا تمرير وظائف المعالجين (handler functions) أو أي طريقة يتم تعريفها على مكون React لمكون الفرعي. هذه هي الطريقة التي تسمح بها لمكونات الفرعية للتفاعل مع مكوناتهم الأسلية. تمرير طرق الفرعي مثل مِيزة عادية. تم تعيين اسم ولديك حق الوصول إلى اسم هذه الطريقة تحت `this.props` في المكون الفرعي.
+You can pass `state` as props to child components, but you're not limited to passing data. You can also pass handler functions or any method that's defined on a React component to a child component. This is how you allow child components to interact with their parent components. You pass methods to a child just like a regular prop. It's assigned a name and you have access to that method name under `this.props` in the child component.
 
 # --instructions--
 

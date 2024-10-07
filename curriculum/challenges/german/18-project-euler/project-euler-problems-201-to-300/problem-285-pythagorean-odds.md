@@ -1,6 +1,6 @@
 ---
 id: 5900f48a1000cf542c50ff9c
-title: 'Problem 285: Pythagorean odds'
+title: 'Problem 285: Pythagoräische Quoten'
 challengeType: 1
 forumTopicId: 301936
 dashedName: problem-285-pythagorean-odds
@@ -8,19 +8,19 @@ dashedName: problem-285-pythagorean-odds
 
 # --description--
 
-Albert chooses a positive integer $k$, then two real numbers $a$, $b$ are randomly chosen in the interval [0,1] with uniform distribution.
+Albert wählt eine positive ganze Zahl $k$, dann werden zwei reelle Zahlen $a$, $b$ zufällig im Intervall [0,1] mit Gleichverteilung gewählt.
 
-The square root of the sum ${(ka + 1)}^2 + {(kb + 1)}^2$ is then computed and rounded to the nearest integer. If the result is equal to $k$, he scores $k$ points; otherwise he scores nothing.
+Anschließend wird die Quadratwurzel der Summe ${(ka + 1)}^2 + {(kb + 1)}^2$ berechnet und auf die nächste ganze Zahl gerundet. Wenn das Ergebnis gleich $k$ ist, erhält er $k$ Punkte, andernfalls geht er leer aus.
 
-For example, if $k = 6$, $a = 0.2$ and $b = 0.85$, then ${(ka + 1)}^2 + {(kb + 1)}^2 = 42.05$. The square root of 42.05 is 6.484... and when rounded to the nearest integer, it becomes 6. This is equal to $k$, so he scores 6 points.
+Wenn z. B. $k = 6$, $a = 0.2$ und $b = 0.85$, dann ${(ka + 1)}^2 + {(kb + 1)}^2 = 42.05$. Die Quadratwurzel aus 42,05 ist 6,484... und auf die nächste ganze Zahl gerundet ergibt 6. Dies ist gleich $k$, sodass er 6 Punkte erhält.
 
-It can be shown that if he plays 10 turns with $k = 1, k = 2, \ldots, k = 10$, the expected value of his total score, rounded to five decimal places, is 10.20914.
+Es kann gezeigt werden, dass, wenn er 10 Züge mit $k = 1, k = 2, \ldots, k = 10$ spielt, der Erwartungswert seiner Gesamtpunktzahl, gerundet auf fünf Dezimalstellen, 10,20914 beträgt.
 
-If he plays ${10}^5$ turns with $k = 1, k = 2, k = 3, \ldots, k = {10}^5$, what is the expected value of his total score, rounded to five decimal places?
+Wenn er ${10}^5$ Züge mit $k = 1, k = 2, k = 3, \ldots, k = {10}^5$ spielt, was ist der Erwartungswert seiner Gesamtpunktzahl, gerundet auf fünf Dezimalstellen?
 
 # --hints--
 
-`pythagoreanOdds()` should return `157055.80999`.
+`pythagoreanOdds()` sollte `157055.80999` zurückgeben.
 
 ```js
 assert.strictEqual(pythagoreanOdds(), 157055.80999);

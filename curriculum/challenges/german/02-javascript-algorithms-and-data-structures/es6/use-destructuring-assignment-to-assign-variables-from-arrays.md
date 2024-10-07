@@ -8,7 +8,7 @@ dashedName: use-destructuring-assignment-to-assign-variables-from-arrays
 
 # --description--
 
-ES6 macht die Destrukturierung von Arrays so einfach wie die Destrukturierung von Objekten.
+ES6 makes destructuring arrays as easy as destructuring objects.
 
 Ein wesentlicher Unterschied zwischen dem Spread-Operator und der Array-Destrukturierung ist, dass der Spread-Operator alle Inhalte eines Arrays in eine kommagetrennte Liste auspackt. Du kannst also nicht auswählen, welche Elemente du den Variablen zuweisen möchtest.
 

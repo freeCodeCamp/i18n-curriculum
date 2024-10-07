@@ -8,7 +8,7 @@ dashedName: create-a-bootstrap-button
 
 # --description--
 
-Bootstrap hat seine eigenen Stile für `button` Elemente, die viel besser aussehen als die reinen HTML-Elemente.
+Bootstrap has its own styles for `button` elements, which look much better than the plain HTML ones.
 
 Erstelle ein neues `button` Element unter einem großen Katzenfoto. Gib ihm die `btn` und `btn-default` Klassen, sowie den Text `Like`.
 
@@ -28,7 +28,7 @@ assert.isTrue(document.querySelector('button')?.classList?.contains('btn') )
 assert.isTrue(document.querySelector('button')?.classList?.contains('btn-default'));
 ```
 
-All deine `button` Elemente sollten abschließende Tags haben.
+All deine `button`-Elemente sollten abschließende Tags enthalten.
 
 ```js
 assert.match(code,/<\/button>/g);

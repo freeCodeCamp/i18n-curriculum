@@ -8,7 +8,7 @@ dashedName: use-const-for-action-types
 
 # --description--
 
-Una práctica común cuando se trabaja con Redux es asignar tipos de acción como constantes de sólo lectura, y luego hacer referencia a estas constantes dondequiera que se utilicen. Puedes refactorizar el código con el que estás trabajando para escribir los tipos de acción como declaraciones `const`.
+A common practice when working with Redux is to assign action types as read-only constants, then reference these constants wherever they are used. You can refactor the code you're working with to write the action types as `const` declarations.
 
 # --instructions--
 

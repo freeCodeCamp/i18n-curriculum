@@ -9,7 +9,7 @@ dashedName: understand-string-immutability
 
 # --description--
 
-Значення рядка (`String`) у JavaScript є <dfn>незмінним</dfn>, тобто його не можна змінити після створення.
+In JavaScript, `String` values are <dfn>immutable</dfn>, which means that they cannot be altered once created.
 
 Наприклад, наступний код спричинить помилку, оскільки літеру `B` у рядку `Bob` не можна змінити на літеру `J`:
 

@@ -9,7 +9,7 @@ dashedName: comparisons-with-the-logical-and-operator
 
 # --description--
 
-有时你需要在一次判断中做多个操作。 当且仅当<dfn>运算符</dfn>的左边和右边都是 true，<dfn>逻辑与</dfn>运算符（`&&`）才会返回 `true`。
+Sometimes you will need to test more than one thing at a time. The <dfn>logical and</dfn> operator (`&&`) returns `true` if and only if the <dfn>operands</dfn> to the left and right of it are true.
 
 可以通过在一个 `if` 语句中嵌套另一个 `if` 语句来实现同样的效果。
 

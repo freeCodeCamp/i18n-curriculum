@@ -8,7 +8,7 @@ dashedName: smallest-common-multiple
 
 # --description--
 
-اعثر عن أصغر مضاعف مشترك للوسائط (parameters) المتوفرة التي يمكن تقسيمها بالتساوي على كليهما، وكذلك على جميع الأرقام المتسلسلة في النطاق بين هذه الوسائط.
+Find the smallest common multiple of the provided parameters that can be evenly divided by both, as well as by all sequential numbers in the range between these parameters.
 
 سيكون النطاق عبارة عن مصفوفة من رقمين لن يكونا بالضرورة بالترتيب العددي.
 

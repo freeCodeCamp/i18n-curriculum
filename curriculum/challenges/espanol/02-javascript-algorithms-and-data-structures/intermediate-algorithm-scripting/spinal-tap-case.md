@@ -8,7 +8,7 @@ dashedName: spinal-tap-case
 
 # --description--
 
-Convierte una cadena a spinal case. Spinal case significa todas-las-palabras-en-minúscula-unidas-por-guiones.
+Convert a string to spinal case. Spinal case is all-lowercase-words-joined-by-dashes.
 
 # --hints--
 

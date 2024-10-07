@@ -8,7 +8,7 @@ dashedName: match-ending-string-patterns
 
 # --description--
 
-Nell'ultima sfida, hai imparato a usare il carattere del cursore per cercare pattern all'inizio delle stringhe. C'è anche un modo per cercare i pattern alla fine delle stringhe.
+In the last challenge, you learned to use the caret character to search for patterns at the beginning of strings. There is also a way to search for patterns at the end of strings.
 
 È possibile cercare la fine delle stringhe utilizzando il carattere dollaro `$` alla fine dell'espressione regolare.
 

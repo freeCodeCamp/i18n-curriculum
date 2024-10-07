@@ -9,7 +9,7 @@ dashedName: word-blanks
 
 # --description--
 
-Ti vengono date delle frasi con delle parole mancanti, come nomi, verbi, aggettivi e avverbi. Devi quindi riempire le parti mancanti con parole a tua scelta in modo che la frase completata abbia senso.
+You are provided sentences with some missing words, like nouns, verbs, adjectives and adverbs. You then fill in the missing pieces with words of your choice in a way that the completed sentence makes sense.
 
 Considera questa frase:
 

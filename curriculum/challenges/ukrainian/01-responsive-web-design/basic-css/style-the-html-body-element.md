@@ -9,7 +9,7 @@ dashedName: style-the-html-body-element
 
 # --description--
 
-Тепер давайте розпочнемо знову і поговоримо про наслідування CSS.
+Now let's start fresh and talk about CSS inheritance.
 
 Кожна сторінка HTML містить елемент `body`.
 
@@ -27,7 +27,7 @@ body {
 
 # --hints--
 
-Елемент `body` повинен мати чорний фоновий колір `background-color`.
+Елемент `body` повинен мати чорний `background-color`.
 
 ```js
 assert($('body').css('background-color') === 'rgb(0, 0, 0)');

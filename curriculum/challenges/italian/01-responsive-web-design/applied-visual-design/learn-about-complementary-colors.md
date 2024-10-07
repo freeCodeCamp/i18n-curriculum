@@ -9,7 +9,7 @@ dashedName: learn-about-complementary-colors
 
 # --description--
 
-La teoria del colore e il suo impatto sul design sono un argomento vasto e nelle seguenti sfide ne vedremo solo le basi. In un sito web, il colore può attirare l'attenzione sul contenuto, evocare emozioni o creare armonia visiva. Usando diverse combinazioni di colori si può davvero cambiare l'aspetto di un sito web, e devi pensare bene alla scelta di una tavolozza di colori che sia adatta al tuo contenuto.
+Color theory and its impact on design is a deep topic and only the basics are covered in the following challenges. On a website, color can draw attention to content, evoke emotions, or create visual harmony. Using different combinations of colors can really change the look of a website, and a lot of thought can go into picking a color palette that works with your content.
 
 La ruota del colore è uno strumento utile per visualizzare come i colori si relazionano tra loro - è un cerchio in cui le tonalità simili sono vicine e le tonalità diverse sono più lontane. Quando due colori sono opposti sulla ruota, sono chiamati colori complementari. Essi hanno la caratteristica che se sono combinati, si "annullano" l'un l'altro e creano un colore grigio. Tuttavia, quando posizionati fianco a fianco, questi colori appaiono più vibranti e producono un forte contrasto visivo.
 

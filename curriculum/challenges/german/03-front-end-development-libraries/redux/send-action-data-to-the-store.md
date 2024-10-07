@@ -8,7 +8,7 @@ dashedName: send-action-data-to-the-store
 
 # --description--
 
-Inzwischen hast du gelernt, wie man Aktionen an den Redux-Store sendet, aber bis jetzt haben diese Aktionen keine anderen Informationen als einen `type` enthalten. Du kannst auch bestimmte Daten zusammen mit deinen Aktionen senden. Das ist sogar sehr häufig der Fall, da Aktionen in der Regel auf eine Benutzerinteraktion zurückgehen und einige Daten mit sich bringen. Der Redux-Store muss oft über diese Daten Bescheid wissen.
+By now you've learned how to dispatch actions to the Redux store, but so far these actions have not contained any information other than a `type`. You can also send specific data along with your actions. In fact, this is very common because actions usually originate from some user interaction and tend to carry some data with them. The Redux store often needs to know about this data.
 
 # --instructions--
 

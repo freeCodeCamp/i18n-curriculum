@@ -9,7 +9,7 @@ dashedName: adjust-the-hue-of-a-color
 
 # --description--
 
-顏色具有多種特性，包括色相、飽和度和亮度。 CSS3 引入了`hsl()`函數，作爲直接說明這些特徵來挑選顏色的替代方法。
+Colors have several characteristics including hue, saturation, and lightness. CSS3 introduced the `hsl()` function as an alternative way to pick a color by directly stating these characteristics.
 
 **色相** 是色彩的基本屬性，就是平常所說的顏色名稱，如紅色、黃色等。 以顏色光譜爲例，光譜左邊從紅色開始，移動到中間的綠色，一直到右邊的藍色，色相值就是沿着這條線的取值。 在 `hsl()` 裏面，色相用色環來代替光譜，色相值就是色環裏面的顏色對應的從 0 到 360 度的角度值。
 
@@ -19,7 +19,7 @@ dashedName: adjust-the-hue-of-a-color
 
 下面是一些使用 `hsl()` 描述顏色的例子，顏色都爲滿飽和度，中等亮度:
 
-<table><thead><tr><th>顏色</th><th>HSL</th></tr></thead><tbody><tr><td>紅</td><td>hsl(0, 100%, 50%)</td></tr><tr><td>黃</td><td>hsl(60, 100%, 50%)</td></tr><tr><td>綠</td><td>hsl(120, 100%, 50%)</td></tr><tr><td>藍綠</td><td>hsl(180, 100%, 50%)</td></tr><tr><td>藍</td><td>hsl(240, 100%, 50%)</td></tr><tr><td>品紅</td><td>hsl(300, 100%, 50%)</td></tr></tbody></table>
+<table><thead><tr><th>Color</th><th>HSL</th></tr></thead><tbody><tr><td>red</td><td>hsl(0, 100%, 50%)</td></tr><tr><td>yellow</td><td>hsl(60, 100%, 50%)</td></tr><tr><td>green</td><td>hsl(120, 100%, 50%)</td></tr><tr><td>cyan</td><td>hsl(180, 100%, 50%)</td></tr><tr><td>blue</td><td>hsl(240, 100%, 50%)</td></tr><tr><td>magenta</td><td>hsl(300, 100%, 50%)</td></tr></tbody></table>
 
 # --instructions--
 

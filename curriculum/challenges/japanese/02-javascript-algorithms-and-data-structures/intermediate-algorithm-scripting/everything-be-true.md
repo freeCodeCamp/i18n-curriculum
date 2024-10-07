@@ -8,7 +8,7 @@ dashedName: everything-be-true
 
 # --description--
 
-コレクションのすべての要素 (最初の引数) について述語 (2 番目の引数) が <dfn>truthy</dfn> (真値) かどうかを確認します。
+Check if the predicate (second argument) is <dfn>truthy</dfn> on all elements of a collection (first argument).
 
 言い換えれば、まず、オブジェクトの配列のコレクションが与えられます。 述語 `pre` はオブジェクトのプロパティになり、値が `truthy` の場合は `true` を返す必要があり、 それ以外の場合は `false` を返す必要があります。
 

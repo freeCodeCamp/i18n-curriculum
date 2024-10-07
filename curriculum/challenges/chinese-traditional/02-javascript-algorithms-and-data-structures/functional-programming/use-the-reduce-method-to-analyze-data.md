@@ -8,7 +8,7 @@ dashedName: use-the-reduce-method-to-analyze-data
 
 # --description--
 
-`reduce()`（即`Array.prototype.reduce()`），是 JavaScript 所有數組操作中最常用的方法。 幾乎可以用`reduce`方法解決所有數組處理問題。
+`Array.prototype.reduce()`, or simply `reduce()`, is the most general of all array operations in JavaScript. You can solve almost any array processing problem using the `reduce` method.
 
 `reduce` 方法是處理數組更通用的方式，而且 `filter` 和 `map` 方法都可以當作是 `reduce` 的特殊實現。 `reduce` 方法遍歷數組中的每個項目並返回單個值（即字符串、數字、對象、數組）。 這是通過在每次迭代中調用一個回調函數來實現的。
 

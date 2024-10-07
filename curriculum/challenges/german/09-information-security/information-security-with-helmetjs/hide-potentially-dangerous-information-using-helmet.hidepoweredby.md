@@ -14,7 +14,7 @@ Hacker können bekannte Schwachstellen in Express/Node ausnutzen, wenn sie sehen
 
 # --hints--
 
-helmet.hidePoweredBy() middleware should be mounted correctly
+helmet.hidePoweredBy() Middleware sollte korrekt eingebunden werden
 
 ```js
 (getUserInput) =>

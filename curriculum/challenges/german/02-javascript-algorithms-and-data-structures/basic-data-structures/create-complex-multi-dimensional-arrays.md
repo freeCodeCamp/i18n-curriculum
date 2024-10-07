@@ -8,7 +8,7 @@ dashedName: create-complex-multi-dimensional-arrays
 
 # --description--
 
-Großartig! Du hast gerade eine Menge über Arrays gelernt! Das war ein relativ großer Überblick, und es gibt viel mehr über die Arbeit mit Arrays zu lernen, vieles, was wir uns in späteren Abschnitten ansehen werden. Bevor wir uns aber mit <dfn>Objects</dfn> beschäftigen, schauen wir uns noch einmal an, wie Arrays etwas komplexer als in den bisherigen Aufgaben werden können.
+Awesome! You have just learned a ton about arrays! This has been a fairly high level overview, and there is plenty more to learn about working with arrays, much of which you will see in later sections. But before moving on to looking at <dfn>Objects</dfn>, let's take one more look, and see how arrays can become a bit more complex than what we have seen in previous challenges.
 
 Eines der mächtigsten Merkmale bei der Betrachtung von Arrays als Datastrukturen, ist, dass Arrays andere Arrays enthalten oder sogar komplett aus anderen bestehen können. Wir haben bereits in bisherigen Aufgaben Arrays gesehen, die selbst Arrays enthalten – aber nur recht einfache. Arrays können jedoch eine unendliche Tiefe von Arrays enthalten, die wiederum andere Arrays enthalten können, jeweils mit einer bestimmten Tiefe, und so weiter. Auf diese Weise kann ein Array sehr schnell zu einer sehr komplexen Datenstruktur werden, die als <dfn>multi-dimensional</dfn> oder verschachteltes Array bekannt ist. Beachte das folgende Beispiel:
 

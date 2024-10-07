@@ -9,7 +9,7 @@ dashedName: link-to-internal-sections-of-a-page-with-anchor-elements
 
 # --description--
 
-`a` (*anchor, 앵커*) 요소를 이용하여 웹페이지 내의 다른 섹션으로 이동하는 내부 링크를 생성할 수도 있습니다.
+`a` (*anchor*) elements can also be used to create internal links to jump to different sections within a webpage.
 
 내부 링크를 생성하려면 링크의 `href` 속성에 해쉬 기호 `#` 와 연결하고 싶은 요소 (보통 멀리 떨어져 있는) 의 `id` 속성를 지정해야 합니다. 그런 다음 연결하려는 요소에 동일한 `id` 속성을 추가해야 합니다. `id`는 요소를 묘사하는 속성입니다.
 

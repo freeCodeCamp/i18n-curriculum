@@ -9,7 +9,7 @@ dashedName: create-flexible-layouts-using-auto-fill
 
 # --description--
 
-repeat 方法带有一个名为<dfn>自动填充（auto-fill）</dfn>的功能。 它的功能是根据容器的大小，尽可能多地放入指定大小的行或列。 你可以通过结合 `auto-fill` 和 `minmax` 来更灵活地布局。
+The repeat function comes with an option called <dfn>auto-fill</dfn>. This allows you to automatically insert as many rows or columns of your desired size as possible depending on the size of the container. You can create flexible layouts when combining `auto-fill` with `minmax`, like this:
 
 ```css
 repeat(auto-fill, minmax(60px, 1fr));

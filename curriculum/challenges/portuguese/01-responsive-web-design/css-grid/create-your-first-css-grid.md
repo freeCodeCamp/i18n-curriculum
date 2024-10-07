@@ -9,7 +9,7 @@ dashedName: create-your-first-css-grid
 
 # --description--
 
-Transforme qualquer elemento HTML em um grid container, definindo sua propriedade `display` com o valor de `grid`. Isso permite que você use todas as outras propriedades associadas ao CSS Grid.
+Turn any HTML element into a grid container by setting its `display` property to `grid`. This gives you the ability to use all the other properties associated with CSS Grid.
 
 **Observação:** no CSS Grid, o elemento pai é conhecido como <dfn>contêiner</dfn> (grid container, no inglês) e seus filhos são chamados de <dfn>itens</dfn> (grid items, no inglês).
 

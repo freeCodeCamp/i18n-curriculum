@@ -8,7 +8,7 @@ dashedName: rock-paper-scissors
 
 # --description--
 
-Neste desafio, você vai criar um programa para jogar Pedra, papel e tesoura. Um programa com decisões aleatórias tem uma taxa de vitória média de 50%. Para passar no desafio, seu programa vai enfrentar quatro robôs diferentes e deve vencer pelo menos 60% dos jogos contra cada um.
+For this challenge, you will create a program to play Rock, Paper, Scissors. A program that picks at random will usually win 50% of the time. To pass this challenge your program must play matches against four different bots, winning at least 60% of the games in each match.
 
 Você <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-rock-paper-scissors/" target="_blank" rel="noopener noreferrer nofollow">trabalhará nesse projeto com o nosso código inicial do Gitpod </a>.
 
@@ -24,7 +24,7 @@ O arquivo `RPS.py` mostra uma função de exemplo que você precisará atualizar
 
 *Dica: para derrotar os quatro oponentes, seu programa pode precisar ter múltiplas estratégias que mudam dependendo das jogadas do adversário.*
 
-## Desenvolvimento
+## Development
 
 Não modifique `RPS_game.py`. Escreva todo o seu código em `RPS.py`. Para o desenvolvimento, você pode usar `main.py` para testar seu código.
 
@@ -32,7 +32,7 @@ Não modifique `RPS_game.py`. Escreva todo o seu código em `RPS.py`. Para o des
 
 Para testar seu código, jogue um jogo com a função `play`. A função `play` recebe quatro argumentos:
 
-- dois jogadores para jogar um contra o outro (os jogadores são de fato funções)
+- two players to play against each other (the players are actually functions)
 - o número de jogos a serem jogados na partida
 - um argumento opcional para ver um registro de cada jogo. Defina-o como `True` para ver estas mensagens.
 

@@ -8,7 +8,7 @@ dashedName: expand-your-project-with-external-packages-from-npm
 
 # --description--
 
-强大的依赖管理特性是使用包管理器的最大原因之一。 每当在新的计算机上开始一个项目时，无需手动，npm 会自动安装所有的依赖项。 但是 npm 如何准确地知道项目需要哪些依赖呢？ 来看看 package.json 文件中 `dependencies` 这一部分。
+One of the biggest reasons to use a package manager, is their powerful dependency management. Instead of manually having to make sure that you get all dependencies whenever you set up a project on a new computer, npm automatically installs everything for you. But how can npm know exactly what your project needs? Meet the `dependencies` section of your package.json file.
 
 在这部分，你的项目需要按照下面这种格式来存储依赖包：
 

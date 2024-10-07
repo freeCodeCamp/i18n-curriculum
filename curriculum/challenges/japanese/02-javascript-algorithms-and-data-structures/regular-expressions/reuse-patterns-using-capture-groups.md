@@ -8,7 +8,7 @@ dashedName: reuse-patterns-using-capture-groups
 
 # --description--
 
-次のように複数回出現する単語にマッチさせたいとします。
+Say you want to match a word that occurs multiple times like below.
 
 ```js
 let repeatStr = "row row row your boat";
@@ -96,14 +96,14 @@ reRegex.lastIndex = 0;
 assert(reRegex.test('10 10 10'));
 ```
 
-Your regex should not match the string `42\t42\t42`.
+正規表現は、文字列 `42\t42\t42` と一致しないでください。
 
 ```js
 reRegex.lastIndex = 0;
 assert(!reRegex.test('42\t42\t42'));
 ```
 
-Your regex should not match the string `42  42  42`.
+正規表現は、 `42  42  42`の文字列と一致しないでしょう。
 
 ```js
 reRegex.lastIndex = 0;

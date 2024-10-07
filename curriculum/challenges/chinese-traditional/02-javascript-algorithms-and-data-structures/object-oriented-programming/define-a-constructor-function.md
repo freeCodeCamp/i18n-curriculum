@@ -8,7 +8,7 @@ dashedName: define-a-constructor-function
 
 # --description--
 
-<dfn>構造函數</dfn>是創建對象的函數。 函數給這個新對象定義屬性和行爲。 可將它們視爲創建的新對象的藍圖。
+<dfn>Constructors</dfn> are functions that create new objects. They define properties and behaviors that will belong to the new object. Think of them as a blueprint for the creation of new objects.
 
 以下就是一個構造函數的示例：
 
@@ -22,7 +22,7 @@ function Bird() {
 
 這個構造函數定義了一個 `Bird` 對象，其屬性 `name`、`color` 和 `numLegs` 的值分別被設置爲 Albert、blue 和 2。 構造函數遵循一些慣例規則：
 
-<ul><li>構造函數函數名的首字母大寫，這是爲了方便我們區分構造函數（ <code>constructors</code>）和其他非構造函數。</li><li>構造函數使用 <code>this</code> 關鍵字來給它將創建的這個對象設置新的屬性。 在構造函數裏面，<code>this</code> 指向的就是它新創建的這個對象。</li><li>構造函數定義了屬性和行爲就可創建對象，而不是像其他函數一樣需要設置返回值。</li></ul>
+<ul><li>Constructors are defined with a capitalized name to distinguish them from other functions that are not <code>constructors</code>.</li><li>構造函數使用 <code>this</code> 關鍵字來給它將創建的這個對象設置新的屬性。 在構造函數裏面，<code>this</code> 指向的就是它新創建的這個對象。</li><li>構造函數定義了屬性和行爲就可創建對象，而不是像其他函數一樣需要設置返回值。</li></ul>
 
 # --instructions--
 

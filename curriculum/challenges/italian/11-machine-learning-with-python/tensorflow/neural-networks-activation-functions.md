@@ -14,7 +14,7 @@ dashedName: neural-networks-activation-functions
 
 ## --text--
 
-Quale funzione di attivazione strizza i valori tra -1 e 1?
+Which activation function squishes values between -1 and 1?
 
 ## --answers--
 

@@ -8,7 +8,7 @@ dashedName: access-property-names-with-bracket-notation
 
 # --description--
 
-最初のオブジェクトのチャレンジでは、ブラケット記法の用法として、変数の評価を使用してプロパティ値にアクセスする方法について説明しました。 たとえば、スーパーマーケットのレジのプログラムで `foods` オブジェクトが使用されているとしましょう。 `selectedFood` を設定する関数があり、`foods` オブジェクトをチェックして、その食品の有無を確認したいとします。 これは、以下のようになります。
+In the first object challenge we mentioned the use of bracket notation as a way to access property values using the evaluation of a variable. For instance, imagine that our `foods` object is being used in a program for a supermarket cash register. We have some function that sets the `selectedFood` and we want to check our `foods` object for the presence of that food. This might look like:
 
 ```js
 let selectedFood = getCurrentFood(scannedItem);

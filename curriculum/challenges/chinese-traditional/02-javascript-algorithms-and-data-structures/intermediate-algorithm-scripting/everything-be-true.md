@@ -8,7 +8,7 @@ dashedName: everything-be-true
 
 # --description--
 
-檢查謂詞（第二個參數）在集合（第一個參數）的所有元素是否爲 <dfn>truthy</dfn>。
+Check if the predicate (second argument) is <dfn>truthy</dfn> on all elements of a collection (first argument).
 
 換句話說，你將獲得一個對象的數組集合。 如果數組中的每個對象裏，`pre` 對應屬性值均爲 `truthy`，則返回 `true`。 否則，返回 `false` 。
 

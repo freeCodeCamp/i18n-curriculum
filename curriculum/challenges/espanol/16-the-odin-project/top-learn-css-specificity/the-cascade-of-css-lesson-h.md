@@ -25,7 +25,7 @@ Realmente simple, en realidad. Cualquiera que sea la regla que se definió al fi
 
 Para un elemento que tiene tanto la clase `alert` como la clase `warning`, la cascada pasaría por todos los demás factores, incluyendo la herencia (ninguna aquí) y especificidad (ninguna regla es más específica que la otra). Dado que la regla `.warning` fue la última definida, y ningún otro factor pudo determinar qué regla aplicar, es la que se aplica al elemento.
 
-# --questions--
+# --preguntas----preguntas--
 ## --text--
 
 ¿Qué determina qué regla CSS se aplica cuando hay reglas en conflicto dirigidas al mismo elemento?

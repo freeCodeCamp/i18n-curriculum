@@ -8,7 +8,7 @@ dashedName: caesars-cipher
 
 # --description--
 
-恺撒密码（ <dfn>Caesar cipher</dfn>）是最简单且最广为人知的密码（<dfn>ciphers</dfn>），也被称为移位密码（<dfn>shift cipher</dfn>）。 在移位密码中，明文中的字母通过按照一个固定数目进行偏移后被替换成新的字母。
+One of the simplest and most widely known <dfn>ciphers</dfn> is a <dfn>Caesar cipher</dfn>, also known as a <dfn>shift cipher</dfn>. In a shift cipher the meanings of the letters are shifted by some set amount.
 
 现代最常被应用到的一个变种就是 <a href="https://www.freecodecamp.org/news/how-to-code-the-caesar-cipher-an-introduction-to-basic-encryption-3bf77b4e19f7/" target="_blank" rel="noopener noreferrer nofollow">ROT13</a> 加密，也就是明文中的字母向后移 13 位。 也就是， `A ↔ N`，`B ↔ O` 等等。
 

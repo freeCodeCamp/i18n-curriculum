@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aeda08726
-title: Delete Your jQuery Functions
+title: jQuery 함수 지우기
 challengeType: 6
 forumTopicId: 17561
 required:
@@ -13,35 +13,35 @@ dashedName: delete-your-jquery-functions
 
 These animations were cool at first, but now they're getting kind of distracting.
 
-Delete all three of these jQuery functions from your `document ready function`, but leave your `document ready function` itself intact.
+`document ready function`, 에서 이 세 가지 jQuery 함수를 모두 삭제하되, `document ready function`, 자체는 그대로 유지하시오.
 
 # --hints--
 
-All three of your jQuery functions should be deleted from your `document ready function`.
+이 세 jQuery 함수는 `document ready function`로부터 삭제되어야 합니다.
 
 ```js
 assert(code.match(/\{\s*\}\);/g));
 ```
 
-You should leave your `script` element intact.
+`script` 요소는 그대로 유지해야 합니다.
 
 ```js
 assert(code.match(/<script>/g));
 ```
 
-You should leave your `$(document).ready(function() {` at the beginning of your `script` element.
+`script` 요소의 시작에 `$(document).ready(function() {`를 두어야 합니다.
 
 ```js
 assert(code.match(/\$\(document\)\.ready\(function\(\)\s?\{/g));
 ```
 
-You should leave the `document.ready` function's closing `})` intact.
+`document.ready` function's closing `})`는 그대로 유지해야 합니다.
 
 ```js
 assert(code.match(/.*\s*\}\);/g));
 ```
 
-You should leave your `script` element closing tag intact.
+`script` 요소의 닫는 태그를 그대로 유지해야 합니다.
 
 ```js
 assert(

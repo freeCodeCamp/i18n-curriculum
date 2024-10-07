@@ -8,7 +8,7 @@ dashedName: match-literal-strings
 
 # --description--
 
-У минулому завданні ви шукали слово `Hello`, використовуючи регулярний вираз `/Hello/`. Цей регулярний вираз шукав точний збіг рядка `Hello`. Ось ще один приклад пошуку точного збігу рядка `Kevin`:
+In the last challenge, you searched for the word `Hello` using the regular expression `/Hello/`. That regex searched for a literal match of the string `Hello`. Here's another example searching for a literal match of the string `Kevin`:
 
 ```js
 let testStr = "Hello, my name is Kevin.";

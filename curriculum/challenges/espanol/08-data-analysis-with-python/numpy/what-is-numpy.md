@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: what-is-numpy
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-¿Por qué los arreglos Numpy son más rápidos que las listas de Python?
+Why are Numpy arrays faster than regular Python lists?
 
 ## --answers--
 

@@ -8,7 +8,7 @@ dashedName: use-responsive-design-with-bootstrap-fluid-containers
 
 # --description--
 
-En la seccion de HTML5 y CSS de freeCodeCamp construimos un 'Cat Photo App'. Ahora volvamos a él. Esta vez, vamos a estilizarlo utilizando el popular framework CSS adaptable de Bootstrap.
+In the HTML5 and CSS section of freeCodeCamp we built a Cat Photo App. Now let's go back to it. This time, we'll style it using the popular Bootstrap responsive CSS framework.
 
 Bootstrap averiguará cuan ancha es tu pantalla y responderá redimensionando tus elementos HTML - de ahí el nombre <dfn>diseño adaptable</dfn>.
 
@@ -22,7 +22,7 @@ Puedes añadir Bootstrap a cualquier aplicación agregando el siguiente código 
 
 En este caso, ya lo hemos añadido por ti en esta página, tras bambalinas. Ten en cuenta que para cerrar la etiqueta `link` puedes utilizar `>` o `/>`.
 
-Para comenzar, debemos anidar todo nuestro HTML (menos la etiqueta `link` y el elemento `style`) en un elemento `div` con la clase `container-fluid`.
+Para empezar, debemos anidar todo nuestor HTML (sacando la etiqueta `link` y el elemento `style`) en un elemento `div` con la clase `container-fluid`.
 
 # --hints--
 

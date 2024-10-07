@@ -8,7 +8,7 @@ dashedName: disable-an-element-using-jquery
 
 # --description--
 
-Con jQuery è anche possibile modificare le proprietà non-CSS degli elementi HTML. Ad esempio, è possibile disabilitare i bottoni.
+You can also change the non-CSS properties of HTML elements with jQuery. For example, you can disable buttons.
 
 Se disattivi un bottone, esso diventerà grigio e non potrà più essere cliccato.
 

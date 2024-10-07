@@ -8,7 +8,7 @@ dashedName: match-anything-with-wildcard-period
 
 # --description--
 
-Manchmal wirst du die genauen Zeichen in deinen Mustern nicht kennen (oder musst sie nicht kennen). An alle Wörter zu denken, die z. B. mit einem Schreibfehler übereinstimmen, würde sehr lange dauern. Zum Glück kannst du mit dem Wildcardzeichen (Platzhalter) Zeit sparen: `.` (Punkt).
+Sometimes you won't (or don't need to) know the exact characters in your patterns. Thinking of all words that match, say, a misspelling would take a long time. Luckily, you can save time using the wildcard character: `.`
 
 Das Wildcardzeichen `.` passt auf ein beliebiges Zeichen. Die Wildcard wird auch `dot` und `period` genannt. Du kannst das Wildcardzeichen genau wie jedes andere Zeichen in dem Regex verwenden. Wenn du zum Beispiel `hug`, `huh`, `hut` und `hum` finden möchtest, kannst du den Regex `/hu./` verwenden, um alle vier Wörter zu finden.
 

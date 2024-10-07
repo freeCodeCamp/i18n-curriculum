@@ -8,9 +8,9 @@ dashedName: create-an-es6-javascript-map
 
 # --description--
 
-JavaScript の新バージョンでは、前回のチャレンジで手書きした機能の多くを提供する、組み込みの Map ブジェクトが提供されています。 この Map オブジェクトは通常の JavaScript オブジェクトと似ていますが、通常のオブジェクトにはない便利な機能を提供します。 例えば ES6 Map は、それに追加された要素の挿入順序を追跡します。 以下が Map オブジェクトの概要です:
+The new version of JavaScript provides us with a built-in Map object which provides much of the functionality we wrote by hand in the last challenge. This Map object, although similar to regular JavaScript objects, provides some useful functionality that normal objects lack. For example, an ES6 Map tracks the insertion order of items that are added to it. Here is a more complete overview of its methods:
 
-- `.has(key)` はキーの有無をもとに true または false を返します。
+- `.has(key)` returns true or false based on the presence of a key
 - `.get(key)` はキーに関連付けられた値を返します。
 - `.set(key, value)` は新しいキーと値のペアを設定します。
 - `.delete(key)` はキーと値のペアを削除します。

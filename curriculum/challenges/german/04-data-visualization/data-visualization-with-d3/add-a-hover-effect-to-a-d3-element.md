@@ -8,7 +8,7 @@ dashedName: add-a-hover-effect-to-a-d3-element
 
 # --description--
 
-Es ist möglich, Effekte hinzuzufügen, die einen Balken markieren, wenn der User mit der Maus darüber fährt. Bisher wird das Styling für die Recktecke mit den eingebauten D3 und SVG Methoden angewandt, aber du kannst auch CSS verwenden.
+It's possible to add effects that highlight a bar when the user hovers over it with the mouse. So far, the styling for the rectangles is applied with the built-in D3 and SVG methods, but you can use CSS as well.
 
 Du kannst die CSS Klasse auf SVG-Elemente mit der `attr()`-Methode setzen. Dann erhält die `:hover` Pseudoklasse für deine neue Klasse die Stilregeln für beliebige Hover-Effekte.
 

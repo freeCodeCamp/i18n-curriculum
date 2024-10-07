@@ -8,7 +8,7 @@ dashedName: use-the-spread-operator-on-arrays
 
 # --description--
 
-أحد الحلول من ES6 للمساعدة في إنفاذ ثبات الحالة في Redux هو مشغل الانتشار (spread operator) على هئة: `...`. مشغل الانتشار (spread operator) لديه مجموعة متنوعة من التطبيقات، وهو واحد من هذه الحالات تناسب تماما التحدي السابق المتمثل في إنتاج قائمة جديدة من قائمة موجودة فعلاً. هذه صيغة جديدة نسبياً ولكنها شائعة الاستخدام. على سبيل المثال، إذا كان لديك قائمة `myArray` وكتب:
+One solution from ES6 to help enforce state immutability in Redux is the spread operator: `...`. The spread operator has a variety of applications, one of which is well-suited to the previous challenge of producing a new array from an existing array. This is relatively new, but commonly used syntax. For example, if you have an array `myArray` and write:
 
 ```js
 let newArray = [...myArray];

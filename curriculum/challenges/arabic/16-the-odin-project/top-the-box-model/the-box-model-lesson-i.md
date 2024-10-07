@@ -33,4 +33,4 @@ The standard box model includes only the content, while the alternative box mode
 
 ## --video-solution--
 
-2
+٢

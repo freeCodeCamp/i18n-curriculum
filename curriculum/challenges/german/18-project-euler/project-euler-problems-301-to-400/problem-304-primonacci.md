@@ -8,7 +8,7 @@ dashedName: problem-304-primonacci
 
 # --description--
 
-For any positive integer $n$ the function $\text{next_prime}(n)$ returns the smallest prime $p$ such that $p > n$.
+Für jeden positiven Integer $n$ liefert die Funktion $\text{next_prime}(n)$ die kleinste Primzahl $p$, die $p > n$ entspricht.
 
 Die Folge $a(n)$ ist definiert durch: $a(1) = \text{next_prime}({10}^{14})$ und $a(n) = \text{next_prime}(a(n - 1))$ für $n > 1$.
 
@@ -16,11 +16,11 @@ Die Fibonacci-Folge $f(n)$ ist definiert durch: $f(0) = 0$, $f(1) = 1$ und $f(n)
 
 Die Folge $b(n)$ ist definiert als $f(a(n))$.
 
-Find $\sum b(n)$ for $1≤n≤100\\,000$. Gib deine Antwort $\bmod 1\\,234\\,567\\,891\\,011$.
+Finde $\sum b(n)$ für $1≤n≤100\\,000$. Gib deine Antwort $\bmod 1\\,234\\,567\\,891\\,011$.
 
 # --hints--
 
-`primonacci()` should return `283988410192`.
+`primonacci()` sollte `283988410192` zurückgeben.
 
 ```js
 assert.strictEqual(primonacci(), 283988410192);

@@ -8,7 +8,7 @@ dashedName: use-getters-and-setters-to-control-access-to-an-object
 
 # --description--
 
-Você pode obter valores de um objeto e definir o valor da propriedade dentro de um objeto.
+You can obtain values from an object and set the value of a property within an object.
 
 Esses são classicamente chamados de <dfn>getters</dfn> e <dfn>setters</dfn>.
 

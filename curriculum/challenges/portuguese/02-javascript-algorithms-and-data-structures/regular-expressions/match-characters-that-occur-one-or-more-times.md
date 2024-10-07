@@ -8,7 +8,7 @@ dashedName: match-characters-that-occur-one-or-more-times
 
 # --description--
 
-Às vezes você precisa capturar um caractere, ou grupo de caracteres, que aparece uma ou mais vezes seguidas. Ou seja, que aparecem pelo menos uma vez e podem se repetir.
+Sometimes, you need to match a character (or group of characters) that appears one or more times in a row. This means it occurs at least once, and may be repeated.
 
 Você pode usar o caractere `+` para verificar se é o caso. Lembre-se que o caractere ou padrão precisa repetir-se consecutivamente. Ou seja, um atrás do outro.
 

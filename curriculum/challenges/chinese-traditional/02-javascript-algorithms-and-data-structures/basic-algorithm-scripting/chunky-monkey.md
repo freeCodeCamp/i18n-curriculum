@@ -8,7 +8,7 @@ dashedName: chunky-monkey
 
 # --description--
 
-請編寫一個函數，該函數將一個數組（第一個參數）拆分成若干長度爲 `size`（第二個參數）的子數組，並將它們作爲二維數組返回。
+Write a function that splits an array (first argument) into groups the length of `size` (second argument) and returns them as a two-dimensional array.
 
 # --hints--
 

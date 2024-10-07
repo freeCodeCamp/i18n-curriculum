@@ -1,6 +1,6 @@
 ---
 id: 56533eb9ac21ba0edf2244bd
-title: Passing Values to Functions with Arguments
+title: 인수를 사용해서 함수에 값을 전달하기
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cy8rahW'
 forumTopicId: 18254
@@ -11,7 +11,7 @@ dashedName: passing-values-to-functions-with-arguments
 
 <dfn>Parameters</dfn> are variables that act as placeholders for the values that are to be input to a function when it is called. When a function is defined, it is typically defined along with one or more parameters. The actual values that are input (or <dfn>"passed"</dfn>) into a function when it is called are known as <dfn>arguments</dfn>.
 
-Here is a function with two parameters, `param1` and `param2`:
+여기에 `param1` and `param2`이라는 2개의 파라미터를 가진 함수가 있습니다:
 
 ```js
 function testFun(param1, param2) {
@@ -19,21 +19,21 @@ function testFun(param1, param2) {
 }
 ```
 
-Then we can call `testFun` like this: `testFun("Hello", "World");`. We have passed two string arguments, `Hello` and `World`. Inside the function, `param1` will equal the string `Hello` and `param2` will equal the string `World`. Note that you could call `testFun` again with different arguments and the parameters would take on the value of the new arguments.
+그리고 우리는 이 `testFun`를 다음과 같이 부를 수 있습니다: `testFun("Hello", "World");`. 우리는 여기서 `Hello`와 `World`라는 2개의 문자열 인수들을 전달합니다. 함수 내부에서 `param1`은 문자열 `Hello`와 같을 것이며 `param2`는 문자열 `World`와 같을 것입니다. 다른 인수들을 붙여서 다시 `testFun`를 부르는 것도 가능하며, 그 경우 파라미터들은 새로운 인수들의 값을 갖게 됩니다.
 
 # --instructions--
 
-<ol><li>Create a function called <code>functionWithArgs</code> that accepts two arguments and outputs their sum to the dev console.</li><li>Call the function with two numbers as arguments.</li></ol>
+<ol><li>Create a function called <code>functionWithArgs</code> that accepts two arguments and outputs their sum to the dev console.</li><li>2개의 수치를 받는 인수들을 가지는 함수를 부르세요.</li></ol>
 
 # --hints--
 
-`functionWithArgs` should be a function.
+`functionWithArgs`는 함수여야 합니다.
 
 ```js
 assert(typeof functionWithArgs === 'function');
 ```
 
-`functionWithArgs(1,2)` should output `3`.
+`functionWithArgs(1,2)`는 `3`을 출력해야 합니다.
 
 ```js
 if (typeof functionWithArgs === 'function') {
@@ -44,7 +44,7 @@ if (typeof functionWithArgs === 'function') {
 assert(logOutput == 3);
 ```
 
-`functionWithArgs(7,9)` should output `16`.
+`functionWithArgs(7,9)`는 `16`을 출력해야 합니다.
 
 ```js
 if (typeof functionWithArgs === 'function') {
@@ -55,7 +55,7 @@ if (typeof functionWithArgs === 'function') {
 assert(logOutput == 16);
 ```
 
-You should call `functionWithArgs` with two numbers after you define it.
+당신은 2개의 수치로 `functionWithArgs`를 정의한 후에 불러야 합니다.
 
 ```js
 assert(

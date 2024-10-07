@@ -1,6 +1,6 @@
 ---
 id: 587d8251367417b2b2512c64
-title: Search within a Linked List
+title: 在链表中搜索
 challengeType: 1
 forumTopicId: 301715
 dashedName: search-within-a-linked-list
@@ -10,17 +10,17 @@ dashedName: search-within-a-linked-list
 
 Let's add a few more useful methods to our linked list class. Wouldn't it be useful if we could tell if our list was empty or not, as with our `Stack` and `Queue` classes?
 
-We should also be able to find specific elements in our linked list. Traversing through data structures is something you'll want to get a lot of practice with! Let's create an `indexOf` method that takes an `element` as an argument, and returns that element's `index` in the linked list. If the element is not found in the linked list, return `-1`.
+我们还应该能够在链表中找到特定元素。 遍历数据结构是你想要进行大量练习的东西！ 让我们创建一个 `indexOf` 方法，它接受一个 `element` 作为参数，并在链表中返回该元素的 `index`。 如果在链接列表中找不到该元素，则返回 `-1`。
 
-Let's also implement a method that does the opposite: an `elementAt` method that takes an `index` as an argument and returns the `element` at the given `index`. If no `element` is found, return `undefined`.
+让我们也实现一个相反的方法：一个 `elementAt` 方法，它将 `index` 作为参数并返回给定 `index` 处的 `element`。 如果未找到任何 `element`，则返回 `undefined`。
 
 # --instructions--
 
-Write an `isEmpty` method that checks if the linked list is empty, an `indexOf` method that returns the `index` of a given element, and an `elementAt` that returns an `element` at a given `index`.
+编写一个 isEmpty 方法来检查链表是否为空，一个 indexOf 方法返回给定元素的 index  ，一个  element At  在给定 index处返回 element 。
 
 # --hints--
 
-Your `LinkedList` class should have an `isEmpty` method.
+你的 `LinkedList` 类应该有一个 `isEmpty` 方法。
 
 ```js
 assert(
@@ -31,7 +31,7 @@ assert(
 );
 ```
 
-Your `isEmpty` method should return `false` when there is at least one element in linked list.
+当链表中至少有一个元素时，你的 `isEmpty` 方法应该返回 `false`。
 
 ```js
 assert(
@@ -45,7 +45,7 @@ assert(
 );
 ```
 
-Your `isEmpty` method should return `true` when there are no elements in linked list.
+当链表中没有元素时，你的 `isEmpty` 方法应该返回 `true`。
 
 ```js
 assert(
@@ -56,7 +56,7 @@ assert(
 );
 ```
 
-Your `LinkedList` class should have an `indexOf` method.
+你的 `LinkedList` 类应该有一个 `indexOf` 方法。
 
 ```js
 assert(
@@ -67,7 +67,7 @@ assert(
 );
 ```
 
-Your `indexOf` method should return the index of a given element found in linked list.
+你的 `indexOf` 方法应该返回在链表中找到的给定元素的索引。
 
 ```js
 assert(
@@ -81,7 +81,7 @@ assert(
 );
 ```
 
-Your `indexOf` method should return `-1` if the given element is not found in linked list
+如果在链表中找不到给定的元素，你的 `indexOf` 方法应该返回 `-1`
 
 ```js
 assert(
@@ -95,7 +95,7 @@ assert(
 );
 ```
 
-Your `LinkedList` class should have an `elementAt` method.
+你的 `LinkedList` 类应该有一个 `elementAt` 方法。
 
 ```js
 assert(
@@ -106,7 +106,7 @@ assert(
 );
 ```
 
-Your `elementAt` method should return the element found at a given index in linked list.
+你的 `elementAt` 方法应该返回在链表中的给定索引处找到的元素。
 
 ```js
 assert(
@@ -120,7 +120,7 @@ assert(
 );
 ```
 
-Your `elementAt` method should return `undefined` if the given element is not found at a given index in linked list.
+如果在链表中的给定索引处找不到给定元素，你的 `elementAt` 方法应该返回 `undefined`。
 
 ```js
 assert(

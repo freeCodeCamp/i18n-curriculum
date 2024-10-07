@@ -8,7 +8,7 @@ dashedName: inventory-update
 
 # --description--
 
-Оновіть інвентар 2D-масиву, порівнявши його з іншим 2D-масивом свіжих поставок. Оновіть поточну кількість предметів інвентарю (в `arr1`). Якщо неможливо знайти предмет, додайте новий предмет та його кількість у масив інвентарю. Предмети поверненого масиву повинні бути в алфавітному порядку.
+Compare and update the inventory stored in a 2D array against a second 2D array of a fresh delivery. Update the current existing inventory item quantities (in `arr1`). If an item cannot be found, add the new item and quantity into the inventory array. The returned inventory array should be in alphabetical order by item.
 
 # --hints--
 

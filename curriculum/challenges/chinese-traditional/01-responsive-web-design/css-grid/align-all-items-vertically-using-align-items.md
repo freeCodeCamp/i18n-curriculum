@@ -9,7 +9,7 @@ dashedName: align-all-items-vertically-using-align-items
 
 # --description--
 
-對網格容器使用 `align-items` 屬性可以讓網格中所有的網格項沿豎直方向對齊。
+Using the `align-items` property on a grid container will set the vertical alignment for all the items in our grid.
 
 # --instructions--
 

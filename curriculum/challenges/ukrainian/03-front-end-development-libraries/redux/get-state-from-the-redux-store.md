@@ -8,7 +8,7 @@ dashedName: get-state-from-the-redux-store
 
 # --description--
 
-Об’єкт сховища Redux надає декілька методів, які дозволяють взаємодіяти з ним. Наприклад, ви можете отримати поточний стан, збережений в об’єкті сховища Redux, за допомогою метода `getState()`.
+The Redux store object provides several methods that allow you to interact with it. For example, you can retrieve the current `state` held in the Redux store object with the `getState()` method.
 
 # --instructions--
 

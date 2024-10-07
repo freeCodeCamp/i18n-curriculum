@@ -9,7 +9,7 @@ dashedName: stand-in-line
 
 # --description--
 
-在計算機科學中隊列（<dfn>queue</dfn>）是一個抽象的數據結構（<dfn>Data Structure</dfn>），隊列中的條目都是有秩序的。 新的條目會被加到隊列的末尾，舊的條目會從隊列的頭部被移出。
+In Computer Science a <dfn>queue</dfn> is an abstract <dfn>Data Structure</dfn> where items are kept in order. New items can be added at the back of the queue and old items are taken off from the front of the queue.
 
 # --instructions--
 

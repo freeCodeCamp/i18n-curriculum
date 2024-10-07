@@ -9,7 +9,7 @@ dashedName: use-html5-to-require-a-field
 
 # --description--
 
-當你設計表單時，你可以指定某些字段爲必填項（required），只有當用戶填寫了該字段後，纔可以提交表單。
+You can require specific form fields so that your user will not be able to submit your form until he or she has filled them out.
 
 如果你想把文本輸入框設置爲必填項，在 `input` 元素中加上 `required` 屬性就可以了，例如：`<input type="text" required>`
 

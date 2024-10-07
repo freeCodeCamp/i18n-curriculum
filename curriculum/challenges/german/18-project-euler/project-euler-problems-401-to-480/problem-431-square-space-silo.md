@@ -1,6 +1,6 @@
 ---
 id: 5900f51b1000cf542c51002e
-title: 'Problem 431: Square Space Silo'
+title: 'Problem 431: Quadratischer Silo-Platz'
 challengeType: 1
 forumTopicId: 302102
 dashedName: problem-431-square-space-silo
@@ -8,21 +8,21 @@ dashedName: problem-431-square-space-silo
 
 # --description--
 
-Fred the farmer arranges to have a new storage silo installed on his farm and having an obsession for all things square he is absolutely devastated when he discovers that it is circular. Quentin, the representative from the company that installed the silo, explains that they only manufacture cylindrical silos, but he points out that it is resting on a square base. Fred is not amused and insists that it is removed from his property.
+Fred, der Landwirt, lässt auf seinem Hof ein neues Lagersilo errichten, und da er von allem, was quadratisch ist, besessen ist, ist er völlig am Boden zerstört, als er entdeckt, dass es rund ist. Quentin, der Vertreter der Firma, die das Silo installiert hat, erklärt, dass sie nur zylindrische Silos herstellen, aber er weist darauf hin, dass das Silo auf einem quadratischen Sockel steht. Fred ist darüber nicht erfreut und besteht darauf, dass es von seinem Grundstück entfernt wird.
 
-Quick thinking Quentin explains that when granular materials are delivered from above a conical slope is formed and the natural angle made with the horizontal is called the angle of repose. For example if the angle of repose, $\alpha = 30°$, and grain is delivered at the centre of the silo then a perfect cone will form towards the top of the cylinder. In the case of this silo, which has a diameter of 6m, the amount of space wasted would be approximately 32.648388556 m<sup>3</sup>. However, if grain is delivered at a point on the top which has a horizontal distance of $x$ metres from the centre then a cone with a strangely curved and sloping base is formed. He shows Fred a picture.
+Der schnell denkende Quentin erklärt, dass sich bei der Anlieferung von körnigem Material von oben ein konisches Gefälle bildet und der natürliche Winkel zur Horizontalen als Schüttwinkel bezeichnet wird. Wenn z. B. der Schüttwinkel $\alpha = 30°$ ist und das Getreide in der Mitte des Silos angeliefert wird, bildet sich ein perfekter Kegel zum oberen Ende des Zylinders hin. Im Falle dieses Silos, das einen Durchmesser von 6 m hat, würde der Raumverlust etwa 32,648388556 m<sup>3</sup> betragen. Wird das Getreide jedoch an einem Punkt auf der Spitze angeliefert, der einen horizontalen Abstand von $x$ Metern vom Zentrum hat, so entsteht ein Kegel mit einer seltsam gekrümmten und schrägen Basis. Er zeigt Fred ein Bild.
 
-<img alt="image presenting forming of the perfect cone towards the top of the cylinder" src="https://cdn.freecodecamp.org/curriculum/project-euler/square-space-silo.png" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
+<img alt="Bild, das die Bildung des perfekten Kegels zum oberen Ende des Zylinders hin zeigt" src="https://cdn.freecodecamp.org/curriculum/project-euler/square-space-silo.png" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-We shall let the amount of space wasted in cubic metres be given by $V(x)$. If $x = 1.114\\,785\\,284$, which happens to have three squared decimal places, then the amount of space wasted, $V(1.114\\,785\\,284) \approx 36$. Given the range of possible solutions to this problem there is exactly one other option: $V(2.511\\,167\\,869) \approx 49$. It would be like knowing that the square is king of the silo, sitting in splendid glory on top of your grain.
+Die Menge des verschwendeten Raums in Kubikmetern soll mit $V(x)$ angegeben werden. Wenn $x = 1,114\\,785\,284$ ist, was zufällig drei Nachkommastellen zum Quadrat hat, dann ist der verschwendete Platz $V(1,114\\,785\,284) \ca. 36$. Angesichts der Bandbreite möglicher Lösungen für dieses Problem gibt es genau eine weitere Option: $V(2,511\,167\,869) \ca. 49$. Das wäre so, als wüsste man, dass das Quadrat der König des Silos ist und in voller Pracht auf dem Getreide sitzt.
 
-Fred's eyes light up with delight at this elegant resolution, but on closer inspection of Quentin's drawings and calculations his happiness turns to despondency once more. Fred points out to Quentin that it's the radius of the silo that is 6 metres, not the diameter, and the angle of repose for his grain is 40­°. However, if Quentin can find a set of solutions for this particular silo then he will be more than happy to keep it.
+Freds Augen leuchten vor Freude über diese elegante Lösung, aber bei näherer Betrachtung von Quentins Zeichnungen und Berechnungen schlägt seine Freude wieder in Verzagtheit um. Fred weist Quentin darauf hin, dass der Radius des Silos 6 m beträgt, nicht der Durchmesser, und dass der Schüttwinkel für sein Getreide 40° beträgt. Wenn Quentin jedoch eine Reihe von Lösungen für dieses spezielle Silo finden kann, wird er es gerne behalten.
 
-If Quick thinking Quentin is to satisfy frustratingly fussy Fred the farmer's appetite for all things square then determine the values of $x$ for all possible square space wastage options and calculate $\sum x$ correct to 9 decimal places.
+Wenn der schnell denkende Quentin den frustrierend pingeligen Fred, den Landwirt, mit seinem Appetit auf alles, was quadratisch ist, befriedigen soll, dann bestimme die Werte von $x$ für alle möglichen Optionen der quadratischen Raumverschwendung und berechne $\sum x$ auf 9 Dezimalstellen genau.
 
 # --hints--
 
-`squareSpaceSilo()` should return `23.386029052`.
+`squareSpaceSilo()` sollte `23.386029052` zurückgeben.
 
 ```js
 assert.strictEqual(squareSpaceSilo(), 23.386029052);

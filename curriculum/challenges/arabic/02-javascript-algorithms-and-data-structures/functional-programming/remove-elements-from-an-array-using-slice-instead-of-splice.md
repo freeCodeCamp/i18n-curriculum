@@ -8,7 +8,7 @@ dashedName: remove-elements-from-an-array-using-slice-instead-of-splice
 
 # --description--
 
-من الانماط الشائعة أثناء العمل مع ال arrays هو عندما تريد إزالة العناصر والحفاظ على بقية الـ array. يقدم JavaScript طريقة `splice` للقيام بذلك، التي تأخذ معطيات (arguments) رقم الترتيب المكان الذي تبدأ منه بإزالة العناصر، ثم عدد العناصر المراد إزالتها. إذا لم يقدم المعطي الثاني، فالافتراضي هو إزالة العناصر حتي النهاية. ومع ذلك، فإن طريقة `splice` تغير الـ array الأصلية التي يتم استدعاؤها عليها. إليك مثال:
+A common pattern while working with arrays is when you want to remove items and keep the rest of the array. JavaScript offers the `splice` method for this, which takes arguments for the index of where to start removing items, then the number of items to remove. If the second argument is not provided, the default is to remove items through the end. However, the `splice` method mutates the original array it is called on. إليك مثال:
 
 ```js
 const cities = ["Chicago", "Delhi", "Islamabad", "London", "Berlin"];

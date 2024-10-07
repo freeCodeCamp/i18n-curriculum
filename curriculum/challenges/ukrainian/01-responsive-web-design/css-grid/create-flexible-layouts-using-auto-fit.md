@@ -9,7 +9,7 @@ dashedName: create-flexible-layouts-using-auto-fit
 
 # --description--
 
-`auto-fit` функціонує майже ідентично з `auto-fill`. Єдина відмінність полягає в тому, що коли розмір контейнера перевищує розмір усіх поєднаних об'єктів `auto-fill` продовжує додавати пусті рядки та колонки та відсуває об'єкти на бік, в той час як `auto-fit` стискає ці порожні рядки та колонки та розтягує ваші об'єкти до розмірів контейнера.
+`auto-fit` works almost identically to `auto-fill`. The only difference is that when the container's size exceeds the size of all the items combined, `auto-fill` keeps inserting empty rows or columns and pushes your items to the side, while `auto-fit` collapses those empty rows or columns and stretches your items to fit the size of the container.
 
 **Примітка:** якщо ваш контейнер не може вмістити усі ваші об'єкти в один рядок, він перемістить їх до нового рядка.
 

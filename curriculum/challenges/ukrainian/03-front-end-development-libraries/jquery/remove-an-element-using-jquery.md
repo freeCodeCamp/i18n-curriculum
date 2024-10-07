@@ -8,7 +8,7 @@ dashedName: remove-an-element-using-jquery
 
 # --description--
 
-Тепер видалимо елемент HTML зі сторінки за допомогою jQuery.
+Now let's remove an HTML element from your page using jQuery.
 
 jQuery має функцію під назвою `.remove()`, яка повністю видаляє елемент HTML.
 

@@ -9,7 +9,7 @@ dashedName: passing-values-to-functions-with-arguments
 
 # --description--
 
-<dfn>Параметри</dfn> — це змінні, які поводяться як заповнювачі тих значень, які потрібно ввести до функції під час її виклику. Функцію зазвичай визначають разом з одним або декількома параметрами. Значення, які вводять (або <dfn>«передають»</dfn>) до функції під час її виклику, називаються <dfn>аргументами</dfn>.
+<dfn>Parameters</dfn> are variables that act as placeholders for the values that are to be input to a function when it is called. When a function is defined, it is typically defined along with one or more parameters. The actual values that are input (or <dfn>"passed"</dfn>) into a function when it is called are known as <dfn>arguments</dfn>.
 
 Ось функція з двома параметрами, `param1` та `param2`:
 
@@ -23,7 +23,7 @@ function testFun(param1, param2) {
 
 # --instructions--
 
-<ol><li>Створіть функцію під назвою <code>functionWithArgs</code>, яка приймає 2 аргументи та виводить їх суму на консолі.</li><li>Викличте функцію з двома числами як аргументи.</li></ol>
+<ol><li>Create a function called <code>functionWithArgs</code> that accepts two arguments and outputs their sum to the dev console.</li><li>Викличте функцію з двома числами як аргументи.</li></ol>
 
 # --hints--
 

@@ -8,10 +8,10 @@ dashedName: babbage-problem
 
 # --description--
 
-Charles Babbage, looking ahead to the sorts of problems his Analytical Engine would be able to solve, gave this example:
+Charles Babbage, der nach vorne zu den Problemen schaute, die seine Analytische Maschine lösen würde, hat dieses Beispiel angeführt:
 
 <blockquote>
-  What is the smallest positive integer whose square ends in the digits 269,696?
+  Was ist der kleinste positive Integer, dessen Quadrat in den Ziffern 269,696 endet?
   <footer style='margin-left: 2em;'>Babbage, Brief an Lord Bowden, 1837; siehe Hollingdale und Tootill, <i>Electronic Computers</i>, zweite Ausgabe, 1970, S. 125.</footer>
 </blockquote>
 

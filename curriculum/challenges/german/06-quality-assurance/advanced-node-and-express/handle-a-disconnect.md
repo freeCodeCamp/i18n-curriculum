@@ -8,9 +8,9 @@ dashedName: handle-a-disconnect
 
 # --description--
 
-Du wirst vielleicht feststellen, dass du bisher nur die Anzahl der Nutzer erhöht hast. Das Verarbeiten eines Verbindungsabbruchs des Nutzers ist genauso einfach, wie das Verarbeiten des ersten Verbindungsaufbaus – nur musst du hierfür, statt auf dem gesamten Server, auf jeden Socket hören.
+You may notice that up to now you have only been increasing the user count. Handling a user disconnecting is just as easy as handling the initial connect, except you have to listen for it on each socket instead of on the whole server.
 
-Füge zu diesem Zweck dem bestehenden `'connect'`-Listener einen weiteren Listener hinzu, der auf `'disconnect'`-Ereignisse des Sockets wartet, ohne dass Daten durchgelassen werden. You can test this functionality by just logging that a user has disconnected to the console.
+Füge zu diesem Zweck dem bestehenden `'connect'`-Listener einen weiteren Listener hinzu, der auf `'disconnect'`-Ereignisse des Sockets wartet, ohne dass Daten durchgelassen werden. Du kannst diese Funktionalität testen, indem du einfach an die Konsole loggst, dass ein Nutzer die Verbindung abgebrochen hat.
 
 ```js
 socket.on('disconnect', () => {

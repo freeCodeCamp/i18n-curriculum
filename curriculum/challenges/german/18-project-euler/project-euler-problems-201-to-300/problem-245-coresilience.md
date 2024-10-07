@@ -1,6 +1,6 @@
 ---
 id: 5900f4621000cf542c50ff74
-title: 'Problem 245: Coresilience'
+title: 'Problem 245: Kernelastizität'
 challengeType: 1
 forumTopicId: 301892
 dashedName: problem-245-coresilience
@@ -8,21 +8,21 @@ dashedName: problem-245-coresilience
 
 # --description--
 
-We shall call a fraction that cannot be cancelled down a resilient fraction.
+Wir nennen einen Bruch, der nicht aufgehoben werden kann, einen resilienten Bruch.
 
-Furthermore we shall define the resilience of a denominator, $R(d)$, to be the ratio of its proper fractions that are resilient; for example, $R(12) = \frac{4}{11}$.
+Außerdem definieren wir die Resilienz eines Nenners, $R(d)$, als das Verhältnis seiner Eigenbrüche, die resilient sind; zum Beispiel $R(12) = \frac{4}{11}$.
 
-The resilience of a number $d > 1$ is then $\frac{φ(d)}{d − 1}$ , where $φ$ is Euler's totient function.
+Die Resilienz einer Zahl $d > 1$ ist dann $\frac{φ(d)}{d − 1}$ , wobei $φ$ die Eulersche Totientenfunktion ist.
 
-We further define the coresilience of a number $n > 1$ as $C(n) = \frac{n − φ(n)}{n − 1}$.
+Wir definieren ferner die Kernelastizität einer Zahl $n > 1$ als $C(n) = \frac{n - φ(n)}{n − 1}$.
 
-The coresilience of a prime $p$ is $C(p) = \frac{1}{p − 1}$.
+Die Kernelastizität einer Primzahl $p$ ist $C(p) = \frac{1}{p − 1}$.
 
-Find the sum of all composite integers $1 &lt; n ≤ 2 × {10}^{11}$, for which $C(n)$ is a unit fraction.
+Finde die Summe aller zusammengesetzten Integer $1 &lt; n ≤ 2 × {10}^{11}$, für die $C(n)$ ein Einheitsbruch ist.
 
 # --hints--
 
-`coresilience()` should return `288084712410001`.
+`coresilience()` sollte `288084712410001` zurückgeben.
 
 ```js
 assert.strictEqual(coresilience(), 288084712410001);

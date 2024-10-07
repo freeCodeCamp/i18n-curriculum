@@ -8,7 +8,7 @@ dashedName: set-the-childs-prototype-to-an-instance-of-the-parent
 
 # --description--
 
-No desafio anterior, você viu o primeiro passo para herdar comportamento do supertipo (ou parente) `Animal`: fazendo uma instância de `Animal`.
+In the previous challenge you saw the first step for inheriting behavior from the supertype (or parent) `Animal`: making a new instance of `Animal`.
 
 Este desafio cobre o próximo passo: definir o `prototype` do subtipo (ou filho) - neste caso, `Bird` - para ser uma instância de `Animal`.
 

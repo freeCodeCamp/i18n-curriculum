@@ -8,7 +8,7 @@ dashedName: use-the-bootstrap-grid-to-put-elements-side-by-side
 
 # --description--
 
-يستخدم Bootstrap نظام شبكة (grid) مستجيبة من 12 عمود، مما يجعل من السهل وضع العناصر في صفوف وتحديد العرض النسبي لكل عنصر. يمكن تطبيق معظم فئات Bootstrap على عنصر `div`.
+Bootstrap uses a responsive 12-column grid system, which makes it easy to put elements into rows and specify each element's relative width. Most of Bootstrap's classes can be applied to a `div` element.
 
 Bootstrap له خصائص عرض عمود مختلفة يستخدمها اعتمادا على مدى اتساع شاشة المستخدم. على سبيل المثال، الهواتف لديها شاشات ضيقة، وأجهزة الحاسوب المحمولة لديها شاشات أوسع.
 

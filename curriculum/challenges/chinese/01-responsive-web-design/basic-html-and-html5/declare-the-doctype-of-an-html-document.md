@@ -9,7 +9,7 @@ dashedName: declare-the-doctype-of-an-html-document
 
 # --description--
 
-之前的挑战涵盖了一些 HTML 元素和它们的用法。 另外有些元素为页面提供了整体结构，每个 HTML 文档中都应该有这些元素。
+The challenges so far have covered specific HTML elements and their uses. However, there are a few elements that give overall structure to your page, and should be included in every HTML document.
 
 在文档的顶部，我们需要告诉浏览器网页所使用的 HTML 的版本。 HTML 是一个在不停发展的语言，大部分浏览器都支持 HTML 的最新标准，也就是 HTML5。 大部分主流浏览器都支持最新的 HTML5 规范。 但是一些陈旧的网页可能使用的是老版本的 HTML。
 

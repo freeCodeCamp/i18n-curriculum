@@ -1,6 +1,6 @@
 ---
 id: 587d7fa6367417b2b2512bc3
-title: Виберіть групу елементів за допомогою D3
+title: Вибір групи елементів за допомогою D3
 challengeType: 6
 forumTopicId: 301490
 dashedName: select-a-group-of-elements-with-d3
@@ -8,7 +8,7 @@ dashedName: select-a-group-of-elements-with-d3
 
 # --description--
 
-D3 також має метод `selectAll()` для вибору групи елементів. Він повертає масив вузлів HTML для всіх елементів документа, які відповідають введеному рядку. Ось приклад, як вибрати всі теги посилання в документі:
+D3 also has the `selectAll()` method to select a group of elements. It returns an array of HTML nodes for all the items in the document that match the input string. Here's an example to select all the anchor tags in a document:
 
 ```js
 const anchors = d3.selectAll("a");

@@ -9,7 +9,7 @@ dashedName: limit-item-size-using-the-minmax-function
 
 # --description--
 
-Existe uma outra função que pode ser usada com as propriedades `grid-template-columns` e `grid-template-rows` chamada `minmax`. Ela é usada para limitar o tamanho dos grid items quando o grid container muda de tamanho. Para fazer isso, você precisa especificar um limite de tamanho aceitável para o seu grid item. Exemplo:
+There's another built-in function to use with `grid-template-columns` and `grid-template-rows` called `minmax`. It's used to limit the size of items when the grid container changes size. To do this you need to specify the acceptable size range for your item. Aqui está um exemplo:
 
 ```css
 grid-template-columns: 100px minmax(50px, 200px);

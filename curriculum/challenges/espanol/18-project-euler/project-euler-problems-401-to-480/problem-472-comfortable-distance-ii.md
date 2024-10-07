@@ -8,7 +8,7 @@ dashedName: problem-472-comfortable-distance-ii
 
 # --description--
 
-There are $N$ seats in a row. $N$ people come one after another to fill the seats according to the following rules:
+Hay $N$ asientos en una fila. $N$ people come one after another to fill the seats according to the following rules:
 
 1. No person sits beside another.
 1. The first person chooses any seat.

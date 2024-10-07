@@ -1,6 +1,6 @@
 ---
 id: 587d778f367417b2b2512aac
-title: Avoid Colorblindness Issues by Using Sufficient Contrast
+title: Epuka Masuala ya Upofu wa Rangi kwa Kutumia Utofautishaji wa Kutosha
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cmzMEUw'
 forumTopicId: 301012
@@ -11,25 +11,25 @@ dashedName: avoid-colorblindness-issues-by-using-sufficient-contrast
 
 Color is a large part of visual design, but its use introduces two accessibility issues. First, color alone should not be used as the only way to convey important information because screen reader users won't see it. Second, foreground and background colors need sufficient contrast so colorblind users can distinguish them.
 
-Previous challenges covered having text alternatives to address the first issue. The last challenge introduced contrast checking tools to help with the second. The WCAG-recommended contrast ratio of 4.5:1 applies for color use as well as gray-scale combinations.
+Changamoto za awali zilihusu kuwa na njia mbadala za maandishi kushughulikia suala la kwanza. Changamoto ya mwisho ilianzisha zana za kukagua utofautishaji ili kusaidia na ya pili. Uwiano wa utofautishaji unaopendekezwa na WCAG wa 4.5:1 unatumika kwa matumizi ya rangi pamoja na michanganyiko ya kijivu.
 
-Colorblind users have trouble distinguishing some colors from others - usually in hue but sometimes lightness as well. You may recall the contrast ratio is calculated using the relative luminance (or lightness) values of the foreground and background colors.
+Watumiaji wasioona rangi wanatatizika kutofautisha baadhi ya rangi na nyingine - kwa kawaida katika rangi lakini wakati mwingine wepesi pia. Unaweza kukumbuka uwiano wa utofautishaji hukokotolewa kwa kutumia thamani za mwangaza (au wepesi) za rangi ya mandharimbele na mandharinyuma.
 
-In practice, the 4.5:1 contrast ratio can be reached by shading (adding black to) the darker color and tinting (adding white to) the lighter color. Darker shades on the color wheel are considered to be shades of blues, violets, magentas, and reds, whereas lighter tinted colors are oranges, yellows, greens, and blue-greens.
+Kwa mazoezi, uwiano wa utofautishaji wa 4.5:1 unaweza kufikiwa kwa kukoleza (kuongeza nyeusi kwa) rangi iliyokolea na upakaji rangi (kuongeza nyeupe kwa) rangi nyepesi. Vivuli vya giza kwenye gurudumu la rangi huchukuliwa kuwa vivuli vya samawati, violets, magentas, na nyekundu, ambapo rangi nyepesi zaidi ni machungwa, njano, kijani, na samawati-kijani.
 
 # --instructions--
 
-Camper Cat is experimenting with using color for his blog text and background, but his current combination of a greenish `background-color` with maroon text `color` has a 2.5:1 contrast ratio. You can easily adjust the lightness of the colors since he declared them using the CSS `hsl()` property (which stands for hue, saturation, lightness) by changing the third argument. Increase the `background-color` lightness value from 35% to 55%, and decrease the `color` lightness value from 20% to 15%. This improves the contrast to 5.9:1.
+Camper Cat anajaribu kutumia rangi kwa maandishi na usuli wa blogu yake, lakini mchanganyiko wake wa sasa wa `background-color` ya kijani kibichi yenye maandishi ya maroon `rangi` ina uwiano wa 2.5:1 wa utofautishaji. Unaweza kurekebisha wepesi wa rangi kwa kuwa alizitangaza kwa kutumia kipengele cha CSS `hsl()` (kinachowakilisha hue, saturation, lightness) kwa kubadilisha hoja ya tatu. Ongeza thamani ya `background-color` kutoka 35% hadi 55%, na upunguze thamani ya `rangi` kutoka 20% hadi 15%. Hii inaboresha utofautishaji hadi 5.9:1.
 
 # --hints--
 
-Your code should only change the lightness value for the text `color` property to a value of 15%.
+Msimbo wako unapaswa kubadilisha tu thamani ya wepesi wa kipengele cha `rangi` ya maandishi hadi thamani ya 15%.
 
 ```js
 assert.match(code ,/color:\s*?hsl\(0,\s*?55%,\s*?15%\)/gi);
 ```
 
-Your code should only change the lightness value for the `background-color` property to a value of 55%.
+Msimbo wako unapaswa kubadilisha tu thamani ya wepesi wa kipengele cha `rangi ya mandharinyuma` ya maandishi hadi thamani ya 55%.
 
 ```js
 assert.match(code ,/background-color:\s*?hsl\(120,\s*?25%,\s*?55%\)/gi);

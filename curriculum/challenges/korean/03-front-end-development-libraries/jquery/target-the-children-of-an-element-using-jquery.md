@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aed208826
-title: Target the Children of an Element Using jQuery
+title: jQuery를 사용하여 자식 요소 선택하기
 challengeType: 6
 forumTopicId: 18320
 dashedName: target-the-children-of-an-element-using-jquery
@@ -10,9 +10,9 @@ dashedName: target-the-children-of-an-element-using-jquery
 
 When HTML elements are placed one level below another they are called <dfn>children</dfn> of that element. For example, the button elements in this challenge with the text `#target1`, `#target2`, and `#target3` are all children of the `<div class="well" id="left-well">` element.
 
-jQuery has a function called `children()` that allows you to access the children of whichever element you've selected.
+jQuery에는 `children()`이라는 함수가 있는데, 이 함수를 사용하면 당신이 선택한 엘리먼트의 자식들에 접근할 수 있습니다.
 
-Here's an example of how you would use the `children()` function to give the children of your `left-well` element the color `blue`:
+다음은 `children()` 함수를 사용하여 `left-well` 엘리먼트의 자식들에게 `blue` 색상을 지정하는 예시입니다:
 
 ```js
 $("#left-well").children().css("color", "blue")
@@ -20,23 +20,23 @@ $("#left-well").children().css("color", "blue")
 
 # --instructions--
 
-Give all the children of your `right-well` element the color orange.
+`right-well` 엘리먼트의 모든 자식들에 주황색을 적용하세요.
 
 # --hints--
 
-All children of `#right-well` should have orange text.
+`#right-well`의 모든 자식 엘리먼트들은 주황색 텍스트를 가져야 합니다.
 
 ```js
 assert($('#right-well').children().css('color') === 'rgb(255, 165, 0)');
 ```
 
-You should use the `children()` function to modify these elements.
+해당 엘리먼트들을 수정하기 위해 `children()` 함수를 사용해야 합니다.
 
 ```js
 assert(code.match(/\.children\(\)\.css/g));
 ```
 
-You should only use jQuery to add these classes to the element.
+이러한 클래스들을 엘리먼트에 추가하기 위해 jQuery를 사용해야 합니다.
 
 ```js
 assert(code.match(/<div class="well" id="right-well">/g));

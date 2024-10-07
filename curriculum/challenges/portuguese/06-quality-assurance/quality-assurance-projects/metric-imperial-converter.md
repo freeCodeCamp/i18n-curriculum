@@ -8,25 +8,25 @@ dashedName: metric-imperial-converter
 
 # --description--
 
-Crie um aplicativo full stack em JavaScript que seja funcionalmente semelhante a este: <a href="https://metric-imperial-converter.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://metric-imperial-converter.freecodecamp.rocks/</a>. Trabalhar nesse projeto vai fazer com que você escreva seu código usando um dos seguintes métodos:
+Build a full stack JavaScript app that is functionally similar to this: <a href="https://metric-imperial-converter.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://metric-imperial-converter.freecodecamp.rocks/</a>. Trabalhar nesse projeto vai fazer com que você escreva o código usando um dos seguintes métodos:
 
-- Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-metricimpconverter/" target="_blank" rel="noopener noreferrer nofollow">este repositório do GitHub</a> e complete o projeto localmente.
-- Recorra ao <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-metricimpconverter/" target="_blank" rel="noopener noreferrer nofollow"> nosso projeto inicial no Gitpod </a> para completar o seu projeto.
-- Use um construtor de site de sua escolha para completar o projeto. Certifique-se de incorporar todos os arquivos do nosso repositório no GitHub.
+- Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-metricimpconverter/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
+- Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-metricimpconverter/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete your project.
+- Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
 
-**Observação:** os testes deste projeto não funcionam ao usar `glitch.com`.
+**Note:** This project's tests do not work when using `glitch.com`.
 
 # --instructions--
 
-- Complete a lógica de conversão necessária em `/controllers/convertHandler.js`
+- Complete the necessary conversion logic in `/controllers/convertHandler.js`
 - Complete a rota /api/translate em `/routes/api.js`
 - Copie o arquivo `sample.env` para `.env` e defina as variáveis adequadamente
 - Para executar os testes, adicione `NODE_ENV=test` no seu arquivo `.env`
-- Para executar os testes no console, use o comando `npm run test`.
+- To run the tests in the console, use the command `npm run test`.
 
 Escreva os testes a seguir em `tests/1_unit-tests.js`:
 
-- `convertHandler` deverá ler corretamente a entrada de números inteiros.
+- `convertHandler` should correctly read a whole number input.
 - `convertHandler` deverá ler corretamente a entrada de números decimais.
 - `convertHandler` deverá ler corretamente a entrada de frações.
 - `convertHandler` deverá ler corretamente a entrada de frações com decimais.
@@ -45,7 +45,7 @@ Escreva os testes a seguir em `tests/1_unit-tests.js`:
 
 Escreva os testes a seguir em `tests/2_functional-tests.js`:
 
-- Converta uma entrada válida, como `10L`: solicitação de `GET` para `/api/convert`.
+- Convert a valid input such as `10L`: `GET` request to `/api/convert`.
 - Converta uma entrada inválida, como `32g`: solicitação de `GET` para `/api/convert`.
 - Converta um número inválido, como `3/7.2/4kg`: solicitação de `GET` para `/api/convert`.
 - Converta um número inválido E uma unidade, como `3/7.2/4kilomegagram`: solicitação de `GET` para `/api/convert`.
@@ -176,7 +176,7 @@ async getUserInput => {
 };
 ```
 
-Se o número for inválido, será retornado `'invalid number'`.
+Se o número for inválida, será retornado `'invalid number'`.
 
 ```js
 async getUserInput => {
@@ -282,7 +282,7 @@ async getUserInput => {
 };
 ```
 
-Todos os 5 testes funcionais estão completos e passando.
+Todos os 5 testes funcionais foram concluídos e deram aprovação.
 
 ```js
 async getUserInput => {

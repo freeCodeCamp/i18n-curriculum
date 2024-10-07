@@ -8,7 +8,7 @@ dashedName: change-the-color-of-an-svg-element
 
 # --description--
 
-Die Balken sind in der richtigen Position, aber sie haben alle die gleiche schwarze Farbe. SVG hat eine Möglichkeit, die Farbe der Balken zu ändern.
+The bars are in the right position, but they are all the same black color. SVG has a way to change the color of the bars.
 
 In SVG ist eine `rect`-Form mit dem `fill`-Attribut gefärbt. Es unterstützt Hex-Codes, Farbnamen und Rgb-Werte sowie komplexere Optionen wie Farbverläufe und Transparenz.
 

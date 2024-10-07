@@ -8,7 +8,7 @@ dashedName: review-using-props-with-stateless-functional-components
 
 # --description--
 
-Mit Ausnahme der letzten Aufgabe hast du Eigenschaften an zustandslose funktionale Komponenten übergeben. Diese Komponenten verhalten sich wie reine Funktionen. Sie akzeptieren Eigenschaften als Eingabe und geben jedes Mal dieselbe Ansicht zurück, wenn ihnen dieselben Eigenschaften übergeben werden. Du fragst dich vielleicht, was ein Zustand ist. In der nächsten Aufgabe werden wir ihn genauer erklären. Zuvor aber noch ein Überblick über die Terminologie der Komponenten.
+Except for the last challenge, you've been passing props to stateless functional components. These components act like pure functions. They accept props as input and return the same view every time they are passed the same props. You may be wondering what state is, and the next challenge will cover it in more detail. Before that, here's a review of the terminology for components.
 
 Eine *zustandslose funktionale Komponente* ist jede Funktion, die du schreibst, die Eigenschaften akzeptiert und JSX zurückgibt. Eine *zustandslose Komponente* hingegen ist eine Klasse, die `React.Component` erweitert, aber keinen internen Zustand verwendet (wird in der nächsten Aufgabe behandelt). Schließlich ist eine *zustandsfähige Komponente* eine Klassenkomponente, die ihren eigenen internen Zustand beibehält. Du kannst sehen, dass zustandsabhängige Komponenten einfach als Komponenten oder React-Komponenten bezeichnet werden.
 

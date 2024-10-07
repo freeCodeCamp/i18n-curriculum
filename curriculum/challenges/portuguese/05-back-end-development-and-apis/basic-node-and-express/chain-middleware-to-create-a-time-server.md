@@ -8,7 +8,7 @@ dashedName: chain-middleware-to-create-a-time-server
 
 # --description--
 
-O middleware pode ser montado em uma rota específica usando `app.METHOD(path, middlewareFunction)`. O middleware também pode ser encadeado nas definições de rota.
+Middleware can be mounted at a specific route using `app.METHOD(path, middlewareFunction)`. Middleware can also be chained within a route definition.
 
 Observe o exemplo abaixo:
 

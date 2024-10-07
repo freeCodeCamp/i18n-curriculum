@@ -14,7 +14,7 @@ dashedName: natural-language-processing-with-rnns-part-2
 
 ## --text--
 
-词嵌入是指...：
+Word embeddings are...:
 
 ## --answers--
 

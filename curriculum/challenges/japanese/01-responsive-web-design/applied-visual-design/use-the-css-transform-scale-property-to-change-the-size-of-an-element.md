@@ -9,7 +9,7 @@ dashedName: use-the-css-transform-scale-property-to-change-the-size-of-an-elemen
 
 # --description--
 
-要素の大きさを変更するために、CSS には `transform` プロパティと `scale()` 関数があります。 以下のコードの例は、ページ上のすべての段落要素のサイズを 2 倍にします。
+To change the scale of an element, CSS has the `transform` property, along with its `scale()` function. The following code example doubles the size of all the paragraph elements on the page:
 
 ```css
 p {

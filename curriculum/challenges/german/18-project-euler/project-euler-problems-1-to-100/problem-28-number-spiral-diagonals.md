@@ -18,7 +18,7 @@ Beginnend mit der Zahl 1 und im Uhrzeigersinn nach rechts wird eine 5-mal-5-Spir
   <div style='color: red; display: inline;'>17</div> 16 15 14 <div style='color: red; display: inline;'>13</div><br>
 </div>
 
-It can be verified that the sum of the numbers on the diagonals is 101.
+Es kann überprüft werden, dass die Summe der Zahlen auf den Diagonalen 101 ist.
 
 Wie hoch ist die Summe der Zahlen auf den Diagonalen einer `n` mal `n`-Spirale, die auf die gleiche Weise gebildet wird?
 

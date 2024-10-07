@@ -8,7 +8,7 @@ dashedName: using-the-test-method
 
 # --description--
 
-Expressões regulares são usadas em linguagens de programação para encontrar e extrair partes de strings. Cria-se padrões que ajudam a encontrar tais partes.
+Regular expressions are used in programming languages to match parts of strings. You create patterns to help you do that matching.
 
 Se você quiser encontrar a palavra `the` na string `The dog chased the cat`, você poderia usar a seguinte expressão regular: `/the/`. Note que aspas não são necessárias ao redor da expressão regular.
 

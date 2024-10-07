@@ -8,7 +8,7 @@ dashedName: create-a-stack-class
 
 # --description--
 
-前のセクションでは、スタックとは何か、配列を使用してスタックを表すにはどうすれば良いかについて説明しました。 このセクションでは、独自のスタッククラスを作成します。 配列を使ってスタックを作成することはできますが、スタックに対する制御量を制限するのがベストです。 スタックには、`push` メソッドと `pop` メソッド以外にも便利なメソッドがあります。 スタッククラスに `peek`、`isEmpty`、`clear` メソッドを追加しましょう。
+In the last section, we talked about what a stack is and how we can use an array to represent a stack. In this section, we will be creating our own stack class. Although you can use arrays to create stacks, sometimes it is best to limit the amount of control we have with our stacks. Apart from the `push` and `pop` method, stacks have other useful methods. Let's add a `peek`, `isEmpty`, and `clear` method to our stack class.
 
 # --instructions--
 

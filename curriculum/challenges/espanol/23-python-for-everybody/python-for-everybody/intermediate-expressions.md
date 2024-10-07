@@ -12,13 +12,13 @@ dashedName: intermediate-expressions
 
 # --description--
 
-More resources:
+Más recursos:
 
 \- <a href="https://youtu.be/t_4DPwsaGDY" target="_blank" rel="noopener noreferrer nofollow">Ejercicio 1</a>
 
 \- <a href="https://youtu.be/wgkC8SxraAQ" target="_blank" rel="noopener noreferrer nofollow">Ejercicio 2</a>
 
-# --questions--
+# --preguntas----preguntas--
 
 ## --text--
 

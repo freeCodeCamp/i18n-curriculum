@@ -9,7 +9,7 @@ dashedName: apply-the-flex-direction-property-to-create-rows-in-the-tweet-embed
 
 # --description--
 
-嵌入推文示例中的 `header` 和 `footer` 有自己的子元素，使用 `flex-direction` 屬性可以把這些子元素排成行。 這個屬性告訴 CSS 需要將這些子元素水平排列。
+The `header` and `footer` in the tweet embed example have child items that could be arranged as rows using the `flex-direction` property. This tells CSS to align the children horizontally.
 
 # --instructions--
 

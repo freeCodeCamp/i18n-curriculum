@@ -8,11 +8,11 @@ dashedName: test-if-a-value-is-an-array
 
 # --description--
 
-Vale lembrar que esse projeto está sendo feito conforme o projeto inicial <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow"> Gitpod </a> ou clonado do <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow"> GitHub </a>.
+As a reminder, this project is being built upon the following starter project on <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>, or cloned from <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
 
 # --instructions--
 
-Em `tests/1_unit-tests.js`, no teste de número `#11`, no grupo de testes `Arrays`, modifique cada `assert` para `assert.isArray` ou para `assert.isNotArray`, de maneira que cada teste passe (seja `true`). Não altere os argumentos passados às afirmações.
+Em `tests/1_unit-tests.js`, no teste de número `#11`, no grupo de testes `Arrays`, modifique cada `assert` para `assert.isArray` ou para `assert.isNotArray`, de maneira que cada teste passe (seja `true`). Não altere os argumentos passados para as assertivas.
 
 # --hints--
 

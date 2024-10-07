@@ -8,7 +8,7 @@ dashedName: breadth-first-search
 
 # --description--
 
-Hasta ahora, hemos aprendido diferentes formas de crear representaciones de grafos. ¿Y ahora qué? Una pregunta natural a tener es ¿cuál es la distancia entre dos cualquiera en el grafo? Introduciremos los <dfn>algoritmos de recorrido de grafos</dfn>.
+So far, we've learned different ways of creating representations of graphs. What now? One natural question to have is what are the distances between any two nodes in the graph? Enter <dfn>graph traversal algorithms</dfn>.
 
 <dfn>Los Algoritmos de Recorrido</dfn> son algoritmos para atravesar o visitar los nodos en un grafo. Un tipo de algoritmo de recorrido es el algoritmo de búsqueda en anchura.
 

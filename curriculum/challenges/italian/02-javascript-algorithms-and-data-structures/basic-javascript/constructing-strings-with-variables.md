@@ -9,7 +9,7 @@ dashedName: constructing-strings-with-variables
 
 # --description--
 
-A volte, avrai bisogno di costruire una stringa. Utilizzando l'operatore di concatenazione (`+`), puoi inserire una o più variabili in una stringa che stai costruendo.
+Sometimes you will need to build a string. By using the concatenation operator (`+`), you can insert one or more variables into a string you're building.
 
 Esempio:
 

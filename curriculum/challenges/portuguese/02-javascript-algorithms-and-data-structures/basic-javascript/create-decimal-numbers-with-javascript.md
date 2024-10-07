@@ -9,7 +9,7 @@ dashedName: create-decimal-numbers-with-javascript
 
 # --description--
 
-Nós também podemos armazenar números decimais em variáveis. Números decimais são às vezes referidos como números de <dfn>ponto flutuante</dfn> ou <dfn>floats</dfn>.
+We can store decimal numbers in variables too. Decimal numbers are sometimes referred to as <dfn>floating point</dfn> numbers or <dfn>floats</dfn>.
 
 **Observação:** ao computar números, eles são calculados com precisão finita. Operações que usam pontos flutuantes podem levar a resultados diferentes do resultado desejado. Se você estiver obtendo um desses resultados, abra um tópico no <a href="https://forum.freecodecamp.org/" target="_blank" rel="noopener noreferrer nofollow">fórum do freeCodeCamp</a>.
 

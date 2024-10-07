@@ -8,7 +8,7 @@ dashedName: add-a-version-to-your-package-json
 
 # --description--
 
-`version` 是 package.json 文件中必填字段之一， 這個字段描述了當前項目的版本， 下面是一個示例：
+A `version` is one of the required fields of your package.json file. This field describes the current version of your project. 如下所示：
 
 ```json
 "version": "1.2.0",

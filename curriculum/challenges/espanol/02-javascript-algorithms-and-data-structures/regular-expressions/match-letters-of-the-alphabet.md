@@ -8,7 +8,7 @@ dashedName: match-letters-of-the-alphabet
 
 # --description--
 
-Has visto cómo puedes usar los <dfn>conjuntos de caracteres</dfn> para especificar un grupo de caracteres a coincidir, pero eso requiere escribir mucho cuando necesitas coincidir con un amplio rango de caracteres (por ejemplo, cada letra en el alfabeto). Afortunadamente, hay una funcionalidad incorporada que hace esto corto y sencillo.
+You saw how you can use <dfn>character sets</dfn> to specify a group of characters to match, but that's a lot of typing when you need to match a large range of characters (for example, every letter in the alphabet). Fortunately, there is a built-in feature that makes this short and simple.
 
 Dentro de un conjunto de caracteres, puedes definir un rango de caracteres a coincidir usando un carácter de guion: `-`.
 

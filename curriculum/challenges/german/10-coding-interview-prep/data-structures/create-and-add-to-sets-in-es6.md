@@ -1,6 +1,6 @@
 ---
 id: 587d8254367417b2b2512c70
-title: Create and Add to Sets in ES6
+title: Erstellen und Hinzufügen zu Sets in ES6
 challengeType: 1
 forumTopicId: 301636
 dashedName: create-and-add-to-sets-in-es6
@@ -10,32 +10,32 @@ dashedName: create-and-add-to-sets-in-es6
 
 Now that you have worked through ES5, you are going to perform something similar in ES6. This will be considerably easier. ES6 contains a built-in data structure `Set` so many of the operations you wrote by hand are now included for you. Let's take a look:
 
-To create a new empty set:
+Um ein neues leeres Set zu erstellen:
 
 ```js
 var set = new Set();
 ```
 
-You can create a set with a value:
+Du kannst ein Set mit einem Wert erstellen:
 
 ```js
 var set = new Set(1);
 ```
 
-You can create a set with an array:
+Du kannst ein Set mit einem Array erstellen:
 
 ```js
 var set = new Set([1, 2, 3]);
 ```
 
-Once you have created a set, you can add the values you wish using the `add` method:
+Sobald du ein Set erstellt hast, kannst du die gewünschten Werte mit der Methode `add` hinzufügen:
 
 ```js
 var set = new Set([1, 2, 3]);
 set.add([4, 5, 6]);
 ```
 
-As a reminder, a set is a data structure that cannot contain duplicate values:
+Zur Erinnerung: Ein Set ist eine Datenstruktur, die keine doppelten Werte enthalten kann:
 
 ```js
 var set = new Set([1, 2, 3, 1, 2, 3]);
@@ -44,11 +44,11 @@ var set = new Set([1, 2, 3, 1, 2, 3]);
 
 # --instructions--
 
-For this exercise, return a set with the following values: `1, 2, 3, 'Taco', 'Cat', 'Awesome'`
+Für diese Übung gibst du ein Set mit den folgenden Werten zurück: `1, 2, 3, 'Taco', 'Cat', 'Awesome'`
 
 # --hints--
 
-Your `Set` should only contain the values `1, 2, 3, Taco, Cat, Awesome`.
+Dein `Set` sollte nur die Werte `1, 2, 3, Taco, Cat, Awesome` enthalten.
 
 ```js
 assert(

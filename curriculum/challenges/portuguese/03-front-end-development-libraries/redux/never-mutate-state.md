@@ -8,7 +8,7 @@ dashedName: never-mutate-state
 
 # --description--
 
-Estes desafios finais descrevem vários métodos de aplicação do princípio fundamental da imutabilidade do state em Redux. O state imutável significa que você nunca modifica o estado diretamente, em vez disso, você retorna uma nova cópia do estado.
+These final challenges describe several methods of enforcing the key principle of state immutability in Redux. Immutable state means that you never modify state directly, instead, you return a new copy of state.
 
 Se você tirasse um snapshot do estado de um aplicativo Redux ao longo do tempo, você veria algo como `state 1`, `state 2`, `state 3`,`state 4`, `...` e assim por diante onde cada estado pode ser semelhante ao último, mas cada um é um dado distinto. Esta imutabilidade, na verdade, é o que fornece recursos como a depuração de viagem no tempo (time-travel debugging) sobre o qual você pode ter ouvido a respeito.
 

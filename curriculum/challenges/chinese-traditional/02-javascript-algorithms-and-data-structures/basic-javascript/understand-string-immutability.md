@@ -9,7 +9,7 @@ dashedName: understand-string-immutability
 
 # --description--
 
-在 JavaScript 中，字符串（`String`）的值是不可變的（<dfn>immutable</dfn>），這意味着一旦字符串被創建就不能被改變。
+In JavaScript, `String` values are <dfn>immutable</dfn>, which means that they cannot be altered once created.
 
 例如，以下代碼將產生錯誤，因爲字符串 `Bob` 中的字母 `B` 不能更改爲字母 `J`：
 

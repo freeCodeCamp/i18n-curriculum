@@ -9,7 +9,7 @@ dashedName: understanding-boolean-values
 
 # --description--
 
-別のデータ型として<dfn>ブール値 (Boolean)</dfn> 型があります。 ブール値型は `true` または `false` のいずれか 1 つの値しか取りません。 基本的にはちょっとしたオン/オフスイッチとみなすことができ、`true` をオンに、`false` をオフに対応させることができます。 これら 2 つの状態は相互排他的です。
+Another data type is the <dfn>Boolean</dfn>. Booleans may only be one of two values: `true` or `false`. They are basically little on-off switches, where `true` is on and `false` is off. These two states are mutually exclusive.
 
 **注:** ブール値は引用符を付けて記述されることはありません。 文字列の `"true"` と `"false"` は ブール値ではなく、JavaScript では特別な意味を持ちません。
 

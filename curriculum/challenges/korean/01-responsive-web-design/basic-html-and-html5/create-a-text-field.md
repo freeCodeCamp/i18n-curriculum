@@ -9,7 +9,7 @@ dashedName: create-a-text-field
 
 # --description--
 
-이제 웹폼을 만들어보겠습니다.
+Now let's create a web form.
 
 `input` 요소는 사용자로부터 입력을 받는 편리한 방법입니다.
 

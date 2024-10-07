@@ -30,7 +30,7 @@ Passe neste exame para conquistar a certificação de Fundamentos de C# da Micro
 
 - Você deve concluir o exame inteiro em uma sessão.
 - Caso saia do exame a qualquer momento antes de terminar, você perderá o seu progresso.
-- Não há limite de tempo, mas seu tempo total será gravado.
+- There is no time limit, but your total time taken will be recorded.
 - O exame consiste em 80 questões de múltipla escolha.
 - Complete o exame e responda corretamente a, pelo menos, 70% das perguntas para receber sua certificação.
 

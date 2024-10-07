@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: accessing-and-changing-elements-rows-columns
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-¿Qué código cambiaría los valores en la tercera columna de los siguientes matrices Numpy a 20?
+What code would change the values in the 3rd column of both of the following Numpy arrays to 20?
 
 ```py
 a = np.array([[1, 2, 3, 4, 5], [6, 7, 8, 9, 10]])

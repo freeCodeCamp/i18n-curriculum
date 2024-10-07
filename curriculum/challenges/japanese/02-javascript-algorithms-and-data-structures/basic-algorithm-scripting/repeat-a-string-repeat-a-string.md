@@ -8,7 +8,7 @@ dashedName: repeat-a-string-repeat-a-string
 
 # --description--
 
-与えられた文字列 `str` (最初の引数) を `num` (2 番目の引数) 回繰り返してください。 `num` が正の数でない場合は、空の文字列を返してください。 このチャレンジでは、組み込みメソッドの `.repeat()` は*使用しないでください *。
+Repeat a given string `str` (first argument) for `num` times (second argument). Return an empty string if `num` is not a positive number. For the purpose of this challenge, do *not* use the built-in `.repeat()` method.
 
 # --hints--
 

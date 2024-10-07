@@ -8,7 +8,7 @@ dashedName: slice-and-splice
 
 # --description--
 
-يتم منحك قائمتين وترتيب (index).
+You are given two arrays and an index.
 
 انسخ كل عنصر من القائمة الأولى إلى القائمة الثانية، بالترتيب.
 

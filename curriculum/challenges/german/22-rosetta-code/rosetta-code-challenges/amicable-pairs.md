@@ -8,14 +8,14 @@ dashedName: amicable-pairs
 
 # --description--
 
-Two integers $N$ and $M$ are said to be amicable pairs if $N \\neq M$ and the sum of the proper divisors of $N$ ($\\mathrm{sum}(\\mathrm{propDivs}(N))$) $= M$ as well as $\\mathrm{sum}(\\mathrm{propDivs}(M)) = N$.
+Zwei Ganzzahlen $N$ und $M$ werden als befreundete Paare bezeichnet, wenn $N \\neq M$ und die Summe der geeigneten Teiler von $N$ ($\\mathrm{sum}(\\mathrm{propDivs}(N))$) $= M$ sowie $\\mathrm{sum}(\\mathrm{propDivs}(M)) = N$.
 
 **Beispiel:**
 
 **1184** und **1210** sind ein befreundetes Paar mit passenden Teilern:
 
 <ul>
-  <li>1, 2, 4, 8, 16, 32, 37, 74, 148, 296, 592 and</li>
+  <li>1, 2, 4, 8, 16, 32, 37, 74, 148, 296, 592 und</li>
   <li>1, 2, 5, 10, 11, 22, 55, 110, 121, 242, 605 jeweils.</li>
 </ul>
 

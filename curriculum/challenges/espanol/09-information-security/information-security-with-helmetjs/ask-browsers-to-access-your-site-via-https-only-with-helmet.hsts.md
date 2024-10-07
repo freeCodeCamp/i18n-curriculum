@@ -16,7 +16,7 @@ HTTP Strict Transport Security (HSTS) es una política de seguridad web que ayud
 
 Configura `helmet.hsts()` para usar HTTPS durante los próximos 90 días. Pasa el objeto de configuración `{maxAge: timeInSeconds, force: true}`. Puedes crear una variable `ninetyDaysInSeconds = 90*24*60*60;` para usar con `timeInSeconds`. Gitpod already has hsts enabled. Para anular su configuración, debes establecer el campo "force" a true en el objeto config. We will intercept and restore the Gitpod header, after inspecting it for testing.
 
-Note: Configuring HTTPS on a custom website requires the acquisition of a domain, and an SSL/TLS Certificate.
+Nota: Configurar HTTPS en un sitio web personalizado requiere la adquisición de un dominio, y un certificado SSL/TLS.
 
 # --hints--
 

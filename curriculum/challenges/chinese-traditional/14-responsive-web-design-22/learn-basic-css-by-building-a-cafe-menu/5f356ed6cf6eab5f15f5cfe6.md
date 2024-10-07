@@ -7,7 +7,7 @@ dashedName: step-20
 
 # --description--
 
-`div` 元素主要用於設計佈局，這與你迄今爲止使用的其他內容元素不同。 在 `body` 元素內添加一個 `div` 元素，然後將所有其他元素移到新的 `div` 內。
+The `div` element is used mainly for design layout purposes unlike the other content elements you have used so far. Add a `div` element inside the `body` element and then move all the other elements inside the new `div`.
 
 在 `div` 開始標籤中，添加一個值爲 `menu` 的 `id` 屬性。
 

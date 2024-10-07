@@ -7,14 +7,14 @@ dashedName: challenge-project-develop-branching-and-looping-structures-in-c-shar
 
 # --description--
 
-Diese Aufgabe wird teilweise auf der Microsoft Learn-Plattform gelöst. Folge diesen Anweisungen, um die Aufgabe zu lösen:
+Diese Aufgabe wird teilweise auf der Microsoft Learn Plattform erledigt. Folge diesen Anweisungen, um die Aufgabe zu lösen:
 
-1. Go to <a href="https://learn.microsoft.com/training/modules/challenge-project-develop-branching-looping-structures-c-sharp/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/challenge-project-develop-branching-looping-structures-c-sharp/</a> and complete all the tasks for the "Challenge Project - Develop Branching and Looping Structures in C#" module. Dies ist **erforderlich**, um die Trophäe "Add Logic to C# Console Applications" auf Microsoft Learn zu erwerben und sich für die Zertifizierungsprüfung zu qualifizieren.
+1. Gehe auf <a href="https://learn.microsoft.com/training/modules/challenge-project-develop-branching-looping-structures-c-sharp/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/challenge-project-develop-branching-looping-structures-c-sharp/</a> und erledige alle Aufgaben für das Modul "Challenge Project - Develop Branching and Looping Structures in C#". Dies ist **erforderlich**, um die Trophäe "Add Logic to C# Console Applications" auf Microsoft Learn zu erwerben und sich für die Zertifizierungsprüfung zu qualifizieren.
 1. Wenn du damit fertig bist, komme zurück und beantworte die folgende Frage richtig.
 
-# --assignment--
+# --Auftrag--
 
-Complete the <a href="https://learn.microsoft.com/training/modules/challenge-project-develop-branching-looping-structures-c-sharp/" target="_blank" rel="noreferrer">Develop Branching and Looping Structures in C#</a> challenge project on Microsoft Learn. Beantworte dann die Frage unten.
+Schließe das <a href="https://learn.microsoft.com/training/modules/challenge-project-develop-branching-looping-structures-c-sharp/" target="_blank" rel="noreferrer">Zweig- und Schleifstrukturen in C#</a> Challenge-Projekt unter Microsoft Learn ab. Beantworte dann die Frage unten.
 
 # --questions--
 

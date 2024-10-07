@@ -8,7 +8,7 @@ dashedName: use-the-spread-operator-to-evaluate-arrays-in-place
 
 # --description--
 
-ES6 пропонує <dfn>оператор розширення</dfn>, який дозволяє розширювати масиви та інші вирази в місцях, де очікуються декілька параметрів чи елементів.
+ES6 introduces the <dfn>spread operator</dfn>, which allows us to expand arrays and other expressions in places where multiple parameters or elements are expected.
 
 Нижчеподаний код ES5 використовує `apply()`, щоб вирахувати максимальне значення в масиві:
 

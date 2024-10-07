@@ -8,7 +8,7 @@ dashedName: how-to-use-passport-strategies
 
 # --description--
 
-在提供的 `index.pug` 文件中，有一个登录表格。 它被隐藏了，因为内联的 JavaScript `if showLogin` 和在它之后缩进的表单。
+In the `index.pug` file supplied, there is a login form. It is hidden because of the inline JavaScript `if showLogin` with the form indented after it.
 
 在页面的 `res.render` 中，为对象添加一个新变量：`showLogin: true`。 当你刷新你的页面时，应该能看到表单！ 此表单被设置为 `/login` 上的 **POST**。 所以，你应该在这里设置接受 POST 请求并认证用户。
 

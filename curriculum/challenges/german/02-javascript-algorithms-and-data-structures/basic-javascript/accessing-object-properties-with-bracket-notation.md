@@ -9,7 +9,7 @@ dashedName: accessing-object-properties-with-bracket-notation
 
 # --description--
 
-Die zweite Möglichkeit, auf die Eigenschaften eines Objekts zuzugreifen, ist die Klammerschreibweise (`[]`). Wenn die Eigenschaft des Objekts, auf das du zugreifen willst, ein Leerzeichen in ihrem Namen hat, musst du die Klammerschreibweise verwenden.
+The second way to access the properties of an object is bracket notation (`[]`). If the property of the object you are trying to access has a space in its name, you will need to use bracket notation.
 
 Du kannst die Klammerschreibweise jedoch auch für Objekteigenschaften ohne Leerzeichen verwenden.
 

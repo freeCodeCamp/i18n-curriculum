@@ -1,6 +1,6 @@
 ---
 id: 56533eb9ac21ba0edf2244c9
-title: Accessing Object Properties with Variables
+title: 변수로 객체 속성 접근하기
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cnQyKur'
 forumTopicId: 16165
@@ -11,7 +11,7 @@ dashedName: accessing-object-properties-with-variables
 
 Another use of bracket notation on objects is to access a property which is stored as the value of a variable. This can be very useful for iterating through an object's properties or when accessing a lookup table.
 
-Here is an example of using a variable to access a property:
+여기 속성에 접근하기 위해 변수를 사용하는 예시입니다:
 
 ```js
 const dogs = {
@@ -25,47 +25,47 @@ const myBreed = dogs[myDog];
 console.log(myBreed);
 ```
 
-The string `Doberman` would be displayed in the console.
+문자열 `Doberman`이 콘솔에 출력될 것입니다.
 
-Note that we do *not* use quotes around the variable name when using it to access the property because we are using the *value* of the variable, not the *name*.
+변수의 *이름*이 아니고 변수의 *값*을 사용하기 때문에 변수를 사용하여 속성에 접근할 때 변수 이름 주위에 따옴표를 사용하지 않는다는 점에 유의하시오.
 
 # --instructions--
 
-Set the `playerNumber` variable to `16`. Then, use the variable to look up the player's name and assign it to `player`.
+`playerNumber` 변수를 `16`으로 설정하시오. 그런 다음 선수의 이름을 찾을 수 있도록 해당 변수를 사용하고 그 변수를 `player`에 할당하시오.
 
 # --hints--
 
-`playerNumber` should be a number
+`playerNumber`는 숫자이어야 합니다.
 
 ```js
 assert(typeof playerNumber === 'number');
 ```
 
-The variable `player` should be a string
+변수 `player`는 문자열이어야 합니다.
 
 ```js
 assert(typeof player === 'string');
 ```
 
-The value of `player` should be the string `Montana`
+`player`의 값은 문자열 `Montana`이어야 합니다.
 
 ```js
 assert(player === 'Montana');
 ```
 
-You should use bracket notation to access `testObj`
+`testObj`에 접근하기 위해 괄호 표기법을 사용해야 합니다.
 
 ```js
 assert(/testObj\s*?\[.*?\]/.test(__helpers.removeJSComments(code)));
 ```
 
-You should not assign the value `Montana` to the variable `player` directly.
+값 `Montana`를 변수 `player`에 바로 할당하지 않아야 합니다.
 
 ```js
 assert(!__helpers.removeJSComments(code).match(/player\s*=\s*"|\'\s*Montana\s*"|\'\s*;/gi));
 ```
 
-You should be using the variable `playerNumber` in your bracket notation
+괄호 표기법에 변수 `playerNumber`를 사용해야 합니다.
 
 ```js
 assert(/testObj\s*?\[\s*playerNumber\s*\]/.test(__helpers.removeJSComments(code)));

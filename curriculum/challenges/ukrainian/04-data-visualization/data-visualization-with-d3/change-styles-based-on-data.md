@@ -8,7 +8,7 @@ dashedName: change-styles-based-on-data
 
 # --description--
 
-D3 стосується візуалізації та представлення даних. Ймовірно, що на основі даних ви захочете змінити стиль елементів. Наприклад, ви можете зафарбувати точку даних блакитним кольором, якщо її значення менше ніж 20, або червоним, якщо навпаки. Ви можете використати функцію зворотного виклику в методі `style()` та включити умовну логіку. Функція зворотного виклику використовує параметр `d`, щоб представити точку даних:
+D3 is about visualization and presentation of data. It's likely you'll want to change the styling of elements based on the data. For example, you may want to color a data point blue if it has a value less than 20, and red otherwise. You can use a callback function in the `style()` method and include the conditional logic. The callback function uses the `d` parameter to represent the data point:
 
 ```js
 selection.style("color", (d) => {

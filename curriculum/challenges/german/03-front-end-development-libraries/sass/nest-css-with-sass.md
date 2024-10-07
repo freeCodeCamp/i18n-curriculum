@@ -8,7 +8,7 @@ dashedName: nest-css-with-sass
 
 # --description--
 
-Mit Sass kannst du CSS-Regeln verschachteln, was eine nützliche Methode ist, um ein Stylesheet zu organisieren.
+Sass allows nesting of CSS rules, which is a useful way of organizing a style sheet.
 
 Normalerweise wird jedes Element auf eine andere Zeile ausgerichtet, um es zu stylen, etwa so:
 

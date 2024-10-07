@@ -9,7 +9,7 @@ dashedName: count-backwards-with-a-for-loop
 
 # --description--
 
-Eine for-Schleife kann auch rückwärts zählen, solange wir die richtigen Bedingungen definieren können.
+A for loop can also count backwards, so long as we can define the right conditions.
 
 Um jede Iteration um zwei zu dekrementieren, müssen wir unsere Initialisierung, die Bedingung und den abschließenden Ausdruck ändern.
 

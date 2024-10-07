@@ -8,7 +8,7 @@ dashedName: match-literal-strings
 
 # --description--
 
-지난 도전 과제에서 정규 표현식 `/Hello/`를 사용하여 `Hello`라는 단어를 검색했습니다. 그 정규 표현식은 문자열 `Hello`의 리터럴 일치를 검색했습니다. 문자열 `Kevin`의 리터럴 일치를 검색하는 또 다른 예는 다음과 같습니다.
+In the last challenge, you searched for the word `Hello` using the regular expression `/Hello/`. That regex searched for a literal match of the string `Hello`. Here's another example searching for a literal match of the string `Kevin`:
 
 ```js
 let testStr = "Hello, my name is Kevin.";

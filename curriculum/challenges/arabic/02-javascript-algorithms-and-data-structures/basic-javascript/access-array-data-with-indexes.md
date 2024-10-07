@@ -9,13 +9,13 @@ dashedName: access-array-data-with-indexes
 
 # --description--
 
-يمكننا الوصول إلى البيانات داخل القائمات باستخدام <dfn>الترتيب</dfn>.
+We can access the data inside arrays using <dfn>indexes</dfn>.
 
 array indexes تكتب بنفس الأقواس التي تستخدم في المقاطع النصية (strings)، باستثناء أنه بدلاً من تحديد رمز، فإنهم يحددون عنصرا في القائمة (array). مثل المقاطع النصية، فإن القائمات تستخدم <dfn>ترتيب من الصفر</dfn>، لذا فإن رَقَم ترتيب (index) العنصر الأول في القائمة `0`.
 
 <br>
 
-**على سبيل المثال**
+**مثال**
 
 ```js
 const array = [50, 60, 70];

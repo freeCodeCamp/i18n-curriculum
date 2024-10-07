@@ -8,7 +8,7 @@ dashedName: get-geolocation-data-to-find-a-users-gps-coordinates
 
 # --description--
 
-Інша класна дія, яку ви можете зробити, — отримати доступ до поточного місцезнаходження користувача. Кожен браузер має вбудований навігатор, який може надати цю інформацію.
+Another cool thing you can do is access your user's current location. Every browser has a built in navigator that can give you this information.
 
 Навігатор надасть доступ до довготи та широти користувача.
 

@@ -8,9 +8,9 @@ demoType: onClick
 
 # --description--
 
-**Objective:** Fulfill the user stories below and get all the tests to pass to complete the lab.
+Fulfill the user stories below and get all the tests to pass to complete the lab.
 
-**User Stories:**
+**用户需求:**
 
 1. Your portfolio should have a welcome section with an `id` of `welcome-section`.
 2. The welcome section should have an `h1` element that contains text.
@@ -28,14 +28,14 @@ demoType: onClick
 
 # --hints--
 
-Your portfolio should have a "Welcome" section with an `id` of `welcome-section`.
+你的作品集应该有一个 `id` 为 `welcome-section` 的欢迎部分。
 
 ```js
 const el = document.getElementById('welcome-section')
 assert(!!el);
 ```
 
-Your `#welcome-section` element should contain an `h1` element.
+你的 `#welcome-section` 元素应该包含一个 `h1` 元素。
 
 ```js
 assert.isAbove(
@@ -45,7 +45,7 @@ assert.isAbove(
 );
 ```
 
-You should not have any empty `h1` elements within `#welcome-section` element.
+在 `#welcome-section` 元素中，你不应该有任何空的 `h1` 元素。
 
 ```js
 assert.isAbove(
@@ -63,7 +63,7 @@ const el = document.getElementById('project-section')
 assert(!!el);
 ```
 
-Your portfolio should contain at least one element with a class of `project-tile`.
+你的作品集应该包含至少一个 class 为 `project-tile` 的元素。
 
 ```js
 assert.isAbove(
@@ -78,14 +78,14 @@ Your `#project-section` element should contain at least one `a` element.
 assert.isAbove(document.querySelectorAll('#project-section a').length, 0);
 ```
 
-Your portfolio should have a navbar with an `id` of `navbar`.
+你的作品集应该有一个 `id` 为 `navbar` 的导航栏。
 
 ```js
 const el = document.getElementById('navbar');
 assert(!!el);
 ```
 
-Your `#navbar` element should contain at least one `a` element whose `href` attribute starts with `#`.
+你的 `#navbar` 元素应该包含至少一个 `a` 元素，它的 `href` 属性以 `#` 开头。
 
 ```js
 const links = [...document.querySelectorAll('#navbar a')].filter(
@@ -99,21 +99,21 @@ assert.isAbove(
 );
 ```
 
-Your portfolio should have an `a` element with an `id` of `profile-link`.
+你的作品集应该有一个 `id` 为 `profile-link` 的 `a` 元素。
 
 ```js
 const el = document.getElementById('profile-link');
 assert(!!el && el.tagName === 'A')
 ```
 
-Your `#profile-link` element should have a `target` attribute of `_blank`.
+你的 `#profile-link` 元素应该有一个值为 `_blank` 的 `target` 属性。
 
 ```js
 const el = document.getElementById('profile-link');
 assert(!!el && el.target === '_blank')
 ```
 
-Your portfolio should use at least one media query.
+你的作品集应该至少有一个媒体查询。
 
 ```js
 const htmlSourceAttr = Array.from(document.querySelectorAll('source')).map(el => el.getAttribute('media'))
@@ -121,7 +121,7 @@ const cssCheck = new __helpers.CSSHelp(document).getCSSRules('media')
 assert(cssCheck.length > 0 || htmlSourceAttr.length > 0);
 ```
 
-Your `#navbar` element should always be at the top of the viewport.
+你的 `#navbar` 元素应该始终位于视口的顶部。
 
 ```js
 (async () => {

@@ -1,6 +1,6 @@
 ---
 id: 5900f4621000cf542c50ff75
-title: 'Problem 246: Tangents to an ellipse'
+title: 'Problem 246: Tangenten an einer Ellipse'
 challengeType: 1
 forumTopicId: 301893
 dashedName: problem-246-tangents-to-an-ellipse
@@ -8,31 +8,31 @@ dashedName: problem-246-tangents-to-an-ellipse
 
 # --description--
 
-A definition for an ellipse is:
+Eine Definition für eine Ellipse ist:
 
-Given a circle $c$ with centre $M$ and radius $r$ and a point $G$ such that $d(G, M) < r$, the locus of the points that are equidistant from $c$ and $G$ form an ellipse.
+Bei einem Kreis $c$ mit Mittelpunkt $M$ und Radius $r$ und einem Punkt $G$, für den gilt: $d(G, M) < r$, bildet die Ortskurve der Punkte, die von $c$ und $G$ gleich weit entfernt sind, eine Ellipse.
 
-The construction of the points of the ellipse is shown below.
+Die Konstruktion der Punkte der Ellipse ist unten dargestellt.
 
-<img alt="animation of ellipse construction" src="https://cdn.freecodecamp.org/curriculum/project-euler/tangents-to-an-ellipse-1.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
+<img alt="Animation der Ellipsenkonstruktion" src="https://cdn.freecodecamp.org/curriculum/project-euler/tangents-to-an-ellipse-1.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-Given are the points $M(-2000, 1500)$ and $G(8000, 1500)$.
+Gegeben sind die Punkte $M(-2000, 1500)$ und $G(8000, 1500)$.
 
-Given is also the circle $c$ with centre $M$ and radius $15\\,000$.
+Gegeben ist auch der Kreis $c$ mit Mittelpunkt $M$ und Radius $15\\,000$.
 
-The locus of the points that are equidistant from $G$ and $c$ form an ellipse $e$.
+Die Ortskurve der Punkte, die von $G$ und $c$ gleich weit entfernt sind, bildet eine Ellipse $e$.
 
-From a point $P$ outside $e$ the two tangents $t_1$ and $t_2$ to the ellipse are drawn.
+Von einem Punkt $P$ außerhalb von $e$ werden die beiden Tangenten $t_1$ und $t_2$ an die Ellipse eingezeichnet.
 
-Let the points where $t_1$ and $t_2$ touch the ellipse be $R$ and $S$.
+Die Punkte, an denen $t_1$ und $t_2$ die Ellipse berühren, seien $R$ und $S$.
 
-<img alt="circle c with the centre M, radius 15000, and point P outsie of ellipse e; from point P two tangents t_1 and t_2 are drawn to the ellipse, with points touching ellipse are R and S" src="https://cdn.freecodecamp.org/curriculum/project-euler/tangents-to-an-ellipse-2.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
+<img alt="Kreis c mit dem Mittelpunkt M, Radius 15000, und Punkt P außerhalb der Ellipse e; vom Punkt P werden zwei Tangenten t_1 und t_2 an die Ellipse gezogen, wobei die Punkte R und S die Ellipse berühren" src="https://cdn.freecodecamp.org/curriculum/project-euler/tangents-to-an-ellipse-2.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-For how many lattice points $P$ is angle $RPS$ greater than 45°?
+Für wie viele Gitterpunkte $P$ ist der Winkel $RPS$ größer als 45°?
 
 # --hints--
 
-`tangentsToAnEllipse()` should return `810834388`.
+`tangentsToAnEllipse()` sollte `810834388` zurückgeben.
 
 ```js
 assert.strictEqual(tangentsToAnEllipse(), 810834388);

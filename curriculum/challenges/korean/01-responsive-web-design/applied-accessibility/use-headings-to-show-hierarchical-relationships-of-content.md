@@ -9,7 +9,7 @@ dashedName: use-headings-to-show-hierarchical-relationships-of-content
 
 # --description--
 
-헤딩(`h1`부터 `h6` 요소)은 콘텐츠에 구조와 레이블을 제공하는 중요한 태그입니다. 스크린 리더는 페이지에서 제목만 읽도록 설정될 수 있어 사용자에게 요약 정보를 제공합니다. 마크업에서 사용하는 헤딩 태그는 시맨틱적인 의미를 지니고 있고 서로 관련이 있어야 하며, 크기 값만을 고려하여 선택되어서는 안 됩니다.
+Headings (`h1` through `h6` elements) are workhorse tags that help provide structure and labeling to your content. Screen readers can be set to read only the headings on a page so the user gets a summary. This means it is important for the heading tags in your markup to have semantic meaning and relate to each other, not be picked merely for their size values.
 
 *시맨틱적 의미*란 컨텐츠를 포함하는 태그가 해당 정보의 유형을 나타낸다는 것을 의미합니다.
 

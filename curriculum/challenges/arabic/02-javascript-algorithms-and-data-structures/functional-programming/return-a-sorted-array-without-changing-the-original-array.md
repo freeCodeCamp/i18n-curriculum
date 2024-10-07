@@ -8,7 +8,7 @@ dashedName: return-a-sorted-array-without-changing-the-original-array
 
 # --description--
 
-التأثير الجانبي لطريقة `sort` هو أنخها تغير ترتيب العناصر في القائمة (array) الأصلية. وبعبارة أخرى، فإنه يغير ال array في مكانها. إحدى الطرق لتجنب ذلك هي أن تقوم أولاً بلزق array فارغة إلى ال array التي يتم فرزها (تذكر أن `slice` و `concat` تعيد array جديدة)، ثم قم بتشغيل `sort`.
+A side effect of the `sort` method is that it changes the order of the elements in the original array. In other words, it mutates the array in place. One way to avoid this is to first concatenate an empty array to the one being sorted (remember that `slice` and `concat` return a new array), then run the `sort` method.
 
 # --instructions--
 

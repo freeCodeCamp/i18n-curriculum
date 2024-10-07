@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedf08804
-title: Comment out HTML
+title: التعليق على HTML (Comment out HTML)
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVMPUv/cGyGbca'
 forumTopicId: 16782
@@ -11,39 +11,39 @@ dashedName: comment-out-html
 
 Remember that in order to start a comment, you need to use `<!--` and to end a comment, you need to use `-->`
 
-Here you'll need to end the comment before your `h2` element begins.
+هنا ستحتاج إلى إنهاء التعليق قبل أن يبدأ عنصر `h2` الخاص بك.
 
 # --instructions--
 
-Comment out your `h1` element and your `p` element, but not your `h2` element.
+قم بالتعليق على عنصر `h1` وعنصر `p` الخاص بك، ولكن ليس عنصر `h2` الخاص بك.
 
 # --hints--
 
-Your `h1` element should be commented out so that it is not visible on the page.
+يجب تحويل العنصر `h1` الخاص بك إلى تعليق حتى لا يكون مرئيًا على الصفحة.
 
 ```js
 assert($('h1').length === 0);
 ```
 
-Your `h2` element should not be commented out so that it is visible on the page.
+لا تحول العنصر `h2` إلى تعليق حتى يكون مرئيا على الصفحة.
 
 ```js
 assert($('h2').length > 0);
 ```
 
-Your `p` element should be commented out so that it is not visible on the page.
+يجب تحويل العنصر `p` الخاص بك إلى تعليق حتى لا يكون مرئيًا على الصفحة.
 
 ```js
 assert($('p').length === 0);
 ```
 
-Each of your comments should be closed with `-->`.
+كل من تعليقاتك يجب أن تكون مغلقة باستخدام `-->`.
 
 ```js
 assert(code.match(/[^fc]-->/g).length > 1);
 ```
 
-You should not change the order of the `h1`, `h2`, or `p` elements in the code.
+يجب ألا تغير ترتيب عناصر الـ `h1` و `h2` و `p` في الكود.
 
 ```js
 assert(

@@ -8,7 +8,7 @@ dashedName: adjacency-matrix
 
 # --description--
 
-グラフを表すもう一つの方法は、<dfn>隣接行列</dfn>に入れることです。 <dfn>隣接行列</dfn>は二次元 (2D) 配列で、入れ子になった各配列は外側の配列と同じ数の要素を持っています。 言い換えれば、数字の行列または格子であり、数字はエッジ (枝) を表します。
+Another way to represent a graph is to put it in an <dfn>adjacency matrix</dfn>. An <dfn>adjacency matrix</dfn> is a two-dimensional (2D) array where each nested array has the same number of elements as the outer array. In other words, it is a matrix or grid of numbers, where the numbers represent the edges.
 
 **注**: 行列の上と左の数字は、ノードの単なるラベルです。 行列内の 1 は、行と列を表す頂点 (ノード) の間にエッジが存在することを意味します。 最後に、0 はエッジ (関係) がないことを意味します。
 

@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443edefaeb5bd0f
-title: File Metadata Microservice
+title: Datei-Metadaten-Microservice
 challengeType: 4
 dashedName: file-metadata-microservice
 ---
@@ -10,8 +10,8 @@ dashedName: file-metadata-microservice
 Build a full stack JavaScript app that is functionally similar to this: <a href="https://file-metadata-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://file-metadata-microservice.freecodecamp.rocks</a>. Working on this lab will involve you writing your code using one of the following methods:
 
 -   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-filemetadata/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
--   Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-filemetadata/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete your project.
--   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
+-   Verwende <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-filemetadata/" target="_blank" rel="noopener noreferrer nofollow">unser Gitpod-Starteprojekt</a>, um dein Projekt abzuschließen.
+-   Benutze einen Website-Builder deiner Wahl, um das Projekt abzuschließen. Achte darauf, alle Dateien von unserem GitHub-Repo zu integrieren.
 
 # --instructions--
 
@@ -19,7 +19,7 @@ Build a full stack JavaScript app that is functionally similar to this: <a href=
 
 # --hints--
 
-You should provide your own project, not the example URL.
+Du solltest dein eigenes Projekt bereitstellen, nicht die Beispiel-URL.
 
 ```js
 (getUserInput) => {

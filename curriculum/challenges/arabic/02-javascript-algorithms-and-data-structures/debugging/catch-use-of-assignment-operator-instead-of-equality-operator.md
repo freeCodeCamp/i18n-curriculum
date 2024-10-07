@@ -8,7 +8,7 @@ dashedName: catch-use-of-assignment-operator-instead-of-equality-operator
 
 # --description--
 
-البرامج المتفرعة، أي تلك الذي تقوم بأشياء مختلفة إذا تم الوفاء بشروط معينة، تعتمد على بيانات `if`, و `else if`, و `else` في JavaScript. يأخذ الشرط أحيانًا شكل اختبار ما إذا كانت النتيجة مساوية لقيمة.
+Branching programs, i.e. ones that do different things if certain conditions are met, rely on `if`, `else if`, and `else` statements in JavaScript. The condition sometimes takes the form of testing whether a result is equal to a value.
 
 هذا المنطق ينطق (باللغة الإنجليزية، على الأقل) كـ "... if x equals y, then" الذي يمكن ترجمته حرفية إلى كود باستخدام `=` أو مشغل التعيين. هذا يؤدي إلى جعل برنامجك يعمل بشكل غير متوقع.
 

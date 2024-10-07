@@ -1,6 +1,6 @@
 ---
 id: 5900f3971000cf542c50feaa
-title: 'Problem 43: Sub-string divisibility'
+title: 'Problem 43: Teilbarkeit von Sub-Strings'
 challengeType: 1
 forumTopicId: 302100
 dashedName: problem-43-sub-string-divisibility
@@ -8,7 +8,7 @@ dashedName: problem-43-sub-string-divisibility
 
 # --description--
 
-The number, 1406357289, is a 0 to 9 pandigital number because it is made up of each of the digits 0 to 9 in some order, but it also has a rather interesting sub-string divisibility property.
+Die Zahl 1406357289 ist eine Pandigitalzahl von 0 bis 9, weil sie aus den Ziffern 0 bis 9 in einer bestimmten Reihenfolge besteht, aber sie hat auch eine interessante Eigenschaft: Sie ist teilbar.
 
 Sei $d_1$ die $1^{st}$-Ziffer, $d_2$ die $2^{nd}$-Ziffer, und so weiter. Auf diese Weise können wir Folgendes feststellen:
 

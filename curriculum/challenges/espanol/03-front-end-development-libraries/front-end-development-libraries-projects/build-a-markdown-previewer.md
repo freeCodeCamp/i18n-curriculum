@@ -9,27 +9,27 @@ dashedName: build-a-markdown-previewer
 # --description--
 **Note:** **React 18 has known incompatibilities with the tests for this project (see [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://markdown-previewer.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://markdown-previewer.freecodecamp.rocks/</a>.
+**Objectivo:** Construir una aplicación que sea funcionalmente similar a esta: <a href="https://markdown-previewer.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://markdown-previewer.freecodecamp.rocks/</a>.
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+Completa las siguientes historias de usuario y consigue que todas las pruebas sean aprobadas. Utilice las bibliotecas o API que necesite. Dale tu estilo personal.
 
-You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and jQuery to complete this project. You should use a frontend framework (like React for example) because this section is about learning frontend frameworks. Additional technologies not listed above are not recommended and using them is at your own risk. We are looking at supporting other frontend frameworks like Angular and Vue, but they are not currently supported. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
+Puedes utilizar cualquier combinición de HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, y jQuery para completar este proyecto. Debes usar un framework de frontend (por ejemplo React), ya que esta sección es sobre el aprendizaje de este tipo de frameworks. No se recomienda utilizar tecnologías adicionales que no hayan sido mencionadas, su uso corre bajo tu propio riesgo. Estamos considerando soportar otros frameworks frontend como Angular y Vue, pero actualmente no les estamos dando soporte. Aceptaremos e intentaremos solucionar todos los reportes de problemas que utilicen el conjunto de tecnologías sugerido para este proyecto. ¡Feliz programación!
 
-**User Story #1:** I can see a `textarea` element with a corresponding `id="editor"`.
+**Historia de usuario #1:** Puedo ver un elemento `textarea` con el correspondiente `id="editor"`.
 
-**User Story #2:** I can see an element with a corresponding `id="preview"`.
+**Historia de Usuario #2:** Puedo ver un elemento con eI correspondiente `id="preview"`.
 
-**User Story #3:** When I enter text into the `#editor` element, the `#preview` element is updated as I type to display the content of the textarea.
+**Historia de Usuario #3:** Cuando ingreso el texto en el elemento `#editor`, el elemento `#preview` se actualiza a medida que escribo para mostrar el contenido del área de texto.
 
-**User Story #4:** When I enter GitHub flavored markdown into the `#editor` element, the text is rendered as HTML in the `#preview` element as I type (HINT: You don't need to parse Markdown yourself - you can import the Marked library for this: <https://cdnjs.com/libraries/marked>).
+**Historia de Usuario #4:** Cuando introduzco markdown tipo Github en el elemento `#editor`,el texto es rederidazo como HTML en el elemento `#preview` mientras escribo (PISTA: Es innecesario que analices Markdown tú mismo, para ello puedes importar la biblioteca Marked: <https://cdnjs.com/libraries/marked>).
 
-**User Story #5:** When my markdown previewer first loads, the default text in the `#editor` field should contain valid markdown that represents at least one of each of the following elements: a heading element (H1 size), a sub heading element (H2 size), a link, inline code, a code block, a list item, a blockquote, an image, and bolded text.
+**Historia de usuario #5:** Cuando se carga por primera vez mi previsualizador de lenguaje de marcado, el texto por defecto en el campo `#editor` debe contener código de Markdown válido que represente al menos uno de los siguientes elementos: un encabezado (tamaño H1), un subencabezado (tamaño H2), un enlace, código en línea, un bloque de código, un elemento de lista, una cita en bloque, una imagen y texto en negrita.
 
-**User Story #6:** When my markdown previewer first loads, the default markdown in the `#editor` field should be rendered as HTML in the `#preview` element.
+**Historia de usuario #6:** Cuando se carga mi previsualizador de markdown, el texto de markdown predeterminado en el campo `#editor` debe ser visualizado como HTML en el elemento `#preview`.
 
-**Optional Bonus (you do not need to make this test pass):** My markdown previewer interprets carriage returns and renders them as `br` (line break) elements.
+**Historia opcional (No necesitas hacer esto para pasar esta prueba):** Mi previsualizador de markdown interpreta los retornos de carro y los visualiza como elementos `br` (salto de línea).
 
-You can build your project by <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">using this CodePen template</a> and clicking `Save` to create your own pen. O puedes usar este enlace CDN para ejecutar las pruebas en el ambiente que más te guste: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
+Puedes construir tu proyecto <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">usando esta plantilla de CodePen</a> y seleccionando `Save` (Guardar) para crear tu propio documento de CodePen. O puedes usar este enlace CDN para ejecutar las pruebas en el ambiente que más te guste: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
 
 Una vez que hayas terminado, envía la URL a tu proyecto de trabajo con todas sus pruebas verificadas.
 

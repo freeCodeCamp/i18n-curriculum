@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: copying-arrays-warning
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-¿Cual es el valor de `a` después de ejecutar el siguiente código?
+What is the value of `a` after running the following code?
 
 ```py
 import numpy as np

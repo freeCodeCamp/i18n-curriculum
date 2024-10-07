@@ -1,13 +1,13 @@
 ---
 id: 5f3cade99dda4e6071a85dfd
-title: Step 46
+title: Крок 46
 challengeType: 0
 dashedName: step-46
 ---
 
 # --description--
 
-You will come back to styling the menu in a few steps, but for now, go ahead and add a second `section` element below the first for displaying the desserts offered by the cafe.
+Через декілька кроків ви повернетесь до стилізації сторінки, а зараз додайте другий елемент `section` під першим, щоб зобразити десерти в кафе.
 
 # --hints--
 
@@ -29,7 +29,7 @@ assert.lengthOf(code.match(/<\/section>/ig) ,2);
 assert.lengthOf (document.querySelectorAll('main'), 1);
 ```
 
-Your new `section` element should be nested in the `main` element.
+Новий елемент `section` повинен бути вкладеним в елементі `main`.
 
 ```js
 const main = document.querySelector('main');

@@ -20,7 +20,7 @@ Complete o módulo <a href="https://learn.microsoft.com/training/modules/csharp-
 
 ## --text--
 
-Para o código em C#, `Console.WriteLine("C110".PadLeft(6, '0'));`, qual é a saída esperada?
+For the C# code `Console.WriteLine("C110".PadLeft(6, '0'));`, which is the expected output?
 
 ## --answers--
 

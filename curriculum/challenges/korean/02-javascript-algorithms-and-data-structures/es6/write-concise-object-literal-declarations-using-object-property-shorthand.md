@@ -8,7 +8,7 @@ dashedName: write-concise-object-literal-declarations-using-object-property-shor
 
 # --description--
 
-ES6에서는 쉽게 객체 리터럴을 정의할 수 있는 문법을 지원합니다.
+ES6 adds some nice support for easily defining object literals.
 
 아래 코드를 주의 깊게 읽어보세요.
 

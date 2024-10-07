@@ -7,7 +7,7 @@ dashedName: step-18
 
 # --description--
 
-Chini ya kipengele chako cha `.text`, unda kipengele kipya cha `section` na ukikabidhi `class` ya `text text-with-images`. Ndani ya hayo, unda kipengele cha `article` chenye `class` iliyowekwa kuwa `brief-history`, na kipengele cha `aside` kilicho na `class` iliyowekwa kuwa `image-wrapper`.
+Below your `.text` element, create a new `section` element and give it a `class` of `text text-with-images`. Within that, create an `article` element with a `class` set to `brief-history`, and an `aside` element with the `class` set to `image-wrapper`.
 
 # --hints--
 

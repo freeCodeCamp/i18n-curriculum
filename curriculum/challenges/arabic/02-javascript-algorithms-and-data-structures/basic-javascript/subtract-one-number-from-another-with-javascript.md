@@ -9,7 +9,7 @@ dashedName: subtract-one-number-from-another-with-javascript
 
 # --description--
 
-يمكننا أيضا أن نطرح رقما من رقما آخر.
+We can also subtract one number from another.
 
 يستخدم JavaScript رمز `-` للطرح.
 

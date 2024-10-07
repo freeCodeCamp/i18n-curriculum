@@ -8,7 +8,7 @@ dashedName: delete-one-document-using-model-findbyidandremove
 
 # --description--
 
-`findByIdAndRemove` 和 `findOneAndRemove` 类似于我们之前的更新方法， 它们将被删除的 document 传给数据库。 和之前一样，使用函数参数 `personId` 作为查询关键字。
+`findByIdAndRemove` and `findOneAndRemove` are like the previous update methods. They pass the removed document to the db. As usual, use the function argument `personId` as the search key.
 
 # --instructions--
 

@@ -82,19 +82,19 @@ Usando el algoritmo de Markov, cambia los `data` a los `outputs` deseados, usand
 assert(typeof markov === 'function');
 ```
 
-`markov(["A -> apple","B -> bag","S -> shop","T -> the","the shop -> my brother","a never used -> .terminating rule"],"I bought a B of As from T S.")` debe devolver el "string" `I bought a bag of apples from my brother.`, que traducido sería "Yo compre una bolsa de manzanas a mi hermano".
+`markov(["A -> apple","B -> bag","S -> shop","T -> the","the shop -> my brother","a never used -> .terminating rule"],"I bought a B of As from T S.")` should return the string `I bought a bag of apples from my brother.`.
 
 ```js
 assert.deepEqual(markov(rules[0], datas[0]), outputs[0]);
 ```
 
-`markov(["A -> apple","B -> bag","S -> .shop","T -> the","the shop -> my brother","a never used -> .terminating rule"],"I bought a B of As from T S.")` debe devolver el string `I bought a bag of apples from T shop.`. que traducido sería "Compré una bolsa de manzanas de la tienda T".
+`markov(["A -> apple","B -> bag","S -> .shop","T -> the","the shop -> my brother","a never used -> .terminating rule"],"I bought a B of As from T S.")` should return the string `I bought a bag of apples from T shop.`.
 
 ```js
 assert.deepEqual(markov(rules[1], datas[1]), outputs[1]);
 ```
 
-`markov(["A -> apple","WWWW -> with","Bgage -> ->.*","B -> bag","->.* -> money","W -> WW","S -> .shop","T -> the","the shop -> my brother","a never used -> .terminating rule"],"I bought a B of As W my Bgage from T S.")` debería devolver el string `I bought a bag of apples with my money from T shop.`, que traducido sería "Yo compre una bolsa de manzanas con mi dinero de la tienda T".
+`markov(["A -> apple","WWWW -> with","Bgage -> ->.*","B -> bag","->.* -> money","W -> WW","S -> .shop","T -> the","the shop -> my brother","a never used -> .terminating rule"],"I bought a B of As W my Bgage from T S.")` should return the string `I bought a bag of apples with my money from T shop.`.
 
 ```js
 assert.deepEqual(markov(rules[2], datas[2]), outputs[2]);
@@ -106,7 +106,7 @@ assert.deepEqual(markov(rules[2], datas[2]), outputs[2]);
 assert.deepEqual(markov(rules[3], datas[3]), outputs[3]);
 ```
 
-`markov(["A0 -> 1B","0A1 -> C01","1A1 -> C11","0B0 -> A01","1B0 -> A11","B1 -> 1B","0C0 -> B01","1C0 -> B11","0C1 -> H01","1C1 -> H11"],"")` debería devolver la cadena `00011H1111000`.
+`markov(["A0 -> 1B","0A1 -> C01","1A1 -> C11","0B0 -> A01","1B0 -> A11","B1 -> 1B","0C0 -> B01","1C0 -> B11","0C1 -> H01","1C1 -> H11"],"")` should return the string `00011H1111000`.
 
 ```js
 assert.deepEqual(markov(rules[4], datas[4]), outputs[4]);

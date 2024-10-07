@@ -8,7 +8,7 @@ dashedName: refactor-global-variables-out-of-functions
 
 # --description--
 
-지금까지 함수형 프로그래밍에 대한 두가지 명확한 원칙에 대해 살펴봤습니다:
+So far, we have seen two distinct principles for functional programming:
 
 1) 변수나 객체를 변형시키지 않기 - 필요시 함수에서 새 변수와 객체를 생성하여 반환하기. 힌트: `arrVar`가 배열일 때 `const newArr = arrVar` 같이 변수를 생성하면 기존 변수의 복사값이 아니라 참조값을 생성하게 됩니다. 그래서 `newArr`에서 값을 변형시키는 것은 `arrVar`의 값을 변형시킵니다.
 

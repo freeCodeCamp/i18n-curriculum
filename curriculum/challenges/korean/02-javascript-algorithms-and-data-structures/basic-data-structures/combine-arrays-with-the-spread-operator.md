@@ -8,7 +8,7 @@ dashedName: combine-arrays-with-the-spread-operator
 
 # --description--
 
-또 다른 <dfn>전개</dfn> 연산자의 장점은 배열을 결합하거나 한 배열의 모든 요소를 다른 배열에 어느 인덱스에서든 삽입할 수 있는 능력입니다. 전통적인 concat 구문으로 배열을 연결할 수 있지만, 이는 한 배열의 끝에 다른 배열을 결합하는 것만 허용합니다. 전개 구문을 사용하면 다음 작업이 매우 간단해집니다.
+Another huge advantage of the <dfn>spread</dfn> operator is the ability to combine arrays, or to insert all the elements of one array into another, at any index. With more traditional syntaxes, we can concatenate arrays, but this only allows us to combine arrays at the end of one, and at the start of another. Spread syntax makes the following operation extremely simple:
 
 ```js
 let thisArray = ['sage', 'rosemary', 'parsley', 'thyme'];

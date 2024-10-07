@@ -8,7 +8,7 @@ dashedName: problem-332-spherical-triangles
 
 # --description--
 
-A spherical triangle is a figure formed on the surface of a sphere by three great circular arcs intersecting pairwise in three vertices.
+Ein sphärisches Dreieck ist eine Figur, die auf der Oberfläche einer Kugel durch drei große kreisrunde Bögen gebildet wird, die sich paarweise in drei Scheitelpunkten schneiden.
 
 <img alt="sphärisches Dreieck, das auf der Oberfläche einer Kugel gebildet wird" src="https://cdn.freecodecamp.org/curriculum/project-euler/spherical-triangles.jpg" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
@@ -22,11 +22,11 @@ Lasse $A(r)$ die Fläche des kleinsten sphärischen Dreiecks in $T(r)$ sein.
 
 Zum Beispiel ist $A(14)$ 3,294040, gerundet auf sechs Dezimalstellen.
 
-Find $\displaystyle \sum_{r = 1}^{50} A(r)$. Gebe deine Antwort auf sechs Dezimalstellen gerundet an.
+Finde $\displaystyle \sum_{r = 1}^{50} A(r)$. Gebe deine Antwort auf sechs Dezimalstellen gerundet an.
 
 # --hints--
 
-`sphericalTriangles()` should return `2717.751525`.
+`sphericalTriangles()` sollte `2717.751525` zurückgeben.
 
 ```js
 assert.strictEqual(sphericalTriangles(), 2717.751525);

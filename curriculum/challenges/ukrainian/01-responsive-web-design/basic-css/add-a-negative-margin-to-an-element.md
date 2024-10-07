@@ -9,7 +9,7 @@ dashedName: add-a-negative-margin-to-an-element
 
 # --description--
 
-Властивість `margin` контролює відстань між кордоном елемента (`border`) та елементами, які його оточують.
+An element's `margin` controls the amount of space between an element's `border` and surrounding elements.
 
 Якщо встановити `margin` на від’ємне значення, то елемент збільшиться в розмірі.
 

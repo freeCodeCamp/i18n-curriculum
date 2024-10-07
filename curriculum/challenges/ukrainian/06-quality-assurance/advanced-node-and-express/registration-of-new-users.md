@@ -8,17 +8,17 @@ dashedName: registration-of-new-users
 
 # --description--
 
-Тепер потрібно дозволити новому користувачеві створити обліковий запис на вашому сайті. У `res.render` для головної сторінки додайте нову змінну до переданого об’єкта `showRegistration: true`. Після оновлення своєї сторінки ви побачите реєстраційну форму, яка вже була створена у вашому файлі `index.pug`. Ця форма налаштована на **POST** до `/register`, тому створіть цей маршрут і нехай він додасть об’єкта-користувача до бази даних, дотримуючись логіки нижче.
+Now you need to allow a new user on your site to register an account. In the `res.render` for the home page add a new variable to the object passed along - `showRegistration: true`. When you refresh your page, you should then see the registration form that was already created in your `index.pug` file. This form is set up to **POST** on `/register`, so create that route and have it add the user object to the database by following the logic below.
 
 Логіка маршруту реєстрації повинна бути такою:
 
-1. Зареєструйте нового користувача
-2. Автентифікуйте нового користувача
-3. Перенаправте до `/profile`
+1. Register the new user
+2. Authenticate the new user
+3. Redirect to `/profile`
 
 Логіка кроку 1 повинна бути такою:
 
-1. Зробіть запит до бази даних з `findOne`
+1. Query database with `findOne`
 2. Якщо є помилка, викличте `next` з помилкою
 3. Якщо повернено користувача, перенаправте назад на головну сторінку
 4. Якщо користувача не знайдено та не виникло помилок, тоді вставте `insertOne` в базу даних з іменем користувача та паролем. Якщо там не виникає помилок, викличте `next`, щоб перейти до кроку 2, автентифікуючи нового користувача, для якого ви вже написали логіку у своєму маршруті `POST /login`.

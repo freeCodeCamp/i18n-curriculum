@@ -13,15 +13,15 @@ Focus on the specific actions and timing of Maria's activities on Tuesdays.
 
 # --fillInTheBlank--
 
-## Frases
+## --sentence--
 
 `On Tuesdays, I learn Japanese. I BLANK BLANK lessons at 7.`
 
-## Palabra correcta
+## --blanks--
 
 `take`
 
-### --retroalimentación--
+### --feedback--
 
 Used here to describe the action of participating in her lessons.
 
@@ -29,7 +29,7 @@ Used here to describe the action of participating in her lessons.
 
 `online`
 
-### --retroalimentación--
+### --feedback--
 
 Specifies how her lessons occur - in her case, in a virtual environment.
 

@@ -8,7 +8,7 @@ dashedName: understand-functional-programming-terminology
 
 # --description--
 
-FCC 團隊需求有變更，現在想要兩種茶：綠茶（green tea）和紅茶（black tea）。 事實證明，用戶需求變更是很常見的。
+The FCC Team had a mood swing and now wants two types of tea: green tea and black tea. General Fact: Client mood swings are pretty common.
 
 基於以上信息，我們需要重構上一節挑戰中的 `getTea` 函數來處理多種茶的請求。 我們可以修改 `getTea` 接受一個函數作爲參數，使它能夠修改茶的類型。 這讓 `getTea` 更靈活，也使需求變更時爲程序員提供更多控制權。
 

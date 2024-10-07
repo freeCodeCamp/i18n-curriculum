@@ -8,15 +8,15 @@ dashedName: learn-how-javascript-assertions-work
 
 # --description--
 
-你可以采用下面的任意一种方式完成这些挑战：
+Working on these challenges will involve you writing your code using one of the following methods:
 
-- 克隆<a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">这个 GitHub 仓库</a>，并在本地完成这些挑战。
+- Clone <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete these challenges locally.
 - Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete these challenges.
-- 使用一个你喜欢的站点生成器来完成项目。 需要确定包含了我们 GitHub 仓库的所有文件。
+- 使用你选择的网站生成器来完成项目。 需要包含我们 GitHub 仓库的所有文件。
 
 # --instructions--
 
-Within `tests/1_unit-tests.js` under the test labeled `#1` in the `Basic Assertions` suite, change each `assert` to either `assert.isNull` or `assert.isNotNull` to make the test pass (should evaluate to `true`). 不要修改传入断言的参数。
+Within `tests/1_unit-tests.js` under the test labeled `#1` in the `Basic Assertions` suite, change each `assert` to either `assert.isNull` or `assert.isNotNull` to make the test pass (should evaluate to `true`). 不要修改传给断言的参数。
 
 # --hints--
 
@@ -34,7 +34,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#1` in the `Basic Asserti
   );
 ```
 
-请为第一个断言选择正确的方法——`isNull` 或 `isNotNull`。
+请选择正确的断言—isNull 或 isNotNull
 
 ```js
 (getUserInput) =>
@@ -48,7 +48,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#1` in the `Basic Asserti
   );
 ```
 
-请为第二个断言选择正确的方法——`isNull` 或 `isNotNull`。
+You should choose the right assertion - isNull vs. isNotNull.
 
 ```js
 (getUserInput) =>

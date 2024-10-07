@@ -8,7 +8,7 @@ dashedName: call-out-optional-actions-with-btn-info
 
 # --description--
 
-Bootstrap يأتي مع عدة ألوان محددة سلفًا للأزرار. يستخدم فئة `btn-info` لتوجيه الانتباه إلى الإجراءات الاختيارية التي يمكن للمستخدم اتخاذها.
+Bootstrap comes with several pre-defined colors for buttons. The `btn-info` class is used to call attention to optional actions that the user can take.
 
 إنشاء زر Bootstrap جديد على مستوى البلوك (block-level) أسفل زر `Like` الخاص بك مع النص `Info`، وأضف فئة Bootstrap باسم `btn-info` إليه.
 

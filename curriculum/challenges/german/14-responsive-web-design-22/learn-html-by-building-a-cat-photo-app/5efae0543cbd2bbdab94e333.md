@@ -7,7 +7,7 @@ dashedName: step-30
 
 # --description--
 
-Um die Zugänglichkeit des von dir hinzugefügten Bildes zu verbessern, fügst du ein `alt`-Attribut mit dem Text hinzu:
+To improve accessibility of the image you added, add an `alt` attribute with the text:
 
 `Five cats looking around a field.`
 
@@ -19,7 +19,7 @@ Dein `figure`-Element sollte ein öffnendes Tag haben. Öffnende Tags haben dies
 assert(document.querySelectorAll('figure').length === 2);
 ```
 
-Dein `figure` sollte ein schließendes Tag haben. Schließende Tags haben ein `/` genau nach dem `<`-Zeichen.
+Dein `figure` sollte ein schließendes Tag haben. Abschließende Tags enthalten ein `/` direkt nach dem `<`-Zeichen.
 
 ```js
 assert(code.match(/<\/figure>/g).length === 2);

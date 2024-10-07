@@ -8,7 +8,7 @@ dashedName: create-a-circular-queue
 
 # --description--
 
-У цьому завданні ви створите кругову чергу. Кругова черга — це черга, де нові елементи записуються в кінці колекції, а потім перезаписуються на її початку. Цей тип структури даних корисний в певних ситуаціях. Наприклад, кругову чергу можна використати для медіапотоку. Коли черга буде повною, нові медіадані замінять старі.
+In this challenge you will be creating a Circular Queue. A circular queue is a queue that writes to the end of a collection then begins overwriting itself at the beginning of the collection. This type of data structure is useful in certain situations. For example, a circular queue can be used for streaming media. Once the queue is full, new media data will overwrite old data.
 
 Використаємо масив з `5` елементів, щоб проілюструвати це поняття:
 

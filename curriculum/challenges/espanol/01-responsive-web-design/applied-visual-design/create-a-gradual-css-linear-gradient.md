@@ -9,7 +9,7 @@ dashedName: create-a-gradual-css-linear-gradient
 
 # --description--
 
-La aplicación de un color en elementos HTML no se limita a un tono plano. CSS proporciona la capacidad de usar transiciones de color, también conocidas como degradados, en los elementos. Esto se accede a través de la función `linear-gradient()` de la propiedad `background`. Aquí está la sintaxis general:
+Applying a color on HTML elements is not limited to one flat hue. CSS provides the ability to use color transitions, otherwise known as gradients, on elements. This is accessed through the `background` property's `linear-gradient()` function. Here is the general syntax:
 
 ```css
 background: linear-gradient(gradient_direction, color 1, color 2, color 3, ...);

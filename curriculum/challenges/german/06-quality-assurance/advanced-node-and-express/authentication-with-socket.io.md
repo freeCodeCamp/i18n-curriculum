@@ -8,7 +8,7 @@ dashedName: authentication-with-socket-io
 
 # --description--
 
-Noch kannst du nicht feststellen, wer mit deinem Websocket verbunden ist. Zwar enthält `req.user` für gewöhnlich das Nutzerobjekt – allerdings nur, wenn dein Nutzer mit dem Webserver interagiert. Mit Websockets hast du keine `req` (Request, zu Deutsch „Anfrage“) und folglich keine Nutzerdaten. One way to solve the problem of knowing who is connected to your web socket is by parsing and decoding the cookie that contains the passport session then deserializing it to obtain the user object. Glücklicherweise gibt es ein NPM-Paket, das diesen einst komplexen Vorgang stark vereinfacht!
+Currently, you cannot determine who is connected to your web socket. While `req.user` contains the user object, that's only when your user interacts with the web server, and with web sockets you have no `req` (request) and therefore no user data. One way to solve the problem of knowing who is connected to your web socket is by parsing and decoding the cookie that contains the passport session then deserializing it to obtain the user object. Luckily, there is a package on NPM just for this that turns a once complex task into something simple!
 
 `passport.socketio@~3.7.0`, `connect-mongo@~3.2.0` und `cookie-parser@~1.4.5` wurden bereits als Abhängigkeiten hinzugefügt. Fordere sie jeweils als `passportSocketIo`, `MongoStore` und `cookieParser` an. Zudem müssen wir mithilfe von `express-session`, das wir zuvor angefordert haben, einen neuen Speicher initialisieren. So sollte das aussehen:
 
@@ -33,11 +33,11 @@ io.use(
 );
 ```
 
-Die Konfiguration einer Passport-Authentifizierung für Socket.IO ähnelt der Art, wie wir die `session`-Middleware für die API konfiguriert haben, übrigens sehr. This is because they are meant to use the same authentication method — get the session id from a cookie and validate it.
+Die Konfiguration einer Passport-Authentifizierung für Socket.IO ähnelt der Art, wie wir die `session`-Middleware für die API konfiguriert haben, übrigens sehr. Das liegt daran, dass sie dazu bestimmt sind, dieselbe Authentifizierungsmethode zu verwenden – Sitzungs-ID eines Cookie abrufen und validieren.
 
 Zuvor haben wir bei der Konfiguration der `session`-Middleware den Cookie-Namen für die Sitzung (`key`) nicht explizit festgelegt. Schlicht, weil das `session`-Paket den Standardwert nutzte. Nun, da wir ein weiteres Paket hinzugefügt haben, welches Zugriff auf denselben Wert der Cookies benötigt, müssen wir explizit den `key`-Wert in beiden Konfigurationsobjekten setzen.
 
-Achte darauf, den `key` mit dem Cookie-Namen zur `session`-Middleware hinzuzufügen, die zum Socket.IO-Schlüssel passt. Also, add the `store` reference to the options, near where we set `saveUninitialized: true`. Das ist notwendig, um Socket.IO mitzuteilen, auf welche Sitzung es sich zu beziehen hat.
+Achte darauf, den `key` mit dem Cookie-Namen zur `session`-Middleware hinzuzufügen, die zum Socket.IO-Schlüssel passt. Füge zudem die `store`-Referenz – in der Nähe von `saveUninitialized: true` – den Optionen hinzu. Das ist notwendig, um Socket.IO mitzuteilen, auf welche Sitzung es sich zu beziehen hat.
 
 <hr />
 

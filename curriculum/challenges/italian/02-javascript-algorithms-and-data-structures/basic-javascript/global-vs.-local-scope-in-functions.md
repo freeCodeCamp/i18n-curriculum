@@ -9,7 +9,7 @@ dashedName: global-vs--local-scope-in-functions
 
 # --description--
 
-È possibile avere sia variabili <dfn>locali</dfn> che <dfn>globali</dfn> con lo stesso nome. Quando fai questo, la variabile locale ha la precedenza sulla variabile globale.
+It is possible to have both <dfn>local</dfn> and <dfn>global</dfn> variables with the same name. When you do this, the local variable takes precedence over the global variable.
 
 In questo esempio:
 

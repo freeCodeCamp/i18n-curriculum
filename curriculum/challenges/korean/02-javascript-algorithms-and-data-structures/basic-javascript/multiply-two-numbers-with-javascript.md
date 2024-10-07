@@ -9,7 +9,7 @@ dashedName: multiply-two-numbers-with-javascript
 
 # --description--
 
-하나의 숫자를 다른 숫자에 곱하는 것도 가능합니다.
+We can also multiply one number by another.
 
 자바스크립트에서는 2개의 수치를 곱하기 할 때 `*` 기호를 사용합니다.
 

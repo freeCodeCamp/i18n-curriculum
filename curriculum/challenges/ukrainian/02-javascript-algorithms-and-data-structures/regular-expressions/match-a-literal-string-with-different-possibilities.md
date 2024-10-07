@@ -8,7 +8,7 @@ dashedName: match-a-literal-string-with-different-possibilities
 
 # --description--
 
-За допомогою регулярних виразів, як-от `/coding/`, можна знайти шаблон `coding` в іншому рядку.
+Using regexes like `/coding/`, you can look for the pattern `coding` in another string.
 
 Це корисно для пошуку окремих рядків, але обмежено лише одним шаблоном. Декілька шаблонів можна знайти за допомогою оператора `alternation` або `OR`: `|`.
 

@@ -8,7 +8,7 @@ dashedName: finders-keepers
 
 # --description--
 
-請寫一個函數來檢查數組（第一個參數 `arr`）中的元素，並返回數組中第一個通過校驗測試的元素。 其中，“通過校驗測試”指的是對於數組中的一個元素 `x`，若 `func(x)` 返回的結果爲 `true`，則校驗測試通過。 如果沒有元素通過測試，請返回 `undefined`。
+Create a function that looks through an array `arr` and returns the first element in it that passes a 'truth test'. This means that given an element `x`, the 'truth test' is passed if `func(x)` is `true`. If no element passes the test, return `undefined`.
 
 # --hints--
 

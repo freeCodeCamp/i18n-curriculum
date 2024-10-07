@@ -8,7 +8,7 @@ dashedName: dynamically-set-the-coordinates-for-each-bar
 
 # --description--
 
-No último desafio, você criou e anexou um retângulo ao elemento `svg` para cada ponto do `dataset` para representar uma barra. Infelizmente, todos eles ficaram empilhados um sobre o outro.
+The last challenge created and appended a rectangle to the `svg` element for each point in `dataset` to represent a bar. Unfortunately, they were all stacked on top of each other.
 
 O posicionamento de um retângulo é realizado pelos atributos `x` e `y`. Eles dizem ao D3 onde começar a desenhar a forma na área `svg`. O último desafio os definiu como 0. Então, todas as barras foram colocadas no canto superior esquerdo.
 

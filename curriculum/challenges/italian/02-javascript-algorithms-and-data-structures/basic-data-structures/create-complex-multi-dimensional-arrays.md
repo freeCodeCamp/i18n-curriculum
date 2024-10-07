@@ -8,7 +8,7 @@ dashedName: create-complex-multi-dimensional-arrays
 
 # --description--
 
-Ottimo! Hai appena imparato un sacco di cose sugli array! Questa è stata una panoramica di livello abbastanza alto, e c'è ancora molto da imparare per lavorare con gli array, come potrai vedere nelle prossime sezioni. Ma prima di passare a studiare gli <dfn>oggetti</dfn>, diamo un'altra occhiata e vediamo come gli array possono diventare un po' più complessi di quello che abbiamo visto nelle sfide precedenti.
+Awesome! You have just learned a ton about arrays! This has been a fairly high level overview, and there is plenty more to learn about working with arrays, much of which you will see in later sections. But before moving on to looking at <dfn>Objects</dfn>, let's take one more look, and see how arrays can become a bit more complex than what we have seen in previous challenges.
 
 Una delle caratteristiche più potenti quando si pensa agli array come strutture di dati, è che gli array possono contenere, o anche essere completamente costituiti da altri array. Abbiamo visto array che contengono altri array nelle sfide precedenti, ma erano abbastanza semplici. Tuttavia, gli array possono contenere una profondità infinita di array che possono contenere altri array, ciascuno con i propri livelli arbitrari di profondità, e così via. In questo modo, un array può diventare in fretta una struttura dati molto complessa, nota come <dfn>multi-dimensionale</dfn>, o array annidato. Considera l'esempio seguente:
 

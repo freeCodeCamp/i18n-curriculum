@@ -8,11 +8,11 @@ dashedName: map-the-debris
 
 # --description--
 
-Nach dem Dritten Keplerschen Gesetz beträgt die Umlaufzeit $T$ zweier Punktmassen, die sich auf einer kreisförmigen oder elliptischen Bahn umkreisen:
+According to Kepler's Third Law, the orbital period $T$ of two point masses orbiting each other in a circular or elliptic orbit is:
 
 $$ T = 2 \pi \sqrt{\frac{a^{3}}{\mu}} $$
 
-- $a$ ist die Halbachse der Umlaufbahn
+- $a$ is the orbit's semi-major axis
 - $μ = GM$ ist der Standard-Gravitationsparameter
 - $G$ ist die Gravitationskonstante,
 - $M$ ist die Masse des massereicheren Körpers.

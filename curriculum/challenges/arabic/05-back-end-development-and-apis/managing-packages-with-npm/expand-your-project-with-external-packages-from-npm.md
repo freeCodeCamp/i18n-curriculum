@@ -8,7 +8,7 @@ dashedName: expand-your-project-with-external-packages-from-npm
 
 # --description--
 
-إحدى الأسباب الأكبر لاستخدام مدير الحزم هي إدارة تبعياتك القوية. بدلاً من أن تتأكد يدوياً أنك حصلت على جميع التبعيات كلما أعددت مشروع على جهاز كمبيوتر جديد، npm يقوم بتثبيت كل شيء لك تلقائياً. ولكن كيف يعرف npm احتياجات مشروعك بالضبط؟ تعرَّف إلى قسم التبعيات `dependencies` من ملف package.json الخاص بك.
+One of the biggest reasons to use a package manager, is their powerful dependency management. Instead of manually having to make sure that you get all dependencies whenever you set up a project on a new computer, npm automatically installs everything for you. But how can npm know exactly what your project needs? Meet the `dependencies` section of your package.json file.
 
 في هذا القسم، يخزن اسم الحزم الذي يتطلبها مشروعك باستخدام التنسيق التالي:
 
@@ -28,7 +28,7 @@ Add version `1.1.0` of the `@freecodecamp/example` package to the `dependencies`
 
 # --hints--
 
-`"dependencies"` يجب أن تتضمن `"@freecodecamp/example"`.
+يجب أن تتضمن `"dependencies"` مقطع `"@freecodecamp/example"`.
 
 ```js
 (getUserInput) =>

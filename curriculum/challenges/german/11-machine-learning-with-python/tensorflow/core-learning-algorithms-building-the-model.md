@@ -1,6 +1,6 @@
 ---
 id: 5e8f2f13c4cdbe86b5c72d8e
-title: 'Core Learning Algorithms: Building the Model'
+title: 'Grundlegende Lernalgorithmen: Aufbau des Modells'
 challengeType: 11
 videoId: 5wHw8BTd2ZQ
 bilibiliIds:

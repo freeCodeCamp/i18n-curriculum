@@ -8,7 +8,7 @@ dashedName: build-the-game-of-life
 
 # --description--
 
-**Objetivo:** criar uma aplicação que funcione de modo semelhante ao que vemos em: <a href="https://codepen.io/freeCodeCamp/full/BpwMZv/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/BpwMZv/</a>.
+**Objective:** Build an app that is functionally similar to this: <a href="https://codepen.io/freeCodeCamp/full/BpwMZv/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/BpwMZv/</a>.
 
 O Jogo da Vida é um autômato celular concebido pelo matemático britânico John Horton Conway. É um <em>jogo sem jogadores</em>, o que significa que sua evolução é determinada pelo seu estado inicial, não exigindo mais nenhuma entrada. Uma pessoa interage com o Jogo da Vida criando uma configuração inicial e observando como ela evolui.
 
@@ -16,7 +16,7 @@ O universo do Jogo da Vida é uma grade infinita e bidimensional ortogonal de c�
 
 Em cada etapa no tempo, ocorrem as seguintes transições:
 
-- Qualquer célula viva com menos de dois vizinhos vivos morre, como se fosse uma subpopulação.
+- Any live cell with fewer than two live neighbours dies, as if by underpopulation.
 - Qualquer célula viva com dois ou três vizinhos vivos sobrevive para a próxima geração.
 - Qualquer célula viva com mais de três vizinhos vivos morre, como se fosse uma superpopulação.
 - Qualquer célula morta com exatamente três vizinhos vivos torna-se uma célula viva, como se fosse uma reprodução.

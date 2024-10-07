@@ -9,7 +9,7 @@ dashedName: multiply-two-decimals-with-javascript
 
 # --description--
 
-En JavaScript, también puedes realizar cálculos con números decimales, al igual que con números enteros.
+In JavaScript, you can also perform calculations with decimal numbers, just like whole numbers.
 
 Multipliquemos dos números decimales para obtener su producto.
 

@@ -9,7 +9,7 @@ dashedName: practice-comparing-different-values
 
 # --description--
 
-Nos últimos dois desafios, aprendemos sobre o operador de igualdade (`==`) e o operador de igualdade estrita (`===`). Vamos fazer uma breve revisão e praticar usando esses operadores mais uma vez.
+In the last two challenges, we learned about the equality operator (`==`) and the strict equality operator (`===`). Let's do a quick review and practice using these operators some more.
 
 Se os valores sendo comparados não são do mesmo tipo, o operador de igualdade fará a conversão de tipo e, então, avaliará os valores. No entanto, o operador de igualdade estrita vai comparar ambos os tipos de dados e os valores, sem converter de um tipo para outro.
 

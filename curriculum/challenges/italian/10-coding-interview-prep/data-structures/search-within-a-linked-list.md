@@ -8,7 +8,7 @@ dashedName: search-within-a-linked-list
 
 # --description--
 
-Aggiungiamo alcuni altri metodi utili alla nostra classe di lista concatenata. Non sarebbe utile se potessimo dire se la nostra lista sia vuota o no, come con le nostre classi `Stack` e `Queue`?
+Let's add a few more useful methods to our linked list class. Wouldn't it be useful if we could tell if our list was empty or not, as with our `Stack` and `Queue` classes?
 
 Dovremmo anche essere in grado di trovare elementi specifici nella nostra lista concatenata. Traversare strutture di dati è qualcosa con cui vorrai fare un sacco di pratica! Creiamo un metodo `indexOf` che prende `element` coem argomento, e restituisce l'`index` di quell'elemento nella lista concatenata. Se l'elemento non è trovato nella lista collegata, restituisci `-1`.
 

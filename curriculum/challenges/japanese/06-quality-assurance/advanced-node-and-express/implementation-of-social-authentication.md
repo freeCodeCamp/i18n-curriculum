@@ -8,7 +8,7 @@ dashedName: implementation-of-social-authentication
 
 # --description--
 
-アプリでこの種の認証を行うには、以下のパスに従います。
+The basic path this kind of authentication will follow in your app is:
 
 1.  User clicks a button or link sending them to your route to authenticate using a specific strategy (e.g. GitHub).
 2.  ルートは `passport.authenticate('github')` を呼び出し、ユーザーを GitHub へリダイレクトします。

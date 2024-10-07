@@ -8,7 +8,7 @@ dashedName: create-a-block-element-bootstrap-button
 
 # --description--
 
-عادة، عناصر `button` الخاص بك وفئات `btn` و`btn-default` هي واسعة فقط حسب النص الذي تحتوي عليه. على سبيل المثال:
+Normally, your `button` elements with the `btn` and `btn-default` classes are only as wide as the text that they contain. على سبيل المثال:
 
 ```html
 <button class="btn btn-default">Submit</button>

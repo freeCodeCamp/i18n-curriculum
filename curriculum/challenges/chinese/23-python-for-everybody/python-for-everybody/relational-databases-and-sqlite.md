@@ -20,27 +20,27 @@ More resources:
 
 \- <a href="https://www.sqlite.org/famous.html" target="_blank" rel="noopener noreferrer nofollow">SQLite usage</a>
 
-# --questions--
+# 问题
 
 ## --text--
 
-哪一个不是数据库中的主要数据结构？
+Which is NOT a primary data structure in a database?
 
 ## --answers--
 
-索引
+index
 
 ---
 
-表格
+table
 
 ---
 
-行
+row
 
 ---
 
-列
+column
 
 ## --video-solution--
 

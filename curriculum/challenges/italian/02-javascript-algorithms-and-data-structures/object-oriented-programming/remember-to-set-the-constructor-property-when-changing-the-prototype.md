@@ -8,7 +8,7 @@ dashedName: remember-to-set-the-constructor-property-when-changing-the-prototype
 
 # --description--
 
-C'è un effetto collaterale cruciale quando si imposta manualmente il prototipo su un nuovo oggetto. Questo cancella la proprietà `constructor`! Questa proprietà può essere utilizzata per verificare quale funzione costruttore ha creato l'istanza, ma poiché la proprietà è stata sovrascritta, ora dà come risultato false:
+There is one crucial side effect of manually setting the prototype to a new object. It erases the `constructor` property! This property can be used to check which constructor function created the instance, but since the property has been overwritten, it now gives false results:
 
 ```js
 duck.constructor === Bird;

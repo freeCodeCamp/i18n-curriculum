@@ -13,23 +13,23 @@ To `encourage` means to give support, confidence, or hope to someone. It's what 
 
 # --instructions--
 
-Listen to the audio to complete the sentence below.
+Escucha el audio para completar la oración de abajo.
 
-# Completá la palabra correcta
+# --fillInTheBlank--
 
-## Frases
+## --sentence--
 
 `Maria thinks challenges are positive. She BLANK us to find solutions together.`
 
-## Palabra correcta
+## --blanks--
 
 `encourages`
 
-### devolución
+### --feedback--
 
 Remember to conjugate the verb. The verb you need is about motivating or inspiring someone to do something. It's similar to cheering someone on.
 
-# ejemplo
+# --scene--
 
 ```json
 {

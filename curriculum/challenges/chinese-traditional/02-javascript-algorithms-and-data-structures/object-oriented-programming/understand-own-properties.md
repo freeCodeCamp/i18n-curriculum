@@ -8,7 +8,7 @@ dashedName: understand-own-properties
 
 # --description--
 
-請看下面的實例，`Bird` 構造函數定義了兩個屬性：`name` 和 `numLegs`。
+In the following example, the `Bird` constructor defines two properties: `name` and `numLegs`:
 
 ```js
 function Bird(name) {

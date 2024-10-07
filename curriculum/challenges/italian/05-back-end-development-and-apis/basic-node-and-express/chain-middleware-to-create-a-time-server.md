@@ -8,7 +8,7 @@ dashedName: chain-middleware-to-create-a-time-server
 
 # --description--
 
-Il middleware può essere montato su un percorso specifico utilizzando `app.METHOD(path, middlewareFunction)`. Il middleware può anche essere concatenato all'interno della definizione del percorso.
+Middleware can be mounted at a specific route using `app.METHOD(path, middlewareFunction)`. Middleware can also be chained within a route definition.
 
 Considera l'esempio seguente:
 

@@ -8,7 +8,7 @@ dashedName: add-event-listeners
 
 # --description--
 
-Die Methode `componentDidMount()` ist auch der beste Ort, um Event-Listener hinzuzufügen, die du für bestimmte Funktionen brauchst. React bietet ein synthetisches Eventsystem, das das native Eventsystem des Browsers umhüllt. Das bedeutet, dass sich das synthetische Eventsystem unabhängig vom Browser des Nutzers genau gleich verhält - auch wenn sich die nativen Events in verschiedenen Browsern unterschiedlich verhalten können.
+The `componentDidMount()` method is also the best place to attach any event listeners you need to add for specific functionality. React provides a synthetic event system which wraps the native event system present in browsers. This means that the synthetic event system behaves exactly the same regardless of the user's browser - even if the native events may behave differently between different browsers.
 
 Du hast bereits einige dieser synthetischen Event-Handler wie `onClick()` verwendet. Das synthetische Eventsystem von React ist ideal für die meisten Interaktionen, die du mit DOM-Elementen durchführst. Wenn du jedoch einen Event-Handler an die Dokument- oder Fensterobjekte anhängen möchtest, musst du dies direkt tun.
 

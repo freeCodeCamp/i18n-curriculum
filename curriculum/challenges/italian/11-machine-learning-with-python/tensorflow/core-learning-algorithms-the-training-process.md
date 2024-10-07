@@ -14,7 +14,7 @@ dashedName: core-learning-algorithms-the-training-process
 
 ## --text--
 
-Cosa sono le epoche?
+What are epochs?
 
 ## --answers--
 

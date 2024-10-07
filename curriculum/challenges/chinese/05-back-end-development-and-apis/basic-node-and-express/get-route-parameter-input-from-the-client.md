@@ -8,7 +8,7 @@ dashedName: get-route-parameter-input-from-the-client
 
 # --description--
 
-在构建 API 时，要让用户告诉我们他们想从服务中获取什么。 举个例子，如果客户请求数据库中存储的用户信息，他们需要一种方法让我们知道他们对哪个用户感兴趣， 使用路由参数可以实现这个需求。 路由参数是由斜杠（/）分隔的 URL 命名段， 每一小段能捕获与其位置匹配的 URL 部分的值， 捕获的值能够在 `req.params` 对象中找到。
+When building an API, we have to allow users to communicate to us what they want to get from our service. For example, if the client is requesting information about a user stored in the database, they need a way to let us know which user they're interested in. One possible way to achieve this result is by using route parameters. Route parameters are named segments of the URL, delimited by slashes (/). Each segment captures the value of the part of the URL which matches its position. The captured values can be found in the `req.params` object.
 
 <blockquote>路由地址：'/user/:userId/book/:bookId'<br> 实际请求 URL：'/user/546/book/6754'<br> req.params：{userId: '546', bookId: '6754'}</blockquote>
 

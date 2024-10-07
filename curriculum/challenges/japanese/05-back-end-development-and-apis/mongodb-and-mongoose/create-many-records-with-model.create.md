@@ -8,7 +8,7 @@ dashedName: create-many-records-with-model-create
 
 # --description--
 
-最初のデータでデータベースをシードする場合などでは、モデルのインスタンスを多数作成する必要があります。 `Model.create()` は、最初の引数として `[{name: 'John', ...}, {...}, ...]` のようなオブジェクト配列を受け取り、それらのすべてを db に保存します。
+Sometimes you need to create many instances of your models, e.g. when seeding a database with initial data. `Model.create()` takes an array of objects like `[{name: 'John', ...}, {...}, ...]` as the first argument, and saves them all in the db.
 
 # --instructions--
 

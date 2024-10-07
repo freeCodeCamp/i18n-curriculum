@@ -9,7 +9,7 @@ dashedName: give-a-background-color-to-a-div-element
 
 # --description--
 
-Du kannst die Hintergrundfarbe eines Elements mit der Eigenschaft `background-color` einstellen.
+You can set an element's background color with the `background-color` property.
 
 Wenn du zum Beispiel möchtest, dass die Hintergrundfarbe eines Elements `green` (grün) ist, würdest du dies in deinem `style`-Element angeben:
 

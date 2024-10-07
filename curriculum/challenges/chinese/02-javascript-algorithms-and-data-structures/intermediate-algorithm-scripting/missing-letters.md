@@ -8,7 +8,7 @@ dashedName: missing-letters
 
 # --description--
 
-在这道题目中，我们需要写一个函数，找出传入的字符串里缺失的字母并返回它。
+Find the missing letter in the passed letter range and return it.
 
 如果所有字母都在传入的字符串范围内，返回 `undefined`。
 

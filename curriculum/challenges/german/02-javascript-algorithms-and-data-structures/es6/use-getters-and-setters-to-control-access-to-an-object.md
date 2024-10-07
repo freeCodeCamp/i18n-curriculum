@@ -8,7 +8,7 @@ dashedName: use-getters-and-setters-to-control-access-to-an-object
 
 # --description--
 
-Du kannst Werte von einem Objekt erhalten und den Wert einer Eigenschaft innerhalb eines Objekts festlegen.
+You can obtain values from an object and set the value of a property within an object.
 
 Diese werden klassischerweise <dfn>Getter</dfn> und <dfn>Setter</dfn> genannt.
 
@@ -46,7 +46,7 @@ Beachte die Syntax, mit der die Getter und Setter aufgerufen werden. Sie sehen n
 
 Verwende das Schlüsselwort `class`, um eine Klasse `Thermostat` zu erstellen. Der `constructor` akzeptiert eine Fahrenheit-Temperatur.
 
-In the class, create a `getter` to obtain the temperature in Celsius and a `setter` that accepts a temperature in Celsius.
+Erstelle in der Klasse einen `getter`, um die Temperatur in Celsius zu erhalten, und einen `setter`, der die Temperatur in Celsius akzeptiert.
 
 Denke daran, dass `C = 5/9 * (F - 32)` und `F = C * 9.0 / 5 + 32`, wobei `F` der Wert der Temperatur in Fahrenheit und `C` der Wert der gleichen Temperatur in Celsius ist.
 

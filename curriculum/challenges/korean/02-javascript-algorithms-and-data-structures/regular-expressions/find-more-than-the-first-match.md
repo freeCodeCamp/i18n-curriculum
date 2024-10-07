@@ -8,7 +8,7 @@ dashedName: find-more-than-the-first-match
 
 # --description--
 
-지금까지 패턴을 한 번만 추출하거나 검색할 수 있었습니다.
+So far, you have only been able to extract or search a pattern once.
 
 ```js
 let testStr = "Repeat, Repeat, Repeat";

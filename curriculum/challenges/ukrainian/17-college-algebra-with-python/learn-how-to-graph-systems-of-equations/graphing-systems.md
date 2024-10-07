@@ -12,7 +12,7 @@ dashedName: graphing-systems
 
 Ось <a href="https://colab.research.google.com/drive/1N1JEZJctODxsntROnmg0VqMSHXYdIlFD?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">блокнот Colab для цього відео.</a>
 
-# --assignment--
+# --Завдання--
 
 Додайте код з відео до свого блокнота та проведіть над ним тести з різними функціями.
 

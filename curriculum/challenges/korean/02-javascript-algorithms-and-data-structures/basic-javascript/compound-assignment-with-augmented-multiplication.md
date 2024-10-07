@@ -9,13 +9,13 @@ dashedName: compound-assignment-with-augmented-multiplication
 
 # --description--
 
-`*=` 연산자는 변수에 숫자를 곱합니다.
+The `*=` operator multiplies a variable by a number.
 
 ```js
 myVar = myVar * 5;
 ```
 
-위의 내용은 `myVar`에 `5`를 곱합니다. 이 내용은 다음과 같이 변환될 수 있습니다.
+위의 내용은 `myVar`에 `5`를 곱합니다. 이 내용은 아래와 같이 다시 쓸 수 있습니다.
 
 ```js
 myVar *= 5;

@@ -8,7 +8,7 @@ dashedName: create-a-linear-scale-with-d3
 
 # --description--
 
-Bei den Balken- und Streu-Diagrammen werden die Daten direkt in das SVG eingezeichnet. Wäre jedoch die Höhe eines Balkens oder eines Datenpunkts größer als die SVG-Höhen- oder Breitenwerte, würde er außerhalb des SVG-Bereichs liegen.
+The bar and scatter plot charts both plotted data directly onto the SVG. However, if the height of a bar or one of the data points were larger than the SVG height or width values, it would go outside the SVG area.
 
 In D3 gibt es Skalen, die bei der Darstellung von Daten helfen. `scales` sind Funktionen, die dem Programm mitteilen, wie eine Menge von unbearbeiteten Datenpunkten den SVG-Pixeln zugeordnet werden soll.
 

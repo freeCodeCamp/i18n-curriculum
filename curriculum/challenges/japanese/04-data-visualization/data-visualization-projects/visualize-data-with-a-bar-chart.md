@@ -8,11 +8,11 @@ dashedName: visualize-data-with-a-bar-chart
 
 # --description--
 
-**目標:** こちらと似た機能を持つアプリを構築してください: <a href="https://bar-chart.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://bar-chart.freecodecamp.rocks</a>
+**Objective:** Build an app that is functionally similar to this: <a href="https://bar-chart.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://bar-chart.freecodecamp.rocks</a>.
 
 以下のユーザーストーリーを満たし、すべてのテストが成功するようにしてください。 必要に応じて、どのようなライブラリあるいは API を使用してもかまいません。 あなた独自のアレンジを加えましょう。
 
-HTML、JavaScript、CSS、および D3 の SVG ベースのビジュアライゼーションライブラリを使用できます。 テストでは、軸に沿って自動的に目盛り (tick) を生成する D3 軸プロパティを使用して軸を生成する必要があります。 グラフ化された要素の配置を調べるために目盛りの位置が使用されるので、D3 テストを成功させるためにはこの目盛りが必要です。 You will find information about generating axes at <https://d3js.org/d3-axis>. Required DOM elements are queried on the moment of each test. フロントエンドフレームワーク (例えば Vue など) を使用した場合、動的なコンテンツではテスト結果が不正確になる可能性があります。 最終的には対応したいと考えていますが、現在の D3 プロジェクトではこれらのフレームワークはサポートされていません。
+HTML、JavaScript、CSS、および D3 の SVG ベースのビジュアライゼーションライブラリを使用できます。 テストでは、軸に沿って自動的に目盛りを生成する D3 軸プロパティを使用して軸を生成する必要があります。 グラフ化された要素の配置を調べるために目盛りの位置が使用されるので、D3 テストを成功させるためにはこの目盛りが必要です。 You will find information about generating axes at <https://d3js.org/d3-axis>. Required DOM elements are queried on the moment of each test. フロントエンドフレームワーク (例えば Vue など) を使用した場合、動的なコンテンツではテスト結果が不正確になる可能性があります。 最終的には対応したいと考えていますが、現在の D3 プロジェクトではこれらのフレームワークはサポートされていません。
 
 **ユーザーストーリー #1:** 私のチャートには、タイトルとそれに対応する `id="title"` が必要です。
 

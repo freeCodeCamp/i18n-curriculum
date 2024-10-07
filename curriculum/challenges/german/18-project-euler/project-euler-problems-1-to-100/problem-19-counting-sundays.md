@@ -12,7 +12,7 @@ Wir stellen dir folgende Informationen bereit, vielleicht möchtest du aber auch
 
 <ul>
   <li>Der 1. Januar 1900 war ein Montag.</li>
-  <li>Thirty days has September,<br>April, June and November.<br>All the rest have thirty-one,<br>Saving February alone,<br>Which has twenty-eight, rain or shine.<br>And on leap years, twenty-nine.</li>
+  <li>Dreißig Tage hat der September,<br>April, Juni und November.<br>Alle anderen haben einunddreißig,<br>Alleine der Februar,<br>der achtundzwanzig hat, egal ob Regen oder Sonnenschein.<br>Und in Schaltjahren, neunundzwanzig.</li>
   <li>Jedes, glatt durch 4 teilbares Jahr ist ein Schaltjahr – es sei denn, es handelt sich bei dem Jahr um den Anfang eines Jahrhunderts, dann muss die Zahl durch 400 teilbar sein.</li>
 </ul>
 

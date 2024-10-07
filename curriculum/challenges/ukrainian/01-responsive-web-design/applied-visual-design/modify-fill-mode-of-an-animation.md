@@ -9,7 +9,7 @@ dashedName: modify-fill-mode-of-an-animation
 
 # --description--
 
-Усе чудово, але ще не все правильно працює. Зверніть увагу, як анімація починається з початку, коли проходить `500ms`, у результаті чого кнопка повертається до початкового кольору. Потрібно, щоб кнопка підсвічувалася.
+That's great, but it doesn't work right yet. Notice how the animation resets after `500ms` has passed, causing the button to revert back to the original color. You want the button to stay highlighted.
 
 Це можливо зробити налаштовуючи властивості `animation-fill-mode` до `forwards`. `animation-fill-mode` визначає стиль, застосований до елемента після завершення анімації. Ви можете налаштувати це так:
 

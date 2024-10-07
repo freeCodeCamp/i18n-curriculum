@@ -9,7 +9,7 @@ dashedName: adjust-the-margin-of-an-element
 
 # --description--
 
-Властивість `margin` контролює відстань між кордоном елемента (`border`) та елементами, які його оточують.
+An element's `margin` controls the amount of space between an element's `border` and surrounding elements.
 
 Як бачимо, синій та червоний блоки розташовані в межах жовтого блоку. Зверніть увагу, що червоний блок має більше значення `margin`, ніж синій блок, тому виглядає меншим.
 

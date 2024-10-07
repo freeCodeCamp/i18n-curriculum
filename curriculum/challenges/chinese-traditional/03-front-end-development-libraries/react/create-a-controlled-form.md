@@ -8,7 +8,7 @@ dashedName: create-a-controlled-form
 
 # --description--
 
-上一個挑戰展示了 React 能控制某些元素的內部 state，比如 `input` 和 `textarea`，這使得這些元素成爲受控組件。 這也適用於其他表單元素，包括常規的 HTML 表單 `form` 元素。
+The last challenge showed that React can control the internal state for certain elements like `input` and `textarea`, which makes them controlled components. This applies to other form elements as well, including the regular HTML `form` element.
 
 # --instructions--
 

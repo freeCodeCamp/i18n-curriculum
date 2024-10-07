@@ -9,7 +9,7 @@ dashedName: lock-an-element-to-its-parent-with-absolute-positioning
 
 # --description--
 
-Die nächste Option für die Eigenschaft `position` ist `absolute`, welche das Element relativ zu seinem übergeordneten Container ausrichtet und daran fixiert. Anders als die Positionierungseigenschaft `relative` entfernt dies das Element aus dem normalen Fluss des Dokuments, sodass umgebende Elemente es ignorieren. Die CSS-Offset-Eigenschaften (oben oder unten bzw. links oder rechts) werden verwendet, um die Position anzupassen.
+The next option for the CSS `position` property is `absolute`, which locks the element in place relative to its parent container. Unlike the `relative` position, this removes the element from the normal flow of the document, so surrounding items ignore it. The CSS offset properties (top or bottom and left or right) are used to adjust the position.
 
 Ein bemerkenswertes Detail von absoluter Positionierung ist, dass das platzierte Element relativ seinem nächstgelegenen, übergeordneten Element *mit Position-Eigenschaft* gesperrt wird. Solltest du vergessen eine Positionsregel zum übergeordneten Element hinzuzufügen (dies geschieht normalerweise mit `position: relative;`), sucht der Browser nach oben hin weiter und wird notfalls auf das `body`-Tag zurückgreifen.
 

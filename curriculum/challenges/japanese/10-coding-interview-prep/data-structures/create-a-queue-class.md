@@ -8,7 +8,7 @@ dashedName: create-a-queue-class
 
 # --description--
 
-スタックと同様に、キューは要素の集まりです。 しかしスタックとは異なり、キューは FIFO (先入れ先出し) の原則に従います。 キューに追加された要素はキューのテール (末尾) にプッシュされ、取り除くことができる要素はキューの先頭にある要素だけです。
+Like stacks, queues are a collection of elements. But unlike stacks, queues follow the FIFO (First-In First-Out) principle. Elements added to a queue are pushed to the tail, or the end, of the queue, and only the element at the front of the queue is allowed to be removed.
 
 キューは配列を使用して表すことができますが、スタックと同じように、ここではキューに対する制御量を制限したいのです。
 

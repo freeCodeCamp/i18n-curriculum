@@ -19,8 +19,8 @@ Complete the `Category` class. It should be able to instantiate objects based on
 When the budget object is printed it should display:
 
 - A title line of 30 characters where the name of the category is centered in a line of `*` characters.
-- A list of the items in the ledger. Each line should show the description and amount. The first 23 characters of the description should be displayed, then the amount. The amount should be right aligned, contain two decimal places, and display a maximum of 7 characters.
-- A line displaying the category total.
+- 帳簿にある品目のリスト。 各行に説明と金額を表示します。 説明の最初の 23 文字を表示し、その後に金額を表示します。 金額は右揃えで、小数点以下 2 桁までを含み、最大 7 文字まで表示します。
+- カテゴリの合計を表示する行。
 
 Here is an example usage:
 
@@ -45,13 +45,13 @@ Transfer to Clothing    -50.00
 Total: 923.96
 ```
 
-Besides the `Category` class, create a function (outside of the class) called `create_spend_chart` that takes a list of categories as an argument. It should return a string that is a bar chart.
+`Category` クラスの他に、カテゴリのリストを引数に取る `create_spend_chart` という関数を (クラスの外で) 作成してください。 この関数は棒グラフとなる文字列を返す必要があります。
 
-The chart should show the percentage spent in each category passed in to the function. The percentage spent should be calculated only with withdrawals and not with deposits. Down the left side of the chart should be labels 0 - 100. The 'bars' in the bar chart should be made out of the 'o' character. The height of each bar should be rounded down to the nearest 10. The horizontal line below the bars should go two spaces past the final bar. Each category name should be written vertically below the bar. There should be a title at the top that says 'Percentage spent by category'.
+グラフでは、関数に渡された各カテゴリについて、その出費の割合を表示するようにしてください。 出費の割合は、引き出し額でのみ計算する必要があり、預け入れ額では計算しません。 グラフの左端に沿って、0 ～ 100 のラベルを付けてください。 The 'bars' in the bar chart should be made out of the 'o' character. 各棒の高さは最も近い 10 ごとの数字に切り下げる必要があります。 グラフの下の水平線は最後の棒からスペース 2 つ分だけ伸ばす必要があります。 各カテゴリ名は棒の下に縦書きで表示してください。 There should be a title at the top that says 'Percentage spent by category'.
 
-This function will be tested with up to four categories.
+この関数は最大 4 つのカテゴリでテストされます。
 
-Look at the example output below very closely and make sure the spacing of the output matches the example exactly.
+次の出力例を参考にして、出力の間隔を例と正確に合わせてください。
 
 ```bash
 Percentage spent by category
@@ -711,7 +711,7 @@ t.result.wasSuccessful()
 })
 ```
 
-`create_spend_chart` should print a different chart representation. Check that all spacing is exact.
+`create_spend_chart` should print a different chart representation. Check that all spacing is exact. Open your browser console with F12 for more details.
 
 ```js
 ({

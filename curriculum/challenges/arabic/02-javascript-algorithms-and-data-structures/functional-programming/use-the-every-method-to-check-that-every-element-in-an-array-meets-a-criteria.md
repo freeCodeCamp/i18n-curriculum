@@ -8,7 +8,7 @@ dashedName: use-the-every-method-to-check-that-every-element-in-an-array-meets-a
 
 # --description--
 
-دالة `every` تعمل مع الـ arrays للتحقق مما إذا كان كل *every* عنصر يجتاز اختبار معين. إنها ترجع قيمة `true` إذا كانت جميع القيم تفي بالمعايير، `false` إن لم تكن كذلك.
+The `every` method works with arrays to check if *every* element passes a particular test. It returns a Boolean value - `true` if all values meet the criteria, `false` if not.
 
 على سبيل المثال، الكود التالي سيتحقق مما إذا كان كل عنصر في array الـ `numbers` أقل من 10:
 
@@ -24,7 +24,7 @@ numbers.every(function(currentValue) {
 
 # --instructions--
 
-استخدم دالة `every` داخل دالة `checkPositive` للتحقق مما إذا كان كل عنصر في `arr` موجبا. يجب أن يعيد الـ function قيمة Boolean.
+استخدم دالة `every` داخل دالة `checkPositive` للتحقق مما إذا كان كل عنصر في `arr` موجبا. يجب أن يرجع الوظيفة (function) قيمة منطقية (Boolean).
 
 # --hints--
 

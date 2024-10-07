@@ -9,7 +9,7 @@ dashedName: define-the-head-and-body-of-an-html-document
 
 # --description--
 
-HTML 문서 안에서 `head`와 `body` 요소로 `html` 태그 내에 다른 조직 단계를 추가할 수 있습니다. 페이지에 관한 정보를 가진 모든 마크업은 `head` 태그에 위치합니다. 그런 다음에 사용자에게 보여질 페이지 내용이 담긴 모든 마크업은 `body` 태그에 가게 됩니다.
+You can add another level of organization in your HTML document within the `html` tags with the `head` and `body` elements. Any markup with information about your page would go into the `head` tag. Then any markup with the content of the page (what displays for a user) would go into the `body` tag.
 
 `link`, `meta`, `title` 그리고 `style`같은 메타데이터 요소들은 주로 `head` 요소로 가게 됩니다.
 

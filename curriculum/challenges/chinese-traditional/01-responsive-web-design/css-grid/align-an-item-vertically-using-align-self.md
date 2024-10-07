@@ -9,7 +9,7 @@ dashedName: align-an-item-vertically-using-align-self
 
 # --description--
 
-正如能設置網格項沿水平方向的對齊方式一樣，我們也可以設置網格項沿豎直方向的對齊方式。 爲此，我們可以對網格項使用 `align-self` 屬性來實現。 在上一個挑戰中適用於 `justify-self` 屬性的屬性值同樣也可用於這個屬性。
+Just as you can align an item horizontally, there's a way to align an item vertically as well. To do this, you use the `align-self` property on an item. This property accepts all of the same values as `justify-self` from the last challenge.
 
 # --instructions--
 

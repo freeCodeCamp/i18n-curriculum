@@ -9,7 +9,7 @@ dashedName: use-the-flex-shorthand-property
 
 # --description--
 
-Esiste una scorciatoia disponibile per impostare diverse proprietà flex contemporaneamente. Le proprietà `flex-grow`, `flex-shrink`, e `flex-basis` possono essere impostate tutte insieme utilizzando la proprietà `flex`.
+There is a shortcut available to set several flex properties at once. The `flex-grow`, `flex-shrink`, and `flex-basis` properties can all be set together by using the `flex` property.
 
 Ad esempio, `flex: 1 0 10px;` imposterà l'elemento con `flex-grow: 1;`, `flex-shrink: 0;`, e `flex-basis: 10px;`.
 

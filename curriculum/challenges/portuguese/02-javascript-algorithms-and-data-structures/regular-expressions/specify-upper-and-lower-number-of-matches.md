@@ -8,7 +8,7 @@ dashedName: specify-upper-and-lower-number-of-matches
 
 # --description--
 
-Lembre-se de que você pode usar o sinal de `+` para procurar por uma ou mais ocorrências e o asterisco `*` para procurar por zero ou mais ocorrências. Eles são convenientes, mas às vezes você precisa capturar um número exato de caracteres.
+Recall that you use the plus sign `+` to look for one or more characters and the asterisk `*` to look for zero or more characters. These are convenient but sometimes you want to match a certain range of patterns.
 
 Você pode especificar um número mínimo e um máximo de capturas com <dfn>especificadores de quantidade</dfn>. Para usar especificadores de quantidade, usa-se chaves: `{` e `}`. Você pode especificar os dois números dentro delas para restringir as capturas.
 

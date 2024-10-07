@@ -8,7 +8,7 @@ dashedName: get-state-from-the-redux-store
 
 # --description--
 
-Redux store 對象提供了幾種與之交互的方法， 比如，可以使用 `getState()` 方法檢索 Redux store 對象中保存的當前 `state`。
+The Redux store object provides several methods that allow you to interact with it. For example, you can retrieve the current `state` held in the Redux store object with the `getState()` method.
 
 # --instructions--
 

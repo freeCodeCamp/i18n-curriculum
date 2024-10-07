@@ -8,7 +8,7 @@ dashedName: wherefore-art-thou
 
 # --description--
 
-أنشئ وظيفة (function) يبحث في قائمة (array) من الكائنات (objects) (المعطى (argument) الأولى) وينتج قائمة من جميع الكائنات التي لديها أزواج مطابقة من name و value (المعطى الثانية). يجب أن يكون كل name و value من الـ object المصدر، موجودا في الـ object من الـ collection، إذا كان يراد إدراجه في الـ array التي تم ارجاعها.
+Make a function that looks through an array of objects (first argument) and returns an array of all objects that have matching name and value pairs (second argument). Each name and value pair of the source object has to be present in the object from the collection if it is to be included in the returned array.
 
 على سبيل المثال، إذا كانت الـ argument الأولى هي `[{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }]`, والـ argument الثانية هي `{ last: "Capulet" }`، يجب عليك إعادة الـ object الثالث من الـ array (الـ argument الأولى)، لأنه يحتوي على الاسم وقيمته، وهذا ما تم إرساله كـ argument ثانية.
 

@@ -8,7 +8,7 @@ dashedName: drop-it
 
 # --description--
 
-Переберіть масив `arr` та вилучіть кожен елемент, починаючи з першого елемента (індекс 0), допоки функція `func` не поверне `true`, коли ітерований елемент пройде крізь.
+Given the array `arr`, iterate through and remove each element starting from the first element (the 0 index) until the function `func` returns `true` when the iterated element is passed through it.
 
 Потім поверніть решту масиву, якщо умову виконано. В іншому випадку `arr` має повертатися у вигляді порожнього масиву.
 

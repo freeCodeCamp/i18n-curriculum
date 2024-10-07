@@ -8,7 +8,7 @@ dashedName: implementation-of-social-authentication-iii
 
 # --description--
 
-Der letzte Teil der Strategie ist der Umgang mit dem von GitHub übermittelten Profil. We need to load the user's database object if it exists, or create one if it doesn't, and populate the fields from the profile, then return the user's object. GitHub liefert uns eine einzigartige *-id* innerhalb jedes Profils, die wir für Suchen verwenden können, um den Benutzer zu serialisieren (bereits implementiert). Im Folgenden findest du eine Beispielimplementierung, die du in deinem Projekt verwenden kannst. Sie wird in die Funktion eingefügt, die das zweite Argument für die neue Strategie ist, direkt unter der Stelle, an der sich derzeit `console.log(profile);` befindet:
+The final part of the strategy is handling the profile returned from GitHub. We need to load the user's database object if it exists, or create one if it doesn't, and populate the fields from the profile, then return the user's object. GitHub supplies us a unique *id* within each profile which we can use to search with to serialize the user with (already implemented). Below is an example implementation you can use in your project--it goes within the function that is the second argument for the new strategy, right below where `console.log(profile);` currently is:
 
 ```js
 myDataBase.findOneAndUpdate(
@@ -39,7 +39,7 @@ myDataBase.findOneAndUpdate(
 );
 ```
 
-`findOneAndUpdate` ermöglicht es dir, nach einem Objekt zu suchen und es zu aktualisieren. Wenn das Objekt nicht existiert, wird es eingefügt und der Callback-Funktion zur Verfügung gestellt. In this example, we always set `last_login`, increment the `login_count` by `1`, and only populate the majority of the fields when a new object (new user) is inserted. Beachte, die Verwendung von Standardwerten. Manchmal ist ein übermitteltes Profil nicht vollständig ausgefüllt oder der Nutzer hält es privat. In diesem Fall verarbeitest du es, um einen Fehler zu vermeiden.
+`findOneAndUpdate` ermöglicht es dir, nach einem Objekt zu suchen und es zu aktualisieren. Wenn das Objekt nicht existiert, wird es eingefügt und der Callback-Funktion zur Verfügung gestellt. In diesem Beispiel legen wir immer `last_login` fest, erhöhen `login_count` um `1`, und füllen nur die Mehrheit der Felder aus, wenn ein neues Objekt (neuer Benutzer) eingefügt wurde. Beachte, die Verwendung von Standardwerten. Manchmal ist ein übermitteltes Profil nicht vollständig ausgefüllt oder der Nutzer hält es privat. In diesem Fall verarbeitest du es, um einen Fehler zu vermeiden.
 
 Du solltest dich jetzt bei deiner App anmelden können. Versuch es!
 

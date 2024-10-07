@@ -14,7 +14,7 @@ dashedName: developing-an-nmap-scanner-part-2
 
 ## --text--
 
-Mit welcher der folgenden Optionen kannst du nach UDP-Ports zwischen 21 und 443 suchen?
+Which of the following allows you to scan for UDP ports between 21 to 443?
 
 ## --answers--
 

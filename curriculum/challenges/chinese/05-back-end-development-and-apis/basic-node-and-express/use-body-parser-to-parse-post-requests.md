@@ -8,7 +8,7 @@ dashedName: use-body-parser-to-parse-post-requests
 
 # --description--
 
-除了 GET 还有另一个常见的 HTTP 动词，即 POST。 POST 是使用 HTML 表单发送客户端数据的默认方法。 在 REST 规范中，POST 常用于发送数据以在数据库中创建新项目（新用户或新博客文章）。 在这个项目中没有使用数据库，但下面将学习如何处理 POST 请求。
+Besides GET, there is another common HTTP verb, it is POST. POST is the default method used to send client data with HTML forms. In REST convention, POST is used to send data to create new items in the database (a new user, or a new blog post). You don’t have a database in this project, but you are going to learn how to handle POST requests anyway.
 
 在这些类型的请求中，数据不会出现在 URL 中，而是隐藏在请求正文中。 请求正文也是 HTML 请求的一部分，被称为负载。 即使数据在 URL 中是不可见的，也不意味着它是私有的。 要了解原因，请观察 HTTP POST 请求的原始内容：
 

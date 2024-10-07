@@ -9,7 +9,7 @@ dashedName: comparison-with-the-less-than-or-equal-to-operator
 
 # --description--
 
-L'operatore di minoranza o uguaglianza (`<=`) confronta i valori di due numeri. Se il numero a sinistra è minore o uguale al numero a destra, restituisce `true`. Se il numero a sinistra è maggiore del numero a destra, restituisce `false`. Come l'operatore di uguaglianza, l'operatore di minoranza o uguaglianza converte i tipi di dati.
+The less than or equal to operator (`<=`) compares the values of two numbers. If the number to the left is less than or equal to the number to the right, it returns `true`. If the number on the left is greater than the number on the right, it returns `false`. Like the equality operator, the less than or equal to operator converts data types.
 
 **Esempi**
 

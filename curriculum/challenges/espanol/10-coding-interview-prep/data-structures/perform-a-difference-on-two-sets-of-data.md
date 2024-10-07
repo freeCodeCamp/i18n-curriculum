@@ -8,7 +8,7 @@ dashedName: perform-a-difference-on-two-sets-of-data
 
 # --description--
 
-En este ejercicio vamos a hacer una diferencia en dos conjuntos de datos. Crearemos un método en nuestra estructura de datos `Set` llamada `diferencia`. Una diferencia de conjuntos debe comparar dos conjuntos y devolver los elementos presentes en el primer conjunto que están ausentes en el segundo. Este método debe tomar otro `Set` como argumento y retornar la `diferencia` de los dos sets.
+In this exercise we are going to perform a difference on 2 sets of data. We will create a method on our `Set` data structure called `difference`. A difference of sets should compare two sets and return the items present in the first set that are absent in the second. This method should take another `Set` as an argument and return the `difference` of the two sets.
 
 Por ejemplo, si `setA = ['a','b','c']` y `setB = ['a', b','d','e']`, entonces la diferencia de setA y setB es: `setA. ifference(setB) = ['c']`.
 

@@ -9,7 +9,7 @@ dashedName: profile-lookup
 
 # --description--
 
-連絡先リストのさまざまな人物を表すオブジェクトの配列があります。
+We have an array of objects representing different people in our contacts lists.
 
 引数として `name` とプロパティ (`prop`) を受け取る `lookUpProfile` という関数があらかじめ用意されています。
 

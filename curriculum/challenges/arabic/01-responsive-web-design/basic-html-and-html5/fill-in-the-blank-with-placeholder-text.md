@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedf08833
-title: Fill in the Blank with Placeholder Text
+title: املأ الفراغ بنص نائب (Fill in the Blank with Placeholder Text)
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVMPUv/cgR7Dc7'
 forumTopicId: 18178
@@ -13,7 +13,7 @@ Web developers traditionally use <dfn>lorem ipsum text</dfn> as placeholder text
 
 Lorem ipsum text has been used as placeholder text by typesetters since the 16th century, and this tradition continues on the web.
 
-Well, 5 centuries is long enough. بما أنك تنشئ برنامج CatPhotoApp، استخدم نص "kitty ipsum".
+5 قرون طويلة بما يكفي. بما أنك تنشئ برنامج CatPhotoApp، استخدم نص "kitty ipsum".
 
 # --instructions--
 
@@ -21,7 +21,7 @@ Replace the text inside your `p` element with the first few words of this kitty 
 
 # --hints--
 
-Your `p` element should contain the first few words of the provided "kitty ipsum" text.
+عنصر `p` الخاص بك يجب أن يحتوي على الكلمات الأولى من النص "kitty ipsum" المقدم.
 
 ```js
 assert.isTrue(/Kitty(\s)+ipsum/gi.test($('p').text()));

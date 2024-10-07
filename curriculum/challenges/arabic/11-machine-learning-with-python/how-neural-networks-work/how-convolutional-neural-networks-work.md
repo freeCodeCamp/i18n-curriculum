@@ -1,6 +1,6 @@
 ---
 id: 5e9a0e9ef99a403d019610cd
-title: How Convolutional Neural Networks work
+title: كيفية تعمل الConvolutional Neural Network (الشبكات العصبية التطورية)
 challengeType: 11
 videoId: Y5M7KH4A4n4
 dashedName: how-convolutional-neural-networks-work
@@ -18,13 +18,13 @@ If your data can't be made to look like an image, or if you can rearrange elemen
 
 ---
 
-If your data is made up of different 2D or 3D images.
+إذا كانت بياناتك تتكون من صور ثنائية الأبعاد أو ثلاثية الأبعاد.
 
 ---
 
-If your data is text or sound based.
+إذا كانت البيانات الخاصة بك نصية أو صوتية.
 
 ## --video-solution--
 
-1
+الأول
 

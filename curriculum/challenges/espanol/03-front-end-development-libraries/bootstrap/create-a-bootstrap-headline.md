@@ -8,17 +8,17 @@ dashedName: create-a-bootstrap-headline
 
 # --description--
 
-Ahora construyamos algo desde cero para practicar nuestras habilidades de HTML, CSS y Bootstrap.
+Now let's build something from scratch to practice our HTML, CSS and Bootstrap skills.
 
-Construiremos una zona de juegos de jQuery, que pronto utilizaremos en nuestros desafíos de jQuery.
+Vamos a construir una zona de juegos de jQuery, que pronto vamos a utilizar en nuestros desafíos de jQuery.
 
 Para empezar, crea un elemento `h3`, con el texto `jQuery Playground`.
 
-Colorea tu elemento `h3` con la clase `text-primary` y céntralo con la clase `text-center` de Bootstrap.
+Colorea tu elemento `h3` con la clase `text-primary` y céntralo con la clase `text-center`.
 
 # --hints--
 
-Debes agregar un elemento `h3` a tu página.
+Debes añadir un elemento `h3` a tu pagina.
 
 ```js
 assert.lengthOf(document.querySelectorAll('h3'),1);
@@ -38,7 +38,7 @@ Tu elemento `h3` debe ser coloreado aplicando la clase `text-primary`
 assert.isTrue(document.querySelector('h3')?.classList?.contains('text-primary'));
 ```
 
-Tu elemento `h3` debe estar centrado al aplicar la clase `text-center`
+Tu elemento `h3` debe ser centrado aplicando la clase `text-center`
 
 ```js
 assert.isTrue(document.querySelector('h3')?.classList?.contains('text-center'));

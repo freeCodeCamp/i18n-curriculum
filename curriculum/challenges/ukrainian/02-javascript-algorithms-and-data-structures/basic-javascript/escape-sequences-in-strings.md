@@ -9,9 +9,9 @@ dashedName: escape-sequences-in-strings
 
 # --description--
 
-Лапки — не єдині символи, що можуть бути <dfn>екрановані</dfn> в рядку. Екрановані символи дозволяють використовувати символи, які інакше неможливо використати.
+Quotes are not the only characters that can be <dfn>escaped</dfn> inside a string. Escape sequences allow you to use characters you may not otherwise be able to use in a string.
 
-<table><thead><tr><th>Код</th><th>Вивід</th></tr></thead><tbody><tr><td><code>\'</code></td><td>одинарні лапки</td></tr><tr><td><code>\"</code></td><td>подвійні лапки</td></tr><tr><td><code>\\</code></td><td>зворотна коса риска</td></tr><tr><td><code>\n</code></td><td>новий рядок</td></tr><tr><td><code>\t</code></td><td>табуляція</td></tr><tr><td><code>\r</code></td><td>повернення каретки</td></tr><tr><td><code>\b</code></td><td>крок назад</td></tr><tr><td><code>\f</code></td><td>перевід сторінки</td></tr></tbody></table>
+<table><thead><tr><th>Code</th><th>Вивід</th></tr></thead><tbody><tr><td><code>\'</code></td><td>single quote</td></tr><tr><td><code>\"</code></td><td>подвійні лапки</td></tr><tr><td><code>\\</code></td><td>зворотна коса риска</td></tr><tr><td><code>\n</code></td><td>новий рядок</td></tr><tr><td><code>\t</code></td><td>табуляція</td></tr><tr><td><code>\r</code></td><td>повернення каретки</td></tr><tr><td><code>\b</code></td><td>крок назад</td></tr><tr><td><code>\f</code></td><td>перевід сторінки</td></tr></tbody></table>
 
 *Зверніть увагу, що сама зворотня коса риска повинна бути екранована для того, щоб вона відображалась.*
 
@@ -21,7 +21,7 @@ dashedName: escape-sequences-in-strings
 
 <pre>
 FirstLine
-    \SecondLine
+    \SecondLine
 ThirdLine
 </pre>
 

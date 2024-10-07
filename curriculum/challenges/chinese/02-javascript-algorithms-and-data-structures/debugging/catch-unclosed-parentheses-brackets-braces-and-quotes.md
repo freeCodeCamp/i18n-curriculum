@@ -8,7 +8,7 @@ dashedName: catch-unclosed-parentheses-brackets-braces-and-quotes
 
 # --description--
 
-要注意的另一个语法错误是所有的小括号、方括号、花括号和引号都必须配对。 当你编辑代码并插入新代码其中带有括号时，很容易忘记括号闭合。 此外，在将代码块嵌套到其他代码块时要小心，例如将回调函数作为参数添加到方法中。
+Another syntax error to be aware of is that all opening parentheses, brackets, curly braces, and quotes have a closing pair. Forgetting a piece tends to happen when you're editing existing code and inserting items with one of the pair types. Also, take care when nesting code blocks into others, such as adding a callback function as an argument to a method.
 
 避免这种错误的一种方法是，一次性输入完这些符号，然后将光标移回它们之间继续编写。 好在现在大部分编辑器都会帮你自动补全。
 

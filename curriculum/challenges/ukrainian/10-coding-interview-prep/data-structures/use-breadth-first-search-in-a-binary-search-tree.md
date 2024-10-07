@@ -8,7 +8,7 @@ dashedName: use-breadth-first-search-in-a-binary-search-tree
 
 # --description--
 
-Зараз ознайомимось з ще одним методом обходу дерева — пошук у ширину. На відміну від пошуку в глибину, пошук у ширину відвідує всі вузли на даному рівні дерева, а потім переходить до наступного рівня. Зазвичай допоміжними структурами даних в розробці алгоритмів пошуку в ширину є черги.
+Here we will introduce another tree traversal method: breadth-first search. In contrast to the depth-first search methods from the last challenge, breadth-first search explores all the nodes in a given level within a tree before continuing on to the next level. Typically, queues are utilized as helper data structures in the design of breadth-first search algorithms.
 
 У цьому методі ми спочатку додамо кореневий вузол до черги. Потім почнемо цикл, в якому перший елемент черги вилучається, додається до нового масиву, а тоді перевіряються обидва дочірні піддерева. Якщо дочірні елементи не є нулями, то вони додаються до черги. Цей процес повторюється, допоки черга не стає порожньою.
 

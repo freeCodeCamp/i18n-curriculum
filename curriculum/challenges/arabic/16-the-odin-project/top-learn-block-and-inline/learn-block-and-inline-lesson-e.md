@@ -33,4 +33,4 @@ What is the difference between an `inline` element and an `inline-block` element
 
 ## --video-solution--
 
-2
+٢

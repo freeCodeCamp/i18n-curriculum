@@ -1,6 +1,6 @@
 ---
 id: 56105e7b514f539506016a5e
-title: Count Backwards With a For Loop
+title: for 루프를 사용하여 거꾸로 세어보기
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/c2R6BHa'
 forumTopicId: 16808
@@ -11,9 +11,9 @@ dashedName: count-backwards-with-a-for-loop
 
 A for loop can also count backwards, so long as we can define the right conditions.
 
-In order to decrement by two each iteration, we'll need to change our initialization, condition, and final expression.
+반복마다 2씩 감소시키려면 초기화, 조건 및 최종 표현식을 변경해야 합니다.
 
-We'll start at `i = 10` and loop while `i > 0`. We'll decrement `i` by 2 each loop with `i -= 2`.
+`i = 10`부터 시작하여 `i > 0`인 동안 반복할 것입니다. 각 루프에서 `i`를 2씩 감소시킬 것입니다. `i -= 2`.
 
 ```js
 const ourArray = [];
@@ -23,27 +23,27 @@ for (let i = 10; i > 0; i -= 2) {
 }
 ```
 
-`ourArray` will now contain `[10, 8, 6, 4, 2]`. Let's change our initialization and final expression so we can count backwards by twos to create an array of descending odd numbers.
+`ourArray`는 이제 `[10, 8, 6, 4, 2]`가 될 것입니다. 이제 초기화 및 최종 표현식을 변경하여 두 칸씩 거꾸로 세어내려가는 내림차순 홀수의 배열을 만들어 보겠습니다.
 
 # --instructions--
 
-Push the odd numbers from 9 through 1 to `myArray` using a `for` loop.
+for 루프를 사용하여 9에서 1까지의 홀수를 `myArray`에 추가하세요.
 
 # --hints--
 
-You should be using a `for` loop for this.
+이 작업에는 `for` 루프를 사용해야 합니다.
 
 ```js
 assert(/for\s*\([^)]+?\)/.test(__helpers.removeJSComments(code)));
 ```
 
-You should be using the array method `push`.
+배열 메서드 `push`를 사용해야 합니다.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/myArray.push/));
 ```
 
-`myArray` should equal `[9, 7, 5, 3, 1]`.
+`myArray`는 `[9, 7, 5, 3, 1]`과 같아야 합니다.
 
 ```js
 assert.deepEqual(myArray, [9, 7, 5, 3, 1]);

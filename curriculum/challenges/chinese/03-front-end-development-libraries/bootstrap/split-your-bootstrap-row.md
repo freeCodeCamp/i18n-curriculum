@@ -8,7 +8,7 @@ dashedName: split-your-bootstrap-row
 
 # --description--
 
-现在已经有了一个 Bootstrap Row，把它分成两列。
+Now that we have a Bootstrap Row, let's split it into two columns to house our elements.
 
 在行内创建两个 class 属性为 `col-xs-6` 的 `div` 元素。
 

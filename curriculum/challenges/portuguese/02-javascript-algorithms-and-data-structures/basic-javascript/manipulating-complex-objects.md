@@ -9,7 +9,7 @@ dashedName: manipulating-complex-objects
 
 # --description--
 
-Às vezes, você pode querer armazenar dados em uma <dfn>Estrutura de Dados</dfn> flexível. Um objeto JavaScript é uma forma de lidar com dados flexíveis. Eles permitem combinações arbitrárias de <dfn>strings</dfn>, <dfn>numbers</dfn>, <dfn>booleans</dfn>, <dfn>arrays</dfn>, <dfn>functions</dfn> e <dfn>objects</dfn>.
+Sometimes you may want to store data in a flexible <dfn>Data Structure</dfn>. A JavaScript object is one way to handle flexible data. They allow for arbitrary combinations of <dfn>strings</dfn>, <dfn>numbers</dfn>, <dfn>booleans</dfn>, <dfn>arrays</dfn>, <dfn>functions</dfn>, and <dfn>objects</dfn>.
 
 Aqui está um exemplo de estrutura de dados complexas:
 

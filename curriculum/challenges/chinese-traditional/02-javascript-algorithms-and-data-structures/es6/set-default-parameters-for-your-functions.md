@@ -8,7 +8,7 @@ dashedName: set-default-parameters-for-your-functions
 
 # --description--
 
-ES6 裏允許給函數傳入<dfn>默認參數</dfn>，來構建更加靈活的函數。
+In order to help us create more flexible functions, ES6 introduces <dfn>default parameters</dfn> for functions.
 
 請看以下代碼：
 

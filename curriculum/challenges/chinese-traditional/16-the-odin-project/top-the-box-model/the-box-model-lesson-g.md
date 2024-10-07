@@ -20,7 +20,7 @@ Be sure to study the diagrams carefully.
 
 <img src="https://cdn.freecodecamp.org/curriculum/odin-project/the-box-model/the-box-model.png" alt="Visual representation of CSS box model with text, surrounded by 'padding' in pink, a purple 'border', and 'margin' indicated by blue arrows, explaining space between text, box edge, and window edge." />
 
-# --assignment--
+# --作業--
 
 Add a border to every element on the page and see how the boxes are laid out.
 

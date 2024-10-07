@@ -1,6 +1,6 @@
 ---
 id: 5e8f2f13c4cdbe86b5c72d87
-title: 'Introduction: Machine Learning Fundamentals'
+title: 'Einführung: Grundlagen des maschinellen Lernens'
 challengeType: 11
 videoId: KwL1qTR5MT8
 bilibiliIds:
@@ -18,15 +18,15 @@ Which statement below is **false**?
 
 ## --answers--
 
-Neural networks are modeled after the way the human brain works.
+Neuronale Netze sind der Arbeitsweise des menschlichen Gehirns nachempfunden.
 
 ---
 
-Computer programs that play tic-tac-toe or chess against human players are examples of simple artificial intelligence.
+Computerprogramme, die Tic-Tac-Toe oder Schach gegen menschliche Spieler spielen, sind Beispiele für einfache künstliche Intelligenz.
 
 ---
 
-Machine learning is a subset of artificial intelligence.
+Maschinelles Lernen ist ein Teilbereich der künstlichen Intelligenz.
 
 ## --video-solution--
 

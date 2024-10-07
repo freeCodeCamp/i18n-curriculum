@@ -9,7 +9,7 @@ dashedName: create-an-ordered-list
 
 # --description--
 
-HTML має інший спеціальний елемент для створення <dfn>ordered lists</dfn> (впорядкованих списків) чи пронумерованих списків.
+HTML has another special element for creating <dfn>ordered lists</dfn>, or numbered lists.
 
 Впорядковані списки починаються з елементу `<ol>`, за яким йде будь-яка кількість елементів `<li>`. Нарешті, впорядковані списки закриваються тегом `</ol>`.
 

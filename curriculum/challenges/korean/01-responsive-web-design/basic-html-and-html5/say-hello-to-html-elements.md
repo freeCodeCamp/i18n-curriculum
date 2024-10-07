@@ -9,7 +9,7 @@ dashedName: say-hello-to-html-elements
 
 # --description--
 
-FreeCodeCamp의 HTML 코딩 도전 과제에 오신 것을 환영합니다. 이 도전 과제들은 웹 개발 과정을 단계별로 안내합니다.
+Welcome to freeCodeCamp's HTML coding challenges. These will walk you through web development step-by-step.
 
 먼저, HTML을 사용하여 간단한 웹 페이지를 만드는 것으로 시작합니다. 이 웹 페이지에 포함 된 코드 편집기에서 코드를 편집 할 수 있습니다.
 

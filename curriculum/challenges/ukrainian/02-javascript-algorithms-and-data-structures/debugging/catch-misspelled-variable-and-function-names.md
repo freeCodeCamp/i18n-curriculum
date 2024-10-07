@@ -8,7 +8,7 @@ dashedName: catch-misspelled-variable-and-function-names
 
 # --description--
 
-Методи `console.log()` та `typeof` є двома основними способами перевірки проміжних значень та типів виводу програми. Тепер час заглибитися у найпоширеніші помилки. Одна помилка на синтаксичному рівні, яку можна допустити при швидкому друці, є звичайною помилкою правопису.
+The `console.log()` and `typeof` methods are the two primary ways to check intermediate values and types of program output. Now it's time to get into the common forms that bugs take. One syntax-level issue that fast typers can commiserate with is the humble spelling error.
 
 Якщо символ у назві змінної чи функції буде перенесений, відсутній, або ж матиме неправильний регістр, браузер виконуватиме пошук неіснуючого об’єкта та надсилатиме скарги у формі посилання на помилку. Назви змінних та функцій у JavaScript чутливі до регістру.
 

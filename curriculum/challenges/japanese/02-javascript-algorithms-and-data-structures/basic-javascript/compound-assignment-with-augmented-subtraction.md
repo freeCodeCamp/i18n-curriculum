@@ -9,7 +9,7 @@ dashedName: compound-assignment-with-augmented-subtraction
 
 # --description--
 
-`+=` 演算子と同様に、`-=` は変数から数を引きます。
+Like the `+=` operator, `-=` subtracts a number from a variable.
 
 ```js
 myVar = myVar - 5;

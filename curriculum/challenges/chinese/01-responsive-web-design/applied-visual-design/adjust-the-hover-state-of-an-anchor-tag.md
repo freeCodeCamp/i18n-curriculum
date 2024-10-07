@@ -9,7 +9,7 @@ dashedName: adjust-the-hover-state-of-an-anchor-tag
 
 # --description--
 
-本挑战将要涉及到伪类。 伪类是可以添加到选择器上的关键字，用来选择特定状态的元素。
+This challenge will touch on the usage of pseudo-classes. A pseudo-class is a keyword that can be added to selectors, in order to select a specific state of the element.
 
 比如，可以使用 `:hover` 伪类选择器来选取锚标签的悬停状态。 下面的代码可以在鼠标悬停在锚标签上时将其 `color` 变成红色：
 
@@ -25,7 +25,7 @@ a:hover {
 
 # --hints--
 
-The anchor tag `color` should remain black, only add CSS rules for the `:hover` state.
+锚标签的 `color` 应该保持黑色，应只添加 `:hover` CSS 规则。
 
 ```js
 const anchorElement = document.querySelector("a"); 

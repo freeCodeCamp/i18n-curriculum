@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: natural-language-processing-with-rnns-recurring-neural-networks
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-¿Qué es cierto acerca de las Redes Neuronales Recurrentes?
+What is true about Recurrent Neural Networks?
 
 ## --answers--
 

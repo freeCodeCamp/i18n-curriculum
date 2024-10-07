@@ -9,7 +9,7 @@ dashedName: delete-html-elements
 
 # --description--
 
-手機屏幕的空間是有限的。
+Our phone doesn't have much vertical space.
 
 讓我們刪除不必要的元素，開始設計我們的 CatPhotoApp。
 

@@ -1,6 +1,6 @@
 ---
 id: 655b275cadbebf5fc0f0db05
-title: "Task 81"
+title: "Aufgabe 81"
 challengeType: 22
 dashedName: task-81
 ---
@@ -9,7 +9,7 @@ dashedName: task-81
 
 # --description--
 
-Focus on the specific actions and timing of Maria's activities on Tuesdays.
+Fokussiere dich auf die konkreten Handlungen und den Zeitpunkt von Marias Aktivitäten dienstags.
 
 # --fillInTheBlank--
 
@@ -17,21 +17,21 @@ Focus on the specific actions and timing of Maria's activities on Tuesdays.
 
 `On Tuesdays, I learn Japanese. I BLANK BLANK lessons at 7.`
 
-## -blanks--
+## --blanks--
 
 `take`
 
-### --Feedback--
+### --feedback--
 
-Used here to describe the action of participating in her lessons.
+Wird hier verwendet, um die Handlung der Teilnahme an ihren Unterrichtsstunden zu beschreiben.
 
 ---
 
 `online`
 
-### --Feedback--
+### --feedback--
 
-Specifies how her lessons occur - in her case, in a virtual environment.
+Spezifiziert, wie ihre Unterrichtsstunden ablaufen - in ihrem Fall in einer virtuellen Umgebung.
 
 # --scene--
 

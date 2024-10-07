@@ -8,7 +8,7 @@ dashedName: manage-npm-dependencies-by-understanding-semantic-versioning
 
 # --description--
 
-在 package.json 文件的依賴項中，npm 包的 `Versions` 遵循語義化版本（SemVer，Semantic Versioning），它是一種旨在使管理依賴項更加容易的軟件版本控制的行業標準。 在 npm 上發佈的庫、框架或其它工具都應該使用語義化版本，以便讓用戶清晰地知道如果項目升級將帶來哪些改變。
+`Versions` of the npm packages in the dependencies section of your package.json file follow what’s called Semantic Versioning (SemVer), an industry standard for software versioning aiming to make it easier to manage dependencies. Libraries, frameworks or other tools published on npm should use SemVer in order to clearly communicate what kind of changes projects can expect if they update.
 
 在使用外部依賴項（大多數情況都是這樣）進行軟件開發時，瞭解語義化版本會很有用。 這些數字保存着項目的偶然發生的破壞性改變，不會讓人對項目昨天還正常，今天卻無法運行而百思不解。 根據官網，這是語義化版本的工作方式：
 

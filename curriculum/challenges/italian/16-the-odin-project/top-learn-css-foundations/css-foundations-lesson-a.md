@@ -8,7 +8,7 @@ dashedName: css-foundations-lesson-a
 
 # --description--
 
-A type selector (or element selector) will select all elements of the given element type, and the syntax is just the name of the element:
+Un selettore di tipo (o selettore di elemento) seleziona tutti gli elementi di un dato tipo e la sintassi è semplicemente il nome dell'elemento:
 
 ```html
 <!-- index.html -->
@@ -33,19 +33,19 @@ Here, all three `<div>` elements would be selected, while the `<p>` element woul
 
 ## --text--
 
-Which of the following best describes the CSS code given above?
+Quale delle seguenti risposte descrive meglio il codice CSS riportato sopra?
 
 ## --answers--
 
-The code applies a `white` color to all elements in the HTML file.
+Il codice applica il colore `white` a tutti gli elementi del file HTML.
 
 ---
 
-The code applies a `white` color to all `div` elements in the HTML file.
+Il codice applica il colore `white` a tutti gli elementi `div` del file HTML.
 
 ---
 
-The code applies a `white` color to all `p` elements in the HTML file.
+Il codice applica il colore `white` a tutti gli elementi `p` del file HTML.
 
 
 ## --video-solution--

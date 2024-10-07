@@ -14,7 +14,7 @@ dashedName: core-learning-algorithms-hidden-markov-models
 
 ## --text--
 
-O que torna um modelo de Markov oculto diferente da regressão linear ou da classificação?
+What makes a Hidden Markov model different than linear regression or classification?
 
 ## --answers--
 

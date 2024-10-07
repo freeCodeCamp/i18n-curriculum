@@ -9,7 +9,7 @@ dashedName: style-multiple-elements-with-a-css-class
 
 # --description--
 
-Klassen erlauben es die selben CSS-Stile für mehrere HTML-Elemente zu verwenden. Du kannst das hier sehen, indem du deine `red-text` Klasse auf dein erstes `p` Element anwendest.
+Classes allow you to use the same CSS styles on multiple HTML elements. You can see this by applying your `red-text` class to the first `p` element.
 
 # --hints--
 

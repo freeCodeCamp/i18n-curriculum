@@ -8,7 +8,7 @@ dashedName: create-a-module-script
 
 # --description--
 
-O JavaScript nasceu com o objetivo de cumprir um pequeno papel em uma web onde tudo era, na maior parte, HTML. Hoje, o JavaScript é gigante. Para se ter noção, alguns websites são construídos quase que inteiramente em JavaScript. A fim de tornar o JavaScript mais modular, limpo e passível de manutenção, a versão ES6 introduziu uma forma mais simples de compartilhar códigos entre arquivos JavaScript. Dessa forma, você consegue exportar partes de um arquivo e usá-los em arquivos externos bem como importar as partes de que você precisa. Para tirar proveito dessa funcionalidade, você precisa criar uma tag script com o atributo `type` de valor `module` no seu documento HTML. Exemplo:
+JavaScript started with a small role to play on an otherwise mostly HTML web. Today, it’s huge, and some websites are built almost entirely with JavaScript. In order to make JavaScript more modular, clean, and maintainable; ES6 introduced a way to easily share code among JavaScript files. This involves exporting parts of a file for use in one or more other files, and importing the parts you need, where you need them. In order to take advantage of this functionality, you need to create a script in your HTML document with a `type` of `module`. Here’s an example:
 
 ```html
 <script type="module" src="filename.js"></script>

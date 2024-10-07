@@ -8,7 +8,7 @@ dashedName: check-if-an-object-has-a-property
 
 # --description--
 
-我們已經學習瞭如何添加、修改和移除對象中的屬性。 但如果我們想知道一個對象中是否包含某個屬性呢？ JavaScript 爲我們提供了兩種不同的方式來實現這個功能： 一個是通過 `hasOwnProperty()` 方法，另一個是使用 `in` 關鍵字。 假如我們有一個 `users` 對象，爲檢查它是否含有 `Alan` 屬性，可以這樣寫：
+Now we can add, modify, and remove keys from objects. But what if we just wanted to know if an object has a specific property? JavaScript provides us with two different ways to do this. One uses the `hasOwnProperty()` method and the other uses the `in` keyword. If we have an object `users` with a property of `Alan`, we could check for its presence in either of the following ways:
 
 ```js
 users.hasOwnProperty('Alan');

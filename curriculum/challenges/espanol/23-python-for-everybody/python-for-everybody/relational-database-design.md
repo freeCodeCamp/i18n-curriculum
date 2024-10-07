@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: relational-database-design
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-What is the best practice for how many times a piece of string data should be stored in a database?
+¿Cuál es la mejor práctica para saber cuántas veces una cadena de datos debe almacenarse en una base de datos?
 
 ## --answers--
 

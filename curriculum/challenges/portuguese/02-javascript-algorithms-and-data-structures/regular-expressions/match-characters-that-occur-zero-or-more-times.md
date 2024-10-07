@@ -8,7 +8,7 @@ dashedName: match-characters-that-occur-zero-or-more-times
 
 # --description--
 
-O último desafio fez uso do caractere `+` para buscar caracteres que ocorrem uma ou mais vezes. Existe um outro caractere que permite buscar zero ou mais ocorrências de um padrão.
+The last challenge used the plus `+` sign to look for characters that occur one or more times. There's also an option that matches characters that occur zero or more times.
 
 O caractere usado para isso é o asterisco: `*`.
 
@@ -54,7 +54,7 @@ A regex `chewieRegex` deve capturar 16 caracteres em `chewieQuote`.
 assert(result[0].length === 16);
 ```
 
-A expressão regular não deve corresponder com nenhum caractere na string `He made a fair move. Screaming about it can't help you.`
+Sua regex não deve conseguir capturar nada na string `He made a fair move. Screaming about it can't help you.`
 
 ```js
 assert(
@@ -62,7 +62,7 @@ assert(
 );
 ```
 
-A expressão regular não deve corresponder a nenhum caractere na string `Let him have it. It's not wise to upset a Wookiee.`
+Sua regex não deve conseguir capturar nada na string `Let him have it. It's not wise to upset a Wookiee.`
 
 ```js
 assert(

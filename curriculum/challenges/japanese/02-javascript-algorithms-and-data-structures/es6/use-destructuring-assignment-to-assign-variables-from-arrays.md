@@ -8,7 +8,7 @@ dashedName: use-destructuring-assignment-to-assign-variables-from-arrays
 
 # --description--
 
-ES6 では、配列の分割はオブジェクトの分割と同じくらい簡単になります。
+ES6 makes destructuring arrays as easy as destructuring objects.
 
 スプレッド演算子と配列分割の重要な違いは、スプレッド演算子は配列のすべての内容をカンマ区切りのリストに展開することです。 したがって、どの要素をどの変数に代入するかを選ぶことはできません。
 

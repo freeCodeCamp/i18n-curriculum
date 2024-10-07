@@ -8,7 +8,7 @@ dashedName: caesars-cipher
 
 # --description--
 
-واحدة من الشفرات <dfn>ciphers</dfn> الابسط و الاكثر شهرة هي <dfn>Caesar cipher</dfn>، وتعرف أيضا بأسم <dfn>shift cipher</dfn>. في عملية تشفير shift cipher، يتم تبديل معاني الحروف بمقدار معين.
+One of the simplest and most widely known <dfn>ciphers</dfn> is a <dfn>Caesar cipher</dfn>, also known as a <dfn>shift cipher</dfn>. In a shift cipher the meanings of the letters are shifted by some set amount.
 
 من الاستخدامات الحديثة الشائعة تشفير <a href="https://www.freecodecamp.org/news/how-to-code-the-caesar-cipher-an-introduction-to-basic-encryption-3bf77b4e19f7/" target="_blank" rel="noopener noreferrer nofollow">ROT13</a> ، حيث يتم تبديل قيم الحروف بمقدار 13 مكانًا. وهكذا `A ↔ N`، `B ↔ O` وما إلى ذلك.
 

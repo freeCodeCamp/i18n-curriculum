@@ -8,7 +8,7 @@ dashedName: prevent-object-mutation
 
 # --description--
 
-通過之前的挑戰可以看出，`const` 聲明並不會真的保護數據不被改變。 爲了確保數據不被改變，JavaScript 提供了一個函數 `Object.freeze`。
+As seen in the previous challenge, `const` declaration alone doesn't really protect your data from mutation. To ensure your data doesn't change, JavaScript provides a function `Object.freeze` to prevent data mutation.
 
 任何更改對象的嘗試都將被拒絕，如果腳本在嚴格模式下運行，將拋出錯誤。
 

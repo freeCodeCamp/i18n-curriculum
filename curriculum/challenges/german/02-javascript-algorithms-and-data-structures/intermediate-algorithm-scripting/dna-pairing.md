@@ -8,7 +8,7 @@ dashedName: dna-pairing
 
 # --description--
 
-DNA-Strangpaare bestehen aus Nukleobasenpaaren. Basenpaare werden durch die Zeichen <em>AT</em> und <em>CG</em> beschrieben, welche die Grundbausteine der Doppelhelix-Form der DNA darstellen.
+Pairs of DNA strands consist of nucleobase pairs. Base pairs are represented by the characters <em>AT</em> and <em>CG</em>, which form building blocks of the DNA double helix.
 
 Dem gegebenen DNA-Strang fehlt das Paarungselement. Schreib eine Funktion, die einen Treffer für das fehlende Basenpaar des gegebenen DNA-Stranges findet. Für jedes Zeichen im gegeben String soll das dazu passende Basenpaar-Zeichen gefunden werden. Die Ergebnisse sollen in einem 2D-Array zurückgegeben werden.
 

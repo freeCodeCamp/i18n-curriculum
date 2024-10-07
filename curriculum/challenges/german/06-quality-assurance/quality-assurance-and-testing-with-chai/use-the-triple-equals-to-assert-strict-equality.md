@@ -10,15 +10,15 @@ dashedName: use-the-triple-equals-to-assert-strict-equality
 
 As a reminder, this project is being built upon the following starter project on <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>, or cloned from <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
 
-`strictEqual()` compares objects using `===`.
+`strictEqual()` vergleicht Objekte unter Verwendung von `===`.
 
 # --instructions--
 
-Within `tests/1_unit-tests.js` under the test labeled `#6` in the `Equality` suite, change each `assert` to either `assert.strictEqual` or `assert.notStrictEqual` to make the test pass (should evaluate to `true`). Do not alter the arguments passed to the asserts.
+Ändere innerhalb `tests/1_unit-tests.js` unter dem Test mit der Beschriftung `#6` in der `Equality`-Suite, jeden `assert` in `assert.strictEqual` oder `assert.notStrictEqual` um, damit der Test bestanden wird (sollte `true` ausgeben). Ändere nicht die Argumente, die an die Assertions übergeben werden.
 
 # --hints--
 
-Alle Tests sollten bestanden werden.
+Alle Tests sollten bestehen.
 
 ```js
 (getUserInput) =>

@@ -1,6 +1,6 @@
 ---
 id: 587d8257367417b2b2512c7b
-title: Füge ein neues Element in einen binären Suchbaum ein
+title: Add a New Element to a Binary Search Tree
 challengeType: 1
 forumTopicId: 301618
 dashedName: add-a-new-element-to-a-binary-search-tree
@@ -8,7 +8,7 @@ dashedName: add-a-new-element-to-a-binary-search-tree
 
 # --description--
 
-In dieser Aufgabenreihe wird die Baumdatenstruktur vorgestellt. Bäume sind wichtige und vielseitige Datenstrukturen in der Informatik. Ihr Name rührt natürlich daher, dass sie den Bäumen, die wir aus der Natur kennen, sehr ähnlich sehen. Eine Baumdatenstruktur beginnt mit einem Knoten, der in der Regel als Wurzel bezeichnet wird, und verzweigt sich von hier aus zu weiteren Knoten, von denen jeder weitere Kindknoten haben kann, und so weiter und so fort. Die Datenstruktur wird in der Regel mit dem Wurzelknoten an der Spitze visualisiert; man kann sie sich als einen auf den Kopf gestellten natürlichen Baum vorstellen.
+This series of challenges will introduce the tree data structure. Trees are an important and versatile data structure in computer science. Of course, their name comes from the fact that when visualized they look much like the trees we are familiar with in the natural world. A tree data structure begins with one node, typically referred to as the root, and from here branches out to additional nodes, each of which may have more child nodes, and so on and so forth. The data structure is usually visualized with the root node at the top; you can think of it as a natural tree flipped upside down.
 
 Lass uns zuerst ein paar grundlegende Begriffe lernen, denen man häufig in Zusammenhang mit Bäumen begegnet. Der Wurzelknoten ist an der Spitze des Baums. Die Datenpunkte im Baum heißen Knoten. Knoten, deren Zweige zu anderen Knoten führen, werden als Elternteil des Knotens bezeichnet, zu dem der Zweig führt (das Kind). Andere kompliziertere Begriffe lassen sich ebenfalls logisch herleiten. Ein Teilbaum bezieht sich auf alle Nachfahren eines bestimmten Knotens, Zweige können als Kanten bezeichnet werden, und Blattknoten sind Knoten am Ende des Baums, die keine Kinder haben. Schließlich ist zu beachten, das Bäume allgemein rekursive Datenstrukturen sind. Das heißt, alle Kinder eines Knotens sind Eltern ihres eigenen Teilbaums usw. Die rekursive Natur von Bäumen ist wichtig zu verstehen, wenn man Algorithmen für allgemeine Baumfunktionen entwickelt.
 

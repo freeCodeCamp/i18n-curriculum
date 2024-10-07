@@ -14,11 +14,11 @@ Wenn du ein Update für deine Website herausgibst und du möchtest, dass die Nut
 
 # --instructions--
 
-Use the `helmet.noCache()` method on your server.
+Verwende die `helmet.noCache()`-Methode auf deinem Server.
 
 # --hints--
 
-helmet.noCache() middleware should be mounted correctly
+Die helmet.noCache()-Middleware sollte korrekt eingebaut werden
 
 ```js
 (getUserInput) =>

@@ -9,7 +9,7 @@ dashedName: compound-assignment-with-augmented-subtraction
 
 # --description--
 
-与 `+=` 操作符类似，`-=` 操作符用来对一个变量进行减法赋值操作。
+Like the `+=` operator, `-=` subtracts a number from a variable.
 
 ```js
 myVar = myVar - 5;

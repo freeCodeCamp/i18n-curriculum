@@ -1,6 +1,6 @@
 ---
 id: 5900f43c1000cf542c50ff4e
-title: 'Problem 207: Integer partition equations'
+title: 'Problem 207: Integer Teilungsgleichungen'
 challengeType: 1
 forumTopicId: 301848
 dashedName: problem-207-integer-partition-equations
@@ -14,7 +14,7 @@ wobei $4^t$, $2^t$ und $k$ alle positive Integer sind und $t$ eine reelle Zahl i
 
 Die ersten beiden dieser Partitionen sind $4^1 = 2^1 + 2$ und $4^{1.584\\,962\\,5\ldots} = 2^{1.584\\,962\\,5\ldots}. + 6$.
 
-Partitions where $t$ is also an integer are called perfect. Für jedes $m ≥ 1$ sei $P(m)$ der Anteil solcher Partitionen, die mit $k ≤ m$ perfekt sind.
+Partitionen, bei denen $t$ ebenfalls ein Integer ist, nennt man perfekt. Für jedes $m ≥ 1$ sei $P(m)$ der Anteil solcher Partitionen, die mit $k ≤ m$ perfekt sind.
 
 Somit ist $P(6) = \frac{1}{2}$.
 

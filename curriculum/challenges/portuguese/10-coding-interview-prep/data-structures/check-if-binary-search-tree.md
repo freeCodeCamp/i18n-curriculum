@@ -8,7 +8,7 @@ dashedName: check-if-tree-is-binary-search-tree
 
 # --description--
 
-Como você já sabe o que é uma árvore binária de busca, este desafio vai estabelecer como você pode dizer que uma árvore é uma árvore binária de busca ou não.
+Since you already know what a binary search tree is, this challenge will establish how it is you can tell that a tree is a binary search tree or not.
 
 A principal distinção está no fato de que uma árvore binária de busca tem os nós ordenados de maneira organizada. Os nós têm no máximo 2 nós filhos (colocados à direita e/ou à esquerda) com base no valor do nó filho ser maior ou igual a (à direita) ou menor que (à esquerda) o valor do nó pai.
 

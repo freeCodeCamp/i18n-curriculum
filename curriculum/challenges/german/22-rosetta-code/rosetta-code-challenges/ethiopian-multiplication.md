@@ -8,16 +8,16 @@ dashedName: ethiopian-multiplication
 
 # --description--
 
-Ethiopian multiplication is a method of multiplying integers using only addition, doubling, and halving.
+Die äthiopische Multiplikation ist eine Methode zur Multiplikation ganzer Zahlen, indem nur Addition, Verdopplung und Halbierung angewandt wird.
 
 **Methode:**
 
 <ol>
-  <li>Take two numbers to be multiplied and write them down at the top of two columns</li>
-  <li>In the left-hand column repeatedly halve the last number, discarding any remainders, and write the result below the last in the same column, until you write a value of <code>1</code></li>
-  <li>In the right-hand column repeatedly double the last number and write the result below. stop when you add a result in the same row as where the left hand column shows <code>1</code></li>
-  <li>Examine the table produced and discard any row where the value in the left column is even</li>
-  <li>Sum the values in the right-hand column that remain to produce the result of multiplying the original two numbers together</li>
+  <li>Nimm zwei zu multiplizierende Zahlen und schreibe sie oben in zwei Spalten auf</li>
+  <li>Halbiere in der linken Spalte wiederholt die letzte Zahl, wobei du alle Reste verwirfst, und schreibe das Ergebnis unter die letzte Zahl in derselben Spalte, bis du den Wert <code>1</code> schreibst</li>
+  <li>Verdopple in der rechten Spalte wiederholt die letzte Zahl und schreibe das Ergebnis darunter. stoppe, wenn du ein Ergebnis in der gleichen Zeile hinzufügst, in der die linke Spalte <code>1</code> anzeigt</li>
+  <li>Prüfe die erzeugte Tabelle und verwerfe jede Zeile, bei der der Wert in der linken Spalte gerade ist</li>
+  <li>Addieren die verbleibenden Werte in der rechten Spalte, um das Ergebnis der Multiplikation der beiden ursprünglichen Zahlen zu erhalten</li>
 </ol>
 
 **Zum Beispiel:** `17 × 34`
@@ -74,7 +74,7 @@ Das heißt, `17` multipliziert mit `34`, ist nach der äthiopischen Methode `578
 Die Aufgabe besteht darin, drei benannte Funktionen/Methoden/Prozeduren/Unterprogramme zu definieren:
 
 <ol>
-  <li>one to halve an integer,</li>
+  <li>eins, um eine ganze Zahl zu halbieren,</li>
   <li>eine, um eine ganze Zahl zu verdoppeln, und</li>
   <li>eine, um festzustellen, ob eine ganze Zahl gerade ist</li>
 </ol>

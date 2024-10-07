@@ -1,6 +1,6 @@
 ---
 id: 587d78af367417b2b2512b04
-title: أنشئ صفحة لعرض لمنتج
+title: أنشئ صفحة لعرض المنتج
 challengeType: 14
 forumTopicId: 301144
 dashedName: build-a-product-landing-page
@@ -12,7 +12,7 @@ dashedName: build-a-product-landing-page
 
 **المطلبيات:**
 
-1. صفحة هبوط المنتج الخاصة بي يجب أن تحتوي على عنصر `header` مع عنصر مقابل `id="header"`
+1. Your product landing page should have a `header` element with a corresponding `id="header"`
 1. يمكنك رؤية صورة داخل عنصر `header` مع `id="header-img"` (الشعار من شأنه أن يجعل صورة جيدة هنا)
 1. داخل عنصر `#header` يمكنك رؤية عنصر `nav` مع `id="nav-bar"`
 1. يمكنك أن ترى على الأقل ثلاثة عناصر قابلة للنقر داخل عنصر `nav` كل منها مع class بأسم `nav-link`
@@ -28,7 +28,7 @@ dashedName: build-a-product-landing-page
 1. يجب أن تحتوي صفحة هبوط المنتج على media query واحد على الأقل
 1. صفحة هبوط المنتج الخاص بك يجب أن تستخدم CSS flexbox مرة واحدة على الأقل
 
-أكمل المطلبيات و قم باجتياز جميع الاختبارات أدناه لإكمال هذا المشروع. أعطيها أسلوبك الشخصي الخاص. برمجة سعيدة!
+أكمل المتطلبات و قم باجتياز جميع الاختبارات أدناه لإكمال هذا المشروع. أعطيها أسلوبك الشخصي الخاص. برمجة سعيدة!
 
 **ملاحظة:** تيقن من إضافة `<link rel="stylesheet" href="styles.css">` في HTML الخاص بك لربط ورقة الأسلوب الخاصة بك وتطبيق CSS
 

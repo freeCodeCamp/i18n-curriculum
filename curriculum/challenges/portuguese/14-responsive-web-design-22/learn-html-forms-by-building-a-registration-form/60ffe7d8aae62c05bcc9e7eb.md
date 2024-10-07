@@ -7,7 +7,7 @@ dashedName: step-58
 
 # --description--
 
-Com um `display` de `block` o botão de enviar fica na borda esquerda do elemento pai.
+With a `display` of `block` the submit button sits flush against the left edge of its parent.
 
 Use a mesma técnica usada para centralizar o `form` para centralizar o botão de enviar.
 

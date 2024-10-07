@@ -20,21 +20,21 @@ Complete o projeto guiado <a href="https://learn.microsoft.com/training/modules/
 
 ## --text--
 
-Para o código `decimal.TryParse(numberString, out myConvert))` quando o tipo `numberString` é uma String.
+For the code `decimal.TryParse(numberString, out myConvert))` when the type of `numberString` is a String.
 
-Qual dos valores melhor descreve o tipo para `myConvert` quando `TryParse()` for bem-sucedido?
+Which best describes the value type for `myConvert` when the `TryParse()` is successful?
 
 ## --answers--
 
-Uma string representando algarismos numéricos.
+A string representing numeric digits.
 
 ---
 
-Um valor booleano.
+A Boolean value.
 
 ---
 
-Um decimal
+A decimal
 
 ## --video-solution--
 

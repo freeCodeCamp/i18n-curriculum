@@ -8,7 +8,7 @@ dashedName: create-bootstrap-wells
 
 # --description--
 
-부트스트랩은 열에 시각적인 깊이를 제공할 수 있는 `well`라는 클래스가 있습니다.
+Bootstrap has a class called `well` that can create a visual sense of depth for your columns.
 
 `well` 클래스를 가진 `div` 요소를 각각의 `col-xs-6` `div` 요소 내에 중첩합니다.
 

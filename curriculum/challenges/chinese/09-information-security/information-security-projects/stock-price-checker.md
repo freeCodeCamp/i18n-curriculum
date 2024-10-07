@@ -8,15 +8,15 @@ dashedName: stock-price-checker
 
 # --description--
 
-构建一个 JavaScript 的全栈应用，在功能上与这个应用相似：<a href="https://stock-price-checker.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://stock-price-checker.freecodecamp.rocks/</a>。
+Build a full stack JavaScript app that is functionally similar to this: <a href="https://stock-price-checker.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://stock-price-checker.freecodecamp.rocks/</a>.
 
 由于所有可靠的股票价格 API 都需要一个 API 密钥，我们已经建立了一个解决方案。 使用 <a href="https://stock-price-checker-proxy.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://stock-price-checker-proxy.freecodecamp.rocks/</a> 获取最新的股票价格信息，而无需注册你自己的密钥。
 
 可以采用下面的任意一种方式完成这个挑战：
 
--   克隆<a href="https://github.com/freeCodeCamp/boilerplate-project-stockchecker/" target="_blank" rel="noopener noreferrer nofollow">这个 GitHub 仓库</a>，并在本地完成你的项目。
+-   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-stockchecker/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
 -   Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-stockchecker/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete your project.
--   使用你选择的网站生成器来完成项目。 需要包含我们 GitHub 仓库的所有文件。
+-   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
 
 # --instructions--
 
@@ -25,11 +25,11 @@ dashedName: stock-price-checker
 3.  添加安全功能到 `server.js`。
 4.  在 `tests/2_functional-tests.js` 中创建所有的功能测试
 
-**注意** 隐私考虑：由于每个 IP 只能接受一个赞（like），你必须保存 IP 地址。 必须遵守数据隐私法规，例如《通用数据保护条例》。 一个选项是获得保存用户数据的权限，但是匿名化则要简单得多。 对于此挑战，请记住在将 IP 地址保存到数据库之前对其进行匿名化。 如果你想知道如何做到这一点，你可以选择散列数据、截断它、或将 IP 地址的一部分设置为 0。
+**Note** Privacy Considerations: Due to the requirement that only 1 like per IP should be accepted, you will have to save IP addresses. It is important to remain compliant with data privacy laws such as the General Data Protection Regulation. One option is to get permission to save the user's data, but it is much simpler to anonymize it. For this challenge, remember to anonymize IP addresses before saving them to the database. If you need ideas on how to do this, you may choose to hash the data, truncate it, or set part of the IP address to 0.
 
-在 `tests/2_functional-tests.js` 中编写以下测试：
+在 `tests/2_functional-tests.js` 中编写下以下测试：
 
--   查看股价：发送 GET 请求到 `/api/stock-prices/`
+-   Viewing one stock: GET request to `/api/stock-prices/`
 -   查看一个股票并关注它：发送 GET 请求到 `/api/stock-prices/`
 -   查看同一只股票并再次发送关注：发送 GET 请求到 `/api/stock-prices/`
 -   查看两只股票：发送 GET 请求到 `/api/stock-prices/`
@@ -74,7 +74,7 @@ async (getUserInput) => {
 };
 ```
 
-`stockData` 属性包括字符串 `stock`、数字 `price`，以及数字 `likes`。
+`stockData` 属性包括字符串 `stock` 代码、数字 `price`，以及数字 `likes`。
 
 ```js
 async (getUserInput) => {
@@ -89,7 +89,7 @@ async (getUserInput) => {
 };
 ```
 
-你也可以将 `like` 字段作为 `true`（布尔值）传递，将你的偏好添加到股票中。 每个 IP 应该只接受 1 个赞（like）。
+你也可以用作为 `true`（布尔值）来传递 `like` 字段，让你的偏好添加到股票中。 每个 IP 应该只接受 1 个赞。
 
 ```js
 

@@ -8,18 +8,18 @@ dashedName: run-functional-tests-using-a-headless-browser-ii
 
 # --description--
 
-Lembrete, esse projeto está sendo construido conforme o seguinte projeto inicial em <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>, ou clonado de <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
+As a reminder, this project is being built upon the following starter project on <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>, or cloned from <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
 
 # --instructions--
 
 Em `tests/2_functional-tests.js`, no teste `'Submit the surname "Vespucci" in the HTML form'` (`// #6`), automatize o seguinte:
 
-1.  Preencha o formulário com o surname `Vespucci`
-2.  Pressione o botão Submit
+1.  Fill in the form with the surname `Vespucci`
+2.  Press the submit button
 
 Na callback `pressButton`:
 
-1.  Avalie se o status é OK `200`
+1.  Assert that status is OK `200`
 2.  Avalie se o texto dentro do elemento `span#name` é `'Amerigo'`
 3.  Avalie se o texto dentro do elemento `span#surname` é `'Vespucci'`
 4.  Avalie se o(s) elemento(s) `span#dates` existe(m) e sua contagem é `1`

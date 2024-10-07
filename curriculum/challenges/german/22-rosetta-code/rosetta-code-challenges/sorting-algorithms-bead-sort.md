@@ -8,7 +8,7 @@ dashedName: sorting-algorithmsbead-sort
 
 # --description--
 
-A *bead sort* starts by creating a matrix of zeroes whose length is equal to the value of the largest element in the input array. The matrix is transformed by adding one to all elements between the zeroth index and the index indicated by the current element. This process is repeated, until you have filled the matrix.
+Ein *Bead Sort* beginnt mit der Erstellung einer Matrix von Nullen, deren Länge dem Wert des größten Elements im Eingabe-Array entspricht. Die Matrix wird transformiert, indem zu allen Elementen zwischen dem nullten Index und dem durch das aktuelle Element angegebenen Index eins addiert wird. Dieser Vorgang wird so lange wiederholt, bis Sie die Matrix gefüllt haben.
 
 Iteriert man über die Matrix, summiert die Anzahl der Elemente, die größer als Null sind, und verringert dann den Wert jedes Elements um eins, erhält man die sortierte Matrix.
 

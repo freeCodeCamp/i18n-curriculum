@@ -9,7 +9,7 @@ dashedName: comparison-with-the-strict-equality-operator
 
 # --description--
 
-Strikte Gleichheit (`===`) ist das Gegenstück zum Gleichheitsoperator (`==`). Im Gegensatz zum Gleichheitsoperator, der versucht, beide zu vergleichenden Werte in einen gemeinsamen Typ zu konvertieren, führt der strikte Gleichheitsoperator jedoch keine Typkonvertierung durch.
+Strict equality (`===`) is the counterpart to the equality operator (`==`). However, unlike the equality operator, which attempts to convert both values being compared to a common type, the strict equality operator does not perform a type conversion.
 
 Wenn die zu vergleichenden Werte unterschiedliche Typen haben, werden sie als ungleich angesehen und der strikte Gleichheitsoperator wird false zurückgeben.
 

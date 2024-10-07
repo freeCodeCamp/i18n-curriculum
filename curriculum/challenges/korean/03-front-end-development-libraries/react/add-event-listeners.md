@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d403617e
-title: Add Event Listeners
+title: 이벤트 리스너 추가하기
 challengeType: 6
 forumTopicId: 301377
 dashedName: add-event-listeners
@@ -10,17 +10,17 @@ dashedName: add-event-listeners
 
 The `componentDidMount()` method is also the best place to attach any event listeners you need to add for specific functionality. React provides a synthetic event system which wraps the native event system present in browsers. This means that the synthetic event system behaves exactly the same regardless of the user's browser - even if the native events may behave differently between different browsers.
 
-You've already been using some of these synthetic event handlers such as `onClick()`. React's synthetic event system is great to use for most interactions you'll manage on DOM elements. However, if you want to attach an event handler to the document or window objects, you have to do this directly.
+이미 합성 이벤트 핸들러를 사용하고 계실 겁니다. `onClick()`도 그 중 하나입니다. 리액트 합성 이벤트 시스템은, DOM 엘리먼트에서 관리하게 될 대부분의 상호 작용에 적합합니다. 하지만 이벤트 핸들러를 document 혹은 window 객체에 연결하고 싶으면, 직접 연결해줘야 합니다.
 
 # --instructions--
 
-Attach an event listener in the `componentDidMount()` method for `keydown` events and have these events trigger the callback `handleKeyPress()`. You can use `document.addEventListener()` which takes the event (in quotes) as the first argument and the callback as the second argument.
+`componentDidMount()`에 `keydown` 이벤트를 위한 리스너를 연결하고, 콜백으로 `handleKeyPress()`를 실행하게 해보세요. 첫 번째 인자로 이벤트를 갖고, 두 번째로는 콜백을 갖는 `document.addEventListener()`를 사용할 수 있습니다.
 
-Then, in `componentWillUnmount()`, remove this same event listener. You can pass the same arguments to `document.removeEventListener()`. It's good practice to use this lifecycle method to do any clean up on React components before they are unmounted and destroyed. Removing event listeners is an example of one such clean up action.
+그런 다음 `componentWillUnmount()`에서 위의 이벤트 리스너를 제거해주세요. `document.removeEventListener()`에 동일한 인자들을 넣어주면 됩니다. 이 라이프사이클 메서드를 이용해서 리액트 컴포넌트가 언마운트되거나 없어질 때 정리해주는 것이 좋습니다. 이벤트 리스너를 제거해주는 것이 정리 작업의 한 예시입니다.
 
 # --hints--
 
-`MyComponent` should render a `div` element which wraps an `h1` tag.
+`MyComponent`는 `h1` 태그를 감싼 `div` 엘리먼트를 반환해야 합니다.
 
 ```js
 assert(
@@ -31,7 +31,7 @@ assert(
 );
 ```
 
-A `keydown` listener should be attached to the document in `componentDidMount`.
+`keydown` 리스너는 `componentDidMount` 안에서 document에 연결되어야 합니다.
 
 ```js
 assert(
@@ -47,7 +47,7 @@ assert(
 );
 ```
 
-The `keydown` listener should be removed from the document in `componentWillUnmount`.
+`keydown` 리스너는 `componentWillUnmount`에서 document에서 제거되어야 합니다.
 
 ```js
 assert(
@@ -63,7 +63,7 @@ assert(
 );
 ```
 
-Once the component has mounted, pressing `enter` should update its state and the rendered `h1` tag.
+컴포넌트가 DOM에 올려졌을 때(mount), `엔터`를 누르면 상태가 업데이트 되어야 하고, `h1` 태그에 렌더링 되어야 합니다.
 
 ```js
 async () => {

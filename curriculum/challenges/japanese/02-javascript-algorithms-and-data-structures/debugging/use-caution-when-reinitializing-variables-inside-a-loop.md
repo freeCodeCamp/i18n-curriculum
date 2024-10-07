@@ -8,7 +8,7 @@ dashedName: use-caution-when-reinitializing-variables-inside-a-loop
 
 # --description--
 
-ループの中では、必要に応じて情報を保存したり、カウンターを増やしたり、変数を再設定したりする場合があります。 問題となるのは、変数を再初期化する必要があるのにしない場合、または逆に再初期化してはならないのにしてしまう場合です。 特に、終了条件に使用している変数を誤ってリセットしてしまった場合は危険であり、無限ループを引き起こします。
+Sometimes it's necessary to save information, increment counters, or re-set variables within a loop. A potential issue is when variables either should be reinitialized, and aren't, or vice versa. This is particularly dangerous if you accidentally reset the variable being used for the terminal condition, causing an infinite loop.
 
 `console.log()` を使用してループの各サイクルで変数値を出力することで、変数をリセットすることに関して、または変数のリセットができないことに関して、バグを引き起こしそうな動作を明らかにすることができます。
 

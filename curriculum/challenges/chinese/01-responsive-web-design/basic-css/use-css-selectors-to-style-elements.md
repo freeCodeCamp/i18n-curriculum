@@ -9,7 +9,7 @@ dashedName: use-css-selectors-to-style-elements
 
 # --description--
 
-在 CSS 中，页面样式的属性有几百个，你可以用来改变元素在页面上的外观。
+With CSS, there are hundreds of CSS properties that you can use to change the way an element looks on your page.
 
 当你输入 `<h2 style="color: red;">CatPhotoApp</h2>`，就可以用行内 CSS 设置 `h2` 元素的样式。
 

@@ -9,7 +9,7 @@ dashedName: comparison-with-the-greater-than-operator
 
 # --description--
 
-Оператор «більше ніж» (`>`) порівнює значення двох чисел. Якщо число зліва більше за число справа, оператор повертає `true`. В іншому випадку він повертає `false`.
+The greater than operator (`>`) compares the values of two numbers. If the number to the left is greater than the number to the right, it returns `true`. Otherwise, it returns `false`.
 
 Як і оператор «дорівнює», «більше ніж» перетворює типи даних під час порівняння.
 

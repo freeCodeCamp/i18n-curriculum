@@ -14,7 +14,7 @@ dashedName: reinforcement-learning-with-q-learning-example
 
 ## --text--
 
-Preencha as lacunas para completar a seguinte equação de Q-Learn:
+Fill in the blanks to complete the following Q-Learning equation:
 
 ```py
 Q[__A__, __B__] = Q[__A__, __B__] + LEARNING_RATE * (reward + GAMMA * np.max(Q[__C__, :]) - Q[__A__, __B__])

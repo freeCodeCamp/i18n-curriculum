@@ -9,11 +9,11 @@ dashedName: improve-accessibility-of-audio-content-with-the-audio-element
 
 # --description--
 
-Елемент HTML5 `audio` має семантичне значення в розмітці, якщо він огортає звуковий чи аудіо-потоковий контент. Аудіоконтент також потребує текстової альтернативи, щоб до нього мали доступ люди з глухотою чи вадами слуху. Її можна створити, розмістивши текст поряд з елементом або ж за допомогою посилання на субтитри.
+HTML5's `audio` element gives semantic meaning when it wraps sound or audio stream content in your markup. Audio content also needs a text alternative to be accessible to people who are deaf or hard of hearing. This can be done with nearby text on the page or a link to a transcript.
 
 Теґ `audio` підтримує атрибут `controls`. Він відображає елементи браузера за замовчуванням: відтворення, паузу та інші; а також підтримує функціональність клавіатури. Це логічний (булевий) атрибут, тобто такий, що не потребує значення, його присутність на тезі вмикає налаштування.
 
-Наприклад:
+Ось приклад:
 
 ```html
 <audio id="meowClip" controls>

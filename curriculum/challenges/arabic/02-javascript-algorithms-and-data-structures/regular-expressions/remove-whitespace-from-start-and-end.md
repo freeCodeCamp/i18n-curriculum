@@ -8,7 +8,7 @@ dashedName: remove-whitespace-from-start-and-end
 
 # --description--
 
-في بعض الأحيان لا تكون الـ whitespaces حول الـ strings مطلوبة ولكنها موجودة. المعالجة النموذجية للـ strings هي إزالة الـ whitespace في بدايتها ونهايتها.
+Sometimes whitespace characters around strings are not wanted but are there. Typical processing of strings is to remove the whitespace at the start and end of it.
 
 # --instructions--
 

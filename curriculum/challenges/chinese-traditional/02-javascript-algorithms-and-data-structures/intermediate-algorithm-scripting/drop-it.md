@@ -8,7 +8,7 @@ dashedName: drop-it
 
 # --description--
 
-給定數組 `arr`，從數組的第一個元素開始，用函數 `func` 來檢查數組的每個元素是否返回 `true`。 如果返回 false，就把這個元素刪除。 持續執行刪除操作，直到某個元素傳入 func 時返回 true 爲止。
+Given the array `arr`, iterate through and remove each element starting from the first element (the 0 index) until the function `func` returns `true` when the iterated element is passed through it.
 
 然後在條件滿足後返回數組的其餘部分，否則， `arr` 應作爲空數組返回。
 

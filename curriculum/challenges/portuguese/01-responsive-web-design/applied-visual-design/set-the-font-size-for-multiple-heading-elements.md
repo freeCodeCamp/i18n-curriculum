@@ -9,13 +9,13 @@ dashedName: set-the-font-size-for-multiple-heading-elements
 
 # --description--
 
-A propriedade `font-size` é usada para especificar o quão grande será o texto em um determinado elemento. Essa propriedade pode ser usada em múltiplos elementos para criar uma consistência visual dos textos na página. Nesse desafio, você vai definir os tamanhos das tipografias das tags `h1` até `h6` para balancear os tamanhos dos cabeçalhos.
+The `font-size` property is used to specify how large the text is in a given element. This rule can be used for multiple elements to create visual consistency of text on a page. In this challenge, you'll set the values for all `h1` through `h6` tags to balance the heading sizes.
 
 # --instructions--
 
 Na tag `style`, defina a propriedade `font-size` das tags:
 
-- `h1` para 68px.
+- `h1` tag to 68px.
 - `h2` para 52px.
 - `h3` para 40px.
 - `h4` para 32px.

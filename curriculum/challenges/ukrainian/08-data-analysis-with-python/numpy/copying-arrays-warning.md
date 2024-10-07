@@ -14,7 +14,7 @@ dashedName: copying-arrays-warning
 
 ## --text--
 
-Яким буде значення `a` після виконання цього коду?
+What is the value of `a` after running the following code?
 
 ```py
 import numpy as np

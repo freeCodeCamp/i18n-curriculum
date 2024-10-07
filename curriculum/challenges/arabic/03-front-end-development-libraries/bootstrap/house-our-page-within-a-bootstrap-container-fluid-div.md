@@ -8,7 +8,7 @@ dashedName: house-our-page-within-a-bootstrap-container-fluid-div
 
 # --description--
 
-الآن تحقق أن كل المحتويات الموجودة في صفحتك مستجيبة للجوال (mobile-responsive).
+Now let's make sure all the content on your page is mobile-responsive.
 
 أدخل عنصر `h3` الخاص بك داخل عنصر `div` مع الفئة `container-fluid`.
 

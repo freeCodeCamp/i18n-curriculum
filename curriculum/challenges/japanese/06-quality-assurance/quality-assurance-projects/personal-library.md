@@ -8,22 +8,22 @@ dashedName: personal-library
 
 # --description--
 
-<a href="https://personal-library.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://personal-library.freecodecamp.rocks/</a> と同じような機能を持つ、フルスタック JavaScript アプリを構築してください。 プロジェクトに取り組むにあたり、以下の方法のうち 1 つを用いてコードを記述します。
+Build a full stack JavaScript app that is functionally similar to this: <a href="https://personal-library.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://personal-library.freecodecamp.rocks/</a>. Working on this project will involve you writing your code using one of the following methods:
 
--   <a href="https://github.com/freeCodeCamp/boilerplate-project-library" target="_blank" rel="noopener noreferrer nofollow">GitHub リポジトリ</a>をクローンし、ローカル環境でチャレンジを完了させる。
+-   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-library" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
 -   Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-library" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete your project.
 -   使い慣れたサイトビルダーを使用してプロジェクトを完了させる。 必ず GitHub リポジトリのすべてのファイルを取り込む。
 
 # --instructions--
 
-1.  `.env` に、MongoDB 接続文字列を `DB` として引用符を使用せずに追加してください。例: `DB=mongodb://admin:pass@1234.mlab.com:1234/fccpersonallib`
+1.  Add your MongoDB connection string to `.env` without quotes as `DB` Example: `DB=mongodb://admin:pass@1234.mlab.com:1234/fccpersonallib`
 2.  `.env` ファイルで、引用符を使用せずに `NODE_ENV` に `test` を設定してください。
 3.  `routes/api.js` 内に、すべてのルートを作成する必要があります。
 4.  `tests/2_functional-tests.js` に、すべての機能テストを作成します。
 
 # --hints--
 
-サンプルの URL ではなく、自分で作成したプロジェクトを提出してください。
+You can provide your own project, not the example URL.
 
 ```js
 (getUserInput) => {
@@ -33,7 +33,7 @@ dashedName: personal-library
 };
 ```
 
-フォームデータの一部として `title` を指定して `/api/books` へ <b>POST</b> リクエストを送信し、本を追加することができます。  返されるレスポンスは、`title` と一意の `_id` をキーとして持つオブジェクトになります。  `title` がリクエストに含まれていない場合、返されるレスポンスは文字列 `missing required field title` である必要があります。
+You can send a <b>POST</b> request to `/api/books` with `title` as part of the form data to add a book.  The returned response will be an object with the `title` and a unique `_id` as keys.  If `title` is not included in the request, the returned response should be the string `missing required field title`.
 
 ```js
 async (getUserInput) => {
@@ -54,7 +54,7 @@ async (getUserInput) => {
 };
 ```
 
-<b>GET</b> リクエストを `/api/books` へ送信し、すべての本を表す JSON レスポンスを受け取ることができます。 JSON レスポンスはオブジェクトの配列であり、それぞれのオブジェクト (book) に `title`、`_id` および `commentcount` プロパティが含まれます。
+You can send a <b>GET</b> request to `/api/books` and receive a JSON response representing all the books. The JSON response will be an array of objects with each object (book) containing `title`, `_id`, and `commentcount` properties.
 
 ```js
 async (getUserInput) => {
@@ -82,7 +82,7 @@ async (getUserInput) => {
 };
 ```
 
-<b>GET</b> リクエストを `/api/books/{_id}` へ送信して、プロパティ `title`、`_id` および `comments` 配列 (コメントがない場合は、空の配列) を含む book のオブジェクトを 1 つ取得できます。 本が見つからない場合は、文字列 `no book exists` を返してください。
+You can send a <b>GET</b> request to `/api/books/{_id}` to retrieve a single object of a book containing the properties `title`, `_id`, and a `comments` array (empty array if no comments present). If no book is found, return the string `no book exists`.
 
 ```js
 async (getUserInput) => {
@@ -106,7 +106,7 @@ async (getUserInput) => {
 };
 ```
 
-`comment` をフォームデータ (ボディデータ) として含む <b>POST</b> リクエストを `/api/books/{_id}` へ送信し、本にコメントを追加することができます。 返されるレスポンスは、前述のテストの <b>GET</b> `/api/books/{_id}` リクエストと同様の book オブジェクトになります。 `comment` がリクエストに含まれていない場合は、文字列 `missing required field comment` を返してください。 本が見つからない場合、文字列 `no book exists` を返してください。
+You can send a <b>POST</b> request containing `comment` as the form body data to `/api/books/{_id}` to add a comment to a book. The returned response will be the books object similar to <b>GET</b> `/api/books/{_id}` request in an earlier test. If `comment` is not included in the request, return the string `missing required field comment`. ブックが見つからない場合は、文字列 `no book exists` を返してください。
 
 ```js
 async (getUserInput) => {
@@ -144,7 +144,7 @@ async (getUserInput) => {
 };
 ```
 
-<b>DELETE</b> リクエストを `/api/books/{_id}` へ送信して、コレクションから本を削除できます。 成功した場合、文字列 `delete successful` のレスポンスを返します。 本が見つからない場合は、文字列 `no book exists` を返してください。
+You can send a <b>DELETE</b> request to `/api/books/{_id}` to delete a book from the collection. The returned response will be the string `delete successful` if successful. 本が見つからない場合は、文字列 `no book exists` を返してください。
 
 ```js
 async (getUserInput) => {
@@ -168,7 +168,7 @@ async (getUserInput) => {
 };
 ```
 
-<b>DELETE</b> リクエストを `/api/books` へ送信して、データベース内のすべての本を削除することができます。 成功した場合、文字列 `complete delete successful` のレスポンスを返します。
+You can send a <b>DELETE</b> request to `/api/books` to delete all books in the database. The returned response will be the string `complete delete successful` if successful.
 
 ```js
 async (getUserInput) => {
@@ -185,7 +185,7 @@ async (getUserInput) => {
 };
 ```
 
-10 件の機能テストがすべて記述され、成功する状態になっています。
+All 10 functional tests required are complete and passing.
 
 ```js
 async (getUserInput) => {

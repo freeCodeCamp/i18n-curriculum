@@ -8,7 +8,7 @@ dashedName: modify-an-object-nested-within-an-object
 
 # --description--
 
-现在我们来看一个稍复杂的对象。 在对象中，我们也可以嵌套任意层数的对象，对象的属性值可以是 JavaScript 支持的任意类型，包括数组和其他对象。 请看以下例子：
+Now let's take a look at a slightly more complex object. Object properties can be nested to an arbitrary depth, and their values can be any type of data supported by JavaScript, including arrays and even other objects. Consider the following:
 
 ```js
 let nestedObject = {

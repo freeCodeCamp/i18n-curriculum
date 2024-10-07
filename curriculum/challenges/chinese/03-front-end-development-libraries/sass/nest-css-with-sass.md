@@ -8,7 +8,7 @@ dashedName: nest-css-with-sass
 
 # --description--
 
-Sass 允许 CSS 规则的嵌套，这在组织样式表的时候会很有用。
+Sass allows nesting of CSS rules, which is a useful way of organizing a style sheet.
 
 在 CSS 里，每个元素的样式都需要写在独立的代码块中，如下所示：
 

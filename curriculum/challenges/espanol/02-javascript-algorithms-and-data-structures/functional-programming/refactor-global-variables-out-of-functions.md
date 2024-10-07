@@ -8,7 +8,7 @@ dashedName: refactor-global-variables-out-of-functions
 
 # --description--
 
-Hasta ahora, hemos visto dos principios distintos para la programación funcional:
+So far, we have seen two distinct principles for functional programming:
 
 1) No alteres una variable u objeto: crea nuevas variables y objetos y devuélvelos, si es necesario, desde una función. Pista: usar algo como `const newArr = arrVar`, donde `arrVar` es un arreglo, simplemente creará una referencia a la variable existente y no una copia. Así que cambiar un valor en `newArr` cambiaría el valor en `arrVar`.
 

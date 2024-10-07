@@ -8,7 +8,7 @@ dashedName: use-class-syntax-to-define-a-constructor-function
 
 # --description--
 
-ES6 提供了一個新的創建對象的語法，使用關鍵字 <dfn>class</dfn>。
+ES6 provides a new syntax to create objects, using the <dfn>class</dfn> keyword.
 
 在 ES5 裏面，我們通過定義一個函數 `constructor` 來創建一個對象，然後使用 `new` 關鍵字來實例化對象。
 

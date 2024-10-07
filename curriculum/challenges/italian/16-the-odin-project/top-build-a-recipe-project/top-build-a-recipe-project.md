@@ -9,7 +9,7 @@ dashedName: top-build-a-recipe-project
 
 Il sito web sarà composto da una pagina index principale che avrà dei link ad alcune ricette. Il sito web non sembrerà molto carino nel momento in cui avrai finito.
 
-**User story:**
+**User story (storia d'utente):**
 
 1. La pagina di ricette dovrebbe contenere un tag `DOCTYPE`.
 1. La pagina di ricette dovrebbe includere un elemento `html` con degli elementi `head` e `body` come figli.

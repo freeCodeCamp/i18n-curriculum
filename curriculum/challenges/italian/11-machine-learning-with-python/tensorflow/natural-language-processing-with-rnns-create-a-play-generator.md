@@ -14,7 +14,7 @@ dashedName: natural-language-processing-with-rnns-create-a-play-generator
 
 ## --text--
 
-Compila gli spazi vuoti qui sotto per creare il modello per la RNN:
+Fill in the blanks below to create the training examples for the RNN:
 
 ```py
 char_dataset = tf.data.__A__.__B__(text_as_int)

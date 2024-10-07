@@ -11,24 +11,24 @@ dashedName: manipulate-arrays-with-shift
 
 `pop()` always removes the last element of an array. What if you want to remove the first?
 
-That's where `.shift()` comes in. It works just like `.pop()`, except it removes the first element instead of the last.
+그 때 사용되는 것이 바로 `.shift()` 입니다. 이것은 `.pop()` 과 동일하게 동작합니다만, 마지막 항목이 아닌 맨 처음 항목을 삭제합니다.
 
-Example:
+예:
 
 ```js
 const ourArray = ["Stimpson", "J", ["cat"]];
 const removedFromOurArray = ourArray.shift();
 ```
 
-`removedFromOurArray` would have a value of the string `Stimpson`, and `ourArray` would have `["J", ["cat"]]`.
+`removedFromOurArray`의 값은 문자열 `Stimpson`를 갖게 되며, `ourArray`는 `["J", ["cat"]]`를 갖게 됩니다.
 
 # --instructions--
 
-Use the `.shift()` function to remove the first item from `myArray` and assign the "shifted off" value to a new variable, `removedFromMyArray`.
+`.shift()` 함수를 사용해서 `myArray`의 맨 처음 아이템을 삭제하고, "삭제되어 빼내진(shifted off)" 값을 새로운 변수 `removedFromMyArray`에 할당하세요.
 
 # --hints--
 
-`myArray` should now equal `[["dog", 3]]`.
+`myArray`는 이제 `[["dog", 3]]`와 같아야 합니다.
 
 ```js
 assert(
@@ -42,7 +42,7 @@ assert(
 );
 ```
 
-`removedFromMyArray` should contain `["John", 23]`.
+`removedFromMyArray`는 `["John", 23]`를 포함해야 합니다.
 
 ```js
 assert(

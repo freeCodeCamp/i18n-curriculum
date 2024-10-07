@@ -8,7 +8,7 @@ dashedName: use-advanced-javascript-in-react-render-method
 
 # --description--
 
-En desafíos anteriores, aprendiste cómo inyectar código JavaScript en código JSX usando llaves, `{ }`, para tareas como acceder a props, pasar props, acceder al state, insertar comentarios en tu código y, más recientemente, diseñar tus componentes. Todos estos son casos de uso común para poner JavaScript en JSX, pero no son la única manera de utilizar código JavaScript en tus componentes React.
+In previous challenges, you learned how to inject JavaScript code into JSX code using curly braces, `{ }`, for tasks like accessing props, passing props, accessing state, inserting comments into your code, and most recently, styling your components. These are all common use cases to put JavaScript in JSX, but they aren't the only way that you can utilize JavaScript code in your React components.
 
 También puedes escribir JavaScript directamente en los métodos `render`, antes de la sentencia `return`, ***sin*** insertarlo dentro de llaves. Esto es porque aún no está dentro del código JSX. Cuando quieras utilizar una variable en el código JSX *dentro* de la sentencia `return`, colocas el nombre de la variable dentro de llaves.
 

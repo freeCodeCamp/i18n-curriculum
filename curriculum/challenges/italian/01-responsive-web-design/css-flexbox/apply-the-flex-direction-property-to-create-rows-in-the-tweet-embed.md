@@ -9,7 +9,7 @@ dashedName: apply-the-flex-direction-property-to-create-rows-in-the-tweet-embed
 
 # --description--
 
-L'`header` e il `footer` dell'esempio del tweet incorportato hanno elementi figli che potrebbero essere organizzati come righe utilizzando la proprietà `flex-direction`. Questo dice al CSS di allineare orizzontalmente i figli.
+The `header` and `footer` in the tweet embed example have child items that could be arranged as rows using the `flex-direction` property. This tells CSS to align the children horizontally.
 
 # --instructions--
 
@@ -17,7 +17,7 @@ Aggiungi la proprietà CSS `flex-direction` sia all' `header` che al `footer` e 
 
 # --hints--
 
-Il tuo `.follow-btn` dovrebbe essere visualizzato sulla pagina. Assicurati di disattivare tutte le estensioni come ad esempio gli adblock.
+Il tuo `.follow-btn` dovrebbe essere visualizzato nella pagina. Assicurati di disattivare tutte le estensioni come ad esempio gli adblock.
 
 ```js
 assert($('.follow-btn').length > 0 && $('.follow-btn').css('display') !== 'none');

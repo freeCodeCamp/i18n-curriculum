@@ -8,7 +8,7 @@ dashedName: prevent-infinite-loops-with-a-valid-terminal-condition
 
 # --description--
 
-Остання тема — нескінченний цикл, який багатьох лякає. Цикли є чудовими інструментами, якщо вам необхідно, щоб програма виконувала блок коду певну кількість разів або поки умова не буде виконана, але їм також потрібна кінцева умова, яка закінчить цикл. Нескінченні цикли можуть призвести до блокування або збоїв у роботі браузера, чого кожен прагнув би уникнути.
+The final topic is the dreaded infinite loop. Loops are great tools when you need your program to run a code block a certain number of times or until a condition is met, but they need a terminal condition that ends the looping. Infinite loops are likely to freeze or crash the browser, and cause general program execution mayhem, which no one wants.
 
 У вступі до цього розділу був приклад нескінченного циклу: у ньому немає кінцевої умови для того, щоб закінчити цикл `while` всередині `loopy()`. НЕ викликайте цю функцію!
 

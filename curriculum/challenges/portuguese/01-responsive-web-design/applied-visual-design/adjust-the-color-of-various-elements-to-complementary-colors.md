@@ -9,7 +9,7 @@ dashedName: adjust-the-color-of-various-elements-to-complementary-colors
 
 # --description--
 
-O desafio das Cores Complementares mostrou que cores opostas no círculo cromático podem fazer as demais cores parecerem mais vibrantes quando colocadas lado a lado. No entanto, o forte contraste visual pode ser chocante se for usado demais em um site e, às vezes, pode tornar o texto mais difícil de ler se for colocado em um fundo de cores complementares. Na prática, uma das cores geralmente é dominante e o complemento é usado para chamar a atenção visual para determinado conteúdo da página.
+The Complementary Colors challenge showed that opposite colors on the color wheel can make each other appear more vibrant when placed side-by-side. However, the strong visual contrast can be jarring if it's overused on a website, and can sometimes make text harder to read if it's placed on a complementary-colored background. In practice, one of the colors is usually dominant and the complement is used to bring visual attention to certain content on the page.
 
 # --instructions--
 

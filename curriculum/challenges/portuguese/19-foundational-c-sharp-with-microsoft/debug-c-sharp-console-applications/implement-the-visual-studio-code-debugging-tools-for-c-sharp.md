@@ -20,19 +20,19 @@ Complete o módulo <a href="https://learn.microsoft.com/training/modules/impleme
 
 ## --text--
 
-Qual seção da visão de EXECUTAR E DEPURAR é usada para rastrear o ponto de execução atual dentro da aplicação em execução?
+Which section of the RUN AND DEBUG view is used to track the current point of execution within the running application?
 
 ## --answers--
 
-A seção VARIÁVEIS.
+The VARIABLES section.
 
 ---
 
-A seção PILHA DE CHAMADAS.
+The CALL STACK section.
 
 ---
 
-A seção INSPEÇÃO.
+The WATCH section.
 
 ## --video-solution--
 

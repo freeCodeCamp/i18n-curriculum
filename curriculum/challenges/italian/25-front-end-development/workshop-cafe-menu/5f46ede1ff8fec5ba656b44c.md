@@ -11,7 +11,7 @@ Next you are going to be styling the `footer` element. To keep the CSS organized
 
 # --hints--
 
-You should have a CSS comment with the text `FOOTER`.
+Dovresti avere un commento CSS con il testo `FOOTER`.
 
 ```js
 assert(code.match(/\/\*\s*FOOTER\s*\*\//i));

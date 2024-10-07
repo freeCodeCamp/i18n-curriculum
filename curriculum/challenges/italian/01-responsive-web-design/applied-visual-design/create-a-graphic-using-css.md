@@ -9,7 +9,7 @@ dashedName: create-a-graphic-using-css
 
 # --description--
 
-Gestendo diversi selettori e proprietà, è possibile creare forme interessanti. Una delle più facili da provare è la forma a mezzaluna. Per questa sfida devi lavorare con la proprietà `box-shadow`, che imposta l'ombra di un elemento, e con la proprietà `border-radius` che controlla l'arrotondamento degli angoli dell'elemento.
+By manipulating different selectors and properties, you can make interesting shapes. One of the easier ones to try is a crescent moon shape. For this challenge you need to work with the `box-shadow` property that sets the shadow of an element, along with the `border-radius` property that controls the roundness of the element's corners.
 
 Creerai un oggetto rotondo trasparente con un'ombra netta leggermente sfalsata sul lato - l'ombra sarà la forma della luna che vedi.
 

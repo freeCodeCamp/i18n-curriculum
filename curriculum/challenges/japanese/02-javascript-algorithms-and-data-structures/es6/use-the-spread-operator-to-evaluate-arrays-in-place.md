@@ -8,7 +8,7 @@ dashedName: use-the-spread-operator-to-evaluate-arrays-in-place
 
 # --description--
 
-ES6 では<dfn>スプレッド演算子</dfn>が導入されています。この演算子を使用すると、複数のパラメーターまたは要素が要求される場所の中で配列やその他の式を展開することができます。
+ES6 introduces the <dfn>spread operator</dfn>, which allows us to expand arrays and other expressions in places where multiple parameters or elements are expected.
 
 次の ES5 コードでは、配列の最大値を計算するために `apply()` を使用しています。
 
@@ -28,7 +28,7 @@ const maximus = Math.max(...arr);
 
 `maximus` の値は `89` になります。
 
-`...arr` は、分割された配列を返します。 In other words, it spreads the array. ただし、スプレッド演算子が有効なのは「インプレース」のみです。つまり、関数の引数や配列リテラルなどの中でのみ動作します。 For example:
+`...arr` は、分割された配列を返します。 In other words, it spreads the array. ただし、スプレッド演算子が有効なのは「インプレース」のみです。つまり、関数の引数や配列リテラルなどの中でのみ動作します。 例:
 
 ```js
 const spreaded = [...arr];

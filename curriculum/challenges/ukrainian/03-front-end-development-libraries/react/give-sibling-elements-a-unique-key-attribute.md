@@ -8,7 +8,7 @@ dashedName: give-sibling-elements-a-unique-key-attribute
 
 # --description--
 
-У попередньому завданні показано, як використовувати метод `map`, щоб динамічно відтворити елементи на основі введення користувача. Однак у цьому прикладі була пропущена важлива частина. Коли ви створюєте масив елементів, кожний з них потребує атрибут `key` з унікальним значенням. React використовує такі ключі, щоб відстежувати, які елементи додаються, змінюються або видаляються. Це допомагає зробити процес повторного відтворення ефективнішим, якщо список змінюється.
+The last challenge showed how the `map` method is used to dynamically render a number of elements based on user input. However, there was an important piece missing from that example. When you create an array of elements, each one needs a `key` attribute set to a unique value. React uses these keys to keep track of which items are added, changed, or removed. This helps make the re-rendering process more efficient when the list is modified in any way.
 
 **Примітка:** ключі мають бути унікальними лише між братськими елементами, вони не повинні бути глобально унікальними в застосунку.
 

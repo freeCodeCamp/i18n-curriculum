@@ -9,7 +9,7 @@ dashedName: use-html5-to-require-a-field
 
 # --description--
 
-Ви можете створити певні поля з формами так, щоб користувач не зміг відправити їх до тих пір, поки вони не будуть заповнені.
+You can require specific form fields so that your user will not be able to submit your form until he or she has filled them out.
 
 Наприклад, якщо ви хочете створити поле для введення тексту, просто додайте атрибут `required` в межах вашого елемента `input`, на кшталт цього: `<input type="text" required>`
 

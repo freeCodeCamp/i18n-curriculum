@@ -9,7 +9,7 @@ dashedName: comparisons-with-the-logical-or-operator
 
 # --description--
 
-只要<dfn>邏輯或</dfn>運算符（`||`）兩邊的任何一個<dfn>運算</dfn>的結果是 `true`，則返回 `true`。 否則，返回 `false`。
+The <dfn>logical or</dfn> operator (`||`) returns `true` if either of the <dfn>operands</dfn> is `true`. Otherwise, it returns `false`.
 
 <dfn>邏輯或</dfn>運算符由兩個豎線（`||`）組成。 這個按鍵位於退格鍵和回車鍵之間。
 

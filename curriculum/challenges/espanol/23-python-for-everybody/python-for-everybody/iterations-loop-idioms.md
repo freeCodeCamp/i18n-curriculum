@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: iterations-loop-idioms
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-Below is code to find the smallest value from a list of values. One line has an error that will cause the code to not work as expected. Which line is it?:
+A continuación se muestra el código para encontrar el valor más pequeño de una lista de valores. Hay una línea que tiene un error que causará que el código no funcione como se esperaba. ¿Qué línea es?:
 
 ```python
 smallest = None

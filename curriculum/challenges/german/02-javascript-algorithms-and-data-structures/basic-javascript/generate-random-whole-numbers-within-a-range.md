@@ -9,7 +9,7 @@ dashedName: generate-random-whole-numbers-within-a-range
 
 # --description--
 
-Du kannst eine zufällige ganze Zahl im Bereich von Null bis zu einer bestimmten Zahl generieren. Du kannst auch eine andere niedrigere Zahl für diesen Bereich wählen.
+You can generate a random whole number in the range from zero to a given number. You can also pick a different lower number for this range.
 
 Du nennst deine niedrigste Zahl `min` und deine höchste Zahl `max`.
 

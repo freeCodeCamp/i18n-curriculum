@@ -18,19 +18,19 @@ The next few video lessons will reference [this Colab notebook](https://colab.re
 
 ## --text--
 
-高密度ニューラルネットワークは、入力をグローバルスケールで分析し、特定の領域のパターンを認識します。 畳み込みニューラルネットワークについて正しく述べている文章はどれですか？
+Dense neural networks analyze input on a global scale and recognize patterns in specific areas. Convolutional neural networks...:
 
 ## --answers--
 
-入力をグローバルに分析し、特定の領域から特徴を抽出する。
+also analyze input globally and extract features from specific areas.
 
 ---
 
-画像の分類や物体の検出にはあまり有効ではない。
+do not work well for image classification or object detection.
 
 ---
 
-入力全体を少しずつスキャンして局所的なパターンを学習する。
+scan through the entire input a little at a time and learn local patterns.
 
 ## --video-solution--
 

@@ -9,7 +9,7 @@ dashedName: define-the-head-and-body-of-an-html-document
 
 # --description--
 
-`head` 要素と `body` 要素で、`html` タグ内にもう一段階の構造を追加することができます。 あなたのページに関する情報のマークアップは `head` タグの中に入ります。 そして、ページのコンテンツ (ユーザーに表示されるもの) のマークアップは `body` タグの中に入ります。
+You can add another level of organization in your HTML document within the `html` tags with the `head` and `body` elements. Any markup with information about your page would go into the `head` tag. Then any markup with the content of the page (what displays for a user) would go into the `body` tag.
 
 メタデータ要素、例えば `link`, `meta`, `title`, `style` などは、一般的に `head` 要素に入れます。
 

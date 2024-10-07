@@ -9,7 +9,7 @@ dashedName: use-the-em-tag-to-italicize-text
 
 # --description--
 
-Para enfatizar o texto, você pode usar a tag `em`. Essa tag exibe o texto em itálico, pois o navegador, através do CSS, aplica a propriedade e valor `font-style: italic;` ao elemento.
+To emphasize text, you can use the `em` tag. This displays text as italicized, as the browser applies the CSS of `font-style: italic;` to the element.
 
 # --instructions--
 

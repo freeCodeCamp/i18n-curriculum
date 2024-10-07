@@ -8,9 +8,9 @@ dashedName: use-a-span-to-target-inline-elements
 
 # --description--
 
-可以使用 span 標籤來創建行內元素。 還記得怎麼使用 `btn-block` class 來創建填滿整行的按鈕嗎？
+You can use spans to create inline elements. Remember when we used the `btn-block` class to make the button fill the entire row?
 
-<button class='btn' style='background-color: rgb(0, 100, 0);  color: rgb(255, 255, 255);'>普通按鈕</button>
+<button class='btn' style='background-color: rgb(0, 100, 0);  color: rgb(255, 255, 255);'>normal button</button>
 
 <button class='btn btn-block' style='background-color: rgb(0, 100, 0);  color: rgb(255, 255, 255);'>塊級按鈕</button>
 

@@ -14,7 +14,7 @@ dashedName: natural-language-processing-with-rnns-training-the-model
 
 ## --text--
 
-填寫下面的空白以將你模型的檢查點保存在 `./checkpoints` 目錄中，並調用最新的檢查點進行訓練：
+Fill in the blanks below to save your model's checkpoints in the `./checkpoints` directory and call the latest checkpoint for training:
 
 ```py
 checkpoint_dir = __A__

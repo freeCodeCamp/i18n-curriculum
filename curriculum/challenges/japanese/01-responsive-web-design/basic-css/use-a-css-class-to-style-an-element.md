@@ -9,7 +9,7 @@ dashedName: use-a-css-class-to-style-an-element
 
 # --description--
 
-クラスは再利用可能なスタイルで、HTML 要素に追加できます。
+Classes are reusable styles that can be added to HTML elements.
 
 下記は CSS クラス宣言の例です:
 

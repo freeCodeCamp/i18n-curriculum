@@ -8,7 +8,7 @@ dashedName: restrict-possible-usernames
 
 # --description--
 
-Імена користувачів використовуються скрізь в інтернеті. Вони дають користувачам унікальний обліковий запис на їхніх улюблених сайтах.
+Usernames are used everywhere on the internet. They are what give users a unique identity on their favorite sites.
 
 Вам потрібно перевірити всі імена користувачів у базі даних. Ось кілька простих правил, яких користувачі повинні дотримуватись при створенні імені користувача.
 

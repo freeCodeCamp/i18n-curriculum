@@ -7,7 +7,7 @@ dashedName: step-43
 
 # --description--
 
-Der HTML-Code für das Anmeldeformular ist abgeschlossen. Jetzt kannst du es ein bisschen verschönern.
+The HTML for the registration form is finished. Now, you can spruce it up a bit.
 
 Beginne, indem du im `body` die Schriftart auf `Tahoma` und die Schriftgröße auf `16px` änderst.
 

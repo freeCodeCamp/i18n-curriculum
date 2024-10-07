@@ -9,7 +9,7 @@ dashedName: use-grid-row-to-control-spacing
 
 # --description--
 
-Natürlich kannst du auch mehrere Zeilen verwenden, genauso wie du es mit Spalten machen kannst. Du legst die horizontalen Linien fest, an denen ein Element beginnen und enden soll, indem du die Eigenschaft `grid-row` für ein Rasterelement verwendest.
+Of course, you can make items consume multiple rows just like you can with columns. You define the horizontal lines you want an item to start and stop at using the `grid-row` property on a grid item.
 
 # --instructions--
 

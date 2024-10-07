@@ -8,7 +8,7 @@ dashedName: create-a-react-component
 
 # --description--
 
-Die andere Möglichkeit, eine React-Komponente zu definieren, ist die ES6 `class`-Syntax. Im folgenden Beispiel erweitert `Kitten` `React.Component`:
+The other way to define a React component is with the ES6 `class` syntax. In the following example, `Kitten` extends `React.Component`:
 
 ```jsx
 class Kitten extends React.Component {

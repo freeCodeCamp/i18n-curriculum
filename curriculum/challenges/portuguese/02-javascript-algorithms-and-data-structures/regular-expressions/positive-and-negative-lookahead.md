@@ -8,7 +8,7 @@ dashedName: positive-and-negative-lookahead
 
 # --description--
 
-<dfn>Lookaheads</dfn> ("olhar à frente") são padrões que dizem ao JavaScript para procurar outros padrões ao longo da string sem capturá-los. Eles podem ser úteis quando é necessário fazer diversas verificações na mesma string.
+<dfn>Lookaheads</dfn> are patterns that tell JavaScript to look-ahead in your string to check for patterns further along. This can be useful when you want to search for multiple patterns over the same string.
 
 Existem dois tipos de lookahead: o <dfn>lookahead positivo</dfn> e o <dfn>lookahead negativo</dfn>.
 

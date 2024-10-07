@@ -25,7 +25,7 @@ Aquí hay un diagrama para ayudarte a visualizar cómo se pasan los parámetros 
 
 Observa que al llamar a `favoriteAnimal()` dentro de `console.log()` con el argumento `'Goat'`, obtienes el valor de retorno de la función, cadena de `"Goat is my favorite animal!"`, impreso en la consola. Estás pasando una llamada de función `favoriteAnimal('Goat')` como un argumento en una llamada de función diferente - `log()`.
 
-# --questions--
+# --preguntas----preguntas--
 
 ## --text--
 

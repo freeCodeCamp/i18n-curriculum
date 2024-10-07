@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aecb08826
-title: Use jQuery to Modify the Entire Page
+title: jQuery를 이용해 페이지 전체를 수정하기
 challengeType: 6
 forumTopicId: 18361
 required:
@@ -13,15 +13,15 @@ dashedName: use-jquery-to-modify-the-entire-page
 
 We're done playing with our jQuery playground. Let's tear it down!
 
-jQuery can target the `body` element as well.
+jQuery에서는 `body`요소를 선택할 수도 있습니다.
 
-Here's how we would make the entire body fade out: `$("body").addClass("animated fadeOut");`
+다음과 같이 전체 body 요소가 서서히 사라지도록 할 수 있습니다: `$("body").addClass("animated fadeOut");`
 
-But let's do something more dramatic. Add the classes `animated` and `hinge` to your `body` element.
+하지만 좀 더 극적으로 만들어봅시다. `body` 요소에 `animated`클래스와 `hinge` 클래스를 추가해보세요.
 
 # --hints--
 
-You should add the classes `animated` and `hinge` to your `body` element.
+`body` 요소에 `animated` 클래스와 `hinge` 클래스를 추가해야 합니다.
 
 ```js
 assert($('body').hasClass('animated') && $('body').hasClass('hinge'));

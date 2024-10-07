@@ -8,7 +8,7 @@ dashedName: access-props-using-this-props
 
 # --description--
 
-Декілька попередніх завдань охопили основні способи передачі пропсів до дочірніх компонентів. Що робити, якщо дочірній компонент, до якого ви передаєте пропс, є класовим компонентом ES6, а не функціональним компонентом без стану? Класовий компонент ES6 використовує дещо інший метод доступу до пропсів.
+The last several challenges covered the basic ways to pass props to child components. But what if the child component that you're passing a prop to is an ES6 class component, rather than a stateless functional component? The ES6 class component uses a slightly different convention to access props.
 
 Використовуйте ключове слово `this` кожного разу, коли посилаєтесь на класовий компонент в його межах. Щоб отримати доступ до пропсу в межах класового компонента, додайте `this` на початку коду. Наприклад, якщо класовий компонент ES6 має пропс під назвою `data`, ви пишете `{this.props.data}` в JSX.
 

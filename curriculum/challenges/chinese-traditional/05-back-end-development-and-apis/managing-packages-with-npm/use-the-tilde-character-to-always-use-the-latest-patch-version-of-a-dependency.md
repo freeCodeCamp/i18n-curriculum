@@ -8,7 +8,7 @@ dashedName: use-the-tilde-character-to-always-use-the-latest-patch-version-of-a-
 
 # --description--
 
-在上一個挑戰中，npm 只包含特定版本的依賴包。 如果想讓項目各個部分保持相互兼容，鎖定依賴包版本是一個行之有效的辦法。 但是大多數情況下，我們並不希望錯過依賴項的問題修復，因爲它們通常包含重要的安全補丁，而且它們理論上也會兼容我們既有的代碼。
+In the last challenge, you told npm to only include a specific version of a package. That’s a useful way to freeze your dependencies if you need to make sure that different parts of your project stay compatible with each other. But in most use cases, you don’t want to miss bug fixes since they often include important security patches and (hopefully) don’t break things in doing so.
 
 可以在依賴項的版本號前加一個波浪號（`~`），以讓 npm 依賴項更新到最新的修訂版。 這裏有一個允許升級到任何 `1.3.x` 的例子。
 
@@ -22,7 +22,7 @@ dashedName: use-the-tilde-character-to-always-use-the-latest-patch-version-of-a-
 
 在依賴項中使用波浪號（`~`）字符作爲 `@freecodecamp/example` 版本的前綴，並允許 npm 將其更新爲任何新的*補丁*發佈。
 
-**注意：**原來的版本號不用更改。
+**注意：** 原來的版本號不用更改。
 
 # --hints--
 

@@ -9,7 +9,7 @@ dashedName: wrap-radio-buttons-in-a-fieldset-element-for-better-accessibility
 
 # --description--
 
-Das nächste Formular-Thema behandelt die Zugänglichkeit von Optionsfeldern. Jede Option erhält ein `label` mit einem `for`-Attribut, das an die `id` des entsprechenden Elements gebunden ist, wie in der letzten Aufgabe behandelt. Da Optionsfelder oft in einer Gruppe enthalten sind, aus der der Benutzer eines auswählen muss, gibt es eine Möglichkeit, semantisch zu zeigen, dass die Optionen Teil eines Sets sind.
+The next form topic covers the accessibility of radio buttons. Each choice is given a `label` with a `for` attribute tying to the `id` of the corresponding item as covered in the last challenge. Since radio buttons often come in a group where the user must choose one, there's a way to semantically show the choices are part of a set.
 
 Das `fieldset`-Tag umgibt die gesamte Gruppierung der Optionsfelder, um dies zu erreichen. Oft wird ein `legend`-Tag verwendet, um eine Beschreibung für die Gruppierung zu liefern, die Bildschirmleser für jede einzelne Option im `fieldset`-Element lesen.
 

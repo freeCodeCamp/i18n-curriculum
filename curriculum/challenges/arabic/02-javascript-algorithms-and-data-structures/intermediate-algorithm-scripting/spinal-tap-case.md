@@ -8,7 +8,7 @@ dashedName: spinal-tap-case
 
 # --description--
 
-قم بتحويل سلسلة إلى حالة spinal. الحالة spinal هي "all-lowercase-words-joined-by-dashes" كلمات بحروف صغيرة تفصل بشرطة.
+Convert a string to spinal case. Spinal case is all-lowercase-words-joined-by-dashes.
 
 # --hints--
 

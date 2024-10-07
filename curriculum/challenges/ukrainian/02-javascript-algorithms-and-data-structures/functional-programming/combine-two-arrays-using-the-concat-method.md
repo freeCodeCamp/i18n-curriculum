@@ -8,7 +8,7 @@ dashedName: combine-two-arrays-using-the-concat-method
 
 # --description--
 
-<dfn>Конкатенація</dfn> — це склеювання елементів. JavaScript пропонує метод `concat` для рядків та масивів, який працює однаково для обох. Щодо масивів: метод викликається на масиві, потім інший масив надається як аргумент до `concat` та додається до кінця першого масиву. Він повертає новий масив та не змінює жодного з вихідних масивів. Ось приклад:
+<dfn>Concatenation</dfn> means to join items end to end. JavaScript offers the `concat` method for both strings and arrays that work in the same way. For arrays, the method is called on one, then another array is provided as the argument to `concat`, which is added to the end of the first array. It returns a new array and does not mutate either of the original arrays. Ось приклад:
 
 ```js
 [1, 2, 3].concat([4, 5, 6]);

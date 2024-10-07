@@ -1,6 +1,6 @@
 ---
 id: 5a4b7fcdb66f799f199e11db
-title: Build a Pong Game
+title: Crea un juego Pong
 challengeType: 3
 forumTopicId: 302353
 dashedName: build-a-pong-game
@@ -12,9 +12,9 @@ dashedName: build-a-pong-game
 
 **Regla #1:** No mires el código de ejemplo del proyecto. Encuentra tu propia solución.
 
-**Rule #2:** Fulfill the below user stories and get all of the tests to pass. Utiliza cualquier librería o API que necesites. Dale tu propio estilo personal.
+**Regla #2:** Completa las siguientes historias de usuario y consigue que todas las pruebas sean aprobadas. Utilice las bibliotecas o API que necesite. Dale tu estilo personal.
 
-**User Story:** I can control a paddle.
+**Historia de usuario:** Puedo controlar una paleta.
 
 **Historia de usuario:** El computador puede controlar la otra paleta.
 

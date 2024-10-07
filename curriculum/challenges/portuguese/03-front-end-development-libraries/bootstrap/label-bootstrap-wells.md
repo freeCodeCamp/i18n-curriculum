@@ -8,7 +8,7 @@ dashedName: label-bootstrap-wells
 
 # --description--
 
-Para deixar claro, vamos rotular nossos dois poços com seus ids.
+For the sake of clarity, let's label both of our wells with their ids.
 
 Acima do poço da esquerda, dentro do elemento `col-xs-6` `div`, adicione um elemento `h4` com o texto `#left-well`.
 

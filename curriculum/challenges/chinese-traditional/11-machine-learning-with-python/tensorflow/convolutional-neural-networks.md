@@ -14,23 +14,23 @@ dashedName: convolutional-neural-networks
 
 The next few video lessons will reference [this Colab notebook](https://colab.research.google.com/drive/1ZZXnCjFEOkp_KdNcNabd14yok0BAIuwS#forceEdit=true&sandboxMode=true).
 
-# --questions--
+# 問題
 
 ## --text--
 
-密集神經網絡在全局範圍內分析輸入，並識別特定區域的模式。 卷積神經網絡......：
+Dense neural networks analyze input on a global scale and recognize patterns in specific areas. Convolutional neural networks...:
 
 ## --answers--
 
-也在全局分析輸入並從特定區域提取特徵。
+also analyze input globally and extract features from specific areas.
 
 ---
 
-在圖像分類或物體檢測方面效果不佳。
+do not work well for image classification or object detection.
 
 ---
 
-每次一點點地掃描整個輸入，並學習局部模式。
+scan through the entire input a little at a time and learn local patterns.
 
 ## --video-solution--
 

@@ -8,7 +8,7 @@ dashedName: understand-where-an-objects-prototype-comes-from
 
 # --description--
 
-Assim como uma pessoa herda o gene de seus parentes, um objeto herda seu `prototype` diretamente da função construtora que o criou. Por exemplo, aqui o construtor de `Bird` cria um objeto `duck`:
+Just like people inherit genes from their parents, an object inherits its `prototype` directly from the constructor function that created it. For example, here the `Bird` constructor creates the `duck` object:
 
 ```js
 function Bird(name) {

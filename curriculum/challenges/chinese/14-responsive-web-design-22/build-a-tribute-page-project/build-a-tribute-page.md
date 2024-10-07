@@ -8,28 +8,28 @@ dashedName: build-a-tribute-page
 
 # --description--
 
-**目标：** 构建一个应用，它在功能上类似于 <a href="https://tribute-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://tribute-page.freecodecamp.rocks</a>。 **不要复制这个演示项目**。
+**Objective:** Build an app that is functionally similar to <a href="https://tribute-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://tribute-page.freecodecamp.rocks</a>. **Do not copy this demo project**.
 
 
 **用户需求:**
 
-1. 你的致敬页应该包含一个 `id` 为 `main` 的 `main` 元素，它应该包含所有其他元素
+1. Your tribute page should have a `main` element with a corresponding `id` of `main`, which contains all other elements
 1. 你的页面应该包含一个元素，它的属性 `id` 值为`title`,，元素中包含一个字符串（例如 text）描述致敬页的主题（例如 "Dr. Norman Borlaug"）
 1. 你应该有一个 `id` 为 `img-div` 的 `figure` 或 `div` 元素
 1. 在 `#img-div` 元素中，你应该看到一个 `id="image"` 的 `img` 元素
-1. 在`#img-div`元素内，你应该看到一个 `id="img-caption"` 的元素，其中包含对 `#img-div` 中图像的文本描述
+1. 在 `#img-div` 元素内，你应该看到一个 `id="img-caption"` 的元素，其中包含对 `#img-div` 中图像的文本描述
 1. 你应该看到一个 `id="tribute-info"` 的元素，其中包含描述致敬页主题的文本内容
-1. 你应该看到一个 `id="tribute-link"` 的 `a` 元素，它链接到一个包含有关致敬页主题额外信息的外部网页。 提示：你必须为元素提供 `target` 属性，并设置其为 `_blank`，以便可以在新选项卡中打开链接。
+1. 你应该看到一个带有相应 `id="tribute-link"` 的 `a` 元素，该元素链接到外部站点，其中包含有关致敬页面主题的附加信息。 提示：你必须为元素提供 `target` 属性，并设置其为 `_blank`，以便可以在新选项卡中打开链接。
 1. 你的 `#image` 应该使用 `max-width` 和 `height` 属性来响应式调整大小，相对于其父元素的宽度，但不超过其原始大小
 1. 你的 `img` 元素应该在其父元素内居中
 
-完成需求并通过下面的所有测试来完成这个项目。 赋予它你自己的个人风格。 编程愉快！
+完成需求并通过下面的所有测试来完成这个项目。 使用你自己的个人风格样式。 编程愉快！
 
 **注意：** 请在你的 HTML 中添加 `<link rel="stylesheet" href="styles.css">` 以链接你的样式表并应用你的 CSS
 
 # --hints--
 
-你的页面应该包含一个 `main` 元素，且它有一个值为 `main` 的`id`属性。
+你应该有一个 `main` 元素且该元素的 `id` 为 `main`.
 
 ```js
 const el = document.getElementById('main')
@@ -47,14 +47,14 @@ const el5 = document.querySelector('#main #tribute-link')
 assert(!!el1 & !!el2 && !!el3 && !!el4 && !!el5)
 ```
 
-你应该有一个 `id` 为 `title` 的元素。
+你应该有一个`id`为`title`的元素。
 
 ```js
 const el = document.getElementById('title')
 assert(!!el)
 ```
 
-你的 `#title` 元素不应为空。
+id为 `#title` 的元素不应为空。
 
 ```js
 const el = document.getElementById('title')
@@ -97,7 +97,7 @@ const el = document.querySelector('#img-div #img-caption')
 assert(!!el)
 ```
 
-你的 `#img-caption` 不应为空。
+id为 `#img-caption` 的元素不应为空。
 
 ```js
 const el = document.getElementById('img-caption')
@@ -111,7 +111,7 @@ const el = document.getElementById('tribute-info')
 assert(!!el)
 ```
 
-你的 `#tribute-info` 不应为空。
+id为 `#tribute-info` 的元素不应为空。
 
 ```js
 const el = document.getElementById('tribute-info')
@@ -125,21 +125,21 @@ const el = document.getElementById('tribute-link')
 assert(!!el && el.tagName === 'A')
 ```
 
-你的 `#tribute-link` 应该有一个 `href` 属性和值。
+id为 `#tribute-link` 的元素的 `href` 属性应该有值。
 
 ```js
 const el = document.getElementById('tribute-link')
 assert(!!el && !!el.href && el.href.length > 0)
 ```
 
-你的 `#tribute-link` 元素应该有一个值为 `_blank` 的 `target` 属性。
+id为 `#tribute-link` 的元素的 `target` 属性应该设置为 `_blank`。
 
 ```js
 const el = document.getElementById('tribute-link')
 assert(!!el && el.target === '_blank')
 ```
 
-你的 `img` 元素应该具有 `display` 值为 `block`。
+`img` 元素应该有 `display` 样式且值应为 `block`。
 
 ```js
 const img = document.getElementById('image');
@@ -148,7 +148,7 @@ const style = imgStyle?.getPropertyValue('display')
 assert(style === 'block')
 ```
 
-你的 `#image` 应该具有 `max-width` 值为 `100%`。
+id为 `#image` 的元素应该有 `max-width` 样式且值为 `100%`。
 
 ```js
 const img = document.getElementById('image');
@@ -157,7 +157,7 @@ const style = imgStyle?.getPropertyValue('max-width')
 assert(style === '100%')
 ```
 
-你的 `#image` 应该具有 `height` 值为 `auto`。
+id为 `#image` 的元素的 `height` 样式值应为 `auto`。
 
 ```js
 // taken from the testable-projects repo
@@ -171,7 +171,7 @@ img?.style.setProperty('display', oldDisplayValue, oldDisplayPriority);
 assert(heightValue === 'auto')
 ```
 
-你的 `#image` 应该在其父元素内居中.
+id为 `#image` 的元素应该在其父元素内居中。
 
 ```js
 // taken from the testable-projects repo

@@ -9,7 +9,7 @@ dashedName: link-to-internal-sections-of-a-page-with-anchor-elements
 
 # --description--
 
-`a`（*anchor*）元素也可以用于创建内部链接，跳转到网页内的各个不同部分。
+`a` (*anchor*) elements can also be used to create internal links to jump to different sections within a webpage.
 
 要创建内部链接，你需要将链接的 `href` 属性值设置为一个哈希符号 `#` 加上你想内部链接到的元素的 `id`，通常是在网页下方的元素。 然后你需要将相同的 `id` 属性添加到你链接到的元素中。 `id` 是描述网页元素的一个属性，它的值在整个页面中唯一。
 

@@ -8,7 +8,7 @@ dashedName: problem-334-spilling-the-beans
 
 # --description--
 
-In Plato's heaven, there exist an infinite number of bowls in a straight line. Each bowl either contains some or none of a finite number of beans. A child plays a game, which allows only one kind of move: removing two beans from any bowl, and putting one in each of the two adjacent bowls. The game ends when each bowl contains either one or no beans.
+In Platons Himmel gibt es eine unendliche Anzahl von Schalen in einer geraden Linie. Jede Schale enthält entweder einige oder keine einer endlichen Anzahl von Bohnen. Ein Kind spielt ein Spiel, bei dem nur eine Art von Zug erlaubt ist: zwei Bohnen aus einer beliebigen Schale zu nehmen und jeweils eine in eine der beiden benachbarten Schalen zu legen. Das Spiel endet, wenn jede Schüssel entweder eine oder keine Bohnen enthält.
 
 Nehmen wir zum Beispiel zwei benachbarte Schüsseln, die 2 bzw. 3 Bohnen enthalten, während alle anderen Schüsseln leer sind. Die folgenden acht Züge beenden das Spiel:
 
@@ -27,7 +27,7 @@ Betrachte jetzt 1500 benachbarte Schüsseln, die $b_1, b_2, \ldots bzw. b_{1500}
 
 # --hints--
 
-`spillingTheBeans()` should return `150320021261690850`.
+`spillingTheBeans()` sollte `150320021261690850` zurückgeben.
 
 ```js
 assert.strictEqual(spillingTheBeans(), 150320021261690850);

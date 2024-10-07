@@ -7,7 +7,7 @@ dashedName: step-61
 
 # --description--
 
-現在將 `established` 類應用於文本 `Est. 2020`。
+Now apply the `established` class to the `Est. 2020` text.
 
 # --hints--
 
@@ -17,7 +17,7 @@ dashedName: step-61
 assert.match(code,/<p class=('|")established\1>/i);
 ```
 
-在具有文字 `Est. 2020` 的元素上應該有 `established` 類。
+Your `established` class should be on the element with the text `Est. 2020`.
 
 ```js
 assert.match(document.querySelector('.established')?.innerText, /Est\.\s2020/i);

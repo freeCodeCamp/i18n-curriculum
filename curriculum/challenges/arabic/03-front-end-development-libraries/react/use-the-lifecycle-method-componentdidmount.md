@@ -8,7 +8,7 @@ dashedName: use-the-lifecycle-method-componentdidmount
 
 # --description--
 
-يحتاج معظم مطوري الشبكة الإلكترونية في وقت ما، إلى استدعاء نقطة نهاية API لاسترداد البيانات. إذا كنت تستخدم React، من المهم معرفة أين تنفذ هذا الإجراء.
+Most web developers, at some point, need to call an API endpoint to retrieve data. If you're working with React, it's important to know where to perform this action.
 
 أفضل ممارسة مع React هي إجراء مكالمات API أو أي مكالمات إلى الحاسب الألى (server) الخاص بك في طريقة lifecycle باسم `componentDidMount()`. ويدعى هذا الأسلوب بعد تركيب مكون في DOM. ستؤدي أي مكالمات إلى `setState()` إلى إنتاج عرض المكون الخاص بك. عند استدعاء API بهذه الطريقة، وتعيين حالتك بواسطة البيانات التي ينتجها API، سيتم تحديث تلقائياً بمجرد تلقي البيانات.
 

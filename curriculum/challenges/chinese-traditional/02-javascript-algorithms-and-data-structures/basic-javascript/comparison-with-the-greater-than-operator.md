@@ -9,7 +9,7 @@ dashedName: comparison-with-the-greater-than-operator
 
 # --description--
 
-使用大於運算符（`>`）來比較兩個數字。 如果大於運算符左邊的數字大於右邊的數字，將會返回 `true`。 否則，它返回 `false`。
+The greater than operator (`>`) compares the values of two numbers. If the number to the left is greater than the number to the right, it returns `true`. Otherwise, it returns `false`.
 
 與相等運算符一樣，大於運算符在比較的時候，會轉換值的數據類型。
 

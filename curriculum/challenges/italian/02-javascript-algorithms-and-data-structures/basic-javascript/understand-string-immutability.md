@@ -9,7 +9,7 @@ dashedName: understand-string-immutability
 
 # --description--
 
-In JavaScript, le stringhe (`String`) sono <dfn>immutabili</dfn>, il che significa che non possono essere modificate una volta create.
+In JavaScript, `String` values are <dfn>immutable</dfn>, which means that they cannot be altered once created.
 
 Ad esempio, il seguente codice produrrà un errore perché la lettera `B` nella stringa `Bob` non può essere cambiata nella lettera `J`:
 

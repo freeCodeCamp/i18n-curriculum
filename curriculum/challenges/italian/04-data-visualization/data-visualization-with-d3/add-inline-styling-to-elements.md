@@ -8,7 +8,7 @@ dashedName: add-inline-styling-to-elements
 
 # --description--
 
-D3 consente di aggiungere stili CSS in linea sugli elementi dinamici con il metodo `style()`.
+D3 lets you add inline CSS styles on dynamic elements with the `style()` method.
 
 Il metodo `style()` prende come argomento una coppia chiave-valore separata da virgole. Ecco un esempio per impostare il colore del testo della selezione a blu:
 

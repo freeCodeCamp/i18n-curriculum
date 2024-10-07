@@ -20,7 +20,7 @@ Complete o módulo <a href="https://learn.microsoft.com/training/modules/write-f
 
 ## --text--
 
-Qual das opções abaixo declara corretamente um método?
+Which of the following correctly declares a method?
 
 ## --answers--
 

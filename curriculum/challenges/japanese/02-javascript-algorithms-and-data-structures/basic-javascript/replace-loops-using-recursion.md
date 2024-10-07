@@ -10,7 +10,7 @@ dashedName: replace-loops-using-recursion
 
 # --description--
 
-関数が自分自身を呼び出せるという概念のことを再帰といいます。 再帰を理解するために、次の作業について考えてみましょう。配列の最初の `n` 個の要素を掛け合わせて、それらの要素の積を生成するとします。 これは次のように `for` ループを使用して記述できます。
+Recursion is the concept that a function can be expressed in terms of itself. To help understand this, start by thinking about the following task: multiply the first `n` elements of an array to create the product of those elements. Using a `for` loop, you could do this:
 
 ```js
   function multiply(arr, n) {

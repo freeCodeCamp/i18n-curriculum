@@ -9,9 +9,9 @@ dashedName: comparison-with-the-strict-inequality-operator
 
 # --description--
 
-Оператор строгої нерівності (`!==`) є логічною протилежністю оператора строгої рівності. Це означає «строго нерівно» та повертає `false`, де строга рівність повернула б `true` та *навпаки*. Оператор «строго не дорівнює» не перетворює типи даних.
+The strict inequality operator (`!==`) is the logical opposite of the strict equality operator. It means "Strictly Not Equal" and returns `false` where strict equality would return `true` and *vice versa*. The strict inequality operator will not convert data types.
 
-**Приклади**
+**Наприклад:**
 
 ```js
 3 !==  3  // false

@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aed908826
-title: Change the CSS of an Element Using jQuery
+title: jQuery로 요소의 CSS 변경하기
 challengeType: 6
 forumTopicId: 16776
 required:
@@ -13,29 +13,29 @@ dashedName: change-the-css-of-an-element-using-jquery
 
 We can also change the CSS of an HTML element directly with jQuery.
 
-jQuery has a function called `.css()` that allows you to change the CSS of an element.
+jQuery는 요소의 CSS를 변경할 수 있게 해주는 `.css()`라는 함수가 있습니다.
 
-Here's how we would change its color to blue:
+색깔을 파랑색으로 바꿀려면 이렇게 해야 합니다.
 
 ```js
 $("#target1").css("color", "blue");
 ```
 
-This is slightly different from a normal CSS declaration, because the CSS property and its value are in quotes, and separated with a comma instead of a colon.
+일반적인 CSS 선언과 약간 다른데, 이는 CSS 속성과 그 값들이 따옴표 안에 있고 쉼표 대신 쌍반점으로 분리되어 있기 때문입니다.
 
-Delete your jQuery selectors, leaving an empty `document ready function`.
+텅 빈 `document ready function`을 남기기 위해서 jQuery 선택기로 삭제합니다.
 
-Select `target1` and change its color to red.
+`target1`을 선택하고 색깔을 빨강색으로 바꿉니다.
 
 # --hints--
 
-Your `target1` element should have red text.
+`target1` 요소는 빨강색 텍스트를 가져야 합니다.
 
 ```js
 assert($('#target1').css('color') === 'rgb(255, 0, 0)');
 ```
 
-You should only use jQuery to add these classes to the element.
+이 요소에 이 클래스들을 추가하기 위해 jQuery만 사용해야 합니다.
 
 ```js
 assert(!code.match(/class.*animated/g));

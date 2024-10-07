@@ -9,7 +9,7 @@ dashedName: store-multiple-values-in-one-variable-using-javascript-arrays
 
 # --description--
 
-Ми можемо зберігати деякі дані в одному місці завдяки змінним `array` у JavaScript.
+With JavaScript `array` variables, we can store several pieces of data in one place.
 
 Оголошення масиву починається з початкової квадратної дужки, закінчується кінцевою квадратною дужкою, а між кожним елементом ставиться кома:
 
@@ -29,7 +29,7 @@ const sandwich = ["peanut butter", "jelly", "bread"];
 assert(typeof myArray == 'object');
 ```
 
-Першим елементом у `myArray` повинен бути рядок.
+Першим елементом у масиві `myArray` має бути рядок.
 
 ```js
 assert(typeof myArray[0] !== 'undefined' && typeof myArray[0] == 'string');

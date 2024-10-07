@@ -9,7 +9,7 @@ dashedName: fill-in-the-blank-with-placeholder-text
 
 # --description--
 
-Webentwickler verwenden traditionell <dfn>lorem ipsum Text</dfn> als Platzhaltertext. Der lorem ipsum Text wurde zufällig aus einer berühmten Passage von Cicero aus dem antiken Rom genommen.
+Web developers traditionally use <dfn>lorem ipsum text</dfn> as placeholder text. The lorem ipsum text is randomly scraped from a famous passage by Cicero of Ancient Rome.
 
 Lorem ipsum Text wird von Schriftsetzern seit dem 16. Jahrhundert als Platzhaltertext verwendet, und diese Tradition setzt sich im Web fort.
 

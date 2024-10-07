@@ -8,7 +8,7 @@ dashedName: get-state-from-the-redux-store
 
 # --description--
 
-L'oggetto store di Redux fornisce diversi metodi che consentono di interagire con esso. Ad esempio, è possibile recuperare lo `state` attuale contenuto nell'oggetto store di Redux con il metodo `getState()`.
+The Redux store object provides several methods that allow you to interact with it. For example, you can retrieve the current `state` held in the Redux store object with the `getState()` method.
 
 # --instructions--
 

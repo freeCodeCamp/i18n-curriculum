@@ -9,7 +9,7 @@ dashedName: use-grid-area-without-creating-an-areas-template
 
 # --description--
 
-이전 과제에서 배운 `grid-area` 속성은 다른 방식으로 사용될 수 있습니다. 그리드가 참조할 영역 템플릿이 없다면 다음과 같이 배치될 아이템에 동적으로 영역을 생성할 수 있습니다.
+The `grid-area` property you learned in the last challenge can be used in another way. If your grid doesn't have an areas template to reference, you can create an area on the fly for an item to be placed like this:
 
 ```css
 item1 { grid-area: 1/1/2/4; }

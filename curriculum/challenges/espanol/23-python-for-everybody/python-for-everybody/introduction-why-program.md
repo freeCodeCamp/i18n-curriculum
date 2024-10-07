@@ -16,13 +16,13 @@ dashedName: introduction-why-program
 
 # --description--
 
-More resources:
+Más recursos:
 
 \- <a href="https://youtu.be/F7mtLrYzZP8" target="_blank" rel="noopener noreferrer nofollow">Instalar Python en Windows</a>
 
 \- <a href="https://youtu.be/wfLnZP-4sZw" target="_blank" rel="noopener noreferrer nofollow">Instalar Python en MacOS</a>
 
-# --questions--
+# --preguntas----preguntas--
 
 ## --text--
 
@@ -32,21 +32,21 @@ More resources:
 
 Estudiantes universitarios.
 
-### --retroalimentación--
+### --feedback--
 
-College students should learn to program, but there's a better answer.
-
----
-
-People who want to become software developers.
-
-### --retroalimentación--
-
-People who want to become software developers should learn to program, but there's a better answer.
+Los estudiantes de universidad deberían aprender a programar, pero hay una respuesta mejor.
 
 ---
 
-Everyone.
+Personas que quieren ser desarrolladores de software.
+
+### --feedback--
+
+Personas que quieren ser desarrolladores de software deberían aprender a programar, pero hay una respuesta mejor.
+
+---
+
+Todo el mundo.
 
 ## --video-solution--
 

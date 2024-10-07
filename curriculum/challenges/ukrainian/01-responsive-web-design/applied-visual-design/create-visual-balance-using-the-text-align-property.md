@@ -9,7 +9,7 @@ dashedName: create-visual-balance-using-the-text-align-property
 
 # --description--
 
-Цей розділ навчальної програми присвячений застосуванню візуального дизайну. Перша група завдань спирається на задане розміщення карти, показуючи низку основних принципів.
+This section of the curriculum focuses on Applied Visual Design. The first group of challenges build on the given card layout to show a number of core principles.
 
 Текст часто є значною частиною Web контенту. У CSS є кілька варіантів того, як можна вирівняти його за допомогою властивості `text-align`.
 

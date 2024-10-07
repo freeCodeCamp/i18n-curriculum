@@ -1,6 +1,6 @@
 ---
 id: 5900f3d01000cf542c50fee3
-title: 'Problem 100: Arranged probability'
+title: 'Problem 100: Geordnete Wahrscheinlichkeit'
 challengeType: 1
 forumTopicId: 301724
 dashedName: problem-100-arranged-probability

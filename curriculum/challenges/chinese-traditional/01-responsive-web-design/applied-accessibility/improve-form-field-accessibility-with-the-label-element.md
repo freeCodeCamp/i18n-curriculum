@@ -9,13 +9,13 @@ dashedName: improve-form-field-accessibility-with-the-label-element
 
 # --description--
 
-合理地使用語義化的 HTML 標籤和屬性可以提升頁面可訪問性。 在接下來的挑戰中，你將會看到在表單中使用屬性的場景。
+Improving accessibility with semantic HTML markup applies to using both appropriate tag names and attributes. The next several challenges cover some important scenarios using attributes in forms.
 
 `label` 標籤的文本內容通常會是表單組件的名稱或標籤。 這些文本表明了組件的意義，也提升了表單的可訪問性。 `label` 標籤的 `for` 屬性將標籤與表單組件綁定；同時，屏幕閱讀器也會讀取 `for` 屬性的屬性值。
 
 在 HTML 基礎章節中，我們已經學習使用了單選按鈕標籤。 在那個挑戰中，爲了讓標籤可以在點擊的時候也選中輸入框，我們將單選按鈕 input 標籤嵌套在了 `label` 標籤裏面。 在本節課程中，我們介紹了另外一種實現這個功能的方法，那就是使用 `for` 屬性。
 
-`for` 的屬性值必須與表單組件的 `id` 屬性值相同。 舉個例子：
+`for` 的屬性值必須與表單組件的 `id` 屬性值相同。 如下所示：
 
 ```html
 <form>

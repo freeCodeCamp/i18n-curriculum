@@ -8,7 +8,7 @@ dashedName: use-a-switch-statement-to-handle-multiple-actions
 
 # --description--
 
-可以定義 Redux store 處理多種 action 類型。 假設在 Redux store 中管理用戶身份驗證。 希望用狀態表示用戶登錄和註銷。 使用 state 的 `authenticated` 屬性表示它。 還需要使用 action creators 創建與用戶登錄和用戶註銷相對應的 action，以及 action 對象本身。
+You can tell the Redux store how to handle multiple action types. Say you are managing user authentication in your Redux store. You want to have a state representation for when users are logged in and when they are logged out. You represent this with a single state object with the property `authenticated`. You also need action creators that create actions corresponding to user login and user logout, along with the action objects themselves.
 
 # --instructions--
 

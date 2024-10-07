@@ -8,7 +8,7 @@ dashedName: use-the-some-method-to-check-that-any-elements-in-an-array-meet-a-cr
 
 # --description--
 
-دالة `some` تعمل مع الـ arrays للتحقق مما إذا كان *اي* عنصر يجتاز اختبار معين. إنها ترجع قيمة منطقية - `true` إذا كان أي من القيم تستوفي المعايير، `false` إن لم تستوف.
+The `some` method works with arrays to check if *any* element passes a particular test. It returns a Boolean value - `true` if any of the values meet the criteria, `false` if not.
 
 على سبيل المثال، الكود التالي سيتحقق مما إذا كان اي عنصر في array الـ `numbers` أقل من 10:
 

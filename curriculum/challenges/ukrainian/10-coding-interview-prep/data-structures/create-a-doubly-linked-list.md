@@ -8,7 +8,7 @@ dashedName: create-a-doubly-linked-list
 
 # --description--
 
-Усі зв’язані списки, які ми створювали до цього, були однобічними. У цьому завданні ми створимо <dfn>двобічний зв’язаний список</dfn>. Як випливає з назви, вузли у двобічно зв’язаному списку мають посилання на наступний і попередній вузли списку.
+All of the linked lists we've created so far are singly linked lists. Here, we'll create a <dfn>doubly linked list</dfn>. As the name implies, nodes in a doubly linked list have references to the next and previous node in the list.
 
 Це дозволяє обходити список в обох напрямках. Але також для цього потрібно більше пам’яті, оскільки кожен вузол має містити додаткове посилання на попередній вузол у списку.
 

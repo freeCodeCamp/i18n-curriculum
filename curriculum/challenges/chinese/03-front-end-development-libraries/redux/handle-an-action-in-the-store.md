@@ -8,7 +8,7 @@ dashedName: handle-an-action-in-the-store
 
 # --description--
 
-在一个 action 被创建并 dispatch 之后，Redux store 需要知道如何响应该操作。 这就是 `reducer` 函数存在的意义。 Redux 中的 Reducers 负责响应 action 然后进行状态的修改。 `reducer` 将 `state` 和 `action` 作为参数，并且它总是返回一个新的 `state`。 我们要知道这是 reducer 的**唯一**的作用。 它不应有任何其他的作用：比如它不应调用 API 接口，也不应存在任何潜在的副作用。 reducer 只是一个接受状态和动作，然后返回新状态的纯函数。
+After an action is created and dispatched, the Redux store needs to know how to respond to that action. This is the job of a `reducer` function. Reducers in Redux are responsible for the state modifications that take place in response to actions. A `reducer` takes `state` and `action` as arguments, and it always returns a new `state`. It is important to see that this is the **only** role of the reducer. It has no side effects — it never calls an API endpoint and it never has any hidden surprises. The reducer is simply a pure function that takes state and action, then returns new state.
 
 Redux 的另一个关键原则是 `state` 是只读的。 换句话说，`reducer` 函数必须**始终**返回一个新的 `state`，并且永远不会直接修改状态。 Redux 不强制改变状态，但是需要在 reducer 函数的代码中强制执行它， 以后的挑战会练习这一点。
 

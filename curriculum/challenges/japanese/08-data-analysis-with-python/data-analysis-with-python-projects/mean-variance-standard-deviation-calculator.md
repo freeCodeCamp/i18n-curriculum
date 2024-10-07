@@ -12,7 +12,7 @@ You will be <a href="https://gitpod.io/?autostart=true#https://github.com/freeCo
 
 Python カリキュラムの対話式教育コンテンツを引き続き開発中です。 現在、下記の freeCodeCamp.org YouTube チャンネルで、このプロジェクトの完了に必要なすべての知識について説明する動画をいくつか公開しています。
 
-- <a href="https://www.freecodecamp.org/news/python-for-everybody/" target="_blank" rel="noopener noreferrer nofollow">「みんなの Python」ビデオコース</a> (14 時間)
+- <a href="https://www.freecodecamp.org/news/python-for-everybody/" target="_blank" rel="noopener noreferrer nofollow">Python for Everybody Video Course</a> (14 hours)
 
 - <a href="https://www.freecodecamp.org/news/how-to-analyze-data-with-python-pandas/" target="_blank" rel="noopener noreferrer nofollow">Python Pandas でデータを分析する方法</a> (10 時間)
 
@@ -50,9 +50,9 @@ Python カリキュラムの対話式教育コンテンツを引き続き開発�
 }
 ```
 
-## 開発
+## Development
 
-Write your code in `mean_var_std.py`. For development, you can use `main.py` to test your code.
+Write your code in `mean_var_std.py`. 開発には `main.py` を使用してコードをテストすることができます。
 
 ## テスト
 

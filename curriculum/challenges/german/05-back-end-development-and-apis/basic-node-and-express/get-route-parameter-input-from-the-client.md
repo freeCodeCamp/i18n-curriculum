@@ -8,7 +8,7 @@ dashedName: get-route-parameter-input-from-the-client
 
 # --description--
 
-Beim Aufbau einer API müssen wir den Nutzern die Möglichkeit geben, uns mitzuteilen, was sie von unserem Dienst erwarten. Fordert der Client beispielsweise Informationen über einen in der Datenbank gespeicherten Nutzer an, muss er uns irgendwie mitteilen, an welchem Nutzer er interessiert ist. Eine Möglichkeit, dieses Ergebnis zu erreichen, ist die Verwendung von Routenparametern. Routenparameter sind benannte Segmente der URL, die durch Schrägstriche (/) getrennt sind. Jedes Segment erfasst den Wert des Teils der URL, der seiner Position entspricht. Die erfassten Werte sind im Objekt `req.params` zu finden.
+When building an API, we have to allow users to communicate to us what they want to get from our service. For example, if the client is requesting information about a user stored in the database, they need a way to let us know which user they're interested in. One possible way to achieve this result is by using route parameters. Route parameters are named segments of the URL, delimited by slashes (/). Each segment captures the value of the part of the URL which matches its position. The captured values can be found in the `req.params` object.
 
 <blockquote>route_path: '/user/:userId/book/:bookId'<br>actual_request_URL: '/user/546/book/6754' <br>req.params: {userId: '546', bookId: '6754'}</blockquote>
 

@@ -9,11 +9,11 @@ dashedName: make-links-navigable-with-html-access-keys
 
 # --description--
 
-HTML 提供 `accesskey` 屬性，用於指定激活元素或者使元素獲得焦點的快捷鍵。 添加 `accesskey` 屬性可以讓使用鍵盤的用戶更高效率地導航。
+HTML offers the `accesskey` attribute to specify a shortcut key to activate or bring focus to an element. Adding an `accesskey` attribute can make navigation more efficient for keyboard-only users.
 
 HTML5 允許在任何標籤上使用這個屬性。 該屬性尤其適用於鏈接、按鈕、表單組件等元素。
 
-舉個例子：
+請看下面的舉例：
 
 ```html
 <button accesskey="b">Important Button</button>

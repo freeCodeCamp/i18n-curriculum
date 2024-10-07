@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: strings-in-python
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-What will the following code print?:
+¿Qué imprimirá el siguiente código?:
 
 ```python
 for n in "banana":

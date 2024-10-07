@@ -8,7 +8,7 @@ dashedName: import-a-default-export
 
 # --description--
 
-在上一個挑戰裏，學習了 `export default` 的用法。 還需要一種 `import` 的語法來導入默認的導出。 在下面的例子裏，`add` 是 `math_functions.js` 文件的默認導出。 以下是如何導入它：
+In the last challenge, you learned about `export default` and its uses. To import a default export, you need to use a different `import` syntax. In the following example, `add` is the default export of the `math_functions.js` file. Here is how to import it:
 
 ```js
 import add from "./math_functions.js";

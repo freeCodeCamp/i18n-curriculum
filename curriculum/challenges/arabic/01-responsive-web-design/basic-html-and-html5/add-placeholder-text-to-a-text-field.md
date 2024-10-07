@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedf08830
-title: Add Placeholder Text to a Text Field
+title: إضافة نص توضيحي إلى حقل نصي
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVMPUv/cKdJDhg'
 forumTopicId: 16647
@@ -11,27 +11,27 @@ dashedName: add-placeholder-text-to-a-text-field
 
 Placeholder text is what is displayed in your `input` element before your user has inputted anything.
 
-You can create placeholder text like so:
+يمكنك إنشاء نص توضيحي مثل هذا:
 
 ```html
 <input type="text" placeholder="this is placeholder text">
 ```
 
-**Note:** Remember that `input` elements are self-closing.
+**ملاحظة:** تذكر أن عناصر `input` مغلقة ذاتيا.
 
 # --instructions--
 
-Set the `placeholder` value of your text `input` to "cat photo URL".
+عين قيمة `placeholder` للحقل النصي `input` إلى "cat photo URL".
 
 # --hints--
 
-You should add a `placeholder` attribute to the existing text `input` element.
+يجب إضافة الصفة `placeholder` إلى عنصر `input` النصي الموجود.
 
 ```js
 assert($('input[placeholder]').length > 0);
 ```
 
-You should set the value of your `placeholder` attribute to `cat photo URL`.
+يجب عليك تعيين قيمةالصفة `placeholder` إلى `cat photo URL`.
 
 ```js
 assert(
@@ -43,13 +43,13 @@ assert(
 );
 ```
 
-The finished `input` element should not have a closing tag.
+لا يجب أن ينتهي عنصر `input` -المكتمل- بعلامة إغلاق.
 
 ```js
 assert(!code.match(/<input.*\/?>.*<\/input>/gi));
 ```
 
-The finished `input` element should have valid syntax.
+بناء عنصر `input` -المكتمل- يجب أن يكون صحيح.
 
 ```js
 assert($('input[type=text]').length > 0);

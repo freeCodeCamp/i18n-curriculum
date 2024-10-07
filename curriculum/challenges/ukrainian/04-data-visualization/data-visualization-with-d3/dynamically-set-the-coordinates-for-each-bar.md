@@ -8,7 +8,7 @@ dashedName: dynamically-set-the-coordinates-for-each-bar
 
 # --description--
 
-Попереднім завданням було створити та додати прямокутник до елемента `svg` для кожної точки в `dataset`, щоб представити стовпчик. На жаль, вони склались один на одного.
+The last challenge created and appended a rectangle to the `svg` element for each point in `dataset` to represent a bar. Unfortunately, they were all stacked on top of each other.
 
 Атрибути `x` та `y` відповідають за розміщення прямокутника. Вони повідомляють D3, де починати малювати фігуру в площині `svg`. В попередньому завданні ви встановили їх на 0, тому кожен стовпчик розміщено у верхньому лівому куті.
 

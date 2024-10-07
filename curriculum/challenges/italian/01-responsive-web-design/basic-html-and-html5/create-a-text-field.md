@@ -9,7 +9,7 @@ dashedName: create-a-text-field
 
 # --description--
 
-Creiamo ora un modulo (form) web.
+Now let's create a web form.
 
 Gli elementi `input` sono un modo conveniente per ottenere input dal tuo utente.
 

@@ -9,9 +9,9 @@ dashedName: return-early-pattern-for-functions
 
 # --description--
 
-当代码执行到 `return` 语句时，函数返回一个结果就结束运行了，return 后面的语句不会执行。
+When a `return` statement is reached, the execution of the current function stops and control returns to the calling location.
 
-**示例**
+**例如：**
 
 ```js
 function myFun() {

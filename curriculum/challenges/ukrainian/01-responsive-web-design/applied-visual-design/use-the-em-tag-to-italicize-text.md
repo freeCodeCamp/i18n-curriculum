@@ -9,7 +9,7 @@ dashedName: use-the-em-tag-to-italicize-text
 
 # --description--
 
-Щоб акцентувати текст, ви можете використати тег `em`. Текст відобразиться курсивом, оскільки браузер застосовує код CSS `font-style: italic;` до елемента.
+To emphasize text, you can use the `em` tag. This displays text as italicized, as the browser applies the CSS of `font-style: italic;` to the element.
 
 # --instructions--
 

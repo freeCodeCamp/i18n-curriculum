@@ -12,7 +12,7 @@ dashedName: build-a-survey-form
 
 **Maelekezo:**
 
-1. Unapaswa kuwa na kichwa cha ukurasa katika kipengele cha `h1` chenye `id` ya `title`
+1. You should have a page title in an `h1` element with an `id` of `title`
 1. Unapaswa kuwa na maelezo mafupi katika kipengele cha `p` chenye `id` ya `description`
 1. Unapaswa kuwa na kipengele cha `form` chenye `id` ya `survey-form`
 1. Ndani ya kipengee cha fomu, **unahitajika** kuingiza jina lako katika sehemu ya `input` ambayo ina `id` ya `name` na `type` ya `text`

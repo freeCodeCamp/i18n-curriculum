@@ -9,7 +9,7 @@ dashedName: use-the-flex-shrink-property-to-shrink-items
 
 # --description--
 
-지금까지 과제에 있었던 모든 속성은 플렉스 컨테이너(플렉스 아이템의 부모 요소) 에 적용됩니다. 그러나 플렉스 아이템에 사용할 수 있는 여러 유용한 속성이 있습니다.
+So far, all the properties in the challenges apply to the flex container (the parent of the flex items). However, there are several useful properties for the flex items.
 
 첫번째는 `flex-shrink` 속성입니다. 이 속성을 사용하면 플렉스 컨테이너가 너무 작을 때 아이템을 줄일 수 있습니다. 부모 컨테이너의 너비가 그 컨테이너 안의 모든 플렉스 아이템의 너비를 합친 값보다 작을 때 아이템이 줄어듭니다.
 

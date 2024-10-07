@@ -8,7 +8,7 @@ dashedName: use-the-reduce-method-to-analyze-data
 
 # --description--
 
-`Array.prototype.reduce()` o simplemente `reduce()` es la operación más común de todas para arreglos en JavaScript. Se puede resolver casi cualquier problema de procesamiento de arreglos utilizando el método `reduce`.
+`Array.prototype.reduce()`, or simply `reduce()`, is the most general of all array operations in JavaScript. You can solve almost any array processing problem using the `reduce` method.
 
 El método `reduce` permite formas más generales de procesamiento de arreglos y es posible mostrar que tanto `filter` como `map` pueden derivarse como aplicaciones especiales de `reduce`. El método `reduce` itera sobre cada elemento del arreglo y devuelve un solo valor (por ejemplo una cadena, número, objeto, arreglo). Esto se consigue mediante una función callback que se llama en cada iteración.
 

@@ -8,7 +8,7 @@ dashedName: use-depth-first-search-in-a-binary-search-tree
 
 # --description--
 
-二分探索木で特定の値を検索する方法は既に学びました。 しかし、木全体を探索したい場合はどうすれば良いでしょうか？ あるいは、順序付きの木がないときに、単に値を検索したい場合はどうでしょうか？ ここでは、ツリーデータ構造を探索するために木を走査する方法をいくつか紹介します。 1 つ目は深さ優先探索です。 深さ優先探索は、探索が別の部分木に移る前に、与えられた部分木をできるだけ深く探索します。 これを行うには次の 3 つの方法があります。通りがけ順: 左端のノードで探索を開始し、右端のノードで終了します。 行きがけ順: 葉より先にすべての根を探索します。 帰りがけ順: 根より先にすべての葉を探索します。 お察しの通り、木がどのような種類のデータを格納しているか、そして何を探したいかに応じて、異なる検索方法を選択できます。 二分探索木の場合、通りがけ順走査は、ソートされた順序でノードを返します。
+We know how to search a binary search tree for a specific value. But what if we just want to explore the entire tree? Or what if we don't have an ordered tree and we need to just search for a value? Here we will introduce some tree traversal methods which can be used to explore tree data structures. First up is depth-first search. In depth-first search, a given subtree is explored as deeply as possible before the search continues on to another subtree. There are three ways this can be done: In-order: Begin the search at the left-most node and end at the right-most node. Pre-order: Explore all the roots before the leaves. Post-order: Explore all the leaves before the roots. As you may guess, you may choose different search methods depending on what type of data your tree is storing and what you are looking for. For a binary search tree, an inorder traversal returns the nodes in sorted order.
 
 # --instructions--
 

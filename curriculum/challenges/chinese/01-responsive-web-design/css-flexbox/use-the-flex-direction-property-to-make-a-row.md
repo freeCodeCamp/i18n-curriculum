@@ -9,7 +9,7 @@ dashedName: use-the-flex-direction-property-to-make-a-row
 
 # --description--
 
-给元素添加 `display: flex` 属性可以让它变成 flex 容器， 然后可以让元素的项目排列成行或列。 只要给父元素添加 `flex-direction` 属性，并把属性值设置为 row 或 column，即可横向排列或纵向排列它的所有子元素。 创建一行将使子项水平对齐，创建一列将使子项垂直对齐。
+Adding `display: flex` to an element turns it into a flex container. This makes it possible to align any children of that element into rows or columns. You do this by adding the `flex-direction` property to the parent item and setting it to row or column. Creating a row will align the children horizontally, and creating a column will align the children vertically.
 
 `flex-direction` 的其他可选值还有 `row-reverse` 和 `column-reverse`。
 

@@ -8,23 +8,23 @@ dashedName: telephone-number-validator
 
 # --description--
 
-Gebe `true` zurück, wenn der übergebene String wie eine gültige US-Telefonnummer aussieht.
+Return `true` if the passed string looks like a valid US phone number.
 
-Der Benutzer kann das Formularfeld beliebig ausfüllen, solange es das Format einer gültigen US-Nummer hat. Im Folgenden sind Beispiele für gültige Formate für US-Nummern aufgeführt (für andere Alternativen siehe Tests unten):
+Der Benutzer kann das Formularfeld auf jede beliebige Weise ausfüllen, solange es das Format einer gültigen US-Nummer hat. Es folgen Beispiele für gültige US-Nummern-Formate (siehe Tests unten für weitere Varianten):
 
 <blockquote>555-555-5555<br>(555)555-5555<br>(555) 555-5555<br>555 555 5555<br>5555555555<br>1 555 555 5555</blockquote>
 
-Für diese Aufgabe wird dir ein String wie `800-692-7753` oder `8oo-six427676;laskdjf` angezeigt. Deine Aufgabe ist es, die US-Telefonnummer anhand einer Kombination der oben angegebenen Formate zu bestätigen oder abzulehnen. Die Vorwahl ist erforderlich. Wenn die Landesvorwahl angegeben ist, musst du bestätigen, dass die Landesvorwahl `1` ist. Gib `true` aus, wenn der String eine gültige US-Telefonnummer ist; ansonsten soll `false` ausgegeben werden.
+In dieser Aufgabe wird dir ein String wie `800-692-7753` oder `8oo-six427676;laskdjf` übergeben. Du sollst eine US-Telefonnummer anhand von Kombinationen der oben genannten Formate entweder validieren oder als ungültig ablehnen. Die Vorwahl ist erforderlich. Wird dir ein Ländercode übergeben, musst du bestätigen, dass dieser `1` ist. Gebe `true` zurück, wenn der String eine gültige US-Telefonnummer ist, ansonsten `false`.
 
 # --hints--
 
-`telephoneCheck("555-555-5555")` soll einen Boolean zurückgeben.
+`telephoneCheck("555-555-5555")` sollte einen Boolean zurückgeben.
 
 ```js
 assert(typeof telephoneCheck('555-555-5555') === 'boolean');
 ```
 
-`telephoneCheck("1 555-555-5555")` soll `true` zurückgeben.
+`telephoneCheck("1 555-555-5555")` sollte `true` zurückgeben.
 
 ```js
 assert(telephoneCheck('1 555-555-5555') === true);
@@ -48,7 +48,7 @@ assert(telephoneCheck('5555555555') === true);
 assert(telephoneCheck('555-555-5555') === true);
 ```
 
-`telephoneCheck("(555)555-5555")` sollte `true` zurückgeben.
+`telephoneCheck("(555)555-5555")` soll `true` zurückgeben.
 
 ```js
 assert(telephoneCheck('(555)555-5555') === true);
@@ -96,7 +96,7 @@ assert(telephoneCheck('1 456 789 4444') === true);
 assert(telephoneCheck('123**&!!asdf#') === false);
 ```
 
-`telephoneCheck("55555555")` sollte `false` zurückgeben.
+`telephoneCheck("55555555")` soll `false` zurückgeben.
 
 ```js
 assert(telephoneCheck('55555555') === false);
@@ -186,7 +186,7 @@ assert(telephoneCheck('(555)5(55?)-5555') === false);
 assert(telephoneCheck('55 55-55-555-5') === false);
 ```
 
-`telefoncheck("11 555-555-5555")` sollte `false` zurückgeben.
+`telephoneCheck("11 555-555-5555")` sollte `false` zurückgeben.
 
 ```js
 assert(telephoneCheck('11 555-555-5555') === false);

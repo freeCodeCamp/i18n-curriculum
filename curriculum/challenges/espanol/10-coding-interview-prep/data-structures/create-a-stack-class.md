@@ -8,7 +8,7 @@ dashedName: create-a-stack-class
 
 # --description--
 
-En la última sección, hablamos sobre lo que es una pila y como podemos usar un arreglo para representar una pila. En esta sección, crearemos nuestra propia clase pila. Aunque puedes usar arreglos para crear pilas, a veces es mejor limitar la cantidad de control que tenemos con nuestras pilas. Aparte de los métodos `push` y `pop`, las pilas tienen otros métodos. Añadamos métodos `peek`, `isEmpty`, y `clear` para nuestra clase pila.
+In the last section, we talked about what a stack is and how we can use an array to represent a stack. In this section, we will be creating our own stack class. Although you can use arrays to create stacks, sometimes it is best to limit the amount of control we have with our stacks. Apart from the `push` and `pop` method, stacks have other useful methods. Let's add a `peek`, `isEmpty`, and `clear` method to our stack class.
 
 # --instructions--
 

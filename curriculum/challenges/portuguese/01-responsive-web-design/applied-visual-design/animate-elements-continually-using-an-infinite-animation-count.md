@@ -9,7 +9,7 @@ dashedName: animate-elements-continually-using-an-infinite-animation-count
 
 # --description--
 
-Os desafios anteriores cobriram como usar algumas das propriedades de animação e a regra `@keyframes`. Outra propriedade da animação é `animation-iteration-count`, que permite controlar quantas vezes você gostaria de repetir a animação. Exemplo:
+The previous challenges covered how to use some of the animation properties and the `@keyframes` rule. Another animation property is the `animation-iteration-count`, which allows you to control how many times you would like to loop through the animation. Aqui está um exemplo:
 
 ```css
 animation-iteration-count: 3;

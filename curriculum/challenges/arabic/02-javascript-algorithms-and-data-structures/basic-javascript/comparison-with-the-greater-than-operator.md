@@ -9,7 +9,7 @@ dashedName: comparison-with-the-greater-than-operator
 
 # --description--
 
-مشغل أكبر من (`>`) يقارن بين قيمة رقمين. إذا كان الرَّقَم إلى اليسار أكبر من الرَّقَم إلى اليمين (لأن التعليمات البرمجية بالإنجليزية)، فإنه ينتج `true`. خلاف ذلك، فإنه ينتج `false`.
+The greater than operator (`>`) compares the values of two numbers. If the number to the left is greater than the number to the right, it returns `true`. Otherwise, it returns `false`.
 
 وعلى غرار مشغل المساواة، فإن مشغل أكبر من سيحول أنواع قيم البيانات عند مقارنتها.
 

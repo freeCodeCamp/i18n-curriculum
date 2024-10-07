@@ -8,7 +8,7 @@ dashedName: match-ending-string-patterns
 
 # --description--
 
-У попередньому завданні ви навчилися використовувати символ карет для пошуку шаблонів на початку рядків. Існує й спосіб пошуку шаблонів у кінці рядків.
+In the last challenge, you learned to use the caret character to search for patterns at the beginning of strings. There is also a way to search for patterns at the end of strings.
 
 Ви можете виконати пошук по кінцях рядків, використовуючи символ долара `$` у кінці регулярного виразу.
 
@@ -20,7 +20,7 @@ let noEnding = "Sometimes a story will have to end";
 storyRegex.test(noEnding);
 ```
 
-Перший виклик `test` поверне `true`, а другий поверне `false`.
+Перший виклик `test` повернеться як `true`, тоді ж як другий повернеться як `false`.
 
 # --instructions--
 
@@ -34,7 +34,7 @@ storyRegex.test(noEnding);
 assert(lastRegex.source == 'caboose$');
 ```
 
-Ваш регулярний вираз не повинен використовувати жодних прапорців.
+Ваш регулярний вираз не повинен містити жодних прапорців.
 
 ```js
 assert(lastRegex.flags == '');

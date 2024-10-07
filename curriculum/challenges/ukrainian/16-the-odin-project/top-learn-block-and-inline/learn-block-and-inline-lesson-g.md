@@ -7,7 +7,7 @@ dashedName: learn-block-and-inline-lesson-g
 
 # --description--
 
-Now that you have some basic understanding of `block` and `inline` elements, pull up your list of `block` and `inline` elements from a couple questions ago and see if you can identify which of the following elements are `block` elements and which are `inline` elements.
+Тепер у вас є базове розуміння блокових та рядкових елементів. Поверніться до списку блокових та рядкових елементів з попереднього завдання та перевірте, чи зможете ідентифікувати блокові та рядкові елементи.
 
 # --questions--
 
@@ -17,11 +17,11 @@ Now that you have some basic understanding of `block` and `inline` elements, pul
 
 ## --answers--
 
-Елемент form
+елемент form
 
 ---
 
-Елемент anchor
+елемент anchor
 
 ---
 
@@ -29,7 +29,7 @@ Now that you have some basic understanding of `block` and `inline` elements, pul
 
 ---
 
-Елемент span
+елемент span
 
 ## --video-solution--
 

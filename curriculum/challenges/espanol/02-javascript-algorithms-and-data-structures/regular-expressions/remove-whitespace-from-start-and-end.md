@@ -8,7 +8,7 @@ dashedName: remove-whitespace-from-start-and-end
 
 # --description--
 
-A veces no se quieren caracteres en espacios en blanco alrededor de las cadenas, pero están ahí. El proceso típico de las cadenas de texto es eliminar el espacio en blanco al inicio y al final del mismo.
+Sometimes whitespace characters around strings are not wanted but are there. Typical processing of strings is to remove the whitespace at the start and end of it.
 
 # --instructions--
 

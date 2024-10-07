@@ -9,7 +9,7 @@ dashedName: avoid-colorblindness-issues-by-using-sufficient-contrast
 
 # --description--
 
-A cor é uma grande parte do design visual, mas a sua utilização introduz duas questões de acessibilidade. Primeiro, a cor, por si só, não deve ser usada como a única maneira de transmitir informações importantes, pois usuários de leitores de tela não vão vê-la. Em segundo lugar, as cores de fundo e de primeiro plano precisam ter contraste suficiente para que os usuários daltônicos possam distingui-las.
+Color is a large part of visual design, but its use introduces two accessibility issues. First, color alone should not be used as the only way to convey important information because screen reader users won't see it. Second, foreground and background colors need sufficient contrast so colorblind users can distinguish them.
 
 Os desafios anteriores abordaram alternativas textuais para resolver o primeiro problema. O último desafio introduziu ferramentas de verificação de contraste para ajudar com o segundo. A proporção de contraste recomendada pelas WCAG, de 4.5:1, aplica-se para uso de cores, bem como de combinações da escala de cinza.
 

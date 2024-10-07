@@ -1,6 +1,6 @@
 ---
 id: 5e8f2f13c4cdbe86b5c72d89
-title: Core Learning Algorithms
+title: Grundlegende Lernalgorithmen
 challengeType: 11
 videoId: u5lZURgcWnU
 bilibiliIds:
@@ -28,7 +28,7 @@ Multiple regression
 
 ---
 
-Korrelation
+Correlation
 
 ---
 
@@ -36,7 +36,7 @@ Decision tree
 
 ---
 
-Lineare Regression
+Linear regression
 
 ## --video-solution--
 

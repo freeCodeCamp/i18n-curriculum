@@ -9,11 +9,11 @@ dashedName: task-72
 
 # --description--
 
-To `encourage` means to give support, confidence, or hope to someone. It's what a good coach does to motivate their team to do their best.
+`Encourage` означає надавати підтримку, впевненість або надію. Це те, що робить хороший тренер, щоб змотивувати команду робити все можливе.
 
 # --instructions--
 
-Послухайте аудіо та доповніть речення нижче.
+Послухайте аудіо та доповніть речення.
 
 # --fillInTheBlank--
 
@@ -27,7 +27,7 @@ To `encourage` means to give support, confidence, or hope to someone. It's what 
 
 ### --feedback--
 
-Remember to conjugate the verb. The verb you need is about motivating or inspiring someone to do something. It's similar to cheering someone on.
+Не забувайте про відмінювання дієслова. Вам потрібне дієслово, яке означає мотивувати або надихати когось. Це схоже на підбадьорення когось.
 
 # --scene--
 

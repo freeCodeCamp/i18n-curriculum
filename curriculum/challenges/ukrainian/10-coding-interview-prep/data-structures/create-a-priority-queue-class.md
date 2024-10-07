@@ -8,7 +8,7 @@ dashedName: create-a-priority-queue-class
 
 # --description--
 
-У цьому завданні ви створите чергу з пріоритетом. Черга з пріоритетом — це особливий тип черги, де елементи можуть мати додаткову інформацію про свій пріоритет. Його можна просто представити цілим числом. Пріоритет елементів замінить порядок їх розміщення в черзі та визначить, в якій послідовності елементи вилучатимуться з неї. Якщо елемент з вищим пріоритетом розташований після елементу з нижчим пріоритетом, то першим все одно вилучиться елемент з вищим пріоритетом.
+In this challenge you will be creating a Priority Queue. A Priority Queue is a special type of Queue in which items may have additional information which specifies their priority. This could be simply represented with an integer. Item priority will override placement order in determining the sequence items are dequeued. If an item with a higher priority is enqueued after items with lower priority, the higher priority item will be dequeued before all the others.
 
 Припустимо, що маємо чергу з пріоритетом з трьох елементів:
 

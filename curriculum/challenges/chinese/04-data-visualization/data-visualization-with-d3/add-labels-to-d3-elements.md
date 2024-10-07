@@ -8,7 +8,7 @@ dashedName: add-labels-to-d3-elements
 
 # --description--
 
-D3 允许你使用 SVG 的 `text` 元素给图形元素，如条形图，添加标签。
+D3 lets you label a graph element, such as a bar, using the SVG `text` element.
 
 和 `rect` 元素类似，`text` 元素也需要 `x` 和 `y` 属性来指定其放置在 SVG 上的位置， 它也需要能够获取数据来显示数据值。
 

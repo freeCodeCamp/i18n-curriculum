@@ -9,7 +9,7 @@ dashedName: decrease-the-opacity-of-an-element
 
 # --description--
 
-CSS의 `opacity` 속성은 아이템의 불투명도, 혹은 반대로 투명도를 조절하는 데 사용됩니다.
+The `opacity` property in CSS is used to adjust the opacity, or conversely, the transparency for an item.
 
 <blockquote>불투명도 값이 1이면 전혀 투명하지 않은 불투명한 상태입니다.<br>값이 0.5면 반투명합니다.<br>값이 0이면 완전히 투명합니다.</blockquote>
 

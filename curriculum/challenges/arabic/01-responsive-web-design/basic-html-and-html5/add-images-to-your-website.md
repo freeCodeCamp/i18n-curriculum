@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedf08812
-title: Add Images to Your Website
+title: إضافة صور إلى موقعك
 challengeType: 0
 forumTopicId: 16640
 dashedName: add-images-to-your-website
@@ -10,21 +10,21 @@ dashedName: add-images-to-your-website
 
 You can add images to your website by using the `img` element, and point to a specific image's URL using the `src` attribute.
 
-An example of this would be:
+ومثال على ذلك:
 
 ```html
 <img src="https://www.freecatphotoapp.com/your-image.jpg">
 ```
 
-Note that `img` elements are self-closing.
+لاحظ أن عناصر `img` مغلقة ذاتيا.
 
-All `img` elements **must** have an `alt` attribute. The text inside an `alt` attribute is used for screen readers to improve accessibility and is displayed if the image fails to load.
+جميع العناصر `img` **يجب أن ** تحتوي على الصفة `alt`. يتم استخدام النص داخل الصفة `alt` لقارئ الشاشة لتحسين ال accessibility ويتم عرضه إذا فشلت الصورة في التحميل.
 
-**Note:** If the image is purely decorative, using an empty `alt` attribute is a best practice.
+**ملاحظة:** اذا كانت الصورة للتزيين فقط ، يُفضل ترك الصفة `alt` فارغة.
 
-Ideally the `alt` attribute should not contain special characters unless needed.
+يُفضل ألا تحتوي الصفة `alt` على رموز خاصة إلا إذا لزم الأمر.
 
-Let's add an `alt` attribute to our `img` example above:
+خلينا نضيف الصفة `alt` للعنصر `img` في المثال السابق:
 
 ```html
 <img src="https://www.freecatphotoapp.com/your-image.jpg" alt="freeCodeCamp logo">
@@ -32,29 +32,29 @@ Let's add an `alt` attribute to our `img` example above:
 
 # --instructions--
 
-Let's try to add an image to our website:
+خلينا نجرب نضيف صورة لموقعنا:
 
-Within the existing `main` element, insert an `img` element before the existing `p` elements.
+داخل العنصر `main` نضيف العنصر `img` قبل العناصر `p` الموجودة.
 
-Now set the `src` attribute so that it points to the url `https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg`
+والآن نضع الصفة `src` بحيث تشير للرابط `https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg`
 
-Finally, don't forget to give your `img` element an `alt` attribute with applicable text.
+وأخيراً، لا تنسى إعطاء العنصر `img` خاصية `alt` تحتوي على نص مناسب.
 
 # --hints--
 
-Your page should have an image element.
+صفحتك يجب أن تحتوي على عنصر الصورة.
 
 ```js
 assert($('img').length);
 ```
 
-Your image should have a `src` attribute that points to the kitten image.
+الصورة يجب ان تحتوي على الصفة `src` التي تشير إلى رابط صورة القطة.
 
 ```js
 assert(/^https:\/\/cdn\.freecodecamp\.org\/curriculum\/cat-photo-app\/relaxing-cat\.jpg$/i.test($('img').attr('src')));
 ```
 
-Your image element's `alt` attribute should not be empty.
+يجب ألا تكون صفة الصورة `alt` فارغة.
 
 ```js
 assert(

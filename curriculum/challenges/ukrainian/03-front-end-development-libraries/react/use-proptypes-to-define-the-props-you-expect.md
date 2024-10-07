@@ -8,7 +8,7 @@ dashedName: use-proptypes-to-define-the-props-you-expect
 
 # --description--
 
-React надає корисні функції для перевірки типу, щоб переконатись, що компоненти отримують пропси правильного типу. Наприклад, застосунок виконує виклик API, щоб отримати дані з масиву, які потім передаються до компонента як пропс. Ви можете встановити `propTypes` у компоненті, щоб типом даних був `array`. Так ви отримаєте корисне повідомлення, якщо дані будуть іншого типу.
+React provides useful type-checking features to verify that components receive props of the correct type. For example, your application makes an API call to retrieve data that you expect to be in an array, which is then passed to a component as a prop. You can set `propTypes` on your component to require the data to be of type `array`. This will throw a useful warning when the data is of any other type.
 
 Краще встановити `propTypes`, якщо ви знаєте тип пропсів заздалегідь. Ви можете визначити властивість `propTypes` для компонента так само, як і `defaultProps`. Таким чином ви перевірите, чи пропс наданого ключа має наданий тип. Ось приклад запиту типу `function` для пропсу `handleClick`:
 

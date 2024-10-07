@@ -8,7 +8,7 @@ dashedName: taste-the-bootstrap-button-color-rainbow
 
 # --description--
 
-Клас `btn-primary` — це головний колір, який ви використовуватимете у застосунку. Він допомагає виділити дії, які має виконати користувач.
+The `btn-primary` class is the main color you'll use in your app. It is useful for highlighting actions you want your user to take.
 
 Замініть клас своєї кнопки `btn-default` на `btn-primary`.
 

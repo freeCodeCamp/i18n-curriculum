@@ -9,7 +9,7 @@ dashedName: reduce-repetition-using-the-repeat-function
 
 # --description--
 
-使用 `grid-template-columns` 或 `grid-template-rows` 定義網格結構時，你需要爲添加的每一行或每一列都輸入一個值。
+When you used `grid-template-columns` and `grid-template-rows` to define the structure of a grid, you entered a value for each row or column you created.
 
 如果一個網格共有 100 行且每行高度相同， 那我們就需要輸入 100 個值，這顯然不太實際。 爲此，更好的方式是使用 `repeat` 方法指定行或列的重複次數，後面加上逗號以及需要重複的值。
 

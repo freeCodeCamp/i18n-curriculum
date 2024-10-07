@@ -8,7 +8,7 @@ dashedName: chunky-monkey
 
 # --description--
 
-Escreva uma função que divida um array (primeiro argumento) em grupos com o comprimento de `size` (segundo argumento) e os retorne como um array bidimensional.
+Write a function that splits an array (first argument) into groups the length of `size` (second argument) and returns them as a two-dimensional array.
 
 # --hints--
 

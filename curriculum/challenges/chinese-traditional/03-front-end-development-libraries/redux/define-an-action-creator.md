@@ -8,7 +8,7 @@ dashedName: define-an-action-creator
 
 # --description--
 
-創建 action 後要將 action 發送到 Redux store，以便它可以更新其狀態。 在 Redux 中，可以定義動作創建器來完成此任務， action creator 只是一個返回動作的 JavaScript 函數。 換句話說，action creator 創建表示動作事件的對象。
+After creating an action, the next step is sending the action to the Redux store so it can update its state. In Redux, you define action creators to accomplish this. An action creator is simply a JavaScript function that returns an action. In other words, action creators create objects that represent action events.
 
 # --instructions--
 

@@ -8,7 +8,7 @@ dashedName: house-our-page-within-a-bootstrap-container-fluid-div
 
 # --description--
 
-페이지에 있는 모든 콘텐츠를 모바일 반응형으로 만들어보려 합니다.
+Now let's make sure all the content on your page is mobile-responsive.
 
 `container-fluid`라는 클래스를 가진 `div` 요소 하위에 `h3` 요소를 배치해주세요.
 

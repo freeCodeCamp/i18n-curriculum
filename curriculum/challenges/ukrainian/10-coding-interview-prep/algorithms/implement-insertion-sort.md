@@ -8,7 +8,7 @@ dashedName: implement-insertion-sort
 
 # --description--
 
-Наступний метод сортування, який ми розглянемо — це сортування включенням. Цей метод працює, створюючи відсортований масив на початку списку. Він починає відсортований масив з першого елементу. Потім він перевіряє наступний елемент і повертає його назад у відсортований масив, поки він не опиниться на потрібному місці. Метод продовжує виконувати ітерацію та розташовувати нові елементи на потрібне місце, поки не закінчаться елементи. Цей алгоритм має квадратичну часову складність у типових та найгірших випадках.
+The next sorting method we'll look at is insertion sort. This method works by building up a sorted array at the beginning of the list. Він починає відсортований масив з першого елементу. Then it inspects the next element and swaps it backwards into the sorted array until it is in sorted position. It continues iterating through the list and swapping new items backwards into the sorted portion until it reaches the end. This algorithm has quadratic time complexity in the average and worst cases.
 
 **Інструкція:** напишіть функцію `insertionSort`, яка приймає масив цілих чисел як вхідні дані та повертає масив цих цілих чисел у відсортованому порядку (від найменшого до найбільшого).
 

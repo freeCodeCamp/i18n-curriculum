@@ -8,7 +8,7 @@ dashedName: add-attributes-to-the-circle-elements
 
 # --description--
 
-O último desafio criou os elementos `circle` para cada ponto no `dataset` e anexou-os ao SVG. Porém, o D3 precisa de mais informações sobre a posição e o tamanho de cada `circle` para exibi-los corretamente.
+The last challenge created the `circle` elements for each point in the `dataset`, and appended them to the SVG. But D3 needs more information about the position and size of each `circle` to display them correctly.
 
 Um `circle` em SVG tem três atributos principais. Os atributos `cx` e `cy` são as coordenadas. Elas informam ao D3 onde posicionar o *centro* da forma no SVG. O raio (atributo `r`) fornece o tamanho de `circle`.
 

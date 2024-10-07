@@ -15,19 +15,19 @@ For example, you can say, `I enjoy playing video games` if playing video games i
 
 # --fillInTheBlank--
 
-## Frases
+## --sentence--
 
 `I think she has a passion for technology and she BLANK leading our team.`
 
-## Palabra correcta
+## --blanks--
 
 `enjoys`
 
-### devolución
+### --feedback--
 
 What word would you use to say that Maria finds happiness in guiding the team? It's the same word used when you have fun or like doing an activity.
 
-# --escena---
+# --scene--
 
 ```json
 {

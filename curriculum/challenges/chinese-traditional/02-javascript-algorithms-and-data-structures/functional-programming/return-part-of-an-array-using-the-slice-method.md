@@ -8,9 +8,9 @@ dashedName: return-part-of-an-array-using-the-slice-method
 
 # --description--
 
-`slice` 方法可以從已有數組中返回指定元素。 它接受兩個參數，第一個規定從何處開始選取，第二個規定從何處結束選取（不包括該元素）。 如果沒有傳參，則默認爲從數組的開頭開始到結尾結束，這是複製整個數組的簡單方式。 `slice` 返回一個新數組，不會修改原始數組。
+The `slice` method returns a copy of certain elements of an array. It can take two arguments, the first gives the index of where to begin the slice, the second is the index for where to end the slice (and it's non-inclusive). If the arguments are not provided, the default is to start at the beginning of the array through the end, which is an easy way to make a copy of the entire array. The `slice` method does not mutate the original array, but returns a new one.
 
-舉個例子：
+請看下面的舉例：
 
 ```js
 const arr = ["Cat", "Dog", "Tiger", "Zebra"];

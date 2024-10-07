@@ -14,11 +14,11 @@ As a reminder, this project is being built upon the following starter project on
 
 # --instructions--
 
-Within `tests/1_unit-tests.js` under the test labeled `#16` in the `Objects` suite, change each `assert` to either `assert.property` or `assert.notProperty` to make the test pass (should evaluate to `true`). 不要修改传给断言的参数。
+在 `tests/1_unit-tests.js` 中，在测试标签 `#16`下，将每个`Objects` 下的`assert` 修改成`assert.property` 或`assert.notProperty`以确保通过测试 (结果应返回“ `true`”). 不要修改传给断言的参数。
 
 # --hints--
 
-应通过所有测试。
+不应有未通过的测试
 
 ```js
 (getUserInput) =>

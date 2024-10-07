@@ -1,6 +1,6 @@
 ---
 id: 587d78b0367417b2b2512b05
-title: Створіть сторінку технічної документації
+title: Побудуйте сторінку технічної документації
 challengeType: 14
 forumTopicId: 301146
 dashedName: build-a-technical-documentation-page
@@ -8,11 +8,11 @@ dashedName: build-a-technical-documentation-page
 
 # --description--
 
-**Мета:** створити застосунок, функціонально схожий до <a href="https://technical-documentation-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://technical-documentation-page.freecodecamp.rocks</a>. **Не копіюйте цей демонстраційний проєкт**.
+**Objective:** Build an app that is functionally similar to <a href="https://technical-documentation-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://technical-documentation-page.freecodecamp.rocks</a>. **Do not copy this demo project**.
 
 **Історія користувача:**
 
-1. Можна побачити елемент `main` з відповідним ідентифікатором `id="main-doc"`, який містить основний вміст сторінки (технічна документація)
+1. You can see a `main` element with a corresponding `id="main-doc"`, which contains the page's main content (technical documentation)
 1. В межах елемента `#main-doc` можна побачити декілька елементів `section`, кожен з яких має клас `main-section`. Їх має бути щонайменше п'ять
 1. Перший елемент кожної `.main-section` повинен бути елементом `header`, який має текст, що описує тему секції.
 1. Кожен елемент `section` класу `main-section` також повинен мати `id`, що відповідає тексту кожного `header`, вміщеного в ньому. Будь-які прогалини слід замінити знаками підкреслення (наприклад, секція із заголовком «JavaScript and Java» повинна мати відповідний `id="JavaScript_and_Java"`)
@@ -28,7 +28,7 @@ dashedName: build-a-technical-documentation-page
 1. На пристроях звичайного розміру (портативний чи настільний комп'ютер) елемент з `id="navbar"` повинен відображатись ліворуч на екрані та завжди бути видимим для користувача
 1. Ваша технічна документація повинна використовувати принаймні один медіазапит
 
-Виконайте історію користувача та пройдіть тести, наведені нижче, щоб завершити цей проєкт. Оформте за власним стилем. Щасливого програмування!
+Виконайте історію користувача та пройдіть тести, наведені нижче, щоб завершити цей проєкт. Оформіть за вашим власним стилем. Щасливого кодування!
 
 **Примітка:** переконайтеся, що додали `<link rel="stylesheet" href="styles.css">` до HTML для прив’язки з аркушем стилів та застосували CSS
 
@@ -141,7 +141,7 @@ const els = document.querySelectorAll('#navbar header')
 assert(els.length === 1)
 ```
 
-Ви повинні мати щонайменше один елемент `a` класу `nav-link`.
+Ви повинні мати щонайменше один елемент `a` з класом `nav-link`.
 
 ```js
 const els = document.querySelectorAll('a.nav-link')

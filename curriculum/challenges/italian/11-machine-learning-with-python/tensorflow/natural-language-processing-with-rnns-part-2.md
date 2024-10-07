@@ -14,7 +14,7 @@ dashedName: natural-language-processing-with-rnns-part-2
 
 ## --text--
 
-Gli incorporamenti di parole sono...:
+Word embeddings are...:
 
 ## --answers--
 

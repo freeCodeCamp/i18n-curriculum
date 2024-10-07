@@ -11,7 +11,7 @@ dashedName: introduction-to-data-analysis
 ---
 
 # --description--
-Аналіз даних — це процес перетворення необроблених безладних даних у корисну інформацію шляхом очищення, трансформації, маніпулювання та перевірки даних.
+Data analysis is the act of turning raw, messy data into useful insights by cleaning the data up, transforming it, manipulating it, and inspecting it.
 
 Додаткові ресурси:
 

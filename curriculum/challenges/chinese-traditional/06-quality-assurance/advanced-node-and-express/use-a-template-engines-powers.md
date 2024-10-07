@@ -8,7 +8,7 @@ dashedName: use-a-template-engines-powers
 
 # --description--
 
-模版引擎最大的特點之一就是在 HTML 頁面展示之前，可以從服務端傳變量到模版文件。
+One of the greatest features of using a template engine is being able to pass variables from the server to the template file before rendering it to HTML.
 
 在 Pug 文件中，你可以用變量名來調用變量，比如寫成 `#{variable_name}` 來實現行內調用，或像 `p=variable_name` 把元素與變量直接寫在一起，這表示 p 元素的內容等價於這個變量。
 

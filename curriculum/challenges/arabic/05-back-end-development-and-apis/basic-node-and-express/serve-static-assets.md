@@ -1,6 +1,6 @@
 ---
 id: 587d7fb0367417b2b2512bf0
-title: Serve Static Assets
+title: خدمة الأصول الثابتة
 challengeType: 2
 forumTopicId: 301518
 dashedName: serve-static-assets
@@ -10,15 +10,15 @@ dashedName: serve-static-assets
 
 An HTML server usually has one or more directories that are accessible by the user. You can place there the static assets needed by your application (stylesheets, scripts, images).
 
-In Express, you can put in place this functionality using the middleware `express.static(path)`, where the `path` parameter is the absolute path of the folder containing the assets.
+في Express، يمكنك إنشاء هذه الوظيفة باستخدام middleware `express.static(path)`، حيث `path` هو المسار المطلق (absolute path) للمجلد الذي يحتوي على الأصول.
 
-If you don’t know what middleware is... don’t worry, we will discuss in detail later. Basically, middleware are functions that intercept route handlers, adding some kind of information. A middleware needs to be mounted using the method `app.use(path, middlewareFunction)`. The first `path` argument is optional. If you don’t pass it, the middleware will be executed for all requests.
+إذا كنت لا تعرف ما هو middleware... لا تقلق، سوف نناقش بالتفصيل لاحقاً. في الأساس، middleware هو التطبيقات الوسطى أو الوظائف التي تعترض route handlers، مضيفة نوعا من المعلومات. يحتاج برنامج وسيط (middleware) إلى أن يتم تحميله باستخدام الطريقة `app.use(path, middlewareFunction)`. المعطى الأول `path` اختياري. إذا لم تعطيه، سيتم تفعيل middleware لجميع الطلبات.
 
 # --instructions--
 
-Mount the `express.static()` middleware to the path `/public` with `app.use()`. The absolute path to the assets folder is `__dirname + /public`.
+اوصل (أو mount) البرنامج الوسيطي (middleware) باستخدام `express.static()` كوسيط إلى المسار `/public` مع `app.use()`. The absolute path to the assets folder is `__dirname + /public`.
 
-Now your app should be able to serve a CSS stylesheet. Note that the `/public/style.css` file is referenced in the `/views/index.html` in the project boilerplate. Your front-page should look a little better now!
+الآن يجب أن يكون تطبيقك قادراً على تقديم stylesheet CSS. لاحظ أن مِلَفّ `/public/style.css` مشار إليه في مِلَفّ `/views/index.html` في متداول مشروع (boilerplate). تبدو ألآن صفحتك الأولى أفضل قليلاً!
 
 # --hints--
 

@@ -1,6 +1,6 @@
 ---
 id: 5e9a0e9ef99a403d019610ca
-title: How Deep Neural Networks Work
+title: كيف تعمل الشبكات العصبية
 challengeType: 11
 videoId: zvalnHWGtx4
 dashedName: how-deep-neural-networks-work

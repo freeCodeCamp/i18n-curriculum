@@ -1,6 +1,6 @@
 ---
 id: 5900f5111000cf542c510023
-title: 'Problem 420: 2x2 positive integer matrix'
+title: 'Problem 420: 2x2 positive integere Matrix'
 challengeType: 1
 forumTopicId: 302090
 dashedName: problem-420-2x2-positive-integer-matrix
@@ -8,9 +8,9 @@ dashedName: problem-420-2x2-positive-integer-matrix
 
 # --description--
 
-A positive integer matrix is a matrix whose elements are all positive integers.
+Eine positiv integere Matrix ist eine Matrix, deren Elemente alle positive Integer sind.
 
-Some positive integer matrices can be expressed as a square of a positive integer matrix in two different ways. Here is an example:
+Einige positive integere Matrizen können auf zwei verschiedene Arten als Quadrat einer positiven integeren Matrix ausgedrückt werden. Hier ist ein Beispiel:
 
 $$\begin{pmatrix}   40 & 12 \\\\
   48 & 40 \end{pmatrix} =
@@ -21,15 +21,15 @@ $$\begin{pmatrix}   40 & 12 \\\\
   6 & 1 \\\\
   4 & 6 \end{pmatrix}}^2$$
 
-We define $F(N)$ as the number of the 2x2 positive integer matrices which have a trace less than N and which can be expressed as a square of a positive integer matrix in two different ways.
+Wir definieren $F(N)$ als die Anzahl der 2x2 positiven integeren Matrizen, die eine Spur kleiner als N sind und die auf zwei verschiedene Arten als Quadrat einer positiven integeren Matrix ausgedrückt werden können.
 
-We can verify that $F(50) = 7$ and $F(1000) = 1019$.
+Wir können nachweisen, dass $F(50) = 7$ und $F(1000) = 1019$.
 
-Find $F({10}^7)$.
+Finde $F({10}^7)$.
 
 # --hints--
 
-`positiveIntegerMatrix()` should return `145159332`.
+`positiveIntegerMatrix()` sollte `145159332` zurückgeben.
 
 ```js
 assert.strictEqual(positiveIntegerMatrix(), 145159332);

@@ -9,11 +9,11 @@ dashedName: counting-cards
 
 # --description--
 
-في لُعْبَة بلاك جاك (blackjack)، يمكن للاعب أن يحدد ما إذا كان يتمتع بميزة على اللاعب الموزِّع بواسطة تتبع العدد النسبي للأوراق المرتفعة والمنخفضة المتبقية في مجموعة الورق. هذا يسمى إحصاء الورق (Card Counting).
+In the casino game Blackjack, a player can determine whether they have an advantage on the next hand over the house by keeping track of the relative number of high and low cards remaining in the deck. This is called Card Counting.
 
 يكون وجود المزيد من الورق عالي القيمة المتبقي في المجموعة, أفضل للاعب. يتم تعيين قيمة لكل ورقة لعب وفقاً للجدول بالأدنى. عندما يكون العد موجبًا، يجب على اللاعب المراهنة بشكل مرتفع. عندما يكون العد صفرًا أو سلبيًا، يجب أن يراهن اللاعب بشكل منخفض.
 
-<table><thead><tr><th>تغيير العد</th><th>الأوراق</th></tr></thead><tbody><tr><td>+1</td><td>2, 3, 4, 5, 6</td></tr><tr><td>0</td><td>7, 8, 9</td></tr><tr><td>-1</td><td>10, 'J', 'Q', 'K', 'A'</td></tr></tbody></table>
+<table><thead><tr><th>Count Change</th><th>الأوراق</th></tr></thead><tbody><tr><td>+1</td><td>2, 3, 4, 5, 6</td></tr><tr><td>0</td><td>7, 8, 9</td></tr><tr><td>-1</td><td>10, 'J', 'Q', 'K', 'A'</td></tr></tbody></table>
 
 سوف تكتب وظيفة لعد الورق. سوف تتلقى وسيط (parameter) اسمه `card`, الذي يمكن أن يكون رقما أو مقطع نصي (string)، وسوف تزيد أو تخفض متغير `count` وفقا لقيمة الورقة المعطى (انظر إلى الجدول). ثم ستقوم الوظيفة بإنشاء مقطع نصي يحتوي علي العد الحالي وكلمة `Bet` إذا كان العد إيجابياً، أو `Hold` إذا كان العد صفر أو سلبي. يجب أن يفصل العد الحالي وقرار اللاعب (`Bet` أو `Hold`) بمسافة فارعة واحدة.
 

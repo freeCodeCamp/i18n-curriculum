@@ -8,7 +8,7 @@ dashedName: create-grids-within-grids
 
 # --description--
 
-Перетворення елемента в сітку впливає лише на поводження прямих дочірніх об'єктів. Отже, перетворюючи прямий дочірній елемент в сітку, ви отримуєте таблицю в таблиці.
+Turning an element into a grid only affects the behavior of its direct descendants. So by turning a direct descendant into a grid, you have a grid within a grid.
 
 Наприклад, якщо задати властивості елемента `display` і `grid-template-columns` з класом `item3`, то всередині вашої таблиці буде ще одна.
 

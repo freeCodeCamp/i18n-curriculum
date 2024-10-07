@@ -10,7 +10,7 @@ dashedName: >-
 
 # --description--
 
-En algunas situaciones que implican la desestructuración de arreglos, tal vez queramos recolectar el resto de elementos en un arreglo separado.
+In some situations involving array destructuring, we might want to collect the rest of the elements into a separate array.
 
 El resultado es similar a `Array.prototype.slice()`, como se muestra a continuación:
 

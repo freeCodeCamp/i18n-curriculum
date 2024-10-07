@@ -8,7 +8,7 @@ dashedName: warn-your-users-of-a-dangerous-action-with-btn-danger
 
 # --description--
 
-Bootstrap 有着豐富的預定義按鈕顏色。 紅色 `btn-danger` class 用來提醒用戶此行爲具有破壞性，比如刪除一張貓的圖片。
+Bootstrap comes with several pre-defined colors for buttons. The `btn-danger` class is the button color you'll use to notify users that the button performs a destructive action, such as deleting a cat photo.
 
 創建一個帶有文本 `Delete` 的按鈕，給它設置 class `btn-danger`。
 

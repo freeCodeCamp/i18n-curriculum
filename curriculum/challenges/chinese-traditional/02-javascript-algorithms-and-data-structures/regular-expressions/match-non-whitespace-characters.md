@@ -8,7 +8,7 @@ dashedName: match-non-whitespace-characters
 
 # --description--
 
-已經學會了如何使用帶有小寫 `s` 的縮寫 `\s` 來搜尋空白字符。 還可以搜尋除了空格之外的所有內容。
+You learned about searching for whitespace using `\s`, with a lowercase `s`. You can also search for everything except whitespace.
 
 使用 `\S` 搜尋非空白字符，其中 `s` 是大寫。 此匹配模式將不匹配空格、回車符、製表符、換頁符和換行符。 可以認爲這類似於元字符 `[^ \r\t\f\n\v]`。
 
@@ -26,7 +26,7 @@ whiteSpace.match(nonSpaceRegex).length;
 
 # --hints--
 
-您的正則表達式應該使用全局標識。
+你的正則表達式應該使用全局標識。
 
 ```js
 assert(countNonWhiteSpace.global);

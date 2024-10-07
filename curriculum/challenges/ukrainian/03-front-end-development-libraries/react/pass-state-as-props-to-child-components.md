@@ -8,7 +8,7 @@ dashedName: pass-state-as-props-to-child-components
 
 # --description--
 
-Ви бачили багато прикладів, які передавали пропси до дочірніх елементів JSX та дочірніх компонентів React в попередніх завданнях. Можливо, вам цікаво, звідки беруться ці пропси. Загальною схемою є компонент зі станом, важливим для застосунку, який відтворює дочірні компоненти. Потрібно, щоб ці компоненти мали доступ до деяких частин стану, який передано як пропс.
+You saw a lot of examples that passed props to child JSX elements and child React components in previous challenges. You may be wondering where those props come from. A common pattern is to have a stateful component containing the `state` important to your app, that then renders child components. You want these components to have access to some pieces of that `state`, which are passed in as props.
 
 Наприклад, у вас є компонент `App`, який відтворює `Navbar` серед інших компонентів. В `App` існує стан, який містить багато інформації про користувача, але `Navbar` потребує доступ лише до імені користувача, щоб зобразити його. Ви передаєте цю частину стану до компонента `Navbar` як пропс.
 

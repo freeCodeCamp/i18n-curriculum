@@ -9,7 +9,7 @@ dashedName: introduction-to-html5-elements
 
 # --description--
 
-В HTML5 вводяться більш описові теги HTML. Серед них `main`, `header`, `footer`, `nav`, `video`, `article`, `section` та інші.
+HTML5 introduces more descriptive HTML tags. These include `main`, `header`, `footer`, `nav`, `video`, `article`, `section` and others.
 
 Ці теги надають вашому HTML описову структуру, полегшують прочитання вашого HTML, а також допомагають з оптимізацією пошукової системи (SEO) та доступністю. Тег HTML5 `main` допомагає пошуковим системам та іншим розробникам знайти основний зміст вашої сторінки.
 

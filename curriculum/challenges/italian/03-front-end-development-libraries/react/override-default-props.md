@@ -8,7 +8,7 @@ dashedName: override-default-props
 
 # --description--
 
-La possibilità di impostare delle proprietà predefinite è una caratteristica utile in React. Per sovrascrivere gli elementi predefiniti si devono impostare esplicitamente i valori delle proprietà per un componente.
+The ability to set default props is a useful feature in React. The way to override the default props is to explicitly set the prop values for a component.
 
 # --instructions--
 

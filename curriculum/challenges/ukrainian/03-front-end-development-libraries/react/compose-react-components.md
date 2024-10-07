@@ -8,7 +8,7 @@ dashedName: compose-react-components
 
 # --description--
 
-Оскільки завдання продовжують використовувати складніші композиції з компонентів React та JSX, варто дещо зазначити. Відтворення класових компонентів стилю ES6 в межах інших компонентів не відрізняється від відтворення простих компонентів, використаних у попередніх завданнях. Ви можете відтворити елементи JSX, функціональні компоненти без стану та класові компоненти ES6 в межах інших компонентів.
+As the challenges continue to use more complex compositions with React components and JSX, there is one important point to note. Rendering ES6 style class components within other components is no different than rendering the simple components you used in the last few challenges. You can render JSX elements, stateless functional components, and ES6 class components within other components.
 
 # --instructions--
 

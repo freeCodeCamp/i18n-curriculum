@@ -8,7 +8,7 @@ dashedName: test-if-a-value-is-an-array
 
 # --description--
 
-A modo de recordatorio, este proyecto se está construyendo sobre el siguiente proyecto inicial en <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>o clonando desde <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
+As a reminder, this project is being built upon the following starter project on <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>, or cloned from <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
 
 # --instructions--
 
@@ -16,7 +16,7 @@ Dentro de `tests/1_unit-tests.js` debajo de la prueba etiquetada `#11` en el `Ar
 
 # --hints--
 
-Todas las pruebas deben pasar.
+Todas los test deben pasar.
 
 ```js
 (getUserInput) =>

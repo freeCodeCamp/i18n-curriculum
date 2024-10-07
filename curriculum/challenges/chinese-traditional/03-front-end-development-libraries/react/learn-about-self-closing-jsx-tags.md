@@ -8,7 +8,7 @@ dashedName: learn-about-self-closing-jsx-tags
 
 # --description--
 
-到目前爲止，已經看到 JSX 與 HTML 的關鍵不同在於使用 `className` 還是 `class` 來定義 HTML 的 class。
+So far, you’ve seen how JSX differs from HTML in a key way with the use of `className` vs. `class` for defining HTML classes.
 
 JSX 不同於 HTML 的另一個重要方面是自閉合標籤。
 

@@ -9,7 +9,7 @@ dashedName: make-circular-images-with-a-border-radius
 
 # --description--
 
-В додаток до пікселів, ви також можете вказати `border-radius`, використовуючи відсоткові відношення.
+In addition to pixels, you can also specify the `border-radius` using a percentage.
 
 # --instructions--
 

@@ -8,7 +8,7 @@ dashedName: match-everything-but-letters-and-numbers
 
 # --description--
 
-Você aprendeu que você pode usar um atalho para capturar alfanuméricos `[A-Za-z0-9_]` usando `\w`. Você pode querer capturar exatamente o oposto disso.
+You've learned that you can use a shortcut to match alphanumerics `[A-Za-z0-9_]` using `\w`. A natural pattern you might want to search for is the opposite of alphanumerics.
 
 Você pode capturar não alfanuméricos usando `\W` ao invés de `\w`. Observe que o atalho usa uma maiúscula. Este atalho é o mesmo que escrever `[^A-Za-z0-9_]`.
 

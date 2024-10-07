@@ -8,7 +8,7 @@ dashedName: specify-only-the-lower-number-of-matches
 
 # --description--
 
-中括弧を使用して、数量指定子でパターンの最小数と最大数を指定できます。 上限なしでパターンの最小数だけを指定したい場合があります。
+You can specify the lower and upper number of patterns with quantity specifiers using curly brackets. Sometimes you only want to specify the lower number of patterns with no upper limit.
 
 パターンの最小数だけを指定するには、最初の数字の後にコンマを置いてください。
 

@@ -9,7 +9,7 @@ dashedName: store-multiple-values-in-one-variable-using-javascript-arrays
 
 # --description--
 
-자바스크립트의 `array` 변수를 사용하는 것으로, 여러 개의 데이터를 한 곳에 넣는 것이 가능합니다.
+With JavaScript `array` variables, we can store several pieces of data in one place.
 
 배열을 선언하기 위해서는 다음과 같이, 시작 대괄호를 써서 선언을 시작하고, 각 항목 사이에 쉼표를 넣고, 마지막으로 종료 대괄호를 씁니다.
 

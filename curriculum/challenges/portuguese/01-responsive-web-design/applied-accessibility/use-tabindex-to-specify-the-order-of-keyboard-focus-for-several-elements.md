@@ -9,7 +9,7 @@ dashedName: use-tabindex-to-specify-the-order-of-keyboard-focus-for-several-elem
 
 # --description--
 
-O atributo `tabindex` também especifica a ordem em que a tecla tab percorrerá os elementos. Isso é obtido quando o valor do atributo é definido como um número positivo (1 ou acima).
+The `tabindex` attribute also specifies the exact tab order of elements. This is achieved when the attribute's value is set to a positive number of 1 or higher.
 
 Definir um `tabindex="1"` fará com que o foco seja levado para esse elemento quando o usuário apertar a tecla tab pela primeira vez. Em seguida, o foco passará ao próximo elemento que tem um `tabindex` maior que o anterior. Quando não existirem mais itens para receberem foco, ele volta ao valor inicial - `tabindex="0"`.
 

@@ -8,7 +8,7 @@ dashedName: no-repeats-please
 
 # --description--
 
-返回沒有重複連續字母的提供字符串的總排列數。 假設提供的字符串中的所有字符都是唯一的。
+Return the number of total permutations of the provided string that don't have repeated consecutive letters. Assume that all characters in the provided string are each unique.
 
 例如，`aab` 應該返回 2，因爲它有 6 個排列（`aab`、`aab`、`aba`、`aba`、`baa` 和 `baa`），但其中只有 2 個（`aba` 和 `aba`）沒有重複相同字符（即 `a`）。
 

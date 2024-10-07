@@ -8,15 +8,15 @@ dashedName: problem-322-binomial-coefficients-divisible-by-10
 
 # --description--
 
-Let $T(m, n)$ be the number of the binomial coefficients ${}^iC_n$ that are divisible by 10 for $n ≤ i &lt; m$ ($i$, $m$ and $n$ are positive integers).
+Lasse $T(m, n)$ die Anzahl der Binomialkoeffizienten ${}^iC_n$ sein, die durch 10 teilbar sind für $n ≤ i &lt; m$ ($i$, $m$ und $n$ sind positive ganze Zahlen).
 
-You are given that $T({10}^9, {10}^7 - 10) = 989\\,697\\,000$.
+Dir wird gegeben, dass $T({10}^9, {10}^7 - 10) = 989\\,697\\,000$.
 
-Find $T({10}^{18}, {10}^{12} - 10)$.
+Finde $T({10}^{18}, {10}^{12} - 10)$.
 
 # --hints--
 
-`binomialCoefficientsDivisibleBy10()` should return `999998760323314000`.
+`binomialCoefficientsDivisibleBy10()` sollte `999998760323314000` zurückgeben.
 
 ```js
 assert.strictEqual(binomialCoefficientsDivisibleBy10(), 999998760323314000);

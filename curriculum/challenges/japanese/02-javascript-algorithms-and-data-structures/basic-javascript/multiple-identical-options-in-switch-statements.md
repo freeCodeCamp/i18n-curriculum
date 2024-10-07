@@ -9,7 +9,7 @@ dashedName: multiple-identical-options-in-switch-statements
 
 # --description--
 
-`switch` ステートメントの `case` で `break` ステートメントを省略すると、`break` が現れるまで、その後の `case` ステートメント (1 つ以上) が実行されます。 同じ出力となる複数の入力がある場合、`switch` ステートメントで次のように表現できます。
+If the `break` statement is omitted from a `switch` statement's `case`, the following `case` statement(s) are executed until a `break` is encountered. If you have multiple inputs with the same output, you can represent them in a `switch` statement like this:
 
 ```js
 let result = "";

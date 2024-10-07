@@ -1,6 +1,6 @@
 ---
 id: bd7155d8c242eddfaeb5bd13
-title: Build a Recipe Box
+title: 建立配方盒
 challengeType: 3
 forumTopicId: 302354
 dashedName: build-a-recipe-box
@@ -10,25 +10,25 @@ dashedName: build-a-recipe-box
 
 **Objective:** Build an app that is functionally similar to this: <a href="https://codepen.io/freeCodeCamp/full/dNVazZ/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/dNVazZ/</a>.
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+完成以下需求，并且通过所有测试。 你可以使用你需要的任何库或 API。 可以用你自己的样式来完成。
 
-**User Story:** I can create recipes that have names and ingredients.
+**用户故事：** 我可以创建具有名称和成分的食谱。
 
-**User Story:** I can see an index view where the names of all the recipes are visible.
+**用户故事：** 我可以看到一个索引视图，其中所有配方的名称都是可见的。
 
-**User Story:** I can click into any of those recipes to view it.
+**用户故事：** 我可以点击任何这些食谱来查看它。
 
-**User Story:** I can edit these recipes.
+**用户故事：** 我可以编辑这些食谱。
 
-**User Story:** I can delete these recipes.
+**用户故事：** 我可以删除这些食谱。
 
-**User Story:** All new recipes I add are saved in my browser's local storage. If I refresh the page, these recipes will still be there.
+**用户故事：** 我添加的所有新食谱都保存在浏览器的本地存储中。 如果我刷新页面，这些配方仍然会在那里。
 
-**Hint:** You should prefix your local storage keys on CodePen, i.e. `_username_recipes`
+**提示：** 你应该在 CodePen 上为本地存储密钥添加前缀，例如 `_username_recipes`
 
-When you are finished, include a link to your project on CodePen and click the "I've completed this challenge" button.
+完成后，单击“我已完成此挑战”按钮并添加一个指向CodePen的链接。
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+可以分享你的项目到 <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp 论坛</a>上获得反馈。
 
 # --solutions--
 

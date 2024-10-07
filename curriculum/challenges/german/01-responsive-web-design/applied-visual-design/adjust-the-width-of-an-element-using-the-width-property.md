@@ -9,7 +9,7 @@ dashedName: adjust-the-width-of-an-element-using-the-width-property
 
 # --description--
 
-Man kann die Breite eines Elements in CSS mit der `width`-Eigenschaft festlegen. Werte können in relativen Längeneinheiten (z. B. `em`), absoluten Längeneinheiten (z. B. `px`) oder als Prozentsatz seines übergeordneten Elements angegeben werden. Hier ein Beispiel, in dem die Breite eines Bildes auf 220px geändert wird:
+You can specify the width of an element using the `width` property in CSS. Values can be given in relative length units (such as `em`), absolute length units (such as `px`), or as a percentage of its containing parent element. Here's an example that changes the width of an image to 220px:
 
 ```css
 img {

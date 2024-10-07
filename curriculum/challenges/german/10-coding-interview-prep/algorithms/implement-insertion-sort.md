@@ -8,9 +8,9 @@ dashedName: implement-insertion-sort
 
 # --description--
 
-Die nächste Sortiermethode, die wir uns ansehen, ist Insertionsort. Bei dieser Methode wird ein sortiertes Array am Anfang der Liste erstellt. Das Array wird mit dem ersten Element sortiert. Dann wird das nächste Element untersucht und rückwärts in das sortierte Array verschoben, bis es sich in der sortierten Position befindet. Es fährt fort, die Liste zu durchlaufen und neue Elemente rückwärts in den sortierten Teil zu verschieben, bis es das Ende erreicht. Dieser Algorithmus hat im mittleren und schlimmsten Fall eine quadratische Zeitkomplexität.
+The next sorting method we'll look at is insertion sort. This method works by building up a sorted array at the beginning of the list. Er beginnt das sortierte Array mit dem ersten Element. Then it inspects the next element and swaps it backwards into the sorted array until it is in sorted position. It continues iterating through the list and swapping new items backwards into the sorted portion until it reaches the end. This algorithm has quadratic time complexity in the average and worst cases.
 
-**Instructions:** Write a function `insertionSort` which takes an array of integers as input and returns an array of these integers in sorted order from least to greatest.
+**Anleitung:** Schreib eine Funktion `insertionSort`, die ein Array mit ganzen Zahlen als Eingabe verwendet und, die ein Array mit diesen ganzen Zahlen zurückgibt und, die vom kleinsten zum größten Wert sortiert sind.
 
 # --hints--
 

@@ -9,7 +9,7 @@ dashedName: global-scope-and-functions
 
 # --description--
 
-在 JavaScript 中，<dfn>作用域</dfn>涉及到变量的作用范围。 在函数外定义的变量具有 <dfn>全局</dfn> 作用域。 这意味着，具有全局作用域的变量可以在代码的任何地方被调用。
+In JavaScript, <dfn>scope</dfn> refers to the visibility of variables. Variables which are defined outside of a function block have <dfn>Global</dfn> scope. This means, they can be seen everywhere in your JavaScript code.
 
 未使用 `let` 或 `const` 关键字声明的变量会在 `global` 范围内自动创建。 当在代码其他地方无意间定义了一个变量，刚好变量名与全局变量相同，这时会产生意想不到的后果。 你应该总是用 `let` 或 `const` 声明你的变量。
 

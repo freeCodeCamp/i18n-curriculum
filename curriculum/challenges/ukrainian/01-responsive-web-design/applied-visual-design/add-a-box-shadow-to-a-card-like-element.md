@@ -9,12 +9,12 @@ dashedName: add-a-box-shadow-to-a-card-like-element
 
 # --description--
 
-Властивість `box-shadow` додає одну або більше тіней до елемента.
+The `box-shadow` property applies one or more shadows to an element.
 
 Властивість `box-shadow` приймає такі значення, за порядком:
 
 <ul>
-  <li><code>offset-x</code> (наскільки далеко відсунута тінь від елемента по горизонталі)</li>
+  <li><code>offset-x</code> (how far to push the shadow horizontally from the element)</li>
   <li><code>offset-y</code> (наскільки далеко відсунута тінь від елемента по вертикалі)</li>
   <li><code>blur-radius</code></li>
   <li><code>spread-radius</code></li>

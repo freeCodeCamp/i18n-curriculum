@@ -1,7 +1,7 @@
 ---
 id: 587d7db2367417b2b2512b8a
 title: >-
-  Use Closure to Protect Properties Within an Object from Being Modified Externally
+  객체의 속성이 외부에서 수정이 불가하도록 Closure 사용하기
 challengeType: 1
 forumTopicId: 18234
 dashedName: >-
@@ -16,9 +16,9 @@ In the previous challenge, `bird` had a public property `name`. It is considered
 bird.name = "Duffy";
 ```
 
-Therefore, any part of your code can easily change the name of `bird` to any value. Think about things like passwords and bank accounts being easily changeable by any part of your codebase. That could cause a lot of issues.
+그러므로 다른 코드 부분에서 쉽게 `bird`의 이름을 아무 값으로 바꿀 수 있게 됩니다. 다른 코드 부분에서 쉽게 비밀번호나 계좌가 바뀔 수 있다고 생각해보십시오. 많은 문제를 야기할 수 있습니다.
 
-The simplest way to make this public property private is by creating a variable within the constructor function. This changes the scope of that variable to be within the constructor function versus available globally. This way, the variable can only be accessed and changed by methods also within the constructor function.
+Public 속성을 private으로 만드는 가장 쉬운 방법은 생성자 함수 내에서 변수를 생성하는 것입니다. 전역적으로 변수를 사용하는 것에서 생성자 함수 내로 범위를 좁힐 수 있게 됩니다. 이런 식으로 변수는 오직 생성자 함수 내의 메소드에 의해서만 접근이 가능하고 수정이 가능하게 됩니다.
 
 ```js
 function Bird() {
@@ -32,27 +32,27 @@ let ducky = new Bird();
 ducky.getHatchedEggCount();
 ```
 
-Here `getHatchedEggCount` is a privileged method, because it has access to the private variable `hatchedEgg`. This is possible because `hatchedEgg` is declared in the same context as `getHatchedEggCount`. In JavaScript, a function always has access to the context in which it was created. This is called `closure`.
+여기 `getHatchedEggCount`는 private 변수인 `hatchedEgg`에 접근할 수 있는 특권이 있는 메소드입니다. 이는 `hatchedEgg`가 `getHatchedEggCount`와 같은 맥락에서 선언되었기 때문입니다. 자바스크립트에서 함수는 함수가 만들어지는 맥락만 접근할 수 있습니다. 이것은 `closure`라고 불립니다.
 
 # --instructions--
 
-Change how `weight` is declared in the `Bird` function so it is a private variable. Then, create a method `getWeight` that returns the value of `weight` 15.
+함수 `Bird`에 선언된 `weight`에 변화를 주어 private 변수로 만드시오. 그런 다음에 `weight`의 값 15를 반환하는 메소드 `getWeight`를 생성하시오.
 
 # --hints--
 
-The `weight` property should be a private variable and should be assigned the value of `15`.
+속성 `weight`은 private 변수이어야 하고 값 `15`으로 지정되어야 합니다.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/(var|let|const)\s+weight\s*\=\s*15\;?/g));
 ```
 
-Your code should create a method in `Bird` called `getWeight` that returns the value of the private variable `weight`.
+`Bird` 에서 private 변수 `weight`의 값을 반환하는 `getWeight`라는 메소드를 생성해야 합니다.
 
 ```js
 assert(new Bird().getWeight() === 15);
 ```
 
-Your `getWeight` function should return the private variable `weight`.
+함수 `getWeight`는 private 변수 `weight`를 반환해야 합니다.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/((return\s+)|(\(\s*\)\s*\=\>\s*))weight\;?/g));

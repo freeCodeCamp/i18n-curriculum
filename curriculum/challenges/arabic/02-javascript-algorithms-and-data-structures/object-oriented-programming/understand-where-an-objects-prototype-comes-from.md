@@ -8,7 +8,7 @@ dashedName: understand-where-an-objects-prototype-comes-from
 
 # --description--
 
-تمامًا مثل الأشخاص الذين يرثون الجينات من آبائهم، يرث الكائن `prototype` من المنشئ (constructor function) التي أنشئه مباشرةً. على سبيل المثال ، هنا constructor الـ `Bird` يقوم بإنشاء كائن `duck`:
+Just like people inherit genes from their parents, an object inherits its `prototype` directly from the constructor function that created it. For example, here the `Bird` constructor creates the `duck` object:
 
 ```js
 function Bird(name) {

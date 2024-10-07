@@ -8,7 +8,7 @@ dashedName: complete-a-promise-with-resolve-and-reject
 
 # --description--
 
-Ein Promise hat drei Zustände: `pending`, `fulfilled` und `rejected`. Das Promise, das du in der letzten Aufgabe erstellt hast, bleibt für immer im Zustand `pending` stecken, weil du keine Möglichkeit hinzugefügt hast, das Promise zu beenden. Dazu werden die Parameter `resolve` und `reject` verwendet, die dem Promise-Argument übergeben werden. `resolve` wird verwendet, wenn du willst, dass dein Promise erfolgreich ist, und `reject` wird verwendet, wenn es fehlschlagen soll. Das sind Methoden, die ein Argument benötigen, wie unten zu sehen.
+A promise has three states: `pending`, `fulfilled`, and `rejected`. The promise you created in the last challenge is forever stuck in the `pending` state because you did not add a way to complete the promise. The `resolve` and `reject` parameters given to the promise argument are used to do this. `resolve` is used when you want your promise to succeed, and `reject` is used when you want it to fail. These are methods that take an argument, as seen below.
 
 ```js
 const myPromise = new Promise((resolve, reject) => {

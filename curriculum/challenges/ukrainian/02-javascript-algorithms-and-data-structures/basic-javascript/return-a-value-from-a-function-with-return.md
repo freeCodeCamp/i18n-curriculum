@@ -9,9 +9,9 @@ dashedName: return-a-value-from-a-function-with-return
 
 # --description--
 
-Ми можемо передати значення до функції за допомогою <dfn>аргументів</dfn>. Ви можете використати інструкцію `return`, щоб надіслати значення з фунції.
+We can pass values into a function with <dfn>arguments</dfn>. You can use a `return` statement to send a value back out of a function.
 
-**Приклад**
+**Наприклад:**
 
 ```js
 function plusThree(num) {

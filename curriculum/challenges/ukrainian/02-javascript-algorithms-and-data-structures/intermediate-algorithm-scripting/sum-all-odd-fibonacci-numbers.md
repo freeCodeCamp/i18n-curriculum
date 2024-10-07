@@ -8,7 +8,7 @@ dashedName: sum-all-odd-fibonacci-numbers
 
 # --description--
 
-Маючи додатнє ціле число `num`, поверніть суму всіх непарних чисел Фібоначчі, які менші чи дорівнюють `num`.
+Given a positive integer `num`, return the sum of all odd Fibonacci numbers that are less than or equal to `num`.
 
 Першими двома числами в послідовності Фібоначчі є 0 та 1. Кожне додаткове число у послідовності є сумою двох попередніх чисел. Першими сімома числами в послідовності Фібоначчі є 1, 1, 2, 3, 5 і 8.
 

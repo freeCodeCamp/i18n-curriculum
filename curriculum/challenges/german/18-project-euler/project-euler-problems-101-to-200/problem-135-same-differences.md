@@ -8,7 +8,7 @@ dashedName: problem-135-same-differences
 
 # --description--
 
-Given the positive integers, $x$, $y$, and $z$, are consecutive terms of an arithmetic progression, the least value of the positive integer, $n$, for which the equation, $x^2 − y^2 − z^2 = n$, has exactly two solutions is $n = 27$:
+Wenn die positiven ganzen Zahlen $x$, $y$ und $z$ aufeinanderfolgende Terme einer arithmetischen Progression sind, ist der kleinste Wert der positiven ganzen Zahl $n$, für den die Gleichung $x^2 - y^2 - z^2 = n$ genau zwei Lösungen hat, $n = 27$:
 
 $$34^2 − 27^2 − 20^2 = 12^2 − 9^2 − 6^2 = 27$$
 

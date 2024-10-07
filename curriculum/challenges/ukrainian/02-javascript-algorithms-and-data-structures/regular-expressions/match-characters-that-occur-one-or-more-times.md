@@ -8,7 +8,7 @@ dashedName: match-characters-that-occur-one-or-more-times
 
 # --description--
 
-Іноді потрібно знайти символ (або групу символів), які з’являються один чи більше разів поспіль. Це означає, що він зустрічається принаймні раз та може повторюватися.
+Sometimes, you need to match a character (or group of characters) that appears one or more times in a row. This means it occurs at least once, and may be repeated.
 
 Можна використати символ `+`, щоб перевірити чи це так. Пам’ятайте, символ або шаблон мають бути послідовними. Тобто символ має повторюватися.
 

@@ -12,11 +12,11 @@ dashedName: strings-and-lists
 
 # --description--
 
-More resources:
+Más recursos:
 
 \- <a href="https://www.youtube.com/watch?v=-9TfJF2dwHI" target="_blank" rel="noopener noreferrer nofollow">Ejercicio</a>
 
-# --questions--
+# --preguntas----preguntas--
 
 ## --text--
 

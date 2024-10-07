@@ -1,6 +1,6 @@
 ---
 id: 587d78ae367417b2b2512aff
-title: Use the order Property to Rearrange Items
+title: استخدم خاصية order لإعادة ترتيب العناصر
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVaDAv/cMbvNAG'
 forumTopicId: 301116
@@ -13,17 +13,17 @@ The `order` property is used to tell CSS the order of how flex items appear in t
 
 # --instructions--
 
-Add the CSS property `order` to both `#box-1` and `#box-2`. Give `#box-1` a value of `2` and give `#box-2` a value of `1`.
+أضف خاصية CSS `order` لدى كل من `#box-1` و `#box-2`. أعط `#box-1` قيمة `2` و أعط `#box-2` قيمة `1`.
 
 # --hints--
 
-The `#box-1` element should have the `order` property set to a value of `2`.
+العنصر `#box-1` يحصل على خاصية `order` و يعطى قيمة `2`.
 
 ```js
 assert($('#box-1').css('order') == '2');
 ```
 
-The `#box-2` element should have the `order` property set to a value of `1`.
+العنصر `#box-2` يجب أن يحصل على خاصية `order` بتعيين قيمته إلى `1`.
 
 ```js
 assert($('#box-2').css('order') == '1');

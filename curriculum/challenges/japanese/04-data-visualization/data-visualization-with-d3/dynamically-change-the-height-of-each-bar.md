@@ -8,7 +8,7 @@ dashedName: dynamically-change-the-height-of-each-bar
 
 # --description--
 
-`x` の値を動的に設定したときと同様の方法で、各バーの高さを配列内のデータポイントの値に設定できます。
+The height of each bar can be set to the value of the data point in the array, similar to how the `x` value was set dynamically.
 
 ```js
 selection.attr("property", (d, i) => {

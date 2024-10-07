@@ -9,7 +9,7 @@ dashedName: store-multiple-values-in-one-variable-using-javascript-arrays
 
 # --description--
 
-Con las variables de arreglos (`array`) de JavaScript, podemos almacenar varios datos en un solo lugar.
+With JavaScript `array` variables, we can store several pieces of data in one place.
 
 Inicias una declaración de arreglo con un corchete de apertura, lo terminas con un corchete de cierre, y pones una coma entre cada entrada, de esta forma:
 

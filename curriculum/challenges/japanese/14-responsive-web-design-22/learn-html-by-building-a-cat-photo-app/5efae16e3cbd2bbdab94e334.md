@@ -7,7 +7,7 @@ dashedName: step-31
 
 # --description--
 
-最後の `img` 要素の後に `figcaption` 要素を追加して、テキストを `Cats hate other cats.` としてください。
+After the last `img` element, add a `figcaption` element with the text `Cats hate other cats.`
 
 # --hints--
 
@@ -66,7 +66,7 @@ assert(
 );
 ```
 
-`figcaption` 要素のテキストは `Cats hate other cats.` でなければなりません。 テキストに誤字脱字があります。
+The `figcaption` element should have the text `Cats hate other cats.` You have omitted a word or have a typo.
 
 ```js
 assert(

@@ -12,11 +12,11 @@ dashedName: intermediate-strings
 
 # --description--
 
-More resources:
+Más recursos:
 
 \- <a href="https://www.youtube.com/watch?v=1bSqHot-KwE" target="_blank" rel="noopener noreferrer nofollow">Ejercicio</a>
 
-# --questions--
+# --preguntas----preguntas--
 
 ## --text--
 

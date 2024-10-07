@@ -7,7 +7,7 @@ dashedName: discordian-date
 ---
 
 # --description--
-The Gregorian calendar is a solar calendar with 12 months of 28-31 days each. A week consists of seven days, and there are 52 weeks and 1 day per year. The year consists of 365 days with a leap day added to February every leap year. A leap year occurs every four years, except for the first three centurial years of every 400 years.
+Der Gregorianische Kalender ist ein Sonnenkalender mit 12 Monaten zu je 28-31 Tagen. Eine Woche besteht aus sieben Tagen, und es gibt 52 Wochen und 1 Tag pro Jahr. Das Jahr hat 365 Tage, wobei in jedem Schaltjahr dem Februar ein Schalttag hinzugefügt wird. Ein Schaltjahr findet alle vier Jahre statt, außer in den ersten drei Jahrhunderten aller 400 Jahre.
 
 Der <a href="http://www.rosettacode.org/wiki/Discordian_date" target="_blank" rel="noopener noreferrer nofollow">Diskordianische Kalender</a> orientiert sich am Gregorianischen Kalender und beginnt am 1. Januar. Die Woche besteht aus fünf Tagen, und es gibt 73 Wochen pro Jahr. Das Jahr besteht ebenfalls aus 365 Tagen, wobei in jedem Schaltjahr zwischen Chaos 59 und Chaos 60 ein zusätzlicher Tag eingefügt wird.
 
@@ -53,7 +53,7 @@ assert(
 );
 ```
 
-`discordianDate(new Date(2012, 1, 29))` should return `"Setting Orange, the 60th day of Chaos in the YOLD 3178. Celebrate St. Tib\'s Day!"`.
+`discordianDate(new Date(2012, 1, 29))` sollte `"Setting Orange, the 60th day of Chaos in the YOLD 3178. Celebrate St. Tib\'s Day!"` zurückgeben.
 
 ```js
 assert(
@@ -71,7 +71,7 @@ assert(
 );
 ```
 
-`discordianDate(new Date(2010, 0, 5))` should return `"Setting Orange, the 5th day of Chaos in the YOLD 3176. Celebrate Mungday!"`.
+`discordianDate(new Date(2010, 0, 5))` sollte `"Setting Orange, the 5th day of Chaos in the YOLD 3176. Celebrate Mungday!"` zurückgeben.
 
 ```js
 assert(
@@ -80,7 +80,7 @@ assert(
 );
 ```
 
-`discordianDate(new Date(2011, 4, 3))` should return `"Pungenday, the 50th day of Discord in the YOLD 3177. Celebrate Discoflux!"`.
+`discordianDate(new Date(2011, 4, 3))` sollte `"Pungenday, the 50th day of Discord in the YOLD 3177. Celebrate Discoflux!"` zurückgeben.
 
 ```js
 assert(

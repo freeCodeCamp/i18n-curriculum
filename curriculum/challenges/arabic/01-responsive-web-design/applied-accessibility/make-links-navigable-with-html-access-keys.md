@@ -1,6 +1,6 @@
 ---
 id: 587d7790367417b2b2512aaf
-title: Make Links Navigable with HTML Access Keys
+title: جعل الروابط قابلة للتنقل باستخدام مفاتيح الوصول HTML
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cQvmaTp'
 forumTopicId: 301021
@@ -11,9 +11,9 @@ dashedName: make-links-navigable-with-html-access-keys
 
 HTML offers the `accesskey` attribute to specify a shortcut key to activate or bring focus to an element. Adding an `accesskey` attribute can make navigation more efficient for keyboard-only users.
 
-HTML5 allows this attribute to be used on any element, but it's particularly useful when it's used with interactive ones. This includes links, buttons, and form controls.
+HTML5 يسمح باستخدام هذه السمة على أي عنصر، لكنه مفيد بشكل خاص عندما تستخدم مع العناصر التفاعلية. ويشمل ذلك الروابط والأزرار والتحكم في الاستمارة.
 
-Here's an example:
+إليك مثال:
 
 ```html
 <button accesskey="b">Important Button</button>
@@ -21,29 +21,29 @@ Here's an example:
 
 # --instructions--
 
-يريد Camper Cat أن يكون للرابطان حول عنوان مقالات المدونة اختصارات لوحة المفاتيح (keyboard shortcuts) حتى يتمكن مستخدمو موقعه من الانتقال بسرعة إلى القصة الكاملة. Add an `accesskey` attribute to both links and set the first one to `g` (for Garfield) and the second one to `c` (for Chuck Norris).
+يريد Camper Cat أن يكون للرابطان حول عنوان مقالات المدونة اختصارات لوحة المفاتيح (keyboard shortcuts) حتى يتمكن مستخدمو موقعه من الانتقال بسرعة إلى القصة الكاملة. إضافة خاصية `accesskey` إلى كلا الرابطين وتعيين الأول إلى `g` (لغارفيلد) والثاني إلى `c` (لنورس تشوك).
 
 # --hints--
 
-Your code should add an `accesskey` attribute to the `a` tag with the `id` of `first`.
+يجب أن تضيف تعليماتك البرمجية `accesskey` إلى `a` مع معرف `id` `first`.
 
 ```js
 assert.isTrue(document.querySelector('#first')?.hasAttribute('accesskey'));
 ```
 
-Your code should add an `accesskey` attribute to the `a` tag with the `id` of `second`.
+يجب أن تضيف تعليماتك البرمجية `accesskey` إلى `a` مع معرف `id` `second`.
 
 ```js
 assert.isTrue(document.querySelector('#second')?.hasAttribute('accesskey'));
 ```
 
-Your code should set the `accesskey` attribute on the `a` tag with the `id` of `first` to `g`. Note that case matters.
+يجب أن تضيف تعليماتك البرمجية `accesskey` إلى `a` مع معرف `id` `first` إلي `g`. لاحظ أن هذه القضية مهمة.
 
 ```js
 assert.equal(document.querySelector('#first')?.getAttribute('accesskey'), 'g');
 ```
 
-Your code should set the `accesskey` attribute on the `a` tag with the `id` of `second` to `c`. Note that case matters.
+يجب أن تضيف تعليماتك البرمجية `accesskey` إلى `a` مع معرف `id` `second` إلي `c`. لاحظ أن هذه القضية مهمة.
 
 ```js
 assert.equal(document.querySelector('#second')?.getAttribute('accesskey'), 'c');

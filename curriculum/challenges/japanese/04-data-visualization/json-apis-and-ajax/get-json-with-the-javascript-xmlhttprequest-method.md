@@ -8,7 +8,7 @@ dashedName: get-json-with-the-javascript-xmlhttprequest-method
 
 # --description--
 
-外部ソースにデータをリクエストすることもできます。 ここで API の出番です。
+You can also request data from an external source. This is where APIs come into play.
 
 API (アプリケーション・プログラミング・インターフェイス) はコンピュータが相互通信に使用する道具であるということを思い起こしましょう。 このチャレンジでは、AJAX と呼ばれる技術で API からデータを取得し、そのデータを使用して HTML を更新する方法を学びます。
 

@@ -8,7 +8,7 @@ dashedName: render-state-in-the-user-interface
 
 # --description--
 
-定義了組件的初始 state 之後，就可以在要渲染的 UI 中顯示它。 如果組件是有狀態的，它將始終可以訪問 `render()` 方法中 `state` 的數據。 就可以使用 `this.state` 訪問數據。
+Once you define a component's initial state, you can display any part of it in the UI that is rendered. If a component is stateful, it will always have access to the data in `state` in its `render()` method. You can access the data with `this.state`.
 
 如果想在 render 方法的 `return` 中訪問 state 值，必須把這個值用花括號括起來。
 

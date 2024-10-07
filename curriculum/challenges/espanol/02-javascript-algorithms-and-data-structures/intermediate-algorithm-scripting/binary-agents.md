@@ -8,7 +8,7 @@ dashedName: binary-agents
 
 # --description--
 
-Devuelve una frase traducida al inglés de una cadena binaria pasada.
+Return an English translated sentence of the passed binary string.
 
 La cadena binaria estará separada por espacios.
 

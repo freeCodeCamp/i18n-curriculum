@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: regular-expressions-matching-and-extracting-data
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-What will the following program print?:
+¿Qué imprimirá el siguiente programa?:
 
 ```python
 import re

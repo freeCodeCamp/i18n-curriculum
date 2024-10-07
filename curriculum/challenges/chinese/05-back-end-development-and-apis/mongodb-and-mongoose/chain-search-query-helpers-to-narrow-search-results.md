@@ -8,7 +8,7 @@ dashedName: chain-search-query-helpers-to-narrow-search-results
 
 # --description--
 
-如果不给 `Model.find()`（或者别的搜索方法）的最后一个参数传入回调函数, 查询将不会执行。 可以将查询条件存储在变量中供以后使用， 也可以通过链式调用这类变量来构建新的查询字段。 实际的数据库操作会在最后调用 `.exec()` 方法时执行。 必须把回调函数传给最后一个方法。 Mongoose 提供了许多辅助查询函数, 这里使用最常见的一种。
+If you don’t pass the callback as the last argument to `Model.find()` (or to the other search methods), the query is not executed. You can store the query in a variable for later use. This kind of object enables you to build up a query using chaining syntax. The actual db search is executed when you finally chain the method `.exec()`. You always need to pass your callback to this last method. There are many query helpers, here we'll use the most commonly used.
 
 # --instructions--
 

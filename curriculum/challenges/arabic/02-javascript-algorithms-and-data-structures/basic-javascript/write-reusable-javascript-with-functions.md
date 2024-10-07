@@ -9,7 +9,7 @@ dashedName: write-reusable-javascript-with-functions
 
 # --description--
 
-في JavaScript، يمكننا تقسيم الكود إلى أجزاء قابلة لإعادة الاستخدام تسمى <dfn>وظائف (functions)</dfn>.
+In JavaScript, we can divide up our code into reusable parts called <dfn>functions</dfn>.
 
 إليك مثال لوظيفة:
 
@@ -25,7 +25,7 @@ function functionName() {
 
 <ol>
   <li>
-    أنشئ وظيفة تسمى <code>reusableFunction</code> التي تطبع مقطع <code>Hi World</code> في الكونسول.
+    Create a function called <code>reusableFunction</code> which prints the string <code>Hi World</code> to the dev console.
   </li>
   <li>
     فعِّل الوظيفة.

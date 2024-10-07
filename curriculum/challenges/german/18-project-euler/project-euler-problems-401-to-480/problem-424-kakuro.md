@@ -8,37 +8,37 @@ dashedName: problem-424-kakuro
 
 # --description--
 
-<img alt="kakuro example" src="https://cdn.freecodecamp.org/curriculum/project-euler/kakuro.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
+<img alt="Kakuro-Beispiel" src="https://cdn.freecodecamp.org/curriculum/project-euler/kakuro.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-The above is an example of a cryptic kakuro (also known as cross sums, or even sums cross) puzzle, with its final solution on the right. (The common rules of kakuro puzzles can be found easily on numerous internet sites. Other related information can also be currently found at krazydad.com whose author has provided the puzzle data for this challenge.)
+Das obige Beispiel ist ein kryptisches Kakuro (auch bekannt als Kreuzsummen, oder sogar Summenkreuz) Rätsel mit seiner endgültigen Lösung auf der rechten Seite. (Die allgemeinen Regeln von Kakuro-Rätseln können leicht auf zahlreichen Internetseiten gefunden werden. Andere passende Informationen können derzeit auch bei krazydad.com gefunden werden, dessen Autoren Daten der Rätsel für diese Herausforderung zur Verfügung gestellt haben.)
 
-The `testPuzzles` array contains the description of 200 such puzzles, a mix of 5x5 and 6x6 types. The first puzzle in the file is the above example which is coded as string as follows:
+Das `testPuzzles`-Array enthält die Beschreibung von 200 solcher Rätsel, eine Mischung aus 5x5- und 6x6-Typen. Das erste Rätsel in der Datei ist das obige Beispiel, das wie folgt als String kodiert ist:
 
 `6,X,X,(vCC),(vI),X,X,X,(hH),B,O,(vCA),(vJE),X,(hFE,vD),O,O,O,O,(hA),O,I,(hJC,vB),O,O,(hJC),H,O,O,O,X,X,X,(hJE),O,O,X`
 
-The first character is a numerical digit indicating the size of the information grid. It would be either a 6 (for a 5x5 kakuro puzzle) or a 7 (for a 6x6 puzzle) followed by a comma (,). The extra top line and left column are needed to insert information.
+Das erste Zeichen ist eine numerische Ziffer, die die Größe des Informationsrasters angibt. Es wäre entweder eine 6 (für ein 5x5 Kakuro-Rätsel) oder eine 7 (für ein 6x6 Rätsel) gefolgt von einem Komma (,). Die zusätzliche obere Zeile und linke Spalte werden benötigt, um Informationen einzufügen.
 
-The content of each cell is then described and followed by a comma, going left to right and starting with the top line.
+Der Inhalt jeder Zelle wird dann beschrieben und folgt mit einem Komma, das von links nach rechts geht und mit der obersten Zeile beginnt.
 
-`X` = Gray cell, not required to be filled by a digit.
+`X` = Graue Zelle, muss nicht mit einer Ziffer gefüllt werden.
 
-`O` (upper case letter)= White empty cell to be filled by a digit.
+`O` (Großbuchstaben)= Weiße leere Zelle, die mit einer Ziffer gefüllt werden soll.
 
-`A` = Or any one of the upper case letters from A to J to be replaced by its equivalent digit in the solved puzzle.
+`A` = Oder eines der Großbuchstaben von A bis J wird durch die entsprechende Ziffer im gelösten Rätsel ersetzt.
 
-`( )` = Location of the encrypted sums. Horizontal sums are preceded by a lower case "h" and vertical sums are preceded by a lower case "v". Those are followed by one or two upper case letters depending if the sum is a single digit or double digit one. For double digit sums, the first letter would be for the "tens" and the second one for the "units". When the cell must contain information for both a horizontal and a vertical sum, the first one is always for the horizontal sum and the two are separated by a comma within the same set of brackets, ex.: (hFE,vD). Each set of brackets is also immediately followed by a comma.
+`( )` = Ort der verschlüsselten Summen. Horizontale Summen werden mit einem Kleinbuchstaben "h" und vertikale Summen mit einem Kleinbuchstaben "v" gekennzeichnet. Auf diese folgen ein oder zwei Großbuchstaben abhängig davon, ob die Summe eine einstellige oder zweistellige Ziffer ist. Bei zweistelligen Summen wäre der erste Buchstabe für die "Zehner" und der zweite für die "Einser". Wenn die Zelle sowohl Informationen für eine horizontale als auch für eine vertikale Summe enthalten muss, ist die erste immer für die horizontale Summe und die beiden werden durch ein Komma innerhalb der gleichen Klammern getrennt, z.B. (hFE, vD). Auf jedes Klammerset folgt ebenfalls sofort ein Komma.
 
-The description of the last cell is followed by a Carriage Return/Line Feed (CRLF) instead of a comma.
+Der Beschreibung der letzten Zelle folgt anstelle eines Kommas ein Carriage Return/Line Feed (CRLF).
 
-The required answer to each puzzle is based on the value of each letter necessary to arrive at the solution and according to the alphabetical order. As indicated under the example puzzle, its answer would be 8426039571. At least 9 out of the 10 encrypting letters are always part of the problem description. When only 9 are given, the missing one must be assigned the remaining digit.
+Die notwendige Antwort auf jedes Rätsel basiert auf dem Wert jedes Buchstabens, der für das Erreichen der Lösung notwendig ist und der alphabetischen Reihenfolge entspricht. Wie im Beispiel des Rätsels angegeben, wäre seine Antwort 8426039571. Mindestens 9 der 10 verschlüsselten Buchstaben sind immer Teil der Problembeschreibung. Wenn nur 9 gegeben sind, muss die fehlende Ziffer der verbleibenden Ziffer zugeordnet werden.
 
-You are given that the sum of the answers for the first 10 puzzles in `testPuzzles` is 64414157580.
+Die wird gegeben, dass die Summe der Antworten für die ersten 10 Rätsel in `testPuzzles` 64414157580 ist.
 
-Find the sum of the answers for `puzzles` array.
+Finde die Summe der Antworten für das `puzzles` Array.
 
 # --hints--
 
-`kakuro(testPuzzles)` should return `1059760019628`.
+`kakuro(testPuzzles)` sollte `1059760019628` zurückgeben.
 
 ```js
 assert.strictEqual(kakuro(_testPuzzles), 1059760019628);

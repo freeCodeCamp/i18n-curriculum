@@ -8,7 +8,7 @@ dashedName: remove-items-from-an-array-with-pop-and-shift
 
 # --description--
 
-`push()` 和 `unshift()` 都有一個與它們作用相反的函數：`pop()` 和 `shift()`。 與插入元素相反，`pop()` 會從數組的末尾*移除*一個元素，而 `shift()` 會從數組的開頭移除一個元素。 `pop()` 和 `shift()` 與 `push()` 和 `unshift()` 的關鍵區別在於，用於刪除元素的方法不接收參數，而且每次只能刪除數組中的一個元素。
+Both `push()` and `unshift()` have corresponding methods that are nearly functional opposites: `pop()` and `shift()`. As you may have guessed by now, instead of adding, `pop()` *removes* an element from the end of an array, while `shift()` removes an element from the beginning. The key difference between `pop()` and `shift()` and their cousins `push()` and `unshift()`, is that neither method takes parameters, and each only allows an array to be modified by a single element at a time.
 
 讓我們來看以下的例子：
 

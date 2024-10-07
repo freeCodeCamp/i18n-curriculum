@@ -7,7 +7,7 @@ dashedName: step-11
 
 # --description--
 
-Sasa lenga kipengele chako cha `#piano` kwa kichaguzi cha `id`. Weka sifa ya `background-color` kuwa `#00471b`, sifa ya `width` kuwa`992px` na sifa ya `height` kuwa`290px`.
+Now target your `#piano` element with an `id` selector. Set `background-color` property to `#00471b`, the `width` property to `992px` and the `height` property to `290px`.
 
 # --hints--
 

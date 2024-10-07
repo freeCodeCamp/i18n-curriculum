@@ -1,6 +1,6 @@
 ---
 id: 5900f38c1000cf542c50fe9f
-title: 'Problem 32: Pandigital products'
+title: 'Problem 32: Pandigitale Produkte'
 challengeType: 1
 forumTopicId: 301976
 dashedName: problem-32-pandigital-products
@@ -14,7 +14,7 @@ Das Produkt 7254 ist ungewöhnlich, da die Identität 39 × 186 = 7254, die Mult
 
 Finde die Summe aller Produkte, deren Multiplikand/Multiplikator/Produkt-Identität als 1 durch `n` pandigital geschrieben werden kann.
 
-**Hint:** Some products can be obtained in more than one way so be sure to only include it once in your sum.
+**Hinweis:** Einige Produkte können auf mehr als eine Weise erhalten werden, also achte darauf, dass du sie nur einmal in deine Summe miteinbeziehst.
 
 # --hints--
 

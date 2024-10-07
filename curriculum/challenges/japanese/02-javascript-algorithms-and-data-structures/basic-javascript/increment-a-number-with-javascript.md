@@ -9,7 +9,7 @@ dashedName: increment-a-number-with-javascript
 
 # --description--
 
-`++` 演算子を使用して簡単に変数の値を 1 増やす (<dfn>インクリメント</dfn>する) ことができます。
+You can easily <dfn>increment</dfn> or add one to a variable with the `++` operator.
 
 ```js
 i++;

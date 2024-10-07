@@ -8,7 +8,7 @@ dashedName: match-whitespace
 
 # --description--
 
-Bei den bisherigen Aufgaben ging es darum, Buchstaben des Alphabets und Zahlen zu finden. Du kannst auch die Leerzeichen zwischen den Buchstaben abgleichen.
+The challenges so far have covered matching letters of the alphabet and numbers. You can also match the whitespace or spaces between letters.
 
 Du kannst nach Leerzeichen suchen, indem du `\s` verwendest, das ist ein kleingeschriebenes `s`. Dieses Muster passt nicht nur auf Leerzeichen, sondern auch auf Wagenrücklauf (carriage return)-, Tabulator-, Seitenvorschub- und Zeilenvorschubzeichen. Du kannst dir das so ähnlich vorstellen wie die Zeichenklasse `[ \r\t\f\n\v]`.
 

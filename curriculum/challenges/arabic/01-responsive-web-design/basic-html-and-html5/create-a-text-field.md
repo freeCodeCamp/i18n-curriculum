@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedf08829
-title: Create a Text Field
+title: إنشاء حقل نص
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVMPUv/c2EVnf6'
 forumTopicId: 16823
@@ -11,7 +11,7 @@ dashedName: create-a-text-field
 
 Now let's create a web form.
 
-`input` elements are a convenient way to get input from your user.
+عناصر الـ"input" طريقة مريحة لاستلام المدخلات من المستخدم.
 
 You can create a text input like this:
 

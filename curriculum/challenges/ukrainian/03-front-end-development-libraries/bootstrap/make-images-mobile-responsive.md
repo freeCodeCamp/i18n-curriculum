@@ -8,7 +8,7 @@ dashedName: make-images-mobile-responsive
 
 # --description--
 
-Спочатку додайте нове зображення під наявним. Встановіть його атрибут `src` на `https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg`.
+First, add a new image below the existing one. Set its `src` attribute to `https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg`.
 
 Було б чудово, якби зображення відповідало ширині екрану телефона.
 

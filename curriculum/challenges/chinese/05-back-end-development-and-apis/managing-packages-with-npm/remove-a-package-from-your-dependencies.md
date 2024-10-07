@@ -8,7 +8,7 @@ dashedName: remove-a-package-from-your-dependencies
 
 # --description--
 
-已经尝试过一些通过项目 package.json 文件中依赖项管理依赖的方式了， 也添加了一些外部的依赖包到项目中，甚至通过一些特殊的字符比如波浪号或者脱字符来告诉 npm 想要的版本类型。
+You have now tested a few ways you can manage dependencies of your project by using the package.json's dependencies section. You have also included external packages by adding them to the file and even told npm what types of versions you want, by using special characters such as the tilde or the caret.
 
 但是，如果想要删除不再需要的依赖包，该怎么办呢？ 可能已经猜到了——只需要从依赖项中删除相应的键值对就行了。
 

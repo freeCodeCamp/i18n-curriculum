@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: web-services-service-oriented-approach
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-With a services oriented approach to developing web apps, where is the data located?
+Con un enfoque orientado a servicios para desarrollar aplicaciones web, ¿Dónde están ubicados los datos?
 
 ## --answers--
 

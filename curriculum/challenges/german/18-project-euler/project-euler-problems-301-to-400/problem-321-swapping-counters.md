@@ -8,7 +8,7 @@ dashedName: problem-321-swapping-counters
 
 # --description--
 
-A horizontal row comprising of $2n + 1$ squares has $n$ red counters placed at one end and $n$ blue counters at the other end, being separated by a single empty square in the center. For example, when $n = 3$.
+Eine horizontale Reihe aus $2n + 1$ Quadraten hat $n$ rote Spielsteine an einem Ende und $n$ blaue Spielsteine am anderen Ende, die durch ein einziges leeres Quadrat in der Mitte getrennt sind. Zum Beispiel, wenn $n = 3$.
 
 <img alt="drei Quadrate mit roten und blauen Zählern an den gegenüberliegenden Enden der Reihe, getrennt durch ein leeres Feld" src="https://cdn.freecodecamp.org/curriculum/project-euler/swapping-counters-1.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
@@ -26,7 +26,7 @@ Finde die Summe der ersten vierzig Begriffe dieser Folge.
 
 # --hints--
 
-`swappingCounters()` should return `2470433131948040`.
+`swappingCounters()` sollte `2470433131948040` zurückgeben.
 
 ```js
 assert.strictEqual(swappingCounters(), 2470433131948040);

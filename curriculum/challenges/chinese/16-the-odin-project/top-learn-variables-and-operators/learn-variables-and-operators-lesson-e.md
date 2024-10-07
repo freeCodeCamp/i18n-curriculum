@@ -9,7 +9,7 @@ dashedName: learn-variables-and-operators-lesson-e
 
 Numbers are the building blocks of programming logic! In fact, it’s hard to think of any useful programming task that doesn’t involve at least a little basic math… so knowing how numbers work is obviously quite important. Luckily, it’s also fairly straightforward.
 
-| Operator | Description    | Example      |
+| Operator | 描述             | Example      |
 | -------- | -------------- | ------------ |
 | +        | Addition       | 5 + 3 = 8    |
 | -        | Subtraction    | 5 - 3 = 2    |
@@ -19,7 +19,7 @@ Numbers are the building blocks of programming logic! In fact, it’s hard to th
 | %        | Modulus        | 5 % 3 = 2    |
 
 
-# --assignment--
+# --作业--
 
 Given the table of operators above, write a simple program snippet that demonstrates the use of each operator with the variable `x` initialized to `10`.
 

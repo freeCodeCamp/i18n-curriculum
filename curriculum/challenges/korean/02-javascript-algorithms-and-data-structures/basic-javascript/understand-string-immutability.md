@@ -1,6 +1,6 @@
 ---
 id: 56533eb9ac21ba0edf2244ba
-title: Understand String Immutability
+title: 문자열의 불변성을 이해하기
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cWPVaUR'
 forumTopicId: 18331
@@ -27,17 +27,17 @@ myStr = "Job";
 
 # --instructions--
 
-Correct the assignment to `myStr` so it contains the string value of `Hello World` using the approach shown in the example above.
+위의 예에서 설명한 접근법에 따라 `Hello World` 를 값으로 포함하도록 `myStr`의 할당을 수정하세요.
 
 # --hints--
 
-`myStr` should have a value of the string `Hello World`.
+`myStr`의 값은 문자열 `Hello World`가 되어야 합니다.
 
 ```js
 assert(myStr === 'Hello World');
 ```
 
-You should not change the code above the specified comment.
+지정 코멘트보다 위에 있는 코드를 변경하지 말아 주세요.
 
 ```js
 assert(/myStr = "Jello World"/.test(__helpers.removeJSComments(code)));

@@ -8,7 +8,7 @@ dashedName: reverse-a-string
 
 # --description--
 
-أقلب تشكيل المقطع النصي (string) المقدمة لتنتج مقطع نصي (string) مقلوب.
+Reverse the provided string and return the reversed string.
 
 على سبيل المثال، يجب أن يصبح `"hello"` على هيئة `"olleh"`.
 

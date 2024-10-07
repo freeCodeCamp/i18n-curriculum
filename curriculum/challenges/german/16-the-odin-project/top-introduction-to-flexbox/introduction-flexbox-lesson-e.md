@@ -27,19 +27,19 @@ Which properties are set by the `flex` shorthand?
 
 ## --answers--
 
-`flex-grow`, `flex-shrink`, and `flex`
+`flex-grow`, `flex-shrink`, und `flex`
 
 ---
 
-`flex-basis`, `flex-wrap`, and `flex-direction`
+`flex-basis`, `flex-wrap`, und `flex-direction`
 
 ---
 
-`flex-grow`, `flex-shrink`, and `flex-basis`
+`flex-grow`, `flex-shrink`, und `flex-basis`
 
 ---
 
-`flex-direction`, `flex`, and `flex-wrap`
+`flex-direction`, `flex`, und `flex-wrap`
 
 ## --video-solution--
 

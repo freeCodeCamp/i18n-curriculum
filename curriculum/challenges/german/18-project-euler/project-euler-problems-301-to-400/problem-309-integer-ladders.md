@@ -8,19 +8,19 @@ dashedName: problem-309-integer-ladders
 
 # --description--
 
-In the classic "Crossing Ladders" problem, we are given the lengths $x$ and $y$ of two ladders resting on the opposite walls of a narrow, level street. We are also given the height $h$ above the street where the two ladders cross and we are asked to find the width of the street ($w$).
+Bei dem klassischen Problem "Leitern zu überqueren" sind die Längen $x$ und $y$ zweier Leitern gegeben, die an den gegenüberliegenden Wänden einer schmalen, ebenen Straße stehen. Wir erhalten auch die Höhe $h$ über der Straße, in der sich die beiden Leitern kreuzen, und wir sollen die Breite der Straße ($w$) bestimmen.
 
 <img alt="Leitern x und y, die sich in der Höhe h kreuzen und auf gegenüberliegenden Wänden der Straße mit der Breite w aufliegen" src="https://cdn.freecodecamp.org/curriculum/project-euler/integer-ladders.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-Wir befassen uns hier nur mit Fällen, in denen alle vier Variablen positive Integer sind. For example, if $x = 70$, $y = 119$ and $h = 30$, we can calculate that $w = 56$.
+Wir befassen uns hier nur mit Fällen, in denen alle vier Variablen positive Integer sind. Wenn zum Beispiel $x = 70$, $y = 119$ und $h = 30$, können wir berechnen, dass $w = 56$.
 
-In fact, for integer values $x$, $y$, $h$ and $0 &lt; x &lt; y &lt; 200$, there are only five triplets ($x$, $y$, $h$) producing integer solutions for $w$: (70, 119, 30), (74, 182, 21), (87, 105, 35), (100, 116, 35) and (119, 175, 40).
+Tatsächlich gibt es für die ganzzahligen Werte $x$, $y$, $h$ und $0 &lt; x &lt; y &lt; 200$ nur fünf Drillinge ($x$, $y$, $h$), die ganzzahlige Lösungen für $w$ ergeben: (70, 119, 30), (74, 182, 21), (87, 105, 35), (100, 116, 35) und (119, 175, 40).
 
-For integer values $x$, $y$, $h$ and $0 &lt; x &lt; y &lt; 1\\,000\\,000$, how many triplets ($x$, $y$, $h$) produce integer solutions for $w$?
+Für die ganzzahligen Werte $x$, $y$, $h$ und $0 &lt; x &lt; y &lt; 1\,000\,000$: Wie viele Drillinge ($x$, $y$, $h$) ergeben ganzzahlige Lösungen für $w$?
 
 # --hints--
 
-`integerLadders()` should return `210139`.
+`integerLadders()` sollte `210139` zurückgeben.
 
 ```js
 assert.strictEqual(integerLadders(), 210139);

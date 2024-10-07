@@ -9,7 +9,7 @@ dashedName: use-the-css-transform-scale-property-to-change-the-size-of-an-elemen
 
 # --description--
 
-Um die Skalierung eines Elements zu ändern, bietet CSS die Eigenschaft `transform` zusammen mit der Funktion `scale()`. Das folgende Code-Beispiel verdoppelt die Größe aller Absatzelemente auf der Seite:
+To change the scale of an element, CSS has the `transform` property, along with its `scale()` function. The following code example doubles the size of all the paragraph elements on the page:
 
 ```css
 p {

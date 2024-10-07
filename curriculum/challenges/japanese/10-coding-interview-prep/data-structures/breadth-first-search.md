@@ -8,7 +8,7 @@ dashedName: breadth-first-search
 
 # --description--
 
-これまで、グラフを表現するさまざまな方法を学びました。 次は何でしょう？ 自然に生まれる問いは、グラフ内の 2 つのノード間の距離はどのくらいかということです。 そこで、<dfn>グラフ走査アルゴリズム</dfn>の出番です。
+So far, we've learned different ways of creating representations of graphs. What now? One natural question to have is what are the distances between any two nodes in the graph? Enter <dfn>graph traversal algorithms</dfn>.
 
 <dfn>走査アルゴリズム</dfn>は、グラフ内のノードを走査したり訪問したりするためのアルゴリズムです。 走査アルゴリズムのタイプの一つは、幅優先探索アルゴリズムです。
 

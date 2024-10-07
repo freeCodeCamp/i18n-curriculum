@@ -59,7 +59,7 @@ _Підказка: спробуйте використати вже імпорт
 
 # --hints--
 
-Створення об’єкта `hat` має додати правильний вміст.
+Creation of `hat` object should add correct contents.
 
 ```js
 ({
@@ -99,7 +99,7 @@ t.result.wasSuccessful()
 });
 ```
 
-Метод `draw` у класі `hat` має зменшити кількість елементів у вмісті.
+The `draw` method in `hat` class should reduce number of items in contents.
 
 
 ```js
@@ -144,7 +144,7 @@ t.result.wasSuccessful()
 });
 ```
 
-Метод `draw` має поводитись правильно, якщо кількість кульок, які потрібно витягти, більша за кількість кульок в капелюсі.
+The `draw` method should behave correctly when the number of balls to extract is bigger than the number of balls in the hat.
 
 ```js
 ({
@@ -187,7 +187,7 @@ t.result.wasSuccessful()
 });
 ```
 
-Метод `experiment` має повернути іншу вірогідність.
+The `experiment` method should return a different probability.
 
 
 ```js

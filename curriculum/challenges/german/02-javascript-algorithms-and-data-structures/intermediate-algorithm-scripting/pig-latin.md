@@ -8,7 +8,7 @@ dashedName: pig-latin
 
 # --description--
 
-Schweine-Latein ist eine Art, englische Wörter zu verändern. Die Regeln lauten:
+Pig Latin is a way of altering English Words. The rules are as follows:
 
 \- Wenn ein Wort mit einem Konsonant beginnt, nimm den ersten Konsonanten oder Konsonanten Cluster, verschieben ihn an das Ende des Wortes und füge `ay` hinzu.
 

@@ -9,13 +9,13 @@ dashedName: use-css-grid-units-to-change-the-size-of-columns-and-rows
 
 # --description--
 
-CSS グリッドでは `px` や `em` のような絶対単位および相対単位を使用して、行と列のサイズを定義できます。 以下の単位も使用できます:
+You can use absolute and relative units like `px` and `em` in CSS Grid to define the size of rows and columns. You can use these as well:
 
 `fr`: 列または行を利用可能な空間に対する割合で設定します。
 
 `auto`: 列または行をコンテンツの幅や高さに自動的に設定します。
 
-`%`: 列または行をコンテナーのパーセント幅に調整します。
+`%`: adjusts the column or row to the percent width of its container.
 
 プレビューに表示されている出力を生成するコードは次のとおりです:
 

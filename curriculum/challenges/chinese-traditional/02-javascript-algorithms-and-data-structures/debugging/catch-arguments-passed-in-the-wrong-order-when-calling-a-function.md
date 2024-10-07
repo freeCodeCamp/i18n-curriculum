@@ -8,7 +8,7 @@ dashedName: catch-arguments-passed-in-the-wrong-order-when-calling-a-function
 
 # --description--
 
-繼續討論調用函數，需要注意的下一個 bug 是函數的參數傳遞順序錯誤。 如果參數分別是不同的類型，例如接受數組和整數兩個參數的函數，參數順序傳錯就可能會引發運行時錯誤。 對於接受相同類型參數的函數，傳錯參數也會導致邏輯錯誤或運行結果錯誤。 確保以正確的順序提供所有必需的參數以避免這些問題。
+Continuing the discussion on calling functions, the next bug to watch out for is when a function's arguments are supplied in the incorrect order. If the arguments are different types, such as a function expecting an array and an integer, this will likely throw a runtime error. If the arguments are the same type (all integers, for example), then the logic of the code won't make sense. Make sure to supply all required arguments, in the proper order to avoid these issues.
 
 # --instructions--
 

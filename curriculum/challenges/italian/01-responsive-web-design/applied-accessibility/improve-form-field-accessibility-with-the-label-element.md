@@ -9,7 +9,7 @@ dashedName: improve-form-field-accessibility-with-the-label-element
 
 # --description--
 
-Migliorare l'accessibilità con l'HTML semantico richiede di usare sia i nomi che gli attributi appropriati per i tag. Le prossime sfide riguardano alcuni possibili scenari significativi in cui si utilizzano gli attributi nei moduli.
+Improving accessibility with semantic HTML markup applies to using both appropriate tag names and attributes. The next several challenges cover some important scenarios using attributes in forms.
 
 Il tag `label` racchiude il testo per uno specifico elemento di controllo del modulo, di solito il nome o l'etichetta di una delle scelte possibili. Questo fa sì che il significato sia legato all'elemento e rende il modulo più leggibile. L'attributo `for` di un tag `label` associa esplicitamente quella `label` al controllo del modulo, ed è usato dagli screen reader.
 

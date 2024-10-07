@@ -1,6 +1,6 @@
 ---
 id: 5900f4f11000cf542c510003
-title: 'Problem 387: Harshad Numbers'
+title: 'Problem 387: Harshad-Zahlen'
 challengeType: 1
 forumTopicId: 302051
 dashedName: problem-387-harshad-numbers
@@ -8,11 +8,11 @@ dashedName: problem-387-harshad-numbers
 
 # --description--
 
-A Harshad or Niven number is a number that is divisible by the sum of its digits.
+Eine Harshad- oder Niven-Zahl ist eine Zahl, die durch die Summe ihrer Ziffern teilbar ist.
 
-201 is a Harshad number because it is divisible by 3 (the sum of its digits.)
+201 ist eine Harshad-Zahl, weil sie durch 3 teilbar ist (die Summe ihrer Ziffern.)
 
-When we truncate the last digit from 201, we get 20, which is a Harshad number.
+Wenn wir die letzte Ziffer von 201 abschneiden, erhalten wir 20, was eine Harshad-Zahl ist.
 
 Wenn wir die letzte Ziffer von 20 abkürzen, erhalten wir 2, was ebenfalls eine Harshad-Zahl ist.
 
@@ -20,7 +20,7 @@ Nennen wir eine Harshad-Zahl, die durch rekursives Abkürzen der letzten Ziffer 
 
 Auch:
 
-$\frac{201}{3} = 67$ which is prime.
+$\frac{201}{3} = 67$, was eine Primzahl ist.
 
 Eine Harshad-Zahl, die, wenn sie durch die Summe ihrer Ziffern geteilt wird, eine Primzahl ergibt, nennen wir eine starke Harshad-Zahl.
 
@@ -32,7 +32,7 @@ Finde die Summe der starken, rechtsstutzbaren Harshad-Primzahlen kleiner als ${1
 
 # --hints--
 
-`harshadNumbers()` should return `696067597313468`.
+`harshadNumbers()` sollte `696067597313468` zurückgeben.
 
 ```js
 assert.strictEqual(harshadNumbers(), 696067597313468);

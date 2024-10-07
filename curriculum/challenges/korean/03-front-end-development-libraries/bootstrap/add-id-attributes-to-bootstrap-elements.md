@@ -8,7 +8,7 @@ dashedName: add-id-attributes-to-bootstrap-elements
 
 # --description--
 
-각 요소에는 클래스 속성 외에도 `id` 속성을 부여할 수 있습니다.
+Recall that in addition to class attributes, you can give each of your elements an `id` attribute.
 
 한 요소는 하나의 고유한 id만 가질 수 있으며 각 id는 페이지당 한 번만 사용해야 합니다.
 

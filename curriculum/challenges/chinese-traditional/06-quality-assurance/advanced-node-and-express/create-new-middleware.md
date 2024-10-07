@@ -8,7 +8,7 @@ dashedName: create-new-middleware
 
 # --description--
 
-就像現在這樣，任何用戶都可以直接進入 `/profile`，不管他們是否已經通過認證，只要輸入 URL 就可以了。 你想通過在呈現個人資料頁面之前首先檢查用戶是否經過認證來防止這種情況。 這就是一個很棒的創建中間件的示例。
+As is, any user can just go to `/profile` whether they have authenticated or not by typing in the URL. You want to prevent this by checking if the user is authenticated first before rendering the profile page. This is the perfect example of when to create a middleware.
 
 這裏的挑戰是創建中間件函數 `ensureAuthenticated(req, res, next)`，它將通過在檢查 `req.user` 是否被定義的 `request` 上調用 Passport 的 `isAuthenticated` 方法檢查用戶是否已認證。 如果是的話，那麼 `next()` 應該被調用。 否則，你可以直接用一個重定向到你的主頁來回應請求，以便登錄。
 

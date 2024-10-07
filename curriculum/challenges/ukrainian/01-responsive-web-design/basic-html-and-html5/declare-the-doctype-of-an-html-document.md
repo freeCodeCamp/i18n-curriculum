@@ -9,7 +9,7 @@ dashedName: declare-the-doctype-of-an-html-document
 
 # --description--
 
-До сьогодні проблеми стосувалися спеціальних елементів HTML та їхнього використання. Проте, є декілька елементів, які надають загальну структуру вашій сторінці і повинні бути включеними у кожен документ HTML.
+The challenges so far have covered specific HTML elements and their uses. However, there are a few elements that give overall structure to your page, and should be included in every HTML document.
 
 У верхній частині вашого документа, вам необхідно вказати в браузері яку версію HTML ви використовуєте. HTML - мова, що розвивається і регулярно оновлюється. Більшість основних браузерів підтримують останню специфікацію, яка є HTML5. Проте, старші вебсторінки, можливо, використовують попередні версії мови.
 

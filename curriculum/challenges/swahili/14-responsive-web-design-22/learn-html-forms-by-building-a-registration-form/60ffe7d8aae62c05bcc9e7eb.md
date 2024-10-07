@@ -7,7 +7,7 @@ dashedName: step-58
 
 # --description--
 
-Kwa `display` ya `block` kitufe cha kuwasilisha kinakaa kwenye ukingo wa kushoto wa mzazi wake.
+With a `display` of `block` the submit button sits flush against the left edge of its parent.
 
 Tumia mbinu ile ile inayotumika kuweka `form` katikati ili kuweka kitufe cha kuwasilisha katikati.
 

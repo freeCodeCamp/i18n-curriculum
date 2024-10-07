@@ -8,13 +8,13 @@ dashedName: topological-sort
 
 # --description--
 
-Given a mapping between items, and items they depend on, a topological sort orders items so that no item precedes an item it depends upon. There are two popular algorithms for topological sorting: Kahn's (1962) topological sort and depth-first search.
+Bei einer Zuordnung zwischen Elementen und Elementen, von denen sie abhängig sind, ordnet die Topologische Sortierung Elemente, so dass kein Element vor einem Element platziert wird, von dem es abhängt. Es gibt zwei beliebte Algorithmen für die Topologische Sortierung: Kahns (1962) Topologische Sortierung und Tiefensuche.
 
 # --instructions--
 
 Schreibe eine Funktion, die eine Liste mit gültiger Kompilierreihenfolge der Bibliotheken anhand ihrer Abhängigkeiten zurückgibt.
 
-- Assume library names are single words.
+- Angenommen, Bibliotheksnamen seien einzelne Wörter.
 - Posten, die nur als abhängige Posten aufgeführt sind, haben keine eigenen abhängigen Posten, aber die Reihenfolge ihrer Zusammenstellung muss angegeben werden.
 - Jegliche Selbst-Abhängigkeiten sollten ignoriert werden.
 - Jegliche unsortierbaren Abhängigkeiten sollten ignoriert werden.

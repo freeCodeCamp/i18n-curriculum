@@ -9,7 +9,7 @@ dashedName: introducing-else-if-statements
 
 # --description--
 
-処理を必要とする条件が複数ある場合は、`if` ステートメントと `else if` ステートメントをつなぎ合わせることができます。
+If you have multiple conditions that need to be addressed, you can chain `if` statements together with `else if` statements.
 
 ```js
 if (num > 15) {

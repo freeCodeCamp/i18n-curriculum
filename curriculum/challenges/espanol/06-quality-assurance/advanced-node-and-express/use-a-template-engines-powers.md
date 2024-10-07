@@ -8,13 +8,13 @@ dashedName: use-a-template-engines-powers
 
 # --description--
 
-Una de las mayores características del uso de un motor de plantillas, es ser capaz de pasar variables desde el servidor al archivo de plantilla, antes de renderizarlo a HTML.
+One of the greatest features of using a template engine is being able to pass variables from the server to the template file before rendering it to HTML.
 
 En tu archivo Pug, puedes usar variables referenciando el nombre de la misma como `#{variable_name}`, en la misma línea con otro texto en un elemento o utilizando un signo igual en el elemento sin un espacio como `p=variable_name`, lo cual asigna el valor de la variable al texto del elemento p.
 
-Pug is all about using whitespace and tabs to show nested elements and cutting down on the amount of code needed to make a beautiful site.
+Pug se trata de usar espacios en blanco y pestañas para mostrar elementos anidados y reducir la cantidad de código necesario para crear un sitio hermoso.
 
-Take the following Pug code for example:
+Tome el siguiente código Pug como ejemplo:
 
 ```pug
 head
@@ -27,7 +27,7 @@ body
       p Get on it!
 ```
 
-The above yields the following HTML:
+Lo anterior produce el siguiente HTML:
 
 ```html
 <head>
@@ -40,23 +40,23 @@ The above yields the following HTML:
 </body>
 ```
 
-Your `index.pug` file included in your project, uses the variables `title` and `message`.
+Tu archivo `index.pug` incluido en tu proyecto, utiliza las variables `title` y `message`.
 
-Pass those from your server to the Pug file by adding an object as a second argument to your `res.render` call with the variables and their values. Give the `title` a value of `Hello` and `message` a value of `Please log in`.
+Pásalas desde el servidor al archivo Pug añadiendo un objeto como segundo argumento en la llamada a `res.render`, proporcionando las variables y sus valores. Dale al `title` un valor de `Hello` y a `message` un valor de `Please log in`.
 
-It should look like:
+Debería verse así:
 
 ```javascript
 res.render('index', { title: 'Hello', message: 'Please log in' });
 ```
 
-Now refresh your page, and you should see those values rendered in your view in the correct spot as laid out in your `index.pug` file!
+Ahora actualiza la página, y deberías ver esos valores renderizados en el lugar correcto, tal y como se indica en el archivo `index.pug`!
 
-Submit your page when you think you've got it right. If you're running into errors, you can check out the <a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#use-a-template-engines-power-2" target="_blank" rel="noopener noreferrer nofollow">project completed up to this point</a>.
+Envía tu página cuando creas que lo has hecho bien. Si te encuentras con errores, puedes revisar el <a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#use-a-template-engines-power-2" target="_blank" rel="noopener noreferrer nofollow">proyecto completado hasta este punto</a>.
 
 # --hints--
 
-Pug should correctly render variables.
+Pug debe procesar correctamente las variables.
 
 ```js
 async (getUserInput) => {

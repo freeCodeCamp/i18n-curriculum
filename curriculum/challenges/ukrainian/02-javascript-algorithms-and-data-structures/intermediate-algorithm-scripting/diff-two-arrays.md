@@ -8,7 +8,7 @@ dashedName: diff-two-arrays
 
 # --description--
 
-Порівняйте два масиви і поверніть новий масив з елементами, знайденими лише в одному з двох наданих масивів. Іншими словами, поверніть симетричну різницю двох масивів.
+Compare two arrays and return a new array with any items only found in one of the two given arrays, but not both. In other words, return the symmetric difference of the two arrays.
 
 **Примітка:** ви можете повернути масив з його елементами в будь-якому порядку.
 

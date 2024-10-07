@@ -1,6 +1,6 @@
 ---
 id: 587d774c367417b2b2512a9d
-title: Know When Alt Text Should be Left Blank
+title: معرفة متى يجب أن يكون نص Alt نتركه فارغا
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cM9P4t2'
 forumTopicId: 301019
@@ -11,29 +11,29 @@ dashedName: know-when-alt-text-should-be-left-blank
 
 In the last challenge, you learned that including an `alt` attribute when using `img` tags is mandatory. However, sometimes images are grouped with a caption already describing them, or are used for decoration only. In these cases, `alt` text may seem redundant or unnecessary.
 
-When an image is already explained with text content or does not add meaning to a page, the `img` still needs an `alt` attribute, but it can be set to an empty string. Here's an example:
+في هذه الحالة، عندما تكون الصورة مرفق معاها نص او `alt` لا يضيف معنى للصفحة، الـ `img` لا تزال تحتاج إلى خاصية `alt`، ولكن نجعلها نص فارغ. وهذا مثال على ذلك:
 
 ```html
 <img src="visualDecoration.jpeg" alt="">
 ```
 
-Background images usually fall under the 'decorative' label as well. However, they are typically applied with CSS rules, and therefore not part of the markup screen readers process.
+كذلك صور الخلفية عادةً ما تصنف على أنها صور للتزيين فقط. لكن، من المعتاد وضعها من خلال اكواد CSS، ولذلك لا تصبح جزءاً من الmarkup الذي تراه الscreen readers.
 
-**Note:** For images with a caption, you may still want to include `alt` text since it helps search engines catalog the image's content.
+**ملاحظة:** في حالة الصورة التي ترفق بنص لشرحها، يمكن ان تضيف نص `alt` لانه يساعد محركات البحث لكي تصنف محتوى الصورة.
 
 # --instructions--
 
-قام Camper Cat ببرمجة هيكل الصفحة لمدونة موقعه. He's planning to add a visual break between his two articles with a decorative image of a samurai sword. Add an `alt` attribute to the `img` tag and set it to an empty string. (Note that the image `src` doesn't link to an actual file - don't worry that there are no swords showing in the display.)
+قام Camper Cat ببرمجة هيكل الصفحة لمدونة موقعه. وهو يخطط لاضافة فاصل بين مقاليه من خلال صورة لسيف ساموراي. أضف خاصية `alt` إلى tag الـ `img` واجعله نص فارغ. ( لاحظ أن مصدر الصورة `src` لا يرتبط بملف حقيقي - لذا لا تقلق بسب عدم ظهور سيوف في الصفحة)
 
 # --hints--
 
-Your `img` tag should have an `alt` attribute.
+يجب أن يحتوي وسم `img` الخاص بك علي خاصية `alt`.
 
 ```js
 assert.isTrue(document.querySelector('img')?.hasAttribute('alt'));
 ```
 
-The `alt` attribute should be set to an empty string.
+الوسم `alt` يجب ان يكون علي شكل string فارغ.
 
 ```js
 assert.isEmpty(document.querySelector('img')?.getAttribute('alt'));

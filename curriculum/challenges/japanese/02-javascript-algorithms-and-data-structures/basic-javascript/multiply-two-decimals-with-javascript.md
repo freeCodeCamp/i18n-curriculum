@@ -9,7 +9,7 @@ dashedName: multiply-two-decimals-with-javascript
 
 # --description--
 
-JavaScript では小数の計算も整数と同様に行えます。
+In JavaScript, you can also perform calculations with decimal numbers, just like whole numbers.
 
 2 つの小数を掛け合わせて積を計算してみましょう。
 

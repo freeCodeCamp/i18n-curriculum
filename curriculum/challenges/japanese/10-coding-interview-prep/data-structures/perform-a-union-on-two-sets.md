@@ -8,7 +8,7 @@ dashedName: perform-a-union-on-two-sets
 
 # --description--
 
-この課題では、2 つのデータセットの和集合を求めます。 `union` と呼ばれるメソッドを `Set` データ構造に作成します。 このメソッドは、別の `Set` を引数として取り、重複する値を除外して、2 つのセットの `union` を返す必要があります。
+In this exercise we are going to perform a union on two sets of data. We will create a method on our `Set` data structure called `union`. This method should take another `Set` as an argument and return the `union` of the two sets, excluding any duplicate values.
 
 例えば、`setA = ['a','b','c']` かつ `setB = ['a','b','d','e']` の場合、setA と setB の和集合は `setA.union(setB) = ['a', 'b', 'c', 'd', 'e']` です。
 

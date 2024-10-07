@@ -8,7 +8,7 @@ dashedName: disable-an-element-using-jquery
 
 # --description--
 
-يمكنك أيضًا تغيير الخصائص non-CSS لعناصر HTML باستخدام jQuery. على سبيل المثال، يمكنك تعطيل الأزرار.
+You can also change the non-CSS properties of HTML elements with jQuery. For example, you can disable buttons.
 
 عندما تعطيل الزر، فإنه سيصبح رماديًا ولا يمكن النقر عليه بعد الآن.
 

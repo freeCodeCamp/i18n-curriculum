@@ -8,7 +8,7 @@ dashedName: avoid-mutations-and-side-effects-using-functional-programming
 
 # --description--
 
-Falls du es noch nicht herausgefunden hast: Das Problem in der letzten Aufgabe lag beim `splice`-Aufruf in der `tabClose()`-Funktion. Leider ändert `splice` das ursprüngliche Array, auf dem es aufgerufen wird so, dass der zweite Aufruf dazu ein modifiziertes Array verwendet und unerwartete Ergebnisse lieferte.
+If you haven't already figured it out, the issue in the previous challenge was with the `splice` call in the `tabClose()` function. Unfortunately, `splice` changes the original array it is called on, so the second call to it used a modified array, and gave unexpected results.
 
 Dies ist ein kleines Beispiel für ein viel größeres Muster - du rufst eine Funktion für eine Variable, ein Array oder ein Objekt auf und die Funktion ändert die Variable oder etwas im Objekt.
 

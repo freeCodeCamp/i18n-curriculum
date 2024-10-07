@@ -9,9 +9,9 @@ dashedName: link-to-external-pages-with-anchor-elements
 
 # --description--
 
-Ви можете використовувати елементи `a` (*anchor*) для покликання на контент за межами вашого вебсайту.
+You can use `a` (*anchor*) elements to link to content outside of your web page.
 
-Елементам `a` потрібна веб-адреса цільової сторінки, що називається атрибут `href`. Вони також потребують якірний текст. До прикладу:
+Елементам `a` потрібна веб-адреса цільової сторінки, що називається атрибут `href`. Вони також потребують якірний текст. Ось приклад:
 
 ```html
 <a href="https://www.freecodecamp.org">this links to freecodecamp.org</a>

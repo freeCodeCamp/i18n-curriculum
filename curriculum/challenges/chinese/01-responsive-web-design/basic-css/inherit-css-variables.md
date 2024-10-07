@@ -9,7 +9,7 @@ dashedName: inherit-css-variables
 
 # --description--
 
-当创建一个变量时，变量会在创建变量的选择器里可用。 同时，在这个选择器的后代选择器里也是可用的。 这是因为 CSS 变量是可继承的，和普通的属性一样。
+When you create a variable, it is available for you to use inside the selector in which you create it. It also is available in any of that selector's descendants. This happens because CSS variables are inherited, just like ordinary properties.
 
 CSS 变量经常会定义在 <dfn>:root</dfn> 元素内，这样就可被所有选择器继承。
 

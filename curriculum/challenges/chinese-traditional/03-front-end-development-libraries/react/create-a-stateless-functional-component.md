@@ -8,7 +8,7 @@ dashedName: create-a-stateless-functional-component
 
 # --description--
 
-組件是 React 的核心。 React 中的所有內容都是一個組件，在這裏將學習如何創建一個組件。
+Components are the core of React. Everything in React is a component and here you will learn how to create one.
 
 有兩種方法可以創建 React 組件。 第一種方法是使用 JavaScript 函數。 以這種方式定義組件會創建*無狀態函數組件*。 將在以後的挑戰中介紹應用程序中狀態的概念。 目前爲止，可以將無狀態組件視爲能接收數據並對其進行渲染，但不管理或跟蹤該數據的更改的組件。 (我們將下一個挑戰使用中第二種方式創建 React 組件。)
 

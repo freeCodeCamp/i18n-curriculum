@@ -8,7 +8,7 @@ dashedName: create-a-bootstrap-button
 
 # --description--
 
-Bootstrap 的 `button` 元素有着独有的、比默认 HTML 按钮更好的样式风格。
+Bootstrap has its own styles for `button` elements, which look much better than the plain HTML ones.
 
 在较大的小猫图片下方创建新的 `button` 元素。 为它添加 `btn` 与 `btn-default` 两个 classes 和 `Like` 文本。
 

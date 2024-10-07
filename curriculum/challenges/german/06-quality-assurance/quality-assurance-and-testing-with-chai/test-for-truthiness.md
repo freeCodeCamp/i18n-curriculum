@@ -1,6 +1,6 @@
 ---
 id: 587d824b367417b2b2512c49
-title: Test for Truthiness
+title: Test auf Richtigkeit
 challengeType: 2
 forumTopicId: 301596
 dashedName: test-for-truthiness
@@ -10,7 +10,7 @@ dashedName: test-for-truthiness
 
 As a reminder, this project is being built upon the following starter project on <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>, or cloned from <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
 
-`isTrue()` will test for the boolean value `true` and `isNotTrue()` will pass when given anything but the boolean value of `true`.
+`isTrue()` testet auf den booleschen Wert `true` und `isNotTrue()` wird bestanden, wenn etwas außer dem booleschen Wert von `true` angegeben wird.
 
 ```js
 assert.isTrue(true, 'This will pass with the boolean value true');
@@ -22,11 +22,11 @@ assert.isTrue(1, 'This will NOT pass with the number value 1');
 
 # --instructions--
 
-Within `tests/1_unit-tests.js` under the test labeled `#4` in the `Basic Assertions` suite, change each `assert` to either `assert.isTrue` or `assert.isNotTrue` to make the test pass (should evaluate to `true`). Die an die Asserts übergebenen Argumente dürfen nicht verändert werden.
+Ändere innerhalb `tests/1_unit-tests.js` unter dem Test mit der Beschriftung `#4` in der `Basic Assertions`-Suite, jeden `assert` in `assert.isTrue` oder `assert.isNotTrue` um, damit der Test bestanden wird (sollte `true` ausgeben). Die an die Asserts übergebenen Argumente dürfen nicht verändert werden.
 
 # --hints--
 
-Alle Tests sollten bestanden werden.
+Alle Tests sollten erfolgreich sein.
 
 ```js
 (getUserInput) =>

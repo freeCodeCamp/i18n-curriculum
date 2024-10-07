@@ -8,7 +8,7 @@ dashedName: create-a-form-element
 
 # --description--
 
-Puoi creare dei moduli web (form) che inviino effettivamente dei dati a un server utilizzando nient'altro che puro HTML. Puoi farlo specificando un attributo `action` nel tuo elemento `form`.
+You can build web forms that actually submit data to a server using nothing more than pure HTML. You can do this by specifying an `action` attribute on your `form` element.
 
 Ad esempio:
 

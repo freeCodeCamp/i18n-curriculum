@@ -8,7 +8,7 @@ dashedName: reverse-a-string
 
 # --description--
 
-与えられた文字列を反転させて、反転した文字列を返してください。
+Reverse the provided string and return the reversed string.
 
 例えば、`"hello"` は `"olleh"` となるようにしてください。
 

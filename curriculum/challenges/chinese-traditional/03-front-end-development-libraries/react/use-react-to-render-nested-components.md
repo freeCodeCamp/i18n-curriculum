@@ -8,7 +8,7 @@ dashedName: use-react-to-render-nested-components
 
 # --description--
 
-上一個挑戰顯示了組合兩個組件的簡單方法，但是有許多不同的方法可以把 React 組件組合在一起。
+The last challenge showed a simple way to compose two components, but there are many different ways you can compose components with React.
 
 組件組合是 React 的強大功能之一。 當使用 React 時，應當先用組件的思路考慮清楚用戶界面的結構（如上一個挑戰中的 App 示例）。 可以將 UI 分解爲基本的構建塊，這些構建塊就是組件。 這樣做有助於將負責 UI 的代碼與負責處理應用程序邏輯的代碼分開， 並可以大大簡化複雜項目的開發和維護。
 

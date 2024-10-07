@@ -8,7 +8,7 @@ dashedName: remove-whitespace-from-start-and-end
 
 # --description--
 
-有時字符串周圍存在的空白字符並不是必需的。 字符串的典型處理是刪除字符串開頭和結尾處的空格。
+Sometimes whitespace characters around strings are not wanted but are there. Typical processing of strings is to remove the whitespace at the start and end of it.
 
 # --instructions--
 

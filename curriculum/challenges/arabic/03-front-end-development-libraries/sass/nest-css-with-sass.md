@@ -8,7 +8,7 @@ dashedName: nest-css-with-sass
 
 # --description--
 
-يسمح Sass بتداخل قواعد CSS، وهي طريقة مفيدة لتنظيم مِلَفّ التصميم (style sheet).
+Sass allows nesting of CSS rules, which is a useful way of organizing a style sheet.
 
 وعادة ما يكون كل عنصر مستهدفاً على خط مختلف لتصميمه، مثل:
 

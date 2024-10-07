@@ -8,7 +8,7 @@ dashedName: work-with-dynamic-data-in-d3
 
 # --description--
 
-最后两个挑战涉及到使用 D3 的 `data()` 和 `enter()` 方法来动态展示数据。 它们以数据集为参数，和 `append()` 方法一起使用，为数据集中的每一个元素对象创建一个 DOM 元素。
+The last two challenges cover the basics of displaying data dynamically with D3 using the `data()` and `enter()` methods. These methods take a data set and, together with the `append()` method, create a new DOM element for each entry in the data set.
 
 在之前的挑战中，你为 `dataset` 数组中的每一个对象创建了一个新的 `h2` 元素，但是它们的文本都是相同的 `New Title`。 这是因为你还没有使用和每个 `h2` 元素关联的数据。
 

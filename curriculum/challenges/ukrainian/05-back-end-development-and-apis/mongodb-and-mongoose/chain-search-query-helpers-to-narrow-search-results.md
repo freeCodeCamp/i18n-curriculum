@@ -8,7 +8,7 @@ dashedName: chain-search-query-helpers-to-narrow-search-results
 
 # --description--
 
-Якщо ви не передаєте зворотний виклик як останній аргумент до `Model.find()` (або інших пошукових методів), запит не буде виконуватися. Ви можете зберегти запит в змінній для подальшого використання. Цей тип об’єкту дозволяє створювати запит за допомогою ланцюжкового синтаксису. Сам пошук виконується, коли ви остаточно з’єднали метод `.exec()`. Ви завжди повинні передавати зворотний виклик цьому останньому методу. Існує багато помічників для запитів, тут ми використовуємо найпоширеніші.
+If you don’t pass the callback as the last argument to `Model.find()` (or to the other search methods), the query is not executed. You can store the query in a variable for later use. This kind of object enables you to build up a query using chaining syntax. The actual db search is executed when you finally chain the method `.exec()`. You always need to pass your callback to this last method. There are many query helpers, here we'll use the most commonly used.
 
 # --instructions--
 

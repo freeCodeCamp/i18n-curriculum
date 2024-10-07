@@ -8,12 +8,12 @@ dashedName: build-a-personal-portfolio-webpage
 
 # --description--
 
-**Мета:** створити застосунок, функціонально схожий до <a href="https://personal-portfolio.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://personal-portfolio.freecodecamp.rocks</a>. **Не копіюйте цей демонстраційний проєкт**.
+**Objective:** Build an app that is functionally similar to <a href="https://personal-portfolio.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://personal-portfolio.freecodecamp.rocks</a>. **Do not copy this demo project**.
 
 
 **Історія користувача:**
 
-1. Портфоліо повинне містити вітальний розділ з `id` зі значенням `welcome-section`
+1. Your portfolio should have a welcome section with an `id` of `welcome-section`
 1. Вітальний розділ повинен мати елемент `h1`, який містить текст
 1. Портфоліо повинне мати розділ проєктів з `id` зі значенням `projects`
 1. Розділ проєктів повинен містити принаймні один елемент з `class` зі значенням `project-tile`, щоб містити проєкт
@@ -25,9 +25,9 @@ dashedName: build-a-personal-portfolio-webpage
 1. Висота вітального розділу має дорівнювати висоті демонстраційного вікна
 1. Навігаційна панель завжди повинна знаходитись у верхній частині демонстраційного вікна
 
-Виконайте історію користувача та пройдіть тести, наведені нижче, щоб завершити цей проєкт. Оформте за власним стилем. Щасливого програмування!
+Виконайте історію користувача та пройдіть тести, наведені нижче, щоб завершити цей проєкт. Оформіть за вашим власним стилем. Щасливого кодування!
 
-**Примітка:** переконайтеся, що додали `<link rel="stylesheet" href="styles.css">` до HTML для прив'язки з аркушем стилів та застосували CSS
+**Примітка:** переконайтеся, що додали `<link rel="stylesheet" href="styles.css">` до HTML для прив’язки з аркушем стилів та застосували CSS
 
 # --hints--
 
@@ -109,7 +109,7 @@ const el = document.getElementById('profile-link');
 assert(!!el && el.tagName === 'A')
 ```
 
-Елемент `#profile-link` повинен містити атрибут `target` зі значенням `_blank`.
+Елемент `#profile-link` повинен мати атрибут `target` зі значенням `_blank`.
 
 ```js
 const el = document.getElementById('profile-link');

@@ -8,7 +8,7 @@ dashedName: copy-an-object-with-object-assign
 
 # --description--
 
-最後幾個挑戰適用於數組，但是當狀態是 `object` 時，有一些方法可以實現狀態不變性。 處理對象的一個常用的方法是 `Object.assign()`。 `Object.assign()` 獲取目標對象和源對象，並將源對象中的屬性映射到目標對象。 任何匹配的屬性都會被源對象中的屬性覆蓋。 通常用於通過傳遞一個空對象作爲第一個參數，然後是要用複製的對象來製作對象的淺表副本。 下面是一個示例：
+The last several challenges worked with arrays, but there are ways to help enforce state immutability when state is an `object`, too. A useful tool for handling objects is the `Object.assign()` utility. `Object.assign()` takes a target object and source objects and maps properties from the source objects to the target object. Any matching properties are overwritten by properties in the source objects. This behavior is commonly used to make shallow copies of objects by passing an empty object as the first argument followed by the object(s) you want to copy. 如下所示：
 
 ```js
 const newObject = Object.assign({}, obj1, obj2);

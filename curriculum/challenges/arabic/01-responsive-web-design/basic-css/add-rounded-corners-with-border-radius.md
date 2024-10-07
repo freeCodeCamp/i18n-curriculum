@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedf08814
-title: Add Rounded Corners with border-radius
+title: إضافة زوايا مدورة مع border-radius
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cbZm2hg'
 forumTopicId: 16649
@@ -13,19 +13,19 @@ Your cat photo currently has sharp corners. We can round out those corners with 
 
 # --instructions--
 
-You can specify a `border-radius` with pixels. Give your cat photo a `border-radius` of `10px`.
+يمكنك تحديد `border-radius` بالpixels. امنح صورة القطط `border-radius` من `10px`.
 
-**Note:** This challenge allows for multiple possible solutions. For example, you may add `border-radius` to either the `.thick-green-border` class or the `.smaller-image` class.
+**ملاحظة:** هذا التحدي يسمح بالعديد من الحلول الممكنة. على سبيل المثال، يمكنك إضافة `border-radius` إلى فئة `.thick-green-border class` أو `.smaller-image class` .
 
 # --hints--
 
-Your image element should have the class `thick-green-border`.
+يجب أن يمتلك عنصر img الخاص بك كلاس `thick-green-border`.
 
 ```js
 assert($('img').hasClass('thick-green-border'));
 ```
 
-Your image should have a border radius of `10px`.
+يجب ان تمتلك الصورة حدود بعرض `10px`.
 
 ```js
 assert(

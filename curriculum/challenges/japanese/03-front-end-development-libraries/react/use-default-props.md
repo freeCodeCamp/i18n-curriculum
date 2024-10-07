@@ -8,7 +8,7 @@ dashedName: use-default-props
 
 # --description--
 
-React にはデフォルトの props を設定するオプションもあります。 デフォルトの props はコンポーネント自身のプロパティとしてコンポーネントに割り当てることができ、必要に応じて React によってデフォルトの props が割り当てられます。 このため、prop の値が明示的に指定されていない場合に、その値を指定することができます。 たとえば、`MyComponent.defaultProps = { location: 'San Francisco' }` と宣言した場合は、特に指定しない限り、location という prop を定義して文字列 `San Francisco` を設定したことになります。 props が未定義の場合は、React によってデフォルトの props が割り当てられます。ただし、prop の値として `null` を渡した場合は `null` のままになります。
+React also has an option to set default props. You can assign default props to a component as a property on the component itself and React assigns the default prop if necessary. This allows you to specify what a prop value should be if no value is explicitly provided. For example, if you declare `MyComponent.defaultProps = { location: 'San Francisco' }`, you have defined a location prop that's set to the string `San Francisco`, unless you specify otherwise. React assigns default props if props are undefined, but if you pass `null` as the value for a prop, it will remain `null`.
 
 # --instructions--
 

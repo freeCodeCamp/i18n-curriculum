@@ -12,7 +12,7 @@ dashedName: review-the-principles-of-code-debugging-and-exception-handling
 1. Перейдіть до <a href="https://learn.microsoft.com/training/modules/review-principles-code-debugging-exception-handling-c-sharp/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/review-principles-code-debugging-exception-handling-c-sharp/</a> та виконайте всі завдання модуля «Перегляньте принципи налагодження коду та оброблення винятків». Це **обов’язково**, щоб отримати трофей з «Налагодження консольних застосунків C#» на Microsoft Learn та мати змогу скласти сертифікаційний екзамен.
 1. Як тільки завершите, поверніться та дайте правильну відповідь на запитання нижче.
 
-# --assignment--
+# --Завдання--
 
 Виконайте модуль <a href="https://learn.microsoft.com/training/modules/review-principles-code-debugging-exception-handling-c-sharp/" target="_blank" rel="noreferrer">«Перегляньте принципи налагодження коду та оброблення винятків»</a> на Microsoft Learn. Потім дайте відповідь на запитання нижче.
 
@@ -20,19 +20,19 @@ dashedName: review-the-principles-of-code-debugging-and-exception-handling
 
 ## --text--
 
-Який зв’язок між типом винятку та інформацією, яку він містить?
+What is the relationship between the type of exception and the information it contains?
 
 ## --answers--
 
-Тип винятку визначає інформацію, яку він містить.
+The type of exception determines the information it contains.
 
 ---
 
-Тип винятку та інформація, яку він містить, непов’язані.
+The type of exception and the information it contains are unrelated.
 
 ---
 
-Інформація, яку містить виняток, визначає тип винятку.
+The information contained in an exception determines the type of exception.
 
 ## --video-solution--
 

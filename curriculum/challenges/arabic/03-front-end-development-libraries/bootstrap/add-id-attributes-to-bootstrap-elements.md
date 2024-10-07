@@ -8,7 +8,7 @@ dashedName: add-id-attributes-to-bootstrap-elements
 
 # --description--
 
-تذكر أنه بالإضافة إلى سمات الفئة، يمكنك إعطاء كل عنصر من عناصرك السمة `id`.
+Recall that in addition to class attributes, you can give each of your elements an `id` attribute.
 
 يجب أن يكون كل معرف فريد لعنصر معين وأن يستخدم مرة واحدة فقط في الصفحة.
 

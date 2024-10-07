@@ -1,6 +1,6 @@
 ---
 id: 587d8257367417b2b2512c7c
-title: Check if an Element is Present in a Binary Search Tree
+title: 檢查二叉搜索樹中是否存在某個元素
 challengeType: 1
 forumTopicId: 301623
 dashedName: check-if-an-element-is-present-in-a-binary-search-tree
@@ -12,11 +12,11 @@ Now that we have a general sense of what a binary search tree is let's talk abou
 
 # --instructions--
 
-In this challenge, we will create a utility for our tree. Write a method `isPresent` which takes an integer value as input and returns a boolean value for the presence or absence of that value in the binary search tree.
+在此挑戰中，我們將爲樹創建一個實用函數。 編寫一個方法`isPresent` ，它接受一個整數值作爲輸入，並在二叉搜索樹中返回該值是否存在的布爾值。
 
 # --hints--
 
-The `BinarySearchTree` data structure should exist.
+`BinarySearchTree` 數據結構應該存在。
 
 ```js
 assert(
@@ -30,7 +30,7 @@ assert(
 );
 ```
 
-The binary search tree should have a method called `isPresent`.
+二叉搜索樹應該有一個叫 `isPresent` 的方法。
 
 ```js
 assert(
@@ -46,7 +46,7 @@ assert(
 );
 ```
 
-The `isPresent` method should correctly check for the presence or absence of elements added to the tree.
+`isPresent` 方法應該正確檢查添加到樹中的元素是否存在。
 
 ```js
 assert(
@@ -74,7 +74,7 @@ assert(
 );
 ```
 
-`isPresent` should handle cases where the tree is empty.
+`isPresent` 應該處理樹爲空的情況。
 
 ```js
 assert(

@@ -8,7 +8,7 @@ dashedName: create-a-set-class
 
 # --description--
 
-En este ejercicio vamos a crear una clase llamada `Set` para simular una estructura de datos abstracta llamada "set". Un set es como un arreglo, pero no puede contener valores duplicados. El uso típico para un set es simplemente verificar la presencia de un elemento. Podemos ver como funciona el objeto `Set` ES6 en el siguiente ejemplo:
+In this exercise we are going to create a class named `Set` to emulate an abstract data structure called "set". A set is like an array, but it cannot contain duplicate values. The typical use for a set is to simply check for the presence of an item. We can see how the ES6 `Set` object works in the example below:
 
 ```js
 const set1 = new Set([1, 2, 3, 5, 5, 2, 0]);

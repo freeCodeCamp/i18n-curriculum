@@ -8,7 +8,7 @@ dashedName: learn-about-svg-in-d3
 
 # --description--
 
-<dfn>SVG</dfn> é a abreviação de <dfn>Scalable Vector Graphics</dfn>.
+<dfn>SVG</dfn> stands for <dfn>Scalable Vector Graphics</dfn>.
 
 Aqui, "scalable" significa que, se você der zoom ou se afastar do objeto, ele não parecerá pixelado. Ele se redimensiona com o sistema de exibição, seja na tela pequena de um dispositivo móvel, seja em um monitor grande de TV.
 

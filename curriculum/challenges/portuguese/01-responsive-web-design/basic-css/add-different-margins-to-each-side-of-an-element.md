@@ -9,7 +9,7 @@ dashedName: add-different-margins-to-each-side-of-an-element
 
 # --description--
 
-Às vezes, você pode querer personalizar um elemento para que ele tenha a propriedade `margin` diferente em cada um de seus lados.
+Sometimes you will want to customize an element so that it has a different `margin` on each of its sides.
 
 O CSS permite que você controle a propriedade `margin` de todos os quatro lados de um elemento com as seguintes propriedades: `margin-top`, `margin-right`, `margin-left` e `margin-bottom`.
 

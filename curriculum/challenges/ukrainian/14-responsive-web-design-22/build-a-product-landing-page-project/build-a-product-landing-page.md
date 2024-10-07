@@ -8,14 +8,14 @@ dashedName: build-a-product-landing-page
 
 # --description--
 
-**Мета:** створити застосунок, функціонально схожий до <a href="https://product-landing-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://product-landing-page.freecodecamp.rocks</a>. **Не копіюйте цей демонстраційний проєкт**.
+**Objective:** Build an app that is functionally similar to <a href="https://product-landing-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://product-landing-page.freecodecamp.rocks</a>. **Do not copy this demo project**.
 
 **Історія користувача:**
 
-1. Ваша посадкова сторінка продукту повинна мати елемент `header` з відповідним `id="header"`
+1. Your product landing page should have a `header` element with a corresponding `id="header"`
 1. Можна побачити зображення в межах елемента `header` з відповідним `id="header-img"` (на місце зображення чудово підійде логотип)
 1. В межах елемента `#header` видно елемент `nav` з відповідним `id="nav-bar"`
-1. Можна побачити щонайменше три активні елементи всередині елемента `nav`, кожен класу `nav-link`
+1. Можна побачити принаймні три активні елементи всередині елемента `nav`, кожен з класом `nav-link`
 1. Якщо натиснути на кнопку `.nav-link` в елементі `nav`, ви перейдете на відповідну секцію посадкової сторінки
 1. Ви можете переглянути вмонтоване відео з `id="video"`
 1. Посадкова сторінка має елемент `form` з відповідним `id="form"`
@@ -28,7 +28,7 @@ dashedName: build-a-product-landing-page
 1. Посадкова сторінка продукту повинна містити щонайменше один медіазапит
 1. Посадкова сторінка продукту повинна використовувати CSS flexbox хоча б раз
 
-Виконайте історію користувача та пройдіть тести, наведені нижче, щоб завершити цей проєкт. Оформте за власним стилем. Щасливого програмування!
+Виконайте історію користувача та пройдіть тести, наведені нижче, щоб завершити цей проєкт. Оформіть за вашим власним стилем. Щасливого кодування!
 
 **Примітка:** переконайтеся, що додали `<link rel="stylesheet" href="styles.css">` до HTML для прив’язки з аркушем стилів та застосували CSS
 

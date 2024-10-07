@@ -1,6 +1,6 @@
 ---
 id: 5e8f2f13c4cdbe86b5c72d9c
-title: 'Natural Language Processing With RNNs: Part 2'
+title: 'Natürliche Sprachverarbeitung mit RNN: Teil 2'
 challengeType: 11
 videoId: mUU9YXOFbZg
 bilibiliIds:
@@ -18,15 +18,15 @@ Word embeddings are...:
 
 ## --answers--
 
-an unordered group of encoded words that describes the frequency of words in a given document.
+eine ungeordnete Gruppe von verschlüsselten Wörtern, die die Häufigkeit von Wörtern in einem gegebenen Dokument beschreibt.
 
 ---
 
-a group of encoded words that preserves the original order of the words in a given document.
+eine Gruppe kodierter Wörter, die die ursprüngliche Reihenfolge der Wörter in einem gegebenen Dokument aufbewahrt.
 
 ---
 
-a vectorized representation of words in a given document that places words with similar meanings near each other.
+eine vektorisierte Darstellung von Wörtern in einem bestimmten Dokument, das Wörter mit ähnlicher Bedeutung nebeneinander platziert.
 
 ## --video-solution--
 

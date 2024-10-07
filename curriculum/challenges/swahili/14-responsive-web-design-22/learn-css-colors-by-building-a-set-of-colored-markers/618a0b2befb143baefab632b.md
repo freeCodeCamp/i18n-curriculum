@@ -7,7 +7,7 @@ dashedName: step-37
 
 # --description--
 
-Ona kwamba rangi nyekundu na cyan zinang'aa sana karibu na kila mmoja. Tofauti hii inaweza kusumbua ikiwa inatumika kupita kiasi kwenye tovuti, na inaweza kufanya maandishi kuwa magumu kusomeka ikiwa yamewekwa kwenye mandharinyuma yenye rangi inayosaidiana.
+Notice that the red and cyan colors are very bright right next to each other. This contrast can be distracting if it's overused on a website, and can make text hard to read if it's placed on a complementary-colored background.
 
 Ni vyema kufanya mazoezi ya kuchagua rangi moja kama rangi kuu na kutumia rangi yake inayosaidiana kama lafudhi ili kuleta usikivu wa maudhui fulani kwenye ukurasa.
 

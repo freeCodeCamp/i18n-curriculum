@@ -9,7 +9,7 @@ dashedName: inherit-css-variables
 
 # --description--
 
-Коли ви створюєте змінну, то можете використовувати її всередині селектора, в якому її створили. Вона також доступна в будь-якому з нащадків цього селектора. Це відбувається, бо змінні CSS успадковуються, так само як і звичайні властивості.
+When you create a variable, it is available for you to use inside the selector in which you create it. It also is available in any of that selector's descendants. This happens because CSS variables are inherited, just like ordinary properties.
 
 Щоб скористатися успадкуванням, змінні CSS часто визначають в елементі <dfn>:root</dfn>.
 

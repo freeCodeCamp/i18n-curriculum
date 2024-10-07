@@ -8,7 +8,7 @@ dashedName: create-a-controlled-input
 
 # --description--
 
-قد يحتوي تطبيقك على تعامُلات أكثر تعقيدا بين `state` وواجهة المستخدم المقدمة (UI). على سبيل المثال، عناصر التحكم في النموذج (form control) للمدخلات (inputs) النصية، مثل `input` و `textarea`، الحفاظ على حالتها (input) الخاصة في DOM عندما يكتب المستخدم. مع React، يمكنك نقل هذه الحالة (state) القابلة للتغيير إلى `state` للمكون (component) في React. يصبح إدخال (input) المستخدم جزءا من التطبيق `state`، لذا يتحكم React في قيمة حقل الإدخال (input field) هذا. في الأغلب، إذا كان لديك مكونات React مع حقول الإدخال الذي يمكن للمستخدم أن يكتبها، فسيكون نموذج الإدخال المتحكم فيه.
+Your application may have more complex interactions between `state` and the rendered UI. For example, form control elements for text input, such as `input` and `textarea`, maintain their own state in the DOM as the user types. With React, you can move this mutable state into a React component's `state`. The user's input becomes part of the application `state`, so React controls the value of that input field. Typically, if you have React components with input fields the user can type into, it will be a controlled input form.
 
 # --instructions--
 

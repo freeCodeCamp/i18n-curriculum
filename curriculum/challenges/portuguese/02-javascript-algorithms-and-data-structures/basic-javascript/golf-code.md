@@ -9,7 +9,7 @@ dashedName: golf-code
 
 # --description--
 
-No jogo de golfe, cada buraco tem um `par`, significando o número médio de `strokes` que se espera que golfista faça a fim de derrubar a bola no buraco para completar a jogada. Dependendo da distância acima ou abaixo de `par` que seu número de `strokes` estiver, há diferentes apelidos.
+In the game of Golf, each hole has a `par`, meaning, the average number of `strokes` a golfer is expected to make in order to sink the ball in the hole to complete the play. Depending on how far above or below `par` your `strokes` are, there is a different nickname.
 
 Sua função receberá os argumentos `par` e `strokes`. Retorne a string correta de acordo com esta tabela que lista os strokes em ordem de prioridade; superior (mais alta) para o final (mais baixo):
 

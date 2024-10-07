@@ -8,7 +8,7 @@ dashedName: use-the-value-attribute-with-radio-buttons-and-checkboxes
 
 # --description--
 
-Quando un modulo viene inviato, i dati vengono spediti al server e includono delle voci per le opzioni selezionate. Gli input di tipo `radio` e `checkbox` prendono i loro valori dall'attributo `value`.
+When a form gets submitted, the data is sent to the server and includes entries for the options selected. Inputs of type `radio` and `checkbox` report their values from the `value` attribute.
 
 Ad esempio:
 

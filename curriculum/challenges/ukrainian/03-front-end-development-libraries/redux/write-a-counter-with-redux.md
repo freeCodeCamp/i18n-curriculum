@@ -8,7 +8,7 @@ dashedName: write-a-counter-with-redux
 
 # --description--
 
-Тепер ви освоїли всі основні принципи Redux! Ви дізнались, як створювати дії й авторів дій, створювати сховище Redux, відправляти дії до сховища та розробляти оновлення станів за допомогою редюсерів. Ви навіть побачили, як керувати складним станом за допомогою редюсера та обробляти асинхронні дії. Це прості приклади, але саме ці поняття є ключовими принципами Redux. Якщо ви розібрались з ними, тоді ви готові створити власний застосунок Redux. Наступні завдання охоплюють деякі деталі щодо незмінності стану, але спершу згадаємо все, що вивчили.
+Now you've learned all the core principles of Redux! You've seen how to create actions and action creators, create a Redux store, dispatch your actions against the store, and design state updates with pure reducers. You've even seen how to manage complex state with reducer composition and handle asynchronous actions. These examples are simplistic, but these concepts are the core principles of Redux. If you understand them well, you're ready to start building your own Redux app. The next challenges cover some of the details regarding `state` immutability, but first, here's a review of everything you've learned so far.
 
 # --instructions--
 

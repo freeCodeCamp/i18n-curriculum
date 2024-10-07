@@ -1,6 +1,6 @@
 ---
 id: 587d8250367417b2b2512c5f
-title: Create a Stack Class
+title: 创建一个堆栈类
 challengeType: 1
 forumTopicId: 301633
 dashedName: create-a-stack-class
@@ -12,11 +12,11 @@ In the last section, we talked about what a stack is and how we can use an array
 
 # --instructions--
 
-Write a `push` method that pushes an element to the top of the stack, a `pop` method that removes and returns the element on the top of the stack, a `peek` method that looks at the top element in the stack, an `isEmpty` method that checks if the stack is empty, and a `clear` method that removes all elements from the stack. Normally stacks don't have this, but we've added a `print` helper method that console logs the collection.
+说明编写一个 `push` 方法，将元素推送到堆栈顶部；一个 `pop` 方法删除堆栈顶部的元素；一个 `peek` 方法来查看堆栈中第一个元素；一个 `isEmpty` 方法，用于检查堆栈是否为空；一个 `clear` 方法，清除堆栈中所有的元素。 通常堆栈没有这个，但我们添加一个 `print` 辅助方法，用于在控制台输出集合。
 
 # --hints--
 
-Your `Stack` class should have a `push` method.
+你的 `Stack` 类应该有一个 `push` 方法。
 
 ```js
 assert(
@@ -27,7 +27,7 @@ assert(
 );
 ```
 
-Your `Stack` class should have a `pop` method.
+你的 `Stack` 类应该有一个 `pop` 方法。
 
 ```js
 assert(
@@ -38,7 +38,7 @@ assert(
 );
 ```
 
-Your `Stack` class should have a `peek` method.
+你的 `Stack` 类应该有一个 `peek` 方法。
 
 ```js
 assert(
@@ -49,7 +49,7 @@ assert(
 );
 ```
 
-Your `Stack` class should have a `isEmpty` method.
+你的 `Stack` 类应该有一个 `isEmpty` 方法。
 
 ```js
 assert(
@@ -60,7 +60,7 @@ assert(
 );
 ```
 
-Your `Stack` class should have a `clear` method.
+你的 `Stack` 类应该有一个 `clear` 方法。
 
 ```js
 assert(
@@ -71,7 +71,7 @@ assert(
 );
 ```
 
-The `peek` method should return the top element of the stack
+`peek` 方法应该返回栈顶元素
 
 ```js
 assert(
@@ -84,7 +84,7 @@ assert(
 );
 ```
 
-The `pop` method should remove and return the top element of the stack
+`pop` 方法应该移除并返回栈顶元素
 
 ```js
 assert(
@@ -97,7 +97,7 @@ assert(
 );
 ```
 
-The `isEmpty` method should return true if a stack does not contain any elements
+如果堆栈不包含任何元素，`isEmpty` 方法应该返回 true
 
 ```js
 assert(
@@ -108,7 +108,7 @@ assert(
 );
 ```
 
-The `clear` method should remove all element from the stack
+`clear` 方法应该从堆栈中删除所有元素
 
 ```js
 assert(

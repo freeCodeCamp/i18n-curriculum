@@ -9,7 +9,7 @@ dashedName: change-an-elements-relative-position
 
 # --description--
 
-O CSS trata cada elemento HTML como uma caixa. Esse conceito é geralmente referido como <dfn>CSS Box Model</dfn>. Elementos de nível de bloco são empilhados um em cima do outro (pense nas divs, parágrafos e títulos) enquanto os elementos de linha são inseridos um lado do outro (como imagens ou spans). Essa é a organização padrão dos elementos no CSS e é chamada de <dfn>normal flow</dfn> (fluxo normal). Mas o CSS também oferece uma propriedade para posicionar os elementos de forma manual.
+CSS treats each HTML element as its own box, which is usually referred to as the <dfn>CSS Box Model</dfn>. Block-level items automatically start on a new line (think headings, paragraphs, and divs) while inline items sit within surrounding content (like images or spans). The default layout of elements in this way is called the <dfn>normal flow</dfn> of a document, but CSS offers the position property to override it.
 
 Ao definir a posição de um elemento para `relative`, o CSS permite que você mova o elemento *relativamente* à sua posição atual. Ela trabalha em conjunto com as propriedades de deslocamento do CSS `left` (esquerda) ou `right` (direita) e `top` (superior) ou `bottom` (inferior). Estas propriedades definem quantos pixels, porcentagens ou ems deslocar o elemento *para longe* de onde ele inicialmente foi posicionado. O exemplo a seguir afasta o parágrafo em 10 pixels a partir da parte inferior:
 

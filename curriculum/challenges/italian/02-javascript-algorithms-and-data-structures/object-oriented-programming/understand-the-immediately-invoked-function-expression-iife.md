@@ -8,7 +8,7 @@ dashedName: understand-the-immediately-invoked-function-expression-iife
 
 # --description--
 
-Un modello comune in JavaScript è quello di eseguire una funzione non appena viene dichiarata:
+A common pattern in JavaScript is to execute a function as soon as it is declared:
 
 ```js
 (function () {

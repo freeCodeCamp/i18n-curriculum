@@ -8,7 +8,7 @@ dashedName: match-everything-but-letters-and-numbers
 
 # --description--
 
-문자와 숫자를 `\w`를 사용하여 `[A-Za-z0-9_]`로 일치시킬 수 있는 쉬운 방법을 배웠습니다. 내가 찾고 싶은 패턴이 문자와 숫자가 아닐 수도 있습니다.
+You've learned that you can use a shortcut to match alphanumerics `[A-Za-z0-9_]` using `\w`. A natural pattern you might want to search for is the opposite of alphanumerics.
 
 `\w`의 반대를 `\W`로 검색할 수 있습니다. 반대 패턴은 대문자를 사용한다는 점에 유의하세요. 이 방법은 `[^A-Za-z0-9_]`과 동일합니다.
 

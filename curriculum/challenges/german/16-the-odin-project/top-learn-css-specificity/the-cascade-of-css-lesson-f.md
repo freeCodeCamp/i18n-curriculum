@@ -19,7 +19,7 @@ dashedName: the-cascade-of-css-lesson-f
 }
 ```
 
-Here both rule 1 and rule 2 have the same specificity. Rule 1 uses a chaining selector (no space) and rule 2 uses a descendant combinator (the empty space). But both rules have two classes and the combinator symbol itself does not add to the specificity.
+Hier haben die Regeln 1 und 2 die gleiche Spezifizität. Regel 1 verwendet einen Kettenselektor (kein Leerzeichen) und Regel 2 verwendet einen Nachkommen-Kombinator (das Leerzeichen). Aber beide Regeln haben zwei Klassen, und das Symbol des Kombinators selbst trägt nicht zur Spezifität bei.
 
 ```css
 /* rule 1 */
@@ -32,15 +32,15 @@ Here both rule 1 and rule 2 have the same specificity. Rule 1 uses a chaining se
 }
 ```
 
-This example shows the same thing. Even though rule 2 is using a child combinator (`>`), this does not change the specificity value. Both rules still have two classes so they have the same specificity values.
+Dieses Beispiel zeigt das Gleiche. Auch wenn in Regel 2 ein untergeordneter Kombinator (`>`) verwendet wird, ändert sich der Wert für die Spezifität nicht. Beide Regeln haben nach wie vor zwei Klassen, so dass sie die gleichen Spezifitätswerte haben.
 
-*Note:* Not everything adds to specificity When comparing selectors, you may come across special symbols for the universal selector (`*`) as well as combinators (`+`, `~`, `>`, and an empty space). These symbols do not add any specificity in and of themselves.
+*Hinweis:* Nicht alles trägt zur Spezifizität bei Beim Vergleich von Selektoren stößt du unter Umständen auf spezielle Symbole für den universellen Selektor (`*`) sowie auf Kombinatoren (`+`, `~`, `>`, und ein Leerzeichen). Diese Symbole sind für sich genommen nicht besonders aussagekräftig.
 
 # --questions--
 
 ## --text--
 
-Based on the given CSS code, which font size would be applied to elements with the class "class second-class"?
+Auf der Grundlage des angegebenen CSS-Codes, welche Schriftgröße würde auf Elemente mit der Klasse "Klasse zweiter Klasse" angewendet werden?
 
 ## --answers--
 

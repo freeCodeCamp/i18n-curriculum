@@ -8,7 +8,7 @@ dashedName: use-destructuring-assignment-to-pass-an-object-as-a-functions-parame
 
 # --description--
 
-在某些情況下，你可以在函數的參數裏直接解構對象。
+In some cases, you can destructure the object in a function argument itself.
 
 請看以下代碼：
 

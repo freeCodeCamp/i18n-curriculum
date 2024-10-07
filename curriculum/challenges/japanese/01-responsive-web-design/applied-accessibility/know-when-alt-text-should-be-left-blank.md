@@ -9,9 +9,9 @@ dashedName: know-when-alt-text-should-be-left-blank
 
 # --description--
 
-前回のチャレンジでは、`img` タグを使用する際に `alt` 属性の指定が必須であることを学びました。 ただし、既に画像を説明するキャプションとグループ化されていたり、装飾のみに使用されていたりする画像の場合もあります。 これらの場合、`alt` テキストは冗長、もしくは不要かもしれません。
+In the last challenge, you learned that including an `alt` attribute when using `img` tags is mandatory. However, sometimes images are grouped with a caption already describing them, or are used for decoration only. In these cases, `alt` text may seem redundant or unnecessary.
 
-画像が既にテキストコンテンツによって説明されている、もしくは特に意味を持たない画像である場合、`img` には `alt` 属性は引き続き必要ですが、空の文字列が設定可能です。 例:
+画像が既にテキストコンテンツによって説明されている、もしくは特に意味を持たない画像である場合、`img` には `alt` 属性は引き続き必要ですが、空の文字列が設定可能です。 以下が例です:
 
 ```html
 <img src="visualDecoration.jpeg" alt="">

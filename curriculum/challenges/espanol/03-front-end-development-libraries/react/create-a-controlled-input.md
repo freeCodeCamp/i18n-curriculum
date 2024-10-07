@@ -8,7 +8,7 @@ dashedName: create-a-controlled-input
 
 # --description--
 
-Tu aplicación puede tener interacciones más complejas entre `state` y la interfaz de usuario renderizada. Por ejemplo, elementos de control de formulario para la entrada de texto, tales como `input` y `textarea`, mantienen su propio estado en el DOM como los tipos de usuario. Con React, puedes mover este estado mutable hacia el `state` de un componente de React. La entrada del usuario se convierte en parte del `state` de la aplicación, así que React controla el valor de ese campo de entrada. Por lo general, si tienes componentes de React con campos de entrada en los que el usuario puede escribir, será un formulario de entrada controlado.
+Your application may have more complex interactions between `state` and the rendered UI. For example, form control elements for text input, such as `input` and `textarea`, maintain their own state in the DOM as the user types. With React, you can move this mutable state into a React component's `state`. The user's input becomes part of the application `state`, so React controls the value of that input field. Typically, if you have React components with input fields the user can type into, it will be a controlled input form.
 
 # --instructions--
 
@@ -16,7 +16,7 @@ El editor de código tiene el esqueleto de un componente llamado `ControlledInpu
 
 Primero, crea un método llamado `handleChange()` que tiene un parámetro llamado `event`. Cuando el método es llamado, este recibe un objeto `event` que contiene una cadena de texto del elemento `input`. Puedes acceder a esta cadena con `event.target.value` dentro del método. Actualiza la propiedad `input` del `state` del componente con esta nueva cadena.
 
-En el método `render`, crea el elemento `input` encima de la etiqueta `h4`. Añade un atributo `value` que es igual a la propiedad `input` del `state` del componente. Then add an `onChange` property set to the `handleChange()` event handler method.
+En el método `render`, crea el elemento `input` encima de la etiqueta `h4`. Añade un atributo `value` que es igual a la propiedad `input` del `state` del componente. Luego agregue una propiedad `onChange` configurada con el método del controlador de eventos `handleChange()`.
 
 Cuando escribes en el cuadro de entrada, ese texto es procesado por el método `handleChange()`, establecido como la propiedad `input` en el `state` local, y renderizado como el valor en el cuadro `input` de la página. El `state` del componente es la única fuente de verdad con respecto a los datos de entrada.
 

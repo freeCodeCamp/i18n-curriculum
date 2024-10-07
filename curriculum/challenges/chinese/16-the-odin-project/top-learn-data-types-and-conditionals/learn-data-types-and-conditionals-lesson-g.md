@@ -7,7 +7,7 @@ dashedName: learn-data-types-and-conditionals-lesson-g
 
 # --description--
 
-JavaScript also has the ability to compare types and values using the strict equality operator `===`. This operator checks if the two values are equal and of the same type. For example:
+JavaScript also has the ability to compare types and values using the strict equality operator `===`. This operator checks if the two values are equal and of the same type. 举个例子：
 
 ```javascript
 let x = 5;
@@ -26,7 +26,7 @@ There is also a strict inequality operator `!==` that checks if the two values a
 
 There are a lot of ways to use the strict equality operator, and it's important to understand how it works.
 
-# --assignment--
+# --作业--
 
 Read <a href="https://javascript.info/comparison" target="_blank" rel="noopener noreferrer nofollow">this article on JavaScript.info</a> to learn more about the strict equality operator.
 

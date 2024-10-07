@@ -8,7 +8,7 @@ dashedName: catch-unclosed-parentheses-brackets-braces-and-quotes
 
 # --description--
 
-Outro erro de sintaxe para estar ciente é que todas as aberturas de parênteses, colchetes, chaves e aspas têm um par de fechamento. Esquecer um pedaço tende a acontecer quando você está editando um código existente e inserindo itens com um dos tipos de pares. Além disso, tenha cuidado ao aninhar blocos de código em outros, como ao adicionar uma função de callback como um argumento a um método.
+Another syntax error to be aware of is that all opening parentheses, brackets, curly braces, and quotes have a closing pair. Forgetting a piece tends to happen when you're editing existing code and inserting items with one of the pair types. Also, take care when nesting code blocks into others, such as adding a callback function as an argument to a method.
 
 Uma maneira de evitar esse erro é, assim que o caractere de abertura é digitado, incluir imediatamente o caractere de fechamento, mover o cursor entre eles e continuar programando. Felizmente, a maioria dos editores de código modernos geram a segunda parte do par automaticamente.
 

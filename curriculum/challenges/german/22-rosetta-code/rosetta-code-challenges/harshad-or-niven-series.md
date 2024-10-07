@@ -8,7 +8,7 @@ dashedName: harshad-or-niven-series
 
 # --description--
 
-The Harshad or Niven numbers are positive integers ≥ 1 that are divisible by the sum of their digits.
+Die Harshad- oder Niven-Zahlen sind positive ganze Zahlen ≥ 1, die durch die Summe ihrer Ziffern teilbar sind.
 
 Zum Beispiel ist `42` eine Harshad-Zahl wie `42` durch `(4 + 2)` ohne Rest teilbar.
 

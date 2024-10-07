@@ -8,7 +8,7 @@ dashedName: use-array-map-to-dynamically-render-elements
 
 # --description--
 
-الإنتاج الشرطي (Conditional rendering) مفيد، لكنك قد تحتاج إلى مكوناتك لإنتاج عدد غير معروف من العناصر. في كثير من الأحيان في البرمجة التفاعلية، لا يملك المبرمج طريقة لمعرفة ما هي حالة التطبيق حتى وقت التشغيل، لأن الكثير يعتمد على تفاعل المستخدم مع ذلك البرنامَج. يحتاج المبرمجون إلى كتابة تعليماتهم البرمجية للتعامل بشكل صحيح مع تلك الحالة غير المعروفة مسبقاً. باستخدام `Array.map()` في React ستوضح هذا المفهوم.
+Conditional rendering is useful, but you may need your components to render an unknown number of elements. Often in reactive programming, a programmer has no way to know what the state of an application is until runtime, because so much depends on a user's interaction with that program. Programmers need to write their code to correctly handle that unknown state ahead of time. Using `Array.map()` in React illustrates this concept.
 
 على سبيل المثال، يمكنك إنشاء تطبيق بسيط "To Do List". كمبرمج، ليس لديك أي طريقة لمعرفة عدد العناصر التي قد يكون لدى المستخدم في قائمته. تحتاج إلى إعداد المكون الخاص بك لإنتاج العدد الصحيح من عناصر القائمة بشكل ديناميكي, قبل أن يقرر شخص ما يستخدم البرنامَج أن اليوم هو يوم للتنظيف.
 

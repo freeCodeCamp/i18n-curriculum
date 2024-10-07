@@ -9,7 +9,7 @@ dashedName: increment-a-number-with-javascript
 
 # --description--
 
-使用 `++`，我們可以很容易地對變量進行<dfn>自增</dfn>或者 +1 運算。
+You can easily <dfn>increment</dfn> or add one to a variable with the `++` operator.
 
 ```js
 i++;

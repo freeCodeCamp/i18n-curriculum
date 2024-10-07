@@ -14,7 +14,7 @@ dashedName: core-learning-algorithms-working-with-data
 
 ## --text--
 
-pandas の `.head()` 関数は何をしますか？
+What does the pandas `.head()` function do?
 
 ## --answers--
 

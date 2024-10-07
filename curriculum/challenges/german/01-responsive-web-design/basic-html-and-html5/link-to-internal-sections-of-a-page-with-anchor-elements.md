@@ -9,7 +9,7 @@ dashedName: link-to-internal-sections-of-a-page-with-anchor-elements
 
 # --description--
 
-`a` (*anchor*)-Elemente können auch verwendet werden, um interne Links zu erstellen, um zu verschiedenen Abschnitten innerhalb einer Webseite zu springen.
+`a` (*anchor*) elements can also be used to create internal links to jump to different sections within a webpage.
 
 Um einen internen Link zu erstellen, weist du dem `href`-Attribut eines Links ein Hash-Symbol `#` sowie den Wert des `id`-Attributs für das Element zu, auf das du intern verlinken möchtest, normalerweise weiter unten auf der Seite. Du musst dann das gleiche `id`-Attribut zu dem Element hinzufügen, auf das du verlinkst. Eine `id` ist ein Attribut, das ein Element eindeutig beschreibt.
 

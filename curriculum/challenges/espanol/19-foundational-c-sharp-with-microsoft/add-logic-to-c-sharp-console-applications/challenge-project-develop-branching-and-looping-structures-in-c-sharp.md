@@ -7,16 +7,16 @@ dashedName: challenge-project-develop-branching-and-looping-structures-in-c-shar
 
 # --description--
 
-This challenge will be partially completed on the Microsoft Learn platform. Follow these instructions to complete the challenge:
+Este desafío se completará parcialmente en la plataforma de aprendizaje de Microsoft. Sigue estas instrucciones para completar el desafío:
 
 1. Go to <a href="https://learn.microsoft.com/training/modules/challenge-project-develop-branching-looping-structures-c-sharp/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/challenge-project-develop-branching-looping-structures-c-sharp/</a> and complete all the tasks for the "Challenge Project - Develop Branching and Looping Structures in C#" module. This is **required** to earn the "Add Logic to C# Console Applications" trophy on Microsoft Learn, and qualify for the certification exam.
-1. When you are finished, come back and correctly answer the question below.
+1. Cuando haya terminado, vuelva y responda correctamente a la siguiente pregunta.
 
 # --tarea--
 
-Complete the <a href="https://learn.microsoft.com/training/modules/challenge-project-develop-branching-looping-structures-c-sharp/" target="_blank" rel="noreferrer">Develop Branching and Looping Structures in C#</a> challenge project on Microsoft Learn. Then, answer the question below.
+Complete the <a href="https://learn.microsoft.com/training/modules/challenge-project-develop-branching-looping-structures-c-sharp/" target="_blank" rel="noreferrer">Develop Branching and Looping Structures in C#</a> challenge project on Microsoft Learn. Luego, responda a la siguiente pregunta.
 
-# --questions--
+# --preguntas--
 
 ## --text--
 

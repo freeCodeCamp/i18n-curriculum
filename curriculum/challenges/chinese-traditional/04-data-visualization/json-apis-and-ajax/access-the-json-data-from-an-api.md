@@ -8,7 +8,7 @@ dashedName: access-the-json-data-from-an-api
 
 # --description--
 
-在前面的挑戰中，你瞭解瞭如何從 freeCodeCamp Cat Photo API 獲取 JSON 數據。
+In the previous challenge, you saw how to get JSON data from the freeCodeCamp Cat Photo API.
 
 現在，你將進一步觀察返回的數據，以更好地瞭解 JSON 格式。 回憶一下 JavaScript 中的一些符號：
 

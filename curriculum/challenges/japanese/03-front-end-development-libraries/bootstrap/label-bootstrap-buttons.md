@@ -8,7 +8,7 @@ dashedName: label-bootstrap-buttons
 
 # --description--
 
-ウェルにラベルを付けたのとまったく同様に、ボタンにもラベルを付けてみましょう。
+Just like we labeled our wells, we want to label our buttons.
 
 各 `button` 要素に、その id セレクターに対応するテキストを付けてください。
 

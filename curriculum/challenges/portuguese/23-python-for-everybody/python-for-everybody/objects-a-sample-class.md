@@ -14,7 +14,7 @@ dashedName: objects-a-sample-class
 
 ## --text--
 
-O que será impresso pelo código a seguir?:
+O que será impresso pelo código a seguir?
 
 ```python
 class PartyAnimal:

@@ -1,6 +1,6 @@
 ---
 id: bd7154d8c242eddfaeb5bd13
-title: Build the Game of Life
+title: Erstelle das Spiel des Lebens
 challengeType: 3
 forumTopicId: 302362
 dashedName: build-the-game-of-life
@@ -10,34 +10,34 @@ dashedName: build-the-game-of-life
 
 **Objective:** Build an app that is functionally similar to this: <a href="https://codepen.io/freeCodeCamp/full/BpwMZv/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/BpwMZv/</a>.
 
-The Game of Life is a cellular automaton devised by the British mathematician John Horton Conway. It is a <em>zero-player game</em>, meaning that its evolution is determined by its initial state, requiring no further input. One interacts with the Game of Life by creating an initial configuration and observing how it evolves.
+Das Spiel des Lebens ist ein zellulärer Automat, der vom britischen Mathematiker John Horton Conway entwickelt wurde. Es ist ein <em>zero-player game</em>, was bedeutet, dass seine Entwicklung durch seinen Anfangszustand bestimmt wird, ohne dass weitere Eingaben erforderlich sind. Man interagiert mit dem Spiel des Lebens, indem man eine erste Konfiguration erstellt und beobachtet, wie sich diese entwickelt.
 
-The universe of the Game of Life is an infinite, two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, populated and unpopulated. Every cell interacts with its eight neighbours, which are the cells that are horizontally, vertically, or diagonally adjacent.
+Das Universum des Spiels des Lebens ist ein unendliches, zweidimensionales orthogonales Raster quadratischer Zellen, bei dem sich jede von ihnen in einem von zwei möglichen Zuständen, bevölkert und unbevölkert, befindet. Jede Zelle interagiert mit ihren acht Nachbarn, den horizontalen, vertikalen oder diagonalen Zellen.
 
-At each step in time, the following transitions occur:
+Bei jedem Schritt finden folgende Übergänge statt:
 
 - Any live cell with fewer than two live neighbours dies, as if by underpopulation.
-- Any live cell with two or three live neighbours lives on to the next generation.
-- Any live cell with more than three live neighbours dies, as if by overpopulation.
-- Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
+- Jede lebende Zelle mit zwei oder drei lebenden Nachbarn lebt bis zur nächsten Generation.
+- Jede lebende Zelle mit mehr als drei lebenden Nachbarn stirbt durch Überbevölkerung.
+- Jede tote Zelle mit genau drei lebenden Nachbarn wird zu einer lebendigen Zelle durch Reproduktion.
 
 Erfülle die folgenden User Stories und bestehe alle Tests. Verwende Bibliotheken und APIs deiner Wahl. Gib dem Ganzen deinen persönlichen Stil.
 
-**User Story:** When I first arrive at the game, it will randomly generate a board and start playing.
+**User Story:** Wenn ich das erste Mal ins Spiel komme, generiert es zufällig ein Feld und beginnt mit dem Spiel.
 
-**User Story:** I can start and stop the board.
+**User Story:** Ich kann das Feld starten und stoppen.
 
-**User Story:** I can set up the board.
+**User Story:** Ich kann das Feld einrichten.
 
-**User Story:** I can clear the board.
+**User Story:** Ich kann das Feld löschen.
 
-**User Story:** When I press start, the game will play out.
+**User Story:** Das Spiel wird abgespielt, sobald ich Start drücke.
 
-**User Story:** Each time the board changes, I can see how many generations have gone by.
+**User Story:** Jedes Mal, wenn sich das Feld ändert, kann ich sehen, wie viele Generationen bereits vergangen sind.
 
-When you are finished, include a link to your project and click the "I've completed this challenge" button.
+Wenn du fertig bist, füge einen Link zu deinem Projekt hinzu und klicke auf den "Ich habe diese Herausforderung abgeschlossen"-Button.
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+Du kannst Feedback zu deinem Projekt erhalten, indem du es auf dem <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp Forum</a> teilst.
 
 # --solutions--
 

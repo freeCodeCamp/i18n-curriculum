@@ -8,7 +8,7 @@ dashedName: search-within-a-linked-list
 
 # --description--
 
-Vamos adicionar mais alguns métodos úteis à nossa classe de lista encadeada. Não seria útil se pudéssemos dizer se nossa lista estava vazia ou não. como em nossas classes `Stack` e `Queue`?
+Let's add a few more useful methods to our linked list class. Wouldn't it be useful if we could tell if our list was empty or not, as with our `Stack` and `Queue` classes?
 
 Deveríamos também poder encontrar elementos específicos na nossa lista encadeada. Percorrer estruturas de dados é algo que você vai querer praticar bastante! Vamos criar um método `indexOf`, que recebe um `element` como argumento, e retorna o `index` desse elemento na lista encadeada. Se o elemento não for encontrado na lista encadeada, retorne `-1`.
 

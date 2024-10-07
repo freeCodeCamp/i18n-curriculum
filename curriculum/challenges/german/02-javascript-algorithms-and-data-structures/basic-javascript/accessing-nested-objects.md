@@ -9,7 +9,7 @@ dashedName: accessing-nested-objects
 
 # --description--
 
-Auf die Untereigenschaften von Objekten kann durch Aneinanderreihen der Punkt- oder Klammerschreibweise zugegriffen werden.
+The sub-properties of objects can be accessed by chaining together the dot or bracket notation.
 
 Hier ist ein verschachteltes Objekt:
 
@@ -45,7 +45,7 @@ Greife auf das Objekt `myStorage` zu und weise den Inhalt der Eigenschaft `glove
 assert(gloveBoxContents === 'maps');
 ```
 
-Your code should use dot notation, where possible, to access `myStorage`.
+Dein Code sollte die Punkt- und Klammerschreibweise verwenden, um auf `myStorage` zuzugreifen.
 
 ```js
 assert.match(code, /myStorage\.car\.inside/);
@@ -57,7 +57,7 @@ assert.match(code, /myStorage\.car\.inside/);
 assert.match(code, /const\s+gloveBoxContents\s*=/);
 ```
 
-You should not change the `myStorage` object.
+Du solltest das `myStorage`-Objekt nicht verändern.
 
 ```js
 const expectedMyStorage = {

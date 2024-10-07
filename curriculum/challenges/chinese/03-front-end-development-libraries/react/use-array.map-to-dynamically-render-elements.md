@@ -8,7 +8,7 @@ dashedName: use-array-map-to-dynamically-render-elements
 
 # --description--
 
-条件渲染很有用，但是可能需要组件来渲染未知数量的元素。 通常在响应式编程中，程序员在应用程序运行时之前无法知道其 state，因为这在很大程度上取决于用户与该程序的交互。 程序员需要提前编写代码来正确处理未知状态。 在 React 中使用 `Array.map()` 阐明了这个概念。
+Conditional rendering is useful, but you may need your components to render an unknown number of elements. Often in reactive programming, a programmer has no way to know what the state of an application is until runtime, because so much depends on a user's interaction with that program. Programmers need to write their code to correctly handle that unknown state ahead of time. Using `Array.map()` in React illustrates this concept.
 
 例如，创建一个简单的 “To Do List” 应用程序。 作为程序员，你无法知道用户可能在其列表中有多少项。 需要设置组件，以便在使用该程序的人决定今日待办事项之前动态渲染列表元素的正确数量。
 

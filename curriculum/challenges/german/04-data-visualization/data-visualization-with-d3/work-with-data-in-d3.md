@@ -8,7 +8,7 @@ dashedName: work-with-data-in-d3
 
 # --description--
 
-Die D3-Bibliothek stützt sich auf einen datenbezogenen Ansatz. Hast du einen Datensatz, kannst du Methoden aus der D3-Bibliothek verwenden, um diesen auf der Seite anzuzeigen. Es gibt verschiedene Datenformate, diese Aufgabe aber behandelt einen einfachen Zahlen-Array.
+The D3 library focuses on a data-driven approach. When you have a set of data, you can apply D3 methods to display it on the page. Data comes in many formats, but this challenge uses a simple array of numbers.
 
 In einem ersten Schritt weisen wir D3 auf die Daten hin. Die Methode `data()` wird auf eine Auswahl von DOM-Elementen angewendet, um die Daten an diese Elemente anzuhängen. Der Datensatz wird anschließend als Argument an die Methode übergeben.
 

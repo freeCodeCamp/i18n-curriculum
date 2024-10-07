@@ -1,6 +1,6 @@
 ---
 id: 5900f3cf1000cf542c50fee1
-title: 'Problem 98: Anagramic squares'
+title: 'Problem 98: Anagramm Quadrate'
 challengeType: 1
 forumTopicId: 302215
 dashedName: problem-98-anagramic-squares

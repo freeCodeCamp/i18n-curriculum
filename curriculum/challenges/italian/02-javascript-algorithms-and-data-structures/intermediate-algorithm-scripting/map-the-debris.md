@@ -8,11 +8,11 @@ dashedName: map-the-debris
 
 # --description--
 
-Secondo la Terza Legge di Keplero, il periodo orbitale $T$ di una massa puntuale in orbitante attorno a un'altra, in una orbita ellittica o circolare è:
+According to Kepler's Third Law, the orbital period $T$ of two point masses orbiting each other in a circular or elliptic orbit is:
 
 $$ T = 2 \pi \sqrt{\frac{a^{3}}{\mu}} $$
 
-- $a$ è il semi asse maggiore dell'orbita
+- $a$ is the orbit's semi-major axis
 - $μ = GM$ è il parametro gravitazionale standard
 - $G$ è la costante gravitazionale,
 - $M$ è la massa del corpo più massivo.

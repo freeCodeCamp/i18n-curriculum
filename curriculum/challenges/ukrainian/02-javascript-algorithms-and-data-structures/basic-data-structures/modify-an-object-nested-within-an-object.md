@@ -8,7 +8,7 @@ dashedName: modify-an-object-nested-within-an-object
 
 # --description--
 
-Тепер розглянемо дещо складніший об’єкт. Властивості об’єкта можуть бути вкладені на довільну глибину, а їхні значення можуть бути будь-яким видом даних, що підтримується JavaScript, включно з масивами та навіть іншими об’єктами. Розглянемо приклад:
+Now let's take a look at a slightly more complex object. Object properties can be nested to an arbitrary depth, and their values can be any type of data supported by JavaScript, including arrays and even other objects. Consider the following:
 
 ```js
 let nestedObject = {

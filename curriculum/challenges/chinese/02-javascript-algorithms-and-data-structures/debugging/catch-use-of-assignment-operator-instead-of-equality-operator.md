@@ -8,7 +8,7 @@ dashedName: catch-use-of-assignment-operator-instead-of-equality-operator
 
 # --description--
 
-分支程序，即在满足某些条件时执行不同操作的程序，依赖于 JavaScript 中的`if`，`else if`、`else`语句。 条件有时采取测试一个结果是否等于一个值的形式。
+Branching programs, i.e. ones that do different things if certain conditions are met, rely on `if`, `else if`, and `else` statements in JavaScript. The condition sometimes takes the form of testing whether a result is equal to a value.
 
 这种逻辑可以表述为“如果 x 等于 y ，则......”，听起来像是可以使用 `=`（即赋值运算符）。 然而，这会导致程序中流程出问题。
 

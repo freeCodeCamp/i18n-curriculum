@@ -1,6 +1,6 @@
 ---
 id: 587d7daf367417b2b2512b7d
-title: Iterate Over All Properties
+title: 모든 속성 반복(Iterate) 하기
 challengeType: 1
 forumTopicId: 301320
 dashedName: iterate-over-all-properties
@@ -20,7 +20,7 @@ Bird.prototype.numLegs = 2; // prototype property
 let duck = new Bird("Donald");
 ```
 
-Here is how you add `duck`'s own properties to the array `ownProps` and `prototype` properties to the array `prototypeProps`:
+여기 `duck`의 고유 속성을 `ownProps` 배열에 추가하고 `prototype` 속성을 `prototypeProps` 배열에 추가하는 방법이 있습니다.
 
 ```js
 let ownProps = [];
@@ -38,27 +38,27 @@ console.log(ownProps);
 console.log(prototypeProps);
 ```
 
-`console.log(ownProps)` would display `["name"]` in the console, and `console.log(prototypeProps)` would display `["numLegs"]`.
+`console.log(ownProps)`은 콘솔에 `["name"]`를 보여주고 `console.log(prototypeProps)`은 `["numLegs"]`을 보여줄 것입니다.
 
 # --instructions--
 
-Add all of the own properties of `beagle` to the array `ownProps`. Add all of the `prototype` properties of `Dog` to the array `prototypeProps`.
+`beagle`의 모든 속성을 `ownProps` 배열에 추가하시오. `Dog`의 모든 `prototype` 속성을 `prototypeProps` 배열에 추가하시오.
 
 # --hints--
 
-The `ownProps` array should only contain `name`.
+`ownProps` 배열은 오직 `name`만 가지고 있어야 합니다.
 
 ```js
 assert.deepEqual(ownProps, ['name']);
 ```
 
-The `prototypeProps` array should only contain `numLegs`.
+`prototypeProps` 배열은 오직 `numLegs`을 가져야 합니다.
 
 ```js
 assert.deepEqual(prototypeProps, ['numLegs']);
 ```
 
-You should solve this challenge without using the built in method `Object.keys()`.
+내장 메소드인 `Object.keys()`을 사용하지 않고 과제를 해결해야 합니다.
 
 ```js
 assert(!/\Object.keys/.test(__helpers.removeJSComments(code)));

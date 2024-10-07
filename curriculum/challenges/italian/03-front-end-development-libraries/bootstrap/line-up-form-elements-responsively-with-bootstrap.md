@@ -13,7 +13,7 @@ dashedName: line-up-form-elements-responsively-with-bootstrap
 
 # --description--
 
-Ora mettiamo il tuo `input` e il `button` di invio del form sulla stessa linea. Lo faremo come in precedenza: usando un elemento `div` di classe `row`, e altri elementi `div` al suo interno usando la classe `col-xs-*`.
+Now let's get your form `input` and your submission `button` on the same line. We'll do this the same way we have previously: by using a `div` element with the class `row`, and other `div` elements within it using the `col-xs-*` class.
 
 Annida sia il l'`input` di testo che il `button` di invio all'interno di un `div` di classe `row`. Annida il tuo `input` di testo all'interno di un div di classe `col-xs-7`. Annida il tuo `button` di invio in un `div` di classe `col-xs-5`.
 

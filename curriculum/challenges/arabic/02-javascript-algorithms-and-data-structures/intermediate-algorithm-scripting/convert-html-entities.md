@@ -8,7 +8,7 @@ dashedName: convert-html-entities
 
 # --description--
 
-قم بتحويل الأحرف `&`, `<`, `>`, `"` (علامات اقتباس ازدواجية) و `'` (الفاصلة العليا) ، في string لكيانات الـ HTML المقابلة لها.
+Convert the characters `&`, `<`, `>`, `"` (double quote), and `'` (apostrophe), in a string to their corresponding HTML entities.
 
 # --hints--
 

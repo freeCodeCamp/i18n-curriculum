@@ -8,7 +8,7 @@ dashedName: match-all-numbers
 
 # --description--
 
-已經瞭解了常見字符串匹配模式的元字符，如字母數字。 另一個常見的匹配模式是隻尋找數字。
+You've learned shortcuts for common string patterns like alphanumerics. Another common pattern is looking for just digits or numbers.
 
 查找數字字符的縮寫是 `\d`，注意是小寫的 `d`。 這等同於元字符 `[0-9]`，它查找 0 到 9 之間任意數字的單個字符。
 
@@ -24,7 +24,7 @@ dashedName: match-all-numbers
 assert(/\\d/.test(numRegex.source));
 ```
 
-您的正則表達式應該使用全局標識。
+你的正則表達式應該使用全局標識。
 
 ```js
 assert(numRegex.global);

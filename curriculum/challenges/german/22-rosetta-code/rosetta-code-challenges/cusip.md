@@ -8,7 +8,7 @@ dashedName: cusip
 
 # --description--
 
-A **CUSIP** is a nine-character alphanumeric code that identifies a North American financial security for the purposes of facilitating clearing and settlement of trades. The CUSIP was adopted as an American National Standard under Accredited Standards X9.6.
+Eine **CUSIP** ist ein neunstelliger alphanumerischer Code, der ein nordamerikanisches Finanzpapier zum Zwecke der Erleichterung des Clearings und der Abwicklung von Geschäften identifiziert. Die CUSIP wurde als American National Standard unter der akkreditierten Norm X9.6 angenommen.
 
 # --instructions--
 

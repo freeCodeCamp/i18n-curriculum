@@ -8,7 +8,7 @@ dashedName: run-functional-tests-on-an-api-response-using-chai-http-iii---put-me
 
 # --description--
 
-Нагадуємо, що цей проєкт створюється на основі наступного стартового проєкту на <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a> або клонований з <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
+As a reminder, this project is being built upon the following starter project on <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>, or cloned from <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
 
 Під час тесту запиту `PUT` ви часто будете надсилати й дані. Дані, які поміщені у вашому запиті `PUT`, називаються тілом запиту.
 
@@ -51,7 +51,7 @@ chai
 
 Перевірте наступне у межах зворотнього виклику `request.end`:
 
-1.  `status` має бути `200`
+1.  The `status` should be `200`
 2.  `type` має бути `application/json`
 3.  `body.name` має бути `Cristoforo`
 4.  `body.surname` має бути `Colombo`

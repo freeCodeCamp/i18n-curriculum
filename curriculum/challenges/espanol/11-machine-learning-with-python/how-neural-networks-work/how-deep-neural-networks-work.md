@@ -6,11 +6,11 @@ videoId: zvalnHWGtx4
 dashedName: how-deep-neural-networks-work
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-¿Por qué es mejor calcular la gradiente (pendiente) directamente que numéricamente?
+Why is it better to calculate the gradient (slope) directly rather than numerically?
 
 ## --answers--
 

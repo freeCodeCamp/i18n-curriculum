@@ -8,7 +8,7 @@ dashedName: use-caution-when-reinitializing-variables-inside-a-loop
 
 # --description--
 
-Manchmal ist es notwendig, innerhalb einer Schleife Informationen zu speichern, Zähler zu erhöhen oder Variablen neu zu setzen. Ein mögliches Problem ist, wenn Variablen reinitialisiert werden sollten, es aber nicht geschehen ist, oder andersherum. Das ist besonders gefährlich, wenn du die Variable, die für die Endbedingung verwendet wird, versehentlich zurücksetzt und damit eine Endlosschleife auslöst.
+Sometimes it's necessary to save information, increment counters, or re-set variables within a loop. A potential issue is when variables either should be reinitialized, and aren't, or vice versa. This is particularly dangerous if you accidentally reset the variable being used for the terminal condition, causing an infinite loop.
 
 Wenn du die Variablenwerte bei jedem Zyklus deiner Schleife mit `console.log()` ausdruckst, kannst du ein fehlerhaftes Verhalten aufdecken, das mit dem Zurücksetzen oder dem Nichtzurücksetzen einer Variablen zusammenhängt.
 

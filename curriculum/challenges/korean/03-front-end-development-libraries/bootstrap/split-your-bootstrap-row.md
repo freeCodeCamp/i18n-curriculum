@@ -8,7 +8,7 @@ dashedName: split-your-bootstrap-row
 
 # --description--
 
-부트스트랩 행을 가지게 되었으니 요소들을 배치하기 위해 행을 두 열로 나누어 보겠습니다.
+Now that we have a Bootstrap Row, let's split it into two columns to house our elements.
 
 행에 `col-xs-6` 클래스를 가진 두 개의 `div` 요소를 만드세요.
 

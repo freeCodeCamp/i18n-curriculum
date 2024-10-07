@@ -9,7 +9,7 @@ dashedName: write-reusable-javascript-with-functions
 
 # --description--
 
-在 JavaScript 中，我们可以把代码的重复部分抽取出来，放到一个函数 （<dfn>functions</dfn>）中。
+In JavaScript, we can divide up our code into reusable parts called <dfn>functions</dfn>.
 
 举个例子：
 
@@ -25,7 +25,7 @@ function functionName() {
 
 <ol>
   <li>
-    先创建一个名为 <code>reusableFunction</code> 的函数，这个函数打印 <code>Hi World</code> 到控制台上。
+    Create a function called <code>reusableFunction</code> which prints the string <code>Hi World</code> to the dev console.
   </li>
   <li>
     然后调用这个函数。

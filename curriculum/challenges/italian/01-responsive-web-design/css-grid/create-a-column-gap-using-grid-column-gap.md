@@ -9,7 +9,7 @@ dashedName: create-a-column-gap-using-grid-column-gap
 
 # --description--
 
-Finora, nelle griglie che hai creato le colonne erano attaccate l'una contro l'altra. A volte potresti volere uno spazio tra le colonne. Per aggiungere uno spazio tra le colonne, utilizza la proprietà `grid-column-gap` in questo modo:
+So far in the grids you have created, the columns have all been tight up against each other. Sometimes you want a gap in between the columns. To add a gap between the columns, use the `grid-column-gap` property like this:
 
 ```css
 grid-column-gap: 10px;

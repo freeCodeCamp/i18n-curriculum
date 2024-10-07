@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: reading-files
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-What is used to indicate a new line in a string?
+¿Qué se utiliza para indicar una nueva línea en una cadena?
 
 ## --answers--
 

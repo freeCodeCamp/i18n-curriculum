@@ -12,7 +12,7 @@ dashedName: add-font-awesome-icons-to-our-buttons
 
 # --description--
 
-Font Awesome ist eine komfortable Bibliothek für Icons. Diese Icons können Web Fonts (Schriften) oder Vektorgrafiken sein. Diese Icons werden genau wie Schriftarten behandelt. Du kannst ihre Größe mithilfe von Pixeln angeben und sie nehmen die Schriftgröße ihrer übergeordneten HTML-Elementen an.
+Font Awesome is a convenient library of icons. These icons can be webfonts or vector graphics. These icons are treated just like fonts. You can specify their size using pixels, and they will assume the font size of their parent HTML elements.
 
 Du kannst Font Awesome in jede App einbinden, indem du den folgenden Code oben in deinem HTML-Code hinzufügst:
 

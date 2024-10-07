@@ -1,6 +1,6 @@
 ---
 id: 5ea9997bbec2e9bc47e94dae
-title: Introduction and Setup
+title: مقدمة و التسطيب
 challengeType: 11
 videoId: XeQ7ZKtb998
 bilibiliIds:
@@ -18,17 +18,17 @@ What code editor and extension does the instructor recommend for developing pene
 
 ## --answers--
 
-Atom and the atom-python-run extension.
+Atom وامتداد atom-python-run.
 
 ---
 
-VSCode and Microsoft's Python extension.
+VSCode وامتداد Python من Microsoft.
 
 ---
 
-Sublime Text and the Anaconda package.
+sublime text وحزمة أناكوندا.
 
 ## --video-solution--
 
-2
+الثاني
 

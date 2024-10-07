@@ -11,19 +11,19 @@ dashedName: step-31
 
 # --hints--
 
-Ваш елемент `figcaption` повинен мати початковий теґ. Початкові теґи мають такий синтаксис: `<elementName>`.
+Елемент `figcaption` повинен мати початковий тег. Початкові теги мають такий синтаксис: `<elementName>`.
 
 ```js
 assert(document.querySelectorAll('figcaption').length === 2);
 ```
 
-Ваш елемент `figcaption` повинен мати кінцевий теґ. Кінцеві теґи мають `/` відразу після символу `<`.
+Елемент `figcaption` повинен мати кінцевий тег. Кінцеві теги мають `/` одразу після символу `<`.
 
 ```js
 assert(code.match(/<\/figcaption\>/g).length === 2);
 ```
 
-Прямо над кінцевим теґом другого елемента `section` повинен бути елемент `figure`.
+Прямо над кінцевим тегом другого елемента `section` повинен бути елемент `figure`.
 
 ```js
 assert.strictEqual(document.querySelectorAll('main > section')?.[1]?.lastElementChild?.nodeName, 'FIGURE');
@@ -39,13 +39,13 @@ assert(
 );
 ```
 
-Ваш елемент `figure` повинен мати початковий теґ. Початкові теґи мають такий синтаксис: `<elementName>`.
+Елемент `figure` повинен мати початковий тег. Початкові теги мають такий синтаксис: `<elementName>`.
 
 ```js
 assert(document.querySelectorAll('figure').length === 2);
 ```
 
-Ваш елемент `figure` повинен мати кінцевий теґ. Кінцеві теґи мають `/` відразу після символу `<`.
+Елемент `figure` повинен мати кінцевий тег. Кінцеві теги мають `/` одразу після символу `<`.
 
 ```js
 assert(code.match(/<\/figure\>/g).length === 2);
@@ -66,7 +66,7 @@ assert(
 );
 ```
 
-Елемент `figcaption` повинен мати текст `Cats hate other cats.` Ви пропустили слово або маєте друкарську помилку.
+The `figcaption` element should have the text `Cats hate other cats.` You have omitted a word or have a typo.
 
 ```js
 assert(

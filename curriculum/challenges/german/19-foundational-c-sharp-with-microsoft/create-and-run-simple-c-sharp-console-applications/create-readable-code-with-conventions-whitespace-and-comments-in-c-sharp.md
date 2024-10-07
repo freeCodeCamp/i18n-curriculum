@@ -7,12 +7,12 @@ dashedName: create-readable-code-with-conventions-whitespace-and-comments-in-c-s
 
 # --description--
 
-Diese Aufgabe wird teilweise auf der Microsoft Learn-Plattform gelöst. Folge diesen Anweisungen, um die Aufgabe zu lösen:
+Diese Aufgabe wird teilweise auf der Microsoft Learn Plattform erledigt. Folge diesen Anweisungen, um die Aufgabe zu lösen:
 
 1. Gehe auf <a href="https://learn.microsoft.com/training/modules/csharp-readable-code/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/csharp-readable-code/</a> und löse alle Aufgaben für das Modul "Erstellen von lesbarem Code mit Konventionen, Leerzeichen und Kommentaren in C#". Dies ist **erforderlich**, um die "Create und Run Simple C# Console Applicaions"-Trophäe auf Microsoft Learn zu erwerben und sich für die Zertifizierungsprüfung zu qualifizieren.
 1. Wenn du damit fertig bist, komme zurück und beantworte die folgende Frage richtig.
 
-# --assignment--
+# --Auftrag--
 
 Schließe das Modul <a href="https://learn.microsoft.com/training/modules/csharp-readable-code/" target="_blank" rel="noreferrer">Erstellen von lesbarem Code mit Konventionen, Leerzeichen und Kommentaren in C#</a> auf Microsoft Learn ab. Beantworte dann die Frage unten.
 
@@ -20,7 +20,7 @@ Schließe das Modul <a href="https://learn.microsoft.com/training/modules/csharp
 
 ## --text--
 
-Which of the following is a bad reason to use a code comment?
+Welche der folgenden Gründe ist ein schlechter Grund für die Verwendung eines Code-Kommentars?
 
 ## --answers--
 

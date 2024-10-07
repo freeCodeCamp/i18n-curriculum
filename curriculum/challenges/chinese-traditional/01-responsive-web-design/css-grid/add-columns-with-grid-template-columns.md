@@ -9,7 +9,7 @@ dashedName: add-columns-with-grid-template-columns
 
 # --description--
 
-簡單地添加一個網格元素並不會有任何明顯的效果。 你還需要明確網格的結構。 在一個網格容器中使用 `grid-template-columns` 屬性可以添加一些列，示例如下：
+Simply creating a grid element doesn't get you very far. You need to define the structure of the grid as well. To add some columns to the grid, use the `grid-template-columns` property on a grid container as demonstrated below:
 
 ```css
 .container {

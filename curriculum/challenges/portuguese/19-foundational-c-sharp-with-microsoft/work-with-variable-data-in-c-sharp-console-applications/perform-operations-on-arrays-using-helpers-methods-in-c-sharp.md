@@ -20,7 +20,7 @@ Complete o módulo <a href="https://learn.microsoft.com/training/modules/csharp-
 
 ## --text--
 
-Qual método altera a ordem dos itens em um array de `string`?
+Which method changes the order of items in an `string` array?
 
 ## --answers--
 

@@ -8,7 +8,7 @@ dashedName: catch-off-by-one-errors-when-using-indexing
 
 # --description--
 
-<dfn>أخطاء يفتقد واحد</dfn> (يطلق عليه أحياناً OBOE) تظهر عندما تحاول استهداف ترتيب معين لمقطع أو قائمة (لتقسيم مقطع أو الوصول إليه)، أو عند محاولة تكرار ترتيب أكبر من الترتيب (indicies) الخاصة بهم. تبدأ ترتيب JavaScript عند الصفر، وليس عند واحد، مما يعني أن الترتيب الأخير هو دائما أقل من طول العنصر بواحد. إذا حاولت الوصول إلى ترتيب يساوي الطول، قد يقع خطأ "index out of range" مرجعي في البرنامَج أو يطبع `undefined`.
+<dfn>Off by one errors</dfn> (sometimes called OBOE) crop up when you're trying to target a specific index of a string or array (to slice or access a segment), or when looping over the indices of them. JavaScript indexing starts at zero, not one, which means the last index is always one less than the length of the item. If you try to access an index equal to the length, the program may throw an "index out of range" reference error or print `undefined`.
 
 عندما تستخدم طرق المقطع أو القائمة التي تأخذ نطاقات الترتيب كحجج، فمن المفيد قراءة الوثائق (documentation) وفهم ما إذا كانت شاملة (العنصر في الترتيب المحدد هو جزء مما تم إرجاعه) أم لا. وفيما يلي بعض الأمثلة عن الأخطاء من نوع يفتقد واحد:
 

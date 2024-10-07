@@ -8,9 +8,9 @@ dashedName: implement-binary-search
 
 # --description--
 
-Бінарний пошук — це алгоритм для пошуку елемента у відсортованому масиві з ефективністю **O(log(n))**. Він працює з використанням таких кроків:
+Binary search is an **O(log(n))** efficiency algorithm for searching a sorted array to find an element. It operates using the following steps:
 
-1. Знайдіть середнє значення (`value`) відсортованого масиву. Якщо `value == target`, поверніть `true` (значення знайдено та пошук завершено).
+1. Find the middle `value` of a sorted array. If `value == target` return `true` (The value has been found and the search is complete).
 1. Якщо `value < target`, шукайте праву половину масиву під час наступного порівняння.
 1. Якщо `value > target`, шукайте ліву половину масиву під час наступного порівняння.
 1. Якщо після пошуку в усьому масиві значення відсутнє, поверніть `false` (в масиві було проведено пошук, а значення в масиві немає).

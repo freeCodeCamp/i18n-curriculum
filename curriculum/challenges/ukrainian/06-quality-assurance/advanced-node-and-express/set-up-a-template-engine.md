@@ -10,31 +10,31 @@ dashedName: set-up-a-template-engine
 
 Робота над цими завданнями передбачає написання коду за допомогою одного з наступних методів:
 
-- Клонуйте <a href="https://github.com/freeCodeCamp/boilerplate-advancednode/" target="_blank" rel="noopener noreferrer nofollow">цей репозиторій GitHub</a> та виконайте завдання локально.
+- Clone <a href="https://github.com/freeCodeCamp/boilerplate-advancednode/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete these challenges locally.
 - Використайте <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-advancednode/" target="_blank" rel="noopener noreferrer nofollow">наш стартовий проєкт Gitpod</a>, щоб виконати ці завдання.
-- Для виконання проєкту використайте конструктор сайту на власний вибір. Переконайтеся, що приєднали усі файли з нашого репозиторію GitHub.
+- Використовуйте конструктор сайту на власний розсуд, щоб завершити проєкт. Переконайтеся, що ви зберегли всі файли з нашого репозиторію GitHub.
 
-Шаблонізатор дозволяє використовувати статистичні шаблони (наприклад ті, що написані в *Pug*) у вашому застосунку. Під час виконання коду шаблонізатор замінює змінні у шаблоні на фактичні значення, які може надати сервер. Потім шаблон перетворюється на статистичний файл HTML, який надсилається клієнту. Цей підхід спрощує дизайн сторінки HTML та дозволяє відображати змінні на сторінці без потреби викликати API з клієнта.
+A template engine enables you to use static template files (such as those written in *Pug*) in your app. At runtime, the template engine replaces variables in a template file with actual values which can be supplied by your server. Then it transforms the template into a static HTML file that is sent to the client. This approach makes it easier to design an HTML page and allows for displaying variables on the page without needing to make an API call from the client.
 
-`pug@~3.0.0` вже встановлений та вказаний як залежність у вашому файлі `package.json`.
+`pug@~3.0.0` has already been installed, and is listed as a dependency in your `package.json` file.
 
-Express повинен знати, який шаблонізатор ви використовуєте. Використайте метод `set`, щоб присвоїти `pug` як значення властивості `view engine`:
+Express needs to know which template engine you are using. Use the `set` method to assign `pug` as the `view engine` property's value:
 
 ```javascript
 app.set('view engine', 'pug');
 ```
 
-Після цього додайте ще один метод `set`, який встановлює властивість `views` вашого `app` так, щоб вона вказувала на директорію `./views/pug`. Це каже Express відображати все, що належить до цієї директорії.
+After that, add another `set` method that sets the `views` property of your `app` to point to the `./views/pug` directory. This tells Express to render all views relative to that directory.
 
-Вкінці використайте `res.render()` у маршруті своєї домашньої сторінки, передавши `index` як перший аргумент. Це зобразить шаблон `pug`.
+Finally, use `res.render()` in the route for your home page, passing `index` as the first argument. This will render the `pug` template.
 
-Якщо все пройшло за планом, то домашня сторінка більше не буде порожньою. Натомість буде повідомлення про те, що ви успішно зобразили шаблон Pug!
+If all went as planned, your app home page will no longer be blank. Instead, it will display a message indicating you've successfully rendered the Pug template!
 
-Відправте свою сторінку коли впевнились, що все правильно. Якщо виникають помилки, ви можете <a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#set-up-a-template-engine-1" target="_blank" rel="noopener noreferrer nofollow">переглянути проєкт, виконаний до цього етапу</a>.
+Підтвердіть сторінку, якщо все зрозуміло. If you're running into errors, you can <a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#set-up-a-template-engine-1" target="_blank" rel="noopener noreferrer nofollow">check out the project completed up to this point</a>.
 
 # --hints--
 
-Pug повинен бути залежністю.
+Pug should be a dependency.
 
 ```js
 async (getUserInput) => {
@@ -49,7 +49,7 @@ async (getUserInput) => {
 }
 ```
 
-Двигуном перегляду повинен бути Pug.
+View engine should be Pug.
 
 ```js
 async (getUserInput) => {
@@ -60,7 +60,7 @@ async (getUserInput) => {
 }
 ```
 
-Ви повинні встановити властивість `views` на `./views/pug`.
+You should set the `views` property of the application to `./views/pug`.
 
 ```js
 async (getUserInput) => {
@@ -86,7 +86,7 @@ async (getUserInput) => {
     }
 ```
 
-Pug повинен працювати.
+Pug має працювати.
 
 ```js
 async (getUserInput) => {

@@ -7,7 +7,7 @@ dashedName: step-47
 
 # --description--
 
-Posicione os elementos `.face` para que eles estejam a `15%` do topo.
+Position the `.face` elements so that they are `15%` from the top.
 
 # --hints--
 

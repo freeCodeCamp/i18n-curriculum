@@ -8,7 +8,7 @@ dashedName: create-a-complex-jsx-element
 
 # --description--
 
-Попереднє завдання було простим прикладом JSX, але JSX може відтворити і складніший HTML.
+The last challenge was a simple example of JSX, but JSX can represent more complex HTML as well.
 
 Важливо пам’ятати, що вкладений JSX має повертати єдиний елемент.
 

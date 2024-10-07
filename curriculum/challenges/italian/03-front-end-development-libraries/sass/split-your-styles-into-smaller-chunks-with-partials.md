@@ -8,7 +8,7 @@ dashedName: split-your-styles-into-smaller-chunks-with-partials
 
 # --description--
 
-I <dfn>Partials</dfn> in Sass sono file separati che contengono segmenti di codice CSS. Questi vengono importati e utilizzati in altri file Sass. Questo è un ottimo modo per raggruppare codice simile in un modulo per tenerlo organizzato.
+<dfn>Partials</dfn> in Sass are separate files that hold segments of CSS code. These are imported and used in other Sass files. This is a great way to group similar code into a module to keep it organized.
 
 I nomi dei partial iniziano con il carattere underscore (`_`), che dice a Sass che si tratta di un piccolo segmento di CSS e di non convertirlo in un file CSS. Inoltre, i file Sass terminano con l'estensione del file `.scss`. Per inserire il codice del partial in un altro file Sass, utilizza la direttiva `@import`.
 

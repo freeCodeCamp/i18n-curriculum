@@ -24,7 +24,7 @@ The file `RPS.py` shows an example function that you will need to update. The ex
 
 *Hint: To defeat all four opponents, your program may need to have multiple strategies that change depending on the plays of the opponent.*
 
-## التطوير
+## Development
 
 Do not modify `RPS_game.py`. Write all your code in `RPS.py`. For development, you can use `main.py` to test your code.
 

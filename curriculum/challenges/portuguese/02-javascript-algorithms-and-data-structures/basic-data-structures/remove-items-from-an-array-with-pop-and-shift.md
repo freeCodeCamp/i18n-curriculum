@@ -8,7 +8,7 @@ dashedName: remove-items-from-an-array-with-pop-and-shift
 
 # --description--
 
-Tanto `push()` e `unshift()` possuem métodos correspondentes que são quase opostos funcionais: `pop()` e `shift()`. Como você já pode ter adivinhado, em vez de adicionar, `pop()` *remove* um elemento do fim de um array, enquanto `shift()` remove um elemento do início. A diferença chave entre `pop()` e `shift()` e seus primos `push()` e `unshift()`, é que nenhum dos métodos recebe parâmetros. Cada um deles só permite que seja modificado um elemento por vez em um array.
+Both `push()` and `unshift()` have corresponding methods that are nearly functional opposites: `pop()` and `shift()`. As you may have guessed by now, instead of adding, `pop()` *removes* an element from the end of an array, while `shift()` removes an element from the beginning. The key difference between `pop()` and `shift()` and their cousins `push()` and `unshift()`, is that neither method takes parameters, and each only allows an array to be modified by a single element at a time.
 
 Vamos dar uma olhada:
 

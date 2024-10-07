@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d403616b
-title: Use Default Props
+title: Props 기본값 사용하기
 challengeType: 6
 forumTopicId: 301418
 dashedName: use-default-props
@@ -12,11 +12,11 @@ React also has an option to set default props. You can assign default props to a
 
 # --instructions--
 
-The code editor shows a `ShoppingCart` component. Define default props on this component which specify a prop `items` with a value of `0`.
+코디 편집기에 `ShoppingCart` 컴포넌트가 있습니다. 프로퍼티 기본값으로 `items` 프로퍼티의 값을 `0`으로 지정해보세요.
 
 # --hints--
 
-The `ShoppingCart` component should render.
+`ShoppingCart` 컴포넌트가 렌더링 되어야 합니다.
 
 ```js
 assert(
@@ -27,7 +27,7 @@ assert(
 );
 ```
 
-The `ShoppingCart` component should have a default prop of `{ items: 0 }`.
+`ShoppingCart` 컴포넌트는 `{ items: 0 }`의 프로퍼티 기본값을 가지고 있어야 합니다.
 
 ```js
 assert(

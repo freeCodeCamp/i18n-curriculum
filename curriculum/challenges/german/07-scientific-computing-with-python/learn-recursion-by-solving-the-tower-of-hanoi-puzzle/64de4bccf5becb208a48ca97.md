@@ -13,11 +13,11 @@ In the Tower of Hanoi puzzle, you can identify the three rods according to their
 - The second rod is an auxiliary rod, and it helps in moving the disks to the target rod.
 - The third rod is the target, where all the disks should be placed in order at the end of the game.
 
-Currently, the `move()` function does not take any parameters. Change the function declaration to take 4 parameters: `n`, `source`, `auxiliary`, and `target`. Then, pass `NUMBER_OF_DISKS` and the strings `'A'`, `'B'`, and `'C'` as arguments to your function call. The order matters.
+Currently, the `move()` function does not take any parameters. Change the function declaration to take 4 parameters: `n`, `source`, `auxiliary`, and `target`. Then, pass `NUMBER_OF_DISKS` and the strings `'A'`, `'B'`, and `'C'` as arguments to your function call. Die bestellung is wichtig.
 
 # --hints--
 
-Your `move()` function should have `n`, `source`, `auxiliary`, and `target` as the parameters. The order matters.
+Your `move()` function should have `n`, `source`, `auxiliary`, and `target` as the parameters. Die bestellung is wichtig.
 
 ```js
 ({ test: () => assert(runPython(`
@@ -27,7 +27,7 @@ Your `move()` function should have `n`, `source`, `auxiliary`, and `target` as t
 })
 ```
 
-You should pass `NUMBER_OF_DISKS` and the strings `'A'`, `'B'`, and `'C'` to `move()`. The order matters.
+You should pass `NUMBER_OF_DISKS` and the strings `'A'`, `'B'`, and `'C'` to `move()`. Die bestellung is wichtig.
 
 ```js
 ({test: () => assert.match(code, /^move\(\s*NUMBER_OF_DISKS\s*,\s*('|")A\1\s*,\s*('|")B\2\s*,\s*('|")C\3\s*\)/m)

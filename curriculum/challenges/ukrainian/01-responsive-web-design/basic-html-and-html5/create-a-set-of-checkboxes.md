@@ -9,7 +9,7 @@ dashedName: create-a-set-of-checkboxes
 
 # --description--
 
-Як правило, форми використовують <dfn>checkboxes</dfn> (прапорці) для запитань, які можуть мати більше, ніж одну відповідь.
+Forms commonly use <dfn>checkboxes</dfn> for questions that may have more than one answer.
 
 Прапорці це тип `input`.
 

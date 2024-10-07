@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443eddfaeb5bdee
-title: Build a Pinterest Clone
+title: Baue einen Pinterest-Klon
 challengeType: 4
 forumTopicId: 302352
 dashedName: build-a-pinterest-clone
@@ -10,25 +10,25 @@ dashedName: build-a-pinterest-clone
 
 **Objective:** Build an app that is functionally similar to this: <a href="https://build-a-pinterest-clone.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://build-a-pinterest-clone.freecodecamp.rocks/</a>.
 
-Erfülle die folgenden User Stories und bestehe alle Tests. Verwende Bibliotheken und APIs deiner Wahl. Gib dem Ganzen deinen persönlichen Stil.
+Erfülle die untenstehenden User Stories und bringe alle Tests zum Bestehen. Verwende die Bibliotheken oder APIs deiner Wahl. Gib dem Ganzen deinen persönlichen Stil.
 
-**User Story:** As an unauthenticated user, I can login with GitHub.
+**User Story:** Ich kann mich – als unangemeldeter Nutzer – mit GitHub einloggen.
 
-**User Story:** As an authenticated user, I can link to images.
+**User Story:** Ich kann als authentifizierter Nutzer Bilder verlinken.
 
-**User Story:** As an authenticated user, I can delete images that I've linked to.
+**User Story:** Ich kann als authentifizierter Nutzer Bilder löschen, die ich verlinkt habe.
 
-**User Story:** As an authenticated user, I can see a Pinterest-style wall of all the images I've linked to.
+**User Story:** Ich kann als authentifizierter Nutzer meine verlinkten Bilder auf einer Pinnwand im Pinterest-Stil sehen.
 
-**User Story:** As an unauthenticated user, I can browse other users' walls of images.
+**User Story:** Ich kann als authentifizierter Nutzer die Bilder-Pinnwände anderer Nutzer entdecken.
 
-**User Story:** As an authenticated user, if I upload an image that is broken, it will be replaced by a placeholder image. (can use jQuery broken image detection)
+**User Story:** Als authentifizierter Nutzer wird ein von mir hochgeladenes, beschädigtes Bild durch ein Platzhalter-Bild ersetzt. (kann die Erkennung beschädigter Bilder von jQuery verwenden)
 
-**Hint:** Masonry.js is a library that allows for Pinterest-style image grids.
+**Hinweis:** Masonry.js ist eine Bibliothek, die Bildraster im Pinterest-Stil ermöglicht.
 
-Once you've finished implementing these user stories, enter the URL to your live app and, optionally, your GitHub repository. Then click the "I've completed this challenge" button.
+Sobald du die Implementierung dieser User Stories abgeschlossen hast, gib die URL zu deiner Live-App und optional zu deiner GitHub-Repository ein. Klicke dann auf den Button "Ich habe diese Herausforderung abgeschlossen".
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+Du kannst Feedback zu deinem Projekt erhalten, indem du es auf dem <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a> teilst.
 
 # --solutions--
 

@@ -8,7 +8,7 @@ dashedName: getting-started-with-react-redux
 
 # --description--
 
-この一連のチャレンジでは、React で Redux を使用する方法を紹介します。 最初に、それぞれのテクノロジーの主な原則についていくつか確認しておきましょう。 React はビューライブラリです。データを提供すると、効率的で予測可能な方法でビューをレンダーします。 Redux は状態管理フレームワークです。これを使用してアプリケーションの状態の管理を簡素化することができます。 通常、React Redux アプリでは、アプリ全体の状態を管理する単一の Redux ストアを作成します。 React コンポーネントでは、ストア内のデータのうち、それらの役割に関連するもののみにサブスクライブします。 そして、React コンポーネントから直接アクションをディスパッチすることで、ストアの更新をトリガーします。
+This series of challenges introduces how to use Redux with React. First, here's a review of some of the key principles of each technology. React is a view library that you provide with data, then it renders the view in an efficient, predictable way. Redux is a state management framework that you can use to simplify the management of your application's state. Typically, in a React Redux app, you create a single Redux store that manages the state of your entire app. Your React components subscribe to only the pieces of data in the store that are relevant to their role. Then, you dispatch actions directly from React components, which then trigger store updates.
 
 React コンポーネントで自身の状態をローカルに管理することもできますが、複雑なアプリの場合は、Redux を使用してアプリの状態を 1 か所に保つ方が通常は便利です。 ただし、個々のコンポーネントが自身に特有のローカルな状態を持つような場合は例外です。 また、Redux はそのままで React と連携するようには設計されていないため、`react-redux` パッケージを使用する必要があります。 このパッケージによって、React コンポーネントに Redux の `state` を渡して `props` として `dispatch` できるようになります。
 

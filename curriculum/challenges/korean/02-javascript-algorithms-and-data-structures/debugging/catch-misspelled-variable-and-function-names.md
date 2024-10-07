@@ -1,6 +1,6 @@
 ---
 id: 587d7b84367417b2b2512b35
-title: Catch Misspelled Variable and Function Names
+title: 오타가 있는 변수와 함수 이름을 잡아내기
 challengeType: 1
 forumTopicId: 301186
 dashedName: catch-misspelled-variable-and-function-names
@@ -10,39 +10,39 @@ dashedName: catch-misspelled-variable-and-function-names
 
 The `console.log()` and `typeof` methods are the two primary ways to check intermediate values and types of program output. Now it's time to get into the common forms that bugs take. One syntax-level issue that fast typers can commiserate with is the humble spelling error.
 
-Transposed, missing, or miscapitalized characters in a variable or function name will have the browser looking for an object that doesn't exist - and complain in the form of a reference error. JavaScript variable and function names are case-sensitive.
+변수나 함수 이름에서 글자가 바뀌거나, 빠지거나, 대소문자가 잘못된 경우 브라우저는 존재하지 않는 객체를 찾으려 하며 참조 오류(reference error) 형태로 불평할 것입니다. 자바스크립트 변수와 함수 이름은 대소문자를 구분합니다.
 
 # --instructions--
 
-Fix the two spelling errors in the code so the `netWorkingCapital` calculation works.
+코드에서 두 가지 철자 오류를 수정하여 `netWorkingCapital` 계산이 제대로 작동하게 하세요.
 
 # --hints--
 
-Check the spelling of the two variables used in the netWorkingCapital calculation, the console output should show that "Net working capital is: 2".
+netWorkingCapital 계산에 사용된 두 변수의 철자를 확인하여, 콘솔 출력에 "Net working capital is: 2"가 표시되도록 하세요.
 
 ```js
 assert(netWorkingCapital === 2);
 ```
 
-There should be no instances of misspelled variables in the code.
+코드에 오타가 있는 변수가 없어야 합니다.
 
 ```js
 assert(!__helpers.removeJSComments(code).match(/recievables/g));
 ```
 
-The `receivables` variable should be declared and used properly in the code.
+`receivables` 변수가 코드에서 올바르게 선언되고 사용되어야 합니다.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/receivables/g).length == 2);
 ```
 
-There should be no instances of misspelled variables in the code.
+코드에 오타가 있는 변수가 없어야 합니다.
 
 ```js
 assert(!__helpers.removeJSComments(code).match(/payable;/g));
 ```
 
-The `payables` variable should be declared and used properly in the code.
+`payables` 변수가 코드에서 올바르게 선언되고 사용되어야 합니다.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/payables/g).length == 2);

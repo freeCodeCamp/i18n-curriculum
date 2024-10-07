@@ -8,7 +8,7 @@ dashedName: use-the-some-method-to-check-that-any-elements-in-an-array-meet-a-cr
 
 # --description--
 
-Метод `some` працює з масивами, щоб перевірити, чи *будь-який* елемент проходить певний тест. Він повертає булеве значення `true`, якщо значення відповідає критеріям або `false`, якщо навпаки.
+The `some` method works with arrays to check if *any* element passes a particular test. It returns a Boolean value - `true` if any of the values meet the criteria, `false` if not.
 
 Наприклад, наступний код перевіряє, чи будь-який елемент в масиві `numbers` менший за 10:
 

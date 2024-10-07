@@ -9,7 +9,7 @@ dashedName: make-elements-only-visible-to-a-screen-reader-by-using-custom-css
 
 # --description--
 
-지금까지 적용된 모든 접근성 도전 과제에서 CSS를 사용하지 않았다는 것을 알아채셨나요? 이것은 시각적 디자인 측면을 생각해보기 전에 먼저 콘텐츠에서 논리적인 문서 개요와 시맨틱적으로 의미있는 태그를 사용하는 것에 대한 중요성을 보여줍니다.
+Have you noticed that all of the applied accessibility challenges so far haven't used any CSS? This shows the importance of using a logical document outline and semantically meaningful tags around your content before introducing the visual design aspect.
 
 그러나 CSS는 화면 낭독기 전용으로 의도된 콘텐츠를 화면에서는 보이지 않도록 숨기면서 페이지의 접근성을 향상시킬 수도 있습니다. 차트처럼 시각적으로 제공되는 정보에 대해서 화면 낭독기 사용자는 이를 대체할 수 있는 표와 같은 형식의 정보가 필요한데 이런 경우에 유용하게 쓰일 수 있습니다. CSS는 화면 낭독기 전용 요소를 브라우저의 시각적 영역 밖에 배치하는 데(브라우저 창 안에서는 보이지 않도록) 사용됩니다.
 
@@ -29,7 +29,7 @@ dashedName: make-elements-only-visible-to-a-screen-reader-by-using-custom-css
 **참고:** 다음 CSS 방법들은 동일한 작업을 수행하지 않습니다.
 
 <ul>
-<li><code>display: none;</code> 또는 <code>visibility: hidden;</code>은 화면 낭독기 사용자를 포함한 모든 사용자에게 콘텐츠를 숨깁니다.</li>
+<li><code>display: none;</code> or <code>visibility: hidden;</code> hides content for everyone, including screen reader users</li>
 <li>픽셀 크기를 0으로 만드는 경우, 예를 들어 <code>width: 0px; height: 0px;</code>은 해당 요소를 문서의 흐름에서 제거하므로 화면 낭독기에서 무시됩니다.</li>
 </ul>
 

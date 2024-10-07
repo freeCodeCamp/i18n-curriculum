@@ -9,7 +9,7 @@ dashedName: introducing-else-statements
 
 # --description--
 
-Якщо умова інструкції `if` правильна, то виконується наступний блок коду. А якщо умова хибна? Зазвичай нічого не станеться. У випадку інструкції `else` може спрацювати альтернативний блок коду.
+When a condition for an `if` statement is true, the block of code following it is executed. What about when that condition is false? Normally nothing would happen. With an `else` statement, an alternate block of code can be executed.
 
 ```js
 if (num > 10) {

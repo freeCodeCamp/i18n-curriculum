@@ -1,6 +1,6 @@
 ---
 id: 5e8f2f13c4cdbe86b5c72d9e
-title: 'Natural Language Processing With RNNs: Sentiment Analysis'
+title: 'Verarbeitung natürlicher Sprache mit RNN: Sentiment Detection'
 challengeType: 11
 videoId: lYeLtu8Nq7c
 bilibiliIds:

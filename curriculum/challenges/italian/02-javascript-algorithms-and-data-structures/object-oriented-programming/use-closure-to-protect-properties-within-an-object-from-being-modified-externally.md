@@ -10,7 +10,7 @@ dashedName: >-
 
 # --description--
 
-Nella sfida precedente, `bird` aveva una proprietà pubblica `name`. È considerata pubblica perché può essere consultata e modificata dal di fuori della definizione di `bird`.
+In the previous challenge, `bird` had a public property `name`. It is considered public because it can be accessed and changed outside of `bird`'s definition.
 
 ```js
 bird.name = "Duffy";

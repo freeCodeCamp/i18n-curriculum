@@ -18,19 +18,19 @@ The next few video lessons will reference [this Colab notebook](https://colab.re
 
 ## --text--
 
-Una rete neurale densamente collegata è una in cui...:
+A densely connected neural network is one in which...:
 
 ## --answers--
 
-tutti i neuroni nello strato corrente sono collegati a un neurone nello strato precedente.
+all the neurons in the current layer are connected to one neuron in the previous layer.
 
 ---
 
-tutti i neuroni in ogni livello sono collegati in modo casuale.
+all the neurons in each layer are connected randomly.
 
 ---
 
-tutti i neuroni dello strato corrente sono collegati ad ogni neurone dello strato precedente.
+all the neurons in the current layer are connected to every neuron in the previous layer.
 
 ## --video-solution--
 

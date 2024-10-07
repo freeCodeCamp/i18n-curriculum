@@ -9,7 +9,7 @@ dashedName: change-an-elements-relative-position
 
 # --description--
 
-在 CSS 裏一切 HTML 元素皆爲盒子，也就是通常所說的<dfn>盒模型</dfn>。 塊級元素自動從新的一行開始（比如標題、段落以及 div），行內元素排列在上一個元素後（比如圖片以及 span）。 元素默認按照這種方式佈局稱爲文檔的<dfn>普通流</dfn>，同時 CSS 提供了 position 屬性來覆蓋它。
+CSS treats each HTML element as its own box, which is usually referred to as the <dfn>CSS Box Model</dfn>. Block-level items automatically start on a new line (think headings, paragraphs, and divs) while inline items sit within surrounding content (like images or spans). The default layout of elements in this way is called the <dfn>normal flow</dfn> of a document, but CSS offers the position property to override it.
 
 當元素的定位設置爲 `relative` 時，它允許你通過 CSS 指定該元素在當前文檔流頁面下的*相對*偏移量。 CSS 裏控制各個方向偏移量的屬性是 `left`、`right`、`top` 和 `bottom`。 它們代表從原來位置向遠離該方向*偏移*指定的像素、百分比或者 em。 下面的例子展示了段落向上偏移 10px：
 

@@ -9,7 +9,7 @@ dashedName: make-elements-only-visible-to-a-screen-reader-by-using-custom-css
 
 # --description--
 
-Ви помітили, що в жодному з попередніх завдань, пов'язаних із доступністю, не використовувався CSS? Це демонструє важливість використання логічної структури документа і семантично змістовних теґів у вашому контенті перед тим, як вводити візуальний дизайн.
+Have you noticed that all of the applied accessibility challenges so far haven't used any CSS? This shows the importance of using a logical document outline and semantically meaningful tags around your content before introducing the visual design aspect.
 
 Однак магія CSS також може поліпшити доступність вашої сторінки, якщо ви маєте на меті приховати вміст, призначений виключно для читання з екрану. Це трапляється, коли інформація міститься у візуальному форматі (наприклад, на графіку), але користувачі програми для читання потребують альтернативної подачі (у таблиці), щоб мати до неї доступ. CSS використовується для розміщення елементів екрану тільки для читання з візуальної зони вікна браузера.
 
@@ -29,7 +29,7 @@ dashedName: make-elements-only-visible-to-a-screen-reader-by-using-custom-css
 **Примітка:** Наступні підходи CSS НЕ будуть робити те саме:
 
 <ul>
-<li><code>display: none;</code> чи <code>visibility: hidden;</code> приховують вміст від усіх, включаючи користувачів програми зчитування з екрана</li>
+<li><code>display: none;</code> or <code>visibility: hidden;</code> hides content for everyone, including screen reader users</li>
 <li>Нульові значення для піксельних розмірів, зокрема <code>width: 0px; height: 0px;</code> вилучають цей елемент з вашого документа, тобто програма для читання з екрана буде його ігнорувати</li>
 </ul>
 

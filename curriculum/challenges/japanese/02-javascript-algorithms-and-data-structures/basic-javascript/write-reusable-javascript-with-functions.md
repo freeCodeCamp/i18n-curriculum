@@ -9,7 +9,7 @@ dashedName: write-reusable-javascript-with-functions
 
 # --description--
 
-JavaScript では、コードを<dfn>関数</dfn>と呼ばれる再利用可能なパーツに分割することができます。
+In JavaScript, we can divide up our code into reusable parts called <dfn>functions</dfn>.
 
 次は関数の例です。
 
@@ -25,7 +25,7 @@ function functionName() {
 
 <ol>
   <li>
-    文字列 <code>Hi World</code> を開発コンソールに出力する <code>reusableFunction</code> という関数を作成してください。
+    Create a function called <code>reusableFunction</code> which prints the string <code>Hi World</code> to the dev console.
   </li>
   <li>
     この関数を呼び出してください。

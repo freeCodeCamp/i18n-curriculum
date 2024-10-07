@@ -9,7 +9,7 @@ dashedName: generate-random-fractions-with-javascript
 
 # --description--
 
-Випадкові числа корисні для створення випадкової поведінки.
+Random numbers are useful for creating random behavior.
 
 JavaScript має функцію `Math.random()`, яка генерує випадкові десяткові числа між `0` (включно) та `1` (виключно). Тому `Math.random()` може повернути `0`, але ніколи не поверне `1`.
 

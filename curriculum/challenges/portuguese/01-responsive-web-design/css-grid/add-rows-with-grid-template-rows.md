@@ -9,7 +9,7 @@ dashedName: add-rows-with-grid-template-rows
 
 # --description--
 
-O grid que você criou no último desafio definirá o número de linhas automaticamente. Para ajustar as linhas manualmente, use a propriedade `grid-template-rows` da mesma maneira que você usou `grid-template-columns` no desafio anterior.
+The grid you created in the last challenge will set the number of rows automatically. To adjust the rows manually, use the `grid-template-rows` property in the same way you used `grid-template-columns` in the previous challenge.
 
 # --instructions--
 

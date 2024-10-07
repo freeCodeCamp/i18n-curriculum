@@ -9,7 +9,7 @@ dashedName: use-css-selectors-to-style-elements
 
 # --description--
 
-In CSS gibt es hunderte CSS-Eigenschaften, die du verwenden kannst, um das Aussehen eines Elements auf deiner Seite zu ändern.
+With CSS, there are hundreds of CSS properties that you can use to change the way an element looks on your page.
 
 Als du `<h2 style="color: red;">CatPhotoApp</h2>` eingegeben hast, verändertest du das Styling dieses bestimmten `h2`-Elements mit Inline-CSS, was für Cascading Style Sheets (deutsch etwa: gestufte Gestaltungsbögen) steht.
 

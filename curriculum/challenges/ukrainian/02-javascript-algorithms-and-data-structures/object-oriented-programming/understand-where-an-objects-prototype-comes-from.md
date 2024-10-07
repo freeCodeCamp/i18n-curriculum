@@ -8,7 +8,7 @@ dashedName: understand-where-an-objects-prototype-comes-from
 
 # --description--
 
-Люди успадковують гени від своїх батьків, а об’єкт успадковує `prototype` від функції-конструктора, яка його створила. Наприклад, конструктор `Bird` створює об’єкт `duck`:
+Just like people inherit genes from their parents, an object inherits its `prototype` directly from the constructor function that created it. For example, here the `Bird` constructor creates the `duck` object:
 
 ```js
 function Bird(name) {

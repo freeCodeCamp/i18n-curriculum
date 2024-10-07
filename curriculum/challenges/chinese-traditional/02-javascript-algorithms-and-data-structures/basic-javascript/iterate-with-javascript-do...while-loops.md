@@ -9,7 +9,7 @@ dashedName: iterate-with-javascript-do---while-loops
 
 # --description--
 
-下一種循環叫作 `do...while` 循環。 它被稱爲 `do...while` 循環，是因爲不論什麼情況，它都會首先 `do`（運行）循環裏的第一部分代碼，然後 `while`（當）規定的條件被評估爲 `true`（真）的時候，它會繼續運行循環。
+The next type of loop you will learn is called a `do...while` loop. It is called a `do...while` loop because it will first `do` one pass of the code inside the loop no matter what, and then continue to run the loop `while` the specified condition evaluates to `true`.
 
 ```js
 const ourArray = [];

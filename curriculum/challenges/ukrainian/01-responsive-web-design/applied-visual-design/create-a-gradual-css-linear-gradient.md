@@ -9,7 +9,7 @@ dashedName: create-a-gradual-css-linear-gradient
 
 # --description--
 
-Використання кольору для елементів HTML не обмежується лише одним відтінком. CSS надає можливість використовувати переходи між кольорами, які відомі як градієнти на елементах. Це дозволено робити через функцію `background` property's `linear-gradient()`. Ось загальний порядок:
+Applying a color on HTML elements is not limited to one flat hue. CSS provides the ability to use color transitions, otherwise known as gradients, on elements. This is accessed through the `background` property's `linear-gradient()` function. Here is the general syntax:
 
 ```css
 background: linear-gradient(gradient_direction, color 1, color 2, color 3, ...);

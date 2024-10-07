@@ -8,7 +8,7 @@ dashedName: use-react-to-render-nested-components
 
 # --description--
 
-O último desafio mostrou uma maneira simples de compor dois componentes, mas há muitas maneiras diferentes que você pode compor componentes com React.
+The last challenge showed a simple way to compose two components, but there are many different ways you can compose components with React.
 
 Composição de componente é uma das funcionalidades poderosas do React. Ao trabalhar com React, é importante começar a pensar na sua interface de usuário em termos de componentes como o App exemplo no último desafio. Você divide sua interface de usuário em seus blocos de construção básicos, e essas peças se tornam os componentes. Isso ajuda a separar o código responsável pela interface do usuário do código responsável por lidar com a lógica da sua aplicação. Pode simplificar grandemente o desenvolvimento e a manutenção de projetos complexos.
 

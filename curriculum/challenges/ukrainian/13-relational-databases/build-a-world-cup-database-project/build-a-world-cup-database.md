@@ -8,7 +8,7 @@ dashedName: build-a-world-cup-database
 
 # --description--
 
-Це один з обов’язкових проєктів для отримання сертифікації. У цьому проєкті ви створите скрипт Bash, який вводить інформацію з ігор чемпіонату світу в PostgreSQL, а потім запитує базу даних для отримання статистики.
+This is one of the required projects to earn your certification. For this project, you will create a Bash script that enters information from World Cup games into PostgreSQL, then query the database for useful statistics.
 
 # --instructions--
 

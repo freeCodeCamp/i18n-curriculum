@@ -9,11 +9,11 @@ dashedName: golf-code
 
 # --description--
 
-在高尔夫游戏中，每个洞都有自己的标准杆数`par`，意思是一个高尔夫球员为了把球打进洞里完成比赛，预计要挥杆的平均次数 `strokes`。 根据你把球打进洞所挥杆的次数 `strokes` 高于或低于 `par` 多少，有一个不同的昵称（代表打高尔夫球的水平）。
+In the game of Golf, each hole has a `par`, meaning, the average number of `strokes` a golfer is expected to make in order to sink the ball in the hole to complete the play. Depending on how far above or below `par` your `strokes` are, there is a different nickname.
 
 函数将会传送两个参数，`par` 和 `strokes`。 根据下表返回正确的字符串。下表列出不同挥杆次数（从高到低）对应的字符串。
 
-<table><thead><tr><th>挥杆次数</th><th>返回字符串</th></tr></thead><tbody><tr><td>1</td><td>"Hole-in-one!"</td></tr><tr><td>&#x3C;= par - 2</td><td>"Eagle"</td></tr><tr><td>par - 1</td><td>"Birdie"</td></tr><tr><td>par</td><td>"Par"</td></tr><tr><td>par + 1</td><td>"Bogey"</td></tr><tr><td>par + 2</td><td>"Double Bogey"</td></tr><tr><td>>= par + 3</td><td>"Go Home!"</td></tr></tbody></table>
+<table><thead><tr><th>Strokes</th><th>返回字符串</th></tr></thead><tbody><tr><td>1</td><td>"Hole-in-one!"</td></tr><tr><td>&#x3C;= par - 2</td><td>"Eagle"</td></tr><tr><td>par - 1</td><td>"Birdie"</td></tr><tr><td>par</td><td>"Par"</td></tr><tr><td>par + 1</td><td>"Bogey"</td></tr><tr><td>par + 2</td><td>"Double Bogey"</td></tr><tr><td>>= par + 3</td><td>"Go Home!"</td></tr></tbody></table>
 
 `par` 和 `strokes` 必须是数字而且是正数。 题目已定义字符串的数组，便于你操作。
 

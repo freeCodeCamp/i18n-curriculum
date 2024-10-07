@@ -8,15 +8,15 @@ dashedName: exercise-tracker
 
 # --description--
 
-Crie um aplicativo full stack em JavaScript que seja funcionalmente semelhante a este: <a href="https://exercise-tracker.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://exercise-tracker.freecodecamp.rocks</a>. Trabalhar nesse projeto vai fazer com que você escreva seu código usando um dos seguintes métodos:
+Crie uma aplicação full-stack em JavaScript que seja funcionalmente semelhante a esta: <a href="https://exercise-tracker.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://exercise-tracker.freecodecamp.rocks</a>. Trabalhar nesse projeto vai fazer com que você escreva o código usando um dos seguintes métodos:
 
 -   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-exercisetracker/" target="_blank" rel="noopener noreferrer nofollow">este repositório do GitHub</a> e complete o projeto localmente.
 -   Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-exercisetracker/" target="_blank" rel="noopener noreferrer nofollow">nosso projeto inicial no Gitpod</a> para completar seu projeto.
--   Use um construtor de site de sua escolha para completar o projeto. Certifique-se de incorporar todos os arquivos do nosso repositório no GitHub.
+-   Use um criador de sites de sua escolha para completar o projeto. Certifique-se de incorporar todos os arquivos do nosso repositório no GitHub.
 
 # --instructions--
 
-Suas respostas devem ter as seguintes estruturas.
+As respostas devem ter as seguintes estruturas.
 
 Exercício:
 
@@ -69,7 +69,7 @@ Você deve fornecer seu próprio projeto, não o exemplo de URL.
 };
 ```
 
-Você pode fazer a solicitação de `POST` para `/api/users` com dados do formulário `username` para criar um novo usuário.
+Você pode fazer a solicitação de `POST` para `/api/users` com dados do formulário `username` para criar um usuário.
 
 ```js
 async (getUserInput) => {
@@ -154,7 +154,7 @@ async(getUserInput) => {
 };
 ```
 
-Você pode fazer a solicitação de `POST` para `/api/users/:_id/exercises` com os dados do formulário `description`, `duration` e, como opção, `date`. Se nenhuma data for fornecida, a data atual será utilizada.
+Você pode fazer a solicitação de `POST` para `/api/users/:_id/exercises` com dados do formulário `description`, `duration` e, como opção, a `date`. Se nenhuma data for fornecida, a data atual será utilizada.
 
 ```js
 async (getUserInput) => {
@@ -266,7 +266,7 @@ async (getUserInput) => {
 };
 ```
 
-Uma solicitação para o registro (log) de um usuário (`GET /api/users/:_id/logs`) retornará um objeto com uma propriedade `count`, que representa o número de exercícios que pertencem àquele usuário.
+Uma solicitação para o registro (log) de um usuário `GET /api/users/:_id/logs` retornará um objeto com uma propriedade `count`, que representa o número de exercícios que pertencem àquele usuário.
 
 ```js
 async (getUserInput) => {
@@ -351,7 +351,7 @@ async(getUserInput) => {
 };
 ```
 
-Cada item no array `log` que é retornado de `GET /api/users/:_id/logs` é um objeto que deve ter as propriedades `description`, uma `duration` e uma `date`.
+Cada item no array `log` que é retornado de `GET /api/users/:_id/logs` é um objeto que deve ter as propriedades `description`, `duration`, e `date`.
 
 ```js
 async(getUserInput) => {

@@ -9,7 +9,7 @@ dashedName: understand-absolute-versus-relative-units
 
 # --description--
 
-В кількох останніх завданнях ви встановлювали зовнішній чи внутрішній відступи елемента в пікселях(`px`). Пікселі - це одиниця довжини, яка вказує браузерові розмір чи місце елемента. На додачу до `px`, CSS має набір різних варіантів одиниць довжини, які можна використовувати.
+The last several challenges all set an element's margin or padding with pixels (`px`). Pixels are a type of length unit, which is what tells the browser how to size or space an item. In addition to `px`, CSS has a number of different length unit options that you can use.
 
 Є два основних типи одиниць довжини - абсолютні та відносні. Абсолютні одиниці пов'язані з фізичними одиницями довжини. Наприклад, `in` і `mm` означають дюйми і міліметри, відповідно. Абсолютні одиниці довжини приблизно відповідають реальним вимірам на екрані, але є деякі відмінності залежно від роздільної здатності екрана.
 

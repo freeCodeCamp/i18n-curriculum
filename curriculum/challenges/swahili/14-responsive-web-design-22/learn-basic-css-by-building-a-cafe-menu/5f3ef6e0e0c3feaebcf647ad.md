@@ -7,7 +7,7 @@ dashedName: step-47
 
 # --description--
 
-Ongeza kipengee cha `h2` katika sehemu mpya na ukipe maandishi `Desserts`.
+Add an `h2` element in the new section and give it the text `Desserts`.
 
 # --hints--
 

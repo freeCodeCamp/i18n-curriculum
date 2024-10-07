@@ -8,7 +8,7 @@ dashedName: define-a-constructor-function
 
 # --description--
 
-<dfn>コンストラクター</dfn>は、新しいオブジェクトを作成する関数であり、 新しいオブジェクトに属するプロパティと動作を定義します。 新しいオブジェクトを作るための青写真と考えてみてください。
+<dfn>Constructors</dfn> are functions that create new objects. They define properties and behaviors that will belong to the new object. Think of them as a blueprint for the creation of new objects.
 
 コンストラクターの例を次に示します。
 
@@ -22,7 +22,7 @@ function Bird() {
 
 このコンストラクターは、プロパティ `name`、`color`、`numLegs` をそれぞれ Albert、blue、2 に設定した `Bird` オブジェクトを定義します。 コンストラクターはいくつかの規約に従います。
 
-<ul><li>コンストラクターは、 <code>constructor</code> ではない他の関数と区別するために、大文字で始まる名前で定義する。</li><li>コンストラクターでは、作成するオブジェクトのプロパティを設定するためにキーワード <code>this</code> を使用する。 コンストラクターの中では、<code>this</code> は作成する新しいオブジェクトを参照する。</li><li>コンストラクターは、他の関数のように値を返すのではなく、プロパティと動作を定義する。</li></ul>
+<ul><li>Constructors are defined with a capitalized name to distinguish them from other functions that are not <code>constructors</code>.</li><li>コンストラクターでは、作成するオブジェクトのプロパティを設定するためにキーワード <code>this</code> を使用する。 コンストラクターの中では、<code>this</code> は作成する新しいオブジェクトを参照する。</li><li>コンストラクターは、他の関数のように値を返すのではなく、プロパティと動作を定義する。</li></ul>
 
 # --instructions--
 

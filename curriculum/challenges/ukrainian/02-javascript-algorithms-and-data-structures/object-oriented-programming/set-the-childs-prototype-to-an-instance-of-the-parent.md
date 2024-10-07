@@ -8,7 +8,7 @@ dashedName: set-the-childs-prototype-to-an-instance-of-the-parent
 
 # --description--
 
-У попередньому завданні ви побачили перший крок для успадкування поведінки від супертипу (або батька) `Animal`: створення нового екземпляру `Animal`.
+In the previous challenge you saw the first step for inheriting behavior from the supertype (or parent) `Animal`: making a new instance of `Animal`.
 
 Це завдання присвячене наступному кроку: налаштуванню `prototype` підтипу (або дочірнього елемента) — у нашому випадку `Bird` — як екземпляр `Animal`.
 

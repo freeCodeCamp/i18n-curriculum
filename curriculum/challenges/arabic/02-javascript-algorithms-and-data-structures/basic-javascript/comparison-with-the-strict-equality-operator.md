@@ -9,7 +9,7 @@ dashedName: comparison-with-the-strict-equality-operator
 
 # --description--
 
-يكون مشغل المساواة الصارمة (`===`) نظير مشغل المساواة (`==`). ومع ذلك، وخلافاً لمشغل المساواة، الذي يحاول تحويل القيمتين إلى نوع مشترك، لا يقوم مشغل المساواة الصارمة (strict equality) بإجراء تحويل من نوع إلى آخر.
+Strict equality (`===`) is the counterpart to the equality operator (`==`). However, unlike the equality operator, which attempts to convert both values being compared to a common type, the strict equality operator does not perform a type conversion.
 
 وإذا كانت القيم التي تقارن ذات أنواع مختلفة، فإنها تعدّ غير متساوية، وسيعيد مشغل المساواة الصارمة القيمة false.
 

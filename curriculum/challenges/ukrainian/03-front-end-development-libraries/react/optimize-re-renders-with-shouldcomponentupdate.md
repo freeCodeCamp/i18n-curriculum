@@ -8,7 +8,7 @@ dashedName: optimize-re-renders-with-shouldcomponentupdate
 
 # --description--
 
-Наразі, якщо компонент отримує новий стан чи пропс, він повторно відтворює себе та свої дочірні компоненти. Як правило, це нормально. Але React надає метод життєвого циклу, який можна викликати, коли дочірні компоненти отримують новий стан чи пропс, та оголосити, чи компонентам потрібне оновлення. Цей метод називається `shouldComponentUpdate()`, і він приймає `nextProps` та `nextState` як параметри.
+So far, if any component receives new `state` or new `props`, it re-renders itself and all its children. This is usually okay. But React provides a lifecycle method you can call when child components receive new `state` or `props`, and declare specifically if the components should update or not. The method is `shouldComponentUpdate()`, and it takes `nextProps` and `nextState` as parameters.
 
 Цей метод допомагає оптимізувати роботу застосунку. Наприклад, при звичайному процесі компоненти повторно відтворюються, коли отримують нові пропси, навіть якщо пропси не змінювались. Ви можете використати `shouldComponentUpdate()`, щоб уникнути цього, порівнявши пропси. Метод має повернути булеве значення (`boolean`), яке повідомляє React, чи потрібно оновити компонент. Ви можете порівняти поточні пропси (`this.props`) з наступними пропсами (`nextProps`), щоб визначити, чи потрібне оновлення, та відповідно повернути `true` чи `false`.
 

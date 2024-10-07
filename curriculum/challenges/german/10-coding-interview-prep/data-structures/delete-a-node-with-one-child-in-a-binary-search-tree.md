@@ -1,6 +1,6 @@
 ---
 id: 587d8258367417b2b2512c81
-title: Delete a Node with One Child in a Binary Search Tree
+title: Löschen eines Knotens mit einem Kind in einem binären Suchbaum
 challengeType: 1
 forumTopicId: 301638
 dashedName: delete-a-node-with-one-child-in-a-binary-search-tree
@@ -12,11 +12,11 @@ Now that we can delete leaf nodes let's move on to the second case: deleting a n
 
 # --instructions--
 
-We've provided some code in our `remove` method that accomplishes the tasks from the last challenge. We find the target to delete and its parent and define the number of children the target node has. Let's add the next case here for target nodes with only one child. Here, we'll have to determine if the single child is a left or right branch in the tree and then set the correct reference in the parent to point to this node. In addition, let's account for the case where the target is the root node (this means the parent node will be `null`). Feel free to replace all the starter code with your own as long as it passes the tests.
+Wir haben in unserer `remove`-Methode etwas Code bereitgestellt, der die Aufgaben aus der letzten Herausforderung erfüllt. Wir suchen das zu löschende Ziel und seinen übergeordneten Knoten und bestimmen die Anzahl der Kinder, die der Zielknoten hat. Fügen wir hier den nächsten Fall für Zielknoten mit nur einem Kind hinzu. Hier müssen wir feststellen, ob das einzelne Kind ein linker oder rechter Zweig im Baum ist, und dann den richtigen Verweis im übergeordneten Knoten auf diesen Knoten setzen. Außerdem müssen wir den Fall berücksichtigen, dass das Ziel der Wurzelknoten ist (das bedeutet, dass der übergeordnete Knoten `null` ist). Es steht dir frei, den gesamten Startcode durch deinen eigenen zu ersetzen, solange er die Tests besteht.
 
 # --hints--
 
-The `BinarySearchTree` data structure should exist.
+Die Datenstruktur `BinarySearchTree` sollte vorhanden sein.
 
 ```js
 assert(
@@ -30,7 +30,7 @@ assert(
 );
 ```
 
-The binary search tree should have a method called `remove`.
+Der binäre Suchbaum sollte eine Methode namens `remove` haben.
 
 ```js
 assert(
@@ -46,7 +46,7 @@ assert(
 );
 ```
 
-Trying to remove an element that does not exist should return `null`.
+Der Versuch, ein Element zu entfernen, das nicht existiert, sollte `null` zurückgeben.
 
 ```js
 assert(
@@ -65,7 +65,7 @@ assert(
 );
 ```
 
-If the root node has no children, deleting it should set the root to `null`.
+Er sollte auf `null` gesetzt werden, wenn der Wurzelknoten keine Kinder hat.
 
 ```js
 assert(
@@ -86,7 +86,7 @@ assert(
 );
 ```
 
-The `remove` method should remove leaf nodes from the tree.
+Die Methode `remove` soll Blattknoten aus dem Baum entfernen.
 
 ```js
 assert(
@@ -114,7 +114,7 @@ assert(
 );
 ```
 
-The `remove` method should remove nodes with one child.
+Die Methode `remove` sollte Knoten mit einem Kind entfernen.
 
 ```js
 assert(
@@ -141,7 +141,7 @@ assert(
 );
 ```
 
-Removing the root in a tree with two nodes should set the second to be the root.
+Das Entfernen der Wurzel in einem Baum mit zwei Knoten sollte den zweiten als Wurzel festlegen.
 
 ```js
 assert(

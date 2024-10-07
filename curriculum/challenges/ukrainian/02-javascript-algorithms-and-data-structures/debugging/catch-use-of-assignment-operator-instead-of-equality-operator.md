@@ -8,7 +8,7 @@ dashedName: catch-use-of-assignment-operator-instead-of-equality-operator
 
 # --description--
 
-Програми з розгалуженням (тобто програми, які виконують різні дії, якщо виконана певна умова) опираються на інструкції `if`, `else if` та `else` у JavaScript. Іноді умовою є перевірка того, чи результат дорівнює значенню.
+Branching programs, i.e. ones that do different things if certain conditions are met, rely on `if`, `else if`, and `else` statements in JavaScript. The condition sometimes takes the form of testing whether a result is equal to a value.
 
 Ця логіка формулюється як «якщо x дорівнює y, то...», що буквально можна перекласти в код за допомогою `=`, або оператора присвоєння. Це призводить до неочікуваного керування потоком у вашій програмі.
 

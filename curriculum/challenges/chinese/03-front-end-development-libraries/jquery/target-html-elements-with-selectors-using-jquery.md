@@ -11,7 +11,7 @@ dashedName: target-html-elements-with-selectors-using-jquery
 
 # --description--
 
-现在我们有一个 `document ready` 函数。
+Now we have a `document ready` function.
 
 首先，完成第一个 jQuery 语句。 所有的 jQuery 函数都以 `$` 开头，这个符号通常被称为美元符号（dollar sign operator）或 bling。
 

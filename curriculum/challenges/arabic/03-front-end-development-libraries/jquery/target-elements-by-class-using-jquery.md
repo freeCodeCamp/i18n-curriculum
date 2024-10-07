@@ -11,7 +11,7 @@ dashedName: target-elements-by-class-using-jquery
 
 # --description--
 
-هل تُرَى كيف ربط جميع عناصر `button` الخاص بك؟ لقد اخترناهم `$("button")`، ثم أضفنا لهم بعض فئات CSS مع `.addClass("animated bounce");`.
+You see how we made all of your `button` elements bounce? We selected them with `$("button")`, then we added some CSS classes to them with `.addClass("animated bounce");`.
 
 لقد استخدمت للتو وظائف jQuery باسم `.addClass()`، التي تسمح لك بإضافة فئات إلى العناصر.
 

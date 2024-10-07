@@ -8,7 +8,7 @@ dashedName: create-a-controlled-input
 
 # --description--
 
-Deine Anwendung kann komplexere Interaktionen zwischen dem `state` und der gerenderten Benutzeroberfläche haben. Formular-Steuerelemente für die Texteingabe, wie `input` und `textarea`, behalten ihren eigenen Status im DOM, wenn der Benutzer tippt. Mit React kannst du diesen veränderbaren Zustand in den `state` einer React-Komponente verschieben. Die Eingaben des Nutzers werden Teil des `state` der Anwendung, sodass React den Wert des Eingabefeldes kontrolliert. Wenn du React-Komponenten mit Eingabefeldern hast, in die der Nutzer etwas eingeben kann, handelt es sich in der Regel um ein kontrolliertes Eingabeformular.
+Your application may have more complex interactions between `state` and the rendered UI. For example, form control elements for text input, such as `input` and `textarea`, maintain their own state in the DOM as the user types. With React, you can move this mutable state into a React component's `state`. The user's input becomes part of the application `state`, so React controls the value of that input field. Typically, if you have React components with input fields the user can type into, it will be a controlled input form.
 
 # --instructions--
 
@@ -16,7 +16,7 @@ Der Code-Editor hat das Skelett einer Komponente namens `ControlledInput`, um ei
 
 Als erstes erstellst du eine Methode namens `handleChange()`, die einen Parameter namens `event` besitzt. Wenn die Methode aufgerufen wird, erhält sie ein `event`-Objekt, das einen String mit Text aus dem `input`-Element enthält. Auf diesen String kannst du mit `event.target.value` innerhalb der Methode zugreifen. Aktualisiere die `input`-Eigenschaft des `state` der Komponente mit diesem neuen String.
 
-In der `render`-Methode erstellst du das `input`-Element über dem `h4`-Tag. Füge ein `value`-Attribut hinzu, das gleich der `input`-Eigenschaft des `state` der Komponente ist. Then add an `onChange` property set to the `handleChange()` event handler method.
+In der `render`-Methode erstellst du das `input`-Element über dem `h4`-Tag. Füge ein `value`-Attribut hinzu, das gleich der `input`-Eigenschaft des `state` der Komponente ist. Füge dann eine `onChange`-Eigenschaft hinzu, die auf die `handleChange()`-Ereignis-Handler-Methode gesetzt ist.
 
 Wenn du in das Eingabefeld tippst, wird dieser Text von der `handleChange()`-Methode verarbeitet, als `input`-Eigenschaft im lokalen `state` gesetzt und als Wert im `input`-Feld auf der Seite dargestellt. Der `state` der Komponente ist die einzige Quelle der Wahrheit über die Eingabedaten.
 

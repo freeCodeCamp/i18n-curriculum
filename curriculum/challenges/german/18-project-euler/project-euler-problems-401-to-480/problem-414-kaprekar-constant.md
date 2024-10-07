@@ -1,6 +1,6 @@
 ---
 id: 5900f50b1000cf542c51001d
-title: 'Problem 414: Kaprekar constant'
+title: 'Problem 414: Kaprekar-Konstante'
 challengeType: 1
 forumTopicId: 302083
 dashedName: problem-414-kaprekar-constant
@@ -8,37 +8,37 @@ dashedName: problem-414-kaprekar-constant
 
 # --description--
 
-6174 is a remarkable number; if we sort its digits in increasing order and subtract that number from the number you get when you sort the digits in decreasing order, we get $7641 - 1467 = 6174$.
+6174 ist eine bemerkenswerte Zahl; wenn wir ihre Ziffern in aufsteigender Reihenfolge sortieren und diese Zahl von der Zahl subtrahieren, die man erhält, wenn man die Ziffern in absteigender Reihenfolge sortiert, erhalten wir $7641 - 1467 = 6174$.
 
-Even more remarkable is that if we start from any 4 digit number and repeat this process of sorting and subtracting, we'll eventually end up with 6174 or immediately with 0 if all digits are equal.
+Noch bemerkenswerter ist, dass wir, wenn wir von einer beliebigen vierstelligen Zahl ausgehen und diesen Prozess des Sortierens und Subtrahierens wiederholen, schließlich bei 6174 oder sofort bei 0 landen, wenn alle Ziffern gleich sind.
 
-This also works with numbers that have less than 4 digits if we pad the number with leading zeroes until we have 4 digits.
+Dies funktioniert auch mit Zahlen, die weniger als 4 Ziffern haben, wenn wir die Zahl mit führenden Nullen auffüllen, bis wir 4 Ziffern haben.
 
-E.g. let's start with the number 0837:
+Z.B. beginnen wir mit der Nummer 0837:
 
 $$\begin{align}   & 8730 - 0378 = 8352 \\\\
   & 8532 - 2358 = 6174 \end{align}$$
 
-6174 is called the Kaprekar constant. The process of sorting and subtracting and repeating this until either 0 or the Kaprekar constant is reached is called the Kaprekar routine.
+6174 wird die Kaprekar-Konstante genannt. Der Prozess des Sortierens und Subtrahierens und des Wiederholens dieses Vorgangs, bis entweder 0 oder die Kaprekar-Konstante erreicht ist, wird als Kaprekar-Routine bezeichnet.
 
-We can consider the Kaprekar routine for other bases and number of digits. Unfortunately, it is not guaranteed a Kaprekar constant exists in all cases; either the routine can end up in a cycle for some input numbers or the constant the routine arrives at can be different for different input numbers. However, it can be shown that for 5 digits and a base $b = 6t + 3 ≠ 9$, a Kaprekar constant exists.
+Wir können die Kaprekar-Routine auch für andere Basen und Stellenanzahlen verwenden. Leider ist nicht in allen Fällen gewährleistet, dass eine Kaprekar-Konstante existiert; entweder kann die Routine für einige Eingabezahlen in einem Zyklus enden oder die Konstante, die die Routine erreicht, kann für verschiedene Eingabezahlen unterschiedlich sein. Es kann jedoch gezeigt werden, dass für 5 Ziffern und eine Basis $b = 6t + 3 ≠ 9$ eine Kaprekar-Konstante existiert.
 
-E.g. base 15: ${(10, 4, 14, 9, 5)}\_{15}$ base 21: $(14, 6, 20, 13, 7)\_{21}$
+z.B. Basis 15: ${(10, 4, 14, 9, 5)}\_{15}$ Basis 21: $(14, 6, 20, 13, 7)\_{21}$
 
-Define $C_b$ to be the Kaprekar constant in base $b$ for 5 digits. Define the function $sb(i)$ to be:
+Definiere $C_b$ als die Kaprekar-Konstante zur Basis $b$ für 5 Stellen. Definiere die Funktion $sb(i)$ als:
 
-- 0 if $i = C_b$ or if $i$ written in base $b$ consists of 5 identical digits
-- the number of iterations it takes the Kaprekar routine in base $b$ to arrive at $C_b$, otherwise
+- 0 wenn $i = C_b$ oder wenn $i$ zur Basis $b$ geschrieben aus 5 identischen Ziffern besteht
+- die Anzahl der Iterationen, die die Kaprekar-Routine in der Basis $b$ benötigt, um $C_b$ zu erreichen, andernfalls
 
-Note that we can define $sb(i)$ for all integers $i &lt; b^5$. If $i$ written in base $b$ takes less than 5 digits, the number is padded with leading zero digits until we have 5 digits before applying the Kaprekar routine.
+Man beachte, dass wir $sb(i)$ für alle Integer $i &lt; b^5$ definieren können. Wenn $i$ zur Basis $b$ weniger als 5 Ziffern hat, wird die Zahl mit führenden Nullen aufgefüllt, bis sie 5 Ziffern hat, bevor die Kaprekar-Routine angewendet wird.
 
-Define $S(b)$ as the sum of $sb(i)$ for $0 &lt; i &lt; b^5$. E.g. $S(15) = 5\\,274\\,369$ $S(111) = 400\\,668\\,930\\,299$
+Definiere $S(b)$ als die Summe von $sb(i)$ für $0 &lt; i &lt; b^5$. z.B. $S(15) = 5\\,274\\,369$ $S(111) = 400\\,668\\,930\\,299$
 
-Find the sum of $S(6k + 3)$ for $2 ≤ k ≤ 300$. Give the last 18 digits as your answer.
+Finde die Summe von $S(6k + 3)$ für $2 ≤ k ≤ 300$. Gib die letzten 18 Ziffern als Antwort an.
 
 # --hints--
 
-`kaprekarConstant()` should return `552506775824935500`.
+`kaprekarConstant()` sollte `552506775824935500` zurückgeben.
 
 ```js
 assert.strictEqual(kaprekarConstant(), 552506775824935500);

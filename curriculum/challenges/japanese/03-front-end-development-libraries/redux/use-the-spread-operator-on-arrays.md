@@ -8,7 +8,7 @@ dashedName: use-the-spread-operator-on-arrays
 
 # --description--
 
-ES6 以降において、Redux で状態の不変性を強制するための解決策の一つとなるのが、スプレッド演算子 `...` です。 スプレッド演算子にはさまざまな応用例があります。前のチャレンジで、既存の配列から新しい配列を生成することを説明しましたが、スプレッド演算子の一つはそうした操作に適しています。 この構文は比較的新しいものですが、一般的に使用されています。 たとえば、配列 `myArray` があり、次のように記述するとします。
+One solution from ES6 to help enforce state immutability in Redux is the spread operator: `...`. The spread operator has a variety of applications, one of which is well-suited to the previous challenge of producing a new array from an existing array. This is relatively new, but commonly used syntax. For example, if you have an array `myArray` and write:
 
 ```js
 let newArray = [...myArray];

@@ -1,6 +1,6 @@
 ---
 id: 5900f4841000cf542c50ff97
-title: 'Problem 280: Ant and seeds'
+title: 'Problem 280: Ameise und Samen'
 challengeType: 1
 forumTopicId: 301931
 dashedName: problem-280-ant-and-seeds
@@ -8,15 +8,15 @@ dashedName: problem-280-ant-and-seeds
 
 # --description--
 
-A laborious ant walks randomly on a 5x5 grid. The walk starts from the central square. At each step, the ant moves to an adjacent square at random, without leaving the grid; thus there are 2, 3 or 4 possible moves at each step depending on the ant's position.
+Eine lästige Ameise läuft zufällig auf einem 5x5 Gitter. Der Spaziergang beginnt auf dem zentralen Rechteck. Bei jedem Schritt bewegt sich die Ameise ohne das Gitter zu verlassen, zufällig auf ein angerenzendes Quadrat; Somit gibt es je nach Position der Ameise bei jedem Schritt 2, 3 oder 4 mögliche Züge.
 
-At the start of the walk, a seed is placed on each square of the lower row. When the ant isn't carrying a seed and reaches a square of the lower row containing a seed, it will start to carry the seed. The ant will drop the seed on the first empty square of the upper row it eventually reaches.
+Zu Beginn des Spaziergangs wurde ein Samen in jedes Quadrat der unteren Reihe platziert. Wenn die Ameise keinen Samen trägt und ein Quadrat der unteren Reihe erreicht, das einen Samen enthält, beginnt sie den Samen zu tragen. Die Ameise lässt den Samen auf das erste leere Quadrat der oberen Reihe fallen, die sie schließlich erreicht.
 
-What's the expected number of steps until all seeds have been dropped in the top row? Give your answer rounded to 6 decimal places.
+Wie viele Schritte sind zu erwarten, bis alle Samen in der obersten Reihe abgelegt sind? Gib deine Antwort auf 6 Dezimalstellen gerundet an.
 
 # --hints--
 
-`antAndSeeds()` should return `430.088247`.
+`antAndSeeds()` sollte `430.088247` zurückgeben.
 
 ```js
 assert.strictEqual(antAndSeeds(), 430.088247);

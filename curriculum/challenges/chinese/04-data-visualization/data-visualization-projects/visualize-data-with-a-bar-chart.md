@@ -8,11 +8,11 @@ dashedName: visualize-data-with-a-bar-chart
 
 # --description--
 
-**目标：** 构建一个应用，功能和 <a href="https://bar-chart.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://bar-chart.freecodecamp.rocks</a> 类似。
+**Objective:** Build an app that is functionally similar to this: <a href="https://bar-chart.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://bar-chart.freecodecamp.rocks</a>.
 
-完成以下需求，并且通过所有测试。 使用你需要的任何库或 API。 赋予它你自己的个人风格。
+完成以下需求，并且通过所有测试。 你可以使用你需要的任何库或 API。 可以用你自己的样式来完成。
 
-你可以使用 HTML、JavaScript、CSS、以及基于 svg 的 D3 可视化库来完成这个挑战。 该任务需要使用 D3 的坐标轴属性生成坐标轴，这个属性会自动生成沿轴的刻度。 通过 D3 测试需要这些刻度，因为它们的位置被用来确定绘制元素的对齐方式。 You will find information about generating axes at <https://d3js.org/d3-axis>. 要求的 DOM 元素在每次测试时都会被查询。 如果你使用了前端框架（例如 Vue），那么对于动态的内容测试结果可能不准确。 我们希望最终能够兼容这些框架，但 D3 项目目前还不支持它们。
+你可以使用 HTML、JavaScript、CSS、以及基于 svg 的 D3 可视化库来完成这个挑战。 该任务需要使用 D3 的坐标轴属性生成坐标轴，这个属性会自动生成沿轴的刻度。 通过 D3 测试需要这些刻度，因为它们的位置被用来确定绘制元素的对齐方式。 你可以在 <https://d3js.org/d3-axis> 找到有关生成轴的信息。 要求的 DOM 元素在每次测试时都会被查询。 如果你使用了前端框架（例如 Vue），因为内容是动态渲染的，试结果可能不准确。 我们希望最终能够兼容这些框架，但 D3 框架目前还不支持它们。
 
 **需求 #1：** 图表应该包含一个具有 `id="title"` 属性的标题。
 

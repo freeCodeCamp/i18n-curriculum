@@ -8,7 +8,7 @@ dashedName: how-to-put-a-profile-together
 
 # --description--
 
-Una vez asegurado que el usuario que accede a `/profile` está autenticado, se puede aprovechar la información contenida en `req.user` y hacer uso de ella en la página que estamos construyendo.
+Now that you can ensure the user accessing the `/profile` is authenticated, you can use the information contained in `req.user` on your page.
 
 Pasa un objeto con la propiedad `username` y valor `req.user.username` como segundo argumento al método `render` de la vista profile.
 
@@ -26,7 +26,7 @@ Añade, también en `profile.pug`, un enlace a la ruta `/logout`, la cual alberg
 a(href='/logout') Logout
 ```
 
-Envía tu página cuando creas que está correcta. Si tienes problemas, <a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#how-to-put-a-profile-together-9" target="_blank" rel="noopener noreferrer nofollow"> aquí puedes comprobar el proyecto completado hasta este punto</a>.
+Envía tu página cuando creas que lo ha hecho bien. Si tienes problemas, <a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#how-to-put-a-profile-together-9" target="_blank" rel="noopener noreferrer nofollow"> aquí puedes comprobar el proyecto completado hasta este punto</a>.
 
 # --hints--
 

@@ -9,7 +9,7 @@ dashedName: comparison-with-the-strict-inequality-operator
 
 # --description--
 
-L'operatore di disuguaglianza stretta (`!==`) è l'opposto logico dell'operatore di uguaglianza stretta. Significa "strettamente non uguale" e restituisce `false` dove una rigorosa uguaglianza avrebbe restituito `true` e *viceversa*. L'operatore di disuguaglianza stretta non converte i tipi di dati.
+The strict inequality operator (`!==`) is the logical opposite of the strict equality operator. It means "Strictly Not Equal" and returns `false` where strict equality would return `true` and *vice versa*. The strict inequality operator will not convert data types.
 
 **Esempi**
 

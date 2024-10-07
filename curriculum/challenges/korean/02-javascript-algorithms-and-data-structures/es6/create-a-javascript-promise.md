@@ -8,7 +8,7 @@ dashedName: create-a-javascript-promise
 
 # --description--
 
-자바스크립트에서 프로미스는 정확히 들리는 대로 입니다 - 주로 비동기적으로 어떤 것을 하기 위한 약속(프로미스)을 만들기 위해 사용합니다. 작업이 완료될 때 프로미스가 성공하거나 실패하게 됩니다. `Promise`는 생성자 함수이어서 생성하기 위해서는 `new` 키워드를 사용해야 합니다. 프로미스는 두 가지 파라미터 - `resolve`와 `reject`를 인자로 두는 함수를 필요합니다. 이 두 파라미터는 해당 프로미스의 결과를 결정하기 위해 사용되는 메소드입니다. 구문은 다음과 같습니다.
+A promise in JavaScript is exactly what it sounds like - you use it to make a promise to do something, usually asynchronously. When the task completes, you either fulfill your promise or fail to do so. `Promise` is a constructor function, so you need to use the `new` keyword to create one. It takes a function, as its argument, with two parameters - `resolve` and `reject`. These are methods used to determine the outcome of the promise. The syntax looks like this:
 
 ```js
 const myPromise = new Promise((resolve, reject) => {

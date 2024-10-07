@@ -1,6 +1,6 @@
 ---
 id: 5900f40d1000cf542c50ff20
-title: 'Problem 161: Triominos'
+title: 'Problem 161: Triominoes'
 challengeType: 1
 forumTopicId: 301795
 dashedName: problem-161-triominoes

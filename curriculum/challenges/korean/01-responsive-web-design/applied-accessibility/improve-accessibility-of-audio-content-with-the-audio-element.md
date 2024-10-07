@@ -9,7 +9,7 @@ dashedName: improve-accessibility-of-audio-content-with-the-audio-element
 
 # --description--
 
-HTML5의 `audio` 요소는 마크업에서 소리나 오디오 스트림 콘텐츠를 감싸서 시맨틱 의미를 부여합니다. 청각을 잃었거나 청력이 제한된 사람들을 위해 오디오 콘텐츠에는 대체 텍스트가 필요합니다. 이는 페이지 내에서 콘텐츠 근처의 텍스트 또는 대본으로 연결된 링크를 통해 제공할 수 있습니다.
+HTML5's `audio` element gives semantic meaning when it wraps sound or audio stream content in your markup. Audio content also needs a text alternative to be accessible to people who are deaf or hard of hearing. This can be done with nearby text on the page or a link to a transcript.
 
 `audio` 태그는 `controls` 속성을 지원합니다. 이 기능은 브라우저의 기본 재생, 일시 중지 및 기타 컨트롤을 표시하며 키보드 기능을 지원합니다. 이 속성은 불리언(boolean) 속성으로, 값이 필요하지 않습니다. 태그에 이 속성이 포함되면 설정이 켜집니다.
 

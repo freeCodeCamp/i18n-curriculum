@@ -21,7 +21,7 @@ Das heißt, 3 + 7 + 4 + 9 = 23.
 
 Ermittle die maximale Summe von oben nach unten in `numTriangle`, einem im Hintergrund definierten 2D-Array, das ein Dreieck mit einhundert Zeilen enthält.
 
-**Note:** This is a much more difficult version of Problem 18. Es ist nicht möglich, alle Wege zur Lösung dieses Problems auszuprobieren, da es insgesamt 2<sup>99</sup> gibt! Wenn man jede Sekunde eine Billion (10<sup>12</sup>) Routen überprüfen könnte, würde es über zwanzig Milliarden Jahre dauern, alle zu überprüfen. Es gibt einen effizienten Algorithmus, um es zu lösen. ;o)
+**Hinweis:** Dies ist eine deutlich schwierigere Version von Problem 18. Es ist nicht möglich, alle Wege zur Lösung dieses Problems auszuprobieren, da es insgesamt 2<sup>99</sup> gibt! Wenn man jede Sekunde eine Billion (10<sup>12</sup>) Routen überprüfen könnte, würde es über zwanzig Milliarden Jahre dauern, alle zu überprüfen. Es gibt einen effizienten Algorithmus, um es zu lösen. ;o)
 
 # --hints--
 

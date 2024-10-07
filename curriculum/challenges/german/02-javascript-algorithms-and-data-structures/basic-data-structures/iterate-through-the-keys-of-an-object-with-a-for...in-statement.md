@@ -8,7 +8,7 @@ dashedName: iterate-through-the-keys-of-an-object-with-a-for---in-statement
 
 # --description--
 
-Manchmal musst du alle Schlüssel innerhalb eines Objekts durchlaufen. Du kannst dazu eine <dfn>for...in</dfn>-Schleife verwenden. Die for...in-Schleife sieht wie folgt aus:
+Sometimes you need to iterate through all the keys within an object. You can use a <dfn>for...in</dfn> loop to do this. The for...in loop looks like:
 
 ```javascript
 const refrigerator = {
@@ -23,7 +23,7 @@ for (const food in refrigerator) {
 
 Dieser Code protokolliert `milk 1`  und `eggs 12`, wobei jeder Schlüssel-Wert-Paar in einer eigenen Zeile steht.
 
-We defined the variable `food` in the loop head and this variable was set to each of the object's keys on each iteration, resulting in each food's name being printed to the console.
+Wir haben die Variable `food` im Anfang der Schleife definiert und diese Variable wurde bei jeder Iteration auf die Schlüssel des Objekts gesetzt, so dass der Name jedes Lebensmittels auf der Konsole ausgegeben wird.
 
 **HINWEIS:** Objekte behalten keine Reihenfolge der gespeicherten Schlüssel bei, wie es bei Arrays der Fall ist; daher ist die Position eines Schlüssels auf einem Objekt oder die relative Reihenfolge, in der er erscheint, irrelevant, wenn auf diesen Schlüssel verwiesen oder zugegriffen wird.
 

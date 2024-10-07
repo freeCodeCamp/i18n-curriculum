@@ -8,7 +8,7 @@ dashedName: iterate-through-all-an-arrays-items-using-for-loops
 
 # --description--
 
-Іноді при роботі з масивами дуже зручно мати можливість перебирати кожен елемент, щоб знайти один або кілька елементів, які можуть нам знадобитися, або керувати масивом в залежності від того, які елементи даних відповідають певному набору критеріїв. JavaScript надає декілька вбудованих методів, які ітерують через масиви й надають змогу досягнути певних результатів (як-от `every()`, `forEach()`, `map()` тощо). Однак найгнучкішою технікою, яка надає достатній контроль, є цикл `for`.
+Sometimes when working with arrays, it is very handy to be able to iterate through each item to find one or more elements that we might need, or to manipulate an array based on which data items meet a certain set of criteria. JavaScript offers several built in methods that each iterate over arrays in slightly different ways to achieve different results (such as `every()`, `forEach()`, `map()`, etc.), however the technique which is most flexible and offers us the greatest amount of control is a simple `for` loop.
 
 Розглянемо приклад:
 

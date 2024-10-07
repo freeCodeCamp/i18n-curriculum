@@ -8,34 +8,34 @@ dashedName: metric-imperial-converter
 
 # --description--
 
-<a href="https://metric-imperial-converter.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://metric-imperial-converter.freecodecamp.rocks/</a> と同じような機能を持つ、フルスタック JavaScript アプリを構築してください。 プロジェクトに取り組むにあたり、以下の方法のうち 1 つを用いてコードを記述します。
+Build a full stack JavaScript app that is functionally similar to this: <a href="https://metric-imperial-converter.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://metric-imperial-converter.freecodecamp.rocks/</a>. Working on this project will involve you writing your code using one of the following methods:
 
-- <a href="https://github.com/freeCodeCamp/boilerplate-project-metricimpconverter/" target="_blank" rel="noopener noreferrer nofollow">GitHub リポジトリ</a>をクローンし、ローカル環境でチャレンジを完了させる。
+- Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-metricimpconverter/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
 - Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-metricimpconverter/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete your project.
-- 使い慣れたサイトビルダーを使用してプロジェクトを完了させる。 必ず GitHub リポジトリのすべてのファイルを取り込む。
+- Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
 
 **Note:** This project's tests do not work when using `glitch.com`.
 
 # --instructions--
 
-- `/controllers/convertHandler.js` で、必要な変換ロジックを完成させてください。
+- Complete the necessary conversion logic in `/controllers/convertHandler.js`
 - `/routes/api.js` で、必要なルートを完成させてください。
-- `sample.env` ファイルを `.env` ファイルにコピーし、変数を適切に設定してください。
+- `sample.env` ファイルを `.env` にコピーし、変数を適切に設定してください。
 - To run the tests automatically, add `NODE_ENV=test` in your `.env` file
-- コンソールでテストを実行するには、コマンド `npm run test` を使用してください。
+- To run the tests in the console, use the command `npm run test`.
 
 `tests/1_unit-tests.js` に以下のテストを記述してください。
 
-- `convertHandler` は、整数の入力を正しく読み取る必要があります。
-- `convertHandler` は、小数の入力を正しく読み取る必要があります。
-- `convertHandler` は、分数の入力を正しく読み取る必要があります。
-- `convertHandler` は、小数を使用した分数の入力を正しく読み取る必要があります。
+- `convertHandler` should correctly read a whole number input.
+- `convertHandler` は、小数入力を正しく読み取る必要があります。
+- `convertHandler` は、分数入力を正しく読み取る必要があります。
+- `convertHandler` は、小数による分数入力を正しく読み取る必要があります。
 - `convertHandler` は、二重分数 (`3/2/3` など) の場合にエラーを正しく返す必要があります。
-- 数値が入力されていない場合、`convertHandler` は、デフォルトで数値 `1` を正しく入力する必要があります。
+- 数字が入力されていない場合、`convertHandler` は、デフォルトで数字 `1` を正しく入力する必要があります。
 - `convertHandler` は、それぞれの有効な入力単位を正しく読み取る必要があります。
 - `convertHandler` は、無効な入力単位の場合にエラーを正しく返す必要があります。
-- `convertHandler` は、有効な入力単位ごとに正しい戻り値の単位を返す必要があります。
-- `convertHandler` は、有効な入力単位ごとに説明の文字列を正しく返す必要があります。
+- `convertHandler` は、有効な入力単位ごとに正しい戻り値単位を返す必要があります。
+- `convertHandler` は、有効な入力単位ごとに文字列単位を略さずに正しく返す必要があります。
 - `convertHandler` は、`gal` を `L` に正しく変換する必要があります。
 - `convertHandler` は、`L` を `gal` に正しく変換する必要があります。
 - `convertHandler` は、`mi` を `km` に正しく変換する必要があります。
@@ -43,13 +43,13 @@ dashedName: metric-imperial-converter
 - `convertHandler` は、`lbs` を `kg` に正しく変換する必要があります。
 - `convertHandler` は、`kg` を `lbs` に正しく変換する必要があります。
 
-次のテストを `tests/2_functional-tests.js` に記述してください。
+`tests/2_functional-tests.js` に次のテストを記述してください。
 
-- `10L` など、有効な入力を変換する: `/api/convert` への `GET` リクエスト
-- `32g` など、無効な入力を変換する: `/api/convert` への`GET` リクエスト
-- `3/7.2/4kg` など、無効な数値を変換する: `/api/convert` への `GET` リクエスト
-- `3/7.2/4kilomegagram` など、数値も単位も無効な入力を変換する: `/api/convert` への `GET` リクエスト
-- `kg` など、数値のない入力を変換する: `/api/convert` への `GET` リクエスト
+- Convert a valid input such as `10L`: `GET` request to `/api/convert`.
+- `32g` などの無効な入力を変換してください: `/api/convert` への`GET` リクエスト
+- `3/7.2/4kg` などの無効な数字を変換してください: `/api/convert` への `GET` リクエスト
+- `3/7.2/4kilomegagram` などの無効な数字かつ単位を変換してください: `/api/convert` への `GET` リクエスト
+- `kg` などの数字のない入力を変換してください: `/api/convert` への `GET` リクエスト
 
 # --hints--
 
@@ -65,13 +65,13 @@ getUserInput => {
 };
 ```
 
-受け取った数値と単位を含む 1 つのパラメーターを設定して `/api/convert` への `GET` を実行し、変換を実行することができます。 (ヒント: 単位の始まりを示す最初の文字のインデックスを探して、入力を分割してください)
+受け取った数字と単位を含む単一のパラメータを設定して `/api/convert` への `GET` を実行し、変換を実行することができます。 (ヒント: 単位の始まりを示す最初の文字のインデックスを探して入力を分割してください)
 
 ```js
 
 ```
 
-`'gal'` を `'L'` に変換できます。その逆も可能です。 (1 gal は 3.78541 L)
+`'gal'` を `'L'` に変換できます。その逆も可能です。 (1 gal を 3.78541 L へ)
 
 ```js
 async getUserInput => {
@@ -94,7 +94,7 @@ async getUserInput => {
 };
 ```
 
-`'lbs'` を `'kg'` に変換できます。その逆も可能です。 (1 lbs は 0.453592 kg)
+`'lbs'` を `'kg'` に変換できます。その逆も可能です。 (1 lbs を 0.453592 kg へ)
 
 ```js
 async getUserInput => {
@@ -117,7 +117,7 @@ async getUserInput => {
 };
 ```
 
-`'mi'` を `'km'` に変換できます。その逆も可能です。 (1 mi は 1.60934 km)
+`'mi'` を `'km'` に変換できます。その逆も可能です。 (1 mi を 1.60934 km へ)
 
 ```js
 async getUserInput => {
@@ -140,7 +140,7 @@ async getUserInput => {
 };
 ```
 
-すべての入力単位は大文字と小文字の両方で受け付けられるようにする必要がありますが、`initUnit` と `returnUnit` はどちらも小文字で返す必要があります。ただし、リットルのみは例外で、大文字の `'L'` で表示する必要があります。
+すべての入力単位は大文字と小文字の両方で受け入れられるようにする必要がありますが、小文字の `initUnit` と `returnUnit` で返す必要があります。ただし、liter のみは例外で、大文字の `'L'` で表示する必要があります。
 
 ```js
 async getUserInput => {
@@ -163,7 +163,7 @@ async getUserInput => {
 };
 ```
 
-測定単位が無効の場合は、`'invalid unit'` を返します。
+尺度の単位が無効の場合は、`'invalid unit'` を返します。
 
 ```js
 async getUserInput => {
@@ -240,7 +240,7 @@ async getUserInput => {
 };
 ```
 
-戻り値は、`initNum`、`initUnit`、`returnNum`、`returnUnit`、およびそれぞれの単位を `'{initNum} {initUnitString} converts to {returnNum} {returnUnitString}'` という形式 (結果は小数点 5 桁に丸める) で説明した `string` で構成されます。
+`initNum`、`initUnit`、`returnNum`、`returnUnit` および `string` を返し、単位は `'{initNum} {initUnitString} converts to {returnNum} {returnUnitString}'` という形式でスペルアウトし、結果を小数点 5 桁に丸めます。
 
 ```js
 async getUserInput => {

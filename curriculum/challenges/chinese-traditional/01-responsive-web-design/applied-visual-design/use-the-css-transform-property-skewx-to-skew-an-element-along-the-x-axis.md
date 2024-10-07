@@ -9,7 +9,7 @@ dashedName: use-the-css-transform-property-skewx-to-skew-an-element-along-the-x-
 
 # --description--
 
-接下來要介紹的 `transform` 屬性是 `skewX()`：它使選擇的元素沿着 X 軸（橫向）傾斜指定的角度。
+The next function of the `transform` property is `skewX()`, which skews the selected element along its X (horizontal) axis by a given degree.
 
 下面的代碼沿着 X 軸傾斜段落元素 -32 度。
 

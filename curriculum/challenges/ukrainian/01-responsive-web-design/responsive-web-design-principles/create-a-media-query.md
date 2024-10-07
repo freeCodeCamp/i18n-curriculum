@@ -9,7 +9,7 @@ dashedName: create-a-media-query
 
 # --description--
 
-Медіа-запити є новою технікою CSS3, яка змінює представлення вмісту на основі різних розмірів області перегляду. Область перегляду — це видима область користувача веб-сторінки і відрізняється в залежності від пристрою, який використовується для доступу до сайту.
+Media Queries are a new technique introduced in CSS3 that change the presentation of content based on different viewport sizes. The viewport is a user's visible area of a web page, and is different depending on the device used to access the site.
 
 Медіа-запити складаються з типу медіа, і якщо цей тип медіа відповідає типу пристрою, на якому відображається документ, застосовуються стилі. У медіа-запиту може бути стільки селекторів та стилів, скільки Ви забажаєте.
 

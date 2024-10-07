@@ -8,9 +8,9 @@ dashedName: build-a-nightlife-coordination-app
 
 # --description--
 
-Build a full stack JavaScript app that is functionally similar to this: <a href="https://yoyo44.herokuapp.com/" target="_blank" rel="noopener noreferrer nofollow">https://yoyo44.herokuapp.com/</a>. Utiliza un constructor de sitios de tu elección para completar el proyecto.
+Build a full stack JavaScript app that is functionally similar to this: <a href="https://yoyo44.herokuapp.com/" target="_blank" rel="noopener noreferrer nofollow">https://yoyo44.herokuapp.com/</a>. Use a site builder of your choice to complete the project.
 
-A continuación se encuentran las historias de usuario específicas que debes implementar para este proyecto:
+Estas son las historias de usuario específicas que debes implementar para este proyecto:
 
 **User Story:** As an unauthenticated user, you can view all bars in your area.
 

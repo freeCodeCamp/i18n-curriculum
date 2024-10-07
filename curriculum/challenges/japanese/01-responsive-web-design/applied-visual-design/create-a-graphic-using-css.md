@@ -9,7 +9,7 @@ dashedName: create-a-graphic-using-css
 
 # --description--
 
-さまざまなセレクターやプロパティを操作することで、面白い形を作ることができます。 比較的簡単に試せるものの一つは三日月の形です。 このチャレンジでは、要素に影を設定する `box-shadow` プロパティと、要素の角の丸みをコントロールする `border-radius` プロパティを使います。
+By manipulating different selectors and properties, you can make interesting shapes. One of the easier ones to try is a crescent moon shape. For this challenge you need to work with the `box-shadow` property that sets the shadow of an element, along with the `border-radius` property that controls the roundness of the element's corners.
 
 あなたは、透明な丸いオブジェクトと、少し横にずれたくっきりした影を作ります。実際にはこの影が目に見える月の形になります。
 

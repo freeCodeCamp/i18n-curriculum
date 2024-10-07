@@ -9,7 +9,7 @@ dashedName: comparisons-with-the-logical-and-operator
 
 # --description--
 
-Іноді потрібно перевірити декілька речей одночасно. <dfn>Логічний оператор and</dfn> (`&&`) повертає `true` лише за умови, що <dfn>операнди</dfn> зліва та справа істинні.
+Sometimes you will need to test more than one thing at a time. The <dfn>logical and</dfn> operator (`&&`) returns `true` if and only if the <dfn>operands</dfn> to the left and right of it are true.
 
 Такого ж результату можна досягнути, вклавши одну інструкцію `if` в іншу `if`.
 

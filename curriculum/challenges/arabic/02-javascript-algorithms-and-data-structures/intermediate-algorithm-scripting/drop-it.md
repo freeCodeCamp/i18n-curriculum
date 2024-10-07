@@ -8,7 +8,7 @@ dashedName: drop-it
 
 # --description--
 
-بالنظر إلى المصفوفة `arr` ، كرر وأزل كل عنصر بدءًا من العنصر الأول (الفهرس 0) حتى تعرض الوظيفة `func` القيمة `true` عندما يتم تمرير العنصر المتكرر من خلالها.
+Given the array `arr`, iterate through and remove each element starting from the first element (the 0 index) until the function `func` returns `true` when the iterated element is passed through it.
 
 ثم ارجع بقية ال array بمجرد استيفاء الشرط، وإلا ، يجب إرجاع `arr` كـ array فارغة.
 

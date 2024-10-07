@@ -11,7 +11,7 @@ dashedName: target-a-specific-child-of-an-element-using-jquery
 
 # --description--
 
-Du hast gesehen, warum id-Attribute so praktisch für das Auswählen mit jQuery-Selektoren sind. Aber du wirst nicht immer saubere ids haben, mit denen du arbeiten kannst.
+You've seen why id attributes are so convenient for targeting with jQuery selectors. But you won't always have such neat ids to work with.
 
 Zum Glück gibt es in jQuery noch ein paar andere Tricks, um die richtigen Elemente zu finden.
 

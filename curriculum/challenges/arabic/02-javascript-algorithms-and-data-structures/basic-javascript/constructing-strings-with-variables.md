@@ -9,9 +9,9 @@ dashedName: constructing-strings-with-variables
 
 # --description--
 
-أحيانا قد تحتاج إلي إنشاء مقطع نصي. باستخدام مشغل الضم الآتي (`+`)، يمكنك إدخال متغير واحد أو أكثر في المقطع الذي تقوم ببنائه.
+Sometimes you will need to build a string. By using the concatenation operator (`+`), you can insert one or more variables into a string you're building.
 
-مثال:
+على سبيل المثال:
 
 ```js
 const ourName = "freeCodeCamp";

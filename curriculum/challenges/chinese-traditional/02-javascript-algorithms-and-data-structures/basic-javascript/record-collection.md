@@ -8,18 +8,18 @@ dashedName: record-collection
 
 # --description--
 
-你將創建一個幫助維護音樂專輯集的函數。 這個集合是一個包含多個相冊的對象，這些相冊也是對象。 每張專輯在集合中以唯一的 `id` 作爲屬性名來表示。 在每個專輯對象中，有各種描述專輯信息的屬性。 並非所有專輯都有完整的信息。
+You are creating a function that aids in the maintenance of a musical album collection. The collection is organized as an object that contains multiple albums which are also objects. Each album is represented in the collection with a unique `id` as the property name. Within each album object, there are various properties describing information about the album. Not all albums have complete information.
 
 `updateRecords` 函數有 4 個參數，即以下參數：
 
--   `records` - 一個包含多個專輯的對象
--   `id` - 一個數字，代表 `records` 對象中特定的專輯
--   `prop` - 一個字符串，代表相冊屬性名稱
--   `value` - 一個字符串，包含用來更新相冊屬性的信息
+-   `records` - an object containing several individual albums
+-   `id` - a number representing a specific album in the `records` object
+-   `prop` - a string representing the name of the album’s property to update
+-   `value` - a string containing the information used to update the album’s property
 
 使用下面的規則完成函數來修改傳遞給函數的對象。
 
--   你的函數必須始終返回整個 `records` 對象。
+-   Your function must always return the entire `records` object.
 -   如果 `value` 是空字符串，從專輯裏刪除指定的 `prop`。
 -   如果 `prop` 不是 `tracks`，並且 `value` 不是一個空字符串，將 `value` 賦給那個專輯的 `prop`。
 -   如果 `prop` 是 `tracks` 並且 `value` 不是空字符串，但是專輯沒有 `tracks` 屬性，爲該屬性創建一個空數組並添加 `value` 作爲其元素。

@@ -1,6 +1,6 @@
 ---
 id: 587d8251367417b2b2512c65
-title: Remove Elements from a Linked List by Index
+title: Entfernen von Elementen aus einer verknüpften Liste nach Index
 challengeType: 1
 forumTopicId: 301711
 dashedName: remove-elements-from-a-linked-list-by-index
@@ -10,21 +10,21 @@ dashedName: remove-elements-from-a-linked-list-by-index
 
 Before we move on to another data structure, let's get a couple of last bits of practice with linked lists.
 
-Let's write a `removeAt` method that removes the `element` at a given `index`. The method should be called `removeAt(index)`. To remove an `element` at a certain `index`, we'll need to keep a running count of each node as we move along the linked list.
+Schreiben wir eine `removeAt`-Methode, die das `element` bei einem bestimmten `index` entfernt. Die Methode sollte `removeAt(index)` heißen. Um ein `element` an einem bestimmten `index` zu entfernen, müssen wir jeden Knoten zählen, während wir uns durch die verknüpfte Liste bewegen.
 
-A common technique used to iterate through the elements of a linked list involves a <dfn>'runner'</dfn>, or sentinel, that 'points' at the nodes that your code is comparing. In our case, starting at the `head` of our list, we start with a `currentIndex` variable that starts at `0`. The `currentIndex` should increment by one for each node we pass.
+Eine gängige Technik zur Iteration durch die Elemente einer verknüpften Liste beinhaltet einen <dfn>'runner'</dfn> oder Sentinel, der auf die Knoten zeigt, die deinen Code vergleichen. In unserem Fall beginnen wir bei `head` unserer Liste mit einer `currentIndex`-Variablen, die bei `0` beginnt. Der `currentIndex` sollte für jeden übergebenen Knoten um eins erhöht werden.
 
-Just like our `remove(element)` method, which <a href="/learn/coding-interview-prep/data-structures/remove-elements-from-a-linked-list" target="_blank" rel="noopener noreferrer nofollow">we covered in a previous lesson</a>, we need to be careful not to orphan the rest of our list when we remove the node in our `removeAt(index)` method. We keep our nodes contiguous by making sure that the node that has reference to the removed node has a reference to the next node.
+Genau wie bei unserer `remove(element)`-Methode, die <a href="/learn/coding-interview-prep/data-structures/remove-elements-from-a-linked-list" target="_blank" rel="noopener noreferrer nofollow">wir in einer früheren Lektion behandelt haben</a>, müssen wir darauf achten, dass der Rest unserer Liste nicht verwaist, wenn wir den Knoten in unserer `removeAt(index)`-Methode entfernen. Wir halten unsere Knoten zusammenhängend, indem wir sicherstellen, dass der Knoten, der einen Verweis auf den entfernten Knoten hat, einen Verweis auf den nächsten Knoten hat.
 
 # --instructions--
 
-Write a `removeAt(index)` method that removes and returns a node at a given `index`. The method should return `null` if the given `index` is either negative, or greater than or equal to the `length` of the linked list.
+Schreibe eine `removeAt(index)`-Methode, die einen Knoten an einem bestimmten `index` entfernt und zurückgibt. Die Methode sollte `null` zurückgeben, wenn das angegebene `index` entweder negativ oder größer oder gleich dem `length` der verknüpften Liste ist.
 
-**Note:** Remember to keep count of the `currentIndex`.
+**Note:** Vergiss nicht, den `currentIndex` zu zählen.
 
 # --hints--
 
-Your `LinkedList` class should have a `removeAt` method.
+Deine `LinkedList` Klasse sollte eine `removeAt` Methode haben.
 
 ```js
 assert(
@@ -35,7 +35,7 @@ assert(
 );
 ```
 
-Your `removeAt` method should reduce the `length` of the linked list by one.
+Deine `removeAt`-Methode sollte die `length` der verknüpften Liste um eins reduzieren.
 
 ```js
 assert(
@@ -50,7 +50,7 @@ assert(
 );
 ```
 
-Your `removeAt` method should remove the element at the specified index from the linked list.
+Deine `removeAt` Methode sollte das Element am angegebenen Index aus der verknüpften Liste entfernen.
 
 ```js
 assert(
@@ -69,7 +69,7 @@ assert(
 );
 ```
 
-When only one element is present in the linked list, your `removeAt` method should remove and return the element at specified index, and reduce the length of the linked list.
+Wenn nur ein Element in der verknüpften Liste vorhanden ist, sollte deine `removeAt`-Methode das Element am angegebenen Index entfernen und zurückgeben, und die Länge der verknüpften Liste verringern.
 
 ```js
 assert(
@@ -82,7 +82,7 @@ assert(
 );
 ```
 
-Your `removeAt` method should return the element of the removed node.
+Deine `removeAt` Methode sollte das Element des entfernten Knotens zurückgeben.
 
 ```js
 assert(
@@ -96,7 +96,7 @@ assert(
 );
 ```
 
-Your `removeAt` method should return `null` and the linked list should not change if the given index is less than `0`.
+Deine `removeAt`-Methode sollte `null` zurückgeben und die verknüpfte Liste sollte sich nicht ändern, wenn der angegebene Index kleiner als `0` ist.
 
 ```js
 assert(
@@ -115,7 +115,7 @@ assert(
 );
 ```
 
-Your `removeAt` method should return `null` and the linked list should not change if the given index is greater than or equal to the `length` of the list.
+Deine `removeAt`-Methode sollte `null` zurückgeben und die verknüpfte Liste sollte sich nicht ändern, wenn der angegebene Index größer oder gleich der `length` der Liste ist.
 
 ```js
 assert(

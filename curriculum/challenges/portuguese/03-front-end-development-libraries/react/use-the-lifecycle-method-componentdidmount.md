@@ -8,7 +8,7 @@ dashedName: use-the-lifecycle-method-componentdidmount
 
 # --description--
 
-A maioria dos desenvolvedores web, em algum momento, precisa chamar uma rota de uma API para recuperar dados. Se você está trabalhando com React, é importante saber onde executar esta ação.
+Most web developers, at some point, need to call an API endpoint to retrieve data. If you're working with React, it's important to know where to perform this action.
 
 A melhor prática com React é colocar chamadas de API ou qualquer chamada para seu servidor no método do ciclo de vida `componentDidMount()`. Este método é chamado depois que um componente é montado no DOM. Qualquer chamada para `setState()` aqui ativará uma nova renderização do componente. Quando você chamar uma API neste método, e definir seu estado com os dados que a API retorna, ele automaticamente acionará uma atualização quando receber os dados.
 

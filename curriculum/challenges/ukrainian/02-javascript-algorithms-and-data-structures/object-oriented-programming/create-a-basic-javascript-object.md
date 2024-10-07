@@ -8,7 +8,7 @@ dashedName: create-a-basic-javascript-object
 
 # --description--
 
-Подумайте про речі, що оточують людей щодня. До прикладу, машини, крамниці, птахи. Вони є <dfn>об’єктами</dfn>: реальними речами, за якими можна як спостерігати, так і взаємодіяти з ними.
+Think about things people see every day, like cars, shops, and birds. These are all <dfn>objects</dfn>: tangible things people can observe and interact with.
 
 Якими є якості цих об’єктів? Машина має колеса. В крамниці продають продукти. У птахів є крила.
 

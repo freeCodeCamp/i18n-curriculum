@@ -9,7 +9,7 @@ dashedName: top-build-a-recipe-project
 
 El sitio web constará de una página de índice principal que tendrá enlaces a algunas recetas. La página web no será muy bonita para cuando haya terminado.
 
-**Historias de usuario:**
+**Instrucciones:**
 
 1. La página de tu receta debe contener una etiqueta `DOCTYPE`.
 1. Tu página de receta debe incluir un elemento `html` con un elemento `head` y `body` como hijos.

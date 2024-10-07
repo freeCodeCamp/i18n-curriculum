@@ -9,7 +9,7 @@ dashedName: create-a-media-query
 
 # --description--
 
-メディアクエリは CSS3 で導入された新しい手法で、異なるビューポートサイズに基づいてコンテンツの表示を変更するものです。 ビューポートとは、Web ページでユーザーが見ることが可能な領域のことであり、サイトアクセス時に使用されているデバイスによって異なります。
+Media Queries are a new technique introduced in CSS3 that change the presentation of content based on different viewport sizes. The viewport is a user's visible area of a web page, and is different depending on the device used to access the site.
 
 メディアクエリはメディアタイプで構成されており、そのメディアタイプがドキュメントを表示しているデバイスのタイプと一致する場合、該当するスタイルが適用されます。 メディアクエリ内に必要な数だけセレクターやスタイルを指定できます。
 

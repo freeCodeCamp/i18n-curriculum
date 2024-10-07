@@ -7,16 +7,16 @@ dashedName: modify-the-content-of-string-using-built-in-string-data-type-methods
 
 # --description--
 
-This challenge will be partially completed on the Microsoft Learn platform. Follow these instructions to complete the challenge:
+Este desafío se completará parcialmente en la plataforma de aprendizaje de Microsoft. Sigue estas instrucciones para completar el desafío:
 
 1. Go to <a href="https://learn.microsoft.com/training/modules/csharp-modify-content/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/csharp-modify-content/</a> and complete all the tasks for the "Modify the Content of Strings Using Built-In String Data Type Methods in C#" module. This is **required** to earn the "Work with Variable Data in C# Console Applications" trophy on Microsoft Learn, and qualify for the certification exam.
-1. When you are finished, come back and correctly answer the question below.
+1. Cuando haya terminado, vuelva y responda correctamente a la siguiente pregunta.
 
 # --tarea--
 
-Complete the <a href="https://learn.microsoft.com/training/modules/csharp-modify-content/" target="_blank" rel="noreferrer">Modify the Content of Strings Using Built-In String Data Type Methods in C#</a> module on Microsoft Learn. Then, answer the question below.
+Complete the <a href="https://learn.microsoft.com/training/modules/csharp-modify-content/" target="_blank" rel="noreferrer">Modify the Content of Strings Using Built-In String Data Type Methods in C#</a> module on Microsoft Learn. Luego, responda a la siguiente pregunta.
 
-# --questions--
+# --preguntas--
 
 ## --text--
 

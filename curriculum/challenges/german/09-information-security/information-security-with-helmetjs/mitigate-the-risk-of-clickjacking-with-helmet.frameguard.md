@@ -10,17 +10,17 @@ dashedName: mitigate-the-risk-of-clickjacking-with-helmet-frameguard
 
 As a reminder, this project is being built upon the following starter project on <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-infosec/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>, or cloned from <a href="https://github.com/freeCodeCamp/boilerplate-infosec/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
 
-Deine Seite könnte ohne deine Zustimmung in ein `<frame>` oder `<iframe>` gesetzt werden. Dies kann unter anderem zu Clickjacking-Attacken führen. Clickjacking is a technique of tricking a user into interacting with a page different from what the user thinks it is. This can be obtained by executing your page in a malicious context, by means of iframing. In diesem Zusammenhang kann ein Hacker eine versteckte Ebene über deine Seite legen. Versteckte Buttons können verwendet werden, um schlechte Skripte auszuführen. This middleware sets the X-Frame-Options header. It restricts who can put your site in a frame. Es gibt drei Modi: DENY, SAMEORIGIN und ALLOW-FROM.
+Deine Seite könnte ohne deine Zustimmung in ein `<frame>` oder `<iframe>` gesetzt werden. Dies kann unter anderem zu Clickjacking-Attacken führen. Clickjacking ist eine Technik, mit der ein Nutzer dazu gebracht wird, mit einer Seite zu interagieren, die nicht seinen Vorstellungen entspricht. Dies kann erreicht werden, indem deine Seite im Rahmen eines bösartigen Kontextes mittels iframing ausgeführt wird. In diesem Zusammenhang kann ein Hacker eine versteckte Ebene über deine Seite legen. Versteckte Buttons können verwendet werden, um schlechte Skripte auszuführen. Diese Middleware legt den X-Frame-Options-Header fest. Es schränkt ein, wer deine Website in einen Rahmen stellen kann. Es gibt drei Modi: DENY, SAMEORIGIN und ALLOW-FROM.
 
-We don’t need our app to be framed.
+Es ist nicht nötig, dass unsere App geframt wird.
 
 # --instructions--
 
-Use `helmet.frameguard()` passing with the configuration object `{action: 'deny'}`.
+Verwende `helmet.frameguard()` mit dem Konfigurationsobjekt `{action: 'deny'}`.
 
 # --hints--
 
-helmet.frameguard() middleware should be mounted correctly
+Die helmet.frameguard()-Middleware sollte korrekt eingebaut werden
 
 ```js
 (getUserInput) =>

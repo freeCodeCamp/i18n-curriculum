@@ -1,6 +1,6 @@
 ---
 id: 5cc0c1b32479e176caf3b422
-title: Check if Tree is Binary Search Tree
+title: Überprüfe ob ein binärer Suchbaum vorliegt
 challengeType: 1
 forumTopicId: 301624
 dashedName: check-if-tree-is-binary-search-tree
@@ -10,15 +10,15 @@ dashedName: check-if-tree-is-binary-search-tree
 
 Since you already know what a binary search tree is, this challenge will establish how it is you can tell that a tree is a binary search tree or not.
 
-The main distinction of a binary search tree is that the nodes are ordered in an organized fashion. Nodes have at most 2 child nodes (placed to the right and/or left) based on if the child node's value is greater than or equal to (right) or less than (left) the parent node.
+Das wichtigste Merkmal eines binären Suchbaumes ist es, dass die Knoten sortiert im Baum liegen. Knoten dürfen maximal 2 Kindknoten (links und rechts des Knotens) haben, abhängig davon, ob der Wert des Kindknotens größer oder gleich dem des Elternknotens (rechts) bzw. kleiner dem des Elternknotens (links) ist.
 
 # --instructions--
 
-In this challenge, you will create a utility for your tree. Write a JavaScript method `isBinarySearchTree` which takes a tree as an input and returns a boolean value for whether the tree is a binary search tree or not. Use recursion whenever possible.
+In dieser Aufgabe wirst du eine Hilfsprogramm für deinen Baum schreiben. Schreib eine JavaScript Methode `isBinarySearchTree`, welche einen Baum als Input nimmt und einen bool'schen Wert zurückgibt, der angibt, ob ein binärer Suchbaum vorliegt oder nicht. Verwende Rekursion wann immer es möglich ist.
 
 # --hints--
 
-Your Binary Search Tree should return true when checked with `isBinarySearchTree()`.
+Dein binärer Suchbaum sollte true zurückgeben, wenn er mit `isBinarySearchTree()` überprüft wird.
 
 ```js
 assert(
@@ -39,7 +39,7 @@ assert(
 );
 ```
 
-`isBinarySearchTree()` should return false when checked with a tree that is not a binary search tree.
+`isBinarySearchTree()` sollte falsch zurückgeben, wenn einer einen Baum als Eingabe erhält, welcher kein binärer Suchbaum ist.
 
 ```js
 assert(

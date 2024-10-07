@@ -8,7 +8,7 @@ dashedName: depth-first-search
 
 # --description--
 
-У цьому завданні ознайомимось з алгоритмом обходу графа під назвою <dfn>пошук у глибину</dfn>, який схожий до <dfn>пошуку у ширину</dfn>.
+Similar to <dfn>breadth-first search</dfn>, here we will learn about another graph traversal algorithm called <dfn>depth-first search</dfn>.
 
 Під час пошуку в ширину алгоритм починається з вихідної вершини, а далі проходить вершини таким чином, що кожне наступне ребро є довшим за попереднє. В той час алгоритм <dfn>пошуку в глибину</dfn> спочатку обирає найдовше ребро.
 

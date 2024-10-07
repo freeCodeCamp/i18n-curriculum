@@ -8,7 +8,7 @@ dashedName: ignore-case-while-matching
 
 # --description--
 
-Bis jetzt hast du dir Regexe angeschaut, um wörtliche Übereinstimmungen von Strings zu finden. Aber manchmal möchtest du vielleicht auch Unterschiede in der Groß- und Kleinschreibung abgleichen.
+Up until now, you've looked at regexes to do literal matches of strings. But sometimes, you might want to also match case differences.
 
 "Case" (oder manchmal auch "Letter Case") ist der Unterschied zwischen Großbuchstaben und Kleinbuchstaben. Beispiele für Großbuchstaben sind `A`, `B` und `C`. Beispiele für Kleinbuchstaben sind `a`, `b` und `c`.
 

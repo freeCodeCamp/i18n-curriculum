@@ -9,7 +9,7 @@ dashedName: use-conditional-logic-with-if-statements
 
 # --description--
 
-Le istruzioni `if` sono usate nel codice per prendere decisioni. La parola chiave `if` dice a JavaScript di eseguire il codice nelle parentesi graffe in determinate condizioni, definite nelle parentesi tonde. Queste condizioni sono note come condizioni `Boolean` e possono essere solo `true` o `false`.
+`if` statements are used to make decisions in code. The keyword `if` tells JavaScript to execute the code in the curly braces under certain conditions, defined in the parentheses. These conditions are known as `Boolean` conditions and they may only be `true` or `false`.
 
 Quando la condizione valuta un `true`, il programma esegue la dichiarazione all'interno delle parentesi graffe. Quando la condizione booleana valuta un `false`, la dichiarazione all'interno delle parentesi graffe non sarà eseguita.
 

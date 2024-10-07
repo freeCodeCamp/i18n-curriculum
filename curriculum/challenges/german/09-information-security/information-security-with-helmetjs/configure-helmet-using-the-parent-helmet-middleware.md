@@ -29,11 +29,11 @@ app.use(helmet({
 }))
 ```
 
-Wir haben jede Middleware einzeln vorgestellt - zum einen für Schulungszwecke und zum anderen zur Vereinfachung der Tests. Using the ‘parent’ `helmet()` middleware is easy to implement in a real project.
+Wir haben jede Middleware einzeln vorgestellt - zum einen für Schulungszwecke und zum anderen zur Vereinfachung der Tests. Mit Verwendung des „parent“ `helmet()` ist es einfach die Middleware in einem echten Projekt zu implementieren.
 
 # --hints--
 
-no tests - it's a descriptive challenge
+keine Tests - es ist eine deskriptive Aufgabe
 
 ```js
 assert(true);

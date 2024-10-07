@@ -9,7 +9,7 @@ dashedName: use-the-flex-shrink-property-to-shrink-items
 
 # --description--
 
-目前爲止，挑戰裏提到的屬性都是應用於 flex 容器（flex 子元素的父元素）的。 除此之外，flex 子元素也有很多實用屬性。
+So far, all the properties in the challenges apply to the flex container (the parent of the flex items). However, there are several useful properties for the flex items.
 
 首先介紹的是 `flex-shrink` 屬性。 使用之後，如果 flex 容器太小，則子元素會自動縮小。 當容器的寬度小於裏面所有子元素的寬度之和時，所有子元素都會自動壓縮。
 

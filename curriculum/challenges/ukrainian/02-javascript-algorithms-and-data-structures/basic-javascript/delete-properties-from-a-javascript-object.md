@@ -9,13 +9,13 @@ dashedName: delete-properties-from-a-javascript-object
 
 # --description--
 
-Ми також можемо видалити властивості з об’єктів, ось так:
+We can also delete properties from objects like this:
 
 ```js
 delete ourDog.bark;
 ```
 
-Приклад:
+Наприклад:
 
 ```js
 const ourDog = {

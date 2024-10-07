@@ -9,7 +9,7 @@ dashedName: create-a-column-gap-using-grid-column-gap
 
 # --description--
 
-У таблицях, що ви уже створили, усі колонки були приєднані одна до одної. Але іноді вам потрібен проміжок між колонками. Щоб додати проміжок між колонками, використовуйте властивість `grid-column-gap` як показано тут:
+So far in the grids you have created, the columns have all been tight up against each other. Sometimes you want a gap in between the columns. To add a gap between the columns, use the `grid-column-gap` property like this:
 
 ```css
 grid-column-gap: 10px;

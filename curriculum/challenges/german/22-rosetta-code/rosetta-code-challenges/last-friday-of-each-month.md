@@ -8,7 +8,7 @@ dashedName: last-friday-of-each-month
 
 # --description--
 
-Write a function that returns the date of the last Friday of a given month for a given year.
+Schreibe eine Funktion, die das Datum des letzten Freitags eines bestimmten Monats für ein bestimmtes Jahr liefert.
 
 # --hints--
 

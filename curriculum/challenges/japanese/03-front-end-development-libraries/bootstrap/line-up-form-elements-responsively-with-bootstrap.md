@@ -13,7 +13,7 @@ dashedName: line-up-form-elements-responsively-with-bootstrap
 
 # --description--
 
-フォームの `input` と送信 `button` を同じ行に整列してみましょう。 前と同じ方法で、クラス `row` を持つ `div` 要素を使用し、`col-xs-*` クラスを使用してその中に別の `div` 要素を配置します。
+Now let's get your form `input` and your submission `button` on the same line. We'll do this the same way we have previously: by using a `div` element with the class `row`, and other `div` elements within it using the `col-xs-*` class.
 
 クラス `row` を持つ `div` の中に、フォームのテキスト `input` と送信 `button` を入れてください。 `col-xs-7` というクラスを持つ div の中に、フォームのテキスト `input` を入れてください。 クラス `col-xs-5` を持つ `div` に、フォームの送信 `button` を入れてください。
 

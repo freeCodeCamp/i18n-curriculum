@@ -15,7 +15,7 @@ Given two sets of items then if any item is common to any set then the result of
   <li>El único conjunto que es la unión de los dos conjuntos de entrada si comparten un elemento común.</li>
 </ul>
 
-Dado N conjuntos de elementos donde N > 2 entonces el resultado es el mismo que reemplazando repetidamente todas las combinaciones de dos conjuntos por su consolidación hasta que no sea posible una mayor consolidación entre pares de conjunto. Si N &lt; 2 entonces la consolidación no tiene un significado estricto y el valor de entrada puede ser devuelto.
+Given N sets of items where N > 2 then the result is the same as repeatedly replacing all combinations of two sets by their consolidation until no further consolidation between set pairs is possible. If N &lt; 2 then consolidation has no strict meaning and the input can be returned.
 
 Aquí hay un par de ejemplos:
 

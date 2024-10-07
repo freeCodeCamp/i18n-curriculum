@@ -7,7 +7,7 @@ dashedName: step-19
 
 # --description--
 
-Unapoongeza kipengele cha kichwa cha cheo cha chini kwenye ukurasa, inadokezwa kuwa unaanza kifungu kipya.
+When you add a lower rank heading element to the page, it's implied that you're starting a new subsection.
 
 Baada ya kipengele cha `h2` cha mwisho cha kipengele cha `section` cha pili, ongeza kipengele cha `h3` na maandishi haya:
 

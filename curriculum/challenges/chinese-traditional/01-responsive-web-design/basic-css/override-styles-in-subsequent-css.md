@@ -9,7 +9,7 @@ dashedName: override-styles-in-subsequent-css
 
 # --description--
 
-我們的 `pink-text` class 覆蓋了 `body` 元素的 CSS 樣式！
+Our `pink-text` class overrode our `body` element's CSS declaration!
 
 我們剛剛證明了 class 會覆蓋 `body` 的 CSS 樣式。 那麼下一個問題是，要怎麼樣才能覆蓋 `pink-text` class 中所定義的樣式？
 

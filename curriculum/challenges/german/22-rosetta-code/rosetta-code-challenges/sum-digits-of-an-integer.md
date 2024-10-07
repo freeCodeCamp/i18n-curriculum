@@ -8,10 +8,10 @@ dashedName: sum-digits-of-an-integer
 
 # --description--
 
-Write a function that takes a string as a parameter. This string represents a number that can be in any base (less than 37) and return the sum of its digits.
+Schreib eine Funktion, die eine Zeichenkette als Parameter annimmt. Diese Zeichenkette steht für eine Zahl, die eine beliebige Basis (kleiner als 37) haben kann, und gibt die Summe ihrer Ziffern zurück.
 
 <ul>
-  <li><b>1</b><sub>10</sub> sums to <b>1</b></li>
+  <li><b>1</b><sub>10</sub> ergibt <b>1</b></li>
   <li><b>1234</b><sub>10</sub> ergibt <b>10</b></li>
   <li><b>fe</b><sub>16</sub> ergibt <b>29</b></li>
   <li><b>f0e</b><sub>16</sub> ergibt <b>29</b></li>

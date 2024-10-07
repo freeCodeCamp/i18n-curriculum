@@ -8,7 +8,7 @@ dashedName: match-all-non-numbers
 
 # --description--
 
-L'ultima sfida ha mostrato come cercare cifre usando la scorciatoia `\d` con una `d` minuscola. Puoi anche cercare dei caratteri non numerici usando una scorciatoia simile che invece sfrutta una `D` maiuscola.
+The last challenge showed how to search for digits using the shortcut `\d` with a lowercase `d`. You can also search for non-digits using a similar shortcut that uses an uppercase `D` instead.
 
 La scorciatoia per cercare caratteri non numerici è `\D`. Questa corrisponde alla classe di caratteri `[^0-9]`, che cerca un singolo carattere che non sia un numero compreso tra zero e nove.
 

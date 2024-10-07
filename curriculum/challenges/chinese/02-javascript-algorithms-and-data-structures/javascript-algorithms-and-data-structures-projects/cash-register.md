@@ -8,7 +8,7 @@ dashedName: cash-register
 
 # --description--
 
-请编写一个用于收银机的函数 `checkCashRegister()`：它的第一个参数为售价 `price`、第二个参数为支付金额 `cash`、第三个参数为收银机內的金额 `cid`。
+Design a cash register drawer function `checkCashRegister()` that accepts purchase price as the first argument (`price`), payment as the second argument (`cash`), and cash-in-drawer (`cid`) as the third argument.
 
 `cid` 是包含货币面值的二维数组。
 
@@ -20,7 +20,7 @@ dashedName: cash-register
 
 否则，返回 `{status: "OPEN", change: [...]}`，其中 `change` 键值是应找回的零钱数，并将找零的面值由高到低排序。
 
-<table><tbody><tr><th>货币单位 Unit</th><th>面值</th></tr><tr><td>Penny</td><td>0.01 美元（PENNY）</td></tr><tr><td>Nickel</td><td>0.05 美元（NICKEL）</td></tr><tr><td>Dime</td><td>0.1 美元（DIME）</td></tr><tr><td>Quarter</td><td>0.25 美元（QUARTER）</td></tr><tr><td>Dollar</td><td>1 美元（ONE）</td></tr><tr><td>Five Dollars</td><td>5 美元（五）</td></tr><tr><td>Ten Dollars</td><td>10 美元（TEN）</td></tr><tr><td>Twenty Dollars</td><td>20 美元（TWENTY）</td></tr><tr><td>One-hundred Dollars</td><td>100美元（ONE HUNDRED）</td></tr></tbody></table>
+<table><tbody><tr><th>Currency Unit</th><th>Amount</th></tr><tr><td>Penny</td><td>0.01 美元（PENNY）</td></tr><tr><td>Nickel</td><td>0.05 美元（NICKEL）</td></tr><tr><td>Dime</td><td>0.1 美元（DIME）</td></tr><tr><td>Quarter</td><td>0.25 美元（QUARTER）</td></tr><tr><td>Dollar</td><td>1 美元（ONE）</td></tr><tr><td>Five Dollars</td><td>5 美元（FIVE）</td></tr><tr><td>Ten Dollars</td><td>10 美元（TEN）</td></tr><tr><td>Twenty Dollars</td><td>20 美元（TWENTY）</td></tr><tr><td>One-hundred Dollars</td><td>100 美元（ONE HUNDRED）</td></tr></tbody></table>
 
 下面的抽屉里现金数组示例：
 

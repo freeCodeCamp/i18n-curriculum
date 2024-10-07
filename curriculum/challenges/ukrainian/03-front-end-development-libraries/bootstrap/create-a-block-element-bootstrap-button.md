@@ -8,7 +8,7 @@ dashedName: create-a-block-element-bootstrap-button
 
 # --description--
 
-Зазвичай елементи `button` з класами `btn` та `btn-default` мають таку ж ширину, як їхній текст. Наприклад:
+Normally, your `button` elements with the `btn` and `btn-default` classes are only as wide as the text that they contain. Наприклад:
 
 ```html
 <button class="btn btn-default">Submit</button>

@@ -1,6 +1,6 @@
 ---
 id: 587d7fa8367417b2b2512bcd
-title: Create a Bar for Each Data Point in the Set
+title: إنشاء عمود لكل نقطة بيانات في المجموعة
 challengeType: 6
 forumTopicId: 301482
 dashedName: create-a-bar-for-each-data-point-in-the-set
@@ -10,7 +10,7 @@ dashedName: create-a-bar-for-each-data-point-in-the-set
 
 The last challenge added only one rectangle to the `svg` element to represent a bar. Here, you'll combine what you've learned so far about `data()`, `enter()`, and SVG shapes to create and append a rectangle for each data point in `dataset`.
 
-A previous challenge showed the format for how to create and append a `div` for each item in `dataset`:
+عرض أحد التحديات السابقة تنسيق كيفية إنشاء وإلحاق `div` لكل عنصر في `dataset`:
 
 ```js
 d3.select("body").selectAll("div")
@@ -19,33 +19,33 @@ d3.select("body").selectAll("div")
   .append("div")
 ```
 
-There are a few differences working with `rect` elements instead of `div` elements. The `rect` elements must be appended to an `svg` element, not directly to the `body`. Also, you need to tell D3 where to place each `rect` within the `svg` area. The bar placement will be covered in the next challenge.
+هناك بعض الاختلافات بين التعامل مع عناصر `rect` بدلا من عناصر `div`. يجب إلحاق عناصر `rect` بـعنصر `svg`، وليس مباشرة إلى `body`. وأيضا، تحتاج إلى إخبار D3 أين تضع كل `rect` داخل `svg`. وسيتم تغطية وضع الأعمدة في التحدي التالي.
 
 # --instructions--
 
-Use the `data()`, `enter()`, and `append()` methods to create and append a `rect` for each item in `dataset`. The bars should display all on top of each other; this will be fixed in the next challenge.
+استخدم الطرق التالية: `data()` و `enter()` و `append()` لتنشئ و تلحق `rect` لكل عنصر في `dataset`. تعرض الأعمدة جميعها فوق بعضها البعض؛ وسيتم إصلاح هذا في التحدي التالي.
 
 # --hints--
 
-Your document should have 9 `rect` elements.
+يجب أن تحتوي وثيقتك على 9 عناصر `rect`.
 
 ```js
 assert($('rect').length == 9);
 ```
 
-Your code should use the `data()` method.
+يجب أن يستخدم الكود الخاص بك طريقة `data()`.
 
 ```js
 assert(code.match(/\.data/g));
 ```
 
-Your code should use the `enter()` method.
+يجب أن يستخدم الكود الخاص بك طريقة `enter()`.
 
 ```js
 assert(code.match(/\.enter/g));
 ```
 
-Your code should use the `append()` method.
+يجب أن يستخدم كودك طريقة `append()`.
 
 ```js
 assert(code.match(/\.append/g));

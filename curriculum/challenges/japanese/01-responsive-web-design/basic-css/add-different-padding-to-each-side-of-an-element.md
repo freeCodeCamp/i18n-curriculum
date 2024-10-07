@@ -9,7 +9,7 @@ dashedName: add-different-padding-to-each-side-of-an-element
 
 # --description--
 
-それぞれの側で異なる `padding` の値を持つように要素をカスタマイズしたい場合もあるでしょう。
+Sometimes you will want to customize an element so that it has different amounts of `padding` on each of its sides.
 
 CSS では `padding-top`, `padding-right`, `padding-bottom`, `padding-left` のプロパティを使用して、要素の 4 つの辺それぞれの `padding` を制御することができます。
 

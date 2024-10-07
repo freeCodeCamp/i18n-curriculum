@@ -8,7 +8,7 @@ dashedName: access-an-arrays-contents-using-bracket-notation
 
 # --description--
 
-所有数据结构的基本特性是，它们不仅可以存储数据，还可以让我们按需访问存放在其中的数据。 我们已经学习了如何创建数组，现在让我们来学习如何访问数组中的数据。
+The fundamental feature of any data structure is, of course, the ability to not only store data, but to be able to retrieve that data on command. So, now that we've learned how to create an array, let's begin to think about how we can access that array's information.
 
 我们先定义一个包含 3 个元素的数组：
 

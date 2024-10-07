@@ -9,7 +9,7 @@ dashedName: improve-chart-accessibility-with-the-figure-element
 
 # --description--
 
-HTML5에서는 `figure` 요소 그리고 이와 관련된 `figcaption`을 도입했습니다. 이러한 항목들을 함께 사용하여 시각적 표현물(예: 이미지, 다이어그램 또는 차트)과 해당 캡션을 안에 함께 묶습니다. 이러한 요소들을 함께 묶으면 관련된 콘텐츠를 시맨틱적으로 그룹화하고 `figure`를 설명하는 대체 텍스트를 제공함으로써 접근성을 두 배로 향상시킬 수 있습니다.
+HTML5 introduced the `figure` element and the related `figcaption`. Used together, these items wrap a visual representation (like an image, diagram, or chart) along with its caption. Wrapping these elements together gives a two-fold accessibility boost by semantically grouping related content and providing a text alternative explaining the `figure`.
 
 차트와 같은 데이터 시각화에 쓰이는 캡션은 추세나 결론을 간단히 요약 정리해서 시각 장애를 가진 사용자들에게 도움을 줄 수 있습니다. 또 다른 도전 과제는 스크린 리더 사용자를 위해 표로 나타내어진 차트의 데이터를 CSS 사용하여 화면에는 보이지 않지만 스크린 리더기가 읽을 수 있도록 하는 법을 다룹니다.
 
@@ -43,7 +43,7 @@ assert.lengthOf(document.querySelectorAll('figure') , 1);
 assert.lengthOf(document.querySelectorAll('figcaption') , 1);
 ```
 
-`div` 태그는 하나만 있어야 합니다.
+`div` 태그는 하나도 없어야 합니다.
 
 ```js
 assert.lengthOf(document.querySelectorAll('div'), 0);

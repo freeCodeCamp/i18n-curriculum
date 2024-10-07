@@ -8,7 +8,7 @@ dashedName: use-the-bootstrap-grid-to-put-elements-side-by-side
 
 # --description--
 
-부트스트랩은 반응형 12열 그리드 시스템을 사용하는데 이는 요소를 행에 넣고 각 요소의 상대적인 너비를 특정하는 것을 용이하게 해줍니다. 대부분의 부트스트랩 클래스는 `div` 요소에 적용할 수 있습니다.
+Bootstrap uses a responsive 12-column grid system, which makes it easy to put elements into rows and specify each element's relative width. Most of Bootstrap's classes can be applied to a `div` element.
 
 부트스트랩은 사용자의 화면의 크기에 따라 다른 열 속성을 가지고 있습니다. 예를 들면 휴대 전화는 좁은 화면을 가지고 있고 휴대용 컴퓨터는 더 넓은 화면을 가지고 있습니다.
 

@@ -1,6 +1,6 @@
 ---
 id: 5a9d72a1424fe3d0e10cad15
-title: Change a variable for a specific area
+title: تَغيير قيمة مُتغير في منطقة مُعينة
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cdRwbuW'
 forumTopicId: 301085
@@ -11,15 +11,15 @@ dashedName: change-a-variable-for-a-specific-area
 
 When you create your variables in `:root` they will set the value of that variable for the whole page.
 
-You can then overwrite these variables by setting them again within a specific selector.
+يُمكنك تغيير هَذه القيم في وقت لاحق عن طريق إعادة تعيينهم داخل selector مُعين.
 
 # --instructions--
 
-Change the value of `--penguin-belly` to `white` in the `penguin` class.
+غَيّر قِيمة `penguin-belly--<code> إلى <code>white` داخل class `penguin`.
 
 # --hints--
 
-The `penguin` class should reassign the `--penguin-belly` variable to `white`.
+يجب أن يَقوم الـ class المُسمي `penguin`، بإعادة قيمة `penguin-belly--` الي `white`.
 
 ```js
 assert(
@@ -27,7 +27,7 @@ assert(
 );
 ```
 
-The `penguin` class should not contain the `background-color` property.
+الـ class المُسمي `penguin` لا يَجب أن يَحتوي علي خاصية `background-color`.
 
 ```js
 assert(

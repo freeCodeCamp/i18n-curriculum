@@ -1,6 +1,6 @@
 ---
 id: 5e9a093a74c4063ca6f7c165
-title: Python Introduction
+title: مقدمة في البايثون(Python introduction)
 challengeType: 11
 videoId: PrQV9JkLhb4
 bilibiliIds:
@@ -14,32 +14,32 @@ dashedName: python-introduction
 
 *Instead of using notebooks.ai like it shows in the video, you can use Google Colab instead.*
 
-More resources:
+المزيد من المصادر:
 
--  <a href="https://github.com/ine-rmotr-curriculum/ds-content-python-under-10-minutes" target="_blank" rel="noopener noreferrer nofollow">Notebooks في GitHub</a>
--  <a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb" target="_blank" rel="noopener noreferrer nofollow">كيفية فتح Notebooks من GitHub باستخدام Google Colab.</a>
+-  <a href="https://github.com/ine-rmotr-curriculum/ds-content-python-under-10-minutes" target="_blank" rel="noopener noreferrer nofollow">Notebooks on GitHub</a>
+-  <a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebookس/colab-github-demo.ipynb" target="_blank" rel="noopener noreferrer nofollow">كيفية فتح (Notebook) من (GitHub) باستخدام (Google Colab).</a>
 
 # --questions--
 
 ## --text--
 
-How do we define blocks of code in the body of functions in Python?
+كيف يمكننا تحديد مجموعة من الاكواد في الدوال (Functions) في بايثون؟
 
 ## --answers--
 
-We use a set of curly braces, one on either side of each new block of our code.
+بمكننا استخدام اقواس (curly braces بهذا الشكل {}) عند طرفي كل مجموعة جديدة من الاكواد.
 
 ---
 
-We use indentation, usually right-aligned 4 spaces.
+نستخدم مسافة بيضاء مقدارها اربع ضغطات (indentation) لجهة اليمين(يمكن عملها بضغطة واحدة من زر Tab من لوحة المفاتيح).
 
 ---
 
-We do not denote blocks of code.
+لا نشير إلى مجموعة الاكواد.
 
 ---
 
-We could use curly braces or indentation to denote blocks of code.
+يمكننا استخدام الـ curly braces او الـ indentation للاشارة الي جزء من الكود.
 
 ## --video-solution--
 

@@ -9,7 +9,7 @@ dashedName: fill-in-the-blank-with-placeholder-text
 
 # --description--
 
-Los desarrolladores web tradicionalmente usan <dfn>texto lorem ipsum</dfn> como texto provisional. El texto lorem ipsum se extrajo aleatoriamente de un famoso pasaje de Cicerón de la Antigua Roma.
+Web developers traditionally use <dfn>lorem ipsum text</dfn> as placeholder text. The lorem ipsum text is randomly scraped from a famous passage by Cicero of Ancient Rome.
 
 El texto lorem ipsum ha sido utilizado como texto provisional por los tipógrafos desde el siglo XVI, y esta tradición continúa en la web.
 

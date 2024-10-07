@@ -8,7 +8,7 @@ dashedName: learn-about-tertiary-colors
 
 # --description--
 
-电脑显示器和各类屏幕都是基于颜色叠加的模型：将红（R）、绿（G）、蓝（B）三原色的色光以不同的比例相加，就可以产生各种色彩光。 这在现代色彩理论中叫作三原色光模式（RGB Color Model）。 红色（R）、绿色（G）和蓝色（B）叫作三原色。 如果把两种原色相加，就可以产生二次色：蓝绿（G+B）、品红（R+B）和黄色（R+G）， 我们在上一个挑战里已经见过这些颜色了。 这些二次色恰好是在合成它们时未使用的原色的补色，即在色环中位于两端。 例如，品红色是红色和蓝色相加产生，它是绿色的补色。
+Computer monitors and device screens create different colors by combining amounts of red, green, and blue light. This is known as the RGB additive color model in modern color theory. Red (R), green (G), and blue (B) are called primary colors. Mixing two primary colors creates the secondary colors cyan (G + B), magenta (R + B) and yellow (R + G). You saw these colors in the Complementary Colors challenge. These secondary colors happen to be the complement to the primary color not used in their creation, and are opposite to that primary color on the color wheel. For example, magenta is made with red and blue, and is the complement to green.
 
 三次色是由原色和二次色相加产生的颜色， 例如，在 RGB 颜色模型中，红色（原色）和黄色（二次色）相加产生橙色（三次色）。 将这六种颜色中相邻的颜色相加，便产生了十二色色环。
 
@@ -16,7 +16,7 @@ dashedName: learn-about-tertiary-colors
 
 下面是使用分裂补色搭配法创建的三个颜色：
 
-<table><thead><tr><th>颜色</th><th>HEX 颜色码</th></tr></thead><thead></thead><tbody><tr><td>橙色</td><td>#FF7F00</td></tr><tr><td>蓝绿色</td><td>#00FFFF</td></tr><tr><td>树莓红</td><td>#FF007F</td></tr></tbody></table>
+<table><thead><tr><th>Color</th><th>Hex Code</th></tr></thead><thead></thead><tbody><tr><td>orange</td><td>#FF7F00</td></tr><tr><td>cyan</td><td>#00FFFF</td></tr><tr><td>raspberry</td><td>#FF007F</td></tr></tbody></table>
 
 # --instructions--
 

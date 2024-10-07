@@ -9,7 +9,7 @@ dashedName: improve-readability-with-high-contrast-text
 
 # --description--
 
-低对比度的前景色与背景色会使文本难以阅读。 足够的对比度可以提高内容的可读性，但是怎样的对比度才算是“足够”的？
+Low contrast between the foreground and background colors can make text difficult to read. Sufficient contrast improves your content's readability, but what exactly does "sufficient" mean?
 
 Web 内容无障碍指南（WCAG）建议正常文本的对比度至少为 4.5 : 1。 对比度是通过比较两种颜色的相对亮度值来计算的。 对比度的范围是从相同颜色的 1:1（无对比度）到白色与黑色的最高对比度 21:1。 在线可用的对比检查工具很多，可以计算这个比率。
 

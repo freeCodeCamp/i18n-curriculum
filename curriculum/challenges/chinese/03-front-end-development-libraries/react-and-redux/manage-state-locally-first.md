@@ -8,7 +8,7 @@ dashedName: manage-state-locally-first
 
 # --description--
 
-这一关的任务是完成 `DisplayMessages` 组件的创建。
+Here you'll finish creating the `DisplayMessages` component.
 
 # --instructions--
 

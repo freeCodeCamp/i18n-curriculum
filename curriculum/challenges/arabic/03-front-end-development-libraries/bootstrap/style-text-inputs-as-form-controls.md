@@ -13,7 +13,7 @@ dashedName: style-text-inputs-as-form-controls
 
 # --description--
 
-يمكنك إضافة `fa-paper-plane` هي أيقونة Font Awesome, عن طريق إضافة `<i class="fa fa-paper-plane"></i>` داخل عنصر `button` للإرسال.
+You can add the `fa-paper-plane` Font Awesome icon by adding `<i class="fa fa-paper-plane"></i>` within your submit `button` element.
 
 امنح حقل إدخال النص الخاص بك فئة `form-control`. امنح زر إرسال النموذج الخاص بك الفئات `btn btn-primary`. اعطي هذا الزر أيضًا أيقونة Font Awesome باسم `fa-paper-plane`.
 

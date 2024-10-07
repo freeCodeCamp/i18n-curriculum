@@ -1,6 +1,6 @@
 ---
 id: 5a858944d96184f06fd60d61
-title: Create Your First CSS Grid
+title: إنشاء شبكة CSS الأولى الخاصة بك
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pByETK/cqwREC4'
 forumTopicId: 301129
@@ -11,15 +11,15 @@ dashedName: create-your-first-css-grid
 
 Turn any HTML element into a grid container by setting its `display` property to `grid`. This gives you the ability to use all the other properties associated with CSS Grid.
 
-**Note:** In CSS Grid, the parent element is referred to as the <dfn>container</dfn> and its children are called <dfn>items</dfn>.
+**ملاحظة:** في CSS Grid، ويشار إلى العنصر الأصلي باسم <dfn>حاوية</dfn> ويدعى أطفاله <dfn>البنود</dfn>.
 
 # --instructions--
 
-Change the display of the div with the `container` class to `grid`.
+تغيير عرض مع فئة `الحاوية` إلى `شبكة`.
 
 # --hints--
 
-`container` class should have a `display` property with a value of `grid`.
+`الحاوية` الفئة يجب أن تحتوي على `خاصية عرض` بقيمة `شبكة`.
 
 ```js
 assert(code.match(/.container\s*?{[\s\S]*display\s*?:\s*?grid\s*?;[\s\S]*}/gi));

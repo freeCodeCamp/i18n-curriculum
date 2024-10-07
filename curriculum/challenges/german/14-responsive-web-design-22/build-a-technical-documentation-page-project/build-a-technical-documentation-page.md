@@ -8,19 +8,19 @@ dashedName: build-a-technical-documentation-page
 
 # --description--
 
-**Aufgabe:** Erstelle eine Applikation, die eine ähnliche Funktionalität wie <a href="https://technical-documentation-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://technical-documentation-page.freecodecamp.rocks</a> aufweist. **Bitte kopiere nicht dieses Demo-Projekt **.
+**Objective:** Build an app that is functionally similar to <a href="https://technical-documentation-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://technical-documentation-page.freecodecamp.rocks</a>. **Do not copy this demo project**.
 
 **User Stories:**
 
-1. Du kannst ein `main`-Element mit einer entsprechenden `id="main-doc"` sehen, das den Hauptinhalt der Seite enthält (technische Dokumentation)
+1. You can see a `main` element with a corresponding `id="main-doc"`, which contains the page's main content (technical documentation)
 1. Innerhalb des `#main-doc`-Elements kannst du mehrere `section`-Elemente sehen, jedes mit einer `main-section`-Klasse. Es sollten mindestens 5 sein
 1. Das erste Element innerhalb jeder `.main-section` sollte ein `header`-Element sein, das einen Text enthält, der das Thema dieses Abschnitts beschreibt.
 1. Jedes `section`-Element der Klasse `main-section` sollte auch eine `id` haben, die mit dem Text von jedem `header` übereinstimmt. Alle Leerzeichen sollten durch Unterstriche ersetzt werden (z.B. sollte der Abschnitt, der die Überschrift „JavaScript und Java“ enthält, eine entsprechende `id="JavaScript_and_Java"` enthalten)
 1. Die `.main-section`-Elemente sollten mindestens zehn `p`-Elemente enthalten (insgesamt)
 1. Die `.main-section`-Elemente sollten mindestens fünf `code`-Elemente enthalten (insgesamt)
-1. Die `.main-section`-Elemente sollten mindestens fünf `li`-Elemente enthalten (insgesamt)
-1. Du kannst ein `nav`-Element mit entsprechender `id="navbar"` sehen
-1. Das navbar-Element sollte ein `header`-Element enthalten, das einen Text enthält, der das Thema der technischen Dokumentation beschreibt
+1. Die `.main-section`-Elemente sollten mindestens fünf `li`-Elemente enthalten (nicht jedes)
+1. Du kannst ein `nav` Element mit einer entsprechenden `id="navbar"` sehen
+1. Das Navbar-Element sollte ein `header`-Element enthalten, das einen Text enthält, der das Thema der technischen Dokumentation beschreibt
 1. Außerdem sollte die Navigationsleiste auch (`a`) -Link-Elemente der Klasse `nav-link` enthalten. Es sollte eines für jedes Element der Klasse `main-section` geben
 1. Das `header`-Element in der `#navbar` muss vor jedem Link-Element (`a`) in der Navigationsleiste stehen
 1. Jedes Element der Klasse `nav-link` sollte einen Text enthalten, der zu dem entsprechenden `header`-Text jeder `section` passt (wenn du z.B. einen Header bzw. eine Sektion mit „Hello world" hast, sollte deine Navigationsleiste ein Element mit eben jenem Text enthalten)
@@ -30,7 +30,7 @@ dashedName: build-a-technical-documentation-page
 
 Erfülle die folgenden User Stories und bestehe alle Tests, um dieses Projekt abzuschließen. Gib dem Ganzen deinen persönlichen Stil. Viel Spaß beim Programmieren!
 
-**Hinweis:** Füge unbedingt `<link rel="stylesheet" href="styles.css">` in dein HTML ein, um dein Stylesheet zu verlinken und dein CSS anzuwenden
+**Hinweis:** Achte darauf, `<link rel="stylesheet" href="styles.css">` in deinen HTML-Code einzufügen, um dein Stylesheet zu verknüpfen und deinen CSS-Code anwenden zu können
 
 # --hints--
 
@@ -58,7 +58,7 @@ els.forEach(el => {
 assert(els.length > 0)
 ```
 
-Du solltest mindestens fünf `.main-section`-Elemente haben, die Nachfahren (descendants) von `#main-doc` sind.
+Du solltest mindestens fünf `.main-section`-Elemente haben, die Nachfahren von `#main-doc` sind.
 
 ```js
 const els = document.querySelectorAll('#main-doc .main-section')
@@ -95,7 +95,7 @@ els.forEach(el => {
 assert(els.length > 0)
 ```
 
-Jede `.main-section` sollte eine `id` haben, die dem Text seines ersten untergeordneten Elementes entspricht, wobei bei den IDs Leerzeichen mit Unterstrichen (`_`) ersetzt werden.
+Jede `.main-section` sollte eine `id` haben, die dem Text seines ersten untergeordneten Elementes entspricht, wobei bei den Ids Leerzeichen mit Unterstrichen (`_`) ersetzt werden.
 
 ```js
 const els = document.querySelectorAll('.main-section')
@@ -113,14 +113,14 @@ const els = document.querySelectorAll('.main-section p')
 assert(els.length >= 10)
 ```
 
-Du solltest mindestens fünf `code`-Elemente haben, die Nachfahren (descendants) von `.main-section`-Elementen sind.
+Du solltest mindestens fünf `code`-Elemente haben, die Nachfahren von `.main-section`-Elementen sind.
 
 ```js
 const els = document.querySelectorAll('.main-section code')
 assert(els.length >= 5)
 ```
 
-Du solltest mindestens fünf `li`-Elemente haben, die Nachfahren (descendants) von `.main-section`-Elementen sind.
+Du solltest mindestens fünf `li`-Elemente haben, die Nachfahren von `.main-section`-Elementen sind.
 
 ```js
 const els = document.querySelectorAll('.main-section li')
@@ -203,7 +203,7 @@ const remainder = headerText.filter(str => linkText.indexOf(str) === -1)
 assert(headerText.length > 0 && linkText.length > 0 && remainder.length === 0)
 ```
 
-Jede `.nav-link` sollte über ein `href`-Attribut verfügen, das auf die zugehörige `.main-section` verweist (klickst du bspw. auf ein `.nav-link`-Element, das den Text „Hello world“ enthält, navigiert die Seite zu dem `section`-Element mit eben jener ID).
+Jede `.nav-link` sollte über ein `href`-Attribut verfügen, das auf die zugehörige `.main-section` verweist (klickst du bspw. auf ein `.nav-link`-Element, das den Text „Hello world“ enthält, navigiert die Seite zu dem `section`-Element mit eben jener Id).
 
 ```js
 const hrefValues = Array.from(document.querySelectorAll('.nav-link')).map(el => el.getAttribute('href'))
@@ -221,7 +221,7 @@ const left2 = el?.offsetLeft
 assert(!!el && left1 >= -15 && left1 <= 15 && left2 >= -15 && left2 <= 15)
 ```
 
-Dein Projekt für die Technische Dokumentation sollte mindestens eine Media Query (Medienabfrage) verwenden.
+Dein Projekt für die Technische Dokumentation sollte mindestens eine Media Query verwenden.
 
 ```js
 const htmlSourceAttr = Array.from(document.querySelectorAll('source')).map(el => el.getAttribute('media'))

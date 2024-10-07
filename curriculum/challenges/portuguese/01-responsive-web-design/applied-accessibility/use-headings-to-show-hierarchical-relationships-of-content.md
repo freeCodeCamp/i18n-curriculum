@@ -9,7 +9,7 @@ dashedName: use-headings-to-show-hierarchical-relationships-of-content
 
 # --description--
 
-Títulos (elementos `h1` até `h6`) são tags que ajudam a fornecer estrutura e rotulagem ao seu conteúdo. Os leitores de tela podem ser configurados para ler apenas os cabeçalhos de uma página para que o usuário obtenha um resumo. Isso significa que é importante que as tags de título em seu código tenham significado semântico e se relacionem umas com as outras. Também é importante que não sejam escolhidas apenas pelo tamanho da fonte que essas tags fornecem.
+Headings (`h1` through `h6` elements) are workhorse tags that help provide structure and labeling to your content. Screen readers can be set to read only the headings on a page so the user gets a summary. This means it is important for the heading tags in your markup to have semantic meaning and relate to each other, not be picked merely for their size values.
 
 *Significado semântico* significa que a tag que você usa em torno do conteúdo (do texto) indica o tipo de informação que a tag contém.
 

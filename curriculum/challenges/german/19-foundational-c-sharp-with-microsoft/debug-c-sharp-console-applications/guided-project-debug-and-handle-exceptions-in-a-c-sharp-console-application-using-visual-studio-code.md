@@ -7,14 +7,14 @@ dashedName: guided-project-debug-and-handle-exceptions-in-a-c-sharp-console-appl
 
 # --description--
 
-Diese Aufgabe wird teilweise auf der Microsoft Learn-Plattform gelöst. Folge diesen Anweisungen, um die Aufgabe zu lösen:
+Diese Aufgabe wird teilweise auf der Microsoft Learn Plattform erledigt. Folge diesen Anweisungen, um die Aufgabe zu lösen:
 
-1. Go to <a href="https://learn.microsoft.com/training/modules/guided-project-debug-handle-exceptions-c-sharp-console-application/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/guided-project-debug-handle-exceptions-c-sharp-console-application/</a> and complete all the tasks for the "Guided Project - Debug and Handle Exceptions in a C# Console Application Using Visual Studio Code" module. Dies ist **erforderlich**, um die "Debuggen von C#-Konsolenanwendungen"-Trophäe auf Microsoft Learn zu erwerben und sich für die Zertifizierungsprüfung zu qualifizieren.
+1. Gehe auf <a href="https://learn.microsoft.com/training/modules/guided-project-debug-handle-exceptions-c-sharp-console-application/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/guided-project-debug-handle-exceptions-c-sharp-console-application/</a> und löse alle Aufgaben für das Modul "Geführtes Projekt - Debuggen und Behandeln von Ausnahmen in einer C#-Konsolen-Anwendung mit Visual Studio-Code". Dies ist **erforderlich**, um die "Debuggen von C#-Konsolen-Anwendungen"-Trophäe auf Microsoft Learn zu erwerben und sich für die Zertifizierungsprüfung zu qualifizieren.
 1. Wenn du damit fertig bist, komme zurück und beantworte die folgende Frage richtig.
 
-# --assignment--
+# --Auftrag--
 
-Complete the <a href="https://learn.microsoft.com/training/modules/guided-project-debug-handle-exceptions-c-sharp-console-application/" target="_blank" rel="noreferrer">Debug and Handle Exceptions in a C# Console Application Using Visual Studio Code</a> guided project on Microsoft Learn. Beantworte dann die Frage unten.
+Schließe das geführte Projekt <a href="https://learn.microsoft.com/training/modules/guided-project-debug-handle-exceptions-c-sharp-console-application/" target="_blank" rel="noreferrer">Debuggen und Behandeln von Ausnahmen in einer C#-Konsolen-Anwendung mit Visual Studio Code</a> auf Microsoft Learn ab. Beantworte dann die Frage unten.
 
 # --questions--
 

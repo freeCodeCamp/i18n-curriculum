@@ -12,7 +12,7 @@ dashedName: create-c-sharp-methods-that-return-values
 1. 跳轉到 <a href="https://learn.microsoft.com/training/modules/create-c-sharp-methods-return-values/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/create-c-sharp-methods-return-values/</a>，然後完成“創建有返回值的 C# 方法”模塊的所有任務。 這是在 Microsoft Learn 上獲得“在 C# 控制檯應用程序中創建方法”的獎盃以及參加認證考試所**必需**的。
 1. 完成後，返回並正確回答下面的問題。
 
-# --任務--
+# --作業--
 
 在 Microsoft Learn 上完成 <a href="https://learn.microsoft.com/training/modules/create-c-sharp-methods-return-values/" target="_blank" rel="noreferrer">創建有返回值的 C# 方法</a> 模塊。 然後，回答下面的問題。
 

@@ -8,17 +8,17 @@ dashedName: look-and-say-sequence
 
 # --description--
 
-The Look and say sequence is a recursively defined sequence of numbers.
+Die Conway-Folge ist eine rekursiv definierte Zahlenfolge.
 
 Definition von Sequenzen
 
-<ul><li>Take a decimal number</li>
+<ul><li>Nehme eine Dezimalzahl</li>
 <li><span>Look</span> die Zahl an und gruppiere die aufeinanderfolgenden Ziffern der gleichen Ziffer.</li>
 <li><span>Say</span> die Zahl, von links nach rechts, Gruppe für Gruppe; wie viele von dieser Ziffer gibt es - gefolgt von der gruppierten Ziffer.</li></ul><span> Dies wird die nächste Zahl der Sequenz sein.</span>
 
 Ein Beispiel:
 
-<ul><li>Starting with the number 1, you have <span>one</span> 1 which produces 11</li>
+<ul><li>Beginnend mit der Nummer 1, hast du <span>eins</span> 1, das 11 erzeugt</li>
 <li>Beginnend mit 11, hast du <span>zwei</span> 1'en. z.B.: 21</li>
 <li>Beginnend bei 21, hast du <span>eine</span> 2, dann <span>eine</span> 1. z.B.: (12)(11) das zu 1211 wird</li>
 <li>Beginnend mit 1211, hast du <span>eine</span> 1, <span>eine</span> 2, dann <span>zwei</span> 1'en. z.B.: (11)(12)(21) das zu 111221wird</li></ul>

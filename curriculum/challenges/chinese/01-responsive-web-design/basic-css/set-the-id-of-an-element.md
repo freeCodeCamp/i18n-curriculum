@@ -9,7 +9,7 @@ dashedName: set-the-id-of-an-element
 
 # --description--
 
-除了 class 属性，每一个 HTML 元素都有一个 `id` 属性。
+In addition to classes, each HTML element can also have an `id` attribute.
 
 使用 `id` 有几个好处：你可以通过 `id` 选择器来改变单个元素的样式。在稍后的课程中，你还会了解到如何在 JavaScript 里面用它来选择和操作元素。
 

@@ -8,7 +8,7 @@ dashedName: visualize-data-with-a-choropleth-map
 
 # --description--
 
-**Obiettivo:** crea un'app funzionalmente simile a questa: <a href="https://choropleth-map.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://choropleth-map.freecodecamp.rocks</a>.
+**Objective:** Build an app that is functionally similar to this: <a href="https://choropleth-map.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://choropleth-map.freecodecamp.rocks</a>.
 
 Soddisfa le user story qui sotto e supera tutti i test. Utilizza le librerie o le API di cui hai bisogno. Usa il tuo stile personale.
 
@@ -32,13 +32,13 @@ Puoi usare HTML, JavaScript, CSS e la libreria di visualizzazione basata su svg 
 
 **User Story #9:** Dovrebbero essere usati almeno 4 colori di riempimento diversi per la legenda.
 
-**User Story #10:** Posso passare con il mouse su un'area e vedere un suggerimento con un corrispondente `id="tooltip"` che mostra maggiori informazioni sull'area.
+**User Story #10:** Posso passare con il mouse su un'area e vedere un tooltip con un corrispondente `id="tooltip"` che mostra maggiori informazioni sull'area.
 
 **User Story #11:** Il mio suggerimento dovrebbe avere una proprietà `data-education` che corrisponde alla `data-education` dell'area attiva.
 
 Ecco i set di dati necessari per completare questo progetto:
 
--   **Dati sull'educazione negli Stati Uniti:**`https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/for_user_education.json`
+-   **US Education Data:**`https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/for_user_education.json`
 -   **Dati sull'educazione nelle contee degli Stati Uniti:**`https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/counties.json`
 
 Puoi costruire il tuo progetto <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">usando questo modello CodePen</a> e facendo click su `Save` per creare il tuo pen. Oppure puoi usare questo link CDN per eseguire i test in qualsiasi ambiente tu voglia: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`

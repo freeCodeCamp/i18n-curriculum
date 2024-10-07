@@ -1,6 +1,6 @@
 ---
 id: 5f356ed6cf6eab5f15f5cfe6
-title: Step 20
+title: 步驟 20
 challengeType: 0
 dashedName: step-20
 ---
@@ -9,29 +9,29 @@ dashedName: step-20
 
 The `div` element is used mainly for design layout purposes unlike the other content elements you have used so far. Add a `div` element inside the `body` element and then move all the other elements inside the new `div`.
 
-Inside the opening `div` tag, add the `id` attribute with a value of `menu`.
+在 `div` 開始標籤中，添加一個值爲 `menu` 的 `id` 屬性。
 
 # --hints--
 
-Your opening `<div>` tag should have an `id` attribute set to `menu`.
+你的 `div` 開始標籤的 `id` 屬性值應爲 `menu`。
 
 ```js
 assert.strictEqual(document.querySelector('div')?.id, 'menu');
 ```
 
-You should have a closing `</div>` tag.
+你應該有一個 `</div>` 結束標籤。
 
 ```js
 assert(code.match(/<\/div>/i));
 ```
 
-You should not change your existing `body` element. Make sure you did not delete the closing tag.
+你不應該改變你現有的 `body`元素。 確保你沒有刪除結束標籤。
 
 ```js
 assert.lengthOf(document.querySelectorAll('body'), 1);
 ```
 
-Your `div` tag should be nested in the `body`.
+你的 `div` 元素應該嵌套在你的 `body` 元素中。
 
 ```js
 assert.equal(document.querySelector('div')?.parentElement?.tagName, 'BODY');

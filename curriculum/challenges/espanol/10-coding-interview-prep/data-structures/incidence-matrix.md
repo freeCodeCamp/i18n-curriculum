@@ -8,7 +8,7 @@ dashedName: incidence-matrix
 
 # --description--
 
-Otra forma de representar un gráfico es ponerlo en un <dfn> matriz de incidencia.</dfn>
+Yet another way to represent a graph is to put it in an <dfn>incidence matrix.</dfn>
 
 Un <dfn>matriz de incidencia.</dfn> es una matriz bidimensional (2D). En términos generales, una matriz de incidencia relaciona dos clases diferentes de objetos entre sus dos dimensiones. Este tipo de matriz es similar a una matriz de adyacencia. Sin embargo, las filas y columnas significan algo más aquí.
 

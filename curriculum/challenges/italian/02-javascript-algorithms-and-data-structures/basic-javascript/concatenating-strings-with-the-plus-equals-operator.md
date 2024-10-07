@@ -9,7 +9,7 @@ dashedName: concatenating-strings-with-the-plus-equals-operator
 
 # --description--
 
-Possiamo anche usare l'operatore `+=` per <dfn>concatenare</dfn> una stringa alla fine di una variabile stringa esistente. Questo può essere molto utile per rompere una stringa lunga su diverse righe.
+We can also use the `+=` operator to <dfn>concatenate</dfn> a string onto the end of an existing string variable. This can be very helpful to break a long string over several lines.
 
 **Nota:** Attenzione agli spazi. La concatenazione non aggiunge spazi tra le stringhe concatenate, quindi dovrai aggiungerli da solo.
 
@@ -34,7 +34,7 @@ Costruisci `myStr` su diverse righe concatenando queste due stringhe: `This is t
 assert(/sentence\. This/.test(myStr));
 ```
 
-Il valore di `myStr` dovrebbe essere la stringa `This is the first sentence. This is the second sentence.`
+`myStr` should have a value of the string `This is the first sentence. This is the second sentence.`
 
 ```js
 assert(myStr === 'This is the first sentence. This is the second sentence.');

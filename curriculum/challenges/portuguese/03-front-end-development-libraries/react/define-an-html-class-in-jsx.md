@@ -8,7 +8,7 @@ dashedName: define-an-html-class-in-jsx
 
 # --description--
 
-Agora que você está se sentindo confortável escrevendo JSX, você pode estar se perguntando como ele difere do HTML.
+Now that you're getting comfortable writing JSX, you may be wondering how it differs from HTML.
 
 Até agora, pode parecer que HTML e JSX são exatamente os mesmos.
 

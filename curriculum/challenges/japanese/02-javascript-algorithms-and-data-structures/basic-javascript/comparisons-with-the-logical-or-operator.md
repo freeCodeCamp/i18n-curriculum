@@ -9,7 +9,7 @@ dashedName: comparisons-with-the-logical-or-operator
 
 # --description--
 
-<dfn>論理和</dfn> 演算子 (`||`) は、<dfn>オペランド</dfn> のいずれかが `true` である場合に `true` を返します。 それ以外の場合は、`false` を返します。
+The <dfn>logical or</dfn> operator (`||`) returns `true` if either of the <dfn>operands</dfn> is `true`. Otherwise, it returns `false`.
 
 <dfn>論理和</dfn>演算子は 2 本のパイプ記号 (`||`) で構成されます。 この記号のキーは通常、バックスペースキーと Enter キーの間近くにあります。
 

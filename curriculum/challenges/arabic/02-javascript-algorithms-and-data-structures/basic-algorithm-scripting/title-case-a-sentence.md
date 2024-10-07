@@ -8,7 +8,7 @@ dashedName: title-case-a-sentence
 
 # --description--
 
-أنشئ مقطع (string) مقدم مع تكبير الحرف الأول (capitalize) من كل كلمة في الجملة. تحقق أن بقية حروف الكلمة في حالة عادية (lower case).
+Return the provided string with the first letter of each word capitalized. Make sure the rest of the word is in lower case.
 
 لأغراض هذا التمرين، يجب عليك أيضًا تكبير حروف كلمات التوصيل مثل `the` و `of`.
 

@@ -8,7 +8,7 @@ dashedName: add-event-listeners
 
 # --description--
 
-طريقة `componentDidMount()` هي أيضا أفضل مكان لإرفاق أي مستمعي الأحداث (event listeners) الذين تحتاج إلى إضافتهم لوظائف محددة. يوفر React نظام الأحداث الاصطناعية التي تغلف نظام الأحداث الأصلية الموجود في المتصفحات. وهذا يعني أن نظام الأحداث الاصطناعية يتصرف بنفس الطريقة بغض النظر عن متصفح المستخدم - حتى لو كانت الأحداث الأصلية تتصرف بطريقة مختلفة بين المتصفحات المختلفة.
+The `componentDidMount()` method is also the best place to attach any event listeners you need to add for specific functionality. React provides a synthetic event system which wraps the native event system present in browsers. This means that the synthetic event system behaves exactly the same regardless of the user's browser - even if the native events may behave differently between different browsers.
 
 لقد كنت تستخدم فعلًا بعض هذه المعالجات الاصطناعية للأحداث مثل `onClick()`. نظام الحدث الاصطناعي في React رائع لاستخدامه في معظم التفاعلات التي ستديرها على عناصر DOM. ومع ذلك، إذا كنت ترغب في إرفاق معالج الحدث (event handler) إلى عناصر المستند أو النافذة، فيجب عليك القيام بذلك مباشرة.
 

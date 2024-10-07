@@ -8,7 +8,7 @@ dashedName: add-a-license-to-your-package-json
 
 # --description--
 
-El campo `license` es donde se informa a los usuarios de lo que pueden hacer con tu proyecto.
+The `license` field is where you inform users of what they are allowed to do with your project.
 
 Algunas de las licencias comunes para proyectos de código abierto incluyen MIT y BSD. La información de la licencia no es requerida, y las leyes de derechos de autor en la mayoría de los países te darán la propiedad de lo que creas de manera predeterminada. Sin embargo, siempre es una buena práctica exponer explícitamente lo que los usuarios pueden y no pueden hacer. Aquí hay un ejemplo del campo de la licencia:
 

@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: objects-a-sample-class
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-What will the following program print?:
+¿Qué imprimirá el siguiente programa?:
 
 ```python
 class PartyAnimal:

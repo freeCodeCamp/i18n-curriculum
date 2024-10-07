@@ -1,6 +1,6 @@
 ---
 id: 5900f4671000cf542c50ff79
-title: 'Problem 249: Prime Subset Sums'
+title: 'Problem 249: Primzahl-Teilmengensummen'
 challengeType: 1
 forumTopicId: 301896
 dashedName: problem-249-prime-subset-sums
@@ -8,15 +8,15 @@ dashedName: problem-249-prime-subset-sums
 
 # --description--
 
-Let $S = \\{2, 3, 5, \ldots, 4999\\}$ be the set of prime numbers less than 5000.
+$S = \\{2, 3, 5, \ldots, 4999\\}$ sei die Menge der Primzahlen kleiner als 5000.
 
-Find the number of subsets of $S$, the sum of whose elements is a prime number.
+Finde die Anzahl der Teilmengen von $S$, deren Summe eine Primzahl ist.
 
-Enter the rightmost 16 digits as your answer.
+Gib die ganz rechten 16 Ziffern als Antwort ein.
 
 # --hints--
 
-`primeSubsetSums()` should return `9275262564250418`.
+`primeSubsetSums()` sollte `9275262564250418` zurückgeben.
 
 ```js
 assert.strictEqual(primeSubsetSums(), 9275262564250418);

@@ -8,7 +8,7 @@ dashedName: how-to-use-passport-strategies
 
 # --description--
 
-У заданому файлі `index.pug` є форма авторизації. Її приховано через вбудований JavaScript `if showLogin` з відступленою формою після.
+In the `index.pug` file supplied, there is a login form. It is hidden because of the inline JavaScript `if showLogin` with the form indented after it.
 
 У `res.render` для цієї сторінки додайте нову змінну до об’єкта `showLogin: true`. Коли ви оновите сторінку, ви повинні побачити форму! Ця форма налаштована, щоб надіслати запит **POST** до `/login`. Тут ви повинні налаштувати прийом запиту POST та автентифікацію користувача.
 
@@ -20,7 +20,7 @@ dashedName: how-to-use-passport-strategies
 
 Якщо ви введете ім’я користувача і пароль у форму, ви будете переадресовані на головну сторінку `/`, а на консолі вашого серверу з’явиться `'User {USERNAME} attempted to log in.'`, оскільки наразі ми не можемо увійти в обліковий запис користувача, який не зареєстрований.
 
-Відправте свою сторінку коли впевнились, що все правильно. Якщо виникають помилки, ви можете <a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#how-to-use-passport-strategies-7" target="_blank" rel="noopener noreferrer nofollow">переглянути проєкт, виконаний до цього етапу</a>.
+Підтвердіть вашу сторінку, якщо все зрозуміло. Якщо виникають помилки, ви можете <a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#how-to-use-passport-strategies-7" target="_blank" rel="noopener noreferrer nofollow">переглянути проєкт, виконаний до цього етапу</a>.
 
 # --hints--
 

@@ -9,9 +9,9 @@ dashedName: appending-variables-to-strings
 
 # --description--
 
-Ми можемо створити рядок з декількох рядкових <dfn>літералів</dfn>, і так само ми можемо додати змінні до рядка, використовуючи оператор додавання з присвоєнням (`+=`).
+Just as we can build a string over multiple lines out of string <dfn>literals</dfn>, we can also append variables to a string using the plus equals (`+=`) operator.
 
-Приклад:
+Наприклад:
 
 ```js
 const anAdjective = "awesome!";

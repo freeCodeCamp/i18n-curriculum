@@ -1,6 +1,6 @@
 ---
 id: 8d5823c8c441eddfaeb5bdef
-title: Create a Map Data Structure
+title: Erstelle eine Map-Datenstruktur
 challengeType: 1
 forumTopicId: 301629
 dashedName: create-a-map-data-structure
@@ -12,21 +12,21 @@ The next few challenges will cover maps and hash tables. Maps are data structure
 
 # --instructions--
 
-Let's get some practice creating our own map. Because JavaScript objects provide a much more efficient map structure than anything we could write here, this is intended primarily as a learning exercise. However, JavaScript objects only provide us with certain operations. What if we wanted to define custom operations? Use the `Map` object provided here as a wrapper around a JavaScript `object`. Create the following methods and operations on the Map object:
+Lass uns ein wenig üben, unsere eigene Karte zu erstellen. Da JavaScript-Objekte eine viel effizientere Map-Struktur bieten als alles, was wir hier schreiben könnten, ist dies in erster Linie als Lernübung gedacht. JavaScript-Objekte stellen uns jedoch nur bestimmte Operationen zur Verfügung. Was wäre, wenn wir benutzerdefinierte Vorgänge definieren wollten? Verwende das hier bereitgestellte `Map`-Objekt als Wrapper um ein JavaScript `object`. Erstelle die folgenden Methoden und Operationen für das Map-Objekt:
 
 <ul>
 <li><code>add</code> accepts a <code>key, value</code> pair to add to the map.</li>
-<li><code>remove</code> accepts a key and removes the associated <code>key, value</code> pair</li>
-<li><code>get</code> accepts a <code>key</code> and returns the stored <code>value</code></li>
-<li><code>has</code> accepts a <code>key</code> and returns <dfn>true</dfn> if the key exists or <dfn>false</dfn> if it doesn't.</li>
-<li><code>values</code> returns an array of all the values in the map</li>
-<li><code>size</code> returns the number of items in the map</li>
-<li><code>clear</code> empties the map</li>
+<li><code>remove</code> akzeptiert einen Schlüssel und entfernt das zugehörige <code>key, value</code> Paar</li>
+<li><code>get</code> nimmt einen <code>key</code> entgegen und gibt den gespeicherten <code>Wert</code> zurück</li>
+<li><code>has</code> akzeptiert ein <code>key</code> und gibt <dfn>true</dfn> zurück, wenn der Schlüssel existiert oder <dfn>false</dfn>, wenn er nicht existiert.</li>
+<li><code>values</code> gibt ein Array mit allen Werten in der Map zurück</li>
+<li><code>size</code> gibt die Anzahl der Elemente in der Karte zurück</li>
+<li><code>clear</code> leert die Karte</li>
 </ul>
 
 # --hints--
 
-The `Map` data structure should exist.
+Die `Map`-Datenstruktur sollte vorhanden sein.
 
 ```js
 assert(
@@ -40,7 +40,7 @@ assert(
 );
 ```
 
-The `Map` object should have the following methods: `add`, `remove`, `get`, `has`, `values`, `clear`, and `size`.
+Das `Map`-Objekt sollte über die folgenden Methoden verfügen: `add`, `remove`, `get`, `has`, `values`, `clear`, und `size`.
 
 ```js
 assert(
@@ -62,7 +62,7 @@ assert(
 );
 ```
 
-The `add` method should add items to the map.
+Die Methode `add` soll Elemente zur Karte hinzufügen.
 
 ```js
 assert(
@@ -79,7 +79,7 @@ assert(
 );
 ```
 
-The `has` method should return `true` for added items and `false` for absent items.
+Die Methode `has` sollte `true` für hinzugefügte Elemente und `false` für fehlende Elemente zurückgeben.
 
 ```js
 assert(
@@ -94,7 +94,7 @@ assert(
 );
 ```
 
-The `get` method should accept keys as input and should return the associated values.
+Die `get` Methode sollte Schlüssel als Eingabe akzeptieren und die zugehörigen Werte zurückgeben.
 
 ```js
 assert(
@@ -109,7 +109,7 @@ assert(
 );
 ```
 
-The `values` method should return all the values stored in the map as strings in an array.
+Die Methode `values` sollte alle in der Map gespeicherten Werte als Strings in einem Array zurückgeben.
 
 ```js
 assert(
@@ -131,7 +131,7 @@ assert(
 );
 ```
 
-The `clear` method should empty the map and the `size` method should return the number of items present in the map.
+Die `clear`-Methode sollte die Karte leeren und die `size`-Methode sollte die Anzahl der in der Karte vorhandenen Elemente zurückgeben.
 
 ```js
 assert(

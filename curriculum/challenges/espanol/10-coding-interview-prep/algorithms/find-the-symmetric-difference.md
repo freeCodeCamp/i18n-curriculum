@@ -8,7 +8,7 @@ dashedName: find-the-symmetric-difference
 
 # --description--
 
-El término matemático <dfn>diferencia simétrica</dfn> (`△` or `⊕`) de dos conjuntos es el conjunto de elementos que están en cualquiera de los dos conjuntos, pero no en ambos. Por ejemplo, para los conjuntos `A = {1, 2, 3}` y `B = {2, 3, 4}`, `A △ B = {1, 4}`.
+The mathematical term <dfn>symmetric difference</dfn> (`△` or `⊕`) of two sets is the set of elements which are in either of the two sets but not in both. For example, for sets `A = {1, 2, 3}` and `B = {2, 3, 4}`, `A △ B = {1, 4}`.
 
 Diferencia simétrica es una operación binaria, significa que opera en solo dos elementos. Entonces, para evaluar una expresión que involucra diferencias simétricas entre * tres * elementos (`A △ B △ C`), tienes que completar una operación a la vez. Asi, para los conjuntos `A` y `B` encima, y `C = {2, 3}`, `A △ B △ C = (A △ B) △ C = {1, 4} △ {2, 3} = {1, 2, 3, 4}`.
 

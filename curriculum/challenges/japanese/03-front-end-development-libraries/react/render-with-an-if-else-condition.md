@@ -8,7 +8,7 @@ dashedName: render-with-an-if-else-condition
 
 # --description--
 
-レンダーされるビューを JavaScript を使用して制御する別の用例として、レンダーされる要素を条件に結び付けることができます。 条件が true の場合は、あるビューをレンダーし、 条件が false の場合は別のビューをレンダーします。 これを行うには、React コンポーネントの `render()` メソッドで標準の `if/else` ステートメントを使用します。
+Another application of using JavaScript to control your rendered view is to tie the elements that are rendered to a condition. When the condition is true, one view renders. When it's false, it's a different view. You can do this with a standard `if/else` statement in the `render()` method of a React component.
 
 # --instructions--
 

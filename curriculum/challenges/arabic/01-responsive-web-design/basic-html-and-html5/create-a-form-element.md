@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aede08830
-title: Create a Form Element
+title: إنشاء عنصر النموذج
 challengeType: 0
 forumTopicId: 16817
 dashedName: create-a-form-element
@@ -10,7 +10,7 @@ dashedName: create-a-form-element
 
 You can build web forms that actually submit data to a server using nothing more than pure HTML. You can do this by specifying an `action` attribute on your `form` element.
 
-For example:
+على سبيل المثال:
 
 ```html
 <form action="url-where-you-want-to-submit-form-data">
@@ -20,11 +20,11 @@ For example:
 
 # --instructions--
 
-Nest the existing `input` element inside a `form` element and assign `"https://www.freecatphotoapp.com/submit-cat-photo"` to the `action` attribute of the `form` element.
+ضع عنصر `input` الموجود داخل عنصر `form` وقم بتعيين`"https://www.freecatphotoapp.com/submit-cat-photo"` إلى سمة `action` لعنصر `form`.
 
 # --hints--
 
-The existing `input` element should be nested within a `form` element.
+يجب أن يوضع عنصر `input` داخل عنصر `form`.
 
 ```js
 const inputElem = document.querySelector('form input');
@@ -34,14 +34,14 @@ assert(
 );
 ```
 
-Your `form` should have an `action` attribute which is set to `https://www.freecatphotoapp.com/submit-cat-photo`.
+يجب أن تحتوي ال `form` على سمة `action` والتي يتم تعيينها على `https://www.freecatphotoapp.com/submit-cat-photo`.
 
 ```js
 const action = $('form').attr('action');
 assert(action.match(/^https:\/\/(www\.)?freecatphotoapp\.com\/submit-cat-photo$/i))
 ```
 
-Your `form` element should have well-formed open and close tags.
+يجب أن يحتوي عنصر `form` على علامات فتح وإغلاق منسقة جيدًا.
 
 ```js
 assert(

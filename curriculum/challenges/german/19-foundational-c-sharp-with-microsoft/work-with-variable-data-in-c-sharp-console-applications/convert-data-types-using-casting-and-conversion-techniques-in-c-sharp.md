@@ -7,9 +7,9 @@ dashedName: convert-data-types-using-casting-and-conversion-techniques-in-c-shar
 
 # --description--
 
-Diese Aufgabe wird teilweise auf der Microsoft Learn-Plattform gelöst. Folge diesen Anweisungen, um die Aufgabe zu lösen:
+Diese Aufgabe wird teilweise auf der Microsoft Learn Plattform erledigt. Folge diesen Anweisungen, um die Aufgabe zu lösen:
 
-1. Gehe auf <a href="https://learn.microsoft.com/training/modules/csharp-convert-cast/" target="_blank" rel="noreferrer">href="https://learn.microsoft.com/training/modules/csharp-convert-cast/</a> und löse alle Aufgaben für das Modul "Konvertieren von Datentypen mit Casting und Konvertierungstechniken in C#". This is **required** to earn the "Work with Variable Data in C# Console Applications" trophy on Microsoft Learn, and qualify for the certification exam.
+1. Gehe auf <a href="https://learn.microsoft.com/training/modules/csharp-convert-cast/" target="_blank" rel="noreferrer">href="https://learn.microsoft.com/training/modules/csharp-convert-cast/</a> und löse alle Aufgaben für das Modul "Konvertieren von Datentypen mit Casting und Konvertierungstechniken in C#". Dies ist **erforderlich**, um die Trophäe " Arbeiten mit variablen Daten in C# Konsolen-Anwendungen" auf Microsoft Learn zu erwerben und sich für die Zertifizierungsprüfung zu qualifizieren.
 1. Wenn du damit fertig bist, komme zurück und beantworte die folgende Frage richtig.
 
 # --Auftrag--

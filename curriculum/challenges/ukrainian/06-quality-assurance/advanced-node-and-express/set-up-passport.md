@@ -8,7 +8,7 @@ dashedName: set-up-passport
 
 # --description--
 
-Час встановити *Passport*, щоб дозволити користувачеві реєструватися або входити в обліковий запис. Окрім Passport ви будете використовувати Express-session для обробки сесій. Express-session має величезний набір розширених функцій, які ви можете використати, але зараз ви будете використовувати лише основні. Використання цього проміжного програмного забезпечення зберігає id сесії як куки в клієнті та дозволяє нам отримати доступ до даних сесії, використовуючи цей id на сервері. Таким чином ви зберігаєте особисту інформацію облікового запису поза куками, які клієнт використовує, аби повідомити ваш сервер про автентифікованих клієнтів, і зберігаєте *ключ* для доступу до даних, які зберігаються на сервері.
+It's time to set up *Passport* so you can finally start allowing a user to register or log in to an account. In addition to Passport, you will use Express-session to handle sessions. Express-session has a ton of advanced features you can use, but for now you are just going to use the basics. Using this middleware saves the session id as a cookie in the client, and allows us to access the session data using that id on the server. This way, you keep personal account information out of the cookie used by the client to tell to your server clients are authenticated and keep the *key* to access the data stored on the server.
 
 `passport@~0.4.1` та `express-session@~1.17.1` вже встановлені та вказані як залежності у вашому файлі `package.json`.
 
@@ -29,7 +29,7 @@ app.use(session({
 
 Після того, як ви все зробите, скажіть своїй програмі Express **використовувати** `passport.initialize()` та `passport.session()`.
 
-Відправте свою сторінку коли впевнились, що все правильно. Якщо виникають помилки, ви можете <a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#set-up-passport-3" target="_blank" rel="noopener noreferrer nofollow">переглянути проєкт, виконаний до цього етапу</a>.
+Підтвердіть вашу сторінку, якщо все зрозуміло. Якщо виникають помилки, ви можете <a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#set-up-passport-3" target="_blank" rel="noopener noreferrer nofollow">переглянути проєкт, виконаний до цього етапу</a>.
 
 # --hints--
 

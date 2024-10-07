@@ -1,6 +1,6 @@
 ---
 id: 587d778a367417b2b2512aa6
-title: Improve Form Field Accessibility with the label Element
+title: Boresha Ufikiaji wa Sehemu ya Fomu kwa kutumia kipengele cha lebo
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cGJMMAN'
 forumTopicId: 301016
@@ -11,11 +11,11 @@ dashedName: improve-form-field-accessibility-with-the-label-element
 
 Improving accessibility with semantic HTML markup applies to using both appropriate tag names and attributes. The next several challenges cover some important scenarios using attributes in forms.
 
-The `label` tag wraps the text for a specific form control item, usually the name or label for a choice. This ties meaning to the item and makes the form more readable. The `for` attribute on a `label` tag explicitly associates that `label` with the form control and is used by screen readers.
+Lebo ya `label` hufunika maandishi kwa kipengee maalum cha kudhibiti fomu, kwa kawaida jina au lebo ya chaguo. Hii inaunganisha maana ya kipengee na hufanya fomu isomeke zaidi. Sifa ya `for` kwenye `label` inahusisha kwa uwazi ambayo `label` na udhibiti wa fomu na inatumiwa na visoma skrini.
 
-You learned about radio buttons and their labels in a lesson in the Basic HTML section. In that lesson, we wrapped the radio button input element inside a `label` element along with the label text in order to make the text clickable. Another way to achieve this is by using the `for` attribute, as explained in this lesson.
+Umejifunza kuhusu vitufe vya redio na lebo zake katika somo katika sehemu ya Msingi ya HTML. Katika somo hilo, tulifunga kipengee cha kuingiza kitufe cha redio ndani ya kipengele cha `label` pamoja na maandishi ya lebo ili kufanya maandishi kubofya. Njia nyingine ya kufanikisha hili ni kwa kutumia `for`, kama ilivyoelezwa katika somo hili.
 
-The value of the `for` attribute must be the same as the value of the `id` attribute of the form control. Here's an example:
+Thamani ya sifa ya `for` lazima iwe sawa na thamani ya sifa ya `id` udhibiti wa fomu. Hapa kuna mfano:
 
 ```html
 <form>
@@ -26,17 +26,17 @@ The value of the `for` attribute must be the same as the value of the `id` attri
 
 # --instructions--
 
-Camper Cat expects a lot of interest in his thoughtful blog posts and wants to include an email sign up form. Add a `for` attribute on the email `label` that matches the `id` on its `input` field.
+Camper Cat anatarajia kupendezwa sana na machapisho yake ya kuvutia ya blogi na anataka kujumuisha fomu ya kujisajili kupitia barua pepe. Ongeza sifa ya `for` kwenye `label` ya barua pepe inayolingana na `id` kwenye sehemu yake ya `input`.
 
 # --hints--
 
-Your code should have a `for` attribute on the `label` tag that is not empty.
+Msimbo wako unapaswa kuwa na sifa ya `for`kwenye `label` ambayo si tupu.
 
 ```js
 assert.isNotEmpty(document.querySelector('label')?.getAttribute('for'));
 ```
 
-Your `for` attribute value should match the `id` value on the email `input`.
+Thamani yako ya `for` inapaswa kufanana na thamani ya `id` kwenye barua pepe `input`.
 
 ```js
 assert.equal(document.querySelector('label')?.getAttribute('for'), 'email');

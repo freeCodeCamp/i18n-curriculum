@@ -9,7 +9,7 @@ dashedName: nest-many-elements-within-a-single-div-element
 
 # --description--
 
-구분 요소인 `div` 요소는 다른 요소를 담는 일반 컨테이너 입니다.
+The `div` element, also known as a division element, is a general purpose container for other elements.
 
 `div` 요소는 가장 많이 쓰이는 HTML 요소일 것입니다.
 

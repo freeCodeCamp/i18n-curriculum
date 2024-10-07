@@ -8,14 +8,14 @@ dashedName: linear-congruential-generator
 
 # --description--
 
-A linear congruential generator (LCG) is an <em>algorithm</em> that yields a sequence of pseudo-randomized numbers calculated with a discontinuous piecewise linear equation. All linear congruential generators use this formula:
+Ein linearer Kongruenzgenerator (LCG) ist ein <em>-Algorithmus</em>, der eine Sequenz von pseudo-randomisierten Zahlen liefert, die mit einer diskontinuierlichen, stückweise linearen Gleichung berechnet werden. Alle linearen kongruenten Generatoren verwenden diese Formel:
 
 $$r_{n + 1} = (a \times r_n + c) \bmod m$$
 
 Wobei:
 
 <ul>
-<li>$ r_0 $ is a seed.</li>
+<li>$ r_0 $ ist ein Seed.</li>
 <li>$r_1$, $r_2$, $r_3$, ..., sind Zufallszahlen.</li>
 <li>$a$, $c$, $m$ sind Konstanten.</li>
 </ul>

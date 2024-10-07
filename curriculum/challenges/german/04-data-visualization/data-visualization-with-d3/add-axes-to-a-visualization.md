@@ -8,7 +8,7 @@ dashedName: add-axes-to-a-visualization
 
 # --description--
 
-Eine weitere Möglichkeit, das Streudiagramm zu verbessern, ist eine x-und y-Achse hinzuzufügen.
+Another way to improve the scatter plot is to add an x-axis and a y-axis.
 
 D3 hat zwei Methoden, `axisLeft()` und `axisBottom()`, um jeweils die y-und x-Achse darzustellen. Hier ist ein Beispiel um die x-Achse, auf der Grundlage der `xScale` in der vorherigen Aufgabe, zu erstellen:
 
@@ -16,7 +16,7 @@ D3 hat zwei Methoden, `axisLeft()` und `axisBottom()`, um jeweils die y-und x-Ac
 const xAxis = d3.axisBottom(xScale);
 ```
 
-Der nächste Schritt besteht darin, die Achse auf dem SVG zu rendern. Dafür kannst du eine allgemeine SVG-Komponente, das `g` Element, verwenden. Das `g` steht für Gruppe. Anders als `rect`, `circle`, und `text`, ist eine Achse nur eine geradlinige Linie, wenn sie gerendert wird. Da sie eine einfache Form ist, funktioniert `g`. Der letzte Schritt besteht darin, ein `transform`-Attribut anzuwenden, um die Achse korrekt auf dem SVG zu positionieren. Andernfalls würde die Linie entlang der SVG-Grenze rendern und wäre nicht sichtbar. SVG unterstützt verschiedene Arten von `transforms`, aber die Positionierung einer Achse benötigt `translate`. Wenn es auf das `g`-Element angewandt wird, wird die gesamte Gruppe um die angegebenen Beträge nach oben und unten verschoben. Hier ist ein Beispiel:
+Der nächste Schritt besteht darin, die Achse auf dem SVG zu rendern. Dafür kannst du eine allgemeine SVG-Komponente, das `g` Element, verwenden. Das `g` steht für Gruppe. Anders als `rect`, `circle`, und `text`, ist eine Achse nur eine geradlinige Linie, wenn sie gerendert wird. Da sie eine einfache Form ist, funktioniert `g`. Der letzte Schritt besteht darin, ein `transform`-Attribut anzuwenden, um die Achse korrekt auf dem SVG zu positionieren. Andernfalls würde die Linie entlang der SVG-Grenze rendern und wäre nicht sichtbar. SVG unterstützt verschiedene Arten von `transforms`, aber die Positionierung einer Achse benötigt `translate`. Wenn es auf das `g`-Element angewandt wird, wird die gesamte Gruppe um die angegebenen Beträge nach oben und unten verschoben. Hier ein Beispiel:
 
 ```js
 const xAxis = d3.axisBottom(xScale);

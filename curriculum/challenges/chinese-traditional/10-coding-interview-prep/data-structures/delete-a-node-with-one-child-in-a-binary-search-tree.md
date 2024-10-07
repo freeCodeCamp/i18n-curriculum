@@ -1,6 +1,6 @@
 ---
 id: 587d8258367417b2b2512c81
-title: Delete a Node with One Child in a Binary Search Tree
+title: 在二叉搜索樹中刪除具有一個子節點的節點
 challengeType: 1
 forumTopicId: 301638
 dashedName: delete-a-node-with-one-child-in-a-binary-search-tree
@@ -12,11 +12,11 @@ Now that we can delete leaf nodes let's move on to the second case: deleting a n
 
 # --instructions--
 
-We've provided some code in our `remove` method that accomplishes the tasks from the last challenge. We find the target to delete and its parent and define the number of children the target node has. Let's add the next case here for target nodes with only one child. Here, we'll have to determine if the single child is a left or right branch in the tree and then set the correct reference in the parent to point to this node. In addition, let's account for the case where the target is the root node (this means the parent node will be `null`). Feel free to replace all the starter code with your own as long as it passes the tests.
+我們在 `remove` 方法中提供了一些代碼來完成上一個挑戰中的任務。 我們找到要刪除的目標及其父節點，並定義目標節點具有的子節點數。 讓我們在這裏爲僅有一個子節點的目標節點添加下一種情況。 在這裏，我們必須確定單個子節點是樹中的左或右分支，然後在父節點中設置正確的引用以指向此節點。 另外，讓我們考慮目標是根節點的情況（這意味着父節點將爲 `null`）。 只要通過測試，請隨意用自己的代碼替換所有初始代碼。
 
 # --hints--
 
-The `BinarySearchTree` data structure should exist.
+`BinarySearchTree` 數據結構應該存在。
 
 ```js
 assert(
@@ -30,7 +30,7 @@ assert(
 );
 ```
 
-The binary search tree should have a method called `remove`.
+二叉搜索樹應該有一個叫做`remove`的方法。
 
 ```js
 assert(
@@ -46,7 +46,7 @@ assert(
 );
 ```
 
-Trying to remove an element that does not exist should return `null`.
+嘗試刪除不存在的元素應該返回 `null`。
 
 ```js
 assert(
@@ -65,7 +65,7 @@ assert(
 );
 ```
 
-If the root node has no children, deleting it should set the root to `null`.
+如果根節點沒有子節點，刪除它應該將根設置爲 `null`。
 
 ```js
 assert(
@@ -86,7 +86,7 @@ assert(
 );
 ```
 
-The `remove` method should remove leaf nodes from the tree.
+`remove` 方法應該從樹中刪除葉節點。
 
 ```js
 assert(
@@ -114,7 +114,7 @@ assert(
 );
 ```
 
-The `remove` method should remove nodes with one child.
+`remove` 方法應該刪除有一個子節點的節點。
 
 ```js
 assert(
@@ -141,7 +141,7 @@ assert(
 );
 ```
 
-Removing the root in a tree with two nodes should set the second to be the root.
+移除一個有兩個節點的樹中的根應該將第二個節點設置爲根。
 
 ```js
 assert(

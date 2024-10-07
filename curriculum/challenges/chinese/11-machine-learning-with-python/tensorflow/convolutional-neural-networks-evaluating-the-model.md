@@ -14,7 +14,7 @@ dashedName: convolutional-neural-networks-evaluating-the-model
 
 ## --text--
 
-什么 **不是** 提高卷积神经网络准确性的好方法？
+What is **not** a good way to increase the accuracy of a convolutional neural network?
 
 ## --answers--
 

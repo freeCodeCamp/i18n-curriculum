@@ -9,7 +9,7 @@ dashedName: comparison-with-the-greater-than-or-equal-to-operator
 
 # --description--
 
-L'operatore di maggioranza o uguaglianza (`>=`) confronta i valori di due numeri. Se il numero a sinistra è maggiore o uguale al numero a destra, restituisce `true`. In caso contrario, restituisce `false`.
+The greater than or equal to operator (`>=`) compares the values of two numbers. If the number to the left is greater than or equal to the number to the right, it returns `true`. Otherwise, it returns `false`.
 
 Come l'operatore di uguaglianza, l'operatore di maggioranza o uguaglianza convertirà i tipi di dati durante il confronto.
 

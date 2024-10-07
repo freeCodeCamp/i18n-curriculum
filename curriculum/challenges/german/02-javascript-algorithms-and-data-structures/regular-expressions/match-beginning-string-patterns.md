@@ -8,7 +8,7 @@ dashedName: match-beginning-string-patterns
 
 # --description--
 
-Frühere Aufgaben haben gezeigt, dass reguläre Ausdrücke verwendet werden können, um nach einer Reihe von Übereinstimmungen zu suchen. Sie werden auch für die Suche nach Mustern an bestimmten Stellen in Strings verwendet.
+Prior challenges showed that regular expressions can be used to look for a number of matches. They are also used to search for patterns in specific positions in strings.
 
 In einer früheren Aufgabe hast du das Caret-Zeichen (`^`) innerhalb eines Zeichensatzes verwendet, um einen negierten Zeichensatz in der Form `[^thingsThatWillNotBeMatched]` zu erstellen. Außerhalb eines Zeichensatzes wird das Caret verwendet, um nach Mustern am Anfang von Strings zu suchen.
 

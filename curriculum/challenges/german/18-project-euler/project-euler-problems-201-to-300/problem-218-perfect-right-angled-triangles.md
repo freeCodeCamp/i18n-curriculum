@@ -21,7 +21,7 @@ Wir nennen ein rechtwinkliges Dreieck perfekt, wenn:
 - es ein primitives rechtwinkliges Dreieck ist
 - seine Hypotenuse ein perfektes Quadrat ist
 
-We will call a right-angled triangle super-perfect if:
+Wir nennen ein rechtwinkliges Dreieck super-perfekt, wenn:
 
 - es ein perfektes rechtwinkliges Dreieck ist
 - seine Fläche ein Vielfaches der perfekten Zahlen 6 und 28 ist.

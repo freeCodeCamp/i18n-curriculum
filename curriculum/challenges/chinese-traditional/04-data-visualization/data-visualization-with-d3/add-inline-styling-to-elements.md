@@ -8,7 +8,7 @@ dashedName: add-inline-styling-to-elements
 
 # --description--
 
-D3允許你使用 `style()` 方法在動態元素上添加內聯 CSS 樣式。
+D3 lets you add inline CSS styles on dynamic elements with the `style()` method.
 
 `style()` 方法以用逗號分隔的鍵值對作爲參數。 這裏是一個將選中文本的顏色設爲藍色的例子：
 

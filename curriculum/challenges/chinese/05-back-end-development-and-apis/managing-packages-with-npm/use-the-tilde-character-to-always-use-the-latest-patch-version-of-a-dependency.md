@@ -8,7 +8,7 @@ dashedName: use-the-tilde-character-to-always-use-the-latest-patch-version-of-a-
 
 # --description--
 
-在上一个挑战中，npm 只包含特定版本的依赖包。 如果想让项目各个部分保持相互兼容，锁定依赖包版本是一个行之有效的办法。 但是大多数情况下，我们并不希望错过依赖项的问题修复，因为它们通常包含重要的安全补丁，而且它们理论上也会兼容我们既有的代码。
+In the last challenge, you told npm to only include a specific version of a package. That’s a useful way to freeze your dependencies if you need to make sure that different parts of your project stay compatible with each other. But in most use cases, you don’t want to miss bug fixes since they often include important security patches and (hopefully) don’t break things in doing so.
 
 可以在依赖项的版本号前加一个波浪号（`~`），以让 npm 依赖项更新到最新的修订版。 这里有一个允许升级到任何 `1.3.x` 的例子。
 
@@ -22,7 +22,7 @@ dashedName: use-the-tilde-character-to-always-use-the-latest-patch-version-of-a-
 
 在依赖项中使用波浪号（`~`）字符作为 `@freecodecamp/example` 版本的前缀，并允许 npm 将其更新为任何新的*补丁*发布。
 
-**注意：**原来的版本号不用更改。
+**注意：** 原来的版本号不用更改。
 
 # --hints--
 

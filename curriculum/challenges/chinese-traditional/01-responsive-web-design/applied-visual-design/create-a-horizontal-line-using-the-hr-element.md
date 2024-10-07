@@ -9,7 +9,7 @@ dashedName: create-a-horizontal-line-using-the-hr-element
 
 # --description--
 
-你可以用 `hr` 標籤來創建一條寬度撐滿父元素的水平線。 這種水平分割線一般用來表示內容主題的改變，或在視覺上將文檔分隔成幾個部分。
+You can use the `hr` tag to add a horizontal line across the width of its containing element. This can be used to define a change in topic or to visually separate groups of content.
 
 # --instructions--
 

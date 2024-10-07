@@ -7,7 +7,7 @@ dashedName: step-37
 
 # --description--
 
-لاحظ أن اللونين الأحمر و cyan ساطعان جدًا بجوار بعضهما البعض. يمكن أن يؤدي هذا التباين إلى تشتيت الانتباه إذا تم الإفراط في استخدامه على موقع ويب، ويمكن أن يجعل قراءة النص صعبة إذا تم وضعه على خلفية ملونة تكميليا (complementary-colored).
+Notice that the red and cyan colors are very bright right next to each other. This contrast can be distracting if it's overused on a website, and can make text hard to read if it's placed on a complementary-colored background.
 
 من الأفضل اختيار لون واحد باعتباره اللون السائد، واستخدام لونه التكميلي كلكنة للفت الانتباه إلى محتوى معين على الصفحة.
 

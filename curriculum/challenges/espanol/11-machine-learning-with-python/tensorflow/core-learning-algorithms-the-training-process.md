@@ -10,7 +10,7 @@ bilibiliIds:
 dashedName: core-learning-algorithms-the-training-process
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 

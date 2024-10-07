@@ -8,7 +8,7 @@ dashedName: problem-367-bozo-sort
 
 # --description--
 
-Bozo sort, not to be confused with the slightly less efficient bogo sort, consists out of checking if the input sequence is sorted and if not swapping randomly two elements. This is repeated until eventually the sequence is sorted.
+Die Bozo-Sortierung, nicht zu verwechseln mit der etwas weniger effizienten Bogo-Sortierung, besteht darin, zu prüfen, ob die Eingabesequenz sortiert ist, und wenn nicht, zwei Elemente zufällig zu vertauschen. Dieser Vorgang wird so lange wiederholt, bis die Reihe schließlich sortiert ist.
 
 Wenn wir alle Permutationen der ersten 4 natürlichen Zahlen als Eingabe betrachten, beträgt der Erwartungswert der Anzahl der Vertauschungen, gemittelt über alle $4!$-Eingabefolgen, $24.75$.
 
@@ -18,7 +18,7 @@ In diesem Problem betrachten wir die folgende Variante der Bozo-Sortierung.
 
 Wenn die Reihenfolge nicht stimmt, wählen wir drei Elemente nach dem Zufallsprinzip aus und mischen diese drei Elemente nach dem Zufallsprinzip.
 
-All $3! = 6$ Permutationen dieser drei Elemente sind gleich wahrscheinlich.
+Alle $3! = 6$ Permutationen dieser drei Elemente sind gleich wahrscheinlich.
 
 Die bereits sortierte Sequenz wird 0 Schritte benötigen.
 
@@ -30,7 +30,7 @@ Wie hoch ist die erwartete Anzahl der Umlagerungen, die dieser Sortieralgorithmu
 
 # --hints--
 
-`bozoSort()` should return `48271207`.
+`bozoSort()` sollte `48271207` zurückgeben.
 
 ```js
 assert.strictEqual(bozoSort(), 48271207);

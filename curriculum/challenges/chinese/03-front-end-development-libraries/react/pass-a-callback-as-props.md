@@ -8,7 +8,7 @@ dashedName: pass-a-callback-as-props
 
 # --description--
 
-可以将 `state` 作为 props 传递给子组件，但不仅限于传递数据。 你也可以将处理函数或在 React 组件中定义的任何方法传递给子组件。 这就是子组件与父组件交互的方式。 可以把方法像普通 prop 一样传递给子组件， 它会被分配一个名字，可以在子组件中的 `this.props` 下访问该方法的名字。
+You can pass `state` as props to child components, but you're not limited to passing data. You can also pass handler functions or any method that's defined on a React component to a child component. This is how you allow child components to interact with their parent components. You pass methods to a child just like a regular prop. It's assigned a name and you have access to that method name under `this.props` in the child component.
 
 # --instructions--
 

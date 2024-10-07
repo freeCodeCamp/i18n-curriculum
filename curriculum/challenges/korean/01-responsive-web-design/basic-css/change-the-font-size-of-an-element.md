@@ -9,7 +9,7 @@ dashedName: change-the-font-size-of-an-element
 
 # --description--
 
-폰트 크기는 다음과 같이 `font-size` CSS 속성으로 제어됩니다.
+Font size is controlled by the `font-size` CSS property, like this:
 
 ```css
 h1 {

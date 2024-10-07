@@ -9,7 +9,7 @@ dashedName: style-multiple-elements-with-a-css-class
 
 # --description--
 
-클래스를 사용하면 여러 HTML 요소에 동일한 CSS 스타일을 사용할 수 있습니다. `red-text` 클래스를 첫번째 `p` 요소에 적용하면 이를 확인할 수 있습니다.
+Classes allow you to use the same CSS styles on multiple HTML elements. You can see this by applying your `red-text` class to the first `p` element.
 
 # --hints--
 

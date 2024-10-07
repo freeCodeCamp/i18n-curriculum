@@ -9,9 +9,9 @@ dashedName: know-when-alt-text-should-be-left-blank
 
 # --description--
 
-Під час останнього завдання ви вивчили, що включати атрибут `alt` при використанні тегу `img` є обов'язковим. Хоча інколи фото можуть бути згрупованими з уже існуючим описом або використовуються лише для декорації. У таких випадках текст `alt` буде зайвим та необов'язковим.
+In the last challenge, you learned that including an `alt` attribute when using `img` tags is mandatory. However, sometimes images are grouped with a caption already describing them, or are used for decoration only. In these cases, `alt` text may seem redundant or unnecessary.
 
-Якщо до зображення вже існує текстовий вміст або зображення не має значення для сторінки, `img` все ще потребує атрибут `alt`, але його можна встановити як порожній рядок. Наприклад:
+Якщо до зображення вже існує текстовий вміст або зображення не має значення для сторінки, `img` все ще потребує атрибут `alt`, але його можна встановити як порожній рядок. Ось приклад:
 
 ```html
 <img src="visualDecoration.jpeg" alt="">

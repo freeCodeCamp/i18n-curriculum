@@ -9,7 +9,7 @@ dashedName: multiply-two-numbers-with-javascript
 
 # --description--
 
-Nós também podemos multiplicar um número por outro.
+We can also multiply one number by another.
 
 JavaScript usa o símbolo `*` para multiplicação de dois números.
 

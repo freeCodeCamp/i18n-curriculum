@@ -14,7 +14,7 @@ dashedName: natural-language-processing-with-rnns-building-the-model
 
 ## --text--
 
-Preencha as lacunas abaixo para completar a função `build_model`:
+Fill in the blanks below to complete the `build_model` function:
 
 ```py
 def build_mode(vocab_size, embedding_dim, rnn_units, batch_size):

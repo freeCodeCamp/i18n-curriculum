@@ -8,11 +8,11 @@ dashedName: visualize-data-with-a-heat-map
 
 # --description--
 
-**Aufgabe:** Erstelle eine Anwendung, die eine ähnliche Funktionalität wie <a href="https://heat-map.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://heat-map.freecodecamp.rocks</a> aufweist.
+**Objective:** Build an app that is functionally similar to this: <a href="https://heat-map.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://heat-map.freecodecamp.rocks</a>.
 
-Erfülle die folgenden User Stories und bestehe alle Tests. Verwende Bibliotheken und APIs deiner Wahl. Gib dem Ganzen deinen persönlichen Stil.
+Erfülle die untenstehenden User Stories und bringe alle Tests zum Bestehen. Verwende die Bibliotheken oder APIs deiner Wahl. Gib dem Ganzen deinen persönlichen Stil.
 
-Du kannst HTML, JavaScript, CSS und die D3-svg-basierte Visualisierungsbibliothek verwenden. Erforderliche DOM-Elemente werden zum Zeitpunkt eines jeden Tests abgefragt. Wenn du ein Frontend-Framework verwendest (z. B. Vue), sind die Testergebnisse für dynamische Inhalte möglicherweise ungenau. Wir hoffen, dass wir diese irgendwann berücksichtigen können, aber derzeit werden diese Frameworks nicht für D3-Projekte unterstützt.
+Du kannst HTML, JavaScript, CSS und die D3-Svg-basierte Visualisierungsbibliothek verwenden. Erforderliche DOM-Elemente werden zum Zeitpunkt eines jeden Tests abgefragt. Falls du ein Frontend-Framework (wie z.B. Vue) verwendest, kann es passieren, dass die Testergebnisse für dynamische Inhalte ungenau sind. Wir hoffen, dass wir diese irgendwann berücksichtigen können, aber derzeit werden diese Frameworks nicht für D3-Projekte unterstützt.
 
 **User Story #1:** Meine Heatmap sollte einen entsprechenden Titel mit einer entsprechenden `id="title"` haben.
 
@@ -50,7 +50,7 @@ Du kannst HTML, JavaScript, CSS und die D3-svg-basierte Visualisierungsbibliothe
 
 Hier ist der Datensatz, den du benötigst, um dieses Projekt abzuschließen: `https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/global-temperature.json`
 
-Du kannst dein Projekt aufbauen, indem du <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">diese CodePen-Vorlage</a> verwendest und auf `Save` klickst, um deinen eigenen Pen zu erstellen. Oder du kannst diesen CDN-Link verwenden, um die Tests in jeder beliebigen Umgebung auszuführen: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
+Du kannst dein Projekt erstellen, indem du <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">diese CodePen-Vorlage</a> verwendest und auf `Save` klickst, um deinen eigenen Pen zu erstellen. Oder du kannst diesen CDN-Link verwenden, um die Tests in jeder beliebigen Umgebung auszuführen: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
 
 Sobald du fertig bist, übermittle die URL an dein Arbeitsprojekt, wenn alle Tests bestanden sind.
 

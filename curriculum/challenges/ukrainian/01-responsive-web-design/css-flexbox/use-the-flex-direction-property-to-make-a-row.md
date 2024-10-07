@@ -9,7 +9,7 @@ dashedName: use-the-flex-direction-property-to-make-a-row
 
 # --description--
 
-Додавання `display: flex` до елементу перетворює його в flex-контейнер. Це робить можливим вирівнювання будь-яких дочірніх елементів у рядки або стовпці. Це можна зробити, додавши властивість `flex-direction` до батьківського елемента та встановивши його для рядка чи стовпця. Створення рядка вирівнює дочірні елементи горизонтально, а створення стовпця вирівнює їх вертикально.
+Adding `display: flex` to an element turns it into a flex container. This makes it possible to align any children of that element into rows or columns. You do this by adding the `flex-direction` property to the parent item and setting it to row or column. Creating a row will align the children horizontally, and creating a column will align the children vertically.
 
 Іншими параметрами для `flex-direction` є `row-reverse` та`column-reverse`.
 

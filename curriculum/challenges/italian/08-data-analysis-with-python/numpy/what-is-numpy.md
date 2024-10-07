@@ -14,7 +14,7 @@ dashedName: what-is-numpy
 
 ## --text--
 
-Perché gli array Numpy sono più veloci delle normali liste Python?
+Why are Numpy arrays faster than regular Python lists?
 
 ## --answers--
 

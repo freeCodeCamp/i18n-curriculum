@@ -8,7 +8,7 @@ dashedName: catch-arguments-passed-in-the-wrong-order-when-calling-a-function
 
 # --description--
 
-함수 호출에 대해 더 이야기해보겠습니다. 주의해야 할 또 다른 버그는 함수의 인자들이 잘못된 순서로 전달되는 경우입니다. 인자의 타입이 다를 경우, 예를 들어 배열과 정수를 인자로 받는 함수에서 잘못된 순서로 인자를 전달하면 런타임 오류가 발생하게 됩니다. 만약 인자들의 타입이 같은 경우 (예를 들어, 인자가 모두 정수인 경우) 런타임 에러는 발생하지 않겠지만 함수의 논리가 맞지 않는 문제가 발생합니다. 이러한 문제들을 피하기 위해, 함수에 필요한 모든 인자가 정확한 순서로 전달되는지 확인하세요.
+Continuing the discussion on calling functions, the next bug to watch out for is when a function's arguments are supplied in the incorrect order. If the arguments are different types, such as a function expecting an array and an integer, this will likely throw a runtime error. If the arguments are the same type (all integers, for example), then the logic of the code won't make sense. Make sure to supply all required arguments, in the proper order to avoid these issues.
 
 # --instructions--
 

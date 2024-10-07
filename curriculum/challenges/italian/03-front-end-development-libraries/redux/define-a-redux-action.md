@@ -8,7 +8,7 @@ dashedName: define-a-redux-action
 
 # --description--
 
-Dal momento che Redux è un framework di gestione dello stato, l'aggiornamento dello stato è uno dei suoi compiti fondamentali. In Redux, tutti gli aggiornamenti di stato vengono attivati dalle azioni di dispatching (invio). Un'azione è semplicemente un oggetto JavaScript che contiene informazioni su un evento di azione che si è verificato. Lo store Redux riceve questi oggetti di azione, quindi aggiorna il suo stato di conseguenza. A volte un'azione Redux contiene anche dei dati. Ad esempio, l'azione contiene uno username dopo il login di un utente. Mentre i dati sono facoltativi, le azioni devono contenere una proprietà `type` che specifica il 'tipo' di azione che si è verificato.
+Since Redux is a state management framework, updating state is one of its core tasks. In Redux, all state updates are triggered by dispatching actions. An action is simply a JavaScript object that contains information about an action event that has occurred. The Redux store receives these action objects, then updates its state accordingly. Sometimes a Redux action also carries some data. For example, the action carries a username after a user logs in. While the data is optional, actions must carry a `type` property that specifies the 'type' of action that occurred.
 
 Pensa alle azioni Redux come a messaggeri che portano informazioni sugli eventi che accadono nella tua app allo store di Redux. Lo store conduce poi l'attività di aggiornamento dello stato in base all'azione che si è verificata.
 

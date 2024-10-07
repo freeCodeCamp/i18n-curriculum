@@ -8,7 +8,7 @@ dashedName: match-characters-that-occur-zero-or-more-times
 
 # --description--
 
-上一次的挑戰中使用了加號 `+` 來查找出現一次或多次的字符。 還有一個選項可以匹配出現零次或多次的字符。
+The last challenge used the plus `+` sign to look for characters that occur one or more times. There's also an option that matches characters that occur zero or more times.
 
 執行該操作的字符叫做星號，即`*`。
 
@@ -54,7 +54,7 @@ assert(result[0] === 'Aaaaaaaaaaaaaaaa');
 assert(result[0].length === 16);
 ```
 
-你的正則表達式不應該匹配字符串 `He made a fair move. Screaming about it can't help you.` 中的任何字符。
+你的正則表達式不應該有任何匹配，在字符 `He made a fair move. Screaming about it can't help you.`
 
 ```js
 assert(
@@ -62,7 +62,7 @@ assert(
 );
 ```
 
-你的正則表達式不應該匹配字符串 `Let him have it. It's not wise to upset a Wookiee.` 中的任何字符。
+你的正則表達式不應該有任何匹配，在字符 `Let him have it. It's not wise to upset a Wookiee.`
 
 ```js
 assert(

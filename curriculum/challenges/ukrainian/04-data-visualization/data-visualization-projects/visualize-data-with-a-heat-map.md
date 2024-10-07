@@ -8,11 +8,11 @@ dashedName: visualize-data-with-a-heat-map
 
 # --description--
 
-**Мета:** створити застосунок, функціонально схожий до <a href="https://heat-map.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://heat-map.freecodecamp.rocks</a>.
+**Objective:** Build an app that is functionally similar to this: <a href="https://heat-map.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://heat-map.freecodecamp.rocks</a>.
 
-Виконайте історію користувача та пройдіть тести. Використовуйте необхідні вам бібліотеки або API. Оформте за власним стилем.
+Виконайте історію користувача та пройдіть тести. Використовуйте необхідні вам бібліотеки чи API. Продемонструйте свій власний неповторний стиль.
 
-Ви можете використовувати HTML, JavaScript, CSS та бібліотеку візуалізації D3 на основі svg. Необхідні DOM-елементи запитуються під час кожного тесту. Якщо ви використовуєте фронтенд-фреймворк (наприклад, Vue), результати тестів можуть бути неточними для динамічного вмісту. Ми сподіваємося скоро їх налагодити, однак наразі ці фреймворки не підтримуються для проєктів D3.
+Ви можете використовувати HTML, JavaScript, CSS та бібліотеку візуалізації D3 на основі svg. Необхідні DOM-елементи запитуються під час кожного тесту. Якщо ви використовуєте фронтенд-фреймворк (наприклад, Vue), результати тестів можуть бути неточними для динамічного контенту. Ми сподіваємося скоро їх налагодити, однак наразі ці фреймворки не підтримуються для проєктів D3.
 
 **Історія користувача №1:** моя теплокарта повинна мати заголовок з відповідним `id="title"`.
 
@@ -50,7 +50,7 @@ dashedName: visualize-data-with-a-heat-map
 
 Ось набір даних, необхідних для виконання цього проєкту: `https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/global-temperature.json`
 
-Ви можете створити свій проєкт, <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">використовуючи цей шаблон CodePen</a> і натиснувши `Save`. Або ж ви можете скористатися цим посиланням CDN, щоб виконати тести в будь-якому середовищі: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
+Ви можете створити свій проєкт, <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">використавши цей шаблон CodePen</a> та натиснувши `Save`. Або ж ви можете скористатися цим посиланням CDN, щоб виконати тести в будь-якому середовищі: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
 
 Як тільки закінчите, надайте посилання на свій проєкт з усіма пройденими тестами.
 

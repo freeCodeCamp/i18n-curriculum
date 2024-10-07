@@ -9,7 +9,7 @@ dashedName: word-blanks
 
 # --description--
 
-تم تزويدك بجمل ناقصة بعض الكلمات، مثل الأسماء و الأفعال و النعوت و الظروف. ثم أملأ القطع المفقودة بكلمات من اختيارك بطريقة تجعل الجملة المكتملة منطقية.
+You are provided sentences with some missing words, like nouns, verbs, adjectives and adverbs. You then fill in the missing pieces with words of your choice in a way that the completed sentence makes sense.
 
 Consider this sentence:
 

@@ -8,7 +8,7 @@ dashedName: use-a-constructor-to-create-objects
 
 # --description--
 
-在上一个挑战中，我们用所学到的知识创建了一个 `Bird` 构造函数：
+Here's the `Bird` constructor from the previous challenge:
 
 ```js
 function Bird() {

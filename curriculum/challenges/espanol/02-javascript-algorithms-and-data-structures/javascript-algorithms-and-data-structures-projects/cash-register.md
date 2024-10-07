@@ -8,7 +8,7 @@ dashedName: cash-register
 
 # --description--
 
-Diseña una función `checkCashRegister()` que acepte el precio de compra como primer argumento (`price`), la cantidad pagada como segundo argumento (`cash`), y el dinero en efectivo que tiene la caja (`cid`) como tercer argumento.
+Design a cash register drawer function `checkCashRegister()` that accepts purchase price as the first argument (`price`), payment as the second argument (`cash`), and cash-in-drawer (`cid`) as the third argument.
 
 `cid` es un arreglo 2D que enumera las monedas disponibles.
 
@@ -20,9 +20,9 @@ Devuelve `{status: "CLOSED", change: [...]}` si el efectivo en caja como valor d
 
 En cualquier otro caso, devuelve `{status: "OPEN", change: [...]}`, con el cambio a entregar en monedas y billetes, ordenados de mayor a menor, como valor de la clave `change`.
 
-<table><tbody><tr><th>Unidad Monetaria</th><th>Importe</th></tr><tr><td>Penny</td><td>$0.01 (PENNY)</td></tr><tr><td>Nickel</td><td>$0.05 (NICKEL)</td></tr><tr><td>Dime</td><td>$0.1 (DIME)</td></tr><tr><td>Quarter</td><td>$0.25 (QUARTER)</td></tr><tr><td>Dollar</td><td>$1 (ONE)</td></tr><tr><td>Five Dollars</td><td>$5 (FIVE)</td></tr><tr><td>Ten Dollars</td><td>$10 (TEN)</td></tr><tr><td>Twenty Dollars</td><td>$20 (TWENTY)</td></tr><tr><td>One-hundred Dollars</td><td>$100 (ONE HUNDRED)</td></tr></tbody></table>
+<table><tbody><tr><th>Currency Unit</th><th>Amount</th></tr><tr><td>Penny</td><td>$0.01 (CENTAVO)</td></tr><tr><td>Nickel</td><td>$0.05 (NÍQUEL)</td></tr><tr><td>Dime</td><td>$0.1 (DÍEZ CENTAVOS)</td></tr><tr><td>Quarter</td><td>$0.25 (QUARTER)</td></tr><tr><td>Dollar</td><td>$1 (UNO)</td></tr><tr><td>Five Dollars</td><td>$5 (CINCO)</td></tr><tr><td>Ten Dollars</td><td>$10 (DÍEZ)</td></tr><tr><td>Twenty Dollars</td><td>$20 (VEINTE)</td></tr><tr><td>One-hundred Dollars</td><td>$100 (CIEN)</td></tr></tbody></table>
 
-A continuación, un ejemplo del efectivo en caja en formato de arreglo:
+Vea a continuación un ejemplo de un arreglo de efectivo en caja:
 
 ```js
 [

@@ -9,7 +9,7 @@ dashedName: use-grid-area-without-creating-an-areas-template
 
 # --description--
 
-我們在上一次挑戰中學到的 `grid-area` 屬性還有另一種使用方式。 如果網格中沒有定義區域模板，你也可以像這樣爲它添加一個模板：
+The `grid-area` property you learned in the last challenge can be used in another way. If your grid doesn't have an areas template to reference, you can create an area on the fly for an item to be placed like this:
 
 ```css
 item1 { grid-area: 1/1/2/4; }

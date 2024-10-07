@@ -1,6 +1,6 @@
 ---
 id: 587d8258367417b2b2512c7f
-title: Use Breadth First Search in a Binary Search Tree
+title: Erste Breitensuche in einem binären Suchbaum verwenden
 challengeType: 1
 forumTopicId: 301718
 dashedName: use-breadth-first-search-in-a-binary-search-tree
@@ -10,15 +10,15 @@ dashedName: use-breadth-first-search-in-a-binary-search-tree
 
 Here we will introduce another tree traversal method: breadth-first search. In contrast to the depth-first search methods from the last challenge, breadth-first search explores all the nodes in a given level within a tree before continuing on to the next level. Typically, queues are utilized as helper data structures in the design of breadth-first search algorithms.
 
-In this method, we start by adding the root node to a queue. Then we begin a loop where we dequeue the first item in the queue, add it to a new array, and then inspect both its child subtrees. If its children are not null, they are each enqueued. This process continues until the queue is empty.
+Bei dieser Methode wird zunächst der Wurzelknoten zu einer Warteschlange hinzugefügt. Dann beginnen wir eine Schleife, in der wir das erste Element in der Warteschlange aus der Warteschlange nehmen, es einem neuen Array hinzufügen und dann seine beiden untergeordneten Teilbäume untersuchen. Er wird in die Warteschlange gestellt, wenn seine Kinder nicht null sind. Dieser Vorgang wird so lange fortgesetzt, bis die Warteschlange leer ist.
 
 # --instructions--
 
-Let's create a breadth-first search method in our tree called `levelOrder`. This method should return an array containing the values of all the tree nodes, explored in a breadth-first manner. Be sure to return the values in the array, not the nodes themselves. A level should be traversed from left to right. Next, let's write a similar method called `reverseLevelOrder` which performs the same search but in the reverse direction (right to left) at each level.
+Erstellen wir in unserem Baum eine Suchmethode mit dem Namen `levelOrder`. Diese Methode sollte ein Array zurückgeben, das die Werte aller Baumknoten enthält, die nach dem Breadth-First-Prinzip untersucht wurden. Achte darauf, die Werte im Array zurückzugeben, nicht die Knoten selbst. Eine Ebene sollte von links nach rechts durchschritten werden. Als Nächstes schreiben wir eine ähnliche Methode namens `reverseLevelOrder`, die die gleiche Suche durchführt, aber in umgekehrter Richtung (von rechts nach links) auf jeder Ebene.
 
 # --hints--
 
-The `BinarySearchTree` data structure should exist.
+Die Datenstruktur `BinarySearchTree` sollte vorhanden sein.
 
 ```js
 assert(
@@ -32,7 +32,7 @@ assert(
 );
 ```
 
-The binary search tree should have a method called `levelOrder`.
+Der binäre Suchbaum sollte eine Methode namens `levelOrder` haben.
 
 ```js
 assert(
@@ -48,7 +48,7 @@ assert(
 );
 ```
 
-The binary search tree should have a method called `reverseLevelOrder`.
+Der binäre Suchbaum sollte eine Methode namens `reverseLevelOrder` haben.
 
 ```js
 assert(
@@ -64,7 +64,7 @@ assert(
 );
 ```
 
-The `levelOrder` method should return an array of the tree node values explored in level order.
+Die Methode `levelOrder` sollte ein Array mit den Werten der Baumknoten zurückgeben, die in der Reihenfolge der Ebenen untersucht wurden.
 
 ```js
 assert(
@@ -94,7 +94,7 @@ assert(
 );
 ```
 
-The `reverseLevelOrder` method should return an array of the tree node values explored in reverse level order.
+Die Methode `reverseLevelOrder` sollte ein Array mit den Werten der Baumknoten zurückgeben, die in umgekehrter Reihenfolge der Ebenen untersucht wurden.
 
 ```js
 assert(
@@ -124,7 +124,7 @@ assert(
 );
 ```
 
-The `levelOrder` method should return `null` for an empty tree.
+Die Methode `levelOrder` sollte `null` für einen leeren Baum zurückgeben.
 
 ```js
 assert(
@@ -143,7 +143,7 @@ assert(
 );
 ```
 
-The `reverseLevelOrder` method should return `null` for an empty tree.
+Die Methode `reverseLevelOrder` sollte `null` für einen leeren Baum zurückgeben.
 
 ```js
 assert(

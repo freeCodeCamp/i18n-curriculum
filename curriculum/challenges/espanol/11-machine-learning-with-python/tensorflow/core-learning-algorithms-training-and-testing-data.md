@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: core-learning-algorithms-training-and-testing-data
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-¿Qué son los datos categóricos?
+What is categorical data?
 
 ## --answers--
 

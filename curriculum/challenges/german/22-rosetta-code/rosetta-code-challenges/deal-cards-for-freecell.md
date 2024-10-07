@@ -8,7 +8,7 @@ dashedName: deal-cards-for-freecell
 
 # --description--
 
-*FreeCell* is the solitaire card game that Paul Alfille introduced to the PLATO system in 1978. Jim Horne, at Microsoft, changed the name to FreeCell and reimplemented the game for DOS, then Windows. This version introduced 32000 numbered deals.
+*FreeCell* ist das Solitaire-Karten-Spiel, das Paul Alfille 1978 im PLATO-System vorgestellt hatte. Jim Horne, bei Microsoft, änderte den Namen zu FreeCell und implementierte das Spiel für DOS, dann Windows. Mit dieser Version wurden 32000 nummerierte Geschäfte eingeführt.
 
 Als das Spiel populär wurde, legte Jim Horne den Algorithmus offen, und andere FreeCell-Implementierungen begannen, die Microsoft-Angebote zu reproduzieren. Diese Geschäfte sind von 1 bis 32000 nummeriert. Neuere Versionen von Microsoft haben 1 Million Geschäfte, nummeriert von 1 bis 1000000; einige Implementierungen erlauben Zahlen außerhalb dieses Bereichs.
 
@@ -23,16 +23,16 @@ Der Algorithmus verwendet diesen linearen kongruentiellen Generator von Microsof
 Es folgt der Algorithmus:
 
 <ol>
-  <li>Seed the RNG with the number of the deal.
+  <li>Setze die RNG mit der Nummer des Deals.
   </li><li>Erstelle einen Array von 52 Karten: Kreuz-Ass, Karo-Ass, Herz-Ass, Pik-Ass, Kreuz-2, Karo-2, und so weiter durch die Ränge: Ass, 2, 3, 4, 5, 6, 7, 8, 9, 10, Bube, Königin, König. Die Array-Indizes sind 0 bis 51, wobei das Kreuz-Ass auf 0 und der Pik-König auf 51 steht.</li>
   <li>Bis das Array leer ist:</li>
     <ul>
-      <li>Choose a random card at <i>index</i> ≡ <i>next random number</i> (mod <i>array length</i>).</li>
-      <li>Swap this random card with the last card of the array.</li>
-      <li>Remove this random card from the array. (Array length goes down by 1.)</li>
-      <li>Deal this random card.</li>
+      <li>Wähle eine zufällige Karte mit dem <i>index</i> ≡ <i>next random number</i> (mod <i>array length</i>).</li>
+      <li>Tausche diese zufällige Karte mit der letzten Karte des Arrays.</li>
+      <li>Entferne diese zufällige Karte aus dem Feld. (Array-Länge wird um 1 heruntergesetzt.)</li>
+      <li>Gib diese zufällige Karte aus.</li>
     </ul>
-  <li>Deal all 52 cards, face up, across 8 columns. The first 8 cards go in 8 columns, the next 8 cards go on the first 8 cards, and so on.</li>
+  <li>Gib alle 52 Karten aufgedeckt in 8 Spalten aus. Die ersten 8 Karten kommen in 8 Spalten, die nächsten 8 Karten kommen auf die ersten 8 Karten und so weiter.</li>
 </ol>
 
 **Beispiel:**

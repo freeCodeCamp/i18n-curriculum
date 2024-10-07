@@ -8,7 +8,7 @@ dashedName: add-elements-within-your-bootstrap-wells
 
 # --description--
 
-يوجد العديد من عناصر `div` المتداخلة في كل عمود في صفك. هذا عميق بالقدر الكاف بالنسبة إليك. الآن يمكنك إضافة عناصر `button` الخاصة بك.
+Now we're several `div` elements deep on each column of our row. This is as deep as we'll need to go. Now we can add our `button` elements.
 
 ضع ثلاث عناصر `button` لكل عنصر `div` لديه اسم المجموعة `well`.
 

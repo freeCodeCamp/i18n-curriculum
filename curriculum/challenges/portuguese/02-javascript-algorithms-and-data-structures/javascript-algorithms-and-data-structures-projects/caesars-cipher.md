@@ -8,7 +8,7 @@ dashedName: caesars-cipher
 
 # --description--
 
-Uma das <dfn>cifras</dfn> mais simples e mais conhecidas é a <dfn>cifra de César</dfn>, também conhecida como uma <dfn>cifra de mudança</dfn>. Em uma cifra de transferência, os significados das letras são deslocados de acordo com a quantidade definida.
+One of the simplest and most widely known <dfn>ciphers</dfn> is a <dfn>Caesar cipher</dfn>, also known as a <dfn>shift cipher</dfn>. In a shift cipher the meanings of the letters are shifted by some set amount.
 
 Um uso moderno comum é a cifra <a href="https://www.freecodecamp.org/news/how-to-code-the-caesar-cipher-an-introduction-to-basic-encryption-3bf77b4e19f7/" target="_blank" rel="noopener noreferrer nofollow">ROT13</a>, onde os valores das letras são deslocados em 13 lugares. Da seguinte forma: `A ↔ N`, `B ↔ O` e assim por diante.
 

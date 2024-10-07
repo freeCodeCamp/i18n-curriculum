@@ -9,7 +9,7 @@ dashedName: create-a-media-query
 
 # --description--
 
-媒体查询是 CSS3 中引入的一项新技术，它可以根据不同的视口大小调整内容的布局。 视口是指浏览器中，用户可见的网页内容。 视口会随访问网站的设备不同而改变。
+Media Queries are a new technique introduced in CSS3 that change the presentation of content based on different viewport sizes. The viewport is a user's visible area of a web page, and is different depending on the device used to access the site.
 
 媒体查询由媒体类型组成，如果媒体类型与展示网页的设备类型匹配，则应用对应的样式。 你可以在媒体查询中使用各种选择器和样式。
 

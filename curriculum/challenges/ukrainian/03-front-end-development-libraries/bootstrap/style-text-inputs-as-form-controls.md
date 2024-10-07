@@ -13,7 +13,7 @@ dashedName: style-text-inputs-as-form-controls
 
 # --description--
 
-Ви можете додати іконку `fa-paper-plane` з Font Awesome, додавши `<i class="fa fa-paper-plane"></i>` в межах кнопки надсилання (`button`).
+You can add the `fa-paper-plane` Font Awesome icon by adding `<i class="fa fa-paper-plane"></i>` within your submit `button` element.
 
 Надайте полю введення тексту клас зі значенням `form-control`. Надайте кнопці надсилання форми класи `btn btn-primary`. Також надайте цій кнопці іконку `fa-paper-plane` з Font Awesome.
 

@@ -8,7 +8,7 @@ dashedName: add-key-value-pairs-to-javascript-objects
 
 # --description--
 
-По суті, об’єкти — це просто набори пар <dfn>ключ-значення</dfn>. Іншими словами, це фрагменти даних (<dfn>значення</dfn>), зіставлені з унікальними ідентифікаторами, що називаються <dfn>властивостями</dfn> (<dfn>ключами</dfn>). Розглянемо приклад:
+At their most basic, objects are just collections of <dfn>key-value</dfn> pairs. In other words, they are pieces of data (<dfn>values</dfn>) mapped to unique identifiers called <dfn>properties</dfn> (<dfn>keys</dfn>). Take a look at an example:
 
 ```js
 const tekkenCharacter = {

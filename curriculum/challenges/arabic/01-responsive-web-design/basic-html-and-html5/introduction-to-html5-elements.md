@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aecf08801
-title: Introduction to HTML5 Elements
+title: 'مقدمة إلى عناصر HTML5. (العنوان الأصلي: Introduction to HTML5 Elements)'
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVMPUv/cBkZGpt7'
 forumTopicId: 301097
@@ -11,9 +11,9 @@ dashedName: introduction-to-html5-elements
 
 HTML5 introduces more descriptive HTML tags. These include `main`, `header`, `footer`, `nav`, `video`, `article`, `section` and others.
 
-These tags give a descriptive structure to your HTML, make your HTML easier to read, and help with Search Engine Optimization (SEO) and accessibility. The `main` HTML5 tag helps search engines and other developers find the main content of your page.
+هذه العناصر تجعل ال HTML الخاص بك أسهل للقراءة وتساعده في تحسين محرك البحث (SEO) وإمكانية الوصول (accessibility). وسم (tag) ال HTML5 ال `main` يساعد محركات البحث والمطورين الآخرين على العثور على المحتوى الرئيسي لصفحتك.
 
-Example usage, a `main` element with two child elements nested inside it:
+مثال على الاستخدام، عنصر `main` مع عنصرين فرعيين متداخلين فيه:
 
 ```html
 <main> 
@@ -22,23 +22,23 @@ Example usage, a `main` element with two child elements nested inside it:
 </main>
 ```
 
-**Note:** Many of the new HTML5 tags and their benefits are covered in the Applied Accessibility section.
+**ملاحظة:** العديد من وسوم HTML5 الجديدة وفوائدها مشمولة في قسم إمكانية الوصول التطبيقي.
 
 # --instructions--
 
-Create a second `p` element with the following kitty ipsum text: `Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.`
+أنشأ عنصر `p` ثانٍ بنص ال kitty ipusm التالي  `Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.` ( نص ال Ipusm هو طريقة لكتابة النصوص في النشر والتصميم و البرمجة بشكل شائع لتوضيح الشكل المرئي للمستند أو الخط دون الاعتماد على محتوى ذي معنى)
 
-Then, create a `main` element and nest only the two `p` elements inside the `main` element.
+ثم أنشأ عنصر `main` و ضع فقط عنصري ال `p` داخل عنصر ال `main`.
 
 # --hints--
 
-You should have 2 `p` elements with Kitty Ipsum text.
+يجب أن يكون لديك 2 من عناصر ال `p` يحتويان على نص ال Kitty Ipsum.
 
 ```js
 assert($('p').length > 1);
 ```
 
-Each of your `p` elements should have a closing tag.
+كل عنصر من عناصر ال `p` الخاص بك يجب أن يحتوي على وسم إغلاق (closing tag).
 
 ```js
 assert(
@@ -47,31 +47,31 @@ assert(
 );
 ```
 
-Your `p` element should contain the first few words of the provided additional `kitty ipsum` text.
+يجب أن يحتوي عنصر ال `p` الخاص بك على الكلمات الأولى القليلة من نص ال `kitty ipsum` الإضافي المقدَّم.
 
 ```js
 assert.isTrue(/Purr\s+jump\s+eat/gi.test($('p').text()));
 ```
 
-Your code should have one `main` element.
+الكود الخاص بك يجب أن يحتوي على عنصر `main` واحد.
 
 ```js
 assert($('main').length === 1);
 ```
 
-The `main` element should have two paragraph elements as children.
+عنصر ال `main` يجب أن يحتوي على عنصري paragraph كعناصر فرعية ( children elements).
 
 ```js
 assert($('main').children('p').length === 2);
 ```
 
-The opening `main` tag should come before the first paragraph tag.
+وسم ال `main` الافتتاحي يجب أن يأتي قبل وسم ال paragraph الأول.
 
 ```js
 assert(code.match(/<main>\s*?<p>/g));
 ```
 
-The closing `main` tag should come after the second closing paragraph tag.
+وسم ال `main` الإغلاقي يجب أن يأتي بعد وسم ال paragraph الإغلاقي الثاني.
 
 ```js
 assert(code.match(/<\/p>\s*?<\/main>/g));

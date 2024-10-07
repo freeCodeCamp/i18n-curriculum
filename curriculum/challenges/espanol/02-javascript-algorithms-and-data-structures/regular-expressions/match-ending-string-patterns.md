@@ -8,7 +8,7 @@ dashedName: match-ending-string-patterns
 
 # --description--
 
-En el último desafío, aprendiste a usar el carácter de intercalación para buscar patrones al inicio de las cadenas. También hay una manera de buscar patrones al final de las cadenas.
+In the last challenge, you learned to use the caret character to search for patterns at the beginning of strings. There is also a way to search for patterns at the end of strings.
 
 Puedes buscar el final de las cadenas usando el carácter del signo de dólar `$` al final de la expresión regular.
 
@@ -20,7 +20,7 @@ let noEnding = "Sometimes a story will have to end";
 storyRegex.test(noEnding);
 ```
 
-La primera llamada a `test` devuelve `true`, mientras que la segunda retorna `false`.
+La primera llamada `test` devolverá `true`, mientras que la segunda retornara `false`.
 
 # --instructions--
 
@@ -34,7 +34,7 @@ Debes buscar `caboose` con el ancla de signo de dólar `$` en tu expresión regu
 assert(lastRegex.source == 'caboose$');
 ```
 
-Tu expresión regular no debe usar ninguna bandera.
+Tu expresión regular no debería usar ninguna etiqueta.
 
 ```js
 assert(lastRegex.flags == '');

@@ -8,7 +8,7 @@ dashedName: manage-npm-dependencies-by-understanding-semantic-versioning
 
 # --description--
 
-`Versions` der npm-Pakete im Abschnitt "dependencies" (Abhängigkeiten) deiner package.json-Datei folgen dem sogenannten Semantic Versioning (SemVer), einem Industriestandard für Software Versioning, der die Verwaltung von Abhängigkeiten erleichtern soll. Bibliotheken, Frameworks oder andere Tools, die auf npm veröffentlicht werden, sollten SemVer verwenden, um klar zu kommunizieren, welche Art von Änderungen Projekte erwarten können, wenn sie aktualisiert werden.
+`Versions` of the npm packages in the dependencies section of your package.json file follow what’s called Semantic Versioning (SemVer), an industry standard for software versioning aiming to make it easier to manage dependencies. Libraries, frameworks or other tools published on npm should use SemVer in order to clearly communicate what kind of changes projects can expect if they update.
 
 Die Kenntnis von SemVer kann nützlich sein, wenn du eine Software entwickelst, die externe Abhängigkeiten nutzt (was du fast immer tust). Eines Tages wird dein Verständnis dieser Zahlen dich davor bewahren, versehentlich Änderungen an deinem Projekt vorzunehmen, ohne zu verstehen, warum Dinge, die gestern noch funktionierten, heute plötzlich nicht mehr funktionieren. So funktioniert Semantic Versioning laut der offiziellen Website:
 

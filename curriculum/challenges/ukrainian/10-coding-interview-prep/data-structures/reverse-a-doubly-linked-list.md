@@ -8,7 +8,7 @@ dashedName: reverse-a-doubly-linked-list
 
 # --description--
 
-Створимо ще один метод для нашого двобічно зв’язаного списку під назвою `reverse`, який реверсує список на місці. Як тільки метод виконано, голова списку має вказувати на попередній хвіст, а хвіст — на попередню голову. Тепер при обході списку з голови до хвоста ми повинні побачити вузли у зворотному порядку в порівнянні з вхідним списком. Метод має повернути `null` при спробі реверсувати порожній список.
+Let's create one more method for our doubly linked list called reverse which reverses the list in place. Once the method is executed the head should point to the previous tail and the tail should point to the previous head. Now, if we traverse the list from head to tail we should meet the nodes in a reverse order compared to the original list. Trying to reverse an empty list should return null.
 
 # --hints--
 

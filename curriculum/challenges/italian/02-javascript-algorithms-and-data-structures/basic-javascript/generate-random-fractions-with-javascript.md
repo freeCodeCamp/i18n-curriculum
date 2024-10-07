@@ -9,7 +9,7 @@ dashedName: generate-random-fractions-with-javascript
 
 # --description--
 
-I numeri casuali sono utili per creare comportamenti casuali.
+Random numbers are useful for creating random behavior.
 
 JavaScript ha una funzione `Math.random()` che genera un numero decimale casuale tra `0` (incluso) e `1` (escluso). Così `Math.random()` può restituire uno `0` ma mai un `1`.
 

@@ -8,7 +8,7 @@ dashedName: use-provider-to-connect-redux-to-react
 
 # --description--
 
-В попередньому завданні ви створили сховище Redux для обробки масиву повідомлень і створили дію для додавання нових повідомлень. Наступний крок — надати React доступ до сховища Redux та дій, необхідних для відправлення оновлень. React Redux надає свій пакет `react-redux`, щоб допомогти з виконанням цих завдань.
+In the last challenge, you created a Redux store to handle the messages array and created an action for adding new messages. The next step is to provide React access to the Redux store and the actions it needs to dispatch updates. React Redux provides its `react-redux` package to help accomplish these tasks.
 
 React Redux надає невеличкий API з двома ключовими властивостями: `Provider` та `connect`. Інше завдання стосується `connect`. `Provider` — це обгортуваний компонент від React Redux, який обгортає застосунок React. Ця обгортка дозволяє отримати доступ до сховища Redux та відправити функції через дерево компонентів. `Provider` приймає два пропси, сховище Redux та дочірні компоненти застосунку. Визначення `Provider` для компонента застосунку може виглядати так:
 

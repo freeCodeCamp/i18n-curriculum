@@ -8,7 +8,7 @@ dashedName: use-a-mixin-to-add-common-behavior-between-unrelated-objects
 
 # --description--
 
-كما رأيتم، فإن السلوك يتم تشاركه من خلال الميراث. ومع ذلك ، هناك حالات لا يكون فيها الميراث هو الحل الأفضل. الميراث لا يعمل بشكل جيد لـ objects غير ذات صلة مثل `Bird` و `Airplane`. يمكن لكل منهما الطيران ، ولكن `Bird` ليس نوعا من `Airplane` والعكس صحيح.
+As you have seen, behavior is shared through inheritance. However, there are cases when inheritance is not the best solution. Inheritance does not work well for unrelated objects like `Bird` and `Airplane`. They can both fly, but a `Bird` is not a type of `Airplane` and vice versa.
 
 بالنسبة للـ objects غير ذات صلة، من الأفضل استخدام <dfn>mixins</dfn>. يسمح ال mixin للـ objects الأخرى باستخدام مجموعة من الـ functions.
 

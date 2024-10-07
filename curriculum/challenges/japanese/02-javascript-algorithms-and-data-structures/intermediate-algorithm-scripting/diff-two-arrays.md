@@ -8,7 +8,7 @@ dashedName: diff-two-arrays
 
 # --description--
 
-2 つの配列を比較して、与えられた配列のいずれか一方にのみ存在するアイテムを含み、両方に存在するアイテムを含まない、新しい配列を返してください。 言い換えれば、2 つの配列の対称差を返してください。
+Compare two arrays and return a new array with any items only found in one of the two given arrays, but not both. In other words, return the symmetric difference of the two arrays.
 
 **注:** 戻り値となる配列の要素の順序は任意でかまいません。
 

@@ -8,7 +8,7 @@ dashedName: dynamically-set-the-coordinates-for-each-bar
 
 # --description--
 
-前回のチャレンジでは、長方形を作成し、それを `dataset` 内の各ポイントの `svg` 要素に追加することでバーを描きました。 しかし残念ながら、すべてのバーが重なり合っていました。
+The last challenge created and appended a rectangle to the `svg` element for each point in `dataset` to represent a bar. Unfortunately, they were all stacked on top of each other.
 
 長方形の配置は `x` 属性と `y` 属性で処理されます。 これらの属性は、`svg` 領域内のどこから図形を描き始めるかを D3 に指示します。 前回のチャレンジではそれぞれ 0 に設定されたので、すべてのバーが左上隅に配置されました。
 

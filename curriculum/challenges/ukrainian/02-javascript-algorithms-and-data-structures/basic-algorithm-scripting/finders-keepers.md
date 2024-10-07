@@ -8,7 +8,7 @@ dashedName: finders-keepers
 
 # --description--
 
-Створіть функцію, яка переглядає масив `arr` та повертає перший елемент у ньому, який проходить тест на «істинність». Це означає, що даний елемент `x` пройшов тест на «істинність», якщо `func(x)` є `true`. Якщо жодний елемент не проходить тест, поверніть `undefined`.
+Create a function that looks through an array `arr` and returns the first element in it that passes a 'truth test'. This means that given an element `x`, the 'truth test' is passed if `func(x)` is `true`. If no element passes the test, return `undefined`.
 
 # --hints--
 

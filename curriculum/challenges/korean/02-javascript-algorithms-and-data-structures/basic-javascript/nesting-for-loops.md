@@ -9,7 +9,7 @@ dashedName: nesting-for-loops
 
 # --description--
 
-다차원 배열이 있을 때, 이전에 언급된 것과 같은 논리를 사용하여 배열과 모든 하위 배열을 순환할 수 있습니다. 여기 예시가 있습니다.
+If you have a multi-dimensional array, you can use the same logic as the prior waypoint to loop through both the array and any sub-arrays. Here is an example:
 
 ```js
 const arr = [

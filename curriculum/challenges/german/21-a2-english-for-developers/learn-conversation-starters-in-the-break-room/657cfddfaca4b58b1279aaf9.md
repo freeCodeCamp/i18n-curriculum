@@ -9,11 +9,11 @@ dashedName: task-72
 
 # --description--
 
-`encourage` bedeutet, jemandem Unterstützung, Vertrauen oder Hoffnung zu geben. It's what a good coach does to motivate their team to do their best.
+`encourage` bedeutet, jemandem Unterstützung, Vertrauen oder Hoffnung zu geben. Das ist es, was ein guter Trainer tut, um sein Team zu motivieren, sein Bestes zu geben.
 
 # --instructions--
 
-Höre dir das Audio an, um die unteren Sätze zu vervollständigen.
+Höre dir das Audio an, um den unteren Satz zu vervollständigen.
 
 # --fillInTheBlank--
 
@@ -21,15 +21,15 @@ Höre dir das Audio an, um die unteren Sätze zu vervollständigen.
 
 `Maria thinks challenges are positive. She BLANK us to find solutions together.`
 
-## -blanks--
+## --blanks--
 
 `encourages`
 
 ### --feedback--
 
-Denke daran, das Verb zu konjugieren. The verb you need is about motivating or inspiring someone to do something. Es ist ähnlich wie jemanden anzufeuern.
+Denke daran, das Verb zu konjugieren. Bei dem Verb, das du brauchst, geht es darum, jemanden zu motivieren oder zu inspirieren, etwas zu tun. Es ist ähnlich wie jemanden anzufeuern.
 
-# --Szene--
+# --scene--
 
 ```json
 {

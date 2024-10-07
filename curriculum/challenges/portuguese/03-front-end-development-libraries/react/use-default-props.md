@@ -8,7 +8,7 @@ dashedName: use-default-props
 
 # --description--
 
-React também tem uma opção para definir as propriedades padrão. Você pode atribuir propriedades padrão a um componente como uma propriedade no próprio componente e o React atribui a propriedade padrão se necessário. Isso permite que você especifique qual deve ser um valor da propriedade se nenhum valor for explicitamente fornecido. Por exemplo, se você declarar `MyComponent.defaultProps = { location: 'San Francisco' }`, você definiu uma propriedade de localização definida para a string `San Francisco`, a menos que você especifique de outra forma. React atribui propriedades padrão se "props" forem indefinidas, mas se você passar `null` como o valor para uma prop, continuará `null`.
+React also has an option to set default props. You can assign default props to a component as a property on the component itself and React assigns the default prop if necessary. This allows you to specify what a prop value should be if no value is explicitly provided. For example, if you declare `MyComponent.defaultProps = { location: 'San Francisco' }`, you have defined a location prop that's set to the string `San Francisco`, unless you specify otherwise. React assigns default props if props are undefined, but if you pass `null` as the value for a prop, it will remain `null`.
 
 # --instructions--
 

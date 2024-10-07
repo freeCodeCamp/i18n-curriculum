@@ -9,7 +9,7 @@ dashedName: store-multiple-values-in-one-variable-using-javascript-arrays
 
 # --description--
 
-使用數組（`array`），我們可以在一個地方存儲多個數據。
+With JavaScript `array` variables, we can store several pieces of data in one place.
 
 以左方括號開始定義一個數組，以右方括號結束，裏面每個元素之間用逗號隔開，例如：
 

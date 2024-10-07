@@ -8,7 +8,7 @@ dashedName: add-inline-styles-in-react
 
 # --description--
 
-Можливо, ви помітили, що в попередньому завданні було декілька відмінностей синтаксису від вбудованих стилів HTML, додатково до атрибута `style` зі значенням об’єкта JavaScript. По-перше, у назвах певних властивостей стилю CSS використовується верблюдячийРегістр. Наприклад, в попередньому завданні, ми налаштували розміру шрифту завдяки `fontSize`, а не `font-size`. Написання слів через дефіс (наприклад, `font-size`) не працює для властивостей об’єктів JavaScript, тому в React використовують верблюдячийРегістр. Як правило, будь-які властивості стилю, що містять дефіс, записані верблюдячимРегістром в JSX.
+You may have noticed in the last challenge that there were several other syntax differences from HTML inline styles in addition to the `style` attribute set to a JavaScript object. First, the names of certain CSS style properties use camel case. For example, the last challenge set the size of the font with `fontSize` instead of `font-size`. Hyphenated words like `font-size` are invalid syntax for JavaScript object properties, so React uses camel case. As a rule, any hyphenated style properties are written using camel case in JSX.
 
 Вважається, що всі одиниці властивості довжини (наприклад, `height`, `width` та `fontSize`) мають значення `px`, якщо не вказано інше. Якщо ви хочете використати `em`, напишіть значення та одиниці в лапках: `{fontSize: "4em"}`. Окрім значень довжини, які за замовчуванням становлять `px`, всі інші значення властивостей потрібно писати в лапках.
 

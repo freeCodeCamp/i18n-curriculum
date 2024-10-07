@@ -8,7 +8,7 @@ dashedName: match-all-numbers
 
 # --description--
 
-Du hast Kurzformen für gängige Zeichenkettenmuster wie alphanumerische Zeichen gelernt. Ein anderes gängiges Muster ist die Suche nach Ziffern oder Zahlen.
+You've learned shortcuts for common string patterns like alphanumerics. Another common pattern is looking for just digits or numbers.
 
 Die Abkürzung für die Suche nach Ziffernzeichen ist `\d`, mit einem kleingeschriebenen `d`. Dies entspricht der Zeichenklasse `[0-9]`, die nach einem einzelnen Zeichen mit einer beliebigen Zahl zwischen null und neun sucht.
 

@@ -1,6 +1,6 @@
 ---
 id: 5f3cade99dda4e6071a85dfd
-title: Step 46
+title: الخطوة 46
 challengeType: 0
 dashedName: step-46
 ---
@@ -11,25 +11,25 @@ You will come back to styling the menu in a few steps, but for now, go ahead and
 
 # --hints--
 
-You should have an opening `section` tag.
+يجب أن يكون لديك علامة مفتوحة (opening tag) الآتي `section`.
 
 ```js
 assert.lengthOf(code.match(/<section>/ig) ,2);
 ```
 
-You should have a closing `section` tag.
+يجب أن يكون لديك علامة مغلقة (closing tag) الآتي `section`.
 
 ```js
 assert.lengthOf(code.match(/<\/section>/ig) ,2);
 ```
 
-You should not change the existing `main` element.
+لا يجب عليك تغيير عنصر `main` الحالي.
 
 ```js
 assert.lengthOf (document.querySelectorAll('main'), 1);
 ```
 
-Your new `section` element should be nested in the `main` element.
+عنصر `section` الجديد الخاص بك يجب أن يكون متداخلا في عنصر `main`.
 
 ```js
 const main = document.querySelector('main');

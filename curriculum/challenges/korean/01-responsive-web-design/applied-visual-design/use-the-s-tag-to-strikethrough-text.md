@@ -8,7 +8,7 @@ dashedName: use-the-s-tag-to-strikethrough-text
 
 # --description--
 
-가로선이 문자열의 중앙을 자르는 취소선 텍스트를 만드려면, `s` 태그를 사용하면 됩니다. 취소선은 텍스트 섹션이 더 이상 유효하지 않음을 나타냅니다. `s` 태그를 사용하면, 브라우저는 엘리먼트에 `text-decoration: line-through;` CSS를 적용합니다.
+To strikethrough text, which is when a horizontal line cuts across the characters, you can use the `s` tag. It shows that a section of text is no longer valid. With the `s` tag, the browser applies the CSS of `text-decoration: line-through;` to the element.
 
 # --instructions--
 

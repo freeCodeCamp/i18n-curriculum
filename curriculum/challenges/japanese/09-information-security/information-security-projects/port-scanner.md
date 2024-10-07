@@ -13,7 +13,7 @@ You will be <a href="https://gitpod.io/?autostart=true#https://github.com/freeCo
 
 Python カリキュラムの対話式教育コンテンツを引き続き開発中です。 現在、下記の freeCodeCamp.org YouTube チャンネルで、このプロジェクトの完了に必要なすべての知識について説明する動画をいくつか公開しています。
 
-- <a href="https://www.freecodecamp.org/news/python-for-everybody/" target="_blank" rel="noopener noreferrer nofollow">「みんなの Python」動画コース</a> (14 時間)
+- <a href="https://www.freecodecamp.org/news/python-for-everybody/" target="_blank" rel="noopener noreferrer nofollow">Python for Everybody Video Course</a> (14 hours)
 
 - <a href="https://www.freecodecamp.org/news/learn-python-basics-in-depth-video-course/" target="_blank" rel="noopener noreferrer nofollow">Python の基礎を詳しく学ぶ</a> (4 時間)
 
@@ -68,7 +68,7 @@ PORT     SERVICE
 
 `get_open_ports` 関数に渡された IP アドレスが無効な場合、関数は文字列 "Error: Invalid IP address" を返す必要があります。
 
-## 開発
+## Development
 
 `port_scanner.py` にコードを記述してください。 開発には `main.py` を使用してコードをテストすることができます。
 

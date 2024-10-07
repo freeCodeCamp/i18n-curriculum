@@ -8,7 +8,7 @@ dashedName: prevent-object-mutation
 
 # --description--
 
-이전 도전과제에서 본 것처럼, `const` 선언만으로는 데이터를 변경으로부터 제대로 보호하지 못합니다. 데이터가 변경되지 않도록 하기 위해, 자바스크립트는 데이터 변경을 방지하는 `Object.freeze` 함수를 제공합니다.
+As seen in the previous challenge, `const` declaration alone doesn't really protect your data from mutation. To ensure your data doesn't change, JavaScript provides a function `Object.freeze` to prevent data mutation.
 
 객체를 변경하려는 시도는 거부될 것이며, 스크립트가 엄격 모드로 실행 중인 경우 오류가 발생할 것입니다.
 

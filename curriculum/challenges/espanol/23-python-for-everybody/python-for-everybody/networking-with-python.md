@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: networking-with-python
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-What Python library gives access to TCP Sockets?
+¿Qué librería de Python da acceso a TCP Sockets?
 
 ## --answers--
 

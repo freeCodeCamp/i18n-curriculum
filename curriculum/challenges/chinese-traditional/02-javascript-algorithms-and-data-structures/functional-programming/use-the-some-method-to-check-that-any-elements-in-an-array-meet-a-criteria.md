@@ -8,7 +8,7 @@ dashedName: use-the-some-method-to-check-that-any-elements-in-an-array-meet-a-cr
 
 # --description--
 
-`some` 方法用於檢測數組中*任何*元素是否滿足指定條件。 如果有一個元素滿足條件，返回布爾值 `true`，反之返回 `false`。
+The `some` method works with arrays to check if *any* element passes a particular test. It returns a Boolean value - `true` if any of the values meet the criteria, `false` if not.
 
 舉個例子，下面的代碼檢測數組`numbers`中是否有元素小於 10：
 

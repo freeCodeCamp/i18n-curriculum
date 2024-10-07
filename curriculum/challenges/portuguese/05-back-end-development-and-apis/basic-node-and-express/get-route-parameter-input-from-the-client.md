@@ -8,7 +8,7 @@ dashedName: get-route-parameter-input-from-the-client
 
 # --description--
 
-Ao construir uma API, temos que permitir que os usuários nos comuniquem o que querem obter com o nosso serviço. Por exemplo, se o client estiver solicitando informações sobre um usuário armazenado no banco de dados, ele precisa de um modo de nos informar em qual usuário ele está interessado. Uma maneira possível de alcançar este resultado é utilizando parâmetros de roteamento. Parâmetros de roteamento são segmentos nomeados do URL, delimitados por barras (/). Cada segmento captura o valor da parte do URL que corresponde à sua posição. Os valores capturados podem ser encontrados no objeto `req.params`.
+When building an API, we have to allow users to communicate to us what they want to get from our service. For example, if the client is requesting information about a user stored in the database, they need a way to let us know which user they're interested in. One possible way to achieve this result is by using route parameters. Route parameters are named segments of the URL, delimited by slashes (/). Each segment captures the value of the part of the URL which matches its position. The captured values can be found in the `req.params` object.
 
 <blockquote>route_path: '/user/:userId/book/:bookId'<br>actual_request_URL: '/user/546/book/6754' <br>req.params: {userId: '546', bookId: '6754'}</blockquote>
 

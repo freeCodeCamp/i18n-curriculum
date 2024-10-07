@@ -1,6 +1,6 @@
 ---
 id: 587d7fae367417b2b2512be3
-title: Get JSON with the JavaScript XMLHttpRequest Method
+title: احصل على JSON مع طريقة JavaScript XMLHttpRequest
 challengeType: 6
 forumTopicId: 301502
 dashedName: get-json-with-the-javascript-xmlhttprequest-method
@@ -10,17 +10,17 @@ dashedName: get-json-with-the-javascript-xmlhttprequest-method
 
 You can also request data from an external source. This is where APIs come into play.
 
-Remember that APIs - or Application Programming Interfaces - are tools that computers use to communicate with one another. You'll learn how to update HTML with the data we get from APIs using a technology called AJAX.
+تذكر أن APIs - أو واجهات برمجة التطبيقات - هي أدوات تستخدمها أجهزة الكمبيوتر للتواصل مع بعضها البعض. ستتعلم كيفية تحديث HTML مع البيانات التي نحصل عليها من APIs باستخدام تقنية تسمى AJAX.
 
-Most web APIs transfer data in a format called JSON. JSON stands for JavaScript Object Notation.
+معظم واجهات برمجة تطبيقات الويب تنقل البيانات بتنسيق يسمى JSON. JSON ترمز إلى JavaScript Object Notation.
 
-JSON syntax looks very similar to JavaScript object literal notation. JSON has object properties and their current values, sandwiched between a `{` and a `}`.
+يبدو بناء الجملة JSON شبيهاً جداً بالمعنى الحرفي لكائن JavaScript. لدى JSON خصائص الكائن وقيمتهم الحالية، مدمجة بين `{` و `}`.
 
-These properties and their values are often referred to as "key-value pairs".
+وغالباً ما يشار إلى هذه الخصائص وقيمها باسم "key-value pairs".
 
-However, JSON transmitted by APIs are sent as `bytes`, and your application receives it as a `string`. These can be converted into JavaScript objects, but they are not JavaScript objects by default. The `JSON.parse` method parses the string and constructs the JavaScript object described by it.
+ومع ذلك، فإن JSON التي تم إرسالها بواسطة APIs يتم إرسالها كبايتس `bytes`، ويتلقاها تطبيقك كمقطع نصي `string`. يمكن تحويل هذه الكائنات إلى JavaScript objects، لكنها ليست كائنات JavaScript من البداية. طريقة `JSON.parse` تحلل المقطع النصي وتبني كائن JavaScript الذي وصفه.
 
-You can request the JSON from freeCodeCamp's Cat Photo API. Here's the code you can put in your click event to do this:
+يمكنك طلب JSON من freeCodeCamp's Cat Photo API. إليك الكود الذي يمكنك وضعه في حدث النقر (click event) الخاص بك للقيام بما يلي:
 
 ```js
 const req = new XMLHttpRequest();
@@ -32,21 +32,21 @@ req.onload = function(){
 };
 ```
 
-Here's a review of what each piece is doing. The JavaScript `XMLHttpRequest` object has a number of properties and methods that are used to transfer data. First, an instance of the `XMLHttpRequest` object is created and saved in the `req` variable. Next, the `open` method initializes a request - this example is requesting data from an API, therefore is a `GET` request. The second argument for `open` is the URL of the API you are requesting data from. The third argument is a Boolean value where `true` makes it an asynchronous request. The `send` method sends the request. Finally, the `onload` event handler parses the returned data and applies the `JSON.stringify` method to convert the JavaScript object into a string. This string is then inserted as the message text.
+ها هي مراجعة لما تفعله كل قطعة. لدى كائن `XMLHttpRequest` في JavaScript عدد من الخصائص والطرق المستخدمة لنقل البيانات. أولا، تم إنشاء كائن `XMLHttpRequest` وحفظه في متغير `req`. بعد ذلك، طريقة `open` تهيئ الطلب - هذا المثال طلب بيانات من API، لذلك هو طلب نوعه `GET`. يكون المعطى الثاني في `open` عنوان (URL) الواجهة (API) التي تطلب البيانات منها. المعطى الثالثة قيمة منطقية حيث `true` تجعلها طلباً متزامنًا (asynchronous request). طريقة `send` ترسل الطلب. وأخيرا، فإن معالج الحدث `onload` يحلل البيانات التي تم إرجاعها ويطبق الطريقة `JSON.stringify` لتحويل كائن JavaScript إلى مقطع نصي. ثم تدرج هذا المقطع كنص الرسالة.
 
 # --instructions--
 
-Update the code to create and send a `GET` request to the freeCodeCamp Cat Photo API. Then click the `Get Message` button. Your AJAX function will replace the `The message will go here` text with the raw JSON output from the API.
+قم بتحديث الكود لإنشاء وإرسال طلب `GET` إلى واجهة freeCodeCamp Cat Photo API. ثم انقر فوق زر `Get Message`. ستستبدل وظيفة AJAX الخاصة بك النص `The message will go here` بالإخراج JSON الخام من API.
 
 # --hints--
 
-Your code should create a new `XMLHttpRequest`.
+الكود الخاص بك يجب أن ينشئ `XMLHttpRequest` جديد.
 
 ```js
 assert(code.match(/new\s+?XMLHttpRequest\(\s*?\)/g));
 ```
 
-Your code should use the `open` method to initialize a `GET` request to the freeCodeCamp Cat Photo API.
+يجب أن يستخدم الكود الخاص بك طريقة `open` لتهيئة طلب `GET` إلى freeCodeCamp Cat Photo API.
 
 ```js
 assert(
@@ -56,13 +56,13 @@ assert(
 );
 ```
 
-Your code should use the `send` method to send the request.
+يجب أن يستخدم الكود الخاص بك طريقة `send` لإرسال الطلب.
 
 ```js
 assert(code.match(/\.send\(\s*\)/g));
 ```
 
-Your code should have an `onload` event handler set to a function.
+يجب أن يكون الكود الخاص بك عيَّن معالج الحدث `onload` إلى وظيفة.
 
 ```js
 assert(
@@ -70,13 +70,13 @@ assert(
 );
 ```
 
-Your code should use the `JSON.parse` method to parse the `responseText`.
+يجب أن تستخدم الكود الخاص بك طريقة `JSON.parse` لتحليل `responseText`.
 
 ```js
 assert(code.match(/JSON\s*\.parse\(\s*.*\.responseText\s*\)/g));
 ```
 
-Your code should get the element with class `message` and change its inner HTML to the string of JSON data.
+يجب أن يحصل الكود على العنصر الذي له فئة `message` وأن تغير inner HTML إلى مقطع نصي من بيانات JSON.
 
 ```js
 assert(

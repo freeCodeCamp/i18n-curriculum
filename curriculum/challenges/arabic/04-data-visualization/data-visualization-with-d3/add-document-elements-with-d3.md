@@ -8,23 +8,23 @@ dashedName: add-document-elements-with-d3
 
 # --description--
 
-يحتوي D3 على عدة طرق (methods) التي تسمح لك بإضافة وتغيير العناصر في وثيقتك.
+D3 has several methods that let you add and change elements in your document.
 
-تختار طريقة (method) `select()` عنصراً واحداً من الوثيقة. إنها تأخذ اسم العنصر الذي تريده كمعطى (argument)، وتنتج HTML node لأول عنصر في المستند يطابق الاسم. Here's an example:
+تختار طريقة (method) `select()` عنصراً واحداً من الوثيقة. إنها تأخذ اسم العنصر الذي تريده كمعطى (argument)، وتنتج HTML node لأول عنصر في المستند يطابق الاسم. وهذا مثال على ذلك:
 
 ```js
 const anchor = d3.select("a");
 ```
 
-يجد المثال السابق أول علامة رابط (anchor) في الصفحة ويحفظ HTML node لها في المتغير `anchor`. يمكنك استخدام طريقة الاختيار (selection) مع طرق (methods) أخرى. The `d3` part of the example is a reference to the D3 object, which is how you access D3 methods.
+يجد المثال السابق أول علامة رابط (anchor) في الصفحة ويحفظ HTML node لها في المتغير `anchor`. يمكنك استخدام طريقة الاختيار (selection) مع طرق (methods) أخرى. جزء `d3` من المثال هو إشارة إلى كائن (D3 object reference)، وهو كيف توصل إلى طرق D3.
 
-Two other useful methods are `append()` and `text()`.
+وهناك طريقتان مفيدتان أخريان هما `append()` و `text()`.
 
-The `append()` method takes an argument for the element you want to add to the document. It appends an HTML node to a selected item, and returns a handle to that node.
+طريقة `append()` تأخذ معطى للعنصر الذي تريد إضافته إلى الوثيقة. يضيف HTML node إلى عنصر محدد، ويعيد إشارة إلى تلك node.
 
-The `text()` method either sets the text of the selected node, or gets the current text. To set the value, you pass a string as an argument inside the parentheses of the method.
+طريقة `text()` إما تعيين نص للعقدة المحددة (selected node)، أو تحصل على النص الحالي. لتعيين القيمة، أعطي مقطع نصي داخل أقواس الطريقة.
 
-Here's an example that selects an unordered list, appends a list item, and adds text:
+هنا مثال يختار قائمة غير منظمة (unordered list)، ثم يضيف عنصر قائمة، ثم يضيف نص:
 
 ```js
 d3.select("ul")
@@ -32,45 +32,45 @@ d3.select("ul")
   .text("Very important item");
 ```
 
-D3 allows you to chain several methods together with periods to perform a number of actions in a row.
+يسمح لك D3 بتسلسل عدة طرق مع فترات (periods) لتنفيذ عدد من الإجراءات على التوالي.
 
 # --instructions--
 
-Use the `select` method to select the `body` tag in the document. Then `append` an `h1` tag to it, and add the text `Learning D3` into the `h1` element.
+استخدم طريقة `select` لاختيار علامة `body` في الوثيقة. ثم `append` علامة `h1` إليها، وأضف النص `Learning D3` إلى عنصر `h1`.
 
 # --hints--
 
-The `body` should have one `h1` element.
+يجب أن يحتوي عنصر `body` الخاص بك على عنصر `h1` واحد.
 
 ```js
 assert($('body').children('h1').length == 1);
 ```
 
-The `h1` element should have the text `Learning D3` in it.
+يجب أن يحتوي عنصر `h1` الخاص بك على النص `Learning D3`.
 
 ```js
 assert($('h1').text() == 'Learning D3');
 ```
 
-Your code should access the `d3` object.
+يجب أن يتواصل الكود الخاص بك بكائن `d3`.
 
 ```js
 assert(code.match(/d3/g));
 ```
 
-Your code should use the `select` method.
+يجب أن يستخدم كودك طريقة `select`.
 
 ```js
 assert(code.match(/\.select/g));
 ```
 
-Your code should use the `append` method.
+يجب أن يستخدم كودك طريقة `append`.
 
 ```js
 assert(code.match(/\.append/g));
 ```
 
-Your code should use the `text` method.
+يجب أن يستخدم الكود الخاص بك طريقة `text`.
 
 ```js
 assert(code.match(/\.text/g));

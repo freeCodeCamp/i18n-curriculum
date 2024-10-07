@@ -8,7 +8,7 @@ dashedName: render-state-in-the-user-interface
 
 # --description--
 
-Uma vez que você define o estado inicial de um componente, você pode exibir qualquer parte dele na interface do usuário que é renderizada. Se um componente é stateful, ele sempre terá acesso aos dados no `state` em seu método `render()`. Você pode acessar os dados com `this.state`.
+Once you define a component's initial state, you can display any part of it in the UI that is rendered. If a component is stateful, it will always have access to the data in `state` in its `render()` method. You can access the data with `this.state`.
 
 Se você deseja acessar um valor de estado dentro do `return` do método de renderização, você precisa envolver o valor entre chaves.
 

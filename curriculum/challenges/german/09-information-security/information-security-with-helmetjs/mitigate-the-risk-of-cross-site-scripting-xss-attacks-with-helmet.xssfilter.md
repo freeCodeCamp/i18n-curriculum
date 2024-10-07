@@ -11,13 +11,13 @@ dashedName: mitigate-the-risk-of-cross-site-scripting-xss-attacks-with-helmet-xs
 
 As a reminder, this project is being built upon the following starter project on <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-infosec/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>, or cloned from <a href="https://github.com/freeCodeCamp/boilerplate-infosec/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
 
-Cross-site scripting (XSS) is a frequent type of attack where malicious scripts are injected into vulnerable pages, with the purpose of stealing sensitive data like session cookies, or passwords.
+Cross-Site-Scripting (XSS) ist eine häufige Angriffsart, bei der schädliche Skripte in ungeschützte Seiten eingeschleust werden, um sensible Daten wie Sitzungscookies oder Kennwörter zu stehlen.
 
-The basic rule to lower the risk of an XSS attack is simple: "Never trust user's input". As a developer you should always sanitize all the input coming from the outside. This includes data coming from forms, GET query urls, and even from POST bodies. Sanitizing means that you should find and encode the characters that may be dangerous e.g. &lt;, >.
+Die Grundregel um das Risiko eines XSS-Angriffs zu senken, ist einfach: "Vertraue niemals den Benutzereingaben“. Als Entwickler solltest du immer alle von außen kommenden Eingaben überprüfen. Dazu gehören Daten aus Formularen, GET Query URLs und sogar aus POST bodies. Sanitizing (Bereinigung) bedeutet, dass du die Zeichen finden und kodieren solltest, die gefährlich sein könnten, z. B. &lt;, >.
 
 Moderne Browser können helfen, das Risiko zu verringern, indem sie bessere Software-Strategien anwenden. Oft sind diese über HTTP-Header konfigurierbar.
 
-Der X-XSS-Protection HTTP-Header ist ein grundlegender Schutz. Der Browser erkennt ein potenziell eingeschleustes Skript mithilfe eines heuristischen Filters. Wenn die Kopfzeile aktiviert ist, ändert der Browser den Skriptcode und neutralisiert ihn. It still has limited support.
+Der X-XSS-Protection HTTP-Header ist ein grundlegender Schutz. Der Browser erkennt ein potenziell eingeschleustes Skript mithilfe eines heuristischen Filters. Wenn die Kopfzeile aktiviert ist, ändert der Browser den Skriptcode und neutralisiert ihn. Das hat immernoch begrenzten Support.
 
 # --instructions--
 
@@ -25,7 +25,7 @@ Verwende `helmet.xssFilter()`, um die an deinen Server gesendeten Eingaben zu be
 
 # --hints--
 
-helmet.xssFilter() middleware should be mounted correctly
+Die helmet.xssFilter()-Middleware sollte korrekt eingebaut werden
 
 ```js
 (getUserInput) =>

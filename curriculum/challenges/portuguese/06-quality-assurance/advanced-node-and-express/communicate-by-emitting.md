@@ -8,7 +8,7 @@ dashedName: communicate-by-emitting
 
 # --description--
 
-<dfn>Enviar</dfn> é a forma mais comum de comunicação que você usará. Quando você envia algo do servidor para 'io', está enviando o nome e os dados de um evento para todos os sockets conectados. Um bom exemplo deste conceito seria enviar a contagem atual de usuários conectados a cada vez que um novo usuário se conecta!
+<dfn>Emit</dfn> is the most common way of communicating you will use. When you emit something from the server to 'io', you send an event's name and data to all the connected sockets. A good example of this concept would be emitting the current count of connected users each time a new user connects!
 
 Comece adicionando uma variável para manter o controle dos usuários, logo antes do local onde você está escutando as conexões no momento.
 

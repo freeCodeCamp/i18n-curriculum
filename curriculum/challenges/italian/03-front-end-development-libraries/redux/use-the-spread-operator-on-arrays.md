@@ -8,7 +8,7 @@ dashedName: use-the-spread-operator-on-arrays
 
 # --description--
 
-Una soluzione di ES6 per contribuire a far rispettare l'immutabilità dello stato in Redux è l'operatore di propagazione (spred): `...`. L'operatore di propagazione ha una varietà di applicazioni, una delle quali si adatta bene alla precedente sfida di produrre un nuovo array da un array esistente. Si tratta di una sintassi relativamente nuova, ma comunemente usata. Ad esempio, se hai un array `myArray` e scrivi:
+One solution from ES6 to help enforce state immutability in Redux is the spread operator: `...`. The spread operator has a variety of applications, one of which is well-suited to the previous challenge of producing a new array from an existing array. This is relatively new, but commonly used syntax. For example, if you have an array `myArray` and write:
 
 ```js
 let newArray = [...myArray];

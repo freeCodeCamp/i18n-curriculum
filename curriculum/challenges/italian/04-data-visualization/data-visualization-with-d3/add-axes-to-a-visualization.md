@@ -8,7 +8,7 @@ dashedName: add-axes-to-a-visualization
 
 # --description--
 
-Un altro modo per migliorare il grafico a dispersione è quello di aggiungere un asse x e un asse y.
+Another way to improve the scatter plot is to add an x-axis and a y-axis.
 
 D3 ha due metodi, `axisLeft()` e `axisBottom()`, per tracciare rispettivamente l'asse Y e l'asse x. Ecco un esempio per creare l'asse x basato sulla `xScale` delle sfide precedenti:
 

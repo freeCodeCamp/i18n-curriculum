@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: developing-a-banner-grabber
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-Rellena los espacios en blanco para completar la función `banner` a continuación:
+Fill in the blanks to complete the `banner` function below:
 
 ```py
 def banner(ip, port):

@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9bedc08826
-title: Target HTML Elements with Selectors Using jQuery
+title: jQuery에서 선택자를 이용해 HTML 요소 선택하기
 challengeType: 6
 forumTopicId: 18319
 required:
@@ -13,33 +13,33 @@ dashedName: target-html-elements-with-selectors-using-jquery
 
 Now we have a `document ready` function.
 
-Now let's write our first jQuery statement. All jQuery functions start with a `$`, usually referred to as a dollar sign operator, or as bling.
+이제 첫 jQuery 문을 작성해봅시다. 모든 jQuery 함수는 일반적으로 달러 연산자 또는 블링으로 불리는 `$`으로 시작합니다.
 
-jQuery often selects an HTML element with a <dfn>selector</dfn>, then does something to that element.
+jQuery에서는 보통 HTML 요소를 <dfn>selector</dfn>를 사용해 선택하고, 선택된 요소에 대해 무언가를 수행합니다.
 
-For example, let's make all of your `button` elements bounce. Just add this code inside your document ready function:
+예를 들어, 모든 `button` 요소들이 바운스하게 만들어봅시다. Document ready 함수 안에 다음 코드를 추가하면 됩니다.
 
 ```js
 $("button").addClass("animated bounce");
 ```
 
-Note that we've already included both the jQuery library and the Animate.css library in the background so that you can use them in the editor. So you are using jQuery to apply the Animate.css `bounce` class to your `button` elements.
+jQuery 라이브러리와 Animate.css 라이브러리를 이미 백그라운드에 포함해두었기 때문에 에디터에서 사용할 수 있습니다. jQuery를 사용하여 Animate.css 라이브러리의 `bounce` 클래스를 `button`요소들에 적용하는 것입니다.
 
 # --hints--
 
-You should use the jQuery `addClass()` function to give the classes `animated` and `bounce` to your `button` elements.
+jQuery의 `addClass` 함수를 사용해 `button` 요소들에 `animated` 클래스와 `bounce` 클래스를 추가해야 합니다.
 
 ```js
 assert($('button').hasClass('animated') && $('button').hasClass('bounce'));
 ```
 
-You should only use jQuery to add these classes to the element.
+이러한 클래스들을 엘리먼트에 추가하기 위해 jQuery를 사용해야 합니다.
 
 ```js
 assert(!code.match(/class.*animated/g));
 ```
 
-Your jQuery code should be within the `$(document).ready();` function.
+jQuery 코드는 `$(document).ready();` 함수 안에 작성해야 합니다.
 
 ```js
 assert(

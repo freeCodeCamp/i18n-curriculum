@@ -9,7 +9,7 @@ dashedName: generate-random-whole-numbers-within-a-range
 
 # --description--
 
-Você pode gerar um número natural aleatório no intervalo entre zero e um número dado. Você também pode escolher um número diferente para este intervalo.
+You can generate a random whole number in the range from zero to a given number. You can also pick a different lower number for this range.
 
 Chamaremos o número mínimo de `min` e o número máximo de `max`.
 

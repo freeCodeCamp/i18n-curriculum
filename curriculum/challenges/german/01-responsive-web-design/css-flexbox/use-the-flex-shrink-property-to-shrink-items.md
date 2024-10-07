@@ -9,7 +9,7 @@ dashedName: use-the-flex-shrink-property-to-shrink-items
 
 # --description--
 
-Bisher gelten alle Eigenschaften in den Aufgaben für den Flex-Container (das übergeordnete Element der Flex-Elemente). Es gibt jedoch mehrere nützliche Eigenschaften für Flex-Elemente.
+So far, all the properties in the challenges apply to the flex container (the parent of the flex items). However, there are several useful properties for the flex items.
 
 Die erste ist die `flex-shrink` Eigenschaft. Wenn man sie verwendet, erlaubt es einem Element zu schrumpfen, falls der Flex-Container zu klein ist. Elemente schrumpfen, wenn die Breite des übergeordneten Containers kleiner ist als die kombinierte Breite aller Flex-Elemente in diesem Container.
 

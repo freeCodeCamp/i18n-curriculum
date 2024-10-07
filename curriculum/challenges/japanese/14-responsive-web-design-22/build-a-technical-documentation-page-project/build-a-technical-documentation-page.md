@@ -8,11 +8,11 @@ dashedName: build-a-technical-documentation-page
 
 # --description--
 
-**目標:** <a href="https://technical-documentation-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://technical-documentation-page.freecodecamp.rocks</a> と似た機能を持つアプリを作成してください。 **このデモプロジェクトをコピーしないでください**。
+**Objective:** Build an app that is functionally similar to <a href="https://technical-documentation-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://technical-documentation-page.freecodecamp.rocks</a>. **Do not copy this demo project**.
 
 **ユーザーストーリー:**
 
-1. `id="main-doc"` を持ち、ページのメインコンテンツ (技術ドキュメント) が入る `main` 要素があります
+1. You can see a `main` element with a corresponding `id="main-doc"`, which contains the page's main content (technical documentation)
 1. `#main-doc` 要素内には、それぞれのクラスが `main-section` である `section` 要素が複数あります。 最低でも 5 個必要です
 1. 各 `.main-section` 内の最初の要素は、そのセクションの主なトピックを説明するテキストが入った `header` 要素となっています。
 1. クラスが `main-section` の各 `section` 要素には、それぞれの `header` のテキストに対応する `id` も設定されています。 すべてのスペースはアンダースコアに置き換える必要があります (例: "JavaScript and Java" というヘッダーを含む section には、対応する `id="JavaScript_and_Java"` が必要です)

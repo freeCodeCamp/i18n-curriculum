@@ -9,7 +9,7 @@ dashedName: override-styles-in-subsequent-css
 
 # --description--
 
-¡Nuestra clase `pink-text` sobrescribió la declaración CSS de nuestro elemento `body`!
+Our `pink-text` class overrode our `body` element's CSS declaration!
 
 Acabamos de demostrar que nuestras clases sobrescribirán el CSS del elemento `body`. Entonces, la siguiente pregunta lógica es: ¿qué podemos hacer para sobrescribir nuestra clase `pink-text`?
 

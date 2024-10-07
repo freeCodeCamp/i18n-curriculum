@@ -9,7 +9,7 @@ dashedName: add-a-negative-margin-to-an-element
 
 # --description--
 
-El `margin` (margen) de un elemento controla la cantidad de espacio entre su `border` y los elementos que lo rodean.
+An element's `margin` controls the amount of space between an element's `border` and surrounding elements.
 
 Si estableces el `margin` de un elemento a un valor negativo, el elemento crecerá de tamaño.
 

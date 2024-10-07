@@ -8,7 +8,7 @@ dashedName: create-an-export-fallback-with-export-default
 
 # --description--
 
-У завданні з `export` ви дізналися про синтаксис під назвою <dfn>іменований експорт</dfn>. Це дозволило вам створити декілька функцій та змінних, які можна використати в інших файлах.
+In the `export` lesson, you learned about the syntax referred to as a <dfn>named export</dfn>. This allowed you to make multiple functions and variables available for use in other files.
 
 Існує ще один важливий синтаксис `export`, який називається <dfn>експортом за замовчуванням</dfn>. Як правило, такий синтаксис використовується, якщо з файлу експортується лише одне значення. Він також слугує для створення резервного значення для файлу або модуля.
 

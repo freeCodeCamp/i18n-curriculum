@@ -9,11 +9,11 @@ dashedName: golf-code
 
 # --description--
 
-У грі в гольф кожна лунка має `par`, що відповідає середній кількості ударів (`strokes`), які повинен зробити гравець, щоб забити м’яч у лунку та завершити гру. Існують різні псевдоніми залежно від того, де знаходяться ваші удари (`strokes`) відповідно до `par`.
+In the game of Golf, each hole has a `par`, meaning, the average number of `strokes` a golfer is expected to make in order to sink the ball in the hole to complete the play. Depending on how far above or below `par` your `strokes` are, there is a different nickname.
 
 Вашій функції буде передано аргументи `par` та `strokes`. Поверніть правильний рядок відповідно до цієї таблиці, в якій перелічено удари за пріоритетом зверху (найвищий) донизу (найнижчий):
 
-<table><thead><tr><th>Удари</th><th>Повернений рядок</th></tr></thead><tbody><tr><td>1</td><td>"Hole-in-one!"</td></tr><tr><td>&#x3C;= par - 2</td><td>"Eagle"</td></tr><tr><td>par - 1</td><td>"Birdie"</td></tr><tr><td>par</td><td>"Par"</td></tr><tr><td>par + 1</td><td>"Bogey"</td></tr><tr><td>par + 2</td><td>"Double Bogey"</td></tr><tr><td>>= par + 3</td><td>"Go Home!"</td></tr></tbody></table>
+<table><thead><tr><th>Strokes</th><th>Повернений рядок</th></tr></thead><tbody><tr><td>1</td><td>"Hole-in-one!"</td></tr><tr><td>&#x3C;= par - 2</td><td>"Eagle"</td></tr><tr><td>par - 1</td><td>"Birdie"</td></tr><tr><td>par</td><td>"Par"</td></tr><tr><td>par + 1</td><td>"Bogey"</td></tr><tr><td>par + 2</td><td>"Double Bogey"</td></tr><tr><td>>= par + 3</td><td>"Go Home!"</td></tr></tbody></table>
 
 `par` та `strokes` завжди будуть додатними числами. Ми додали масив усіх імен для вашої зручності.
 

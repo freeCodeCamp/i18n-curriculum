@@ -8,7 +8,7 @@ dashedName: reuse-patterns-using-capture-groups
 
 # --description--
 
-Припустимо, ви хочете знайти збіг для слова, яке зустрічається декілька разів, як у прикладі нижче.
+Say you want to match a word that occurs multiple times like below.
 
 ```js
 let repeatStr = "row row row your boat";

@@ -9,7 +9,7 @@ dashedName: iterate-with-javascript-for-loops
 
 # --description--
 
-Puedes ejecutar el mismo código múltiples veces usando un bucle.
+You can run the same code multiple times by using a loop.
 
 El tipo más común de bucle de JavaScript se llama bucle `for` porque se ejecuta "por" un número específico de veces.
 

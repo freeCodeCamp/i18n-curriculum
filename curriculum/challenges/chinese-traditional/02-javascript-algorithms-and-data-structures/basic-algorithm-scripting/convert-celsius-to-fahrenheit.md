@@ -8,7 +8,7 @@ dashedName: convert-celsius-to-fahrenheit
 
 # --description--
 
-從攝氏轉換爲華氏的公式是，攝氏溫度乘以 `9/5`，再加上 `32`。
+The formula to convert from Celsius to Fahrenheit is the temperature in Celsius times `9/5`, plus `32`.
 
 輸入參數 `celsius` 代表一個攝氏度的溫度。 使用已定義的變量 `fahrenheit`，並賦值爲相應的華氏度的溫度值。 使用上面提到的公式來幫助將攝氏溫度轉換爲華氏溫度。
 

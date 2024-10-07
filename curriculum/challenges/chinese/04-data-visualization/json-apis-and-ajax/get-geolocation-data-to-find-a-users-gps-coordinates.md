@@ -8,7 +8,7 @@ dashedName: get-geolocation-data-to-find-a-users-gps-coordinates
 
 # --description--
 
-你还能做一件很酷的事就是访问你用户当前的地理位置。 每个浏览器都有内置的导航器，可以为你提供这些信息。
+Another cool thing you can do is access your user's current location. Every browser has a built in navigator that can give you this information.
 
 导航器会获取用户当前的经度和纬度。
 

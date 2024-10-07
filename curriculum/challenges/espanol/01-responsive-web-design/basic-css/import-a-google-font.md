@@ -9,7 +9,7 @@ dashedName: import-a-google-font
 
 # --description--
 
-Además de especificar fuentes comunes disponibles en la mayoría de los sistemas operativos, también podemos especificar fuentes web no estándar y personalizadas para usarlas en nuestro sitio web. En Internet hay muchos lugares donde podemos conseguir web fonts. Para este ejemplo nos centraremos en la biblioteca de Google Fonts.
+In addition to specifying common fonts that are found on most operating systems, we can also specify non-standard, custom web fonts for use on our website. There are many sources for web fonts on the Internet. For this example we will focus on the Google Fonts library.
 
 Google Font es una biblioteca de fuentes web que puedes usar en tu CSS haciendo referencia a la dirección URL de la fuente.
 

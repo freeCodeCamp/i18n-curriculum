@@ -9,7 +9,7 @@ dashedName: use-multiple-conditional-ternary-operators
 
 # --description--
 
-在之前的挑战中，你使用了一个条件运算符。 你也可以将多个运算符串联在一起以检查多种条件。
+In the previous challenge, you used a single conditional operator. You can also chain them together to check for multiple conditions.
 
 下面的函数使用 `if`，`else if` 和 `else` 语句来检查多个条件：
 

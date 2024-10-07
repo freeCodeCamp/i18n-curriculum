@@ -8,7 +8,7 @@ dashedName: use-destructuring-assignment-to-assign-variables-from-nested-objects
 
 # --description--
 
-يمكنك استخدام نفس المبادئ من الدرسين السابقين لعمل destructure للقيم من الـ nested objects او الكائنات المتداخلة.
+You can use the same principles from the previous two lessons to destructure values from nested objects.
 
 استخدام object مشابه للأمثلة السابقة:
 

@@ -20,7 +20,7 @@ Complete o módulo <a href="https://learn.microsoft.com/training/modules/csharp-
 
 ## --text--
 
-Qual das seguintes instruções foreach está sintaticamente correta?
+Which of the following foreach statements is syntactically correct?
 
 ## --answers--
 

@@ -8,7 +8,7 @@ dashedName: handle-a-fulfilled-promise-with-then
 
 # --description--
 
-الـ Promises مفيدة للغاية عندما تكون لديك عملية تستغرق قدرا غير معروف من الوقت في الكود الخاص بك (شيء غير متزامن)، غالبا ما يكون server request. عندما تقوم بـ server request يستغرق ذلك بعض الوقت، وبعد اكتمالها تريد عادة أن تفعل شيئا بالـ response المعادة من الـ server. يمكن تحقيق ذلك باستخدام method الـ `then`.
+Promises are most useful when you have a process that takes an unknown amount of time in your code (i.e. something asynchronous), often a server request. When you make a server request it takes some amount of time, and after it completes you usually want to do something with the response from the server. This can be achieved by using the `then` method.
 
 ```js
 Promise.prototype.then(onFulfilled, onRejected)
@@ -22,15 +22,15 @@ myPromise.then(result => {
 });
 ```
 
-`result` تأتي من الـ argument المعطاة لـ method الـ`resolve`.
+`result` comes from the argument given to the `resolve` method.
 
 # --instructions--
 
-أضف method الـ `then` إلى الـ promise الخاص بك. استخدم `result` كوسيط لوظيفة تعيد تفعيلها وسجل قيمة `result` في وحدة التحكم (console).
+Add the `then` method to your promise. Use `result` as the parameter of its callback function and log `result` to the console.
 
 # --hints--
 
-يجب عليك استدعاء method الـ `then` على الـ promise.
+You should call the `then` method on the promise.
 
 ```js
 assert(
@@ -38,13 +38,13 @@ assert(
 );
 ```
 
-يجب أن تكون لطريقة (method) المسمى `then` الوظيفة تعيد تفعيلها (callback function) مع `result` كوسيط (parameter).
+Your `then` method should have a callback function with `result` as its parameter.
 
 ```js
 assert(resultIsParameter);
 ```
 
-يجب عليك اخراج `result` إلى وحدة التحكم.
+You should log `result` to the console.
 
 ```js
 assert(

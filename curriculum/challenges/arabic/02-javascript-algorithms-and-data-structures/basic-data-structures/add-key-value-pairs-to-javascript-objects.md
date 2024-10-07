@@ -8,7 +8,7 @@ dashedName: add-key-value-pairs-to-javascript-objects
 
 # --description--
 
-الكائنات في أبسط صورها، هي فقط مجموعات من أزواج <dfn>key-value</dfn>. بمعنى آخر هي قطع من البيانات (<dfn>القيم</dfn>) التي تم تعيينها إلى معرّفات فريدة تسمى <dfn>خصائص</dfn> (<dfn>هُوِيَّات</dfn>). ألقي نَّظْرَة على المثال:
+At their most basic, objects are just collections of <dfn>key-value</dfn> pairs. In other words, they are pieces of data (<dfn>values</dfn>) mapped to unique identifiers called <dfn>properties</dfn> (<dfn>keys</dfn>). Take a look at an example:
 
 ```js
 const tekkenCharacter = {

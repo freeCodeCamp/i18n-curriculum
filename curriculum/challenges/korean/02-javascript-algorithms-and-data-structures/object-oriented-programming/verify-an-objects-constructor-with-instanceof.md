@@ -1,6 +1,6 @@
 ---
 id: 587d7dae367417b2b2512b7a
-title: Verify an Object's Constructor with instanceof
+title: Instanceof로 객체의 생성자 검증하기
 challengeType: 1
 forumTopicId: 301337
 dashedName: verify-an-objects-constructor-with-instanceof
@@ -22,9 +22,9 @@ let crow = new Bird("Alexis", "black");
 crow instanceof Bird;
 ```
 
-This `instanceof` method would return `true`.
+이 `instanceof` 메소드는 `true`를 반환할 것입니다.
 
-If an object is created without using a constructor, `instanceof` will verify that it is not an instance of that constructor:
+객체가 생성자 없이 생성되었다면 `instanceof`가 해당 생성자의 인스턴스가 아님을 확인할 것입니다.
 
 ```js
 let canary = {
@@ -36,21 +36,21 @@ let canary = {
 canary instanceof Bird;
 ```
 
-This `instanceof` method would return `false`.
+이 `instanceof` 메소드는 `false`를 반환할 것입니다.
 
 # --instructions--
 
-Create a new instance of the `House` constructor, calling it `myHouse` and passing a number of bedrooms. Then, use `instanceof` to verify that it is an instance of `House`.
+생성자 `House`의 새로운 인스턴스를 생성하고 `myHouse`라고 이름 짓고 침실의 개수를 전달하시오. 그런 다음 `instanceof`을 이용하여 `House`의 인스턴스인지 검증하시오.
 
 # --hints--
 
-`myHouse` should have a `numBedrooms` attribute set to a number.
+`myHouse`는 숫자로 설정된 속성 `numBedrooms`을 가져야 합니다.
 
 ```js
 assert(typeof myHouse.numBedrooms === 'number');
 ```
 
-You should verify that `myHouse` is an instance of `House` using the `instanceof` operator.
+`instanceof` 연사자를 이용하여 `myHouse`가 `House`의 인스턴스인지 검증해야 합니다.
 
 ```js
 assert(/myHouse\s*instanceof\s*House/.test(__helpers.removeJSComments(code)));

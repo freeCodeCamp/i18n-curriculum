@@ -9,7 +9,7 @@ dashedName: add-gaps-faster-with-grid-gap
 
 # --description--
 
-`grid-gap` 屬性是前兩個挑戰中出現的 `grid-row-gap` 和 `grid-column-gap` 的簡寫屬性，它更方便使用。 如果 `grid-gap` 只有一個值，那麼這個值表示行與行之間、列與列之間的間距均爲這個值。 如果有兩個值，那麼第一個值表示行間距，第二個值表示列間距。
+`grid-gap` is a shorthand property for `grid-row-gap` and `grid-column-gap` from the previous two challenges that's more convenient to use. If `grid-gap` has one value, it will create a gap between all rows and columns. However, if there are two values, it will use the first one to set the gap between the rows and the second value for the columns.
 
 # --instructions--
 

@@ -8,7 +8,7 @@ dashedName: return-largest-numbers-in-arrays
 
 # --description--
 
-주어진 각 하위 배열로부터 얻은 가장 큰 수들을 담은 배열을 반환하세요. 간편한 풀이를 위해 주어진 배열은 정확하게 4개의 하위 배열을 가지게 됩니다.
+Return an array consisting of the largest number from each provided sub-array. For simplicity, the provided array will contain exactly 4 sub-arrays.
 
 간단한 for 루프로 배열의 요소를 하나씩 순회할 수 있고 `arr[i]` 문법을 통해 각 요소에 접근할 수 있다는 점을 기억하세요.
 

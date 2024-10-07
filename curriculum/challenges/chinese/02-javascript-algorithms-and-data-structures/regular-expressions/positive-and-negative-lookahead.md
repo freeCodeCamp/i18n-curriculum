@@ -8,7 +8,7 @@ dashedName: positive-and-negative-lookahead
 
 # --description--
 
-先行断言 （<dfn>Lookaheads</dfn>）是告诉 JavaScript 在字符串中向前查找的匹配模式。 当想要在同一个字符串上搜寻多个匹配模式时，这可能非常有用。
+<dfn>Lookaheads</dfn> are patterns that tell JavaScript to look-ahead in your string to check for patterns further along. This can be useful when you want to search for multiple patterns over the same string.
 
 有两种先行断言：正向先行断言（<dfn>positive lookahead</dfn>）和负向先行断言（<dfn>negative lookahead</dfn>）。
 

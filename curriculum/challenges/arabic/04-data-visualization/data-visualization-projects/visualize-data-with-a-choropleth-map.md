@@ -10,9 +10,9 @@ dashedName: visualize-data-with-a-choropleth-map
 
 **Objective:** Build an app that is functionally similar to this: <a href="https://choropleth-map.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://choropleth-map.freecodecamp.rocks</a>.
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+أكمل "قصص المستخدم" بالأسفل وتأكد من اكتمال جميع الاختبارات بنجاح. استخدم أي مَكتبة أو API تَحتاج. أعطها التصميم الخاص بك.
 
-You can use HTML, JavaScript, CSS, and the D3 svg-based visualization library. Required DOM elements are queried on the moment of each test. في حال كُنت تستخدم مكتبة (frontend framework) مثل Vue، فإن نتائج الاختبار ربما تكون غير دقيقة بسبب أنَّ المحتوى ديناميكي. نتمنى أن نتوافق معهم في القريب العاجل، لكن هذه المكتبات غير مدعومة لمشاريع D3 حالياََ.
+يُمكنك استخدام HTML و JavaScript و CSS إلى جانب مكتبة D3. يجري الاستعلام عن كُل عٌنصر (DOM elements) في أثناء كُل اختبار. في حال كُنت تستخدم مكتبة (frontend framework) مثل Vue، فإن نتائج الاختبار ربما تكون غير دقيقة بسبب أنَّ المحتوى ديناميكي. نتمنى أن نتوافق معهم في القريب العاجل، لكن هذه المكتبات غير مدعومة لمشاريع D3 حالياََ.
 
 **User Story #1:** My choropleth should have a title with a corresponding `id="title"`.
 

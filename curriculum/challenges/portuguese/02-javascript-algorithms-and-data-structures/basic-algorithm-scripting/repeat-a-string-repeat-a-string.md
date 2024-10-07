@@ -8,7 +8,7 @@ dashedName: repeat-a-string-repeat-a-string
 
 # --description--
 
-Repita uma string passada `str` (primeiro argumento), `num` vezes (segundo argumento). Retorne uma string vazia se `num` não for um número positivo. Para o propósito do desafio, *Não* use o método integrado `.repeat()`.
+Repeat a given string `str` (first argument) for `num` times (second argument). Return an empty string if `num` is not a positive number. For the purpose of this challenge, do *not* use the built-in `.repeat()` method.
 
 # --hints--
 

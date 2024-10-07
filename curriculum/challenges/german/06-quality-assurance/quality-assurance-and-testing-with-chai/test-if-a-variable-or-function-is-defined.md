@@ -1,6 +1,6 @@
 ---
 id: 587d824b367417b2b2512c47
-title: Test if a Variable or Function is Defined
+title: Testen, ob eine Variable oder Funktion definiert ist
 challengeType: 2
 forumTopicId: 301602
 dashedName: test-if-a-variable-or-function-is-defined
@@ -12,11 +12,11 @@ As a reminder, this project is being built upon the following starter project on
 
 # --instructions--
 
-Within `tests/1_unit-tests.js` under the test labeled `#2` in the `Basic Assertions` suite, change each `assert` to either `assert.isDefined()` or `assert.isUndefined()` to make the test pass (should evaluate to `true`). Die an die Asserts übergebenen Argumente dürfen nicht verändert werden.
+Ändere innerhalb `tests/1_unit-tests.js` unter dem Test mit der Beschriftung `#2` in der `Basic Assertions`-Suite, jeden `assert` in `assert.isDefined()` oder `assert.isUndefined()` um, damit der Test bestanden wird (sollte `true` ausgeben). Ändere nicht die Argumente, die an die Assertions übergeben werden.
 
 # --hints--
 
-Alle Tests sollten bestanden werden.
+Alle Tests sollten durchlaufen.
 
 ```js
 (getUserInput) =>

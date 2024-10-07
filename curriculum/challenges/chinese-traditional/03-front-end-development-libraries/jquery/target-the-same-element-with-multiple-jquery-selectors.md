@@ -11,7 +11,7 @@ dashedName: target-the-same-element-with-multiple-jquery-selectors
 
 # --description--
 
-現在你知道了三種選取標籤的方法：用元素選擇器：`$("button")`、用類選擇器：`$(".btn")` 以及用 id 選擇器：`$("#target1")` 。
+Now you know three ways of targeting elements: by type: `$("button")`, by class: `$(".btn")`, and by id `$("#target1")`.
 
 雖然可以在單個 `.addClass()` 內添加多個類，但是我們可以用*三種不同的方式*給一種標籤添加類。
 

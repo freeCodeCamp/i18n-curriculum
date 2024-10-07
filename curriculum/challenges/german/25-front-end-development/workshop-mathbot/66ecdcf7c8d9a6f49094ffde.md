@@ -1,6 +1,6 @@
 ---
 id: 66ecdcf7c8d9a6f49094ffde
-title: Step 11
+title: Schitt 11
 challengeType: 1
 dashedName: step-11
 ---

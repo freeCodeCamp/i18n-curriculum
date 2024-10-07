@@ -9,7 +9,7 @@ dashedName: adjust-the-hue-of-a-color
 
 # --description--
 
-색상은 색조, 채도 및 명도와 같은 여러 특성을 가지고 있습니다. CSS3에서는 이러한 특성들을 직접 명시하여 색상을 선택하는 대체 방법으로 `hsl()` 함수를 소개했습니다.
+Colors have several characteristics including hue, saturation, and lightness. CSS3 introduced the `hsl()` function as an alternative way to pick a color by directly stating these characteristics.
 
 **색조(Hue)**란 일반적으로 우리가 생각하는 '색상' 입니다. 만약 왼쪽에서 시작하는 빨강을 포함하고 중간을 통과하는 녹색 그리고 오른쪽에 있는 파랑까지의 색깔 스펙트럼을 상상해보면, 색조(hue)는 이 선 상에서 어떤 위치에 색이 위치하는지를 나타냅니다. `hsl()`에서 색조는 스펙트럼이 아니라 색상환의 개념을 사용하며, 원의 색상값이 0에서 360까지의 값으로 표현됩니다.
 
@@ -19,7 +19,7 @@ dashedName: adjust-the-hue-of-a-color
 
 `hsl()`을 사용하여 완전히 채도가 높고 정상 밝기 색상을 사용하는 몇 가지 예제가 있습니다.
 
-<table><thead><tr><th>색상</th><th>HSL(색조, 채도, 명도)</th></tr></thead><tbody><tr><td>빨강</td><td>hsl(0, 100%, 50%)</td></tr><tr><td>노랑</td><td>hsl(60, 100%, 50%)</td></tr><tr><td>초록</td><td>hsl(120, 100%, 50%)</td></tr><tr><td>청록색(cyan)</td><td>hsl(180, 100%, 50%)</td></tr><tr><td>파랑</td><td>hsl(240, 100%, 50%)</td></tr><tr><td>자홍색(magenta)</td><td>hsl(300, 100%, 50%)</td></tr></tbody></table>
+<table><thead><tr><th>Color</th><th>HSL(색조, 채도, 명도)</th></tr></thead><tbody><tr><td>red</td><td>hsl(0, 100%, 50%)</td></tr><tr><td>yellow</td><td>hsl(60, 100%, 50%)</td></tr><tr><td>green</td><td>hsl(120, 100%, 50%)</td></tr><tr><td>cyan</td><td>hsl(180, 100%, 50%)</td></tr><tr><td>blue</td><td>hsl(240, 100%, 50%)</td></tr><tr><td>magenta</td><td>hsl(300, 100%, 50%)</td></tr></tbody></table>
 
 # --instructions--
 

@@ -8,7 +8,7 @@ dashedName: understand-the-hazards-of-using-imperative-code
 
 # --description--
 
-Functional programming هي عادة جيدة. إنها تجعل الكود الخاص بك سهل الإدارة، وتحفظك من الأخطاء الخادعة. ولكن قبل أن نصل إلى هناك ، دعنا نلقي نظرة على نهج حتمي للبرمجة لتسليط الضوء على المشكلات التي قد تواجهك.
+Functional programming is a good habit. It keeps your code easy to manage, and saves you from sneaky bugs. But before we get there, let's look at an imperative approach to programming to highlight where you may have issues.
 
 في اللغة الإنجليزية (والعديد من اللغات الأخرى) ، يتم استخدام صيغة الأمر لإعطاء الأوامر. وبالمثل ، فإن أسلوب الأمر في البرمجة هو الذي يعطي الكمبيوتر مجموعة من العبارات لأداء مهمة ما.
 

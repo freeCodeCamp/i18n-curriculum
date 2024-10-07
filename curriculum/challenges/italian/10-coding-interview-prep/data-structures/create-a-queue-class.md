@@ -8,7 +8,7 @@ dashedName: create-a-queue-class
 
 # --description--
 
-Come gli stack, le code sono una raccolta di elementi. Ma a differenza degli stack, le code seguono il principio FIFO (First-In First-Out). Gli elementi aggiunti ad una coda vengono spinti in fondo, o alla fine, della coda, e solo l'elemento nella parte anteriore della coda può essere rimosso.
+Like stacks, queues are a collection of elements. But unlike stacks, queues follow the FIFO (First-In First-Out) principle. Elements added to a queue are pushed to the tail, or the end, of the queue, and only the element at the front of the queue is allowed to be removed.
 
 Potremmo usare un array per rappresentare una coda, ma proprio come per gli stack, vogliamo limitare la quantità di controllo che abbiamo sulle nostre code.
 

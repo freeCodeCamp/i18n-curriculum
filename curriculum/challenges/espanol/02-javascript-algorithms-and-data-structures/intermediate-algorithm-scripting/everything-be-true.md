@@ -8,7 +8,7 @@ dashedName: everything-be-true
 
 # --description--
 
-Comprueba si el predicado (segundo argumento) es <dfn>truthy</dfn> en todos los elementos de una colección (primer argumento).
+Check if the predicate (second argument) is <dfn>truthy</dfn> on all elements of a collection (first argument).
 
 En otras palabras, se te da una colección de arreglos de objetos. El predicado `pre` será una propiedad del objeto y debe devolver `true` si su valor es `truthy`. De lo contrario, devuelve `false`.
 

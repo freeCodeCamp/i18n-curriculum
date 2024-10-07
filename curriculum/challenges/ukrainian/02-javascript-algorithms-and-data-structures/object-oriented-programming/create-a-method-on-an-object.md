@@ -8,7 +8,7 @@ dashedName: create-a-method-on-an-object
 
 # --description--
 
-Об’єкти можуть мати особливі типи властивостей, які називають <dfn>методами</dfn>.
+Objects can have a special type of property, called a <dfn>method</dfn>.
 
 Методи — це властивості, що є функціями. Вони додають об’єктам іншу поведінку. Ось приклад об’єкта `duck` із методом:
 

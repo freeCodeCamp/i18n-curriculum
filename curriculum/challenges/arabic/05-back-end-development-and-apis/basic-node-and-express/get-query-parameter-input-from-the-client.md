@@ -8,7 +8,7 @@ dashedName: get-query-parameter-input-from-the-client
 
 # --description--
 
-ومن الطرق الشائعة الأخرى للحصول على مدخلات من العميل باستخدام ترميز البيانات بعد مسار path باستخدام query string. تم تعيين سلسلة الاستعلام بواسطة علامة استفهام (?)، وتشمل حقل = أزواج القيمة. يتم فصل كل زوجين بواسطة علامة (&). يمكن لـ Express تحليل البيانات من Query String، وتعبئة الكائن `req.query`. بعض الأحرف، مثل النسبة المئوية (%)، لا يمكن أن تكون في عناوين URLs ويجب أن تكون مشفرة في تنسيق مختلف قبل أن تتمكن من إرسالها. إذا كنت تستخدم API من JavaScript، يمكنك استخدام أساليب محددة لترميز/فك شفرة هذه الأحرف.
+Another common way to get input from the client is by encoding the data after the route path, using a query string. The query string is delimited by a question mark (?), and includes field=value couples. Each couple is separated by an ampersand (&). Express can parse the data from the query string, and populate the object `req.query`. Some characters, like the percent (%), cannot be in URLs and have to be encoded in a different format before you can send them. If you use the API from JavaScript, you can use specific methods to encode/decode these characters.
 
 <blockquote>route_path: '/library'<br>actual_request_URL: '/library?userId=546&#x26;bookId=6754' <br>req.query: {userId: '546', bookId: '6754'}</blockquote>
 
@@ -16,7 +16,7 @@ dashedName: get-query-parameter-input-from-the-client
 
 بناء نقطة نهاية API، محمولة على `GET /name`. الرد بمستند JSON، يأخذ البنية `{ name: 'firstname lastname'}`. يجب تشفير معلمات الاسم الأول والأخير في نص query على سبيل المثال `?first=firstname&last=lastname`.
 
-**Note:** In the following exercise you are going to receive data from a POST request, at the same `/name` route path. If you want, you can use the method `app.route(path).get(handler).post(handler)`. This syntax allows you to chain different verb handlers on the same path route. You can save a bit of typing, and have cleaner code.
+**ملاحظة:** في التمرين التالي سوف تتلقى البيانات من طلب POST على نفس المسار `/name`. إذا أردت ، يمكنك استخدام الطريقة `app.route(path).get(handler).post(handler)`. هذه الصيغة تسمح لك بسلسلة متعاملين مع الأفعال المختلفة على نفس المسار. يمكنك حفظ القليل من الكتابة، والحصول على كود أنظف.
 
 # --hints--
 

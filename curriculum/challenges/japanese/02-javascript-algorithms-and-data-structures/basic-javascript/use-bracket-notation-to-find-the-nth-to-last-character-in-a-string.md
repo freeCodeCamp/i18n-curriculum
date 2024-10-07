@@ -9,7 +9,7 @@ dashedName: use-bracket-notation-to-find-the-nth-to-last-character-in-a-string
 
 # --description--
 
-文字列の最後の文字を取得する場合に使用したものと同じ手法で、最後から N 番目の文字を取得することができます。
+You can use the same principle we just used to retrieve the last character in a string to retrieve the Nth-to-last character.
 
 たとえば、`const firstName = "Augusta"` という文字列の最後から 3 番目の文字の値を取得するには、`firstName[firstName.length - 3]` と記述します。
 
@@ -26,7 +26,7 @@ const thirdToLastLetter = firstName[firstName.length - 3];
 
 <dfn>ブラケット記法</dfn>を使用して、`lastName` 文字列の最後から 2 番目の文字を取得してください。
 
-**ヒント:** 解答できない場合は上記の例を参考にしてください。
+**ヒント:** 難しく感じる場合は上記の例を参考にしてください。
 
 # --hints--
 

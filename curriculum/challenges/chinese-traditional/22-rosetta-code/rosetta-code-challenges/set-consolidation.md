@@ -15,7 +15,7 @@ Given two sets of items then if any item is common to any set then the result of
   <li>如果兩個輸入集共享一個公共項，則它們是兩個輸入集的並集。</li>
 </ul>
 
-給定 N 組項目，其中 N > 2，那麼結果與通過合併重複替換兩個集合的所有組合，直到集合對之間不可能進一步合併爲止。 如果 N &lt; 2，則合併沒有嚴格意義，可以返回輸入。
+Given N sets of items where N > 2 then the result is the same as repeatedly replacing all combinations of two sets by their consolidation until no further consolidation between set pairs is possible. If N &lt; 2 then consolidation has no strict meaning and the input can be returned.
 
 這裏有些例子：
 

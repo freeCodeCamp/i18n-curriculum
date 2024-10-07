@@ -24,15 +24,15 @@ Qual das seguintes opções pode ser usada para definir um ponto de interrupçã
 
 ## --answers--
 
-Clicar com o botão esquerdo na coluna à esquerda de um número de linha no editor de código.
+Left-click in the column to the left of a line number in the code editor.
 
 ---
 
-Selecionar Ativar/Desativar o ponto de interrupção no menu Editar.
+Select Toggle Breakpoint on the Edit menu.
 
 ---
 
-Clicar com o botão direito no meio de uma linha de código e selecionar Ativar/Desativar o ponto de interrupção.
+Right-click in the middle of a line of code, and then select Toggle Breakpoint.
 
 ## --video-solution--
 

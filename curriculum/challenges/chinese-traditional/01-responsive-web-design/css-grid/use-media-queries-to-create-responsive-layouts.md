@@ -9,7 +9,7 @@ dashedName: use-media-queries-to-create-responsive-layouts
 
 # --description--
 
-將 CSS 網格與使用媒體查詢結合使用，如使用媒體查詢重新排列網格區域、更改網格尺寸以及重新排列網格項位置，我們可以讓製作出的網站更具響應性。
+CSS Grid can be an easy way to make your site more responsive by using media queries to rearrange grid areas, change dimensions of a grid, and rearrange the placement of items.
 
 在右側的預覽區中，當網頁可視區域的寬不小於 300px 時，列數從 1 變爲 2。 並且，廣告（advertisement）區域會完全佔據左列。
 

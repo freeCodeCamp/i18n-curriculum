@@ -8,7 +8,7 @@ dashedName: diff-two-arrays
 
 # --description--
 
-Compara dos arreglos y devuelve un nuevo arreglo con los elementos que sólo se encuentran en uno de los dos arreglos dados, pero no en ambos. En otras palabras, devuelve la diferencia simétrica de los dos arreglos.
+Compare two arrays and return a new array with any items only found in one of the two given arrays, but not both. In other words, return the symmetric difference of the two arrays.
 
 **Nota:**Puedes devolver el arreglo con sus elementos en cualquier orden.
 

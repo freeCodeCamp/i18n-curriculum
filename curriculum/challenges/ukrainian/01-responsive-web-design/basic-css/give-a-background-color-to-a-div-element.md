@@ -9,7 +9,7 @@ dashedName: give-a-background-color-to-a-div-element
 
 # --description--
 
-Ви можете встановити фоновий колір елемента за допомогою `background-color`.
+You can set an element's background color with the `background-color` property.
 
 Наприклад, якщо ви хочете, щоб фоновий колір елемента був `green`, то вам слід вставити це на `style` свого елемента:
 

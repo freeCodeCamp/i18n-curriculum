@@ -8,7 +8,7 @@ dashedName: explore-differences-between-the-var-and-let-keywords
 
 # --description--
 
-使用 `var` 關鍵字聲明變量的最大問題之一是你可以輕鬆覆蓋變量聲明：
+One of the biggest problems with declaring variables with the `var` keyword is that you can easily overwrite variable declarations:
 
 ```js
 var camper = "James";

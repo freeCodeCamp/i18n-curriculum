@@ -8,7 +8,7 @@ dashedName: implement-bubble-sort
 
 # --description--
 
-这是排序算法的几个挑战中的第一个。 给定一组未排序的元素数组，我们希望能够返回已排序的数组。 我们将看到几种不同的方法来实现这一点，并学习这些不同方法之间的一些权衡。 虽然大多数现代语言都有内置的排序方法来完成这样的操作，但了解一些常见的基本方法并了解如何实现它们仍然很重要。
+This is the first of several challenges on sorting algorithms. Given an array of unsorted items, we want to be able to return a sorted array. We will see several different methods to do this and learn some tradeoffs between these different approaches. While most modern languages have built-in sorting methods for operations like this, it is still important to understand some of the common basic approaches and learn how they can be implemented.
 
 在这里我们将看到冒泡排序。 冒泡排序方法从未排序数组的开头开始，并向末端“冒泡”未排序的值，遍历数组直到它完全排序。 它是这样实现的：比较相邻的元素，如果它们的顺序不对，就交换它们。 该方法继续循环遍历数组，直到没有发生交换，此时数组已被排序。
 

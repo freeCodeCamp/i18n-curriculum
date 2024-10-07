@@ -8,7 +8,7 @@ dashedName: drop-it
 
 # --description--
 
-Dado o array `arr`, faça iterações sobre ele e remova cada elemento começando do primeiro elemento (o índice 0) até que a função `func` retorne `true` quando o elemento iterado for passado através dele.
+Given the array `arr`, iterate through and remove each element starting from the first element (the 0 index) until the function `func` returns `true` when the iterated element is passed through it.
 
 Em seguida, retorne o resto do array uma vez que a condição for satisfeita, caso contrário, `arr` deve ser retornado como um array vazio.
 

@@ -1,6 +1,6 @@
 ---
 id: bd7155d8c242eddfaeb5bd13
-title: Build a Recipe Box
+title: Erstelle eine Rezeptbox
 challengeType: 3
 forumTopicId: 302354
 dashedName: build-a-recipe-box
@@ -10,25 +10,25 @@ dashedName: build-a-recipe-box
 
 **Objective:** Build an app that is functionally similar to this: <a href="https://codepen.io/freeCodeCamp/full/dNVazZ/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/dNVazZ/</a>.
 
-Erfülle die folgenden User Stories und bestehe alle Tests. Verwende Bibliotheken und APIs deiner Wahl. Gib dem Ganzen deinen persönlichen Stil.
+Erfülle die untenstehenden User Stories und bringe alle Tests zum Bestehen. Verwende die Bibliotheken oder APIs deiner Wahl. Gib dem Ganzen deinen persönlichen Stil.
 
-**User Story:** I can create recipes that have names and ingredients.
+**User Story:** Ich kann Rezepte erstellen, die Namen und Zutaten haben.
 
-**User Story:** I can see an index view where the names of all the recipes are visible.
+**User Story:** Ich kann eine Indexansicht mit den Namen aller Rezepte sehen.
 
-**User Story:** I can click into any of those recipes to view it.
+**User Story:** Ich kann auf jedes dieser Rezepte klicken, um es mir anzeigen zu lassen.
 
-**User Story:** I can edit these recipes.
+**User Story:** Ich kann diese Rezepte bearbeiten.
 
-**User Story:** I can delete these recipes.
+**User Story:** Ich kann diese Rezepte löschen.
 
-**User Story:** All new recipes I add are saved in my browser's local storage. If I refresh the page, these recipes will still be there.
+**User Story:** Alle Rezepte, die ich neu hinzufüge, werden im lokalen Speicher meines Browsers gespeichert. Wenn ich die Seite aktualisiere, sind diese Rezepte noch immer vorhanden.
 
-**Hint:** You should prefix your local storage keys on CodePen, i.e. `_username_recipes`
+**Hinweis:** Du solltest deinen lokalen Speicherschlüsseln auf CodePen einen Präfix geben, bspw. `_username_recipes`
 
-When you are finished, include a link to your project on CodePen and click the "I've completed this challenge" button.
+Wenn du fertig bist, füge einen Link zu deinem Projekt auf CodePen hinzu und klicke auf den "Ich habe diese Herausforderung bestanden"-Button.
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+Du kannst Feedback zu deinem Projekt erhalten, indem du es auf dem <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a> teilst.
 
 # --solutions--
 

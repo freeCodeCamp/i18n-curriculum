@@ -9,12 +9,12 @@ dashedName: add-a-box-shadow-to-a-card-like-element
 
 # --description--
 
-`box-shadow` プロパティは要素に 1 つ以上の影をつけます。
+The `box-shadow` property applies one or more shadows to an element.
 
 `box-shadow` プロパティは以下の値をこの順で取ります。
 
 <ul>
-  <li><code>offset-x</code> (要素から水平方向に影を押しやる距離)</li>
+  <li><code>offset-x</code> (how far to push the shadow horizontally from the element)</li>
   <li><code>offset-y</code> (要素から垂直方向に影を押しやる距離)</li>
   <li><code>blur-radius</code></li>
   <li><code>spread-radius</code></li>

@@ -9,7 +9,7 @@ dashedName: add-different-padding-to-each-side-of-an-element
 
 # --description--
 
-有時候，你會想給一個元素每個方向的 `padding` 都設置一個特定的值
+Sometimes you will want to customize an element so that it has different amounts of `padding` on each of its sides.
 
 CSS 允許你使用 `padding-top`、`padding-right`、`padding-bottom`、`padding-left` 屬性來設置四個不同方向的 `padding` 值。
 

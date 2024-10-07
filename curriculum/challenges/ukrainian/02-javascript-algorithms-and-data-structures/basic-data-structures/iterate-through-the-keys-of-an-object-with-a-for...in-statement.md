@@ -8,7 +8,7 @@ dashedName: iterate-through-the-keys-of-an-object-with-a-for---in-statement
 
 # --description--
 
-Часом потрібно ітерувати через всі ключі всередині об’єкта. Для цього можна використати цикл <dfn>for...in</dfn>. Цикл for...in виглядає так:
+Sometimes you need to iterate through all the keys within an object. You can use a <dfn>for...in</dfn> loop to do this. The for...in loop looks like:
 
 ```javascript
 const refrigerator = {

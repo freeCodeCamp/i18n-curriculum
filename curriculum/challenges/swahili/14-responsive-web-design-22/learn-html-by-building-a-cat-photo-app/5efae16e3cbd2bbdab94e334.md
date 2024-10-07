@@ -7,7 +7,7 @@ dashedName: step-31
 
 # --description--
 
-Baada ya kipengele cha mwisho cha `img`, ongeza kipengele cha `figcaption` chenye maandishi `Cats hate other cats.`
+After the last `img` element, add a `figcaption` element with the text `Cats hate other cats.`
 
 # --hints--
 
@@ -66,7 +66,7 @@ assert(
 );
 ```
 
-Maandishi ya kipengele cha `figcaption` yanapaswa kuwa `Cats hate other cats.` Aidha umesahau maandishi, au kuna makosa ya maandishi.
+The `figcaption` element should have the text `Cats hate other cats.` You have omitted a word or have a typo.
 
 ```js
 assert(

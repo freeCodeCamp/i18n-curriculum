@@ -9,7 +9,7 @@ dashedName: specify-how-fonts-should-degrade
 
 # --description--
 
-Es gibt verschiedene Standard-Schriftarten, die in allen Browsern verfügbar sind. Zu diesen generischen Schriftfamilien gehören `monospace`, `serif` und `sans-serif`.
+There are several default fonts that are available in all browsers. These generic font families include `monospace`, `serif` and `sans-serif`.
 
 Wenn eine Schriftart nicht verfügbar ist, kannst du dem Browser sagen, dass er zu einer anderen Schriftart "herabstufen" soll.
 

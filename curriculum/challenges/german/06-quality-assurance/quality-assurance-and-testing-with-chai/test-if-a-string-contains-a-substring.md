@@ -1,6 +1,6 @@
 ---
 id: 587d824d367417b2b2512c53
-title: Test if a String Contains a Substring
+title: Testen, ob ein String einen Substring enthält
 challengeType: 2
 forumTopicId: 301597
 dashedName: test-if-a-string-contains-a-substring
@@ -10,15 +10,15 @@ dashedName: test-if-a-string-contains-a-substring
 
 As a reminder, this project is being built upon the following starter project on <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>, or cloned from <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
 
-`include()` und `notInclude()` funktionieren auch für Strings! `include()` asserts that the actual string contains the expected substring.
+`include()` und `notInclude()` funktionieren auch für Strings! `include()` überprüft, ob der aktuelle String den erwarteten Substring enthält.
 
 # --instructions--
 
-Within `tests/1_unit-tests.js` under the test labeled `#14` in the `Strings` suite, change each `assert` to either `assert.include` or `assert.notInclude` to make the test pass (should evaluate to `true`). Do not alter the arguments passed to the asserts.
+Ändere innerhalb `tests/1_unit-tests.js` unter dem Test mit der Beschriftung `#14` in der `Strings`-Suite, jeden `assert` in `assert.include` oder `assert.notInclude` um, damit der Test bestanden wird (sollte `true` ausgeben). Ändere nicht die Argumente, die an die Assertions übergeben werden.
 
 # --hints--
 
-Alle Tests sollten bestanden werden.
+Alle Tests sollten bestehen.
 
 ```js
 (getUserInput) =>

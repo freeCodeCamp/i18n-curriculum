@@ -8,7 +8,7 @@ dashedName: define-a-redux-action
 
 # --description--
 
-وبما أن Redux هو framework لإدارة الحالة (state)، فإن تحديث الحالة (state) هو أحد مهامها الأساسية. في Redux، يتم تشغيل جميع تحديثات الحالة (state) عن طريق إرسال الإجراءات (actions). الإجراء (action) هو ببساطة كائن JavaScript الذي يحتوي على معلومات حول إجراء حدث الذي وقع. يستقبل متجر Redux هذه العناصر الإجرائية (action)، ثم تحديث حالته (state) وفقاً لذلك. وفي بعض الأحيان يحمل إجراء Redux أيضا بعض البيانات. على سبيل المثال، يحمل الإجراء (action) اسم مستخدم بعد تسجيل دخول المستخدم. في حين أن البيانات اختيارية، يجب أن تحمل الإجراءات خاصية `type` التي تحدد 'نوع' الإجراء الذي وقع.
+Since Redux is a state management framework, updating state is one of its core tasks. In Redux, all state updates are triggered by dispatching actions. An action is simply a JavaScript object that contains information about an action event that has occurred. The Redux store receives these action objects, then updates its state accordingly. Sometimes a Redux action also carries some data. For example, the action carries a username after a user logs in. While the data is optional, actions must carry a `type` property that specifies the 'type' of action that occurred.
 
 فكر إن الإجراءات Redux كمراسلين يسليمون معلومات عن الأحداث التي تقع في التطبيق الخاص بك فى متجر Redux. ثم يقوم المتجر (store) بأعمال تحديث للحالة (state) استناداً على الإجراء (action) الذي وقع.
 

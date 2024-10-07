@@ -8,7 +8,7 @@ dashedName: handle-a-fulfilled-promise-with-then
 
 # --description--
 
-Проміси найкорисніші, якщо у вашому коді відбувається процес, який займає невизначений проміжок часу (тобто асинхронний процес). Наприклад, запит до сервера. Створення запиту до сервера займає певний час, а після його завершення, зазвичай, передбачаються подальші дії з відповіддю сервера. Цього можна досягти за допомогою методу `then`.
+Promises are most useful when you have a process that takes an unknown amount of time in your code (i.e. something asynchronous), often a server request. When you make a server request it takes some amount of time, and after it completes you usually want to do something with the response from the server. This can be achieved by using the `then` method.
 
 ```js
 Promise.prototype.then(onFulfilled, onRejected)
@@ -22,15 +22,15 @@ myPromise.then(result => {
 });
 ```
 
-`result` походить від аргумента, переданого до методу `resolve`.
+`result` comes from the argument given to the `resolve` method.
 
 # --instructions--
 
-Додайте метод `then` до свого промісу. Використайте `result` як параметр функції зворотного виклику та виведіть `result` на консолі.
+Add the `then` method to your promise. Use `result` as the parameter of its callback function and log `result` to the console.
 
 # --hints--
 
-Ви повинні викликати метод `then` на промісі.
+You should call the `then` method on the promise.
 
 ```js
 assert(
@@ -38,13 +38,13 @@ assert(
 );
 ```
 
-Ваш метод `then` повинен мати функцію зворотного виклику з параметром `result`.
+Your `then` method should have a callback function with `result` as its parameter.
 
 ```js
 assert(resultIsParameter);
 ```
 
-Ви повинні вивести `result` на консолі.
+You should log `result` to the console.
 
 ```js
 assert(

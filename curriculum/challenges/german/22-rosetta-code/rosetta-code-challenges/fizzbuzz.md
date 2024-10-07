@@ -8,10 +8,10 @@ dashedName: fizzbuzz
 
 # --description--
 
-Write a program that generates an array of integers from 1 to 100 (inclusive). But:
+Schreibe ein Programm, das ein Array mit ganzen Zahlen von 1 bis 100 (einschließlich) generiert. Aber:
 
 <ul>
-    <li>for multiples of 3, add <code>"Fizz"</code> to the array instead of the number</li>
+    <li>für die Vielfachen von 3 füge anstelle der Zahl <code>"Fizz"</code> dem Array hinzu</li>
     <li>für die Vielfachen von 5 füge anstelle der Zahl <code>"Buzz"</code> dem Array hinzu</li>
     <li>für die Vielfachen von 3 und 5 füge dem Array <code>"FizzBuzz"</code> anstelle der Zahl hinzu</li>
 </ul>

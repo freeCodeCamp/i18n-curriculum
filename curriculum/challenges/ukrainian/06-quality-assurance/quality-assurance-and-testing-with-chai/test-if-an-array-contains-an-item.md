@@ -8,11 +8,11 @@ dashedName: test-if-an-array-contains-an-item
 
 # --description--
 
-Нагадуємо, що цей проєкт створюється на основі наступного стартового проєкту на <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a> або клонований з <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
+As a reminder, this project is being built upon the following starter project on <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>, or cloned from <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
 
 # --instructions--
 
-У межах `tests/1_unit-tests.js` під тестом з міткою `#12` в наборі `Arrays` змініть кожний `assert` на `assert.include` або `assert.notInclude`, щоб пройти тест (повинен дорівнювати `true`). Не змінюйте аргументи, передані до тверджень.
+У межах `tests/1_unit-tests.js` під тестом з міткою `#12` в наборі `Arrays` змініть кожний `assert` на `assert.include` або `assert.notInclude`, щоб пройти тест (повинен дорівнювати `true`). Не змінюйте аргументи, які передаються до тверджень.
 
 # --hints--
 

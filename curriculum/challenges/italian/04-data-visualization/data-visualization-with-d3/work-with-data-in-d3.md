@@ -8,7 +8,7 @@ dashedName: work-with-data-in-d3
 
 # --description--
 
-La libreria D3 si concentra su un approccio basato sui dati. Quando si dispone di un insieme di dati, è possibile applicare i metodi D3 per visualizzarli sulla pagina. I dati sono disponibili in molti formati, ma questa sfida utilizza una semplice matrice di numeri.
+The D3 library focuses on a data-driven approach. When you have a set of data, you can apply D3 methods to display it on the page. Data comes in many formats, but this challenge uses a simple array of numbers.
 
 Il primo passo è quello di rendere D3 consapevole dei dati. Il metodo `data()` è utilizzato su una selezione di elementi DOM per collegare i dati a questi elementi. Il set di dati viene passato come argomento al metodo.
 

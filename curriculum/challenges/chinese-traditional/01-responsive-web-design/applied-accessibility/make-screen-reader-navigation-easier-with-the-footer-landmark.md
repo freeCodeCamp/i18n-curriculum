@@ -9,7 +9,7 @@ dashedName: make-screen-reader-navigation-easier-with-the-footer-landmark
 
 # --description--
 
-與 `header` 和 `nav` 類似，`footer` 元素也具有語義化的特性，可以讓輔助工具快速定位到它。 它位於頁面底部，用於呈現版權信息或者相關文檔鏈接。
+Similar to `header` and `nav`, the `footer` element has a built-in landmark feature that allows assistive devices to quickly navigate to it. It's primarily used to contain copyright information or links to related documents that usually sit at the bottom of a page.
 
 # --instructions--
 

@@ -8,7 +8,7 @@ dashedName: get-data-from-post-requests
 
 # --description--
 
-在路徑 `/name` 掛載一個 POST 處理方法， 和前面一樣， 我們已經在 html 首頁準備了一份表單， 它將提交與練習 10 相同的數據（查詢字符串）， 如果 body-parser 正確配置好了，那麼就可以在 `req.body` 對象中找到請求的參數。 來看看一個常規的例子：
+Mount a POST handler at the path `/name`. It’s the same path as before. We have prepared a form in the html frontpage. It will submit the same data of exercise 10 (Query string). If the body-parser is configured correctly, you should find the parameters in the object `req.body`. Have a look at the usual library example:
 
 <blockquote>路由：POST '/library'<br>URL 編碼的請求正文：userId=546&#x26;bookId=6754<br>req.body：{userId: '546', bookId: '6754'}</blockquote>
 

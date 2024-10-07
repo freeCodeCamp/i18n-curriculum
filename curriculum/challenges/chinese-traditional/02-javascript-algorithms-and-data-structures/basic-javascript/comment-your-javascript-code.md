@@ -9,7 +9,7 @@ dashedName: comment-your-javascript-code
 
 # --description--
 
-被註釋的代碼塊在 JavaScript 之中是不會執行的。 在代碼中寫註釋，是一個可以讓你自己和以後的其他人理解代碼作用的好方法。
+Comments are lines of code that JavaScript will intentionally ignore. Comments are a great way to leave notes to yourself and to other people who will later need to figure out what that code does.
 
 JavaScript有兩種寫註釋的方法。
 

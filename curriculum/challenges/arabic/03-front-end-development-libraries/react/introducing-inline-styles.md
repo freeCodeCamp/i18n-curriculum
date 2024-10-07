@@ -8,7 +8,7 @@ dashedName: introducing-inline-styles
 
 # --description--
 
-هناك مفاهيم معقدة أخرى تضيف قدرات قوية إلى رمز React الخاص بك. لكنك قد تتساءل عن المشكلة البسيطة لكيفية تصميم عناصر JSX التي تنشئها في React. على الأرجح أنت تعلم أنه لن يكون نفس الطريقة مع HTML بالضبط بسبب أختلاف <a href="/learn/front-end-development-libraries/react/define-an-html-class-in-jsx" target="_blank" rel="noopener noreferrer nofollow">الطريقة التي تطبق بها الفئات على عناصر JSX</a>.
+There are other complex concepts that add powerful capabilities to your React code. But you may be wondering about the more simple problem of how to style those JSX elements you create in React. You likely know that it won't be exactly the same as working with HTML because of <a href="/learn/front-end-development-libraries/react/define-an-html-class-in-jsx" target="_blank" rel="noopener noreferrer nofollow">the way you apply classes to JSX elements</a>.
 
 إذا استرد التصميمات من ورقة التصميم، فإنها ليست مختلفة على الإطلاق. يمكنك تطبيق فئة على عنصر JSX الخاص بك باستخدام السمة `className`، وتطبيق التصميمات على الفئات في ورقة التصميمات الخاصة بك. وثمة خِيار آخر يتمثل في تطبيق تصميمات داخلية (inline styles) شائعة جدا في تطوير ReactJS.
 

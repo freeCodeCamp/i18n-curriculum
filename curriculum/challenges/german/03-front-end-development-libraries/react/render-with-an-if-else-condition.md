@@ -8,7 +8,7 @@ dashedName: render-with-an-if-else-condition
 
 # --description--
 
-Eine weitere Möglichkeit, die gerenderte Ansicht mit JavaScript zu steuern, besteht darin, die gerenderten Elemente an eine Bedingung zu knüpfen. Wenn die Bedingung erfüllt ist, wird eine Ansicht gerendert. Wenn sie falsch ist, ist das eine andere Ansicht. Das kannst du mit einer standardmäßigen `if/else`-Anweisung in der `render()`-Methode einer React-Komponente machen.
+Another application of using JavaScript to control your rendered view is to tie the elements that are rendered to a condition. When the condition is true, one view renders. When it's false, it's a different view. You can do this with a standard `if/else` statement in the `render()` method of a React component.
 
 # --instructions--
 

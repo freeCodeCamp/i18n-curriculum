@@ -9,7 +9,7 @@ dashedName: prioritize-one-style-over-another
 
 # --description--
 
-때때로 HTML 요소에는 서로 충돌하는 여러 스타일이 있을 수 있습니다.
+Sometimes your HTML elements will receive multiple styles that conflict with one another.
 
 예를 들어, 여러분의 `h1` 요소는 동시에 초록색과 분홍색이 될 수 없습니다.
 

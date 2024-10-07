@@ -8,7 +8,7 @@ dashedName: verify-an-objects-constructor-with-instanceof
 
 # --description--
 
-في أي وقت تقوم الـ constructor function بإنشاء object جديد، يقال إن هذا ال object هو <dfn>instance</dfn> من الـ constructor الخاص به. يعطي جافا سكريبت طريقة مناسبة للتحقق من هذا مع مشغل `instanceof`. `instanceof` يسمح لك بمقارنة object مع constructor، و إرجاع `true` أو `false` استناداً إلى ما إذا كان هذا ال object قد تم إنشاؤه باستخدام الـ constructor أم لا. إليك مثال:
+Anytime a constructor function creates a new object, that object is said to be an <dfn>instance</dfn> of its constructor. JavaScript gives a convenient way to verify this with the `instanceof` operator. `instanceof` allows you to compare an object to a constructor, returning `true` or `false` based on whether or not that object was created with the constructor. إليك مثال:
 
 ```js
 let Bird = function(name, color) {

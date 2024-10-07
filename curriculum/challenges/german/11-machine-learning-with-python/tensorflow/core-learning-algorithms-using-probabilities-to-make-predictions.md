@@ -1,6 +1,6 @@
 ---
 id: 5e8f2f13c4cdbe86b5c72d91
-title: 'Core Learning Algorithms: Using Probabilities to make Predictions'
+title: 'Grundlegende Lernalgorithmen: Wahrscheinlichkeiten für Vorhersagen nutzen'
 challengeType: 11
 videoId: fYAYvLUawnc
 bilibiliIds:

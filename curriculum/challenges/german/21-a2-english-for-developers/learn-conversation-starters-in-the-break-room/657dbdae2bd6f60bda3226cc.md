@@ -15,7 +15,7 @@ Wenn du wissen möchtest, wie oft etwas passiert, kannst du `every` verwenden, g
 
 # --instructions--
 
-Höre dir das Audio an, um die unteren Sätze zu vervollständigen.
+Höre dir die Audio an, um den untenstehenden Satz zu vervollständigen.
 
 # --fillInTheBlank--
 
@@ -23,7 +23,7 @@ Höre dir das Audio an, um die unteren Sätze zu vervollständigen.
 
 `Tell me about our team meetings, Sophie. Do they happen BLANK week?`
 
-## -blanks--
+## --blanks--
 
 `every`
 
@@ -32,7 +32,7 @@ Höre dir das Audio an, um die unteren Sätze zu vervollständigen.
 Tom fragt, ob die Meetings jede Woche stattfinden.
 
 
-# --Szene--
+# --scene--
 
 ```json
 {

@@ -8,7 +8,7 @@ dashedName: sum-to-100
 
 # --description--
 
-Find solutions to the *sum to one hundred* puzzle.
+Finde Lösungen für das *sum to one hundred*-Puzzle.
 
 Setze die mathematischen Operatoren **+** oder **─** (Pluszeichen oder Minuszeichen) vor einer der Ziffern im dezimalnumerischen String **123456789** ein, so dass der resultierende mathematische Ausdruck eine bestimmte Summe ergibt (in diesem ikonischen Fall **100**).
 

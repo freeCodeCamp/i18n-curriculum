@@ -8,7 +8,7 @@ dashedName: check-for-mixed-grouping-of-characters
 
 # --description--
 
-Manchmal wollen wir mit einem regulären Ausdruck nach Gruppen von Zeichen suchen und dazu verwenden wir die Klammern `()`.
+Sometimes we want to check for groups of characters using a Regular Expression and to achieve that we use parentheses `()`.
 
 Wenn du entweder `Penguin` oder `Pumpkin` in einem String finden willst, kannst du den folgenden regulären Ausdruck verwenden: `/P(engu|umpk)in/g`
 

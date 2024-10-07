@@ -8,7 +8,7 @@ dashedName: problem-206-concealed-square
 
 # --description--
 
-Find the unique positive integer whose square has the form 1_2_3_4_5_6_7_8_9_0, where each "_" is a single digit.
+Finde den einzigen positiven Integer, dessen Quadrat die Form 1_2_3_4_5_6_7_8_9_0 hat, wobei jedes "_" eine einzelne Ziffer ist.
 
 # --hints--
 

@@ -9,7 +9,7 @@ dashedName: generate-random-fractions-with-javascript
 
 # --description--
 
-乱数はランダムな動作を作成するのに便利です。
+Random numbers are useful for creating random behavior.
 
 JavaScript には、`0` (含む) から `1` (含まない) の間の小数の乱数を生成する `Math.random()` 関数があります。 つまり、`Math.random()` は `0` を返すことはありますが、`1` を返すことは決してありません。
 

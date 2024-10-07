@@ -8,7 +8,7 @@ dashedName: zeckendorf-number-representation
 
 # --description--
 
-Just as numbers can be represented in a positional notation as sums of multiples of the powers of ten (decimal) or two (binary); all the positive integers can be represented as the sum of one or zero times the distinct members of the Fibonacci series. Recall that the first six distinct Fibonacci numbers are: `1, 2, 3, 5, 8, 13`.
+Genauso wie Zahlen in einer Positionsnotation als Summen von Vielfachen von Zehnerpotenzen (dezimal) oder Zweierpotenzen (binär) dargestellt werden können, lassen sich alle positiven ganzen Zahlen als Summe von Eins oder Null mal die einzelnen Glieder der Fibonacci-Reihe darstellen. Erinnere dich, die ersten sechs unterschiedlichen Fibonacci-Zahlen sind `1, 2, 3, 5, 8, 13`.
 
 Die Dezimalzahl elf kann als `0*13 + 1*8 + 0*5 + 1*3 + 0*2 + 0*1` oder `010100` in Stellenschreibweise geschrieben werden, wobei die Spalten die Multiplikation eines bestimmten Mitglieds der Sequenz darstellen. Führende Nullen werden weggelassen, sodass aus 11 dezimal `10100` wird. 10100 ist nicht die einzige Möglichkeit aus den Fibonacci-Zahlen 11 herzustellen, aber `0*13 + 1*8 + 0*5 + 0*3 + 1*2 + 1*1` oder 010011 würden auch die Dezimalzahl 11 darstellen. Für eine echte Zeckendorf-Zahl gibt es die zusätzliche Einschränkung, dass *keine zwei aufeinanderfolgenden Fibonacci-Zahlen verwendet werden können*, was zu der früheren eindeutigen Lösung führt.
 

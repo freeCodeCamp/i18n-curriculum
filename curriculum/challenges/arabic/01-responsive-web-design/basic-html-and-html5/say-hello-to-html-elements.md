@@ -1,6 +1,6 @@
 ---
 id: bd7123c8c441eddfaeb5bdef
-title: Say Hello to HTML Elements
+title: قل مرحباً لعناصر (HTML) (Say Hello to HTML Elements)
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVMPUv/cE8Gpt2'
 forumTopicId: 18276
@@ -11,35 +11,35 @@ dashedName: say-hello-to-html-elements
 
 Welcome to freeCodeCamp's HTML coding challenges. These will walk you through web development step-by-step.
 
-First, you'll start by building a simple web page using HTML. You can edit code in your code editor, which is embedded into this web page.
+أولاً، ستبدأ بإنشاء صفحة ويب بسيطة باستخدام HTML. يمكنك تعديل الCode (كود) في الCode Editor (محرر الكود) المدمج في هذه الصفحة.
 
-Do you see the code in your code editor that says `<h1>Hello</h1>`? That's an HTML element.
+هل ترى هذا الCode المكتوب في الCode Editor الذي يقول `<h1>Hello</h1>`؟ هذا عنصر HTML.
 
-Most HTML elements have an opening tag and a closing tag.
+أغلب عناصر الHTML لديها أثنين من الTags (علامة): Opening Tag (علامة الفتح) و Closing Tag (علامة الغلق).
 
-Opening tags look like this:
+الOpening tag يكتب هكذا:
 
 ```html
 <h1>
 ```
 
-Closing tags look like this:
+أما الClosing Tag فيكتب بالشكل الآتي:
 
 ```html
 </h1>
 ```
 
-The only difference between opening and closing tags is the forward slash after the opening bracket of a closing tag.
+الفرق الوحيد بين الOpening Tag والClosing Tag هو وجود الشرطة المائلة للأمام بعد قوس البداية الخاص بالClosing Tag.
 
-Each challenge has tests you can run at any time by clicking the "Run tests" button. When you pass all tests, you'll be prompted to submit your solution and go to the next coding challenge.
+في كل تحد هناك اختبارات يمكنك تنفيذها في أي وقت بالضغط على الزر "تنفيذ الاختبارات". عندما تجتاز جميع الاختبارات، سوف يطلب منك إرسال الحل الخاص بك والانتقال إلى التحدي التالي.
 
 # --instructions--
 
-To pass the test on this challenge, change your `h1` element's text to say `Hello World`.
+حتى تتخطى اختبار هذا التحدي، غير نص العنصر `h1` إلى `Hello World`.
 
 # --hints--
 
-Your `h1` element should have the text `Hello World`.
+يجب أن يحتوي العنصر `h1` على النص `Hello World`.
 
 ```js
 assert.isTrue(/hello(\s)+world/gi.test($('h1').text()));

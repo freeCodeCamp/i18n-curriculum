@@ -9,7 +9,7 @@ dashedName: practice-comparing-different-values
 
 # --description--
 
-Nelle ultime due sfide, abbiamo imparato a conoscere l'operatore di uguaglianza (`==`) e l'operatore di uguaglianza stretta (`===`). Facciamo un rapido ripasso usando ancora un po' questi operatori.
+In the last two challenges, we learned about the equality operator (`==`) and the strict equality operator (`===`). Let's do a quick review and practice using these operators some more.
 
 Se i valori confrontati non sono dello stesso tipo, l'operatore di uguaglianza eseguirà una conversione di tipo e quindi valuterà i valori. L'operatore di uguaglianza stretta invece confronterà sia il tipo di dati che il valore così com'è, senza convertire un tipo in un altro.
 

@@ -8,7 +8,7 @@ dashedName: use-the-tilde-character-to-always-use-the-latest-patch-version-of-a-
 
 # --description--
 
-In der letzten Aufgabe hast du npm angewiesen, nur eine bestimmte Version eines Pakets einzufügen. Das ist eine nützliche Methode, um Abhängigkeiten einzufrieren, wenn du sicherstellen möchtest, dass verschiedene Teile deines Projekts miteinander kompatibel bleiben. In der Praxis solltest du jedoch keine Fehlerbehebungen übersehen, da sie oft wichtige Sicherheitspatches enthalten und somit (hoffentlich) nichts beschädigt wird.
+In the last challenge, you told npm to only include a specific version of a package. That’s a useful way to freeze your dependencies if you need to make sure that different parts of your project stay compatible with each other. But in most use cases, you don’t want to miss bug fixes since they often include important security patches and (hopefully) don’t break things in doing so.
 
 Um eine npm-Abhängigkeit auf die neueste PATCH-Version zu aktualisieren, kannst du der Abhängigkeitsversion das Tilde-Zeichen (`~`) voranstellen. Hier ein Beispiel, wie man Aktualisierungen auf jede `1.3.x`-Version zulässt.
 

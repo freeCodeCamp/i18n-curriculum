@@ -9,7 +9,7 @@ dashedName: change-an-elements-relative-position
 
 # --description--
 
-CSS behandelt jedes HTML-Element als eigene Box, was man als <dfn>CSS Box Model</dfn> bezeichnet. Block-Level-Elemente beginnen automatisch in einer neuen Zeile (z. B. Überschriften, Absätze und Div-Elemente), während sich Inline-Elemente zwischen anderen Inhalten derselben Zeile befinden (z. B. Bilder oder Spans). Das Standardlayout von Elementen dieser Art wird als <dfn>normal flow</dfn> (dt. "normaler Fluss") eines Dokuments bezeichnet, wobei CSS auch die position-Eigenschaft bereithält, um diesen zu überschreiben.
+CSS treats each HTML element as its own box, which is usually referred to as the <dfn>CSS Box Model</dfn>. Block-level items automatically start on a new line (think headings, paragraphs, and divs) while inline items sit within surrounding content (like images or spans). The default layout of elements in this way is called the <dfn>normal flow</dfn> of a document, but CSS offers the position property to override it.
 
 Wenn die Position eines Elements auf `relative` gesetzt ist, kannst du angeben, wie CSS es *relativ* zu seiner aktuellen Position im normalen Fluss der Seite verschieben soll. Das funktioniert gemeinsam mit den CSS-Offset-Eigenschaften `left` oder `right` bzw. `top` oder `bottom`. Diese geben an, um wie viele Pixel, Prozent oder Ems das Element von seiner normalen Position *versetzt* werden soll. Im folgenden Beispiel wird der Absatz um 10 Pixel vom unteren Rand entfernt:
 

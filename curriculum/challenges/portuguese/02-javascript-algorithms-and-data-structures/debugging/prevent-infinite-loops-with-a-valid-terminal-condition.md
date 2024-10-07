@@ -8,7 +8,7 @@ dashedName: prevent-infinite-loops-with-a-valid-terminal-condition
 
 # --description--
 
-O tópico final é o temido laço infinito. Laços são ótimas ferramentas quando você precisa que o seu programa rode um bloco de código uma quantidade exata de vezes ou até que uma condição seja atendida, mas eles precisam de uma condição de parada que finalize esse laço. Laços infinitos têm alta probabilidade de congelar ou travar o navegador, e causa um caos na execução geral do programa, o que ninguém deseja.
+The final topic is the dreaded infinite loop. Loops are great tools when you need your program to run a code block a certain number of times or until a condition is met, but they need a terminal condition that ends the looping. Infinite loops are likely to freeze or crash the browser, and cause general program execution mayhem, which no one wants.
 
 Havia um exemplo de laço infinito na introdução dessa seção - esse laço não tinha uma condição de parada para sair do laço `while` dentro de `loopy()`. NÃO chame essa função!
 

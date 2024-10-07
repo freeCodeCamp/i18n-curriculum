@@ -8,7 +8,7 @@ dashedName: where-do-i-belong
 
 # --description--
 
-Gib den niedrigsten Index zurück, bei dem ein Wert (zweites Argument) in ein Array (erstes Argument) eingefügt werden sollte, nachdem es sortiert wurde. Der zurückgegebene Wert sollte eine Zahl sein.
+Return the lowest index at which a value (second argument) should be inserted into an array (first argument) once it has been sorted. The returned value should be a number.
 
 Zum Beispiel sollte `getIndexToIns([1,2,3,4], 1.5)` den Wert `1` zurückgeben, weil es größer als `1` (Index 0) ist, aber kleiner als `2` (Index 1).
 

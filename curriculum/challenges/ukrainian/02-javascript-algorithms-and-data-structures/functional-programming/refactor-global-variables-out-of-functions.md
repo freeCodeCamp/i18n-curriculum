@@ -8,7 +8,7 @@ dashedName: refactor-global-variables-out-of-functions
 
 # --description--
 
-Наразі ми розглянули два окремих принципи функційного програмування:
+So far, we have seen two distinct principles for functional programming:
 
 1) Не змінюйте змінну чи об’єкт — створюйте нові змінні та об’єкти і, якщо потрібно, повертайте їх з функції. Підказка: якщо використати щось схоже до `const newArr = arrVar` (де `arrVar` є масивом), ви просто створите посилання на наявну змінну, а не копію. Тому, змінивши значення в `newArr`, зміниться значення в `arrVar`.
 

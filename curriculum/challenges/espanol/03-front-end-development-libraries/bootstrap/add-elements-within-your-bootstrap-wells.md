@@ -8,9 +8,9 @@ dashedName: add-elements-within-your-bootstrap-wells
 
 # --description--
 
-Ahora estamos a varios elementos `div` de profundidad en cada columna de nuestra fila. Esto es lo más profundo que necesitaremos ir. Ahora podemos agregar nuestros elementos `button`.
+Now we're several `div` elements deep on each column of our row. This is as deep as we'll need to go. Now we can add our `button` elements.
 
-Anida tres elementos `button` dentro de cada uno de los elementos `div` que posean una clase `well`.
+Anida tres elementos `button` dentro de cada uno de tus elementos `div` usando la clase llamada `well`.
 
 # --hints--
 
@@ -32,7 +32,7 @@ Debes tener un total de 6 elementos `button`.
 assert.lengthOf(document.querySelectorAll('button'), 6);
 ```
 
-Todos tus elementos `button` deben tener etiquetas de cierre.
+Todos los elementos de tu `button` deben tener etiquetas de cierre.
 
 ```js
 assert.match(code,/<\/button>/g);

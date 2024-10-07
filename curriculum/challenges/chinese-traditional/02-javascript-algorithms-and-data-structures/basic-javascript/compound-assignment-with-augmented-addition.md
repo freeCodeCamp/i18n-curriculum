@@ -9,7 +9,7 @@ dashedName: compound-assignment-with-augmented-addition
 
 # --description--
 
-在編程中，通常通過賦值來修改變量的內容。 記住，賦值時 JavaScript 會先計算等號右邊的內容，所以我們可以寫這樣的語句：
+In programming, it is common to use assignments to modify the contents of a variable. Remember that everything to the right of the equals sign is evaluated first, so we can say:
 
 ```js
 myVar = myVar + 5;

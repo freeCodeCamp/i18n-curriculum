@@ -8,7 +8,7 @@ dashedName: chain-search-query-helpers-to-narrow-search-results
 
 # --description--
 
-Se você não passar o callback como o último argumento para `Model.find()` (ou para outros métodos de pesquisa), a consulta não é executada. Você pode armazenar a consulta em uma variável para uso posterior. Esse tipo de objeto permite que você crie uma consulta usando a sintaxe de encadeamento. A pesquisa real do banco de dados é executada quando você finalmente encadear o método `.exec()`. Você sempre precisa passar seu callback para este último método. Existem muitos auxiliares de consulta. Aqui, usaremos os mais comuns.
+If you don’t pass the callback as the last argument to `Model.find()` (or to the other search methods), the query is not executed. You can store the query in a variable for later use. This kind of object enables you to build up a query using chaining syntax. The actual db search is executed when you finally chain the method `.exec()`. You always need to pass your callback to this last method. There are many query helpers, here we'll use the most commonly used.
 
 # --instructions--
 

@@ -8,7 +8,7 @@ dashedName: learn-about-svg-in-d3
 
 # --description--
 
-<dfn>SVG</dfn> 是 <dfn>Scalable Vector Graphics</dfn> 的缩写。
+<dfn>SVG</dfn> stands for <dfn>Scalable Vector Graphics</dfn>.
 
 “scalable” 的意思是如果放大或缩小一个对象，它不会像素化。 不管是在小的移动手机屏幕上还是在大的电视显示器上，它都会随着显示系统缩放。
 

@@ -8,7 +8,7 @@ dashedName: lu-decomposition
 
 # --description--
 
-Every square matrix $A$ can be decomposed into a product of a lower triangular matrix $L$ and a upper triangular matrix $U$. This is known as the LU decomposition.
+Jede quadratische Matrix $A$ kann in ein Produkt aus einer unteren Dreiecksmatrix $L$ und einer oberen Dreiecksmatrix $U$ zerlegt werden. Dies wird als LU-Zerlegung bezeichnet.
 
 $A = LU$
 

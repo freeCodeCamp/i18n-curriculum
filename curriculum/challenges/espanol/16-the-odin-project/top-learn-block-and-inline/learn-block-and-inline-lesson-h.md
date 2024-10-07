@@ -9,7 +9,7 @@ dashedName: learn-block-and-inline-lesson-h
 
 Ahora que tienes un entendimiento básico de los elementos `block` e inline, consulta tu lista de elementos `block` e `inline` de hace un par de preguntas y verifica si puedes identificar cuáles de los siguientes elementos son elementos `block` y cuáles son elementos `inline`.
 
-# --questions--
+# --preguntas----preguntas--
 
 ## --text--
 

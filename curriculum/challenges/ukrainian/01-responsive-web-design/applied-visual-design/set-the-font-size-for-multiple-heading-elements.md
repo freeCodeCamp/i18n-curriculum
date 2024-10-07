@@ -9,13 +9,13 @@ dashedName: set-the-font-size-for-multiple-heading-elements
 
 # --description--
 
-Властивість `font-size` використовується для визначення розміру тексту в заданому елементі. Це правило можна застосовувати для кількох елементів, щоб створити візуальну узгодженість тексту на сторінці. У цьому завданні ви встановите значення для всіх `h1` по `h6` тегів, щоб вирівняти розмір заголовків.
+The `font-size` property is used to specify how large the text is in a given element. This rule can be used for multiple elements to create visual consistency of text on a page. In this challenge, you'll set the values for all `h1` through `h6` tags to balance the heading sizes.
 
 # --instructions--
 
 У тегах `style`, встановіть `font-size` у:
 
-- Тег `h1` до 68px.
+- `h1` tag to 68px.
 - Тег `h2` до 52px.
 - Тег `h3` до 40px.
 - Тег `h4` до 32px.

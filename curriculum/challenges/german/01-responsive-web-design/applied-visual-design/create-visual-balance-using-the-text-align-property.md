@@ -9,7 +9,7 @@ dashedName: create-visual-balance-using-the-text-align-property
 
 # --description--
 
-Dieser Abschnitt des Lehrplans konzentriert sich auf angewandtes visuelles Design. Die erste Aufgabengruppe baut auf dem gegebenen Kartenlayout auf, um eine Reihe von Grundprinzipien darzustellen.
+This section of the curriculum focuses on Applied Visual Design. The first group of challenges build on the given card layout to show a number of core principles.
 
 Ein großer Anteil von Webinhalten besteht aus Text. CSS bietet mehrere Optionen, um sie mit der Eigenschaft `text-align` auszurichten.
 

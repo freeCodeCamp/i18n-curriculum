@@ -8,7 +8,7 @@ dashedName: positive-and-negative-lookahead
 
 # --description--
 
-<dfn>Перегляди вперед</dfn> — це шаблони, які вказують JavaScript заглянути у рядок заздалегідь, щоб перевірити подальші шаблони. Це може бути корисно при пошуку декількох шаблонів в одному рядку.
+<dfn>Lookaheads</dfn> are patterns that tell JavaScript to look-ahead in your string to check for patterns further along. This can be useful when you want to search for multiple patterns over the same string.
 
 Існує два види переглядів: <dfn>позитивні</dfn> та <dfn>негативні</dfn>.
 

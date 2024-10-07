@@ -1,6 +1,6 @@
 ---
 id: a56138aff60341a09ed6c480
-title: Inventory Update
+title: Aktualisierung des Inventars
 challengeType: 1
 forumTopicId: 16019
 dashedName: inventory-update
@@ -8,7 +8,7 @@ dashedName: inventory-update
 
 # --description--
 
-Vergleiche und aktualisiere des in einem 2D-Array gespeicherten Bestands mit einem zweiten 2D-Array einer neuen Lieferung. Update the current existing inventory item quantities (in `arr1`). If an item cannot be found, add the new item and quantity into the inventory array. The returned inventory array should be in alphabetical order by item.
+Compare and update the inventory stored in a 2D array against a second 2D array of a fresh delivery. Update the current existing inventory item quantities (in `arr1`). If an item cannot be found, add the new item and quantity into the inventory array. The returned inventory array should be in alphabetical order by item.
 
 # --hints--
 

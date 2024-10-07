@@ -8,7 +8,7 @@ dashedName: extend-one-set-of-css-styles-to-another-element
 
 # --description--
 
-Sass hat eine Funktion namens `extend`, die es einfach macht, die CSS-Regeln von einem Element zu übernehmen und in einem anderen darauf aufzubauen.
+Sass has a feature called `extend` that makes it easy to borrow the CSS rules from one element and build upon them in another.
 
 Der folgende Block von CSS-Regeln stylt zum Beispiel eine `.panel`-Klasse. Es hat eine `background-color`, `height` und `border`.
 

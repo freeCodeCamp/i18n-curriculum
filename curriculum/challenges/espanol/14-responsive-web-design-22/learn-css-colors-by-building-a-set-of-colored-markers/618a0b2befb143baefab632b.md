@@ -7,7 +7,7 @@ dashedName: step-37
 
 # --description--
 
-Obsérvese que los colores rojo y cian son muy brillantes uno al lado del otro. Si se hace un uso abusivo de este contraste, puede acabar distrayendo la atención, y además puede hacer un texto difícil de leer si está sobre un fondo con un color complementario.
+Notice that the red and cyan colors are very bright right next to each other. This contrast can be distracting if it's overused on a website, and can make text hard to read if it's placed on a complementary-colored background.
 
 Es mejor práctica elegir un color como dominante, y usar su complementario como énfasis para dirigir la atención sobre cierto contenido de la página.
 

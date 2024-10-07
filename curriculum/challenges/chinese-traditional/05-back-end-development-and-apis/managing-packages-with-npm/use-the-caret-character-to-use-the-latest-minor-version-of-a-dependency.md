@@ -8,7 +8,7 @@ dashedName: use-the-caret-character-to-use-the-latest-minor-version-of-a-depende
 
 # --description--
 
-和上一個挑戰中我們學到的用波浪號來安裝最新的修訂版依賴一樣，脫字符（`^`）也允許 npm 來安裝功能更新。 它們的不同之處在於：脫字符允許次版本和修訂版更新。
+Similar to how the tilde we learned about in the last challenge allows npm to install the latest PATCH for a dependency, the caret (`^`) allows npm to install future updates as well. The difference is that the caret will allow both MINOR updates and PATCHes.
 
 你當前的 `@freecodecamp/example` 版本應該是 `~1.2.13`，它允許 npm 安裝到最新的 `1.2.x` 版本。 如果你使用插入符號（^）作爲版本前綴，npm 將被允許更新到任何 `1.x.x` 版本。
 

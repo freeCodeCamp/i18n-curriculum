@@ -8,7 +8,7 @@ dashedName: add-a-tooltip-to-a-d3-element
 
 # --description--
 
-ツールチップは、ユーザーがアイテムにカーソルを合わせたときにそのアイテムに関する詳しい情報を表示します。 There are several ways to add a tooltip to a visualization. This challenge uses the SVG `title` element.
+A tooltip shows more information about an item on a page when the user hovers over that item. There are several ways to add a tooltip to a visualization. This challenge uses the SVG `title` element.
 
 `title` と `text()` メソッドを組み合わせて、バーにデータを動的に追加します。
 

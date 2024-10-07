@@ -9,13 +9,13 @@ dashedName: finding-a-remainder-in-javascript
 
 # --description--
 
-<dfn>剰余</dfn>演算子 `%` は 2 つの数値の割り算の余りを取得します。
+The <dfn>remainder</dfn> operator `%` gives the remainder of the division of two numbers.
 
 **例**
 
 <pre>
 5 % 2 = 1
-5 / 2 = 2 余り1
+5 / 2 = 2 remainder 1
 2 * 2 = 4
 5 - 4 = 1
 </pre>

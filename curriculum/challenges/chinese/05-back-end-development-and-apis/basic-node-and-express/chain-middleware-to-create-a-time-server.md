@@ -8,7 +8,7 @@ dashedName: chain-middleware-to-create-a-time-server
 
 # --description--
 
-使用 `app.METHOD(path, middlewareFunction)` 可以在指定的路由挂载中间件， 中间件也可以链接在路由定义中。
+Middleware can be mounted at a specific route using `app.METHOD(path, middlewareFunction)`. Middleware can also be chained within a route definition.
 
 请看以下示例：
 

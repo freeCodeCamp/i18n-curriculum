@@ -9,7 +9,7 @@ dashedName: make-a-css-heartbeat-using-an-infinite-animation-count
 
 # --description--
 
-Ось ще один приклад безперервної анімації з властивістю `animation-iteration-count`, що використовує серце, яке ви створили в попередньому завданні.
+Here's one more continuous animation example with the `animation-iteration-count` property that uses the heart you designed in a previous challenge.
 
 Анімація серцебиття тривалістю в одну секунду складається з двох анімованих частин. Елементи `heart` (у тому числі частини `:before` та `:after`) анімуються, щоб змінити розмір за допомогою властивості `transform`, а фон `div` анімується, щоб змінити його колір за допомогою властивості `background`.
 

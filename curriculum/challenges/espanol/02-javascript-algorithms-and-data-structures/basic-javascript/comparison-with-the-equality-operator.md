@@ -9,7 +9,7 @@ dashedName: comparison-with-the-equality-operator
 
 # --description--
 
-Hay muchos <dfn>operadores de comparación</dfn> en JavaScript. Todos estos operadores devuelven un valor booleano `true` o `false`.
+There are many <dfn>comparison operators</dfn> in JavaScript. All of these operators return a boolean `true` or `false` value.
 
 El operador más básico es el de igualdad `==`. El operador de igualdad compara dos valores y devuelve `true` si son equivalentes o `false` si no lo son. Ten en cuenta que una igualdad es diferente a una asignación (`=`), la cual asigna el valor a la derecha del operador a la variable de la izquierda.
 

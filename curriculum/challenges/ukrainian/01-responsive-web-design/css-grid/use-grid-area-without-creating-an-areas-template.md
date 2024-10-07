@@ -9,7 +9,7 @@ dashedName: use-grid-area-without-creating-an-areas-template
 
 # --description--
 
-Властивість `grid-area`, яку ви вивчили в попередньому завданні, може бути використана по-іншому. Якщо ваша сітка не має шаблону зон для посилань, ви можете створити зону в процесі роботи, щоб елемент був розміщений наступним чином:
+The `grid-area` property you learned in the last challenge can be used in another way. If your grid doesn't have an areas template to reference, you can create an area on the fly for an item to be placed like this:
 
 ```css
 item1 { grid-area: 1/1/2/4; }

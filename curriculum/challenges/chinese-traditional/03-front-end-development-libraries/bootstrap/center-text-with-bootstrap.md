@@ -8,7 +8,7 @@ dashedName: center-text-with-bootstrap
 
 # --description--
 
-可以使用 Bootstrap 將頂部的元素居中來美化頁面。 只需要將 `h2` 元素的 class 屬性設置爲 `text-center` 就可以實現。
+Now that we're using Bootstrap, we can center our heading element to make it look better. All we need to do is add the class `text-center` to our `h2` element.
 
 記住：可以爲一個元素添加多個 classes ，class 間通過空格分隔，就像這樣：
 

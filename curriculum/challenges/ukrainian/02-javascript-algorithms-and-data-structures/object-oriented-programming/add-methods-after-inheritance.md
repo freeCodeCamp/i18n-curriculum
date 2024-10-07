@@ -8,7 +8,7 @@ dashedName: add-methods-after-inheritance
 
 # --description--
 
-Функція-конструктор, яка успадковує об’єкт `prototype` від функції-конструктора супертипу, всеодно може мати власні методи на додачу до успадкованих.
+A constructor function that inherits its `prototype` object from a supertype constructor function can still have its own methods in addition to inherited methods.
 
 Наприклад, `Bird` є конструктором, який успадковує `prototype` від `Animal`:
 

@@ -7,7 +7,7 @@ dashedName: step-77
 
 # --description--
 
-Ifuatayo, utakuwa ukitengeneza kipengee cha `footer`. Ili kupanga CSS, ongeza maoni mwishoni mwa `styles.css` kwa maandishi `FOOTER`.
+Next you are going to be styling the `footer` element. To keep the CSS organized, add a comment at the end of `styles.css` with the text `FOOTER`.
 
 # --hints--
 

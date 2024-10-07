@@ -13,7 +13,7 @@ Ao ver o exemplo abaixo, você vai querer descobrir o índice da última ocorrê
 let sentence = "freeCodeCamp loves The Odin Project! The Odin Project is great!";
 ```
 
-<a href="https://www.freecodecamp.org/news/javascript-string-handbook" target="_blank"> Link para o guia </a>
+<a href="https://www.freecodecamp.org/news/javascript-string-handbook" target="_blank"> Link para o Guia </a>
 
 # --questions--
 

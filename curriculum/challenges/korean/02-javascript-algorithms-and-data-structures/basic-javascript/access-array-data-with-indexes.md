@@ -1,6 +1,6 @@
 ---
 id: 56bbb991ad1ed5201cd392ca
-title: Access Array Data with Indexes
+title: 인덱스로 배열의 데이터에 접촉하기
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cBZQbTz'
 forumTopicId: 16158
@@ -11,11 +11,11 @@ dashedName: access-array-data-with-indexes
 
 We can access the data inside arrays using <dfn>indexes</dfn>.
 
-Array indexes are written in the same bracket notation that strings use, except that instead of specifying a character, they are specifying an entry in the array. Like strings, arrays use <dfn>zero-based</dfn> indexing, so the first element in an array has an index of `0`.
+배열 인덱스는 문자열에서 사용하는 것과 동일하게 브라켓 표기법으로 작성합니다. 다른 점은 문자 대신에 배열 내에 있는 데이터를 순서로 지정한다는 점입니다. 문자열과 동일하게, 배열에서도 <dfn>0부터 시작</dfn>하는 인덱스를 사용하기 때문에, 배열 최초 요소의 인덱스는 `0`이 됩니다.
 
 <br>
 
-**Example**
+**예:**
 
 ```js
 const array = [50, 60, 70];
@@ -23,15 +23,15 @@ console.log(array[0]);
 const data = array[1];
 ```
 
-The `console.log(array[0])` prints `50`, and `data` has the value `60`.
+여기서 `console.log(array[0])`는 `50`을 출력하고, `data`의 값은 `60`을 가집니다.
 
 # --instructions--
 
-Create a variable called `myData` and set it to equal the first value of `myArray` using bracket notation.
+`myData`라는 변수를 제작하고, 브라켓 표기법을 사용해서 `myArray` 의 최초 값과 동일하게 되도록 설정하세요.
 
 # --hints--
 
-The variable `myData` should equal the first value of `myArray`.
+변수 `myData`는 `myArray`의 최초 요소의 값과 같아야 합니다.
 
 ```js
 assert(
@@ -49,7 +49,7 @@ assert(
 );
 ```
 
-The data in variable `myArray` should be accessed using bracket notation.
+브라켓 표기법을 사용해서 변수 `myArray` 내의 데이터에 접촉해야 합니다.
 
 ```js
 assert(

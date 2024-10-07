@@ -7,7 +7,7 @@ dashedName: step-58
 
 # --description--
 
-Con una proprietà `display` con il valore `block`, il pulsante Submit si trova a filo con il bordo sinistro del suo genitore.
+With a `display` of `block` the submit button sits flush against the left edge of its parent.
 
 Usa la stessa tecnica usata per centrare l'elemento `form` per centrare il pulsante Submit.
 

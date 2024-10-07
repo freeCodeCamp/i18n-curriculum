@@ -1,6 +1,6 @@
 ---
 id: 5900f4d11000cf542c50ffe4
-title: 'Problem 357: Prime generating integers'
+title: 'Problem 357: Primzahlerzeugende Integer'
 challengeType: 1
 forumTopicId: 302017
 dashedName: problem-357-prime-generating-integers
@@ -8,15 +8,15 @@ dashedName: problem-357-prime-generating-integers
 
 # --description--
 
-Consider the divisors of 30: 1, 2, 3, 5, 6, 10, 15, 30.
+Betrachte die Teiler von 30: 1, 2, 3, 5, 6, 10, 15, 30.
 
-It can be seen that for every divisor $d$ of 30, $d + \frac{30}{d}$ is prime.
+Es zeigt sich, dass für jeden Teiler $d$ von 30, $d + \frac{30}{d}$ eine Primzahl ist.
 
-Find the sum of all positive integers $n$ not exceeding $100\\,000\\,000$ such that for every divisor $d$ of $n$, $d + \frac{n}{d}$ is prime.
+Finde die Summe aller positiven ganzen Zahlen $n$, die $100\\,000\\,000$ nicht überschreiten, so dass für jeden Teiler $d$ von $n$, $d + \frac{n}{d}$ prim ist.
 
 # --hints--
 
-`primeGeneratingIntegers()` should return `1739023853137`.
+`primeGeneratingIntegers()` sollte `1739023853137` zurückgeben.
 
 ```js
 assert.strictEqual(primeGeneratingIntegers(), 1739023853137);

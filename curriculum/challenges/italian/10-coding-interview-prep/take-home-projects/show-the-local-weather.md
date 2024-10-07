@@ -8,9 +8,9 @@ dashedName: show-the-local-weather
 
 # --description--
 
-**Obiettivo:** crea un'app funzionalmente simile a questa: <a href="https://codepen.io/freeCodeCamp/full/bELRjV" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/bELRjV</a>.
+**Objective:** Build an app that is functionally similar to this: <a href="https://codepen.io/freeCodeCamp/full/bELRjV" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/bELRjV</a>.
 
-**Regola #1:** Non guardare il codice del progetto di esempio. Arrivaci per conto tuo.
+**Regola #1:** Non guardare il codice del progetto esempio. Arrivaci per conto tuo.
 
 **Regola #2:** Soddisfa le seguenti user story per passare tutti i test. Utilizza le librerie o le API di cui hai bisogno. Usa il tuo stile personale.
 

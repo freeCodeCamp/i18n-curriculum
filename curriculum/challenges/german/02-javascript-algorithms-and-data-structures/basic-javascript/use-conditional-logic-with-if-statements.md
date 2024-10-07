@@ -9,7 +9,7 @@ dashedName: use-conditional-logic-with-if-statements
 
 # --description--
 
-`if`-Anweisungen werden verwendet, um Entscheidungen im Code zu treffen. Das Schlüsselwort `if` weist JavaScript an, den Code in den geschweiften Klammern unter bestimmten Bedingungen auszuführen, die in den Klammern definiert sind. Diese Bedingungen sind als `Boolean`-Bedingungen bekannt und sie können nur `true` oder `false` sein.
+`if` statements are used to make decisions in code. The keyword `if` tells JavaScript to execute the code in the curly braces under certain conditions, defined in the parentheses. These conditions are known as `Boolean` conditions and they may only be `true` or `false`.
 
 Wenn die Bedingung als `true` ausgewertet wird, führt das Programm die Anweisung innerhalb der geschweiften Klammern aus. Wenn die boolesche Bedingung als `false` ausgewertet wird, wird die Anweisung innerhalb der geschweiften Klammern nicht ausgeführt.
 

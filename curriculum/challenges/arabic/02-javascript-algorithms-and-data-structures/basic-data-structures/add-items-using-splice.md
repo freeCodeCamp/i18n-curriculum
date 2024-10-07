@@ -8,7 +8,7 @@ dashedName: add-items-using-splice
 
 # --description--
 
-تذكر في التحدي السابق الذي ذكرناه إن `splice()` تمكن أن تأخذ ما يصل إلى ثلاثة وسائط (parameters)؟ حسناً، يمكنك استخدام الوسيط الثالث، المكون من عنصر واحد أو أكثر، للإضافة إلى القائمة (array). يمكن أن يكون هذا مفيدًا بشكل لا يصدق للتبديل السريع لعنصر، أو مجموعة من العناصر، بعنصر آخر.
+Remember in the last challenge we mentioned that `splice()` can take up to three parameters? Well, you can use the third parameter, comprised of one or more element(s), to add to the array. This can be incredibly useful for quickly switching out an element, or a set of elements, for another.
 
 ```js
 const numbers = [10, 11, 12, 12, 15];

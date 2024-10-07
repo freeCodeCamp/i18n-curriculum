@@ -11,13 +11,13 @@ dashedName: introduction-to-data-analysis
 ---
 
 # --description--
-El análisis de datos es el acto de convertir datos crudos y desordenados en información útil limpiando los datos, transformándolos, manipulándolos e inspeccionándolos.
+Data analysis is the act of turning raw, messy data into useful insights by cleaning the data up, transforming it, manipulating it, and inspecting it.
 
 Más recursos:
 
 \- <a href="https://www.freecodecamp.org/news/what-is-data-analysis/" rel="noopener noreferrer nofollow">Artículo de noticias</a>
 
-# --questions--
+# --preguntas----preguntas--
 
 ## --text--
 

@@ -1,6 +1,6 @@
 ---
 id: 5900f3cc1000cf542c50fede
-title: 'Problem 95: Amicable chains'
+title: 'Problem 95: Freundschaftliche Ketten'
 challengeType: 1
 forumTopicId: 302212
 dashedName: problem-95-amicable-chains

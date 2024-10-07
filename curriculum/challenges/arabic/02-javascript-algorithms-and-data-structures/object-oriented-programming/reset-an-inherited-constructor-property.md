@@ -8,9 +8,9 @@ dashedName: reset-an-inherited-constructor-property
 
 # --description--
 
-عندما يرث الـ object الـ `prototype` من object آخر، فإنه يرث أيضا الـ supertype's constructor property.
+When an object inherits its `prototype` from another object, it also inherits the supertype's constructor property.
 
-على سبيل المثال:
+إليك مثالًا:
 
 ```js
 function Bird() { }

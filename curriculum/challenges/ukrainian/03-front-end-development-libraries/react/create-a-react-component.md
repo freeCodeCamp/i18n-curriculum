@@ -8,7 +8,7 @@ dashedName: create-a-react-component
 
 # --description--
 
-Інший спосіб визначити компонент React полягає у використанні синтаксису `class` від ES6. У цьому прикладі `Kitten` розширює `React.Component`:
+The other way to define a React component is with the ES6 `class` syntax. In the following example, `Kitten` extends `React.Component`:
 
 ```jsx
 class Kitten extends React.Component {

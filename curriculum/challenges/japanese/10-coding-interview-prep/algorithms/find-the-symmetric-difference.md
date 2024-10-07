@@ -8,7 +8,7 @@ dashedName: find-the-symmetric-difference
 
 # --description--
 
-2 つの集合の「<dfn>対称差</dfn>」(`△` または `⊕`) という数学用語は、2 つの集合のいずれかにあるが両方にはない要素の集合を意味します。 例えば、集合 `A = {1, 2, 3}` と集合 `B = {2, 3, 4}`の場合、`A △ B = {1, 4}` です。
+The mathematical term <dfn>symmetric difference</dfn> (`△` or `⊕`) of two sets is the set of elements which are in either of the two sets but not in both. For example, for sets `A = {1, 2, 3}` and `B = {2, 3, 4}`, `A △ B = {1, 4}`.
 
 対称差は二項演算で、すなわち 2 つの要素のみに対する演算です。 そのため、*3 つ*の要素間 (`A △ B △ C`) の対称差を求める式を評価するには、一度に 1 つずつ演算を完了させなければなりません。 したがって、上記の集合 `A` と `B` に加えて `C = {2, 3}` がある場合、`A △ B △ C = (A △ B) △ C = {1, 4} △ {2, 3} = {1, 2, 3, 4}` です。
 

@@ -8,9 +8,9 @@ dashedName: neural-network-sms-text-classifier
 
 # --description--
 
-你将<a href="https://colab.research.google.com/github/freeCodeCamp/boilerplate-neural-network-sms-text-classifier/blob/master/fcc_sms_text_classification.ipynb" target="_blank" rel="noopener noreferrer nofollow">使用 Google Colaboratory 来完成这个项目</a>。
+You will be <a href="https://colab.research.google.com/github/freeCodeCamp/boilerplate-neural-network-sms-text-classifier/blob/master/fcc_sms_text_classification.ipynb" target="_blank" rel="noopener noreferrer nofollow">working on this project with Google Colaboratory</a>.
 
-进入该链接后，在你自己的账户或本地创建一个笔记本的副本。 一旦你完成项目并通过测试（包括在该链接），请在下面提交你的项目链接。 如果你提交的是 Google Colaboratory 的链接，请确保打开链接共享时选择 “anyone with the link”。
+点击链接后，在自己的账户中或在本地创建一个笔记本的副本。 完成项目并通过测试（在那个链接中）后，请在下面提交你的项目链接。 如果你提交的是 Google Colaboratory 的链接，请确保链接分享选项为 “anyone with the link”。
 
 我们仍在开发机器学习课程的交互式课程部分。 现在，你可以通过这个认证中的视频挑战。 你可能还需要寻找额外的学习资源，类似于你在真实世界项目中的工作。
 

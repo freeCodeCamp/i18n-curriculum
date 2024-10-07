@@ -52,7 +52,7 @@ if (!(a > b)) {
 
 En el ejemplo anterior, el par adicional de paréntesis se utiliza para hacer el código más legible. No es necesario usarlos.
 
-# --questions--
+# --preguntas----preguntas--
 
 ## --text--
 

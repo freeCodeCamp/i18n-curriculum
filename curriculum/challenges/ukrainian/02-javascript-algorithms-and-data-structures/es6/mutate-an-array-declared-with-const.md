@@ -8,7 +8,7 @@ dashedName: mutate-an-array-declared-with-const
 
 # --description--
 
-Якщо ви ще не знайомі з `const`, див. <a href="/ukrainian/learn/javascript-algorithms-and-data-structures/basic-javascript/declare-a-read-only-variable-with-the-const-keyword" target="_blank" rel="noopener noreferrer nofollow">це завдання про ключове слово <code>const</code></a>.
+If you are unfamiliar with `const`, check out <a href="/learn/javascript-algorithms-and-data-structures/basic-javascript/declare-a-read-only-variable-with-the-const-keyword" target="_blank" rel="noopener noreferrer nofollow">this challenge about the <code>const</code> keyword</a>.
 
 У сучасному JavaScript існує багато випадків оголошень з `const`.
 

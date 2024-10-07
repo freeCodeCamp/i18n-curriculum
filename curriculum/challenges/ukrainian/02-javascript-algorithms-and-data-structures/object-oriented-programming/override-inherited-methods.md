@@ -8,7 +8,7 @@ dashedName: override-inherited-methods
 
 # --description--
 
-У попередніх завданнях ви дізналися, що об’єкт може успадковувати поведінку (методи) від іншого об’єкта, посилаючись на його `prototype`:
+In previous lessons, you learned that an object can inherit its behavior (methods) from another object by referencing its `prototype` object:
 
 ```js
 ChildObject.prototype = Object.create(ParentObject.prototype);
@@ -38,7 +38,7 @@ Bird.prototype.eat = function() {
 
 Якщо ви маєте екземпляр `let duck = new Bird();` та викличете `duck.eat()`, ось так JavaScript шукатиме метод у ланцюгу прототипів `duck`:
 
-1.  `duck` => Чи визначено `eat()`? Ні.
+1.  `duck` => Is `eat()` defined here? No.
 2.  `Bird` => Чи визначено `eat()`? => Так. Виконайте й припиніть пошуки.
 3.  `Animal` => Також визначено `eat()`, але JavaScript вже припинив пошуки.
 4.  Об’єкт => JavaScript припинив пошуки.

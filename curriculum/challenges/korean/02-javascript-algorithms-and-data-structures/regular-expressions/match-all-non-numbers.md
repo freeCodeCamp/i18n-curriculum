@@ -24,7 +24,7 @@ Your regex should use the shortcut character to match non-digit characters
 assert(/\\D/.test(noNumRegex.source));
 ```
 
-Your regex should use the global flag.
+정규 표현식은 글로벌 플래그를 사용해야 합니다.
 
 ```js
 assert(noNumRegex.global);

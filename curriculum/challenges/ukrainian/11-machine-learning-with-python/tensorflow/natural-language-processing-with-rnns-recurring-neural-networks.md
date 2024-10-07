@@ -14,7 +14,7 @@ dashedName: natural-language-processing-with-rnns-recurring-neural-networks
 
 ## --text--
 
-Що представляють собою рекурентні нейронні мережі?
+What is true about Recurrent Neural Networks?
 
 ## --answers--
 

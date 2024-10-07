@@ -14,11 +14,11 @@ As a reminder, this project is being built upon the following starter project on
 
 # --instructions--
 
-Within `tests/1_unit-tests.js` under the test labeled `#13` in the `Strings` suite, change each `assert` to either `assert.isString` or `assert.isNotString` to make the test pass (should evaluate to `true`). Do not alter the arguments passed to the asserts.
+Ändere innerhalb `tests/1_unit-tests.js` unter dem Test mit der Beschriftung `#13` in der `Strings`-Suite, jeden `assert` in `assert.isString` oder `assert.isNotString` um, damit der Test bestanden wird (sollte `true` ausgeben). Ändere nicht die Argumente, die an die Assertions übergeben werden.
 
 # --hints--
 
-Alle Tests sollten bestanden werden.
+Alle Tests sollten bestehen.
 
 ```js
 (getUserInput) =>

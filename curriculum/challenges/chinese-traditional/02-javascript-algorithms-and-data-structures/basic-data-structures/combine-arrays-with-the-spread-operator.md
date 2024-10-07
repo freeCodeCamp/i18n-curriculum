@@ -8,7 +8,7 @@ dashedName: combine-arrays-with-the-spread-operator
 
 # --description--
 
-展開語法（<dfn>spread</dfn>）的另一個重要用途是合併數組，或者將某個數組的所有元素插入到另一個數組的任意位置。 我們也可以使用 ES5 的語法連接兩個數組，但只能讓它們首尾相接。 而展開語法可以讓這樣的操作變得極其簡單：
+Another huge advantage of the <dfn>spread</dfn> operator is the ability to combine arrays, or to insert all the elements of one array into another, at any index. With more traditional syntaxes, we can concatenate arrays, but this only allows us to combine arrays at the end of one, and at the start of another. Spread syntax makes the following operation extremely simple:
 
 ```js
 let thisArray = ['sage', 'rosemary', 'parsley', 'thyme'];

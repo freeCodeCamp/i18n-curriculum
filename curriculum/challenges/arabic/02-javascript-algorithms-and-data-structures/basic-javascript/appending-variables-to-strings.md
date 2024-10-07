@@ -9,7 +9,7 @@ dashedName: appending-variables-to-strings
 
 # --description--
 
-تماما كما نستطيع أن نبني مقطع نصي (string) مكون من عدة سطور باستخدام <dfn>مقاطع نصية حرفية (string literals)</dfn>، يمكننا أيضا إلحاق المتغيرات في مقطع نصي (string) معين باستخدام المشغل (`+=`).
+Just as we can build a string over multiple lines out of string <dfn>literals</dfn>, we can also append variables to a string using the plus equals (`+=`) operator.
 
 على سبيل المثال:
 

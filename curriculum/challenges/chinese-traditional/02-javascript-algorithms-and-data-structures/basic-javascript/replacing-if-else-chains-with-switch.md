@@ -9,7 +9,7 @@ dashedName: replacing-if-else-chains-with-switch
 
 # --description--
 
-如果你有多個選項需要選擇，`switch` 語句寫起來會比多個串聯的 `if`/`else if` 語句容易些。 譬如:
+If you have many options to choose from, a `switch` statement can be easier to write than many chained `if`/`else if` statements. The following:
 
 ```js
 if (val === 1) {

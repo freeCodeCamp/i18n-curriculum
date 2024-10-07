@@ -8,7 +8,7 @@ dashedName: review-using-props-with-stateless-functional-components
 
 # --description--
 
-除了上一个挑战，一直在将 props 传递给无状态的函数组件。 这些组件就像纯函数， 它们接收 props 作为输入，并在每次传递相同 props 时返回相同的视图。 你可能好奇什么是状态，下一个挑战将会更详细地讲述它。 在此之前，我们先来回顾一下组件的术语。
+Except for the last challenge, you've been passing props to stateless functional components. These components act like pure functions. They accept props as input and return the same view every time they are passed the same props. You may be wondering what state is, and the next challenge will cover it in more detail. Before that, here's a review of the terminology for components.
 
 *无状态函数组件*是一个函数，它接收 props 作为输入并返回 JSX。 另一方面，*无状态组件*是一个类，它扩展了`React.Component`，但是不使用内部状态（下一个挑战中讨论）。 最后，*状态组件*是指维护其自身内部状态的组件， 它简称组件或 React 组件。
 

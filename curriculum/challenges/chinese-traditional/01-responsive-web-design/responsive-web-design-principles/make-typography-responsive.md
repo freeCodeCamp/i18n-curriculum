@@ -9,11 +9,11 @@ dashedName: make-typography-responsive
 
 # --description--
 
-除了使用 `em` 或 `px` 設置文本大小，你還可以用視窗單位來做響應式排版。 視窗單位和百分比都是相對單位，但它們是基於不同的參照物。 視窗單位是相對於設備的視窗尺寸（寬度或高度），百分比是相對於父級元素的大小。
+Instead of using `em` or `px` to size text, you can use viewport units for responsive typography. Viewport units, like percentages, are relative units, but they are based off different items. Viewport units are relative to the viewport dimensions (width or height) of a device, and percentages are relative to the size of the parent container element.
 
 四個不同的視窗單位分別是：
 
-<ul><li><code>vw</code>：如 <code>10vw</code> 的意思是視窗寬度的 10%。</li><li><code>vh：</code> 如 <code>3vh</code> 的意思是視窗高度的 3%。</li><li><code>vmin：</code> 如 <code>70vmin</code> 的意思是視窗的高度和寬度中較小一個的 70%。</li><li><code>vmax：</code> 如 <code>100vmax</code> 的意思是視窗的高度和寬度中較大一個的 100%。</li></ul>
+<ul><li><code>vw</code> (viewport width): <code>10vw</code> would be 10% of the viewport's width.</li><li><code>vh：</code> 如 <code>3vh</code> 的意思是視窗高度的 3%。</li><li><code>vmin：</code> 如 <code>70vmin</code> 的意思是視窗的高度和寬度中較小一個的 70%。</li><li><code>vmax：</code> 如 <code>100vmax</code> 的意思是視窗的高度和寬度中較大一個的 100%。</li></ul>
 
 下面這個例子是設置 `body` 標籤的寬度爲視窗寬度的 30%。
 

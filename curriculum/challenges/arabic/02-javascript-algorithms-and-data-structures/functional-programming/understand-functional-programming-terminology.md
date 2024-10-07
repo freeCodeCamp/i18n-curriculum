@@ -8,7 +8,7 @@ dashedName: understand-functional-programming-terminology
 
 # --description--
 
-كان لدى فريق FCC تقلبات مزاجية ويريد الآن نوعين من الشاي: الشاي الأخضر والشاي الأسود. حقائق عامة: تقلبات مزاج العميل شائعة جدًا.
+The FCC Team had a mood swing and now wants two types of tea: green tea and black tea. General Fact: Client mood swings are pretty common.
 
 بهذه المعلومات، سنحتاج إلى مراجعة دالة `getTea` من التحدي الأخير للتعامل مع مختلف طلبات الشاي. يمكنك تعديل `getTea` لقبول وظيفة (function) كوسيط (parameter) لتكون قادرة على تغيير نوع الشاي الذي تعيده. هذا يجعل `getTea` أكثر مرونة، ويعطي المبرمج المزيد من التحكم عندما يطلب العميل التغيير.
 

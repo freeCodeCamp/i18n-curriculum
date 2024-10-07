@@ -8,7 +8,7 @@ dashedName: no-repeats-please
 
 # --description--
 
-Retorne o número de permutações totais da string fornecida que não tenham letras consecutivas repetidas. Pense que todos os caracteres na cadeia fornecida sejam exclusivos.
+Return the number of total permutations of the provided string that don't have repeated consecutive letters. Assume that all characters in the provided string are each unique.
 
 Por exemplo, `aab` deve retornar 2, porque tem um total de 6 permutações (`aab`, `aab`, `aba`, `aba`, `baa`, `baa`), mas apenas 2 delas (`aba` e `aba`) não têm a mesma letra (neste caso, `a`) se repetindo.
 

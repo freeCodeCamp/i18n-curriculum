@@ -1,6 +1,6 @@
 ---
 id: 587d8258367417b2b2512c7f
-title: Use Breadth First Search in a Binary Search Tree
+title: 在二叉搜索樹中使用廣度優先搜索
 challengeType: 1
 forumTopicId: 301718
 dashedName: use-breadth-first-search-in-a-binary-search-tree
@@ -8,17 +8,17 @@ dashedName: use-breadth-first-search-in-a-binary-search-tree
 
 # --description--
 
-這裏我們將介紹另一種樹遍歷方法：廣度優先搜索。 與上一次挑戰中的深度優先搜索方法相比，廣度優先搜索在繼續進入下一級別之前探索樹中給定級別中的所有節點。 通常，隊列在廣度優先搜索算法的設計中用作輔助數據結構。
+Here we will introduce another tree traversal method: breadth-first search. In contrast to the depth-first search methods from the last challenge, breadth-first search explores all the nodes in a given level within a tree before continuing on to the next level. Typically, queues are utilized as helper data structures in the design of breadth-first search algorithms.
 
-在此方法中，我們首先將根節點添加到隊列中。 然後我們開始一個循環，我們將隊列中的第一個項目出列，將其添加到一個新數組，然後檢查它們的子子樹。 If its children are not null, they are each enqueued. 此過程將繼續，直到隊列爲空。
+在此方法中，我們首先將根節點添加到隊列中。 然後我們開始一個循環，我們將隊列中的第一個項目出列，將其添加到一個新數組，然後檢查它們的子子樹。 如果它的子節點不是空的，那每個子節點都將被添加到隊列。 此過程將繼續，直到隊列爲空。
 
 # --instructions--
 
-Let's create a breadth-first search method in our tree called `levelOrder`. 此方法應返回一個包含所有樹節點值的數組，並以廣度優先的方式進行探索。 確保返回數組中的值，而不是節點本身。 應從左到右遍歷一個級別。 接下來，讓我們編寫一個名爲`reverseLevelOrder`的類似方法，它在每個級別執行相同的搜索，但是反向（從右到左）。
+讓我們在樹中創建一個廣度優先搜索方法，稱爲 `levelOrder`。 此方法應返回一個包含所有樹節點值的數組，並以廣度優先的方式進行探索。 確保返回數組中的值，而不是節點本身。 應從左到右遍歷一個級別。 接下來，讓我們編寫一個名爲`reverseLevelOrder`的類似方法，它在每個級別執行相同的搜索，但是反向（從右到左）。
 
 # --hints--
 
-The `BinarySearchTree` data structure should exist.
+`BinarySearchTree` 數據結構應該存在。
 
 ```js
 assert(
@@ -32,7 +32,7 @@ assert(
 );
 ```
 
-The binary search tree should have a method called `levelOrder`.
+二叉搜索樹應該有一個名爲 `levelOrder` 的方法。
 
 ```js
 assert(
@@ -48,7 +48,7 @@ assert(
 );
 ```
 
-The binary search tree should have a method called `reverseLevelOrder`.
+二叉搜索樹應該有一個名爲 `reverseLevelOrder` 的方法。
 
 ```js
 assert(
@@ -64,7 +64,7 @@ assert(
 );
 ```
 
-The `levelOrder` method should return an array of the tree node values explored in level order.
+`levelOrder` 方法應返回按級別順序探索的樹節點值的數組。
 
 ```js
 assert(
@@ -94,7 +94,7 @@ assert(
 );
 ```
 
-The `reverseLevelOrder` method should return an array of the tree node values explored in reverse level order.
+`reverseLevelOrder` 方法應該返回一個以反向級別順序探索的樹節點值的數組。
 
 ```js
 assert(
@@ -124,7 +124,7 @@ assert(
 );
 ```
 
-The `levelOrder` method should return `null` for an empty tree.
+對於空樹，`levelOrder` 方法應返回 `null`。
 
 ```js
 assert(
@@ -143,7 +143,7 @@ assert(
 );
 ```
 
-The `reverseLevelOrder` method should return `null` for an empty tree.
+對於空樹，`reverseLevelOrder` 方法應返回 `null`。
 
 ```js
 assert(

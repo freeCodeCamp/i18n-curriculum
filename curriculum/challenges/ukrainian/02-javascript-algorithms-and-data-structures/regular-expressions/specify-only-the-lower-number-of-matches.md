@@ -8,7 +8,7 @@ dashedName: specify-only-the-lower-number-of-matches
 
 # --description--
 
-Ви можете вказати найменшу та найбільшу кількість шаблонів за допомогою специфікатора кількості, використовуючи фігурні дужки. Іноді вам потрібно вказати лише найменшу кількість шаблонів.
+You can specify the lower and upper number of patterns with quantity specifiers using curly brackets. Sometimes you only want to specify the lower number of patterns with no upper limit.
 
 Щоб вказати лише найменшу кількість шаблонів, поставте після першого числа кому.
 
@@ -32,7 +32,7 @@ multipleA.test(A100);
 
 # --hints--
 
-Ваш регулярний вираз має використати фігурні дужки.
+У регулярного виразу мають бути фігурні дужки.
 
 ```js
 assert(haRegex.source.match(/{.*?}/).length > 0);

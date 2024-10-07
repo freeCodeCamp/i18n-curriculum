@@ -9,7 +9,7 @@ dashedName: global-vs--local-scope-in-functions
 
 # --description--
 
-من الممكن الحصول على متغيرات <dfn>محدودة (local)</dfn> و <dfn>شاملة (global)</dfn> بنفس الاسم. عندما تفعل ذلك، يكون المتغير المحدود (local) له الأسبقية على المتغير الشامل (global).
+It is possible to have both <dfn>local</dfn> and <dfn>global</dfn> variables with the same name. When you do this, the local variable takes precedence over the global variable.
 
 وفي هذا المثال:
 

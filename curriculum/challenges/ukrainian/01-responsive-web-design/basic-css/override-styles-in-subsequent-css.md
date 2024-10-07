@@ -9,7 +9,7 @@ dashedName: override-styles-in-subsequent-css
 
 # --description--
 
-Клас `pink-text` замінив об'яву елемента CSS `body`!
+Our `pink-text` class overrode our `body` element's CSS declaration!
 
 Ми щойно довели, що наші класи замінятимуть CSS елемента `body`. Тому, наступне логічне питання: що можна зробити, аби замінити клас `pink-text`?
 

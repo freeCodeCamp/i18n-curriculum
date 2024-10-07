@@ -1,6 +1,6 @@
 ---
 id: 587d778d367417b2b2512aaa
-title: Make Elements Only Visible to a Screen Reader by Using Custom CSS
+title: جعل العناصر مرئية فقط لقارئ الشاشة باستخدام CSS مخصص
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cJ8QGkhJ'
 forumTopicId: 301020
@@ -11,9 +11,9 @@ dashedName: make-elements-only-visible-to-a-screen-reader-by-using-custom-css
 
 Have you noticed that all of the applied accessibility challenges so far haven't used any CSS? This shows the importance of using a logical document outline and semantically meaningful tags around your content before introducing the visual design aspect.
 
-However, CSS's magic can also improve accessibility on your page when you want to visually hide content meant only for screen readers. This happens when information is in a visual format (like a chart), but screen reader users need an alternative presentation (like a table) to access the data. CSS is used to position the screen reader-only elements off the visual area of the browser window.
+ومع ذلك، فإن سحر CSS يمكن أيضا أن يحسن إمكانية الوصول إلى الصفحة الخاصة بك عندما تريد إخفاء محتوى بصري مخصص فقط لقراء الشاشة. يحدث هذا عندما تكون المعلومات في شكل مرئي (مثل الرسم البياني)، لكن مستخدمي قارئ الشاشة يحتاجون إلى عرض تجريبي بديل (مثل الجدول) للوصول إلى البيانات. يستخدم CSS لوضع عناصر قارئ الشاشة فقط خارج المنطقة البصرية لنافذة المتصفح.
 
-Here's an example of the CSS rules that accomplish this:
+إليك مثال على قواعد CSS التي تحقق ذلك:
 
 ```css
 .sr-only {
@@ -26,20 +26,20 @@ Here's an example of the CSS rules that accomplish this:
 }
 ```
 
-**Note:** The following CSS approaches will NOT do the same thing:
+**ملاحظة:** طرق و أساليب CSS التالية لن تفعل الشيء نفسه:
 
 <ul>
 <li><code>display: none;</code> or <code>visibility: hidden;</code> hides content for everyone, including screen reader users</li>
-<li>Zero values for pixel sizes, such as <code>width: 0px; height: 0px;</code> removes that element from the flow of your document, meaning screen readers will ignore it</li>
+<li>قيم الصفر لحجم البكسل، مثل width <code>: 0px؛ height: 0px؛</code> يزيل هذا العنصر من تدفق المستند الخاص بك، مما يعني أن قراء الشاشة سيتجاهلون ذلك</li>
 </ul>
 
 # --instructions--
 
-أنشأ Camper Cat مخطط أعمدة مكدسة رائع جدا لصفحة التدريب، و وضع البيانات في جدول لمستخدميه ذوي الإعاقة البصرية. The table already has an `sr-only` class, but the CSS rules aren't filled in yet. Give the `position` an `absolute` value, the `left` a `-10000px` value, and the `width` and `height` both `1px` values.
+أنشأ Camper Cat مخطط أعمدة مكدسة رائع جدا لصفحة التدريب، و وضع البيانات في جدول لمستخدميه ذوي الإعاقة البصرية. الجدول يحتوي فعلًا على فصل `sr-only` ولكن قواعد CSS لم تملأ بعد. إعطاء `position` قيمة `absolute` ثم إعطاء `left` قيمة `-10000px` ، و إعطاء كلاً من`width` و `height` قيمة `1px`.
 
 # --hints--
 
-Your code should set the `position` property of the `sr-only` class to a value of `absolute`.
+يجب على تعليماتك البرمجية تعيين خاصية `position` من صف `sr-only` إلى قيمة `absolute`.
 
 ```js
 const srOnly = document.querySelector('.sr-only');
@@ -47,7 +47,7 @@ const position = window.getComputedStyle(srOnly).position;
 assert.equal(position, 'absolute');
 ```
 
-Your code should set the `left` property of the `sr-only` class to a value of `-10000px`.
+يجب على تعليماتك البرمجية تعيين خاصية `left` من صف `sr-only` إلى قيمة `-10000px`.
 
 ```js
 const srOnly = document.querySelector('.sr-only');
@@ -55,13 +55,13 @@ const left = window.getComputedStyle(srOnly).left;
 assert.equal(left, '-10000px');
 ```
 
-Your code should set the `width` property of the `sr-only` class to a value of `1` pixel.
+يجب على تعليماتك البرمجية تعيين خاصية `width` من صف `sr-only` إلى قيمة `-1px`.
 
 ```js
 assert.match(code , /width:\s*?1px/gi);
 ```
 
-Your code should set the `height` property of the `sr-only` class to a value of `1` pixel.
+يجب على تعليماتك البرمجية تعيين خاصية `height` من صف `sr-only` إلى قيمة `-1px`.
 
 ```js
 assert.match(code , /height:\s*?1px/gi);

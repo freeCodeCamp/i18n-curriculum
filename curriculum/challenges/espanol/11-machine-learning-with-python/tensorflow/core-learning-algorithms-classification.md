@@ -10,7 +10,7 @@ bilibiliIds:
 dashedName: core-learning-algorithms-classification
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 

@@ -8,7 +8,7 @@ dashedName: implement-a-root-level-request-logger-middleware
 
 # --description--
 
-في وقت سابق، تم تقديمك إلى دالة `express.static()` midleware. الآن حان الوقت لرؤية ما هو البرنامج الوسيط(midleware) ، بمزيد من التفصيل. وظائف البرامج الوسيطة (midleware) هي وظائف تأخذ 3 تمريرات: عنصر الطلب (request) ، عنصر الاستجابة(response)، والدالة التالية(next) في دورة طلب الاستجابة للتطبيق. هذه الدوال تنفذ بعض التعليمات البرمجية التي يمكن أن يكون لها تأثيرات جانبية على التطبيق، وعادة ما تضيف معلومات إلى كائنات الطلب أو الاستجابة. ويمكنها أيضا أن تنهي الدورة بإرسال رد عند استيفاء بعض الشروط. وإذا لم يرسلوا الرد عند القيام بذلك، فإنهم يشرعون في تنفيذ الوظيفة التالية في المكدس. يؤدي هذا إلى استدعاء الوسيطة الثالثة،`next()`.
+Earlier, you were introduced to the `express.static()` middleware function. Now it’s time to see what middleware is, in more detail. Middleware functions are functions that take 3 arguments: the request object, the response object, and the next function in the application’s request-response cycle. These functions execute some code that can have side effects on the app, and usually add information to the request or response objects. They can also end the cycle by sending a response when some condition is met. If they don’t send the response when they are done, they start the execution of the next function in the stack. This triggers calling the 3rd argument, `next()`.
 
 انظر إلى المثال التالي:
 

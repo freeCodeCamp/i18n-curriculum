@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c442eddfaeb5bd18
-title: Erstelle eine Gedenkseite
+title: Erstelle eine Tribute-Seite
 challengeType: 14
 forumTopicId: 301147
 dashedName: build-a-tribute-page
@@ -8,24 +8,24 @@ dashedName: build-a-tribute-page
 
 # --description--
 
-**Aufgabe:** Erstelle eine Applikation, die eine ähnliche Funktionalität wie <a href="https://tribute-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://tribute-page.freecodecamp.rocks</a> aufweist. **Bitte kopiere nicht dieses Demo-Projekt **.
+**Objective:** Build an app that is functionally similar to <a href="https://tribute-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://tribute-page.freecodecamp.rocks</a>. **Do not copy this demo project**.
 
 
 **User Stories:**
 
-1. Deine Gedenkseite sollte über ein `main`-Element mit einer zugehörigen `id` von `main` verfügen, die alle anderen Elemente enthält
-1. Du solltest ein Element mit einer `id` von `title` sehen, das einen String (d.h. Text) enthält, der das Thema der Gedenkseite beschreibt (z.B. „Dr. Norman Borlaug“)
+1. Your tribute page should have a `main` element with a corresponding `id` of `main`, which contains all other elements
+1. Du solltest ein Element mit einer `id` von `title` sehen, das einen String (d.h. Text) enthält, der das Thema der Tribute-Seite beschreibt (z.B. „Dr. Norman Borlaug“)
 1. Du solltest entweder ein `figure`- oder ein `div`-Element mit einer `id` von `img-div` sehen
-1. Du solltest innerhalb des `#img-div`-Elements ein `img`-Element mit zugehöriger `id="image"` sehen
+1. Innerhalb des `#img-div` Elements, solltest du ein `img` Element mit zugehöriger `id="image"` sehen
 1. Du solltest innerhalb des `#img-div`-Elements ein Element mit zugehöriger `id="img-caption"` sehen, der einen Text enthält, der das in `#img-div` angezeigte Bild beschreibt
 1. Du solltest ein Element mit zugehöriger `id="tribute-info"` sehen, welches das Thema der Gedenkseite beschreibenden Textinhalt enthält
 1. Du solltest ein `a`-Element mit zugehöriger `id="tribute-link"` sehen, welches auf eine externe Seite verweist, die zusätzliche Informationen über das Thema der Gedenkseite enthält. TIPP: Du musst deinem Element ein Attribut von `target` zuweisen und es auf `_blank` setzen, damit der Link in einem neuen Tab geöffnet werden kann
-1. Dein `#image` sollte die `max-width`- und `height`-Eigenschaften verwenden, um die Größenänderung responsiv zu gestalten, d. h. relativ zur Breite des Elternelements, ohne dessen Originalgröße zu überschreiten
+1. Dein `#image` sollte die `max-width`- und `height`-Eigenschaften verwenden, um die Größenänderung responsiv zu gestalten, daher relativ zur Breite des übergeordneten Elements, ohne dessen Originalgröße zu überschreiten
 1. Dein `img`-Element sollte innerhalb des Elternelements zentriert werden
 
 Erfülle die folgenden User Stories und bestehe alle Tests, um dieses Projekt abzuschließen. Gib dem Ganzen deinen persönlichen Stil. Viel Spaß beim Programmieren!
 
-**Hinweis:** Füge unbedingt `<link rel="stylesheet" href="styles.css">` in dein HTML ein, um dein Stylesheet zu verlinken und dein CSS anzuwenden
+**Hinweis:** Achte darauf, `<link rel="stylesheet" href="styles.css">` in deinen HTML-Code einzufügen, um dein Stylesheet zu verknüpfen und deinen CSS-Code anwenden zu können
 
 # --hints--
 
@@ -97,7 +97,7 @@ const el = document.querySelector('#img-div #img-caption')
 assert(!!el)
 ```
 
-Dein `#img-caption` darf nicht leer sein.
+Dein `#img-caption` sollte nicht leer sein.
 
 ```js
 const el = document.getElementById('img-caption')
@@ -111,7 +111,7 @@ const el = document.getElementById('tribute-info')
 assert(!!el)
 ```
 
-Dein `#tribute-info` darf nicht leer sein.
+Dein `#tribute-info` sollte nicht leer sein.
 
 ```js
 const el = document.getElementById('tribute-info')
@@ -125,7 +125,7 @@ const el = document.getElementById('tribute-link')
 assert(!!el && el.tagName === 'A')
 ```
 
-Dein `#tribute-link` sollte ein `href`-Attribut und -Wert haben.
+Dein `#tribute-link` sollte ein `href`-Attribut und einen -Wert haben.
 
 ```js
 const el = document.getElementById('tribute-link')
@@ -171,7 +171,7 @@ img?.style.setProperty('display', oldDisplayValue, oldDisplayPriority);
 assert(heightValue === 'auto')
 ```
 
-Dein `#image` sollte innerhalb der Elternklasse zentriert sein.
+Dein `#image` sollte innerhalb der übergeordneten Klasse zentriert werden.
 
 ```js
 // taken from the testable-projects repo

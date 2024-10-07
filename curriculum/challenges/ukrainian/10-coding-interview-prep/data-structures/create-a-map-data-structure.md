@@ -8,14 +8,14 @@ dashedName: create-a-map-data-structure
 
 # --description--
 
-Наступні декілька завдань присвячені структурі map та хеш-таблицям. Структура map — це структура даних, яка зберігає пари ключ-значення. В JavaScript вони доступні у вигляді об’єктів. Структури map є дуже поширеними й корисними, а також забезпечують швидкий пошук збережених елементів на основі ключових значень.
+The next few challenges will cover maps and hash tables. Maps are data structures that store key-value pairs. In JavaScript, these are available to us as objects. Maps provide rapid lookup of stored items based on key values and are very common and useful data structures.
 
 # --instructions--
 
 Трішки попрактикуємось, створивши власну структуру map. Оскільки об’єкти JavaScript забезпечують ефективнішу структуру map, ніж будь-що інше, що ми могли б написати тут, ця вправа насамперед є навчальною. Однак об’єкти JavaScript надають лише певні операції. А якщо ми захочемо визначити власні операції? Використайте наданий об’єкт `Map` як обгортку навколо об’єкту JavaScript. Створіть такі методи та операції для об’єкта Map:
 
 <ul>
-<li><code>add</code> приймає пару ключ-значення, яку додає до структури map</li>
+<li><code>add</code> accepts a <code>key, value</code> pair to add to the map.</li>
 <li><code>remove</code> приймає ключ та видаляє пов’язану пару ключ-значення</li>
 <li><code>get</code> приймає ключ та повертає збережене значення</li>
 <li><code>has</code> приймає ключ та повертає <dfn>true</dfn>, якщо ключ існує, а в іншому випадку — <dfn>false</dfn></li>

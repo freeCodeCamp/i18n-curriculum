@@ -8,7 +8,7 @@ dashedName: match-a-literal-string-with-different-possibilities
 
 # --description--
 
-باستخدام regexes مثل `/coding/`، يمكنك البحث عن النمط `coding` في مقطع نصي أخر.
+Using regexes like `/coding/`, you can look for the pattern `coding` in another string.
 
 هذا جيد للبحث في مقطع نصي (string) واحد، لكنه يقتصر على نمط واحد فقط. يمكنك البحث عن أنماط متعددة باستخدام `alternation` أو رمز `OR` التالي: `|`.
 

@@ -1,6 +1,6 @@
 ---
 id: 587d8255367417b2b2512c74
-title: Create a Priority Queue Class
+title: Erstelle eine Prioritäts-Warteschlangenklasse
 challengeType: 1
 forumTopicId: 301630
 dashedName: create-a-priority-queue-class
@@ -10,25 +10,25 @@ dashedName: create-a-priority-queue-class
 
 In this challenge you will be creating a Priority Queue. A Priority Queue is a special type of Queue in which items may have additional information which specifies their priority. This could be simply represented with an integer. Item priority will override placement order in determining the sequence items are dequeued. If an item with a higher priority is enqueued after items with lower priority, the higher priority item will be dequeued before all the others.
 
-For instance, let’s imagine we have a priority queue with three items:
+Nehmen wir zum Beispiel an, wir haben eine Prioritätswarteschlange mit drei Einträgen:
 
 ```js
 [['kitten', 2], ['dog', 2], ['rabbit', 2]]
 ```
 
-Here the second value (an integer) represents item priority. If we enqueue `['human', 1]` with a priority of `1` (assuming lower priorities are given precedence) it would then be the first item to be dequeued. The collection would look like this:
+Hier steht der zweite Wert (eine ganze Zahl) für die Priorität des Elements. Wenn wir `['human', 1]` mit einer Priorität von `1` in die Warteschlange stellen (unter der Annahme, dass niedrigere Prioritäten Vorrang haben), wäre er dann das erste Element, das aus der Warteschlange genommen wird. Die Sammlung würde wie folgt aussehen:
 
 ```js
 [['human', 1], ['kitten', 2], ['dog', 2], ['rabbit', 2]]
 ```
 
-We’ve started writing a `PriorityQueue` in the code editor. You will need to add an `enqueue` method for adding items with a priority, a `dequeue` method for removing and returning items, a `size` method to return the number of items in the queue, a `front` method to return the element at the front of the queue, and finally an `isEmpty` method that will return `true` if the queue is empty or `false` if it is not.
+Wir haben begonnen, eine `PriorityQueue` im Code-Editor zu schreiben. Du musst eine `enqueue`-Methode zum Hinzufügen von Elementen mit einer Priorität, eine `dequeue`-Methode zum Entfernen und Zurückgeben von Elementen, eine `size`-Methode zum Zurückgeben der Anzahl von Elementen in der Warteschlange, eine `front`-Methode zum Zurückgeben des Elements am Anfang der Warteschlange und schließlich eine `isEmpty`-Methode, die `true` zurückgibt, wenn die Warteschlange leer ist, oder `false`, wenn sie es nicht ist.
 
-The `enqueue` should accept items with the format shown above (`['human', 1]`) where `1` represents the priority. `dequeue` and `front` should return only the item's name, not its priority.
+Das `enqueue` sollte Elemente mit dem oben gezeigten Format (`['human', 1]`) akzeptieren, wobei `1` die Priorität darstellt. `dequeue` und `front` sollten nur den Namen des Elements zurückgeben, nicht seine Priorität.
 
 # --hints--
 
-Your `PriorityQueue` class should have a `enqueue` method.
+Deine `PriorityQueue` Klasse sollte eine `enqueue` Methode haben.
 
 ```js
 assert(
@@ -39,7 +39,7 @@ assert(
 );
 ```
 
-Your `PriorityQueue` class should have a `dequeue` method.
+Ihre `PriorityQueue` Klasse sollte eine `dequeue`-Methode haben.
 
 ```js
 assert(
@@ -50,7 +50,7 @@ assert(
 );
 ```
 
-Your `PriorityQueue` class should have a `size` method.
+Deine `PriorityQueue` Klasse sollte eine `size` Methode haben.
 
 ```js
 assert(
@@ -61,7 +61,7 @@ assert(
 );
 ```
 
-Your `PriorityQueue` class should have a `front` method.
+Deine `PriorityQueue` Klasse sollte eine `front` Methode haben.
 
 ```js
 assert(
@@ -72,7 +72,7 @@ assert(
 );
 ```
 
-Your `PriorityQueue` class should have an `isEmpty` method.
+Deine `PriorityQueue` Klasse sollte eine `isEmpty` Methode haben.
 
 ```js
 assert(
@@ -83,7 +83,7 @@ assert(
 );
 ```
 
-Your `PriorityQueue` class should correctly keep track of the current number of items using the `size` method as items are enqueued and dequeued.
+Deine `PriorityQueue`Klasse sollte die aktuelle Anzahl der Elemente mit Hilfe der `size`-Methode korrekt verfolgen, wenn Elemente in die Warteschlange gestellt und aus der Warteschlange entfernt werden.
 
 ```js
 assert(
@@ -102,7 +102,7 @@ assert(
 );
 ```
 
-The `front` method should return the correct item at the front of the queue as items are enqueued and dequeued.
+Die `front`-Methode sollte das richtige Element an der Spitze der Warteschlange zurückgeben, wenn Elemente in die Warteschlange aufgenommen oder aus ihr entfernt werden.
 
 ```js
 assert(
@@ -129,7 +129,7 @@ assert(
 );
 ```
 
-The `isEmpty` method should return `true` when the queue is empty.
+Die Methode `isEmpty` sollte `true` zurückgeben, wenn die Warteschlange leer ist.
 
 ```js
 assert(
@@ -145,7 +145,7 @@ assert(
 );
 ```
 
-The priority queue should return items with a higher priority before items with a lower priority and return items in first-in-first-out order otherwise.
+Die Prioritäts-Warteschlange sollte Elemente mit einer höheren Priorität vor Elementen mit einer niedrigeren Priorität zurückgeben und ansonsten Elemente in der Reihenfolge first-in-first-out zurückgeben.
 
 ```js
 assert(

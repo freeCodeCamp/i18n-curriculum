@@ -1,6 +1,6 @@
 ---
 id: 5a8b073d06fa14fcfde687aa
-title: Exercise Tracker
+title: متتبع التمارين
 challengeType: 4
 forumTopicId: 301505
 dashedName: exercise-tracker
@@ -12,7 +12,7 @@ Build a full stack JavaScript app that is functionally similar to this: <a href=
 
 -   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-exercisetracker/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
 -   Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-exercisetracker/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete your project.
--   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
+-   استخدم أي منشئ موقع لإكمال المشروع. تحقق انك أضفت جميع الملفات من مستودعنا في GitHub في مشروعك.
 
 # --instructions--
 

@@ -8,7 +8,7 @@ dashedName: split-a-string-into-an-array-using-the-split-method
 
 # --description--
 
-Метод `split` розділяє рядок на масив рядків. Він приймає потрібний аргумент для розділювача, який може бути символом для розбиття рядка чи регулярного виразу. Наприклад, якщо розділювач є пробілом, ви отримаєте масив слів, а якщо розділювачем є пустий рядок, ви отримаєте масив окремих рядків із символом.
+The `split` method splits a string into an array of strings. It takes an argument for the delimiter, which can be a character to use to break up the string or a regular expression. For example, if the delimiter is a space, you get an array of words, and if the delimiter is an empty string, you get an array of each character in the string.
 
 Ось два приклади, які розділяють один рядок пробілами, а інший — цифрами, використовуючи регулярний вираз:
 
@@ -26,7 +26,7 @@ const byDigits = otherString.split(/\d/);
 
 # --instructions--
 
-Використайте метод `split` всередині функції `splitify`, щоб розділити `str` на масив слів. Функція повинна повертати масив. Зверніть увагу, що слова не завжди розділені пробілами і масив не повинен містити знаки пунктуації.
+Використайте метод `split` всередині функції `splitify`, щоб розділити `str` на масив слів. The function should return the array. Зверніть увагу, що слова не завжди розділені пробілами і масив не повинен містити знаки пунктуації.
 
 # --hints--
 

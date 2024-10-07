@@ -25,7 +25,7 @@ What does Maria say stops two blocks away?
 
 Ein Taxi.
 
-### --Feedback--
+### --feedback--
 
 Maria mentions a public transportation option, not a private service.
 
@@ -33,7 +33,7 @@ Maria mentions a public transportation option, not a private service.
 
 A train.
 
-### --Feedback--
+### --feedback--
 
 Trains don't typically stop at blocks; they stop at stations.
 
@@ -53,7 +53,7 @@ Rentals are usually stationary services, not something that stops.
 
 3
 
-# --blanks--
+# --scene--
 
 ```json
 { "setup": { "background": "company2-center.png", "characters": [

@@ -9,7 +9,7 @@ dashedName: fill-in-the-blank-with-placeholder-text
 
 # --description--
 
-Web 開發者通常用 <dfn>lorem ipsum text</dfn> 來做佔位符。 lorem ipsum text 是從古羅馬西塞羅的一段著名經文中隨機抽取的。
+Web developers traditionally use <dfn>lorem ipsum text</dfn> as placeholder text. The lorem ipsum text is randomly scraped from a famous passage by Cicero of Ancient Rome.
 
 Lorem ipsum text 自 16 世紀以來就在排版中被用作佔位符，這一習慣也在 Web 開發中得以延續。
 

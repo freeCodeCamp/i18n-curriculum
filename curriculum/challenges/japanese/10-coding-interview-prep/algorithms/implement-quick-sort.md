@@ -8,7 +8,7 @@ dashedName: implement-quick-sort
 
 # --description--
 
-次は、中間ソートアルゴリズムであるクイックソートです。 クイックソートは、配列を効率的にソートするための再帰的な分割統治法です。 この方法では、元の配列でピボット値が選択されます。 次に、配列は、ピボット値よりも小さい値と大きい値の 2 つの部分配列に分割されます。 次に、両方の部分配列でクイックソートアルゴリズムを再帰的に呼び出した結果を組み合わせます。 これは、空の配列または単一要素の配列という初期条件に達するまで続き、私たちはそれを返します。 再帰呼び出しを巻き戻すと、ソートされた配列が返されます。
+Here we will move on to an intermediate sorting algorithm: quick sort. Quick sort is an efficient, recursive divide-and-conquer approach to sorting an array. In this method, a pivot value is chosen in the original array. The array is then partitioned into two subarrays of values less than and greater than the pivot value. We then combine the result of recursively calling the quick sort algorithm on both sub-arrays. This continues until the base case of an empty or single-item array is reached, which we return. The unwinding of the recursive calls return us the sorted array.
 
 クイックソートは非常に効率的なソート方法で、平均で *O(nlog(n))* のパフォーマンスを提供します。 また、実装も比較的容易です。 これらの特性を持つため、クイックソートはよく使用される便利なソート方法です。
 

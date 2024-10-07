@@ -8,7 +8,7 @@ dashedName: sorting-algorithmspermutation-sort
 
 # --description--
 
-Write a function to implement a permutation sort, which proceeds by generating the possible permutations of the input array until discovering the sorted one. The function should return the sorted array.
+Schreibe eine Funktion, die eine Permutationssortierung implementiert, indem sie die möglichen Permutationen des Eingabefeldes erzeugt, bis sie die sortierte entdeckt. Die Funktion sollte das sortierte Array zurückgeben.
 
 Pseudocode:
 

@@ -9,9 +9,9 @@ dashedName: standardize-times-with-the-html5-datetime-attribute
 
 # --description--
 
-繼續日期主題。 HTML5 還引入了 `time` 標籤與 `datetime` 屬性來標準化時間。 `time` 元素是一個行內元素，用於在一個頁面上顯示日期或時間。 `datetime` 屬性包含的有效格式。 輔助設備可以獲取這個值。 這個屬性也有助於避免混亂，因爲它規定了時間的標準化版本，甚至可以在文本中以非正式的方式或學術方式使用它。
+Continuing with the date theme, HTML5 also introduced the `time` element along with a `datetime` attribute to standardize times. The `time` element is an inline element that can wrap a date or time on a page. A `datetime` attribute holds a valid format of that date. This is the value accessed by assistive devices. It helps avoid confusion by stating a standardized version of a time, even if it's informally or colloquially written in the text.
 
-舉個例子：
+請看下面的舉例：
 
 ```html
 <p>Master Camper Cat officiated the cage match between Goro and Scorpion <time datetime="2013-02-13">last Wednesday</time>, which ended in a draw.</p>

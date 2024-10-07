@@ -9,7 +9,7 @@ dashedName: use-the-flex-direction-property-to-make-a-row
 
 # --description--
 
-Agregando `display: flex` a un elemento lo convierte en un contenedor flexible. Esto permite alinear cualquier elemento secundario de ese elemento en filas o columnas. Para ello, agrega la propiedad `flex-direction` al elemento principal y configúralo en fila o columna. La creación de una fila alineara los elementos secundarios horizontalmente, y la creación de una columna alineara los elementos secundarios verticalmente.
+Adding `display: flex` to an element turns it into a flex container. This makes it possible to align any children of that element into rows or columns. You do this by adding the `flex-direction` property to the parent item and setting it to row or column. Creating a row will align the children horizontally, and creating a column will align the children vertically.
 
 Otras opciones para `flex-direction` son `row-reverse` y `column-reverse`.
 

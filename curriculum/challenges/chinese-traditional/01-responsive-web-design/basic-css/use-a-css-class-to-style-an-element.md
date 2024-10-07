@@ -9,7 +9,7 @@ dashedName: use-a-css-class-to-style-an-element
 
 # --description--
 
-CSS 的 class 具有可重用性，可應用於各種 HTML 元素。
+Classes are reusable styles that can be added to HTML elements.
 
 一個 CSS class 聲明示例如下所示：
 

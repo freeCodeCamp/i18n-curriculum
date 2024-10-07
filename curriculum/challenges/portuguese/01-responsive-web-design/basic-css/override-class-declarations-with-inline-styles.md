@@ -9,7 +9,7 @@ dashedName: override-class-declarations-with-inline-styles
 
 # --description--
 
-No desafio anterior, vimos que os estilos declarados com id sobrescrevem as declarações feitas com classes, independente de onde as classes foram declaradas no elemento `style`.
+So we've proven that id declarations override class declarations, regardless of where they are declared in your `style` element CSS.
 
 Existem outras maneiras de sobrescrever o CSS. Você se lembra dos estilos inline?
 

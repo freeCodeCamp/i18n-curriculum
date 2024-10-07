@@ -8,7 +8,7 @@ dashedName: get-json-with-the-javascript-xmlhttprequest-method
 
 # --description--
 
-你还可以从外部来源请求数据。 这就是 API 发挥作用的地方。
+You can also request data from an external source. This is where APIs come into play.
 
 请记住，API（或叫应用程序编程接口）是计算机用来互相通信的工具。 你将学习如何通过 AJAX技术 从 API 获得的数据来更新 HTML。
 

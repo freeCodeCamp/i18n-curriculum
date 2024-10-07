@@ -8,7 +8,7 @@ dashedName: boo-who
 
 # --description--
 
-Controllare se un valore è un classificato come primitivo booleano. Restituisce `true` o `false`.
+Check if a value is classified as a boolean primitive. Return `true` or `false`.
 
 I primitivi booleani sono `true` e `false`.
 

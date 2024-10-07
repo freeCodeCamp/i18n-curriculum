@@ -8,7 +8,7 @@ dashedName: use-destructuring-assignment-to-assign-variables-from-nested-objects
 
 # --description--
 
-你可以使用前两节课程中相同的原则来解构嵌套对象中的值。
+You can use the same principles from the previous two lessons to destructure values from nested objects.
 
 使用与前面的例子中类似的对象：
 

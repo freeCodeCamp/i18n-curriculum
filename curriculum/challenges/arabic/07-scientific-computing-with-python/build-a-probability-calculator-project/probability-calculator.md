@@ -27,9 +27,9 @@ The `Hat` class should have a `draw` method that accepts an argument indicating 
 Next, create an `experiment` function in `main.py` (not inside the `Hat` class). This function should accept the following arguments:
 
 - `hat`: A hat object containing balls that should be copied inside the function.
-- `expected_balls`: An object indicating the exact group of balls to attempt to draw from the hat for the experiment. For example, to determine the probability of drawing 2 blue balls and 1 red ball from the hat, set `expected_balls` to `{'blue':2, 'red':1}`.
-- `num_balls_drawn`: The number of balls to draw out of the hat in each experiment.
-- `num_experiments`: The number of experiments to perform. (The more experiments performed, the more accurate the approximate probability will be.)
+- `expected_balls`: كائن يشير إلى مجموعة كرات محددة لمحاولة سحبها من القبعة للتجربة. For example, to determine the probability of drawing 2 blue balls and 1 red ball from the hat, set `expected_balls` to `{'blue':2, 'red':1}`.
+- `num_balls_drawn`: عدد الكرات التي سيتم سحبها من القبعة في كل تجربة.
+- `num_experiments`: عدد التجارب المراد إجراؤها. (كلما أجريت تجارب أكثر، كلما كان الاحتمال التقريبي أكثر دقة)
 
 The `experiment` function should return a probability.
 
@@ -51,7 +51,7 @@ The output would be something like this:
 0.356
 ```
 
-Since this is based on random draws, the probability will be slightly different each time the code is run.
+لأن هذا مبني على سحب عشوائي، فإن الاحتمال سيكون مختلفا قليلا في كل مرة يتم فيها تشغيل الكود البرمجي.
 
 _Hint: Consider using the modules that are already imported at the top. Do not initialize random seed within the file._
 

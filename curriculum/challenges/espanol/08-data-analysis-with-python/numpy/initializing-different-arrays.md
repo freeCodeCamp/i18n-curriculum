@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: initializing-different-arrays
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-¿Qué hará el siguiente código?
+¿Qué imprimirá el siguiente código?
 
 ```py
 a = np.array([[1, 2, 3, 4, 5], [6, 7, 8, 9, 10]])

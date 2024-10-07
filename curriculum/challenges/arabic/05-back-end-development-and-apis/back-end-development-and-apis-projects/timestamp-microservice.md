@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443edefaeb5bdef
-title: Timestamp Microservice
+title: الخدمة المصغرة للطابع الزمني
 challengeType: 4
 forumTopicId: 301508
 dashedName: timestamp-microservice
@@ -8,17 +8,17 @@ dashedName: timestamp-microservice
 
 # --description--
 
-Build a full stack JavaScript app that is functionally similar to this: <a href="https://timestamp-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://timestamp-microservice.freecodecamp.rocks</a>. سوف يقوم يلزمك العمل على هذا المشروع بكتابة كود باستخدام إحدى الطرق التالية:
+Build a full stack JavaScript app that is functionally similar to this: <a href="https://timestamp-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://timestamp-microservice.freecodecamp.rocks</a>. Working on this project will involve you writing your code using one of the following methods:
 
--   أستنسخ <a href="https://github.com/freeCodeCamp/boilerplate-project-timestamp/"  target="_blank" rel="noopener noreferrer nofollow">هذا مستودع من GitHub</a> واكمل مشروعك محلياً.
+-   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-timestamp/"  target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
 -   Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-timestamp/"  target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete your project.
--   استخدم أي منشئ لموقع لإكمال المشروع. تأكد من دمج جميع الملفات من مستودعنا في GitHub في مشروعك.
+-   استخدم أي منشئ موقع لإكمال المشروع. تحقق انك أضفت جميع الملفات من مستودعنا في GitHub في مشروعك.
 
-**ملاحظة:** ليس الغرض من هذا المشروع تحويل المناطق الزمنية، لذلك افترض إن جميع التواريخ الصحيحة المرسلة ستحلل بواسطة `new Date()` كتواريخ GMT.
+**Note:** Time zones conversion is not a purpose of this project, so assume all sent valid dates will be parsed with `new Date()` as GMT dates.
 
 # --hints--
 
-يجب عليك تقديم URL لمشروعك، وليس عنوان المثال.
+You should provide your own project, not the example URL.
 
 ```js
 (getUserInput) => {
@@ -28,7 +28,7 @@ Build a full stack JavaScript app that is functionally similar to this: <a href=
 };
 ```
 
-يجب أن ينتج كائن JSON عند طلب `/api/:date?` التاريخ الصحيح بهوية (key) المسمى `unix` الذي يكون طابع زمني Unix من تاريخ المدخل بالمللي ثانية (كرقم)
+A request to `/api/:date?` with a valid date should return a JSON object with a `unix` key that is a Unix timestamp of the input date in milliseconds (as type Number)
 
 ```js
 (getUserInput) =>
@@ -46,7 +46,7 @@ Build a full stack JavaScript app that is functionally similar to this: <a href=
   );
 ```
 
-يجب أن ينتج عند كائن JSON طلب `/api/:date?` مع تاريخ صحيح مع هوية `utc` وتكون قيمته مقطع نصي من تاريخ المدخل. وينسق مثل: `Thu, 01 Jan 1970 00:00:00 GMT`
+A request to `/api/:date?` with a valid date should return a JSON object with a `utc` key that is a string of the input date in the format: `Thu, 01 Jan 1970 00:00:00 GMT`
 
 ```js
 (getUserInput) =>

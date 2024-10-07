@@ -8,7 +8,7 @@ dashedName: cumulative-standard-deviation
 
 # --description--
 
-Suppose that the entire population of interest is eight students in a particular class. For a finite set of numbers, the population standard deviation is found by taking the square root of the average of the squared deviations of the values subtracted from their average value. The marks of a class of eight students (that is, a statistical population) are the following eight values:
+Angenommen, die gesamte interessierende Bevölkerung besteht aus acht Schülern in einer bestimmten Klasse. Für eine endliche Menge von Zahlen wird die Standardabweichung der Grundgesamtheit ermittelt, indem die Quadratwurzel des Durchschnitts der quadrierten Abweichungen der von ihrem Durchschnittswert subtrahierten Werte genommen wird. Die Noten einer Klasse von acht Schülern (d. h. einer statistischen Grundgesamtheit) sind die folgenden acht Werte:
 
 $2, 4, 4, 4, 5, 5, 7, 9$
 
@@ -18,12 +18,12 @@ $$\mu ={\frac {2+4+4+4+5+5+7+9}{8}}={\frac {40}{8}}=5$$
 
 Berechne zunächst die Abweichungen jedes Datenpunkts vom Mittelwert und quadriere das Ergebnis jedes Punktes:
 
-| Deviations of each data | Quadriere das Ergebnis |
-| ----------------------- | ---------------------- |
-| $(2-5)^{2}=(-3)^{2}=9$  | $(5-5)^{2}=0^{2}=0$    |
-| $(4-5)^{2}=(-1)^{2}=1$  | $(5-5)^{2}=0^{2}=0$    |
-| $(4-5)^{2}=(-1)^{2}=1$  | $(7-5)^{2}=2^{2}=4$    |
-| $(4-5)^{2}=(-1)^{2}=1$  | $(9-5)^{2}=4^{2}=16$   |
+| Abweichungen der einzelnen Daten | Quadriere das Ergebnis |
+| -------------------------------- | ---------------------- |
+| $(2-5)^{2}=(-3)^{2}=9$           | $(5-5)^{2}=0^{2}=0$    |
+| $(4-5)^{2}=(-1)^{2}=1$           | $(5-5)^{2}=0^{2}=0$    |
+| $(4-5)^{2}=(-1)^{2}=1$           | $(7-5)^{2}=2^{2}=4$    |
+| $(4-5)^{2}=(-1)^{2}=1$           | $(9-5)^{2}=4^{2}=16$   |
 
 Die Varianz ist der Mittelwert dieser Werte:
 

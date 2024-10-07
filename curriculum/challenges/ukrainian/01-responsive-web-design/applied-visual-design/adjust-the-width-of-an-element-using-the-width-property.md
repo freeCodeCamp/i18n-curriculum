@@ -9,7 +9,7 @@ dashedName: adjust-the-width-of-an-element-using-the-width-property
 
 # --description--
 
-Ви можете вказати ширину елементу, використовуючи властивість `width` в CSS. Значення можуть бути виражені у відносних одиницях довжини (таких як `em`), абсолютних одиницях довжини (таких як `px`), або у відсотках від розміру вихідного елементу. Ось приклад, який задає зображенню висоту 220 пікселів:
+You can specify the width of an element using the `width` property in CSS. Values can be given in relative length units (such as `em`), absolute length units (such as `px`), or as a percentage of its containing parent element. Here's an example that changes the width of an image to 220px:
 
 ```css
 img {

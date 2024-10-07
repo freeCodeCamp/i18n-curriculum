@@ -9,7 +9,7 @@ dashedName: comparisons-with-the-logical-or-operator
 
 # --description--
 
-<dfn>Логічний оператор or</dfn> (`||`) повертає `true`, якщо один з <dfn>операндів</dfn> є `true`. В іншому випадку він повертає `false`.
+The <dfn>logical or</dfn> operator (`||`) returns `true` if either of the <dfn>operands</dfn> is `true`. Otherwise, it returns `false`.
 
 <dfn>Логічний оператор or</dfn> складається з двох вертикальних рисок: (`||`). Як правило, цей символ можна знайти на клавіатурі між клавішами backspace та enter.
 

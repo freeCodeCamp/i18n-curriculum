@@ -9,13 +9,13 @@ dashedName: use-rgb-to-mix-colors
 
 # --description--
 
-Так само, як і з шістнадцятковим кодом, ви можете поєднувати кольори за допомогою моделі RGB, використовуючи комбінації різних значень.
+Just like with hex code, you can mix colors in RGB by using combinations of different values.
 
 # --instructions--
 
 Замініть шістнадцяткові коди на наш елемент `style` з правильними значеннями моделі RGB.
 
-<table><tbody><tr><th>Колір</th><th>RGB модель</th></tr><tr><td>Синій</td><td><code>rgb(0, 0, 255)</code></td></tr><tr><td>Червоний</td><td><code>rgb(255, 0, 0)</code></td></tr><tr><td>Рожевий</td><td><code>rgb(218, 112, 214)</code></td></tr><tr><td>Коричневий</td><td><code>rgb(160, 82, 45)</code></td></tr></tbody></table>
+<table><tbody><tr><th>Color</th><th>RGB</th></tr><tr><td>Blue</td><td><code>rgb(0, 0, 255)</code></td></tr><tr><td>Red</td><td><code>rgb(255, 0, 0)</code></td></tr><tr><td>Orchid</td><td><code>rgb(218, 112, 214)</code></td></tr><tr><td>Sienna</td><td><code>rgb(160, 82, 45)</code></td></tr></tbody></table>
 
 # --hints--
 

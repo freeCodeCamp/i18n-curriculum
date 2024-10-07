@@ -8,7 +8,7 @@ dashedName: pass-arguments-to-avoid-external-dependence-in-a-function
 
 # --description--
 
-上一個挑戰是更接近函數式編程原則的挑戰，但是仍然缺少一些東西。
+The last challenge was a step closer to functional programming principles, but there is still something missing.
 
 雖然我們沒有改變全局變量值，但在沒有全局變量 `fixedValue` 的情況下，`incrementer` 函數將不起作用。
 

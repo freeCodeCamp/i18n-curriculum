@@ -8,9 +8,9 @@ dashedName: build-a-nightlife-coordination-app
 
 # --description--
 
-<a href="https://yoyo44.herokuapp.com/" target="_blank" rel="noopener noreferrer nofollow">https://yoyo44.herokuapp.com/</a> と同じような機能を持つ、フルスタック JavaScript アプリを構築してください。 その際に、ご自身で選択したサイトビルダーを使用して、プロジェクトを完了させてください。
+Build a full stack JavaScript app that is functionally similar to this: <a href="https://yoyo44.herokuapp.com/" target="_blank" rel="noopener noreferrer nofollow">https://yoyo44.herokuapp.com/</a>. Use a site builder of your choice to complete the project.
 
-このプロジェクトに実装する必要がある、具体的なユーザーストーリーはこちらです:
+このプロジェクトに実装する必要がある具体的なユーザー ストーリーはこちらです:
 
 **User Story:** As an unauthenticated user, you can view all bars in your area.
 

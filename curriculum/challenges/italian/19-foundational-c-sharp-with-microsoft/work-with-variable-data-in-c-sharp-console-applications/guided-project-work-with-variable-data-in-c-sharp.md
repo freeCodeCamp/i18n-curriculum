@@ -7,14 +7,14 @@ dashedName: guided-project-work-with-variable-data-in-c-sharp
 
 # --description--
 
-This challenge will be partially completed on the Microsoft Learn platform. Follow these instructions to complete the challenge:
+Questa sfida sarà parzialmente completata sulla piattaforma Microsoft Learn. Segui queste istruzioni per completare la sfida:
 
 1. Go to <a href="https://learn.microsoft.com/training/modules/guided-project-work-variable-data-c-sharp/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/guided-project-work-variable-data-c-sharp/</a> and complete all the tasks for the "Guided Project - Work with Variable Data in C#" module. This is **required** to earn the "Work with Variable Data in C# Console Applications" trophy on Microsoft Learn, and qualify for the certification exam.
-1. When you are finished, come back and correctly answer the question below.
+1. Quando hai finito, torna e rispondi correttamente alla domanda qui sotto.
 
 # --assignment--
 
-Complete the <a href="https://learn.microsoft.com/training/modules/guided-project-work-variable-data-c-sharp/" target="_blank" rel="noreferrer">Work with Variable Data in C#</a> guided project on Microsoft Learn. Then, answer the question below.
+Complete the <a href="https://learn.microsoft.com/training/modules/guided-project-work-variable-data-c-sharp/" target="_blank" rel="noreferrer">Work with Variable Data in C#</a> guided project on Microsoft Learn. Quindi, rispondere alla domanda qui sotto.
 
 # --questions--
 

@@ -9,7 +9,7 @@ dashedName: replacing-if-else-chains-with-switch
 
 # --description--
 
-選択肢となるオプションが多数ある場合、`switch` ステートメントを使用すると、たくさんの `if`/`else if` ステートメントをつなげるよりも記述が簡単になります。 次の例をご覧ください。
+If you have many options to choose from, a `switch` statement can be easier to write than many chained `if`/`else if` statements. The following:
 
 ```js
 if (val === 1) {

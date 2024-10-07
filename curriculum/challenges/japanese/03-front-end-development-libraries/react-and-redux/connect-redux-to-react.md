@@ -8,7 +8,7 @@ dashedName: connect-redux-to-react
 
 # --description--
 
-`mapStateToProps()` 関数と `mapDispatchToProps()` 関数の両方を記述したので、これらを使用して `state` をマップし、いずれかの React コンポーネントの `props` に `dispatch` することができます。 React Redux の `connect` メソッドはこの処理を実行できます。 このメソッドは、`mapStateToProps()` と `mapDispatchToProps()` の 2 つのオプション引数を受け取ります。 これらがオプションになっているのは、`state` へのアクセスのみが必要でアクションをディスパッチする必要がない場合や、その逆の場合があるためです。
+Now that you've written both the `mapStateToProps()` and the `mapDispatchToProps()` functions, you can use them to map `state` and `dispatch` to the `props` of one of your React components. The `connect` method from React Redux can handle this task. This method takes two optional arguments, `mapStateToProps()` and `mapDispatchToProps()`. They are optional because you may have a component that only needs access to `state` but doesn't need to dispatch any actions, or vice versa.
 
 このメソッドを使用するには、関数を引数として渡し、直後にその結果をコンポーネントとともに呼び出します。 この構文は少し変わっていて、次のようになります。
 

@@ -8,17 +8,17 @@ dashedName: html-foundations-lesson-a
 
 # --description--
 
-Almost all elements on an HTML page are just pieces of content wrapped in opening and closing HTML tags.
+Fast alle Elemente auf einer HTML-Seite sind nur Teile des Inhalts, verpackt in öffnende und abschließende HTML-Tags.
 
-Opening tags tell the browser this is the start of an HTML element. They are comprised of a keyword enclosed in angle brackets `<>`. For example, an opening paragraph tag looks like this: `<p>`.
+Öffnende Tags teilen dem Browser mit, dass dies der Anfang eines HTML-Elements ist. Sie bestehen aus einem Schlüsselwort, das in eckige Klammern `<>` eingeschlossen ist. Zum Beispiel sieht ein öffnendes Absatztag folgendermaßen aus: `<p>`.
 
-Closing tags tell the browser where an element ends. They are almost the same as opening tags; the only difference is that they have a forward slash before the keyword. For example, a closing paragraph tag looks like this: `</p>`.
+Abschließende Tags teilen dem Browser mit, wo ein Element endet. Sie sind nahezu identisch mit öffnenden Tags; der einzige Unterschied ist, dass sie einen Schrägstrich vor dem Schlüsselwort haben. Zum Beispiel sieht ein abschließendes Absatztag folgendermaßen aus: `</p>`.
 
-A full paragraph element looks like this:
+Ein vollständiges Absatzelement sieht folgendermaßen aus:
 
 <img src="https://cdn.freecodecamp.org/curriculum/odin-project/html-foundations/html-foundations-01.png" alt='An opening p tag, followed by the content string "some text content", followed by a closing p tag.' />
 
-# --assignment--
+# --Auftrag--
 
 Watch Kevin Powell’s <a href="https://www.youtube.com/watch?v=LGQuIIv2RVA&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-" target="_blank">Introduction to HTML video</a>
 
@@ -26,19 +26,19 @@ Watch Kevin Powell’s <a href="https://www.youtube.com/watch?v=LGQuIIv2RVA&list
 
 ## --text--
 
-What are HTML tags?
+Was sind HTML-Tags?
 
 ## --answers--
 
-HTML tags tell the browser what content an element contains.
+HTML-Tags teilen dem Browser mit, welchen Inhalt ein Element enthält.
 
 ---
 
-HTML tags tell the browser when to load its content.
+HTML-Tags teilen dem Browser mit, wann er seinen Inhalt laden soll.
 
 ---
 
-HTML tags tell the browser what content the next element contains.
+HTML-Tags teilen dem Browser mit, welchen Inhalt das nächste Element enthält.
 
 
 ## --video-solution--

@@ -8,7 +8,7 @@ dashedName: depth-first-search
 
 # --description--
 
-Similmente alla ricerca <dfn>breadth-first</dfn>, qui impareremo a conoscere un altro algoritmo di attraversamento chiamato ricerca <dfn>depth-first</dfn>.
+Similar to <dfn>breadth-first search</dfn>, here we will learn about another graph traversal algorithm called <dfn>depth-first search</dfn>.
 
 Mentre la ricerca breadth-first cerca lunghezze di archi incrementali lontano dal nodo di origine, la ricerca <dfn>depth-first</dfn> scende prima lungo un percorso di archi il più profondo possibile.
 

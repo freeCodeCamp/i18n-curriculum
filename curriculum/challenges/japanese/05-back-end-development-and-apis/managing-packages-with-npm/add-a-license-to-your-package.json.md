@@ -8,7 +8,7 @@ dashedName: add-a-license-to-your-package-json
 
 # --description--
 
-`license` フィールドでは、プロジェクトに対して許可することをユーザーに知らせます。
+The `license` field is where you inform users of what they are allowed to do with your project.
 
 オープンソース プロジェクトのライセンスは MIT や BSD などが一般的です。 ライセンス情報は必須ではありません。ほとんどの国の著作権法では、特に断りがない限り、著作者に所有権が与えられます。 しかし、ユーザーができることとできないことを常に明確に記述しておくことを推奨します。 ライセンスフィールドの例を次に示します。
 

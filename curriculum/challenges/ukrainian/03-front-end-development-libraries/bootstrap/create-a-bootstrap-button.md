@@ -8,7 +8,7 @@ dashedName: create-a-bootstrap-button
 
 # --description--
 
-Bootstrap має власні стилі для елементів `button`, які виглядають набагато краще, ніж прості стилі HTML.
+Bootstrap has its own styles for `button` elements, which look much better than the plain HTML ones.
 
 Створіть новий елемент `button` під великим фото кошеня. Надайте йому класи `btn` та `btn-default`, а також текст `Like`.
 
@@ -28,7 +28,7 @@ assert.isTrue(document.querySelector('button')?.classList?.contains('btn') )
 assert.isTrue(document.querySelector('button')?.classList?.contains('btn-default'));
 ```
 
-Усі елементи `button` повинні мати кінцеві теги.
+Усі елементи `button` повинні містити кінцеві теґи.
 
 ```js
 assert.match(code,/<\/button>/g);

@@ -8,7 +8,7 @@ dashedName: inherit-behaviors-from-a-supertype
 
 # --description--
 
-No desafio anterior, você criou um `supertype` chamado `Animal` que define os comportamentos compartilhados por todos os animais:
+In the previous challenge, you created a `supertype` called `Animal` that defined behaviors shared by all animals:
 
 ```js
 function Animal() { }

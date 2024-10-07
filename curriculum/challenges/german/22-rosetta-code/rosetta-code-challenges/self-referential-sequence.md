@@ -8,7 +8,7 @@ dashedName: self-referential-sequence
 
 # --description--
 
-There are several ways to generate a self-referential sequence. One very common one (the <a href="https://rosettacode.org/wiki/Look-and-say_sequence" target="_blank" rel="noopener noreferrer nofollow">Look-and-say sequence</a>) is to start with a positive integer, then generate the next term by concatenating enumerated groups of adjacent alike digits:
+Es gibt mehrere Möglichkeiten, eine selbstreferentielle Sequenz zu erzeugen. Eine sehr verbreitete Methode (die <a href="https://rosettacode.org/wiki/Look-and-say_sequence" target="_blank" rel="noopener noreferrer nofollow">Look-and-Say-Sequenz</a>) besteht darin, mit einem positiven Integer zu beginnen und dann den nächsten Ausdruck durch Aneinanderreihung von Gruppen benachbarter gleicher Ziffern zu erzeugen:
 
 <pre>0, 10, 1110, 3110, 132110, 1113122110, 311311222110 ...</pre>
 

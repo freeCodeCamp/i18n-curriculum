@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: relational-databases-join-operation
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-When using a JOIN clause in an SQL statement, what does ON do?
+Cuando se usa una cláusula JOIN en una sentencia SQL, ¿Qué hace ON?
 
 ## --answers--
 

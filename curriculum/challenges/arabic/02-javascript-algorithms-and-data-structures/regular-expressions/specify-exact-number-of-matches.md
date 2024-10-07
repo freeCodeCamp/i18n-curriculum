@@ -8,7 +8,7 @@ dashedName: specify-exact-number-of-matches
 
 # --description--
 
-يمكنك تحديد العدد الأدنى والأعلى من الأنماط مع محددات كمية باستخدام أقواس متعرجة curly brackets. أحيانا لا تريد سوى عدد محدد من المطابقات.
+You can specify the lower and upper number of patterns with quantity specifiers using curly brackets. Sometimes you only want a specific number of matches.
 
 لتحديد عدد معين من الأنماط ، فقط ضع هذا الرقم بين الأقواس المتعرجة.
 

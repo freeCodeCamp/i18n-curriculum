@@ -8,7 +8,7 @@ dashedName: review-using-props-with-stateless-functional-components
 
 # --description--
 
-За винятком попереднього завдання, ви передавали пропси до функціональних компонентів без стану. Ці компоненти діють як чисті функції. Вони отримують пропси як вхідні дані і повертають той самий вигляд кожен раз, коли передаються однакові пропси. У наступному завданні ми детальніше розглянемо, що таке стан. Перед цим розглянемо термінологію компонентів.
+Except for the last challenge, you've been passing props to stateless functional components. These components act like pure functions. They accept props as input and return the same view every time they are passed the same props. You may be wondering what state is, and the next challenge will cover it in more detail. Before that, here's a review of the terminology for components.
 
 *Функціональний компонент без стану* — це будь-яка написана функція, яка приймає пропси та повертає JSX. *Компонент без стану* — це клас, який розширює `React.Component`, але не використовує внутрішній стан (описано в наступному завданні). Зрештою, *компонент зі станом* — це класовий компонент, який підтримує власний внутрішній стан. Часто компоненти зі станом називають просто компонентами або компонентами React.
 

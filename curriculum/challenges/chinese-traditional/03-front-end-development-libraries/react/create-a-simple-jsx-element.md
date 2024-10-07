@@ -8,7 +8,7 @@ dashedName: create-a-simple-jsx-element
 
 # --description--
 
-簡介：React 是由 Facebook 創建和維護的開源視圖庫。 它是渲染現代 Web 應用程序用戶界面（UI）的好工具。
+React is an Open Source view library created and maintained by Facebook. It's a great tool to render the User Interface (UI) of modern web applications.
 
 React 使用名爲 JSX 的 JavaScript 語法擴展，可以直接在 JavaScript 中編寫 HTML。 這有幾個好處。 可以在 HTML 中使用 JavaScript 的完整程序功能，並有助於保持代碼的可讀性。 在大多數情況下，JSX 類似於已經學過的 HTML，但是在這些挑戰中將會涉及一些關鍵差異。
 

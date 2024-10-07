@@ -8,7 +8,7 @@ dashedName: missing-letters
 
 # --description--
 
-Finden Sie den fehlenden Buchstaben im übergebenen Buchstabenbereich und geben Sie ihn zurück.
+Find the missing letter in the passed letter range and return it.
 
 Wenn sich alle Buchstaben im Bereich befinden, gib `undefined` zurück.
 

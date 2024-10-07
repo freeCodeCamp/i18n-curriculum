@@ -8,7 +8,7 @@ dashedName: write-concise-declarative-functions-with-es6
 
 # --description--
 
-在 ES5 中，當我們需要在對象中定義一個函數的時候，必須像這樣使用 `function` 關鍵字：
+When defining functions within objects in ES5, we have to use the keyword `function` as follows:
 
 ```js
 const person = {

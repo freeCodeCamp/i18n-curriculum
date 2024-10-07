@@ -8,7 +8,7 @@ dashedName: split-a-character-string-based-on-change-of-character
 
 # --description--
 
-Split a (character) string into comma (plus a blank) delimited strings based on a change of character (left to right). Blanks should be treated as any other character (except they are problematic to display clearly). The same applies to commas. For instance, the string:
+Aufteilung einer (Zeichen-) Zeichenkette in durch Komma (plus Leerzeichen) getrennte Zeichenketten auf der Grundlage eines Zeichenwechsels (von links nach rechts). Leerzeichen sollten wie jedes andere Zeichen behandelt werden (mit der Ausnahme, dass es problematisch ist, sie deutlich darzustellen). Dasselbe gilt für Kommas. Zum Beispiel: die Zeichenkette:
 
 <pre>
 "gHHH5YY++///\\"

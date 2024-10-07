@@ -8,7 +8,7 @@ dashedName: convert-html-entities
 
 # --description--
 
-Convierte los caracteres `&`, `<`, `>`, `"` (dobles comillas), y `'` (apóstrofo), en un cadena con su correspondiente entidad HTML.
+Convert the characters `&`, `<`, `>`, `"` (double quote), and `'` (apostrophe), in a string to their corresponding HTML entities.
 
 # --hints--
 

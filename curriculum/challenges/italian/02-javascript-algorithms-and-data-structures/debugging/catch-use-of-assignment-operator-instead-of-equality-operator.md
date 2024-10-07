@@ -8,7 +8,7 @@ dashedName: catch-use-of-assignment-operator-instead-of-equality-operator
 
 # --description--
 
-In JavaScript, programmi con ramificazioni, ad esempio quelli che fanno cose diverse se certi presupposti sono rispettati, si basano sulle condizioni `if`, `else if`, e `else`. La condizione a volte consiste nel verificare se un risultato è uguale a un valore.
+Branching programs, i.e. ones that do different things if certain conditions are met, rely on `if`, `else if`, and `else` statements in JavaScript. The condition sometimes takes the form of testing whether a result is equal to a value.
 
 Questa logica si può esprimere (in inglese e italiano, almeno) come "se x è uguale a y, allora ..." che può letteralmente tradursi in codice utilizzando l'`=` o operatore di assegnazione. Questo porta a un controllo del flusso inatteso nel tuo programma.
 

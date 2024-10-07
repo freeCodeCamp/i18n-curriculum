@@ -11,7 +11,7 @@ dashedName: target-a-specific-child-of-an-element-using-jquery
 
 # --description--
 
-已經看到了 id 屬性對於 jQuery 選擇器選取標籤的便利， 但這並不適用於所有情景。
+You've seen why id attributes are so convenient for targeting with jQuery selectors. But you won't always have such neat ids to work with.
 
 幸運的是，jQuery 有一些其他的方法可以選取正確的標籤。
 

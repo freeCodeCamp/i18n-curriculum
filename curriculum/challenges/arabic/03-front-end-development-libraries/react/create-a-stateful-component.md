@@ -8,7 +8,7 @@ dashedName: create-a-stateful-component
 
 # --description--
 
-واحد من أهم المواضيع في React هو `state`. الحالة (State) تتكون من أي بيانات يحتاج التطبيق الخاص بك إلى معرفتها، التي يمكن أن تتغير بمرور الوقت. تريد من تطبيقاتك أن تستجيب لتغييرات الحالة وأن تقدم واجهة المستخدم (UI) المحدثة عند الضرورة. يوفر React حلاً جيداً لإدارة الدولة لتطبيقات الويب الحديثة.
+One of the most important topics in React is `state`. State consists of any data your application needs to know about, that can change over time. You want your apps to respond to state changes and present an updated UI when necessary. React offers a nice solution for the state management of modern web applications.
 
 يمكنك إنشاء الحالة (state) في مكون React عن طريق الإعلان عن `state` خاصية في فئة المكون في `constructor` الخاص به. هذا يهيئ المكون `state` عند إنشائه. يجب تعيين خاصية `state` إلى `object` من JavaScript. تكونها يبدو كهذا:
 

@@ -9,7 +9,7 @@ dashedName: check-radio-buttons-and-checkboxes-by-default
 
 # --description--
 
-`checked` 속성을 사용하여 체크박스(checkbox) 또는 라디오 버튼(radio button)이 체크되어 있도록 기본값을 설정할 수 있습니다.
+You can set a checkbox or radio button to be checked by default using the `checked` attribute.
 
 그러기 위해선 `input` 요소 내부에 `checked`라는 단어를 추가하면 됩니다. 예시:
 

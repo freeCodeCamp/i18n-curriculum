@@ -20,19 +20,19 @@ Complete o módulo <a href="https://learn.microsoft.com/training/modules/csharp-
 
 ## --text--
 
-Qual das seguintes opções é uma razão inadequada para se usar um comentário de código?
+Which of the following is a bad reason to use a code comment?
 
 ## --answers--
 
-Descrever a intenção de alto nível do código.
+To describe the high-level intent of the code.
 
 ---
 
-Comentar temporariamente uma linha de código enquanto avalia um recurso de maneira diferente.
+To temporarily comment out a line of code while evaluating a feature in a different way.
 
 ---
 
-Explicar como uma nova palavra-chave funciona em C#.
+To explain how a new C# keyword works.
 
 ## --video-solution--
 

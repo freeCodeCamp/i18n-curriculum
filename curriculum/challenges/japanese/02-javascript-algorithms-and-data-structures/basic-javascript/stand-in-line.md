@@ -9,7 +9,7 @@ dashedName: stand-in-line
 
 # --description--
 
-コンピューターサイエンスでは、アイテムを順に保存する抽象的な<dfn>データ構造</dfn>として<dfn>キュー</dfn>を使用します。 新しいアイテムはキューの末尾に追加され、古いアイテムはキューの先頭から削除されます。
+In Computer Science a <dfn>queue</dfn> is an abstract <dfn>Data Structure</dfn> where items are kept in order. New items can be added at the back of the queue and old items are taken off from the front of the queue.
 
 # --instructions--
 

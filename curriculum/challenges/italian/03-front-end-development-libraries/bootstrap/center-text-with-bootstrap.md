@@ -8,7 +8,7 @@ dashedName: center-text-with-bootstrap
 
 # --description--
 
-Ora che stiamo usando Bootstrap, possiamo centrare il nostro elemento di intestazione per farlo apparire meglio. Tutto quello che dobbiamo fare è aggiungere la classe `text-center` al nostro elemento `h2`.
+Now that we're using Bootstrap, we can center our heading element to make it look better. All we need to do is add the class `text-center` to our `h2` element.
 
 Ricorda che puoi aggiungere più classi allo stesso elemento separando ciascuna di esse con uno spazio, in questo modo:
 

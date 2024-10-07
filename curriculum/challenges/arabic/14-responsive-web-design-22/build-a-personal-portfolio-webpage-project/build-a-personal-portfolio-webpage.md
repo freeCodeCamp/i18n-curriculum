@@ -11,9 +11,9 @@ dashedName: build-a-personal-portfolio-webpage
 **Objective:** Build an app that is functionally similar to <a href="https://personal-portfolio.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://personal-portfolio.freecodecamp.rocks</a>. **Do not copy this demo project**.
 
 
-**قصص المستخدمين:**
+**المطلبيات:**
 
-1. معرض أعمالك يجب أن يكون فيه قسم ترحيب عنده `id` يساوي `welcome-section`
+1. Your portfolio should have a welcome section with an `id` of `welcome-section`
 1. قسم الترحيب يجب أن يكون فيه عنصر `h1` بداخله نصّ
 1. معرض أعمالك يجب أن يكون فيه قسم للمشاريع معه `id` يساوي `projects`
 1. قسم المشاريع يجب أن يكون فيه على الأقل عنصر واحد معه `class` تساوي`project-tile` ليضمّ المشروع
@@ -25,9 +25,9 @@ dashedName: build-a-personal-portfolio-webpage
 1. وينبغي أن يكون ارتفاع قسم الترحيب مساويا لارتفاع الـ viewport
 1. يجب أن يكون الـ navbar دائما في الجزء العلوي من الـ viewport
 
-أكمل المطلبيات قم باجتياز جميع الاختبارات أدناه لإكمال هذا المشروع. أعطيها أسلوبك الشخصي الخاص. برمجة سعيدة!
+أكمل المتطلبات و قم باجتياز جميع الاختبارات أدناه لإكمال هذا المشروع. أعطيها أسلوبك الشخصي الخاص. برمجة سعيدة!
 
-**ملاحظة:** تأكد من إضافة `<link rel="stylesheet" href="styles.css">` في HTML الخاص بك لربط ورقة الأنماط الخاصة بك وتطبيق CSS
+**ملاحظة:** تيقن من إضافة `<link rel="stylesheet" href="styles.css">` في HTML الخاص بك لربط ورقة الأسلوب الخاصة بك وتطبيق CSS
 
 # --hints--
 

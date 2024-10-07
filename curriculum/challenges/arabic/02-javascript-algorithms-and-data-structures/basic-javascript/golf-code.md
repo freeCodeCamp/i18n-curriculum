@@ -9,7 +9,7 @@ dashedName: golf-code
 
 # --description--
 
-في لُعْبَة الجولف، كل ثقب لديه `par`، التي تصف متوسط عدد الضربات `strokes` المتوقعة من اللاعب من أجل أدخال الكرة في الثَّقب لإكمال اللعب. اعتمادًا على مدى بعد `strokes` من `par` سواء البعد كان فوق أو تحت، يوجد اسم مستعار مختلف لكل منهم.
+In the game of Golf, each hole has a `par`, meaning, the average number of `strokes` a golfer is expected to make in order to sink the ball in the hole to complete the play. Depending on how far above or below `par` your `strokes` are, there is a different nickname.
 
 سيمرر `par` و `strokes` كمعطيات (arguments) لوظيفتك (function). أرجع المقطع الصحيح وفقًا لهذا الجدول الذي يسرد strokes حسب الأولوية؛ من الأعلى إلى الأسفل:
 

@@ -8,7 +8,7 @@ dashedName: label-bootstrap-buttons
 
 # --description--
 
-正如标注了每个 wells 一样，同样可以标注每一个按钮。
+Just like we labeled our wells, we want to label our buttons.
 
 为每个 `button` 元素设置与其 id 选择器对应的文本。
 

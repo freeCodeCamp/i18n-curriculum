@@ -8,9 +8,9 @@ dashedName: use-the-value-attribute-with-radio-buttons-and-checkboxes
 
 # --description--
 
-提交表单时，所选项的值会发送给服务端。 `radio` 和 `checkbox` 的 `value` 属性值决定了发送到服务端的实际内容。
+When a form gets submitted, the data is sent to the server and includes entries for the options selected. Inputs of type `radio` and `checkbox` report their values from the `value` attribute.
 
-例如：
+举个例子：
 
 ```html
 <label for="indoor">

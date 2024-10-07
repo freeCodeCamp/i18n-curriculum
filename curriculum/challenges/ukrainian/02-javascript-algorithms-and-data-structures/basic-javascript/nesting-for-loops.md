@@ -9,7 +9,7 @@ dashedName: nesting-for-loops
 
 # --description--
 
-Ви можете використати ту ж логіку для перебору як масиву, так і вкладених масивів, якщо перед вами багатовимірний масив. Ось приклад:
+If you have a multi-dimensional array, you can use the same logic as the prior waypoint to loop through both the array and any sub-arrays. Ось приклад:
 
 ```js
 const arr = [

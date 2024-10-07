@@ -10,7 +10,7 @@ dashedName: how-deep-neural-networks-work
 
 ## --text--
 
-相比较数字的计算，为什么深度神经网络可以更好地计算梯度（斜率）？
+Why is it better to calculate the gradient (slope) directly rather than numerically?
 
 ## --answers--
 

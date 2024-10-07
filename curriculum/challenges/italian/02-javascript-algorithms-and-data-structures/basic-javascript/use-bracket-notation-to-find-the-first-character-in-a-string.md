@@ -9,7 +9,7 @@ dashedName: use-bracket-notation-to-find-the-first-character-in-a-string
 
 # --description--
 
-<dfn>La notazione a parentesi</dfn> è un modo per ottenere il carattere a un indice specifico all'interno di una stringa.
+<dfn>Bracket notation</dfn> is a way to get a character at a specific index within a string.
 
 La maggior parte dei moderni linguaggi di programmazione, come JavaScript, non inizia a contare da 1 come gli esseri umani. Loro iniziano dallo 0. Questo è indicato come indicizzazione <dfn>Zero-based</dfn>.
 

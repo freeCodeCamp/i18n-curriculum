@@ -8,7 +8,7 @@ dashedName: use-const-for-action-types
 
 # --description--
 
-والممارسة الشائعة عند العمل مع Redux هي تعيين أنواع الإجراءات كثوابت للقراءة فقط، ثم الرجوع إلى هذه الثوابت (constants) أينما استخدمت. يمكنك إعادة تعديل التعليمات البرمجية التي تعمل معها لكتابة أنواع الإجراءات كإعلانات `const`.
+A common practice when working with Redux is to assign action types as read-only constants, then reference these constants wherever they are used. You can refactor the code you're working with to write the action types as `const` declarations.
 
 # --instructions--
 

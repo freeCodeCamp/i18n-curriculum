@@ -1,6 +1,6 @@
 ---
 id: 5e9a093a74c4063ca6f7c15d
-title: Data Cleaning Introduction
+title: مقدمة في تنظيف البيانات
 challengeType: 11
 videoId: ovYNhnltVxY
 bilibiliIds:
@@ -14,16 +14,16 @@ dashedName: data-cleaning-introduction
 
 *Instead of using notebooks.ai like it shows in the video, you can use Google Colab instead.*
 
-More resources:
+المزيد من المصادر:
 
 -  <a href="https://github.com/ine-rmotr-curriculum/data-cleaning-rmotr-freecodecamp" target="_blank" rel="noopener noreferrer nofollow">Notebooks on GitHub</a>
--  <a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb" target="_blank" rel="noopener noreferrer nofollow">How to open Notebooks from GitHub using Google Colab.</a>
+-  <a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebookس/colab-github-demo.ipynb" target="_blank" rel="noopener noreferrer nofollow">كيفية فتح (Notebook) من (GitHub) باستخدام (Google Colab).</a>
 
 # --questions--
 
 ## --text--
 
-What will the following code print out?
+ماذا سيطبع الكود التالي؟
 
 ```py
 import pandas as pd
@@ -49,14 +49,14 @@ dtype: bool</pre>
 
 ---
 
-<pre>0    False
-1    False
-2     True
-3    False
-4     True
+<pre>0     True
+1     True
+2    False
+3     True
+4    False
 dtype: bool</pre>
 
 ## --video-solution--
 
-1
+الأول
 

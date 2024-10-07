@@ -8,7 +8,7 @@ dashedName: telephone-number-validator
 
 # --description--
 
-Retorna `true` se a string fornecida se parece com um número telefônico dos Estados Unidos válido.
+Return `true` if the passed string looks like a valid US phone number.
 
 O usuário pode preencher o campo do formulário de qualquer maneira que escolher contanto que tenha o formato de um número válido dos EUA. Os seguintes são exemplos de formatos válidos para números nos EUA (consulte os testes abaixo para outras variantes):
 

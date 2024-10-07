@@ -9,7 +9,7 @@ dashedName: local-scope-and-functions
 
 # --description--
 
-Variablen, die innerhalb einer Funktion deklariert werden, sowie die Funktionsparameter, haben einen <dfn>lokalen</dfn> Gültigkeitsbereich. Das bedeutet, dass sie nur innerhalb dieser Funktion sichtbar sind.
+Variables which are declared within a function, as well as the function parameters, have <dfn>local</dfn> scope. That means they are only visible within that function.
 
 Hier ist eine Funktion `myTest` mit einer lokalen Variable namens `loc`.
 

@@ -9,9 +9,9 @@ dashedName: comparison-with-the-inequality-operator
 
 # --description--
 
-不相等运算符（`!=`）与相等运算符是相反的。 这意味着不相等并返回 `false` 的地方，用相等运算符会返回 `true`，*反之亦然*。 与相等运算符类似，不相等运算符在比较的时候也会转换值的数据类型。
+The inequality operator (`!=`) is the opposite of the equality operator. It means not equal and returns `false` where equality would return `true` and *vice versa*. Like the equality operator, the inequality operator will convert data types of values while comparing.
 
-**例如**
+**例如：**
 
 ```js
 1 !=  2    // true

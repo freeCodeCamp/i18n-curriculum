@@ -8,7 +8,7 @@ dashedName: factorialize-a-number
 
 # --description--
 
-Retorne o fatorial do inteiro fornecido.
+Return the factorial of the provided integer.
 
 Se o inteiro é representado com a letra `n`, o fatorial é o produto de todos os inteiros positivos menores ou iguais a `n`.
 

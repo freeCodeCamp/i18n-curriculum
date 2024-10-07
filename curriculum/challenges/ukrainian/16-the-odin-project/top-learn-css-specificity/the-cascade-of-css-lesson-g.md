@@ -41,11 +41,11 @@ dashedName: the-cascade-of-css-lesson-g
 
 ## --answers--
 
-Червоний
+Червоного
 
 ---
 
-Синій
+Синього
 
 ---
 

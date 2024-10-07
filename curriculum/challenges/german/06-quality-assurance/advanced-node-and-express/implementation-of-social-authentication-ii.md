@@ -1,6 +1,6 @@
 ---
 id: 589a69f5f9fc0f352b528e71
-title: Implementation of Social Authentication II
+title: Einführung der sozialen Authentifizierung II
 challengeType: 2
 forumTopicId: 301557
 dashedName: implementation-of-social-authentication-ii
@@ -10,9 +10,9 @@ dashedName: implementation-of-social-authentication-ii
 
 The last part of setting up your GitHub authentication is to create the strategy itself. `passport-github@~1.1.0` has already been added as a dependency, so require it in your `auth.js` file as `GithubStrategy` like this: `const GitHubStrategy = require('passport-github').Strategy;`. Do not forget to require and configure `dotenv` to use your environment variables.
 
-To set up the GitHub strategy, you have to tell Passport to use an instantiated `GitHubStrategy`, which accepts 2 arguments: an object (containing `clientID`, `clientSecret`, and `callbackURL`) and a function to be called when a user is successfully authenticated, which will determine if the user is new and what fields to save initially in the user's database object. This is common across many strategies, but some may require more information as outlined in that specific strategy's GitHub README. For example, Google requires a *scope* as well which determines what kind of information your request is asking to be returned and asks the user to approve such access.
+Um die GitHub-Strategie einzurichten, müssen Sie Pass anweisen, eine instanziierte `GitHubStrategie` zu verwenden, die 2 Argumente akzeptiert: ein Objekt (mit `clientID`, `clientSecret` und `RückrufURL)` und eine Funktion, die aufgerufen werden soll, wenn ein Benutzer erfolgreich authentifiziert wird, wodurch bestimmt wird, ob der Benutzer neu ist und welche Felder zunächst im Datenbankobjekt des Benutzers gespeichert werden sollen. Dies ist bei vielen Strategien üblich, aber einige erfordern möglicherweise mehr Informationen, wie in der GitHub-README-Datei dieser spezifischen Strategie beschrieben. Google verlangt zum Beispiel auch einen *scope*, der festlegt, welche Art von Informationen übermittelt werden sollen, und den Nutzer bittet, diesen Zugriff zu genehmigen.
 
-The current strategy you are implementing authenticates users using a GitHub account and OAuth 2.0 tokens. The client ID and secret obtained when creating an application are supplied as options when creating the strategy. The strategy also requires a `verify` callback, which receives the access token and optional refresh token, as well as `profile` which contains the authenticated user's GitHub profile. The `verify` callback must call `cb` providing a user to complete authentication.
+Die aktuelle Strategie, die du implementierst, authentifiziert Benutzer mit einem GitHub-Konto und OAuth 2.0-Tokens. Die erhaltene Kunden-ID und der geheime Schlüssel beim Erstellen einer Anwendung werden angegeben als Optionen beim Erstellen der Strategie. Die Strategie erfordert auch ein `verify` Callback, das den Access-Token und optionalen Refresh-Token erhält sowie `profile`, der das authentifizierte GitHub Nutzer-Profil enthält. Der `verify` Callback muss `cb` aufrufen, der einen Benutzer zur Verfügung stellt, um die Authentifizierung abzuschließen.
 
 So sollte deine neue Strategie zu diesem Zeitpunkt aussehen:
 
@@ -29,9 +29,9 @@ passport.use(new GitHubStrategy({
 ));
 ```
 
-Your authentication won't be successful yet, and it will actually throw an error without the database logic and callback, but it should log your GitHub profile to your console if you try it!
+Die Authentifizierung wird noch nicht erfolgreich sein und ohne die Datenbanklogik und den Rückruf einen Fehler auslösen, aber es sollte dein GitHub-Profil auf deiner Konsole protokollieren, wenn du es versuchest!
 
-Reiche deine Seite ein, wenn du davon ausgehst, alles richtig gemacht zu haben. If you're running into errors, you can <a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#implementation-of-social-authentication-ii-4" target="_blank" rel="noopener noreferrer nofollow">check out the project completed up to this point</a>.
+Reiche deine Seite ein, wenn du davon ausgehst, alles richtig gemacht zu haben. Wenn du auf Fehler stößt, kannst du <a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#implementation-of-social-authentication-ii-4" target="_blank" rel="noopener noreferrer nofollow">das bis zu diesem Punkt abgeschlossene Projekt überprüfen</a>.
 
 # --hints--
 
@@ -65,7 +65,7 @@ async (getUserInput) => {
 }
 ```
 
-GitHub strategy should be setup correctly thus far.
+Die GitHub-Strategie sollte bisher korrekt eingerichtet sein.
 
 ```js
 async (getUserInput) => {

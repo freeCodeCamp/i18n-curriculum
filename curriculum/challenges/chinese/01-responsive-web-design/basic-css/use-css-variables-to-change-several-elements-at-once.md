@@ -9,7 +9,7 @@ dashedName: use-css-variables-to-change-several-elements-at-once
 
 # --description--
 
-<dfn>CSS 变量</dfn>可以实现仅需要更新一个值，就可以将更改应用到多个 CSS 样式属性的强大方法。
+<dfn>CSS Variables</dfn> are a powerful way to change many CSS style properties at once by changing only one value.
 
 按照下面指示的来做，我们只需要改变三个值，多个样式将会同时被修改。
 
@@ -19,7 +19,7 @@ dashedName: use-css-variables-to-change-several-elements-at-once
 
 # --hints--
 
-`penguin` class 声明中的 `--penguin-skin` 变量值应为 `gray`。
+应在 `penguin` class 里声明 `--penguin-skin` 变量，且赋值为 `gray`。
 
 ```js
 assert(

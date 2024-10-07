@@ -8,7 +8,7 @@ dashedName: copy-an-object-with-object-assign
 
 # --description--
 
-في التحديات العدّة السابقة تعاملت مع القائمة، ولكن هناك طرق للمساعدة في دعم عدم قدرة الحالة على التغيير عندما تكون الحالة `object` أيضًا. أداة مفيدة للتعامل مع الكائنات هي فائدة `Object.assign()`. `Object.assign()` يأخذ كائن مستهدف و كائنات من المصدر و خرائط الخصائص من الكائنات من المصدر إلى الكائن المستهدف. أي خصائص مطابقة يتم الكتابة عليها بواسطة الخصائص الموجودة في الكائنات من المصدر. يستخدم هذا السلوك عادة لصنع نسخ ضحله (shallow) من الكائنات عن طريق تمرير كائن فارغ كالحجة الأولى, يتبعها الكائن (الكائنات) الذي تريد نسخه. إليك مثال:
+The last several challenges worked with arrays, but there are ways to help enforce state immutability when state is an `object`, too. A useful tool for handling objects is the `Object.assign()` utility. `Object.assign()` takes a target object and source objects and maps properties from the source objects to the target object. Any matching properties are overwritten by properties in the source objects. This behavior is commonly used to make shallow copies of objects by passing an empty object as the first argument followed by the object(s) you want to copy. إليك مثال:
 
 ```js
 const newObject = Object.assign({}, obj1, obj2);

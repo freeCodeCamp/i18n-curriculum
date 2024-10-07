@@ -9,9 +9,9 @@ dashedName: return-early-pattern-for-functions
 
 # --description--
 
-Коли досягається інструкція `return`, виконання поточної функції припиняється, а керування повертається до місця, де було викликано функцію.
+When a `return` statement is reached, the execution of the current function stops and control returns to the calling location.
 
-**Приклад**
+**Наприклад:**
 
 ```js
 function myFun() {

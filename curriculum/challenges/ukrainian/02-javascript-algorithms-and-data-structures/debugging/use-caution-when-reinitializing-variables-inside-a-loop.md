@@ -8,7 +8,7 @@ dashedName: use-caution-when-reinitializing-variables-inside-a-loop
 
 # --description--
 
-Іноді потрібно зберегти інформацію, збільшити лічильники чи перевстановити змінні всередині циклу. Потенційна проблема полягає в тому, що змінні повинні бути повторно ініціалізовані, а насправді не є такими, або навпаки. Це особливо небезпечно, якщо ви випадково скинули змінну, яка використовується в кінцевій умові, що може спричинити появу нескінченного циклу.
+Sometimes it's necessary to save information, increment counters, or re-set variables within a loop. A potential issue is when variables either should be reinitialized, and aren't, or vice versa. This is particularly dangerous if you accidentally reset the variable being used for the terminal condition, causing an infinite loop.
 
 Ви можете виявити помилкову поведінку, пов’язану зі скиданням змінної, надрукувавши значення змінної після кожного виконання циклу за допомогою `console.log()`.
 

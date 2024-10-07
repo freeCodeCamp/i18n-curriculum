@@ -9,7 +9,7 @@ dashedName: override-all-other-styles-by-using-important
 
 # --description--
 
-Ура! Ми щойно довели, що вбудовані стилі заміняють усі об'яви в елементі `style`.
+Yay! We just proved that inline styles will override all the CSS declarations in your `style` element.
 
 Але зачекайте. Є ще один, останній спосіб замінити CSS. Це - найпотужніший зі всіх методів. Але перш ніж ми це зробимо, давайте поговоримо про те, чому вам коли-небудь треба буде замінити CSS.
 

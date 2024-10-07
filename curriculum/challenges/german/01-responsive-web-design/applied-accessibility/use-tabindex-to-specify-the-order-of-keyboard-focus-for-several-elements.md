@@ -9,7 +9,7 @@ dashedName: use-tabindex-to-specify-the-order-of-keyboard-focus-for-several-elem
 
 # --description--
 
-Das `tabindex`-Attribut legt die exakte Reihenfolge von Elementen für die Navigation per Tabulatortaste fest. Dies wird erreicht, indem der Wert des Attributs auf eine positive Zahl von 1 oder mehr gesetzt wird.
+The `tabindex` attribute also specifies the exact tab order of elements. This is achieved when the attribute's value is set to a positive number of 1 or higher.
 
 Das Setzen eines `tabindex="1"` lenkt den Tastaturfokus zuerst auf dieses Element. Anschließend rotiert er durch die Sequenz der angegebenen `tabindex`-Werte (2, 3 etc.), bevor er zu Elementen mit Standardwerten bzw. `tabindex="0"` wechselt.
 

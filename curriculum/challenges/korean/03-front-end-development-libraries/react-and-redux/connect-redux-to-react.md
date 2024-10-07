@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d4036147
-title: Connect Redux to React
+title: 리액트에 리덕스(Redux) 연결하기
 challengeType: 6
 forumTopicId: 301426
 dashedName: connect-redux-to-react
@@ -10,21 +10,21 @@ dashedName: connect-redux-to-react
 
 Now that you've written both the `mapStateToProps()` and the `mapDispatchToProps()` functions, you can use them to map `state` and `dispatch` to the `props` of one of your React components. The `connect` method from React Redux can handle this task. This method takes two optional arguments, `mapStateToProps()` and `mapDispatchToProps()`. They are optional because you may have a component that only needs access to `state` but doesn't need to dispatch any actions, or vice versa.
 
-To use this method, pass in the functions as arguments, and immediately call the result with your component. This syntax is a little unusual and looks like:
+이 메소드를 사용하려면 함수를 인자로 전달하고 컴포넌트로 결과를 즉시 호출해야 합니다. 이 문법은 약간 특이하며 다음과 같이 생겼습니다:
 
 ```js
 connect(mapStateToProps, mapDispatchToProps)(MyComponent)
 ```
 
-**Note:** If you want to omit one of the arguments to the `connect` method, you pass `null` in its place.
+**참고:** ` connect`메소드의 인자 중 하나를 생략하려면 그 자리에 `null`를 전달하면 됩니다.
 
 # --instructions--
 
-The code editor has the `mapStateToProps()` and `mapDispatchToProps()` functions and a new React component called `Presentational`. Connect this component to Redux with the `connect` method from the `ReactRedux` global object, and call it immediately on the `Presentational` component. Assign the result to a new `const` called `ConnectedComponent` that represents the connected component. That's it, now you're connected to Redux! Try changing either of `connect`'s arguments to `null` and observe the test results.
+코드 에디터에는 `mapStateToProps()` 및 `mapDispatchToProps()` 함수와 새로운 리액트 컴포넌트인 `Presentational`가 있습니다. 이 컴포넌트를 `ReactRedux` 전역 객체(global object)의 `connect` 메소드를 사용하여 리덕스에 연결하고, `Presentational` 컴포넌트에서 즉시 호출하세요. 결과를 연결된 컴포넌트를 나타내는 `ConnectedComponent`라는 새 `const`에 할당하세요. 이제 리덕스에 연결되었습니다! `connect`의 인자 중 하나를 `null`로 변경하고 테스트 결과를 관찰해보세요.
 
 # --hints--
 
-The `Presentational` component should render.
+`Presentational` 컴포넌트가 렌더링 되어야 합니다.
 
 ```js
 assert(
@@ -35,7 +35,7 @@ assert(
 );
 ```
 
-The `Presentational` component should receive a prop `messages` via `connect`.
+`Presentational` 컴포넌트는 `connect`를 통해 prop인 `messages`를 받아야합니다.
 
 ```js
 assert(
@@ -47,7 +47,7 @@ assert(
 );
 ```
 
-The `Presentational` component should receive a prop `submitNewMessage` via `connect`.
+`Presentational` 컴포넌트는 `connect`를 통해 prop인 `submitNewMessage`를 받아야합니다.
 
 ```js
 assert(

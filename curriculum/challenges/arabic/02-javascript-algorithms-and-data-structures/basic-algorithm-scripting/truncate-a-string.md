@@ -8,7 +8,7 @@ dashedName: truncate-a-string
 
 # --description--
 
-اقتطع المقطع النصي (الحَجَّة الأولى) إذا كانت أطول من الحد الأقصى المحدد لطول المقطع النصي (الحَجَّة الثانية). أنشئ المقطع النصي المتقطع حيث ينتهي بـ `...` ثلاث نُقَط.
+Truncate a string (first argument) if it is longer than the given maximum string length (second argument). Return the truncated string with a `...` ending.
 
 # --hints--
 

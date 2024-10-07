@@ -8,7 +8,7 @@ dashedName: start-a-working-express-server
 
 # --description--
 
-في السطر الأول من الملف `myApp.js`، يمكنك أن ترى مدى سهولة إنشاء كائن تطبيق Express. هذا الكائن لديه العديد من الطرق، وسوف تتعلم الكثير منها في هذه التحديات. إحدى الطرق الأساسية هي `app.listen(port)`. إنه يخبر سيرفرك أن يستمع إلى منفذ (port) معين، وأن يضعه في حالة تشغيل. لأسباب الاختبار، نحن بحاجة إلى أن يكون التطبيق قيد التشغيل في الخلفية لذلك أضفنا لك هذه الطريقة في ملف `server.js`.
+In the first two lines of the file `myApp.js`, you can see how easy it is to create an Express app object. This object has several methods, and you will learn many of them in these challenges. One fundamental method is `app.listen(port)`. It tells your server to listen on a given port, putting it in running state. For testing reasons, we need the app to be running in the background so we added this method in the `server.js` file for you.
 
 هيا نمدد المقطع النصي الأول! في Express، تأخذ المسارات البنية التالية: `app.METHOD(PATH, HANDLER)`. إن METHOD طريقة http مكتوبة بحروف صغيرة. إن PATH المنفذ نسبي في السيرفر (يمكن أن يكون مقطع نصي أو حتى عبارة (expression) عادية). إن HANDLER وظيفة معالجة ينفذها Express عند مطابقة ال route. تكتب تلك الوظائف المعالجة مثل `function(req, res) {...}`، حيث req هو كائن الطلب، و res هو كائن الاستجابة. على سبيل المثال المعالج
 

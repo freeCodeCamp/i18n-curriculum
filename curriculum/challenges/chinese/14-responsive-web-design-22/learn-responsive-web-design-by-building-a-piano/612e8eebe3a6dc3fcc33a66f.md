@@ -1,13 +1,13 @@
 ---
 id: 612e8eebe3a6dc3fcc33a66f
-title: 步骤 11
+title: 步骤11
 challengeType: 0
 dashedName: step-11
 ---
 
 # --description--
 
-现在使用 `id` 选择器定位 `#piano` 元素。 设置 `background-color` 属性为 `#00471b`，`width` 属性为 `992px` 以及 `height` 属性为 `290px`。
+Now target your `#piano` element with an `id` selector. Set `background-color` property to `#00471b`, the `width` property to `992px` and the `height` property to `290px`.
 
 # --hints--
 

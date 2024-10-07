@@ -1,6 +1,6 @@
 ---
 id: 587d8254367417b2b2512c6e
-title: Perform a Difference on Two Sets of Data
+title: 对两组数据执行差分
 challengeType: 1
 forumTopicId: 301706
 dashedName: perform-a-difference-on-two-sets-of-data
@@ -10,11 +10,11 @@ dashedName: perform-a-difference-on-two-sets-of-data
 
 In this exercise we are going to perform a difference on 2 sets of data. We will create a method on our `Set` data structure called `difference`. A difference of sets should compare two sets and return the items present in the first set that are absent in the second. This method should take another `Set` as an argument and return the `difference` of the two sets.
 
-For example, if `setA = ['a','b','c']` and `setB = ['a','b','d','e']`, then the difference of setA and setB is: `setA.difference(setB) = ['c']`.
+例如，如果 `setA = ['a','b','c']` 且 `setB = ['a','b','d','e']`，那么 setA 和 setB 的区别是：`setA.difference(setB) = ['c']`。
 
 # --hints--
 
-Your `Set` class should have a `difference` method.
+你的 `Set` 类应该有一个 `difference` 方法。
 
 ```js
 assert(
@@ -25,7 +25,7 @@ assert(
 );
 ```
 
-Your `difference` method should return the proper collection.
+您的 difference 方法应该返回正确的集合。
 
 ```js
 assert(

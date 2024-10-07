@@ -9,9 +9,9 @@ dashedName: standardize-times-with-the-html5-datetime-attribute
 
 # --description--
 
-날짜 주제를 이어가자면, HTML5에서는 `datetime` 속성과 함께 `time` 요소를 소개하여 시간을 표준화했습니다. `time` 요소는 페이지에서 날짜 또는 시간을 감쌀 수 있는 인라인 요소입니다. `datetime` 속성은 해당 날짜의 유효한 형식을 저장합니다. 이 값은 접근성 기기에서 액세스할 수 있습니다. 이것은 텍스트에서 표준어가 아니거나 대화체로 쓰여진 시간의 표준화된 버전을 나타내어 혼란을 방지하는 데 도움이 됩니다.
+Continuing with the date theme, HTML5 also introduced the `time` element along with a `datetime` attribute to standardize times. The `time` element is an inline element that can wrap a date or time on a page. A `datetime` attribute holds a valid format of that date. This is the value accessed by assistive devices. It helps avoid confusion by stating a standardized version of a time, even if it's informally or colloquially written in the text.
 
-여기 예시가 있습니다.
+여기 예시가 있습니다:
 
 ```html
 <p>Master Camper Cat officiated the cage match between Goro and Scorpion <time datetime="2013-02-13">last Wednesday</time>, which ended in a draw.</p>

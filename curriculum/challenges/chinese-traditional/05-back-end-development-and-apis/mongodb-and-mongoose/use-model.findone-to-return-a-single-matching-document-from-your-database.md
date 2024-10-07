@@ -8,7 +8,7 @@ dashedName: use-model-findone-to-return-a-single-matching-document-from-your-dat
 
 # --description--
 
-`Model.findOne()` 與 `Model.find()` 十分類似，但就算數據庫中有很多條數據可以匹配查詢條件，它也只返回一個 document，而不會返回一個數組， 如果查詢條件是聲明爲唯一值的屬性，它會更加適用。
+`Model.findOne()` behaves like `Model.find()`, but it returns only one document (not an array), even if there are multiple items. It is especially useful when searching by properties that you have declared as unique.
 
 # --instructions--
 

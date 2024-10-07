@@ -8,7 +8,7 @@ dashedName: use-middleware-to-handle-asynchronous-actions
 
 # --description--
 
-وقد تجنبت هذه التحديات حتى الآن مناقشة الإجراءات غير المتزامنة، ولكنها جزء لا يمكن تجنبه من تطوير الشبكة الإلكترونية. في مرحلة ما ستحتاج إلى استدعاء نُقَط النهاية غير متزامنة في تطبيق Redux الخاص بك، لذلك كيف تتعامل مع هذه الأنواع من الطلبات؟ Redux يوفر وسيط (middleware) مصمم خصيصاً لهذا الغرض، يسمى Redux Thunk middleware. إليك وصف موجز لكيفية استخدام هذا مع Redux.
+So far these challenges have avoided discussing asynchronous actions, but they are an unavoidable part of web development. At some point you'll need to call asynchronous endpoints in your Redux app, so how do you handle these types of requests? Redux provides middleware designed specifically for this purpose, called Redux Thunk middleware. Here's a brief description how to use this with Redux.
 
 لتضمين Redux Thunk middleware، يمكنك تمريره كحجة إلى `Redux.applyMiddleware()`. ثم يتم تقديم هذا التعبير كحجة اختيارية ثانية لوظيفة `createStore()`. ألقي النَّظْرَة على التعليمات البرمجية في أسفل المحرر لرؤية هذا. ثم لإنشاء إجراء غير متزامن، يمكنك إرجاع وظيفة في منشئ العمل الذي يأخذ `dispatch` كحجة. في إطار هذه الوظيفة، يمكنك إرسال الإجراءات وتنفيذ طلبات غير متزامنة.
 

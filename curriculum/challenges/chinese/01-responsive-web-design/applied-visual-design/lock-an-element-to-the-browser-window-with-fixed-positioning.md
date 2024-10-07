@@ -9,7 +9,7 @@ dashedName: lock-an-element-to-the-browser-window-with-fixed-positioning
 
 # --description--
 
-接下来要介绍的是 `fixed` 定位，它是一种特殊的绝对（absolute）定位，将元素相对于浏览器窗口定位。 类似于绝对位置，它与 CSS 偏移属性一起使用，并且也会将元素从当前的文档流里面移除。 其它元素会忽略它的存在，这样也许需要调整其他位置的布局。
+The next layout scheme that CSS offers is the `fixed` position, which is a type of absolute positioning that locks an element relative to the browser window. Similar to absolute positioning, it's used with the CSS offset properties and also removes the element from the normal flow of the document. Other items no longer "realize" where it is positioned, which may require some layout adjustments elsewhere.
 
 但 `fixed` 和 `absolute` 的最明显的区别在于，前者定位的元素不会随着屏幕滚动而移动。
 

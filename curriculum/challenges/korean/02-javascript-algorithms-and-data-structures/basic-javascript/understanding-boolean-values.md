@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c441eddfaeb5bdef
-title: Understanding Boolean Values
+title: 불리언 값 이해하기
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/c9Me8t4'
 forumTopicId: 301176
@@ -11,21 +11,21 @@ dashedName: understanding-boolean-values
 
 Another data type is the <dfn>Boolean</dfn>. Booleans may only be one of two values: `true` or `false`. They are basically little on-off switches, where `true` is on and `false` is off. These two states are mutually exclusive.
 
-**Note:** Boolean values are never written with quotes. The strings `"true"` and `"false"` are not Boolean and have no special meaning in JavaScript.
+**Note:** 불리언 값들은 따옴표와 쓰이지 않습니다. 문자열 `"true"`와 `"false"`는 불리언이 아니고, JavaScript에서 특별한 의미를 가지지 않습니다.
 
 # --instructions--
 
-Modify the `welcomeToBooleans` function so that it returns `true` instead of `false`.
+`false`대신 `true`를 반환하도록 `welcomeToBooleans` 함수를 고치세요.
 
 # --hints--
 
-The `welcomeToBooleans()` function should return a Boolean (`true` or `false`) value.
+`welcomeToBooleans()`함수는 불리언값(`true`나 `false`) 을 반환해야 합니다.
 
 ```js
 assert(typeof welcomeToBooleans() === 'boolean');
 ```
 
-`welcomeToBooleans()` should return `true`.
+`welcomeToBooleans()`는 `true`를 반환해야 합니다.
 
 ```js
 assert(welcomeToBooleans() === true);

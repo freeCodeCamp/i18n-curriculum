@@ -9,7 +9,7 @@ dashedName: learn-about-complementary-colors
 
 # --description--
 
-Die Farbtheorie und ihr Einfluss im Design-Bereich ist ein umfassendes Thema und in den folgenden Aufgaben werden nur die Grundlagen vorgestellt. Auf einer Website kann Farbe die Aufmerksamkeit auf Inhalte lenken, Emotionen auslösen und visuelle Harmonie schaffen. Die Verwendung verschiedener Farbkombinationen kann das Aussehen einer Website gravierend verändern und das Erstellen einer fein abgestimmten, dem Inhalte angepassten Farbpalette bedarf mitunter einiger Arbeit.
+Color theory and its impact on design is a deep topic and only the basics are covered in the following challenges. On a website, color can draw attention to content, evoke emotions, or create visual harmony. Using different combinations of colors can really change the look of a website, and a lot of thought can go into picking a color palette that works with your content.
 
 Der Farbkreis ist ein nützliches Werkzeug, um zu visualisieren, wie Farben miteinander in Beziehung stehen. Er besteht aus kreisförmig angeordneten Farbtönen, wobei ähnliche Töne nahe zusammen und unterschiedliche weiter auseinander liegen. Wenn zwei Farben auf dem Farbkreis gegenüber stehen, nennt man sie Komplementärfarben. Zusammengemischt neutralisieren sie sich und kreieren ein Grau. Nebeneinandergestellt wirken sie jedoch kräftig und sie erzeugen einen starken visuellen Kontrast.
 

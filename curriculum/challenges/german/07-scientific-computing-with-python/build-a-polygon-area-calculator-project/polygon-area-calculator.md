@@ -12,27 +12,27 @@ In this project you will use object oriented programming to create a `Rectangle`
 
 ## Rectangle class
 
-When a Rectangle object is created, it should be initialized with `width` and `height` attributes. The class should also contain the following methods:
+When a Rectangle object is created, it should be initialized with `width` and `height` attributes. Die Klasse sollte auch die folgenden Methoden beinhalten:
 
 - `set_width`
 - `set_height`
-- `get_area`: Returns area (`width * height`)
-- `get_perimeter`: Returns perimeter (`2 * width + 2 * height`)
-- `get_diagonal`: Returns diagonal (`(width ** 2 + height ** 2) ** .5`)
-- `get_picture`: Returns a string that represents the shape using lines of '\*'. The number of lines should be equal to the height and the number of '\*' in each line should be equal to the width. There should be a new line (`\n`) at the end of each line. If the width or height is larger than 50, this should return the string: `'Too big for picture.'`.
-- `get_amount_inside`: Takes another shape (square or rectangle) as an argument. Returns the number of times the passed in shape could fit inside the shape (with no rotations). For instance, a rectangle with a width of 4 and a height of 8 could fit in two squares with sides of 4.
+- `get_area`: Gibt den Bereich zurück (`width * height`)
+- `get_perimeter`: Gibt den Umfang zurück (`2 * width + 2 * height`)
+- `get_diagonal`: Gibt die Diagonale zurück (`(width ** 2 + height ** 2) ** .5`)
+- `get_picture`: Returns a string that represents the shape using lines of '\*'. The number of lines should be equal to the height and the number of '\*' in each line should be equal to the width. Am Ende jeder Zeile sollte eine neue Zeile (`\n`) stehen. If the width or height is larger than 50, this should return the string: `'Too big for picture.'`.
+- `get_amount_inside`: Nimmt eine andere Form (Quadrat oder Rechteck) als Argument. Gibt die Anzahl der Male zurück, die die übergebene Form in die Form passen könnte (ohne Drehungen). Zum Beispiel könnte ein Rechteck mit einer Breite von 4 und einer Höhe von 8 in zwei Quadrate mit 4 Seiten passen.
 
 Additionally, if an instance of a `Rectangle` is represented as a string, it should look like: `'Rectangle(width=5, height=10)'`.
 
-## Square class
+## Quadrat-Klasse
 
-The `Square` class should be a subclass of `Rectangle`. When a `Square` object is created, a single side length is passed in. The `__init__` method should store the side length in both the `width` and `height` attributes from the `Rectangle` class.
+Die `Square`-Klasse sollte eine Unterklasse von `Rectangle` sein. Bei der Erstellung eines `Square`-Objekts wird eine einzelne Seitenlänge angegeben. Die `__init__`-Methode sollte die Seitenlänge in den beiden Attributen `width` und `height` der `Rectangle`-Klasse speichern.
 
-The `Square` class should be able to access the `Rectangle` class methods but should also contain a `set_side` method. If an instance of a `Square` is represented as a string, it should look like: `'Square(side=9)'`.
+Die `Square`-Klasse sollte auf die Methoden der `Rectangle`-Klasse zugreifen können, aber auch eine `set_side`-Methode enthalten. If an instance of a `Square` is represented as a string, it should look like: `'Square(side=9)'`.
 
-Additionally, the `set_width` and `set_height` methods on the `Square` class should set both the width and height.
+Außerdem sollten die Methoden `set_width` und `set_height` der `Square`-Klasse sowohl die Breite als auch die Höhe festlegen.
 
-## Usage example
+## Beispiel für die Verwendung
 
 ```py
 rect = Rectangle(10, 5)

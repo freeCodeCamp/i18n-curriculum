@@ -8,7 +8,7 @@ dashedName: perform-classic-updates-by-running-find-edit-then-save
 
 # --description--
 
-Nos bons e velhos tempos, era isso que você precisava fazer se você quisesse editar um documento e ser capaz de usá-lo de algum modo (ou seja, enviando o documento de volta em uma resposta do servidor). O Mongoose tem um método dedicado à atualização: `Model.update()`. Ele está vinculado ao driver do mongo de nível mais baixo. Ele pode editar em massa muitos documentos que correspondem a certos critérios, mas não envia de volta o documento atualizado, apenas uma mensagem de 'status'. Além disso, ele dificulta as validações de modelo, porque apenas chama diretamente o driver do mongo.
+In the good old days, this was what you needed to do if you wanted to edit a document, and be able to use it somehow (e.g. sending it back in a server response). Mongoose has a dedicated updating method: `Model.update()`. It is bound to the low-level mongo driver. It can bulk-edit many documents matching certain criteria, but it doesn’t send back the updated document, only a 'status' message. Furthermore, it makes model validations difficult, because it just directly calls the mongo driver.
 
 # --instructions--
 

@@ -8,7 +8,7 @@ dashedName: render-state-in-the-user-interface-another-way
 
 # --description--
 
-هناك طريقة أخرى للوصول إلى `state` في مكون. في طريقة `render()`، قبل بيان `return`، يمكنك كتابة JavaScript مباشرة. على سبيل المثال، يمكنك الإعلان عن الحالة، والوصول إلى البيانات من `state` أو `props`، وإجراء حسابات على هذه البيانات، وكذلك. ثم يمكنك تعيين أي بيانات للمتغيرات، التي لديك حق الوصول إليها في بيان `return`.
+There is another way to access `state` in a component. In the `render()` method, before the `return` statement, you can write JavaScript directly. For example, you could declare functions, access data from `state` or `props`, perform computations on this data, and so on. Then, you can assign any data to variables, which you have access to in the `return` statement.
 
 # --instructions--
 
@@ -44,7 +44,7 @@ assert(
   assert(/<h1>\n*\s*\{\s*name\s*\}\s*\n*<\/h1>/.test(getUserInput('index')));
 ```
 
-يجب أن يحتوي عنصر العنوان `h1` المُنتج على النص المقدم من حالة المكون.
+يجب أن يحتوي عنصر العنوان `h1` المُنتج على النص المقدم من حالة المكون (component's state).
 
 ```js
 async () => {

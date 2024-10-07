@@ -9,11 +9,11 @@ dashedName: manipulate-arrays-with-unshift
 
 # --description--
 
-Ви можете не лише перемістити (`shift`) елементи з початку масиву, але й змістити (`unshift`) їх на початок масиву, тобто додати елементи спочатку.
+Not only can you `shift` elements off of the beginning of an array, you can also `unshift` elements to the beginning of an array i.e. add elements in front of the array.
 
 `.unshift()` працює в точності як `.push()`, але замість додавання елемента в кінець масиву, `unshift()` додає елемент на початку масиву.
 
-Приклад:
+Наприклад:
 
 ```js
 const ourArray = ["Stimpson", "J", "cat"];

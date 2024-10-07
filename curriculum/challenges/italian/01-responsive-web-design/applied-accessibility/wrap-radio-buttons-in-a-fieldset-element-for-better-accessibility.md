@@ -9,13 +9,13 @@ dashedName: wrap-radio-buttons-in-a-fieldset-element-for-better-accessibility
 
 # --description--
 
-Il prossimo argomento sui moduli riguarda l'accessibilità dei pulsanti di opzione. Ad ogni scelta viene data un'etichetta (`label`) con un attributo `for` che la lega all' `id` dell'elemento corrispondente, come spiegato nell'ultima sfida. Poiché i pulsanti di opzione vengono spesso usati in un gruppo in cui l'utente deve sceglierne uno, c'è un modo per mostrare semanticamente che le scelte fanno parte di uno stesso set.
+The next form topic covers the accessibility of radio buttons. Each choice is given a `label` with a `for` attribute tying to the `id` of the corresponding item as covered in the last challenge. Since radio buttons often come in a group where the user must choose one, there's a way to semantically show the choices are part of a set.
 
 Il tag `fieldset` circonda l'intero raggruppamento dei pulsanti di opzione per ottenere questo risultato. Si usa spesso un tag `legend` per fornire una descrizione del raggruppamento, che gli screen reader leggono per ogni scelta nell'elemento `fieldset`.
 
 I tag di raggruppamento `fieldset` e `legend` non sono necessari quando le scelte sono auto-esplicative, come una selezione di genere. In questi casi è sufficiente utilizzare un'etichetta `label` con l'attributo `for` per ogni pulsante radio.
 
-Ecco un esempio:
+Qui un esempio:
 
 ```html
 <form>

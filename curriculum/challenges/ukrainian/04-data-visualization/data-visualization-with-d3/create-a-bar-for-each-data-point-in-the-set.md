@@ -8,7 +8,7 @@ dashedName: create-a-bar-for-each-data-point-in-the-set
 
 # --description--
 
-У попередньому завданні потрібно було додати лише один прямокутник до елемента `svg`, щоб представити стовпчик. Зараз ви об’єднаєте всі здобуті знання про `data()`, `enter()` та фігури SVG, щоб створити та додати прямокутник до кожної точки даних в `dataset`.
+The last challenge added only one rectangle to the `svg` element to represent a bar. Here, you'll combine what you've learned so far about `data()`, `enter()`, and SVG shapes to create and append a rectangle for each data point in `dataset`.
 
 У попередньому завданні було пояснено, як створити та додати `div` для кожного елемента в `dataset`:
 

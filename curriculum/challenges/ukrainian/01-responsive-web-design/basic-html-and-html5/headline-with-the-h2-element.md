@@ -9,7 +9,7 @@ dashedName: headline-with-the-h2-element
 
 # --description--
 
-Протягом наступних уроків ми будем крок за кроком створювати веб-додаток Cat Photo мовою HTML5.
+Over the next few lessons, we'll build an HTML5 cat photo web app piece-by-piece.
 
 Елемент `h2`, з яким будете працювати на цьому етапі, додасть заголовок другого рівня на вашу сторінку.
 

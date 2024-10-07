@@ -9,7 +9,7 @@ dashedName: make-a-css-heartbeat-using-an-infinite-animation-count
 
 # --description--
 
-Ecco un altro esempio di animazione continua con la proprietà `animation-iteration-count` che utilizza il cuore che hai progettato in una sfida precedente.
+Here's one more continuous animation example with the `animation-iteration-count` property that uses the heart you designed in a previous challenge.
 
 L'animazione del battito cardiaco della durata di un secondo consiste in due parti animate. Gli elementi `heart` (incluse le parti `:before` e `:after`) sono animati per cambiare la dimensione utilizzando la proprietà`transform`, e il `div` di sfondo è animato per cambiare il suo colore utilizzando la proprietà `background`.
 

@@ -24,7 +24,7 @@ More resources:
 
 ## --text--
 
-ما هو تركيب البيانات الغير أساسي في قاعدة البيانات؟
+Which is NOT a primary data structure in a database?
 
 ## --answers--
 
@@ -32,15 +32,15 @@ index
 
 ---
 
-الجدول
+table
 
 ---
 
-الصف
+row
 
 ---
 
-العمود
+column
 
 ## --video-solution--
 

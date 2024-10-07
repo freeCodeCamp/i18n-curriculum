@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c442eedfaeb5bd1c
-title: Build a Tic Tac Toe Game
+title: 建立一個 Tic Tac Toe 遊戲
 challengeType: 3
 forumTopicId: 302358
 dashedName: build-a-tic-tac-toe-game
@@ -10,17 +10,17 @@ dashedName: build-a-tic-tac-toe-game
 
 **Objective:** Build an app that is functionally similar to this: <a href="https://codepen.io/freeCodeCamp/full/KzXQgy/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/KzXQgy/</a>.
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+完成以下需求，並且通過所有測試。 你可以使用你需要的任何庫或 API。 可以用你自己的樣式來完成。
 
-**User Story:** I can play a game of Tic Tac Toe with the computer.
+**用戶故事：** 我可以用電腦玩 Tic Tac Toe 遊戲。
 
-**User Story:** My game will reset as soon as it's over so I can play again.
+**用戶故事：** 我的遊戲一旦結束就會重置，以便我可以再玩一次。
 
-**User Story:** I can choose whether I want to play as X or O.
+**用戶故事：** 我可以選擇作爲 X 還是 O 來玩。
 
-When you are finished, include a link to your project on CodePen and click the "I've completed this challenge" button.
+當您完成後，單擊“我已完成此挑戰”按鈕幷包含指向 CodePen 的鏈接。
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+可以分享你的項目到 <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp 論壇</a>上獲得反饋。
 
 # --solutions--
 

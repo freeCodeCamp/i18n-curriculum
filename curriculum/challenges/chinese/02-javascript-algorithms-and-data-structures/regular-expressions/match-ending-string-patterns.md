@@ -8,7 +8,7 @@ dashedName: match-ending-string-patterns
 
 # --description--
 
-在上一个挑战中，学习了使用脱字符号来搜寻字符串的开始位置。 还有一种方法可以搜寻字符串末尾的匹配模式。
+In the last challenge, you learned to use the caret character to search for patterns at the beginning of strings. There is also a way to search for patterns at the end of strings.
 
 可以使用正则表达式的美元符号 `$` 来搜寻字符串的结尾。
 

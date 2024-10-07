@@ -1,6 +1,6 @@
 ---
 id: 5900f4411000cf542c50ff53
-title: 'Problem 212: Combined Volume of Cuboids'
+title: 'Problem 212: Kombiniertes Volumen von Quadern'
 challengeType: 1
 forumTopicId: 301854
 dashedName: problem-212-combined-volume-of-cuboids
@@ -8,7 +8,7 @@ dashedName: problem-212-combined-volume-of-cuboids
 
 # --description--
 
-An axis-aligned cuboid, specified by parameters $\{ (x_0,y_0,z_0), (dx,dy,dz) \}$, consists of all points ($X$,$Y$,$Z$) such that $x_0 ≤ X ≤ x_0 + dx$, $y_0 ≤ Y ≤ y_0 + dy$ and $z_0 ≤ Z ≤ z_0 + dz$. Das Volumen des Quaders ist das Produkt $dx × dy × dz$. Das kombinierte Volumen einer Sammlung von Quadern ist das Volumen ihrer Vereinigung und ist kleiner als die Summe der einzelnen Volumina, wenn sich irgendwelche Quader überschneiden.
+Ein achsorientierter Quader, angegeben durch die Parameter $\{ (x_0,y_0,z_0), (dx,dy,dz) \}$, besteht aus alles Punkten ($X$,$Y$,$Z$), so dass $x_0 ≤ X ≤ x_0 + dx$, $y_0 ≤ Y ≤ y_0 + dy$ und $z_0 ≤ Z ≤ z_0 + dz$. Das Volumen des Quaders ist das Produkt $dx × dy × dz$. Das kombinierte Volumen einer Sammlung von Quadern ist das Volumen ihrer Vereinigung und ist kleiner als die Summe der einzelnen Volumina, wenn sich irgendwelche Quader überschneiden.
 
 Lasse $C_1, \ldots, C_{50000}$ eine Sammlung von 50000 achsenausgerichteten Quadern sein, sodass $C_n$ Parameter hat
 

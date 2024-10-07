@@ -9,7 +9,7 @@ dashedName: adjust-the-padding-of-an-element
 
 # --description--
 
-Ora mettiamo da parte per un po' la nostra Cat Photo App e impariamo di più sugli stili in HTML.
+Now let's put our Cat Photo App away for a little while and learn more about styling HTML.
 
 Potresti averlo già notato, ma tutti gli elementi HTML sono essenzialmente piccoli rettangoli.
 

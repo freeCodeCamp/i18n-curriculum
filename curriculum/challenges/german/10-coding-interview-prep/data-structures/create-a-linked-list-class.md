@@ -1,6 +1,6 @@
 ---
 id: 587d8251367417b2b2512c62
-title: Create a Linked List Class
+title: Erstelle eine Linked-List-Klasse
 challengeType: 1
 forumTopicId: 301628
 dashedName: create-a-linked-list-class
@@ -10,23 +10,23 @@ dashedName: create-a-linked-list-class
 
 Let's create a `linked list` class. Every linked list should start out with a few basic properties: a `head` (the first item in your list) and a `length` (number of items in your list). Sometimes you'll see implementations of linked lists that incorporate a `tail` for the last element of the list, but for now we'll just stick with these two. Whenever we add an element to the linked list, our `length` property should be incremented by one.
 
-We'll want to have a way to add items to our linked list, so the first method we'll want to create is the `add` method.
+Wir wollen eine Möglichkeit haben, Elemente zu unserer verknüpften Liste hinzuzufügen, also ist die erste Methode, die wir erstellen wollen, die `add` Methode.
 
-If our list is empty, adding an element to our linked list is straightforward enough: we just wrap that element in a `Node` class, and we assign that node to the `head` of our linked list.
+Wenn unsere Liste leer ist, ist das Hinzufügen eines Elements zu unserer verknüpften Liste ganz einfach: Wir wickeln das Element einfach in eine `Node`-Klasse ein und weisen diesen Knoten dem `head` unserer verknüpften Liste zu.
 
-But what if our list already has one or more members? How do we add an element to the list? Recall that each node in a linked list has a `next` property. To add a node to the list, find the last node in the list, and point that last node's `next` property at our new node. (Hint: you know you've reached the end of a linked list when a node's `next` property is `null`.)
+Was aber, wenn unsere Liste bereits ein oder mehrere Mitglieder hat? Wie fügt man ein Element zur Liste hinzu? Erinnere dich, dass jeder Knoten in einer verknüpften Liste eine `next` Eigenschaft hat. Um der Liste einen Knoten hinzuzufügen, suche den letzten Knoten in der Liste und richte die `next`-Eigenschaft dieses letzten Knotens auf unseren neuen Knoten. (Hinweis: Du weißt, dass du das Ende einer verknüpften Liste erreicht hast, wenn die `next`-Eigenschaft eines Knotens `null` ist)
 
 # --instructions--
 
-Write an add method that assigns the first node you push to the linked list to the `head`; after that, whenever adding a node, every node should be referenced by the previous node's `next` property.
+Schreibe eine Add-Methode, die den ersten Knoten, den du in die verknüpfte Liste schiebst, der `head`-Eigenschaft zuweist; danach sollte bei jedem Hinzufügen eines Knotens durch die `next`-Eigenschaft des vorherigen Knotens referenziert werden.
 
-Note
+Notiz
 
-Your list's `length` should increase by one every time an element is added to the linked list.
+Der Wert `length` deiner Liste sollte sich jedes Mal um eins erhöhen, wenn ein Element zur verknüpften Liste hinzugefügt wird.
 
 # --hints--
 
-Your `LinkedList` class should have a `add` method.
+Deine `LinkedList` Klasse sollte eine `add` Methode haben.
 
 ```js
 assert(
@@ -37,7 +37,7 @@ assert(
 );
 ```
 
-Your `LinkedList` class should assign `head` to the first node added.
+Deine `LinkedList`-Klasse sollte dem ersten hinzugefügten Knoten `head` zuweisen.
 
 ```js
 assert(
@@ -49,7 +49,7 @@ assert(
 );
 ```
 
-The previous `node` in your `LinkedList` class should have reference to the newest node created.
+Das vorherige `node` in deiner `LinkedList` Klasse sollte einen Verweis auf den zuletzt erstellten Knoten haben.
 
 ```js
 assert(
@@ -63,7 +63,7 @@ assert(
 );
 ```
 
-The  `size` of your `LinkedList` class should equal the amount of nodes in the linked list.
+Der `size`-Wert deiner `LinkedList`-Klasse sollte der Anzahl der Knoten in der verknüpften Liste entsprechen.
 
 ```js
 assert(

@@ -1,6 +1,6 @@
 ---
 id: 5e9a093a74c4063ca6f7c14f
-title: How to use Jupyter Notebooks Intro
+title: كيفية استخدام Jupyter Notebooks
 challengeType: 11
 videoId: h8caJq2Bb9w
 bilibiliIds:
@@ -14,16 +14,16 @@ dashedName: how-to-use-jupyter-notebooks-intro
 
 *Instead of using notebooks.ai like it shows in the video, you can use Google Colab instead.*
 
-More resources:
+المزيد من المصادر:
 
 -  <a href="https://github.com/ine-rmotr-curriculum/ds-content-interactive-jupyterlab-tutorial" target="_blank" rel="noopener noreferrer nofollow">Notebooks on GitHub</a>
--  <a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb" target="_blank" rel="noopener noreferrer nofollow">How to open Notebooks from GitHub using Google Colab.</a>
+-  <a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebookس/colab-github-demo.ipynb" target="_blank" rel="noopener noreferrer nofollow">كيفية فتح (Notebook) من (GitHub) باستخدام (Google Colab).</a>
 
 # --questions--
 
 ## --text--
 
-What is **not** allowed in a Jupyter Notebook's cell?
+ما هي الأشياء التي لا تسمح بها الخلية في Jup****yter Notebook ؟
 
 ## --answers--
 
@@ -31,11 +31,11 @@ Markdown
 
 ---
 
-Python code
+كود Python
 
 ---
 
-An Excel sheet
+مِلَفّ Excel
 
 ## --video-solution--
 

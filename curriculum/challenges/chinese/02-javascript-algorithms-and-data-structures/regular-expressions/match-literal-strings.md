@@ -8,7 +8,7 @@ dashedName: match-literal-strings
 
 # --description--
 
-在上一个挑战中，使用正则表达式 `/Hello/` 搜索到了字符串 `Hello`。 那个正则表达式在字符串中搜寻 `Hello` 的文字匹配。 下面是另一个在字符串中搜寻 `Kevin` 的示例：
+In the last challenge, you searched for the word `Hello` using the regular expression `/Hello/`. That regex searched for a literal match of the string `Hello`. Here's another example searching for a literal match of the string `Kevin`:
 
 ```js
 let testStr = "Hello, my name is Kevin.";

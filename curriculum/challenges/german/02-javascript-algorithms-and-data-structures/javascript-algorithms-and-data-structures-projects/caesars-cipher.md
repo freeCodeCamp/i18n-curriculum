@@ -8,35 +8,35 @@ dashedName: caesars-cipher
 
 # --description--
 
-Eine der einfachsten und bekanntesten <dfn>ciphers</dfn> ist die <dfn>Caesar-cipher</dfn>, auch bekannt als <dfn>shift-cipher</dfn>. Bei einer Shift Verschlüsselung werden die Bedeutungen der Buchstaben um einen bestimmten Betrag verschoben.
+One of the simplest and most widely known <dfn>ciphers</dfn> is a <dfn>Caesar cipher</dfn>, also known as a <dfn>shift cipher</dfn>. In a shift cipher the meanings of the letters are shifted by some set amount.
 
-Eine gängige moderne Anwendung ist die <a href="https://www.freecodecamp.org/news/how-to-code-the-caesar-cipher-an-introduction-to-basic-encryption-3bf77b4e19f7/" target="_blank" rel="noopener noreferrer nofollow">ROT13</a> Verschlüsselung, bei der die Werte der Buchstaben um 13 Stellen verschoben werden. Also gilt `A ↔ N`, `B ↔ O` und so weiter.
+Eine heute gängige Anwendung ist die <a href="https://www.freecodecamp.org/news/how-to-code-the-caesar-cipher-an-introduction-to-basic-encryption-3bf77b4e19f7/" target="_blank" rel="noopener noreferrer nofollow">ROT13</a>-Chiffre, in der die Werte der Buchstaben um 13 Stellen verschoben werden. Es gilt somit `A ↔ N`, `B ↔ O` und so weiter.
 
-Schreibe eine Funktion, die eine <a href="https://www.freecodecamp.org/news/how-to-code-the-caesar-cipher-an-introduction-to-basic-encryption-3bf77b4e19f7/" target="_blank" rel="noopener noreferrer nofollow">ROT13</a> kodierten String als Eingabe verwendet und einen dekodierten String zurückgibt.
+Schreibe eine Funktion, die einen <a href="https://www.freecodecamp.org/news/how-to-code-the-caesar-cipher-an-introduction-to-basic-encryption-3bf77b4e19f7/" target="_blank" rel="noopener noreferrer nofollow">ROT13</a>-kodierten String als Argument akzeptiert und dekodiert.
 
-Alle Buchstaben werden groß geschrieben. Verändere keine nicht-alphabetischen Zeichen (z. B. Leerzeichen, Satzzeichen), sondern gib sie weiter.
+Alle Buchstaben werden großgeschrieben. Verwandle keine nicht alphabetischen Zeichen (bspw. Abstände und Interpunktion) um, gib diese aber weiter.
 
 # --hints--
 
-`rot13("SERR PBQR PNZC")` sollte zum String `FREE CODE CAMP` dekodiert werden
+`rot13("SERR PBQR PNZC")` sollte dekodiert zu dem String `FREE CODE CAMP` werden
 
 ```js
 assert(rot13('SERR PBQR PNZC') === 'FREE CODE CAMP');
 ```
 
-`rot13("SERR CVMMN!")` sollte zum String `FREE PIZZA!` dekodiert werden
+`rot13("SERR CVMMN!")` sollte dekodiert zu dem String `FREE PIZZA!` werden
 
 ```js
 assert(rot13('SERR CVMMN!') === 'FREE PIZZA!');
 ```
 
-`rot13("SERR YBIR?")` sollte zum String `FREE LOVE?` dekodiert werden
+`rot13("SERR YBIR?")` sollte dekodiert zu dem String `FREE LOVE?` werden
 
 ```js
 assert(rot13('SERR YBIR?') === 'FREE LOVE?');
 ```
 
-`rot13("GUR DHVPX OEBJA SBK WHZCF BIRE GUR YNML QBT.")` sollte zum String `THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.` dekodiert werden
+`rot13("GUR DHVPX OEBJA SBK WHZCF BIRE GUR YNML QBT.")` sollte dekodiert zu dem String `THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.` werden
 
 ```js
 assert(

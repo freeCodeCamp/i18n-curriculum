@@ -9,7 +9,7 @@ dashedName: multiply-two-decimals-with-javascript
 
 # --description--
 
-У JavaScript ви можете здійснювати розрахунки як з цілими числами, так і десятковими.
+In JavaScript, you can also perform calculations with decimal numbers, just like whole numbers.
 
 Перемножимо два десяткових числа, щоб отримати їх добуток.
 

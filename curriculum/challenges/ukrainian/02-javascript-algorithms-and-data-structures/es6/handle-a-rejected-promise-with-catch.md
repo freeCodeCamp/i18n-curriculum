@@ -8,7 +8,7 @@ dashedName: handle-a-rejected-promise-with-catch
 
 # --description--
 
-`catch` — це метод, який використовують тоді, коли проміс було відхилено. Він виконується одразу після виклику методу `reject`. Ось синтаксис:
+`catch` is the method used when your promise has been rejected. It is executed immediately after a promise's `reject` method is called. Here’s the syntax:
 
 ```js
 myPromise.catch(error => {

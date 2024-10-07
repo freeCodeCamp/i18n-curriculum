@@ -9,7 +9,7 @@ dashedName: change-animation-timing-with-keywords
 
 # --description--
 
-Nelle animazioni CSS, la proprietà `animation-timing-function` controlla quanto velocemente un elemento animato cambia durante l'animazione. Se l'animazione è un'auto che si sposta dal punto A al punto B in un dato tempo (la tua `animation-duration`), la `animation-timing-function` dice come l'auto accelera e decelera durante la guida.
+In CSS animations, the `animation-timing-function` property controls how quickly an animated element changes over the duration of the animation. If the animation is a car moving from point A to point B in a given time (your `animation-duration`), the `animation-timing-function` says how the car accelerates and decelerates over the course of the drive.
 
 Esiste un certo numero di parole chiave (keyword) predefinite disponibili per le opzioni più comuni. Ad esempio, il valore predefinito è `ease`, che inizia lentamente, accelera nel mezzo, e poi rallenta di nuovo alla fine. Altre opzioni includono `ease-out`, che è veloce all'inizio e poi rallenta, `ease-in`, che è lento all'inizio e accelera alla fine, o `linear`, che applica una velocità di animazione costante per tutta la durata.
 

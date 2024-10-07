@@ -8,7 +8,7 @@ dashedName: steamroller
 
 # --description--
 
-Вирівняйте вкладений масив. Ви повинні врахувати різні рівні вкладення.
+Flatten a nested array. You must account for varying levels of nesting.
 
 # --hints--
 

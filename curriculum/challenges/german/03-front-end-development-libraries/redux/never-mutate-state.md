@@ -8,7 +8,7 @@ dashedName: never-mutate-state
 
 # --description--
 
-Diese letzten Aufgaben beschreiben verschiedene Methoden, um das Schlüsselprinzip der Unveränderlichkeit von Zuständen in Redux durchzusetzen. Unveränderlicher Zustand(State) bedeutet, dass du den Zustand nie direkt veränderst, sondern eine neue Kopie des Zustands zurückgibst.
+These final challenges describe several methods of enforcing the key principle of state immutability in Redux. Immutable state means that you never modify state directly, instead, you return a new copy of state.
 
 Wenn du einen Schnappschuss des Zustands einer Redux-App im Laufe der Zeit machen würdest, würdest du so etwas sehen wie `state 1`, `state 2`, `state 3`,`state 4`, `...` und so weiter, wobei jeder Zustand dem letzten ähnlich sein kann, aber jeder eine eigene Dateneinheit ist. Diese Unveränderlichkeit ermöglicht Funktionen wie das Zeitreise-Debugging (time-travel debugging), von dem du vielleicht schon gehört hast.
 

@@ -12,25 +12,25 @@ dashedName: neural-networks-with-tensorflow
 
 # --description--
 
-As próximas aulas em vídeo farão referência a [este Colab notebook](https://colab.research.google.com/drive/1m2cg3D1x3j5vrFc-Cu0gMvc48gWyCOuG#forceEdit=true&sandboxMode=true).
+The next few video lessons will reference [this Colab notebook](https://colab.research.google.com/drive/1m2cg3D1x3j5vrFc-Cu0gMvc48gWyCOuG#forceEdit=true&sandboxMode=true).
 
 # --questions--
 
 ## --text--
 
-Uma rede neural densamente conectada é aquela em que...:
+A densely connected neural network is one in which...:
 
 ## --answers--
 
-todos os neurônios da camada atual estão conectados a um neurônio na camada anterior.
+all the neurons in the current layer are connected to one neuron in the previous layer.
 
 ---
 
-todos os neurônios em cada camada estão conectados aleatoriamente.
+all the neurons in each layer are connected randomly.
 
 ---
 
-todos os neurônios da camada atual estão conectados a todos os neurônios da camada anterior.
+all the neurons in the current layer are connected to every neuron in the previous layer.
 
 ## --video-solution--
 

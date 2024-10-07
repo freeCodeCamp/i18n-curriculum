@@ -8,7 +8,7 @@ dashedName: problem-370-geometric-triangles
 
 # --description--
 
-Let us define a geometric triangle as an integer sided triangle with sides $a ≤ b ≤ c$ so that its sides form a geometric progression, i.e. $b^2 = a \times c$.
+Definieren wir ein geometrisches Dreieck als ein ganzzahliges Dreieck mit den Seiten $a ≤ b ≤ c$, sodass seine Seiten eine geometrische Progression bilden, d.h. $b^2 = a \times c$.
 
 Ein Beispiel für ein solches geometrisches Dreieck ist das Dreieck mit den Seiten $a = 144$, $b = 156$ und $c = 169$.
 
@@ -18,7 +18,7 @@ Wie viele geometrische Dreiecke gibt es mit $\text{perimeter} ≤ 2,5 \times {10
 
 # --hints--
 
-`geometricTriangles()` should return `41791929448408`.
+`geometricTriangles()` sollte `41791929448408` zurückgeben.
 
 ```js
 assert.strictEqual(geometricTriangles(), 41791929448408);

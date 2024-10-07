@@ -8,7 +8,7 @@ dashedName: catch-missing-open-and-closing-parenthesis-after-a-function-call
 
 # --description--
 
-함수나 메서드가 인수를 받지 않을 때, 호출 시 빈 여는 괄호와 닫는 괄호를 포함하는 것을 잊어버릴 수 있습니다. 종종 함수 호출의 결과를 변수에 저장하여 코드에서 사용합니다. 이 오류는 변수 값(또는 그들의 타입)을 콘솔에 출력하고, 하나가 예상된 함수 반환 값 대신 함수 참조로 설정된 것을 확인함으로써 감지할 수 있습니다.
+When a function or method doesn't take any arguments, you may forget to include the (empty) opening and closing parentheses when calling it. Often times the result of a function call is saved in a variable for other use in your code. This error can be detected by logging variable values (or their types) to the console and seeing that one is set to a function reference, instead of the expected value the function returns.
 
 다음 예시에 있는 변수들은 서로 다릅니다.
 

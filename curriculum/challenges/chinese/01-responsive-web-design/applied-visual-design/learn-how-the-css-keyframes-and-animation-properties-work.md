@@ -9,7 +9,7 @@ dashedName: learn-how-the-css-keyframes-and-animation-properties-work
 
 # --description--
 
-如果要给元素添加动画，你需要了解 animation 属性以及 `@keyframes` 规则。 animation 属性控制动画的外观，`@keyframes` 规则控制动画中各阶段的变化。 总共有 8 个 animation 属性。 为了便于理解，本挑战中我们只会暂时涉及到两个最常用的属性。
+To animate an element, you need to know about the animation properties and the `@keyframes` rule. The animation properties control how the animation should behave and the `@keyframes` rule controls what happens during that animation. There are eight animation properties in total. This challenge will keep it simple and cover the two most important ones first:
 
 `animation-name` 用来设置动画的名称，也就是我们稍后要在 `@keyframes` 里用到的名称。
 

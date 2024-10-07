@@ -8,7 +8,7 @@ dashedName: write-a-simple-counter
 
 # --description--
 
-يمكنك تصميم حالة مكون أكثر تعقيداً عن طريق الجمع بين المفاهيم التي تم تغطيتها حتى الآن. هذه تشمل تهيئة `state`، كتابة الطرق الذي تعيّن `state`، وتعيين معالج النقر لتشغيل هذا الطرق.
+You can design a more complex stateful component by combining the concepts covered so far. These include initializing `state`, writing methods that set `state`, and assigning click handlers to trigger these methods.
 
 # --instructions--
 

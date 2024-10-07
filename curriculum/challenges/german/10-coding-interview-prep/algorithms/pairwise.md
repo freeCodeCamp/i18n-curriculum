@@ -1,6 +1,6 @@
 ---
 id: a3f503de51cfab748ff001aa
-title: Paarweise
+title: Pairwise
 challengeType: 1
 forumTopicId: 301617
 dashedName: pairwise
@@ -8,7 +8,7 @@ dashedName: pairwise
 
 # --description--
 
-Finde innerhalb des Arrays `arr` Elementpaare, deren Summe gleichzusetzen ist mit dem zweiten Argument `arg`. Gebe dann die Summe ihrer Indizes zurück.
+Given an array `arr`, find element pairs whose sum equal the second argument `arg` and return the sum of their indices.
 
 Hierbei darfst du Paare mit gleichen numerischen Werten mehrfach verwenden, solange sich die Indizes jeweils unterscheiden. Jedes Paar sollte möglichst niedrige Indizes verwenden. Wurde ein Element benutzt, kann es nicht in einem anderen Paar verwendet werden. Zum Beispiel erstellt `pairwise([1, 1, 2], 3)` das Paar `[2, 1]`, und verwendet die 1 am Index 0 statt der 1 am Index 1, da 0+2 &lt; 1+2.
 

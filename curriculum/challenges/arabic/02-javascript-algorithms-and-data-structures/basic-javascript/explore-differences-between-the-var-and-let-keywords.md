@@ -8,7 +8,7 @@ dashedName: explore-differences-between-the-var-and-let-keywords
 
 # --description--
 
-واحدة من أكبر المشكلات في إعلان المتغيرات بمصطلح `var` هي أنه يمكنك بسهولة استبدال قيم الإعلانات السابقة للمتغيرات:
+One of the biggest problems with declaring variables with the `var` keyword is that you can easily overwrite variable declarations:
 
 ```js
 var camper = "James";

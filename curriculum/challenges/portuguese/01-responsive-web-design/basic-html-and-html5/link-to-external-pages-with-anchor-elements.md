@@ -9,7 +9,7 @@ dashedName: link-to-external-pages-with-anchor-elements
 
 # --description--
 
-Você pode usar elementos `a` (*âncora*) para vincular conteúdos externos à sua página da web.
+You can use `a` (*anchor*) elements to link to content outside of your web page.
 
 Os elementos `a` precisam de um endereço (link) que é colocado no atributo `href`. Eles também precisam de um texto que servirá de "âncora". Exemplo:
 

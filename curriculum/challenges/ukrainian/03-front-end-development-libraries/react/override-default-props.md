@@ -8,7 +8,7 @@ dashedName: override-default-props
 
 # --description--
 
-Можливість встановити пропси за замовчуванням — корисна функція в React. Ви можете перевизначити пропси за замовчуванням, явно встановивши значення пропсів для компонента.
+The ability to set default props is a useful feature in React. The way to override the default props is to explicitly set the prop values for a component.
 
 # --instructions--
 

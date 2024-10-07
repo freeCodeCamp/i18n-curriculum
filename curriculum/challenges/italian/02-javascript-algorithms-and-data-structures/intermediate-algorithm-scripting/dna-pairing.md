@@ -8,7 +8,7 @@ dashedName: dna-pairing
 
 # --description--
 
-Le coppie di filamenti di DNA sono formate da coppie di basi azotate. Coppie di basi sono rappresentate dai caratteri <em>AT</em> e <em>CG</em>, che formano i mattoncini di base della doppia elica del DNA.
+Pairs of DNA strands consist of nucleobase pairs. Base pairs are represented by the characters <em>AT</em> and <em>CG</em>, which form building blocks of the DNA double helix.
 
 Al filamento di DNA manca l'elemento da accoppiare. Scrivi una funzione che crea le coppie mancanti per il filamento di DNA dato. Per ogni carattere nella stringa data, trova il carattere della base azotata da accoppiare. Restituisci il risultato in un array 2d.
 

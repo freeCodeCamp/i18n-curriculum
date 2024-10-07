@@ -8,7 +8,7 @@ dashedName: create-a-controlled-form
 
 # --description--
 
-L'ultima sfida ha mostrato che React può controllare lo stato interno di alcuni elementi come `input` e `textarea`, il che li rende componenti controllati. Questo vale anche per altri elementi dei moduli, tra cui il normale elemento HTML `form`.
+The last challenge showed that React can control the internal state for certain elements like `input` and `textarea`, which makes them controlled components. This applies to other form elements as well, including the regular HTML `form` element.
 
 # --instructions--
 

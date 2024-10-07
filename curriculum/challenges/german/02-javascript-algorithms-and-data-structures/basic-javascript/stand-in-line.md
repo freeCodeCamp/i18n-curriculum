@@ -9,7 +9,7 @@ dashedName: stand-in-line
 
 # --description--
 
-In der Informatik ist eine <dfn>Warteschlange (Queue)</dfn> eine abstrakte <dfn>Datenstruktur</dfn>, in der Elemente in einer Reihenfolge aufbewahrt werden. Neue Elemente können am Ende der Warteschlange hinzugefügt werden und alte Elemente werden vom Anfang der Warteschlange entfernt.
+In Computer Science a <dfn>queue</dfn> is an abstract <dfn>Data Structure</dfn> where items are kept in order. New items can be added at the back of the queue and old items are taken off from the front of the queue.
 
 # --instructions--
 

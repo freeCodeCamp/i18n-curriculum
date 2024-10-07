@@ -9,9 +9,9 @@ dashedName: comparison-with-the-less-than-or-equal-to-operator
 
 # --description--
 
-使用小於等於運算符（`<=`）比較兩個數字的大小。 如果在小於等於運算符左邊的數字小於或者等於右邊的數字，它會返回 `true`。 如果在小於等於運算符左邊的數字大於右邊的數字，它會返回 `false`。 與相等運算符類似，小於或等於運算符會轉換數據類型。
+The less than or equal to operator (`<=`) compares the values of two numbers. If the number to the left is less than or equal to the number to the right, it returns `true`. If the number on the left is greater than the number on the right, it returns `false`. Like the equality operator, the less than or equal to operator converts data types.
 
-**例如**
+**例如：**
 
 ```js
 4   <= 5 // true

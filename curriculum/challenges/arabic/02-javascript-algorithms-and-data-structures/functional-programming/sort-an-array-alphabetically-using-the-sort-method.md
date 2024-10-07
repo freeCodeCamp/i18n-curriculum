@@ -8,7 +8,7 @@ dashedName: sort-an-array-alphabetically-using-the-sort-method
 
 # --description--
 
-طريقة `sort` تقوم بتصنيف عناصر array وفقا ل callback function.
+The `sort` method sorts the elements of an array according to the callback function.
 
 على سبيل المثال:
 

@@ -7,14 +7,14 @@ dashedName: format-alphanumeric-data-for-presentation-in-c-sharp
 
 # --description--
 
-This challenge will be partially completed on the Microsoft Learn platform. Follow these instructions to complete the challenge:
+Questa sfida sarà parzialmente completata sulla piattaforma Microsoft Learn. Segui queste istruzioni per completare la sfida:
 
 1. Go to <a href="https://learn.microsoft.com/training/modules/csharp-format-strings/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/csharp-format-strings/</a> and complete all the tasks for the "Format Alphanumeric Data for Presentation in C#" module. This is **required** to earn the "Work with Variable Data in C# Console Applications" trophy on Microsoft Learn, and qualify for the certification exam.
-1. When you are finished, come back and correctly answer the question below.
+1. Quando hai finito, torna e rispondi correttamente alla domanda qui sotto.
 
 # --assignment--
 
-Complete the <a href="https://learn.microsoft.com/training/modules/csharp-format-strings/" target="_blank" rel="noreferrer">Format Alphanumeric Data for Presentation in C#</a> module on Microsoft Learn. Then, answer the question below.
+Complete the <a href="https://learn.microsoft.com/training/modules/csharp-format-strings/" target="_blank" rel="noreferrer">Format Alphanumeric Data for Presentation in C#</a> module on Microsoft Learn. Quindi, rispondere alla domanda qui sotto.
 
 # --questions--
 

@@ -8,7 +8,7 @@ dashedName: add-methods-after-inheritance
 
 # --description--
 
-Eine Konstruktorfunktion, die ihr `prototype`-Objekt von einer Supertyp-Konstruktorfunktion erbt, kann zusätzlich zu den geerbten Methoden noch eigene Methoden besitzen.
+A constructor function that inherits its `prototype` object from a supertype constructor function can still have its own methods in addition to inherited methods.
 
 Zum Beispiel ist `Bird` ein Konstruktor, der seinen `prototype` von `Animal` erbt:
 

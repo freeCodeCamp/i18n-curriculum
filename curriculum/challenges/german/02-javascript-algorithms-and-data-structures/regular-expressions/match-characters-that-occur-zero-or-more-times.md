@@ -8,7 +8,7 @@ dashedName: match-characters-that-occur-zero-or-more-times
 
 # --description--
 
-Bei der letzten Aufgabe wurde das Pluszeichen `+` verwendet, um nach Zeichen zu suchen, die ein oder mehrere Male vorkommen. Es gibt auch eine Option, die Zeichen findet, die null oder mehr Mal vorkommen.
+The last challenge used the plus `+` sign to look for characters that occur one or more times. There's also an option that matches characters that occur zero or more times.
 
 Das Zeichen dafür ist das Sternchen oder der Stern: `*`.
 
@@ -54,7 +54,7 @@ Dein regulärer Ausdruck `chewieRegex` sollte 16 Zeichen in `chewieQuote` finden
 assert(result[0].length === 16);
 ```
 
-Dein regulärer Ausdruck sollte auf keine Zeichen in dem String `He made a fair move. Screaming about it can't help you.` passen.
+Your regex should not match any characters in the string `He made a fair move. Screaming about it can't help you.`
 
 ```js
 assert(
@@ -62,7 +62,7 @@ assert(
 );
 ```
 
-Dein regulärer Ausdruck sollte auf kein Zeichen in dem String `Let him have it. It's not wise to upset a Wookiee.` passen.
+Your regex should not match any characters in the string `Let him have it. It's not wise to upset a Wookiee.`
 
 ```js
 assert(

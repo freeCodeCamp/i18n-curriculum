@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedf08801
-title: Inform with the Paragraph Element
+title: أخبر باستخدام عنضر الفقرة (Inform with the Paragraph Element)
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVMPUv/ceZ7DtN'
 forumTopicId: 18202
@@ -11,7 +11,7 @@ dashedName: inform-with-the-paragraph-element
 
 The `p` element is the preferred element for paragraph text on websites. `p` is short for "paragraph".
 
-You can create a paragraph element like this:
+يمكنك إنشاء عنصر فقرة هكذا:
 
 ```html
 <p>I'm a p tag!</p>
@@ -19,25 +19,25 @@ You can create a paragraph element like this:
 
 # --instructions--
 
-Create a `p` element below your `h2` element, and give it the text `Hello Paragraph`.
+قم بإنشاء عنصر `p` تحت عنصر `h2` الخاص بك وقم بإعطائه النص `Hello Paragraph`.
 
-**Note:** As a convention, all HTML tags are written in lowercase, for example `<p></p>` and not `<P></P>`.
+**ملاحظة:** كتقليد، يتم كتابة جميع الHTML Tags في Lower Case (أحرف صغيرة)، على سبيل المثال `<p></p>` وليس `<P></P>`.
 
 # --hints--
 
-Your code should have a valid `p` element.
+الCode الخاص بك يجب أن يحتوي على العنصر `p`.
 
 ```js
 assert($('p').length > 0);
 ```
 
-Your `p` element should have the text `Hello Paragraph`.
+يجب أن يحتوي العنصر `p` الخاص بك على النص `Hello Paragraph`.
 
 ```js
 assert.isTrue(/hello(\s)+paragraph/gi.test($('p').text()));
 ```
 
-Your `p` element should have a closing tag.
+العنصر `p` الخاص بك يجب أن يكون له Closing Tag.
 
 ```js
 assert(

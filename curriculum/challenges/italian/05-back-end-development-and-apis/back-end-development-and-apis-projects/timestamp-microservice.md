@@ -8,13 +8,13 @@ dashedName: timestamp-microservice
 
 # --description--
 
-Costruisci un'app JavaScript full-stack che sia funzionalmente simile a questa: <a href="https://timestamp-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://timestamp-microservice.freecodecamp.rocks/</a>. Lavorare su questo progetto ti porterà a scrivere il tuo codice utilizzando uno dei seguenti metodi:
+Build a full stack JavaScript app that is functionally similar to this: <a href="https://timestamp-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://timestamp-microservice.freecodecamp.rocks</a>. Working on this project will involve you writing your code using one of the following methods:
 
--   Clonare <a href="https://github.com/freeCodeCamp/boilerplate-project-timestamp/"  target="_blank" rel="noopener noreferrer nofollow">questa repository GitHub</a> e completare il tuo progetto localmente.
+-   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-timestamp/"  target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
 -   Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-timestamp/"  target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete your project.
 -   Usare un costruttore di siti di tua scelta per completare il progetto. Assicurati di incorporare tutti i file del nostro repository GitHub.
 
-**Nota:** la conversione tra fusi orari non è un proposito di questo progetto, quindi assumi che tutte le date valide saranno passate a `new Date()` come date GMT.
+**Note:** Time zones conversion is not a purpose of this project, so assume all sent valid dates will be parsed with `new Date()` as GMT dates.
 
 # --hints--
 
@@ -28,7 +28,7 @@ Costruisci un'app JavaScript full-stack che sia funzionalmente simile a questa: 
 };
 ```
 
-Una richiesta a `/api/:date?` con una data valida dovrebbe restituire un oggetto JSON con una chiave `unix` che è un timestamp Unix della data di input in millisecondi (di tipo Number)
+A request to `/api/:date?` with a valid date should return a JSON object with a `unix` key that is a Unix timestamp of the input date in milliseconds (as type Number)
 
 ```js
 (getUserInput) =>
@@ -98,7 +98,7 @@ Il tuo progetto può gestire date che possono essere lette con successo da `new 
   );
 ```
 
-Se la stringa della data di input non è valida, l'API restituisce un oggetto con la struttura `{ error : "Invalid Date" }`
+If the input date string is invalid, the API returns an object having the structure `{ error : "Invalid Date" }`
 
 ```js
 (getUserInput) =>

@@ -8,9 +8,9 @@ dashedName: add-elements-to-the-end-of-an-array-using-concat-instead-of-push
 
 # --description--
 
-函数式编程就是创建和使用具有不变性的函数。
+Functional programming is all about creating and using non-mutating functions.
 
-上一个挑战介绍了 `concat` 方法，这是一种在不改变原始数组的前提下，将数组组合成一个新数组的方法。 将 `concat` 方法与 `push` 方法做比较。 `push` 将一个元素添加到调用它的数组的末尾，这样会改变该数组。 举个例子：
+上一个挑战介绍了 `concat` 方法，这是一种在不改变原始数组的前提下，将数组组合成一个新数组的方法。 将 `concat` 方法与 `push` 方法做比较。 `push` 将一个元素添加到调用它的数组的末尾，这样会改变该数组。 这是一个示例：
 
 ```js
 const arr = [1, 2, 3];

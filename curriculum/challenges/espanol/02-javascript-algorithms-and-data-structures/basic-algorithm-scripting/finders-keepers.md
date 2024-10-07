@@ -8,7 +8,7 @@ dashedName: finders-keepers
 
 # --description--
 
-Crea una función que recorra un arreglo `arr` y devuelva el primer elemento que pase un "detector de verdad". Esto significa que dado un elemento `x`, el "detector de verdad" es pasado si `func(x)` es `true`. Si ningún elemento pasa la prueba. la función debería devolver `undefined`.
+Create a function that looks through an array `arr` and returns the first element in it that passes a 'truth test'. This means that given an element `x`, the 'truth test' is passed if `func(x)` is `true`. If no element passes the test, return `undefined`.
 
 # --hints--
 

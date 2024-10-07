@@ -11,7 +11,7 @@ dashedName: target-elements-by-class-using-jquery
 
 # --description--
 
-Siehst du, wie wir alle deine `button`-Elemente hüpfen lassen? Wir haben sie mit `$("button")` ausgewählt und ihnen dann mit `.addClass("animated bounce");` einige CSS-Klassen hinzugefügt.
+You see how we made all of your `button` elements bounce? We selected them with `$("button")`, then we added some CSS classes to them with `.addClass("animated bounce");`.
 
 Du hast gerade die Funktion `.addClass()` von jQuery verwendet, mit der du Klassen zu Elementen hinzufügen kannst.
 

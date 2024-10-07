@@ -10,7 +10,7 @@ dashedName: replace-loops-using-recursion
 
 # --description--
 
-재귀(Recursion)는 함수가 자기 자신을 이용하여 표현될 수 있는 개념입니다. 이를 이해하기 위해, 다음과 같은 작업을 생각해 봅시다. 배열의 처음 `n`개의 요소를 곱하여 그 요소들을 곱한 값을 만듭니다. `for` 반복문을 사용하면 이렇게 할 수 있습니다.
+Recursion is the concept that a function can be expressed in terms of itself. To help understand this, start by thinking about the following task: multiply the first `n` elements of an array to create the product of those elements. Using a `for` loop, you could do this:
 
 ```js
   function multiply(arr, n) {

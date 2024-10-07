@@ -9,7 +9,7 @@ dashedName: delete-properties-from-a-javascript-object
 
 # --description--
 
-我們同樣可以刪除對象的屬性，例如：
+We can also delete properties from objects like this:
 
 ```js
 delete ourDog.bark;

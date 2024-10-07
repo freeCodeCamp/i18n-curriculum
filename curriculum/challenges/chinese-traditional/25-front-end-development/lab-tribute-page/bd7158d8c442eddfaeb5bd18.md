@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c442eddfaeb5bd18
-title: Build a Tribute Page
+title: 製作一個致敬頁
 challengeType: 14
 demoType: onClick
 dashedName: build-a-tribute-page
@@ -8,9 +8,9 @@ dashedName: build-a-tribute-page
 
 # --description--
 
-**Objective:** Fulfill the user stories below and get all the tests to pass to complete the lab.
+Fulfill the user stories below and get all the tests to pass to complete the lab.
 
-**User Stories:**
+**用戶需求:**
 
 1. Your tribute page should have a `main` element with a corresponding `id` of `main`, which contains all other elements.
 1. You should see an element with an `id` of `title`, which contains a string (i.e. text), that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug").
@@ -18,7 +18,7 @@ dashedName: build-a-tribute-page
 1. Within the `#img-div` element, you should see an `img` element with a corresponding `id="image"`.
 1. Within the `#img-div` element, you should see an element with a corresponding `id="img-caption"` that contains textual content describing the image shown in `#img-div`.
 1. You should see an element with a corresponding `id="tribute-info"`, which contains textual content describing the subject of the tribute page.
-1. You should see an `a` element with a corresponding `id="tribute-link"`, which links to an outside site, that contains additional information about the subject of the tribute page. HINT: You must give your element an attribute of `target` and set it to `_blank` in order for your link to open in a new tab.
+1. 你應該看到一個帶有相應 `id="tribute-link"` 的 `a` 元素，該元素鏈接到外部站點，其中包含有關致敬頁面主題的附加信息。 HINT: You must give your element an attribute of `target` and set it to `_blank` in order for your link to open in a new tab.
 1. Your `#image` should use `max-width` and `height` properties to resize responsively, relative to the width of its parent element, without exceeding its original size.
 1. Your `img` element should be centered within its parent element.
 
@@ -26,14 +26,14 @@ dashedName: build-a-tribute-page
 
 # --hints--
 
-You should have a `main` element with an `id` of `main`.
+你的頁面應該包含一個 `main` 元素，且它有一個值爲`main` 的`id`屬性。
 
 ```js
 const el = document.getElementById('main')
 assert(!!el && el.tagName === 'MAIN')
 ```
 
-Your `#img-div`, `#image`, `#img-caption`, `#tribute-info`, and `#tribute-link` should all be descendants of `#main`.
+你的 `#img-div`、`#image`、`#img-caption`、`#tribute-info` 和 `#tribute-link` 應該是 `#main` 的子元素。
 
 ```js
 const el1 = document.querySelector('#main #img-div')
@@ -44,14 +44,14 @@ const el5 = document.querySelector('#main #tribute-link')
 assert(!!el1 & !!el2 && !!el3 && !!el4 && !!el5)
 ```
 
-You should have an element with an `id` of `title`.
+你應該有一個 `id` 爲 `title` 的元素。
 
 ```js
 const el = document.getElementById('title')
 assert(!!el)
 ```
 
-Your `#title` should not be empty.
+你的 `#title` 元素不應爲空。
 
 ```js
 const el = document.getElementById('title')
@@ -59,84 +59,84 @@ assert(!!el && el.innerText.length > 0)
 
 ```
 
-You should have a `figure` or `div` element with an `id` of `img-div`.
+你應該有一個 `id` 爲 `img-div` 的 `figure` 或 `div` 元素。
 
 ```js
 const el = document.getElementById('img-div')
 assert(!!el && (el.tagName === 'DIV' || el.tagName === 'FIGURE'))
 ```
 
-You should have an `img` element with an `id` of `image`.
+你應該有一個 `id` 爲 `image` 的 `img` 元素。
 
 ```js
 const el = document.getElementById('image')
 assert(!!el && el.tagName === 'IMG')
 ```
 
-Your `#image` should be a descendant of `#img-div`.
+你的 `#image` 元素應該是 `#img-div` 元素的子元素。
 
 ```js
 const el = document.querySelector('#img-div #image')
 assert(!!el)
 ```
 
-You should have a `figcaption` or `div` element with an `id` of `img-caption`.
+你應該有一個 `id` 爲 `img-caption` 的 `figcaption` 元素或 `div` 元素。
 
 ```js
 const el = document.getElementById('img-caption')
 assert(!!el && (el.tagName === 'DIV' || el.tagName === 'FIGCAPTION'))
 ```
 
-Your `#img-caption` should be a descendant of `#img-div`.
+你的 `#img-caption` 元素應該是 `#img-div` 元素的子元素。
 
 ```js
 const el = document.querySelector('#img-div #img-caption')
 assert(!!el)
 ```
 
-Your `#img-caption` should not be empty.
+你的 `#img-caption` 不應爲空。
 
 ```js
 const el = document.getElementById('img-caption')
 assert(!!el && el.innerText.length > 0)
 ```
 
-You should have an element with an `id` of `tribute-info`.
+你應該有一個 `id` 爲 `tribute-info` 的元素。
 
 ```js
 const el = document.getElementById('tribute-info')
 assert(!!el)
 ```
 
-Your `#tribute-info` should not be empty.
+你的 `#tribute-info` 不應爲空。
 
 ```js
 const el = document.getElementById('tribute-info')
 assert(!!el && el.innerText.length > 0)
 ```
 
-You should have an `a` element with an `id` of `tribute-link`.
+你應該有一個 `id` 爲 `tribute-link` 的 `a` 元素。
 
 ```js
 const el = document.getElementById('tribute-link')
 assert(!!el && el.tagName === 'A')
 ```
 
-Your `#tribute-link` should have an `href` attribute and value.
+你的 `#tribute-link` 應該有一個 `href` 屬性和值。
 
 ```js
 const el = document.getElementById('tribute-link')
 assert(!!el && !!el.href && el.href.length > 0)
 ```
 
-Your `#tribute-link` should have a `target` attribute set to `_blank`.
+你的 `#tribute-link` 元素應該有一個值爲 `_blank` 的 `target` 屬性。
 
 ```js
 const el = document.getElementById('tribute-link')
 assert(!!el && el.target === '_blank')
 ```
 
-Your `img` element should have a `display` of `block`.
+你的 `img` 元素應該具有 `display` 值爲 `block`。
 
 ```js
 const img = document.getElementById('image');
@@ -145,7 +145,7 @@ const style = imgStyle?.getPropertyValue('display')
 assert(style === 'block')
 ```
 
-Your `#image` should have a `max-width` of `100%`.
+你的 `#image` 應該具有 `max-width` 值爲 `100%`。
 
 ```js
 const img = document.getElementById('image');
@@ -154,7 +154,7 @@ const style = imgStyle?.getPropertyValue('max-width')
 assert(style === '100%')
 ```
 
-Your `#image` should have a `height` of `auto`.
+你的 `#image` 應該具有 `height` 值爲 `auto`。
 
 ```js
 // taken from the testable-projects repo
@@ -168,7 +168,7 @@ img?.style.setProperty('display', oldDisplayValue, oldDisplayPriority);
 assert(heightValue === 'auto')
 ```
 
-Your `#image` should be centered within its parent.
+你的 `#image` 元素應該在其父元素內居中。
 
 ```js
 // taken from the testable-projects repo

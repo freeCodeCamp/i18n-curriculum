@@ -9,7 +9,7 @@ dashedName: use-the-flex-shorthand-property
 
 # --description--
 
-Існує ярлик, що дозволяє одночасно встановити декілька гнучких властивостей. Властивості `flex-grow`, `flex-shrink`, та `flex-basis` можуть бути встановлені разом за допомогою властивості `flex` property.
+There is a shortcut available to set several flex properties at once. The `flex-grow`, `flex-shrink`, and `flex-basis` properties can all be set together by using the `flex` property.
 
 Для прикладу, `flex: 1 0 10px;` встановить позицію `flex-grow: 1;`, `flex-shrink: 0;`, та `flex-basis: 10px;`.
 

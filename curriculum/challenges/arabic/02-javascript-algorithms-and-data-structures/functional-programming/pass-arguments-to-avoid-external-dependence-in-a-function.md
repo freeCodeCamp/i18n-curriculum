@@ -8,7 +8,7 @@ dashedName: pass-arguments-to-avoid-external-dependence-in-a-function
 
 # --description--
 
-التحدي الأخير كان يقترب خطوة من مبادئ الـ functional programming، ولكن لا يزال هناك شيء مفقود.
+The last challenge was a step closer to functional programming principles, but there is still something missing.
 
 لم نقم بتغيير قيمة المتغير الشامل (global)، ولكن الوظيفة `incrementer` لن تعمل بدون وجود المتغير الـشامل و هو `fixedValue`، هناك.
 

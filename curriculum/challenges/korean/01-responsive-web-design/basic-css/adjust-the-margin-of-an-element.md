@@ -9,7 +9,7 @@ dashedName: adjust-the-margin-of-an-element
 
 # --description--
 
-요소의 `margin`은 요소의 `border`와 주위 요소들 사이의 공간을 설정합니다.
+An element's `margin` controls the amount of space between an element's `border` and surrounding elements.
 
 파란 상자와 빨간 상자가 노란 상자 안에 중첩되어 있습니다. 빨간 상자는 파란 상자보다 큰 `margin`을 가지고 있어 상대적으로 작아 보입니다.
 

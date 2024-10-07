@@ -8,7 +8,7 @@ dashedName: write-concise-object-literal-declarations-using-object-property-shor
 
 # --description--
 
-ES6 bietet eine gute Unterstützung für die einfache Definition von Objektliteralen.
+ES6 adds some nice support for easily defining object literals.
 
 Schau dir den folgenden Code an:
 

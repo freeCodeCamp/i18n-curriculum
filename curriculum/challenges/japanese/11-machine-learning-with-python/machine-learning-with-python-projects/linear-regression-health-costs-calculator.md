@@ -8,11 +8,11 @@ dashedName: linear-regression-health-costs-calculator
 
 # --description--
 
-このプロジェクトには <a href="https://colab.research.google.com/github/freeCodeCamp/boilerplate-linear-regression-health-costs-calculator/blob/master/fcc_predict_health_costs_with_regression.ipynb" target="_blank" rel="noopener noreferrer nofollow">Google Colaboratory</a> を使用して取り組んでください。
+You will be <a href="https://colab.research.google.com/github/freeCodeCamp/boilerplate-linear-regression-health-costs-calculator/blob/master/fcc_predict_health_costs_with_regression.ipynb" target="_blank" rel="noopener noreferrer nofollow">working on this project with Google Colaboratory</a>.
 
-このリンクにアクセスした後、自分のアカウントに、またはローカルに、ノートブックのコピーを作成してください。 プロジェクトを完了し、テストが成功したら (テストはリンクに含まれています)、下記にプロジェクトリンクを送信してください。 Google Colaboratory のリンクを送信する場合は、リンクの共有設定を必ず「リンクを知っている全員」に設定してください。
+上記のリンクにアクセスした後、自分のアカウントまたはローカルに、ノートブックのコピーを作成してください。 プロジェクトを完了し、テストが成功したら (テストはリンクに含まれています)、下記入力欄からプロジェクトリンクを提出してください。 Google Colaboratory のリンクを送信する場合は、リンクの共有設定を必ず「リンクを知っている全員」に設定してください。
 
-機械学習カリキュラム向けの対話型教育コンテンツを引き続き開発中です。 現在、この認定講座のビデオチャレンジを受講できます。 また、実際のプロジェクトの取り組みと同様に、場合によってはその他の学習資料を探す必要もあります。
+機械学習カリキュラム用の対話型教育コンテンツは、現在開発中です。 現状、この認定講座では動画チャレンジを受講できます。 プロジェクトに取り組むにあたり、場合によってはその他の学習資料を探して参考にする必要もあります。これは実際の仕事でプロジェクトに取り組む場合も同様です。
 
 # --instructions--
 

@@ -9,7 +9,7 @@ dashedName: use-the-parseint-function
 
 # --description--
 
-`parseInt()` 函数解析一个字符串返回一个整数。 下面是一个示例：
+The `parseInt()` function parses a string and returns an integer. 如下所示：
 
 ```js
 const a = parseInt("007");

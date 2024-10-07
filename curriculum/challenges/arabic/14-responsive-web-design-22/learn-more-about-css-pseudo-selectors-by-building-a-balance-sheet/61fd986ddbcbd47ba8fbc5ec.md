@@ -1,13 +1,13 @@
 ---
 id: 61fd986ddbcbd47ba8fbc5ec
-title: الخطوة ٢٣
+title: الخطوة 23
 challengeType: 0
 dashedName: step-23
 ---
 
 # --description--
 
-داخل الجزء الثالث `tr`، أضف عنصر `th` مع النص `Credit The outstanding balance on our credit card.`. غلف ذلك النص، باستثناء `Credit`، ضمن عنصر `span` مع `class` يسمى `description`.
+Within the third `tr`, add a `th` element with the text `Credit The outstanding balance on our credit card.`. Wrap that text, except for `Credit`, within a `span` element with the `class` set to `description`.
 
 اضف ثلاث عناصر `td` أدناه، مع إعطائهم النصوص التالية، بالترتيب: `$50`, و `$50`, و `$75`. اعطي عنصر `td` الثالث `class` بقيمة `current`.
 
@@ -61,7 +61,7 @@ assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySel
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelectorAll('td')?.[2]?.textContent === '$75');
 ```
 
-يجب أن تحتوي عنصرك `td` الثالث على `class` بقيمة `current`.
+يجب أن يحتوي عنصرك `td` الثالث على `class` بقيمة `current`.
 
 ```js
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelectorAll('td')?.[2]?.classList?.contains('current'));

@@ -8,13 +8,13 @@ dashedName: set-of-real-numbers
 
 # --description--
 
-All real numbers form the uncountable set ℝ. Among its subsets, relatively simple are the convex sets, each expressed as a range between two real numbers *a* and *b* where *a* ≤ *b*. There are actually four cases for the meaning of "between", depending on open or closed boundary:
+Alle reelen Zahlen bilden die überabzählbare Menge ℝ. Unter seinen Untermengen sind die konvexen Mengen jeweils als Bereich zwischen zwei reellen Zahlen *a* und *b* ausgedrückt, wo *a* ≤ *b* gilt. Tatsächlich gibt es vier Möglichkeiten für die Bedeutung von "zwischen" je nach offener oder geschlossener Grenze:
 
 <ul>
-  <li>[<i>a</i>, <i>b</i>]: {<i>x</i> | <i>a</i> ≤ <i>x</i> and <i>x</i> ≤ <i>b</i> }</li>
-  <li>(<i>a</i>, <i>b</i>): {<i>x</i> | <i>a</i> < <i>x</i> and <i>x</i> < <i>b</i> }</li>
-  <li>[<i>a</i>, <i>b</i>): {<i>x</i> | <i>a</i> ≤ <i>x</i> and <i>x</i> < <i>b</i> }</li>
-  <li>(<i>a</i>, <i>b</i>]: {<i>x</i> | <i>a</i> < <i>x</i> and <i>x</i> ≤ <i>b</i> }</li>
+  <li>[<i>a</i>, <i>b</i>]: {<i>x</i> | <i>a</i> ≤ <i>x</i> und <i>x</i> ≤ <i>b</i> }</li>
+  <li>(<i>a</i>, <i>b</i>): {<i>x</i> | <i>a</i> < <i>x</i> und <i>x</i> < <i>b</i> }</li>
+  <li>[<i>a</i>, <i>b</i>): {<i>x</i> | <i>a</i> ≤ <i>x</i> und <i>x</i> < <i>b</i> }</li>
+  <li>(<i>a</i>, <i>b</i>]: {<i>x</i> | <i>a</i> < <i>x</i> und <i>x</i> ≤ <i>b</i> }</li>
 </ul>
 
 Beachte, dass wenn *a* = *b*, wäre von den Viern nur \[*a*, *a* nicht leer.
@@ -22,7 +22,7 @@ Beachte, dass wenn *a* = *b*, wäre von den Viern nur \[*a*, *a* nicht leer.
 **Aufgabe**
 
 <ul>
-  <li>Devise a way to represent any set of real numbers, for the definition of "any" in the implementation notes below.</li>
+  <li>Entwickle einen Weg, um für die Definition von "beliebig" in den nachstehenden Implementierungshinweisen eine beliebige Menge von reellen Zahlen darzustellen.</li>
   <li>Biete Methoden für diese allgemeinen Mengenoperationen (<i>x</i> ist eine reelle Zahl; <i>A</i> und <i>B</i> sind Mengen):</li>
   <ul>
     <li>

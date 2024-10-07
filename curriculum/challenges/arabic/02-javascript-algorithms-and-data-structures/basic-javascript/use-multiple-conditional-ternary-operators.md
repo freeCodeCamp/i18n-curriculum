@@ -9,7 +9,7 @@ dashedName: use-multiple-conditional-ternary-operators
 
 # --description--
 
-في التحدي السابق، كنت تستخدم مشغلاً شرطياً واحداً. يمكنك أيضًا تجميعهم معاً للتحقق من وجود ظروف متعددة.
+In the previous challenge, you used a single conditional operator. You can also chain them together to check for multiple conditions.
 
 تستخدم الوظيفة التالية `else if`، و `if`، و `else` بيانات للتحقق من عدّة شروط:
 

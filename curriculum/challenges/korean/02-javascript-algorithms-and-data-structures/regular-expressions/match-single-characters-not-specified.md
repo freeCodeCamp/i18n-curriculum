@@ -8,7 +8,7 @@ dashedName: match-single-characters-not-specified
 
 # --description--
 
-지금까지는 일치시키고 싶은 문자를 설정했지만, 일치시키고 싶지 않은 문자도 설정할 수 있습니다. 이러한 종류의 문자 설정은 <dfn>제외할 문자 설정</dfn>이라 부릅니다.
+So far, you have created a set of characters that you want to match, but you could also create a set of characters that you do not want to match. These types of character sets are called <dfn>negated character sets</dfn>.
 
 제외할 문자 집합을 만들려면, 열리는 괄호 뒤와 일치시키지 않으려는 문자 앞에 캐럿 문자(`^`)를 배치합니다.
 

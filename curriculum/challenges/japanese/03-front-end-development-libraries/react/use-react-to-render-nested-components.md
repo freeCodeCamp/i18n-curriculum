@@ -8,7 +8,7 @@ dashedName: use-react-to-render-nested-components
 
 # --description--
 
-前回のチャレンジでは、2 つのコンポーネントを構成する簡単な方法を紹介しましたが、React でコンポーネントを構成する方法は他にもたくさんあります。
+The last challenge showed a simple way to compose two components, but there are many different ways you can compose components with React.
 
 コンポーネントコンポジションは React の強力な機能の一つです。 React の作業では、前回のチャレンジの App の例のようなコンポーネントに関して、ユーザーインターフェイスの検討を始めることが重要です。 UI を基本的な構成要素に分解すると、それらの要素がコンポーネントになります。 この作業によって、アプリケーションロジックの処理を担うコードと UI を担うコードとを切り分けられるようになり、 複雑なプロジェクトの開発と保守を大幅に簡素化できます。
 

@@ -8,7 +8,7 @@ dashedName: find-one-or-more-criminals-in-a-hunt
 
 # --description--
 
-是時候停一停來測試你的正則表達式使用能力了。 一羣罪犯越獄逃跑了，但你不知道有多少人。 然而，你知道他們不在一起時會保持緊密聯繫。 你有責任立刻找到所有的罪犯。
+Time to pause and test your new regex writing skills. A group of criminals escaped from jail and ran away, but you don't know how many. However, you do know that they stay close together when they are around other people. You are responsible for finding all of the criminals at once.
 
 這裏有一個示例來提示如何做到這一點：
 

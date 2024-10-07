@@ -19,7 +19,7 @@ Das Diagramm zeigt eine Tour über einem 4 × 10 Board:
 
 <img alt="eine Tour über 4 x 10 Brett" src="https://cdn.freecodecamp.org/curriculum/project-euler/tours-on-a-4-x-n-playing-board.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-$T(10) $ ist 2329. What is $T({10}^{12})$ modulo ${10}^8$?
+$T(10) $ ist 2329. Was ist $T({10}^{12})$ modulo ${10}^8$?
 
 # --hints--
 

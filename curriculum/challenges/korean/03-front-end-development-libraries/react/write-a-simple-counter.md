@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d4036177
-title: Write a Simple Counter
+title: 간단한 카운터 만들기
 challengeType: 6
 forumTopicId: 301425
 dashedName: write-a-simple-counter
@@ -12,13 +12,13 @@ You can design a more complex stateful component by combining the concepts cover
 
 # --instructions--
 
-The `Counter` component keeps track of a `count` value in `state`. There are two buttons which call methods `increment()` and `decrement()`. Write these methods so the counter value is incremented or decremented by 1 when the appropriate button is clicked. Also, create a `reset()` method so when the reset button is clicked, the count is set to 0.
+`Counter` 컴포넌트는 `상태`의 `count` 값을 추적하고 있습니다. `increment()`와 `decrement()` 메서드를 호출하는 두 개의 버튼도 있습니다. 버튼이 클릭되었을 때 카운터 값이 1이 증가하거나 감소하는 메서드를 작성해보세요. 리셋 버튼이 클릭되었을 때 카운트를 0으로 설정하는 `reset()` 메서드도 작성해보세요.
 
-**Note:** Make sure you don't modify the `className`s of the buttons. Also, remember to add the necessary bindings for the newly-created methods in the constructor.
+**참고:** 버튼의 `className` 변경하지 마세요. 또한, 생성자(constructor)에서 새로 만든 메서드를 바인딩 해주는 것도 잊지마세요.
 
 # --hints--
 
-`Counter` should return a `div` element which contains three buttons with text content in this order `Increment!`, `Decrement!`, `Reset`.
+`Counter`는 다음 세 가지의 버튼을 순서대로 가진 `div`를 반환해야 합니다. `Increment!`, `Decrement!`, `Reset`.
 
 ```js
 assert(
@@ -33,14 +33,14 @@ assert(
 );
 ```
 
-The state of `Counter` should initialize with a `count` property set to `0`.
+`Counter`의 상태는 `count` 프로퍼티를 `0`으로 초기화해야 합니다.
 
 ```js
 const mockedComponent = Enzyme.mount(React.createElement(Counter));
 assert(mockedComponent.find('h1').text() === 'Current Count: 0');
 ```
 
-Clicking the increment button should increment the count by `1`.
+증가(increment) 버튼 클릭시 카운트를 `1` 증가해야 합니다.
 
 ```js
 const mockedComponent = Enzyme.mount(React.createElement(Counter));
@@ -48,7 +48,7 @@ mockedComponent.find('.inc').simulate('click');
 assert(mockedComponent.find('h1').text() === 'Current Count: 1');
 ```
 
-Clicking the decrement button should decrement the count by `1`.
+감소(decrement) 버튼 클릭시 카운트를 `1` 감소해야 합니다.
 
 ```js
 const mockedComponent = Enzyme.mount(React.createElement(Counter));
@@ -56,7 +56,7 @@ mockedComponent.find('.dec').simulate('click');
 assert(mockedComponent.find('h1').text() === 'Current Count: -1');
 ```
 
-Clicking the reset button should reset the count to `0`.
+리셋(reset) 버튼 클릭시 카운트를 `0`으로 리셋해야 합니다.
 
 ```js
 const mockedComponent = Enzyme.mount(React.createElement(Counter));

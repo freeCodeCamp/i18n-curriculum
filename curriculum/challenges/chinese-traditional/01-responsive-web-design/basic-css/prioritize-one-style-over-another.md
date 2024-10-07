@@ -9,7 +9,7 @@ dashedName: prioritize-one-style-over-another
 
 # --description--
 
-有時候，HTML 元素的樣式會跟其他樣式發生衝突。
+Sometimes your HTML elements will receive multiple styles that conflict with one another.
 
 就像 `h1` 元素不能同時設置綠色和粉色兩種顏色。
 

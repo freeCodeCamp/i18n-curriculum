@@ -8,7 +8,7 @@ dashedName: change-the-presentation-of-a-bar-chart
 
 # --description--
 
-Die letzte Aufgabe hat ein Balkendiagramm erstellt, aber es gibt noch einige Formatierungsänderungen, die es verbessern könnten:
+The last challenge created a bar chart, but there are a couple of formatting changes that could improve it:
 
 1) Füge einen Abstand zwischen den einzelnen Balken hinzu, um sie optisch voneinander zu trennen. Dies wird erreicht, indem du einen Abstand in das CSS für die Klasse `bar` einfügst
 

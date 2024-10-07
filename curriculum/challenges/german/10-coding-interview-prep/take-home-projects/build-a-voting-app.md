@@ -8,27 +8,27 @@ dashedName: build-a-voting-app
 
 # --description--
 
-Build a full stack JavaScript app that is functionally similar to this: <a href="https://voting-app.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://voting-app.freecodecamp.rocks/</a>. Verwende einen Site-Builder deiner Wahl, um das Projekt abzuschließen.
+Build a full stack JavaScript app that is functionally similar to this: <a href="https://voting-app.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://voting-app.freecodecamp.rocks/</a>. Use a site builder of your choice to complete the project.
 
-Here are the specific user stories you should implement for this project:
+Hier sind die spezifischen User Stories, die du für dieses Projekt implementieren solltest:
 
-**User Story:** As an authenticated user, you can keep my polls and come back later to access them.
+**User Story:** Als authentifizierter Nutzer kannst du meine Umfragen behalten und später wieder darauf zugreifen.
 
-**User Story:** As an authenticated user, you can share my polls with my friends.
+**User Story:** Als authentifizierter Nutzer kannst du meine Umfragen mit meinen Freunden teilen.
 
-**User Story:** As an authenticated user, you can see the aggregate results of my polls.
+**User Story:** Als authentifizierter Nutzer kannst du die Gesamtergebnisse meiner Umfragen sehen.
 
-**User Story:** As an authenticated user, you can delete polls that I decide I don't want anymore.
+**User Story:** Als authentifizierter Nutzer kannst du Umfragen löschen, die ich nicht mehr möchte.
 
-**User Story:** As an authenticated user, you can create a poll with any number of possible items.
+**User Story:** Als authentifizierter Nutzer können Sie eine Umfrage mit einer beliebigen Anzahl möglicher Elemente erstellen.
 
-**User Story:** As an unauthenticated or authenticated user, you can see and vote on everyone's polls.
+**User Story:** Als nicht-authentifizierter oder authentifizierter Nutzer kannst du die Umfragen aller sehen und für sie stimmen.
 
-**User Story:** As an unauthenticated or authenticated user, you can see the results of polls in chart form. (This could be implemented using Chart.js or Google Charts.)
+**User Story:** Als nicht authentifizierter oder authentifizierter Nutzer kannst du die Ergebnisse von Umfragen in Diagrammform sehen. (Dies könnte mit Chart.js oder Google Charts umgesetzt werden).
 
-**User Story:** As an authenticated user, if you don't like the options on a poll, you can create a new option.
+**User Story:** Wenn du als authentifizierter Nutzer die Optionen einer Umfrage nicht magst, kansst du eine neue Option erstellen.
 
-When you are done, make sure a working demo of your project is hosted somewhere public. Then submit the URL to it in the Solution Link field. Optionally, also submit a link to your project's source code in the GitHub Link field.
+Wenn du fertig bist, stelle sicher, dass eine funktionierende Demo deines Projekts irgendwo öffentlich gehostet wird. Gib anschließend die URL in das Solution Link-Feld ein. Füge optional einen Link zum Quellcode deines Projekts in das GitHub Link-Feld ein.
 
 # --solutions--
 

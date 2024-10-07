@@ -9,7 +9,7 @@ dashedName: use-attribute-selectors-to-style-elements
 
 # --description--
 
-Ви додали `id` або `class` атрибути до елементів, які бажаєте окремо стилізувати. Вони відомі як ID та класові селектори. Є також інші CSS-селектори, які можна використовувати, щоб обрати користувацькі групи елементів для стилізації.
+You have been adding `id` or `class` attributes to elements that you wish to specifically style. These are known as ID and class selectors. There are other CSS Selectors you can use to select custom groups of elements to style.
 
 Використаємо CatPhotoApp ще раз, щоб попрактикуватися у використанні CSS-селекторів.
 

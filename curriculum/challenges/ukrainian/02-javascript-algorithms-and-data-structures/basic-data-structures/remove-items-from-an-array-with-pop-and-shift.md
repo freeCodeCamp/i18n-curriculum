@@ -8,7 +8,7 @@ dashedName: remove-items-from-an-array-with-pop-and-shift
 
 # --description--
 
-`push()` та `unshift()` мають відповідні методи, які за функціями майже протилежні: `pop()` та `shift()`. Напевно ви вже зрозуміли, що `pop()` *видаляє* елемент з кінця масиву, а не додає його, тоді як `shift()` видаляє елемент на початку. Ключова різниця між `pop()` й `shift()` та їхньою «сім’єю» (тобто `push()` й `unshift()`) полягає в тому, що жоден метод не приймає параметри, а тільки дозволяє масиву змінювати один елемент за раз.
+Both `push()` and `unshift()` have corresponding methods that are nearly functional opposites: `pop()` and `shift()`. As you may have guessed by now, instead of adding, `pop()` *removes* an element from the end of an array, while `shift()` removes an element from the beginning. The key difference between `pop()` and `shift()` and their cousins `push()` and `unshift()`, is that neither method takes parameters, and each only allows an array to be modified by a single element at a time.
 
 Розглянемо приклад:
 

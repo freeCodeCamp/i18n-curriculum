@@ -8,7 +8,7 @@ dashedName: copy-an-object-with-object-assign
 
 # --description--
 
-Os últimos desafios funcionaram com arrays, mas também existem maneiras de ajudar a impor a imutabilidade do state quando o state for um `object`. Uma ferramenta útil para lidar com objetos é a utilidade do `Object.assign()`. `Object.assign()` recebe um objeto alvo e objetos fonte e mapeia propriedades dos objetos de origem para o objeto alvo. Qualquer propriedades correspondentes são substituídas por propriedades nos objetos de origem. Esse comportamento é comumente usado para fazer cópias rasas de objetos, passando um objeto vazio como o primeiro argumento seguido do(s) objeto(s) que você deseja copiar. Exemplo:
+The last several challenges worked with arrays, but there are ways to help enforce state immutability when state is an `object`, too. A useful tool for handling objects is the `Object.assign()` utility. `Object.assign()` takes a target object and source objects and maps properties from the source objects to the target object. Any matching properties are overwritten by properties in the source objects. This behavior is commonly used to make shallow copies of objects by passing an empty object as the first argument followed by the object(s) you want to copy. Aqui está um exemplo:
 
 ```js
 const newObject = Object.assign({}, obj1, obj2);

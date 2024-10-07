@@ -12,7 +12,7 @@ dashedName: guided-project-debug-and-handle-exceptions-in-a-c-sharp-console-appl
 1. Перейдіть до <a href="https://learn.microsoft.com/training/modules/guided-project-debug-handle-exceptions-c-sharp-console-application/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/guided-project-debug-handle-exceptions-c-sharp-console-application/</a> та виконайте всі завдання модуля «Керований проєкт: налагодьте та обробіть винятки в консольному застосунку C#, використовуючи Visual Studio Code». Це **обов’язково**, щоб отримати трофей з «Налагодження консольних застосунків C#» на Microsoft Learn та мати змогу скласти сертифікаційний екзамен.
 1. Як тільки завершите, поверніться та дайте правильну відповідь на запитання нижче.
 
-# --assignment--
+# --Завдання--
 
 Виконайте керований проєкт <a href="https://learn.microsoft.com/training/modules/guided-project-debug-handle-exceptions-c-sharp-console-application/" target="_blank" rel="noreferrer">«Налагодьте та обробіть винятки в консольному застосунку C#, використовуючи Visual Studio Code»</a> на Microsoft Learn. Потім дайте відповідь на запитання нижче.
 
@@ -20,19 +20,19 @@ dashedName: guided-project-debug-and-handle-exceptions-in-a-c-sharp-console-appl
 
 ## --text--
 
-Коли викидається виняток `ArgumentOutOfRangeException`?
+When is an `ArgumentOutOfRangeException` exception thrown?
 
 ## --answers--
 
-Виняток `ArgumentOutOfRangeException` викидається при спробі індексувати масив за межами масиву.
+An `ArgumentOutOfRangeException` exception is thrown when an attempt is made to index an array outside the bounds of the array.
 
 ---
 
-Виняток `ArgumentOutOfRangeException` викидається, коли значення аргумента знаходиться поза діапазоном дозволених значень, визначених методом.
+An `ArgumentOutOfRangeException` exception is thrown when the value of an argument is outside the allowable range of values as defined by the method.
 
 ---
 
-Виняток `ArgumentOutOfRangeException` викидається при спробі зберегти значення одного типу в масиві іншого типу.
+An `ArgumentOutOfRangeException` exception is thrown when an attempt is made to store a value of one type in an array of another type.
 
 ## --video-solution--
 

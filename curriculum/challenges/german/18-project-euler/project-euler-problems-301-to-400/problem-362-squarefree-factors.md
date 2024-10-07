@@ -8,9 +8,9 @@ dashedName: problem-362-squarefree-factors
 
 # --description--
 
-Consider the number 54.
+Nehmen wir die Zahl 54.
 
-54 can be factored in 7 distinct ways into one or more factors larger than 1:
+54 kann auf 7 verschiedene Arten in einen oder mehrere Faktoren größer als 1 zerlegt werden:
 
 $$54, 2 × 27, 3 × 18, 6 × 9, 3 × 3 × 6, 2 × 3 × 9 \text{ and } 2 × 3 × 3 × 3$$
 
@@ -18,15 +18,15 @@ Wenn wir voraussetzen, dass die Faktoren alle quadratfrei sind, bleiben nur zwei
 
 Nennen wir $Fsf(n)$ die Anzahl der Möglichkeiten, wie $n$ in einen oder mehrere quadratfreie Faktoren größer als 1 zerlegt werden kann, also $Fsf(54) = 2$.
 
-Let $S(n)$ be $\sum Fsf(k)$ for $k = 2$ to $n$.
+Sei $S(n)$ $\sum Fsf(k)$ für $k = 2$ bis $n$.
 
 $S(100) = 193$.
 
-Find $S(10\\,000\\,000\\,000)$.
+Finde $S(10\\,000\\,000\\,000)$.
 
 # --hints--
 
-`squarefreeFactors()` should return `457895958010`.
+`squarefreeFactors()` sollte `457895958010` zurückgeben.
 
 ```js
 assert.strictEqual(squarefreeFactors(), 457895958010);

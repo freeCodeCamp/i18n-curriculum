@@ -14,7 +14,7 @@ dashedName: developing-a-banner-grabber
 
 ## --text--
 
-Riempi gli spazi vuoti per completare la funzione `banner` qui sotto:
+Fill in the blanks to complete the `banner` function below:
 
 ```py
 def banner(ip, port):

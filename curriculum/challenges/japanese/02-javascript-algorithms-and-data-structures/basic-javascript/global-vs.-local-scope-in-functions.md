@@ -9,7 +9,7 @@ dashedName: global-vs--local-scope-in-functions
 
 # --description--
 
-<dfn>ローカル</dfn>変数と<dfn>グローバル</dfn>変数で同じ名前を使用することが可能です。 その場合は、ローカル変数がグローバル変数よりも優先されます。
+It is possible to have both <dfn>local</dfn> and <dfn>global</dfn> variables with the same name. When you do this, the local variable takes precedence over the global variable.
 
 次の例を見てみましょう。
 

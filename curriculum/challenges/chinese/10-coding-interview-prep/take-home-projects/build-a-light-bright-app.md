@@ -1,6 +1,6 @@
 ---
 id: 5a5d02bd919fcf9ca8cf46cb
-title: Build a Light-Bright App
+title: 编写一个 Light-Bright 应用
 challengeType: 3
 forumTopicId: 302350
 dashedName: build-a-light-bright-app
@@ -10,9 +10,9 @@ dashedName: build-a-light-bright-app
 
 **Objective:** Build an app that is functionally similar to this: <https://codepen.io/freeCodeCamp/full/eyLYXE>.
 
-**规则＃1：** 不要查看示例项目的代码。 自己搞清楚。
+**规则＃1：** 不要查看示例项目的代码。 自己想办法。
 
-**Rule #2:** Fulfill the below user stories and get all of the tests to pass. 使用你需要的任何库或 API。 赋予它你自己的个人风格。
+**规则 #2：** 完成下面的用户故事，让所有测试都通过. 使用你需要的任何库和第三方API。 使用你自己的个人风格样式。
 
 **用户故事：** 我可以单击或拖动鼠标光标为圆圈着色。
 
@@ -26,9 +26,9 @@ dashedName: build-a-light-bright-app
 
 **用户故事：** 我可以单击“全部重置”按钮删除圆圈中的所有颜色。
 
-When you are finished, include a link to your project on CodePen and click the "I've completed this challenge" button.
+完成后，单击“我已完成此挑战”按钮并添加一个指向CodePen的链接。
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+可以分享你的项目到 <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp 论坛</a>上获得反馈。
 
 # --solutions--
 

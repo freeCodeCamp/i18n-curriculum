@@ -14,7 +14,7 @@ dashedName: developing-an-nmap-scanner-part-1
 
 ## --text--
 
-Qual é o comando correto para instalar a versão Python 3 da biblioteca `python-nmap`?
+What is the correct command to install the Python 3 version of the `python-nmap` library?
 
 ## --answers--
 

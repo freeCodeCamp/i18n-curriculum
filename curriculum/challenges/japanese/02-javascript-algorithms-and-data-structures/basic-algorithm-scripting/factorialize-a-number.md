@@ -8,13 +8,13 @@ dashedName: factorialize-a-number
 
 # --description--
 
-指定された整数の階乗を返してください。
+Return the factorial of the provided integer.
 
 指定された整数が `n` の場合、階乗は `n` 以下のすべての正の整数の積となります。
 
 階乗はよく `n!` と簡略表記されます。
 
-例: `5! = 1 * 2 * 3 * 4 * 5 = 120`
+For example: `5! = 1 * 2 * 3 * 4 * 5 = 120`
 
 関数には 0 以上の整数だけが与えられます。
 

@@ -8,7 +8,7 @@ dashedName: use--for-a-more-concise-conditional
 
 # --description--
 
-Умови `if/else` працювали в попередньому завданні, але для досягнення того ж результату існує коротший спосіб. Уявіть, що ви відстежуєте декілька умов в компоненті та хочете, щоб різні елементи відтворювались залежно від кожної умови. Якщо ви напишете багато інструкцій `else if` для відтворення трішки різних UI, код може повторюватись, через що можуть виникнути помилки. Натомість ви можете використати логічний оператор `&&`, який виконує умовну логіку в коротшому вигляді. Це можливо, оскільки потрібно перевірити, чи умовою є `true`, і якщо так, то повернути розмітку. Ось приклад:
+The `if/else` statements worked in the last challenge, but there's a more concise way to achieve the same result. Imagine that you are tracking several conditions in a component and you want different elements to render depending on each of these conditions. If you write a lot of `else if` statements to return slightly different UIs, you may repeat code which leaves room for error. Instead, you can use the `&&` logical operator to perform conditional logic in a more concise way. This is possible because you want to check if a condition is `true`, and if it is, return some markup. Ось приклад:
 
 ```jsx
 {condition && <p>markup</p>}

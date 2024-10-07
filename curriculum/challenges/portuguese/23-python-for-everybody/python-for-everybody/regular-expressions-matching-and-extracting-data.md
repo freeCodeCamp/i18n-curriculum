@@ -14,7 +14,7 @@ dashedName: regular-expressions-matching-and-extracting-data
 
 ## --text--
 
-O que será impresso pelo código a seguir?:
+O que será impresso pelo código a seguir?
 
 ```python
 import re

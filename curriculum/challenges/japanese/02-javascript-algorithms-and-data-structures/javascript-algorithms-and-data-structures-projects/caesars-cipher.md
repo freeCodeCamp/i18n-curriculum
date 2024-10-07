@@ -8,7 +8,7 @@ dashedName: caesars-cipher
 
 # --description--
 
-最もシンプルで広く知られている<dfn>暗号</dfn>の 1 つが<dfn>シーザー暗号</dfn>で、<dfn>シフト暗号</dfn>とも呼ばれています。 シフト暗号では、文字の意味が一定量ずつシフトされます。
+One of the simplest and most widely known <dfn>ciphers</dfn> is a <dfn>Caesar cipher</dfn>, also known as a <dfn>shift cipher</dfn>. In a shift cipher the meanings of the letters are shifted by some set amount.
 
 現代では、文字を 13 文字ずつシフトさせる <a href="https://www.freecodecamp.org/news/how-to-code-the-caesar-cipher-an-introduction-to-basic-encryption-3bf77b4e19f7/" target="_blank" rel="noopener noreferrer nofollow">ROT13</a> という暗号がよく使われます。 たとえば、`A ↔ N`、`B ↔ O` のようになります。
 

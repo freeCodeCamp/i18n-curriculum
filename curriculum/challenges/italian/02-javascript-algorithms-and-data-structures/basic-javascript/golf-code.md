@@ -9,7 +9,7 @@ dashedName: golf-code
 
 # --description--
 
-Nel gioco del Golf, ogni buca ha un `par`, che è il numero medio di tiri (`strokes`) che un golfista dovrebbe fare per riuscire a fare buca. A seconda di quanto sopra o sotto al valore di `par` sono i tuoi `strokes`, c'è un soprannome diverso.
+In the game of Golf, each hole has a `par`, meaning, the average number of `strokes` a golfer is expected to make in order to sink the ball in the hole to complete the play. Depending on how far above or below `par` your `strokes` are, there is a different nickname.
 
 Alla tua funzione saranno passati gli argomenti `par` e `strokes`. Restituisci la stringa corretta in base a questa tabella che elenca i colpi in ordine di priorità; dall'alto (maggiore priorità) al basso (minore):
 

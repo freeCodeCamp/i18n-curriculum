@@ -1,6 +1,6 @@
 ---
 id: 587d825b367417b2b2512c8d
-title: Create an ES6 JavaScript Map
+title: 創建一個 ES6 JavaScript 映射
 challengeType: 1
 forumTopicId: 301635
 dashedName: create-an-es6-javascript-map
@@ -11,26 +11,26 @@ dashedName: create-an-es6-javascript-map
 The new version of JavaScript provides us with a built-in Map object which provides much of the functionality we wrote by hand in the last challenge. This Map object, although similar to regular JavaScript objects, provides some useful functionality that normal objects lack. For example, an ES6 Map tracks the insertion order of items that are added to it. Here is a more complete overview of its methods:
 
 - `.has(key)` returns true or false based on the presence of a key
-- `.get(key)` returns the value associated with a key
-- `.set(key, value)` sets a new key, value pair
-- `.delete(key)` removes a key, value pair
-- `.clear()` removes all key, value pairs
-- `.entries()` returns an array of all the keys in insertion order
-- `.values()` returns an array of all the values in insertion order
+- `.get(key)` 返回與key關聯的值
+- `.set(key, value)` 設置一個新的鍵值對
+- `.delete(key)` 移除一個鍵值對
+- `.clear()` 移除所有鍵值對
+- `.entries()` 返回一個所有按鍵插入順序排列的鍵的數組
+- `.entries()` 返回一個所有按值的插入順序排列的值的數組
 
 # --instructions--
 
-Define a JavaScript Map object and assign to it a variable called myMap. Add the key, value pair `freeCodeCamp`, `Awesome!` to it.
+定義一個 JavaScript 映射對象並將其分配給一個名爲 myMap 的變量。 向其中添加鍵值對 `freeCodeCamp`、`Awesome!`。
 
 # --hints--
 
-The `myMap` object should exist.
+`myMap` 對象應該存在。
 
 ```js
 assert(typeof myMap === 'object');
 ```
 
-`myMap` should contain the key value pair `freeCodeCamp`, `Awesome!`.
+< code > myMap </code > 應該包含鍵值對 < code > freeCodeCamp </code > ，< code > Awesome! </code > 。
 
 ```js
 assert(myMap.get('freeCodeCamp') === 'Awesome!');

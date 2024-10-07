@@ -9,13 +9,13 @@ dashedName: use-tabindex-to-specify-the-order-of-keyboard-focus-for-several-elem
 
 # --description--
 
-L'attributo `tabindex` può anche specificare l'esatto ordine di selezione degli elementi. Questo si ottiene quando il valore dell'attributo è impostato su un numero positivo maggiore o uguale a 1.
+The `tabindex` attribute also specifies the exact tab order of elements. This is achieved when the attribute's value is set to a positive number of 1 or higher.
 
 Impostare un `tabindex="1"` porterà la selezione della tastiera a quell'elemento per primo. Dopodiché passa attraverso la sequenza dei valori `tabindex` specificati (2, 3, ecc.), prima di passare agli elementi predefiniti e a quelli con `tabindex="0"`.
 
 È importante notare che quando l'ordine di tabulazione è impostato in questo modo, sovrascrive l'ordine predefinito (che utilizza il sorgente HTML). Questo potrebbe confondere gli utenti che si aspettano di iniziare la navigazione dall'inizio della pagina. Questa tecnica può essere necessaria in alcune circostanze, ma in termini di accessibilità fai attenzione prima di applicarla.
 
-Ecco un esempio:
+Qui un esempio:
 
 ```html
 <div tabindex="1">I get keyboard focus, and I get it first!</div>

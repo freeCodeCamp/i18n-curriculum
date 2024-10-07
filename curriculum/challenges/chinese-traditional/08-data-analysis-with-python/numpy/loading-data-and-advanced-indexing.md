@@ -14,7 +14,7 @@ dashedName: loading-data-and-advanced-indexing
 
 ## --text--
 
-給定一個名爲 `data.txt` 的文件，其中包含以下內容：
+Given a file named `data.txt` with these contents:
 
 <pre>
 29,97,32,100,45

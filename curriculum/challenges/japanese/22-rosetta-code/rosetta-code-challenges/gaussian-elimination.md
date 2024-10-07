@@ -10,7 +10,7 @@ dashedName: gaussian-elimination
 
 Write a function to solve \\(Ax = b\\) using Gaussian elimination then backwards substitution.
 
-\\(A\\) は \\(n \\times n\\) 行列とします。 また、\\(x\\) と \\(b\\) は \\(n\\) に 1 ベクトルを掛けます。
+\\(A\\) は \\(n \\× n\\) 行列とします。 また、\\(x\\) と \\(b\\) は \\(n\\) に 1 ベクトルを掛けます。
 
 精度を向上させるために、部分ピボット選択とスケーリングを使用してください。
 

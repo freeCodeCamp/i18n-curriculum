@@ -1,6 +1,6 @@
 ---
 id: 5e8f2f13c4cdbe86b5c72d91
-title: 'Core Learning Algorithms: Using Probabilities to make Predictions'
+title: 'Algoritmos de aprendizaje básico: Usando probabilidades para hacer predicciones'
 challengeType: 11
 videoId: fYAYvLUawnc
 bilibiliIds:
@@ -10,7 +10,7 @@ bilibiliIds:
 dashedName: core-learning-algorithms-using-probabilities-to-make-predictions
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 

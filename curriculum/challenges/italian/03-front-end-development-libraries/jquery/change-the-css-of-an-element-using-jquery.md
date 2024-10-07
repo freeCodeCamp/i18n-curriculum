@@ -11,7 +11,7 @@ dashedName: change-the-css-of-an-element-using-jquery
 
 # --description--
 
-Possiamo anche cambiare direttamente il CSS di un elemento HTML con jQuery.
+We can also change the CSS of an HTML element directly with jQuery.
 
 jQuery ha una funzione chiamata `.css()` che consente di cambiare il CSS di un elemento.
 

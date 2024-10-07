@@ -8,7 +8,7 @@ dashedName: use-responsive-design-with-bootstrap-fluid-containers
 
 # --description--
 
-프리코드캠프의 HTML5와 CSS 섹션에서 고양이 사진 앱을 만들었습니다. 이제 그 앱으로 돌아가보겠습니다. 이번에는 자주 사용되는 부트스트랩 반응형 CSS 프레임워크를 사용하여 스타일링해볼 것입니다.
+In the HTML5 and CSS section of freeCodeCamp we built a Cat Photo App. Now let's go back to it. This time, we'll style it using the popular Bootstrap responsive CSS framework.
 
 부트스트랩은 화면의 너비를 알아내고 HTML 요소의 크기를 재종하여 반응할 것입니다. 이로 인해 <dfn>반응형 디자인</dfn>이라고 불립니다.
 

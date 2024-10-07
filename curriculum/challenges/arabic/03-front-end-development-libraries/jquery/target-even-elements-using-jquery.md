@@ -11,7 +11,7 @@ dashedName: target-even-elements-using-jquery
 
 # --description--
 
-يمكنك أيضًا استهداف العناصر استنادًا إلى مواقفها باستخدام منتقات `:odd` أو `:even`.
+You can also target elements based on their positions using `:odd` or `:even` selectors.
 
 لاحظ أن jQuery مقدسة صفر مما يعني أن العنصر الأول في الاختيار له وضع صفر. يمكن أن يكون هذا مربكا بعض الشيء, وغير البديهي, يختار `:odd` العنصر الثاني (الموضع 1)، العنصر الرابع (الموضع 3)، وهكذا.
 

@@ -8,7 +8,7 @@ dashedName: complete-a-promise-with-resolve-and-reject
 
 # --description--
 
-プロミスには、`pending` (保留)、`fulfilled` (成功)、`rejected` (拒否) の 3 つの状態があります。 前のチャレンジで作成したプロミスは、プロミスの完了方法を追加していなかったために、永久に `pending` 状態のままになります。 プロミスを完了するには、プロミスの引数に与えられた `resolve` および `reject` パラメーターを使用します。 プロミスを成功としたい場合は `resolve` を使用し、失敗としたい場合は `reject` を使用します。 これらは、次に示すように引数を取るメソッドです。
+A promise has three states: `pending`, `fulfilled`, and `rejected`. The promise you created in the last challenge is forever stuck in the `pending` state because you did not add a way to complete the promise. The `resolve` and `reject` parameters given to the promise argument are used to do this. `resolve` is used when you want your promise to succeed, and `reject` is used when you want it to fail. These are methods that take an argument, as seen below.
 
 ```js
 const myPromise = new Promise((resolve, reject) => {

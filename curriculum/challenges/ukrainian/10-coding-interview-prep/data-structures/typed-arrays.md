@@ -8,7 +8,7 @@ dashedName: typed-arrays
 
 # --description--
 
-Масиви — це об’єкти JavaScript, які містять безліч інших елементів.
+Arrays are JavaScript objects that can hold a lot of different elements.
 
 ```js
 var complexArr = [1, 5, "2", "Word", {"name": "James"}];
@@ -20,7 +20,7 @@ var complexArr = [1, 5, "2", "Word", {"name": "James"}];
 
 З цим допоможуть <dfn>типізовані масиви</dfn>. Тепер ви зможете визначити обсяг пам’яті, який займатиме масив. Нижче ви знайдете загальну інформацію з оглядом різних видів масивів, а також розмір кожного елементу масиву в байтах.
 
-<table><tbody><tr><th>Вид</th><th>Розмір елементу в байтах</th></tr><tr><td><code>Int8Array</code></td><td>1</td></tr><tr><td><code>Uint8Array</code></td><td>1</td></tr><tr><td><code>Uint8ClampedArray</code></td><td>1</td></tr><tr><td><code>Int16Array</code></td><td>2</td></tr><tr><td><code>Uint16Array</code></td><td>2</td></tr><tr><td><code>Int32Array</code></td><td>4</td></tr><tr><td><code>Uint32Array</code></td><td>4</td></tr><tr><td><code>Float32Array</code></td><td>4</td></tr><tr><td><code>Float64Array</code></td><td>8</td></tr></tbody></table>
+<table><tbody><tr><th>Type</th><th>Each element size in bytes</th></tr><tr><td><code>Int8Array</code></td><td>1</td></tr><tr><td><code>Uint8Array</code></td><td>1</td></tr><tr><td><code>Uint8ClampedArray</code></td><td>1</td></tr><tr><td><code>Int16Array</code></td><td>2</td></tr><tr><td><code>Uint16Array</code></td><td>2</td></tr><tr><td><code>Int32Array</code></td><td>4</td></tr><tr><td><code>Uint32Array</code></td><td>4</td></tr><tr><td><code>Float32Array</code></td><td>4</td></tr><tr><td><code>Float64Array</code></td><td>8</td></tr></tbody></table>
 
 Ми можемо створити такі види масивів двома способами. Один з них — створити їх напряму. Нижче показано, як створити `Int16Array` довжиною 3.
 

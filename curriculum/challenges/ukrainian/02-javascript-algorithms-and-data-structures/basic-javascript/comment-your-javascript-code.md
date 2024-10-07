@@ -9,7 +9,7 @@ dashedName: comment-your-javascript-code
 
 # --description--
 
-Коментарі — це рядки коду, які JavaScript буде навмисно ігнорувати. Це чудовий спосіб залишити нотатки для себе та інших людей, які згодом повинні дізнатися, що робить цей код.
+Comments are lines of code that JavaScript will intentionally ignore. Comments are a great way to leave notes to yourself and to other people who will later need to figure out what that code does.
 
 Існує два способи написання коментарів у JavaScript:
 

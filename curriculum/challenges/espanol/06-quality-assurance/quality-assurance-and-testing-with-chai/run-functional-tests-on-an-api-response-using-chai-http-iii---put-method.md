@@ -8,7 +8,7 @@ dashedName: run-functional-tests-on-an-api-response-using-chai-http-iii---put-me
 
 # --description--
 
-Como recordatorio, este proyecto se está construyendo según el siguiente proyecto inicial en <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>o clonando desde <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
+As a reminder, this project is being built upon the following starter project on <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>, or cloned from <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
 
 Cuando se prueba una solicitud `PUT`, a menudo enviarás datos junto con ella. Los datos que incluye con su solicitud `PUT` se llama el body de la petición.
 
@@ -51,7 +51,7 @@ Enviar el siguiente objeto JSON con su solicitud PUT:
 
 Compruebe lo siguiente dentro del callback `request.end`:
 
-1.  El `status` debe ser `200`
+1.  The `status` should be `200`
 2.  El `type` debe ser `application/json`
 3.  El `body.name` debe ser `Cristoforo`
 4.  El `body.surname` debe ser `Colombo`

@@ -9,7 +9,7 @@ dashedName: stand-in-line
 
 # --description--
 
-En Informática una <dfn>cola</dfn> (queue) es una estructura de datos <dfn>abstracta</dfn> donde los elementos se mantienen en orden. Los nuevos elementos se pueden añadir en la parte posterior de la cola y los elementos antiguos se retiran de la parte delantera de la cola.
+In Computer Science a <dfn>queue</dfn> is an abstract <dfn>Data Structure</dfn> where items are kept in order. New items can be added at the back of the queue and old items are taken off from the front of the queue.
 
 # --instructions--
 

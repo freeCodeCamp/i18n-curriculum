@@ -9,7 +9,7 @@ dashedName: use-the-align-items-property-in-the-tweet-embed
 
 # --description--
 
-이전 과제에서 `align-items` 속성을 소개하고 예시를 살펴보았습니다. 이 속성은 몇몇 트윗 임베드 요소 안에 있는 플렉스 아이템 정렬시키도록 적용될 수 있습니다.
+The last challenge introduced the `align-items` property and gave an example. This property can be applied to a few tweet embed elements to align the flex items inside them.
 
 # --instructions--
 
@@ -17,7 +17,7 @@ dashedName: use-the-align-items-property-in-the-tweet-embed
 
 # --hints--
 
-`.follow-btn`는 페이지에 렌더링되어야 합니다. 광고 차단기같은 확장 프로그램은 꺼야합니다.
+`.follow-btn`가 페이지에 렌더링되어야 합니다. 광고 차단기 같은 확장 프로그램은 꺼야합니다.
 
 ```js
 assert($('.follow-btn').length > 0 && $('.follow-btn').css('display') !== 'none');

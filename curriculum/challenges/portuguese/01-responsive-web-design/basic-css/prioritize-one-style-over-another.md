@@ -9,7 +9,7 @@ dashedName: prioritize-one-style-over-another
 
 # --description--
 
-Às vezes, seus elementos HTML receberão vários estilos que conflitam entre si.
+Sometimes your HTML elements will receive multiple styles that conflict with one another.
 
 Por exemplo, o elemento `h1` não pode ser verde e rosa ao mesmo tempo.
 

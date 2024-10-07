@@ -8,9 +8,9 @@ dashedName: build-a-tribute-page
 
 # --description--
 
-**Objective:** Fulfill the user stories below and get all the tests to pass to complete the lab.
+Fulfill the user stories below and get all the tests to pass to complete the lab.
 
-**User Stories:**
+**유저 스토리:**
 
 1. Your tribute page should have a `main` element with a corresponding `id` of `main`, which contains all other elements.
 1. You should see an element with an `id` of `title`, which contains a string (i.e. text), that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug").

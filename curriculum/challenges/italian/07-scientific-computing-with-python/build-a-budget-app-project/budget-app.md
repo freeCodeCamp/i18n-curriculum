@@ -19,8 +19,8 @@ Complete the `Category` class. It should be able to instantiate objects based on
 When the budget object is printed it should display:
 
 - A title line of 30 characters where the name of the category is centered in a line of `*` characters.
-- A list of the items in the ledger. Each line should show the description and amount. The first 23 characters of the description should be displayed, then the amount. The amount should be right aligned, contain two decimal places, and display a maximum of 7 characters.
-- A line displaying the category total.
+- Una lista delle transazioni nel ledger. Ogni linea dovrebbe mostrare la descrizione e l'ammontare. I primi 23 caratteri della descrizione dovrebbero essere mostrati, poi l'ammontare. L'ammontare dovrebbe essere allineato a destra, avere due cifre decimali, e mostrare un massimo di 7 caratteri.
+- Una riga che mostra il totale della categoria.
 
 Here is an example usage:
 
@@ -45,13 +45,13 @@ Transfer to Clothing    -50.00
 Total: 923.96
 ```
 
-Besides the `Category` class, create a function (outside of the class) called `create_spend_chart` that takes a list of categories as an argument. It should return a string that is a bar chart.
+Oltre la classe `Category`, crea una funzione, al di fuori della classe, chiamata `create_spend_chart` che prende una lista di categorie come argomento. Dovrebbe restituire una stringa che è un grafico a barre.
 
-The chart should show the percentage spent in each category passed in to the function. The percentage spent should be calculated only with withdrawals and not with deposits. Down the left side of the chart should be labels 0 - 100. The 'bars' in the bar chart should be made out of the 'o' character. The height of each bar should be rounded down to the nearest 10. The horizontal line below the bars should go two spaces past the final bar. Each category name should be written vertically below the bar. There should be a title at the top that says 'Percentage spent by category'.
+Il grafico dovrebbe mostrare la percentuale spesa in ogni categoria passata alla funzione. La percentuale spesa dovrebbe essere calcolata solo con i prelievi e non i depositi. Lungo il lato sinistro del grafico dovrebbero esserci etichette 0 - 100. The 'bars' in the bar chart should be made out of the 'o' character. L'altezza di ogni barra dovrebbe essere arrotondata per difetto alla decina più vicina. La linea orizzontale sotto le barre dovrebbe finire due caratteri dopo l'ultima barra. Ogni nome di categoria dovrebbe essere scritto verticalmente sotto la barra. There should be a title at the top that says 'Percentage spent by category'.
 
-This function will be tested with up to four categories.
+Questa funzione sarà testata con al massimo quattro categorie.
 
-Look at the example output below very closely and make sure the spacing of the output matches the example exactly.
+Guarda all'esempio di output qui sotto con attenzione e assicurati che gli spazi dell'output combacino esattamente con l'esempio.
 
 ```bash
 Percentage spent by category
@@ -711,7 +711,7 @@ t.result.wasSuccessful()
 })
 ```
 
-`create_spend_chart` should print a different chart representation. Check that all spacing is exact.
+`create_spend_chart` should print a different chart representation. Check that all spacing is exact. Open your browser console with F12 for more details.
 
 ```js
 ({

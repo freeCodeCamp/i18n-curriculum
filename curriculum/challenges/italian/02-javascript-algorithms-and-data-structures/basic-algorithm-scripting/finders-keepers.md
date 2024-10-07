@@ -8,7 +8,7 @@ dashedName: finders-keepers
 
 # --description--
 
-Crea una funzione che scorre un array `arr` e restituisce il primo elemento che passa un 'test di verità'. Ciò significa che, dato un elemento `x`, il 'test di verità' viene superato se `func(x)` è `true`. Se nessun elemento supera il test, restituisce `undefined`.
+Create a function that looks through an array `arr` and returns the first element in it that passes a 'truth test'. This means that given an element `x`, the 'truth test' is passed if `func(x)` is `true`. If no element passes the test, return `undefined`.
 
 # --hints--
 

@@ -8,7 +8,7 @@ dashedName: pig-latin
 
 # --description--
 
-兒童黑話也叫 Pig Latin，是一種英語語言遊戲。 規則如下：
+Pig Latin is a way of altering English Words. The rules are as follows:
 
 \- 如果單詞以輔音開頭，就把第一個輔音字母或第一組輔音簇移到單詞的結尾，並在後面加上 `ay`。
 

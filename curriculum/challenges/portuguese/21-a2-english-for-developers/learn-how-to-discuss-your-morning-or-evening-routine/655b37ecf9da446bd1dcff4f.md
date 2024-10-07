@@ -14,11 +14,11 @@ In this challenge, focus on identifying the adjectives Sophie uses to describe h
 
 # --fillInTheBlank--
 
-## --frase--
+## --sentence--
 
 `On Sunday, I have a BLANK morning. I just stay at home and play some video games on my console. In the evening, I make dinner and go to sleep BLANK, because, on Monday, it is back to work again`
 
-## --espaços em branco--
+## --blanks--
 
 `lazy`
 

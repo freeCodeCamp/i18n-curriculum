@@ -1,6 +1,6 @@
 ---
 id: 5e9a093a74c4063ca6f7c167
-title: Python Iteration and Modules
+title: التكرار و المكتبات في بايثون(Python Iteration and Modules)
 challengeType: 11
 videoId: XzosGWLafrY
 bilibiliIds:
@@ -14,16 +14,16 @@ dashedName: python-iteration-and-modules
 
 *Instead of using notebooks.ai like it shows in the video, you can use Google Colab instead.*
 
-More resources:
+المزيد من المصادر:
 
--  <a href="https://github.com/ine-rmotr-curriculum/ds-content-python-under-10-minutes" target="_blank" rel="noopener noreferrer nofollow">Notebooks في GitHub</a>
--  <a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb" target="_blank" rel="noopener noreferrer nofollow">كيفية فتح Notebooks من GitHub باستخدام Google Colab.</a>
+-  <a href="https://github.com/ine-rmotr-curriculum/ds-content-python-under-10-minutes" target="_blank" rel="noopener noreferrer nofollow">Notebooks on GitHub</a>
+-  <a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebookس/colab-github-demo.ipynb" target="_blank" rel="noopener noreferrer nofollow">كيفية فتح (Notebook) من (GitHub) باستخدام (Google Colab).</a>
 
 # --questions--
 
 ## --text--
 
-How would you iterate over and print the keys and values of a dictionary named `user`?
+كيف يمكنك المرور علي جميع قيم و مفاتيح(values and keys) في (dictionary) يسمي `user`؟
 
 ## --answers--
 

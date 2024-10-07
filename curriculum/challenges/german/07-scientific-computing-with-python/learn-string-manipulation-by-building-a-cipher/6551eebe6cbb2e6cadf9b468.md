@@ -26,7 +26,7 @@ const commentless_code = __helpers.python.removeComments(code);
 assert.isFalse(/number\s*=\s*5/.test(commentless_code))
 ```
 
-You should declare a variable called `text`. Pay attention to place the variable name at the beginning of the line.
+Du solltest eine Variable mit dem Namen `text` deklarieren. Pay attention to place the variable name at the beginning of the line.
 
 ```js
 assert.match(code, /^text\s*=/m)

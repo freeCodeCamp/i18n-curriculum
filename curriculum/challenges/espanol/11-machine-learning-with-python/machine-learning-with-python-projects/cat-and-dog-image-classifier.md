@@ -8,7 +8,7 @@ dashedName: cat-and-dog-image-classifier
 
 # --description--
 
-Trabajarás <a href="https://colab.research.google.com/github/freeCodeCamp/boilerplate-cat-and-dog-image-classifier/blob/master/fcc_cat_dog.ipynb" target="_blank" rel="noopener noreferrer nofollow"> en este proyecto</a> con Google Colaboratory.
+You will be <a href="https://colab.research.google.com/github/freeCodeCamp/boilerplate-cat-and-dog-image-classifier/blob/master/fcc_cat_dog.ipynb" target="_blank" rel="noopener noreferrer nofollow">working on this project with Google Colaboratory</a>.
 
 Después de acceder al enlace, crea una copia del cuaderno ya sea en tu propia cuenta o de manera local. Una vez hayas completado el proyecto y superes el test (incluido en el enlace), envía el enlace del proyecto a continuación. Si envias un enlace a Google Colaboratory, asegúrate de que activas el uso compartido para "cualquiera con el enlace."
 
@@ -39,7 +39,7 @@ Si lo deseas, puedes ajustar los epochs y el tamaño por lotes, pero no es neces
 
 Las siguientes instrucciones corresponden a números de celda específicos, indicados con un comentario en la parte superior de la celda (como `# 3`).
 
-## Celda 3
+## Cell 3
 
 ¡Ahora es tu turno! Establecer correctamente cada una de las variables de esta celda. (Ya no deberían ser iguales a `None`.)
 

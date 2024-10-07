@@ -8,7 +8,7 @@ dashedName: implement-insertion-sort
 
 # --description--
 
-我们将要研究的下一个排序方法是插入排序。 此方法的工作原理是通过在数组的开头构建排序数组。 它从第一个元素开始排序数组。 然后，它检查下一个元素并将其向后交换到已排序的数组中，直到它处于已排序的位置为止。 它继续遍历列表，并将新项目向后交换到已排序的部分中，直到到达末尾为止。 这种算法在平均和最坏的情况下都有二次方的时间复杂性。
+The next sorting method we'll look at is insertion sort. This method works by building up a sorted array at the beginning of the list. 它从第一个元素开始创建排序数组。 Then it inspects the next element and swaps it backwards into the sorted array until it is in sorted position. It continues iterating through the list and swapping new items backwards into the sorted portion until it reaches the end. This algorithm has quadratic time complexity in the average and worst cases.
 
 **说明：** 编写一个函数`insertionSort` ，它将一个整数数组作为输入，并按照从最小到最大的排序顺序返回这些整数的数组。
 

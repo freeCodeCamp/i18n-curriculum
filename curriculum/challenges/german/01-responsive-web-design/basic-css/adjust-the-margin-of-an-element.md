@@ -9,7 +9,7 @@ dashedName: adjust-the-margin-of-an-element
 
 # --description--
 
-Die `margin`-Eigenschaft eines Elements kontrolliert seine Außenabstände, welche sich zwischen dem Rahmen `border` und umliegenden Elementen befinden.
+An element's `margin` controls the amount of space between an element's `border` and surrounding elements.
 
 Hier können wir sehen, dass die blaue Box und die rote Box in der gelben Box verschachtelt sind. Beachte, dass die rote Box einen größeren `margin`-Wert hat als die blaue Box, wodurch sie kleiner erscheint.
 

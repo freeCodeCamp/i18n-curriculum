@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d4036153
-title: Register a Store Listener
+title: 스토어 리스너 등록하기
 challengeType: 6
 forumTopicId: 301446
 dashedName: register-a-store-listener
@@ -12,11 +12,11 @@ Another method you have access to on the Redux `store` object is `store.subscrib
 
 # --instructions--
 
-Write a callback function that increments the global variable `count` every time the store receives an action, and pass this function in to the `store.subscribe()` method. You'll see that `store.dispatch()` is called three times in a row, each time directly passing in an action object. Watch the console output between the action dispatches to see the updates take place.
+스토어가 액션을 받을 때마다 전역 변수 `count`를 증가시키는 콜백 함수를 작성하고, 이 함수를 `store.subscribe()` 메소드에 전달하세요. `store.dispatch()`가 연속으로 세 번 호출되는 것을 볼 수 있습니다. 매번 호출할 때 마다 직접 액션 객체를 전달합니다. 액션 디스패치 사이의 콘솔 출력을 보면 업데이트가 이루어지는 것을 확인할 수 있습니다.
 
 # --hints--
 
-Dispatching the `ADD` action on the store should increment the state by `1`.
+스토어에서 `ADD` 액션을 실행하면 상태가 `1`씩 증가합니다.
 
 ```js
 assert(
@@ -29,19 +29,19 @@ assert(
 );
 ```
 
-There should be a listener function subscribed to the store using `store.subscribe`.
+`store.subscribe`를 사용하여 스토어에 구독하는 리스너 함수가 있어야 합니다.
 
 ```js
 (getUserInput) => assert(getUserInput('index').match(/store\s*\.\s*subscribe\(/gm));
 ```
 
-The `store.subscribe` should receive a function.
+`store.subscribe`가 함수를 받아야 합니다.
 
 ```js
 (getUserInput) => assert(getUserInput('index').match(/(\s*function\s*)|(\s*\(\s*\)\s*=>)/gm)) 
 ```
 
-The callback to `store.subscribe` should also increment the global `count` variable as the store is updated.
+`store.subscribe`에 대한 콜백은 스토어가 업데이트될 때 글로벌 `count` 변수를 증가시켜야 합니다.
 
 ```js
 assert(store.getState() === count);

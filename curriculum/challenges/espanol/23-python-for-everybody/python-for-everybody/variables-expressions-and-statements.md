@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: variables-expressions-and-statements
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-What is the symbol used in an assignment statement?
+¿Cuál es el símbolo usado en una declaración de asignación?
 
 ## --answers--
 

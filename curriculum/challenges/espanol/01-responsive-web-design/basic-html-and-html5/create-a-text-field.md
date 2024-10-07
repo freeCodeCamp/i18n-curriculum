@@ -9,7 +9,7 @@ dashedName: create-a-text-field
 
 # --description--
 
-Ahora crearemos un formulario web.
+Now let's create a web form.
 
 Los elementos de entrada `input` son una forma conveniente de obtener información de tu usuario.
 

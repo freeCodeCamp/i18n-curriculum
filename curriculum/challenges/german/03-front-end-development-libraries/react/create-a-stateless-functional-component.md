@@ -8,7 +8,7 @@ dashedName: create-a-stateless-functional-component
 
 # --description--
 
-Komponenten sind der Kern von React. Alles in React ist eine Komponente und hier lernst du, wie du eine erstellst.
+Components are the core of React. Everything in React is a component and here you will learn how to create one.
 
 Es gibt zwei Möglichkeiten, eine React-Komponente zu erstellen. Die erste Möglichkeit ist die Verwendung einer JavaScript-Funktion. Wenn du eine Komponente auf diese Weise definierst, entsteht eine *zustandslose funktionale Komponente (stateless functional component)*. Das Konzept des Zustands in einer Anwendung wird in späteren Aufgaben behandelt. Stell dir eine zustandslose Komponente als eine Komponente vor, die Daten empfangen und darstellen kann, aber keine Änderungen an diesen Daten verwaltet oder verfolgt. (Die zweite Möglichkeit, eine React-Komponente zu erstellen, behandeln wir in der nächsten Aufgabe.)
 

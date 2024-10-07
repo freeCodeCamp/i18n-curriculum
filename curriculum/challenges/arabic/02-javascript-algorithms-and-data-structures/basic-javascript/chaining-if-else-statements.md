@@ -9,7 +9,7 @@ dashedName: chaining-if-else-statements
 
 # --description--
 
-يمكن تسلسل -ربط- عدة تعبيرات `if/else` معًا في السياقات المنطقية المعقدة. إليك <dfn>pseudocode</dfn> أو ما يسمى بالتعليمات البرمجية الزائفة -وهن التعليمات الغير مرتبطة بلغة برمجة واحدة ولكنها قريبة من لغة الإنسان- لعدة عبارات `if` و `else if` مسلسلة:
+`if/else` statements can be chained together for complex logic. Here is <dfn>pseudocode</dfn> of multiple chained `if` / `else if` statements:
 
 ```js
 if (condition1) {

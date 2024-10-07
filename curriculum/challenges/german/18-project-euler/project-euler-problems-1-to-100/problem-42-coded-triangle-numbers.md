@@ -12,9 +12,9 @@ Der Term `n`<sup>th</sup> der Dreieckszahlenfolge ist gegeben durch `tn` = ½`n`
 
 <div style='margin-left: 4em;'>1, 3, 6, 10, 15, 21, 28, 36, 45, 55, ...</div>
 
-By converting each letter in a word to a number corresponding to its alphabetical position and adding these values we form a word value. Zum Beispiel ist der Wortwert für SKY 19 + 11 + 25 = 55 = `t`<sub>10</sub>. Wenn der Wortwert eine Dreieckszahl ist, nennen wir das Wort ein Dreieckswort.
+Indem wir jeden Buchstaben in einem Wort in eine Zahl umwandeln, die seiner alphabetischen Position entspricht, und diese Werte addieren, erhalten wir einen Wortwert. Zum Beispiel ist der Wortwert für SKY 19 + 11 + 25 = 55 = `t`<sub>10</sub>. Wenn der Wortwert eine Dreieckszahl ist, nennen wir das Wort ein Dreieckswort.
 
-Using words array of `n`-length, how many are triangle words?
+Wie viele Dreieckswörter gibt es bei einem Wortfeld der `n`-Länge?
 
 # --hints--
 

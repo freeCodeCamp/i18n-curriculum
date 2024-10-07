@@ -9,7 +9,7 @@ dashedName: use-css-animation-to-change-the-hover-state-of-a-button
 
 # --description--
 
-Ви можете використати CSS `@keyframes`, щоб змінити колір клавіші при наведенні.
+You can use CSS `@keyframes` to change the color of a button in its hover state.
 
 Ось приклад зміни ширини зображення на курсорі:
 

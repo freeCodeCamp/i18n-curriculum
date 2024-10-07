@@ -8,7 +8,7 @@ dashedName: find-more-than-the-first-match
 
 # --description--
 
-حتى الآن، لم تتمكن من استخراج أو البحث عن نمط إلا مرة واحدة.
+So far, you have only been able to extract or search a pattern once.
 
 ```js
 let testStr = "Repeat, Repeat, Repeat";

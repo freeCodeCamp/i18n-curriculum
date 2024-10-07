@@ -8,7 +8,7 @@ dashedName: understand-functional-programming-terminology
 
 # --description--
 
-У команди fCC змінився настрій і тепер вони хочуть два типи чаю: зелений та чорний. Загальновідомий факт: перепади настрою клієнта є надзвичайно поширеним явищем.
+The FCC Team had a mood swing and now wants two types of tea: green tea and black tea. General Fact: Client mood swings are pretty common.
 
 З цією інформацією нам потрібно знову відвідати функцію `getTea`, щоб обробити різні чайні запити. Ми можемо змінити `getTea`, щоб прийняти функцію як аргумент і вона могла заварювати інші види чаю. Це робить `getTea` гнучкішою і надає програмісту більше контролю, якщо клієнт просить щось змінити.
 

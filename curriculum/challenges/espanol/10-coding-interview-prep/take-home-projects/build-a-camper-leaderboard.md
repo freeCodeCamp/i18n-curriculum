@@ -8,9 +8,9 @@ dashedName: build-a-freecodecamp-forum-homepage
 
 # --description--
 
-**Objective:** Crea una aplicación functionalmente similar a esta: <https://codepen.io/freeCodeCamp/full/JqdoMV>.
+**Objective:** Build an app that is functionally similar to this: <https://codepen.io/freeCodeCamp/full/JqdoMV>.
 
-Completa las siguientes historias de usuario y consigue que todas las pruebas pasen. Utilice las librerías o APIs que necesites. Dale tu estilo personal.
+Completa las historias de los usuarios que están aquí abajo y haz que pasen todas las pruebas. Utiliza cualquier librería o API que necesites. Dale tu propio estilo.
 
 **Historia de usuario:** Puedo ver una lista de las publicaciones más recientes en el foro de freeCodeCamp.
 

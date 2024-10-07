@@ -8,7 +8,7 @@ dashedName: build-a-world-cup-database
 
 # --description--
 
-Questo è uno dei progetti richiesti per completare la certificazione. Per questo progetto, creerai uno script di Bash che inserisce informazioni da partite della coppa del mondo in PostgreSQL, e poi fare query al database per ottenere statistiche utili.
+This is one of the required projects to earn your certification. For this project, you will create a Bash script that enters information from World Cup games into PostgreSQL, then query the database for useful statistics.
 
 # --instructions--
 

@@ -9,7 +9,7 @@ dashedName: use-hex-code-for-specific-colors
 
 # --description--
 
-你知道在 CSS 里面还有其他方式来代表颜色吗？ 其中一个方法叫十六进制编码，简称 hex。
+Did you know there are other ways to represent colors in CSS? One of these ways is called hexadecimal code, or hex code for short.
 
 日常生活中，我们使用的计数方法一般是 <dfn>decimals</dfn>，或十进制，即使用数字 0 到 9 来表示。 而 <dfn>Hexadecimals</dfn>（或 <dfn>hex</dfn>）基于 16 位数字， 它包括 16 种不同字符。 像十进制一样，0-9 的符号代表 0 到 9 的值。 然后，A、B、C、D、E、F 代表 10 至 15 的值。 总的来说，0 到 F 在十六进制里代表数字，总共有 16 个值。 你可以在<a href="https://www.freecodecamp.org/news/hexadecimal-number-system/" target="_blank" rel="noopener noreferrer nofollow">此处</a>找到更多关于十六进制的信息。
 

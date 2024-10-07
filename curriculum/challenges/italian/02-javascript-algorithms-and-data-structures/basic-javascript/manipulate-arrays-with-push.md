@@ -9,7 +9,7 @@ dashedName: manipulate-arrays-with-push
 
 # --description--
 
-Un modo semplice per aggiungere dei dati alla fine di un array è tramite il metodo `push()`.
+An easy way to append data to the end of an array is via the `push()` method.
 
 Il metodo `push()` accetta uno o più <dfn>argomenti </dfn> e li aggiunge alla fine dell'array, nell'ordine in cui appaiono. Restituisce la nuova lunghezza dell'array.
 

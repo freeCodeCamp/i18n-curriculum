@@ -9,7 +9,7 @@ dashedName: learn-how-the-css-keyframes-and-animation-properties-work
 
 # --description--
 
-Щоб анімувати елемент, потрібно знати про властивості анімації і правило `@keyframes`. Властивості анімації визначають поведінку анімації і правило `@keyframes` контролює, що відбувається під час цієї анімації. Загалом, існує вісім властивостей анімації. Ми не будемо ускладнювати це завдання і розглянемо спершу дві найважливіші:
+To animate an element, you need to know about the animation properties and the `@keyframes` rule. The animation properties control how the animation should behave and the `@keyframes` rule controls what happens during that animation. There are eight animation properties in total. This challenge will keep it simple and cover the two most important ones first:
 
 `animation-name` встановлює назву анімації, яка пізніше використовується `@keyframes`, щоб вказати CSS, які правила використовуються з якими анімаціями.
 

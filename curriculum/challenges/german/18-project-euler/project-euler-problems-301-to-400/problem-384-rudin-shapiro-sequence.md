@@ -8,9 +8,9 @@ dashedName: problem-384-rudin-shapiro-sequence
 
 # --description--
 
-Define the sequence $a(n)$ as the number of adjacent pairs of ones in the binary expansion of $n$ (possibly overlapping).
+Definiere die Folge $a(n)$ als die Anzahl der benachbarten Paare von Einsen in der binären Erweiterung von $n$ (möglicherweise überlappend).
 
-E.g.: $a(5) = a({101}_2) = 0$, $a(6) = a({110}_2) = 1$, $a(7) = a({111}_2) = 2$
+z.B.: $a(5) = a({101}_2) = 0$, $a(6) = a({110}_2) = 1$, $a(7) = a({111}_2) = 2$
 
 Definiere die Sequenz $b(n) = {(-1)}^{a(n)}$. Diese Sequenz wird als Rudin-Shapiro-Sequenz bezeichnet.
 
@@ -26,20 +26,20 @@ Die Folge $s(n)$ hat die bemerkenswerte Eigenschaft, dass alle Elemente positiv 
 
 Definiere $g(t, c)$, mit $1 ≤ c ≤ t$, als den Index in $s(n)$, für den $t$ zum $c$-ten Mal in $s(n)$ auftritt.
 
-E.g.: $g(3, 3) = 6$, $g(4, 2) = 7$ and $g(54321, 12345) = 1\\,220\\,847\\,710$.
+z.B.: $g(3, 3) = 6$, $g(4, 2) = 7$ und $g(54321, 12345) = 1\\,220\\,847\\,710$.
 
 Lasse $F(n)$ die Fibonacci-Folge sein, die durch definiert wurde:
 
 $$\begin{align}   & F(0) = F(1) = 1 \text{ and} \\\\
   & F(n) = F(n - 1) + F(n - 2) \text{ for } n > 1. \end{align}$$
 
-Define $GF(t) = g(F(t), F(t - 1))$.
+Definiere $GF(t) = g(F(t), F(t - 1))$.
 
-Find $\sum GF(t)$ for$ 2 ≤ t ≤ 45$.
+Finde $\sum GF(t)$ für$ 2 ≤ t ≤ 45$.
 
 # --hints--
 
-`rudinShapiroSequence()` should return `3354706415856333000`.
+`rudinShapiroSequence()` sollte `3354706415856333000` zurückgeben.
 
 ```js
 assert.strictEqual(rudinShapiroSequence(), 3354706415856333000);

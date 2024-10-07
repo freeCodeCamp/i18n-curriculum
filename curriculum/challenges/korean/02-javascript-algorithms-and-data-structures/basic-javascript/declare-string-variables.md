@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c444eddfaeb5bdef
-title: Declare String Variables
+title: 문자열 변수를 선언하기
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/c2QvWU6'
 forumTopicId: 17557
@@ -15,21 +15,21 @@ Previously you used the following code to declare a variable:
 var myName;
 ```
 
-But you can also declare a string variable like this:
+그런데, 다음과 같이 문자열 변수를 선언하는 것도 가능합니다.
 
 ```js
 var myName = "your name";
 ```
 
-`"your name"` is called a <dfn>string</dfn> <dfn>literal</dfn>. A string literal, or string, is a series of zero or more characters enclosed in single or double quotes.
+이런 `"your name"` 같은 것을 <dfn>문자열(string)</dfn> <dfn>리터럴(literal)</dfn> 이라고 합니다. 문자열 리터럴(혹은 문자열) 은 작은 따옴표(') 또는 큰 따옴표(") 로 둘러싸인 0개 이상의 문자입니다.
 
 # --instructions--
 
-Create two new string variables: `myFirstName` and `myLastName` and assign them the values of your first and last name, respectively.
+2개의 새로운 문자열 변수를 만드세요: `myFirstName` 와 `myLastName`, 그리고 당신의 성과 이름을 각각 그들에게 할당하세요.
 
 # --hints--
 
-`myFirstName` should be a string with at least one character in it.
+`myFirstName`는 적어도 하나의 문자를 포함한 한 문자열이어야 합니다.
 
 ```js
 assert(
@@ -47,7 +47,7 @@ assert(
 );
 ```
 
-`myLastName` should be a string with at least one character in it.
+`myLastName`는 적어도 하나의 문자를 포함한 한 문자열이어야 합니다.
 
 ```js
 assert(

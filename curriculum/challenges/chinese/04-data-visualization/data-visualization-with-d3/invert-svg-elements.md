@@ -8,7 +8,7 @@ dashedName: invert-svg-elements
 
 # --description--
 
-你可能已经注意到了常见的条形图像是把这个翻转或者颠倒过来。 这是因为 SVG 的 (x, y) 坐标有些特别。
+You may have noticed the bar chart looked like it's upside-down, or inverted. This is because of how SVG uses (x, y) coordinates.
 
 在 SVG 中，坐标轴的原点在左上角。 `x` 坐标为 0 将图形放在 SVG 区域的左边缘， `y` 坐标为 0 将图形放在 SVG 区域的上边缘。 `x` 值增大矩形将向右移动， `y` 值增大矩形将向下移动。
 

@@ -1,6 +1,6 @@
 ---
 id: 65c4f3aee69d11dcfdbcfc00
-title: Step 18
+title: Schritt 18
 challengeType: 20
 dashedName: step-18
 ---

@@ -1,6 +1,6 @@
 ---
 id: 56533eb9ac21ba0edf2244b8
-title: Concatenating Strings with the Plus Equals Operator
+title: 문자열을 더하기 할당 문자열로 연결하기
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cbQmmC4'
 forumTopicId: 16803
@@ -11,9 +11,9 @@ dashedName: concatenating-strings-with-the-plus-equals-operator
 
 We can also use the `+=` operator to <dfn>concatenate</dfn> a string onto the end of an existing string variable. This can be very helpful to break a long string over several lines.
 
-**Note:** Watch out for spaces. Concatenation does not add spaces between concatenated strings, so you'll need to add them yourself.
+**노트:** 공백에 주의하세요. 연결에서는 문자열 사이에 공백이 추가되지 않기 때문에, 필요한 경우에는 직접 추가할 필요가 있습니다.
 
-Example:
+예:
 
 ```js
 let ourStr = "I come first. ";
@@ -24,7 +24,7 @@ ourStr += "I come second.";
 
 # --instructions--
 
-Build `myStr` over several lines by concatenating these two strings: `This is the first sentence.` and `This is the second sentence.` using the `+=` operator. Use the `+=` operator similar to how it is shown in the example and be sure to include a space between the two strings. Start by assigning the first string to `myStr`, then add on the second string.
+`+=` 연산자를 사용해서, `This is the first sentence.`와 `This is the second sentence.`의 2개의 문자열을 연결해 복수의 행이 되는 `myStr`을 작성하세요. 이전의 예와 같이 `+=` 연산자를 사용해 반드시 2개의 문자열 사이에 공백을 넣으세요. 우선 `myStr`에 첫번째 문자열을 할당하고, 다음으로 두번째 문자열을 추가하세요.
 
 # --hints--
 

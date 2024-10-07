@@ -9,7 +9,7 @@ dashedName: delete-html-elements
 
 # --description--
 
-私たちのスマートフォンには、縦のスペースは多くありません。
+Our phone doesn't have much vertical space.
 
 不要な要素を削除して、猫の写真アプリを作り始めましょう。
 

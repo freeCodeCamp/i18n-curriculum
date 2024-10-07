@@ -8,11 +8,11 @@ dashedName: restrict-possible-usernames
 
 # --description--
 
-Nutzernamen werden überall im Internet verwendet. Sie geben den Nutzern eine einzigartige Identität auf ihren Lieblingsseiten.
+Usernames are used everywhere on the internet. They are what give users a unique identity on their favorite sites.
 
 Du musst alle Benutzernamen in einer Datenbank überprüfen. Hier sind einige einfache Regeln, die du bei der Erstellung deines Benutzernamens beachten musst.
 
-1) Usernames can only use alphanumeric characters.
+1) Nutzernamen dürfen nur alphanumerische Zeichen enthalten.
 
 2) Die einzigen Zahlen im Benutzernamen müssen am Ende stehen. Am Ende können es null oder mehr sein. Der Benutzername darf nicht mit einer Zahl beginnen.
 

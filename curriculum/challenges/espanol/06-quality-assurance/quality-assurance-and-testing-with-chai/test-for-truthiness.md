@@ -8,7 +8,7 @@ dashedName: test-for-truthiness
 
 # --description--
 
-Como recordatorio, este proyecto se está construyendo según el siguiente proyecto inicial en <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a> o clonando desde <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
+As a reminder, this project is being built upon the following starter project on <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>, or cloned from <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
 
 `isTrue()` probará el valor booleano `true` y `isNotTrue()` pasará cuando se le dé cualquier cosa que no sea el valor booleano de `true`.
 
@@ -22,11 +22,11 @@ assert.isTrue(1, 'This will NOT pass with the number value 1');
 
 # --instructions--
 
-Dentro de `tests/1_unit-tests.js` bajo la prueba etiquetada como `#4` en el conjunto de prueba `Basic Assertions`, cambia cada `assert` a `assert.isTrue` o `assert.isNotTrue` para hacer que la prueba pase (debe evaluarse como `true`). No modifiques los argumentos pasados ​​a los verificadores.
+Dentro de `tests/1_unit-tests.js` bajo la prueba etiquetada como `#4` en el conjunto de prueba `Basic Assertions`, cambia cada `assert` a `assert.isTrue` o `assert.isNotTrue` para hacer que la prueba pase (debe evaluarse como `true`). No cambies los argumentos pasados a las aserciones.
 
 # --hints--
 
-Todas las pruebas deben pasar.
+Se deben pasar todos los tests.
 
 ```js
 (getUserInput) =>

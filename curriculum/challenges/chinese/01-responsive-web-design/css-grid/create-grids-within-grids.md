@@ -8,7 +8,7 @@ dashedName: create-grids-within-grids
 
 # --description--
 
-将元素转换为网格只会影响其子元素（即直接后代元素，英文为 direct descendants。意思是一个元素的所有后代元素中，父级元素为该元素的所有元素）。 因此，如果我们把某个子元素设置为网格，就会得到一个嵌套的网格。
+Turning an element into a grid only affects the behavior of its direct descendants. So by turning a direct descendant into a grid, you have a grid within a grid.
 
 例如，如果我们设置 class 为 `item3` 的元素的 `display` 和 `grid-template-columns` 属性，就会得到一个嵌套的网格。
 

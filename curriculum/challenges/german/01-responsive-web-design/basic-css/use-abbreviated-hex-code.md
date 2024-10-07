@@ -9,7 +9,7 @@ dashedName: use-abbreviated-hex-code
 
 # --description--
 
-Viele Menschen fühlen sich von den Möglichkeiten der mehr als 16 Millionen Farben überwältigt. Zudem ist es schwierig, sich den Hex-Code zu merken. Zum Glück kannst du sie kürzen.
+Many people feel overwhelmed by the possibilities of more than 16 million colors. And it's difficult to remember hex code. Fortunately, you can shorten it.
 
 Zum Beispiel kann der Hex-Code von Rot `#FF0000` zu `#F00` verkürzt werden. Diese verkürzte Form ergibt eine Ziffer für Rot, eine Ziffer für Grün und eine Ziffer für Blau.
 
@@ -19,7 +19,7 @@ Dadurch reduziert sich die Gesamtzahl der möglichen Farben auf etwa 4.000. Die 
 
 Versuche, mithilfe der gekürzten Hex-Codes die richtigen Elemente einzufärben.
 
-<table><tbody><tr><th>Farbe</th><th>gekürzter Hex-Code</th></tr><tr><td>Cyan</td><td><code>#0FF</code></td></tr><tr><td>Grün</td><td><code>#0F0</code></td></tr><tr><td>Rot</td><td><code>#F00</code></td></tr><tr><td>Fuchsia</td><td><code>#F0F</code></td></tr></tbody></table>
+<table><tbody><tr><th>Color</th><th>Short Hex Code</th></tr><tr><td>Cyan</td><td><code>#0FF</code></td></tr><tr><td>Green</td><td><code>#0F0</code></td></tr><tr><td>Red</td><td><code>#F00</code></td></tr><tr><td>Fuchsia</td><td><code>#F0F</code></td></tr></tbody></table>
 
 # --hints--
 

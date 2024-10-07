@@ -8,7 +8,7 @@ dashedName: write-a-counter-with-redux
 
 # --description--
 
-現在已經瞭解了 Redux 的所有核心原則！ 已經瞭解瞭如何創建 action 和 action creator，創建 Redux store，通過 store dispatch action，以及使用純粹的 reducer 設計狀態更新。 甚至已經看到過如何使用 reducer 組合管理複雜狀態並處理異步操作。 這些例子很簡單，但這些概念是 Redux 的核心原則。 如果已經理解這些，那麼就可以開始構建自己的 Redux 應用了。 接下來的挑戰包括關於 `state` 不變性的一些細節，但是，這裏是對到目前爲止學到的所有內容的回顧。
+Now you've learned all the core principles of Redux! You've seen how to create actions and action creators, create a Redux store, dispatch your actions against the store, and design state updates with pure reducers. You've even seen how to manage complex state with reducer composition and handle asynchronous actions. These examples are simplistic, but these concepts are the core principles of Redux. If you understand them well, you're ready to start building your own Redux app. The next challenges cover some of the details regarding `state` immutability, but first, here's a review of everything you've learned so far.
 
 # --instructions--
 

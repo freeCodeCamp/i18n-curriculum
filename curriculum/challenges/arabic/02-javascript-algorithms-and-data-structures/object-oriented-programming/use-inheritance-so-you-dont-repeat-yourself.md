@@ -8,7 +8,7 @@ dashedName: use-inheritance-so-you-dont-repeat-yourself
 
 # --description--
 
-هناك مبدأ في البرمجة يسمى <dfn>لا تكرر نقسك (Don't Repeat Yourself (DRY))</dfn>. إن السبب وراء ضرر تكرار الكود هو أحتياج تعديل الكود في أماكن متعددة تغيير عند الرغبة بذلك. وعادة يضع هذا المزيد من العمل للمبرمجين ويزيد من احتمال وجود أخطاء.
+There's a principle in programming called <dfn>Don't Repeat Yourself (DRY)</dfn>. The reason repeated code is a problem is because any change requires fixing code in multiple places. This usually means more work for programmers and more room for errors.
 
 لاحظ في المثال أدناه إن `describe` مشتركة من قبل `Bird` و `Dog`:
 

@@ -8,7 +8,7 @@ dashedName: size-your-images
 
 # --description--
 
-CSS має властивість під назвою `width`, яка контролює ширину елемента. Так само, як і зі шрифтами, ми будемо використовувати `px` (пікселі), щоб вказати на ширину зображення.
+CSS has a property called `width` that controls an element's width. Just like with fonts, we'll use `px` (pixels) to specify the image's width.
 
 Наприклад, якби ми хотіли створити CSS клас під назвою `larger-image`, що дав HTML елементи шириною 500 пікселів, ми б використали:
 

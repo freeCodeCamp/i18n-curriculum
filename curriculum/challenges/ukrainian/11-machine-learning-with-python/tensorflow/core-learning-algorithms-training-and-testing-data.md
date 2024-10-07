@@ -14,7 +14,7 @@ dashedName: core-learning-algorithms-training-and-testing-data
 
 ## --text--
 
-Що таке категорійні дані?
+What is categorical data?
 
 ## --answers--
 

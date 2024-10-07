@@ -7,7 +7,7 @@ dashedName: step-47
 
 # --description--
 
-ضع عناصر `.face` بحيث تكون `15%` من الأعلى.
+Position the `.face` elements so that they are `15%` from the top.
 
 # --hints--
 

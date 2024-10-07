@@ -9,7 +9,7 @@ dashedName: chaining-if-else-statements
 
 # --description--
 
-`if/else` ステートメントをチェーンとしてつなげて複雑なロジックを記述することができます。 次は、`if` / `else if` ステートメントを複数つなげた<dfn>擬似コード</dfn>です。
+`if/else` statements can be chained together for complex logic. Here is <dfn>pseudocode</dfn> of multiple chained `if` / `else if` statements:
 
 ```js
 if (condition1) {

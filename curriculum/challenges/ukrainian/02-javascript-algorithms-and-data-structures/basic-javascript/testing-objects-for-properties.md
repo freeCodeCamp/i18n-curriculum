@@ -8,9 +8,9 @@ dashedName: testing-objects-for-properties
 
 # --description--
 
-Щоб перевірити, чи існує властивість даного об’єкта, ви можете скористатися методом `.hasOwnProperty()`. `someObject.hasOwnProperty(someProperty)` повертає `true` або `false` залежно від того, знайдено властивість в об’єкті чи ні.
+To check if a property on a given object exists or not, you can use the `.hasOwnProperty()` method. `someObject.hasOwnProperty(someProperty)` returns `true` or `false` depending on if the property is found on the object or not.
 
-**Приклад**
+**Наприклад:**
 
 ```js
 function checkForProperty(object, property) {

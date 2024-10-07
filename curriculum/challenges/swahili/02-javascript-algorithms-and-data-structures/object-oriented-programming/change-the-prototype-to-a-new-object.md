@@ -1,6 +1,6 @@
 ---
 id: 587d7daf367417b2b2512b7f
-title: Change the Prototype to a New Object
+title: Geuza Prototype kwa Kipenge Kipya
 challengeType: 1
 forumTopicId: 301316
 dashedName: change-the-prototype-to-a-new-object
@@ -14,7 +14,7 @@ Up until now you have been adding properties to the `prototype` individually:
 Bird.prototype.numLegs = 2;
 ```
 
-This becomes tedious after more than a few properties.
+Hii huchosha baada ya zaidi ya sifa chache.
 
 ```js
 Bird.prototype.eat = function() {
@@ -26,7 +26,7 @@ Bird.prototype.describe = function() {
 }
 ```
 
-A more efficient way is to set the `prototype` to a new object that already contains the properties. This way, the properties are added all at once:
+Njia bora ni kuweka `prototype` kwa kipenge kipya ambacho kina sifa hizo tayari. Kwa njia hii, sifa zote zinaongezwa kwa wakati mmoja:
 
 ```js
 Bird.prototype = {
@@ -42,29 +42,29 @@ Bird.prototype = {
 
 # --instructions--
 
-Add the property `numLegs` and the two methods `eat()` and `describe()` to the `prototype` of `Dog` by setting the `prototype` to a new object.
+Ongeza sifa `numLegs` na mbinu hizi mbili `eat()` na `describe()` kwenye `prototype` ya `Dog` kwa kuweka `prototype` kwenye kipenge kipya.
 
 # --hints--
 
-`Dog.prototype` should be set to a new object.
+`Dog.prototype` inapaswa kuwekwa kwa kipenge kipya.
 
 ```js
 assert(/Dog\.prototype\s*?=\s*?{/.test(__helpers.removeJSComments(code)));
 ```
 
-`Dog.prototype` should have the property `numLegs`.
+`Dog.prototype` inapaswa kuwa na sifa ya `numLegs`.
 
 ```js
 assert(Dog.prototype.numLegs !== undefined);
 ```
 
-`Dog.prototype` should have the method `eat()`.
+`Dog.prototype` inapaswa kuwa na mbinu ya `eat()`.
 
 ```js
 assert(typeof Dog.prototype.eat === 'function');
 ```
 
-`Dog.prototype` should have the method `describe()`.
+`Dog.prototype` inapaswa kuwa na mbinu ya `describe()`.
 
 ```js
 assert(typeof Dog.prototype.describe === 'function');

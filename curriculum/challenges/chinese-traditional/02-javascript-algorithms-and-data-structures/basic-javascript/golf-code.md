@@ -9,11 +9,11 @@ dashedName: golf-code
 
 # --description--
 
-在高爾夫遊戲中，每個洞都有自己的標準桿數`par`，意思是一個高爾夫球員爲了把球打進洞裏完成比賽，預計要揮杆的平均次數 `strokes`。 根據你把球打進洞所揮杆的次數 `strokes` 高於或低於 `par` 多少，有一個不同的暱稱（代表打高爾夫球的水平）。
+In the game of Golf, each hole has a `par`, meaning, the average number of `strokes` a golfer is expected to make in order to sink the ball in the hole to complete the play. Depending on how far above or below `par` your `strokes` are, there is a different nickname.
 
 函數將會傳送兩個參數，`par` 和 `strokes`。 根據下表返回正確的字符串。下表列出不同揮杆次數（從高到低）對應的字符串。
 
-<table><thead><tr><th>揮杆次數</th><th>返回字符串</th></tr></thead><tbody><tr><td>1</td><td>"Hole-in-one!"</td></tr><tr><td>&#x3C;= par - 2</td><td>"Eagle"</td></tr><tr><td>par - 1</td><td>"Birdie"</td></tr><tr><td>par</td><td>"Par"</td></tr><tr><td>par + 1</td><td>"Bogey"</td></tr><tr><td>par + 2</td><td>"Double Bogey"</td></tr><tr><td>>= par + 3</td><td>"Go Home!"</td></tr></tbody></table>
+<table><thead><tr><th>Strokes</th><th>返回字符串</th></tr></thead><tbody><tr><td>1</td><td>"Hole-in-one!"</td></tr><tr><td>&#x3C;= par - 2</td><td>"Eagle"</td></tr><tr><td>par - 1</td><td>"Birdie"</td></tr><tr><td>par</td><td>"Par"</td></tr><tr><td>par + 1</td><td>"Bogey"</td></tr><tr><td>par + 2</td><td>"Double Bogey"</td></tr><tr><td>>= par + 3</td><td>"Go Home!"</td></tr></tbody></table>
 
 `par` 和 `strokes` 必須是數字而且是正數。 題目已定義字符串的數組，便於你操作。
 

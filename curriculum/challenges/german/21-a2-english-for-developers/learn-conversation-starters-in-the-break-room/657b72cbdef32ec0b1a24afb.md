@@ -23,17 +23,17 @@ Elektrische Gitarre
 
 ---
 
-Acoustic Guitar
+Akustik-Gitarre
 
 ### --feedback--
 
-Sophie macht es sehr deutlich, welche Art von Gitarre sie mag. Remember, the one she prefers needs an amplifier to be loud.
+Sophie macht es sehr deutlich, welche Art von Gitarre sie mag. Vergiss nicht, dass die, die sie bevorzugt, einen Verstärker braucht, um richtig laut zu sein.
 
 ## --video-solution--
 
 1
 
-# --blanks--
+# --scene--
 
 ```json
 {

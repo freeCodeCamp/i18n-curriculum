@@ -8,7 +8,7 @@ dashedName: use-state-to-toggle-an-element
 
 # --description--
 
-有時可能在更新狀態的時候想知道上一個狀態是什麼。 但是狀態更新是異步的，這意味着 React 可能會把多個 `setState()` 集中在一起批量更新。 所以計算下一個值時 `this.state` 或者 `this.props` 不能作爲當前值。 所以最好不要寫如下的代碼：
+Sometimes you might need to know the previous state when updating the state. However, state updates may be asynchronous - this means React may batch multiple `setState()` calls into a single update. This means you can't rely on the previous value of `this.state` or `this.props` when calculating the next value. So, you should not use code like this:
 
 ```jsx
 this.setState({

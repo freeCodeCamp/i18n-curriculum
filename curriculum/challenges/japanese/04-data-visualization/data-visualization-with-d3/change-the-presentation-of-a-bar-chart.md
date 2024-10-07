@@ -8,7 +8,7 @@ dashedName: change-the-presentation-of-a-bar-chart
 
 # --description--
 
-前回のチャレンジで棒グラフを作成しましたが、以下のフォーマット変更によりグラフが改善される可能性があります。
+The last challenge created a bar chart, but there are a couple of formatting changes that could improve it:
 
 1) 各バーの間にスペースを追加して、バーを視覚的に分離します。これを行うには、`bar` クラスの CSS にマージンを追加します。
 

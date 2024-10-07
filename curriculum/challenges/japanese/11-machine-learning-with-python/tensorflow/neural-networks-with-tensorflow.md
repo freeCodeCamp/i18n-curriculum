@@ -18,19 +18,19 @@ The next few video lessons will reference [this Colab notebook](https://colab.re
 
 ## --text--
 
-密に接続されたニューラルネットワークの特徴は次のうちどれですか？
+A densely connected neural network is one in which...:
 
 ## --answers--
 
-現在の層にあるすべてのニューロンが、前の層にある 1 つのニューロンに接続されている。
+all the neurons in the current layer are connected to one neuron in the previous layer.
 
 ---
 
-各層にあるすべてのニューロンがランダムに接続されている。
+all the neurons in each layer are connected randomly.
 
 ---
 
-現在の層にあるすべてのニューロンが、前の層にあるすべてのニューロンに接続されている。
+all the neurons in the current layer are connected to every neuron in the previous layer.
 
 ## --video-solution--
 

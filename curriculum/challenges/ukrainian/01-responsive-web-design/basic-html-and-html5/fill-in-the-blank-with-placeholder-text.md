@@ -9,7 +9,7 @@ dashedName: fill-in-the-blank-with-placeholder-text
 
 # --description--
 
-Веброзробники традиційно використовують <dfn>lorem ipsum text</dfn> як текст заміщення. Текст заміщення lorem ipsum - випадково взятий з відомого уривку Цицерона із Древнього Рима.
+Web developers traditionally use <dfn>lorem ipsum text</dfn> as placeholder text. The lorem ipsum text is randomly scraped from a famous passage by Cicero of Ancient Rome.
 
 Текст Lorem ipsum використовується як текст заміщення типографами з 16 століття і ця традиція триває в інтернеті.
 

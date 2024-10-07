@@ -24,7 +24,7 @@ dashedName: manage-npm-dependencies-by-understanding-semantic-versioning
 
 # --hints--
 
-`"dependencies"` має містити `"@freecodecamp/example"`.
+`"dependencies"` повинні містити `"@freecodecamp/example"`.
 
 ```js
 (getUserInput) =>

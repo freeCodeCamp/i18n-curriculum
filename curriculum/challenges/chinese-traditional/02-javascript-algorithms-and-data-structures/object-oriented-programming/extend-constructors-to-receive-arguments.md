@@ -8,7 +8,7 @@ dashedName: extend-constructors-to-receive-arguments
 
 # --description--
 
-上一個挑戰中 `Bird` 和 `Dog` 構造函數運行得不錯。 但是，注意到沒有：所有通過`Bird` 構造函數創建出來的實例 `Birds` 都自動的取名爲 Albert，顏色都是藍色，還都有兩條腿。 如果你想要新創建出來的小鳥們擁有不同的名字和顏色要怎麼辦呢？ 當然，手動的去修改每一個小鳥實例自己的屬性也是可以實現的，只是會增加很多無謂的工作量：
+The `Bird` and `Dog` constructors from the last challenge worked well. However, notice that all `Birds` that are created with the `Bird` constructor are automatically named Albert, are blue in color, and have two legs. What if you want birds with different values for name and color? It's possible to change the properties of each bird manually but that would be a lot of work:
 
 ```js
 let swan = new Bird();

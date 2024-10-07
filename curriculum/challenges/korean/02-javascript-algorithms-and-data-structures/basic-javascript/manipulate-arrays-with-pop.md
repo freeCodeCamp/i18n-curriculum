@@ -9,7 +9,7 @@ dashedName: manipulate-arrays-with-pop
 
 # --description--
 
-배열 내의 데이터를 변경하는 방법으로 `.pop()` 함수도 있습니다.
+Another way to change the data in an array is with the `.pop()` function.
 
 `.pop()`은 배열의 끝에서 값을 제거하는 데 사용됩니다. 이 제거된 값을 변수에 할당하여 저장할 수 있습니다. 다르게 표현하자면, `.pop()`은 배열의 마지막 항목을 삭제하고 그 항목을 돌려줍니다.
 

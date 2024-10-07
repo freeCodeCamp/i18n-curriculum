@@ -9,41 +9,41 @@ dashedName: task-79
 
 # --description--
 
-Sometimes people invite their friends to events or activities they enjoy. How you respond to these invitations shows you interest or lack of interest in the event.
+Іноді люди запрошують своїх друзів на події, які їм подобаються. Відповідь залежить від того, чи друзі зацікавлені в цій події.
 
 # --questions--
 
 ## --text--
 
-How does Tom respond to Sarah's invitation to the sci-fi convention?
+Як Том реагує на запрошення відвідати науково-фантастичну конвенцію?
 
 ## --answers--
 
-Accepts immediately
+Одразу погоджується
 
 ### --feedback--
 
-Tom does not accept the invitation. He mentions his lack of interest in sci-fi.
+Том не приймає запрошення. Він каже, що не цікавиться науковою фантастикою.
 
 ---
 
-Declines politely
+Ввічливо відмовляється
 
 ---
 
-Shows disinterest
+Показує незацікавленість
 
 ### --feedback--
 
-While Tom expresses a lack of interest, his response is more about declining the invitation politely rather than just showing disinterest.
+Хоча Том каже, що не цікавиться науковою фантастикою, він ввічливо відмовляється від запрошення.
 
 ---
 
-Ignores the invitation
+Ігнорує запрошення
 
 ### --feedback--
 
-Tom acknowledges the invitation and responds, so he does not ignore it.
+Том почув про запрошення та відповів, отже не ігнорує його.
 
 ## --video-solution--
 

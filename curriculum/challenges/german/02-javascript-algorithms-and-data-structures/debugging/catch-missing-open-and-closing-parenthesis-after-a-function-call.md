@@ -8,7 +8,7 @@ dashedName: catch-missing-open-and-closing-parenthesis-after-a-function-call
 
 # --description--
 
-Wenn eine Funktion oder Methode keine Argumente annimmt, kann es sein, dass Du beim Aufruf vergisst, die (leeren) öffnenden und schließenden Klammern zu setzen. Oft wird das Ergebnis eines Funktionsaufrufs in einer Variablen gespeichert, die du dann in deinem Code weiterverwenden kannst. Dieser Fehler kann erkannt werden, indem Variablenwerte (oder ihre Typen) auf der Konsole protokolliert werden und festgestellt wird, dass eine Variable auf eine Funktionsreferenz gesetzt ist, anstatt auf den erwarteten Wert, den die Funktion zurückgibt.
+When a function or method doesn't take any arguments, you may forget to include the (empty) opening and closing parentheses when calling it. Often times the result of a function call is saved in a variable for other use in your code. This error can be detected by logging variable values (or their types) to the console and seeing that one is set to a function reference, instead of the expected value the function returns.
 
 Die Variablen im folgenden Beispiel sind unterschiedlich:
 

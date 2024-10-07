@@ -8,7 +8,7 @@ dashedName: implement-map-on-a-prototype
 
 # --description--
 
-كما رأيتم من تطبيق `Array.prototype.map()`، أو `map()` من قبل، فطريقة `map` تنتج قائمة (array) من نفس طول القائمة (array) التي تم تفعيل الطريقة (method) عليها. وهي إلى ذلك لا تغير القائمة (array) الأصلية، مادام أن وظيفتها لإعادة التفعيل (callback function) لا تفعل ذلك.
+As you have seen from applying `Array.prototype.map()`, or simply `map()` earlier, the `map` method returns an array of the same length as the one it was called on. It also doesn't alter the original array, as long as its callback function doesn't.
 
 بمعنى آخر، `map` هي وظيفة خالصة (pure function)، ومخرجها يعتمد فقط على مدخلاتها. إضافةً إلى ذلك، فإنها تأخذ وظيفة أخرى كمعطى (argument) لها.
 

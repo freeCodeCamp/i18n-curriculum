@@ -8,7 +8,7 @@ dashedName: use-arrow-functions-to-write-concise-anonymous-functions
 
 # --description--
 
-在 JavaScript 裏，我們會經常遇到不需要給函數命名的情況，尤其是在需要將一個函數作爲參數傳給另外一個函數的時候。 這時，我們會創建匿名函數。 因爲這些函數不會在其他地方複用，所以我們不需要給它們命名。
+In JavaScript, we often don't need to name our functions, especially when passing a function as an argument to another function. Instead, we create inline functions. We don't need to name these functions because we do not reuse them anywhere else.
 
 這種情況下，我們通常會使用以下語法：
 
@@ -42,7 +42,7 @@ const myFunc = () => "value";
 
 # --hints--
 
-應該替換 `var` 關鍵字。
+應替換 `var` 關鍵詞。
 
 ```js
 assert.notMatch(code, /var/g)
@@ -66,7 +66,7 @@ assert(typeof magic === 'function');
 assert(magic().setHours(0, 0, 0, 0) === new Date().setHours(0, 0, 0, 0));
 ```
 
-不要使用 `function` 關鍵字。
+不能使用 `function` 關鍵字。
 
 ```js
 assert.notMatch(code, /function/g)

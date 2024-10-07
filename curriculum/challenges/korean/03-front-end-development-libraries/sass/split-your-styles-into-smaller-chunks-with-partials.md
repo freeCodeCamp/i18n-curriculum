@@ -1,6 +1,6 @@
 ---
 id: 587d7dbf367417b2b2512bbc
-title: Split Your Styles into Smaller Chunks with Partials
+title: Partials 이용해서 스타일을 작은 크기로 나누기
 challengeType: 0
 forumTopicId: 301459
 dashedName: split-your-styles-into-smaller-chunks-with-partials
@@ -10,23 +10,23 @@ dashedName: split-your-styles-into-smaller-chunks-with-partials
 
 <dfn>Partials</dfn> in Sass are separate files that hold segments of CSS code. These are imported and used in other Sass files. This is a great way to group similar code into a module to keep it organized.
 
-Names for partials start with the underscore (`_`) character, which tells Sass it is a small segment of CSS and not to convert it into a CSS file. Also, Sass files end with the `.scss` file extension. To bring the code in the partial into another Sass file, use the `@import` directive.
+Partials의 이름은 밑줄(`_`) 문자로 시작하며, CSS의 작은 부분으로 CSS 파일로 변환하지 말라고 Sass에게 알려줍니다. 또한 Sass 파일은 `.scss` 확장자로 끝납니다. 다른 Sass 파일에 Partial을 가져오려면 `@import`문을 사요하면 됩니다.
 
-For example, if all your mixins are saved in a partial named "\_mixins.scss", and they are needed in the "main.scss" file, this is how to use them in the main file:
+예를 들어 모든 믹스인(mixins)이 "\_mixins.scss"에 저장되어 있고, "main.scss" 파일에서 필요하면, 다음과 같이 사용합니다.
 
 ```scss
 @import 'mixins'
 ```
 
-Note that the underscore and file extension are not needed in the `import` statement - Sass understands it is a partial. Once a partial is imported into a file, all variables, mixins, and other code are available to use.
+`import` 문에는 밑줄과 파일 확장자가 필요하지 않습니다. Sass가 Partial로 인식합니다. Partial를 파일로 가져오면, 모든 변수, 믹스인 그리고 다른 코드 모두 사용할 수 있습니다.
 
 # --instructions--
 
-Write an `@import` statement to import a partial named `_variables.scss` into the main.scss file.
+`@import` 문을 작성해서 `_variables.scss`를 main.scss 파일로 가져와보세요.
 
 # --hints--
 
-Your code should use the `@import` directive, and should not include the underscore in the file name.
+`@import` 문을 사용하고, 파일 이름에 밑줄을 포함해서는 안 됩니다.
 
 ```js
 assert(code.match(/@import\s+?('|")variables\1/gi));

@@ -8,7 +8,7 @@ dashedName: use-the-rest-parameter-with-function-parameters
 
 # --description--
 
-من أجل مساعدتنا في إنشاء وظائف (functions) أكثر مرونة، يوفر ES6 <dfn>الوسائط rest</dfn> للوسائط (parameters) الوظيفة. مع وسيط rest، يمكنك إنشاء وظائف تأخذ عددا متغيرا من المعطيات (arguments). يتم تخزين هذه الـ arguments في array يمكن الوصول إليها في وقت لاحق من داخل الـ function.
+In order to help us create more flexible functions, ES6 introduces the <dfn>rest parameter</dfn> for function parameters. With the rest parameter, you can create functions that take a variable number of arguments. These arguments are stored in an array that can be accessed later from inside the function.
 
 تحقق من هذا الكود:
 

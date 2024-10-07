@@ -18,17 +18,17 @@ What is the main difference between the `.connect()` and `.connect_ex()` methods
 
 ## --answers--
 
-There is no difference between the two methods.
+وليس هناك فرق بين الطريقتين.
 
 ---
 
-If there is an error or if no host is found, `.connect()` returns an error code while `.connect_ex()` raises an exception.
+إذا كان هناك خطأ أو إذا لم يتم العثور على مضيف، `.connect()` يرجع رمز خطأ بينما `.connect_ex()` يثير استثناء.
 
 ---
 
-If there is an error or if no host is found, `.connect()` raises an exception while `.connect_ex()` returns an error code.
+إذا كان هناك خطأ أو إذا لم يتم العثور على مضيف، `.connect()` يثير استثناء بينما `.connect_ex()` يرسل رمز الخطأ.
 
 ## --video-solution--
 
-3
+الثالث
 

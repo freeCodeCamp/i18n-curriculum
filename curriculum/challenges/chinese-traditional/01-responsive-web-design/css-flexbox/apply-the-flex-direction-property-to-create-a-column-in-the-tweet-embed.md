@@ -9,7 +9,7 @@ dashedName: apply-the-flex-direction-property-to-create-a-column-in-the-tweet-em
 
 # --description--
 
-在之前的挑戰中，我們把嵌入推文的 `header` 和 `footer` 的 `flex-direction` 屬性值設爲 row（行）。 相似地，把 `.profile-name` 選擇器中的元素豎着排列會好看一點。
+The tweet embed `header` and `footer` used the `flex-direction` property earlier with a row value. Similarly, the items inside the `.profile-name` element would work well stacked as a column.
 
 # --instructions--
 

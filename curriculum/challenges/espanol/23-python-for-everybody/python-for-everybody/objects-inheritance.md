@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: objects-inheritance
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-What is inheritance in object-oriented programming?
+¿Qué es herencia en la programación orientada a objetos?
 
 ## --answers--
 

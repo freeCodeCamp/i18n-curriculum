@@ -8,7 +8,7 @@ dashedName: use-the-every-method-to-check-that-every-element-in-an-array-meets-a
 
 # --description--
 
-`every` 方法用於檢測數組中*所有*元素是否都符合指定條件。 如果所有元素滿足條件，返回布爾值 `true`，反之返回 `false`。
+The `every` method works with arrays to check if *every* element passes a particular test. It returns a Boolean value - `true` if all values meet the criteria, `false` if not.
 
 舉個例子，下面的代碼檢測數組 `numbers` 的所有元素是否都小於 10：
 

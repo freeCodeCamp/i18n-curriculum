@@ -1,6 +1,6 @@
 ---
 id: 587d7b89367417b2b2512b48
-title: Use the Spread Operator to Evaluate Arrays In-Place
+title: 전개 연산자로 배열 펼치기
 challengeType: 1
 forumTopicId: 301222
 dashedName: use-the-spread-operator-to-evaluate-arrays-in-place
@@ -10,31 +10,31 @@ dashedName: use-the-spread-operator-to-evaluate-arrays-in-place
 
 ES6 introduces the <dfn>spread operator</dfn>, which allows us to expand arrays and other expressions in places where multiple parameters or elements are expected.
 
-The ES5 code below uses `apply()` to compute the maximum value in an array:
+아래 ES5 코드는 `apply()` 메서드로 배열 내 최댓값을 구합니다.
 
 ```js
 var arr = [6, 89, 3, 45];
 var maximus = Math.max.apply(null, arr);
 ```
 
-`maximus` would have a value of `89`.
+`maximus`의 값은 `89`가 됩니다.
 
-We had to use `Math.max.apply(null, arr)` because `Math.max(arr)` returns `NaN`. `Math.max()` expects comma-separated arguments, but not an array. The spread operator makes this syntax much better to read and maintain.
+최댓값을 구하기 위해서는 `Math.max.apply(null, arr)`를 사용할 수 밖에 없었는데, `Math.max(arr)`는 `NaN`을 반환하기 때문입니다. `Math.max()`는 배열 자체가 아니라 콤마로 구분한 인수가 필요합니다. 전개 연산자는 위 문법을 훨씬 더 가독성 있고 관리하기 쉽게 바꿔줍니다.
 
 ```js
 const arr = [6, 89, 3, 45];
 const maximus = Math.max(...arr);
 ```
 
-`maximus` would have a value of `89`.
+`maximus`의 값은 `89`가 됩니다.
 
-`...arr` returns an unpacked array. In other words, it spreads the array. However, the spread operator only works in-place, like in an argument to a function or in an array literal. 예시:
+`...arr`는 해체한 배열을 반환합니다. 즉, 배열을 펼칩니다. 하지만, 전개 연산자는 함수에 전달하는 인수 자리, 배열 리터럴 자리와 같이 정해진 자리에서만 작동합니다. 예시:
 
 ```js
 const spreaded = [...arr];
 ```
 
-However, the following code will not work:
+반면에 아래 코드는 작동하지 않습니다.
 
 ```js
 const spreaded = ...arr;
@@ -42,23 +42,23 @@ const spreaded = ...arr;
 
 # --instructions--
 
-Copy all contents of `arr1` into another array `arr2` using the spread operator.
+전개 연산자로 배열 `arr1`의 모든 내용을 다른 배열 `arr2`로 복사하세요.
 
 # --hints--
 
-`arr2` should be correct copy of `arr1`.
+`arr2`은 `arr1`의 내용을 제대로 복사해야 합니다.
 
 ```js
 assert(arr2.every((v, i) => v === arr1[i]) && arr2.length);
 ```
 
-`...` spread operator should be used to duplicate `arr1`.
+전개 연산자 `...`를 `arr1` 복사를 위해 사용해야 합니다.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/Array\(\s*\.\.\.arr1\s*\)|\[\s*\.\.\.arr1\s*\]/));
 ```
 
-`arr2` should remain unchanged when `arr1` is changed.
+배열 `arr1`가 변경되어도, 배열 `arr2`은 변경되지 않아야 합니다.
 
 ```js
 assert((arr1, arr2) => {

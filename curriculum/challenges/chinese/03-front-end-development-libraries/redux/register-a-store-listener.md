@@ -8,7 +8,7 @@ dashedName: register-a-store-listener
 
 # --description--
 
-在 Redux `store` 对象上访问数据的另一种方法是 `store.subscribe()`。 这允许将监听器函数订阅到 store，只要 action 被 dispatch 就会调用它们。 这个方法的一个简单用途是为 store 订阅一个函数，它只是在每次收到一个 action 并且更新 store 时记录一条消息。
+Another method you have access to on the Redux `store` object is `store.subscribe()`. This allows you to subscribe listener functions to the store, which are called whenever an action is dispatched against the store. One simple use for this method is to subscribe a function to your store that simply logs a message every time an action is received and the store is updated.
 
 # --instructions--
 

@@ -8,7 +8,7 @@ dashedName: parent-graphs
 
 # --description--
 
-In this video, you will see what these parent graphs look like, how to modify them, and how to do this all with Python code.
+In diesem Video wirst du sehen, wie diese übergeordneten Graphen aussehen, wie du sie ändern kannst und wie du dies mithilfe von Python-Code tun kannst.
 
 Hier ist das <a href="https://colab.research.google.com/drive/1uwKuaHCC2WCUFKmXW-5NqWUlEP9ak7Pz?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">Colab-Notizbuch zu diesem Video.</a>
 

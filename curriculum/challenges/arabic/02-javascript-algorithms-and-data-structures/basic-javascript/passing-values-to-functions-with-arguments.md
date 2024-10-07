@@ -9,7 +9,7 @@ dashedName: passing-values-to-functions-with-arguments
 
 # --description--
 
-إن <dfn>الوسائط (parameters)</dfn> متغيرات تعمل كعناصر ناقلة للقيم الذي تعطى لوظيفة (function) عند تفعيلها. عندما يتم تعريف وظيفة، فإنها تُعرَّف عادة مع واحد أو أكثر من الوسائط. القيم الفعلية التي تدخل (أو <dfn>"تمرر"</dfn>) إلى وظيفة عند استدعائها هي معروفة باسم <dfn>المعطيات (arguments)</dfn>.
+<dfn>Parameters</dfn> are variables that act as placeholders for the values that are to be input to a function when it is called. When a function is defined, it is typically defined along with one or more parameters. The actual values that are input (or <dfn>"passed"</dfn>) into a function when it is called are known as <dfn>arguments</dfn>.
 
 إليك وظيفة ذات وسيطين، `param1` و `param2`:
 
@@ -23,7 +23,7 @@ function testFun(param1, param2) {
 
 # --instructions--
 
-<ol><li>أنشئ وظيفة تسمى <code>functionWithArgs</code> تقبل معطييّن وتخرج المجموع الخاص بهم إلى الكونسول.</li><li>استدعي الوظيفة برقمين كحجتين.</li></ol>
+<ol><li>Create a function called <code>functionWithArgs</code> that accepts two arguments and outputs their sum to the dev console.</li><li>استدعي الوظيفة برقمين كحجتين.</li></ol>
 
 # --hints--
 

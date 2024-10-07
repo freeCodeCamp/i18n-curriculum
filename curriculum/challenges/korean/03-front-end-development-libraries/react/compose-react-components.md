@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d4036166
-title: Compose React Components
+title: 리액트 컴포넌트 구성하기
 challengeType: 6
 forumTopicId: 301381
 dashedName: compose-react-components
@@ -12,13 +12,13 @@ As the challenges continue to use more complex compositions with React component
 
 # --instructions--
 
-In the code editor, the `TypesOfFood` component is already rendering a component called `Vegetables`. Also, there is the `Fruits` component from the last challenge.
+코드 편집기에, `TypesOfFood` 컴포넌트가 이미 `Vegetables` 컴포넌트를 렌더링하고 있습니다. 또한 이전 도전에서 알아본 `Fruits` 컴포넌트가 있습니다.
 
-Nest two components inside of `Fruits` — first `NonCitrus`, and then `Citrus`. Both of these components are provided for you behind the scenes. Next, nest the `Fruits` class component into the `TypesOfFood` component, below the `h1` heading element and above `Vegetables`. The result should be a series of nested components, which uses two different component types.
+두 개의 컴포넌트 `NonCitrus`와 `Citrus`를 `Fruits` 컴포넌트에 집어넣으세요. 이 두 컴포넌트는 안보이는 곳에 내장되어 있습니다. 그럼 다음, `Fruits` 클래스 컴포넌트를 `TypesOfFood` 컴포넌트 안에 집어넣으세요, 위치는 `h1` 제목 엘리먼트와 `Vegetables` 컴포넌트 사이입니다. 결과적으로 2가지 형태의 컴포넌트가 들어간 컴포넌트로 구성됩니다.
 
 # --hints--
 
-The `TypesOfFood` component should return a single `div` element.
+`TypesOfFood` 컴포넌트는 하나의 `div` 컴포넌트를 반환해야 합니다.
 
 ```js
 assert(
@@ -29,7 +29,7 @@ assert(
 );
 ```
 
-The `TypesOfFood` component should return the `Fruits` component.
+`TypesOfFood` 컴포넌트는 `Fruits` 컴포넌트를 반환해야 합니다.
 
 ```js
 assert(
@@ -40,7 +40,7 @@ assert(
 );
 ```
 
-The `Fruits` component should return the `NonCitrus` component and the `Citrus` component.
+`Fruits` 컴포넌트는 `NonCitrus` 컴포넌트와 `Citrus` 컴포넌트를 반환해야 합니다.
 
 ```js
 assert(
@@ -55,7 +55,7 @@ assert(
 );
 ```
 
-The `TypesOfFood` component should return the `Vegetables` component below the `Fruits` component.
+`TypesOfFood` 컴포넌트는 `Fruits` 컴포넌트 밑에 있는 `Vegetables` 컴포넌트를 반환해야 합니다.
 
 ```js
 assert(

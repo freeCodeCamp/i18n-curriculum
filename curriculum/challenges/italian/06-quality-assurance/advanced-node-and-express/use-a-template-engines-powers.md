@@ -8,7 +8,7 @@ dashedName: use-a-template-engines-powers
 
 # --description--
 
-Una delle maggiori caratteristiche dell'utilizzo di un template engine è essere in grado di passare variabili dal server al file modello prima di renderlo in HTML.
+One of the greatest features of using a template engine is being able to pass variables from the server to the template file before rendering it to HTML.
 
 Nel tuo file Pug, sei in grado di usare una variabile facendo riferimento al nome della variabile come `#{variable_name}` inline con un altro testo su un elemento o usando un segno uguale sull'elemento senza uno spazio come `p=variable_name` che assegna il valore della variabile al testo dell'elemento p.
 

@@ -8,7 +8,7 @@ dashedName: copy-an-array-with-the-spread-operator
 
 # --description--
 
-`slice()` 可以让我们从一个数组中选择一些元素来复制到新数组中，而 ES6 中又引入了一个简洁且可读性强的语法：展开运算符（<dfn>spread operator</dfn>），它能让我们方便地复制数组中的*所有*元素。 展开语法写出来是这样：`...`
+While `slice()` allows us to be selective about what elements of an array to copy, among several other useful tasks, ES6's new <dfn>spread operator</dfn> allows us to easily copy *all* of an array's elements, in order, with a simple and highly readable syntax. The spread syntax simply looks like this: `...`
 
 我们可以用展开运算符来复制数组：
 

@@ -1,6 +1,6 @@
 ---
 id: 587d7fa6367417b2b2512bc3
-title: Select a Group of Elements with D3
+title: حدد مجموعة من العناصر مع D3
 challengeType: 6
 forumTopicId: 301490
 dashedName: select-a-group-of-elements-with-d3
@@ -14,15 +14,15 @@ D3 also has the `selectAll()` method to select a group of elements. It returns a
 const anchors = d3.selectAll("a");
 ```
 
-Like the `select()` method, `selectAll()` supports method chaining, and you can use it with other methods.
+مثل طريقة `select()` طريقة `selectAll()` تدعم سلسلة الطريقة (method chaining)، ويمكنك استخدامها مع طرق أخرى.
 
 # --instructions--
 
-Select all of the `li` tags in the document, and change their text to the string `list item` by chaining the `.text()` method.
+حدد جميع علامات `li` في الوثيقة، وغير نصهم إلى نص `list item` بإضافة طريقة `.text()` المسلسلة.
 
 # --hints--
 
-There should be 3 `li` elements on the page, and the text in each one should say `list item`. Capitalization and spacing should match exactly.
+يجب أن يكون هناك 3 عناصر `li` في الصفحة، ويجب أن يقول النص في كل واحد `list item`. وينبغي أن تتطابق حالة الحروف والمباعدة بينهما على وجه الدقة.
 
 ```js
 assert(
@@ -32,13 +32,13 @@ assert(
 );
 ```
 
-Your code should access the `d3` object.
+يجب أن يتواصل الكود الخاص بك بكائن `d3`.
 
 ```js
 assert(code.match(/d3/g));
 ```
 
-Your code should use the `selectAll` method.
+يجب أن يستخدم كودك طريقة `selectAll`.
 
 ```js
 assert(code.match(/\.selectAll/g));

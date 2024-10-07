@@ -8,7 +8,7 @@ dashedName: access-an-arrays-contents-using-bracket-notation
 
 # --description--
 
-La caratteristica fondamentale di qualsiasi struttura di dati è, ovviamente, la capacità non solo di memorizzare i dati, ma di essere in grado di recuperare tali dati a comando. Quindi, adesso che abbiamo imparato a creare un array, cominciamo a pensare come possiamo accedere alle informazioni di quell'array.
+The fundamental feature of any data structure is, of course, the ability to not only store data, but to be able to retrieve that data on command. So, now that we've learned how to create an array, let's begin to think about how we can access that array's information.
 
 Se definiamo un semplice array come il seguente, ci sono 3 elementi:
 

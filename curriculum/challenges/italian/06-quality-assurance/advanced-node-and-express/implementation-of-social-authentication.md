@@ -8,9 +8,9 @@ dashedName: implementation-of-social-authentication
 
 # --description--
 
-Il percorso di base che seguirà questo tipo di autenticazione nella tua app è:
+The basic path this kind of authentication will follow in your app is:
 
-1.  L'utente fa clic su un pulsante o link che lo reindirizza alla tua rotta per autenticarsi utilizzando una strategia specifica (ad esempio GitHub).
+1.  User clicks a button or link sending them to your route to authenticate using a specific strategy (e.g. GitHub).
 2.  La tua rotta chiama `passport.authenticate('github')` che lo reindirizza a GitHub.
 3.  La pagina su cui arriva l'utente, su GitHub, gli permette di effettuare il login se non è già loggato. Poi gli chiede di approvare l'accesso al suo profilo dalla tua app.
 4.  L'utente viene quindi rimandato alla tua app a uno specifico url di callback con il suo profilo, se è approvato.
@@ -20,7 +20,7 @@ Le strategie con OAuth richiedono di avere almeno un *ID client* e un *Client Se
 
 Segui <a href="https://www.freecodecamp.org/news/how-to-set-up-a-github-oauth-application/" target="_blank" rel="noopener noreferrer nofollow">queste istruzioni</a> per ottenere i tuoi *ID e Secret Client* da GitHub. Set the homepage URL to your homepage (**not the project code's URL**), and set the callback URL to the same homepage URL with `/auth/github/callback` appended to the end. Salva l'ID Client e il Secret Client nel file `.env` del progetto come `GITHUB_CLIENT_ID` e `GITHUB_CLIENT_SECRET`.
 
-Nel tuo file `routes.js`, aggiungi `showSocialAuth: true` alla rotta homepage, dopo `showRegistration: true`. Ora, crea 2 rotte accettando le richieste GET: `/auth/github` e `/auth/github/callback`. La prima dovrebbe chiamare solo passport per autenticare `'github'`. La seconda dovrebbe chiamare passport per autenticare `'github'` con un reindirizzamento a `/` in caso di fallimento, mentre, in caso di successo, reindirizzare a `/profile` (in modo simile all'ultimo progetto).
+Nel tuo file `routes.js`, aggiungi `showSocialAuth: true` al percorso homepage, dopo `showRegistration: true`. Ora, crea 2 rotte accettando le richieste GET: `/auth/github` e `/auth/github/callback`. La prima dovrebbe chiamare solo passport per autenticare `'github'`. La seconda dovrebbe chiamare passport per autenticare `'github'` con un reindirizzamento a `/` in caso di fallimento, mentre, in caso di successo, reindirizzare a `/profile` (in modo simile all'ultimo progetto).
 
 Un esempio di come dovrebbe apparire `/auth/github/callback` è simile a come hai gestito un normale login:
 

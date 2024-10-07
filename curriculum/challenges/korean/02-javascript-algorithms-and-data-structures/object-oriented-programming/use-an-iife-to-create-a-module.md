@@ -1,6 +1,6 @@
 ---
 id: 587d7db2367417b2b2512b8c
-title: Use an IIFE to Create a Module
+title: 모듈 생성을 위한 IIFE 사용하기
 challengeType: 1
 forumTopicId: 301332
 dashedName: use-an-iife-to-create-a-module
@@ -23,7 +23,7 @@ function flyMixin(obj) {
 }
 ```
 
-We can group these mixins into a module as follows:
+다음과 같이 이 두 미스인을 모듈로 만들 수 있습니다.
 
 ```js
 let motionModule = (function () {
@@ -42,7 +42,7 @@ let motionModule = (function () {
 })();
 ```
 
-Note that you have an immediately invoked function expression (IIFE) that returns an object `motionModule`. This returned object contains all of the mixin behaviors as properties of the object. The advantage of the module pattern is that all of the motion behaviors can be packaged into a single object that can then be used by other parts of your code. Here is an example using it:
+객체 `motionModule`를 반환하는 즉각 호출 함수 표현(IIFE)이 있다는 것에 주의를 기울일 필요가 있습니다. 이 반환된 객체는 객체의 속성같이 모든 믹스인의 행동들을 가지고 있습니다. 모듈 패턴의 이점은 모든 행동들이 다른 곳에서 사용될 수 있도록 한 객체에 담길 수 있다는 것입니다. 여기 사용 예시가 있습니다.
 
 ```js
 motionModule.glideMixin(duck);
@@ -51,23 +51,23 @@ duck.glide();
 
 # --instructions--
 
-Create a module named `funModule` to wrap the two mixins `isCuteMixin` and `singMixin`. `funModule` should return an object.
+두 개의 믹스인 `isCuteMixin`과 `singMixin`을 담는 모듈 `funModule`을 생성하시오. `funModule`는 객체를 반환해야 합니다.
 
 # --hints--
 
-`funModule` should be defined and return an object.
+`funModule`은 정의되어 객체를 반환해야 합니다.
 
 ```js
 assert(typeof funModule === 'object');
 ```
 
-`funModule.isCuteMixin` should access a function.
+`funModule.isCuteMixin`는 함수에 접근할 수 있어야 합니다.
 
 ```js
 assert(typeof funModule.isCuteMixin === 'function');
 ```
 
-`funModule.singMixin` should access a function.
+`funModule.singMixin`는 함수에 접근할 수 있어야 합니다.
 
 ```js
 assert(typeof funModule.singMixin === 'function');

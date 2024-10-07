@@ -7,7 +7,7 @@ dashedName: step-29
 
 # --description--
 
-在你刚刚添加的 `figure` 元素中，嵌套一个 `img` 元素，其中 `src` 属性设置为 `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`。
+Inside the `figure` element you just added, nest an `img` element with a `src` attribute set to `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
 
 # --hints--
 

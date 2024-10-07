@@ -8,7 +8,7 @@ dashedName: match-a-literal-string-with-different-possibilities
 
 # --description--
 
-`/coding/` のような正規表現を使用すると、別の文字列にあるパターン `coding` を検索できます。
+Using regexes like `/coding/`, you can look for the pattern `coding` in another string.
 
 これは単一の文字列を検索するのにとても便利ですが、1 つのパターンのみに限定されています。 `alternation` または `OR` 演算子と呼ばれる `|` を使用すると、複数のパターンを検索できます。
 

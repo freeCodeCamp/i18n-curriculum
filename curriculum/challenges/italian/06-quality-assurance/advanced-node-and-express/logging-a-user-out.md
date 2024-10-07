@@ -8,7 +8,7 @@ dashedName: logging-a-user-out
 
 # --description--
 
-Creare la logica per il logout è semplice. La rotta dovrebbe semplicemente de-autenticare l'utente e reindirizzarlo alla home page, senza renderizzare alcuna vista.
+Creating the logout logic is easy. The route should just unauthenticate the user, and redirect to the home page instead of rendering any view.
 
 In passport, per de-autenticare un utente è sufficiente invocare `req.logout()` prima del reindirizzamento. Aggiungi questa rotta `/logout` per farlo:
 

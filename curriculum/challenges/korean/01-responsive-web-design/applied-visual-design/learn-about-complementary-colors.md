@@ -9,7 +9,7 @@ dashedName: learn-about-complementary-colors
 
 # --description--
 
-색채 이론과 그것이 디자인에 미치는 영향력에 대해서는 아주 깊이 들어갈 수도 있는 주제이기 때문에, 이번 챌린지에서는 기초만 다룰 예정입니다. 웹 사이트에서 색상은 콘텐츠에 대한 관심을 끌거나 감정을 일깨우기도 하고, 혹은 시각적 조화를 만들어 내기도 합니다. 색상을 다르게 조합하는 것으로 웹 사이트가 완전히 달라 보이게도 할 수 있으며, 콘텐츠와 잘 부합하는 색상을 찾기 위해 많은 것을 고려해야 하기도 합니다.
+Color theory and its impact on design is a deep topic and only the basics are covered in the following challenges. On a website, color can draw attention to content, evoke emotions, or create visual harmony. Using different combinations of colors can really change the look of a website, and a lot of thought can go into picking a color palette that works with your content.
 
 색상환은 색상 간의 관계를 시각화할 때 좋은 도구로, 서로 비슷한 색은 가까이, 다른 색은 멀리 떨어져 있는 원입니다. 두 색상이 서로 고리 반대편에 있을 경우 그 색상을 보색이라고 부릅니다. 이들은 섞였을 때 서로의 색상을 "상쇄하고" 회색을 만들어 내는 특성이 있습니다. 하지만 이들을 나란히 배치하면 색상이 더욱 선명해 보이며 강렬한 시각적 대비를 만들어 냅니다.
 

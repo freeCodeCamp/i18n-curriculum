@@ -9,7 +9,7 @@ dashedName: define-the-head-and-body-of-an-html-document
 
 # --description--
 
-Puoi aggiungere un altro livello di organizzazione nel tuo documento HTML all'interno dei tag `html` con gli elementi `head` e `body`. Qualsiasi markup con informazioni sulla tua pagina dovrebbe essere inserito nel tag `head`. Qualsiasi markup con il contenuto della pagina (quello che viene visualizzato dall'utente) dovrebbe invece andare nel tag `body`.
+You can add another level of organization in your HTML document within the `html` tags with the `head` and `body` elements. Any markup with information about your page would go into the `head` tag. Then any markup with the content of the page (what displays for a user) would go into the `body` tag.
 
 Gli elementi contenenti metadati, come `link`, `meta`, `title`, e `style`, normalmente vanno all'interno dell'elemento `head`.
 

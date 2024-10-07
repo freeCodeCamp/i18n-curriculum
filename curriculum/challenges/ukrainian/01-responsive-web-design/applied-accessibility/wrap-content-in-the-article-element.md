@@ -9,7 +9,7 @@ dashedName: wrap-content-in-the-article-element
 
 # --description--
 
-`article` це ще один з нових елементів в HTML5 та додає семантичного значення до Вашої розмітки. `article` - це елемент розділення, який використовується для обгортання незалежного, автономного контенту. Даний тег добре застосовувати для блогів, повідомлень на форумах або новин.
+`article` is another one of the new HTML5 elements that add semantic meaning to your markup. `article` is a sectioning element and is used to wrap independent, self-contained content. The tag works well with blog entries, forum posts, or news articles.
 
 Визначення того, чи вміст може бути поданий окремо, зазвичай є власним суб'єктивним рішенням, але ви можете скористатися парою простих тестів. Запитайте себе, чи мав би цей контент все ще сенс, якби ви видалили весь контекст? Аналогічно і з текстом, чи збережеться контент, якщо він знаходиться у RSS-каналі?
 

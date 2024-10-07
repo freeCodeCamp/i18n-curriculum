@@ -8,9 +8,9 @@ dashedName: chart-the-stock-market
 
 # --description--
 
-<a href="https://chart-the-stock-market.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://chart-the-stock-market.freecodecamp.rocks/</a> と同じような機能を持つ、フルスタック JavaScript アプリを構築してください。 その際に、ご自身で選択したサイトビルダーを使用して、プロジェクトを完了させてください。
+Build a full stack JavaScript app that is functionally similar to this: <a href="https://chart-the-stock-market.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://chart-the-stock-market.freecodecamp.rocks/</a>. Use a site builder of your choice to complete the project.
 
-このプロジェクトに実装する必要がある、具体的なユーザーストーリーはこちらです:
+このプロジェクトに実装する必要がある具体的なユーザー ストーリーはこちらです:
 
 **ユーザーストーリー:** 追加された各株価の、最近のトレンドラインを表示するグラフを見ることができます。
 

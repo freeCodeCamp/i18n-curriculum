@@ -8,7 +8,7 @@ dashedName: display-shapes-with-svg
 
 # --description--
 
-In der letzten Aufgabe hast du ein `svg`-Element mit einer bestimmten Breite und Höhe erstellt, welches sichtbar war, da sein `style`-Tag über eine `background-color` verfügte. Der Code machte Platz für die angegebene Breite und Höhe.
+The last challenge created an `svg` element with a given width and height, which was visible because it had a `background-color` applied to it in the `style` tag. The code made space for the given width and height.
 
 Im nächsten Schritt erstellst du eine Form, die dem `svg`-Bereich hinzugefügt wird. SVG unterstützt verschiedene Formen, unter anderem Rechtecke und Kreise. Sie werden verwendet, um Daten anzuzeigen. Zum Beispiel könnte die SVG-Form eines Rechtecks (`<rect>`) einen Balken in einem Balkendiagramm darstellen.
 

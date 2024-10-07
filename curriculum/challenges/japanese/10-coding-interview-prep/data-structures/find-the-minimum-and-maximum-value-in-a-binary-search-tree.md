@@ -8,7 +8,7 @@ dashedName: find-the-minimum-and-maximum-value-in-a-binary-search-tree
 
 # --description--
 
-このチャレンジでは、`findMin` と `findMax` の 2 つのメソッドを定義します。 これらのメソッドは、二分探索木の中の最小値と最大値を返す必要があります (今は、木に値を追加することについて考える必要はありません。値を追加するコードが既に用意されています)。 分からなくなったら、二分探索木において必ず真であるべき不変条件を思い出してください。つまり、左部分木はそれぞれがその親以下、右部分木はそれぞれがその親以上でなければなりません。 また、木は整数値のみを格納できるものとしましょう。 木が空の場合、どちらのメソッドも `null` を返す必要があります。
+In this challenge you will define two methods, `findMin` and `findMax`. These methods should return the minimum and maximum value held in the binary search tree (don't worry about adding values to the tree for now, we have added some in the background). If you get stuck, reflect on the invariant that must be true for binary search trees: each left subtree is less than or equal to its parent and each right subtree is greater than or equal to its parent. Let's also say that our tree can only store integer values. If the tree is empty, either method should return `null`.
 
 # --hints--
 

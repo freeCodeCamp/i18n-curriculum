@@ -8,7 +8,7 @@ dashedName: iterate-over-all-properties
 
 # --description--
 
-Ви бачили два типи властивостей: <dfn>власні властивості</dfn> та <dfn>властивості прототипу</dfn>. Власні властивості визначаються в самому екземплярі об’єкта. А властивості прототипу визначені в `prototype`.
+You have now seen two kinds of properties: <dfn>own properties</dfn> and `prototype` properties. Own properties are defined directly on the object instance itself. And prototype properties are defined on the `prototype`.
 
 ```js
 function Bird(name) {

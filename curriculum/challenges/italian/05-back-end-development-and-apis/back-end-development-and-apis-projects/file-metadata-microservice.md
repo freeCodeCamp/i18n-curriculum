@@ -8,15 +8,15 @@ dashedName: file-metadata-microservice
 
 # --description--
 
-Costruisci un'app JavaScript full-stack che sia funzionalmente simile a questa: <a href="https://file-metadata-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://file-metadata-microservice.freecodecamp.rocks/</a>. Lavorare su questo progetto ti porterà a scrivere il tuo codice utilizzando uno dei seguenti metodi:
+Build a full stack JavaScript app that is functionally similar to this: <a href="https://file-metadata-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://file-metadata-microservice.freecodecamp.rocks</a>. Working on this project will involve you writing your code using one of the following methods:
 
--   Clonare <a href="https://github.com/freeCodeCamp/boilerplate-project-filemetadata/" target="_blank" rel="noopener noreferrer nofollow">questa repository GitHub</a> e completare il tuo progetto localmente.
+-   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-filemetadata/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
 -   Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-filemetadata/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete your project.
 -   Usare un costruttore di siti di tua scelta per completare il progetto. Assicurati di incorporare tutti i file del nostro repository GitHub.
 
 # --instructions--
 
-**SUGGERIMENTO:** Puoi usare il pacchetto npm `multer` per gestire il caricamento dei file.
+**HINT:** You can use the `multer` npm package to handle file uploading.
 
 # --hints--
 
@@ -32,7 +32,7 @@ Costruisci un'app JavaScript full-stack che sia funzionalmente simile a questa: 
 };
 ```
 
-Puoi inviare un modulo che include un caricamento di file.
+You can submit a form that includes a file upload.
 
 ```js
 async (getUserInput) => {
@@ -43,7 +43,7 @@ async (getUserInput) => {
 };
 ```
 
-Il campo di input del file form ha l'attributo `name` impostato su `upfile`.
+The form file input field has the `name` attribute set to `upfile`.
 
 ```js
 async (getUserInput) => {
@@ -54,7 +54,7 @@ async (getUserInput) => {
 };
 ```
 
-Inviando un file, riceverai il `name`, il `type` e la dimensione (`size`) in byte del file, all'interno della risposta JSON.
+When you submit a file, you receive the file `name`, `type`, and `size` in bytes within the JSON response.
 
 ```js
 async (getUserInput) => {

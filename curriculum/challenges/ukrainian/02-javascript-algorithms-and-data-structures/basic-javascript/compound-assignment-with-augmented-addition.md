@@ -9,7 +9,7 @@ dashedName: compound-assignment-with-augmented-addition
 
 # --description--
 
-У програмуванні присвоєння зазвичай використовують, щоб змінити вміст змінної. Пам’ятайте, що спершу обчислюється усе, що стоїть праворуч від знаку рівності, тому можна сказати, що:
+In programming, it is common to use assignments to modify the contents of a variable. Remember that everything to the right of the equals sign is evaluated first, so we can say:
 
 ```js
 myVar = myVar + 5;

@@ -9,7 +9,7 @@ dashedName: comparison-with-the-less-than-operator
 
 # --description--
 
-يقارن مشغل الأصغر من (`<`) بين قيم رقمين. إذا كان الرَّقَم إلى اليسار أصغر من الرَّقَم إلى اليمين، فإنه يرجع `true`. خلاف ذلك، فإنه يرجع `false`. وعلى غرار مشغل المساواة، يقوم المشغل أقل من بتحويل أنواع البيانات عند مقارنتها.
+The less than operator (`<`) compares the values of two numbers. If the number to the left is less than the number to the right, it returns `true`. Otherwise, it returns `false`. Like the equality operator, the less than operator converts data types while comparing.
 
 **مثال**
 

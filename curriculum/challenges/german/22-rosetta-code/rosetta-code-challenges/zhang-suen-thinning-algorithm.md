@@ -8,7 +8,7 @@ dashedName: zhang-suen-thinning-algorithm
 
 # --description--
 
-This is an algorithm used to thin a black and white i.e. one bit per pixel images. For example, with an input image of:
+Dies ist ein Algorithmus zum Ausdünnen von Schwarz-Weiß-Bildern, d. h. von Bildern mit einem Bit pro Pixel. Zum Beispiel, mit einem Eingabebild von:
 
 ```js
 const testImage1 = [
@@ -48,18 +48,18 @@ $$\begin{array}{|c|c|c|} \\hline P9 & P2              & P3\\\\ \\hline P8 & \bol
 
 Es ist offensichtlich, dass die Randpixel des Bildes nicht alle acht Nachbarn haben können.
 
-- Define $A(P1)$ = the number of transitions from white to black, ($0 \to 1$) in the sequence P2, P3, P4, P5, P6, P7, P8, P9, P2. (Note the extra P2 at the end - it is circular).
+- Definiere $A(P1)$ = die Anzahl der Übergänge von Weiß nach Schwarz ($0 \to 1$) in der Folge P2, P3, P4, P5, P6, P7, P8, P9, P2. (Beachte das zusätzliche P2 am Ende - es ist kreisförmig).
 - Definiere $B(P1)$ = die Anzahl der schwarzen Pixel-Nachbarn von P1. ($= \\sum(P2 \ldots P9)$)
 
 **Schritt 1:**
 
 Alle Pixel werden getestet, und Pixel, die alle folgenden Bedingungen (gleichzeitig) erfüllen, werden in diesem Stadium lediglich vermerkt.
 
-1. The pixel is black and has eight neighbours
+1. Das Pixel ist schwarz und hat acht Nachbarn
 2. $2 \le B(P1) \le 6$
 3. $A(P1) = 1$
-4. At least one of $P2$, $P4$ and $P6$ is white
-5. At least one of $P4$, $P6$ and $P8$ is white
+4. Mindestens eines von $P2$, $P4$ und $P6$ ist weiß
+5. Mindestens eines von $P4$, $P6$ und $P8$ ist weiß
 
 Nach der Iteration über das Bild und dem Sammeln aller Pixel, die alle Bedingungen von Schritt 1 erfüllen, werden alle Pixel, die diese Bedingungen erfüllen, auf weiß gesetzt.
 
@@ -67,7 +67,7 @@ Nach der Iteration über das Bild und dem Sammeln aller Pixel, die alle Bedingun
 
 Alle Pixel werden erneut getestet, und Pixel, die alle folgenden Bedingungen erfüllen, werden in diesem Stadium einfach vermerkt.
 
-1. The pixel is black and has eight neighbours
+1. Das Pixel ist schwarz und hat acht Nachbarn
 2. $2 \le B(P1) \le 6$
 3. $A(P1) = 1$
 4. Mindestens eines von $P2$, $P4$ und $P8$ ist weiß

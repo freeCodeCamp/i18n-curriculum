@@ -8,7 +8,7 @@ dashedName: where-do-i-belong
 
 # --description--
 
-배열 (첫 번째 인수)이 정렬된 후에 값(두 번째 인수)이 삽입되어야 하는 가장 낮은 인덱스를 반환합니다. 반환된 값은 숫자여야 합니다.
+Return the lowest index at which a value (second argument) should be inserted into an array (first argument) once it has been sorted. The returned value should be a number.
 
 예를 들어, `getIndexToIns([1,2,3,4], 1.5)`는 `1`을 반환해야 합니다. 왜냐하면 1.5가 `1`(인덱스 0)보다 크지만 `2`(인덱스 1)보다 작기 때문입니다.
 

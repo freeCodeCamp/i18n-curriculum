@@ -8,7 +8,7 @@ dashedName: access-props-using-this-props
 
 # --description--
 
-Le ultime sfide hanno mostrato i modi fondamentali per passare le proprietà ai componenti figli. Ma cosa succede se il componente figlio a cui stai passando una prop è un componente di classe ES6, piuttosto che un componente funzionale senza stato? Il componente di classe ES6 utilizza una convenzione leggermente diversa per accedere alle proprietà.
+The last several challenges covered the basic ways to pass props to child components. But what if the child component that you're passing a prop to is an ES6 class component, rather than a stateless functional component? The ES6 class component uses a slightly different convention to access props.
 
 Ogni volta che fai riferimento a un componente di classe all'interno di sé stesso, usa la parola chiave `this`. Per accedere alle proprietà all'interno di un componente di classe, premetti `this` al codice che usi per accedervi. Ad esempio, se un componente di classe ES6 ha una prop chiamata `data`, scriverai `{this.props.data}` in JSX.
 

@@ -8,7 +8,7 @@ dashedName: remove-items-from-a-set-in-es6
 
 # --description--
 
-Попрактикуємо видалення елементів з множини ES6 за допомогою методу `delete`.
+Let's practice removing items from an ES6 Set using the `delete` method.
 
 Спочатку створіть множину ES6:
 

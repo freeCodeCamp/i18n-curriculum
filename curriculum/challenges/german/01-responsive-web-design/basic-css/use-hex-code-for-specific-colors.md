@@ -9,7 +9,7 @@ dashedName: use-hex-code-for-specific-colors
 
 # --description--
 
-Wusstest du, dass es weitere Wege gibt, um Farbwerte in CSS zu definieren? Eine dieser Arten heißt Hexadezimal-Code, kurz Hex-Code.
+Did you know there are other ways to represent colors in CSS? One of these ways is called hexadecimal code, or hex code for short.
 
 Normalerweise verwenden wir <dfn>Dezimalzahlen</dfn> aus dem Zahlensystem mit der Basis 10, welches die Symbole 0-9 für die jeweilige Stelle verwendet. <dfn>Hexadezimalzahlen</dfn> (kurz <dfn>Hex-Zahlen</dfn>) haben die Basis 16. Das bedeutet, dass 16 verschiedene Symbole verwendet werden. Wie bei Dezimalzahlen repräsentieren die Symbole 0-9 die Werte null bis neun. Des Weiteren stehen A,B,C,D,E,F für die Werte zehn bis fünfzehn. Zusammengenommen können 0 bis F eine Hexadezimalstelle darstellen, indem sie uns insgesamt 16 mögliche Werte bieten. Du kannst hier mehr Informationen über <a href="https://www.freecodecamp.org/news/hexadecimal-number-system/" target="_blank" rel="noopener noreferrer nofollow">hexadezimale Zahlen</a> finden.
 

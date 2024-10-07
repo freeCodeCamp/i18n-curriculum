@@ -8,7 +8,7 @@ dashedName: problem-197-investigating-the-behaviour-of-a-recursively-defined-seq
 
 # --description--
 
-Given is the function $f(x) = ⌊{2}^{30.403243784 - x^2}⌋ × {10}^{-9}$ ( ⌊ ⌋ is the floor-function), the sequence $u_n$ is defined by $u_0 = -1$ and $u_{n + 1} = f(u_n)$.
+Gegeben sei die Funktion $f(x) = ⌊{2}^{30.403243784 - x^2}⌋ × {10}^{-9}$( ⌊ ⌋ ist die Abrundungsfunktion), die Sequenz $u_n$ ist definiert durch $u_0= -1$ und $u_{n + 1} = f(u_n)$.
 
 Finde $u_n + u_{n + 1}$ für $n = {10}^{12}$. Gib deine Antwort mit 9 Stellen nach dem Komma an.
 

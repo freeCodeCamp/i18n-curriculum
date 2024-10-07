@@ -8,7 +8,7 @@ dashedName: sort-an-array-alphabetically-using-the-sort-method
 
 # --description--
 
-`sort` 方法可以根据回调函数对数组元素进行排序。
+The `sort` method sorts the elements of an array according to the callback function.
 
 举个例子：
 

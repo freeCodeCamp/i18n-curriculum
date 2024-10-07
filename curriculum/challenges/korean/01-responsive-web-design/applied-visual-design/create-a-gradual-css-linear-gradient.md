@@ -9,7 +9,7 @@ dashedName: create-a-gradual-css-linear-gradient
 
 # --description--
 
-HTML 요소에 색상을 적용하는 것은 단일 평면 색조에 제한되지 않습니다. CSS는 요소에 색상 전환 또는 그라데이션이라고도 하는 기능을 제공합니다. 이 기능은 `background` 속성의 `linear-gradient()` 함수를 통해 사용할 수 있습니다. 여기 일반적인 구문이 있습니다.
+Applying a color on HTML elements is not limited to one flat hue. CSS provides the ability to use color transitions, otherwise known as gradients, on elements. This is accessed through the `background` property's `linear-gradient()` function. Here is the general syntax:
 
 ```css
 background: linear-gradient(gradient_direction, color 1, color 2, color 3, ...);

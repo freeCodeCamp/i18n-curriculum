@@ -8,9 +8,9 @@ dashedName: post-data-with-the-javascript-xmlhttprequest-method
 
 # --description--
 
-У попередніх прикладах ви отримували дані від зовнішнього джерела. Проте дані можна і надсилати до зовнішнього джерела, якщо воно підтримує запити AJAX та ви знаєте URL-адресу.
+In the previous examples, you received data from an external resource. You can also send data to an external resource, as long as that resource supports AJAX requests and you know the URL.
 
-Метод `XMLHttpRequest` від JavaScript використовують, щоб надіслати дані на сервер. Наприклад:
+Метод `XMLHttpRequest` від JavaScript використовують, щоб надіслати дані на сервер. Ось приклад:
 
 ```js
 const xhr = new XMLHttpRequest();

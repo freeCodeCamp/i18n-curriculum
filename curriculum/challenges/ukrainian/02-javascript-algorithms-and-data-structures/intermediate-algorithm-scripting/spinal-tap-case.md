@@ -8,7 +8,7 @@ dashedName: spinal-tap-case
 
 # --description--
 
-Перетворіть рядок в шашличний регістр. У шашличному регістрі всі-слова-в-нижньому-регістрі-та-розділені-рискою.
+Convert a string to spinal case. Spinal case is all-lowercase-words-joined-by-dashes.
 
 # --hints--
 

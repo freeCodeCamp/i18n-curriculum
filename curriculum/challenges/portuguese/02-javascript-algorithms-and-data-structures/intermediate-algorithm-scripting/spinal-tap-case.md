@@ -8,7 +8,7 @@ dashedName: spinal-tap-case
 
 # --description--
 
-Converta uma string transformado os espaços em hifens. Casos espinais são todas-as-palavras-minúsculas-unidas-por-traços.
+Convert a string to spinal case. Spinal case is all-lowercase-words-joined-by-dashes.
 
 # --hints--
 

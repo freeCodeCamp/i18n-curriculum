@@ -7,7 +7,7 @@ dashedName: step-33
 
 # --description--
 
-テキストコンテンツがはみ出すことを防ぐため、`span[class~="sr-only"]` セレクターの `overflow` プロパティを `hidden` に、`white-space` プロパティを `nowrap` に設定してください。
+To prevent the text content from overflowing, give your `span[class~="sr-only"]` selector an `overflow` property set to `hidden` and a `white-space` property set to `nowrap`.
 
 # --hints--
 

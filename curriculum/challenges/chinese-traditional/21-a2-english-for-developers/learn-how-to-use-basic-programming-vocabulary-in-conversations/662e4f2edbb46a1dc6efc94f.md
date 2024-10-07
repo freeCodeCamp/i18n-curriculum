@@ -1,6 +1,6 @@
 ---
 id: 662e4f2edbb46a1dc6efc94f
-title: Task 36
+title: 任務 36
 challengeType: 22
 dashedName: task-36
 ---

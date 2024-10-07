@@ -9,7 +9,7 @@ dashedName: change-the-position-of-overlapping-elements-with-the-z-index-propert
 
 # --description--
 
-Wenn Elemente so positioniert werden, dass sie sich überlappen (d. h. mit `position: absolute | relative | fixed | sticky`), erscheint das Element, das im HTML-Markup später kommt, standardmäßig über den anderen Elementen. Mit der Eigenschaft `z-index` kann jedoch die Reihenfolge festgelegt werden, in der die Elemente übereinander gestapelt werden. Er muss eine Integerzahl sein (d. h. eine ganze Zahl und keine Dezimalzahl). Höhere Werte für die `z-index`-Eigenschaft eines Elements verschieben es im Stapel höher als solche mit niedrigeren Werten.
+When elements are positioned to overlap (i.e. using `position: absolute | relative | fixed | sticky`), the element coming later in the HTML markup will, by default, appear on the top of the other elements. However, the `z-index` property can specify the order of how elements are stacked on top of one another. It must be an integer (i.e. a whole number and not a decimal), and higher values for the `z-index` property of an element move it higher in the stack than those with lower values.
 
 # --instructions--
 

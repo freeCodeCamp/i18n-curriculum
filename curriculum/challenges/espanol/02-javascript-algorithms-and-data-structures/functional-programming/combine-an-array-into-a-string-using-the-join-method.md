@@ -8,9 +8,9 @@ dashedName: combine-an-array-into-a-string-using-the-join-method
 
 # --description--
 
-El método `join` se utiliza para unir los elementos de un arreglo creando una cadena de texto. Se necesita un argumento para especificar el delimitador a utilizar para separar los elementos del arreglo en la cadena.
+The `join` method is used to join the elements of an array together to create a string. It takes an argument for the delimiter that is used to separate the array elements in the string.
 
-Aquí hay un ejemplo:
+Por ejemplo:
 
 ```js
 const arr = ["Hello", "World"];

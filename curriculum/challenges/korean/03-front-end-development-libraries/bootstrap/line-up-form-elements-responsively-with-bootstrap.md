@@ -13,7 +13,7 @@ dashedName: line-up-form-elements-responsively-with-bootstrap
 
 # --description--
 
-이제 `input`폼과 제출 `button`을 같은 줄에 배치하려고 합니다. 이전과 동일한 방식을 사용하면 됩니다. 즉, `row` 클래스를 가진 `div` 요소와, 그 안에 들어있는 `col-xs-*` 클래스를 가진 `div` 요소들을 사용할 것입니다.
+Now let's get your form `input` and your submission `button` on the same line. We'll do this the same way we have previously: by using a `div` element with the class `row`, and other `div` elements within it using the `col-xs-*` class.
 
 `row`라는 클래스를 가진 `div` 요소 하위에, 폼 요소의 텍스트 `input`과 제출 `button`을 배치해주세요. 그 텍스트 `input`을 `col-xs-7`라는 클래스를 가진 `div` 요소로 감싸주세요. 제출 `button`은 `col-xs-5`라는 클래스를 가진 `div` 요소로 감싸주세요.
 

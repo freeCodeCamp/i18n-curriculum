@@ -9,7 +9,7 @@ dashedName: use-the-css-transform-property-skewx-to-skew-an-element-along-the-x-
 
 # --description--
 
-A próxima função da propriedade `transform` é `skewX()`, que inclina o elemento selecionado ao longo de seu eixo X (horizontal) em um determinado grau.
+The next function of the `transform` property is `skewX()`, which skews the selected element along its X (horizontal) axis by a given degree.
 
 O código a seguir inclina o elemento de parágrafo em -32 graus ao longo do eixo X.
 

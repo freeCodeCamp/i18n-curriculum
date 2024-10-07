@@ -8,7 +8,7 @@ dashedName: add-inline-styling-to-elements
 
 # --description--
 
-D3 дозволяє додати вбудовані стилі CSS до динамічних елементів за допомогою методу `style()`.
+D3 lets you add inline CSS styles on dynamic elements with the `style()` method.
 
 Метод `style()` приймає пару ключ-значення, розділену комами, як аргумент. Ось приклад, як змінити колір тексту вибірки на блакитний:
 

@@ -8,11 +8,11 @@ dashedName: map-the-debris
 
 # --description--
 
-ケプラーの第 3 法則によれば、円軌道または楕円軌道で互いに周回している 2 つの質点の軌道周期 $T$ は次のように表されます:
+According to Kepler's Third Law, the orbital period $T$ of two point masses orbiting each other in a circular or elliptic orbit is:
 
 $$ T = 2 \pi \sqrt{\frac{a^{3}}{\mu}} $$
 
-- $a$ は軌道長半径です
+- $a$ is the orbit's semi-major axis
 - $μ = GM$ は標準重力パラメータです
 - $G$ は万有引力定数であり、
 - $M$ はより大きい方の天体の質量です。

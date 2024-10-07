@@ -1,6 +1,6 @@
 ---
 id: 587d7dbf367417b2b2512bbb
-title: Apply a Style Until a Condition is Met with @while
+title: '@while로 조건 충족하는 동안 스타일 적용하기'
 challengeType: 0
 forumTopicId: 301454
 dashedName: apply-a-style-until-a-condition-is-met-with-while
@@ -10,7 +10,7 @@ dashedName: apply-a-style-until-a-condition-is-met-with-while
 
 The `@while` directive is an option with similar functionality to the JavaScript `while` loop. It creates CSS rules until a condition is met.
 
-The `@for` challenge gave an example to create a simple grid system. This can also work with `@while`.
+`@for` 도전으로 간단한 그리드(grid) 시스템을 만드는 예시를 알아봤습니다. `@while`로도 가능합니다.
 
 ```scss
 $x: 1;
@@ -20,59 +20,59 @@ $x: 1;
 }
 ```
 
-First, define a variable `$x` and set it to 1. Next, use the `@while` directive to create the grid system *while* `$x` is less than 13. After setting the CSS rule for `width`, `$x` is incremented by 1 to avoid an infinite loop.
+우선, 변수 `$x`를 1로 설정합니다. 그런 다음 `$x`가 13보다 작을 동안(*while*) `@while`문을 사용해서 그리드 시스템을 만듭니다. `width`에 대한 CSS 규칙을 정하고나서, 무한 루프를 피하기 위해 `$x`를 1만큼 증가시킵니다.
 
 # --instructions--
 
-Use `@while` to create a series of classes with different `font-sizes`.
+`@while` 문을 사용해서 클래스마다 다른 `font-sizes`를 만들어보세요.
 
-There should be 5 different classes from `text-1` to `text-5`. Then set `font-size` to `15px` multiplied by the current index number. Make sure to avoid an infinite loop!
+`text-1` 부터 `text-5` 까지 5개의 다른 클래스가 있어야 합니다. 그런 다음 `font-size`를 `15px`에 현재 인덱스 숫자를 곱한 값으로 설정합니다. 무한 루프를 벗어나야 합니다!
 
 # --hints--
 
-Your code should use the `@while` directive.
+`@while` 문을 사용해야 합니다.
 
 ```js
 assert(code.match(/@while /g));
 ```
 
-Your code should use an index variable which starts at an index of 1.
+1부터 시작하는 인덱스 변수를 사용해야 합니다.
 
 ```js
 assert(code.match(/\$.*:\s*?1;/gi));
 ```
 
-Your code should increment the counter variable.
+인덱스 변수를 증가시켜야 합니다.
 
 ```js
 assert(code.match(/\$(.*)\s*?:\s*\$\1\s*\+\s*1\s*;/gi));
 ```
 
-Your `.text-1` class should have a `font-size` of `15px`.
+`.text-1` 클래스의 `font-size`는 `15px` 이어야 합니다.
 
 ```js
 assert($('.text-1').css('font-size') == '15px');
 ```
 
-Your `.text-2` class should have a `font-size` of `30px`.
+`.text-2` 클래스의 `font-size`는 `30px` 이어야 합니다.
 
 ```js
 assert($('.text-2').css('font-size') == '30px');
 ```
 
-Your `.text-3` class should have a `font-size` of `45px`.
+`.text-3` 클래스의 `font-size`는 `45px` 이어야 합니다.
 
 ```js
 assert($('.text-3').css('font-size') == '45px');
 ```
 
-Your `.text-4` class should have a `font-size` of `60px`.
+`.text-4` 클래스의 `font-size`는 `60px` 이어야 합니다.
 
 ```js
 assert($('.text-4').css('font-size') == '60px');
 ```
 
-Your `.text-5` class should have a `font-size` of `75px`.
+`.text-5` 클래스의 `font-size`는 `75px` 이어야 합니다.
 
 ```js
 assert($('.text-5').css('font-size') == '75px');

@@ -9,9 +9,9 @@ dashedName: comparison-with-the-strict-inequality-operator
 
 # --description--
 
-مشغل لا مساواة الصارمة (`!==`) هو المضاد المنطقي لمشغل المساواة الصارمة. إنه يعني "ليس متساوياً تماماً" (Strictly Not Equal) ويعيد `false` عندما تعيد المساواة الصارمة `true` و *العكس صحيح*. ولن يحول مشغِّل لا المساواة الصارمة أنواع البيانات.
+The strict inequality operator (`!==`) is the logical opposite of the strict equality operator. It means "Strictly Not Equal" and returns `false` where strict equality would return `true` and *vice versa*. The strict inequality operator will not convert data types.
 
-**على سبيل المثال**
+**مثال**
 
 ```js
 3 !==  3  // false

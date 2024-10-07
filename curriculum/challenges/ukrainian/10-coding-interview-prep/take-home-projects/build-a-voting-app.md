@@ -8,9 +8,9 @@ dashedName: build-a-voting-app
 
 # --description--
 
-Створіть повний пакет застосунку JavaScript, який функціонально схожий до цього: <a href="https://voting-app.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow"> https://voting-app.freecodecamp.rocks </a>. Для виконання проєкту використайте конструктор сайту на власний вибір.
+Build a full stack JavaScript app that is functionally similar to this: <a href="https://voting-app.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://voting-app.freecodecamp.rocks/</a>. Use a site builder of your choice to complete the project.
 
-Тут наведено конкретні історії користувача, які варто імплементувати в даний проєкт:
+Тут наведено конкретні історії користувача, які варто реалізувати в даному проєкті:
 
 **Історія користувача:** як авторизований користувач, ви можете зберігати свої опитування та повертатися до них пізніше.
 

@@ -9,7 +9,7 @@ dashedName: create-a-more-complex-shape-using-css-and-html
 
 # --description--
 
-世界上最流行的形狀非心形莫屬了，在本挑戰中我們將用純 CSS 創建一個心形。 但是首先你需要了解僞元素 `::before` 和 `::after`。 `::before` 創建一個僞元素，它是所選元素的第一個子元素； `::after` 創建一個僞元素，它是所選元素的最後一個子元素。 在下面的代碼中，`::before` 僞元素用來給 class 爲 `heart` 的元素添加一個正方形：
+One of the most popular shapes in the world is the heart shape, and in this challenge you'll create one using pure CSS. But first, you need to understand the `::before` and `::after` pseudo-elements. `::before` creates a pseudo-element that is the first child of the selected element; `::after` creates a pseudo-element that is the last child of the selected element. In the following example, a `::before` pseudo-element is used to add a rectangle to an element with the class `heart`:
 
 ```css
 .heart::before {

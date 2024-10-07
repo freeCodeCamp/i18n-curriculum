@@ -8,7 +8,7 @@ dashedName: reverse-a-string
 
 # --description--
 
-Inverta a string fornecida e retorne-a com a inversão.
+Reverse the provided string and return the reversed string.
 
 Por exemplo, `"hello"` deve se tornar `"olleh"`.
 

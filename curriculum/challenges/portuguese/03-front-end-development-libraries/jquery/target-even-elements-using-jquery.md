@@ -11,7 +11,7 @@ dashedName: target-even-elements-using-jquery
 
 # --description--
 
-Você também pode ter como alvo elementos baseados em suas posições usando os seletores `:odd` ou `:even`.
+You can also target elements based on their positions using `:odd` or `:even` selectors.
 
 Note que jQuery é indexado a zero, o que significa que o primeiro elemento em uma seleção tem a posição 0. Isso pode ser um pouco confuso, pois, contraintuitivamente, `:odd` seleciona o segundo elemento (position1), fourth element (position 3) e assim por diante.
 

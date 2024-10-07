@@ -7,9 +7,9 @@ dashedName: working-with-text-lesson-g
 
 # --description--
 
-HTML comments are not visible to the browser; they allow us to comment on your code so that other developers or your future selves can read them and get some context about something that might not be clear in the code.
+I commenti HTML non sono visibili al browser; ci permettono di commentare il codice in modo che altri sviluppatori o il futuro te possano leggerli e avere del contesto su qualcosa che potrebbe non essere chiaro nel codice.
 
-Writing an HTML comment is simple: You just enclose the comment with `<!--` and `-->`tags. For example:
+Scrivere un commento HTML è semplice: racchiudi semplicemente il commento tra i tag `<!--` e `-->`. Ad esempio:
 
 ```html
 <h1> View the html to see the hidden comments </h1>
@@ -23,13 +23,13 @@ Writing an HTML comment is simple: You just enclose the comment with `<!--` and 
 
 # --assignment--
 
-To get some practice working with text in HTML, create a plain blog article page which uses different headings, uses paragraphs, and has some text in the paragraphs bolded and italicized. You can use [Lorem Ipsum](https://loremipsum.io) to generate dummy text, in place of real text as you build your sites.
+Per fare un po' di lavoro pratico con del testo in HTML, crea una semplice pagina di un articolo di blog che fa uso di diverse intestazioni, paragrafi e di testo in grassetto e in corsivo. Mentre costruisci i tuoi siti puoi usare [Lorem Ipsum](https://loremipsum.io) per generare del testo fittizio al posto del testo reale.
 
 # --questions--
 
 ## --text--
 
-How do you create HTML comments?
+Come si creano i commenti in HTML?
 
 ## --answers--
 

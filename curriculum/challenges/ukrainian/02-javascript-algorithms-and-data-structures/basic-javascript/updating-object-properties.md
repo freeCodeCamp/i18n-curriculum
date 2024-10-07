@@ -9,7 +9,7 @@ dashedName: updating-object-properties
 
 # --description--
 
-Після створення об’єкта JavaScript ви можете будь-коли оновити його властивості так само, як оновлювали б будь-яку іншу змінну. Для оновлення можна використати точкову або дужкову нотацію.
+After you've created a JavaScript object, you can update its properties at any time just like you would update any other variable. You can use either dot or bracket notation to update.
 
 Наприклад, погляньмо на `ourDog`:
 

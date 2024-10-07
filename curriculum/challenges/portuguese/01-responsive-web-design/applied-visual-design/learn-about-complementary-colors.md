@@ -9,7 +9,7 @@ dashedName: learn-about-complementary-colors
 
 # --description--
 
-A teoria da cor e seu impacto no design é um tópico profundo e apenas o básico será abordado nos próximos desafios. Em um site, a cor pode chamar a atenção para o conteúdo, despertar emoções ou criar harmonia visual. Usar diferentes combinações de cores pode realmente mudar a aparência de um site, e pode ser necessário dedicar um bom tempo para escolher uma paleta de cores que combine com o conteúdo.
+Color theory and its impact on design is a deep topic and only the basics are covered in the following challenges. On a website, color can draw attention to content, evoke emotions, or create visual harmony. Using different combinations of colors can really change the look of a website, and a lot of thought can go into picking a color palette that works with your content.
 
 O círculo cromático é uma ferramenta útil para visualizar como as cores se relacionam umas com as outras - é um círculo onde cores semelhantes são vizinhas e cores diferentes estão mais afastadas. Quando duas cores estão em lados opostas na roda, elas são chamadas de cores complementares. Elas têm a característica de que, quando combinadas, se "cancelam" e criam uma cor cinza. No entanto, quando colocadas lado a lado, essas cores parecem mais vibrantes e produzem um forte contraste visual.
 

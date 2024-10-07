@@ -8,7 +8,7 @@ dashedName: use-a-pre-defined-scale-to-place-elements
 
 # --description--
 
-Маючи встановлені шкали, прийшов час знову скласти точкову діаграму. Шкали схожі на функції обробки, які перетворюють необроблені дані `x` та `y` на значення, які підходять і правильно відтворюються на SVG. Вони зберігають дані в межах накресленої площини екрана.
+With the scales set up, it's time to map the scatter plot again. The scales are like processing functions that turn the `x` and `y` raw data into values that fit and render correctly on the SVG. They keep the data within the screen's plotting area.
 
 Значення атрибута координати для фігури SVG встановлюють за допомогою функції масштабування. Сюди входять атрибути `x` та `y` для елементів `rect` чи `text`, або `cx` та `cy` для `circles`. Ось приклад:
 

@@ -8,7 +8,7 @@ dashedName: understand-bcrypt-hashes
 
 # --description--
 
-在下面的挑戰中，你將啓動一個新的項目，這個項目與之前的項目不同。 You can find the new starter project on <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-bcrypt/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>, or clone it from <a href="https://github.com/freeCodeCamp/boilerplate-bcrypt/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
+For the following challenges, you will be working with a new starter project that is different from the previous one. You can find the new starter project on <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-bcrypt/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>, or clone it from <a href="https://github.com/freeCodeCamp/boilerplate-bcrypt/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
 
 BCrypt 哈希值是非常安全的。 哈希值基本上是原始數據的指紋，總是唯一的。 這是通過將原始數據輸入一個算法並返回一個固定長度的結果來實現的。 爲了使這一過程更加複雜和安全，你還可以向你的哈希值 *加鹽*。 對你的哈希加鹽處理包含了在哈希過程之前向原始數據添加隨機數據，這使得破解哈希更加困難。
 
@@ -20,7 +20,7 @@ BCrypt 哈希值類似 `$2a$13$ZyprE5MRw2Q3WpNOGZWGbeG7ADUre1Q8QO.uUUtcbqloU0yvz
 
 BCrypt 已經被添加爲一個依賴項，所以在你的服務器中請求它爲 `bcrypt`。
 
-請在完成挑戰後提交你的頁面。
+當你認爲你已經得到了它的權利時，提交你的頁面。
 
 # --hints--
 

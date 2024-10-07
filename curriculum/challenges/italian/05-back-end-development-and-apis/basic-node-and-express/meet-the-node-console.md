@@ -8,17 +8,17 @@ dashedName: meet-the-node-console
 
 # --description--
 
-Lavorare su queste sfide ti porterà a scrivere il tuo codice utilizzando uno dei seguenti metodi:
+Working on these challenges will involve you writing your code using one of the following methods:
 
-- Clonare <a href="https://github.com/freeCodeCamp/boilerplate-express/" target="_blank" rel="noopener noreferrer nofollow">questo repository GitHub</a> e completare queste sfide localmente.
+- Clone <a href="https://github.com/freeCodeCamp/boilerplate-express/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete these challenges locally.
 - Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-express/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete these challenges.
 - Usare un costruttore di siti di tua scelta per completare il progetto. Assicurati di incorporare tutti i file del nostro repository GitHub.
 
-Durante il processo di sviluppo, è importante essere in grado di controllare cosa sta succedendo nel tuo codice.
+During the development process, it is important to be able to check what’s going on in your code.
 
-Node è solo un ambiente JavaScript. Come per il JavaScript lato client, puoi usare la console per visualizzare utili informazioni di debug. Sulla tua macchina locale, vedrai l'output della console in un terminale. On Gitpod, a terminal is open at the bottom of the editor by default.
+Node is just a JavaScript environment. Like client side JavaScript, you can use the console to display useful debug information. On your local machine, you would see console output in a terminal. On Gitpod, a terminal is open at the bottom of the editor by default.
 
-Ti consigliamo di mantenere il terminale aperto mentre lavori a queste sfide. Leggendo l'output nel terminale, potrai vedere eventuali errori.
+We recommend to keep the terminal open while working at these challenges. By reading the output in the terminal, you can see any errors that may occur.
 
 The server must be restarted after making changes to its files.
 
@@ -30,11 +30,11 @@ To implement server auto restarting on file save Node provides the `--watch` fla
 
 # --instructions--
 
-Modifica il file `myApp.js` per scrivere "Hello World" nella console.
+Modify the `myApp.js` file to log "Hello World" to the console.
 
 # --hints--
 
-`"Hello World"` dovrebbe essere visualizzato nella console
+`"Hello World"` should be in the console
 
 ```js
 (getUserInput) =>

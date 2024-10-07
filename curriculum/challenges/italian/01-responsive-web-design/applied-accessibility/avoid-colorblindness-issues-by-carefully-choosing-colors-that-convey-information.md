@@ -11,7 +11,7 @@ dashedName: >-
 
 # --description--
 
-Ci sono diverse forme di daltonismo. Queste forme vanno dalla ridotta sensibilità ad alcune lunghezze d'onda della luce alla totale incapacità di vedere i colori. La forma più comune è una ridotta sensibilità nel rilevare il colore verde.
+There are various forms of colorblindness. These can range from a reduced sensitivity to a certain wavelength of light to the inability to see color at all. The most common form is a reduced sensitivity to detect greens.
 
 Per esempio, se il colore in primo piano e il colore di sfondo sono due verdi simili, un utente daltonico potrebbe non essere in grado di distinguerli. I colori simili sono quelli vicini nel cerchio dei colori, e il loro uso dovrebbe essere evitato quando si comunicano informazioni importanti.
 

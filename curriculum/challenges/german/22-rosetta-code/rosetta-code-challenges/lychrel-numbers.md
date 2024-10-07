@@ -9,12 +9,12 @@ dashedName: lychrel-numbers
 # --description--
 
 <ol>
-  <li>Take an integer <code>n₀</code>, greater than zero.</li>
+  <li>Nimm eine Ganzzahl <code>n₀</code>, größer als Null.</li>
   <li>Bilde die nächste Zahl <code>n</code> der Reihe, indem du <code>n₀</code> umdrehst und zu <code>n₀</code> hinzufügst</li>
   <li>Stopp, wenn <code>n</code> es palindromisch wird - d.h. die Ziffern von <code>n</code> in == <code>n</code>.</li>
 </ol>
 
-The above recurrence relation when applied to most starting numbers `n` = 1, 2, ... terminates in a palindrome quite quickly.
+Die obere Rekursionsrelation endet, wenn sie auf die meisten Ausgangszahlen `n` = 1, 2, ... angewendet wird, recht schnell in einem Palindrom.
 
 Zum Beispiel, wenn `n₀` = 12 erhalten wir:
 

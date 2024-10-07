@@ -8,7 +8,7 @@ dashedName: create-a-module-script
 
 # --description--
 
-起初，JavaScript 幾乎只在 HTML web 扮演一個很小的角色。 今天，一切不同了，很多網站幾乎全是用 JavaScript 所寫。 爲了讓 JavaScript 更模塊化、更整潔以及更易於維護，ES6 引入了在多個 JavaScript 文件之間共享代碼的機制。 它可以導出文件的一部分供其它文件使用，然後在需要它的地方按需導入。 爲了使用這一功能， 需要在 HTML 文檔裏創建一個 `type` 爲 `module` 的腳本。 例子如下：
+JavaScript started with a small role to play on an otherwise mostly HTML web. Today, it’s huge, and some websites are built almost entirely with JavaScript. In order to make JavaScript more modular, clean, and maintainable; ES6 introduced a way to easily share code among JavaScript files. This involves exporting parts of a file for use in one or more other files, and importing the parts you need, where you need them. In order to take advantage of this functionality, you need to create a script in your HTML document with a `type` of `module`. Here’s an example:
 
 ```html
 <script type="module" src="filename.js"></script>

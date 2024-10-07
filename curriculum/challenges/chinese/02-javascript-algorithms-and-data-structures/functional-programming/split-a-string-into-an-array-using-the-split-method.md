@@ -8,7 +8,7 @@ dashedName: split-a-string-into-an-array-using-the-split-method
 
 # --description--
 
-`split` 方法将一个字符串分割成一个字符串数组。 它需要一个参数作为分隔符，它可以是用于拆分字符串或正则表达式的一个字符。 举个例子，如果分隔符是空格，你会得到一个单词数组；如果分隔符是空字符串，你会得到一个由字符串中每个字符组成的数组。
+The `split` method splits a string into an array of strings. It takes an argument for the delimiter, which can be a character to use to break up the string or a regular expression. For example, if the delimiter is a space, you get an array of words, and if the delimiter is an empty string, you get an array of each character in the string.
 
 下面是两个用空格分隔一个字符串的例子，另一个是用数字的正则表达式分隔：
 

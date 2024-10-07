@@ -8,7 +8,7 @@ dashedName: set-default-parameters-for-your-functions
 
 # --description--
 
-من أجل مساعدتنا في إنشاء وظائف (functions) أكثر مرونة، يوفر ES6 أمكانية وضع <dfn>وسائط أفتراضية (default parameters)</dfn> إلى الوظائف (functions).
+In order to help us create more flexible functions, ES6 introduces <dfn>default parameters</dfn> for functions.
 
 تحقق من هذا الكود:
 

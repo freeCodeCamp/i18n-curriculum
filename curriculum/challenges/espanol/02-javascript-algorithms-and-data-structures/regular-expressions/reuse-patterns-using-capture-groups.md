@@ -8,7 +8,7 @@ dashedName: reuse-patterns-using-capture-groups
 
 # --description--
 
-Digamos que quieres hacer coincidir una palabra que aparece varias veces como la siguiente.
+Say you want to match a word that occurs multiple times like below.
 
 ```js
 let repeatStr = "row row row your boat";

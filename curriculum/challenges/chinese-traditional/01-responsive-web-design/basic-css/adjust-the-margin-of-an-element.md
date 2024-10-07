@@ -9,7 +9,7 @@ dashedName: adjust-the-margin-of-an-element
 
 # --description--
 
-外邊距 `margin` 用來控制元素的邊框與其他元素之間的 `border` 距離。
+An element's `margin` controls the amount of space between an element's `border` and surrounding elements.
 
 在這裏，我們可以看到藍色框和紅色框都在黃色框裏。 請注意，紅色框的 `margin` 值要比藍色框的大，因此紅色框看起來比藍色框要小。
 

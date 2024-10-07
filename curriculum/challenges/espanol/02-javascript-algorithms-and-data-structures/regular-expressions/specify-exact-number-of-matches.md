@@ -8,7 +8,7 @@ dashedName: specify-exact-number-of-matches
 
 # --description--
 
-Puedes especificar el número inferior y superior de patrones mediante especificadores de cantidad utilizando llaves. A veces solo quieres un número específico de coincidencias.
+You can specify the lower and upper number of patterns with quantity specifiers using curly brackets. Sometimes you only want a specific number of matches.
 
 Para especificar un cierto número de patrones, simplemente pon ese número entre corchetes.
 
@@ -32,7 +32,7 @@ Modifica la expresión regular `timRegex` para hacer coincidir con la palabra `T
 
 # --hints--
 
-La expresión regular debe utilizar corchetes.
+La expresión regular debe utilizar llaves.
 
 ```js
 assert(timRegex.source.match(/{.*?}/).length > 0);

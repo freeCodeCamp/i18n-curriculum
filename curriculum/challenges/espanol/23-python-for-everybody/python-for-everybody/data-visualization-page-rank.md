@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: data-visualization-page-rank
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-How does the PageRank algorithm work?
+¿Cómo funciona el algoritmo PageRank?
 
 ## --answers--
 

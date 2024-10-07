@@ -7,7 +7,7 @@ dashedName: step-47
 
 # --description--
 
-Weka vipengele vya `.face` ili viwe `15%` kutoka juu.
+Position the `.face` elements so that they are `15%` from the top.
 
 # --hints--
 

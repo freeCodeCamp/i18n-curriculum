@@ -9,7 +9,7 @@ dashedName: multiply-two-decimals-with-javascript
 
 # --description--
 
-في JavaScript، يمكنك أيضًا إجراء حسابات بأرقام عشرية، تماما مثل الأرقام صحيحة.
+In JavaScript, you can also perform calculations with decimal numbers, just like whole numbers.
 
 دعونا نضرب عددين عشريين معًا لنحصل على حاصل ضربهما.
 

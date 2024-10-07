@@ -1,13 +1,13 @@
 ---
 id: 5efae0543cbd2bbdab94e333
-title: 步驟 30
+title: 第 30 步
 challengeType: 0
 dashedName: step-30
 ---
 
 # --description--
 
-爲了提高你剛剛添加的圖像的可訪問性，添加具有以下文本的 `alt` 屬性。
+To improve accessibility of the image you added, add an `alt` attribute with the text:
 
 `Five cats looking around a field.`
 
@@ -19,7 +19,7 @@ dashedName: step-30
 assert(document.querySelectorAll('figure').length === 2);
 ```
 
-你的 `figure` 元素應該有一個結束標籤。 結束標籤在 `<` 字符之後有一個 `/`。
+你的 `figure` 元素應該有一個結束標籤。 結束標籤在 `<` 字符後面要有一個 `/`。
 
 ```js
 assert(code.match(/<\/figure>/g).length === 2);

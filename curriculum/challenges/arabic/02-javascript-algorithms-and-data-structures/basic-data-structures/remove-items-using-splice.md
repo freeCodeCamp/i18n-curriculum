@@ -8,7 +8,7 @@ dashedName: remove-items-using-splice
 
 # --description--
 
-حسنًا، لقد تعلمنا كيفية إزالة العناصر من بداية ونهاية arrays باستخدام `shift()` و `pop()`، ولكن ماذا لو أردت إزالة عنصر من مكان ما في المنتصف؟ أم إزالة أكثر من عنصر واحد في المرة الواحدة؟ هنا يأتي دور `splice()`. `splice()` تسمح لنا بالقيام بما يلي: **إزالة أي عدد من العناصر المتتالية** من أي مكان في array.
+Ok, so we've learned how to remove elements from the beginning and end of arrays using `shift()` and `pop()`, but what if we want to remove an element from somewhere in the middle? Or remove more than one element at once? Well, that's where `splice()` comes in. `splice()` allows us to do just that: **remove any number of consecutive elements** from anywhere in an array.
 
 يمكن أن يأخذ `splice()` ما يصل من 3 وسائط (parameters)، ولكن في الوقت الحالي، سنركز على أول 2. يكون أول ثاني وسائط في `splice()` أعداد صحيحة تمثل ترتيب (indexes) العناصر، أو أماكن العناصر في قائمة (array) الذي `splice()` تم تفعيلها. وتذكر أن arrays هم *zero-indexed*، بحيث لنشير إلى العنصر الأول في array، سوف تستخدم `0`. يمثل أول وسيط في `splice()` الترتيب (index) في قائمة التي تبدأ منها إزالة العناصر، بينما الوسيط الثاني يشير إلى عدد العناصر المراد حذفها. على سبيل المثال:
 

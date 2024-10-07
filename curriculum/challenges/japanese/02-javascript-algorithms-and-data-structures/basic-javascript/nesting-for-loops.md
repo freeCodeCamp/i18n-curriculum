@@ -9,7 +9,7 @@ dashedName: nesting-for-loops
 
 # --description--
 
-多次元配列を処理する場合、前に学習した同じロジックを使用して、配列とサブ配列の両方をループ処理することができます。 例:
+If you have a multi-dimensional array, you can use the same logic as the prior waypoint to loop through both the array and any sub-arrays. Here is an example:
 
 ```js
 const arr = [

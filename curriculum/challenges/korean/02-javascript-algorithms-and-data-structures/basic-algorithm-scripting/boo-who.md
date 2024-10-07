@@ -8,7 +8,7 @@ dashedName: boo-who
 
 # --description--
 
-값이 불리언(boolean) 원시 값으로 분류되는지 확인해보세요. `true` 또는 `false`를 반환합니다.
+Check if a value is classified as a boolean primitive. Return `true` or `false`.
 
 불리언 원시 값의 종류로는 `true`와 `false`가 있습니다.
 

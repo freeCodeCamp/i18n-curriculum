@@ -20,7 +20,7 @@ Complete o módulo <a href="https://learn.microsoft.com/training/modules/csharp-
 
 ## --text--
 
-Qual das linhas de código abaixo é um uso válido do operador condicional?
+Which of the following lines of code is a valid use of the conditional operator?
 
 ## --answers--
 

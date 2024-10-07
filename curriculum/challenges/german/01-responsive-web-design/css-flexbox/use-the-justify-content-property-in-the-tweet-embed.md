@@ -9,7 +9,7 @@ dashedName: use-the-justify-content-property-in-the-tweet-embed
 
 # --description--
 
-In der letzten Aufgabe wurde ein Beispiel für die Eigenschaft `justify-content` gezeigt. Bei der Tweet-Einbettung kann diese Eigenschaft angewendet werden, um die Elemente im Element `.profile-name` auszurichten.
+The last challenge showed an example of the `justify-content` property. For the tweet embed, this property can be applied to align the items in the `.profile-name` element.
 
 # --instructions--
 
@@ -17,7 +17,7 @@ Füge die CSS-Eigenschaft `justify-content` zum `.profile-name`-Element der Kopf
 
 # --hints--
 
-Dein `.follow-btn` sollte auf der Seite dargestellt werden. Stelle sicher, dass Add-ons wie Ad-Blocker deaktiviert sind.
+Dein `.follow-btn` sollte auf der Seite gerendert werden. Stelle sicher, dass Add-ons wie Ad-Blocker deaktiviert sind.
 
 ```js
 assert($('.follow-btn').length > 0 && $('.follow-btn').css('display') !== 'none');

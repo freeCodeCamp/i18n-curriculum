@@ -1,6 +1,6 @@
 ---
 id: 587d78a8367417b2b2512ae3
-title: Animate Elements Continually Using an Infinite Animation Count
+title: تحريك العناصر بصورة مستمرة باستخدام عدّادّ تحريك لانهائي
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cVJDVfq'
 forumTopicId: 301041
@@ -9,21 +9,21 @@ dashedName: animate-elements-continually-using-an-infinite-animation-count
 
 # --description--
 
-The previous challenges covered how to use some of the animation properties and the `@keyframes` rule. Another animation property is the `animation-iteration-count`, which allows you to control how many times you would like to loop through the animation. Here's an example:
+The previous challenges covered how to use some of the animation properties and the `@keyframes` rule. Another animation property is the `animation-iteration-count`, which allows you to control how many times you would like to loop through the animation. إليك مثال:
 
 ```css
 animation-iteration-count: 3;
 ```
 
-In this case the animation will stop after running 3 times, but it's possible to make the animation run continuously by setting that value to `infinite`.
+فى هذى الحالة ستتوقف الرسوم المتحركة بعد أن تشتغل 3 مرات , و لكن من الممكن جعل الرسوم تشتغل باستمرار بضبط تلك القيمة على  `infinite` .
 
 # --instructions--
 
-To keep the ball bouncing on the right on a continuous loop, change the `animation-iteration-count` property to `infinite`.
+للحفاظ على ارتداد الكرة على اليمين في حلقة مستمرة ، غَير خاصية `animation-iteration-count` إلى `infinite` .
 
 # --hints--
 
-The `animation-iteration-count` property should have a value of `infinite`.
+الخاصية `animation-iteration-count` يجب أن تحوى قيمة `infinite` .
 
 ```js
 const ballElement = document.querySelector('#ball');

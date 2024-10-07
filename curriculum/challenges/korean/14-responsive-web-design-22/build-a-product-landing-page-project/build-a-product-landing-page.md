@@ -1,6 +1,6 @@
 ---
 id: 587d78af367417b2b2512b04
-title: Build a Product Landing Page
+title: 제품 랜딩 페이지 만들기
 challengeType: 14
 forumTopicId: 301144
 dashedName: build-a-product-landing-page
@@ -10,87 +10,87 @@ dashedName: build-a-product-landing-page
 
 **Objective:** Build an app that is functionally similar to <a href="https://product-landing-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://product-landing-page.freecodecamp.rocks</a>. **Do not copy this demo project**.
 
-**User Stories:**
+**유저 스토리:**
 
 1. Your product landing page should have a `header` element with a corresponding `id="header"`
-1. You can see an image within the `header` element with a corresponding `id="header-img"` (A logo would make a good image here)
-1. Within the `#header` element, you can see a `nav` element with a corresponding `id="nav-bar"`
-1. You can see at least three clickable elements inside the `nav` element, each with the class `nav-link`
-1. When you click a `.nav-link` button in the `nav` element, you are taken to the corresponding section of the landing page
-1. You can watch an embedded product video with `id="video"`
-1. Your landing page has a `form` element with a corresponding `id="form"`
-1. Within the form, there is an `input` field with `id="email"` where you can enter an email address
-1. The `#email` input field should have placeholder text to let users know what the field is for
-1. The `#email` input field uses HTML5 validation to confirm that the entered text is an email address
-1. Within the form, there is a submit `input` with a corresponding `id="submit"`
-1. When you click the `#submit` element, the email is submitted to a static page (use this mock URL: `https://www.freecodecamp.com/email-submit`)
-1. The navbar should always be at the top of the viewport
-1. Your product landing page should have at least one media query
-1. Your product landing page should utilize CSS flexbox at least once
+1. `<header>` 요소 내에 있는 `id="header-img"`에 해당하는 이미지를 볼 수 있습니다. (여기에는 로고 이미지가 적합합니다.)
+1. `#header` 요소 안에 `id="nav-bar"`에 해당하는 `nav` 요소를 볼 수 있습니다.
+1. `nav` 요소 안에 클래스가 `nav-link`인 클릭할 수 있는 요소가 최소 세 개 있습니다.
+1. `nav` 요소 안에 있는 `.nav-link` 버튼을 클릭하면, 랜딩 페이지의 해당 섹션으로 이동하게 됩니다.
+1. `id="video"`인 제품 비디오를 임베드된 상태로 시청할 수 있습니다.
+1. 당신의 랜딩 페이지에는 `id="form"`에 해당하는 `form` 요소가 있습니다.
+1. 폼 안에는 `id="email"`인 `input` 필드가 있어서 이메일 주소를 입력할 수 있습니다.
+1. `#email` 입력 필드에는 사용자가 필드의 용도를 알 수 있도록 placeholder 텍스트가 있어야 합니다.
+1. `#email` 입력 필드는 HTML5 검증을 사용하여 입력된 텍스트가 이메일 주소인지 확인합니다.
+1. 폼 안에는 `id="submit"`인 제출 `input` 요소가 있습니다.
+1. 당신이 `#submit` 요소를 클릭하면 이메일이 정적 페이지(이 모의 URL을 사용하세요: `https://www.freecodecamp.com/email-submit`)로 제출됩니다.
+1. 내비게이션 바는 항상 뷰포트의 상단에 있어야 합니다.
+1. 당신의 제품 랜딩 페이지에는 최소한 하나의 미디어 쿼리가 있어야 합니다.
+1. 당신의 제품 랜딩 페이지는 최소한 한 번 이상 CSS 플렉스박스를 사용해야 합니다.
 
-Fulfill the user stories and pass all the tests below to complete this project. Give it your own personal style. Happy Coding!
+아래의 사용자 스토리를 충족시키고 모든 테스트를 통과하여 이 프로젝트를 완료하세요. 자신만의 개성을 담아 디자인을 꾸며보세요. 즐거운 코딩 하세요!
 
-**Note:** Be sure to add `<link rel="stylesheet" href="styles.css">` in your HTML to link your stylesheet and apply your CSS
+**참고:** 스타일시트를 연결하고 CSS를 적용하려면 HTML에 `<link rel="stylesheet" href="styles.css">`를 추가하세요.
 
 # --hints--
 
-You should have a `header` element with an `id` of `header`.
+`id`가 헤더인 `header` 요소를 포함해야 합니다.
 
 ```js
 const el = document.getElementById('header')
 assert(!!el && el.tagName === 'HEADER')
 ```
 
-You should have an `img` element with an `id` of `header-img`.
+`img` 요소에는 `header-img`라는 `id`가 있어야 합니다.
 
 ```js
 const el = document.getElementById('header-img')
 assert(!!el && el.tagName === 'IMG')
 ```
 
-Your `#header-img` should be a descendant of the `#header`.
+`#header-img`는 `#header`의 자손이어야 합니다.
 
 ```js
 const els = document.querySelectorAll('#header #header-img')
 assert(els.length > 0)
 ```
 
-Your `#header-img` should have a `src` attribute.
+`#header-img`에는 `src` 속성이 있어야 합니다.
 
 ```js
 const el = document.getElementById('header-img')
 assert(!!el && !!el.src)
 ```
 
-Your `#header-img`’s `src` value should be a valid URL (starts with `http`).
+`#header-img`의 `src` 값은 유효한 URL(즉, `http`로 시작하는) 이어야 합니다.
 
 ```js
 const el = document.getElementById('header-img')
 assert(!!el && /^http/.test(el.src))
 ```
 
-You should have a `nav` element with an `id` of `nav-bar`.
+`nav` 요소에는 `nav-bar`라는 `id`가 있어야 합니다.
 
 ```js
 const el = document.getElementById('nav-bar')
 assert(!!el && el.tagName === 'NAV')
 ```
 
-Your `#nav-bar` should be a descendant of the `#header`.
+`#nav-bar`는 `#header`의 자손이어야 합니다.
 
 ```js
 const els = document.querySelectorAll('#header #nav-bar')
 assert(els.length > 0)
 ```
 
-You should have at least 3 `.nav-link` elements within the `#nav-bar`.
+`#nav-bar` 안에 최소한 3개의 `.nav-link` 요소가 있어야 합니다.
 
 ```js
 const els = document.querySelectorAll('#nav-bar .nav-link')
 assert(els.length >= 3)
 ```
 
-Each `.nav-link` element should have an `href` attribute.
+각 `.nav-link` 요소는 `href` 속성을 가져야 합니다.
 
 ```js
 const els = document.querySelectorAll('.nav-link')
@@ -100,7 +100,7 @@ els.forEach(el => {
 assert(els.length > 0)
 ```
 
-Each `.nav-link` element should link to a corresponding element on the landing page (has an `href` with a value of another element's id. e.g. `#footer`).
+각 `.nav-link` 요소는 랜딩 페이지의 해당 요소에 연결되어야 합니다 (다른 요소의 id 값을 가진 `href` 값을 가져야 함. 예: `#footer`).
 
 ```js
 const els = document.querySelectorAll('.nav-link')
@@ -111,14 +111,14 @@ els.forEach(el => {
 assert(els.length > 0)
 ```
 
-You should have a `video` or `iframe` element with an `id` of `video`.
+`video` 또는 `iframe` 요소를 `video`라는 `id` 값으로 가져야 합니다.
 
 ```js
 const el = document.getElementById('video')
 assert(!!el && (el.tagName === 'VIDEO' || el.tagName === 'IFRAME'))
 ```
 
-Your `#video` should have a `src` attribute.
+`#video`는 `src` 속성을 가져야 합니다.
 
 ```js
 let el = document.getElementById('video')
@@ -133,77 +133,77 @@ if (sourceElement) {
 assert(el.hasAttribute('src'));
 ```
 
-You should have a `form` element with an `id` of `form`.
+`form` 요소는 `form`이라는 `id` 값을 가져야 합니다.
 
 ```js
 const el = document.getElementById('form')
 assert(!!el && el.tagName === 'FORM')
 ```
 
-You should have an `input` element with an `id` of `email`.
+`input` 요소는 `email`이라는 `id` 값을 가져야 합니다.
 
 ```js
 const el = document.getElementById('email')
 assert(!!el && el.tagName === 'INPUT')
 ```
 
-Your `#email` should be a descendant of the `#form`.
+`#email`은 `#form`의 자손이어야 합니다.
 
 ```js
 const els = document.querySelectorAll('#form #email')
 assert(els.length > 0)
 ```
 
-Your `#email` should have the `placeholder` attribute with placeholder text.
+`#email`은 placeholder 텍스트를 가진 `placeholder` 속성을 가져야 합니다.
 
 ```js
 const el = document.getElementById('email')
 assert(!!el && !!el.placeholder && el.placeholder.length > 0)
 ```
 
-Your `#email` should use HTML5 validation by setting its `type` to `email`.
+`#email`은 HTML5 유효성 검사를 사용하도록 `type`을 `email`로 설정해야 합니다.
 
 ```js
 const el = document.getElementById('email')
 assert(!!el && el.type === 'email')
 ```
 
-You should have an `input` element with an `id` of `submit`.
+`input` 요소는 `submit`이라는 `id` 값을 가져야 합니다.
 
 ```js
 const el = document.getElementById('submit')
 assert(!!el && el.tagName === 'INPUT')
 ```
 
-Your `#submit` should be a descendant of the `#form`.
+`#submit`은 `#form`의 자손이어야 합니다.
 
 ```js
 const els = document.querySelectorAll('#form #submit')
 assert(els.length > 0)
 ```
 
-Your `#submit` should have a `type` of `submit`.
+`#submit`은 `type`이 `submit`이어야 합니다.
 
 ```js
 const el = document.getElementById('submit')
 assert(!!el && el.type === 'submit')
 ```
 
-Your `#form` should have an `action` attribute of `https://www.freecodecamp.com/email-submit`.
+`#form`은 `action` 속성에 `https://www.freecodecamp.com/email-submit` 값을 가져야 합니다.
 
 ```js
 const el = document.getElementById('form')
 assert(!!el && el.action === 'https://www.freecodecamp.com/email-submit')
 ```
 
-Your `#email` should have a `name` attribute of `email`.
+`#email`은 `name` 속성에 `email` 값을 가져야 합니다.
 
 ```js
 const el = document.getElementById('email')
 assert(!!el && el.name === 'email')
 ```
 
-Your `#nav-bar` should always be at the top of the viewport.
+`#nav-bar`은 항상 뷰포트의 상단에 위치해야 합니다.
 
 ```js
 (async () => {
@@ -243,7 +243,7 @@ Your `#nav-bar` should always be at the top of the viewport.
 })();
 ```
 
-Your Product Landing Page should use at least one media query.
+제품 랜딩 페이지는 최소한 하나의 미디어 쿼리를 사용해야 합니다.
 
 ```js
 const htmlSourceAttr = Array.from(document.querySelectorAll('source')).map(el => el.getAttribute('media'))
@@ -251,7 +251,7 @@ const cssCheck = new __helpers.CSSHelp(document).getCSSRules('media')
 assert(cssCheck.length > 0 || htmlSourceAttr.length > 0);
 ```
 
-Your Product Landing Page should use CSS Flexbox at least once.
+제품 랜딩 페이지는 CSS Flexbox를 최소한 한 번 이상 사용해야 합니다.
 
 ```js
 const hasFlex = (rule) => ["flex", "inline-flex"].includes(rule.style?.display)

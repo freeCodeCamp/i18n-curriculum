@@ -8,7 +8,7 @@ dashedName: wherefore-art-thou
 
 # --description--
 
-Erstelle eine Funktion, die ein Array mit Objekten (erstes Argument) durchsucht und ein Array mit allen Objekten zurückgibt, die übereinstimmende Namens- und Wertepaare haben (zweites Argument). Jedes Namens- und Wertepaar des Quellobjekts muss im Objekt aus der Sammlung vorhanden sein, wenn es in das zurückgegebene Array aufgenommen werden soll.
+Make a function that looks through an array of objects (first argument) and returns an array of all objects that have matching name and value pairs (second argument). Each name and value pair of the source object has to be present in the object from the collection if it is to be included in the returned array.
 
 Wenn das erste Argument zum Beispiel `[{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }]`, und das zweite Argument ist `{ last: "Capulet" }`, dann musst du das dritte Objekt aus dem Array (das erste Argument) zurückgeben, denn es enthält den Namen und seinen Wert, der als zweites Argument übergeben wurde.
 

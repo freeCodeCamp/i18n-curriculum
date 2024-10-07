@@ -8,7 +8,7 @@ dashedName: verify-an-objects-constructor-with-instanceof
 
 # --description--
 
-Toda vez que a função construtora cria um novo objeto, o objeto é definido como uma <dfn>instance</dfn> do seu construtor. JavaScript provê uma forma conveniente para verificar isso com o operador `instanceof`. `instanceof` permite que você compare um objeto a um construtor, retornando `true` ou `false` caso seja ou não um objeto criado pelo construtor, respectivamente. Exemplo:
+Anytime a constructor function creates a new object, that object is said to be an <dfn>instance</dfn> of its constructor. JavaScript gives a convenient way to verify this with the `instanceof` operator. `instanceof` allows you to compare an object to a constructor, returning `true` or `false` based on whether or not that object was created with the constructor. Aqui está um exemplo:
 
 ```js
 let Bird = function(name, color) {

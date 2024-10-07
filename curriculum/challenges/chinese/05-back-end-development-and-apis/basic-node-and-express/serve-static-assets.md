@@ -8,7 +8,7 @@ dashedName: serve-static-assets
 
 # --description--
 
-HTML 服务器通常有一个或多个用户可以访问的目录。 你可以将应用程序所需的静态资源 (样式表、脚本、图片) 放在那里。
+An HTML server usually has one or more directories that are accessible by the user. You can place there the static assets needed by your application (stylesheets, scripts, images).
 
 在 Express 中可以使用中间件 `express.static(path)` 来设置此功能，它的参数 `path` 就是包含静态资源文件的绝对路径。
 

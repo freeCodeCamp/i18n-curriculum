@@ -9,7 +9,7 @@ dashedName: comparison-with-the-greater-than-or-equal-to-operator
 
 # --description--
 
-크거나 같음 비교 연산자(`>=`)는 두 숫자의 값을 비교합니다. 왼쪽 숫자가 오른쪽 숫자보다 크거나 같다면 `true`를 반환합니다. 그렇지 않으면 `false`를 반환합니다.
+The greater than or equal to operator (`>=`) compares the values of two numbers. If the number to the left is greater than or equal to the number to the right, it returns `true`. Otherwise, it returns `false`.
 
 등호 연산자와 같이 크거나 같음 비교 연산자는 비교하면서 데이터 유형을 변환할 것입니다.
 

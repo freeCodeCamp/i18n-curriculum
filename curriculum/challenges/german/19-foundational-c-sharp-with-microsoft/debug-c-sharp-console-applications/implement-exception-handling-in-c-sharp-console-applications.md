@@ -7,14 +7,14 @@ dashedName: implement-exception-handling-in-c-sharp-console-applications
 
 # --description--
 
-Diese Aufgabe wird teilweise auf der Microsoft Learn-Plattform gelöst. Folge diesen Anweisungen, um die Aufgabe zu lösen:
+Diese Aufgabe wird teilweise auf der Microsoft Learn Plattform erledigt. Folge diesen Anweisungen, um die Aufgabe zu lösen:
 
-1. Go to <a href="https://learn.microsoft.com/training/modules/implement-exception-handling-c-sharp/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/implement-exception-handling-c-sharp/</a> and complete all the tasks for the "Implement Exception Handling in C# Console Applications" module. This is **required** to earn the "Debug C# Console Applications" trophy on Microsoft Learn, and qualify for the certification exam.
+1. Gehe auf <a href="https://learn.microsoft.com/training/modules/implement-exception-handling-c-sharp/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/implement-exception-handling-c-sharp/</a> und löse alle Aufgaben für das Modul "Implementierung der Ausnahmebehandlung in C#-Konsolen-Anwendungen". Dies ist **erforderlich**, um die "Debuggen von C#-Konsolen-Anwendungen"-Trophäe auf Microsoft Learn zu erwerben und sich für die Zertifizierungsprüfung zu qualifizieren.
 1. Wenn du damit fertig bist, komme zurück und beantworte die folgende Frage richtig.
 
-# --assignment--
+# --Auftrag--
 
-Complete the <a href="https://learn.microsoft.com/training/modules/implement-exception-handling-c-sharp/" target="_blank" rel="noreferrer">Implement Exception Handling in C# Console Applications</a> module on Microsoft Learn. Beantworte dann die Frage unten.
+Löse das Modul <a href="https://learn.microsoft.com/training/modules/implement-exception-handling-c-sharp/" target="_blank" rel="noreferrer">Implementierung der Ausnahmebehandlung in C#-Konsolen-Anwendungen</a> auf Microsoft Learn ab. Beantworte dann die Frage unten.
 
 # --questions--
 

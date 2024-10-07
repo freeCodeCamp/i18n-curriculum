@@ -9,11 +9,11 @@ dashedName: make-typography-responsive
 
 # --description--
 
-Em vez de usar `em` ou `px` para dimensionar o texto, você pode usar unidades relativas à viewport para ter uma tipografia responsiva. As unidades de viewport, como as porcentagens, são unidades relativas, mas são baseadas em itens diferentes. As unidades de viewport são relativas às dimensões da viewport (largura ou altura) de um dispositivo e as porcentagens são relativas ao tamanho do elemento pai.
+Instead of using `em` or `px` to size text, you can use viewport units for responsive typography. Viewport units, like percentages, are relative units, but they are based off different items. Viewport units are relative to the viewport dimensions (width or height) of a device, and percentages are relative to the size of the parent container element.
 
 As quatro unidades de viewport são:
 
-<ul><li><code>vw</code> (largura da viewport): <code>10vw</code> seria 10% da largura da viewport.</li><li><code>vh</code> (altura da viewport): <code>3vh</code> seria 3% da altura da viewport.</li><li><code>vmin</code> (mínimo da viewport): <code>70vmin</code> seria 70% da menor dimensão da viewport (altura ou largura).</li><li><code>vmax</code> (máximo da viewport): <code>100vmax</code> seria 100% da maior dimensão da viewport (altura ou largura).</li></ul>
+<ul><li><code>vw</code> (viewport width): <code>10vw</code> would be 10% of the viewport's width.</li><li><code>vh</code> (altura da viewport): <code>3vh</code> seria 3% da altura da viewport.</li><li><code>vmin</code> (mínimo da viewport): <code>70vmin</code> seria 70% da menor dimensão da viewport (altura ou largura).</li><li><code>vmax</code> (máximo da viewport): <code>100vmax</code> seria 100% da maior dimensão da viewport (altura ou largura).</li></ul>
 
 Vemos aqui um exemplo que define a largura da tag `body` para 30% da largura da viewport.
 

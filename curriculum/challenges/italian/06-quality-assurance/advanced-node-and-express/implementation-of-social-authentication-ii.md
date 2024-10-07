@@ -8,7 +8,7 @@ dashedName: implementation-of-social-authentication-ii
 
 # --description--
 
-L'ultima parte della configurazione dell'autenticazione con GitHub è creare la strategia stessa. `passport-github@~1.1.0` è già stato aggiunto come dipendenza, quindi richiedilo nel file `auth.js` come `GithubStrategy` in questo modo: `const GitHubStrategy = require('passport-github').Strategy;`. Non dimenticare di richiedere e configurare `dotenv` per utilizzare le variabili d'ambiente.
+The last part of setting up your GitHub authentication is to create the strategy itself. `passport-github@~1.1.0` has already been added as a dependency, so require it in your `auth.js` file as `GithubStrategy` like this: `const GitHubStrategy = require('passport-github').Strategy;`. Do not forget to require and configure `dotenv` to use your environment variables.
 
 Per impostare la strategia GitHub, devi dire al Passport di utilizzare un `GitHubStrategy` istantanziato, che accetta 2 argomenti: un oggetto (contenente `clientID`, `clientSecret`, e `callbackURL`) e una funzione da chiamare quando un utente viene autenticato con successo, che determinerà se l'utente è nuovo e quali campi salvare inizialmente nell'oggetto database dell'utente. Questo è comune in molte strategie, ma alcune possono richiedere ulteriori informazioni, come indicato nel README di quella specifica strategia GitHub. Ad esempio, Google richiede anche un *ambito* che determina il tipo di informazioni che la tua richiesta sta chiedendo di ricevere e chiede all'utente di approvare tale accesso.
 
@@ -31,7 +31,7 @@ passport.use(new GitHubStrategy({
 
 La tua autenticazione non avrà ancora successo, anzi lancerà un errore senza la logica del database e la chiamata, ma se provi dovrebbe registrare il tuo profilo GitHub sulla tua console!
 
-Invia la tua pagina quando pensi di averlo fatto correttamente. Se incontri degli errori, puoi vedere <a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#implementation-of-social-authentication-ii-4" target="_blank" rel="noopener noreferrer nofollow">il progetto completato fino a questo punto</a>.
+Invia la tua pagina quando pensi che sia tutto corretto. Se incontri degli errori, puoi vedere <a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#implementation-of-social-authentication-ii-4" target="_blank" rel="noopener noreferrer nofollow">il progetto completato fino a questo punto</a>.
 
 # --hints--
 

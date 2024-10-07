@@ -1,6 +1,6 @@
 ---
 id: 587d78b1367417b2b2512b09
-title: Make an Image Responsive
+title: صنع الصوره لها استجابه لشاشات
 challengeType: 0
 forumTopicId: 301140
 dashedName: make-an-image-responsive
@@ -17,25 +17,24 @@ img {
 }
 ```
 
-The `max-width` of `100%` will make sure the image is never wider than the container it is in, and the `height` of `auto` will make the image keep its original aspect ratio.
+ال `max-width`(العرض الأقصى) من `100%` يؤكد من أن الصورة ليست أوسع من الحاوية الموجودة فيها، والارتفاع `height` من `auto` سيجعل الصورة تحافظ على نسبة الجانب الأصلي لها.
 
 # --instructions--
 
-Add the style rules to the `responsive-img` class to make it responsive. It should never be wider than its container (in this case, it's the preview window) and it should keep its original aspect ratio. After you have added your code, resize the preview to see how your images behave.
+أضف قواعد النمط إلى صف `responsive-img` لجعله مستجيبا. لا ينبغي أن تكون أوسع من حاويتها (في هذه الحالة، هي نافذة المعاينة) وينبغي أن تحتفظ بنسبة الجانب الأصلي. بعد إضافة الكود البرمجي الخاص بك، قم بتغيير حجم المعاينة لترى كيف تتصرف صورك.
 
 # --hints--
 
-Your `responsive-img` class should have a `max-width` set to `100%`.
+يجب أن يكون أقصى عرض محدد `max-width` للكلاس الخاص بك `responsive-img` هو `100%`.
 
 ```js
 assert(getComputedStyle($('.responsive-img')[0]).maxWidth === '100%');
 ```
 
-Your `responsive-img` class should have a `height` set to `auto`.
+`responsive-img` كلاس يجب ان يحتفظ ب`height`تبقي `auto<code/>.</p>
 
-```js
-assert(code.match(/height:\s*?auto;/g));
-```
+<pre><code class="js">assert(code.match(/height:\s*?auto;/g));
+`</pre>
 
 # --seed--
 

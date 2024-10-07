@@ -8,7 +8,7 @@ dashedName: set-state-with-this-setstate
 
 # --description--
 
-تحدثت التحديات السابقة عن `state` للمكون (component) وكيفية تهيئة الحالة (state) في `constructor`. وهناك أيضا طريقة لتغيير `state` المكون (component). يوفر React طريقة (method) لتحديث `state` المكون (component) تسمى `setState`. يمكنك التواصل بطريقة (method) تسمى `setState` داخل فئة مكونك (component class) مثل: `this.setState()`، وإرسال كائن (object) مع أزواج القيمة الرئيسة (key-value). تكون الهُوِيَّات (keys) حالة (state) خصائصك (properties) وقيم حالة البيانات المحدثة. على سبيل المثال، إذا خزنت `username` في الحالة (state) و أردنا تحديثه، فسيبدو كذلك:
+The previous challenges covered component `state` and how to initialize state in the `constructor`. There is also a way to change the component's `state`. React provides a method for updating component `state` called `setState`. You call the `setState` method within your component class like so: `this.setState()`, passing in an object with key-value pairs. The keys are your state properties and the values are the updated state data. For instance, if we were storing a `username` in state and wanted to update it, it would look like this:
 
 ```jsx
 this.setState({

@@ -8,7 +8,7 @@ dashedName: create-many-records-with-model-create
 
 # --description--
 
-A veces necesitas crear muchas instancias de tus modelos, por ejemplo, al sembrar una base de datos con datos iniciales. `Model.create()` toma un arreglo de objetos como `[{name: 'John', ...}, {...}, ...]` como primer argumento y los guarda todos en la base de datos.
+Sometimes you need to create many instances of your models, e.g. when seeding a database with initial data. `Model.create()` takes an array of objects like `[{name: 'John', ...}, {...}, ...]` as the first argument, and saves them all in the db.
 
 # --instructions--
 

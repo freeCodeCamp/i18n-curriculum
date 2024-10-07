@@ -9,11 +9,11 @@ dashedName: make-links-navigable-with-html-access-keys
 
 # --description--
 
-HTML пропонує атрибут `accesskey` для встановлення гарячої клавіші, що активує елемент або зосереджується на ньому. Додавання атрибута `accesskey` може покращити ефективність навігації для користувачів, здатних послуговуватися лише клавіатурою.
+HTML offers the `accesskey` attribute to specify a shortcut key to activate or bring focus to an element. Adding an `accesskey` attribute can make navigation more efficient for keyboard-only users.
 
 HTML5 дозволяє використовувати цей атрибут на будь-якому елементі, але він особливо корисний з інтерактивними елементами. Включає лінки, кнопки та керування формами.
 
-Наприклад:
+Ось приклад:
 
 ```html
 <button accesskey="b">Important Button</button>

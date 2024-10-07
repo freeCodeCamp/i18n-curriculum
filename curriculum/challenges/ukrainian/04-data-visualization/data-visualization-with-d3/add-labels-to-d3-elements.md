@@ -8,7 +8,7 @@ dashedName: add-labels-to-d3-elements
 
 # --description--
 
-D3 дозволяє позначити елемент графіка (наприклад, стовпчик) за допомогою елемента `text` від SVG.
+D3 lets you label a graph element, such as a bar, using the SVG `text` element.
 
 Як і елемент `rect`, елемент `text` повинен мати атрибути `x` та `y`, щоб розміститись в SVG. Крім того, необхідно отримати доступ до даних, щоб показати ці значення.
 
