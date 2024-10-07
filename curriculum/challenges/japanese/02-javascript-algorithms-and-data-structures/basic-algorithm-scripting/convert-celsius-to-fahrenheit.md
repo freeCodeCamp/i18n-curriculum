@@ -8,7 +8,7 @@ dashedName: convert-celsius-to-fahrenheit
 
 # --description--
 
-摂氏から華氏に変換する公式は、摂氏温度 × `9/5` + `32` です。
+The formula to convert from Celsius to Fahrenheit is the temperature in Celsius times `9/5`, plus `32`.
 
 摂氏の温度を表す変数 `celsius` が与えられます。 すでに定義されている変数 `fahrenheit`を使用し、摂氏に相当する華氏温度を代入してください。 上記の公式を使用して、摂氏温度を華氏温度に変換してください。
 

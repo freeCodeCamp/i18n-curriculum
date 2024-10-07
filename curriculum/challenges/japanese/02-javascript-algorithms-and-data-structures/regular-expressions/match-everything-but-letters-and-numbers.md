@@ -8,7 +8,7 @@ dashedName: match-everything-but-letters-and-numbers
 
 # --description--
 
-ショートカットを使用して、`\w` で英数字 `[A-Za-z0-9_]` にマッチさせることができることを学びました。 しかし英数字以外のものを検索したいと思うのが自然なパターンかもしれません。
+You've learned that you can use a shortcut to match alphanumerics `[A-Za-z0-9_]` using `\w`. A natural pattern you might want to search for is the opposite of alphanumerics.
 
 `\w` の反対を `\W` で検索できます。 ちなみに、逆のパターンでは大文字を使用します。 このショートカットは `[^A-Za-z0-9_]` と同じです。
 

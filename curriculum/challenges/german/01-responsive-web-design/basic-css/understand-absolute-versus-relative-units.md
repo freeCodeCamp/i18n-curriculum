@@ -9,7 +9,7 @@ dashedName: understand-absolute-versus-relative-units
 
 # --description--
 
-In den letzten Aufgaben wurden Außen- und Innenabstände von Elementen in Pixel angegeben. (`px`). Pixels sind eine Art von Längeneinheit, welche dem Browser mitteilt, wie groß ein Element selbst oder seine Abstände sein sollen. Zusätzlich zu `px` gibt es in CSS eine Reihe von verschiedenen Längeneinheiten, die du verwenden kannst.
+The last several challenges all set an element's margin or padding with pixels (`px`). Pixels are a type of length unit, which is what tells the browser how to size or space an item. In addition to `px`, CSS has a number of different length unit options that you can use.
 
 Grundsätzlich unterscheidet man zwischen absoluten und relativen Längeneinheiten. Absolute Einheiten beziehen sich auf physikalische Längeneinheiten. Zum Beispiel beziehen sich `in` und `mm` auf Inch und Millimeter. Absolute Längeneinheiten nähern sich den realen Maßen auf dem Bildschirm an, aber es gibt Unterschiede, je nach Bildschirmauflösung.
 

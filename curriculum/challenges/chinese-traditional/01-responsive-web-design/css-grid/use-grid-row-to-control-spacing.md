@@ -9,7 +9,7 @@ dashedName: use-grid-row-to-control-spacing
 
 # --description--
 
-和設置一個網格項佔用多列類似，你也可以設置它佔用多行。 你可以使用 `grid-row` 屬性來定義一個網格項開始和結束的水平線。
+Of course, you can make items consume multiple rows just like you can with columns. You define the horizontal lines you want an item to start and stop at using the `grid-row` property on a grid item.
 
 # --instructions--
 

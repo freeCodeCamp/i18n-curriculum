@@ -9,7 +9,7 @@ dashedName: decrease-the-opacity-of-an-element
 
 # --description--
 
-CSS 裏的 `opacity` 屬性用來設置元素的透明度。
+The `opacity` property in CSS is used to adjust the opacity, or conversely, the transparency for an item.
 
 <blockquote>屬性值爲 1 代表完全不透明。 <br>屬性值爲 0.5 代表半透明。 <br>屬性值爲 0 代表完全透明。</blockquote>
 

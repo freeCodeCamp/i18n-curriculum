@@ -9,7 +9,7 @@ dashedName: comparisons-with-the-logical-or-operator
 
 # --description--
 
-El operador <dfn>lógico or</dfn> (`||`) devuelve `true` si cualquiera de los <dfn>operandos</dfn> es `true`. De lo contrario, devuelve `false`.
+The <dfn>logical or</dfn> operator (`||`) returns `true` if either of the <dfn>operands</dfn> is `true`. Otherwise, it returns `false`.
 
 El operador <dfn>lógico or</dfn> se compone de dos símbolos de barra vertical: (`||`). Este se puede encontrar normalmente entre las teclas de tabulación y escape.
 

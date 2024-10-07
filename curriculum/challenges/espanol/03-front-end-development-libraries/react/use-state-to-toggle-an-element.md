@@ -8,7 +8,7 @@ dashedName: use-state-to-toggle-an-element
 
 # --description--
 
-A veces puedes necesitar conocer el estado anterior al actualizar el estado. Sin embargo, las actualizaciones del estado pueden ser asíncronas: esto significa que React puede procesar múltiples llamadas a `setState()` en una sola actualización. Esto significa que no puedes confiar en el valor anterior de `this.state` o `this.props` al calcular el siguiente valor. Por lo tanto, no debes usar código como este:
+Sometimes you might need to know the previous state when updating the state. However, state updates may be asynchronous - this means React may batch multiple `setState()` calls into a single update. This means you can't rely on the previous value of `this.state` or `this.props` when calculating the next value. So, you should not use code like this:
 
 ```jsx
 this.setState({
@@ -65,7 +65,7 @@ assert.strictEqual(
 );
 ```
 
-Clicking the button element should toggle the `visibility` property in state between `true` and `false` and conditionally render the `h1` element.
+Al hacer click en el elemento botón se debe alternar la propiedad `visibility` en el estado entre `true` y `false` y renderizar condicionalmente el elemento `h1`.
 
 ```js
 (() => {

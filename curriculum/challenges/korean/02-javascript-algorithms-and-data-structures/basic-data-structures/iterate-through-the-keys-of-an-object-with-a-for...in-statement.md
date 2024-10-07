@@ -1,6 +1,6 @@
 ---
 id: 587d7b7d367417b2b2512b1d
-title: Iterate Through the Keys of an Object with a for...in Statement
+title: 객체의 키를 for...in 문으로 반복하기
 challengeType: 1
 forumTopicId: 301162
 dashedName: iterate-through-the-keys-of-an-object-with-a-for---in-statement
@@ -21,15 +21,15 @@ for (const food in refrigerator) {
 }
 ```
 
-This code logs `milk 1`  and `eggs 12`, with each key-value pair on its own line.
+이 코드는 각 키-값 쌍이 각각의 줄에 있는 `milk 1` 및 `egg 12`을 기록합니다.
 
-We defined the variable `food` in the loop head and this variable was set to each of the object's keys on each iteration, resulting in each food's name being printed to the console.
+루프의 머리에 변수 `food`를 정의했으며 이 변수는 매 순환 때 해당 객체의 각각의 키로 설정되어 콘솔에 각 음식의 이름이 출력됩니다.
 
-**NOTE:** Objects do not maintain an ordering to stored keys like arrays do; thus a key's position on an object, or the relative order in which it appears, is irrelevant when referencing or accessing that key.
+**주의:** 객체는 배열과 같이 저장된 키에 대한 순서를 유지하지 않습니다. 따라서 객체 내의 키 위치나 나타나는 상대적인 순서는 해당 키를 참조하거나 액세스할 때 관련이 없습니다.
 
 # --instructions--
 
-We've defined a function `countOnline` which accepts one argument, `allUsers`. Use a <dfn>for...in</dfn> statement inside this function to loop through the `allUsers` object and return the number of users whose `online` property is set to `true`. An example of an object which could be passed to `countOnline` is shown below. Each user will have an `online` property set to either `true` or `false`.
+`allUsers`를 인자로 받는 `countOnline` 함수를 정의했습니다. `allUsers`를 순환하고 `online` 속성이 `true`로 설정된 사용자의 숫자를 반환하도록 이 함수 안에 <dfn>for...in</dfn> 문을 사용하시오. `countOnline`이 전달되는 객체의 예시는 아래와 같습니다. 각 사용자는 `true`나 `false`로 설정된 `online` 속성을 가질 것입니다.
 
 ```js
 {
@@ -47,7 +47,7 @@ We've defined a function `countOnline` which accepts one argument, `allUsers`. U
 
 # --hints--
 
-The function `countOnline` should use a `for in` statement to iterate through the object keys of the object passed to it.
+함수 `countOnline`은 전달된 객체의 객체 키를 반복하는 데 `for in` 문을 사용해야 합니다.
 
 ```js
 assert(
@@ -57,19 +57,19 @@ assert(
 );
 ```
 
-The function `countOnline` should return `1` when the object `{ Alan: { online: false }, Jeff: { online: true }, Sarah: { online: false } }` is passed to it
+함수 `countOnline`은 전달된 객체가 `{ Alan: { online: false }, Jeff: { online: true }, Sarah: { online: false } }`인 경우 `1`을 반환해야 합니다.
 
 ```js
 assert(countOnline(usersObj1) === 1);
 ```
 
-The function `countOnline` should return `2` when the object `{ Alan: { online: true }, Jeff: { online: false }, Sarah: { online: true } }` is passed to it
+함수`countOnline`은 전달된 객체가 `{ Alan: { online: true }, Jeff: { online: false }, Sarah: { online: true } }` 인 경우 `2`을 반환해야 합니다.
 
 ```js
 assert(countOnline(usersObj2) === 2);
 ```
 
-The function `countOnline` should return `0` when the object `{ Alan: { online: false }, Jeff: { online: false }, Sarah: { online: false } }` is passed to it
+함수`countOnline`은 전달된 객체가 `{ Alan: { online: false }, Jeff: { online: false }, Sarah: { online: false } }` 인 경우 `0`을 반환해야 합니다.
 
 ```js
 assert(countOnline(usersObj3) === 0);

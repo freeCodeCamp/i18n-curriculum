@@ -9,7 +9,7 @@ dashedName: set-the-line-height-of-paragraphs
 
 # --description--
 
-CSS 提供 `line-height` 屬性來設置行間的距離。 行高，顧名思義，可以用來設置每行文字所佔據的垂直空間。
+CSS offers the `line-height` property to change the height of each line in a block of text. As the name suggests, it changes the amount of vertical space that each line of text gets.
 
 # --instructions--
 

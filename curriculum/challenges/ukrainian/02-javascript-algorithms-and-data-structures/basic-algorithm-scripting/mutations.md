@@ -8,7 +8,7 @@ dashedName: mutations
 
 # --description--
 
-Поверніть `true`, якщо рядок у першому елементі масиву містить усі літери рядка у другому елементі масиву.
+Return `true` if the string in the first element of the array contains all of the letters of the string in the second element of the array.
 
 Наприклад, `["hello", "Hello"]` має повертати `true`, оскільки всі літери другого рядка наявні у першому, незважаючи на регістр.
 

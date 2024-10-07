@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aecf08806
-title: Use a CSS Class to Style an Element
+title: استخدام الـ CSS class في تصميم عُنصرٍ ما
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/c2MvDtV'
 forumTopicId: 18337
@@ -11,7 +11,7 @@ dashedName: use-a-css-class-to-style-an-element
 
 Classes are reusable styles that can be added to HTML elements.
 
-Here's an example CSS class declaration:
+ها هو مثال عن إنشاء Class في الـ CSS:
 
 ```html
 <style>
@@ -21,35 +21,35 @@ Here's an example CSS class declaration:
 </style>
 ```
 
-You can see that we've created a CSS class called `blue-text` within the `<style>` tag. You can apply a class to an HTML element like this: `<h2 class="blue-text">CatPhotoApp</h2>`. Note that in your CSS `style` element, class names start with a period. In your HTML elements' class attribute, the class name does not include the period.
+كما ترى؛ لقد قُمنا بإنشاء CSS Class اسمه `blue-text` داخل الـ `<style>` tag. يُمكنك إضافة Class إلى عنصر الـ HTML مثل هذا: `<h2 class="blue-text">CatPhotoApp</h2>`. لاحظ أن في في الـ CSS `style` تبدأ أسماء الـ Class بنُقطة. في الـ attribute الخاص بالـ HTML؛ إسم الـ Class لا يحتوي على علامة النُقطة (dot).
 
 # --instructions--
 
-Inside your `style` element, change the `h2` selector to `.red-text` and update the color's value from `blue` to `red`.
+داخل عنصر الـ `style` قُم بتغيير عنصر الـ selector الخاص بـ `h2` إلى `.red-text` وحدث قيمة اللون من `blue` إلى `red`.
 
-Give your `h2` element the `class` attribute with a value of `red-text`.
+قم بإعطاء عُنصر `h2` خاصية class، وتكون قيمتها `red-text`.
 
 # --hints--
 
-Your `h2` element should be red.
+عُنصر الـ `h2` يجب أن يكون أحمر.
 
 ```js
 assert($('h2').css('color') === 'rgb(255, 0, 0)');
 ```
 
-Your `h2` element should have the class `red-text`.
+عُنصر الـ `h2` يجب أن يكون معه class الـ `red-text`.
 
 ```js
 assert($('h2').hasClass('red-text'));
 ```
 
-Your stylesheet should declare a `red-text` class and have its color set to `red`.
+يجب أن يكون ملف الـ stylesheet فيه declare للـ class الـ `red-text` ولونه `red`.
 
 ```js
 assert(code.match(/\.red-text\s*\{\s*color\s*:\s*red;?\s*\}/g));
 ```
 
-You should not use inline style declarations like `style="color: red"` in your `h2` element.
+لا يجب استخدام الـ inline style مثل `style="color: red"` في عُنصر الـ `h2`.
 
 ```js
 assert($('h2').attr('style') === undefined);

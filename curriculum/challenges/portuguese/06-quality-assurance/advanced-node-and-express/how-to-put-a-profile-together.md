@@ -8,7 +8,7 @@ dashedName: how-to-put-a-profile-together
 
 # --description--
 
-Agora que você pode garantir que o usuário que acessou o `/profile` está autenticado, pode usar as informações contidas no `req.user` da página.
+Now that you can ensure the user accessing the `/profile` is authenticated, you can use the information contained in `req.user` on your page.
 
 Passe um objeto contendo a propriedade `username` e o valor `req.user.username` como o segundo argumento para o método `render` da visualização do perfil.
 

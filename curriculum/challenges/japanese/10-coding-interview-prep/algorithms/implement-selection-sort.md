@@ -8,7 +8,7 @@ dashedName: implement-selection-sort
 
 # --description--
 
-ここでは選択ソートを実装します。 選択ソートは、まずリスト内の最小値を選択し、それをリスト内の最初の値と交換します。 次に、2 番目の位置から始め、残りのリスト内の最小値を選択し、2 番目の要素と交換します。 リストの最後に到達するまで、リスト全体で要素の入れ替えを繰り返します。 これで、リストがソートされます。 選択ソートは、どのケースでも二乗時間計算量です。
+Here we will implement selection sort. Selection sort works by selecting the minimum value in a list and swapping it with the first value in the list. It then starts at the second position, selects the smallest value in the remaining list, and swaps it with the second element. It continues iterating through the list and swapping elements until it reaches the end of the list. Now the list is sorted. Selection sort has quadratic time complexity in all cases.
 
 **手順**: 整数の配列を入力として受け取り、それらの整数の配列を最小から最大の順にソートして返す、`selectionSort` 関数を記述してください。
 

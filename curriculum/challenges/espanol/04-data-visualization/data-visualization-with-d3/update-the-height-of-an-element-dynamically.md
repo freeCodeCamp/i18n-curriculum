@@ -8,7 +8,7 @@ dashedName: update-the-height-of-an-element-dynamically
 
 # --description--
 
-Los desafíos anteriores cubrieron cómo mostrar los datos de un arreglo y cómo agregar clases CSS. Puedes combinar estas lecciones para crear un simple gráfico de barras. Hay dos pasos para conseguirlo:
+The previous challenges covered how to display data from an array and how to add CSS classes. You can combine these lessons to create a simple bar chart. There are two steps to this:
 
 1) Crea un `div` por cada punto de datos en el arreglo
 

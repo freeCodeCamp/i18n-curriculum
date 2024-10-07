@@ -8,7 +8,7 @@ dashedName: warn-your-users-of-a-dangerous-action-with-btn-danger
 
 # --description--
 
-O Bootstrap vem com diversas cores predefinidas para botões. A classe `btn-danger` é a cor de botão que você usará para notificar seus usuários de que o botão executa uma ação destrutiva, como excluir uma foto de gato.
+Bootstrap comes with several pre-defined colors for buttons. The `btn-danger` class is the button color you'll use to notify users that the button performs a destructive action, such as deleting a cat photo.
 
 Crie um botão com o texto `Delete` e dê a ele a classe `btn-danger`.
 

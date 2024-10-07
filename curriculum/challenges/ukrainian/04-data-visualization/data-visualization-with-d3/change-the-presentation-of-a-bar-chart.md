@@ -8,7 +8,7 @@ dashedName: change-the-presentation-of-a-bar-chart
 
 # --description--
 
-Попереднім завданням було створити стовпчикову діаграму, але існує декілька змін форматування, які можуть покращити її:
+The last challenge created a bar chart, but there are a couple of formatting changes that could improve it:
 
 1) Додайте проміжки між стовпчиками, щоб візуально розділити їх. Це можна зробити, додавши поля до CSS для класу `bar`
 

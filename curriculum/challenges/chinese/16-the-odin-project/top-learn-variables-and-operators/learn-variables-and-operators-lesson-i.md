@@ -80,7 +80,7 @@ let counter = 0;
 console.log( counter++ ); // 0
 ```
 
-# --questions--
+# 问题
 
 ## --text--
 

@@ -8,11 +8,11 @@ dashedName: exercise-tracker
 
 # --description--
 
-Створіть повний пакет застосунку JavaScript, який функціонально схожий до <a href="https://exercise-tracker.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://exercise-tracker.freecodecamp.rocks</a>. Робота над цим проєктом передбачає написання коду за допомогою одного з наступних методів:
+Створіть повний пакет додатку на JavaScript, який функціонально схожий до цього:<a href="https://exercise-tracker.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://exercise-tracker.freecodecamp.rocks</a>. Робота над цим проєктом передбачає написання коду за допомогою одного з наступних методів:
 
--   Клонуйте <a href="https://github.com/freeCodeCamp/boilerplate-project-exercisetracker/" target="_blank" rel="noopener noreferrer nofollow">цей репозиторій GitHub</a> та виконайте свій проєкт локально.
+-   Клонуйте <a href="https://github.com/freeCodeCamp/boilerplate-project-exercisetracker/" target="_blank" rel="noopener noreferrer nofollow">цей GitHub репо</a> та завершіть свій проєкт локально.
 -   Використайте <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-exercisetracker/" target="_blank" rel="noopener noreferrer nofollow">наш стартовий проєкт Gitpod</a>, щоб виконати свій проєкт.
--   Для виконання проєкту використайте конструктор сайту на власний вибір. Переконайтеся, що приєднали усі файли з нашого репозиторію GitHub.
+-   Використовуйте конструктор сайту на власний розсуд, щоб завершити проєкт. Переконайтеся, що ви зберегли всі файли з нашого репозиторію GitHub.
 
 # --instructions--
 
@@ -58,7 +58,7 @@ dashedName: exercise-tracker
 
 # --hints--
 
-Ви повинні надати власний проєкт, а не URL-адресу прикладу.
+Ви повинні надати власний проєкт, а не приклад URL-адреси.
 
 ```js
 (getUserInput) => {
@@ -154,7 +154,7 @@ async(getUserInput) => {
 };
 ```
 
-Ви можете виконати запит `POST` до `/api/users/:_id/exercises` із даними форми `description`, `duration` та додатково `date`. Якщо дата не вказана, буде використовуватись поточна дата.
+You can `POST` to `/api/users/:_id/exercises` with form data `description`, `duration`, and optionally `date`. Якщо дата не вказана, буде використовуватись поточна дата.
 
 ```js
 async (getUserInput) => {
@@ -351,7 +351,7 @@ async(getUserInput) => {
 };
 ```
 
-Кожен елемент у масиві `log`, який повернувся з `GET /api/users/:_id/logs`, є об’єктом, який повинен мати властивості `description` `duration` та `date`.
+Each item in the `log` array that is returned from `GET /api/users/:_id/logs` is an object that should have a `description`, `duration`, and `date` properties.
 
 ```js
 async(getUserInput) => {

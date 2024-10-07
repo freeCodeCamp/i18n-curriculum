@@ -9,7 +9,7 @@ dashedName: align-an-item-vertically-using-align-self
 
 # --description--
 
-Genauso wie man ein Element horizontal ausrichten kann, gibt es einen Weg, um ein Element vertikal auszurichten. Dafür benutzt man die `align-self` Eigenschaft auf einem Element. Diese Eigenschaft akzeptiert dieselben Werte wie `justify-self` aus der letzten Aufgabe.
+Just as you can align an item horizontally, there's a way to align an item vertically as well. To do this, you use the `align-self` property on an item. This property accepts all of the same values as `justify-self` from the last challenge.
 
 # --instructions--
 

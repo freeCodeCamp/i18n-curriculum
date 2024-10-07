@@ -14,7 +14,7 @@ dashedName: object-lifecycle
 
 ## --text--
 
-Що надрукує на екран дана програма?
+Що надрукує на екрані дана програма?
 
 ```python
 class PartyAnimal:

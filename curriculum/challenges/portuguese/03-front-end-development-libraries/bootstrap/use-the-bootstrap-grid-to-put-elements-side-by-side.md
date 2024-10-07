@@ -8,7 +8,7 @@ dashedName: use-the-bootstrap-grid-to-put-elements-side-by-side
 
 # --description--
 
-Bootstrap usa o sistema responsivo de grid de 12 colunas, o que torna superfácil colocar elementos em linhas e especificar cada largura relativa de um elemento. A maioria das classes do Bootstrap pode ser aplicada a um elemento `div`.
+Bootstrap uses a responsive 12-column grid system, which makes it easy to put elements into rows and specify each element's relative width. Most of Bootstrap's classes can be applied to a `div` element.
 
 O Bootstrap possui atributos de largura de colunas diferentes, que são utilizados dependendo da largura da tela do usuário. Por exemplo, celulares possuem telas estreitas, enquanto laptops possuem telas mais largas.
 

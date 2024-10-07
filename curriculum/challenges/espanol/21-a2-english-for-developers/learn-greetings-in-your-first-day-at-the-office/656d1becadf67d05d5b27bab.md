@@ -15,7 +15,7 @@ Brian: `But it is true. She's the person to go to if you need help!`
 
 Here, `She` is used by Brian to refer to Sophie. Instead of repeating Sophie's name, Brian uses the pronoun `she` to make the conversation smoother and avoid redundancy.
 
-# --questions--
+# --preguntas----preguntas--
 
 ## --text--
 
@@ -25,7 +25,7 @@ In the dialogue, which word does Brian use to refer to Sophie without repeating 
 
 `he`
 
-### --retroalimentación--
+### --feedback--
 
 `He` refers to a male.
 
@@ -33,7 +33,7 @@ In the dialogue, which word does Brian use to refer to Sophie without repeating 
 
 `they`
 
-### --retroalimentación--
+### --feedback--
 
 `They` is plural and refers to more than one person.
 
@@ -41,7 +41,7 @@ In the dialogue, which word does Brian use to refer to Sophie without repeating 
 
 `it`
 
-### --retroalimentación--
+### --feedback--
 
 `It` is usually used for things or animals.
 
@@ -57,7 +57,7 @@ In the dialogue, which word does Brian use to refer to Sophie without repeating 
 
 4
 
-# --escena---
+# --scene--
 
 ```json
 {

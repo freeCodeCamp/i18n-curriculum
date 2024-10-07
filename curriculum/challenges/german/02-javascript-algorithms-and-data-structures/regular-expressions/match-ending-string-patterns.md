@@ -8,7 +8,7 @@ dashedName: match-ending-string-patterns
 
 # --description--
 
-In der letzten Aufgabe hast du gelernt, das Caret-Zeichen zu verwenden, um nach Mustern am Anfang von Strings zu suchen. Es gibt auch eine Möglichkeit, nach Mustern am Ende von Strings zu suchen.
+In the last challenge, you learned to use the caret character to search for patterns at the beginning of strings. There is also a way to search for patterns at the end of strings.
 
 Du kannst das Ende von Strings suchen, indem du das Dollarzeichen `$` am Ende des regulären Ausdrucks verwendest.
 

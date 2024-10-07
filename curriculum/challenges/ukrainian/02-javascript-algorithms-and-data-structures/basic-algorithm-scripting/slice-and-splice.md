@@ -8,7 +8,7 @@ dashedName: slice-and-splice
 
 # --description--
 
-Вам надано два масиви та індекс.
+You are given two arrays and an index.
 
 Скопіюйте кожний елемент з першого масиву у другий за порядком.
 

@@ -9,7 +9,7 @@ dashedName: override-styles-in-subsequent-css
 
 # --description--
 
-`pink-text` クラスが `body` 要素の CSS 宣言より優先されました！
+Our `pink-text` class overrode our `body` element's CSS declaration!
 
 私達の作成したクラスが `body` 要素の CSS をオーバーライドすることを証明しました。 次の論理的な疑問は、`pink-text` クラスをオーバーライドするにはどうすればいいのかということです。
 

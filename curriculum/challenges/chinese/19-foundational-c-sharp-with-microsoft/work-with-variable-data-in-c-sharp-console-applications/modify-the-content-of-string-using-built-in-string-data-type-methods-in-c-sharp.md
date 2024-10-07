@@ -12,7 +12,7 @@ dashedName: modify-the-content-of-string-using-built-in-string-data-type-methods
 1. 跳转到 <a href="https://learn.microsoft.com/training/modules/csharp-modify-content/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/csharp-modify-content/</a>，然后完成“在 C# 中使用内置字符串数据类型方法修改字符串内容”模块的所有任务。 这是在 Microsoft Learn 上获得“在 C# 控制台应用程序中使用变量数据”的奖杯以及参加认证考试所**必需**的。
 1. 完成后，返回并正确回答下面的问题。
 
-# --任务--
+# --作业--
 
 在 Microsoft Learn 上完成 <a href="https://learn.microsoft.com/training/modules/csharp-modify-content/" target="_blank" rel="noreferrer">使用 C# 中的内置字符串数据类型方法修改字符串内容</a> 模块。 然后，回答下面的问题。
 

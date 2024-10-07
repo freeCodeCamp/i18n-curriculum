@@ -10,7 +10,7 @@ dashedName: more-resources-in-colab
 
 还有一件事...... 这个简短的视频将介绍 Google Colab 笔记本中的一些可用的资源。
 
-# --questions--
+# 问题
 
 ## --text--
 
@@ -30,7 +30,7 @@ Google Colaboratory 中有哪些代码片段可用？
 
 ---
 
-以上全部内容
+以上都是
 
 ## --video-solution--
 

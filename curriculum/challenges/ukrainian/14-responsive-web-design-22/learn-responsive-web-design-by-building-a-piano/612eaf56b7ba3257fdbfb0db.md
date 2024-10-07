@@ -7,7 +7,7 @@ dashedName: step-21
 
 # --description--
 
-Піаніно потребує логотипу freeCodeCamp, щоб зробити його офіційним.
+The piano needs the freeCodeCamp logo to make it official.
 
 Додайте елемент `img` перед елементом `.keys`. Для `img` надайте `class` зі значенням `logo` та встановіть `src` на `https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg`. Надайте йому `alt` з текстом `freeCodeCamp Logo`.
 

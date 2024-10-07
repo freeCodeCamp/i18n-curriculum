@@ -8,7 +8,7 @@ dashedName: copy-array-items-using-slice
 
 # --description--
 
-次に取り上げるメソッドは `slice()` です。 `slice()` は配列を変更するのではなく、指定された数の要素を新しい配列にコピー、または*抽出*します。呼び出された配列は変更されずに残されます。 `slice()` は 2 つのパラメーターしか取りません。最初のパラメーターは抽出を開始するインデックスで、2 つ目のパラメーターは抽出を終了するインデックスです (このインデックスの前の要素までが抽出されます)。 以下の例を考えてみましょう。
+The next method we will cover is `slice()`. Rather than modifying an array, `slice()` copies or *extracts* a given number of elements to a new array, leaving the array it is called upon untouched. `slice()` takes only 2 parameters — the first is the index at which to begin extraction, and the second is the index at which to stop extraction (extraction will occur up to, but not including the element at this index). Consider this:
 
 ```js
 let weatherConditions = ['rain', 'snow', 'sleet', 'hail', 'clear'];

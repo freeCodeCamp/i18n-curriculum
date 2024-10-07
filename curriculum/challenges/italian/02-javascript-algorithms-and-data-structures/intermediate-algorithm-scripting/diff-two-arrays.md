@@ -8,7 +8,7 @@ dashedName: diff-two-arrays
 
 # --description--
 
-Confronta due array e restituisci un nuovo array con tutti gli elementi trovati in uno dei due array dati, ma non in entrambi. In altre parole, restituisce la differenza simmetrica dei due array.
+Compare two arrays and return a new array with any items only found in one of the two given arrays, but not both. In other words, return the symmetric difference of the two arrays.
 
 **Nota:** Puoi restituire l'array con i suoi elementi in qualsiasi ordine.
 

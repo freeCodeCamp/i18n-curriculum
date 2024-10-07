@@ -7,7 +7,7 @@ dashedName: step-58
 
 # --description--
 
-مع `display` بقيمة `block` زر submit يجلس على الحافة اليسرى للعنصر الاب (parent element) له.
+With a `display` of `block` the submit button sits flush against the left edge of its parent.
 
 استخدم نفس التقنية المستخدمة لتوسيط الـ `form` لتوسيط زر submit.
 

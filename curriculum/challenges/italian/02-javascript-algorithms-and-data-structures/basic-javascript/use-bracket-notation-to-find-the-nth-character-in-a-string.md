@@ -9,7 +9,7 @@ dashedName: use-bracket-notation-to-find-the-nth-character-in-a-string
 
 # --description--
 
-Puoi usare <dfn>la notazione a parentesi</dfn> anche per ottenere il carattere in altre posizioni all'interno di una stringa.
+You can also use <dfn>bracket notation</dfn> to get the character at other positions within a string.
 
 Ricorda che i computer iniziano a contare da `0`, quindi il primo carattere è in realtà il carattere zero.
 

@@ -9,9 +9,9 @@ dashedName: turn-an-image-into-a-link
 
 # --description--
 
-Du kannst Elemente zu Links werden lassen, indem du sie innerhalb eines `a`-Elements einbettest.
+You can make elements into links by nesting them within an `a` element.
 
-Bette dein Bild in ein `a`-Element ein. Hier ist ein Beispiel:
+Bette dein Bild in ein `a`-Element ein. Hier ein Beispiel:
 
 ```html
 <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="Three kittens running towards the camera."></a>

@@ -9,7 +9,7 @@ dashedName: use-the-flex-basis-property-to-set-the-initial-size-of-an-item
 
 # --description--
 
-Властивість `flex-basis` вказує початковий розмір елемента до того, як CSS корегує `flex-shrink` чи `flex-grow`.
+The `flex-basis` property specifies the initial size of the item before CSS makes adjustments with `flex-shrink` or `flex-grow`.
 
 Одиниці виміру, що використовуються властивістю `flex-basis`, дорівнюють розмірам інших властивостей (`px`, `em`, `%` тощо). Значення `auto` змінює розмір елементів на основі їхнього вмісту.
 

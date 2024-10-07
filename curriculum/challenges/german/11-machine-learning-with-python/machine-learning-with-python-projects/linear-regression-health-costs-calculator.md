@@ -1,6 +1,6 @@
 ---
 id: 5e46f8edac417301a38fb930
-title: Linear Regression Health Costs Calculator
+title: Gesundheitskostenrechner mit einer linearen Regression
 challengeType: 10
 forumTopicId: 462379
 dashedName: linear-regression-health-costs-calculator
@@ -8,33 +8,33 @@ dashedName: linear-regression-health-costs-calculator
 
 # --description--
 
-Du wirst <a href="https://colab.research.google.com/github/freeCodeCamp/boilerplate-linear-regression-health-costs-calculator/blob/master/fcc_predict_health_costs_with_regression.ipynb" target="_blank" rel="noopener noreferrer nofollow">an diesem Projekt mit Google Colaboratory</a> arbeiten.
+You will be <a href="https://colab.research.google.com/github/freeCodeCamp/boilerplate-linear-regression-health-costs-calculator/blob/master/fcc_predict_health_costs_with_regression.ipynb" target="_blank" rel="noopener noreferrer nofollow">working on this project with Google Colaboratory</a>.
 
-After going to that link, create a copy of the notebook either in your own account or locally. Once you complete the project and it passes the test (included at that link), submit your project link below. If you are submitting a Google Colaboratory link, make sure to turn on link sharing for "anyone with the link."
+Nachdem du diesen Link aufgerufen hast, erstelle eine Kopie des Notizbuchs entweder in deinem eigenen Konto oder vor Ort. Sobald du das Projekt abgeschlossen hast und es den Test bestanden hat (unter diesem Link enthalten), reiche deinen Projektlink unten ein. Wenn du einen Google Colaboratory-Link übermittelst, stelle sicher, dass du die Linkfreigabe für alle Personen, die den Link verwenden, aktivierst.
 
-We are still developing the interactive instructional content for the machine learning curriculum. For now, you can go through the video challenges in this certification. You may also have to seek out additional learning resources, similar to what you would do when working on a real-world project.
+Wir sind noch dabei, die interaktiven Lehrinhalte für den Lehrplan zum maschinellen Lernen zu entwickeln. Vorerst kannst du die Video-Herausforderungen in dieser Zertifizierung durchgehen. Möglicherweise musst du auch nach zusätzlichen Lernressourcen suchen, ähnlich wie bei der Arbeit an einem realen Projekt.
 
 # --instructions--
 
-In this challenge, you will predict healthcare costs using a regression algorithm.
+In dieser Herausforderung wirst du die Kosten des Gesundheitswesens anhand eines Regressionsalgorithmus vorhersagen.
 
-You are given a dataset that contains information about different people including their healthcare costs. Use the data to predict healthcare costs based on new data.
+Du erhälst einen Datensatz, der Informationen über verschiedene Personen, einschließlich ihrer Gesundheitskosten, enthält. Nutze die Daten, um die Kosten des Gesundheitswesens anhand neuer Daten vorherzusagen.
 
-The first two cells of this notebook import libraries and the data.
+Die ersten beiden Zellen dieses Notizbuchs importieren sowohl die Bibliotheken und Daten.
 
-Make sure to convert categorical data to numbers. Use 80% of the data as the `train_dataset` and 20% of the data as the `test_dataset`.
+Stelle sicher, dass du kategorische Daten in Zahlen umwandelst. Benutze 80% der Daten als `train_dataset` und 20% der Daten als `test_dataset`.
 
-`pop` off the "expenses" column from these datasets to create new datasets called `train_labels` and `test_labels`. Use these labels when training your model.
+Trenn die "expenses" Spalte von diesem Datensatz mittels `pop`, um neue Datensätze namens `train_labels` und `test_labels` zu erstellen. Benutze diese Labels, wenn du dein Modell trainierst.
 
-Create a model and train it with the `train_dataset`. Run the final cell in this notebook to check your model. The final cell will use the unseen `test_dataset` to check how well the model generalizes.
+Erstelle ein Modell und trainiere es mit dem `train_dataset`. Führe die letzte Zelle in diesem Notebook aus, um das Modell zu prüfen. Die letzte Zelle wird das unsichtbare `test_dataset` verwenden, um zu prüfen, wie gut das Modell verallgemeinert.
 
-To pass the challenge, `model.evaluate` must return a Mean Absolute Error of under 3500. This means it predicts health care costs correctly within $3500.
+Um diese Herausforderung zu meistern, muss `model.evaluate` einen mittleren absoluten Fehler von unter 3500 zurückgeben. Das bedeutet, dass es die Kosten für die Gesundheitsversorgung innerhalb eines Rahmens von $3500 richtig vorhersagt.
 
-The final cell will also predict expenses using the `test_dataset` and graph the results.
+Die letzte Zelle wird auch Ausgaben mit Hilfe des `test_dataset` vorhersagen und die Ergebnisse grafisch darstellen.
 
 # --hints--
 
-It should pass all Python tests.
+Es sollte alle Python-Tests bestehen.
 
 ```js
 

@@ -8,7 +8,7 @@ dashedName: chunky-monkey
 
 # --description--
 
-Escribe una función que divida un arreglo (primer argumento) en grupos de la longitud `size` (segundo argumento) y los devuelva como un arreglo bidimensional.
+Write a function that splits an array (first argument) into groups the length of `size` (second argument) and returns them as a two-dimensional array.
 
 # --hints--
 

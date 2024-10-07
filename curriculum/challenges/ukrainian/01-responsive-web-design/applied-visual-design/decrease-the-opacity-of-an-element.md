@@ -9,7 +9,7 @@ dashedName: decrease-the-opacity-of-an-element
 
 # --description--
 
-Властивість `opacity` у CSS використовується для налаштування непрозорості або, навпаки, прозорості об'єкта.
+The `opacity` property in CSS is used to adjust the opacity, or conversely, the transparency for an item.
 
 <blockquote>Значення 1 зовсім непрозоре, <br> Значення 0.5 напівпрозоре.<br>Значення 0 повністю прозоре.</blockquote>
 

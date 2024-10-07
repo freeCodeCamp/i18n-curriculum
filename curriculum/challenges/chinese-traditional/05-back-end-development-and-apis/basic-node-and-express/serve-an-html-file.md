@@ -8,7 +8,7 @@ dashedName: serve-an-html-file
 
 # --description--
 
-通過 `res.sendFile(path)` 方法給請求響應一個文件， 可以把它放到路由處理 `app.get('/', ...)` 中。 在後臺，這個方法會根據你想發送的文件的類型，設置適當的消息頭信息來告訴瀏覽器如何處理它， 然後讀取併發送文件， 此方法需要文件的絕對路徑。 建議使用 Node. js 的全局變量 `__dirname` 來計算出這個文件的絕對路徑：
+You can respond to requests with a file using the `res.sendFile(path)` method. You can put it inside the `app.get('/', ...)` route handler. Behind the scenes, this method will set the appropriate headers to instruct your browser on how to handle the file you want to send, according to its type. Then it will read and send the file. This method needs an absolute file path. We recommend you to use the Node global variable `__dirname` to calculate the path like this:
 
 ```js
 absolutePath = __dirname + '/relativePath/file.ext'

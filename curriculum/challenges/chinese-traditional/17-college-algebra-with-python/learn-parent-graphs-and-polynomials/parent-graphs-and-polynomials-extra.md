@@ -12,7 +12,7 @@ dashedName: parent-graphs-and-polynomials-extra
 
 這是<a href="https://colab.research.google.com/drive/1bspkmQVcKOXUuk-Orb0Mwl0GUGbqMpka?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">和這個視頻配套的 Colab 筆記本</a>。
 
-# --questions--
+# 問題
 
 ## --text--
 

@@ -34,7 +34,7 @@ dashedName: problem-84-monopoly-odds
       <tr>
         <td style="background-color: #ffffff; color: black; padding: 5px; border: 1px solid black;">Т2</td>
         <td colspan="9">&nbsp;</td>
-        <td style="background-color: #ffffff; color: black; padding: 5px; border: 1px solid black;">U1</td>
+        <td style="background-color: #ffffff; color: black; padding: 5px; border: 1px solid black;">К1</td>
       </tr>
       <tr>
         <td style="background-color: #ffffff; color: black; padding: 5px; border: 1px solid black;">H1</td>
@@ -49,7 +49,7 @@ dashedName: problem-84-monopoly-odds
       <tr>
         <td style="background-color: #ffffff; color: black; padding: 5px; border: 1px solid black;">R4</td>
         <td colspan="9">&nbsp;</td>
-        <td style="background-color: #ffffff; color: black; padding: 5px; border: 1px solid black;">R2</td>
+        <td style="background-color: #ffffff; color: black; padding: 5px; border: 1px solid black;">З2</td>
       </tr>
       <tr>
         <td style="background-color: #ffffff; color: black; padding: 5px; border: 1px solid black;">G3</td>
@@ -74,13 +74,13 @@ dashedName: problem-84-monopoly-odds
       <tr>
         <td style="background-color: #ffffff; color: black; padding: 5px; border: 1px solid black;">G2J</td>
         <td style="background-color: #ffffff; color: black; padding: 5px; border: 1px solid black;">F3</td>
-        <td style="background-color: #ffffff; color: black; padding: 5px; border: 1px solid black;">U2</td>
+        <td style="background-color: #ffffff; color: black; padding: 5px; border: 1px solid black;">К2</td>
         <td style="background-color: #ffffff; color: black; padding: 5px; border: 1px solid black;">F2</td>
         <td style="background-color: #ffffff; color: black; padding: 5px; border: 1px solid black;">F1</td>
-        <td style="background-color: #ffffff; color: black; padding: 5px; border: 1px solid black;">R3</td>
+        <td style="background-color: #ffffff; color: black; padding: 5px; border: 1px solid black;">З3</td>
         <td style="background-color: #ffffff; color: black; padding: 5px; border: 1px solid black;">E3</td>
         <td style="background-color: #ffffff; color: black; padding: 5px; border: 1px solid black;">E2</td>
-        <td style="background-color: #ffffff; color: black; padding: 5px; border: 1px solid black;">CH2</td>
+        <td style="background-color: #ffffff; color: black; padding: 5px; border: 1px solid black;">Ш2</td>
         <td style="background-color: #ffffff; color: black; padding: 5px; border: 1px solid black;">E1</td>
         <td style="background-color: #ffffff; color: black; padding: 5px; border: 1px solid black;">FP</td>
       </tr>

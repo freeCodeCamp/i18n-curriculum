@@ -1,6 +1,6 @@
 ---
 id: 587d7b83367417b2b2512b33
-title: Use the JavaScript Console to Check the Value of a Variable
+title: 자바스크립트 콘솔을 사용해 변수 값 확인하는 법
 challengeType: 1
 forumTopicId: 18372
 dashedName: use-the-javascript-console-to-check-the-value-of-a-variable
@@ -10,11 +10,11 @@ dashedName: use-the-javascript-console-to-check-the-value-of-a-variable
 
 Both Chrome and Firefox have excellent JavaScript consoles, also known as DevTools, for debugging your JavaScript.
 
-You can find Developer tools in your Chrome's menu or Web Console in Firefox's menu. If you're using a different browser, or a mobile phone, we strongly recommend switching to desktop Firefox or Chrome.
+크롬 브라우저의 '개발자 도구' 메뉴 또는 파이어폭스의 '웹 콘솔' 메뉴를 찾아보시면 됩니다. 만약 다른 브라우저나 모바일 폰을 사용하고 계신다면, 파이어폭스나 크롬 브라우저를 사용하시기를 강력하게 권장합니다.
 
-The `console.log()` method, which "prints" the output of what's within its parentheses to the console, will likely be the most helpful debugging tool. Placing it at strategic points in your code can show you the intermediate values of variables. It's good practice to have an idea of what the output should be before looking at what it is. Having check points to see the status of your calculations throughout your code will help narrow down where the problem is.
+`console.log()` 메소드는 괄호 안의 내용을 콘솔에 아웃풋으로 출력하며, 이는 가장 유용한 디버깅 도구가 될 것입니다. 이 메소드를 코드에서 필요한 부분에 전략적으로 배치하여 변수들의 중간 값들을 확인할 수 있습니다. 출력이 어떻게 되어야 하는지에 대한 생각을 해보고 나서 실제 출력을 확인하는 것이 좋은 습관입니다. 코드 전반에 걸쳐 계산 상태를 확인할 수 있는 체크 포인트를 두는 것은 문제의 위치를 좁혀나가는 데 도움이 됩니다.
 
-Here's an example to print the string `Hello world!` to the console:
+다음은 문자열 `Hello world!`을 콘솔에 출력하는 예제입니다:
 
 ```js
 console.log('Hello world!');
@@ -22,11 +22,11 @@ console.log('Hello world!');
 
 # --instructions--
 
-Use the `console.log()` method to print the value of the variable `a` where noted in the code.
+`console.log()` 메서드를 사용해 코드에서 표시된 곳에 변수 `a`의 값을 출력하세요.
 
 # --hints--
 
-Your code should use `console.log()` to check the value of the variable `a`.
+변수 `a`의 값을 확인하기 위해 `console.log()`를 사용해야 합니다.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/console\.log\(a\)/g));

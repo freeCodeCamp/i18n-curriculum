@@ -1,6 +1,6 @@
 ---
 id: 587d7b7e367417b2b2512b21
-title: Use Multiple Conditional (Ternary) Operators
+title: 다중 조건 (삼항) 연산자 사용하기
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cyWJBT4'
 forumTopicId: 301179
@@ -11,7 +11,7 @@ dashedName: use-multiple-conditional-ternary-operators
 
 In the previous challenge, you used a single conditional operator. You can also chain them together to check for multiple conditions.
 
-The following function uses `if`, `else if`, and `else` statements to check multiple conditions:
+다음 함수는 다중 조건을 확인하기 위해 `if`, `else if` 그리고 `else` 문을 사용합니다.
 
 ```js
 function findGreaterOrEqual(a, b) {
@@ -27,7 +27,7 @@ function findGreaterOrEqual(a, b) {
 }
 ```
 
-The above function can be re-written using multiple conditional operators:
+위 함수는 다중 조건 연산자를 사용하여 다시 작성할 수 있습니다:
 
 ```js
 function findGreaterOrEqual(a, b) {
@@ -37,7 +37,7 @@ function findGreaterOrEqual(a, b) {
 }
 ```
 
-It is considered best practice to format multiple conditional operators such that each condition is on a separate line, as shown above. Using multiple conditional operators without proper indentation may make your code hard to read. 예:
+여러 조건 연산자를 사용할 때는 각 조건을 위와 같이 별도의 줄에 작성하는 것이 모범 사례로 간주됩니다. 적절한 들여쓰기없이 다중 조건 연산자를 사용하는 것은 코드를 읽는 데 어려움을 줄 수 있습니다. 예:
 
 ```js
 function findGreaterOrEqual(a, b) {
@@ -47,29 +47,29 @@ function findGreaterOrEqual(a, b) {
 
 # --instructions--
 
-In the `checkSign` function, use multiple conditional operators - following the recommended format used in `findGreaterOrEqual` - to check if a number is positive, negative or zero. The function should return `positive`, `negative` or `zero`.
+숫자가 양수, 음수 혹은 0인지 확인하기 위해 `findGreaterOrEqual`에 사용된 권장 포맷으로 `checkSign` 함수에 다중 조건 연산자를 사용하시오. 해당 함수는 `positive`, `negative` 혹은 `zero`을 반환해야 합니다.
 
 # --hints--
 
-`checkSign` should use multiple conditional operators
+`checkSign`는 다중 조건 연산자를 사용해야 합니다
 
 ```js
 assert(/.+?\s*?\?\s*?.+?\s*?:\s*?.+?\s*?\?\s*?.+?\s*?:\s*?.+?/gi.test(__helpers.removeJSComments(code)));
 ```
 
-`checkSign(10)` should return the string `positive`. Note that capitalization matters
+`checkSign(10)`은 문자열 `positive`을 반환해야 합니다. 대문자/소문자 여부가 중요하다는 것에 유의하시오
 
 ```js
 assert(checkSign(10) === 'positive');
 ```
 
-`checkSign(-12)` should return the string `negative`. Note that capitalization matters
+`checkSign(-12)`는 문자열 `negative`을 반환해야 합니다. 대문자/소문자 여부가 중요하다는 것에 유의하시오
 
 ```js
 assert(checkSign(-12) === 'negative');
 ```
 
-`checkSign(0)` should return the string `zero`. Note that capitalization matters
+`checkSign(0)`는 문자열 `zero`을 반환해야 합니다. 대문자/소문자 여부가 중요하다는 것에 유의하시오
 
 ```js
 assert(checkSign(0) === 'zero');

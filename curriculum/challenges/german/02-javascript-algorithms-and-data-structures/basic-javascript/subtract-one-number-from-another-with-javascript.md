@@ -9,7 +9,7 @@ dashedName: subtract-one-number-from-another-with-javascript
 
 # --description--
 
-Wir können auch eine Zahl von einer anderen subtrahieren.
+We can also subtract one number from another.
 
 JavaScript verwendet das Symbol `-` für die Subtraktion.
 

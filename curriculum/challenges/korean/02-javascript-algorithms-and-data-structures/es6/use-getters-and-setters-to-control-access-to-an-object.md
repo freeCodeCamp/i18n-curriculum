@@ -8,7 +8,7 @@ dashedName: use-getters-and-setters-to-control-access-to-an-object
 
 # --description--
 
-여러분은 객체에서 값을 가져오거나 객체 속성에 값을 할당할 수 있습니다.
+You can obtain values from an object and set the value of a property within an object.
 
 이 행위를 전통적으로 <dfn>getter</dfn>, <dfn>setter</dfn>라고 부릅니다.
 

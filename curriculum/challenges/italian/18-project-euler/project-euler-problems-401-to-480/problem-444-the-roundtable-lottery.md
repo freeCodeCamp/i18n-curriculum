@@ -19,13 +19,13 @@ Il gioco termina una volta che tutti i biglietti sono stati grattati. Tutti i gi
 
 Supponiamo che ogni giocatore usi la strategia ottimale per ottimizzare il valore previsto delle vincite del proprio biglietto.
 
-Sia $E(p)$ il numero previsto di giocatori rimasti al tavolo quando il gioco finisce in una partita di $p$ giocatori (e.g. $E(111)=5,2912$ quando arrotondato a 5 cifre significative.
+Rappresenti $E(p)$ il numero previsto di giocatori rimasti alla tavola quando il gioco finisce in un gioco consistente in $p$ giocatori (e.g. $E(111)=5,2912$ quando arrotondato a 5 cifre significative.
 
 Sia $S_1(N) = \displaystyle\sum_{p = 1}^N E(p)$.
 
 Sia $S_k(N) = \displaystyle\sum_{p = 1}^N S_{k - 1}(p)$ per $k > 1$.
 
-Trova $S_{20}({10}^{14})$ e scrivi la risposta come una stringa in notazione scientifica arrotondata a 10 cifre significative. Usa una `e` minuscola per separare mantissa ed esponente. Per esempio, la risposta per $S_3(100)$ sarebbe `5.983679014e5`.
+Trova $S_{20}({10}^{14})$ e scrivi la risposta come una stringa in notazione scientifica arrotondata a 10 cifre significative. Utilizza una `e` minuscola per separare mantissa ed esponente. Per esempio, la risposta per $S_3(100)$ sarebbe `5.983679014e5`.
 
 # --hints--
 

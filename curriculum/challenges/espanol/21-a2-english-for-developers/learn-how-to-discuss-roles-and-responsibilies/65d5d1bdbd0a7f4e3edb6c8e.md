@@ -1,6 +1,6 @@
 ---
 id: 65d5d1bdbd0a7f4e3edb6c8e
-title: Task 34
+title: Tarea 34
 challengeType: 19
 dashedName: task-34
 ---
@@ -11,7 +11,7 @@ dashedName: task-34
 
 Listen to the audio and answer the question.
 
-# --questions--
+# --preguntas----preguntas--
 
 ## --text--
 

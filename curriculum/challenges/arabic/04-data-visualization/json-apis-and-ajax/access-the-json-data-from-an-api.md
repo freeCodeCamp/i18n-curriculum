@@ -1,6 +1,6 @@
 ---
 id: 587d7fae367417b2b2512be4
-title: Access the JSON Data from an API
+title: الوصول إلى بيانات JSON من واجهة برمجة التطبيقات (API)
 challengeType: 6
 forumTopicId: 301499
 dashedName: access-the-json-data-from-an-api
@@ -10,15 +10,15 @@ dashedName: access-the-json-data-from-an-api
 
 In the previous challenge, you saw how to get JSON data from the freeCodeCamp Cat Photo API.
 
-Now you'll take a closer look at the returned data to better understand the JSON format. Recall some notation in JavaScript:
+الآن ستفحص البيانات التي تم إرجاعها لفهم صيغة JSON بشكل أفضل. تذكر بعض العلامات في JavaScript:
 
-<blockquote>[ ] -> Square brackets represent an array.<br>{ } -> Curly brackets represent an object.<br>" " -> Double quotes represent a string. They are also used for key names in JSON.</blockquote>
+<blockquote>[ ] -> الأقواس المربعة تمثل قائمة.<br>{ } -> الأقواس المقرونة تمثل كائناً.<br>" -> تمثل الاقتباسات المزدوجة مقطع نصي. وهي تستخدم أيضا للأسماء الرئيسية في JSON.</blockquote>
 
-Understanding the structure of the data that an API returns is important because it influences how you retrieve the values you need.
+فهم تركيب البيانات التي تعود بها API مهم لأنه يؤثر على كيفية استرداد القيم التي تحتاجها.
 
-On the right, click the `Get Message` button to load the freeCodeCamp Cat Photo API JSON into the HTML.
+على اليمين، انقر على زر `Get Message` لتحميل الجيسن freeCodeCamp Cat Photo API JSON في HTML.
 
-The first and last character you see in the JSON data are square brackets `[ ]`. This means that the returned data is an array. The second character in the JSON data is a curly `{` bracket, which starts an object. Looking closely, you can see that there are three separate objects. The JSON data is an array of three objects, where each object contains information about a cat photo.
+الحرف الأول والأخير الذي تراه في بيانات JSON هو قوسين مربعين `[ ]`. وهذا يعني أن البيانات المستعادة هي قائمة. الحرف الثاني في بيانات JSON هو قوس مقرون `{` لبدأ الكائن. لو نظرت بتمعن يمكنك أن تلاحظ أن هناك ثلاث كائنات منفصلة. بيانات JSON عبارة عن مجموعة من ثلاث كائنات، حيث يحتوي كل جسم على معلومات حول صورة قطة.
 
 You learned earlier that objects contain "key-value pairs" that are separated by commas. In the Cat Photo example, the first object has `"id":0` where `id` is a key and `0` is its corresponding value. Similarly, there are keys for `imageLink`, `altText`, and `codeNames`. Each cat photo object has these same keys, but with different values.
 

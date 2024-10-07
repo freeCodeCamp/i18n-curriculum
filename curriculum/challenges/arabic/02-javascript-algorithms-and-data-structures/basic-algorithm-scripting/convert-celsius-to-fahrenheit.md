@@ -8,7 +8,7 @@ dashedName: convert-celsius-to-fahrenheit
 
 # --description--
 
-معادلة تحويل درجة الحرارة من الدرجة المئوية إلى درجة فهرنهايت هي: درجة الحرارة المئوية مضروبة في `9/5`, مضاف إليها `32`.
+The formula to convert from Celsius to Fahrenheit is the temperature in Celsius times `9/5`, plus `32`.
 
 لديك المتغير `celsius` ويمثل درجة الحرارة المئوية. استخدم المتغير `fahrenheit` الذي سبق أعلانه وعيّن درجة حرارة فهرنهايت المعادلة لدرجة الحرارة المئوية المعطاة. استخدم المعادلة في السطر الأول، لتحويل درجة الحرارة المئوية إلى فهرنهايت.
 

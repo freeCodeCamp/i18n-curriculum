@@ -8,7 +8,7 @@ dashedName: insert-an-element-into-a-max-heap
 
 # --description--
 
-Agora, vamos passar para outra estrutura de dados em árvore, o heap binário. Um heap (pilha) binário é uma árvore binária parcialmente ordenada que satisfaz a propriedade heap. A propriedade heap especifica uma relação entre o nó pai e os nós filhos. Você pode ter um Max Heap, no qual todos os nós pai são maiores ou iguais aos seus nós filhos, ou um Min Heap, em que o inverso é verdadeiro. Heaps binários também são árvores binárias completas. Isso significa que todos os níveis da árvore estão totalmente preenchidos e, se o último nível estiver parcialmente preenchido, ele é preenchido da esquerda para a direita.
+Now we will move on to another tree data structure, the binary heap. A binary heap is a partially ordered binary tree which satisfies the heap property. The heap property specifies a relationship between parent and child nodes. You may have a max heap, in which all parent nodes are greater than or equal to their child nodes, or a min heap, in which the reverse is true. Binary heaps are also complete binary trees. This means that all levels of the tree are fully filled and if the last level is partially filled it is filled from left to right.
 
 Enquanto os heaps binários podem ser implementados como estruturas de árvore, com nós que contêm referências à esquerda ou à direita, a ordenação parcial de acordo com a propriedade heap nos permite representar o heap como um array. A relação pai-filho é o que nos interessa e, com aritmética simples, podemos calcular os filhos de qualquer pai ou o pai de qualquer nó filho.
 
@@ -39,7 +39,7 @@ Assim que você compreender a matemática, usar uma representação de array pas
 Instruções: Aqui vamos criar um Max Heap. Comece criando um método `insert` que adiciona elementos ao nosso heap. Durante a inserção, é importante manter sempre a propriedade heap. Para um heap máximo, isso significa que o elemento raiz deve sempre ter o maior valor na árvore e todos os nós pai devem ser maiores que seus filhos. Para uma implementação de um array de heap, isso normalmente é feito em três etapas:
 
 <ol>
-  <li>Adicione o novo elemento ao final do array.</li>
+  <li>Add the new element to the end of the array.</li>
   <li>Se o elemento for maior do que o seu pai, troque-o.</li>
   <li>Continue alterando até que o novo elemento seja menor que o seu pai ou até que você alcance a raiz da árvore.</li>
 </ol>

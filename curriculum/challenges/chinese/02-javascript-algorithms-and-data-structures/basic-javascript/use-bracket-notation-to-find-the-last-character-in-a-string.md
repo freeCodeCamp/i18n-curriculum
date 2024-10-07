@@ -9,7 +9,7 @@ dashedName: use-bracket-notation-to-find-the-last-character-in-a-string
 
 # --description--
 
-要获取字符串的最后一个字符，可以用字符串的长度减 1 的索引值。
+In order to get the last letter of a string, you can subtract one from the string's length.
 
 例如，如果 `const firstName = "Ada"`，则可以使用 `firstName[firstName.length - 1]` 获取字符串最后一个字母的值。
 

@@ -13,7 +13,7 @@ dashedName: responsively-style-checkboxes
 
 # --description--
 
-Оскільки класи `col-xs-*` можна застосувати до всіх елементів `form`, їх можна використати і для прапорців! Таким чином прапорці будуть рівномірно розташовані на сторінці, незалежно від того, яка роздільна здатність екрану.
+Since Bootstrap's `col-xs-*` classes are applicable to all `form` elements, you can use them on your checkboxes too! This way, the checkboxes will be evenly spread out across the page, regardless of how wide the screen resolution is.
 
 # --instructions--
 

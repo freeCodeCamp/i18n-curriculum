@@ -9,7 +9,7 @@ dashedName: create-decimal-numbers-with-javascript
 
 # --description--
 
-Wir können auch Dezimalzahlen in Variablen speichern. Dezimalzahlen werden manchmal auch als <dfn>Gleitkommazahlen</dfn> oder <dfn>floats</dfn> bezeichnet.
+We can store decimal numbers in variables too. Decimal numbers are sometimes referred to as <dfn>floating point</dfn> numbers or <dfn>floats</dfn>.
 
 **Hinweis:** Wenn du Zahlen berechnest, geschieht das mit begrenzter Genauigkeit. Berechnungen mit Gleitkommazahlen können zu unerwünschten Ergebnissen führen. Erhältst du ein solches Ergebnis, kannst du einen Thread im <a href="https://forum.freecodecamp.org/" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp-Forum</a> erstellen.
 

@@ -12,7 +12,7 @@ dashedName: solving-systems
 
 這是<a href="https://colab.research.google.com/drive/1UfyQiXCedAAv5kcqgi_pGYV-HkSgN8YD?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">這個視頻中用到的 Colab 筆記本</a>。
 
-# --任務--
+# --作業--
 
 在你的筆記本上添加代碼，以求解方程組和繪製圖像。
 

@@ -71,7 +71,7 @@ dashedName: links-and-images-lesson-e
 Ось так виглядає логотип The Odin Project з атрибутом `alt`:
 <iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="300" width="100%" name="cp_embed_2" scrolling="no" src="https://codepen.io/TheOdinProjectExamples/embed/ExXjoEp?height=300&amp;theme-id=dark&amp;default-tab=html%2Cresult&amp;slug-hash=ExXjoEp&amp;user=TheOdinProjectExamples&amp;name=cp_embed_2" style="width: 100%; overflow:hidden; display:block;" title="Вставка CodePen" loading="lazy" id="cp_embed_ExXjoEp"></iframe>
 
-# --assignment--
+# --Завдання--
 
 Перегляньте відео Кевіна Павелла про зображення у HTML (розміщене вище).
 

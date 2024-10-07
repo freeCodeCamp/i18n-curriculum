@@ -8,9 +8,9 @@ dashedName: use-a-pre-defined-scale-to-place-elements
 
 # --description--
 
-当比例尺建立好后，是时候重新映射散点图了。 比例尺就像操作函数一样，将 `x` 和 `y` 的原数据值变为适应 SVG 并可在 SVG 上正确渲染的值。 它们使数据在屏幕的布局区域内部。
+With the scales set up, it's time to map the scatter plot again. The scales are like processing functions that turn the `x` and `y` raw data into values that fit and render correctly on the SVG. They keep the data within the screen's plotting area.
 
-用比例尺函数为 SVG 图形设置坐标属性值。 这包括 `rect` 或者 `text` 元素的 `x` 和 `y` 属性，或者 `circles` 的 `cx` 和 `cy`。 以下是一个例子：
+用比例尺函数为 SVG 图形设置坐标属性值。 这包括 `rect` 或者 `text` 元素的 `x` 和 `y` 属性，或者 `circles` 的 `cx` 和 `cy`。 这是一个示例：
 
 ```js
 shape

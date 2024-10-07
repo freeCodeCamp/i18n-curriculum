@@ -8,7 +8,7 @@ dashedName: create-a-method-on-an-object
 
 # --description--
 
-對象可以有一個叫做 <dfn>method</dfn> 的特殊屬性。
+Objects can have a special type of property, called a <dfn>method</dfn>.
 
 方法屬性也就是函數。 這給對象添加了不同的行爲。 以下就是一個帶有方法屬性的 `duck` 示例：
 

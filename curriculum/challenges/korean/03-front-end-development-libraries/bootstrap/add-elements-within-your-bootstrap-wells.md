@@ -8,7 +8,7 @@ dashedName: add-elements-within-your-bootstrap-wells
 
 # --description--
 
-이제 각 행의 각 열마다 몇 개의 `div` 요소가 배치되었습니다. 이 정도로 깊게 들어가는 것으로 충분합니다. 이제 여기에 `button` 요소를 추가하면 됩니다.
+Now we're several `div` elements deep on each column of our row. This is as deep as we'll need to go. Now we can add our `button` elements.
 
 클래스 이름이 `well`인 각각의 `div` 요소 안에 `button` 요소를 세 개씩 배치해주세요.
 

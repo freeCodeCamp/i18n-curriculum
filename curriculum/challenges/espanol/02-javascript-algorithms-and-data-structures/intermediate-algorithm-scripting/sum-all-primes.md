@@ -8,7 +8,7 @@ dashedName: sum-all-primes
 
 # --description--
 
-Un <dfn>número primo</dfn> es un número entero mayor que 1 con sólo dos divisores: 1 y el propio número. Por ejemplo, 2 es un número primo porque sólo es divisible entre 1 y 2. Por el contrario, 4 no es primo ya que es divisible entre 1, 2 y 4.
+A <dfn>prime number</dfn> is a whole number greater than 1 with exactly two divisors: 1 and itself. For example, 2 is a prime number because it is only divisible by 1 and 2. In contrast, 4 is not prime since it is divisible by 1, 2 and 4.
 
 Reescribe `sumPrimes` para que devuelva la suma de todos los números primos que sean menores o iguales a num.
 

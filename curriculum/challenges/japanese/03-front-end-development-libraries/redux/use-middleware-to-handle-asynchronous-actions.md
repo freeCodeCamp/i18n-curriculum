@@ -8,7 +8,7 @@ dashedName: use-middleware-to-handle-asynchronous-actions
 
 # --description--
 
-ここまでのチャレンジでは、非同期アクションについて説明を避けてきましたが、これはウェブ開発において避けることのできないテーマです。 Redux アプリでも、ある特定の時点で非同期のエンドポイントを呼び出すことが必要になります。このような要求はどう処理すればよいのでしょうか？ Redux では、この目的のために設計されたミドルウェアが用意されており、Redux Thunk ミドルウェアと呼ばれています。 ここでは、Redux でこのミドルウェアを使用する方法を簡単に説明します。
+So far these challenges have avoided discussing asynchronous actions, but they are an unavoidable part of web development. At some point you'll need to call asynchronous endpoints in your Redux app, so how do you handle these types of requests? Redux provides middleware designed specifically for this purpose, called Redux Thunk middleware. Here's a brief description how to use this with Redux.
 
 Redux Thunk ミドルウェアをインクルードするには、ミドルウェアを `Redux.applyMiddleware()` への引数として渡します。 次に、このステートメントを `createStore()` 関数への 2 つ目のオプションパラメーターとして渡します。 エディターの一番下のコードでこれを確認してください。 その次に、非同期アクションを作成するため、アクションクリエイターで `dispatch` を引数に取る関数を返します。 この関数の中で、アクションをディスパッチしたり、非同期要求を実行したりできます。
 

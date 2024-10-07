@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: developing-an-nmap-scanner-part-2
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-¿Cuál de las siguientes opciones le permite buscar puertos UDP entre 21 a 443?
+Which of the following allows you to scan for UDP ports between 21 to 443?
 
 ## --answers--
 

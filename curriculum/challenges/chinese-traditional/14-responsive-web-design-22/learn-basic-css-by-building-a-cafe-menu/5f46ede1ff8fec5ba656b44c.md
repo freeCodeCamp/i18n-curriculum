@@ -7,7 +7,7 @@ dashedName: step-77
 
 # --description--
 
-接下來你將要調整 `footer` 元素。 爲了保持 CSS 的條理性，在 `styles.css` 的末尾添加一個註釋，文字爲 `FOOTER`。
+Next you are going to be styling the `footer` element. To keep the CSS organized, add a comment at the end of `styles.css` with the text `FOOTER`.
 
 # --hints--
 

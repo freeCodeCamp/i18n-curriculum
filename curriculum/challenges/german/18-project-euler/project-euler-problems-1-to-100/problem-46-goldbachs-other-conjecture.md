@@ -8,7 +8,7 @@ dashedName: problem-46-goldbachs-other-conjecture
 
 # --description--
 
-It was proposed by Christian Goldbach that every odd composite number can be written as the sum of a prime and twice a square.
+Christian Goldbach schlug vor, dass jede ungerade zusammengesetzte Zahl als Summe einer Primzahl und einer doppelten Quadratzahl geschrieben werden kann.
 
 <div style='margin-left: 2em;'>
   9 = 7 + 2×1<sup>2</sup><br>

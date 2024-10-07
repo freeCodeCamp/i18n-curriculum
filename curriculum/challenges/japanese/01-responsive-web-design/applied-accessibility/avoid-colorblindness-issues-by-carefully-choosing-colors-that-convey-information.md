@@ -11,7 +11,7 @@ dashedName: >-
 
 # --description--
 
-色弱には様々なタイプがあります。 これらには、特定の波長に対する感度が低下するタイプから色が全く見えないタイプまで幅があります。 最も多いタイプは、緑を認識する感度が低下するものです。
+There are various forms of colorblindness. These can range from a reduced sensitivity to a certain wavelength of light to the inability to see color at all. The most common form is a reduced sensitivity to detect greens.
 
 例えば、似たような 2 つの緑色をコンテンツの前景色と背景色に使用した場合、色弱者のユーザーはそれを区別できないかもしれません。 近い色はカラーホイール上の隣り合った色として考えることができます。重要な情報を伝える際にはその組み合わせは避けるべきです。
 

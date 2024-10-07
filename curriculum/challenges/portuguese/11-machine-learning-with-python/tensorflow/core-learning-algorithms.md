@@ -12,31 +12,31 @@ dashedName: core-learning-algorithms
 
 # --description--
 
-As próximas aulas em vídeo farão referência a [este Colab notebook](https://colab.research.google.com/drive/15Cyy2H7nT40sGR7TBN5wBvgTd57mVKay#forceEdit=true&sandboxMode=true).
+The next few video lessons will reference [this Colab notebook](https://colab.research.google.com/drive/15Cyy2H7nT40sGR7TBN5wBvgTd57mVKay#forceEdit=true&sandboxMode=true).
 
 # --questions--
 
 ## --text--
 
-Qual o tipo de análise mais adequado para o seguinte problema?
+Which type of analysis would be best suited for the following problem?:
 
-Você tem a temperatura média no mês de março dos últimos 100 anos. Usando estes dados, você quer prever a temperatura média no mês de março daqui a 5 anos.
+You have the average temperature in the month of March for the last 100 years. Using this data, you want to predict the average temperature in the month of March 5 years from now.
 
 ## --answers--
 
-Regressão múltipla
+Multiple regression
 
 ---
 
-Correlação
+Correlation
 
 ---
 
-Árvore de decisão
+Decision tree
 
 ---
 
-Regressão linear
+Linear regression
 
 ## --video-solution--
 

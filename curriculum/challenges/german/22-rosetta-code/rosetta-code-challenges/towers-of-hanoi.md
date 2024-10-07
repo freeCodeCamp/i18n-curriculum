@@ -8,7 +8,7 @@ dashedName: towers-of-hanoi
 
 # --description--
 
-Solve the Towers of Hanoi problem. The number of objects will be given as the first parameter, followed by the strings used to identify each stack of objects. Create a nested array containing the list of moves, `["source", "destination"]`.
+Löse das Problem der Türme von Hanoi. Als erster Parameter wird die Anzahl der Objekte angegeben, gefolgt von den Zeichenketten, die zur Identifizierung der einzelnen Objektstapel verwendet werden. Erstellt ein verschachtelte Anordnung mit der Liste der Züge, `["source", "destination"]`.
 
 Zum Beispiel ergeben die Parameter `(4, 'A', 'B', 'C')` ein verschachteltes Array von Zügen `[['A', 'C'], ['B', 'A']]`, das anzeigt, dass der 1ste Zug darin bestand, ein Objekt vom Stapel `A` nach `C` zu verschieben und der 2te Zug darin bestand, ein Objekt vom Stapel `B` nach `A` zu verschieben.
 
@@ -36,7 +36,7 @@ assert(res3.length === 7);
 assert.deepEqual(towerOfHanoi(3, 'A', 'B', 'C'), res3Moves);
 ```
 
-`towerOfHanoi(5, "X", "Y", "Z")` 10. Zug sollte Y -> X sein.
+`towerOfHanoi(5, "X", "Y", "Z")` 10th move should be Y -> X.
 
 ```js
 assert.deepEqual(res5[9], ['Y', 'X']);

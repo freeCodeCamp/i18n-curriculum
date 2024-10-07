@@ -1,6 +1,6 @@
 ---
 id: 5e8f2f13c4cdbe86b5c72da1
-title: 'Natural Language Processing With RNNs: Building the Model'
+title: 'Procesamiento del lenguaje natural con RNN: construcción del modelo'
 challengeType: 11
 videoId: 32WBFS7lfsw
 bilibiliIds:
@@ -10,7 +10,7 @@ bilibiliIds:
 dashedName: natural-language-processing-with-rnns-building-the-model
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
@@ -32,7 +32,7 @@ def build_mode(vocab_size, embedding_dim, rnn_units, batch_size):
 
 ## --answers--
 
-A: `ELU`
+No identificador (llave) Texto de párrafo XPath: /p[2] Archivo: natural-language-processing-with-rnns-building-the-model. md
 
 B: `True`
 

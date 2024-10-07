@@ -12,21 +12,21 @@ The next few challenges will cover maps and hash tables. Maps are data structure
 
 # --instructions--
 
-Let's get some practice creating our own map. Because JavaScript objects provide a much more efficient map structure than anything we could write here, this is intended primarily as a learning exercise. However, JavaScript objects only provide us with certain operations. What if we wanted to define custom operations? Use the `Map` object provided here as a wrapper around a JavaScript `object`. Create the following methods and operations on the Map object:
+讓我們練習創建我們自己的映射。 因爲 JavaScript 對象提供了比我們在此處編寫的任何內容更有效的映射結構，所以這裏主要是作爲學習的練習。 但是，JavaScript 對象僅向我們提供某些操作。 如果我們想定義自定義操作怎麼辦？ 使用此處提供的 `Map` 對象作爲 JavaScript `object` 的包裝器。 在 Map 對象上創建以下方法和操作：
 
 <ul>
 <li><code>add</code> accepts a <code>key, value</code> pair to add to the map.</li>
-<li><code>remove</code> accepts a key and removes the associated <code>key, value</code> pair</li>
-<li><code>get</code> accepts a <code>key</code> and returns the stored <code>value</code></li>
-<li><code>has</code> accepts a <code>key</code> and returns <dfn>true</dfn> if the key exists or <dfn>false</dfn> if it doesn't.</li>
-<li><code>values</code> returns an array of all the values in the map</li>
-<li><code>size</code> returns the number of items in the map</li>
-<li><code>clear</code> empties the map</li>
+<li><code>remove</code> 接受一個鍵並刪除關聯的 <code>key, value</code> 對</li>
+<li><code>get</code> 接受一個 <code>key</code> 並返回存儲的 <code>value</code></li>
+<li><code>has</code> 接受一個 <code>key</code>，如果鍵存在，則返回 <dfn>true</dfn>，否則返回 <dfn>false</dfn>。</li>
+<li><code>values</code> 返回映射中所有值的數組</li>
+<li><code>size</code> 返回映射中的項目數</li>
+<li><code>clear</code> 清空映射</li>
 </ul>
 
 # --hints--
 
-The `Map` data structure should exist.
+叫做 `HashTable` 的數據結構應當存在。
 
 ```js
 assert(
@@ -40,7 +40,7 @@ assert(
 );
 ```
 
-The `Map` object should have the following methods: `add`, `remove`, `get`, `has`, `values`, `clear`, and `size`.
+`Map` 對象應該有以下方法： `add`, `remove` ,`get`, `has`, `values`, `clear`, 和 `size`。
 
 ```js
 assert(
@@ -62,7 +62,7 @@ assert(
 );
 ```
 
-The `add` method should add items to the map.
+`add`方法應當將元素添加到映射中。
 
 ```js
 assert(
@@ -79,7 +79,7 @@ assert(
 );
 ```
 
-The `has` method should return `true` for added items and `false` for absent items.
+`has` 方法，對於已經添加的項目應該返回 `true`, 缺失的項目返回`false` 。
 
 ```js
 assert(
@@ -94,7 +94,7 @@ assert(
 );
 ```
 
-The `get` method should accept keys as input and should return the associated values.
+`get` 方法應該接受映射的鍵值作爲輸入，並返回相關的值。
 
 ```js
 assert(
@@ -109,7 +109,7 @@ assert(
 );
 ```
 
-The `values` method should return all the values stored in the map as strings in an array.
+`values` 方法應該將存儲在映射中的所有的值作爲字符串數組返回。
 
 ```js
 assert(
@@ -131,7 +131,7 @@ assert(
 );
 ```
 
-The `clear` method should empty the map and the `size` method should return the number of items present in the map.
+`clear` 方法應該清空映射， `size` 方法應該返回地圖中存在的項目數量。
 
 ```js
 assert(

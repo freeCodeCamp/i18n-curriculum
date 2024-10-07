@@ -1,6 +1,6 @@
 ---
 id: 587d8257367417b2b2512c7b
-title: Adicionar um novo elemento a uma árvore binária de busca
+title: Add a New Element to a Binary Search Tree
 challengeType: 1
 forumTopicId: 301618
 dashedName: add-a-new-element-to-a-binary-search-tree
@@ -8,7 +8,7 @@ dashedName: add-a-new-element-to-a-binary-search-tree
 
 # --description--
 
-Esta série de desafios vai introduzir a estrutura de dados de árvore. As árvores são uma estrutura de dados importante e versátil na ciência da computação. É claro que o seu nome vem do fato de, quando visualizada, se assemelhar muito a uma árvore, com a qual estamos familiarizados no mundo natural. Uma estrutura de dados de árvore começa com um nó, normalmente referido como nó raiz (ou root). Deste nó surgem ramificações para os nós adicionais, cada um dos quais pode ter mais nós filhos, e assim por diante. A estrutura de dados geralmente é visualizada com o nó raiz na parte superior. Imagine-a como se fosse uma árvore natural, mas de cabeça para baixo.
+This series of challenges will introduce the tree data structure. Trees are an important and versatile data structure in computer science. Of course, their name comes from the fact that when visualized they look much like the trees we are familiar with in the natural world. A tree data structure begins with one node, typically referred to as the root, and from here branches out to additional nodes, each of which may have more child nodes, and so on and so forth. The data structure is usually visualized with the root node at the top; you can think of it as a natural tree flipped upside down.
 
 Primeiro, vamos descrever a terminologia comum que encontraremos ao falar de árvores. O nó raiz é o topo da árvore. Os pontos de dados na árvore são chamados de nós. Nós com ramificações (branches) que levam a outros nós são referidos como o pai dos nós para os quais as ramificações levam (os filhos). São aplicados outros termos familiares mais complicados, como você poderia esperar. Uma subárvore se refere a todos os descendentes de um nó específico. Ramificações podem ser chamadas de ramos, e os nós folhas são nós no final da árvore que não têm filhos. Por fim, observe que as árvores são estruturas de dados inerentemente recursivas. Ou seja, os filhos de um nó são pais de sua própria subárvore, e assim por diante. É importante entender a natureza recursiva das árvores ao projetar algoritmos para operações comuns com árvores.
 

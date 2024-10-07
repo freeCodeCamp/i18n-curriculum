@@ -13,7 +13,7 @@ dashedName: line-up-form-elements-responsively-with-bootstrap
 
 # --description--
 
-現在把表單裏的 `input` 元素和 submit `button` （提交按鈕）放在同一行。 跟着之前的做法來就行：準備好一個具有 `row` class 的 `div` 元素還有幾個具有 `col-xs-*` class 的 `div` 元素。
+Now let's get your form `input` and your submission `button` on the same line. We'll do this the same way we have previously: by using a `div` element with the class `row`, and other `div` elements within it using the `col-xs-*` class.
 
 先把表單的 text `input` （文本輸入框）和 submit `button` （提交按鈕）放進具有 `row` class 的 `div` 中。 再用 `col-xs-7` class 的 div 包裹表單的 text `input` （文本輸入框）， `col-xs-5` class 的 `div` 包裹表單的 submit `button` （提交按鈕）。
 

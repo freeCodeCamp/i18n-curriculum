@@ -9,13 +9,13 @@ dashedName: use-css-grid-units-to-change-the-size-of-columns-and-rows
 
 # --description--
 
-Puedes usar unidades absolutas y relativas como `px` y `em` en CSS Grid para definir el tamaño de filas y columnas. Puedes usar estas también:
+You can use absolute and relative units like `px` and `em` in CSS Grid to define the size of rows and columns. You can use these as well:
 
 `fr`: fija la columna o fila a una fracción del espacio disponible,
 
 `auto`: fija la columna o fila al ancho o alto de su contenido automáticamente,
 
-`%`: ajusta la columna o fila al porcentaje de ancho de su contenedor.
+`%`: adjusts the column or row to the percent width of its container.
 
 A continuación el código que genera el resultado de la vista previa:
 

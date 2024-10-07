@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: networking-protocol
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-What type of HTTP request is usually used to access a website?
+¿Qué tipo de petición HTTP se usa generalmente para acceder a un sitio web?
 
 ## --answers--
 

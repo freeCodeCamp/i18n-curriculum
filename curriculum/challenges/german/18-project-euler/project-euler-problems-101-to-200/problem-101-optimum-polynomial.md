@@ -16,7 +16,7 @@ Nehmen wir an, wir hätten nur die ersten beiden Terme dieser Folge. Nach dem Pr
 
 Wir definieren $OP(k, n)$ als den $n^{th}$-Term der optimalen polynomialen generierenden Funktion für die ersten k Terme einer Folge. Es sollte klar sein, dass $OP(k, n)$ die Terme der Sequenz für $n ≤ k$ genau erzeugt, und dass der erste falsche Term (FIT) möglicherweise $OP(k, k+1)$ ist; in diesem Fall nennen wir ihn einen schlechten OP (BOP).
 
-As a basis, if we were only given the first term of sequence, it would be most sensible to assume constancy; that is, for $n ≥ 2, OP(1, n) = u_1$.
+Wenn wir als Grundlage nur den ersten Term der Sequenz haben, wäre es am sinnvollsten, eine Konstante anzunehmen, d. h. für $n ≥ 2, OP(1, n) = u_1$.
 
 Daraus ergeben sich die folgenden OPs für die quadratische Abfolge:
 
@@ -24,7 +24,7 @@ $$\begin{array}{ll}   OP(1, n) = 1          & 1, {\color{red}1}, 1, 1, \ldots   
   OP(2, n) = 7n−6       & 1, 8, {\color{red}{15}}, \ldots     \\\\   OP(3, n) = 6n^2−11n+6 & 1, 8, 27, {\color{red}{58}}, \ldots \\\\
   OP(4, n) = n^3        & 1, 8, 27, 64, 125, \ldots \end{array}$$
 
-Offensichtlich gibt es keine BOPs für k ≥ 4. Betrachtet man die Summe der von den BOPs erzeugten FITs (oben in $\color{red}{red}$ angegeben), erhält man 1 + 15 + 58 = 74. Consider the following tenth degree polynomial generating function:
+Offensichtlich gibt es keine BOPs für k ≥ 4. Betrachtet man die Summe der von den BOPs erzeugten FITs (oben in $\color{red}{red}$ angegeben), erhält man 1 + 15 + 58 = 74. Betrachte die folgende polynomiale Erzeugungsfunktion zehnten Grades:
 
 $$u_n = 1 − n + n^2 − n^3 + n^4 − n^5 + n^6 − n^7 + n^8 − n^9 + n^{10}$$
 

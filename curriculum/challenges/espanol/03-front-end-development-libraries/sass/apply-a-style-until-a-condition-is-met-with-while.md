@@ -8,7 +8,7 @@ dashedName: apply-a-style-until-a-condition-is-met-with-while
 
 # --description--
 
-La directiva `@while` es una opción con funcionalidad similar al bucle `while` de JavaScript. Crea reglas CSS hasta que se cumpla una condición.
+The `@while` directive is an option with similar functionality to the JavaScript `while` loop. It creates CSS rules until a condition is met.
 
 El desafío `@for` dio un ejemplo para crear un sistema de cuadrícula (grid) simple. Esto también puede funcionar con `@while`.
 

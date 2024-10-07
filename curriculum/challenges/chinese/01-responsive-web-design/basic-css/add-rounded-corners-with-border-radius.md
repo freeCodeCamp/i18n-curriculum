@@ -9,7 +9,7 @@ dashedName: add-rounded-corners-with-border-radius
 
 # --description--
 
-猫咪图片的四个角看起来很尖锐， 我们可以使用 `border-radius` 属性来让它变得圆润。
+Your cat photo currently has sharp corners. We can round out those corners with a CSS property called `border-radius`.
 
 # --instructions--
 

@@ -9,7 +9,7 @@ dashedName: quoting-strings-with-single-quotes
 
 # --description--
 
-المقاطع النصية <dfn>(string values)</dfn> في JavaScript يمكن كتابتها بعلامات اقتباس فردية أو مزدوجة، ما زالت العلمات في البَدْء نفس النوع في النهاية. وخلافا لبعض لغات البرمجة الأخرى، علمات الاقتباس المنفردة والاقتباس المزدوجة يفعلان الشيء نفسه في JavaScript.
+<dfn>String</dfn> values in JavaScript may be written with single or double quotes, as long as you start and end with the same type of quote. Unlike some other programming languages, single and double quotes work the same in JavaScript.
 
 ```js
 const doubleQuoteStr = "This is a string"; 

@@ -20,7 +20,7 @@ Complete o projeto guiado <a href="https://learn.microsoft.com/training/modules/
 
 ## --text--
 
-O que há de errado com o código a seguir?
+What is wrong with the following code?
 
 ```clike
 int sophiaSum;

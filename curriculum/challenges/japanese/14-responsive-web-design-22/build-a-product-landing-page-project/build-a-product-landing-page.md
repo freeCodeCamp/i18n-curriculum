@@ -8,11 +8,11 @@ dashedName: build-a-product-landing-page
 
 # --description--
 
-**目標:** <a href="https://product-landing-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://product-landing-page.freecodecamp.rocks</a> と似た機能を持つアプリを作成してください。 **このデモプロジェクトをコピーしないでください**。
+**Objective:** Build an app that is functionally similar to <a href="https://product-landing-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://product-landing-page.freecodecamp.rocks</a>. **Do not copy this demo project**.
 
 **ユーザーストーリー:**
 
-1. このプロダクトランディングページには、`id="header"` を持つ `header` 要素があります
+1. Your product landing page should have a `header` element with a corresponding `id="header"`
 1. `header` 要素内に、`id="header-img"` を持つ画像があります (ロゴのような画像を表示すると良いでしょう)
 1. `#header` の要素内には、`id="nav-bar"` を持つ `nav` 要素があります
 1. `nav` 要素内に少なくとも 3 つ、クリック可能な `nav-link` クラスの要素があります
@@ -34,14 +34,14 @@ dashedName: build-a-product-landing-page
 
 # --hints--
 
-`id` が `header` である `header` 要素が 1 つ必要です。
+`header`要素の`id`属性は`header`に設定されている必要があります。
 
 ```js
 const el = document.getElementById('header')
 assert(!!el && el.tagName === 'HEADER')
 ```
 
-`id` が `header-img` である `img` 要素が 1 つ必要です。
+`img`要素の`id`属性は`header-img`に設定されている必要があります。
 
 ```js
 const el = document.getElementById('header-img')
@@ -55,7 +55,7 @@ const els = document.querySelectorAll('#header #header-img')
 assert(els.length > 0)
 ```
 
-`#header-img` には `src` 属性が必要です。
+`#header-img`には`src`属性が必要です。
 
 ```js
 const el = document.getElementById('header-img')

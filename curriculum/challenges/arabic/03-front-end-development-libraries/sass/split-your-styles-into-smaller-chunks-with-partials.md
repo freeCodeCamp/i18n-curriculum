@@ -8,7 +8,7 @@ dashedName: split-your-styles-into-smaller-chunks-with-partials
 
 # --description--
 
-<dfn>الأجزاء (Partials)</dfn> في Sass هي ملفات منفصلة تحتوي على أجزاء من تعلميات برمجية CSS. وهي مستوردة ومستخدمة في ملفات Sass الأخرى. هذه طريقة رائعة لتجميع تعليمات برمجية مماثلة إلى نموذج (module) للحفاظ على تنظيمها.
+<dfn>Partials</dfn> in Sass are separate files that hold segments of CSS code. These are imported and used in other Sass files. This is a great way to group similar code into a module to keep it organized.
 
 أسماء الجزئيات (partials) تبدأ بحرف السطر (`_`)، الذي يخبر Sass أنه جزء صغير من CSS ولا يتحول الجزء إلى مِلَفّ CSS. كذلك تنتهي ملفات Sass بملحق المِلَفّ `.scss`. لجلب التعليمات البرمجية في الجزء الجزئي (partial) إلى مِلَفّ Sass آخر، استخدم التوجيه `@import`.
 

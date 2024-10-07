@@ -8,18 +8,18 @@ dashedName: record-collection
 
 # --description--
 
-Você está criando uma função que ajuda na manutenção de uma coleção de álbuns musicais. A coleção está organizada como um objeto que contém múltiplos álbuns que também são objetos. Cada álbum é representado na coleção com um `id` único como o nome da propriedade. Dentro de cada objeto de álbum, existem várias propriedades descrevendo informações sobre o álbum. Nem todos os álbuns possuem informações completas.
+You are creating a function that aids in the maintenance of a musical album collection. The collection is organized as an object that contains multiple albums which are also objects. Each album is represented in the collection with a unique `id` as the property name. Within each album object, there are various properties describing information about the album. Not all albums have complete information.
 
 A função `updateRecords` recebe 4 argumentos representados pelos seguintes parâmetros de função:
 
--   `records` – um objeto contendo vários álbuns individuais
--   `id` – um número que representa um álbum específico no objeto `records`
--   `prop` – uma string que representa o nome da propriedade do álbum a ser atualizada
--   `value` – uma string contendo informações usadas para atualizar a propriedade do álbum
+-   `records` - an object containing several individual albums
+-   `id` - a number representing a specific album in the `records` object
+-   `prop` - a string representing the name of the album’s property to update
+-   `value` - a string containing the information used to update the album’s property
 
 Complete a função usando as regras abaixo para modificar o objeto passado para a função.
 
--   A função precisa sempre retornar todo o objeto `records`.
+-   Your function must always return the entire `records` object.
 -   Se `value` for uma string vazia, remova a propriedade `prop` recebida do álbum.
 -   Se `prop` não for `tracks` e `value` não for uma string vazia, atribua `value` à `prop` daquele álbum.
 -   Se `prop` for `tracks` e `value` não for uma string vazia e se o álbum não tiver uma propriedade `tracks`, crie um array vazio e adicione `value` a ele.

@@ -8,7 +8,7 @@ dashedName: override-default-props
 
 # --description--
 
-القدرة على تعيين الميزات الافتراضية (default props) هي خاصية مفيدة في React. طريقة تجاوز الاحتياطات الافتراضية هي تعيين قيم المِيزة صراحة لمكون ما.
+The ability to set default props is a useful feature in React. The way to override the default props is to explicitly set the prop values for a component.
 
 # --instructions--
 

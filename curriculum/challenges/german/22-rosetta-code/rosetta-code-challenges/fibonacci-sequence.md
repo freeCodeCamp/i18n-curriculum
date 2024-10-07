@@ -8,7 +8,7 @@ dashedName: fibonacci-sequence
 
 # --description--
 
-Write a function to generate the <code>n<sup>th</sup></code> Fibonacci number.
+Schreibe eine Funktion zur Erzeugung der <code>n<sup>th</sup></code> Fibonacci Nummer.
 
 Die <code>n<sup>th</sup></code> Fibonacci-Zahl wird angegeben von:
 

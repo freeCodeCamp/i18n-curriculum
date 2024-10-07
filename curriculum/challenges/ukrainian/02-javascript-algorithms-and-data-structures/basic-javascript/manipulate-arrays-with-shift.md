@@ -9,11 +9,11 @@ dashedName: manipulate-arrays-with-shift
 
 # --description--
 
-`pop()` завжди видаляє останній елемент масиву. А якщо потрібно видалити перший?
+`pop()` always removes the last element of an array. What if you want to remove the first?
 
 Саме тут нам на допомогу приходить `.shift()`. Він працює так само, як і `.pop()`, але видаляє перший елемент замість останнього.
 
-Приклад:
+Наприклад:
 
 ```js
 const ourArray = ["Stimpson", "J", ["cat"]];

@@ -12,7 +12,7 @@ dashedName: add-font-awesome-icons-to-all-of-our-buttons
 
 # --description--
 
-Font Awesome 是一個非常便利的圖標庫。 這些圖標可以是網絡字體，也可以是一張矢量圖。 這些圖標就和字體一樣， 不僅能通過像素單位指定它們的大小，它們也同樣會繼承父級 HTML 元素的字號。
+Font Awesome is a convenient library of icons. These icons can be web fonts or vector graphics. These icons are treated just like fonts. You can specify their size using pixels, and they will assume the font size of their parent HTML elements.
 
 # --instructions--
 

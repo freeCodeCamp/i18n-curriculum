@@ -9,7 +9,7 @@ dashedName: use-the-css-transform-property-skewy-to-skew-an-element-along-the-y-
 
 # --description--
 
-선택한 요소를 주어진 각도로 X축을 따라 기울이는 `skewX()` 함수가 있다면, `skewY()` 속성은 요소를 Y (수직) 축을 따라 기울이게 됩니다.
+Given that the `skewX()` function skews the selected element along the X-axis by a given degree, it is no surprise that the `skewY()` property skews an element along the Y (vertical) axis.
 
 # --instructions--
 

@@ -8,15 +8,15 @@ dashedName: url-shortener-microservice
 
 # --description--
 
-Costruisci un'app JavaScript full-stack che sia funzionalmente simile a questa: <a href="https://url-shortener-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://url-shortener-microservice.freecodecamp.rocks/</a>. Lavorare su questo progetto ti porterà a scrivere il tuo codice utilizzando uno dei seguenti metodi:
+Build a full stack JavaScript app that is functionally similar to this: <a href="https://url-shortener-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://url-shortener-microservice.freecodecamp.rocks</a>. Working on this project will involve you writing your code using one of the following methods:
 
--   Clonare <a href="https://github.com/freeCodeCamp/boilerplate-project-urlshortener/" target="_blank" rel="noopener noreferrer nofollow">questa repository GitHub</a> e completare il tuo progetto localmente.
+-   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-urlshortener/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
 -   Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-urlshortener/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete your project.
 -   Usare un costruttore di siti di tua scelta per completare il progetto. Assicurati di incorporare tutti i file del nostro repository GitHub.
 
 # --instructions--
 
-**SUGGERIMENTO:** Non dimenticare di utilizzare un middleware di analisi del body per gestire le richieste POST. Inoltre, potrai utilizzare la funzione `dns.lookup(host, cb)` dal modulo core `dns` per verificare un URL inviato.
+**HINT:** Do not forget to use a body parsing middleware to handle the POST requests. Also, you can use the function `dns.lookup(host, cb)` from the `dns` core module to verify a submitted URL.
 
 # --hints--
 
@@ -32,7 +32,7 @@ Costruisci un'app JavaScript full-stack che sia funzionalmente simile a questa: 
 };
 ```
 
-Puoi inviare via POST un URL a `/api/shorturl` e ottenere una risposta JSON con le proprietà `original_url` e `short_url`. Ecco un esempio: `{ original_url : 'https://freeCodeCamp.org', short_url : 1}`
+You can POST a URL to `/api/shorturl` and get a JSON response with `original_url` and `short_url` properties. Here's an example: `{ original_url : 'https://freeCodeCamp.org', short_url : 1}`
 
 ```js
 async (getUserInput) => {
@@ -54,7 +54,7 @@ async (getUserInput) => {
 };
 ```
 
-Quando visiti `/api/shorturl/<short_url>`, verrai reindirizzato all'URL originale.
+When you visit `/api/shorturl/<short_url>`, you will be redirected to the original URL.
 
 ```js
 async (getUserInput) => {
@@ -86,7 +86,7 @@ async (getUserInput) => {
 };
 ```
 
-Se passi un URL non valido che non segue il formato valido `http://www.example.com`, la risposta JSON conterrà `{ error: 'invalid url' }`
+If you pass an invalid URL that doesn't follow the valid `http://www.example.com` format, the JSON response will contain `{ error: 'invalid url' }`
 
 ```js
 async (getUserInput) => {

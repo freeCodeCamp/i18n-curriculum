@@ -8,7 +8,7 @@ dashedName: use-class-syntax-to-define-a-constructor-function
 
 # --description--
 
-ES6 bietet eine neue Syntax zum Erstellen von Objekten, die das Schlüsselwort <dfn>class</dfn> verwendet.
+ES6 provides a new syntax to create objects, using the <dfn>class</dfn> keyword.
 
 In ES5 kann ein Objekt erzeugt werden, indem eine `constructor`-Funktion definiert und das `new`-Schlüsselwort zur Objekt-Instanziierung verwendet wird.
 

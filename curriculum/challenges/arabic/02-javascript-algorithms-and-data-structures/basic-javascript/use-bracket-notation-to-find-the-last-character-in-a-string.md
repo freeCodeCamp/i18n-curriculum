@@ -9,7 +9,7 @@ dashedName: use-bracket-notation-to-find-the-last-character-in-a-string
 
 # --description--
 
-للحصول على آخر حرف من المقطع النصي (String)، يمكنك طرح واحد من طوله.
+In order to get the last letter of a string, you can subtract one from the string's length.
 
 على سبيل المثال، إذا `const firstName = "Ada"`، يمكنك الحصول على قيمة الحرف الأخير من المقطع باستخدام `firstName[firstName.length - 1]`.
 

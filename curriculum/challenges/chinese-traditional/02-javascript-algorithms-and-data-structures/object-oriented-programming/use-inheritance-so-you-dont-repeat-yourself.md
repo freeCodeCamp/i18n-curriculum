@@ -8,7 +8,7 @@ dashedName: use-inheritance-so-you-dont-repeat-yourself
 
 # --description--
 
-有一條原則叫做：<dfn>Don't Repeat Yourself</dfn>。常以縮寫形式 DRY 出現，意思是“不要自己重複”。 編寫重複代碼會產生的問題是：任何改變都需要去多個地方修復所有重複的代碼。 這通常意味着我們需要做更多的工作，會產生更高的出錯率。
+There's a principle in programming called <dfn>Don't Repeat Yourself (DRY)</dfn>. The reason repeated code is a problem is because any change requires fixing code in multiple places. This usually means more work for programmers and more room for errors.
 
 請觀察下面的示例，`Bird` 和 `Dog` 共享 `describe` 方法：
 

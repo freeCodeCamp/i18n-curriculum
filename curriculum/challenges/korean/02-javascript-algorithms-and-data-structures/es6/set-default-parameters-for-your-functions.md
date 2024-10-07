@@ -10,7 +10,7 @@ dashedName: set-default-parameters-for-your-functions
 
 In order to help us create more flexible functions, ES6 introduces <dfn>default parameters</dfn> for functions.
 
-Check out this code:
+아래 코드에서 확인해 보세요.
 
 ```js
 const greeting = (name = "Anonymous") => "Hello " + name;

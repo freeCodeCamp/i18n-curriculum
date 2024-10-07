@@ -16,7 +16,7 @@ Hier ist das <a href="https://colab.research.google.com/drive/1foxkSd90q1tHCSqyY
 
 \- <a href="https://lyryx.com/subjects/business/business-mathematics/" target="_blank" rel="noopener noreferrer nofollow">Business Math, a Step-by-Step Handbook (2021) von Jean-Paul Oliver</a>
 
-# --assignment--
+# --Auftrag--
 
 Löse die Aufgaben auf den Seiten 155 und 163 aus dem Lehrbuch "Business Math, a Step-by-Step Handbook (2021)".
 
@@ -40,7 +40,7 @@ Kosten = Feste Ausgaben + variable Ausgaben
 
 ---
 
-Marginal Revenue = Margins + Revenue
+Grenzerlös = Gewinnspanne + Umsatz
 
 ## --video-solution--
 

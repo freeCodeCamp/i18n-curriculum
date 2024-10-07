@@ -13,7 +13,7 @@ dashedName: style-text-inputs-as-form-controls
 
 # --description--
 
-Du kannst das `fa-paper-plane` Font Awesome-Symbol hinzufügen, indem du `<i class="fa fa-paper-plane"></i>` innerhalb deines Bestätigungs-`button`-Elements einfügst.
+You can add the `fa-paper-plane` Font Awesome icon by adding `<i class="fa fa-paper-plane"></i>` within your submit `button` element.
 
 Gib dem Texteingabefeld deines Formulars die Klasse `form-control`. Gib dem Bestätigungsbutton deines Formulars die Klassen `btn btn-primary`. Gib dem Button das Font Awesome-Symbol `fa-paper-plane`.
 

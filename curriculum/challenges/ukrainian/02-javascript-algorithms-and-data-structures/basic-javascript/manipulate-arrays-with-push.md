@@ -9,7 +9,7 @@ dashedName: manipulate-arrays-with-push
 
 # --description--
 
-Найпростіший спосіб додати дані до кінця масиву — використати метод `push()`.
+An easy way to append data to the end of an array is via the `push()` method.
 
 Метод `push()` приймає один або декілька <dfn>аргументів</dfn> та приєднує їх до кінця масиву за тим порядком, в якому вони представлені. Він повертає нову довжину масиву.
 

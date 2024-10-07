@@ -8,7 +8,7 @@ dashedName: use-higher-order-functions-map-filter-or-reduce-to-solve-a-complex-p
 
 # --description--
 
-Ahora que has superado algunos desafíos usando funciones de orden superior como `map()`, `filter()`, y `reduce()`, ahora puedes aplicarlos para resolver un desafío más complejo.
+Now that you have worked through a few challenges using higher-order functions like `map()`, `filter()`, and `reduce()`, you now get to apply them to solve a more complex challenge.
 
 # --instructions--
 

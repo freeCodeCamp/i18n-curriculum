@@ -8,7 +8,7 @@ dashedName: using-the-test-method
 
 # --description--
 
-Reguläre Ausdrücke (Regex) werden in Programmiersprachen verwendet, um Teile von Texten abzugleichen. Du erstellst Muster ("Pattern"), die dir bei diesem Abgleich helfen.
+Regular expressions are used in programming languages to match parts of strings. You create patterns to help you do that matching.
 
 Wenn du das Wort `the` in dem String `The dog chased the cat` finden willst, kannst du den folgenden regulären Ausdruck verwenden: `/the/`. Beachte, dass Anführungszeichen innerhalb des regulären Ausdrucks nicht erforderlich sind.
 

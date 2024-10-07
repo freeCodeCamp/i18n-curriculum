@@ -9,7 +9,7 @@ dashedName: manipulate-arrays-with-unshift
 
 # --description--
 
-ليس فقط تسطيع أن تستخدم `shift` لتزيح العناصر من بداية قائمة إلى خارجها، ولكن أيضاً يمكنك استخدام `unshift` لتزيح عناصر إلى بداية القائمة أيضًا، أي يمكنك أن تضيف عناصر في بداية القائمة.
+Not only can you `shift` elements off of the beginning of an array, you can also `unshift` elements to the beginning of an array i.e. add elements in front of the array.
 
 يعمل `.unshift()` تماما مثل `.push()`، ولكن بدلا من إضافة العنصر في نهاية القائمة، يضيف `unshift()` العنصر إلى بداية القائمة.
 

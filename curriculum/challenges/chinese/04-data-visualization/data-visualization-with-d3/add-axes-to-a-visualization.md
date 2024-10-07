@@ -8,7 +8,7 @@ dashedName: add-axes-to-a-visualization
 
 # --description--
 
-另一种改进散点图的方法是添加 x 轴和 y 轴。
+Another way to improve the scatter plot is to add an x-axis and a y-axis.
 
 D3 有两种方法来渲染 y 轴和 x 轴，分别是 `axisLeft()` 和 `axisBottom()`。 下面是一个基于上个挑战中的 `xScale` 创建 x 轴的例子：
 
@@ -16,7 +16,7 @@ D3 有两种方法来渲染 y 轴和 x 轴，分别是 `axisLeft()` 和 `axisBot
 const xAxis = d3.axisBottom(xScale);
 ```
 
-下一步是在 SVG 上渲染 x 轴。 为此，你可以使用一个 SVG 组件， `g` 元素， `g` 是英文中组（group）的缩写。 不同于 `rect`、`circle`、`text`，在渲染时，轴只是一条直线。 因为它是一个简单的图形，所以可以用 `g` 。 最后一步是使用 `transform` 属性将轴放置在 SVG 的正确位置上。 否则，轴将会沿着 SVG 的边缘渲染，从而不可见。 SVG 支持多种 `transforms`，但是定位轴需要使用 `translate` 属性。 当它应用在 `g` 元素上时，它根据给出的总量移动整组。 下面是一个例子：
+下一步是在 SVG 上渲染 x 轴。 为此，你可以使用一个 SVG 组件， `g` 元素， `g` 是英文中组（group）的缩写。 不同于 `rect`、`circle`、`text`，在渲染时，轴只是一条直线。 因为它是一个简单的图形，所以可以用 `g` 。 最后一步是使用 `transform` 属性将轴放置在 SVG 的正确位置上。 否则，轴将会沿着 SVG 的边缘渲染，从而不可见。 SVG 支持多种 `transforms`，但是定位轴需要使用 `translate` 属性。 当它应用在 `g` 元素上时，它根据给出的总量移动整组。 类似这样：
 
 ```js
 const xAxis = d3.axisBottom(xScale);

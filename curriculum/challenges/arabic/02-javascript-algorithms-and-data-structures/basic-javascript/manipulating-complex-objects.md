@@ -9,7 +9,7 @@ dashedName: manipulating-complex-objects
 
 # --description--
 
-في بعض الأحيان قد ترغب في تخزين البيانات في <dfn>هيكل بيانات</dfn> مرن. يكون كائن JavaScript إحدى الطرق للتعامل مع البيانات المرنة. أنها تسمح بتركيبات عشوائية من <dfn>المقاطع</dfn> و <dfn>الأرقام</dfn> و <dfn>الحالات المنطقية</dfn> و <dfn>القوائم</dfn> و <dfn>الوظائف</dfn> و <dfn>الكائنات</dfn>.
+Sometimes you may want to store data in a flexible <dfn>Data Structure</dfn>. A JavaScript object is one way to handle flexible data. They allow for arbitrary combinations of <dfn>strings</dfn>, <dfn>numbers</dfn>, <dfn>booleans</dfn>, <dfn>arrays</dfn>, <dfn>functions</dfn>, and <dfn>objects</dfn>.
 
 إليك مثال لهيكل بيانات معقد:
 

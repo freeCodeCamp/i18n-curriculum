@@ -7,7 +7,7 @@ dashedName: step-18
 
 # --description--
 
-在你的 `.text` 元素下方，創建一個新的 `section` 元素，併爲其添加值爲 `text text-with-images` 的 `class`。 在其中，創建一個 `article` 元素，其 `class` 爲 `brief-history`，並創建一個 `aside` 元素，其 `class` 爲 `image-wrapper`。
+Below your `.text` element, create a new `section` element and give it a `class` of `text text-with-images`. Within that, create an `article` element with a `class` set to `brief-history`, and an `aside` element with the `class` set to `image-wrapper`.
 
 # --hints--
 

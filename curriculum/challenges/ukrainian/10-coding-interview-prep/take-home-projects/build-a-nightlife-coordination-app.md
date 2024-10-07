@@ -8,9 +8,9 @@ dashedName: build-a-nightlife-coordination-app
 
 # --description--
 
-Створіть повний пакет застосунку JavaScript, який функціонально схожий до <a href="https://yoyo44.herokuapp.com/" target="_blank" rel="noopener noreferrer nofollow">https://yoyo44.herokuapp.com/</a>. Для виконання проєкту використайте конструктор сайту на власний вибір.
+Build a full stack JavaScript app that is functionally similar to this: <a href="https://yoyo44.herokuapp.com/" target="_blank" rel="noopener noreferrer nofollow">https://yoyo44.herokuapp.com/</a>. Use a site builder of your choice to complete the project.
 
-Тут наведено конкретні історії користувача, які варто імплементувати в даний проєкт:
+Тут наведено конкретні історії користувача, які варто реалізувати в даному проєкті:
 
 **Історія користувача:** як неавторизований користувач, ви можете переглянути всі бари неподалік.
 

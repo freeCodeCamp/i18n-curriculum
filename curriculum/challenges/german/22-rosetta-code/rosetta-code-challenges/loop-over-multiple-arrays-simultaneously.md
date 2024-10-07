@@ -8,7 +8,7 @@ dashedName: loop-over-multiple-arrays-simultaneously
 
 # --description--
 
-Loop over multiple arrays and create a new array whose $i^{th}$ element is the concatenation of $i^{th}$ element of each of the given.
+Überschleife mehrere Anordnungen und erstelle eine neue Anordnung, dessen $i^{th}$-Element die Verkettung der $i^{th}$-Elemente jedes der angegebenen Anordnung ist.
 
 Wenn dir in diesem Beispiel dieses Array von Arrays gegeben wird:
 

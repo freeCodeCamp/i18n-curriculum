@@ -8,7 +8,7 @@ dashedName: match-single-characters-not-specified
 
 # --description--
 
-Bisher hast du eine Reihe von Zeichen erstellt, die du abgleichen möchtest, aber du kannst auch eine Reihe von Zeichen erstellen, die du nicht abgleichen möchtest. Diese Arten von Zeichensätzen werden <dfn>negierte Zeichensätze</dfn> genannt.
+So far, you have created a set of characters that you want to match, but you could also create a set of characters that you do not want to match. These types of character sets are called <dfn>negated character sets</dfn>.
 
 Um einen negierten Zeichensatz zu erstellen, setzt du ein Caret-Zeichen (`^`) nach der öffnenden Klammer und vor den Zeichen, die du nicht abgleichen willst.
 

@@ -8,7 +8,7 @@ dashedName: euler-method
 
 # --description--
 
-Euler's method numerically approximates solutions of first-order ordinary differential equations (ODEs) with a given initial value. It is an explicit method for solving initial value problems (IVPs), as described in <a href="https://www.freecodecamp.org/news/eulers-method-explained-with-examples/" title="Euler's Method Explained with Examples" target="_blank" rel="noopener noreferrer nofollow">this article</a>.
+Die Euler-Methode approximiert numerisch Lösungen von gewöhnlichen Differentialgleichungen (ODEs) erster Ordnung mit einem gegebenen Anfangswert. It is an explicit method for solving initial value problems (IVPs), as described in <a href="https://www.freecodecamp.org/news/eulers-method-explained-with-examples/" title="Euler's Method Explained with Examples" target="_blank" rel="noopener noreferrer nofollow">this article</a>.
 
 Die ODE muss in der folgenden Form angegeben werden:
 
@@ -85,7 +85,7 @@ und vergleiche mit der analytischen Lösung.
 **Anfangswerte:**
 
 <ul>
-  <li>initial temperature <big>$T_0$</big> shall be <code>100 °C</code></li>
+  <li>ausgangstemperatur <big>$T_0$</big> soll <code>100 °C</code> sein</li>
   <li>Zimmertemperatur <big>$T_R$</big> soll <code>20 °C</code> sein</li>
   <li>Kühlkonstante <big>$k$</big> soll <code>0.07</code> sein</li>
   <li>das zu berechnende Zeitintervall muss von <code>0 s</code> bis <code>100 s</code> betragen</li>

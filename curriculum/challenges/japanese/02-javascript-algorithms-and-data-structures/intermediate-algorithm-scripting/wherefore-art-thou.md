@@ -8,7 +8,7 @@ dashedName: wherefore-art-thou
 
 # --description--
 
-オブジェクトの配列 (最初の引数) を参照して、名前と値のペア (2 番目の引数) に一致するすべてのオブジェクトの配列を返す関数を作成してください。 返される配列に、元のオブジェクトの名前と値のペアを含める場合は、それぞれのペアがコレクションから得られるオブジェクトに存在する必要があります。
+Make a function that looks through an array of objects (first argument) and returns an array of all objects that have matching name and value pairs (second argument). Each name and value pair of the source object has to be present in the object from the collection if it is to be included in the returned array.
 
 たとえば、最初の引数が `[{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }]` で、2 番目の引数が `{ last: "Capulet" }` の場合は、配列 (最初の引数) から得られる 3 番目のオブジェクトに 2 番目の引数で渡された名前とその値が含まれているので、3 番目のオブジェクトを返す必要があります。
 

@@ -9,7 +9,7 @@ dashedName: make-elements-only-visible-to-a-screen-reader-by-using-custom-css
 
 # --description--
 
-Você notou que todos os desafios de acessibilidade aplicados até agora não usaram nenhum CSS? Isso mostra a importância de um esboço lógico do documento e do uso de tags semanticamente significativas em torno de seu conteúdo antes de introduzir o aspecto do design visual.
+Have you noticed that all of the applied accessibility challenges so far haven't used any CSS? This shows the importance of using a logical document outline and semantically meaningful tags around your content before introducing the visual design aspect.
 
 No entanto, a magia do CSS também pode melhorar a acessibilidade da página quando você deseja ocultar visualmente o conteúdo destinado apenas a leitores de tela. Isso acontece quando as informações estão em formato visual (como um gráfico), mas os usuários de leitores de tela precisam de uma apresentação alternativa (como uma tabela) para acessar os dados. O CSS pode ser usado para posicionar os elementos destinados somente ao leitor de tela fora da área visual da janela do navegador.
 
@@ -29,7 +29,7 @@ Um exemplo de código CSS que realiza isso:
 **Observação:** as abordagens com CSS a seguir NÃO farão a mesma coisa:
 
 <ul>
-<li><code>display: none;</code> ou <code>visibility: hidden;</code> oculta o conteúdo para todos, incluindo usuários de leitores de tela</li>
+<li><code>display: none;</code> or <code>visibility: hidden;</code> hides content for everyone, including screen reader users</li>
 <li>Valores de zero para tamanhos de pixel, como <code>width: 0px; height: 0px;</code> removem esse elemento do fluxo do seu documento, o que significa que os leitores de tela vão ignorá-lo.</li>
 </ul>
 

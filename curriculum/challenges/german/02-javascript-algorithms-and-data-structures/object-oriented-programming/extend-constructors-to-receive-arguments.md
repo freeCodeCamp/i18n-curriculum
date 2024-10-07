@@ -8,7 +8,7 @@ dashedName: extend-constructors-to-receive-arguments
 
 # --description--
 
-Die Konstruktoren `Bird` und `Dog` aus der letzten Aufgabe haben gut funktioniert. Beachte aber, dass alle Vögel (`Birds`), die mit dem Konstruktor `Bird` erstellt werden, automatisch Albert heißen, blau sind und zwei Beine haben. Was ist, wenn du Vögel mit unterschiedlichen Werten für Name und Farbe haben möchtest? Es ist möglich, die Eigenschaften der einzelnen Vögel manuell zu ändern, aber das wäre eine Menge Arbeit:
+The `Bird` and `Dog` constructors from the last challenge worked well. However, notice that all `Birds` that are created with the `Bird` constructor are automatically named Albert, are blue in color, and have two legs. What if you want birds with different values for name and color? It's possible to change the properties of each bird manually but that would be a lot of work:
 
 ```js
 let swan = new Bird();

@@ -1,6 +1,6 @@
 ---
 id: 587d781b367417b2b2512abd
-title: Adjust the Size of a Heading Element Versus a Paragraph Element
+title: ضبط حجم عنصر العنوان (heading) مقابل حجم عنصر الفقرة (p)(Adjust the Size of a Heading Element Versus a Paragraph Element)
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/c3bRPTz'
 forumTopicId: 301037
@@ -13,11 +13,11 @@ The font size of heading elements (`h1` through `h6`) should generally be larger
 
 # --instructions--
 
-To make the heading significantly larger than the paragraph, change the `font-size` of the `h4` element to 27 pixels.
+لجعل حجم العنوان أكبر من حجم الفقرة، قم بتغيير `font-size` من عنصر `h4` إلى 27 بكسل.
 
 # --hints--
 
-Your code should add a `font-size` property to the `h4` element set to 27 pixels.
+يجب أن تضيف للكود خاصية `font-size` إلى عنصر `h4` وأن يكون قيمته 27 بكسل (pixel).
 
 ```js
 

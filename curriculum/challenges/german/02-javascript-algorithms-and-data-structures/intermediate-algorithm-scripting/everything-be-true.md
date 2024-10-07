@@ -8,7 +8,7 @@ dashedName: everything-be-true
 
 # --description--
 
-Prüfe, ob das Prädikat (zweites Argument) auf allen Elementen einer Sammlung (erstes Argument) <dfn>wahr</dfn> ist.
+Check if the predicate (second argument) is <dfn>truthy</dfn> on all elements of a collection (first argument).
 
 Mit anderen Worten: Du bekommst eine Array-Sammlung von Objekten. Das Prädikat `pre` wird eine Objekteigenschaft sein und du musst `true` zurückgeben, wenn sein Wert `truthy` ist. Ansonsten wird `false` zurückgegeben.
 

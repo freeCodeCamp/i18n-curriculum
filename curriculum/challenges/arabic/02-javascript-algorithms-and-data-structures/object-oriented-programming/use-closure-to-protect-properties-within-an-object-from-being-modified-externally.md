@@ -10,7 +10,7 @@ dashedName: >-
 
 # --description--
 
-في التحدي السابق، `bird` كان لديه خاصية عامة و هي `name`. تعتبر عامة لأنه يمكن الوصول إليها وتغييرها خارج تعريف `bird`.
+In the previous challenge, `bird` had a public property `name`. It is considered public because it can be accessed and changed outside of `bird`'s definition.
 
 ```js
 bird.name = "Duffy";

@@ -8,7 +8,7 @@ dashedName: work-with-nodes-in-a-linked-list
 
 # --description--
 
-Ще одна поширена структура даних, яку можна зустріти в інформатиці, — це <dfn>зв’язаний список</dfn>. Зв’язаний список — це лінійна колекція елементів даних, які називаються «вузлами», кожен з яких вказує на наступний. Кожен <dfn>вузол</dfn> у зв’язаному списку містить два ключові фрагменти інформації: сам елемент і посилання на наступний вузол.
+Another common data structure you'll run into in computer science is the <dfn>linked list</dfn>. A linked list is a linear collection of data elements, called 'nodes', each of which points to the next. Each <dfn>node</dfn> in a linked list contains two key pieces of information: the `element` itself, and a reference to the next `node`.
 
 Уявіть, що ви стоїте в колоні. Ви кладете руки на плечі людини, що стоїть перед вами, а людина позаду вас кладе руки на ваші плечі. Ви бачите людину перед собою, але вона заступає інших. Так само і вузол: він знає, чим є, але може бачити лише наступний елемент і не знає про існування інших.
 

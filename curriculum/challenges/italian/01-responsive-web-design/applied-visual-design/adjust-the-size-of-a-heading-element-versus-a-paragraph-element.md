@@ -9,7 +9,7 @@ dashedName: adjust-the-size-of-a-heading-element-versus-a-paragraph-element
 
 # --description--
 
-La dimensione del carattere degli elementi di intestazione (da `h1` a `h6`) dovrebbe essere generalmente più grande della dimensione del carattere degli elementi di paragrafo. Questo rende più facile per l'utente capire visivamente il layout e il livello di importanza di ogni elemento della pagina. Si utilizza la proprietà `font-size` per regolare la dimensione del testo in un elemento.
+The font size of heading elements (`h1` through `h6`) should generally be larger than the font size of paragraph tags. This makes it easier for the user to visually understand the layout and level of importance of everything on the page. You use the `font-size` property to adjust the size of the text in an element.
 
 # --instructions--
 

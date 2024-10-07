@@ -9,15 +9,15 @@ dashedName: sha-1-password-cracker
 
 # --description--
 
-Ви будете <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-SHA-1-password-cracker" target="_blank" rel="noopener noreferrer nofollow">працювати над цим проєктом з нашим стартовим кодом Gitpod</a>.
+You will be <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-SHA-1-password-cracker" target="_blank" rel="noopener noreferrer nofollow">working on this project with our Gitpod starter code</a>.
 
-Ми досі розробляємо інтерактивну частину навчальної програми з Python. Наразі є декілька відео на ютуб-каналі freeCodeCamp.org, які навчать всього необхідного для виконання цього проєкту:
+Ми все ще розробляємо інтерактивну частину навчального курсу Python. Наразі є декілька відео на ютуб-каналі freeCodeCamp.org, які навчать всього необхідного для виконання цього проєкту:
 
-- <a href="https://www.freecodecamp.org/news/python-for-everybody/" target="_blank" rel="noopener noreferrer nofollow">Python for Everybody Video Course</a> (14 годин)
+- <a href="https://www.freecodecamp.org/news/python-for-everybody/" target="_blank" rel="noopener noreferrer nofollow">Python for Everybody Video Course</a> (14 hours)
 
-- <a href="https://www.freecodecamp.org/news/learn-python-basics-in-depth-video-course/" target="_blank" rel="noopener noreferrer nofollow">Learn Python Basics in Depth</a> (4 години)
+- <a href="https://www.freecodecamp.org/news/learn-python-basics-in-depth-video-course/" target="_blank" rel="noopener noreferrer nofollow">Learn Python Basics in Depth</a> (4 hours)
 
-- <a href="https://www.freecodecamp.org/news/intermediate-python-course/" target="_blank" rel="noopener noreferrer nofollow">Intermediate Python Course</a> (6 годин)
+- <a href="https://www.freecodecamp.org/news/intermediate-python-course/" target="_blank" rel="noopener noreferrer nofollow">Intermediate Python Course</a> (6 hours)
 
 # --instructions--
 
@@ -33,19 +33,19 @@ dashedName: sha-1-password-cracker
 
 Ось кілька хешованих паролів для перевірки функції:
 
-- `b305921a3723cd5d70a375cd21a61e60aabb84ec` має повернути «sammy123»
-- `c7ab388a5ebefbf4d550652f1eb4d833e5316e3e` має повернути «abacab»
-- `5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8` має повернути «password»
+- `b305921a3723cd5d70a375cd21a61e60aabb84ec` should return "sammy123"
+- `c7ab388a5ebefbf4d550652f1eb4d833e5316e3e`повинен повернути "abacab"
+- `5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8` повинен повернути "password"
 
 Ось кілька хешованих паролів для тестування функції, якщо `use_salts` встановлено на `True`:
 
-- `53d8b3dc9d39f0184144674e310185e41a87ffd5` має повернути «superman»
-- `da5a4e8cf89539e66097acd2f8af128acae2f8ae` має повернути «q1w2e3r4t5»
-- `ea3f62d498e3b98557f9f9cd0d905028b3b019e1` має повернути «bubbles1»
+- `53d8b3dc9d39f0184144674e310185e41a87ffd5` should return "superman"
+- `da5a4e8cf89539e66097acd2f8af128acae2f8ae` повинен повернути "q1w2e3r4t5"
+- `ea3f62d498e3b98557f9f9cd0d905028b3b019e1` повинен повернути "bubbles1"
 
 Для вас було імпортовано бібліотеку `hashlib`. Подумайте над її використанням у своєму коді. <a href="https://docs.python.org/3/library/hashlib.html" target="_blank" rel="noopener noreferrer nofollow">Дізнайтеся більше про «hashlib» тут</a>.
 
-## Розробка
+## Development
 
 Запишіть свій код у `password_cracker.py`. Для розробки ви можете використати `main.py`, щоб протестувати свій код.
 
@@ -53,7 +53,7 @@ dashedName: sha-1-password-cracker
 
 Модульні тести для цього проєкту знаходяться в `test_module.py`. Ми імпортували тести з `test_module.py` до `main.py` для вашої зручності.
 
-## Надсилання
+## Відправка
 
 Скопіюйте URL-адресу свого проєкту та відправте її до freeCodeCamp.
 

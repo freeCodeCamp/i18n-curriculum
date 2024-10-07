@@ -8,7 +8,7 @@ dashedName: understand-the-immediately-invoked-function-expression-iife
 
 # --description--
 
-JavaScript 中的一个常见模式就是，函数在声明后立刻执行：
+A common pattern in JavaScript is to execute a function as soon as it is declared:
 
 ```js
 (function () {

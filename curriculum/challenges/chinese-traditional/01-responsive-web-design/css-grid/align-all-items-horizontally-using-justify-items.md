@@ -9,7 +9,7 @@ dashedName: align-all-items-horizontally-using-justify-items
 
 # --description--
 
-有時你想讓 CSS 網格中的網格項共享對齊方式。 你可以像之前學習的那樣分別設置它們的對齊方式，也可以對網格容器使用 `justify-items` 使它們一次性沿水平軸對齊。 這個屬性能接受我們在之前兩個挑戰中學到的所有值作爲屬性值，但與之前不同的是，它會將網格中 **所有** 的網格項按所設置的方式對齊。
+Sometimes you want all the items in your CSS Grid to share the same alignment. You can use the previously learned properties and align them individually, or you can align them all at once horizontally by using `justify-items` on your grid container. This property can accept all the same values you learned about in the previous two challenges, the difference being that it will move **all** the items in our grid to the desired alignment.
 
 # --instructions--
 

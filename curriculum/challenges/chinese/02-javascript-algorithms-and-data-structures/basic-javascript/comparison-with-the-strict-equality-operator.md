@@ -9,11 +9,11 @@ dashedName: comparison-with-the-strict-equality-operator
 
 # --description--
 
-严格相等运算符（`===`）是相对相等操作符（`==`）的另一种比较操作符。 与相等操作符转换数据两类型不同，严格相等运算符不会做类型转换。
+Strict equality (`===`) is the counterpart to the equality operator (`==`). However, unlike the equality operator, which attempts to convert both values being compared to a common type, the strict equality operator does not perform a type conversion.
 
 如果比较的值类型不同，那么在严格相等运算符比较下它们是不相等的，会返回 false 。
 
-**示例**
+**例如：**
 
 ```js
 3 ===  3  // true

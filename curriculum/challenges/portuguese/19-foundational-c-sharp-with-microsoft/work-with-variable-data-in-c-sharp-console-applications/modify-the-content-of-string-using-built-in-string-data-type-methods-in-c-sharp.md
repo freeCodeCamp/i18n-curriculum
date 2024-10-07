@@ -20,7 +20,7 @@ Complete o módulo <a href="https://learn.microsoft.com/training/modules/csharp-
 
 ## --text--
 
-Qual método encontra o próximo índice dos caracteres `-`, `=` ou `_`?
+Which method finds the next index of either the `-` char, the `=` char, or the `_` char?
 
 ## --answers--
 

@@ -8,7 +8,7 @@ dashedName: extend-one-set-of-css-styles-to-another-element
 
 # --description--
 
-Sass لديها مزيّة تسمى `extend` التي تجعل من السهل استعارة قواعد CSS من عنصر واحد والبناء عليها في عنصر آخر.
+Sass has a feature called `extend` that makes it easy to borrow the CSS rules from one element and build upon them in another.
 
 على سبيل المثال، الكتلة أدناه من قواعد CSS تعمل على تصميم فئة `.panel`. لديه `background-color`, و `height`, و `border`.
 

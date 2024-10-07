@@ -1,6 +1,6 @@
 ---
 id: 56533eb9ac21ba0edf2244c7
-title: Accessing Object Properties with Dot Notation
+title: 점 표기법으로 객체 속성 접근하기
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cGryJs8'
 forumTopicId: 16164
@@ -11,9 +11,9 @@ dashedName: accessing-object-properties-with-dot-notation
 
 There are two ways to access the properties of an object: dot notation (`.`) and bracket notation (`[]`), similar to an array.
 
-Dot notation is what you use when you know the name of the property you're trying to access ahead of time.
+점 표기법은 미리 접근하려는 속성의 이름을 알 때 사용하는 것입니다.
 
-Here is a sample of using dot notation (`.`) to read an object's property:
+여기 객체의 속성을 읽기 위해 점 표기법 (`.`)을 사용하는 예시입니다:
 
 ```js
 const myObj = {
@@ -25,39 +25,39 @@ const prop1val = myObj.prop1;
 const prop2val = myObj.prop2;
 ```
 
-`prop1val` would have a value of the string `val1`, and `prop2val` would have a value of the string `val2`.
+`prop1val`는 `val1`의 문자열 값을 가질 것이고 `prop2val`는 `val2`의 문자열 값을 가질 것입니다.
 
 # --instructions--
 
-Read in the property values of `testObj` using dot notation. Set the variable `hatValue` equal to the object's property `hat` and set the variable `shirtValue` equal to the object's property `shirt`.
+점 표기법으로 `testObj`의 속성 값을 읽으시오. 변수 `hatValue`를 객체의 속성 `hat`과 같도록 설정하고 변수 `shirtValue`를 객체의 속성 `shirt`와 같도록 설정하시오.
 
 # --hints--
 
-`hatValue` should be a string
+`hatValue`는 문자열이어야 합니다.
 
 ```js
 assert(typeof hatValue === 'string');
 ```
 
-The value of `hatValue` should be the string `ballcap`
+`hatValue`의 값은 문자열 `ballcap`이어야 합니다.
 
 ```js
 assert(hatValue === 'ballcap');
 ```
 
-`shirtValue` should be a string
+`shirtValue`는 문자열이어야 합니다.
 
 ```js
 assert(typeof shirtValue === 'string');
 ```
 
-The value of `shirtValue` should be the string `jersey`
+`shirtValue`의 값은 문자열 `jersey`이어야 합니다.
 
 ```js
 assert(shirtValue === 'jersey');
 ```
 
-You should use dot notation twice
+점 표기법을 두 번 사용해야 합니다.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/testObj\.\w+/g).length > 1);

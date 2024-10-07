@@ -8,7 +8,7 @@ dashedName: set-a-domain-and-a-range-on-a-scale
 
 # --description--
 
-За замовчуванням шкала використовує зв’язок ідентичності. Це означає, що вхідне значення відповідає вихідному значенню. Проте шкали можуть бути набагато гнучкішими та цікавішими.
+By default, scales use the identity relationship. This means the input value maps to the output value. However, scales can be much more flexible and interesting.
 
 Скажімо, набір даних має значення від 50 до 480. Це вхідна інформація для шкали, також відома як <dfn>домен</dfn>.
 

@@ -8,13 +8,13 @@ dashedName: change-inline-css-conditionally-based-on-component-state
 
 # --description--
 
-A questo punto, hai visto diverse applicazioni del rendering condizionale e l'uso degli stili in linea. Ecco un altro esempio che combina entrambi questi argomenti. Puoi anche fare un render condizionale del CSS in base allo stato di un componente React. Per fare questo si valutare una condizione, e se tale condizione è soddisfatta si modifica l'oggetto styles assegnato agli elementi JSX nel metodo di render.
+At this point, you've seen several applications of conditional rendering and the use of inline styles. Here's one more example that combines both of these topics. You can also render CSS conditionally based on the state of a React component. To do this, you check for a condition, and if that condition is met, you modify the styles object that's assigned to the JSX elements in the render method.
 
 Questo è un paradigma importante da capire, perché è un grande cambiamento rispetto all'approccio più tradizionale di applicare gli stili modificando direttamente gli elementi del DOM (cosa molto comune con jQuery, per esempio). In quell'approccio, è necessario tenere traccia di quando gli elementi cambiano e anche gestire direttamente la manipolazione effettiva. Può diventare difficile tenere traccia dei cambiamenti, rendendo potenzialmente imprevedibile la tua interfaccia utente. Quando imposti un oggetto di stile in base a una condizione, descrivi l'aspetto dell'interfaccia utente come una funzione dello stato dell'applicazione. Vi è un chiaro flusso di informazioni che si muove in una sola direzione. Questo è il metodo preferito quando si scrivono applicazioni con React.
 
 # --instructions--
 
-L'editor di codice contiene un semplice componente di input controllato con un bordo stilizzato. Vogliamo rendere questo bordo rosso se l'utente digita più di 15 caratteri di testo nella casella di input. Aggiungi una condizione per controllare questo e, se la condizione è valida, imposta lo stile del bordo della casella di input a `3px solid red`. Puoi provarlo inserendo il testo nell'input.
+L'editor di codice contiene un semplice componente di input controllato con un bordo stilizzato. Si desidera modificare questo bordo rosso se l'utente digita più di 15 caratteri di testo nella casella di input. Aggiungi una condizione per controllare questo e, se la condizione è valida, imposta lo stile del bordo della casella di input a `3px solid red`. Puoi provarlo inserendo il testo nell'input.
 
 # --hints--
 

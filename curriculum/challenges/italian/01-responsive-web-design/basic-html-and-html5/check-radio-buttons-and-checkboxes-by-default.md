@@ -9,9 +9,9 @@ dashedName: check-radio-buttons-and-checkboxes-by-default
 
 # --description--
 
-Puoi settare una casella di spunta o un pulsante di opzione in modo che sia spuntato di default usando l'attributo`checked`.
+You can set a checkbox or radio button to be checked by default using the `checked` attribute.
 
-Per fare questo puoi semplicemente aggiungere la parola `checked`all'interno di un elemento `input`. Per esempio:
+Per fare questo puoi semplicemente aggiungere la parola `checked`all'interno di un elemento `input`. Ad esempio:
 
 ```html
 <input type="radio" name="test-name" checked>

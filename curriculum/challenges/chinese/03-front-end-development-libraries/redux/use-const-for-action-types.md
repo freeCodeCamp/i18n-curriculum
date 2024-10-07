@@ -8,7 +8,7 @@ dashedName: use-const-for-action-types
 
 # --description--
 
-在使用 Redux 时的一个常见做法是将操作类型指定为只读，然后在任何使用它们的地方引用这些常量。 可以通过将 action types 使用 `const` 声明重构你正在使用的代码。
+A common practice when working with Redux is to assign action types as read-only constants, then reference these constants wherever they are used. You can refactor the code you're working with to write the action types as `const` declarations.
 
 # --instructions--
 

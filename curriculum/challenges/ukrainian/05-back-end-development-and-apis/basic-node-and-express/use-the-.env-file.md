@@ -24,7 +24,7 @@ dashedName: use-the--env-file
 
 # --hints--
 
-Відповідь кінцевої точки `/json` має змінитись залежно від змінної середовища `MESSAGE_STYLE`
+Відповідь кінцевої точки `/json` має змінюватися відповідно до змінної оточення `MESSAGE_STYLE`
 
 ```js
 (getUserInput) =>

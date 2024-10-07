@@ -13,7 +13,7 @@ dashedName: style-text-inputs-as-form-controls
 
 # --description--
 
-可以在 submit `button` 元素内加上 `<i class="fa fa-paper-plane"></i>`，来添加 Font Awesome 的 `fa-paper-plane` 图标。
+You can add the `fa-paper-plane` Font Awesome icon by adding `<i class="fa fa-paper-plane"></i>` within your submit `button` element.
 
 为表单的文本输入框（text input）设置 `form-control` class。 为表单的提交（submit）按钮设置 `btn btn-primary` class， 并为它加上 Font Awesome 的 `fa-paper-plane` 图标。
 

@@ -9,7 +9,7 @@ dashedName: align-all-items-vertically-using-align-items
 
 # --description--
 
-그리드 컨테이너에 `align-items` 속성을 사용하면 그리드에 있는 모든 아이템을 수직 정렬시킬 수 있습니다.
+Using the `align-items` property on a grid container will set the vertical alignment for all the items in our grid.
 
 # --instructions--
 

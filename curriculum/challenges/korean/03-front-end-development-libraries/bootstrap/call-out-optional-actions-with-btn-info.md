@@ -8,7 +8,7 @@ dashedName: call-out-optional-actions-with-btn-info
 
 # --description--
 
-부트스트랩에는 버튼을 위한 여러 사전에 정의된 색상들이 포함되어 있습니다. `btn-info` 클래스는 사용자가 수행할 수 있는 선택적인 동작에 주의를 환기시키기 위해 사용됩니다.
+Bootstrap comes with several pre-defined colors for buttons. The `btn-info` class is used to call attention to optional actions that the user can take.
 
 `Like` 버튼 아래에 새로운 블록 레벨의 부트스트랩 버튼과 `Info` 텍스트를 만들고`btn-info` 클래스를 추가하세요.
 

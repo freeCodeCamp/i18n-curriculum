@@ -14,7 +14,7 @@ dashedName: core-learning-algorithms-training-and-testing-data
 
 ## --text--
 
-O que são dados categóricos?
+What is categorical data?
 
 ## --answers--
 

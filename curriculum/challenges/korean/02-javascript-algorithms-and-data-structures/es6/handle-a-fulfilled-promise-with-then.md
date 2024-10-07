@@ -1,6 +1,6 @@
 ---
 id: 5cdafbd72913098997531681
-title: Handle a Fulfilled Promise with then
+title: 이행된 프로미스를 then으로 처리하기
 challengeType: 1
 forumTopicId: 301203
 dashedName: handle-a-fulfilled-promise-with-then
@@ -14,7 +14,7 @@ Promises are most useful when you have a process that takes an unknown amount of
 Promise.prototype.then(onFulfilled, onRejected)
 ```
 
-The `then` method schedules callback functions for the eventual completion of a Promise - either fulfillment or rejection. One of the `onFulfilled` and `onRejected` handlers will be executed to handle the current promise's fulfillment or rejection. When the promise is fulfilled with `resolve` the `onFulfilled` handler is called.
+`then` 메소드는 프로미스가 완료되었을 때, 즉 이행되거나 거부될 때 콜백 함수를 예약합니다. `onFulfilled`와 `onRejected` 핸들러 중 하는 현재 프로미스의 이행 혹은 거부를 처리하기 위해 실행될 것입니다. 프로미스가 `resolve`과 함께 이행될 때, `onFulfilled` 핸들러가 호출됩니다.
 
 ```js
 myPromise.then(result => {
@@ -22,15 +22,15 @@ myPromise.then(result => {
 });
 ```
 
-`result` comes from the argument given to the `resolve` method.
+`result`는 `resolve` 메소드에 주어진 인자로부터 얻습니다.
 
 # --instructions--
 
-Add the `then` method to your promise. Use `result` as the parameter of its callback function and log `result` to the console.
+프로미스에 `then`을 추가하시오. `result`을 콜백 함수의 파라미터로 사용하여 `result`을 콘솔에 출력하시오.
 
 # --hints--
 
-You should call the `then` method on the promise.
+프로미스에 `then` 메소드를 호출해야 합니다.
 
 ```js
 assert(
@@ -38,13 +38,13 @@ assert(
 );
 ```
 
-Your `then` method should have a callback function with `result` as its parameter.
+`then` 메소드는 `result`을 파라미터로 가지는 콜백 함수를 가져야 합니다.
 
 ```js
 assert(resultIsParameter);
 ```
 
-You should log `result` to the console.
+`result`를 콘솔에 출력해야 합니다.
 
 ```js
 assert(

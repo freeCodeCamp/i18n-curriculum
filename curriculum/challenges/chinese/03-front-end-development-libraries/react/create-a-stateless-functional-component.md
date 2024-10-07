@@ -8,7 +8,7 @@ dashedName: create-a-stateless-functional-component
 
 # --description--
 
-组件是 React 的核心。 React 中的所有内容都是一个组件，在这里将学习如何创建一个组件。
+Components are the core of React. Everything in React is a component and here you will learn how to create one.
 
 有两种方法可以创建 React 组件。 第一种方法是使用 JavaScript 函数。 以这种方式定义组件会创建*无状态函数组件*。 将在以后的挑战中介绍应用程序中状态的概念。 目前为止，可以将无状态组件视为能接收数据并对其进行渲染，但不管理或跟踪该数据的更改的组件。 (我们将下一个挑战使用中第二种方式创建 React 组件。)
 

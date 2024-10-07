@@ -14,7 +14,7 @@ As a reminder, this project is being built upon the following starter project on
 
 # --instructions--
 
-Within `tests/1_unit-tests.js` under the test labeled `#16` in the `Objects` suite, change each `assert` to either `assert.property` or `assert.notProperty` to make the test pass (should evaluate to `true`). Non alterare gli argomenti passati alle asserzioni.
+All'interno di `tests/1_unit-tests.js`, sotto il test etichettato con `#16`, nella suite `Objects`, cambia ogni asserzione `assert` in `assert.property` o `assert.notProperty` per far passare il test (dovrebbe risultare `true`). Non alterare gli argomenti passati alle asserzioni.
 
 # --hints--
 

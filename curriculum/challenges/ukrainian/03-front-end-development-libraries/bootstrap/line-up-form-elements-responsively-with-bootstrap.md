@@ -13,7 +13,7 @@ dashedName: line-up-form-elements-responsively-with-bootstrap
 
 # --description--
 
-Тепер розташуємо `input` та кнопку відправки форми в одному рядку. Зробимо це так само, як вже робили: використаємо елемент `div` з класом `row`, та інші елементи `div` з класом `col-xs-*` всередині нього.
+Now let's get your form `input` and your submission `button` on the same line. We'll do this the same way we have previously: by using a `div` element with the class `row`, and other `div` elements within it using the `col-xs-*` class.
 
 Вкладіть введення тексту (`input`) та кнопку надсилання форми (`button`) в межах `div` з класом `row`. Вкладіть введення тексту (`input`) в межах div з класом `col-xs-7`. Вкладіть кнопку надсилання форми (`button`) в межах `div` з класом `col-xs-5`.
 

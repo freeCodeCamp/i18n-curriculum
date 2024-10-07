@@ -9,7 +9,7 @@ dashedName: inherit-styles-from-the-body-element
 
 # --description--
 
-我们已经证明每一个 HTML 页面都含有 `body` 元素，我们也可以在 `body` 元素上使用 CSS 样式。
+Now we've proven that every HTML page has a `body` element, and that its `body` element can also be styled with CSS.
 
 设置 `body` 元素样式的方法跟设置其他 HTML 元素样式的方式一样，并且其他元素也会继承 `body` 中所设置的样式。
 

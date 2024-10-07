@@ -11,7 +11,7 @@ dashedName: remove-classes-from-an-element-with-jquery
 
 # --description--
 
-Proprio come puoi aggiungere classi a un elemento con la funzione `addClass()` di jQuery, puoi rimuoverle con la funzione `removeClass()`.
+In the same way you can add classes to an element with jQuery's `addClass()` function, you can remove them with jQuery's `removeClass()` function.
 
 Ecco come potresti farlo per un pulsante specifico:
 

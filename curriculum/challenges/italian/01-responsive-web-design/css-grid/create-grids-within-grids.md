@@ -8,7 +8,7 @@ dashedName: create-grids-within-grids
 
 # --description--
 
-Trasformare un elemento in una griglia influisce solo sul comportamento dei suoi discendenti diretti. Quindi, trasformando un discendente diretto in una griglia, avrai una griglia all'interno di un'altra griglia.
+Turning an element into a grid only affects the behavior of its direct descendants. So by turning a direct descendant into a grid, you have a grid within a grid.
 
 Ad esempio, impostando le proprietà `display` e `grid-template-columns` dell'elemento di classe `item3`, creerai una griglia all'interno della tua griglia.
 

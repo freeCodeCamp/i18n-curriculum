@@ -8,7 +8,7 @@ dashedName: apply-the-default-bootstrap-button-style
 
 # --description--
 
-Bootstrap لديه فئة أخرى للزر تسمى `btn-default`.
+Bootstrap has another button class called `btn-default`.
 
 تطبيق كل من فئتي `btn` و `btn-default` على كل عنصر من عناصر `button`.
 

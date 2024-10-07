@@ -17,11 +17,11 @@ Ouça o áudio para completar a frase abaixo.
 
 # --fillInTheBlank--
 
-## --frase--
+## --sentence--
 
 `Maria thinks challenges are positive. She BLANK us to find solutions together.`
 
-## --espaços em branco--
+## --blanks--
 
 `encourages`
 
@@ -29,7 +29,7 @@ Ouça o áudio para completar a frase abaixo.
 
 Remember to conjugate the verb. The verb you need is about motivating or inspiring someone to do something. It's similar to cheering someone on.
 
-# --cena--
+# --scene--
 
 ```json
 {

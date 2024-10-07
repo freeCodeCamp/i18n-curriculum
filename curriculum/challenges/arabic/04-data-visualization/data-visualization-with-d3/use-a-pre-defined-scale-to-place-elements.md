@@ -1,6 +1,6 @@
 ---
 id: 587d7fac367417b2b2512bde
-title: Use a Pre-Defined Scale to Place Elements
+title: استخدام مقياس محدد مسبقاً لوضع العناصر
 challengeType: 6
 forumTopicId: 301494
 dashedName: use-a-pre-defined-scale-to-place-elements
@@ -10,30 +10,30 @@ dashedName: use-a-pre-defined-scale-to-place-elements
 
 With the scales set up, it's time to map the scatter plot again. The scales are like processing functions that turn the `x` and `y` raw data into values that fit and render correctly on the SVG. They keep the data within the screen's plotting area.
 
-You set the coordinate attribute values for an SVG shape with the scaling function. This includes `x` and `y` attributes for `rect` or `text` elements, or `cx` and `cy` for `circles`. Here's an example:
+يمكنك تعيين قيم سمة الإحداثيات لشكل SVG مع وظيفة المقياس. هذا يشمل سمات `x` و `y` للعناصر `rect` أو `text`, أو `cx` و `cy` للدوائر `circles`. وهذا مثال على ذلك:
 
 ```js
 shape
   .attr("x", (d) => xScale(d[0]))
 ```
 
-Scales set shape coordinate attributes to place the data points onto the SVG. You don't need to apply scales when you display the actual data value, for example, in the `text()` method for a tooltip or label.
+Scales set shape coordinate attributes to place the data points onto the SVG. لا تحتاج إلى تطبيق المقاييس عندما تعرض قيم البيانات الفعلية، على سبيل المثال، في طريقة `text()` لوضع تلميح أو تسمية.
 
 # --instructions--
 
-Use `xScale` and `yScale` to position both the `circle` and `text` shapes onto the SVG. For the `circles`, apply the scales to set the `cx` and `cy` attributes. Give them a radius of `5` units, too.
+Use `xScale` and `yScale` to position both the `circle` and `text` shapes onto the SVG. بالنسبة للدوائر `circles`، قم بتطبيق المقاييس لتعيين سمات `cx` و `cy`. أعطيهم نصف قطر بقيمة `5` وحدات، أيضًا.
 
-For the `text` elements, apply the scales to set the `x` and `y` attributes. The labels should be offset to the right of the dots. To do this, add `10` units to the `x` data value before passing it to the `xScale`.
+بالنسبة لعناصر `text`، قم بتطبيق المقاييس لتعيين سمات `x` و `y`. وينبغي أن تعوض التسميات عن يمين النقاط. للقيام بذلك، أضف `10` وحدات إلى قيمة `x` قبل تمريرها إلى `xScale`.
 
 # --hints--
 
-Your code should have 10 `circle` elements.
+يجب أن يحتوي كودك على 10 عناصر `circle`.
 
 ```js
 assert($('circle').length == 10);
 ```
 
-The first `circle` element should have a `cx` value of approximately `91` and a `cy` value of approximately `368` after applying the scales. It should also have an `r` value of `5`.
+يجب أن يكون عنصر `circle` الأول له `cx` قيمتها تقريبًا `91` و `cy` قيمتها تقريبًا `368` بعد تطبيق المقاييس. كما ينبغي أن يكون له `r` بقيمة `5`.
 
 ```js
 assert(
@@ -43,7 +43,7 @@ assert(
 );
 ```
 
-The second `circle` element should have a `cx` value of approximately `159` and a `cy` value of approximately `181` after applying the scales. It should also have an `r` value of `5`.
+يجب أن يكون عنصر `circle` الثاني له `cx` قيمتها تقريبًا `159` و `cy` قيمتها تقريبًا `181` بعد تطبيق المقاييس. كما ينبغي أن يكون له `r` بقيمة `5`.
 
 ```js
 assert(
@@ -53,7 +53,7 @@ assert(
 );
 ```
 
-The third `circle` element should have a `cx` value of approximately `340` and a `cy` value of approximately `329` after applying the scales. It should also have an `r` value of `5`.
+يجب أن يكون عنصر `circle` الثالث له `cx` قيمتها تقريبًا `340` و `cy` قيمتها تقريبًا `329` بعد تطبيق المقاييس. كما ينبغي أن يكون له `r` بقيمة `5`.
 
 ```js
 assert(
@@ -63,7 +63,7 @@ assert(
 );
 ```
 
-The fourth `circle` element should have a `cx` value of approximately `131` and a `cy` value of approximately `60` after applying the scales. It should also have an `r` value of `5`.
+يجب أن يكون عنصر `circle` الرابع له `cx` قيمتها تقريبًا `131` و `cy` قيمتها تقريبًا `60` بعد تطبيق المقاييس. كما ينبغي أن يكون له `r` بقيمة `5`.
 
 ```js
 assert(
@@ -73,7 +73,7 @@ assert(
 );
 ```
 
-The fifth `circle` element should have a `cx` value of approximately `440` and a `cy` value of approximately `237` after applying the scales. It should also have an `r` value of `5`.
+يجب أن يكون عنصر `circle` الخامس له `cx` قيمتها تقريبًا `440` و `cy` قيمتها تقريبًا `237` بعد تطبيق المقاييس. كما ينبغي أن يكون له `r` بقيمة `5`.
 
 ```js
 assert(
@@ -83,7 +83,7 @@ assert(
 );
 ```
 
-The sixth `circle` element should have a `cx` value of approximately `271` and a `cy` value of approximately `306` after applying the scales. It should also have an `r` value of `5`.
+يجب أن يكون عنصر `circle` السادس له `cx` قيمتها تقريبًا `271` و `cy` قيمتها تقريبًا `306` بعد تطبيق المقاييس. كما ينبغي أن يكون له `r` بقيمة `5`.
 
 ```js
 assert(
@@ -93,7 +93,7 @@ assert(
 );
 ```
 
-The seventh `circle` element should have a `cx` value of approximately `361` and a `cy` value of approximately `351` after applying the scales. It should also have an `r` value of `5`.
+يجب أن يكون عنصر `circle` السابع له `cx` قيمتها تقريبًا `361` و `cy` قيمتها تقريبًا `351` بعد تطبيق المقاييس. كما ينبغي أن يكون له `r` بقيمة `5`.
 
 ```js
 assert(
@@ -103,7 +103,7 @@ assert(
 );
 ```
 
-The eighth `circle` element should have a `cx` value of approximately `261` and a `cy` value of approximately `132` after applying the scales. It should also have an `r` value of `5`.
+يجب أن يكون عنصر `circle` الثامن له `cx` قيمتها تقريبًا `261` و `cy` قيمتها تقريبًا `132` بعد تطبيق المقاييس. كما ينبغي أن يكون له `r` بقيمة `5`.
 
 ```js
 assert(
@@ -113,7 +113,7 @@ assert(
 );
 ```
 
-The ninth `circle` element should have a `cx` value of approximately `131` and a `cy` value of approximately `144` after applying the scales. It should also have an `r` value of `5`.
+يجب أن يكون عنصر `circle` التاسع له `cx` قيمتها تقريبًا `131` و `cy` قيمتها تقريبًا `144` بعد تطبيق المقاييس. كما ينبغي أن يكون له `r` بقيمة `5`.
 
 ```js
 assert(
@@ -123,7 +123,7 @@ assert(
 );
 ```
 
-The tenth `circle` element should have a `cx` value of approximately `79` and a `cy` value of approximately `326` after applying the scales. It should also have an `r` value of `5`.
+يجب أن يكون عنصر `circle` العاشر له `cx` قيمتها تقريبًا `79` و `cy` قيمتها تقريبًا `326` بعد تطبيق المقاييس. كما ينبغي أن يكون له `r` بقيمة `5`.
 
 ```js
 assert(
@@ -133,13 +133,13 @@ assert(
 );
 ```
 
-Your code should have 10 `text` elements.
+يجب أن يحتوي كودك على 10 عناصر `text`.
 
 ```js
 assert($('text').length == 10);
 ```
 
-The first label should have an `x` value of approximately `100` and a `y` value of approximately `368` after applying the scales.
+يجب أن يكون التسمية الأولى لها `x` قيمتها تقريبًا `100` و `y` قيمتها تقريبًا `368` بعد تطبيق المقاييس.
 
 ```js
 assert(
@@ -148,7 +148,7 @@ assert(
 );
 ```
 
-The second label should have an `x` value of approximately `168` and a `y` value of approximately `181` after applying the scales.
+يجب أن يكون التسمية الثانية لها `x` قيمتها تقريبًا `168` و `y` قيمتها تقريبًا `181` بعد تطبيق المقاييس.
 
 ```js
 assert(
@@ -157,7 +157,7 @@ assert(
 );
 ```
 
-The third label should have an `x` value of approximately `350` and a `y` value of approximately `329` after applying the scales.
+يجب أن يكون التسمية الثالثة لها `x` قيمتها تقريبًا `350` و `y` قيمتها تقريبًا `329` بعد تطبيق المقاييس.
 
 ```js
 assert(
@@ -166,7 +166,7 @@ assert(
 );
 ```
 
-The fourth label should have an `x` value of approximately `141` and a `y` value of approximately `60` after applying the scales.
+يجب أن يكون التسمية الرابعة لها `x` قيمتها تقريبًا `141` و `y` قيمتها تقريبًا `60` بعد تطبيق المقاييس.
 
 ```js
 assert(
@@ -175,7 +175,7 @@ assert(
 );
 ```
 
-The fifth label should have an `x` value of approximately `449` and a `y` value of approximately `237` after applying the scales.
+يجب أن يكون التسمية الخامسة لها `x` قيمتها تقريبًا `449` و `y` قيمتها تقريبًا `237` بعد تطبيق المقاييس.
 
 ```js
 assert(
@@ -184,7 +184,7 @@ assert(
 );
 ```
 
-The sixth label should have an `x` value of approximately `280` and a `y` value of approximately `306` after applying the scales.
+يجب أن يكون التسمية السادسة لها `x` قيمتها تقريبًا `280` و `y` قيمتها تقريبًا `306` بعد تطبيق المقاييس.
 
 ```js
 assert(
@@ -193,7 +193,7 @@ assert(
 );
 ```
 
-The seventh label should have an `x` value of approximately `370` and a `y` value of approximately `351` after applying the scales.
+يجب أن يكون التسمية السابعة لها `x` قيمتها تقريبًا `370` و `y` قيمتها تقريبًا `351` بعد تطبيق المقاييس.
 
 ```js
 assert(
@@ -202,7 +202,7 @@ assert(
 );
 ```
 
-The eighth label should have an `x` value of approximately `270` and a `y` value of approximately `132` after applying the scales.
+يجب أن يكون التسمية الثامنة لها `x` قيمتها تقريبًا `270` و `y` قيمتها تقريبًا `132` بعد تطبيق المقاييس.
 
 ```js
 assert(
@@ -211,7 +211,7 @@ assert(
 );
 ```
 
-The ninth label should have an `x` value of approximately `140` and a `y` value of approximately `144` after applying the scales.
+يجب أن يكون التسمية التاسعة لها `x` قيمتها تقريبًا `140` و `y` قيمتها تقريبًا `144` بعد تطبيق المقاييس.
 
 ```js
 assert(
@@ -220,7 +220,7 @@ assert(
 );
 ```
 
-The tenth label should have an `x` value of approximately `88` and a `y` value of approximately `326` after applying the scales.
+يجب أن يكون التسمية العاشرة لها `x` قيمتها تقريبًا `88` و `y` قيمتها تقريبًا `326` بعد تطبيق المقاييس.
 
 ```js
 assert(

@@ -8,7 +8,7 @@ dashedName: understand-the-hazards-of-using-imperative-code
 
 # --description--
 
-La programmazione funzionale è una buona abitudine. Mantiene il tuo codice facile da gestire e ti salva da bug subdoli. Prima di arrivarci, diamo un'occhiata a un approccio imperativo alla programmazione per evidenziare dove si possono presentare i problemi.
+Functional programming is a good habit. It keeps your code easy to manage, and saves you from sneaky bugs. But before we get there, let's look at an imperative approach to programming to highlight where you may have issues.
 
 In inglese (e in molte altre lingue), il tempo imperativo viene usato per dare ordini. Allo stesso modo, uno stile imperativo nella programmazione è quello che dà al computer una serie di istruzioni per eseguire un compito.
 

@@ -10,7 +10,7 @@ dashedName: disable-dns-prefetching-with-helmet-dnsprefetchcontrol
 
 As a reminder, this project is being built upon the following starter project on <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-infosec/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>, or cloned from <a href="https://github.com/freeCodeCamp/boilerplate-infosec/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
 
-Um die Leistung zu verbessern, rufen die meisten Browser DNS-Einträge für die Links auf einer Seite vorab ab. Auf diese Weise ist die Ziel-IP bereits bekannt, wenn der Nutzer auf einen Link klickt. This may lead to over-use of the DNS service (if you own a big website, visited by millions people…), privacy issues (one eavesdropper could infer that you are on a certain page), or page statistics alteration (some links may appear visited even if they are not). Wenn du ein hohes Sicherheitsbedürfnis hast, kannst du das DNS-Prefetching deaktivieren, was allerdings mit Leistungseinbußen verbunden ist.
+Um die Leistung zu verbessern, rufen die meisten Browser DNS-Einträge für die Links auf einer Seite vorab ab. Auf diese Weise ist die Ziel-IP bereits bekannt, wenn der Nutzer auf einen Link klickt. Dies kann zu einer übermäßigen Nutzung des DNS-Dienstes (wenn du eine große Website besitzt, die von Millionen von Menschen besucht wird...), zu Problemen mit dem Datenschutz (jemand mit unbefugtem Zugriff könnte herausfinden, dass du dich auf einer bestimmten Seite befindest) oder zu einer Veränderung der Seitenstatistik (einige Links können als besucht erscheinen, obwohl sie es nicht sind) führen. Wenn du ein hohes Sicherheitsbedürfnis hast, kannst du das DNS-Prefetching deaktivieren, was allerdings mit Leistungseinbußen verbunden ist.
 
 # --instructions--
 
@@ -18,7 +18,7 @@ Verwende die `helmet.dnsPrefetchControl()`-Methode auf deinem Server.
 
 # --hints--
 
-helmet.dnsPrefetchControl() middleware should be mounted correctly
+Die helmet.dnsPrefetchControl()-Middleware sollte korrekt eingebaut werden
 
 ```js
 (getUserInput) =>

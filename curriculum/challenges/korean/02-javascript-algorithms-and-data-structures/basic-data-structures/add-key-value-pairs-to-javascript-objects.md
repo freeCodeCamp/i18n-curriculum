@@ -8,7 +8,7 @@ dashedName: add-key-value-pairs-to-javascript-objects
 
 # --description--
 
-기본적으로, 객체는 단순히 <dfn>키-값</dfn> 쌍의 모음입니다. 다시 말해 객체는 <dfn>속성</dfn>(<dfn>키</dfn>)이라는 고유 식별 값에 매핑된 데이터(<dfn>값</dfn>)입니다. 예시를 보겠습니다.
+At their most basic, objects are just collections of <dfn>key-value</dfn> pairs. In other words, they are pieces of data (<dfn>values</dfn>) mapped to unique identifiers called <dfn>properties</dfn> (<dfn>keys</dfn>). Take a look at an example:
 
 ```js
 const tekkenCharacter = {

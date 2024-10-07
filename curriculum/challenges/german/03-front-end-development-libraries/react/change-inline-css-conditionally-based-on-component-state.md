@@ -8,7 +8,7 @@ dashedName: change-inline-css-conditionally-based-on-component-state
 
 # --description--
 
-Bis jetzt hast du mehrere Anwendungen des bedingungsabhängigen Renderings und die Verwendung von Inline-Styles gesehen. Hier ist ein weiteres Beispiel, das diese beiden Themen kombiniert. Du kannst CSS auch abhängig vom Zustand einer React-Komponente rendern. Dazu überprüfst du eine Bedingung, und wenn diese erfüllt ist, änderst du das Styles-Objekt, das den JSX-Elementen in der Render-Methode zugewiesen wird.
+At this point, you've seen several applications of conditional rendering and the use of inline styles. Here's one more example that combines both of these topics. You can also render CSS conditionally based on the state of a React component. To do this, you check for a condition, and if that condition is met, you modify the styles object that's assigned to the JSX elements in the render method.
 
 Dieses Paradigma ist wichtig zu verstehen, denn es ist eine drastische Veränderung gegenüber dem traditionellen Ansatz der Anwendung von Stilen durch die direkte Änderung von DOM-Elementen (was zum Beispiel bei jQuery sehr verbreitet ist). Bei diesem Ansatz musst du verfolgen, wann sich Elemente ändern und die eigentliche Manipulation direkt vornehmen. Es kann schwierig werden, den Überblick über Änderungen zu behalten, was deine Benutzeroberfläche (UI) unberechenbar machen kann. Wenn du ein Style-Objekt basierend auf einer Bedingung festlegst, beschreibst du, wie die Benutzeroberfläche in Abhängigkeit vom Zustand der Anwendung aussehen soll. Es gibt einen klaren Informationsfluss, der nur in eine Richtung geht. Dies ist die bevorzugte Methode, wenn du Anwendungen mit React schreibst.
 

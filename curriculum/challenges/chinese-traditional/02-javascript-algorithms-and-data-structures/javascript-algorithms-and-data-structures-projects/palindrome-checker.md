@@ -8,11 +8,11 @@ dashedName: palindrome-checker
 
 # --description--
 
-如果傳入的字符串是迴文字符串，則返回 `true`。 否則返回 `false`
+Return `true` if the given string is a palindrome. Otherwise, return `false`.
 
-迴文 <dfn>palindrome</dfn>，指在忽略標點符號、大小寫和空格的前提下，正着讀和反着讀一模一樣。
+迴文（<dfn>palindrome</dfn>），指在忽略標點符號、大小寫和空格的前提下，正着讀和反着讀一模一樣。
 
-**注意：**檢查迴文時，你需要先去除**所有非字母數字的字符**（標點、空格和符號），並將所有字母都轉換成大寫或都轉換成小寫。
+**注意：** 檢查迴文時，你需要先去除 **所有非字母數字的字符**（標點、空格和符號），並將所有字母都轉換成大寫或都轉換成小寫。
 
 我們會傳入具有不同格式的字符串，如 `racecar`、`RaceCar` 和 `race CAR` 等等。
 
@@ -50,7 +50,7 @@ assert(palindrome('race car') === true);
 assert(palindrome('not a palindrome') === false);
 ```
 
-`palindrome("A man, a plan, a canal. Panama")` 應該返回 `true`。
+`palindrome("A man, a plan, a canal. Panama")` 應返回 `true`。
 
 ```js
 assert(palindrome('A man, a plan, a canal. Panama') === true);
@@ -62,7 +62,7 @@ assert(palindrome('A man, a plan, a canal. Panama') === true);
 assert(palindrome('never odd or even') === true);
 ```
 
-`palindrome("nope")` 應該返回 `false`。
+`palindrome("nope")` 應返回 `false`。
 
 ```js
 assert(palindrome('nope') === false);

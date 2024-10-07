@@ -1,6 +1,6 @@
 ---
 id: 587d778c367417b2b2512aa9
-title: Standardize Times with the HTML5 datetime Attribute
+title: توحيد الأوقات مع خاصية التاريخ والوقت HTML5
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cmzMgtz'
 forumTopicId: 301025
@@ -11,7 +11,7 @@ dashedName: standardize-times-with-the-html5-datetime-attribute
 
 Continuing with the date theme, HTML5 also introduced the `time` element along with a `datetime` attribute to standardize times. The `time` element is an inline element that can wrap a date or time on a page. A `datetime` attribute holds a valid format of that date. This is the value accessed by assistive devices. It helps avoid confusion by stating a standardized version of a time, even if it's informally or colloquially written in the text.
 
-Here's an example:
+إليك مثالًا:
 
 ```html
 <p>Master Camper Cat officiated the cage match between Goro and Scorpion <time datetime="2013-02-13">last Wednesday</time>, which ended in a draw.</p>
@@ -19,29 +19,29 @@ Here's an example:
 
 # --instructions--
 
-صدرت نتائج استقصاء Camper Cat في Mortal Kombat! Wrap a `time` tag around the text `Thursday, September 15<sup>th</sup>` and add a `datetime` attribute to it set to `2016-09-15`.
+صدرت نتائج استقصاء Camper Cat في Mortal Kombat! احتوِ النص `Thursday, September 15<sup><sup><sup>th</sup></sup>` بداخل الوسم `time` وأضِف السمة `datetime` إليها لضبط التاريخ للتنسيق `2016-09-15`.
 
 # --hints--
 
-Your code should have a `p` element which includes the text `Thank you to everyone for responding to Master Camper Cat's survey.` and include a `time` element.
+يجب أن تحتوي شيفرتك البرمجية على عنصر `p` يحتوي على النص `Thank you to everyone for responding to Master Camper Cat's survey.` وأن يحتوي عنصر `time`.
 
 ```js
 assert.exists(timeElement);
 ```
 
-Your added `time` tags should wrap around the text `Thursday, September 15<sup>th</sup>`.
+يجب أن تحتوي وسوم `time` المُضافة على النص `Thursday, September 15<sup>th</sup>`.
 
 ```js
 assert.strictEqual(timeElement?.innerHTML?.trim(), 'Thursday, September 15<sup>th</sup>');
 ```
 
-Your added `time` tag should have a `datetime` attribute that is not empty.
+يجب أن يحتوي وسم `time` المُضاف على سمة `datetime` غير فارغة.
 
 ```js
 assert(datetimeAttr?.length != 0);
 ```
 
-Your added `datetime` attribute should be set to a value of `2016-09-15`.
+يجب أن تُضبط سمة `datetime` المُضافة إلى القيمة `2016-09-15`.
 
 ```js
 assert.equal(datetimeAttr , '2016-09-15');

@@ -1,6 +1,6 @@
 ---
 id: 587d8259367417b2b2512c84
-title: Create a Trie Search Tree
+title: Erstelle einen Trie-Suchbaum
 challengeType: 1
 forumTopicId: 301634
 dashedName: create-a-trie-search-tree
@@ -12,11 +12,11 @@ Here we will move on from binary search trees and take a look at another type of
 
 # --instructions--
 
-Let's create a trie to store words. It will accept words through an `add` method and store these in a trie data structure. It will also allow us to query if a given string is a word with an `isWord` method, and retrieve all the words entered into the trie with a `print` method. `isWord` should return a boolean value and `print` should return an array of all these words as string values. In order for us to verify that this data structure is implemented correctly, we've provided a `Node` structure for each node in the tree. Each node will be an object with a `keys` property which is a JavaScript Map object. This will hold the individual letters that are valid keys of each node. We've also created an `end` property on the nodes that can be set to `true` if the node represents the termination of a word.
+Legen wir ein Trie an, um Wörter zu speichern. Er akzeptiert Wörter durch eine `add`-Methode und speichert diese in einer Trie-Datenstruktur. Er wird es uns auch ermöglichen, mit einer `isWord`-Methode abzufragen, ob ein gegebener String ein Wort ist, und mit einer `print`-Methode alle in den Trie eingegebenen Wörter abzurufen. `isWord` sollte einen booleschen Wert zurückgeben und `print` sollte ein Array mit all diesen Wörtern als String-Werte zurückgeben. Damit wir überprüfen können, ob diese Datenstruktur korrekt implementiert ist, haben wir für jeden Knoten im Baum eine `Node`-Struktur bereitgestellt. Jeder Knoten ist ein Objekt mit einer `keys`-Eigenschaft, die ein JavaScript Map-Objekt ist. Dieser enthält die einzelnen Buchstaben, die gültige Schlüssel für jeden Knoten sind. Wir haben auch eine `end`-Eigenschaft für die Knoten erstellt, die auf `true` gesetzt werden kann, wenn der Knoten das Ende eines Wortes darstellt.
 
 # --hints--
 
-The `Trie` should have an `add` method.
+Das `Trie` sollte eine `add`-Methode haben.
 
 ```js
 assert(
@@ -32,7 +32,7 @@ assert(
 );
 ```
 
-The `Trie` should have a `print` method.
+Das `Trie` sollte eine `print`-Methode haben.
 
 ```js
 assert(
@@ -48,7 +48,7 @@ assert(
 );
 ```
 
-The `Trie` should have an `isWord` method.
+Das `Trie` sollte eine `isWord` Methode haben.
 
 ```js
 assert(
@@ -64,7 +64,7 @@ assert(
 );
 ```
 
-The `print` method should return all items added to the trie as strings in an array.
+Die Methode `print` sollte alle Elemente, die dem Test hinzugefügt wurden, als Strings in einem Array zurückgeben.
 
 ```js
 assert(
@@ -93,7 +93,7 @@ assert(
 );
 ```
 
-The `isWord` method should return `true` only for words added to the trie and `false` for all other words.
+Die Methode `isWord` sollte nur `true` für Wörter zurückgeben, die dem Trie hinzugefügt wurden, und `false` für alle anderen Wörter.
 
 ```js
 assert(

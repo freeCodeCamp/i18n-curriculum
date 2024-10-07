@@ -8,7 +8,7 @@ dashedName: change-text-with-click-events
 
 # --description--
 
-当点击事件发生时，你可以使用 JavaScript 更新 HTML 元素。
+When the click event happens, you can use JavaScript to update an HTML element.
 
 例如，当用户点击 `Get Message` 按钮时，它将改变 class 为 `message` 的元素的文本为 `Here is the message`。
 

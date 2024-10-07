@@ -51,7 +51,7 @@ Sende das folgende JSON-Objekt mit deiner PUT-Anfrage:
 
 Überprüfe, ob der `request.end` Callback Folgendes enthält:
 
-1.  Der `status` sollte `200` betragen
+1.  The `status` should be `200`
 2.  Der `type` sollte `application/json` sein
 3.  Der `body.name` sollte `Cristoforo` sein
 4.  Der `body.surname` sollte `Colombo` sein

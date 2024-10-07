@@ -9,7 +9,7 @@ dashedName: store-multiple-values-in-one-variable-using-javascript-arrays
 
 # --description--
 
-بواسطة المتغيرات من نوع `array` في JavaScript، يمكننا تخزين عدة قطع من البيانات في مكان واحد.
+With JavaScript `array` variables, we can store several pieces of data in one place.
 
 تبدأ إعلان القائمة (array) بأقواس مربعه (square bracke) وتنهيها بأقواس مربعه، ووضع فاصلة بين كل إدخال، مثال:
 

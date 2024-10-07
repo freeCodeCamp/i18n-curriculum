@@ -8,7 +8,7 @@ dashedName: prevent-infinite-loops-with-a-valid-terminal-condition
 
 # --description--
 
-마지막 주제는 공포의 무한 루프에 관한 것입니다. 반복문은 프로그램이 특정 횟수 혹은 조건이 만족할 때까지 코드 블록을 실행해야 하는 경우에 훌륭한 도구이지만, 반복문을 종료하는 종료 조건이 필요합니다. 무한 루프는 브라우저의 작동을 멈추거나 갑자기 닫히게 할 수도 있고, 전체적인 프로그램 실행 장애를 일으키기 때문에 아무도 원하지 않습니다.
+The final topic is the dreaded infinite loop. Loops are great tools when you need your program to run a code block a certain number of times or until a condition is met, but they need a terminal condition that ends the looping. Infinite loops are likely to freeze or crash the browser, and cause general program execution mayhem, which no one wants.
 
 이 섹션의 도입부에 무한 루프의 예가 있었는데, `loopy()` 내부의 `while` 반복문에서 벗어날 수 있는 종료 조건이 없었습니다. 이 함수를 호출하지 마세요!
 

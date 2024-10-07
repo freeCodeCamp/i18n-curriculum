@@ -8,7 +8,7 @@ dashedName: use-react-to-render-nested-components
 
 # --description--
 
-El último desafío mostró una manera simple de organizar dos componentes, pero hay muchas maneras diferentes de organizar componentes con React.
+The last challenge showed a simple way to compose two components, but there are many different ways you can compose components with React.
 
 La composición de componentes es una de las características más poderosas de React. Cuando trabajas con React, es importante comenzar a pensar en tu interfaz de usuario en términos de componentes, como el ejemplo App del último desafío. Debes dividir tu UI en sus bloques básicos de construcción, y esas piezas se convierten en los componentes. Esto ayuda a separar el código responsable de la interfaz de usuario del código responsable de manejar la lógica de tu aplicación. Esto puede simplificar enormemente el desarrollo y el mantenimiento de proyectos complejos.
 
@@ -18,13 +18,13 @@ Hay dos componentes funcionales definidos en el editor de código, llamados `Typ
 
 # --hints--
 
-El componente `TypesOfFood` debe devolver un solo elemento `div`.
+El componente `TypesOfFood` debe retornar un solo elemento `div`.
 
 ```js
 assert(Enzyme.shallow(React.createElement(TypesOfFood)).type() === 'div');
 ```
 
-El componente `TypesOfFood` debe devolver el componente `Fruits`.
+El componente `TypesOfFood` debe retornar el componente `Fruits`.
 
 ```js
 assert(

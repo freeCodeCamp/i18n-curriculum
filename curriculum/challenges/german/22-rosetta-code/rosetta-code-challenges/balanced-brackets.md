@@ -8,7 +8,7 @@ dashedName: balanced-brackets
 
 # --description--
 
-Determine whether a generated string of brackets is balanced; that is, whether it consists entirely of pairs of opening/closing brackets (in that order), none of which mis-nest.
+Stelle fest, ob ein generierter String mit Klammern ausgeglichen ist; das heißt, ob es nur aus Paaren von sich öffnenden/sich schließenden Klammern (in dieser Reihenfolge) besteht, bei denen keine falsche Schachtelung besteht.
 
 **Beispiele:**
 | Input                     | Ausgabe |

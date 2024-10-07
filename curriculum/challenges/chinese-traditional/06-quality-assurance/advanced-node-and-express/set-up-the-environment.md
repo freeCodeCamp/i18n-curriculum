@@ -8,7 +8,7 @@ dashedName: set-up-the-environment
 
 # --description--
 
-在接下來的挑戰中，我們將會用到 `chat.pug` 文件。 首先，在你的 `routes.js` 文件中爲 `/chat` 添加一個處理 GET 請求的路由，並給它傳入 `ensureAuthenticated`。在回調函數中，我們需要讓它渲染 `chat.pug` 文件，並在響應中包含 `{ user: req.user }` 信息。 現在，請修改 `/auth/github/callback` 路由，讓它可以像這樣設置 user_id：`req.session.user_id = req.user.id`，並在設置完成後重定向至 `/chat`。
+The following challenges will make use of the `chat.pug` file. So, in your `routes.js` file, add a GET route pointing to `/chat` which makes use of `ensureAuthenticated`, and renders `chat.pug`, with `{ user: req.user }` passed as an argument to the response. Now, alter your existing `/auth/github/callback` route to set the `req.session.user_id = req.user.id`, and redirect to `/chat`.
 
 已添加 `socket.io@~2.3.0` 作爲依賴項，在你的服務器中和 `http` （內置在 Nodejs 中）一起導入/實例化，具體如下：
 

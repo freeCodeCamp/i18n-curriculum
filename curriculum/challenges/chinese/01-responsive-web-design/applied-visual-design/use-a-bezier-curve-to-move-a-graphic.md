@@ -9,7 +9,7 @@ dashedName: use-a-bezier-curve-to-move-a-graphic
 
 # --description--
 
-前面的关卡涉及了使用 `ease-out` 预定义值描述了动画以高速开始低速结束。 右边的动画展示了 `ease-out` 效果（蓝色的元素）和 `linear` 效果（红色的元素）的区别。 同样的，`ease-out` 预定义值也可以用贝塞尔曲线函数实现。
+A previous challenge discussed the `ease-out` keyword that describes an animation change that speeds up first and then slows down at the end of the animation. On the right, the difference between the `ease-out` keyword (for the blue element) and `linear` keyword (for the red element) is demonstrated. Similar animation progressions to the `ease-out` keyword can be achieved by using a custom cubic Bezier curve function.
 
 通俗的讲，将一条直线放在范围只有 1 的坐标轴中，并从中间拿 `p1` 和 `p2` 两个点来拉扯（X 轴的取值区间是 \[0, 1]，Y 轴任意），最后形成的曲线就是动画的贝塞尔速度曲线。 下面是一个使用值来模仿 `ease-out` 样式的 Bezier 曲线示例：
 

@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: loading-data-and-advanced-indexing
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-Se ha dado un archivo llamado `data.txt` con estos contenidos:
+Given a file named `data.txt` with these contents:
 
 <pre>
 29,97,32,100,45

@@ -9,7 +9,7 @@ dashedName: create-flexible-layouts-using-auto-fit
 
 # --description--
 
-`auto-fit` funciona casi igual que `auto-fill`. La única diferencia es que cuando el tamaño del contenedor excede el tamaño de todos sus elementos combinados, `auto-fill` sigue insertando filas o columnas vacías y empuja los elementos hacia un lado, mientras que `auto-fit` colapsa esas filas o columnas y estira los elementos para que cubran el tamaño del contenedor.
+`auto-fit` works almost identically to `auto-fill`. The only difference is that when the container's size exceeds the size of all the items combined, `auto-fill` keeps inserting empty rows or columns and pushes your items to the side, while `auto-fit` collapses those empty rows or columns and stretches your items to fit the size of the container.
 
 **Nota:** si a tu contenedor no le caben todos los elementos en una fila, los moverá hacia abajo a una nueva fila.
 

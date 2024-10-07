@@ -9,7 +9,7 @@ dashedName: override-all-other-styles-by-using-important
 
 # --description--
 
-야호! 방금 인라인 스타일이 `style` 요소의 모든 CSS 선언을 덮어쓰는 것을 확인했습니다.
+Yay! We just proved that inline styles will override all the CSS declarations in your `style` element.
 
 그러나 여기서 잠깐, CSS를 덮어쓰는 마지막 방법이 하나 남았습니다. 이것은 가장 강력한 방법입니다. 알아보기 전에 왜 CSS를 덮어쓸 필요가 있는지에 대해 알아보겠습니다.
 

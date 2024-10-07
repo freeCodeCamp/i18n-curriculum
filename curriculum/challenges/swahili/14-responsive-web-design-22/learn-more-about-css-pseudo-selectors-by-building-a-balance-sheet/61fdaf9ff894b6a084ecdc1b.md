@@ -7,7 +7,7 @@ dashedName: step-33
 
 # --description--
 
-Ili kuzuia maudhui ya maandishi kufurika, kipe kichaguzi chako `span[class~="sr-only"]` sifa ya `overflow` iliyowekwa kuwa `hidden` na sifa ya `white-space` iliyowekwa kuwa `nowrap`.
+To prevent the text content from overflowing, give your `span[class~="sr-only"]` selector an `overflow` property set to `hidden` and a `white-space` property set to `nowrap`.
 
 # --hints--
 

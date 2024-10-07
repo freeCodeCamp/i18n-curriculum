@@ -6,11 +6,11 @@ videoId: Y5M7KH4A4n4
 dashedName: how-convolutional-neural-networks-work
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-¿Cuándo las Redes Neurales Convolucionales no son útiles?
+When are Convolutional Neural Networks not useful?
 
 ## --answers--
 

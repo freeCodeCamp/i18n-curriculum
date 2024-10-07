@@ -8,7 +8,7 @@ dashedName: implement-insertion-sort
 
 # --description--
 
-Il prossimo metodo di ordinamento che vedremo è Insertion Sort. Questo metodo funziona costruendo un array ordinato all'inizio della lista. Esso inizia l'array ordinato con il primo elemento. Poi ispeziona l'elemento successivo e lo scambia all'indietro nell'array ordinato fino a quando non è in posizione ordinata. Continua a iterare attraverso la lista e a scambiare nuovi elementi all'indietro nella porzione ordinata fino a raggiungere la fine. Questo algoritmo ha una complessità di tempo quadratica nei casi medi e peggiori.
+The next sorting method we'll look at is insertion sort. This method works by building up a sorted array at the beginning of the list. Inizia l'array ordinato con il primo elemento. Then it inspects the next element and swaps it backwards into the sorted array until it is in sorted position. It continues iterating through the list and swapping new items backwards into the sorted portion until it reaches the end. This algorithm has quadratic time complexity in the average and worst cases.
 
 **Istruzioni:** Scrivi una funzione `insertionSort` che prende un array di interi come input e restituisce un array di questi interi in ordine dal più piccolo al più grande.
 

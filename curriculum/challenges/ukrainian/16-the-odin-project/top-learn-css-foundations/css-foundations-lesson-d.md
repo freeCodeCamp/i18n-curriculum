@@ -48,7 +48,7 @@ dashedName: css-foundations-lesson-d
 }
 ```
 
-Ви не зможете об’єднати декілька селекторів типу, оскільки елемент може мати лише один тип. Наприклад, якщо об’єднати два селектори (`div` та `p`), ми отримаємо селектор `divp`, який не працюватиме, оскільки шукатиме елемент `<divp>`, якого не існує.
+Ви не зможете об’єднати декілька селекторів типу, оскільки елемент може мати лише один тип. For example, chaining two type selectors like `div` and `p` would give us the selector `divp`, which wouldn’t work since the selector would try to find a literal `<divp>` element, which doesn’t exist.
 
 # --questions--
 

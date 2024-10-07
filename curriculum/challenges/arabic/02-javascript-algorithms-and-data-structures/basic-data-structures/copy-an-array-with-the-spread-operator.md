@@ -8,7 +8,7 @@ dashedName: copy-an-array-with-the-spread-operator
 
 # --description--
 
-بينما `slice()` تسمح لنا بأن نكون انتقائيين حول أي من عناصر القائمة يجب نسخها، من بين عدة مهام مفيدة أخرى، يتيح لنا <dfn>spread operator</dfn> نسخ *كل* عناصر القائمة بسهولة وبالترتيب، باستخدام كود بسيط ومقروء بسهولة. صيغة spread تبدو ببساطة هكذا: `...`
+While `slice()` allows us to be selective about what elements of an array to copy, among several other useful tasks, ES6's new <dfn>spread operator</dfn> allows us to easily copy *all* of an array's elements, in order, with a simple and highly readable syntax. The spread syntax simply looks like this: `...`
 
 من الناحية العملية، يمكننا استخدام spread operator لنسخ قائمة هكذا مثلا:
 

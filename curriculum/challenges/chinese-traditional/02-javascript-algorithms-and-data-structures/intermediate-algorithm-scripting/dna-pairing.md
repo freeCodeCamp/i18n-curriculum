@@ -8,7 +8,7 @@ dashedName: dna-pairing
 
 # --description--
 
-脫氧核糖核酸組由核酸對組成。 基本配對的字符是 <em>AT</em> and <em>CG</em>，這些字符形成了 DNA 雙螺旋的構件。
+Pairs of DNA strands consist of nucleobase pairs. Base pairs are represented by the characters <em>AT</em> and <em>CG</em>, which form building blocks of the DNA double helix.
 
 DNA 鏈缺少配對元素。 寫一個函數來匹配缺失的 DNA 字符串。 對於提供的字符串中的每個字符，找出基本的配對字符。 返回二維數組的結果。
 

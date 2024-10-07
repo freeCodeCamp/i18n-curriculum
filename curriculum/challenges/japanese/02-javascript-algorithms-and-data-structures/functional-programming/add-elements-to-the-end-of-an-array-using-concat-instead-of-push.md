@@ -8,9 +8,9 @@ dashedName: add-elements-to-the-end-of-an-array-using-concat-instead-of-push
 
 # --description--
 
-関数型プログラミングで重要なのは、ミューテーションを起こさない関数を作成して使用することです。
+Functional programming is all about creating and using non-mutating functions.
 
-一つ前のチャレンジでは、元の配列をミューテートさせずに配列を新しい配列に統合する方法として、`concat` メソッドを紹介しました。 `concat` を `push` メソッドと比較してみましょう。 `push` は、このメソッドが呼び出された配列自体の末尾にアイテムを追加するため、その配列をミューテートさせます。 例を示します。
+一つ前のチャレンジでは、元の配列をミューテートさせずに配列を新しい配列に統合する方法として、`concat` メソッドを紹介しました。 `concat` を `push` メソッドと比較してみましょう。 `push` は、このメソッドが呼び出された配列自体の末尾にアイテムを追加するため、その配列をミューテートさせます。 以下が例です:
 
 ```js
 const arr = [1, 2, 3];

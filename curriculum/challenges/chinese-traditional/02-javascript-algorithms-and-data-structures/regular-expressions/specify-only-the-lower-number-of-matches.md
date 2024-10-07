@@ -8,7 +8,7 @@ dashedName: specify-only-the-lower-number-of-matches
 
 # --description--
 
-可以使用帶有花括號的數量說明符來指定匹配模式的上下限。 但有時候只想指定匹配模式的下限而不需要指定上限。
+You can specify the lower and upper number of patterns with quantity specifiers using curly brackets. Sometimes you only want to specify the lower number of patterns with no upper limit.
 
 爲此，在第一個數字後面跟一個逗號即可。
 

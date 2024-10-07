@@ -8,7 +8,7 @@ dashedName: split-your-styles-into-smaller-chunks-with-partials
 
 # --description--
 
-<dfn>Часткові файли</dfn> в Sass — це окремі файли, які містять сегменти коду CSS. Їх імпортують і використовують в інших файлах Sass. Це чудовий спосіб, щоб згрупувати ідентичний код у впорядкований модуль.
+<dfn>Partials</dfn> in Sass are separate files that hold segments of CSS code. These are imported and used in other Sass files. This is a great way to group similar code into a module to keep it organized.
 
 Назва часткового файлу починається з підкреслення (`_`), що повідомляє Sass, що це малий сегмент CSS, який не потрібно конвертувати у файл CSS. Окрім того, файли Sass закінчуються розширенням `.scss`. Щоб перенести код з часткового файлу в інший файл Sass, використайте директиву `@import`.
 

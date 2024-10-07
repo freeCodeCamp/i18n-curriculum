@@ -18,19 +18,19 @@ The next few video lessons will reference [this Colab notebook](https://colab.re
 
 ## --text--
 
-Le reti neurali dense analizzano gli input su scala globale e riconoscono schemi in aree specifiche. Le reti neurali convoluzionali...:
+Dense neural networks analyze input on a global scale and recognize patterns in specific areas. Convolutional neural networks...:
 
 ## --answers--
 
-analizzano anche gli input a livello globale ed estraggono le caratteristiche da aree specifiche.
+also analyze input globally and extract features from specific areas.
 
 ---
 
-non funzionano bene per la classificazione delle immagini o per il rilevamento degli oggetti.
+do not work well for image classification or object detection.
 
 ---
 
-scansionano l'intero input un po' alla volta e imparano modelli locali.
+scan through the entire input a little at a time and learn local patterns.
 
 ## --video-solution--
 

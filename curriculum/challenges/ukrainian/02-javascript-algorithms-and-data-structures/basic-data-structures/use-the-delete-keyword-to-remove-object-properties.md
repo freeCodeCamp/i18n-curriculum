@@ -8,7 +8,7 @@ dashedName: use-the-delete-keyword-to-remove-object-properties
 
 # --description--
 
-Тепер ви знаєте, що таке об’єкти, а також їхні основні функції і переваги. Одним словом, це бази ключів і значень, які забезпечують гнучкий та зрозумілий спосіб структурування даних ***та*** сприяють зменшенню часу на пошук. У решті завдань ми опишемо кілька типових операцій, які ви можете здійснити на об’єктах, щоб вам було зручно застосовувати такі корисні структури даних у програмах.
+Now you know what objects are and their basic features and advantages. In short, they are key-value stores which provide a flexible, intuitive way to structure data, ***and***, they provide very fast lookup time. Throughout the rest of these challenges, we will describe several common operations you can perform on objects so you can become comfortable applying these useful data structures in your programs.
 
 У попередніх завданнях ми додавали пари ключ-значення до об’єкта та змінювали їх. Тепер ми розглянемо, як *видалити* пару ключ-значення з об’єкта.
 

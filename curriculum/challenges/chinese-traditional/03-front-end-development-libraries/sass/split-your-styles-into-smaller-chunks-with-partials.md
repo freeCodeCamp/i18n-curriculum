@@ -8,7 +8,7 @@ dashedName: split-your-styles-into-smaller-chunks-with-partials
 
 # --description--
 
-Sass 中的 <dfn>Partials</dfn> 是包含 CSS 代碼段的單獨的文件。 這些片段可以導入其它 Sass 文件使用。 可以把類似代碼放到模塊中，以保持代碼結構規整且易於管理。
+<dfn>Partials</dfn> in Sass are separate files that hold segments of CSS code. These are imported and used in other Sass files. This is a great way to group similar code into a module to keep it organized.
 
 partials 的名稱以下劃線（`_`）字符開頭，這樣 Sass 就知道它是 CSS 的一小部分，而不會將其轉換爲 CSS 文件。 此外，Sass 文件以 `.scss` 文件擴展名結尾。 要將 partial 中的代碼放入另一個 Sass 文件中，使用 `@import` 指令。
 

@@ -9,7 +9,7 @@ dashedName: accessing-object-properties-with-bracket-notation
 
 # --description--
 
-Il secondo modo di accedere alle proprietà di un oggetto è la notazione a parentesi (`[]`). Se la proprietà dell'oggetto a cui stai tentando di accedere ha uno spazio nel suo nome, è necessario utilizzare la notazione a parentesi.
+The second way to access the properties of an object is bracket notation (`[]`). If the property of the object you are trying to access has a space in its name, you will need to use bracket notation.
 
 Tuttavia, puoi ancora usare la notazione a parentesi sulle proprietà dell'oggetto senza spazi.
 

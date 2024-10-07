@@ -1,50 +1,50 @@
 ---
 id: 657e4ec6dd27af9cc16addea
-title: Task 78
+title: Aufgabe 78
 challengeType: 19
 dashedName: task-78
 ---
 
 # --description--
 
-`Regulations` are official rules made by a government or authority. They are designed to control how something works or how people act, especially in businesses.
+`Regulations` sind offizielle Regeln, die von einer Regierung oder Behörde gemacht wurden. Sie dienen dazu, zu kontrollieren, wie etwas funtioniert oder wie Menschen agieren, besonders in Unternehmen.
 
-Example: `Health and safety regulations ensure a safe workplace.`
+Beispiel: `Health and safety regulations ensure a safe workplace.`
 
 
 # --questions--
 
 ## --text--
 
-What are `regulations` usually in a business context?
+Was sind `regulations` in der Regel in einem Geschäftskontext?
 
 ## --answers--
 
-Personal preferences.
-
-### --Feedback--
-
-Regulations are formal rules, not personal preferences.
-
----
-
-Informal team agreements.
-
-### --Feedback--
-
-Regulations are more formal than informal agreements.
-
----
-
-Official rules set by authorities.
-
----
-
-Suggestions for leisure activities.
+Persönliche Präferenzen.
 
 ### --feedback--
 
-They are about professional conduct, not leisure.
+Verordnungen sind formale Regeln, nicht persönliche Präferenzen.
+
+---
+
+Informelle Teamvereinbarungen.
+
+### --feedback--
+
+Verordnungen sind eher formale als informelle Vereinbarungen.
+
+---
+
+Offizielle Regeln, die von Behörden festgelegt werden.
+
+---
+
+Vorschläge für Freizeitaktivitäten.
+
+### --feedback--
+
+Es geht um berufliches Verhalten, nicht um Freizeit.
 
 ## --video-solution--
 

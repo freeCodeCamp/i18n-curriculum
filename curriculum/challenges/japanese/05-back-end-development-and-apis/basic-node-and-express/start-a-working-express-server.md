@@ -8,7 +8,7 @@ dashedName: start-a-working-express-server
 
 # --description--
 
-ファイル `myApp.js` の最初の 2 行を見ると、Express アプリオブジェクトを簡単に作成できることがわかります。 このオブジェクトにはいくつかのメソッドがあり、チャレンジでそれらの多くを学ぶことになります。 基本的なメソッドの一つが、`app.listen(port)` です。 このメソッドは、指定されたポートをリッスンするようにサーバーへ指示し、サーバーを実行中の状態にします。 テスト目的のため、アプリをバックグラウンドで実行する必要があります。そのため、このメソッドを `server.js` ファイルに追加しました。
+In the first two lines of the file `myApp.js`, you can see how easy it is to create an Express app object. This object has several methods, and you will learn many of them in these challenges. One fundamental method is `app.listen(port)`. It tells your server to listen on a given port, putting it in running state. For testing reasons, we need the app to be running in the background so we added this method in the `server.js` file for you.
 
 サーバーから最初の文字列を提供してみましょう！ Express では、ルートは `app.METHOD(PATH, HANDLER)` という構造をとります。 METHOD は、小文字の http メソッドです。 PATH は、サーバー上の相対パスです (文字列、または正規表現でもかまいません) 。 HANDLER は、ルートが一致したときに Express が呼び出す関数です。 ハンドラーは `function(req, res) {...}` という形式をとります。req はリクエストオブジェクトで、res はレスポンスオブジェクトです。 たとえば、下記のハンドラー
 

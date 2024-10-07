@@ -8,7 +8,7 @@ dashedName: use-state-to-toggle-an-element
 
 # --description--
 
-في بعض الأحيان قد تحتاج إلى معرفة الحالة (state) السابقة عند تحديث الحالة (state). ومع ذلك، قد تكون تعديلات الحالة (state) غير متزامنة - وهذا يعني أن React قد إجراء مكالمات متعددة `setState()` في تحديث واحد. وهذا يعني أنه لا يمكنك الاعتماد على القيمة السابقة في `this.state` أو `this.props` عند حساب القيمة التالية. لذلك يجب ألا تستخدم التعليمات البرمجية مثل:
+Sometimes you might need to know the previous state when updating the state. However, state updates may be asynchronous - this means React may batch multiple `setState()` calls into a single update. This means you can't rely on the previous value of `this.state` or `this.props` when calculating the next value. So, you should not use code like this:
 
 ```jsx
 this.setState({

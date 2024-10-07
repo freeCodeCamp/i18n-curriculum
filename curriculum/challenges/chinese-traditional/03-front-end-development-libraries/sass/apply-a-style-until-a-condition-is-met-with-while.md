@@ -8,7 +8,7 @@ dashedName: apply-a-style-until-a-condition-is-met-with-while
 
 # --description--
 
-Sass 中的 `@while` 指令與 JavaScript 中的 `while` 類似。 只要滿足條件，它就會一直創建 CSS 代碼。
+The `@while` directive is an option with similar functionality to the JavaScript `while` loop. It creates CSS rules until a condition is met.
 
 `@for` 挑戰提供了一個創建簡單網格系統的示例。 用 `@while` 也可以實現。
 

@@ -23,8 +23,8 @@ Für dieses Problem werden wir jedoch zulassen, dass die 6 oder 9 auf den Kopf g
 Bei der Bestimmung einer eindeutigen Anordnung sind wir an den Ziffern auf jedem Würfel interessiert, nicht an der Reihenfolge.
 
 <div style="margin-left: 4em;">
-  {1, 2, 3, 4, 5, 6} is equivalent to {3, 6, 4, 1, 2, 5}<br>
-  {1, 2, 3, 4, 5, 6} is distinct from {1, 2, 3, 4, 5, 9}
+  {1, 2, 3, 4, 5, 6} ist äquivalent zu {3, 6, 4, 1, 2, 5}<br>
+  {1, 2, 3, 4, 5, 6} ist verschieden zu {1, 2, 3, 4, 5, 9}
 </div>
 
 Da wir aber zulassen, dass 6 und 9 vertauscht werden, stellen die beiden unterschiedlichen Mengen im letzten Beispiel beide die erweiterte Menge {1, 2, 3, 4, 5, 6, 9} zum Zweck der Bildung zweistelliger Zahlen dar.

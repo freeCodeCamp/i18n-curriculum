@@ -8,7 +8,7 @@ dashedName: learn-about-self-closing-jsx-tags
 
 # --description--
 
-Ви дізнались, що головна відмінність між JSX та HTML — це визначення класів HTML за допомогою `className` або `class`.
+So far, you’ve seen how JSX differs from HTML in a key way with the use of `className` vs. `class` for defining HTML classes.
 
 Іншою важливою відмінністю JSX від HTML є самозакриваючі теги.
 

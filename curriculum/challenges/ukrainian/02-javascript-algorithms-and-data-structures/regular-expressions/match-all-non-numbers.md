@@ -8,7 +8,7 @@ dashedName: match-all-non-numbers
 
 # --description--
 
-У минулому завданні ви дізнались, як шукати цифри за допомогою скорочення `\d` з `d` у нижньому регістрі. Ви також можете шукати нецифрові символи за допомогою схожого скорочення, яке використовує `D` у верхньому регістрі.
+The last challenge showed how to search for digits using the shortcut `\d` with a lowercase `d`. You can also search for non-digits using a similar shortcut that uses an uppercase `D` instead.
 
 Скороченням для пошуку нецифрових символів є `\D`. Це дорівнює символьному класу `[^0-9]`, який шукає окремий символ, що не є цифрою від 0 до 9.
 

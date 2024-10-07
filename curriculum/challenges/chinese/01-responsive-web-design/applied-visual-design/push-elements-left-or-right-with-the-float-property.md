@@ -9,7 +9,7 @@ dashedName: push-elements-left-or-right-with-the-float-property
 
 # --description--
 
-接下来要介绍的定位机制并不是 `position` 属性的选项，而是通过元素的 `float` 属性来设置。 浮动元素不在文档流中，它向 `left` 或 `right` 浮动，直到它的外边缘碰到包含框或另一个浮动框的边框为止。 通常需要用 `width` 属性来指定浮动元素占据的水平空间。
+The next positioning tool does not actually use `position`, but sets the `float` property of an element. Floating elements are removed from the normal flow of a document and pushed to either the `left` or `right` of their containing parent element. It's commonly used with the `width` property to specify how much horizontal space the floated element requires.
 
 # --instructions--
 

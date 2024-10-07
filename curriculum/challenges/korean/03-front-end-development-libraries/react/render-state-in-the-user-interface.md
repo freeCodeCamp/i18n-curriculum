@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d4036171
-title: Render State in the User Interface
+title: 사용자 인터페이스(UI)에 상태 렌더링하기
 challengeType: 6
 forumTopicId: 301409
 dashedName: render-state-in-the-user-interface
@@ -10,21 +10,21 @@ dashedName: render-state-in-the-user-interface
 
 Once you define a component's initial state, you can display any part of it in the UI that is rendered. If a component is stateful, it will always have access to the data in `state` in its `render()` method. You can access the data with `this.state`.
 
-If you want to access a state value within the `return` of the render method, you have to enclose the value in curly braces.
+렌더링 메서드의 `return` 안에서 상태 값에 접근하려면, 중괄호로 묶어야 합니다.
 
-`state` is one of the most powerful features of components in React. It allows you to track important data in your app and render a UI in response to changes in this data. If your data changes, your UI will change. React uses what is called a virtual DOM, to keep track of changes behind the scenes. When state data updates, it triggers a re-render of the components using that data - including child components that received the data as a prop. React updates the actual DOM, but only where necessary. This means you don't have to worry about changing the DOM. You simply declare what the UI should look like.
+상태(`state`)는 리액트에서 가장 강력한 컴포넌트 기능 중 하나입니다. 앱에서 중요한 데이터를 추적하고, 이 데이터의 변화에 따라 UI를 렌더링할 수 있습니다. 이 말은 데이터가 변화면, UI도 변한다는 말입니다. 리액트는 보이지 않는 곳에서 가상 DOM(virtual DOM)이라는 것으로 변경 사항을 추적합니다. 가상 DOM은 상태의 데이터가 변하면, 그 데이터를 사용하고 있는 컴포넌트와 그 데이터를 프로퍼티로 받는 자식 컴포넌트를 다시 렌더링합니다. 리액트는 실제 DOM을 필요한 경우에만 업데이트 합니다. 이 말은 DOM의 변경에 대해 신경쓰지 않고, UI가 어떻게 보일지만 신경을 쓰면 된다는 의미입니다.
 
-Note that if you make a component stateful, no other components are aware of its `state`. Its `state` is completely encapsulated, or local to that component, unless you pass state data to a child component as `props`. This notion of encapsulated `state` is very important because it allows you to write certain logic, then have that logic contained and isolated in one place in your code.
+여기서 기억할 점은 상태가 있는 어떤 컴포넌트를 만들었다면, 다른 컴포넌트들은 이 컴포넌트의 상태(`state`)를 인식하지 못합니다. 상태 데이터를 자식 컴포넌트에 프로퍼티(`props`)로 전달하지 않는 한 `상태`는 그 컴포넌트에 완전히 캡슐화(컴포넌트 안에서만 사용) 됩니다. `상태`의 캡슐화 개념은 매우 중요합니다. 왜냐하면 이 개념은 어떤 로직을 만들었다면, 그 로직을 특정 코드에 포함하거나 분리할 수 있도록 도와주기 때문입니다.
 
 # --instructions--
 
-In the code editor, `MyComponent` is already stateful. Define an `h1` tag in the component's render method which renders the value of `name` from the component's state.
+코드 편집기에 있는 `MyComponent`는 이미 상태가 있습니다. 컴포넌트의 렌더링 메서드 안에서 컴포넌트 상태의 `name`의 값을 `h1`에 선언해보세요.
 
-**Note:** The `h1` should only render the value from `state` and nothing else. In JSX, any code you write with curly braces `{ }` will be treated as JavaScript. So to access the value from `state` just enclose the reference in curly braces.
+**참고:** `h1`는 오직 `state`의 값만 렌더링해야 합니다. JSX에서 중괄호`{ }` 안에 작성한 모든 코드는 자바스크립트로 처리됩니다. 즉, `state`의 값에 접근하기 위해서 중괄호로 묶어주세요.
 
 # --hints--
 
-`MyComponent` should have a key `name` with value `freeCodeCamp` stored in its state.
+`MyComponent`는 `freeCodeCamp`를 값으로 가진 `name`키를 상태에 가지고 있어야 합니다.
 
 ```js
 assert(
@@ -33,7 +33,7 @@ assert(
 );
 ```
 
-`MyComponent` should render an `h1` heading element enclosed in a single `div`.
+`MyComponent`는 하나의 `div`로 묶인 `h1` 제목 엘리먼트를 렌더링해야 합니다.
 
 ```js
 assert(
@@ -43,7 +43,7 @@ assert(
 );
 ```
 
-The rendered `h1` heading element should only contain text rendered from the component's state.
+렌더링된 `h1` 제목 엘리먼트는 컴포넌트의 상태에서 가져온 특정 텍스트만 포함되어야 합니다.
 
 ```js
 async () => {

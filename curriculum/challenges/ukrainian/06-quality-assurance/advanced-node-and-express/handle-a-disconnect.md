@@ -8,7 +8,7 @@ dashedName: handle-a-disconnect
 
 # --description--
 
-Ви могли помітити, що до цього часу кількість користувачів тільки збільшувалась. Обробка від’єднання користувача така ж легка, як і обробка приєднання, окрім того, що ви повинні слухати його на кожному сокеті, а не на цілому сервері.
+You may notice that up to now you have only been increasing the user count. Handling a user disconnecting is just as easy as handling the initial connect, except you have to listen for it on each socket instead of on the whole server.
 
 Щоб зробити це, додайте ще одного слухача всередині наявного слухача `'connect'`, який слухає `'disconnect'` на сокеті без передачі даних. Ви можете протестувати цю функціональність, просто ввівши на консолі про від’єднання користувача.
 

@@ -9,7 +9,7 @@ dashedName: use-the-parseint-function-with-a-radix
 
 # --description--
 
-تحلل وظيفة `parseInt()` مقطع وتعيد منه عدداً صحيحاً. وهو يأخذ حجة Radix ثاني الذي يحدد أساس الرقم في مقطع. يمكن أن يكون Radix عدداً صحيحاً بين 2 و 36.
+The `parseInt()` function parses a string and returns an integer. It takes a second argument for the radix, which specifies the base of the number in the string. The radix can be an integer between 2 and 36.
 
 يكون استدعاء الوظيفة كالتالي:
 

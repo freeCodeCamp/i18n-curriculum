@@ -11,7 +11,7 @@ dashedName: target-html-elements-with-selectors-using-jquery
 
 # --description--
 
-Ora abbiamo una funzione `document ready`.
+Now we have a `document ready` function.
 
 Ora scriviamo la nostra prima istruzione jQuery. Tutte le funzioni di jQuery iniziano con un `$`, di solito indicato come operatore di segno del dollaro, o "bling".
 

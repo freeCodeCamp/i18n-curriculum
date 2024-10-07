@@ -8,7 +8,7 @@ dashedName: remove-elements-from-an-array-using-slice-instead-of-splice
 
 # --description--
 
-Ein häufiges Muster bei der Arbeit mit Arrays ist, dass du Elemente entfernen und den Rest des Arrays behalten willst. JavaScript bietet dafür die Methode `splice`, die Argumente für den Index, wo mit dem Entfernen von Elementen begonnen werden soll, und dann die Anzahl der zu entfernenden Elemente entgegennimmt. Wenn das zweite Argument nicht angegeben wird, werden standardmäßig die Einträge bis zum Ende entfernt. Allerdings verändert die Methode `splice` das ursprüngliche Array, auf das sie angewendet wird. Hier ist ein Beispiel:
+A common pattern while working with arrays is when you want to remove items and keep the rest of the array. JavaScript offers the `splice` method for this, which takes arguments for the index of where to start removing items, then the number of items to remove. If the second argument is not provided, the default is to remove items through the end. However, the `splice` method mutates the original array it is called on. Hier ist ein Beispiel:
 
 ```js
 const cities = ["Chicago", "Delhi", "Islamabad", "London", "Berlin"];
@@ -39,7 +39,7 @@ Dein Code sollte nicht die Methode `splice` verwenden.
 assert(!__helpers.removeJSComments(code).match(/\.?[\s\S]*?splice/g));
 ```
 
-You should not mutate the original array passed to the function.
+Das ursprüngliche Array, das an die Funktion übergeben wird, sollte nicht verändert werden.
 
 ```js
 assert.deepEqual(_inputCities, ["Chicago", "Delhi", "Islamabad", "London", "Berlin"]);

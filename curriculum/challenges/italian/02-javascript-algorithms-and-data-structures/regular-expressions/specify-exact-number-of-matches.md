@@ -8,7 +8,7 @@ dashedName: specify-exact-number-of-matches
 
 # --description--
 
-È possibile specificare un numero inferiore e superiore di pattern con gli specificatori di quantità utilizzando le parentesi graffe. A volte vuoi che ci sia un numero specifico di corrispondenze.
+You can specify the lower and upper number of patterns with quantity specifiers using curly brackets. Sometimes you only want a specific number of matches.
 
 Per specificare un certo numero di pattern, basta mettere quel numero tra le parentesi graffe.
 
@@ -32,7 +32,7 @@ Cambia l'espressione regolare `timRegex` per riconoscere la parola `Timber` solo
 
 # --hints--
 
-L'espressione regolare dovrebbe usare parentesi graffe.
+La tua espressione regolare dovrebbe usare le parentesi graffe.
 
 ```js
 assert(timRegex.source.match(/{.*?}/).length > 0);

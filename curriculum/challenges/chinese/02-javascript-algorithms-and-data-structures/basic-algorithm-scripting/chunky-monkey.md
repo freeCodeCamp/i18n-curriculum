@@ -8,7 +8,7 @@ dashedName: chunky-monkey
 
 # --description--
 
-请编写一个函数，该函数将一个数组（第一个参数）拆分成若干长度为 `size`（第二个参数）的子数组，并将它们作为二维数组返回。
+Write a function that splits an array (first argument) into groups the length of `size` (second argument) and returns them as a two-dimensional array.
 
 # --hints--
 

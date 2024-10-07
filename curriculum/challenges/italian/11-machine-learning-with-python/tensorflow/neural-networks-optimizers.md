@@ -14,7 +14,7 @@ dashedName: neural-networks-optimizers
 
 ## --text--
 
-Cos'è una funzione di ottimizzazione?
+What is an optimizer function?
 
 ## --answers--
 

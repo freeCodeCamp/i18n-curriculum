@@ -9,7 +9,7 @@ dashedName: iterate-with-javascript-for-loops
 
 # --description--
 
-È possibile eseguire lo stesso codice più volte utilizzando un ciclo.
+You can run the same code multiple times by using a loop.
 
 Il tipo più comune di ciclo JavaScript è chiamato un ciclo `for` perché esso viene eseguito per ("for") un numero specifico di volte.
 

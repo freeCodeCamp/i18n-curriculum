@@ -8,7 +8,7 @@ dashedName: check-for-mixed-grouping-of-characters
 
 # --description--
 
-في بعض الأحيان نريد التحقق من مجموعات الرموز باستخدام Regular Expression ولتحقيق هذا أننا نستخدم الأقواس `()`.
+Sometimes we want to check for groups of characters using a Regular Expression and to achieve that we use parentheses `()`.
 
 إذا كنت ترغب في العثور على `Penguin` او `Pumpkin` في string، يمكنك استخدام Regular Expression التالي: `/P(engu|umpk)in/g`
 

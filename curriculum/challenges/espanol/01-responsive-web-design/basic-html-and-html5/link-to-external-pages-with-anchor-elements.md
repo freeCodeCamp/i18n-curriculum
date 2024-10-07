@@ -9,9 +9,9 @@ dashedName: link-to-external-pages-with-anchor-elements
 
 # --description--
 
-Puedes usar los elementos `a` (*anchor*) para enlazar a contenido fuera de tu página web.
+You can use `a` (*anchor*) elements to link to content outside of your web page.
 
-Los elementos `a` requieren un atributo `href` con la dirección web de destino. También necesitan un texto anchor. Por ejemplo:
+Los elementos `a` requieren un atributo `href` con la dirección web de destino. También necesitan un texto anchor. He aquí un ejemplo:
 
 ```html
 <a href="https://www.freecodecamp.org">this links to freecodecamp.org</a>

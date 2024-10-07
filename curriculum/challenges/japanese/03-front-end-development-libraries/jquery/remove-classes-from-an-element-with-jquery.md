@@ -11,7 +11,7 @@ dashedName: remove-classes-from-an-element-with-jquery
 
 # --description--
 
-jQuery の `addClass()` 関数を使用して要素にクラスを追加できるのと同じように、jQuery の `removeClass()` 関数を使用してクラスを削除できます。
+In the same way you can add classes to an element with jQuery's `addClass()` function, you can remove them with jQuery's `removeClass()` function.
 
 特定のボタンに対してこの操作を行う方法を次に示します。
 

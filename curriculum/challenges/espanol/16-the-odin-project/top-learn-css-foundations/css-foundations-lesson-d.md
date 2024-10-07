@@ -50,7 +50,7 @@ Puedes tomar los dos elementos anteriores y combinarlos con lo siguiente:
 
 En general, no puedes encadenar más de un selector de tipo ya que un elemento no puede ser de dos tipos diferentes a la vez. Por ejemplo, encadenar dos selectores de tipo como `div` y `p` nos daría el selector `divp`, lo cual no funcionaría ya que el selector intentaría encontrar un elemento literal `<divp>`, que no existe.
 
-# --questions--
+# --preguntas----preguntas--
 
 ## --text--
 

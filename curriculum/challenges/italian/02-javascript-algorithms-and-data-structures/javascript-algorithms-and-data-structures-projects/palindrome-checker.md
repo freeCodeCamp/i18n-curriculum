@@ -8,7 +8,7 @@ dashedName: palindrome-checker
 
 # --description--
 
-Restituisce `true` se la stringa data è un palindromo. Altrimenti, restituisce `false`.
+Return `true` if the given string is a palindrome. Otherwise, return `false`.
 
 Un <dfn>palindromo</dfn> è una parola o una frase che è scritta allo stesso modo sia in avanti che all'indietro, ignorando punteggiatura, maiuscole e minuscole e spaziatura.
 
@@ -16,7 +16,7 @@ Un <dfn>palindromo</dfn> è una parola o una frase che è scritta allo stesso mo
 
 Passeremo stringhe con diversi formati, come `racecar`, `RaceCar` e `race CAR` tra le altre.
 
-Passeremo anche stringhe con simboli speciali, come `2A3*3a2`, `2A3 3a2`e `2_A3*3#A2`.
+Passeremo anche stringhe con simboli speciali, come `2A3*3a2`, `2A3 3a2` e `2_A3*3#A2`.
 
 # --hints--
 

@@ -21,7 +21,7 @@ Ad esempio, **2020** è un numero auto-descrittivo a quattro cifre:
     <li> la posizione 3 ha valore 0 e ci sono zero tre; </li>
 </ul>
 
-Numeri auto-descriventi &lt; 100.000.000 sono: 1210, 2020, 21200, 3211000, 42101000.
+Self-describing numbers &lt; 100,000,000 are: 1210, 2020, 21200, 3211000, 42101000.
 
 # --instructions--
 

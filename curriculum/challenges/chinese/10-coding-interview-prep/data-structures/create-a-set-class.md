@@ -1,6 +1,6 @@
 ---
 id: 8d1323c8c441eddfaeb5bdef
-title: Create a Set Class
+title: 创建一个集合类
 challengeType: 1
 forumTopicId: 301632
 dashedName: create-a-set-class
@@ -20,17 +20,17 @@ console.log(set1.has(6));
 // output: false
 ```
 
-First, we will create an add method that adds a value to our set collection as long as the value does not already exist in the set. Then we will create a remove method that removes a value from the set collection if it already exists. And finally, we will create a size method that returns the number of elements inside the set collection.
+首先，我们将创建一个 add 方法，该方法将一个值添加到我们的集合中，只要该值不已经存在于集合中。 然后，我们将创建一个 remove 方法，如果一个值已经存在，则将其从集合中删除。 最后，我们将创建一个 size 方法，该方法返回集合中元素的数量。
 
 # --instructions--
 
-Create an `add` method that adds a unique value to the set collection and returns `true` if the value was successfully added and `false` otherwise.
+创建一个 `add` 方法，该方法将唯一值添加到集合中，如果成功添加值则返回 `true`，否则返回 `false`。
 
-Create a `remove` method that accepts a value and checks if it exists in the set. If it does, then this method should remove it from the set collection, and return `true`. Otherwise, it should return `false`. Create a `size` method that returns the size of the set collection.
+创建一个 `remove` 方法，它接受一个值并检查它是否存在于集合中。 如果存在，则此方法应将其从集合集合中删除，并返回 `true`。 否则，它应该返回 `false`。 创建一个 `size` 方法，返回集合的大小。
 
 # --hints--
 
-Your `Set` class should have an `add` method.
+你的 `Set` 类应该有一个 `add` 方法。
 
 ```js
 assert(
@@ -41,7 +41,7 @@ assert(
 );
 ```
 
-Your `add` method should not add duplicate values.
+您的 `add` 方法不应添加重复值。
 
 ```js
 assert(
@@ -56,7 +56,7 @@ assert(
 );
 ```
 
-Your `add` method should return `true` when a value has been successfully added.
+你的 `add` 方法应该在一个值被成功添加时返回 `true`。
 
 ```js
 assert(
@@ -68,7 +68,7 @@ assert(
 );
 ```
 
-Your `add` method should return `false` when a duplicate value is added.
+你的 `add` 方法在添加一个重复的值时应该返回 `false`。
 
 ```js
 assert(
@@ -81,7 +81,7 @@ assert(
 );
 ```
 
-Your `Set` class should have a `remove` method.
+你的 `Set` 类应该有一个 `remove` 方法。
 
 ```js
 assert(
@@ -92,7 +92,7 @@ assert(
 );
 ```
 
-Your `remove` method should only remove items that are present in the set.
+您的 `remove` 方法应该只删除集合中存在的项目。
 
 ```js
 assert.deepEqual(
@@ -107,7 +107,7 @@ assert.deepEqual(
 );
 ```
 
-Your `remove` method should remove the given item from the set.
+您的 `remove` 方法应该从集合中删除给定的项目。
 
 ```js
 assert(
@@ -122,7 +122,7 @@ assert(
 );
 ```
 
-Your `Set` class should have a `size` method.
+你的 `Set` 类应该有一个 `size` 方法。
 
 ```js
 assert(
@@ -133,7 +133,7 @@ assert(
 );
 ```
 
-The `size` method should return the number of elements in the collection.
+`size` 方法应该返回集合中元素的数量。
 
 ```js
 assert(

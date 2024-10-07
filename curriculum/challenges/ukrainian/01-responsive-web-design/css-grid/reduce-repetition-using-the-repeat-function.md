@@ -9,7 +9,7 @@ dashedName: reduce-repetition-using-the-repeat-function
 
 # --description--
 
-Якщо ви використали `grid-template-columns` і `grid-template-rows`, щоб задати структуру таблиці, ви ввели значення для кожного створеного рядка або стовпця.
+When you used `grid-template-columns` and `grid-template-rows` to define the structure of a grid, you entered a value for each row or column you created.
 
 Скажімо, вам потрібна сітка зі 100 рядків однакової висоти. Вводити 100 окремих значень – не дуже зручно. На щастя, є кращий спосіб - використати `repeat`, щоб конкретизувати кількість потрібних стовпців або рядків, а потім додати кому і значення, яке ви хочете повторити.
 

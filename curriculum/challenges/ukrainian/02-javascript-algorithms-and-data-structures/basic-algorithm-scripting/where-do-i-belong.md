@@ -8,7 +8,7 @@ dashedName: where-do-i-belong
 
 # --description--
 
-Поверніть найменший індекс, при якому потрібно вставити значення (другий аргумент) в масив (перший аргумент), після того, як він був відсортований. Поверненим значенням повинне бути число.
+Return the lowest index at which a value (second argument) should be inserted into an array (first argument) once it has been sorted. The returned value should be a number.
 
 Наприклад, `getIndexToIns([1,2,3,4], 1.5)` має повертати `1`, оскільки він більший за `1` (індекс 0), але менший за `2` (індекс 1).
 

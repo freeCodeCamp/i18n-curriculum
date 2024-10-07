@@ -8,7 +8,7 @@ dashedName: label-bootstrap-buttons
 
 # --description--
 
-تماما كما وصفت آبارك، تريد أن تضيف وصف ألى أزرارك.
+Just like we labeled our wells, we want to label our buttons.
 
 اعطي كل عنصر من العناصر `button` الخاص بك التي تتوافق مع منتقي المعرف الخاص به.
 

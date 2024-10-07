@@ -34,5 +34,5 @@ habitat, agent, state, action, and punishment.
 
 ## --video-solution--
 
-الثاني
+2
 

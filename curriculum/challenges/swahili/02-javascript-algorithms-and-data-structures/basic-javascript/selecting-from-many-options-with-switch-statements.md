@@ -1,6 +1,6 @@
 ---
 id: 56533eb9ac21ba0edf2244dd
-title: Selecting from Many Options with Switch Statements
+title: Chagua kutoka Chaguzi nyingi na Taarifa za Kubadilisha
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/c4mv4fm'
 forumTopicId: 18277

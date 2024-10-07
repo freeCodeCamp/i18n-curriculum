@@ -8,7 +8,7 @@ dashedName: bind-this-to-a-class-method
 
 # --description--
 
-Окрім налаштування та оновлення стану, ви можете визначити методи для класового компонента. Методу класу зазвичай потрібне ключове слово `this`, щоб отримати доступ до властивостей класу (серед яких стан та пропси) в межах області методу. Існує декілька способів, щоб дозволити методам класу отримати доступ до `this`.
+In addition to setting and updating `state`, you can also define methods for your component class. A class method typically needs to use the `this` keyword so it can access properties on the class (such as `state` and `props`) inside the scope of the method. There are a few ways to allow your class methods to access `this`.
 
 Один із найпоширеніших способів — прив’язати `this` в конструкторі. Таким чином `this` стає прив’язаним до методів класу, коли компонент ініціалізовано. Мабуть, ви помітили, що в попередньому завданні використано `this.handleClick = this.handleClick.bind(this)` до методу `handleClick` в конструкторі. Потім, коли ви викликаєте функцію (наприклад, `this.setState()`), в межах методу класу, `this` посилається на клас та не буде `undefined`.
 

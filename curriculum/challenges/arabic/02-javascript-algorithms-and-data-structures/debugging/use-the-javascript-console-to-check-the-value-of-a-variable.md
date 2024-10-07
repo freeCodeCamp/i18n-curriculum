@@ -8,7 +8,7 @@ dashedName: use-the-javascript-console-to-check-the-value-of-a-variable
 
 # --description--
 
-لكل من Chrome و Firefox وحدات تحكم JavaScript ممتازة، تعرف أيضًا باسم DevTools، لتصحيح أخطاء JavaScript الخاص بك.
+Both Chrome and Firefox have excellent JavaScript consoles, also known as DevTools, for debugging your JavaScript.
 
 يمكنك العثور على أدوات المطور في قائمة Chrome أو وحدة تحكم الويب في قائمة Firefox. إذا كنت تستخدم متصفحًا مختلفًا أو هاتفًا جوالاً، فإننا نوصي بشدة بالتبديل إلى Firefox أو Chrome لسطح المكتب.
 

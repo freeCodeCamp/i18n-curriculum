@@ -37,7 +37,7 @@ Se uma variável com o mesmo nome for declarada dentro da função, ela anulará
 
 ## --text--
 
-Qual será a saída do seguinte código?
+Como será a saída do seguinte código?
 
 ```js
 let x = 10;
@@ -46,6 +46,8 @@ function myFunction() {
   let x = 20;
   console.log(x);
 }
+
+myFunction();
 ```
 
 ## --answers--

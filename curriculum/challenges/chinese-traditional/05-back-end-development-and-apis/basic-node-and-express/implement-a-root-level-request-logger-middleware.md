@@ -8,7 +8,7 @@ dashedName: implement-a-root-level-request-logger-middleware
 
 # --description--
 
-前面我們介紹了 `express.static()` 中間件函數， 現在是時候更詳細地瞭解什麼是中間件了。 中間件函數是一個接收 3 個參數的函數，這 3 個參數分別是：請求對象、響應對象和在應用的請求-響應循環中的下一個函數。 中間件函數執行一些可能對應用程序產生一些效果的代碼，通常還會在請求對象或者響應對象裏添加一些信息， 它們也可以在滿足某些條件時通過發送響應來結束循環， 如果在它們完成時沒有發送響應，那麼就會開始執行堆棧中的下一個函數， `next()` 將觸發調用第 3 個參數。
+Earlier, you were introduced to the `express.static()` middleware function. Now it’s time to see what middleware is, in more detail. Middleware functions are functions that take 3 arguments: the request object, the response object, and the next function in the application’s request-response cycle. These functions execute some code that can have side effects on the app, and usually add information to the request or response objects. They can also end the cycle by sending a response when some condition is met. If they don’t send the response when they are done, they start the execution of the next function in the stack. This triggers calling the 3rd argument, `next()`.
 
 請看以下示例：
 

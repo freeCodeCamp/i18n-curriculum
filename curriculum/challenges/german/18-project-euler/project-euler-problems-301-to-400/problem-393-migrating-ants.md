@@ -8,19 +8,19 @@ dashedName: problem-393-migrating-ants
 
 # --description--
 
-An $n × n$ grid of squares contains $n^2$ ants, one ant per square.
+Ein $n × n$-Gitter aus Quadraten enthält $n^2$ Ameisen, eine Ameise pro Quadrat.
 
 Alle Ameisen entscheiden sich gleichzeitig für ein benachbartes Feld (in der Regel 4 Möglichkeiten, außer für Ameisen am Rand des Gitters oder in den Ecken).
 
 Wir definieren $f(n)$ als die Anzahl der Möglichkeiten, wie dies geschehen kann, ohne dass Ameisen auf demselben Feld enden und ohne dass zwei Ameisen dieselbe Kante zwischen zwei Feldern überqueren.
 
-You are given that $f(4) = 88$.
+Es ist gegeben, dass $f(4) = 88$ ist.
 
-Find $f(10)$.
+Finde $f(10)$.
 
 # --hints--
 
-`migratingAnts()` should return `112398351350823100`.
+`migratingAnts()` sollte `112398351350823100` zurückgeben.
 
 ```js
 assert.strictEqual(migratingAnts(), 112398351350823100);

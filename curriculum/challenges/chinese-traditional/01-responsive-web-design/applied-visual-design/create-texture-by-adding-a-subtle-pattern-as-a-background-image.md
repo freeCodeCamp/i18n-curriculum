@@ -9,7 +9,7 @@ dashedName: create-texture-by-adding-a-subtle-pattern-as-a-background-image
 
 # --description--
 
-爲了增加背景圖的質感，我們可以爲它添加一個不那麼明顯的紋理圖案，這樣可以讓頁面更討喜。 但關鍵在於，我們需要找到一個平衡點，因爲我們不希望背景圖搶佔了內容的風頭，造成喧賓奪主的結果。 `background` 屬性支持使用 `url()` 函數作爲屬性值，這讓我們可以通過鏈接的方式引入紋理或樣式的圖片。 圖片鏈接的地址應寫在括號內，一般會用引號包起來。
+One way to add texture and interest to a background and have it stand out more is to add a subtle pattern. The key is balance, as you don't want the background to stand out too much, and take away from the foreground. The `background` property supports the `url()` function in order to link to an image of the chosen texture or pattern. The link address is wrapped in quotes inside the parentheses.
 
 # --instructions--
 

@@ -8,7 +8,7 @@ dashedName: center-text-with-bootstrap
 
 # --description--
 
-Nun, da wir Bootstrap verwenden, können wir unser Head-Element zentrieren, um es besser aussehen zu lassen. Hierfür müssen wir nur die Klasse `text-center` zu unserem `h2` Element hinzuzufügen.
+Now that we're using Bootstrap, we can center our heading element to make it look better. All we need to do is add the class `text-center` to our `h2` element.
 
 Denke daran, dass du mehrere Klassen zum selben Element hinzufügen kannst, indem du jede davon mit einem Leerzeichen trennst, so wie hier:
 

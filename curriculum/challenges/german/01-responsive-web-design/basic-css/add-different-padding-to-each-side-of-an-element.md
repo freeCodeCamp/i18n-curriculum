@@ -9,7 +9,7 @@ dashedName: add-different-padding-to-each-side-of-an-element
 
 # --description--
 
-Manchmal möchtest du ein Element so anpassen, dass es auf jeder seiner Seiten unterschiedlich viel `padding` hat.
+Sometimes you will want to customize an element so that it has different amounts of `padding` on each of its sides.
 
 CSS erlaubt es, das `padding` mit folgenden Eigenschaften für jede Seite individuell festzulegen: `padding-top`, `padding-right`, `padding-bottom` und `padding-left`.
 

@@ -9,7 +9,7 @@ dashedName: create-movement-using-css-animation
 
 # --description--
 
-Wenn Elemente eine spezifizierte `position` haben, z. B. fest als `fixed`, oder relativ als `relative`, können die CSS-Offset-Eigenschaften rechts als `right`, links als `left`, oben als `top` und unten als `bottom` in Animationsregeln verwendet werden, um Bewegungen zu schaffen.
+When elements have a specified `position`, such as `fixed` or `relative`, the CSS offset properties `right`, `left`, `top`, and `bottom` can be used in animation rules to create movement.
 
 Wie im Beispiel unten gezeigt, kannst du das Element nach oben schieben, indem du die `top`-Eigenschaft des `50%`-Keyframes auf 50px setzt, aber auf 0px für den ersten (`0%`) und den letzten (`100%`)-Keyframe lässt.
 

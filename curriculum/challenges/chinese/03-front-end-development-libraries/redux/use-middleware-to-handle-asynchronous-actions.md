@@ -8,7 +8,7 @@ dashedName: use-middleware-to-handle-asynchronous-actions
 
 # --description--
 
-目前为止的挑战都在避免讨论异步操作，但它们是 Web 开发中不可避免的一部分。 在某些时候，需要在 Redux 应用程序中使用异步请求，那么如何处理这些类型的请求？ Redux 中间件专为此目的而设计，称为 Redux Thunk 中间件。 这里简要介绍如何在 Redux 中使用它。
+So far these challenges have avoided discussing asynchronous actions, but they are an unavoidable part of web development. At some point you'll need to call asynchronous endpoints in your Redux app, so how do you handle these types of requests? Redux provides middleware designed specifically for this purpose, called Redux Thunk middleware. Here's a brief description how to use this with Redux.
 
 如果要使用 Redux Thunk 中间件，请将其作为参数传递给 `Redux.applyMiddleware()`。 然后将此函数作为第二个可选参数提供给 `createStore()` 函数， 看一下编辑器底部的代码。 然后，要创建一个异步的 action，需要在 action creator 中返回一个以 `dispatch` 为参数的函数。 在这个函数中，可以 dispatch action 并执行异步请求。
 

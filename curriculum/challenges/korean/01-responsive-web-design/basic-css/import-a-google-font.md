@@ -9,7 +9,7 @@ dashedName: import-a-google-font
 
 # --description--
 
-다수의 운영 체제에서 찾을 수 있는 일반적인 글꼴을 지정하는 것 외에도 웹 사이트에서 사용할 비표준, 사용자 정의 웹 글꼴을 지정할 수 있습니다. 인터넷에는 웹 글꼴을 얻을 수 있는 많은 소스가 있습니다. 이 예제에서는 Google Fonts 라이브러리에 중점을 둡니다.
+In addition to specifying common fonts that are found on most operating systems, we can also specify non-standard, custom web fonts for use on our website. There are many sources for web fonts on the Internet. For this example we will focus on the Google Fonts library.
 
 Google Fonts는 웹 폰트의 무료 라이브러리로, 해당 폰트의 URL을 참조하여 CSS에서 사용할 수 있습니다.
 

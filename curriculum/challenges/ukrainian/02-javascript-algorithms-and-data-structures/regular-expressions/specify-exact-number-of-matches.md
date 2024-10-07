@@ -8,7 +8,7 @@ dashedName: specify-exact-number-of-matches
 
 # --description--
 
-Ви можете вказати найменшу та найбільшу кількість шаблонів за допомогою специфікатора кількості, використовуючи фігурні дужки. Іноді вам потрібна лише певна кількість збігів.
+You can specify the lower and upper number of patterns with quantity specifiers using curly brackets. Sometimes you only want a specific number of matches.
 
 Щоб вказати певну кількість шаблонів, просто поставте одне число у фігурні дужки.
 
@@ -32,7 +32,7 @@ multipleHA.test(A100);
 
 # --hints--
 
-Ваш регулярний вираз має використати фігурні дужки.
+У регулярного виразу мають бути фігурні дужки.
 
 ```js
 assert(timRegex.source.match(/{.*?}/).length > 0);

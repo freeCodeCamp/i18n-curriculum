@@ -8,7 +8,7 @@ dashedName: understand-the-hazards-of-using-imperative-code
 
 # --description--
 
-Funktionale Programmierung ist eine gute Angewohnheit. So bleibt dein Code einfach zu verwalten und du bist vor heimlichen Fehlern geschützt. Aber bevor wir dazu kommen, lass uns einen Blick auf einen imperativen Ansatz zur Programmierung werfen, um aufzuzeigen, wo du Probleme haben könntest.
+Functional programming is a good habit. It keeps your code easy to manage, and saves you from sneaky bugs. But before we get there, let's look at an imperative approach to programming to highlight where you may have issues.
 
 Im Englischen (und in vielen anderen Sprachen) wird der Imperativ verwendet, um Befehle zu erteilen. Ähnlich verhält es sich mit einem imperativen Programmierstil, der dem Computer eine Reihe von Anweisungen zur Ausführung einer Aufgabe gibt.
 

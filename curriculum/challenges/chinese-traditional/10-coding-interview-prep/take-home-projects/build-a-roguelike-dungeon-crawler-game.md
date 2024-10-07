@@ -10,29 +10,29 @@ dashedName: build-a-roguelike-dungeon-crawler-game
 
 **Objective:** Build an app that is functionally similar to this: <a href="https://codepen.io/freeCodeCamp/full/apLXEJ/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/apLXEJ/</a>.
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+完成以下需求，並且通過所有測試。 你可以使用你需要的任何庫或 API。 可以用你自己的樣式來完成。
 
-**User Story:** I have health, a level, and a weapon. I can pick up a better weapon. I can pick up health items.
+**用戶故事：** 我有健康，水平和武器。 我可以拿起更好的武器。 我可以拿起健康食品。
 
-**User Story:** All the items and enemies on the map are arranged at random.
+**用戶故事：** 地圖上的所有物品和敵人都是隨機排列的。
 
-**User Story:** I can move throughout a map, discovering items.
+**用戶故事：** 我可以在整個地圖中移動，發現項目。
 
-**User Story:** I can move anywhere within the map's boundaries, but I can't move through an enemy until I've beaten it.
+**用戶故事：** 我可以在地圖邊界內的任何地方移動，但是在我擊敗它之前我無法穿越敵人。
 
-**User Story:** Much of the map is hidden. When I take a step, all spaces that are within a certain number of spaces from me are revealed.
+**用戶故事：** 大部分地圖都是隱藏的。 當我邁出一步時，所有與我在一定數量空間內的空間都會被揭示出來。
 
-**User Story:** When I beat an enemy, the enemy goes away and I get XP, which eventually increases my level.
+**用戶故事：** 當我擊敗敵人時，敵人消失，我得到了XP，最終提高了我的等級。
 
-**User Story:** When I fight an enemy, we take turns damaging each other until one of us loses. I do damage based off of my level and my weapon. The enemy does damage based off of its level. Damage is somewhat random within a range.
+**用戶故事：** 當我與敵人作戰時，我們會輪流造成傷害，直到我們其中一人失敗爲止。 我根據自己的等級和武器造成傷害。 敵人根據其等級造成傷害。 損傷在一定範圍內有些隨機。
 
-**User Story:** When I find and beat the boss, I win.
+**用戶故事：** 當我找到並擊敗老闆時，我贏了。
 
-**User Story:** The game should be challenging, but theoretically winnable.
+**用戶故事：** 遊戲應該具有挑戰性，但理論上可以獲勝。
 
-When you are finished, include a link to your project on CodePen and click the "I've completed this challenge" button.
+完成後，添加一個在 CodePen 上指向你項目的鏈接，然後單擊“我已完成此挑戰”按鈕。
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+可以分享你的項目到 <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp 論壇</a>上獲得反饋。
 
 # --solutions--
 

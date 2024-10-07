@@ -7,7 +7,7 @@ dashedName: step-58
 
 # --description--
 
-Завдяки `display` зі значенням `block` кнопка надсилання розташована на одному рівні з лівим краєм свого батьківського елемента.
+With a `display` of `block` the submit button sits flush against the left edge of its parent.
 
 Використайте таку ж саму техніку, що й для центрування `form`, щоб зцентрувати кнопку відправки.
 

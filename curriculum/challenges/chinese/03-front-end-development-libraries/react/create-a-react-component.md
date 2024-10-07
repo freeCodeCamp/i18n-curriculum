@@ -8,7 +8,7 @@ dashedName: create-a-react-component
 
 # --description--
 
-定义 React 组件的另一种方法是使用 ES6 的 `class`语法。 在以下示例中，`Kitten` 扩展了`React.Component`：
+The other way to define a React component is with the ES6 `class` syntax. In the following example, `Kitten` extends `React.Component`:
 
 ```jsx
 class Kitten extends React.Component {

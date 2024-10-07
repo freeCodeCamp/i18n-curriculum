@@ -9,7 +9,7 @@ dashedName: use-bracket-notation-to-find-the-nth-to-last-character-in-a-string
 
 # --description--
 
-يمكنك استخدام نفس المبدأ الذي استخدمناه لاسترداد آخر حرف في مقطع نصي لتسترد أي حرف ما قبل الحرف الأخير.
+You can use the same principle we just used to retrieve the last character in a string to retrieve the Nth-to-last character.
 
 على سبيل المثال يمكنك الحصول على قيمة الحرف الثالث إلى الأخير من مقطع `const firstName = "Augusta"` باستخدام `firstName[firstName.length - 3]`
 

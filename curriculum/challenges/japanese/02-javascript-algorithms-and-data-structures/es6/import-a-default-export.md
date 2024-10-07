@@ -8,7 +8,7 @@ dashedName: import-a-default-export
 
 # --description--
 
-前回のチャレンジでは `export default` とその用法について学びました。 デフォルトのエクスポートをインポートするには、別の `import` 構文を使用する必要があります。 次の例では、`add` は `math_functions.js` ファイルのデフォルトのエクスポートです。 インポートする方法は次のとおりです。
+In the last challenge, you learned about `export default` and its uses. To import a default export, you need to use a different `import` syntax. In the following example, `add` is the default export of the `math_functions.js` file. Here is how to import it:
 
 ```js
 import add from "./math_functions.js";

@@ -8,7 +8,7 @@ dashedName: never-mutate-state
 
 # --description--
 
-这些最后的挑战描述了在 Redux 中强制执行状态不变性关键原则的几种方法。 不可变状态意味着永远不直接修改状态，而是返回一个新的状态副本。
+These final challenges describe several methods of enforcing the key principle of state immutability in Redux. Immutable state means that you never modify state directly, instead, you return a new copy of state.
 
 如果拍摄 Redux 应用程序一段时间状态的快照，会看到类似 `state 1`，`state 2`，`state 3`，`state 4`，`...`等等，每个状态可能与最后一个状态相似，但每个状态都是一个独特的数据。 事实上，这种不变性提供了时间旅行调试等功能。
 

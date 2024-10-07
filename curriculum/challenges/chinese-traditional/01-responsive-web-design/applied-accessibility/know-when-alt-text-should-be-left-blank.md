@@ -9,9 +9,9 @@ dashedName: know-when-alt-text-should-be-left-blank
 
 # --description--
 
-在上一個挑戰中，我們瞭解到 `img` 標籤必須有一個 `alt` 屬性。 但是，有時圖像通過它們的描述文本被歸類，或者只用於裝飾。 在這些情況下， `alt` 文本可能是多餘的或沒有必要的。
+In the last challenge, you learned that including an `alt` attribute when using `img` tags is mandatory. However, sometimes images are grouped with a caption already describing them, or are used for decoration only. In these cases, `alt` text may seem redundant or unnecessary.
 
-在圖片已經有了文字說明，或者僅僅爲了美化頁面的情況下，`img` 仍然需要一個 `alt` 屬性，但可以設置爲空字符串。 例如：
+在圖片已經有了文字說明，或者僅僅爲了美化頁面的情況下，`img` 仍然需要一個 `alt` 屬性，但可以設置爲空字符串。 這是一個示例：
 
 ```html
 <img src="visualDecoration.jpeg" alt="">

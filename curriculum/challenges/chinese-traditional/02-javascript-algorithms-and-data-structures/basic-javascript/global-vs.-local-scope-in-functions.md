@@ -9,7 +9,7 @@ dashedName: global-vs--local-scope-in-functions
 
 # --description--
 
-一個程序中有可能具有相同名稱的<dfn>局部</dfn>變量 和<dfn>全局</dfn>變量。 在這種情況下，局部變量將會優先於全局變量。
+It is possible to have both <dfn>local</dfn> and <dfn>global</dfn> variables with the same name. When you do this, the local variable takes precedence over the global variable.
 
 下面爲例：
 

@@ -23,11 +23,11 @@ let greeting3 = `with The Odin Project!`;
 
 Strings declared using single quotes and strings declared using double quotes are the same, and which you use is down to personal preference — although it is good practice to choose one style and use it consistently in your code.
 
-# --assignment--
+# --tarea--
 
 There are many ways to manipulate strings in JavaScript. Go through points 8 through 12 of our <a href="https://www.freecodecamp.org/news/javascript-string-handbook/" target="_blank">JavaScript String Handbook</a>
 
-# --questions--
+# --preguntas--
 
 ## --text--
 

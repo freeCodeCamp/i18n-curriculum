@@ -12,7 +12,7 @@ Ein ganzseitiges Dreieck mit genau einem Winkel von 60° nennen wir ein 60°-Dre
 
 Lasse $r$ der Radius des Inkreises eines solchen 60°-Dreiecks sein.
 
-Es gibt 1234 60°-Dreiecke, für die $r ≤ 100$ ist.
+Es gibt 1234 60°-Dreiecke, für die $r ≤ 100$.
 
 Sei $T(n)$ die Anzahl der 60°-Dreiecke, für die $r ≤ n$, also $T(100) = 1234$, $T(1000) = 22767$, und $T(10000) = 359912$.
 

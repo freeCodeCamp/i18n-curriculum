@@ -8,7 +8,7 @@ dashedName: abc-problem
 
 # --description--
 
-You are given a collection of ABC blocks (e.g., childhood alphabet blocks). There are 20 blocks with two letters on each block. A complete alphabet is guaranteed amongst all sides of the blocks. The sample collection of blocks:
+Du erhälst eine Sammlung von ABC-Blöcken (z.B. Kinderalphabet-Blöcke). Es gibt 20 Blöcke mit zwei Buchstaben pro Block. Ein vollständiges Alphabet ist auf allen Seiten der Blöcke garantiert. Die Mustersammlung von Blöcken:
 
 <pre>(B O)
 (X K)
@@ -39,7 +39,7 @@ Implementiere eine Funktion, die einen String (Wort) nimmt und bestimmt, ob das 
 Einige Regeln sind zu beachten:
 
 <ul>
-  <li>Once a letter on a block is used, that block cannot be used again.</li>
+  <li>Sobald ein Buchstabe auf einem Block verwendet wurde, kann dieser Block nicht mehr verwendet werden.</li>
   <li>Bei der Funktion sollte die Groß- und Kleinschreibung nicht beachtet werden.</li>
 </ul>
 

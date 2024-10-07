@@ -8,7 +8,7 @@ dashedName: style-d3-labels
 
 # --description--
 
-D3-Methoden können Balkenbeschriftungen gestalten. So legt das `fill`-Attribut die Farbe des Texts eines `text`-Knotens fest. Die `style()` Methode legt CSS-Regeln für andere Gestaltungen fest, wie `font-family` oder `font-size`.
+D3 methods can add styles to the bar labels. The `fill` attribute sets the color of the text for a `text` node. The `style()` method sets CSS rules for other styles, such as `font-family` or `font-size`.
 
 # --instructions--
 

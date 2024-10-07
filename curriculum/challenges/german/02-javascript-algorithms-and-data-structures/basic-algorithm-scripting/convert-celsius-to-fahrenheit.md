@@ -8,7 +8,7 @@ dashedName: convert-celsius-to-fahrenheit
 
 # --description--
 
-Die Formel zur Umrechnung von Celsius in Fahrenheit lautet: Celsius mal `9/5`, plus `32`.
+The formula to convert from Celsius to Fahrenheit is the temperature in Celsius times `9/5`, plus `32`.
 
 Du erhältst eine vorgegebene Variable namens `celsius`, die für den Temperaturwert in Celsius steht. Verwende die vordefinierte Variable `fahrenheit` und weise ihr die Temperatur in Fahrenheit äquivalent zum gegebenen Temperaturwert in Celsius zu. Verwende die oben angegebene Formel um die Temperatur von Celsius in Fahrenheit umzurechnen.
 

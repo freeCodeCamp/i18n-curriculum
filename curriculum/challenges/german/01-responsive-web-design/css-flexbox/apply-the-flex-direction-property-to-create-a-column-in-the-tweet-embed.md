@@ -9,7 +9,7 @@ dashedName: apply-the-flex-direction-property-to-create-a-column-in-the-tweet-em
 
 # --description--
 
-Der `header` und der `footer` der Tweet-Einbettung verwendeten die `flex-direction` Eigenschaft früher mit einem row-Wert. In ähnlicher Weise würden die Elemente innerhalb von `.profile-name` gut übereinander funktionieren.
+The tweet embed `header` and `footer` used the `flex-direction` property earlier with a row value. Similarly, the items inside the `.profile-name` element would work well stacked as a column.
 
 # --instructions--
 

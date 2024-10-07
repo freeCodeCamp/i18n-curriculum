@@ -8,7 +8,7 @@ dashedName: add-axes-to-a-visualization
 
 # --description--
 
-散布図を改善するもう一つの方法は、x 軸と y 軸を追加することです。
+Another way to improve the scatter plot is to add an x-axis and a y-axis.
 
 D3 には、y 軸と x 軸のそれぞれをレンダリングするための 2 つのメソッド、`axisLeft()` と `axisBottom()` があります。 以前のチャレンジでの `xScale` を基にして x 軸を作成する例を示します。
 
@@ -16,7 +16,7 @@ D3 には、y 軸と x 軸のそれぞれをレンダリングするための 2 
 const xAxis = d3.axisBottom(xScale);
 ```
 
-The next step is to render the axis on the SVG. これには、一般的な SVG コンポーネントである `g` 要素を使用できます。 `g` はグループを表します。 `rect`、`circle`、および `text` とは異なり、レンダリングされた軸は単なる直線です。 シンプルな形なので、`g` を使って作業できます。 The last step is to apply a `transform` attribute to position the axis on the SVG in the right place. Otherwise, the line would render along the border of the SVG and wouldn't be visible. SVG は各種の `transforms` をサポートしていますが、軸の配置には `translate` が必要です。 それが `g` 要素に適用されると、与えられた量だけグループ全体が移動します。 次に例を示します。
+The next step is to render the axis on the SVG. これには、一般的な SVG コンポーネントである `g` 要素を使用できます。 `g` はグループを表します。 `rect`、`circle`、および `text` とは異なり、レンダリングされた軸は単なる直線です。 シンプルな形なので、`g` を使って作業できます。 The last step is to apply a `transform` attribute to position the axis on the SVG in the right place. Otherwise, the line would render along the border of the SVG and wouldn't be visible. SVG は各種の `transforms` をサポートしていますが、軸の配置には `translate` が必要です。 それが `g` 要素に適用されると、与えられた量だけグループ全体が移動します。 以下が例です:
 
 ```js
 const xAxis = d3.axisBottom(xScale);

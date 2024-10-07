@@ -9,9 +9,9 @@ dashedName: modify-array-data-with-indexes
 
 # --description--
 
-与字符串不同，数组的条目是 <dfn>可变的</dfn> 并且可以自由更改，即使数组是用 `const` 声明的。
+Unlike strings, the entries of arrays are <dfn>mutable</dfn> and can be changed freely, even if the array was declared with `const`.
 
-**示例**
+**例如：**
 
 ```js
 const ourArray = [50, 40, 30];

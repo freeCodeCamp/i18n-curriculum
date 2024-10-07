@@ -8,7 +8,7 @@ dashedName: create-an-export-fallback-with-export-default
 
 # --description--
 
-在 `export` 的课程中，你学习了<dfn>命名导出</dfn>语法， 这可以在其他文件中引用一些函数或者变量。
+In the `export` lesson, you learned about the syntax referred to as a <dfn>named export</dfn>. This allowed you to make multiple functions and variables available for use in other files.
 
 还需要了解另外一种被称为<dfn>默认导出</dfn>的 `export` 的语法。 在文件中只有一个值需要导出的时候，通常会使用这种语法。 它也常常用于给文件或者模块创建返回值。
 

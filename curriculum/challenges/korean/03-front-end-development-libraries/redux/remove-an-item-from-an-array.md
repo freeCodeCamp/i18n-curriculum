@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d403615a
-title: Remove an Item from an Array
+title: 배열에서 요소 제거하기
 challengeType: 6
 forumTopicId: 301447
 dashedName: remove-an-item-from-an-array
@@ -12,11 +12,11 @@ Time to practice removing items from an array. The spread operator can be used h
 
 # --instructions--
 
-The reducer and action creator were modified to remove an item from an array based on the index of the item. Finish writing the reducer so a new state array is returned with the item at the specific index removed.
+리듀서와 액션 생성자가 수정되어 요소의 인덱스를 기반으로 배열에서 요소를 제거합니다. 특정 인덱스의 요소가 제거된 새로운 상태 배열이 반환되도록 리듀서를 마저 작성해보세요.
 
 # --hints--
 
-The Redux store should exist and initialize with a state equal to `[0,1,2,3,4,5]`
+Redux 저장소가 존재해야 하며 `[0,1,2,3,4,5]`와 같은 상태로 초기화되어야 합니다.
 
 ```js
 assert(
@@ -30,7 +30,7 @@ assert(
 );
 ```
 
-`removeItem` and `immutableReducer` both should be functions.
+`removeItem`와 `immutableReducer` 는 모두 함수여야 합니다.
 
 ```js
 assert(
@@ -38,7 +38,7 @@ assert(
 );
 ```
 
-Dispatching the `removeItem` action creator should remove items from the state and should NOT mutate state.
+`removeItem` 액션 생성자를 디스패치 하면 상태(state)에서 요소를 제거해야 하며 상태를 변경하면 안됩니다.
 
 ```js
 assert(

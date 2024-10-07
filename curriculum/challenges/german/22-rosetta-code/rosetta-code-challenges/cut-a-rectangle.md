@@ -1,6 +1,6 @@
 ---
 id: 5a23c84252665b21eecc7e06
-title: Cut a rectangle
+title: Ein Rechteck schneiden
 challengeType: 1
 forumTopicId: 302242
 dashedName: cut-a-rectangle
@@ -8,7 +8,7 @@ dashedName: cut-a-rectangle
 
 # --description--
 
-A given rectangle is made from *m* × *n* squares. If *m* and *n* are not both odd, then it is possible to cut a path through the rectangle along the square edges such that the rectangle splits into two connected pieces with the same shape (after rotating one of the pieces by 180°). All such paths for 2 × 2 and 4 × 3 rectangles are shown below.
+Ein gegebenes Rechteck wird aus *m* × *n* Quadraten gebildet. Wenn *m* und *n* nicht beide ungerade sind, dann ist es möglich, einen Weg durch das Rechteck entlang der quadratischen Kanten zu schneiden, sodass das Rechteck in zwei zusammenhängende Teile mit der gleichen Form zerfällt (nach Drehung eines der Teile um 180°). Alle derartigen Pfade für 2 × 2 und 4 × 3 Rechtecke sind unten dargestellt.
 
 <div style="width: 100%; text-align: center;">
   <svg xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" width="520" height="170" aria-hidden="true" alt="Diagram showing the possible paths for 2 by 2 and 4 by 3 rectangles">

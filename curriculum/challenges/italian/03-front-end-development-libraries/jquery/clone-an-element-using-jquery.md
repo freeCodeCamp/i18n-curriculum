@@ -8,7 +8,7 @@ dashedName: clone-an-element-using-jquery
 
 # --description--
 
-Oltre a spostare gli elementi, è anche possibile copiarli da una posizione all'altra.
+In addition to moving elements, you can also copy them from one place to another.
 
 jQuery ha una funzione chiamata `clone()` che fa la copia di un elemento.
 

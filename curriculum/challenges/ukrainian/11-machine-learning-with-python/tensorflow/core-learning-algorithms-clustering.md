@@ -14,7 +14,7 @@ dashedName: core-learning-algorithms-clustering
 
 ## --text--
 
-Який з нижченаведених кроків **не** є частиною алгоритму K-Means?
+Which of the following steps is **not** part of the K-Means algorithm?
 
 ## --answers--
 

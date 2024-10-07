@@ -8,7 +8,7 @@ dashedName: match-all-non-numbers
 
 # --description--
 
-أظهر التحدي الأخير كيفية البحث عن الأرقام باستخدام الاختصار `\d` مع حرف صغير `d`. يمكنك أيضا البحث عن غير أرقام (non-digits) باستخدام اختصار مماثل يستخدم حرف كبير `D` بدلا من ذلك.
+The last challenge showed how to search for digits using the shortcut `\d` with a lowercase `d`. You can also search for non-digits using a similar shortcut that uses an uppercase `D` instead.
 
 الاختصار للبحث عن رموز ليست أرقام هو `\D`. هذا يساوي الـ character class الآتي `[^0-9]`، والذي يبحث عن رمز واحد ليس رقما بين الصفر و التاسعة.
 

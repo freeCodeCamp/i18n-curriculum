@@ -8,7 +8,7 @@ dashedName: return-largest-numbers-in-arrays
 
 # --description--
 
-請返回一個數組，該數組由參數中每個子數組中的最大數字組成。 爲簡單起見，給出的數組總會包含 4 個子數組。
+Return an array consisting of the largest number from each provided sub-array. For simplicity, the provided array will contain exactly 4 sub-arrays.
 
 別忘了，你可以通過 for 循環遍歷一個數組，並用 `arr[i]` 的寫法來訪問數組中的元素。
 

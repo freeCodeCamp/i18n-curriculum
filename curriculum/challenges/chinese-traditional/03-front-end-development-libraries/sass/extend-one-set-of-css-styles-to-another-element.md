@@ -8,7 +8,7 @@ dashedName: extend-one-set-of-css-styles-to-another-element
 
 # --description--
 
-Sass 有一個名爲 `extend` 的功能，可以很容易地從一個元素中借用 CSS 規則並在另一個元素上重用它們。
+Sass has a feature called `extend` that makes it easy to borrow the CSS rules from one element and build upon them in another.
 
 例如，下面的 CSS 規則塊設置了 `.panel` class 的樣式。 它有 `background-color`，`height` 和 `border`。
 

@@ -55,19 +55,19 @@ console.log(add(3));
 
 ## --answers--
 
-The output is `24`.
+Die Ausgabe ist `24`.
 
 ---
 
-The output is `14`.
+Die Ausgabe ist `14`.
 
 ---
 
-The output is `15`.
+Die Ausgabe ist `15`.
 
 ---
 
-The output is `12`.
+Die Ausgabe ist `12`.
 
 ## --video-solution--
 

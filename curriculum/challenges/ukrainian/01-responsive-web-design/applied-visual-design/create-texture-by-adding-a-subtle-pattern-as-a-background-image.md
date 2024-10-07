@@ -9,7 +9,7 @@ dashedName: create-texture-by-adding-a-subtle-pattern-as-a-background-image
 
 # --description--
 
-Один із варіантів додати текстуру та надати фону цікавості і, щоб зробити його ще більше - це додати тонкий шаблон. Головне - це баланс, так як ви ж не не хочете, щоб фон дуже виділявся, заберіть його з переднього плану. Властивість `background` підтримує функцію `url()` для того, щоб посилатися на зображення вибраної текстури або шаблону. Посилання загорнуте в лапки всередині дужок.
+One way to add texture and interest to a background and have it stand out more is to add a subtle pattern. The key is balance, as you don't want the background to stand out too much, and take away from the foreground. The `background` property supports the `url()` function in order to link to an image of the chosen texture or pattern. The link address is wrapped in quotes inside the parentheses.
 
 # --instructions--
 

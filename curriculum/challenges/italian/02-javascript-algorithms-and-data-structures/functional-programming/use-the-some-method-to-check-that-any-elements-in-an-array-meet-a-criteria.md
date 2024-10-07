@@ -8,7 +8,7 @@ dashedName: use-the-some-method-to-check-that-any-elements-in-an-array-meet-a-cr
 
 # --description--
 
-Il metodo `some` funziona con gli array per verificare se *un qualunque* elemento supera un test particolare. Restituisce un valore booleano: `true` se uno qualsiasi dei valori soddisfa i criteri, `false` altrimenti.
+The `some` method works with arrays to check if *any* element passes a particular test. It returns a Boolean value - `true` if any of the values meet the criteria, `false` if not.
 
 Ad esempio, il seguente codice controllerà se almeno un elemento nell'array `numbers` è inferiore a 10:
 

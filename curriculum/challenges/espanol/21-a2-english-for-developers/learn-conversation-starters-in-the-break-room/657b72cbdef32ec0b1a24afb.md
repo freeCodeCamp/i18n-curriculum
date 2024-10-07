@@ -1,6 +1,6 @@
 ---
 id: 657b72cbdef32ec0b1a24afb
-title: Task 29
+title: Tarea 29
 challengeType: 19
 dashedName: task-29
 ---
@@ -9,31 +9,31 @@ dashedName: task-29
 
 # --description--
 
-When you hear about different types of guitars, two common kinds might come up: `electric` and `acoustic`. `Electric guitars` usually need something called an amplifier to be loud enough to hear, while `acoustic guitars` can be heard without any extra equipment.
+Cuando oigas hablar de diferentes tipos de guitarras, podrían surgir dos tipos comunes: `electric` y `acoustic`. Las `Electric guitars` normalmente necesitan algo llamado un amplificador para que sea lo suficientemente fuerte para oír, mientras que las `acoustic guitars` se pueden escuchar sin ningún equipo adicional.
 
-# --questions--
+# --preguntas----preguntas--
 
 ## --text--
 
-Listen to the dialogue and choose the correct type of guitar Sophie prefers.
+Escucha el diálogo y elige el tipo correcto de guitarra que Sophie prefiere.
 
 ## --answers--
 
-Electric Guitar
+Guitarra eléctrica
 
 ---
 
-Acoustic Guitar
+Guitarra acústica
 
-### devolución
+### --feedback--
 
-Sophie makes it very clear which type of guitar she likes. Remember, the one she prefers needs an amplifier to be loud.
+Sophie deja muy en claro qué tipo de guitarra le gusta. Recuerda que la que prefiere necesita un amplificador para se que se ecuche alto.
 
 ## --video-solution--
 
 1
 
-# --escena---
+# --scene--
 
 ```json
 {

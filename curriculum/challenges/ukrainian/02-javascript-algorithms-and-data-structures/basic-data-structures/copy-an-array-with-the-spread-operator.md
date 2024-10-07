@@ -8,7 +8,7 @@ dashedName: copy-an-array-with-the-spread-operator
 
 # --description--
 
-Хоча `slice()` дозволяє нам вибирати, які елементи масиву копіювати, новий <dfn>оператор розширення</dfn> з ES6 дозволяє легко копіювати *всі* елементи масиву послідовно завдяки простому і читабельному синтаксису. Синтаксис розширення виглядає так: `...`
+While `slice()` allows us to be selective about what elements of an array to copy, among several other useful tasks, ES6's new <dfn>spread operator</dfn> allows us to easily copy *all* of an array's elements, in order, with a simple and highly readable syntax. The spread syntax simply looks like this: `...`
 
 На практиці ми можемо використати оператор розширення для копіювання масиву:
 

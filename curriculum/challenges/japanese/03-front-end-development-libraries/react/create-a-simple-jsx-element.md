@@ -8,7 +8,7 @@ dashedName: create-a-simple-jsx-element
 
 # --description--
 
-React は Facebook によって作成され維持されているオープンソースビューライブラリで、 最新のウェブアプリケーションのユーザーインターフェイス (UI) をレンダーするのに適したツールです。
+React is an Open Source view library created and maintained by Facebook. It's a great tool to render the User Interface (UI) of modern web applications.
 
 React では、JavaScript の中に直接 HTML を記述できるようにする、JSX と呼ばれる JavaScript の構文拡張を使用しています。 これにはいくつかの利点があります。 HTML の中で JavaScript のプログラミング機能を最大限発揮することができ、またコードが読みやすくなります。 ほとんどの場合、JSX はすでにご存知の HTML に似ていますが、いくつかの重要な違いがあります。それらの違いについてこのチャレンジ全体を通して説明します。
 

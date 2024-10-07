@@ -9,7 +9,7 @@ dashedName: use-abbreviated-hex-code
 
 # --description--
 
-Багато людей відчувають себе перевантаженими можливостями маючи більш ніж 16 мільйонів кольорів. А запам'ятати шістнадцятковий код дуже складно. На щастя, його можна скоротити.
+Many people feel overwhelmed by the possibilities of more than 16 million colors. And it's difficult to remember hex code. Fortunately, you can shorten it.
 
 Наприклад, шістнадцятковий код червоного кольору `#FF0000` можна скоротити до `#F00`. Ця скорочена форма дає одну цифру для червоного, одну цифру для зеленого і одну цифру для синього кольору.
 
@@ -19,7 +19,7 @@ dashedName: use-abbreviated-hex-code
 
 Спробуйте використовувати скорочені шіснадцяткові коди, що зафарбувати потрібні елементи.
 
-<table><tbody><tr><th>Колір</th><th>Короткий hex-код</th></tr><tr><td>Блакитний</td><td><code>#0FF</code></td></tr><tr><td>Зелений</td><td><code>#0F0</code></td></tr><tr><td>Червоний</td><td><code>#F00</code></td></tr><tr><td>Фуксія</td><td><code>#F0F</code></td></tr></tbody></table>
+<table><tbody><tr><th>Color</th><th>Short Hex Code</th></tr><tr><td>Cyan</td><td><code>#0FF</code></td></tr><tr><td>Green</td><td><code>#0F0</code></td></tr><tr><td>Red</td><td><code>#F00</code></td></tr><tr><td>Fuchsia</td><td><code>#F0F</code></td></tr></tbody></table>
 
 # --hints--
 

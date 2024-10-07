@@ -8,7 +8,7 @@ dashedName: match-single-characters-not-specified
 
 # --description--
 
-До цього часу ви створювали набір символів, для яких хочете найти збіги. Однак ви можете створювати й набори символів, для яких не потрібно знаходити збіги. Такі набори символів називають <dfn>набором заперечних символів</dfn>.
+So far, you have created a set of characters that you want to match, but you could also create a set of characters that you do not want to match. These types of character sets are called <dfn>negated character sets</dfn>.
 
 Щоб створити набір заперечних символів, поставте символ карет (`^`) після відкриваючої дужки та перед символами, для яких не хочете шукати збіги.
 
@@ -16,7 +16,7 @@ dashedName: match-single-characters-not-specified
 
 # --instructions--
 
-Створіть регулярний вираз, що знаходить збіги для всіх символів, які не є числами чи голосними. Не забудьте використати відповідні прапорці у регулярному виразі.
+Створіть регулярний вираз, що знаходить збіги для всіх символів, які не є числами чи голосними. Не забудьте включити відповідні прапорці у регулярному виразі.
 
 # --hints--
 

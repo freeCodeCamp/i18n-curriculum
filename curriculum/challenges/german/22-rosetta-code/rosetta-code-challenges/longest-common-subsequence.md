@@ -8,7 +8,7 @@ dashedName: longest-common-subsequence
 
 # --description--
 
-The **longest common subsequence** (or **LCS**) of groups A and B is the longest group of elements from A and B that are common between the two groups and in the same order in each group. For example, the sequences `1234` and `1224533324` have an LCS of `1234`:
+Die **längste gemeinsame Teilsequenz** (or **LCS**) der Gruppen A und B ist die längste Gruppe der Elemente aus A und B, die zwischen den beiden Gruppen und in der gleichen Reihenfolge in jeder Gruppe üblich sind. Zum Beispiel haben die Sequenzen `1234` und `1224533324` einen LCS von `1234`:
 
 <u>1234</u>
 

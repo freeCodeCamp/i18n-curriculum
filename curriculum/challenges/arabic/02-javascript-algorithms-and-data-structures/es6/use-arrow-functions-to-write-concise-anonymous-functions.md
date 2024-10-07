@@ -8,7 +8,7 @@ dashedName: use-arrow-functions-to-write-concise-anonymous-functions
 
 # --description--
 
-في جافا سكريبت، غالبا ما لا نحتاج إلى تسمية الـ functions، خاصة عند تمرير الـ fuction كـ argument لـ function أخر. وبدلا من ذلك، نحن ننشئ inline functions. نحن لسنا بحاجة إلى تسمية هذه الـ functions لأننا لا نعيد استخدامها في أي مكان آخر.
+In JavaScript, we often don't need to name our functions, especially when passing a function as an argument to another function. Instead, we create inline functions. We don't need to name these functions because we do not reuse them anywhere else.
 
 ولتحقيق ذلك، كثيرا ما نستخدم الصيغة التالية:
 

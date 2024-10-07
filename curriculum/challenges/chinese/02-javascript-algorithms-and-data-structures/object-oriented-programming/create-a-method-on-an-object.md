@@ -8,7 +8,7 @@ dashedName: create-a-method-on-an-object
 
 # --description--
 
-对象可以有一个叫做 <dfn>method</dfn> 的特殊属性。
+Objects can have a special type of property, called a <dfn>method</dfn>.
 
 方法属性也就是函数。 这给对象添加了不同的行为。 以下就是一个带有方法属性的 `duck` 示例：
 

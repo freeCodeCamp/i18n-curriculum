@@ -8,7 +8,7 @@ dashedName: make-an-image-responsive
 
 # --description--
 
-Bilder mit CSS responsive zu machen, ist eigentlich ganz einfach. Du musst nur diese Eigenschaften zu einem Bild hinzufügen:
+Making images responsive with CSS is actually very simple. You just need to add these properties to an image:
 
 ```css
 img {

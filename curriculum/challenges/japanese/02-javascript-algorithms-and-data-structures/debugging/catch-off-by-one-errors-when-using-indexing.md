@@ -8,7 +8,7 @@ dashedName: catch-off-by-one-errors-when-using-indexing
 
 # --description--
 
-<dfn>オフバイワンエラー</dfn> (OBOE と呼ばれることもあります) は、文字列または配列の特定のインデックスをターゲットにしようとしているとき (セグメントをスライスするまたはアクセスするため)、あるいはインデックスをループ処理するときに発生します。 JavaScript のインデックスは、1 からではなく、0 から始まります。つまり、最後のインデックスは常にアイテムの長さよりも 1 小さくなります。 最後のインデックスと等しい長さのインデックスにアクセスしようとすると、プログラムから「インデックスが範囲外」という参照エラーがスローされたり、`undefined` が出力されたりする場合があります。
+<dfn>Off by one errors</dfn> (sometimes called OBOE) crop up when you're trying to target a specific index of a string or array (to slice or access a segment), or when looping over the indices of them. JavaScript indexing starts at zero, not one, which means the last index is always one less than the length of the item. If you try to access an index equal to the length, the program may throw an "index out of range" reference error or print `undefined`.
 
 引数としてインデックスの範囲を受け取る文字列メソッドや配列メソッドを使用する場合は、ドキュメントを確認して、それらがインクルーシブ (対象のインデックスのアイテムも返される一部となる) かどうかを把握しておくと役に立ちます。 オフバイワンエラーの例を次に示します。
 

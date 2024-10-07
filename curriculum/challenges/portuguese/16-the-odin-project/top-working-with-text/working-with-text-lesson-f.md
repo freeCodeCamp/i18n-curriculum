@@ -23,7 +23,7 @@ No exemplo seguinte, body é o pai e o parágrafo é o filho:
  </html>
 ```
 
-Assim como nas relações humanas, os elementos-pai do HTML podem ter muitos filhos. Elementos no mesmo nível de aninhamento são considerados irmãos.
+Assim como nas relações humanas, os elementos pai do HTML podem ter muitos filhos. Elementos no mesmo nível de aninhamento são considerados irmãos.
 
 Por exemplo, os dois parágrafos do código a seguir são irmãos, já que ambos são filhos de body e estão no mesmo nível de aninhamento um do outro:
 

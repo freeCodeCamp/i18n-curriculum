@@ -8,7 +8,7 @@ dashedName: catch-unclosed-parentheses-brackets-braces-and-quotes
 
 # --description--
 
-يجب أن تكون على علم بخطأ آخر في بناء الجملة, هو أن جميع الأقواس الافتتاحية، والأقواس المعكوفة، والاقتباسات تحتوي على زوج إقفال. يحدث نسيان قطعة ما عندما تحرير كود موجود وإدخال عناصر بأحد أنواع الأزواج. أيضًا، كن حذرًا عند دمج مجموعة الكود في أخري، مثل إضافة وظيفة تعيد التفعيل كحجة إلى طريقة.
+Another syntax error to be aware of is that all opening parentheses, brackets, curly braces, and quotes have a closing pair. Forgetting a piece tends to happen when you're editing existing code and inserting items with one of the pair types. Also, take care when nesting code blocks into others, such as adding a callback function as an argument to a method.
 
 إحدى الطرق لتجنب هذا الخطأ هي بمجرد كتابة الرمز الافتتاحي، قم على الفور بكتابة رمز الإغلاق، ثم قم بتحريك المؤشر مرة أخرى بينهما، ثم استمر في البرمجة. لحسن الحظ، فإن معظم برامج تحرير الكود الحديثة تولد النصف الثاني من الزوج تلقائيًا.
 

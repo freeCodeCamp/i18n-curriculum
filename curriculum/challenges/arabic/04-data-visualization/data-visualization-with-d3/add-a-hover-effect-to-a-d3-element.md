@@ -8,7 +8,7 @@ dashedName: add-a-hover-effect-to-a-d3-element
 
 # --description--
 
-من الممكن إضافة التأثيرات (effects) التي توضح العمود (bar) عندما يحوم الماوس فوقه (hovers). حتى الآن، طبقت تصميم (style) المستطيلات بواسطة طرق مدمجة (built-in methods) في D3 و SVG، ولكن يمكنك استعمال CSS أيضا.
+It's possible to add effects that highlight a bar when the user hovers over it with the mouse. So far, the styling for the rectangles is applied with the built-in D3 and SVG methods, but you can use CSS as well.
 
 يمكنك تعيين فئة (class) من CSS إلى عناصر SVG مع طريقة (method) تسمى `attr()`. ثم تحتوي فئة الزائفة (pseudo-class) المسمى `:hover` على قواعد التصميم (style) الجديدة لأي تأثيرات عند تحرك المستخدم فوق عنصر (hover).
 

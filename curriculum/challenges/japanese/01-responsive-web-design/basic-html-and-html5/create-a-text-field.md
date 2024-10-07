@@ -9,7 +9,7 @@ dashedName: create-a-text-field
 
 # --description--
 
-では、ウェブフォームを作成しましょう。
+Now let's create a web form.
 
 `input` 要素はユーザーからの入力を得る便利な方法です。
 

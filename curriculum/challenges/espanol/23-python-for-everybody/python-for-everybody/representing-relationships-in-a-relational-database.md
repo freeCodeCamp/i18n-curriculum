@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: representing-relationships-in-a-relational-database
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-What is a foreign key?
+¿Qué es una foreign key?
 
 ## --answers--
 

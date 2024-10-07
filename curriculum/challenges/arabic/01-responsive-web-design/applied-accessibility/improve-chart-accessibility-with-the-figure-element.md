@@ -1,6 +1,6 @@
 ---
 id: 587d778a367417b2b2512aa5
-title: Improve Chart Accessibility with the figure Element
+title: تحسين إمكانية الوصول إلى الرسم البياني مع العنصر figure
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cGJMqtE'
 forumTopicId: 301015
@@ -11,9 +11,9 @@ dashedName: improve-chart-accessibility-with-the-figure-element
 
 HTML5 introduced the `figure` element and the related `figcaption`. Used together, these items wrap a visual representation (like an image, diagram, or chart) along with its caption. Wrapping these elements together gives a two-fold accessibility boost by semantically grouping related content and providing a text alternative explaining the `figure`.
 
-For data visualizations like charts, the caption can be used to briefly note the trends or conclusions for users with visual impairments. Another challenge covers how to move a table version of the chart's data off-screen (using CSS) for screen reader users.
+وبالنسبة لأشكال تمثيل البيانات مثل الرسوم البيانية، يمكن استخدام عنوان للشرح بإيجاز عن الاتجاهات أو الاستنتاجات بالنسبة للمستخدمين ذوي العاهات البصرية. وهناك تحد آخر يغطي كيفية نقل نسخة الجدول من بيانات المخطط خارج الشاشة (باستخدام CSS) لمستخدمي قارئ الشاشة.
 
-Here's an example - note that the `figcaption` goes inside the `figure` tags and can be combined with other elements:
+مثال - لاحظ أن `figcaption` يدخل في `figure` ويمكن الجمع بينه وبين عناصر أخرى:
 
 ```html
 <figure>
@@ -27,35 +27,35 @@ Here's an example - note that the `figcaption` goes inside the `figure` tags and
 
 # --instructions--
 
-Camper Cat شاق في العمل لإنشاء مخطط أعمدة مكدسة يبين مقدار الوقت في الأسبوع لقضاء التدريب على السرقة، القتال والأسلحة. Help him structure his page better by changing the `div` tag he used to a `figure` tag, and the `p` tag that surrounds the caption to a `figcaption` tag.
+Camper Cat شاق في العمل لإنشاء مخطط أعمدة مكدسة يبين مقدار الوقت في الأسبوع لقضاء التدريب على السرقة، القتال والأسلحة. ساعده على هيكلة صفحته بشكل أفضل عن طريق تغيير علامة `div` التي اعتدها إلى `figure` العلامة، و العلامة `p` التي تحيط بالعبارة التوضيحية لـ `figcaption`.
 
 # --hints--
 
-Your code should have one `figure` tag.
+يجب أن يحتوي الكود الخاص بك على وسم (tag) واحد فقط من نوع `figure`.
 
 ```js
 assert.lengthOf(document.querySelectorAll('figure') , 1);
 ```
 
-Your code should have one `figcaption` tag.
+يجب أن يحتوي الكود الخاص بك على tag واحد فقط من نوع `figcaption`.
 
 ```js
 assert.lengthOf(document.querySelectorAll('figcaption') , 1);
 ```
 
-Your code should not have any `div` tags.
+يجب ألا يحتوي الكود الخاص بك على أي وسم `div`.
 
 ```js
 assert.lengthOf(document.querySelectorAll('div'), 0);
 ```
 
-Your code should not have any `p` tags.
+يجب ألا يحتوي الكود الخاص بك علي اي وسوم `p`.
 
 ```js
 assert.lengthOf(document.querySelectorAll('p') , 0);
 ```
 
-The `figcaption` should be a child of the `figure` tag.
+وسم `figcaption` يجب ان child لوسم `figure`.
 
 ```js
 const figure = document.querySelector('figure');
@@ -63,7 +63,7 @@ const children = figure?.querySelectorAll(`:scope ${'figcaption'}`);
 assert.lengthOf(children, 1);
 ```
 
-Your `figure` element should have a closing tag.
+يجب أن يحتوي العنصر `figure` على وسم إغلاق.
 
 ```js
 assert.isTrue(

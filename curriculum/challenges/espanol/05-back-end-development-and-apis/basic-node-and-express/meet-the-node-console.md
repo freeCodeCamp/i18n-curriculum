@@ -8,33 +8,33 @@ dashedName: meet-the-node-console
 
 # --description--
 
-Trabajar en estos desafíos implica escribir tu código usando uno de los siguientes métodos:
+Working on these challenges will involve you writing your code using one of the following methods:
 
-- Clone este repositorio de <a href="https://github.com/freeCodeCamp/boilerplate-express/" target="_blank" rel="noopener noreferrer nofollow"> GitHub</a> y complete estos desafíos localmente.
-- Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-express/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete these challenges.
-- Utiliza un constructor de sitios de tu elección para completar el proyecto. Asegúrate de incorporar todos los archivos de nuestro repositorio de GitHub.
+- Clone <a href="https://github.com/freeCodeCamp/boilerplate-express/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete these challenges locally.
+- Utiliza <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-express/" target="_blank" rel="noopener noreferrer nofollow">nuestro proyecto inicial en Gitpod</a> para completar estos desafíos.
+- Usa un constructor de sitios de tu elección para completar el proyecto. Asegúrate de incorporar todos los archivos de nuestro repositorio de GitHub.
 
-Durante el proceso de desarrollo, es importante poder comprobar lo que ocurre en el código.
+During the development process, it is important to be able to check what’s going on in your code.
 
-Node es solo un entorno JavaScript. Al igual que el JavaScript del lado cliente, puedes hacer uso de la consola para mostrar información útil para la depuración. En tu máquina, varía la salida de la consola en un terminal. On Gitpod, a terminal is open at the bottom of the editor by default.
+Node is just a JavaScript environment. Like client side JavaScript, you can use the console to display useful debug information. On your local machine, you would see console output in a terminal. En Gitpod, un terminal está abierto en la parte inferior del editor de forma predeterminada.
 
-Recomendamos mantener abierto el terminal mientras desarrolles estos retos. Al leer el resultado en el terminal, puedes ver cualquier error que pueda producirse.
+We recommend to keep the terminal open while working at these challenges. By reading the output in the terminal, you can see any errors that may occur.
 
-The server must be restarted after making changes to its files.
+El servidor debe reiniciarse después de realizar cambios en sus archivos.
 
-You can stop the server from the terminal using `Ctrl + C` and start it using Node directly (`node mainEntryFile.js`) or using a run script in the `package.json` file with `npm run`.
+Puedes detener el servidor desde el terminal usando `Ctrl + C` e iniciarlo usando Node directamente (`node mainEntryFile.js`) o usando un script de ejecución en el archivo `package.json` con `npm run`.
 
-For example, the `"start": "node server.js"` script would be run from the terminal using `npm run start`.
+Por ejemplo, el script `"start": "node server.js"` se ejecutaría desde el terminal usando `npm run star`.
 
-To implement server auto restarting on file save Node provides the `--watch` flag you can add to your start script `"start": "node --watch server.js"` or you can install an npm package like `nodemon`. We will leave this to you as an exercise.
+Para implementar el auto reinicio del servidor al guardar archivos, Node proporciona la bandera `--watch` que puedes añadir a tu script de inicio `"start": "node --watch server.js"` o puedes instalar un paquete npm como `nodemon`. Te dejaremos esto como un ejercicio.
 
 # --instructions--
 
-Modifica el archivo `myApp.js` para que registre "Hello World" en la consola.
+Modify the `myApp.js` file to log "Hello World" to the console.
 
 # --hints--
 
-`"Hello World"` debe aparecer en la consola
+`"Hello World"` should be in the console
 
 ```js
 (getUserInput) =>

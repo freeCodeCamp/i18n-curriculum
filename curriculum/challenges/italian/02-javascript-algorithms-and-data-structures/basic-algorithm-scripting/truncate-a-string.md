@@ -8,7 +8,7 @@ dashedName: truncate-a-string
 
 # --description--
 
-Tronca una stringa (primo argomento) se è più lunga della massima lunghezza specificata (secondo argomento). Restituisci la stringa troncata con alla fine `...`.
+Truncate a string (first argument) if it is longer than the given maximum string length (second argument). Return the truncated string with a `...` ending.
 
 # --hints--
 

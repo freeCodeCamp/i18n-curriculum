@@ -9,7 +9,7 @@ dashedName: global-scope-and-functions
 
 # --description--
 
-<dfn>Область видимості</dfn> у JavaScript стосується видимості змінних. Змінні, які визначені поза межами функції, мають <dfn>глобальну</dfn> область видимості. Це означає, що їх можна побачити всюди у коді JavaScript.
+In JavaScript, <dfn>scope</dfn> refers to the visibility of variables. Variables which are defined outside of a function block have <dfn>Global</dfn> scope. This means, they can be seen everywhere in your JavaScript code.
 
 Змінні, оголошені без ключових слів `let` чи `const`, автоматично створюються в глобальній (`global`) області видимості. Це може створити непередбачувані наслідки у вашому коді або при повторному запуску функції. Ви повинні завжди оголошувати свої змінні з `let` чи `const`.
 

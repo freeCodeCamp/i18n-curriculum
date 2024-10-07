@@ -9,7 +9,7 @@ dashedName: manipulating-complex-objects
 
 # --description--
 
-Іноді ви можете зберігати дані в гнучкій <dfn>структурі даних</dfn>. Об’єкт JavaScript є одним зі способів обробки гнучких даних. Вони дозволяють створювати комбінації <dfn>рядків</dfn>, <dfn>чисел</dfn>, <dfn>булевих значень</dfn>, <dfn>масивів</dfn>, <dfn>функцій</dfn> та <dfn>об’єктів</dfn>.
+Sometimes you may want to store data in a flexible <dfn>Data Structure</dfn>. A JavaScript object is one way to handle flexible data. They allow for arbitrary combinations of <dfn>strings</dfn>, <dfn>numbers</dfn>, <dfn>booleans</dfn>, <dfn>arrays</dfn>, <dfn>functions</dfn>, and <dfn>objects</dfn>.
 
 Ось приклад складної структури даних:
 

@@ -9,7 +9,7 @@ dashedName: use-media-queries-to-create-responsive-layouts
 
 # --description--
 
-La griglia CSS può essere un modo semplice per rendere il tuo sito più responsivo utilizzando le media query per riorganizzare le aree della griglia, cambiare le dimensioni di una griglia, e riorganizzare il posizionamento degli elementi.
+CSS Grid can be an easy way to make your site more responsive by using media queries to rearrange grid areas, change dimensions of a grid, and rearrange the placement of items.
 
 Nell'anteprima, quando la larghezza della viewport è di 300px o più, il numero di colonne cambia da 1 a 2. L'area per gli advertisement poi occupa completamente la colonna di sinistra.
 

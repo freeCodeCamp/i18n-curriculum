@@ -9,7 +9,7 @@ dashedName: specify-how-fonts-should-degrade
 
 # --description--
 
-У всіх браузерах є декілька доступних шрифтів за замовчуванням. Ці основні групи шрифтів включають `monospace`, `serif` and `sans-serif`.
+There are several default fonts that are available in all browsers. These generic font families include `monospace`, `serif` and `sans-serif`.
 
 Якщо один шрифт недоступний, на браузері ви можете натиснути "degrade", щоб обрати інший шрифт.
 

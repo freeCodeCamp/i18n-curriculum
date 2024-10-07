@@ -8,7 +8,7 @@ dashedName: sum-all-odd-fibonacci-numbers
 
 # --description--
 
-正の整数 `num` が与えられたときに、`num` 以下の奇数のフィボナッチ数の和を返してください。
+Given a positive integer `num`, return the sum of all odd Fibonacci numbers that are less than or equal to `num`.
 
 フィボナッチ数列の最初の 2 つの数字は 0 と 1 です。 数列内の他の数はすべて、前の 2 つの数の和になっています。 フィボナッチ数列の最初の 7 つの数字は、0、1、1、2、3、5、8 です。
 

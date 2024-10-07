@@ -8,7 +8,7 @@ dashedName: remove-elements-from-a-linked-list
 
 # --description--
 
-O próximo método importante que qualquer implementação de uma lista encadeada precisará é de um método `remove`. Este método deve receber como argumento o elemento que queremos remover, e, em seguida, procurar na lista para encontrar e remover o nó que contém esse elemento.
+The next important method that any implementation of a linked list will need is a `remove` method. This method should take the element we want to remove as an argument, and then search the list to find and remove the node that contains that element.
 
 Sempre que removermos um nó de uma lista encadeada, é importante que não deixemos o resto da lista órfã ao fazer isso. Lembre-se de que todos os pontos de propriedade `next` dos nós apontam para o nó que os segue na lista. Se estivermos removendo o elemento do meio, digamos, vamos precisar ter certeza de que temos uma conexão com a propriedade `next` do nó anterior daquele elemento para a propriedade `next` do elemento do meio (que é o próximo nó na lista!)
 

@@ -9,13 +9,13 @@ dashedName: set-the-font-size-for-multiple-heading-elements
 
 # --description--
 
-`font-size` 속성은 특정 요소 내에서 텍스트의 크기를 지정하는 데 사용됩니다. 이 규칙은 페이지의 텍스트를 시각적으로 일관되게 만들기 위해 여러 요소에 사용될 수 있습니다. 이 도전에서는 `h1`부터 `h6`까지 모든 태그에 대한 값을 설정하여 헤딩 크기를 균형있게 맞출 것입니다.
+The `font-size` property is used to specify how large the text is in a given element. This rule can be used for multiple elements to create visual consistency of text on a page. In this challenge, you'll set the values for all `h1` through `h6` tags to balance the heading sizes.
 
 # --instructions--
 
 `style` 태그 안에서 다음의 `font-size`를 설정합니다.
 
-- `h1` 태그는 68px로 설정합니다.
+- `h1` tag to 68px.
 - `h2` 태그는 52px로 설정합니다.
 - `h3` 태그는 40px로 설정합니다.
 - `h4` 태그는 32px로 설정합니다.

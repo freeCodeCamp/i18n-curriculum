@@ -1,6 +1,6 @@
 ---
 id: 5900f4081000cf542c50ff1a
-title: 'Problem 155: Counting Capacitor Circuits'
+title: 'Problem 155: Zählen von Kondensator-Schaltungen'
 challengeType: 1
 forumTopicId: 301786
 dashedName: problem-155-counting-capacitor-circuits

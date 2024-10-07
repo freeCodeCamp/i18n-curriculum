@@ -8,7 +8,7 @@ dashedName: use-destructuring-assignment-to-extract-values-from-objects
 
 # --description--
 
-<dfn>Деструктуроване присвоєння</dfn> є спеціальним синтаксисом, представленим в ES6, за допомогою якого можна акуратно присвоювати значення, взяте прямо з об’єкта.
+<dfn>Destructuring assignment</dfn> is special syntax introduced in ES6, for neatly assigning values taken directly from an object.
 
 Розглянемо наступний приклад коду ES5:
 

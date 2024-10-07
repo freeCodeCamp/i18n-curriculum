@@ -25,23 +25,23 @@ def banner(ip, port):
 
 ## --answers--
 
-A: `connect`
+أ: `توصيل`
 
-B: `port`
-
----
-
-A: `getsockname`
-
-B: `'1-1024'`
+ب: `منفذ`
 
 ---
 
-A: `connect`
+أ: `اعطي أسم ال socket `
 
-B: `int(port)`
+ب: `'1-1024'`
+
+---
+
+أ: `'1-1024'`
+
+أ: `int(port)`
 
 ## --video-solution--
 
-3
+الثالث
 

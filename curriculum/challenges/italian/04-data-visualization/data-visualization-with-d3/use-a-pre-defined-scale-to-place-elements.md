@@ -8,7 +8,7 @@ dashedName: use-a-pre-defined-scale-to-place-elements
 
 # --description--
 
-Con le scale impostate, è il momento di mappare nuovamente il grafico a dispersione. Le scale sono come le funzioni di elaborazione che trasformano i dati grezzi `x` e `y` in valori che si adattano e si posizionano correttamente sull'SVG. Esse mantengono i dati all'interno dell'area di disegno dello schermo.
+With the scales set up, it's time to map the scatter plot again. The scales are like processing functions that turn the `x` and `y` raw data into values that fit and render correctly on the SVG. They keep the data within the screen's plotting area.
 
 I valori degli attributi coordinate di una forma SVG si impostano con la funzione di ridimensionamento. Questo include gli attributi `x` e `y` per gli elementi `rect` o `text`, oppure `cx` e `cy` per i `circles`. Ecco un esempio:
 

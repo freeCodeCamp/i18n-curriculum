@@ -9,7 +9,7 @@ dashedName: improve-form-field-accessibility-with-the-label-element
 
 # --description--
 
-Die Verbesserung der Barrierefreiheit mit semantischem HTML-Markup bezieht sich sowohl auf die Verwendung geeigneter Tag-Namen als auch Attribute. Die nächsten Aufgaben decken einige wichtige Szenarien mithilfe von Attributen in Formularen ab.
+Improving accessibility with semantic HTML markup applies to using both appropriate tag names and attributes. The next several challenges cover some important scenarios using attributes in forms.
 
 Das `label`-Tag umschließt den Text für ein bestimmtes Formularsteuerelement, normalerweise den Namen oder die Bezeichnung für eine Auswahl. Dies bindet die Bedeutung an das Element und macht das Formular lesbarer. Das `for`-Attribut auf einem `label`-Tag verknüpft dieses `label` explizit mit dem Formularsteuerelement und wird von Screenreadern verwendet.
 

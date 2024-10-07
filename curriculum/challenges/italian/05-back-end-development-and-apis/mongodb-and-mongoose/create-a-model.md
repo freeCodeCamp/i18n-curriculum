@@ -8,7 +8,7 @@ dashedName: create-a-model
 
 # --description--
 
-**C**RUD Parte I - CREATE
+**C**RUD Part I - CREATE
 
 Innanzitutto abbiamo bisogno di uno Schema. Ogni schema mappa a una collezione MongoDB. Definisce la forma dei documenti all'interno di quella collezione. Gli schemi sono elementi costitutivi dei modelli. Possono essere annidati per creare modelli complessi, ma per ora terremo le cose semplici. Un modello ti permette di creare istanze dei tuoi oggetti, chiamate documenti.
 
@@ -30,7 +30,7 @@ const someFunc = function(done) {
 
 Crea uno schema persona chiamato `personSchema` con la seguente forma:
 
-* Un campo `name` obbligatorio di tipo `String`
+* A required `name` field of type `String`
 * Un campo `age` di tipo `Number`
 * Un campo `favoriteFoods` di tipo `[String]`
 

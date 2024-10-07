@@ -9,7 +9,7 @@ dashedName: set-the-font-size-of-paragraph-text
 
 # --description--
 
-A propriedade `font-size` no CSS não se limita a cabeçalhos, ela pode ser aplicada a qualquer elemento que contenha texto.
+The `font-size` property in CSS is not limited to headings, it can be applied to any element containing text.
 
 # --instructions--
 

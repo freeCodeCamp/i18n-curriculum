@@ -8,7 +8,7 @@ dashedName: use-an-iife-to-create-a-module
 
 # --description--
 
-一個立即調用函數表達式（IIFE）通常用於將相關功能分組到單個對象或者是 <dfn>module</dfn> 中。 例如，先前的挑戰中定義了兩個 mixins：
+An immediately invoked function expression (IIFE) is often used to group related functionality into a single object or <dfn>module</dfn>. For example, an earlier challenge defined two mixins:
 
 ```js
 function glideMixin(obj) {

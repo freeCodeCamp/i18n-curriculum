@@ -8,7 +8,7 @@ dashedName: match-everything-but-letters-and-numbers
 
 # --description--
 
-Du hast gelernt, dass du eine Kurzform für alphanumerische Zeichen `[A-Za-z0-9_]` mit `\w` verwenden kannst. Ein natürliches Muster, nach dem du suchen kannst, ist das Gegenteil von alphanumerischen Zeichen.
+You've learned that you can use a shortcut to match alphanumerics `[A-Za-z0-9_]` using `\w`. A natural pattern you might want to search for is the opposite of alphanumerics.
 
 Mit `\W` kannst du nach dem Gegenteil von `\w` suchen. Beachte, dass das entgegengesetzte Muster einen Großbuchstaben verwendet. Diese Kurzform ist das Gleiche wie `[^A-Za-z0-9_]`.
 

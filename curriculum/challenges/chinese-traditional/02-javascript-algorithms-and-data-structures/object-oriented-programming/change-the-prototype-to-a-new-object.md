@@ -8,7 +8,7 @@ dashedName: change-the-prototype-to-a-new-object
 
 # --description--
 
-到目前爲止，你已經可以單獨給 `prototype` 添加屬性了：
+Up until now you have been adding properties to the `prototype` individually:
 
 ```js
 Bird.prototype.numLegs = 2;

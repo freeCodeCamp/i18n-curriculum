@@ -8,7 +8,7 @@ dashedName: write-concise-object-literal-declarations-using-object-property-shor
 
 # --description--
 
-يضيف ES6 بعض الدعم اللطيف لتعريف الكائنات بسهولة.
+ES6 adds some nice support for easily defining object literals.
 
 ضع في اعتبارك الكود التالي:
 

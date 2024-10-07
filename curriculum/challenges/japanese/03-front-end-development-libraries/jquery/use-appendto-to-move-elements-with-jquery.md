@@ -8,7 +8,7 @@ dashedName: use-appendto-to-move-elements-with-jquery
 
 # --description--
 
-ある `div` から別の div に要素を移動してみましょう。
+Now let's try moving elements from one `div` to another.
 
 jQuery には `appendTo()` という関数があり、HTML 要素を選択して別の要素に追加することができます。
 

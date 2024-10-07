@@ -8,7 +8,7 @@ dashedName: catch-unclosed-parentheses-brackets-braces-and-quotes
 
 # --description--
 
-Ein weiterer Syntaxfehler, auf den du achten solltest, ist, dass alle öffnenden Klammern, geschweifte Klammern und Anführungszeichen ein schließendes Paar besitzen. Das Vergessen eines Teils passiert oft, wenn du bestehenden Code bearbeitest und Elemente mit einem der Paartypen einfügst. Sei außerdem vorsichtig, wenn du Codeblöcke in andere verschachtelst, z. B. wenn du eine Rückruffunktion (Callback-Funktion) als Argument zu einer Methode hinzufügst.
+Another syntax error to be aware of is that all opening parentheses, brackets, curly braces, and quotes have a closing pair. Forgetting a piece tends to happen when you're editing existing code and inserting items with one of the pair types. Also, take care when nesting code blocks into others, such as adding a callback function as an argument to a method.
 
 Eine Möglichkeit, diesen Fehler zu vermeiden, besteht darin, dass du, sobald du das erste Zeichen getippt hast, sofort das letzte Zeichen einfügst, dann den Cursor wieder dazwischen setzt und mit der Programmierung fortfährst. Zum Glück erzeugen die meisten modernen Code-Editoren die zweite Hälfte des Paares automatisch.
 

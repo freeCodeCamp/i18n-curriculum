@@ -8,9 +8,9 @@ dashedName: logging-a-user-out
 
 # --description--
 
-Die Logout-Logik zu erstellen ist einfach. The route should just unauthenticate the user, and redirect to the home page instead of rendering any view.
+Creating the logout logic is easy. The route should just unauthenticate the user, and redirect to the home page instead of rendering any view.
 
-In passport, unauthenticating a user is as easy as just calling `req.logout()` before redirecting. Füge diese `/logout`-Route hinzu, um dies zu tun:
+In Passport ist das Aufheben der Authentifizierung eines Benutzers so einfach wie der Aufruf von `req.logout()` vor der Weiterleitung. Füge diese `/logout`-Route hinzu, um dies zu tun:
 
 ```js
 app.route('/logout')
@@ -34,7 +34,7 @@ Reiche deine Seite ein, wenn du davon ausgehst, alles richtig gemacht zu haben. 
 
 # --hints--
 
-`req.logout()` should be called in your `/logout` route.
+`req.logout()` sollte in deiner `/logout`-Route aufgerufen werden.
 
 ```js
 async (getUserInput) => {

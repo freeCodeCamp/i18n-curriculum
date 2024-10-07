@@ -9,7 +9,7 @@ dashedName: accessing-nested-objects
 
 # --description--
 
-Доступ до підвластивостей об’єктів можна отримати завдяки ланцюжку точкової та дужкової нотацій.
+The sub-properties of objects can be accessed by chaining together the dot or bracket notation.
 
 Ось вкладений об’єкт:
 

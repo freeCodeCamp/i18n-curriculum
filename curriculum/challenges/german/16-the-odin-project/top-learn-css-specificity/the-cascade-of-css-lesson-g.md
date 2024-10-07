@@ -7,9 +7,9 @@ dashedName: the-cascade-of-css-lesson-g
 
 # --description--
 
-Inheritance refers to certain CSS properties that, when applied to an element, are inherited by that element’s descendants, even if we don’t explicitly write a rule for those descendants. Typography based properties (`color`, `font-size`, `font-family`, etc.) are usually inherited, while most other properties aren’t.
+Die Vererbung bezieht sich auf bestimmte CSS-Eigenschaften, die, wenn sie auf ein Element angewendet werden, an die Nachkommen dieses Elements vererbt werden, auch wenn wir nicht ausdrücklich eine Regel für diese Nachkommen schreiben. Typografie-basierte Eigenschaften (`color`, `font-size`, `font-family`, etc.) werden in der Regel vererbt, während die meisten anderen Eigenschaften nicht vererbt werden.
 
-The exception to this is when directly targeting an element, as this always beats inheritance:
+Eine Ausnahme bildet das direkte Anvisieren eines Elements, da dies immer die Vererbbarkeit übertrifft:
 
 ```html
 <!-- index.html -->
@@ -31,7 +31,7 @@ The exception to this is when directly targeting an element, as this always beat
 }
 ```
 
-Despite the `parent` element having a higher specificity with an ID, the `child` element would have the `color: blue` style applied since that declaration directly targets it, while `color: red` from the parent is only inherited.
+Obwohl das `parent`-Element eine höhere Spezifität mit einer ID hat, würde auf das `child`-Element der `color: blue`-Stil angewandt, da diese Deklaration direkt darauf abzielt, während `color: red` vom übergeordneten Element nur vererbt wird.
 
 # --questions--
 
@@ -41,15 +41,15 @@ Based on the given HTML and CSS code, what would be the color of the `<div class
 
 ## --answers--
 
-Red
+Rot
 
 ---
 
-Blue
+Blau
 
 ---
 
-Inherited from the parent element
+Vererbt vom Parent-Element
 
 ---
 

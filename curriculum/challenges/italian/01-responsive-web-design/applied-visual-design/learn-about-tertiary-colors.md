@@ -8,7 +8,7 @@ dashedName: learn-about-tertiary-colors
 
 # --description--
 
-I monitor e gli schermi dei dispositivi creano colori diversi combinando quantità di luce rossa, verde e blu. Questo è conosciuto come il modello di colore additivo RGB nella moderna teoria dei colori. Red (R), green (G), e blue (B) sono chiamati colori primari. Mescolando due colori primari si creano i colori secondari ciano (G + B), magenta (R + B) e giallo (R + G). Hai visto questi colori nella sfida Colori complementari. Questi colori secondari di fatto sono complementari al colore primario non utilizzato nella loro creazione, e sono opposti a quel colore primario sulla ruota dei colori. Per esempio, il magenta è fatto con rosso e blu, ed è il complemento al verde.
+Computer monitors and device screens create different colors by combining amounts of red, green, and blue light. This is known as the RGB additive color model in modern color theory. Red (R), green (G), and blue (B) are called primary colors. Mixing two primary colors creates the secondary colors cyan (G + B), magenta (R + B) and yellow (R + G). You saw these colors in the Complementary Colors challenge. These secondary colors happen to be the complement to the primary color not used in their creation, and are opposite to that primary color on the color wheel. For example, magenta is made with red and blue, and is the complement to green.
 
 I colori terziari sono il risultato della combinazione di un colore primario con uno dei suoi vicini colori secondari. Ad esempio, all'interno del modello di colore RGB, rosso (primario) e giallo (secondario) danno l'arancione (terziario). Questo aggiunge altri sei colori ad una semplice ruota dei colori per un totale di dodici.
 
@@ -16,7 +16,7 @@ Ci sono vari metodi per selezionare diversi colori che portano ad una combinazio
 
 Qui vediamo tre colori creati utilizzando lo schema split-complement:
 
-<table><thead><tr><th>Colore</th><th>Codice esadecimale</th></tr></thead><thead></thead><tbody><tr><td>orange</td><td>#FF7F00</td></tr><tr><td>cyan</td><td>#00FFFF</td></tr><tr><td>raspberry</td><td>#FF007F</td></tr></tbody></table>
+<table><thead><tr><th>Color</th><th>Hex Code</th></tr></thead><thead></thead><tbody><tr><td>orange</td><td>#FF7F00</td></tr><tr><td>cyan</td><td>#00FFFF</td></tr><tr><td>raspberry</td><td>#FF007F</td></tr></tbody></table>
 
 # --instructions--
 

@@ -8,7 +8,7 @@ dashedName: specify-exact-number-of-matches
 
 # --description--
 
-Você pode especificar um número mínimo e um máximo de capturas com chaves. Às vezes, você só quer um número específico de capturas.
+You can specify the lower and upper number of patterns with quantity specifiers using curly brackets. Sometimes you only want a specific number of matches.
 
 Para especificar este número, apenas escreva-o dentro das chaves.
 
@@ -32,7 +32,7 @@ Modifique a regex `timRegex` para que capture quatro `m`s na string `Timber`.
 
 # --hints--
 
-A regex deve conter chaves.
+A regex deve usar chaves.
 
 ```js
 assert(timRegex.source.match(/{.*?}/).length > 0);

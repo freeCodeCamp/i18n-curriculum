@@ -18,25 +18,25 @@ The next few video lessons will reference [this Colab notebook](https://colab.re
 
 ## --text--
 
-Quale tipo di analisi sarebbe più adatto per il seguente problema?
+Which type of analysis would be best suited for the following problem?:
 
-Hai la temperatura media nel mese di marzo per gli ultimi 100 anni. Utilizzando questi dati, vuoi prevedere la temperatura media nel mese di marzo a 5 anni da adesso.
+You have the average temperature in the month of March for the last 100 years. Using this data, you want to predict the average temperature in the month of March 5 years from now.
 
 ## --answers--
 
-Regressione multipla
+Multiple regression
 
 ---
 
-Correlazione
+Correlation
 
 ---
 
-Albero decisionale
+Decision tree
 
 ---
 
-Regressione lineare
+Linear regression
 
 ## --video-solution--
 

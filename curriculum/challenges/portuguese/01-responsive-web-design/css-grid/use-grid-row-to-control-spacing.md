@@ -9,7 +9,7 @@ dashedName: use-grid-row-to-control-spacing
 
 # --description--
 
-Obviamente, você pode fazer com que os itens ocupem várias linhas, assim como fez com as colunas. Basta definir as divisões horizontais nas quais deseja que um item comece e pare usando a propriedade `grid-row` em um grid item.
+Of course, you can make items consume multiple rows just like you can with columns. You define the horizontal lines you want an item to start and stop at using the `grid-row` property on a grid item.
 
 # --instructions--
 

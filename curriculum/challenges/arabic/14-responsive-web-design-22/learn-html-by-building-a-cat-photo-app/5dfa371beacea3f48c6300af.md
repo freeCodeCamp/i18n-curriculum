@@ -7,7 +7,7 @@ dashedName: step-19
 
 # --description--
 
-عند إضافة عنصر heading ذي رتبة منخفضة إلى الصفحة، فهذا يعني أنك تبدأ قسمًا فرعيًا جديدًا.
+When you add a lower rank heading element to the page, it's implied that you're starting a new subsection.
 
 بعد آخر عنصر `h2` من عنصر `section` الثاني، أضف عنصر `h3` مع هذا النص:
 

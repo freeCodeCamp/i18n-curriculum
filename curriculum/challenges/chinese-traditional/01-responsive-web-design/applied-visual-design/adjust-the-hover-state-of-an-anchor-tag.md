@@ -9,7 +9,7 @@ dashedName: adjust-the-hover-state-of-an-anchor-tag
 
 # --description--
 
-本挑戰將要涉及到僞類。 僞類是可以添加到選擇器上的關鍵字，用來選擇特定狀態的元素。
+This challenge will touch on the usage of pseudo-classes. A pseudo-class is a keyword that can be added to selectors, in order to select a specific state of the element.
 
 比如，可以使用 `:hover` 僞類選擇器來選取錨標籤的懸停狀態。 下面的代碼可以在鼠標懸停在錨標籤上時將其 `color` 變成紅色：
 
@@ -25,7 +25,7 @@ a:hover {
 
 # --hints--
 
-The anchor tag `color` should remain black, only add CSS rules for the `:hover` state.
+錨標籤的 `color` 應該保持黑色，應只添加 `:hover` CSS 規則。
 
 ```js
 const anchorElement = document.querySelector("a"); 

@@ -9,11 +9,11 @@ dashedName: create-an-ordered-list
 
 # --description--
 
-HTML 中有用於創建<dfn>有序列表</dfn>的特定元素。
+HTML has another special element for creating <dfn>ordered lists</dfn>, or numbered lists.
 
 有序列表以 `<ol>` 開始，中間包含一個或多個 `<li>` 元素。 最後以 `</ol>` 結束。
 
-例如:
+例如：
 
 ```html
 <ol>

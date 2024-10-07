@@ -8,7 +8,7 @@ dashedName: spiral-matrix
 
 # --description--
 
-Produce a spiral array. A *spiral array* is a square arrangement of the first N<sup>2</sup> natural numbers, where the numbers increase sequentially as you go around the edges of the array spiraling inwards. For example, given **5**, produce this array:
+Erstelle ein spiralförmiges Array. A *spiral array* ist eine quadratische Anordnung der ersten N<sup>2</sup> natürlichen Zahlen, wobei die Zahlen an den Rändern des Feldes spiralförmig nach innen ansteigen. Zum Beispiel, wenn **5** wird dieses Feld erzeugt:
 
 <pre>
 0  1  2  3  4

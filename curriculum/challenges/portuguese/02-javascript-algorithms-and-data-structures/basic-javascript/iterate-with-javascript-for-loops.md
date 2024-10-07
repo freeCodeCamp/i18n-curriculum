@@ -9,7 +9,7 @@ dashedName: iterate-with-javascript-for-loops
 
 # --description--
 
-Você pode rodar o mesmo código várias vezes usando um laço.
+You can run the same code multiple times by using a loop.
 
 O tipo mais comum de laço JavaScript é chamado de laço `for`, porque ele é executado por um número especificado de vezes.
 

@@ -9,7 +9,7 @@ dashedName: adjust-the-hover-state-of-an-anchor-tag
 
 # --description--
 
-Questa sfida toccherà l'uso delle pseudo-classi. Una pseudo-classe è una parola chiave che può essere aggiunta ai selettori, al fine di selezionare uno stato specifico dell'elemento.
+This challenge will touch on the usage of pseudo-classes. A pseudo-class is a keyword that can be added to selectors, in order to select a specific state of the element.
 
 Ad esempio, lo stile di un tag di ancoraggio può essere cambiato per il suo stato di hover (cioè lo stato in cui il puntatore del mouse ci passa sopra) usando il selettore di pseudo-classe `:hover`. Ecco il CSS per cambiare il `color` del tag di ancoraggio in rosso durante il suo stato di hover:
 

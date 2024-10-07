@@ -8,7 +8,7 @@ dashedName: use-an-iife-to-create-a-module
 
 # --description--
 
-Вираз негайно викликаної функції (IIFE) часто використовують, щоб згрупувати пов’язану функціональність в один об’єкт або <dfn>модуль</dfn>. Наприклад, попереднє завдання визначило два міксини:
+An immediately invoked function expression (IIFE) is often used to group related functionality into a single object or <dfn>module</dfn>. For example, an earlier challenge defined two mixins:
 
 ```js
 function glideMixin(obj) {

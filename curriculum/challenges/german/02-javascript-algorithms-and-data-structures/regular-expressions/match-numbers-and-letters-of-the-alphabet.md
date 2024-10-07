@@ -8,7 +8,7 @@ dashedName: match-numbers-and-letters-of-the-alphabet
 
 # --description--
 
-Die Verwendung des Bindestrichs (`-`) für eine Reihe von Zeichen ist nicht auf Buchstaben beschränkt. Es funktioniert auch, um eine Reihe von Zahlen abzugleichen.
+Using the hyphen (`-`) to match a range of characters is not limited to letters. It also works to match a range of numbers.
 
 Zum Beispiel passt `/[0-5]/` zu jeder Zahl zwischen `0` und `5`, einschließlich der `0` und `5`.
 
@@ -22,7 +22,7 @@ jennyStr.match(myRegex);
 
 # --instructions--
 
-Erstelle einen einzelnen regulärer Ausdruck, der auf einen Bereich von Buchstaben zwischen `h` und `s` und einen Bereich von Zahlen zwischen `2` und `6` passt. Vergiss nicht, die entsprechenden Flags in den regulärer Ausdruck einzufügen.
+Erstelle einen einzelnen regulärer Ausdruck, der auf einen Bereich von Buchstaben zwischen `h` und `s` und einen Bereich von Zahlen zwischen `2` und `6` passt. Vergiss nicht, die entsprechenden Flags in deine regulären Ausdruck aufzunehmen.
 
 # --hints--
 
@@ -38,7 +38,7 @@ Dein regulärer Ausdruck `myRegex` sollte das globale Flag verwenden.
 assert(myRegex.flags.match(/g/).length == 1);
 ```
 
-Dein regulärer Ausdruck `myRegex` sollte die Groß-/Kleinschreibung nicht berücksichtigen.
+Dein regulärer Ausdruck`myRegex` sollte die Groß-/Kleinschreibung unberücksichtigt lassen.
 
 ```js
 assert(myRegex.flags.match(/i/).length == 1);

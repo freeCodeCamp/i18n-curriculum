@@ -11,7 +11,7 @@ dashedName: target-a-specific-child-of-an-element-using-jquery
 
 # --description--
 
-لقد رأيت لماذا سمات المعرف مناسبة جدا للاستهداف مع محددات jQuery. ولكن لن يكون لديك دائما مثل هذه المعرفات الأنيقة للعمل معها.
+You've seen why id attributes are so convenient for targeting with jQuery selectors. But you won't always have such neat ids to work with.
 
 لحسن الحظ، لدى jQuery بعض الحيل الأخرى لاستهداف العناصر الصحيحة.
 

@@ -8,7 +8,7 @@ dashedName: create-an-export-fallback-with-export-default
 
 # --description--
 
-In der `export` Lektion hast du die Syntax des <dfn>benannten Exports</dfn> kennengelernt. Dadurch konntest du mehrere Funktionen und Variablen für die Verwendung in anderen Dateien zur Verfügung stellen.
+In the `export` lesson, you learned about the syntax referred to as a <dfn>named export</dfn>. This allowed you to make multiple functions and variables available for use in other files.
 
 Es gibt noch eine weitere `export`-Syntax, die du kennen musst: <dfn>export default</dfn> (Standard-Export). Normalerweise verwendest du diese Syntax, wenn nur ein Wert aus einer Datei exportiert wird. Es wird auch verwendet, um einen Fallback-Wert für eine Datei oder ein Modul zu erstellen.
 

@@ -8,7 +8,7 @@ dashedName: override-default-props
 
 # --description--
 
-React の便利な機能として、デフォルトの props を設定することができます。 デフォルトの props を上書きするには、コンポーネントの props の値を明示的に設定します。
+The ability to set default props is a useful feature in React. The way to override the default props is to explicitly set the prop values for a component.
 
 # --instructions--
 

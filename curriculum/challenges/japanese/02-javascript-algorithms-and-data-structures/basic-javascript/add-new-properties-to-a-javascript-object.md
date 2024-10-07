@@ -9,7 +9,7 @@ dashedName: add-new-properties-to-a-javascript-object
 
 # --description--
 
-プロパティの変更と同じ方法で、既存の JavaScript オブジェクトに新しいプロパティを追加することができます。
+You can add new properties to existing JavaScript objects the same way you would modify them.
 
 `ourDog` に `bark` プロパティを追加する方法を次に示します。
 

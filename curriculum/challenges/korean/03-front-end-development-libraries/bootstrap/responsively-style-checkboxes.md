@@ -13,7 +13,7 @@ dashedName: responsively-style-checkboxes
 
 # --description--
 
-부트스트랩의 `col-xs-*` 클래스가 모든 `form` 요소에 적용될 수 있기 때문에 체크박스에도 이 클래스를 사용할 수 있습니다! 이런 방식으로 체크박스는 화면의 해상도의 너비와 상관없이 해당 페이지에 골고루 퍼지게 될 것입니다.
+Since Bootstrap's `col-xs-*` classes are applicable to all `form` elements, you can use them on your checkboxes too! This way, the checkboxes will be evenly spread out across the page, regardless of how wide the screen resolution is.
 
 # --instructions--
 

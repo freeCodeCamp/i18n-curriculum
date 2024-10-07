@@ -1,6 +1,6 @@
 ---
 id: 56533eb9ac21ba0edf2244b6
-title: Escape Sequences in Strings
+title: 문자열의 이스케이프 시퀀스(Escape Sequences)
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cvmqRh6'
 forumTopicId: 17567
@@ -11,7 +11,7 @@ dashedName: escape-sequences-in-strings
 
 Quotes are not the only characters that can be <dfn>escaped</dfn> inside a string. Escape sequences allow you to use characters you may not otherwise be able to use in a string.
 
-<table><thead><tr><th>Code</th><th>Output</th></tr></thead><tbody><tr><td><code>\'</code></td><td>single quote</td></tr><tr><td><code>\"</code></td><td>double quote</td></tr><tr><td><code>\\</code></td><td>backslash</td></tr><tr><td><code>\n</code></td><td>newline</td></tr><tr><td><code>\t</code></td><td>tab</td></tr><tr><td><code>\r</code></td><td>carriage return</td></tr><tr><td><code>\b</code></td><td>backspace</td></tr><tr><td><code>\f</code></td><td>form feed</td></tr></tbody></table>
+<table><thead><tr><th>Code</th><th>출력</th></tr></thead><tbody><tr><td><code>\'</code></td><td>single quote</td></tr><tr><td><code>\"</code></td><td>큰 따옴표</td></tr><tr><td><code>\\</code></td><td>백슬래시</td></tr><tr><td><code>\n</code></td><td>새로운 줄</td></tr><tr><td><code>\t</code></td><td>tab</td></tr><tr><td><code>\r</code></td><td>carriage return</td></tr><tr><td><code>\b</code></td><td>backspace</td></tr><tr><td><code>\f</code></td><td>폼 피드</td></tr></tbody></table>
 
 *Note that the backslash itself must be escaped in order to display as a backslash.*
 

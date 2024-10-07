@@ -8,7 +8,7 @@ dashedName: problem-220-heighway-dragon
 
 # --description--
 
-Let $D_0$ be the two-letter string "Fa". Leite für $n ≥ 1$ $D_n$ aus $D_{n - 1}$ mit Hilfe der String-Umschreibregeln ab:
+Lasse $D_0$ den zweibuchstabigen String "Fa" sein. Leite für $n ≥ 1$ $D_n$ aus $D_{n - 1}$ mit Hilfe der String-Umschreibregeln ab:
 
 - "a" → "aRbFR"
 - "b" → "LFaLb"

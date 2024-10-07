@@ -13,7 +13,7 @@ You will be <a href="https://gitpod.io/?autostart=true#https://github.com/freeCo
 
 Stiamo ancora sviluppando la parte didattica interattiva del curriculum di Python. Per ora, ecco alcuni video sul canale YouTube di freeCodeCamp.org che ti insegneranno tutto quello che devi sapere per completare questo progetto:
 
-- <a href="https://www.freecodecamp.org/news/python-for-everybody/" target="_blank" rel="noopener noreferrer nofollow">Video corso Python for Everybody</a> (14 ore)
+- <a href="https://www.freecodecamp.org/news/python-for-everybody/" target="_blank" rel="noopener noreferrer nofollow">Python for Everybody Video Course</a> (14 hours)
 
 - <a href="https://www.freecodecamp.org/news/learn-python-basics-in-depth-video-course/" target="_blank" rel="noopener noreferrer nofollow">Video corso Python Basics in Depth</a> (4 hours)
 
@@ -68,7 +68,7 @@ Se l'URL passato alla funzione `get_open_ports` non è valido, la funzione dovre
 
 Se l'indirizzo IP passato alla funzione `get_open_ports` non è valido, la funzione dovrebbe restituire la stringa: "Error: Invalid IP address".
 
-## Sviluppo
+## Development
 
 Scrivi il tuo codice in `port_scanner.py`. Per lo sviluppo, puoi usare `main.py` per testare il tuo codice.
 

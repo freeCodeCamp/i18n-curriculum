@@ -8,7 +8,7 @@ dashedName: write-concise-declarative-functions-with-es6
 
 # --description--
 
-Ми повинні використовувати ключове слово `function`, коли визначаємо функції в межах об’єктів у ES5:
+When defining functions within objects in ES5, we have to use the keyword `function` as follows:
 
 ```js
 const person = {

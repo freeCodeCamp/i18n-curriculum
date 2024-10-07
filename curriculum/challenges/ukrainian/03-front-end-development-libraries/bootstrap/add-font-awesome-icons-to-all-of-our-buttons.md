@@ -12,7 +12,7 @@ dashedName: add-font-awesome-icons-to-all-of-our-buttons
 
 # --description--
 
-Font Awesome — це зручна бібліотека іконок. Іконки можуть бути вебшрифтами або векторною графікою. З цими іконками поводяться так само, як і шрифтами. Розмір можна вказати за допомогою пікселів і вони набудуть розміру шрифту своїх батьківських елементів HTML.
+Font Awesome is a convenient library of icons. These icons can be web fonts or vector graphics. These icons are treated just like fonts. You can specify their size using pixels, and they will assume the font size of their parent HTML elements.
 
 # --instructions--
 

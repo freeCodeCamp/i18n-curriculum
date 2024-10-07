@@ -9,7 +9,7 @@ dashedName: create-flexible-layouts-using-auto-fit
 
 # --description--
 
-`auto-fit` funciona quase de forma idêntica ao `auto-fill`. A única diferença é que, quando o tamanho do grid container for maior que a soma da largura de todos os grid items, o `auto-fill` continua inserindo linhas ou colunas vazias e empurra os grid items para o lado, enquanto o `auto-fit` estica os grid items para caber no tamanho do grid container.
+`auto-fit` works almost identically to `auto-fill`. The only difference is that when the container's size exceeds the size of all the items combined, `auto-fill` keeps inserting empty rows or columns and pushes your items to the side, while `auto-fit` collapses those empty rows or columns and stretches your items to fit the size of the container.
 
 **Observação:** se não for possível ajustar todos os itens em uma linha, eles serão movidos para uma nova linha.
 

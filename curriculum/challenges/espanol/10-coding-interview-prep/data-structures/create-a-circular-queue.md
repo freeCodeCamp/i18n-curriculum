@@ -8,7 +8,7 @@ dashedName: create-a-circular-queue
 
 # --description--
 
-En este desafío crearás un cola circular. Una cola circular es una cola que escribe al final de una colección luego comienza a sobreecribirse al principio de la colección. Este tipo de estructura de datos es útil en ciertas situaciones. Por ejemplo, una cola circular puede ser usada para streaming de medios. Una vez que la cola esté llena, los nuevos datos de multimedia reescribirán a los datos antiguos.
+In this challenge you will be creating a Circular Queue. A circular queue is a queue that writes to the end of a collection then begins overwriting itself at the beginning of the collection. This type of data structure is useful in certain situations. For example, a circular queue can be used for streaming media. Once the queue is full, new media data will overwrite old data.
 
 Una buena forma de ilustrar este concepto es con un arreglo de longitud `5`:
 

@@ -8,7 +8,7 @@ dashedName: center-text-with-bootstrap
 
 # --description--
 
-부트스트랩을 사용하고 있으므로 헤딩 요소를 가운데 정렬함으로서 더 나아보이게 할 수 있습니다. `text-center` 클래스를 `h2` 요소에 추가하면 됩니다.
+Now that we're using Bootstrap, we can center our heading element to make it look better. All we need to do is add the class `text-center` to our `h2` element.
 
 각각의 클래스를 공백으로 구분하여 동일한 요소에 여러 클래스를 추가할 수 있습니다.
 

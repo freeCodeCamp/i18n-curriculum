@@ -8,7 +8,7 @@ dashedName: implement-heap-sort-with-a-min-heap
 
 # --description--
 
-Agora que podemos adicionar e remover elementos, vamos ver algumas pilhas (heaps) de aplicações que podem ser usadas. As heaps são comumente usadas para implementar filas de prioridade porque armazenam sempre um item com maior ou menor valor na primeira posição. Além disso, elas são usadas para implementar um algoritmo de ordenação chamado Heap Sort. Vamos ver como fazer isso aqui. O Heap Sort usa um Min Heap, o inverso de um Max Heap. Um Min Heap sempre armazena o elemento de menor valor na posição raiz.
+Now that we can add and remove elements let's see some of the applications heaps can be used for. Heaps are commonly used to implement priority queues because they always store an item of greatest or least value in first position. In addition, they are used to implement a sorting algorithm called heap sort. We'll see how to do this here. Heap sort uses a min heap, the reverse of a max heap. A min heap always stores the element of least value in the root position.
 
 O Heap Sort funciona pegando um array não ordenado, adicionando cada item do array a uma heap mínima, e, em seguida, extraindo cada item da heap mínima para um novo array. A estrutura de heap mínima garante que o novo array conterá os itens originais na ordem do menor para o maior. Este é um dos algoritmos de ordenação mais eficientes com performance de O(nlog(n)) na média e no pior caso.
 

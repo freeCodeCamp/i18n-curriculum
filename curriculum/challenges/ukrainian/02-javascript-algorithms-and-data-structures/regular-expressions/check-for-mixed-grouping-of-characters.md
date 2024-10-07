@@ -8,7 +8,7 @@ dashedName: check-for-mixed-grouping-of-characters
 
 # --description--
 
-Іноді потрібно перевірити групи символів за допомогою регулярного виразу. Для цього використовують дужки `()`.
+Sometimes we want to check for groups of characters using a Regular Expression and to achieve that we use parentheses `()`.
 
 Якщо ви хочете знайти `Penguin` або `Pumpkin` в рядку, використайте регулярний вираз `/P(engu|umpk)in/g`.
 

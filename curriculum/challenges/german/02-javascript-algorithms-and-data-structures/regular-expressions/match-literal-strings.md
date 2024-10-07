@@ -8,7 +8,7 @@ dashedName: match-literal-strings
 
 # --description--
 
-In der letzten Aufgabe hast du nach dem Wort `Hello` gesucht, indem du den regulären Ausdruck `/Hello/` verwendet hast. Dieser Regex suchte nach einer wörtlichen Übereinstimmung mit dem String `Hello`. Hier ist ein weiteres Beispiel für die Suche nach einer wörtlichen Übereinstimmung des Strings `Kevin`:
+In the last challenge, you searched for the word `Hello` using the regular expression `/Hello/`. That regex searched for a literal match of the string `Hello`. Here's another example searching for a literal match of the string `Kevin`:
 
 ```js
 let testStr = "Hello, my name is Kevin.";

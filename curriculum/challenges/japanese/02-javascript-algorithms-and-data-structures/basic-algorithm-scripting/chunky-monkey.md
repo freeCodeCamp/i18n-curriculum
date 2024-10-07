@@ -8,7 +8,7 @@ dashedName: chunky-monkey
 
 # --description--
 
-配列 (最初の引数) を `size` (2 番目の引数) の長さのグループに分割して 2 次元配列として返す関数を記述してください。
+Write a function that splits an array (first argument) into groups the length of `size` (second argument) and returns them as a two-dimensional array.
 
 # --hints--
 

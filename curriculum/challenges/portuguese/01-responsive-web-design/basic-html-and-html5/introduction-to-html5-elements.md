@@ -9,7 +9,7 @@ dashedName: introduction-to-html5-elements
 
 # --description--
 
-O HTML5 apresenta tags HTML mais descritivas. Essas tags incluem `main`, `header`, `footer`, `nav`, `video`, `article` e `section`, entre outras.
+HTML5 introduces more descriptive HTML tags. These include `main`, `header`, `footer`, `nav`, `video`, `article`, `section` and others.
 
 Essas tags conferem uma estrutura descritiva ao seu HTML, tornam seu HTML mais fácil de ler e ajudam com a otimização dos mecanismos de busca (SEO) e com a acessibilidade. A tag `main` do HTML5 ajuda os mecanismos de busca e outros desenvolvedores a encontrar o conteúdo principal de sua página.
 

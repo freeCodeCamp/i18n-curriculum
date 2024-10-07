@@ -8,7 +8,7 @@ dashedName: use-the-rest-parameter-with-function-parameters
 
 # --description--
 
-ES6 пропонує <dfn>залишковий параметр</dfn> для параметрів функції, щоб допомогти у створенні гнучкіших функцій. За допомогою залишкового параметра можна створити функції зі змінною кількістю аргументів. Ці аргументи зберігаються в масиві, до якого пізніше можна отримати доступ всередині функції.
+In order to help us create more flexible functions, ES6 introduces the <dfn>rest parameter</dfn> for function parameters. With the rest parameter, you can create functions that take a variable number of arguments. These arguments are stored in an array that can be accessed later from inside the function.
 
 Погляньте на цей код:
 

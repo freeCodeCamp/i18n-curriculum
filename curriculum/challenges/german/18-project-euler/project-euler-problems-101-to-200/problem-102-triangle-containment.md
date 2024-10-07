@@ -1,6 +1,6 @@
 ---
 id: 5900f3d21000cf542c50fee5
-title: 'Problem 102: Triangle containment'
+title: 'Problem 102: Eingrenzung des Dreiecks'
 challengeType: 1
 forumTopicId: 301726
 dashedName: problem-102-triangle-containment
@@ -8,7 +8,7 @@ dashedName: problem-102-triangle-containment
 
 # --description--
 
-Three distinct points are plotted at random on a Cartesian plane, for which -1000 ≤ x, y ≤ 1000, such that a triangle is formed.
+Drei verschiedene Punkte werden zufällig auf einer kartesischen Ebene eingezeichnet, für die -1000 ≤ x, y ≤ 1000 gilt, so dass ein Dreieck entsteht.
 
 Betrachte die folgenden zwei Dreiecke:
 

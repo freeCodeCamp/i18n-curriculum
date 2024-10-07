@@ -8,7 +8,7 @@ dashedName: access-an-arrays-contents-using-bracket-notation
 
 # --description--
 
-السمة الأساسية لأي هيكل للبيانات هي، بالطبع، القدرة ليس فقط على تخزين البيانات، ولكن على أن تكون قادراً على استرداد تلك البيانات في حال رغبت بذلك. لذا، الآن بعد أن تعلمنا كيفية إنشاء القائمة، لنبدأ بالتفكير حول كيفية الوصول إلى معلومات القائمة.
+The fundamental feature of any data structure is, of course, the ability to not only store data, but to be able to retrieve that data on command. So, now that we've learned how to create an array, let's begin to think about how we can access that array's information.
 
 عندما نحدد القائمة بسيطة كما هو مبين أدناه، هناك 3 عناصر فيها:
 

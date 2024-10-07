@@ -8,7 +8,7 @@ dashedName: mutations
 
 # --description--
 
-如果數組裏的第一個字符串包含了第二個字符串中的所有字母，則返回 `true`。
+Return `true` if the string in the first element of the array contains all of the letters of the string in the second element of the array.
 
 例如，`["hello", "Hello"]` 應該返回 `true`。因爲在忽略大小寫的情況下，第一個字符串包含了第二個字符串裏出現的所有字母。
 

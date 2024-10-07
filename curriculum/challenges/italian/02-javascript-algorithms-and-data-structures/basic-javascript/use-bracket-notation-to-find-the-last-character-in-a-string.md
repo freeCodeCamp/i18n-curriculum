@@ -9,7 +9,7 @@ dashedName: use-bracket-notation-to-find-the-last-character-in-a-string
 
 # --description--
 
-Al fine di ottenere l'ultima lettera di una stringa, è possibile sottrarre uno dalla lunghezza della stringa.
+In order to get the last letter of a string, you can subtract one from the string's length.
 
 Per esempio, se `const firstName = "Ada"`, puoi ottenere il valore dell'ultima lettera della stringa usando `firstName[firstName.length - 1]`.
 
@@ -26,7 +26,7 @@ const lastLetter = firstName[firstName.length - 1];
 
 Usa <dfn>la notazione a parentesi</dfn> per trovare l'ultimo carattere nella variabile `lastName`.
 
-**Suggerimento:** Prova a guardare l'esempio qui sopra se sei bloccato.
+**Suggerimento:** Prova a guardare l'esempio qui sopra se ti blocchi.
 
 # --hints--
 

@@ -8,7 +8,7 @@ dashedName: delete-a-node-with-two-children-in-a-binary-search-tree
 
 # --description--
 
-2 つの子を持つノードを削除するのは、最も実装が難しいケースです。 このようなノードを削除すると、元のツリー構造との接続が切れた 2 つの部分木が生じます。 どうすれば再接続できるでしょうか？ 一つの方法は、削除対象ノードの右部分木で最小の値を見つけ、対象ノードをこの値に置き換えることです。 このような方法で置き換えると、削除対象ノードは、それが新しい親として持つ、左部分木にあるすべてのノードよりも必ず大きくなると同時に、それが新しい親として持つ、右部分木にあるすべてのノードよりも必ず小さくなります。 この置換が行われたら、置換ノードは右部分木から削除されなければなりません。 この操作でさえ用心が必要です。置換ノードが葉ノードであったり、それ自体が右部分木の親であったりする可能性があるためです。 それが葉ノードである場合は、それに対する親の参照を削除する必要があります。 葉ノードでない場合は、それは削除対象ノードの右側の子でなければなりません。 この場合、削除対象ノードの値を置換値に置き換え、削除対象ノードが置換ノードの右側の子を参照するように設定しなければなりません。
+Removing nodes that have two children is the hardest case to implement. Removing a node like this produces two subtrees that are no longer connected to the original tree structure. How can we reconnect them? One method is to find the smallest value in the right subtree of the target node and replace the target node with this value. Selecting the replacement in this way ensures that it is greater than every node in the left subtree it becomes the new parent of but also less than every node in the right subtree it becomes the new parent of. Once this replacement is made the replacement node must be removed from the right subtree. Even this operation is tricky because the replacement may be a leaf or it may itself be the parent of a right subtree. If it is a leaf we must remove its parent's reference to it. Otherwise, it must be the right child of the target. In this case, we must replace the target value with the replacement value and make the target reference the replacement's right child.
 
 # --instructions--
 
@@ -80,7 +80,7 @@ assert(
 );
 ```
 
-`remove` メソッドは、葉ノードを木から削除する必要があります。
+`remove` メソッドは、葉ノードをツリーから削除する必要があります。
 
 ```js
 assert(

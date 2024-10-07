@@ -9,7 +9,7 @@ dashedName: use-the-flex-shrink-property-to-shrink-items
 
 # --description--
 
-На даному етапі всі властивості в запитах застосовуються до flex-контейнерів (вихідні елементи flex-об'єктів). Однак є кілька корисних властивостей для flex-елементів.
+So far, all the properties in the challenges apply to the flex container (the parent of the flex items). However, there are several useful properties for the flex items.
 
 Перша - властивість `flex-shrink`. Це дозволяє об'єкту стискатись під час використання, якщо flex-контейнер є замалий. Об'єкти стискаються, коли ширина контейнера вихідних елементів є меншою за об'єднану ширину всіх flex-об'єктів в середині нього.
 

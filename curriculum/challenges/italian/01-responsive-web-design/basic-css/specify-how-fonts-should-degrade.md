@@ -9,7 +9,7 @@ dashedName: specify-how-fonts-should-degrade
 
 # --description--
 
-Esistono diversi caratteri predefiniti disponibili in tutti i browser. Queste famiglie generiche di caratteri includono `monospace`, `serif` e `sans-serif`.
+There are several default fonts that are available in all browsers. These generic font families include `monospace`, `serif` and `sans-serif`.
 
 Quando un carattere non è disponibile, puoi dire al browser di "degradare" a un altro carattere.
 

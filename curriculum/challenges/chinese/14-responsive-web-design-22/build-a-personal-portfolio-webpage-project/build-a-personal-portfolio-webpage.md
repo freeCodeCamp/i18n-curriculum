@@ -8,12 +8,12 @@ dashedName: build-a-personal-portfolio-webpage
 
 # --description--
 
-**目标：** 构建一个应用，它在功能上类似于 <a href="https://personal-portfolio.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://personal-portfolio.freecodecamp.rocks</a>。 **不要复制这个演示项目**。
+**Objective:** Build an app that is functionally similar to <a href="https://personal-portfolio.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://personal-portfolio.freecodecamp.rocks</a>. **Do not copy this demo project**.
 
 
-**需求：**
+**用户需求:**
 
-1. 你的作品集应该有一个 `id` 为 `welcome-section` 的欢迎部分
+1. Your portfolio should have a welcome section with an `id` of `welcome-section`
 1. 欢迎部分应该有一个包含文本的 `h1` 元素
 1. 你的作品集应该有一个 `id` 为 `projects` 的项目部分
 1. 项目部分应该包含至少一个 `class` 为 `project-tile` 的元素来保存项目
@@ -25,7 +25,7 @@ dashedName: build-a-personal-portfolio-webpage
 1. 欢迎部分的高度应该等于视口的高度
 1. 导航栏应该始终位于视口的顶部
 
-完成需求并通过下面的所有测试来完成这个项目。 赋予它你自己的个人风格。 编程愉快！
+完成需求并通过下面的所有测试来完成这个项目。 使用你自己的个人风格样式。 编程愉快！
 
 **注意：** 请在你的 HTML 中添加 `<link rel="stylesheet" href="styles.css">` 以链接你的样式表并应用你的 CSS
 

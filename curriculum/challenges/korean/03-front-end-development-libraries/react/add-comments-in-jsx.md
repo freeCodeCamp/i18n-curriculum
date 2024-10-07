@@ -8,7 +8,7 @@ dashedName: add-comments-in-jsx
 
 # --description--
 
-JSX는 자바스크립트로 컴파일되는 언어입니다. 때때로 가독성을 위해 코드에 주석을 달아주는 것이 필요할 수도 있습니다. 다른 프로그래밍 언어들처럼, JSX도 JSX만의 방법이 있습니다.
+JSX is a syntax that gets compiled into valid JavaScript. Sometimes, for readability, you might need to add comments to your code. Like most programming languages, JSX has its own way to do this.
 
 JSX에 주석을 다는 방법으로는, `{/* */}`으로 주석 내용을 감싸는 문법을 사용하면 됩니다.
 

@@ -8,7 +8,7 @@ dashedName: catch-mixed-usage-of-single-and-double-quotes
 
 # --description--
 
-JavaScript erlaubt die Verwendung von einfachen (`'`) und doppelten (`"`) Anführungszeichen zur Deklaration eines Strings. Die Entscheidung für eine der beiden Varianten ist in der Regel eine Frage der persönlichen Vorliebe, es gibt aber auch Ausnahmen.
+JavaScript allows the use of both single (`'`) and double (`"`) quotes to declare a string. Deciding which one to use generally comes down to personal preference, with some exceptions.
 
 Zwei Möglichkeiten zu haben ist toll, wenn ein String Kontraktionen oder einen anderen Textteil enthält, der in Anführungszeichen steht. Achte nur darauf, dass du den String nicht zu früh schließt, denn das führt zu einem Syntaxfehler.
 

@@ -8,7 +8,7 @@ dashedName: specify-upper-and-lower-number-of-matches
 
 # --description--
 
-プラス記号 `+` を使用して 1 個以上の文字を検索し、アスタリスク `*` を使用して 0 個以上の文字を検索することについてすでに説明しました。 これらは便利ですが、パターンの特定の範囲にマッチさせたい場合もあります。
+Recall that you use the plus sign `+` to look for one or more characters and the asterisk `*` to look for zero or more characters. These are convenient but sometimes you want to match a certain range of patterns.
 
 <dfn>数量指定子</dfn>を使用すると、パターン数の下限と上限を指定できます。 数量指定子は中括弧 (`{` と `}`) と一緒に使用します。 中括弧の間に 2 つの数字を入れると、パターンの最小数と最大数になります。
 

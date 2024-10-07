@@ -8,7 +8,7 @@ dashedName: match-everything-but-letters-and-numbers
 
 # --description--
 
-已经了解到可以使用缩写 `\w` 来匹配字母和数字 `[A-Za-z0-9_]`。 不过，有可能想要搜寻的匹配模式是非字母数字字符。
+You've learned that you can use a shortcut to match alphanumerics `[A-Za-z0-9_]` using `\w`. A natural pattern you might want to search for is the opposite of alphanumerics.
 
 可以使用 `\W` 搜寻和 `\w` 相反的匹配模式。 注意，相反匹配模式使用大写字母。 此缩写与 `[^A-Za-z0-9_]` 是一样的。
 

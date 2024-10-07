@@ -8,7 +8,7 @@ dashedName: label-bootstrap-wells
 
 # --description--
 
-Para mayor claridad, vamos a etiquetar nuestros dos wells con sus ids.
+For the sake of clarity, let's label both of our wells with their ids.
 
 Sobre tu "left-well", dentro de su elemento `div` `col-xs-6`, agrega un elemento `h4` con el texto `#left-well`.
 

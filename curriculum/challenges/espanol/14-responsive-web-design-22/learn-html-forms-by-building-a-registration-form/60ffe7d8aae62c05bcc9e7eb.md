@@ -7,7 +7,7 @@ dashedName: step-58
 
 # --description--
 
-Con un `display` de `block` el botón de envío se sitúa al ras del borde izquierdo de su padre.
+With a `display` of `block` the submit button sits flush against the left edge of its parent.
 
 Utiliza la misma técnica utilizada para centrar el `form` para centrar el botón de envío.
 

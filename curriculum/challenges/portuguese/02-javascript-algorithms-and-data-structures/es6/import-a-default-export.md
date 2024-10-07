@@ -8,7 +8,7 @@ dashedName: import-a-default-export
 
 # --description--
 
-No último desafio, você aprendeu sobre `export default` e seus usos. Para importar uma exportação padrão, você precisa usar uma sintaxe diferente de `import`. No exemplo a seguir, `add` é a exportação padrão do arquivo `math_functions.js`. Veja como importá-la:
+In the last challenge, you learned about `export default` and its uses. To import a default export, you need to use a different `import` syntax. In the following example, `add` is the default export of the `math_functions.js` file. Here is how to import it:
 
 ```js
 import add from "./math_functions.js";

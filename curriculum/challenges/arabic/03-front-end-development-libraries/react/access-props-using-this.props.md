@@ -8,7 +8,7 @@ dashedName: access-props-using-this-props
 
 # --description--
 
-وشملت التحديات العدّة الأخيرة الطرق الأساسية لإيصال props المتعلقة بمكونات الأطفال (child components). ولكن ماذا لو كان مكون الطفل (child component) الذي تمرره هو مكون لفئة ES6 بدلاً من مكون وظيفي عديم الحالة؟ ويستخدم مكون لفئة ES6 اتفاقية مختلفة قليلاً للوصول إلى props.
+The last several challenges covered the basic ways to pass props to child components. But what if the child component that you're passing a prop to is an ES6 class component, rather than a stateless functional component? The ES6 class component uses a slightly different convention to access props.
 
 في أي وقت تشير إلى مكون لفئة (class component) داخل نفسه، تستخدم الكلمة `this`. للوصول إلى props ضمن مكون لفئة، يمكنك إعداد التعليمات البرمجية التي تستخدمها للوصول إليها مع `this`. على سبيل المثال، إذا كان مكون لفئة ES6 يحتوي على props يسمى `data`، فإنك تكتب `{this.props.data}` في JSX.
 

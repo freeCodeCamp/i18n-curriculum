@@ -9,7 +9,7 @@ dashedName: import-a-google-font
 
 # --description--
 
-На доповнення до загальних шрифтів, які є в більшості операційних систем, ми також можемо встановити нестандартні, користувацькі веб-шрифти для використання на нашому сайті. У Інтернеті існує багато джерел веб-шрифтів. Але для прикладу ми використаємо бібліотеку Google Fonts.
+In addition to specifying common fonts that are found on most operating systems, we can also specify non-standard, custom web fonts for use on our website. There are many sources for web fonts on the Internet. For this example we will focus on the Google Fonts library.
 
 Google Fonts – це безоплатна бібліотека вебшрифтів, які можна використати у CSS, посилаючись на URL-адресу шрифту.
 

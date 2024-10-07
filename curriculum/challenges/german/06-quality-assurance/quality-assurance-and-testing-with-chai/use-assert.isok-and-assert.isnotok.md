@@ -10,17 +10,17 @@ dashedName: use-assert-isok-and-assert-isnotok
 
 As a reminder, this project is being built upon the following starter project on <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>, or cloned from <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
 
-`isOk()` will test for a truthy value, and `isNotOk()` will test for a falsy value.
+`isOk()` prüft auf einen "wahren" Wert und `isNotOk()` prüft auf einen "falschen" Wert.
 
-To learn more about truthy and falsy values, try our <a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/falsy-bouncer" target="_blank" rel="noopener noreferrer nofollow">Falsy Bouncer</a> challenge.
+Um mehr über wahre und falsche Werte zu erfahren, versuche unsere <a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/falsy-bouncer" target="_blank" rel="noopener noreferrer nofollow">Falsy Bouncer</a> Aufgabe.
 
 # --instructions--
 
-Within `tests/1_unit-tests.js` under the test labeled `#3` in the `Basic Assertions` suite, change each `assert` to either `assert.isOk()` or `assert.isNotOk()` to make the test pass (should evaluate to `true`). Die an die Asserts übergebenen Argumente dürfen nicht verändert werden.
+Ändere innerhalb `tests/1_unit-tests.js` unter dem Test mit der Beschriftung `#3` in der `Basic Assertions`-Suite, jeden `assert` in `assert.isOk()` oder `assert.isNotOk()` um, damit der Test bestanden wird (sollte `true` ausgeben). Die an die Asserts übergebenen Argumente dürfen nicht verändert werden.
 
 # --hints--
 
-All tests should pass.
+Alle Tests sollten erfolgreich sein.
 
 ```js
 (getUserInput) =>

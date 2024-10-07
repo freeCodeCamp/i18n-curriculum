@@ -8,7 +8,7 @@ dashedName: find-the-minimum-and-maximum-value-in-a-binary-search-tree
 
 # --description--
 
-In questa sfida definirai due metodi, `findMin` e `findMax`. Questi metodi dovrebbero restituire il valore minimo e massimo contenuto nell'albero binario di ricerca (non preoccuparti di aggiungere valori all'albero per ora, ne abbiamo aggiunti alcuni in background). Se si rimani bloccato, rifletti sull'invariante che deve essere vera per gli alberi di ricerca binari: ogni sottoalbero sinistro è inferiore o uguale al suo genitore e ogni sottoalbero destro è maggiore o uguale al suo genitore. Diciamo anche che il nostro albero può memorizzare solo valori interi. Se l'albero è vuoto, uno dei due metodi dovrebbe restituire `null`.
+In this challenge you will define two methods, `findMin` and `findMax`. These methods should return the minimum and maximum value held in the binary search tree (don't worry about adding values to the tree for now, we have added some in the background). If you get stuck, reflect on the invariant that must be true for binary search trees: each left subtree is less than or equal to its parent and each right subtree is greater than or equal to its parent. Let's also say that our tree can only store integer values. If the tree is empty, either method should return `null`.
 
 # --hints--
 

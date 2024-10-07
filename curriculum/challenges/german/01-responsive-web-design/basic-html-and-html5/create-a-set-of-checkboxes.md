@@ -9,7 +9,7 @@ dashedName: create-a-set-of-checkboxes
 
 # --description--
 
-In Formularen werden häufig <dfn>Checkboxen</dfn> für Fragen verwendet, die mehr als eine Antwort haben können.
+Forms commonly use <dfn>checkboxes</dfn> for questions that may have more than one answer.
 
 Checkboxen sind ein Typ von `input`.
 

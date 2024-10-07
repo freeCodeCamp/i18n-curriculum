@@ -8,7 +8,7 @@ dashedName: communicate-by-emitting
 
 # --description--
 
-<dfn>エミット (emit)</dfn> は、最もよく使用する通信方法です。 サーバーから 「io」へ何かをエミットするときは、接続中のすべてのソケットにイベントの名前とデータを送信します。 エミットの良い例として、たとえば新しいユーザーが接続するたびに、接続したユーザーの現在の数をエミットすることができます。
+<dfn>Emit</dfn> is the most common way of communicating you will use. When you emit something from the server to 'io', you send an event's name and data to all the connected sockets. A good example of this concept would be emitting the current count of connected users each time a new user connects!
 
 まず、現在接続をリッスンしている場所の直前に、ユーザーを追跡する変数を追加してください。
 
@@ -38,7 +38,7 @@ socket.on('user count', function(data) {
 
 ここで、アプリを読み込んで認証を実行してみてください。クライアントコンソールに、現在のユーザー数である「1」が表示されるはずです。 より多くのクライアントを読み込んで認証し、数字が増えるのを確認してください。
 
-正しいと思ったら、ページを送信してください。 エラーが発生している場合、<a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#communicate-by-emitting-7" target="_blank" rel="noopener noreferrer nofollow">この時点までの完成形のコードをこちらで確認できます</a>。
+完成したと思ったら、ページを送信してください。 エラーが発生している場合、<a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#communicate-by-emitting-7" target="_blank" rel="noopener noreferrer nofollow">この時点までの完成形のコードをこちらで確認できます</a>。
 
 # --hints--
 

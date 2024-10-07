@@ -9,11 +9,11 @@ dashedName: use-bracket-notation-to-find-the-last-character-in-a-string
 
 # --description--
 
-Щоб отримати останню літеру рядка, можна відняти одиницю від довжини рядка.
+In order to get the last letter of a string, you can subtract one from the string's length.
 
 Наприклад, якщо `const firstName = "Ada"`, ви можете отримати значення останньої літери, використавши `firstName[firstName.length - 1]`.
 
-Приклад:
+Наприклад:
 
 ```js
 const firstName = "Ada";
@@ -26,7 +26,7 @@ const lastLetter = firstName[firstName.length - 1];
 
 Використайте <dfn>дужкову нотацію</dfn>, щоб знайти останній символ у змінній `lastName`.
 
-**Підказка:** якщо застрягли, перегляньте вищеподаний приклад.
+**Підказка:**Спробуйте подивитися на приклад вище, якщо застрягли.
 
 # --hints--
 

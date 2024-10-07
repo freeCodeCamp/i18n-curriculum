@@ -9,7 +9,7 @@ dashedName: decrement-a-number-with-javascript
 
 # --description--
 
-`--` 연산자를 사용해서 간단하게 변수의 값을 1만큼 <dfn>감소(Decrement)</dfn> 시킬 수 있습니다.
+You can easily <dfn>decrement</dfn> or decrease a variable by one with the `--` operator.
 
 ```js
 i--;

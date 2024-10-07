@@ -8,7 +8,7 @@ dashedName: register-a-store-listener
 
 # --description--
 
-Un altro metodo a cui hai accesso dall'oggetto `store` di Redux è `store.subscribe()`. Questo ti permette di iscrivere delle funzioni listener (di ascolto) nello store, che vengono chiamate ogni volta che un'azione viene spedita allo store. Un semplice utilizzo per questo metodo è quello di iscrivere una funzione al tuo store, in modo che registri semplicemente un messaggio ogni volta che un'azione viene ricevuta e lo store viene aggiornato.
+Another method you have access to on the Redux `store` object is `store.subscribe()`. This allows you to subscribe listener functions to the store, which are called whenever an action is dispatched against the store. One simple use for this method is to subscribe a function to your store that simply logs a message every time an action is received and the store is updated.
 
 # --instructions--
 

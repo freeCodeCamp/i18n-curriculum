@@ -10,17 +10,17 @@ dashedName: the-box-model-lesson-g
 
 OK, so there might be some circles in the above image… but when it comes to layout, they fit together like rectangular boxes and not circles. In the end, laying out a webpage and positioning all its elements is deciding how you are going to nest and stack these boxes.
 
-The only real complication here is that there are many ways to manipulate the size of these boxes, and the space between them, using padding, margin, and border. But to sum it up briefly:
+The only real complication here is that there are many ways to manipulate the size of these boxes, and the space between them, using padding, margin, and border. Aber um es kurz zusammenzufassen:
 
-- `padding` increases the space between the border of a box and the content of the box.
-- `margin` increases the space between the borders of a box and the borders of adjacent boxes.
-- `border` adds space (even if it’s only a pixel or two) between the margin and the padding.
+- `padding` vergrößert den Abstand zwischen dem Rand einer Box und dem Inhalt der Box.
+- `margin` vergrößert den Abstand zwischen den Rändern einer Box und den Rändern der angrenzenden Boxen.
+- `border` fügt Raum (selbst wenn es nur ein oder zwei Pixel sind) zwischen der Margin und dem Padding hinzu.
 
-Be sure to study the diagrams carefully.
+Achte darauf, die Diagramme sorgfältig zu studieren.
 
 <img src="https://cdn.freecodecamp.org/curriculum/odin-project/the-box-model/the-box-model.png" alt="Visual representation of CSS box model with text, surrounded by 'padding' in pink, a purple 'border', and 'margin' indicated by blue arrows, explaining space between text, box edge, and window edge." />
 
-# --assignment--
+# --Auftrag--
 
 Add a border to every element on the page and see how the boxes are laid out.
 
@@ -28,23 +28,23 @@ Add a border to every element on the page and see how the boxes are laid out.
 
 ## --text--
 
-From inside to outside, what is the order of box-model properties?
+Wie lautet die Reihenfolge der Eigenschaften des Box Modells von innen nach außen?
 
 ## --answers--
 
-Content, Margin, Padding, Border
+Inhalt, Margin, Padding, Rand
 
 ---
 
-Margin, Padding, Content, Border
+Margin, Padding, Inhalt, Rand
 
 ---
 
-Content, Padding, Border, Margin
+Inhalt, Padding, Rand, Margin
 
 ---
 
-Padding, Content, Border, Margin
+Padding, Inhalt, Rand, Margin
 
 
 ## --video-solution--

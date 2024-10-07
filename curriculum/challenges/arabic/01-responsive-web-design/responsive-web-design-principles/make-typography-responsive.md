@@ -1,6 +1,6 @@
 ---
 id: 587d78b1367417b2b2512b0c
-title: Make Typography Responsive
+title: جعل التيبوغرافي يستجيب
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pzrPu4/crzN7T8'
 forumTopicId: 301141

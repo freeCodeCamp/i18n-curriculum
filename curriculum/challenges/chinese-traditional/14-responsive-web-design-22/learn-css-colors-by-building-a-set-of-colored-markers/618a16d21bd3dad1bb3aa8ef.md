@@ -7,7 +7,7 @@ dashedName: step-41
 
 # --description--
 
-現在給彩筆添加其他細節，從第一個開始。
+Now it's time to add other details to the markers, starting with the first one.
 
 在第一支筆 `div` 元素中，更改類名 `one` 爲 `red`。
 

@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d4036168
-title: Write a React Component from Scratch
+title: 리액트 컴포넌트 처음부터 작성하기
 challengeType: 6
 forumTopicId: 301424
 dashedName: write-a-react-component-from-scratch
@@ -12,13 +12,13 @@ Now that you've learned the basics of JSX and React components, it's time to wri
 
 # --instructions--
 
-Define a class `MyComponent` that extends `React.Component`. Its render method should return a `div` that contains an `h1` tag with the text: `My First React Component!` in it. Use this text exactly, the case and punctuation matter. Make sure to call the constructor for your component, too.
+`React.Component`를 상속한 `MyComponent` 클래스를 정의해보세요. 렌더링 메서드는 `div`를 반환하는데, 이 안에는 `My First React Component!` 텍스트의 `h1`를 포함합니다. 대소문자와 맞춤법을 정확히 해주세요. 생성자(constructor)도 호출해주세요.
 
-Render this component to the DOM using `ReactDOM.render()`. There is a `div` with `id='challenge-node'` available for you to use.
+`ReactDOM.render()`를 사용해서 DOM에 렌더링하세요. `id='challenge-node'`를 가진 `div`를 사용하면 됩니다.
 
 # --hints--
 
-There should be a React component called `MyComponent`.
+코드 편집기에 `MyComponent`라는 리액트 컴포넌트가 있어야 합니다.
 
 ```js
 (getUserInput) =>
@@ -29,7 +29,7 @@ There should be a React component called `MyComponent`.
   );
 ```
 
-`MyComponent` should contain an `h1` tag with text `My First React Component!` Case and punctuation matter.
+`MyComponent`는 대소문자와 맞춤법이 정확한 `My First React Component!` 텍스트의 `h1` 태그를 가지고 있어야 합니다.
 
 ```js
 assert(
@@ -40,13 +40,13 @@ assert(
 );
 ```
 
-`MyComponent` should render to the DOM.
+`MyComponent`는 DOM에 렌더링되어야 합니다.
 
 ```js
 assert(document.getElementById('challenge-node').childNodes.length === 1);
 ```
 
-`MyComponent` should have a constructor calling `super` with `props`.
+`MyComponent`는 `props`로 `super`를 호출하는 생성자가 있어야 합니다.
 
 ```js
 assert(

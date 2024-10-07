@@ -8,7 +8,7 @@ dashedName: create-bootstrap-wells
 
 # --description--
 
-Bootstrap には `well` と呼ばれるクラスがあり、列を立体的な見栄えにすることができます。
+Bootstrap has a class called `well` that can create a visual sense of depth for your columns.
 
 クラス `well` を持つ `div` 要素を各 `col-xs-6` `div` 要素の中に 1 つずつ入れてください。
 

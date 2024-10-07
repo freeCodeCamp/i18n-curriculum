@@ -1,6 +1,6 @@
 ---
 id: 587d8255367417b2b2512c74
-title: Create a Priority Queue Class
+title: 創建優先級隊列類
 challengeType: 1
 forumTopicId: 301630
 dashedName: create-a-priority-queue-class
@@ -10,25 +10,25 @@ dashedName: create-a-priority-queue-class
 
 In this challenge you will be creating a Priority Queue. A Priority Queue is a special type of Queue in which items may have additional information which specifies their priority. This could be simply represented with an integer. Item priority will override placement order in determining the sequence items are dequeued. If an item with a higher priority is enqueued after items with lower priority, the higher priority item will be dequeued before all the others.
 
-For instance, let’s imagine we have a priority queue with three items:
+例如，假設我們有一個包含三個項目的優先級隊列：
 
 ```js
 [['kitten', 2], ['dog', 2], ['rabbit', 2]]
 ```
 
-Here the second value (an integer) represents item priority. If we enqueue `['human', 1]` with a priority of `1` (assuming lower priorities are given precedence) it would then be the first item to be dequeued. The collection would look like this:
+這裏的第二個值（整數）表示項目優先級。 如果我們以 `1` 的優先級將 `['human', 1]` 加入隊列（假設優先考慮較低的優先級），那麼它將是第一個出列的項目。 該集合將如下所示：
 
 ```js
 [['human', 1], ['kitten', 2], ['dog', 2], ['rabbit', 2]]
 ```
 
-We’ve started writing a `PriorityQueue` in the code editor. You will need to add an `enqueue` method for adding items with a priority, a `dequeue` method for removing and returning items, a `size` method to return the number of items in the queue, a `front` method to return the element at the front of the queue, and finally an `isEmpty` method that will return `true` if the queue is empty or `false` if it is not.
+我們已經在代碼編輯器中編寫了 `PriorityQueue`。 您需要添加一個 `enqueue` 方法來添加具有優先級的項目，一個 `dequeue` 方法用於刪除項目的，一個 `size` 方法用於返回隊列中項目數量的，一個 `front` 方法用於返回位於隊列前端的元素，以及最後一個 `isEmpty` 方法，如果隊列爲空則返回 `true`，否則返回 `false`。
 
-The `enqueue` should accept items with the format shown above (`['human', 1]`) where `1` represents the priority. `dequeue` and `front` should return only the item's name, not its priority.
+`enqueue` 應該接受上面顯示的格式 (`['human', 1]`) 的項目，其中 `1` 代表優先級。 `dequeue` 和 `front` 應該只返回項目的名稱，而不是它的優先級。
 
 # --hints--
 
-Your `PriorityQueue` class should have a `enqueue` method.
+你的 `PriorityQueue` 類應該有一個 `enqueue` 方法。
 
 ```js
 assert(
@@ -39,7 +39,7 @@ assert(
 );
 ```
 
-Your `PriorityQueue` class should have a `dequeue` method.
+你的 `PriorityQueue` 類應該有一個 `dequeue` 方法。
 
 ```js
 assert(
@@ -50,7 +50,7 @@ assert(
 );
 ```
 
-Your `PriorityQueue` class should have a `size` method.
+你的 `PriorityQueue` 類應該有一個 `size` 方法。
 
 ```js
 assert(
@@ -61,7 +61,7 @@ assert(
 );
 ```
 
-Your `PriorityQueue` class should have a `front` method.
+你的 `PriorityQueue` 類應該有一個 `front` 方法。
 
 ```js
 assert(
@@ -72,7 +72,7 @@ assert(
 );
 ```
 
-Your `PriorityQueue` class should have an `isEmpty` method.
+你的 `PriorityQueue` 類應該有一個 `isEmpty` 方法。
 
 ```js
 assert(
@@ -83,7 +83,7 @@ assert(
 );
 ```
 
-Your `PriorityQueue` class should correctly keep track of the current number of items using the `size` method as items are enqueued and dequeued.
+當項目入列和出列的時候，你的 `PriorityQueue` 類應該使用 `size` 方法正確跟蹤當前項目的數量。
 
 ```js
 assert(
@@ -102,7 +102,7 @@ assert(
 );
 ```
 
-The `front` method should return the correct item at the front of the queue as items are enqueued and dequeued.
+`front` 方法應該在項目入列和出列時正確地返回隊列前端的項目。
 
 ```js
 assert(
@@ -129,7 +129,7 @@ assert(
 );
 ```
 
-The `isEmpty` method should return `true` when the queue is empty.
+當隊列爲空時，`isEmpty` 方法應該返回 `true`。
 
 ```js
 assert(
@@ -145,7 +145,7 @@ assert(
 );
 ```
 
-The priority queue should return items with a higher priority before items with a lower priority and return items in first-in-first-out order otherwise.
+優先級排隊應該返回優先級較高的項目，然後返回優先級較低的項目，若優先級相同，則按先進先出的順序返回。
 
 ```js
 assert(

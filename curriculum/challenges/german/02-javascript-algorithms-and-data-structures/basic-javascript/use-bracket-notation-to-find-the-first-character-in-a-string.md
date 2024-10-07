@@ -9,7 +9,7 @@ dashedName: use-bracket-notation-to-find-the-first-character-in-a-string
 
 # --description--
 
-<dfn>Die Klammer-Notation</dfn> ist eine Methode, um ein Zeichen an einem bestimmten Index innerhalb eines Strings zu erhalten.
+<dfn>Bracket notation</dfn> is a way to get a character at a specific index within a string.
 
 Die meisten modernen Programmiersprachen, wie z. B. JavaScript, beginnen nicht bei 1 zu zählen, wie es Menschen tun. Sie beginnen bei 0. Dies wird als <dfn>nullbasierte</dfn> Indizierung bezeichnet.
 

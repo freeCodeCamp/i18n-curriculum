@@ -18,7 +18,7 @@ Hier ist zum Beispiel eine gültige Färbung des obigen Gitters:
 
 <img alt="farbiges Gitter aus 64 Dreiecken" src="https://cdn.freecodecamp.org/curriculum/project-euler/tri-colouring-a-triangular-grid-2.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-A colouring C' which is obtained from a colouring C by rotation or reflection is considered distinct from C unless the two are identical.
+Eine Färbung C', die durch Drehung oder Spiegelung aus einer Färbung C gewonnen wird, unterscheidet sich von C, sofern die beiden nicht identisch sind.
 
 Wie viele verschiedene gültige Farbgebungen gibt es für die obige Konfiguration?
 

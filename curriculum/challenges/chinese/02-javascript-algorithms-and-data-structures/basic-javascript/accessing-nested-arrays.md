@@ -9,7 +9,7 @@ dashedName: accessing-nested-arrays
 
 # --description--
 
-在之前的挑战中，我们学习了在对象中嵌套对象和数组。 与访问嵌套对象类似，数组的方括号可以用来对嵌套数组进行链式访问。
+As we have seen in earlier examples, objects can contain both nested objects and nested arrays. Similar to accessing nested objects, array bracket notation can be chained to access nested arrays.
 
 下面是访问嵌套数组的例子：
 

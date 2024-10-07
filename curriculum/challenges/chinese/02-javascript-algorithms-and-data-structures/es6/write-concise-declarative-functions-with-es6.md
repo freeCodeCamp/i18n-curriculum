@@ -8,7 +8,7 @@ dashedName: write-concise-declarative-functions-with-es6
 
 # --description--
 
-在 ES5 中，当我们需要在对象中定义一个函数的时候，必须像这样使用 `function` 关键字：
+When defining functions within objects in ES5, we have to use the keyword `function` as follows:
 
 ```js
 const person = {

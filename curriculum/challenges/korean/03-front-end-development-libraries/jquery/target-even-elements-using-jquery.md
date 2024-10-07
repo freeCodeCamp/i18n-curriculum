@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aed008826
-title: Target Even Elements Using jQuery
+title: jQuery를 사용해 짝수 번째 요소들 선택하기
 challengeType: 6
 forumTopicId: 18318
 required:
@@ -13,19 +13,19 @@ dashedName: target-even-elements-using-jquery
 
 You can also target elements based on their positions using `:odd` or `:even` selectors.
 
-Note that jQuery is zero-indexed which means the first element in a selection has a position of 0. This can be a little confusing as, counter-intuitively, `:odd` selects the second element (position 1), fourth element (position 3), and so on.
+jQuery의 인덱스는 0으로 시작합니다. 즉, 첫 번째 요소의 위치는 0이라는 것입니다. 이것은 약간 혼란스러울 수 있습니다. 직관적인 것과 반대로, `:odd`는 두 번째 요소(위치 1), 네 번째 요소(위치 3) 등을 선택합니다.
 
-Here's how you would target all the odd elements with class `target` and give them classes:
+`target` 클래스 및 추가적인 클래스를 이용해 홀수 인덱스를 갖는 요소들을 선택하려면 다음과 같이 작성합니다:
 
 ```js
 $(".target:odd").addClass("animated shake");
 ```
 
-Try selecting all the even `target` elements and giving them the classes of `animated` and `shake`. Remember that **even** refers to the position of elements with a zero-based system in mind.
+짝수 인덱스를 갖는 요소들을 선택해 `animated`와 `shake`라는 클래스를 부여해보세요. **even**은 인덱스가 0으로 시작하는 시스템에 기반한 요소들의 위치를 가리킨다는 것을 기억하세요.
 
 # --hints--
 
-All of the `target` elements that jQuery considers to be even should shake.
+JQuery에서 짝수 번째 위치로 인식되는 모든 `target` 요소들은 shake라는 클래스를 가져야 합니다.
 
 ```js
 assert(
@@ -33,13 +33,13 @@ assert(
 );
 ```
 
-You should use the `:even` selector to modify these elements.
+해당 요소들을 수정하기 위해 `:even` 선택자를 사용해야 합니다.
 
 ```js
 assert(code.match(/\:even/g));
 ```
 
-You should only use jQuery to add these classes to the element.
+이러한 클래스들을 엘리먼트에 추가하기 위해 jQuery를 사용해야 합니다.
 
 ```js
 assert(

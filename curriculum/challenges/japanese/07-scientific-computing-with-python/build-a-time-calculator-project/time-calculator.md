@@ -11,8 +11,8 @@ dashedName: build-a-time-calculator-project
 Write a function named `add_time` that takes in two required parameters and one optional parameter:
 
 - a start time in the 12-hour clock format (ending in AM or PM)
-- a duration time that indicates the number of hours and minutes
-- (optional) a starting day of the week, case insensitive
+- 時間と分の数値で示す経過時間
+- (オプション) 開始曜日 (大文字小文字の記述は自由)
 
 The function should add the duration time to the start time and return the result.
 

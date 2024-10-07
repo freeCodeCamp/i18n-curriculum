@@ -8,7 +8,7 @@ dashedName: left-factorials
 
 # --description--
 
-**Left factorials**, $ !n $, may refer to either *subfactorials* or to *factorial sums*. The same notation can be confusingly seen used for the two different definitions. Sometimes, *subfactorials* (also known as *derangements*) may use any of the notations:
+**Linksseitige Fakultäten**, $ !n $, können sich entweder auf *Subfakultäten* oder auf *Fakultäten-Summen* beziehen. Es ist verwirrend, dass für die beiden unterschiedlichen Definitionen die gleiche Schreibweise verwendet wird. Manchmal können *Subfakultäten* (auch bekannt als *Derangements*) jede der Notationen verwenden:
 
 <ul>
   <li>$!n`$</li>

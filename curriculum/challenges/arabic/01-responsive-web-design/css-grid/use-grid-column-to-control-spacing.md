@@ -11,7 +11,7 @@ dashedName: use-grid-column-to-control-spacing
 
 Up to this point, all the properties that have been discussed are for grid containers. The `grid-column` property is the first one for use on the grid items themselves.
 
-The hypothetical horizontal and vertical lines that create the grid are referred to as <dfn>lines</dfn>. These lines are numbered starting with 1 at the top left corner of the grid and move right for columns and down for rows, counting upward.
+أما الخطوط الأفقية والرأسية الافتراضية التي تنشئ الشبكة فيشار إليها باسم الأسطر <dfn></dfn>. هذه الخطوط مرقمة بدءاً ب 1 في الزاوية العلوية اليسرى من الشبكة وتحرك لليمين للعمودين ولأسفل للصفوف، العد صعودا.
 
 This is what the lines look like for a 3x3 grid:
 

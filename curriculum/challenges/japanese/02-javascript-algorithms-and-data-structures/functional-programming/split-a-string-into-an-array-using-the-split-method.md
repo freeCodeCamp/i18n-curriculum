@@ -8,7 +8,7 @@ dashedName: split-a-string-into-an-array-using-the-split-method
 
 # --description--
 
-`split` メソッドは、文字列を文字列の配列に分割します。 このメソッドは、文字列や正規表現の分割に使用できる区切り文字の引数を取ります。 たとえば、区切り文字が空白の場合は、単語の配列を取得します。 区切り文字が空文字列の場合は、文字列内の各文字で構成される配列を取得します。
+The `split` method splits a string into an array of strings. It takes an argument for the delimiter, which can be a character to use to break up the string or a regular expression. For example, if the delimiter is a space, you get an array of words, and if the delimiter is an empty string, you get an array of each character in the string.
 
 2 つの例を次に示します。1 つ目は文字列をスペースで分割し、2 つ目は正規表現を使用して文字列を数字で分割します。
 

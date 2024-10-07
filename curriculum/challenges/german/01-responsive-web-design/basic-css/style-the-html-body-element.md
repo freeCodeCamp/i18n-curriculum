@@ -9,7 +9,7 @@ dashedName: style-the-html-body-element
 
 # --description--
 
-Nun lass uns einen neuen Start wagen und sprechen wir mal über CSS-Vererbung.
+Now let's start fresh and talk about CSS inheritance.
 
 Jede HTML-Seite hat ein `body`-Element.
 
@@ -27,7 +27,7 @@ body {
 
 # --hints--
 
-Dein `body`-Element sollte eine `background-color` mit dem Wert schwarz haben.
+Deine `body`-Elemente sollten die `background-color` Schwarz haben.
 
 ```js
 assert($('body').css('background-color') === 'rgb(0, 0, 0)');

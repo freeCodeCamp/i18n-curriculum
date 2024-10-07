@@ -8,7 +8,7 @@ dashedName: delete-one-document-using-model-findbyidandremove
 
 # --description--
 
-`findByIdAndRemove` 和 `findOneAndRemove` 類似於我們之前的更新方法， 它們將被刪除的 document 傳給數據庫。 和之前一樣，使用函數參數 `personId` 作爲查詢關鍵字。
+`findByIdAndRemove` and `findOneAndRemove` are like the previous update methods. They pass the removed document to the db. As usual, use the function argument `personId` as the search key.
 
 # --instructions--
 

@@ -8,7 +8,7 @@ dashedName: implement-a-root-level-request-logger-middleware
 
 # --description--
 
-前に `express.static()` ミドルウェア関数について説明しました。 ここでは、ミドルウェアとはどのようなものなのか、もっと詳しく説明しましょう。 ミドルウェア関数は 3 つの引数を取る関数です。それらは、リクエストオブジェクト、レスポンスオブジェクト、そして、アプリケーションのリクエストレスポンスサイクルにおける次の関数です。 これらの関数は、アプリケーションに副次的な効果を与えるコードを実行し、通常はリクエストオブジェクトもしくはレスポンスオブジェクトへ情報を追加します。 また、条件が満たされたときにレスポンスを送信して、サイクルを終了することもできます。 終了時にレスポンスを送信しない場合は、スタック内で次の関数の実行を開始します。 これにより、3 番目の引数 `next()` が呼び出されます。
+Earlier, you were introduced to the `express.static()` middleware function. Now it’s time to see what middleware is, in more detail. Middleware functions are functions that take 3 arguments: the request object, the response object, and the next function in the application’s request-response cycle. These functions execute some code that can have side effects on the app, and usually add information to the request or response objects. They can also end the cycle by sending a response when some condition is met. If they don’t send the response when they are done, they start the execution of the next function in the stack. This triggers calling the 3rd argument, `next()`.
 
 以下の例を見てください。
 

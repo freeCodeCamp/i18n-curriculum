@@ -8,7 +8,7 @@ dashedName: match-beginning-string-patterns
 
 # --description--
 
-回顧一下之前的挑戰，正則表達式可以用於查找多項匹配。 還可以查詢字符串中符合指定匹配模式的字符。
+Prior challenges showed that regular expressions can be used to look for a number of matches. They are also used to search for patterns in specific positions in strings.
 
 在之前的挑戰中，使用字符集中前插入符號（`^`）來創建一個否定字符集，形如 `[^thingsThatWillNotBeMatched]`。 除了在字符集中使用之外，插入符號（^）用於匹配文本是否在字符串的開始位置
 
@@ -20,7 +20,7 @@ let notFirst = "You can't find Ricky now.";
 firstRegex.test(notFirst);
 ```
 
-第一次 `test` 調用將返回 `true`，而第二次調用將返回 `false`。
+第一次 `test` 調用將返回 `true`, 而第二次調用將返回 `false`。
 
 # --instructions--
 

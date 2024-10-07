@@ -8,7 +8,7 @@ dashedName: understand-where-an-objects-prototype-comes-from
 
 # --description--
 
-인간이 부모로부터 유전자를 전달받듯이 객체도 객체를 생성한 생성자 함수로부터 직접 `prototype`을 상속받습니다. 예를 들면 여기 생성자 `Bird`가 `duck` 객체를 생성합니다.
+Just like people inherit genes from their parents, an object inherits its `prototype` directly from the constructor function that created it. For example, here the `Bird` constructor creates the `duck` object:
 
 ```js
 function Bird(name) {

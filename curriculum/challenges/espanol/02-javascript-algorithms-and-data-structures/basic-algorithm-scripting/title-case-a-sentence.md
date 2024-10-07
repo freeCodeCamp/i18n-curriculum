@@ -8,7 +8,7 @@ dashedName: title-case-a-sentence
 
 # --description--
 
-Devuelve la cadena proporcionada con la primera letra de cada palabra en mayúsculas. Asegúrate de que el resto de la palabra esté en minúsculas.
+Return the provided string with the first letter of each word capitalized. Make sure the rest of the word is in lower case.
 
 Como propósito de este ejercicio, debes también usar mayúsculas conectando palabras como `the` y `of`.
 

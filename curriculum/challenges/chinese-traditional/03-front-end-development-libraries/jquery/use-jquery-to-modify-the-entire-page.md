@@ -11,7 +11,7 @@ dashedName: use-jquery-to-modify-the-entire-page
 
 # --description--
 
-目前，已經完成了 jQuery playground。 把它移除吧。
+We're done playing with our jQuery playground. Let's tear it down!
 
 jQuery 也能選取 `body` 標籤。
 

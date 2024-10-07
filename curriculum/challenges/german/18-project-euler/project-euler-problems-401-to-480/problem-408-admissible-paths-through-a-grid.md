@@ -1,6 +1,6 @@
 ---
 id: 5900f5091000cf542c51001b
-title: 'Problem 408: Admissible paths through a grid'
+title: 'Problem 408: Zulässige Wege durch ein Gitter'
 challengeType: 1
 forumTopicId: 302076
 dashedName: problem-408-admissible-paths-through-a-grid
@@ -8,19 +8,19 @@ dashedName: problem-408-admissible-paths-through-a-grid
 
 # --description--
 
-Let's call a lattice point ($x$, $y$) inadmissible if $x$, $y$ and $x + y$ are all positive perfect squares.
+Wir nennen einen Gitterpunkt ($x$, $y$) unzulässig, wenn $x$, $y$ und $x + y$ alle positive perfekte Quadrate sind.
 
-For example, (9, 16) is inadmissible, while (0, 4), (3, 1) and (9, 4) are not.
+Zum Beispiel ist (9, 16) unzulässig, während (0, 4), (3, 1) und (9, 4) nicht zulässig sind.
 
-Consider a path from point ($x_1$, $y_1$) to point ($x_2$, $y_2$) using only unit steps north or east. Let's call such a path admissible if none of its intermediate points are inadmissible.
+Betrachte einen Weg vom Punkt ($x_1$, $y_1$) zum Punkt ($x_2$, $y_2$), der nur Einheitsschritte nach Norden oder Osten enthält. Nennen wir einen solchen Pfad zulässig, wenn keiner seiner Zwischenpunkte unzulässig ist.
 
-Let $P(n)$ be the number of admissible paths from (0, 0) to ($n$, $n$). It can be verified that $P(5) = 252$, $P(16) = 596\\,994\\,440$ and $P(1\\,000)\bmod 1\\,000\\,000\\,007 = 341\\,920\\,854$.
+Lasse $P(n)$ die Anzahl der zulässigen Wege von (0, 0) nach ($n$, $n$) sein. Es kann nachgewiesen werden, dass $P(5) = 252$, $P(16) = 596\\,994\\,440$ und $P(1\\,000)\bmod 1\\,000\,000\,007 = 341\\,920\\,854$.
 
-Find $P(10\\,000\\,000)\bmod 1\\,000\\,000\\,007$.
+Finde $P(10\\,000\\,000)\bmod 1\\,000\\,000\\,007$.
 
 # --hints--
 
-`admissiblePaths()` should return `299742733`.
+`admissiblePaths()` sollte `299742733` zurückgeben.
 
 ```js
 assert.strictEqual(admissiblePaths(), 299742733);

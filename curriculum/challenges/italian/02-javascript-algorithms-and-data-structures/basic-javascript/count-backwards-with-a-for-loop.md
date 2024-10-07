@@ -9,7 +9,7 @@ dashedName: count-backwards-with-a-for-loop
 
 # --description--
 
-Un ciclo for può anche contare all'indietro, se definiamo le condizioni giuste.
+A for loop can also count backwards, so long as we can define the right conditions.
 
 Per decrementare di due ad ogni iterazione, dovremo cambiare la nostra inizializzazione, la condizione e l'espressione finale.
 

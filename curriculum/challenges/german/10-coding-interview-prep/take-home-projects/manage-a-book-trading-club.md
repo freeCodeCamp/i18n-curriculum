@@ -10,19 +10,19 @@ dashedName: manage-a-book-trading-club
 
 **Objective:** Build an app that is functionally similar to this: <a href="https://manage-a-book-trading-club.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://manage-a-book-trading-club.freecodecamp.rocks/</a>.
 
-Erfülle die folgenden User Stories und bestehe alle Tests. Verwende Bibliotheken und APIs deiner Wahl. Gib dem Ganzen deinen persönlichen Stil.
+Erfülle die untenstehenden User Stories und bringe alle Tests zum Bestehen. Verwende die Bibliotheken oder APIs deiner Wahl. Gib dem Ganzen deinen persönlichen Stil.
 
-**User Story:** I can view all books posted by every user.
+**User Story:** Ich kann gepostete Bücher eines jeden Nutzers einsehen.
 
 **User Story:** Ich kann ein neues Buch hinzufügen.
 
-**User Story:** I can update my settings to store my full name, city, and state.
+**User Story:** Ich kann in den Einstellungen meinen vollständigen Namen, Staat und meine Stadt speichern.
 
-**User Story:** I can propose a trade and wait for the other user to accept the trade.
+**User Story:** Ich kann einen Handel vorschlagen und warten, bis der andere Nutzer diesen akzeptiert.
 
-Once you've finished implementing these user stories, enter the URL to your live app and, optionally, your GitHub repository. Then click the "I've completed this challenge" button.
+Sobald du die Implementierung dieser User Stories abgeschlossen hast, gib die URL zu deiner Live-App und optional zu deiner GitHub-Repository ein. Klicke dann auf den Button "Ich habe diese Herausforderung abgeschlossen".
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+Du kannst Feedback zu deinem Projekt erhalten, indem du es auf dem <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp Forum</a> teilst.
 
 # --solutions--
 

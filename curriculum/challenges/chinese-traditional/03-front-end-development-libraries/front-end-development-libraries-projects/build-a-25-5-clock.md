@@ -10,71 +10,71 @@ dashedName: build-a-25--5-clock
 
 **Note:** **React 18 has known incompatibilities with the tests for this project (see [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://25--5-clock.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://25--5-clock.freecodecamp.rocks</a>.
+**目標:** 構建一個功能類似於這個的應用: <a href="https://25--5-clock.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://25--5-clock.freecodecamp.rocks</a>.
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+實現以下的用戶故事並且通過所有的測試用例。 使用你需要的任何庫和第三方API。 使用你自己的個人風格樣式。
 
-You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and jQuery to complete this project. You should use a frontend framework (like React for example) because this section is about learning frontend frameworks. Additional technologies not listed above are not recommended and using them is at your own risk. We are looking at supporting other frontend frameworks like Angular and Vue, but they are not currently supported. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
+你可以使用 HTML、JavaScript、CSS、Bootstrap、SASS、React、Redux 和 jQuery 的任意組合來完成此項目。 你應該使用一個前端框架（比如像是React）因爲這個部分是有關於學習前端框架的。 不推薦使用以上沒有列出的其他技術，不然風險自擔。 我們正着手支持其他前端框架像是Angular和Vue，但是現在還不支持他們。 我們將會接受並且努力修復所有使用推薦的技術棧在這個項目中出現的問題。 編程愉快！
 
-**User Story #1:** I can see an element with `id="break-label"` that contains a string (e.g. "Break Length").
+**用戶故事 #1:** 我可以看到一個元素帶有 `id="break-label"` 並且包含一個字符串 (例如 "Break Length").
 
-**User Story #2:** I can see an element with `id="session-label"` that contains a string (e.g. "Session Length").
+**用戶故事 #2:** 我可以看到一個元素帶有 `id="session-label"` 並且包含一個字符串(例如 "Session Length").
 
-**User Story #3:** I can see two clickable elements with corresponding IDs: `id="break-decrement"` and `id="session-decrement"`.
+**用戶故事 #3:** 我可以看見兩個可點擊的元素分別帶有ID如下: `id="break-decrement"` 和 `id="session-decrement"`.
 
-**User Story #4:** I can see two clickable elements with corresponding IDs: `id="break-increment"` and `id="session-increment"`.
+**用戶故事 #4:** 我可以看見兩個可點擊的元素分別帶有如下的ID: `id="break-increment"` 和 `id="session-increment"`.
 
-**User Story #5:** I can see an element with a corresponding `id="break-length"`, which by default (on load) displays a value of 5.
+**用戶故事 #5:**我可以看見一個元素具有 `id="break-length"`, 默認顯示一個數值5（在加載後）.
 
-**User Story #6:** I can see an element with a corresponding `id="session-length"`, which by default displays a value of 25.
+**用戶故事 #6:**我可以看見一個元素具有`id="session-length"`, 默認顯示一個數值25.
 
-**User Story #7:** I can see an element with a corresponding `id="timer-label"`, that contains a string indicating a session is initialized (e.g. "Session").
+**用戶故事 #7:** 我可以看見一個元素具有 `id="timer-label"`, 並且包含一個字符串表示一個時間週期 (例如 "Session").
 
-**User Story #8:** I can see an element with corresponding `id="time-left"`. NOTE: Paused or running, the value in this field should always be displayed in `mm:ss` format (i.e. 25:00).
+**用戶故事 #8:** 我可以看到一個元素帶有 `id="time-left"`. 注意：暫停或者運行時，這個區域的數值格式應該總是展示爲`mm:ss`。
 
-**User Story #9:** I can see a clickable element with a corresponding `id="start_stop"`.
+**用戶故事 #9:** 我可以看到一個可點擊的元素具有 `id="start_stop"`.
 
-**User Story #10:** I can see a clickable element with a corresponding `id="reset"`.
+**用戶故事 #10:** 我可以看到一個可點擊的元素帶有 `id="reset"`.
 
-**User Story #11:** When I click the element with the id of `reset`, any running timer should be stopped, the value within `id="break-length"` should return to `5`, the value within `id="session-length"` should return to 25, and the element with `id="time-left"` should reset to its default state.
+**用戶故事 #11:** 當我點擊id是 `reset`的元素時, 任何運行中的時鐘應該暫停, 在 `id="break-length"`中的值應該返回 `5`, 在`id="session-length"`中的值應該返回25, 並且帶有`id="time-left"`的元素應該返回它的默認狀態.
 
-**User Story #12:** When I click the element with the id of `break-decrement`, the value within `id="break-length"` decrements by a value of 1, and I can see the updated value.
+**用戶故事 #12:** 當我點擊帶有id爲 `break-decrement`的元素時, 在 `id="break-length"` 中的值減1, 並且我可以看到更新後的數值.
 
-**User Story #13:** When I click the element with the id of `break-increment`, the value within `id="break-length"` increments by a value of 1, and I can see the updated value.
+**用戶故事 #13:** 當我點擊帶有id爲`break-increment`的元素時, 在 `id="break-length"`中的數值加1, 並且我可以看到更新後的數值.
 
-**User Story #14:** When I click the element with the id of `session-decrement`, the value within `id="session-length"` decrements by a value of 1, and I can see the updated value.
+**用戶故事 #14:** 當我點擊帶有id爲 `session-decrement`的元素時, 在 `id="session-length"`中的值減1, 並且我可以看到更新後的數值.
 
-**User Story #15:** When I click the element with the id of `session-increment`, the value within `id="session-length"` increments by a value of 1, and I can see the updated value.
+**用戶故事 #15:** 當我點擊帶有id爲 `session-increment`的元素時, 在`id="session-length"` 中的值加1, 並且我可以看到更新後的值.
 
-**User Story #16:** I should not be able to set a session or break length to &lt;= 0.
+**用戶故事 #16:** 我不能設置時間週期的值或者休息時間的長度&lt;= 0.
 
-**User Story #17:** I should not be able to set a session or break length to > 60.
+**用戶故事 #17:** 我不能設置時間週期或者休息時間的長度> 60.
 
-**User Story #18:** When I first click the element with `id="start_stop"`, the timer should begin running from the value currently displayed in `id="session-length"`, even if the value has been incremented or decremented from the original value of 25.
+**用戶故事 #18:** 當我第一次點擊帶有 `id="start_stop"`的元素時, 計時器應該開始運行從當前 `id="session-length"`中的數值開始, 及時數值和原始的25相比增加或減少了.
 
-**User Story #19:** If the timer is running, the element with the id of `time-left` should display the remaining time in `mm:ss` format (decrementing by a value of 1 and updating the display every 1000ms).
+**用戶故事 #19:** 如果計時器在運行, 帶有id爲 `time-left` 的元素應該以 `mm:ss` 的格式展示剩餘時間 (按1遞減並在每1000毫秒更新一次展示的值).
 
-**User Story #20:** If the timer is running and I click the element with `id="start_stop"`, the countdown should pause.
+**用戶故事 #20:** 如果計時器在運行並且我點擊了帶有 `id="start_stop"`的元素, 倒計時應該停止.
 
-**User Story #21:** If the timer is paused and I click the element with `id="start_stop"`, the countdown should resume running from the point at which it was paused.
+**用戶故事 #21:** 如果計時器暫停並且我點擊了帶有 `id="start_stop"`的元素, 倒計時應該從暫停的值開始恢復運行.
 
-**User Story #22:** When a session countdown reaches zero (NOTE: timer MUST reach 00:00), and a new countdown begins, the element with the id of `timer-label` should display a string indicating a break has begun.
+**用戶故事 #22:** 當一個時間週期倒計時到達零的時候 (注意: 計時器必須到達 00:00), 一個新倒計時開始, 帶有id爲 `timer-label`的元素應該展示字符串表示休息時間已經開始.
 
-**User Story #23:** When a session countdown reaches zero (NOTE: timer MUST reach 00:00), a new break countdown should begin, counting down from the value currently displayed in the `id="break-length"` element.
+**用戶故事 #23:** 當一個時間週期倒計時到達零的時候 (注意: 計時器必須到達 00:00), 一個新倒計時開始, 倒計時的數值現在在 `id="break-length"`元素中展示.
 
-**User Story #24:** When a break countdown reaches zero (NOTE: timer MUST reach 00:00), and a new countdown begins, the element with the id of `timer-label` should display a string indicating a session has begun.
+**用戶故事 #24:** 當休息時間倒計時到達零的時候 (注意: 計時器必須到達 00:00), 一個新倒計時開始, 帶有id爲`timer-label` 的元素應該展示一個字符串表示一個時間週期已經開始.
 
-**User Story #25:** When a break countdown reaches zero (NOTE: timer MUST reach 00:00), a new session countdown should begin, counting down from the value currently displayed in the `id="session-length"` element.
+**用戶故事 #25:**當休息時間倒計時到達零的時候 (注意: 計時器必須到達 00:00), 一個新的時間週期倒計時應該開始，倒計時從當前在 `id="session-length"` 元素中展示的數值開始.
 
-**User Story #26:** When a countdown reaches zero (NOTE: timer MUST reach 00:00), a sound indicating that time is up should play. This should utilize an HTML5 `audio` tag and have a corresponding `id="beep"`.
+**用戶故事 #26:** 當一個倒計時到達零的時候 (注意: 計時器必須到達00:00), 一個提示計時結束的鈴聲應該播放. 這應該使用一個HTML5`audio`標籤並且帶有 `id="beep"`.
 
-**User Story #27:** The audio element with `id="beep"` must be 1 second or longer.
+**用戶故事 #27:** 帶有 `id="beep"`的音頻元素必須持續響1秒或更長.
 
-**User Story #28:** The audio element with id of `beep` must stop playing and be rewound to the beginning when the element with the id of `reset` is clicked.
+**用戶故事 #28:** 音頻元素帶有id爲 `beep` 必須停止播放並且倒退回開頭，當id爲 `reset` 的元素被點擊時.
 
-You can build your project by <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">using this CodePen template</a> and clicking `Save` to create your own pen. Or you can use this CDN link to run the tests in any environment you like: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
+你可以構建你的項目通過 <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">使用這個codepen模板</a> 並且點擊`Save` 去創建你自己的作品. 或者你可以使用這個CDN鏈接去運行測試在你喜歡的任何環境: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
 
-Once you're done, submit the URL to your working project with all its tests passing.
+一旦你完成了，提交你通過所有測試的工作項目URL.
 
 # --solutions--
 

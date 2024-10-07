@@ -12,7 +12,7 @@ dashedName: relational-databases-many-to-many-relationships
 
 # --description--
 
-More resources:
+Más recursos:
 
 \- <a href="https://www.youtube.com/watch?v=uQ3Qv1z_Vao" target="_blank" rel="noopener noreferrer nofollow">Ejercicio: Correo electrónico</a>
 
@@ -24,7 +24,7 @@ More resources:
 
 \- <a href="https://www.youtube.com/watch?v=xBaJddvJL4A" target="_blank" rel="noopener noreferrer nofollow">Ejercicio: Twspider</a>
 
-# --questions--
+# --preguntas----preguntas--
 
 ## --text--
 

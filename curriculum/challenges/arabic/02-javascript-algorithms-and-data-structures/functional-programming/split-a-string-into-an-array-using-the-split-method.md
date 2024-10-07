@@ -8,7 +8,7 @@ dashedName: split-a-string-into-an-array-using-the-split-method
 
 # --description--
 
-تقسم طريقة `split` سلسلة إلى مجموعة من السلاسل. يتطلب الأمر argument للمحدد ، والذي يمكن أن يكون رمزا لاستخدامه في تفكيك الـ string أو regular expression. على سبيل المثال ، إذا كان المحدِّد مسافة، فستحصل على array من الكلمات ، وإذا كان المحدِّد string فارغ، فستحصل على array من كل رمز في ال string.
+The `split` method splits a string into an array of strings. It takes an argument for the delimiter, which can be a character to use to break up the string or a regular expression. For example, if the delimiter is a space, you get an array of words, and if the delimiter is an empty string, you get an array of each character in the string.
 
 في ما يلي مثالان يقسمان string واحد بمسافات، ثم آخر بأرقام باستخدام regular expression:
 

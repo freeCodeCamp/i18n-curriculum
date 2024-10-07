@@ -9,7 +9,7 @@ dashedName: use-grid-row-to-control-spacing
 
 # --description--
 
-Naturalmente puoi fare in modo che gli elementi occupino più righe proprio come avviene con le colonne. Definisci le linee orizzontali da cui vuoi che un elemento inizi e si fermi usando la proprietà `grid-row` su un elemento griglia.
+Of course, you can make items consume multiple rows just like you can with columns. You define the horizontal lines you want an item to start and stop at using the `grid-row` property on a grid item.
 
 # --instructions--
 

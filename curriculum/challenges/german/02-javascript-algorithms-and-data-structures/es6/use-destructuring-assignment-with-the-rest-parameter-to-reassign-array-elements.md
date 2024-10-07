@@ -10,7 +10,7 @@ dashedName: >-
 
 # --description--
 
-In manchen Situationen, in denen es um die Destrukturierung von Arrays geht, möchten wir vielleicht die restlichen Elemente in einem separaten Array sammeln.
+In some situations involving array destructuring, we might want to collect the rest of the elements into a separate array.
 
 Das Ergebnis ist ähnlich wie bei `Array.prototype.slice()`, wie unten gezeigt:
 
@@ -50,7 +50,7 @@ assert.deepEqual(_testArr, [1, 2, 3, 4, 5])
 assert(!__helpers.removeJSComments(code).match(/\.\s*slice\s*\(/));
 ```
 
-You should use the rest syntax.
+Du solltest die Rest-Syntax verwenden.
 
 ```js
 assert.match(code, /\.\.\./);

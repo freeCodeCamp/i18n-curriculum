@@ -8,7 +8,7 @@ dashedName: nest-css-with-sass
 
 # --description--
 
-Sass дозволяє вкласти правила CSS, що корисно для організації таблиці стилів.
+Sass allows nesting of CSS rules, which is a useful way of organizing a style sheet.
 
 Зазвичай для стилізації елементів використовують окремі рядки:
 

@@ -8,7 +8,7 @@ dashedName: dynamically-set-the-coordinates-for-each-bar
 
 # --description--
 
-Die letzte Aufgabe erstellte ein Rechteck und fügte dieses dem `svg`-Element für jeden Punkt im `dataset` hinzu, um so einen Balken zu erzeugen. Leider landeten sie alle übereinander.
+The last challenge created and appended a rectangle to the `svg` element for each point in `dataset` to represent a bar. Unfortunately, they were all stacked on top of each other.
 
 Die Platzierung eines Rechtecks erfolgt über die `x`- und `y`-Attribute. Sie teilen D3 mit, wo mit der Platzierung der Form im `svg`-Bereich angefangen werden soll. In der letzten Aufgabe wurden sie alle auf 0 gesetzt, wodurch jeder Balken in der oberen linken Ecke landete.
 

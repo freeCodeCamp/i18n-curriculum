@@ -9,7 +9,7 @@ dashedName: limit-item-size-using-the-minmax-function
 
 # --description--
 
-此外，內置函數 `minmax` 也可用於設置 `grid-template-columns` 和 `grid-template-rows` 的值。 它的作用是在網格容器改變大小時限制網格項的大小。 爲此，你需要指定網格項允許的尺寸範圍。 例如：
+There's another built-in function to use with `grid-template-columns` and `grid-template-rows` called `minmax`. It's used to limit the size of items when the grid container changes size. To do this you need to specify the acceptable size range for your item. 以下是一個例子：
 
 ```css
 grid-template-columns: 100px minmax(50px, 200px);

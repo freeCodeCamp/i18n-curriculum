@@ -10,7 +10,7 @@ dashedName: problem-184-triangles-containing-the-origin
 
 Man betrachte die Menge $I_r$ von Punkten $(x,y)$ mit Integer Koordinaten im Inneren des Kreises mit Radius $r$, der im Ursprung zentriert ist, d.h. $x^2 + y^2 &lt; r^2$.
 
-Für einen Radius von 2 enthält $I_2$ die neun Punkte (0,0), (1,0), (1,1), (0,1), (-1,1), (-1,0), (-1,-1), (0,-1) und (1,-1). Es gibt acht Dreiecke, bei denen alle drei Eckpunkte in $I_2$ liegen und die den Ursprung im Inneren enthalten. Two of them are shown below, the others are obtained from these by rotation.
+Für einen Radius von 2 enthält $I_2$ die neun Punkte (0,0), (1,0), (1,1), (0,1), (-1,1), (-1,0), (-1,-1), (0,-1) und (1,-1). Es gibt acht Dreiecke, bei denen alle drei Eckpunkte in $I_2$ liegen und die den Ursprung im Inneren enthalten. Zwei davon sind unten abgebildet, die anderen erhält man durch Rotation.
 
 <img alt="Kreis mit Radius 2, zentriert im Ursprung, mit neun markierten Punkten und zwei Dreiecken - (-1,0), (0,1), (1,-1) und (-1,1), (0,-1), (1,1)" src="https://cdn.freecodecamp.org/curriculum/project-euler/triangles-containing-the-origin.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 

@@ -8,7 +8,7 @@ dashedName: change-inline-css-conditionally-based-on-component-state
 
 # --description--
 
-ここまで、条件付きレンダーとインラインスタイルの使用について、いくつかの応用例を紹介しました。 これら両方のトピックを組み合わせた例をもう一つ紹介します。 React コンポーネントの状態に基づいて条件付きで CSS をレンダーすることもできます。 それには、条件をチェックし、条件が満たされている場合は、render メソッド内の JSX 要素に割り当てられているスタイルオブジェクトを変更します。
+At this point, you've seen several applications of conditional rendering and the use of inline styles. Here's one more example that combines both of these topics. You can also render CSS conditionally based on the state of a React component. To do this, you check for a condition, and if that condition is met, you modify the styles object that's assigned to the JSX elements in the render method.
 
 この方法は、DOM 要素を直接変更してスタイルを適用するという従来のアプローチと比べて、かなり大きな変更となるため、理解することが重要です (たとえば jQuery ではごく一般的です)。 このアプローチでは、要素がいつ変更されたのかを追跡する必要があり、実際の操作を直接処理する必要もあります。 変更の追跡が困難になり、UI が予測できなくなる可能性があります。 条件に基づいてスタイルオブジェクトを設定するときは、UI をアプリケーションの状態の関数としてどのように表示するかを記述します。 情報の流れは明確で、一方向にしか流れません。 React でアプリケーションを記述するときは、こうした方法が適切です。
 

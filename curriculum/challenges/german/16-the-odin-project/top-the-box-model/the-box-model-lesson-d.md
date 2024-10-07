@@ -6,7 +6,7 @@ dashedName: the-box-model-lesson-d
 --- 
 # --description--
 
-In the Elements pane, you can see the entire HTML structure of your page. You can click on any of the elements in this pane to select that specific element. Alternatively, you can click the blue-highlighted icon shown below on the left, and hover over any element on the page.
+Im Fensterbereich Elemente kannst du die gesamte HTML-Struktur deiner Seite sehen. Du kannst auf ein beliebiges Element in diesem Fensterbereich klicken, um dieses Element auszuwählen. Alternatively, you can click the blue-highlighted icon shown below on the left, and hover over any element on the page.
 
 <img src="https://cdn.freecodecamp.org/curriculum/odin-project/the-box-model/inspector-icon.png" alt="A web development environment with developer tools open, highlighting a blue inspector icon in the top-left for selecting webpage elements to view HTML structure and styles." />
 
@@ -14,7 +14,7 @@ When an element is selected, the Styles tab will show all the currently applied 
 
 <img src="https://cdn.freecodecamp.org/curriculum/odin-project/the-box-model/overwritten-style.png" alt="CSS code snippet in the developer console showing .hero_main-heading with applied margin-bottom: 100px, padding-bottom: 1.875rem, .accent color #ce973e. h1 style rules include font-size, weight, letter-spacing, with its margin-bottom: 2rem overridden." />
 
-# --assignment--
+# --Auftrag--
 
 Play around with Chrome Dev Tools and see if you can answer the following question.
 
@@ -26,7 +26,7 @@ In the Styles pane, what information can you view about an element when it is se
 
 ## --answers--
 
-HTML structure and CSS rules
+HTML-Struktur und CSS-Regeln
 
 ---
 

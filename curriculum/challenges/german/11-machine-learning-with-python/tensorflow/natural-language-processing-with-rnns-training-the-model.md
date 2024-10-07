@@ -1,6 +1,6 @@
 ---
 id: 5e8f2f13c4cdbe86b5c72da2
-title: 'Natural Language Processing With RNNs: Training the Model'
+title: 'Verarbeitung natürlicher Sprache mit RNN: Programmierung des Modells'
 challengeType: 11
 videoId: hEUiK7j9UI8
 bilibiliIds:

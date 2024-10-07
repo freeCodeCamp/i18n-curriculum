@@ -8,7 +8,7 @@ dashedName: create-and-add-to-sets-in-es6
 
 # --description--
 
-Ви вже працювали з ES5, а тепер виконаєте щось подібне в ES6. Це буде значно простіше. ES6 містить вбудовану структуру даних `Set`, тому тепер не потрібно писати велику кількість операцій вручну. Розглянемо:
+Now that you have worked through ES5, you are going to perform something similar in ES6. This will be considerably easier. ES6 contains a built-in data structure `Set` so many of the operations you wrote by hand are now included for you. Let's take a look:
 
 Можна створити нову порожню множину:
 

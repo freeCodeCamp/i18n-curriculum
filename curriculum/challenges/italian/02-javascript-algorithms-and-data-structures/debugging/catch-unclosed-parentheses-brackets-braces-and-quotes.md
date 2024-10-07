@@ -8,7 +8,7 @@ dashedName: catch-unclosed-parentheses-brackets-braces-and-quotes
 
 # --description--
 
-Un altro errore di sintassi a cui bisogna stare attenti è che ogni apertura di parentesi tonde, quadre, graffe e virgolette richiede una chiusura. Dimenticarne una parte tende a succedere quando si sta modificando il codice esistente per inserire elementi che hanno una di queste coppie. Inoltre, presta attenzione quando annidi un blocco di codice dentro a un altro, ad esempio per aggiungere una funzione di callback come argomento a un metodo.
+Another syntax error to be aware of is that all opening parentheses, brackets, curly braces, and quotes have a closing pair. Forgetting a piece tends to happen when you're editing existing code and inserting items with one of the pair types. Also, take care when nesting code blocks into others, such as adding a callback function as an argument to a method.
 
 Un modo per evitare questo errore è, non appena viene digitato il carattere di apertura, inserire immediatamente la chiusura corrispondente, quindi spostare il cursore indietro tra di esse e continuare a scrivere. Fortunatamente, la maggior parte degli editor di codice moderni generano automaticamente la seconda metà della coppia.
 

@@ -9,7 +9,7 @@ dashedName: wrap-radio-buttons-in-a-fieldset-element-for-better-accessibility
 
 # --description--
 
-接下來的表單主題是關於單選按鈕的可訪問性。 在上一個挑戰中，每個單選按鈕都有一個包含 `for` 屬性的 `label` 標籤，這些屬性值指向相關選項的 `id`。 然而單選按鈕通常成組出現，而且用戶必須選擇其中一項。
+The next form topic covers the accessibility of radio buttons. Each choice is given a `label` with a `for` attribute tying to the `id` of the corresponding item as covered in the last challenge. Since radio buttons often come in a group where the user must choose one, there's a way to semantically show the choices are part of a set.
 
 `fieldset` 標籤包裹整組單選按鈕，實現這個功能。 它經常使用 `legend` 標籤來提供分組的描述，以便屏幕閱讀器用戶會閱讀 `fieldset` 元素中的每個選項。
 

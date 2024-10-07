@@ -8,7 +8,7 @@ dashedName: use-the-map-method-to-extract-data-from-an-array
 
 # --description--
 
-Bis jetzt haben wir gelernt, reine Funktionen zu verwenden, um Nebeneffekte in einem Programm zu vermeiden. Außerdem haben wir gesehen, wie wichtig es ist, dass eine Funktion nur von ihren Eingabeargumenten abhängt.
+So far we have learned to use pure functions to avoid side effects in a program. Also, we have seen the value in having a function only depend on its input arguments.
 
 Das ist erst der Anfang. Wie der Name schon sagt, geht es bei der funktionalen Programmierung um eine Theorie der Funktionen.
 

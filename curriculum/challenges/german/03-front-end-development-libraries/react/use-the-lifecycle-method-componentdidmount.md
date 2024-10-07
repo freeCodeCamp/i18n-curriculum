@@ -8,7 +8,7 @@ dashedName: use-the-lifecycle-method-componentdidmount
 
 # --description--
 
-Die meisten Webentwickler müssen irgendwann einen API-Endpunkt aufrufen, um Daten abzurufen. Wenn du mit React arbeitest, ist es wichtig zu wissen, wo du diese Aktion durchführen musst.
+Most web developers, at some point, need to call an API endpoint to retrieve data. If you're working with React, it's important to know where to perform this action.
 
 Die beste Methode bei React ist, API-Aufrufe oder Aufrufe an deinen Server in der Lifecycle-Methode `componentDidMount()` zu platzieren. Diese Methode wird aufgerufen, nachdem eine Komponente in das DOM eingebaut wurde. Jeder Aufruf von `setState()` hier löst ein neues Rendering deiner Komponente aus. Wenn du mit dieser Methode eine API aufrufst und deinen Status mit den Daten einstellst, die die API zurückgibt, wird automatisch eine Aktualisierung ausgelöst, sobald du die Daten erhältst.
 

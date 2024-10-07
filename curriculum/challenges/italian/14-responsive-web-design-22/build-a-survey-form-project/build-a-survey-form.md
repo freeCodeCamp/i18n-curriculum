@@ -10,9 +10,9 @@ dashedName: build-a-survey-form
 
 **Objective:** Build an app that is functionally similar to <a href="https://survey-form.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://survey-form.freecodecamp.rocks</a>. **Do not copy this demo project**.
 
-**User story:**
+**User story (storia d'utente):**
 
-1. Dovresti avere un titolo di pagina in un elemento `h1` con un attributo `id` di `title`
+1. You should have a page title in an `h1` element with an `id` of `title`
 1. Dovrebbe esserci una breve spiegazione in un elemento `p` con un attributo `id` con il valore `description`
 1. Dovrebbe esserci un elemento `form` con un attributo `id` dal valore `survey-form`
 1. All'interno dell'elemento form, devi inserire obbligatoriamente (**required**) il nome in un campo di `input` che ha un `id` con il valore `name` e un `type` con il valore `text`
@@ -29,9 +29,9 @@ dashedName: build-a-survey-form
 1. All'interno dell'elemento form, deve essere un elemento `textarea` per commenti aggiuntivi
 1. All'interno dell'elemento form, deve essere presente un pulsante con un `id` del valore di `submit` per inviare tutti gli input
 
-Soddisfa le user story e passa tutti i test per completare questo progetto. Usa il tuo stile personale. Buon divertimento!
+Soddisfa le user story e supera tutti i test qui sotto per completare questo progetto. Usa il tuo stile personale. Buon Coding!
 
-**Nota:** Assicurati di aggiungere `<link rel="stylesheet" href="styles.css">` nel tuo HTML per linkare il foglio di stile e applicare il CSS
+**Nota:** Assicurati di aggiungere `<link rel="stylesheet" href="styles.css">` nell'HTML per linkare il foglio di stile e applicare il CSS
 
 # --hints--
 

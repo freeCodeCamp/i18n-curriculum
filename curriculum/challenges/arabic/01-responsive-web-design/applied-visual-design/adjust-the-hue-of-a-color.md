@@ -1,6 +1,6 @@
 ---
 id: 587d78a4367417b2b2512ad4
-title: Adjust the Hue of a Color
+title: ضبط درجة اللون (Adjust the Hue of a Color)
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cPp38TZ'
 forumTopicId: 301036
@@ -11,41 +11,41 @@ dashedName: adjust-the-hue-of-a-color
 
 Colors have several characteristics including hue, saturation, and lightness. CSS3 introduced the `hsl()` function as an alternative way to pick a color by directly stating these characteristics.
 
-**Hue** is what people generally think of as 'color'. If you picture a spectrum of colors starting with red on the left, moving through green in the middle, and blue on right, the hue is where a color fits along this line. In `hsl()`, hue uses a color wheel concept instead of the spectrum, where the angle of the color on the circle is given as a value between 0 and 360.
+**hue** هو ما قد يظنه الناس عموماً أنه أصل اللون. إذا تخيلت طيفاً من الألوان يبدأ بالأحمر من اليسار، ثمَّ يَعبُرْ للأخضر في المنتصف، ثم للأزرق على اليمين، فإنَّ درجة اللون (hue) هي نقطة توجد على هذا الخط من التدرج اللوني. في `hsl()`، يستخدم درجة اللون (hue) مفهوم عجلة اللون بدلا من الطيف ، حيث يتم إعطاء زاوية اللون في الدائرة كقيمة بين 0 و 360.
 
-**Saturation** is the amount of gray in a color. A fully saturated color has no gray in it, and a minimally saturated color is almost completely gray. This is given as a percentage with 100% being fully saturated.
+التشبع (**saturation**) هو كمية الرمادي بلون. اللون المشبع بالكامل ليس له رمادي فيه، اللون المشبع قليلاً هو يكاد أن يكون رمادي بالكامل. ويعطى هذا كنسبة مئوية ويكون قيمته 100% للتشبُع الكامل.
 
-**Lightness** is the amount of white or black in a color. A percentage is given ranging from 0% (black) to 100% (white), where 50% is the normal color.
+التشبع (**saturation**) هو كمية الابيض أو الاسود باللون. وتعطى نسبة مئوية تتراوح بين 0% (أسود) و 100% (أبيض)، حيث تكون نسبة 50 في المائة هي اللون العادي.
 
-Here are a few examples of using `hsl()` with fully-saturated, normal lightness colors:
+فيما يلي بعض الأمثلة على استخدام `hsl()` بألوان مشبعة بالكامل و إنارة عادية:
 
 <table><thead><tr><th>Color</th><th>HSL</th></tr></thead><tbody><tr><td>red</td><td>hsl(0, 100%, 50%)</td></tr><tr><td>yellow</td><td>hsl(60, 100%, 50%)</td></tr><tr><td>green</td><td>hsl(120, 100%, 50%)</td></tr><tr><td>cyan</td><td>hsl(180, 100%, 50%)</td></tr><tr><td>blue</td><td>hsl(240, 100%, 50%)</td></tr><tr><td>magenta</td><td>hsl(300, 100%, 50%)</td></tr></tbody></table>
 
 # --instructions--
 
-Change the `background-color` of each `div` element based on the class names (`green`, `cyan`, or `blue`) using `hsl()`. All three should have full saturation and normal lightness.
+قم بتغيير خاصية `background-color` لكل `div` استناداً إلى أسماء الفئات (`green` أو `cyan` أو `blue` باستخدام `hsl()`. الثلاثة يجب أن يكون لديهم تشبّع لون كامل و إضاءة عادية.
 
 # --hints--
 
-Your code should use the `hsl()` function to declare the color green.
+يجب أن يحتوي الكود على function (دالة) `hsl()` لإعلان اللون الأخضر (green).
 
 ```js
 assert.match(code,/\.green\s*?{\s*?background-color\s*:\s*?hsl/gi);
 ```
 
-Your code should use the `hsl()` function to declare the color cyan.
+يجب أن يحتوي الكود على function (دالة) `hsl()` لإعلان اللون الأخضر (green).
 
 ```js
 assert.match(code,/\.cyan\s*?{\s*?background-color\s*:\s*?hsl/gi);
 ```
 
-Your code should use the `hsl()` function to declare the color blue.
+على الكود أن يحوي function (دالة) `hsl()` لإعلان اللون الأزرق (blue).
 
 ```js
 assert.match(code,/\.blue\s*?{\s*?background-color\s*:\s*?hsl/gi);
 ```
 
-The `div` element with class `green` should have a `background-color` of green.
+يجب أن يحتوي عنصر `div` الذي له فئة `green` على `background-color` أخضر.
 
 ```js
 const greenElement = document.querySelector(".green");
@@ -53,7 +53,7 @@ const greenStyle = window.getComputedStyle(greenElement);
 assert.equal(greenStyle?.backgroundColor, 'rgb(0, 255, 0)');
 ```
 
-The `div` element with class `cyan` should have a `background-color` of cyan.
+يجب أن يحتوي عنصر `div` الذي له فئة `cyan` على `background-color` باللون الأزرق السماوي (cyan).
 
 ```js
 const cyanElement = document.querySelector(".cyan");
@@ -61,7 +61,7 @@ const cyanStyle = window.getComputedStyle(cyanElement);
 assert.equal(cyanStyle?.backgroundColor, 'rgb(0, 255, 255)');
 ```
 
-The `div` element with class `blue` should have a `background-color` of blue.
+يجب أن يحتوي عنصر `div` الذي له فئة `blue` على `background-color` أزرق.
 
 ```js
 const blueElement = document.querySelector(".blue");

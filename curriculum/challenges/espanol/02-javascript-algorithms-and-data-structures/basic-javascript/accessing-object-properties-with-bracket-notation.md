@@ -9,7 +9,7 @@ dashedName: accessing-object-properties-with-bracket-notation
 
 # --description--
 
-La segunda manera de acceder a las propiedades de un objeto es con la notación de corchetes (`[]`). Si la propiedad del objeto al que intentas acceder tiene un espacio en el nombre, necesitarás usar notación de corchetes.
+The second way to access the properties of an object is bracket notation (`[]`). If the property of the object you are trying to access has a space in its name, you will need to use bracket notation.
 
 Sin embargo, también puedes utilizar la notación de corchetes en las propiedades de objeto sin espacios.
 

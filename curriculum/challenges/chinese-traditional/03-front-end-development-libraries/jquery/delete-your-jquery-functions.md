@@ -11,7 +11,7 @@ dashedName: delete-your-jquery-functions
 
 # --description--
 
-這些動畫開始看起來很酷，但是有時可能會讓用戶分心。
+These animations were cool at first, but now they're getting kind of distracting.
 
 請刪除 `document ready function` 內的三個 jQuery 函數，但保留 `document ready function` 本身。
 

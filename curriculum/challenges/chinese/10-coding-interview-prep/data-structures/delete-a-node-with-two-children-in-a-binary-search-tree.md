@@ -1,6 +1,6 @@
 ---
 id: 587d8258367417b2b2512c82
-title: Delete a Node with Two Children in a Binary Search Tree
+title: 在二叉搜索树中删除具有两个子节点的节点
 challengeType: 1
 forumTopicId: 301639
 dashedName: delete-a-node-with-two-children-in-a-binary-search-tree
@@ -12,11 +12,11 @@ Removing nodes that have two children is the hardest case to implement. Removing
 
 # --instructions--
 
-Let's finish our `remove` method by handling the third case. We've provided some code again for the first two cases. Add some code now to handle target nodes with two children. Any edge cases to be aware of? What if the tree has only three nodes? Once you are finished this will complete our deletion operation for binary search trees. Nice job, this is a pretty hard problem!
+让我们通过处理第三种情况来完成我们的 `remove` 方法。 我们为前两种情况再次提供了一些代码。 现在添加一些代码来处理具有两个子节点的目标节点。 有什么需要注意的边缘情况吗？ 如果树只有三个节点怎么办？ 完成后，这将完成二进制搜索树的删除操作。 干得好，这是一个非常难的问题！
 
 # --hints--
 
-The `BinarySearchTree` data structure should exist.
+`BinarySearchTree` 数据结构应该存在。
 
 ```js
 assert(
@@ -30,7 +30,7 @@ assert(
 );
 ```
 
-The binary search tree should have a method called `remove`.
+二叉搜索树应该有一个叫做`remove`的方法。
 
 ```js
 assert(
@@ -46,7 +46,7 @@ assert(
 );
 ```
 
-Trying to remove an element that does not exist should return `null`.
+尝试删除不存在的元素应该返回 `null`。
 
 ```js
 assert(
@@ -62,7 +62,7 @@ assert(
 );
 ```
 
-If the root node has no children, deleting it should set the root to `null`.
+如果根节点没有子节点，删除它应该将根设置为 `null`。
 
 ```js
 assert(
@@ -80,7 +80,7 @@ assert(
 );
 ```
 
-The `remove` method should remove leaf nodes from the tree.
+`remove` 方法应该从树中删除叶节点。
 
 ```js
 assert(
@@ -107,7 +107,7 @@ assert(
 );
 ```
 
-The `remove` method should remove nodes with one child.
+`remove` 方法应该删除有一个子节点的节点。
 
 ```js
 assert(
@@ -133,7 +133,7 @@ assert(
 );
 ```
 
-Removing the root in a tree with two nodes should set the second to be the root.
+移除一个有两个节点的树中的根应该将第二个节点设置为根。
 
 ```js
 assert(
@@ -155,7 +155,7 @@ assert(
 );
 ```
 
-The `remove` method should remove nodes with two children while maintaining the binary search tree structure.
+`remove` 方法应该删除有两个孩子的节点，同时保持二叉搜索树结构。
 
 ```js
 assert(
@@ -212,7 +212,7 @@ assert(
 );
 ```
 
-The root should be removable on a tree of three nodes.
+在三个节点的树上，根应该是可移除的。
 
 ```js
 assert(

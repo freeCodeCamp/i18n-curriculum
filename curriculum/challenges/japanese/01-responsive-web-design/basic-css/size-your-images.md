@@ -8,7 +8,7 @@ dashedName: size-your-images
 
 # --description--
 
-CSS には要素の幅を制御する `width` というプロパティがあります。 フォントと同じように、`px` (ピクセル) を使用して画像の幅を指定します。
+CSS has a property called `width` that controls an element's width. Just like with fonts, we'll use `px` (pixels) to specify the image's width.
 
 例えば、HTML 要素に 500 ピクセルの幅を与える `larger-image` という CSS クラスを作成したい場合、次のようにします:
 

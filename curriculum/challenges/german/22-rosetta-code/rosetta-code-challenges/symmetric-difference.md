@@ -8,7 +8,7 @@ dashedName: symmetric-difference
 
 # --description--
 
-Given two sets *A* and *B*, compute $(A \\setminus B) \\cup (B \\setminus A).$ That is, enumerate the items that are in *A* or *B* but not both. This set is called the symmetric difference of *A* and *B*. In other words: $(A \\cup B) \\setminus (A \\cap B)$ (the set of items that are in at least one of *A* or *B* minus the set of items that are in both *A* and *B*).
+Beachte die beiden Mengen *A* und *B* und berechne $(A \\setminus B) \\cup (B \\setminus A).$. Das bedeutet: Zähle die Elemente auf, die sich in *A* oder *B* befinden, aber nicht gleichzeitig in beiden sind. Diese Menge nennt man die symmetrische Differenz von *A* und *B*. Mit anderen Worten: $(A \\cup B) \\setminus (A \\cap B)$ (die Menge von Elementen, die sich mindestens in *A* oder *B* befinden, subtrahiert mit der Menge von Elementen, die sich sowohl in *A* als auch *B* befinden).
 
 Beispiel:
 

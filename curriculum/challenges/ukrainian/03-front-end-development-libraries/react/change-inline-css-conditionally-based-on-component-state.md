@@ -8,7 +8,7 @@ dashedName: change-inline-css-conditionally-based-on-component-state
 
 # --description--
 
-Ви вже бачили декілька застосувань умовного відтворення та використання вбудованих стилів. Розглянемо ще один приклад, який поєднує обидві теми. CSS можна відтворити умовно на основі стану компонента React. Для цього необхідно перевірити умову, та, якщо вона виконана, змінити об’єкт стилів, призначений до елементів JSX в методі відтворення.
+At this point, you've seen several applications of conditional rendering and the use of inline styles. Here's one more example that combines both of these topics. You can also render CSS conditionally based on the state of a React component. To do this, you check for a condition, and if that condition is met, you modify the styles object that's assigned to the JSX elements in the render method.
 
 Цю парадигму важливо зрозуміти, оскільки вона є різкою зміною від більш традиційного підходу застосування стилів шляхом безпосередньої зміни елементів DOM (що дуже часто зустрічається, наприклад, в jQuery). При такому підході необхідно відстежувати час зміни елементів, а також безпосередньо обробляти керування. Іноді важко відслідковувати зміни, що може зробити UI непередбачуваним. Встановлюючи об’єкт стилю на основі умови, потрібно описувати UI у вигляді функції стану застосунку. Існує чіткий потік інформації, який рухається тільки в одному напрямку. Це найбільш прийнятний метод під час написання застосунків з React.
 

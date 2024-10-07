@@ -9,7 +9,7 @@ dashedName: understanding-case-sensitivity-in-variables
 
 # --description--
 
-Em JavaScript todas os nomes de variáveis e funções são sensíveis a caracteres maiúsculos e minúsculos. Isso significa que a capitalização importa.
+In JavaScript all variables and function names are case sensitive. This means that capitalization matters.
 
 `MYVAR` não é o mesmo que `MyVar` nem `myvar`. É possível ter diversas variáveis distintas com o mesmo nome mas com capitalização diferente. É extremamente recomendado pelo bem da clareza, que você *não* use esse recurso da linguagem.
 

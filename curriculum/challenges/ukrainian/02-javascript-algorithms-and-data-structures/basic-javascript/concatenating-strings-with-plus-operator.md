@@ -9,9 +9,9 @@ dashedName: concatenating-strings-with-plus-operator
 
 # --description--
 
-Оператором <dfn>об’єднання (конкатенації)</dfn> у JavaScript називають оператор `+`, який використовується зі значенням `String`. З рядків можна створити новий рядок, <dfn>об’єднавши</dfn> їх.
+In JavaScript, when the `+` operator is used with a `String` value, it is called the <dfn>concatenation</dfn> operator. You can build a new string out of other strings by <dfn>concatenating</dfn> them together.
 
-**Приклад**
+**Наприклад:**
 
 ```js
 'My name is Alan,' + ' I concatenate.'
@@ -19,13 +19,13 @@ dashedName: concatenating-strings-with-plus-operator
 
 **Примітка:** зверніть увагу на пробіли. Конкатенація не додає пробіли між об’єднаними рядками, вам потрібно додавати їх самостійно.
 
-Приклад:
+Наприклад:
 
 ```js
 const ourStr = "I come first. " + "I come second.";
 ```
 
-На консолі відображатиметься рядок `I come first. I come second.`.
+Рядок ` I come first. I come second.` відображатиметься у консолі.
 # --instructions--
 
 Побудуйте `myStr` з рядків `This is the start.` та `This is the end.`, використовуючи оператор `+`. Не забудьте використати пробіл між двома рядками.
@@ -38,7 +38,7 @@ const ourStr = "I come first. " + "I come second.";
 assert(/start\. This/.test(myStr));
 ```
 
-`myStr` повинен мати значення рядка `This is the start. This is the end.`
+`myStr` should have a value of the string `This is the start. This is the end.`
 
 ```js
 assert(myStr === 'This is the start. This is the end.');

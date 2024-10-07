@@ -1,6 +1,6 @@
 ---
 id: bd7993c9c69feddfaeb7bdef
-title: Multiply Two Decimals with JavaScript
+title: JavaScript에서 2개의 실수를 곱하기
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/ce2GeHq'
 forumTopicId: 301173
@@ -11,21 +11,21 @@ dashedName: multiply-two-decimals-with-javascript
 
 In JavaScript, you can also perform calculations with decimal numbers, just like whole numbers.
 
-Let's multiply two decimals together to get their product.
+자, 2개의 실수를 곱해서 값을 계산해 봅시다.
 
 # --instructions--
 
-Change the `0.0` so that product will equal `5.0`.
+`0.0`을 변경해서, 값이 `5.0`과 동일하게 되도록 하세요.
 
 # --hints--
 
-The variable `product` should equal `5.0`.
+변수 `product`는 `5.0`과 동일해야 합니다.
 
 ```js
 assert(product === 5.0);
 ```
 
-You should use the `*` operator
+당신은 `*` 연산자를 사용해야 합니다.
 
 ```js
 assert(/\*/.test(__helpers.removeJSComments(code)));

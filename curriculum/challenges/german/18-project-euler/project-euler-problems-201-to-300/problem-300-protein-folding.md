@@ -8,7 +8,7 @@ dashedName: problem-300-protein-folding
 
 # --description--
 
-In a very simplified form, we can consider proteins as strings consisting of hydrophobic (H) and polar (P) elements, e.g. HHPPHHHPHHPH.
+In einer sehr vereinfachten Form können wir Proteine als Strings betrachten, die aus hydrophoben (H) und polaren (P) Elementen bestehen, z. B. HHPPHHHPHHPH.
 
 Für dieses Problem ist die Orientierung eines Proteins wichtig; z. B. wird HPP als etwas anderes als PPH betrachtet. Es gibt also $2^n$ verschiedene Proteine, die aus $n$ Elementen bestehen.
 
@@ -30,7 +30,7 @@ Wie hoch ist die durchschnittliche Anzahl der H-H-Kontaktpunkte bei einer optima
 
 # --hints--
 
-`proteinFolding()` should return `8.0540771484375`.
+`proteinFolding()` sollte `8.0540771484375` zurückgeben.
 
 ```js
 assert.strictEqual(proteinFolding(), 8.0540771484375);

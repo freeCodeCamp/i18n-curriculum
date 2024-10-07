@@ -8,7 +8,7 @@ dashedName: render-state-in-the-user-interface-another-way
 
 # --description--
 
-還有另一種方法可以訪問組件中的 `state`。 在 `render()` 方法中，在 `return` 語句之前，可以直接編寫 JavaScript。 例如，可以聲明函數、從 `state` 或 `props` 中訪問數據、對此數據執行計算等。 然後，可以將任何數據賦值給 `return` 語句中可以訪問的變量。
+There is another way to access `state` in a component. In the `render()` method, before the `return` statement, you can write JavaScript directly. For example, you could declare functions, access data from `state` or `props`, perform computations on this data, and so on. Then, you can assign any data to variables, which you have access to in the `return` statement.
 
 # --instructions--
 

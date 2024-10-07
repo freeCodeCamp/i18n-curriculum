@@ -8,7 +8,7 @@ dashedName: problem-141-investigating-progressive-numbers-n-which-are-also-squar
 
 # --description--
 
-A positive integer, $n$, is divided by $d$ and the quotient and remainder are $q$ and $r$ respectively. Außerdem sind $d$, $q$ und $r$ aufeinanderfolgende positive ganzzahlige Terme in einer geometrischen Folge, aber nicht unbedingt in dieser Reihenfolge.
+Eine positive ganze Zahl, $n$, wird durch $d$ geteilt und der Quotient und der Rest sind $q$ bzw. $r$. Außerdem sind $d$, $q$ und $r$ aufeinanderfolgende positive ganzzahlige Terme in einer geometrischen Folge, aber nicht unbedingt in dieser Reihenfolge.
 
 Zum Beispiel ergibt 58 geteilt durch 6 einen Quotienten von 9 und einen Rest von 4. Man sieht auch, dass 4, 6, 9 aufeinanderfolgende Terme in einer geometrischen Folge sind (gemeinsames Verhältnis $\frac{3}{2}$).
 

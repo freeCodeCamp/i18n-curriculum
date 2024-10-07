@@ -10,15 +10,15 @@ dashedName: test-if-an-object-has-a-property
 
 As a reminder, this project is being built upon the following starter project on <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>, or cloned from <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
 
-`property` asserts that the actual object has a given property.
+`property` gibt an, dass das Objekt eine bestimmte Eigenschaft hat.
 
 # --instructions--
 
-Within `tests/1_unit-tests.js` under the test labeled `#16` in the `Objects` suite, change each `assert` to either `assert.property` or `assert.notProperty` to make the test pass (should evaluate to `true`). Ändere nicht die Argumente, die an die Assertions übergeben werden.
+Ändere innerhalb `tests/1_unit-tests.js` unter dem Test mit der Beschriftung `#16` in der `Objects`-Suite, jeden `assert` in `assert.property` oder `assert.notProperty` um, damit der Test bestanden wird (sollte `true` ausgeben). Ändere nicht die Argumente, die an die Assertions übergeben werden.
 
 # --hints--
 
-All tests should pass.
+Alle Tests sollten bestehen.
 
 ```js
 (getUserInput) =>

@@ -9,7 +9,7 @@ dashedName: understanding-boolean-values
 
 # --description--
 
-Otro tipo de datos es el <dfn>Booleano</dfn>. Los booleanos solo pueden ser uno de dos valores: `true` (verdadero) o `false` (falso). Básicamente son pequeños interruptores de encendido, donde `true` es encendido y `false` es apagado. Estos dos estados se excluyen mutuamente.
+Another data type is the <dfn>Boolean</dfn>. Booleans may only be one of two values: `true` or `false`. They are basically little on-off switches, where `true` is on and `false` is off. These two states are mutually exclusive.
 
 **Nota** Los valores del tipo booleano nunca se escriben con comillas. Las cadenas `"true"` y `"false"` no son booleanos y no tienen ningún significado especial en JavaScript.
 

@@ -8,7 +8,7 @@ dashedName: sailors-coconuts-and-a-monkey-problem
 
 # --description--
 
-Five sailors are shipwrecked on an island and collect a large pile of coconuts during the day.
+Fünf Seeleute erleiden einen Schiffbruch auf einer Insel und sammeln tagsüber einen großen Haufen Kokosnüsse.
 
 In dieser Nacht wacht der erste Matrose auf und beschließt, sich seinen ersten Anteil zu nehmen, also versucht er, den Haufen Kokosnüsse gleichmäßig in fünf Haufen aufzuteilen, stellt aber fest, dass eine Kokosnuss übrig bleibt, die er einem Affen zuwirft, versteckt dann "seinen", der fünf gleich großen Kokosnussstapel und schiebt die anderen vier Stapel wieder zu einem einzigen sichtbaren Kokosnussstapel zusammen und geht ins Bett.
 

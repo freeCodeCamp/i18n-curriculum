@@ -34,5 +34,5 @@ is focused on translating computer languages into natural/human languages.
 
 ## --video-solution--
 
-الأول
+1
 

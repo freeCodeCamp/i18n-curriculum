@@ -8,7 +8,7 @@ dashedName: handle-a-disconnect
 
 # --description--
 
-Puedes observar que hasta ahora sólo has aumentado el recuento de usuarios. Manejar la desconexión de un usuario es tan fácil como manejar la conexión inicial, excepto que tienes que escucharlo en cada socket en lugar de en todo el servidor.
+You may notice that up to now you have only been increasing the user count. Handling a user disconnecting is just as easy as handling the initial connect, except you have to listen for it on each socket instead of on the whole server.
 
 Para ello, añade otro oyente (listener) dentro del oyente existente `'connect'` que escuche `'disconnect'` en el socket sin que pasen datos. Puedes probar esta funcionalidad simplemente registrando que un usuario se ha desconectado en la consola.
 
@@ -22,7 +22,7 @@ Para asegurar que los usuarios disponen siempre del recuento de usuarios actuali
 
 **Nota:** Al igual que `'disconnect'`, todos los demás eventos que un socket puede emitir al servidor deben ser manejados dentro del oyente de conexión donde tenemos definido 'socket'.
 
-Envía tu página cuando creas que lo has hecho bien. Si se producen errores, <a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#handle-a-disconnect-8" target="_blank" rel="noopener noreferrer nofollow">aquí puedes ver el proyecto completado hasta este punto</a>.
+Envía tu página cuando creas que la has hecho bien. Si se producen errores, <a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#handle-a-disconnect-8" target="_blank" rel="noopener noreferrer nofollow">aquí puedes ver el proyecto completado hasta este punto</a>.
 
 # --hints--
 

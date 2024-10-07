@@ -8,7 +8,7 @@ dashedName: ignore-case-while-matching
 
 # --description--
 
-Fino ad ora, hai guardato alle espressioni regolari per fare dei riconoscimenti letterali di stringhe. Ma a volte, potresti voler trovare corrispondenze senza tener conto delle differenze tra maiuscole e minuscole.
+Up until now, you've looked at regexes to do literal matches of strings. But sometimes, you might want to also match case differences.
 
 In inglese "case" (o a volte "letter case") è la differenza tra lettere maiuscole e lettere minuscole. Esempi di maiuscole sono `A`, `B`e `C`. Esempi di minuscole sono `a`, `b`e `c`.
 

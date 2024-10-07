@@ -20,13 +20,13 @@ Complete o módulo <a href="https://learn.microsoft.com/training/modules/create-
 
 ## --text--
 
-Dada a assinatura do método,
+Given the method signature,
 
 ```clike
 void Print(string name, string number = "", bool member = false)
 ```
 
-Quais das seguintes opções utilizam corretamente argumentos nomeados e opcionais?
+Which of the following options correctly uses named and optional arguments?
 
 ## --answers--
 

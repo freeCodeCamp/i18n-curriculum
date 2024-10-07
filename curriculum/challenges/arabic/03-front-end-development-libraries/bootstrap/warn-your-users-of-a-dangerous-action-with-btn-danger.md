@@ -8,7 +8,7 @@ dashedName: warn-your-users-of-a-dangerous-action-with-btn-danger
 
 # --description--
 
-Bootstrap يأتي مع عدة ألوان محددة سلفًا للأزرار. فئة `btn-danger` هي لون الزر الذي ستستخدمه لإعلام المستخدمين بأن الزر يعمل كمدمر، مثل حذف صورة القطة.
+Bootstrap comes with several pre-defined colors for buttons. The `btn-danger` class is the button color you'll use to notify users that the button performs a destructive action, such as deleting a cat photo.
 
 إنشاء زر باستخدام النص `Delete` وإعطائه الفئة `btn-danger`.
 

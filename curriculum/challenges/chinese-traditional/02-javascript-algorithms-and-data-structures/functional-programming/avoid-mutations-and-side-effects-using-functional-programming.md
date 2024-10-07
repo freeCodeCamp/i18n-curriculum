@@ -8,7 +8,7 @@ dashedName: avoid-mutations-and-side-effects-using-functional-programming
 
 # --description--
 
-如果你還沒想通，上一個挑戰的問題出在 `tabClose()` 函數裏的 `splice`。 不幸的是，`splice` 修改了調用它的原始數組，所以第二次調用它時是基於修改後的數組，纔給出了意料之外的結果。
+If you haven't already figured it out, the issue in the previous challenge was with the `splice` call in the `tabClose()` function. Unfortunately, `splice` changes the original array it is called on, so the second call to it used a modified array, and gave unexpected results.
 
 這是一個小例子，還有更廣義的定義——在變量，數組或對象上調用一個函數，這個函數會改變對象中的變量或其他東西。
 

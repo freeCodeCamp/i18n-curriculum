@@ -8,7 +8,7 @@ dashedName: render-images-from-data-sources
 
 # --description--
 
-У попередніх завданнях ви помітили, що кожен об’єкт в масиві JSON містить ключ `imageLink` зі значенням, яке є URL-адресою зображення кота.
+The last few challenges showed that each object in the JSON array contains an `imageLink` key with a value that is the URL of a cat's image.
 
 Коли ви переглядаєте ці об’єкти, можна використати властивість `imageLink`, щоб відтворити це зображення в елементі `img`.
 

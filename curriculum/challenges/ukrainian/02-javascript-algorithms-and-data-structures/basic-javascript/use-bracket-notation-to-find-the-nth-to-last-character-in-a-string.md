@@ -9,11 +9,11 @@ dashedName: use-bracket-notation-to-find-the-nth-to-last-character-in-a-string
 
 # --description--
 
-Ви можете використати той самий принцип, який ми щойно використовували для отримання останнього символу в рядку, щоб отримати n-ий символ з кінця.
+You can use the same principle we just used to retrieve the last character in a string to retrieve the Nth-to-last character.
 
 Наприклад, ви можете отримати значення третьої з кінця літери рядка `const firstName = "Augusta"`, використавши `firstName[firstName.length - 3]`
 
-Приклад:
+Наприклад:
 
 ```js
 const firstName = "Augusta";
@@ -26,7 +26,7 @@ const thirdToLastLetter = firstName[firstName.length - 3];
 
 Використайте <dfn>дужкову нотацію</dfn>, щоб знайти другий з кінця символ у рядку `lastName`.
 
-**Підказка:** якщо застрягли, перегляньте вищеподаний приклад.
+**Підказка:**Спробуйте подивитися на приклад вище, якщо застрягли.
 
 # --hints--
 

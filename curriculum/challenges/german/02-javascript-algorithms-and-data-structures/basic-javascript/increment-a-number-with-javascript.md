@@ -9,7 +9,7 @@ dashedName: increment-a-number-with-javascript
 
 # --description--
 
-Mit dem Operator `++` kannst du eine Variable einfach <dfn>erhöhen</dfn> oder um eins ergänzen.
+You can easily <dfn>increment</dfn> or add one to a variable with the `++` operator.
 
 ```js
 i++;

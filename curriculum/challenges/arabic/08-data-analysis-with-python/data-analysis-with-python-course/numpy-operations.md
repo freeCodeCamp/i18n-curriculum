@@ -1,6 +1,6 @@
 ---
 id: 5e9a093a74c4063ca6f7c155
-title: Numpy Operations
+title: أستخدام ال(Numpy) في العمليات الرياضية (Numpy Operations)
 challengeType: 11
 videoId: eqSVcJbaPdk
 bilibiliIds:
@@ -14,16 +14,16 @@ dashedName: numpy-operations
 
 *Instead of using notebooks.ai like it shows in the video, you can use Google Colab instead.*
 
-More resources:
+المزيد من المصادر:
 
--  <a href="https://github.com/ine-rmotr-curriculum/freecodecamp-intro-to-numpy" target="_blank" rel="noopener noreferrer nofollow">Notebooks في GitHub</a>
--  <a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb" target="_blank" rel="noopener noreferrer nofollow">كيفية فتح Notebooks من GitHub باستخدام Google Colab.</a>
+-  <a href="https://github.com/ine-rmotr-curriculum/freecodecamp-intro-to-numpy" target="_blank" rel="noopener noreferrer nofollow">Notebooks on GitHub</a>
+-  <a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebookس/colab-github-demo.ipynb" target="_blank" rel="noopener noreferrer nofollow">كيفية فتح (Notebook) من (GitHub) باستخدام (Google Colab).</a>
 
 # --questions--
 
 ## --text--
 
-What is the value of `a` after you run the following code?
+ما هي قيمة `a` بعد تشغيل الكود التالي؟
 
 ```py
 a = np.arange(5)

@@ -8,7 +8,7 @@ dashedName: create-a-linear-scale-with-d3
 
 # --description--
 
-條形圖和散點圖都直接在 SVG 上繪製數據。 但是，如果一組的高或者其中一個數據點比 SVG 的高或寬更大，它將跑到 SVG 區域外。
+The bar and scatter plot charts both plotted data directly onto the SVG. However, if the height of a bar or one of the data points were larger than the SVG height or width values, it would go outside the SVG area.
 
 在 D3 中，比例尺可幫助佈局數據。 `scales` 是函數，它告訴程序如何將一組原始數據點映射到 SVG 上。
 

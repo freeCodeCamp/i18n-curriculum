@@ -8,7 +8,7 @@ dashedName: wherefore-art-thou
 
 # --description--
 
-Напишіть функцію, яка проглядає масив об’єктів (перший аргумент) і повертає масив усіх об’єктів, які мають однакові пари імен та значень (другий аргумент). Кожна пара імен та значень вихідного об'єкта повинна бути в об’єкті з колекції, якщо він необхідний у повернутому масиві.
+Make a function that looks through an array of objects (first argument) and returns an array of all objects that have matching name and value pairs (second argument). Each name and value pair of the source object has to be present in the object from the collection if it is to be included in the returned array.
 
 Наприклад, якщо першим аргументом є `[{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }]` та другим аргументом є `{ last: "Capulet" }`, тоді потрібно повернути третій об’єкт з масиву (перший аргумент), оскільки він містить ім’я та його значення, яке було передане до другого аргументу.
 

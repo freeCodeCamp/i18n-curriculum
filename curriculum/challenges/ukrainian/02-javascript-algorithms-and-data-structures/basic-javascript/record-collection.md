@@ -8,18 +8,18 @@ dashedName: record-collection
 
 # --description--
 
-Ви створюєте функцію, яка допомагає підтримувати колекцію музичних альбомів. Колекція організована як об’єкт, який містить кілька альбомів, які також є об’єктами. Кожен альбом представлено в колекції унікальним `id` як назвою властивості. У кожному об’єкті альбому є різні властивості, що описують інформацію про альбом. Не всі альбоми мають повну інформацію.
+You are creating a function that aids in the maintenance of a musical album collection. The collection is organized as an object that contains multiple albums which are also objects. Each album is represented in the collection with a unique `id` as the property name. Within each album object, there are various properties describing information about the album. Not all albums have complete information.
 
 Функція `updateRecords` приймає 4 аргументи, представлені такими параметрами функції:
 
--   `records` — об’єкт, що містить декілька окремих альбомів
--   `id` — число, що позначає певний альбом в об’єкті `records`
--   `prop` — рядок, що позначає назву властивості альбому, яку потрібно оновити
--   `value` — рядок, що містить інформацію, яка використовується для оновлення властивості альбому
+-   `records` - an object containing several individual albums
+-   `id` - a number representing a specific album in the `records` object
+-   `prop` - a string representing the name of the album’s property to update
+-   `value` - a string containing the information used to update the album’s property
 
 Завершіть функцію, використовуючи правила нижче, щоб змінити об’єкт, переданий до функції.
 
--   Ваша функція завжди повинна повертати весь об’єкт `records`.
+-   Your function must always return the entire `records` object.
 -   Якщо `value` є пустим рядком, видаліть дану властивість `prop` з альбому.
 -   Якщо `prop` не є `tracks` та `value` не є пустим рядком, призначте `value` до `prop` альбому.
 -   Якщо `prop` є `tracks` та `value` не є пустим рядком, але альбом не має властивості `tracks`, створіть порожній масив та додайте `value` до нього.

@@ -8,7 +8,7 @@ dashedName: catch-missing-open-and-closing-parenthesis-after-a-function-call
 
 # --description--
 
-Якщо функція чи метод не приймає жодних аргументів, ви можете забути додати (порожні) відкриваючі та закриваючі дужки під час виклику. Зазвичай результат виклику функції зберігається у змінних для подальшого використання у вашому коді. Цю помилку можна виявити шляхом вводу значень змінних (або їх типів) на консолі та перевірки того, що змінна визначена для посилання на функцію замість очікуваного значення, яке повертає функція.
+When a function or method doesn't take any arguments, you may forget to include the (empty) opening and closing parentheses when calling it. Often times the result of a function call is saved in a variable for other use in your code. This error can be detected by logging variable values (or their types) to the console and seeing that one is set to a function reference, instead of the expected value the function returns.
 
 Змінні у поданому нижче прикладі є різними:
 

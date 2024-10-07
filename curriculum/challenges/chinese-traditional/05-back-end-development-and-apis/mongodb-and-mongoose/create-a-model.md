@@ -8,7 +8,7 @@ dashedName: create-a-model
 
 # --description--
 
-**C** RUD 第一小節——CREATE
+**C**RUD Part I - CREATE
 
 首先，我們需要一個 Schema。 每一個 Schema 都對應一個 MongoDB 的 collection， 並且在相應的 collection 裏定義 documents 的“樣子”。 Schema 用於組成模型（Model）。 我們甚至可以通過嵌套 Schema 來創建複雜的模型。目前我們先從簡。 我們可以根據模型創建實例，模型實例化後的對象稱爲 documents。
 
@@ -30,7 +30,7 @@ const someFunc = function(done) {
 
 按下面的信息創建一個名爲 `personSchema` 的人員模式：
 
-* 必需的 `name` 字段，類型爲 `String`
+* A required `name` field of type `String`
 * `age` 字段，類型爲 `Number`
 * `favoriteFoods` 字段，類型爲 `[String]`
 

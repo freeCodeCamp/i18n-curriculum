@@ -7,7 +7,7 @@ dashedName: step-11
 
 # --description--
 
-Тепер націльте свій елемент `#piano`, використовуючи селектор `id`. Встановіть властивість `background-color` на `#00471b`, властивість `width` на `992px` та властивість `height` на `290px`.
+Now target your `#piano` element with an `id` selector. Set `background-color` property to `#00471b`, the `width` property to `992px` and the `height` property to `290px`.
 
 # --hints--
 

@@ -1,6 +1,6 @@
 ---
 id: 5900f4d31000cf542c50ffe6
-title: 'Problem 359: Hilbert''s New Hotel'
+title: 'Problem 359: Hilberts neues Hotel'
 challengeType: 1
 forumTopicId: 302019
 dashedName: problem-359-hilberts-new-hotel
@@ -8,35 +8,35 @@ dashedName: problem-359-hilberts-new-hotel
 
 # --description--
 
-An infinite number of people (numbered 1, 2, 3, etc.) are lined up to get a room at Hilbert's newest infinite hotel. The hotel contains an infinite number of floors (numbered 1, 2, 3, etc.), and each floor contains an infinite number of rooms (numbered 1, 2, 3, etc.).
+Eine unendliche Anzahl von Leuten (mit den Nummern 1, 2, 3 usw.) stehen Schlange, um ein Zimmer in Hilberts neuestem unendlichen Hotel zu bekommen. Das Hotel besteht aus einer unendlichen Anzahl von Stockwerken (nummeriert mit 1, 2, 3 usw.), und jedes Stockwerk enthält eine unendliche Anzahl von Zimmern (nummeriert mit 1, 2, 3 usw.).
 
-Initially the hotel is empty. Hilbert stellt eine Regel auf, wie die $n^{\text{th}}$ Person ein Zimmer zugewiesen bekommt: Person $n$ bekommt das erste freie Zimmer in der niedrigsten Etage, die eine der folgenden Bedingungen erfüllt:
+Das Hotel ist zunächst leer. Hilbert stellt eine Regel auf, wie die $n^{\text{th}}$ Person ein Zimmer zugewiesen bekommt: Person $n$ bekommt das erste freie Zimmer in der niedrigsten Etage, die eine der folgenden Bedingungen erfüllt:
 
-- the floor is empty
-- the floor is not empty, and if the latest person taking a room in that floor is person $m$, then $m + n$ is a perfect square
+- die Etage ist leer
+- die Etage ist nicht leer, und wenn die letzte Person, die ein Zimmer in dieser Etage belegt hat, die Person $m$ ist, dann ist $m + n$ ein perfektes Quadrat
 
-Person 1 gets room 1 in floor 1 since floor 1 is empty.
+Person 1 erhält das Zimmer 1 im Stockwerk 1, da Stockwerk 1 leer ist.
 
-Person 2 does not get room 2 in floor 1 since 1 + 2 = 3 is not a perfect square.
+Person 2 erhält nicht das Zimmer 2 im Stockwerk 1, da 1 + 2 = 3 keine perfekte Quadratzahl ist.
 
-Person 2 instead gets room 1 in floor 2 since floor 2 is empty.
+Person 2 erhält stattdessen Zimmer 1 im Stockwerk 2, da Stockwerk 2 leer ist.
 
-Person 3 gets room 2 in floor 1 since 1 + 3 = 4 is a perfect square.
+Person 3 bekommt Zimmer 2 in Stockwerk 1, da 1 + 3 = 4 ein perfektes Quadrat ist.
 
-Eventually, every person in the line gets a room in the hotel.
+Schließlich bekommt jede Person in der Schlange ein Zimmer im Hotel.
 
-Define $P(f, r)$ to be $n$ if person $n$ occupies room $r$ in floor $f$, and 0 if no person occupies the room. Here are a few examples:
+Definieren Sie $P(f, r)$ als $n$, wenn die Person $n$ den Raum $r$ im Stockwerk $f$ belegt, und als 0, wenn keine Person den Raum belegt. Hier sind einige Beispiele:
 
 $$\begin{align}   & P(1, 1) = 1 \\\\
   & P(1, 2) = 3 \\\\   & P(2, 1) = 2 \\\\
   & P(10, 20) = 440 \\\\   & P(25, 75) = 4863 \\\\
   & P(99, 100) = 19454 \end{align}$$
 
-Find the sum of all $P(f, r)$ for all positive $f$ and $r$ such that $f × r = 71\\,328\\,803\\,586\\,048$ and give the last 8 digits as your answer.
+Finde die Summe aller $P(f, r)$ für alle positiven $f$ und $r$, so dass $f × r = 71\\,328\\,803\\,586\\,048$ ist und gib die letzten 8 Ziffern als Antwort an.
 
 # --hints--
 
-`hilbertsNewHotel()` should return `40632119`.
+`hilbertsNewHotel()` sollte `40632119` zurückgeben.
 
 ```js
 assert.strictEqual(hilbertsNewHotel(), 40632119);

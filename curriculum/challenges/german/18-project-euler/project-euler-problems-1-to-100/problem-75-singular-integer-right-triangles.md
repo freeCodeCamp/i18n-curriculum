@@ -1,6 +1,6 @@
 ---
 id: 5900f3b71000cf542c50feca
-title: 'Problem 75: Singular integer right triangles'
+title: 'Problem 75: Einfache ganzzahlige rechtwinklige Dreiecke'
 challengeType: 1
 forumTopicId: 302188
 dashedName: problem-75-singular-integer-right-triangles
@@ -19,7 +19,7 @@ Es stellt sich heraus, dass 12 cm die kleinste Drahtlänge ist, die so gebogen w
   <strong>48 cm:</strong> (12,16,20)<br><br>
 </div>
 
-In contrast, some lengths of wire, like 20 cm, cannot be bent to form an integer sided right angle triangle, and other lengths allow more than one solution to be found; for example, using 120 cm it is possible to form exactly three different integer sided right angle triangles.
+Im Gegensatz dazu können einige Drahtlängen, wie z. B. 20 cm, nicht so gebogen werden, dass sie ein ganzseitiges rechtwinkliges Dreieck bilden, und andere Längen ermöglichen mehr als eine Lösung; bei 120 cm ist es zum Beispiel möglich, genau drei verschiedene ganzseitige rechtwinklige Dreiecke zu bilden.
 
 <div style='margin-left: 4em;'>
   <strong>120 cm:</strong> (30,40,50), (20,48,52), (24,45,51)<br><br>

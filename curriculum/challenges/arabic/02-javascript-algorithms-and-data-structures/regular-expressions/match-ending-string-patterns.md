@@ -8,7 +8,7 @@ dashedName: match-ending-string-patterns
 
 # --description--
 
-في التحدي الأخير، تعلمت استخدام رمز الـ caret للبحث عن أنماط في بداية ال strings. وهناك أيضا طريقة للبحث عن أنماط في نهاية ال strings.
+In the last challenge, you learned to use the caret character to search for patterns at the beginning of strings. There is also a way to search for patterns at the end of strings.
 
 يمكنك البحث في نهاية ال strings باستخدام رمز إشارة الدولار `$` في نهاية الـ regex.
 

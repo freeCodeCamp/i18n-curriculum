@@ -9,7 +9,7 @@ dashedName: create-a-row-gap-using-grid-row-gap
 
 # --description--
 
-和上個挑戰在兩列之間添加間距一樣，我們還可以用 `grid-row-gap` 設置行間距。
+You can add a gap in between the rows of a grid using `grid-row-gap` in the same way that you added a gap in between columns in the previous challenge.
 
 # --instructions--
 

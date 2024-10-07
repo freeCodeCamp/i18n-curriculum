@@ -1,13 +1,13 @@
 ---
 id: 5f3ef6e0e0c3feaebcf647ad
-title: Step 47
+title: Крок 47
 challengeType: 0
 dashedName: step-47
 ---
 
 # --description--
 
-Add an `h2` element in the new section and give it the text `Desserts`.
+Додайте елемент `h2` в нову секцію та надайте йому текст `Desserts`.
 
 # --hints--
 
@@ -17,7 +17,7 @@ Add an `h2` element in the new section and give it the text `Desserts`.
 assert.lengthOf(document.querySelectorAll('section'), 2);
 ```
 
-You should add an `h2` element in your second `section` element.
+Додайте елемент `h2` до другого елемента `section`.
 
 ```js
 assert.strictEqual(document.querySelectorAll('section')?.[1]?.children?.[0]?.tagName, 'H2');

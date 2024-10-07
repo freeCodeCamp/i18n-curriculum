@@ -8,7 +8,7 @@ dashedName: add-images-to-your-website
 
 # --description--
 
-`img` 요소를 이용해서 웹사이트에 이미지를 추가하고 `src` 속성을 이용하여 특정 이미지의 URL을 지정할 수 있습니다.
+You can add images to your website by using the `img` element, and point to a specific image's URL using the `src` attribute.
 
 이에 대한 예는 다음과 같습니다.
 

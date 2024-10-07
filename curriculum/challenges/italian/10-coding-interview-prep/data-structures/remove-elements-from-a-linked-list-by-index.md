@@ -8,7 +8,7 @@ dashedName: remove-elements-from-a-linked-list-by-index
 
 # --description--
 
-Prima di passare ad un'altra struttura di dati, otteniamo un altro po' di pratica con liste concatenate.
+Before we move on to another data structure, let's get a couple of last bits of practice with linked lists.
 
 Scriviamo un metodo `removeAt` che rimuove l'elemento `element` in un dato `index`. Il metodo dovrebbe essere chiamato `removeAt(index)`. Per rimuovere un `element` a un certo `index`, avremo bisogno di mantenere un conteggio in esecuzione di ogni nodo mentre ci muoviamo lungo la lista concatenata.
 

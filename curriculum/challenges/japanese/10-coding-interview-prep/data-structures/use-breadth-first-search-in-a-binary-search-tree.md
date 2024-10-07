@@ -8,7 +8,7 @@ dashedName: use-breadth-first-search-in-a-binary-search-tree
 
 # --description--
 
-ここでは、木を走査するもう一つの方法である幅優先探索について説明します。 直前のチャレンジで学んだ深さ優先探索とは対照的に、幅優先探索は、次のレベルに進む前に、木の中において与えられたレベルに位置するノードをすべて探索します。 一般に、幅優先探索アルゴリズムの設計において、ヘルパーデータ構造としてキューが利用されます。
+Here we will introduce another tree traversal method: breadth-first search. In contrast to the depth-first search methods from the last challenge, breadth-first search explores all the nodes in a given level within a tree before continuing on to the next level. Typically, queues are utilized as helper data structures in the design of breadth-first search algorithms.
 
 このメソッドでは、まず、キューに根ノードを追加します。 次に、キューの先頭要素をキューから取り出す操作のループを開始し、それを新しい配列に追加し、次に、その要素の子部分木を両方とも調べます。 子が null でない場合、それぞれがキューに追加されます。 このプロセスはキューが空になるまで続きます。
 

@@ -8,7 +8,7 @@ dashedName: use-a-template-engines-powers
 
 # --description--
 
-Uma das maiores características do uso de um mecanismo de modelos (template engine) é poder passar variáveis do servidor para o arquivo de modelo antes de renderizá-lo em HTML.
+One of the greatest features of using a template engine is being able to pass variables from the server to the template file before rendering it to HTML.
 
 No seu arquivo Pug, você pode usar uma variável fazendo referência ao nome da variável como `#{variable_name}` em linha com outro texto em um elemento ou usando um sinal de igual no elemento sem um espaço, como em `p=variable_name`, que atribui o valor da variável ao texto do elemento p.
 

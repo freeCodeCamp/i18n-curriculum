@@ -8,7 +8,7 @@ dashedName: greatest-subsequential-sum
 
 # --description--
 
-Given a sequence of integers, find a continuous subsequence which maximizes the sum of its elements, that is, the elements of no other single subsequence add up to a value larger than this one.
+Finde für eine Folge ganzer Zahlen eine kontinuierliche Teilfolge, die die Summe ihrer Elemente maximiert, d. h., die Elemente keiner anderen Teilfolge ergeben in der Summe einen größeren Wert als diese Teilfolge.
 
 Eine leere Teilfolge hat die Summe von \\( 0 \\); wenn also alle Elemente negativ sind, muss das Ergebnis die leere Folge sein.
 

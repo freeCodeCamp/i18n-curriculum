@@ -1,6 +1,6 @@
 ---
 id: 565bbe00e9cc8ac0725390f4
-title: Counting Cards
+title: 카드 카운팅
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/c6KE7ty'
 forumTopicId: 16809
@@ -11,21 +11,21 @@ dashedName: counting-cards
 
 In the casino game Blackjack, a player can determine whether they have an advantage on the next hand over the house by keeping track of the relative number of high and low cards remaining in the deck. This is called Card Counting.
 
-Having more high cards remaining in the deck favors the player. Each card is assigned a value according to the table below. When the count is positive, the player should bet high. When the count is zero or negative, the player should bet low.
+덱에 높은 카드가 많이 남아있을수록 플레이어에게 유리합니다. 각 카드는 아래 표의 값에 따라 값이 할당됩니다. 카운트 값이 양수인 경우에 플레이어는 높은 금액을 배팅해야 합니다. 카운트 값이 0이거나 음수인 경우에 플레이어는 낮은 금액을 배팅해야 합니다.
 
-<table><thead><tr><th>Count Change</th><th>Cards</th></tr></thead><tbody><tr><td>+1</td><td>2, 3, 4, 5, 6</td></tr><tr><td>0</td><td>7, 8, 9</td></tr><tr><td>-1</td><td>10, 'J', 'Q', 'K', 'A'</td></tr></tbody></table>
+<table><thead><tr><th>Count Change</th><th>카드</th></tr></thead><tbody><tr><td>+1</td><td>2, 3, 4, 5, 6</td></tr><tr><td>0</td><td>7, 8, 9</td></tr><tr><td>-1</td><td>10, 'J', 'Q', 'K', 'A'</td></tr></tbody></table>
 
-You will write a card counting function. It will receive a `card` parameter, which can be a number or a string, and increment or decrement the global `count` variable according to the card's value (see table). The function will then return a string with the current count and the string `Bet` if the count is positive, or `Hold` if the count is zero or negative. The current count and the player's decision (`Bet` or `Hold`) should be separated by a single space.
+당신은 카드 카운팅을 하는 함수를 만들어야 합니다. 이 함수는 숫자 또는 문자열일 수 있는 `card` 매개 변수를 받고 카드의 값에 따라 전역 `count` 변수를 증가 또는 감소시킵니다(표 참조). 이후에 함수는 현재 카운트와 함께 카운트가 양수인 경우 `Bet` 문자열을 반환하고, 카운트가 0이거나 음수인 경우 `Hold` 문자열을 반환합니다. 현재의 카운트 값과 플레이어의 결정(`Bet` 혹은 `Hold`) 은 공백 한칸으로 분리되어야 합니다.
 
-**Example Outputs:** `-3 Hold` or `5 Bet`
+**예시 출력값들: ** `-3 Hold` 혹은 `5 Bet`
 
-**Hint**  
-Do NOT reset `count` to 0 when value is 7, 8, or 9. Do NOT return an array.  
-Do NOT include quotes (single or double) in the output.
+**힌트**  
+값이 7, 8, 또는 9인 경우 `count`값을 초기화하지마세요. 배열을 반환하지 마세요.  
+출력에 따옴표(단일 혹은 이중) 를 포함하지 마세요.
 
 # --hints--
 
-Your function should return a value for count and the text (`Bet` or `Hold`) with one space character between them.
+함수는 카운트 값과 텍스트(`Bet` 혹은 `Hold`) 사이에 공백 문자가 하나 있는 값을 반환해야 합니다.
 
 ```js
 assert(//
@@ -38,7 +38,7 @@ assert(//
 );
 ```
 
-Cards Sequence 2, 3, 4, 5, 6 should return the string `5 Bet`
+카드 수열이 2, 3, 4, 5, 6인 경우 `5 Bet` 문자열을 반환해야 합니다.
 
 ```js
 assert(
@@ -57,7 +57,7 @@ assert(
 );
 ```
 
-Cards Sequence 7, 8, 9 should return the string `0 Hold`
+카드 수열이 7, 8, 9인 경우 `0 Hold` 문자열을 반환해야 합니다.
 
 ```js
 assert(
@@ -74,7 +74,7 @@ assert(
 );
 ```
 
-Cards Sequence 10, J, Q, K, A should return the string `-5 Hold`
+카드 수열이 10, J, Q, K, A인 경우 `-5 Hold` 문자열을 반환해야 합니다.
 
 ```js
 assert(
@@ -93,7 +93,7 @@ assert(
 );
 ```
 
-Cards Sequence 3, 7, Q, 8, A should return the string `-1 Hold`
+카드 수열이 3, 7, Q, 8, A인 경우 `-1 Hold` 문자열을 반환해야 합니다.
 
 ```js
 assert(
@@ -112,7 +112,7 @@ assert(
 );
 ```
 
-Cards Sequence 2, J, 9, 2, 7 should return the string `1 Bet`
+카드 수열이 2, J, 9, 2, 7인 경우 `1 Bet` 문자열을 반환해야 합니다.
 
 ```js
 assert(
@@ -131,7 +131,7 @@ assert(
 );
 ```
 
-Cards Sequence 2, 2, 10 should return the string `1 Bet`
+카드 수열이 2, 2, 10인 경우 `1 Bet` 문자열을 반환해야 합니다.
 
 ```js
 assert(
@@ -148,7 +148,7 @@ assert(
 );
 ```
 
-Cards Sequence 3, 2, A, 10, K should return the string `-1 Hold`
+카드 수열이 3, 2, A, 10, K인 경우 `-1 Hold` 문자열을 반환해야 합니다.
 
 ```js
 assert(

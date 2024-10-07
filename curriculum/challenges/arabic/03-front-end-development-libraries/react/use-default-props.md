@@ -8,7 +8,7 @@ dashedName: use-default-props
 
 # --description--
 
-React أيضا لديه خِيار لتعيين الميزات الافتراضية (default props). يمكنك تعيين الميزات الافتراضية (default props) للمكون كخاصية في المكون نفسه ويقوم React بتعيين الميزات الافتراضية (default props) إذا لزم الأمر. هذا يسمح لك بتحديد قيمة المِيزة إذا لم يتم تقديم قيمة قصداً. على سبيل المثال، إذا أعلنت `MyComponent.defaultProps = { location: 'San Francisco' }`، لقد عرفت مكان المِيزة التي تم تعيينه بشكل string بقيمة `San Francisco`، إذا لم تحدد خلاف ذلك. إعادة تعيين الميزات React الافتراضية إذا كانت الميزات غير معرفة (React)، ولكن إذا مررت `null` كقيمة للمِيزة، فسيبقى `null`.
+React also has an option to set default props. You can assign default props to a component as a property on the component itself and React assigns the default prop if necessary. This allows you to specify what a prop value should be if no value is explicitly provided. For example, if you declare `MyComponent.defaultProps = { location: 'San Francisco' }`, you have defined a location prop that's set to the string `San Francisco`, unless you specify otherwise. React assigns default props if props are undefined, but if you pass `null` as the value for a prop, it will remain `null`.
 
 # --instructions--
 

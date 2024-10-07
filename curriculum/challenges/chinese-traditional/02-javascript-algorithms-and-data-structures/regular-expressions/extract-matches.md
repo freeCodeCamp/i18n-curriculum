@@ -8,7 +8,7 @@ dashedName: extract-matches
 
 # --description--
 
-到目前爲止，只是檢查了一個匹配模式是否存在於字符串中。 還可以使用 `.match()` 方法來提取找到的實際匹配項。
+So far, you have only been checking if a pattern exists or not within a string. You can also extract the actual matches you found with the `.match()` method.
 
 可以使用字符串來調用 `.match()` 方法，並在括號內傳入正則表達式。
 

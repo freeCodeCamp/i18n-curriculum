@@ -8,7 +8,7 @@ dashedName: render-html-elements-to-the-dom
 
 # --description--
 
-حتى الآن، تعلمت أن JSX أداة مناسبة لكتابة HTML مقروءة داخل JavaScript. مع React، يمكننا تقديم JSX قاصدًا إلى HTML DOM باستخدام React الذي يقدم API المعروف باسم ReactDOM.
+So far, you've learned that JSX is a convenient tool to write readable HTML within JavaScript. With React, we can render this JSX directly to the HTML DOM using React's rendering API known as ReactDOM.
 
 ReactDOM يوفر طريقة بسيطة لتقديم عناصر React إلى DOM التي تبدو مثل: `ReactDOM.render(componentToRender, targetNode)`, حيث الحَجَّة الأولى هي عنصر React أو المكون الذي تريد أن تنتجه، والحجة الثانية هي node DOM التي تريد تقديم المكون إليها.
 

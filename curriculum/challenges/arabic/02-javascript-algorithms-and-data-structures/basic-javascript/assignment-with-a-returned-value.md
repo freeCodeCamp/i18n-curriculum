@@ -9,15 +9,15 @@ dashedName: assignment-with-a-returned-value
 
 # --description--
 
-إذا كنت تتذكر من مناقشتنا حول <a href="/learn/javascript-algorithms-and-data-structures/basic-javascript/storing-values-with-the-assignment-operator" target="_blank" rel="noopener noreferrer nofollow">تخزين القيم مع مشغل التعيين (=)</a>، يتم عزم كل شيء لاحق لعلامة المساواة قبل تعيين القيمة. وهذا يعني أنه يمكننا أخذ القيمة الناتجة من وظيفة وتعيينها إلى متغير.
+If you'll recall from our discussion about <a href="/learn/javascript-algorithms-and-data-structures/basic-javascript/storing-values-with-the-assignment-operator" target="_blank" rel="noopener noreferrer nofollow">Storing Values with the Assignment Operator</a>, everything to the right of the equal sign is resolved before the value is assigned. This means we can take the return value of a function and assign it to a variable.
 
-Assume we have defined a function `sum` which adds two numbers together.
+بافتراض أننا عَرّفنا دالة باسم `sum` المسئولة عن جمع رقمين.
 
 ```js
 ourSum = sum(5, 12);
 ```
 
-Calling the `sum` function with the arguments of `5` and `12` produces a return value of `17`. This return value is assigned to the `ourSum` variable.
+استدعاء الدالة `sum` وتزويدها بالمتغيرات `5` و `12` ينتج عنه إرجاع القيمة `17`. وهذه القيمة سيتم وضعها في المتغير `ourSum`.
 
 # --instructions--
 

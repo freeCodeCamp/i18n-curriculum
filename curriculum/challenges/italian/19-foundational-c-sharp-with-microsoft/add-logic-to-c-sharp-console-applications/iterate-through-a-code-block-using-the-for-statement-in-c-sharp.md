@@ -7,14 +7,14 @@ dashedName: iterate-through-a-code-block-using-the-for-statement-in-c-sharp
 
 # --description--
 
-This challenge will be partially completed on the Microsoft Learn platform. Follow these instructions to complete the challenge:
+Questa sfida sarà parzialmente completata sulla piattaforma Microsoft Learn. Segui queste istruzioni per completare la sfida:
 
 1. Go to <a href="https://learn.microsoft.com/training/modules/csharp-for/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/csharp-for/</a> and complete all the tasks for the "Iterate Through a Code Block Using the for Statement in C#" module. This is **required** to earn the "Add Logic to C# Console Applications" trophy on Microsoft Learn, and qualify for the certification exam.
-1. When you are finished, come back and correctly answer the question below.
+1. Quando hai finito, torna e rispondi correttamente alla domanda qui sotto.
 
 # --assignment--
 
-Complete the <a href="https://learn.microsoft.com/training/modules/csharp-for/" target="_blank" rel="noreferrer">Iterate Through a Code Block Using the `for` Statement in C#</a> module on Microsoft Learn. Then, answer the question below.
+Complete the <a href="https://learn.microsoft.com/training/modules/csharp-for/" target="_blank" rel="noreferrer">Iterate Through a Code Block Using the `for` Statement in C#</a> module on Microsoft Learn. Quindi, rispondere alla domanda qui sotto.
 
 # --questions--
 

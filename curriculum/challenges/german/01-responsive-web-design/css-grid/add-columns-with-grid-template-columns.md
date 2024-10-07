@@ -9,7 +9,7 @@ dashedName: add-columns-with-grid-template-columns
 
 # --description--
 
-Einfach nur ein Rasterelement zu erstellen, bringt dich nicht sehr weit. Du musst auch die Struktur des Rasters festlegen. Um dem Raster einige Spalten hinzuzufügen, verwende die Eigenschaft `grid-template-columns` für einen Raster-Container, wie unten gezeigt:
+Simply creating a grid element doesn't get you very far. You need to define the structure of the grid as well. To add some columns to the grid, use the `grid-template-columns` property on a grid container as demonstrated below:
 
 ```css
 .container {

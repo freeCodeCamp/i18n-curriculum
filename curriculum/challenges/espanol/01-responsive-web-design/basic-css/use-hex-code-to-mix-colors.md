@@ -9,7 +9,7 @@ dashedName: use-hex-code-to-mix-colors
 
 # --description--
 
-Repasemos: En código hexadecimal se utilizan 6 dígitos hexadecimales para representar los colores, dos para el componente rojo (R), verde (G) y azul (B).
+To review, hex codes use 6 hexadecimal digits to represent colors, two each for red (R), green (G), and blue (B) components.
 
 ¡A partir de estos tres colores puros (rojo, verde y azul) podemos variar las cantidades de cada componente de color para crear más de 16 millones de colores distintos!
 
@@ -23,7 +23,7 @@ El dígito `F` es el número más alto en hex code, y representa el brillo máxi
 
 Reemplaza las palabras clave de color en nuestro elemento `style` con los códigos hexadecimales correctos.
 
-<table><tbody><tr><th>Color</th><th>Hex Code</th></tr><tr><td>Dodger Blue (azul dodger)</td><td><code>#1E90FF</code></td></tr><tr><td>Green (verde)</td><td><code>#00FF00</code></td></tr><tr><td>Orange (naranja)</td><td><code>#FFA500</code></td></tr><tr><td>Red (rojo)</td><td><code>#FF0000</code></td></tr></tbody></table>
+<table><tbody><tr><th>Color</th><th>Hex Code</th></tr><tr><td>Dodger Blue</td><td><code>#1E90FF</code></td></tr><tr><td>Green</td><td><code>#00FF00</code></td></tr><tr><td>Orange</td><td><code>#FFA500</code></td></tr><tr><td>Red</td><td><code>#FF0000</code></td></tr></tbody></table>
 
 # --hints--
 

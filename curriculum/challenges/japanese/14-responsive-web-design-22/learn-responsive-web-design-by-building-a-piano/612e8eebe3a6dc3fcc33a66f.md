@@ -7,7 +7,7 @@ dashedName: step-11
 
 # --description--
 
-ここで、`id` セレクターで `#piano` 要素を選択してください。 `background-color` プロパティの値を `#00471b` に、`width` プロパティの値を `992px` に、`height` プロパティの値を `290px` に設定してください。
+Now target your `#piano` element with an `id` selector. Set `background-color` property to `#00471b`, the `width` property to `992px` and the `height` property to `290px`.
 
 # --hints--
 

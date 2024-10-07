@@ -1,6 +1,6 @@
 ---
 id: 56533eb9ac21ba0edf2244ae
-title: Finding a Remainder in JavaScript
+title: JavaScript에서 나머지를 구하기
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cWP24Ub'
 forumTopicId: 18184
@@ -11,7 +11,7 @@ dashedName: finding-a-remainder-in-javascript
 
 The <dfn>remainder</dfn> operator `%` gives the remainder of the division of two numbers.
 
-**Example**
+**예)**
 
 <pre>
 5 % 2 = 1
@@ -28,27 +28,27 @@ In mathematics, a number can be checked to be even or odd by checking the remain
 48 % 2 = 0
 </pre>
 
-**Note:** The <dfn>remainder</dfn> operator is sometimes incorrectly referred to as the modulus operator. It is very similar to modulus, but does not work properly with negative numbers.
+**노트:** <dfn>나머지</dfn> 연산자는 때때로 계수 연산자와 혼동되는 경우가 있습니다. 나머지는 계수와 상당히 닮아 있습니다만, 음수에서는 제대로 기능하지 않습니다.
 
 # --instructions--
 
-Set `remainder` equal to the remainder of `11` divided by `3` using the <dfn>remainder</dfn> (`%`) operator.
+나머지(`%`) 연산자를 사용해서 `reaminder`가 `11`을 `3`으로 나눈 나머지와 같도록 해주세요.
 
 # --hints--
 
-The variable `remainder` should be initialized
+변수 `remainder`를 초기화되어야 합니다.
 
 ```js
 assert(/(const|let|var)\s+?remainder/.test(__helpers.removeJSComments(code)));
 ```
 
-The value of `remainder` should be `2`
+`remainder`의 값은 `2`와 같아야 합니다.
 
 ```js
 assert(remainder === 2);
 ```
 
-You should use the `%` operator
+당신은 `%` 연산자를 사용해야 합니다.
 
 ```js
 assert(/\s+?remainder\s*?=\s*?.*%.*;?/.test(__helpers.removeJSComments(code)));

@@ -8,7 +8,7 @@ dashedName: use-body-parser-to-parse-post-requests
 
 # --description--
 
-Neben GET gibt es ein weiteres, übliches HTTP-Verb: POST. POST ist die Standardmethode, um Benutzerdaten mit HTML-Formularen abzuschicken. Der REST-Konvention zufolge, wird POST dazu verwendet, Daten zu senden, um neue Einträge in einer Datenbank zu erzeugen (ein neuer Nutzer oder ein neuer Blogeintrag). Für dieses Projekt benötigst du keinen Dateneintrag – du wirst dennoch lernen, mit POST-Anfragen zu arbeiten.
+Besides GET, there is another common HTTP verb, it is POST. POST is the default method used to send client data with HTML forms. In REST convention, POST is used to send data to create new items in the database (a new user, or a new blog post). You don’t have a database in this project, but you are going to learn how to handle POST requests anyway.
 
 Bei dieser Art von Anfragen tauchen die Daten nicht in der URL auf – sie werden im Anfragen-Body versteckt. Der Body ist Teil einer HTTP-Anfrage, auch Payload genannt. Obwohl die Daten in der URL nicht sichtbar sind, bedeutet das nicht, dass diese privat sind. Schaue dir diesen unverarbeiteten Inhalt einer HTTP-Post-Anfrage an, um herauszufinden, wieso:
 

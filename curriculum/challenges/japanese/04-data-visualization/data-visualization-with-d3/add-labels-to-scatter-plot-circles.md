@@ -8,7 +8,7 @@ dashedName: add-labels-to-scatter-plot-circles
 
 # --description--
 
-散布図の点のラベルを作成するために、テキストを追加することができます。
+You can add text to create labels for the points in a scatter plot.
 
 目標は、`dataset` 内の各アイテムの 1 つ目 (`x`) と 2 つ目 (`y`) のフィールドのカンマ区切り値を表示することです。
 

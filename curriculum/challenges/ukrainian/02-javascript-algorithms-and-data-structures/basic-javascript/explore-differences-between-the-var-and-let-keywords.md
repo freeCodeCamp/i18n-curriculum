@@ -8,7 +8,7 @@ dashedName: explore-differences-between-the-var-and-let-keywords
 
 # --description--
 
-Одна з найбільших проблем в оголошенні змінних з ключовим словом `var` полягає в легкому перезаписуванні оголошень змінних:
+One of the biggest problems with declaring variables with the `var` keyword is that you can easily overwrite variable declarations:
 
 ```js
 var camper = "James";

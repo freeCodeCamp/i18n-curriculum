@@ -1,6 +1,6 @@
 ---
 id: 5900f4751000cf542c50ff87
-title: 'Problem 264: Triangle Centres'
+title: 'Problem 264: Dreieckszentren'
 challengeType: 1
 forumTopicId: 301913
 dashedName: problem-264-triangle-centres
@@ -8,15 +8,15 @@ dashedName: problem-264-triangle-centres
 
 # --description--
 
-Consider all the triangles having:
+Betrachte alle Dreiecke mit:
 
-- All their vertices on lattice points.
-- Circumcentre at the origin O.
-- Orthocentre at the point H(5, 0).
+- All ihren Scheitelpunkten auf Gitterpunkten.
+- Kreismittelpunkt am Ursprung O.
+- Orthozentrisches Zentrum im Punkt H(5, 0).
 
-There are nine such triangles having a $\text{perimeter} ≤ 50$.
+Es gibt neun solcher Dreiecke mit einem $\text{perimeter} ≤ 50$.
 
-Listed and shown in ascending order of their perimeter, they are:
+Diese sind in aufsteigender Reihenfolge ihres Umfangs aufgelistet und dargestellt:
 
 <table>
   <tbody>
@@ -34,18 +34,18 @@ A(8, 1), B(1, -8), C(-4, 7)<br>
 A(2, 9), B(9, -2), C(-6, -7)<br>
 A(9, 2), B(2, -9), C(-6, 7)<br>
       </td>
-      <td><img alt="nine triangles ABC with perimeter ≤ 50" src="https://cdn.freecodecamp.org/curriculum/project-euler/triangle-centres.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto;"></td>
+      <td><img alt="neun Dreiecke ABC mit Umfängen ≤ 50" src="https://cdn.freecodecamp.org/curriculum/project-euler/triangle-centres.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto;"></td>
     </tr>
   </tbody>
 </table>
 
-The sum of their perimeters, rounded to four decimal places, is 291.0089.
+Die Summe ihrer Umfänge, auf vier Dezimalstellen gerundet, beträgt 291,0089.
 
-Find all such triangles with a $\text{perimeter} ≤ {10}^5$. Enter as your answer the sum of their perimeters rounded to four decimal places.
+Finde alle solchen Dreiecke mit einem $\text{perimeter} ≤ {10}^5$. Gib als Antwort die Summe deiner Umfänge auf vier Dezimalstellen gerundet an.
 
 # --hints--
 
-`triangleCentres()` should return `2816417.1055`.
+`triangleCentres()` sollte `2816417.1055` zurückgeben.
 
 ```js
 assert.strictEqual(triangleCentres(), 2816417.1055);

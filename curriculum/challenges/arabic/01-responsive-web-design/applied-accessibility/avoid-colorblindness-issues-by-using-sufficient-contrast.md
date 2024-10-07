@@ -9,7 +9,7 @@ dashedName: avoid-colorblindness-issues-by-using-sufficient-contrast
 
 # --description--
 
-يشكل اللون جزءا كبيرا من التصميم البصري، ولكن استخدامه يطرح مسألتين تتعلقان بإمكانية الوصول. أولا، لا ينبغي استخدام اللون وحده كوسيلة وحيدة لنقل معلومات هامة لأن مستخدمي قارئ الشاشة لن يروها. ثانيًا ، تحتاج ألوان المقدمة والخلفية إلى تباين كافٍ حتى يتمكن المستخدمون الذين يعانون من عمى الألوان من تمييزها.
+Color is a large part of visual design, but its use introduces two accessibility issues. First, color alone should not be used as the only way to convey important information because screen reader users won't see it. Second, foreground and background colors need sufficient contrast so colorblind users can distinguish them.
 
 شملت التحديات السابقة إيجاد بدائل نصية لمعالجة المسألة الأولى. أدخل التحدي الأخير أدوات للتحقق من التباين للمساعدة مع التحدي الثاني. نسبة التباين 4.5:1 الموصى بها من WCAG تنطبق على استخدام الألوان بالإضافة إلى تركيبات التدرج الرمادي.
 

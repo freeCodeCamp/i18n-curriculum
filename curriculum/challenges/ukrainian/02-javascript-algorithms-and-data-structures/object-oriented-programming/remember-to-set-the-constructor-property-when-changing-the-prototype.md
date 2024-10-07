@@ -8,7 +8,7 @@ dashedName: remember-to-set-the-constructor-property-when-changing-the-prototype
 
 # --description--
 
-Існує один важливий побічний ефект після налаштування прототипу на новий об’єкт вручну. Це призводить до знищення властивості `constructor`! Завдяки цій властивості можна дізнатися, яка функція-конструктор створила екземпляр, але вона була перезаписана, тому надає хибні результати:
+There is one crucial side effect of manually setting the prototype to a new object. It erases the `constructor` property! This property can be used to check which constructor function created the instance, but since the property has been overwritten, it now gives false results:
 
 ```js
 duck.constructor === Bird;

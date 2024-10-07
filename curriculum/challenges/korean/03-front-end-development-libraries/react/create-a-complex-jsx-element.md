@@ -1,6 +1,6 @@
 ---
 id: 5a24bbe0dba28a8d3cbd4c5d
-title: Create a Complex JSX Element
+title: 복잡한 JSX 요소 생성하기
 challengeType: 6
 forumTopicId: 301382
 dashedName: create-a-complex-jsx-element
@@ -10,15 +10,15 @@ dashedName: create-a-complex-jsx-element
 
 The last challenge was a simple example of JSX, but JSX can represent more complex HTML as well.
 
-One important thing to know about nested JSX is that it must return a single element.
+여기서 알고가야 할 중요한 포인트는 중첩된 JSX는 반드시 한 개의 엘리먼트를 반환해야 한다는 점입니다.
 
-This one parent element would wrap all of the other levels of nested elements.
+이 한 개의 부모 엘리먼트는 자식 레벨의 중첩된 모든 엘리먼트를 감쌉니다.
 
-For instance, several JSX elements written as siblings with no parent wrapper element will not transpile.
+만약 여러 형제 JSX 엘리먼트들을 감싸는 부모 엘리먼트가 작성되지 않으면 제대로 트랜스파일 되지 않습니다.
 
-Here's an example:
+여기 예시가 있습니다.
 
-**Valid JSX:**
+**올바른 JSX:**
 
 ```jsx
 <div>
@@ -28,7 +28,7 @@ Here's an example:
 </div>
 ```
 
-**Invalid JSX:**
+**올바르지 않은 JSX:**
 
 ```jsx
 <p>Paragraph One</p>
@@ -38,39 +38,39 @@ Here's an example:
 
 # --instructions--
 
-Define a new constant `JSX` that renders a `div` which contains the following elements in order:
+아래의 엘리먼트들을 순서대로 포함하는 `div`를 렌더링하는, 새로운 상수 변수 `JSX`를 정의해보세요.
 
-An `h1`, a `p`, and an unordered list that contains three `li` items. You can include any text you want within each element.
+`h1` 한 개, `p` 한 개 그리고 `li` 아이템 세 개를 포함하는 순서없는 리스트(ul) 한 개. 각 엘리먼트의 내용은 자유롭게 작성해보세요.
 
-**Note:** When rendering multiple elements like this, you can wrap them all in parentheses, but it's not strictly required. Also notice this challenge uses a `div` tag to wrap all the child elements within a single parent element. If you remove the `div`, the JSX will no longer transpile. Keep this in mind, since it will also apply when you return JSX elements in React components.
+**참고:** 여러 엘리먼트를 렌더링할 때 괄호로 전체를 묶어줄 수 있는데, 반드시 해야하는 것은 아닙니다. 이번 도전에서는 `div` 부모 태그 하나로 모든 자식 엘리먼트를 감쌌습니다. `div`를 제거하면, 변수 JSX가 트랜스파일되지 않습니다. 이렇게 감싸는 것은 리액트 컴포넌트에서 적용되니, 기억해두세요.
 
 # --hints--
 
-The constant `JSX` should return a `div` element.
+상수 변수 `JSX`는 한 개의 `div` 엘리먼트를 반환해야 합니다.
 
 ```js
 assert(JSX.type === 'div');
 ```
 
-The `div` should contain an `h1` tag as the first element.
+`div`는 `h1` 태그를 첫 번째 엘리먼트로 가지고 있어야 합니다.
 
 ```js
 assert(JSX.props.children[0].type === 'h1');
 ```
 
-The `div` should contain a `p` tag as the second element.
+`div`는 `p` 태그를 두 번째 엘리먼트로 가지고 있어야 합니다.
 
 ```js
 assert(JSX.props.children[1].type === 'p');
 ```
 
-The `div` should contain a `ul` tag as the third element.
+`div`는 `ul` 태그를 세 번째 엘리먼트로 가지고 있어야 합니다.
 
 ```js
 assert(JSX.props.children[2].type === 'ul');
 ```
 
-The `ul` should contain three `li` elements.
+`ul`는 세 개의 `li` 엘리먼트를 가지고 있어야 합니다.
 
 ```js
 assert(

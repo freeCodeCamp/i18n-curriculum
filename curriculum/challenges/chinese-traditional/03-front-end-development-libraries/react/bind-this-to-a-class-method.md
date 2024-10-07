@@ -8,7 +8,7 @@ dashedName: bind-this-to-a-class-method
 
 # --description--
 
-除了設置和更新 `state` 之外，還可以爲組件類定義方法。 類方法通常需要使用 `this` 關鍵字，以便它可以訪問方法中類的屬性（例如 `state` 和 `props`）。 有幾種方法可以讓類方法訪問 `this`。
+In addition to setting and updating `state`, you can also define methods for your component class. A class method typically needs to use the `this` keyword so it can access properties on the class (such as `state` and `props`) inside the scope of the method. There are a few ways to allow your class methods to access `this`.
 
 一種常見的方法是在構造函數中顯式地綁定 `this`，這樣當組件初始化時，`this` 就會綁定到類方法。 你可能已經注意到上一個挑戰在構造函數中的 `handleClick` 方法使用了 `this.handleClick = this.handleClick.bind(this)`。 然後，當在類方法中調用像 `this.setState()` 這樣的函數時，`this` 指的是這個類，而不是 `undefined`。
 

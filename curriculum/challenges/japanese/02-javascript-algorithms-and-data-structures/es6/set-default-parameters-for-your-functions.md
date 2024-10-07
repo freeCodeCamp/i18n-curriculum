@@ -8,7 +8,7 @@ dashedName: set-default-parameters-for-your-functions
 
 # --description--
 
-より柔軟な関数を作成できるように、ES6 では関数の<dfn>デフォルトパラメーター</dfn>が導入されています。
+In order to help us create more flexible functions, ES6 introduces <dfn>default parameters</dfn> for functions.
 
 次のコードをご覧ください。
 

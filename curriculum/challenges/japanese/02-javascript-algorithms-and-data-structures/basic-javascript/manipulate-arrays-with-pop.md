@@ -9,7 +9,7 @@ dashedName: manipulate-arrays-with-pop
 
 # --description--
 
-配列内のデータを変更する別の方法として、`.pop()` 関数を使用できます。
+Another way to change the data in an array is with the `.pop()` function.
 
 `.pop()` は配列の末尾の値を取り出すのに使用します。 pop で取り出した値は、変数に代入して格納できます。 `.pop()` は配列から最後の要素を削除してその要素を返す、と言うこともできます。
 

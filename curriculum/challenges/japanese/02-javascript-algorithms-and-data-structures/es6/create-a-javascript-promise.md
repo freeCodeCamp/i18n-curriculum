@@ -8,7 +8,7 @@ dashedName: create-a-javascript-promise
 
 # --description--
 
-JavaScript におけるプロミスとは、その言葉が示すように、何らかの処理を (通常は非同期に) 実行することを「約束する」場合に使用するものです。 タスクを完了するとき、そのタスクは約束を果たしたか果たせなかったかのいずれかになります。 プロミス (`Promise`) はコンストラクター関数なので、`new` キーワードを使用して作成する必要があります。 引数として、2 つのパラメーター (`resolve` と `reject`) を持つ関数を受け取ります。 これらのメソッドは、プロミスの結果を判定するのに使用します。 構文は次のようになります。
+A promise in JavaScript is exactly what it sounds like - you use it to make a promise to do something, usually asynchronously. When the task completes, you either fulfill your promise or fail to do so. `Promise` is a constructor function, so you need to use the `new` keyword to create one. It takes a function, as its argument, with two parameters - `resolve` and `reject`. These are methods used to determine the outcome of the promise. The syntax looks like this:
 
 ```js
 const myPromise = new Promise((resolve, reject) => {

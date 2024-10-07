@@ -8,7 +8,7 @@ dashedName: add-axes-to-a-visualization
 
 # --description--
 
-另一種改進散點圖的方法是添加 x 軸和 y 軸。
+Another way to improve the scatter plot is to add an x-axis and a y-axis.
 
 D3 有兩種方法來渲染 y 軸和 x 軸，分別是 `axisLeft()` 和 `axisBottom()`。 下面是一個基於上個挑戰中的 `xScale` 創建 x 軸的例子：
 
@@ -16,7 +16,7 @@ D3 有兩種方法來渲染 y 軸和 x 軸，分別是 `axisLeft()` 和 `axisBot
 const xAxis = d3.axisBottom(xScale);
 ```
 
-下一步是在 SVG 上渲染 x 軸。 爲此，你可以使用一個 SVG 組件， `g` 元素， `g` 是英文中組（group）的縮寫。 不同於 `rect`、`circle`、`text`，在渲染時，軸只是一條直線。 因爲它是一個簡單的圖形，所以可以用 `g` 。 最後一步是使用 `transform` 屬性將軸放置在 SVG 的正確位置上。 否則，軸將會沿着 SVG 的邊緣渲染，從而不可見。 SVG 支持多種 `transforms`，但是定位軸需要使用 `translate` 屬性。 當它應用在 `g` 元素上時，它根據給出的總量移動整組。 下面是一個例子：
+下一步是在 SVG 上渲染 x 軸。 爲此，你可以使用一個 SVG 組件， `g` 元素， `g` 是英文中組（group）的縮寫。 不同於 `rect`、`circle`、`text`，在渲染時，軸只是一條直線。 因爲它是一個簡單的圖形，所以可以用 `g` 。 最後一步是使用 `transform` 屬性將軸放置在 SVG 的正確位置上。 否則，軸將會沿着 SVG 的邊緣渲染，從而不可見。 SVG 支持多種 `transforms`，但是定位軸需要使用 `translate` 屬性。 當它應用在 `g` 元素上時，它根據給出的總量移動整組。 類似這樣：
 
 ```js
 const xAxis = d3.axisBottom(xScale);

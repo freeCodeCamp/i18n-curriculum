@@ -1,6 +1,6 @@
 ---
 id: 6557dc1aa6be93c1eb4e9efb
-title: Task 29
+title: Aufgabe 29
 challengeType: 19
 dashedName: task-29
 ---
@@ -9,45 +9,45 @@ dashedName: task-29
 
 # --description--
 
-The word `if` is often used in conditional statements to talk about a possible situation and its consequences. Zum Beispiel:
+Das Wort `if` wird oft in bedingten Aussagen verwendet, um über eine mögliche Situation und ihre Konsequenzen zu sprechen. Hier ein Beispiel:
 
-`If it rains, I will bring an umbrella.` (The action of bringing an umbrella depends on the possibility of rain.)
+`If it rains, I will bring an umbrella.` (Die Aktion einen Regenschirm mitzubringen, hängt von der Möglichkeit ab, ob es regnet.)
 
-`If you need help, just ask.` (The offer to help is conditional on the other person needing it.)
+`If you need help, just ask.` (Das Angebot zu helfen, ist an die Bedingung geknüpft, dass die andere Person sie benötigt.)
 
 # --questions--
 
 ## --text--
 
-What does Sarah imply by using `if` in her statement about checking emails and messages?
+Was impliziert Sarah mit der Verwendung von `if` in ihrer Aussage bezüglich der Überprüfung von E-Mails und Nachrichten?
 
 ## --answers--
 
-She always finds urgent updates from her team
-
-### --Feedback--
-
-`If` doesn't suggest certainty of finding urgent updates.
-
----
-
-Sometimes there are urgent updates, sometimes not
-
----
-
-She never checks her emails and messages
-
-### --Feedback--
-
-Sarah actually states that she does check her emails and messages.
-
----
-
-Checking emails is not part of her routine
+Sie findet immer dringende Updates von ihrem Team
 
 ### --feedback--
 
-Sarah mentions that checking emails and messages is part of her routine.
+`If` suggeriert nicht das Finden dringender Updates.
+
+---
+
+Manchmal sind da dringende Updates, manchmal nicht
+
+---
+
+Sie überprüft nie ihre E-Mails und Nachrichten
+
+### --feedback--
+
+Sarah erklärt tatsächlich, dass sie ihre E-Mails und Nachrichten überprüft.
+
+---
+
+Das Überprüfen von E-Mails ist nicht Teil ihrer Routine
+
+### --feedback--
+
+Sarah erwähnt, dass das Überprüfen von E-Mails und Nachrichten Teil ihrer Routine ist.
 
 ## --video-solution--
 

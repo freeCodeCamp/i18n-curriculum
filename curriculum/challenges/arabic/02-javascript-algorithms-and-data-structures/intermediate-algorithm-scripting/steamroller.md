@@ -8,7 +8,7 @@ dashedName: steamroller
 
 # --description--
 
-قم بتسطيح مصفوفة متداخلة (Flatten a nested array). يجب عليك أن تأخذ في الحسبان مستويات مختلفة من التداخل.
+Flatten a nested array. You must account for varying levels of nesting.
 
 # --hints--
 

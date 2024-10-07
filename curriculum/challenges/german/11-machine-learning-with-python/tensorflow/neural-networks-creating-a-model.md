@@ -1,6 +1,6 @@
 ---
 id: 5e8f2f13c4cdbe86b5c72d95
-title: 'Neural Networks: Creating a Model'
+title: 'Neuronale Netzwerke: Erstellen eines Modells'
 challengeType: 11
 videoId: K8bz1bmOCTw
 bilibiliIds:

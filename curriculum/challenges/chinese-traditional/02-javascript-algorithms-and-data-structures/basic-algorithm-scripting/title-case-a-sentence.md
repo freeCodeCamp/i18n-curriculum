@@ -8,7 +8,7 @@ dashedName: title-case-a-sentence
 
 # --description--
 
-請將傳入的字符串中，每個單詞的第一個字母變成大寫並返回。 注意除首字母外，其餘的字符都應是小寫的。
+Return the provided string with the first letter of each word capitalized. Make sure the rest of the word is in lower case.
 
 在這個挑戰中，我們還需要將諸如 `the` 和 `of` 之類的連接詞大寫。
 

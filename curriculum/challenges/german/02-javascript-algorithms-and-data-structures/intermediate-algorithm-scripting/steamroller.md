@@ -8,7 +8,7 @@ dashedName: steamroller
 
 # --description--
 
-Reduziere ein verschachteltes Array. Du musst die verschiedenen Ebenen der Verschachtelung berücksichtigen.
+Flatten a nested array. You must account for varying levels of nesting.
 
 # --hints--
 

@@ -11,7 +11,7 @@ dashedName: change-the-css-of-an-element-using-jquery
 
 # --description--
 
-CSS HTML-елемента можна змінювати безпосередньо за допомогою jQuery.
+We can also change the CSS of an HTML element directly with jQuery.
 
 jQuery має функцію під назвою `.css()`, яка дозволяє змінити CSS елемента.
 
@@ -35,7 +35,7 @@ $("#target1").css("color", "blue");
 assert($('#target1').css('color') === 'rgb(255, 0, 0)');
 ```
 
-Для додавання цих класів використовуйте лише jQuery.
+Для додавання цих класів до елемента використовуйте лише jQuery.
 
 ```js
 assert(!code.match(/class.*animated/g));

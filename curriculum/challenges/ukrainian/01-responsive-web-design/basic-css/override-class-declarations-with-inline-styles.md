@@ -9,7 +9,7 @@ dashedName: override-class-declarations-with-inline-styles
 
 # --description--
 
-Отож, ми довели, що об'яви id заміняють об'яви класів, незалежно від того, де вони об'явлені у вашому елементі CSS `style`.
+So we've proven that id declarations override class declarations, regardless of where they are declared in your `style` element CSS.
 
 Є й інші способи замінити CSS. Пригадуєте вбудовані стилі?
 

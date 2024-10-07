@@ -24,7 +24,7 @@ In this final example, both rules are using ID and class selectors, so neither r
 
 While the `color: red` declaration would take precedence, the `background-color: yellow` declaration would still be applied since there’s no conflicting declaration for it.
 
-# --questions--
+# 问题
 
 ## --text--
 

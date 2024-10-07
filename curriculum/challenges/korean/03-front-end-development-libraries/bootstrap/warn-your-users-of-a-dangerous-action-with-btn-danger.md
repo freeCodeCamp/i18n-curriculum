@@ -8,11 +8,11 @@ dashedName: warn-your-users-of-a-dangerous-action-with-btn-danger
 
 # --description--
 
-부트스트랩에는 버튼을 위한 여러 사전에 정의된 색상들이 포함되어 있습니다. `btn-danger` 클래스는 버튼이 고양이 사진 지우기 같은 행동을 수행한다는 것을 알려줄 때 사용하는 버튼의 색상입니다.
+Bootstrap comes with several pre-defined colors for buttons. The `btn-danger` class is the button color you'll use to notify users that the button performs a destructive action, such as deleting a cat photo.
 
 `Delete`라는 문자를 가진 버튼을 생성하고 `btn-danger` 클래스를 주세요.
 
-버튼들은 여전히 `btn`와 `btn-block` 클래스들이 있어야 합니다.
+버튼들에는 여전히 `btn`와 `btn-block` 클래스들이 있어야 합니다.
 
 # --hints--
 

@@ -8,7 +8,7 @@ dashedName: disable-an-element-using-jquery
 
 # --description--
 
-還能用 jQuery 改變 HTML 標籤的非 CSS 屬性， 例如：禁用按鈕。
+You can also change the non-CSS properties of HTML elements with jQuery. For example, you can disable buttons.
 
 當禁用按鈕時，它將變成灰色並無法點擊。
 

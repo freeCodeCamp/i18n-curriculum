@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: conclusion
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-La mayoría de la gente que es experta en IA o aprendizaje automático suele...:
+Most people that are experts in AI or machine learning usually...:
 
 ## --answers--
 

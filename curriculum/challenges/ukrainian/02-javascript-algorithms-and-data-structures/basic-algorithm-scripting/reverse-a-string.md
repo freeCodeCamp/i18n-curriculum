@@ -8,7 +8,7 @@ dashedName: reverse-a-string
 
 # --description--
 
-Переверніть наданий рядок та поверніть рядок у зворотньому порядку.
+Reverse the provided string and return the reversed string.
 
 Наприклад, `"hello"` повинен стати `"olleh"`.
 

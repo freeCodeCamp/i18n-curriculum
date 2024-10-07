@@ -12,14 +12,14 @@ Das Spiel Number Mind ist eine Variante des bekannten Spiels Master Mind.
 
 Statt farbiger Stifte musst du eine geheime Ziffernfolge erraten. Nach jedem Raten wird dir nur mitgeteilt, an wie vielen Stellen du die richtige Ziffer erraten hast. Wenn also die Zahlenfolge 1234 lautet und du 2036 erraten hast, wird dir gesagt, dass du eine richtige Ziffer hast, aber NICHT, dass du auch eine andere Ziffer an der falschen Stelle hast.
 
-For instance, given the following guesses for a 5-digit secret sequence,
+Nehmen wir zum Beispiel an, dass du eine 5-stellige geheime Sequenz erraten musst,
 
 $$\begin{align}   & 90342 ;2\\;\text{correct}\\\\
   & 70794 ;0\\;\text{correct}\\\\   & 39458 ;2\\;\text{correct}\\\\
   & 34109 ;1\\;\text{correct}\\\\   & 51545 ;2\\;\text{correct}\\\\
   & 12531 ;1\\;\text{correct} \end{align}$$
 
-The correct sequence 39542 is unique.
+Die richtige Reihenfolge 39542 ist einzigartig.
 
 Basierend auf den folgenden Vermutungen,
 
@@ -36,7 +36,7 @@ $$\begin{align}   & 5616185650518293 ;2\\;\text{correct}\\\\
   & 3041631117224635 ;3\\;\text{correct}\\\\   & 1841236454324589 ;3\\;\text{correct}\\\\
   & 2659862637316867 ;2\\;\text{correct} \end{align}$$
 
-Find the unique 16-digit secret sequence.
+Finde die einzigartige 16-stellige geheime Sequenz.
 
 # --hints--
 

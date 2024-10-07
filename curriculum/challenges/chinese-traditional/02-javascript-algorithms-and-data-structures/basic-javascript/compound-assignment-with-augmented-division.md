@@ -9,7 +9,7 @@ dashedName: compound-assignment-with-augmented-division
 
 # --description--
 
-`/=` 操作符是讓變量與另一個數相除並賦值。
+The `/=` operator divides a variable by another number.
 
 ```js
 myVar = myVar / 5;

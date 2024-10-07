@@ -8,7 +8,7 @@ dashedName: understand-the-immediately-invoked-function-expression-iife
 
 # --description--
 
-Часто у JavaScript виконують функцію одразу після її оголошення:
+A common pattern in JavaScript is to execute a function as soon as it is declared:
 
 ```js
 (function () {

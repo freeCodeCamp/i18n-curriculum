@@ -9,7 +9,7 @@ dashedName: create-a-custom-css-variable
 
 # --description--
 
-Щоб створити змінну CSS, вам просто потрібно назвати її з двома дефісами перед нею і надати їй ось таке значення:
+To create a CSS variable, you just need to give it a name with two hyphens in front of it and assign it a value like this:
 
 ```css
 --penguin-skin: gray;
@@ -23,7 +23,7 @@ dashedName: create-a-custom-css-variable
 
 # --hints--
 
-Клас `penguin` повинен створити змінну `--penguin-skin` і присвоїти їй значення `gray`.
+Клас `penguin` повинен задати змінну `--penguin-skin` і надати їй значення `gray`.
 
 ```js
 assert(

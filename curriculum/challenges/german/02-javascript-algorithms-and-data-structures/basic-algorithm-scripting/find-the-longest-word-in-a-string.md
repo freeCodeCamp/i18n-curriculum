@@ -8,7 +8,7 @@ dashedName: find-the-longest-word-in-a-string
 
 # --description--
 
-Gib die Länge des längsten Wortes im angegebenen Satz zurück.
+Return the length of the longest word in the provided sentence.
 
 Deine Antwort sollte eine Zahl sein.
 

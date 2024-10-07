@@ -8,7 +8,7 @@ dashedName: last-letter-first-letter
 
 # --description--
 
-A certain children's game involves starting with a word in a particular category. Each participant in turn says a word, but that word must begin with the final letter of the previous word. Once a word has been given, it cannot be repeated. If an opponent cannot give a word in the category, they fall out of the game.
+Bei einem bestimmten Kinderspiel muss man mit einem Wort einer bestimmten Kategorie beginnen. Jeder Teilnehmer sagt der Reihe nach ein Wort, das jedoch mit dem letzten Buchstaben des vorherigen Wortes beginnen muss. Ein einmal gegebenes Wort kann nicht wiederholt werden. Wenn ein Gegner kein Wort aus der Kategorie nennen kann, scheidet er aus dem Spiel aus.
 
 Zum Beispiel mit der Kategorie "Tiere",
 

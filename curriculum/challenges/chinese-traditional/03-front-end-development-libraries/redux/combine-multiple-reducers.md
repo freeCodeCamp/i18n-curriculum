@@ -8,7 +8,7 @@ dashedName: combine-multiple-reducers
 
 # --description--
 
-當應用程序的狀態開始變得越來越複雜時，可能會將 state 分成多個塊。 相反，請記住 Redux 的第一個原則：所有應用程序狀態都保存在 store 中的一個簡單的 state 對象中。 因此，Redux 提供 reducer 組合作爲複雜狀態模型的解決方案。 定義多個 reducer 來處理應用程序狀態的不同部分，然後將這些 reducer 組合成一個 root reducer。 然後將 root reducer 傳遞給 Redux `createStore()`方法。
+When the state of your app begins to grow more complex, it may be tempting to divide state into multiple pieces. Instead, remember the first principle of Redux: all app state is held in a single state object in the store. Therefore, Redux provides reducer composition as a solution for a complex state model. You define multiple reducers to handle different pieces of your application's state, then compose these reducers together into one root reducer. The root reducer is then passed into the Redux `createStore()` method.
 
 爲了將多個 reducer 組合在一起，Redux 提供了`combineReducers()`方法。 該方法接受一個對象作爲參數，在該參數中定義一個屬性，該屬性將鍵與特定 reducer 函數關聯。 Redux 將使用給定的鍵值作爲關聯狀態的名稱。
 

@@ -8,7 +8,7 @@ dashedName: send-action-data-to-the-store
 
 # --description--
 
-Ви вже дізнались, як відправляти дії до сховища Redux, але ці дії не містили ніякої інформації, окрім `type`. Ви також можете надсилати певні дані разом з діями. Насправді це досить поширено, оскільки дії зазвичай виникають з певних взаємодій користувача, і вони, як правило, містять деякі дані. Сховище Redux зазвичай має знати про ці дані.
+By now you've learned how to dispatch actions to the Redux store, but so far these actions have not contained any information other than a `type`. You can also send specific data along with your actions. In fact, this is very common because actions usually originate from some user interaction and tend to carry some data with them. The Redux store often needs to know about this data.
 
 # --instructions--
 

@@ -12,7 +12,7 @@ dashedName: quadratics
 
 这是<a href="https://colab.research.google.com/drive/1jr_k4awSSW1CBs9ma9oS_WnDblDjX3pc?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">和这个视频配套的 Colab 笔记本</a>。
 
-# --questions--
+# 问题
 
 ## --text--
 

@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: make-a-relational-database
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-What SQL command would you use to retrieve all users that have the email address `quincy@freecodecamp.org`?
+¿Qué comando SQL usarías para obtener a todos los usuarios que tienen la dirección de correo electrónico `quincy@freecodecamp.org`?
 
 ## --answers--
 

@@ -8,7 +8,7 @@ dashedName: smallest-common-multiple
 
 # --description--
 
-Знайдіть найменше спільне кратне заданих параметрів, яке можна поділити на обидва з них, а також на всі послідовні числа в діапазоні між цими параметрами.
+Find the smallest common multiple of the provided parameters that can be evenly divided by both, as well as by all sequential numbers in the range between these parameters.
 
 Діапазоном буде масив з двох чисел, які необов’язково будуть у числовому порядку.
 

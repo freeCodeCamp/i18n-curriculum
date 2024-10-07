@@ -14,7 +14,7 @@ dashedName: conclusion
 
 ## --text--
 
-大多數人工智能或機器學習專家通常......
+Most people that are experts in AI or machine learning usually...:
 
 ## --answers--
 

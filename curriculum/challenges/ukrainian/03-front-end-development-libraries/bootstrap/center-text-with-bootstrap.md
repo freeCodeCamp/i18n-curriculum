@@ -8,7 +8,7 @@ dashedName: center-text-with-bootstrap
 
 # --description--
 
-Тепер, за допомогою Bootstrap, ми можемо відцентрувати заголовок, щоб він мав кращий вигляд. Необхідно лише додати клас `text-center` до елементу `h2`.
+Now that we're using Bootstrap, we can center our heading element to make it look better. All we need to do is add the class `text-center` to our `h2` element.
 
 Пам’ятайте, що до одного елемента можна додати декілька класів, розділивши їх пробілами. Наприклад:
 

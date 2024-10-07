@@ -8,9 +8,9 @@ dashedName: add-document-elements-with-d3
 
 # --description--
 
-D3 verfügt über mehrere Methoden, mit denen du Elemente in deinem Dokument hinzufügen und ändern kannst.
+D3 has several methods that let you add and change elements in your document.
 
-Die `select()`-Methode wählt ein Element aus dem Dokument aus. Sie nimmt ein Argument für den Namen des gewünschten Elements entgegen und gibt einen HTML-Knoten für das erste Element im Dokument zurück, das dem Namen entspricht. Hier ist ein Beispiel:
+Die `select()`-Methode wählt ein Element aus dem Dokument aus. Sie nimmt ein Argument für den Namen des gewünschten Elements entgegen und gibt einen HTML-Knoten für das erste Element im Dokument zurück, das dem Namen entspricht. Hier ein Beispiel:
 
 ```js
 const anchor = d3.select("a");

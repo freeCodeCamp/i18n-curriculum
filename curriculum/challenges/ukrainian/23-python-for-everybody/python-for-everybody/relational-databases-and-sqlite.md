@@ -24,7 +24,7 @@ dashedName: relational-databases-and-sqlite
 
 ## --text--
 
-Що НЕ є первинною структурою даних в базі даних?
+Which is NOT a primary data structure in a database?
 
 ## --answers--
 

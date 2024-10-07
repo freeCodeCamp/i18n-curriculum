@@ -8,7 +8,7 @@ dashedName: extract-state-logic-to-redux
 
 # --description--
 
-完成 React 組件後，我們需要把在本地 `state` 執行的邏輯移到 Redux 中， 這是爲小規模 React 應用添加 Redux 的第一步。 該應用的唯一功能是把用戶的新消息添加到無序列表中。 下面我們用簡單的示例來演示 React 和 Redux 之間的配合。
+Now that you finished the React component, you need to move the logic it's performing locally in its `state` into Redux. This is the first step to connect the simple React app to Redux. The only functionality your app has is to add new messages from the user to an unordered list. The example is simple in order to demonstrate how React and Redux work together.
 
 # --instructions--
 

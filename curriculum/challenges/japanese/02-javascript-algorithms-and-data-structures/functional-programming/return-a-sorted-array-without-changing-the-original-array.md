@@ -8,7 +8,7 @@ dashedName: return-a-sorted-array-without-changing-the-original-array
 
 # --description--
 
-`sort` メソッドには、元の配列にある要素の順序を変更するという副作用があります。 つまり、配列をインプレースでミューテートさせます。 これを避ける方法の一つとして、最初に空の配列をソート対象の配列に連結し (すでに説明したように `slice` や `concat` は新しい配列を返します)、それから `sort` メソッドを実行することができます。
+A side effect of the `sort` method is that it changes the order of the elements in the original array. In other words, it mutates the array in place. One way to avoid this is to first concatenate an empty array to the one being sorted (remember that `slice` and `concat` return a new array), then run the `sort` method.
 
 # --instructions--
 

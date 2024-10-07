@@ -8,7 +8,7 @@ dashedName: modify-an-array-stored-in-an-object
 
 # --description--
 
-我們已經學習了 JavaScript 對象的這些基本操作： 添加、修改、移除鍵值對、檢查某個屬性是否存在、遍歷對象的所有屬性。 在繼續學習 JavaScript 的過程中，我們會了解對象的更多用法。 另外，在之後的數據結構課程中，我們還會學習 ES6 的 <dfn>Map</dfn> 和 <dfn>Set</dfn>。 這兩種數據結構與我們現在學到的對象十分類似，但它們在對象的基礎上提供了一些額外的功能。 目前，我們已經學習了數組和對象的基礎知識，讓我們試着來用所學的知識解決一些更復雜的問題。
+Now you've seen all the basic operations for JavaScript objects. You can add, modify, and remove key-value pairs, check if keys exist, and iterate over all the keys in an object. As you continue learning JavaScript you will see even more versatile applications of objects. Additionally, the Data Structures lessons located in the Coding Interview Prep section of the curriculum also cover the ES6 <dfn>Map</dfn> and <dfn>Set</dfn> objects, both of which are similar to ordinary objects but provide some additional features. Now that you've learned the basics of arrays and objects, you're fully prepared to begin tackling more complex problems using JavaScript!
 
 # --instructions--
 

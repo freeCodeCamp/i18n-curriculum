@@ -7,14 +7,14 @@ dashedName: perform-basic-operations-on-numbers-in-c-sharp
 
 # --description--
 
-This challenge will be partially completed on the Microsoft Learn platform. Follow these instructions to complete the challenge:
+Questa sfida sarà parzialmente completata sulla piattaforma Microsoft Learn. Segui queste istruzioni per completare la sfida:
 
 1. Go to <a href="https://learn.microsoft.com/training/modules/csharp-basic-operations/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/csharp-basic-operations/</a> and complete all the tasks for the "Perform Basic Operations on Numbers in C#" module. This is **required** to earn the "Write Your First Code Using C#" trophy on Microsoft Learn, and qualify for the certification exam.
-1. When you are finished, come back and correctly answer the question below.
+1. Quando hai finito, torna e rispondi correttamente alla domanda qui sotto.
 
 # --assignment--
 
-Complete the <a href="https://learn.microsoft.com/training/modules/csharp-basic-operations/" target="_blank" rel="noreferrer">Perform Basic Operations on Numbers in C#</a> module on Microsoft Learn. Then, answer the question below.
+Complete the <a href="https://learn.microsoft.com/training/modules/csharp-basic-operations/" target="_blank" rel="noreferrer">Perform Basic Operations on Numbers in C#</a> module on Microsoft Learn. Quindi, rispondere alla domanda qui sotto.
 
 # --questions--
 

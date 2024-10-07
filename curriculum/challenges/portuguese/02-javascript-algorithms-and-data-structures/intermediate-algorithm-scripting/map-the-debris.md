@@ -8,11 +8,11 @@ dashedName: map-the-debris
 
 # --description--
 
-De acordo com a Terceira Lei de Kepler, o período orbital $T$ de dois pontos de massa orbitando uma à outra em uma órbita circular ou elíptica é:
+According to Kepler's Third Law, the orbital period $T$ of two point masses orbiting each other in a circular or elliptic orbit is:
 
 $$ T = 2 \pi \sqrt{\frac{a^{3}}{\mu}} $$
 
-- $a$ é o eixo semimaior da órbita
+- $a$ is the orbit's semi-major axis
 - $μ = GM$ é o parâmetro gravitacional padrão
 - $G$ é a constante gravitacional,
 - $M$ é a massa do maior corpo.

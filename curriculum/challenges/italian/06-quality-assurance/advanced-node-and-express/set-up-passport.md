@@ -8,7 +8,7 @@ dashedName: set-up-passport
 
 # --description--
 
-È ora di configurare *Passport* così da permettere finalmente a un utente di registrarsi o accedere a un account. In aggiunta a Passport, userai Express-session per gestire le sessioni. Express-session ha un sacco di funzionalità avanzate che puoi usare ma per ora userai solo le basi. Usare questo middleware salva l'id di sessione come cookie nel client e permette di accedere ai dati di sessione usando quell'id sul server. In questo modo, mantieni le informazioni personali dell'account al di fuori del cookie usato dal client per comunicare al tuo server di essere autenticato e tieni solo la *key* per accedere ai dati immagazzinati nel server.
+It's time to set up *Passport* so you can finally start allowing a user to register or log in to an account. In addition to Passport, you will use Express-session to handle sessions. Express-session has a ton of advanced features you can use, but for now you are just going to use the basics. Using this middleware saves the session id as a cookie in the client, and allows us to access the session data using that id on the server. This way, you keep personal account information out of the cookie used by the client to tell to your server clients are authenticated and keep the *key* to access the data stored on the server.
 
 `passport@~0.4.1` e `express-session@~1.17.1` sono già installati e sono entrambi elencati come dipendenze nel tuo file `package.json`.
 

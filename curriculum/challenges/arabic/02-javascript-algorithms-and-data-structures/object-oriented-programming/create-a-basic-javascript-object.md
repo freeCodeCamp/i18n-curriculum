@@ -8,7 +8,7 @@ dashedName: create-a-basic-javascript-object
 
 # --description--
 
-فكر في الأشياء التي يراها الناس كل يوم، مثل السيارات والمتاجر والطيور. هذه كلها <dfn>objects</dfn>: أشياء ملموسة يمكن للناس مراقبتها والتفاعل معها.
+Think about things people see every day, like cars, shops, and birds. These are all <dfn>objects</dfn>: tangible things people can observe and interact with.
 
 ما هي بعض الصفات لهذه الكائنات؟ السيارة لديها عجلات. المتاجر تبيع السلع. الطيور لها أجنحة.
 

@@ -9,7 +9,7 @@ dashedName: use-css-animation-to-change-the-hover-state-of-a-button
 
 # --description--
 
-Du kannst `@keyframes` verwenden, um die Farbe eines Buttons seinem Hover-Status entsprechend zu ändern (d. h. wenn ein Nutzer mit dem Cursor darüber fährt).
+You can use CSS `@keyframes` to change the color of a button in its hover state.
 
 In folgendem Beispiel verbreitert sich das Bild in einem Hover-Fall:
 

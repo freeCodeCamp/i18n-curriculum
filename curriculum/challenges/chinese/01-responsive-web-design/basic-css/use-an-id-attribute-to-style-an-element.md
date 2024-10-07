@@ -9,7 +9,7 @@ dashedName: use-an-id-attribute-to-style-an-element
 
 # --description--
 
-通过 `id` 属性，你可以做一些很酷的事情。就像 class 一样，你可以使用 CSS 来设置他们的样式。
+One cool thing about `id` attributes is that, like classes, you can style them using CSS.
 
 不过，`id` 不可以重复，它只能作用于一个元素上。 如果一个元素同时应用了 class 和 `id`，且两者设置的样式有冲突，会优先应用 `id` 中所设置的样式。
 

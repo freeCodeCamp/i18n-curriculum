@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: regular-expressions
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-Which regex matches only a white space character?
+¿Qué regex coincide solo con un carácter de espacio en blanco?
 
 ## --answers--
 

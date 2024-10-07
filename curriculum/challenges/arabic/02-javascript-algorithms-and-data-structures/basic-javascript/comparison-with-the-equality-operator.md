@@ -9,7 +9,7 @@ dashedName: comparison-with-the-equality-operator
 
 # --description--
 
-هناك العديد من <dfn>مشغلي المقارنة</dfn> في JavaScript. كل هذه المشغلين ينتجون قيمة منطقية boolean من `true` أو `false`.
+There are many <dfn>comparison operators</dfn> in JavaScript. All of these operators return a boolean `true` or `false` value.
 
 ابسط نوع مشغِّل هو مشغِّل المساواة `==`. يقارن مشغِّل المساواة بين قيمتين و ينتج `true` إذا كانتا القيمتين متساويتين أو `false` إذا لم تكونا كذلك. لاحظ أن المساواة تختلف عن التعيين (`=`)، التي تعطي القيمة على يمين المشغِّل إلى متغير على يساره.
 

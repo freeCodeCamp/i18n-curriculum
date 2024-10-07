@@ -8,7 +8,7 @@ dashedName: target-the-parent-of-an-element-using-jquery
 
 # --description--
 
-يحتوي كل عنصر HTML على عنصر `parent` الذي `inherits` خصائص.
+Every HTML element has a `parent` element from which it `inherits` properties.
 
 For example, the `h3` element in your `jQuery Playground` has the parent element of `<div class="container-fluid">`, which itself has the parent element of `body`.
 

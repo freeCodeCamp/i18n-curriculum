@@ -9,7 +9,7 @@ dashedName: create-visual-direction-by-fading-an-element-from-left-to-right
 
 # --description--
 
-Для цього завдання ви зміните `opacity` анімованого елемента, тому він поступово зникає, коли досягає правої частини екрану.
+For this challenge, you'll change the `opacity` of an animated element so it gradually fades as it reaches the right side of the screen.
 
 У відображеній анімації, округлий елемент з фоновим градієнтом рухається праворуч до позначки 50% анімації, як правило `@keyframes`.
 

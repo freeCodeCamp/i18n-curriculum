@@ -9,7 +9,7 @@ dashedName: word-blanks
 
 # --description--
 
-给你一些不完整的句子，这些句子会缺少一些例如名词、动词、形容词或者副词之类的字词。 然后你需要使用你选择的词语去填补这些缺失的地方，使得这个句子变得完整且有意义。
+You are provided sentences with some missing words, like nouns, verbs, adjectives and adverbs. You then fill in the missing pieces with words of your choice in a way that the completed sentence makes sense.
 
 考虑这句话：
 

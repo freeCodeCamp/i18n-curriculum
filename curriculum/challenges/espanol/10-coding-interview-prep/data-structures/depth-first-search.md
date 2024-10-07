@@ -8,7 +8,7 @@ dashedName: depth-first-search
 
 # --description--
 
-Similar a <dfn>breadth-first-search</dfn>, aquí aprendermos sobre otro algoritmo de recorrido de grafos llamado <dfn>depth-first-search</dfn>.
+Similar to <dfn>breadth-first search</dfn>, here we will learn about another graph traversal algorithm called <dfn>depth-first search</dfn>.
 
 Donde la búsqueda en profundidad busca de manera incremental arista alejándose del nodo fuente, <dfn>depth-first-search</dfn> primero baja sobre un camino se aristas tan lejos como pueda.
 

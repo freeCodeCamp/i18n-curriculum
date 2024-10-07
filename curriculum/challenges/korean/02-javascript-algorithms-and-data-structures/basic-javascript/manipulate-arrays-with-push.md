@@ -1,6 +1,6 @@
 ---
 id: 56bbb991ad1ed5201cd392cb
-title: Manipulate Arrays With push Method
+title: push 메서드를 사용하여 배열 조작하기
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cnqmVtJ'
 forumTopicId: 18237
@@ -11,9 +11,9 @@ dashedName: manipulate-arrays-with-push
 
 An easy way to append data to the end of an array is via the `push()` method.
 
-The `push()` method takes one or more <dfn>arguments</dfn> and appends them to the end of the array, in the order in which they appear. It returns the new length of the array.
+`push()` 메서드는 하나 이상의 <dfn>인수</dfn>를 가져와서 나타나는 순서대로 배열의 끝에 추가합니다. 이 메서드는 배열의 새로운 길이를 반환합니다.
 
-Examples:
+예:
 
 ```js
 const arr1 = [1, 2, 3];
@@ -23,15 +23,15 @@ const arr2 = ["Stimpson", "J", "cat"];
 arr2.push(["happy", "joy"]);
 ```
 
-`arr1` now has the value `[1, 2, 3, 4, 5]` and `arr2` has the value `["Stimpson", "J", "cat", ["happy", "joy"]]`.
+`arr1`은 이제 `[1, 2, 3, 4, 5]`의 값을 가지고 있으며 `arr2`는 `["Stimpson", "J", "cat", ["happy", "joy"]]`의 값을 가지고 있습니다.
 
 # --instructions--
 
-Push `["dog", 3]` onto the end of the `myArray` variable.
+`["dog", 3]`을 `myArray`의 끝에 넣으세요(Push).
 
 # --hints--
 
-`myArray` should now equal `[["John", 23], ["cat", 2], ["dog", 3]]`.
+`myArray`는 이제 `[["John", 23], ["cat", 2], ["dog", 3]]`와 같아야 합니다.
 
 ```js
 assert(

@@ -9,7 +9,7 @@ dashedName: use-conditional-logic-with-if-statements
 
 # --description--
 
-`if` 语句用于在代码中做出决定。 关键字 `if` 告诉 JavaScript 在小括号中的条件为真的情况下去执行定义在大括号里面的代码。 这种条件被称为 `Boolean` 条件，因为他们只可能是 `true`（真）或 `false`（假）。
+`if` statements are used to make decisions in code. The keyword `if` tells JavaScript to execute the code in the curly braces under certain conditions, defined in the parentheses. These conditions are known as `Boolean` conditions and they may only be `true` or `false`.
 
 当条件的计算结果为 `true`，程序执行大括号内的语句。 当布尔条件的计算结果为 `false`，大括号内的代码将不会执行。
 

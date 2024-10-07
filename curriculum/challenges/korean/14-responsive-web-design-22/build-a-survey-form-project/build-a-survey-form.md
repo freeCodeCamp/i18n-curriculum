@@ -1,6 +1,6 @@
 ---
 id: 587d78af367417b2b2512b03
-title: Build a Survey Form
+title: 설문 양식 만들기
 challengeType: 14
 forumTopicId: 301145
 dashedName: build-a-survey-form
@@ -10,7 +10,7 @@ dashedName: build-a-survey-form
 
 **Objective:** Build an app that is functionally similar to <a href="https://survey-form.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://survey-form.freecodecamp.rocks</a>. **Do not copy this demo project**.
 
-**User Stories:**
+**유저 스토리:**
 
 1. You should have a page title in an `h1` element with an `id` of `title`
 1. You should have a short explanation in a `p` element with an `id` of `description`
@@ -29,9 +29,9 @@ dashedName: build-a-survey-form
 1. Inside the form element, you are presented with a `textarea` for additional comments
 1. Inside the form element, you are presented with a button with `id` of `submit` to submit all the inputs
 
-Fulfill the user stories and pass all the tests below to complete this project. Give it your own personal style. Happy Coding!
+아래의 사용자 스토리를 충족시키고 모든 테스트를 통과하여 이 프로젝트를 완료하세요. 자신만의 개성을 담아 디자인을 꾸며보세요. 즐거운 코딩 하세요!
 
-**Note:** Be sure to add `<link rel="stylesheet" href="styles.css">` in your HTML to link your stylesheet and apply your CSS
+**참고:** 스타일시트를 연결하고 CSS를 적용하려면 HTML에 `<link rel="stylesheet" href="styles.css">`를 추가하세요.
 
 # --hints--
 

@@ -12,25 +12,25 @@ dashedName: convolutional-neural-networks
 
 # --description--
 
-Декілька наступних відеоуроків посилатимуться на [цей блокнот Colab](https://colab.research.google.com/drive/1ZZXnCjFEOkp_KdNcNabd14yok0BAIuwS#forceEdit=true&sandboxMode=true).
+The next few video lessons will reference [this Colab notebook](https://colab.research.google.com/drive/1ZZXnCjFEOkp_KdNcNabd14yok0BAIuwS#forceEdit=true&sandboxMode=true).
 
 # --questions--
 
 ## --text--
 
-Щільні нейронні мережі обробляють вхідні дані і виділяють структури у певних місцях. Згорткові нейронні мережі...:
+Dense neural networks analyze input on a global scale and recognize patterns in specific areas. Convolutional neural networks...:
 
 ## --answers--
 
-теж глобально обробляють вхідні дані та виділяють елементи у певних місцях.
+also analyze input globally and extract features from specific areas.
 
 ---
 
-погано працюють із класифікацією зображення або визначенням об’єкта.
+do not work well for image classification or object detection.
 
 ---
 
-ретельно переглядають всі вхідні дані та вивчають локальні шаблони.
+scan through the entire input a little at a time and learn local patterns.
 
 ## --video-solution--
 

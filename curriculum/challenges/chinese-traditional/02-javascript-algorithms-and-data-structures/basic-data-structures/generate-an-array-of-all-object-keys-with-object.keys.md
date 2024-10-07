@@ -8,7 +8,7 @@ dashedName: generate-an-array-of-all-object-keys-with-object-keys
 
 # --description--
 
-我們可以給 `Object.keys()` 方法傳入一個對象作爲參數，來生成包含對象所有鍵的數組。 這個方法將對象作爲參數並返回代表對象中每個屬性的字符串數組。 需要注意的是，數組中元素的順序是不確定的。
+We can also generate an array which contains all the keys stored in an object with the `Object.keys()` method. This method takes an object as the argument and returns an array of strings representing each property in the object. Again, there will be no specific order to the entries in the array.
 
 # --instructions--
 
@@ -16,7 +16,7 @@ dashedName: generate-an-array-of-all-object-keys-with-object-keys
 
 # --hints--
 
-`users` 對象應該只包含 `Alan`、`Jeff`、`Sarah`、`Ryan` 這 4 個屬性。
+`users` 對象應該只包含 `Alan`、`Jeff`、`Sarah`、`Ryan` 4 個屬性。
 
 ```js
 assert(

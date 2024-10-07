@@ -7,9 +7,9 @@ dashedName: working-with-text-lesson-g
 
 # --description--
 
-HTML comments are not visible to the browser; they allow us to comment on your code so that other developers or your future selves can read them and get some context about something that might not be clear in the code.
+HTML-Kommentare sind für den Browser nicht sichtbar; sie ermöglichen es uns, in deinem Code zu kommentieren, so dass andere Entwickler oder dein zufünftiges Ich sie lesen können und einen Kontext zu etwas erhalten, das im Code vielleicht nicht klar ist.
 
-Writing an HTML comment is simple: You just enclose the comment with `<!--` and `-->`tags. For example:
+Das Schreiben eines HTML-Kommentars ist einfach: Du umschließt den Kommentar einfach mit `<!--`- und `-->`-Tags. Hier ein Beispiel:
 
 ```html
 <h1> View the html to see the hidden comments </h1>
@@ -21,15 +21,15 @@ Writing an HTML comment is simple: You just enclose the comment with `<!--` and 
 <!-- I am another html comment -->
 ```
 
-# --assignment--
+# --Auftrag--
 
-To get some practice working with text in HTML, create a plain blog article page which uses different headings, uses paragraphs, and has some text in the paragraphs bolded and italicized. You can use [Lorem Ipsum](https://loremipsum.io) to generate dummy text, in place of real text as you build your sites.
+Um den Umgang mit Text in HTML zu üben, erstelle eine leere Blog-Artikelseite mit verschiedenen Überschriften, Absätzen und fett- und kursivgeschriebenem Text in den Absätzen. Du kannst [Lorem Ipsum](https://loremipsum.io) verwenden, um beim Aufbau deiner Websites Blindtext anstelle von echtem Text zu erzeugen.
 
 # --questions--
 
 ## --text--
 
-How do you create HTML comments?
+Wie erstellt man HTML-Kommentare?
 
 ## --answers--
 

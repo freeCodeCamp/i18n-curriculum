@@ -10,7 +10,7 @@ dashedName: visualize-data-with-a-heat-map
 
 **Objective:** Build an app that is functionally similar to this: <a href="https://heat-map.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://heat-map.freecodecamp.rocks</a>.
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+أكمل "قصص المستخدم" بالأسفل وتأكد من اكتمال جميع الاختبارات بنجاح. استخدم أي مَكتبة أو API تَحتاج. أعطها التصميم الخاص بك.
 
 يُمكنك استخدام HTML و JavaScript و CSS إلى جانب مكتبة D3. يجري الاستعلام عن كُل عٌنصر (DOM elements) في أثناء كُل اختبار. في حال كُنت تستخدم مكتبة (frontend framework) مثل Vue، فإن نتائج الاختبار ربما تكون غير دقيقة بسبب أنَّ المحتوى ديناميكي. نتمنى أن نتوافق معهم في القريب العاجل، لكن هذه المكتبات غير مدعومة لمشاريع D3 حالياََ.
 

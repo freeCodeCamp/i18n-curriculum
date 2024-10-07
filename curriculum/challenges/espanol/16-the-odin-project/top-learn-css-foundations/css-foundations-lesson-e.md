@@ -37,7 +37,7 @@ En el ejemplo anterior, se seleccionarían los primeros dos elementos con la cla
 
 Realmente no hay límite para cuántos combinadores puedes agregar a una regla, por lo que `.one .two .three .four` sería totalmente válido. Esto solo seleccionaría un elemento que tenga una clase de `four` si tiene un ancestro con una clase de `three`, y si ese ancestro tiene su propio ancestro con una clase de `two`, y así sucesivamente. Por lo general, deseas evitar intentar seleccionar elementos que necesiten este nivel de anidamiento, ya que puede volverse bastante confuso y largo, y puede causar problemas cuando se trata de especificidad.
 
-# --questions--
+# --preguntas----preguntas--
 
 ## --text--
 

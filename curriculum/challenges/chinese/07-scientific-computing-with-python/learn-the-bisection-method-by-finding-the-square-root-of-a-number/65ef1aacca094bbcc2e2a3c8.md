@@ -1,6 +1,6 @@
 ---
 id: 65ef1aacca094bbcc2e2a3c8
-title: Step 9
+title: 步骤 9
 challengeType: 20
 dashedName: step-9
 ---

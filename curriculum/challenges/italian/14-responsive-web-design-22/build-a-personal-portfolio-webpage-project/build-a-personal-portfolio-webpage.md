@@ -11,9 +11,9 @@ dashedName: build-a-personal-portfolio-webpage
 **Objective:** Build an app that is functionally similar to <a href="https://personal-portfolio.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://personal-portfolio.freecodecamp.rocks</a>. **Do not copy this demo project**.
 
 
-**User story:**
+**User story (storia d'utente):**
 
-1. Il portfolio dovrebbe avere una sezione di benvenuto con un `id` di `welcome-section`
+1. Your portfolio should have a welcome section with an `id` of `welcome-section`
 1. La sezione di benvenuto dovrebbe avere un elemento `h1` con del testo
 1. Il tuo portfolio dovrebbe avere una sezione progetti con un attributo `id` di `projects`
 1. La sezione progetti dovrebbe contenere almeno un elemento con un attributo `class` di `project-tile` per contenere un progetto
@@ -25,9 +25,9 @@ dashedName: build-a-personal-portfolio-webpage
 1. L'altezza della sezione di benvenuto dovrebbe essere uguale all'altezza del viewport
 1. La barra di navigazione dovrebbe sempre essere in cima al viewport
 
-Soddisfa le user story e passa tutti i test qui sotto per completare questo progetto. Usa il tuo stile personale. Buon divertimento!
+Soddisfa le user story e supera tutti i test qui sotto per completare questo progetto. Usa il tuo stile personale. Buon Coding!
 
-**Nota:** Assicurati di aggiungere `<link rel="stylesheet" href="styles.css">` nel tuo HTML per linkare il foglio di stile e applicare il CSS
+**Nota:** Assicurati di aggiungere `<link rel="stylesheet" href="styles.css">` nell'HTML per linkare il foglio di stile e applicare il CSS
 
 # --hints--
 

@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d4036154
-title: Combine Multiple Reducers
+title: 여러 리듀서들 결합하기
 challengeType: 6
 forumTopicId: 301436
 dashedName: combine-multiple-reducers
@@ -10,9 +10,9 @@ dashedName: combine-multiple-reducers
 
 When the state of your app begins to grow more complex, it may be tempting to divide state into multiple pieces. Instead, remember the first principle of Redux: all app state is held in a single state object in the store. Therefore, Redux provides reducer composition as a solution for a complex state model. You define multiple reducers to handle different pieces of your application's state, then compose these reducers together into one root reducer. The root reducer is then passed into the Redux `createStore()` method.
 
-In order to let us combine multiple reducers together, Redux provides the `combineReducers()` method. This method accepts an object as an argument in which you define properties which associate keys to specific reducer functions. The name you give to the keys will be used by Redux as the name for the associated piece of state.
+리덕스는 여러 리듀서들을 결합하기 위해서 `combineReducers()` 방식을 제공합니다. 이 방식은 객체를 인수로 받는데, 이때 키를 특정 리듀서 함수들에 연결하는 속성을 정의할 수 있습니다. 키에 주어진 이름은 리덕스에서 해당 상태 조각의 이름으로 사용됩니다.
 
-Typically, it is a good practice to create a reducer for each piece of application state when they are distinct or unique in some way. For example, in a note-taking app with user authentication, one reducer could handle authentication while another handles the text and notes that the user is submitting. For such an application, we might write the `combineReducers()` method like this:
+일반적으로 서로 구별되거나 고유한 애플리케이션 상태의 각 조각에 대한 리듀서를 생성하는 것이 좋은 관행입니다. 예를 들어 사용자 인증이 있는 메모 앱에서는 하나의 리듀서가 인증을 처리하고 다른 리듀서는 사용자가 제출하는 텍스트와 메모를 처리할 수 있습니다. 이러한 앱들을 경우, `combineReducers()` 방식을 아래와 같이 작성합니다.
 
 ```js
 const rootReducer = Redux.combineReducers({
@@ -21,15 +21,15 @@ const rootReducer = Redux.combineReducers({
 });
 ```
 
-Now, the key `notes` will contain all of the state associated with our notes and handled by our `notesReducer`. This is how multiple reducers can be composed to manage more complex application state. In this example, the state held in the Redux store would then be a single object containing `auth` and `notes` properties.
+`notes` 키는 메모와 연관된 상태를 포함하고 `notesReducer` 에 의해 처리됩니다. 이런 식으로 여러 리듀서를 구성하여 더 복잡한 애플리케이션 상태를 관리할 수 있습니다. 예시에서 리덕스 스토어에 저장된 상태는 `auth`와 `notes` 속성을 포함하는 단일 객체가 됩니다.
 
 # --instructions--
 
-There are `counterReducer()` and `authReducer()` functions provided in the code editor, along with a Redux store. Finish writing the `rootReducer()` function using the `Redux.combineReducers()` method. Assign `counterReducer` to a key called `count` and `authReducer` to a key called `auth`.
+코드 에디터에는 Redux 스토어와 함께 `counterReducer()`와 `authReducer()` 함수가 제공되어 있습니다. `rootReducer()` 함수를 `Redux.combineReducers()` 방식을 활용해서 작성합니다. `counterReducer`와 `authReducer`를 각각 `count` 키와 `auth` 키에 할당합니다.
 
 # --hints--
 
-The `counterReducer` should increment and decrement the `state`.
+`counterReducer`가 `state`를 증가시키거나 감소시켜야 합니다.
 
 ```js
 assert(
@@ -45,7 +45,7 @@ assert(
 );
 ```
 
-The `authReducer` should toggle the `state` of `authenticated` between `true` and `false`.
+`authReducer`는 `authenticated`의 `state`를 `true`와 `false` 사이에서 전환해야 합니다.
 
 ```js
 assert(
@@ -59,7 +59,7 @@ assert(
 );
 ```
 
-The store `state` should have two keys: `count`, which holds a number, and `auth`, which holds an object. The `auth` object should have a property of `authenticated`, which holds a boolean.
+`state` 스토어는 숫자를 보관하는 `count` 키와 객체를 보관하는 `auth` 키를 가지고 있습니다. `auth` 객체는 불값을 보관하는 `authenticated` 속성을 가지고 있어야 합니다.
 
 ```js
 assert(
@@ -74,7 +74,7 @@ assert(
 );
 ```
 
-The `rootReducer` should be a function that combines the `counterReducer` and the `authReducer`.
+`rootReducer`는 `counterReducer`와 `authReducer`를 합치는 함수이어야 합니다.
 
 ```js
 (getUserInput) =>

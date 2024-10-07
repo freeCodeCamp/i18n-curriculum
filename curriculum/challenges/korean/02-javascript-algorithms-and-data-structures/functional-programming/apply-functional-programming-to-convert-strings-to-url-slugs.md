@@ -1,6 +1,6 @@
 ---
 id: 587d7dab367417b2b2512b6d
-title: Apply Functional Programming to Convert Strings to URL Slugs
+title: 문자열을 URL 슬러그로 변환을 위해 함수형 프로그래밍 적용하기
 challengeType: 1
 forumTopicId: 301227
 dashedName: apply-functional-programming-to-convert-strings-to-url-slugs
@@ -10,43 +10,43 @@ dashedName: apply-functional-programming-to-convert-strings-to-url-slugs
 
 The last several challenges covered a number of useful array and string methods that follow functional programming principles. We've also learned about `reduce`, which is a powerful method used to reduce problems to simpler forms. From computing averages to sorting, any array operation can be achieved by applying it. Recall that `map` and `filter` are special cases of `reduce`.
 
-Let's combine what we've learned to solve a practical problem.
+실제 문제를 해결하기 위해 배운 것을 조합해보겠습니다.
 
-Many content management sites (CMS) have the titles of a post added to part of the URL for simple bookmarking purposes. For example, if you write a Medium post titled `Stop Using Reduce`, it's likely the URL would have some form of the title string in it (`.../stop-using-reduce`). You may have already noticed this on the freeCodeCamp site.
+많은 콘텐츠 관리 사이트(CMS)가 표시를 목적으로 URL에 글의 제목을 넣습니다. 예를 들면 `Stop Using Reduce`이라는 제목을 가진 Medium 글을 쓴다면 (`.../stop-using-reduce`)처럼 URL 안에 제목이 삽입된 형태를 가질 것입니다. FreeCodeCamp 사이트에서도 이를 눈치채셨을 것입니다.
 
 # --instructions--
 
-Fill in the `urlSlug` function so it converts a string `title` and returns the hyphenated version for the URL. You can use any of the methods covered in this section, and don't use `replace`. Here are the requirements:
+`title`이라는 문자열을 변환하여 붙임표(hypen)로 연결된 URL를 반환하도록 `urlSlug` 함수를 채우시오. `replace`를 빼고 이 부분에서 다룬 모든 메소드를 사용해도 됩니다. 여기 조건이 있습니다.
 
-The input is a string with spaces and title-cased words
+입력은 공백과 제목 케이스(title-case)로 된 문자열입니다.
 
-The output is a string with the spaces between words replaced by a hyphen (`-`)
+출력은 단어 사이에 공백이 붙임표((`-`)로 대체된 문자열입니다.
 
-The output should be all lower-cased letters
+출력은 모두 소문자 글자이어야 합니다.
 
-The output should not have any spaces
+출력은 공백이 없어야 합니다.
 
 # --hints--
 
-Your code should not use the `replace` method for this challenge.
+이번 과제에서는 `replace` 메소드를 사용하지 않아야 합니다.
 
 ```js
 assert(!__helpers.removeJSComments(code).match(/\.?[\s\S]*?replace/g));
 ```
 
-`urlSlug("Winter Is Coming")` should return the string `winter-is-coming`.
+`urlSlug("Winter Is Coming")`는 문자열 `winter-is-coming`을 반환해야 합니다.
 
 ```js
 assert(urlSlug('Winter Is Coming') === 'winter-is-coming');
 ```
 
-`urlSlug(" Winter Is  Coming")` should return the string `winter-is-coming`.
+`urlSlug(" Winter Is  Coming")`는 문자열 `winter-is-coming`을 반환해야 합니다.
 
 ```js
 assert(urlSlug(' Winter Is  Coming') === 'winter-is-coming');
 ```
 
-`urlSlug("A Mind Needs Books Like A Sword Needs A Whetstone")` should return the string `a-mind-needs-books-like-a-sword-needs-a-whetstone`.
+`urlSlug("A Mind Needs Books Like A Sword Needs A Whetstone")`는 문자열 `a-mind-needs-books-like-a-sword-needs-a-whetstone`를 반환해야 합니다.
 
 ```js
 assert(
@@ -55,7 +55,7 @@ assert(
 );
 ```
 
-`urlSlug("Hold The Door")` should return the string `hold-the-door`.
+`urlSlug("Hold The Door")`는 `hold-the-door`를 반환해야 합니다.
 
 ```js
 assert(urlSlug('Hold The Door') === 'hold-the-door');

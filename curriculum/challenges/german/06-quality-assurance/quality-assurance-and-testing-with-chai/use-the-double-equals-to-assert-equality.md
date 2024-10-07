@@ -1,6 +1,6 @@
 ---
 id: 587d824b367417b2b2512c4a
-title: Use the Double Equals to Assert Equality
+title: Verwende das Doppel-Gleichheitszeichen, um Gleichheit zu bestätigen
 challengeType: 2
 forumTopicId: 301609
 dashedName: use-the-double-equals-to-assert-equality
@@ -10,15 +10,15 @@ dashedName: use-the-double-equals-to-assert-equality
 
 As a reminder, this project is being built upon the following starter project on <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>, or cloned from <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
 
-`equal()` compares objects using `==`.
+`equal()` vergleicht Objekte unter Verwendung von `==`.
 
 # --instructions--
 
-Within `tests/1_unit-tests.js` under the test labeled `#5` in the `Equality` suite, change each `assert` to either `assert.equal` or `assert.notEqual` to make the test pass (should evaluate to `true`). Do not alter the arguments passed to the asserts.
+Ändere innerhalb `tests/1_unit-tests.js` unter dem Test mit der Beschriftung `#5` in der `Equality`-Suite, jeden `assert` in `assert.equal` oder `assert.notEqual` um, damit der Test bestanden wird (sollte `true` ausgeben). Ändere nicht die Argumente, die an die Assertions übergeben werden.
 
 # --hints--
 
-All tests should pass.
+Alle Tests sollten bestehen.
 
 ```js
 (getUserInput) =>

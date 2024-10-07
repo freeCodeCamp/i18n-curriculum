@@ -9,7 +9,7 @@ dashedName: use-a-css-class-to-style-an-element
 
 # --description--
 
-Класи - це повторно використовувані стилі, котрі можуть бути доданими в елементи HTML.
+Classes are reusable styles that can be added to HTML elements.
 
 Ось приклад об'яви класу CSS:
 

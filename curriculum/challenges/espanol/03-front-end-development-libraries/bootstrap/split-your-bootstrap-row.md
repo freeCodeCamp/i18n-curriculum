@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aec908847
-title: Divide tu fila de Bootstrap
+title: Divide Tu Fila de Bootstrap
 challengeType: 0
 forumTopicId: 18306
 dashedName: split-your-bootstrap-row
@@ -8,9 +8,9 @@ dashedName: split-your-bootstrap-row
 
 # --description--
 
-Ahora que tenemos una fila de Bootstrap, vamos a dividirla en dos columnas para hospedar nuestros elementos.
+Now that we have a Bootstrap Row, let's split it into two columns to house our elements.
 
-Crea dos elementos `div` dentro de tu fila, ambos con la clase `col-xs-6`.
+Crea dos elementos `div` dentro de tu "row", ambos con la clase `col-xs-6`.
 
 # --hints--
 

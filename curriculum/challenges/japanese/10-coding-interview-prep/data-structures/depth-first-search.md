@@ -8,7 +8,7 @@ dashedName: depth-first-search
 
 # --description--
 
-ここでは、<dfn>幅優先探索</dfn>と似ているが別のグラフ走査アルゴリズムである、<dfn>深さ優先探索</dfn>について学びます。
+Similar to <dfn>breadth-first search</dfn>, here we will learn about another graph traversal algorithm called <dfn>depth-first search</dfn>.
 
 幅優先探索はソースノードからのエッジの長さを徐々に増やして検索しますが、<dfn>深さ優先探索</dfn>は、最初にエッジの経路のうちの 1 本をできるだけ遠くまで下ります。
 

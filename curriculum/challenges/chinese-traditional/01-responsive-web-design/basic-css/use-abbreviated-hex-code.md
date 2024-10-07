@@ -9,7 +9,7 @@ dashedName: use-abbreviated-hex-code
 
 # --description--
 
-許多人對超過 1600 萬種顏色感到不知所措， 並且很難記住十六進制編碼。 幸運的是，你可以使用縮寫形式。
+Many people feel overwhelmed by the possibilities of more than 16 million colors. And it's difficult to remember hex code. Fortunately, you can shorten it.
 
 例如，紅色的 `#FF0000` 十六進制編碼可以縮寫成 `#F00`。 在這種縮寫形式裏，三個數字分別代表着紅（R）、綠（G）、藍（B）三原色。
 
@@ -19,7 +19,7 @@ dashedName: use-abbreviated-hex-code
 
 接下來，使用縮寫的十六進制編碼給元素設置正確的顏色。
 
-<table><tbody><tr><th>顏色</th><th>十六進制編碼縮寫形式</th></tr><tr><td>藍綠色</td><td><code>#0FF</code></td></tr><tr><td>綠色</td><td><code>#0F0</code></td></tr><tr><td>紅色</td><td><code>#F00</code></td></tr><tr><td>紫紅色</td><td><code>#F0F</code></td></tr></tbody></table>
+<table><tbody><tr><th>Color</th><th>Short Hex Code</th></tr><tr><td>Cyan</td><td><code>#0FF</code></td></tr><tr><td>Green</td><td><code>#0F0</code></td></tr><tr><td>Red</td><td><code>#F00</code></td></tr><tr><td>Fuchsia</td><td><code>#F0F</code></td></tr></tbody></table>
 
 # --hints--
 

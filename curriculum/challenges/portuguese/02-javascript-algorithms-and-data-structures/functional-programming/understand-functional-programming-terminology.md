@@ -8,7 +8,7 @@ dashedName: understand-functional-programming-terminology
 
 # --description--
 
-Houve uma mudança de humor no time da FCC e os membros agora querem dois tipos de chá: verde e preto. Fato: clientes sofrem mudanças de humor e de opinião frequentemente.
+The FCC Team had a mood swing and now wants two types of tea: green tea and black tea. General Fact: Client mood swings are pretty common.
 
 Por causa disso, precisaremos rever a função `getTea` do último desafio para lidar com vários pedidos de chá. Podemos modificar a `getTea` para aceitar uma função como argumento e torná-la capaz de preparar outros tipos de chá. Isso faz com que `getTea` seja mais flexível e dá mais controle ao programador quando os requisitos do cliente mudam.
 

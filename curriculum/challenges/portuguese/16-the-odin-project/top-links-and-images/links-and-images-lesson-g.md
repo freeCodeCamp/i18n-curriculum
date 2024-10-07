@@ -11,7 +11,7 @@ Os sites da web seriam muito chatos se apenas pudessem exibir texto. Felizmente,
 
 Para exibir uma imagem em HTML, você usa o elemento `<img>`. Diferente dos outros elementos que você encontrou, o elemento `<img>` tem fechamento próprio. Os elementos vazios ou de fechamento próprio do HTML não precisam de uma tag de fechamento.
 
-Em vez de envolver o conteúdo com uma tag de abertura e uma de fechamento, esse elemento incorpora uma imagem na página usando um atributo `src`, que informa ao navegador onde o arquivo da imagem está localizado. O atributo `src` funciona muito como o atributo `href` para tags de âncora. Ele pode incorporar uma imagem usando caminhos relativos e absolutos.
+Em vez de envolver o conteúdo com uma tag de abertura e uma de fechamento, esse elemento incorpora uma imagem na página usando um atributo `src`, que informa ao navegador onde o arquivo da imagem está localizado. O atributo `src` funciona de modo muito semelhante ao atributo `href` para tags de âncora. Ele pode incorporar uma imagem usando caminhos relativos e absolutos.
 
 Por exemplo, ao usar um caminho absoluto, você pode exibir uma imagem localizada no site do The Odin Project:
 

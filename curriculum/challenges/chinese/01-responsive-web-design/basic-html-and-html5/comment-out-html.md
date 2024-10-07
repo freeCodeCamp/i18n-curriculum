@@ -9,7 +9,7 @@ dashedName: comment-out-html
 
 # --description--
 
-记住：注释的开始标记是 `<!--`，结束标记是 `-->`。
+Remember that in order to start a comment, you need to use `<!--` and to end a comment, you need to use `-->`
 
 现在你需要在 `h2` 元素开始前终止注释。
 

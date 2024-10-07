@@ -9,9 +9,9 @@ dashedName: turn-an-image-into-a-link
 
 # --description--
 
-`a` 요소 내에 요소를 중첩하여 링크로 만들 수 있습니다.
+You can make elements into links by nesting them within an `a` element.
 
-`a` 요소 내에서 이미지를 중첩합니다. 예시:
+`a` 요소 내에서 이미지를 중첩합니다. 여기 예시가 있습니다.
 
 ```html
 <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="Three kittens running towards the camera."></a>

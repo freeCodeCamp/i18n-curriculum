@@ -8,7 +8,7 @@ dashedName: prevent-infinite-loops-with-a-valid-terminal-condition
 
 # --description--
 
-最后一个话题是可怕的无限循环。 当需要程序运行代码块一定次数或满足条件时，循环是很好的工具，但是它们需要终止条件来结束循环。 无限循环可能会使浏览器冻结或崩溃，并导致程序执行混乱，没有人想要这样的结果。
+The final topic is the dreaded infinite loop. Loops are great tools when you need your program to run a code block a certain number of times or until a condition is met, but they need a terminal condition that ends the looping. Infinite loops are likely to freeze or crash the browser, and cause general program execution mayhem, which no one wants.
 
 在本节的介绍中有一个无限循环的例子——它没有终止条件来摆脱`loopy()`内的`while`循环。 不要调用这个函数！
 

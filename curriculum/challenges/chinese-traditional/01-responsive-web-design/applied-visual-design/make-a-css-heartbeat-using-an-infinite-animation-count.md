@@ -9,7 +9,7 @@ dashedName: make-a-css-heartbeat-using-an-infinite-animation-count
 
 # --description--
 
-這也是一個用 `animation-iteration-count` 屬性創造持續動畫的例子，它基於我們在前面挑戰中創建的心形。
+Here's one more continuous animation example with the `animation-iteration-count` property that uses the heart you designed in a previous challenge.
 
 心跳動畫的每一秒包含兩個部分。 `heart` 元素（包括 `:before` 和 `:after`）使用 `transform` 屬性改變其大小，背景 `div` 使用 `background` 屬性改變其顏色。
 

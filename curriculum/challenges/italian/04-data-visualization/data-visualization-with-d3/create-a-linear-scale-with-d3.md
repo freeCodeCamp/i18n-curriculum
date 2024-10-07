@@ -8,7 +8,7 @@ dashedName: create-a-linear-scale-with-d3
 
 # --description--
 
-I diagrammi a barre e a dispersione tracciavano i dati direttamente sull'SVG. Tuttavia, se l'altezza di una barra o di uno dei punti dati era maggiore dell'altezza o della larghezza della tela, sarebbero andati al di fuori dell'area SVG.
+The bar and scatter plot charts both plotted data directly onto the SVG. However, if the height of a bar or one of the data points were larger than the SVG height or width values, it would go outside the SVG area.
 
 In D3 le scale aiutano a tracciare i dati. Le `scales` sono funzioni che dicono al programma come mappare un insieme di punti dati sui pixel dell'SVG.
 

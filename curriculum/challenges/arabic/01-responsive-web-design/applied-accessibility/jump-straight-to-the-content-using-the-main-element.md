@@ -1,6 +1,6 @@
 ---
 id: 587d774e367417b2b2512a9f
-title: Jump Straight to the Content Using the main Element
+title: الانتقال مباشرة إلى المحتوى باستخدام العنصر main
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cPp7zuE'
 forumTopicId: 301018
@@ -11,25 +11,25 @@ dashedName: jump-straight-to-the-content-using-the-main-element
 
 HTML5 introduced several new elements that give developers more options while also incorporating accessibility features. These tags include `main`, `header`, `footer`, `nav`, `article`, and `section`, among others.
 
-By default, a browser renders these elements similar to the humble `div`. However, using them where appropriate gives additional meaning to your markup. The tag name alone can indicate the type of information it contains, which adds semantic meaning to that content. Assistive technologies can access this information to provide better page summary or navigation options to their users.
+بشكل افتراضي، يقوم المتصفح بجعل هذه العناصر مشابهة لعناصر `div` المتواضعة. ومع ذلك، فإن استخدامها، حيثما كان ذلك مناسبا، يعطي معنى إضافيا لعلامتك. ويمكن أن يشير اسم الوسم وحده إلى نوع المعلومات التي يتضمنها، مما يضيف معنى دلالي إلى ذلك المحتوى. ويمكن للتكنولوجيات المساعدة الوصول إلى هذه المعلومات لتوفير موجز صفحات أفضل أو خيارات الملاحة لمستخدميها.
 
-The `main` element is used to wrap (you guessed it) the main content, and there should be only one per page. It's meant to surround the information related to your page's central topic. It's not meant to include items that repeat across pages, like navigation links or banners.
+يتم استخدام عنصر `main` لإغلاق المحتوى الرئيسي (تخمنته) ويجب أن يكون هناك واحد فقط لكل صفحة. القصد منه أن يحيط بالمعلومات المتعلقة بالموضوع الرئيسي لصفحتك. ليس المقصود به تضمين العناصر التي تتكرر عبر الصفحات، مثل روابط التنقل أو اللافتات.
 
-The `main` tag also has an embedded landmark feature that assistive technology can use to navigate to the main content quickly. If you've ever seen a "Jump to Main Content" link at the top of a page, using the `main` tag automatically gives assistive devices that functionality.
+تحتوي العلامة `main` أيضا على ميزة بارزة مدمجة يمكن للتكنولوجيا المساعدة استخدامها للتنقل إلى المحتوى الرئيسي بسرعة. إذا كنت قد رأيت رابط "الانتقال إلى المحتوى الرئيسي" في الجزء العلوي من الصفحة، باستخدام وسم `main` تعطي تلقائياً الأجهزة المساعدة تلك الوظيفة.
 
 # --instructions--
 
-Camper Cat لديه بعض الأفكار الكبيرة لصفحة أسلحة النينجا. Help him set up his markup by adding opening and closing `main` tags between the `header` and `footer` (covered in other challenges). Keep the `main` tags empty for now.
+Camper Cat لديه بعض الأفكار الكبيرة لصفحة أسلحة النينجا. لمساعدته في إعداد العلامه الخاصه به بإضافه وسم `main` بين وسم `header` و وسم `footer`. ابق علامات `main` فارغة الآن.
 
 # --hints--
 
-Your code should have one `main` tag.
+يجب أن يحتوي الكود الخاص بك على `main` واحد فقط.
 
 ```js
 assert.lengthOf(document.querySelectorAll('main'),1);
 ```
 
-The `main` tags should be between the closing `header` tag and the opening `footer` tag.
+يجب أن تكون العلامات `main` بين علامة الإغلاق `header` وعلامة فتح `footer` علامة.
 
 ```js
 assert.match(code,/<\/header>\s*?<main>\s*?<\/main>/gi);

@@ -8,16 +8,16 @@ dashedName: build-a-personal-portfolio-webpage
 
 # --description--
 
-**Objetivo:** construye una aplicación que sea funcionalmente similar a <a href="https://personal-portfolio.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://personal-portfolio.freecodecamp.rocks</a>. **No copies este proyecto de demostración**.
+**Objective:** Build an app that is functionally similar to <a href="https://personal-portfolio.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://personal-portfolio.freecodecamp.rocks</a>. **Do not copy this demo project**.
 
 
-**Historias de usuario:**
+**Instrucciones:**
 
-1. Tu portafolio debe tener una sección de bienvenida con un `id` de `welcome-section`
+1. Your portfolio should have a welcome section with an `id` of `welcome-section`
 1. La sección de bienvenida debe tener un elemento `h1` que contenga texto
 1. Tu portafolio debe tener una sección de proyectos con un `id` de `projects`
-1. La sección de proyectos debe tener al menos un elemento con una `class` de `project-tile` para tener un proyecto
-1. La sección de proyectos debe tener al menos un enlace a un proyecto
+1. La sección de proyectos debe tener al menos un elemento con una `class` llamada `project-tile` para mantener el proyecto
+1. La sección de proyectos debe contener al menos un enlace que redirija a un proyecto
 1. Tu portafolio debe tener una barra de navegación con un id de `navbar`
 1. La barra de navegación debe tener al menos un enlace donde puedas hacer clic para navegar a diferentes secciones de la página
 1. Tu portafolio debe tener un enlace con un id de `profile-link`, el cual abra tu GitHub o perfil de freeCodeCamp en una pestaña nueva
@@ -25,9 +25,9 @@ dashedName: build-a-personal-portfolio-webpage
 1. La altura de la sección de bienvenida debe ser igual a la altura de viewport
 1. La barra de navegación siempre debe estar en la parte superior del viewport
 
-Completa las instrucciones y pasa todas las pruebas a continuación para completar este proyecto. Dale tu propio estilo personal. ¡Feliz día programando!
+Completa las intrucciones y pasa los tests de abajo para completar este projecto. Dale tu estilo personal. ¡Que tengas una feliz programación!
 
-**Nota:** Asegúrate de agregar `<link rel="stylesheet" href="styles.css">` en tu HTML para enlazar tu hoja de estilos y aplicar tu CSS
+**Nota:** Asegúrese de adicionar `<link rel="stylesheet" href="styles.css">` en su HTML para enlazar su hoja de estilos y aplicarla a su CSS
 
 # --hints--
 
@@ -38,7 +38,7 @@ const el = document.getElementById('welcome-section')
 assert(!!el);
 ```
 
-Tu elemento `#welcome-section` debe contener un elemento `h1`.
+Tu elemento `#welcome-section` de contener un elemento `h1`.
 
 ```js
 assert.isAbove(

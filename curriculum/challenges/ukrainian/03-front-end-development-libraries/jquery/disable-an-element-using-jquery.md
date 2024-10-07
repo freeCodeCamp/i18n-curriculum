@@ -8,7 +8,7 @@ dashedName: disable-an-element-using-jquery
 
 # --description--
 
-Ви також можете змінити властивості елементів HTML, які не належать до CSS, за допомогою jQuery. Наприклад, ви можете відключити кнопки.
+You can also change the non-CSS properties of HTML elements with jQuery. For example, you can disable buttons.
 
 Якщо ви відключите кнопку, вона стане сірою і її неможливо натиснути.
 

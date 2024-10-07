@@ -26,7 +26,7 @@ console.log(result); // false
 
 Оператор строгої рівності можна багато де використовувати, тому важливо розуміти, як він працює.
 
-# --assignment--
+# --Завдання--
 
 Прочитайте <a href="https://uk.javascript.info/comparison" target="_blank" rel="noopener noreferrer nofollow">цю статтю на JavaScript.info</a>, щоб дізнатись більше про оператори строгої рівності.
 

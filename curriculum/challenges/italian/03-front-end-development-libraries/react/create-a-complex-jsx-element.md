@@ -8,7 +8,7 @@ dashedName: create-a-complex-jsx-element
 
 # --description--
 
-L'ultima sfida è stata un semplice esempio di JSX, ma JSX può rappresentare anche HTML più complesso.
+The last challenge was a simple example of JSX, but JSX can represent more complex HTML as well.
 
 Una cosa importante da sapere sul JSX annidato è che deve restituire un singolo elemento.
 

@@ -8,56 +8,56 @@ dashedName: american-british-translator
 
 # --description--
 
-Створіть повний пакет застосунку JavaScript, який функціонально схожий до <a href="https://american-british-translator.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://american-british-translator.freecodecamp.rocks/</a>. Робота над цим проєктом передбачає написання коду за допомогою одного з наступних методів:
+Build a full stack JavaScript app that is functionally similar to this: <a href="https://american-british-translator.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://american-british-translator.freecodecamp.rocks/</a>. Робота над цим проєктом передбачає написання коду за допомогою одного з наступних методів:
 
--   Клонуйте <a href="https://github.com/freeCodeCamp/boilerplate-project-american-british-english-translator/" target="_blank" rel="noopener noreferrer nofollow">цей репозиторій GitHub</a> та виконайте свій проєкт локально.
--   Використайте <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-american-british-english-translator/" target="_blank" rel="noopener noreferrer nofollow">наш стартовий проєкт Gitpod</a>, щоб виконати свій проєкт.
--   Для виконання проєкту використайте конструктор сайту на власний вибір. Переконайтеся, що приєднали усі файли з нашого репозиторію GitHub.
+-   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-american-british-english-translator/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
+-   Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-american-british-english-translator/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete your project.
+-   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
 
 # --instructions--
 
--   Уся логіка може перейти до `/components/translator.js`
+-   All logic can go into `/components/translator.js`
 -   Завершіть маршрут `/api/translate` в `/routes/api.js`
--   Створіть усі модульні/функціональні тести у `tests/1_unit-tests.js` та `tests/2_functional-tests.js`
--   Перегляньте файли JavaScript у `/components` для правопису та термінів, які повинен перекласти ваш застосунок
+-   Створіть усі сегменти/функціональні тести в `tests/1_unit-tests.js` та `tests/2_functional-tests.js`
+-   Перегляньте файли JavaScript у `/components` для різного правопису і термінів вашого застосунку, які він повинен перекладати
 -   Щоб запустити тести автоматично, встановіть `NODE_ENV` на `test` без лапок у файлі `.env`
--   Щоб запустити тести на консолі, використайте команду `npm run test`.
+-   To run the tests in the console, use the command `npm run test`.
 
-Напишіть наступні тести в `tests/1_unit-tests.js`:
+Write the following tests in `tests/1_unit-tests.js`:
 
--   Перекладіть `Mangoes are my favorite fruit.` на британську англійську
--   Перекладіть `I ate yogurt for breakfast.` на британську англійську
--   Перекладіть `We had a party at my friend's condo.` на британську англійську
--   Перекладіть `Can you toss this in the trashcan for me?` на британську англійську
--   Перекладіть `The parking lot was full.` на британську англійську
--   Перекладіть `Like a high tech Rube Goldberg machine.` на британську англійську
--   Перекладіть `To play hooky means to skip class or work.` на британську англійську
--   Перекладіть `No Mr. Bond, I expect you to die.` на британську англійську
--   Перекладіть `Dr. Grosh will see you now.` на британську англійську
--   Перекладіть `Lunch is at 12:15 today.` на британську англійську
--   Перекладіть `We watched the footie match for a while.` на американську англійську
--   Перекладіть `Paracetamol takes up to an hour to work.` на американську англійську
--   Перекладіть `First, caramelise the onions.` на американську англійську
--   Перекладіть `I spent the bank holiday at the funfair.` на американську англійську
--   Перекладіть `I had a bicky then went to the chippy.` на американську англійську
--   Перекладіть `I've just got bits and bobs in my bum bag.` на американську англійську
--   Перекладіть `The car boot sale at Boxted Airfield was called off.` на американську англійську
--   Перекладіть `Have you met Mrs Kalyani?` на американську англійську
--   Перекладіть `Prof Joyner of King's College, London.` на американську англійську
--   Перекладіть `Tea time is usually around 4 or 4.30.` на американську англійську
--   Виділіть переклад у `Mangoes are my favorite fruit.`
--   Виділіть переклад у `I ate yogurt for breakfast.`
--   Виділіть переклад у `We watched the footie match for a while.`
--   Виділіть переклад у `Paracetamol takes up to an hour to work.`
+-   Translate `Mangoes are my favorite fruit.` to British English
+-   Перекладіть британською англійською `I ate yogurt for breakfast.`
+-   Перекладіть британською англійською `We had a party at my friend's condo.`
+-   Перекладіть британською англійською `Can you toss this in the trashcan for me?`
+-   Перекладіть британською англійською `The parking lot was full.`
+-   Перекладіть британською англійською `Like a high tech Rube Goldberg machine.`
+-   Перекладіть британською англійською `To play hooky means to skip class or work.`
+-   Перекладіть британською англійською `No Mr. Bond, I expect you to die.`
+-   Перекладіть британською англійською `Dr. Grosh will see you now.`
+-   Перекладіть британською англійською `Lunch is at 12:15 today.`
+-   Перекладіть американською англійською `We watched the footie match for a while.`
+-   Перекладіть американською англійською `Paracetamol takes up to an hour to work.`
+-   Перекладіть американською англійською `First, caramelise the onions.`
+-   Перекладіть американською англійською `I spent the bank holiday at the funfair.`
+-   Перекладіть американською англійською `I had a bicky then went to the chippy.`
+-   Перекладіть американською англійською `I've just got bits and bobs in my bum bag.`
+-   Перекладіть американською англійською `The car boot sale at Boxted Airfield was called off.`
+-   Перекладіть американською англійською `Have you met Mrs Kalyani?`
+-   Перекладіть американською англійською `Prof Joyner of King's College, London.`
+-   Перекладіть американською англійською `Tea time is usually around 4 or 4.30.`
+-   Виділіть переклад в `Mangoes are my favorite fruit.`
+-   Виділіть переклад в `I ate yogurt for breakfast.`
+-   Виділіть переклад в `We watched the footie match for a while.`
+-   Виділіть переклад в `Paracetamol takes up to an hour to work.`
 
 Напишіть наступні тести в `tests/2_functional-tests.js`:
 
--   Переклад із полями тексту та локалі: запит POST до `/api/translate`
--   Переклад із полями тексту та недійсної локалі: запит POST до `/api/translate`
--   Переклад із відсутнім полем тексту: запит POST до `/api/translate`
--   Переклад із відсутнім полем локалі: запит POST до `/api/translate`
--   Переклад із порожнім текстом: запит POST до `/api/translate`
--   Переклад із текстом, якому не потрібен переклад: запит POST до `/api/translate`
+-   Translation with text and locale fields: POST request to `/api/translate`
+-   Переклад тексту з недопустимими полями локалізації: запит POST на `/api/translate`
+-   Переклад з пропущеним текстовим полем: запит POST на `/api/translate`
+-   Переклад з пропущеним полем локалізації: запит POST на `/api/translate`
+-   Переклад з порожнім текстом: запит POST на `/api/translate`
+-   Переклад тексту, який не потребує перекладу: запит POST на `/api/translate`
 
 # --hints--
 
@@ -73,7 +73,7 @@ dashedName: american-british-translator
 };
 ```
 
-Ви можете надіслати запит `POST` до `/api/translate` із тілом, що містить `text` з текстом для перекладу та `locale` з `american-to-british` або `british-to-american`. Повернений об’єкт міститиме наданий `text` та `translation` з перекладеним текстом.
+You can `POST` to `/api/translate` with a body containing `text` with the text to translate and `locale` with either `american-to-british` or `british-to-american`. The returned object should contain the submitted `text` and `translation` with the translated text.
 
 ```js
 async (getUserInput) => {
@@ -101,7 +101,7 @@ async (getUserInput) => {
 };
 ```
 
-Маршрут `/api/translate` повинен обробляти те, як написаний час американською та британською англійською. Наприклад, пів на десяту пишеться «10.30» британською та «10:30» американською. Елемент `span` повинен повністю обгорнути рядок часу, тобто `<span class="highlight">10:30</span>`.
+The `/api/translate` route should handle the way time is written in American and British English. For example, ten thirty is written as "10.30" in British English and "10:30" in American English. The `span` element should wrap the entire time string, i.e. `<span class="highlight">10:30</span>`.
 
 ```js
 async (getUserInput) => {
@@ -128,7 +128,7 @@ async (getUserInput) => {
 };
 ```
 
-Маршрут `/api/translate` також повинен обробляти скорочення титулів та гоноративів американською та британською. Наприклад, Доктор Райт пишеться «Dr Wright» британською та «Dr. Wright» американською. Перегляньте `/components/american-to-british-titles.js` для різних титулів, які повинен обробляти ваш застосунок.
+The `/api/translate` route should also handle the way titles/honorifics are abbreviated in American and British English. For example, Doctor Wright is abbreviated as "Dr Wright" in British English and "Dr. Wright" in American English. See `/components/american-to-british-titles.js` for the different titles your application should handle.
 
 ```js
 async (getUserInput) => {
@@ -155,7 +155,7 @@ async (getUserInput) => {
 };
 ```
 
-Обгорніть будь-які перекладені правописи чи терміни тегами `<span class="highlight">...</span>`, щоб вони були зеленими.
+Wrap any translated spelling or terms with `<span class="highlight">...</span>` tags so they appear in green.
 
 ```js
 async (getUserInput) => {
@@ -183,7 +183,7 @@ async (getUserInput) => {
 };
 ```
 
-Якщо одне чи більше необхідних полів відсутні, поверніть `{ error: 'Required field(s) missing' }`.
+If one or more of the required fields is missing, return `{ error: 'Required field(s) missing' }`.
 
 ```js
 async (getUserInput) => {
@@ -204,7 +204,7 @@ async (getUserInput) => {
 };
 ```
 
-Якщо `text` порожній, поверніть `{ error: 'No text to translate' }`
+If `text` is empty, return `{ error: 'No text to translate' }`
 
 ```js
 async (getUserInput) => {
@@ -225,7 +225,7 @@ async (getUserInput) => {
 };
 ```
 
-Якщо `locale` не відповідає одній із вказаних локалей, поверніть `{ error: 'Invalid value for locale field' }`.
+If `locale` does not match one of the two specified locales, return `{ error: 'Invalid value for locale field' }`.
 
 ```js
 async (getUserInput) => {
@@ -247,7 +247,7 @@ async (getUserInput) => {
 };
 ```
 
-Якщо `text` не потрібен переклад, поверніть `"Everything looks good to me!"` для значення `translation`.
+If `text` requires no translation, return `"Everything looks good to me!"` for the `translation` value.
 
 ```js
 async (getUserInput) => {
@@ -274,7 +274,7 @@ async (getUserInput) => {
 };
 ```
 
-Усі 24 модульних тестів завершено та успішно пройдено.
+All 24 unit tests are complete and passing.
 
 ```js
 async (getUserInput) => {
@@ -299,7 +299,7 @@ async (getUserInput) => {
 };
 ```
 
-Усі 6 функціональних тестів завершено та успішно пройдено.
+All 6 functional tests are complete and passing.
 
 ```js
 async (getUserInput) => {

@@ -8,7 +8,7 @@ dashedName: match-all-non-numbers
 
 # --description--
 
-In der letzten Aufgabe wurde gezeigt, wie man mit der Kurzform `\d` mit einem kleingeschriebenen `d` nach Ziffern sucht. Du kannst auch nach nicht-numerischen Zeichen suchen, indem du eine ähnliche Kurzform verwendest, die stattdessen ein großes `D` verwendet.
+The last challenge showed how to search for digits using the shortcut `\d` with a lowercase `d`. You can also search for non-digits using a similar shortcut that uses an uppercase `D` instead.
 
 Die Kurzform für die Suche nach nicht-nummerischen Zeichen ist `\D`. Das ist identisch mit der Zeichenklasse `[^0-9]`, die nach einem einzelnen Zeichen sucht, das nicht eine Zahl zwischen null und neun ist.
 

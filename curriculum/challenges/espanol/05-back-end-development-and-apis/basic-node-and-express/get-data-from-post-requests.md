@@ -8,7 +8,7 @@ dashedName: get-data-from-post-requests
 
 # --description--
 
-Monta un manejador POST en la ruta `/name`. Es la misma ruta de antes. Hemos preparado un formulario en la página principal html. Se enviarán los mismos datos del ejercicio 10 (Query string). Si el "body-parser" está configurado correctamente, debe encontrar los parámetros en el objeto `req.body`. Echa un vistazo al ejemplo de la biblioteca:
+Mount a POST handler at the path `/name`. It’s the same path as before. We have prepared a form in the html frontpage. It will submit the same data of exercise 10 (Query string). If the body-parser is configured correctly, you should find the parameters in the object `req.body`. Have a look at the usual library example:
 
 <blockquote>route: POST '/library'<br>urlencoded_body: userId=546&#x26;bookId=6754 <br>req.body: {userId: '546', bookId: '6754'}</blockquote>
 
@@ -22,7 +22,7 @@ GET: Lee un recurso existente sin modificarlo,
 
 PUT o PATCH (a veces POST): Actualiza un recurso usando los datos enviados,
 
-DELETE - Delete a resource.
+DELETE: Elimina un recurso.
 
 También hay un par de otros métodos que se utilizan para negociar una conexión con el servidor. Except for GET, all the other methods listed above can have a payload (i.e. the data into the request body). El middleware body-parser también funciona con estos métodos.
 

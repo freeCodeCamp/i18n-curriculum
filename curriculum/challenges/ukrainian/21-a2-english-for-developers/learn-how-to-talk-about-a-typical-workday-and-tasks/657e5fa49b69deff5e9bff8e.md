@@ -23,7 +23,7 @@ dashedName: task-104
 
 ### --feedback--
 
-Shows a requirement.
+Показує вимогу.
 
 ---
 

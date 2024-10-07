@@ -8,7 +8,7 @@ dashedName: spinal-tap-case
 
 # --description--
 
-將字符串轉換爲短線連接格式。 短線連接格式是小寫單詞全部小寫並以破折號分隔。
+Convert a string to spinal case. Spinal case is all-lowercase-words-joined-by-dashes.
 
 # --hints--
 

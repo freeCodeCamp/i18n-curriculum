@@ -1,6 +1,6 @@
 ---
 id: 587d7dac367417b2b2512b74
-title: Use Dot Notation to Access the Properties of an Object
+title: 객체의 속성 접근을 위한 점 표기법 사용하기
 challengeType: 1
 forumTopicId: 301333
 dashedName: use-dot-notation-to-access-the-properties-of-an-object
@@ -18,21 +18,21 @@ let duck = {
 console.log(duck.name);
 ```
 
-Dot notation is used on the object name, `duck`, followed by the name of the property, `name`, to access the value of `Aflac`.
+점 표기법은 `Aflac`의 값을 접근하기 위해 속성의 이름 `name`을 객체의 이름 `duck` 뒤에 붙여서 사용됩니다.
 
 # --instructions--
 
-Print both properties of the `dog` object to your console.
+객체 `dog`의 두 속성을 콘솔에 출력하시오.
 
 # --hints--
 
-Your code should use `console.log` to print the value for the `name` property of the `dog` object.
+객체 `dog`의 속성 `name`의 값을 출력하기 위해 `console.log`을 사용해야 합니다.
 
 ```js
 assert(/console.log\(.*dog\.name.*\)/g.test(__helpers.removeJSComments(code)));
 ```
 
-Your code should use `console.log` to print the value for the `numLegs` property of the `dog` object.
+객체 `dog`의 속성 `numLegs`의 값을 출력하기 위해 `console.log`을 사용해야 합니다.
 
 ```js
 assert(/console.log\(.*dog\.numLegs.*\)/g.test(__helpers.removeJSComments(code)));

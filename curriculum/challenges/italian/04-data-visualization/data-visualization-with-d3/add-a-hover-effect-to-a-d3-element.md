@@ -8,7 +8,7 @@ dashedName: add-a-hover-effect-to-a-d3-element
 
 # --description--
 
-È possibile aggiungere effetti che evidenziano una barra quando l'utente le passa sopra con il mouse. Finora, lo stile per i rettangoli viene applicato con i metodi D3 e SVG integrati, ma è possibile utilizzare anche CSS.
+It's possible to add effects that highlight a bar when the user hovers over it with the mouse. So far, the styling for the rectangles is applied with the built-in D3 and SVG methods, but you can use CSS as well.
 
 Hai impostato la classe CSS sugli elementi SVG con il metodo `attr()`. Quindi la pseudo-classe `:hover` per la tua nuova classe contiene le regole di stile per qualsiasi effetto hover.
 

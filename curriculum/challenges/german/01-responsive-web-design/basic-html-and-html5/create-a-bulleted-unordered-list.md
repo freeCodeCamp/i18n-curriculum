@@ -9,7 +9,7 @@ dashedName: create-a-bulleted-unordered-list
 
 # --description--
 
-HTML verfügt über ein spezielles Element zum Erstellen von <dfn>ungeordneten Listen</dfn>, oder Listen im Aufzählungspunktstil.
+HTML has a special element for creating <dfn>unordered lists</dfn>, or bullet point style lists.
 
 Ungeordnete Listen beginnen mit einem öffnenden `<ul>`-Element, gefolgt von einer beliebigen Anzahl von `<li>`-Elementen. Zuletzt werden ungeordnete Listen mit einem `</ul>` abgeschlossen.
 

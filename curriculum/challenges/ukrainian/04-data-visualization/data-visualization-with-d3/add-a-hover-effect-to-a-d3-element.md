@@ -8,7 +8,7 @@ dashedName: add-a-hover-effect-to-a-d3-element
 
 # --description--
 
-Ви можете додати ефекти, які виділяють стовпчик, якщо користувач наводить на нього мишкою. Наразі стилізація прямокутників була застосована за допомогою вбудованих методів D3 та SVG, але ви можете використати і CSS.
+It's possible to add effects that highlight a bar when the user hovers over it with the mouse. So far, the styling for the rectangles is applied with the built-in D3 and SVG methods, but you can use CSS as well.
 
 Щоб застосувати клас CSS до елементів SVG, використайте метод `attr()`. Потім псевдоклас `:hover` для нового класу зберігатиме правила стилізації для будь-яких ефектів наведення.
 

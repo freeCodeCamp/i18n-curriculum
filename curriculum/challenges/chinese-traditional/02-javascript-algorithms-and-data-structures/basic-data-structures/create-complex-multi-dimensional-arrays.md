@@ -8,7 +8,7 @@ dashedName: create-complex-multi-dimensional-arrays
 
 # --description--
 
-很好！ 你現在已經學到很多關於數組的知識了， 但這些只是個開始。我們將在接下來的中挑戰中學到更多與數組相關的知識。 但在繼續查看 <dfn>對象</dfn> 之前，讓我們再看一下，看看數組如何變得比我們在之前的挑戰中看到的更復雜一些。
+Awesome! You have just learned a ton about arrays! This has been a fairly high level overview, and there is plenty more to learn about working with arrays, much of which you will see in later sections. But before moving on to looking at <dfn>Objects</dfn>, let's take one more look, and see how arrays can become a bit more complex than what we have seen in previous challenges.
 
 數組的一個強大的特性是，它可以包含其他數組，甚至完全由其他數組組成。 在上一個挑戰中，我們已經接觸到了包含數組的數組，但它還算是比較簡單的。 數組中的數組還可以再包含其他數組，即可以嵌套任意多層數組。 通過這種方式，數組可以很快成爲非常複雜的數據結構，稱爲<dfn>多維（multi-dimensional）</dfn>數組，或嵌套（nested）數組。 請看如下的示例：
 

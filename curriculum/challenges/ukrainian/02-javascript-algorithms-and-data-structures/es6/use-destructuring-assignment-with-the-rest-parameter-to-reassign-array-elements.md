@@ -10,7 +10,7 @@ dashedName: >-
 
 # --description--
 
-У деяких ситуаціях, які стосуються деструктуризації масивів, потрібно зберегти залишки елементів в окремому масиві.
+In some situations involving array destructuring, we might want to collect the rest of the elements into a separate array.
 
 Результат схожий на `Array.prototype.slice()`, як показано нижче:
 

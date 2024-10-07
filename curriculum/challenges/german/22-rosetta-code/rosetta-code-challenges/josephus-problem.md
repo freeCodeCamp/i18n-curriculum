@@ -8,7 +8,7 @@ dashedName: josephus-problem
 
 # --description--
 
-Josephus problem is a math puzzle with a grim description: $n$ prisoners are standing on a circle, sequentially numbered from $0$ to $n-1$.
+Das Josephus-Problem ist ein mathematisches Puzzle mit einer düsteren Beschreibung: $n$ Gefangene stehen in einem Kreis, wobei sie sequentiell nummeriert werden von $0$ bis $n-1$.
 
 Ein Hinrichter geht entlang des Kreises, beginnend bei Gefangenem $0$, entfernt jeden $k$-ten Gefangenen und tötet ihn.
 
@@ -16,7 +16,7 @@ Im Laufe des Prozesses wird der Kreis immer kleiner, bis nur ein Gefangener übr
 
 Ein Beispiel: Wenn es $n=5$ Gefangene gibt und $k=2$ ist, wird die Reihenfolge, in der die Gefangenen getötet werden (nennen wir es die "Tötungssequenz") 1, 3, 0 und 4 sein und der Überlebende wird #2 sein.
 
-Wenn irgendein $n und k > 0$ gegeben ist, finde heraus, welcher Gefangene der endgültige Überlebende sein wird.
+Given any $n, k > 0$, find out which prisoner will be the final survivor.
 
 In einem solchen Fall gab es 41 Gefangene und jeder 3<sup>te</sup> Gefangene wurde getötet ($k=3$).
 

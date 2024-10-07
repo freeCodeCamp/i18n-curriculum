@@ -1,6 +1,6 @@
 ---
 id: 587d7b8e367417b2b2512b5c
-title: Understand Functional Programming Terminology
+title: 함수형 프로그래밍 용어 이해하기
 challengeType: 1
 forumTopicId: 301240
 dashedName: understand-functional-programming-terminology
@@ -10,45 +10,45 @@ dashedName: understand-functional-programming-terminology
 
 The FCC Team had a mood swing and now wants two types of tea: green tea and black tea. General Fact: Client mood swings are pretty common.
 
-With that information, we'll need to revisit the `getTea` function from last challenge to handle various tea requests. We can modify `getTea` to accept a function as a parameter to be able to change the type of tea it prepares. This makes `getTea` more flexible, and gives the programmer more control when client requests change.
+이러한 정보와 함께 다양한 차 요청을 대응하기 위해 이전 과제의 `getTea` 함수를 다시 살펴볼 필요가 생겼습니다. 차의 종류를 변화시킬 수 있게 만들기 위해 인자로 함수를 받을 수 있도록 `getTea` 함수를 수정할 수 있습니다. 이는 `getTea`를 더 유연하게 만들고 고객 요청의 변화가 있을 때 프로그래머에게 더 제어할 수 있게 해줍니다.
 
-But first, let's cover some functional terminology:
+하지만 우선 함수 용어에 대해 살펴보겠습니다.
 
-<dfn>Callbacks</dfn> are the functions that are slipped or passed into another function to decide the invocation of that function. You may have seen them passed to other methods, for example in `filter`, the callback function tells JavaScript the criteria for how to filter an array.
+<dfn>콜백</dfn>은 다른 함수에 전달되는 함수로 해당 함수의 호출을 결정합니다. 아마 다른 메소드에 전달되는 콜백 함수들을 봤을 것입니다. 예를 들면 `filter`에서 콜백은 자바스크립트에게 배열을 어떻게 필터링할 것인지 지시합니다.
 
-Functions that can be assigned to a variable, passed into another function, or returned from another function just like any other normal value, are called <dfn>first class</dfn> functions. In JavaScript, all functions are first class functions.
+다른 보통 값처럼 변수에 할당되거나 다른 함수에 전달되거나 다른 함수에서 반환되는 함수는 모두 <dfn>1급(first class)</dfn> 함수라고 불립니다. 자바스크립트에서 모든 함수는 1급 함수입니다.
 
-The functions that take a function as an argument, or return a function as a return value, are called <dfn>higher order</dfn> functions.
+인자로 함수를 받거나 반환값으로 함수를 반환하는 함수는 <dfn>고차</dfn> 함수라고 불립니다.
 
-When functions are passed in to or returned from another function, then those functions which were passed in or returned can be called a <dfn>lambda</dfn>.
+함수가 전달되거나 다른 함수로부터 반환될 때 그 전달되거나 반환되는 함수는 <dfn>람다(lambda)</dfn>라고 불립니다.
 
 # --instructions--
 
-Prepare 27 cups of green tea and 13 cups of black tea and store them in `tea4GreenTeamFCC` and `tea4BlackTeamFCC` variables, respectively. Note that the `getTea` function has been modified so it now takes a function as the first argument.
+27 잔의 녹차와 13 잔의 홍차를 준비하고 각각 `tea4GreenTeamFCC`와 `tea4BlackTeamFCC` 변수에 저장하시오. `getTea` 함수는 수정되었고 이제 첫번째 인자로 함수를 받는다는 것에 주의하시오.
 
-Note: The data (the number of cups of tea) is supplied as the last argument. We'll discuss this more in later lessons.
+주의: 데이터(찻잔의 수)는 마지막 인자로 제공됩니다. 이후의 과제에서 이에 대해 더 살펴보겠습니다.
 
 # --hints--
 
-The `tea4GreenTeamFCC` variable should hold 27 cups of green tea for the team.
+`tea4GreenTeamFCC` 변수는 팀을 위한 27잔의 녹차를 가지고 있어야 합니다.
 
 ```js
 assert(tea4GreenTeamFCC.length === 27);
 ```
 
-The `tea4GreenTeamFCC` variable should hold cups of green tea.
+`tea4GreenTeamFCC` 변수는 녹차를 가지고 있어야 합니다.
 
 ```js
 assert(tea4GreenTeamFCC[0] === 'greenTea');
 ```
 
-The `tea4BlackTeamFCC` variable should hold 13 cups of black tea.
+`tea4BlackTeamFCC` 변수는 13 잔의 홍차를 가지고 있어야 합니다.
 
 ```js
 assert(tea4BlackTeamFCC.length === 13);
 ```
 
-The `tea4BlackTeamFCC` variable should hold cups of black tea.
+`tea4BlackTeamFCC` 변수는 홍차를 가지고 있어야 합니다.
 
 ```js
 assert(tea4BlackTeamFCC[0] === 'blackTea');

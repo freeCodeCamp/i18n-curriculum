@@ -13,7 +13,7 @@ dashedName: responsively-style-checkboxes
 
 # --description--
 
-Já que as classes `col-xs-*` do Bootstrap são aplicáveis a todos os elementos de `form`, você também pode usá-las nas caixas de seleções! Dessa forma, as caixas de seleções vão estar simetricamente distribuídas pela página, independente da largura da resolução da tela.
+Since Bootstrap's `col-xs-*` classes are applicable to all `form` elements, you can use them on your checkboxes too! This way, the checkboxes will be evenly spread out across the page, regardless of how wide the screen resolution is.
 
 # --instructions--
 

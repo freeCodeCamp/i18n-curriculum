@@ -10,7 +10,7 @@ dashedName: replace-loops-using-recursion
 
 # --description--
 
-遞歸是函數調用自身的操作。 爲了便於理解，有如下任務：計算數組內元素前 `n` 的元素乘積。 使用 `for` 循環， 可以這樣做：
+Recursion is the concept that a function can be expressed in terms of itself. To help understand this, start by thinking about the following task: multiply the first `n` elements of an array to create the product of those elements. Using a `for` loop, you could do this:
 
 ```js
   function multiply(arr, n) {

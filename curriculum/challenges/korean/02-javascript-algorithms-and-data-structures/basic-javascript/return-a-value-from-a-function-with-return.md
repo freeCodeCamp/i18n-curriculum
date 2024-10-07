@@ -1,6 +1,6 @@
 ---
 id: 56533eb9ac21ba0edf2244c2
-title: Return a Value from a Function with Return
+title: Return을 사용해서 함수의 값을 되돌려주기
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cy87wue'
 forumTopicId: 18271
@@ -11,7 +11,7 @@ dashedName: return-a-value-from-a-function-with-return
 
 We can pass values into a function with <dfn>arguments</dfn>. You can use a `return` statement to send a value back out of a function.
 
-**Example**
+**예)**
 
 ```js
 function plusThree(num) {
@@ -21,35 +21,35 @@ function plusThree(num) {
 const answer = plusThree(5);
 ```
 
-`answer` has the value `8`.
+`answer`는 `8`의 값을 가집니다.
 
-`plusThree` takes an <dfn>argument</dfn> for `num` and returns a value equal to `num + 3`.
+`plusThree`는 `num`을 <dfn>인수</dfn>로 받아서 `num + 3`와 같은 값을 되돌려줍니다.
 
 # --instructions--
 
-Create a function `timesFive` that accepts one argument, multiplies it by `5`, and returns the new value.
+인수를 1개 사용해서, 인수에 `5`를 곱한 값을 새로 되돌려 주는 `timesFive`를 작성하세요.
 
 # --hints--
 
-`timesFive` should be a function
+`timesFive`는 함수여야 합니다.
 
 ```js
 assert(typeof timesFive === 'function');
 ```
 
-`timesFive(5)` should return `25`
+`timesFive(5)`는 `25`를 반환해야 합니다.
 
 ```js
 assert(timesFive(5) === 25);
 ```
 
-`timesFive(2)` should return `10`
+`timesFive(2)`는 `10`을 반환해야 합니다.
 
 ```js
 assert(timesFive(2) === 10);
 ```
 
-`timesFive(0)` should return `0`
+`timesFive(0)`는 `0`을 반환해야 합니다.
 
 ```js
 assert(timesFive(0) === 0);

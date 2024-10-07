@@ -7,7 +7,7 @@ dashedName: step-11
 
 # --description--
 
-Ora seleziona l'elemento `#piano` con un selettore di `id`. Imposta `background-color` a `#00471b`, `width` a `992px` e `height` a `290px`.
+Now target your `#piano` element with an `id` selector. Set `background-color` property to `#00471b`, the `width` property to `992px` and the `height` property to `290px`.
 
 # --hints--
 

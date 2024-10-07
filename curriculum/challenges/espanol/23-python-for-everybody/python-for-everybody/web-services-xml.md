@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: web-services-xml
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-What is wrong with the following XML?:
+¿Qué está mal con el siguiente XML?:
 
 ```xml
 <person>

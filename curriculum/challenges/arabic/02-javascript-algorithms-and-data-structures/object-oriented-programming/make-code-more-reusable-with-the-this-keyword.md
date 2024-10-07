@@ -8,7 +8,7 @@ dashedName: make-code-more-reusable-with-the-this-keyword
 
 # --description--
 
-قدمنا في التحدي الأخير method لـ object الـ `duck`. وقد استخدمنا `duck.name` للوصول إلى قيمة الخاصية `name` ضمن الـ return statement:
+The last challenge introduced a method to the `duck` object. It used `duck.name` dot notation to access the value for the `name` property within the return statement:
 
 ```js
 sayName: function() {return "The name of this duck is " + duck.name + ".";}

@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d4036152
-title: Use const for Action Types
+title: 액션 타입에 const를 사용하기
 challengeType: 6
 forumTopicId: 301450
 dashedName: use-const-for-action-types
@@ -12,31 +12,31 @@ A common practice when working with Redux is to assign action types as read-only
 
 # --instructions--
 
-Declare `LOGIN` and `LOGOUT` as `const` values and assign them to the strings `'LOGIN'` and `'LOGOUT'`, respectively. Then, edit the `authReducer()` and the action creators to reference these constants instead of string values.
+`LOGIN`과 `LOGOUT`을 `const` 값으로 선언하고, 각각 문자열 `'LOGIN'`과 `'LOGOUT'`에 할당하세요. 그런 다음, `authReducer()`와 액션 생성자들을 수정하여 문자열 값 대신 이 상수를 참조하도록 하세요.
 
-**Note:** It's generally a convention to write constants in all uppercase, and this is standard practice in Redux as well.
+**참고:** 일반적으로 상수를 모두 대문자로 작성하는 것이 관례이며, Redux에서도 표준 관행입니다.
 
 # --hints--
 
-Calling the function `loginUser` should return an object with `type` property set to the string `LOGIN`.
+`loginUser` 함수를 호출하면 `type` 속성이 `LOGIN` 문자열로 설정된 객체가 반환되어야 합니다.
 
 ```js
 assert(loginUser().type === 'LOGIN');
 ```
 
-Calling the function `logoutUser` should return an object with `type` property set to the string `LOGOUT`.
+`logoutUser` 함수를 호출하면 `type` 속성이 `LOGOUT` 문자열로 설정된 객체가 반환되어야 합니다.
 
 ```js
 assert(logoutUser().type === 'LOGOUT');
 ```
 
-The store should be initialized with an object with property `login` set to `false`.
+스토어는 `login` 속성이 `false`로 설정된 객체로 초기화되어야 합니다.
 
 ```js
 assert(store.getState().authenticated === false);
 ```
 
-Dispatching `loginUser` should update the `login` property in the store state to `true`.
+`loginUser`를 디스패치하면 스토어 상태의 `login` 속성이 `true`로 업데이트되어야 합니다.
 
 ```js
 assert(
@@ -51,7 +51,7 @@ assert(
 );
 ```
 
-Dispatching `logoutUser` should update the `login` property in the store state to `false`.
+`logoutUser`를 디스패치하면 스토어 상태의 `login` 속성이 `false`로 업데이트되어야 합니다.
 
 ```js
 assert(
@@ -67,7 +67,7 @@ assert(
 );
 ```
 
-The `authReducer` function should handle multiple action types with a switch statement.
+`authReducer` 함수는 switch 문을 사용하여 여러 액션 타입을 처리해야 합니다.
 
 ```js
 (getUserInput) =>
@@ -83,7 +83,7 @@ The `authReducer` function should handle multiple action types with a switch sta
   );
 ```
 
-`LOGIN` and `LOGOUT` should be declared as `const` values and should be assigned strings of `LOGIN`and `LOGOUT`.
+`LOGIN`과 `LOGOUT`은 `const` 값으로 선언되고, 각각 `LOGIN`과 `LOGOUT` 문자열로 할당되어야 합니다.
 
 ```js
 const noWhiteSpace = __helpers.removeWhiteSpace(code);
@@ -91,7 +91,7 @@ assert(LOGIN === 'LOGIN' && LOGOUT === 'LOGOUT')
 assert(noWhiteSpace.includes('const'))
 ```
 
-The action creators and the reducer should reference the `LOGIN` and `LOGOUT` constants.
+액션 생성자와 리듀서는 `LOGIN`과 `LOGOUT` 상수를 참조해야 합니다.
 
 ```js
 (getUserInput) =>

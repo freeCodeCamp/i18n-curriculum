@@ -8,7 +8,7 @@ dashedName: zig-zag-matrix
 
 # --description--
 
-A 'zig-zag' array is a square arrangement of the first $N^2$ integers, where the numbers increase sequentially as you zig-zag along the array's anti-diagonals.
+Ein 'zig-zag'-Array ist eine quadratische Anordnung der ersten $N^2$ Integer, wobei die Zahlen im zig-zag entlang der Antidiagonalen des Arrays nacheinander ansteigen.
 
 Für die Eingabe `5` sollte zum Beispiel das folgende Ergebnis erzeugt werden:
 

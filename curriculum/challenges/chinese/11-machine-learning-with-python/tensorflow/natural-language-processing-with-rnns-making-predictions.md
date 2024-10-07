@@ -14,7 +14,7 @@ dashedName: natural-language-processing-with-rnns-making-predictions
 
 ## --text--
 
-在你通过自己的评论做出预测之前，你应该：
+Before you make a prediction with your own review, you should...:
 
 ## --answers--
 

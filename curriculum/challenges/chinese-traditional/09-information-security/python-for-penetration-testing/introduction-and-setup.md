@@ -14,7 +14,7 @@ dashedName: introduction-and-setup
 
 ## --text--
 
-講師推薦什麼代碼編輯器和擴展來開發 Python 的滲透測試工具？
+What code editor and extension does the instructor recommend for developing penetration testing tools in Python?
 
 ## --answers--
 

@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: introduction-machine-learning-fundamentals
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-¿Qué afirmación es **falso**?
+Which statement below is **false**?
 
 ## --answers--
 

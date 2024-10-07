@@ -1,6 +1,6 @@
 ---
 id: bad88fee1348ce8acef08815
-title: Utiliza la cuadrilla (grid) Bootstrap para poner elemento de lado a lado
+title: Usa la Cuadrilla de Bootstrap para Colocar Elementos Uno al Lado del Otro
 challengeType: 0
 forumTopicId: 18371
 dashedName: use-the-bootstrap-grid-to-put-elements-side-by-side
@@ -8,11 +8,11 @@ dashedName: use-the-bootstrap-grid-to-put-elements-side-by-side
 
 # --description--
 
-Bootstrap utiliza un sistema adaptable de cuadrilla de 12 columnas, el cual hace que sea fácil poner elementos en dos filas y especificar la anchura relativa de cada elemento. La mayoría de las clases de Bootstrap pueden ser aplicadas a un elemento `div`.
+Bootstrap uses a responsive 12-column grid system, which makes it easy to put elements into rows and specify each element's relative width. Most of Bootstrap's classes can be applied to a `div` element.
 
 Bootstrap tiene diferentes atributos de ancho de columna que usa dependiendo cuan ancha es la pantalla del usuario. Por ejemplo, los teléfonos tienen pantallas más angostas y las laptops tienen pantallas más anchas.
 
-Tomemos por ejemplo la clase de Bootstrap `col-md-*`. Aquí, `md` significa mediano y `*` es un número que especifica cuántas columnas de ancho deben tener los elementos. En este caso, el ancho de columna de un elemento en una pantalla de tamaño mediano, como una laptop, está siendo especificado.
+Tomemos por ejemplo la clase de Bootstrap `col-md-*`. Aquí, `md` significa mediano, y `*` es un número especificando cuantas columnas de ancho debería ocupar el elemento. En este caso, el ancho de columna de un elemento en una pantalla de tamaño mediano, como una laptop, está siendo especificado.
 
 En el 'Cat Photo App' que estamos creando, vamos a usar `col-xs-*`, donde `xs` significa extra pequeño ("extra small" como una pantalla de teléfono), y `*` es el número de columnas que va a tomar el elemento en anchura.
 

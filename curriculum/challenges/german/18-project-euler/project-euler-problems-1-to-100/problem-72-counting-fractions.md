@@ -10,7 +10,7 @@ dashedName: problem-72-counting-fractions
 
 Betrachte den Bruch $\frac{n}{d}$, wobei `n` und `d` positive Integer sind. Wenn `n` &lt; `d` und der höchste gemeinsame Faktor, ${HCF}(n, d) = 1$ ist, wird es als ein reduzierter Eigenbruch bezeichnet.
 
-Wenn wir die Menge der reduzierten Eigenbrüche für `d` ≤ 8 in aufsteigender Reihenfolge der Größe auflisten, erhalten wir:
+Wenn wir die Menge der reduzierten echten Brüche für `d` ≤ 8 in aufsteigender Reihenfolge der Größe auflisten, erhalten wir:
 
 $$\frac{1}{8}, \frac{1}{7}, \frac{1}{6}, \frac{1}{5}, \frac{1}{4}, \frac{2}{7}, \frac{1}{3}, \frac{3}{8}, \frac{2}{5}, \frac{3}{7}, \frac{1}{2}, \frac{4}{7}, \frac{3}{5}, \frac{5}{8}, \frac{2}{3}, \frac{5}{7}, \frac{3}{4}, \frac{4}{5}, \frac{5}{6}, \frac{6}{7}, \frac{7}{8}$$
 

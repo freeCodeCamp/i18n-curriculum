@@ -9,7 +9,7 @@ dashedName: set-the-line-height-of-paragraphs
 
 # --description--
 
-O CSS oferece a propriedade `line-height` para alterar a altura de cada linha em um bloco de texto. Ela altera a quantidade de espaço vertical que cada linha de texto possui.
+CSS offers the `line-height` property to change the height of each line in a block of text. As the name suggests, it changes the amount of vertical space that each line of text gets.
 
 # --instructions--
 

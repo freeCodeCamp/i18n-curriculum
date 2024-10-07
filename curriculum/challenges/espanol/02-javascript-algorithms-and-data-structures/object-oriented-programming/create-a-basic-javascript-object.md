@@ -8,7 +8,7 @@ dashedName: create-a-basic-javascript-object
 
 # --description--
 
-Piensa en cosas que la gente ve todos los días, como coches, tiendas y aves. Todos estos son <dfn>objetos</dfn>: cosas tangibles con las que la gente puede observar e interactuar.
+Think about things people see every day, like cars, shops, and birds. These are all <dfn>objects</dfn>: tangible things people can observe and interact with.
 
 ¿Cuáles son algunas de las cualidades de estos objetos? Un coche tiene ruedas. Las tiendas venden artículos. Las aves tienen alas.
 

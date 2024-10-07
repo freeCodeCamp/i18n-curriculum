@@ -9,7 +9,7 @@ dashedName: iterate-with-javascript-while-loops
 
 # --description--
 
-ループ処理によって、同じコードを何度も実行できます。
+You can run the same code multiple times by using a loop.
 
 まず最初に `while` ループと呼ばれるループ型を学習します。こう呼ばれるのは特定の条件が true である間 (while) は実行され、条件が true でなくなると終了するためです。
 

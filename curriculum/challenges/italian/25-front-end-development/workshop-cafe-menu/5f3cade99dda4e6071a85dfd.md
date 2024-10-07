@@ -11,25 +11,25 @@ You will come back to styling the menu in a few steps, but for now, go ahead and
 
 # --hints--
 
-You should have an opening `section` tag.
+Dovresti avere un tag di apertura `section`.
 
 ```js
 assert.lengthOf(code.match(/<section>/ig) ,2);
 ```
 
-You should have a closing `section` tag.
+Dovresti avere un tag di chiusura `section`.
 
 ```js
 assert.lengthOf(code.match(/<\/section>/ig) ,2);
 ```
 
-You should not change the existing `main` element.
+Non dovresti cambiare l'elemento `main` esistente.
 
 ```js
 assert.lengthOf (document.querySelectorAll('main'), 1);
 ```
 
-Your new `section` element should be nested in the `main` element.
+Il nuovo elemento `section` dovrebbe essere annidato nell'elemento `main`.
 
 ```js
 const main = document.querySelector('main');

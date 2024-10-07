@@ -8,7 +8,7 @@ dashedName: match-all-numbers
 
 # --description--
 
-لقد تعلمت اختصارات لأنماط string شائعة مثل الأبجدية العددية (alphanumerics). نمط شائع آخر هو البحث عن أرقام فقط.
+You've learned shortcuts for common string patterns like alphanumerics. Another common pattern is looking for just digits or numbers.
 
 الاختصار للبحث عن الأرقام هو `\d`، مع حرف صغير `d`. هذا يساوي الـ character class الآتي `[0-9]`، والذي يبحث عن رقم واحد بين الصفر و التاسعة.
 

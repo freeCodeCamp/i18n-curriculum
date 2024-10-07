@@ -8,7 +8,7 @@ dashedName: create-many-records-with-model-create
 
 # --description--
 
-在一些情况下，比如进行数据库初始化，你会需要创建很多 model 实例来用作初始数据。 `Model.create()` 接受一组像 `[{name: 'John', ...}, {...}, ...]` 的数组作为第一个参数，并将其保存到数据库。
+Sometimes you need to create many instances of your models, e.g. when seeding a database with initial data. `Model.create()` takes an array of objects like `[{name: 'John', ...}, {...}, ...]` as the first argument, and saves them all in the db.
 
 # --instructions--
 

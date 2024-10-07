@@ -8,7 +8,7 @@ dashedName: restrict-possible-usernames
 
 # --description--
 
-Los nombres de usuario se utilizan en todas partes en Internet. Son los que dan a los usuarios una identidad única en tus sitios favoritos.
+Usernames are used everywhere on the internet. They are what give users a unique identity on their favorite sites.
 
 Se necesita comprobar todos los nombres de usuario en una base de datos. Estas son algunas reglas simples que los usuarios deben seguir al crear su nombre de usuario.
 

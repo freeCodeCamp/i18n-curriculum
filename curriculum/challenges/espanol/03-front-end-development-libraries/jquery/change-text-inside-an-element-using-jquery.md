@@ -1,6 +1,6 @@
 ---
 id: 564944c91be2204b269d51e3
-title: Cambia el texto dentro de un elemento usando jQuery
+title: Modifica el Texto Dentro de un Elemento con jQuery
 challengeType: 6
 forumTopicId: 16773
 dashedName: change-text-inside-an-element-using-jquery
@@ -8,9 +8,9 @@ dashedName: change-text-inside-an-element-using-jquery
 
 # --description--
 
-Con jQuery, puedes cambiar el texto entre las etiquetas de abertura y cierre de un elemento. Puedes incluso cambiar el código HTML.
+Using jQuery, you can change the text between the start and end tags of an element. You can even change HTML markup.
 
-jQuery tiene una función llamada `.html()` que te permite agregar etiquetas HTML y texto dentro de un elemento. Cualquier contenido anterior dentro del elemento será completamente reemplazado con el contenido que proporciones usando esta función.
+jQuery tiene una función llamada `.html()` que te permite agregar etiquetas HTML y texto dentro de un elemento. Cualquier contenido que estaba previamente dentro del elemento será completamente remplazado con el contenido que tú proveas utilizando esta función.
 
 Así es como reescribirías y enfatizarías el texto de nuestro título:
 

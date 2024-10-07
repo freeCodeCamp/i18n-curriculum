@@ -9,7 +9,7 @@ dashedName: use-media-queries-to-create-responsive-layouts
 
 # --description--
 
-Mit CSS-Raster kannst du deine Website auf einfache Weise responsiver machen, indem du Media-Queries verwendest, um Rasterbereiche neu anzuordnen, die Abmessungen eines Rasters zu ändern und die Platzierung von Elementen neu zu ordnen.
+CSS Grid can be an easy way to make your site more responsive by using media queries to rearrange grid areas, change dimensions of a grid, and rearrange the placement of items.
 
 Wenn die Breite des Ansichtsfensters 300px oder mehr beträgt, ändert sich die Anzahl der Spalten in der Vorschau von 1 auf 2. Die Werbefläche nimmt dann die linke Spalte komplett ein.
 

@@ -32,7 +32,7 @@ For each chart, make sure to use a copy of the data frame.
 
 The boilerplate also includes commands to save and return the image.
 
-## التطوير
+## Development
 
 Write your code in `time_series_visualizer.py`. For development, you can use `main.py` to test your code.
 

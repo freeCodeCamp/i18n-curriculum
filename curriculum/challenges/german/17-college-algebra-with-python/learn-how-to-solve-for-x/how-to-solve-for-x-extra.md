@@ -12,7 +12,7 @@ Dieses Video erläutert weitere Beispiele für die Verwendung von SymPy solve. E
 
 Hier findest du das <a href="https://colab.research.google.com/drive/1Jv6WxW93J_1GZao8DkNb4X0D93oVibbs" target="_blank" rel="noopener noreferrer nofollow">Colab-Notibuch zu diesem Video.</a> Verwende es als Ergänzung des Colab-Notizbuchs für Algebra, das du gerade erstellst.
 
-# --assignment--
+# --Auftrag--
 
 Füge den Code für weitere Lösungsmöglichkeiten für x aus dem Video in dein Algebra-Colab-Notizbuch ein.
 
@@ -24,7 +24,7 @@ Füge den Code für weitere Lösungsmöglichkeiten für x aus dem Video in dein 
 
 ## --text--
 
-If you import sympy and define x as a variable, what would be the output from the following code?
+Wenn du sympy importierst und x als Variable definierst, was würde der folgende Code ausgeben?
 
 ```py
 example = 3*x - 12

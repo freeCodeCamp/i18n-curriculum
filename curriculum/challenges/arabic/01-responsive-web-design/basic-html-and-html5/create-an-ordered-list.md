@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedf08828
-title: Create an Ordered List
+title: إنشاء قائمة مرتبة
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVMPUv/cQ3B8TM'
 forumTopicId: 16824
@@ -11,9 +11,9 @@ dashedName: create-an-ordered-list
 
 HTML has another special element for creating <dfn>ordered lists</dfn>, or numbered lists.
 
-Ordered lists start with an opening `<ol>` element, followed by any number of `<li>` elements. Finally, ordered lists are closed with the `</ol>` tag.
+القوائم المرتبة تبدأ بعنصر فتح `<ol>`، مُتبعة بأي عدد من عناصر `<li>`. أخيراً، القوائم المرتبة تُغلق بعلامة `</ol>`.
 
-For example:
+على سبيل المثال:
 
 ```html
 <ol>
@@ -22,51 +22,51 @@ For example:
 </ol>
 ```
 
-would create a numbered list of `Garfield` and `Sylvester`.
+سينشئ قائمة مرقمة من `Garfield` و `Sylvester`.
 
 # --instructions--
 
-Create an ordered list of the top 3 things cats hate the most.
+قم بإنشاء قائمة مرتبة بأكثر 3 أشياء تكرهها القطط.
 
 # --hints--
 
-You should have an ordered list for `Top 3 things cats hate:`
+يجب أن يكون لديك قائمة مرتبة لـ `أكثر الأمور المكروهة عند القطط:`
 
 ```js
 assert(/Top 3 things cats hate:/i.test($('ol').prev().text()));
 ```
 
-You should have an unordered list for `Things cats love:`
+يجب أن يكون لديك قائمة غير مرتبة لـ الأمور المحببة للقطط `Things cats love:`
 
 ```js
 assert(/Things cats love:/i.test($('ul').prev().text()));
 ```
 
-You should have only one `ul` element.
+يجب أن يكون لديك عنصر `ul` واحد فقط.
 
 ```js
 assert.equal($('ul').length, 1);
 ```
 
-You should have only one `ol` element.
+يجب أن يكون لديك عنصر `ol` واحد فقط.
 
 ```js
 assert.equal($('ol').length, 1);
 ```
 
-You should have three `li` elements within your `ul` element.
+يجب أن يكون لديك ثلاث عناصر `li` داخل عنصر `ul`.
 
 ```js
 assert.equal($('ul li').length, 3);
 ```
 
-You should have three `li` elements within your `ol` element.
+يجب أن يكون لديك ثلاث عناصر `li` ضمن عنصر `ol`.
 
 ```js
 assert.equal($('ol li').length, 3);
 ```
 
-Your `ul` element should have a closing tag.
+يجب أن يحتوى عنصر `ul` على علامة إغلاق.
 
 ```js
 assert(
@@ -75,7 +75,7 @@ assert(
 );
 ```
 
-Your `ol` element should have a closing tag.
+يجب أن يحتوى عنصر `ol` على علامة إغلاق.
 
 ```js
 assert(
@@ -84,7 +84,7 @@ assert(
 );
 ```
 
-Your `li` element should have a closing tag.
+يجب أن يحتوى عنصر `li` على علامة إغلاق.
 
 ```js
 assert(
@@ -94,7 +94,7 @@ assert(
 );
 ```
 
-The `li` elements in your unordered list should not be empty.
+عناصر `li` في قائمتك الغير مرتبة يجب ألّا تكون فارغة.
 
 ```js
 $('ul li').each((i, val) =>
@@ -102,7 +102,7 @@ $('ul li').each((i, val) =>
 );
 ```
 
-The `li` elements in your ordered list should not be empty.
+عناصر `li` في قائمتك المرتبة يجب ألّا تكون فارغة.
 
 ```js
 $('ol li').each((i, val) =>

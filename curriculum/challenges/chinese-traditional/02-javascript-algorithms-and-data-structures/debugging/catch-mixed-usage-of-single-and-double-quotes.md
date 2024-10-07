@@ -8,7 +8,7 @@ dashedName: catch-mixed-usage-of-single-and-double-quotes
 
 # --description--
 
-JavaScript 允許使用單引號（`'`）和雙引號（`"`）聲明字符串。 決定使用哪一個通常看個人偏好，但有一些例外。
+JavaScript allows the use of both single (`'`) and double (`"`) quotes to declare a string. Deciding which one to use generally comes down to personal preference, with some exceptions.
 
 如果字符串中有縮寫或存在一段帶引號的文本，你就會明白爲什麼 JavaScript 允許兩種引號了。 請注意，不要提前用引號結束字符串，這會導致語法錯誤。
 

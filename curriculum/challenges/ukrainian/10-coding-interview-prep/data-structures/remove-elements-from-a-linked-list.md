@@ -8,7 +8,7 @@ dashedName: remove-elements-from-a-linked-list
 
 # --description--
 
-Метод `remove` — це наступний важливий метод, необхідний у будь-якому зв’язаному списку. Цей метод повинен приймати елемент, який ми хочемо видалити, як аргумент, а потім виконувати пошук по списку, щоб знайти та видалити вузол, який містить цей елемент.
+The next important method that any implementation of a linked list will need is a `remove` method. This method should take the element we want to remove as an argument, and then search the list to find and remove the node that contains that element.
 
 Щоразу, коли ми видаляємо вузол зі зв’язаного списку, важливо, щоб ми ненароком не осиротили решту списку. Нагадуємо, що кожен вузол має властивість `next`, яка вказує на наступний вузол після нього. Якщо ми видаляємо, наприклад, середній елемент, то нам потрібно переконатися в тому, що між властивістю `next` попереднього вузла та властивістю `next` цього середнього елемента (яка вказує на наступний вузол у списку!) є з’єднання.
 

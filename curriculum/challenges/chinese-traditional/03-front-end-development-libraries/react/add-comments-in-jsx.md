@@ -8,7 +8,7 @@ dashedName: add-comments-in-jsx
 
 # --description--
 
-JSX 是一種可以編譯成 JavaScript 的語法。 有時，爲了便於閱讀，可能需要在代碼中添加註釋。 像大多數編程語言一樣，JSX 也有自己的方法來實現這一點。
+JSX is a syntax that gets compiled into valid JavaScript. Sometimes, for readability, you might need to add comments to your code. Like most programming languages, JSX has its own way to do this.
 
 要將註釋放在 JSX 中，可以使用 `{/* */}` 語法來包裹註釋文本。
 

@@ -8,7 +8,7 @@ dashedName: add-a-hover-effect-to-a-d3-element
 
 # --description--
 
-我們可以爲用戶的鼠標懸停行爲添加高亮顯示的效果。 到目前爲止，矩形的樣式應用了內置的 D3 和 SVG 方法，但是你也可以使用 CSS 來實現。
+It's possible to add effects that highlight a bar when the user hovers over it with the mouse. So far, the styling for the rectangles is applied with the built-in D3 and SVG methods, but you can use CSS as well.
 
 你可以使用 `attr()` 方法在 SVG 元素上設置 CSS class。 然後用 `:hover` 僞類爲你新添加的 CSS 類設置鼠標懸停的效果。
 

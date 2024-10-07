@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d403618a
-title: Use Array.map() to Dynamically Render Elements
+title: Array.map() 사용해서 동적으로 렌더링하기
 challengeType: 6
 forumTopicId: 301417
 dashedName: use-array-map-to-dynamically-render-elements
@@ -10,19 +10,19 @@ dashedName: use-array-map-to-dynamically-render-elements
 
 Conditional rendering is useful, but you may need your components to render an unknown number of elements. Often in reactive programming, a programmer has no way to know what the state of an application is until runtime, because so much depends on a user's interaction with that program. Programmers need to write their code to correctly handle that unknown state ahead of time. Using `Array.map()` in React illustrates this concept.
 
-For example, you create a simple "To Do List" app. As the programmer, you have no way of knowing how many items a user might have on their list. You need to set up your component to dynamically render the correct number of list elements long before someone using the program decides that today is laundry day.
+예를 들면, 간단한 'To Do List' 앱을 만든다고 하면, 프로그래머로써 유저가 목록에 얼마나 많은 아이템을 가지게 될 지 알 방법이 없습니다. 가령 유저가 오늘은 세탁하는 날로 정하기 전에, 컴포넌트가 올바른 수의 목록을 동적으로 렌더링하도록 설정해야 합니다.
 
 # --instructions--
 
-The code editor has most of the `MyToDoList` component set up. Some of this code should look familiar if you completed the controlled form challenge. You'll notice a `textarea` and a `button`, along with a couple of methods that track their states, but nothing is rendered to the page yet.
+코드 편집기에는 대부분의 `MyToDoList` 컴포넌트가 만들어져 있습니다. 제어된 폼 도전을 완료했다면, 이 코드 중 일부는 친숙해 보일 것입니다. `textarea`와 `button`이 상태를 추적하는 몇 가지 메서드와 함께 있지만, 아직 페이지에 렌더링되지 않았습니다.
 
-Inside the `constructor`, create a `this.state` object and define two states: `userInput` should be initialized as an empty string, and `toDoList` should be initialized as an empty array. Next, delete the `null` value in the `render()` method next to the `items` variable. In its place, map over the `toDoList` array stored in the component's internal state and dynamically render a `li` for each item. Try entering the string `eat, code, sleep, repeat` into the `textarea`, then click the button and see what happens.
+`constructor`안에 `this.state` 객체를 만들고 두 개의 상태를 정의해보세요: `userInput`는 빈 문자열로 초기화되어야 하고, `toDoList`는 빈 배열로 초기화되어야 합니다. 다음으로, `render()` 메서드에서 `items` 변수 옆의 `null` 값을 삭제하세요. 삭제한 자리에 컴포넌트 상태에 저장된 `toDoList` 배열을 map을 이용해서 동적으로 각 아이템에 대해 `li`로 렌더링해보세요. `textarea`에 `eat, code, sleep, repeat` 문자열을 입력하고 버튼을 클릭해서 어떤 일이 생기는지 확인해보세요.
 
-**Note:** You may know that all sibling child elements created by a mapping operation like this do need to be supplied with a unique `key` attribute. Don't worry, this is the topic of the next challenge.
+**참고:** map을 통해서 생긴 모든 형제 엘리먼트는 고유한 `key` 속성을 제공받아야 합니다. 이 주제는 다음 도전에서 나오니 지금은 걱정마세요.
 
 # --hints--
 
-The MyToDoList component should exist and render to the page.
+MyToDoList 컴포넌트는 존재하고, 페이지에 렌더링되어야 합니다.
 
 ```js
 assert(
@@ -33,7 +33,7 @@ assert(
 );
 ```
 
-The first child of `MyToDoList` should be a `textarea` element.
+`MyToDoList` 컴포넌트의 첫 번째 자식은 `textarea` 엘리먼트이어야 합니다.
 
 ```js
 assert(
@@ -47,7 +47,7 @@ assert(
 );
 ```
 
-The second child of `MyToDoList` should be a `br` element.
+`MyToDoList` 컴포넌트의 두 번째 자식은 `br` 엘리먼트이어야 합니다.
 
 ```js
 assert(
@@ -60,7 +60,7 @@ assert(
 );
 ```
 
-The third child of `MyToDoList` should be a `button` element.
+`MyToDoList` 컴포넌트의 세 번째 자식은 `button` 엘리먼트이어야 합니다.
 
 ```js
 assert(
@@ -74,7 +74,7 @@ assert(
 );
 ```
 
-The state of `MyToDoList` should be initialized with `toDoList` as an empty array.
+`MyToDoList`의 상태는 빈 배열의 `toDoList` 로 초기화되어야 합니다.
 
 ```js
 assert(
@@ -89,7 +89,7 @@ assert(
 );
 ```
 
-The state of `MyToDoList` should be initialized with `userInput` as an empty string.
+`MyToDoList`의 상태는 빈 문자열의 `userInput` 로 초기화되어야 합니다.
 
 ```js
 assert(
@@ -104,7 +104,7 @@ assert(
 );
 ```
 
-When the `Create List` button is clicked, the `MyToDoList` component should dynamically return an unordered list that contains a list item element for every item of a comma-separated list entered into the `textarea` element.
+`Create List` 버튼이 클릭되면, `MyToDoList` 컴포넌트는 `textarea` 엘리먼트에 쉼표로 구분된 목록의 모든 아이템을 순서가 없는 목록으로 동적 반환해야 합니다.
 
 ```js
 (() => {

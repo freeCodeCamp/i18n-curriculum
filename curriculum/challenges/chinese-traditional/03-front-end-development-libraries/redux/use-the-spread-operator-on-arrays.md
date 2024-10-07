@@ -8,7 +8,7 @@ dashedName: use-the-spread-operator-on-arrays
 
 # --description--
 
-ES6 中有助於在 Redux 中強制執行狀態不變性的一個解決方案是擴展運算符：`...`。 擴展運算符具有很多的應用，其中一種非常適合通過一個已有的數組生成一個新數組。 這是相對較新的但常用的語法。 例如，如果你有一個數組 `myArray` 並寫：
+One solution from ES6 to help enforce state immutability in Redux is the spread operator: `...`. The spread operator has a variety of applications, one of which is well-suited to the previous challenge of producing a new array from an existing array. This is relatively new, but commonly used syntax. For example, if you have an array `myArray` and write:
 
 ```js
 let newArray = [...myArray];

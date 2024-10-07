@@ -11,7 +11,7 @@ dashedName: target-the-same-element-with-multiple-jquery-selectors
 
 # --description--
 
-ターゲットの要素を指定する 3 つの方法 (タイプで指定: `$("button")`、クラスで指定: `$(".btn")`、id で指定: `$("#target1")`) について説明しました。
+Now you know three ways of targeting elements: by type: `$("button")`, by class: `$(".btn")`, and by id `$("#target1")`.
 
 1 つの `.addClass()` 呼び出しで複数のクラスを追加することもできますが、*3 つの別々の方法*で同じ要素に追加してみましょう。
 

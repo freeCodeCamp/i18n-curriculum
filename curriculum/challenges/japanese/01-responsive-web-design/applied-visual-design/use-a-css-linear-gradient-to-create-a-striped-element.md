@@ -9,7 +9,7 @@ dashedName: use-a-css-linear-gradient-to-create-a-striped-element
 
 # --description--
 
-`repeating-linear-gradient()` 関数は `linear-gradient()` とよく似ており、大きな違いは指定のグラデーションのパターンを繰り返すことです。 `repeating-linear-gradient()` は様々な値を受け付けますが、簡略化のために、このチャレンジでは角度の値と色経由点の値を扱います。
+The `repeating-linear-gradient()` function is very similar to `linear-gradient()` with the major difference that it repeats the specified gradient pattern. `repeating-linear-gradient()` accepts a variety of values, but for simplicity, you'll work with an angle value and color stop values in this challenge.
 
 角度の値はグラデーションの方向です。 色経由点は、色が変化する場所を指定する幅の値のようなもので、パーセンテージまたはピクセルで与えられます。
 

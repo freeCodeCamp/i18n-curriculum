@@ -9,7 +9,7 @@ dashedName: accessing-object-properties-with-variables
 
 # --description--
 
-Un altro uso della notazione a parentesi con gli oggetti è quello di accedere a una proprietà memorizzata come valore di una variabile. Questo può essere molto utile per iterare sulle le proprietà di un oggetto o quando si accede a una tabella di ricerca.
+Another use of bracket notation on objects is to access a property which is stored as the value of a variable. This can be very useful for iterating through an object's properties or when accessing a lookup table.
 
 Ecco un esempio di utilizzo di una variabile per accedere a una proprietà:
 

@@ -9,7 +9,7 @@ dashedName: improve-form-field-accessibility-with-the-label-element
 
 # --description--
 
-시맨틱 HTML 마크업으로 접근성을 높이는 것은 적절한 태그 이름과 속성을 사용하는데 적용됩니다. 다음 몇 가지 챌린지들은 속성들을 폼에서 활용하는 몇 가지 중요한 시나리오들을 다룹니다.
+Improving accessibility with semantic HTML markup applies to using both appropriate tag names and attributes. The next several challenges cover some important scenarios using attributes in forms.
 
 `label` 태그는 특정 폼 제어 항목을 위해 텍스트를 래핑하는데, 보통 이름이나 레이블을 선택합니다. 이렇게 하면 항목과 의미가 연결되고 폼을 더 읽기 쉽게 만들어 줍니다. `label` 태그에 `for` 속성은 `label`과 폼 제어를 명시적으로 연결해주고 화면 낭독 프로그램에 사용됩니다.
 

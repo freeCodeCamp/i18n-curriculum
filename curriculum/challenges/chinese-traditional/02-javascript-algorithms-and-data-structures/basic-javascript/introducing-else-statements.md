@@ -9,7 +9,7 @@ dashedName: introducing-else-statements
 
 # --description--
 
-當 `if` 語句的條件爲真，會執行大括號裏的代碼。 那如果條件爲假呢？ 正常情況下什麼也不會發生。 使用 `else` 語句，可以執行當條件爲假時相應的代碼。
+When a condition for an `if` statement is true, the block of code following it is executed. What about when that condition is false? Normally nothing would happen. With an `else` statement, an alternate block of code can be executed.
 
 ```js
 if (num > 10) {

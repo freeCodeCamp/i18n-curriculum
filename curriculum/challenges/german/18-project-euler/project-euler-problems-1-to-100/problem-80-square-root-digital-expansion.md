@@ -8,7 +8,7 @@ dashedName: problem-80-square-root-digital-expansion
 
 # --description--
 
-It is well known that if the square root of a natural number is not an integer, then it is irrational. Die dezimale Erweiterung solcher Quadratwurzeln ist unendlich, ohne jegliches sich wiederholendes Muster.
+Wenn die Quadratwurzel einer natürlichen Zahl keine ganze Zahl ist, ist sie bekanntlich irrational. Die dezimale Erweiterung solcher Quadratwurzeln ist unendlich, ohne jegliches sich wiederholendes Muster.
 
 Die Quadratwurzel von zwei ist `1.41421356237309504880...` und die digitale Summe der ersten hundert Dezimalstellen ist `475`.
 

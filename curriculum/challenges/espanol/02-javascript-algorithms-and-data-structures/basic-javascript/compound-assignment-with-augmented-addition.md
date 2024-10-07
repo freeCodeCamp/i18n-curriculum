@@ -9,7 +9,7 @@ dashedName: compound-assignment-with-augmented-addition
 
 # --description--
 
-En la programación, es común utilizar asignaciones para modificar el contenido de una variable. Recuerda que todo lo que está a la derecha del signo de igualdad se evalúa primero, así que podemos decir:
+In programming, it is common to use assignments to modify the contents of a variable. Remember that everything to the right of the equals sign is evaluated first, so we can say:
 
 ```js
 myVar = myVar + 5;
@@ -29,7 +29,7 @@ Se mostrará un `6` en la consola.
 
 # --instructions--
 
-Convierte las asignaciones de `a`, `b` y `c` para que utilicen el operador `+=`.
+Convierte las tareas de `a`, `b`, y `c` para utilizar el operador `+=`.
 
 # --hints--
 
@@ -51,13 +51,13 @@ assert(b === 26);
 assert(c === 19);
 ```
 
-Debes usar el operador `+=` para cada variable.
+Debe usar el operador `+=` para cada variable.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/\+=/g).length === 3);
 ```
 
-No debes modificar el código por encima del comentario especificado.
+No debe modificar el código sobre el comentario especificado.
 
 ```js
 assert(

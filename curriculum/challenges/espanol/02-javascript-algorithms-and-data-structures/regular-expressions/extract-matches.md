@@ -8,7 +8,7 @@ dashedName: extract-matches
 
 # --description--
 
-Hasta ahora, sólo has estado comprobando si un patrón existe o no dentro de una cadena. También puedes extraer las coincidencias encontradas con el método `.match()`.
+So far, you have only been checking if a pattern exists or not within a string. You can also extract the actual matches you found with the `.match()` method.
 
 Para utilizar el método `.match()`, aplica el método a una cadena y pasa la expresión regular dentro de los paréntesis.
 

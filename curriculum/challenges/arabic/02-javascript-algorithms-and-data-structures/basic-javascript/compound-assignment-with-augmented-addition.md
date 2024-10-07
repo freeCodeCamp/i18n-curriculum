@@ -9,7 +9,7 @@ dashedName: compound-assignment-with-augmented-addition
 
 # --description--
 
-في البرمجة، من الشائع استخدام assignments (التعيينات) لتعديل محتوي المتغير. تذكر أن كل شيء إلى يمين علامة المساواة يتم تقييمه أولا، لذلك يمكننا أن نقول:
+In programming, it is common to use assignments to modify the contents of a variable. Remember that everything to the right of the equals sign is evaluated first, so we can say:
 
 ```js
 myVar = myVar + 5;

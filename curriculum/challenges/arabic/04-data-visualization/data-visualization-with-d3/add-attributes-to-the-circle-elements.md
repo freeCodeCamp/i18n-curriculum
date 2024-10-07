@@ -8,7 +8,7 @@ dashedName: add-attributes-to-the-circle-elements
 
 # --description--
 
-The last challenge created the `circle` elements for each point in the `dataset`, and appended them to the SVG. لكن D3 يحتاج إلى مزيد من المعلومات حول موقع (position) وحجم (size) كل `circle` لعرضها بشكل صحيح.
+The last challenge created the `circle` elements for each point in the `dataset`, and appended them to the SVG. But D3 needs more information about the position and size of each `circle` to display them correctly.
 
 لدي `circle` في SVG ثلاث سمات (attributes) رئيسية. تكون السمات (attributes) المسمى `cx` و `cy` إحداثيات. They tell D3 where to position the *center* of the shape on the SVG. تحدد سمة نصف قطر (radius) (وتكتب: `r`) حجم الدائرة (`circle`).
 
@@ -18,17 +18,17 @@ Just like the `rect` `y` coordinate, the `cy` attribute for a `circle` is measur
 
 # --instructions--
 
-أضف السمات `cx` و `cy` و `r` إلى العناصر المسمى `circle`. The `cx` value should be the first number in the array for each item in `dataset`. The `cy` value should be based off the second number in the array, but make sure to show the chart right-side-up and not inverted. The `r` value should be `5` for all circles.
+أضف السمات `cx` و `cy` و `r` إلى العناصر المسمى `circle`. قيمة `cx` يجب أن تكون أول رَقَم في القائمة لكل عنصر في `dataset`. قيمة `cy` يجب أن تستند إلى الرَّقَم الثاني في المصفوف، ولكن تأكَّد من إظهار الرسم البياني مستقيما وليس منعكسا. قيمة `r` يجب أن تكون `5` لجميع الدوائر.
 
 # --hints--
 
-Your code should have 10 `circle` elements.
+يجب أن يحتوي كودك على 10 عناصر `circle`.
 
 ```js
 assert($('circle').length == 10);
 ```
 
-The first `circle` element should have a `cx` value of `34`, a `cy` value of `422`, and an `r` value of `5`.
+يجب أن يكون عنصر `circle` الأول له قيمة `cx` من `34` و `cy` قيمة `422`، و `r` قيمة `5`.
 
 ```js
 assert(
@@ -38,7 +38,7 @@ assert(
 );
 ```
 
-The second `circle` element should have a `cx` value of `109`, a `cy` value of `220`, and an `r` value of `5`.
+يجب أن يكون عنصر `circle` الثاني له قيمة `cx` من `109` و `cy` قيمة `220`، و `r` قيمة `5`.
 
 ```js
 assert(
@@ -48,7 +48,7 @@ assert(
 );
 ```
 
-The third `circle` element should have a `cx` value of `310`, a `cy` value of `380`, and an `r` value of `5`.
+يجب أن يكون عنصر `circle` الثالث له قيمة `cx` من `310` و `cy` قيمة `380`، و `r` قيمة `5`.
 
 ```js
 assert(
@@ -58,7 +58,7 @@ assert(
 );
 ```
 
-The fourth `circle` element should have a `cx` value of `79`, a `cy` value of `89`, and an `r` value of `5`.
+يجب أن يكون عنصر `circle` الرابع له قيمة `cx` من `79` و `cy` قيمة `89`، و `r` قيمة `5`.
 
 ```js
 assert(
@@ -68,7 +68,7 @@ assert(
 );
 ```
 
-The fifth `circle` element should have a `cx` value of `420`, a `cy` value of `280`, and an `r` value of `5`.
+يجب أن يكون عنصر `circle` الخامس له قيمة `cx` من `420` و `cy` قيمة `280`، و `r` قيمة `5`.
 
 ```js
 assert(
@@ -78,7 +78,7 @@ assert(
 );
 ```
 
-The sixth `circle` element should have a `cx` value of `233`, a `cy` value of `355`, and an `r` value of `5`.
+يجب أن يكون عنصر `circle` السادس له قيمة `cx` من `233` و `cy` قيمة `355`، و `r` قيمة `5`.
 
 ```js
 assert(
@@ -88,7 +88,7 @@ assert(
 );
 ```
 
-The seventh `circle` element should have a `cx` value of `333`, a `cy` value of `404`, and an `r` value of `5`.
+يجب أن يكون عنصر `circle` السابع له قيمة `cx` من `333` و `cy` قيمة `404`، و `r` قيمة `5`.
 
 ```js
 assert(
@@ -98,7 +98,7 @@ assert(
 );
 ```
 
-The eighth `circle` element should have a `cx` value of `222`, a `cy` value of `167`, and an `r` value of `5`.
+يجب أن يكون عنصر `circle` الثامن له قيمة `cx` من `222` و `cy` قيمة `167`، و `r` قيمة `5`.
 
 ```js
 assert(
@@ -108,7 +108,7 @@ assert(
 );
 ```
 
-The ninth `circle` element should have a `cx` value of `78`, a `cy` value of `180`, and an `r` value of `5`.
+يجب أن يكون عنصر `circle` التاسع له قيمة `cx` من `78` و `cy` قيمة `180`، و `r` قيمة `5`.
 
 ```js
 assert(
@@ -118,7 +118,7 @@ assert(
 );
 ```
 
-The tenth `circle` element should have a `cx` value of `21`, a `cy` value of `377`, and an `r` value of `5`.
+يجب أن يكون عنصر `circle` العاشر له قيمة `cx` من `21` و `cy` قيمة `377`، و `r` قيمة `5`.
 
 ```js
 assert(

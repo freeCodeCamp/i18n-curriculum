@@ -8,7 +8,7 @@ dashedName: copy-array-items-using-slice
 
 # --description--
 
-Наступним розглянемо метод `slice()`. Замість зміни масиву метод `slice()` копіює або *вилучає* задану кількість елементів в новий масив, залишаючи масив, для якого він викликається, незмінним. `slice()`приймає лише 2 параметри: індекс, з якого починається вибірка та індекс, за якого вибірка припиняється (вибірка відбуватиметься, але не включаючи елемент за цим індексом). Розглянемо приклад:
+The next method we will cover is `slice()`. Rather than modifying an array, `slice()` copies or *extracts* a given number of elements to a new array, leaving the array it is called upon untouched. `slice()` takes only 2 parameters — the first is the index at which to begin extraction, and the second is the index at which to stop extraction (extraction will occur up to, but not including the element at this index). Consider this:
 
 ```js
 let weatherConditions = ['rain', 'snow', 'sleet', 'hail', 'clear'];

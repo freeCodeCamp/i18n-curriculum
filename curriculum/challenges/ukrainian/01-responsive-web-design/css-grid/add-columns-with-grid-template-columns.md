@@ -9,7 +9,7 @@ dashedName: add-columns-with-grid-template-columns
 
 # --description--
 
-Просто створивши таблицю ви не отримаєте значних результатів в роботі. Вам також потрібно визначити структуру таблиці. Для того, щоб додати кілька стовпців у таблицю, скористайтесь властивістю `grid-template-columns` на контейнер сітки так, як показано нижче:
+Simply creating a grid element doesn't get you very far. You need to define the structure of the grid as well. To add some columns to the grid, use the `grid-template-columns` property on a grid container as demonstrated below:
 
 ```css
 .container {

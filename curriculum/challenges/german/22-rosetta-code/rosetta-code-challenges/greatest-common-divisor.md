@@ -8,7 +8,7 @@ dashedName: greatest-common-divisor
 
 # --description--
 
-Write a function that returns the greatest common divisor of two integers.
+Schreibe eine Funktion, die den größten gemeinsamen Teiler zweier ganzer Zahlen liefert.
 
 # --hints--
 

@@ -7,7 +7,7 @@ dashedName: html-foundations-lesson-g
 
 # --description--
 
-HTML and CSS are two languages that work together to create everything that you see when you look at something on the internet. HTML is the raw data that a webpage is built out of. All the text, links, cards, lists, and buttons are created in HTML. CSS is what adds style to those plain elements. HTML puts information on a webpage, and CSS positions that information, gives it color, changes the font, and makes it look great!
+HTML e CSS sono due linguaggi che lavorano insieme per creare tutto ciò che si vede quando si guarda qualcosa su internet. L'HTML è costituito dai dati grezzi di cui è fatta una pagina web. Tutto il testo, i collegamenti, le caselle, gli elenchi e i pulsanti sono creati in HTML. Il CSS è ciò che aggiunge stile a questi semplici elementi. L'HTML mette le informazioni su una pagina web e il CSS le posiziona, dà loro colore, ne cambia il carattere e le rende fantastiche!
 
 # --questions--
 

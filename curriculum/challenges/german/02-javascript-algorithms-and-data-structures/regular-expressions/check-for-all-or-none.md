@@ -8,7 +8,7 @@ dashedName: check-for-all-or-none
 
 # --description--
 
-Manchmal gibt es Teile des Musters, nach dem du suchen möchtest, die es vielleicht gar nicht gibt. Es kann aber wichtig sein, sie trotzdem zu überprüfen.
+Sometimes the patterns you want to search for may have parts of it that may or may not exist. However, it may be important to check for them nonetheless.
 
 Du kannst die mögliche Existenz eines Elements mit einem Fragezeichen angeben, `?`. Damit wird geprüft, ob das vorhergehende Element Null oder Eins ist. Du kannst dir dieses Symbol so vorstellen, dass das vorangegangene Element optional ist.
 

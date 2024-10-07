@@ -8,32 +8,32 @@ dashedName: stock-price-checker
 
 # --description--
 
-Створіть повний пакет застосунку JavaScript, який функціонально схожий до <a href="https://stock-price-checker.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://stock-price-checker.freecodecamp.rocks/</a>.
+Build a full stack JavaScript app that is functionally similar to this: <a href="https://stock-price-checker.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://stock-price-checker.freecodecamp.rocks/</a>.
 
 Оскільки всі надійні API цін на акції вимагають API-ключа, ми створили обхідний шлях. Використайте <a href="https://stock-price-checker-proxy.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://stock-price-checker-proxy.freecodecamp.rocks/</a>, щоб отримати актуальну інформацію про ціни на акції без необхідності підписуватись на власний ключ.
 
 Робота над цим проєктом передбачає написання коду за допомогою одного з наступних методів:
 
--   Клонуйте <a href="https://github.com/freeCodeCamp/boilerplate-project-stockchecker/" target="_blank" rel="noopener noreferrer nofollow">цей репозиторій GitHub</a> та виконайте свій проєкт локально.
--   Використайте <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-stockchecker/" target="_blank" rel="noopener noreferrer nofollow">наш стартовий проєкт Gitpod</a>, щоб виконати свій проєкт.
--   Для виконання проєкту використайте конструктор сайту на власний вибір. Переконайтеся, що приєднали усі файли з нашого репозиторію GitHub.
+-   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-stockchecker/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
+-   Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-stockchecker/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete your project.
+-   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
 
 # --instructions--
 
-1.  Встановіть змінну середовища `NODE_ENV` на `test`, без лапок
+1.  Set the `NODE_ENV` environment variable to `test`, without quotes
 2.  Завершіть проєкт в `routes/api.js` або створивши обробник/контролер
 3.  Ви додаватимете будь-які функції безпеки до `server.js`
 4.  Ви створюватимете усі функціональні тести в `tests/2_functional-tests.js`
 
-**Примітка** конфіденційності: згідно з вимогою, що на IP приймається лише одне вподобання, вам доведеться зберігати IP адреси. Важливо дотримуватися законів про конфіденційність даних, як-от загального регламенту про захист даних. Один із варіантів — отримати дозвіл на збереження даних користувача, однак все ж простіше зробити їх анонімними. Не забудьте зробити ваші IP адреси анонімними, перш ніж зберігати їх до бази даних у цьому завданні. Для цього ви можете хешувати дані, скоротити їх чи просто змінити частину IP адреси на 0.
+**Note** Privacy Considerations: Due to the requirement that only 1 like per IP should be accepted, you will have to save IP addresses. It is important to remain compliant with data privacy laws such as the General Data Protection Regulation. One option is to get permission to save the user's data, but it is much simpler to anonymize it. For this challenge, remember to anonymize IP addresses before saving them to the database. If you need ideas on how to do this, you may choose to hash the data, truncate it, or set part of the IP address to 0.
 
 Напишіть наступні тести в `tests/2_functional-tests.js`:
 
--   Перегляд однієї акції: запит GET до `/api/stock-prices/`
--   Перегляд однієї акції та вподобання: запит GET до `/api/stock-prices/`
--   Перегляд тієї самої акції та знову вподобання: запит GET до `/api/stock-prices/`
--   Перегляд двох акцій: запит GET до `/api/stock-prices/`
--   Перегляд двох акцій та вподобання: запит GET до `/api/stock-prices/`
+-   Viewing one stock: GET request to `/api/stock-prices/`
+-   Якщо Ви переглянули одну акцію й вона Вам сподобалась: запит GET в `/api/stock-prices/`
+-   Якщо Ви переглянули ту ж саму акцію й обрали її знову: запит GET в `/api/stock-prices/`
+-   Якщо Ви переглянули дві акції: запит GET в `/api/stock-prices/`
+-   Якщо Ви переглянули дві акції та вони Вам сподобались: запит GET в `/api/stock-prices/`
 
 # --hints--
 
@@ -47,7 +47,7 @@ dashedName: stock-price-checker
 };
 ```
 
-Ви повинні налаштувати політику безпеки вмісту так, щоб дозволити завантаження скриптів та CSS лише зі свого сервера.
+Ви маєте налаштувати політику безпеки вмісту так, щоб дозволити завантаження скриптів та CSS лише з вашого сервера.
 
 ```js
 async (getUserInput) => {
@@ -62,7 +62,7 @@ async (getUserInput) => {
 };
 ```
 
-Ви можете надіслати запит `GET` до `/api/stock-prices`, передаючи символ акції NASDAQ в параметр запиту `stock`. Повернений об’єкт міститиме властивість під назвою `stockData`.
+Ви можете надіслати запит `GET` до `/api/stock-prices`, передаючи символ акції NASDAQ в парметр запиту `stock`. Отриманий об'єкт міститиме властивість із назвою `stockData`.
 
 ```js
 async (getUserInput) => {
@@ -74,7 +74,7 @@ async (getUserInput) => {
 };
 ```
 
-Властивість `stockData` містить символ `stock` як рядок, `price` як число та `likes` як число.
+Властивість `stockData` включає символ `акції` у вигляді строки, `ціну` та `вподобання` у вигляді чисел.
 
 ```js
 async (getUserInput) => {
@@ -89,13 +89,13 @@ async (getUserInput) => {
 };
 ```
 
-Ви також можете передати поле `like` як `true` (булеве), щоб ваше вподобання було додано до акцій. Приймається лише одне вподобання на IP.
+Ви також можете передати поле `like` як `true`, аби ваші вподобання було додано до акції(й). Приймається лише одне вподобання на IP.
 
 ```js
 
 ```
 
-Якщо ви передасте 2 акції, то поверненим значенням буде масив з інформацією про обидві акції. Замість `likes` буде показано `rel_likes` (різниця між вподобаннями на обох акціях) для обох об’єктів `stockData`.
+Якщо Ви передасте 2 акції, то отриманим значенням буде масив із інформацією про обидві акції. Замість `likes` буде показано `rel_likes` (різниця між уподобаннями на обох акціях) для обох об'єктів `stockData`.
 
 ```js
 async (getUserInput) => {
@@ -110,7 +110,7 @@ async (getUserInput) => {
 };
 ```
 
-Усі 5 функціональних тестів завершено та успішно пройдено.
+Усі 5 функціональні тести завершені та успішно здані.
 
 ```js
 async (getUserInput) => {

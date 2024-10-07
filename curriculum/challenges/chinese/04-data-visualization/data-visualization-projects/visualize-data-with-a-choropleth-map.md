@@ -8,11 +8,11 @@ dashedName: visualize-data-with-a-choropleth-map
 
 # --description--
 
-**目标：** 构建一个应用，功能和 <a href="https://choropleth-map.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://choropleth-map.freecodecamp.rocks</a> 类似。
+**Objective:** Build an app that is functionally similar to this: <a href="https://choropleth-map.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://choropleth-map.freecodecamp.rocks</a>.
 
-完成以下需求，并且通过所有测试。 你可以使用你需要的任何库或 API。 赋予它你自己的个人风格。
+完成以下需求，并且通过所有测试。 你可以使用你需要的任何库或 API。 可以用你自己的样式来完成。
 
-你可以使用 HTML、JavaScript、CSS、以及基于 svg 的 D3 可视化库来完成这个挑战。 要求的 DOM 元素在每次测试时都会被查询。 如果你使用了前端框架（例如 Vue），那么对于动态的内容测试结果可能不准确。 我们希望最终能够兼容这些框架，但 D3 项目目前还不支持它们。
+你可以使用 HTML、JavaScript、CSS、以及基于 svg 的 D3 可视化库来完成这个挑战。 要求的 DOM 元素在每次测试时都会被查询。 如果你使用了前端框架（例如 Vue），因为内容是动态渲染的，试结果可能不准确。 我们希望最终能够兼容这些框架，但 D3 框架目前还不支持它们。
 
 **需求 #1：** 等值区域图包含一个具有 `id="title"` 属性的标题。
 
@@ -38,12 +38,12 @@ dashedName: visualize-data-with-a-choropleth-map
 
 以下是完成此项目所需的数据集：
 
--   **US Education Data:** `https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/for_user_education.json`
+-   **US Education Data:**`https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/for_user_education.json`
 -   **US County Data:** `https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/counties.json`
 
 你可以<a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">使用这份 CodePen 模版</a>来创建你的新项目，点击 `Save` 即可创建属于你自己的项目。 或者你可以在任何你喜欢的环境中使用以下 CDN 链接来运行测试：`https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`.
 
-当你完成了本项目，并且该项目所有测试运行通过，请提交项目的 URL。
+当你完成了本项目并且该项目所有测试运行通过，请提交项目的 URL。
 
 # --solutions--
 

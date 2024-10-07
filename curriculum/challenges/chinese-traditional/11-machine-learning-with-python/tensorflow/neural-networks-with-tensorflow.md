@@ -14,23 +14,23 @@ dashedName: neural-networks-with-tensorflow
 
 The next few video lessons will reference [this Colab notebook](https://colab.research.google.com/drive/1m2cg3D1x3j5vrFc-Cu0gMvc48gWyCOuG#forceEdit=true&sandboxMode=true).
 
-# --questions--
+# 問題
 
 ## --text--
 
-一個密集連接的神經網絡是這樣一種網絡：
+A densely connected neural network is one in which...:
 
 ## --answers--
 
-當前層中的所有神經元都連接到前一層中的一個神經元。
+all the neurons in the current layer are connected to one neuron in the previous layer.
 
 ---
 
-每層的所有神經元都是隨機連接的。
+all the neurons in each layer are connected randomly.
 
 ---
 
-當前層中的所有神經元都連接到前一層中的每個神經元。
+all the neurons in the current layer are connected to every neuron in the previous layer.
 
 ## --video-solution--
 

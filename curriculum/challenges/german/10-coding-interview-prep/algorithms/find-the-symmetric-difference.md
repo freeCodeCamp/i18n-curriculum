@@ -8,7 +8,7 @@ dashedName: find-the-symmetric-difference
 
 # --description--
 
-Der mathematische Begriff <dfn>symmetrische Differenz</dfn> (`△` oder `⊕`) von zwei Mengen, ist jene Menge aller Elemente, die entweder in der einen Menge oder in der anderen Menge ist, jedoch nicht in beiden. Ein Beispiel: für die Mengen `A = {1, 2, 3}` und `B = {2, 3, 4}` gilt `A △ B = {1, 4}`.
+The mathematical term <dfn>symmetric difference</dfn> (`△` or `⊕`) of two sets is the set of elements which are in either of the two sets but not in both. For example, for sets `A = {1, 2, 3}` and `B = {2, 3, 4}`, `A △ B = {1, 4}`.
 
 Die symmetrische Differenz ist ein binärer Operator. Das bedeutet, dass sie auf genau zwei Elementen ausgeführt wird. Um also die symmetrische Differenz zwischen *drei* Elementen (`A △ B △ C`) zu berechnen, muss die Operation mehrmals hintereinander ausgeführt werden. Für die obigen Mengen `A` und `B` sowie für `C = {2, 3}` trifft deshalb `A △ B △ C = (A △ B) △ C = {1, 4} △ {2, 3} = {1, 2, 3, 4}` zu.
 

@@ -8,40 +8,40 @@ dashedName: issue-tracker
 
 # --description--
 
-Erstelle eine vollständige JavaScript-Anwendung, die eine ähnliche Funktionalität wie <a href="https://issue-tracker.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://issue-tracker.freecodecamp.rocks/</a> aufweist. Bei der Arbeit an diesem Projekt schreibst du deinen Code mit einer der folgenden Methoden:
+Build a full stack JavaScript app that is functionally similar to this: <a href="https://issue-tracker.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://issue-tracker.freecodecamp.rocks/</a>. Working on this project will involve you writing your code using one of the following methods:
 
--   Klone <a href="https://github.com/freeCodeCamp/boilerplate-project-issuetracker/" target="_blank" rel="noopener noreferrer nofollow">diese GitHub-Repo</a> und schließe dein Projekt lokal ab.
+-   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-issuetracker/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
 -   Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-issuetracker/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete your project.
--   Verwende einen Site-Builder deiner Wahl, um das Projekt abzuschließen. Achte darauf, alle Dateien von unserem GitHub-Repo zu integrieren.
+-   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
 
 # --instructions--
 
--   Ergänze die notwendigen Routen in `/routes/api.js`
+-   Complete the necessary routes in `/routes/api.js`
 -   Erstelle alle Funktionstests in `tests/2_functional-tests.js`
--   Kopiere die `sample.env`-Datei nach `.env` und setze die Variablen entsprechend
--   To run the tests automatically, add `NODE_ENV=test` in your `.env` file
--   To run the tests in the console, use the command `npm run test`
+-   Kopiere die `sample.env`-Datei in `.env` und setze die Variablen entsprechend
+-   Um die Test atomatisch auszuführeb, fügen Sie `NODE_ENV=test` in deiner `.env`-Datei hinzu
+-   Um die Tests in der Konsole auszuführen, verwendest du den Befehl `npm run test`
 
-Schreibe die folgenden Tests in `tests/2_functional-tests.js`:
+Write the following tests in `tests/2_functional-tests.js`:
 
 -   Create an issue with every field: POST request to `/api/issues/{project}`
--   Create an issue with only required fields: POST request to `/api/issues/{project}`
--   Create an issue with missing required fields: POST request to `/api/issues/{project}`
--   View issues on a project: GET request to `/api/issues/{project}`
--   View issues on a project with one filter: GET request to `/api/issues/{project}`
--   View issues on a project with multiple filters: GET request to `/api/issues/{project}`
--   Aktualisiere ein Feld mit einem Issue: PUT-Anfrage an `/api/issues/{project}`
--   Aktualisiere mehrere Felder mit einem Issue: PUT-Anfrage an `/api/issues/{project}`
--   Aktualisiere ein Issue mit fehlender `_id`: PUT-Anfrage an `/api/issues/{project}`
--   Aktualisiere ein Issue, das keine Felder zum Aktualisieren besitzt: PUT-Anfrage an `/api/issues/{project}`
--   Aktualisiere ein Issue mit einer ungültigen `_id`: PUT-Anfrage an `/api/issues/{project}`
--   Lösche ein Issue: DELETE-Anfrage an `/api/issues/{project}`
--   Lösche ein Issue mit einer ungültigen `_id`: DELETE-Anfrage an `/api/issues/{project}`
--   Lösche ein Issue mit fehlender `_id`: DELETE-Anfrage an `/api/issues/{project}`
+-   Erstelle ein Issue mit nur erforderlichen Feldern: POST-Request an `/api/issues/{project}`
+-   Erstelle ein Issue mit erforderlichen fehlenden Feldern: POST-Request an `/api/issues/{project}`
+-   Issues in einem Projekt anzeigen: GET-Request an `/api/issues/{project}`
+-   Anzeigen von Issues in einem Projekt mit einem Filter: GET-Request an `/api/issues/{project}`
+-   Anzeigen von Issues in einem Projekt mit mehreren Filtern: GET-Request an `/api/issues/{project}`
+-   Ein Feld für ein Issue aktualisieren: PUT-Request an `/api/issues/{project}`
+-   Aktualisiere mehrere Felder mit einem Issue: PUT-Request an `/api/issues/{project}`
+-   Aktualisiere ein Problem mit fehlender `_id`: PUT-Request an `/api/issues/{project}`
+-   Aktualisieren eines Issues ohne zu aktualisierende Felder: PUT-Request an `/api/issues/{project}`
+-   Aktualisieren eines Issues mit einer ungültigen `_id`: PUT-Request an `/api/issues/{project}`
+-   Löschen eines Issues: DELETE-Request an `/api/issues/{project}`
+-   Löschen eines Issues mit einer ungültigen `_id`: DELETE-Request an `/api/issues/{project}`
+-   Löschen eines Issues mit fehlender `_id`: DELETE-Request an `/api/issues/{project}`
 
 # --hints--
 
-You can provide your own project, not the example URL.
+Du kannst dein eigenes Projekt angeben, nicht die Beispiel-URL.
 
 ```js
 (getUserInput) => {
@@ -49,7 +49,7 @@ You can provide your own project, not the example URL.
 };
 ```
 
-Du kannst eine `POST`-Anfrage mit Formulardaten an `/api/issues/{projectname}` senden. Die Formulardaten benötigen die Felder `issue_title`, `issue_text`, `created_by` und optional `assigned_to` sowie `status_text`.
+You can send a `POST` request to `/api/issues/{projectname}` with form data containing the required fields `issue_title`, `issue_text`, `created_by`, and optionally `assigned_to` and `status_text`.
 
 ```js
 async (getUserInput) => {
@@ -71,7 +71,7 @@ async (getUserInput) => {
 };
 ```
 
-The `POST` request to `/api/issues/{projectname}` will return the created object, and must include all of the submitted fields. Ausgeschlossene optionale Felder werden als leere Zeichenketten zurückgegeben. Füge außerdem `created_on` (Datum/Uhrzeit), `updated_on` (Datum/Uhrzeit), `open` (Boolean, `true` für offen - Standardwert, `false` für geschlossen) sowie `_id` hinzu.
+The `POST` request to `/api/issues/{projectname}` will return the created object, and must include all of the submitted fields. Excluded optional fields will be returned as empty strings. Additionally, include `created_on` (date/time), `updated_on` (date/time), `open` (boolean, `true` for open - default value, `false` for closed), and `_id`.
 
 ```js
 async (getUserInput) => {
@@ -105,7 +105,7 @@ async (getUserInput) => {
 };
 ```
 
-Wenn du eine `POST`-Anfrage an `/api/issues/{projectname}` ohne die erforderlichen Felder sendest, wird der Fehler `{ error: 'required field(s) missing' }` zurückgegeben
+If you send a `POST` request to `/api/issues/{projectname}` without the required fields, returned will be the error `{ error: 'required field(s) missing' }`
 
 ```js
 async (getUserInput) => {
@@ -170,7 +170,7 @@ async (getUserInput) => {
 };
 ```
 
-You can send a `GET` request to `/api/issues/{projectname}` and filter the request by also passing along any field and value as a URL query (ie. `/api/issues/{project}?open=false`). Du kannst ein oder mehrere Feld/Wert-Paare auf einmal übergeben.
+You can send a `GET` request to `/api/issues/{projectname}` and filter the request by also passing along any field and value as a URL query (ie. `/api/issues/{project}?open=false`). You can pass one or more field/value pairs at once.
 
 ```js
 async (getUserInput) => {
@@ -216,7 +216,7 @@ async (getUserInput) => {
 };
 ```
 
-Du kannst eine `PUT`-Anfrage an `/api/issues/{projectname}` mit einer `_id` und mindestens einem Feld zum Aktualisieren senden. Im Erfolgsfall sollte das Feld `updated_on` aktualisiert werden und `{  result: 'successfully updated', '_id': _id }` zurückgeben.
+You can send a `PUT` request to `/api/issues/{projectname}` with an `_id` and one or more fields to update. On success, the `updated_on` field should be updated, and returned should be `{  result: 'successfully updated', '_id': _id }`.
 
 ```js
 async (getUserInput) => {
@@ -251,7 +251,7 @@ async (getUserInput) => {
 };
 ```
 
-Wenn die `PUT`-Anfrage, die an `/api/issues/{projectname}` übermittelt wird, keine `_id` enthält, entspricht der Rückgabewert `{ error: 'missing _id' }`.
+When the `PUT` request sent to `/api/issues/{projectname}` does not include an `_id`, the return value is `{ error: 'missing _id' }`.
 
 ```js
 async (getUserInput) => {
@@ -267,7 +267,7 @@ async (getUserInput) => {
 };
 ```
 
-Wenn die `PUT`-Anfrage, die an `/api/issues/{projectname}` übermittelt wird, keine Aktualisierungsfelder enthält, entspricht der Rückgabewert `{ error: 'no update field(s) sent', '_id': _id }`. Bei jedem anderen Fehler entspricht der Rückgabewert `{ error: 'could not update', '_id': _id }`.
+When the `PUT` request sent to `/api/issues/{projectname}` does not include update fields, the return value is `{ error: 'no update field(s) sent', '_id': _id }`. On any other error, the return value is `{ error: 'could not update', '_id': _id }`.
 
 ```js
 async (getUserInput) => {
@@ -297,7 +297,7 @@ async (getUserInput) => {
 };
 ```
 
-You can send a `DELETE` request to `/api/issues/{projectname}` with an `_id` to delete an issue. If no `_id` is sent, the return value is `{ error: 'missing _id' }`. Beim Erfolgsfall entspricht der Rückgabewert `{ result: 'successfully deleted', '_id': _id }`. Bei einem Fehler entspricht der Rückgabewert `{ error: 'could not delete', '_id': _id }`.
+You can send a `DELETE` request to `/api/issues/{projectname}` with an `_id` to delete an issue. If no `_id` is sent, the return value is `{ error: 'missing _id' }`. On success, the return value is `{ result: 'successfully deleted', '_id': _id }`. On failure, the return value is `{ error: 'could not delete', '_id': _id }`.
 
 ```js
 async (getUserInput) => {
@@ -339,7 +339,7 @@ async (getUserInput) => {
 };
 ```
 
-Alle 14 Funktionstests sind abgeschlossen und bestanden.
+All 14 functional tests are complete and passing.
 
 ```js
 async (getUserInput) => {

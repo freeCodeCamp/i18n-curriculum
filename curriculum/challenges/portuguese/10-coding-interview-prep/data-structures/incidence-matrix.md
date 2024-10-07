@@ -8,7 +8,7 @@ dashedName: incidence-matrix
 
 # --description--
 
-Outra forma de representar um grafo é colocá-lo em uma <dfn>matriz de incidência</dfn>
+Yet another way to represent a graph is to put it in an <dfn>incidence matrix.</dfn>
 
 Uma <dfn>matriz de incidência</dfn> é um array bidimensional (2D). Em geral, uma matriz de incidência relaciona duas classes diferentes de objetos entre suas duas dimensões. Esse tipo de matriz é semelhante a uma matriz de adjacência. No entanto, as linhas e as colunas significam algo mais neste caso.
 

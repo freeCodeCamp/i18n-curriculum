@@ -9,7 +9,7 @@ dashedName: returning-boolean-values-from-functions
 
 # --description--
 
-قد تتذكر من <a href="/learn/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-equality-operator" target="_blank" rel="noopener noreferrer nofollow">المقارنة باستخدام مشغِّل المساواة (==)</a> أن جميع مشغلي المقارنات ينتجون قيمة منطقية (boolean) سواء `true` أو `false`.
+You may recall from <a href="/learn/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-equality-operator" target="_blank" rel="noopener noreferrer nofollow">Comparison with the Equality Operator</a> that all comparison operators return a boolean `true` or `false` value.
 
 في بعض الأحيان يستخدم الناس `if/else` لإجراء المقارنة، مثلا:
 

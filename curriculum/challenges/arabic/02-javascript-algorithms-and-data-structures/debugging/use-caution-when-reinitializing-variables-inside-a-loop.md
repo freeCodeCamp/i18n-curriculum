@@ -8,7 +8,7 @@ dashedName: use-caution-when-reinitializing-variables-inside-a-loop
 
 # --description--
 
-في بعض الأحيان من الضروري حفظ المعلومات، تزويد العدادات، أو إعادة تعيين المتغيرات ضمن الحلقة التكرارية. تتمثل المشكلة المحتملة في الوقت الذي يجب إعادة تهيئة المتغيرات فيه ، وعدم حدوث ذلك ، أو العكس. هذا أمر خطير بشكل خاص إذا قمت عن طريق الخطأ بإعادة تعيين المتغير المستخدم في حالة الشرط الانتهائي، مما يسبب حلقة لا نهائية.
+Sometimes it's necessary to save information, increment counters, or re-set variables within a loop. A potential issue is when variables either should be reinitialized, and aren't, or vice versa. This is particularly dangerous if you accidentally reset the variable being used for the terminal condition, causing an infinite loop.
 
 يمكن أن تكشف طباعة القيم المتغيرة مع كل دورة من الحلقة باستخدام `console.log()` عن سلوك خاطئ متعلق بإعادة التعيين أو الفشل في إعادة تعيين متغير.
 

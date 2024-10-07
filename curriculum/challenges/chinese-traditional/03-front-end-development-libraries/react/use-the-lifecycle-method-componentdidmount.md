@@ -8,7 +8,7 @@ dashedName: use-the-lifecycle-method-componentdidmount
 
 # --description--
 
-某些時候，大多數 web 開發人員需要調用 API 接口來獲取數據。 如果正在使用 React，知道在哪裏執行這個動作是很重要的。
+Most web developers, at some point, need to call an API endpoint to retrieve data. If you're working with React, it's important to know where to perform this action.
 
 React 的最佳實踐是在生命週期方法 `componentDidMount()` 中對服務器進行 API 調用或任何其它調用。 將組件裝載到 DOM 後會調用此方法。 此處對 `setState()` 的任何調用都將觸發組件的重新渲染。 在此方法中調用 API 並用 API​​ 返回的數據設置 state 時，一旦收到數據，它將自動觸發更新。
 

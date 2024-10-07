@@ -8,7 +8,7 @@ dashedName: mutations
 
 # --description--
 
-配列の最初の要素内の文字列に、2 番目の要素内の文字列にあるすべての文字が含まれている場合に、`true` を返してください。
+Return `true` if the string in the first element of the array contains all of the letters of the string in the second element of the array.
 
 たとえば、`["hello", "Hello"]` は、2 番目の文字列内のすべての文字が最初の文字列に含まれているので、`true` を返す必要があります (大文字と小文字は区別しません)。
 

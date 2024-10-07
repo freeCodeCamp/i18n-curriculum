@@ -10,7 +10,7 @@ dashedName: replace-loops-using-recursion
 
 # --description--
 
-Rekursion ist das Konzept, dass eine Funktion durch sich selbst aufgerufen werden kann. Damit du das besser verstehst, solltest du dir folgende Aufgabe vorstellen: Multipliziere die ersten `n` Elemente eines Arrays, um das Produkt dieser Elemente zu bilden. Mit einer `for`-Schleife könntest du dies tun:
+Recursion is the concept that a function can be expressed in terms of itself. To help understand this, start by thinking about the following task: multiply the first `n` elements of an array to create the product of those elements. Using a `for` loop, you could do this:
 
 ```js
   function multiply(arr, n) {

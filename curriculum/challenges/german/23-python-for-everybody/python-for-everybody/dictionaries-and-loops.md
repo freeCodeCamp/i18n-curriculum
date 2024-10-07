@@ -12,7 +12,7 @@ dashedName: dictionaries-and-loops
 
 # --description--
 
-More resources:
+Weitere Quellen:
 
 \- <a href="https://www.youtube.com/watch?v=PrhZ9qwBDD8" target="_blank" rel="noopener noreferrer nofollow">Übung</a>
 

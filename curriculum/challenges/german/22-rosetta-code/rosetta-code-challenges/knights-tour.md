@@ -8,7 +8,7 @@ dashedName: knights-tour
 
 # --description--
 
-Knight's Tour Problem: You have an empty `width` \* `height` chessboard, but for a single knight on some square. The knight must perform a sequence of legal moves that result in the knight visiting every square on the chessboard exactly once. Note that it is *not* a requirement that the tour be "closed"; that is, the knight need not end within a single move of its start position.
+Rittertour-Problem: du hast ein leeres `width` \* `height` Schachbrett, aber einen einzelnen Springer auf einem Feld. Der Springer muss eine Folge von erlaubten Zügen ausführen, die dazu führen, dass er jedes Feld auf dem Schachbrett genau einmal besucht. Beachte, dass es *nicht* erforderlich ist, dass die Tour "geschlossen" ist, d. h., der Springer muss nicht innerhalb eines einzigen Zuges von seiner Startposition aus enden.
 
 # --instructions--
 

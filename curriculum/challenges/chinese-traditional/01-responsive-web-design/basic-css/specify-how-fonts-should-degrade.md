@@ -9,7 +9,7 @@ dashedName: specify-how-fonts-should-degrade
 
 # --description--
 
-所有瀏覽器都有幾種默認字體， 包括 `monospace`、`serif` 和 `sans-serif`。
+There are several default fonts that are available in all browsers. These generic font families include `monospace`, `serif` and `sans-serif`.
 
 在字體不可用的時候，你可以告訴瀏覽器通過“降級”去使用其他字體。
 

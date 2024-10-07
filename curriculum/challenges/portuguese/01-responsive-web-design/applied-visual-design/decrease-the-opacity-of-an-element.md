@@ -9,7 +9,7 @@ dashedName: decrease-the-opacity-of-an-element
 
 # --description--
 
-A propriedade `opacity` do CSS é usada para ajustar a opacidade ou, inversamente, a transparência de um item.
+The `opacity` property in CSS is used to adjust the opacity, or conversely, the transparency for an item.
 
 <blockquote>O valor 1 é opaco, o que não é transparente. <br> O valor 0.5 é meio transparente. <br> O valor 0 é totalmente transparente.</blockquote>
 

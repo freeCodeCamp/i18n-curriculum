@@ -8,7 +8,7 @@ dashedName: invert-svg-elements
 
 # --description--
 
-Vielleicht ist dir aufgefallen, dass das Balkendiagramm auf dem Kopf steht, oder umgedreht ist. Das liegt an der Art und Weise, wie SVG die Koordinaten (x, y) verwendet.
+You may have noticed the bar chart looked like it's upside-down, or inverted. This is because of how SVG uses (x, y) coordinates.
 
 In SVG befindet sich der Ursprungspunkt für die Koordinaten in der oberen linken Ecke. Eine `x`-Koordinate von 0 platziert eine Form am linken Rand des SVG-Bereichs. Eine `y`-Koordinate von 0 platziert eine Form am oberen Rand des SVG-Bereichs. Höhere `x`-Werte verschieben das Rechteck nach rechts. Höhere `y`-Werte verschieben das Rechteck nach unten.
 

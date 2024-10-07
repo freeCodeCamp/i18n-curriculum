@@ -8,7 +8,7 @@ dashedName: handle-click-events-with-javascript-using-the-onclick-property
 
 # --description--
 
-你希望代码仅在页面完成加载后执行。 为此，你可将名为`DOMContentLoaded`的 JavaScript 事件附加到文档中。 以下是实现的代码：
+You want your code to execute only once your page has finished loading. For that purpose, you can attach a JavaScript event to the document called `DOMContentLoaded`. Here's the code that does this:
 
 ```js
 document.addEventListener('DOMContentLoaded', function() {

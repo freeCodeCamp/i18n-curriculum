@@ -1,6 +1,6 @@
 ---
 id: 5f356ed6cf6eab5f15f5cfe6
-title: Step 20
+title: Passo 20
 challengeType: 0
 dashedName: step-20
 ---
@@ -9,29 +9,29 @@ dashedName: step-20
 
 The `div` element is used mainly for design layout purposes unlike the other content elements you have used so far. Add a `div` element inside the `body` element and then move all the other elements inside the new `div`.
 
-Inside the opening `div` tag, add the `id` attribute with a value of `menu`.
+Dentro da tag de abertura da `div`, adicione o atributo `id` com o valor de `menu`.
 
 # --hints--
 
-Your opening `<div>` tag should have an `id` attribute set to `menu`.
+A tag de abertura da `<div>` deve ter o atributo `id` definido como `menu`.
 
 ```js
 assert.strictEqual(document.querySelector('div')?.id, 'menu');
 ```
 
-You should have a closing `</div>` tag.
+Você deve acrescentar uma tag de fechamento `</div>`.
 
 ```js
 assert(code.match(/<\/div>/i));
 ```
 
-You should not change your existing `body` element. Make sure you did not delete the closing tag.
+Você não dever alterar o elemento `body` existente. Certifique-se de que você não excluiu a tag de fechamento.
 
 ```js
 assert.lengthOf(document.querySelectorAll('body'), 1);
 ```
 
-Your `div` tag should be nested in the `body`.
+O elemento `div` deve estar dentro do elemento `body`.
 
 ```js
 assert.equal(document.querySelector('div')?.parentElement?.tagName, 'BODY');

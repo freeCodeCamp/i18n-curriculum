@@ -8,7 +8,7 @@ dashedName: use-the-bootstrap-grid-to-put-elements-side-by-side
 
 # --description--
 
-Bootstrap 具有一套 12 列的響應式柵格系統，可以輕鬆地將多個元素放入一行並指定它們的相對寬度。 Bootstrap 的大部分 class 屬性都可以應用在 `div` 元素上。
+Bootstrap uses a responsive 12-column grid system, which makes it easy to put elements into rows and specify each element's relative width. Most of Bootstrap's classes can be applied to a `div` element.
 
 Bootstrap 有不同的列寬屬性，它根據用戶的屏幕寬度來使用相應的寬度。 比如，手機的屏幕窄，而筆記本電腦的屏幕更寬。
 

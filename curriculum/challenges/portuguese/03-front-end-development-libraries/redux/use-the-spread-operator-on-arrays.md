@@ -8,7 +8,7 @@ dashedName: use-the-spread-operator-on-arrays
 
 # --description--
 
-Uma solução da ES6 para ajudar a impor imutabilidade do estado no Redux é o operador spread: `...`. O operador spread tem uma variedade de aplicações, uma das quais é adequada ao desafio anterior de produzir um novo array a partir de um array existente. Trata-se de uma sintaxe relativamente nova, mas comumente usada. Por exemplo, se você tem um array `myArray` e escreve:
+One solution from ES6 to help enforce state immutability in Redux is the spread operator: `...`. The spread operator has a variety of applications, one of which is well-suited to the previous challenge of producing a new array from an existing array. This is relatively new, but commonly used syntax. For example, if you have an array `myArray` and write:
 
 ```js
 let newArray = [...myArray];

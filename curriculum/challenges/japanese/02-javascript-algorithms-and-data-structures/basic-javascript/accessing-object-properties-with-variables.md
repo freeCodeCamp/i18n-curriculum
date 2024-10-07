@@ -9,7 +9,7 @@ dashedName: accessing-object-properties-with-variables
 
 # --description--
 
-オブジェクトに対するブラケット記法のもう一つの用例として、プロパティを変数の値として保存し、アクセスする方法があります。 この用法は、オブジェクトのプロパティを繰り返し処理する場合や、ルックアップテーブルにアクセスする場合にとても便利です。
+Another use of bracket notation on objects is to access a property which is stored as the value of a variable. This can be very useful for iterating through an object's properties or when accessing a lookup table.
 
 次は変数を使用してプロパティにアクセスする例です。
 

@@ -9,7 +9,7 @@ dashedName: use-the-parseint-function-with-a-radix
 
 # --description--
 
-Die Funktion `parseInt()` parst einen String und gibt eine Ganzzahl zurück. Sie nimmt ein zweites Argument für das Radix, das die Basis der Zahl in dem String angibt. Das Radix kann eine ganze Zahl zwischen 2 und 36 sein.
+The `parseInt()` function parses a string and returns an integer. It takes a second argument for the radix, which specifies the base of the number in the string. The radix can be an integer between 2 and 36.
 
 Der Funktionsaufruf sieht wie folgt aus:
 

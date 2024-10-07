@@ -12,7 +12,7 @@ dashedName: how-to-solve-for-x-extra
 
 這是<a href="https://colab.research.google.com/drive/1Jv6WxW93J_1GZao8DkNb4X0D93oVibbs" target="_blank" rel="noopener noreferrer nofollow">和視頻配套的 Colab 筆記本</a>。用它來爲你正在創建的代數 Colab 筆記本添加更多內容。
 
-# --任務--
+# --作業--
 
 將視頻中更多求解 x 的方法的代碼添加到你的代數 Colab 筆記本中。
 

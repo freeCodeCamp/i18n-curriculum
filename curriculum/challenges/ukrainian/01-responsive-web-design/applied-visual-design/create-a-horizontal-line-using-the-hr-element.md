@@ -9,7 +9,7 @@ dashedName: create-a-horizontal-line-using-the-hr-element
 
 # --description--
 
-Ви можете використовувати теґ `hr`, щоб додати горизонтальний рядок до ширини елемента, який він містить. Цей теґ можна використовувати для того, щоб позначити зміну теми або візуально розділити групи контенту.
+You can use the `hr` tag to add a horizontal line across the width of its containing element. This can be used to define a change in topic or to visually separate groups of content.
 
 # --instructions--
 

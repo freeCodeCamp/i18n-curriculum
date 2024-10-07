@@ -8,7 +8,7 @@ dashedName: specify-exact-number-of-matches
 
 # --description--
 
-可以使用帶有花括號的數量說明符來指定匹配模式的上下限。 但有時只需要特定數量的匹配。
+You can specify the lower and upper number of patterns with quantity specifiers using curly brackets. Sometimes you only want a specific number of matches.
 
 要指定一定數量的匹配模式，只需在大括號之間放置一個數字。
 

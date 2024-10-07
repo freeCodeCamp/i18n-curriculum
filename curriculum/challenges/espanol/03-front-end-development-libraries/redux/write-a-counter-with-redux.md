@@ -8,7 +8,7 @@ dashedName: write-a-counter-with-redux
 
 # --description--
 
-¡Ahora ya has aprendido todos los principios básicos de Redux! Has visto cómo crear acciones y creadores de acción, crear un almacén Redux, enviar tus acciones contra el almacén y diseñar actualizaciones de estado con reductores puros. Incluso has visto cómo gestionar estados complejos con la composición de reductores y manejar acciones asíncronas. Estos ejemplos son simplistas, pero estos conceptos son los principios básicos de Redux. Si los entiendes bien, estás listo para empezar a crear tu propia aplicación Redux. Los próximos desafíos cubren algunos de los detalles relacionados con la inmutabilidad de `state`, pero primero, aquí hay un repaso de todo lo que has aprendido hasta ahora.
+Now you've learned all the core principles of Redux! You've seen how to create actions and action creators, create a Redux store, dispatch your actions against the store, and design state updates with pure reducers. You've even seen how to manage complex state with reducer composition and handle asynchronous actions. These examples are simplistic, but these concepts are the core principles of Redux. If you understand them well, you're ready to start building your own Redux app. The next challenges cover some of the details regarding `state` immutability, but first, here's a review of everything you've learned so far.
 
 # --instructions--
 
@@ -28,19 +28,19 @@ El creador de acción `decAction` debe devolver un objeto de acción con `type` 
 assert(decAction().type === DECREMENT);
 ```
 
-Running `store.getState()` should return a number
+La ejecución de `store.getState()` debe devolver un número
 
 ```js
 assert(typeof store.getState() === 'number');
 ```
 
-The Redux store should initialize with a `state` of 0.
+El almacén Redux debe inicializarse con un `state` de 0.
 
 ```js
 assert(_store.getState() === 0);
 ```
 
-Dispatching `incAction` on the Redux store should increment the `state` by 1.
+Ejecutar una acción `incAction` sobre el almacén Redux debe incrementar el `state` en 1.
 
 ```js
 assert(
@@ -53,7 +53,7 @@ assert(
 );
 ```
 
-Dispatching `decAction` on the Redux store should decrement the `state` by 1.
+Ejecutar una acción `decAction` sobre el almacén Redux debe reducir el `state` en 1.
 
 ```js
 assert(
@@ -66,7 +66,7 @@ assert(
 );
 ```
 
-`counterReducer` should be a function
+`counterReducer` debe ser una función
 
 ```js
 assert(typeof counterReducer === 'function');

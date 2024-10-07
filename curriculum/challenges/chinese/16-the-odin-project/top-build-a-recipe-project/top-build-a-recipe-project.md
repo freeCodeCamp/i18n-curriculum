@@ -1,34 +1,34 @@
 ---
 id: 6391d1a4f7ac71efd0621380
-title: Build a Recipe Page Project
+title: 创建一个食谱页面项目
 challengeType: 14
 dashedName: top-build-a-recipe-project
 ---
 
 # --description--
 
-The website will consist of a main index page which will have links to a few recipes. The website won’t look very pretty by the time you’ve finished.
+这个网站将包含一个主索引页，这个页面有一些食谱的链接。 当你创建完成时，网站看起来不会很漂亮。
 
-**User Stories:**
+**用户需求:**
 
-1. Your recipe page should contain a `DOCTYPE` tag.
-1. Your recipe page should include an `html` element with a `head` and `body` element as children.
-1. You should have a `title` element within the `head` element with the text `The Odin Recipes`.
-1. You should see an `h1` element that has the text `Creamy Chocolate Fudge`.
+1. 你的食谱页面应该包含 `DOCTYPE` 标签。
+1. 你的食谱页面应该包含一个 `html` 元素，其中有 `head` 和 `body` 作为子元素。
+1. 在 `head` 元素中，你应该有一个 `title` 元素，文本为 `The Odin Recipes`。
+1. 你应该看到一个 `h1` 元素，它有文本 `Creamy Chocolate Fudge`。
 1. You should see a related image with an `alt` attribute.
-1. There should be an `h2` element with the text `Description` under the image.
-1. You should see a couple of paragraphs under `Description` that describe the recipe.
+1. 图片下应该有一个 `h2` 元素，文本为 `Description`。
+1. 在 `Description` 下方应该有几段描述食谱的文字。
 1. There should be an `h2` element with the text `Ingredients`.
-1. Under the `Ingredients` heading there should be an unordered list with the ingredients needed for the recipe.
-1. Under the list of ingredients add another heading called `Steps`.
-1. You should see an ordered list with a couple of steps needed to complete the recipe.
+1. 在 `Ingredients` 标题下方，应该有一个无序列表，其中包含该食谱所需的成分。
+1. 在原料列表下，添加另一个叫作 `Steps` 的标题。
+1. 你应该看到一个有序列表，其中包含完成食谱所需的几个步骤。
 1. Under the steps there should be an `h2` element with the text `More Recipes`.
-1. You should see a couple of links to other recipes inside an unordered list which has a couple of list items with anchor elements within.
+1. 你应该看到在一个无序列表内有几个带有锚元素的列表项，其中有几个指向其他食谱的链接。
 1. These anchor elements should have an `href` attribute with the value set to `#`.
 
 # --hints--
 
-You should have a `DOCTYPE` tag.
+你应该有一个 `DOCTYPE` 标签。
 
 ```js
 assert(code.match(/<!DOCTYPE\s+?html\s*?>/gi));
@@ -44,13 +44,13 @@ const body = document.querySelectorAll('html > body')[0];
 assert(html && head && body);
 ```
 
-You should have a `title` element within the `head` element that contains the text `The Odin Recipes`.
+在包含文本 `The Odin Recipes` 的 `head` 元素中，你应该有一个 `title` 元素。
 
 ```js
 assert(document.querySelectorAll('HEAD > TITLE')[0].innerText == 'The Odin Recipes');
 ```
 
-You should have a `h1` element within your `body` element that contains the text `Creamy Chocolate Fudge`.
+在包含文本 `Creamy Chocolate Fudge` 的 `body` 元素中，你应该有一个 `h1` 元素。
 
 ```js
 assert(document.querySelectorAll('BODY > H1')[0].innerText == 'Creamy Chocolate Fudge');
@@ -64,7 +64,7 @@ const img = document.querySelectorAll('IMG')[0];
 assert(img && img.alt !='' && img.src != '')
 ```
 
-You should have an `h2` element with the text `Description`.
+你应该有一个 `h2` 元素，文本为 `Description`。
 
 ```js
 const h2 = document.querySelectorAll('H2')[0];
@@ -72,7 +72,7 @@ const h2 = document.querySelectorAll('H2')[0];
 assert(h2.innerText == 'Description');
 ```
 
-You should have at least two `p` elements describing the recipe.
+你应该至少有两个 `p` 元素描述该食谱。
 
 ```js
 const paragraphs = document.querySelectorAll('P');
@@ -80,7 +80,7 @@ const paragraphs = document.querySelectorAll('P');
 assert(paragraphs.length > 1);
 ```
 
-You should have an `h2` element with the text `Ingredients`.
+你应该有一个 `h2` 元素，文本为 `Ingredients`。
 
 ```js
 const h2 = document.querySelectorAll('H2')[1];
@@ -88,7 +88,7 @@ const h2 = document.querySelectorAll('H2')[1];
 assert(h2.innerText == 'Ingredients');
 ```
 
-You should have an unordered list `<ul>` with some ingredients as the list items `<li>`.
+你应该有一个无序列表 `<ul>`，其中包含一些成分作为列表项 `<li>`。
 
 ```js
 const unorderedList = document.querySelectorAll('UL')[0];
@@ -97,7 +97,7 @@ const listItems = document.querySelectorAll('UL > LI');
 assert(unorderedList && listItems && listItems.length > 1);
 ```
 
-You should have an `h2` element with the text `Steps`.
+你应该有一个 `h2` 元素，文本为 `Steps`。
 
 ```js
 const h2 = document.querySelectorAll('H2')[2];
@@ -114,7 +114,7 @@ const listItems = document.querySelectorAll('OL > LI');
 assert(orderedList && listItems && listItems.length > 1);
 ```
 
-You should have an `h2` element with the text `More Recipes`.
+你应该有一个 `h2` 元素，文本为 `More Recipes`。
 
 ```js
 const h2 = document.querySelectorAll('H2')[3];
@@ -122,7 +122,7 @@ const h2 = document.querySelectorAll('H2')[3];
 assert(h2.innerText == 'More Recipes');
 ```
 
-You should have an unordered list `<ul>` element with list items `<li>` that contain `<a>` tags which lead to other recipes.
+你应该有一个无序列表 `<ul>` 元素，列表项目 `<li>` 包含指向其他食谱的 `<a>` 标签。
 
 ```js
 const unorderedList = document.querySelectorAll('UL')[1];

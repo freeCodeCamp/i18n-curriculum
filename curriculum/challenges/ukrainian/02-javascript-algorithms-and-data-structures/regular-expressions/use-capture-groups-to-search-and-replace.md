@@ -8,7 +8,7 @@ dashedName: use-capture-groups-to-search-and-replace
 
 # --description--
 
-Пошук корисний. Проте ви можете зробити пошук ще ефективнішим, коли він також змінюватиме (або замінюватиме) текст, для якого ви шукаєте збіг.
+Searching is useful. However, you can make searching even more powerful when it also changes (or replaces) the text you match.
 
 Ви можете шукати і замінювати текст у рядку, застосовуючи `.replace()` до рядка. Першим параметром `.replace()` є шаблон регулярного виразу, який ви хочете знайти. Другим параметром є рядок для заміни збігу або функції для виконання чогось.
 

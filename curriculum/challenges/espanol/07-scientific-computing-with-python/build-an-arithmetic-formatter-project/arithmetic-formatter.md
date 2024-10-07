@@ -16,7 +16,7 @@ Students in primary school often arrange arithmetic problems vertically to make 
 -----
 ```
 
-Finish the `arithmetic_arranger` function that receives a list of strings which are arithmetic problems, and returns the problems arranged vertically and side-by-side. The function should optionally take a second argument. When the second argument is set to `True`, the answers should be displayed.
+Finalice la función `arithmetic_arranger` que recibe una lista de cadenas que son problemas aritméticos y devuelve los problemas ordenados verticalmente y uno al lado del otro. The function should optionally take a second argument. When the second argument is set to `True`, the answers should be displayed.
 
 ## Example
 
@@ -34,13 +34,13 @@ Output:
 -----    ------    ----    -----
 ```
 
-Function Call:
+Llamando a la función:
 
 ```py
 arithmetic_arranger(["32 + 8", "1 - 3801", "9999 + 9999", "523 - 49"], True)
 ```
 
-Output:
+Resultado:
 
 ```py
   32         1      9999      523
@@ -49,7 +49,7 @@ Output:
   40     -3800     19998      474
 ```
 
-## Rules
+## Reglas
 
 The function will return the correct conversion if the supplied problems are properly formatted, otherwise, it will **return** a **string** that describes an error that is meaningful to the user.
 
@@ -58,11 +58,11 @@ The function will return the correct conversion if the supplied problems are pro
   - The appropriate operators the function will accept are **addition** and **subtraction**. Multiplication and division will return an error. Other operators not mentioned in this bullet point will not need to be tested. The error returned will be: `"Error: Operator must be '+' or '-'."`
   - Each number (operand) should only contain digits. Otherwise, the function will return: `'Error: Numbers must only contain digits.'`
   - Each operand (aka number on each side of the operator) has a max of four digits in width. Otherwise, the error string returned will be: `'Error: Numbers cannot be more than four digits.'`
-- If the user supplied the correct format of problems, the conversion you return will follow these rules:
+- Si el usuario proporcionó el formato correcto de los problemas, la conversión que devuelva seguirá estas reglas:
   - There should be a single space between the operator and the longest of the two operands, the operator will be on the same line as the second operand, both operands will be in the same order as provided (the first will be the top one and the second will be the bottom).
-  - Numbers should be right-aligned.
-  - There should be four spaces between each problem.
-  - There should be dashes at the bottom of each problem. The dashes should run along the entire length of each problem individually. (The example above shows what this should look like.)
+  - Los números deben estar alineados a la derecha.
+  - Debe haber cuatro espacios entre cada problema.
+  - Debe haber guiones en la parte inferior de cada problema. Los guiones deben recorrer toda la longitud de cada problema individualmente. (El ejemplo anterior muestra el aspecto que debe tener.)
 
 Note: open the browser console with F12 to see a more verbose output of the tests.
 

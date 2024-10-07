@@ -16,7 +16,7 @@ Mentre il processo continua, il cerchio diventa più piccolo, fino a quando rima
 
 Ad esempio, se ci sono $n=5$ prigionieri e $k=2$, l'ordine in cui i prigionieri vengono uccisi (chiamiamolo la "sequenza di uccisione") sarà 1, 3, 0 e 4, e il sopravvissuto sarà il numero 2.
 
-Dato qualsiasi $n, k > 0$, scopri quale prigioniero sarà il sopravvissuto finale.
+Given any $n, k > 0$, find out which prisoner will be the final survivor.
 
 In una di queste situazioni, ci furono 41 prigionieri e ogni 3<sup>°</sup> prigioniero fu ucciso ($k= 3 $).
 

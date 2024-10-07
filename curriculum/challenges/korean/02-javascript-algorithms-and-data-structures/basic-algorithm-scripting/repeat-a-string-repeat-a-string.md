@@ -8,7 +8,7 @@ dashedName: repeat-a-string-repeat-a-string
 
 # --description--
 
-주어진 문자열 `str`(첫 번째 인자)을 `num`(두 번째 인자) 회 반복하세요. `num`이 양수가 아니면 빈 문자열을 반환하세요. 이 문제의 목적을 위해, 내장 메서드 `.repeat()`를 사용하지 *않습니다*.
+Repeat a given string `str` (first argument) for `num` times (second argument). Return an empty string if `num` is not a positive number. For the purpose of this challenge, do *not* use the built-in `.repeat()` method.
 
 # --hints--
 

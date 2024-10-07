@@ -7,7 +7,7 @@ dashedName: the-box-model-lesson-b
 
 # --description--
 
-In the Elements pane, you can see the entire HTML structure of your page. You can click on any of the elements in this pane to select that specific element. Alternatively, you can click the blue-highlighted icon shown below on the left, and hover over any element on the page.
+Im Fensterbereich Elemente kannst du die gesamte HTML-Struktur deiner Seite sehen. Du kannst auf ein beliebiges Element in diesem Fensterbereich klicken, um dieses Element auszuwählen. Alternatively, you can click the blue-highlighted icon shown below on the left, and hover over any element on the page.
 
 <img src="https://cdn.freecodecamp.org/curriculum/odin-project/the-box-model/inspector-icon.png" alt="A web development environment with developer tools open, highlighting a blue inspector icon in the top-left for selecting webpage elements to view HTML structure and styles." />
 
@@ -23,7 +23,7 @@ When inspecting an element in the Chrome Dev Tools, if a style property is shown
 
 ## --answers--
 
-The style property is currently disabled and not applied to the element.
+Die Stil-Eigenschaft ist derzeit deaktiviert und wird nicht auf das Element angewendet.
 
 ---
 

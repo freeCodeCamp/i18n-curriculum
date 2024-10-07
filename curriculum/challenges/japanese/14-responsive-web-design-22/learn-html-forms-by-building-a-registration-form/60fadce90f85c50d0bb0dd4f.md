@@ -7,7 +7,7 @@ dashedName: step-47
 
 # --description--
 
-`fieldset` 要素をもう少し分離するために、fieldset を選択して `border-bottom` を `3px solid #3b3b4f` に設定してください。
+To give the `fieldset` elements a bit of separation, select them and give them a `border-bottom` of `3px solid #3b3b4f`.
 
 # --hints--
 

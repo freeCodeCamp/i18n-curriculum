@@ -14,7 +14,7 @@ dashedName: neural-networks-optimizers
 
 ## --text--
 
-オプティマイザー関数とは何ですか？
+What is an optimizer function?
 
 ## --answers--
 

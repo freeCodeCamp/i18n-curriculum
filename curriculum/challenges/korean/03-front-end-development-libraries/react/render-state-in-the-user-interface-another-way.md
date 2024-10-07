@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d4036172
-title: Render State in the User Interface Another Way
+title: 사용자 인터페이스(UI)에 상태를 렌더링하는 다른 방법
 challengeType: 6
 forumTopicId: 301408
 dashedName: render-state-in-the-user-interface-another-way
@@ -12,13 +12,13 @@ There is another way to access `state` in a component. In the `render()` method,
 
 # --instructions--
 
-In the `MyComponent` render method, define a `const` called `name` and set it equal to the name value in the component's `state`. Because you can write JavaScript directly in this part of the code, you don't have to enclose this reference in curly braces.
+`MyComponent` 렌더링 메서드에 `const` 변수 `name`을 선언하고, `상태`에 있는 name 값으로 설정해보세요. 직접 자바스크립트를 사용할 수 있기 때문에, 중괄호로 묶어줄 필요가 없습니다.
 
-Next, in the return statement, render this value in an `h1` tag using the variable `name`. Remember, you need to use the JSX syntax (curly braces for JavaScript) in the return statement.
+그런 다음, 반환(return)문에 `name` 변수를 이용해서 `h1` 태그에 렌더링 해보세요. 반환문에서는 JSX 문법(자바스크립트를 묶는 중괄호)을 사용해야 하는 것을 기억하세요.
 
 # --hints--
 
-`MyComponent` should have a key `name` with value `freeCodeCamp` stored in its state.
+`MyComponent`는 `freeCodeCamp`을 값으로 가진 `name`키를 상태에 가지고 있어야 합니다.
 
 ```js
 assert(
@@ -27,7 +27,7 @@ assert(
 );
 ```
 
-`MyComponent` should render an `h1` heading element enclosed in a single `div`.
+`MyComponent`는 하나의 `div`로 묶인 `h1` 제목 엘리먼트를 렌더링해야 합니다.
 
 ```js
 assert(
@@ -37,14 +37,14 @@ assert(
 );
 ```
 
-The rendered `h1` tag should include a reference to `{name}`.
+렌더링되는 `h1` 태그는 `{name}`를 포함해야 합니다.
 
 ```js
 (getUserInput) =>
   assert(/<h1>\n*\s*\{\s*name\s*\}\s*\n*<\/h1>/.test(getUserInput('index')));
 ```
 
-The rendered `h1` heading element should contain text rendered from the component's state.
+렌더링된 `h1` 제목 엘리먼트는 컴포넌트의 상태에서 가져온 텍스트가 포함되어야 합니다.
 
 ```js
 async () => {

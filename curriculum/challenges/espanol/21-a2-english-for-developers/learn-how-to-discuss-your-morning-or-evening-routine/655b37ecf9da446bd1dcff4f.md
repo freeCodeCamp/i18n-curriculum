@@ -14,15 +14,15 @@ In this challenge, focus on identifying the adjectives Sophie uses to describe h
 
 # --fillInTheBlank--
 
-## Frases
+## --sentence--
 
 `On Sunday, I have a BLANK morning. I just stay at home and play some video games on my console. In the evening, I make dinner and go to sleep BLANK, because, on Monday, it is back to work again`
 
-## Palabra correcta
+## --blanks--
 
 `lazy`
 
-### --retroalimentación--
+### --feedback--
 
 Describes the relaxed nature of Sophie's Sunday morning.
 
@@ -30,7 +30,7 @@ Describes the relaxed nature of Sophie's Sunday morning.
 
 `early`
 
-### --retroalimentación--
+### --feedback--
 
 Indicates the time Sophie chooses to go to sleep on Sunday evening.
 

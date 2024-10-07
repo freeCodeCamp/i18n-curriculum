@@ -12,7 +12,7 @@ dashedName: relational-databases-and-sqlite
 
 # --description--
 
-More resources:
+Weitere Quellen:
 
 \- <a href="https://www.sqlite.org/download.html" target="_blank" rel="noopener noreferrer nofollow">Download SQLite</a>
 
@@ -24,7 +24,7 @@ More resources:
 
 ## --text--
 
-Was ist KEINE primäre Datenstruktur in einer Datenbank?
+Which is NOT a primary data structure in a database?
 
 ## --answers--
 

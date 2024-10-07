@@ -9,7 +9,7 @@ dashedName: align-all-items-vertically-using-align-items
 
 # --description--
 
-Wenn du die Eigenschaft `align-items` für einen Grid-Container verwendest, wird die vertikale Ausrichtung für alle Elemente in unserem Raster festgelegt.
+Using the `align-items` property on a grid container will set the vertical alignment for all the items in our grid.
 
 # --instructions--
 

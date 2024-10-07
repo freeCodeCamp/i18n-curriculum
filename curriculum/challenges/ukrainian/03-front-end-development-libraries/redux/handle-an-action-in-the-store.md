@@ -8,7 +8,7 @@ dashedName: handle-an-action-in-the-store
 
 # --description--
 
-Після того, як дія була створена та відправлена, сховище Redux мусить знати, як відповідати на цю дію. Це завдання для функції `reducer`. Редюсери в Redux відповідають за зміни стану, які відбуваються у відповідь на дії. `reducer` приймає `state` та `action` як аргументи, та завжди повертає новий `state`. Важливо знати, що це **єдине** завдання редюсера. У нього немає побічних дій: він не викликає кінцеву точку API та не має підводних каменів. Редюсер — це проста чиста функція, яка використовує стан і дію та повертає новий стан.
+After an action is created and dispatched, the Redux store needs to know how to respond to that action. This is the job of a `reducer` function. Reducers in Redux are responsible for the state modifications that take place in response to actions. A `reducer` takes `state` and `action` as arguments, and it always returns a new `state`. It is important to see that this is the **only** role of the reducer. It has no side effects — it never calls an API endpoint and it never has any hidden surprises. The reducer is simply a pure function that takes state and action, then returns new state.
 
 Іншим ключовим принципом Redux є те, що `state` доступний тільки для читання. Іншими словами, функція `reducer` має **завжди** повертати нову копію `state` і ніколи не змінювати сам стан. Redux не забезпечує незмінність стану, однак ви відповідаєте за його забезпечення у своєму коді та функціях редюсера. Ви практикуватимете це в наступних завданнях.
 

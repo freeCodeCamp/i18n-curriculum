@@ -8,7 +8,7 @@ dashedName: check-for-all-or-none
 
 # --description--
 
-A volte i pattern che vuoi cercare possono avere parti che possono esistere o meno. Del resto può essere importante verificarle comunque.
+Sometimes the patterns you want to search for may have parts of it that may or may not exist. However, it may be important to check for them nonetheless.
 
 È possibile specificare la possibile esistenza di un elemento con un punto interrogativo, `?`. Questo controlla la presenza di zero o di uno dell'elemento precedente. Puoi pensare a questo simbolo come a un modo per dire che l'elemento precedente è opzionale.
 

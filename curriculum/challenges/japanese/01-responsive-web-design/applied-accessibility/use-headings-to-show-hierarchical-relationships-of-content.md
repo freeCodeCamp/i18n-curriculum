@@ -9,7 +9,7 @@ dashedName: use-headings-to-show-hierarchical-relationships-of-content
 
 # --description--
 
-見出し (`h1` から `h6` 要素) はコンテンツに構造とラベルを付けるのに役立つタグです。 スクリーンリーダーは、ユーザーが概略を把握するためページの見出しのみを読み上げるように設定することができます。 これは、マークアップ内の見出しタグがセマンティック (semantic) な意味を持ち、互いの関係を表していることが重要であることを意味します。大きさだけで見出しを選ぶべきではありません。
+Headings (`h1` through `h6` elements) are workhorse tags that help provide structure and labeling to your content. Screen readers can be set to read only the headings on a page so the user gets a summary. This means it is important for the heading tags in your markup to have semantic meaning and relate to each other, not be picked merely for their size values.
 
 *セマンティックな意味*とは、コンテンツを囲むタグがその中にある情報の種類を表していることを意味します。
 

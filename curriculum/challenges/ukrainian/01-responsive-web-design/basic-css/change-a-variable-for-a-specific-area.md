@@ -9,7 +9,7 @@ dashedName: change-a-variable-for-a-specific-area
 
 # --description--
 
-Коли ви створюєте ваші змінні в `:root`, вони установлять значення змінної величини для цілої сторінки.
+When you create your variables in `:root` they will set the value of that variable for the whole page.
 
 Ви можете перезаписати ці змінні, вставивши їх знову у спеціальний селектор.
 

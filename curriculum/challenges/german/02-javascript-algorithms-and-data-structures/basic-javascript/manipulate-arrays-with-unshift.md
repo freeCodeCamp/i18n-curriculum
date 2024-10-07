@@ -9,7 +9,7 @@ dashedName: manipulate-arrays-with-unshift
 
 # --description--
 
-Du kannst nicht nur mit `shift` Elemente vom Anfang eines Arrays entfernen, du kannst auch mit `unshift` Elemente an den Anfang eines Arrays setzen, d.h. Elemente vor dem Array hinzufügen.
+Not only can you `shift` elements off of the beginning of an array, you can also `unshift` elements to the beginning of an array i.e. add elements in front of the array.
 
 `.unshift()` funktioniert genau wie `.push()`, aber anstatt das Element am Ende des Arrays hinzuzufügen, fügt `unshift()` das Element am Anfang des Arrays hinzu.
 

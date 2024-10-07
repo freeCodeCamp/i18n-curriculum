@@ -9,7 +9,7 @@ dashedName: create-your-first-css-grid
 
 # --description--
 
-Trasforma qualsiasi elemento HTML in un contenitore griglia (grid) impostando la sua proprietà `display` sul valore `grid`. Questo ti dà la possibilità di utilizzare tutte le altre proprietà associate alla griglia CSS.
+Turn any HTML element into a grid container by setting its `display` property to `grid`. This gives you the ability to use all the other properties associated with CSS Grid.
 
 **Nota:** Nella Griglia CSS, l'elemento genitore è indicato come <dfn>container</dfn> e i suoi figli sono chiamati <dfn>items</dfn>.
 

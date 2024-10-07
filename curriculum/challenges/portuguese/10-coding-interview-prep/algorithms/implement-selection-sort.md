@@ -8,7 +8,7 @@ dashedName: implement-selection-sort
 
 # --description--
 
-Aqui, implementaremos o Selection Sort. O Selection Sort funciona a partir da seleção do valor mínimo em uma lista e trocando-o de posição com o primeiro valor na lista. Ele, então, começa da segunda posição, seleciona o menor valor da lista restante e troca-o pelo segundo elemento. Ele continua iterando através da lista e trocando elementos até chegar ao final da lista. Agora, a lista estará ordenada. O Selection Sort tem complexidade de tempo quadrática em todos os casos.
+Here we will implement selection sort. Selection sort works by selecting the minimum value in a list and swapping it with the first value in the list. It then starts at the second position, selects the smallest value in the remaining list, and swaps it with the second element. It continues iterating through the list and swapping elements until it reaches the end of the list. Now the list is sorted. Selection sort has quadratic time complexity in all cases.
 
 **Instruções:** escreva uma função `selectionSort` que receba um array de inteiros como entrada e retorne um array de inteiros ordenado do menor para o maior.
 

@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedf08823
-title: Add a Negative Margin to an Element
+title: إضافة هامش بالسالب إلى عنصر
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cnpyGs3'
 forumTopicId: 16166
@@ -11,17 +11,17 @@ dashedName: add-a-negative-margin-to-an-element
 
 An element's `margin` controls the amount of space between an element's `border` and surrounding elements.
 
-If you set an element's `margin` to a negative value, the element will grow larger.
+إذا قمت بوضع الـ `margin` لعُنصر ما إلى قيمة سالبة؛ فإن هذا العنصر سيكون أكبر حجمًا.
 
 # --instructions--
 
-Try to set the `margin` to a negative value like the one for the red box.
+حاول وضع قيمة سالبة إلى الـ `margin` مثل كالتي بالمربع الأحمر.
 
-Change the `margin` of the blue box to `-15px`, so it fills the entire horizontal width of the yellow box around it.
+قُم بتغيير الـ `margin` الخاص بالمربع الأزرق إلى 15px، ومن ثَم سيملأ العرض الخاص بالصندوق الأصفر حوله.
 
 # --hints--
 
-Your `blue-box` class should give elements `-15px` of `margin`.
+الـ class الذي اسمه `blue-box` الخاص بالصندوق الأزرق يجب أن يأخذ قيمة `-15px` من الـ `margin`.
 
 ```js
 assert($('.blue-box').css('margin-top') === '-15px');

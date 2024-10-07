@@ -1,13 +1,13 @@
 ---
 id: 612e8eebe3a6dc3fcc33a66f
-title: Schritt 11
+title: Schitt 11
 challengeType: 0
 dashedName: step-11
 ---
 
 # --description--
 
-Wähle nun dein `#piano`-Element mit einem `id`-Selektor aus. Setze die `background-color`-Eigenschaft auf `#00471b`, die `width`-Eigenschaft auf `992px` und die `height`-Eigenschaft auf `290px`.
+Now target your `#piano` element with an `id` selector. Set `background-color` property to `#00471b`, the `width` property to `992px` and the `height` property to `290px`.
 
 # --hints--
 

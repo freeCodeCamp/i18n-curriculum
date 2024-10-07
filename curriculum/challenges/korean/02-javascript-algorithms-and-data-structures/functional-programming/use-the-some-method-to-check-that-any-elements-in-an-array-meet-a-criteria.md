@@ -8,7 +8,7 @@ dashedName: use-the-some-method-to-check-that-any-elements-in-an-array-meet-a-cr
 
 # --description--
 
-`some` 메소드는 *어떠한* 요소라도 특정 테스트를 통과하는지 확인할 때 사용하기 좋습니다. 어떤 값이 기준에 맞는다면 `true`, 맞지 않는다면 `false`를 반환합니다.
+The `some` method works with arrays to check if *any* element passes a particular test. It returns a Boolean value - `true` if any of the values meet the criteria, `false` if not.
 
 예를 들면 다음 코드는 `numbers`의 어떤 요소가 10보다 작은지 확인합니다.
 

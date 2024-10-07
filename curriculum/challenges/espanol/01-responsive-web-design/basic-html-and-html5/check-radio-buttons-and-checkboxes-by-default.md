@@ -9,7 +9,7 @@ dashedName: check-radio-buttons-and-checkboxes-by-default
 
 # --description--
 
-Puedes hacer que una casilla de verificación o botón de radio se marque por defecto usando el atributo `checked`.
+You can set a checkbox or radio button to be checked by default using the `checked` attribute.
 
 Para hacer esto, simplemente agrega la palabra `checked` al interior de un elemento `input`. Por ejemplo:
 

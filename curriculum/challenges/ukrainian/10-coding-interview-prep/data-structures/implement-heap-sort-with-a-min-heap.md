@@ -8,7 +8,7 @@ dashedName: implement-heap-sort-with-a-min-heap
 
 # --description--
 
-Тепер ми можемо додавати та видаляти елементи, тому розберемо, де можна використовувати купи. Купи зазвичай використовуються для реалізації черг з пріоритетом, оскільки вони завжди зберігають елемент найбільшого чи найменшого значення на першій позиції. Крім того, їх застосовують для реалізації алгоритму сортування, який називають пірамідальним сортуванням. У цьому завданні ми розглянемо, як реалізувати його. Пірамідальне сортування використовує неспадну купу, яка є протилежною до незростаючої купи. Неспадна купа завжди зберігає елемент з найменшим значенням в корені.
+Now that we can add and remove elements let's see some of the applications heaps can be used for. Heaps are commonly used to implement priority queues because they always store an item of greatest or least value in first position. In addition, they are used to implement a sorting algorithm called heap sort. We'll see how to do this here. Heap sort uses a min heap, the reverse of a max heap. A min heap always stores the element of least value in the root position.
 
 Пірамідальне сортування працює таким чином: приймає невідсортований масив, додає кожен елемент масиву до неспадної купи, а тоді вилучає елементи з цієї неспадної купи до нового масиву. Структура неспадної купи гарантує, що новий масив міститиме вхідні елементи від найменшого до найбільшого. Це один з найефективніших алгоритмів сортування, виконання якого в середньому та найгіршому випадках становить O(nlog(n)).
 

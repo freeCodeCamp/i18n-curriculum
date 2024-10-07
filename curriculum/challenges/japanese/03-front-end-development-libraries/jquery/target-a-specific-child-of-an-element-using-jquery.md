@@ -11,7 +11,7 @@ dashedName: target-a-specific-child-of-an-element-using-jquery
 
 # --description--
 
-id 属性は jQuery のセレクターのターゲットを指定するのにとても便利です。 しかし、そうした整理された id をいつでも利用できるように用意しているとは限りません。
+You've seen why id attributes are so convenient for targeting with jQuery selectors. But you won't always have such neat ids to work with.
 
 幸い、jQuery には他にも正しい要素をターゲットとして指定する方法があります。
 

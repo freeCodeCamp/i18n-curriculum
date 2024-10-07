@@ -8,7 +8,7 @@ dashedName: use-getters-and-setters-to-control-access-to-an-object
 
 # --description--
 
-オブジェクトから値を取得したり、オブジェクト内のプロパティの値を設定したりできます。
+You can obtain values from an object and set the value of a property within an object.
 
 これらは従来から <dfn>getters</dfn> および <dfn>setters</dfn> と呼ばれています。
 

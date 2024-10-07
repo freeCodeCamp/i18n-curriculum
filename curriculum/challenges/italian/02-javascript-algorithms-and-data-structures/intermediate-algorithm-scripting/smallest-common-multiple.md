@@ -8,7 +8,7 @@ dashedName: smallest-common-multiple
 
 # --description--
 
-Trova il minimo comune multiplo (mcm) dei parametri forniti che sia divisibile per entrambi, così come per tutti i numeri sequenziali nell'intervallo tra questi parametri.
+Find the smallest common multiple of the provided parameters that can be evenly divided by both, as well as by all sequential numbers in the range between these parameters.
 
 L'intervallo sarà un array di due numeri che non saranno necessariamente in ordine crescente.
 

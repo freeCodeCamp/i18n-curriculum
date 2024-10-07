@@ -8,21 +8,21 @@ dashedName: install-and-set-up-mongoose
 
 # --description--
 
-你可以採用下面的任意一種編寫代碼的方式來完成這些挑戰：
+Working on these challenges will involve you writing your code using one of the following methods:
 
-- 克隆<a href="https://github.com/freeCodeCamp/boilerplate-mongomongoose/" target="_blank" rel="noopener noreferrer nofollow">這個 GitHub 倉庫</a>，並在本地完成這些挑戰。
+- Clone <a href="https://github.com/freeCodeCamp/boilerplate-mongomongoose/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete these challenges locally.
 - 使用 <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mongomongoose/" target="_blank" rel="noopener noreferrer nofollow">我們的 Gitpod 初始項目</a> 來完成這些挑戰。
 - 使用你選擇的網站生成器來完成項目。 需要包含我們 GitHub 倉庫的所有文件。
 
-在這個挑戰中，你將建立一個 MongoDB Atlas 數據庫並導入連接到它所需的軟件包。
+In this challenge, you will set up a MongoDB Atlas database and import the required packages to connect to it.
 
 按照<a href='https://www.freecodecamp.org/chinese/news/get-started-with-mongodb-atlas/' target="_blank" rel="noopener noreferrer nofollow">這篇教程</a>在 MongoDB Atlas 創建一個託管數據庫。
 
 # --instructions--
 
-`mongoose@^5.11.15` 已添加到你項目的 `package.json` 文件中。 首先，在 `myApp.js` 中請求 mongoose 爲 `mongoose`。 接下來，創建一個 `.env` 文件並向其中添加一個 `MONGO_URI` 變量。 變量的值爲你的 MongoDB Atlas 數據庫 URI。 應用單引號或雙引號包裹 URI。請記住，環境變量 `=` 兩邊不能有空格。 例如，`MONGO_URI='VALUE'`。
+`mongoose@^5.11.15` has been added to your project’s `package.json` file. First, require mongoose as `mongoose` in `myApp.js`. Next, create a `.env` file and add a `MONGO_URI` variable to it. Its value should be your MongoDB Atlas database URI. Be sure to surround the URI with single or double quotes, and remember that you can't use spaces around the `=` in environment variables. For example, `MONGO_URI='VALUE'`.
 
-完成後，使用以下語法在你的 `myApp.js` 文件中調用 `connect` 方法，連接到數據庫：
+When you are done, connect to the database by calling the `connect` method within your `myApp.js` file by using the following syntax:
 
 ```js
 mongoose.connect(<Your URI>, { useNewUrlParser: true, useUnifiedTopology: true });
@@ -30,7 +30,7 @@ mongoose.connect(<Your URI>, { useNewUrlParser: true, useUnifiedTopology: true }
 
 # --hints--
 
-“mongoose version ^5.11.15” 依賴項應該在 package.json 中。
+"mongoose version ^5.11.15" dependency should be in package.json
 
 ```js
 (getUserInput) =>
@@ -50,7 +50,7 @@ mongoose.connect(<Your URI>, { useNewUrlParser: true, useUnifiedTopology: true }
   );
 ```
 
-應使用 “mongoose” 連接數據庫。
+"mongoose" should be connected to a database
 
 ```js
 (getUserInput) =>

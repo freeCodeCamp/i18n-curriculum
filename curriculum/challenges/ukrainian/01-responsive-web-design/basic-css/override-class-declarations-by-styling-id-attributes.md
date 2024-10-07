@@ -9,7 +9,7 @@ dashedName: override-class-declarations-by-styling-id-attributes
 
 # --description--
 
-Ми щойно довели, що браузери читають CSS зверху вниз в порядку їх об'яв. Це означає, що, у випадку конфлікту, браузер використає ту об'яву CSS, що вказана останньою. Зверніть увагу, що навіть якби ми поставили `blue-text` перед `pink-text` у класах елемента `h1`, він все одно б орієнтувався на порядок об'яв, а не на порядок їх використання!
+We just proved that browsers read CSS from top to bottom in order of their declaration. That means that, in the event of a conflict, the browser will use whichever CSS declaration came last. Notice that if we even had put `blue-text` before `pink-text` in our `h1` element's classes, it would still look at the declaration order and not the order of their use!
 
 Але ми ще не закінчили. Є й інші способи замінити CSS. Пригадуєте атрибути id?
 

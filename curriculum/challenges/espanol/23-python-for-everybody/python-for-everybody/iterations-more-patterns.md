@@ -12,11 +12,11 @@ dashedName: iterations-more-patterns
 
 # --description--
 
-More resources:
+Más recursos:
 
 \- <a href="https://www.youtube.com/watch?v=kjxXZQw0uPg" target="_blank" rel="noopener noreferrer nofollow">Ejercicio</a>
 
-# --questions--
+# --preguntas----preguntas--
 
 ## --text--
 

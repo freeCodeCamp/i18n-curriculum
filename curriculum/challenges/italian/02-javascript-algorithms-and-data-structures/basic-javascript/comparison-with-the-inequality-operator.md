@@ -9,7 +9,7 @@ dashedName: comparison-with-the-inequality-operator
 
 # --description--
 
-L'operatore di disuguaglianza (`!=`) è l'opposto dell'operatore di uguaglianza. Esso significa "non uguale" e restituisce `false` dove l'uguaglianza restituirebbe `true` e *viceversa*. Come l'operatore di uguaglianza, l'operatore di disuguaglianza convertirà i tipi di dati dei valori durante il confronto.
+The inequality operator (`!=`) is the opposite of the equality operator. It means not equal and returns `false` where equality would return `true` and *vice versa*. Like the equality operator, the inequality operator will convert data types of values while comparing.
 
 **Esempi**
 

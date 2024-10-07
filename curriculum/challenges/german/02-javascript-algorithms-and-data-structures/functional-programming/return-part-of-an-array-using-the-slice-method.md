@@ -8,7 +8,7 @@ dashedName: return-part-of-an-array-using-the-slice-method
 
 # --description--
 
-Die Methode `slice` gibt eine Kopie bestimmter Elemente eines Arrays zurück. Sie kann zwei Argumente annehmen: Das erste gibt den Index an, an dem das Slice beginnen soll, das zweite ist der Index, an dem das Slice enden soll (und ist nicht exklusiv). Wenn die Argumente nicht angegeben werden, wird standardmäßig am Anfang des Arrays begonnen und bis zum Ende durchgezogen, was eine einfache Möglichkeit ist, eine Kopie des gesamten Arrays zu erstellen. Die Methode `slice` verändert das ursprüngliche Array nicht, sondern gibt ein neues zurück.
+The `slice` method returns a copy of certain elements of an array. It can take two arguments, the first gives the index of where to begin the slice, the second is the index for where to end the slice (and it's non-inclusive). If the arguments are not provided, the default is to start at the beginning of the array through the end, which is an easy way to make a copy of the entire array. The `slice` method does not mutate the original array, but returns a new one.
 
 Hier ist ein Beispiel:
 

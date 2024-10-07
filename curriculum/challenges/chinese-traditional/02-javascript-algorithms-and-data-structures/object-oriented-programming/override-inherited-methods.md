@@ -8,7 +8,7 @@ dashedName: override-inherited-methods
 
 # --description--
 
-在上一個挑戰中，我們學習了一個對象可以通過引用另一個對象的 `prototype` 來繼承其屬性和行爲（或方法）：
+In previous lessons, you learned that an object can inherit its behavior (methods) from another object by referencing its `prototype` object:
 
 ```js
 ChildObject.prototype = Object.create(ParentObject.prototype);
@@ -38,7 +38,7 @@ Bird.prototype.eat = function() {
 
 如果你有一個實例：`let duck = new Bird();`，然後你調用了 `duck.eat()`，以下就是 JavaScript 在 `duck` 的 `prototype` 鏈上尋找方法的過程：
 
-1.  `duck` => `eat()` 是定義在這裏嗎？ 不是。
+1.  `duck` => Is `eat()` defined here? No.
 2.  `Bird` => `eat()` 是定義在這裏嗎？ => 是的。 執行它並停止往上搜索。
 3.  `Animal` => 這裏也定義了 `eat()` 方法，但是 JavaScript 在到達這層原型鏈之前已停止了搜索。
 4.  Object => JavaScript 在到達這層原型鏈之前也已經停止了搜索。

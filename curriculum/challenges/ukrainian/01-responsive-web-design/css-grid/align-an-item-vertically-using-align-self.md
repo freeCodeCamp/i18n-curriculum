@@ -9,7 +9,7 @@ dashedName: align-an-item-vertically-using-align-self
 
 # --description--
 
-Ви можете вирівняти елемент як горизонтально, так і вертикально. Щоб зробити це, застосуйте властивість `align-self` на елемент. Ця властивість приймає всі ті ж значення, що і `justify-self` з попереднього завдання.
+Just as you can align an item horizontally, there's a way to align an item vertically as well. To do this, you use the `align-self` property on an item. This property accepts all of the same values as `justify-self` from the last challenge.
 
 # --instructions--
 

@@ -8,7 +8,7 @@ dashedName: implement-insertion-sort
 
 # --description--
 
-次のソート方法は挿入ソートです。 この方法は、ソート済みの配列をリストの先頭に作ることで機能します。 まず、1 つ目の要素を使って、ソート済みの配列を作り始めます。 そして次の要素を調べ、それが正しいソート位置に入るまで、ソート済みの配列の中で後ろの要素と交換していきます。 リスト全体を通してそれを繰り返し、末尾に到達するまで新しい要素を後方に置き換え続けます。 このアルゴリズムは、平均ケースおよび最悪ケースで二乗時間計算量になります。
+The next sorting method we'll look at is insertion sort. This method works by building up a sorted array at the beginning of the list. It begins the sorted array with the first element. Then it inspects the next element and swaps it backwards into the sorted array until it is in sorted position. It continues iterating through the list and swapping new items backwards into the sorted portion until it reaches the end. This algorithm has quadratic time complexity in the average and worst cases.
 
 **手順:** 整数の配列を入力として受け取り、それらの整数の配列を最小から最大の順にソートして返す、`insertionSort` 関数を記述してください。
 

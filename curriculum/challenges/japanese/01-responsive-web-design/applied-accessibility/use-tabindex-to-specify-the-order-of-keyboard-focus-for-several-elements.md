@@ -9,7 +9,7 @@ dashedName: use-tabindex-to-specify-the-order-of-keyboard-focus-for-several-elem
 
 # --description--
 
-`tabindex` 属性は要素をタブ移動する順序も指定することができます。 これは、属性の値が 1 以上の正の数に設定されている場合に行われます。
+The `tabindex` attribute also specifies the exact tab order of elements. This is achieved when the attribute's value is set to a positive number of 1 or higher.
 
 `tabindex="1"` を設定すると、最初にその要素へキーボードがフォーカスします。 次に、指定された `tabindex` 値 (2、3、など) のシーケンスを循環してから、デフォルトと `tabindex="0"` の項目に移動します。
 

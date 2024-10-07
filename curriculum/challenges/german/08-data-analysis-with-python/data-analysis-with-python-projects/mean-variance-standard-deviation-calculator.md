@@ -10,7 +10,7 @@ dashedName: mean-variance-standard-deviation-calculator
 
 You will be <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mean-variance-standard-deviation-calculator/" target="_blank" rel="noopener noreferrer nofollow">working on this project with our Gitpod starter code</a>.
 
-Wir sind noch dabei, den interaktiven Teil des Python-Kurses zu entwickeln. Hier sind erstmal einige Videos auf dem freeCodeCamp.org YouTube-Kanal, die dir alles beibringen, was du wissen musst, um dieses Projekt abzuschließen:
+Wir sind noch dabei, den interaktiven Teil des Python-Lehrplans zu entwickeln. Zurzeit kannst du dir lediglich einige Videos auf unserem YouTube-Channel für freeCodeCamp.org ansehen – diese bringen dir alles bei, was du wissen musst, um dieses Projekt abzuschließen:
 
 - <a href="https://www.freecodecamp.org/news/python-for-everybody/" target="_blank" rel="noopener noreferrer nofollow">Python for Everybody Video Course</a> (14 hours)
 
@@ -50,21 +50,21 @@ Zum Beispiel sollte `calculate([0,1,2,3,4,5,6,7,8])` zurückgeben:
 }
 ```
 
-## Entwicklung
+## Development
 
-Write your code in `mean_var_std.py`. For development, you can use `main.py` to test your code.
+Schreibe deinen Code in `mean_var_std.py`. Für die Entwicklung kannst du `main.py` verwenden, um deinen Code zu testen.
 
-## Testen
+## Prüfung
 
 Die Unit-Tests für dieses Projekt sind in `test_module.py`. Wir haben die Tests von `test_module.py` zu `main.py` bereits für dich importiert.
 
-## Absenden
+## Einreichung
 
 Kopiere die URL deines Projekts und sende sie an freeCodeCamp.
 
 # --hints--
 
-Es sollte alle Python-Tests bestehen.
+Er sollte alle Python-Tests bestehen.
 
 ```js
 

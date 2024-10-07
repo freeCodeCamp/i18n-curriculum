@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedf06756
-title: 内联样式的优先级高于 ID 选择器
+title: 内联样式的优先级
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cGJDRha'
 forumTopicId: 18252
@@ -9,7 +9,7 @@ dashedName: override-class-declarations-with-inline-styles
 
 # --description--
 
-我们刚刚证明了，id 选择器无论在 `style` 标签的任何位置声明，都会覆盖 class 声明的样式。
+So we've proven that id declarations override class declarations, regardless of where they are declared in your `style` element CSS.
 
 其实还有其他方法可以覆盖 CSS 样式。 你还记得行内样式吗？
 

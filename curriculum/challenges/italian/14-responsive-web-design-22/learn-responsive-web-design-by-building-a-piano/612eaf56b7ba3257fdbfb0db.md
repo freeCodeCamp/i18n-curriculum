@@ -7,7 +7,7 @@ dashedName: step-21
 
 # --description--
 
-Per rendere il piano ufficiale, aggiungiamo il logo di freeCodeCamp.
+The piano needs the freeCodeCamp logo to make it official.
 
 Aggiungi un elemento `img` prima dell'elemento `.keys`. Assegna all'elemento `img` un valore `class` di `logo` e imposta l'`src` su `https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg`. Dagli un testo `alt` di `freeCodeCamp Logo`.
 

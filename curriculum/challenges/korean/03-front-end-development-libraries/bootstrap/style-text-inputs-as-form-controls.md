@@ -13,7 +13,7 @@ dashedName: style-text-inputs-as-form-controls
 
 # --description--
 
-제출 `button` 요소 내에 `<i class="fa fa-paper-plane"></i>`를 추가하여 `fa-paper-plane` Font Awesome 아이콘을 추가할 수 있습니다.
+You can add the `fa-paper-plane` Font Awesome icon by adding `<i class="fa fa-paper-plane"></i>` within your submit `button` element.
 
 폼 글자 입력 필드에 `form-control`라는 클래스를 주세요. 폼 제출 버튼에 `btn btn-primary`라는 클래스를 주세요. 또한 이 버튼에 Font Awesome `fa-paper-plane` 아이콘을 주세요.
 

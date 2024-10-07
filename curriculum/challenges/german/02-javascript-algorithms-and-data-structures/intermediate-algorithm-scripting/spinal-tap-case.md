@@ -8,7 +8,7 @@ dashedName: spinal-tap-case
 
 # --description--
 
-Konvertiere einen String in Spinal Case. Spinal Case sind Wörter in Kleinbuchstaben, die durch Bindestriche verbunden sind.
+Convert a string to spinal case. Spinal case is all-lowercase-words-joined-by-dashes.
 
 # --hints--
 

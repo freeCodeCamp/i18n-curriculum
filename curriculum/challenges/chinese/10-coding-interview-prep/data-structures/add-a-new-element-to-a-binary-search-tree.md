@@ -1,6 +1,6 @@
 ---
 id: 587d8257367417b2b2512c7b
-title: 将新元素添加到二叉搜索树
+title: Add a New Element to a Binary Search Tree
 challengeType: 1
 forumTopicId: 301618
 dashedName: add-a-new-element-to-a-binary-search-tree
@@ -8,11 +8,11 @@ dashedName: add-a-new-element-to-a-binary-search-tree
 
 # --description--
 
-这一系列的挑战将介绍树形数据结构。 树是计算机科学中一个重要的、通用的数据结构。 当然，它们的名称来自这样一个事实：当可视化时，它们看起来很像我们在自然界中熟悉的树木。 树数据结构从一个节点（通常称为根）开始，并从此处分支到其他节点，每个节点可能具有更多的子节点，依此类推。 数据结构通常以根节点为顶点进行可视化；你可以把它想象成一棵倒过来的自然树。
+This series of challenges will introduce the tree data structure. Trees are an important and versatile data structure in computer science. Of course, their name comes from the fact that when visualized they look much like the trees we are familiar with in the natural world. A tree data structure begins with one node, typically referred to as the root, and from here branches out to additional nodes, each of which may have more child nodes, and so on and so forth. The data structure is usually visualized with the root node at the top; you can think of it as a natural tree flipped upside down.
 
 首先，让我们描述一下我们将遇到的关于树的一些常见术语。 根节点（root）是树的顶部。 树中的数据点称为节点（node）。 分支通向其他节点的节点称为分支通向的节点（即子节点）的父节点。 如你所料，其他更复杂的家庭术语也适用。 子树指的是某一特定节点的所有后代，分支可称为边，而叶子节点是位于树的末端的且没有子节点的节点。 最后，请注意，树本质上是递归的数据结构。 也就是说，一个节点的任何子节点都是其自己的子树的父节点，依此类推。 在为常见的树操作设计算法时，树的递归性质很重要。
 
-To begin, we will discuss a particular type of tree, the binary tree. 实际上，我们将讨论特定的二叉树，即二叉搜索树。 让我们来看看这意味着什么。 虽然树形数据结构在一个节点上可以有任意数量的分支，但二叉树每个节点只能有两个分支。 此外，一个二叉搜索树相对于其子子树是有序的，即对于一个节点而言，其左子树中每个节点的值都小于或等于该节点的值，而其右子树中每个节点的值都大于或等于该节点的值。 为了更好地理解这种关系，将这种关系形象化是非常有帮助的：
+首先，我们将讨论一种特殊的树，二叉树。 实际上，我们将讨论特定的二叉树，即二叉搜索树。 让我们来看看这意味着什么。 虽然树形数据结构在一个节点上可以有任意数量的分支，但二叉树每个节点只能有两个分支。 此外，一个二叉搜索树相对于其子子树是有序的，即对于一个节点而言，其左子树中每个节点的值都小于或等于该节点的值，而其右子树中每个节点的值都大于或等于该节点的值。 为了更好地理解这种关系，将这种关系形象化是非常有帮助的：
 
 <div style='width: 100%; display: flex; justify-content: center; align-items: center;'><img alt="an example of a binary search tree" style='width: 100%; max-width: 350px; background-color: var(--gray-05);' src='https://user-images.githubusercontent.com/18563015/32136009-1e665d98-bbd6-11e7-9133-63184f9f9182.png'></div>
 
@@ -22,7 +22,7 @@ To begin, we will discuss a particular type of tree, the binary tree. 实际上�
 
 # --instructions--
 
-我们将从简单的内容开始。 我们在这里定义了一个二叉搜索树结构的骨架，此外还有一个为我们的树创建节点的函数。 注意观察每个节点可能有一个左值和右值。 如果子树存在，它们将被分配给对应的子树。 In our binary search tree, you will create a method to add new values to the tree. 该方法应该被称为`add` ，它应该接受一个整数值来添加到树中。 注意保持二叉搜索树的不变量：每个左子项中的值应小于或等于父值，并且每个右子项中的值应大于或等于父值。 在这里，让我们确保我们的树不会含有重复的值。 如果我们尝试添加已存在的值，则该方法应返回`null` 。 否则，如果添加成功，则应返回`undefined` 。
+我们将从简单的内容开始。 我们在这里定义了一个二叉搜索树结构的骨架，此外还有一个为我们的树创建节点的函数。 注意观察每个节点可能有一个左值和右值。 如果子树存在，它们将被分配给对应的子树。 在我们的二叉搜索树中，你将创建一个方法来向我们的二叉搜索树添加新的值。 该方法应该被称为`add` ，它应该接受一个整数值来添加到树中。 注意保持二叉搜索树的不变量：每个左子项中的值应小于或等于父值，并且每个右子项中的值应大于或等于父值。 在这里，让我们确保我们的树不会含有重复的值。 如果我们尝试添加已存在的值，则该方法应返回`null` 。 否则，如果添加成功，则应返回`undefined` 。
 
 **提示：** 树是自然的递归数据结构！
 

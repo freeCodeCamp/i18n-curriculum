@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d4036159
-title: Use the Spread Operator on Arrays
+title: 배열에서 전개 연산자를 사용하기
 challengeType: 6
 forumTopicId: 301452
 dashedName: use-the-spread-operator-on-arrays
@@ -14,15 +14,15 @@ One solution from ES6 to help enforce state immutability in Redux is the spread 
 let newArray = [...myArray];
 ```
 
-`newArray` is now a clone of `myArray`. Both arrays still exist separately in memory. If you perform a mutation like `newArray.push(5)`, `myArray` doesn't change. The `...` effectively *spreads* out the values in `myArray` into a new array. To clone an array but add additional values in the new array, you could write `[...myArray, 'new value']`. This would return a new array composed of the values in `myArray` and the string `new value` as the last value. The spread syntax can be used multiple times in array composition like this, but it's important to note that it only makes a shallow copy of the array. That is to say, it only provides immutable array operations for one-dimensional arrays.
+`newArray`는 `myArray`의 복제본이 됩니다. 두 배열은 각각 메모리에 독립적으로 존재합니다. `newArray.push(5)` 와 같은 변형을 수행해도 `myArray`가 변경되지 않습니다. `...`는 효과적으로 `myArray`안의 값들을 새로운 배열으로 *전개* 합니다. 배열을 복제하되 새 배열에 추가 값을 추가하려면 `[...myArray, 'new value']`와 같이 작성할 수 있습니다. 이렇게 하면 `myArray`의 값과 마지막 값으로 문자열 `new value`로 구성된 새 배열이 반환됩니다. 전개 구문은 이와 같은 배열 구성에서 여러 번 사용할 수 있지만, 배열의 얕은 복사본만 만든다는 점에 유의해야 합니다. 이는 즉, 1차원 배열에 대한 불변 배열 연산만 제공한다는 뜻 입니다.
 
 # --instructions--
 
-Use the spread operator to return a new copy of state when a to-do is added.
+전개 연산자를 사용하여 할 일이 추가되면 상태의 새 복사본을 반환합니다.
 
 # --hints--
 
-The Redux store should exist and initialize with a state equal to `["Do not mutate state!"]`.
+Redux 저장소가 존재해야 하며 `["Do not mutate state!"]`와 동일한 상태로 초기화되어야 합니다.
 
 ```js
 assert(
@@ -36,13 +36,13 @@ assert(
 );
 ```
 
-`addToDo` and `immutableReducer` both should be functions.
+`addToDo`와 `immutableReducer`는 모두 함수여야 합니다.
 
 ```js
 assert(typeof addToDo === 'function' && typeof immutableReducer === 'function');
 ```
 
-Dispatching an action of type `ADD_TO_DO` on the Redux store should add a `todo` item and should NOT mutate state.
+Redux 스토어에서 `ADD_TO_DO` 유형의 액션을 디스패치하면 `todo` 항목이 추가되어야 하며 상태를 변경해서는 안 됩니다.
 
 ```js
 assert(
@@ -57,7 +57,7 @@ assert(
 );
 ```
 
-The spread operator should be used to return new state.
+전개 연산자는 새 상태를 반환하는 데 사용해야 합니다.
 
 ```js
 (getUserInput) => assert(getUserInput('index').includes('...state'));

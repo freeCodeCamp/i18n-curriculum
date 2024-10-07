@@ -8,7 +8,7 @@ dashedName: post-data-with-the-javascript-xmlhttprequest-method
 
 # --description--
 
-在前面的示例中，你通過外部資源獲取數據。 此外，你也可以將數據發送到外部資源，只要該資源支持 AJAX 請求並且你知道 URL。
+In the previous examples, you received data from an external resource. You can also send data to an external resource, as long as that resource supports AJAX requests and you know the URL.
 
 JavaScript 的 `XMLHttpRequest` 方法也用於將數據發佈到服務器。 這是一個示例：
 

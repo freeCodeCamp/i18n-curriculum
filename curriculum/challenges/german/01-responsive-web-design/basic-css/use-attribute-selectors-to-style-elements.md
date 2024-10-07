@@ -9,7 +9,7 @@ dashedName: use-attribute-selectors-to-style-elements
 
 # --description--
 
-Du hast `id` oder `class`-Attribute zu Elementen hinzugefügt, die du speziell stylen möchtest. Diese werden als ID- und Klassenselektoren bezeichnet. Es gibt noch andere CSS-Selektoren, die du verwenden kannst, um benutzerdefinierte Gruppen von Elementen zum Stylen auszuwählen.
+You have been adding `id` or `class` attributes to elements that you wish to specifically style. These are known as ID and class selectors. There are other CSS Selectors you can use to select custom groups of elements to style.
 
 Lass uns die Katzenfoto-App wieder hervorholen, um die Verwendung von CSS-Selektoren zu üben.
 

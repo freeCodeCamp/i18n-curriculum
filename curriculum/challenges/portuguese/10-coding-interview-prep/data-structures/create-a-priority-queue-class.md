@@ -8,7 +8,7 @@ dashedName: create-a-priority-queue-class
 
 # --description--
 
-Neste desafio, você criará uma fila de prioridade. Uma fila de prioridade é um tipo especial de fila, na qual os itens podem ter informações adicionais que especificam a sua prioridade. Isto poderia ser representado simplesmente por um número inteiro. A prioridade do item substituirá a ordem de colocação ao determinar a sequência na qual os itens saem da fila. Se um item com maior prioridade for colocado na fila após itens com menor prioridade, o item de maior prioridade será removido da fila antes de todos os outros.
+In this challenge you will be creating a Priority Queue. A Priority Queue is a special type of Queue in which items may have additional information which specifies their priority. This could be simply represented with an integer. Item priority will override placement order in determining the sequence items are dequeued. If an item with a higher priority is enqueued after items with lower priority, the higher priority item will be dequeued before all the others.
 
 Por exemplo, vamos imaginar que temos uma fila de prioridade com três itens:
 

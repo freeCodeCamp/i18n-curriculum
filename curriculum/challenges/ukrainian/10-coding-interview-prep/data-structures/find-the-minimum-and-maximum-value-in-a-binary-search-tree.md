@@ -8,11 +8,11 @@ dashedName: find-the-minimum-and-maximum-value-in-a-binary-search-tree
 
 # --description--
 
-У цьому завданні ви ознайомитеся з двома методами: `findMin` та `findMax`. Вони мають повертати мінімальне та максимальне значення, які знаходяться у бінарному дереві пошуку (наразі не турбуйтесь про додавання значень до дерева, ми додали декілька у фоновому режимі). Якщо ви трохи заплуталися, згадайте про інваріантність бінарного дерева пошуку: ліве піддерево має бути меншим або дорівнювати батьківському значенню, а праве піддерево має бути більшим або дорівнювати батьківському значенню. Нехай наше дерево зберігає виключно цілі значення. Якщо дерево порожнє, обидва методи мають повернути `null`.
+In this challenge you will define two methods, `findMin` and `findMax`. These methods should return the minimum and maximum value held in the binary search tree (don't worry about adding values to the tree for now, we have added some in the background). If you get stuck, reflect on the invariant that must be true for binary search trees: each left subtree is less than or equal to its parent and each right subtree is greater than or equal to its parent. Let's also say that our tree can only store integer values. If the tree is empty, either method should return `null`.
 
 # --hints--
 
-Має існувати структура даних `BinarySearchTree`.
+Повинна існувати структура даних `BinarySearchTree`.
 
 ```js
 assert(

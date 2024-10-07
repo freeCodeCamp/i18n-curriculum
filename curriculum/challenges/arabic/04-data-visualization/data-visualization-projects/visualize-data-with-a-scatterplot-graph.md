@@ -1,6 +1,6 @@
 ---
 id: bd7178d8c242eddfaeb5bd13
-title: Visualize Data with a Scatterplot Graph
+title: التصوير المرئي للبيانات باستخدام مخطط التبعثر
 challengeType: 3
 forumTopicId: 301467
 dashedName: visualize-data-with-a-scatterplot-graph
@@ -8,11 +8,11 @@ dashedName: visualize-data-with-a-scatterplot-graph
 
 # --description--
 
-**متطلبات:** كم ببناء تطبيق يشبه في وظيفته <a href="https://scatterplot-graph.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://scatterplot-graph.freecodecamp.rocks</a>.
+**Objective:** Build an app that is functionally similar to this: <a href="https://scatterplot-graph.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://scatterplot-graph.freecodecamp.rocks</a>.
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+أكمل "قصص المستخدم" بالأسفل وتأكد من اكتمال جميع الاختبارات بنجاح. استخدم أي مَكتبة أو API تَحتاج. أعطها التصميم الخاص بك.
 
-يمكنك استخدام HTML و JavaScript و CSS و مكتبة التصوير المستندة D3. تطلب الاختبارات إنشاء المحاور (axes) باستخدام خاصية axis في D3، الذي يؤدي تِلْقائيًا إلى وضع علامات (ticks) على طول المحور. وهذه العلامات لازمة لاجتياز اختبارات D3, لأن مواقعها تُستخدم لتحديد محاذاة العناصر المرسومة بيانيٍ. You will find information about generating axes at <https://d3js.org/d3-axis>. Required DOM elements are queried on the moment of each test. إذا كنت تستخدم framework (مثل Vue على سبيل المثال)، قد تكون نتائج الاختبار غير دقيقة للمحتوى الديناميكي. ونأمل أن نستوعبها في المستقبل، ولكن هذه frameworks غير مدعومة حاليا لمشاريع D3.
+يُمكنك استخدام HTML و JavaScript و CSS إلى جانب مكتبة D3. الاختبارات تتطلب إنتاج المَحاور باستخدام خاصية axis في D3 والتي بدورها سَتُوَلد الخٌطوط البيانية موازيتاََ للمحور. وهذه الـخٌطوط البيانية لازمة لاجتياز اختبارات D3, لأن مواقعها تُستخدم لتحديد محاذاة العناصر المرسومة بيانياََ. You will find information about generating axes at <https://d3js.org/d3-axis>. يجري الاستعلام عن كُل عٌنصر (DOM elements) في أثناء كُل اختبار. في حال كُنت تستخدم مكتبة (frontend framework) مثل Vue، فإن نتائج الاختبار ربما تكون غير دقيقة بسبب أنَّ المحتوى ديناميكي. نتمنى أن نتوافق معهم في القريب العاجل، لكن هذه المكتبات غير مدعومة لمشاريع D3 حالياََ.
 
 **قصة المستخدم 1:** يمكنني أن أرى عنصر title مع موافقه `id="title"`.
 

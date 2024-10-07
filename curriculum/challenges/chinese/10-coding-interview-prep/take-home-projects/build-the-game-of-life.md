@@ -1,6 +1,6 @@
 ---
 id: bd7154d8c242eddfaeb5bd13
-title: Build the Game of Life
+title: 构建生命游戏
 challengeType: 3
 forumTopicId: 302362
 dashedName: build-the-game-of-life
@@ -10,34 +10,34 @@ dashedName: build-the-game-of-life
 
 **Objective:** Build an app that is functionally similar to this: <a href="https://codepen.io/freeCodeCamp/full/BpwMZv/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/BpwMZv/</a>.
 
-The Game of Life is a cellular automaton devised by the British mathematician John Horton Conway. It is a <em>zero-player game</em>, meaning that its evolution is determined by its initial state, requiring no further input. One interacts with the Game of Life by creating an initial configuration and observing how it evolves.
+生命游戏是英国数学家 John Horton Conway 设计的一种细胞自动机。 这是一个 <em>零玩家游戏</em>, 意味着它的进化是由它的初始状态决定的，不需要任何进一步的操作。 生命游戏的一个启动方式是，创建一个初始配置并观察它如何演变。
 
-The universe of the Game of Life is an infinite, two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, populated and unpopulated. Every cell interacts with its eight neighbours, which are the cells that are horizontally, vertically, or diagonally adjacent.
+“生命游戏”的宇宙是一个无限的、二维的正交格点，每个格点可以处于两种状态之一，即“有生命”或“无生命”。 每个细胞与其八个相邻的细胞相互作用，相邻细胞包括水平、垂直或对角线相邻。
 
-At each step in time, the following transitions occur:
+在每个步骤中，都发生以下转换：
 
 - Any live cell with fewer than two live neighbours dies, as if by underpopulation.
-- Any live cell with two or three live neighbours lives on to the next generation.
-- Any live cell with more than three live neighbours dies, as if by overpopulation.
-- Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
+- 当前细胞为存活状态时，当周围有2个或3个存活细胞时，该细胞保持原样，进入下一代。
+- 当前细胞为存活状态时，当周围有超过3个存活细胞时，该细胞变成死亡状态。（模拟生命数量过多）
+- 当前细胞为死亡状态时，当周围有3个存活细胞时，该细胞变成存活状态。（模拟繁殖）
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+完成以下需求，并且通过所有测试。 如有必要，可以引入第三方库或使用第三方 API。 赋予它你的个人风格。
 
-**User Story:** When I first arrive at the game, it will randomly generate a board and start playing.
+**用户故事：** 当我第一次到达游戏时，它将随机生成一个棋盘并开始游戏。
 
-**User Story:** I can start and stop the board.
+**用户故事：** 我可以开始和停止游戏。
 
-**User Story:** I can set up the board.
+**用户故事：** 我可以设置棋盘。
 
-**User Story:** I can clear the board.
+**用户故事：** 我可以清除棋盘。
 
-**User Story:** When I press start, the game will play out.
+**用户故事：** 当我按下开始时，游戏将开始。
 
-**User Story:** Each time the board changes, I can see how many generations have gone by.
+**用户故事：** 每次棋盘改变时，我都可以看到已经经历了多少代。
 
-When you are finished, include a link to your project and click the "I've completed this challenge" button.
+完成后，单击“我已完成此挑战”按钮提交对应的 CodePen 链接。
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+可以分享你的项目到 <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp 论坛</a>上获得反馈。
 
 # --solutions--
 

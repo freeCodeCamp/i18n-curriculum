@@ -8,9 +8,9 @@ dashedName: sort-an-array-alphabetically-using-the-sort-method
 
 # --description--
 
-`sort` メソッドは、コールバック関数に従って配列の要素をソートします。
+The `sort` method sorts the elements of an array according to the callback function.
 
-例を次に示します。
+次に例を示します。
 
 ```js
 function ascendingOrder(arr) {

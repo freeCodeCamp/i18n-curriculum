@@ -9,7 +9,7 @@ dashedName: adjust-the-color-of-various-elements-to-complementary-colors
 
 # --description--
 
-通过前面关卡的学习，我们知道了补色搭配能形成强列的对比效果，让内容更富生机。 但是如果使用不当效果会适得其反：比如将文字背景色和文字颜色设置为互补色，这样文字会很难看清。 通常的做法是，一种颜色做为主要颜色，然后使用其补色用来装点那些需要用户特别注意的部分。
+The Complementary Colors challenge showed that opposite colors on the color wheel can make each other appear more vibrant when placed side-by-side. However, the strong visual contrast can be jarring if it's overused on a website, and can sometimes make text harder to read if it's placed on a complementary-colored background. In practice, one of the colors is usually dominant and the complement is used to bring visual attention to certain content on the page.
 
 # --instructions--
 

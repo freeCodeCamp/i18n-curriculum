@@ -9,7 +9,7 @@ dashedName: concatenating-strings-with-plus-operator
 
 # --description--
 
-في JavaScript، عندما يستخدم مشغل `+` مع `String`، فإنه يسمى مشغل <dfn>الضم</dfn>. يمكنك بناء مقطع نصي جديد من المقاطع الأخرى عن طريق <dfn>ضم</dfn> بعضها مع بعض.
+In JavaScript, when the `+` operator is used with a `String` value, it is called the <dfn>concatenation</dfn> operator. You can build a new string out of other strings by <dfn>concatenating</dfn> them together.
 
 **مثال**
 
@@ -25,7 +25,7 @@ dashedName: concatenating-strings-with-plus-operator
 const ourStr = "I come first. " + "I come second.";
 ```
 
-سيعرض الكونسول المقطع الآتي `I come first. I come second.`.
+The string `I come first. I come second.` would be displayed in the console.
 # --instructions--
 
 أنشئ `myStr` من المقاطع الآتية `This is the start.` و `This is the end.` باستخدام المشغل `+`. تيقن من تضمين مسافة بين المقاطع.
@@ -38,7 +38,7 @@ const ourStr = "I come first. " + "I come second.";
 assert(/start\. This/.test(myStr));
 ```
 
-يجب أن يكون قيمة `myStr` النص الآتي `This is the start. This is the end.`
+`myStr` should have a value of the string `This is the start. This is the end.`
 
 ```js
 assert(myStr === 'This is the start. This is the end.');

@@ -8,7 +8,7 @@ dashedName: add-images-to-your-website
 
 # --description--
 
-你可以使用 `img` 元素来为你的网站添加图片，其中 `src` 属性指向图片的地址。
+You can add images to your website by using the `img` element, and point to a specific image's URL using the `src` attribute.
 
 例如：
 

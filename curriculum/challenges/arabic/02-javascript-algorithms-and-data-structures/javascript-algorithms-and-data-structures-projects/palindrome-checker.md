@@ -8,7 +8,7 @@ dashedName: palindrome-checker
 
 # --description--
 
-قم بإرجاع `true` إذا كان الـ string المعطي هو palindrome. خلاف ذلك، قم بإرجاع `false`.
+Return `true` if the given string is a palindrome. Otherwise, return `false`.
 
 <dfn>palindrome</dfn> هي كلمة أو جملة يتم تهجئتها بنفس الطريقة من بدايتها او من نهايتها ، مع تجاهل علامات الترقيم، والحالة، والمسافات.
 
@@ -50,7 +50,7 @@ assert(palindrome('race car') === true);
 assert(palindrome('not a palindrome') === false);
 ```
 
-`palindrome("A man, a plan, a canal. Panama")` يجب أن يعيد `true`.
+`palindrome("A man, a plan, a canal. Panama")` should return `true`.
 
 ```js
 assert(palindrome('A man, a plan, a canal. Panama') === true);

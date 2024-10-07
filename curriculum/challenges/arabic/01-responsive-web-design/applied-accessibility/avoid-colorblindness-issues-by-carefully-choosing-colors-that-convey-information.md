@@ -11,7 +11,7 @@ dashedName: >-
 
 # --description--
 
-هناك أشكال مختلفة من عمى الألوان. يمكن أن تتراوح هذه من انخفاض الحساسية إلى طول موجي معين من الضوء إلى عدم القدرة على رؤية اللون على الإطلاق. أكثر الأشكال شيوعاً هو انخفاض الحساسية للكشف عن اللون الأخضر.
+There are various forms of colorblindness. These can range from a reduced sensitivity to a certain wavelength of light to the inability to see color at all. The most common form is a reduced sensitivity to detect greens.
 
 على سبيل المثال، إذا كان لون المحتوى لديك في الواجهة الأمامية والخلفية ذا لون أخضر من درجتين متفاوتتين، قد لا يكون المستخدم المصاب بعمى الألوان قادراً على تمييزهما. يمكن النظر إلى الألوان المتشابهة على أنها جيران على عجلة الألوان، وينبغي تجنب تلك التركيبات عند نقل المعلومات الهامة.
 

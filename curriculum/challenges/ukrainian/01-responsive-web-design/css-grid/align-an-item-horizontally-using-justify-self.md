@@ -9,7 +9,7 @@ dashedName: align-an-item-horizontally-using-justify-self
 
 # --description--
 
-У CSS Grid вміст кожного елементу розміщений у рамці, яка називається <dfn>cell</dfn>. Ви можете вирівняти розміщення у межах клітини горизонтально, використовуючи властивість `justify-self` для елемента таблиці. За замовчуванням, цей параметр має значення `stretch`, і таким чином вміст заповнює всю ширину клітини. Ця властивість CSS Grid також приймає інші значення:
+In CSS Grid, the content of each item is located in a box which is referred to as a <dfn>cell</dfn>. You can align the content's position within its cell horizontally using the `justify-self` property on a grid item. By default, this property has a value of `stretch`, which will make the content fill the whole width of the cell. This CSS Grid property accepts other values as well:
 
 `start`: вирівнює вміст по лівому краю клітини,
 

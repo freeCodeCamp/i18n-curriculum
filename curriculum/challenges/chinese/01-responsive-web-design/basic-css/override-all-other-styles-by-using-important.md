@@ -9,7 +9,7 @@ dashedName: override-all-other-styles-by-using-important
 
 # --description--
 
-耶！ 我们刚刚又证明了行内样式会覆盖 `style` 标签里面所有的 CSS 声明。
+Yay! We just proved that inline styles will override all the CSS declarations in your `style` element.
 
 不过， 还有一种方式可以覆盖重新 CSS 样式。 这是所有方法里面最强大的一个。 在此之前，我们要考虑清楚，为什么我们要覆盖 CSS 样式。
 

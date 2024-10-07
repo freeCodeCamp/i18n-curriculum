@@ -9,9 +9,9 @@ dashedName: generate-random-whole-numbers-with-javascript
 
 # --description--
 
-Du kannst zufällige Dezimalzahlen mit `Math.random()` erzeugen, aber manchmal musst du zufällige ganze Zahlen erzeugen. Mit dem folgenden Verfahren erhälst du eine zufällige ganze Zahl, die kleiner als `20` ist:
+You can generate random decimal numbers with `Math.random()`, but sometimes you need to generate random whole numbers. The following process will give you a random whole number less than `20`:
 
-1. Verwende `Math.random()`, um eine zufällige Dezimalzahl zu erzeugen.
+1. Use `Math.random()` to generate a random decimal number.
 2. Multipliziere diese zufällige Dezimalzahl mit `20`.
 3. Nutze `Math.floor()`, um auf die ganze Zahl abzurunden.
 

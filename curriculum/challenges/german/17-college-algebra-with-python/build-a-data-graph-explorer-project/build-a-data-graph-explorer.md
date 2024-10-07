@@ -23,8 +23,8 @@ Für diese Aufgabe musst du einen Datengrafik-Explorer mit Python erstellen, der
 - Überschriften und die zwei ersten Zeilen drucken
 - Die Spaltennamen als Liste speichern
 - Eine oder zwei Spalten auswählen und die Daten in Numpy-Arrays konvertieren
-- Display data as a scatter plot or a line graph
-- Be able to do this for different column combinations, and interpret the graphs
+- Daten als Streudiagramm oder Kantengraph anzeigen
+- Dies für verschiedene Spaltenkombinationen tun und die Graphen interpretieren kann
 
 Übermittle die URL an das öffentliche Colab-Notizbuch auf deinem Google-Drive, sobald du fertig bist.
 

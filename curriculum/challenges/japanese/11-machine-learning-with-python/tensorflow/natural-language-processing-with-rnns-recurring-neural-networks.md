@@ -14,7 +14,7 @@ dashedName: natural-language-processing-with-rnns-recurring-neural-networks
 
 ## --text--
 
-回帰型ニューラルネットワークについて正しく述べている文章はどれですか？
+What is true about Recurrent Neural Networks?
 
 ## --answers--
 

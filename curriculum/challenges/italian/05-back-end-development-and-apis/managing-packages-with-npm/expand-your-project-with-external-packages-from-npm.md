@@ -8,7 +8,7 @@ dashedName: expand-your-project-with-external-packages-from-npm
 
 # --description--
 
-Uno dei più grandi motivi per utilizzare un gestore di pacchetti, è la loro potente gestione delle dipendenze. Invece di dover fare manualmente in modo di ottenere tutte le dipendenze ogni volta che si imposta un progetto su un nuovo computer, npm installa tutto per te automaticamente. Ma come può npm sapere esattamente di cosa ha bisogno il tuo progetto? Vai a vedere la sezione `dependencies` del tuo file package.json.
+One of the biggest reasons to use a package manager, is their powerful dependency management. Instead of manually having to make sure that you get all dependencies whenever you set up a project on a new computer, npm automatically installs everything for you. But how can npm know exactly what your project needs? Meet the `dependencies` section of your package.json file.
 
 In questa sezione, i pacchetti richiesti dal progetto vengono memorizzati nel seguente formato:
 

@@ -8,7 +8,7 @@ dashedName: build-five-programs
 
 # --description--
 
-In this 220-lesson course, you will learn more terminal commands and how to use them within Bash scripts by creating five small programs.
+In diesem Kurs mit 220 Lektionen lernst du weitere Terminal-Befehle und wie du sie in Bash-Skripten verwendest, indem du fünf kleine Programme erstellst.
 
 # --instructions--
 

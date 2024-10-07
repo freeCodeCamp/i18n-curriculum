@@ -8,7 +8,7 @@ dashedName: inventory-update
 
 # --description--
 
-Confronta e aggiorna l'inventario memorizzato in un array 2D rispetto ad un secondo array 2D che rappresenta una nuova consegna. Aggiorna le quantità attuali degli oggetti esistenti (in `arr1`). Se un oggetto non viene trovato, aggiungi il nuovo oggetto e la sua quantità nell'array dell'inventario. L'array di inventario restituito dovrebbe essere in ordine alfabetico per articolo.
+Compare and update the inventory stored in a 2D array against a second 2D array of a fresh delivery. Update the current existing inventory item quantities (in `arr1`). If an item cannot be found, add the new item and quantity into the inventory array. The returned inventory array should be in alphabetical order by item.
 
 # --hints--
 

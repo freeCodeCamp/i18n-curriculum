@@ -8,7 +8,7 @@ dashedName: dna-pairing
 
 # --description--
 
-تتكوّن مقاطع الحمض النووي من أزواج نووية. يتم تمثيل أزواج القاعدة بأحرف <em>AT</em> و <em>CG</em> التي تكون هيكل بناء الحمض النووي المزدوج.
+Pairs of DNA strands consist of nucleobase pairs. Base pairs are represented by the characters <em>AT</em> and <em>CG</em>, which form building blocks of the DNA double helix.
 
 خيط الحمض النووي يفتقد عنصر الاقتران. كتابة وظيفة لمطابقة أزواج القاعدة المفقودة لشريط الحمض النووي المقدم. لكل رمز في مقطع المقدمة، ابحث عن رمز زوج أساسي. إرجاع النتائج كقائمة 2d.
 

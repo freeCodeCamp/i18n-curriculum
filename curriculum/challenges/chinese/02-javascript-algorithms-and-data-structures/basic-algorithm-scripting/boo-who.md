@@ -8,7 +8,7 @@ dashedName: boo-who
 
 # --description--
 
-检查一个值是否是基本类型中的布尔值（boolean）类型。 函数应返回 `true` 或者 `false`。
+Check if a value is classified as a boolean primitive. Return `true` or `false`.
 
 基本类型中的布尔值为 `true` 或者 `false`。
 

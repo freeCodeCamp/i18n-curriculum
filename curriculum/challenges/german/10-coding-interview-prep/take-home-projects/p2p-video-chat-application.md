@@ -1,6 +1,6 @@
 ---
 id: bd7150d8c442eddfafb5bd1c
-title: P2P Video Chat Application
+title: (P2P) Videochat-Anwendung
 challengeType: 4
 forumTopicId: 302366
 dashedName: p2p-video-chat-application
@@ -8,31 +8,31 @@ dashedName: p2p-video-chat-application
 
 # --description--
 
-**Aufgabe:** Erstelle eine Anwendung, die eine ähnliche Funktionalität wie <a href="https://p2p-video-chat-application.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://p2p-video-chat-application.freecodecamp.rocks/</a> aufweist.
+**Objective:** Build an app that is functionally similar to this: <a href="https://p2p-video-chat-application.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://p2p-video-chat-application.freecodecamp.rocks/</a>.
 
-Erfülle die folgenden User Stories und bestehe alle Tests. Verwende Bibliotheken und APIs deiner Wahl. Gib dem Ganzen deinen persönlichen Stil.
+Erfülle die untenstehenden User Stories und bringe alle Tests zum Bestehen. Verwende die Bibliotheken oder APIs deiner Wahl. Gib dem Ganzen deinen persönlichen Stil.
 
-**User Story:** Upon arriving, the browser will prompt me to access my camera and microphone.
+**User Story:** Zuerst fordert mich mein Browser auf, den Zugriff auf meine Kamera und mein Mikrofon zuzulassen.
 
-**User Story:** After I give it permission, I am prompted to type in a room name.
+**User Story:** Sobald ich diesen erlaubt habe, werde ich dazu aufgefordert, dem Raum einen Namen zu geben.
 
-**User Story:** Once I type in the room name, a room will be created if no room of that name existed before.
+**User Story:** Sobald ich das getan habe, wird, wenn noch kein Raum dieses Namens existiert, dieser erstellt.
 
-**User Story:** A friend of mine can subsequently go to the same website, type in the same room I entered, and join the same room, then enter into a video chat with me.
+**User Story:** Ein Freund von mir kann anschließend auf die gleiche Webseite gehen, den Namen des Raums eingeben und diesen damit betreten – dadurch beginnt der Videochat.
 
-**User Story:** If I type in a room name, and there are already two people in that room, I get a notification that the room is full.
+**User Story:** Gebe ich den Namen eines Raums ein, in dem sich bereits zwei Personen befinden, bekomme ich die Benachrichtigung, dass der Raum voll ist.
 
-**User Story:** Anyone can create or join any room. And there can be any number of rooms, but all of them must have unique names.
+**User Story:** Jeder kann einen Raum betreten oder erstellen. Solange jeder Raum einen eigenen Namen hat, können beliebig viele Räume erstellt werden.
 
-**User Story:** I can choose to not permit the site to access my microphone and webcam. If I choose not to do this, or if some other driver problem occurs, I see an error message saying these are required.
+**User Story:** Ich kann mich dazu entscheiden, der Seite keinen Zugriff auf mein Mikrofon und meine Webcam zu gestatten. Entscheide ich mich hierzu, oder tritt ein anderes Treiberproblem auf, erhalte ich die Fehlermeldung, dass diese erforderlich sind.
 
-**User Story:** When I choose to cancel the room name input step, or if I type in no name, or just spaces, it should again ask me again to type in a valid room name.
+**User Story:** Wenn ich mich dazu entscheide, den Namenseingabe-Schritt abzubrechen, oder keinen Namen bzw. nur Leerzeichen eingebe, werde ich erneut dazu aufgefordert, einen gültigen Namen einzugeben.
 
-**User Story:** If one of the two people in the room get disconnected, they can reconnect to the same room and continue chatting.
+**User Story:** Bricht die Verbindung einer Person ab, kann diese sich erneut mit dem Raum verbinden und weiter chatten.
 
-Once you've finished implementing these user stories, enter the URL to your live app and, optionally, your GitHub repository. Then click the "I've completed this challenge" button.
+Sobald du die Implementierung dieser User Stories abgeschlossen hast, gib die URL zu deiner Live-App und optional zu deiner GitHub-Repository ein. Klicke dann auf den Button "Ich habe diese Herausforderung abgeschlossen".
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+Du kannst Feedback zu deinem Projekt erhalten, indem du es auf dem <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp Forum</a> teilst.
 
 # --solutions--
 

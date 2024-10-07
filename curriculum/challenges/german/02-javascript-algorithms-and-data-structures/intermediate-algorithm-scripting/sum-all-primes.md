@@ -8,7 +8,7 @@ dashedName: sum-all-primes
 
 # --description--
 
-Eine <dfn>Primzahl</dfn> ist eine ganze Zahl größer als 1 mit genau zwei Divisoren: 1 und sich selbst. Zum Beispiel ist 2 eine Primzahl, weil sie nur durch 1 und 2 teilbar ist. Im Gegensatz dazu ist 4 keine Primzahl, da sie durch 1, 2 und 4 teilbar ist.
+A <dfn>prime number</dfn> is a whole number greater than 1 with exactly two divisors: 1 and itself. For example, 2 is a prime number because it is only divisible by 1 and 2. In contrast, 4 is not prime since it is divisible by 1, 2 and 4.
 
 Schreibe `sumPrimes` neu, so dass es die Summe aller Primzahlen zurückgibt, die kleiner oder gleich Null sind.
 

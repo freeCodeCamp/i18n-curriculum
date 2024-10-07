@@ -28,7 +28,7 @@ As a reminder, this project is being built upon the following starter project on
 
 在 `request.end` 的返回中检查以下情况：
 
-1.  `status` 应该是 `200`
+1.  The `status` should be `200`
 2.  `type` 应该是 `application/json`
 3.  `body.name` 应该是 `Giovanni`
 4.  `body.surname` 应该是 `da Verrazzano`

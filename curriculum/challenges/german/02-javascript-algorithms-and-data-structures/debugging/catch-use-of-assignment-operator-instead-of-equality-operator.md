@@ -8,7 +8,7 @@ dashedName: catch-use-of-assignment-operator-instead-of-equality-operator
 
 # --description--
 
-Verzweigende Programme, d.h. solche, die verschiedene Dinge tun, wenn bestimmte Bedingungen erfüllt sind, basieren auf `if`, `else if` und `else` Anweisungen in JavaScript. Die Bedingung hat manchmal die Form einer Prüfung, ob ein Ergebnis gleich einem Wert ist.
+Branching programs, i.e. ones that do different things if certain conditions are met, rely on `if`, `else if`, and `else` statements in JavaScript. The condition sometimes takes the form of testing whether a result is equal to a value.
 
 Diese Logik kann (zumindest im Englischen und Deutschen) als "wenn x gleich y ist, dann ..." ausgedrückt werden, was buchstäblich mit dem `=` oder Zuweisungsoperator in Code übersetzt werden kann. Das führt zu einem unerwarteten Kontrollfluss in deinem Programm.
 

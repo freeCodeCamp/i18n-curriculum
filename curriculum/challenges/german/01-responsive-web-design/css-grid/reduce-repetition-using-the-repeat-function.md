@@ -9,7 +9,7 @@ dashedName: reduce-repetition-using-the-repeat-function
 
 # --description--
 
-Wenn du `grid-template-columns` und `grid-template-rows` verwendet hast, um die Struktur eines Rasters zu definieren, hast du einen Wert für jede Zeile oder Spalte eingegeben, die du erstellt hast.
+When you used `grid-template-columns` and `grid-template-rows` to define the structure of a grid, you entered a value for each row or column you created.
 
 Nehmen wir an, du willst ein Raster mit 100 Zeilen derselben Höhe. Es ist nicht sehr praktisch, 100 Werte einzeln einzufügen. Glücklicherweise gibt es einen besseren Weg - indem du die Funktion `repeat` verwendest, um die Anzahl der Wiederholungen deiner Spalte oder Zeile anzugeben, gefolgt von einem Komma und dem Wert, den du wiederholen willst.
 

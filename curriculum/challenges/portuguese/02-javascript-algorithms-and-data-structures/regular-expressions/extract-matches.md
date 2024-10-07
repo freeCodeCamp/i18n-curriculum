@@ -8,7 +8,7 @@ dashedName: extract-matches
 
 # --description--
 
-Até agora, você só tem verificado se existe ou não um padrão dentro de uma string. Você também pode extrair os resultados encontrados por meio do método `.match()`.
+So far, you have only been checking if a pattern exists or not within a string. You can also extract the actual matches you found with the `.match()` method.
 
 Para usar o método `.match()`, aplique o método em uma string e passe a regex dentro dos parênteses.
 

@@ -8,7 +8,7 @@ dashedName: mutations
 
 # --description--
 
-Devuelve `true` si la cadena de caracteres en el primer elemento del arreglo contiene todas las letras de la cadena en el segundo elemento del arreglo.
+Return `true` if the string in the first element of the array contains all of the letters of the string in the second element of the array.
 
 Por ejemplo, `["hello", "Hello"]`, debe devolver `true` porque todas las letras de la segunda cadena están presentes en la primera, ignorando mayúsculas o minúsculas.
 

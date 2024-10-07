@@ -9,12 +9,12 @@ dashedName: add-a-box-shadow-to-a-card-like-element
 
 # --description--
 
-Die Eigenschaft `box-shadow` wendet einen oder mehrere Schatten auf ein Element an.
+The `box-shadow` property applies one or more shadows to an element.
 
 Die `box-shadow` Eigenschaft nimmt Werte in folgender Reihenfolge an:
 
 <ul>
-  <li><code>offset-x</code> (wie weit der Schatten in horizontaler Richtung vom Element verschoben werden kann)</li>
+  <li><code>offset-x</code> (how far to push the shadow horizontally from the element)</li>
   <li><code>offset-y</code> (wie weit der Schatten in vertikaler Richtung vom Element verschoben werden kann)</li>
   <li><code>blur-radius</code></li>
   <li><code>spread-radius</code></li>

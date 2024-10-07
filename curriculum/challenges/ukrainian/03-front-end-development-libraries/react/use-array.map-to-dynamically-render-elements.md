@@ -8,7 +8,7 @@ dashedName: use-array-map-to-dynamically-render-elements
 
 # --description--
 
-Умовне відтворення зручне, але іноді компоненти мають відтворювати невідому кількість елементів. Часто під час реактивного програмування у програміста немає можливості дізнатися стан застосунку до запуску, оскільки багато чого залежить від взаємодії користувача. Програміст має написати код, щоб правильно обробити цей невідомий стан до запуску. Метод `Array.map()` в React ілюструє це поняття.
+Conditional rendering is useful, but you may need your components to render an unknown number of elements. Often in reactive programming, a programmer has no way to know what the state of an application is until runtime, because so much depends on a user's interaction with that program. Programmers need to write their code to correctly handle that unknown state ahead of time. Using `Array.map()` in React illustrates this concept.
 
 Наприклад, ви створюєте простий застосунок «To Do List». Як програміст, ви не можете знати, скільки пунктів буде в списку користувача. Вам потрібно встановити компонент так, щоб він динамічно відтворював правильну кількість пунктів списку ще до того, як користувач вирішить, що сьогодні день прання.
 

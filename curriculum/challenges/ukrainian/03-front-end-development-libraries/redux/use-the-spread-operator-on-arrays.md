@@ -8,7 +8,7 @@ dashedName: use-the-spread-operator-on-arrays
 
 # --description--
 
-Одним із розв’язків від ES6, щоб забезпечити незмінність стану в Redux, є оператор розширення: `...`. Оператор розширення має велику кількість застосувань, одне з яких добре підходить для попереднього завдання, яке полягає в тому, щоб створити новий масив із наявного масиву. Цей синтаксис відносно новий, але його часто використовують. Наприклад, якщо ви маєте масив `myArray` і напишете:
+One solution from ES6 to help enforce state immutability in Redux is the spread operator: `...`. The spread operator has a variety of applications, one of which is well-suited to the previous challenge of producing a new array from an existing array. This is relatively new, but commonly used syntax. For example, if you have an array `myArray` and write:
 
 ```js
 let newArray = [...myArray];

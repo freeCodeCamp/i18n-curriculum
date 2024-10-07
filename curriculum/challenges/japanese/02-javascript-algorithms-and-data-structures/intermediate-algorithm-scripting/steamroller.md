@@ -8,7 +8,7 @@ dashedName: steamroller
 
 # --description--
 
-ネストされた配列を平坦化してください。 さまざまなレベルのネストを考慮する必要があります。
+Flatten a nested array. You must account for varying levels of nesting.
 
 # --hints--
 

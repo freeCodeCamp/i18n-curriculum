@@ -14,7 +14,7 @@ dashedName: core-learning-algorithms-building-the-model
 
 ## --text--
 
-Який тип оцінки/моделювання TensorFlow рекомендовано використовувати для класифікації?
+What kind of estimator/model does TensorFlow recommend using for classification?
 
 ## --answers--
 

@@ -8,7 +8,7 @@ dashedName: change-the-color-of-an-svg-element
 
 # --description--
 
-Стовпчики знаходяться в правильному місці, але вони всі однакового чорного кольору. SVG надає можливість змінити колір стовпчиків.
+The bars are in the right position, but they are all the same black color. SVG has a way to change the color of the bars.
 
 Фігура `rect` в SVG зафарбована завдяки атрибуту `fill`. Він підтримує шістнадцяткові коди, назви кольорів та значення rgb, а також складніші варіанти, серед яких градієнт та прозорість.
 

@@ -8,7 +8,7 @@ dashedName: create-a-method-on-an-object
 
 # --description--
 
-Objekte können eine besondere Art von Eigenschaft haben, die <dfn>Methode</dfn> genannt wird.
+Objects can have a special type of property, called a <dfn>method</dfn>.
 
 Methoden sind Eigenschaften, die Funktionen sind. Dies fügt einem Objekt ein anderes Verhalten hinzu. Hier ist das Beispiel `duck` mit einer Methode:
 

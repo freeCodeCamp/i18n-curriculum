@@ -9,18 +9,18 @@ dashedName: concatenating-strings-with-the-plus-equals-operator
 
 # --description--
 
-Ми можемо також використати оператор `+=`, щоб <dfn>об’єднати</dfn> рядок з кінцем наявної змінної рядка. Це корисно ще й для того, щоб розділити довгий рядок на декілька малих.
+We can also use the `+=` operator to <dfn>concatenate</dfn> a string onto the end of an existing string variable. This can be very helpful to break a long string over several lines.
 
 **Примітка:** зверніть увагу на пробіли. Конкатенація не додає пробіли між об’єднаними рядками, вам потрібно додавати їх самостійно.
 
-Приклад:
+Наприклад:
 
 ```js
 let ourStr = "I come first. ";
 ourStr += "I come second.";
 ```
 
-Тепер `ourStr` має значення рядка `I come first. I come second.`.
+`ourStr` now has a value of the string `I come first. I come second.`.
 
 # --instructions--
 
@@ -34,7 +34,7 @@ ourStr += "I come second.";
 assert(/sentence\. This/.test(myStr));
 ```
 
-`myStr` повинен мати значення рядка `This is the first sentence. This is the second sentence.`
+`myStr` should have a value of the string `This is the first sentence. This is the second sentence.`
 
 ```js
 assert(myStr === 'This is the first sentence. This is the second sentence.');

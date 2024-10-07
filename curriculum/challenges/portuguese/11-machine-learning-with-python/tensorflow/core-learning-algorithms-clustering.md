@@ -14,7 +14,7 @@ dashedName: core-learning-algorithms-clustering
 
 ## --text--
 
-Qual das seguintes etapas **não** faz parte do algoritmo de médias-K?
+Which of the following steps is **not** part of the K-Means algorithm?
 
 ## --answers--
 

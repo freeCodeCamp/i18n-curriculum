@@ -14,7 +14,7 @@ dashedName: natural-language-processing-with-rnns-making-predictions
 
 ## --text--
 
-Antes de fazer uma previsão com sua própria revisão, você deve...:
+Before you make a prediction with your own review, you should...:
 
 ## --answers--
 

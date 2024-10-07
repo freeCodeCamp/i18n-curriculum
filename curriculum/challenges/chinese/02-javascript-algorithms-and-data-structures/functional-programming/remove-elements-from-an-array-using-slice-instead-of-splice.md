@@ -8,7 +8,7 @@ dashedName: remove-elements-from-an-array-using-slice-instead-of-splice
 
 # --description--
 
-使用数组时经常遇到要删除一些元素并保留数组剩余部分的情况。 为此，JavaScript 提供了 `splice` 方法，它接收两个参数：从哪里开始删除项目的索引，和要删除的项目数。 如果没有提供第二个参数，默认情况下是移除一直到结尾的所有元素。 但 `splice` 方法会改变调用它的原始数组。 举个例子：
+A common pattern while working with arrays is when you want to remove items and keep the rest of the array. JavaScript offers the `splice` method for this, which takes arguments for the index of where to start removing items, then the number of items to remove. If the second argument is not provided, the default is to remove items through the end. However, the `splice` method mutates the original array it is called on. 如下所示：
 
 ```js
 const cities = ["Chicago", "Delhi", "Islamabad", "London", "Berlin"];

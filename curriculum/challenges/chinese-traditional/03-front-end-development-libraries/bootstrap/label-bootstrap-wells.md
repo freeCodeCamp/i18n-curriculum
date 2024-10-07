@@ -8,7 +8,7 @@ dashedName: label-bootstrap-wells
 
 # --description--
 
-爲了讓頁面邏輯更清晰，每個 wells 都標上它們的 id 吧。
+For the sake of clarity, let's label both of our wells with their ids.
 
 在 left-well 的上一層，class 屬性爲 `col-xs-6` 的 `div` 元素裏面，增加一個文本爲 `#left-well` 的 `h4` 元素。
 

@@ -8,7 +8,7 @@ dashedName: authentication-with-socket-io
 
 # --description--
 
-Al momento, non puoi determinare chi sia connesso alla tua socket web. `req.user` contiene l'oggetto utente, ma solo quando l'utente interagisce con il server web. Con le web sockets non hai `req` (richiesta) e di conseguenza, nessun dato utente. Un modo per risolvere il problema di sapere chi sia connesso alla tua web socket è di analizzare e decodificare il cookie che contiene la sessione passport, per poi deserializzarlo e ottenere l'oggetto utente. Fortunatamente, c'è un pacchetto su NPM fatto per questo, che trasforma un compito una volta complesso, in qualcosa di semplice!
+Currently, you cannot determine who is connected to your web socket. While `req.user` contains the user object, that's only when your user interacts with the web server, and with web sockets you have no `req` (request) and therefore no user data. One way to solve the problem of knowing who is connected to your web socket is by parsing and decoding the cookie that contains the passport session then deserializing it to obtain the user object. Luckily, there is a package on NPM just for this that turns a once complex task into something simple!
 
 `passport.socketio@~3.7.0`, `connect-mongo@~3.2.0` e `cookie-parser@~1.4.5` sono già stati aggiunti come dipendenze. Richiedili rispettivamente come `passportSocketIo`, `MongoStore` e `cookieParser`. Inoltre, dobbiamo inizializzare un nuovo archivio di memoria da `express-session` che abbiamo richiesto in precedenza. Dovrebbe assomigliare a questo:
 

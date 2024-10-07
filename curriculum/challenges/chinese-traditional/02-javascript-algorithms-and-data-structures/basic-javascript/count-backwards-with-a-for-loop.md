@@ -9,7 +9,7 @@ dashedName: count-backwards-with-a-for-loop
 
 # --description--
 
-只要我們定義好合適的條件，for 循環也可以反向遍歷。
+A for loop can also count backwards, so long as we can define the right conditions.
 
 爲了讓每次遞減 2，我們需要改變 initialization、condition 和 final-expression。
 

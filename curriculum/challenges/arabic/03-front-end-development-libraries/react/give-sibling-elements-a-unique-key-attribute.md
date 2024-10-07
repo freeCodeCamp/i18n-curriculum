@@ -8,7 +8,7 @@ dashedName: give-sibling-elements-a-unique-key-attribute
 
 # --description--
 
-وأظهر التحدي السابق كيفية استخدام طريقة `map` لتقديم عدد من العناصر بشكل ديناميكي بناء على مدخلات المستخدم. غير أن هناك قطعة هامة مفقودة من ذلك المثال. عند إنشاء مجموعة من العناصر، يحتاج كل واحد إلى خاصية `key` مجموعة إلى قيمة فريدة. يستخدم React هذه المفاتيح لتتبع العناصر التي يتم إضافتها أو تغييرها أو إزالتها. وهذا يساعد على جعل عملية إعادة جعلها أكثر كفائه عندما يتم تعديل القائمة بأي من الأشكال.
+The last challenge showed how the `map` method is used to dynamically render a number of elements based on user input. However, there was an important piece missing from that example. When you create an array of elements, each one needs a `key` attribute set to a unique value. React uses these keys to keep track of which items are added, changed, or removed. This helps make the re-rendering process more efficient when the list is modified in any way.
 
 **ملاحظة:** هُوِيَّات تحتاج فقط إلى أن تكون فريدة من نوعها بين العناصر الشقيقة، فهي لا تحتج إلى أن تكون فريدة عالميا في تطبيقاتك.
 

@@ -15,7 +15,7 @@ Given two sets of items then if any item is common to any set then the result of
   <li>Il singolo set che è unione dei due set di input se hanno un elemento in comune.</li>
 </ul>
 
-Dati N set di elementi done N > 2 allora il risultato è lo stesso di sostituire ripetutamente tutte le combinazioni di due set con la loro consolidazione finché non è più possibile alcuna altra consolidazione tra coppie di set. Se N &lt; 2 allora la consolidazione non ha significatio e l'input può essere restituito.
+Given N sets of items where N > 2 then the result is the same as repeatedly replacing all combinations of two sets by their consolidation until no further consolidation between set pairs is possible. If N &lt; 2 then consolidation has no strict meaning and the input can be returned.
 
 Ecco alcuni esempi:
 

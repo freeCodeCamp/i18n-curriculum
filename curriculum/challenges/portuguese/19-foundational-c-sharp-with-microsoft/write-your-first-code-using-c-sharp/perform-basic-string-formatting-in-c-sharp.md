@@ -20,7 +20,7 @@ Complete o módulo <a href="https://learn.microsoft.com/training/modules/csharp-
 
 ## --text--
 
-Qual das linhas a seguir de código usa interpolação de strings corretamente, assumindo que a variável `value` é uma string?
+Which of the following lines of code correctly uses string interpolation assuming that the variable `value` is a string?
 
 ## --answers--
 

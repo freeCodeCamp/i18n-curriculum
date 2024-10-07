@@ -8,7 +8,7 @@ dashedName: getting-started-with-react-redux
 
 # --description--
 
-هذه السلسلة من التحديات تعرض كيفية استخدام Redux مع React. أولا، هنا استعراض لبعض المبادئ الرئيسية لكل التقنية (technology). React هي مكتبة عرض تزويدها بالبيانات، ثم تنشئ العرض بطريقة فعالة وقابلة للتنبؤ. Redux هو framework إدارة الحالة (state management) التي يمكنك استخدامه لتبسيط إدارة حالة تطبيقك. عادة في تطبيق React يرتبط إلى Redux، أنشئ متجر واحد Redux الذي يدير حالة التطبيق بِرُمَّته. مكونات React الخاصة بك تشترك فقط في أجزاء من البيانات في المتجر ذات الصلة بدورها. ثم ارسل الإجراءات من مكونات React قاصدًا، التي تشن ذلك بتشغيل تحديثات المتجر.
+This series of challenges introduces how to use Redux with React. First, here's a review of some of the key principles of each technology. React is a view library that you provide with data, then it renders the view in an efficient, predictable way. Redux is a state management framework that you can use to simplify the management of your application's state. Typically, in a React Redux app, you create a single Redux store that manages the state of your entire app. Your React components subscribe to only the pieces of data in the store that are relevant to their role. Then, you dispatch actions directly from React components, which then trigger store updates.
 
 مع أنّ عناصر React يمكن أن تدير حالتها المحلية، عندما يكون لديك تطبيق معقد، من الأفضل عموماً الحفاظ على حالة التطبيق في موقع واحد في Redux. وهناك استثناءات عندما تكون المكونات فرادية لها حالة محلية خاصة بهم فقط. أخيرا، لأن Redux غير مصمم للعمل مع React خارج المئلوف، تحتاج إلى استخدام حُزْمَة `react-redux`. يوفر لك طريقة لتمرير `state` و `dispatch` من Redux إلى مكونات React الخاصة بك على شكل `props`.
 

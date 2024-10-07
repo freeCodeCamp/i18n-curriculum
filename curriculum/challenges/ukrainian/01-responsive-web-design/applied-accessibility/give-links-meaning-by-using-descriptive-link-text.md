@@ -9,7 +9,7 @@ dashedName: give-links-meaning-by-using-descriptive-link-text
 
 # --description--
 
-Користувачі пристроїв для читання з екрану мають різні варіанти контенту для читання. Ці варіанти містять перехід до елементів навігації (або їх пропуск), перехід до основного вмісту або отримання короткого змісту сторінки з заголовків. Ще одна опція - прослухати посилання, доступні на сторінці.
+Screen reader users have various options for what type of content their device reads. These options include skipping to (or over) landmark elements, jumping to the main content, or getting a page summary from the headings. Another option is to only hear the links available on a page.
 
 Зчитувачі з екрану, читають текст посилання або ж те, що знаходиться між теґами прив'язки (`a`). Список посилань на зразок "натисніть тут" або "читати більше" не допоможе у такому випадку. Замість цього використовуйте короткий, але змістовний, текст у межах теґів `a`, щоб користувачі змогли зрозуміти призначення лінку.
 

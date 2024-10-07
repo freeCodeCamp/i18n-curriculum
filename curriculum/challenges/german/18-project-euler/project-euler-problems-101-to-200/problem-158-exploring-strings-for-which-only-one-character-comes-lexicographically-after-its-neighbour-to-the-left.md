@@ -10,7 +10,7 @@ dashedName: >-
 
 # --description--
 
-Taking three different letters from the 26 letters of the alphabet, character strings of length three can be formed.
+Aus den 26 Buchstaben des Alphabets werden drei verschiedene Buchstaben ausgewählt, um ein String der Länge drei zu bilden.
 
 Beispiele hierfür sind "abc", "hat" und "zyx".
 

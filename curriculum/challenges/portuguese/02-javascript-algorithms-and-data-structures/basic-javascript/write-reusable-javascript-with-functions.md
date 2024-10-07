@@ -9,7 +9,7 @@ dashedName: write-reusable-javascript-with-functions
 
 # --description--
 
-Em JavaScript, nós podemos dividir nosso código em partes reutilizáveis chamadas de <dfn>funções</dfn>.
+In JavaScript, we can divide up our code into reusable parts called <dfn>functions</dfn>.
 
 Aqui está um exemplo de uma função:
 
@@ -25,7 +25,7 @@ Você pode chamar ou <dfn>invocar</dfn> essa função ao usar seu nome seguido d
 
 <ol>
   <li>
-    Crie uma função chamada <code>reusableFunction</code> que imprime a string <code>Hi World</code> no console.
+    Create a function called <code>reusableFunction</code> which prints the string <code>Hi World</code> to the dev console.
   </li>
   <li>
     Chame a função.

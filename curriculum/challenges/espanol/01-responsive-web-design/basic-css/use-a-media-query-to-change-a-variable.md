@@ -9,7 +9,7 @@ dashedName: use-a-media-query-to-change-a-variable
 
 # --description--
 
-Las variables CSS pueden simplificar la forma en que utilizas "media queries" (consultas sobre el tipo de dispositivo donde se muestra el documento HTML).
+CSS Variables can simplify the way you use media queries.
 
 Por ejemplo, cuando la pantalla es más pequeña o más grande que el breakpoint de tu media query, puedes cambiar el valor de una variable, y su estilo se aplicará dondequiera que la utilices.
 

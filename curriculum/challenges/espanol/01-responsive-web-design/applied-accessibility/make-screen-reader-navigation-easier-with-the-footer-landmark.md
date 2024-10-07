@@ -9,7 +9,7 @@ dashedName: make-screen-reader-navigation-easier-with-the-footer-landmark
 
 # --description--
 
-Similar a `header` y `nav`, el elemento `footer` tiene una característica de referencia incorporada que permite a los dispositivos de asistencia navegar rápidamente hacia él. Se utiliza principalmente para contener información sobre derechos de autor o enlaces a documentos relacionados que normalmente se encuentran en la parte inferior de una página.
+Similar to `header` and `nav`, the `footer` element has a built-in landmark feature that allows assistive devices to quickly navigate to it. It's primarily used to contain copyright information or links to related documents that usually sit at the bottom of a page.
 
 # --instructions--
 

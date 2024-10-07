@@ -14,7 +14,7 @@ dashedName: neural-networks-creating-a-model
 
 ## --text--
 
-Preencha as lacunas abaixo para construir um modelo sequencial de camadas densas:
+Fill in the blanks below to build a sequential model of dense layers:
 
 ```py
 model = __A__.__B__([

@@ -1,6 +1,6 @@
 ---
 id: 5900f50a1000cf542c51001c
-title: 'Problem 413: One-child Numbers'
+title: 'Problem 413: Ein-Kind-Nummer'
 challengeType: 1
 forumTopicId: 302082
 dashedName: problem-413-one-child-numbers
@@ -8,19 +8,19 @@ dashedName: problem-413-one-child-numbers
 
 # --description--
 
-We say that a $d$-digit positive number (no leading zeros) is a one-child number if exactly one of its sub-strings is divisible by $d$.
+Wir sagen, dass eine $d$-stellige Integer (keine vorangestellten Nullen) eine Ein-Kind-Nummer ist, wenn genau einer der untergeordneten Strings durch $d$ teilbar ist.
 
-For example, 5671 is a 4-digit one-child number. Among all its sub-strings 5, 6, 7, 1, 56, 67, 71, 567, 671 and 5671, only 56 is divisible by 4.
+Zum Beispiel ist 5671 eine vierstellige Ein-Kind-Nummer. Von allen Teilstrings 5, 6, 7, 1, 56, 67, 71, 567, 671 und 5671 ist nur 56 durch 4 teilbar.
 
-Similarly, 104 is a 3-digit one-child number because only 0 is divisible by 3. 1132451 is a 7-digit one-child number because only 245 is divisible by 7.
+Demnach ist 104 eine 3-stellige Ein-Kind-Nummer, da nur 0 durch 3 teilbar ist. 1132451 ist eine 7-stellige Ein-Kind-Nummer, da nur 245 durch 7 teilbar sind.
 
-Let $F(N)$ be the number of the one-child numbers less than $N$. We can verify that $F(10) = 9$, $F({10}^3) = 389$ and $F({10}^7) = 277\\,674$.
+Lasse $F(N)$, die Zahl der Ein-Kind-Nummern, kleiner als $N$ sein. Wir können nachweisen, dass $F(10) = 9$, $F({10}^3) = 389$ und $F({10}^7) = 277\\,674$.
 
-Find $F({10}^{19})$.
+Finde $F({10}^{19})$.
 
 # --hints--
 
-`oneChildNumbers()` should return `3079418648040719`.
+`oneChildNumbers()` sollte `3079418648040719` zurückgeben.
 
 ```js
 assert.strictEqual(oneChildNumbers(), 3079418648040719);

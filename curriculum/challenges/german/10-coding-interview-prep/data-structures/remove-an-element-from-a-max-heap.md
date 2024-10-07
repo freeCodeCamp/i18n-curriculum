@@ -1,6 +1,6 @@
 ---
 id: 587d825b367417b2b2512c8b
-title: Remove an Element from a Max Heap
+title: Ein Element aus einem Max Heap entfernen
 challengeType: 1
 forumTopicId: 301710
 dashedName: remove-an-element-from-a-max-heap
@@ -12,17 +12,17 @@ Now that we can add elements to our heap let's see how we can remove elements. R
 
 <ol>
   <li>Move the last element in the heap into the root position.</li>
-  <li>If either child of the root is greater than it, swap the root with the child of greater value.</li>
-  <li>Continue swapping until the parent is greater than both children or you reach the last level in the tree.</li>
+  <li>Wenn eines der Kinder der Wurzel größer ist als er, wird die Wurzel mit dem Kind mit dem größeren Wert vertauscht.</li>
+  <li>Setze die Vertauschung fort, bis das übergeordnete Element größer als die beiden untergeordneten Elemente ist oder du die letzte Ebene des Baums erreichst.</li>
 </ol>
 
 # --instructions--
 
-Instructions: Add a method to our max heap called `remove`. This method should return the greatest value that has been added to our max heap and remove it from the heap. It should also reorder the heap so the heap property is maintained. After removing an element, the next greatest element remaining in the heap should become the root.
+Anweisungen: Füge eine Methode mit dem Namen `remove` zu unserem Max Heap hinzu. Diese Methode sollte den größten Wert zurückgeben, der zu unserem Max Heap hinzugefügt wurde, und ihn aus dem Heap entfernen. Er sollte auch den Heap neu anordnen, damit die Heap-Eigenschaft erhalten bleibt. Nach dem Entfernen eines Elements sollte das nächstgrößere im Heap verbleibende Element die Wurzel werden.
 
 # --hints--
 
-The `MaxHeap` data structure should exist.
+Die `MaxHeap`-Datenstruktur sollte vorhanden sein.
 
 ```js
 assert(
@@ -36,7 +36,7 @@ assert(
 );
 ```
 
-`MaxHeap` should have a method called `print`.
+`MaxHeap` sollte eine Methode namens `print` haben.
 
 ```js
 assert(
@@ -52,7 +52,7 @@ assert(
 );
 ```
 
-`MaxHeap` should have a method called `insert`.
+`MaxHeap` sollte eine Methode namens `insert` haben.
 
 ```js
 assert(
@@ -68,7 +68,7 @@ assert(
 );
 ```
 
-`MaxHeap` should have a method called `remove`.
+`MaxHeap` sollte eine Methode namens `remove` haben.
 
 ```js
 assert(
@@ -84,7 +84,7 @@ assert(
 );
 ```
 
-The `remove` method should remove the greatest element from the max heap while maintaining the max heap property.
+Die `remove`-Methode sollte das größte Element aus dem max heap entfernen und dabei die Eigenschaft max heap beibehalten.
 
 ```js
 function isHeap(arr, i, n) {

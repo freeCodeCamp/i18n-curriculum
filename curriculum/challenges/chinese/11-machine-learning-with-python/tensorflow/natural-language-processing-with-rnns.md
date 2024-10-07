@@ -14,23 +14,23 @@ dashedName: natural-language-processing-with-rnns
 
 The next few video lessons will reference [this Colab notebook](https://colab.research.google.com/drive/1ysEKrw_LE2jMndo1snrZUh5w87LQsCxk#forceEdit=true&sandboxMode=true).
 
-# --questions--
+# 问题
 
 ## --text--
 
-自然语言处理是人工智能的一个分支......：
+Natural Language Processing is a branch of artificial intelligence that...:
 
 ## --answers--
 
-解决计算机如何理解和处理自然语言/人文语言。
+deals with how computers understand and process natural/human languages.
 
 ---
 
-将图像数据转换成自然/人文语言。
+translates image data into natural/human languages.
 
 ---
 
-重点是将计算机语言翻译成自然/人文语言。
+is focused on translating computer languages into natural/human languages.
 
 ## --video-solution--
 

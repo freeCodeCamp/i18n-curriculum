@@ -8,7 +8,7 @@ dashedName: use-the-map-method-to-extract-data-from-an-array
 
 # --description--
 
-目前为止，我们已经学会了使用纯函数来避免程序中的副作用。 此外，我们已经看到函数的值仅取决于其输入参数。
+So far we have learned to use pure functions to avoid side effects in a program. Also, we have seen the value in having a function only depend on its input arguments.
 
 这仅仅是个开始。 顾名思义，函数式编程以函数理论为中心。
 

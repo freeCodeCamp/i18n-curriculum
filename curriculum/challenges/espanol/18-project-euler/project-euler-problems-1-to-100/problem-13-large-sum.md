@@ -121,13 +121,13 @@ Calcula los diez primeros dígitos de la suma de los siguientes cíen números d
 assert(typeof largeSum(testNums) === 'number');
 ```
 
-`largeSum(testNums)` should return 8348422521.
+`largeSum(testNums)` debe devolver 8348422521.
 
 ```js
 assert.strictEqual(largeSum(testNums), 8348422521);
 ```
 
-`largeSum(fiftyDigitNums)` should return 5537376230.
+`largeSum(fiftyDigitNums)`debe devolver 5537376230.
 
 ```js
 assert.strictEqual(largeSum(fiftyDigitNums), 5537376230);

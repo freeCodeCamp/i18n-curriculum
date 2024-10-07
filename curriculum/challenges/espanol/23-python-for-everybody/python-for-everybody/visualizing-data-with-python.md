@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: visualizing-data-with-python
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-Most data needs to be ______ before using it.
+La mayoría de datos deben ser ______ antes de usarlos.
 
 ## --answers--
 

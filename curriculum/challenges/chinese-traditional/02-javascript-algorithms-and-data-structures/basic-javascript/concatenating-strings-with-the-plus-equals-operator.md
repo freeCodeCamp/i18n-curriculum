@@ -9,18 +9,18 @@ dashedName: concatenating-strings-with-the-plus-equals-operator
 
 # --description--
 
-我們還可以使用 `+=` 運算符來<dfn>拼接</dfn>字符串到現有字符串變量的結尾。 對於那些被分割成幾段的長的字符串來說，這一操作是非常有用的。
+We can also use the `+=` operator to <dfn>concatenate</dfn> a string onto the end of an existing string variable. This can be very helpful to break a long string over several lines.
 
 **提示：** 注意空格。 拼接操作不會在兩個字符串之間添加空格，所以，如果想要加上空格的話，你需要自己在字符串裏面添加。
 
-例如：
+示例：
 
 ```js
 let ourStr = "I come first. ";
 ourStr += "I come second.";
 ```
 
-`ourStr` 的值爲字符串 `I come first. I come second.`
+`ourStr` 現在內容爲字符串 `I come first. I come second.`
 
 # --instructions--
 
@@ -34,7 +34,7 @@ ourStr += "I come second.";
 assert(/sentence\. This/.test(myStr));
 ```
 
-`myStr` 的值應該是字符串 `This is the first sentence. This is the second sentence.`
+`myStr` should have a value of the string `This is the first sentence. This is the second sentence.`
 
 ```js
 assert(myStr === 'This is the first sentence. This is the second sentence.');

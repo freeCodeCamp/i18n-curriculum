@@ -8,7 +8,7 @@ dashedName: match-a-literal-string-with-different-possibilities
 
 # --description--
 
-使用正则表达式`/coding/`，你可以在其他字符串中查找`coding`。
+Using regexes like `/coding/`, you can look for the pattern `coding` in another string.
 
 这对于搜寻单个字符串非常有用，但仅限于一种匹配模式。 你可以使用 `alternation` 或 `OR` 操作符搜索多个模式： `|`
 

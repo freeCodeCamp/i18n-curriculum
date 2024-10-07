@@ -8,7 +8,7 @@ dashedName: knapsack-problembounded
 
 # --description--
 
-The bounded knapsack problem is defined as follows:
+Das begrenzte Rucksackproblem ist wie folgt definiert:
 
 Du erhälst ein Array mit Objekten, die Gegenstände darstellen, die in einen Rucksack gelegt werden sollen. Die Objekte haben 4 Attribute: Name, Stückzahl (die Anzahl des jeweiligen Artikels), Gewicht und Wert. Die Artikel müssen so ausgewählt werden, dass das Gesamtgewicht das Höchstgewicht nicht überschreitet und der Wert maximiert wird. Denke daran, dass jedes Element zwischen 0 und `pieces` Mal erscheinen kann.
 

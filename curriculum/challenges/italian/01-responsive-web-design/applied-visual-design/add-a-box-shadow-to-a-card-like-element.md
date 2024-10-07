@@ -9,12 +9,12 @@ dashedName: add-a-box-shadow-to-a-card-like-element
 
 # --description--
 
-La proprietà `box-shadow` applica una o più ombre ad un elemento.
+The `box-shadow` property applies one or more shadows to an element.
 
 La proprietà `box-shadow` prende i seguenti valori, in ordine:
 
 <ul>
-  <li><code>offset-x</code> (quanto l'ombra si sposta orizzontalmente dall'elemento)</li>
+  <li><code>offset-x</code> (how far to push the shadow horizontally from the element)</li>
   <li><code>offset-y</code> (quanto l'ombra si sposta verticalmente dall'elemento)</li>
   <li><code>blur-radius</code></li>
   <li><code>spread-radius</code></li>

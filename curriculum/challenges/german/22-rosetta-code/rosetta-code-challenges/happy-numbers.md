@@ -8,7 +8,7 @@ dashedName: happy-numbers
 
 # --description--
 
-A happy number is defined by the following process:
+Eine fröhliche Zahl wird durch den folgenden Prozess definiert:
 
 Beginnend mit einer positiven Ganzzahl, ersetze die Nummer mit der Summe der Quadratzahlen ihrer Ziffern, und wiederhole den Prozess bis die Zahl `1` ergibt (wo er stehenbleibt), oder er wiederholt sich unendlich in einem Zyklus der nicht `1` enthält. Diese Zahlen, für die der Prozess mit `1` endet sind fröhliche Zahlen, während diejenigen, die nicht mit `1` enden, unfröhliche Zahlen sind.
 

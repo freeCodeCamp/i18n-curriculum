@@ -12,7 +12,7 @@ dashedName: convert-data-types-using-casting-and-conversion-techniques-in-c-shar
 1. Перейдіть до <a href="https://learn.microsoft.com/training/modules/csharp-convert-cast/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/csharp-convert-cast/</a> та виконайте всі завдання модуля «Конвертуйте типи даних, використовуючи приведення та перетворення в C#». Це **обов’язково**, щоб отримати трофей зі «Робота з даними змінних в консольних застосунках C#» на Microsoft Learn та мати змогу скласти сертифікаційний екзамен.
 1. Як тільки завершите, поверніться та дайте правильну відповідь на запитання нижче.
 
-# --assignment--
+# --Завдання--
 
 Виконайте модуль <a href="https://learn.microsoft.com/training/modules/csharp-convert-cast/" target="_blank" rel="noreferrer">«Конвертуйте типи даних, використовуючи приведення та перетворення в C#»</a> на Microsoft Learn. Потім дайте відповідь на запитання нижче.
 
@@ -20,19 +20,19 @@ dashedName: convert-data-types-using-casting-and-conversion-techniques-in-c-shar
 
 ## --text--
 
-Яка дія виконується при зміні `float` на `int`?
+What type of action is being performed when changing a `float` into an `int`?
 
 ## --answers--
 
-Звуження.
+A narrowing conversion.
 
 ---
 
-Розширення.
+A widening conversion.
 
 ---
 
-Заборонене перетворення.
+An illegal conversion.
 
 ## --video-solution--
 

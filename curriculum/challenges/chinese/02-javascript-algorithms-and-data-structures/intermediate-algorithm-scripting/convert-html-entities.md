@@ -8,7 +8,7 @@ dashedName: convert-html-entities
 
 # --description--
 
-请将字符串中的 `&`、`<`、`>`、`"`（双引号）和 `'`（单引号）转换为相应的 HTML 字符实体。
+Convert the characters `&`, `<`, `>`, `"` (double quote), and `'` (apostrophe), in a string to their corresponding HTML entities.
 
 # --hints--
 

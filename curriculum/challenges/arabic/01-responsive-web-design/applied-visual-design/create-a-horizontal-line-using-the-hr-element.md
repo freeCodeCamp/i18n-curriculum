@@ -1,6 +1,6 @@
 ---
 id: 587d781b367417b2b2512abb
-title: Create a Horizontal Line Using the hr Element
+title: إنشاء خط أفقي باستخدام عنصر hr
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/c3bR8t7'
 forumTopicId: 301049
@@ -13,7 +13,7 @@ You can use the `hr` tag to add a horizontal line across the width of its contai
 
 # --instructions--
 
-Add an `hr` tag underneath the `h4` which contains the card title.
+قم بإضافة كود `hr` أسفل كود `h4` الذي يحوي على عنوان البطاقة.
 
 **Note:** In HTML, `hr` is a self-closing tag, and therefore doesn't need a separate closing tag.
 
@@ -25,7 +25,7 @@ Your code should add an `hr` tag to the markup.
 assert.lengthOf(document.querySelectorAll('hr'),1);
 ```
 
-The `hr` tag should come between the title and the paragraph.
+علامة `hr` يجب أن تكون بين العنوان والفقرة.
 
 ```js
 assert.match(code,/<\/h4>\s*?<hr(>|\s*?\/>)\s*?<p>/gi);

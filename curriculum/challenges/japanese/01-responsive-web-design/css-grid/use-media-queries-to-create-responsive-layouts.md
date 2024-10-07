@@ -9,7 +9,7 @@ dashedName: use-media-queries-to-create-responsive-layouts
 
 # --description--
 
-CSS グリッドは、メディアクエリを使ってグリッドエリアの再配置、グリッドの大きさの変更、アイテムの配置変更などを行うことで、サイトをよりレスポンシブにするための手軽な方法です。
+CSS Grid can be an easy way to make your site more responsive by using media queries to rearrange grid areas, change dimensions of a grid, and rearrange the placement of items.
 
 このプレビューでは、ビューポート幅が 300px 以上の場合、列数が 1 列から 2 列に変更されます。 そして、広告 (advert) エリアが左の列全体を占有します。
 

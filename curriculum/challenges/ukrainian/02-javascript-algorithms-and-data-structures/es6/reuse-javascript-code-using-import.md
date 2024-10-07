@@ -8,7 +8,7 @@ dashedName: reuse-javascript-code-using-import
 
 # --description--
 
-`import` дозволяє вам вибрати, які частини файлу чи модуля завантажувати. Приклади у попередньому завданні експортували функцію `add` з файлу `math_functions.js`. А ось так ви можете імпортувати її та використовувати в іншому файлі:
+`import` allows you to choose which parts of a file or module to load. In the previous lesson, the examples exported `add` from the `math_functions.js` file. Here's how you can import it to use in another file:
 
 ```js
 import { add } from './math_functions.js';

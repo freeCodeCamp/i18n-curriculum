@@ -9,9 +9,9 @@ dashedName: generate-random-whole-numbers-with-javascript
 
 # --description--
 
-你可以用 `Math.random()` 生成隨機的小數，但有時你需要生成隨機的整數。 下面的流程將給你一個小於 `20` 的隨機整數：
+You can generate random decimal numbers with `Math.random()`, but sometimes you need to generate random whole numbers. The following process will give you a random whole number less than `20`:
 
-1. 用 `Math.random()` 生成一個隨機小數。
+1. Use `Math.random()` to generate a random decimal number.
 2. 把這個隨機小數乘以 `20`。
 3. 用 `Math.floor()` 向下取整，獲得它最近的整數。
 

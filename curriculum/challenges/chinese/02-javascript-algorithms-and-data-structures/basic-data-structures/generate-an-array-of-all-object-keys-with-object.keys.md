@@ -8,7 +8,7 @@ dashedName: generate-an-array-of-all-object-keys-with-object-keys
 
 # --description--
 
-我们可以给 `Object.keys()` 方法传入一个对象作为参数，来生成包含对象所有键的数组。 这个方法将对象作为参数并返回代表对象中每个属性的字符串数组。 需要注意的是，数组中元素的顺序是不确定的。
+We can also generate an array which contains all the keys stored in an object with the `Object.keys()` method. This method takes an object as the argument and returns an array of strings representing each property in the object. Again, there will be no specific order to the entries in the array.
 
 # --instructions--
 
@@ -16,7 +16,7 @@ dashedName: generate-an-array-of-all-object-keys-with-object-keys
 
 # --hints--
 
-`users` 对象应该只包含 `Alan`、`Jeff`、`Sarah`、`Ryan` 这 4 个属性。
+`users` 对象应该只包含 `Alan`、`Jeff`、`Sarah`、`Ryan` 4 个属性。
 
 ```js
 assert(

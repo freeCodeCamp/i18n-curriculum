@@ -9,7 +9,7 @@ dashedName: adjust-the-color-of-various-elements-to-complementary-colors
 
 # --description--
 
-補色のチャレンジでは、色相環の反対側にある色を並べて配置するとお互いがより鮮やかに見えることを示しました。 しかし、強い視覚的コントラストはウェブサイト上で過度に使われると目障りになることもあり、補色の背景色の上にテキストを配置すると読み辛くなることもあります。 実際には、いずれかの色が通常は支配的であり、ページ上の特定のコンテンツに視覚的な注意を引くために補色が使われます。
+The Complementary Colors challenge showed that opposite colors on the color wheel can make each other appear more vibrant when placed side-by-side. However, the strong visual contrast can be jarring if it's overused on a website, and can sometimes make text harder to read if it's placed on a complementary-colored background. In practice, one of the colors is usually dominant and the complement is used to bring visual attention to certain content on the page.
 
 # --instructions--
 

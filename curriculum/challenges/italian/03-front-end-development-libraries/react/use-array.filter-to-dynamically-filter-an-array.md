@@ -8,7 +8,7 @@ dashedName: use-array-filter-to-dynamically-filter-an-array
 
 # --description--
 
-Il metodo degli array `map` è un potente strumento che userai spesso lavorando con React. Un altro metodo collegato a `map` è `filter`, che filtra il contenuto di un array in base a una condizione, restituendo un nuovo array. Ad esempio, se hai un array di utenti che hanno tutti una proprietà `online` che può essere impostata a `true` o `false`, puoi filtrare solo gli utenti che sono online scrivendo:
+The `map` array method is a powerful tool that you will use often when working with React. Another method related to `map` is `filter`, which filters the contents of an array based on a condition, then returns a new array. For example, if you have an array of users that all have a property `online` which can be set to `true` or `false`, you can filter only those users that are online by writing:
 
 ```js
 let onlineUsers = users.filter(user => user.online);

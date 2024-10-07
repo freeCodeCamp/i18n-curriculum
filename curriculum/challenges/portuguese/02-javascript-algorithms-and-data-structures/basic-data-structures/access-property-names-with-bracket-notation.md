@@ -8,7 +8,7 @@ dashedName: access-property-names-with-bracket-notation
 
 # --description--
 
-No primeiro desafio, nós mencionamos o uso da notação de colchetes como uma forma de acessar valores das propriedades usando a avaliação de uma variável. Por exemplo, imagine que nosso objeto `foods` está sendo usado em um programa para a caixa-registradora de um supermercado. Nós temos algumas funções que definem `selectedFood` e nós queremos checar a presença da `selectedFood` em nosso objeto `foods`. Isso pode parecer assim:
+In the first object challenge we mentioned the use of bracket notation as a way to access property values using the evaluation of a variable. For instance, imagine that our `foods` object is being used in a program for a supermarket cash register. We have some function that sets the `selectedFood` and we want to check our `foods` object for the presence of that food. This might look like:
 
 ```js
 let selectedFood = getCurrentFood(scannedItem);

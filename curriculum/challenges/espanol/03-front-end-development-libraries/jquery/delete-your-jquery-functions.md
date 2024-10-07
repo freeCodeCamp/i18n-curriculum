@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aeda08726
-title: Elimina tus funciones jQuery
+title: Elimina tus Funciones jQuery
 challengeType: 6
 forumTopicId: 17561
 required:
@@ -11,7 +11,7 @@ dashedName: delete-your-jquery-functions
 
 # --description--
 
-Estas animaciones fueron geniales al principio, pero ahora distraen un poco.
+These animations were cool at first, but now they're getting kind of distracting.
 
 Elimina las tres funciones de jQuery que están dentro de tu `document ready function`, pero deja intacta tu función `document ready function` en sí.
 

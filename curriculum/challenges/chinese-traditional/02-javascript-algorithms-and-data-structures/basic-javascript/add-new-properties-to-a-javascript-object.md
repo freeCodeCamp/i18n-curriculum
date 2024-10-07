@@ -9,7 +9,7 @@ dashedName: add-new-properties-to-a-javascript-object
 
 # --description--
 
-你也可以像更改屬性一樣給 JavaScript 對象添加屬性。
+You can add new properties to existing JavaScript objects the same way you would modify them.
 
 這裏展示瞭如何給 `ourDog` 添加一個屬性 `bark`：
 

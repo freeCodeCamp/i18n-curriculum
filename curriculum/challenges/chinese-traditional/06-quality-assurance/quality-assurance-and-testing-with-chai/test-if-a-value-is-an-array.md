@@ -12,11 +12,11 @@ As a reminder, this project is being built upon the following starter project on
 
 # --instructions--
 
-Within `tests/1_unit-tests.js` under the test labeled `#11` in the `Arrays` suite, change each `assert` to either `assert.isArray` or `assert.isNotArray` to make the test pass (should evaluate to `true`). 不要改變傳入斷言的參數。
+在文件 `tests/1_unit-tests.js` 中，`Arrays` 套件內編號爲 `#11`的測試標籤，將每個 `assert` 修改爲 `assert.isArray` 或 `assert.isNotArray`以使測試通過（結果應爲 `true`）。 不要修改傳給斷言的參數。
 
 # --hints--
 
-不應有未通過的測試
+應通過所有測試。
 
 ```js
 (getUserInput) =>

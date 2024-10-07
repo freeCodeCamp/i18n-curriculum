@@ -9,7 +9,7 @@ dashedName: updating-object-properties
 
 # --description--
 
-بعد إنشاء كائن JavaScript، يمكنك تحديث خصائصه في أي وقت كما يمكنك تحديث أي متغير آخر. يمكنك استخدام أي من رمز النقطة أو علامات الأقواس (dot or bracket notation).
+After you've created a JavaScript object, you can update its properties at any time just like you would update any other variable. You can use either dot or bracket notation to update.
 
 على سبيل المثال، دعونا ننظر إلى `ourDog`:
 

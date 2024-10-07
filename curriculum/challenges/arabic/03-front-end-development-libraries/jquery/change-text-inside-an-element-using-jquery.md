@@ -8,7 +8,7 @@ dashedName: change-text-inside-an-element-using-jquery
 
 # --description--
 
-باستخدام jQuery، يمكنك تغيير النص بين علامات البداية والنهاية لعنصر ما. يمكنك حتى تغيير علامة HTML.
+Using jQuery, you can change the text between the start and end tags of an element. You can even change HTML markup.
 
 jQuery لديه دالة تسمى `.html()` التي تتيح لك إضافة وسوم HTML ونص داخل عنصر ما. سيتم استبدال أي محتوى سابق داخل العنصر بالكامل بالمحتوى الذي توفره باستخدام هذه الوظيفة.
 

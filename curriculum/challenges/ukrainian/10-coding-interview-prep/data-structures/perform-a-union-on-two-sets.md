@@ -8,7 +8,7 @@ dashedName: perform-a-union-on-two-sets
 
 # --description--
 
-У цій вправі ми виконаємо об’єднання двох множин даних. Ми створимо метод на множині під назвою `union`. Цей метод має приймати іншу множину як аргумент та повернути об’єднання двох множин, виключаючи будь-які значення, що повторюються.
+In this exercise we are going to perform a union on two sets of data. We will create a method on our `Set` data structure called `union`. This method should take another `Set` as an argument and return the `union` of the two sets, excluding any duplicate values.
 
 Наприклад, якщо `setA = ['a','b','c']`, а `setB = ['a','b','d','e']`, то об’єднанням setA та setB буде `setA.union(setB) = ['a', 'b', 'c', 'd', 'e']`.
 

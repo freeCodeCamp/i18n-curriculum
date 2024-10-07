@@ -8,7 +8,7 @@ dashedName: render-with-an-if-else-condition
 
 # --description--
 
-Un'altra applicazione dell'uso di JavaScript per controllare la vista presentata è quella di legare gli elementi che sono presentati ad una condizione. Quando la condizione è vera, una vista viene presentata. Quando è falsa, viene presentata una vista diversa. Puoi farlo con un comando `if/else` standard nel metodo `render()` di un componente React.
+Another application of using JavaScript to control your rendered view is to tie the elements that are rendered to a condition. When the condition is true, one view renders. When it's false, it's a different view. You can do this with a standard `if/else` statement in the `render()` method of a React component.
 
 # --instructions--
 

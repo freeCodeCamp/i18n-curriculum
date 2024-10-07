@@ -8,7 +8,7 @@ dashedName: label-bootstrap-wells
 
 # --description--
 
-명확성을 위해 두 well에 id를 레이블로 지정해보겠습니다.
+For the sake of clarity, let's label both of our wells with their ids.
 
 왼쪽 well 위 `col-xs-6` `div` 요소 안에 `#left-well`라는 글자를 가진 `h4` 요소를 추가하시오.
 

@@ -8,7 +8,7 @@ dashedName: chunky-monkey
 
 # --description--
 
-كتابة وظيفة (function) تقسم القائمة (array) (الحَجَّة الأولى) إلى مجموعات لها طول `size` (الحَجَّة الثانية) وتنشئهما كقائمة (array) ثنائية الأبعاد.
+Write a function that splits an array (first argument) into groups the length of `size` (second argument) and returns them as a two-dimensional array.
 
 # --hints--
 

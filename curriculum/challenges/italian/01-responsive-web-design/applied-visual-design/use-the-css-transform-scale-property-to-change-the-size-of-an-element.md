@@ -9,7 +9,7 @@ dashedName: use-the-css-transform-scale-property-to-change-the-size-of-an-elemen
 
 # --description--
 
-Per cambiare la scala di un elemento, CSS ha la proprietà `transform`, insieme alla sua funzione `scale()`. Il seguente esempio di codice raddoppia la dimensione di tutti gli elementi paragrafo sulla pagina:
+To change the scale of an element, CSS has the `transform` property, along with its `scale()` function. The following code example doubles the size of all the paragraph elements on the page:
 
 ```css
 p {

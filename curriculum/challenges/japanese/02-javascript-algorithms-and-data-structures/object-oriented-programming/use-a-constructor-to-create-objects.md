@@ -8,7 +8,7 @@ dashedName: use-a-constructor-to-create-objects
 
 # --description--
 
-次に示すのは前回のチャレンジで取り上げた `Bird` コンストラクターです。
+Here's the `Bird` constructor from the previous challenge:
 
 ```js
 function Bird() {

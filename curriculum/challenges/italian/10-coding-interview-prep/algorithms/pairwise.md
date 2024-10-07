@@ -1,6 +1,6 @@
 ---
 id: a3f503de51cfab748ff001aa
-title: A coppie
+title: Pairwise
 challengeType: 1
 forumTopicId: 301617
 dashedName: pairwise
@@ -8,7 +8,7 @@ dashedName: pairwise
 
 # --description--
 
-Dato un array `arr`, trova coppie di elementi la cui somma è uguale al secondo argomento `arg` e restituisci la somma dei loro indici.
+Given an array `arr`, find element pairs whose sum equal the second argument `arg` and return the sum of their indices.
 
 È possibile utilizzare più coppie che hanno gli stessi elementi numerici ma indici diversi. Ogni coppia dovrebbe utilizzare i più bassi indici disponibili. Una volta che un elemento è stato usato, non può essere riutilizzato per accoppiarsi con un altro elemento. Per esempio, `pairwise([1, 1, 2], 3)` crea una coppia `[2, 1]` usando l’1 all’indice 0 piuttosto che l’1 all’indice 1, perché 0+2 &lt; 1+2.
 

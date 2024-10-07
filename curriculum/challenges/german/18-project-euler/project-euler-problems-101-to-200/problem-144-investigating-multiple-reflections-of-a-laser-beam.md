@@ -27,7 +27,7 @@ In der Abbildung links zeigt die rote Linie die ersten beiden Berührungspunkte 
 
 Die Steigung m der Tangente an einem beliebigen Punkt (x, y) der gegebenen Ellipse ist: $m = -4 × \frac{x}{y}$
 
-The normal line is perpendicular to this tangent line at the point of incidence.
+Die Normale steht im Einfallspunkt senkrecht auf dieser Tangente.
 
 Die Animation auf der rechten Seite zeigt die ersten 10 Reflexionen des Strahls.
 

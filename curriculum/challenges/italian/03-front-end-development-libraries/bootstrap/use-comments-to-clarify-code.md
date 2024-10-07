@@ -8,7 +8,7 @@ dashedName: use-comments-to-clarify-code
 
 # --description--
 
-Quando inizieremo a usare jQuery, modificheremo gli elementi HTML senza doverli cambiare effettivamente usando l'HTML.
+When we start using jQuery, we will modify HTML elements without needing to actually change them in HTML.
 
 Facciamo in modo che tutti sappiano che non dovrebbero modificare niente di questo codice in modo diretto.
 

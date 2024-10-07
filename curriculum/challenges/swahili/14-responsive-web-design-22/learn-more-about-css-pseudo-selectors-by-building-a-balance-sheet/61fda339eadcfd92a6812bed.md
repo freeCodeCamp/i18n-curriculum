@@ -7,7 +7,7 @@ dashedName: step-30
 
 # --description--
 
-Kabla ya kufika mbali sana katika mtindo wako, unapaswa kutumia darasa la `sr-only`. Unaweza kutumia CSS kutengeneza vipengee vilivyo na darasa hili kufichwa kabisa kutoka kwa ukurasa unaoonekana, lakini bado vitangazwe na visoma skrini.
+Before you get too far into your styling, you should make use of the `sr-only` class. You can use CSS to make elements with this class completely hidden from the visual page, but still be announced by screen readers.
 
 CSS unayokaribia kuandika ni seti ya kawaida ya sifa zinazotumiwa kuhakikisha vipengele vimefichwa kabisa kimwonekano.
 

@@ -9,7 +9,7 @@ dashedName: manipulate-arrays-with-shift
 
 # --description--
 
-يزيل `pop()` العنصر الأخير من القائمة دائما. ولكن ماذا لو كنت تريد إزالة الأول؟
+`pop()` always removes the last element of an array. What if you want to remove the first?
 
 هنا يأتي دور `.shift()`. يعمل تماما مثل `.pop()`، ولكنه يزيل (أو يزيح - shift) العنصر الأول بدلا من العنصر الأخير.
 

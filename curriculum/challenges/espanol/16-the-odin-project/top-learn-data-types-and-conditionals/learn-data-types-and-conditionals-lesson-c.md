@@ -13,9 +13,9 @@ Viendo el ejemplo a continuación, deseas asegurarte de que la palabra `loves` e
 let sentence = "freeCodeCamp loves The Odin Project!";
 ```
 
-<a href="https://www.freecodecamp.org/news/javascript-string-handbook" target="_blank"> Enlace a la guía </a>
+<a href="https://www.freecodecamp.org/news/javascript-string-handbook" target="_blank"> Enlace a guía </a>
 
-# --questions--
+# --preguntas----preguntas--
 
 ## --text--
 

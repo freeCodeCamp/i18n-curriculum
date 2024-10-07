@@ -9,7 +9,7 @@ dashedName: introducing-else-statements
 
 # --description--
 
-عندما يكون شرط العبارة `if` صحيحًا، يتم تنفيذ كتلة التعليمات البرمجية التي تليها. ماذا عن عندما يكون هذا الشرط خطأ؟ عادة لن يحدث شيء. ولكن باستخدام عبارة `else`، يمكن تنفيذ مجموعة مختلفة من الكود.
+When a condition for an `if` statement is true, the block of code following it is executed. What about when that condition is false? Normally nothing would happen. With an `else` statement, an alternate block of code can be executed.
 
 ```js
 if (num > 10) {

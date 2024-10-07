@@ -9,7 +9,7 @@ dashedName: iterate-with-javascript-for-loops
 
 # --description--
 
-يمكنك تشغيل نفس الكود عدة مرات باستخدام حلقة.
+You can run the same code multiple times by using a loop.
 
 النوع الأكثر شيوعاً من حلقة JavaScript يسمى حلقة `for` لأنه يعمل لعدد محدد من المرات.
 

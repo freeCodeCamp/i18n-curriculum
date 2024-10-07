@@ -9,7 +9,7 @@ dashedName: use-the-css-transform-property-skewy-to-skew-an-element-along-the-y-
 
 # --description--
 
-Зважаючи на те, що функція `skewX()` переносить вибраний елемент вздовж вісі Х на заданий градус, не дивно, що властивість `skewY()` переносить елемент вздовж вісі Y (по вертикалі).
+Given that the `skewX()` function skews the selected element along the X-axis by a given degree, it is no surprise that the `skewY()` property skews an element along the Y (vertical) axis.
 
 # --instructions--
 

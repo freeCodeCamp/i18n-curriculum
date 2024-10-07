@@ -9,7 +9,7 @@ dashedName: use-the-align-self-property
 
 # --description--
 
-flex 子项目的最后一个属性是 `align-self`。 这个属性允许你调整单个子元素自己的对齐方式，而不会影响到全部子元素。 因为 `float`、`clear` 和 `vertical-align` 等调整对齐方式的属性都不能应用于 flex 子元素，所以这个属性显得十分有用。
+The final property for flex items is `align-self`. This property allows you to adjust each item's alignment individually, instead of setting them all at once. This is useful since other common adjustment techniques using the CSS properties `float`, `clear`, and `vertical-align` do not work on flex items.
 
 `align-self` 可设置的值与 `align-items` 的一样，并且它会覆盖 `align-items` 所设置的值。
 

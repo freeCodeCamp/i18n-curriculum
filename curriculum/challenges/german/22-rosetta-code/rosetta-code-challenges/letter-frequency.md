@@ -8,7 +8,7 @@ dashedName: letter-frequency
 
 # --description--
 
-Given a string, calculate the frequency of each character.
+Berechne bei einer Zeichenkette die Häufigkeit der einzelnen Zeichen.
 
 Alle Zeichen sollten gezählt werden. Dazu gehören Klein- und Großbuchstaben, Ziffern, Leerzeichen, Sonderzeichen oder andere eindeutige Zeichen.
 

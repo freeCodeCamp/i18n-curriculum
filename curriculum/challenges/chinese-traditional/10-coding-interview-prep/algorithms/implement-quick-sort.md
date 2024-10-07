@@ -8,7 +8,7 @@ dashedName: implement-quick-sort
 
 # --description--
 
-在這裏，我們將繼續討論中間排序算法：快速排序。 快速排序是對數組進行排序的一種有效的，遞歸的分而治之的方法。 在此方法中，在原始數組中選擇一個樞軸值。 然後將該數組分成兩個小於和大於數值的子數組。 然後，我們在兩個子陣列上結合遞歸調用快速排序算法的結果。 這一直持續到達到空或單項數組的基本情況，我們返回。 遞歸調用的展開將返回已排序的數組。
+Here we will move on to an intermediate sorting algorithm: quick sort. Quick sort is an efficient, recursive divide-and-conquer approach to sorting an array. In this method, a pivot value is chosen in the original array. The array is then partitioned into two subarrays of values less than and greater than the pivot value. We then combine the result of recursively calling the quick sort algorithm on both sub-arrays. This continues until the base case of an empty or single-item array is reached, which we return. The unwinding of the recursive calls return us the sorted array.
 
 快速排序是一種非常有效的排序方法，平均提供 *O(nlog(n))* 的性能。 它也相對容易實現。 這些屬性使其成爲一種流行且有用的排序方法。
 

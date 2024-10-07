@@ -9,7 +9,7 @@ dashedName: global-scope-and-functions
 
 # --description--
 
-في JavaScript، يشير <dfn>النطاق</dfn> إلى ظهور المتغيرات. يكون إلى المتغيرات التي تم تعريفها خارج الوظيفة مجال <dfn>شامل</dfn> (Global scope). وهذا يعني أنه يمكن رؤيتها في كل مكان في التعليمات البرمجية JavaScript الخاص بك.
+In JavaScript, <dfn>scope</dfn> refers to the visibility of variables. Variables which are defined outside of a function block have <dfn>Global</dfn> scope. This means, they can be seen everywhere in your JavaScript code.
 
 تكون المتغيرات التي أعلنت دون إستخدام المصطلحات `let` أو `const` تنشئ تلقائيًا في مجال شامل `global`. و هذا يمكن أن يؤدي إلى عواقب غير مقصودة في مكان آخر من الكود الخاص بك أو عند تشغيل الوظيفة مرة أخرى. يجب عليك دائماً إعلان متغيراتك باستخدام `let` أو `const`.
 

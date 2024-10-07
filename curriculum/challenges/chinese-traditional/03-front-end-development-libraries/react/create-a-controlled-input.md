@@ -8,7 +8,7 @@ dashedName: create-a-controlled-input
 
 # --description--
 
-應用程序可能在 `state` 和渲染的 UI 之間有更復雜的交互。 例如，用於文本輸入的表單控件元素（如 `input` 和 `textarea`）在用戶鍵入時在 DOM 中維護自己的 state。 通過 React，可以將這種可變 state 轉移到 React 組件的 `state` 中。 用戶的輸入變成了應用程序 `state` 的一部分，因此 React 控制該輸入字段的值。 通常，如果 React 組件具有用戶可以鍵入的輸入字段，那麼它將是一個受控的輸入表單。
+Your application may have more complex interactions between `state` and the rendered UI. For example, form control elements for text input, such as `input` and `textarea`, maintain their own state in the DOM as the user types. With React, you can move this mutable state into a React component's `state`. The user's input becomes part of the application `state`, so React controls the value of that input field. Typically, if you have React components with input fields the user can type into, it will be a controlled input form.
 
 # --instructions--
 

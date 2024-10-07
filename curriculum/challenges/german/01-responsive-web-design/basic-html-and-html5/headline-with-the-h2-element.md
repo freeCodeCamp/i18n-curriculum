@@ -9,7 +9,7 @@ dashedName: headline-with-the-h2-element
 
 # --description--
 
-In den nächsten Lektionen werden wir eine HTML5 Katzenfoto-Web-App Stück für Stück erstellen.
+Over the next few lessons, we'll build an HTML5 cat photo web app piece-by-piece.
 
 Das `h2`-Element, das du in diesem Schritt hinzufügst, wird der Webseite eine Überschrift der zweiten Ebene hinzufügen.
 

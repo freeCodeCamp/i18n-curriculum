@@ -9,7 +9,7 @@ dashedName: align-an-item-vertically-using-align-self
 
 # --description--
 
-아이템을 수평 정렬할 수 있는 것처럼 수직 정렬할 수 있는 방법도 있습니다. 이를 위해 한 개의 아이템에 `align-self` 속성을 사용하면 됩니다. 이 속성은 이전 과제에서 살펴본 `justify-self`와 같은 값들을 받습니다.
+Just as you can align an item horizontally, there's a way to align an item vertically as well. To do this, you use the `align-self` property on an item. This property accepts all of the same values as `justify-self` from the last challenge.
 
 # --instructions--
 

@@ -8,7 +8,7 @@ dashedName: match-anything-with-wildcard-period
 
 # --description--
 
-Іноді ви не знатимете (або вам не потрібно знати) символи шаблонів. Обмірковування усіх слів, які відповідають, скажімо, орфографічній помилці, займе багато часу. На щастя, ви можете заощадити час, використавши байдужий символ: `.`
+Sometimes you won't (or don't need to) know the exact characters in your patterns. Thinking of all words that match, say, a misspelling would take a long time. Luckily, you can save time using the wildcard character: `.`
 
 Байдужий символ `.` збігається з будь-яким одним символом. Байдужий символ також називають крапкою (англ. `dot` та `period`). Цей байдужий символ використовують як і будь-який інший символ у регулярному виразі. Наприклад, якщо ви хочете знайти збіги `hug`, `huh`, `hut` та `hum`, то використайте регулярний вираз `/hu./` для усіх чотирьох слів.
 

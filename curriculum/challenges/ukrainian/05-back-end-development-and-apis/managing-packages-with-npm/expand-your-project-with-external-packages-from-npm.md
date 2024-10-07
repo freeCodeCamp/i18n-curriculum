@@ -28,7 +28,7 @@ dashedName: expand-your-project-with-external-packages-from-npm
 
 # --hints--
 
-`"dependencies"` має містити `"@freecodecamp/example"`.
+`"dependencies"` повинні містити `"@freecodecamp/example"`.
 
 ```js
 (getUserInput) =>

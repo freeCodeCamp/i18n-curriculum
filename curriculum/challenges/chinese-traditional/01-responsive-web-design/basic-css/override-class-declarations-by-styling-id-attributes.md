@@ -9,7 +9,7 @@ dashedName: override-class-declarations-by-styling-id-attributes
 
 # --description--
 
-我們剛剛證明了瀏覽器讀取 CSS 是由上到下的。 這就意味着，如果發生衝突，瀏覽器將會應用最後聲明的樣式。 注意，如果我們在 `h1` 元素的類中，將 `blue-text` 放置在 `pink-text` 之前，它仍然會檢查聲明順序，而不是使用順序！
+We just proved that browsers read CSS from top to bottom in order of their declaration. That means that, in the event of a conflict, the browser will use whichever CSS declaration came last. Notice that if we even had put `blue-text` before `pink-text` in our `h1` element's classes, it would still look at the declaration order and not the order of their use!
 
 但我們還沒有完成。 其實還有其他方法可以覆蓋 CSS 樣式。 你還記得 id 屬性嗎？
 
@@ -37,7 +37,7 @@ dashedName: override-class-declarations-by-styling-id-attributes
 
 # --hints--
 
-`h1` 元素的應有一個 class 爲 `pink-text`。
+`h1` 元素應包含 `pink-text` class。
 
 ```js
 assert($('h1').hasClass('pink-text'));

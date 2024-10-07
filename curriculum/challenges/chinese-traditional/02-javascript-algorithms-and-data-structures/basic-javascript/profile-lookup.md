@@ -9,7 +9,7 @@ dashedName: profile-lookup
 
 # --description--
 
-我們有一個對象數組，裏面存儲着通訊錄。
+We have an array of objects representing different people in our contacts lists.
 
 `lookUpProfile` 函數已經寫好了參數，需要 `name` 和屬性 (`prop`) 參數。
 

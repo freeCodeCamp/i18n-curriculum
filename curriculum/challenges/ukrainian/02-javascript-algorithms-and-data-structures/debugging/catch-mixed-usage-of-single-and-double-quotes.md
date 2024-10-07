@@ -8,7 +8,7 @@ dashedName: catch-mixed-usage-of-single-and-double-quotes
 
 # --description--
 
-JavaScript дозволяє використання одинарних (`'`) і подвійних (`"`) лапок, щоб оголосити рядок. Вибір між ними залежить від особистих уподобань, проте існують і певні винятки.
+JavaScript allows the use of both single (`'`) and double (`"`) quotes to declare a string. Deciding which one to use generally comes down to personal preference, with some exceptions.
 
 Чудово мати два варіанти, якщо у рядку наявні скорочення або інша частина тексту в лапках. Лише будьте уважними, аби не закрити рядок занадто рано, що може призвести до помилки в синтаксисі.
 

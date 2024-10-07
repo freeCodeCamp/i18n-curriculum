@@ -7,7 +7,7 @@ dashedName: step-30
 
 # --description--
 
-قبل أن تتقدم من اللازم في تصميمك، يجب عليك استخدام فئة `sr-only`. يمكنك استخدام CSS لجعل العناصر بواسطة الفئة مخفي تماماً من الصفحة البصرية، ولكن لا يزال يتم الإعلان عنها من قبل قراء الشاشة.
+Before you get too far into your styling, you should make use of the `sr-only` class. You can use CSS to make elements with this class completely hidden from the visual page, but still be announced by screen readers.
 
 CSS الذي توشك في كتابته هو مجموعة شائعة من الخصائص المستخدمة للتأكد من أن العناصر مخفية بصرياً تماماً.
 

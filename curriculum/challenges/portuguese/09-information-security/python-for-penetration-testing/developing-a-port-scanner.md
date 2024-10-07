@@ -14,7 +14,7 @@ dashedName: developing-a-port-scanner
 
 ## --text--
 
-Qual é a principal diferença entre os métodos `.connect()` e `.connect_ex()`?
+What is the main difference between the `.connect()` and `.connect_ex()` methods?
 
 ## --answers--
 

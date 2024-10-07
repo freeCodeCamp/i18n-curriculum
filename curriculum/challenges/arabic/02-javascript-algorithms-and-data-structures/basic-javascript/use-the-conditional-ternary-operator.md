@@ -8,9 +8,9 @@ dashedName: use-the-conditional-ternary-operator
 
 # --description--
 
-<dfn>conditional operator (المشغل الشرطي)</dfn>، الذي يسمى أيضًا <dfn>ternary operator (المشغل الثلاثي)</dfn>، يمكن استخدامه كبديل من if-else مكون من سطر واحد.
+The <dfn>conditional operator</dfn>, also called the <dfn>ternary operator</dfn>, can be used as a one line if-else expression.
 
-يكون تركيب الجملة كذلك `a ? b : c`، حيث `a` هو الشرط، ويكون `b` الكود المراد تشغيله عندما يرجع الشرط `true`، ويكون `c` الكود المراد تشغيله عندما يرجع الشرط `false`.
+The syntax is `a ? b : c`, where `a` is the condition, `b` is the code to run when the condition returns `true`, and `c` is the code to run when the condition returns `false`.
 
 الوظيفة التالية تستخدم تعبير `if/else` للتحقق من شرط:
 

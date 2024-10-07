@@ -8,7 +8,7 @@ dashedName: add-images-to-your-website
 
 # --description--
 
-`img` 要素を使用し、特定の画像に対するURLを `src` 属性で指定することで、ウェブサイトに画像を追加することができます。
+You can add images to your website by using the `img` element, and point to a specific image's URL using the `src` attribute.
 
 この例は次のとおりです:
 

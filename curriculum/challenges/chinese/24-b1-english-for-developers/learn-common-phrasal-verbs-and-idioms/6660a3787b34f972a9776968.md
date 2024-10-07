@@ -7,11 +7,11 @@ dashedName: dialogue-1-im-tom
 
 # --description--
 
-Watch the video below to understand the context of the upcoming lessons.
+观看下面的视频，以了解接下来课程的背景。
 
-# --assignment--
+# --作业--
 
-Watch the video
+观看视频
 
 # --scene--
 

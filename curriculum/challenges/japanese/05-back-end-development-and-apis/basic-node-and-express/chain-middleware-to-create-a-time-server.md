@@ -8,7 +8,7 @@ dashedName: chain-middleware-to-create-a-time-server
 
 # --description--
 
-`app.METHOD(path, middlewareFunction)` を使用して、ミドルウェアを特定のルートにマウントすることができます。 ミドルウェアをルート定義の中でチェーンすることもできます。
+Middleware can be mounted at a specific route using `app.METHOD(path, middlewareFunction)`. Middleware can also be chained within a route definition.
 
 以下の例を見てください。
 

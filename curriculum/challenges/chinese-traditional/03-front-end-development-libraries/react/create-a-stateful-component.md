@@ -8,7 +8,7 @@ dashedName: create-a-stateful-component
 
 # --description--
 
-React 中最重要的主題之一是 `state`。 state 包含應用程序需要了解的任何數據，這些數據可能會隨時間而變化。 應用程序能夠響應 state 的變更，並在必要時顯示更新後的 UI。 React 爲現代 Web 應用程序的狀態管理提供了一個很好的解決方案。
+One of the most important topics in React is `state`. State consists of any data your application needs to know about, that can change over time. You want your apps to respond to state changes and present an updated UI when necessary. React offers a nice solution for the state management of modern web applications.
 
 可以在類組件的 `constructor` 上聲明 `state` 屬性來在 React 組件中創建 state， 它在創建時使用 `state` 初始化組件。 `state` 屬性必須設置爲 JavaScript `object`（對象）。 聲明如下：
 

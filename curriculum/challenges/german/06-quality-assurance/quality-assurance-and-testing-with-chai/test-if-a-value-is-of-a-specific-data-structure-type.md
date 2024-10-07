@@ -1,6 +1,6 @@
 ---
 id: 587d824e367417b2b2512c56
-title: Test if a Value is of a Specific Data Structure Type
+title: Prüfen, ob ein Wert von einem bestimmten Datenstrukturtyp ist
 challengeType: 2
 forumTopicId: 301601
 dashedName: test-if-a-value-is-of-a-specific-data-structure-type
@@ -10,15 +10,15 @@ dashedName: test-if-a-value-is-of-a-specific-data-structure-type
 
 As a reminder, this project is being built upon the following starter project on <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>, or cloned from <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
 
-`#typeOf` asserts that value's type is the given string, as determined by `Object.prototype.toString`.
+`#typeOf` stellt fest, dass der Typ des Werts der angegebene String ist, wie durch `Object.prototype.toString` bestimmt.
 
 # --instructions--
 
-Within `tests/1_unit-tests.js` under the test labeled `#17` in the `Objects` suite, change each `assert` to either `assert.typeOf` or `assert.notTypeOf` to make the test pass (should evaluate to `true`). Die an die Asserts übergebenen Argumente dürfen nicht verändert werden.
+Ändere innerhalb `tests/1_unit-tests.js` unter dem Test mit der Beschriftung `#17` in der `Objects`-Suite, jeden `assert` in `assert.typeOf` oder `assert.notTypeOf` um, damit der Test bestanden wird (sollte `true` ausgeben). Ändere nicht die Argumente, die an die Assertions übergeben werden.
 
 # --hints--
 
-Alle Tests sollten bestanden werden.
+Alle Tests sollten bestehen.
 
 ```js
 (getUserInput) =>

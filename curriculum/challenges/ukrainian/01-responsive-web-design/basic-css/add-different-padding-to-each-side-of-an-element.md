@@ -9,7 +9,7 @@ dashedName: add-different-padding-to-each-side-of-an-element
 
 # --description--
 
-Іноді елемент потрібно встановити так, щоб значення `padding` були різними для кожної сторони.
+Sometimes you will want to customize an element so that it has different amounts of `padding` on each of its sides.
 
 CSS дозволяє контролювати `padding` усіх чотирьох сторін за допомогою властивостей `padding-top`, `padding-right`, `padding-bottom` та `padding-left`.
 

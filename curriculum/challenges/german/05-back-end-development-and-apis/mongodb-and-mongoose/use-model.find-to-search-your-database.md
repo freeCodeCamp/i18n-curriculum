@@ -8,7 +8,7 @@ dashedName: use-model-find-to-search-your-database
 
 # --description--
 
-In seiner einfachsten Form akzeptiert `Model.find()` ein Query-Dokument (ein JSON-Objekt) als erstes Argument, dann einen Callback. Zurückgegeben wird hier ein Array an Treffern. Die Funktion unterstützt eine Vielzahl an Suchoptionen. Mehr dazu in der Dokumentation.
+In its simplest usage, `Model.find()` accepts a query document (a JSON object) as the first argument, then a callback. It returns an array of matches. It supports an extremely wide range of search options. Read more in the docs.
 
 # --instructions--
 

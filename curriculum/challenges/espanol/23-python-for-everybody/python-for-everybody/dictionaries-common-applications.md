@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: dictionaries-common-applications
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-What will the following code print?
+¿Qué imprimirá el siguiente código?
 
 ```python
 counts = { 'quincy' : 1 , 'mrugesh' : 42, 'beau': 100, '0': 10}

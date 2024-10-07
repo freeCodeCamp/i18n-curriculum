@@ -28,7 +28,7 @@ var result = bcrypt.compareSync(myPlaintextPassword, hash);
 
 请添加这个方法，并把结果输出到控制台，以此来验证同步哈希操作是否成功。
 
-请在完成挑战后提交你的页面。
+当你认为你已经得到了它的权利时，提交你的页面。
 
 # --hints--
 

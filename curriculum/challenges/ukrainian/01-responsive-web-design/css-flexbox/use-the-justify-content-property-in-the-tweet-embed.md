@@ -9,7 +9,7 @@ dashedName: use-the-justify-content-property-in-the-tweet-embed
 
 # --description--
 
-Останній запит показав приклад властивості `justify-content`. Ця властивість може застосовуватись для вирівнювання об'єктів у елементі `.profile-name` для додавання коментаря.
+The last challenge showed an example of the `justify-content` property. For the tweet embed, this property can be applied to align the items in the `.profile-name` element.
 
 # --instructions--
 
@@ -17,7 +17,7 @@ dashedName: use-the-justify-content-property-in-the-tweet-embed
 
 # --hints--
 
-Ваш `.follow-btn` код повинен відображатися на сторінці. Переконайтеся, що такі розширення, як блокувальники реклами, вимкнено.
+Ваш `.follow-btn` має відображатися на сторінці. Переконайтеся, що такі розширення, як блокувальники реклами, вимкнено.
 
 ```js
 assert($('.follow-btn').length > 0 && $('.follow-btn').css('display') !== 'none');

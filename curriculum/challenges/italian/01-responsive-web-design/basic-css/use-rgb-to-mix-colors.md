@@ -9,13 +9,13 @@ dashedName: use-rgb-to-mix-colors
 
 # --description--
 
-Proprio come con il codice esadecimale, puoi mescolare i colori in RGB utilizzando combinazioni di valori diversi.
+Just like with hex code, you can mix colors in RGB by using combinations of different values.
 
 # --instructions--
 
 Sostituisci i codici esadecimali nel nostro elemento `style` con i loro valori RGB corretti.
 
-<table><tbody><tr><th>Colore</th><th>RGB</th></tr><tr><td>Blu</td><td><code>rgb(0, 0, 255)</code></td></tr><tr><td>Rosso</td><td><code>rgb(255, 0, 0)</code></td></tr><tr><td>Orchidea</td><td><code>rgb(218, 112, 214)</code></td></tr><tr><td>Siena</td><td><code>rgb(160, 82, 45)</code></td></tr></tbody></table>
+<table><tbody><tr><th>Color</th><th>RGB</th></tr><tr><td>Blue</td><td><code>rgb(0, 0, 255)</code></td></tr><tr><td>Red</td><td><code>rgb(255, 0, 0)</code></td></tr><tr><td>Orchid</td><td><code>rgb(218, 112, 214)</code></td></tr><tr><td>Sienna</td><td><code>rgb(160, 82, 45)</code></td></tr></tbody></table>
 
 # --hints--
 

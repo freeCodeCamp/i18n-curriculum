@@ -9,7 +9,7 @@ dashedName: align-all-items-vertically-using-align-items
 
 # --description--
 
-Використовуючи властивість `align-items` для grid-контейнера можна задати вертикальне вирівнювання для всіх елементів нашої таблиці.
+Using the `align-items` property on a grid container will set the vertical alignment for all the items in our grid.
 
 # --instructions--
 

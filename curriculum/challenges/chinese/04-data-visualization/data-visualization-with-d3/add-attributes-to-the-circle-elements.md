@@ -8,7 +8,7 @@ dashedName: add-attributes-to-the-circle-elements
 
 # --description--
 
-上个挑战为 `dataset` 中的每个点都创建了 `circle` 元素，并将它们添加到 SVG 上。 但是 D3 需要更多关于位置和 `circle` 大小的信息来正确地显示它们。
+The last challenge created the `circle` elements for each point in the `dataset`, and appended them to the SVG. But D3 needs more information about the position and size of each `circle` to display them correctly.
 
 在 SVG 中 `circle` 有三个主要的属性。 `cx` 和 `cy` 属性是坐标。 它们告诉 D3 将图形的*中心*放在 SVG 的何处。 半径（ `r` 属性）给出 `circle` 的大小。
 
@@ -22,7 +22,7 @@ dashedName: add-attributes-to-the-circle-elements
 
 # --hints--
 
-你应该有 10 个 `circle` 元素。
+应该有 10 个 `circle` 元素。
 
 ```js
 assert($('circle').length == 10);

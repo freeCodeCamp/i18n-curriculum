@@ -9,7 +9,7 @@ dashedName: use-the-css-transform-property-skewx-to-skew-an-element-along-the-x-
 
 # --description--
 
-`skewX()` — ще одна функція властивості `transform`, яка переносить обраний елемент по власній вісі Х (горизонтальній) на задану кількість градусів.
+The next function of the `transform` property is `skewX()`, which skews the selected element along its X (horizontal) axis by a given degree.
 
 Даний код пересуває абзац на -32 градуси по вісі Х.
 

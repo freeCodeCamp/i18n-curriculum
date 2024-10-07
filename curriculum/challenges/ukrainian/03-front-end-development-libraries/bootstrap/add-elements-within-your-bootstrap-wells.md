@@ -8,7 +8,7 @@ dashedName: add-elements-within-your-bootstrap-wells
 
 # --description--
 
-Зараз у кожному стовпці ряду є декілька елементів `div`. Саме те, що треба для наступної дії. Тепер можемо додати елементи `button`.
+Now we're several `div` elements deep on each column of our row. This is as deep as we'll need to go. Now we can add our `button` elements.
 
 Вкладіть три елементи `button` в межах кожного елемента `div` з класом `well`.
 
@@ -32,7 +32,7 @@ assert.lengthOf(buttonTwoChildren,3);
 assert.lengthOf(document.querySelectorAll('button'), 6);
 ```
 
-Усі елементи `button` повинні мати кінцеві теги.
+Усі елементи `button` повинні містити кінцеві теґи.
 
 ```js
 assert.match(code,/<\/button>/g);

@@ -1,6 +1,6 @@
 ---
 id: 5e8f2f13c4cdbe86b5c72da4
-title: 'Reinforcement Learning With Q-Learning: Part 2'
+title: 'Bestärkendes Lernen mit Q-Learning: Teil 2'
 challengeType: 11
 videoId: DX7hJuaUZ7o
 bilibiliIds:
@@ -18,11 +18,11 @@ What can happen if the agent does not have a good balance of taking random actio
 
 ## --answers--
 
-The agent will always try to minimize its reward for the current state/action, leading to local minima.
+Der Vermittler wird immer versuchen, seine Belohnung für den aktuellen Zustand/die aktuelle Handlung zu minimieren, was zu den lokalen Minimum führt.
 
 ---
 
-The agent will always try to maximize its reward for the current state/action, leading to local maxima.
+Der Vermittler wird immer versuchen, seine Belohnung für den aktuellen Zustand/die aktuelle Handlung zu maximieren, was zu lokalen Maximum führt.
 
 ## --video-solution--
 

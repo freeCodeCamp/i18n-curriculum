@@ -9,7 +9,7 @@ dashedName: improve-readability-with-high-contrast-text
 
 # --description--
 
-Низький контраст між кольорами тексту та фону може ускладнити читання тексту. Достатня контрастність покращує читабельність вмісту, але що саме означає "достатня"?
+Low contrast between the foreground and background colors can make text difficult to read. Sufficient contrast improves your content's readability, but what exactly does "sufficient" mean?
 
 В рекомендаціях Web Content Accessibility Guidelines (WCAG) пропонується виставляти коефіцієнт контрастності від 4.5 до 1 для звичайного тексту. Коефіцієнт вираховується шляхом порівняння відносної яскравості двох кольорів. Співвідношення варіюється від 1:1 для одного й того ж кольору (без контрасту) до 21:1 для білого на фоні чорного (найбільший контраст). Існує багато онлайн-засобів, які перевіряють контрастність та розраховують для вас цей коефіцієнт.
 

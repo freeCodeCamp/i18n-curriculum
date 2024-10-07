@@ -9,7 +9,7 @@ dashedName: count-backwards-with-a-for-loop
 
 # --description--
 
-يمكن لحلقة التكرارية (for loop) أن تعد للوراء أيضا، مادام تستطيع تحديد الشروط الصحيحة.
+A for loop can also count backwards, so long as we can define the right conditions.
 
 من أجل التراجع بمقدار اثنين في كل دورة (iteration)، سنحتاج إلى تغيير البادئ (initialization) و الشرط (condition) و التعبير الأخير (final expression).
 

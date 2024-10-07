@@ -9,7 +9,7 @@ dashedName: use-the-flex-direction-property-to-make-a-column
 
 # --description--
 
-Os últimos dois desafios usaram a propriedade `flex-direction` com o valor de `row`. Esta propriedade também pode criar uma coluna ao empilhar verticalmente os elementos filhos de um flex container.
+The last two challenges used the `flex-direction` property set to `row`. This property can also create a column by vertically stacking the children of a flex container.
 
 # --instructions--
 

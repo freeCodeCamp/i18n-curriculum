@@ -11,9 +11,9 @@ dashedName: port-scanner
 
 You will be <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-port-scanner" target="_blank" rel="noopener noreferrer nofollow">working on this project with our Gitpod starter code</a>.
 
-Wir sind noch dabei, den interaktiven Teil des Python-Kurses zu entwickeln. Hier sind einige Videos auf dem freeCodeCamp.org YouTube-Kanal, die dir alles beibringen, was du wissen musst, um dieses Projekt abzuschließen:
+Wir sind noch dabei, den interaktiven Teil des Python-Lehrplans zu entwickeln. Zurzeit kannst du dir lediglich einige Videos auf unserem YouTube-Channel für freeCodeCamp.org ansehen – diese bringen dir alles bei, was du wissen musst, um dieses Projekt abzuschließen:
 
-- <a href="https://www.freecodecamp.org/news/python-for-everybody/" target="_blank" rel="noopener noreferrer nofollow">Videokurs: Python für jedermann</a> (14 Stunden)
+- <a href="https://www.freecodecamp.org/news/python-for-everybody/" target="_blank" rel="noopener noreferrer nofollow">Python for Everybody Video Course</a> (14 hours)
 
 - <a href="https://www.freecodecamp.org/news/learn-python-basics-in-depth-video-course/" target="_blank" rel="noopener noreferrer nofollow">Lerne ausführlich die Python-Grundlagen </a> (4 Stunden)
 
@@ -36,7 +36,7 @@ Die Funktion sollte eine Liste der offenen Ports im angegebenen Bereich übermit
 
 Die `get_open_ports` Funktion sollte auch ein optionales drittes Argument von `True` verwenden, um den "Verbose"-Modus anzuzeigen. Wenn diese Option auf true gesetzt ist, sollte die Funktion einen beschreibenden String anstelle einer Liste von Ports zurückgeben.
 
-Here is the format of the string that should be returned in verbose mode (text inside `{}` indicates the information that should appear):
+Hier ist das Format der Strings, die im Verbose-Modus übermittelt werden sollen (Text innerhalb von `{}` zeigt die Informationen an, die erscheinen sollen):
 
 ```bash
 Open ports for {URL} ({IP address})
@@ -64,19 +64,19 @@ PORT     SERVICE
 
 Achte auf einen korrekten Zeilenabstand und neue Zeilenzeichen.
 
-If the URL passed into the `get_open_ports` function is invalid, the function should return the string: "Error: Invalid hostname".
+Wenn die an die `get_open_ports`-Funktion übergebene URL ungültig ist, sollte die Funktion folgenden String zurückgeben: "Error: Ungültiger Hostname".
 
-If the IP address passed into the `get_open_ports` function is invalid, the function should return the string: "Error:  Invalid IP address".
+Wenn die IP-Adresse, die der `get_open_ports`-Funktion übergeben wird, ungültig ist, sollte die Funktion folgenden String zurückgeben: "Error:  Ungültige IP-Adresse".
 
-## Entwicklung
+## Development
 
 Schreibe deinen Code in `port_scanner.py`. Für die Entwicklung kannst du `main.py` verwenden, um deinen Code zu testen.
 
-## Testen
+## Prüfung
 
-The unit tests for this project are in `test_module.py`. We imported the tests from `test_module.py` to `main.py` for your convenience.
+Die Einheitstests für dieses Projekt befinden sich in `test_module.py`. Wir haben die Tests von `test_module.py` zu `main.py` bereits für dich importiert.
 
-## Submitting
+## Einreichung
 
 Kopiere die URL deines Projekts und übermittle sie an freeCodeCamp.
 

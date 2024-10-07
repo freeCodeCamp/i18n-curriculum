@@ -9,7 +9,7 @@ dashedName: improve-chart-accessibility-with-the-figure-element
 
 # --description--
 
-HTML5 引入了 `figure` 標籤以及與之相關的 `figcaption` 標籤。 它們一起用於展示可視化信息（如：圖片、圖表）及其標題。 這樣通過語義化對內容進行分組並配以用於解釋 `figure` 的文字，可以極大地提升內容的可訪問性。
+HTML5 introduced the `figure` element and the related `figcaption`. Used together, these items wrap a visual representation (like an image, diagram, or chart) along with its caption. Wrapping these elements together gives a two-fold accessibility boost by semantically grouping related content and providing a text alternative explaining the `figure`.
 
 對於圖表之類的可視化數據，標題可以爲屏幕閱讀器用戶提供簡要的說明。 但是這裏有一個難點，如何爲屏幕閱讀器用戶展示那些超出屏幕可視範圍（使用 CSS）的表格所表現的圖表數據。
 

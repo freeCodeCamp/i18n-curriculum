@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: convolutional-neural-networks-evaluating-the-model
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-¿Qué **no** es una buena manera de incrementar la precisión de una red neuronal convolucional?
+What is **not** a good way to increase the accuracy of a convolutional neural network?
 
 ## --answers--
 

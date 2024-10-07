@@ -9,7 +9,7 @@ dashedName: introducing-else-if-statements
 
 # --description--
 
-إذا كان لديك شروط متعددة تحتاج التعامل معها، يمكنك استخدام `if` بالإضافة مع `else if` في تسلسل.
+If you have multiple conditions that need to be addressed, you can chain `if` statements together with `else if` statements.
 
 ```js
 if (num > 15) {

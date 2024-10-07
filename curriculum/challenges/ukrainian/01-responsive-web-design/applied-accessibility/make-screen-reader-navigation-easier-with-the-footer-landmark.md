@@ -9,7 +9,7 @@ dashedName: make-screen-reader-navigation-easier-with-the-footer-landmark
 
 # --description--
 
-Елемент `footer`, подібно до `header` і `nav`, має вбудовану функцію областей, яка дозволяє допоміжним пристроям швидко перейти до них. Насамперед вони застосовуються для збереження інформації про авторські права або посилання на пов'язані з ними документи, які зазвичай знаходяться внизу сторінки.
+Similar to `header` and `nav`, the `footer` element has a built-in landmark feature that allows assistive devices to quickly navigate to it. It's primarily used to contain copyright information or links to related documents that usually sit at the bottom of a page.
 
 # --instructions--
 

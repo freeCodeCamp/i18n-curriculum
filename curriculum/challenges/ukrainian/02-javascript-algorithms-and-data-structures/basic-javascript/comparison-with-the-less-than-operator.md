@@ -9,9 +9,9 @@ dashedName: comparison-with-the-less-than-operator
 
 # --description--
 
-Оператор «менше ніж» (`<`) порівнює значення двох чисел. Якщо число ліворуч менше за число праворуч, оператор повертає `true`. В іншому випадку він повертає `false`. Як і оператор «дорівнює», «менше ніж» перетворює типи даних під час порівняння.
+The less than operator (`<`) compares the values of two numbers. If the number to the left is less than the number to the right, it returns `true`. Otherwise, it returns `false`. Like the equality operator, the less than operator converts data types while comparing.
 
-**Приклади**
+**Наприклад:**
 
 ```js
 2   < 5 // true

@@ -8,7 +8,7 @@ dashedName: nest-an-anchor-element-within-a-paragraph
 
 # --description--
 
-Puoi annidare i link all'interno di altri elementi di testo.
+You can nest links within other text elements.
 
 ```html
 <p>

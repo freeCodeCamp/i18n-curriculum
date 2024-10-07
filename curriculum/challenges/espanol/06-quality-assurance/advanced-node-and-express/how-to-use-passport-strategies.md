@@ -8,7 +8,7 @@ dashedName: how-to-use-passport-strategies
 
 # --description--
 
-En el archivo `index.pug` proporcionado, hay un formulario de inicio de sesion. Esta oculto debido al JavaScript en línea `if showLogin` con el formulatio indentado luego de este.
+In the `index.pug` file supplied, there is a login form. It is hidden because of the inline JavaScript `if showLogin` with the form indented after it.
 
 En el `res.render` para esa página, agrega una nueva variable para el objeto `showLogin: true`. Cuando actualices tu página, entonces deberas ver el formulario! Este formulario est configurado para **POST** en `/login`. Así que, aquí es donde tu deberías configurar para aceptar la petición POST y autenticar al usuario.
 
@@ -20,7 +20,7 @@ Si la autenticación es exitosa, el objeto usuario será guardado en `req.user`.
 
 En este punto, si ingresaste un nombre de usuario y contraseña en el formulario, esta debería redirigir a la página inicial `/`, y la consola de tu servidor debería mostrar `'User {USERNAME} attempted to log in.'`, ya que actualmento no podemos iniciar sesión a un usuario que no esta registrado.
 
-Envía tu página cuando creas que esta correcta. Si te encuentras con errores, tu puedes <a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#how-to-use-passport-strategies-7" target="_blank" rel="noopener noreferrer nofollow">comprueba el proyecto realizado hasta este punto</a>.
+Envía tu página cuando crea que lo ha hecho bien. Si te encuentras con errores, tu puedes <a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#how-to-use-passport-strategies-7" target="_blank" rel="noopener noreferrer nofollow">comprueba el proyecto realizado hasta este punto</a>.
 
 # --hints--
 

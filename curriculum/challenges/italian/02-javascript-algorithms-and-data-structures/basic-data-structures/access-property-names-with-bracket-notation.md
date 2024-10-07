@@ -8,7 +8,7 @@ dashedName: access-property-names-with-bracket-notation
 
 # --description--
 
-Nella prima sfida sugli oggetti abbiamo menzionato l'uso della notazione a parentesi come modo per accedere ai valori delle proprietà utilizzando la valutazione di una variabile. Per esempio, immagina che il nostro oggetto `foods` venga utilizzato in un programma per il registratore di cassa di un supermercato. Abbiamo una funzione che imposta `selectedFood` e vogliamo controllare se nel nostro oggetto `foods` è presente quel cibo. Questo potrebbe apparire così:
+In the first object challenge we mentioned the use of bracket notation as a way to access property values using the evaluation of a variable. For instance, imagine that our `foods` object is being used in a program for a supermarket cash register. We have some function that sets the `selectedFood` and we want to check our `foods` object for the presence of that food. This might look like:
 
 ```js
 let selectedFood = getCurrentFood(scannedItem);

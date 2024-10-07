@@ -9,7 +9,7 @@ dashedName: create-a-set-of-checkboxes
 
 # --description--
 
-I moduli usano comunemente delle <dfn>caselle di spunta</dfn> (checkbox) per domande che possono avere più di una risposta.
+Forms commonly use <dfn>checkboxes</dfn> for questions that may have more than one answer.
 
 Le caselle di spunta sono un tipo di `input`.
 

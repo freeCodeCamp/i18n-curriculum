@@ -12,7 +12,7 @@ Suppose there is a hat containing 5 blue balls, 4 red balls, and 2 green balls. 
 
 For this project, you will write a program to determine the approximate probability of drawing certain balls randomly from a hat.
 
-First, create a `Hat` class in `main.py`. The class should take a variable number of arguments that specify the number of balls of each color that are in the hat. For example, a class object could be created in any of these ways:
+Erstelle zunächst eine `Hat` Klasse in `main.py`. The class should take a variable number of arguments that specify the number of balls of each color that are in the hat. For example, a class object could be created in any of these ways:
 
 ```py
 hat1 = Hat(yellow=3, blue=2, green=6)
@@ -24,12 +24,12 @@ A hat will always be created with at least one ball. The arguments passed into t
 
 The `Hat` class should have a `draw` method that accepts an argument indicating the number of balls to draw from the hat. This method should remove balls at random from `contents` and return those balls as a list of strings. The balls should not go back into the hat during the draw, similar to an urn experiment without replacement. If the number of balls to draw exceeds the available quantity, return all the balls.
 
-Next, create an `experiment` function in `main.py` (not inside the `Hat` class). This function should accept the following arguments:
+Erstelle als nächstes eine `experiment`-Funktion in `main.py` (nicht innerhalb der `Hat`-Klasse). This function should accept the following arguments:
 
 - `hat`: A hat object containing balls that should be copied inside the function.
-- `expected_balls`: An object indicating the exact group of balls to attempt to draw from the hat for the experiment. For example, to determine the probability of drawing 2 blue balls and 1 red ball from the hat, set `expected_balls` to `{'blue':2, 'red':1}`.
-- `num_balls_drawn`: The number of balls to draw out of the hat in each experiment.
-- `num_experiments`: The number of experiments to perform. (The more experiments performed, the more accurate the approximate probability will be.)
+- `expected_balls`: Ein Objekt, dass die exakte Gruppe von Kugeln anzeigt, die aus dem Hut gezogen werden sollen. For example, to determine the probability of drawing 2 blue balls and 1 red ball from the hat, set `expected_balls` to `{'blue':2, 'red':1}`.
+- `num_balls_drawn`: Die Anzahl der Kugeln, die in jedem Experiment aus dem Hut gezogen werden sollen.
+- `num_experiments`: Die Anzahl der durchzuführenden Experimente. (Je mehr Experimente durchgeführt werden, desto genauer wird die ungefähre Wahrscheinlichkeit sein.)
 
 The `experiment` function should return a probability.
 
@@ -45,15 +45,15 @@ probability = experiment(hat=hat,
                   num_experiments=2000)
 ```
 
-The output would be something like this:
+Die Ausgabe würde ungefähr so aussehen:
 
 ```bash
 0.356
 ```
 
-Since this is based on random draws, the probability will be slightly different each time the code is run.
+Da dies auf zufälligen Ziehungen basiert, wird die Wahrscheinlichkeit jedes Mal, wenn der Code ausgeführt wird, etwas anders sein.
 
-_Hint: Consider using the modules that are already imported at the top. Do not initialize random seed within the file._
+_Hinweis: Ziehe in Erwägung, die Module, die bereits importiert wurden, zu benutzen. Initialisiere die Zufallsseed nicht innerhalb der Datei._
 
 Note: open the browser console with F12 to see a more verbose output of the tests.
 

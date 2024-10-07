@@ -1,6 +1,6 @@
 ---
 id: 5f46ede1ff8fec5ba656b44c
-title: Step 77
+title: الخطوة 77
 challengeType: 0
 dashedName: step-77
 ---
@@ -11,7 +11,7 @@ Next you are going to be styling the `footer` element. To keep the CSS organized
 
 # --hints--
 
-You should have a CSS comment with the text `FOOTER`.
+يجب أن يكون لديك تعليق CSS مع النص `FOOTER`.
 
 ```js
 assert(code.match(/\/\*\s*FOOTER\s*\*\//i));

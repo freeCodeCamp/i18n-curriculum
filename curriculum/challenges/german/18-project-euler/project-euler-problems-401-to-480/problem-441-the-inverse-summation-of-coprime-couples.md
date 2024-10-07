@@ -1,6 +1,6 @@
 ---
 id: 5900f5261000cf542c510038
-title: 'Problem 441: The inverse summation of coprime couples'
+title: 'Problem 441: Die umgekehrte Summierung von koprimalen Paaren'
 challengeType: 1
 forumTopicId: 302113
 dashedName: problem-441-the-inverse-summation-of-coprime-couples
@@ -8,21 +8,21 @@ dashedName: problem-441-the-inverse-summation-of-coprime-couples
 
 # --description--
 
-For an integer $M$, we define $R(M)$ as the sum of $\frac{1}{p·q}$ for all the integer pairs $p$ and $q$ which satisfy all of these conditions:
+Für einen Integer $M$ definieren wir $R(M)$ als die Summe von $\frac{1}{p-q}$ für alle ganzzahligen Paare $p$ und $q$, die alle diese Bedingungen erfüllen:
 
 - $1 ≤ p &lt; q ≤ M$
 - $p + q ≥ M$
-- $p$ and $q$ are coprime.
+- $p$ und $q$ sind koprimiert.
 
-We also define $S(N)$ as the sum of $R(i)$ for $2 ≤ i ≤ N$.
+Wir definieren $S(N)$ auch als die Summe von $R(i)$ für $2 ≤ i ≤ N$.
 
-We can verify that $S(2) = R(2) = \frac{1}{2}$, $S(10) ≈ 6.9147$ and $S(100) ≈ 58.2962$.
+Wir können überprüfen, dass $S(2) = R(2) = \frac{1}{2}$, $S(10) ≈ 6,9147$ und $S(100) ≈ 58,2962$.
 
-Find $S({10}^7)$. Give your answer rounded to four decimal places.
+Finde $S({10}^7)$. Gebe deine Antwort auf vier Dezimalstellen gerundet an.
 
 # --hints--
 
-`inverseSummationCoprimeCouples()` should return `5000088.8395`.
+`inverseSummationCoprimeCouples()` sollte `5000088.8395` zurückgeben.
 
 ```js
 assert.strictEqual(inverseSummationCoprimeCouples(), 5000088.8395);

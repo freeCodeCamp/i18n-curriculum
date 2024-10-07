@@ -1,6 +1,6 @@
 ---
 id: 5900f47f1000cf542c50ff91
-title: 'Problem 274: Divisibility Multipliers'
+title: 'Problem 274: Teilbarkeitsmultiplikatoren'
 challengeType: 1
 forumTopicId: 301924
 dashedName: problem-274-divisibility-multipliers
@@ -8,25 +8,25 @@ dashedName: problem-274-divisibility-multipliers
 
 # --description--
 
-For each integer $p > 1$ coprime to 10 there is a positive divisibility multiplier $m &lt; p$ which preserves divisibility by $p$ for the following function on any positive integer, $n$:
+Für jede Integer $p > 1$, die zu 10 koprimiert ist, gibt es einen positiven Teilbarkeitsmultiplikator $m &lt; p$, der die Teilbarkeit durch $p$ für die folgende Funktion auf jeder positiven Integer $n$ bewahrt:
 
 $f(n) = (\text{all but the last digit of} \\; n) + (\text{the last digit of} \\; n) \times m$
 
-That is, if $m$ is the divisibility multiplier for $p$, then $f(n)$ is divisible by $p$ if and only if $n$ is divisible by $p$.
+Das heißt, wenn $m$ der Teilbarkeitsmultiplikator für $p$ ist, dann ist $f(n)$ dann und nur dann durch $p$ teilbar, wenn $n$ durch $p$ teilbar ist.
 
-(When $n$ is much larger than $p$, $f(n)$ will be less than $n$ and repeated application of $f$ provides a multiplicative divisibility test for $p$.)
+(Wenn $n$ viel größer als $p$ ist, wird $f(n)$ kleiner als $n$ sein, und die wiederholte Anwendung von $f$ liefert einen multiplikativen Teilbarkeitstest für $p$)
 
-For example, the divisibility multiplier for 113 is 34.
+Der Teilbarkeitsmultiplikator für 113 ist zum Beispiel 34.
 
-$f(76275) = 7627 + 5 \times 34 = 7797$: 76275 and 7797 are both divisible by 113
+$f(76275) = 7627 + 5 \times 34 = 7797$: 76275 und 7797 sind beide durch 113 teilbar
 
-$f(12345) = 1234 + 5 \times 34 = 1404$: 12345 and 1404 are both not divisible by 113
+$f(12345) = 1234 + 5 \times 34 = 1404$: 12345 und 1404 sind beide durch 113 teilbar
 
-The sum of the divisibility multipliers for the primes that are coprime to 10 and less than 1000 is 39517. Wie lautet die Summe der Teilbarkeitsmultiplikatoren für die Primzahlen, die zu 10 koprimal und kleiner als ${10}^7$ sind?
+Die Summe der Teilbarkeitsmultiplikatoren für die Primzahlen, die zu 10 koprimiert und kleiner als 1000 sind, ist 39517. Wie lautet die Summe der Teilbarkeitsmultiplikatoren für die Primzahlen, die zu 10 koprimal und kleiner als ${10}^7$ sind?
 
 # --hints--
 
-`divisibilityMultipliers()` should return `1601912348822`.
+`divisibilityMultipliers()` sollte `1601912348822` zurückgeben.
 
 ```js
 assert.strictEqual(divisibilityMultipliers(), 1601912348822);

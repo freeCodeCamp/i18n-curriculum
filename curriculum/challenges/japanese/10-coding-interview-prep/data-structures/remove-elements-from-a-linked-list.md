@@ -8,7 +8,7 @@ dashedName: remove-elements-from-a-linked-list
 
 # --description--
 
-リンクリストの実装に不可欠な重要メソッドがもう一つあります。それは `remove` メソッドです。 このメソッドは、削除したい要素を引数として取り、リストを検索して、その要素が含まれているノードを見つけて削除します。
+The next important method that any implementation of a linked list will need is a `remove` method. This method should take the element we want to remove as an argument, and then search the list to find and remove the node that contains that element.
 
 リンクリストからノードを削除するときは、削除によってそのリストの残りを誤って孤立させることがないように常に注意を払うことが重要です。 すべてのノードの `next` プロパティが、リスト内でそれに続くノードを指すということを思い出してください。 例えば、中央の要素を取り除く場合、その要素の前のノードの `next` プロパティから、その中央の要素の `next` プロパティ (リスト内の次のノード！) への接続を確保しなければなりません。
 

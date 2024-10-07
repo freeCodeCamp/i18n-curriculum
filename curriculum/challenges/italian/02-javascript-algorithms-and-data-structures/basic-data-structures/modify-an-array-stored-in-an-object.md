@@ -8,7 +8,7 @@ dashedName: modify-an-array-stored-in-an-object
 
 # --description--
 
-Adesso hai visto tutte le operazioni di base per gli oggetti JavaScript. Puoi aggiungere, modificare e rimuovere coppie chiave-valore, controllare se una proprietà esiste e iterare su tutte le chiavi di un oggetto. Continuando a conoscere JavaScript vedrai applicazioni ancora più versatili degli oggetti. Inoltre, le lezioni di Strutture Dati nella sezione Colloquio di Lavoro per Programmatori del curriculum coprono anche gli oggetti ES6 <dfn>Map</dfn> e <dfn>Set</dfn>, entrambi i quali sono simili a oggetti ordinari, ma forniscono alcune caratteristiche aggiuntive. Ora che hai imparato le basi di array e oggetti, sei pienamente preparato per iniziare ad affrontare problemi più complessi utilizzando JavaScript!
+Now you've seen all the basic operations for JavaScript objects. You can add, modify, and remove key-value pairs, check if keys exist, and iterate over all the keys in an object. As you continue learning JavaScript you will see even more versatile applications of objects. Additionally, the Data Structures lessons located in the Coding Interview Prep section of the curriculum also cover the ES6 <dfn>Map</dfn> and <dfn>Set</dfn> objects, both of which are similar to ordinary objects but provide some additional features. Now that you've learned the basics of arrays and objects, you're fully prepared to begin tackling more complex problems using JavaScript!
 
 # --instructions--
 

@@ -21,7 +21,7 @@ There are several so-called "self-describing" or "self-descriptive" integers.
     <li> 位置 3 的值为 0，并且数字中没有 s； </li>
 </ul>
 
-小于 100,000,000 的自述数字有：1210、2020、21200、3211000、42101000。
+Self-describing numbers &lt; 100,000,000 are: 1210, 2020, 21200, 3211000, 42101000.
 
 # --instructions--
 

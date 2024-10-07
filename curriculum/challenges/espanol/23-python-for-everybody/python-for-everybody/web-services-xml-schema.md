@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: web-services-xml-schema
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-What is XSD?
+¿Qué es XSD?
 
 ## --answers--
 

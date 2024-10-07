@@ -8,7 +8,7 @@ dashedName: create-a-stateless-functional-component
 
 # --description--
 
-I componenti sono il nucleo di React. Tutto in React è un componente e qui imparerai a crearne uno.
+Components are the core of React. Everything in React is a component and here you will learn how to create one.
 
 Ci sono due modi per creare un componente React. Il primo modo è quello di utilizzare una funzione JavaScript. Definendo un componente in questo modo si crea un *componente funzionale senza stato*. Il concetto di stato in un'applicazione sarà affrontato nelle sfide successive. Per ora, pensa a un componente senza stato (stateless) come a uno che può ricevere i dati e farne il rendering, ma non gestisce o tiene traccia delle modifiche a tali dati. (Copriremo il secondo modo per creare un componente React nella prossima sfida.)
 

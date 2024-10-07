@@ -8,7 +8,7 @@ dashedName: render-react-on-the-server-with-rendertostring
 
 # --description--
 
-到目前爲止，已經能夠在客戶端上渲染 React 組件， 一般來說我們都是這麼做的。 然而，在一些用例中，需要在服務器上渲染一個 React 組件。 由於 React 是一個 JavaScript 視圖庫，所以通常使用 Node 讓 JavaScript 運行在服務器上。 事實上，React 提供了一個可用於此目的的 `renderToString()` 方法。
+So far, you have been rendering React components on the client. Normally, this is what you will always do. However, there are some use cases where it makes sense to render a React component on the server. Since React is a JavaScript view library and you can run JavaScript on the server with Node, this is possible. In fact, React provides a `renderToString()` method you can use for this purpose.
 
 有兩個關鍵原因可以解釋爲什麼服務器上的渲染可能會在真實世界的應用程序中使用。 首先，如果不這樣做，當 React 應用程序最初加載到瀏覽器時，它將包含一個代碼量很少的 HTML 文件和一大堆 JavaScript。 這對於搜索引擎來說可能不太理想，因爲它們試圖爲網頁內容生成索引，以便人們可以找到這個應用。 如果在服務器上渲染初始 HTML 標記並將其發送到客戶端，則初始頁面加載的內容包含搜索引擎可以抓取的所有頁面標記。 其次，這創造了更快的初始頁面加載體驗，因爲渲染的 HTML 代碼量要比整個應用程序的 JavaScript 代碼小。 React 仍然能夠識別你的應用並在初始加載後進行管理。
 

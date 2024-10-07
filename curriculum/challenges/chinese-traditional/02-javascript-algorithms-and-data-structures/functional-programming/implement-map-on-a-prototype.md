@@ -8,7 +8,7 @@ dashedName: implement-map-on-a-prototype
 
 # --description--
 
-之前用到了 `Array.prototype.map()` 方法（即 `map()`），通過 `map` 返回一個與調用它的數組長度相同的數組。 只要它的回調函數不改變原始數組，它就不會改變原始數組。
+As you have seen from applying `Array.prototype.map()`, or simply `map()` earlier, the `map` method returns an array of the same length as the one it was called on. It also doesn't alter the original array, as long as its callback function doesn't.
 
 換句話說，`map` 是一個純函數，它的輸出僅取決於輸入的數組和作爲參數傳入的回調函數。 此外，它接收另一個函數作爲它的參數。
 

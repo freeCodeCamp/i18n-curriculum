@@ -9,7 +9,7 @@ dashedName: import-a-google-font
 
 # --description--
 
-Zusätzlich zur Angabe von bekannten Schriftarten, die auf den meisten Betriebssystemen gefunden werden, können wir auch nicht-standardisierte und benutzerdefinierte Web Schriftarten für die Verwendung auf unserer Website angeben. Es gibt viele Quellen für Web-Schriftarten im Internet. In diesem Beispiel konzentrieren wir uns auf die Google Schriftarten Bibliothek.
+In addition to specifying common fonts that are found on most operating systems, we can also specify non-standard, custom web fonts for use on our website. There are many sources for web fonts on the Internet. For this example we will focus on the Google Fonts library.
 
 Google Fonts ist eine kostenlose Bibliothek von Web-Schriftarten, die du in deinem CSS-Code verwenden kannst, indem du auf die URL der Schriftart verweist.
 

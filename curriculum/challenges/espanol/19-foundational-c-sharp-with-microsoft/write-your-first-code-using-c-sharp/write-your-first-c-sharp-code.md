@@ -1,38 +1,38 @@
 ---
 id: 647e239e8acb466c97ccbf05
-title: 'Write Your First C# Code'
+title: 'Escritura de código de C# por primera vez'
 challengeType: 19
 dashedName: write-your-first-c-sharp-code
 ---
 
 # --description--
 
-This challenge will be partially completed on the Microsoft Learn platform. Follow these instructions to complete the challenge:
+Este desafío se completará parcialmente en la plataforma de aprendizaje de Microsoft. Sigue estas instrucciones para completar el desafío:
 
-1. Go to <a href="https://learn.microsoft.com/training/modules/csharp-write-first/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/csharp-write-first/</a> and complete all the tasks in the "Write Your First C# Code" module. This is **required** to earn the "Write Your First Code Using C#" trophy on Microsoft Learn, and qualify for the certification exam.
-1. When you are finished, come back and correctly answer the question below.
+1. Ve a <a href="https://learn.microsoft.com/training/modules/csharp-write-first/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/csharp-write-first/</a> y completa todas las tareas del módulo "Escritura de código de C# por primera vez". Esto es **requerido** para ganar el trofeo "Escritura de código de C# por primera vez" en Microsoft Learn, y calificar para el examen de certificación.
+1. Cuando haya terminado, vuelva y responda correctamente a la siguiente pregunta.
 
 # --tarea--
 
-Complete the <a href="https://learn.microsoft.com/training/modules/csharp-write-first/" target="_blank" rel="noreferrer">Write Your First C# Code</a> module on Microsoft Learn. Then, answer the question below.
+Completa el módulo <a href="https://learn.microsoft.com/training/modules/csharp-write-first/" target="_blank" rel="noreferrer">Escritura de código de C# por primera vez</a> en Microsoft Learn. Luego, responda a la siguiente pregunta.
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-What is the difference between `Console.Write` and `Console.WriteLine`?
+¿Cuál es la diferencia entre `Console.Write` y `Console.WriteLine`?
 
 ## --answers--
 
-`Console.Write` prints the output on a new line.
+`Console.Write` imprime la salida en una nueva línea.
 
 ---
 
-`Console.WriteLine` prints the output on a new line.
+`Console.WriteLine` imprime la salida en una nueva línea.
 
 ---
 
-`Console.WriteLine` appends a new line after the output.
+`Console.WriteLine` añade una nueva línea después de la salida.
 
 ## --video-solution--
 

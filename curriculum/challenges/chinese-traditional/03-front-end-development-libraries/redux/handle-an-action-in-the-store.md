@@ -8,7 +8,7 @@ dashedName: handle-an-action-in-the-store
 
 # --description--
 
-在一個 action 被創建並 dispatch 之後，Redux store 需要知道如何響應該操作。 這就是 `reducer` 函數存在的意義。 Redux 中的 Reducers 負責響應 action 然後進行狀態的修改。 `reducer` 將 `state` 和 `action` 作爲參數，並且它總是返回一個新的 `state`。 我們要知道這是 reducer 的**唯一**的作用。 它不應有任何其他的作用：比如它不應調用 API 接口，也不應存在任何潛在的副作用。 reducer 只是一個接受狀態和動作，然後返回新狀態的純函數。
+After an action is created and dispatched, the Redux store needs to know how to respond to that action. This is the job of a `reducer` function. Reducers in Redux are responsible for the state modifications that take place in response to actions. A `reducer` takes `state` and `action` as arguments, and it always returns a new `state`. It is important to see that this is the **only** role of the reducer. It has no side effects — it never calls an API endpoint and it never has any hidden surprises. The reducer is simply a pure function that takes state and action, then returns new state.
 
 Redux 的另一個關鍵原則是 `state` 是隻讀的。 換句話說，`reducer` 函數必須**始終**返回一個新的 `state`，並且永遠不會直接修改狀態。 Redux 不強制改變狀態，但是需要在 reducer 函數的代碼中強制執行它， 以後的挑戰會練習這一點。
 

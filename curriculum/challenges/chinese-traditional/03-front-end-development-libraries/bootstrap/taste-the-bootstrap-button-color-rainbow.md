@@ -8,7 +8,7 @@ dashedName: taste-the-bootstrap-button-color-rainbow
 
 # --description--
 
-`btn-primary` class 的顏色是應用的主要顏色。 這樣 “突出顯示” 是引導用戶按部就班進行操作的有效辦法。
+The `btn-primary` class is the main color you'll use in your app. It is useful for highlighting actions you want your user to take.
 
 將按鈕的 class 從 Bootstrap 的 `btn-default` 替換爲 `btn-primary`。
 

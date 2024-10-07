@@ -1,6 +1,6 @@
 ---
 id: 587d8257367417b2b2512c7e
-title: Use Depth First Search in a Binary Search Tree
+title: 在二叉搜索树中使用深度优先搜索
 challengeType: 1
 forumTopicId: 301719
 dashedName: use-depth-first-search-in-a-binary-search-tree
@@ -12,11 +12,11 @@ We know how to search a binary search tree for a specific value. But what if we 
 
 # --instructions--
 
-Here we will create these three search methods on our binary search tree. Depth-first search is an inherently recursive operation which continues to explore further subtrees so long as child nodes are present. Once you understand this basic concept, you can simply rearrange the order in which you explore the nodes and subtrees to produce any of the three searches above. For example, in post-order search we would want to recurse all the way to a leaf node before we begin to return any of the nodes themselves, whereas in pre-order search we would want to return the nodes first, and then continue recursing down the tree. Define `inorder`, `preorder`, and `postorder` methods on our tree. Each of these methods should return an array of items which represent the tree traversal. Be sure to return the integer values at each node in the array, not the nodes themselves. Finally, return `null` if the tree is empty.
+在这里，我们将在我们的二叉搜索树上创建这三种搜索方法。 深度优先搜索本质上是一种递归操作，只要存在子节点，它就会继续探索更多的子树。 一旦理解了这个基本概念，您就可以简单地重新排列探索节点和子树的顺序，以生成上述三个搜索中的任何一个。 例如，在后序搜索中，我们希望在开始返回任何节点本身之前一直递归到叶节点，而在前序搜索中，我们希望先返回节点，然后继续递归子树。 在我们的树上定义 `inorder`、`preorder` 和 `postorder` 方法。 这些方法中的每一个都应该返回表示树遍历的项数组。 确保返回数组中每个节点的整数值，而不是节点本身。 最后，如果树为空，则返回 `null`。
 
 # --hints--
 
-The `BinarySearchTree` data structure should exist.
+`BinarySearchTree` 数据结构应该存在。
 
 ```js
 assert(
@@ -30,7 +30,7 @@ assert(
 );
 ```
 
-The binary search tree should have a method called `inorder`.
+二叉搜索树应该有一个叫做 `inorder` 的方法。
 
 ```js
 assert(
@@ -46,7 +46,7 @@ assert(
 );
 ```
 
-The binary search tree should have a method called `preorder`.
+二叉搜索树应该有一个叫做 `preorder` 的方法。
 
 ```js
 assert(
@@ -62,7 +62,7 @@ assert(
 );
 ```
 
-The binary search tree should have a method called `postorder`.
+二叉搜索树应该有一个叫做 `postorder` 的方法。
 
 ```js
 assert(
@@ -78,7 +78,7 @@ assert(
 );
 ```
 
-The `inorder` method should return an array of the node values that result from an inorder traversal.
+`inorder` 方法应该返回一个由中序遍历产生的节点值数组。
 
 ```js
 assert(
@@ -108,7 +108,7 @@ assert(
 );
 ```
 
-The `preorder` method should return an array of the node values that result from a preorder traversal.
+`preorder` 方法应该返回一个由前序遍历产生的节点值数组。
 
 ```js
 assert(
@@ -138,7 +138,7 @@ assert(
 );
 ```
 
-The `postorder` method should return an array of the node values that result from a postorder traversal.
+`postorder` 方法应该返回一个由后序遍历产生的节点值数组。
 
 ```js
 assert(
@@ -168,7 +168,7 @@ assert(
 );
 ```
 
-The `inorder` method should return `null` for an empty tree.
+对于空树，`inorder` 方法应返回 `null`。
 
 ```js
 assert(
@@ -187,7 +187,7 @@ assert(
 );
 ```
 
-The `preorder` method should return `null` for an empty tree.
+对于空树，`preorder` 方法应返回 `null`。
 
 ```js
 assert(
@@ -206,7 +206,7 @@ assert(
 );
 ```
 
-The `postorder` method should return `null` for an empty tree.
+对于空树，`postorder` 方法应返回 `null`。
 
 ```js
 assert(

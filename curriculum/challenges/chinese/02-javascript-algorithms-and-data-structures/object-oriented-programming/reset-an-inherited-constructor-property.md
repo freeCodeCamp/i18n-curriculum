@@ -8,7 +8,7 @@ dashedName: reset-an-inherited-constructor-property
 
 # --description--
 
-当一个对象从另一个对象那里继承了其 `prototype` 时，那它也继承了父类的 constructor 属性。
+When an object inherits its `prototype` from another object, it also inherits the supertype's constructor property.
 
 请看下面的举例：
 

@@ -8,7 +8,7 @@ dashedName: create-a-method-on-an-object
 
 # --description--
 
-يمكن أن يكون للكائنات objects نوع خاص من الخواص، تسمى <dfn>الطريقة (method)</dfn>.
+Objects can have a special type of property, called a <dfn>method</dfn>.
 
 إن الطرق methods الخصائص التي تكون وظائف (functions). هذا يضيف سلوكا مختلفا إلى الكائن (object). فيما يلي مثال `duck` بها طريقة (method):
 

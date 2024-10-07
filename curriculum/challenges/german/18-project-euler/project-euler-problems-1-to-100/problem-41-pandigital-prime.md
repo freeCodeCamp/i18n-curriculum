@@ -8,7 +8,7 @@ dashedName: problem-41-pandigital-prime
 
 # --description--
 
-Wir sagen, dass eine `n`-stellige Zahl pandigital ist, wenn sie alle Ziffern 1 bis `n` genau einmal verwendet. For example, 2143 is a 4-digit pandigital and is also prime.
+Wir sagen, dass eine `n`-stellige Zahl pandigital ist, wenn sie alle Ziffern 1 bis `n` genau einmal verwendet. Zum Beispiel ist 2143 eine pandigitale 4-stellige Zahl und außerdem eine Primzahl.
 
 Was ist die größte `n`-zählige pandigitale Primzahl, die es gibt?
 

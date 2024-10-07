@@ -1,6 +1,6 @@
 ---
 id: 587d7791367417b2b2512ab3
-title: Create Visual Balance Using the text-align Property
+title: قم بإنشاء توازن بصري باستخدام خاصية محاذاة النص
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/c3b4EAp'
 forumTopicId: 301053
@@ -11,23 +11,23 @@ dashedName: create-visual-balance-using-the-text-align-property
 
 This section of the curriculum focuses on Applied Visual Design. The first group of challenges build on the given card layout to show a number of core principles.
 
-Text is often a large part of web content. CSS has several options for how to align it with the `text-align` property.
+غالباً ما يكون النص جزء كبير من محتوى الويب. ل CSS عدة خيارات لمحاذاته مع خاصية `text-align`.
 
-`text-align: justify;` spaces the text so that each line has equal width.
+خاصية `text-align: justify;` تحاذي النص بحيث أن لكل سطر عرض متساوٍ.
 
-`text-align: center;` centers the text
+`text-align: center;` تُمركز النص
 
-`text-align: right;` right-aligns the text
+خاصية `text-align: right;` تحاذي النص إلى اليمين
 
-And `text-align: left;` (the default) left-aligns the text.
+و خاصية `text-align: left;` (الافتراضية) تحاذي النص إلى اليسار.
 
 # --instructions--
 
-Align the `h4` tag's text, which says "Google", to the center. Then justify the paragraph tag which contains information about how Google was founded.
+قم بمحاذاة علامة النص `h4`، التي تحوي "Google"، إلى المركز. ثم قم بمحاذاة علامة الفقرة التي تحوي معلومات عن كيف تأسست جوجل، بحيث أن لكل سطر عرض متساوٍ.
 
 # --hints--
 
-Your code should use the text-align property on the `h4` tag to set it to `center`.
+التعليمات البرمجية الخاصة بك يجب أن تستخدم خاصية محاذاة النص للعلامة `h4` لتعيينها على `center`.
 
 ```js
 const h4Element =document.querySelector('h4')
@@ -35,7 +35,7 @@ const h4Style = window.getComputedStyle(h4Element);
 assert.equal(h4Style?.textAlign, 'center');
 ```
 
-Your code should use the text-align property on the `p` tag to set it to `justify`.
+التعليمات البرمجية الخاصة بك يجب أن تستخدم خاصية محاذاة النص للعلامة `p` لتعيينها على `justify`.
 
 ```js
 const pElement =document.querySelector('p')

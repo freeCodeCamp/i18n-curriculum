@@ -8,7 +8,7 @@ dashedName: create-a-form-element
 
 # --description--
 
-Você pode criar formulários que enviam dados a um servidor usando apenas HTML puro. Você pode fazer isso especificando o atributo `action` ao elemento `form`.
+You can build web forms that actually submit data to a server using nothing more than pure HTML. You can do this by specifying an `action` attribute on your `form` element.
 
 Por exemplo:
 

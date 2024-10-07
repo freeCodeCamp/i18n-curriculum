@@ -9,7 +9,7 @@ dashedName: adjust-the-padding-of-an-element
 
 # --description--
 
-我們暫時把要做的貓咪圖片 App 放在一邊，先來多瞭解一下如何給 HTML 添加樣式。
+Now let's put our Cat Photo App away for a little while and learn more about styling HTML.
 
 你可能已經注意到了，所有的 HTML 元素都是以矩形爲基礎。
 

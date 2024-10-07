@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedf08824
-title: Add Different Padding to Each Side of an Element
+title: إضافة هوامش مختلفة لكل جانب من العنصر
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cB7mwUw'
 forumTopicId: 16634
@@ -11,33 +11,33 @@ dashedName: add-different-padding-to-each-side-of-an-element
 
 Sometimes you will want to customize an element so that it has different amounts of `padding` on each of its sides.
 
-CSS allows you to control the `padding` of all four individual sides of an element with the `padding-top`, `padding-right`, `padding-bottom`, and `padding-left` properties.
+تسمح لك لغة CSS بالتحكم في الـ `padding` من جميع الجوانب الأربعة للعنصر باستخدام خصائص الـ `padding-top` و `padding-right` و `padding-bottom` و `padding-left`.
 
 # --instructions--
 
-Give the blue box a `padding` of `40px` on its top and left side, but only `20px` on its bottom and right side.
+اعطي الصندوق الأزرق `padding` عبارة عن `40px` على جانبه العلوي والأيسر، و `20px` على الجانب السفلي والأيمن.
 
 # --hints--
 
-Your `blue-box` class should give the top of the elements `40px` of `padding`.
+الـ class الذي اسمه `blue-box` الخاص بالصندوق الأزرق يجب أن يأخذ قيمة `40px` من الـ `padding`.
 
 ```js
 assert($('.blue-box').css('padding-top') === '40px');
 ```
 
-Your `blue-box` class should give the right of the elements `20px` of `padding`.
+الـ class الذي اسمه `blue-box` الخاص بالصندوق الأزرق يجب أن يأخذ قيمة `20px` من الـ `padding`.
 
 ```js
 assert($('.blue-box').css('padding-right') === '20px');
 ```
 
-Your `blue-box` class should give the bottom of the elements `20px` of `padding`.
+الـ class الذي اسمه `blue-box` الخاص بالصندوق الأزرق يجب أن يأخذ قيمة من الجانب السفلي `20px` من الـ `padding`.
 
 ```js
 assert($('.blue-box').css('padding-bottom') === '20px');
 ```
 
-Your `blue-box` class should give the left of the elements `40px` of `padding`.
+الـ class الذي اسمه `blue-box` الخاص بالصندوق الأزرق يجب أن يأخذ قيمة من الجانب الأيسر `40px` من الـ `padding`.
 
 ```js
 assert($('.blue-box').css('padding-left') === '40px');

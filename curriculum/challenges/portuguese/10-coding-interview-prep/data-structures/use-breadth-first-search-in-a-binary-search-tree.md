@@ -8,7 +8,7 @@ dashedName: use-breadth-first-search-in-a-binary-search-tree
 
 # --description--
 
-Aqui vamos introduzir outro método de travessia de árvores: busca em largura. Em contraste com os métodos de busca em profundidade do último desafio, a busca em largura explora todos os nós em um determinado nível de uma árvore antes de continuar para o próximo nível. Normalmente, as filas (queues) são utilizadas como estruturas de dados auxiliares na criação dos algoritmos de busca em largura.
+Here we will introduce another tree traversal method: breadth-first search. In contrast to the depth-first search methods from the last challenge, breadth-first search explores all the nodes in a given level within a tree before continuing on to the next level. Typically, queues are utilized as helper data structures in the design of breadth-first search algorithms.
 
 Neste método, começamos adicionando o nó raiz a uma fila. Em seguida, começamos um laço onde separamos o primeiro item da fila, o adicionamos a um novo array e, então, inspecionamos suas subárvores filhas. Se as filhas não forem nulas, elas serão colocadas na fila. Este processo continua até que a fila esteja vazia.
 

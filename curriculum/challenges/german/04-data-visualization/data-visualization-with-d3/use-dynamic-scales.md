@@ -8,7 +8,7 @@ dashedName: use-dynamic-scales
 
 # --description--
 
-Die D3-Methoden `min()` und `max()` erleichtern das Festlegen eines Maßstabs.
+The D3 `min()` and `max()` methods are useful to help set the scale.
 
 Bei komplexen Datensätzen ist die Festlegung eines passenden Maßstabs wichtig. Mit diesem wird die Visualisierung an die Breite und Höhe des SVG-Containers angepasst. Du möchtest, dass alle Daten innerhalb des SVG-Canvas dargestellt werden. So sind diese auf der Webseite sichtbar.
 

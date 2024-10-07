@@ -9,7 +9,7 @@ dashedName: divide-one-number-by-another-with-javascript
 
 # --description--
 
-يمكننا أيضًا قسمة رَقْم على آخر.
+We can also divide one number by another.
 
 يستخدم JavaScript رمز `/` لعملية القسمة.
 

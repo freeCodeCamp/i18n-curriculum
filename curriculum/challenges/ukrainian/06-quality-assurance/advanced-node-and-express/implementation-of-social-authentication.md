@@ -8,9 +8,9 @@ dashedName: implementation-of-social-authentication
 
 # --description--
 
-Цей тип автентифікації буде дотримуватись наступного шляху:
+The basic path this kind of authentication will follow in your app is:
 
-1.  Користувач натискає кнопку або посилання, надсилаючи їх на ваш маршрут, щоб автентифікуватись за допомогою визначеної стратегії (наприклад, GitHub).
+1.  User clicks a button or link sending them to your route to authenticate using a specific strategy (e.g. GitHub).
 2.  Ваш шлях викликає `passport.authenticate('github')`, перенаправляючи користувача на GitHub.
 3.  Сторінка на GitHub, яку відвідує користувач, дозволяє увійти в систему, якщо він досі не зробив цього. Потім система просить користувача підтвердити доступ до свого профілю з вашої програми.
 4.  Потім користувач повертається до вашої програми за url-адресою зворотного виклику зі своїм профілем, якщо він схвалений.

@@ -24,7 +24,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#10` in the `Comparisons`
 
 # --hints--
 
-不应有未通过的测试
+应通过所有测试。
 
 ```js
 (getUserInput) =>

@@ -14,7 +14,7 @@ dashedName: neural-networks-creating-a-model
 
 ## --text--
 
-次の空欄を埋めて、全結合層の連続モデルを構築してください。
+Fill in the blanks below to build a sequential model of dense layers:
 
 ```py
 model = __A__.__B__([

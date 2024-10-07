@@ -1,6 +1,6 @@
 ---
 id: 587d781c367417b2b2512ac4
-title: Set the font-size of Paragraph Text
+title: تعيين حجم الخط من نص الفقرة
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cVJ36Cr'
 forumTopicId: 301068
@@ -13,11 +13,11 @@ The `font-size` property in CSS is not limited to headings, it can be applied to
 
 # --instructions--
 
-Change the value of the `font-size` property for the paragraph to 16px to make it more visible.
+قم بتغيير قيمة خاصية `حجم الخط` للفقرة إلى 16 بكسل لجعلها أكثر وضوحا.
 
 # --hints--
 
-Your `p` tag should have a `font-size` of 16 pixels.
+يجب أن تحتوي العلامة `p` على `حجم الخط` من 16 بكسل.
 
 ```js
 const pElement =document.querySelector('p')

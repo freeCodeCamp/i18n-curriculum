@@ -10,7 +10,7 @@ dashedName: replace-loops-using-recursion
 
 # --description--
 
-Рекурсія — це концепція того, що функція може бути виражена сама собою. Щоб краще зрозуміти, подумайте над наступним завданням: перемножте перші `n` елементи масиву, щоб отримати їх добуток. Ви могли б це зробити, використовуючи цикл `for`:
+Recursion is the concept that a function can be expressed in terms of itself. To help understand this, start by thinking about the following task: multiply the first `n` elements of an array to create the product of those elements. Using a `for` loop, you could do this:
 
 ```js
   function multiply(arr, n) {

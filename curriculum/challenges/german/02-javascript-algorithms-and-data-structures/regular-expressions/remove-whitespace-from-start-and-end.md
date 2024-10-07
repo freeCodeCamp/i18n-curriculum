@@ -8,7 +8,7 @@ dashedName: remove-whitespace-from-start-and-end
 
 # --description--
 
-Manchmal sind Leerzeichen um Strings herum nicht erwünscht, aber sie sind da. Bei der typischen Verarbeitung von Strings werden die Leerzeichen am Anfang und am Ende entfernt.
+Sometimes whitespace characters around strings are not wanted but are there. Typical processing of strings is to remove the whitespace at the start and end of it.
 
 # --instructions--
 

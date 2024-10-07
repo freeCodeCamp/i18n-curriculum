@@ -8,7 +8,7 @@ dashedName: convert-json-data-to-html
 
 # --description--
 
-現在你從 JSON API 獲取了數據，可以在 HTML 中顯示它們了。
+Now that you're getting data from a JSON API, you can display it in the HTML.
 
 既然 cat photo 對象都保存在數組裏，你可以使用 `forEach` 方法來遍歷它們。 當你拿到每個對象時，你就可以修改 HTML 元素了。
 

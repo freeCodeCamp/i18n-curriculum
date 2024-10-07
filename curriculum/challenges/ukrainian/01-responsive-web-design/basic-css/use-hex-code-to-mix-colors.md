@@ -9,7 +9,7 @@ dashedName: use-hex-code-to-mix-colors
 
 # --description--
 
-Для перегляду, використовуйте 6 шістнадцяткових цифр для відображення кольорів, по дві для червоного (R), зеленого (G) та синього (B) компонентів.
+To review, hex codes use 6 hexadecimal digits to represent colors, two each for red (R), green (G), and blue (B) components.
 
 З цих трьох чистих кольорів ( червоного, зеленого та синього), ми можемо варіювати кількість кожного з них, для того, щоб створити більше 16 мільйонів інших кольорів!
 
@@ -23,7 +23,7 @@ dashedName: use-hex-code-to-mix-colors
 
 Замініть слово колір в нашому `style` елементом на їх правильні шістнадцяткові коди.
 
-<table><tbody><tr><th>Колір</th><th>Шістнадцятковий код кольору</th></tr><tr><td>Синьо-волошковий</td><td><code>#1E90FF</code></td></tr><tr><td>Зелений</td><td><code>#00FF00</code></td></tr><tr><td>Оранжевий</td><td><code>#FFA500</code></td></tr><tr><td>Червоний</td><td><code>#FF0000</code></td></tr></tbody></table>
+<table><tbody><tr><th>Color</th><th>Hex Code</th></tr><tr><td>Dodger Blue</td><td><code>#1E90FF</code></td></tr><tr><td>Green</td><td><code>#00FF00</code></td></tr><tr><td>Orange</td><td><code>#FFA500</code></td></tr><tr><td>Red</td><td><code>#FF0000</code></td></tr></tbody></table>
 
 # --hints--
 

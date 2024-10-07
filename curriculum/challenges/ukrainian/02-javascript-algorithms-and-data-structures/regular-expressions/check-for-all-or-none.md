@@ -8,7 +8,7 @@ dashedName: check-for-all-or-none
 
 # --description--
 
-Іноді у потрібних вам шаблонах можуть бути частини, які, можливо, не існують. Однак їх всеодно важливо пошукати.
+Sometimes the patterns you want to search for may have parts of it that may or may not exist. However, it may be important to check for them nonetheless.
 
 Ви можете вказати можливу наявність елемента знаком запитання `?`. Таким чином ви зможете перевірити наявність попереднього елемента. Вважайте, що цей символ вказує на те, що елемент перед ним необов’язковий.
 

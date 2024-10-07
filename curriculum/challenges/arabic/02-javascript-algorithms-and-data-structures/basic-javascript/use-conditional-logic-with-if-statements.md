@@ -9,7 +9,7 @@ dashedName: use-conditional-logic-with-if-statements
 
 # --description--
 
-تستخدم تعبيرات `if` لإخذ القرارات في الكود. تخبر كلمة `if` لغة JavaScript بتنفيذ التعليمات البرمجية داخل الأقواس المقرونة (curly braces) تحت شروط معينة معرفة في أقواس دائرية (parentheses). تعرف هذه الشروط بالشروط المنطقية `Boolean` ويمكن أن تكون قيمتها فقط صحيحة `true` أو خاطئة `false`.
+`if` statements are used to make decisions in code. The keyword `if` tells JavaScript to execute the code in the curly braces under certain conditions, defined in the parentheses. These conditions are known as `Boolean` conditions and they may only be `true` or `false`.
 
 عندما يتم تقييم الشرط المنطقي إلى صحيح `true`، يقوم البرنامج بتنفيذ التعبيرات البرمجية داخل الأقواس المقرونة (curly braces). عندما يتم تقييم الشرط المنطقي إلى خطأ `false`، التعليمات البرمجية داخل الأقواس المقرونة (curly braces) لن تنفذ.
 

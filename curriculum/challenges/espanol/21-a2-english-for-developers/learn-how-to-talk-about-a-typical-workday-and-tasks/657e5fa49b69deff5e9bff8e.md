@@ -13,15 +13,15 @@ Listen to the audio to complete the sentence below.
 
 # --fillInTheBlank--
 
-## Frases
+## --sentence--
 
 `Absolutely. If you see any security breaches or incidents, you BLANK BLANK report them BLANK.`
 
-## Palabra correcta
+## --blanks--
 
 `have`
 
-### --retroalimentación--
+### --feedback--
 
 Shows a requirement.
 
@@ -29,7 +29,7 @@ Shows a requirement.
 
 `to`
 
-### --retroalimentación--
+### --feedback--
 
 Used with the previous word to express obligation.
 
@@ -37,7 +37,7 @@ Used with the previous word to express obligation.
 
 `immediately`
 
-### --retroalimentación--
+### --feedback--
 
 Means right away, without delay.
 

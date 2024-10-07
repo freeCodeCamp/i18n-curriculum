@@ -8,7 +8,7 @@ dashedName: prevent-infinite-loops-with-a-valid-terminal-condition
 
 # --description--
 
-الموضوع الأخير هو الحلقة اللانهائية المخيفة (dreaded infinite loop). الحلقات التكرارية (loops) هي أدوات رائعة عندما يحتاج برنامجك لتشغيل كتلة الكود عدد معين من المرات أو حتى يتم الوفاء بشرط ما، ولكنها تحتاج إلى حالة نهائية تنهي التكرار. الحلقات اللانهائية (Infinite loops) من المحتمل أن تجمد أو تعطل المتصفح، وقد تسبب في فشل تنفيذ البرامج، وهو ما لا يريده أحد.
+The final topic is the dreaded infinite loop. Loops are great tools when you need your program to run a code block a certain number of times or until a condition is met, but they need a terminal condition that ends the looping. Infinite loops are likely to freeze or crash the browser, and cause general program execution mayhem, which no one wants.
 
 كان هناك مثال لحلقة لانهائية في مقدمة هذا القسم - لم يكن لديها أي شرط نهائي للخروج من حلقة `while` داخل `loopy()`. لا تفعيل تلك الوظيفة (function)!
 

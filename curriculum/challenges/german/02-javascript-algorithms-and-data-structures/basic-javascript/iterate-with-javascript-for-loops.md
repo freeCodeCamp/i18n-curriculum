@@ -9,7 +9,7 @@ dashedName: iterate-with-javascript-for-loops
 
 # --description--
 
-Du kannst denselben Code mehrmals ausführen, indem du eine Schleife verwendest.
+You can run the same code multiple times by using a loop.
 
 Die häufigste Art von JavaScript-Schleifen wird `for`-Schleife genannt, weil sie eine bestimmte Anzahl von Malen ausgeführt wird.
 

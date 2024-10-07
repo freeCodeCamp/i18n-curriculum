@@ -9,7 +9,7 @@ dashedName: use-conditional-logic-with-if-statements
 
 # --description--
 
-Інструкції `if` використовують для прийняття рішень у коді. Ключове слово `if` вказує JavaScript виконати код у фігурних дужках за певних умов, вказаних у круглих дужках. Ці умови ще називаються булевими умовами (`Boolean`), і вони можуть бути лише `true` або `false`.
+`if` statements are used to make decisions in code. The keyword `if` tells JavaScript to execute the code in the curly braces under certain conditions, defined in the parentheses. These conditions are known as `Boolean` conditions and they may only be `true` or `false`.
 
 Якщо умова оцінена як `true`, програма виконує інструкцію у фігурних дужках. Якщо булева умова оцінена як `false`, команда у фігурних дужках не виконується.
 

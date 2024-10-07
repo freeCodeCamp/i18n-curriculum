@@ -8,7 +8,7 @@ dashedName: add-comments-in-jsx
 
 # --description--
 
-JSX — це синтаксис, який компілюється в дійсний JavaScript. Іноді вам доведеться додати коментарі до коду заради читабельності. Як і більшість мов програмування, JSX має власний спосіб для цього.
+JSX is a syntax that gets compiled into valid JavaScript. Sometimes, for readability, you might need to add comments to your code. Like most programming languages, JSX has its own way to do this.
 
 Щоб написати коментарі всередині JSX, використайте синтаксис `{/* */}` навколо тексту коментаря.
 

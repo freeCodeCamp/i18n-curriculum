@@ -8,7 +8,7 @@ dashedName: y-combinator
 
 # --description--
 
-In strict <a href="https://www.freecodecamp.org/news/the-principles-of-functional-programming/" target="_blank" rel="noopener noreferrer nofollow">functional programming</a> and the lambda calculus, functions (lambda expressions) don't have state and are only allowed to refer to arguments of enclosing functions. This rules out the usual definition of a recursive function wherein a function is associated with the state of a variable and this variable's state is used in the body of the function.
+In strenger <a href="https://www.freecodecamp.org/news/the-principles-of-functional-programming/" target="_blank" rel="noopener noreferrer nofollow">funktionaler Programmierung</a> und Lambda-Berechnung, haben Funktionen (Lambda-Ausdrücke) keinen Zustand und dürfen nur auf Argumente von umschließenden Funktionen verweisen. Dies schließt die übliche Definition einer rekursiven Funktion aus, bei welcher eine Funktion mit dem Zustand einer Variable assoziiert wird und der Zustand dieser Variable im Körper der Funktion verwendet wird.
 
 Der Y-Kombinator ist selbst eine zustandslose Funktion, die bei Anwendung auf eine andere zustandslose Funktion eine rekursive Version der Funktion zurückgibt. Der Y-Kombinator ist die einfachste Klasse solcher Funktionen, die Fixpunkt-Kombinatoren genannt werden.
 

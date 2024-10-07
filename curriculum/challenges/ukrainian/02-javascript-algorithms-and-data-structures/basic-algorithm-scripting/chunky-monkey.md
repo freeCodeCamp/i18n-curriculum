@@ -8,7 +8,7 @@ dashedName: chunky-monkey
 
 # --description--
 
-Напишіть функцію, яка ділить масив (перший аргумент) на групи довжиною `size` (другий аргумент) та повертає їх як двовимірний масив.
+Write a function that splits an array (first argument) into groups the length of `size` (second argument) and returns them as a two-dimensional array.
 
 # --hints--
 

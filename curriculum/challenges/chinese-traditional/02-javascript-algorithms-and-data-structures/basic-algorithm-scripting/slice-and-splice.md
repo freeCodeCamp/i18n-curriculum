@@ -8,7 +8,7 @@ dashedName: slice-and-splice
 
 # --description--
 
-本挑戰的輸入參數爲兩個數組和一個索引值。
+You are given two arrays and an index.
 
 將第一個數組中的所有元素依次複製到第二個數組中。
 

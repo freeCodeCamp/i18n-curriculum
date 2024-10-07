@@ -8,7 +8,7 @@ dashedName: modify-an-array-stored-in-an-object
 
 # --description--
 
-Тепер вам відомо про всі основні операції над об’єктами JavaScript. Ви можете додавати, змінювати і видаляти пари ключів-значень, перевіряти наявність ключів та ітерувати через усі ключі в об’єкті. Продовжуючи вивчення JavaScript, ви познайомитесь з універсальнішими застосуваннями об’єктів. Крім того, уроки зі структури даних, що належать до розділу навчальної програми «Підготовка до співбесіди з програмування», також містять інформацію про об’єкти <dfn>Map</dfn> та <dfn>Set</dfn> з ES6, які схожі на звичайні об’єкти, але забезпечують певні додаткові функції. Тепер, коли ви вивчили основи масивів та об’єктів, ви цілком готові до розв’язання складніших завдань у JavaScript!
+Now you've seen all the basic operations for JavaScript objects. You can add, modify, and remove key-value pairs, check if keys exist, and iterate over all the keys in an object. As you continue learning JavaScript you will see even more versatile applications of objects. Additionally, the Data Structures lessons located in the Coding Interview Prep section of the curriculum also cover the ES6 <dfn>Map</dfn> and <dfn>Set</dfn> objects, both of which are similar to ordinary objects but provide some additional features. Now that you've learned the basics of arrays and objects, you're fully prepared to begin tackling more complex problems using JavaScript!
 
 # --instructions--
 

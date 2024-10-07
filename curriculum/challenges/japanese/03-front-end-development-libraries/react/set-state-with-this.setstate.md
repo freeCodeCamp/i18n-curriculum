@@ -8,7 +8,7 @@ dashedName: set-state-with-this-setstate
 
 # --description--
 
-以前のチャレンジで、コンポーネントの `state` と、`constructor` での state の初期化方法について説明しました。 コンポーネントの `state` を変更する方法もあります。 React には、コンポーネントの `state` を更新するための `setState` というメソッドが用意されています。 `setState` メソッドはコンポーネントクラスの中で `this.setState()` のように呼び出し、キーと値のペアを持つオブジェクトを渡します。 キーは state のプロパティであり、値は更新された state データです。 たとえば、`username` を state に保存していて、それを更新したい場合は、次のようにします。
+The previous challenges covered component `state` and how to initialize state in the `constructor`. There is also a way to change the component's `state`. React provides a method for updating component `state` called `setState`. You call the `setState` method within your component class like so: `this.setState()`, passing in an object with key-value pairs. The keys are your state properties and the values are the updated state data. For instance, if we were storing a `username` in state and wanted to update it, it would look like this:
 
 ```jsx
 this.setState({

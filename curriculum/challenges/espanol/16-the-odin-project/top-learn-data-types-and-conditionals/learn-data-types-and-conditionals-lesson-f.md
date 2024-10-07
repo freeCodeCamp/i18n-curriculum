@@ -11,12 +11,12 @@ You know that JavaScript has a variety of data types, including strings, numbers
 
 The following comparison operators are available in JavaScript:
 
-| Operator | Description              | Example |
+| Operador | Descripción              | Ejemplo |
 | -------- | ------------------------ | ------- |
 | ==       | Equal (value comparison) | x == y  |
-| !=       | Not equal                | x != y  |
-| >        | Greater than             | x > y   |
-| <        | Less than                | x < y   |
+| !=       | Distinto                 | x != y  |
+| >        | Mayor que                | x > y   |
+| <        | Menor que                | x < y   |
 | >=       | Mayor o igual que        | x >= y  |
 | <=       | Menor o igual que        | x <= y  |
 
@@ -32,7 +32,7 @@ console.log(result); // true
 ```
 
 
-# --questions--
+# --preguntas----preguntas--
 
 ## --text--
 

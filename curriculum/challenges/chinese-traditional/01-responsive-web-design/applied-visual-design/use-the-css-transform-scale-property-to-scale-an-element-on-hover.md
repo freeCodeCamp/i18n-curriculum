@@ -9,7 +9,7 @@ dashedName: use-the-css-transform-scale-property-to-scale-an-element-on-hover
 
 # --description--
 
-`transform` 屬性有很多函數可以調用，可以對元素進行調整大小、移動、旋轉、翻轉等操作。 當使用僞類選取元素的指定狀態（如 `:hover`）時，我們可以通過 `transform` 屬性非常方便地給元素添加交互。
+The `transform` property has a variety of functions that let you scale, move, rotate, skew, etc., your elements. When used with pseudo-classes such as `:hover` that specify a certain state of an element, the `transform` property can easily add interactivity to your elements.
 
 下面是當用戶懸停在段落元素時，段落大小縮放到原始大小 2.1 倍的例子：
 

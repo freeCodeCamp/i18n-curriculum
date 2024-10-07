@@ -9,7 +9,7 @@ dashedName: manipulate-arrays-with-unshift
 
 # --description--
 
-`shift` を使用して配列の先頭から要素を取り出すだけでなく、`unshift` を使用して配列の先頭に要素を追加することも可能です。
+Not only can you `shift` elements off of the beginning of an array, you can also `unshift` elements to the beginning of an array i.e. add elements in front of the array.
 
 `.unshift()` は `.push()` とまったく同様の動作をします。ただし、`unshift()` は配列の末尾に要素を追加するのではなく、配列の先頭に要素を追加します。
 

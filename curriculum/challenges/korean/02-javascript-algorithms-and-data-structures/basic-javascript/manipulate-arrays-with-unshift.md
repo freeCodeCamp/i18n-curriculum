@@ -11,9 +11,9 @@ dashedName: manipulate-arrays-with-unshift
 
 Not only can you `shift` elements off of the beginning of an array, you can also `unshift` elements to the beginning of an array i.e. add elements in front of the array.
 
-`.unshift()` works exactly like `.push()`, but instead of adding the element at the end of the array, `unshift()` adds the element at the beginning of the array.
+`.unshift()`는 `.push()`와 거의 동일하게 동작합니다만, 단 `unshift()`는 배열의 맨 끝에 항목을 추가하는 게 아니라, 배열의 맨 처음에 항목을 추가합니다.
 
-Example:
+예:
 
 ```js
 const ourArray = ["Stimpson", "J", "cat"];
@@ -21,15 +21,15 @@ ourArray.shift();
 ourArray.unshift("Happy");
 ```
 
-After the `shift`, `ourArray` would have the value `["J", "cat"]`. After the `unshift`, `ourArray` would have the value `["Happy", "J", "cat"]`.
+`shift` 다음에, `ourArray`의 값은 `["J", "cat"]`를 가지게 됩니다. `unshift` 다음에, `ourArray`의 값은 `["Happy", "J", "cat"]`을 가지게 됩니다.
 
 # --instructions--
 
-Add `["Paul", 35]` to the beginning of the `myArray` variable using `unshift()`.
+`unshift()`를 사용해서 `["Paul", 35]`을 `myArray` 변수 맨 처음에 추가하세요.
 
 # --hints--
 
-`myArray` should now have `[["Paul", 35], ["dog", 3]]`.
+`myArray`는 이제 `[["Paul", 35], ["dog", 3]]`를 가져야 합니다.
 
 ```js
 assert(

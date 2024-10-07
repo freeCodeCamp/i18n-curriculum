@@ -8,7 +8,7 @@ dashedName: handle-an-action-in-the-store
 
 # --description--
 
-بعد إنشاء الإجراء وإرساله، يحتاج متجر Redux إلى معرفة كيفية الاستجابة لذلك الإجراء. هذه هي وظيفة `reducer`. تعدل التخفيضات (Reducers) في Redux الحالة التي تحدث كاستجابة للإجراءات. يأخذ `reducer` حجج `state` و `action`، و دائما ينتج `state` جديدة. من المهم أن نرى أن هذا هو الدور reducer **فقط**. وليس لها آثار جانبية - فهي لا تستدع نقطة نهاية API قط ولم تكن لها أي مفاجآت خفية. الخفض (reducer) هو ببساطة وظيفة خالصة تأخذ الحالة والإجراءات، ثم تنتج حالة جديدة.
+After an action is created and dispatched, the Redux store needs to know how to respond to that action. This is the job of a `reducer` function. Reducers in Redux are responsible for the state modifications that take place in response to actions. A `reducer` takes `state` and `action` as arguments, and it always returns a new `state`. It is important to see that this is the **only** role of the reducer. It has no side effects — it never calls an API endpoint and it never has any hidden surprises. The reducer is simply a pure function that takes state and action, then returns new state.
 
 مبدأ رئيس آخر في Redux هو أن `state` مقروء فقط. بمعنى آخر، يجب أن الدالة `reducer` ينتج **دائما** إرجاع نسخة جديدة من `state` وعدم تعديل الحالة قاصدًا أبدا. Redux لا يفرض حالة غير قابلة للتغير، ولكن أنت مسؤول عن إنفاذه في تعليمات البرمجية وظائف الاختصار (reducer) الخاصة بك. ستمارس هذا في تحديات لاحقة.
 

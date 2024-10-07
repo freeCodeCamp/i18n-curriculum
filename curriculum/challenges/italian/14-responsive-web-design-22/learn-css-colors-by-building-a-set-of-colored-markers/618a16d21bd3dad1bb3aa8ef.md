@@ -7,7 +7,7 @@ dashedName: step-41
 
 # --description--
 
-Ora è il momento di aggiungere altri dettagli ai pennarelli, a partire dal primo.
+Now it's time to add other details to the markers, starting with the first one.
 
 Nel primo elemento `div`, cambia la classe `one` in `red`.
 

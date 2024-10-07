@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d4036184
-title: Render with an If-Else Condition
+title: If-Else 조건을 사용해서 렌더링
 challengeType: 6
 forumTopicId: 301410
 dashedName: render-with-an-if-else-condition
@@ -12,13 +12,13 @@ Another application of using JavaScript to control your rendered view is to tie 
 
 # --instructions--
 
-MyComponent contains a `boolean` in its state which tracks whether you want to display some element in the UI or not. The `button` toggles the state of this value. Currently, it renders the same UI every time. Rewrite the `render()` method with an `if/else` statement so that if `display` is `true`, you return the current markup. Otherwise, return the markup without the `h1` element.
+MyComponent에는 UI에 엘리먼트를 보여줄지 여부를 추적하는 `boolean` 상태가 있습니다. `button`은 상태의 값을 전환시킵니다. 현재, 매번 동일한 UI를 렌더링하고 있습니다. `render()` 메서드를 `if/else`문으로 수정해서 `display`가 `true`면 현재 마크업을 반환하고, 그렇지 않으면 `h1` 엘리먼트 없이 마크업을 반환해보세요.
 
-**Note:** You must write an `if/else` to pass the tests. Use of the ternary operator will not pass here.
+**참고:** 이번 도전을 통과하기 위해서는 `if/else`를 이용해야 합니다. 삼항 연산자는 통과되지 않습니다.
 
 # --hints--
 
-`MyComponent` should exist and render.
+`MyComponent`는 존재하며 렌더링되어야 합니다.
 
 ```js
 assert(
@@ -29,7 +29,7 @@ assert(
 );
 ```
 
-When `display` is set to `true`, a `div`, `button`, and `h1` should render.
+`display`이 `true`로 설정되어 있으면 `div`, `button`, `h1`이 렌더링 되어야 합니다.
 
 ```js
 async () => {
@@ -50,7 +50,7 @@ async () => {
 };
 ```
 
-When `display` is set to `false`, only a `div` and `button` should render.
+`display`이 `false`로 설정되어 있으면 `div`와 `button`만 렌더링 되어야 합니다.
 
 ```js
 async () => {
@@ -71,7 +71,7 @@ async () => {
 };
 ```
 
-The render method should use an `if/else` statement to check the condition of `this.state.display`.
+렌더 메서드는 `if/else`를 사용해서 `this.state.display`의 상태를 확인해야 합니다.
 
 ```js
 (getUserInput) =>

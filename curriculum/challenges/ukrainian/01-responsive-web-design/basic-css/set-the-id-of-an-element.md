@@ -9,7 +9,7 @@ dashedName: set-the-id-of-an-element
 
 # --description--
 
-Окрім класів, кожен елемент HTML може мати атрибут `id`.
+In addition to classes, each HTML element can also have an `id` attribute.
 
 Існує декілька переваг використання атрибутів `id`: можна використовувати `id` для стилізації окремого елемента, а пізніше ви навчитеся послуговуватися ними, щоб обирати та змінювати специфічні елементи за допомогою JavaScript.
 
@@ -27,7 +27,7 @@ dashedName: set-the-id-of-an-element
 
 # --hints--
 
-Елемент `form` повинен мати id `cat-photo-form`.
+Елемент `form` повинен мати ідентифікатор `cat-photo-form`.
 
 ```js
 assert($('form').attr('id') === 'cat-photo-form');

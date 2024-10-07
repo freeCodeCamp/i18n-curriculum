@@ -1,6 +1,6 @@
 ---
 id: 587d8251367417b2b2512c61
-title: Work with Nodes in a Linked List
+title: Arbeiten mit Knoten in einer verknüpften Liste
 challengeType: 1
 forumTopicId: 301721
 dashedName: work-with-nodes-in-a-linked-list
@@ -10,23 +10,23 @@ dashedName: work-with-nodes-in-a-linked-list
 
 Another common data structure you'll run into in computer science is the <dfn>linked list</dfn>. A linked list is a linear collection of data elements, called 'nodes', each of which points to the next. Each <dfn>node</dfn> in a linked list contains two key pieces of information: the `element` itself, and a reference to the next `node`.
 
-Imagine that you are in a conga line. You have your hands on the next person in the line, and the person behind you has their hands on you. You can see the person straight ahead of you, but they are blocking the view of the other people ahead in line. A node is just like a person in a conga line: they know who they are and they can only see the next person in line, but they are not aware of the other people ahead or behind them.
+Stell dir vor, dass du in einer Conga-Linie stehst. Du hast deine Hände auf der nächsten Person in der Schlange, und die Person hinter dir hat ihre Hände auf dir. Du kannst die Person direkt vor dir sehen, aber sie versperrt dir die Sicht auf die anderen Personen in der Schlange. Ein Knoten ist wie eine Person in einer Conga-Linie: Sie weiß, wer sie ist, und sie kann nur die nächste Person in der Reihe sehen, aber sie ist sich der anderen Personen vor oder hinter ihr nicht bewusst.
 
 # --instructions--
 
-In our code editor, we've created two nodes, `Kitten` and `Puppy`, and we've manually connected the `Kitten` node to the `Puppy` node.
+In unserem Code-Editor haben wir zwei Knoten erstellt, `Kitten` und `Puppy`, und wir haben den Knoten `Kitten` manuell mit dem Knoten `Puppy` verbunden.
 
-Create a `Cat` and `Dog` node and manually add them to the line.
+Erstelle einen `Cat`- und einen `Dog`-Knoten und füge sie manuell in die Zeile ein.
 
 # --hints--
 
-Your `Puppy` node should have a reference to a `Cat` node.
+Dein `Puppy`-Knoten sollte einen Verweis auf einen `Cat`-Knoten enthalten.
 
 ```js
 assert(Puppy.next.element === 'Cat');
 ```
 
-Your `Cat` node should have a reference to a `Dog` node.
+Dein `Cat`-Knoten sollte einen Verweis auf einen `Dog`-Knoten haben.
 
 ```js
 assert(Cat.next.element === 'Dog');

@@ -9,7 +9,7 @@ dashedName: use-a-bezier-curve-to-move-a-graphic
 
 # --description--
 
-У попередньому завданні йшлося про ключове слово `ease-out`, яке описує зміну анімації, що спочатку пришвидшується, а тоді уповільнюється в кінці анімації. Праворуч показано різницю між ключовим словом `ease-out` (для синього елемента) і ключовим словом `linear` (для червоного елемента). Подібну послідовність анімації до ключового слова `ease-out` можна створити за допомогою користувацької функції кубічної кривої Безьє.
+A previous challenge discussed the `ease-out` keyword that describes an animation change that speeds up first and then slows down at the end of the animation. On the right, the difference between the `ease-out` keyword (for the blue element) and `linear` keyword (for the red element) is demonstrated. Similar animation progressions to the `ease-out` keyword can be achieved by using a custom cubic Bezier curve function.
 
 Загалом зміна точок прив'язки `p1` та `p2` керує створенням різних кривих Безьє, що контролює розвиток анімації в часі. Ось приклад кривої Безьє, створеної за допомогою значень для імітації стилю `ease-out`:
 

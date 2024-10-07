@@ -1,6 +1,6 @@
 ---
 id: 65dabf5eb13aae9ff91c40a2
-title: Task 104
+title: Aufgabe 104
 challengeType: 22
 dashedName: task-104
 ---
@@ -9,13 +9,13 @@ dashedName: task-104
 
 # --description--
 
-The phrase `search for` means to look for something or try to find something through exploration. For example, `I need to search for my lost keys` means looking for the keys.
+Die Phrase `search for` bedeutet, durch Erkundung nach etwas zu sehen oder zu versuchen etwas zu finden. Zum Beispiel, `I need to search for my lost keys` bedeutet, die Schlüssel zu suchen.
 
-The word `expensive` describes something that costs a lot of money. For example, `That car is too expensive for me` means the car costs a lot.
+Das Wort `expensive` beschreibt etwas, das viel Geld kostet. Zum Beispiel, `That car is too expensive for me` bedeutet, das Auto kostet viel.
 
-A `solution` is an answer to a problem or a way to fix an issue.
+Eine `solution` ist eine Antwort auf ein Problem oder ein Weg, ein Problem zu lösen.
 
-`Doesn't/don't have to` is used to express that there is no need or requirement to do something.
+`Doesn't/don't have to` wird verwendet, um auszudrücken, dass keine Notwendigkeit oder Anforderung besteht etwas zu tun.
 
 # --fillInTheBlank--
 
@@ -29,7 +29,7 @@ A `solution` is an answer to a problem or a way to fix an issue.
 
 ### --feedback--
 
-This word means to look for something carefully.
+Diesess Wort bedeutet, sorgfältig nach etwas zu suchen.
 
 ---
 
@@ -37,7 +37,7 @@ This word means to look for something carefully.
 
 ### --feedback--
 
-This preposition is used with `search` to indicate what you are trying to find.
+Diese Präposition wird verwendet mit `search`, um anzuzeigen, was du versuchst zu finden.
 
 ---
 
@@ -45,7 +45,7 @@ This preposition is used with `search` to indicate what you are trying to find.
 
 ### --feedback--
 
-This word describes something that costs a lot of money.
+Dieses Wort beschreibt etwas, das viel Geld kostet.
 
 ---
 
@@ -53,7 +53,7 @@ This word describes something that costs a lot of money.
 
 ### --feedback--
 
-These are answers or ways to solve a problem.
+Dies sind Antworten oder Wege ein Problem zu lösen.
 
 # --scene--
 

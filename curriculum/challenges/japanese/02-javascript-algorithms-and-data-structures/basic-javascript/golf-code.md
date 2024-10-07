@@ -9,11 +9,11 @@ dashedName: golf-code
 
 # --description--
 
-ゴルフの試合では、各ホールに `par` (パー) が設定されています。これは、ゴルファーがボールをカップインさせてホールアウトするのに要すると考えられる平均 `strokes` (ストローク) 数です。 `strokes`数 が `par` よりどれだけ多いか少ないかによって、異なるニックネームが付いています。
+In the game of Golf, each hole has a `par`, meaning, the average number of `strokes` a golfer is expected to make in order to sink the ball in the hole to complete the play. Depending on how far above or below `par` your `strokes` are, there is a different nickname.
 
 関数は引数として `par` と `strokes` を受け取ります。 次の表に対応した正しい文字列を返してください。この表はスコアの良い順 (最高から最低の順) にストロークを並べて記載しています。
 
-<table><thead><tr><th>ストローク</th><th>戻り値</th></tr></thead><tbody><tr><td>1</td><td>"Hole-in-one!"</td></tr><tr><td>&#x3C;= par - 2</td><td>"Eagle"</td></tr><tr><td>par - 1</td><td>"Birdie"</td></tr><tr><td>par</td><td>"Par"</td></tr><tr><td>par + 1</td><td>"Bogey"</td></tr><tr><td>par + 2</td><td>"Double Bogey"</td></tr><tr><td>>= par + 3</td><td>"Go Home!"</td></tr></tbody></table>
+<table><thead><tr><th>Strokes</th><th>戻り値</th></tr></thead><tbody><tr><td>1</td><td>"Hole-in-one!"</td></tr><tr><td>&#x3C;= par - 2</td><td>"Eagle"</td></tr><tr><td>par - 1</td><td>"Birdie"</td></tr><tr><td>par</td><td>"Par"</td></tr><tr><td>par + 1</td><td>"Bogey"</td></tr><tr><td>par + 2</td><td>"Double Bogey"</td></tr><tr><td>>= par + 3</td><td>"Go Home!"</td></tr></tbody></table>
 
 `par` と `strokes` は常に正の数値になります。 すべての名称を含む配列をすでに追加してあります。
 

@@ -14,7 +14,7 @@ dashedName: core-learning-algorithms-training-and-testing-data
 
 ## --text--
 
-カテゴリーデータとは何ですか？
+What is categorical data?
 
 ## --answers--
 

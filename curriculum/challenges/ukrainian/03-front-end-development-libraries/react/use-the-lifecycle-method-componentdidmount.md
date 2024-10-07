@@ -8,7 +8,7 @@ dashedName: use-the-lifecycle-method-componentdidmount
 
 # --description--
 
-Більшості веброзробників в якийсь момент потрібно викликати кінцеву точку API, щоб отримати дані. Якщо ви працюєте в React, потрібно знати, як виконати цю дію.
+Most web developers, at some point, need to call an API endpoint to retrieve data. If you're working with React, it's important to know where to perform this action.
 
 У випадку з React, виклики API або будь-які виклики до сервера найкраще розміщувати в методі життєвого циклу `componentDidMount()`. Цей метод викликають після того, як компонент встановлено в DOM. Будь-які виклики до `setState()` активують повторне відтворення компонента. Коли ви викликаєте API у цьому методі та встановлюєте стан відповідно до повернених даних API, цей метод автоматично запустить оновлення, як тільки ви отримаєте дані.
 

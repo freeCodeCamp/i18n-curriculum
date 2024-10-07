@@ -12,7 +12,7 @@ In diesem Video erfährst du, wie du den y-Achsenabschnitt einer linearen Funkti
 
 Hier ist das <a href="https://colab.research.google.com/drive/1UJ1w-XFTuCfK6FI3H2GT0lbxd2HO3tQ6?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">Colab-Notizbuch zu den letzten beiden Videos,</a> damit du die Formeln sehen kannst.
 
-# --assignment--
+# --Auftrag--
 
 Füge deinem Algebra-Colab-Notizbuch Code hinzu, um eine Funktion anhand von Punkten oder einer Gleichungseingabe grafisch darzustellen.
 
@@ -20,7 +20,7 @@ Füge deinem Algebra-Colab-Notizbuch Code hinzu, um eine Funktion anhand von Pun
 
 ## --text--
 
-If you know the slope ("m") and you have one (x,y) coordinate point, which of the following equations could you use to find "b", representing the y-intercept in Python?
+Wenn du die Steigung ("m") kennst und einen (x,y)-Koordinatenpunkt hast, welche der folgenden Gleichungen kannst du verwenden, um "b" zu finden, das den y-Achsenabschnitt in Python darstellt?
 
 ## --answers--
 

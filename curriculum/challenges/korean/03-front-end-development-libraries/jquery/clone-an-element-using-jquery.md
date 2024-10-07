@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aed508826
-title: Clone an Element Using jQuery
+title: jQuery로 요소 복제하기
 challengeType: 6
 forumTopicId: 16780
 dashedName: clone-an-element-using-jquery
@@ -10,33 +10,33 @@ dashedName: clone-an-element-using-jquery
 
 In addition to moving elements, you can also copy them from one place to another.
 
-jQuery has a function called `clone()` that makes a copy of an element.
+jQuery는 복제된 요소를 만드는 `clone()`이라는 함수를 가지고 있습니다.
 
-For example, if we wanted to copy `target2` from our `left-well` to our `right-well`, we would use:
+예를 들면 `left-well`에서 `right-well`로 `target2`를 복제하고 싶다면 다음과 같이 할 수 있습니다:
 
 ```js
 $("#target2").clone().appendTo("#right-well");
 ```
 
-Did you notice this involves sticking two jQuery functions together? This is called <dfn>function chaining</dfn> and it's a convenient way to get things done with jQuery.
+두 개의 jQuery 함수를 붙여서 사용했다는 것을 눈치채셨나요? <dfn>함수 체이닝(chaining)</dfn>이라고 부르며 jQuery로 무언가를 작업할 수 있는 편리한 방법입니다.
 
-Clone your `target5` element and append it to your `left-well`.
+`target5` 요소를 복제하고 `left-well`에 추가하시오.
 
 # --hints--
 
-Your `target5` element should be inside your `right-well`.
+`target5` 요소는 `right-well` 안에 있어야 합니다.
 
 ```js
 assert($('#right-well').children('#target5').length > 0);
 ```
 
-A copy of your `target5` element should also be inside your `left-well`.
+복제된 `target5` 요소도 `left-well` 안에 있어야 합니다.
 
 ```js
 assert($('#left-well').children('#target5').length > 0);
 ```
 
-You should only use jQuery to move these elements.
+이 요소들을 이동시킬 때 오직 jQuery만 사용해야 합니다.
 
 ```js
 assert(!code.match(/class.*animated/g));

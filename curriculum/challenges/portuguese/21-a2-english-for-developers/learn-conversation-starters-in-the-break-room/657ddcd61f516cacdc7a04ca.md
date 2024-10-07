@@ -53,7 +53,7 @@ Rentals are usually stationary services, not something that stops.
 
 3
 
-# --cena--
+# --scene--
 
 ```json
 { "setup": { "background": "company2-center.png", "characters": [

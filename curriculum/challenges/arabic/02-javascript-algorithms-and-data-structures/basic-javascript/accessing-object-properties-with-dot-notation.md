@@ -9,7 +9,7 @@ dashedName: accessing-object-properties-with-dot-notation
 
 # --description--
 
-هناك طريقتان للوصول إلى خصائص الكائن: نقطة التأشير (`.`) و علامات الأقواس (`[]`)، على غرار القائمة.
+There are two ways to access the properties of an object: dot notation (`.`) and bracket notation (`[]`), similar to an array.
 
 ترميز النقطة هو ما تستخدمه عندما تعرف اسم الخاصية التي تحاول الوصول إليها مسبقاً.
 

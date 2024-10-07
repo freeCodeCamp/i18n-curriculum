@@ -9,7 +9,7 @@ dashedName: adjust-the-margin-of-an-element
 
 # --description--
 
-A propriedade `margin` de um elemento controla a quantidade de espaço entre a borda (`border`) de um elemento e os elementos ao redor.
+An element's `margin` controls the amount of space between an element's `border` and surrounding elements.
 
 Aqui, podemos ver que a caixa azul e a caixa vermelha estão aninhadas dentro da caixa amarela. Observe que a caixa vermelha tem uma `margin` maior do que a caixa azul, fazendo com que ela pareça menor.
 

@@ -9,7 +9,7 @@ dashedName: use-attribute-selectors-to-style-elements
 
 # --description--
 
-지금까지 우리는 스타일을 지정하려는 요소에 `id` 또는 `class` 속성을 추가했습니다. 이러한 것들은 ID 및 클래스 선택자로 알려져 있습니다. 스타일을 지정할 사용자 지정 요소 그룹을 선택하는 데 사용할 수 있는 다른 CSS 선택자도 있습니다.
+You have been adding `id` or `class` attributes to elements that you wish to specifically style. These are known as ID and class selectors. There are other CSS Selectors you can use to select custom groups of elements to style.
 
 다시 한 번 CatPhotoApp에 CSS 선택자 사용을 연습해 봅시다.
 

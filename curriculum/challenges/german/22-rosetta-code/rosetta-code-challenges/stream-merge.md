@@ -8,7 +8,7 @@ dashedName: stream-merge
 
 # --description--
 
-Write a function that takes multiple sorted arrays of items, and returns one array of sorted items.
+Schreibe eine Funktion die mehrere sortierte Arrays von Objekten nimmt und ein Array mit sortierten Objekten ausgibt.
 
 # --hints--
 

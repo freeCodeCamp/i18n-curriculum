@@ -8,7 +8,7 @@ dashedName: create-a-class-to-target-with-jquery-selectors
 
 # --description--
 
-並不是所有 class 屬性都需要有對應的 CSS 樣式。 有時候我們設置 class 只是爲了更方便地在 jQuery 中選中這些元素。
+Not every class needs to have corresponding CSS. Sometimes we create classes just for the purpose of selecting these elements more easily using jQuery.
 
 爲每一個 `button` 元素添加 `target` class。
 

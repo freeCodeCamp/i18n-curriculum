@@ -1,6 +1,6 @@
 ---
 id: 587d825a367417b2b2512c8a
-title: Insert an Element into a Max Heap
+title: Einfügen eines Elements in einen Max Heap
 challengeType: 1
 forumTopicId: 301703
 dashedName: insert-an-element-into-a-max-heap
@@ -10,45 +10,45 @@ dashedName: insert-an-element-into-a-max-heap
 
 Now we will move on to another tree data structure, the binary heap. A binary heap is a partially ordered binary tree which satisfies the heap property. The heap property specifies a relationship between parent and child nodes. You may have a max heap, in which all parent nodes are greater than or equal to their child nodes, or a min heap, in which the reverse is true. Binary heaps are also complete binary trees. This means that all levels of the tree are fully filled and if the last level is partially filled it is filled from left to right.
 
-While binary heaps may be implemented as tree structures with nodes that contain left and right references, the partial ordering according to the heap property allows us to represent the heap with an array. The parent-children relationship is what we're interested in and with simple arithmetic we can compute the children of any parent and the parent of any child node.
+Während binäre Heaps als Baumstrukturen mit Knoten, die linke und rechte Referenzen enthalten, implementiert werden können, erlaubt uns die partielle Ordnung gemäß der Heap-Eigenschaft, den Heap durch ein Array darzustellen. Die Eltern-Kind-Beziehung ist das, was uns interessiert, und mit einfacher Arithmetik können wir die Kinder eines beliebigen Elternteils und das Elternteil eines beliebigen Kindknotens berechnen.
 
-For instance, consider this array representation of a binary min heap:
+Nehmen wir zum Beispiel diese Array-Darstellung eines binären Min-Haufens:
 
 ```js
 [ 6, 22, 30, 37, 63, 48, 42, 76 ]
 ```
 
-The root node is the first element, `6`. Its children are `22` and `30`. If we look at the relationship between the array indices of these values, for index `i` the children are `2 * i + 1` and `2 * i + 2`. Similarly, the element at index `0` is the parent of these two children at indices `1` and `2`. More generally, we can find the parent of a node at any index with the following: `Math.floor((i - 1) / 2)`. These patterns will hold true as the binary tree grows to any size. Finally, we can make a slight adjustment to make this arithmetic even easier by skipping the first element in the array. Doing this creates the following relationship for any element at a given index `i`:
+Der Wurzelknoten ist das erste Element, `6`. Seine Kinder sind `22` und `30`. Betrachtet man die Beziehung zwischen den Array-Indizes dieser Werte, so sind für den Index `i` die Kinder `2 * i + 1` und `2 * i + 2`. In ähnlicher Weise ist das Element mit dem Index `0` das übergeordnete Element dieser beiden Kinder mit den Indizes `1` und `2`. Allgemeiner ausgedrückt, können wir das Elternteil eines Knotens bei einem beliebigen Index mit der folgenden Methode finden: `Math.floor((i - 1) / 2)`. Diese Muster gelten auch, wenn der binäre Baum beliebig groß wird. Schließlich können wir eine kleine Anpassung vornehmen, um diese Arithmetik noch einfacher zu machen, indem wir das erste Element im Array auslassen. Auf diese Weise wird für jedes Element mit einem bestimmten Index `i` die folgende Beziehung erstellt:
 
-Example array representation:
+Beispiel einer Array-Darstellung:
 
 ```js
 [ null, 6, 22, 30, 37, 63, 48, 42, 76 ]
 ```
 
-An element's left child: `i * 2`
+Das linke Kind eines Elements: `i * 2`
 
-An element's right child: `i * 2 + 1`
+Das rechte Kind eines Elements: `i * 2 + 1`
 
-An element's parent: `Math.floor(i / 2)`
+Übergeordnetes Element eines Elements: `Math.floor(i / 2)`
 
-Once you wrap your head around the math, using an array representation is very useful because node locations can be quickly determined with this arithmetic and memory usage is diminished because you don't need to maintain references to child nodes.
+Wenn man sich die Mathematik erst einmal zu Gemüte geführt hat, ist die Verwendung einer Array-Darstellung sehr nützlich, da die Positionen der Knoten mit dieser Arithmetik schnell bestimmt werden können und der Speicherverbrauch verringert wird, da man keine Verweise auf untergeordnete Knoten pflegen muss.
 
 # --instructions--
 
-Instructions: Here we will create a max heap. Start by just creating an `insert` method which adds elements to our heap. During insertion, it is important to always maintain the heap property. For a max heap this means the root element should always have the greatest value in the tree and all parent nodes should be greater than their children. For an array implementation of a heap, this is typically accomplished in three steps:
+Anweisungen: Hier werden wir einen Max Heap erstellen. Beginne damit, eine `insert` Methode zu erstellen, die Elemente zu unserem Heap hinzufügt. Er muss beim Einfügen immer die Heap-Eigenschaft beibehalten. Für einen Max Heap bedeutet dies, dass das Wurzelelement immer den größten Wert im Baum haben sollte und dass alle übergeordneten Knoten größer als ihre Kinder sein sollten. Bei einer Array-Implementierung eines Heaps wird dies in der Regel in drei Schritten bewerkstelligt:
 
 <ol>
   <li>Add the new element to the end of the array.</li>
-  <li>If the element is larger than its parent, switch them.</li>
-  <li>Continue switching until the new element is either smaller than its parent or you reach the root of the tree.</li>
+  <li>Ist das Element größer als sein Elternteil, tausche es aus.</li>
+  <li>Fahre mit dem Umschalten fort, bis das neue Element entweder kleiner als sein übergeordnetes Element ist oder bis du die Wurzel des Baums erreicht hast.</li>
 </ol>
 
-Finally, add a `print` method which returns an array of all the items that have been added to the heap.
+Füge schließlich eine `print`-Methode hinzu, die ein Array mit allen Elementen zurückgibt, die dem Heap hinzugefügt wurden.
 
 # --hints--
 
-The `MaxHeap` data structure should exist.
+Die `MaxHeap`-Datenstruktur sollte vorhanden sein.
 
 ```js
 assert(
@@ -62,7 +62,7 @@ assert(
 );
 ```
 
-`MaxHeap` should have a method called `insert`.
+`MaxHeap` sollte eine Methode namens `insert` haben.
 
 ```js
 assert(
@@ -78,7 +78,7 @@ assert(
 );
 ```
 
-`MaxHeap` should have a method called `print`.
+`MaxHeap` sollte eine Methode namens `print` haben.
 
 ```js
 assert(
@@ -94,7 +94,7 @@ assert(
 );
 ```
 
-The `insert` method should add elements according to the max heap property.
+Die `insert` Methode sollte Elemente entsprechend der max heap Eigenschaft hinzufügen.
 
 ```js
 assert(

@@ -8,7 +8,7 @@ dashedName: sum-all-primes
 
 # --description--
 
-质数（<dfn>prime number</dfn>）是大于 1 且仅可以被 1 和自己整除的数。 比如，2 就是一个质数，因为它只可以被 1 和 2（它本身）整除。 相反，4 不是质数，因为它可以被 1, 2 和 4 整除。
+A <dfn>prime number</dfn> is a whole number greater than 1 with exactly two divisors: 1 and itself. For example, 2 is a prime number because it is only divisible by 1 and 2. In contrast, 4 is not prime since it is divisible by 1, 2 and 4.
 
 请完成 `sumPrimes` 方法，使其返回小于等于传入参数数字的所有质数之和。
 

@@ -1,6 +1,6 @@
 ---
 id: 5ee127a03c3b35dd45426493
-title: Assigning the Value of One Variable to Another
+title: 변수의 값을 다른 변수의 값으로 할당하기
 challengeType: 1
 forumTopicId: 418265
 dashedName: assigning-the-value-of-one-variable-to-another
@@ -17,27 +17,27 @@ var myNum;
 myNum = myVar;
 ```
 
-The above declares a `myVar` variable with no value, then assigns it the value `5`. Next, a variable named `myNum` is declared with no value. Then, the contents of `myVar` (which is `5`) is assigned to the variable `myNum`. Now, `myNum` also has the value of `5`.
+위의 코드는 우선 값을 가지지 않은 `myVar` 변수를 선언한 후, 값 `5`를 할당합니다. 다음으로, 값을 가지지 않은 `myNum`이라는 변수를 선언합니다. 그리고 `myVar`의 내용(`5`라는 값) 을 `myNum`에 할당하고 있습니다. 그러면 이제 `myNum` 또한 값 `5`를 갖게 됩니다.
 
 # --instructions--
 
-Assign the contents of `a` to variable `b`.
+변수 `a`의 내용을 변수 `b`에 할당해 주세요.
 
 # --hints--
 
-You should not change code above the specified comment.
+당신은 지정된 코멘트 위의 코드를 변경하면 안됩니다.
 
 ```js
 assert(/var a;/.test(__helpers.removeJSComments(code)) && /a = 7;/.test(__helpers.removeJSComments(code)) && /var b;/.test(__helpers.removeJSComments(code)));
 ```
 
-`b` should have a value of `7`.
+`b` 의 값은 `7`을 갖고 있어야 합니다.
 
 ```js
 assert(typeof b === 'number' && b === 7);
 ```
 
-`a` should be assigned to `b` with `=`.
+`a` 는 `=` 을 사용해 `b` 가 할당되어야 합니다.
 
 ```js
 assert(/b\s*=\s*a\s*/g.test(__helpers.removeJSComments(code)));

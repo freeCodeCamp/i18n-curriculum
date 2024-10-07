@@ -8,7 +8,7 @@ dashedName: use-typeof-to-check-the-type-of-a-variable
 
 # --description--
 
-可以使用 `typeof` 检查变量的数据结构或类型。 在处理多种数据类型时，这会对调试很有帮助。 如果想计算两数之和，但实际传入了一个字符串参数，则结果可能是错误的。 类型错误可能隐藏在计算或函数调用中。 当你以 JavaScript 对象（JSON）的形式访问和使用外部数据时尤其要小心。
+You can use `typeof` to check the data structure, or type, of a variable. This is useful in debugging when working with multiple data types. If you think you're adding two numbers, but one is actually a string, the results can be unexpected. Type errors can lurk in calculations or function calls. Be careful especially when you're accessing and working with external data in the form of a JavaScript Object Notation (JSON) object.
 
 下面是使用 `typeof` 的一些示例：
 

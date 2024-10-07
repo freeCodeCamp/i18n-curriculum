@@ -24,7 +24,7 @@ Die Website wird aus einer Hauptindexseite bestehen, die über Links zu einigen 
 1. Du solltest eine geordnete Liste mit einigen Schritten sehen können, die für die Zubereitung des Rezepts erforderlich sind.
 1. Unterhalb der Schritte sollte ein `h2`-Element mit dem Text `More Recipes` stehen.
 1. Du solltest einige Links zu anderen Rezepten in einer ungeordneten Liste sehen können, die einige Listeneinträge mit Ankerelementen enthält.
-1. These anchor elements should have an `href` attribute with the value set to `#`.
+1. Diese Ankerelemente sollten über ein `href`-Attribut mit dem Wert `#` verfügen.
 
 # --hints--
 
@@ -34,7 +34,7 @@ Du solltest über einen `DOCTYPE`-Tag verfügen.
 assert(code.match(/<!DOCTYPE\s+?html\s*?>/gi));
 ```
 
-You should have an `html` element with `head` and `body` element.
+Du solltest ein `html`-Element mit `head` und `body`-Element haben.
 
 ```js
 const html = document.querySelectorAll('html')[0];
@@ -137,7 +137,7 @@ const containsAnchors =  [...listItems].every(function(listItem) {
 assert(unorderedList && allAreListItems && containsAnchors && listItems.length > 1);
 ```
 
-Your anchor tags linking to the recipes should have an `href` attribute with the value set to `#`.
+Deine Ankertags, die zu den Rezepten verlinken, sollten ein `href`-Attribut mit dem Wert `#` haben.
 
 ```js
 const anchorTags = document.querySelectorAll("a");

@@ -8,7 +8,7 @@ dashedName: averagesmode
 
 # --description--
 
-Write a function `mode` to find the value that appears most in an array.
+Schreibe eine Funktion `mode`, um den Wert zu finden, der am häufigsten in einem Bereich vorkommt.
 
 Der Fall, dass die Sammlung leer ist, kann ignoriert werden. Der Fall, dass der Modus nicht eindeutig ist, muss sorgfältig behandelt werden.
 

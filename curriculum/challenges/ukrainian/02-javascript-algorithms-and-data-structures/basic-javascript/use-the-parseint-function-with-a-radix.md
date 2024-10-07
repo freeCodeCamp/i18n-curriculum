@@ -9,7 +9,7 @@ dashedName: use-the-parseint-function-with-a-radix
 
 # --description--
 
-Функція `parseInt()` аналізує рядок і повертає ціле число. Вона приймає другий аргумент для розряду, який вказує базу числа в рядку. Розрядом може бути ціле число від 2 до 36.
+The `parseInt()` function parses a string and returns an integer. It takes a second argument for the radix, which specifies the base of the number in the string. The radix can be an integer between 2 and 36.
 
 Виклик функції виглядає так:
 

@@ -8,7 +8,7 @@ dashedName: problem-177-integer-angled-quadrilaterals
 
 # --description--
 
-Нехай ABCD є опуклим чотирикутником з діагоналями AC та BD. На кожній вершині діагональ утворює кут з обома сторонами, тобто маємо вісім кутів.
+Нехай ABCD є опуклим чотирикутником з діагоналями AC та BD. При кожній вершині діагональ утворює кут з обома сторонами, тобто маємо вісім кутів.
 
 <img alt="опуклий чотирикутник ABCD з діагоналями AC та BD" src="https://cdn.freecodecamp.org/curriculum/project-euler/integer-angled-quadrilaterals.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 

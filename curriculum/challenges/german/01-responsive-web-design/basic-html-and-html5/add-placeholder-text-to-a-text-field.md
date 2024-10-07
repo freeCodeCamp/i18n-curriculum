@@ -9,7 +9,7 @@ dashedName: add-placeholder-text-to-a-text-field
 
 # --description--
 
-Platzhaltertext ist das, was in deinem `input`-Element angezeigt wird, bevor dein Benutzer etwas eingegeben hat.
+Placeholder text is what is displayed in your `input` element before your user has inputted anything.
 
 Du kannst Platzhaltertext wie folgt erstellen:
 

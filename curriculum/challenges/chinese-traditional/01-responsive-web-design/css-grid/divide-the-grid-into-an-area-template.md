@@ -8,7 +8,7 @@ dashedName: divide-the-grid-into-an-area-template
 
 # --description--
 
-你可以將網格中的一些單元格組合成一個<dfn>區域（area）</dfn>，併爲該區域指定一個自定義名稱。 可以通過給容器加上 `grid-template-areas` 來實現：
+You can group cells of your grid together into an <dfn>area</dfn> and give the area a custom name. Do this by using `grid-template-areas` on the container like this:
 
 ```css
 grid-template-areas:

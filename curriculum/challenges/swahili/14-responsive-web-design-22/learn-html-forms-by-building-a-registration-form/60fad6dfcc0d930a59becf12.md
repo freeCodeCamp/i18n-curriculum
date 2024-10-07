@@ -7,7 +7,7 @@ dashedName: step-43
 
 # --description--
 
-HTML ya fomu ya usajili imekamilika. Sasa, unaweza kuirembesha kidogo.
+The HTML for the registration form is finished. Now, you can spruce it up a bit.
 
 Anza kwa kubadilisha fonti hadi `Tahoma`, na saizi ya fonti kuwa `16px` katika `body`.
 

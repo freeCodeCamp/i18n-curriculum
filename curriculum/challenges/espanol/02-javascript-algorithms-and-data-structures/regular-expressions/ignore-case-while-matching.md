@@ -8,7 +8,7 @@ dashedName: ignore-case-while-matching
 
 # --description--
 
-Hasta ahora, has visto expresiones regulares para hacer coincidir cadenas literales. Pero a veces, tal vez quieras hacer coincidir las diferencias de capitalización.
+Up until now, you've looked at regexes to do literal matches of strings. But sometimes, you might want to also match case differences.
 
 La capitalización (o también llamada capitalización de letra) es la diferencia entre mayúsculas y minúsculas. Ejemplos de mayúsculas son `A`, `B` y `C`. Ejemplos de minúsculas son `a`, `b` y `c`.
 

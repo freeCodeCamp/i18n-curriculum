@@ -9,7 +9,7 @@ dashedName: introducing-else-if-statements
 
 # --description--
 
-Wenn du mehrere Bedingungen zu erfüllen hast, kannst du `if`-Anweisungen mit `else if`-Anweisungen verketten.
+If you have multiple conditions that need to be addressed, you can chain `if` statements together with `else if` statements.
 
 ```js
 if (num > 15) {

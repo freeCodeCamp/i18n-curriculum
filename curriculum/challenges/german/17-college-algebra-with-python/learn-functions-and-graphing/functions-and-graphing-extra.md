@@ -8,13 +8,13 @@ dashedName: functions-and-graphing-extra
 
 # --description--
 
-Dieses nächste Video zeigt dir die Verbindung zwischen Funktionen und grafischer Darstellung. Beachte, dass der Graph eine Möglichkeit ist, die Eingaben und Ausgaben einer Funktion darzustellen. Das Video zeigt dir dann, wie du eine Funktion mit Python grafisch darstellen kannst.
+Dieses nächste Video zeigt dir die Verbindung zwischen Funktionen und Grafik. Beachte, dass die Grafik eine Möglichkeit ist, die Eingaben und Ausgaben einer Funktion darzustellen. Das Video zeigt dir dann, wie du eine Funktion mit Python grafisch darstellen kannst.
 
 Hier ist das <a href="https://colab.research.google.com/drive/1UYorWd9-Btf_ZQyA9YdUzxzKR8rnVrSV" target="_blank" rel="noopener noreferrer nofollow">Colab-Notizbuch zu diesem Video.</a>
 
-# --assignment--
+# --Auftrag--
 
-Add code to your algebra Colab notebook for functions and graphing.
+Füge in deinem Algebra-Code-Notizbuch Code für Funktionen und Grafiken hinzu.
 
 # --questions--
 

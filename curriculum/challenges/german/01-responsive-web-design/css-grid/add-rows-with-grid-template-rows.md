@@ -9,7 +9,7 @@ dashedName: add-rows-with-grid-template-rows
 
 # --description--
 
-Das Raster, das du in der letzten Aufgabe erstellt hast, legt die Anzahl der Zeilen automatisch fest. Um die Zeilen manuell anzupassen, verwendest du die Eigenschaft `grid-template-rows` auf die gleiche Weise, wie du `grid-template-columns` in der vorherigen Aufgabe verwendet hast.
+The grid you created in the last challenge will set the number of rows automatically. To adjust the rows manually, use the `grid-template-rows` property in the same way you used `grid-template-columns` in the previous challenge.
 
 # --instructions--
 

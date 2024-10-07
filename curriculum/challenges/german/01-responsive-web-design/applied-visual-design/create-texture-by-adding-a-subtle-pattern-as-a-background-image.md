@@ -9,7 +9,7 @@ dashedName: create-texture-by-adding-a-subtle-pattern-as-a-background-image
 
 # --description--
 
-Man kann einen Hintergrund interessanter und ansehnlicher machen, indem man ihm ein subtiles Muster hinzufügt und damit eine Textur erzeugt. Der Schlüssel liegt natürlich in der Balance, damit er nicht zu prominent wird und vom Vordergrund ablenkt. Die Eigenschaft `background` unterstützt die Funktion `url()`, um ein Bild mit der gewünschten Textur oder einem Muster zu verlinken. Der Pfad des Links wird innerhalb der Klammern unter Anführungszeichen gesetzt.
+One way to add texture and interest to a background and have it stand out more is to add a subtle pattern. The key is balance, as you don't want the background to stand out too much, and take away from the foreground. The `background` property supports the `url()` function in order to link to an image of the chosen texture or pattern. The link address is wrapped in quotes inside the parentheses.
 
 # --instructions--
 

@@ -1,6 +1,6 @@
 ---
 id: 5900f4da1000cf542c50ffed
-title: 'Problem 366: Stone Game III'
+title: 'Problem 366: Steinspiel III'
 challengeType: 1
 forumTopicId: 302027
 dashedName: problem-366-stone-game-iii
@@ -8,7 +8,7 @@ dashedName: problem-366-stone-game-iii
 
 # --description--
 
-Two players, Anton and Bernhard, are playing the following game.
+Zwei Spieler, Anton und Bernhard, spielen das folgende Spiel.
 
 Es gibt einen Stapel von $n$ Steinen.
 
@@ -18,7 +18,7 @@ Danach darf jeder Spieler höchstens doppelt so viele Steine entfernen, wie sein
 
 Der Spieler, der den letzten Stein entfernt, gewinnt.
 
-E.g. $n = 5$
+z.B. $n = 5$
 
 Wenn der erste Spieler mehr als einen Stein nimmt, kann der nächste Spieler alle verbleibenden Steine nehmen.
 
@@ -32,17 +32,17 @@ Der zweite Spieler kann die beiden verbleibenden Steine nehmen und gewinnt.
 
 Bei einigen Gewinnstellungen gibt es mehr als einen möglichen Zug für den ersten Spieler.
 
-E.g. bei $n = 17$ kann der erste Spieler einen oder vier Steine entfernen.
+z.B. bei $n = 17$ kann der erste Spieler einen oder vier Steine entfernen.
 
 Lass $M(n)$ die maximale Anzahl von Steinen sein, die der erste Spieler in seinem ersten Zug von einer Gewinnposition nehmen kann, und $M(n) = 0$ für jede andere Position.
 
-$\sum M(n)$ for $n ≤ 100$ is 728.
+$\Summe M(n)$ für $n ≤ 100$ beträgt 728.
 
-Find $\sum M(n)$ for $n ≤ {10}^{18}$. Gib deine Antwort modulo ${10}^8$.
+Finde $\Summe M(n)$ für $n ≤ {10}^{18}$. Gib deine Antwort modulo ${10}^8$.
 
 # --hints--
 
-`stoneGameThree()` should return `88351299`.
+`stoneGameThree()` sollte `88351299` zurückgeben.
 
 ```js
 assert.strictEqual(stoneGameThree(), 88351299);

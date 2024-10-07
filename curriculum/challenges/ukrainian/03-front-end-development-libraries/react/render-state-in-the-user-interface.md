@@ -8,7 +8,7 @@ dashedName: render-state-in-the-user-interface
 
 # --description--
 
-Як тільки ви визначили початковий стан компонента, його будь-яку частину можна показати у відтвореному UI. Якщо компонент має стан, він завжди матиме доступ до даних в `state` у методі `render()`. Дані можна отримати за допомогою `this.state`.
+Once you define a component's initial state, you can display any part of it in the UI that is rendered. If a component is stateful, it will always have access to the data in `state` in its `render()` method. You can access the data with `this.state`.
 
 Якщо ви хочете отримати значення стану в `return` методу відтворення, значення потрібно взяти у фігурні дужки.
 

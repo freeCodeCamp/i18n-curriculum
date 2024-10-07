@@ -8,7 +8,7 @@ dashedName: 100-doors
 
 # --description--
 
-There are 100 doors in a row that are all initially closed. You make 100 passes by the doors. The first time through, visit every door and 'toggle' the door (if the door is closed, open it; if it is open, close it). The second time, only visit every 2nd door (i.e., door #2, #4, #6, ...) and toggle it. The third time, visit every 3rd door (i.e., door #3, #6, #9, ...), etc., until you only visit the 100th door.
+Es gibt 100 Türen in einer Reihe, die zunächst alle geschlossen sind. Du kommst 100 mal an den Türen vorbei. Gehe beim ersten Durchgang zu jeder Tür und "schalte" die Tür um (wenn die Tür geschlossen ist, öffne sie; wenn sie offen ist, schließe sie). Beim zweiten Mal, besuche nur jede 2. Tür (d.h. Tür #2, #4, #6,...) und schalte sie um. Beim dritten Mal nur jede dritte Tür (d.h. Tür #3, #6, #9, ...), etc., bis du nur die 100. Tür besuchst.
 
 # --instructions--
 

@@ -9,7 +9,7 @@ dashedName: concatenating-strings-with-the-plus-equals-operator
 
 # --description--
 
-يمكننا أيضًا استخدام المشغل `+=` <dfn>لضم</dfn> مقطع نصي في نهاية متغير مقطع نصي آخر موجود. ويمكن أن يكون ذلك مفيدا جدا لكسر مقطع نصي طويل على عدة اسطر.
+We can also use the `+=` operator to <dfn>concatenate</dfn> a string onto the end of an existing string variable. This can be very helpful to break a long string over several lines.
 
 **ملاحظة:** احترس من المسافات. لا يضيف المشغِّل مسافات بين المقاطع النصية المتسلسلة عند جمعها، لذا ستحتاج إلى إضافتها بنفسك.
 
@@ -20,7 +20,7 @@ let ourStr = "I come first. ";
 ourStr += "I come second.";
 ```
 
-يحتوي `ourStr` على قيمة المقطع النصي الآتي `I come first. I come second.` الآن.
+`ourStr` now has a value of the string `I come first. I come second.`.
 
 # --instructions--
 
@@ -34,7 +34,7 @@ ourStr += "I come second.";
 assert(/sentence\. This/.test(myStr));
 ```
 
-يجب أن يكون قيمة `myStr` المقطع النصي الآتي `This is the first sentence. This is the second sentence.`
+`myStr` should have a value of the string `This is the first sentence. This is the second sentence.`
 
 ```js
 assert(myStr === 'This is the first sentence. This is the second sentence.');

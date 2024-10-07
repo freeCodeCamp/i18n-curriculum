@@ -14,7 +14,7 @@ dashedName: developing-a-port-scanner
 
 ## --text--
 
-`.connect()` メソッドと `.connect_ex()` メソッドの主な違いは何ですか？
+What is the main difference between the `.connect()` and `.connect_ex()` methods?
 
 ## --answers--
 

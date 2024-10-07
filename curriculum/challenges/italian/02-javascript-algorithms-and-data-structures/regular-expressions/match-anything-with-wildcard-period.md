@@ -8,7 +8,7 @@ dashedName: match-anything-with-wildcard-period
 
 # --description--
 
-A volte non conoscerai (o non ne avrai bisogno) i caratteri esatti nei tuoi pattern. Pensare a tutte le parole che riconoscono - diciamo - un errore di ortografia, richiederebbe molto tempo. Per fortuna, puoi risparmiare tempo usando il carattere jolly: `.`
+Sometimes you won't (or don't need to) know the exact characters in your patterns. Thinking of all words that match, say, a misspelling would take a long time. Luckily, you can save time using the wildcard character: `.`
 
 Il carattere jolly `.` riconoscerà qualsiasi carattere. Il carattere jolly è anche chiamato `dot` e `period`. È possibile utilizzare il carattere jolly proprio come qualsiasi altro carattere nell'espressione regolare. Ad esempio, se volessi riconoscere `hug`, `huh`, `hut`, e `hum`, potresti utilizzare l'espressione regolare `/hu./` per far corrispondere tutte e quattro le parole.
 

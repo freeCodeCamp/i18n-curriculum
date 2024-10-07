@@ -79,7 +79,7 @@ Square(side=4)
 
 # --hints--
 
-Клас `Square` має бути підкласом класу `Rectangle`.
+The `Square` class should be a subclass of the `Rectangle` class.
 
 ```js
 ({
@@ -112,7 +112,7 @@ t.result.wasSuccessful()
 })
 ```
 
-Клас `Square` має відрізнятись від класу `Rectangle`.
+The `Square` class should be a distinct class from the `Rectangle` class.
 
 ```js
 ({
@@ -145,7 +145,7 @@ t.result.wasSuccessful()
 })
 ```
 
-Об’єкт-квадрат має бути екземпляром класу `Square` та класу `Rectangle`.
+A square object should be an instance of the `Square` class and the `Rectangle` class.
 
 ```js
 ({
@@ -250,7 +250,7 @@ t.result.wasSuccessful()
 })
 ```
 
-`Rectangle(3, 6).get_area()` має повернути `18`.
+`Rectangle(3, 6).get_area()` should return `18`.
 
 ```js
 ({
@@ -285,7 +285,7 @@ t.result.wasSuccessful()
 })
 ```
 
-`Square(5).get_area()` має повернути `25`.
+`Square(5).get_area()` should return `25`.
 
 ```js
 ({
@@ -320,7 +320,7 @@ t.result.wasSuccessful()
 })
 ```
 
-`Rectangle(3, 6).get_perimeter()` має повернути `18`.
+`Rectangle(3, 6).get_perimeter()` should return `18`.
 
 ```js
 ({
@@ -355,7 +355,7 @@ t.result.wasSuccessful()
 })
 ```
 
-`Square(5).get_perimeter()` має повернути `20`.
+`Square(5).get_perimeter()` should return `20`.
 
 ```js
 ({
@@ -390,7 +390,7 @@ t.result.wasSuccessful()
 })
 ```
 
-`Rectangle(3, 6).get_diagonal()` має повернути `6.708203932499369`.
+`Rectangle(3, 6).get_diagonal()` should return `6.708203932499369`.
 
 ```js
 ({
@@ -425,7 +425,7 @@ t.result.wasSuccessful()
 })
 ```
 
-`Square(5).get_diagonal()` має повернути `7.0710678118654755`.
+`Square(5).get_diagonal()` should return `7.0710678118654755`.
 
 ```js
 ({
@@ -460,7 +460,7 @@ t.result.wasSuccessful()
 })
 ```
 
-Екземпляр класу `Rectangle` повинен мати інше рядкове представлення після встановлення нових значень.
+An instance of the `Rectangle` class should have a different string representation after setting new values.
 
 ```js
 ({
@@ -497,7 +497,7 @@ t.result.wasSuccessful()
 })
 ```
 
-Екземпляр класу `Square` повинен мати інше рядкове представлення після встановлення нових значень за допомогою `.set_side()`.
+An instance of the `Square` class should have a different string representation after setting new values by using `.set_side()`.
 
 ```js
 ({
@@ -533,7 +533,7 @@ t.result.wasSuccessful()
 })
 ```
 
-Екземпляр класу `Square` повинен мати інше рядкове представлення після встановлення нових значень за допомогою `.set_width()` або `set_height()`.
+An instance of the `Square` class should have a different string representation after setting new values by using `.set_width()` or `set_height()`.
 
 ```js
 ({
@@ -573,7 +573,7 @@ t.result.wasSuccessful()
 })
 ```
 
-Метод `.get_picture()` має повернути інше рядкове представлення екземпляра `Rectangle`.
+The `.get_picture()` method should return a different string representation of a `Rectangle` instance.
 
 ```js
 ({
@@ -610,7 +610,7 @@ t.result.wasSuccessful()
 })
 ```
 
-Метод `.get_picture()` має повернути інше рядкове представлення екземпляра `Square`.
+The `.get_picture()` method should return a different string representation of a `Square` instance.
 
 ```js
 ({
@@ -683,7 +683,7 @@ t.result.wasSuccessful()
 })
 ```
 
-`Rectangle(15,10).get_amount_inside(Square(5))` має повернути `6`.
+`Rectangle(15,10).get_amount_inside(Square(5))` should return `6`.
 
 ```js
 ({
@@ -721,7 +721,7 @@ t.result.wasSuccessful()
 })
 ```
 
-`Rectangle(4,8).get_amount_inside(Rectangle(3, 6))` має повернути `1`.
+`Rectangle(4,8).get_amount_inside(Rectangle(3, 6))` should return `1`.
 
 ```js
 ({
@@ -757,7 +757,7 @@ t.result.wasSuccessful()
 })
 ```
 
-`Rectangle(2,3).get_amount_inside(Rectangle(3, 6))` має повернути `0`.
+`Rectangle(2,3).get_amount_inside(Rectangle(3, 6))` should return `0`.
 
 ```js
 ({

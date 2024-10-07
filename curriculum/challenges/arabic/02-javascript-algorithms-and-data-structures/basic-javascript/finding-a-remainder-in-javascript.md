@@ -9,7 +9,7 @@ dashedName: finding-a-remainder-in-javascript
 
 # --description--
 
-مشغل <dfn>المتبقي</dfn> الآتي `%` يعطي الجزء المتبقي من عملية تقسيم رقمين.
+The <dfn>remainder</dfn> operator `%` gives the remainder of the division of two numbers.
 
 **مثال**
 

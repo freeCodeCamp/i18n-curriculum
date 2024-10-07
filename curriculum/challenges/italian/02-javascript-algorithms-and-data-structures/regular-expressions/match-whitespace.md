@@ -8,7 +8,7 @@ dashedName: match-whitespace
 
 # --description--
 
-Le sfide finora hanno riguardato il riconoscimento delle lettere dell'alfabeto e dei numeri. Puoi anche riconoscere lo spazio bianco o gli spazi tra le lettere.
+The challenges so far have covered matching letters of the alphabet and numbers. You can also match the whitespace or spaces between letters.
 
 Puoi cercare spazi bianchi usando `\s`, che è una `s` minuscola. Questo pattern non coincide solo con lo spazio bianco, ma anche con il ritorno a capo, la tabulazione, il ritorno carrello e i caratteri di nuova riga. Potresti pensarlo simile alla classe di caratteri `[ \r\t\f\n\v]`.
 

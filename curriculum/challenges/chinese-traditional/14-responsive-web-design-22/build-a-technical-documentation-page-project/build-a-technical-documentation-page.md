@@ -8,11 +8,11 @@ dashedName: build-a-technical-documentation-page
 
 # --description--
 
-**目標：** 構建一個應用，它在功能上類似於 <a href="https://technical-documentation-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://technical-documentation-page.freecodecamp.rocks</a>。 **不要複製這個演示項目**。
+**Objective:** Build an app that is functionally similar to <a href="https://technical-documentation-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://technical-documentation-page.freecodecamp.rocks</a>. **Do not copy this demo project**.
 
-**需求：**
+**用戶需求:**
 
-1. 你能看見一個 `id="main-doc"` 的 `main`元素，它包含頁面的主要內容（技術文檔）。
+1. You can see a `main` element with a corresponding `id="main-doc"`, which contains the page's main content (technical documentation)
 1. 在 `#main-doc` 元素內，我能看見至少 5 個 `section` 元素，每個元素都有一個 class 爲 `main-section`。 應存在至少 5 個這樣的元素。
 1. 每個 `.main-section` 中的第一個元素應該是 `header` 元素，其中包含描述該部分主題的文本。
 1. class 爲 `main-section` 的每個 `section` 元素應該有一個與包含在其中的每個 `header` 的文本相對應的 `id`。 所有空格都應該被替換爲下劃線（例如，包含標題 “JavaScript and Java” 的 section 應有一個相應的 `id="JavaScript_and_Java"`）。
@@ -28,7 +28,7 @@ dashedName: build-a-technical-documentation-page
 1. 在常規尺寸的設備上（筆記本電腦、臺式機），帶有 `id="navbar"` 的元素應該顯示在屏幕左側，並且始終對用戶可見。
 1. 你的技術文檔應該使用至少一個媒體查詢。
 
-完成需求並通過下面的所有測試來完成這個項目。 賦予它你自己的個人風格。 編程愉快！
+完成需求並通過下面的所有測試來完成這個項目。 使用你自己的個人風格樣式。 編程愉快！
 
 **注意：** 請在你的 HTML 中添加 `<link rel="stylesheet" href="styles.css">` 以鏈接你的樣式表並應用你的 CSS
 

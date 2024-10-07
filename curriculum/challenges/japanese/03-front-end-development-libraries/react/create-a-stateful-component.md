@@ -8,7 +8,7 @@ dashedName: create-a-stateful-component
 
 # --description--
 
-React で最も重要なトピックの一つとなっているのが `state` です。 state (状態、ステート) は、アプリケーションが認識する必要のあるデータで構成され、時間とともに変化する可能性があります。 アプリでは通常、必要に応じて状態の変化に応答し、更新された UI を表示します。 React は、最新のウェブアプリケーションの状態管理に適したソリューションを備えています。
+One of the most important topics in React is `state`. State consists of any data your application needs to know about, that can change over time. You want your apps to respond to state changes and present an updated UI when necessary. React offers a nice solution for the state management of modern web applications.
 
 React コンポーネントで state を作成するには、`constructor` のコンポーネントクラスで `state` プロパティを宣言します。 これにより、コンポーネントが作成時に `state` で初期化されます。 `state` プロパティは JavaScript の `object` に設定する必要があります。 宣言は次のようになります。
 

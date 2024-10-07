@@ -8,7 +8,7 @@ dashedName: find-one-or-more-criminals-in-a-hunt
 
 # --description--
 
-حان الوقت للإيقاف المؤقت واختبار مهاراتك الكتابية الجديدة لـ regex. هربت مجموعة من المجرمين من السجن وهربوا بعيدا، لكنك لا تعرف عددهم. ومع ذلك، فإنك تعلم أنهم يبقون على مقربة من بعضهم البعض عندما يكونون حول أشخاص آخرين. أنت مسؤول عن العثور على جميع المجرمين فورا.
+Time to pause and test your new regex writing skills. A group of criminals escaped from jail and ran away, but you don't know how many. However, you do know that they stay close together when they are around other people. You are responsible for finding all of the criminals at once.
 
 إليك مثال لمراجعة كيفية القيام بذلك:
 

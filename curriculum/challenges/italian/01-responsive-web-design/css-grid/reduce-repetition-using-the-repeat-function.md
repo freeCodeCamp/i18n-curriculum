@@ -9,7 +9,7 @@ dashedName: reduce-repetition-using-the-repeat-function
 
 # --description--
 
-Quando hai usato `grid-template-columns` e `grid-template-rows` per definire la struttura di una griglia, hai inserito un valore per ogni riga o colonna che hai creato.
+When you used `grid-template-columns` and `grid-template-rows` to define the structure of a grid, you entered a value for each row or column you created.
 
 Diciamo che tu voglia una griglia con 100 righe della stessa altezza. Non è molto pratico inserire 100 valori singolarmente. Fortunatamente, c'è un modo migliore - usando la funzione `repeat` per specificare il numero di volte che vuoi che la colonna o la riga venga ripetuta, seguito da una virgola e dal valore che vuoi ripetere.
 

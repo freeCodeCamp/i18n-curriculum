@@ -9,7 +9,7 @@ dashedName: constructing-strings-with-variables
 
 # --description--
 
-Manchmal musst du einen String erstellen. Mit dem Verkettungsoperator (`+`) kannst du eine oder mehrere Variablen in einen String einfügen, den du erstellst.
+Sometimes you will need to build a string. By using the concatenation operator (`+`), you can insert one or more variables into a string you're building.
 
 Beispiel:
 

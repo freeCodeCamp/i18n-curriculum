@@ -9,7 +9,7 @@ dashedName: chaining-if-else-statements
 
 # --description--
 
-Інструкції `if/else` можна об’єднати для складної логіки. Ось <dfn>псевдокод</dfn> декількох об’єднаних інструкцій `if` / `else if`:
+`if/else` statements can be chained together for complex logic. Here is <dfn>pseudocode</dfn> of multiple chained `if` / `else if` statements:
 
 ```js
 if (condition1) {

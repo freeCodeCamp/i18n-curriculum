@@ -8,7 +8,7 @@ dashedName: problem-165-intersections
 
 # --description--
 
-Ein Segment ist eindeutig durch seine beiden Endpunkte definiert. By considering two line segments in plane geometry there are three possibilities: the segments have zero points, one point, or infinitely many points in common.
+Ein Segment ist eindeutig durch seine beiden Endpunkte definiert. Wenn du zwei Geraden in der ebenen Geometrie betrachtest, gibt es drei Möglichkeiten: Die Segmente haben null Punkte, einen Punkt oder unendlich viele Punkte gemeinsam.
 
 Wenn zwei Segmente genau einen Punkt gemeinsam haben, kann es außerdem sein, dass dieser gemeinsame Punkt ein Endpunkt entweder eines der Segmente oder beider ist. Wenn ein gemeinsamer Punkt zweier Segmente kein Endpunkt eines der beiden Segmente ist, ist er ein Innenpunkt beider Segmente.
 

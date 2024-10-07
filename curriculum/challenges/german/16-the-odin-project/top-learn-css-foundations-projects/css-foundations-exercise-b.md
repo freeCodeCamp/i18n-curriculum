@@ -7,7 +7,7 @@ dashedName: css-foundations-exercise-b
 
 # --description--
 
-**Objective:** There are several elements in the HTML file provided, which you will have to add either class or ID attributes to. Danach musst du die Regeln in der CSS-Datei mit der richtigen Selektor-Syntax hinzufügen.
+**Ziel:** Die bereitgestellte HTML-Datei enthält mehrere Elemente, die du entweder mit Klassen- oder ID-Attributen versehen musst. Danach musst du die Regeln in der CSS-Datei mit der richtigen Selektor-Syntax hinzufügen.
 
 ## User Stories
 

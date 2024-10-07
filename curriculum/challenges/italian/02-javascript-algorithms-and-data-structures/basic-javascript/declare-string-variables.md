@@ -9,7 +9,7 @@ dashedName: declare-string-variables
 
 # --description--
 
-In precedenza hai usato il seguente codice per dichiarare una variabile:
+Previously you used the following code to declare a variable:
 
 ```js
 var myName;

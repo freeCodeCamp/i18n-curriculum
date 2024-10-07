@@ -9,7 +9,7 @@ dashedName: introducing-else-statements
 
 # --description--
 
-Wenn eine Bedingung für eine `if`-Anweisung wahr ist, wird der darauf folgende Codeblock ausgeführt. Was ist, wenn diese Bedingung falsch ist? Normalerweise würde nichts passieren. Mit einer `else`-Anweisung kann ein alternativer Codeblock ausgeführt werden.
+When a condition for an `if` statement is true, the block of code following it is executed. What about when that condition is false? Normally nothing would happen. With an `else` statement, an alternate block of code can be executed.
 
 ```js
 if (num > 10) {

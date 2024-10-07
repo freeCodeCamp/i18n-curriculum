@@ -8,7 +8,7 @@ dashedName: catch-arguments-passed-in-the-wrong-order-when-calling-a-function
 
 # --description--
 
-Продовжуючи обговорення виклику функцій: наступною помилкою можуть бути аргументи функції, передані у неправильному порядку. Якщо аргументи належать до різних типів, (наприклад, функція очікує масив та ціле число), то це, ймовірно, призведе до помилки виконання. Якщо аргументи належать до одного типу (наприклад, усі є цілими числами), то логіка коду не матиме сенсу. Переконайтеся, що усі необхідні аргументи розташовано у правильному порядку, щоб уникнути цих проблем.
+Continuing the discussion on calling functions, the next bug to watch out for is when a function's arguments are supplied in the incorrect order. If the arguments are different types, such as a function expecting an array and an integer, this will likely throw a runtime error. If the arguments are the same type (all integers, for example), then the logic of the code won't make sense. Make sure to supply all required arguments, in the proper order to avoid these issues.
 
 # --instructions--
 

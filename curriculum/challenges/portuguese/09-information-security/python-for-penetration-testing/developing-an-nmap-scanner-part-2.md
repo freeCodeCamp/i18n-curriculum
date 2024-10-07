@@ -14,7 +14,7 @@ dashedName: developing-an-nmap-scanner-part-2
 
 ## --text--
 
-Qual das opções a seguir permite a verificação de portas UDP entre a 21 e a 443?
+Which of the following allows you to scan for UDP ports between 21 to 443?
 
 ## --answers--
 

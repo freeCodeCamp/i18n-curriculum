@@ -9,7 +9,7 @@ dashedName: modify-array-data-with-indexes
 
 # --description--
 
-A differenza delle stringhe, gli elementi degli array sono <dfn>mutabili</dfn> e possono essere cambiati liberamente, anche se l'array è stato dichiarato con `const`.
+Unlike strings, the entries of arrays are <dfn>mutable</dfn> and can be changed freely, even if the array was declared with `const`.
 
 **Esempio**
 
@@ -20,7 +20,7 @@ ourArray[0] = 15;
 
 `ourArray` ha ora il valore `[15, 40, 30]`.
 
-**Note:** Non ci dovrebbero essere spazi tra il nome dell'array e le parentesi quadre, come in `array [0]`. Anche se JavaScript è in grado di elaborarlo correttamente, questo potrebbe confondere altri programmatori che leggessero il tuo codice.
+**Note:** Non ci dovrebbero essere spazi tra il nome dell'array e le parentesi quadre, come in `array [0]`. Anche se JavaScript è in grado di elaborarlo correttamente, questo potrebbe confondere altri programmatori che leggono il tuo codice.
 
 # --instructions--
 

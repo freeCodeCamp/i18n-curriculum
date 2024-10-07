@@ -7,7 +7,7 @@ dashedName: step-31
 
 # --description--
 
-在最后一个 `img` 元素之后，添加一个 `figcaption` 元素，其文本为 `Cats hate other cats.`。
+After the last `img` element, add a `figcaption` element with the text `Cats hate other cats.`
 
 # --hints--
 
@@ -66,7 +66,7 @@ assert(
 );
 ```
 
-`figcaption` 元素应该有文本 `Cats hate other cats.`。 你可能忽略了文本或有拼写错误。
+`figcaption` 元素应包含文本 `Cats hate other cats.`。你遗漏了一个单词或有拼写错误。
 
 ```js
 assert(

@@ -8,7 +8,7 @@ dashedName: create-a-linear-scale-with-d3
 
 # --description--
 
-The bar and scatter plot charts both plotted data directly onto the SVG. しかし、バーまたは 1 つのデータポイントの高さが SVG の高さや幅の値よりも大きいと、そのバーまたはデータポイントは SVG 領域からはみ出てしまいます。
+The bar and scatter plot charts both plotted data directly onto the SVG. However, if the height of a bar or one of the data points were larger than the SVG height or width values, it would go outside the SVG area.
 
 D3では、データのプロットに役立つスケールがあります。 `scales` are functions that tell the program how to map a set of raw data points onto the pixels of the SVG.
 

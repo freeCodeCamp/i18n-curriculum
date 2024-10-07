@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedd08835
-title: Check Radio Buttons and Checkboxes by Default
+title: تحديد أزرار الراديو "Radio Buttons" وخانات الاختيار "Checkboxes" تلقائيا
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVMPUv/cWk3Qh6'
 forumTopicId: 301094
@@ -11,7 +11,7 @@ dashedName: check-radio-buttons-and-checkboxes-by-default
 
 You can set a checkbox or radio button to be checked by default using the `checked` attribute.
 
-To do this, just add the word `checked` to the inside of an `input` element. For example:
+لتفعل هذا ، فقط أضف الكلمة `checked`  داخل عنصر input . على سبيل المثال:
 
 ```html
 <input type="radio" name="test-name" checked>
@@ -19,29 +19,29 @@ To do this, just add the word `checked` to the inside of an `input` element. For
 
 # --instructions--
 
-Set the first of your radio buttons and the first of your checkboxes to both be checked by default.
+قم بتعيين أول أزرار الراديو "radio button" الخاصة بك وأول خانات الاختيار "checkboxe" الخاصة بك ليتم تحديدها تلقائيا.
 
 # --hints--
 
-Your first radio button on your form should be checked by default.
+أول زر راديو "radio button" في النموذج "form" الخاص بك يجب أن يكون محدد تلقائيا.
 
 ```js
 assert($('input[type="radio"]').prop('checked'));
 ```
 
-Your first checkbox on your form should be checked by default.
+أول خانة اختيار "checkbox" في النموذج "form" الخاص بك يجب أن تكون محددة تلقائيا.
 
 ```js
 assert($('input[type="checkbox"]').prop('checked'));
 ```
 
-You should not change the inner text of the `Indoor` label.
+يجب ألا تغير النص الداخلي للتسمية `Indoor`.
 
 ```js
 assert.equal(document.querySelector('label[for="indoor"]')?.innerText?.trim(), 'Indoor');
 ```
 
-You should not change the inner text of the `Loving` label.
+يجب ألا تغير النص الداخلي للتسمية `Loving`.
 
 ```js
 assert.equal(document.querySelector('label[for="loving"]')?.innerText?.trim(), 'Loving');

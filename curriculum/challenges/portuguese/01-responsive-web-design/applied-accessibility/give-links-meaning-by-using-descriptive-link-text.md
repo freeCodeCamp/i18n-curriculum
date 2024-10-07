@@ -9,7 +9,7 @@ dashedName: give-links-meaning-by-using-descriptive-link-text
 
 # --description--
 
-Os usuários de leitores de tela têm várias opções para o tipo de conteúdo que o seu dispositivo lê. Essas opções incluem pular para (ou sobre) elementos de referência, pular para o conteúdo principal ou obter um resumo da página a partir dos títulos. Outra opção é apenas ouvir os links disponíveis na pagina.
+Screen reader users have various options for what type of content their device reads. These options include skipping to (or over) landmark elements, jumping to the main content, or getting a page summary from the headings. Another option is to only hear the links available on a page.
 
 Leitores de tela fazem isso lendo o texto do link, ou o que estiver entre as tags (`a`). Ter uma lista de links com textos do tipo "clique aqui" ou "leia mais" não ajuda muito. Em vez disso, você deve usar um texto pequeno, mas descritivo, entre as tags `a` para fornecer mais significado para os usuários.
 

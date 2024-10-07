@@ -8,7 +8,7 @@ dashedName: display-shapes-with-svg
 
 # --description--
 
-El desafío anterior creó un elemento `svg` con un ancho y alto determinado, el cual era visible porque tenía un `background-color` aplicado a él en la etiqueta `style`. El código dejó espacio para el ancho y la altura dados.
+The last challenge created an `svg` element with a given width and height, which was visible because it had a `background-color` applied to it in the `style` tag. The code made space for the given width and height.
 
 El siguiente paso es crear una forma para poner en el área `svg`. Hay una serie de formas compatibles en SVG, como rectángulos y círculos. Se utilizan para mostrar datos. Por ejemplo, una forma SVG rectangular (`<rect>`) podría crear una barra en un gráfico de barras.
 

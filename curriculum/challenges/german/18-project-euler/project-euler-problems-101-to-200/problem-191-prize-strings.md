@@ -1,6 +1,6 @@
 ---
 id: 5900f42b1000cf542c50ff3e
-title: 'Problem 191: Prize Strings'
+title: 'Problem 191: Prämien-Strings'
 challengeType: 1
 forumTopicId: 301829
 dashedName: problem-191-prize-strings
@@ -12,7 +12,7 @@ Eine bestimmte Schule bietet Kindern mit guter Anwesenheit und Pünktlichkeit Ge
 
 Während eines n-tägigen Zeitraums wird ein – aus den Buchstaben L (late), O (on time) und A (abwesend) bestehender – dreigliedriger String gebildet.
 
-Although there are eighty-one trinary strings for a 4-day period that can be formed, exactly forty-three strings would lead to a prize:
+Obwohl es einundachtzig Dreierketten für einen Zeitraum von 4 Tagen gibt, die gebildet werden können, würden genau dreiundvierzig Ketten zu einem Preis führen:
 
 ```markup
 OOOO OOOA OOOL OOAO OOAA OOAL OOLO OOLA OAOO OAOA

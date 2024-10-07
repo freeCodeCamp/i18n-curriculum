@@ -8,18 +8,18 @@ dashedName: record-collection
 
 # --description--
 
-Stai creando una funzione che facilita la manutenzione di una collezione di album musicali. La collezione è organizzata come un oggetto che contiene più album i quali sono anch'essi oggetti. Ogni album è rappresentato nella collezione con un `id` unico come nome della proprietà. All'interno di ogni oggetto dell'album, ci sono varie proprietà che danno informazioni sull'album. Non tutti gli album hanno informazioni complete.
+You are creating a function that aids in the maintenance of a musical album collection. The collection is organized as an object that contains multiple albums which are also objects. Each album is represented in the collection with a unique `id` as the property name. Within each album object, there are various properties describing information about the album. Not all albums have complete information.
 
 La funzione `updateRecords` prende 4 argomenti rappresentati dai seguenti parametri di funzione:
 
--   `records` - un oggetto contenente diversi album
--   `id` - un numero che rappresenta un album specifico nell'oggetto `records`
--   `prop` - una stringa che rappresenta il nome della proprietà dell'album da aggiornare
--   `value` - una stringa contenente le informazioni usate per aggiornare la proprietà dell'album
+-   `records` - an object containing several individual albums
+-   `id` - a number representing a specific album in the `records` object
+-   `prop` - a string representing the name of the album’s property to update
+-   `value` - a string containing the information used to update the album’s property
 
 Completa la funzione usando le regole sottostanti per modificare l'oggetto passato alla funzione.
 
--   La funzione deve sempre restituire l'intero oggetto `records`.
+-   Your function must always return the entire `records` object.
 -   Se `value` è una stringa vuota, elimina la proprietà `prop` dall'album.
 -   Se `prop` non è `tracks` e `value` non è una stringa vuota, assegna `value` alla `prop` di quell'album.
 -   If `prop` is `tracks` and `value` isn't an empty string, but the album doesn't have a `tracks` property, create an empty array and add `value` to it.

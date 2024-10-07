@@ -38,11 +38,11 @@ For example, the two paragraphs in the following code are siblings, since they a
  </html>
 ```
 
-You use indentation to make the level of nesting clear and readable for yourselves and other developers who will work with your HTML in the future. It is recommended to indent any child elements by two spaces.
+Utiliza la indentación para hacer que el nivel de anidación sea claro y legible para ti mismo y otros desarrolladores que trabajarán con tu HTML en el futuro. Es recomendado indentar cualquier elemento hijo por dos espacios.
 
-The parent, child, and sibling relationships between elements will become much more important later when you start styling your HTML with CSS and adding behavior with JavaScript. For now, however, it is just important to know the distinction between how elements are related and the terminology used to describe their relationships.
+Las relaciones de padre, hijo y hermanos entre elementos se volverán mucho más importantes más adelante cuando empieces a estilizar tu HTML con CSS y agregar comportamiento con JavaScript. Por ahora, sin embargo, es importante conocer la distinción entre cómo se relacionan los elementos y la terminología utilizada para describir sus relaciones.
 
-# --questions--
+# --preguntas----preguntas--
 
 ## --text--
 

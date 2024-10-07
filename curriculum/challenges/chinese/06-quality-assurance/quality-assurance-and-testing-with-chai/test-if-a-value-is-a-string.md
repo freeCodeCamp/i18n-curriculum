@@ -18,7 +18,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#13` in the `Strings` sui
 
 # --hints--
 
-应通过所有测试。
+不应有未通过的测试
 
 ```js
 (getUserInput) =>

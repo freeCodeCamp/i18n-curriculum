@@ -8,7 +8,7 @@ dashedName: access-props-using-this-props
 
 # --description--
 
-In den letzten Aufgaben ging es um die grundlegenden Möglichkeiten, Eigenschaften an Kindkomponenten zu übergeben. Was aber, wenn die Kindkomponente, der du eine Eigenschaft übergibst, eine ES6-Klassenkomponente ist und nicht eine zustandslose funktionale Komponente? Die ES6-Klassenkomponente verwendet eine etwas andere Konvention für den Zugriff auf Eigenschaften.
+The last several challenges covered the basic ways to pass props to child components. But what if the child component that you're passing a prop to is an ES6 class component, rather than a stateless functional component? The ES6 class component uses a slightly different convention to access props.
 
 Immer wenn du dich auf eine Klassenkomponente innerhalb ihrer selbst beziehst, verwendest du das Schlüsselwort `this`. Um auf Eigenschaften innerhalb einer Klassenkomponente zuzugreifen, stellst du dem Code, mit dem du auf sie zugreifst, `this` voran. Wenn eine ES6-Klassenkomponente zum Beispiel eine Eigenschaft namens `data` hat, schreibst du `{this.props.data}` in JSX.
 

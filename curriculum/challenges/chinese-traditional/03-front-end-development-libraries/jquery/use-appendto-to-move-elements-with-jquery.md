@@ -8,7 +8,7 @@ dashedName: use-appendto-to-move-elements-with-jquery
 
 # --description--
 
-現在來把標籤從一個 `div` 移動到另一個裏。
+Now let's try moving elements from one `div` to another.
 
 jQuery 有一個 `appendTo()` 方法，可以選取 HTML 標籤並將其添加到另一個標籤裏面。
 

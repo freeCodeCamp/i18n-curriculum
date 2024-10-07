@@ -1,6 +1,6 @@
 ---
 id: a3f503de51cfab748ff001aa
-title: Парність
+title: Pairwise
 challengeType: 1
 forumTopicId: 301617
 dashedName: pairwise
@@ -8,7 +8,7 @@ dashedName: pairwise
 
 # --description--
 
-Знайдіть пари елементів у масиві `arr`, сума яких дорівнює другому аргументу `arg` та поверніть суму їхніх індексів.
+Given an array `arr`, find element pairs whose sum equal the second argument `arg` and return the sum of their indices.
 
 Ви можете використовувати декілька пар, які мають однакові числові елементи, але різні індекси. У кожній парі варто використовувати найменші доступні індекси. Після того, як елемент було використано, його більше не можна використовувати для пари з іншим елементом. Наприклад, `pairwise([1, 1, 2], 3)` створює пару `[2, 1]`, де 1 має індекс 0, а не 1, оскільки 0+2 &lt; 1+2.
 

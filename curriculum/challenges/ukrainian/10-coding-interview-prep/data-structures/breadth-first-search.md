@@ -8,7 +8,7 @@ dashedName: breadth-first-search
 
 # --description--
 
-Ми вже вивчили різні способи представлення графів. А що тепер? Виникає очевидне запитання: як визначити відстань між будь-якими двома вершинами графа? Дати на нього відповідь можуть <dfn>алгоритми для обходу графа</dfn>.
+So far, we've learned different ways of creating representations of graphs. What now? One natural question to have is what are the distances between any two nodes in the graph? Enter <dfn>graph traversal algorithms</dfn>.
 
 <dfn>Алгоритми для обходу графа</dfn> — це алгоритми проходження вершин графа. Одним з таких алгоритмів є пошук у ширину.
 

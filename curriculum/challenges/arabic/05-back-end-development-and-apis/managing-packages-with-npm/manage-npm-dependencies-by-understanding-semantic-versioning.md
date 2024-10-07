@@ -8,7 +8,7 @@ dashedName: manage-npm-dependencies-by-understanding-semantic-versioning
 
 # --description--
 
-تتبع القيم في `Versions` من حزم npm في قسم التبعيات من الحُزْمَة الخاصة بك. النظام الذي يسمى بالإصدار الدلالي لنُسخ البرمجيات Semantic Versioning (SemVer)، وهو نمط صناعي لإصدار البرامج يهدف إلى تيسير إدارة الاعتمادات. كل من المكتبات، أو الأطر أو الأدوات الأخرى المنشورة على npm ينبغي أن تستخدم SemVer من أجل الإبلاغ بوضوح عن نوع التغييرات التي يمكن أن تتوقعها المشروعات إذا تم تحديثها.
+`Versions` of the npm packages in the dependencies section of your package.json file follow what’s called Semantic Versioning (SemVer), an industry standard for software versioning aiming to make it easier to manage dependencies. Libraries, frameworks or other tools published on npm should use SemVer in order to clearly communicate what kind of changes projects can expect if they update.
 
 معرفة SemVer مفيدة عند تطوير البرامج التي تستخدم التبعية الخارجية (التي تكاد تقوم بها دائما). يوما ما، فهمك لهذه الأرقام سوف يحفظك من إدخال تغييرات على مشروعك عن طريق الخطأ دون تفهم لماذا لا تعمل فجأة اليوم الأشياء التي عملت بالأمس. هذه هي الطريقة التي تعمل بها Semantic Versioning وفقا للموقع الرسمي على الإنترنت:
 

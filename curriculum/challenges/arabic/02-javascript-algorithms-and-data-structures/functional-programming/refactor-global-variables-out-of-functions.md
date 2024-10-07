@@ -8,7 +8,7 @@ dashedName: refactor-global-variables-out-of-functions
 
 # --description--
 
-وقد شهدنا حتى الآن مبدأين متميزين للبرمجة الوظيفية (functional programming):
+So far, we have seen two distinct principles for functional programming:
 
 1) لا تغير متغير (variable) أو كائن (object) - أنشئ متغيرات و كائنات (objects) جديدة و منشئا من الوظيفة (function) إذا لزم الأمر. تلميح: باستخدام شيء مثل `const newArr = arrVar`، حيث `arrVar` هو array، سوف يقوم ببساطة بإنشاء مرجع إلى المتغير الحالي وليس نسخة. لذا فإن تغيير قيمة في `newArr` سيغير القيمة في `arrVar`.
 

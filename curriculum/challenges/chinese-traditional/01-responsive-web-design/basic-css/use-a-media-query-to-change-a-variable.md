@@ -9,7 +9,7 @@ dashedName: use-a-media-query-to-change-a-variable
 
 # --description--
 
-CSS 變量可以簡化媒體查詢的定義方式。
+CSS Variables can simplify the way you use media queries.
 
 例如，當屏幕小於或大於媒體查詢所設置的值，只要我們更新變量的值，那麼使用了此變量的元素樣式就都會更改。
 

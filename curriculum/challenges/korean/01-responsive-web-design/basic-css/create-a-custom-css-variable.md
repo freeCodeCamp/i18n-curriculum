@@ -9,7 +9,7 @@ dashedName: create-a-custom-css-variable
 
 # --description--
 
-CSS 변수를 만들려면 변수 이름 앞에 두 개의 하이픈을 넣고 다음과 같이 값을 할당해 주면 됩니다.
+To create a CSS variable, you just need to give it a name with two hyphens in front of it and assign it a value like this:
 
 ```css
 --penguin-skin: gray;
@@ -23,7 +23,7 @@ CSS 변수를 만들려면 변수 이름 앞에 두 개의 하이픈을 넣고 �
 
 # --hints--
 
-`penguin` 클래스는 `--penguin-skin` 변수를 선언하고 `gray`로 할당해야 합니다.
+`penguin` 클래스는 `--penguin-skin` 변수를 선언하고 `gray`에 할당해야 합니다.
 
 ```js
 assert(

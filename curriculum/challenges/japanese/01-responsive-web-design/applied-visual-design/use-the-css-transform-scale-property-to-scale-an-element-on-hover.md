@@ -9,7 +9,7 @@ dashedName: use-the-css-transform-scale-property-to-scale-an-element-on-hover
 
 # --description--
 
-`transform` プロパティは要素の拡大縮小、移動、回転、傾斜などができる様々な関数を備えています。 要素の特定の状態を指定する `:hover` のような疑似クラスと一緒に使えば、`transform` プロパティは簡単にあなたの要素にインタラクティブ性を追加することができます。
+The `transform` property has a variety of functions that let you scale, move, rotate, skew, etc., your elements. When used with pseudo-classes such as `:hover` that specify a certain state of an element, the `transform` property can easily add interactivity to your elements.
 
 ユーザーがカーソルを合わせたとき、段落要素を元のサイズの 2.1 倍に拡大する例をこちらに示します:
 

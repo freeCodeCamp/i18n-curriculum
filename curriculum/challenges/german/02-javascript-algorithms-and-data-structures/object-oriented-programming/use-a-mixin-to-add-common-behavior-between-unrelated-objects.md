@@ -8,7 +8,7 @@ dashedName: use-a-mixin-to-add-common-behavior-between-unrelated-objects
 
 # --description--
 
-Wie du gesehen hast, wird das Verhalten durch Vererbung geteilt. Es gibt jedoch Fälle, in denen die Vererbung nicht die beste Lösung ist. Die Vererbung funktioniert nicht gut für nicht verwandte Objekte wie Vogel (`Bird`) und Flugzeug (`Airplane`). Sie können beide fliegen, aber ein `Bird` ist kein Typ von `Airplane` und andersherum.
+As you have seen, behavior is shared through inheritance. However, there are cases when inheritance is not the best solution. Inheritance does not work well for unrelated objects like `Bird` and `Airplane`. They can both fly, but a `Bird` is not a type of `Airplane` and vice versa.
 
 Für nicht verwandte Objekte ist es besser, <dfn>Mixins</dfn> zu verwenden. Ein Mixin ermöglicht es anderen Objekten, eine Sammlung von Funktionen zu nutzen.
 

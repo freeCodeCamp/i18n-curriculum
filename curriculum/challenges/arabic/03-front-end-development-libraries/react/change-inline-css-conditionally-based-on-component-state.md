@@ -8,7 +8,7 @@ dashedName: change-inline-css-conditionally-based-on-component-state
 
 # --description--
 
-في هذه المرحلة، رأيتم عدة تطبيقات للعرض المشروط و استخدام التصميمات الداخلية. هذا مثال آخر يجمع بين هذين الموضوعين. يمكنك أيضا جعل CSS مشروطا استنادا على حالة (state) مكون React. للقيام بذلك، يمكنك التحقق من وجود حالة، وإذا تم الوفاء بهذا الشرط، عدّل كائن التصميمات التي تم تعيينها لعناصر JSX في طريقة التقديم.
+At this point, you've seen several applications of conditional rendering and the use of inline styles. Here's one more example that combines both of these topics. You can also render CSS conditionally based on the state of a React component. To do this, you check for a condition, and if that condition is met, you modify the styles object that's assigned to the JSX elements in the render method.
 
 ومن المهم فهم هذا النموذج لأنه تحولاً جذرياً عن النهج الأكثر تقليدية المتمثل في تطبيق التصميمات عن طريق تعديل عناصر DOM قاصدًا (وهو أمر شائع جداً مع JQuery، مثلاً). وفي ذلك النهج، يجب أن تتتبع متى تتغير العناصر وأن تتعامل أيضا مع التلاعب الفعلي قاصدًا. قد يصبح من الصعب تتبع التغييرات، مما قد يجعل واجهة المستخدم (UI) الخاصة بك غير قابلة للتنبؤ. عندما تضبط كائن الأسلوب بناءً على شرط، فإنك تصف كيف يجب أن تبدو واجهة المستخدم (UI) بناء على وظيفة لحالة التطبيق. وهناك تدفق واضح للمعلومات لا يتحرك إلا في اتجاه واحد. هذه هي الطريقة المفضلة عند كتابة الطلبات مع React.
 

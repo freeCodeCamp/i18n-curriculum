@@ -1,6 +1,6 @@
 ---
 id: 587d825b367417b2b2512c8c
-title: Implement Heap Sort with a Min Heap
+title: 用最小堆实现堆排序
 challengeType: 1
 forumTopicId: 301643
 dashedName: implement-heap-sort-with-a-min-heap
@@ -10,15 +10,15 @@ dashedName: implement-heap-sort-with-a-min-heap
 
 Now that we can add and remove elements let's see some of the applications heaps can be used for. Heaps are commonly used to implement priority queues because they always store an item of greatest or least value in first position. In addition, they are used to implement a sorting algorithm called heap sort. We'll see how to do this here. Heap sort uses a min heap, the reverse of a max heap. A min heap always stores the element of least value in the root position.
 
-Heap sort works by taking an unsorted array, adding each item in the array into a min heap, and then extracting every item out of the min heap into a new array. The min heap structure ensures that the new array will contain the original items in least to greatest order. This is one of the most efficient sorting algorithms with average and worst case performance of O(nlog(n)).
+堆排序通过获取未排序的数组，将数组中的每个项目添加到最小堆中，然后将最小堆中的每个项目提取到新数组中。 最小堆结构确保新数组将以最小到最大的顺序包含原始项目。 这是最有效的排序算法之一，平均和最坏情况下的性能为 O(nlog(n))。
 
 # --instructions--
 
-Let's implement heap sort with a min heap. Feel free to adapt your max heap code here. Create an object `MinHeap` with `insert`, `remove`, and `sort` methods. The `sort` method should return an array of all the elements in the min heap sorted from smallest to largest.
+让我们用最小堆实现堆排序。 您可以在此处调整最大堆代码。 使用 `insert`、`remove` 和 `sort` 方法创建一个对象 `MinHeap`。 `sort` 方法应该返回最小堆中从最小到最大排序的所有元素的数组。
 
 # --hints--
 
-The `MinHeap` data structure should exist.
+`MinHeap` 数据结构应该存在。
 
 ```js
 assert(
@@ -32,7 +32,7 @@ assert(
 );
 ```
 
-`MinHeap` should have a method called `insert`.
+`MinHeap` 应该有一个名为 `insert` 的方法。
 
 ```js
 assert(
@@ -48,7 +48,7 @@ assert(
 );
 ```
 
-`MinHeap` should have a method called `remove`.
+`MinHeap` 应该有一个名为 `remove` 的方法。
 
 ```js
 assert(
@@ -64,7 +64,7 @@ assert(
 );
 ```
 
-`MinHeap` should have a method called `sort`.
+MinHeap中应当包含一个叫做 sort的方法。
 
 ```js
 assert(
@@ -80,7 +80,7 @@ assert(
 );
 ```
 
-The `sort` method should return an array containing all items added to the min heap in sorted order.
+Sort方法应该返回一个数组，其中包含按排序顺序添加到 min 堆中的所有项。
 
 ```js
 assert(

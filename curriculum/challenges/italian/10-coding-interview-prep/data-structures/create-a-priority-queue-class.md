@@ -8,7 +8,7 @@ dashedName: create-a-priority-queue-class
 
 # --description--
 
-In questa sfida creerai una Coda di Priorità. Una Coda Priorità è un tipo speciale di Coda in cui gli oggetti possono avere informazioni aggiuntive che ne specificano la priorità. Questa potrebbe essere semplicemente rappresentata con un numero intero. La priorità degli elementi sovrascriverà l'ordine di posizionamento nel determinare la sequenza di elementi rimossi dalla coda. Se un elemento con una priorità più alta viene accodato dopo gli elementi con priorità più bassa, l'elemento con priorità più alta sarà rimosso dalla coda prima di tutti gli altri.
+In this challenge you will be creating a Priority Queue. A Priority Queue is a special type of Queue in which items may have additional information which specifies their priority. This could be simply represented with an integer. Item priority will override placement order in determining the sequence items are dequeued. If an item with a higher priority is enqueued after items with lower priority, the higher priority item will be dequeued before all the others.
 
 Per esempio, immaginiamo di avere una coda di priorità con tre elementi:
 

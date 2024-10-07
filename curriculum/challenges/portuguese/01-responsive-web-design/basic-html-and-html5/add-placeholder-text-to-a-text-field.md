@@ -9,7 +9,7 @@ dashedName: add-placeholder-text-to-a-text-field
 
 # --description--
 
-O texto placeholder é o conteúdo exibido dentro do elemento `input` antes da inserção de texto por parte do usuário.
+Placeholder text is what is displayed in your `input` element before your user has inputted anything.
 
 Você pode criar um texto placeholder da seguinte maneira:
 

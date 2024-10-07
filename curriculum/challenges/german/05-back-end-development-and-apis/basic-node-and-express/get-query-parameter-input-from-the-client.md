@@ -8,7 +8,7 @@ dashedName: get-query-parameter-input-from-the-client
 
 # --description--
 
-Eine weitere gängige Methode, um Eingaben vom Nutzer zu erhalten, ist die Kodierung der Daten nach dem Routenpfad unter Verwendung eines Abfrage-Strings. Der Query-String wird durch ein Fragezeichen (?) begrenzt und enthält Feld=Wert-Paare. Jedes Paar ist durch ein kaufmännisches Und-Zeichen (&) getrennt. Express kann die Daten aus dem Query-String auswerten und das Objekt `req.query` füllen. Einige Zeichen, wie z. B. das Prozentzeichen (%), können nicht in URLs enthalten sein und müssen in einem anderen Format kodiert werden, bevor man sie senden kann. Wenn du die API von JavaScript verwendest, kannst du bestimmte Methoden zur Kodierung/Dekodierung dieser Zeichen einsetzen.
+Another common way to get input from the client is by encoding the data after the route path, using a query string. The query string is delimited by a question mark (?), and includes field=value couples. Each couple is separated by an ampersand (&). Express can parse the data from the query string, and populate the object `req.query`. Some characters, like the percent (%), cannot be in URLs and have to be encoded in a different format before you can send them. If you use the API from JavaScript, you can use specific methods to encode/decode these characters.
 
 <blockquote>route_path: '/library'<br>actual_request_URL: '/library?userId=546&#x26;bookId=6754' <br>req.query: {userId: '546', bookId: '6754'}</blockquote>
 

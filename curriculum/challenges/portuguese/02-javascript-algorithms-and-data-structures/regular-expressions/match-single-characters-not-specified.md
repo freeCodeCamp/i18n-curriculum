@@ -8,7 +8,7 @@ dashedName: match-single-characters-not-specified
 
 # --description--
 
-Até agora você aprendeu a criar classes de caracteres para capturar caracteres específicos, mas você também pode usá-las para capturar caracteres ausentes nelas. Esse tipo de classe de caracteres é chamada <dfn>classe de caracteres negada</dfn>.
+So far, you have created a set of characters that you want to match, but you could also create a set of characters that you do not want to match. These types of character sets are called <dfn>negated character sets</dfn>.
 
 Para criar uma classe de caracteres negada, você só precisa colocar um acento circunflexo (`^`) depois do colchete de abertura e à esquerda dos caracteres que você quer evitar.
 

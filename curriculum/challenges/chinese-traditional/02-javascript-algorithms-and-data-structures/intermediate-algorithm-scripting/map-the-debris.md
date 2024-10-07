@@ -8,11 +8,11 @@ dashedName: map-the-debris
 
 # --description--
 
-根據開普勒第三定律，在環狀或橢圓軌道上在軌兩個點質量的 $T$ 軌道期爲：
+According to Kepler's Third Law, the orbital period $T$ of two point masses orbiting each other in a circular or elliptic orbit is:
 
 $$ T = 2 \pi \sqrt{\frac{a^{3}}{\mu}} $$
 
-- $a$ 是軌道的半主軸
+- $a$ is the orbit's semi-major axis
 - $μ = GM$ 是標準重力參數
 - $G$ 是引力常量
 - $M$ 是較大天體的質量

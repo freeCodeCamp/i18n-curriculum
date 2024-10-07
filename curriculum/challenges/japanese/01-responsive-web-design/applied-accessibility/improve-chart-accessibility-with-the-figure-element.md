@@ -9,7 +9,7 @@ dashedName: improve-chart-accessibility-with-the-figure-element
 
 # --description--
 
-HTML5 では `figure` 要素と、これに関連した `figcaption` が導入されました。 これらを使うことで、視覚的な表現 (画像、図形、チャートなど) をキャプション (説明文) と一緒に囲むことができます。 これにより、意味的に関連するコンテンツをグループ化し、`figure` を説明する代替テキストを提供することもできるため、アクセシビリティを二重に向上させることができます。
+HTML5 introduced the `figure` element and the related `figcaption`. Used together, these items wrap a visual representation (like an image, diagram, or chart) along with its caption. Wrapping these elements together gives a two-fold accessibility boost by semantically grouping related content and providing a text alternative explaining the `figure`.
 
 チャートなどのデータビジュアライゼーションでは、視覚障害のあるユーザーのために、傾向や結論を簡潔に記したキャプションを使うことができます。 別のチャレンジで、スクリーンリーダーユーザーのために (CSSを利用して) 表形式のチャートデータを画面外に移動させる方法を学びます。
 

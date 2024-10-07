@@ -8,7 +8,7 @@ dashedName: use-typeof-to-check-the-type-of-a-variable
 
 # --description--
 
-Ви можете використати `typeof`, щоб перевірити структуру даних (або тип) змінної. Це може бути корисно, якщо ви працюєте з різними типами даних. Якщо ви думаєте, що додаєте два числа, але одне з них насправді є рядком, результати можуть бути непередбачуваними. Помилки типів можуть ховатися у розрахунках або викликах функцій. Будьте особливо обережні, коли отримуєте доступ та працюєте із зовнішніми даними у вигляді об’єктів JSON.
+You can use `typeof` to check the data structure, or type, of a variable. This is useful in debugging when working with multiple data types. If you think you're adding two numbers, but one is actually a string, the results can be unexpected. Type errors can lurk in calculations or function calls. Be careful especially when you're accessing and working with external data in the form of a JavaScript Object Notation (JSON) object.
 
 Ось декілька прикладів використання `typeof`:
 

@@ -9,7 +9,7 @@ dashedName: define-the-head-and-body-of-an-html-document
 
 # --description--
 
-`html` 的結構主要分爲兩大部分：`head` 和 `body`。 網頁的描述應放入 `head` 標籤， 網頁的內容（向用戶展示的）則應放入 `body` 標籤。
+You can add another level of organization in your HTML document within the `html` tags with the `head` and `body` elements. Any markup with information about your page would go into the `head` tag. Then any markup with the content of the page (what displays for a user) would go into the `body` tag.
 
 比如 `link`、`meta`、`title` 和 `style` 都應放入 `head` 標籤。
 

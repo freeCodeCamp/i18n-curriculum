@@ -8,7 +8,7 @@ dashedName: problem-399-squarefree-fibonacci-numbers
 
 # --description--
 
-The first 15 fibonacci numbers are:
+Die ersten 15 Fibonacci-Zahlen sind:
 
 $$1,1,2,3,5,8,13,21,34,55,89,144,233,377,610.$$
 
@@ -28,13 +28,13 @@ Wenn die Vermutung falsch ist, dann ist die angenommene Antwort auf dieses Probl
 
 # --hints--
 
-`squarefreeFibonacciNumbers()` should return a string.
+`squarefreeFibonacciNumbers()` sollte einen String zurückgeben.
 
 ```js
 assert(typeof squarefreeFibonacciNumbers() === 'string');
 ```
 
-`squarefreeFibonacciNumbers()` should return the string `1508395636674243,6.5e27330467`.
+`squarefreeFibonacciNumbers()` sollte den String `1508395636674243,6.5e27330467` zurückgeben.
 
 ```js
 assert.strictEqual(squarefreeFibonacciNumbers(), '1508395636674243,6.5e27330467');

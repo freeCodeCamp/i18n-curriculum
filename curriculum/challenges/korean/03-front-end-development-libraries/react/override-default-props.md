@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d403616c
-title: Override Default Props
+title: Props 기본값 덮어쓰기
 challengeType: 6
 forumTopicId: 301399
 dashedName: override-default-props
@@ -12,13 +12,13 @@ The ability to set default props is a useful feature in React. The way to overri
 
 # --instructions--
 
-The `ShoppingCart` component now renders a child component `Items`. This `Items` component has a default prop `quantity` set to the integer `0`. Override the default prop by passing in a value of `10` for `quantity`.
+`ShoppingCart` 컴포넌트는 자식 컴포넌트인 `Items` 컴포넌트를 렌더링합니다. `Items` 컴포넌트는 정수 `0`를 가진 `quantity`프로퍼티가 기본값으로 설정되어 있습니다. `quantity`에 `10`을 전달해서 prop의 기본값을 덮어씌워보세요.
 
-**Note:** Remember that the syntax to add a prop to a component looks similar to how you add HTML attributes. However, since the value for `quantity` is an integer, it won't go in quotes but it should be wrapped in curly braces. For example, `{100}`. This syntax tells JSX to interpret the value within the braces directly as JavaScript.
+**참고:** 컴포넌트에 prop을 추가하는 문법은 HTML 속성을 추가하는 방법과 비슷합니다. 단, `quantity`의 값은 정수이므로, 따옴표가 아닌 중괄호로 묶어야 합니다. 예를 들면 `{100}`. 이 것은 JSX한테 중괄호 안의 값을 자바스크립트로 해석하라고 말해주는 겁니다.
 
 # --hints--
 
-The component `ShoppingCart` should render.
+`ShoppingCart` 컴포넌트가 렌더링되어야 합니다.
 
 ```js
 assert(
@@ -29,7 +29,7 @@ assert(
 );
 ```
 
-The component `Items` should render.
+`Items` 컴포넌트가 렌더링되어야 합니다.
 
 ```js
 assert(
@@ -40,7 +40,7 @@ assert(
 );
 ```
 
-The `Items` component should have a prop of `{ quantity: 10 }` passed from the `ShoppingCart` component.
+`Items` 컴포넌트는 `ShoppingCart` 컴포넌트에서 전달받은 `{ quantity: 10 }` prop이 있어야 합니다.
 
 ```js
 (getUserInput) =>

@@ -8,7 +8,7 @@ dashedName: convert-html-entities
 
 # --description--
 
-Converta os caracteres `&`, `<`, `>`, `"` (aspas duplas) e `'` (aspas simples), em uma string para suas entidades HTML correspondentes.
+Convert the characters `&`, `<`, `>`, `"` (double quote), and `'` (apostrophe), in a string to their corresponding HTML entities.
 
 # --hints--
 

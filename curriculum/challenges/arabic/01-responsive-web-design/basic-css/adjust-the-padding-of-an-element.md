@@ -1,6 +1,6 @@
 ---
 id: bad88fee1348bd9aedf08825
-title: Adjust the Padding of an Element
+title: ضبط هامش العُنصر الداخلي
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cED8ZC2'
 forumTopicId: 301083
@@ -11,23 +11,23 @@ dashedName: adjust-the-padding-of-an-element
 
 Now let's put our Cat Photo App away for a little while and learn more about styling HTML.
 
-You may have already noticed this, but all HTML elements are essentially little rectangles.
+رُبما تكون قد لاحظت هذا، لكن كُل الـ HTML elements هي بالفعل مُستطيلات صغيرة.
 
-Three important properties control the space that surrounds each HTML element: `padding`, `border`, and `margin`.
+ثلاثةُ خصائص هامة تتحكّم في المسافة حول كُل الـ HTML element: `padding`, `border`, and `margin`.
 
-An element's `padding` controls the amount of space between the element's content and its `border`.
+يتحكّم عُنصر الـ `padding` في المساحة بين مُحتوى العُنصر والـ `border`.
 
-Here, we can see that the blue box and the red box are nested within the yellow box. Note that the red box has more `padding` than the blue box.
+هُنا، نستطيع أن نرى أن الصندوق الأزرق والأحمر مُتداخلان داخل الصندوق الأصفر. لاحظ أن الصندوق الأحمر لديْه `padding` أكثر من الأزرق.
 
-When you increase the blue box's `padding`, it will increase the distance (`padding`) between the text and the border around it.
+عندما تقوم بزيادة الـ `padding` الخاص بالصندوق الأزرق؛ فإن المسافة ستزداد (`padding`) بين النص وبين الـ border حوله.
 
 # --instructions--
 
-Change the `padding` of your blue box to match that of your red box.
+قُم بتغيير الـ `padding` الخاص بالصندوق الأزرق ليتطابق مع الأحمر.
 
 # --hints--
 
-Your `blue-box` class should give elements `20px` of `padding`.
+الـ class `blue-box` يجب أن يأخذ قيمة `20px` من الـ `padding`.
 
 ```js
 assert($('.blue-box').css('padding-top') === '20px');

@@ -8,9 +8,9 @@ dashedName: build-a-freecodecamp-forum-homepage
 
 # --description--
 
-**Мета:** створити застосунок, функціонально схожий до цього: <https://codepen.io/freeCodeCamp/full/JqdoMV>.
+**Objective:** Build an app that is functionally similar to this: <https://codepen.io/freeCodeCamp/full/JqdoMV>.
 
-Виконайте історію користувача та пройдіть тести. Використовуйте необхідні вам бібліотеки або API. Оформте за власним стилем.
+Виконайте історію користувача та пройдіть тести. Використовуйте необхідні вам бібліотеки чи API. Продемонструйте свій власний неповторний стиль.
 
 ** Історія користувача: ** я можу бачити список останніх дописів на форумі freeCodeCamp.
 
@@ -20,7 +20,7 @@ dashedName: build-a-freecodecamp-forum-homepage
 
 **Підказка:** для отримання 30 останніх дописів на форумі: <https://forum-proxy.freecodecamp.rocks/latest>.
 
-Коли закінчите, надайте посилання на свій проєкт на CodePen та натисніть кнопку «Я виконав(-ла) це завдання».
+Після завершення додайте посилання на ваш проєкт на CodePen та натисніть на кнопку "Я виконав це завдання".
 
 Ви можете отримати фідбек до свого проєкту, поділившись ним на <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">форумі freeCodeCamp</a>.
 

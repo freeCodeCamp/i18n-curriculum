@@ -9,7 +9,7 @@ dashedName: compound-assignment-with-augmented-addition
 
 # --description--
 
-프로그래밍에서는 할당을 사용해서 변수의 값을 변경하는 일이 자주 일어납니다. 우선 등호(=) 의 우측 변에 있는 모든 것이 먼저 연산된다는 것을 기억하고 다음을 보세요.
+In programming, it is common to use assignments to modify the contents of a variable. Remember that everything to the right of the equals sign is evaluated first, so we can say:
 
 ```js
 myVar = myVar + 5;

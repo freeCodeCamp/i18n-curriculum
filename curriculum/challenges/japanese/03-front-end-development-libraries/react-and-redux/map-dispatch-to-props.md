@@ -8,7 +8,7 @@ dashedName: map-dispatch-to-props
 
 # --description--
 
-`mapDispatchToProps()` は、React コンポーネントに特定のアクションクリエイターを提供するために使用する関数で、アクションクリエイターから Redux ストアに対してアクションをディスパッチできるようにします。 この関数は、前回のチャレンジで記述した `mapStateToProps()` 関数と構造が似ていますが、 ディスパッチアクションをプロパティ名にマップするオブジェクトを返し、それがコンポーネントの `props` になります。 ただし、`state` の一部分を返すのではなく、各プロパティから、アクションクリエイターと関連するアクションデータ (存在する場合) を使用して `dispatch` を呼び出す関数を返します。 この `dispatch` は、`state` を `mapStateToProps()` に渡したのとまったく同じように、関数を定義するときにパラメーターとして `mapDispatchToProps()` に渡されます。そのため、dispatch にアクセスすることができます。 バックグラウンドでは、React Redux が `mapDispatchToProps()` でこれらのディスパッチを実行するために、Redux の `store.dispatch()` を使用しています。 これは、`state` にマッピングされたコンポーネントに対して `store.subscribe()` を使用する方法に似ています。
+The `mapDispatchToProps()` function is used to provide specific action creators to your React components so they can dispatch actions against the Redux store. It's similar in structure to the `mapStateToProps()` function you wrote in the last challenge. It returns an object that maps dispatch actions to property names, which become component `props`. However, instead of returning a piece of `state`, each property returns a function that calls `dispatch` with an action creator and any relevant action data. You have access to this `dispatch` because it's passed in to `mapDispatchToProps()` as a parameter when you define the function, just like you passed `state` to `mapStateToProps()`. Behind the scenes, React Redux is using Redux's `store.dispatch()` to conduct these dispatches with `mapDispatchToProps()`. This is similar to how it uses `store.subscribe()` for components that are mapped to `state`.
 
 たとえば、`loginUser()` というアクションクリエイターがあり、アクションペイロードとして `username` を受け取るとします。 このアクションクリエイターの `mapDispatchToProps()` から返されるオブジェクトは次のようになります。
 

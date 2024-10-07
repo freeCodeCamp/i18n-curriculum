@@ -11,19 +11,19 @@ dashedName: step-47
 
 # --hints--
 
-Ви не повинні змінювати наявний елемент `section`.
+Не змінюйте наявний елемент `section`.
 
 ```js
 assert.lengthOf(document.querySelectorAll('section'), 2);
 ```
 
-Ви повинні додати елемент `h2` до другого елемента `section`.
+Додайте елемент `h2` до другого елемента `section`.
 
 ```js
 assert.strictEqual(document.querySelectorAll('section')?.[1]?.children?.[0]?.tagName, 'H2');
 ```
 
-Ваш новий елемент `h2` повинен мати текст `Desserts`.
+Новий елемент `h2` повинен містити текст `Desserts`.
 
 ```js
 assert.match(document.querySelectorAll('h2')?.[1]?.innerText, /Desserts/i);

@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d4036160
-title: Define an HTML Class in JSX
+title: JSX에서 HTML 클래스 정의하기
 challengeType: 6
 forumTopicId: 301393
 dashedName: define-an-html-class-in-jsx
@@ -10,25 +10,25 @@ dashedName: define-an-html-class-in-jsx
 
 Now that you're getting comfortable writing JSX, you may be wondering how it differs from HTML.
 
-So far, it may seem that HTML and JSX are exactly the same.
+지금까지는 HTML과 JSX가 완전히 똑같아 보였을 수도 있습니다.
 
-One key difference in JSX is that you can no longer use the word `class` to define HTML classes. This is because `class` is a reserved word in JavaScript. Instead, JSX uses `className`.
+한 가지 큰 차이점은 JSX에서는 클래스를 정의할 때 `class`를 사용할 수 없습니다. 왜냐하면 `class`는 자바스크립트에서 이미 예약된 단어이기 때문입니다. 대신에 JSX는 `className`을 사용합니다.
 
-In fact, the naming convention for all HTML attributes and event references in JSX become camelCase. For example, a click event in JSX is `onClick`, instead of `onclick`. Likewise, `onchange` becomes `onChange`. While this is a subtle difference, it is an important one to keep in mind moving forward.
+사실, JSX 내에서 모든 HTML 속성과 이벤트 참조는 낙타 표기법(camelCase)으로 이름을 짓는 관습이 있습니다. 예를 들면, JSX 내에서 클릭 이벤트는 `onclick` 대신 `onClick` 입니다. 이와 같이, `onchange`는 `onChange`가 됩니다. 미묘한 차이지만, 앞으로의 학습을 진행하기 전에 꼭 기억해 두어야 합니다.
 
 # --instructions--
 
-Apply a class of `myDiv` to the `div` provided in the JSX code.
+주어진 JSX 코드의 `div`에 클래스 `myDiv`를 적용해 보세요.
 
 # --hints--
 
-The constant `JSX` should return a `div` element.
+상수 변수 `JSX`는 한 개의 `div` 엘리먼트를 반환해야 합니다.
 
 ```js
 assert.strictEqual(JSX.type, 'div');
 ```
 
-The `div` should have a class of `myDiv`.
+`div`는 클래스 `myDiv`를 가지고 있어야 합니다.
 
 ```js
 assert.strictEqual(JSX.props.className, 'myDiv');

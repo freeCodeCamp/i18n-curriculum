@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: conditional-execution
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-Which code is indented correctly to print "Yes" if x = 0 and y = 10?
+¿Qué código debería imprimir correctamente "Yes" si x = 0 y y = 10?
 
 ## --answers--
 

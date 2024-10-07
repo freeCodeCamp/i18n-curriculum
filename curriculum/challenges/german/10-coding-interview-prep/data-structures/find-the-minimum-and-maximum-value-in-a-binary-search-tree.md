@@ -1,6 +1,6 @@
 ---
 id: 587d8256367417b2b2512c7a
-title: Find the Minimum and Maximum Value in a Binary Search Tree
+title: Suche nach dem minimalen und maximalen Wert in einem binären Suchbaum
 challengeType: 1
 forumTopicId: 301642
 dashedName: find-the-minimum-and-maximum-value-in-a-binary-search-tree
@@ -12,7 +12,7 @@ In this challenge you will define two methods, `findMin` and `findMax`. These me
 
 # --hints--
 
-The `BinarySearchTree` data structure should exist.
+Die Datenstruktur `BinarySearchTree` sollte vorhanden sein.
 
 ```js
 assert(
@@ -26,7 +26,7 @@ assert(
 );
 ```
 
-The binary search tree should have a method called `findMin`.
+Der binäre Suchbaum sollte eine Methode namens `findMin` haben.
 
 ```js
 assert(
@@ -42,7 +42,7 @@ assert(
 );
 ```
 
-The binary search tree should have a method called `findMax`.
+Der binäre Suchbaum sollte eine Methode namens `findMax` haben.
 
 ```js
 assert(
@@ -58,7 +58,7 @@ assert(
 );
 ```
 
-The `findMin` method should return the minimum value in the binary search tree.
+Die Methode `findMin` sollte den kleinsten Wert im binären Suchbaum zurückgeben.
 
 ```js
 assert(
@@ -85,7 +85,7 @@ assert(
 );
 ```
 
-The `findMax` method should return the maximum value in the binary search tree.
+Die Methode `findMax` sollte den maximalen Wert im binären Suchbaum zurückgeben.
 
 ```js
 assert(
@@ -112,7 +112,7 @@ assert(
 );
 ```
 
-The `findMin` and `findMax` methods should return `null` for an empty tree.
+Die Methoden `findMin` und `findMax` sollten `null` für einen leeren Baum zurückgeben.
 
 ```js
 assert(

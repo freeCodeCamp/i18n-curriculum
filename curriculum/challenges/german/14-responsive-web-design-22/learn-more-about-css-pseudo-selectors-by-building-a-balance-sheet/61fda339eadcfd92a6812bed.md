@@ -7,7 +7,7 @@ dashedName: step-30
 
 # --description--
 
-Bevor du dich zu sehr in deiner Gestaltung vertiefst, solltest du von der `sr-only`-Klasse Gebrauch machen. Du kannst CSS verwenden, um Elemente mit dieser Klasse vollständig von der visuellen Seite auszublenden, aber dennoch von Screenreadern angezeigt werden zu lassen.
+Before you get too far into your styling, you should make use of the `sr-only` class. You can use CSS to make elements with this class completely hidden from the visual page, but still be announced by screen readers.
 
 Das CSS, das du gleich schreiben wirst, ist ein allgemeines Set von Eigenschaften, mit denen sichergestellt wird, dass Elemente visuell vollständig ausgeblendet werden.
 

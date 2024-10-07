@@ -9,7 +9,7 @@ dashedName: concatenating-strings-with-the-plus-equals-operator
 
 # --description--
 
-Wir können auch den Operator `+=` verwenden, um einen String an das Ende einer bestehenden String-Variablen zu <dfn>verketten</dfn>. Dies kann sehr hilfreich sein, um einen langen String auf mehrere Zeilen zu verteilen.
+We can also use the `+=` operator to <dfn>concatenate</dfn> a string onto the end of an existing string variable. This can be very helpful to break a long string over several lines.
 
 **Hinweis:** Achte auf die Leerzeichen. Bei der Verkettung werden keine Leerzeichen zwischen den verketteten Strings eingefügt, so dass du sie selbst hinzufügen musst.
 
@@ -20,7 +20,7 @@ let ourStr = "I come first. ";
 ourStr += "I come second.";
 ```
 
-`ourStr` hat jetzt einen Wert des Strings `I come first. I come second.`.
+`ourStr` now has a value of the string `I come first. I come second.`.
 
 # --instructions--
 
@@ -34,7 +34,7 @@ Erstelle `myStr` über mehrere Zeilen, indem du diese beiden Strings verkettest:
 assert(/sentence\. This/.test(myStr));
 ```
 
-`myStr` sollte auf den Wert des Strings `This is the first sentence. This is the second sentence.` gesetzt sein.
+`myStr` should have a value of the string `This is the first sentence. This is the second sentence.`
 
 ```js
 assert(myStr === 'This is the first sentence. This is the second sentence.');

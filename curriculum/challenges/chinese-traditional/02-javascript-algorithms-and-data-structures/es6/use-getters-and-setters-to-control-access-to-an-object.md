@@ -8,7 +8,7 @@ dashedName: use-getters-and-setters-to-control-access-to-an-object
 
 # --description--
 
-你可以從對象中獲得一個值，也可以給對象的屬性賦值。
+You can obtain values from an object and set the value of a property within an object.
 
 這些操作通常被稱爲 <dfn>getters</dfn> 以及 <dfn>setters</dfn>。
 

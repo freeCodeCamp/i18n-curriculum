@@ -8,7 +8,7 @@ dashedName: never-mutate-state
 
 # --description--
 
-Останні завдання описують декілька методів ключового принципу незмінності стану в Redux. Незмінний стан означає, що ви ніколи не змінюєте стан напряму, а повертаєте нову копію стану.
+These final challenges describe several methods of enforcing the key principle of state immutability in Redux. Immutable state means that you never modify state directly, instead, you return a new copy of state.
 
 Якби ви фіксували стан застосунку Redux через певний час, ви б бачили `state 1`, `state 2`, `state 3`, `state 4`, `...` і так далі, де кожен стан був би схожим до попереднього, але був би окремою частиною даних. Насправді ця незмінність надає різні функціональності, серед яких налагодження в часі, про яку ви могли чути.
 

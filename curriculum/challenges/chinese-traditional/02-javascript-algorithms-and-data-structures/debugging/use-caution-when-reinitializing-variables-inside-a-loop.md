@@ -8,7 +8,7 @@ dashedName: use-caution-when-reinitializing-variables-inside-a-loop
 
 # --description--
 
-有時需要在循環中保存信息以增加計數器或重置變量。 一個潛在的問題是變量什麼時候該重新初始化，什麼時候不該重新初始化，反之亦然。 如果你不小心重置了用於終止條件的變量，導致無限循環，這將特別危險。
+Sometimes it's necessary to save information, increment counters, or re-set variables within a loop. A potential issue is when variables either should be reinitialized, and aren't, or vice versa. This is particularly dangerous if you accidentally reset the variable being used for the terminal condition, causing an infinite loop.
 
 使用`console.log()`在每個循環中打印變量值可以發現與重置相關的錯誤或者重置變量失敗。
 

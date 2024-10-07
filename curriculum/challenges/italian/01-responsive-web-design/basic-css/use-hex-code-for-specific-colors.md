@@ -9,7 +9,7 @@ dashedName: use-hex-code-for-specific-colors
 
 # --description--
 
-Lo sapevi che ci sono altri modi per rappresentare i colori in CSS? Uno di questi modi è chiamato codice esadecimale, o codice hex per brevità.
+Did you know there are other ways to represent colors in CSS? One of these ways is called hexadecimal code, or hex code for short.
 
 Di solito usiamo <dfn>i numeri decimali</dfn> (o numeri in base 10), che usano i simboli da 0 a 9 per ogni cifra. <dfn>Gli esadecimali</dfn> (o <dfn>hex</dfn>) sono numeri in base 16. Ciò significa che utilizzano sedici simboli distinti. Come per i i decimali, i simboli 0-9 rappresentano i valori da zero a nove. I successivi simboli A,B,C,D,E,F rappresentano i valori da dieci a quindici. Complessivamente, una cifra esadecimale può andare da 0 a F, dandoci 16 valori totali possibili. Qui puoi trovare ulteriori informazioni sul <a href="https://it.wikipedia.org/wiki/Sistema_numerico_esadecimale" target="_blank" rel="noopener noreferrer nofollow">sistema numerico esadecimale</a>.
 

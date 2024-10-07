@@ -8,7 +8,7 @@ dashedName: combine-multiple-reducers
 
 # --description--
 
-Коли стан застосунку стає складнішим, спокусливіше було б розділити стан на декілька частин. Але згадайте перший принцип Redux: всі стани застосунку збережено в єдиному об’єкті стану в сховищі. Тому Redux пропонує з’єднання редюсерів як розв’язок складної моделі стану. Ви визначаєте декілька редюсерів, щоб обробити різні частини стану застосунку, а потім об’єднуєте їх в один кореневий редюсер. Потім кореневий редюсер передається в Rudex за допомогою методу `createStore()`.
+When the state of your app begins to grow more complex, it may be tempting to divide state into multiple pieces. Instead, remember the first principle of Redux: all app state is held in a single state object in the store. Therefore, Redux provides reducer composition as a solution for a complex state model. You define multiple reducers to handle different pieces of your application's state, then compose these reducers together into one root reducer. The root reducer is then passed into the Redux `createStore()` method.
 
 Щоб дозволити об’єднувати декілька редюсерів, Redux надає метод `combineReducers()`. Цей метод приймає об’єкт як аргумент, в якому визначено властивості, які пов’язують ключі з конкретними редюсерами. Redux використовуватиме назву, яку ви даєте ключам, як назву відповідної частини стану.
 

@@ -14,7 +14,7 @@ dashedName: introduction-and-setup
 
 ## --text--
 
-Який редактор коду та розширення рекомендує інструктор для розробки інструментів тесту на проникнення у Python?
+What code editor and extension does the instructor recommend for developing penetration testing tools in Python?
 
 ## --answers--
 

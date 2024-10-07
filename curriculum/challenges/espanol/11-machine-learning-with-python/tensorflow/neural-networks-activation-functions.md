@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: neural-networks-activation-functions
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-Cuál función activación recorta valores entre -1 and 1?
+Which activation function squishes values between -1 and 1?
 
 ## --answers--
 

@@ -23,7 +23,7 @@ dashedName: learn-variables-and-operators-lesson-e
 
 Dada la tabla de operadores anterior, escribe un fragmento de programa simple que demuestre el uso de cada operador con la variable `x` inicializada a `10`.
 
-# --questions--
+# --preguntas--
 
 ## --text--
 

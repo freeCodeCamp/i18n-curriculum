@@ -8,7 +8,7 @@ dashedName: create-a-complex-jsx-element
 
 # --description--
 
-Die letzte Aufgabe war ein einfaches Beispiel für JSX, aber JSX kann auch komplexeres HTML darstellen.
+The last challenge was a simple example of JSX, but JSX can represent more complex HTML as well.
 
 Eine wichtige Sache, die du über verschachtelte JSX wissen musst, ist, dass sie ein einzelnes Element zurückgeben müssen.
 

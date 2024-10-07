@@ -9,7 +9,7 @@ dashedName: learn-block-and-inline-lesson-k
 
 Ahora que tienes una comprensión básica de cómo funciona agregar ancho y altura a elementos `inline`.
 
-# --questions--
+# --preguntas----preguntas--
 
 ## --text--
 

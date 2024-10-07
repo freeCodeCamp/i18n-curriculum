@@ -9,7 +9,7 @@ dashedName: declare-javascript-variables
 
 # --description--
 
-В інформатиці <dfn>дані</dfn> мають важливе значення для комп’ютера. JavaScript надає вісім різних <dfn>типів даних</dfn>: `undefined`, `null`, `boolean`, `string`, `symbol`, `bigint`, `number` та `object`.
+In computer science, <dfn>data</dfn> is anything that is meaningful to the computer. JavaScript provides eight different <dfn>data types</dfn> which are `undefined`, `null`, `boolean`, `string`, `symbol`, `bigint`, `number`, and `object`.
 
 Наприклад, комп’ютери розрізняють числа, як-от `12` та рядки (`strings`), як-от `"12"`, `"dog"` або `"123 cats"`, які є набором символів. Комп’ютери можуть виконувати математичні операції з числом, але не з рядком.
 

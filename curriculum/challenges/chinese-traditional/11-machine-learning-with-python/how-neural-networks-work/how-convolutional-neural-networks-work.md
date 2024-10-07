@@ -10,7 +10,7 @@ dashedName: how-convolutional-neural-networks-work
 
 ## --text--
 
-卷積神經網絡在什麼時候是沒有用的？
+When are Convolutional Neural Networks not useful?
 
 ## --answers--
 

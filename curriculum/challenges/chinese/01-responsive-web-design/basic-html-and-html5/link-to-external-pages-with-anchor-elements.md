@@ -9,9 +9,9 @@ dashedName: link-to-external-pages-with-anchor-elements
 
 # --description--
 
-你可以用 `a`（Anchor，简写为 a）来实现网页间的跳转。
+You can use `a` (*anchor*) elements to link to content outside of your web page.
 
-`a` 需要一个 `href` 属性指向跳转的目的地。 同时，它还应有内容。 例如：
+`a` 需要一个 `href` 属性指向跳转的目的地。 同时，它还应有内容。 这是一个示例：
 
 ```html
 <a href="https://www.freecodecamp.org">this links to freecodecamp.org</a>

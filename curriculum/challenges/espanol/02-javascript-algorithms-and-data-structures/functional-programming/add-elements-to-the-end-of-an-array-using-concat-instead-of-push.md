@@ -8,9 +8,9 @@ dashedName: add-elements-to-the-end-of-an-array-using-concat-instead-of-push
 
 # --description--
 
-La programación funcional consiste en crear y utilizar funciones no mutantes.
+Functional programming is all about creating and using non-mutating functions.
 
-En el reto anterior se introdujo el método `concat` como una forma de unir varios arreglos en uno nuevo sin alterar los arreglos originales. Compara `concat` con el método `push`. `push` añade elementos al final del propio arreglo sobre el que es invocado, alterando dicho arreglo. Aquí hay un ejemplo:
+En el reto anterior se introdujo el método `concat` como una forma de unir varios arreglos en uno nuevo sin alterar los arreglos originales. Compara `concat` con el método `push`. `push` añade elementos al final del propio arreglo sobre el que es invocado, alterando dicho arreglo. He aquí un ejemplo:
 
 ```js
 const arr = [1, 2, 3];

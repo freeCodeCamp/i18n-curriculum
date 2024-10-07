@@ -11,7 +11,7 @@ Los sitios web serían bastante aburridos si solo pudieran mostrar texto. Por su
 
 Para mostrar una imagen en HTML, se utiliza el elemento `<img>`. A diferencia de los otros elementos con los que te has encontrado, el elemento `<img>` se cierra automáticamente. Los elementos HTML vacíos que se cierran automáticamente no necesitan una etiqueta de cierre.
 
-En lugar de envolver contenido con una etiqueta de apertura y cierre, inserta una imagen en la página usando un atributo `src` que indica al navegador dónde se encuentra el archivo de imagen. El atributo `src` funciona de manera muy similar al atributo `href` para las etiquetas de ancla. Puede insertar una imagen usando rutas absolutas y relativas.
+En lugar de envolver contenido con una etiqueta de apertura y cierre, inserta una imagen en la página usando un atributo `src` que indica al navegador dónde se encuentra el archivo de imagen. El atributo `src` funciona de manera muy similar al atributo `href` para etiquetas de ancla. Puede insertar una imagen usando rutas absolutas y relativas.
 
 Por ejemplo, utilizando una ruta absoluta, puedes mostrar una imagen ubicada en el sitio de The Odin Project:
 
@@ -68,9 +68,9 @@ Besides the `src` attribute, every image element should also have an `alt` (alte
 The `alt` attribute is used to describe an image. It will be used in place of the image if it cannot be loaded. It is also used with screen readers to describe what the image is to visually impaired users.
 
 This is how the The Odin Project logo example you used earlier looks with an alt attribute included:
-<iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="300" width="100%" name="cp_embed_2" scrolling="no" src="https://codepen.io/TheOdinProjectExamples/embed/ExXjoEp?height=300&amp;theme-id=dark&amp;default-tab=html%2Cresult&amp;slug-hash=ExXjoEp&amp;user=TheOdinProjectExamples&amp;name=cp_embed_2" style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy" id="cp_embed_ExXjoEp"></iframe>
+<iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="300" width="100%" name="cp_embed_2" scrolling="no" src="https://codepen.io/TheOdinProjectExamples/embed/ExXjoEp?height=300&amp;theme-id=dark&amp;default-tab=html%2Cresult&amp;slug-hash=ExXjoEp&amp;user=TheOdinProjectExamples&amp;name=cp_embed_2" style="width: 100%; overflow:hidden; display:block;" title="Insertar CodePen" loading="lazy" id="cp_embed_ExXjoEp"></iframe>
 
-# --questions--
+# --preguntas----preguntas--
 
 ## --text--
 

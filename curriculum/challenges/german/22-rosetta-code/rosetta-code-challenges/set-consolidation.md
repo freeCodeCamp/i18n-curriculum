@@ -8,14 +8,14 @@ dashedName: set-consolidation
 
 # --description--
 
-Given two sets of items then if any item is common to any set then the result of applying *consolidation* to those sets is a set of sets whose contents is:
+Wenn man zwei Sets von Gegenständen angibt, dann, wenn irgendein Gegenstand gewöhnlich ist für irgendein Set, ist das Ergebnis der Anwendung von *Konsolidierung* auf diese Sets ein Set von Sets, deren Inhalt ist:
 
 <ul>
-  <li>The two input sets if no common item exists between the two input sets of items.</li>
+  <li>Die beiden Eingaben legen fest, falls kein gemeinsamer Eintrag zwischen den beiden Eingabesätzen existiert.</li>
   <li>Ein einzelnes Set zusammengesetzt aus den zwei Eingabe Sets, wenn ein gemeinsames Element existiert.</li>
 </ul>
 
-Wenn N Sets von Elementen gegeben sind, bei denen N > 2 gilt, dann ist das Ergebnis das gleiche, wie wenn wiederholt alle Kombinationen von zwei Sets durch deren Konsolidierung ersetzt werden, bis keine weitere Konsolidierung zwischen eingestellten Paaren möglich ist. Wenn N &lt; 2, dann hat die Konsolidierung keine strikte Bedeutung und die Eingabe kann zurückgegeben werden.
+Given N sets of items where N > 2 then the result is the same as repeatedly replacing all combinations of two sets by their consolidation until no further consolidation between set pairs is possible. If N &lt; 2 then consolidation has no strict meaning and the input can be returned.
 
 Hier sind ein paar Beispiele:
 

@@ -9,7 +9,7 @@ dashedName: wrap-radio-buttons-in-a-fieldset-element-for-better-accessibility
 
 # --description--
 
-يغطي الموضوع التالي إمكانية الوصول إلى أزرار الاختيار في النموذج. كل اختيار يعطى `label` وله سمة `for` مرتبطة بـسمة `id` في العنصر المقابل, كما هو مشمول في التحدي الأخير. نظرًا لأن أزرار الراديو (radio buttons) غالبا ما تأتي في مجموعات حيث يجب على المستخدم أن يختار زر واحد فقط من المجموعة، هناك طريقة لإظهار الخيارات بشكل لُغَوي أنها فعلا جزء من نفس المجموعة.
+The next form topic covers the accessibility of radio buttons. Each choice is given a `label` with a `for` attribute tying to the `id` of the corresponding item as covered in the last challenge. Since radio buttons often come in a group where the user must choose one, there's a way to semantically show the choices are part of a set.
 
 يحيط علامة (tag) `fieldset` بكامل مجموعة الأزرار الراديو ( radio buttons) لتحقيق ذلك. غالبا ما تستخدم علامة (tag) `legend` لتقديم وصف للمجموعة، أي قارئ الشاشة (screen readers) سيقرأ كل اختيار في عنصر `fieldset`.
 
@@ -33,7 +33,7 @@ dashedName: wrap-radio-buttons-in-a-fieldset-element-for-better-accessibility
 
 # --instructions--
 
-يريد Camper Cat معلومات عن مستوى النينجا لمستخدميه عند تسجيلهم لقائمة بريده الإلكتروني. لقد أضاف مجموعة من أزرار الراديو وتعلمنا من درسنا الأخير استخدام علامات `label` مع سمات `for` لكل اختيار. اذهب يا Camper Cat! However, his code still needs some help. تغيير علامة `div` الذي يحيط بأزرار الراديو إلى علامة `fieldset`، و قم بتغيير علامة `p` بداخلها إلى `legend`.
+يريد Camper Cat معلومات عن مستوى النينجا لمستخدميه عند تسجيلهم لقائمة بريده الإلكتروني. لقد أضاف مجموعة من أزرار الراديو وتعلمنا من درسنا الأخير استخدام علامات `label` مع سمات `for` لكل اختيار. اذهب يا Camper Cat! ومع ذلك، لا يزال برنامجه بحاجة إلى بعض المساعدة. تغيير علامة `div` الذي يحيط بأزرار الراديو إلى علامة `fieldset`، و قم بتغيير علامة `p` بداخلها إلى `legend`.
 
 # --hints--
 

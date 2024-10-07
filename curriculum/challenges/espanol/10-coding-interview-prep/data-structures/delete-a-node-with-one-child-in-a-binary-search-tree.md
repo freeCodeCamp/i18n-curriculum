@@ -8,7 +8,7 @@ dashedName: delete-a-node-with-one-child-in-a-binary-search-tree
 
 # --description--
 
-Ahora que podemos eliminar nodos hoja pasaremos el segundo caso: eliminar un nodo con un hijo. Para este caso, digamos que tenemos un árbol con los siguientes nodos 1 - 2 - 3 donde 1 es la raíz. Para eliminar 2, simplemente necesitamos hacer que la referencia derecha en 1 apunte a 3. Más generalmente para eliminar un nodo con sólo un hijo, hacemos que la referencia padre del nodo sea el siguiente nodo en el árbol.
+Now that we can delete leaf nodes let's move on to the second case: deleting a node with one child. For this case, say we have a tree with the following nodes 1 — 2 — 3 where 1 is the root. To delete 2, we simply need to make the right reference in 1 point to 3. More generally to delete a node with only one child, we make that node's parent reference the next node in the tree.
 
 # --instructions--
 
@@ -16,7 +16,7 @@ Hemos proporcionado algún código en nuestro método `remove` que cumple con la
 
 # --hints--
 
-La estructura de datos `BinarySearchTree` debe existir.
+La estructura de datos `BinarySearchTree` debe exisitr.
 
 ```js
 assert(
@@ -86,7 +86,7 @@ assert(
 );
 ```
 
-El método `remove` debe nodos hojas del árbol.
+El método `remove` debe eliminar nodos hojas del árbol.
 
 ```js
 assert(

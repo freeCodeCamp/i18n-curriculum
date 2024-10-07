@@ -8,7 +8,7 @@ dashedName: select-a-group-of-elements-with-d3
 
 # --description--
 
-`selectAll()` 方法選擇一組元素。 它以 HTML 節點數組的形式返回該文本中所有匹配所輸入字符串的對象。 以下是一個選擇文本中所有錨標籤的例子：
+D3 also has the `selectAll()` method to select a group of elements. It returns an array of HTML nodes for all the items in the document that match the input string. Here's an example to select all the anchor tags in a document:
 
 ```js
 const anchors = d3.selectAll("a");

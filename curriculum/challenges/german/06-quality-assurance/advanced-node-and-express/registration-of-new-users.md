@@ -8,19 +8,19 @@ dashedName: registration-of-new-users
 
 # --description--
 
-Jetzt musst du einem neuen Nutzer deiner Webseite erlauben, ein Konto zu erstellen. In the `res.render` for the home page add a new variable to the object passed along - `showRegistration: true`. Wenn du deine Seite aktualisierst, solltest du das Registrierungsformular sehen, das bereits in deiner `index.pug`-Datei erstellt wurde. This form is set up to **POST** on `/register`, so create that route and have it add the user object to the database by following the logic below.
+Now you need to allow a new user on your site to register an account. In the `res.render` for the home page add a new variable to the object passed along - `showRegistration: true`. When you refresh your page, you should then see the registration form that was already created in your `index.pug` file. This form is set up to **POST** on `/register`, so create that route and have it add the user object to the database by following the logic below.
 
-The logic of the registration route should be as follows:
+Die Logik der Registrierungsroute sollte folgendermaßen aussehen:
 
-1. Registriere den neuen Nutzer
-2. Authentifiziere den neuen Nutzer
-3. Leite zu `/profile` weiter
+1. Register the new user
+2. Authenticate the new user
+3. Redirect to `/profile`
 
 Die Logik von Schritt 1 sollte wie folgt lauten:
 
-1. Frage die Datenbank mit `findOne` ab
+1. Query database with `findOne`
 2. Wenn ein Fehler auftritt, rufe `next` mit dem Fehler auf
-3. If a user is returned, redirect back to home
+3. Wird ein Nutzer zurückgegeben, leite zur Startseite weiter
 4. Wird der Nutzer nicht gefunden und tritt kein Fehler auf, so füge den Nutzernamen sowie das Passwort der Datenbank mithilfe von `insertOne` hinzu. Tritt auch hier kein Fehler auf, so rufe `next` auf, um zu Schritt 2 überzugehen – der Authentifizierung des neuen Nutzers. Die Logik hierfür hast du bereits in deiner `POST /login`-Route geschrieben.
 
 ```js

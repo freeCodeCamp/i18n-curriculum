@@ -9,7 +9,7 @@ dashedName: use-the-flex-grow-property-to-expand-items
 
 # --description--
 
-Das Gegenteil von `flex-shrink` ist die `flex-grow` Eigenschaft. Du erinnerst dich, dass `flex-shrink` die Größe von Elementen kontrolliert, wenn der Container schrumpft. Die `flex-grow` Eigenschaft kontrolliert die Größe von Elementen, wenn sich der Elterncontainer ausdehnt.
+The opposite of `flex-shrink` is the `flex-grow` property. Recall that `flex-shrink` controls the size of the items when the container shrinks. The `flex-grow` property controls the size of items when the parent container expands.
 
 Ein Beispiel ähnlich dem aus der letzten Aufgabe wäre, wenn ein Element einen `flex-grow`-Wert von `1` und das andere einen `flex-grow`-Wert von `3` hat, wächst das Element mit dem Wert `3` dreimal so stark wie das andere.
 

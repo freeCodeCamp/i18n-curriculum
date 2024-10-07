@@ -8,7 +8,7 @@ dashedName: prevent-infinite-loops-with-a-valid-terminal-condition
 
 # --description--
 
-L'ultimo argomento è il temuto ciclo infinito. I cicli sono ottimi strumenti quando hai bisogno che il tuo programma esegua un blocco di codice un certo numero di volte o fino a quando una condizione è soddisfatta, ma hanno bisogno di una condizione di chiusura che termini le iterazioni. È probabile che i cicli infiniti facciano congelare o crashare il browser, e che causino un caos generale nell'esecuzione del programma, cosa che nessuno vuole.
+The final topic is the dreaded infinite loop. Loops are great tools when you need your program to run a code block a certain number of times or until a condition is met, but they need a terminal condition that ends the looping. Infinite loops are likely to freeze or crash the browser, and cause general program execution mayhem, which no one wants.
 
 C'era l'esempio di un ciclo infinito nell'introduzione di questa sezione - non aveva alcuna condizione di chiusura per uscire dal ciclo `while` dentro `loopy()`. NON chiamare questa funzione!
 

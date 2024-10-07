@@ -8,7 +8,7 @@ dashedName: access-an-arrays-contents-using-bracket-notation
 
 # --description--
 
-Фундаментальною особливістю будь-якої структури даних, звичайно ж, є можливість не тільки зберігати дані, але і мати можливість отримувати ці дані по команді. Отже, тепер, коли ми дізналися, як створити масив, давайте подумаєте над тим, як ми можемо отримати доступ до інформації цього масиву.
+The fundamental feature of any data structure is, of course, the ability to not only store data, but to be able to retrieve that data on command. So, now that we've learned how to create an array, let's begin to think about how we can access that array's information.
 
 Коли ми визначаємо простий масив як показано нижче, в ньому є 3 елементи:
 

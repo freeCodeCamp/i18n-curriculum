@@ -1,6 +1,6 @@
 ---
 id: a3f503de51cfab748ff001aa
-title: 成对
+title: Pairwise
 challengeType: 1
 forumTopicId: 301617
 dashedName: pairwise
@@ -8,7 +8,7 @@ dashedName: pairwise
 
 # --description--
 
-给定一个数组 `arr` ，找到其中总和等于第二个参数 `arg` 的元素对，并返回它们的索引之和。
+Given an array `arr`, find element pairs whose sum equal the second argument `arg` and return the sum of their indices.
 
 你可以使用具有相同数字元素但索引不同的多个对。 每对应使用尽可能低的索引。 一旦元素被使用，它就不能被重用来与另一个元素配对。 例如， `pairwise([1, 1, 2], 3)` 使用索引为 0 的 1，而不是索引为 1 的 1 来创建一对 `[2, 1]`，因为 0 + 2 &lt; 1 + 2。
 

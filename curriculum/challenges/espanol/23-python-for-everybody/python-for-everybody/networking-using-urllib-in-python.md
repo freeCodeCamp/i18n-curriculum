@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: networking-using-urllib-in-python
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-What will the output of the following code be like?:
+¿Cuál seriá la salida del siguiente código?:
 
 ```python
 import urllib.request

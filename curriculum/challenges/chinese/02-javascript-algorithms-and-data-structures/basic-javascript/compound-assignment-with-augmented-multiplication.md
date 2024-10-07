@@ -9,7 +9,7 @@ dashedName: compound-assignment-with-augmented-multiplication
 
 # --description--
 
-`*=` 操作符是让变量与一个数相乘并赋值。
+The `*=` operator multiplies a variable by a number.
 
 ```js
 myVar = myVar * 5;

@@ -9,7 +9,7 @@ dashedName: use-css-animation-to-change-the-hover-state-of-a-button
 
 # --description--
 
-CSS の `@keyframes` を使ってホバー状態の時にボタンの色を変えることができます。
+You can use CSS `@keyframes` to change the color of a button in its hover state.
 
 下記は画像の幅をホバー時に変更する例です:
 

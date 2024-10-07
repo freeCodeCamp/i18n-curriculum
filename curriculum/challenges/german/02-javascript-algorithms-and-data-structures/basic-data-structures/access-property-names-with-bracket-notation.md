@@ -8,7 +8,7 @@ dashedName: access-property-names-with-bracket-notation
 
 # --description--
 
-In der ersten Aufgabe zu Objekten haben wir erwähnt, dass die Klammernotation eine Möglichkeit bietet, auf Eigenschaftswerte zuzugreifen, indem eine Variable ausgewertet wird. Stell dir zum Beispiel vor, unser `foods` Objekt wird in einem Programm für eine Supermarktkasse verwendet. Wir haben eine Funktion, die `selectedFood` festlegt und wir möchten überprüfen, ob es im Objekt `foods` vorhanden ist. Dies könnte so aussehen:
+In the first object challenge we mentioned the use of bracket notation as a way to access property values using the evaluation of a variable. For instance, imagine that our `foods` object is being used in a program for a supermarket cash register. We have some function that sets the `selectedFood` and we want to check our `foods` object for the presence of that food. This might look like:
 
 ```js
 let selectedFood = getCurrentFood(scannedItem);

@@ -8,7 +8,7 @@ dashedName: add-key-value-pairs-to-javascript-objects
 
 # --description--
 
-對象（object）本質上是鍵值對（<dfn>key-value pair</dfn>）的集合。 或者說，一系列被映射到唯一標識符的數據就是對象；習慣上，唯一標識符叫做屬性（<dfn>property</dfn>）或者鍵（<dfn>key</dfn>）；數據叫做值（<dfn>value</dfn>）。 讓我們來看一個簡單的例子：
+At their most basic, objects are just collections of <dfn>key-value</dfn> pairs. In other words, they are pieces of data (<dfn>values</dfn>) mapped to unique identifiers called <dfn>properties</dfn> (<dfn>keys</dfn>). Take a look at an example:
 
 ```js
 const tekkenCharacter = {

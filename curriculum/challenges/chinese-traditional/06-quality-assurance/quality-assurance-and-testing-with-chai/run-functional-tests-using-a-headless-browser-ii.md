@@ -14,12 +14,12 @@ As a reminder, this project is being built upon the following starter project on
 
 在 `tests/2_functional-tests.js` 中，在 `'Submit the surname "Vespucci" in the HTML form'` 測試（`// #6`），自動執行以下操作：
 
-1.  在表格中填寫姓氏 `Vespucci`。
-2.  點擊提交按鈕
+1.  Fill in the form with the surname `Vespucci`
+2.  Press the submit button
 
 在 `pressButton` 回調中：
 
-1.  斷言狀態是正常的 `200`。
+1.  Assert that status is OK `200`
 2.  斷言元素 `span#name` 中的文本是 `'Amerigo'`。
 3.  斷言元素 `span#surname` 元素中的文本是 `'Vespucci'`。
 4.  斷言有 `span#dates` 元素，它們的計數是 `1`。

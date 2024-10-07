@@ -8,17 +8,17 @@ dashedName: timestamp-microservice
 
 # --description--
 
-構建一個功能類似於此的全棧 JavaScript 應用程序：<a href="https://timestamp-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://timestamp-microservice.freecodecamp.rocks</a>。 在這個項目中，你將使用以下方法之一編寫你的代碼：
+Build a full stack JavaScript app that is functionally similar to this: <a href="https://timestamp-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://timestamp-microservice.freecodecamp.rocks</a>. Working on this project will involve you writing your code using one of the following methods:
 
--   克隆<a href="https://github.com/freeCodeCamp/boilerplate-project-timestamp/"  target="_blank" rel="noopener noreferrer nofollow">這個 GitHub 倉庫</a>，並在本地完成你的項目。
+-   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-timestamp/"  target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
 -   使用<a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-timestamp/"  target="_blank" rel="noopener noreferrer nofollow">我們的 Gitpod 初始項目</a>來完成你的項目。
 -   使用你選擇的網站生成器來完成項目。 需要包含我們 GitHub 倉庫的所有文件。
 
-**注意：**時區轉換不是本項目的目的，因此假設所有發送的有效日期將使用 `new Date()` 解析爲 GMT 日期。
+**Note:** Time zones conversion is not a purpose of this project, so assume all sent valid dates will be parsed with `new Date()` as GMT dates.
 
 # --hints--
 
-你應該提交自己的項目，而不是示例的 URL。
+提交自己的項目，而不是示例的 URL。
 
 ```js
 (getUserInput) => {
@@ -28,7 +28,7 @@ dashedName: timestamp-microservice
 };
 ```
 
-一個對 `/api/:date?` 的有效日期的請求應該返回一個 JSON 對象，該對象的 `unix` 鍵是輸入日期的 Unix 時間戳，單位是毫秒（數字類型）。
+A request to `/api/:date?` with a valid date should return a JSON object with a `unix` key that is a Unix timestamp of the input date in milliseconds (as type Number)
 
 ```js
 (getUserInput) =>
@@ -46,7 +46,7 @@ dashedName: timestamp-microservice
   );
 ```
 
-對具有有效日期的 `/api/:date?` 的請求應返回一個帶有 `utc` 鍵的 JSON 對象，該鍵是輸入日期的字符串，格式爲：`Thu, 01 Jan 1970 00:00:00 GMT`。
+向 `/api/:date?` 發送一個帶有有效日期的請求，應該返回一個 JSON 對象，在這個 JSON 對象內有一個包含如 `Thu, 01 Jan 1970 00:00:00 GMT` 格式的輸入日期的 `utc` 鍵。
 
 ```js
 (getUserInput) =>
@@ -64,7 +64,7 @@ dashedName: timestamp-microservice
   );
 ```
 
-對 `/api/1451001600000` 的請求應該返回 `{ unix: 1451001600000, utc: "Fri, 25 Dec 2015 00:00:00 GMT" }`。
+向 `/api/1451001600000` 發送請求，應該返回 `{ unix: 1451001600000, utc: "Fri, 25 Dec 2015 00:00:00 GMT" }`。
 
 ```js
 (getUserInput) =>
@@ -81,7 +81,7 @@ dashedName: timestamp-microservice
   );
 ```
 
-你的項目可以處理可以通過 `new Date(date_string)` 成功解析的日期。
+程序能成功處理能被 `new Date(date_string)` 解析的日期。
 
 ```js
 (getUserInput) =>
@@ -98,7 +98,7 @@ dashedName: timestamp-microservice
   );
 ```
 
-如果輸入的日期字符串無效，API 將返回一個具有結構 `{ error : "Invalid Date" }` 的對象。
+If the input date string is invalid, the API returns an object having the structure `{ error : "Invalid Date" }`
 
 ```js
 (getUserInput) =>
@@ -112,7 +112,7 @@ dashedName: timestamp-microservice
   );
 ```
 
-一個空的日期參數應該返回一個帶有 `unix` 鍵的 JSON 對象中的當前時間。
+如果傳入的參數是空日期，將返回一個包含當前時間的 `unix` 鍵的 JSON 對象。
 
 ```js
 (getUserInput) =>
@@ -127,7 +127,7 @@ dashedName: timestamp-microservice
   );
 ```
 
-一個空日期參數應返回帶有 `utc` 鍵的 JSON 對象中的當前時間。
+如果傳入的參數是空日期，將返回一個包含當前時間的 `utc` 鍵的 JSON 對象。
 
 ```js
 (getUserInput) =>

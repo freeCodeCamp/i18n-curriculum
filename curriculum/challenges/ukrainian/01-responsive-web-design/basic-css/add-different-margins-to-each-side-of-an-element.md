@@ -9,7 +9,7 @@ dashedName: add-different-margins-to-each-side-of-an-element
 
 # --description--
 
-Іноді елемент потрібно встановити так, щоб значення `margin` були різними для кожної сторони.
+Sometimes you will want to customize an element so that it has a different `margin` on each of its sides.
 
 CSS дозволяє контролювати `margin` усіх чотирьох сторін за допомогою властивостей `margin-top`, `margin-right`, `margin-bottom` та `margin-left`.
 

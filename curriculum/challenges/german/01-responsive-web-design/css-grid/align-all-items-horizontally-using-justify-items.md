@@ -9,7 +9,7 @@ dashedName: align-all-items-horizontally-using-justify-items
 
 # --description--
 
-Manchmal möchtest du, dass alle Elemente in deinem CSS-Raster die gleiche Ausrichtung besitzen. Du kannst die zuvor gelernten Eigenschaften verwenden und sie einzeln ausrichten oder du kannst sie alle auf einmal horizontal ausrichten, indem du `justify-items` auf deinem Gittercontainer verwendest. Diese Eigenschaft kann die gleichen Werte annehmen, die du in den beiden vorherigen Aufgaben kennengelernt hast. Der Unterschied ist, dass sie **alle** Elemente in unserem Raster in die gewünschte Ausrichtung verschiebt.
+Sometimes you want all the items in your CSS Grid to share the same alignment. You can use the previously learned properties and align them individually, or you can align them all at once horizontally by using `justify-items` on your grid container. This property can accept all the same values you learned about in the previous two challenges, the difference being that it will move **all** the items in our grid to the desired alignment.
 
 # --instructions--
 

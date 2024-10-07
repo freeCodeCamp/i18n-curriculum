@@ -8,7 +8,7 @@ dashedName: using-the-test-method
 
 # --description--
 
-Le espressioni regolari sono usate nei linguaggi di programmazione per riconoscere parti di stringhe. Creerai dei "pattern" (cioè degli schemi, dei modelli) per aiutarti a trovare queste corrispondenze (match).
+Regular expressions are used in programming languages to match parts of strings. You create patterns to help you do that matching.
 
 Se vuoi trovare la parola `the` nella stringa `The dog chased the cat`, puoi utilizzare la seguente espressione regolare: `/the/`. Nota che le virgolette non sono richieste all'interno dell'espressione regolare.
 

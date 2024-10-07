@@ -9,7 +9,7 @@ dashedName: make-dead-links-using-the-hash-symbol
 
 # --description--
 
-연결할 링크를 알기 전에 웹사이트에 `a` 요소를 추가하고 싶을 때가 있습니다.
+Sometimes you want to add `a` elements to your website before you know where they will link.
 
 이것은 나중에 배울 `JavaScript` (자바스크립트) 를 사용하여 링크의 종류을 변경할 때도 유용합니다.
 

@@ -8,7 +8,7 @@ dashedName: implement-map-on-a-prototype
 
 # --description--
 
-Як ви бачили з використання `Array.prototype.map()`, або просто `map()`, метод `map` повертає масив тієї ж довжини, що і той, на якому був викликаний. Він також не змінює вихідний масив, оскільки функція зворотного виклику цього не робить.
+As you have seen from applying `Array.prototype.map()`, or simply `map()` earlier, the `map` method returns an array of the same length as the one it was called on. It also doesn't alter the original array, as long as its callback function doesn't.
 
 Іншими словами, `map` — це чиста функція, де вихідні дані залежать від вхідних. Крім того, вона приймає іншу функцію як аргумент.
 

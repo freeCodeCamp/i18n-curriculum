@@ -8,7 +8,7 @@ dashedName: testing-objects-for-properties
 
 # --description--
 
-Per verificare se una proprietà di un dato oggetto esista o meno, puoi utilizzare il metodo `.hasOwnProperty()`. `someObject.hasOwnProperty(someProperty)` restituisce `true` o `false` a seconda che la proprietà sia trovata sull'oggetto oppure no.
+To check if a property on a given object exists or not, you can use the `.hasOwnProperty()` method. `someObject.hasOwnProperty(someProperty)` returns `true` or `false` depending on if the property is found on the object or not.
 
 **Esempio**
 

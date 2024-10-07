@@ -8,12 +8,12 @@ dashedName: build-a-tribute-page
 
 # --description--
 
-**目標:** <a href="https://tribute-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://tribute-page.freecodecamp.rocks</a> と似た機能を持つアプリを作成してください。 **このデモプロジェクトをコピーしないでください**。
+**Objective:** Build an app that is functionally similar to <a href="https://tribute-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://tribute-page.freecodecamp.rocks</a>. **Do not copy this demo project**.
 
 
 **ユーザーストーリー:**
 
-1. トリビュートページには `id` が `main` に設定された `main` 要素が 1 つあり、その中に他のすべての要素が含まれます
+1. Your tribute page should have a `main` element with a corresponding `id` of `main`, which contains all other elements
 1. `id` の値が `title` に設定されている要素が 1 つあり、それにはトリビュートページで取り上げる対象者 (例: "Dr. Norman Borlaug") を説明する文字列 (すなわちテキスト) が記載されています
 1. `id` の値が `img-div` に設定されている `figure` 要素または `div` 要素のどちらかがあります
 1. `#img-div` の要素内には、`id="image"` を持つ `img` 要素があります

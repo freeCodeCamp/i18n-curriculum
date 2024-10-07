@@ -8,7 +8,7 @@ dashedName: create-a-complex-jsx-element
 
 # --description--
 
-上一个挑战是 JSX 的一个简单示例，但 JSX 也可以表示更复杂的 HTML。
+The last challenge was a simple example of JSX, but JSX can represent more complex HTML as well.
 
 关于嵌套的 JSX，需要知道的一件重要的事情，那就是它必须返回单个元素。
 

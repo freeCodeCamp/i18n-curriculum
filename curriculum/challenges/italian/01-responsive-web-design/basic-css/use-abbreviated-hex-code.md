@@ -9,7 +9,7 @@ dashedName: use-abbreviated-hex-code
 
 # --description--
 
-Molte persone si sentono sopraffatte dalle possibilità offerte da più di 16 milioni di colori. Ed è difficile ricordare i codici esadecimali. Fortunatamente puoi abbreviarli.
+Many people feel overwhelmed by the possibilities of more than 16 million colors. And it's difficult to remember hex code. Fortunately, you can shorten it.
 
 Ad esempio, il codice esadecimale del rosso `#FF0000` può essere abbreviato in `#F00`. Questa forma abbreviata fornisce una cifra per il rosso, una cifra per il verde, e una cifra per il blu.
 
@@ -19,7 +19,7 @@ Questo riduce il numero totale di colori possibili a circa 4.000. Ma i browser i
 
 Vai avanti, prova a usare i codici esadecimali abbreviati per colorare gli elementi corretti.
 
-<table><tbody><tr><th>Colore</th><th>Codice Hex breve</th></tr><tr><td>Ciano</td><td><code>#0FF</code></td></tr><tr><td>Verde</td><td><code>#0F0</code></td></tr><tr><td>Rosso</td><td><code>#F00</code></td></tr><tr><td>Fucsia</td><td><code>#F0F</code></td></tr></tbody></table>
+<table><tbody><tr><th>Color</th><th>Short Hex Code</th></tr><tr><td>Cyan</td><td><code>#0FF</code></td></tr><tr><td>Green</td><td><code>#0F0</code></td></tr><tr><td>Red</td><td><code>#F00</code></td></tr><tr><td>Fuchsia</td><td><code>#F0F</code></td></tr></tbody></table>
 
 # --hints--
 

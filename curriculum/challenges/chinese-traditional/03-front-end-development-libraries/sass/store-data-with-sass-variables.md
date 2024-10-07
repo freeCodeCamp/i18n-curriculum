@@ -8,7 +8,7 @@ dashedName: store-data-with-sass-variables
 
 # --description--
 
-Sass 不同於 CSS 的一個特點是它允許使用變量。 可以在 Sass 中聲明變量，併爲它賦值，就像在 JavaScript 中一樣。
+One feature of Sass that's different than CSS is it uses variables. They are declared and set to store data, similar to JavaScript.
 
 在 JavaScript 中，變量是使用 `let` 和 `const` 關鍵字定義的。 在 Sass 中，變量以 `$` 開頭的，後跟變量名。
 

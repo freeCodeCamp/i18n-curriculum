@@ -9,7 +9,7 @@ dashedName: adjust-the-hue-of-a-color
 
 # --description--
 
-Farben haben verschiedene Eigenschaften wie Farbton, Sättigung und Helligkeit. Mit CSS3 wurde die Funktion `hsl()` als alternative Möglichkeit zur Auswahl einer Farbe eingeführt, indem diese Merkmale direkt angegeben werden.
+Colors have several characteristics including hue, saturation, and lightness. CSS3 introduced the `hsl()` function as an alternative way to pick a color by directly stating these characteristics.
 
 **Hue** (dt. Farbton) ist das, was wir im Allgemeinen als "Farbe" bezeichnen. Wenn du dir ein Farbspektrum vorstellst, das auf der linken Seite rot beginnt, dann in der Mitte grün ist und blau auf der rechten Seite, dann beschreibt der Farbton, wo eine Farbe entlang dieser Linie platziert ist. In `hsl()` wird ein Farbkreis-Modell statt einem linearen Spektrum verwendet, wobei der Winkel des Farbtons auf diesem Kreis einem Wert zwischen 0 und 360 entspricht.
 
@@ -19,7 +19,7 @@ Farben haben verschiedene Eigenschaften wie Farbton, Sättigung und Helligkeit. 
 
 Hier sind einige Beispiele für die Verwendung von `hsl()` mit vollständig gesättigten Farben bei mittlerer Helligkeit:
 
-<table><thead><tr><th>Farbe</th><th>HSL</th></tr></thead><tbody><tr><td>rot</td><td>hsl(0, 100%, 50%)</td></tr><tr><td>gelb</td><td>hsl(60, 100%, 50%)</td></tr><tr><td>grün</td><td>hsl(120, 100%, 50%)</td></tr><tr><td>cyan</td><td>hsl(180, 100%, 50%)</td></tr><tr><td>blau</td><td>hsl(240, 100%, 50%)</td></tr><tr><td>magenta</td><td>hsl(300, 100%, 50%)</td></tr></tbody></table>
+<table><thead><tr><th>Color</th><th>HSL</th></tr></thead><tbody><tr><td>red</td><td>hsl(0, 100%, 50%)</td></tr><tr><td>yellow</td><td>hsl(60, 100%, 50%)</td></tr><tr><td>green</td><td>hsl(120, 100%, 50%)</td></tr><tr><td>cyan</td><td>hsl(180, 100%, 50%)</td></tr><tr><td>blue</td><td>hsl(240, 100%, 50%)</td></tr><tr><td>magenta</td><td>hsl(300, 100%, 50%)</td></tr></tbody></table>
 
 # --instructions--
 

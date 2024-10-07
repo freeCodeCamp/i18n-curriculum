@@ -9,7 +9,7 @@ dashedName: appending-variables-to-strings
 
 # --description--
 
-複数行の文字列<dfn>リテラル</dfn>から文字列を作成することができますが、それと同じように、加算代入 (`+=`) 演算子を使用して変数を文字列に連結することができます。
+Just as we can build a string over multiple lines out of string <dfn>literals</dfn>, we can also append variables to a string using the plus equals (`+=`) operator.
 
 例:
 

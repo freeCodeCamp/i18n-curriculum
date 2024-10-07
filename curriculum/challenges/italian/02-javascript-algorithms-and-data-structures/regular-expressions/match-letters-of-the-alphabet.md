@@ -8,7 +8,7 @@ dashedName: match-letters-of-the-alphabet
 
 # --description--
 
-Hai visto come è possibile utilizzare dei <dfn>set di caratteri</dfn> per specificare un gruppo di caratteri da riconoscere, ma dovresti digitare un sacco per abbinare una vasta gamma di caratteri (ad esempio, ogni lettera dell'alfabeto). Fortunatamente, c'è una caratteristica integrata che rende questa operazione molto semplice.
+You saw how you can use <dfn>character sets</dfn> to specify a group of characters to match, but that's a lot of typing when you need to match a large range of characters (for example, every letter in the alphabet). Fortunately, there is a built-in feature that makes this short and simple.
 
 All'interno di un set di caratteri, è possibile definire un intervallo di caratteri da abbinare utilizzando un carattere trattino: `-`.
 

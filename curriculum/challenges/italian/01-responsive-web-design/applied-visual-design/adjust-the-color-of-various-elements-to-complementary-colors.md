@@ -9,7 +9,7 @@ dashedName: adjust-the-color-of-various-elements-to-complementary-colors
 
 # --description--
 
-La sfida Colori Complementari ha mostrato che colori opposti sul cerchio cromatico possono apparire più vibranti quando posizionati fianco a fianco. Tuttavia, il forte contrasto visivo può essere sgradevole se è troppo utilizzato su un sito web, e a volte può rendere il testo più difficile da leggere se è posizionato su uno sfondo di colore complementare. In pratica, uno dei colori è solitamente dominante e il suo complementare viene utilizzato per portare l'attenzione visiva su determinati contenuti della pagina.
+The Complementary Colors challenge showed that opposite colors on the color wheel can make each other appear more vibrant when placed side-by-side. However, the strong visual contrast can be jarring if it's overused on a website, and can sometimes make text harder to read if it's placed on a complementary-colored background. In practice, one of the colors is usually dominant and the complement is used to bring visual attention to certain content on the page.
 
 # --instructions--
 

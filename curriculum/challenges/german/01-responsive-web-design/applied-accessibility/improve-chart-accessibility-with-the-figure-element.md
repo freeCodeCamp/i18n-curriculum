@@ -9,7 +9,7 @@ dashedName: improve-chart-accessibility-with-the-figure-element
 
 # --description--
 
-Mit HTML5 wurde das `figure`-Element und das zugehörige `figcaption` eingeführt. Zusammen verwendet, umschließen diese Elemente eine visuelle Darstellung (wie ein Bild, ein Diagramm oder eine Tabelle) zusammen mit ihrer Beschriftung. Durch das Zusammenfassen dieser Elemente wird der Zugriff auf den Inhalt in zweifacher Hinsicht verbessert, da zusammengehörige Inhalte semantisch gruppiert werden und eine Textalternative zur Erläuterung der Abbildung `figure` bereitgestellt wird.
+HTML5 introduced the `figure` element and the related `figcaption`. Used together, these items wrap a visual representation (like an image, diagram, or chart) along with its caption. Wrapping these elements together gives a two-fold accessibility boost by semantically grouping related content and providing a text alternative explaining the `figure`.
 
 Bei Visualisierungen von Daten, wie z. B. Diagrammen, kann die Beschriftung verwendet werden, um die Trends oder Schlussfolgerungen für Benutzer mit Sehbehinderungen kurz zu erwähnen. Eine weitere Herausforderung besteht darin, wie man eine tabellarische Version der Daten des Diagramms für Screenreader-Benutzer außerhalb des Bildschirms darstellen kann (mit CSS).
 
@@ -43,7 +43,7 @@ Dein Code sollte ein `figcaption` Tag haben.
 assert.lengthOf(document.querySelectorAll('figcaption') , 1);
 ```
 
-Dein Code sollte keine `div` Tags haben.
+Dein Code sollte keine `div`-Tags enthalten.
 
 ```js
 assert.lengthOf(document.querySelectorAll('div'), 0);

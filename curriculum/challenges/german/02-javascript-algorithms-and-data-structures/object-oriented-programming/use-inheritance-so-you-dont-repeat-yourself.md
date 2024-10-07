@@ -8,7 +8,7 @@ dashedName: use-inheritance-so-you-dont-repeat-yourself
 
 # --description--
 
-In der Programmierung gibt es ein Prinzip namens <dfn>Don't Repeat Yourself (DRY) ("Wiederhole dich nicht selbst")</dfn>. Der Grund, warum wiederholter Code ein Problem darstellt, ist, dass jede Änderung die Korrektur von Code an mehreren Stellen erfordert. Das bedeutet in der Regel mehr Arbeit für die Programmierer und mehr Raum für Fehler.
+There's a principle in programming called <dfn>Don't Repeat Yourself (DRY)</dfn>. The reason repeated code is a problem is because any change requires fixing code in multiple places. This usually means more work for programmers and more room for errors.
 
 Beachte im folgenden Beispiel, dass die Methode `describe` von `Bird` und `Dog` geteilt wird:
 

@@ -11,21 +11,21 @@ dashedName: link-to-external-pages-with-anchor-elements
 
 You can use `a` (*anchor*) elements to link to content outside of your web page.
 
-عناصر `a` تتطلّب عنوان وب للوجهة يسمّى: `href`. وتتطلّب أيضا نصّ رابط anchor. Here's an example:
+عناصر `a` تتطلّب عنوان وب للوجهة يسمّى: `href`. وتتطلّب أيضا نصّ رابط anchor. وهذا مثال على ذلك:
 
 ```html
 <a href="https://www.freecodecamp.org">this links to freecodecamp.org</a>
 ```
 
-ثم يعرض متصفّحك نص: `this links to freecodecamp.org` على هيئة رابط يمكنك النقر عليه. And that link will take you to the web address `https://www.freecodecamp.org`.
+ثم يعرض متصفّحك نص: `this links to freecodecamp.org` على هيئة رابط يمكنك النقر عليه. وهذا الرابط سيأخذك إلى عنوان الويب `https://www.freecodecamp.org`.
 
 # --instructions--
 
-Create an `a` element that links to `https://www.freecatphotoapp.com` and has "cat photos" as its anchor text.
+أنشئ عنصر `a` الذي يربط بعنوان `https://www.freecatphotoapp.com` الذي يحتوي على "cat photos" كنص الرابط.
 
 # --hints--
 
-Your `a` element should have the anchor text of `cat photos`.
+يجب أن يحتوي عنصر `a` الخاص بك على نص الرابط `cat photos`.
 
 ```js
 assert(/cat photos/gi.test($('a').text()));

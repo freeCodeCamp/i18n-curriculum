@@ -9,7 +9,7 @@ dashedName: accessing-nested-objects
 
 # --description--
 
-يمكن الوصول للخصائص الفرعية (sub-properties) للكائنات (objects) من طريق ربطه برمز النقطة أو القوس.
+The sub-properties of objects can be accessed by chaining together the dot or bracket notation.
 
 فيما يلي كائن متداخل (nested object):
 
@@ -51,7 +51,7 @@ Your code should use dot notation, where possible, to access `myStorage`.
 assert.match(code, /myStorage\.car\.inside/);
 ```
 
-`gloveBoxContents` should still be declared with `const`.
+`gloveBoxContents` يجب أن تكون معرفه علي أنها `const`.
 
 ```js
 assert.match(code, /const\s+gloveBoxContents\s*=/);

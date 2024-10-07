@@ -11,7 +11,7 @@ dashedName: target-even-elements-using-jquery
 
 # --description--
 
-Puoi anche selezionare gli elementi in base alle loro posizioni utilizzando i selettori `:odd` (dispari) o `:even` (pari).
+You can also target elements based on their positions using `:odd` or `:even` selectors.
 
 Nota che jQuery è indicizzato a zero, il che significa che il primo elemento di una selezione ha una posizione di 0. Questo può confondere un po' perché, contro-intuitivamente, `:odd` seleziona il secondo elemento (posizione 1), il quarto elemento (posizione 3), e così via.
 

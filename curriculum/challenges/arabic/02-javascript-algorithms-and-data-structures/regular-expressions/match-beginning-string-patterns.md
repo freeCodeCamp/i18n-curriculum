@@ -8,7 +8,7 @@ dashedName: match-beginning-string-patterns
 
 # --description--
 
-أظهرت التحديات السابقة أنه يمكن استخدام الـ regular expressions للبحث عن عدد من التطابقات. وهي تستخدم أيضا للبحث عن أنماط في مواقع محددة في ال strings.
+Prior challenges showed that regular expressions can be used to look for a number of matches. They are also used to search for patterns in specific positions in strings.
 
 وفي تحد سابق، لقد استخدمت رمز الـ caret character الآتي (`^`) داخل مجموعة رموز لإنشاء negated character set في شكل `[^thingsThatWillNotBeMatched]`. خارج مجموعة الرموز، يتم استخدام الـ caret للبحث عن أنماط في بداية ال strings.
 

@@ -1,6 +1,6 @@
 ---
 id: 587d78a6367417b2b2512add
-title: Create a Graphic Using CSS
+title: إنشاء رسومات باستخدام CSS
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cEDWPs6'
 forumTopicId: 301048
@@ -11,25 +11,25 @@ dashedName: create-a-graphic-using-css
 
 By manipulating different selectors and properties, you can make interesting shapes. One of the easier ones to try is a crescent moon shape. For this challenge you need to work with the `box-shadow` property that sets the shadow of an element, along with the `border-radius` property that controls the roundness of the element's corners.
 
-You will create a round, transparent object with a crisp shadow that is slightly offset to the side - the shadow is actually going to be the moon shape you see.
+سوف تقوم بإنشاء شكل مستدير شفاف له ظل حاد مع مسافة بسيطة بين الظل والحد الخارجي للشكل - الظل في الواقع سيمثل شكل القمر الذي نراه.
 
-In order to create a round object, the `border-radius` property should be set to a value of 50%.
+لإنشاء شكل مستدير، يجب ضبط خاصية `border-radius` إلى نسبة 50٪.
 
-You may recall from an earlier challenge that the `box-shadow` property takes values for `offset-x`, `offset-y`, `blur-radius`, `spread-radius` and a `color` value in that order. The `blur-radius` and `spread-radius` values are optional.
+قد تتذكر من تحدي سابق أن خاصية `box-shadow` تأخذ قيم لـ `offset-x`, `offset-y`, `blur-radius`, `spread-radius`و `color` بهذا الترتيب. قيم `blur-radius` و `spread-radius` اختيارية.
 
 # --instructions--
 
-Manipulate the square element in the editor to create the moon shape. First, change the `background-color` to `transparent`, then set the `border-radius` property to 50% to make the circular shape. Finally, change the `box-shadow` property to set the `offset-x` to 25px, the `offset-y` to 10px, `blur-radius` to 0, `spread-radius` to 0, and `color` to `blue`.
+قم بمعالجة الشكل المربع في المحرر لإنشاء شكل القمر. أولاً، قم بتغيير `background-color` إلى `transparent`، ثم قم بضبط خاصية `border-radius` إلى 50٪ لتجعل الشكل دائريا. وأخيرا، قم بتغيير خاصية `box-shadow` لتعيين `offset-x` إلى25px, `offset-y` إلى 10px, `blur-radius` إلى 0px, `spread-radius` إلى 0px, و `color` إلى `blue`.
 
 # --hints--
 
-The value of the `background-color` property should be set to `transparent`.
+يجب تعيين قيمة خاصية `background-color` إلى `transparent`.
 
 ```js
 assert.match(code,/background-color:\s*?transparent;/gi);
 ```
 
-The value of the `border-radius` property should be set to `50%`.
+قيمة خاصية `border-radius` يجب تعيينها إلى `50%`.
 
 ```js
 assert.match(code,/border-radius:\s*?50%;/gi);

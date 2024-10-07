@@ -20,9 +20,9 @@ Complete o projeto guiado <a href="https://learn.microsoft.com/training/modules/
 
 ## --text--
 
-Suponha que `decimal gradePointAverage = 3.99872831m;`.
+Suppose `decimal gradePointAverage = 3.99872831m;`.
 
-Qual é o valor de `(int) gradePointAverage`?
+What is the value of `(int) gradePointAverage`?
 
 ## --answers--
 

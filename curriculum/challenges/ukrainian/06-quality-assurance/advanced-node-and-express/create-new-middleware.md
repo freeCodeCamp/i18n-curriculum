@@ -8,7 +8,7 @@ dashedName: create-new-middleware
 
 # --description--
 
-Будь-який користувач може просто перейти до `/profile`, незалежно від того, пройшов він автентифікацію чи ні, ввівши URL-адресу. Цього потрібно запобігти, перевіривши, чи користувач автентифікувався перш ніж переглядати сторінку профілю. Це хороший приклад того, коли варто створити проміжне ПЗ.
+As is, any user can just go to `/profile` whether they have authenticated or not by typing in the URL. You want to prevent this by checking if the user is authenticated first before rendering the profile page. This is the perfect example of when to create a middleware.
 
 Це завдання створює функцію проміжного ПЗ `ensureAuthenticated(req, res, next)`, яка перевірятиме, чи користувач автентифікувався, викликавши метод Passport `isAuthenticated` до `request`, який перевіряє, чи `req.user` визначений. Якщо так, то треба викликати `next()`. В іншому випадку ви можете просто відповісти на запит, перенаправивши на свою домашню сторінку для входу.
 

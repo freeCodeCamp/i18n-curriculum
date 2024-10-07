@@ -8,7 +8,7 @@ dashedName: title-case-a-sentence
 
 # --description--
 
-Gib den angegebenen String zurück, wobei der erste Buchstabe jeden Wortes groß geschrieben wird. Stelle sicher, dass der Rest der Wörter kleingeschrieben ist.
+Return the provided string with the first letter of each word capitalized. Make sure the rest of the word is in lower case.
 
 Für den Zweck dieser Übung schreibe bitte auch Verbindungswörter wie `the` und `of` groß.
 

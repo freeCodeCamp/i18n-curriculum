@@ -8,7 +8,7 @@ dashedName: get-query-parameter-input-from-the-client
 
 # --description--
 
-從客戶端獲取輸入的另一種常見方式是使用查詢字符串對路由路徑中的數據進行編碼， 查詢字符串使用標記（?）分隔，並且包含鍵值對 field=value， 每對鍵值使用連字號（&）分隔。 Express 能夠從查詢字符串中解析這些數據，並且把它放到 `req.query` 對象中。 有些字符（如百分號（%））不能在出現在 URL 中，它們在發送前必須以不同的格式進行編碼。 如果使用 JavaScript 的 API，可以用特定的方法來編碼/解碼這些字符。
+Another common way to get input from the client is by encoding the data after the route path, using a query string. The query string is delimited by a question mark (?), and includes field=value couples. Each couple is separated by an ampersand (&). Express can parse the data from the query string, and populate the object `req.query`. Some characters, like the percent (%), cannot be in URLs and have to be encoded in a different format before you can send them. If you use the API from JavaScript, you can use specific methods to encode/decode these characters.
 
 <blockquote>路由地址：'/library'<br> 實際請求 URL：'/library?userId=546&#x26;bookId=6754'<br>req.query：{userId: '546', bookId: '6754'}</blockquote>
 

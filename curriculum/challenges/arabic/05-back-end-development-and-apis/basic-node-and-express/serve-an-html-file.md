@@ -1,6 +1,6 @@
 ---
 id: 587d7fb0367417b2b2512bef
-title: Serve an HTML File
+title: خدمة ملف HTML
 challengeType: 2
 forumTopicId: 301516
 dashedName: serve-an-html-file
@@ -8,7 +8,7 @@ dashedName: serve-an-html-file
 
 # --description--
 
-You can respond to requests with a file using the `res.sendFile(path)` method. You can put it inside the `app.get('/', ...)` route handler. خلف الكواليس، ستضبط تلك الطريقة العناوين المناسبة لترشد متصفحك عن كيفية التعامل مع الملف الذي تريد إرساله، وفقًا لنوعه. Then it will read and send the file. This method needs an absolute file path. We recommend you to use the Node global variable `__dirname` to calculate the path like this:
+You can respond to requests with a file using the `res.sendFile(path)` method. You can put it inside the `app.get('/', ...)` route handler. Behind the scenes, this method will set the appropriate headers to instruct your browser on how to handle the file you want to send, according to its type. Then it will read and send the file. This method needs an absolute file path. We recommend you to use the Node global variable `__dirname` to calculate the path like this:
 
 ```js
 absolutePath = __dirname + '/relativePath/file.ext'
@@ -16,13 +16,13 @@ absolutePath = __dirname + '/relativePath/file.ext'
 
 # --instructions--
 
-Send the `/views/index.html` file as a response to GET requests to the `/` path. If you view your live app, you should see a big HTML heading (and a form that we will use later…), with no style applied.
+أرسل ملف `/views/index.html` كرد على طلبات GET في المسار `/`. إذا عرضت التطبيق المباشر الخاص بك، يجب أن ترى عنوان HTML كبير (ونموذج سوف نستخدمه لاحقاً…)، يبدو دون أي تصميم معين.
 
-**Note:** You can edit the solution of the previous challenge or create a new one. If you create a new solution, keep in mind that Express evaluates routes from top to bottom, and executes the handler for the first match. You have to comment out the preceding solution, or the server will keep responding with a string.
+**ملاحظة:** يمكنك تعديل حل التحدي السابق أو إنشاء حل جديد. إذا قمت بإنشاء حل جديد، تفهم أن Express تقيّم المسارات من الأعلى إلى الأسفل، وتقوم بتنفيذ المعالج للمطابقة الأولى. يجب عليك إضافة علامات التعليق حول الحل السابق، أو فأن الخادم سيستمر في الرد بنص مقطعي.
 
 # --hints--
 
-Your app should serve the file views/index.html
+يجب أن يُقدّم تطبيقك ملف views/index.html
 
 ```js
 (getUserInput) =>

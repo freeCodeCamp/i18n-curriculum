@@ -8,9 +8,9 @@ demoType: onClick
 
 # --description--
 
-**Objective:** Fulfill the user stories below and get all the tests to pass to complete the lab.
+Fulfill the user stories below and get all the tests to pass to complete the lab.
 
-**User Stories:**
+**Histórias de usuário:**
 
 1. Your portfolio should have a welcome section with an `id` of `welcome-section`.
 2. The welcome section should have an `h1` element that contains text.
@@ -28,14 +28,14 @@ demoType: onClick
 
 # --hints--
 
-Your portfolio should have a "Welcome" section with an `id` of `welcome-section`.
+O portfólio deve ter uma seção de boas-vindas com o `id` `welcome-section`.
 
 ```js
 const el = document.getElementById('welcome-section')
 assert(!!el);
 ```
 
-Your `#welcome-section` element should contain an `h1` element.
+O elemento `#welcome-section` deve conter um elemento `h1`.
 
 ```js
 assert.isAbove(
@@ -45,7 +45,7 @@ assert.isAbove(
 );
 ```
 
-You should not have any empty `h1` elements within `#welcome-section` element.
+Você não deve ter elementos `h1` vazios dentro de `#welcome-section`.
 
 ```js
 assert.isAbove(
@@ -63,7 +63,7 @@ const el = document.getElementById('project-section')
 assert(!!el);
 ```
 
-Your portfolio should contain at least one element with a class of `project-tile`.
+O portfólio deve conter pelo menos um elemento com a classe `project-tile`.
 
 ```js
 assert.isAbove(
@@ -78,14 +78,14 @@ Your `#project-section` element should contain at least one `a` element.
 assert.isAbove(document.querySelectorAll('#project-section a').length, 0);
 ```
 
-Your portfolio should have a navbar with an `id` of `navbar`.
+O portfólio precisa ter uma barra de navegação com o `id` `navbar`.
 
 ```js
 const el = document.getElementById('navbar');
 assert(!!el);
 ```
 
-Your `#navbar` element should contain at least one `a` element whose `href` attribute starts with `#`.
+O elemento `#navbar` deve conter pelo menos um elemento `a`, cujo atributo `href` comece com `#`.
 
 ```js
 const links = [...document.querySelectorAll('#navbar a')].filter(
@@ -99,21 +99,21 @@ assert.isAbove(
 );
 ```
 
-Your portfolio should have an `a` element with an `id` of `profile-link`.
+O portfólio deve ter um elemento `a` com o `id` `profile-link`.
 
 ```js
 const el = document.getElementById('profile-link');
 assert(!!el && el.tagName === 'A')
 ```
 
-Your `#profile-link` element should have a `target` attribute of `_blank`.
+O elemento `#profile-link` deve ter um atributo `target` `_blank`.
 
 ```js
 const el = document.getElementById('profile-link');
 assert(!!el && el.target === '_blank')
 ```
 
-Your portfolio should use at least one media query.
+O portfólio deve usar pelo menos uma media query.
 
 ```js
 const htmlSourceAttr = Array.from(document.querySelectorAll('source')).map(el => el.getAttribute('media'))
@@ -121,7 +121,7 @@ const cssCheck = new __helpers.CSSHelp(document).getCSSRules('media')
 assert(cssCheck.length > 0 || htmlSourceAttr.length > 0);
 ```
 
-Your `#navbar` element should always be at the top of the viewport.
+O elemento `#navbar` deve estar sempre na parte superior da viewport.
 
 ```js
 (async () => {

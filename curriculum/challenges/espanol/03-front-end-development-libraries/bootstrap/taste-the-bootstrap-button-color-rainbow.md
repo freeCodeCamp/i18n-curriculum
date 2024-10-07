@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348cd8acef08811
-title: Prueba el arcoíris de colores del botón de Bootstrap
+title: Saborea el Color Arcoíris del Botón de Bootstrap
 challengeType: 0
 forumTopicId: 18323
 dashedName: taste-the-bootstrap-button-color-rainbow
@@ -8,7 +8,7 @@ dashedName: taste-the-bootstrap-button-color-rainbow
 
 # --description--
 
-La clase `btn-primary` es el color principal que usarás en tu aplicación. Es útil para resaltar acciones que deseas que tu usuario realice.
+The `btn-primary` class is the main color you'll use in your app. It is useful for highlighting actions you want your user to take.
 
 Reemplaza la clase `btn-default` de Bootstrap por `btn-primary` en tu botón.
 

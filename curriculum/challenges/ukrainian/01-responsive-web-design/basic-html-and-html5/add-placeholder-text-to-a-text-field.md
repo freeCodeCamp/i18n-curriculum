@@ -9,7 +9,7 @@ dashedName: add-placeholder-text-to-a-text-field
 
 # --description--
 
-Заповнювач (плейсхолдер) – це текст, який демонструється у вашому елементі `input`, перш ніж користувач щось введе.
+Placeholder text is what is displayed in your `input` element before your user has inputted anything.
 
 Ви можете створити заповнювач (плейсхолдер) таким чином:
 

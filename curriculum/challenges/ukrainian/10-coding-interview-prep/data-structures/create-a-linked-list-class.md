@@ -8,7 +8,7 @@ dashedName: create-a-linked-list-class
 
 # --description--
 
-Створимо клас `linked list`. Кожен зв’язаний список має починатися з кількох базових властивостей: `head` (перший елемент у списку) та `length` (кількість елементів у цьому списку). Іноді зустрічаються зв’язані списки, які містять `tail`, що позначає останній елемент списку, але поки що ми розглянемо лише ці дві властивості. Щоразу, коли ми додаємо елемент до зв’язаного списку, властивість `length` має збільшуватися на одиницю.
+Let's create a `linked list` class. Every linked list should start out with a few basic properties: a `head` (the first item in your list) and a `length` (number of items in your list). Sometimes you'll see implementations of linked lists that incorporate a `tail` for the last element of the list, but for now we'll just stick with these two. Whenever we add an element to the linked list, our `length` property should be incremented by one.
 
 Ми будемо додавати елементи до зв’язаного списку, тому перший метод, який створимо, — це метод `add`.
 

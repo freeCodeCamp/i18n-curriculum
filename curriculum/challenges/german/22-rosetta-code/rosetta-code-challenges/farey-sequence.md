@@ -8,15 +8,15 @@ dashedName: farey-sequence
 
 # --description--
 
-The Farey sequence <code>F<sub>n</sub></code> of order `n` is the sequence of completely reduced fractions between `0` and `1` which, when in lowest terms, have denominators less than or equal to `n`, arranged in order of increasing size.
+Die Farey-Folge <code>F<sub>n</sub></code> der Reihenfolge `n` ist die Folge von komplett reduzierten Bruchteilen zwischen `0` und `1`, die in niedrigsten Bedingungen Nenner haben, die kleiner oder gleich `n` sind, geordnet nach aufsteigender Größe.
 
 Die *Farey-sequenz * wird manchmal fälschlicherweise als *Farey-Reihe bezeichnet*.
 
 Jede Farey-Sequenz:
 
 <ul>
-  <li>starts with the value  0,  denoted by the fraction  $ \frac{0}{1} $</li>
-  <li>ends with the value  1,  denoted by the fraction  $ \frac{1}{1}$.</li>
+  <li>beginnt mit dem Wert 0, gekennzeichnet durch den Bruch $ frac{0}{1} $</li>
+  <li>endet mit dem Wert 1, gekennzeichnet durch den Bruchteil $ frac{1}{1}$.</li>
 </ul>
 
 Die Farey-Sequenzen der Ordnung `1` bis `5` sind:

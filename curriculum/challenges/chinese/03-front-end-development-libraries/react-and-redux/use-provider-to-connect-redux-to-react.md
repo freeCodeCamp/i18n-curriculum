@@ -8,7 +8,7 @@ dashedName: use-provider-to-connect-redux-to-react
 
 # --description--
 
-在上一挑战中，创建了 Redux store 和 action，分别用于处理消息数组和添加新消息。 下一步要为 React 提供访问 Redux store 及发起更新所需的 actions。 `react-redux` 包可帮助我们完成这些任务。
+In the last challenge, you created a Redux store to handle the messages array and created an action for adding new messages. The next step is to provide React access to the Redux store and the actions it needs to dispatch updates. React Redux provides its `react-redux` package to help accomplish these tasks.
 
 React Redux 提供的 API 有两个关键的功能：`Provider` 和 `connect`。 会在另一个挑战会介绍 `connect`。 `Provider`是 React Redux 包装 React 应用的 wrapper 组件， 它允许访问整个组件树中的 Redux `store` 及 `dispatch`（分发）方法。 `Provider` 需要两个 props：Redux store 和 App 应用的子组件。 用于 App 组件的 `Provider` 可这样定义：
 

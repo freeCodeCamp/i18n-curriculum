@@ -1,6 +1,6 @@
 ---
 id: 5e8f2f13c4cdbe86b5c72d99
-title: 'Convolutional Neural Networks: Evaluating the Model'
+title: 'Convolutional Neural Networks: Bewertung des Modells'
 challengeType: 11
 videoId: eCATNvwraXg
 bilibiliIds:
@@ -18,15 +18,15 @@ What is **not** a good way to increase the accuracy of a convolutional neural ne
 
 ## --answers--
 
-Augmenting the data you already have.
+Vervollständigung der bereits vorhandenen Daten.
 
 ---
 
-Using a pre-trained model.
+Verwendung eines vorgegebenen Modells.
 
 ---
 
-Using your test data to retrain the model.
+Verwendung deiner Testdaten, um das Modell neu zu definieren.
 
 ## --video-solution--
 

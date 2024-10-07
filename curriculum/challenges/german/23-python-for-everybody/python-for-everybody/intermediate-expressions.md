@@ -12,7 +12,7 @@ dashedName: intermediate-expressions
 
 # --description--
 
-More resources:
+Weitere Quellen:
 
 \- <a href="https://youtu.be/t_4DPwsaGDY" target="_blank" rel="noopener noreferrer nofollow">Aufgabe 1</a>
 

@@ -8,7 +8,7 @@ dashedName: use-a-mixin-to-add-common-behavior-between-unrelated-objects
 
 # --description--
 
-Як ви помітили, поведінка розділяється внаслідок успадкування. Однак є випадки, коли успадкування не є найкращим рішенням. Успадкування не працює належним чином з непов’язаними об’єктами (наприклад, `Bird` та `Airplane`). Вони обидві здатні літати, але `Bird` не належить до типу `Airplane` і навпаки.
+As you have seen, behavior is shared through inheritance. However, there are cases when inheritance is not the best solution. Inheritance does not work well for unrelated objects like `Bird` and `Airplane`. They can both fly, but a `Bird` is not a type of `Airplane` and vice versa.
 
 Для непов’язаних об’єктів краще використовувати <dfn>міксини</dfn>. Міксини дозволяють об’єктам використовувати набір функцій.
 

@@ -8,7 +8,7 @@ dashedName: render-state-in-the-user-interface
 
 # --description--
 
-بمجرد تحديد الحالة الأولية للمكون (component's initial state)، يمكنك عرض أي جزء منه في واجهة المستخدم (UI) التي تنتجها. إذا أحتوى المكون على حالة، فسيكون لديه دائماً حق الوصول إلى البيانات في `state` بطريقته `render()`. يمكنك الوصول إلى البيانات باستخدام `this.state`.
+Once you define a component's initial state, you can display any part of it in the UI that is rendered. If a component is stateful, it will always have access to the data in `state` in its `render()` method. You can access the data with `this.state`.
 
 إذا كنت ترغب في الوصول إلى قيمة الحالة (state) ضمن `return` من طريقة الإنتاج (render method)، يجب عليك إرفاق القيمة بأقواس منحنية (curly braces).
 

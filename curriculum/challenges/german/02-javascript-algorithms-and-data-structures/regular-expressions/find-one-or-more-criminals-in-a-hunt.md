@@ -8,7 +8,7 @@ dashedName: find-one-or-more-criminals-in-a-hunt
 
 # --description--
 
-Zeit, eine Pause einzulegen und deine neuen Schreibfähigkeiten für reguläre Ausdrücke zu testen. Eine Gruppe von Kriminellen ist aus dem Gefängnis ausgebrochen und weggelaufen, aber du weißt nicht, wie viele. Du weißt aber, dass sie eng zusammenbleiben, wenn sie mit anderen Menschen zusammen sind. Du bist dafür verantwortlich, alle Verbrecher auf einmal zu finden.
+Time to pause and test your new regex writing skills. A group of criminals escaped from jail and ran away, but you don't know how many. However, you do know that they stay close together when they are around other people. You are responsible for finding all of the criminals at once.
 
 Hier ist ein Beispiel, um zu sehen, wie man das macht:
 

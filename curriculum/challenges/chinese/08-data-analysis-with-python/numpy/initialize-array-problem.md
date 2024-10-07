@@ -14,7 +14,7 @@ dashedName: initialize-array-problem
 
 ## --text--
 
-产生以下数组的另一种方式是什么？
+What is another way to produce the following array?
 
 ```py
 [[0. 0. 0. 0. 0. 0. 0.]

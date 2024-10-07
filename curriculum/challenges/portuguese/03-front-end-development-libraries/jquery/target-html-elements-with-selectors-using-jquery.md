@@ -11,7 +11,7 @@ dashedName: target-html-elements-with-selectors-using-jquery
 
 # --description--
 
-Agora temos uma função `document ready`.
+Now we have a `document ready` function.
 
 Agora vamos escrever nossa primeira declaração jQuery. Todas as funções do jQuery começam com um `$`, geralmente são referidas como um operador de sinal de dólar ou como bling.
 

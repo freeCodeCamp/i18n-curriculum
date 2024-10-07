@@ -9,7 +9,7 @@ dashedName: comparison-with-the-less-than-operator
 
 # --description--
 
-使用小于运算符（`<`）来比较两个数字。 如果小于运算符左边的数字比右边的数字小，它会返回 `true`。 否则会返回 `false`。 与相等运算符类似，小于运算符在做比较的时候会转换值的数据类型。
+The less than operator (`<`) compares the values of two numbers. If the number to the left is less than the number to the right, it returns `true`. Otherwise, it returns `false`. Like the equality operator, the less than operator converts data types while comparing.
 
 **例如：**
 

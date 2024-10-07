@@ -9,7 +9,7 @@ dashedName: use-the-flex-grow-property-to-expand-items
 
 # --description--
 
-Протилежною до властивості `flex-shrink` є `flex-grow` властивість. Згадайте, що `flex-shrink` контролює розмір об'єктів, коли контейнер стискується. Властивість `flex-grow` контролює розмір об'єктів, коли контейнер вихідних елементів збільшується.
+The opposite of `flex-shrink` is the `flex-grow` property. Recall that `flex-shrink` controls the size of the items when the container shrinks. The `flex-grow` property controls the size of items when the parent container expands.
 
 Наприклад, якщо один об'єкт матиме значення `flex-grow` від `1`, а інший матиме значення `flex-grow` від `3`, то одне зі значень від `3` стиснеться втричі більше ніж інше.
 

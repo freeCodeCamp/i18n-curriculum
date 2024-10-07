@@ -8,7 +8,7 @@ dashedName: use--for-a-more-concise-conditional
 
 # --description--
 
-前回のチャレンジでは `if/else` ステートメントが正しく機能しましたが、もっと簡潔な方法で同じ結果を得ることができます。 コンポーネントで複数の条件を追跡していて、それぞれの条件に応じて異なる要素をレンダーしたいとしましょう。 わずかに異なる UI を返す `else if` ステートメントをたくさん記述すると、エラーの余地を残すコードを繰り返してしまう可能性があります。 代わりに、`&&` 論理演算子を使用して、もっと簡潔な方法で条件ロジックを実行することができます。 ここでは、条件が `true` かどうかをチェックして、true ならばマークアップを返すという処理なので、この演算子を使用できます。 例:
+The `if/else` statements worked in the last challenge, but there's a more concise way to achieve the same result. Imagine that you are tracking several conditions in a component and you want different elements to render depending on each of these conditions. If you write a lot of `else if` statements to return slightly different UIs, you may repeat code which leaves room for error. Instead, you can use the `&&` logical operator to perform conditional logic in a more concise way. This is possible because you want to check if a condition is `true`, and if it is, return some markup. こちらがその例です。
 
 ```jsx
 {condition && <p>markup</p>}

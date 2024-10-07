@@ -20,19 +20,19 @@ Complete o módulo <a href="https://learn.microsoft.com/training/modules/csharp-
 
 ## --text--
 
-Qual tipo de ação está sendo realizada ao mudar um `float` para um `int`?
+What type of action is being performed when changing a `float` into an `int`?
 
 ## --answers--
 
-Uma conversão de restrição.
+A narrowing conversion.
 
 ---
 
-Uma conversão de expansão.
+A widening conversion.
 
 ---
 
-Uma conversão ilegal.
+An illegal conversion.
 
 ## --video-solution--
 

@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: introduction-elements-of-python
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-What will the following program print out:
+¿Qué imprimirá el siguiente programa?
 
 ```python
 x = 43

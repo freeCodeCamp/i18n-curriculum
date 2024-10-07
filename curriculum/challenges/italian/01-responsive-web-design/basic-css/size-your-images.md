@@ -8,7 +8,7 @@ dashedName: size-your-images
 
 # --description--
 
-Il CSS ha una proprietà chiamata `width` che controlla la larghezza di un elemento. Proprio come con i caratteri, useremo `px` (pixel) per specificare la larghezza dell'immagine.
+CSS has a property called `width` that controls an element's width. Just like with fonts, we'll use `px` (pixels) to specify the image's width.
 
 Per esempio, se volessimo creare una classe CSS denominata `larger-image` per dare agli elementi HTML una larghezza di 500 pixel, useremmo:
 

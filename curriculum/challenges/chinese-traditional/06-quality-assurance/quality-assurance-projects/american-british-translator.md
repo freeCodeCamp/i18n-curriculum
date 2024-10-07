@@ -8,60 +8,60 @@ dashedName: american-british-translator
 
 # --description--
 
-構建一個 JavaScript 全棧應用，在功能上與 <a href="https://american-british-translator.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://american-british-translator.freecodecamp.rocks/</a> 類似。 可以採用下面的任意一種方式完成這個挑戰：
+Build a full stack JavaScript app that is functionally similar to this: <a href="https://american-british-translator.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://american-british-translator.freecodecamp.rocks/</a>. Working on this project will involve you writing your code using one of the following methods:
 
--   克隆<a href="https://github.com/freeCodeCamp/boilerplate-project-american-british-english-translator/" target="_blank" rel="noopener noreferrer nofollow">這個 GitHub 倉庫</a>，並在本地完成你的項目。
+-   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-american-british-english-translator/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
 -   Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-american-british-english-translator/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete your project.
--   使用您選擇的站點生成器來完成項目。 並確保包含了我們 GitHub 倉庫的所有文件。
+-   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
 
 # --instructions--
 
--   所有邏輯都可以進入 `/components/translator.js`
+-   All logic can go into `/components/translator.js`
 -   在 `/routes/api.js` 中完成 `/api/translate` 路由
--   在 `tests/1_unit-tests.js` 和 `tests/2_functional-tests.js` 中創建所有單元/功能測試
+-   在 `tests/1_unit-tests.js` 和 `tests/2_functional-tests.js` 中創建所有 unit/functional 測試
 -   查看 `/components` 中的 JavaScript 文件以獲取應用程序應該翻譯的條款以及不同的拼寫
--   To run the tests automatically, set `NODE_ENV` to `test` without quotes in the `.env` file
--   使用 `npm run test` 命令在 console 中運行測試。
+-   在 `.env` 文件中將 `NODE_ENV` 設置爲 `test`（沒有引號），以此自動運行測試
+-   To run the tests in the console, use the command `npm run test`.
 
-在 `tests/1_unit-tests.js` 中寫下以下測試：
+Write the following tests in `tests/1_unit-tests.js`:
 
--   將 `Mangoes are my favorite fruit.` 轉換成英式英語
--   將 `I ate yogurt for breakfast.` 轉換成英式英語
--   將 `We had a party at my friend's condo.` 轉換成英式英語
--   將 `Can you toss this in the trashcan for me?` 轉換成英式英語
--   將 `The parking lot was full.` 轉換成英式英語
--   將 `Like a high tech Rube Goldberg machine.` 轉換成英式英語
--   將 `To play hooky means to skip class or work.` 轉換成英式英語
--   將 `No Mr. Bond, I expect you to die.` 轉換成英式英語
--   將 `Dr. Grosh will see you now.` 轉換成英式英語
--   將 `Lunch is at 12:15 today.` 轉換成英式英語
--   將 `We watched the footie match for a while.` 轉換成美式英語
--   將 `Paracetamol takes up to an hour to work.` 轉換成美式英語
--   將 `First, caramelise the onions.` 轉換成美式英語
--   將 `I spent the bank holiday at the funfair.` 轉換成美式英語
--   將 `I had a bicky then went to the chippy.` 轉換成美式英語
--   將 `I've just got bits and bobs in my bum bag.` 轉換成美式英語
--   將 `The car boot sale at Boxted Airfield was called off.` 轉換成美式英語
--   將 `Have you met Mrs Kalyani?` 轉換成美式英語
--   將 `Prof Joyner of King's College, London.` 轉換成美式英語
--   將 `Tea time is usually around 4 or 4.30.` 轉換成美式英語
--   將 `Mangoes are my favorite fruit.` 裏的轉換高亮
--   將 `I ate yogurt for breakfast.` 裏的轉換高亮
--   將 `We watched the footie match for a while.` 裏的轉換高亮
--   將 `Paracetamol takes up to an hour to work.` 裏的轉換高亮
+-   Translate `Mangoes are my favorite fruit.` to British English
+-   將 `I ate yogurt for breakfast.` 轉換成英式英語。
+-   將 `We had a party at my friend's condo.` 轉換成英式英語。
+-   將 `Can you toss this in the trashcan for me?` 轉換成英式英語。
+-   將 `The parking lot was full.` 轉換成英式英語。
+-   將 `Like a high tech Rube Goldberg machine.` 轉換成英式英語。
+-   將 `To play hooky means to skip class or work.` 轉換成英式英語。
+-   將 `No Mr. Bond, I expect you to die.` 轉換成英式英語。
+-   將 `Dr. Grosh will see you now.` 轉換成英式英語。
+-   將 `Lunch is at 12:15 today.` 轉換成英式英語。
+-   將 `We watched the footie match for a while.` 轉換成美式英語。
+-   將 `Paracetamol takes up to an hour to work.` 轉換成美式英語。
+-   將 `First, caramelise the onions.` 轉換成美式英語。
+-   將 `I spent the bank holiday at the funfair.` 轉換成美式英語。
+-   將 `I had a bicky then went to the chippy.` 轉換成美式英語。
+-   將 `I've just got bits and bobs in my bum bag.` 轉換成美式英語。
+-   將 `The car boot sale at Boxted Airfield was called off.` 轉換成美式英語。
+-   將 `Have you met Mrs Kalyani?` 轉換成美式英語。
+-   將 `Prof Joyner of King's College, London.` 轉換成美式英語。
+-   將 `Tea time is usually around 4 or 4.30.` 轉換成美式英語。
+-   將 `Mangoes are my favorite fruit.` 裏的轉換高亮。
+-   高亮 `I ate yogurt for breakfast.` 裏的轉換。
+-   高亮 `We watched the footie match for a while.` 裏的轉換。
+-   高亮 `Paracetamol takes up to an hour to work.` 裏的轉換。
 
 在 `tests/2_functional-tests.js` 中編寫下以下測試：
 
--   翻譯文本字段和本地化字段：POST 請求到 `/api/translate`
--   翻譯文本字段和無效的本地化字段：POST 請求到 `/api/translate`
--   翻譯缺失的文本字段：POST 請求到 `/api/translate`
--   翻譯缺失的本地化字段：POST 請求到 `/api/translate`
--   翻譯空的文本：POST 請求到 `/api/translate`
--   翻譯無需翻譯的文本：POST 請求到 `/api/translate`
+-   Translation with text and locale fields: POST request to `/api/translate`
+-   翻譯文本字段和無效的本地化字段: POST 請求到 `/api/translate`
+-   翻譯缺失的文本字段: POST 請求到 `/api/translate`
+-   翻譯缺失的本地化字段: POST 請求到 `/api/translate`
+-   翻譯空的文本: POST 請求到 `/api/translate`
+-   翻譯無需翻譯的文本: POST 請求到 `/api/translate`
 
 # --hints--
 
-你應該提交你自己的項目，而不是示例的 URL。
+你應該提交自己的項目，而不是示例的 URL。
 
 ```js
 (getUserInput) => {
@@ -73,7 +73,7 @@ dashedName: american-british-translator
 };
 ```
 
-可以向 `/api/translate` 發送 `POST` 請求，對請求體內的 `text` 文本進行翻譯， `locale` 字段可以是 `american-to-british` 或 `british-to-american`。 返回的對象應該包含提交的 `text` 以及翻譯的文本 `translation`。
+You can `POST` to `/api/translate` with a body containing `text` with the text to translate and `locale` with either `american-to-british` or `british-to-american`. The returned object should contain the submitted `text` and `translation` with the translated text.
 
 ```js
 async (getUserInput) => {
@@ -101,7 +101,7 @@ async (getUserInput) => {
 };
 ```
 
-`/api/translate` 路由應該可以處理用英美方式英語寫的時間。 例如，十點半英式英語寫爲 “10.30”，而美式英語寫爲 “10:30”。 `span` 元素應該包裹整個時間字符串，即 `<span class="highlight">10:30</span>`。
+The `/api/translate` route should handle the way time is written in American and British English. For example, ten thirty is written as "10.30" in British English and "10:30" in American English. The `span` element should wrap the entire time string, i.e. `<span class="highlight">10:30</span>`.
 
 ```js
 async (getUserInput) => {
@@ -128,7 +128,7 @@ async (getUserInput) => {
 };
 ```
 
-`/api/translate` 路由也應該處理美式英語和英式英語中頭銜/尊稱的縮寫方式。 例如，Doctor Wright 在英式英語中縮寫爲 “Dr Wright”，在美式英語中縮寫爲 “Dr. Wright"”。 請參閱 `/components/american-to-british-titles.js`，瞭解程序應當處理的不同標題。
+The `/api/translate` route should also handle the way titles/honorifics are abbreviated in American and British English. For example, Doctor Wright is abbreviated as "Dr Wright" in British English and "Dr. Wright" in American English. See `/components/american-to-british-titles.js` for the different titles your application should handle.
 
 ```js
 async (getUserInput) => {
@@ -155,7 +155,7 @@ async (getUserInput) => {
 };
 ```
 
-將任何翻譯過的拼寫或條目放在 `<span class="highlight">...</span>` 標籤內以使其顯示爲綠色。
+Wrap any translated spelling or terms with `<span class="highlight">...</span>` tags so they appear in green.
 
 ```js
 async (getUserInput) => {
@@ -183,7 +183,7 @@ async (getUserInput) => {
 };
 ```
 
-如果缺少一個或多個必填字段，返回 `{ error: 'Required field(s) missing' }`。
+If one or more of the required fields is missing, return `{ error: 'Required field(s) missing' }`.
 
 ```js
 async (getUserInput) => {
@@ -204,7 +204,7 @@ async (getUserInput) => {
 };
 ```
 
-如果 `text` 爲空，返回 `{ error: 'No text to translate' }`。
+If `text` is empty, return `{ error: 'No text to translate' }`
 
 ```js
 async (getUserInput) => {
@@ -225,7 +225,7 @@ async (getUserInput) => {
 };
 ```
 
-如果 `locale` 與兩個指定的 locales 都不匹配，返回 `{ error: 'Invalid value for locale field' }`。
+If `locale` does not match one of the two specified locales, return `{ error: 'Invalid value for locale field' }`.
 
 ```js
 async (getUserInput) => {
@@ -247,7 +247,7 @@ async (getUserInput) => {
 };
 ```
 
-如果 `text` 不需要翻譯，返回的 `translation` 值爲`"Everything looks good to me!"`。
+If `text` requires no translation, return `"Everything looks good to me!"` for the `translation` value.
 
 ```js
 async (getUserInput) => {
@@ -274,7 +274,7 @@ async (getUserInput) => {
 };
 ```
 
-所有 24 項單元測試都已完成並通過。
+All 24 unit tests are complete and passing.
 
 ```js
 async (getUserInput) => {
@@ -299,7 +299,7 @@ async (getUserInput) => {
 };
 ```
 
-所有 6 項功能測試都已完成並通過。
+All 6 functional tests are complete and passing.
 
 ```js
 async (getUserInput) => {

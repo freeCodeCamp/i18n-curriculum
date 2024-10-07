@@ -8,7 +8,7 @@ dashedName: compose-react-components
 
 # --description--
 
-ومع استمرار التحديات في استخدام تركيبات أكثر تعقيدا مع مكونات React و JSX، ثمة نقطة هامة جديرة يحب ملاحظتها. لا يختلف تقديم مكونات أسلوب ES6 ضمن مكونات أخرى عن تقديم المكونات البسيطة التي استخدمتها في التحديات القليلة الأخيرة. يمكنك أنشاء عناصر JSX، والمكونان الوظيفي عديمة الحالة (stateless functional components)، ومكونات الفئة (class components) في ES6 ضمن مكونات أخرى.
+As the challenges continue to use more complex compositions with React components and JSX, there is one important point to note. Rendering ES6 style class components within other components is no different than rendering the simple components you used in the last few challenges. You can render JSX elements, stateless functional components, and ES6 class components within other components.
 
 # --instructions--
 

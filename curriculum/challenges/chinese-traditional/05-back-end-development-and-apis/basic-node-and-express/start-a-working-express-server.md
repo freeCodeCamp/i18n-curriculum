@@ -8,7 +8,7 @@ dashedName: start-a-working-express-server
 
 # --description--
 
-在 `myApp.js` 文件的前兩行中，你可以看到創建一個 Express 應用對象很簡單。 這個對象有幾種方法，在後面的挑戰中將學習到其中的許多部分。 一個基礎的方法是 `app.listen(port)`。 它處於運行狀態時告訴服務器監聽指定的端口。 出於測試的原因，需要應用在後臺運行，所以在 `server.js` 中已經添加了這個方法。
+In the first two lines of the file `myApp.js`, you can see how easy it is to create an Express app object. This object has several methods, and you will learn many of them in these challenges. One fundamental method is `app.listen(port)`. It tells your server to listen on a given port, putting it in running state. For testing reasons, we need the app to be running in the background so we added this method in the `server.js` file for you.
 
 讓我們在服務端輸出第一個字符串！ 在 Express 中，路由採用這種結構：`app.METHOD(PATH, HANDLER)`， METHOD 是 http 請求方法的小寫形式， PATH 是服務器上的相對路徑（它可以是一個字符串，甚至可以是正則表達式）， HANDLER 是匹配路由時 Express 調用的函數， 處理函數採用這種形式：`function(req, res) {...}`，其中 req 是請求對象，res 是響應對象， 例如：
 

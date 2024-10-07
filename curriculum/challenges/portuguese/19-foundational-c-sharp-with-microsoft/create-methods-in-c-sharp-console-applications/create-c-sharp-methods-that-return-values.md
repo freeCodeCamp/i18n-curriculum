@@ -20,7 +20,7 @@ Complete o módulo <a href="https://learn.microsoft.com/training/modules/create-
 
 ## --text--
 
-Qual das opções a seguir retorna corretamente um valor do tipo `string`?
+Which of the following options correctly returns a `string` value?
 
 ## --answers--
 

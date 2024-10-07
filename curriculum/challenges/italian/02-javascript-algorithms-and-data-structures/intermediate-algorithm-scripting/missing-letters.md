@@ -8,7 +8,7 @@ dashedName: missing-letters
 
 # --description--
 
-Trova la lettera mancante nell'intervallo di lettere passato e restituisca.
+Find the missing letter in the passed letter range and return it.
 
 Se tutte le lettere sono presenti nell'intervallo, restituisci `undefined`.
 

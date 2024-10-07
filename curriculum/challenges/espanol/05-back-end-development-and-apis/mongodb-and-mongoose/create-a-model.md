@@ -8,11 +8,11 @@ dashedName: create-a-model
 
 # --description--
 
-**C**RUD Parte 1: CREATE (Crear)
+**C**RUD Part I - CREATE
 
 En primer lugar, necesitamos un esquema. Cada esquema asigna a una colección de MongoDB. Define la forma de los documentos dentro de esa colección. Los esquemas son bloques de construcción para los modelos. Pueden ser anidados para crear modelos complejos, pero en este caso las cosas serán sencillas. Un modelo te permite crear instancias de tus objetos, llamados documentos.
 
-Gitpod is a real server, and in real servers, the interactions with the database happen in handler functions. Estas funciones se ejecutan cuando ocurre algún evento (por ejemplo, alguien golpea un endpoint en tu API). Seguiremos el mismo enfoque en estos ejercicios. La función `done()` es un callback que nos dice que podemos proceder después de completar una operación asincrónica como insertar, buscar, actualizar o eliminar. Sigue la convención de Node, y debe ser llamado como `done(null, data)` en caso de éxito, o `done(err)` en caso de error.
+Gitpod es un servidor real y en servidores reales, las interacciones con la base de datos ocurren en funciones controladoras de eventos (handlers). Estas funciones se ejecutan cuando ocurre algún evento (por ejemplo, alguien golpea un endpoint en tu API). Seguiremos el mismo enfoque en estos ejercicios. La función `done()` es un callback que nos dice que podemos proceder después de completar una operación asincrónica como insertar, buscar, actualizar o eliminar. Sigue la convención de Node, y debe ser llamado como `done(null, data)` en caso de éxito, o `done(err)` en caso de error.
 
 Advertencia: ¡Al interactuar con servicios remotos, pueden ocurrir errores!
 
@@ -30,7 +30,7 @@ const someFunc = function(done) {
 
 Crea un esquema de persona llamado `personSchema` con la siguiente forma:
 
-* Un campo `name` obligatorio de tipo `String`
+* A required `name` field of type `String`
 * Un campo `age` de tipo `Number`
 * Un campo `favoriteFoods` de tipo `[String]`
 

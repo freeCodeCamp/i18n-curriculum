@@ -8,7 +8,7 @@ dashedName: problem-326-modulo-summations
 
 # --description--
 
-Let $a_n$ be a sequence recursively defined by: $a_1 = 1$, $\displaystyle a_n = \left(\sum_{k = 1}^{n - 1} k \times a_k\right)\bmod n$.
+Sei $a_n$ eine Folge, die rekursiv definiert ist durch: $a_1 = 1$, $\displaystyle a_n = \left(\sum_{k = 1}^{n - 1} k \times a_k\right)\bmod n$.
 
 Die ersten 10 Elemente von $a_n$ sind also: 1, 1, 0, 3, 0, 3, 5, 4, 1, 9.
 
@@ -20,11 +20,11 @@ Es zeigt sich, dass $f(10, 10) = 4$ mit den Paaren (3,3), (5,5), (7,9) und (9,10
 
 Außerdem ist gegeben, dass $f({10}^4, {10}^3) = 97\\,158$.
 
-Find $f({10}^{12}, {10}^6)$.
+Finde $f({10}^{12}, {10}^6)$.
 
 # --hints--
 
-`moduloSummations()` should return `1966666166408794400`.
+`moduloSummations()` sollte `1966666166408794400` zurückgeben.
 
 ```js
 assert.strictEqual(moduloSummations(), 1966666166408794400);

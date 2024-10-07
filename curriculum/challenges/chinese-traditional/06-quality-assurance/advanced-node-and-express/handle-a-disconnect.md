@@ -8,7 +8,7 @@ dashedName: handle-a-disconnect
 
 # --description--
 
-你也許注意到，目前爲止我們只處理用戶數量的增加，沒有處理減少。 事實上，處理用戶斷開連接也很簡單。 區別在於，新連接的監聽是發生在整個服務器上，但連接斷開的監聽是發生在每個 socket 上。
+You may notice that up to now you have only been increasing the user count. Handling a user disconnecting is just as easy as handling the initial connect, except you have to listen for it on each socket instead of on the whole server.
 
 爲此，我們需要在目前的 `'connect'` 監聽裏面添加另一個監聽器，監聽 socket 斷開連接 `'disconnect'` 的事件。 通過登錄已與控制檯斷開連接的用戶，你可以測試這個功能。
 
@@ -22,7 +22,7 @@ socket.on('disconnect', () => {
 
 **注意：**和 `'disconnect'` 類似，所有 socket 可以發送到服務器的事件，我們都應該在有 “socket” 定義的連接監聽器裏處理。
 
-完成上述要求後，請提交你的頁面鏈接。 如果你在運行時遇到錯誤，你可以<a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#handle-a-disconnect-8" target="_blank" rel="noopener noreferrer nofollow">查看已完成的項目</a>。
+完成之後提交你的頁面。 如果你在運行時遇到錯誤，你可以<a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#handle-a-disconnect-8" target="_blank" rel="noopener noreferrer nofollow">查看已完成的項目</a>。
 
 # --hints--
 

@@ -9,7 +9,7 @@ dashedName: change-an-elements-relative-position
 
 # --description--
 
-CSS сприймає кожний елемент HTML як власний блок, який зазвичай називають <dfn>CSS Box Model</dfn>. Елементи-блоки автоматично переміщуються на новий рядок (такий як заголовок, параграф, сектор), тоді як вбудовані елементи можуть бути оточені іншими матеріалами (такими як зображення або інтервали). У такому разі шаблон елементів, що використовується за замовчуванням, називається <dfn>normal flow</dfn> документа, але CSS пропонує властивість position (розміщення), щоб змінити його.
+CSS treats each HTML element as its own box, which is usually referred to as the <dfn>CSS Box Model</dfn>. Block-level items automatically start on a new line (think headings, paragraphs, and divs) while inline items sit within surrounding content (like images or spans). The default layout of elements in this way is called the <dfn>normal flow</dfn> of a document, but CSS offers the position property to override it.
 
 Коли елементу задана властивість `relative`, що дозволяє вам визначити, як має рухатися CSS *relative* відносно свого поточного розміщення у стандартному блоці сторінки. Разом з CSS властивість offset (розміщення) може бути `left` або `right`, і `top` або `bottom`. Це вказує на кількість пікселів, відсотків або em, необхідних для переміщення елементу *away* у стандартну позицію. Ось приклад того, як пересунути параграф на 10 пікселів вгору:
 

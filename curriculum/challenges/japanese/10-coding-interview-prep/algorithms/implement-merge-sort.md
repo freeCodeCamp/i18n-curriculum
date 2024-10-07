@@ -8,7 +8,7 @@ dashedName: implement-merge-sort
 
 # --description--
 
-もう一つの一般的な中間ソートアルゴリズムはマージソートです。 クイックソートと同様に、マージソートは再帰的な分割統治法を使用して配列をソートします。 この方法は、最初からそれぞれがソートされている 2 つの配列をソートするのは比較的簡単であるという事実を利用しています。 しかし、まずは入力として配列を 1 つだけ使いましょう。さて、そこから 2 つのソート済み配列をどのように取得するのでしょうか？ 要素を 1 つのみ持つ配列という初期条件に到達するまで、元の入力を再帰的に 2 分割すれば良いのです。 単一要素の配列は当然ソート済みなので、次に合体を始めることができます。 この合体により、元の配列を分割する再帰呼び出しが巻き戻され、最後にはすべての要素を持つ最終的なソート済み配列が生成されます。 マージソートの手順は次のとおりです。
+Another common intermediate sorting algorithm is merge sort. Like quick sort, merge sort also uses a divide-and-conquer, recursive methodology to sort an array. It takes advantage of the fact that it is relatively easy to sort two arrays as long as each is sorted in the first place. But we'll start with only one array as input, so how do we get to two sorted arrays from that? Well, we can recursively divide the original input in two until we reach the base case of an array with one item. A single-item array is naturally sorted, so then we can start combining. This combination will unwind the recursive calls that split the original array, eventually producing a final sorted array of all the elements. The steps of merge sort, then, are:
 
 **1)** 要素を 1 つのみ持つ部分配列が生成されるまで、入力配列を再帰的に 2 分割します。
 

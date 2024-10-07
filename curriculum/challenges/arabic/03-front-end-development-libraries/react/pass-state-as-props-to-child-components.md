@@ -8,7 +8,7 @@ dashedName: pass-state-as-props-to-child-components
 
 # --description--
 
-لقد رأيتم الكثير من الأمثلة التي انتقلت إلى عناصر JSX الفرعية ومكونات React الفرعية في التحديات السابقة. ربما تتساءل من أين تأتي تلك المِيزات (props). النمط الشائع هو أن يكون هناك مكون حالة (stateful component) يحتوي على `state` مهمة لتطبيقك، ثم ينتج مكونات فرعية (child components). تريد أن يكون لهذه المكونات (components) حق الوصول إلى بعض القطع من تلك `state`، التي تمرّ مِيزات (props).
+You saw a lot of examples that passed props to child JSX elements and child React components in previous challenges. You may be wondering where those props come from. A common pattern is to have a stateful component containing the `state` important to your app, that then renders child components. You want these components to have access to some pieces of that `state`, which are passed in as props.
 
 على سبيل المثال، ربما لديك مكون `App` الذي ينتج `Navbar`, من بين مكونات أخرى. في `App` الخاص بك، لديك `state` تحتوي على الكثير من معلومات المستخدم، ولكن `Navbar` يحتاج فقط إلى الوصول إلى اسم المستخدم حتى يتمكن من عرضه. تمرير هذه القطعة من `state` إلى مكون (component) يسمى `Navbar` كمِيزة (prop).
 

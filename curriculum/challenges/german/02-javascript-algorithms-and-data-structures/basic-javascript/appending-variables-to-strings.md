@@ -9,7 +9,7 @@ dashedName: appending-variables-to-strings
 
 # --description--
 
-Genauso wie wir einen String über mehrere Zeilen aus <dfn>Literalen</dfn> aufbauen können, können wir auch Variablen an einen String anhängen, indem wir den Plus-Gleichheits-Operator (`+=`) verwenden.
+Just as we can build a string over multiple lines out of string <dfn>literals</dfn>, we can also append variables to a string using the plus equals (`+=`) operator.
 
 Beispiel:
 

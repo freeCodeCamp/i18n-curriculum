@@ -9,7 +9,7 @@ dashedName: add-placeholder-text-to-a-text-field
 
 # --description--
 
-佔位符文本用戶在 `input` 輸入框中輸入任何東西前的預定義文本。
+Placeholder text is what is displayed in your `input` element before your user has inputted anything.
 
 你可以像這樣創建一個佔位符：
 

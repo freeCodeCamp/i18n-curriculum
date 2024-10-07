@@ -8,7 +8,7 @@ dashedName: sedols
 
 # --description--
 
-<abbr title="Stock Exchange Daily Official List">SEDOL</abbr> is a list of securities identification numbers issued by the London Stock Exchange.
+<abbr title="Stock Exchange Daily Official List">SEDOL</abbr> ist eine Liste von Wertpapierkennnummern, die von der Londoner Börse ausgegeben wird.
 
 Für jede Nummernliste der 6-stelligen <abbr title="Stock Exchange Daily Official List">SEDOL</abbr> wird die Prüfziffer berechnet und angehängt. Das heißt, dass deine Funktion bei der Eingabe der Zeichenfolge auf der linken Seite die entsprechende Zeichenfolge auf der rechten Seite zurückgeben sollte:
 

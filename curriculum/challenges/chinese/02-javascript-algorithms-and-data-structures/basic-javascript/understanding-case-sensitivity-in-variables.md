@@ -9,7 +9,7 @@ dashedName: understanding-case-sensitivity-in-variables
 
 # --description--
 
-在 JavaScript 中所有的变量和函数名都是大小写敏感的。 要区别对待大写字母和小写字母。
+In JavaScript all variables and function names are case sensitive. This means that capitalization matters.
 
 `MYVAR` 与 `MyVar` 和 `myvar` 是不同的变量。 这有可能导致出现多个相似名字的变量。 所以强烈地建议你，为了保持代码清晰*不要*使用这一特性。
 

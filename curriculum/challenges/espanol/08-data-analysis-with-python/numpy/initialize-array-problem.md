@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: initialize-array-problem
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-¿Cuál es la otra forma de crear el siguiente array?
+What is another way to produce the following array?
 
 ```py
 [[0. 0. 0. 0. 0. 0. 0.]

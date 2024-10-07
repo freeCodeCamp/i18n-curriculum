@@ -1,6 +1,6 @@
 ---
 id: 587d8250367417b2b2512c5e
-title: Learn how a Stack Works
+title: Die Funktionsweise eines Stacks
 challengeType: 1
 forumTopicId: 301705
 dashedName: learn-how-a-stack-works
@@ -10,41 +10,41 @@ dashedName: learn-how-a-stack-works
 
 You are probably familiar with stack of books on your table. You have likely used the undo feature of a text editor. You are also probably used to hitting the back button on your phone to go back to the previous view in your app.
 
-You know what they all have in common? They all store the data in a way so that you can traverse backwards.
+Weißt du, was sie alle gemeinsam haben? Sie alle speichern die Daten so, dass du sie rückwärts durchgehen kannst.
 
-The topmost book in the stack was the one that was put there last. If you remove that book from your stack's top, you would expose the book that was put there before the last book and so on.
+Das oberste Buch im Stapel war das, das zuletzt dorthin gelegt worden war. Wenn du dieses Buch von der Spitze deines Stapels entfernst, würdest du das Buch freilegen, das vor dem letzten Buch dort abgelegt wurde, und so weiter.
 
-If you think about it, in all the above examples, you are getting <dfn>Last-In-First-Out</dfn> type of service. We will try to mimic this with our code.
+Er ist in all den oben genannten Beispielen ein <dfn>Last-In-First-Out</dfn>-Service. Wir werden versuchen, dies mit unserem Code zu imitieren.
 
-This data storage scheme is called a <dfn>Stack</dfn>. In particular, we would have to implement the `push()` method that pushes JavaScript objects at the top of the stack; and `pop()` method, that removes the JavaScript object that's at the top of the stack at the current moment.
+Dieses Datenspeicherschema wird als <dfn>Stack</dfn> bezeichnet. Insbesondere müssten wir die `push()`-Methode implementieren, die JavaScript-Objekte an die Spitze des Stapels schiebt, und die `pop()`-Methode, die das JavaScript-Objekt entfernt, das sich zum aktuellen Zeitpunkt an der Spitze des Stapels befindet.
 
 # --instructions--
 
-Here we have a stack of homework assignments represented as an array: `"BIO12"` is at the base, and `"PSY44"` is at the top of the stack.
+Hier haben wir einen Stapel von Hausaufgaben, der als Array dargestellt ist: `"BIO12"` befindet sich am unteren Ende und `"PSY44"` am oberen Ende des Stapels.
 
-Modify the given array and treat it like a `stack` using the JavaScript methods mentioned above. Remove the top element `"PSY44"` from the stack. Then add `"CS50"` to be the new top element of the stack.
+Ändere das angegebene Array und behandel es wie einen `stack` mit den oben genannten JavaScript-Methoden. Entferne das oberste Element `"PSY44"` vom Stapel. Füge dann `"CS50"` als neues oberstes Element des Stapels hinzu.
 
 # --hints--
 
-`homeworkStack` should only contain 4 elements.
+`homeworkStack` sollte nur 4 Elemente enthalten.
 
 ```js
 assert(homeworkStack.length === 4);
 ```
 
-The last element in `homeworkStack` should be `"CS50"`.
+Das letzte Element in `homeworkStack` sollte `"CS50"` sein.
 
 ```js
 assert(homeworkStack[3] === 'CS50');
 ```
 
-`homeworkStack` should not contain `"PSY44"`.
+`homeworkStack` sollte nicht `"PSY44"` enthalten.
 
 ```js
 assert(homeworkStack.indexOf('PSY44') === -1);
 ```
 
-The initial declaration of the `homeworkStack` should not be changed.
+Die ursprüngliche Deklaration des `homeworkStack` sollte nicht verändert werden.
 
 ```js
 assert(

@@ -8,7 +8,7 @@ dashedName: match-single-character-with-multiple-possibilities
 
 # --description--
 
-당신은 리터럴 패턴(`/literal/`)과 와일드카드 문자(`/./`)를 일치시키는 방법을 배웠습니다. 이것들은 정규 표현식의 극단적인 예로, 하나는 정확할 때만 일치하는 반면 다른 하나는 모든 것과 일치합니다. 두 극단 사이의 균형을 맞출 수 있는 옵션이 있습니다.
+You learned how to match literal patterns (`/literal/`) and wildcard character (`/./`). Those are the extremes of regular expressions, where one finds exact matches and the other matches everything. There are options that are a balance between the two extremes.
 
 일부 유연성을 가진 문자 그대로의 패턴을 검색하려면 <dfn>문자 클래스</dfn>를 사용할 수 있습니다. 문자 클래스는 대괄호(`[` 및 `]`) 안에 일치시키고자 하는 문자 그룹을 정의할 수 있도록 합니다.
 

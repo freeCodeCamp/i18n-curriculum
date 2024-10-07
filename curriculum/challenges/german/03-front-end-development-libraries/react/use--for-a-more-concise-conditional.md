@@ -8,7 +8,7 @@ dashedName: use--for-a-more-concise-conditional
 
 # --description--
 
-Die `if/else`-Anweisungen haben in der letzten Aufgabe funktioniert, aber es gibt einen präziseren Weg, um das gleiche Ergebnis zu erzielen. Stell dir vor, du verfolgst mehrere Bedingungen in einer Komponente und du möchtest, dass je nach Bedingung unterschiedliche Elemente gerendert werden. Wenn du viele `else if`-Anweisungen schreibst, um leicht unterschiedliche Benutzeroberflächen (UIs) zurückzugeben, wiederholst du möglicherweise Code, der Raum für Fehler lässt. Stattdessen kannst du den logischen Operator `&&` verwenden, um bedingte Logik auf eine präzisere Weise auszuführen. Das ist möglich, weil du prüfen willst, ob eine Bedingung `true` ist, und wenn ja, ein Markup zurückgeben willst. Hier ist ein Beispiel:
+The `if/else` statements worked in the last challenge, but there's a more concise way to achieve the same result. Imagine that you are tracking several conditions in a component and you want different elements to render depending on each of these conditions. If you write a lot of `else if` statements to return slightly different UIs, you may repeat code which leaves room for error. Instead, you can use the `&&` logical operator to perform conditional logic in a more concise way. This is possible because you want to check if a condition is `true`, and if it is, return some markup. Hier ist ein Beispiel:
 
 ```jsx
 {condition && <p>markup</p>}

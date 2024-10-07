@@ -8,7 +8,7 @@ dashedName: find-one-or-more-criminals-in-a-hunt
 
 # --description--
 
-ちょっとひと休みして、新しく身につけた正規表現の記述スキルをテストしてみましょう。 犯罪者の集団が脱獄して逃げましたが、何人いるかはわかっていません。 しかし、他の人々に混じって集団で潜んでいることはわかっています。 犯罪者全員を一度に見つけてください。
+Time to pause and test your new regex writing skills. A group of criminals escaped from jail and ran away, but you don't know how many. However, you do know that they stay close together when they are around other people. You are responsible for finding all of the criminals at once.
 
 たとえば次のような方法で確認できます。
 

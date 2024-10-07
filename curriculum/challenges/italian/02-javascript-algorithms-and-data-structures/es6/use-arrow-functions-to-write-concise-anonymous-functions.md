@@ -8,7 +8,7 @@ dashedName: use-arrow-functions-to-write-concise-anonymous-functions
 
 # --description--
 
-In JavaScript, spesso non abbiamo bisogno di dare un nome alle nostre funzioni, soprattutto quando si passa una funzione come argomento ad un'altra funzione. Creiamo invece delle funzioni in linea. Non abbiamo bisogno di nominare queste funzioni perché non le riutilizzeremo altrove.
+In JavaScript, we often don't need to name our functions, especially when passing a function as an argument to another function. Instead, we create inline functions. We don't need to name these functions because we do not reuse them anywhere else.
 
 Per raggiungere questo obiettivo, utilizziamo spesso la seguente sintassi:
 
@@ -66,7 +66,7 @@ assert(typeof magic === 'function');
 assert(magic().setHours(0, 0, 0, 0) === new Date().setHours(0, 0, 0, 0));
 ```
 
-La parola chiave `function` non dovrebbe essere utilizzata.
+La parola chiave `function` non dovrebbe essere usata.
 
 ```js
 assert.notMatch(code, /function/g)

@@ -8,7 +8,7 @@ dashedName: use-destructuring-assignment-to-assign-variables-from-arrays
 
 # --description--
 
-在 ES6 裏面，解構數組可以如同解構對象一樣簡單。
+ES6 makes destructuring arrays as easy as destructuring objects.
 
 與數組解構不同，數組的擴展運算會將數組裏的所有內容分解成一個由逗號分隔的列表。 所以，你不能選擇哪個元素來給變量賦值。
 

@@ -14,7 +14,7 @@ dashedName: natural-language-processing-with-rnns-training-the-model
 
 ## --text--
 
-Compila gli spazi vuoti qui sotto per salvare i punti di controllo del tuo modello nella directory `./checkpoints` e chiamare l'ultimo checkpoint per il training:
+Fill in the blanks below to save your model's checkpoints in the `./checkpoints` directory and call the latest checkpoint for training:
 
 ```py
 checkpoint_dir = __A__

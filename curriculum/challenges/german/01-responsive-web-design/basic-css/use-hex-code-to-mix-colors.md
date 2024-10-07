@@ -9,7 +9,7 @@ dashedName: use-hex-code-to-mix-colors
 
 # --description--
 
-Zur Wiederholung, Hex-Codes verwenden 6 Hexadezimalstellen, um Farbwerte darzustellen, wobei je zwei eine rot (R), grün (G) oder blau (B) Komponente bilden.
+To review, hex codes use 6 hexadecimal digits to represent colors, two each for red (R), green (G), and blue (B) components.
 
 Von diesen drei reinen Farben (rot, grün und blau) können wir die Beträge variieren, um mehr als 16 Millionen andere Farben zu erstellen!
 
@@ -23,7 +23,7 @@ Die Ziffer `F` ist die höchste Zahl im Hex-Code und repräsentiert die maximal 
 
 Ersetze die Farbwörter in unserem `style` Element mit ihnen entsprechenden Hex-Codes. (Anm.: "Dodger Blue" bezieht sich auf die blaue Uniform der Baseball-Mannschaft Los Angeles Dodgers)
 
-<table><tbody><tr><th>Farbe</th><th>Hex-Code</th></tr><tr><td>"Dodger Blue"</td><td><code>#1E90FF</code></td></tr><tr><td>Grün</td><td><code>#00FF00</code></td></tr><tr><td>Orange</td><td><code>#FFA500</code></td></tr><tr><td>Rot</td><td><code>#FF0000</code></td></tr></tbody></table>
+<table><tbody><tr><th>Color</th><th>Hex Code</th></tr><tr><td>Dodger Blue</td><td><code>#1E90FF</code></td></tr><tr><td>Green</td><td><code>#00FF00</code></td></tr><tr><td>Orange</td><td><code>#FFA500</code></td></tr><tr><td>Red</td><td><code>#FF0000</code></td></tr></tbody></table>
 
 # --hints--
 

@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c242eddfaeb5bd13
-title: Build a Personal Portfolio Webpage
+title: 개인 포트폴리오 웹페이지 만들기
 challengeType: 14
 forumTopicId: 301143
 dashedName: build-a-personal-portfolio-webpage
@@ -11,34 +11,34 @@ dashedName: build-a-personal-portfolio-webpage
 **Objective:** Build an app that is functionally similar to <a href="https://personal-portfolio.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://personal-portfolio.freecodecamp.rocks</a>. **Do not copy this demo project**.
 
 
-**User Stories:**
+**유저 스토리:**
 
 1. Your portfolio should have a welcome section with an `id` of `welcome-section`
-1. The welcome section should have an `h1` element that contains text
-1. Your portfolio should have a projects section with an `id` of `projects`
-1. The projects section should contain at least one element with a `class` of `project-tile` to hold a project
-1. The projects section should contain at least one link to a project
-1. Your portfolio should have a navbar with an id of `navbar`
-1. The navbar should contain at least one link that you can click on to navigate to different sections of the page
-1. Your portfolio should have a link with an id of `profile-link`, which opens your GitHub or freeCodeCamp profile in a new tab
-1. Your portfolio should have at least one media query
-1. The height of the welcome section should be equal to the height of the viewport
-1. The navbar should always be at the top of the viewport
+1. 환영 섹션에는 텍스트가 포함된 `h1` 요소가 있어야 합니다.
+1. 당신의 포트폴리오에는 `id`가 `projects`인 프로젝트 섹션이 있어야 합니다.
+1. 프로젝트 섹션에는 프로젝트를 담을 수 있는 `class`가 `project-tile`인 요소가 최소 하나 이상 포함되어야 합니다.
+1. 프로젝트 섹션에는 최소 하나 이상의 프로젝트 링크가 포함되어야 합니다.
+1. 당신의 포트폴리오에는 id가 `navbar`인 네비게이션 바가 있어야 합니다.
+1. 네비게이션 바에는 클릭하여 페이지의 다른 섹션으로 이동할 수 있는 링크가 최소 하나 이상 포함되어야 합니다.
+1. 포트폴리오에는 `profile-link` 아이디를 가진 링크가 있어야 하며, 이 링크를 클릭하면 깃헙 또는 프리코드캠프 프로필이 새 탭에서 열려야 합니다.
+1. 포트폴리오에는 최소 하나 이상의 미디어 쿼리가 포함되어야 합니다.
+1. 환영 섹션의 높이는 뷰포트의 높이와 같아야 합니다.
+1. 네비게이션 바는 항상 뷰포트의 상단에 위치해야 합니다.
 
-Fulfill the user stories and pass all the tests below to complete this project. Give it your own personal style. Happy Coding!
+아래의 사용자 스토리를 충족시키고 모든 테스트를 통과하여 이 프로젝트를 완료하세요. 자신만의 개성을 담아 디자인을 꾸며보세요. 즐거운 코딩 하세요!
 
-**Note:** Be sure to add `<link rel="stylesheet" href="styles.css">` in your HTML to link your stylesheet and apply your CSS
+**참고:** 스타일시트를 연결하고 CSS를 적용하려면 HTML에 `<link rel="stylesheet" href="styles.css">`를 추가하세요.
 
 # --hints--
 
-Your portfolio should have a "Welcome" section with an `id` of `welcome-section`.
+당신의 포트폴리오에는 `welcome-section`이라는 `id`를 가진 "Welcome" 섹션이 있어야 합니다.
 
 ```js
 const el = document.getElementById('welcome-section')
 assert(!!el);
 ```
 
-Your `#welcome-section` element should contain an `h1` element.
+당신의 `#welcome-section` 요소에는 `h1` 요소가 포함되어 있어야 합니다.
 
 ```js
 assert.isAbove(
@@ -48,7 +48,7 @@ assert.isAbove(
 );
 ```
 
-You should not have any empty `h1` elements within `#welcome-section` element.
+`#welcome-section` 요소 내에는 빈 `h1` 요소가 있어서는 안 됩니다.
 
 ```js
 assert.isAbove(
@@ -59,14 +59,14 @@ assert.isAbove(
 );
 ```
 
-You should have a "Projects" section with an `id` of `projects`.
+"Projects" 섹션에는 `projects`라는 `id`가 있어야 합니다.
 
 ```js
 const el = document.getElementById('projects')
 assert(!!el);
 ```
 
-Your portfolio should contain at least one element with a class of `project-tile`.
+당신의 포트폴리오에는 최소한 하나의 `project-tile` 클래스가 있는 요소가 포함되어야 합니다.
 
 ```js
 assert.isAbove(
@@ -75,20 +75,20 @@ assert.isAbove(
 );
 ```
 
-Your `#projects` element should contain at least one `a` element.
+`#projects` 요소에는 최소한 하나의 `a` 요소가 포함되어야 합니다.
 
 ```js
 assert.isAbove(document.querySelectorAll('#projects a').length, 0);
 ```
 
-Your portfolio should have a navbar with an `id` of `navbar`.
+당신의 포트폴리오에는 navbar라는 `id`를 가진 `내비게이션 바(navbar)`가 있어야 합니다.
 
 ```js
 const el = document.getElementById('navbar');
 assert(!!el);
 ```
 
-Your `#navbar` element should contain at least one `a` element whose `href` attribute starts with `#`.
+`#navbar` 요소에는 `href` 속성이 `#`로 시작하는 최소한 하나의 `a` 요소가 포함되어야 합니다.
 
 ```js
 const links = [...document.querySelectorAll('#navbar a')].filter(
@@ -102,21 +102,21 @@ assert.isAbove(
 );
 ```
 
-Your portfolio should have an `a` element with an `id` of `profile-link`.
+당신의 포트폴리오에는 `profile-link`라는 `id`를 가진 `a` 요소가 있어야 합니다.
 
 ```js
 const el = document.getElementById('profile-link');
 assert(!!el && el.tagName === 'A')
 ```
 
-Your `#profile-link` element should have a `target` attribute of `_blank`.
+`#profile-link` 요소는 `target` 속성으로 `_blank`를 가져야 합니다.
 
 ```js
 const el = document.getElementById('profile-link');
 assert(!!el && el.target === '_blank')
 ```
 
-Your portfolio should use at least one media query.
+당신의 포트폴리오에는 최소한 하나의 미디어 쿼리를 사용해야 합니다.
 
 ```js
 const htmlSourceAttr = Array.from(document.querySelectorAll('source')).map(el => el.getAttribute('media'))
@@ -124,7 +124,7 @@ const cssCheck = new __helpers.CSSHelp(document).getCSSRules('media')
 assert(cssCheck.length > 0 || htmlSourceAttr.length > 0);
 ```
 
-Your `#navbar` element should always be at the top of the viewport.
+`#navbar` 요소는 항상 뷰포트의 상단에 위치해야 합니다.
 
 ```js
 (async () => {

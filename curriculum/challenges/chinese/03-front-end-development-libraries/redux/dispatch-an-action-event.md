@@ -8,9 +8,9 @@ dashedName: dispatch-an-action-event
 
 # --description--
 
-`dispatch` 方法用于将 action 分派给 Redux store， 调用 `store.dispatch()`，并传递从一个 action creator 返回的值，将一个 action 送回给 store。
+`dispatch` method is what you use to dispatch actions to the Redux store. Calling `store.dispatch()` and passing the value returned from an action creator sends an action back to the store.
 
-Recall that action creators return an object with a type property that specifies the type of action that has occurred. 然后该方法会将一个 action 对象发送到 Redux store。 基于上一个挑战的示例，下面的行是等效的，两者都会调度类 `LOGIN` 类型的 action：
+回想一下，action creator 返回一个具有 type 属性的对象，该属性指定已发生的动作类型。 然后该方法会将一个 action 对象发送到 Redux store。 基于上一个挑战的示例，下面的行是等效的，两者都会调度类 `LOGIN` 类型的 action：
 
 ```js
 store.dispatch(actionCreator());

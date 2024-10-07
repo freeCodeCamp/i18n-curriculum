@@ -8,7 +8,7 @@ dashedName: add-methods-after-inheritance
 
 # --description--
 
-الوظيفة المنشئة (constructor function) التي ترث كائنها (object) تسمى `prototype` من وظيفة منشئة كبرى (supertype), يمكن أن تحتوي على طرقها (methods) بالإضافة إلى الطرق الموروثة.
+A constructor function that inherits its `prototype` object from a supertype constructor function can still have its own methods in addition to inherited methods.
 
 على سبيل المثال، يكون `Bird` منشئ (constructor) الذي يرث `prototype` من `Animal`:
 

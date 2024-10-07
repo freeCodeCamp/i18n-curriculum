@@ -8,7 +8,7 @@ dashedName: change-inline-css-conditionally-based-on-component-state
 
 # --description--
 
-此時，已經看到了一些條件渲染的應用程序和內聯樣式的使用。 這裏還有一個將這兩個主題結合在一起的例子。 你也可以根據 React 組件的 state 有條件地渲染 CSS。 要執行此操作，請檢查條件，如果滿足該條件，則修改在 render 方法中分配給 JSX 元素的樣式對象。
+At this point, you've seen several applications of conditional rendering and the use of inline styles. Here's one more example that combines both of these topics. You can also render CSS conditionally based on the state of a React component. To do this, you check for a condition, and if that condition is met, you modify the styles object that's assigned to the JSX elements in the render method.
 
 理解這個模式很重要，因爲相比傳統的方式（這在 jQuery 中非常常見），直接修改 DOM 元素來應用樣式的方法是一個戲劇性的轉變。 在該方法中，必須跟蹤元素何時更改並直接處理實際操作。 跟蹤更改可能變得很困難，可能會使 UI無法預測。 當根據一個條件設置一個樣式對象時，描述了 UI 作爲應用程序的狀態函數應當如何展現。 如此便有一個清晰的單向流動的信息流。 這是使用 React 編寫應用程序時的首選方法。
 

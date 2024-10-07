@@ -14,7 +14,7 @@ As a reminder, this project is being built upon the following starter project on
 
 # --instructions--
 
-Within `tests/1_unit-tests.js` under the test labeled `#17` in the `Objects` suite, change each `assert` to either `assert.typeOf` or `assert.notTypeOf` to make the test pass (should evaluate to `true`). No modifiques los argumentos pasados ​​a los verificadores.
+Dentro de `tests/1_unit-tests.js` bajo el test etiquetado `#17` en el suite `Objects`, cambiar cada `assert` por `assert.typeOf` o `assert.notTypeOf` para hacer que el test pase (debería evaluar a `true`). No modifiques los argumentos pasados ​​a los verificadores.
 
 # --hints--
 

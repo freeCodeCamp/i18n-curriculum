@@ -14,7 +14,7 @@ dashedName: convolutional-neural-networks-evaluating-the-model
 
 ## --text--
 
-Що **не** варто робити для вдосконалення згорткової нейронної мережі?
+What is **not** a good way to increase the accuracy of a convolutional neural network?
 
 ## --answers--
 

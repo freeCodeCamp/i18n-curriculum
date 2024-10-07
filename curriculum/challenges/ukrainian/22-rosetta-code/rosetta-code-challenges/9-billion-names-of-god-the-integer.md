@@ -22,7 +22,7 @@ dashedName: 9-billion-names-of-god-the-integer
   <li>Ціле число 5 має сім імен: «1+1+1+1+1», «2+1+1+1», «2+2+1», «3+1+1», «3+2», «4+1» та «5».</li>
 </ul>
 
-Це можна візуалізувати наступним чином:
+This can be visualized in the following form:
 
 <pre>          1
         1   1

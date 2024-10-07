@@ -9,7 +9,7 @@ dashedName: profile-lookup
 
 # --description--
 
-لدينا قائمة من الكائنات التي تمثل أشخاص مختلفين في قوائم جهات الاتصال.
+We have an array of objects representing different people in our contacts lists.
 
 تأخذ وظيفة `lookUpProfile` كائن `name` والخاصية (`prop`) كحجج تم كتابتها مسبقاً لك.
 

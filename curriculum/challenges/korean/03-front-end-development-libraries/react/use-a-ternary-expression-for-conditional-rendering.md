@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d4036187
-title: Use a Ternary Expression for Conditional Rendering
+title: 삼항 연산자 사용해서 조건부 렌더링하기
 challengeType: 6
 forumTopicId: 301414
 dashedName: use-a-ternary-expression-for-conditional-rendering
@@ -16,13 +16,13 @@ condition ? expressionIfTrue : expressionIfFalse;
 
 # --instructions--
 
-The code editor has three constants defined within the `CheckUserAge` component's `render()` method. They are called `buttonOne`, `buttonTwo`, and `buttonThree`. Each of these is assigned a simple JSX expression representing a button element. First, initialize the state of `CheckUserAge` with `input` and `userAge` both set to values of an empty string.
+코드 편집기에는 `CheckUserAge` 컴포넌트의 `render()` 메소드에 이렇게 세 개의 상수 변수가 정의되어 있습니다. `buttonOne`, `buttonTwo`, `buttonThree`. 각각에는 버튼 엘리먼트를 나타내는 간단한 JSX가 할당되어 있습니다. 우선은 `input`과 `userAge` 둘 다 빈 문자열 값으로 설정해서 `CheckUserAge`의 상태를 초기화해주세요.
 
-Once the component is rendering information to the page, users should have a way to interact with it. Within the component's `return` statement, set up a ternary expression that implements the following logic: when the page first loads, render the submit button, `buttonOne`, to the page. Then, when a user enters their age and clicks the button, render a different button based on the age. If a user enters a number less than `18`, render `buttonThree`. If a user enters a number greater than or equal to `18`, render `buttonTwo`.
+CheckUserAge 컴포넌트가 내용을 페이지에 렌더링하면, 유저는 컴포넌트와 상호작용할 방법이 있어야 합니다. 컴포넌트의 `return`문 안에 삼항 연산자를 이용해서 다음 로직을 구현해보세요: 페이지가 로드되면 제출(submit)버튼 `buttonOne`를 렌더링 해주세요. 그런 다음, 유저가 나이를 입력하고 버튼을 누르면, 나이에 따라 다른 버튼을 렌더링되도록 해보세요. 유저가 `18`보다 작은 숫자를 입력하면, `buttonThree`를 렌더링하세요. 유저가 `18`보다 큰 숫자를 입력하면, `buttonTwo`를 렌더링하세요.
 
 # --hints--
 
-The `CheckUserAge` component should render with a single `input` element and a single `button` element.
+`CheckUserAge` 컴포넌트는 하나의 `input` 엘리먼트와 하나의 `button` 엘리먼트를 렌더링해야 합니다.
 
 ```js
 assert(
@@ -33,7 +33,7 @@ assert(
 );
 ```
 
-The `CheckUserAge` component's state should be initialized with a property of `userAge` and a property of `input`, both set to a value of an empty string.
+`CheckUserAge` 컴포넌트의 상태는 모두 빈 문자열로 설정된 `userAge` 프로퍼티와 `input` 프로퍼티로 초기화되어야 합니다.
 
 ```js
 assert(
@@ -42,7 +42,7 @@ assert(
 );
 ```
 
-When the `CheckUserAge` component is first rendered to the DOM, the `button`'s inner text should be Submit.
+`CheckUserAge` 컴포넌트가 처음 렌더링 되었을 때 `버튼`의 텍스트는 Submit이어야 합니다.
 
 ```js
 assert(
@@ -51,7 +51,7 @@ assert(
 );
 ```
 
-When a number of less than 18 is entered into the `input` element and the `button` is clicked, the `button`'s inner text should read `You Shall Not Pass`.
+`input`에 18보다 작은 숫자가 입력되고 `버튼`이 클릭되면, `버튼`의 텍스트는 `You Shall Not Pass`가 되어야 합니다.
 
 ```js
 (() => {
@@ -83,7 +83,7 @@ When a number of less than 18 is entered into the `input` element and the `butto
 })();
 ```
 
-When a number greater than or equal to 18 is entered into the `input` element and the `button` is clicked, the `button`'s inner text should read `You May Enter`.
+`input`에 18이상의 숫자가 입력되고 `버튼`이 클릭되면, `버튼`의 텍스트는 `You May Enter`가 되어야 합니다.
 
 ```js
 (() => {
@@ -115,7 +115,7 @@ When a number greater than or equal to 18 is entered into the `input` element an
 })();
 ```
 
-Once a number has been submitted, and the value of the `input` is once again changed, the `button` should return to reading `Submit`.
+숫자가 제출되고, `input` 값이 다시 변경되면, `버튼`의 텍스트는 다시 `Submit`가 되어야 합니다.
 
 ```js
 (() => {
@@ -156,7 +156,7 @@ Once a number has been submitted, and the value of the `input` is once again cha
 })();
 ```
 
-Your code should not contain any `if/else` statements.
+코드에는 `if/else`문이 있으면 안됩니다.
 
 ```js
 assert(

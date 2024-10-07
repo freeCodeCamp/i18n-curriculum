@@ -8,7 +8,7 @@ dashedName: incidence-matrix
 
 # --description--
 
-Un altro modo per rappresentare un grafico è quello di metterlo in una <dfn>matrice di incidenza.</dfn>
+Yet another way to represent a graph is to put it in an <dfn>incidence matrix.</dfn>
 
 Una <dfn>matrice di incidenza</dfn> è un array bidimensionale (2D). In generale, una matrice di incidenza collega due classi diverse di oggetti tramite le sue due dimensioni. Questo tipo di matrice è simile a una matrice di adiacenza. Tuttavia, le righe e le colonne qui hanno un altro significato.
 

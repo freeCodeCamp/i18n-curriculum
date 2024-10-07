@@ -8,7 +8,7 @@ dashedName: avoid-mutations-and-side-effects-using-functional-programming
 
 # --description--
 
-Якщо ви ще цього не зрозуміли, проблема в попередньому завданні полягала у виклику `splice` у функції `tabClose()`. На жаль, `splice` змінює вихідний масив, в якому він викликається, тому другий виклик використав модифікований масив і надав неочікувані результати.
+If you haven't already figured it out, the issue in the previous challenge was with the `splice` call in the `tabClose()` function. Unfortunately, `splice` changes the original array it is called on, so the second call to it used a modified array, and gave unexpected results.
 
 Це малий приклад набагато більшого шаблону: ви викликаєте функцію на змінній, масиві чи об’єкті, а функція змінює змінну чи щось в об’єкті.
 

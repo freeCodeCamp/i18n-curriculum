@@ -9,7 +9,7 @@ dashedName: selecting-from-many-options-with-switch-statements
 
 # --description--
 
-만약 한 가지 값과 여러 옵션을 대조해야 한다면, <dfn>switch</dfn> 문을 사용할 수 있습니다. `switch`문은 값을 여러 가능성이 있는 값들을 정의하는 <dfn>case</dfn>문과 비교합니다. 어떤 유효한 자바스크립트 문이라도 <dfn>case</dfn> 블록 안에서 실행될 수 있으며, 첫 번째 일치하는 `case` 값부터 `break`가 나타날 때까지 실행됩니다.
+If you need to match one value against many options, you can use a <dfn>switch</dfn> statement. A `switch` statement compares the value to the <dfn>case</dfn> statements which define various possible values. Any valid JavaScript statements can be executed inside a <dfn>case</dfn> block and will run from the first matched `case` value until a `break` is encountered.
 
 여기 `switch`문 예시가 있습니다.
 

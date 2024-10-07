@@ -9,7 +9,7 @@ dashedName: make-circular-images-with-a-border-radius
 
 # --description--
 
-Além dos pixels, você também pode definir o valor da propriedade `border-radius` usando porcentagem.
+In addition to pixels, you can also specify the `border-radius` using a percentage.
 
 # --instructions--
 

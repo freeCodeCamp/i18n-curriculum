@@ -8,17 +8,17 @@ dashedName: problem-397-triangle-on-parabola
 
 # --description--
 
-On the parabola $y = \frac{x^2}{k}$, three points $A(a, \frac{a^2}{k})$, $B(b, \frac{b^2}{k})$ and $C(c, \frac{c^2}{k})$ are chosen.
+Auf der Parabel $y = \frac{x^2}{k}$ werden drei Punkte $A(a, \frac{a^2}{k})$, $B(b, \frac{b^2}{k})$ und $C(c, \frac{c^2}{k})$ gewählt.
 
 Lasse $F(K, X)$ die Anzahl der ganzzahligen Quadrupel $(k, a, b, c)$ sein, sodass mindestens ein Winkel des Dreiecks $ABC$ 45° beträgt, wobei $1 ≤ k ≤ K$ und $-X ≤ a &lt; b &lt; c ≤ X$.
 
-For example, $F(1, 10) = 41$ and $F(10, 100) = 12\\,492$.
+Zum Beispiel ist $F(1, 10) = 41$ und $F(10, 100) = 12\\,492$.
 
-Find $F({10}^6, {10}^9)$.
+Finde $F({10}^6, {10}^9)$.
 
 # --hints--
 
-`triangleOnParabola()` should return `141630459461893730`.
+`triangleOnParabola()` sollte `141630459461893730` zurückgeben.
 
 ```js
 assert.strictEqual(triangleOnParabola(), 141630459461893730);

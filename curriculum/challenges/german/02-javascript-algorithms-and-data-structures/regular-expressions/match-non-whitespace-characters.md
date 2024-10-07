@@ -8,7 +8,7 @@ dashedName: match-non-whitespace-characters
 
 # --description--
 
-Du hast gelernt, wie man nach Leerzeichen sucht, indem man `\s` mit einem kleingeschriebenen `s` verwendet. Du kannst auch nach allem außer Leerzeichen suchen.
+You learned about searching for whitespace using `\s`, with a lowercase `s`. You can also search for everything except whitespace.
 
 Suche nach Nicht-Leerzeichen mit `\S`, das ist ein groß geschriebenes `s`. Dieses Muster passt nicht auf Leerzeichen, Wagenrücklauf, Tabulator, Seitenvorschub und Zeilenumbruch. Du kannst es dir ähnlich vorstellen wie die Zeichenklasse `[^ \r\t\f\n\v]`.
 

@@ -7,7 +7,7 @@ dashedName: step-43
 
 # --description--
 
-註冊表單的 HTML 已完成。 現在來美化一下它。
+The HTML for the registration form is finished. Now, you can spruce it up a bit.
 
 首先將 `body` 的字體更改爲 `Tahoma`，字體大小更改爲 `16px`。
 

@@ -8,7 +8,7 @@ dashedName: how-to-put-a-profile-together
 
 # --description--
 
-现在你可以确保访问 `/profile` 的用户身份已被验证，你可以使用你的页面上包含在 `req.user` 中的信息。
+Now that you can ensure the user accessing the `/profile` is authenticated, you can use the information contained in `req.user` on your page.
 
 传递一个包含值为 `req.user.username` 的属性 `username` 的对象，作为个人主页视图的 `render` 方法的第二个参数。
 

@@ -8,7 +8,7 @@ dashedName: factorialize-a-number
 
 # --description--
 
-Restituisci il fattoriale del numero intero fornito.
+Return the factorial of the provided integer.
 
 Se l'intero è rappresentato con la lettera `n`, un fattoriale è il prodotto di tutti gli interi positivi minori o uguali a `n`.
 

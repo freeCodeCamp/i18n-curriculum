@@ -8,7 +8,7 @@ dashedName: use-advanced-javascript-in-react-render-method
 
 # --description--
 
-У попередніх завданнях ви дізнались, як вставити код JavaScript в код JSX за допомогою фігурних дужок `{ }`, щоб отримати доступ до пропсів, передати пропси, отримати доступ до стану, написати коментарі в коді та стилізувати компоненти. Це поширені варіанти використання JavaScript в JSX, але це не єдиний спосіб використання коду JavaScript в компонентах React.
+In previous challenges, you learned how to inject JavaScript code into JSX code using curly braces, `{ }`, for tasks like accessing props, passing props, accessing state, inserting comments into your code, and most recently, styling your components. These are all common use cases to put JavaScript in JSX, but they aren't the only way that you can utilize JavaScript code in your React components.
 
 Ви можете писати JavaScript одразу в методах `render`, перед інструкцією `return`, ***не*** вставляючи його в фігурні дужки. Причина в тому, що його поки немає в коді JSX. Якщо пізніше ви захочете використати змінну в коді JSX *всередині* інструкції `return`, назву змінної потрібно писати в фігурних дужках.
 

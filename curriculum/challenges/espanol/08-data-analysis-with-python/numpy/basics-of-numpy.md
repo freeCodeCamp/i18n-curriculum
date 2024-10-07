@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: basics-of-numpy
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-¿Qué hará el siguiente código?
+¿Qué imprimirá el siguiente código?
 
 ```python
 b = np.array([[1.0,2.0,3.0],[3.0,4.0,5.0]])

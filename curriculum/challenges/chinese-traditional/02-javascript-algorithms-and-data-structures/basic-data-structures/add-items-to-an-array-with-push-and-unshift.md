@@ -8,7 +8,7 @@ dashedName: add-items-to-an-array-with-push-and-unshift
 
 # --description--
 
-數組的長度與數組能包含的數據類型一樣，都是不固定的。 數組可以包含任意數量的元素，可以不限次數地往數組中添加元素或者從中移除元素。 總之，數組是可變的（<dfn>mutable</dfn>）。 在本挑戰中，我們要學習兩種修改數組的方法：`Array.push()` 和 `Array.unshift()`。
+An array's length, like the data types it can contain, is not fixed. Arrays can be defined with a length of any number of elements, and elements can be added or removed over time; in other words, arrays are <dfn>mutable</dfn>. In this challenge, we will look at two methods with which we can programmatically modify an array: `Array.push()` and `Array.unshift()`.
 
 這兩個方法都接收一個或多個元素作爲參數，並會將參數中的元素添加到該數組中。 `push()` 方法會將元素插入到數組的末尾，而 `unshift()` 方法會將元素插入到數組的開頭。 請看以下例子：
 

@@ -1,6 +1,6 @@
 ---
 id: 56bbb991ad1ed5201cd392d3
-title: Delete Properties from a JavaScript Object
+title: 자바스크립트 객체에서 속성 삭제하기
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cDqKdTv'
 forumTopicId: 17560
@@ -29,7 +29,7 @@ const ourDog = {
 delete ourDog.bark;
 ```
 
-After the last line shown above, `ourDog` looks like:
+위에 표시된 마지막 줄 다음에, `ourDog`는 다음과 같이 보입니다.
 
 ```js
 {
@@ -42,17 +42,17 @@ After the last line shown above, `ourDog` looks like:
 
 # --instructions--
 
-Delete the `tails` property from `myDog`. You may use either dot or bracket notation.
+`myDog`에서 `tails` 속성을 삭제하십시오. 점 또는 괄호 표기법을 사용할 수 있습니다.
 
 # --hints--
 
-You should delete the property `tails` from `myDog`.
+`myDog`에서 `tails` 속성을 삭제해야 합니다.
 
 ```js
 assert(typeof myDog === 'object' && myDog.tails === undefined);
 ```
 
-You should not modify the `myDog` setup.
+`myDog` 설정을 수정해서는 안 됩니다.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/"tails": 1/g).length > 0);

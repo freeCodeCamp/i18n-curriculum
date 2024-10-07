@@ -9,7 +9,7 @@ dashedName: use-hex-code-to-mix-colors
 
 # --description--
 
-Per ripassare, i codici esadecimali utilizzano 6 cifre esadecimali per rappresentare i colori, due ciascuna per le componenti rossa (R), verde (G) e blu (B).
+To review, hex codes use 6 hexadecimal digits to represent colors, two each for red (R), green (G), and blue (B) components.
 
 Da questi tre colori puri (rosso, verde e blu), possiamo variare la quantità di ciascuno per creare oltre 16 milioni di altri colori!
 
@@ -23,7 +23,7 @@ La cifra `F` è il numero più alto in codice esadecimale e rappresenta la massi
 
 Sostituisci i nomi dei colori nel nostro elemento `style` con i codici esadecimali corretti.
 
-<table><tbody><tr><th>Colore</th><th>Codice esadecimale</th></tr><tr><td>Blu Dodger</td><td><code>#1E90FF</code></td></tr><tr><td>Verde</td><td><code>#00FF00</code></td></tr><tr><td>Arancione</td><td><code>#FFA500</code></td></tr><tr><td>Rosso</td><td><code>#FF0000</code></td></tr></tbody></table>
+<table><tbody><tr><th>Color</th><th>Hex Code</th></tr><tr><td>Dodger Blue</td><td><code>#1E90FF</code></td></tr><tr><td>Green</td><td><code>#00FF00</code></td></tr><tr><td>Orange</td><td><code>#FFA500</code></td></tr><tr><td>Red</td><td><code>#FF0000</code></td></tr></tbody></table>
 
 # --hints--
 

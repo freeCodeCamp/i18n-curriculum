@@ -9,7 +9,7 @@ dashedName: concatenating-strings-with-plus-operator
 
 # --description--
 
-JavaScript では、`+` 演算子を `String` の値に対して使用する場合、その演算子のことを<dfn>連結</dfn>演算子と呼びます。 他の文字列を一緒に<dfn>連結する</dfn>ことで新しい文字列を作ることができます。
+In JavaScript, when the `+` operator is used with a `String` value, it is called the <dfn>concatenation</dfn> operator. You can build a new string out of other strings by <dfn>concatenating</dfn> them together.
 
 **例**
 
@@ -25,7 +25,7 @@ JavaScript では、`+` 演算子を `String` の値に対して使用する場�
 const ourStr = "I come first. " + "I come second.";
 ```
 
-コンソールに、文字列 `I come first. I come second.` が表示されます。
+文字列 `I come first. ` `I come second.` がコンソールに表示されます。
 # --instructions--
 
 `+` 演算子を使用して、文字列 `This is the start.` と `This is the end.` から `myStr` を作成してください。 2 つの文字列の間に空白を必ず含めるようにしてください。
@@ -38,7 +38,7 @@ const ourStr = "I come first. " + "I come second.";
 assert(/start\. This/.test(myStr));
 ```
 
-`myStr` は、文字列の値 `This is the start. This is the end.` を持つ必要があります。
+`myStr` should have a value of the string `This is the start. This is the end.`
 
 ```js
 assert(myStr === 'This is the start. This is the end.');

@@ -12,7 +12,7 @@ As a reminder, this project is being built upon the following starter project on
 
 # --instructions--
 
-Within `tests/1_unit-tests.js` under the test labeled `#12` in the `Arrays` suite, change each `assert` to either `assert.include` or `assert.notInclude` to make the test pass (should evaluate to `true`). Non alterare gli argomenti passati alle asserzioni.
+All'interno di `tests/1_unit-test.js` sotto il test etichettato `#12` nella suite `Arrays` , cambiare ogni `assert` in `assert.include` o `assert.notInclude` per far passare il test (dovrebbe risultare `true`). Non alterare gli argomenti passati alle asserzioni.
 
 # --hints--
 

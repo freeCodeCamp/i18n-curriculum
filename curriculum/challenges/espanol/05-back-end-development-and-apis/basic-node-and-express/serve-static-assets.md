@@ -8,7 +8,7 @@ dashedName: serve-static-assets
 
 # --description--
 
-Un servidor HTML normalmente tiene uno o más directorios a los que el usuario puede acceder. Puedes colocar allí los recursos estáticos que necesite tu aplicación (hojas de estilo, scripts, imágenes).
+An HTML server usually has one or more directories that are accessible by the user. You can place there the static assets needed by your application (stylesheets, scripts, images).
 
 En Express, puedes poner en marcha esta funcionalidad utilizando el middleware `express.static(path)`, donde el parámetro `path` es la ruta absoluta de la carpeta que contiene los recursos.
 
@@ -40,7 +40,7 @@ Tu aplicación debe servir archivos de recursos desde el directorio `/public` a 
   );
 ```
 
-Your app should not serve files from any other folders except from `/public` directory
+Tu aplicación no debe servir archivos de ninguna otra carpeta excepto del directorio `/public`
 
 ```js
 (getUserInput) =>

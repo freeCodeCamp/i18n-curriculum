@@ -8,7 +8,7 @@ dashedName: match-letters-of-the-alphabet
 
 # --description--
 
-Ви побачили, як можна використати <dfn>набори символів</dfn>, щоб визначити групу символів для збігів. Але довелось би багато писати, якщо потрібно знайти збіги для великого діапазону символів (наприклад, кожної літери в алфавіті). На щастя, для цього існує вбудована функціональність, яка робить це швидко та просто.
+You saw how you can use <dfn>character sets</dfn> to specify a group of characters to match, but that's a lot of typing when you need to match a large range of characters (for example, every letter in the alphabet). Fortunately, there is a built-in feature that makes this short and simple.
 
 Всередині набору символів можна визначити діапазон символів для пошуку збігів, використавши дефіс `-`.
 

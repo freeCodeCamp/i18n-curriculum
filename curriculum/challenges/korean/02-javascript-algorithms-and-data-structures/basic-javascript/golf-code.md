@@ -9,11 +9,11 @@ dashedName: golf-code
 
 # --description--
 
-골프 게임에는 골프 선수가 홀에 공을 넣어 플레이를 완성하기 위해 할 것으로 기대되는 `strokes`의 평균 수를 의미하는 `par`가 각 홀마다 있습니다. `par`에서 `strokes`를 얼마나 더 쳤는지, 덜 쳤는지에 대한 별칭이 있습니다.
+In the game of Golf, each hole has a `par`, meaning, the average number of `strokes` a golfer is expected to make in order to sink the ball in the hole to complete the play. Depending on how far above or below `par` your `strokes` are, there is a different nickname.
 
 함수는 `par`와 `strokes` 매개변수를 받습니다. 친 횟수를 우선순위(가장 높음에서 가장 낮음) 에 따라 나열한 아래 표에 대해 정확한 문자열을 반환하세요.
 
-<table><thead><tr><th>친 횟수</th><th>반환 값</th></tr></thead><tbody><tr><td>1</td><td>"Hole-in-one!"</td></tr><tr><td>&#x3C;= par - 2</td><td>"Eagle"</td></tr><tr><td>par - 1</td><td>"Birdie"</td></tr><tr><td>par</td><td>"Par"</td></tr><tr><td>par + 1</td><td>"Bogey"</td></tr><tr><td>par + 2</td><td>"Double Bogey"</td></tr><tr><td>>= par + 3</td><td>"Go Home!"</td></tr></tbody></table>
+<table><thead><tr><th>Strokes</th><th>반환 값</th></tr></thead><tbody><tr><td>1</td><td>"Hole-in-one!"</td></tr><tr><td>&#x3C;= par - 2</td><td>"Eagle"</td></tr><tr><td>par - 1</td><td>"Birdie"</td></tr><tr><td>par</td><td>"Par"</td></tr><tr><td>par + 1</td><td>"Bogey"</td></tr><tr><td>par + 2</td><td>"Double Bogey"</td></tr><tr><td>>= par + 3</td><td>"Go Home!"</td></tr></tbody></table>
 
 `par`와 `strokes`는 항상 양수의 숫자입니다. 당신의 편의를 위해 모든 이름 배열을 추가했습니다.
 

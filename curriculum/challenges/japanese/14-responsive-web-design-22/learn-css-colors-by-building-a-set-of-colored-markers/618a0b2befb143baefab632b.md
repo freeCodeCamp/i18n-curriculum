@@ -7,7 +7,7 @@ dashedName: step-37
 
 # --description--
 
-赤とシアンの色が隣り合わせにあると、とても明るく見えることに注目してください。 このコントラストはウェブサイト上で過度に使用すると目障りになることがあり、また、補色の背景色の上ではテキストが読みづらくなることがあります。
+Notice that the red and cyan colors are very bright right next to each other. This contrast can be distracting if it's overused on a website, and can make text hard to read if it's placed on a complementary-colored background.
 
 1 つの色を主要な色として使い、その補色をページの特定のコンテンツに注意を向けさせるためのアクセントとして使うのが良い方法とされています。
 

@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedf08835
-title: Create a Set of Checkboxes
+title: إنشاء مجموعة من خانات الاختيار"Checkboxes"
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVMPUv/cqrkJsp'
 forumTopicId: 16821
@@ -11,15 +11,15 @@ dashedName: create-a-set-of-checkboxes
 
 Forms commonly use <dfn>checkboxes</dfn> for questions that may have more than one answer.
 
-Checkboxes are a type of `input`.
+خانات الاختيار "Checkboxes" هي نوع من `input`.
 
-Each of your checkboxes can be nested within its own `label` element. By wrapping an `input` element inside of a `label` element it will automatically associate the checkbox input with the label element surrounding it.
+كل خانة من خانات الاختيار "checkboxes" الخاصة بك يمكن أن تندرج تحت عنصر التسمية `label` الخاص بها. من خلال وضع عنصر `input` داخل عنصر التسمية `label` ، سيتم تلقائيًا ربط إدخال مربع الاختيار مع عنصر التسمية المحيط به.
 
-All related checkbox inputs should have the same `name` attribute.
+يجب أن يكون لجميع إدخالات مربعات الاختيار ذات الصلة نفس السمة `name`.
 
-It is considered best practice to explicitly define the relationship between a checkbox `input` and its corresponding `label` by setting the `for` attribute on the `label` element to match the `id` attribute of the associated `input` element.
+من أفضل الممارسات أن تحدد صراحةً العلاقة بين خانة الاختيار `input` والتسمية `label` المقابلة لها عن طريق تعيين السمة `for` على العلامة `label` لمطابقة السمة `id` لعنصر الإدخال `input` المقصود.
 
-Here's an example of a checkbox:
+إليك مثال على خانة الاختيار "checkbox":
 
 ```html
 <label for="loving"><input id="loving" type="checkbox" name="personality"> Loving</label>
@@ -27,17 +27,17 @@ Here's an example of a checkbox:
 
 # --instructions--
 
-Add to your form a set of three checkboxes. Each checkbox should be nested within its own `label` element. All three should share the `name` attribute of `personality`.
+أضف إلى النموذج الخاص بك "form" مجموعة من ثلاث خانات اختيار"Checkboxes". كل واحدة منهم مدرجة تحت تسمية `label` خاصة بها. ويتشارك جميعهم الصفة `name` وقيمتها `personality`.
 
 # --hints--
 
-Your page should have three checkbox elements.
+يجب أن تحتوي صفحتك على ثلاثة عناصر من خانة الاختيار"checkbox".
 
 ```js
 assert($('input[type="checkbox"]').length > 2);
 ```
 
-Each of your three checkbox elements should be nested in its own `label` element.
+كل عنصر من خانات الاختيار"checkbox" يجب أن يندرج تحت تسمية `label` خاصة به.
 
 ```js
 assert($('label > input[type="checkbox"]:only-child').length > 2);
@@ -53,7 +53,7 @@ assert(
 );
 ```
 
-Your checkboxes should be given the `name` attribute of `personality`.
+يجب أن تعطى خانات الاختيار "checkboxes" الخاصة بك السمة `name` وقيمتها `personality`.
 
 ```js
 assert(
@@ -61,7 +61,7 @@ assert(
 );
 ```
 
-Each of your checkboxes should be added within the `form` tag.
+يجب إضافة كل من خانات الاختيار "checkboxes" الخاصة بك داخل علامة النموذج `form`.
 
 ```js
 assert($('label').parent().get(0).tagName.match('FORM'));

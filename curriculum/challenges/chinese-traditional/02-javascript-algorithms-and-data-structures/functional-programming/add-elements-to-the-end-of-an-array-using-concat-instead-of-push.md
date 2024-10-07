@@ -8,9 +8,9 @@ dashedName: add-elements-to-the-end-of-an-array-using-concat-instead-of-push
 
 # --description--
 
-函數式編程就是創建和使用具有不變性的函數。
+Functional programming is all about creating and using non-mutating functions.
 
-上一個挑戰介紹了 `concat` 方法，這是一種在不改變原始數組的前提下，將數組組合成一個新數組的方法。 將 `concat` 方法與 `push` 方法做比較。 `push` 將一個元素添加到調用它的數組的末尾，這樣會改變該數組。 舉個例子：
+上一個挑戰介紹了 `concat` 方法，這是一種在不改變原始數組的前提下，將數組組合成一個新數組的方法。 將 `concat` 方法與 `push` 方法做比較。 `push` 將一個元素添加到調用它的數組的末尾，這樣會改變該數組。 這是一個示例：
 
 ```js
 const arr = [1, 2, 3];

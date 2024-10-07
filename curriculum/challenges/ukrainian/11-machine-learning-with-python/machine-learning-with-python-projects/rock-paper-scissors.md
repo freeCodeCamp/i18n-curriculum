@@ -8,7 +8,7 @@ dashedName: rock-paper-scissors
 
 # --description--
 
-В цьому завданні ви створите програму, щоб грати в камінь-ножиці-папір. Програма, яка обиратиме випадково, зазвичай виграватиме у 50%. Щоб виконати це завдання, ваша програма повинна зіграти матчі проти чотирьох різних ботів, вигравши принаймні 60% ігор у кожному матчі.
+For this challenge, you will create a program to play Rock, Paper, Scissors. A program that picks at random will usually win 50% of the time. To pass this challenge your program must play matches against four different bots, winning at least 60% of the games in each match.
 
 Ви будете <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-rock-paper-scissors/" target="_blank" rel="noopener noreferrer nofollow">працювати над цим проєктом з нашим стартовим кодом Gitpod</a>.
 
@@ -24,7 +24,7 @@ dashedName: rock-paper-scissors
 
 *Підказка: щоб перемогти всіх чотирьох супротивників, ваша програма повинна мати багато стратегій, які змінюються залежно від гри супротивника.*
 
-## Розробка
+## Development
 
 Не змінюйте `RPS_game.py`. Запишіть весь свій код у `RPS.py`. Для розробки ви можете використати `main.py`, щоб протестувати свій код.
 
@@ -32,9 +32,9 @@ dashedName: rock-paper-scissors
 
 Щоб перевірити свій код, пограйте в гру за допомогою функції `play`. Функція `play` приймає чотири аргументи:
 
-- два гравці грають один проти одного (насправді гравцями є функції)
+- two players to play against each other (the players are actually functions)
 - кількість ігор, які потрібно зіграти в матчі
-- додатковий аргумент для перегляду записів кожної гри. Встановіть його на `True`, щоб побачити ці повідомлення.
+- необов'язковий аргумент для перегляду журналу кожної гри. Встановіть його на `True`, щоб побачити ці повідомлення.
 
 ```py
 play(player1, player2, num_games[, verbose])
@@ -50,7 +50,7 @@ play(player, quincy, 1000, verbose=True)
 
 Модульні тести для цього проєкту знаходяться в `test_module.py`. Ми імпортували тести з `test_module.py` до `main.py` для вашої зручності. Якщо ви видалите коментар в останньому рядку в `main.py`, то тести запуститься автоматично при виконанні `python main.py` на консолі.
 
-## Надсилання
+## Відправка
 
 Скопіюйте URL-адресу свого проєкту та відправте її до freeCodeCamp.
 

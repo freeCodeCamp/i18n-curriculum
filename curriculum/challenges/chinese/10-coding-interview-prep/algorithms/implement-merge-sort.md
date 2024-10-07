@@ -8,7 +8,7 @@ dashedName: implement-merge-sort
 
 # --description--
 
-另一种常见的中间排序算法是归并排序。 像快速排序一样，合并排序也使用分而治之的递归方法对数组进行排序。 它基于这样一个事实：要将两个已经排好序的数组排在一起，是相对容易的。 但是我们只从一个数组作为输入开始，那么我们如何从中获得两个已排序的数组呢？ 好吧，我们可以递归地将原始输入分成两部分，直到我们到达每个数组只有一个元素的基本情况。 单项数组是自然排序的，因此我们可以开始组合。 这个组合将展开拆分原始数组的递归调用，最终生成所有元素的最终排序数组。 合并排序的步骤如下：
+Another common intermediate sorting algorithm is merge sort. Like quick sort, merge sort also uses a divide-and-conquer, recursive methodology to sort an array. It takes advantage of the fact that it is relatively easy to sort two arrays as long as each is sorted in the first place. But we'll start with only one array as input, so how do we get to two sorted arrays from that? Well, we can recursively divide the original input in two until we reach the base case of an array with one item. A single-item array is naturally sorted, so then we can start combining. This combination will unwind the recursive calls that split the original array, eventually producing a final sorted array of all the elements. The steps of merge sort, then, are:
 
 **1)** 将输入数组递归地分成两部分，直到生成仅包含一个元素的子数组。
 

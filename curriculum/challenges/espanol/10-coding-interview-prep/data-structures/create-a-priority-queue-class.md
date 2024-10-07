@@ -8,7 +8,7 @@ dashedName: create-a-priority-queue-class
 
 # --description--
 
-En este desafío crearás una Cola de Prioridad. Una cola de Prioridad es un tipo especial de cola en la que los elementos pueden tener una información adicional que especifica su proridad. Esto podría ser simplemente representado con un entero. La prioridad del elemento anulará el orden de colocación para determinar la secuencia de los elementos se debe sacar los elementos de la cola. Si un elemento con una prioridad más alta se pone en cola después de elementos con una prioridad más baja, el elemento con mayor prioridad será extraído antes que los demás elementos.
+In this challenge you will be creating a Priority Queue. A Priority Queue is a special type of Queue in which items may have additional information which specifies their priority. This could be simply represented with an integer. Item priority will override placement order in determining the sequence items are dequeued. If an item with a higher priority is enqueued after items with lower priority, the higher priority item will be dequeued before all the others.
 
 Por ejemplo, imaginemos que tenemos una cola de prioridad con tres elementos:
 

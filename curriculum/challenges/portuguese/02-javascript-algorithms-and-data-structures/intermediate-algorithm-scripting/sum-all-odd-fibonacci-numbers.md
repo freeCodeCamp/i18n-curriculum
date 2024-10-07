@@ -8,7 +8,7 @@ dashedName: sum-all-odd-fibonacci-numbers
 
 # --description--
 
-Dado um `num` inteiro e positivo, retorne a soma de todos os números ímpares Fibonacci menores que ou iguais a `num`.
+Given a positive integer `num`, return the sum of all odd Fibonacci numbers that are less than or equal to `num`.
 
 Os dois primeiros números na sequência de Fibonacci são 0 e 1. Todo número adicional na sequência é a soma dos dois números anteriores. Os sete primeiros números da sequência de Fibonacci são 0, 1, 1, 2, 3, 5 e 8.
 

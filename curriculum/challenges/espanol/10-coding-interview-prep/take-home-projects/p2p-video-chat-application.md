@@ -8,9 +8,9 @@ dashedName: p2p-video-chat-application
 
 # --description--
 
-**Objetivo:**Crea una aplicación que sea funcionalmente similar a la siguiente: <a href="https://p2p-video-chat-application.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://p2p-video-chat-application.freecodecamp.rocks/</a>.
+**Objective:** Build an app that is functionally similar to this: <a href="https://p2p-video-chat-application.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://p2p-video-chat-application.freecodecamp.rocks/</a>.
 
-Completa las siguientes historias de usuario y consigue que todas las pruebas se aprueben. Utiliza las librerías o APIs que necesites. Dale tu propio estilo personal.
+Completa las historias de los usuarios que están aquí abajo y haz que pasen todas las pruebas. Utiliza cualquier librería o API que necesites. Dale tu propio estilo.
 
 **Historia del usuario:** Al acceder, el navegador me solicitará acceder a mi camera y mi micrófono.
 

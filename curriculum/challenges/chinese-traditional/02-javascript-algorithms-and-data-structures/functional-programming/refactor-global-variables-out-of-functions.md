@@ -8,7 +8,7 @@ dashedName: refactor-global-variables-out-of-functions
 
 # --description--
 
-目前爲止，我們已經看到了函數式編程的兩個原則：
+So far, we have seen two distinct principles for functional programming:
 
 1) 不要更改變量或對象 - 創建新變量和對象，並在需要時從函數返回它們。 提示：使用類似 `const newArr = arrVar` 的東西，其中 `arrVar` 是一個數組，只會創建對現有變量的引用，而不是副本。 所以更改 `newArr` 中的值會同時更改 `arrVar` 中的值。
 

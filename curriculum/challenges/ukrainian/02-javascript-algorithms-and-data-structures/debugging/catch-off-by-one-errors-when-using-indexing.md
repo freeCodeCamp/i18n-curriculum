@@ -8,7 +8,7 @@ dashedName: catch-off-by-one-errors-when-using-indexing
 
 # --description--
 
-<dfn>Помилки неврахованої одиниці</dfn> виникають, коли ви намагаєтеся націлити конкретний індекс рядка чи масиву (щоб виокремити чи отримати доступ до сегмента) або під час використання циклів. Індексування JavaScript починається з нуля, а не одиниці, тобто останній індекс завжди буде на одиницю меншим за довжину елемента. Якщо ви спробуєте отримати доступ до індексу рівному довжині, програма повідомить про помилку «індексу поза діапазоном» або надрукує `undefined`.
+<dfn>Off by one errors</dfn> (sometimes called OBOE) crop up when you're trying to target a specific index of a string or array (to slice or access a segment), or when looping over the indices of them. JavaScript indexing starts at zero, not one, which means the last index is always one less than the length of the item. If you try to access an index equal to the length, the program may throw an "index out of range" reference error or print `undefined`.
 
 Якщо ви використовуєте методи рядка чи масиву, які приймають діапазон індексу як аргумент, варто прочитати документацію та зрозуміти, чи вони враховують всі елементи (тобто елемент за заданим індексом є частиною отриманого результату). Ось кілька прикладів помилок неврахованої одиниці:
 

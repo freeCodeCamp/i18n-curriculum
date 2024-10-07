@@ -1,6 +1,6 @@
 ---
 id: 5900f3b61000cf542c50fec9
-title: 'Problem 74: Digit factorial chains'
+title: 'Problem 74: Numerische Faktorketten'
 challengeType: 1
 forumTopicId: 302187
 dashedName: problem-74-digit-factorial-chains

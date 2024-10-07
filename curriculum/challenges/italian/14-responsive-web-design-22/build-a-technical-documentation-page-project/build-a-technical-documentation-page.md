@@ -10,9 +10,9 @@ dashedName: build-a-technical-documentation-page
 
 **Objective:** Build an app that is functionally similar to <a href="https://technical-documentation-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://technical-documentation-page.freecodecamp.rocks</a>. **Do not copy this demo project**.
 
-**User story:**
+**User story (storia d'utente):**
 
-1. Devi avere un elemento `main` con un corrispondente `id="main-doc"`, che contiene il contenuto principale della pagina (technical documentation)
+1. You can see a `main` element with a corresponding `id="main-doc"`, which contains the page's main content (technical documentation)
 1. Dentro l'elemento `#main-doc`, puoi aggiungere svariati elementi `section`, ognuno con una classe di valore `main-section`. Dovrebbero essercene almeno cinque
 1. Il primo elemento dentro ogni `.main-section` dovrebbe essere un elemento `header`, che contiene testo che descrive l'argomento della sezione.
 1. Ogni elemento `section` con la classe `main-section` dovrebbe avere un `id` che corrisponde al testo di ogni elemento `header` al suo interno. Qualsiasi spazio deve essere sostituito con un underscore (ad esempio, la sezione che contiene l'intestazione "JavaScript and Java" dovrebbe avere un corrispondente `id="JavaScript_and_Java"`)
@@ -28,7 +28,7 @@ dashedName: build-a-technical-documentation-page
 1. Su dispositivi di dimensione regolare (laptop, desktop), l'elemento con `id="navbar"` dovrebbe essere sempre nella parte sinistra dello schermo e dovrebbe essere sempre visibile all'utente
 1. La tua documentazione tecnica dovrebbe avere almeno un media query
 
-Soddisfa le user story e passa tutti i test qui sotto per completare questo progetto. Usa il tuo stile personale. Buon divertimento!
+Soddisfa le user story e supera tutti i test qui sotto per completare questo progetto. Usa il tuo stile personale. Buon Coding!
 
 **Nota:** Assicurati di aggiungere `<link rel="stylesheet" href="styles.css">` nell'HTML per linkare il foglio di stile e applicare il CSS
 

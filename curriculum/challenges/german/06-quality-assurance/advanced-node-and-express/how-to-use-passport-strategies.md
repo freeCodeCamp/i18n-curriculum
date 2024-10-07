@@ -8,11 +8,11 @@ dashedName: how-to-use-passport-strategies
 
 # --description--
 
-In der bereitgestellten Datei `index.pug` befindet sich ein Anmeldeformular. Es wird durch das Inline-JavaScript `if showLogin` ausgeblendet, wobei das Formular hinten eingerückt wird.
+In the `index.pug` file supplied, there is a login form. It is hidden because of the inline JavaScript `if showLogin` with the form indented after it.
 
 Füge innerhalb des `res.render` dieser Seite dem Objekt eine neue Variable hinzu, `showLogin: true`. Wenn du deine Seite aktualisierst, solltest du das Formular sehen! Das Formular übermittelt **POST**-Anfragen an `/login`. Hier solltest du also die POST-Anfrage annehmen und den Nutzer authentifizieren.
 
-In dieser Aufgabe erstellst du die Route `/login`, um eine POST-Anfrage anzunehmen. Um mithilfe dieser Route Nutzer zu authentifizieren, benötigst du eine Middleware, die das vor Beantwortung der Anfrage tut. Dazu wird einfach ein weiteres Argument an die Middleware übergeben, bevor die Antwort kommt. The middleware to use is `passport.authenticate('local')`.
+In dieser Aufgabe erstellst du die Route `/login`, um eine POST-Anfrage anzunehmen. Um mithilfe dieser Route Nutzer zu authentifizieren, benötigst du eine Middleware, die das vor Beantwortung der Anfrage tut. Dazu wird einfach ein weiteres Argument an die Middleware übergeben, bevor die Antwort kommt. Die zu verwendende Middleware ist `passport.authenticate('local')`.
 
 `passport.authenticate` kann auch einige Optionen als Argument akzeptieren, wie z.B. `{ failureRedirect: '/' }`, was unglaublich nützlich ist, also füge auch das hinzu. Füge nach der Verwendung der Middleware eine Antwort hinzu (die nur aufgerufen wird, wenn die Authentifizierungs-Middleware funktioniert), die den Benutzer zu `/profile` umleitet. Fügen diese Route ebenfalls hinzu und lasse sie die Ansicht `profile.pug` rendern.
 

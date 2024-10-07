@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: iterations-definite-loops
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-How many lines will the following code print?:
+¿Cuántas líneas imprimirá el siguiente código?:
 
 ```python
 for i in [2,1,5]:

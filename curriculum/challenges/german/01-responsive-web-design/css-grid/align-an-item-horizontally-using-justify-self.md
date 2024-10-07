@@ -9,7 +9,7 @@ dashedName: align-an-item-horizontally-using-justify-self
 
 # --description--
 
-Im CSS-Raster befindet sich der Inhalt jedes Elements in einer Box, die als <dfn>Zelle (cell)</dfn> bezeichnet wird. Du kannst die Position des Inhalts innerhalb der Zelle horizontal ausrichten, indem du die Eigenschaft `justify-self` für ein Rasterelement verwendest. Standardmäßig hat diese Eigenschaft den Wert `stretch`, so dass der Inhalt die gesamte Breite der Zelle ausfüllt. Diese CSS-Raster-Eigenschaft kann auch andere Werte annehmen:
+In CSS Grid, the content of each item is located in a box which is referred to as a <dfn>cell</dfn>. You can align the content's position within its cell horizontally using the `justify-self` property on a grid item. By default, this property has a value of `stretch`, which will make the content fill the whole width of the cell. This CSS Grid property accepts other values as well:
 
 `start`: Richtet den Inhalt am linken Rand der Zelle aus,
 

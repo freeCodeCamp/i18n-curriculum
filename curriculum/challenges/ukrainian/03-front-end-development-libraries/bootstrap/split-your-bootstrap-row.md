@@ -8,7 +8,7 @@ dashedName: split-your-bootstrap-row
 
 # --description--
 
-Ми маємо ряд Bootstrap. Розділимо його на два стовпці, щоб розмістити елементи.
+Now that we have a Bootstrap Row, let's split it into two columns to house our elements.
 
 Створіть два елементи `div` в межах ряду, обидва з класами `col-xs-6`.
 

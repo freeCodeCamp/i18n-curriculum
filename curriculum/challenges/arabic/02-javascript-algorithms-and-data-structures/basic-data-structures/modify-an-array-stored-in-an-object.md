@@ -8,7 +8,7 @@ dashedName: modify-an-array-stored-in-an-object
 
 # --description--
 
-الآن لقد رأيتم جميع العمليات الأساسية لكائنات JavaScript. يمكنك إضافة وتعديل وإزالة أزواج key-value، والتحقق مما إذا كانت الهُوِيَّات موجودة، والمرور فوق جميع الهُوِيَّات في الكائن. بينما تستمر في تعلم JavaScript سترى تطبيقات أكثر تنوعاً للكائنات. وبالإضافة إلى ذلك، دروس هياكل البيانات الموجودة في قسم تمهيد مقابلة العمل من المنهج الدراسي تغطي أيضًا الكائنات <dfn>Map ES6</dfn> و <dfn>Set</dfn>, وكلاهما يشبه الكائنات العادية ولكنهما يوفران بعض السمات الإضافية. الآن بعد أن تعلمت أساسيات القوائم والكائنات، أنت مستعد تماما للبدء في معالجة مشكلات أكثر تعقيدا باستخدام JavaScript!
+Now you've seen all the basic operations for JavaScript objects. You can add, modify, and remove key-value pairs, check if keys exist, and iterate over all the keys in an object. As you continue learning JavaScript you will see even more versatile applications of objects. Additionally, the Data Structures lessons located in the Coding Interview Prep section of the curriculum also cover the ES6 <dfn>Map</dfn> and <dfn>Set</dfn> objects, both of which are similar to ordinary objects but provide some additional features. Now that you've learned the basics of arrays and objects, you're fully prepared to begin tackling more complex problems using JavaScript!
 
 # --instructions--
 

@@ -1,7 +1,7 @@
 ---
 id: 587d778f367417b2b2512aad
 title: >-
-  Avoid Colorblindness Issues by Carefully Choosing Colors that Convey Information
+  Epuka Masuala ya Upofu wa Rangi kwa Kuchagua kwa Makini Rangi Zinazotoa Taarifa
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/c437as3'
 forumTopicId: 301011
@@ -13,17 +13,17 @@ dashedName: >-
 
 There are various forms of colorblindness. These can range from a reduced sensitivity to a certain wavelength of light to the inability to see color at all. The most common form is a reduced sensitivity to detect greens.
 
-For example, if two similar green colors are the foreground and background color of your content, a colorblind user may not be able to distinguish them. Close colors can be thought of as neighbors on the color wheel, and those combinations should be avoided when conveying important information.
+Kwa mfano, ikiwa rangi mbili za kijani zinazofanana ni mandharimbele na rangi ya mandharinyuma ya maudhui yako, mtumiaji asiyeona rangi huenda asiweze kuzitofautisha. Rangi zinazofanana zinaweza kuzingatiwa kama majirani kwenye gurudumu la rangi, na michanganyiko hiyo inapaswa kuepukwa wakati wa kuwasilisha habari muhimu.
 
-**Note:** Some online color picking tools include visual simulations of how colors appear for different types of colorblindness. These are great resources in addition to online contrast checking calculators.
+**Kumbuka:**: Baadhi ya zana za kuchagua rangi mtandaoni ni pamoja na uigaji wa kuona wa jinsi rangi zinavyoonekana kwa aina tofauti za upofu wa rangi. Hizi ni nyenzo nzuri pamoja na vikokotoo vya kukagua utofautishaji mtandaoni.
 
 # --instructions--
 
-Camper Cat is testing different styles for an important button, but the yellow (`#FFFF33`) `background-color` and the green (`#33FF33`) text `color` are neighboring hues on the color wheel and virtually indistinguishable for some colorblind users. (Their similar lightness also fails the contrast ratio check). Change the text `color` to a dark blue (`#003366`) to solve both problems.
+Camper Cat anajaribu mitindo tofauti ili kupata kitufe muhimu, lakini `mandharinyuma` ya manjano (`#FFFF33`) na maandishi ya `rangi` ya kijani (`#33FF33`) ni rangi za jirani kwenye gurudumu la rangi na haziwezi kutambulika kwa baadhi ya watumiaji wasioona rangi. (Wepesi wao sawa pia hushindwa kukagua uwiano wa utofautishaji). Badilisha `rangi` ya maandishi hadi samawati iliyokolea (`#003366`) ili kutatua matatizo yote mawili.
 
 # --hints--
 
-Your code should change the text `color` for the `button` to the dark blue.
+Msimbo wako unapaswa kubadilisha `rangi` ya maandishi ya `kitufe` kuwa samawati iliyokolea.
 
 ```js
 const button = document.querySelector('button');

@@ -19,8 +19,8 @@ Complete the `Category` class. It should be able to instantiate objects based on
 When the budget object is printed it should display:
 
 - A title line of 30 characters where the name of the category is centered in a line of `*` characters.
-- A list of the items in the ledger. Each line should show the description and amount. The first 23 characters of the description should be displayed, then the amount. The amount should be right aligned, contain two decimal places, and display a maximum of 7 characters.
-- A line displaying the category total.
+- قائمة بالعناصر التي في الـ ledger. كل سطر يجب ان يعرض الـ description(الوصف) و الـ amount(المبلغ). يجب ان يُعرض اول 23 حرف من الـ description ثم ياتي الـ amount. يجب ان يكون الـ amount محاذي بشكل صحيح علي اليمين و يحتوي علي عددين عشريين كحد اقصي و اقصي حد لعرض الارقام يكون 7 ارقام.
+- سطر يعرض مجموع الـ amount لكل الـ categories الموجودة.
 
 Here is an example usage:
 
@@ -45,13 +45,13 @@ Transfer to Clothing    -50.00
 Total: 923.96
 ```
 
-Besides the `Category` class, create a function (outside of the class) called `create_spend_chart` that takes a list of categories as an argument. It should return a string that is a bar chart.
+و مع class الـ `Category`, سننشأ function في خارج الـ class تسمي `create_spend_chart` و تاخذ list كـ argument. يجب أن تنتج مخطط أعمدة بصيغة string.
 
-The chart should show the percentage spent in each category passed in to the function. The percentage spent should be calculated only with withdrawals and not with deposits. Down the left side of the chart should be labels 0 - 100. The 'bars' in the bar chart should be made out of the 'o' character. The height of each bar should be rounded down to the nearest 10. The horizontal line below the bars should go two spaces past the final bar. Each category name should be written vertically below the bar. There should be a title at the top that says 'Percentage spent by category'.
+الرسم البياني يجب ان يظهر النسبة المأوية للانفاق لـ category الذي سندخلها للـ function. النسبة المئوية للانفاق يجب ان تُحسب بالسحب فقط. في الجانب السفلي الايسر من الرسم البياني يجب ان يكون ارقام من 0 الي 100. The 'bars' in the bar chart should be made out of the 'o' character. ارتفاع كل عمود يجب ان يُقرَب الي اقرب 10(اذا كان 17 مثلا فيتم تقريبة الي 20). يجب ان يكون هناك مسافة مقدارها "2" بين الاعمدة و الخط الافقي. كل اسم category يجب ان يُكتَب بشكل راسي تحت العمود الخاص به. There should be a title at the top that says 'Percentage spent by category'.
 
-This function will be tested with up to four categories.
+وسيتم اختبار هذه الـ function بما يصل إلى أربع فئات.
 
-Look at the example output below very closely and make sure the spacing of the output matches the example exactly.
+انظر في هذا المثال جيداً و تاكد من ان المسافات مشابهة تماما لهذا المثال.
 
 ```bash
 Percentage spent by category
@@ -711,7 +711,7 @@ t.result.wasSuccessful()
 })
 ```
 
-`create_spend_chart` should print a different chart representation. Check that all spacing is exact.
+`create_spend_chart` should print a different chart representation. Check that all spacing is exact. Open your browser console with F12 for more details.
 
 ```js
 ({

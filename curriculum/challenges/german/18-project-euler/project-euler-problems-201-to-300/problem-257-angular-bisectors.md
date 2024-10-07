@@ -1,6 +1,6 @@
 ---
 id: 5900f46e1000cf542c50ff80
-title: 'Problem 257: Angular Bisectors'
+title: 'Problem 257: Winkelhalbierende'
 challengeType: 1
 forumTopicId: 301905
 dashedName: problem-257-angular-bisectors
@@ -8,19 +8,19 @@ dashedName: problem-257-angular-bisectors
 
 # --description--
 
-Given is an integer sided triangle $ABC$ with sides $a ≤ b ≤ c$ ($AB = c$, $BC = a$ and $AC = b$).
+Gegeben ist ein ganzseitiges Dreieck $ABC$ mit den Seiten $a ≤ b ≤ c$ ($AB = c$, $BC = a$ und $AC = b$).
 
-The angular bisectors of the triangle intersect the sides at points $E$, $F$ and $G$ (see picture below).
+Die Winkelhalbierenden des Dreiecks schneiden die Seiten in den Punkten $E$, $F$ und $G$ (siehe Bild unten).
 
-<img alt="triangle ABC, with angular bisectors intersecting sides at the points E, F and G" src="https://cdn.freecodecamp.org/curriculum/project-euler/angular-bisectors.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
+<img alt="Dreieck ABC, dessen Winkelhalbierende die Seiten in den Punkten E, F und G schneiden" src="https://cdn.freecodecamp.org/curriculum/project-euler/angular-bisectors.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-The segments $EF$, $EG$ and $FG$ partition the triangle $ABC$ into four smaller triangles: $AEG$, $BFE$, $CGF$ and $EFG$. It can be proven that for each of these four triangles the ratio $\frac{\text{area}(ABC)}{\text{area}(\text{subtriangle})}$ is rational. However, there exist triangles for which some or all of these ratios are integral.
+Die Segmente $EF$, $EG$ und $FG$ teilen das Dreieck $ABC$ in vier kleinere Dreiecke: $AEG$, $BFE$, $CGF$ und $EFG$. Es kann bewiesen werden, dass für jedes dieser vier Dreiecke das Verhältnis $\frac{\text{area}(ABC)}{\text{area}(\text{subtriangle})}$ rational ist. Es gibt jedoch Dreiecke, bei denen einige oder alle dieser Verhältnisse ganzzahlig sind.
 
-How many triangles $ABC$ with perimeter $≤ 100\\,000\\,000$ exist so that the ratio $\frac{\text{area}(ABC)}{\text{area}(AEG)}$ is integral?
+Wie viele Dreiecke $ABC$ mit dem Perimeter $≤ 100\\,000\\,000$ existieren, so dass das Verhältnis $\frac{\text{area}(ABC)}{\text{area}(AEG)}$ ganzzahlig ist?
 
 # --hints--
 
-`angularBisectors()` should return `139012411`.
+`angularBisectors()` sollte `139012411` zurückgeben.
 
 ```js
 assert.strictEqual(angularBisectors(), 139012411);

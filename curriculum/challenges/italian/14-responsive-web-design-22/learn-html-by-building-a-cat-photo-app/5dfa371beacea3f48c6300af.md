@@ -1,13 +1,13 @@
 ---
 id: 5dfa371beacea3f48c6300af
-title: Step 19
+title: Passo 19
 challengeType: 0
 dashedName: step-19
 ---
 
 # --description--
 
-L'aggiunta alla pagina un elemento d'intestazione di rango inferiore, denota l'inizio una nuova sottosezione.
+When you add a lower rank heading element to the page, it's implied that you're starting a new subsection.
 
 Dopo l'ultimo elemento `h2` del secondo elemento `section`, aggiungi un elemento `h3` con il testo:
 

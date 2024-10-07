@@ -8,7 +8,7 @@ dashedName: dispatch-an-action-event
 
 # --description--
 
-Метод `dispatch` використовують для відправлення дій до сховища Redux. Виклик `store.dispatch()` і передача значення, повернутого від автора дії, відправляє дію назад у сховище.
+`dispatch` method is what you use to dispatch actions to the Redux store. Calling `store.dispatch()` and passing the value returned from an action creator sends an action back to the store.
 
 Згадайте, що автори дій повертають об’єкт з властивістю типу, яка вказує тип дії, що відбулася. Потім метод відправляє об’єкт дії до сховища Redux. На основі прикладу з попереднього завдання, наступні рядки є еквівалентними, і обидва відправляють дію типу `LOGIN`:
 

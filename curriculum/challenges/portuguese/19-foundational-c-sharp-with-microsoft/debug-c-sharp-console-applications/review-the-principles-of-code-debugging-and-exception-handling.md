@@ -20,19 +20,19 @@ Complete o módulo <a href="https://learn.microsoft.com/training/modules/review-
 
 ## --text--
 
-Qual é a relação entre o tipo de exceção e a informação que ele contém?
+What is the relationship between the type of exception and the information it contains?
 
 ## --answers--
 
-O tipo de exceção determina a informação que ele contém.
+The type of exception determines the information it contains.
 
 ---
 
-O tipo de exceção e a informação que ele contém não estão relacionados.
+The type of exception and the information it contains are unrelated.
 
 ---
 
-A informação contida numa exceção determina o tipo de exceção.
+The information contained in an exception determines the type of exception.
 
 ## --video-solution--
 

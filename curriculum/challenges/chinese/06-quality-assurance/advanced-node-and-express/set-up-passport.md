@@ -8,7 +8,7 @@ dashedName: set-up-passport
 
 # --description--
 
-现在我们来创建 *Passport*，最终我们需要用它来实现用户注册和登录。 除了 Passport，我们还会用 Express-session 来处理 session（会话）。 Express-session 有许多高级特性供你使用，但你暂时只需要了解其基础功能。 在客户端，我们可以用这个中间件把 session id 储存到 cookie。同时，我们可以在服务器上通过这个 id 访问 session 数据。 通过这种方式，你无需把用户的个人账号信息存到 cookie，来完成用户的验证。只需要用这个 id 作为 *key* 来访问服务器上用户的数据即可。
+It's time to set up *Passport* so you can finally start allowing a user to register or log in to an account. In addition to Passport, you will use Express-session to handle sessions. Express-session has a ton of advanced features you can use, but for now you are just going to use the basics. Using this middleware saves the session id as a cookie in the client, and allows us to access the session data using that id on the server. This way, you keep personal account information out of the cookie used by the client to tell to your server clients are authenticated and keep the *key* to access the data stored on the server.
 
 `passport@~0.4.1` 和 `express-session@~1.17.1` 已经安装，并且在你的 `package.json` 文件中均被列为依赖项。
 

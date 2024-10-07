@@ -8,7 +8,7 @@ dashedName: cash-register
 
 # --description--
 
-Розробіть функцію касового апарату `checkCashRegister()`, яка приймає ціну покупки як перший аргумент (`price`), оплату як другий аргумент (`cash`) та суму готівки в касі як третій аргумент (`cid`).
+Design a cash register drawer function `checkCashRegister()` that accepts purchase price as the first argument (`price`), payment as the second argument (`cash`), and cash-in-drawer (`cid`) as the third argument.
 
 `cid` — це 2D масив, який містить список доступного обігу.
 
@@ -16,11 +16,11 @@ dashedName: cash-register
 
 Поверніть `{status: "INSUFFICIENT_FUNDS", change: []}`, якщо сума готівки в касі менша за здачу, або ви не можете віддати здачу.
 
-Поверніть `{status: "CLOSED", change: [...]}` з сумою в касі як значення ключа `change`, якщо воно дорівнює здачі.
+Поверніть `{status: "CLOSED", change: [...]}` з сумою в касі як значення ключа `change`, якщо вона дорівнює здачі.
 
 В іншому випадку, поверніть `{status: "OPEN", change: [...]}` зі здачею в монетах і банкнотах, в порядку від найбільшої до найменшої, як значення ключа `change`.
 
-<table><tbody><tr><th>Грошовий обіг</th><th>Сума</th></tr><tr><td>Пенні</td><td>$0.01 (ПЕННІ)</td></tr><tr><td>Нікель</td><td>$0.05 (НІКЕЛЬ)</td></tr><tr><td>Дайм</td><td>$0.1 (ДАЙМ)</td></tr><tr><td>Чверть</td><td>$0.25 (ЧВЕРТЬ)</td></tr><tr><td>Долар</td><td>$1 (ОДИН)</td></tr><tr><td>П’ять доларів</td><td>$5 (П’ЯТЬ)</td></tr><tr><td>Десять доларів</td><td>$10 (ДЕСЯТЬ)</td></tr><tr><td>Двадцять доларів</td><td>$20 (ДВАДЦЯТЬ)</td></tr><tr><td>Сто доларів</td><td>$100 (СТО)</td></tr></tbody></table>
+<table><tbody><tr><th>Грошовий обіг</th><th>Сума</th></tr><tr><td>Пенні</td><td>$0.01 (ПЕННІ)</td></tr><tr><td>Нікель</td><td>$0.05 (НІКЕЛЬ)</td></tr><tr><td>Дайм</td><td>$0.1 (ДАЙМ)</td></tr><tr><td>Чверть</td><td>$0.25 (ЧВЕРТЬ)</td></tr><tr><td>Долар</td><td>$1 (ОДИН)</td></tr><tr><td>П’ять доларів</td><td>$5 (П'ЯТЬ)</td></tr><tr><td>Десять доларів</td><td>$10 (ДЕСЯТЬ)</td></tr><tr><td>Двадцять доларів</td><td>$20 (ДВАДЦЯТЬ)</td></tr><tr><td>Сто доларів</td><td>$100 (СТО)</td></tr></tbody></table>
 
 Подивіться нижче на приклад масиву з сумою в касі:
 

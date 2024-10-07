@@ -14,7 +14,7 @@ dashedName: introduction-machine-learning-fundamentals
 
 ## --text--
 
-以下哪个陈述是 **假的**？
+Which statement below is **false**?
 
 ## --answers--
 

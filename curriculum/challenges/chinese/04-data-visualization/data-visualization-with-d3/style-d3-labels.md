@@ -8,7 +8,7 @@ dashedName: style-d3-labels
 
 # --description--
 
-D3 可以将样式添加到条形标签中。 `fill` 属性为 `text` 节点设置文本颜色， `style()` 方法设置其它样式的 CSS 规则，例如 `font-family` 或 `font-size`。
+D3 methods can add styles to the bar labels. The `fill` attribute sets the color of the text for a `text` node. The `style()` method sets CSS rules for other styles, such as `font-family` or `font-size`.
 
 # --instructions--
 

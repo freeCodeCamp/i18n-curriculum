@@ -9,7 +9,7 @@ dashedName: declare-javascript-variables
 
 # --description--
 
-컴퓨터 과학에서 <dfn>데이터(data)</dfn>란 컴퓨터에게 있어서 의미있는 모든 것을 가리킵니다. JavaScript에서는 8가지의 다른 형태의 <dfn>데이터 타입</dfn>을 제공하며 그것들은 `undefined`, `null`, `boolean`, `string`, `symbol`, `bigint`, `number`, 그리고 `object` 입니다.
+In computer science, <dfn>data</dfn> is anything that is meaningful to the computer. JavaScript provides eight different <dfn>data types</dfn> which are `undefined`, `null`, `boolean`, `string`, `symbol`, `bigint`, `number`, and `object`.
 
 예를 들어, 컴퓨터에서는 숫자(number) 인 `12`와 `strings`(문자열 ： 문자들의 집합체) 인 `"12"`, `"dog"`, 또는 `"123 cats"`가 구별됩니다. 또한 컴퓨터는 숫자를 수학적으로 연산 할 수 있지만, 문자열(strings)은 불가능합니다.
 

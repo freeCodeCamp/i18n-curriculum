@@ -1,6 +1,6 @@
 ---
 id: 647f867a07d29547b3bee1bc
-title: 'Trophy - Work with Variable Data in C# Console Applications'
+title: 'Trophy - Arbeiten mit variablen Daten in C#-Konsolen-Anwendungen'
 challengeType: 18
 dashedName: trophy-work-with-variable-data-in-c-sharp-console-applications
 msTrophyId: learn.wwl.get-started-c-sharp-part-4.trophy
@@ -8,6 +8,6 @@ msTrophyId: learn.wwl.get-started-c-sharp-part-4.trophy
 
 # --description--
 
-Now that you've completed all of the "Work with Variable Data in C# Console Applications" challenges, you should have earned the trophy for it on the Microsoft Learn platform. Wenn du diese Trophäe auf <a href="https://learn.microsoft.com/users/me/achievements#trophies-section" target="_blank" rel="noreferrer">deiner Erfolgsseite</a> nicht siehst, hast du nicht alle Aufgaben erledigt und deine Trophäe kann nicht verifiziert werden.
+Nachdem du nun alle Aufgaben zum "Arbeiten mit variablen Daten in C#-Konsolenanwendungen", solltest du dir die Trophäe dafür auf der Microsoft Learn-Plattform verdient haben. Wenn du diese Trophäe nicht siehst, wenn du die <a href="https://learn.microsoft.com/users/me/achievements#trophies-section" target="_blank" rel="noreferrer">Seite mit deinen Leistungen anschaust</a>, hast du nicht alle Aufgaben erfüllt und deine Trophäe kann nicht verifiziert werden.
 
-Link your Microsoft username to your freeCodeCamp account and click the "Verify Trophy" button below to complete the challenge. Diese Trophäe ist **erforderlich**, um sich für die Zertifizierungsprüfung zu qualifizieren.
+Verbinde deinen Microsoft-Benutzernamen mit deinem freeCodeCamp-Konto und klicke unten auf die Schaltfläche "Trophäe verifizieren", um die Aufgabe abzuschließen. Diese Trophäe ist **erforderlich**, um sich für die Zertifizierungsprüfung zu qualifizieren.

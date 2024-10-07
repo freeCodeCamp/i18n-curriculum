@@ -8,7 +8,7 @@ dashedName: combine-arrays-with-the-spread-operator
 
 # --description--
 
-<dfn>スプレッド</dfn>演算子のもう一つの大きな利点は、配列を結合できること、つまり、ある配列のすべての要素を別の配列の任意のインデックスに挿入できることです。 従来の古い構文でも配列を結合できますが、その場合は、一方の末尾ともう一方の先頭の位置のみで結合が可能です。 スプレッド構文を使用すれば次のような操作が非常に簡単になります。
+Another huge advantage of the <dfn>spread</dfn> operator is the ability to combine arrays, or to insert all the elements of one array into another, at any index. With more traditional syntaxes, we can concatenate arrays, but this only allows us to combine arrays at the end of one, and at the start of another. Spread syntax makes the following operation extremely simple:
 
 ```js
 let thisArray = ['sage', 'rosemary', 'parsley', 'thyme'];

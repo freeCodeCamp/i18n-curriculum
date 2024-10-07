@@ -8,7 +8,7 @@ dashedName: search-within-a-linked-list
 
 # --description--
 
-作成したリンクリストクラスに、便利なメソッドをもう少し追加しましょう。 `Stack` クラスや `Queue` クラスと同じように、リストが空かどうかを知ることができたら便利ではありませんか？
+Let's add a few more useful methods to our linked list class. Wouldn't it be useful if we could tell if our list was empty or not, as with our `Stack` and `Queue` classes?
 
 リンクリスト内の特定の要素を見つけることもできるはずです。 データ構造の走査はたくさん練習しなければなりません！ `element` を引数として取り、リンクリスト内におけるその要素の `index` を返す、`indexOf` メソッドを作成しましょう。 リンクリスト内にその要素が見つからない場合は、`-1` を返してください。
 

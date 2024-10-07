@@ -8,7 +8,7 @@ dashedName: target-the-parent-of-an-element-using-jquery
 
 # --description--
 
-每個 HTML 標籤都默認 `inherits`（繼承）其 `parent`（父標籤）的 CSS 屬性。
+Every HTML element has a `parent` element from which it `inherits` properties.
 
 例如，你的 `jQuery Playground` 中的 `h3` 標籤的父標籤是 `<div class="container-fluid">`，而這個標籤的父標籤是 `body`。
 

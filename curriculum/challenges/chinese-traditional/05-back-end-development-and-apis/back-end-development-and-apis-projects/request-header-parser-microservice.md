@@ -8,15 +8,15 @@ dashedName: request-header-parser-microservice
 
 # --description--
 
-構建一個 JavaScript 的全棧應用，在功能上與這個應用相似：<a href="https://request-header-parser-microservice.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://request-header-parser-microservice.freecodecamp.rocks/</a>。 在這個項目中，你將使用以下方法之一編寫你的代碼：
+Build a full stack JavaScript app that is functionally similar to this: <a href="https://request-header-parser-microservice.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://request-header-parser-microservice.freecodecamp.rocks/</a>. Working on this project will involve you writing your code using one of the following methods:
 
--   克隆<a href="https://github.com/freeCodeCamp/boilerplate-project-headerparser/" target="_blank" rel="noopener noreferrer nofollow">這個 GitHub 倉庫</a>，並在本地完成你的項目。
+-   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-headerparser/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
 -   使用<a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-headerparser/" target="_blank" rel="noopener noreferrer nofollow">我們的 Gitpod 初始項目</a>來完成你的項目。
 -   使用你選擇的網站生成器來完成項目。 需要包含我們 GitHub 倉庫的所有文件。
 
 # --hints--
 
-你應該提交自己的項目，而不是示例的 URL。
+You should provide your own project, not the example URL.
 
 ```js
 (getUserInput) => {
@@ -28,7 +28,7 @@ dashedName: request-header-parser-microservice
 };
 ```
 
-向 `/api/whoami` 發送請求，返回一個 JSON 對象，這個JSON 對象應該含有存放 IP 地址的 `ipaddress` 鍵。
+A request to `/api/whoami` should return a JSON object with your IP address in the `ipaddress` key.
 
 ```js
 (getUserInput) =>
@@ -40,7 +40,7 @@ dashedName: request-header-parser-microservice
   );
 ```
 
-向 `/api/whoami` 發送請求，返回一個 JSON 對象，這個 JSON 對象應該含有存放語言首選項的 `language` 鍵。
+A request to `/api/whoami` should return a JSON object with your preferred language in the `language` key.
 
 ```js
 (getUserInput) =>
@@ -52,7 +52,7 @@ dashedName: request-header-parser-microservice
   );
 ```
 
-向 `/api/whoami` 發送請求，返回一個 JSON 對象，這個 JSON 對象應該含有存放（發送請求的）軟件的 `software` 鍵。
+A request to `/api/whoami` should return a JSON object with your software in the `software` key.
 
 ```js
 (getUserInput) =>

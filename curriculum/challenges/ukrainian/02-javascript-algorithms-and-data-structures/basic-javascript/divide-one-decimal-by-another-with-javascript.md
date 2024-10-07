@@ -9,7 +9,7 @@ dashedName: divide-one-decimal-by-another-with-javascript
 
 # --description--
 
-Тепер поділимо одне десяткове число на інше.
+Now let's divide one decimal by another.
 
 # --instructions--
 

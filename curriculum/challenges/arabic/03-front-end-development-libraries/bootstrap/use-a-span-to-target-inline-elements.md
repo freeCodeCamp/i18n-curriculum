@@ -8,7 +8,7 @@ dashedName: use-a-span-to-target-inline-elements
 
 # --description--
 
-يمكنك استخدام الإنطاق (spans) لإنشاء عناصر مضمنة. تذكر عندما تستخدم فئة `btn-block` لجعل الزر يملأ الصف بِرُمَّته؟
+You can use spans to create inline elements. Remember when we used the `btn-block` class to make the button fill the entire row?
 
 <button class='btn' style='background-color: rgb(0, 100, 0);  color: rgb(255, 255, 255);'>normal button</button>
 

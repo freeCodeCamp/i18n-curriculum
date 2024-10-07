@@ -1,13 +1,13 @@
 ---
 id: 612eaf56b7ba3257fdbfb0db
-title: 步骤 21
+title: 步骤21
 challengeType: 0
 dashedName: step-21
 ---
 
 # --description--
 
-钢琴需要 freeCodeCamp 标志才能使其正式化。
+The piano needs the freeCodeCamp logo to make it official.
 
 在 `.keys` 元素之前添加一个 `img` 元素。 给 `img` 一个 `logo` 的 `class`，并将 `src` 设置为 `https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg`。 给它一个 `freeCodeCamp Logo` 的 `alt` 文本。
 

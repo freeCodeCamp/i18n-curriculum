@@ -8,7 +8,7 @@ dashedName: use-the-s-tag-to-strikethrough-text
 
 # --description--
 
-Um Text mit einer horizontalen Linie durchzustreichen, kannst du das `s`-Tag verwenden. Es stellt einen Textabschnitt als ungültig dar. Mit dem `s`-Tag wendet der Browser die CSS-Regel `text-decoration: line-through;` auf das Element an.
+To strikethrough text, which is when a horizontal line cuts across the characters, you can use the `s` tag. It shows that a section of text is no longer valid. With the `s` tag, the browser applies the CSS of `text-decoration: line-through;` to the element.
 
 # --instructions--
 

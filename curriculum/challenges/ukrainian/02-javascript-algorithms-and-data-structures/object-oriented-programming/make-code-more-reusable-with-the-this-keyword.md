@@ -8,7 +8,7 @@ dashedName: make-code-more-reusable-with-the-this-keyword
 
 # --description--
 
-У попередньому завданні ви ознайомились з методом об’єкта `duck`. Було використано точкову нотацію `duck.name`, щоб отримати доступ до значення властивості `name` в межах інструкції return:
+The last challenge introduced a method to the `duck` object. It used `duck.name` dot notation to access the value for the `name` property within the return statement:
 
 ```js
 sayName: function() {return "The name of this duck is " + duck.name + ".";}
@@ -26,7 +26,7 @@ let duck = {
 };
 ```
 
-`this` — доволі широка тема, а наведений вище приклад є лише одним зі способів його використання. У даному контексті `this` посилається на пов’язаний із методом об’єкт `duck`. Якщо ім’я об’єкта зміниться на `mallard`, то не доведеться шукати усі посилання на `duck`. Це робить код багаторазовим та легшим для читання.
+`this` — доволі широка тема, а наведений вище приклад є лише одним зі способів його використання. У даному контексті `this` посилається на пов’язаний із методом об’єкт `duck`. Якщо ім'я об'єкту зміниться на `mallard`, то необхідності шукати усі посилання до назви `duck` у коді не буде. Це робить код багаторазовим та легшим для читання.
 
 # --instructions--
 

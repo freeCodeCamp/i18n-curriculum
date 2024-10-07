@@ -1,6 +1,6 @@
 ---
 id: 587d824a367417b2b2512c45
-title: Anonymous Message Board
+title: لوحة الرسائل المجهولة (Anonymous Message Board)
 challengeType: 4
 forumTopicId: 301568
 dashedName: anonymous-message-board
@@ -14,7 +14,7 @@ Working on this project will involve you writing your code using one of the foll
 
 -   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-messageboard/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
 -   Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-messageboard/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete your project.
--   استخدم أي منشئ موقع لإكمال المشروع. تحقق انك أضفت جميع الملفات من مستودعنا في GitHub في مشروعك.
+-   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
 
 # --instructions--
 

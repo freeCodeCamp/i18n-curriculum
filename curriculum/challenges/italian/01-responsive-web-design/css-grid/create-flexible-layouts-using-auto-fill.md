@@ -9,7 +9,7 @@ dashedName: create-flexible-layouts-using-auto-fill
 
 # --description--
 
-La funzione repeagt viene fornita con un'opzione chiamata <dfn>auto-fill</dfn>. Questo ti consente di inserire automaticamente il maggior numero possibile di righe o colonne della dimensione desiderata, in base alle dimensioni del contenitore. Puoi creare layout flessibili combinando `auto-fill` con `minmax`, in questo modo:
+The repeat function comes with an option called <dfn>auto-fill</dfn>. This allows you to automatically insert as many rows or columns of your desired size as possible depending on the size of the container. You can create flexible layouts when combining `auto-fill` with `minmax`, like this:
 
 ```css
 repeat(auto-fill, minmax(60px, 1fr));

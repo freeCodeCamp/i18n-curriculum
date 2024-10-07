@@ -8,7 +8,7 @@ dashedName: create-a-stateful-component
 
 # --description--
 
-Eines der wichtigsten Themen in React ist der Zustand (`state`). Der Zustand besteht aus allen Daten, die deine Anwendung kennen muss und die sich im Laufe der Zeit ändern können. Du möchtest, dass deine Apps auf Zustandsänderungen reagieren und bei Bedarf eine aktualisierte Benutzeroberfläche präsentieren. React bietet eine gute Lösung für die Zustandsverwaltung von modernen Webanwendungen.
+One of the most important topics in React is `state`. State consists of any data your application needs to know about, that can change over time. You want your apps to respond to state changes and present an updated UI when necessary. React offers a nice solution for the state management of modern web applications.
 
 Du erstellst einen Zustand in einer React-Komponente, indem du eine `state`-Eigenschaft für die Komponentenklasse in ihrem `constructor` deklarierst. Dies initialisiert die Komponente mit `state`, wenn sie erstellt wird. Die Eigenschaft `state` muss auf ein JavaScript `object` gesetzt werden. Die Deklaration sieht so aus:
 

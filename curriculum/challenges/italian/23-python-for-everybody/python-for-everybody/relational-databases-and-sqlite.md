@@ -24,7 +24,7 @@ More resources:
 
 ## --text--
 
-Quale delle seguenti NON è una struttura di dati primaria in un database?
+Which is NOT a primary data structure in a database?
 
 ## --answers--
 

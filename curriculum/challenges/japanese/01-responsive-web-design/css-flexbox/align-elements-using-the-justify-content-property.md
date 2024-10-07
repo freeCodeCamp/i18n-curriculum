@@ -9,7 +9,7 @@ dashedName: align-elements-using-the-justify-content-property
 
 # --description--
 
-フレックスコンテナー内のフレックスアイテムがコンテナー内のすべてのスペースを埋めないことがあります。 この場合、フレックスのアイテムをどのように整列・空白の配置を行うかを CSS に指示したいと思うのが当然でしょう。 幸いなことに、`justify-content` プロパティにはこれを実現するためのオプションがいくつかあります。 しかしまず最初に、これらのオプションを検討する前に理解すべき重要な用語がいくつかあります。
+Sometimes the flex items within a flex container do not fill all the space in the container. It is common to want to tell CSS how to align and space out the flex items a certain way. Fortunately, the `justify-content` property has several options to do this. But first, there is some important terminology to understand before reviewing those options.
 
 <a href="https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/" target="_blank" rel="noopener noreferrer nofollow">フレックスボックスのプロパティについて詳しくはこちらを参照してください。</a>
 
@@ -17,7 +17,7 @@ dashedName: align-elements-using-the-justify-content-property
 
 主軸の線に沿ってフレックスアイテムを配置する方法には、いくつかのオプションが存在します。 最もよく使用されるのは `justify-content: center;` で、フレックスコンテナー内のすべてのフレックスアイテムを中央に揃えます。 その他のオプションは以下のとおりです:
 
-<ul><li><code>flex-start</code>: フレックスコンテナーの先頭にアイテムを揃えます。 行の場合、アイテムはコンテナーの左側に揃えられます。 列の場合、アイテムはコンテナーの上部に揃えられます。 <code>justify-content</code> が指定されていない場合、これがデフォルトの配置になります。</li><li><code>flex-end</code>: フレックスコンテナーの末端にアイテムを揃えます。 行の場合、アイテムはコンテナーの右側に揃えられます。 列の場合、アイテムはコンテナーの下部に揃えられます。</li><li><code>space-between</code>: アイテムを主軸方向の中央で揃え、各アイテムの間にスペースを挿入します。 最初と最後のアイテムはフレックスコンテナーの端に配置されます。 例えば行では、最初のアイテムはコンテナーの左端、最後のアイテムはコンテナーの右側に接するように配置され、残りのスペースは他のアイテムで均等に分配されます。</li><li><code>space-around</code>: <code>space-between</code> と似ていますが、最初と最後のアイテムはコンテナーの端に付かず、全てのアイテムの周りにスペースが分配されます。フレックスコンテナーの両端には半分のスペースが配置されます。</li><li><code>space-evenly</code>: フレックスコンテナーの両端に完全なスペースを持ち、各フレックスアイテムで均等にスペースを分配します。</li></ul>
+<ul><li><code>flex-start</code>: aligns items to the start of the flex container. For a row, this pushes the items to the left of the container. For a column, this pushes the items to the top of the container. This is the default alignment if no <code>justify-content</code> is specified.</li><li><code>flex-end</code>: フレックスコンテナーの末端にアイテムを揃えます。 行の場合、アイテムはコンテナーの右側に揃えられます。 列の場合、アイテムはコンテナーの下部に揃えられます。</li><li><code>space-between</code>: アイテムを主軸方向の中央で揃え、各アイテムの間にスペースを挿入します。 最初と最後のアイテムはフレックスコンテナーの端に配置されます。 例えば行では、最初のアイテムはコンテナーの左端、最後のアイテムはコンテナーの右側に接するように配置され、残りのスペースは他のアイテムで均等に分配されます。</li><li><code>space-around</code>: <code>space-between</code> と似ていますが、最初と最後のアイテムはコンテナーの端に付かず、全てのアイテムの周りにスペースが分配されます。フレックスコンテナーの両端には半分のスペースが配置されます。</li><li><code>space-evenly</code>: フレックスコンテナーの両端に完全なスペースを持ち、各フレックスアイテムで均等にスペースを分配します。</li></ul>
 
 # --instructions--
 

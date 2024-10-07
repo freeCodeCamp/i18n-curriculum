@@ -8,7 +8,7 @@ dashedName: extract-matches
 
 # --description--
 
-حتى الآن، كنت تتحقق فقط من وجود أو عدم وجود نمط داخل string. يمكنك أيضا استخراج المطابقات الفعلية التي وجدتها باستخدام دالة `.match()`.
+So far, you have only been checking if a pattern exists or not within a string. You can also extract the actual matches you found with the `.match()` method.
 
 لاستخدام وظيفة `.match()` ، قم بتطبيق الوظيفة على string ومرر بداخلها الـ regex في الأقواس.
 

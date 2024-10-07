@@ -8,7 +8,7 @@ dashedName: add-items-to-an-array-with-push-and-unshift
 
 # --description--
 
-طول القائمة، مثل أنواع البيانات التي يمكن أن تحتويها، غير ثابت. ويمكن تعريف القائمات بطول أي عدد من العناصر، ويمكن إضافة العناصر أو إزالتها بمرور الوقت؛ وبعبارة أخرى، القائمات هي قابلة للتغير <dfn>mutable</dfn>. في هذا التحدي، سننظر إلى وظيفتين يمكن بهما تعديل القائمة: `Array.push()` و `Array.unshift()`.
+An array's length, like the data types it can contain, is not fixed. Arrays can be defined with a length of any number of elements, and elements can be added or removed over time; in other words, arrays are <dfn>mutable</dfn>. In this challenge, we will look at two methods with which we can programmatically modify an array: `Array.push()` and `Array.unshift()`.
 
 تأخذ كلتا الطريقتان (methods) عنصراً واحداً أو أكثر من العناصر كوسائط (parameters) وتضيف هذه العناصر إلى القائمة (array) التي تنفيذها الطريقة؛ تضيف طريقة `push()` عناصر إلى نهاية القائمة، وتضيف `unshift()` عناصر إلى البداية. انظر ما يلي:
 

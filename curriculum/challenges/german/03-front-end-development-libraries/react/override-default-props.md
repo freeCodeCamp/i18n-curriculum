@@ -8,7 +8,7 @@ dashedName: override-default-props
 
 # --description--
 
-Die Möglichkeit, Standardeigenschaften (Props) zu setzen, ist eine nützliche Funktion in React. Du kannst die Standardeigenschaften außer Kraft setzen, indem du die Eigenschaften für eine Komponente explizit festlegst.
+The ability to set default props is a useful feature in React. The way to override the default props is to explicitly set the prop values for a component.
 
 # --instructions--
 

@@ -9,7 +9,7 @@ dashedName: comparison-with-the-greater-than-or-equal-to-operator
 
 # --description--
 
-大なりイコール演算子 (`>=`) は、2 つの数値の値を比較します。 左の数値が右の数値よりも大きいか等しい場合は、`true` を返します。 それ以外の場合は、`false` を返します。
+The greater than or equal to operator (`>=`) compares the values of two numbers. If the number to the left is greater than or equal to the number to the right, it returns `true`. Otherwise, it returns `false`.
 
 等価演算子と同様に、大なりイコール演算子でも比較時にデータ型が変換されます。
 

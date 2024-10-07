@@ -12,14 +12,14 @@ dashedName: data-cleaning-and-visualizations
 
 # --description--
 
-*在视频中我们使用的编辑器工具是在 notebook.ai 这个平台，你也可以选择用其他的平台，比如说 Google Colab 也是一个不错的选择。*
+*Instead of using notebooks.ai like it shows in the video, you can use Google Colab instead.*
 
-更多资源：
+以下有更多的资料
 
--  <a href="https://github.com/ine-rmotr-curriculum/data-cleaning-rmotr-freecodecamp" target="_blank" rel="noopener noreferrer nofollow">在 GitHub 平台的 Notebooks</a>
+-  <a href="https://github.com/ine-rmotr-curriculum/data-cleaning-rmotr-freecodecamp" target="_blank" rel="noopener noreferrer nofollow">Notebooks on GitHub</a>
 -  <a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb" target="_blank" rel="noopener noreferrer nofollow">如何使用 Google Colab 来打开 GitHub 上的 Notebooks</a>
 
-# --questions--
+# 问题
 
 ## --text--
 

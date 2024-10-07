@@ -8,7 +8,7 @@ dashedName: inherit-behaviors-from-a-supertype
 
 # --description--
 
-在上一個挑戰中，我們創建了一個`Animal` 超類（`supertype`），用來定義所有動物共有的行爲：
+In the previous challenge, you created a `supertype` called `Animal` that defined behaviors shared by all animals:
 
 ```js
 function Animal() { }

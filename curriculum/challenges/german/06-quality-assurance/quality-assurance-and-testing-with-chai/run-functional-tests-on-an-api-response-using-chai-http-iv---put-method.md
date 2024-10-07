@@ -1,6 +1,6 @@
 ---
 id: 587d824f367417b2b2512c5b
-title: Run Functional Tests on an API Response using Chai-HTTP IV - PUT method
+title: Funktionstests für eine API-Antwort mit Chai-HTTP IV - PUT-Methode durchführen
 challengeType: 2
 forumTopicId: 301591
 dashedName: run-functional-tests-on-an-api-response-using-chai-http-iv---put-method
@@ -28,7 +28,7 @@ Sende das folgende JSON-Objekt mit deiner PUT-Anfrage:
 
 Überprüfe, ob der `request.end` Callback Folgendes enthält:
 
-1.  Der `status` sollte `200` betragen
+1.  The `status` should be `200`
 2.  Der `type` sollte `application/json` sein
 3.  Der `body.name` sollte `Giovanni` sein
 4.  Der `body.surname` sollte `da Verrazzano` sein

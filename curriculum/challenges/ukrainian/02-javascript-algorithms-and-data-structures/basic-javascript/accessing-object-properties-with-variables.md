@@ -9,7 +9,7 @@ dashedName: accessing-object-properties-with-variables
 
 # --description--
 
-Дужкову нотацію також можна використати на об’єктах, щоб отримати доступ до властивостей, що зберігаються як значення змінної. Це може бути дуже корисно при ітерації властивостей об’єкта або при отриманні доступу до пошукової таблиці.
+Another use of bracket notation on objects is to access a property which is stored as the value of a variable. This can be very useful for iterating through an object's properties or when accessing a lookup table.
 
 Ось приклад використання змінної для отримання доступу до властивостей:
 

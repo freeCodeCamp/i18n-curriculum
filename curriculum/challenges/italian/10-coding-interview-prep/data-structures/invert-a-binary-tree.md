@@ -8,7 +8,7 @@ dashedName: invert-a-binary-tree
 
 # --description--
 
-Qui creeremo una funzione per invertire un albero binario. Dato un albero binario, vogliamo produrre un nuovo albero che sia equivalente all'immagine speculare di questo albero. Eseguire un traversamento inorder su un albero invertito esplora i nodi in ordine inverso rispetto a un traversamento inorder sull'albero originale. Scrivi un metodo per farlo, chiamato `invert` sul nostro albero binario. Chiamare questo metodo dovrebbe invertire la struttura attuale dell'albero. Idealmente, vorremmo fare questo "in-place" (NdT: lavorando sull'array originale, senza crearne una copia) e in tempo lineare. Cioè, visitiamo ogni nodo solo una volta e modifichiamo la struttura di albero esistente mentre procediamo, senza usare memoria aggiuntiva. Buona fortuna!
+Here will we create a function to invert a binary tree. Given a binary tree, we want to produce a new tree that is equivalently the mirror image of this tree. Running an inorder traversal on an inverted tree will explore the nodes in reverse order when compared to the inorder traversal of the original tree. Write a method to do this called `invert` on our binary tree. Calling this method should invert the current tree structure. Ideally, we would like to do this in-place in linear time. That is, we only visit each node once and we modify the existing tree structure as we go, without using any additional memory. Good luck!
 
 # --hints--
 

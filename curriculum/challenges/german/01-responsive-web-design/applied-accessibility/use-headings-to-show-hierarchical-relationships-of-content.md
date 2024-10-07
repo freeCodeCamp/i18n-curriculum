@@ -9,7 +9,7 @@ dashedName: use-headings-to-show-hierarchical-relationships-of-content
 
 # --description--
 
-Die Überschriften-Tags (`h1` bis `h6`) sind fleißige Arbeitstiere, die dabei helfen, deinem Code Struktur zu verleihen und Inhalte zu kennzeichnen. Screenreader können so eingestellt werden, dass sie nur die Überschriften einer Seite vorlesen, damit der Benutzer eine Zusammenfassung erhält. Das heißt es wichtig ist, dass die Überschriften-Tags in deinem Mark-up semantische Bedeutung haben, sich aufeinander beziehen und nicht nur für Größenwerte verwendet werden.
+Headings (`h1` through `h6` elements) are workhorse tags that help provide structure and labeling to your content. Screen readers can be set to read only the headings on a page so the user gets a summary. This means it is important for the heading tags in your markup to have semantic meaning and relate to each other, not be picked merely for their size values.
 
 *Semantische Bedeutung* heißt, dass der verwendete Tag auf den Inhalt und die Art der Information hinweist.
 

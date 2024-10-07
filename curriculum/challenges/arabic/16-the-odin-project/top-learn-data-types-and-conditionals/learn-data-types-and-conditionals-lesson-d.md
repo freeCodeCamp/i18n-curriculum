@@ -39,4 +39,4 @@ The `search()` method should be used to find the index of the last occurence of 
 
 ## --video-solution--
 
-2
+٢

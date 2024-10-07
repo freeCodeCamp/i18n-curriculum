@@ -8,7 +8,7 @@ dashedName: pre-filter-json-to-get-the-data-you-need
 
 # --description--
 
-如果你不希望渲染每張從 freeCodeCamp Cat Photo API 取回的貓照片，你可以在循環先預先過濾 JSON 數據。
+If you don't want to render every cat photo you get from the freeCodeCamp Cat Photo API, you can pre-filter the JSON before looping through it.
 
 鑑於 JSON 數據存儲在數組中，你可以使用 `filter` 方法過濾掉 `id` 鍵值爲 `1` 的 cat。
 

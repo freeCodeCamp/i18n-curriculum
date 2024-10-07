@@ -1,6 +1,6 @@
 ---
 id: 5900f4ee1000cf542c510000
-title: 'Problem 385: Ellipses inside triangles'
+title: 'Aufgabe 385: Ellipsen in Dreiecken'
 challengeType: 1
 forumTopicId: 302049
 dashedName: problem-385-ellipses-inside-triangles
@@ -8,28 +8,28 @@ dashedName: problem-385-ellipses-inside-triangles
 
 # --description--
 
-For any triangle $T$ in the plane, it can be shown that there is a unique ellipse with largest area that is completely inside $T$.
+Für jedes Dreieck $T$ in der Ebene lässt sich zeigen, dass es eine einzige Ellipse mit größter Fläche gibt, die vollständig in $T$ liegt.
 
 <img alt="Ellipse vollständig innerhalb eines Dreiecks" src="https://cdn.freecodecamp.org/curriculum/project-euler/ellipses-inside-triangles.png" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-For a given $n$, consider triangles $T$ such that:
+Betrachten Sie für ein gegebenes $n$ solche Dreiecke $T$, dass:
 
--   the vertices of $T$ have integer coordinates with absolute value $≤ n$, and
--   the foci<sup>1</sup> of the largest-area ellipse inside $T$ are $(\sqrt{13}, 0)$ and $(-\sqrt{13}, 0)$.
+-   die Scheitelpunkte von $T$ haben ganzzahlige Koordinaten mit Absolutwert $≤ n$, und
+-   die Brennpunkte<sup>1</sup> der flächengrößten Ellipse innerhalb von $T$ sind $(\sqrt{13}, 0)$ und $(-\sqrt{13}, 0)$.
 
-Let $A(n)$ be the sum of the areas of all such triangles.
+Sei $A(n)$ die Summe der Flächen aller solcher Dreiecke.
 
-For example, if $n = 8$, there are two such triangles. Their vertices are (-4,-3), (-4,3), (8,0) and (4,3), (4,-3), (-8,0), and the area of each triangle is 36. Thus $A(8) = 36 + 36 = 72$.
+Wenn zum Beispiel $n = 8$ ist, gibt es zwei solcher Dreiecke. Ihre Eckpunkte sind (-4,-3), (-4,3), (8,0) und (4,3), (4,-3), (-8,0), und der Flächeninhalt jedes Dreiecks ist 36. Somit ist $A(8) = 36 + 36 = 72$.
 
-It can be verified that $A(10) = 252$, $A(100) = 34\\,632$ and $A(1000) = 3\\,529\\,008$.
+Es lässt sich nachweisen, dass $A(10) = 252$, $A(100) = 34\\,632$ und $A(1000) = 3\\,529\\,008$.
 
-Find $A(1\\,000\\,000\\,000)$.
+Finde $A(1\\,000\,000\,000\,000)$.
 
-<sup>1</sup>The foci (plural of focus) of an ellipse are two points $A$ and $B$ such that for every point $P$ on the boundary of the ellipse, $AP + PB$ is constant.
+<sup>1</sup>Die Brennpunkte (Plural von Fokus) einer Ellipse sind zwei Punkte $A$ und $B$, so dass für jeden Punkt $P$ auf dem Rand der Ellipse $AP + PB$ konstant ist.
 
 # --hints--
 
-`ellipsesInsideTriangles()` should return `3776957309612154000`.
+`ellipsesInsideTriangles()` sollte `3776957309612154000` zurückgeben.
 
 ```js
 assert.strictEqual(ellipsesInsideTriangles(), 3776957309612154000);

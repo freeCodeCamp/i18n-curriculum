@@ -1,6 +1,6 @@
 ---
 id: 5e44413e903586ffb414c94e
-title: Build a Budget App Project
+title: 做一个预算小程序
 challengeType: 23
 forumTopicId: 462361
 dashedName: build-a-budget-app-project
@@ -8,19 +8,19 @@ dashedName: build-a-budget-app-project
 
 # --description--
 
-Complete the `Category` class. It should be able to instantiate objects based on different budget categories like *food*, *clothing*, and *entertainment*. When objects are created, they are passed in the name of the category. The class should have an instance variable called `ledger` that is a list. The class should also contain the following methods:
+请完成`Category`类。 它应该可以按照不同的预算被实例化。比如*食品*，*衣服*或者*娱乐*。 在创造物件的时候，请把预算类加上（比如食品，衣服或者娱乐）。 此物件应该有实例变量叫`ledger`。此实例变量应该是接口。 此物件也应该有以下的方法。
 
-- A `deposit` method that accepts an amount and description. If no description is given, it should default to an empty string. The method should append an object to the ledger list in the form of `{'amount': amount, 'description': description}`.
-- A `withdraw` method that is similar to the `deposit` method, but the amount passed in should be stored in the ledger as a negative number. If there are not enough funds, nothing should be added to the ledger. This method should return `True` if the withdrawal took place, and `False` otherwise.
-- A `get_balance` method that returns the current balance of the budget category based on the deposits and withdrawals that have occurred.
-- A `transfer` method that accepts an amount and another budget category as arguments. The method should add a withdrawal with the amount and the description 'Transfer to [Destination Budget Category]'. The method should then add a deposit to the other budget category with the amount and the description 'Transfer from [Source Budget Category]'. If there are not enough funds, nothing should be added to either ledgers. This method should return `True` if the transfer took place, and `False` otherwise.
+- `deposit` 方法得接受 amount 和 description 变量。 如果没有提供 description，那 description默认是空的。 该方法应该以 `{'amount': amount, 'description': description}` 的形式将对象附加到分类帐列表中。
+- `withdraw` 方法类似于 `deposit` 方法，但传入的金额应作为负数存储在分类账中。 如果资金不足，则不应在分类账中添加任何内容。 如果提款发生，此方法应返回 `True`，否则返回 `False`。
+- `get_balance` 方法根据已发生的存款和取款返回预算类别的当前余额。
+- `transfer` 方法接受金额和另一个预算类别作为参数。 The method should add a withdrawal with the amount and the description 'Transfer to [Destination Budget Category]'. The method should then add a deposit to the other budget category with the amount and the description 'Transfer from [Source Budget Category]'. If there are not enough funds, nothing should be added to either ledgers. This method should return `True` if the transfer took place, and `False` otherwise.
 - A `check_funds` method that accepts an amount as an argument. It returns `False` if the amount is greater than the balance of the budget category and returns `True` otherwise. This method should be used by both the `withdraw` method and `transfer` method.
 
 When the budget object is printed it should display:
 
 - A title line of 30 characters where the name of the category is centered in a line of `*` characters.
-- A list of the items in the ledger. Each line should show the description and amount. The first 23 characters of the description should be displayed, then the amount. The amount should be right aligned, contain two decimal places, and display a maximum of 7 characters.
-- A line displaying the category total.
+- 分类帐中的项目列表。 每行应显示描述和金额。 应显示描述的前 23 个字符，然后是金额。 金额应右对齐，包含两位小数，最多显示 7 个字符。
+- 一行显示类别总数。
 
 Here is an example usage:
 
@@ -45,13 +45,13 @@ Transfer to Clothing    -50.00
 Total: 923.96
 ```
 
-Besides the `Category` class, create a function (outside of the class) called `create_spend_chart` that takes a list of categories as an argument. It should return a string that is a bar chart.
+除了 `Category` 类之外，创建一个名为 `create_spend_chart` 的函数（在类之外），它将类别列表作为参数。 它应该返回一个作为条形图的字符串。
 
-The chart should show the percentage spent in each category passed in to the function. The percentage spent should be calculated only with withdrawals and not with deposits. Down the left side of the chart should be labels 0 - 100. The 'bars' in the bar chart should be made out of the 'o' character. The height of each bar should be rounded down to the nearest 10. The horizontal line below the bars should go two spaces past the final bar. Each category name should be written vertically below the bar. There should be a title at the top that says 'Percentage spent by category'.
+该图表应显示在传递给函数的每个类别中花费的百分比。 花费的百分比应该只计算取款而不是存款。 图表左侧应该是标签 0 - 100。 The 'bars' in the bar chart should be made out of the 'o' character. 每个条形的高度应四舍五入到最接近的 10。 条形图下面的水平线应该超过最后一个条形图再多两个空格。 每个类别名称应垂直写在栏下方。 There should be a title at the top that says 'Percentage spent by category'.
 
-This function will be tested with up to four categories.
+此功能将使用最多四个类别进行测试。
 
-Look at the example output below very closely and make sure the spacing of the output matches the example exactly.
+仔细查看下面的示例输出，并确保输出的间距与示例完全匹配。
 
 ```bash
 Percentage spent by category
@@ -711,7 +711,7 @@ t.result.wasSuccessful()
 })
 ```
 
-`create_spend_chart` should print a different chart representation. Check that all spacing is exact.
+`create_spend_chart` should print a different chart representation. Check that all spacing is exact. Open your browser console with F12 for more details.
 
 ```js
 ({

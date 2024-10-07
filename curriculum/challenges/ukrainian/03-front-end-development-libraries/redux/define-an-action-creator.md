@@ -8,7 +8,7 @@ dashedName: define-an-action-creator
 
 # --description--
 
-Як тільки дію створено, її потрібно надіслати до сховища Redux, щоб вона могла оновити стан. Для цього потрібно визначити авторів дії. Автор дії — це функція JavaScript, яка повертає дію. Іншими словами, автори дій створюють об’єкти, які представляють дії.
+After creating an action, the next step is sending the action to the Redux store so it can update its state. In Redux, you define action creators to accomplish this. An action creator is simply a JavaScript function that returns an action. In other words, action creators create objects that represent action events.
 
 # --instructions--
 

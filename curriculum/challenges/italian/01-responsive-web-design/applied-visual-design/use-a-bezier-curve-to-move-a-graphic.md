@@ -9,7 +9,7 @@ dashedName: use-a-bezier-curve-to-move-a-graphic
 
 # --description--
 
-Una sfida precedente ha discusso la parola chiave `ease-out` che descrive un cambiamento di animazione che prima accelera e poi rallenta verso la fine dell'animazione. Sulla destra è mostrata la differenza tra la parola chiave `ease-out` (per l'elemento blu) e la parola chiave `linear` (per l'elemento rosso). Una progressione dell'animazione simile alla parola chiave `ease-out` può essere ottenuta utilizzando una curva di Bezier cubica personalizzata.
+A previous challenge discussed the `ease-out` keyword that describes an animation change that speeds up first and then slows down at the end of the animation. On the right, the difference between the `ease-out` keyword (for the blue element) and `linear` keyword (for the red element) is demonstrated. Similar animation progressions to the `ease-out` keyword can be achieved by using a custom cubic Bezier curve function.
 
 In generale, cambiando i punti di ancoraggio `p1` e `p2` otteniamo la creazione di diverse curve di Bezier, che controllano come l'animazione progredisce nel tempo. Ecco un esempio di curva di Bezier che usa valori per imitare lo stile `ease-out`:
 

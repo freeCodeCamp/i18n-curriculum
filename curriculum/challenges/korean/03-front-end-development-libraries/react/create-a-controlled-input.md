@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d4036178
-title: Create a Controlled Input
+title: 제어된 인풋(Input) 만들기
 challengeType: 6
 forumTopicId: 301385
 dashedName: create-a-controlled-input
@@ -12,19 +12,19 @@ Your application may have more complex interactions between `state` and the rend
 
 # --instructions--
 
-The code editor has the skeleton of a component called `ControlledInput` to create a controlled `input` element. The component's `state` is already initialized with an `input` property that holds an empty string. This value represents the text a user types into the `input` field.
+코드 편집기에 제어된 `input`을 만들기 위한 `ControlledInput` 컴포넌트 뼈대가 있습니다. 컴포넌트의 `상태`는 빈 문자열을 갖는 `input` 프로퍼티로 초기화되어 있습니다. 프로퍼티의 값은 사용자가 `input` 필드에 입력하는 텍스트입니다.
 
-First, create a method called `handleChange()` that has a parameter called `event`. When the method is called, it receives an `event` object that contains a string of text from the `input` element. You can access this string with `event.target.value` inside the method. Update the `input` property of the component's `state` with this new string.
+우선 `event`라는 매개변수(parameter)를 갖는 `handleChange()` 메서드를 만들어보세요. 이 메서드가 호출되면, `input` 엘리먼트의 텍스트를 가진 `event` 객체를 받습니다. `event.target.value`로 메서드안에서 문자열에 접근할 수 있습니다. 컴포넌트의 `상태`인 `input` 프로퍼티를 새 문자열로 업데이트 해보세요.
 
-In the `render` method, create the `input` element above the `h4` tag. Add a `value` attribute which is equal to the `input` property of the component's `state`. Then add an `onChange` property set to the `handleChange()` event handler method.
+`render` 메서드 안에 `input`를 `h4` 태그 위에 만들어보세요. `value` 속성을 추가해서, 컴포넌트 `상태`의 `input` 프로퍼티로 설정해보세요. 그런 다음 `onChange` 속성을 `handleChange()` 이벤트 핸들러 메서드로 설정하세요.
 
-When you type in the input box, that text is processed by the `handleChange()` method, set as the `input` property in the local `state`, and rendered as the value in the `input` box on the page. The component `state` is the single source of truth regarding the input data.
+입력란에 입력을 하면, 해당 텍스트는 `handleChange()` 메서드로 처리되고, 로컬 `상태`의 `input` 프로퍼티로 설정되어 `input`의 값으로 렌더링되어 페이지에 보여지게 됩니다. 이렇게 함으로써 컴포넌트의 `상태`는 input 데이터의 믿음직스러운 유일한 출처가 됩니다(정확하게는 'single source of truth'라고 합니다.)
 
-Last but not least, don't forget to add the necessary bindings in the constructor.
+마지막으로 생성자(constructor)에 필요한 바인딩을 추가하는 것을 잊지마세요.
 
 # --hints--
 
-`ControlledInput` should return a `div` element which contains an `input` and a `p` tag.
+`ControlledInput`는 `input`과 `p`태그를 가진 `div` 엘리먼트를 반환해야 합니다.
 
 ```js
 assert(
@@ -39,7 +39,7 @@ assert(
 );
 ```
 
-The state of `ControlledInput` should initialize with an `input` property set to an empty string.
+`ControlledInput`의 상태는 `input` 프로퍼티를 빈 문자열로 초기화해야 합니다.
 
 ```js
 assert.strictEqual(
@@ -48,7 +48,7 @@ assert.strictEqual(
 );
 ```
 
-Typing in the input element should update the state and the value of the input, and the `p` element should render this state as you type.
+입력을 하면 상태와 input 값을 업데이트하고, `p` 엘리먼트가 이 상태를 렌더링해야 합니다.
 
 ```js
 async () => {

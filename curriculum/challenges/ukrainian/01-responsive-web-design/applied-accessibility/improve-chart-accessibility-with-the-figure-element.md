@@ -9,7 +9,7 @@ dashedName: improve-chart-accessibility-with-the-figure-element
 
 # --description--
 
-HTML5 впровадив елемент `figure` і пов'язаний з ним `figcaption`. При спільному використанні вони огортають візуальне відображення (зокрема зображення, діаграму або графік) з підписом. Поєднання обох елементів посилює доступність завдяки групуванню спорідненого контенту, а також наданню текстової альтернативи, що пояснює вміст `figure`.
+HTML5 introduced the `figure` element and the related `figcaption`. Used together, these items wrap a visual representation (like an image, diagram, or chart) along with its caption. Wrapping these elements together gives a two-fold accessibility boost by semantically grouping related content and providing a text alternative explaining the `figure`.
 
 Для візуалізації даних на кшталт графіків можна використовувати підпис із короткими відмітками прогнозів чи висновків для користувачів із вадами зору. Ще одна проблема полягає в тому, щоб перемістити табличні дані графіку за межі екрану (за допомогою CSS) для користувачів зчитувачів з екрану.
 
@@ -43,7 +43,7 @@ assert.lengthOf(document.querySelectorAll('figure') , 1);
 assert.lengthOf(document.querySelectorAll('figcaption') , 1);
 ```
 
-Ваш код не повинен містити жодних теґів `div`.
+Ваш код не повинен містити жодних тегів `div`.
 
 ```js
 assert.lengthOf(document.querySelectorAll('div'), 0);

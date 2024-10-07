@@ -1,13 +1,13 @@
 ---
 id: 5efae16e3cbd2bbdab94e334
-title: Step 31
+title: Passo 31
 challengeType: 0
 dashedName: step-31
 ---
 
 # --description--
 
-Dopo l'ultimo elemento `img`, aggiungi un elemento `figcaption` con il testo `Cats hate other cats.`
+After the last `img` element, add a `figcaption` element with the text `Cats hate other cats.`
 
 # --hints--
 
@@ -66,7 +66,7 @@ assert(
 );
 ```
 
-Il testo dell'elemento `figcaption` dovrebbe essere `Cats hate other cats.` Hai omesso una parola o hai un refuso.
+L'elemento `figcaption` dovrebbe avere il testo `Cats hate other cats.` Hai omesso una parola o hai refuso.
 
 ```js
 assert(

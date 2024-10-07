@@ -1,6 +1,6 @@
 ---
 id: 5900f47e1000cf542c50ff90
-title: 'Problem 273: Sum of Squares'
+title: 'Problem 273: Summe der Quadrate'
 challengeType: 1
 forumTopicId: 301923
 dashedName: problem-273-sum-of-squares
@@ -8,21 +8,21 @@ dashedName: problem-273-sum-of-squares
 
 # --description--
 
-Consider equations of the form: $a^2 + b^2 = N$, $0 ≤ a ≤ b$, $a$, $b$ and $N$ integer.
+Betrachte Gleichungen der Form: $a^2 + b^2 = N$, $0 ≤ a ≤ b$, $a$, $b$ und $N$ Integer.
 
-For $N = 65$ there are two solutions:
+Für $N = 65$ gibt es zwei Lösungen:
 
-$a = 1, b = 8$ and $a = 4, b = 7$.
+$a = 1, b = 8$ und $a = 4, b = 7$.
 
-We call $S(N)$ the sum of the values of $a$ of all solutions of $a^2 + b^2 = N$, $0 ≤ a ≤ b$, $a$, $b$ and $N$ integer.
+Wir nennen $S(N)$ die Summe der Werte von $a$ aller Lösungen von $a^2 + b^2 = N$, $0 ≤ a ≤ b$, $a$, $b$ und $N$ Integer.
 
-Thus $S(65) = 1 + 4 = 5$.
+Somit ist $S(65) = 1 + 4 = 5$.
 
-Find $\sum S(N)$, for all squarefree $N$ only divisible by primes of the form $4k + 1$ with $4k + 1 &lt; 150$.
+Finde $\sum S(N)$, für alle quadratfreien $N$, die nur durch Primzahlen der Form $4k + 1$ mit $4k + 1 &lt; 150$ teilbar sind.
 
 # --hints--
 
-`sumOfSquares()` should return `2032447591196869000`.
+`sumOfSquares()` sollte `2032447591196869000` zurückgeben.
 
 ```js
 assert.strictEqual(sumOfSquares(), 2032447591196869000);

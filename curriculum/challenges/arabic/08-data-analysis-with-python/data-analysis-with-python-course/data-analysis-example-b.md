@@ -1,6 +1,6 @@
 ---
 id: 5e9a093a74c4063ca6f7c14e
-title: Data Analysis Example B
+title: مثال ب لتحليل البيانات
 challengeType: 11
 videoId: 0kJz0q0pvgQ
 bilibiliIds:
@@ -14,30 +14,30 @@ dashedName: data-analysis-example-b
 
 *Instead of using notebooks.ai like it shows in the video, you can use Google Colab instead.*
 
-More resources:
+المزيد من المصادر:
 
--  <a href="https://github.com/ine-rmotr-curriculum/FreeCodeCamp-Pandas-Real-Life-Example" target="_blank" rel="noopener noreferrer nofollow">Notebooks على GitHub</a>
--  <a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb" target="_blank" rel="noopener noreferrer nofollow">كيفية فتح Notebook من GitHub باستخدام Google Colab.</a>
+-  <a href="https://github.com/ine-rmotr-curriculum/FreeCodeCamp-Pandas-Real-Life-Example" target="_blank" rel="noopener noreferrer nofollow">Notebooks on GitHub</a>
+-  <a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebookس/colab-github-demo.ipynb" target="_blank" rel="noopener noreferrer nofollow">كيفية فتح (Notebook) من (GitHub) باستخدام (Google Colab).</a>
 
 # --questions--
 
 ## --text--
 
-What does the `loc` method allow you to do?
+ماذا تسمح لك method (دالة) `loc` بفعله؟
 
 ## --answers--
 
-Retrieve a subset of rows and columns by supplying integer-location arguments.
+استرداد مجموعة فرعية من الصفوف والأعمدة عن طريق استعمال ارقام تمثل الأماكن ك arguments.
 
 ---
 
-Access a group of rows and columns by supplying label(s) arguments.
+الوصول إلى مجموعة من الصفوف والأعمدة عن طريق استعمال اسم(اء) كarguments.
 
 ---
 
-Returns the first `n` rows based on the integer argument supplied.
+يرجع اول `n` صفوف بناء على الرقم الصحيح اللذي تم تقديمه ك argument.
 
 ## --video-solution--
 
-2
+٢
 

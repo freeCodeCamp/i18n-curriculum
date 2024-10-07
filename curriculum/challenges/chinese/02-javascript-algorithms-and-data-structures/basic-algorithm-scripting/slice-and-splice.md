@@ -8,7 +8,7 @@ dashedName: slice-and-splice
 
 # --description--
 
-本挑战的输入参数为两个数组和一个索引值。
+You are given two arrays and an index.
 
 将第一个数组中的所有元素依次复制到第二个数组中。
 

@@ -9,7 +9,7 @@ dashedName: add-a-text-alternative-to-images-for-visually-impaired-accessibility
 
 # --description--
 
-Цілком імовірно, що ви бачили атрибут `alt` тегу `img` в інших завданнях. Текст атрибуту `alt` описує вміст зображення та забезпечує його текстовий замінник. Атрибут `alt` допомагає у випадках, коли зображення не завантажується, або яке користувач не бачить. Пошукові системи також використовують його, щоб визначити вміст зображення та включити його в результати пошуку. Наприклад:
+You've likely seen an `alt` attribute on an `img` tag in other challenges. `alt` text describes the image's content and provides a text-alternative for it. An `alt` attribute helps in cases where the image fails to load or can't be seen by a user. Search engines also use it to understand what an image contains to include it in search results. Ось приклад:
 
 ```html
 <img src="importantLogo.jpeg" alt="Company logo">

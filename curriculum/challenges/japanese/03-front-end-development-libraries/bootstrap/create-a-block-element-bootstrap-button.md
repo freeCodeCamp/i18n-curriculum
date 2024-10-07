@@ -8,7 +8,7 @@ dashedName: create-a-block-element-bootstrap-button
 
 # --description--
 
-通常、`btn` および `btn-default` クラスを持つ `button` 要素の幅は、それらが含まれているテキストと同じ幅にしかなりません。 例:
+Normally, your `button` elements with the `btn` and `btn-default` classes are only as wide as the text that they contain. 例えば、次のように記述します。
 
 ```html
 <button class="btn btn-default">Submit</button>

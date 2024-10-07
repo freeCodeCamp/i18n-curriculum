@@ -1,6 +1,6 @@
 ---
 id: 587d824c367417b2b2512c4f
-title: Test if a Value Falls within a Specific Range
+title: Testen ob ein Wert innerhalb eines bestimmten Bereichs fällt
 challengeType: 2
 forumTopicId: 301598
 dashedName: test-if-a-value-falls-within-a-specific-range
@@ -14,17 +14,17 @@ As a reminder, this project is being built upon the following starter project on
 .approximately(actual, expected, delta, [message])
 ```
 
-Asserts that the `actual` is equal to `expected`, to within a +/- `delta` range.
+Überprüft, dass `actual` gleich `expected` ist, innerhalb einem +/- `delta` Spielraum.
 
 # --instructions--
 
-Within `tests/1_unit-tests.js` under the test labeled `#10` in the `Comparisons` suite, change each `assert` to `assert.approximately` to make the test pass (should evaluate to `true`).
+Ändere innerhalb `tests/1_unit-tests.js` mit dem gekennzeichneten Test`#10` in der `Comparisons` Suite, jeden `assert`, zu `assert.approximately`, um den Test zu bestehen (sollte `true` ausgeben).
 
 Wählen den Minimalbereich (3. Parameter) aus, damit der Test immer bestanden wird. Es sollte weniger als 1 sein.
 
 # --hints--
 
-Alle Tests sollten bestanden werden.
+Alle Tests sollten erfolgreich sein.
 
 ```js
 (getUserInput) =>

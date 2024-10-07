@@ -8,7 +8,7 @@ dashedName: connect-redux-to-react
 
 # --description--
 
-Ви написали обидві функції `mapStateToProps()` та `mapDispatchToProps()`, а отже можете використати їх, щоб мапувати `state` та `dispatch` до `props` одного з компонентів React. Метод `connect` від React Redux може виконати це завдання. Цей метод приймає два додаткові параметри: `mapStateToProps()` та `mapDispatchToProps()`. Вони не є обов’язковими, оскільки у вас може бути компонент, який потребує доступ лише до `state`, але не потребує відправлення жодних дій, або навпаки.
+Now that you've written both the `mapStateToProps()` and the `mapDispatchToProps()` functions, you can use them to map `state` and `dispatch` to the `props` of one of your React components. The `connect` method from React Redux can handle this task. This method takes two optional arguments, `mapStateToProps()` and `mapDispatchToProps()`. They are optional because you may have a component that only needs access to `state` but doesn't need to dispatch any actions, or vice versa.
 
 Щоб використати цей метод, передайте функції як аргументи і одразу викличте результат з компонентом. Цей синтаксис трохи незвичний і виглядає ось так:
 

@@ -1,6 +1,6 @@
 ---
 id: 587d8250367417b2b2512c60
-title: Create a Queue Class
+title: Erstelle eine Warteschlangenklasse
 challengeType: 1
 forumTopicId: 301631
 dashedName: create-a-queue-class
@@ -10,13 +10,13 @@ dashedName: create-a-queue-class
 
 Like stacks, queues are a collection of elements. But unlike stacks, queues follow the FIFO (First-In First-Out) principle. Elements added to a queue are pushed to the tail, or the end, of the queue, and only the element at the front of the queue is allowed to be removed.
 
-We could use an array to represent a queue, but just like stacks, we want to limit the amount of control we have over our queues.
+Wir könnten ein Array verwenden, um eine Warteschlange darzustellen, aber genau wie bei Stapeln wollen wir die Kontrolle über unsere Warteschlangen begrenzen.
 
-The two main methods of a queue class is the enqueue and the dequeue method. The enqueue method pushes an element to the tail of the queue, and the dequeue method removes and returns the element at the front of the queue. Other useful methods are the front, size, and isEmpty methods.
+Die beiden wichtigsten Methoden einer Warteschlangenklasse sind die enqueue- und die dequeue-Methode. Die enqueue-Methode schiebt ein Element an das Ende der Warteschlange, und die dequeue-Methode entfernt das Element am Anfang der Warteschlange und gibt es zurück. Weitere nützliche Methoden sind die Methoden front, size und isEmpty.
 
 # --instructions--
 
-Write an `enqueue` method that pushes an element to the tail of the queue, a `dequeue` method that removes and returns the front element, a `front` method that lets us see the front element, a `size` method that shows the length, and an `isEmpty` method to check if the queue is empty.
+Schreibe eine `enqueue`-Methode, die ein Element an das Ende der Warteschlange schiebt, eine `dequeue`-Methode, die das vordere Element entfernt und zurückgibt, eine `front`-Methode, die das vordere Element anzeigt, eine `size`-Methode, die die Länge anzeigt, und eine `isEmpty`-Methode, die überprüft, ob die Warteschlange leer ist.
 
 # --hints--
 
@@ -53,7 +53,7 @@ assert(
 );
 ```
 
-Your `Queue` class should have a `size` method.
+Deine `Queue`-Klasse sollte eine `size`-Methode haben.
 
 ```js
 assert(
@@ -64,7 +64,7 @@ assert(
 );
 ```
 
-Your `Queue` class should have an `isEmpty` method.
+Deine `Queue`-Klasse sollte eine `isEmpty`-Methode haben.
 
 ```js
 assert(
@@ -75,7 +75,7 @@ assert(
 );
 ```
 
-The `dequeue` method should remove and return the front element of the queue
+Die Methode `dequeue` sollte das vorderste Element der Warteschlange entfernen und zurückgeben
 
 ```js
 assert(
@@ -88,7 +88,7 @@ assert(
 );
 ```
 
-The `front` method should return value of the front element of the queue
+Die Methode `front` sollte den Wert des vordersten Elements der Warteschlange zurückgeben
 
 ```js
 assert(
@@ -101,7 +101,7 @@ assert(
 );
 ```
 
-The `size` method should return the length of the queue
+Die Methode `size` sollte die Länge der Warteschlange zurückgeben
 
 ```js
 assert(
@@ -113,7 +113,7 @@ assert(
 );
 ```
 
-The `isEmpty` method should return `false` if there are elements in the queue
+Die Methode `isEmpty` sollte `false` zurückgeben, wenn sich Elemente in der Warteschlange befinden
 
 ```js
 assert(

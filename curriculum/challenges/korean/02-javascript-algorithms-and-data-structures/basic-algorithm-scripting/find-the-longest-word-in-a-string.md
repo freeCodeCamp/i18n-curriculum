@@ -8,7 +8,7 @@ dashedName: find-the-longest-word-in-a-string
 
 # --description--
 
-주어진 문장에서 가장 긴 단어의 길이를 반환하세요.
+Return the length of the longest word in the provided sentence.
 
 숫자를 반환해야 합니다.
 

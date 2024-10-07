@@ -9,7 +9,7 @@ dashedName: set-the-font-size-of-paragraph-text
 
 # --description--
 
-CSS에서 `font-size` 속성은 제목 태그로만 제한되지 않으며 텍스트를 포함하는 모든 요소에 적용할 수 있습니다.
+The `font-size` property in CSS is not limited to headings, it can be applied to any element containing text.
 
 # --instructions--
 

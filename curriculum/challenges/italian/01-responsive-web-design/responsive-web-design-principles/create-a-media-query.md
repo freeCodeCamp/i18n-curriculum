@@ -9,7 +9,7 @@ dashedName: create-a-media-query
 
 # --description--
 
-Le Media Queries sono una nuova tecnica introdotta in CSS3 che cambia la presentazione dei contenuti in base alle diverse dimensioni della viewport (lo schermo). La viewport è l'area di una pagina web visibile all'utente, ed è diversa a seconda del dispositivo utilizzato per accedere al sito.
+Media Queries are a new technique introduced in CSS3 that change the presentation of content based on different viewport sizes. The viewport is a user's visible area of a web page, and is different depending on the device used to access the site.
 
 Le Media Queries consistono in un tipo di media, e se questo tipo di supporto corrisponde al tipo di dispositivo su cui viene visualizzato il documento, vengono applicati gli stili corrispondenti. All'interno delle tue media query puoi avere tutti i selettori e gli stili che desideri.
 

@@ -16,7 +16,7 @@ dashedName: introduction-why-program
 
 # --description--
 
-More resources:
+Weitere Quellen:
 
 \- <a href="https://youtu.be/F7mtLrYzZP8" target="_blank" rel="noopener noreferrer nofollow">Installiere Python auf Windows</a>
 
@@ -32,7 +32,7 @@ Wer sollte programmieren lernen?
 
 College Studenten.
 
-### --Feedback--
+### --feedback--
 
 College-Studenten sollten programmieren lernen, aber es gibt eine bessere Antwort.
 
@@ -40,7 +40,7 @@ College-Studenten sollten programmieren lernen, aber es gibt eine bessere Antwor
 
 Menschen, die Softwareentwickler werden wollen.
 
-### --Feedback--
+### --feedback--
 
 Menschen, die Softwareentwickler werden wollen, sollen programmieren lernen, aber es gibt eine bessere Antwort.
 

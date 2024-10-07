@@ -8,7 +8,7 @@ dashedName: logging-a-user-out
 
 # --description--
 
-创建退出登录的逻辑是比较简单的。 路由应该取消用户的认证，并重定向到主页，而不是渲染任何视图。
+Creating the logout logic is easy. The route should just unauthenticate the user, and redirect to the home page instead of rendering any view.
 
 在 passport 里，只需要在重定向前调用 `req.logout()` 即可完成用户的退出登录。 添加 `/logout` 路由来实现：
 

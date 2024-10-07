@@ -8,7 +8,7 @@ dashedName: create-a-block-element-bootstrap-button
 
 # --description--
 
-Normalmente, i tuoi elementi `button` con le classi `btn` e `btn-default` sono larghi solo quanto il testo che contengono. Per esempio:
+Normally, your `button` elements with the `btn` and `btn-default` classes are only as wide as the text that they contain. Per esempio:
 
 ```html
 <button class="btn btn-default">Submit</button>

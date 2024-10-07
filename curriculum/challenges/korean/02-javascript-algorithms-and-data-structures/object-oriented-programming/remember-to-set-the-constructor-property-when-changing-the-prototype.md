@@ -8,7 +8,7 @@ dashedName: remember-to-set-the-constructor-property-when-changing-the-prototype
 
 # --description--
 
-새 객체에 프로토타입을 수동으로 설정하는 데는 한가지 중대한 부작용이 있습니다. 그것은 바로 `constructor` 속성을 지운다는 것입니다! 이 속성은 어떤 생성자 함수가 인스턴스를 생성했는지 확인하기 위해 사용될 수 있지만 이제는 이 속성이 덮어 씌어졌으므로 잘못된 결과를 주게 됩니다.
+There is one crucial side effect of manually setting the prototype to a new object. It erases the `constructor` property! This property can be used to check which constructor function created the instance, but since the property has been overwritten, it now gives false results:
 
 ```js
 duck.constructor === Bird;

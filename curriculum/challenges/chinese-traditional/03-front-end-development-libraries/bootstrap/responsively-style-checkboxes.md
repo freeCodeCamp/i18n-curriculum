@@ -13,7 +13,7 @@ dashedName: responsively-style-checkboxes
 
 # --description--
 
-Bootstrap 的 `col-xs-*` 可應用於所有的 `form` 元素上，包括複選框！ 這樣就可以不必關注屏幕大小，均勻地把複選框放在頁面上了。
+Since Bootstrap's `col-xs-*` classes are applicable to all `form` elements, you can use them on your checkboxes too! This way, the checkboxes will be evenly spread out across the page, regardless of how wide the screen resolution is.
 
 # --instructions--
 

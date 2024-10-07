@@ -1,6 +1,6 @@
 ---
 id: 587d8256367417b2b2512c79
-title: Incidence Matrix
+title: Inzidenz-Matrix
 challengeType: 1
 forumTopicId: 301644
 dashedName: incidence-matrix
@@ -10,19 +10,19 @@ dashedName: incidence-matrix
 
 Yet another way to represent a graph is to put it in an <dfn>incidence matrix.</dfn>
 
-An <dfn>incidence matrix</dfn> is a two-dimensional (2D) array. Generally speaking, an incidence matrix relates two different classes of objects between its two dimensions. This kind of matrix is similar to an adjacency matrix. However, the rows and columns mean something else here.
+Eine <dfn>incidence matrix</dfn> ist ein zweidimensionales (2D) Feld. Im Allgemeinen setzt eine Inzidenzmatrix zwei verschiedene Klassen von Objekten zwischen ihren beiden Dimensionen in Beziehung. Diese Art von Matrix ist mit einer Adjazenzmatrix vergleichbar. Die Zeilen und Spalten bedeuten hier jedoch etwas anderes.
 
-In graphs, we have edges and nodes. These will be our "two different classes of objects". This matrix will have the rows be the nodes and columns be the edges. This means that we can have an uneven number of rows and columns.
+In Graphen haben wir Kanten und Knoten. Dies werden unsere "zwei verschiedenen Klassen von Objekten" sein. In dieser Matrix sind die Zeilen die Knoten und die Spalten die Kanten. Das bedeutet, dass wir eine ungerade Anzahl von Zeilen und Spalten haben können.
 
-Each column will represent a unique edge. Also, each edge connects two nodes. To show that there is an edge between two nodes, you will put a 1 in the two rows of a particular column. Below is a 3 node graph with one edge between node 1 and node 3.
+Jede Spalte steht für eine einzelne Kante. Außerdem verbindet jede Kante zwei Knotenpunkte miteinander. Um zu zeigen, dass es eine Kante zwischen zwei Knoten gibt, schreibst du eine 1 in die beiden Zeilen einer bestimmten Spalte. Nachfolgend ein Graph mit 3 Knoten und einer Kante zwischen Knoten 1 und Knoten 3.
 
 <blockquote>    1<br>   ---<br>1 | 1<br>2 | 0<br>3 | 1</blockquote>
 
-Here is an example of an incidence matrix with 4 edges and 4 nodes. Remember, the columns are the edges and rows are the nodes themselves.
+Hier ist ein Beispiel für eine Inzidenzmatrix mit 4 Kanten und 4 Knoten. Denk daran, dass die Spalten die Kanten und die Zeilen die Knoten selbst sind.
 
 <blockquote>    1 2 3 4<br>   --------<br>1 | 0 1 1 1<br>2 | 1 1 0 0<br>3 | 1 0 0 1<br>4 | 0 0 1 0</blockquote>
 
-Below is a JavaScript implementation of the same thing.
+Nachfolgend findest du eine JavaScript-Implementierung desselben Vorgangs.
 
 ```js
 var incMat = [
@@ -33,7 +33,7 @@ var incMat = [
 ];
 ```
 
-To make a directed graph, use `-1` for an edge leaving a particular node and `1` for an edge entering a node.
+Um einen gerichteten Graphen zu erstellen, verwende `-1` für eine Kante, die einen bestimmten Knoten verlässt, und `1` für eine Kante, die in einen Knoten eintritt.
 
 ```js
 var incMatDirected = [
@@ -44,17 +44,17 @@ var incMatDirected = [
 ];
 ```
 
-Graphs can also have <dfn>weights</dfn> on their edges. So far, we have <dfn>unweighted</dfn> edges where just the presence and lack of edge is binary (`0` or `1`). You can have different weights depending on your application. A different weight is represented as numbers greater than 1.
+Graphen können auch <dfn>weights</dfn> an ihren Kanten haben. Bislang haben wir <dfn>unweighted</dfn> Kanten, bei denen nur das Vorhandensein oder Fehlen einer Kante binär ist(`0` or `1`). Du kannst je nach Anwendung unterschiedliche Gewichte haben. Ein anderes Gewicht wird durch Zahlen größer als 1 dargestellt.
 
 # --instructions--
 
-Create an incidence matrix of an undirected graph with five nodes and four edges. This matrix should be in a multi-dimensional array.
+Erstelle eine Inzidenzmatrix für einen ungerichteten Graphen mit fünf Knoten und vier Kanten. Diese Matrix sollte in einem mehrdimensionalen Array vorliegen.
 
-These five nodes have the following relationships. The first edge is between the first and second node. The second edge is between the second and third node. The third edge is between the third and fifth node. The fourth edge is between the fourth and second node. All edge weights are one and the edge order matters.
+Diese fünf Knotenpunkte stehen in folgender Beziehung zueinander. Die erste Kante liegt zwischen dem ersten und dem zweiten Knoten. Die zweite Kante liegt zwischen dem zweiten und dem dritten Knoten. Die dritte Kante liegt zwischen dem dritten und dem fünften Knoten. Die vierte Kante liegt zwischen dem vierten und dem zweiten Knoten. Alle Kantengewichte sind eins, und die Reihenfolge der Kanten ist wichtig.
 
 # --hints--
 
-`incMatUndirected` should only contain five nodes.
+`incMatUndirected` sollte nur fünf Knoten enthalten.
 
 ```js
 assert(
@@ -69,25 +69,25 @@ assert(
 );
 ```
 
-There should be a first edge between the first and second node.
+Es sollte eine erste Kante zwischen dem ersten und dem zweiten Knoten geben.
 
 ```js
 assert(incMatUndirected[0][0] === 1 && incMatUndirected[1][0] === 1);
 ```
 
-There should be a second edge between the second and third node.
+Es sollte eine zweite Kante zwischen dem zweiten und dem dritten Knoten geben.
 
 ```js
 assert(incMatUndirected[1][1] === 1 && incMatUndirected[2][1] === 1);
 ```
 
-There should be a third edge between the third and fifth node.
+Es sollte eine dritte Kante zwischen dem dritten und dem fünften Knoten vorhanden sein.
 
 ```js
 assert(incMatUndirected[2][2] === 1 && incMatUndirected[4][2] === 1);
 ```
 
-There should be a fourth edge between the second and fourth node.
+Es sollte eine vierte Kante zwischen dem zweiten und dem vierten Knoten vorhanden sein.
 
 ```js
 assert(incMatUndirected[1][3] === 1 && incMatUndirected[3][3] === 1);

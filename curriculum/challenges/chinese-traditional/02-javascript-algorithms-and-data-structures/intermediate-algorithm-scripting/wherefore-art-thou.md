@@ -8,7 +8,7 @@ dashedName: wherefore-art-thou
 
 # --description--
 
-創建一個查看對象數組（第一個參數）的函數，並返回具有匹配的名稱和值對的所有對象的數組（第二個參數）。 如果要包含在返回的數組中，則源對象的每個名稱和值對都必須存在於集合中的對象中。
+Make a function that looks through an array of objects (first argument) and returns an array of all objects that have matching name and value pairs (second argument). Each name and value pair of the source object has to be present in the object from the collection if it is to be included in the returned array.
 
 比如，如果第一個參數是 `[{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }]`，第二個參數是 `{ last: "Capulet" }`。
 

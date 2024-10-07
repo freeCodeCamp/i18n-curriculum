@@ -14,7 +14,7 @@ dashedName: initialize-array-problem
 
 ## --text--
 
-За допомогою якого коду можна отримати цей масив?
+What is another way to produce the following array?
 
 ```py
 [[0. 0. 0. 0. 0. 0. 0.]

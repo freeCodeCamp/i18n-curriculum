@@ -9,11 +9,11 @@ dashedName: use-bracket-notation-to-find-the-nth-character-in-a-string
 
 # --description--
 
-Ви також можете використати <dfn>дужкову нотацію</dfn>, щоб отримати символ на інших позиціях рядка.
+You can also use <dfn>bracket notation</dfn> to get the character at other positions within a string.
 
 Пам’ятайте, що комп’ютер починає рахувати з `0`, тому насправді першим символом є нульовий.
 
-Приклад:
+Наприклад:
 
 ```js
 const firstName = "Ada";
@@ -26,7 +26,7 @@ const secondLetterOfFirstName = firstName[1];
 
 Спробуйте встановити `thirdLetterOfLastName`, щоб вона дорівнювала третій літері змінної `lastName`, використовуючи дужкову нотацію.
 
-**Підказка:** якщо застрягли, перегляньте вищеподаний приклад.
+**Підказка:**Спробуйте подивитися на приклад вище, якщо застрягли.
 
 # --hints--
 

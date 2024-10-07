@@ -9,7 +9,7 @@ dashedName: decrement-a-number-with-javascript
 
 # --description--
 
-使用自減符號 `--`，你可以很方便地對一個變量執行<dfn>自減</dfn>或者 -1 運算。
+You can easily <dfn>decrement</dfn> or decrease a variable by one with the `--` operator.
 
 ```js
 i--;

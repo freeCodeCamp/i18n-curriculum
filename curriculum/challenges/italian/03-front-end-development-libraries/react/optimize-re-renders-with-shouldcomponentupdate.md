@@ -8,7 +8,7 @@ dashedName: optimize-re-renders-with-shouldcomponentupdate
 
 # --description--
 
-Finora, se un componente riceve un nuovo `state` o nuove `props`, avvia un re-rendering di sé stesso e di tutti i suoi figli. Questo normalmente va bene. Ma React fornisce un metodo per il ciclo di vita che puoi chiamare quando i componenti figli ricevono un nuovo `state` o `props`, e dichiarare specificamente se i componenti devono essere aggiornati o meno. Il metodo è `shouldComponentUpdate()`, e richiede `nextProps` e `nextState` come parametri.
+So far, if any component receives new `state` or new `props`, it re-renders itself and all its children. This is usually okay. But React provides a lifecycle method you can call when child components receive new `state` or `props`, and declare specifically if the components should update or not. The method is `shouldComponentUpdate()`, and it takes `nextProps` and `nextState` as parameters.
 
 Questo metodo è un modo utile per ottimizzare le prestazioni. Ad esempio, il comportamento predefinito è che il tuo componente rifà il render quando riceve nuove `props`, anche se le `props` non sono cambiate. È possibile utilizzare `shouldComponentUpdate()` per evitarlo confrontando le `props`. Il metodo deve restituire un valore `boolean` che dice a React se aggiornare o meno il componente. Puoi confrontare gli elementi attuali (`this.props`) con le nuove props (`nextProps`) per determinare se è necessario aggiornare o meno, e restituire `true` o `false` di conseguenza.
 

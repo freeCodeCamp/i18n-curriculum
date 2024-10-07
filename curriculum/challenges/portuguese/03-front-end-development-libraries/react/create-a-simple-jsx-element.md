@@ -8,7 +8,7 @@ dashedName: create-a-simple-jsx-element
 
 # --description--
 
-O React é uma biblioteca de visualização de código aberto criada e mantida pelo Facebook. É uma ótima ferramenta para renderizar a interface do usuário (IU) de aplicações web modernas.
+React is an Open Source view library created and maintained by Facebook. It's a great tool to render the User Interface (UI) of modern web applications.
 
 React usa a sintaxe de extensão do JavaScript chamada JSX que o permite escrever HTML diretamente no JavaScript. Isso possui diversos benefícios. Ela permite a você usar todo o poder programático do JavaScript dentro do HTML, e ajuda a manter o seu código legível. Em grande parte, JSX é semelhante ao HTML que você já aprendeu, no entanto existem algumas diferenças chaves que cobriremos durante esses desafios.
 

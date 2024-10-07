@@ -102,7 +102,7 @@ Sudoku (japanisch für *Zahlenort*) ist die Bezeichnung für ein beliebtes Räts
 
 Ein gut konstruiertes Sudoku Rätsel hat eine eindeutige Lösung und kann mit Logik gelöst werden, auch wenn es notwendig sein kann, die „Raten und Testen"-Methoden anzuwenden, um Optionen auszuschließen (darüber gibt es viele kontroverse Meinungen). Die Komplexität der Suche bestimmt die Schwierigkeit des Puzzles; das obige Beispiel wird als einfach angesehen, da es durch direkte Schlussfolgerung gelöst werden kann.
 
-The `puzzlesArr` array contains different Su Doku puzzle strings ranging in difficulty, but all with unique solutions.
+Das `puzzlesArr`-Array enthält verschiedene Sudoku-Puzzle-Strings mit unterschiedlichen Schwierigkeitsgraden, aber alle mit einzigartigen Lösungen.
 
 Indem du alle Aufgaben in `puzzlesArr` löst, finde die Summe der dreistelligen Zahlen, die du in der linken oberen Ecke jedes Lösungsrasters finden kannst; zum Beispiel 483 ist die 3-stellige Nummer in der oberen linken Ecke des oben zu sehenden Lösungsrasters.
 

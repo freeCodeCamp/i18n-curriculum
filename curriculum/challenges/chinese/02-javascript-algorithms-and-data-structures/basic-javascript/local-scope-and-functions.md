@@ -9,7 +9,7 @@ dashedName: local-scope-and-functions
 
 # --description--
 
-在一个函数内声明的变量，以及该函数的参数都具有局部（<dfn>local</dfn>）作用域。 这意味着它们只在该函数内可见。
+Variables which are declared within a function, as well as the function parameters, have <dfn>local</dfn> scope. That means they are only visible within that function.
 
 这是在函数 `myTest` 内声明局部变量 `loc` 的例子：
 

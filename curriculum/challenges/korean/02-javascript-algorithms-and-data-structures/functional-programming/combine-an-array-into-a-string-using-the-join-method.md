@@ -1,6 +1,6 @@
 ---
 id: 587d7daa367417b2b2512b6c
-title: Combine an Array into a String Using the join Method
+title: join 메소드를 사용하여 배열을 문자열로 합치기
 challengeType: 1
 forumTopicId: 18221
 dashedName: combine-an-array-into-a-string-using-the-join-method
@@ -10,45 +10,45 @@ dashedName: combine-an-array-into-a-string-using-the-join-method
 
 The `join` method is used to join the elements of an array together to create a string. It takes an argument for the delimiter that is used to separate the array elements in the string.
 
-Here's an example:
+여기 예시가 있습니다:
 
 ```js
 const arr = ["Hello", "World"];
 const str = arr.join(" ");
 ```
 
-`str` would have a value of the string `Hello World`.
+`str`는 `Hello World` 이라는 문자열이 됩니다.
 # --instructions--
 
-Use the `join` method (among others) inside the `sentensify` function to make a sentence from the words in the string `str`. The function should return a string. For example, `I-like-Star-Wars` would be converted to `I like Star Wars`. For this challenge, do not use the `replace` method.
+`str` 문자열에 있는 단어들로 문장을 만들기 위해 `sentensify` 함수 안에 있는 `join` 메소드를 사용하시오. 이 함수는 문자열을 반환해야 합니다. 예를 들면 `I-like-Star-Wars`는 `I like Star Wars`로 변환됩니다. 이 과제에서는 `replace` 메소드를 사용하지 않습니다.
 
 # --hints--
 
-Your code should use the `join` method.
+코드에 `join` 메소드를 사용해야 합니다.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/\.join/g));
 ```
 
-Your code should not use the `replace` method.
+코드에 `replace` 메소드를 사용하지 않아야 합니다.
 
 ```js
 assert(!__helpers.removeJSComments(code).match(/\.?[\s\S]*?replace/g));
 ```
 
-`sentensify("May-the-force-be-with-you")` should return a string.
+`sentensify("May-the-force-be-with-you")`는 문자열을 반환해야 합니다.
 
 ```js
 assert(typeof sentensify('May-the-force-be-with-you') === 'string');
 ```
 
-`sentensify("May-the-force-be-with-you")` should return the string `May the force be with you`.
+`sentensify("May-the-force-be-with-you")`는 `May the force be with you` 문자열을 반환해야 합니다.
 
 ```js
 assert(sentensify('May-the-force-be-with-you') === 'May the force be with you');
 ```
 
-`sentensify("The.force.is.strong.with.this.one")` should return the string `The force is strong with this one`.
+`sentensify("The.force.is.strong.with.this.one")`는 `The force is strong with this one`을 반환해야 합니다.
 
 ```js
 assert(
@@ -57,7 +57,7 @@ assert(
 );
 ```
 
-`sentensify("There,has,been,an,awakening")` should return the string `There has been an awakening`.
+`sentensify("There,has,been,an,awakening")`는 `There has been an awakening`을 반환해야 합니다.
 
 ```js
 assert(

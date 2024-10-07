@@ -9,9 +9,9 @@ dashedName: override-class-declarations-by-styling-id-attributes
 
 # --description--
 
-Wir haben gerade bewiesen, dass Browser CSS von oben nach unten in der Reihenfolge ihrer Deklaration lesen. Das bedeutet, dass im Falle eines Konflikts der Browser die letzte CSS-Deklaration verwenden wird. Beachte, dass selbst wenn wir in den Klassen unseres `h1`-Elements `blue-text` vor `pink-text` gesetzt hätten, würde es immer noch auf die Reihenfolge der Deklaration achten und nicht auf die Reihenfolge ihrer Verwendung!
+We just proved that browsers read CSS from top to bottom in order of their declaration. That means that, in the event of a conflict, the browser will use whichever CSS declaration came last. Notice that if we even had put `blue-text` before `pink-text` in our `h1` element's classes, it would still look at the declaration order and not the order of their use!
 
-Aber wir sind noch nicht fertig. Es gibt andere Möglichkeiten, um CSS zu überschreiben. Erinnerst du dich an die ID-Attribute?
+Aber wir sind noch nicht fertig. Es gibt noch weitere Möglichkeiten, um CSS zu überschreiben. Erinnerst du dich an die ID-Attribute?
 
 Lass uns deine Klassen `pink-text` und `blue-text` überschreiben und dein `h1`-Element orange färben, indem wir dem `h1`-Element eine ID geben und dann diese ID stylen.
 

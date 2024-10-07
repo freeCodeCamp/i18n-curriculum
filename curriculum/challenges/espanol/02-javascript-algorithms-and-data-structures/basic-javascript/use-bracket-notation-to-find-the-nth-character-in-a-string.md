@@ -9,7 +9,7 @@ dashedName: use-bracket-notation-to-find-the-nth-character-in-a-string
 
 # --description--
 
-También puedes usar <dfn>notación de corchetes</dfn> para obtener el carácter en otras posiciones dentro de una cadena.
+You can also use <dfn>bracket notation</dfn> to get the character at other positions within a string.
 
 Recuerda que las computadoras empiezan a contar desde `0`, así que el primer carácter es en realidad el carácter cero.
 

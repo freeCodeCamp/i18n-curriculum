@@ -8,7 +8,7 @@ dashedName: use-export-to-share-a-code-block
 
 # --description--
 
-Уявіть файл під назвою `math_functions.js`, який містить декілька функцій, пов’язаних із математичними діями. Одна з них зберігається у змінній `add`, яка приймає два числа і повертає їхню суму. Скажімо, ви хочете використати цю функцію у декількох різних файлах JavaScript. Для того, щоб поділитися нею з іншими файлами, спочатку потрібно експортувати (`export`) її.
+Imagine a file called `math_functions.js` that contains several functions related to mathematical operations. One of them is stored in a variable, `add`, that takes in two numbers and returns their sum. You want to use this function in several different JavaScript files. In order to share it with these other files, you first need to `export` it.
 
 ```js
 export const add = (x, y) => {

@@ -9,7 +9,7 @@ dashedName: use-the-parseint-function-with-a-radix
 
 # --description--
 
-`parseInt()` 関数は文字列を解析し、整数を返します。 この関数は 2 番目の引数として、文字列の基数 radix を受け取ります。 基数には 2 から 36 までの整数を設定できます。
+The `parseInt()` function parses a string and returns an integer. It takes a second argument for the radix, which specifies the base of the number in the string. The radix can be an integer between 2 and 36.
 
 関数呼び出しは次のようになります。
 

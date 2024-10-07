@@ -8,7 +8,7 @@ dashedName: add-labels-to-scatter-plot-circles
 
 # --description--
 
-Du kannst durch das Hinzufügen von Text, Beschriftungen für die Punkte eines Streudiagramms erstellen.
+You can add text to create labels for the points in a scatter plot.
 
 Ziel ist es, die kommaseparierten Werte des ersten (`x`)- und zweiten (`y`)-Felds eines jeden Elements im `dataset` darzustellen.
 

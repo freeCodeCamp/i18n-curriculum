@@ -7,13 +7,13 @@ dashedName: introduction-flexbox-lesson-j
 
 # --description--
 
-Let's look at an example.
+Schauen wir uns ein Beispiel an.
 
 <iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="400" width="100%" name="cp_embed_1" scrolling="no" src="https://codepen.io/TheOdinProjectExamples/embed/MWoyBzR?height=400&amp;default-tab=html%2Cresult&amp;slug-hash=MWoyBzR&amp;editable=true&amp;user=TheOdinProjectExamples&amp;name=cp_embed_1" style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy" id="cp_embed_MWoyBzR"></iframe>
 
 You should be able to predict what happens if you put `flex: 1` on the `.item` by now. Give it a shot before you move on!
 
-Adding `flex: 1` to `.item` makes each of the items grow to fill the available space, but what if you wanted them to stay the same width, but distribute themselves differently inside the container? You can do this!
+Adding `flex: 1` to `.item` makes each of the items grow to fill the available space, but what if you wanted them to stay the same width, but distribute themselves differently inside the container? Du kannst das machen!
 
 Remove `flex: 1` from `.item` and add `justify-content: space-between` to `.container`. Doing so should give you something like this:
 
@@ -21,7 +21,7 @@ Remove `flex: 1` from `.item` and add `justify-content: space-between` to `.cont
 
 `justify-content` aligns items across the **main axis**. There are a few values that you can use here. You'll learn the rest of them in the reading assignments, but for now try changing it to center, which should center the boxes along the main axis.
 
-# --assignment--
+# --Auftrag--
 
 Before moving on to the next lesson, see what is possible with the `justify-content` property. Read this [interactive article on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content) and play around with the different values of `justify-content` on the example.
 

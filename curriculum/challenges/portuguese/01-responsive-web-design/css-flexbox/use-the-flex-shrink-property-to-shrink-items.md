@@ -9,7 +9,7 @@ dashedName: use-the-flex-shrink-property-to-shrink-items
 
 # --description--
 
-Até aqui, todas as propriedades nos desafios se aplicam ao flex container (o pai dos flex items). Porém, há várias propriedades úteis para os flex items.
+So far, all the properties in the challenges apply to the flex container (the parent of the flex items). However, there are several useful properties for the flex items.
 
 A primeira é a propriedade `flex-shrink`. Quando é usada, permite que um item encolha se o flex container for muito pequeno. Os itens encolhem quando a largura do contêiner pai é menor do que a soma das larguras de todos os flex items dentro dele.
 

@@ -9,7 +9,7 @@ dashedName: modify-fill-mode-of-an-animation
 
 # --description--
 
-좋아 보이는군요, 하지만 아직 올바르게 작동하지는 않습니다. `500ms`가 지난 후에 애니메이션이 재설정되어 버튼이 원래 색상으로 되돌아 가는 것을 주목하세요. 버튼이 하이라이트 된 상태로 유지되도록 만들어야 합니다.
+That's great, but it doesn't work right yet. Notice how the animation resets after `500ms` has passed, causing the button to revert back to the original color. You want the button to stay highlighted.
 
 그렇게 하기 위해서는 `animation-fill-mode` 속성을 `forwards`로 설정할 수 있습니다. `animation-fill-mode` 속성은 애니메이션이 완료된 후에 요소에 적용되는 스타일을 지정합니다. 다음과 같이 설정해보세요.
 

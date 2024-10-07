@@ -10,19 +10,19 @@ dashedName: build-a-wikipedia-viewer
 
 **Objective:** Build an app that is functionally similar to this: <a href="https://codepen.io/freeCodeCamp/full/wGqEga/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/wGqEga/</a>.
 
-The MediaWiki software powers Wikipedia, and it helps you collect and organize knowledge and make it available to people.
+Wikipedia nutzt die MediaWiki-Software, die dir dabei hilft, Wissen zu sammeln, zu organisieren und den Menschen zugänglich zu machen.
 
-Using the MediaWiki API, replicate the search function and random article function, similar to the example app above. Du kannst Wikipedia als deine Datenquelle verwenden.
+Kreiere mithilfe der MediaWiki-API eine Suchfunktion und eine Funktion, die dich auf einen zufälligen Artikel weiterleitet – ähnlich wie in der obigen Anwendung. Du kannst Wikipedia als deine Datenquelle verwenden.
 
 Erfülle die folgenden User Stories und bestehe alle Tests. Verwende Bibliotheken und APIs deiner Wahl. Gib dem Ganzen deinen persönlichen Stil.
 
-**User Story:** I can search Wikipedia entries in a search box and see the resulting Wikipedia entries.
+**User Story:** Ich kann nach Wikipedia-Einträgen in einem Suchfeld suchen und mir die Ergebnisse anzeigen lassen.
 
 **User Story:** Ich kann einen Button klicken, um einen zufälligen Wikipedia-Eintrag zu sehen.
 
-When you are finished, include a link to your project on CodePen and click the "I've completed this challenge" button.
+Wenn du fertig bist, fügst du einen Link zu deinem Projekt auf CodePen ein und klickst auf den Button "Ich habe diese Herausforderung abgeschlossen".
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+Du kannst Feedback zu deinem Projekt erhalten, indem du es auf dem <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp Forum</a> teilst.
 
 # --solutions--
 

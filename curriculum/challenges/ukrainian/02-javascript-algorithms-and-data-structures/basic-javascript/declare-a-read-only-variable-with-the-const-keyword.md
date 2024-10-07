@@ -8,7 +8,7 @@ dashedName: declare-a-read-only-variable-with-the-const-keyword
 
 # --description--
 
-Ключове слово `let` є не єдиним новим способом оголосити змінну. В ES6 можливо також оголосити змінні, використовуючи ключове слово `const`.
+The keyword `let` is not the only new way to declare variables. In ES6, you can also declare variables using the `const` keyword.
 
 `const` має ті ж круті функції, що й `let`, але з бонусом: тепер змінні, оголошені за допомогою `const`, доступні лише для читання. Вони мають константне значення, тобто після присвоєння змінної з `const`, її неможливо присвоїти знову:
 

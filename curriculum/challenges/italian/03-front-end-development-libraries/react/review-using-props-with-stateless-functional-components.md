@@ -8,7 +8,7 @@ dashedName: review-using-props-with-stateless-functional-components
 
 # --description--
 
-Fatta eccezione per l'ultima sfida, hai sempre passato le props a componenti funzionali senza stato. Questi componenti agiscono come funzioni pure. Accettano le props come input e restituiscono la stessa vista ogni volta che vengono passate le stesse proprietà. Potresti chiederti cosa sia lo stato e la prossima sfida lo spiegherà con maggiore dettaglio. Prima però, ecco un ripasso della terminologia per i componenti.
+Except for the last challenge, you've been passing props to stateless functional components. These components act like pure functions. They accept props as input and return the same view every time they are passed the same props. You may be wondering what state is, and the next challenge will cover it in more detail. Before that, here's a review of the terminology for components.
 
 Un *componente funzionale senza stato* è una qualsiasi funzione che accetta props e restituisce JSX. Un *componente senza stato*, d'altra parte, è una classe che estende `React.Component`, ma non utilizza lo stato interno (coperto nella prossima sfida). Infine, un *componente stateful* è un componente di classe che mantiene il proprio stato interno. Spesso si fa riferimento ai componenti stateful chiamandoli semplicemente componenti o componenti React.
 

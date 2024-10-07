@@ -8,7 +8,7 @@ dashedName: access-an-arrays-contents-using-bracket-notation
 
 # --description--
 
-当然ですが、どんなデータ構造でも基本的な機能として、データを保存できるだけでなく、コマンドでそれらのデータを取得することもできます。 ここまで配列の作成方法を学びました。今度は配列の情報にアクセスする方法を見ていきましょう。
+The fundamental feature of any data structure is, of course, the ability to not only store data, but to be able to retrieve that data on command. So, now that we've learned how to create an array, let's begin to think about how we can access that array's information.
 
 以下では単純な配列を定義していますが、配列には 3 つのアイテムがあります。
 

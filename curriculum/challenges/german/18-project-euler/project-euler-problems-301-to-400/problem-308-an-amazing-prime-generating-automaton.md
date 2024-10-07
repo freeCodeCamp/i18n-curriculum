@@ -8,7 +8,7 @@ dashedName: problem-308-an-amazing-prime-generating-automaton
 
 # --description--
 
-A program written in the programming language Fractran consists of a list of fractions.
+Ein in der Programmiersprache Fractran geschriebenes Programm besteht aus einer Liste von Brüchen.
 
 Der interne Zustand der virtuellen Maschine von Fractran ist ein positiver Integer, der anfangs auf einen Startwert gesetzt wird. Bei jeder Iteration eines Fractran-Programms wird der Zustand der ganzen Zahl mit dem ersten Bruch in der Liste multipliziert, so dass eine ganze Zahl übrig bleibt.
 
@@ -28,7 +28,7 @@ Wenn jemand das obige Fractran-Programm verwendet, um das Projekt Euler-Problem 
 
 # --hints--
 
-`primeGeneratingAutomation()` should return `1539669807660924`.
+`primeGeneratingAutomation()` sollte `1539669807660924` zurückgeben.
 
 ```js
 assert.strictEqual(primeGeneratingAutomation(), 1539669807660924);

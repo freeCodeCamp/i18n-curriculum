@@ -8,7 +8,7 @@ dashedName: optimize-re-renders-with-shouldcomponentupdate
 
 # --description--
 
-到目前爲止，如果任何組件接收到新的 `state` 或新的 `props`，它會重新渲染自己及其所有子組件。 這通常是好的。 但是 React 提供了一種生命週期方法，當子組件接收到新的 `state` 或 `props` 時，可以調用該方法，並特別聲明組件是否應該更新。 這個方法就是 `shouldComponentUpdate()`，它將 `nextProps` 和 `nextState` 作爲參數。
+So far, if any component receives new `state` or new `props`, it re-renders itself and all its children. This is usually okay. But React provides a lifecycle method you can call when child components receive new `state` or `props`, and declare specifically if the components should update or not. The method is `shouldComponentUpdate()`, and it takes `nextProps` and `nextState` as parameters.
 
 這種方法是優化性能的有效方法。 例如，默認行爲是，當組件接收到新的 `props` 時，即使 `props` 沒有改變，它也會重新渲染。 可以通過使用 `shouldComponentUpdate()` 比較 `props` 來防止這種情況發生。 該方法必須返回一個 `boolean`（布爾值），該值告訴 React 是否更新組件。 可以比較當前的 props（`this.props`）和下一個 props（`nextProps`），以確定你是否需要更新，並相應地返回 `true` 或 `false`。
 

@@ -9,7 +9,7 @@ dashedName: comment-out-html
 
 # --description--
 
-コメントを開始するには `<!--` を使用し、終了するには `-->` を使用することを思い出してください。
+Remember that in order to start a comment, you need to use `<!--` and to end a comment, you need to use `-->`
 
 ここでは、`h2` 要素が始まる前にコメントを終了するようにします。
 

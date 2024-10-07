@@ -8,30 +8,30 @@ dashedName: secure-real-time-multiplayer-game
 
 # --description--
 
-Entwickle ein 2D-Echtzeit-Multiplayer-Spiel mit der HTML-Canvas-API und Socket.io, das eine ähnliche Funktion besitzt wie diese: <a href="https://secure-real-time-multiplayer-game.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://secure-real-time-multiplayer-game.freecodecamp.rocks/</a>. Bei der Arbeit an diesem Projekt musst du deinen Code mit einer der folgenden Methoden schreiben:
+Develop a 2D real time multiplayer game using the HTML Canvas API and Socket.io that is functionally similar to this: <a href="https://secure-real-time-multiplayer-game.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://secure-real-time-multiplayer-game.freecodecamp.rocks/</a>. Working on this project will involve you writing your code using one of the following methods:
 
--   Klone <a href="https://github.com/freeCodeCamp/boilerplate-project-secure-real-time-multiplayer-game/" target="_blank" rel="noopener noreferrer nofollow">dieses GitHub repo</a> und vervollständige dein Projekt lokal.
+-   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-secure-real-time-multiplayer-game/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
 -   Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-secure-real-time-multiplayer-game/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete your project.
--   Verwende einen Site-Builder deiner Wahl, um das Projekt abzuschließen. Achte darauf, alle Dateien von unserem GitHub-Repo zu integrieren.
+-   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
 
 # --instructions--
 
-Erstelle ein sicheres Multiplayer-Spiel, in dem jeder Spieler seinen Avatar bewegen kann, es mindestens einen Sammelgegenstand gibt und der Rang der Spieler auf der Grundlage ihrer Punktzahl berechnet wird.
+Create a secure multiplayer game in which each player can move their avatar, there is at least one collectible item, and the rank of the players is calculated based on their score.
 
-Einzelheiten findest du in den nachstehenden Tests.
+For details consult the tests below.
 
-Stell sicher, dass dein Spiel sicher ist! Berücksichtige diese Sicherheitsmaßnahmen:
+Make sure that your game is secure! Include these security measures:
 
-- Der Client sollte nicht in der Lage sein, den MIME-Typ zu erraten/schnüffeln
+- The client should not be able to guess/sniff the MIME type
 - Verhindere XSS-Angriffe
-- Speichere nichts von der Website im Client
+- Nichts von der Website im Client zwischenspeichern
 - In den Kopfzeilen steht, dass die Website mit `PHP 7.4.3` betrieben wird
 
-**Hinweis**: `helmet@^3.21.3` wird für die User Stories benötigt. Das bedeutet, dass du die frühere Version der Helmet-Dokumente verwenden musst, um zu erfahren, wie du die User Stories erreichen kannst.
+**Note**: `helmet@^3.21.3` is needed for the user stories. This means you will need to use the previous version of Helmet's docs, for information on how to achieve the user stories.
 
 # --hints--
 
-Du kannst dein eigenes Projekt angeben, nicht die Beispiel-URL.
+Du kannst dein eigenes Projekt und nicht die Beispiel-URL angeben.
 
 ```js
 (getUserInput) => {
@@ -43,91 +43,91 @@ Du kannst dein eigenes Projekt angeben, nicht die Beispiel-URL.
 };
 ```
 
-Mehrere Spieler können sich mit einem Server verbinden und spielen.
+Multiple players can connect to a server and play.
 
 ```js
 
 ```
 
-Jeder Spieler hat einen Avatar.
+Each player has an avatar.
 
 ```js
 
 ```
 
-Jeder Spieler wird durch ein Objekt dargestellt, das von der `Player`-Klasse in `Player.mjs` erstellt wurde.
+Each player is represented by an object created by the `Player` class in `Player.mjs`.
 
 ```js
 
 ```
 
-Jedes Spielerobjekt sollte mindestens eine einzigartige `id`, einen `score`, und `x`- und `y`-Koordinaten enthalten, die die aktuelle Position des Spielers darstellen.
+At a minimum, each player object should contain a unique `id`, a `score`, and `x` and `y` coordinates representing the player's current position.
 
 ```js
 
 ```
 
-Das Spiel enthält mindestens eine Art von Sammelgegenstand. Vervollständige die `Collectible`-Klasse in `Collectible.mjs`, um dies zu implementieren.
+The game has at least one type of collectible item. Complete the `Collectible` class in `Collectible.mjs` to implement this.
 
 ```js
 
 ```
 
-Jedes Sammelobjekt, das von der `Collectible`-Klasse erstellt wurde, sollte mindestens eine einzigartige `id`, eine `value` und `x`- und `y`-Koordinate enthalten, die die aktuelle Position des Objekts darstellen.
+At a minimum, each collectible item object created by the `Collectible` class should contain a unique `id`, a `value`, and `x` and `y` coordinates representing the item's current position.
 
 ```js
 
 ```
 
-Die Spieler können die WASD- und/oder Pfeiltasten verwenden, um ihren Avatar zu bewegen. Vervollständige die `movePlayer`-Methode in `Player.mjs`, um dies zu implementieren.
+Players can use the WASD and/or arrow keys to move their avatar. Complete the `movePlayer` method in `Player.mjs` to implement this.
 
 ```js
 
 ```
 
-Die Methode `movePlayer` sollte zwei Argumente akzeptieren: eine Zeichenkette "up", "down", "left" oder "right" und eine Zahl für die Anzahl der Pixel, die die Position des Spielers ändern soll. `movePlayer` sollte die `x`- und `y`-Koordinaten des Spielerobjekts anpassen, von dem es aufgerufen wurde.
+The `movePlayer` method should accept two arguments: a string of "up", "down", "left", or "right", and a number for the amount of pixels the player's position should change. `movePlayer` should adjust the `x` and `y` coordinates of the player object it's called from.
 
 ```js
 
 ```
 
-Die Punktzahl des Spielers sollte verwendet werden, um seinen Rang unter den anderen Spielern zu berechnen. Vervollständige die `calculateRank`-Methode in der `Player`-Klasse, um dies zu implementieren.
+The player's score should be used to calculate their rank among the other players. Complete the `calculateRank` method in the `Player` class to implement this.
 
 ```js
 
 ```
 
-Die `calculateRank`-Methode sollte ein Array von Objekten akzeptieren, die alle verbundenen Spieler repräsentieren, und den String `Rank: currentRanking/totalPlayers` zurückgeben. Zum Beispiel in einem Spiel mit zwei Spielern, wenn Spieler A eine Punktzahl von 3 und Spieler B eine Punktzahl von 5 hat, sollte `calculateRank` für Spieler A `Rank: 2/2` zurückgeben.
+The `calculateRank` method should accept an array of objects representing all connected players and return the string `Rank: currentRanking/totalPlayers`. For example, in a game with two players, if Player A has a score of 3 and Player B has a score of 5, `calculateRank` for Player A should return `Rank: 2/2`.
 
 ```js
 
 ```
 
-Die Spieler können mit einem Sammelgegenstand zusammenstoßen. Vervollständige die `collision`-Methode in `Player.mjs`, um dies zu implementieren.
+Players can collide with a collectible item. Complete the `collision` method in `Player.mjs` to implement this.
 
 ```js
 
 ```
 
-Die `collision`-Methode sollte ein Sammelobjekt als Argument akzeptieren. Wenn sich der Avatar des Spielers mit dem Gegenstand überschneidet, sollte die `collision`-Methode `true` zurückgeben.
+The `collision` method should accept a collectible item's object as an argument. If the player's avatar intersects with the item, the `collision` method should return `true`.
 
 ```js
 
 ```
 
-Alle Spieler werden synchronisiert.
+All players are kept in sync.
 
 ```js
 
 ```
 
-Die Spieler können die Verbindung zum Spiel jederzeit unterbrechen.
+Players can disconnect from the game at any time.
 
 ```js
 
 ```
 
-Verhindere, dass der Client versucht, den MIME-Typ zu erraten/auszuspähen.
+Prevent the client from trying to guess / sniff the MIME type.
 
 ```js
 async (getUserInput) => {
@@ -137,7 +137,7 @@ async (getUserInput) => {
 };
 ```
 
-Verhinderung von Cross-Site-Scripting (XSS)-Angriffen.
+Prevent cross-site scripting (XSS) attacks.
 
 ```js
 async (getUserInput) => {
@@ -147,7 +147,7 @@ async (getUserInput) => {
 };
 ```
 
-Auf dem Client wird nichts von der Website zwischengespeichert.
+Nothing from the website is cached in the client.
 
 ```js
 async (getUserInput) => {
@@ -163,7 +163,7 @@ async (getUserInput) => {
 };
 ```
 
-In den Kopfzeilen steht, dass die Website mit "PHP 7.4.3" betrieben wird, obwohl das nicht der Fall ist (als Sicherheitsmaßnahme).
+The headers say that the site is powered by "PHP 7.4.3" even though it isn't (as a security measure).
 
 ```js
 async (getUserInput) => {

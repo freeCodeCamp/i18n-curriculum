@@ -8,7 +8,7 @@ dashedName: add-document-elements-with-d3
 
 # --description--
 
-O D3 tem vários métodos que permitem adicionar e alterar elementos ao documento.
+D3 has several methods that let you add and change elements in your document.
 
 O método `select()` seleciona um elemento do documento. Ele recebe um argumento para o nome do elemento que você deseja e retorna um nó de HTML para o primeiro elemento do documento que corresponde ao nome. Exemplo:
 

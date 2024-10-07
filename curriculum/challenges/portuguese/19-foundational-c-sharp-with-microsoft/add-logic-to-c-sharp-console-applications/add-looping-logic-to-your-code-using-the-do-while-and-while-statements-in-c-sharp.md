@@ -20,7 +20,7 @@ Complete o módulo <a href="https://learn.microsoft.com/training/modules/csharp-
 
 ## --text--
 
-Um desenvolvedor precisa iterar através de um array de itens para encontrar um que corresponda a um determinado critério. Qual é a melhor instrução de iteração para esta finalidade?
+A developer needs to iterate through an array of items to find one that matches a certain criteria. Which is the best iteration statement for this purpose?
 
 ## --answers--
 

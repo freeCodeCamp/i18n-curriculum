@@ -1,6 +1,6 @@
 ---
 id: 587d778a367417b2b2512aa5
-title: Improve Chart Accessibility with the figure Element
+title: Boresha Ufikivu wa Chati kwa Kipengele cha takwimu
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cGJMqtE'
 forumTopicId: 301015
@@ -11,9 +11,9 @@ dashedName: improve-chart-accessibility-with-the-figure-element
 
 HTML5 introduced the `figure` element and the related `figcaption`. Used together, these items wrap a visual representation (like an image, diagram, or chart) along with its caption. Wrapping these elements together gives a two-fold accessibility boost by semantically grouping related content and providing a text alternative explaining the `figure`.
 
-For data visualizations like charts, the caption can be used to briefly note the trends or conclusions for users with visual impairments. Another challenge covers how to move a table version of the chart's data off-screen (using CSS) for screen reader users.
+Kwa taswira za data kama vile chati, manukuu yanaweza kutumika kubainisha kwa ufupi mitindo au hitimisho kwa watumiaji walio na matatizo ya kuona. Changamoto nyingine inahusu jinsi ya kuhamisha toleo la jedwali la data ya chati nje ya skrini (kwa kutumia CSS) kwa watumiaji wa kisoma skrini.
 
-Here's an example - note that the `figcaption` goes inside the `figure` tags and can be combined with other elements:
+Huu hapa ni mfano - kumbuka kuwa `figcaption` huenda ndani ya lebo ya `figure` na inaweza kuunganishwa na vipengele vingine:
 
 ```html
 <figure>
@@ -27,35 +27,35 @@ Here's an example - note that the `figcaption` goes inside the `figure` tags and
 
 # --instructions--
 
-Camper Cat is hard at work creating a stacked bar chart showing the amount of time per week to spend training in stealth, combat, and weapons. Help him structure his page better by changing the `div` tag he used to a `figure` tag, and the `p` tag that surrounds the caption to a `figcaption` tag.
+Camper Cat ana kazi ngumu kuunda chati ya miraba iliyopangwa kuonyesha kiasi cha muda kwa wiki kutumia mafunzo ya siri, mapigano na silaha. Msaidie kupanga ukurasa wake vyema zaidi kwa kubadilisha lebo ya `div` aliyokuwa akitumia iwe lebo ya `figure`, na lebo ya `p` inayozunguka manukuu ikuwe lebo ya `figcaption`.
 
 # --hints--
 
-Your code should have one `figure` tag.
+Msimbo wako unapaswa kuwa na lebo moja ya `figure`.
 
 ```js
 assert.lengthOf(document.querySelectorAll('figure') , 1);
 ```
 
-Your code should have one `figcaption` tag.
+Msimbo wako unapaswa kuwa na lebo moja ya `figcaption`.
 
 ```js
 assert.lengthOf(document.querySelectorAll('figcaption') , 1);
 ```
 
-Your code should not have any `div` tags.
+Code yako haipaswi kuwa na lebo zozote za `div`.
 
 ```js
 assert.lengthOf(document.querySelectorAll('div'), 0);
 ```
 
-Your code should not have any `p` tags.
+Msimbo wako haupaswi kuwa na lebo zozote za `p`.
 
 ```js
 assert.lengthOf(document.querySelectorAll('p') , 0);
 ```
 
-The `figcaption` should be a child of the `figure` tag.
+`figcaption` inapaswa kuwa imetoka kwa lebo ya `figure`.
 
 ```js
 const figure = document.querySelector('figure');
@@ -63,7 +63,7 @@ const children = figure?.querySelectorAll(`:scope ${'figcaption'}`);
 assert.lengthOf(children, 1);
 ```
 
-Your `figure` element should have a closing tag.
+Kipengele chako cha `figure` kinapaswa kuwa na lebo ya kufunga.
 
 ```js
 assert.isTrue(

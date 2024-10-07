@@ -8,7 +8,7 @@ dashedName: slice-and-splice
 
 # --description--
 
-2 つの配列とインデックスが与えられています。
+You are given two arrays and an index.
 
 最初の配列の各要素を 2 番目の配列に順番にコピーしてください。
 

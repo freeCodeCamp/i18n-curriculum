@@ -1,6 +1,6 @@
 ---
 id: a3f503de51cfab748ff001aa
-title: ペアワイズ
+title: Pairwise
 challengeType: 1
 forumTopicId: 301617
 dashedName: pairwise
@@ -8,7 +8,7 @@ dashedName: pairwise
 
 # --description--
 
-配列 `arr` について、和が 2 つ目の引数 `arg` に等しくなる要素ペアを見つけ、それらのインデックスの和を返します。
+Given an array `arr`, find element pairs whose sum equal the second argument `arg` and return the sum of their indices.
 
 数値要素は同じだがインデックスが異なる、複数のペアを使用できます。 各ペアは、利用可能な最低のインデックスを使用する必要があります。 一度要素を使用すると、それを他の要素とペアリングすることはできません。 例えば、`pairwise([1, 1, 2], 3)`は、インデックス 1 にある 1 ではなく、インデックス 0 にある 1 を使って、ペア `[2, 1]` を作成します。なぜなら、0+2 &lt; 1+2 だからです。
 

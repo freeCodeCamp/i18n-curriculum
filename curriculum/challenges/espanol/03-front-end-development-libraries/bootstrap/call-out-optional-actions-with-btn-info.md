@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348cd8acef08813
-title: Llama a acciones opcionales con btn-info
+title: Llama Acciones Opcionales con btn-info
 challengeType: 0
 forumTopicId: 16770
 dashedName: call-out-optional-actions-with-btn-info
@@ -8,7 +8,7 @@ dashedName: call-out-optional-actions-with-btn-info
 
 # --description--
 
-Bootstrap viene con varios colores predefinidos para los botones. La clase `btn-info` se utiliza para llamar la atención sobre las acciones opcionales que el usuario puede realizar.
+Bootstrap comes with several pre-defined colors for buttons. The `btn-info` class is used to call attention to optional actions that the user can take.
 
 Crea un nuevo botón de Bootstrap a nivel de bloque debajo de tu botón de `Like` con el texto `Info`, y agrégale la clase de Boostrap `btn-info`.
 
@@ -36,7 +36,7 @@ const infoButton = [...document.querySelectorAll('button')].at(1);
 assert.isTrue(infoButton?.classList?.contains('btn-info'));
 ```
 
-Todos los elementos `button` deben tener etiquetas de cierre.
+Todos tus elementos `button` deben tener etiquetas de cierre.
 
 ```js
 assert.match(code,/<\/button>/g);

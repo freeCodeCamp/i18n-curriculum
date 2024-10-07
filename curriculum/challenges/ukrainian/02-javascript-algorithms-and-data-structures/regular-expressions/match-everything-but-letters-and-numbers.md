@@ -8,7 +8,7 @@ dashedName: match-everything-but-letters-and-numbers
 
 # --description--
 
-Ви дізнались про скорочення для збігів алфавітно-цифрових символів `[A-Za-z0-9_]` за допомогою `\w`. Можливо, вам знадобиться знайти протилежний шаблон.
+You've learned that you can use a shortcut to match alphanumerics `[A-Za-z0-9_]` using `\w`. A natural pattern you might want to search for is the opposite of alphanumerics.
 
 Ви можете знайти протилежність до `\w` за допомогою `\W`. Зверніть увагу, що використовується велика літера. Це скорочення позначає те й саме, що `[^A-Za-z0-9_]`.
 

@@ -1,6 +1,6 @@
 ---
 id: 5e9a093a74c4063ca6f7c157
-title: Numpy Algebra and Size
+title: الجبر وحجم البيانات في ال(Numpy)
 challengeType: 11
 videoId: XAT97YLOKD8
 bilibiliIds:
@@ -14,16 +14,16 @@ dashedName: numpy-algebra-and-size
 
 *Instead of using notebooks.ai like it shows in the video, you can use Google Colab instead.*
 
-More resources:
+المزيد من المصادر:
 
--  <a href="https://github.com/ine-rmotr-curriculum/freecodecamp-intro-to-numpy" target="_blank" rel="noopener noreferrer nofollow">Notebooks في GitHub</a>
--  <a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebookس/colab-github-demo.ipynb" target="_blank" rel="noopener noreferrer nofollow">كيفية فتح Notebooks من GitHub باستخدام Google Colab.</a>
+-  <a href="https://github.com/ine-rmotr-curriculum/freecodecamp-intro-to-numpy" target="_blank" rel="noopener noreferrer nofollow">Notebooks on GitHub</a>
+-  <a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebookس/colab-github-demo.ipynb" target="_blank" rel="noopener noreferrer nofollow">كيفية فتح (Notebook) من (GitHub) باستخدام (Google Colab).</a>
 
 # --questions--
 
 ## --text--
 
-What is the relationship between size of objects (such as lists and datatypes) in memory in Python's standard library and the NumPy library? Knowing this, what are the implications for performance?
+ما هي العلاقة بين حجم الذاكرة المستخدمة للobjects (مثل القوائم وأنواع البيانات) في مكتبة Python القياسية ومكتبة NumPy ؟ بناءاً على هذا، ما هي الآثار المترتبة على الأداء؟
 
 ## --answers--
 

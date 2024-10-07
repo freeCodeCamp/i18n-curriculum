@@ -12,7 +12,7 @@ dashedName: build-a-product-landing-page
 
 **Maelekezo:**
 
-1. Ukurasa wa kutua wa bidhaa yako unapaswa kuwa na kipengele cha `header` chenye husika ya `id="header"`
+1. Your product landing page should have a `header` element with a corresponding `id="header"`
 1. Unaweza kuona picha ndani ya kipengele cha `header` sambamba na `id="header-img"` (Nembo inaweza kutengeneza picha nzuri hapa)
 1. Ndani ya kipengele cha `#header` unaweza kuona kipengele cha `nav` chenye `id="nav-bar"` sambamba
 1. Unaweza kuona angalau vipengele vitatu vinavyoweza kubofya ndani ya kipengele cha `nav`, kila kimoja kikiwa na class ya `nav-link`
@@ -28,7 +28,7 @@ dashedName: build-a-product-landing-page
 1. Ukurasa wako wa kutua unapaswa kuwa na angalau media query moja
 1. Ukurasa wako wa kutua unapaswa unapaswa kutumia CSS flexbox angalau mara moja
 
-Timiza hadithi za watumiaji na upite majaribio yote hapa chini ili kukamilisha mradi huu. Ipe muundo wako wa kibinafsi. Happy Coding!
+Timiza maelezo na upite majaribio yote hapa chini ili kukamilisha mradi huu. Ipe muundo wako wa kibinafsi. Happy Coding!
 
 **Kumbuka:** Hakikisha umeongeza `<link rel="stylesheet" href="styles.css">` katika HTML yako ili kuunganisha stylesheet yako na utumie CSS yako
 

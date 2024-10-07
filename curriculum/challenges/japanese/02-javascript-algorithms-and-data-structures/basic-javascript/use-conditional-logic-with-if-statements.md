@@ -9,7 +9,7 @@ dashedName: use-conditional-logic-with-if-statements
 
 # --description--
 
-`if` ステートメントはコード内の判定に使用されます。 キーワード `if` は、丸括弧内で定義された特定の条件に基づいて中括弧内のコードを実行するように JavaScript に指示します。 これらの条件のことを `Boolean` (ブール) 条件と呼び、`true` または `false` のみを使用できます。
+`if` statements are used to make decisions in code. The keyword `if` tells JavaScript to execute the code in the curly braces under certain conditions, defined in the parentheses. These conditions are known as `Boolean` conditions and they may only be `true` or `false`.
 
 条件判定が `true` となった場合、プログラムは中括弧内のステートメントを実行します。 条件判定が `false` となった場合は、中括弧内のステートメントは実行されません。
 

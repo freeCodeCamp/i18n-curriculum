@@ -8,7 +8,7 @@ dashedName: understand-the-constructor-property
 
 # --description--
 
-هناك خاصية خاصة للـ `constructor` موجودة على كائنات `duck` و `beagle` تم إنشاؤها في التحديات السابقة:
+There is a special `constructor` property located on the object instances `duck` and `beagle` that were created in the previous challenges:
 
 ```js
 let duck = new Bird();

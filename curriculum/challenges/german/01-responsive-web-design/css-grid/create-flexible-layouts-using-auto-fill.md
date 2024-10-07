@@ -9,7 +9,7 @@ dashedName: create-flexible-layouts-using-auto-fill
 
 # --description--
 
-Die repeat-Funktion verfügt über eine Option namens <dfn>auto-fill</dfn>. Auf diese Weise kannst du je nach Größe des Containers automatisch so viele Zeilen oder Spalten deiner gewünschten Größe einfügen wie möglich. Du kannst flexible Layouts erstellen, wenn du `auto-fill` mit `minmax` kombinierst, so wie hier:
+The repeat function comes with an option called <dfn>auto-fill</dfn>. This allows you to automatically insert as many rows or columns of your desired size as possible depending on the size of the container. You can create flexible layouts when combining `auto-fill` with `minmax`, like this:
 
 ```css
 repeat(auto-fill, minmax(60px, 1fr));

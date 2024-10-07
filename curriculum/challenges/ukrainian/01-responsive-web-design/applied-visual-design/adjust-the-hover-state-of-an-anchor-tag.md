@@ -9,7 +9,7 @@ dashedName: adjust-the-hover-state-of-an-anchor-tag
 
 # --description--
 
-У цьому завданні буде йти мова про псевдокласи. Псевдоклас - це ключове слове, яке можна додавати до селекторів, щоб обрати певний стан елемента.
+This challenge will touch on the usage of pseudo-classes. A pseudo-class is a keyword that can be added to selectors, in order to select a specific state of the element.
 
 Наприклад, стиль якірного тега при наведенні курсора можна змінити за допомогою `:hover` селектора псевдокласу. Ось CSS для зміни властивості `color` якірного тегу на червоний при наведенні:
 

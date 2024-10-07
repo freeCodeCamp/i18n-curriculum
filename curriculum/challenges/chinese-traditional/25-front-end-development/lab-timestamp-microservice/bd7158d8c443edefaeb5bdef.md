@@ -10,14 +10,14 @@ dashedName: lab-timestamp-microservice
 Build a full stack JavaScript app that is functionally similar to this: <a href="https://timestamp-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://timestamp-microservice.freecodecamp.rocks</a>. Working on this lab will involve you writing your code using one of the following methods:
 
 -   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-timestamp/"  target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
--   Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-timestamp/"  target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete your project.
--   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
+-   使用<a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-timestamp/"  target="_blank" rel="noopener noreferrer nofollow">我們的 Gitpod 初始項目</a>來完成你的項目。
+-   使用你選擇的網站生成器來完成項目。 需要包含我們 GitHub 倉庫的所有文件。
 
 **Note:** Time zones conversion is not a purpose of this project, so assume all sent valid dates will be parsed with `new Date()` as GMT dates.
 
 # --hints--
 
-You should provide your own project, not the example URL.
+提交自己的項目，而不是示例的 URL。
 
 ```js
 (getUserInput) => {
@@ -45,7 +45,7 @@ A request to `/api/:date?` with a valid date should return a JSON object with a 
   );
 ```
 
-A request to `/api/:date?` with a valid date should return a JSON object with a `utc` key that is a string of the input date in the format: `Thu, 01 Jan 1970 00:00:00 GMT`
+向 `/api/:date?` 發送一個帶有有效日期的請求，應該返回一個 JSON 對象，在這個 JSON 對象內有一個包含如 `Thu, 01 Jan 1970 00:00:00 GMT` 格式的輸入日期的 `utc` 鍵。
 
 ```js
 (getUserInput) =>
@@ -63,7 +63,7 @@ A request to `/api/:date?` with a valid date should return a JSON object with a 
   );
 ```
 
-A request to `/api/1451001600000` should return `{ unix: 1451001600000, utc: "Fri, 25 Dec 2015 00:00:00 GMT" }`
+向 `/api/1451001600000` 發送請求，應該返回 `{ unix: 1451001600000, utc: "Fri, 25 Dec 2015 00:00:00 GMT" }`。
 
 ```js
 (getUserInput) =>
@@ -80,7 +80,7 @@ A request to `/api/1451001600000` should return `{ unix: 1451001600000, utc: "Fr
   );
 ```
 
-Your project can handle dates that can be successfully parsed by `new Date(date_string)`
+程序能成功處理能被 `new Date(date_string)` 解析的日期。
 
 ```js
 (getUserInput) =>
@@ -111,7 +111,7 @@ If the input date string is invalid, the API returns an object having the struct
   );
 ```
 
-An empty date parameter should return the current time in a JSON object with a `unix` key
+如果傳入的參數是空日期，將返回一個包含當前時間的 `unix` 鍵的 JSON 對象。
 
 ```js
 (getUserInput) =>
@@ -126,7 +126,7 @@ An empty date parameter should return the current time in a JSON object with a `
   );
 ```
 
-An empty date parameter should return the current time in a JSON object with a `utc` key
+如果傳入的參數是空日期，將返回一個包含當前時間的 `utc` 鍵的 JSON 對象。
 
 ```js
 (getUserInput) =>

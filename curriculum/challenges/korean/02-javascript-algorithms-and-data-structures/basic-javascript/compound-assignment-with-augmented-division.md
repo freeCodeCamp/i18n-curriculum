@@ -1,6 +1,6 @@
 ---
 id: 56533eb9ac21ba0edf2244b2
-title: Compound Assignment With Augmented Division
+title: 나누기를 추가해서 복합적으로 할당하기
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/c2QvKT2'
 forumTopicId: 16659
@@ -15,7 +15,7 @@ The `/=` operator divides a variable by another number.
 myVar = myVar / 5;
 ```
 
-Will divide `myVar` by `5`. This can be rewritten as:
+위의 내용은 `myVar`를 `5`로 나눕니다. 이 내용은 아래와 같이 다시 쓸 수 있습니다.
 
 ```js
 myVar /= 5;
@@ -23,35 +23,35 @@ myVar /= 5;
 
 # --instructions--
 
-Convert the assignments for `a`, `b`, and `c` to use the `/=` operator.
+`a`, `b`, `c`에 각 할당을 `/=` 연산자를 사용하도록 변환해주세요.
 
 # --hints--
 
-`a` should equal `4`.
+`a`는 `4`와 같아야 합니다.
 
 ```js
 assert(a === 4);
 ```
 
-`b` should equal `27`.
+`b`는 `27`과 같아야 합니다.
 
 ```js
 assert(b === 27);
 ```
 
-`c` should equal `3`.
+`c`는 `3`과 같아야 합니다.
 
 ```js
 assert(c === 3);
 ```
 
-You should use the `/=` operator for each variable.
+당신은 각 변수에서 `/=` 연산자를 사용해야 합니다.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/\/=/g).length === 3);
 ```
 
-You should not modify the code above the specified comment.
+지정된 코멘트 위의 코드를 변경하면 안됩니다.
 
 ```js
 assert(

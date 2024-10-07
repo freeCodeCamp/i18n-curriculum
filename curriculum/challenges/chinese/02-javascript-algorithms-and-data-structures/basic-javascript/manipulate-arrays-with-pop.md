@@ -9,7 +9,7 @@ dashedName: manipulate-arrays-with-pop
 
 # --description--
 
-改变数组中数据的另一种方法是用 `.pop()` 函数。
+Another way to change the data in an array is with the `.pop()` function.
 
 `.pop()` 函数用来弹出一个数组末尾的值。 我们可以把这个弹出的值赋给一个变量存储起来。 换句话说就是 `.pop()` 函数移除数组末尾的元素并返回这个元素。
 

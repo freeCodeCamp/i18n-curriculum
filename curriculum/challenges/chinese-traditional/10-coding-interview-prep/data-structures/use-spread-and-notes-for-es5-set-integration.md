@@ -1,6 +1,6 @@
 ---
 id: 587d8255367417b2b2512c73
-title: Use Spread and Notes for ES5 Set() Integration
+title: 使用 Spread 和 Notes 進行 ES5 Set() 集成
 challengeType: 1
 forumTopicId: 301720
 dashedName: use-spread-and-notes-for-es5-set-integration
@@ -10,9 +10,9 @@ dashedName: use-spread-and-notes-for-es5-set-integration
 
 Do you remember the ES6 spread operator `...`?
 
-`...` can take iterable objects in ES6 and turn them into arrays.
+`...` 可以在 ES6 中獲取可迭代對象並將它們轉換爲數組。
 
-Let's create a Set, and check out the spread function.
+讓我們創建一個 Set，並檢查傳播函數。
 
 ```js
 var set = new Set([1,2,3]);
@@ -22,13 +22,13 @@ console.log(setToArr) // returns [ 1, 2, 3 ]
 
 # --instructions--
 
-In this exercise we will pass a set object to the `checkSet` function. It should return an array containing the values of the Set.
+在本練習中，我們將集合對象傳遞給 `checkSet` 函數。 它應該返回一個包含集合值的數組。
 
-Now you've successfully learned how to use the ES6 `Set()` object, good job!
+現在你已經成功學會了如何使用ES6 `Set()`對象，幹得好！
 
 # --hints--
 
-`checkSet(new Set([1,2,3,4,5,6,7])` should return `[1, 2, 3, 4, 5, 6, 7]`.
+`checkSet(new Set([1,2,3,4,5,6,7])` 應該返回 `[1, 2, 3, 4, 5, 6, 7]`。
 
 ```js
 assert(

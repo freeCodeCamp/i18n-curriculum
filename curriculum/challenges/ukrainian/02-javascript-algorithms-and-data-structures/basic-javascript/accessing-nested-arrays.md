@@ -9,7 +9,7 @@ dashedName: accessing-nested-arrays
 
 # --description--
 
-Як ми бачили в попередніх прикладах, об’єкти можуть містити і вкладені об’єкти, і вкладені масиви. Подібно до доступу до вкладених об’єктів, для доступу до вкладених масивів можна об’єднати дужкову нотацію.
+As we have seen in earlier examples, objects can contain both nested objects and nested arrays. Similar to accessing nested objects, array bracket notation can be chained to access nested arrays.
 
 Ось приклад того, як отримати доступ до вкладеного масиву:
 

@@ -8,7 +8,7 @@ dashedName: adjacency-matrix
 
 # --description--
 
-Eine andere Möglichkeit einen Graphen darzustellen ist es, ihn in eine <dfn>adjacency matrix</dfn> (Adjazenzmatrix) zu übertragen. Eine <dfn>adjazent matrix</dfn> ist ein 2-dimensionales Array (2D), in dem jedes Subarray dieselbe Anzahl an Elementen hat wie das äußere Array. In anderen Worten ist es eine Matrix bzw. ein Raster von Zahlen, indem die Zahlen die Anzahl der Kanten repräsentieren.
+Another way to represent a graph is to put it in an <dfn>adjacency matrix</dfn>. An <dfn>adjacency matrix</dfn> is a two-dimensional (2D) array where each nested array has the same number of elements as the outer array. In other words, it is a matrix or grid of numbers, where the numbers represent the edges.
 
 **Hinweis**: Die Nummern oben und links der Matrix sind nur Bezeichnungen für die Knoten. Innerhalb der Matrix bedeutet ein eingetragener 1er, dass eine Kante zwischen den Knoten in der jeweiligen Zeile und Spalte existiert. Nullen schließlich bedeuten, dass es keine Kante oder Beziehung gibt.
 

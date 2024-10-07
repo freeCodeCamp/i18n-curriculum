@@ -14,7 +14,7 @@ dashedName: reorganizing-arrays
 
 ## --text--
 
-哪个代码会生成下面的数组？
+What code would produce the following array?
 
 ```py
 [[1. 1.]

@@ -1,6 +1,6 @@
 ---
 id: 587d78a3367417b2b2512acf
-title: Change the Position of Overlapping Elements with the z-index Property
+title: غيّر موضع العناصر المتداخلة بالخاصية z-index .
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cM94aHk'
 forumTopicId: 301046
@@ -13,11 +13,11 @@ When elements are positioned to overlap (i.e. using `position: absolute | relati
 
 # --instructions--
 
-Add a `z-index` property to the element with the class name of `first` (the red rectangle) and set it to a value of 2 so it covers the other element (blue rectangle).
+فلتُضِف الخاصية `z-index` إلى العنصر الذى اسم فئته class هو `first` ( المستطيل الأحمر ) ، و اضبطها على قيمة 2 ، و بالتالى يُغطى العنصر الآخر ( المستطيل الأزرق ) .
 
 # --hints--
 
-The element with class `first` should have a `z-index` value of 2.
+العنصر الذى لديه الفئة class هى `first` ينبغى أن يحوى `z-index` بقيمة 2 .
 
 ```js
 const firstElement = document.querySelector('.first');

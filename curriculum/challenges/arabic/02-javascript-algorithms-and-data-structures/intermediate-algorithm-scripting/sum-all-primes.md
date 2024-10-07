@@ -8,7 +8,7 @@ dashedName: sum-all-primes
 
 # --description--
 
-الـ <dfn>prime number</dfn> هو رقم صحيح أكبر من 1 يقبل القسمة علي رقمين بالضبط: 1 و نفسه. فعلى سبيل المثال، 2 هو prime number لأنه لا يمكن قسمته إلا علي 1 و 2. وعلى النقيض من ذلك، فإن 4 ليس prime number لأنه قابل للقسمة علي 1 و 2 و 4.
+A <dfn>prime number</dfn> is a whole number greater than 1 with exactly two divisors: 1 and itself. For example, 2 is a prime number because it is only divisible by 1 and 2. In contrast, 4 is not prime since it is divisible by 1, 2 and 4.
 
 أعد كتابة `sumPrimes` حتى يرجع مجموع جميع الـ prime numbers التي هي أقل من أو تساوي num.
 

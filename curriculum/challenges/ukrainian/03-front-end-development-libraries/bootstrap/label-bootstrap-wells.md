@@ -8,7 +8,7 @@ dashedName: label-bootstrap-wells
 
 # --description--
 
-Позначимо обидві стіни їхніми id задля ясності.
+For the sake of clarity, let's label both of our wells with their ids.
 
 Над left-well, всередині його елемента `div` `col-xs-6`, додайте елемент `h4` з текстом `#left-well`.
 

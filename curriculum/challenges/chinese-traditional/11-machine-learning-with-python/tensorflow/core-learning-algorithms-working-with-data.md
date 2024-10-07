@@ -14,7 +14,7 @@ dashedName: core-learning-algorithms-working-with-data
 
 ## --text--
 
-Pandas 的 `.head()` 函數有什麼作用？
+What does the pandas `.head()` function do?
 
 ## --answers--
 

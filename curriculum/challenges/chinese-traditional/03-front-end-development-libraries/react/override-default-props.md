@@ -8,7 +8,7 @@ dashedName: override-default-props
 
 # --description--
 
-在 React 中，設置默認的 props 是一個很有用的特性， 顯式設置組件的 prop 值即可覆蓋默認 props。
+The ability to set default props is a useful feature in React. The way to override the default props is to explicitly set the prop values for a component.
 
 # --instructions--
 

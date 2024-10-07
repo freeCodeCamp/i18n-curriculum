@@ -8,7 +8,7 @@ dashedName: combine-two-arrays-using-the-concat-method
 
 # --description--
 
-<dfn>Concatenazione</dfn> significa unire gli oggetti dal primo all'ultimo. JavaScript offre il metodo `concat` sia per le stringhe per gli array, e funziona allo stesso modo per entrambi. Per gli array, il metodo viene chiamato su un array, quindi viene fornito un altro array come argomento a `concat`, in modo da aggiungerlo alla fine del primo array. Questo restituisce un nuovo array e non muta nessuno degli array originali. Ecco un esempio:
+<dfn>Concatenation</dfn> means to join items end to end. JavaScript offers the `concat` method for both strings and arrays that work in the same way. For arrays, the method is called on one, then another array is provided as the argument to `concat`, which is added to the end of the first array. It returns a new array and does not mutate either of the original arrays. Ecco un esempio:
 
 ```js
 [1, 2, 3].concat([4, 5, 6]);

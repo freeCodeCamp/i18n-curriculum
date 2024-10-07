@@ -8,7 +8,7 @@ dashedName: knapsack-problemcontinuous
 
 # --description--
 
-A thief burgles a butcher's shop, where he can select from some items.
+Ein Dieb bricht in eine Metzgerei ein, wo er sich einige Waren aussuchen kann.
 
 Der Dieb kennt die Gewichte und Preise der einzelnen Artikel. Da er einen Rucksack hat, der nur ein bestimmtes Gewicht tragen kann, möchte er die Gegenstände so auswählen, dass sein Gewinn maximiert wird. Er kann die Artikel zerschneiden; der Artikel hat nach dem Zerschneiden einen reduzierten Preis, der proportional zum ursprünglichen Preis im Verhältnis der Massen ist. Das bedeutet: Die Hälfte eines Artikels kostet nur die Hälfte des Originals.
 

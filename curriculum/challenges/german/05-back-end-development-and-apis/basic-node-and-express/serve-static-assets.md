@@ -8,7 +8,7 @@ dashedName: serve-static-assets
 
 # --description--
 
-Ein HTML-Server verfügt normalerweise über ein oder mehr Verzeichnisse, die vom Nutzer zugänglich sind. Hier kannst du jene Assets platzieren, die von deiner Anwendung benötigt werden (Stylesheets, Skripte, Bilder).
+An HTML server usually has one or more directories that are accessible by the user. You can place there the static assets needed by your application (stylesheets, scripts, images).
 
 Mit Express kannst du von dieser Funktion mit der Middleware `express.static(path)` Gebrauch machen – der `path`-Parameter ist hier der absolute Pfad, in dem sich die Assets befinden.
 
@@ -40,7 +40,7 @@ Deine Anwendung sollte Asset-Dateien des `/public`-Verzeichnisses an den `/publi
   );
 ```
 
-Your app should not serve files from any other folders except from `/public` directory
+Deine Anwendung sollte keine Dateien aus anderen Ordnern bereitstellen, außer aus dem `/public`-Verzeichis
 
 ```js
 (getUserInput) =>

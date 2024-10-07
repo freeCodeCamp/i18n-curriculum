@@ -8,7 +8,7 @@ dashedName: prevent-infinite-loops-with-a-valid-terminal-condition
 
 # --description--
 
-Das letzte Thema ist die gefürchtete Endlosschleife. Schleifen sind großartige Werkzeuge, wenn dein Programm einen Codeblock eine bestimmte Anzahl von Malen ausführen soll oder bis eine Bedingung erfüllt ist, aber sie brauchen eine Abschlussbedingung, die die Schleife beendet. Endlosschleifen können dazu führen, dass der Browser einfriert oder abstürzt und die Programmausführung allgemein beeinträchtigt wird, was niemand will.
+The final topic is the dreaded infinite loop. Loops are great tools when you need your program to run a code block a certain number of times or until a condition is met, but they need a terminal condition that ends the looping. Infinite loops are likely to freeze or crash the browser, and cause general program execution mayhem, which no one wants.
 
 In der Einleitung zu diesem Abschnitt gab es ein Beispiel für eine Endlosschleife - sie hatte keine Abschlussbedingung, um aus der `while`-Schleife innerhalb von `loopy()` heraus zu kommen. Rufe diese Funktion NICHT auf!
 

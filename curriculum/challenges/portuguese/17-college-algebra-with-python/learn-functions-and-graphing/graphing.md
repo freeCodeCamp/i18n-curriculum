@@ -8,7 +8,7 @@ dashedName: graphing
 
 # --description--
 
-Este próximo vídeo vai mostrar para você a conexão entre funções e gráfico. Observe como o gráfico é uma maneira de representar as entradas e saídas de uma função. Então, o vídeo mostrará como criar o gráfico de uma função com Python.
+Este próximo vídeo mostrará a você a conexão entre funções e gráficos. Observe como o gráfico é uma maneira de representar as entradas e saídas de uma função. Então, o vídeo mostrará como criar o gráfico de uma função com Python.
 
 Aqui está o <a href="https://colab.research.google.com/drive/1UYorWd9-Btf_ZQyA9YdUzxzKR8rnVrSV#scrollTo=yJiVB8wdHRxS" target="_blank" rel="noopener noreferrer nofollow">notebook do Colaboratory que acompanha os dois últimos vídeos</a> para que você possa começar a criar seus próprios gráficos.
 

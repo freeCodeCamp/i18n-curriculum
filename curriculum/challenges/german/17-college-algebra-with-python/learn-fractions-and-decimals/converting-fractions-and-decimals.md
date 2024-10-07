@@ -12,7 +12,7 @@ Im ersten Video wird dir gezeigt, wie du auf dem Papier zwischen Brüchen, Dezim
 
 Hier ist das <a href="https://colab.research.google.com/drive/1dgeEEODP7cwm_96_JqbjxxJhVpZcFfGe?usp=sharing#scrollTo=NkMTAVF0BlqE" target="_blank" rel="noopener noreferrer nofollow">Colab-Notizbuch, das im Video verwendet wird.</a> Verwende diesen Code als Modell und schreibe deinen eigenen Code, um Brüche und Dezimalzahlen umzurechnen.
 
-# --assignment--
+# --Auftrag--
 
 Füge den Code zum Umrechnen von Brüchen und Dezimalzahlen in dein Algebra-Colab-Notizbuch ein.
 

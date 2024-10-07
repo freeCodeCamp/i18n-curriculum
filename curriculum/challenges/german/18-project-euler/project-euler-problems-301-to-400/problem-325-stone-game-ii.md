@@ -8,7 +8,7 @@ dashedName: problem-325-stone-game-ii
 
 # --description--
 
-A game is played with two piles of stones and two players. On each player's turn, the player may remove a number of stones from the larger pile. The number of stones removes must be a positive multiple of the number of stones in the smaller pile.
+Ein Spiel wird mit zwei Steinhaufen und zwei Spielern gespielt. Wenn ein Spieler an der Reihe ist, darf er eine bestimmte Anzahl von Steinen vom größeren Haufen nehmen. Die Anzahl der entfernten Steine muss ein positives Vielfaches der Anzahl der Steine im kleineren Stapel sein.
 
 Wenn z.B. das geordnete Paar (6,14) eine Konfiguration mit 6 Steinen im kleineren Haufen und 14 Steinen im größeren Stapel beschreibt, dann kann der erste Spieler 6 oder 12 Steine vom größeren Haufen entfernen.
 
@@ -20,11 +20,11 @@ Eine verlierende Kombinationen wäre, wenn der zweite Spieler einen Sieg erzwing
 
 Definiere $S(N)$ als die Summe von ($x_i + y_i$) für alle Verlustkombinationen ($x_i$, $y_i$), $0 &lt; x_i &lt; y_i ≤ N$. Wir können überprüfen, dass $S(10) = 211$ und $S({10}^4) = 230\\,312\\,207\\,313$.
 
-Find $S({10}^{16})\bmod 7^{10}$.
+Finde $S({10}^{16})\bmod 7^{10}$.
 
 # --hints--
 
-`stoneGameTwo()` should return `54672965`.
+`stoneGameTwo()` sollte `54672965` zurückgeben.
 
 ```js
 assert.strictEqual(stoneGameTwo(), 54672965);

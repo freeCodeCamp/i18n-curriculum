@@ -8,13 +8,13 @@ dashedName: set-a-domain-and-a-range-on-a-scale
 
 # --description--
 
-默认情况下，比例尺使用一对一关系（identity relationship）， 即输入值直接映射为输出值。 但是比例尺可以更灵活更有趣。
+By default, scales use the identity relationship. This means the input value maps to the output value. However, scales can be much more flexible and interesting.
 
 假设有一个数据集值的范围为 50 到 480， 这是比例尺的输入信息，也被称为<dfn>定义域</dfn>。
 
 你想沿着 SVG 上的 `x` 轴映射这些点，在 10 单位和 500 单位之间。 这是输出信息，也被称为<dfn>值域</dfn>。
 
-`domain()` 和 `range()` 方法设置比例尺的值， 它们都接受一个至少有两个元素的数组作为参数。 下面是一个例子：
+`domain()` 和 `range()` 方法设置比例尺的值， 它们都接受一个至少有两个元素的数组作为参数。 如下所示：
 
 ```js
 scale.domain([50, 480]);

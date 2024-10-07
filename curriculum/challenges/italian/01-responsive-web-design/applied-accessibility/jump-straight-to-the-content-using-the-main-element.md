@@ -9,7 +9,7 @@ dashedName: jump-straight-to-the-content-using-the-main-element
 
 # --description--
 
-HTML5 ha introdotto diversi nuovi elementi che danno agli sviluppatori più opzioni, incorporando anche funzioni di accessibilità. Questi tag comprendono tra l'altro `main`, `header`, `footer`, `nav`, `article`, e `section`.
+HTML5 introduced several new elements that give developers more options while also incorporating accessibility features. These tags include `main`, `header`, `footer`, `nav`, `article`, and `section`, among others.
 
 Di default, un browser visualizza questi elementi come fa con il semplice `div`. Tuttavia, usarli dove appropriato dà più significato alla formattazione. Il nome del tag da solo può indicare il tipo di informazione che contiene, aggiungendo significato semantico a quel contenuto. Le tecnologie assistive possono accedere a queste informazioni per fornire ai loro utenti un miglior riepilogo della pagina o delle opzioni di navigazione.
 

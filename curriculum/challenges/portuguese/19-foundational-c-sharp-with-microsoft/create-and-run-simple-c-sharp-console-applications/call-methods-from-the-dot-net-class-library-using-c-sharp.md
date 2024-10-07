@@ -20,19 +20,19 @@ Complete o módulo <a href="https://learn.microsoft.com/training/modules/csharp-
 
 ## --text--
 
-O que é um objeto?
+What is an object?
 
 ## --answers--
 
-Um endereço da memória.
+A memory address.
 
 ---
 
-Uma classe sem estado.
+A stateless class.
 
 ---
 
-Uma instância de uma classe.
+An instance of a class.
 
 ## --video-solution--
 

@@ -9,7 +9,7 @@ dashedName: generate-random-whole-numbers-within-a-range
 
 # --description--
 
-0과 주어진 숫자까지의 범위에서 무작위 정수를 생성할 수 있습니다. 이 범위에 대해 다른 낮은 숫자를 선택할 수도 있습니다.
+You can generate a random whole number in the range from zero to a given number. You can also pick a different lower number for this range.
 
 최솟값 `min`과 최댓값 `max`을 호출할 것입니다.
 

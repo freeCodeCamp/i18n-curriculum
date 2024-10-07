@@ -8,7 +8,7 @@ dashedName: catch-missing-open-and-closing-parenthesis-after-a-function-call
 
 # --description--
 
-عندما لا تأخذ الوظيفة (function) أو الطريقة (method) أي معطيات (arguments)، قد تنسى إدراج أقواس الفتح والإغلاق (فارغة) عند تفعيلها. غالباً ما يتم حفظ نتيجة تفعيل وظيفة (function) في متغير (variable) لاستخدام آخر في كودك. يمكن اكتشاف هذا الخطأ عن طريق تسجيل قيم المتغيرات (variables) (أو أنواعها) إلى الوحدة (console) وملاحظة أن القيمة المعينة للمتغير (variable) هي مرجع وظيفة (function reference)، بدلاً من القيمة المتوقعة وهي ناتج تنفيذ الوظيفة (function).
+When a function or method doesn't take any arguments, you may forget to include the (empty) opening and closing parentheses when calling it. Often times the result of a function call is saved in a variable for other use in your code. This error can be detected by logging variable values (or their types) to the console and seeing that one is set to a function reference, instead of the expected value the function returns.
 
 فتختلف المتغيرات الواردة في المثال التالي:
 

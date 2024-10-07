@@ -17,22 +17,22 @@ When you want to know how often something happens, you can use `every` followed 
 
 Presta atención al audio para completar la oración abajo.
 
-# Completá la palabra correcta
+# --fillInTheBlank--
 
-## Frases
+## --sentence--
 
 `Tell me about our team meetings, Sophie. Do they happen BLANK week?`
 
-## Palabra correcta
+## --blanks--
 
 `every`
 
-### devolución
+### --feedback--
 
 Tom is asking if the meetings happen every week.
 
 
-# ejemplo
+# --scene--
 
 ```json
 {

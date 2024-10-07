@@ -8,7 +8,7 @@ dashedName: truncate-a-string
 
 # --description--
 
-주어진 최대 문자열 길이(두 번째 인수)보다 문자열(첫 번째 인수)이 긴 경우 문자열을 자르세요. 잘린 문자열은 끝에 `...`와 함께 반환되어야 합니다.
+Truncate a string (first argument) if it is longer than the given maximum string length (second argument). Return the truncated string with a `...` ending.
 
 # --hints--
 

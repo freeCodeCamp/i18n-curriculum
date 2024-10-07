@@ -8,7 +8,7 @@ dashedName: generate-an-array-of-all-object-keys-with-object-keys
 
 # --description--
 
-또한 `Object.keys()` 메서드를 사용하여 객체에 저장된 모든 키를 포함하는 배열을 생성할 수 있습니다. 이 메서드는 객체를 인수로 사용하고 객체의 각 속성을 나타내는 문자열 배열을 반환합니다. 배열의 항목에는 특정한 순서가 없을 것입니다.
+We can also generate an array which contains all the keys stored in an object with the `Object.keys()` method. This method takes an object as the argument and returns an array of strings representing each property in the object. Again, there will be no specific order to the entries in the array.
 
 # --instructions--
 

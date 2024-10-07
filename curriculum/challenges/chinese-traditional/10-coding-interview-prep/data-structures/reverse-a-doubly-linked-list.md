@@ -1,6 +1,6 @@
 ---
 id: 587d825a367417b2b2512c88
-title: Reverse a Doubly Linked List
+title: 反轉雙重鏈接列表
 challengeType: 1
 forumTopicId: 301714
 dashedName: reverse-a-doubly-linked-list
@@ -12,7 +12,7 @@ Let's create one more method for our doubly linked list called reverse which rev
 
 # --hints--
 
-The `DoublyLinkedList` data structure should exist.
+應該存在  DoublyLinkedList 數據結構。
 
 ```js
 assert(
@@ -26,7 +26,7 @@ assert(
 );
 ```
 
-The `DoublyLinkedList` should have a method called `reverse`.
+DoublyLinkedList 應該有一個名爲 reverse的方法。
 
 ```js
 assert(
@@ -43,7 +43,7 @@ assert(
 );
 ```
 
-Reversing an empty list should return `null`.
+反轉一個空列表應該返回  null  。
 
 ```js
 assert(
@@ -57,7 +57,7 @@ assert(
 );
 ```
 
-The `reverse` method should reverse the list.
+return  方法應該反轉列表。
 
 ```js
 assert(
@@ -77,7 +77,7 @@ assert(
 );
 ```
 
-The `next` and `previous` references should be correctly maintained when a list is reversed.
+next  和之前的引用在列表反轉前應該正確的保存
 
 ```js
 assert(

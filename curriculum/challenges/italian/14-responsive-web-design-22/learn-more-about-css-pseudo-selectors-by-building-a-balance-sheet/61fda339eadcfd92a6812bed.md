@@ -7,7 +7,7 @@ dashedName: step-30
 
 # --description--
 
-Prima di lavorare troppo sullo stile della pagina, dovresti usare la classe `sr-only`. Puoi utilizzare il CSS per rendere gli elementi con questa classe completamente nascosti alla vista nella pagina, ma ancora leggibili dai lettori di schermo.
+Before you get too far into your styling, you should make use of the `sr-only` class. You can use CSS to make elements with this class completely hidden from the visual page, but still be announced by screen readers.
 
 Il CSS che stai per scrivere è un insieme comune di proprietà usate per garantire che gli elementi siano completamente nascosti alla vista.
 

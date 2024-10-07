@@ -8,7 +8,7 @@ dashedName: perform-a-difference-on-two-sets-of-data
 
 # --description--
 
-У цій вправі ми знайдемо різницю двох множин даних. Ми створимо метод на множині під назвою `difference`. Різниця множин має порівнювати ці множини та повернути ті елементи, які наявні у першій множині, але відсутні у другій. Цей метод має приймати іншу множину як аргумент та повернути різницю двох множин.
+In this exercise we are going to perform a difference on 2 sets of data. We will create a method on our `Set` data structure called `difference`. A difference of sets should compare two sets and return the items present in the first set that are absent in the second. This method should take another `Set` as an argument and return the `difference` of the two sets.
 
 Наприклад, якщо `setA = ['a','b','c']`, а `setB = ['a','b','d','e']`, то різницею між setA та setB буде `setA.difference(setB) = ['c']`.
 

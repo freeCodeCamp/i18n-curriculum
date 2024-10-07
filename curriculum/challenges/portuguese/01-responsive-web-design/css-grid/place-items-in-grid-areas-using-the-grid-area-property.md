@@ -9,7 +9,7 @@ dashedName: place-items-in-grid-areas-using-the-grid-area-property
 
 # --description--
 
-Depois de criar um modelo de área para o seu grid container, como mostrado no desafio anterior, você pode definir a posição de um item em uma área referenciando o nome que você deu a ele. Para fazer isso, você deve usar a propriedade `grid-area` em um item:
+After creating an area template for your grid container, as shown in the previous challenge, you can place an item in your custom area by referencing the name you gave it. To do this, you use the `grid-area` property on an item like this:
 
 ```css
 .item1 {

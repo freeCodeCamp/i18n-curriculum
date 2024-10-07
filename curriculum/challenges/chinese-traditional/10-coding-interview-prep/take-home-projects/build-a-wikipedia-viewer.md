@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c442eddfaeb5bd19
-title: Build a Wikipedia Viewer
+title: 構建維基百科查看器
 challengeType: 3
 forumTopicId: 302360
 dashedName: build-a-wikipedia-viewer
@@ -10,19 +10,19 @@ dashedName: build-a-wikipedia-viewer
 
 **Objective:** Build an app that is functionally similar to this: <a href="https://codepen.io/freeCodeCamp/full/wGqEga/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/wGqEga/</a>.
 
-The MediaWiki software powers Wikipedia, and it helps you collect and organize knowledge and make it available to people.
+MediaWiki 軟件基於維基百科，它可以幫助你收集和組織知識，提供給他人使用。
 
-Using the MediaWiki API, replicate the search function and random article function, similar to the example app above. You can use Wikipedia as your data source.
+使用 MediaWiki API，提供搜索功能和隨機文章功能，類似於上面的示例應用程序。 可以使用維基百科作爲你的數據源。
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+完成以下需求，並且通過所有測試。 如有必要，可以引入第三方庫或使用第三方 API。 賦予它你的個人風格。
 
-**User Story:** I can search Wikipedia entries in a search box and see the resulting Wikipedia entries.
+**用戶故事：** 我可以在搜索框中搜索維基百科條目，並查看維基百科條目的結果。
 
-**User Story:** I can click a button to see a random Wikipedia entry.
+**用戶故事：** 我可以單擊按鈕查看隨機的維基百科條目。
 
-When you are finished, include a link to your project on CodePen and click the "I've completed this challenge" button.
+完成後，單擊“我已完成此挑戰”按鈕並添加一個指向 CodePen 的鏈接。
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+可以分享你的項目到 <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp 論壇</a>上獲得反饋。
 
 # --solutions--
 

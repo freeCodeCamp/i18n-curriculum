@@ -14,7 +14,7 @@ dashedName: core-learning-algorithms-using-probabilities-to-make-predictions
 
 ## --text--
 
-`.HiddenMarkovModel()` を実装するためにインポートする必要がある TensorFlow モジュールはどれですか？
+What TensorFlow module should you import to implement `.HiddenMarkovModel()`?
 
 ## --answers--
 

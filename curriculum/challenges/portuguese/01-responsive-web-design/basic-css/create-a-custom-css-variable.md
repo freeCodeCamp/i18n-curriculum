@@ -9,7 +9,7 @@ dashedName: create-a-custom-css-variable
 
 # --description--
 
-Para criar uma variável no CSS, você precisa dar um nome, prefixar este nome com dois hífens e atribuir um valor a ela, assim:
+To create a CSS variable, you just need to give it a name with two hyphens in front of it and assign it a value like this:
 
 ```css
 --penguin-skin: gray;

@@ -1,6 +1,6 @@
 ---
 id: 6551eebe6cbb2e6cadf9b468
-title: 步驟 2
+title: 步驟2
 challengeType: 20
 dashedName: step-2
 ---

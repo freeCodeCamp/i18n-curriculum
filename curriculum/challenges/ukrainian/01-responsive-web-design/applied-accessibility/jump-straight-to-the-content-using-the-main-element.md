@@ -9,7 +9,7 @@ dashedName: jump-straight-to-the-content-using-the-main-element
 
 # --description--
 
-HTML5 ввів декілька нових елементів, які надають розробникам більше можливостей, а також містять функції спеціальних можливостей. Серед них теґи `main`, `header`, `footer`, `nav`, `article` і `section` та інші.
+HTML5 introduced several new elements that give developers more options while also incorporating accessibility features. These tags include `main`, `header`, `footer`, `nav`, `article`, and `section`, among others.
 
 У браузері ці елементи за замовчуванням відображені як звичайний `div`. Однак, використання їх у тих випадках, коли це доречно, надає додаткового значення вашій розмітці. Назва тегу може вказувати на тип інформації, що в ньому міститься; це додає семантичного змісту до цього контенту. Допоміжні технології можуть отримати доступ до цієї інформації, щоб надати своїм користувачам кращий зміст сторінки чи варіанти навігації.
 

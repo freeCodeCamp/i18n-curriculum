@@ -9,7 +9,7 @@ dashedName: understand-string-immutability
 
 # --description--
 
-في JavaScript، قيم `String` هي قيم <dfn>غير قابلة للتغيير</dfn>، (immutable) مما يعني أنه لا يمكن تغييرها بعد إنشائها.
+In JavaScript, `String` values are <dfn>immutable</dfn>, which means that they cannot be altered once created.
 
 على سبيل المثال الكود التالي سينتج خطأ لأن الحرف `B` في المقطع النصي `Bob` لا يمكن تغييره إلى حرف `J`:
 

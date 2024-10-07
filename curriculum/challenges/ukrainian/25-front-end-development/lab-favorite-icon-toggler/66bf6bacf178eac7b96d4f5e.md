@@ -10,7 +10,7 @@ demoType: onClick
 
 In this lab you will use JavaScript click events to toggle the appearance of a favorite icon. When the heart icon is clicked, the appearance of the heart changes from empty to filled, and vice versa.
 
-**Objective:** Fulfill the user stories below and get all the tests to pass to complete the lab. **Do not copy this demo project**.
+Fulfill the user stories below and get all the tests to pass to complete the lab. **Do not copy this demo project**.
 
 **Історія користувача:**
 
@@ -65,7 +65,7 @@ for (let input of inputs) {
 }
 ```
 
-When the `span` element is clicked, and it contains the class `filled`, you should remove the class `filled` from the `span` element and change the innerHTML of the `span` element to `&#9825;`.
+Якщо клацнуто елемент `span` та він містить клас `filled`, видаліть клас `filled` з `span` та змініть `innerHTML` елемента `span` на `&#9825;`.
 
 ```js
 const spanElements = document.querySelectorAll('.favorite-icon');
@@ -81,7 +81,7 @@ spanElements.forEach(span => {
 });
 ```
 
-When the `span` element is clicked, and it doesn't contain the class `filled`, you should add the class `filled` to the `span` element and change the `innerHTML` of the `span` element to `&#10084;`.
+Якщо клацнуто елемент `span` та він не містить клас `filled`, додайте клас `filled` до `span` та змініть `innerHTML` елемента `span` на `&#10084;`.
 
 ```js
 const spanElements = document.querySelectorAll('.favorite-icon');

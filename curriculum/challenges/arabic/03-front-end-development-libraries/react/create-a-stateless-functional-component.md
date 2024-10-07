@@ -8,7 +8,7 @@ dashedName: create-a-stateless-functional-component
 
 # --description--
 
-المكونات هي مركز React. كل شيء في React هو مكون وسوف تتعلم كيفية إنشاء مكون.
+Components are the core of React. Everything in React is a component and here you will learn how to create one.
 
 هناك طريقتان لإنشاء مكون React. الطريقة الأولى هي استخدام وظيفية JavaScript. تعريف المكون (component) بهذه الطريقة يخلق مكون *مكون وظيفي عديم الحالة (stateless functional component)*. وسيتم تناول مفهوم الحالة (state) في التطبيق في تحديات لاحقة. في الوقت الحاضر، فكر في المكون عديم الحالة (stateless component) كمكون يمكن أن يتلقى البيانات ويقدمها، ولكنه لا يدير أو يتتبع التغييرات في تلك البيانات. (سنقوم بتغطية الطريقة الثانية لإنشاء عنصر React في التحدي التالي.)
 

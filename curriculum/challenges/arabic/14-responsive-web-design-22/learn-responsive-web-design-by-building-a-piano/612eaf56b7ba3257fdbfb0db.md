@@ -7,7 +7,7 @@ dashedName: step-21
 
 # --description--
 
-البيانو يحتاج شعار freeCodeCamp لجعله رسميا.
+The piano needs the freeCodeCamp logo to make it official.
 
 أضف عنصر `img` قبل عنصر `.keys` الخاص بك. امنح `img` الـ `class` بقيمة `logo`، وقم بتعيين `src` إلى `https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg`. أعطيه نص `alt` بقيمة `freeCodeCamp Logo`.
 

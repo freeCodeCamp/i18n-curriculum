@@ -8,11 +8,11 @@ dashedName: invert-a-binary-tree
 
 # --description--
 
-У цьому завданні ми створимо функцію, щоб інвертувати бінарне дерево. Вам дано бінарне дерево; потрібно створити дерево, яке є дзеркальним зображенням цього дерева. При запуску серединного обходу на інвертованому дереві вузли досліджуються у зворотному порядку в порівнянні з серединним обходом початкового дерева. Для цього напишіть на нашому бінарному дереві метод під назвою `invert`. Виклик цього методу має інвертувати поточну структуру дерева. В ідеалі ми б хотіли зробити це на місці за лінійний час. Тобто ми відвідуємо кожен вузол лише один раз і змінюємо наявну структуру дерева без використання додаткової пам’яті. Успіхів!
+Here will we create a function to invert a binary tree. Given a binary tree, we want to produce a new tree that is equivalently the mirror image of this tree. Running an inorder traversal on an inverted tree will explore the nodes in reverse order when compared to the inorder traversal of the original tree. Write a method to do this called `invert` on our binary tree. Calling this method should invert the current tree structure. Ideally, we would like to do this in-place in linear time. That is, we only visit each node once and we modify the existing tree structure as we go, without using any additional memory. Good luck!
 
 # --hints--
 
-Має існувати структура даних `BinarySearchTree`.
+Повинна існувати структура даних `BinarySearchTree`.
 
 ```js
 assert(

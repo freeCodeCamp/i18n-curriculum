@@ -8,7 +8,7 @@ dashedName: copy-array-items-using-slice
 
 # --description--
 
-接下來我們要介紹 `slice()` 方法。 `slice()` 不會修改數組，而是會複製，或者說*提取（extract）*給定數量的元素到一個新數組。 `slice()` 只接收 2 個輸入參數：第一個是開始提取元素的位置（索引），第二個是提取元素的結束位置（索引）。 提取的元素中不包括第二個參數所對應的元素。 如下示例：
+The next method we will cover is `slice()`. Rather than modifying an array, `slice()` copies or *extracts* a given number of elements to a new array, leaving the array it is called upon untouched. `slice()` takes only 2 parameters — the first is the index at which to begin extraction, and the second is the index at which to stop extraction (extraction will occur up to, but not including the element at this index). Consider this:
 
 ```js
 let weatherConditions = ['rain', 'snow', 'sleet', 'hail', 'clear'];

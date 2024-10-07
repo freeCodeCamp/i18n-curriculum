@@ -1,6 +1,6 @@
 ---
 id: 5a4b7fcdb66f799f199e11db
-title: Build a Pong Game
+title: Programmiere ein Pong-Spiel
 challengeType: 3
 forumTopicId: 302353
 dashedName: build-a-pong-game
@@ -10,21 +10,21 @@ dashedName: build-a-pong-game
 
 **Objective:** Build an app that is functionally similar to this: <https://codepen.io/satyamdev/full/pdMmBp>.
 
-**Rule #1:** Don't look at the example project's code. Figure it out for yourself.
+**Rule #1:** Schaue dir nicht den Code des Beispielprojekts an. Finden es selbst heraus.
 
-**Rule #2:** Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Gib dem Ganzen deinen persönlichen Stil.
+**Rule #2:** Erfülle die nachstehenden Benutzergeschichten und führe alle Tests durch. Verwende beliebige Bibliotheken oder APIs, die du benötigst. Gib dem Ganzen deinen persönlichen Stil.
 
-**User Story:** I can control a paddle.
+**User Story:** Ich kann ein Paddel steuern.
 
-**User Story:** The computer can control the other paddle.
+**User Story:** Der Computer kann das andere Paddel steuern.
 
-**User Story:** The computer's paddle is unbeatable. It should never miss the ball.
+**User Story:** Das Paddel des Computers ist unschlagbar. Er darf den Ball nicht verfehlen.
 
-**User Story:** The game keeps track of the player and computer's score.
+**User Story:** Das Spiel hat den Überblick über den Spieler und die Punktezahl des Computers.
 
-When you are finished, include a link to your project on CodePen and click the "I've completed this challenge" button.
+Wenn du fertig bist, füge einen Link zu deinem Projekt auf CodePen ein und klicke auf die Schaltfläche "Ich habe diese Herausforderung abgeschlossen".
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+Du kannst Feedback zu deinem Projekt erhalten, indem du es auf dem <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a> teilst.
 
 # --solutions--
 

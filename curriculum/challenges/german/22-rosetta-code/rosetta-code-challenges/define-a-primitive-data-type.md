@@ -8,12 +8,12 @@ dashedName: define-a-primitive-data-type
 
 # --description--
 
-Define a type that behaves like an integer but has a lowest valid value of 1 and a highest valid value of 10.
+Definiere einen Typ, der sich wie eine Ganzzahl verhält, aber einen niedrigsten gültigen Wert von 1 und einen höchsten gültigen Wert von 10 hat.
 
 Fehlerbehandlung:
 
 <ul>
-  <li>If you try to instantiate a <code>Num</code> with a value outside of 1 - 10, it should throw a <code>TypeError</code> with an error message of <code>'Out of range'</code>.</li>
+  <li>Wenn du versuchst, eine <code>Num</code> mit einem Wert außerhalb von 1-10 zu instanziieren, sollte ein <code>TypeError</code> mit einer Fehlermeldung von <code>'Out of range'</code> gemeldet werden.</li>
   <li>Wenn du versuchst eine <code>Num</code> mit einem Wert zu instanziieren, der keine Zahl ist, sollte ein <code>TypeError</code> mit einer Fehlermeldung von <code>'Not a Number'</code> gemeldet werden.</li>
 </ul>
 
@@ -85,13 +85,13 @@ assert.equal(new Num(3) * new Num(4), 12);
 assert.equal(new Num(3) / new Num(4), 0.75);
 ```
 
-`new Num(3) < new Num(4)` sollte wahr sein.
+`new Num(3) < new Num(4)` should be true.
 
 ```js
 assert(new Num(3) < new Num(4));
 ```
 
-`new Num(3) > new Num(4)` sollte falsch sein.
+`new Num(3) > new Num(4)` should be false.
 
 ```js
 assert(!(new Num(3) > new Num(4)));

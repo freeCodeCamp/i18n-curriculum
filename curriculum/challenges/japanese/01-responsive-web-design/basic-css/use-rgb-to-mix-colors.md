@@ -9,13 +9,13 @@ dashedName: use-rgb-to-mix-colors
 
 # --description--
 
-16 進数コードと同様に、RGB でも異なる値を組み合わせて色を混ぜることができます。
+Just like with hex code, you can mix colors in RGB by using combinations of different values.
 
 # --instructions--
 
 `style` 要素の中の 16 進数カラーコードを正しい RGB 値で置き換えてください。
 
-<table><tbody><tr><th>色</th><th>RGB</th></tr><tr><td>青</td><td><code>rgb(0, 0, 255)</code></td></tr><tr><td>赤</td><td><code>rgb(255, 0, 0)</code></td></tr><tr><td>オーキッド</td><td><code>rgb(218, 112, 214)</code></td></tr><tr><td>シエナ</td><td><code>rgb(160, 82, 45)</code></td></tr></tbody></table>
+<table><tbody><tr><th>Color</th><th>RGB</th></tr><tr><td>Blue</td><td><code>rgb(0, 0, 255)</code></td></tr><tr><td>Red</td><td><code>rgb(255, 0, 0)</code></td></tr><tr><td>Orchid</td><td><code>rgb(218, 112, 214)</code></td></tr><tr><td>Sienna</td><td><code>rgb(160, 82, 45)</code></td></tr></tbody></table>
 
 # --hints--
 

@@ -8,7 +8,7 @@ dashedName: pass-props-to-a-stateless-functional-component
 
 # --description--
 
-之前的挑戰涵蓋了關於在 React 中創建和組合 JSX 元素、函數組件和 ES6 風格的類組件的很多內容。 有了這個基礎，現在是時候看看 React 中的另一個常見特性 **props** 了。 在 React 中，可以將屬性傳遞給子組件。 假設有一個 `App` 組件，該組件渲染了一個名爲 `Welcome` 的子組件，它是一個無狀態函數組件。 可以通過以下方式給 `Welcome` 傳遞一個 `user` 屬性：
+The previous challenges covered a lot about creating and composing JSX elements, functional components, and ES6 style class components in React. With this foundation, it's time to look at another feature very common in React: **props**. In React, you can pass props, or properties, to child components. Say you have an `App` component which renders a child component called `Welcome` which is a stateless functional component. You can pass `Welcome` a `user` property by writing:
 
 ```jsx
 <App>

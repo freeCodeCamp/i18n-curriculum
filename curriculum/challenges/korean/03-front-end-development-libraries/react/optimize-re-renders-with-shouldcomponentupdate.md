@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d4036180
-title: Optimize Re-Renders with shouldComponentUpdate
+title: shouldComponentUpdate로 재렌더링 최적화
 challengeType: 6
 forumTopicId: 301398
 dashedName: optimize-re-renders-with-shouldcomponentupdate
@@ -10,15 +10,15 @@ dashedName: optimize-re-renders-with-shouldcomponentupdate
 
 So far, if any component receives new `state` or new `props`, it re-renders itself and all its children. This is usually okay. But React provides a lifecycle method you can call when child components receive new `state` or `props`, and declare specifically if the components should update or not. The method is `shouldComponentUpdate()`, and it takes `nextProps` and `nextState` as parameters.
 
-This method is a useful way to optimize performance. For example, the default behavior is that your component re-renders when it receives new `props`, even if the `props` haven't changed. You can use `shouldComponentUpdate()` to prevent this by comparing the `props`. The method must return a `boolean` value that tells React whether or not to update the component. You can compare the current props (`this.props`) to the next props (`nextProps`) to determine if you need to update or not, and return `true` or `false` accordingly.
+이 메서드는 성능을 최적화하는데 유용합니다. 예룰 들면, 컴포넌트는 새로운 `프로퍼티`를 받을 때 기본적으로 재렌더링을 합니다. `프로퍼티`가 변하지 않아도 말이죠. `shouldComponentUpdate()`로 `프로퍼티`를 비교해서 이 문제를 방지할 수 있습니다. 이 메서드는 리액트한테 컴포넌트를 업데이트할지 말지 알려주는 `boolean` 값을 반환해야 합니다. 현재 프로퍼티(`this.props`)와 다음 프로퍼티(`nextProps`)를 비교해서 업데이트가 필요한지 결정하고 `true` 혹은 `false`를 반환하면 됩니다.
 
 # --instructions--
 
-The `shouldComponentUpdate()` method is added in a component called `OnlyEvens`. Currently, this method returns `true` so `OnlyEvens` re-renders every time it receives new `props`. Modify the method so `OnlyEvens` updates only if the `value` of its new props is even. Click the `Add` button and watch the order of events in your browser's console as the lifecycle hooks are triggered.
+`OnlyEvens`라는 컴포넌트에 `shouldComponentUpdate()` 메서드가 추가되어 있습니다. 현재 이 메서드는 `true`를 반환하기 때문에 `OnlyEvens`는 새로운 `프로퍼티`를 받을 때마다 재렌더링 합니다. `OnlyEvens`를 새로운 프로퍼티의 `value`가 짝수일 때만 업데이트되도록 수정해보세요. `Add` 버튼을 클릭하고 라이프사이클 훅이 실행될 때 브라우저 콘솔에서 이벤트 순서를 확인해보세요.
 
 # --hints--
 
-The `Controller` component should render the `OnlyEvens` component as a child.
+`Controller` 컴포넌트는 `OnlyEvens`를 자식 컴포넌트로 렌더링해야 합니다.
 
 ```js
 assert(
@@ -32,7 +32,7 @@ assert(
 );
 ```
 
-The `shouldComponentUpdate` method should be defined on the `OnlyEvens` component.
+`shouldComponentUpdate` 메서드는 `OnlyEvens` 컴포넌트안에 정의되어야 합니다.
 
 ```js
 assert(
@@ -45,7 +45,7 @@ assert(
 );
 ```
 
-The `OnlyEvens` component should return an `h1` tag which renders the value of `this.props.value`.
+`OnlyEvens` 컴포넌트는 `this.props.value`의 값을 렌더링하는 `h1`를 반환해야 합니다.
 
 ```js
 (() => {
@@ -64,7 +64,7 @@ The `OnlyEvens` component should return an `h1` tag which renders the value of `
 })();
 ```
 
-`OnlyEvens` should re-render only when `nextProps.value` is even.
+`OnlyEvens`는 `nextProps.value`가 짝수일 때만 재렌더링해야 합니다.
 
 ```js
 (() => {

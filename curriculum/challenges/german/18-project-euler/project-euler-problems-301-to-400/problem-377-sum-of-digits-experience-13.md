@@ -8,19 +8,19 @@ dashedName: problem-377-sum-of-digits-experience-13
 
 # --description--
 
-There are 16 positive integers that do not have a zero in their digits and that have a digital sum equal to 5, namely:
+Es gibt 16 positive Integer, die keine Null in ihren Ziffern haben und deren digitale Summe gleich 5 ist, nämlich:
 
-5, 14, 23, 32, 41, 113, 122, 131, 212, 221, 311, 1112, 1121, 1211, 2111 and 11111.
+5, 14, 23, 32, 41, 113, 122, 131, 212, 221, 311, 1112, 1121, 1211, 2111 und 11111.
 
-Their sum is 17891.
+Ihre Summe ist 17891.
 
 Lasse $f(n)$ die Summe aller positiven ganzen Zahlen, die keine Null in ihren Ziffern haben und deren digitale Summe gleich $n$ ist, sein.
 
-Find $\displaystyle\sum_{i=1}^{17} f(13^i)$. Give the last 9 digits as your answer.
+Finde $\displaystyle\sum_{i=1}^{17} f(13^i)$. Gib als Antwort die letzten 9 Ziffern an.
 
 # --hints--
 
-`experience13()` should return `732385277`.
+`experience13()` sollte `732385277` zurückgeben.
 
 ```js
 assert.strictEqual(experience13(), 732385277);

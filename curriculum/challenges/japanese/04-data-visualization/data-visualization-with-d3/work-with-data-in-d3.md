@@ -8,7 +8,7 @@ dashedName: work-with-data-in-d3
 
 # --description--
 
-D3 ライブラリはデータ駆動型アプローチに焦点を当てています。 データセットがあるとき、D3 のメソッドを適用してデータをページ上に表示することができます。 データには多くのフォーマットがありますが、このチャレンジでは単純な数字の配列を使用します。
+The D3 library focuses on a data-driven approach. When you have a set of data, you can apply D3 methods to display it on the page. Data comes in many formats, but this challenge uses a simple array of numbers.
 
 最初のステップでは、D3 にデータを認識させます。 選択された DOM 要素に対して、`data()` メソッドを使用してそれらの要素にデータをアタッチします。 データセットは引数としてメソッドに渡されます。
 

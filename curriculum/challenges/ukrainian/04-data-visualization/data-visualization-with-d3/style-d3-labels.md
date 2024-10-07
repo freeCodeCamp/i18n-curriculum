@@ -8,7 +8,7 @@ dashedName: style-d3-labels
 
 # --description--
 
-Методи D3 можуть додавати стилі до позначок стовпчиків. Атрибут `fill` встановлює колір тексту для вузла `text`. Метод `style()` встановлює CSS правила для інших стилів, таких як `font-family` або `font-size`.
+D3 methods can add styles to the bar labels. The `fill` attribute sets the color of the text for a `text` node. The `style()` method sets CSS rules for other styles, such as `font-family` or `font-size`.
 
 # --instructions--
 

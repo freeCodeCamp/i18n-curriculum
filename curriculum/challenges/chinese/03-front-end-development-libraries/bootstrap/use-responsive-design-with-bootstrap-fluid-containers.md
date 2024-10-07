@@ -8,7 +8,7 @@ dashedName: use-responsive-design-with-bootstrap-fluid-containers
 
 # --description--
 
-之前，在 freeCodeCamp 的 HTML5 和 CSS 章节中我们构建了一个 Cat Photo App。 我们在此基础上继续学习。 这次我们将会使用最受欢迎的响应式 CSS 框架 Bootstrap 来美化它。
+In the HTML5 and CSS section of freeCodeCamp we built a Cat Photo App. Now let's go back to it. This time, we'll style it using the popular Bootstrap responsive CSS framework.
 
 Bootstrap 会根据屏幕大小来动态调整 HTML 元素的大小————因此称为 <dfn>Responsive Design</dfn>（响应式设计）。
 

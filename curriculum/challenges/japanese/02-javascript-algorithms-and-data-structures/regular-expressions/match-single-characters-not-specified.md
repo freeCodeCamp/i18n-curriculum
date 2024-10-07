@@ -8,7 +8,7 @@ dashedName: match-single-characters-not-specified
 
 # --description--
 
-ここまでは、マッチさせたい文字のセットを作成していましたが、マッチさせたくない文字のセットを作成することもできます。 このタイプの文字セットのことを<dfn>否定文字セット</dfn>と呼びます。
+So far, you have created a set of characters that you want to match, but you could also create a set of characters that you do not want to match. These types of character sets are called <dfn>negated character sets</dfn>.
 
 否定文字セットを作成するには、開始角括弧の後の、マッチさせたくない文字の前に、キャレット文字 (`^`) を置きます。
 

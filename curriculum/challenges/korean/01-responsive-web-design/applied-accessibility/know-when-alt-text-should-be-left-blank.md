@@ -9,7 +9,7 @@ dashedName: know-when-alt-text-should-be-left-blank
 
 # --description--
 
-지난 챌린지에서 `img` 태그들을 사용하려면 `alt` 속성을 필수적으로 포함해야 되는 것을 배웠습니다. 하지만 어떤 경우에는 이미지를 설명하는 캡션과 함께 그룹화되거나 장식용으로만 사용되기도 합니다. 이런 경우들에는 `alt` 텍스트가 중복되거나 불필요해 보일 수 있습니다.
+In the last challenge, you learned that including an `alt` attribute when using `img` tags is mandatory. However, sometimes images are grouped with a caption already describing them, or are used for decoration only. In these cases, `alt` text may seem redundant or unnecessary.
 
 한 사진이 텍스트 내용으로 이미 설명되어 있거나 페이지에 도움이 되지 않을 시 `img`는 여전히 `alt` 속성이 필요하지만 빈 문자열로 설정할 수 있습니다. 여기 예시가 있습니다.
 

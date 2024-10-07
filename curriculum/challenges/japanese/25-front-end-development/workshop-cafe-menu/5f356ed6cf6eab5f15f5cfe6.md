@@ -1,6 +1,6 @@
 ---
 id: 5f356ed6cf6eab5f15f5cfe6
-title: Step 20
+title: ステップ 20
 challengeType: 0
 dashedName: step-20
 ---
@@ -9,29 +9,29 @@ dashedName: step-20
 
 The `div` element is used mainly for design layout purposes unlike the other content elements you have used so far. Add a `div` element inside the `body` element and then move all the other elements inside the new `div`.
 
-Inside the opening `div` tag, add the `id` attribute with a value of `menu`.
+そして `div` の開始タグには、`id` 属性と `menu` という値を追加してください。
 
 # --hints--
 
-Your opening `<div>` tag should have an `id` attribute set to `menu`.
+`<div>` の開始タグは、`id` 属性が `menu` に設定されている必要があります。
 
 ```js
 assert.strictEqual(document.querySelector('div')?.id, 'menu');
 ```
 
-You should have a closing `</div>` tag.
+終了タグ `</div>` が必要です。
 
 ```js
 assert(code.match(/<\/div>/i));
 ```
 
-You should not change your existing `body` element. Make sure you did not delete the closing tag.
+既存の `body` 要素を変更しないでください。 終了タグを削除していないか確認してください。
 
 ```js
 assert.lengthOf(document.querySelectorAll('body'), 1);
 ```
 
-Your `div` tag should be nested in the `body`.
+`div` タグは `body` の中にネストされている必要があります。
 
 ```js
 assert.equal(document.querySelector('div')?.parentElement?.tagName, 'BODY');

@@ -8,7 +8,7 @@ dashedName: use-default-props
 
 # --description--
 
-React 還有一個設置默認 props 的選項。 可以將默認 props 作爲組件本身的屬性分配給組件，React 會在必要時分配默認 prop。 如果沒有顯式的提供任何值，這允許指定 prop 值應該是什麼。 例如，如果聲明 `MyComponent.defaultProps = { location: 'San Francisco' }`，即定義一個 location 屬性，並且其值在沒有另行制定的情況下被設置爲字符串 `San Francisco`。 如果 props 未定義，則 React 會分配默認 props，但如果你將 `null` 作爲 prop 的值，它將保持 `null`。
+React also has an option to set default props. You can assign default props to a component as a property on the component itself and React assigns the default prop if necessary. This allows you to specify what a prop value should be if no value is explicitly provided. For example, if you declare `MyComponent.defaultProps = { location: 'San Francisco' }`, you have defined a location prop that's set to the string `San Francisco`, unless you specify otherwise. React assigns default props if props are undefined, but if you pass `null` as the value for a prop, it will remain `null`.
 
 # --instructions--
 

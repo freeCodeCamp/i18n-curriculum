@@ -8,7 +8,7 @@ dashedName: make-images-mobile-responsive
 
 # --description--
 
-우선 기존 이미지 아래 새로운 이미지를 추가하세요. 이미지의 `src` 속성을 `https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg`로 설정하세요.
+First, add a new image below the existing one. Set its `src` attribute to `https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg`.
 
 이 이미지가 휴대전화 화면의 너비와 정확히 같다면 좋을 것입니다.
 

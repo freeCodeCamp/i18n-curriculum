@@ -14,7 +14,7 @@ dashedName: creating-a-convolutional-neural-network
 
 ## --text--
 
-Preencha as lacunas abaixo para completar a arquitetura para uma rede neural convolucional:
+Fill in the blanks below to complete the architecture for a convolutional neural network:
 
 ```py
 model = models.__A__()

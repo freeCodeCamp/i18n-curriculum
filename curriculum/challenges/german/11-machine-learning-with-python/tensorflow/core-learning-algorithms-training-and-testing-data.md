@@ -1,6 +1,6 @@
 ---
 id: 5e8f2f13c4cdbe86b5c72d8b
-title: 'Core Learning Algorithms: Training and Testing Data'
+title: 'Kernlernalgorithmen: Trainings- und Testdaten'
 challengeType: 11
 videoId: wz9J1slsi7I
 bilibiliIds:
@@ -18,15 +18,15 @@ What is categorical data?
 
 ## --answers--
 
-Another term for one-hot encoding.
+Ein anderer Begriff für One-Hot-Codierung.
 
 ---
 
-Any data that is not numeric.
+Alle Daten, die nicht numerisch sind.
 
 ---
 
-Any data that is represented numerically.
+Alle Daten, die numerisch dargestellt werden.
 
 ## --video-solution--
 

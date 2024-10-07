@@ -8,7 +8,7 @@ dashedName: render-state-in-the-user-interface
 
 # --description--
 
-コンポーネントの初期状態を定義したら、レンダーされる UI に、そのコンポーネントの任意の部分を表示することができます。 コンポーネントがステートフルの場合は、コンポーネントから常に自身の `render()` メソッドの中で `state` のデータにアクセスできます。 データへのアクセスには `this.state` を使用できます。
+Once you define a component's initial state, you can display any part of it in the UI that is rendered. If a component is stateful, it will always have access to the data in `state` in its `render()` method. You can access the data with `this.state`.
 
 render メソッドの `return` の中で state 値にアクセスしたい場合は、値を中括弧で囲む必要があります。
 

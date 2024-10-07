@@ -8,7 +8,7 @@ dashedName: use-the-s-tag-to-strikethrough-text
 
 # --description--
 
-テキストの文字を水平線で横切って取り消し線を引くには `s` タグを使用することができます。 これは、テキストのその部分が無効になったことを示します。 `s` タグを使うと、ブラウザは CSS の `text-decoration: line-through;` を要素に適用します。
+To strikethrough text, which is when a horizontal line cuts across the characters, you can use the `s` tag. It shows that a section of text is no longer valid. With the `s` tag, the browser applies the CSS of `text-decoration: line-through;` to the element.
 
 # --instructions--
 

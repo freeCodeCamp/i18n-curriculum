@@ -8,7 +8,7 @@ dashedName: caesars-cipher
 
 # --description--
 
-가장 간단하고 널리 알려진 <dfn>암호</dfn> 중 하나인 <dfn>시저 암호</dfn>는 <dfn>이동 암호</dfn>라고도 알려져 있습니다. 이동 암호에서는 문자의 의미가 일정량만큼 이동 됩니다.
+One of the simplest and most widely known <dfn>ciphers</dfn> is a <dfn>Caesar cipher</dfn>, also known as a <dfn>shift cipher</dfn>. In a shift cipher the meanings of the letters are shifted by some set amount.
 
 현대의 일반적인 사용 예로는 <a href="https://www.freecodecamp.org/news/how-to-code-the-caesar-cipher-an-introduction-to-basic-encryption-3bf77b4e19f7/" target="_blank" rel="noopener noreferrer nofollow">ROT13</a> 암호가 있으며, 여기서는 문자의 값이 13자리 이동 됩니다. 따라서 `A ↔ N`, `B ↔ O` 등으로 변환됩니다.
 

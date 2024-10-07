@@ -8,26 +8,26 @@ dashedName: secure-real-time-multiplayer-game
 
 # --description--
 
-使用 HTML Canvas API 和 Socket.io 開發一個功能上類似於 <a href="https://secure-real-time-multiplayer-game.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://secure-real-time-multiplayer-game.freecodecamp.rocks/</a> 的 2D 實時多人遊戲。 在這個項目中，你將使用以下方法之一編寫你的代碼：
+Develop a 2D real time multiplayer game using the HTML Canvas API and Socket.io that is functionally similar to this: <a href="https://secure-real-time-multiplayer-game.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://secure-real-time-multiplayer-game.freecodecamp.rocks/</a>. Working on this project will involve you writing your code using one of the following methods:
 
--   克隆<a href="https://github.com/freeCodeCamp/boilerplate-project-secure-real-time-multiplayer-game/" target="_blank" rel="noopener noreferrer nofollow">這個 GitHub 倉庫</a>，並在本地完成你的項目。
+-   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-secure-real-time-multiplayer-game/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
 -   Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-secure-real-time-multiplayer-game/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete your project.
--   使用您選擇的站點生成器來完成項目。 需要確定包含了我們 GitHub 倉庫的所有文件。
+-   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
 
 # --instructions--
 
-創建一個安全的多人遊戲，每名玩家可以移動他們的角色，並且這個遊戲至少提供了一個可收集的道具，玩家的排名是根據他們的分數計算的。
+Create a secure multiplayer game in which each player can move their avatar, there is at least one collectible item, and the rank of the players is calculated based on their score.
 
-有關詳細信息，請參考下面的測試。
+For details consult the tests below.
 
-請確保你的遊戲是安全的！ 包含以下安全措施：
+Make sure that your game is secure! Include these security measures:
 
-- 客戶端不能猜測/嗅探 MIME 類型
+- The client should not be able to guess/sniff the MIME type
 - 防止 XSS 攻擊
 - 不要在客戶端中緩存網站的任何信息
 - 在請求頭中聲明網站是由 `PHP 7.4.3` 提供技術支持
 
-**注意：** `helmet@^3.21.3` 是需求中所要求的。 這意味着你將需要使用之前版本的 Helmet 文檔，來了解如何實現需求。
+**Note**: `helmet@^3.21.3` is needed for the user stories. This means you will need to use the previous version of Helmet's docs, for information on how to achieve the user stories.
 
 # --hints--
 
@@ -43,91 +43,91 @@ dashedName: secure-real-time-multiplayer-game
 };
 ```
 
-多名玩家可以連接到同一臺服務器玩這個遊戲。
+Multiple players can connect to a server and play.
 
 ```js
 
 ```
 
-每名玩家都有一個角色。
+Each player has an avatar.
 
 ```js
 
 ```
 
-每名玩家都由 `Player.mjs` 中的 `Player` 類創建的對象表示
+Each player is represented by an object created by the `Player` class in `Player.mjs`.
 
 ```js
 
 ```
 
-至少，每個玩家對象都應該包含一個唯一的 `id`、一個`score`，以及代表玩家當前位置的 `x` 和 `y` 座標。
+At a minimum, each player object should contain a unique `id`, a `score`, and `x` and `y` coordinates representing the player's current position.
 
 ```js
 
 ```
 
-遊戲中至少有一種可收集道具。 在 `Collectible.mjs` 中完成 `Collectible` 類來實現這一點。
+The game has at least one type of collectible item. Complete the `Collectible` class in `Collectible.mjs` to implement this.
 
 ```js
 
 ```
 
-至少，由 `Collectible` 類創建的每個可收集物品對象應該包含一個唯一的 `id`、一個 `value` 和代表物品的當前位置 `x` 和 `y` 座標。
+At a minimum, each collectible item object created by the `Collectible` class should contain a unique `id`, a `value`, and `x` and `y` coordinates representing the item's current position.
 
 ```js
 
 ```
 
-玩家可以使用 WASD 和/或箭頭鍵移動他們的角色。 完成 `Player.mjs` 中的 `movePlayer` 方法來實現這一功能。
+Players can use the WASD and/or arrow keys to move their avatar. Complete the `movePlayer` method in `Player.mjs` to implement this.
 
 ```js
 
 ```
 
-`movePlayer` 方法應該接受兩個參數：一個由 “up”、“down”、“left” 或 “right” 組成的字符串，以及一個表示玩家位置應該改變的像素數量的數字。 `movePlayer` 應該調整被調用的玩家對象的 `x` 和 `y` 座標。
+The `movePlayer` method should accept two arguments: a string of "up", "down", "left", or "right", and a number for the amount of pixels the player's position should change. `movePlayer` should adjust the `x` and `y` coordinates of the player object it's called from.
 
 ```js
 
 ```
 
-玩家的分數應該用來計算他們與其他玩家相比的排名。 完成 `Player` 類中的 `calculateRank` 方法來實現這個功能。
+The player's score should be used to calculate their rank among the other players. Complete the `calculateRank` method in the `Player` class to implement this.
 
 ```js
 
 ```
 
-`calculateRank` 方法應該接受一個代表所有連接的玩家的對象數組，並返回字符串 `Rank: currentRanking/totalPlayers`（排名：當前排名/總玩家數）。 舉個例子，在一個兩人遊戲中，如果玩家 A 有 3 分，玩家 B 有 5 分，那麼玩家 A 的 `calculateRank` 應該返回 `Rank: 2/2`。
+The `calculateRank` method should accept an array of objects representing all connected players and return the string `Rank: currentRanking/totalPlayers`. For example, in a game with two players, if Player A has a score of 3 and Player B has a score of 5, `calculateRank` for Player A should return `Rank: 2/2`.
 
 ```js
 
 ```
 
-玩家可以與收集道具發生碰撞。 完成 `Player.mjs` 中的 `collision` 方法實現這一功能。
+Players can collide with a collectible item. Complete the `collision` method in `Player.mjs` to implement this.
 
 ```js
 
 ```
 
-`collision` 方法應該接受可收集物品的對象作爲參數。 如果玩家的角色與道具重合，`collision` 方法應該返回 `true`。
+The `collision` method should accept a collectible item's object as an argument. If the player's avatar intersects with the item, the `collision` method should return `true`.
 
 ```js
 
 ```
 
-所有玩家保持同步。
+All players are kept in sync.
 
 ```js
 
 ```
 
-玩家可以在任何時候退出遊戲。
+Players can disconnect from the game at any time.
 
 ```js
 
 ```
 
-防止客戶端嘗試猜測/嗅探 MIME 類型。
+Prevent the client from trying to guess / sniff the MIME type.
 
 ```js
 async (getUserInput) => {
@@ -137,7 +137,7 @@ async (getUserInput) => {
 };
 ```
 
-防止跨站腳本（XSS）攻擊。
+Prevent cross-site scripting (XSS) attacks.
 
 ```js
 async (getUserInput) => {
@@ -147,7 +147,7 @@ async (getUserInput) => {
 };
 ```
 
-網站上的任何東西都不會被緩存到客戶端中。
+Nothing from the website is cached in the client.
 
 ```js
 async (getUserInput) => {
@@ -163,7 +163,7 @@ async (getUserInput) => {
 };
 ```
 
-在請求頭中聲明該網站由 “PHP 7.4.3” 提供技術支持，儘管它並非如此（作爲一種安全措施）。
+The headers say that the site is powered by "PHP 7.4.3" even though it isn't (as a security measure).
 
 ```js
 async (getUserInput) => {

@@ -9,7 +9,7 @@ dashedName: comment-your-javascript-code
 
 # --description--
 
-إن التعليقات أسطر من الكود التي سيتجاهلها JavaScript عمداً. إن التعليقات طريقة رائعة لترك الملاحظات لنفسك وللأشخاص الآخرين الذين سيحتاجون لاحقاً إلى معرفة ما يفعله ذلك الكود.
+Comments are lines of code that JavaScript will intentionally ignore. Comments are a great way to leave notes to yourself and to other people who will later need to figure out what that code does.
 
 هناك طريقتان لكتابة التعليقات في JavaScript:
 

@@ -9,7 +9,7 @@ dashedName: use-attribute-selectors-to-style-elements
 
 # --description--
 
-我们已经通过设置元素的 `id` 和 `class` 来显示想要的样式。 这就是 ID 选择器和 Class 选择器。 另外，也还有其他的 CSS 选择器可以让我们给特定的元素设置样式。
+You have been adding `id` or `class` attributes to elements that you wish to specifically style. These are known as ID and class selectors. There are other CSS Selectors you can use to select custom groups of elements to style.
 
 让我们再次通过猫咪图片项目来练习 CSS 选择器。
 

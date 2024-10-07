@@ -8,7 +8,7 @@ dashedName: implement-bubble-sort
 
 # --description--
 
-Це перше із декількох завдань, які стосуються алгоритмів сортування. Нам надано масив несортованих елементів, і нам потрібно повернути впорядкований масив. Ми побачимо кілька різних методів для цього і вивчимо певні компроміси між цими різними підходами. Хоча більшість сучасних мов мають вбудовані методи сортування для таких операцій, все ж важливо зрозуміти деякі загальні підходи та дізнатися, як їх можна реалізувати.
+This is the first of several challenges on sorting algorithms. Given an array of unsorted items, we want to be able to return a sorted array. We will see several different methods to do this and learn some tradeoffs between these different approaches. While most modern languages have built-in sorting methods for operations like this, it is still important to understand some of the common basic approaches and learn how they can be implemented.
 
 Зараз ми розглянемо сортування бульбашкою. Метод сортування бульбашкою починається на початку несортованого масиву та перекидає несортовані значення в кінець, повторюючи масив, доки він не буде повністю відсортований. Це робиться шляхом порівняння суміжних елементів і їх заміни місцями, якщо вони не відповідають критеріям. Метод продовжує цикл, поки не відбудеться заміна місць та масив буде відсортовано.
 

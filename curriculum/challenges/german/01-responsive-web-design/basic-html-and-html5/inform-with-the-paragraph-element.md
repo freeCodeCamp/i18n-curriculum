@@ -9,7 +9,7 @@ dashedName: inform-with-the-paragraph-element
 
 # --description--
 
-Das `p` Element ist das bevorzugte Element für den Absatztext auf Websites. `p` ist die Abkürzung für "paragraph" (engl.).
+The `p` element is the preferred element for paragraph text on websites. `p` is short for "paragraph".
 
 Du kannst ein Absatzelement wie folgt erstellen:
 

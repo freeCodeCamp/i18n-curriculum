@@ -8,7 +8,7 @@ dashedName: add-key-value-pairs-to-javascript-objects
 
 # --description--
 
-最も基本的なオブジェクトは、<dfn>キーと値</dfn>のペアのみの集合です。 言い換えれば、これは<dfn>プロパティ</dfn> ( <dfn>キー</dfn>) と呼ばれる一意の識別子にマッピングされるデータ (<dfn>値</dfn>) の集まりです。 例を見てみましょう。
+At their most basic, objects are just collections of <dfn>key-value</dfn> pairs. In other words, they are pieces of data (<dfn>values</dfn>) mapped to unique identifiers called <dfn>properties</dfn> (<dfn>keys</dfn>). Take a look at an example:
 
 ```js
 const tekkenCharacter = {

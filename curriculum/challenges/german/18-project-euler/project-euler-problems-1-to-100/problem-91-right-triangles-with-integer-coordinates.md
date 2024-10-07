@@ -8,11 +8,11 @@ dashedName: problem-91-right-triangles-with-integer-coordinates
 
 # --description--
 
-The points ${P}(x_1, y_1)$ and ${Q}(x_2, y_2)$ are plotted at integer coordinates and are joined to the origin, ${O}(0, 0)$, to form ${\Delta}OPQ$.
+Die Punkte ${P}(x_1, y_1)$ und ${Q}(x_2, y_2)$ werden an ganzzahligen Koordinaten aufgetragen und mit dem Ursprung ${O}(0, 0)$ verbunden, um ${\Delta}OPQ$ zu bilden.
 
 <img alt="ein Diagramm, das die Punkte P (x_1, y_1) und Q(x_2, y_2) mit ganzzahligen Koordinaten aufzeichnet, die mit dem Ursprung O (0, 0) verbunden sind" src="https://cdn-media-1.freecodecamp.org/project-euler/right-triangles-integer-coordinates-1.png" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-There are exactly fourteen triangles containing a right angle that can be formed when each coordinate lies between 0 and 2 inclusive; that is, $0 ≤ x_1, y_1, x_2, y_2 ≤ 2$.
+Es gibt genau vierzehn Dreiecke, die einen rechten Winkel enthalten, der gebildet werden kann, wenn jede Koordinate zwischen 0 und einschließlich 2 liegt; das heißt, $0 ≤ x_1, y_1, x_2, y_2 ≤ 2$.
 
 <img alt="ein Diagramm mit den 14 Dreiecken, die einen rechten Winkel enthalten und gebildet werden können, wenn jede Koordinate zwischen 0 und 2 liegt" src="https://cdn-media-1.freecodecamp.org/project-euler/right-triangles-integer-coordinates-2.png" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 

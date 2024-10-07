@@ -9,7 +9,7 @@ dashedName: style-the-html-body-element
 
 # --description--
 
-이제 다시 시작하여 CSS 상속에 대해 이야기해 봅시다.
+Now let's start fresh and talk about CSS inheritance.
 
 모든 HTML 페이지에는 `body` 요소가 있습니다.
 
@@ -27,7 +27,7 @@ body {
 
 # --hints--
 
-`body` 요소는 검은색 `background-color`을 가져야 합니다.
+`body` 요소는 검정색의 `background-color`를 가져야 합니다.
 
 ```js
 assert($('body').css('background-color') === 'rgb(0, 0, 0)');

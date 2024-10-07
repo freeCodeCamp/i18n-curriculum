@@ -9,7 +9,7 @@ dashedName: create-a-set-of-checkboxes
 
 # --description--
 
-<dfn>checkboxes</dfn>（複選框）就好比多項選擇題，正確答案有多個。
+Forms commonly use <dfn>checkboxes</dfn> for questions that may have more than one answer.
 
 複選框是 `input` 選擇框的一種類型。
 

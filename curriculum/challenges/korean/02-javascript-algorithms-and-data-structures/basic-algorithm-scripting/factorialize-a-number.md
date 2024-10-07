@@ -8,13 +8,13 @@ dashedName: factorialize-a-number
 
 # --description--
 
-주어진 정수의 계승을 반환하세요.
+Return the factorial of the provided integer.
 
 정수 `n`이 주어졌을 때, 계승은 `n`보다 작거나 같은 모든 양수의 곱입니다.
 
 계승은 주로 `n!`으로 표기합니다.
 
-예시: `5! = 1 * 2 * 3 * 4 * 5 = 120`
+For example: `5! = 1 * 2 * 3 * 4 * 5 = 120`
 
 함수에는 오직 0보다 크거나 같은 정수만 제공됩니다.
 

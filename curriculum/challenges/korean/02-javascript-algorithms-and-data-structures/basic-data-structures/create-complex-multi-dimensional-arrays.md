@@ -8,7 +8,7 @@ dashedName: create-complex-multi-dimensional-arrays
 
 # --description--
 
-멋져요! 이제 배열에 관해 많은 것을 배웠습니다! 이것은 꽤 높은 수준의 개요였습니다. 배열을 사용하는 데 배워야 할 더 많은 내용이 있고, 이 중 많은 부분은 이후 섹션에서 볼 것입니다. 그러나 <dfn>객체(Objects)</dfn>를 살펴보기 전에 배열이 이전 도전에서 봐왔던 것보다 어떻게 조금 더 복잡해질 수 있는지 한 번 더 보도록 하겠습니다.
+Awesome! You have just learned a ton about arrays! This has been a fairly high level overview, and there is plenty more to learn about working with arrays, much of which you will see in later sections. But before moving on to looking at <dfn>Objects</dfn>, let's take one more look, and see how arrays can become a bit more complex than what we have seen in previous challenges.
 
 데이터 구조로서 배열의 강력한 기능 중 하나는 배열이 다른 배열을 포함하거나 또는 완전히 다른 배열들로만 구성될 수 있다는 것입니다. 우리는 이전 도전에서 배열이 포함된 배열을 보았지만, 그것은 꽤 간단한 것이었습니다. 그러나 배열은 다른 배열을 포함하거나 각자 자체의 임의의 깊이를 가진 무한한 깊이의 배열을 포함할 수 있습니다. 이런 식으로 배열은 아주 빠르게 <dfn>다차원</dfn> 또는 중첩된 배열이라고도 하는 매우 복잡한 데이터 구조가 될 수 있습니다. 다음 예를 고려해 보겠습니다.
 

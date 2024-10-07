@@ -14,12 +14,12 @@ As a reminder, this project is being built upon the following starter project on
 
 `tests/2_functional-tests.js` 内の `'Submit the surname "Vespucci" in the HTML form'` テスト (`// #6`) で、以下を自動化してください。
 
-1.  フォームに姓 `Vespucci` を入力します。
-2.  送信ボタンを押します。
+1.  Fill in the form with the surname `Vespucci`
+2.  Press the submit button
 
 `pressButton` コールバック内で以下を実行してください。
 
-1.  ステータスが OK `200` であることをアサートします。
+1.  Assert that status is OK `200`
 2.  要素 `span#name` 内のテキストが `'Amerigo'` であることをアサートします。
 3.  要素 `span#surname` 内のテキストが `'Vespucci'` であることをアサートします。
 4.  要素 `span#dates` が存在し、そのカウントが `1` であることをアサートします。

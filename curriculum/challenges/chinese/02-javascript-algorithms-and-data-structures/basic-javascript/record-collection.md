@@ -8,18 +8,18 @@ dashedName: record-collection
 
 # --description--
 
-你将创建一个帮助维护音乐专辑集的函数。 这个集合是一个包含多个相册的对象，这些相册也是对象。 每张专辑在集合中以唯一的 `id` 作为属性名来表示。 在每个专辑对象中，有各种描述专辑信息的属性。 并非所有专辑都有完整的信息。
+You are creating a function that aids in the maintenance of a musical album collection. The collection is organized as an object that contains multiple albums which are also objects. Each album is represented in the collection with a unique `id` as the property name. Within each album object, there are various properties describing information about the album. Not all albums have complete information.
 
 `updateRecords` 函数有 4 个参数，即以下参数：
 
--   `records` - 一个包含多个专辑的对象
--   `id` - 一个数字，代表 `records` 对象中特定的专辑
--   `prop` - 一个字符串，代表相册属性名称
--   `value` - 一个字符串，包含用来更新相册属性的信息
+-   `records` - an object containing several individual albums
+-   `id` - a number representing a specific album in the `records` object
+-   `prop` - a string representing the name of the album’s property to update
+-   `value` - a string containing the information used to update the album’s property
 
 使用下面的规则完成函数来修改传递给函数的对象。
 
--   你的函数必须始终返回整个 `records` 对象。
+-   Your function must always return the entire `records` object.
 -   如果 `value` 是空字符串，从专辑里删除指定的 `prop`。
 -   如果 `prop` 不是 `tracks`，并且 `value` 不是一个空字符串，将 `value` 赋给那个专辑的 `prop`。
 -   如果 `prop` 是 `tracks` 并且 `value` 不是空字符串，但是专辑没有 `tracks` 属性，为该属性创建一个空数组并添加 `value` 作为其元素。

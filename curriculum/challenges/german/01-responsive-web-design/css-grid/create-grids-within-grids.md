@@ -8,7 +8,7 @@ dashedName: create-grids-within-grids
 
 # --description--
 
-Das Umwandeln eines Elements in ein Raster (Grid) wirkt sich nur auf das Verhalten seiner direkten Nachfahren aus. Wenn du also einen direkten Nachfahren (descendant) in ein Raster verwandelst, hast du ein Raster innerhalb eines Rasters.
+Turning an element into a grid only affects the behavior of its direct descendants. So by turning a direct descendant into a grid, you have a grid within a grid.
 
 Indem du zum Beispiel die Eigenschaften `display` und `grid-template-columns` des Elements mit der Klasse `item3` setzt, erzeugst du ein Raster innerhalb deines Rasters.
 

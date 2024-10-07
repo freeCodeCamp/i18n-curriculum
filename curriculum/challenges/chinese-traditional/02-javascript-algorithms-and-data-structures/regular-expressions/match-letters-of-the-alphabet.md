@@ -8,7 +8,7 @@ dashedName: match-letters-of-the-alphabet
 
 # --description--
 
-瞭解瞭如何使用字符集（<dfn>character sets</dfn>）來指定要匹配的一組字符串，但是有時需要匹配大量字符（例如，字母表中的每個字母）。 有一種寫法可以讓實現這個功能變得簡短。
+You saw how you can use <dfn>character sets</dfn> to specify a group of characters to match, but that's a lot of typing when you need to match a large range of characters (for example, every letter in the alphabet). Fortunately, there is a built-in feature that makes this short and simple.
 
 在字符集中，可以使用連字符（`-`）來定義要匹配的字符範圍。
 

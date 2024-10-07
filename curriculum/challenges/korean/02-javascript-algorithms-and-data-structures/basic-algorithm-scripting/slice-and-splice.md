@@ -8,7 +8,7 @@ dashedName: slice-and-splice
 
 # --description--
 
-두 배열과 인덱스가 주어집니다.
+You are given two arrays and an index.
 
 첫 번째 배열의 모든 요소를 두 번째 배열에 순서대로 복사합니다.
 

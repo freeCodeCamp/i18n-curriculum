@@ -8,7 +8,7 @@ dashedName: dynamically-set-the-coordinates-for-each-bar
 
 # --description--
 
-上個挑戰在 `svg` 元素中爲 `dataset` 的每一個數據點創建並且添加了一個矩形，其中一個矩形表示一組， 但是它們相互重疊。
+The last challenge created and appended a rectangle to the `svg` element for each point in `dataset` to represent a bar. Unfortunately, they were all stacked on top of each other.
 
 矩形的位置是由 `x` 和 `y` 屬性決定的。 它們告訴 D3 在 `svg` 區域的哪個位置開始繪製圖形。 上個挑戰將它們都設置爲 0，因此所有條形都在左上角。
 

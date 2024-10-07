@@ -15,11 +15,11 @@ Por exemplo, você pode dizer, `I enjoy playing video games` se jogar video game
 
 # --fillInTheBlank--
 
-## --frase--
+## --sentence--
 
 `I think she has a passion for technology and she BLANK leading our team.`
 
-## --espaços em branco--
+## --blanks--
 
 `enjoys`
 
@@ -27,7 +27,7 @@ Por exemplo, você pode dizer, `I enjoy playing video games` se jogar video game
 
 Que palavra você usaria para dizer que Maria encontra felicidade em liderar a equipe? É a mesma palavra usada quando você se diverte ou gosta de fazer uma atividade.
 
-# --cena--
+# --scene--
 
 ```json
 {

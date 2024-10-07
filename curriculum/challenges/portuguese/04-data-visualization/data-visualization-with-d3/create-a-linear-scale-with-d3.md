@@ -8,7 +8,7 @@ dashedName: create-a-linear-scale-with-d3
 
 # --description--
 
-O gráfico de barras e o diagrama de dispersão traçam os dados diretamente no SVG. No entanto, se a altura de uma barra ou de um dos pontos de dados for maior que os valores de altura ou de largura do SVG, acabaria saindo dá área do SVG.
+The bar and scatter plot charts both plotted data directly onto the SVG. However, if the height of a bar or one of the data points were larger than the SVG height or width values, it would go outside the SVG area.
 
 No D3, há escalas para ajudar a traçar os dados. As `scales` são funções que dizem ao programa como mapear um conjunto de pontos de dados brutos para os pixels do SVG.
 

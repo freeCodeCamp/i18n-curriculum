@@ -8,7 +8,7 @@ dashedName: create-grids-within-grids
 
 # --description--
 
-Transformar um elemento em um grid afeta apenas o comportamento de seus elementos filhos diretos. Portanto, ao transformar um elemento filho em um grid, você tem um grid dentro de um grid.
+Turning an element into a grid only affects the behavior of its direct descendants. So by turning a direct descendant into a grid, you have a grid within a grid.
 
 Por exemplo, ao definir as propriedades `display` e `grid-template-columns` do elemento com a classe `item3`, você cria um grid dentro de um grid.
 

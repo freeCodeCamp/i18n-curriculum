@@ -9,7 +9,7 @@ dashedName: use-bracket-notation-to-find-the-nth-character-in-a-string
 
 # --description--
 
-<dfn>ブラケット記法</dfn>を使用して、文字列内の他の位置の文字を取得することもできます。
+You can also use <dfn>bracket notation</dfn> to get the character at other positions within a string.
 
 コンピューターでは `0` から数え始めることに注意してください。つまり、最初の文字は実際にはゼロ番目の文字になります。
 
@@ -26,7 +26,7 @@ const secondLetterOfFirstName = firstName[1];
 
 ブラケット記法を使用して、`lastName` 変数の 3 番目の文字と等しくなるように、`thirdLetterOfLastName` を設定してみましょう。
 
-**ヒント:** 解答できない場合は上記の例を参考にしてください。
+**ヒント:** 難しく感じる場合は上記の例を参考にしてください。
 
 # --hints--
 

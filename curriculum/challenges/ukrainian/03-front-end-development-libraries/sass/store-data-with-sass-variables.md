@@ -8,7 +8,7 @@ dashedName: store-data-with-sass-variables
 
 # --description--
 
-Sass відрізняється від CSS тим, що використовує змінні. Їх оголошують та налаштовують для зберігання даних, схоже до JavaScript.
+One feature of Sass that's different than CSS is it uses variables. They are declared and set to store data, similar to JavaScript.
 
 Змінні у JavaScript визначають за допомогою ключових слів `let` та `const`. Змінні у Sass починаються з `$`, після якого пишуть ім’я змінної.
 

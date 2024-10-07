@@ -8,29 +8,29 @@ dashedName: metric-imperial-converter
 
 # --description--
 
-构建一个 JavaScript 全栈应用，在功能上与 <a href="https://metric-imperial-converter.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://metric-imperial-converter.freecodecamp.rocks/</a> 类似。 可以采用下面的任意一种方式完成这个挑战：
+Build a full stack JavaScript app that is functionally similar to this: <a href="https://metric-imperial-converter.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://metric-imperial-converter.freecodecamp.rocks/</a>. Working on this project will involve you writing your code using one of the following methods:
 
-- 克隆<a href="https://github.com/freeCodeCamp/boilerplate-project-metricimpconverter/" target="_blank" rel="noopener noreferrer nofollow">这个 GitHub 仓库</a>，并在本地完成你的项目。
+- Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-metricimpconverter/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
 - Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-metricimpconverter/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete your project.
-- 使用一个你喜欢的站点生成器来完成项目。 需要确定包含了我们 GitHub 仓库的所有文件。
+- Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
 
 **Note:** This project's tests do not work when using `glitch.com`.
 
 # --instructions--
 
-- 在 `/controllers/convertHandler.js` 中完成必要的转换逻辑
+- Complete the necessary conversion logic in `/controllers/convertHandler.js`
 - 在 `/routes/api.js` 中完成必要的路由
 - 复制 `sample.env` 文件到 `.env` 并按需设置变量
 - To run the tests automatically, add `NODE_ENV=test` in your `.env` file
-- 使用 `npm run test` 命令在 console 中运行测试。
+- To run the tests in the console, use the command `npm run test`.
 
-Write the following tests in `tests/1_unit-tests.js`:
+在 `tests/1_unit-tests.js` 中写下以下测试：
 
-- `convertHandler` 应该正确地读取整个数字输入。
-- `convertHandler` 应该正确地读取一个十进制数字输入。
+- `convertHandler` should correctly read a whole number input.
+- `convertHandler` 应该正确地读取十进制数字输入。
 - `convertHandler` 应该正确地读取一个分数输入。
 - `convertHandler` 应该正确地读取一个带小数点的分数输入。
-- `convertHandler` 当输入双分数时应该返回错误（`3/2/3`）。
+- `convertHandler` 当输入双分数时应该返回错误 ( `3/2/3`)。
 - `convertHandler` 在没有提供数字输入时应该默认为 `1`。
 - `convertHandler` 应该正确地读取每个有效的单位输入。
 - `convertHandler` 在输入无效单位时应返回错误。
@@ -43,17 +43,17 @@ Write the following tests in `tests/1_unit-tests.js`:
 - `convertHandler` 应该正确地将 `lbs` 转换为 `kg`。
 - `convertHandler` 应该正确地将 `kg` 转换为 `lbs`。
 
-在 `tests/2_functional-tests.js` 中编写以下测试：
+在 `tests/2_functional-tests.js` 中编写下以下测试：
 
-- 转换一个有效的输入例如 `10L`：`GET` 请求到 `/api/convert`。
-- 转换一个无效的输入例如 `32g`：`GET` 请求到 `/api/convert`。
-- 转换一个无效的数字例如 `3/7.2/4kg`：`GET` 请求到 `/api/convert`。
-- 转换一个无效的数字和单位例如 `3/7.2/4kilomegagram`：`GET` 请求到 `/api/convert`。
-- 转换时没有数字，例如 `kg`：`GET` 请求到 `/api/convert`。
+- Convert a valid input such as `10L`: `GET` request to `/api/convert`.
+- 转换无效的输如 `32g`: `GET` 请求到 `/api/convert`.
+- 转换无效的数字，例如 `3/7.2/4kg`: `GET` 请求到 `/api/convert`。
+- 转换无效的数字和单位如 `3/7.2/4kilomegagram`: `GET` 请求到 `/api/convert`.
+- 转换时没有数字，例如 `kg`: `GET` 请求到 `/api/convert`。
 
 # --hints--
 
-你应该提交你自己的项目，而不是示例 URL
+你可以提交你自己的项目，而不是示例的 URL。
 
 ```js
 getUserInput => {
@@ -65,13 +65,13 @@ getUserInput => {
 };
 ```
 
-You can `GET` `/api/convert` with a single parameter containing an accepted number and unit and have it converted. (Hint: Split the input by looking for the index of the first character which will mark the start of the unit)
+通过 `GET` 请求 `/api/convert`，传入数字和单位的单个参数，可以将其转换。 （提示：通过寻找第一个字符的索引来分割输入，这将标记单位的开始）
 
 ```js
 
 ```
 
-You can convert `'gal'` to `'L'` and vice versa. (1 gal to 3.78541 L)
+可以将 `'gal'` 转换为 `'L'`，反之亦然。 (1 gal to 3.78541 L)
 
 ```js
 async getUserInput => {
@@ -94,7 +94,7 @@ async getUserInput => {
 };
 ```
 
-You can convert `'lbs'` to `'kg'` and vice versa. (1 lbs to 0.453592 kg)
+可以将 `'lbs'` 转换为 `'kg'`，反之亦然。 (1 lbs to 0.453592 kg)
 
 ```js
 async getUserInput => {
@@ -117,7 +117,7 @@ async getUserInput => {
 };
 ```
 
-You can convert `'mi'` to `'km'` and vice versa. (1 mi to 1.60934 km)
+你可以将 `'mi'` 转换为 `'km'` 反之亦然。 (1 mi to 1.60934 km)
 
 ```js
 async getUserInput => {
@@ -140,7 +140,7 @@ async getUserInput => {
 };
 ```
 
-All incoming units should be accepted in both upper and lower case, but should be returned in both the `initUnit` and `returnUnit` in lower case, except for liter, which should be represented as an uppercase `'L'`.
+所有输入单位以大写和小写形式都应该被接受，但在 `initUnit` 和 `returnUnit` 中应以小写形式返回，升除外，应将其表示为大写的 `'L'`。
 
 ```js
 async getUserInput => {
@@ -163,7 +163,7 @@ async getUserInput => {
 };
 ```
 
-If the unit of measurement is invalid, returned will be `'invalid unit'`.
+如果测量单位无效，返回将为 `'invalid unit'`。
 
 ```js
 async getUserInput => {
@@ -176,7 +176,7 @@ async getUserInput => {
 };
 ```
 
-If the number is invalid, returned will be `'invalid number'`.
+如果数字无效，返回将为 `'invalid number'`。
 
 ```js
 async getUserInput => {
@@ -191,7 +191,7 @@ async getUserInput => {
 };
 ```
 
-If both the unit and number are invalid, returned will be `'invalid number and unit'`.
+如果单位和数字都无效，返回将为 `'invalid number and unit'`。
 
 ```js
 async getUserInput => {
@@ -209,7 +209,7 @@ async getUserInput => {
 };
 ```
 
-You can use fractions, decimals or both in the parameter (ie. 5, 1/2, 2.5/6), but if nothing is provided it will default to 1.
+可以在参数中使用分数、小数或小数分数 (例如 5, 1/2, 2.5/6)，如果没有提供任何内容，则默认值为 1。
 
 ```js
 async getUserInput => {
@@ -240,7 +240,7 @@ async getUserInput => {
 };
 ```
 
-Your return will consist of the `initNum`, `initUnit`, `returnNum`, `returnUnit`, and `string` spelling out units in the format `'{initNum} {initUnitString} converts to {returnNum} {returnUnitString}'` with the result rounded to 5 decimals.
+返回将包含 `initNum`、`initUnit`、`returnNum`、`returnUnit` 和 `string` 拼写单位格式 `'{initNum} {initUnitString} converts to {returnNum} {returnUnitString}'` 结果四舍五入为 5 小数。
 
 ```js
 async getUserInput => {
@@ -257,7 +257,7 @@ async getUserInput => {
 };
 ```
 
-All 16 unit tests are complete and passing.
+所有 16 个单元的测试都已完成并通过。
 
 ```js
 async getUserInput => {
@@ -282,7 +282,7 @@ async getUserInput => {
 };
 ```
 
-All 5 functional tests are complete and passing.
+所有 5 项功能测试都已完成并通过。
 
 ```js
 async getUserInput => {

@@ -9,13 +9,13 @@ dashedName: decrement-a-number-with-javascript
 
 # --description--
 
-Puedes fácilmente <dfn>decrementar</dfn> o disminuir una variable por uno utilizando el operador `--`.
+You can easily <dfn>decrement</dfn> or decrease a variable by one with the `--` operator.
 
 ```js
 i--;
 ```
 
-es el equivalente de
+es equivalente a
 
 ```js
 i = i - 1;

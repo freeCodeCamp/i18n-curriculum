@@ -8,7 +8,7 @@ dashedName: create-a-linked-list-class
 
 # --description--
 
-Creiamo una classe `linked list`. Ogni lista collegata dovrebbe iniziare con alcune proprietà di base: una testa `head` (il primo elemento nella tua lista) e una lunghezza `length` (numero di elementi nella tua lista). A volte vedrai implementazioni di liste collegate che incorporano una coda `tail` per l'ultimo elemento dell'elenco, ma per ora rimarremo solo con queste due. Ogni volta che aggiungiamo un elemento alla lista collegata, la nostra proprietà `length` dovrebbe essere incrementata di uno.
+Let's create a `linked list` class. Every linked list should start out with a few basic properties: a `head` (the first item in your list) and a `length` (number of items in your list). Sometimes you'll see implementations of linked lists that incorporate a `tail` for the last element of the list, but for now we'll just stick with these two. Whenever we add an element to the linked list, our `length` property should be incremented by one.
 
 Vogliamo avere un modo per aggiungere elementi alla nostra lista collegata, quindi il primo metodo che vorremo creare è il metodo `add`.
 

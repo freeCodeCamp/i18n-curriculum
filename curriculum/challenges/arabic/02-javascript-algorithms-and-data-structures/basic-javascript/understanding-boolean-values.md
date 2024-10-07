@@ -9,7 +9,7 @@ dashedName: understanding-boolean-values
 
 # --description--
 
-نوع آخر من البيانات هو القيم المنطقية المطلق عليها إسم <dfn>Boolean</dfn>. يمكن أن يكون للقيم المنطقية (booleans) حالة واحدة فقط من حالتين: `true` أو `false`. إنهم في الأساس كمفاتيح تشغيل صغيرة لبدء أو إيقاف التشغيل، حيث إن `true` يبدأ التشغيل و `false` يوقفه. والحالتان يستبعدان بعضهن البعض (mutually-exclusive).
+Another data type is the <dfn>Boolean</dfn>. Booleans may only be one of two values: `true` or `false`. They are basically little on-off switches, where `true` is on and `false` is off. These two states are mutually exclusive.
 
 **ملاحظة:** القيم المنطقية لا تكتب أبدا باستخدام علامات الاقتباس. المقطعين `"true"` و `"false"` ليسوا بقيم منطقية وليس لهم معنى خاص في JavaScript.
 

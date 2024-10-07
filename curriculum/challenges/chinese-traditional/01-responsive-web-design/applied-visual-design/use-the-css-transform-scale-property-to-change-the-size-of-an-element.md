@@ -9,7 +9,7 @@ dashedName: use-the-css-transform-scale-property-to-change-the-size-of-an-elemen
 
 # --description--
 
-CSS 屬性 `transform` 裏面的 `scale()` 函數可以用來改變元素的顯示比例。 下面的例子把頁面的段落元素放大到了原來的 2 倍：
+To change the scale of an element, CSS has the `transform` property, along with its `scale()` function. The following code example doubles the size of all the paragraph elements on the page:
 
 ```css
 p {

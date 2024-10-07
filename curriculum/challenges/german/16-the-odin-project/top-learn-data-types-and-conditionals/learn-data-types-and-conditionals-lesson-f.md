@@ -11,16 +11,16 @@ You know that JavaScript has a variety of data types, including strings, numbers
 
 The following comparison operators are available in JavaScript:
 
-| Operator | Description              | Example |
+| Operator | Beschreibung             | Example |
 | -------- | ------------------------ | ------- |
 | ==       | Equal (value comparison) | x == y  |
-| !=       | Not equal                | x != y  |
-| >        | Greater than             | x > y   |
-| <        | Less than                | x < y   |
-| >=       | Greater than or equal to | x >= y  |
-| <=       | Less than or equal to    | x <= y  |
+| !=       | Ungleich                 | x != y  |
+| >        | Größer als               | x > y   |
+| <        | Kleiner als              | x < y   |
+| >=       | Größer oder gleich       | x >= y  |
+| <=       | Kleiner oder gleich      | x <= y  |
 
-To use a comparison in a variable assignment, you can use the `==` operator. For example:
+To use a comparison in a variable assignment, you can use the `==` operator. Zum Beispiel:
 
 ```javascript
 let x = 5;

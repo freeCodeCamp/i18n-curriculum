@@ -1,6 +1,6 @@
 ---
 id: 655b37ecf9da446bd1dcff4f
-title: "Task 94"
+title: "Aufgabe 94"
 challengeType: 22
 dashedName: task-94
 ---
@@ -10,7 +10,7 @@ Sophie: On Sunday, I have a lazy morning. I just stay at home and play some vide
 
 # --description--
 
-In this challenge, focus on identifying the adjectives Sophie uses to describe her Sunday routine.
+Konzentriere dich in dieser Herausforderung auf die Indentifizierung der Adjektive, die Sophie verwendet um ihre Sonntagsroutine zu beschreiben.
 
 # --fillInTheBlank--
 
@@ -18,21 +18,21 @@ In this challenge, focus on identifying the adjectives Sophie uses to describe h
 
 `On Sunday, I have a BLANK morning. I just stay at home and play some video games on my console. In the evening, I make dinner and go to sleep BLANK, because, on Monday, it is back to work again`
 
-## -blanks--
+## --blanks--
 
 `lazy`
 
-### --Feedback--
+### --feedback--
 
-Describes the relaxed nature of Sophie's Sunday morning.
+Beschreibt die entspannte Natur von Sophies Sonntagmorgen.
 
 ---
 
 `early`
 
-### --Feedback--
+### --feedback--
 
-Indicates the time Sophie chooses to go to sleep on Sunday evening.
+Gibt die Zeit an, zu der Sophie am Sonntagabend schlafen gehen möchte.
 
 # --scene--
 

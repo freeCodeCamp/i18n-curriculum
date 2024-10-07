@@ -8,7 +8,7 @@ dashedName: understand-the-immediately-invoked-function-expression-iife
 
 # --description--
 
-Um padrão comum em JavaScript é executar a função assim que ela é declarada:
+A common pattern in JavaScript is to execute a function as soon as it is declared:
 
 ```js
 (function () {

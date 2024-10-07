@@ -8,7 +8,7 @@ dashedName: create-a-complex-jsx-element
 
 # --description--
 
-前回のチャレンジは JSX の単純な例でしたが、もっと複雑な HTML を JSX で表現することもできます。
+The last challenge was a simple example of JSX, but JSX can represent more complex HTML as well.
 
 ネストされた JSX について一つ重要なのは、単一の要素を返さなければならないということです。
 

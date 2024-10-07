@@ -8,7 +8,7 @@ dashedName: convert-json-data-to-html
 
 # --description--
 
-Agora que você está recebendo dados de uma API de JSON, você pode exibir os dados no HTML.
+Now that you're getting data from a JSON API, you can display it in the HTML.
 
 Você pode usar um método `forEach` para percorrer os dados, já que os objetos de foto de gatos são mantidos em um array. Ao percorrer cada item, você pode modificar os elementos do HTML.
 

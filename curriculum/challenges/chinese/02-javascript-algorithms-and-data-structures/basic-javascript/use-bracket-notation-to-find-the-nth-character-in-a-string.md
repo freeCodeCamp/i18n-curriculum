@@ -9,11 +9,11 @@ dashedName: use-bracket-notation-to-find-the-nth-character-in-a-string
 
 # --description--
 
-你也可以使用方括号（ <dfn>bracket notation</dfn>）来获得一个字符串中的其他位置的字符。
+You can also use <dfn>bracket notation</dfn> to get the character at other positions within a string.
 
 请记住，程序是从 `0` 开始计数，所以获取第一个字符实际上是第零个字符串。
 
-例如：
+示例：
 
 ```js
 const firstName = "Ada";

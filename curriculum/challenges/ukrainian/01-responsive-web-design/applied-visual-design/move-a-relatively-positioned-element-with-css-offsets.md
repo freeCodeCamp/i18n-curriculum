@@ -9,7 +9,7 @@ dashedName: move-a-relatively-positioned-element-with-css-offsets
 
 # --description--
 
-Зсуви CSS `top` або `bottom` та `left` або `right` повідомляють браузеру, як далеко зсунути елемент відносно того, де б він знаходився у звичайному потоці документа. Ви зсуваєте елемент від вказаної точки, яка відводить елемент від заданої сторони (по суті, у протилежному напрямку). Як ви бачили в останньому завданні, використання зсуву `top` перемістило `h2` вниз. Так само використання зсуву `left` переміщує елемент праворуч.
+The CSS offsets of `top` or `bottom`, and `left` or `right` tell the browser how far to offset an item relative to where it would sit in the normal flow of the document. You're offsetting an element away from a given spot, which moves the element away from the referenced side (effectively, the opposite direction). As you saw in the last challenge, using the `top` offset moved the `h2` downwards. Likewise, using a `left` offset moves an item to the right.
 
 # --instructions--
 

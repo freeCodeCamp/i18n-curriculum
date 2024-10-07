@@ -8,11 +8,11 @@ dashedName: map-the-debris
 
 # --description--
 
-根据开普勒第三定律，在环状或椭圆轨道上在轨两个点质量的 $T$ 轨道期为：
+According to Kepler's Third Law, the orbital period $T$ of two point masses orbiting each other in a circular or elliptic orbit is:
 
 $$ T = 2 \pi \sqrt{\frac{a^{3}}{\mu}} $$
 
-- $a$ 是轨道的半主轴
+- $a$ is the orbit's semi-major axis
 - $μ = GM$ 是标准重力参数
 - $G$ 是引力常量
 - $M$ 是较大天体的质量

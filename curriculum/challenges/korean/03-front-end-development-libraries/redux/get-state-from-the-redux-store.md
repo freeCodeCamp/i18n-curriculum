@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d403614c
-title: Get State from the Redux Store
+title: 리덕스 스토어에서 상태 가져오기
 challengeType: 6
 forumTopicId: 301443
 dashedName: get-state-from-the-redux-store
@@ -12,17 +12,17 @@ The Redux store object provides several methods that allow you to interact with 
 
 # --instructions--
 
-The code from the previous challenge is re-written more concisely in the code editor. Use `store.getState()` to retrieve the `state` from the `store`, and assign this to a new variable `currentState`.
+이전 챌린지의 코드가 코드 에디터에 더 간결하게 다시 작성되었습니다. `store.getState()`를 사용하여 `store`에서 `state`를 검색하고, 이를 새로운 변수 `currentState`에 할당하세요.
 
 # --hints--
 
-The Redux store should have a value of 5 for the initial state.
+리덕스 스토어의 초기 상태 값은 5여야 합니다.
 
 ```js
 assert(store.getState() === 5);
 ```
 
-A variable `currentState` should exist and should be assigned the current state of the Redux store.
+`currentState`라는 변수가 존재해야 하며, 리덕스 스토어의 현재 상태가 할당되어야 합니다.
 
 ```js
 (getUserInput) =>

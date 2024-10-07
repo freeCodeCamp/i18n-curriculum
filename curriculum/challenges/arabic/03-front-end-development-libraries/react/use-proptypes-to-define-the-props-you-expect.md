@@ -8,7 +8,7 @@ dashedName: use-proptypes-to-define-the-props-you-expect
 
 # --description--
 
-يوفر React ميزات مفيدة للتحقق من نوع المكونات تتلقى مِيزات من النوع الصحيح. على سبيل المثال، يقوم تطبيقك بإجراء مكالمة API لاسترداد البيانات التي تتوقع أن تكون في قائمة، ويحال بعد ذلك إلى مكون كمِيزة. يمكنك تعيين `propTypes` على المكون الخاص بك لطلب أن تكون البيانات من نوع `array`. وهذا سيظهر تحذيرا مفيدا عندما تكون البيانات من أي نوع آخر.
+React provides useful type-checking features to verify that components receive props of the correct type. For example, your application makes an API call to retrieve data that you expect to be in an array, which is then passed to a component as a prop. You can set `propTypes` on your component to require the data to be of type `array`. This will throw a useful warning when the data is of any other type.
 
 يعدّ ممارسة أفضل لتعيين `propTypes` عندما تعرف نوع prop قبل الوقت. يمكنك تحديد خاصية `propTypes` لمكون بنفس الطريقة التي حددت بها `defaultProps`. فعل ذلك سيتحقق أن مِيزات من هُوِيَّة معينة موجود مع نوع مُعين. إليك مثال لطلب نوع `function` لمِيزة يسمى `handleClick`:
 

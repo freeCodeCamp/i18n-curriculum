@@ -9,7 +9,7 @@ dashedName: use-headings-to-show-hierarchical-relationships-of-content
 
 # --description--
 
-Заголовки (`h1` through `h6` elements) - це суто робочі теги, які допомагають забезпечити структуру і маркування вашого контенту. Програми читання з екрану можна налаштувати тільки для читання заголовків на сторінці для того щоб користувачі мали доступ до короткого змісту. Це означає, що дуже важливо, щоб теги заголовків в вашій розмітці мали семантичне значення і співвідносились один з одним, а не вибирались тільки за величиною їх розміру.
+Headings (`h1` through `h6` elements) are workhorse tags that help provide structure and labeling to your content. Screen readers can be set to read only the headings on a page so the user gets a summary. This means it is important for the heading tags in your markup to have semantic meaning and relate to each other, not be picked merely for their size values.
 
 *Semantic meaning* означає, що тег, який ви використовуєте разом із вмістом, вказує на тип інформації, яку він містить.
 

@@ -8,7 +8,7 @@ dashedName: problem-315-digital-root-clocks
 
 # --description--
 
-<img alt="animation of Sam's and Max's clocks calculating digital roots starting from 137" src="https://cdn.freecodecamp.org/curriculum/project-euler/digital-root-clocks.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
+<img alt="animation von Sam's und Max's Uhren, die digitale Wurzeln ausgehend von 137 berechnen" src="https://cdn.freecodecamp.org/curriculum/project-euler/digital-root-clocks.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
 Sam und Max sollen zwei Digitaluhren in zwei "Digitale Wurzel-Uhren" umwandeln.
 
@@ -26,9 +26,9 @@ Sams Uhr wird z.B. mit der Nummer 137 gespeist: die Uhr zeigt `137`, dann wird d
 
 Für das Beispiel mit der Nummer 137 benötigt Sams Uhr:
 
-- `137`: $(2 + 5 + 4) × 2 = 22$ transitions (`137` on/off).
-- `11`: $(2 + 2) × 2 = 8$ transitions (`11` on/off).
-- `2`: $(5) × 2 = 10$ transitions (`2` on/off).
+- `137`: $(2 + 5 + 4) × 2 = 22$ Übergänge (`137` an/aus).
+- `11`: $(2 + 2) × 2 = 8$ Übergänge (`11` an/aus).
+- `2`: $(5) × 2 = 10$ Übergänge (`2` an/aus).
 
 Für eine Gesamtsumme von 40 Übergängen.
 
@@ -36,7 +36,7 @@ Max's Uhr funktioniert anders. Anstatt das gesamte Panel abzuschalten, ist sie k
 
 Für die Nummer 137 ist Max' Uhr erforderlich:
 
-- `137` : $2 + 5 + 4 = 11$ transitions (`137` on), $7$ transitions (to turn off the segments that are not needed for number `11`).
+- `137` : $2 + 5 + 4 = 11$ Übergänge (`137` angeschaltet), $7$ Übergänge (um die Segmente auszuschalten, die für Nummer `11` nicht benötigt werden).
 - `11` : $0$ Übergänge (Zahl `11` ist bereits richtig eingeschaltet), $3$ Übergänge (als erstes ausschalten `1` und der untere Teil des Zweiten `1`; der obere Teil ist gewöhnlich mit der Zahl `2`).
 - `2` : $4$ Übergänge (um die verbleibenden Segmente einzuschalten, um eine `2` zu erhalten), $5$ Übergänge (um die Zahlen `2` auszuschalten).
 
@@ -46,7 +46,7 @@ Natürlich verbraucht die Uhr von Max weniger Strom als die von Sam. Den beiden 
 
 # --hints--
 
-`digitalRootClocks()` should return `13625242`.
+`digitalRootClocks()` sollte `13625242` zurückgeben.
 
 ```js
 assert.strictEqual(digitalRootClocks(), 13625242);

@@ -9,7 +9,7 @@ dashedName: use-the-flex-direction-property-to-make-a-column
 
 # --description--
 
-Die letzten beiden Aufgaben verwendeten die `flex-direction`-Eigenschaft mit dem Wert `row`. Diese Eigenschaft kann auch Spalten erstellen, indem sie die Unterelemente eines Flex-Containers vertikal stapelt.
+The last two challenges used the `flex-direction` property set to `row`. This property can also create a column by vertically stacking the children of a flex container.
 
 # --instructions--
 

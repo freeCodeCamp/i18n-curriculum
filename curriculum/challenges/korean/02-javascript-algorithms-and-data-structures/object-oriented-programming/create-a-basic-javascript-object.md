@@ -1,6 +1,6 @@
 ---
 id: 587d7dac367417b2b2512b73
-title: Create a Basic JavaScript Object
+title: 기본 Javascript 객체 생성하기
 challengeType: 1
 forumTopicId: 301317
 dashedName: create-a-basic-javascript-object
@@ -10,11 +10,11 @@ dashedName: create-a-basic-javascript-object
 
 Think about things people see every day, like cars, shops, and birds. These are all <dfn>objects</dfn>: tangible things people can observe and interact with.
 
-What are some qualities of these objects? A car has wheels. Shops sell items. Birds have wings.
+이 객체들의 특성은 무엇일까요? 차는 바퀴를 가지고 있습니다. 가게는 물건을 팝니다. 새들은 날개를 가지고 있습니다.
 
-These qualities, or <dfn>properties</dfn>, define what makes up an object. Note that similar objects share the same properties, but may have different values for those properties. For example, all cars have wheels, but not all cars have the same number of wheels.
+이러한 특성 혹은 <dfn>속성</dfn>은 무엇이 한 객체를 이루는지 정의합니다. 비슷한 객체들이 같은 속성들을 공유하지만 그 속성들에는 각기 다른 값들을 가질 수 있습니다. 예를 들면, 모든 차는 바퀴를 가지고 있지만 모든 차가 같은 수의 바퀴를 가지는 것은 아닙니다.
 
-Objects in JavaScript are used to model real-world objects, giving them properties and behavior just like their real-world counterparts. Here's an example using these concepts to create a `duck` object:
+Javascript에서 객체는 실제 대상의 속성과 행동을 이 객체에 주어 그 대상을 모델링하기 위해 사용됩니다. 이러한 개념을 사용하여 객체 `duck`을 생성하는 예시입니다.
 
 ```js
 let duck = {
@@ -23,27 +23,27 @@ let duck = {
 };
 ```
 
-This `duck` object has two property/value pairs: a `name` of `Aflac` and a `numLegs` of 2.
+객체 `duck`는 다음의 두 쌍의 속성/값이 있습니다: `Aflac`로 지정한 `name`과 2로 지정한 `numLegs`.
 
 # --instructions--
 
-Create a `dog` object with `name` and `numLegs` properties, and set them to a string and a number, respectively.
+속성 `name`과 `numLegs`을 가진 객체 `dog`를 만들고 각 속성들을 순서대로 문자열과 숫자값으로 설정하시오.
 
 # --hints--
 
-`dog` should be an object.
+`dog`는 객체이어야 합니다.
 
 ```js
 assert(typeof dog === 'object');
 ```
 
-`dog` should have a `name` property set to a string.
+`dog`는 문자열로 설정된 속성 `name`을 가져야 합니다.
 
 ```js
 assert(typeof dog.name === 'string');
 ```
 
-`dog` should have a `numLegs` property set to a number.
+`dog`는 숫자로 설정된 `numLegs`를 가져야 합니다.
 
 ```js
 assert(typeof dog.numLegs === 'number');

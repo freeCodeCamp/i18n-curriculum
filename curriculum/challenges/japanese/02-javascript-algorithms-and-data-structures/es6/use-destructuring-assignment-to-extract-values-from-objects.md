@@ -8,7 +8,7 @@ dashedName: use-destructuring-assignment-to-extract-values-from-objects
 
 # --description--
 
-<dfn>分割代入</dfn>は ES6 で導入された特別な構文で、オブジェクトから値を直接抽出して適切に代入することができます。
+<dfn>Destructuring assignment</dfn> is special syntax introduced in ES6, for neatly assigning values taken directly from an object.
 
 次の ES5 コードを考えてみましょう。
 

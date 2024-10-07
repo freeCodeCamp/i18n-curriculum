@@ -9,7 +9,7 @@ dashedName: accessing-object-properties-with-bracket-notation
 
 # --description--
 
-オブジェクトのプロパティにアクセスする 2 つ目の方法は、ブラケット記法 (`[]`) です。 アクセスしようとしているオブジェクトのプロパティの名前にスペースが含まれている場合は、ブラケット記法を使用する必要があります。
+The second way to access the properties of an object is bracket notation (`[]`). If the property of the object you are trying to access has a space in its name, you will need to use bracket notation.
 
 ただし、オブジェクトのプロパティにスペースが含まれていない場合もブラケット記法を使用できます。
 

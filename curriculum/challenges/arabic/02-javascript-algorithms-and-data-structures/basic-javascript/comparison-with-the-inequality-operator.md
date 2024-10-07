@@ -9,9 +9,9 @@ dashedName: comparison-with-the-inequality-operator
 
 # --description--
 
-مشغل لا مساواة (`!=`) هو يخالف مشغل المساواة. وهذا يعني أنَّ لا مساواة يرجع `false` فحين ترجع المساواة `true` و*العكس كذلك*. وعلى غرار مشغل المساواة، فإن مشغل لا مساواة سيحول أنواع قيم البيانات عند مقارنتها.
+The inequality operator (`!=`) is the opposite of the equality operator. It means not equal and returns `false` where equality would return `true` and *vice versa*. Like the equality operator, the inequality operator will convert data types of values while comparing.
 
-**على سبيل المثال**
+**مثال**
 
 ```js
 1 !=  2    // true

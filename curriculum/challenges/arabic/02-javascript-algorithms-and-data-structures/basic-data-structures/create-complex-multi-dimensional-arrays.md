@@ -8,7 +8,7 @@ dashedName: create-complex-multi-dimensional-arrays
 
 # --description--
 
-رائع! لقد تعلمت للتو طناً من المعلومات عن القوائم (arrays)! لقد كانت هذه النِّظْرة عامة عالية المستوى إلى حد ما، وهناك الكثير لتتعلمه حول العمل مع القوائم، التي سترى الكثير منها في الأقسام اللاحقة. ولكن قبل الانتقال إلى <dfn>كائنات (Objects)</dfn>، دعنا نلقي النِّظْرة أخرى ونرى كيف يمكن أن تصبح القوائم (arrays) أكثر تعقيدًا قليلاً مما رأيناه في التحديات السابقة.
+Awesome! You have just learned a ton about arrays! This has been a fairly high level overview, and there is plenty more to learn about working with arrays, much of which you will see in later sections. But before moving on to looking at <dfn>Objects</dfn>, let's take one more look, and see how arrays can become a bit more complex than what we have seen in previous challenges.
 
 واحدة من أقوى السمات عند التفكير في القوائم كهياكل للبيانات، هو أن القوائم يمكن أن تحتوي، أو حتى إن تكون مكونة بالكامل من قوائم أخرى. ورأيت القوائم التي تحتوي على قوائم في تحديات سابقة، ولكنها بسيطة إلى حد ما. ومع ذلك، فإن القوائم يمكن أن تحتوي على عمق لا حدود له من القوائم التي يمكن أن تحتوي على قوائم أخرى، لكل منها مستويات عشوائية من العمق وما إلى ذلك. بهذه الطريقة، يمكن للقائمة أن تصبح بسرعة هيكل بيانات معقد جداً، يعرف باسم <dfn>عديد الأبعاد (multi-dimensional)</dfn> أو قائمة متداخلة (nested array). انظر إلى المثال التالي:
 

@@ -8,7 +8,7 @@ dashedName: house-our-page-within-a-bootstrap-container-fluid-div
 
 # --description--
 
-現在確保頁面所有內容都可以響應移動端。
+Now let's make sure all the content on your page is mobile-responsive.
 
 將的 `h3` 元素內嵌進一個具有 `container-fluid` class 的`div` 元素中。
 

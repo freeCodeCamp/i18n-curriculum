@@ -8,7 +8,7 @@ dashedName: make-images-mobile-responsive
 
 # --description--
 
-首先，在已有的图片下面添加一张新的图片。 将新图片的 `src` 属性设置为 `https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg`。
+First, add a new image below the existing one. Set its `src` attribute to `https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg`.
 
 如果图片的大小恰恰和我们手机屏幕尺寸大小一样自然是最好的。
 

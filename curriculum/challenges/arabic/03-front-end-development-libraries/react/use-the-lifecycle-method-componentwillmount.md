@@ -8,7 +8,7 @@ dashedName: use-the-lifecycle-method-componentwillmount
 
 # --description--
 
-لمكونات React عدة طرق مميزة تتيح فرصاً لعمل أفعال في نُقَط محددة من دورة حياة (lifecycle) أحد المكونات. هذه تسمى طرق دورة الحياة (lifecycle)، أو وظائف (hooks) دورة الحياة (lifecycle)، وتسمح بالتقاط المكونات في نُقَط زمنية معينة. ويمكن أن يحدث ذلك قبل أنتاجها، قبل تحديثهم، وقبل أن يتلقوا ميزات (props)، وقبل أن وقف التحميل (unmount)، وكذلك. فيما يلي قائمة ببعض طرق دورة الحياة (lifecycle) الرئيسة: `componentWillMount()` `componentDidMount()` `shouldComponentUpdate()` `componentDidUpdate()` `componentWillUnmount()` سوف تغطي الدروس العدّة التالية بعض حالات الاستخدام الأساسي لهذا طرق دورة الحياة (lifecycle).
+React components have several special methods that provide opportunities to perform actions at specific points in the lifecycle of a component. These are called lifecycle methods, or lifecycle hooks, and allow you to catch components at certain points in time. This can be before they are rendered, before they update, before they receive props, before they unmount, and so on. Here is a list of some of the main lifecycle methods: `componentWillMount()` `componentDidMount()` `shouldComponentUpdate()` `componentDidUpdate()` `componentWillUnmount()` The next several lessons will cover some of the basic use cases for these lifecycle methods.
 
 **ملاحظة:** سيتم تجاهل `componentWillMount` طريقة دورة الحياة (Lifecycle) في إصدار بعد نوع 16.X وإزالتها في الإصدار نوع 17. تعلم المزيد في هذه <a href="https://www.freecodecamp.org/news/how-to-safely-use-reacts-life-cycles-with-fiber-s-async-rendering-fd4469ebbd8f/" target="_blank" rel="noopener noreferrer nofollow">المقالة</a>
 

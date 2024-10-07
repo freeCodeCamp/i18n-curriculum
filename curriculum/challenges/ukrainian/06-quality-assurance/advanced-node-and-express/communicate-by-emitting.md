@@ -8,7 +8,7 @@ dashedName: communicate-by-emitting
 
 # --description--
 
-<dfn>Видача</dfn> — найпоширеніший спосіб спілкування, яким ви будете користуватись. Коли ви видаєте щось зі сервера до «io», ви надсилаєте назву події та дані всім приєднаним сокетам. Хорошим прикладом цієї концепції є видача поточної кількості приєднаних користувачів щоразу, коли приєднується новий користувач!
+<dfn>Emit</dfn> is the most common way of communicating you will use. When you emit something from the server to 'io', you send an event's name and data to all the connected sockets. A good example of this concept would be emitting the current count of connected users each time a new user connects!
 
 Почніть із додавання змінної, щоб відстежувати користувачів, одразу перед тим місцем, де ви зараз слухаєте приєднання.
 
@@ -38,7 +38,7 @@ socket.on('user count', function(data) {
 
 Тепер спробуйте завантажити свою програму, автентифікуватись і ви повинні побачити на консолі клієнта «1», що показує поточну кількість користувачів! Спробуйте завантажити більше клієнтів і автентифікуйтеся, щоб побачити, як число зростає.
 
-Відправте свою сторінку коли впевнились, що все правильно. Якщо виникають помилки, ви можете <a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#communicate-by-emitting-7" target="_blank" rel="noopener noreferrer nofollow">переглянути проєкт, виконаний до цього етапу</a>.
+Підтвердіть вашу сторінку, якщо все зрозуміло. Якщо виникають помилки, ви можете <a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#communicate-by-emitting-7" target="_blank" rel="noopener noreferrer nofollow">переглянути проєкт, виконаний до цього етапу</a>.
 
 # --hints--
 

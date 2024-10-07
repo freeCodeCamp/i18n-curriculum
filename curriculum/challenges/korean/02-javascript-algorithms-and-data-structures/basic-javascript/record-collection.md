@@ -1,6 +1,6 @@
 ---
 id: 56533eb9ac21ba0edf2244cf
-title: Record Collection
+title: 레코드 컬렉션 (Record Collection)
 challengeType: 1
 forumTopicId: 18261
 dashedName: record-collection
@@ -10,26 +10,26 @@ dashedName: record-collection
 
 You are creating a function that aids in the maintenance of a musical album collection. The collection is organized as an object that contains multiple albums which are also objects. Each album is represented in the collection with a unique `id` as the property name. Within each album object, there are various properties describing information about the album. Not all albums have complete information.
 
-The `updateRecords` function takes 4 arguments represented by the following function parameters:
+`updateRecords` 함수는 다음 함수 매개변수로 표현된 4개의 인수를 받습니다.
 
 -   `records` - an object containing several individual albums
 -   `id` - a number representing a specific album in the `records` object
 -   `prop` - a string representing the name of the album’s property to update
 -   `value` - a string containing the information used to update the album’s property
 
-Complete the function using the rules below to modify the object passed to the function.
+함수에 전달된 객체를 아래의 규칙을 사용하여 수정하도록 이 함수를 완성하세요.
 
 -   Your function must always return the entire `records` object.
--   If `value` is an empty string, delete the given `prop` property from the album.
--   If `prop` isn't `tracks` and `value` isn't an empty string, assign the `value` to that album's `prop`.
--   If `prop` is `tracks` and `value` isn't an empty string, but the album doesn't have a `tracks` property, create an empty array and add `value` to it.
--   If prop is `tracks` and `value` isn't an empty string, add `value` to the end of the album's existing `tracks` array.
+-   만약 `value`가 빈 문자열이라면, 해당 앨범에서 주어진 `prop` 속성을 삭제하세요.
+-   `prop`이 `tracks`이 아니고 `value`가 빈 문자열이 아니라면, 해당 앨범의 `prop`에 `value`를 할당하세요.
+-   `prop`이 `tracks`이고 `value`가 빈 문자열이 아니며 앨범에 `tracks` 속성이 없다면, 빈 배열을 생성하고 `value`를 추가하세요.
+-   prop이 `tracks`이고 `value`가 빈 문자열이 아니라면, 해당 앨범의 기존 `tracks` 배열 끝에 `value`를 추가하세요.
 
-**Note:** A copy of the `recordCollection` object is used for the tests. You should not directly modify the `recordCollection` object.
+**참고:** 테스트를 위해 `recordCollection` 객체의 복사본이 사용됩니다. `recordCollection` 객체를 직접 수정하지 않아야 합니다.
 
 # --hints--
 
-After `updateRecords(recordCollection, 5439, "artist", "ABBA")`, `artist` should be the string `ABBA`
+`updateRecords(recordCollection, 5439, "artist", "ABBA")`를 실행한 후, `artist`는 문자열 `ABBA`가 되어야 합니다.
 
 ```js
 assert(
@@ -38,7 +38,7 @@ assert(
 );
 ```
 
-After `updateRecords(recordCollection, 5439, "tracks", "Take a Chance on Me")`, `tracks` should have the string `Take a Chance on Me` as the last and only element.
+`updateRecords(recordCollection, 5439, "tracks", "Take a Chance on Me")`를 실행한 후, `tracks`는 문자열 `Take a Chance on Me`를 마지막이자 유일한 요소로 가져야 합니다.
 
 ```js
 assert(
@@ -48,14 +48,14 @@ assert(
 );
 ```
 
-After `updateRecords(recordCollection, 2548, "artist", "")`, `artist` should not be set
+`updateRecords(recordCollection, 2548, "artist", "")`를 실행한 후, `artist`는 설정되지 않아야 합니다.
 
 ```js
 updateRecords(_recordCollection, 2548, 'artist', '');
 assert(!_recordCollection[2548].hasOwnProperty('artist'));
 ```
 
-After `updateRecords(recordCollection, 1245, "tracks", "Addicted to Love")`, `tracks` should have the string `Addicted to Love` as the last element.
+`updateRecords(recordCollection, 1245, "tracks", "Addicted to Love")`를 실행한 후, `tracks`는 문자열 `Addicted to Love`를 마지막 요소로 가져야 합니다.
 
 ```js
 assert(
@@ -65,7 +65,7 @@ assert(
 );
 ```
 
-After `updateRecords(recordCollection, 2468, "tracks", "Free")`, `tracks` should have the string `1999` as the first element.
+`updateRecords(recordCollection, 2468, "tracks", "Free")`를 실행한 후, `tracks`는 문자열 `1999`를 첫 번째 요소로 가져야 합니다.
 
 ```js
 assert(
@@ -75,14 +75,14 @@ assert(
 );
 ```
 
-After `updateRecords(recordCollection, 2548, "tracks", "")`, `tracks` should not be set
+`updateRecords(recordCollection, 2548, "tracks", "")`를 실행한 후, `tracks`는 설정되지 않아야 합니다.
 
 ```js
 updateRecords(_recordCollection, 2548, 'tracks', '');
 assert(!_recordCollection[2548].hasOwnProperty('tracks'));
 ```
 
-After `updateRecords(recordCollection, 1245, "albumTitle", "Riptide")`, `albumTitle` should be the string `Riptide`
+`updateRecords(recordCollection, 1245, "albumTitle", "Riptide")`를 실행한 후, `albumTitle`은 문자열 `Riptide`가 되어야 합니다.
 
 ```js
 assert(

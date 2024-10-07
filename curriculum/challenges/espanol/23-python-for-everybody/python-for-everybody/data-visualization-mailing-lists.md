@@ -12,7 +12,7 @@ dashedName: data-visualization-mailing-lists
 
 # --description--
 
-More resources:
+Más recursos:
 
 \- <a href="https://www.youtube.com/watch?v=KfhslNzopxo" target="_blank" rel="noopener noreferrer nofollow">Ejercicio: Geodatos</a>
 
@@ -28,7 +28,7 @@ More resources:
 
 \-<a href="https://www.youtube.com/watch?v=Fm0hpkxsZoo" target="_blank" rel="noopener noreferrer nofollow">Ejercicio: Página Viz</a>
 
-# --questions--
+# --preguntas----preguntas--
 
 ## --text--
 

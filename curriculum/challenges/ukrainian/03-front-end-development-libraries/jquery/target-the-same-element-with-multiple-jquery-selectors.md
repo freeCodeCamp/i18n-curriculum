@@ -11,7 +11,7 @@ dashedName: target-the-same-element-with-multiple-jquery-selectors
 
 # --description--
 
-Тепер вам відомі три способи націлення елементів: за типом (`$("button")`), за класом (`$(".btn")`) та за id (`$("#target1")`).
+Now you know three ways of targeting elements: by type: `$("button")`, by class: `$(".btn")`, and by id `$("#target1")`.
 
 Хоча в одному виклику `.addClass()` можна додати декілька класів, ми додамо їх до одного елемента *трьома різними способами*.
 

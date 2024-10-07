@@ -9,7 +9,7 @@ dashedName: create-a-row-gap-using-grid-row-gap
 
 # --description--
 
-Ви можете додати розрив між рядками таблиці за допомогою властивості `grid-row-gap` так само, як ви додали розрив між колонками у попередньому завданні.
+You can add a gap in between the rows of a grid using `grid-row-gap` in the same way that you added a gap in between columns in the previous challenge.
 
 # --instructions--
 

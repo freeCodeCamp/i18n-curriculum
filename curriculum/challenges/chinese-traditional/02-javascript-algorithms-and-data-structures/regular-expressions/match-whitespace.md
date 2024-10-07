@@ -8,7 +8,7 @@ dashedName: match-whitespace
 
 # --description--
 
-迄今爲止的挑戰包括匹配字母和數字。 還可以匹配字符之間的空格。
+The challenges so far have covered matching letters of the alphabet and numbers. You can also match the whitespace or spaces between letters.
 
 可以使用 `\s` 搜尋空格，其中 `s` 是小寫。 此匹配模式將匹配空格、回車符、製表符、換頁符和換行符。 可以認爲這類似於元字符 `[ \r\t\f\n\v]`。
 

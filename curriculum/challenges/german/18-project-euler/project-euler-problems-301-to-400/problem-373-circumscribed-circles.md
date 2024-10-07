@@ -8,17 +8,17 @@ dashedName: problem-373-circumscribed-circles
 
 # --description--
 
-Every triangle has a circumscribed circle that goes through the three vertices. Consider all integer sided triangles for which the radius of the circumscribed circle is integral as well.
+Jedes Dreieck hat einen Umkreis, der durch die drei Eckpunkte geht. Berücksichtige alle Ganzzahl-seitigen Dreiecke, für die der Radius des Umkreises ebenfalls ganzzahlig ist.
 
 Lass $S(n)$ die Summe der Radien der Umkreise aller solchen Dreiecke sein, für die der Radius $n$ nicht überschreitet.
 
-$S(100) = 4\\,950$ and $S(1\\,200) = 1\\,653\\,605$.
+$S(100) = 4\\,950$ und $S(1\\,200) = 1\\,653\\,605$.
 
-Find $S({10}^7)$.
+Finde $S({10}^7)$.
 
 # --hints--
 
-`circumscribedCircles()` should return `727227472448913`.
+`circumscribedCircles()` sollte `727227472448913` zurückgeben.
 
 ```js
 assert.strictEqual(circumscribedCircles(), 727227472448913);

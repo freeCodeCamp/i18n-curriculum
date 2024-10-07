@@ -9,7 +9,7 @@ dashedName: comparison-with-the-greater-than-or-equal-to-operator
 
 # --description--
 
-Оператор «більше ніж або дорівнює» (`>=`) порівнює значення двох чисел. Якщо число зліва більше чи дорівнює числу справа, оператор повертає `true`. В іншому випадку він повертає `false`.
+The greater than or equal to operator (`>=`) compares the values of two numbers. If the number to the left is greater than or equal to the number to the right, it returns `true`. Otherwise, it returns `false`.
 
 Як і оператор «дорівнює», «більше ніж або дорівнює» перетворює типи даних під час порівняння.
 

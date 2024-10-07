@@ -8,7 +8,7 @@ dashedName: steamroller
 
 # --description--
 
-Achate um array aninhado. Você deve lidar com diferentes níveis de aninhamento.
+Flatten a nested array. You must account for varying levels of nesting.
 
 # --hints--
 

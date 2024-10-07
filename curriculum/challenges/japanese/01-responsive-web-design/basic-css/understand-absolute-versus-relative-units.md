@@ -9,7 +9,7 @@ dashedName: understand-absolute-versus-relative-units
 
 # --description--
 
-ここまでのいくつかのチャレンジでは、要素のマージンやパディングを設定するのにピクセル (`px`) を使いました。 ピクセルは長さの単位の一種で、ブラウザにアイテムのサイズやスペースを指示します。 `px` の他にも CSS で使用できる長さの単位は数多くあります。
+The last several challenges all set an element's margin or padding with pixels (`px`). Pixels are a type of length unit, which is what tells the browser how to size or space an item. In addition to `px`, CSS has a number of different length unit options that you can use.
 
 長さの単位の主な 2 つの分類は絶対単位と相対単位です。 絶対単位は物理的な長さの単位に対応します。 例えば、`in` や `mm` はそれぞれインチとミリメートルを表します。 絶対単位はおおよそ画面上の実際の長さですが、画面の解像度によっていくらかの違いがあります。
 

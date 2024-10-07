@@ -9,7 +9,7 @@ dashedName: use-the-parseint-function
 
 # --description--
 
-تحلل وظيفة `parseInt()` مقطع وتعيد منه عدداً صحيحاً. إليك مثال:
+The `parseInt()` function parses a string and returns an integer. إليك مثال:
 
 ```js
 const a = parseInt("007");

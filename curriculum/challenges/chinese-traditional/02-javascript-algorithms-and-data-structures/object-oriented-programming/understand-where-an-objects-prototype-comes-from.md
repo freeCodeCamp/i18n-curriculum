@@ -8,7 +8,7 @@ dashedName: understand-where-an-objects-prototype-comes-from
 
 # --description--
 
-就像人們從父母那裏繼承基因一樣，對象也可直接從創建它的構造函數那裏繼承其 `prototype`。 請看下面的例子：`Bird` 構造函數創建了一個 `duck` 對象：
+Just like people inherit genes from their parents, an object inherits its `prototype` directly from the constructor function that created it. For example, here the `Bird` constructor creates the `duck` object:
 
 ```js
 function Bird(name) {

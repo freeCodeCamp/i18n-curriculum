@@ -8,17 +8,17 @@ dashedName: meet-the-node-console
 
 # --description--
 
-チャレンジに取り組むにあたり、以下の方法のうち 1 つを用いてコードを記述します。
+Working on these challenges will involve you writing your code using one of the following methods:
 
-- <a href="https://github.com/freeCodeCamp/boilerplate-express/" target="_blank" rel="noopener noreferrer nofollow">GitHub リポジトリ</a>をクローンし、ローカル環境でプロジェクトを完了させる。
+- Clone <a href="https://github.com/freeCodeCamp/boilerplate-express/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete these challenges locally.
 - Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-express/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete these challenges.
 - 使い慣れたサイトビルダーを使用してプロジェクトを完了させる。 必ず GitHub リポジトリのすべてのファイルを取り込む。
 
-開発プロセスでは、コード内で何が起きているかを確認できることが重要です。
+During the development process, it is important to be able to check what’s going on in your code.
 
-Node は単なる JavaScript 環境にすぎません。 クライアントサイド JavaScript と同様に、コンソールを使用して有用なデバッグ情報を表示できます。 ローカルマシンでは、ターミナルでコンソール出力を確認できます。 On Gitpod, a terminal is open at the bottom of the editor by default.
+Node is just a JavaScript environment. Like client side JavaScript, you can use the console to display useful debug information. On your local machine, you would see console output in a terminal. On Gitpod, a terminal is open at the bottom of the editor by default.
 
-チャレンジの作業中はターミナルを開いたままにしておくことをお勧めします。 ターミナルの出力を見て、発生したエラーを確認することができます。
+We recommend to keep the terminal open while working at these challenges. By reading the output in the terminal, you can see any errors that may occur.
 
 The server must be restarted after making changes to its files.
 
@@ -30,11 +30,11 @@ To implement server auto restarting on file save Node provides the `--watch` fla
 
 # --instructions--
 
-`myApp.js` ファイルを変更して、コンソールログに「Hello World」と出力してください。
+Modify the `myApp.js` file to log "Hello World" to the console.
 
 # --hints--
 
-`"Hello World"` がコンソールに表示されます。
+`"Hello World"` should be in the console
 
 ```js
 (getUserInput) =>

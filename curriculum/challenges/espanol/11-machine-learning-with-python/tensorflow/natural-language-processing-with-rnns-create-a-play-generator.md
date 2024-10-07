@@ -10,7 +10,7 @@ bilibiliIds:
 dashedName: natural-language-processing-with-rnns-create-a-play-generator
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 

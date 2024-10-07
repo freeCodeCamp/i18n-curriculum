@@ -8,7 +8,7 @@ dashedName: write-a-react-component-from-scratch
 
 # --description--
 
-الآن بعد أن تعلمت أساسيات JSX و المكونات React، حان الوقت لكتابة مكون بمفردك. مكونات React هي لبنات البناء الأساسية لتطبيقات React لذا من المهم أن تصبح مألوفة جداً بكتابتها. تذكر، مكون React النموذجي هو `class` من ES6 التي توسع `React.Component`. لديه طريقة عرض تنتج HTML (من JSX) أو `null`. وهذا هو الشكل الأساسي لمكون React. بمجرد أن تفهموا هذا جيداً، سوف تكون مستعداً لبدء بناء المزيد من مشروعات React المعقدة.
+Now that you've learned the basics of JSX and React components, it's time to write a component on your own. React components are the core building blocks of React applications so it's important to become very familiar with writing them. Remember, a typical React component is an ES6 `class` which extends `React.Component`. It has a render method that returns HTML (from JSX) or `null`. This is the basic form of a React component. Once you understand this well, you will be prepared to start building more complex React projects.
 
 # --instructions--
 

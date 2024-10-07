@@ -9,7 +9,7 @@ dashedName: understanding-boolean-values
 
 # --description--
 
-Іншим типом даних є <dfn>булеві</dfn>. Булеві можуть мати лише два значення: `true` або `false`. По суті, це маленькі перемикачі, де `true` означає «увімкнено», а `false` означає «вимкнено». Ці два стани несумісні.
+Another data type is the <dfn>Boolean</dfn>. Booleans may only be one of two values: `true` or `false`. They are basically little on-off switches, where `true` is on and `false` is off. These two states are mutually exclusive.
 
 **Примітка:** булеві значення завжди записують без лапок. Рядки `"true"` та `"false"` не є булевими та не мають особливого значення у JavaScript.
 

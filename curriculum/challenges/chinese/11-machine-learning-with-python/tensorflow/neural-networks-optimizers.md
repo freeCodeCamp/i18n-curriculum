@@ -14,7 +14,7 @@ dashedName: neural-networks-optimizers
 
 ## --text--
 
-什么是优化函数？
+What is an optimizer function?
 
 ## --answers--
 

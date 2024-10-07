@@ -1,6 +1,6 @@
 ---
 id: 587d778f367417b2b2512aae
-title: Give Links Meaning by Using Descriptive Link Text
+title: Toa Viungo Maana kwa Kutumia Maandishi ya Kiungo cha Maelezo
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/c437DcV'
 forumTopicId: 301013
@@ -11,27 +11,27 @@ dashedName: give-links-meaning-by-using-descriptive-link-text
 
 Screen reader users have various options for what type of content their device reads. These options include skipping to (or over) landmark elements, jumping to the main content, or getting a page summary from the headings. Another option is to only hear the links available on a page.
 
-Screen readers do this by reading the link text, or what's between the anchor (`a`) tags. Having a list of "click here" or "read more" links isn't helpful. Instead, use brief but descriptive text within the `a` tags to provide more meaning for these users.
+Visoma skrini hufanya hivi kwa kusoma maandishi ya kiungo, au kilicho kati ya lebo za nanga (`a`). Kuwa na orodha ya viungo vya "bofya hapa" au "soma zaidi" haikusaidii. Badala yake, tumia maandishi mafupi na yenye ufafanuzi ndani ya lebo za `a` ili kutoa maana zaidi kwa watumiaji hawa.
 
 # --instructions--
 
-The link text that Camper Cat is using is not very descriptive without the surrounding context. Move the anchor (`a`) tags so they wrap around the text `information about batteries` instead of `Click here`.
+Maandishi ya kiungo ambayo Camper Cat anatumia hayaelezei sana bila muktadha unaomzunguka. Songeza lebo za nanga (`a`) ili ziambatane na maandishi `maelezo kuhusu betri` badala ya `bofya hapa`.
 
 # --hints--
 
-Your code should move the anchor `a` tags from around the words `Click here` to wrap around the words `information about batteries`.
+Msimbo wako unapaswa kuhamisha lebo za `a` kutoka karibu na maneno `Bofya hapa` ili kuzunguka maneno `maelezo kuhusu betri`.
 
 ```js
 assert.match(document.querySelector('a')?.textContent, /^(information about batteries)$/g);
 ```
 
-The `a` element should have an `href` attribute with a value of an empty string `""`.
+Kipengele cha `a` kinafaa kuwa na sifa ya `href` yenye thamani ya mfuatano tupu `""`.
 
 ```js
 assert.isEmpty(document.querySelector('a')?.getAttribute('href'));
 ```
 
-The `a` element should have a closing tag.
+Kipengele cha `a` kinafaa kuwa na lebo ya kufunga.
 
 ```js
 assert.isTrue(code.match(/<\/a>/g)?.length === code.match(/<a href=(''|"")>/g)?.length);

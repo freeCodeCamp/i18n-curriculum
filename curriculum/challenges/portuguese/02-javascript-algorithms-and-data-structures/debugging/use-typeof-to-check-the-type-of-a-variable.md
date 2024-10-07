@@ -8,7 +8,7 @@ dashedName: use-typeof-to-check-the-type-of-a-variable
 
 # --description--
 
-Você pode usar `typeof` para verificar a estrutura de dado, ou tipo, de uma variável. Isso é útil na depuração quando trabalhando com diversos tipos de dados. Se você pensar que está adicionando dois números, mas na verdade um é na verdade uma string, o resultado pode ser inesperado. Erros de tipo podem se esconder em cálculos ou chamada de funções. Seja cuidadoso especialmente quando você estiver acessando e trabalhando com dados externos na forma de um objeto JavaScript Object Notation (JSON).
+You can use `typeof` to check the data structure, or type, of a variable. This is useful in debugging when working with multiple data types. If you think you're adding two numbers, but one is actually a string, the results can be unexpected. Type errors can lurk in calculations or function calls. Be careful especially when you're accessing and working with external data in the form of a JavaScript Object Notation (JSON) object.
 
 Aqui está alguns exemplos usando `typeof`:
 

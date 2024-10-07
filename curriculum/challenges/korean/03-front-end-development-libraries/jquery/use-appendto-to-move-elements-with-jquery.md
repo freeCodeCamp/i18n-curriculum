@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aed608826
-title: Use appendTo to Move Elements with jQuery
+title: jQuery로 요소 이동을 위해 appendTo 사용하기
 challengeType: 6
 forumTopicId: 18340
 dashedName: use-appendto-to-move-elements-with-jquery
@@ -10,31 +10,31 @@ dashedName: use-appendto-to-move-elements-with-jquery
 
 Now let's try moving elements from one `div` to another.
 
-jQuery has a function called `appendTo()` that allows you to select HTML elements and append them to another element.
+jQuery는 HTML 요소를 선택하고 다른 요소에 추가할 수 있는 `appendTo()`라는 함수가 있습니다.
 
-For example, if we wanted to move `target4` from our right well to our left well, we would use:
+예를 들면 `target4`를 오른쪽 웰에서 왼쪽 웰로 이동시키고 싶을 때 다음과 같이 사용합니다:
 
 ```js
 $("#target4").appendTo("#left-well");
 ```
 
-Move your `target2` element from your `left-well` to your `right-well`.
+`target2` 요소를 `left-well`에서 `right-well`로 이동시키시오.
 
 # --hints--
 
-Your `target2` element should not be inside your `left-well`.
+`target2` 요소는 `left-well` 안에 있지 않아야 합니다.
 
 ```js
 assert($('#left-well').children('#target2').length === 0);
 ```
 
-Your `target2` element should be inside your `right-well`.
+`target2` 요소는 `right-well` 안에 있어야 합니다.
 
 ```js
 assert($('#right-well').children('#target2').length > 0);
 ```
 
-You should only use jQuery to move these elements.
+이 요소들을 이동시킬 때 오직 jQuery만 사용해야 합니다.
 
 ```js
 assert(!code.match(/class.*animated/g));

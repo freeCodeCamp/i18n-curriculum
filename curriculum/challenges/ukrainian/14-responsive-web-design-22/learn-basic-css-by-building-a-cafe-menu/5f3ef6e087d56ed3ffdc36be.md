@@ -17,13 +17,13 @@ dashedName: step-61
 assert.match(code,/<p class=('|")established\1>/i);
 ```
 
-Ваш клас `established` повинен бути на елементі з текстом `Est. 2020`.
+Клас `established` повинен бути на елементі з текстом `Est. 2020`.
 
 ```js
 assert.match(document.querySelector('.established')?.innerText, /Est\.\s2020/i);
 ```
 
-Ваш елемент класу `established` повинен мати курсивний текст.
+Елемент класу `established` повинен мати курсивний текст.
 
 ```js
 const establishElement = document.querySelector('.established');

@@ -8,12 +8,12 @@ dashedName: count-occurrences-of-a-substring
 
 # --description--
 
-Create a function, or show a built-in function, to count the number of non-overlapping occurrences of a substring inside a string.
+Erstelle eine Funktion oder zeige eine eingebaute Funktion, um die Anzahl der nicht überlappenden Vorkommen eines Substring in einem String zu zählen.
 
 Die Funktion sollte zwei Argumente haben:
 
 <ul>
-  <li>the first argument being the string to search, and</li>
+  <li>wobei das erste Argument der zu suchende String ist, und</li>
   <li>die zweite ein Substring, nach dem gesucht werden soll.</li>
 </ul>
 

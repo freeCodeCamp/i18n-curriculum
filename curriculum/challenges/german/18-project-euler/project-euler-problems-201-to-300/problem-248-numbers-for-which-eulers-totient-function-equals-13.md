@@ -1,6 +1,6 @@
 ---
 id: 5900f4651000cf542c50ff77
-title: 'Problem 248: Numbers for which Euler’s totient function equals 13!'
+title: 'Problem 248: Zahlen, bei denen die Eulersche Phi Funktion 13 ergibt!'
 challengeType: 1
 forumTopicId: 301895
 dashedName: problem-248-numbers-for-which-eulers-totient-function-equals-13
@@ -8,13 +8,13 @@ dashedName: problem-248-numbers-for-which-eulers-totient-function-equals-13
 
 # --description--
 
-The first number $n$ for which $φ(n) = 13!$ is $6\\,227\\,180\\,929$.
+Die erste Zahl $n$, für die $φ(n) = 13!$ ist, ist $6\\,227\\,180\,929$.
 
-Find the ${150\\,000}^{\text{th}}$ such number.
+Finde die ${150\\.000}^{\text{th}}$ solche Zahl.
 
 # --hints--
 
-`eulersTotientFunctionEquals()` should return `23507044290`.
+`eulersTotientFunctionEquals()` sollte `23507044290` zurückgeben.
 
 ```js
 assert.strictEqual(eulersTotientFunctionEquals(), 23507044290);

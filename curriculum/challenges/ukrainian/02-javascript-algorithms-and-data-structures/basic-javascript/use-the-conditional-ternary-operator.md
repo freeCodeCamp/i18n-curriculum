@@ -8,9 +8,9 @@ dashedName: use-the-conditional-ternary-operator
 
 # --description--
 
-<dfn>Умовний оператор</dfn>, який також називається <dfn>тернарним оператором</dfn>, можна використовувати як однорядкову інструкцію «if-else».
+The <dfn>conditional operator</dfn>, also called the <dfn>ternary operator</dfn>, can be used as a one line if-else expression.
 
-Синтаксисом є `a ? b : c`, де `a` — умова, `b` — код, якщо умова повертає `true` та `c` — код, якщо умова повертає `false`.
+The syntax is `a ? b : c`, where `a` is the condition, `b` is the code to run when the condition returns `true`, and `c` is the code to run when the condition returns `false`.
 
 Ця функція використовує інструкцію `if/else`, щоб перевірити умову:
 

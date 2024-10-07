@@ -8,7 +8,7 @@ dashedName: render-state-in-the-user-interface
 
 # --description--
 
-Sobald du den Ausgangszustand einer Komponente definiert hast, kannst du jeden Teil der Komponente in der gerenderten Benutzeroberfläche anzeigen. Wenn eine Komponente zustandsabhängig ist, hat sie in ihrer `render()`-Methode immer Zugriff auf die Daten im `state`. Du kannst auf die Daten mit `this.state` zugreifen.
+Once you define a component's initial state, you can display any part of it in the UI that is rendered. If a component is stateful, it will always have access to the data in `state` in its `render()` method. You can access the data with `this.state`.
 
 Wenn du innerhalb des `return` der Render-Methode auf einen Zustandswert zugreifen willst, musst du den Wert in geschweifte Klammern einschließen.
 

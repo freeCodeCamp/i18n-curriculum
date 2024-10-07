@@ -8,7 +8,7 @@ dashedName: convert-html-entities
 
 # --description--
 
-Converti i caratteri `&`, `<`, `>`, `"` (virgolette doppie), e `'` (apostrofo), in una stringa nelle corrispondenti entità HTML.
+Convert the characters `&`, `<`, `>`, `"` (double quote), and `'` (apostrophe), in a string to their corresponding HTML entities.
 
 # --hints--
 

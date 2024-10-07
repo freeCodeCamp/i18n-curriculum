@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d4036176
-title: Use State to Toggle an Element
+title: 상태를 사용해서 엘리먼트 토글
 challengeType: 6
 forumTopicId: 301421
 dashedName: use-state-to-toggle-an-element
@@ -16,7 +16,7 @@ this.setState({
 });
 ```
 
-Instead, you should pass `setState` a function that allows you to access state and props. Using a function with `setState` guarantees you are working with the most current values of state and props. This means that the above should be rewritten as:
+위와 같은 코드 대신에, 상태와 프로퍼티에 접근할 수 있는 함수를 `setState`에 전달해야 합니다. `setState`와 함께 함수를 사용하면, 상태와 프로퍼티의 가장 최신 값을 사용한다고 보장할 수 있습니다. 즉, 위의 예시는 이렇게 작성되었어야 합니다.
 
 ```jsx
 this.setState((state, props) => ({
@@ -24,7 +24,7 @@ this.setState((state, props) => ({
 }));
 ```
 
-You can also use a form without `props` if you need only the `state`:
+`state`만 필요한 경우 `props` 없이 사용할 수도 있습니다.
 
 ```jsx
 this.setState(state => ({
@@ -32,21 +32,21 @@ this.setState(state => ({
 }));
 ```
 
-Note that you have to wrap the object literal in parentheses, otherwise JavaScript thinks it's a block of code.
+위의 객체를 괄호로 묶어야 하는 것을 알아두세요, 아니면 자바스크립트는 그냥 코드 블록으로 간주합니다.
 
 # --instructions--
 
-`MyComponent` has a `visibility` property which is initialized to `false`. The render method returns one view if the value of `visibility` is true, and a different view if it is false.
+`MyComponent`는 `false` 값으로 초기화된 `visibility` 프로퍼티를 가지고 있습니다. 렌더링 메서드는 `visibility`의 값이 true 혹은 false에 따라 다른 것을 보여줍니다.
 
-Currently, there is no way of updating the `visibility` property in the component's `state`. The value should toggle back and forth between true and false. There is a click handler on the button which triggers a class method called `toggleVisibility()`. Pass a function to `setState` to define this method so that the `state` of `visibility` toggles to the opposite value when the method is called. If `visibility` is `false`, the method sets it to `true`, and vice versa.
+지금은 컴포넌트 `상태`의 `visibility` 프로퍼티를 업데이트할 방법이 없습니다. 이 프로퍼티 값이 true와 false로 토글되어야 합니다. 버튼에는 `toggleVisibility()`라는 클래스 메서드를 실행하는 클릭 핸들러가 있습니다. 이 메서드가 호출되었을 때 `visibility`의 `상태`가 반대 값으로 전환되도록 `setState`에 함수를 전달해주세요. `visibility`가 `false`면 이 메서드가 `true`로 설정하고 그 반대로도 마찬가지입니다.
 
-Finally, click the button to see the conditional rendering of the component based on its `state`.
+마지막으로 버튼을 클릭해서 `상태`를 기준으로 컴포넌트의 조건부 렌더링을 확인해보세요.
 
-**Hint:** Don't forget to bind the `this` keyword to the method in the `constructor`!
+**힌트:** `constructor`에서 메서드에 `this`를 바인딩 하는 것을 잊지마세요!
 
 # --hints--
 
-`MyComponent` should return a `div` element which contains a `button`.
+`MyComponent`는 `button`를 가진 `div` 엘리먼트를 반환해야 합니다.
 
 ```js
 assert.strictEqual(
@@ -56,7 +56,7 @@ assert.strictEqual(
 );
 ```
 
-The state of `MyComponent` should initialize with a `visibility` property set to `false`.
+`MyComponent`의 상태는 `visibility` 프로퍼티 값을 `false`로 초기화 해야 합니다.
 
 ```js
 assert.strictEqual(
@@ -65,7 +65,7 @@ assert.strictEqual(
 );
 ```
 
-Clicking the button element should toggle the `visibility` property in state between `true` and `false` and conditionally render the `h1` element.
+버튼 요소를 클릭하면 상태의 `visibility` 속성이 `true`와 `false` 사이에서 토글되어, `h1` 요소가 조건부로 렌더링되어야 합니다.
 
 ```js
 (() => {
@@ -89,7 +89,7 @@ Clicking the button element should toggle the `visibility` property in state bet
 })();
 ```
 
-An anonymous function should be passed to `setState`.
+익명 함수가 `setState`로 전달되어야 합니다.
 
 ```js
 const paramRegex = '[a-zA-Z$_]\\w*(,[a-zA-Z$_]\\w*)?';
@@ -104,7 +104,7 @@ assert(
 );
 ```
 
-`this` should not be used inside `setState`
+`setState` 안에서 `this`는 사용되지 말아야 합니다.
 
 ```js
 assert(!/this\.setState\([^}]*this/.test(code));

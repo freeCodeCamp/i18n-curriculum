@@ -17,11 +17,11 @@ dashedName: learn-block-and-inline-lesson-h
 
 ## --answers--
 
-Елемент paragraph
+елемент paragraph
 
 ---
 
-Елемент image
+елемент image
 
 ---
 
@@ -29,7 +29,7 @@ dashedName: learn-block-and-inline-lesson-h
 
 ---
 
-Елемент footer
+елемент footer
 
 ## --video-solution--
 

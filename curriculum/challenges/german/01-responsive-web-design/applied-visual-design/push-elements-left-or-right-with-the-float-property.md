@@ -9,7 +9,7 @@ dashedName: push-elements-left-or-right-with-the-float-property
 
 # --description--
 
-Das nächste Mittel zur Positionierung verwendet nicht die `position`-, sondern `float`-Eigenschaft von Elementen. Float-Elemente sind nicht Teil des normalen Flusses und werden entweder in Richtung der linken (`left`) oder rechten (`right`) Seite ihres übergeordneten Containers geschoben. Float wird üblicherweise gemeinsam mit der Eigenschaft `width` verwendet, um festzulegen, wie viel horizontalen Platz das Element benötigt.
+The next positioning tool does not actually use `position`, but sets the `float` property of an element. Floating elements are removed from the normal flow of a document and pushed to either the `left` or `right` of their containing parent element. It's commonly used with the `width` property to specify how much horizontal space the floated element requires.
 
 # --instructions--
 

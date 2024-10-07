@@ -8,7 +8,7 @@ dashedName: check-for-mixed-grouping-of-characters
 
 # --description--
 
-有時候我們想使用正則表達式裏的括號 `()` 來檢查字符組。
+Sometimes we want to check for groups of characters using a Regular Expression and to achieve that we use parentheses `()`.
 
 如果想在字符串找到 `Penguin` 或 `Pumpkin`，可以用這個正則表達式：`/P(engu|umpk)in/g`。
 

@@ -9,7 +9,7 @@ dashedName: learn-about-complementary-colors
 
 # --description--
 
-色彩理論とそのデザインへの影響は深い話であり、このチャレンジでは基礎のみを取り上げます。 ウェブサイトでは、色を使ってコンテンツに注意を引いたり、感情を呼び起こしたり、視覚的な調和を作ったりすることができます。 異なる色の組み合わせを使うとウェブサイトの外観を大きく変えることができるため、あなたのコンテンツに合うカラーパレットを選ぶには多くのことを考慮することになるでしょう。
+Color theory and its impact on design is a deep topic and only the basics are covered in the following challenges. On a website, color can draw attention to content, evoke emotions, or create visual harmony. Using different combinations of colors can really change the look of a website, and a lot of thought can go into picking a color palette that works with your content.
 
 色相環は、似たような色相を持つ色は近く、異なる色相を持つ色は遠くに配置された円で、色がお互いにどのような関係にあるかを視覚化するのに便利なツールです。 二つの色が円の反対側にあるとき、それらは補色と呼ばれます。 その二色は混合するとお互いを打ち消し灰色になるという特徴を持っています。 しかし、並べて配置するとより鮮やかに見え、強力な視覚的コントラストを作り出します。
 

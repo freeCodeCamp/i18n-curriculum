@@ -9,9 +9,9 @@ dashedName: access-multi-dimensional-arrays-with-indexes
 
 # --description--
 
-<dfn>Багатовимірний масив</dfn> можна описати як *масив масивів*. Коли ви використовуєте дужки для доступу до масиву, перша пара дужок стосується записів зовнішнього масиву (перший рівень), а кожна додаткова пара дужок стосується наступного рівня записів.
+One way to think of a <dfn>multi-dimensional</dfn> array, is as an *array of arrays*. When you use brackets to access your array, the first set of brackets refers to the entries in the outermost (the first level) array, and each additional pair of brackets refers to the next level of entries inside.
 
-**Приклад**
+**Наприклад:**
 
 ```js
 const arr = [

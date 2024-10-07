@@ -9,7 +9,7 @@ dashedName: delete-html-elements
 
 # --description--
 
-Il nostro telefono non ha molto spazio verticale.
+Our phone doesn't have much vertical space.
 
 Rimuoviamo gli elementi inutili in modo da poter iniziare a costruire la nostra CatPhotoApp.
 

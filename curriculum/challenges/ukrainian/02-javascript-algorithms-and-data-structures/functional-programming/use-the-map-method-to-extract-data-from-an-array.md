@@ -8,7 +8,7 @@ dashedName: use-the-map-method-to-extract-data-from-an-array
 
 # --description--
 
-Ми вже навчилися використовувати чисті функції, щоб уникнути побічних ефектів в програмі. Крім того, ми побачили, що значення функції залежить тільки від її вхідних аргументів.
+So far we have learned to use pure functions to avoid side effects in a program. Also, we have seen the value in having a function only depend on its input arguments.
 
 Це лише початок. Як випливає з назви, функційне програмування зосереджене на функціях.
 

@@ -8,7 +8,7 @@ dashedName: use-the--env-file
 
 # --description--
 
-Il file `.env` è un file nascosto che viene utilizzato per passare le variabili d'ambiente alla tua applicazione. Questo file è segreto, nessuno tranne te può accedervi, e può essere utilizzato per memorizzare i dati che desideri mantenere privati o nascosti. Ad esempio, puoi memorizzare le chiavi API di servizi esterni o l'URI del database. Puoi anche usarlo per memorizzare le opzioni di configurazione. Impostando le opzioni di configurazione, puoi modificare il comportamento della tua applicazione, senza la necessità di riscrivere una parte di codice.
+The `.env` file is a hidden file that is used to pass environment variables to your application. This file is secret, no one but you can access it, and it can be used to store data that you want to keep private or hidden. For example, you can store API keys from external services or your database URI. You can also use it to store configuration options. By setting configuration options, you can change the behavior of your application, without the need to rewrite some code.
 
 Le variabili di ambiente sono accessibili dall'app come `process.env.VAR_NAME`. L'oggetto `process.env` è un oggetto Node globale e le variabili sono passate come stringhe. Per convenzione, i nomi delle variabili sono tutti in maiuscolo, con parole separate da un trattino basso. `.env` è un file di shell, quindi non è necessario racchiudere i nomi o i valori tra virgolette. È anche importante notare che non ci possono essere degli spazi intorno al segno uguale quando si assegnano valori alle variabili, ad esempio `VAR_NAME=value`. Normalmente metterai ogni definizione di variabile in una riga separata.
 
@@ -20,7 +20,7 @@ Crea un file `.env` nella directory principale del tuo progetto e memorizza la v
 
 Poi, all'interno del gestore della rotta `/json` GET che hai creato nell'ultima sfida accedi a `process.env.MESSAGE_STYLE` e trasforma la proprietà `message` dell'oggetto di risposta in maiuscolo se la variabile è uguale a `uppercase`. L'oggetto della risposta dovrebbe essere `{"message": "Hello json"}` o `{"message": "HELLO JSON"}`, a seconda del valore di `MESSAGE_STYLE`. Nota che, per come vengono eseguiti i test, occorre leggere il valore di `process.env.MESSAGE_STYLE` **all'interno** del gestore di rotta, non al di fuori.
 
-You will need to use the `dotenv` package. Carica le variabili ambientali dal tuo file `.env` in `process.env`. Il pacchetto `dotenv` è già stato installato ed è nel file `package.json` del tuo progetto. In cima al file `myApp.js`, aggiungi `require('dotenv').config()` per caricare le variabili di ambiente.
+You will need to use the `dotenv` package. It loads environment variables from your `.env` file into `process.env`. The `dotenv` package has already been installed, and is in your project's `package.json` file. At the top of your `myApp.js` file, add `require('dotenv').config()` to load the environment variables.
 
 # --hints--
 

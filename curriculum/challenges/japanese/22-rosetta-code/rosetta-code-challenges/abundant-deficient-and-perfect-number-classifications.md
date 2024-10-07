@@ -12,11 +12,11 @@ These define three classifications of positive integers based on their proper di
 
 $P(n)$ は、真の約数が `n` 自身以外の正の整数 `n` である場合の `n` の真の約数の総和です。
 
-`P(n) < n` の場合、`n` は `deficient` に分類されます。
+If `P(n) < n` then `n` is classed as `deficient`
 
 `P(n) === n` の場合、`n` は `perfect` に分類されます。
 
-`P(n) > n` の場合 `n` は `abundant` に分類されます。
+If `P(n) > n` then `n` is classed as `abundant`
 
 **例**: `6` の真の約数は、`1`, `2`, `3` です。 `1 + 2 + 3 = 6` なので、`6` は完全数に分類されます。
 

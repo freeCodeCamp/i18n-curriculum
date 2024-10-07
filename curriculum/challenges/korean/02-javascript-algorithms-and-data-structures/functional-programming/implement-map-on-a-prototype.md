@@ -8,7 +8,7 @@ dashedName: implement-map-on-a-prototype
 
 # --description--
 
-앞서 `Array.prototype.map()` 혹은 그냥 `map()`를 적용했을 때 봤듯이 `map` 메소드는 호출한 배열과 같은 길이의 배열을 반환합니다. 이 메소드는 콜백 함수가 본래 배열을 변형시키지 않는 한 본래 배열을 변형시키지 않습니다.
+As you have seen from applying `Array.prototype.map()`, or simply `map()` earlier, the `map` method returns an array of the same length as the one it was called on. It also doesn't alter the original array, as long as its callback function doesn't.
 
 다시 말해 `map`는 순수 함수이고 이 결괏값은 온전히 입력에 의존합니다. 게다가 이 메소드는 다른 함수를 인자로 받습니다.
 

@@ -9,7 +9,7 @@ dashedName: manipulating-complex-objects
 
 # --description--
 
-有时你可能希望将数据存储在一个灵活的数据结构（<dfn>Data Structure</dfn>）中。 JavaScript 对象是一种灵活的数据结构。 它可以储存字符串（<dfn>strings</dfn>）、数字（<dfn>numbers</dfn>）、布尔值（<dfn>booleans</dfn>）、数组（<dfn>arrays</dfn>）、函数（<dfn>functions</dfn>）和对象（<dfn>objects</dfn>）以及这些值的任意组合。
+Sometimes you may want to store data in a flexible <dfn>Data Structure</dfn>. A JavaScript object is one way to handle flexible data. They allow for arbitrary combinations of <dfn>strings</dfn>, <dfn>numbers</dfn>, <dfn>booleans</dfn>, <dfn>arrays</dfn>, <dfn>functions</dfn>, and <dfn>objects</dfn>.
 
 这是一个复杂数据结构的示例：
 

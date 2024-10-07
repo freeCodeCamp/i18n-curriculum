@@ -55,4 +55,4 @@ console.log(newStrings);
 
 ## --video-solution--
 
-3
+الثالث

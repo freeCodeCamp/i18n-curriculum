@@ -9,7 +9,7 @@ dashedName: create-visual-direction-by-fading-an-element-from-left-to-right
 
 # --description--
 
-在本挑战中，我们需要改变动画元素的 `opacity` 属性值，使其在到达屏幕右侧时渐隐。
+For this challenge, you'll change the `opacity` of an animated element so it gradually fades as it reaches the right side of the screen.
 
 在示例动画中，具有渐变背景的圆形元素在 `@keyframes` 为 50% 的节点向右移动。
 

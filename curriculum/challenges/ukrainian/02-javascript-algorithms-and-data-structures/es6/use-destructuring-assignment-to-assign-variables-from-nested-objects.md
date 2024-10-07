@@ -8,7 +8,7 @@ dashedName: use-destructuring-assignment-to-assign-variables-from-nested-objects
 
 # --description--
 
-Ви можете використовувати принципи з попередніх завдань, щоб деструктурувати значення з вкладених об’єктів.
+You can use the same principles from the previous two lessons to destructure values from nested objects.
 
 Використовуючи об’єкт, схожий до попередніх прикладів:
 

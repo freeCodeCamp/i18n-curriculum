@@ -1,6 +1,6 @@
 ---
 id: 5900f3a51000cf542c50feb8
-title: 'Problem 57: Square root convergents'
+title: 'Problem 57: Quadratwurzel konvergenzen'
 challengeType: 1
 forumTopicId: 302168
 dashedName: problem-57-square-root-convergents

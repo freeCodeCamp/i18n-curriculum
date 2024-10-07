@@ -8,7 +8,7 @@ dashedName: convert-json-data-to-html
 
 # --description--
 
-JSON API からデータを取得したので、そのデータを HTML で表示できます。
+Now that you're getting data from a JSON API, you can display it in the HTML.
 
 猫の写真のオブジェクトが配列に格納されているので、`forEach` メソッドを使用してデータをループ処理することができます。 各アイテムに到達すると、HTML 要素を変更することができます。
 

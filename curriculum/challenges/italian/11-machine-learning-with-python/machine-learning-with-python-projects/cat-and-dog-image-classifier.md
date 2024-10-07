@@ -8,9 +8,9 @@ dashedName: cat-and-dog-image-classifier
 
 # --description--
 
-<a href="https://colab.research.google.com/github/freeCodeCamp/boilerplate-cat-and-dog-image-classifier/blob/master/fcc_cat_dog.ipynb" target="_blank" rel="noopener noreferrer nofollow">Lavorerai su questo progetto con Google Colaboratory</a>.
+You will be <a href="https://colab.research.google.com/github/freeCodeCamp/boilerplate-cat-and-dog-image-classifier/blob/master/fcc_cat_dog.ipynb" target="_blank" rel="noopener noreferrer nofollow">working on this project with Google Colaboratory</a>.
 
-Dopo essere andato a quel collegamento, crea una copia del notebook nel tuo account o localmente. Una volta completato il progetto e superato il test (incluso a quel link), invia il link del progetto qui sotto. Se stai inviando un link di Google Colaboratory, assicurati di attivare la condivisione di link per "anyone with the link"
+Dopo aver visitato il link, crea una copia del notebook nel tuo account o localmente. Una volta completato il progetto e superato il test (incluso in quel link), invia il link del progetto qui sotto. Se stai inviando un link di Google Colaboratory, assicurati di attivare la condivisione del link per "anyone with the link"
 
 Stiamo ancora sviluppando il contenuto didattico interattivo per il programma di machine learning. Per ora, puoi vedere le sfide video in questa certificazione. Potrebbe anche essere necessario cercare ulteriori risorse di apprendimento, in maniera simile a quello che faresti lavorando su un progetto del mondo reale.
 
@@ -39,7 +39,7 @@ Puoi cambiare epoch e dimensione dei batch se vuoi, ma non è richiesto.
 
 Le seguenti istruzioni corrispondo a specifici numeri di celle, indicate con un commento in cima alla cella (tipo `# 3`).
 
-## Cella 3
+## Cell 3
 
 Ora è il tuo turno! Imposta correttamente ciascuna delle variabili in questa cella. (Non dovrebbero più essere uguali a `None`.)
 

@@ -25,7 +25,7 @@ You can also repeat multiple values with the repeat function and insert the func
 grid-template-columns: repeat(2, 1fr 50px) 20px;
 ```
 
-This translates to:
+وهذا يترجم إلى:
 
 ```css
 grid-template-columns: 1fr 50px 1fr 50px 20px;

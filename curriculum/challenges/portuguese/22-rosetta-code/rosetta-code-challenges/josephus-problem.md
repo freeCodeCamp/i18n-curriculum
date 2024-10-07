@@ -16,7 +16,7 @@ Um carrasco caminha pelo círculo, começando pelo prisioneiro $0$, removendo ca
 
 Por exemplo, se houver $n=5$ prisioneiros e $k=2$, a ordem em que os prisioneiros são mortos (vamos chamá-la de "sequência de morte") será 1, 3, 0 e 4. O sobrevivente, então, será o nº 2.
 
-Dado qualquer $n, sendo k > 0$, descubra qual prisioneiro será o sobrevivente ao final.
+Given any $n, k > 0$, find out which prisoner will be the final survivor.
 
 Em um incidente deste tipo, havia 41 prisoneiros e o 3<sup>o</sup> prisioneiro na sequência era morto ($k=3$).
 

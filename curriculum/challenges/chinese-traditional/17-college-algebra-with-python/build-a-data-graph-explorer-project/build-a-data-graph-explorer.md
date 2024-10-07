@@ -7,13 +7,13 @@ dashedName: build-a-data-graph-explorer
 
 # --description--
 
-你將使用 <a href="https://colab.research.google.com/#create=true" target="_blank" rel="noopener noreferrer nofollow">Google Colaboratory</a> 來完成這個項目。
+你將<a href="https://colab.research.google.com/#create=true" target="_blank" rel="noopener noreferrer nofollow">使用 Google Colaboratory 來完成這個項目</a>。
 
 完成項目之後，請在下方提交你的項目鏈接。 如果你提交的是 Google Colaboratory 的鏈接，請確保鏈接分享選項爲 “anyone with the link”。
 
 # --instructions--
 
-For this challenge, you need to create a data graph explorer using Python that take input and do the following:
+在這項挑戰中，使用 Python 創建一個接受輸入並具備以下功能的數據圖表瀏覽器：
 
 - 以三種方式獲取 .csv 文件
   - 從計算機本地上傳

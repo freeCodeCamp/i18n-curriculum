@@ -8,7 +8,7 @@ dashedName: get-geolocation-data-to-find-a-users-gps-coordinates
 
 # --description--
 
-Un'altra cosa speciale che puoi fare è accedere alla posizione attuale del tuo utente. Ogni browser ha integrato un navigatore che può dare questa informazione.
+Another cool thing you can do is access your user's current location. Every browser has a built in navigator that can give you this information.
 
 Il navigatore ottiene la longitudine e latitudine attuali.
 

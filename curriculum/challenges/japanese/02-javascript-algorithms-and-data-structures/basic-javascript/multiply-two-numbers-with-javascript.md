@@ -9,7 +9,7 @@ dashedName: multiply-two-numbers-with-javascript
 
 # --description--
 
-数値どうしの掛け算をすることもできます。
+We can also multiply one number by another.
 
 JavaScript では 2 つの数値の掛け算に `*` 記号を使用します。
 

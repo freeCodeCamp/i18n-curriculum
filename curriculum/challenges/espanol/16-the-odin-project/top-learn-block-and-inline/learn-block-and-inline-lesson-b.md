@@ -13,7 +13,7 @@ Sin embargo, los elementos en línea no comienzan en una nueva línea. Aparecen 
 
 Busca en la web una lista de elementos `block` y una lista de elementos `inline`.
 
-# --questions--
+# --preguntas--
 
 ## --text--
 

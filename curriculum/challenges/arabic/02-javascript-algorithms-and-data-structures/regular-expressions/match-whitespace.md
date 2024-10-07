@@ -8,7 +8,7 @@ dashedName: match-whitespace
 
 # --description--
 
-غطت التحديات حتى الآن الرموز المطابقة للحروف الأبجدية والأرقام. يمكنك أيضا مطابقة الـ Whitespace (المسافة الفارغة) أو المسافات بين الحروف.
+The challenges so far have covered matching letters of the alphabet and numbers. You can also match the whitespace or spaces between letters.
 
 يمكنك البحث عن الـ whitespace باستخدام `\s`، وهو حرف `s` صغير بمعني lowercase. هذا النمط لا يتطابق مع الـ whitespace فحسب، بل أيضا مع رموز الـ carriage return و tab و form feed و new line. يمكنك أن تفكر فيها مثل مجموعة الرموز الآتية `[ \r\t\f\n\v]`.
 

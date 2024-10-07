@@ -8,7 +8,7 @@ dashedName: copy-an-array-with-the-spread-operator
 
 # --description--
 
-Mentre `slice()` ci permette di essere selettivi su quali elementi di un array copiare, tra diverse altre attività utili, il nuovo <dfn>operatore di propagazione</dfn> di ES6 ci permette di copiare facilmente *tutti* gli elementi di un array, in ordine, con una sintassi semplice e molto leggibile. La sintassi di propagazione è semplicemente questa: `...`
+While `slice()` allows us to be selective about what elements of an array to copy, among several other useful tasks, ES6's new <dfn>spread operator</dfn> allows us to easily copy *all* of an array's elements, in order, with a simple and highly readable syntax. The spread syntax simply looks like this: `...`
 
 In pratica, possiamo usare l'operatore di propagazione per copiare un array in questo modo:
 

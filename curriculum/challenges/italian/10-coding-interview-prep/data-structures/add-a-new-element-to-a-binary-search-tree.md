@@ -1,6 +1,6 @@
 ---
 id: 587d8257367417b2b2512c7b
-title: Aggiungere un nuovo elemento ad un albero binario di ricerca
+title: Add a New Element to a Binary Search Tree
 challengeType: 1
 forumTopicId: 301618
 dashedName: add-a-new-element-to-a-binary-search-tree
@@ -8,7 +8,7 @@ dashedName: add-a-new-element-to-a-binary-search-tree
 
 # --description--
 
-Questa serie di sfide introdurrà la struttura di dati ad albero. Gli alberi sono una struttura dati importante e versatile nell'informatica. Naturalmente, il loro nome deriva dal fatto che quando visualizzati assomigliano molto agli alberi con cui abbiamo familiarità nel mondo naturale. Una struttura di dati ad albero inizia con un nodo, tipicamente indicato come la radice, e da qui si dirama in nodi aggiuntivi, ciascuno dei quali può avere più nodi figli, e così via. La struttura dei dati viene solitamente visualizzata con il nodo radice in alto; lo si può pensare come un albero naturale capovolto verso il basso.
+This series of challenges will introduce the tree data structure. Trees are an important and versatile data structure in computer science. Of course, their name comes from the fact that when visualized they look much like the trees we are familiar with in the natural world. A tree data structure begins with one node, typically referred to as the root, and from here branches out to additional nodes, each of which may have more child nodes, and so on and so forth. The data structure is usually visualized with the root node at the top; you can think of it as a natural tree flipped upside down.
 
 In primo luogo, descriviamo un po' di terminologia comune che incontreremo con gli alberi. Il nodo radice è la parte superiore dell'albero. I punti dati dell'albero sono chiamati nodi. I nodi con rami che conducono ad altri nodi sono indicati come il genitore del nodo al quale il ramo conduce (il figlio). Altri termini familiari più complicati si applicano come ci si potrebbe aspettare. Un sottoalbero si riferisce a tutti i discendenti di un particolare nodo, dei rami possono essere denominati bordi, e i nodi foglie sono i nodi alla fine dell'albero e che non hanno figli. Infine, nota che gli alberi sono intrinsecamente strutture di dati ricorsive. Cioè, tutti i figli di un nodo sono genitori del proprio sottalbero, e così via. La natura ricorsiva degli alberi è importante da capire quando si progettano algoritmi per le operazioni comuni sugli alberi.
 

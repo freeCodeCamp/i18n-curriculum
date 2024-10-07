@@ -9,7 +9,7 @@ dashedName: lock-an-element-to-its-parent-with-absolute-positioning
 
 # --description--
 
-接下來要介紹 CSS `position` 屬性的取值選項 `absolute`，它的含義是相對於其包含塊定位。 和 `relative` 定位不一樣，絕對定位會將元素從當前的文檔流裏面移除，周圍的元素會忽略它。 這樣我們就可以用 CSS 的 top、bottom、left、right 屬性來調整元素的位置。
+The next option for the CSS `position` property is `absolute`, which locks the element in place relative to its parent container. Unlike the `relative` position, this removes the element from the normal flow of the document, so surrounding items ignore it. The CSS offset properties (top or bottom and left or right) are used to adjust the position.
 
 絕對定位比較特殊的一點是元素的定位參照於最近的 *positioned* 祖先元素。 如果它的父元素沒有添加定位規則（默認是 `position: relative;`），瀏覽器會繼續尋找直到默認的 `body` 標籤。
 

@@ -1,34 +1,34 @@
 ---
 id: 6391d1a4f7ac71efd0621380
-title: Build a Recipe Page Project
+title: بناء مشروع لصفحة الوصفة
 challengeType: 14
 dashedName: top-build-a-recipe-project
 ---
 
 # --description--
 
-The website will consist of a main index page which will have links to a few recipes. The website won’t look very pretty by the time you’ve finished.
+وسيتألف الموقع الشبكي من صفحة فهرسية رئيسية ستكون لها رباطات ببضع الوصفات. لن يبدو الموقع جميلا جدا عند تنتهي منه.
 
-**User Stories:**
+**المطلبيات:**
 
-1. Your recipe page should contain a `DOCTYPE` tag.
-1. Your recipe page should include an `html` element with a `head` and `body` element as children.
-1. You should have a `title` element within the `head` element with the text `The Odin Recipes`.
-1. You should see an `h1` element that has the text `Creamy Chocolate Fudge`.
+1. يجب أن تحتوي صفحة الوصفة الخاصة بك على علامة `DOCTYPE`.
+1. يجب أن تحتوي صفحة الوصفة الخاصة بك على عنصر `html` مع `head` و `body` كأطفال.
+1. يجب أن يكون لديك عنصر `title` داخل عنصر `head` مع النص `The Odin Recipes`.
+1. يجب أن ترى عنصر `h1` يحتوي على النص `Creamy Chocolate Fudge`.
 1. You should see a related image with an `alt` attribute.
-1. There should be an `h2` element with the text `Description` under the image.
-1. You should see a couple of paragraphs under `Description` that describe the recipe.
+1. يجب أن يكون هناك عنصر `h2` مع النص `Description` تحت الصورة.
+1. يجب أن ترى بضع فقرات تحت `Description` تصف الوصفة.
 1. There should be an `h2` element with the text `Ingredients`.
-1. Under the `Ingredients` heading there should be an unordered list with the ingredients needed for the recipe.
-1. Under the list of ingredients add another heading called `Steps`.
-1. You should see an ordered list with a couple of steps needed to complete the recipe.
+1. تحت عنوان `Ingredients` يجب أن تكون هناك unordered list مع المكونات اللازمة للوصفة.
+1. تحت قائمة المكونات أضف عنوان (heading) آخر يسمى `Steps`.
+1. يجب أن ترى ordered list مع بعض الخطوات المطلوبة لإكمال الوصفة.
 1. Under the steps there should be an `h2` element with the text `More Recipes`.
-1. You should see a couple of links to other recipes inside an unordered list which has a couple of list items with anchor elements within.
+1. يجب أن ترى بعض الروابط لوصفات أخرى داخل unordered list تحتوي على بعض عناصر القائمة (list items) مع عناصر anchor داخلها.
 1. These anchor elements should have an `href` attribute with the value set to `#`.
 
 # --hints--
 
-You should have a `DOCTYPE` tag.
+يجب أن يكون لديك علامة `DOCTYPE`.
 
 ```js
 assert(code.match(/<!DOCTYPE\s+?html\s*?>/gi));
@@ -44,13 +44,13 @@ const body = document.querySelectorAll('html > body')[0];
 assert(html && head && body);
 ```
 
-You should have a `title` element within the `head` element that contains the text `The Odin Recipes`.
+يجب أن يكون لديك عنصر `title` داخل عنصر `head` الذي يحتوي النص `The Odin Recipes`.
 
 ```js
 assert(document.querySelectorAll('HEAD > TITLE')[0].innerText == 'The Odin Recipes');
 ```
 
-You should have a `h1` element within your `body` element that contains the text `Creamy Chocolate Fudge`.
+يجب أن يكون لديك عنصر `h1` داخل عنصر `body` الذي يحتوي النص `Creamy Chocolate Fudge`.
 
 ```js
 assert(document.querySelectorAll('BODY > H1')[0].innerText == 'Creamy Chocolate Fudge');
@@ -64,7 +64,7 @@ const img = document.querySelectorAll('IMG')[0];
 assert(img && img.alt !='' && img.src != '')
 ```
 
-You should have an `h2` element with the text `Description`.
+يجب أن يكون هناك عنصر `h2` مع النص `Description`.
 
 ```js
 const h2 = document.querySelectorAll('H2')[0];
@@ -72,7 +72,7 @@ const h2 = document.querySelectorAll('H2')[0];
 assert(h2.innerText == 'Description');
 ```
 
-You should have at least two `p` elements describing the recipe.
+يجب أن يكون لديك على الأقل عنصران `p` يصفان الوصفة.
 
 ```js
 const paragraphs = document.querySelectorAll('P');
@@ -80,7 +80,7 @@ const paragraphs = document.querySelectorAll('P');
 assert(paragraphs.length > 1);
 ```
 
-You should have an `h2` element with the text `Ingredients`.
+يجب أن يكون هناك عنصر `h2` مع النص `Ingredients`.
 
 ```js
 const h2 = document.querySelectorAll('H2')[1];
@@ -88,7 +88,7 @@ const h2 = document.querySelectorAll('H2')[1];
 assert(h2.innerText == 'Ingredients');
 ```
 
-You should have an unordered list `<ul>` with some ingredients as the list items `<li>`.
+يجب أن يكون لديك قائمة غير مرتبة `<ul>` مع بعض المكونات كعناصر القائمة `<li>`.
 
 ```js
 const unorderedList = document.querySelectorAll('UL')[0];
@@ -97,7 +97,7 @@ const listItems = document.querySelectorAll('UL > LI');
 assert(unorderedList && listItems && listItems.length > 1);
 ```
 
-You should have an `h2` element with the text `Steps`.
+يجب أن يكون هناك عنصر `h2` مع النص `Steps`.
 
 ```js
 const h2 = document.querySelectorAll('H2')[2];
@@ -114,7 +114,7 @@ const listItems = document.querySelectorAll('OL > LI');
 assert(orderedList && listItems && listItems.length > 1);
 ```
 
-You should have an `h2` element with the text `More Recipes`.
+يجب أن يكون هناك عنصر `h2` مع النص `More Recipes`.
 
 ```js
 const h2 = document.querySelectorAll('H2')[3];
@@ -122,7 +122,7 @@ const h2 = document.querySelectorAll('H2')[3];
 assert(h2.innerText == 'More Recipes');
 ```
 
-You should have an unordered list `<ul>` element with list items `<li>` that contain `<a>` tags which lead to other recipes.
+يجب أن يكون لديك عنصر قائمة غير مرتبة `<ul>` مع عناصر القائمة `<li>` تحتوي على علامات `<a>` تؤدي إلى وصفات أخرى.
 
 ```js
 const unorderedList = document.querySelectorAll('UL')[1];

@@ -12,7 +12,7 @@ dashedName: strings-and-lists
 
 # --description--
 
-More resources:
+Weitere Quellen:
 
 \- <a href="https://www.youtube.com/watch?v=-9TfJF2dwHI" target="_blank" rel="noopener noreferrer nofollow">Aufgabe</a>
 

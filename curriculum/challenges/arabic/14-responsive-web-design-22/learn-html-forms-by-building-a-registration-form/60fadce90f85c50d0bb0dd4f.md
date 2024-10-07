@@ -7,7 +7,7 @@ dashedName: step-47
 
 # --description--
 
-لإعطاء عناصر `fieldset` بعض الشيء من الفصل، قم باختيارهم وإعطائهم `border-bottom` بقيمة `3px solid #3b3b4f`.
+To give the `fieldset` elements a bit of separation, select them and give them a `border-bottom` of `3px solid #3b3b4f`.
 
 # --hints--
 

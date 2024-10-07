@@ -8,7 +8,7 @@ dashedName: combine-arrays-with-the-spread-operator
 
 # --description--
 
-Un altro enorme vantaggio dell'operatore di <dfn>propagazione</dfn> è la capacità di combinare array, o di inserire tutti gli elementi di un array in un altro, a partire da qualsiasi indice. Con le sintassi più tradizionali, possiamo concatenare array, ma questo ci permette solo di unire array alla fine di uno, e all'inizio di un altro. La sintassi di propagazione rende estremamente semplice la seguente operazione:
+Another huge advantage of the <dfn>spread</dfn> operator is the ability to combine arrays, or to insert all the elements of one array into another, at any index. With more traditional syntaxes, we can concatenate arrays, but this only allows us to combine arrays at the end of one, and at the start of another. Spread syntax makes the following operation extremely simple:
 
 ```js
 let thisArray = ['sage', 'rosemary', 'parsley', 'thyme'];

@@ -9,7 +9,7 @@ dashedName: count-backwards-with-a-for-loop
 
 # --description--
 
-for ループでは、適切な条件を定義することができれば、減算も可能です。
+A for loop can also count backwards, so long as we can define the right conditions.
 
 繰り返しごとに 2 ずつデクリメント (減算) するには、初期化式、条件式、および最終式を変更する必要があります。
 

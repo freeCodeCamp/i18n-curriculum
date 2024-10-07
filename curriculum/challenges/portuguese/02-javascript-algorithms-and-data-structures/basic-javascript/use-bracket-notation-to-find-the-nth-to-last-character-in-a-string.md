@@ -9,7 +9,7 @@ dashedName: use-bracket-notation-to-find-the-nth-to-last-character-in-a-string
 
 # --description--
 
-Você pode usar o mesmo princípio que nós acabamos de usar para recuperar o último caractere em uma string, para recuperar o enésimo caractere antes do último caractere.
+You can use the same principle we just used to retrieve the last character in a string to retrieve the Nth-to-last character.
 
 Por exemplo, você pode pegar o valor da antepenúltima letra da string `const firstName = "Augusta"` usando `firstName[firstName.length - 3]`
 
@@ -26,7 +26,7 @@ const thirdToLastLetter = firstName[firstName.length - 3];
 
 Use <dfn>notação de colchetes</dfn> para descobrir o penúltimo caractere na string `lastName`.
 
-**Dica:** tente olhar o exemplo acima se você ficar travado.
+**Dica:** Tente olhar o exemplo acima se você ficar travado.
 
 # --hints--
 

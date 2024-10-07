@@ -9,7 +9,7 @@ dashedName: use-a-css-class-to-style-an-element
 
 # --description--
 
-As classes são declarações de estilos que podem ser reutilizadas em elementos HTML.
+Classes are reusable styles that can be added to HTML elements.
 
 Aqui está um exemplo de como criar uma classe CSS:
 

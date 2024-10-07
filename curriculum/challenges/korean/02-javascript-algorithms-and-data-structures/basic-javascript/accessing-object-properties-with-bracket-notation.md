@@ -1,6 +1,6 @@
 ---
 id: 56533eb9ac21ba0edf2244c8
-title: Accessing Object Properties with Bracket Notation
+title: 객체 속성에 대괄호 표기법으로 접근하기
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cBvmEHP'
 forumTopicId: 16163
@@ -11,9 +11,9 @@ dashedName: accessing-object-properties-with-bracket-notation
 
 The second way to access the properties of an object is bracket notation (`[]`). If the property of the object you are trying to access has a space in its name, you will need to use bracket notation.
 
-However, you can still use bracket notation on object properties without spaces.
+그러나 공백이 없는 객체 속성에도 여전히 대괄호 표기법을 사용할 수 있습니다.
 
-Here is a sample of using bracket notation to read an object's property:
+다음은 객체 속성을 읽는 데 대괄호 표기법을 사용하는 예입니다.
 
 ```js
 const myObj = {
@@ -27,41 +27,41 @@ myObj['More Space'];
 myObj["NoSpace"];
 ```
 
-`myObj["Space Name"]` would be the string `Kirk`, `myObj['More Space']` would be the string `Spock`, and `myObj["NoSpace"]` would be the string `USS Enterprise`.
+`myObj["Space Name"]`은 문자열 `Kirk`이 될 것이고, `myObj['More Space']`는 문자열 `Spock`이 될 것이며, `myObj["NoSpace"]`는 문자열 `USS Enterprise`이 될 것입니다.
 
-Note that property names with spaces in them must be in quotes (single or double).
+공백이 있는 속성 이름은 따옴표(큰 또는 작은)로 감싸야 함에 유의하세요.
 
 # --instructions--
 
-Read the values of the properties `an entree` and `the drink` of `testObj` using bracket notation and assign them to `entreeValue` and `drinkValue` respectively.
+`testObj`의 속성 `an entree`와 `the drink`의 값을 대괄호 표기법을 사용하여 읽고, 각각을 `entreeValue`와 `drinkValue`에 할당하세요.
 
 # --hints--
 
-`entreeValue` should be a string
+`entreeValue`는 문자열이어야 합니다.
 
 ```js
 assert(typeof entreeValue === 'string');
 ```
 
-The value of `entreeValue` should be the string `hamburger`
+`entreeValue`의 값은 문자열 `hamburger`이어야 합니다.
 
 ```js
 assert(entreeValue === 'hamburger');
 ```
 
-`drinkValue` should be a string
+`drinkValue`는 문자열이어야 합니다.
 
 ```js
 assert(typeof drinkValue === 'string');
 ```
 
-The value of `drinkValue` should be the string `water`
+`drinkValue`의 값은 문자열 `water`이어야 합니다.
 
 ```js
 assert(drinkValue === 'water');
 ```
 
-You should use bracket notation twice
+대괄호 표기법을 두 번 사용해야 합니다.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/testObj\s*?\[('|")[^'"]+\1\]/g).length > 1);

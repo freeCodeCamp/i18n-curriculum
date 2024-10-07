@@ -7,7 +7,7 @@ dashedName: step-21
 
 # --description--
 
-Piano inahitaji nembo ya freeCodeCamp ili kuifanya iwe rasmi.
+The piano needs the freeCodeCamp logo to make it official.
 
 Ongeza kipengele cha `img` kabla ya kipengele chako cha `.keys`. Ipe `img` `class` ya `logo`, na uweke `src` kuwa `https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg`. Ipe maandishi ya `alt` ya `freeCodeCamp Logo`.
 

@@ -10,7 +10,7 @@ dashedName: >-
 
 # --description--
 
-In alcune situazioni che comportano la destrutturazione di array, potremmo voler raccogliere il resto degli elementi in un array separato.
+In some situations involving array destructuring, we might want to collect the rest of the elements into a separate array.
 
 Il risultato è simile a `Array.prototype.slice()`, come mostrato sotto:
 

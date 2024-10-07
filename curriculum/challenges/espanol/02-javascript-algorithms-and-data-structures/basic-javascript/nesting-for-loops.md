@@ -9,7 +9,7 @@ dashedName: nesting-for-loops
 
 # --description--
 
-Si tienes un arreglo multidimensional, puedes utilizar la misma lógica que aprendimos anteriormente para recorrer tanto el arreglo como cualquier sub-arreglo. Aquí hay un ejemplo:
+If you have a multi-dimensional array, you can use the same logic as the prior waypoint to loop through both the array and any sub-arrays. Aquí hay un ejemplo:
 
 ```js
 const arr = [

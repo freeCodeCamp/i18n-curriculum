@@ -8,7 +8,7 @@ dashedName: render-with-an-if-else-condition
 
 # --description--
 
-使用 JavaScript 控制渲染視圖的另一個應用是按條件渲染元素。 當條件爲真時，將呈現一個視圖， 反之，則呈現另一種視圖。 可以在 React 組件的 `render()` 方法中使用的標準 `if/else` 語句來實現這一點。
+Another application of using JavaScript to control your rendered view is to tie the elements that are rendered to a condition. When the condition is true, one view renders. When it's false, it's a different view. You can do this with a standard `if/else` statement in the `render()` method of a React component.
 
 # --instructions--
 

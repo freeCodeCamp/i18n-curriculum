@@ -7,7 +7,7 @@ dashedName: step-47
 
 # --description--
 
-Ili kuvipa vipengele vya `fieldset` utenganishaji kidogo, vichague na uvipe `border-bottom` ya `3px solid #3b3b4f`.
+To give the `fieldset` elements a bit of separation, select them and give them a `border-bottom` of `3px solid #3b3b4f`.
 
 # --hints--
 

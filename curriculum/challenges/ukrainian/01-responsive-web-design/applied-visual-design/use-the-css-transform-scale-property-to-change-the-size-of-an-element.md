@@ -9,7 +9,7 @@ dashedName: use-the-css-transform-scale-property-to-change-the-size-of-an-elemen
 
 # --description--
 
-Щоб змінити масштаб елемента, CSS має властивість `transform` разом з функцією `scale()`. Приклад наступного коду подвоює розмір всіх елементів абзацу на сторінці:
+To change the scale of an element, CSS has the `transform` property, along with its `scale()` function. The following code example doubles the size of all the paragraph elements on the page:
 
 ```css
 p {

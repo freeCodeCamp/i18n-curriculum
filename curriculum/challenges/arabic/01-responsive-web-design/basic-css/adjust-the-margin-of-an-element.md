@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedf08822
-title: Adjust the Margin of an Element
+title: ضبط هامش العنصر
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cVJarHW'
 forumTopicId: 16654
@@ -11,7 +11,7 @@ dashedName: adjust-the-margin-of-an-element
 
 An element's `margin` controls the amount of space between an element's `border` and surrounding elements.
 
-Here, we can see that the blue box and the red box are nested within the yellow box. Note that the red box has a bigger `margin` than the blue box, making it appear smaller.
+هنا، يمكننا أن نرى أن الصندوق الأزرق والصندوق الأحمر متداخلان داخل الصندوق الأصفر. لاحظ أن الصندوق الأحمر لديه `margin` أكبر من الصندوق الأزرق، مما يجعله يبدو أصغر.
 
 When you increase the blue box's `margin`, it will increase the distance between its border and surrounding elements.
 

@@ -8,7 +8,7 @@ dashedName: access-the-json-data-from-an-api
 
 # --description--
 
-No desafio anterior, você viu como obter dados de JSON da API de fotos de gatos do freeCodeCamp.
+In the previous challenge, you saw how to get JSON data from the freeCodeCamp Cat Photo API.
 
 Agora, dê uma olhada nos dados retornados para entender melhor o formato JSON. Vamos relembrar um pouco da notação do JavaScript:
 

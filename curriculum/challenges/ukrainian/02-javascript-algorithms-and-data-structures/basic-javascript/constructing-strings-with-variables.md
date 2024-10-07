@@ -9,9 +9,9 @@ dashedName: constructing-strings-with-variables
 
 # --description--
 
-Іноді потрібно побудувати рядок. За допомогою оператора об’єднання (`+`) можна вставити одну або більше змінних у рядок, який ви будуєте.
+Sometimes you will need to build a string. By using the concatenation operator (`+`), you can insert one or more variables into a string you're building.
 
-Приклад:
+Наприклад:
 
 ```js
 const ourName = "freeCodeCamp";

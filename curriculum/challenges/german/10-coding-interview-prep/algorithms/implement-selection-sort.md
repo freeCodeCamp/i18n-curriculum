@@ -8,7 +8,7 @@ dashedName: implement-selection-sort
 
 # --description--
 
-Hier werden wir einen Selectionsort-Algorithmus implementieren. Mit Selectionsort wird der kleinste Wert in einer Liste ausgewählt und durch den ersten Wert in der Liste ausgetauscht. Es beginnt dann an der zweiten Position, wählt den kleinsten Wert in der verbleibenden Liste aus und vertauscht ihn mit dem zweiten Element. Der Algorithmus fährt fort, die Liste zu durchlaufen und Elemente zu vertauschen, bis das Ende der Liste erreicht ist. Nun ist die Liste sortiert. Selectionsort weist eine quadratische Zeitkomplexität in allen Fällen auf.
+Here we will implement selection sort. Selection sort works by selecting the minimum value in a list and swapping it with the first value in the list. It then starts at the second position, selects the smallest value in the remaining list, and swaps it with the second element. It continues iterating through the list and swapping elements until it reaches the end of the list. Now the list is sorted. Selection sort has quadratic time complexity in all cases.
 
 **Anleitung:** Schreibe eine Funktion `selectionSort`, die ein Array mit ganzen Zahlen als Eingabe verwendet und ein Array mit diesen ganzen Zahlen in sortierter Reihenfolge vom kleinsten zum größten Wert zurückgibt.
 

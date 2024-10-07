@@ -9,7 +9,7 @@ dashedName: use-html5-to-require-a-field
 
 # --description--
 
-Você pode tornar obrigatórios campos específicos do formulário para que o usuário não possa enviar o formulário sem que o tenha preenchido.
+You can require specific form fields so that your user will not be able to submit your form until he or she has filled them out.
 
 Por exemplo, se você quer tornar um campo de inserção de texto obrigatório, simplesmente adicione o atributo `required` em seu elemento `input` da seguinte maneira: `<input type="text" required>`
 

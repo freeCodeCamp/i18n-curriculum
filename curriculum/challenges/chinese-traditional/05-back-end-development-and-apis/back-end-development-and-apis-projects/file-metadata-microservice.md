@@ -8,19 +8,19 @@ dashedName: file-metadata-microservice
 
 # --description--
 
-構建一個功能類似於此的全棧 JavaScript 應用程序：<a href="https://file-metadata-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://file-metadata-microservice.freecodecamp.rocks</a>。 在這個項目中，你將使用以下方法之一編寫你的代碼：
+Build a full stack JavaScript app that is functionally similar to this: <a href="https://file-metadata-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://file-metadata-microservice.freecodecamp.rocks</a>. Working on this project will involve you writing your code using one of the following methods:
 
--   克隆<a href="https://github.com/freeCodeCamp/boilerplate-project-filemetadata/" target="_blank" rel="noopener noreferrer nofollow">這個 GitHub 倉庫</a>，並在本地完成你的項目。
+-   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-filemetadata/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
 -   使用<a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-filemetadata/" target="_blank" rel="noopener noreferrer nofollow">我們的 Gitpod 初始項目</a>來完成你的項目。
 -   使用你選擇的網站生成器來完成項目。 需要包含我們 GitHub 倉庫的所有文件。
 
 # --instructions--
 
-** 提示：**可以使用 `multer` npm 包來處理上傳文件。
+**HINT:** You can use the `multer` npm package to handle file uploading.
 
 # --hints--
 
-你應該提交自己的項目，而不是示例的 URL。
+提交自己的項目，而不是示例的 URL。
 
 ```js
 (getUserInput) => {
@@ -32,7 +32,7 @@ dashedName: file-metadata-microservice
 };
 ```
 
-你可以提交一個包含上傳文件的表單。
+You can submit a form that includes a file upload.
 
 ```js
 async (getUserInput) => {
@@ -43,7 +43,7 @@ async (getUserInput) => {
 };
 ```
 
-表單文件輸入字段的 `name` 屬性設置成 `upfile`。
+The form file input field has the `name` attribute set to `upfile`.
 
 ```js
 async (getUserInput) => {
@@ -54,7 +54,7 @@ async (getUserInput) => {
 };
 ```
 
-當你提交一個文件時，在 JSON 響應中收到文件的 `name`、`type` 和 `size`，以 bytes（字節）爲單位。
+When you submit a file, you receive the file `name`, `type`, and `size` in bytes within the JSON response.
 
 ```js
 async (getUserInput) => {

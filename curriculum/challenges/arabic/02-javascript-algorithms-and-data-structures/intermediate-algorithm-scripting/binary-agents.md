@@ -8,7 +8,7 @@ dashedName: binary-agents
 
 # --description--
 
-قم بإرجاع جملة مترجمة باللغة الإنجليزية لل binary string الذي تم تمريره.
+Return an English translated sentence of the passed binary string.
 
 سيكون ال binary string مفصول بمسافة.
 

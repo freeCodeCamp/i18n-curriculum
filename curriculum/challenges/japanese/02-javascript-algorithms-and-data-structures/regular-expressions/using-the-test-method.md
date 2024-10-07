@@ -8,7 +8,7 @@ dashedName: using-the-test-method
 
 # --description--
 
-正規表現は、プログラミング言語で文字列の一部分にマッチさせる場合に使用します。 その際、マッチングに役立つパターンを作成します。
+Regular expressions are used in programming languages to match parts of strings. You create patterns to help you do that matching.
 
 文字列 `The dog chased the cat` で単語 `the` を見つけたい場合は、正規表現 `/the/` を使用できます。 正規表現の中では引用符は必須ではありません。
 

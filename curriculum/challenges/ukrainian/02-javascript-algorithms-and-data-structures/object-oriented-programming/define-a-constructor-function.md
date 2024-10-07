@@ -8,7 +8,7 @@ dashedName: define-a-constructor-function
 
 # --description--
 
-<dfn>Конструктори</dfn> — це функції, які створюють нові об’єкти. Вони визначають властивості та поведінку, що будуть належати новому об’єкту. Їх можна вважати основою для створення нових об’єктів.
+<dfn>Constructors</dfn> are functions that create new objects. They define properties and behaviors that will belong to the new object. Think of them as a blueprint for the creation of new objects.
 
 Ось приклад конструктора:
 
@@ -22,7 +22,7 @@ function Bird() {
 
 Цей конструктор визначає об’єкт `Bird` із властивостями `name`, `color` та `numLegs` зі значеннями Albert, blue та 2 відповідно. При створенні конструкторів дотримуються кількох умов:
 
-<ul><li>Назва конструктора починається із великої літери, щоб вирізнити його з-поміж функцій, які не є конструкторами.</li><li>Конструктори використовують ключове слово <code>this</code>, щоб налаштувати властивості створеного об’єкта. <code>this</code> всередині конструктора посилається на новий створений об’єкт.</li><li>Конструктори визначають властивості та поведінку, а не повертають значення, як це можуть робити інші функції.</li></ul>
+<ul><li>Constructors are defined with a capitalized name to distinguish them from other functions that are not <code>constructors</code>.</li><li>Конструктори використовують ключове слово <code>this</code>, щоб налаштувати властивості створеного об’єкта. <code>this</code> всередині конструктора посилається на новий створений об’єкт.</li><li>Конструктори визначають властивості та поведінку, а не повертають значення, як це можуть робити інші функції.</li></ul>
 
 # --instructions--
 

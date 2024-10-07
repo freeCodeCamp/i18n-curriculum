@@ -8,7 +8,7 @@ dashedName: bind-this-to-a-class-method
 
 # --description--
 
-`state` の設定と更新に加えて、コンポーネントクラスのメソッドを定義することもできます。 クラスメソッドでは通常、メソッドのスコープ内でクラスのプロパティ (`state` や `props` など) にアクセスできるように、`this` キーワードを使用する必要があります。 いくつかの方法でクラスメソッドから `this` にアクセスすることができます。
+In addition to setting and updating `state`, you can also define methods for your component class. A class method typically needs to use the `this` keyword so it can access properties on the class (such as `state` and `props`) inside the scope of the method. There are a few ways to allow your class methods to access `this`.
 
 よく使用される方法として、コンストラクターで `this` を明示的にバインドすることができます。この場合、コンポーネントの初期化時に `this` がクラスメソッドにバインドされます。 気づいたかもしれませんが、前回のチャレンジでは `this.handleClick = this.handleClick.bind(this)` をコンストラクターの `handleClick` メソッドに使用しました。 その後、クラスメソッドの中で `this.setState()` のように関数を呼び出すと、`this` はクラスを参照し、`undefined` ではなくなります。
 

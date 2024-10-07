@@ -9,7 +9,7 @@ dashedName: use-the-align-items-property-in-the-tweet-embed
 
 # --description--
 
-O último desafio apresentou a propriedade `align-items` oferecendo um exemplo. Esta propriedade pode ser aplicada a alguns elementos do tweet para alinhar os flex items dentro deles.
+The last challenge introduced the `align-items` property and gave an example. This property can be applied to a few tweet embed elements to align the flex items inside them.
 
 # --instructions--
 
@@ -17,7 +17,7 @@ Adicione a propriedade CSS `align-items` ao elemento `.follow-btn` que se encont
 
 # --hints--
 
-O elemento de classe `.follow-btn` deve ser renderizado na página. Lembre-se de desativar as extensões que bloqueiam anúncios.
+O elemento de classe `.follow-btn` deve aparecer na página. Lembre-se de desativar as extensões que bloqueiam anúncios.
 
 ```js
 assert($('.follow-btn').length > 0 && $('.follow-btn').css('display') !== 'none');

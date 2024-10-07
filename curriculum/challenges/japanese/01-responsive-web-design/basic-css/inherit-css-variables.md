@@ -9,7 +9,7 @@ dashedName: inherit-css-variables
 
 # --description--
 
-変数を作成すると、その変数は作成したセレクターの中で使用できるようになります。 また、そのセレクターの子孫でも使用できます。 通常のプロパティと同様に CSS 変数が継承されるためにこのような動作になります。
+When you create a variable, it is available for you to use inside the selector in which you create it. It also is available in any of that selector's descendants. This happens because CSS variables are inherited, just like ordinary properties.
 
 継承を利用するために、CSS 変数は <dfn>:root</dfn> 要素で定義されることがよくあります。
 

@@ -36,7 +36,7 @@ assert(res3.length === 7);
 assert.deepEqual(towerOfHanoi(3, 'A', 'B', 'C'), res3Moves);
 ```
 
-O décimo movimento da `towerOfHanoi(5, "X", "Y", "Z")` deve ser Y -> X.
+`towerOfHanoi(5, "X", "Y", "Z")` 10th move should be Y -> X.
 
 ```js
 assert.deepEqual(res5[9], ['Y', 'X']);

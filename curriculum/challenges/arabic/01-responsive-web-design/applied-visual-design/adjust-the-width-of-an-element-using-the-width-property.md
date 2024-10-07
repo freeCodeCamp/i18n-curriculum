@@ -1,6 +1,6 @@
 ---
 id: 587d7791367417b2b2512ab4
-title: Adjust the Width of an Element Using the width Property
+title: ضبط عرض عنصر معين باستخدام خاصية العرض
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cvVLPtN'
 forumTopicId: 301039
@@ -19,11 +19,11 @@ img {
 
 # --instructions--
 
-Add a `width` property to the entire card and set it to an absolute value of 245px. Use the `fullCard` class to select the element.
+أضف خاصية `width` إلى كامل البطاقة واضبط القيمة إلى 245 بكسل. استخدم كلاس `fullCard` لتحديد العنصر.
 
 # --hints--
 
-Your code should change the `width` property of the card to 245 pixels by using the `fullCard` class selector.
+يجب أن يغيّر الكود الخاص بك خاصية `width` الخاصة بالبطاقة إلى 245 بكسل بواسطة منتقي الفئات `fullCard`.
 
 ```js
 const fullCard = code.match(/\.fullCard\s*{[\s\S]+?[^}]}/g);

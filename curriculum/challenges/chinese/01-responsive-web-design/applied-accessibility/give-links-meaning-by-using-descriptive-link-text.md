@@ -9,13 +9,13 @@ dashedName: give-links-meaning-by-using-descriptive-link-text
 
 # --description--
 
-屏幕阅读器用户可以选择其设备读取的内容的类型， 包括表示“跳转到”（或“跳过”）的元素，跳转到主要内容，或者从标题中获取页面摘要。 用户还可以选择只听取页面中的超链接内容。
+Screen reader users have various options for what type of content their device reads. These options include skipping to (or over) landmark elements, jumping to the main content, or getting a page summary from the headings. Another option is to only hear the links available on a page.
 
 屏幕阅读器通过阅读链接文本（即 `a` 标签的内容文本）来完成这个操作。 如果我们只在链接中写上 "click here"（点击这里）或者 "read more"（阅读更多），显然帮助有限。 相反地，应该在 `a` 标签中使用简洁的描述性语言来为用户提供更多的信息。
 
 # --instructions--
 
-Camper Cat 在链接中使用的文本在脱离上下文的情况下，描述性不是很好。 Move the anchor (`a`) tags so they wrap around the text `information about batteries` instead of `Click here`.
+Camper Cat 在链接中使用的文本在脱离上下文的情况下，描述性不是很好。 请修改锚标签（`a`），将其包含的文本从 `Click here` 改为 `information about batteries`。
 
 # --hints--
 

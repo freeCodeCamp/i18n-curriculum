@@ -8,7 +8,7 @@ dashedName: map-state-to-props
 
 # --description--
 
-مكون `Provider` يسمح لك بتوفير `state` و `dispatch` إلى مكونات React الخاصة بك، ولكن يجب عليك أن تحدد بالضبط ما هي الحالة والإجراءات التي تريدها. وبهذه الطريقة، تتيقن من أن كل مكون له حق الوصول إلى الحالة التي يحتاج إليها. هذه الطريقة تأخذ حَجَّتا اختياريتان، `mapStateToProps()` و `mapDispatchToProps()`.
+The `Provider` component allows you to provide `state` and `dispatch` to your React components, but you must specify exactly what state and actions you want. This way, you make sure that each component only has access to the state it needs. You accomplish this by creating two functions: `mapStateToProps()` and `mapDispatchToProps()`.
 
 وفي هذه الوظائف، أنت تعلن ما هي القطع الذي تريد الوصول إليها وما هو منشئ الإجراء الذي تحتاج إلى أن يكون قادراً على إرساله (dispatch). وبمجرد إنشاء هذه المهام، سترى كيفية استخدام طريقة React مرتبط إلى Redux باسم `connect` لتوصيلها بالمكونات الخاصة بك في تحد آخر.
 

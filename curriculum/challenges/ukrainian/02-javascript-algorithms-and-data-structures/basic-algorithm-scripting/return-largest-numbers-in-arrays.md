@@ -8,7 +8,7 @@ dashedName: return-largest-numbers-in-arrays
 
 # --description--
 
-Поверніть масив, який містить найбільше число з кожного наданого підмасиву. Для спрощення: наданий масив міститиме 4 підмасиви.
+Return an array consisting of the largest number from each provided sub-array. For simplicity, the provided array will contain exactly 4 sub-arrays.
 
 Пам’ятайте, ви можете перебрати масив за допомогою циклу for та мати доступ до кожного елемента завдяки синтаксису масиву `arr[i]`.
 

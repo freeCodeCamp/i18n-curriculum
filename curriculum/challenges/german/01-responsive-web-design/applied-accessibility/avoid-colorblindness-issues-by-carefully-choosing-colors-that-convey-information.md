@@ -11,7 +11,7 @@ dashedName: >-
 
 # --description--
 
-Es gibt verschiedene Formen der Farbblindheit. Diese können von einer reduzierten Empfindlichkeit für eine bestimmte Wellenlänge des Lichts bis hin zur Unfähigkeit, überhaupt Farben zu sehen, reichen. Die häufigste Form ist eine reduzierte Empfindlichkeit zur Erkennung von Grüntönen.
+There are various forms of colorblindness. These can range from a reduced sensitivity to a certain wavelength of light to the inability to see color at all. The most common form is a reduced sensitivity to detect greens.
 
 Zum Beispiel, wenn zwei ähnliche grüne Farben die Vorder- und Hintergrundfarbe deines Inhaltes sind, kann ein farbenblinder Benutzer diese möglicherweise nicht unterscheiden. Ähnliche Farben können auf dem Farbkreis als Nachbarn betrachtet werden, jedoch sollte diese Kombination bei der Übermittlung wichtiger Informationen vermieden werden.
 

@@ -8,7 +8,7 @@ dashedName: change-the-presentation-of-a-bar-chart
 
 # --description--
 
-上一個挑戰創建了一個條形圖，可以通過下面的格式調整來美化它：
+The last challenge created a bar chart, but there are a couple of formatting changes that could improve it:
 
 1) 通過在 CSS 中爲 `bar` class 添加 margin 屬性，給每一個條形圖之間添加空格，把它們分開。
 

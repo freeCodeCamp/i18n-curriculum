@@ -8,7 +8,7 @@ dashedName: match-numbers-and-letters-of-the-alphabet
 
 # --description--
 
-O uso do hífen (`-`) para capturar um intervalo de caracteres não é limitado a letras. Ele também funciona para capturar intervalos de números.
+Using the hyphen (`-`) to match a range of characters is not limited to letters. It also works to match a range of numbers.
 
 Por exemplo, `/[0-5]/` encontra qualquer número entre `0` e `5`, incluindo ambos `0` e `5`.
 
@@ -32,13 +32,13 @@ A regex `myRegex` deve encontrar 17 itens.
 assert(result.length == 17);
 ```
 
-Você deve usar a flag global na sua regex `myRegex`.
+Você deve usar a flag global na regex `myRegex`.
 
 ```js
 assert(myRegex.flags.match(/g/).length == 1);
 ```
 
-Você deve usar a flag de ignorar caixa na sua regex `myRegex`.
+Você deve usar a flag de ignorar caixa na regex `myRegex`.
 
 ```js
 assert(myRegex.flags.match(/i/).length == 1);

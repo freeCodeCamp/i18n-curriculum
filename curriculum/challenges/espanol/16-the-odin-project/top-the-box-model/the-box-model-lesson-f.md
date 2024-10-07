@@ -20,7 +20,7 @@ Cada cosa en una página web es un cuadro rectangular. Estos cuadros pueden tene
 
 Agrega un borde a cada elemento en la página y observa cómo se disponen los cuadros.
 
-# --questions--
+# --preguntas--
 
 ## --text--
 

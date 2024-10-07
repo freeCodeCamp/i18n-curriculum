@@ -9,7 +9,7 @@ dashedName: create-visual-balance-using-the-text-align-property
 
 # --description--
 
-這部分課程的主題是應用視覺設計。 開始的挑戰基於美化一個卡片組件的外觀，藉此展示了若干核心原則。
+This section of the curriculum focuses on Applied Visual Design. The first group of challenges build on the given card layout to show a number of core principles.
 
 web 內容大部分都是文本。 CSS 裏面的 `text-align` 屬性可以控制文本的對齊方式。
 

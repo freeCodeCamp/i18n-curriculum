@@ -8,7 +8,7 @@ dashedName: generate-an-array-of-all-object-keys-with-object-keys
 
 # --description--
 
-Também podemos gerar um array o qual contém todas as chaves armazenadas em um objeto com o método `Object.keys()`. Esse método recebe um objeto como argumento e retorna um array de strings que representam cada propriedade no objeto. Novamente, não haverá uma ordem específica para as entradas no array.
+We can also generate an array which contains all the keys stored in an object with the `Object.keys()` method. This method takes an object as the argument and returns an array of strings representing each property in the object. Again, there will be no specific order to the entries in the array.
 
 # --instructions--
 

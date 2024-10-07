@@ -17,7 +17,7 @@ Für diese Aufgabe musst du einen Finanzrechner mit Python erstellen, der Eingab
 
 - Annuität mit monatlichem oder kontinuierlichem Wachstum berechnet
 - Monatliche Hypothekenzahlung berechnet
-- Estimate retirement investment balance
+- Anlageguthaben für den Ruhestand schätzt
 - Bestimmt, wie lange es dauert, bis sich ein Betrag bei gegebenem Kurs verdoppelt
 - Logarithmische Gleichungen löst
 - In (und aus) wissenschaftlicher Notation konvertiert

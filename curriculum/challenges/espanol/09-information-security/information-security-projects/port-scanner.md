@@ -9,13 +9,13 @@ dashedName: port-scanner
 
 # --description--
 
-Estarás <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-port-scanner" target="_blank" rel="noopener noreferrer nofollow">trabajando en este proyecto con nuestro código inicial en Gitpod</a>.
+You will be <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-port-scanner" target="_blank" rel="noopener noreferrer nofollow">working on this project with our Gitpod starter code</a>.
 
-Todavía estamos desarrollando la parte interactiva del currículo de Python. Por ahora, aquí hay algunos videos en el canal de YouTube de freeCodeCamp.org que te enseñaran todo lo que necesitas saber para completar este proyecto:
+Estamos desarrollando las instrucciones interactivas del currículo de Python. Aunque puedes encontrar los siguientes videos en el canal de YouTube de freeCodeCamp.org que te enseñaran lo necesario para realizar este proyecto:
 
-- <a href="https://www.freecodecamp.org/news/python-for-everybody/" target="_blank" rel="noopener noreferrer nofollow">Video curso Python para todos.</a> (14 horas)
+- <a href="https://www.freecodecamp.org/news/python-for-everybody/" target="_blank" rel="noopener noreferrer nofollow">Python for Everybody Video Course</a> (14 hours)
 
-- <a href="https://www.freecodecamp.org/news/learn-python-basics-in-depth-video-course/" target="_blank" rel="noopener noreferrer nofollow">Aprende las bases de Python en profundidad.</a> (4 horas)
+- <a href="https://www.freecodecamp.org/news/learn-python-basics-in-depth-video-course/" target="_blank" rel="noopener noreferrer nofollow">Aprende la Base de Python a fondo</a> (4 horas)
 
 - <a href="https://www.freecodecamp.org/news/intermediate-python-course/" target="_blank" rel="noopener noreferrer nofollow">Curso Intermedio de Python</a> (6 horas)
 
@@ -68,7 +68,7 @@ Si el URL pasado dentro de la función `get_open_ports` es invalido, la función
 
 Si la dirección IP pasada dentro de la función `get_open_ports` es invalida, la función debe retornar la cadena de texto: "Error: Invalid IP address".
 
-## Desarrollo
+## Development
 
 Escribe tu codigo en `port_scanner.py`. Para el desarrollo, puedes usar `main.py` para probar tu código.
 
@@ -76,7 +76,7 @@ Escribe tu codigo en `port_scanner.py`. Para el desarrollo, puedes usar `main.py
 
 Las pruebas unitarias para este proyecto están en `test_module.py`. Importamos las pruebas de `test_module.py` a `main.py` para su comodidad.
 
-## Envío
+## Enviar
 
 Copia la URL de tu proyecto y envíalo a freeCodeCamp.
 

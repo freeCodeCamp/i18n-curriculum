@@ -8,7 +8,7 @@ dashedName: factorialize-a-number
 
 # --description--
 
-返回一個給定整數的階乘計算結果。
+Return the factorial of the provided integer.
 
 對於整數 `n`，n 的階乘就是所有小於等於 `n` 的正整數的乘積。
 

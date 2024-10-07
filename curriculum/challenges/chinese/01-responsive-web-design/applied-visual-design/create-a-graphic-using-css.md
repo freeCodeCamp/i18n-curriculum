@@ -9,7 +9,7 @@ dashedName: create-a-graphic-using-css
 
 # --description--
 
-通过使用不同的选择器和属性，你可以做出有趣的形状， 一个简单的例子是新月形状。 在这个挑战中，我们会学习如何使用 `box-shadow` 属性来设置元素的阴影，以及使用 `border-radius` 属性控制元素的圆角边框。
+By manipulating different selectors and properties, you can make interesting shapes. One of the easier ones to try is a crescent moon shape. For this challenge you need to work with the `box-shadow` property that sets the shadow of an element, along with the `border-radius` property that controls the roundness of the element's corners.
 
 首先我们来创建一个圆的、透明的图形，它具有模糊阴影并略微向两边递减。 如你所见，这个阴影其实就是新月形狀。
 

@@ -8,7 +8,7 @@ dashedName: match-numbers-and-letters-of-the-alphabet
 
 # --description--
 
-استخدام الشَرطة (`-`) لمطابقة مجموعة من الرموز لا يقتصر على الأحرف فقط. هي تعمل أيضا لمطابقة مجموعة من الأرقام.
+Using the hyphen (`-`) to match a range of characters is not limited to letters. It also works to match a range of numbers.
 
 على سبيل المثال، `/[0-5]/` يطابق أي رقم بين `0` و `5`، يشمل `0` و `5`.
 

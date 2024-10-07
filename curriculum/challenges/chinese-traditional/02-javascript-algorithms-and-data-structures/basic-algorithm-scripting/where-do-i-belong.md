@@ -8,7 +8,7 @@ dashedName: where-do-i-belong
 
 # --description--
 
-數組（第一個參數）在排序後，將一個值（第二個參數）插入該數組，並使數組保持有序。返回這個新插入元素的最小索引值。 返回值應爲一個數字。
+Return the lowest index at which a value (second argument) should be inserted into an array (first argument) once it has been sorted. The returned value should be a number.
 
 例如，`getIndexToIns([1,2,3,4], 1.5)` 應該返回 `1` 因爲1.5 大於 `1`（索引爲 0）且小於 `2`（索引爲 1）。
 

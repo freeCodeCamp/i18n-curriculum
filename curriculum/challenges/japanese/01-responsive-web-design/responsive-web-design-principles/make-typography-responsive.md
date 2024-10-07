@@ -9,11 +9,11 @@ dashedName: make-typography-responsive
 
 # --description--
 
-テキストサイズとして `em` や `px` を使用する代わりに、ビューポート単位を使用してレスポンシブなタイポグラフィを作成できます。 ビューポート単位は、パーセンテージと同様に相対単位ですが、これらは異なる項目を基準にします。 ビューポートの単位はデバイスのビューポート寸法 (幅または高さ) からの相対値ですが、パーセンテージは親コンテナー要素のサイズからの相対値です。
+Instead of using `em` or `px` to size text, you can use viewport units for responsive typography. Viewport units, like percentages, are relative units, but they are based off different items. Viewport units are relative to the viewport dimensions (width or height) of a device, and percentages are relative to the size of the parent container element.
 
 4 つの異なるビューポートの単位は次のとおりです:
 
-<ul><li><code>vw</code> (ビューポート幅): <code>10vw</code> はビューポートの幅の 10% になります。</li><li><code>vh</code> (ビューポート高さ): <code>3vh</code> はビューポートの高さの 3% になります。</li><li><code>vmin</code> (ビューポート最小値): <code>70vmin</code> はビューポートの (高さまたは幅のうち) 短い方の 70% になります。</li><li><code>vmax</code> (ビューポート最大値): <code>100vmax</code> はビューポートの (高さまたは幅のうち) 長い方の 100% になります。</li></ul>
+<ul><li><code>vw</code> (viewport width): <code>10vw</code> would be 10% of the viewport's width.</li><li><code>vh</code> (ビューポート高さ): <code>3vh</code> はビューポートの高さの 3% になります。</li><li><code>vmin</code> (ビューポート最小値): <code>70vmin</code> はビューポートの (高さまたは幅のうち) 短い方の 70% になります。</li><li><code>vmax</code> (ビューポート最大値): <code>100vmax</code> はビューポートの (高さまたは幅のうち) 長い方の 100% になります。</li></ul>
 
 ここでは `body` タグをビューポートの幅の 30% に設定する例を示します。
 

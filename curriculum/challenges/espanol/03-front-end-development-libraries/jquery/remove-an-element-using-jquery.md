@@ -8,9 +8,9 @@ dashedName: remove-an-element-using-jquery
 
 # --description--
 
-Ahora vamos a eliminar un elemento HTML de su página utilizando jQuery.
+Now let's remove an HTML element from your page using jQuery.
 
-jQuery has a function called `.remove()` that will remove an HTML element entirely.
+jQuery tiene una función llamada `.remove()` que elimina un elemento HTML por completo.
 
 Remueve el elemento `#target4` de la página utilizando la función `.remove()`.
 

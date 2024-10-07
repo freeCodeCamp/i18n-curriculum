@@ -8,7 +8,7 @@ dashedName: create-a-queue-class
 
 # --description--
 
-Подібно до стеків, черги — це колекції елементів. Але на відміну від стеків, черги керуються принципом <dfn>першим прийшло — першим пішло</dfn>. Елементи, додані до черги, переміщаються в кінець, а вилучити можна лише перший елемент.
+Like stacks, queues are a collection of elements. But unlike stacks, queues follow the FIFO (First-In First-Out) principle. Elements added to a queue are pushed to the tail, or the end, of the queue, and only the element at the front of the queue is allowed to be removed.
 
 Для представлення черги можна було б використати масив, але як і у випадку зі стеками, ми хочемо обмежити контроль над чергами.
 

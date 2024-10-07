@@ -7,7 +7,7 @@ dashedName: step-61
 
 # --description--
 
-الآن قم بتطبيق class تسمى `established` على النص `Est. 2020`.
+Now apply the `established` class to the `Est. 2020` text.
 
 # --hints--
 
@@ -17,7 +17,7 @@ dashedName: step-61
 assert.match(code,/<p class=('|")established\1>/i);
 ```
 
-يجب أن تكون class مسمى `established` الخاص بك في العنصر الذي يحتوي النص `Est. 2020`.
+Your `established` class should be on the element with the text `Est. 2020`.
 
 ```js
 assert.match(document.querySelector('.established')?.innerText, /Est\.\s2020/i);

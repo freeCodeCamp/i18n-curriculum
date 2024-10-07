@@ -14,7 +14,7 @@ dashedName: developing-an-nmap-scanner-part-2
 
 ## --text--
 
-21 から 443 までの UDP ポートをスキャンできるのは次のうちどれですか？
+Which of the following allows you to scan for UDP ports between 21 to 443?
 
 ## --answers--
 

@@ -8,7 +8,7 @@ dashedName: apply-functional-programming-to-convert-strings-to-url-slugs
 
 # --description--
 
-Molte delle ultime sfide hanno riguardato una serie di utili metodi per gli array e le stringhe che seguono principi di programmazione funzionale. Abbiamo anche conosciuto `reduce`, che è un metodo potente utilizzato per ridurre i problemi a forme più semplici. Dalle medie di calcolo all'ordinamento, qualsiasi operazione sugli array può essere ottenuta applicandolo. Ricordiamo che `map` e `filter` sono casi speciali di `reduce`.
+The last several challenges covered a number of useful array and string methods that follow functional programming principles. We've also learned about `reduce`, which is a powerful method used to reduce problems to simpler forms. From computing averages to sorting, any array operation can be achieved by applying it. Recall that `map` and `filter` are special cases of `reduce`.
 
 Combiniamo quello che abbiamo imparato per risolvere un problema pratico.
 

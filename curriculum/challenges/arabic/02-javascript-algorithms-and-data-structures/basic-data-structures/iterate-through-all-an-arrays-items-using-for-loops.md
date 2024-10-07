@@ -8,7 +8,7 @@ dashedName: iterate-through-all-an-arrays-items-using-for-loops
 
 # --description--
 
-في بعض الأحيان عند العمل مع القوائم، من المفيد جدا أن نكون قادرين على المرور علي كل عنصر للعثور على عنصر أو أكثر قد تحتاجه، أو للتلاعب بالقائمة استنادا على عناصر تستوفي مجموعة معينة من المعايير. توفر JavaScript العديد من الوظائف المدمجة كل منها تمر علي عناصر القوائم بطرق مختلفة قليلاً لتحقيق نتائج مختلفة (مثل `every()`, و `forEach()`, و `map()`, والخ.) ، ولكن التقنية الأكثر مرونة التي توفر لنا أكبر قدر من التحكم هي حلقة `for`.
+Sometimes when working with arrays, it is very handy to be able to iterate through each item to find one or more elements that we might need, or to manipulate an array based on which data items meet a certain set of criteria. JavaScript offers several built in methods that each iterate over arrays in slightly different ways to achieve different results (such as `every()`, `forEach()`, `map()`, etc.), however the technique which is most flexible and offers us the greatest amount of control is a simple `for` loop.
 
 انظر إلى المثال التالي:
 

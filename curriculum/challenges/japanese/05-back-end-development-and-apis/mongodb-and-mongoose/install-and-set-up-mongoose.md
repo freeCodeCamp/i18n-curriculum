@@ -8,19 +8,19 @@ dashedName: install-and-set-up-mongoose
 
 # --description--
 
-チャレンジに取り組むにあたり、以下の方法のうち 1 つを用いてコードを記述します。
+Working on these challenges will involve you writing your code using one of the following methods:
 
-- <a href="https://github.com/freeCodeCamp/boilerplate-mongomongoose/" target="_blank" rel="noopener noreferrer nofollow">GitHub リポジトリ</a>をクローンし、ローカル環境でプロジェクトを完了させる。
+- Clone <a href="https://github.com/freeCodeCamp/boilerplate-mongomongoose/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete these challenges locally.
 - Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mongomongoose/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete these challenges.
 - 使い慣れたサイトビルダーを使用してプロジェクトを完了させる。 必ず GitHub リポジトリのすべてのファイルを取り込む。
 
-このチャレンジでは、MongoDB の Atlas データベースを設定し、それに接続するために必要なパッケージをインポートします。
+In this challenge, you will set up a MongoDB Atlas database and import the required packages to connect to it.
 
-<a href='https://www.freecodecamp.org/news/get-started-with-mongodb-atlas/' target="_blank" rel="noopener noreferrer nofollow">チュートリアル</a>に従い、MongoDB Atlas にホストされたデータベースを設定してください。
+Follow <a href='https://www.freecodecamp.org/news/get-started-with-mongodb-atlas/' target="_blank" rel="noopener noreferrer nofollow">this tutorial</a> to set up a hosted database on MongoDB Atlas.
 
 # --instructions--
 
-`mongoose@^5.11.15` をプロジェクトの `package.json` ファイルに追加してあります。 まず、`myApp.js` で `mongoose` を require してください。 次に、`.env` ファイルを作成し、`MONGO_URI` 変数を追加してください。 変数の値は、あなたの MongoDB Atlas データベースの URI である必要があります。 URI は一重引用符または二重引用符で囲んでください。また、環境変数では `=` の前後に空白を使用できないことに注意してください。 たとえば、`MONGO_URI='VALUE'` などとします。
+`mongoose@^5.11.15` has been added to your project’s `package.json` file. First, require mongoose as `mongoose` in `myApp.js`. Next, create a `.env` file and add a `MONGO_URI` variable to it. Its value should be your MongoDB Atlas database URI. Be sure to surround the URI with single or double quotes, and remember that you can't use spaces around the `=` in environment variables. For example, `MONGO_URI='VALUE'`.
 
 When you are done, connect to the database by calling the `connect` method within your `myApp.js` file by using the following syntax:
 
@@ -30,7 +30,7 @@ mongoose.connect(<Your URI>, { useNewUrlParser: true, useUnifiedTopology: true }
 
 # --hints--
 
-"mongoose version ^5.11.15" という依存関係が package.json に存在する必要があります。
+"mongoose version ^5.11.15" dependency should be in package.json
 
 ```js
 (getUserInput) =>
@@ -50,7 +50,7 @@ mongoose.connect(<Your URI>, { useNewUrlParser: true, useUnifiedTopology: true }
   );
 ```
 
-"mongoose" をデータベースに接続する必要があります。
+"mongoose" should be connected to a database
 
 ```js
 (getUserInput) =>

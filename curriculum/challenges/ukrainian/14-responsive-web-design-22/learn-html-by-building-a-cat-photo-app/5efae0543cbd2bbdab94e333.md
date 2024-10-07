@@ -7,25 +7,25 @@ dashedName: step-30
 
 # --description--
 
-Щоб покращити доступність доданого зображення, додайте атрибут `alt` із текстом:
+To improve accessibility of the image you added, add an `alt` attribute with the text:
 
 `Five cats looking around a field.`
 
 # --hints--
 
-Ваш елемент `figure` повинен мати початковий теґ. Початкові теґи мають такий синтаксис: `<elementName>`.
+Елемент `figure` повинен мати початковий тег. Початкові теги мають такий синтаксис: `<elementName>`.
 
 ```js
 assert(document.querySelectorAll('figure').length === 2);
 ```
 
-Ваш елемент `figure` повинен мати кінцевий теґ. Кінцеві теґи мають `/` відразу після символу `<`.
+Елемент `figure` повинен мати кінцевий тег. Кінцеві теги мають `/` одразу після символу `<`.
 
 ```js
 assert(code.match(/<\/figure>/g).length === 2);
 ```
 
-Прямо над кінцевим теґом останнього елемента `section` повинен бути елемент `figure`.
+Прямо над кінцевим тегом останнього елемента `section` повинен бути елемент `figure`.
 
 ```js
 assert.strictEqual(document.querySelectorAll('main > section')?.[1]?.lastElementChild?.nodeName, 'FIGURE');

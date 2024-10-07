@@ -1,6 +1,6 @@
 ---
 id: 587d78a4367417b2b2512ad3
-title: Adjust the Color of Various Elements to Complementary Colors
+title: ضبط لون العناصر المختلفة إلى الألوان التكميلية
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cWmPpud'
 forumTopicId: 301033
@@ -13,11 +13,11 @@ The Complementary Colors challenge showed that opposite colors on the color whee
 
 # --instructions--
 
-This page will use a shade of teal (`#09A7A1`) as the dominant color, and its orange (`#FF790E`) complement to visually highlight the sign-up buttons. Change the `background-color` of both the `header` and `footer` from black to the teal color. Then change the `h2` text `color` to teal as well. Finally, change the `background-color` of the `button` to the orange color.
+هذه الصفحة سوف تستخدم لون الدموع (`#09A7A1`) كلون مهيمن, ويكمل البرتقالي (`#FF790E`) تسليط الضوء بصريا على أزرار التسجيل. تغيير `background-color` لكلا `header` و `footer` من اللون الأسود إلى لون الدموع. ثم قم بتغيير لون نص`h2` من `color` إلى لون الدموع أيضا. وأخيرا، قم بتغيير `bacground-color` الزر `` إلى اللون البرتقالي.
 
 # --hints--
 
-The `header` element should have a `background-color` of #09A7A1.
+يجب أن يحتوي عنصر `header` على `background-color` من #09A7A1.
 
 ```js
 const headerElement = document.querySelector('header'); 
@@ -25,7 +25,7 @@ const headerStyle = window.getComputedStyle(headerElement);
 assert.equal(headerStyle?.backgroundColor, 'rgb(9, 167, 161)');
 ```
 
-The `footer` element should have a `background-color` of #09A7A1.
+يجب أن يحتوي عنصر `footer` على `background-color` من #09A7A1.
 
 ```js
 const footerElement = document.querySelector('footer'); 
@@ -33,7 +33,7 @@ const footerStyle = window.getComputedStyle(footerElement);
 assert.equal(footerStyle?.backgroundColor, 'rgb(9, 167, 161)');
 ```
 
-The `h2` element should have a `color` of #09A7A1.
+عنصر `h2` يجب أن يحتوي على `color` من #09A7A1.
 
 ```js
 const h2Element = document.querySelector('h2'); 
@@ -41,7 +41,7 @@ const h2Style = window.getComputedStyle(h2Element);
 assert.equal(h2Style?.color, 'rgb(9, 167, 161)');
 ```
 
-The `button` element should have a `background-color` of #FF790E.
+يجب ان يحتوي `button` على `background-color` من #FF790E.
 
 ```js
 const buttonElement = document.querySelector('button'); 

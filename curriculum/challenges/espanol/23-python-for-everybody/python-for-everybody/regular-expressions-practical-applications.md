@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: regular-expressions-practical-applications
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-What will search for a "$" in a regular expression?
+¿Qué buscará un "$" en una expresión regular?
 
 ## --answers--
 

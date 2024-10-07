@@ -9,7 +9,7 @@ dashedName: style-the-html-body-element
 
 # --description--
 
-現在讓我們來討論一下 CSS 中的繼承。
+Now let's start fresh and talk about CSS inheritance.
 
 每一個 HTML 頁面都有一個 `body` 元素。
 

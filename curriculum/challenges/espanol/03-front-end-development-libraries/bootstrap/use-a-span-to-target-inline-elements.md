@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedf08845
-title: Usa un span para apuntar a elementos en línea
+title: Usa un span Para Apuntar a Elementos En Linea
 challengeType: 0
 forumTopicId: 18370
 dashedName: use-a-span-to-target-inline-elements
@@ -8,15 +8,15 @@ dashedName: use-a-span-to-target-inline-elements
 
 # --description--
 
-Puedes usar spans para crear elementos en línea. ¿Recuerdas cuando usamos la clase `btn-block` para hacer que el botón ocupe toda la fila completa?
+You can use spans to create inline elements. Remember when we used the `btn-block` class to make the button fill the entire row?
 
-<button class='btn' style='background-color: rgb(0, 100, 0);  color: rgb(255, 255, 255);'>botón normal</button>
+<button class='btn' style='background-color: rgb(0, 100, 0);  color: rgb(255, 255, 255);'>normal button</button>
 
 <button class='btn btn-block' style='background-color: rgb(0, 100, 0);  color: rgb(255, 255, 255);'>botón btn-block</button>
 
 Eso ilustra la diferencia entre un elemento "inline" y un elemento "block".
 
-Usando el elemento en línea `span`, puedes alinear varios elementos, e incluso estilizar diferentes partes de la misma línea de manera diferente.
+Usando el elemento en linea `span`, pueden poner varios elementos en la misma linea, e incluso estilizar diferentes partes de la misma linea por separado.
 
 Usando un elemento `span`, anida la palabra `love` dentro del elemento `p` que actualmente tiene el texto `Things cats love`. Luego dale a `span` la clase `text-danger` para cambiar el texto a rojo.
 

@@ -8,7 +8,7 @@ dashedName: use-a-ternary-expression-for-conditional-rendering
 
 # --description--
 
-在继续使用动态渲染技术之前，还有最后一种方法可以渲染想要的东西，它使用内置的 JavaScript 条件：<dfn>三元运算符</dfn>。 三元运算符经常被用作 JavaScript 中 `if/else` 语句的缩写。 它们不像传统的 `if/else` 语句那样强大，但是在 React 开发人员中非常流行， 原因之一就是 JSX 的编译原理，`if/else` 语句不能直接插入到 JSX 代码中。 可能你在前几个挑战就注意到了这一点——当需要 `if/else` 语句时，它总是在 `return` 语句的*外面*。 如果想在 JSX 中实现条件逻辑，三元表达式是一个很好的选择。 回想一下，三元运算符有三个部分，但是可以将多个三元表达式组合在一起。 以下是基本语法：
+Before moving on to dynamic rendering techniques, there's one last way to use built-in JavaScript conditionals to render what you want: the <dfn>ternary operator</dfn>. The ternary operator is often utilized as a shortcut for `if/else` statements in JavaScript. They're not quite as robust as traditional `if/else` statements, but they are very popular among React developers. One reason for this is because of how JSX is compiled, `if/else` statements can't be inserted directly into JSX code. You might have noticed this a couple challenges ago — when an `if/else` statement was required, it was always *outside* the `return` statement. Ternary expressions can be an excellent alternative if you want to implement conditional logic within your JSX. Recall that a ternary operator has three parts, but you can combine several ternary expressions together. Here's the basic syntax:
 
 ```jsx
 condition ? expressionIfTrue : expressionIfFalse;

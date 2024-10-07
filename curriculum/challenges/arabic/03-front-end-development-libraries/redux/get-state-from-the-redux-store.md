@@ -8,7 +8,7 @@ dashedName: get-state-from-the-redux-store
 
 # --description--
 
-يوفر عنصر متجر Redux عدة طرق تسمح لك بالتفاعل معه. على سبيل المثال، يمكنك استرداد `state` الحالية, الموجودة في كائن متجر Redux باستخدام طريقة `getState()`.
+The Redux store object provides several methods that allow you to interact with it. For example, you can retrieve the current `state` held in the Redux store object with the `getState()` method.
 
 # --instructions--
 

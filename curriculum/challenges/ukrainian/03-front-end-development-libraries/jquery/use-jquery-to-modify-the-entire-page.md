@@ -11,7 +11,7 @@ dashedName: use-jquery-to-modify-the-entire-page
 
 # --description--
 
-Нам надоїло гратись на ігровому майданчику jQuery. Знесемо його!
+We're done playing with our jQuery playground. Let's tear it down!
 
 jQuery може націлитись на елемент `body`.
 

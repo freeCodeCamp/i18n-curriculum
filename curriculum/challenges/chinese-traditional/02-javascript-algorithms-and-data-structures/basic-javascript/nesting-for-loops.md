@@ -9,7 +9,7 @@ dashedName: nesting-for-loops
 
 # --description--
 
-如果你有一個二維數組，可以使用相同的邏輯，先遍歷外面的數組，再遍歷裏面的子數組。 下面是一個例子：
+If you have a multi-dimensional array, you can use the same logic as the prior waypoint to loop through both the array and any sub-arrays. 以下是一個例子：
 
 ```js
 const arr = [

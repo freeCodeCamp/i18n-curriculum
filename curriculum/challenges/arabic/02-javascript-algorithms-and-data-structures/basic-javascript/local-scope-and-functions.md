@@ -9,7 +9,7 @@ dashedName: local-scope-and-functions
 
 # --description--
 
-المتغيرات التي أعلنت داخل وظيفة (function)، وكذلك الوسائط (parameters) للوظيفة لديها مجال <dfn>محدود (local)</dfn>. وهذا يعني أنها لا تكون ظاهرة (أو معروفة) إلا في نطاق الوظيفة.
+Variables which are declared within a function, as well as the function parameters, have <dfn>local</dfn> scope. That means they are only visible within that function.
 
 هذه وظيفة `myTest` مع متغير محدود يسمى `loc`.
 

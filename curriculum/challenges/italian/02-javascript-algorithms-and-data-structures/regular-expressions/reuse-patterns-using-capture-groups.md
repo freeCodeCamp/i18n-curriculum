@@ -8,7 +8,7 @@ dashedName: reuse-patterns-using-capture-groups
 
 # --description--
 
-Per esempio vuoi trovare una parola che compare più di una volta come qui sotto.
+Say you want to match a word that occurs multiple times like below.
 
 ```js
 let repeatStr = "row row row your boat";

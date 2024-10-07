@@ -8,7 +8,7 @@ dashedName: equilibrium-index
 
 # --description--
 
-An equilibrium index of a sequence is an index into the sequence such that the sum of elements at lower indices is equal to the sum of elements at higher indices.
+Ein Gleichgewichtsindex einer Folge ist ein Index in der Folge, bei dem die Summe der Elemente bei niedrigeren Indizes gleich der Summe der Elemente bei höheren Indizes ist.
 
 Zum Beispiel, in einer Folge $A$:
 

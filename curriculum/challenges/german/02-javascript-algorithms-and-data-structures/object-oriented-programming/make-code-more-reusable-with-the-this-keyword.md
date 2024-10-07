@@ -8,7 +8,7 @@ dashedName: make-code-more-reusable-with-the-this-keyword
 
 # --description--
 
-In der letzten Aufgabe wurde eine Methode für das Objekt `duck` eingeführt. Es verwendet die Punktnotation `duck.name`, um auf den Wert der Eigenschaft `name` innerhalb der Rückgabeanweisung zuzugreifen:
+The last challenge introduced a method to the `duck` object. It used `duck.name` dot notation to access the value for the `name` property within the return statement:
 
 ```js
 sayName: function() {return "The name of this duck is " + duck.name + ".";}

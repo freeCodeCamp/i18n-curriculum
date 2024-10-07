@@ -8,21 +8,21 @@ dashedName: install-and-set-up-mongoose
 
 # --description--
 
-Bei der Arbeit an diesen Aufgaben wirst du deinen Code mithilfe folgender Methoden schreiben:
+Working on these challenges will involve you writing your code using one of the following methods:
 
-- Klone <a href="https://github.com/freeCodeCamp/boilerplate-mongomongoose/" target="_blank" rel="noopener noreferrer nofollow">diese GitHub-Repo</a> und schließe dein Projekt lokal ab.
-- Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mongomongoose/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete these challenges.
-- Verwende einen Site-Builder deiner Wahl, um das Projekt abzuschließen. Achte darauf, alle Dateien von unserem GitHub-Repo zu integrieren.
+- Clone <a href="https://github.com/freeCodeCamp/boilerplate-mongomongoose/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete these challenges locally.
+- Verwende <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mongomongoose/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> um diese Challenge abzuschließen.
+- Benutze einen Website-Builder deiner Wahl, um das Projekt abzuschließen. Achte darauf, alle Dateien von unserem GitHub-Repo zu integrieren.
 
-In dieser Aufgabe wirst du eine eine MongoDB-Atlas-Datenbank einrichten und die erforderlichen Pakete importieren, um dich mit ihr zu verbinden.
+In this challenge, you will set up a MongoDB Atlas database and import the required packages to connect to it.
 
-Folge <a href='https://www.freecodecamp.org/news/get-started-with-mongodb-atlas/' target="_blank" rel="noopener noreferrer nofollow">diesem Tutorial</a>, um eine gehostete Datenbank mit MongoDB Atlas einzurichten.
+Follow <a href='https://www.freecodecamp.org/news/get-started-with-mongodb-atlas/' target="_blank" rel="noopener noreferrer nofollow">this tutorial</a> to set up a hosted database on MongoDB Atlas.
 
 # --instructions--
 
-`mongoose@^5.11.15` wurde der `package.json`-Datei deines Projekts hinzugefügt. Fordere zunächst Mongoose als `mongoose` in `myApp.js` an. Erstelle als Nächstes eine `.env`-Datei und füge dieser eine `MONGO_URI`-Variable hinzu. Ihr Wert sollte deine MongoDB-Atlas-Datenbank-URI sein. Achte darauf, die URI mit einfachen oder doppelten Anführungszeichen zu umgeben und denke daran, dass du keine Leerzeichen um die `=` in Umgebungsvariablen verwenden kannst. Zum Beispiel: `MONGO_URI='VALUE'`.
+`mongoose@^5.11.15` has been added to your project’s `package.json` file. First, require mongoose as `mongoose` in `myApp.js`. Next, create a `.env` file and add a `MONGO_URI` variable to it. Its value should be your MongoDB Atlas database URI. Be sure to surround the URI with single or double quotes, and remember that you can't use spaces around the `=` in environment variables. For example, `MONGO_URI='VALUE'`.
 
-Sobald du fertig bist, verbinde dich mit der Datenbank durch Aufruf der `connect`-Methode innerhalb deiner `myApp.js`-Datei unter Verwendung der folgenden Syntax:
+When you are done, connect to the database by calling the `connect` method within your `myApp.js` file by using the following syntax:
 
 ```js
 mongoose.connect(<Your URI>, { useNewUrlParser: true, useUnifiedTopology: true });
@@ -30,7 +30,7 @@ mongoose.connect(<Your URI>, { useNewUrlParser: true, useUnifiedTopology: true }
 
 # --hints--
 
-Abhängigkeit "mongoose Version ^5.11.15" sollte sich in package.json befinden
+"mongoose version ^5.11.15" dependency should be in package.json
 
 ```js
 (getUserInput) =>
@@ -50,7 +50,7 @@ Abhängigkeit "mongoose Version ^5.11.15" sollte sich in package.json befinden
   );
 ```
 
-"mongoose" sollte mit einer Datenbank verbunden sein
+"mongoose" should be connected to a database
 
 ```js
 (getUserInput) =>

@@ -9,13 +9,13 @@ dashedName: finding-a-remainder-in-javascript
 
 # --description--
 
-<dfn>remainder</dfn> 求餘運算符 `%` 返回兩個數相除得到的餘數
+The <dfn>remainder</dfn> operator `%` gives the remainder of the division of two numbers.
 
-**示例**
+**例如：**
 
 <pre>
 5 % 2 = 1
-5 / 2 = 2 餘 1
+5 / 2 = 2 remainder 1
 2 * 2 = 4
 5 - 4 = 1
 </pre>

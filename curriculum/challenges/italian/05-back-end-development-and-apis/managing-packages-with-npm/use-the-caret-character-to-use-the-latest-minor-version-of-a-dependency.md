@@ -8,7 +8,7 @@ dashedName: use-the-caret-character-to-use-the-latest-minor-version-of-a-depende
 
 # --description--
 
-Simile a come la tilde vista nell'ultima sfida permette a npm di installare l'ultima PATCH per una dipendenza, l'accento circonflesso (caret, `^`) permette a npm di installare anche aggiornamenti futuri. La differenza è che l'accento circonflesso permette sia aggiornamenti di versione minore che di Patch.
+Similar to how the tilde we learned about in the last challenge allows npm to install the latest PATCH for a dependency, the caret (`^`) allows npm to install future updates as well. The difference is that the caret will allow both MINOR updates and PATCHes.
 
 La versione attuale di `@freecodecamp/example` dovrebbe essere `~1.2.13` che permette a npm di installare l'ultima versione `1.2.x`. Se invece dovessi usare il caret (^) come prefisso di versione, npm avrebbe il permesso di aggiornare a qualsiasi versione `1.x.x`.
 

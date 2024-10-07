@@ -9,11 +9,11 @@ dashedName: use-bracket-notation-to-find-the-nth-to-last-character-in-a-string
 
 # --description--
 
-我們既可以獲取字符串的最後一個字符，也可以用獲取字符串的倒數第 N 個字符。
+You can use the same principle we just used to retrieve the last character in a string to retrieve the Nth-to-last character.
 
 例如，你可以使用 `firstName[firstName.length - 3]` 獲取 `const firstName = "Augusta"` 字符串的倒數第三個字母的值
 
-例如：
+示例：
 
 ```js
 const firstName = "Augusta";

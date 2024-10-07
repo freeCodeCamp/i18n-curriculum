@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d403618c
-title: Use Array.filter() to Dynamically Filter an Array
+title: Array.filter() 사용해서 동적으로 배열 필터링하기
 challengeType: 6
 forumTopicId: 301416
 dashedName: use-array-filter-to-dynamically-filter-an-array
@@ -16,11 +16,11 @@ let onlineUsers = users.filter(user => user.online);
 
 # --instructions--
 
-In the code editor, `MyComponent`'s `state` is initialized with an array of users. Some users are online and some aren't. Filter the array so you see only the users who are online. To do this, first use `filter` to return a new array containing only the users whose `online` property is `true`. Then, in the `renderOnline` variable, map over the filtered array, and return a `li` element for each user that contains the text of their `username`. Be sure to include a unique `key` as well, like in the last challenges.
+코드 편집기 `MyComponent`의 상태(`state`)는 users의 배열로 초기화됩니다. 일부 유저는 온라인이고, 일부는 아닙니다. 온라인 유저만 보이도록 배열을 필터링 해보세요. 이렇게 하려면, 우선 `filter`를 사용해서 `online` 프로퍼티가 `true`인 유저만 있는 새 배열을 반환해야 합니다. 그런 다음 `renderOnline` 변수로 필터링된 배열에 `map`을 사용해서 각 유저의 `username`의 텍스트를 갖는 `li` 엘리먼트를 반환해보세요. 이전 도전들처럼 고유한 `key`도 포함시켜 주세요.
 
 # --hints--
 
-`MyComponent` should exist and render to the page.
+`MyComponent`는 존재하며 페이지에 렌더링되어야 합니다.
 
 ```js
 assert.strictEqual(
@@ -29,7 +29,7 @@ assert.strictEqual(
 );
 ```
 
-`MyComponent`'s state should be initialized to an array of six users.
+`MyComponent`의 상태는 여섯 명의 유저 배열로 초기화되어야 합니다.
 
 ```js
 assert(
@@ -40,7 +40,7 @@ assert(
 );
 ```
 
-`MyComponent` should return a `div`, an `h1`, and then an unordered list containing `li` elements for every user whose online status is set to `true`.
+`MyComponent`는 `div`, `h1` 그리고 온라인이 `true`인 유저들을 포함한 `li` 엘리먼트를 반환해야 합니다.
 
 ```js
 (() => {
@@ -83,7 +83,7 @@ assert(
 })();
 ```
 
-`MyComponent` should render `li` elements that contain the `username` of each online user.
+`MyComponent`는 각 온라인 유저의 `username`를 가진 `li` 엘리먼트를 렌더링해야 합니다.
 
 ```js
 (() => {
@@ -109,7 +109,7 @@ assert(
 })();
 ```
 
-Each list item element should have a unique `key` attribute.
+각 리스트 아이템 엘리먼트는 고유한 `key` 속성을 가지고 있어야 합니다.
 
 ```js
 assert(

@@ -20,9 +20,9 @@ dashedName: the-cascade-of-css-lesson-e
 }
 ```
 
-In this final example, both rules are using ID and class selectors, so neither rule is using a more specific selector than the other. The cascade then checks the amounts of each selector type. Both rules only have one ID selector, but rule 2 has more class selectors, so rule 2 has a higher specificity!
+Im letzten Beispiel verwenden beide Regeln ID- und Klassenselektoren, so dass keine Regel einen spezifischeren Selektor als die andere verwendet. Die Kaskade prüft dann die Mengen der einzelnen Selektortypen. Beide Regeln haben nur einen ID-Selektor, aber Regel 2 hat mehr Klassenselektoren, daher hat Regel 2 eine höhere Spezifität!
 
-While the `color: red` declaration would take precedence, the `background-color: yellow` declaration would still be applied since there’s no conflicting declaration for it.
+Während die `color: red`-Deklaration Vorrang hätte, würde die `background-color: yellow`-Deklaration trotzdem angewandt werden, da es dafür keine widersprüchliche Deklaration gibt.
 
 # --questions--
 
@@ -32,19 +32,19 @@ Considering the updated CSS code, which of the following describes the rendering
 
 ## --answers--
 
-Text color: Red, Background color: Transparent
+Textfarbe: Rot, Hintergrundfarbe: Transparent
 
 ---
 
-Text color: Red, Background color: Yellow
+Textfarbe: Rot, Hintergrundfarbe: Gelb
 
 ---
 
-Text color: Blue, Background color: Transparent
+Textfarbe: Blau, Hintergrundfarbe: Transparent
 
 ---
 
-Text color: Blue, Background color: Yellow
+Textfarbe: Blau, Hintergrundfarbe: Gelb
 
 ## --video-solution--
 

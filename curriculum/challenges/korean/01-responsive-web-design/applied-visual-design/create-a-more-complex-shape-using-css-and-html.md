@@ -9,7 +9,7 @@ dashedName: create-a-more-complex-shape-using-css-and-html
 
 # --description--
 
-세계에서 가장 인기 있는 모양 중 하나는 하트 모양입니다. 이번 과제에서는 CSS만을 사용하여 하트 모양을 만들어 보겠습니다. 먼저 `::before`와 `::after` 가상 요소를 이해해야 합니다. `::before`는 선택한 요소의 첫 번째 자식인 가상 요소를 생성하며, `::after`는 선택한 요소의 마지막 자식인 가상 요소를 생성합니다. 다음 예제에서는 `::before` 가상 요소를 사용하여 클래스가 `heart`인 요소에 직사각형을 추가합니다:
+One of the most popular shapes in the world is the heart shape, and in this challenge you'll create one using pure CSS. But first, you need to understand the `::before` and `::after` pseudo-elements. `::before` creates a pseudo-element that is the first child of the selected element; `::after` creates a pseudo-element that is the last child of the selected element. In the following example, a `::before` pseudo-element is used to add a rectangle to an element with the class `heart`:
 
 ```css
 .heart::before {

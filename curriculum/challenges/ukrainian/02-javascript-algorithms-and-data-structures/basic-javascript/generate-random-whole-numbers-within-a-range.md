@@ -9,7 +9,7 @@ dashedName: generate-random-whole-numbers-within-a-range
 
 # --description--
 
-Ви можете згенерувати випадкове ціле число в діапазоні від нуля до заданого числа. Ви також можете вибрати будь-яке інше менше число для цього діапазону.
+You can generate a random whole number in the range from zero to a given number. You can also pick a different lower number for this range.
 
 Мінімальне число називають `min`, а максимальне — `max`.
 

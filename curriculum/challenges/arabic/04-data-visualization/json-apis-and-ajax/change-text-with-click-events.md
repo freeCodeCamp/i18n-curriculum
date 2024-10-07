@@ -1,6 +1,6 @@
 ---
 id: 587d7fad367417b2b2512be2
-title: Change Text with click Events
+title: تغيير النص عند النقر باستخدام click events
 challengeType: 6
 forumTopicId: 301500
 dashedName: change-text-with-click-events
@@ -10,9 +10,9 @@ dashedName: change-text-with-click-events
 
 When the click event happens, you can use JavaScript to update an HTML element.
 
-For example, when a user clicks the `Get Message` button, it changes the text of the element with the class `message` to say `Here is the message`.
+على سبيل المثال، عندما ينقر مستخدم على زر `Get Message`، سوف يتغير نص العنصر ذو فئة `message` ليقول `Here is the message`.
 
-This works by adding the following code within the click event:
+يعمل هذا بإضافة الكود التالي ضمن حدث click:
 
 ```js
 document.getElementsByClassName('message')[0].textContent="Here is the message";
@@ -20,11 +20,11 @@ document.getElementsByClassName('message')[0].textContent="Here is the message";
 
 # --instructions--
 
-Add code inside the `onclick` event handler to change the text inside the `message` element to say `Here is the message`.
+أضف تعليمة برمجية داخل معالج الحدث `onclick` لتغيير النص داخل عنصر `message` ليقول `Here is the message`.
 
 # --hints--
 
-Your code should use the `document.getElementsByClassName` method to select the element with class `message` and set its `textContent` to the given string.
+الكود الخاص بك يجب أن يستخدم الطريقة `document.getElementsByClassName` لتحديد العنصر ذو فئة `message` وتعيين محتواه `textContent` إلى المقطع المحدد.
 
 ```js
 assert(

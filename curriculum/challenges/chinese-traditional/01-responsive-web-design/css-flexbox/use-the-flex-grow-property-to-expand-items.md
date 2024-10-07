@@ -9,7 +9,7 @@ dashedName: use-the-flex-grow-property-to-expand-items
 
 # --description--
 
-與 `flex-shrink` 相對的是 `flex-grow`。 你應該還記得，`flex-shrink` 會在容器太小時對子元素作出調整。 相應地，`flex-grow` 會在容器太大時對子元素作出調整。
+The opposite of `flex-shrink` is the `flex-grow` property. Recall that `flex-shrink` controls the size of the items when the container shrinks. The `flex-grow` property controls the size of items when the parent container expands.
 
 例子與上一個挑戰相似，如果一個項目的 `flex-grow` 屬性值爲 `1`，另一個項目的 `flex-grow` 屬性值爲 `3`，那麼值爲 `3` 的一個會較另一個擴大 3 倍。
 

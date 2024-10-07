@@ -8,7 +8,7 @@ dashedName: problem-302-strong-achilles-numbers
 
 # --description--
 
-A positive integer $n$ is powerful if $p^2$ is a divisor of $n$ for every prime factor $p$ in $n$.
+Ein positiver Integer $n$ ist mächtig, wenn $p^2$ ein Teiler von $n$ für jeden Primfaktor $p$ in $n$ ist.
 
 Ein positiver Integer $n$ ist eine vollkommene Potenz, wenn $n$ als Potenz eines anderen positiven Integers ausgedrückt werden kann.
 
@@ -24,7 +24,7 @@ Wie viele starke Achilleszahlen gibt es unter ${10}^{18}$?
 
 # --hints--
 
-`strongAchillesNumbers()` should return `1170060`.
+`strongAchillesNumbers()` sollte `1170060` zurückgeben.
 
 ```js
 assert.strictEqual(strongAchillesNumbers(), 1170060);

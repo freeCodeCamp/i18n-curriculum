@@ -9,13 +9,13 @@ dashedName: compound-assignment-with-augmented-multiplication
 
 # --description--
 
-O operador `*=` multiplica uma variável por um número.
+The `*=` operator multiplies a variable by a number.
 
 ```js
 myVar = myVar * 5;
 ```
 
-multiplicará `myVar` por `5`. Essa expressão pode ser reescrita assim:
+multiplicará `myVar` por `5`. Isto pode ser reescrito como:
 
 ```js
 myVar *= 5;

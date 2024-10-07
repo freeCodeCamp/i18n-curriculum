@@ -1,6 +1,6 @@
 ---
 id: 65d5d1bdbd0a7f4e3edb6c8e
-title: Task 34
+title: 任务 34
 challengeType: 19
 dashedName: task-34
 ---
@@ -9,9 +9,9 @@ dashedName: task-34
 
 # --description--
 
-Listen to the audio and answer the question.
+听音频，回答问题。
 
-# --questions--
+# 问题
 
 ## --text--
 

@@ -12,11 +12,11 @@ dashedName: numpy-arrays
 
 # --description--
 
-*بدلاً من استخدام (notebooks.ai) كما هو موضح بالفيديو يمكنك استخدام (Google Colab).*
+*Instead of using notebooks.ai like it shows in the video, you can use Google Colab instead.*
 
 المزيد من المصادر:
 
--  <a href="https://github.com/ine-rmotr-curriculum/freecodecamp-intro-to-numpy" target="_blank" rel="noopener noreferrer nofollow">ال Notebooks في GitHub</a>
+-  <a href="https://github.com/ine-rmotr-curriculum/freecodecamp-intro-to-numpy" target="_blank" rel="noopener noreferrer nofollow">Notebooks on GitHub</a>
 -  <a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebookس/colab-github-demo.ipynb" target="_blank" rel="noopener noreferrer nofollow">كيفية فتح (Notebook) من (GitHub) باستخدام (Google Colab).</a>
 
 # --questions--

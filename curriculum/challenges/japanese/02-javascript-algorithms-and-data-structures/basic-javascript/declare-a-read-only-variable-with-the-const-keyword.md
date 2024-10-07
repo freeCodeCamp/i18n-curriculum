@@ -8,7 +8,7 @@ dashedName: declare-a-read-only-variable-with-the-const-keyword
 
 # --description--
 
-変数を宣言する新しい方法はキーワード `let` だけではありません。 ES6 では、`const` キーワードを使用して変数を宣言することもできます。
+The keyword `let` is not the only new way to declare variables. In ES6, you can also declare variables using the `const` keyword.
 
 `const` は `let` の持つ素晴らしい機能をすべて備えていますが、それだけでなく、`const` を使用して宣言した変数は読み取り専用になります。 それらの変数は定数となり、いったん `const` で代入された変数には、再び代入することはできません。
 

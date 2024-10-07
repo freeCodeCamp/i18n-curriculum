@@ -8,7 +8,7 @@ dashedName: use-the-delete-keyword-to-remove-object-properties
 
 # --description--
 
-الآن أنت تعرف ما هي objects ومميزاتها الأساسية. وباختصار، فهي مخازن بطريقه key-value توفر طريقة مرنة وبديهية لهيكلة البيانات، ***و***، و توفر وقت بحث سريع جدا. وطوال بقية هذه التحديات، سوف نصف عدة عمليات مشتركة يمكنك القيام بها على objects حتى تصبح مرتاحا في تطبيق هياكل البيانات المفيدة هذه في برامجك.
+Now you know what objects are and their basic features and advantages. In short, they are key-value stores which provide a flexible, intuitive way to structure data, ***and***, they provide very fast lookup time. Throughout the rest of these challenges, we will describe several common operations you can perform on objects so you can become comfortable applying these useful data structures in your programs.
 
 في تحديات سابقة، إضافة وتعديل أزواج key-value في object ما. هنا سنرى كيف يمكننا *إزالة* زوج key-value من object.
 

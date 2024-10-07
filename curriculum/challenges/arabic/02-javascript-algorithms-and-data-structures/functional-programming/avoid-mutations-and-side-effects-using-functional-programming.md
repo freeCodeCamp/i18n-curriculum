@@ -8,7 +8,7 @@ dashedName: avoid-mutations-and-side-effects-using-functional-programming
 
 # --description--
 
-إذا لم تكتشف ذلك سلفًا، المشكلة في التحدي السابق كانت مع استدعاء `splice` في وظيفة `tabClose()`. لسوء الحظ، `splice` يغير القائمة (array) الأصلية التي فُعِل عليها، لذا التفعيل الثاني له استخدم القائمة (array) المعدلة، وأعطى نتائج غير متوقعة.
+If you haven't already figured it out, the issue in the previous challenge was with the `splice` call in the `tabClose()` function. Unfortunately, `splice` changes the original array it is called on, so the second call to it used a modified array, and gave unexpected results.
 
 هذا مثال صغير لنمط أكبر بكثير- يمكنك تفعيل وظيفة (function) للتأثير على متغير (variable)، أو قائمة (array)، أو كائن (object). وتغير الوظيفة المتغير أو شيء ما في الكائن.
 

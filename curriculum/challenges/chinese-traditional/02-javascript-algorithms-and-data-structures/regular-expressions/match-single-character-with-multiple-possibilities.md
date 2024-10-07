@@ -8,7 +8,7 @@ dashedName: match-single-character-with-multiple-possibilities
 
 # --description--
 
-已經瞭解了文字匹配模式（`/literal/`）和通配符（`/./`）。 這是正則表達式的兩種極端情況，一種是精確匹配，而另一種則是匹配所有。 在這兩種極端情況之間有一個平衡選項。
+You learned how to match literal patterns (`/literal/`) and wildcard character (`/./`). Those are the extremes of regular expressions, where one finds exact matches and the other matches everything. There are options that are a balance between the two extremes.
 
 可以使用字符集 （<dfn>character classes</dfn>）更靈活的匹配字符。 可以把字符集放在方括號（`[` 和 `]`）之間來定義一組需要匹配的字符串。
 

@@ -9,7 +9,7 @@ dashedName: add-rounded-corners-with-border-radius
 
 # --description--
 
-Dein Katzenfoto hat derzeit scharfe Ecken. Wir können sie mit einer CSS Eigenschaft namens `border-radius` abrunden.
+Your cat photo currently has sharp corners. We can round out those corners with a CSS property called `border-radius`.
 
 # --instructions--
 

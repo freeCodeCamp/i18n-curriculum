@@ -8,7 +8,7 @@ dashedName: select-a-group-of-elements-with-d3
 
 # --description--
 
-D3 ha anche il metodo `selectAll()` che permette di selezionare un gruppo di elementi. Esso restituisce un array di nodi HTML per tutti gli elementi del documento che corrispondono alla stringa di input. Ecco un esempio che seleziona tutti i tag di ancoraggio in un documento:
+D3 also has the `selectAll()` method to select a group of elements. It returns an array of HTML nodes for all the items in the document that match the input string. Here's an example to select all the anchor tags in a document:
 
 ```js
 const anchors = d3.selectAll("a");

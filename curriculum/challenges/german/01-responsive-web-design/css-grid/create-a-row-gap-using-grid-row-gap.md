@@ -9,7 +9,7 @@ dashedName: create-a-row-gap-using-grid-row-gap
 
 # --description--
 
-Du kannst einen Abstand zwischen den Zeilen eines Rasters mit `grid-row-gap` auf die gleiche Weise einfügen, wie du in der vorherigen Aufgabe einen Abstand zwischen den Spalten eingefügt hast.
+You can add a gap in between the rows of a grid using `grid-row-gap` in the same way that you added a gap in between columns in the previous challenge.
 
 # --instructions--
 

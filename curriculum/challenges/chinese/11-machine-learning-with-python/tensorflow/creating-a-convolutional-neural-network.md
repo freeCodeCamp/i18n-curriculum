@@ -14,7 +14,7 @@ dashedName: creating-a-convolutional-neural-network
 
 ## --text--
 
-填写下面的空白以完成卷积神经网络的架构：
+Fill in the blanks below to complete the architecture for a convolutional neural network:
 
 ```py
 model = models.__A__()

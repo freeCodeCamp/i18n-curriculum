@@ -8,7 +8,7 @@ dashedName: match-single-character-with-multiple-possibilities
 
 # --description--
 
-Du hast gelernt, wie man literale Muster (`/literal/`) erkennt und das Wildcardzeichen (`/./`) verwendet. Das sind die Extreme der regulären Ausdrücke, von denen der eine exakte Übereinstimmungen findet und der andere alles abdeckt. Es gibt Möglichkeiten, die ein Gleichgewicht zwischen den beiden Extremen darstellen.
+You learned how to match literal patterns (`/literal/`) and wildcard character (`/./`). Those are the extremes of regular expressions, where one finds exact matches and the other matches everything. There are options that are a balance between the two extremes.
 
 Mit <dfn>Zeichenklassen</dfn> kannst du mit einer gewissen Flexibilität nach einem literalen Muster suchen. Mit Zeichenklassen kannst du eine Gruppe von Zeichen definieren, die du abgleichen möchtest, indem du sie in eckige (`[` und `]`) Klammern setzt.
 

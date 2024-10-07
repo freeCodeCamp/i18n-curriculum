@@ -8,7 +8,7 @@ dashedName: chunky-monkey
 
 # --description--
 
-배열(첫 번째 인자)을 배열 `size`의 길이(두 번째 인자)만큼의 그룹으로 쪼개고 이를 2차원 배열로 반환하세요.
+Write a function that splits an array (first argument) into groups the length of `size` (second argument) and returns them as a two-dimensional array.
 
 # --hints--
 

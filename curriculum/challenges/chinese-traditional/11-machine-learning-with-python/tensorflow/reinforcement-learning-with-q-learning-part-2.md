@@ -14,7 +14,7 @@ dashedName: reinforcement-learning-with-q-learning-part-2
 
 ## --text--
 
-如果智能體在採取隨機動作和使用學習動作之間沒有很好的平衡，會發生什麼？
+What can happen if the agent does not have a good balance of taking random actions and using learned actions?
 
 ## --answers--
 

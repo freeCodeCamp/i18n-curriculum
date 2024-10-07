@@ -20,7 +20,7 @@ Complete o módulo <a href="https://learn.microsoft.com/training/modules/csharp-
 
 ## --text--
 
-Qual das opções abaixo não é um operador válido em C#?
+Which of the choices below is not a valid operator in C#?
 
 ## --answers--
 

@@ -7,7 +7,7 @@ dashedName: step-37
 
 # --description--
 
-Observe que as cores vermelho e ciano estão muito brilhantes perto uma da outra. No entanto, o forte contraste visual pode ser chocante se for usado demais em um site e, às vezes, pode tornar o texto mais difícil de ler se for colocado em um fundo de cores complementares.
+Notice that the red and cyan colors are very bright right next to each other. This contrast can be distracting if it's overused on a website, and can make text hard to read if it's placed on a complementary-colored background.
 
 É uma prática melhor escolher uma cor como a cor dominante e usar sua cor complementar como um destaque para chamar a atenção para certos conteúdos na página.
 

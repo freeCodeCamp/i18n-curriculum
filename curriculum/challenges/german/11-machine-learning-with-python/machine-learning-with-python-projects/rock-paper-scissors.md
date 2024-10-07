@@ -1,6 +1,6 @@
 ---
 id: 5e46f8d6ac417301a38fb92d
-title: Rock Paper Scissors
+title: Schere Stein Papier
 challengeType: 10
 forumTopicId: 462376
 dashedName: rock-paper-scissors
@@ -8,55 +8,55 @@ dashedName: rock-paper-scissors
 
 # --description--
 
-Für diese Aufgabe wirst du ein Programm zum Spielen von Schere, Stein, Papier erstellen. A program that picks at random will usually win 50% of the time. To pass this challenge your program must play matches against four different bots, winning at least 60% of the games in each match.
+For this challenge, you will create a program to play Rock, Paper, Scissors. A program that picks at random will usually win 50% of the time. To pass this challenge your program must play matches against four different bots, winning at least 60% of the games in each match.
 
-You will be <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-rock-paper-scissors/" target="_blank" rel="noopener noreferrer nofollow">working on this project with our Gitpod starter code</a>.
+Du wirst <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-rock-paper-scissors/" target="_blank" rel="noopener noreferrer nofollow"> an diesem Projekt mi unserem Gitpod-Startercode Arbeiten.</a>.
 
-We are still developing the interactive instructional part of the machine learning curriculum. For now, you will have to use other resources to learn how to pass this challenge.
+Wir sind noch dabei, den interaktiven Teil des Python-Kurses zu entwickeln. Momentan musst du noch andere Ressourcen verwenden, um zu lernen, wie man diese Herausforderung meistert.
 
 # --instructions--
 
-In the file `RPS.py` you are provided with a function called `player`. The function takes an argument that is a string describing the last move of the opponent ("R", "P", or "S"). The function should return a string representing the next move for it to play ("R", "P", or "S").
+In der `RPS.py`-Datei wird dir eine Funktion namens `player` gegeben. Die Funktion verwendet ein Argument, welches ein String ist, die den letzten Zug des Gegners beschreibt ("R", "P", or "S"). Die Funktion sollte einen String zurückgeben, der den nächsten Zug darstellt ("R", "P", or "S").
 
-A player function will receive an empty string as an argument for the first game in a match since there is no previous play.
+Eine Spieler-Funktion erhält einen leeren String als Argument für das erste Spiel in einem Spiel, da es kein vorheriges Spiel gibt.
 
-The file `RPS.py` shows an example function that you will need to update. The example function is defined with two arguments (`player(prev_play, opponent_history = [])`). The function is never called with a second argument so that one is completely optional. The reason why the example function contains a second argument (`opponent_history = []`) is because that is the only way to save state between consecutive calls of the `player` function. You only need the `opponent_history` argument if you want to keep track of the opponent_history.
+Die Datei `RPS.py` zeigt eine Beispielfunktion an, die du aktualisieren musst. Die Beispielfunktion wird mit zwei Argumenten (`player(prev_play, opponent_history = [])`) definiert. Die Funktion wird nie mit einem zweiten Argument aufgerufen, so dass eines komplett optional ist. Der Grund, warum die Beispielfunktion ein zweites Argument (`opponent_history = []`) enthält, liegt darin, dass dies die einzige Möglichkeit ist, den Zustand zwischen aufeinanderfolgenden Aufrufen der `player` Funktion zu speichern. Du brauchst nur das `opponent_history` Argument, wenn du den Überblick über die opponent_history behalten möchtest.
 
-*Hint: To defeat all four opponents, your program may need to have multiple strategies that change depending on the plays of the opponent.*
+*Tipp: Um alle vier Gegner zu besiegen, muss dein Programm möglicherweise mehrere Strategien haben, die sich je nach Spielart des Gegners ändern.*
 
 ## Development
 
-Do not modify `RPS_game.py`. Write all your code in `RPS.py`. For development, you can use `main.py` to test your code.
+Ändere `RPS_game.py` nicht. Schreibe deinen ganzen Code in `RPS.py`. Für die Entwicklung kannst du `main.py` verwenden, um deinen Code zu testen.
 
-`main.py` imports the game function and bots from `RPS_game.py`.
+`main.py` importiert die Spielfunktion und Bots von `RPS_game.py`.
 
-To test your code, play a game with the `play` function. The `play` function takes four arguments:
+Um deinen Code zu testen, spiele ein Spiel mit der `play` Funktion. Die `play` Funktion benötigt vier Argumente:
 
 - two players to play against each other (the players are actually functions)
-- the number of games to play in the match
-- an optional argument to see a log of each game. Set it to `True` to see these messages.
+- die Anzahl der zu spielenden Spiele im Spiel
+- ein optionales Argument, um den Log jedes Spiels zu sehen. Setze es auf `True`, um diese Nachrichten zu sehen.
 
 ```py
 play(player1, player2, num_games[, verbose])
 ```
 
-For example, here is how you would call the function if you want `player` and `quincy` to play 1000 games against each other and you want to see the results of each game:
+Hier ist zum Beispiel, wie du die Funktion aufrufen würdest, wenn du wollen würdest, dass `player` und `quincy` 1000 Spiele gegeneinander spielen und du die Ergebnisse jedes Spiels sehen möchstest:
 
 ```py
 play(player, quincy, 1000, verbose=True)
 ```
 
-## Testing
+## Prüfung
 
-The unit tests for this project are in `test_module.py`. We imported the tests from `test_module.py` to `main.py` for your convenience. If you uncomment the last line in `main.py`, the tests will run automatically whenever you run `python main.py` in the console.
+Die Einheitstests für dieses Projekt befinden sich in `test_module.py`. Wir haben die Tests von `test_module.py` zu `main.py` bereits für dich importiert. If you uncomment the last line in `main.py`, the tests will run automatically whenever you run `python main.py` in the console.
 
-## Submitting
+## Einreichung
 
-Copy your project's URL and submit it to freeCodeCamp.
+Kopiere die URL deines Projekts und übermittle sie an freeCodeCamp.
 
 # --hints--
 
-It should pass all Python tests.
+Es sollte alle Python-Tests bestehen.
 
 ```js
 

@@ -8,7 +8,7 @@ dashedName: create-a-controlled-input
 
 # --description--
 
-アプリケーションによっては、レンダーされた UI と `state` との間でもっと複雑なやり取りをする場合があります。 たとえば、`input` や `textarea` などのテキスト入力のフォームコントロール要素は、DOM 内ではユーザータイプとして独自の状態を維持します。 React では、こうしたミュータブルな状態の扱いを React コンポーネントの `state` に移すことができます。 ユーザーの入力はアプリケーションの `state` の一部となり、その入力フィールドの値は React によって制御されます。 通常は、ユーザー入力が可能な入力フィールドを持つ React コンポーネントがある場合、それは制御された入力フォームになります。
+Your application may have more complex interactions between `state` and the rendered UI. For example, form control elements for text input, such as `input` and `textarea`, maintain their own state in the DOM as the user types. With React, you can move this mutable state into a React component's `state`. The user's input becomes part of the application `state`, so React controls the value of that input field. Typically, if you have React components with input fields the user can type into, it will be a controlled input form.
 
 # --instructions--
 

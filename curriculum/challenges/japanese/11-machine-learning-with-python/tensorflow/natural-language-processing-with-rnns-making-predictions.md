@@ -14,7 +14,7 @@ dashedName: natural-language-processing-with-rnns-making-predictions
 
 ## --text--
 
-独自のレビューで予測を行う場合、事前に行う必要があることは何ですか？
+Before you make a prediction with your own review, you should...:
 
 ## --answers--
 

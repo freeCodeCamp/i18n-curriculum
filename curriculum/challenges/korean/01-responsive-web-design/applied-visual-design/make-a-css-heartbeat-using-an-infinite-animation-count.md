@@ -9,7 +9,7 @@ dashedName: make-a-css-heartbeat-using-an-infinite-animation-count
 
 # --description--
 
-이전 챌린지에서 디자인한 하트를 사용하는 `animation-iteration-count` 속성을 활용한 또 다른 연속 애니메이션 예제가 있습니다.
+Here's one more continuous animation example with the `animation-iteration-count` property that uses the heart you designed in a previous challenge.
 
 1초 동안 계속되는 심장 박동 애니메이션은 두 개의 애니메이션 요소로 구성되어 있습니다. `heart` 요소들 (그 중에 `:before`와 `:after` 부분도 포함)은 `transform` 속성을 사용하여 크기를 변경하는 애니메이션을 적용받고, 배경 `div`은 `background` 속성을 사용하여 색상을 변경하는 애니메이션을 적용받습니다.
 

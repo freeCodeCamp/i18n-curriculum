@@ -8,7 +8,7 @@ dashedName: combine-two-arrays-using-the-concat-method
 
 # --description--
 
-<dfn>Concatenation</dfn> يعني ضم العناصر من النهاية إلى النهاية. يقدم جافا سكريبت `concat` لكل من الـ strings والـ arrays والتي تعمل بنفس الطريقة. بالنسبة للـ arrays ، يتم استدعاء الـ method علي واحدة، ثم يتم تمرير array أخرى كـ argument لـ `concat`، تضاف إلى نهاية الـ array الأولى. وهي تعيد array جديدة ولا تغير أيا من الـ arrays الأصلية. إليك مثال:
+<dfn>Concatenation</dfn> means to join items end to end. JavaScript offers the `concat` method for both strings and arrays that work in the same way. For arrays, the method is called on one, then another array is provided as the argument to `concat`, which is added to the end of the first array. It returns a new array and does not mutate either of the original arrays. إليك مثال:
 
 ```js
 [1, 2, 3].concat([4, 5, 6]);

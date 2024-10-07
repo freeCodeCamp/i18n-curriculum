@@ -8,7 +8,7 @@ dashedName: use-caution-when-reinitializing-variables-inside-a-loop
 
 # --description--
 
-반복문 안에서 정보를 저장하거나 카운터를 늘리거나 변수를 다시 설정해야 하는 경우가 있습니다. 잠재적인 문제는 변수를 다시 초기화해야 하는데 그렇게 하지 않은 경우 또는 그 반대의 경우입니다. 종료 조건에 사용 중인 변수를 실수로 재설정하여 무한 루프를 유발하는 경우에 특히 위험합니다.
+Sometimes it's necessary to save information, increment counters, or re-set variables within a loop. A potential issue is when variables either should be reinitialized, and aren't, or vice versa. This is particularly dangerous if you accidentally reset the variable being used for the terminal condition, causing an infinite loop.
 
 `console.log()`를 사용하여 루프의 각 주기마다 변수 값을 출력하면 변수를 재설정하거나 재설정하지 않는 것와 관련된 버그가 있는 동작을 발견할 수 있습니다.
 

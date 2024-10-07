@@ -8,7 +8,7 @@ dashedName: create-a-class-to-target-with-jquery-selectors
 
 # --description--
 
-모든 클래스에 해당 CSS가 있어야 하는 것은 아닙니다. 가끔은 jQuery를 사용해서 이런 요소들을 더 쉽게 선택하기 위한 목적으로 클래스들을 만듭니다.
+Not every class needs to have corresponding CSS. Sometimes we create classes just for the purpose of selecting these elements more easily using jQuery.
 
 각 `button` 요소들에 `target` 클래스를 부여해주세요.
 

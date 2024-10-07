@@ -8,7 +8,7 @@ dashedName: assigning-the-value-of-one-variable-to-another
 
 # --description--
 
-بعد تعيين قيمة إلى متغير باستخدام مشغل <dfn>التعيين (=)</dfn>، يمكنك تعيين قيمة هذا المتغير إلى متغير آخر باستخدام مشغل <dfn>التعيين (=)</dfn> ذاتها.
+After a value is assigned to a variable using the <dfn>assignment</dfn> operator, you can assign the value of that variable to another variable using the <dfn>assignment</dfn> operator.
 
 ```js
 var myVar;

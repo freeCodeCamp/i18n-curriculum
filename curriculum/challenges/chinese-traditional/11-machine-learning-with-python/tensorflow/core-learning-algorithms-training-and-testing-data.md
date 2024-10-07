@@ -14,7 +14,7 @@ dashedName: core-learning-algorithms-training-and-testing-data
 
 ## --text--
 
-什麼是分類數據？
+What is categorical data?
 
 ## --answers--
 

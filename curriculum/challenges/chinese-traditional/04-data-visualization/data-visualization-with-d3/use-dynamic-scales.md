@@ -8,7 +8,7 @@ dashedName: use-dynamic-scales
 
 # --description--
 
-D3 的 `min()` 和 `max()` 方法在設置比例尺時十分有用。
+The D3 `min()` and `max()` methods are useful to help set the scale.
 
 對於一個複雜的數據集，首要是設置比例尺，這樣可視化才能適合 SVG 容器的寬和高。 所有數據都應佈局在 SVG 內部，這樣它們在頁面上纔是可見的。
 

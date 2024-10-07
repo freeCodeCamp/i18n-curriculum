@@ -34,7 +34,7 @@ Output:
 -----    ------    ----    -----
 ```
 
-Function Call:
+Chiamata della funzione:
 
 ```py
 arithmetic_arranger(["32 + 8", "1 - 3801", "9999 + 9999", "523 - 49"], True)
@@ -49,7 +49,7 @@ Output:
   40     -3800     19998      474
 ```
 
-## Rules
+## Regole
 
 The function will return the correct conversion if the supplied problems are properly formatted, otherwise, it will **return** a **string** that describes an error that is meaningful to the user.
 
@@ -58,11 +58,11 @@ The function will return the correct conversion if the supplied problems are pro
   - The appropriate operators the function will accept are **addition** and **subtraction**. Multiplication and division will return an error. Other operators not mentioned in this bullet point will not need to be tested. The error returned will be: `"Error: Operator must be '+' or '-'."`
   - Each number (operand) should only contain digits. Otherwise, the function will return: `'Error: Numbers must only contain digits.'`
   - Each operand (aka number on each side of the operator) has a max of four digits in width. Otherwise, the error string returned will be: `'Error: Numbers cannot be more than four digits.'`
-- If the user supplied the correct format of problems, the conversion you return will follow these rules:
+- Se l'utente ha dato i problemi nel formato corretto, la conversione che restituisci deve seguire le seguenti regole:
   - There should be a single space between the operator and the longest of the two operands, the operator will be on the same line as the second operand, both operands will be in the same order as provided (the first will be the top one and the second will be the bottom).
-  - Numbers should be right-aligned.
-  - There should be four spaces between each problem.
-  - There should be dashes at the bottom of each problem. The dashes should run along the entire length of each problem individually. (The example above shows what this should look like.)
+  - I numeri devono essere allineati a destra.
+  - Devono esserci quattro spazi tra ogni problema.
+  - Ci devono essere dei trattini sotto ogni problema. I trattini devono avere la stessa larghezza del singolo problema. (L'esempio sopra mostra come deve apparire.)
 
 Note: open the browser console with F12 to see a more verbose output of the tests.
 

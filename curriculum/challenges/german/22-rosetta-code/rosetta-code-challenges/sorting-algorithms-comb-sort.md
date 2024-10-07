@@ -8,7 +8,7 @@ dashedName: sorting-algorithmscomb-sort
 
 # --description--
 
-Implement a *comb sort*.
+Implementierung einer *comb sort*.
 
 Die **Kamm-Sortierung** ist eine Variante der Blasensortierung.
 
@@ -21,7 +21,7 @@ Einige Implementierungen verwenden die Einfügesortierung, sobald die Lücke kle
 Varianten:
 
 <ul>
-  <li>Combsort11 makes sure the gap ends in (11, 8, 6, 4, 3, 2, 1), which is significantly faster than the other two possible endings.</li>
+  <li>Combsort11 stellt sicher, dass die Lücke mit (11, 8, 6, 4, 3, 2, 1) endet, was deutlich schneller ist als die beiden anderen möglichen Endungen.</li>
   <li>Combsort mit verschiedenen Endungen wird zu einer effizienteren Sortierung, wenn die Daten fast sortiert sind (wenn die Lücke klein ist). Die Kamm-Sortierung mit einer geringen Lücke ist nicht viel besser als die Bubble-Sortierung.</li>
 </ul>
 

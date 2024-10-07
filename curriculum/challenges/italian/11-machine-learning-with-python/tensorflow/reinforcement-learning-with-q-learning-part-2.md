@@ -14,7 +14,7 @@ dashedName: reinforcement-learning-with-q-learning-part-2
 
 ## --text--
 
-Cosa può accadere se l'agente non ha un buon equilibrio tra l'intraprendere azioni casuali e l'utilizzare azioni apprese?
+What can happen if the agent does not have a good balance of taking random actions and using learned actions?
 
 ## --answers--
 

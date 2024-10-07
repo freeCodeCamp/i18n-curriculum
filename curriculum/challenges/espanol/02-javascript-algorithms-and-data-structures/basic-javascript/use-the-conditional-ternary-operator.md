@@ -8,7 +8,7 @@ dashedName: use-the-conditional-ternary-operator
 
 # --description--
 
-El <dfn>operador condicional</dfn>, también llamado el <dfn>operador ternario</dfn>, puede utilizarse como una expresión if-else de una sola línea.
+The <dfn>conditional operator</dfn>, also called the <dfn>ternary operator</dfn>, can be used as a one line if-else expression.
 
 La sintaxis es `a ? b : c`, donde `a` es la condición, `b` es el código a ejecutar cuando la condición devuelve `true`, y `c` es el código a ejecutar cuando la condición devuelve `false`.
 

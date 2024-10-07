@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: natural-language-processing-with-rnns-sentiment-analysis
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-Complete los espacios en blanco a continuación para crear el modelo para la RNN:
+Fill in the blanks below to create the model for the RNN:
 
 ```py
 model = __A__.keras.Sequential([

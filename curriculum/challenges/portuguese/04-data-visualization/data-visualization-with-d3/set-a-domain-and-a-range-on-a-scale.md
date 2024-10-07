@@ -8,7 +8,7 @@ dashedName: set-a-domain-and-a-range-on-a-scale
 
 # --description--
 
-Por padrão, as escalas usam a relação de identidade. Isso significa que o valor de entrada mapeia para o valor de saída. Entretanto, as escalas podem ser muito mais flexíveis e interessantes.
+By default, scales use the identity relationship. This means the input value maps to the output value. However, scales can be much more flexible and interesting.
 
 Digamos que um conjunto de dados tenha valores em um intervalo de 50 a 480. Esta é a informação de entrada para uma escala, também conhecida como o <dfn>domínio</dfn>.
 

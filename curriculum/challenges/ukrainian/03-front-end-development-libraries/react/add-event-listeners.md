@@ -8,7 +8,7 @@ dashedName: add-event-listeners
 
 # --description--
 
-Метод `componentDidMount()` також є найкращим місцем для додавання усіх слухачів події, які вам необхідні для конкретної функціональності. React надає систему синтетичних подій, яка охоплює систему початкової події, наявної у браузерах. Це означає, що синтетична система подій поводиться саме так, незалежно від браузера користувача, навіть якщо початкові події можуть поводитись по-різному між різними браузерами.
+The `componentDidMount()` method is also the best place to attach any event listeners you need to add for specific functionality. React provides a synthetic event system which wraps the native event system present in browsers. This means that the synthetic event system behaves exactly the same regardless of the user's browser - even if the native events may behave differently between different browsers.
 
 Ви вже використовували деякі з цих синтетичних обробників подій, наприклад, `onClick()`. Система синтетичної події в React є зручною для більшості взаємодій, якими ви керуєте в елементах DOM. Однак, якщо ви хочете прикріпити обробника подій до документа або об’єктів вікна, ви повинні зробити це напряму.
 

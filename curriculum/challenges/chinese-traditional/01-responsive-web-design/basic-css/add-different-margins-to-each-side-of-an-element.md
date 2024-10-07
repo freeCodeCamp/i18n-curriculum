@@ -9,7 +9,7 @@ dashedName: add-different-margins-to-each-side-of-an-element
 
 # --description--
 
-有時候，你會想給一個元素每個方向的 `margin` 都設置成一個特定的值。
+Sometimes you will want to customize an element so that it has a different `margin` on each of its sides.
 
 CSS 允許你使用 `margin-top`、`margin-right`、`margin-bottom`、`margin-left` 屬性來設置四個不同方向的 `margin` 值。
 

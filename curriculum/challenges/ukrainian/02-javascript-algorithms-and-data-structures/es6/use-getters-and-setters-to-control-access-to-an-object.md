@@ -8,7 +8,7 @@ dashedName: use-getters-and-setters-to-control-access-to-an-object
 
 # --description--
 
-Ви можете отримати значення з об’єкта та встановити значення властивості всередині об’єкта.
+You can obtain values from an object and set the value of a property within an object.
 
 Ці дії називають <dfn>гетерами</dfn> й <dfn>сетерами</dfn>.
 

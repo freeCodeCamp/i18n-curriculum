@@ -14,7 +14,7 @@ dashedName: core-learning-algorithms-classification
 
 ## --text--
 
-O que é classificação?
+What is classification?
 
 ## --answers--
 

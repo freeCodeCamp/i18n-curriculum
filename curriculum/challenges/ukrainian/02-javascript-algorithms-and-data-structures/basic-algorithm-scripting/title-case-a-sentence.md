@@ -8,7 +8,7 @@ dashedName: title-case-a-sentence
 
 # --description--
 
-Поверніть заданий рядок, де кожне слово починається з великої літери. Переконайтеся, що інші літери написані в нижньому регістрі.
+Return the provided string with the first letter of each word capitalized. Make sure the rest of the word is in lower case.
 
 Сполучні слова, як-от `the` та `of`, також потрібно писати з великої літери.
 

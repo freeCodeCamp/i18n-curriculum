@@ -1,6 +1,6 @@
 ---
 id: 661bddbdbbc09e2b8fac0801
-title: Task 73
+title: Завдання 73
 challengeType: 22
 dashedName: task-73
 ---

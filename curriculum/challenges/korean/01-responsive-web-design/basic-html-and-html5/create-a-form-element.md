@@ -8,7 +8,7 @@ dashedName: create-a-form-element
 
 # --description--
 
-순수 HTML만 이용하여 서버에 정보를 보내는 웹 폼(form)을 만들 수 있습니다. `form` 요소에 `action` 속성을 특정하면 이 작업을 할 수 있습니다.
+You can build web forms that actually submit data to a server using nothing more than pure HTML. You can do this by specifying an `action` attribute on your `form` element.
 
 예시:
 

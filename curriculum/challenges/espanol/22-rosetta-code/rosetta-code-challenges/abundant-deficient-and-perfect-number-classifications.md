@@ -12,11 +12,11 @@ These define three classifications of positive integers based on their proper di
 
 Sea $P(n)$ la suma de los divisores apropiados de `n` donde los divisores apropiados son todos enteros positivos `n` distintos de `n` en sí mismo.
 
-Si `P(n) < n` entonces `n` se clasifica como `deficient`
+If `P(n) < n` then `n` is classed as `deficient`
 
 Si `P(n) === n` entonces `n` se clasifica como `perfect`
 
-Si `P(n) > n` entonces `n` se clasifica como `abundant`
+If `P(n) > n` then `n` is classed as `abundant`
 
 **Ejemplo**: `6` tiene los divisores apropiados `1`, `2`, y `3`. `1 + 2 + 3 = 6`, así que `6` está clasificado como un número perfecto.
 

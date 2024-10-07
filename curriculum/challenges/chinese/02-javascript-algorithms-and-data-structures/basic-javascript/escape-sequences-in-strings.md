@@ -9,9 +9,9 @@ dashedName: escape-sequences-in-strings
 
 # --description--
 
-引号不是字符串中唯一可以被转义（<dfn>escaped</dfn>）的字符。 转义字符允许你使用可能无法在字符串中使用的字符。
+Quotes are not the only characters that can be <dfn>escaped</dfn> inside a string. Escape sequences allow you to use characters you may not otherwise be able to use in a string.
 
-<table><thead><tr><th>代码</th><th>输出</th></tr></thead><tbody><tr><td><code>\'</code></td><td>单引号</td></tr><tr><td><code>\"</code></td><td>双引号</td></tr><tr><td><code>\\</code></td><td>反斜杠</td></tr><tr><td><code>\n</code></td><td>换行符</td></tr><tr><td><code>\t</code></td><td>制表符</td></tr><tr><td><code>\r</code></td><td>回车</td></tr><tr><td><code>\b</code></td><td>退格符</td></tr><tr><td><code>\f</code></td><td>换页符</td></tr></tbody></table>
+<table><thead><tr><th>Code</th><th>输出</th></tr></thead><tbody><tr><td><code>\'</code></td><td>single quote</td></tr><tr><td><code>\"</code></td><td>双引号</td></tr><tr><td><code>\\</code></td><td>反斜杠</td></tr><tr><td><code>\n</code></td><td>换行符</td></tr><tr><td><code>\t</code></td><td>制表符</td></tr><tr><td><code>\r</code></td><td>回车</td></tr><tr><td><code>\b</code></td><td>退格符</td></tr><tr><td><code>\f</code></td><td>换页符</td></tr></tbody></table>
 
 *请注意，反斜线本身必须被转义，才能显示为反斜线。*
 
@@ -21,7 +21,7 @@ dashedName: escape-sequences-in-strings
 
 <pre>
 FirstLine
-    \SecondLine
+    \SecondLine
 ThirdLine
 </pre>
 

@@ -8,7 +8,7 @@ dashedName: catch-off-by-one-errors-when-using-indexing
 
 # --description--
 
-當試圖訪問字符串或數組的特定索引（分割或訪問一個片段）或循環索引時，有時會出現 <dfn>Off by one errors</dfn> 錯誤（有時稱爲 OBOE）。 JavaScript 索引從 0 開始，而不是 1，這意味着最後一個索引總會比字符串或數組的長度少 1。 如果嘗試訪問等於長度的索引，程序可能會拋出“索引超出範圍”引用錯誤或打印出 `undefined`。
+<dfn>Off by one errors</dfn> (sometimes called OBOE) crop up when you're trying to target a specific index of a string or array (to slice or access a segment), or when looping over the indices of them. JavaScript indexing starts at zero, not one, which means the last index is always one less than the length of the item. If you try to access an index equal to the length, the program may throw an "index out of range" reference error or print `undefined`.
 
 當使用將索引範圍作爲參數的字符串或數組方法時，閱讀相關的文檔並瞭解參數中的索引的包含性（即是否考慮進返回值中）很重要。 以下是一些錯誤的示例：
 

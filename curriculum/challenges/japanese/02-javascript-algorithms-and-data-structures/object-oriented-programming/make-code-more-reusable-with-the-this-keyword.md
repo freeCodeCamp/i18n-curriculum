@@ -8,7 +8,7 @@ dashedName: make-code-more-reusable-with-the-this-keyword
 
 # --description--
 
-前回のチャレンジでは、`duck` オブジェクトにメソッドを導入しました。 `duck.name` というドット表記を使用して、return ステートメントの中で `name` プロパティの値にアクセスしました。
+The last challenge introduced a method to the `duck` object. It used `duck.name` dot notation to access the value for the `name` property within the return statement:
 
 ```js
 sayName: function() {return "The name of this duck is " + duck.name + ".";}

@@ -13,7 +13,7 @@ dashedName: responsively-style-checkboxes
 
 # --description--
 
-Bootstrap の `col-xs-*` クラスはすべての `form` 要素に適用できるので、チェックボックスにも使用できます。 この方法では、画面解像度の幅に関係なく、チェックボックスがページ全体に等間隔で表示されます。
+Since Bootstrap's `col-xs-*` classes are applicable to all `form` elements, you can use them on your checkboxes too! This way, the checkboxes will be evenly spread out across the page, regardless of how wide the screen resolution is.
 
 # --instructions--
 

@@ -9,7 +9,7 @@ dashedName: count-backwards-with-a-for-loop
 
 # --description--
 
-Цикл for може здійснювати зворотний рахунок, якщо ми визначимо правильні умови.
+A for loop can also count backwards, so long as we can define the right conditions.
 
 Для того, щоб значення зменшувалось на два при кожній ітерації, потрібно змінити ініціалізацію, умову та кінцевий вираз.
 

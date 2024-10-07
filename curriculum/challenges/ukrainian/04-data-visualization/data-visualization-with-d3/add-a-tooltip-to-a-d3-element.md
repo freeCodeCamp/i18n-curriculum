@@ -8,7 +8,7 @@ dashedName: add-a-tooltip-to-a-d3-element
 
 # --description--
 
-Спливаюча підказка показує більше інформації про елемент на сторінці, якщо користувач наведе на нього мишкою. Існує декілька способів додати підказку до візуалізації. Це завдання використовує елемент `title` від SVG.
+A tooltip shows more information about an item on a page when the user hovers over that item. There are several ways to add a tooltip to a visualization. This challenge uses the SVG `title` element.
 
 `title` працює разом з методом `text()`, щоб додати дані до стовпчиків динамічно.
 

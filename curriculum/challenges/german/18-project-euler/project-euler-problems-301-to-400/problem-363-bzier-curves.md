@@ -8,7 +8,7 @@ dashedName: problem-363-bzier-curves
 
 # --description--
 
-A cubic Bézier curve is defined by four points: $P_0$, $P_1$, $P_2$ and $P_3$.
+Eine kubische Bézier-Kurve ist durch vier Punkte definiert: $P_0$, $P_1$, $P_2$ und $P_3$.
 
 Die Kurve ist wie folgt aufgebaut:
 
@@ -30,7 +30,7 @@ Um wie viele Prozent unterscheidet sich die Länge der Kurve von der Länge des 
 
 # --hints--
 
-`bezierCurves()` should return `0.0000372091`.
+`bezierCurves()` sollte `0.0000372091` zurückgeben.
 
 ```js
 assert.strictEqual(bezierCurves(), 0.0000372091);

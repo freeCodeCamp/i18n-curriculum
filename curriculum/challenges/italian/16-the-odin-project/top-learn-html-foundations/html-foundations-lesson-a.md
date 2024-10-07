@@ -8,13 +8,13 @@ dashedName: html-foundations-lesson-a
 
 # --description--
 
-Almost all elements on an HTML page are just pieces of content wrapped in opening and closing HTML tags.
+Quasi tutti gli elementi di una pagina HTML sono solo porzioni di contenuto racchiuse tra tag HTML di apertura e chiusura.
 
-Opening tags tell the browser this is the start of an HTML element. They are comprised of a keyword enclosed in angle brackets `<>`. For example, an opening paragraph tag looks like this: `<p>`.
+I tag di apertura comunicano al browser l'inizio di un elemento HTML. Sono costituiti da una parola chiave racchiusa tra parentesi angolate `<>`. Ad esempio, il tag di apertura di un paragrafo ha questo aspetto: `<p>`.
 
-Closing tags tell the browser where an element ends. They are almost the same as opening tags; the only difference is that they have a forward slash before the keyword. For example, a closing paragraph tag looks like this: `</p>`.
+I tag di chiusura comunicano al browser dove finisce un elemento. Sono molto simili ai tag di apertura; l'unica differenza è che hanno una barra obliqua prima della parola chiave. Ad esempio, il tag di chiusura di un paragrafo ha questo aspetto: `</p>`.
 
-A full paragraph element looks like this:
+Un elemento paragrafo completo ha questo aspetto:
 
 <img src="https://cdn.freecodecamp.org/curriculum/odin-project/html-foundations/html-foundations-01.png" alt='An opening p tag, followed by the content string "some text content", followed by a closing p tag.' />
 

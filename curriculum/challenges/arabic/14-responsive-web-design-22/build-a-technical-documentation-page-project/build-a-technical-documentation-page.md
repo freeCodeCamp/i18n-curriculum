@@ -10,9 +10,9 @@ dashedName: build-a-technical-documentation-page
 
 **Objective:** Build an app that is functionally similar to <a href="https://technical-documentation-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://technical-documentation-page.freecodecamp.rocks</a>. **Do not copy this demo project**.
 
-**المتطلبات:**
+**المطلبيات:**
 
-1. يمكنك مشاهدة عنصر `main` مع `id="main-doc"`، الذي يحتوي على المحتوى الرئيسي للصفحة (الوثائق التقنية)
+1. You can see a `main` element with a corresponding `id="main-doc"`, which contains the page's main content (technical documentation)
 1. ضمن عنصر `#main-doc` ، يمكنك رؤية عدة عناصر `section`، كل منها مع class بقيمة `main-section`. وينبغي أن يكون هناك خمسة على الأقل
 1. العنصر الأول في كل `.main-section` يجب أن يكون عنصر `header`، والذي يحتوي على نص يصف موضوع ذلك القسم.
 1. كل عنصر من عناصر `section` مع class بقيمة `main-section` يجب أن يكون لديه `id` يتوافق مع نص كل `header` موجود داخله. يجب استبدال أي مسافات بتسطير سفلي (underscore) (على سبيل المثال القسم الذي يحتوي على header "JavaScript and Java" يجب أن يكون لديه `id="JavaScript_and_Java"`)
@@ -28,9 +28,9 @@ dashedName: build-a-technical-documentation-page
 1. على الأجهزة العادية الحجم (الحواسيب المحمولة، الحواسيب المكتبية)، يجب أن يظهر العنصر `id="navbar"` على الجانب الأيسر من الشاشة ويجب أن يكون دائماً مرئيًا للمستخدم
 1. الوثائق التقنية الخاصة بك يجب أن تستخدم media query واحد على الأقل
 
-أكمل المطلبيات و قم باجتياز جميع الاختبارات أدناه لإكمال هذا المشروع. أعطيها أسلوبك الشخصي الخاص. برمجة سعيدة!
+أكمل المتطلبات و قم باجتياز جميع الاختبارات أدناه لإكمال هذا المشروع. أعطيها أسلوبك الشخصي الخاص. برمجة سعيدة!
 
-**ملاحظة:** تأكد من إضافة `<link rel="stylesheet" href="styles.css">` في HTML الخاص بك لربط ورقة الأنماط الخاصة بك وتطبيق CSS
+**ملاحظة:** تيقن من إضافة `<link rel="stylesheet" href="styles.css">` في HTML الخاص بك لربط ورقة الأسلوب الخاصة بك وتطبيق CSS
 
 # --hints--
 

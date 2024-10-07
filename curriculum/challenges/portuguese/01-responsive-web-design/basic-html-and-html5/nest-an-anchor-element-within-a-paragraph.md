@@ -8,7 +8,7 @@ dashedName: nest-an-anchor-element-within-a-paragraph
 
 # --description--
 
-Você pode incluir links dentro de outros elementos de texto.
+You can nest links within other text elements.
 
 ```html
 <p>
@@ -42,7 +42,7 @@ O texto, `link to www.freecodecamp.org`, dentro do elemento `a`, é chamado de <
 
 O resultado final do exemplo ficará assim:
 
-Aqui temos o <a href="https://www.freecodecamp.org" target="_blank">link para www.freecodecamp.org</a> para você seguir.
+Here's a <a href="https://www.freecodecamp.org" target="_blank">link to www.freecodecamp.org</a> for you to follow.
 
 # --instructions--
 

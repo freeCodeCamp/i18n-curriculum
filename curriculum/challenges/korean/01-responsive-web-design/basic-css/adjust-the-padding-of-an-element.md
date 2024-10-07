@@ -9,7 +9,7 @@ dashedName: adjust-the-padding-of-an-element
 
 # --description--
 
-잠시 Cat Photo App을 내려놓고 HTML 스타일링에 대해 더 알아보겠습니다.
+Now let's put our Cat Photo App away for a little while and learn more about styling HTML.
 
 이미 눈치 채셨을 수도 있지만, 모든 HTML 요소는 본질적으로 작은 직사각형입니다.
 

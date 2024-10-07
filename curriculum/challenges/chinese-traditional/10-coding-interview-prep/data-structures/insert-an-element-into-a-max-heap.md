@@ -1,6 +1,6 @@
 ---
 id: 587d825a367417b2b2512c8a
-title: Insert an Element into a Max Heap
+title: 將元素插入最大堆
 challengeType: 1
 forumTopicId: 301703
 dashedName: insert-an-element-into-a-max-heap
@@ -10,45 +10,45 @@ dashedName: insert-an-element-into-a-max-heap
 
 Now we will move on to another tree data structure, the binary heap. A binary heap is a partially ordered binary tree which satisfies the heap property. The heap property specifies a relationship between parent and child nodes. You may have a max heap, in which all parent nodes are greater than or equal to their child nodes, or a min heap, in which the reverse is true. Binary heaps are also complete binary trees. This means that all levels of the tree are fully filled and if the last level is partially filled it is filled from left to right.
 
-While binary heaps may be implemented as tree structures with nodes that contain left and right references, the partial ordering according to the heap property allows us to represent the heap with an array. The parent-children relationship is what we're interested in and with simple arithmetic we can compute the children of any parent and the parent of any child node.
+雖然二叉堆可以實現爲節點包含左引用和右引用的樹結構，但根據堆屬性的偏序允許我們用數組表示堆。 父子關係是我們感興趣的，通過簡單的算術，我們可以計算任何父節點的子節點和任何子節點的父節點。
 
-For instance, consider this array representation of a binary min heap:
+例如，考慮二進制最小堆的這個數組表示：
 
 ```js
 [ 6, 22, 30, 37, 63, 48, 42, 76 ]
 ```
 
-The root node is the first element, `6`. Its children are `22` and `30`. If we look at the relationship between the array indices of these values, for index `i` the children are `2 * i + 1` and `2 * i + 2`. Similarly, the element at index `0` is the parent of these two children at indices `1` and `2`. More generally, we can find the parent of a node at any index with the following: `Math.floor((i - 1) / 2)`. These patterns will hold true as the binary tree grows to any size. Finally, we can make a slight adjustment to make this arithmetic even easier by skipping the first element in the array. Doing this creates the following relationship for any element at a given index `i`:
+根節點是第一個元素，`6`。 它的孩子是 `22` 和 `30`。 如果我們查看這些值的數組索引之間的關係，對於索引 `i` 的孩子是 `2 * i + 1` 和 `2 * i + 2`。 類似地，索引 `0` 處的元素是索引 `1` 和 `2` 處的這兩個子元素的父元素。 更爲普遍地說，我們可以通過以下方法找到任何索引處的節點的父節點：`Math.floor((i - 1) / 2)`。 當二叉樹增長到任何大小時，這些模式將保持不變。 最後，我們可以稍作調整，跳過數組中的第一個元素，使這個算術更加簡單。 這樣做會爲給定索引 `i` 處的任何元素創建以下關係：
 
-Example array representation:
+示例數組表示：
 
 ```js
 [ null, 6, 22, 30, 37, 63, 48, 42, 76 ]
 ```
 
-An element's left child: `i * 2`
+一個元素的左孩子：`i * 2`
 
-An element's right child: `i * 2 + 1`
+一個元素的右孩子：`i * 2 + 1`
 
-An element's parent: `Math.floor(i / 2)`
+一個元素的父元素：`Math.floor(i / 2)`
 
-Once you wrap your head around the math, using an array representation is very useful because node locations can be quickly determined with this arithmetic and memory usage is diminished because you don't need to maintain references to child nodes.
+一旦你理解了數學，使用數組表示法是非常有用的，因爲節點的位置可以通過這種算術快速確定，而且內存的使用也減少了，因爲你不需要維護對子節點的引用。
 
 # --instructions--
 
-Instructions: Here we will create a max heap. Start by just creating an `insert` method which adds elements to our heap. During insertion, it is important to always maintain the heap property. For a max heap this means the root element should always have the greatest value in the tree and all parent nodes should be greater than their children. For an array implementation of a heap, this is typically accomplished in three steps:
+說明：這裏我們將創建一個最大堆。 首先創建一個 `insert` 方法，該方法將元素添加到我們的堆中。 在插入過程中，始終保持堆屬性很重要。 對於最大堆，這意味着根元素應始終具有樹中的最大值，並且所有父節點都應大於其子節點。 對於堆的數組實現，這通常分三個步驟完成：
 
 <ol>
   <li>Add the new element to the end of the array.</li>
-  <li>If the element is larger than its parent, switch them.</li>
-  <li>Continue switching until the new element is either smaller than its parent or you reach the root of the tree.</li>
+  <li>如果元素大於其父元素，則交換它們。</li>
+  <li>繼續交換，直到新元素小於其父元素或到達樹的根部。</li>
 </ol>
 
-Finally, add a `print` method which returns an array of all the items that have been added to the heap.
+最後，添加一個 `print` 方法，該方法返回已添加到堆中的所有項目的數組。
 
 # --hints--
 
-The `MaxHeap` data structure should exist.
+`MaxHeap` 數據結構應該存在。
 
 ```js
 assert(
@@ -62,7 +62,7 @@ assert(
 );
 ```
 
-`MaxHeap` should have a method called `insert`.
+`MaxHeap` 應該有一個名爲`insert` 的方法。
 
 ```js
 assert(
@@ -78,7 +78,7 @@ assert(
 );
 ```
 
-`MaxHeap` should have a method called `print`.
+MaxHeap 應該有一個名爲print  的方法。
 
 ```js
 assert(
@@ -94,7 +94,7 @@ assert(
 );
 ```
 
-The `insert` method should add elements according to the max heap property.
+insert  方法應該根據 maxheap 屬性添加元素。
 
 ```js
 assert(

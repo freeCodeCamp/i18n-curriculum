@@ -9,7 +9,7 @@ dashedName: use-grid-area-without-creating-an-areas-template
 
 # --description--
 
-La proprietà `grid-area` che hai appreso nell'ultima sfida può essere utilizzata in un altro modo. Se la griglia non ha un modello di aree a cui fare riferimento, è possibile creare un'area per posizionare un oggetto al volo in questo modo:
+The `grid-area` property you learned in the last challenge can be used in another way. If your grid doesn't have an areas template to reference, you can create an area on the fly for an item to be placed like this:
 
 ```css
 item1 { grid-area: 1/1/2/4; }

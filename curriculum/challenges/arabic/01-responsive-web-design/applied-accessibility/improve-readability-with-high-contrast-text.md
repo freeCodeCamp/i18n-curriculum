@@ -1,6 +1,6 @@
 ---
 id: 587d778e367417b2b2512aab
-title: Improve Readability with High Contrast Text
+title: تحسين القدرة على القراءة مع نص شديد التباين
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cKb3nCq'
 forumTopicId: 301017
@@ -11,15 +11,15 @@ dashedName: improve-readability-with-high-contrast-text
 
 Low contrast between the foreground and background colors can make text difficult to read. Sufficient contrast improves your content's readability, but what exactly does "sufficient" mean?
 
-The Web Content Accessibility Guidelines (WCAG) recommend at least a 4.5 to 1 contrast ratio for normal text. The ratio is calculated by comparing the relative luminance values of two colors. This ranges from 1:1 for the same color, or no contrast, to 21:1 for white against black, the most substantial contrast. There are many contrast checking tools available online that calculate this ratio for you.
+توصي المبادئ التوجيهية للوصول إلى محتوى الويب (WCAG) بنسبة تناقض قدرها 4.5 إلى 1 على الأقل بالنسبة للنص العادي. وتحسب النسبة بمقارنة قيم المساحة النسبية للونين. ويتراوح هذا بين 1:1 لنفس اللون، أو بدون تناقض، إلى 21:1 للأبيض ضد السود، وهو أكثر التباين أهمية. هناك العديد من أدوات التحقق المتباينة المتاحة عبر الإنترنت والتي تقوم بحساب هذه النسبة لك.
 
 # --instructions--
 
-اختيار Camper Cat للنص الرمادي الخفيف على خلفية بيضاء لمشاركته الأخيرة يحتوي على 1.5:1 نسبة التباين، مما يجعل من الصعب قراءتها. Change the `color` of the text from the current gray (`#D3D3D3`) to a darker gray (`#636363`) to improve the contrast ratio to 6:1.
+اختيار Camper Cat للنص الرمادي الخفيف على خلفية بيضاء لمشاركته الأخيرة يحتوي على 1.5:1 نسبة التباين، مما يجعل من الصعب قراءتها. تغيير `color` النص من الرمادي الحالي (`#D3D3D3`) إلى رمادي داكن (`#636363`) لتحسين نسبة التباين إلى 6:1.
 
 # --hints--
 
-Your code should change the text `color` for the `body` to the darker gray.
+يجب أن يغير الكود الخاص بك لون نص `color` لل `body` إلى اللون الرمادي الداكن.
 
 ```js
 const body = document.querySelector('body');
@@ -27,7 +27,7 @@ const bodyColor = window.getComputedStyle(body).color;
 assert(bodyColor == 'rgb(99, 99, 99)');
 ```
 
-Your code should not change the `background-color` for the `body`.
+لا ينبغي أن يغير `background-color` `` `body`.
 
 ```js
 const body = document.querySelector('body');

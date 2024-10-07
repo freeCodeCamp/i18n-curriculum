@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d4036185
-title: Use && for a More Concise Conditional
+title: '&&로 더 간결한 조건문 사용하기'
 challengeType: 6
 forumTopicId: 301413
 dashedName: use--for-a-more-concise-conditional
@@ -14,15 +14,15 @@ The `if/else` statements worked in the last challenge, but there's a more concis
 {condition && <p>markup</p>}
 ```
 
-If the `condition` is `true`, the markup will be returned. If the condition is `false`, the operation will immediately return `false` after evaluating the `condition` and return nothing. You can include these statements directly in your JSX and string multiple conditions together by writing `&&` after each one. This allows you to handle more complex conditional logic in your `render()` method without repeating a lot of code.
+`condition`이 `true`인 경우 markup이 반환될 것입니다. 이 조건이 `false`이면, 즉시 이 연산은 `false`를 반환하는 것을 판단하고 `condition`은 아무것도 반환하지 않게 됩니다. 이 연산을 JSX에 직접 넣어서 각 조건 뒤에 `&&`를 작성하면 조건들을 묶어줄 수 있습니다. 이렇게 하면 많은 코드를 반복하지 않고 `render()` 메서드에서 좀 더 복잡한 조건 로직을 처리할 수 있습니다.
 
 # --instructions--
 
-Solve the previous example again, so the `h1` only renders if `display` is `true`, but use the `&&` logical operator instead of an `if/else` statement.
+이전 도전을 다시 해결해보세요. `h1`은 오직 `display`가 `true`일 때만 렌더링 됩니다. 하지만 이번에는`if/else`문 대신에 `&&` 논리 연산자를 사용해보세요.
 
 # --hints--
 
-`MyComponent` should exist and render.
+`MyComponent`는 존재하며 렌더링되어야 합니다.
 
 ```js
 assert(
@@ -33,7 +33,7 @@ assert(
 );
 ```
 
-When `display` is set to `true`, a `div`, `button`, and `h1` should render.
+`display`이 `true`로 설정되어 있으면 `div`, `button`, `h1`이 렌더링 되어야 합니다.
 
 ```js
 async () => {
@@ -54,7 +54,7 @@ async () => {
 };
 ```
 
-When `display` is set to `false`, only a `div` and `button` should render.
+`display`이 `false`로 설정되어 있으면 `div`와 `button`만 렌더링 되어야 합니다.
 
 ```js
 async () => {
@@ -75,7 +75,7 @@ async () => {
 };
 ```
 
-The render method should use the `&&` logical operator to check the condition of `this.state.display`.
+렌더 메서드는 `&&` 논리 연산자를 사용해서 `this.state.display`의 상태를 확인해야 합니다.
 
 ```js
 (getUserInput) => assert(getUserInput('index').includes('&&'));

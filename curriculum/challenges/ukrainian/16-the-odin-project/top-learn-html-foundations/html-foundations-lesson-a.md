@@ -18,7 +18,7 @@ dashedName: html-foundations-lesson-a
 
 <img src="https://cdn.freecodecamp.org/curriculum/odin-project/html-foundations/html-foundations-01.png" alt='Початковий тег p, після якого йде рядок «some text content», а потім кінцевий тег p.' />
 
-# --assignment--
+# --Завдання--
 
 Перегляньте відео Кевіна Павелла про <a href="https://www.youtube.com/watch?v=LGQuIIv2RVA&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-" target="_blank">вступ до HTML</a>.
 

@@ -1,6 +1,6 @@
 ---
 id: 5900f4e01000cf542c50fff2
-title: 'Problem 371: Licence plates'
+title: 'Problem 371: Nummernschilder'
 challengeType: 1
 forumTopicId: 302033
 dashedName: problem-371-licence-plates
@@ -8,21 +8,21 @@ dashedName: problem-371-licence-plates
 
 # --description--
 
-Oregon licence plates consist of three letters followed by a three digit number (each digit can be from [0...9]).
+Kennzeichen aus Oregon bestehen aus drei Buchstaben, gefolgt von einer dreistelligen Zahl (jede Ziffer kann von [0...9] sein).
 
-While driving to work Seth plays the following game:
+Auf dem Weg zur Arbeit spielt Seth das folgende Spiel:
 
-Whenever the numbers of two licence plates seen on his trip add to 1000 that's a win.
+Wenn die Nummern zweier Nummernschilder, die er auf seiner Reise gesehen hat, zusammen 1000 ergeben, ist das Spiel gewonnen.
 
-E.g. `MIC-012` and `HAN-988` is a win and `RYU-500` and `SET-500` too (as long as he sees them in the same trip).
+Z.B. `MIC-012` sowie `HAN-988` ist ein Sieg und auch `RYU-500` sowie `SET-500` (solange er sie auf derselben Reise sieht).
 
-Find the expected number of plates he needs to see for a win. Give your answer rounded to 8 decimal places behind the decimal point.
+Ermittle die erwartete Anzahl von Nummernschilder, die er für ein gewonnenes Spiel sehen müsste. Gib deine Antwort auf 8 Dezimalstellen hinter dem Komma gerundet an.
 
-**Note:** We assume that each licence plate seen is equally likely to have any three digit number on it.
+**Hinweis:** Wir gehen davon aus, dass jedes gesehene Nummernschild mit gleicher Wahrscheinlichkeit eine beliebige dreistellige Nummer trägt.
 
 # --hints--
 
-`licensePlates()` should return `40.66368097`.
+`licensePlates()` sollte `40.66368097` zurückgeben.
 
 ```js
 assert.strictEqual(licensePlates(), 40.66368097);

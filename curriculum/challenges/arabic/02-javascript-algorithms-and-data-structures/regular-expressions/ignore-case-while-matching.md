@@ -8,7 +8,7 @@ dashedName: ignore-case-while-matching
 
 # --description--
 
-حتى الآن، لقد نظرت إلى regex للتطابق المقاطع النصية حرفيًا. ولكن في بعض الأحيان قد ترغب في مطابقة الاختلافات في الحالة.
+Up until now, you've looked at regexes to do literal matches of strings. But sometimes, you might want to also match case differences.
 
 Case و هي الحالة (او في بعض الاحيان letter case) هي الفرق بين uppercase letters و lowercase letters اي الاحرف الكبيرة و الاحرف الصغيرة. أمثلة للحروف الكبيرة هي `A` و `B` و `C`. أمثلة للحروف الصغيرة هي `a` و `b` و `c`.
 

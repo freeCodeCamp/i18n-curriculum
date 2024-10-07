@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c442eddfaeb5bd1f
-title: Use the Twitch JSON API
+title: Nutze die JSON-API von Twitch
 challengeType: 3
 forumTopicId: 19541
 dashedName: use-the-twitch-json-api
@@ -10,23 +10,23 @@ dashedName: use-the-twitch-json-api
 
 **Objective:** Build an app that is functionally similar to this: <a href="https://codepen.io/freeCodeCamp/full/Myvqmo/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/Myvqmo/</a>.
 
-The Twitch API is a RESTful API that lets developers build creative integrations for the broader Twitch community.
+Die Twitch-API ist eine RESTful-API, mit der Entwickler kreative Integrationen für die breite Twitch-Community erstellen können.
 
-Erfülle die folgenden User Stories und bestehe alle Tests. Verwende Bibliotheken und APIs deiner Wahl. Gib dem Ganzen deinen persönlichen Stil.
+Erfülle die untenstehenden User Stories und bestehe die Tests. Verwende beliebige Bibliotheken oder APIs, die du benötigst. Gib dem Ganzen deinen persönlichen Stil.
 
-**User Story:** I can see whether freeCodeCamp is currently streaming on Twitch.tv.
+**User Story:** Ich kann sehen, ob freeCodeCamp derzeit auf Twitch.tv streamt.
 
-**User Story:** I can click the status output and be sent directly to the freeCodeCamp's Twitch.tv channel.
+**User Story:** Ich kann die Statusangabe anklicken und dadurch direkt zum Twitch.tv-Kanal von freeCodeCamp weitergeleitet werden.
 
-**User Story:** If a Twitch user is currently streaming, I can see additional details about what they are streaming.
+**User Story:** Wenn ein Twitch-Nutzer gerade streamt, kann ich zusätzliche Details darüber sehen, was er gerade streamt.
 
-**Hint:** Here's an array of the Twitch.tv usernames of people who regularly stream: `["ESL_SC2", "OgamingSC2", "cretetion", "freecodecamp", "storbeck", "habathcx", "RobotCaleb", "noobs2ninjas"]`
+**Hinweis:** Hier ein Array mit Nutzernamen von Leuten, die regelmäßig auf Twitch.tv streamen: `["ESL_SC2", "OgamingSC2", "cretetion", "freecodecamp", "storbeck", "habathcx", "RobotCaleb", "noobs2ninjas"]`
 
-**UPDATE:** Due to a change in conditions on API usage, Twitch.tv requires an API key, but we've built a workaround. Use <a href="https://twitch-proxy.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://twitch-proxy.freecodecamp.rocks/</a> instead of Twitch's API base URL and you'll still be able to get account information, without needing to sign up for an API key.
+**UPDATE:** Aufgrund von API-Veränderungen erfordert Twitch.tv nun einen API-Schlüssel – wir haben jedoch hierfür Abhilfe geschaffen. Nutze <a href="https://twitch-proxy.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://twitch-proxy.freecodecamp.rocks/</a> anstelle der Basis-URL der Twitch-API, um auch, ohne dich für einen API-Schlüssel zu registrieren, Accountinformationen abzurufen.
 
-When you are finished, include a link to your project on CodePen and click the "I've completed this challenge" button.
+Wenn du fertig bist, füge einen Link zu deinem Projekt auf CodePen hinzu und klicke auf den „Ich habe diese Herausforderung abgeschlossen“-Button.
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+Du kannst Feedback zu deinem Projekt erhalten, indem du es im <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp-Forum</a> teilst.
 
 # --solutions--
 

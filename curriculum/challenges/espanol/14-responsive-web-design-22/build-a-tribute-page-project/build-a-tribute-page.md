@@ -8,24 +8,24 @@ dashedName: build-a-tribute-page
 
 # --description--
 
-**Objetivo:** construye una app que sea funcionalmente similar a <a href="https://tribute-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://tribute-page.freecodecamp.rocks</a>. **No copies este proyecto de demostración**.
+**Objective:** Build an app that is functionally similar to <a href="https://tribute-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://tribute-page.freecodecamp.rocks</a>. **Do not copy this demo project**.
 
 
 **Instrucciones:**
 
-1. Tu página de homenaje debe tener un elemento `main` con un `id` correspondiente de `main`, que contiene los demás elementos
+1. Your tribute page should have a `main` element with a corresponding `id` of `main`, which contains all other elements
 1. La página debe tener un elemento `id` de `title`, el cual contendrá una cadena de caracteres (p. ej. texto), que describe el tema de la página de homenaje (p. ej. "Dr. Norman Borlaug")
 1. La página debe tener tanto un elemento `figure` o un elemento `div` con un `id` de `img-div`
-1. Dentro del elemento `#img-div` debe tener un elemento `img` con su correspondiente `id="image"`
+1. Dentro del elemento `#img-div` debes ver un elemento `img` con su correspondiente `id="image"`
 1. Dentro del elemento `#img-div`, debes ver un elemento con un `id="img-caption"` correspondiente que contiene contenido textual describiendo la imagen mostrada en `#img-div`
 1. Debe tener su correspondiente elemento `id="tribute-info"`, que contendrá una descripción textual del sujeto de la página tributo
-1. Debes ver un elemento `a` con su `id="tribute-link"` correspondiente, que contiene información adicional sobre el tema de la página de homenaje. CONSEJO: Debes dar al elemento un atributo `target` y establecerlo como `_blank` para que tu enlace se abra en una nueva pestaña
+1. Debes ver un elemento `a` con su `id="tribute-link"` correspondiente, que enlaza con un sitio externo, que contiene información adicional sobre el tema de la página de tributo. CONSEJO: Debes dar al elemento un atributo `target` y establecerlo como `_blank` para que tu enlace se abra en una nueva pestaña
 1. Tú `#image` debe usar las propiedades `max-width` y `height` para redimensionarse en función de la anchura de su elemento padre, sin sobrepasar su tamaño original
 1. Tu elemento `img` debe estar centrado con respecto al elemento que lo contiene
 
-Completa las historias de usuario y pasa todas las pruebas a continuación para completar este proyecto. Dale tu propio estilo. ¡Feliz día programando!
+Completa las intrucciones y pasa los tests de abajo para completar este projecto. Dale tu estilo personal. ¡Que tengas una feliz programación!
 
-**Nota:** Asegúrate de agregar `<link rel="stylesheet" href="styles.css">` en tu HTML para enlazar tu hoja de estilos y aplicar tu CSS
+**Nota:** Asegúrese de adicionar `<link rel="stylesheet" href="styles.css">` en su HTML para enlazar su hoja de estilos y aplicarla a su CSS
 
 # --hints--
 
@@ -83,7 +83,7 @@ const el = document.querySelector('#img-div #image')
 assert(!!el)
 ```
 
-Deberías tener un elemento `figcaption` o `div` con un `id` de `img-caption`.
+Debes tener un elemento `figcaption` o `div` con un `id` de `img-caption`.
 
 ```js
 const el = document.getElementById('img-caption')
@@ -125,7 +125,7 @@ const el = document.getElementById('tribute-link')
 assert(!!el && el.tagName === 'A')
 ```
 
-Tu `#tribute-link` debe tener un atributo `href` con un enlace.
+Tu `#tribute-link` debe tener un atributo `href` y un valor.
 
 ```js
 const el = document.getElementById('tribute-link')
@@ -171,7 +171,7 @@ img?.style.setProperty('display', oldDisplayValue, oldDisplayPriority);
 assert(heightValue === 'auto')
 ```
 
-Tu `#image` debe estar centrado con respecto al elemento que lo contiene.
+Tu `#image` debe estar centrado dentro de su padre.
 
 ```js
 // taken from the testable-projects repo

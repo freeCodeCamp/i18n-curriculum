@@ -1,6 +1,6 @@
 ---
 id: 5cc0c1b32479e176caf3b422
-title: Check if Tree is Binary Search Tree
+title: 檢查樹是否爲二叉搜索樹
 challengeType: 1
 forumTopicId: 301624
 dashedName: check-if-tree-is-binary-search-tree
@@ -10,11 +10,11 @@ dashedName: check-if-tree-is-binary-search-tree
 
 Since you already know what a binary search tree is, this challenge will establish how it is you can tell that a tree is a binary search tree or not.
 
-The main distinction of a binary search tree is that the nodes are ordered in an organized fashion. Nodes have at most 2 child nodes (placed to the right and/or left) based on if the child node's value is greater than or equal to (right) or less than (left) the parent node.
+二叉搜索樹的主要特徵是，節點是以有組織的方式排列的。 節點最多有兩個子節點（放置在該節點的右子節點和/或左子節點），基於該子節點的值是否大於或等於（右子節點）或小於（左子節點）父節點。
 
 # --instructions--
 
-In this challenge, you will create a utility for your tree. Write a JavaScript method `isBinarySearchTree` which takes a tree as an input and returns a boolean value for whether the tree is a binary search tree or not. Use recursion whenever possible.
+在此挑戰中，你將爲樹創建一個實用函數。 編寫一個 JavaScript 方法 `isBinarySearchTree` ，該方法將一棵樹作爲輸入，並返回一個布爾值來表示該樹是否是一個二叉搜索樹 儘可能使用遞歸。
 
 # --hints--
 
@@ -39,7 +39,7 @@ assert(
 );
 ```
 
-`isBinarySearchTree()` should return false when checked with a tree that is not a binary search tree.
+`isBinarySearchTree()` 在對非二叉搜索樹進行檢查時應該返回 false。
 
 ```js
 assert(

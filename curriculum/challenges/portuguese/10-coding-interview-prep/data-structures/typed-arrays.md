@@ -8,7 +8,7 @@ dashedName: typed-arrays
 
 # --description--
 
-Arrays são objetos JavaScript que podem ter muitos elementos diferentes.
+Arrays are JavaScript objects that can hold a lot of different elements.
 
 ```js
 var complexArr = [1, 5, "2", "Word", {"name": "James"}];
@@ -20,7 +20,7 @@ No entanto, no mundo do alto desempenho e de diferentes tipos de elementos, às 
 
 <dfn>Arrays tipados</dfn> são a resposta para este problema. Agora, você pode dizer quanta memória você deseja dar a um array. Abaixo, vemos uma visão geral básica dos diferentes tipos de arrays disponíveis e o tamanho em bytes para cada elemento do array.
 
-<table><tbody><tr><th>Tipo</th><th>Tamanho de cada elemento em bytes</th></tr><tr><td><code>Int8Array</code></td><td>1</td></tr><tr><td><code>Uint8Array</code></td><td>1</td></tr><tr><td><code>Uint8ClampedArray</code></td><td>1</td></tr><tr><td><code>Int16Array</code></td><td>2</td></tr><tr><td><code>Uint16Array</code></td><td>2</td></tr><tr><td><code>Int32Array</code></td><td>4</td></tr><tr><td><code>Uint32Array</code></td><td>4</td></tr><tr><td><code>Float32Array</code></td><td>4</td></tr><tr><td><code>Float64Array</code></td><td>8</td></tr></tbody></table>
+<table><tbody><tr><th>Type</th><th>Each element size in bytes</th></tr><tr><td><code>Int8Array</code></td><td>1</td></tr><tr><td><code>Uint8Array</code></td><td>1</td></tr><tr><td><code>Uint8ClampedArray</code></td><td>1</td></tr><tr><td><code>Int16Array</code></td><td>2</td></tr><tr><td><code>Uint16Array</code></td><td>2</td></tr><tr><td><code>Int32Array</code></td><td>4</td></tr><tr><td><code>Uint32Array</code></td><td>4</td></tr><tr><td><code>Float32Array</code></td><td>4</td></tr><tr><td><code>Float64Array</code></td><td>8</td></tr></tbody></table>
 
 Há duas maneiras de criar este tipo de array. Uma delas é criá-lo diretamente. Abaixo vemos como criar um `Int16Array` de tamanho 3.
 

@@ -8,7 +8,7 @@ dashedName: render-html-elements-to-the-dom
 
 # --description--
 
-到目前爲止，已經瞭解到 JSX 是一種在 JavaScript 中編寫可讀 HTML 的便捷工具。 在 React 中，可以使用它的的渲染 API（ReactDOM）將此 JSX 直接渲染到 HTML DOM。
+So far, you've learned that JSX is a convenient tool to write readable HTML within JavaScript. With React, we can render this JSX directly to the HTML DOM using React's rendering API known as ReactDOM.
 
 ReactDOM 提供了一個簡單的方法來將 React 元素呈現給 DOM，如下所示：`ReactDOM.render(componentToRender, targetNode)`，其中第一個參數是要渲染的 React 元素或組件，第二個參數是組件將要渲染到的 DOM 節點。
 

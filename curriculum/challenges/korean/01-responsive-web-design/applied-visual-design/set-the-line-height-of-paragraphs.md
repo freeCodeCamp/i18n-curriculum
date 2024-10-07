@@ -9,7 +9,7 @@ dashedName: set-the-line-height-of-paragraphs
 
 # --description--
 
-CSS의 `line-height` 속성은 텍스트 블록에서 각 줄 높이를 변경할 때 사용합니다. 이름에서 알 수 있듯이 이 속성은 각 텍스트 줄이 차지하는 수직 공간의 크기를 변경합니다.
+CSS offers the `line-height` property to change the height of each line in a block of text. As the name suggests, it changes the amount of vertical space that each line of text gets.
 
 # --instructions--
 

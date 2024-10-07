@@ -9,13 +9,13 @@ dashedName: use-css-grid-units-to-change-the-size-of-columns-and-rows
 
 # --description--
 
-在 CSS 網格中，可以使用絕對單位（如 `px`）或相對單位（如 `em`）來定義行或列的大小。 下面的單位也可以使用：
+You can use absolute and relative units like `px` and `em` in CSS Grid to define the size of rows and columns. You can use these as well:
 
 `fr`：設置列或行佔剩餘空間的比例，
 
 `auto`：設置列寬或行高自動等於它的內容的寬度或高度，
 
-`%`：將列或行調整爲它的容器寬度或高度的百分比，
+`%`: adjusts the column or row to the percent width of its container.
 
 以下代碼爲右側預覽區中的效果：
 

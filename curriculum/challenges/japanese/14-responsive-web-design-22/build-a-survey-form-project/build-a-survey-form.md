@@ -8,11 +8,11 @@ dashedName: build-a-survey-form
 
 # --description--
 
-**目標:** <a href="https://survey-form.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://survey-form.freecodecamp.rocks</a> と似た機能を持つアプリを作成してください。 **このデモプロジェクトをコピーしないでください**。
+**Objective:** Build an app that is functionally similar to <a href="https://survey-form.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://survey-form.freecodecamp.rocks</a>. **Do not copy this demo project**.
 
 **ユーザーストーリー:**
 
-1. `id` の値が `title` に設定されている `h1` 要素内に、ページタイトルがあります
+1. You should have a page title in an `h1` element with an `id` of `title`
 1. `id` の値が `description` に設定されている `p` 要素内に、簡単な説明が記載されています
 1. `id` の値が `survey-form` に設定されている `form` 要素が 1 つあります
 1. その form 要素の中では、`id` の値が `name`、`type` の値が `text` である `input` 欄への名前の入力が**必須**となっています

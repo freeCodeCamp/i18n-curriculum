@@ -8,7 +8,7 @@ dashedName: add-a-version-to-your-package-json
 
 # --description--
 
-`version` ist eines der erforderlichen Felder in deiner package.json-Datei. Dieses Feld beschreibt die aktuelle Version deines Projekts. Hier ist ein Beispiel:
+A `version` is one of the required fields of your package.json file. This field describes the current version of your project. Hier ist ein Beispiel:
 
 ```json
 "version": "1.2.0",

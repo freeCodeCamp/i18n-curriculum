@@ -11,7 +11,7 @@ dashedName: delete-your-jquery-functions
 
 # --description--
 
-Queste animazioni erano interessanti in un primo momento, ma ora stanno diventando una distrazione.
+These animations were cool at first, but now they're getting kind of distracting.
 
 Elimina tutte e tre queste funzioni jQuery dalla tua `document ready function`, ma lascia intatta la `document ready function` stessa.
 

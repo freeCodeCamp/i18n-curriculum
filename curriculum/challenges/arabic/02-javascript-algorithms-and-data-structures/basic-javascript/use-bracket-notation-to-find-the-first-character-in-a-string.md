@@ -9,7 +9,7 @@ dashedName: use-bracket-notation-to-find-the-first-character-in-a-string
 
 # --description--
 
-<dfn>القوسان المربعان</dfn> هما طريقة للحصول على رمز في ترتيب (index) معين داخل مقطع نصي.
+<dfn>Bracket notation</dfn> is a way to get a character at a specific index within a string.
 
 معظم لغات البرمجة الحديثة، مثل JavaScript، لا تبدأ في العد من 1 كما يفعل البشر. إنهم يبدؤون عند الصفر. يشار إلى هذا بالترتيب من الصفر <dfn>zero-based indexing</dfn>.
 

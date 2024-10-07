@@ -1,29 +1,29 @@
 ---
 id: 63d8401039c73468b059cd41
-title: "Build Three Math Games"
+title: "Drei Mathematik-Spiele erstellen"
 challengeType: 10
 dashedName: build-three-math-games
 ---
 
 # --description--
 
-Du wirst <a href="https://colab.research.google.com/#create=true" target="_blank" rel="noopener noreferrer nofollow">an diesem Projekt mit Google Colaboratory</a> arbeiten.
+Du wirst <a href="https://colab.research.google.com/#create=true" target="_blank" rel="noopener noreferrer nofollow">an diesem Projekt mit Google Colaboratory arbeiten</a>.
 
-Once you complete the project, submit your project link below. If you are submitting a Google Colaboratory link, make sure to turn on link sharing for "anyone with the link."
+Nach Fertigstellung des Projekts kannst du den Link zu deinem Projekt unten übermitteln. Wenn du einen Google Colaboratory-Link übermittelst, stelle sicher, dass du die Linkfreigabe für alle Personen, die den Link verwenden, aktivierst.
 
 # --instructions--
 
-For this challenge, you need to create three math games using Python that do the following:
+Für diese Aufgabe musst du drei Mathematik-Spiele mit Python erstellen, die Folgendes tun:
 
-- Scatter plot game
-  - Randomly generate points on a graph and the player has to input the (x,y) coordinates
-  - For added difficulty, make the graph larger
-- Algebra practice game
-  - Generate one-step and two-step problems with random integer values and the player has to input the answer
-  - Use positive and negative values. For added difficulty, make the numbers larger
-- Projectile game
-  - Display a "wall" with random height and location. Player has to move sliders to adjust a parabolic path to clear the wall
-  - For added difficulty, make a second level where players enter a, b, and c without sliders
+- Streudiagramm-Spiel
+  - Erzeugt zufällige Punkte auf einem Graphen und der Spieler muss die (x,y)-Koodrinaten eingeben
+  - Um die Schwierigkeit zu erhöhen, kannst du den Graphen vergrößern
+- Algebra-Übungsspiel
+  - Erzeugt ein- und zweistufige Aufgaben mit zufälligen Werten für Integer und der Spieler muss die Antwort eingeben
+  - Verwende positive und negative Werte. Um die Schwierigkeit zu erhöhen, kannst du die Zahlen vergrößern
+- Projektilspiel
+  - Zeigt eine "Wand" mit zufälliger Höhe und Position an. Der Spieler muss Schieberegler bewegen, um einen parabelförmigen Pfad einzustellen und die Wand zu überwinden
+  - Um die Schwierigkeit zu erhöhen, kannst du eine zweite Ebene erstellen, in der die Spieler a, b und c ohne Schieberegler eingeben
 
-Once you're done, submit the URL to the public Colab notebook on your Google drive.
+Übermittle die URL an das öffentliche Colab-Notizbuch auf deinem Google-Drive, sobald du fertig bist.
 

@@ -9,7 +9,7 @@ dashedName: create-flexible-layouts-using-auto-fit
 
 # --description--
 
-`auto-fit` 效果幾乎和 `auto-fill` 一樣。 不同點僅在於，當容器的大小大於各網格項之和時，`auto-fill` 會持續地在一端放入空行或空列，這樣就會使所有網格項擠到另一邊；而 `auto-fit` 則不會在一端放入空行或空列，而是會將所有網格項拉伸至合適的大小。
+`auto-fit` works almost identically to `auto-fill`. The only difference is that when the container's size exceeds the size of all the items combined, `auto-fill` keeps inserting empty rows or columns and pushes your items to the side, while `auto-fit` collapses those empty rows or columns and stretches your items to fit the size of the container.
 
 **注意：** 如果容器寬度不足以將所有網格項放在同一行，餘下的網格項將會移至新的一行。
 

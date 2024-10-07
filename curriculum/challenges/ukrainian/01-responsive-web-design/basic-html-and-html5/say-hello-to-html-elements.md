@@ -9,7 +9,7 @@ dashedName: say-hello-to-html-elements
 
 # --description--
 
-Ласкаво просимо в розділ FreeCodeCamp, де ви зможете вивчити HTML-кодування. Ви зможете вивчити процес веб-розробки крок за кроком.
+Welcome to freeCodeCamp's HTML coding challenges. These will walk you through web development step-by-step.
 
 Перше за все ви створите просту веб-сторінку за допомогою HTML. Ви можете редагувати код безпосередньо у редакторі коду, який вбудований у цю веб-сторінку.
 

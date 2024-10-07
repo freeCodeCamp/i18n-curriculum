@@ -8,7 +8,7 @@ dashedName: define-a-redux-action
 
 # --description--
 
-由於 Redux 是一個狀態管理框架，因此更新狀態是其核心任務之一。 在 Redux 中，所有狀態更新都由 dispatch action 觸發， action 只是一個 JavaScript 對象，其中包含有關已發生的 action 事件的信息。 Redux store 接收這些 action 對象，然後更新相應的狀態。 有時，Redux action 也會攜帶一些數據。 例如，在用戶登錄後攜帶用戶名， 雖然數據是可選的，但 action 必須帶有 `type` 屬性，該屬性表示此 action 的類型。
+Since Redux is a state management framework, updating state is one of its core tasks. In Redux, all state updates are triggered by dispatching actions. An action is simply a JavaScript object that contains information about an action event that has occurred. The Redux store receives these action objects, then updates its state accordingly. Sometimes a Redux action also carries some data. For example, the action carries a username after a user logs in. While the data is optional, actions must carry a `type` property that specifies the 'type' of action that occurred.
 
 我們可以將 Redux action 視爲信使，將有關應用程序中發生的事件信息提供給 Redux store， 然後 store 根據發生的 action 進行狀態的更新。
 

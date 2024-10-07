@@ -20,19 +20,19 @@ Complete o módulo <a href="https://learn.microsoft.com/training/modules/create-
 
 ## --text--
 
-Quando um método deve lançar uma exceção?
+When should a method throw an exception?
 
 ## --answers--
 
-Um método deve lançar uma exceção quando o método pode completar o propósito pretendido.
+A method should throw an exception when the method can complete its intended purpose.
 
 ---
 
-Um método deve lançar uma exceção quando o método não pode completar o propósito pretendido.
+A method should throw an exception when the method can't complete its intended purpose.
 
 ---
 
-Um método deve lançar uma exceção quando um tipo de exceção corresponder ao objetivo pretendido pelo método.
+A method should throw an exception when an exception type matches the intended purpose of the method.
 
 ## --video-solution--
 

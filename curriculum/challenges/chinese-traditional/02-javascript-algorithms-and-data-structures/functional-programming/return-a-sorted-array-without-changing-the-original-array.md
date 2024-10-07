@@ -8,7 +8,7 @@ dashedName: return-a-sorted-array-without-changing-the-original-array
 
 # --description--
 
-`sort` 方法會產生改變原始數組中元素順序的副作用。 換句話說，它會改變數組的位置。 避免這種情況的一種方法是先將空數組連接到正在排序的數組上（記住 `slice` 和 `concat` 返回一個新數組），再用`sort`方法。
+A side effect of the `sort` method is that it changes the order of the elements in the original array. In other words, it mutates the array in place. One way to avoid this is to first concatenate an empty array to the one being sorted (remember that `slice` and `concat` return a new array), then run the `sort` method.
 
 # --instructions--
 

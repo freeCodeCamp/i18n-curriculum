@@ -8,7 +8,7 @@ dashedName: combine-two-arrays-using-the-concat-method
 
 # --description--
 
-複数のアイテムを最初から最後まで結合することを<dfn>連結 (Concatenation)</dfn> と呼びます。 JavaScript で提供されている `concat` メソッドは、文字列でも配列でも同じ動作をします。 配列の場合は、一方の配列でメソッドを呼び出してから、もう一方の配列を `concat` の引数として与えると、その配列が最初の配列の末尾に追加されます。 このメソッドは新しい配列を返し、元の配列のいずれもミューテートさせません。 例を示します。
+<dfn>Concatenation</dfn> means to join items end to end. JavaScript offers the `concat` method for both strings and arrays that work in the same way. For arrays, the method is called on one, then another array is provided as the argument to `concat`, which is added to the end of the first array. It returns a new array and does not mutate either of the original arrays. こちらがその例です。
 
 ```js
 [1, 2, 3].concat([4, 5, 6]);

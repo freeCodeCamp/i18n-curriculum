@@ -10,7 +10,7 @@ dashedName: replace-loops-using-recursion
 
 # --description--
 
-La ricorsione è il concetto che una funzione può essere espressa in termini di se stessa. Per aiutarti a comprenderlo, inizia pensando al seguente compito: moltiplica i primi `n` elementi di un array per creare il prodotto di questi elementi. Utilizzando un ciclo `for`, potresti fare così:
+Recursion is the concept that a function can be expressed in terms of itself. To help understand this, start by thinking about the following task: multiply the first `n` elements of an array to create the product of those elements. Using a `for` loop, you could do this:
 
 ```js
   function multiply(arr, n) {

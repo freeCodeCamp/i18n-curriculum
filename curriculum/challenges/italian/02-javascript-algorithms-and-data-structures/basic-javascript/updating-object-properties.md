@@ -9,7 +9,7 @@ dashedName: updating-object-properties
 
 # --description--
 
-Dopo aver creato un oggetto JavaScript, è possibile aggiornare le sue proprietà in qualsiasi momento proprio come quando si aggiorna qualsiasi altra variabile. Per aggiornare le proprietà è possibile utilizzare la notazione a punti o a parentesi.
+After you've created a JavaScript object, you can update its properties at any time just like you would update any other variable. You can use either dot or bracket notation to update.
 
 Ad esempio, diamo un'occhiata a `ourDog`:
 

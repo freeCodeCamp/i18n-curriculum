@@ -8,7 +8,7 @@ dashedName: use-typeof-to-check-the-type-of-a-variable
 
 # --description--
 
-`typeof`를 사용해 변수의 데이터 구조 및 타입을 확인할 수 있습니다. 이는 여러 데이터 타입을 다루는 상황에서 디버깅할 때 유용하게 사용됩니다. 숫자 두 개를 더하려 했는데, 사실 하나는 숫자가 아닌 문자열인 상황을 생각해 봅시다. 이 경우 예상하지 못한 결괏값이 나올 것입니다. 계산이나 함수 호출에 타입 에러가 숨어 있을 수 있습니다. 특히 JavaScript 객체 표기법(JSON) 객체 형태의 외부 데이터에 접근하고 작업할 때 주의하세요.
+You can use `typeof` to check the data structure, or type, of a variable. This is useful in debugging when working with multiple data types. If you think you're adding two numbers, but one is actually a string, the results can be unexpected. Type errors can lurk in calculations or function calls. Be careful especially when you're accessing and working with external data in the form of a JavaScript Object Notation (JSON) object.
 
 다음은 `typeof`를 사용하는 예시입니다.
 

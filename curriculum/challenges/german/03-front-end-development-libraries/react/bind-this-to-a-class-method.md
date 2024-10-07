@@ -8,7 +8,7 @@ dashedName: bind-this-to-a-class-method
 
 # --description--
 
-Neben dem Setzen und Aktualisieren des `state`, kannst du auch Methoden für deine Komponentenklasse definieren. Eine Klassenmethode muss normalerweise das Schlüsselwort `this` verwenden, damit sie auf Eigenschaften der Klasse (wie `state` und `props`) innerhalb des Geltungsbereichs der Methode zugreifen kann. Es gibt ein paar Möglichkeiten, den Methoden deiner Klasse den Zugriff auf `this` zu ermöglichen.
+In addition to setting and updating `state`, you can also define methods for your component class. A class method typically needs to use the `this` keyword so it can access properties on the class (such as `state` and `props`) inside the scope of the method. There are a few ways to allow your class methods to access `this`.
 
 Eine gängige Methode ist, `this` explizit im Konstruktor zu verknüpfen, so dass `this` mit den Methoden der Klasse verbunden wird, wenn die Komponente initialisiert wird. Du hast vielleicht bemerkt, dass die letzte Aufgabe `this.handleClick = this.handleClick.bind(this)` für ihre Methode `handleClick` im Konstruktor verwendet. Wenn du dann eine Funktion wie `this.setState()` innerhalb deiner Klassenmethode aufrufst, bezieht sich `this` auf die Klasse und ist nicht `undefined`.
 

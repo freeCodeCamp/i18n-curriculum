@@ -12,11 +12,11 @@ These define three classifications of positive integers based on their proper di
 
 Sia $P(n)$ la somma dei divisori di `n` dove i divisori sono tutti interi positivi `n` diversi da `n` stesso.
 
-Se `P(n) < n` allora `n` è classificato come `deficient`
+If `P(n) < n` then `n` is classed as `deficient`
 
 Se `P(n) === n` allora `n` è classificato come `perfect`
 
-Se `P(n) > n` allora `n` è classificato come `abundant`
+If `P(n) > n` then `n` is classed as `abundant`
 
 **Esempio**: `6` ha i divisori `1`, `2` e `3`. `1 + 2 + 3 = 6`, quindi `6` è classificato come numero perfetto.
 

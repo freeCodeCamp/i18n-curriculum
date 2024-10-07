@@ -9,7 +9,7 @@ dashedName: use-abbreviated-hex-code
 
 # --description--
 
-Muchas personas se sienten abrumadas por tener más de 16 millones de colores posibles. Además, los códigos hexadecimales resultan difíciles de recordar. Afortunadamente, puedes abreviar gran parte de ellos.
+Many people feel overwhelmed by the possibilities of more than 16 million colors. And it's difficult to remember hex code. Fortunately, you can shorten it.
 
 Por ejemplo, el código hexadecimal `#FF0000` del color rojo puede acortarse a `#F00`. Esta forma abreviada utiliza un dígito para el rojo, un dígito para el verde, y un dígito para el azul.
 
@@ -19,7 +19,7 @@ Esto reduce el número total de colores posibles a alrededor de 4.000. Sin embar
 
 ¡Pruébalo! Intenta usar los códigos hexadecimales abreviados para asignar colores a los elementos como se indica a continuación.
 
-<table><tbody><tr><th>Color</th><th>Hex code abreviado</th></tr><tr><td>Cyan (cian)</td><td><code>#0FF</code></td></tr><tr><td>Green (verde)</td><td><code>#0F0</code></td></tr><tr><td>Red (rojo)</td><td><code>#F00</code></td></tr><tr><td>Fuchsia (fucsia)</td><td><code>#F0F</code></td></tr></tbody></table>
+<table><tbody><tr><th>Color</th><th>Short Hex Code</th></tr><tr><td>Cyan</td><td><code>#0FF</code></td></tr><tr><td>Green</td><td><code>#0F0</code></td></tr><tr><td>Red</td><td><code>#F00</code></td></tr><tr><td>Fuchsia</td><td><code>#F0F</code></td></tr></tbody></table>
 
 # --hints--
 

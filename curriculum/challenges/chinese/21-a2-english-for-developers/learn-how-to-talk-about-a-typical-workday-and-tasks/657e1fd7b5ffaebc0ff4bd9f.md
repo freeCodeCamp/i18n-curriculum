@@ -1,6 +1,6 @@
 ---
 id: 657e1fd7b5ffaebc0ff4bd9f
-title: Task 26
+title: 任务 26
 challengeType: 19
 dashedName: task-26
 ---
@@ -11,7 +11,7 @@ dashedName: task-26
 
 Listen to the audio and answer the question below.
 
-# --questions--
+# 问题
 
 ## --text--
 

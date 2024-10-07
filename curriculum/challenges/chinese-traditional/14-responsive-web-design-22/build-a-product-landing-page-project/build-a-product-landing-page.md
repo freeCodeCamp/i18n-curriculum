@@ -8,11 +8,11 @@ dashedName: build-a-product-landing-page
 
 # --description--
 
-**目標：** 構建一個應用，它在功能上類似於 <a href="https://product-landing-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://product-landing-page.freecodecamp.rocks</a>。 **不要複製這個演示項目**。
+**Objective:** Build an app that is functionally similar to <a href="https://product-landing-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://product-landing-page.freecodecamp.rocks</a>. **Do not copy this demo project**.
 
-**需求：**
+**用戶需求:**
 
-1. 你的產品登錄頁應該有一個 `id="header"` 的 `header` 元素
+1. Your product landing page should have a `header` element with a corresponding `id="header"`
 1. 你可以在 `header` 元素中看到一個 `id="header-img"` 的圖像（比如一個 logo）
 1. 在 `#header` 元素中，你可以看到一個 `id="nav-bar"` 的 `nav` 元素
 1. 在 `nav` 元素中，你可以看到至少三個可點擊的元素，每個元素的 class 爲 `nav-link`
@@ -28,7 +28,7 @@ dashedName: build-a-product-landing-page
 1. 你的產品登陸頁面至少要有一個媒體查詢
 1. 你的產品登陸頁面應該至少使用一次 CSS flexbox
 
-完成需求並通過下面的所有測試來完成這個項目。 賦予它你自己的個人風格。 編程愉快！
+完成需求並通過下面的所有測試來完成這個項目。 使用你自己的個人風格樣式。 編程愉快！
 
 **注意：** 請在你的 HTML 中添加 `<link rel="stylesheet" href="styles.css">` 以鏈接你的樣式表並應用你的 CSS
 
@@ -41,7 +41,7 @@ const el = document.getElementById('header')
 assert(!!el && el.tagName === 'HEADER')
 ```
 
-你應該有一個 `id` 爲 `header-img` 的 `img` 元素。
+你應該有一個id爲header-img的header元素
 
 ```js
 const el = document.getElementById('header-img')
@@ -55,42 +55,42 @@ const els = document.querySelectorAll('#header #header-img')
 assert(els.length > 0)
 ```
 
-你的 `#header-img` 元素應該有一個 `src` 屬性。
+你的 `#header-img` 應該有一個 `src` 屬性。
 
 ```js
 const el = document.getElementById('header-img')
 assert(!!el && !!el.src)
 ```
 
-你的 `#header-img` 元素的 `src` 屬性應該有一個有效的 URL（以 `http` 開頭）。
+你的 `#header-img` 的 `src` 值應該是一個有效的 URL（以 `http` 開頭）。
 
 ```js
 const el = document.getElementById('header-img')
 assert(!!el && /^http/.test(el.src))
 ```
 
-你應該有一個 `id` 爲 `nav-bar` 的 `nav` 元素。
+你應該有一個 `nav` 元素，其 `id` 爲 `nav-bar`。
 
 ```js
 const el = document.getElementById('nav-bar')
 assert(!!el && el.tagName === 'NAV')
 ```
 
-你的 `#nav-bar` 元素應該是 `#header` 元素的子元素。
+你的 `#nav-bar` 應該是 `#header` 的後代。
 
 ```js
 const els = document.querySelectorAll('#header #nav-bar')
 assert(els.length > 0)
 ```
 
-在 `#nav-bar` 內，你應該有至少三個 `.nav-link` 元素。
+`#nav-bar` 中應該至少有 3 個 `.nav-link` 元素。
 
 ```js
 const els = document.querySelectorAll('#nav-bar .nav-link')
 assert(els.length >= 3)
 ```
 
-每個 `.nav-link` 元素應該有一個 `href` 元素。
+每個 `.nav-link` 元素都應該有一個 `href` 屬性。
 
 ```js
 const els = document.querySelectorAll('.nav-link')
@@ -100,7 +100,7 @@ els.forEach(el => {
 assert(els.length > 0)
 ```
 
-每個 `.nav-link` 元素應該鏈接到登陸頁面上的相應元素（有一個 `href` 具有另一個元素的 id 的值，例如： `#footer`）。
+每個 `.nav-link` 元素都應該鏈接到登錄頁上的相應元素（有一個 `href` 值是另一個元素的 id。例如 `#footer`）。
 
 ```js
 const els = document.querySelectorAll('.nav-link')
@@ -111,14 +111,14 @@ els.forEach(el => {
 assert(els.length > 0)
 ```
 
-你應該有一個 `id` 爲 `video` 的 `video` 或 `iframe` 元素。
+你應該有一個 `video` 或 `iframe` 元素，其中 `id` 爲 `video`。
 
 ```js
 const el = document.getElementById('video')
 assert(!!el && (el.tagName === 'VIDEO' || el.tagName === 'IFRAME'))
 ```
 
-你的 `#video` 元素應該有一個 `src` 屬性。
+你的 `#video` 應該有一個 `src` 屬性。
 
 ```js
 let el = document.getElementById('video')
@@ -133,63 +133,63 @@ if (sourceElement) {
 assert(el.hasAttribute('src'));
 ```
 
-你應該有一個 `id` 爲 `form` 的 `form` 元素。
+你應該有一個 `form` 元素，其 `id` 爲 `form`。
 
 ```js
 const el = document.getElementById('form')
 assert(!!el && el.tagName === 'FORM')
 ```
 
-你應該有一個 `id` 爲 `email` 的 `input` 元素。
+你應該有一個 `input` 元素，其中 `id` 爲 `email`。
 
 ```js
 const el = document.getElementById('email')
 assert(!!el && el.tagName === 'INPUT')
 ```
 
-你的 `#email` 元素應該是 `#form` 元素的子元素。
+你的 `#email` 應該是 `#form` 的後代。
 
 ```js
 const els = document.querySelectorAll('#form #email')
 assert(els.length > 0)
 ```
 
-你的 `#email` 元素應該有 `placeholder` 屬性與佔位符文本。
+你的 `#email` 應該具有帶有佔位符文本的 `placeholder` 屬性。
 
 ```js
 const el = document.getElementById('email')
 assert(!!el && !!el.placeholder && el.placeholder.length > 0)
 ```
 
-你的 `#email` 元素應該使用 HTML5 驗證，方法是設置 `type` 爲 `email`。
+你的 `#email` 應該通過將其 `type` 設置爲 `email` 來使用 HTML5 驗證。
 
 ```js
 const el = document.getElementById('email')
 assert(!!el && el.type === 'email')
 ```
 
-你應該有一個 `id` 爲 `submit` 的 `input` 元素。
+你應該有一個 `input` 元素，其中 `id` 爲`submit`。
 
 ```js
 const el = document.getElementById('submit')
 assert(!!el && el.tagName === 'INPUT')
 ```
 
-你的 `#submit` 元素應該是 `#form` 元素的子元素。
+你的 `#submit` 應該是 `#form` 的後代。
 
 ```js
 const els = document.querySelectorAll('#form #submit')
 assert(els.length > 0)
 ```
 
-你的 `#submit` 元素應該具有 `type` 爲 `submit`。
+你的 `#submit` 應該具有 `submit` 的 `type`。
 
 ```js
 const el = document.getElementById('submit')
 assert(!!el && el.type === 'submit')
 ```
 
-你的 `#form` 元素應該有值爲 `https://www.freecodecamp.com/email-submit` 的 `action` 屬性。
+你的 `#form` 應該具有 `action` 屬性爲 `https://www.freecodecamp.com/email-submit`。
 
 ```js
 const el = document.getElementById('form')
@@ -203,7 +203,7 @@ const el = document.getElementById('email')
 assert(!!el && el.name === 'email')
 ```
 
-你的 `#nav-bar` 元素應該始終位於視口的頂部。
+你的 `#nav-bar` 應該始終位於視口的頂部。
 
 ```js
 (async () => {

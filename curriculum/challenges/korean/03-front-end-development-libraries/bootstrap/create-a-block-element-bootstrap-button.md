@@ -8,7 +8,7 @@ dashedName: create-a-block-element-bootstrap-button
 
 # --description--
 
-일반적으로 `btn`클래스와 `btn-default` 클래스가 적용된 `button` 요소는, 버튼 안에 담겨진 텍스트 길이만큼의 너비를 차지합니다. 예를 들어:
+Normally, your `button` elements with the `btn` and `btn-default` classes are only as wide as the text that they contain. For example:
 
 ```html
 <button class="btn btn-default">Submit</button>

@@ -8,7 +8,7 @@ dashedName: change-the-presentation-of-a-bar-chart
 
 # --description--
 
-وأنشأ التحدي السابق مخطط أعمدة (bar chart)، ولكن هناك بعض التغييرات في التنسيق الذي يمكن أن تحسنه:
+The last challenge created a bar chart, but there are a couple of formatting changes that could improve it:
 
 1) إضافة مساحة بين كل عمود لفصله بصرياً، عن طريق إضافة هامش (margin) إلى CSS لفئة `bar`
 

@@ -8,7 +8,7 @@ dashedName: create-complex-multi-dimensional-arrays
 
 # --description--
 
-Чудово! Ви дізналися багато нового про масиви! Це був досить загальний огляд, і є ще багато чого, що потрібно дізнатися про роботу з масивами, багато чого ви побачите в наступних розділах. Але перш ніж перейти до розгляду <dfn>об’єктів</dfn>, давайте ще раз глянемо, яким чином масиви можуть стати дещо складнішими за ті, які ми бачили в попередніх завданнях.
+Awesome! You have just learned a ton about arrays! This has been a fairly high level overview, and there is plenty more to learn about working with arrays, much of which you will see in later sections. But before moving on to looking at <dfn>Objects</dfn>, let's take one more look, and see how arrays can become a bit more complex than what we have seen in previous challenges.
 
 Одна з найпотужніших функцій при розгляді масивів як структур даних полягає в тому, що масиви можуть містити або навіть повністю складатися з інших масивів. У попередніх завданнях ми бачили масиви, які містять масиви, але досить прості. Однак масиви можуть містити нескінченну глибину масивів, які можуть містити інші масиви, кожен зі своїми довільними рівнями глибини і так далі. Таким чином, масив може дуже швидко перетворитися в дуже складну структуру даних, відому як <dfn>багатовимірний</dfn> або вкладений масив. Розглянемо приклад:
 

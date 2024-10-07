@@ -9,7 +9,7 @@ dashedName: count-backwards-with-a-for-loop
 
 # --description--
 
-Um laço for também pode contar pra trás, contanto que possamos definir as condições certas.
+A for loop can also count backwards, so long as we can define the right conditions.
 
 Para decrementar em dois cada iteração, nós precisamos alterar nossa inicialização, condição e expressão final.
 

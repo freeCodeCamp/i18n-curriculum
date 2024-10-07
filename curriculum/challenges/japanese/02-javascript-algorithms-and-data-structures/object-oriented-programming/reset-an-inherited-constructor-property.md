@@ -8,7 +8,7 @@ dashedName: reset-an-inherited-constructor-property
 
 # --description--
 
-オブジェクトが別のオブジェクトから `prototype` を継承するときは、スーパータイプの constructor プロパティも継承します。
+When an object inherits its `prototype` from another object, it also inherits the supertype's constructor property.
 
 例を示します。
 

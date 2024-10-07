@@ -9,7 +9,7 @@ dashedName: use-grid-row-to-control-spacing
 
 # --description--
 
-Por supuesto, puedes hacer que los elementos ocupen múltiples filas así como se puede hacer con las columnas. Puedes definir las líneas horizontales donde quieres que un elemento empiece y termine usando la propiedad `grid-row` sobre un elemento de cuadrícula (grid).
+Of course, you can make items consume multiple rows just like you can with columns. You define the horizontal lines you want an item to start and stop at using the `grid-row` property on a grid item.
 
 # --instructions--
 

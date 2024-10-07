@@ -1,6 +1,6 @@
 ---
 id: 587d7fa9367417b2b2512bd0
-title: Invert SVG Elements
+title: عكس عناصر SVG
 challengeType: 6
 forumTopicId: 301488
 dashedName: invert-svg-elements
@@ -10,71 +10,71 @@ dashedName: invert-svg-elements
 
 You may have noticed the bar chart looked like it's upside-down, or inverted. This is because of how SVG uses (x, y) coordinates.
 
-In SVG, the origin point for the coordinates is in the upper-left corner. An `x` coordinate of 0 places a shape on the left edge of the SVG area. A `y` coordinate of 0 places a shape on the top edge of the SVG area. Higher `x` values push the rectangle to the right. Higher `y` values push the rectangle down.
+في SVG، نقطة المنشأ للإحداثيات هي في الزاوية اليسرى الأعلى. إحداثيات `x` من 0 تضع شكلا على الحافة اليسرى لمنطقة SVG. إحداثيات `y` من 0 تضع شكلا على الحافة العليا لمنطقة SVG. القيم الأعلى من `x` تدفع المستطيل إلى اليمين. القيم الأعلى من `y` تدفع المستطيل إلى الأسفل.
 
-To make the bars right-side-up, you need to change the way the `y` coordinate is calculated. It needs to account for both the height of the bar and the total height of the SVG area.
+لتعديل اتجاه الأعمدة، تحتاج إلى تغيير الطريقة التي يتم بها حساب إحداثيات `y`. وهي بحاجة إلى أن تأخذ في الحسبان ارتفاع العمود والارتفاع الإجمالي لمنطقة SVG.
 
-The height of the SVG area is 100. If you have a data point of 0 in the set, you would want the bar to start at the bottom of the SVG area (not the top). To do this, the `y` coordinate needs a value of 100. If the data point value were 1, you would start with a `y` coordinate of 100 to set the bar at the bottom. Then you need to account for the height of the bar of 1, so the final `y` coordinate would be 99.
+ويصل ارتفاع منطقة SVG إلى 100. إذا كان لديك نقطة بيانات قيمتها 0 في المجموعة. ستريد أن يبدأ العمود في أسفل منطقة SVG (وليس القمة). للقيام بذلك، اعطي إحداثيات `y` قيمة 100. إذا كانت قيمة نقطة البيانات 1، ستبدأ بإحداثيات `y` من 100 لتضع العمود في الأسفل. ثم تحتاج إلى حساب ارتفاع العمود1، لذا فإن قيمة الإحداثيات `y` ستكون 99 في النهاية.
 
-The `y` coordinate that is `y = heightOfSVG - heightOfBar` would place the bars right-side-up.
+الإحداثيات `y` التي هي `y = heightOfSVG - heightOfBar` ستضع الأعمدة إلى الاتجاه الصحيح.
 
 # --instructions--
 
-Change the callback function for the `y` attribute to set the bars right-side-up. Remember that the `height` of the bar is 3 times the data value `d`.
+غير وظيفة إعادة التفعيل لسمة `y` لتعدِّل الأعمدة إلى الاتجاه الصحيح. تذكر أن `height` (طول العمود) هو 3 أضعاف قيمة البيانات `d`.
 
-**Note:** In general, the relationship is `y = h - m * d`, where `m` is the constant that scales the data points.
+**ملاحظة:** بصفة عامة، العَلاقة هي `y = h - m * d`, حيث `m` هو الرَّقَم الثبات الذي يغير مقياس نُقَط البيانات.
 
 # --hints--
 
-The first `rect` should have a `y` value of `64`.
+يجب أن يحتوي أول `rect` على `y` بقيمة `64`.
 
 ```js
 assert($('rect').eq(0).attr('y') == h - dataset[0] * 3);
 ```
 
-The second `rect` should have a `y` value of `7`.
+يجب أن يحتوي ثاني `rect` على `y` بقيمة `7`.
 
 ```js
 assert($('rect').eq(1).attr('y') == h - dataset[1] * 3);
 ```
 
-The third `rect` should have a `y` value of `34`.
+يجب أن يحتوي ثالث `rect` على `y` بقيمة `34`.
 
 ```js
 assert($('rect').eq(2).attr('y') == h - dataset[2] * 3);
 ```
 
-The fourth `rect` should have a `y` value of `49`.
+يجب أن يحتوي رابع `rect` على `y` بقيمة `49`.
 
 ```js
 assert($('rect').eq(3).attr('y') == h - dataset[3] * 3);
 ```
 
-The fifth `rect` should have a `y` value of `25`.
+يجب أن يحتوي خامس `rect` على `y` بقيمة `25`.
 
 ```js
 assert($('rect').eq(4).attr('y') == h - dataset[4] * 3);
 ```
 
-The sixth `rect` should have a `y` value of `46`.
+يجب أن يحتوي سادس `rect` على `y` بقيمة `46`.
 
 ```js
 assert($('rect').eq(5).attr('y') == h - dataset[5] * 3);
 ```
 
-The seventh `rect` should have a `y` value of `13`.
+يجب أن يحتوي سابع `rect` على `y` بقيمة `13`.
 
 ```js
 assert($('rect').eq(6).attr('y') == h - dataset[6] * 3);
 ```
 
-The eighth `rect` should have a `y` value of `58`.
+يجب أن يحتوي ثامن `rect` على `y` بقيمة `58`.
 
 ```js
 assert($('rect').eq(7).attr('y') == h - dataset[7] * 3);
 ```
 
-The ninth `rect` should have a `y` value of `73`.
+يجب أن يحتوي تاسع `rect` على `y` بقيمة `73`.
 
 ```js
 assert($('rect').eq(8).attr('y') == h - dataset[8] * 3);

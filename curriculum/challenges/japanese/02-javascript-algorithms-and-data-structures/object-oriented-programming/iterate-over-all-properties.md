@@ -8,7 +8,7 @@ dashedName: iterate-over-all-properties
 
 # --description--
 
-ここまで、<dfn>独自のプロパティ</dfn>と `prototype` プロパティの 2 種類のプロパティについて説明しました。 独自のプロパティは、オブジェクトインスタンス自体に直接定義されます。 prototype プロパティは `prototype` に定義されます。
+You have now seen two kinds of properties: <dfn>own properties</dfn> and `prototype` properties. Own properties are defined directly on the object instance itself. And prototype properties are defined on the `prototype`.
 
 ```js
 function Bird(name) {

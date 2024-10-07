@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedf08820
-title: Turn an Image into a Link
+title: تحويل صورة إلى رابط
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVMPUv/cRdBnUr'
 forumTopicId: 18327
@@ -11,23 +11,23 @@ dashedName: turn-an-image-into-a-link
 
 You can make elements into links by nesting them within an `a` element.
 
-Nest your image within an `a` element. Here's an example:
+ضع صورتك داخل عنصر `a`. وهذا مثال على ذلك:
 
 ```html
 <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="Three kittens running towards the camera."></a>
 ```
 
-Remember to use `#` as your `a` element's `href` property in order to turn it into a dead link.
+تذكر استخدام `#` كقيمة لخاصية `href` للعنصر `a` لتحويله الى رابط غير فعال.
 
 # --instructions--
 
 ضع عنصر الصورة داخل عنصر `a` (*anchor*) الحالي.
 
-Once you've done this, hover over your image with your cursor. Your cursor's normal pointer should become the link clicking pointer. The photo is now a link.
+بمجرد أن تقوم بذلك، قم بالمرور على الصورة بالمؤشر. مؤشرك العادي يجب أن يصبح مؤشر النقر على رابط. الصورة الآن تحتوي رابط.
 
 # --hints--
 
-The existing `img` element should be nested within an `a` element.
+يجب أن يوضع عنصر <`img` داخل عنصر `a`.
 
 ```js
 assert($('a').children('img').length > 0);
@@ -39,7 +39,7 @@ Your `a` element should be a dead link with an `href` attribute set to `#`.
 assert(new RegExp('#').test($('a').children('img').parent().attr('href')));
 ```
 
-Each of your `a` elements should have a closing tag.
+كل عنصر من عناصر ال `a` يجب أن يحتوي على علامة الإغلاق (closing tag).
 
 ```js
 assert(

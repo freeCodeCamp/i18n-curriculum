@@ -9,7 +9,7 @@ dashedName: manipulate-arrays-with-unshift
 
 # --description--
 
-不僅可以 `shift`（移出）數組中的第一個元素，也可以 `unshift`（移入）一個元素到數組的頭部。
+Not only can you `shift` elements off of the beginning of an array, you can also `unshift` elements to the beginning of an array i.e. add elements in front of the array.
 
 `.unshift()` 函數用起來就像 `.push()` 函數一樣，但不是在數組的末尾添加元素，`unshift()` 在數組的頭部添加元素。
 

@@ -9,7 +9,7 @@ dashedName: avoid-colorblindness-issues-by-using-sufficient-contrast
 
 # --description--
 
-顏色是可視化設計的重要組成部分，但是使用顏色也引入了兩個可訪問性問題。 首先，不能僅僅使用顏色作爲傳達重要信息的唯一方式，因爲屏幕閱讀器無法獲取這些信息。 其次，前景色與背景色需要有足夠的對比度，這樣色盲用戶纔可以區分它們。
+Color is a large part of visual design, but its use introduces two accessibility issues. First, color alone should not be used as the only way to convey important information because screen reader users won't see it. Second, foreground and background colors need sufficient contrast so colorblind users can distinguish them.
 
 在之前的挑戰中，我們用文本備用方案解決了第一個問題。 在上一個挑戰中，我們使用對比度檢測工具解決了第二個問題。 WCAG 建議爲顏色及灰度組合使用 4.5:1 的對比度。
 

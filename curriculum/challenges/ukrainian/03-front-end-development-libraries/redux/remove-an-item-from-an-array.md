@@ -8,7 +8,7 @@ dashedName: remove-an-item-from-an-array
 
 # --description--
 
-Час потренуватися вилучати елементи з масиву. Оператор розширення можна використати і тут. До інших корисних методів JavaScript відносять `slice()` та `concat()`.
+Time to practice removing items from an array. The spread operator can be used here as well. Other useful JavaScript methods include `slice()` and `concat()`.
 
 # --instructions--
 

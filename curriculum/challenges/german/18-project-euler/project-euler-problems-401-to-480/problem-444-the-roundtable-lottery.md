@@ -1,6 +1,6 @@
 ---
 id: 5900f52a1000cf542c51003b
-title: 'Problem 444: The Roundtable Lottery'
+title: 'Problem 444: Die Rundtischlotterie'
 challengeType: 1
 forumTopicId: 302116
 dashedName: problem-444-the-roundtable-lottery
@@ -8,34 +8,34 @@ dashedName: problem-444-the-roundtable-lottery
 
 # --description--
 
-A group of $p$ people decide to sit down at a round table and play a lottery-ticket trading game. Each person starts off with a randomly-assigned, unscratched lottery ticket. Each ticket, when scratched, reveals a whole-pound prize ranging anywhere from £1 to £$p$, with no two tickets alike. The goal of the game is for each person to maximize his ticket winnings upon leaving the game.
+Eine Gruppe von $p$ Personen beschließt, sich an einen runden Tisch zu setzen und ein Lotterielos-Tauschspiel zu spielen. Jede Person beginnt mit einem zufällig zugewiesenen, nicht angekreuzten Lotterielos. Jedes Los, wenn es freigerubbelt wird, bringt einen ganzen Pfundpreis zum Vorschein, der von 1 £ bis £$p$ reicht, wobei kein Los dem anderen gleicht. Ziel des Spiels ist es, dass jeder Spieler beim Verlassen des Spielfelds den maximalen Gewinn auf seinem Spielschein erzielt.
 
-An arbitrary person is chosen to be the first player. Going around the table, each player has only one of two options:
+Eine beliebige Person wird als erster Spieler ausgewählt. Auf dem Tisch hat jeder Spieler nur eine von zwei Möglichkeiten:
 
-1.  The player can scratch his ticket and reveal its worth to everyone at the table.
-2.  The player can trade his unscratched ticket for a previous player's scratched ticket, and then leave the game with that ticket. The previous player then scratches his newly-acquired ticket and reveals its worth to everyone at the table.
+1.  Der Spieler kann seinen Schein freirubbeln und den Wert des Scheins für alle am Tisch sichtbar machen.
+2.  Der Spieler kann sein nicht freigerubbeltes Ticket gegen das freigerubbelte Ticket eines anderen Spielers eintauschen und das Spiel mit diesem Ticket verlassen. Der vorherige Spieler kratzt dann seinen neu erworbenen Schein und zeigt allen am Tisch seinen Wert.
 
-The game ends once all tickets have been scratched. All players still remaining at the table must leave with their currently-held tickets.
+Das Spiel endet, sobald alle Lose freigerubbelt wurden. Alle Spieler, die noch am Tisch sitzen, müssen mit ihren aktuellen Tickets gehen.
 
-Assume that each player uses the optimal strategy for maximizing the expected value of his ticket winnings.
+Nehmen wir an, dass jeder Spieler die optimale Strategie zur Maximierung des Erwartungswerts seines Losgewinns anwendet.
 
-Let $E(p)$ represent the expected number of players left at the table when the game ends in a game consisting of $p$ players (e.g. $E(111) = 5.2912$ when rounded to 5 significant digits).
+Lasse $E(p)$ die erwartete Anzahl von Spielern sein, die am Tisch verbleiben, wenn das Spiel in einem Spiel mit $p$ Spielern endet (z.B. $E(111) = 5.2912$, wenn man auf 5 signifikante Stellen rundet).
 
-Let $S_1(N) = \displaystyle\sum_{p = 1}^N E(p)$.
+Sei $S_1(N) = \displaystyle\sum_{p = 1}^N E(p)$.
 
-Let $S_k(N) = \displaystyle\sum_{p = 1}^N S_{k - 1}(p)$ for $k > 1$.
+Sei $S_k(N) = \displaystyle\sum_{p = 1}^N S_{k - 1}(p)$ for $k > 1$.
 
-Find $S_{20}({10}^{14})$ and write the answer as a string in scientific notation rounded to 10 significant digits. Use a lowercase `e` to separate mantissa and exponent. For example, the answer for $S_3(100)$ would be `5.983679014e5`.
+Finde $S_{20}({10}^{14})$ und schreibe die Antwort als Zeichenfolge in wissenschaftlicher Notation, gerundet auf 10 signifikante Stellen. Verwende ein kleines `e`, um Mantisse und Exponent zu trennen. Zum Beispiel wäre die Antwort für $S_3(100)$ `5.983679014e5`.
 
 # --hints--
 
-`roundtableLottery()` should return a string.
+`roundtableLottery()` sollte einen String zurückgeben.
 
 ```js
 assert(typeof roundtableLottery() === 'string');
 ```
 
-`roundtableLottery()` should return the string `1.200856722e263`.
+`roundtableLottery()` sollte den String `1.200856722e263` zurückgeben.
 
 ```js
 assert.strictEqual(roundtableLottery(), '1.200856722e263');

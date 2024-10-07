@@ -8,9 +8,9 @@ dashedName: create-a-form-element
 
 # --description--
 
-我們可以只通過 HTML 來實現發送數據給服務器的表單， 只需要給 `form` 元素添加 `action` 屬性即可。
+You can build web forms that actually submit data to a server using nothing more than pure HTML. You can do this by specifying an `action` attribute on your `form` element.
 
-例如：
+舉個例子：
 
 ```html
 <form action="url-where-you-want-to-submit-form-data">

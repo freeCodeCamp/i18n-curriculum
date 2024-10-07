@@ -9,7 +9,7 @@ dashedName: use-the-css-transform-scale-property-to-scale-an-element-on-hover
 
 # --description--
 
-Die Eigenschaft `transform` hat eine Vielzahl von Funktionen, mit denen man Elemente z. B. skalieren, verschieben, drehen oder verzerren kann. Wenn Pseudoklassen wie `:hover` verwendet werden, die auf einen bestimmten Zustand eines Elements verweisen, können sie mit der `transform`-Eigenschaft einfach interaktiv gemacht werden.
+The `transform` property has a variety of functions that let you scale, move, rotate, skew, etc., your elements. When used with pseudo-classes such as `:hover` that specify a certain state of an element, the `transform` property can easily add interactivity to your elements.
 
 Hier ist ein Beispiel, um die Absatzelemente auf das 2,1-fache ihrer ursprünglichen Größe zu skalieren, wenn ein Benutzer über sie fährt:
 

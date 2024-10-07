@@ -8,11 +8,11 @@ dashedName: map-the-debris
 
 # --description--
 
-케플러의 세 번째 법칙에 따르면, 두 점 질량이 서로 순환 또는 타원 궤도를 공전하는 경우 궤도 주기 $T$는 다음과 같습니다.
+According to Kepler's Third Law, the orbital period $T$ of two point masses orbiting each other in a circular or elliptic orbit is:
 
 $$ T = 2 \pi \sqrt{\frac{a^{3}}{\mu}} $$
 
-- $a$는 궤도의 반장축입니다.
+- $a$ is the orbit's semi-major axis
 - $μ = GM$은 표준 중력 상수입니다
 - $G$는 중력 상수입니다,
 - $M$는 더 큰 질량체의 질량입니다.

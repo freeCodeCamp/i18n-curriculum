@@ -8,7 +8,7 @@ dashedName: build-a-wikipedia-viewer
 
 # --description--
 
-**Obiettivo:** crea un'app funzionalmente simile a questa: <a href="https://codepen.io/freeCodeCamp/full/wGqEga/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/wGqEga</a>.
+**Objective:** Build an app that is functionally similar to this: <a href="https://codepen.io/freeCodeCamp/full/wGqEga/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/wGqEga/</a>.
 
 Il software MediaWiki potenzia Wikipedia e ti aiuta a raccogliere e organizzare le conoscenze e a renderle disponibili per le persone.
 

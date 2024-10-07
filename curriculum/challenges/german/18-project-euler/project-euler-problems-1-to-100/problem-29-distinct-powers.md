@@ -1,6 +1,6 @@
 ---
 id: 5900f3891000cf542c50fe9c
-title: 'Problem 29: Distinct powers'
+title: 'Problem 29: Ausgeprägte Kräfte'
 challengeType: 1
 forumTopicId: 301941
 dashedName: problem-29-distinct-powers

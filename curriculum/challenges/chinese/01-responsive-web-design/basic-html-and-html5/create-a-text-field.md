@@ -9,7 +9,7 @@ dashedName: create-a-text-field
 
 # --description--
 
-现在让我们来创建一个 Web 表单。
+Now let's create a web form.
 
 `input` 输入框可以让你轻松获得用户的输入。
 

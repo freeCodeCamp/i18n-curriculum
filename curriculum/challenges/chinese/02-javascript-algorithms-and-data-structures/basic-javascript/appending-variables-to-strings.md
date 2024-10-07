@@ -9,9 +9,9 @@ dashedName: appending-variables-to-strings
 
 # --description--
 
-就像我们可以用多行字符串<dfn>字面量</dfn>构建单个字符串一样，我们还可以使用加且赋值（`+=`）运算符将字符串追加到字符串的末尾。
+Just as we can build a string over multiple lines out of string <dfn>literals</dfn>, we can also append variables to a string using the plus equals (`+=`) operator.
 
-示例：
+例如：
 
 ```js
 const anAdjective = "awesome!";

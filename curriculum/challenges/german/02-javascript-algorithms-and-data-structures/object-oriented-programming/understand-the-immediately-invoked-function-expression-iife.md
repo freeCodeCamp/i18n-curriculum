@@ -8,7 +8,7 @@ dashedName: understand-the-immediately-invoked-function-expression-iife
 
 # --description--
 
-Ein gängiges Muster in JavaScript ist es, eine Funktion auszuführen, sobald sie deklariert wird:
+A common pattern in JavaScript is to execute a function as soon as it is declared:
 
 ```js
 (function () {

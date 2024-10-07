@@ -8,44 +8,44 @@ dashedName: metric-imperial-converter
 
 # --description--
 
-Crea una aplicación full stack de JavaScript que sea funcionalmente similar a esta: <a href="https://metric-imperial-converter.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://metric-imperial-converter.freecodecamp.rocks/</a>. Trabajar en este proyecto implicará escribir tu código utilizando uno de los siguientes métodos:
+Build a full stack JavaScript app that is functionally similar to this: <a href="https://metric-imperial-converter.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://metric-imperial-converter.freecodecamp.rocks/</a>. Working on this project will involve you writing your code using one of the following methods:
 
-- Clone este repositorio de <a href="https://github.com/freeCodeCamp/boilerplate-project-metricimpconverter/" target="_blank" rel="noopener noreferrer nofollow"> GitHub</a> y complete estos desafíos localmente.
-- Utiliza <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-metricimpconverter/" target="_blank" rel="noopener noreferrer nofollow">nuestro proyecto inicial de Gitpod</a> para completar tu proyecto.
-- Usa un constructor de sitios de tu elección para completar el proyecto. Asegúrate de incorporar todos los archivos de nuestro repositorio de GitHub.
+- Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-metricimpconverter/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
+- Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-metricimpconverter/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete your project.
+- Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
 
 **Nota:** Las pruebas de este proyecto no funcionan cuando se usa `glitch.com`.
 
 # --instructions--
 
-- Completa la lógica de conversión necesaria en `/controllers/convertHandler.js`
+- Complete the necessary conversion logic in `/controllers/convertHandler.js`
 - Completa las rutas necesarias en `/routes/api.js`
 - Copie el archivo `sample.env` a `.env` y establezca las variables apropiadamente
 - Para ejecutar las pruebas automáticamente, añade `NODE_ENV=test` en tu archivo `.env`
-- Para ejecutar las pruebas en la consola, use el comando `npm run test`.
+- To run the tests in the console, use the command `npm run test`.
 
 Escribe las siguientes pruebas en `tests/1_unit-tests.js`:
 
-- `convertHandler` debe leer correctamente una entrada de número entero.
-- `convertHandler` debe leer correctamente una entrada de número decimal.
-- `convertHandler` debe leer correctamente una entrada fraccional.
-- `convertHandler` debe leer correctamente una entrada fraccional con un decimal.
-- `convertHandler` debe devolver correctamente un error en una fracción doble (i.e. `3/2/3`).
-- `convertHandler` debe predeterminar correctamente una entrada numérica de `1` cuando no se proporciona ninguna entrada numérica.
-- `convertHandler` debe leer correctamente cada unidad de las entradas válidas.
-- `convertHandler` debe devolver correctamente un error por cada unidad de entrada no válida.
-- `convertHandler` debe devolver la unidad de retorno correcta para cada unidad de entrada válida.
-- `convertHandler` debe devolver correctamente la unidad de cadena deletreada para cada unidad de entrada válida.
+- `convertHandler` should correctly read a whole number input.
+- `convertHandler` debería leer correctamente una entrada de número decimal.
+- `convertHandler` debería leer correctamente una entrada fraccional.
+- `convertHandler` debería leer correctamente una entrada fraccional con un decimal.
+- `convertHandler` debería devolver correctamente un error en una fracción doble (i.e. `3/2/3`).
+- `convertHandler` debería predeterminar correctamente una entrada numérica de `1` cuando no se proporciona ninguna entrada numérica.
+- `convertHandler` debería leer correctamente cada unidad de las entradas válidas.
+- `convertHandler` debería devolver correctamente un error por cada unidad de entrada no válida.
+- `convertHandler` debería devolver la unidad de retorno correcta para cada unidad de entrada válida.
+- `convertHandler` debería devolver correctamente la unidad de cadena deletreada para cada unidad de entrada válida.
 - `convertHandler` debe convertir correctamente `gal` a `L`.
 - `convertHandler` debe convertir correctamente `L` a `gal`.
-- `convertHandler` debe convertir correctamente `mi` a `km`.
-- `convertHandler` debe convertir correctamente `km` a `mi`.
-- `convertHandler` debe convertir correctamente `lbs` a `kg`.
-- `convertHandler` debe convertir correctamente `kg` a `lbs`.
+- `convertHandler` debería convertir correctamente `mi` a `km`.
+- `convertHandler` debería convertir correctamente `km` a `mi`.
+- `convertHandler` debería convertir correctamente `lbs` a `kg`.
+- `convertHandler` debería convertir correctamente `kg` a `lbs`.
 
 Escribir las siguientes pruebas en `tests/2_functional-tests.js`:
 
-- Convierte una entrada válida como `10L`: petición `GET` a `/api/convert`.
+- Convert a valid input such as `10L`: `GET` request to `/api/convert`.
 - Convierte una entrada inválida como `32g`: petición `GET` a `/api/convert`.
 - Convierte un número inválido como `3/7.2/4kg`: petición `GET` a `/api/convert`.
 - Convierte un número Y una unidad no válidos como `3/7.2/4kilomegagram`: petición `GET` a `/api/convert`.
@@ -53,7 +53,7 @@ Escribir las siguientes pruebas en `tests/2_functional-tests.js`:
 
 # --hints--
 
-Puedes proporcionar tu propio proyecto, no el URL de ejemplo.
+Puedes proporcionar tu propio proyecto, no la URL de ejemplo.
 
 ```js
 getUserInput => {

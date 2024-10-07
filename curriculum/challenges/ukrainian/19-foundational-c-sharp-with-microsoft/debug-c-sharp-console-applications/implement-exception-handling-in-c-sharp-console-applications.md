@@ -12,7 +12,7 @@ dashedName: implement-exception-handling-in-c-sharp-console-applications
 1. Перейдіть до <a href="https://learn.microsoft.com/training/modules/implement-exception-handling-c-sharp/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/implement-exception-handling-c-sharp/</a> та виконайте всі завдання модуля «Імплементуйте оброблення винятків в консольних застосунках C#». Це **обов’язково**, щоб отримати трофей з «Налагодження консольних застосунків C#» на Microsoft Learn та мати змогу скласти сертифікаційний екзамен.
 1. Як тільки завершите, поверніться та дайте правильну відповідь на запитання нижче.
 
-# --assignment--
+# --Завдання--
 
 Виконайте модуль <a href="https://learn.microsoft.com/training/modules/implement-exception-handling-c-sharp/" target="_blank" rel="noreferrer">«Імплементуйте оброблення винятків в консольних застосунках C#»</a> на Microsoft Learn. Потім дайте відповідь на запитання нижче.
 
@@ -20,19 +20,19 @@ dashedName: implement-exception-handling-in-c-sharp-console-applications
 
 ## --text--
 
-Коли викидається виняток `ArrayTypeMismatchException`?
+When is an `ArrayTypeMismatchException` exception thrown?
 
 ## --answers--
 
-Виняток `ArrayTypeMismatchException` викидається при спробі зберегти значення одного типу в масиві іншого типу.
+An `ArrayTypeMismatchException` exception is thrown when an attempt is made to store a value of one type in an array of another type.
 
 ---
 
-Виняток `ArrayTypeMismatchException` викидається при спробі отримати доступ до елемента, значення якого рівне нулю.
+An `ArrayTypeMismatchException` exception is thrown when attempting to access a member on a type whose value is null.
 
 ---
 
-Виняток `ArrayTypeMismatchException` викидається при спробі індексувати масив за межами масиву.
+An `ArrayTypeMismatchException` exception is thrown when an attempt is made to index an array outside the bounds of the array.
 
 ## --video-solution--
 

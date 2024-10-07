@@ -8,7 +8,7 @@ dashedName: create-a-controlled-input
 
 # --description--
 
-La tua applicazione potrebbe avere interazioni più complesse tra lo `state` e l'interfaccia utente presentata. Ad esempio, i controlli dei moduli per l'input di testo, come `input` e `textarea`, mangengono il proprio stato nel DOM mentre l'utente digita. Con React, puoi spostare questo stato mutabile nello `state` di un componente React. L'input dell'utente diventa parte dello `state` dell'applicazione, quindi React controlla il valore di quel campo di input. In genere, se hai componenti React con campi di input in cui l'utente può digitare, avrai un modulo con input controllato.
+Your application may have more complex interactions between `state` and the rendered UI. For example, form control elements for text input, such as `input` and `textarea`, maintain their own state in the DOM as the user types. With React, you can move this mutable state into a React component's `state`. The user's input becomes part of the application `state`, so React controls the value of that input field. Typically, if you have React components with input fields the user can type into, it will be a controlled input form.
 
 # --instructions--
 
@@ -16,7 +16,7 @@ L'editor di codice ha lo scheletro di un componente chiamato `ControlledInput` p
 
 Innanzitutto, crea un metodo chiamato `handleChange()` che abbia un parametro denominato `event`. Quando il metodo viene chiamato, riceve un oggetto `event` che contiene una stringa di testo presa dall'elemento `input`. Puoi accedere a questa stringa con `event.target.value` all'interno del metodo. Aggiorna la proprietà `input` dello `state` del componente con questa nuova stringa.
 
-Nel metodo `render`, crea l'elemento `input` sopra il tag `h4`. Aggiungi un attributo `value` uguale alla proprietà `input` dello `state` del componente. Then add an `onChange` property set to the `handleChange()` event handler method.
+Nel metodo `render`, crea l'elemento `input` sopra il tag `h4`. Aggiungi un attributo `value` uguale alla proprietà `input` dello `state` del componente. In seguito, aggiungi una proprietà `onChange` al metodo di gestione dell'evento `handleChange()`.
 
 Quando scrivi nella casella di input, quel testo viene elaborato dal metodo `handleChange()`, impostato come proprietà `input` nello `state` locale, e presentato come valore nella casella di `input` della pagina. Il componente `state` è la singola fonte autorevole per quanto riguarda i dati di input.
 

@@ -9,7 +9,7 @@ dashedName: use-tabindex-to-specify-the-order-of-keyboard-focus-for-several-elem
 
 # --description--
 
-Значення `tabindex` також вказує на точний порядок вкладки елементів. Це досягається тоді, коли при встановленні значення символ дорівнює додатньому числу 1 або вище.
+The `tabindex` attribute also specifies the exact tab order of elements. This is achieved when the attribute's value is set to a positive number of 1 or higher.
 
 Налаштування `tabindex="1"` дозволить для початку сфокусувати елемент для клавіатури. Тоді він переходить через послідовність вказаних значень `tabindex` (2,3, і так далі.), перед переходом до елементів за замовчуванням `tabindex="0"`.
 

@@ -10,9 +10,9 @@ No painel Elementos, é possível ver toda a estrutura do HTML da página. Você
 
 <img src="https://cdn.freecodecamp.org/curriculum/odin-project/the-box-model/inspector-icon.png" alt="Um ambiente de desenvolvimento para a web com ferramentas de desenvolvedor abertas, destacando um ícone azul de inspetor no canto superior esquerdo para selecionar elementos da página da web para visualizar a estrutura HTML e estilos." />
 
-Quando um elemento é selecionado, a guia Estilos mostrará todos os estilos atualmente aplicados, assim como quaisquer estilos que estão sendo substituídos (indicado por um texto com um risco no meio). Por exemplo, se você usar o inspetor para clicar no cabeçalho "Your Career in Web Development Starts Here" na <a href="https://www.theodinproject.com/" target="_blank">página do The Odin Project</a>, no lado direito, você verá todos os estilos que atualmente estão afetando o elemento, como vistos abaixo:
+Quando um elemento é selecionado, a guia Estilos mostrará todos os estilos aplicados atualmente, assim como quaisquer estilos que estão sendo substituídos (indicado por um texto com um risco no meio). Por exemplo, se você usar o inspetor para clicar no cabeçalho "Your Career in Web Development Starts Here" na <a href="https://www.theodinproject.com/" target="_blank">página do The Odin Project</a>, no lado direito, verá todos os estilos que estão afetando o elemento neste momento, como vemos abaixo:
 
-<img src="https://cdn.freecodecamp.org/curriculum/odin-project/the-box-model/overwritten-style.png" alt="Trecho de código do CSS no console de desenvolvedor mostrando .hero_main-heading com margin-bottom: 100px, padding-bottom: 1.875rem e .accent color #ce973e aplicados. As regras de estilo de h1 incluem tamanho da fonte, peso, espaçamento das letras, e margem inferior de 2rem sobrescrita." />
+<img src="https://cdn.freecodecamp.org/curriculum/odin-project/the-box-model/overwritten-style.png" alt="Trecho de código do CSS no console de desenvolvedor mostrando .hero_main-heading com margin-bottom: 100px, padding-bottom: 1.875rem e .accent color #ce973e aplicados. As regras de estilo de h1 incluem tamanho da fonte, peso, espaçamento das letras e margem inferior de 2rem sobrescrita." />
 
 # --assignment--
 

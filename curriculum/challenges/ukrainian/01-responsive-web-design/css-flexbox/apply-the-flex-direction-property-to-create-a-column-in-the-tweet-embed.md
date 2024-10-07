@@ -9,7 +9,7 @@ dashedName: apply-the-flex-direction-property-to-create-a-column-in-the-tweet-em
 
 # --description--
 
-Раніше для вбудованих твітів `header` та `footer` використовувалася властивість `flex-direction` зі значенням рядка. Так само і елементи всередині `.profile-name` функціонували добре у вигляді стовпця.
+The tweet embed `header` and `footer` used the `flex-direction` property earlier with a row value. Similarly, the items inside the `.profile-name` element would work well stacked as a column.
 
 # --instructions--
 
@@ -17,7 +17,7 @@ dashedName: apply-the-flex-direction-property-to-create-a-column-in-the-tweet-em
 
 # --hints--
 
-Ваш `.follow-btn` має відображатися на цій сторінці. Переконайтеся, що всі розширення вимкнено, наприклад блокувальники реклами.
+Ваш `.follow-btn` має відображатися на сторінці. Переконайтеся, що такі розширення, як блокувальники реклами, вимкнено.
 
 ```js
 assert($('.follow-btn').length > 0 && $('.follow-btn').css('display') !== 'none');

@@ -9,7 +9,7 @@ dashedName: stand-in-line
 
 # --description--
 
-<dfn>Черга</dfn> в комп’ютерних науках — це абстрактна <dfn>структура даних</dfn>, де усі елементи зберігають певний порядок. Нові елементи можна додати в кінець черги, а старі елементи забрати з початку.
+In Computer Science a <dfn>queue</dfn> is an abstract <dfn>Data Structure</dfn> where items are kept in order. New items can be added at the back of the queue and old items are taken off from the front of the queue.
 
 # --instructions--
 

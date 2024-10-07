@@ -10,35 +10,35 @@ dashedName: boo-who
 
 Check if a value is classified as a boolean primitive. Return `true` or `false`.
 
-Boolean primitives are `true` and `false`.
+Primitives za Boolean ni za kweli na za uwongo.
 
 # --hints--
 
-`booWho(true)` should return `true`.
+`booWho(true)` inapaswa kurudisha `true`.
 
 ```js
 assert.strictEqual(booWho(true), true);
 ```
 
-`booWho(false)` should return `true`.
+`booWho(true)` inapaswa kurudisha `true`.
 
 ```js
 assert.strictEqual(booWho(false), true);
 ```
 
-`booWho([1, 2, 3])` should return `false`.
+`booWho(true)` inapaswa kurudisha `true`.
 
 ```js
 assert.strictEqual(booWho([1, 2, 3]), false);
 ```
 
-`booWho([].slice)` should return `false`.
+`booWho(true)` inapaswa kurudisha `true`.
 
 ```js
 assert.strictEqual(booWho([].slice), false);
 ```
 
-`booWho({ "a": 1 })` should return `false`.
+`booWho(true)` inapaswa kurudisha `true`.
 
 ```js
 assert.strictEqual(booWho({ a: 1 }), false);

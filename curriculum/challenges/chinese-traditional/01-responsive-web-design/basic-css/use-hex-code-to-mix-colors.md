@@ -9,7 +9,7 @@ dashedName: use-hex-code-to-mix-colors
 
 # --description--
 
-回顧一下，十六進制編碼使用 6 個十六進制字符來表示顏色，兩個字符爲一組，分別代表紅（R）、綠（G）、藍（B）。
+To review, hex codes use 6 hexadecimal digits to represent colors, two each for red (R), green (G), and blue (B) components.
 
 通過三原色（紅、綠、藍），我們可以創建 1600 萬種不同顏色。
 
@@ -23,7 +23,7 @@ dashedName: use-hex-code-to-mix-colors
 
 把 `style` 標籤裏面的顏色值用正確的十六進制編碼替換。
 
-<table><tbody><tr><th>顏色</th><th>十六進制編碼</th></tr><tr><td>道奇藍</td><td><code>#1E90FF</code></td></tr><tr><td>綠色</td><td><code>#00FF00</code></td></tr><tr><td>橙色</td><td><code>#FFA500</code></td></tr><tr><td>紅色</td><td><code>#FF0000</code></td></tr></tbody></table>
+<table><tbody><tr><th>Color</th><th>Hex Code</th></tr><tr><td>Dodger Blue</td><td><code>#1E90FF</code></td></tr><tr><td>Green</td><td><code>#00FF00</code></td></tr><tr><td>Orange</td><td><code>#FFA500</code></td></tr><tr><td>Red</td><td><code>#FF0000</code></td></tr></tbody></table>
 
 # --hints--
 

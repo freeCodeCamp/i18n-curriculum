@@ -1,6 +1,6 @@
 ---
 id: 5e8f2f13c4cdbe86b5c72d93
-title: 'Neural Networks: Activation Functions'
+title: 'Neuronale Netze: Aktivierungsfunktionen'
 challengeType: 11
 videoId: S45tqW6BqRs
 bilibiliIds:
@@ -18,15 +18,15 @@ Which activation function squishes values between -1 and 1?
 
 ## --answers--
 
-ReLU (Rectified Linear Unit)
+Rectifier (ReLU - Rectified Linear Unit)
 
 ---
 
-Tanh (Hyperbolic Tangent)
+Tanh (Hyperbolischer Tangent)
 
 ---
 
-Sigmoid
+Sigmoidfunktion
 
 ## --video-solution--
 

@@ -9,9 +9,9 @@ dashedName: modify-array-data-with-indexes
 
 # --description--
 
-На відміну від рядків, записи масиву є <dfn>мінливими</dfn> та їх легко змінити, навіть якщо масив оголошено з `const`.
+Unlike strings, the entries of arrays are <dfn>mutable</dfn> and can be changed freely, even if the array was declared with `const`.
 
-**Приклад**
+**Наприклад:**
 
 ```js
 const ourArray = [50, 40, 30];

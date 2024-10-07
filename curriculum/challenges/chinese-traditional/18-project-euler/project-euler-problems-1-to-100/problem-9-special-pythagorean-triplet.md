@@ -1,6 +1,6 @@
 ---
 id: 5900f3761000cf542c50fe88
-title: 'Problem 9: Special Pythagorean triplet'
+title: '問題9：特殊的Pythagorean三角形'
 challengeType: 1
 forumTopicId: 302205
 dashedName: problem-9-special-pythagorean-triplet
@@ -8,35 +8,35 @@ dashedName: problem-9-special-pythagorean-triplet
 
 # --description--
 
-A Pythagorean triplet is a set of three natural numbers, `a` &lt; `b` &lt; `c`, for which,
+畢達哥拉斯三元組是一組三個自然數， `a` &lt; `b` &lt; `c` ，其中，
 
 <div style='text-align: center;'><var>a</var><sup>2</sup> + <var>b</var><sup>2</sup> = <var>c</var><sup>2</sup></div>
 
-For example, 3<sup>2</sup> + 4<sup>2</sup> = 9 + 16 = 25 = 5<sup>2</sup>.
+例如，3<sup>2</sup> + 4<sup>2</sup> = 9 + 16 = 25<sup>2</sup>
 
-There exists exactly one Pythagorean triplet for which `a` + `b` + `c` = 1000. Find the product `abc` such that `a` + `b` + `c` = `n`.
+恰好存在一個畢達哥拉斯三元組，其中`a` + `b` + `c` = 1000。 找到乘積 `abc` 當 `a` + `b` + `c` = `n`。
 
 # --hints--
 
-`specialPythagoreanTriplet(24)` should return a number.
+`specialPythagoreanTriplet(24)` 應該返回一個數字。
 
 ```js
 assert(typeof specialPythagoreanTriplet(24) === 'number');
 ```
 
-`specialPythagoreanTriplet(24)` should return 480.
+`specialPythagoreanTriplet(24)` 應該返回480。
 
 ```js
 assert.strictEqual(specialPythagoreanTriplet(24), 480);
 ```
 
-`specialPythagoreanTriplet(120)` should return 49920, 55080 or 60000.
+`specialPythagoreanTriplet(120)` 應該返回 49920, 55080 或 60000。
 
 ```js
 assert([49920, 55080, 60000].includes(specialPythagoreanTriplet(120)));
 ```
 
-`specialPythagoreanTriplet(1000)` should return 31875000.
+`specialPythagoreanTriplet(1000)` 應該返回3187000。
 
 ```js
 assert.strictEqual(specialPythagoreanTriplet(1000), 31875000);

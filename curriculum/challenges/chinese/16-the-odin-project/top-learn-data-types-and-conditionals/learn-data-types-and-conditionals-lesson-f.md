@@ -11,7 +11,7 @@ You know that JavaScript has a variety of data types, including strings, numbers
 
 The following comparison operators are available in JavaScript:
 
-| Operator | Description              | Example |
+| Operator | 描述                       | Example |
 | -------- | ------------------------ | ------- |
 | ==       | Equal (value comparison) | x == y  |
 | !=       | Not equal                | x != y  |
@@ -32,7 +32,7 @@ console.log(result); // true
 ```
 
 
-# --questions--
+# 问题
 
 ## --text--
 

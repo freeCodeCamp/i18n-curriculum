@@ -8,7 +8,7 @@ dashedName: write-a-simple-counter
 
 # --description--
 
-可以结合目前为止所涵盖的概念来设计更复杂的有状态组件。 这包括初始化 `state`，编写设置 `state` 的方法，以及指定单击处理程序来触发这些方法。
+You can design a more complex stateful component by combining the concepts covered so far. These include initializing `state`, writing methods that set `state`, and assigning click handlers to trigger these methods.
 
 # --instructions--
 

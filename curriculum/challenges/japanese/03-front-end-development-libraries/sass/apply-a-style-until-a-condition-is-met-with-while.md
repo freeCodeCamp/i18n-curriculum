@@ -8,7 +8,7 @@ dashedName: apply-a-style-until-a-condition-is-met-with-while
 
 # --description--
 
-`@while` ディレクティブは JavaScript の `while` ループと同様の機能を持つオプションで、 条件が満たされるまで CSS ルールを作成します。
+The `@while` directive is an option with similar functionality to the JavaScript `while` loop. It creates CSS rules until a condition is met.
 
 `@for` のチャレンジではシンプルなグリッドシステムを作成する例を紹介しました。 この例は `@while` でも作成できます。
 

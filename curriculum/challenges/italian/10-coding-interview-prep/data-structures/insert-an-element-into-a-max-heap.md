@@ -8,7 +8,7 @@ dashedName: insert-an-element-into-a-max-heap
 
 # --description--
 
-Ora passeremo ad un'altra struttura di dati ad albero, l'heap binario. Un heap binario è un albero binario parzialmente ordinato che soddisfa la proprietà heap. La proprietà heap specifica una relazione tra nodi genitore e figlio. Potresti avere un max heap, in cui tutti i nodi genitori sono maggiori o uguali ai loro nodi figli, o un min heap, in cui il contrario è vero. Gli heap binari sono anche alberi binari completi. Questo significa che tutti i livelli dell'ablero sono completamente pieni e se l'ultimo livello è completo solo parzialmente è riempido da sinistra a destra.
+Now we will move on to another tree data structure, the binary heap. A binary heap is a partially ordered binary tree which satisfies the heap property. The heap property specifies a relationship between parent and child nodes. You may have a max heap, in which all parent nodes are greater than or equal to their child nodes, or a min heap, in which the reverse is true. Binary heaps are also complete binary trees. This means that all levels of the tree are fully filled and if the last level is partially filled it is filled from left to right.
 
 Anche se gli heap binari possono essere implementati come strutture ad albero con nodi che contengono riferimenti di sinistra e destra, l'ordine parziale in base alla proprietà heap ci permette di rappresentare l'heap con un array. Il rapporto genitore-figlio è quello a cui siamo interessati e con semplice aritmetica possiamo calcolare i figli di qualsiasi genitore e genitore di qualsiasi nodo figlio.
 
@@ -39,7 +39,7 @@ Una volta che prendi familiarità con la matematica, usare una rappresentazione 
 Istruzioni: qui creeremo un max heap. Inizia creando semplicemente un metodo `insert` che aggiunge elementi al nostro heap. Durante l'inserzione, è importante mantenere sempre la proprietà heap. Per un max heap questo significa che l'elemento root deve sempre avere il valore maggiore nell'albero e tutti i nodi genitori devono essere più grandi dei loro figli. Per una rappresentazione ad array di un heap questo è tipicamente fatto in tre step:
 
 <ol>
-  <li>Aggiungi il nuovo elemento alla fine dell'array.</li>
+  <li>Add the new element to the end of the array.</li>
   <li>Se l'elemento è maggiore del suo genitore, scambiali.</li>
   <li>Continua a scambiare finché il nuovo elemento è più piccolo del genitore o raggiungi l'elemento root.</li>
 </ol>

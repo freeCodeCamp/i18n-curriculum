@@ -8,7 +8,7 @@ dashedName: render-react-on-the-server-with-rendertostring
 
 # --description--
 
-حتى الآن، كنت تقدم مكونات React على العميل (client). عادةً، هذا ما ستفعله دائماً. ومع ذلك، هناك بعض حالات الاستخدام الذي يكون فيها من المنطقي وضع عنصر React على حاسب ألى (server). يكون React مكتبة عرض JavaScript ويمكنك تشغيل JavaScript على حاسب ألى (server) مع نقطة التواصل (Node)، فإن هذا ممكن. في الواقع، React يوفر طريقة `renderToString()` يمكنك استخدامها لهذا الغرض.
+So far, you have been rendering React components on the client. Normally, this is what you will always do. However, there are some use cases where it makes sense to render a React component on the server. Since React is a JavaScript view library and you can run JavaScript on the server with Node, this is possible. In fact, React provides a `renderToString()` method you can use for this purpose.
 
 هناك سببان رئيسان وراء إمكانية استخدام الإنتاج على حاسب ألى (server) في تطبيق على أرض الواقع. أولا، دون فعل ذلك، ستتكون تطبيقات React الخاصة بك من مِلَفّ HTML فارغ نسبياً وحزمة كبيرة من JavaScript عندما يتم تحميلها في البداية تحميل المتصفح. قد لا يكون هذا مثالياً لمحركات البحث التي تحاول تحليل محتوى صفحاتك حتى يتمكن الناس من العثور عليك. إذا قديمت علامة HTML الأولية على حاسب ألى (server) وإرسال هذا إلى العميل (client)، تحتوي الحمولة الأولية للصفحة على جميع علامات الصفحة التي يمكن تحليلها بواسطة محركات البحث. ثانياً، هذا ينشئ تجرِبة تحميل صفحة أولية أسرع لأن HTML المقدمة أصغر من رمز JavaScript للتطبيق بِرُمَّته. سيظل React قادراً على التعرف على التطبيق الخاص بك وإدارتها بعد التحميل الأولي.
 

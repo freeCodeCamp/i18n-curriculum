@@ -9,7 +9,7 @@ dashedName: access-multi-dimensional-arrays-with-indexes
 
 # --description--
 
-تتمثل إحدى طرق التفكير في القائمة <dfn>العديدة الأبعاد (multi-dimensional)</dfn> بأنها *كقائمة قائمات (array of arrays)*. عندما تستخدم أقواس للوصول إلى القائمة (array)، يشير أول زوج من الأقواس إلى العناصر الموجودة في أبعد مستوى (المستوى الأول)، ويشير كل زوج إضافي من الأقواس إلى المستوى التالي من الإدخالات في الداخل.
+One way to think of a <dfn>multi-dimensional</dfn> array, is as an *array of arrays*. When you use brackets to access your array, the first set of brackets refers to the entries in the outermost (the first level) array, and each additional pair of brackets refers to the next level of entries inside.
 
 **مثال**
 

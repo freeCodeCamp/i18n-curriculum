@@ -8,7 +8,7 @@ dashedName: perform-a-subset-check-on-two-sets-of-data
 
 # --description--
 
-この課題では、2 つのデータセットに対してサブセット (部分集合) テストを実行します。 `isSubsetOf` と呼ばれるメソッドを `Set` データ構造に作成します。 これは最初のセットを 2 番目のセットと比較し、最初のセットがすべて 2 番目のセットに含まれている場合に `true` を返します。
+In this exercise, we are going to perform a subset test on 2 sets of data. We will create a method on our `Set` data structure called `isSubsetOf`. This will compare the first set against the second, and if the first set is fully contained within the second, it will return `true`.
 
 例えば、`setA = ['a','b']` かつ `setB = ['a','b','c','d']` の場合、 `setA` は `setB` のサブセットなので、`setA.isSubsetOf(setB)` は `true` を返す必要があります。
 

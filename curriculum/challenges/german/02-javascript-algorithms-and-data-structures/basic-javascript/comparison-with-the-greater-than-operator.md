@@ -9,7 +9,7 @@ dashedName: comparison-with-the-greater-than-operator
 
 # --description--
 
-Der Größer-als-Operator (`>`) vergleicht die Werte von zwei Zahlen. Wenn die Zahl auf der linken Seite größer ist als die Zahl auf der rechten Seite, gibt er `true` zurück. Andernfalls gibt er `false` zurück.
+The greater than operator (`>`) compares the values of two numbers. If the number to the left is greater than the number to the right, it returns `true`. Otherwise, it returns `false`.
 
 Wie der Gleichheitsoperator konvertiert auch der Größer-als-Operator die Datentypen der Werte beim Vergleich.
 

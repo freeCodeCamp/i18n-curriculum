@@ -9,7 +9,7 @@ dashedName: concatenating-strings-with-plus-operator
 
 # --description--
 
-在 JavaScript 中，当 `+` 操作符被用于一个 `String` 类型的值的时候，它被称作<dfn>拼接</dfn>操作符。 你可以通过<dfn>拼接</dfn>其他字符串来创建一个新的字符串。
+In JavaScript, when the `+` operator is used with a `String` value, it is called the <dfn>concatenation</dfn> operator. You can build a new string out of other strings by <dfn>concatenating</dfn> them together.
 
 **例如：**
 
@@ -19,7 +19,7 @@ dashedName: concatenating-strings-with-plus-operator
 
 **提示：** 注意空格。 拼接操作不会在两个字符串之间添加空格。所以，如果想加上空格的话，你需要自己在字符串里面添加。
 
-例如：
+示例：
 
 ```js
 const ourStr = "I come first. " + "I come second.";
@@ -38,7 +38,7 @@ const ourStr = "I come first. " + "I come second.";
 assert(/start\. This/.test(myStr));
 ```
 
-`myStr` 的值应该是字符串 `This is the start. This is the end.`
+`myStr` should have a value of the string `This is the start. This is the end.`
 
 ```js
 assert(myStr === 'This is the start. This is the end.');

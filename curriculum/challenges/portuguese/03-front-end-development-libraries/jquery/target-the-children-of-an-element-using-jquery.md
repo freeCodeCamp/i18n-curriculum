@@ -8,7 +8,7 @@ dashedName: target-the-children-of-an-element-using-jquery
 
 # --description--
 
-Quando elementos HTML são colocadas um nível abaixo de outro eles são chamados <dfn>children(filhos)</dfn> daquele elemento. Por exemplo, os elementos button nesse desafio com o texto `#target1`, `#target2` e `#target3` são todos filhos do elemento `<div class="well" id="left-well">`.
+When HTML elements are placed one level below another they are called <dfn>children</dfn> of that element. For example, the button elements in this challenge with the text `#target1`, `#target2`, and `#target3` are all children of the `<div class="well" id="left-well">` element.
 
 O jQuery possui uma função chamada `children()` que o permite acessar os filhos de qualquer elementos que você selecionou.
 

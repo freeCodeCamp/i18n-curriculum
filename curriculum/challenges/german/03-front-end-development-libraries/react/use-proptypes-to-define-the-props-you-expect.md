@@ -8,7 +8,7 @@ dashedName: use-proptypes-to-define-the-props-you-expect
 
 # --description--
 
-React bietet nützliche Funktionen zur Typüberprüfung, um sicherzustellen, dass Komponenten Eigenschaften des richtigen Typs erhalten. Deine Anwendung macht zum Beispiel einen API-Aufruf, um Daten abzurufen, die du in einem Array erwartest, das dann als Eigenschaft an eine Komponente übergeben wird. Du kannst `propTypes` in deiner Komponente so einstellen, dass die Daten vom Typ `array` sein müssen. Dies führt zu einer nützlichen Warnung, wenn die Daten von einem anderen Typ sind.
+React provides useful type-checking features to verify that components receive props of the correct type. For example, your application makes an API call to retrieve data that you expect to be in an array, which is then passed to a component as a prop. You can set `propTypes` on your component to require the data to be of type `array`. This will throw a useful warning when the data is of any other type.
 
 Es gilt als bewährte Methode, `propTypes` zu setzen, wenn du den Typ einer Eigenschaft schon vorher kennst. Du kannst eine `propTypes`-Eigenschaft für eine Komponente auf dieselbe Weise definieren wie `defaultProps`. Dadurch wird geprüft, ob Eigenschaften eines bestimmten Schlüssels mit einem bestimmten Typ vorhanden sind. Hier ist ein Beispiel, das den Typ `function` für eine Eigenschaft namens `handleClick` erfordert:
 

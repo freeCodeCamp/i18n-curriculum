@@ -9,7 +9,7 @@ dashedName: accessing-nested-arrays
 
 # --description--
 
-وكما رأينا في أمثلة سابقة، يمكن أن تحتوي الكائنات (objects) على كائنات متدخلة (nested objects) و قائمات متداخلة (nested arrays). على غرار الوصول إلى الكائنات متدخلة nested objects، يمكن ربط bracket notation في القائمة للوصول إلى القائمات متداخلة (nested arrays).
+As we have seen in earlier examples, objects can contain both nested objects and nested arrays. Similar to accessing nested objects, array bracket notation can be chained to access nested arrays.
 
 وفيما يلي مثال على كيفية الوصول إلى القائمة متداخلة (nested array):
 

@@ -9,7 +9,7 @@ dashedName: divide-one-number-by-another-with-javascript
 
 # --description--
 
-También podemos dividir un número entre otro.
+We can also divide one number by another.
 
 JavaScript utiliza el símbolo `/` para la división.
 

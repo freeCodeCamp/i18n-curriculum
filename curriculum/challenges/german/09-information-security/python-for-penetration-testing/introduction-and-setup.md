@@ -18,7 +18,7 @@ What code editor and extension does the instructor recommend for developing pene
 
 ## --answers--
 
-Atom and the atom-python-run extension.
+Atom und die atom-python-run Erweiterung.
 
 ---
 
@@ -26,7 +26,7 @@ VSCode und Microsofts Python-Erweiterung.
 
 ---
 
-Sublime Text and the Anaconda package.
+Sublime Text und das Anaconda package.
 
 ## --video-solution--
 

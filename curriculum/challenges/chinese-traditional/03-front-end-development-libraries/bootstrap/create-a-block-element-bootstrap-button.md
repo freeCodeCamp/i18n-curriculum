@@ -8,7 +8,7 @@ dashedName: create-a-block-element-bootstrap-button
 
 # --description--
 
-一般情況下，`btn` 和 `btn-default` 兩個 classes 修飾的 `button` 元素寬度與它包含的文本相同， 舉個例子：
+Normally, your `button` elements with the `btn` and `btn-default` classes are only as wide as the text that they contain. 舉個例子：
 
 ```html
 <button class="btn btn-default">Submit</button>
@@ -16,7 +16,7 @@ dashedName: create-a-block-element-bootstrap-button
 
 這個按鈕的寬度應該和文本 `Submit` 的寬度相同。
 
-<button class='btn btn-default'>提交</button>
+<button class='btn btn-default'>Submit</button>
 
 通過爲按鈕添加 class 屬性 `btn-block` 使其成爲塊級元素，按鈕會伸展並填滿頁面的整個水平空間，後續的元素會流到這個塊級元素的下方，即 "另起一行"。
 

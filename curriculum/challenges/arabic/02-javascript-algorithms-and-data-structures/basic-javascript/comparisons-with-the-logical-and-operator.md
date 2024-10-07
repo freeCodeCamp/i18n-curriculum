@@ -9,9 +9,9 @@ dashedName: comparisons-with-the-logical-and-operator
 
 # --description--
 
-ستحتاج أحيانًا إلى اختبار أكثر من شيء في وقت واحد. مشغل <dfn>الإضافة المنطقي</dfn> ورمزه (`&&`) يرجع `true` فقط إذا كان <dfn>المعاملتين</dfn> إلى اليسار واليمين صحيحين.
+Sometimes you will need to test more than one thing at a time. The <dfn>logical and</dfn> operator (`&&`) returns `true` if and only if the <dfn>operands</dfn> to the left and right of it are true.
 
-The same effect could be achieved by nesting an `if` statement inside another `if`.
+يمكن تحقيق نفس التأثير عن طريق وضع الجملة الشرطية IF داخل جملة شرطية أخرى.
 
 ```js
 if (num > 5) {
@@ -22,7 +22,7 @@ if (num > 5) {
 return "No";
 ```
 
-This code will return `Yes` if `num` is greater than `5` and less than `10`. The same logic can be written with the <dfn>logical and</dfn> operator.
+هذا الكود سوف يُعيد`Yes` إذا كان ال`num` أكبر من `5` و أقل من `10`. نفس الفكرة يمكن تطبيقها من خلال استخدام ( <dfn>logical and</dfn> operator '&&').
 
 ```js
 if (num > 5 && num < 10) {

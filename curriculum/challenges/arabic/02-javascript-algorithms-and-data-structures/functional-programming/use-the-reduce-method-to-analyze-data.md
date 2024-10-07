@@ -8,7 +8,7 @@ dashedName: use-the-reduce-method-to-analyze-data
 
 # --description--
 
-`Array.prototype.reduce()` او ببساطة `reduce()`، هي أكثر عمليات ال array عمومية في JavaScript. يمكنك حل أي مشكلة في معالجة ال arrays تقريبًا باستخدام `reduce`.
+`Array.prototype.reduce()`, or simply `reduce()`, is the most general of all array operations in JavaScript. You can solve almost any array processing problem using the `reduce` method.
 
 تسمح طريقة `reduce` بمزيد من الأشكال العامة لمعالجة ال array ، ومن الممكن إظهار أن كلاً من `filter` و `map` يمكن اشتقاقهما كتطبيقات خاصة لـ `reduce`. تتكرر طريقة `reduce` علي كل عنصر في array وتقوم بإرجاع قيمة واحدة (أي string او رقم او object او array). يتم تحقيق ذلك من خلال الـ callback function التي يتم استدعاؤها في كل تكرار.
 

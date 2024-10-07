@@ -1,6 +1,6 @@
 ---
 id: 5ea9997bbec2e9bc47e94daf
-title: Understanding Sockets and Creating a TCP Server
+title: فهم الsockets  وإنشاء خادم TCP
 challengeType: 11
 videoId: F1QI9tNuDQg
 bilibiliIds:
@@ -30,5 +30,5 @@ Which of the following functions creates a socket object?
 
 ## --video-solution--
 
-3
+الثالث
 

@@ -9,7 +9,7 @@ dashedName: use-the-css-transform-property-skewx-to-skew-an-element-along-the-x-
 
 # --description--
 
-Die nächste Funktion der Eigenschaft `transform` ist `skewX()`, die das ausgewählte Element entlang seiner x-Achse (horizontal) um einen bestimmten Grad verzerrt.
+The next function of the `transform` property is `skewX()`, which skews the selected element along its X (horizontal) axis by a given degree.
 
 Der folgende Code verzerrt das Absatzelement um -32 Grad entlang der x-Achse.
 

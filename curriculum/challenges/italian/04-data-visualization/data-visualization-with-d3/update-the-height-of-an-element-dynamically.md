@@ -8,7 +8,7 @@ dashedName: update-the-height-of-an-element-dynamically
 
 # --description--
 
-Le sfide precedenti hanno spiegato come visualizzare i dati presi da un array e come aggiungere classi CSS. Puoi combinare queste lezioni per creare un semplice grafico a barre. Puoi farlo in due passaggi:
+The previous challenges covered how to display data from an array and how to add CSS classes. You can combine these lessons to create a simple bar chart. There are two steps to this:
 
 1) Creare un `div` per ogni data point nell'array
 

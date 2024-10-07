@@ -7,7 +7,7 @@ dashedName: step-77
 
 # --description--
 
-Il prossimo passo è agire sullo stile dell'elemento `footer`. Per mantenere il CSS organizzato, aggiungi un commento alla fine di `styles.css` con il testo `FOOTER`.
+Next you are going to be styling the `footer` element. To keep the CSS organized, add a comment at the end of `styles.css` with the text `FOOTER`.
 
 # --hints--
 

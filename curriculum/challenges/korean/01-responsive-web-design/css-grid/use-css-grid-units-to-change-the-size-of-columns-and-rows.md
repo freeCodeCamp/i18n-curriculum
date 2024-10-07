@@ -9,13 +9,13 @@ dashedName: use-css-grid-units-to-change-the-size-of-columns-and-rows
 
 # --description--
 
-CSS 그리드에서 행열의 크기를 정의하기 위해 `px`와 `em`같이 절대/상대 단위를 사용할 수 있습니다. 다음과 같은 것도 사용할 수 있습니다:
+You can use absolute and relative units like `px` and `em` in CSS Grid to define the size of rows and columns. You can use these as well:
 
 `fr`: 행 혹은 열을 사용 가능한 공간의 일부로 설정,
 
 `auto`: 행 혹은 열을 자동적으로 그 내용의 너비나 높이로 설정
 
-`%`: 행 혹은 열을 컨테이너 너비의 백분율로 조정
+`%`: adjusts the column or row to the percent width of its container.
 
 여기 프리뷰에서 결과를 생성하는 코드입니다:
 

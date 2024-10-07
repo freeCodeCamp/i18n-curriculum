@@ -8,9 +8,9 @@ dashedName: linear-regression-health-costs-calculator
 
 # --description--
 
-你將<a href="https://colab.research.google.com/github/freeCodeCamp/boilerplate-linear-regression-health-costs-calculator/blob/master/fcc_predict_health_costs_with_regression.ipynb" target="_blank" rel="noopener noreferrer nofollow">使用 Google Colaboratory 來完成這個項目</a>。
+You will be <a href="https://colab.research.google.com/github/freeCodeCamp/boilerplate-linear-regression-health-costs-calculator/blob/master/fcc_predict_health_costs_with_regression.ipynb" target="_blank" rel="noopener noreferrer nofollow">working on this project with Google Colaboratory</a>.
 
-進入該鏈接後，在你自己的賬戶或本地創建一個筆記本的副本。 一旦你完成項目並通過測試（包括在該鏈接），請在下面提交你的項目鏈接。 如果你提交的是 Google Colaboratory 的鏈接，請確保打開鏈接共享時選擇 “anyone with the link”。
+點擊鏈接後，在自己的賬戶中或在本地創建一個筆記本的副本。 完成項目並通過測試（在那個鏈接中）後，請在下面提交你的項目鏈接。 如果你提交的是 Google Colaboratory 的鏈接，請確保鏈接分享選項爲 “anyone with the link”。
 
 我們仍在開發機器學習課程的交互式課程部分。 現在，你可以通過這個認證中的視頻挑戰。 你可能還需要尋找額外的學習資源，類似於你在真實世界項目中的工作。
 

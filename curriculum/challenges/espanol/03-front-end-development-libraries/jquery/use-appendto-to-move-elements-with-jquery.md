@@ -8,7 +8,7 @@ dashedName: use-appendto-to-move-elements-with-jquery
 
 # --description--
 
-Ahora intentemos mover elementos de un `div` a otro.
+Now let's try moving elements from one `div` to another.
 
 jQuery tiene una función llamada `appendTo()` que te permite seleccionar elementos HTML y agregarlos a otro elemento.
 

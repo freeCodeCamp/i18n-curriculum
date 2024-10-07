@@ -8,7 +8,7 @@ dashedName: create-a-queue-class
 
 # --description--
 
-Da mesma forma que ocorre com as pilhas, as filas são uma coleção de elementos. Mas, ao contrário delas, as filas seguem o princípio FIFO (First-In First-Out, o primeiro a entrar é o primeiro a sair). Elementos adicionados à fila vão empurrados para o final da fila. Apenas o elemento da frente da fila pode ser removido.
+Like stacks, queues are a collection of elements. But unlike stacks, queues follow the FIFO (First-In First-Out) principle. Elements added to a queue are pushed to the tail, or the end, of the queue, and only the element at the front of the queue is allowed to be removed.
 
 Nós poderíamos usar um array para representar uma fila, mas, assim como fizemos como as pilhas, queremos limitar a quantidade de controle que temos sobre elas.
 

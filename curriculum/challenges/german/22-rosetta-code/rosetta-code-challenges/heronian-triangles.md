@@ -8,7 +8,7 @@ dashedName: heronian-triangles
 
 # --description--
 
-Hero's formula for the area of a triangle given the length of its three sides `a`, `b`, and `c` is given by:
+Herons Formel für die Fläche eines Dreiecks auf Basis der Länge seiner drei Seiten `a`, `b` und `c` wird angegeben durch:
 
 $A = \\sqrt{s(s-a)(s-b)(s-c)},$
 

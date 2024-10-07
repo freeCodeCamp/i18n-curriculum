@@ -1,6 +1,6 @@
 ---
 id: 587d7fa8367417b2b2512bcc
-title: Display Shapes with SVG
+title: عرض الأشكال مع SVG
 challengeType: 6
 forumTopicId: 301485
 dashedName: display-shapes-with-svg
@@ -10,45 +10,45 @@ dashedName: display-shapes-with-svg
 
 The last challenge created an `svg` element with a given width and height, which was visible because it had a `background-color` applied to it in the `style` tag. The code made space for the given width and height.
 
-The next step is to create a shape to put in the `svg` area. There are a number of supported shapes in SVG, such as rectangles and circles. They are used to display data. For example, a rectangle (`<rect>`) SVG shape could create a bar in a bar chart.
+الخطوة التالية هي إنشاء شكل لوضعه في منطقة `svg`. وهناك عدد من الأشكال المدعومة في SVG، مثل المستطيلات والدوائر. وهي تستخدم لعرض البيانات. على سبيل المثال، شكل المستطيل (`<rect>`) في SVG يمكن أن ينشئ عمود في مخطط أعمدة.
 
-When you place a shape into the `svg` area, you can specify where it goes with `x` and `y` coordinates. The origin point of (0, 0) is in the upper-left corner. Positive values for `x` push the shape to the right, and positive values for `y` push the shape down from the origin point.
+عندما تضع شكلا في منطقة `svg` ، يمكنك تحديد أين يذهب بواسطة الإحداثيات `x` و `y`. النقطة الأصلية (0، 0) هي في الزاوية اليسرى العليا. تدفع القيمة الإيجابية `x` الشكل إلى اليمين والقيمة الإيجابية `y` تدفع الشكل إلى الأسفل من نقطة المنشأ (origin).
 
-To place a shape in the middle of the 500 (width) x 100 (height) `svg` from last challenge, the `x` coordinate would be 250 and the `y` coordinate would be 50.
+لوضع شكل في منتصف 500 (عرض) x 100(طول) `svg` من التحدي الأخير، إحداثيات `x` ستكون 250 و `y` ستكون 50.
 
-An SVG `rect` has four attributes. There are the `x` and `y` coordinates for where it is placed in the `svg` area. It also has a `height` and `width` to specify the size.
+في SVG، الشكل `rect` له أربع سمات. تعطى إحداثيات `x` و `y` من لتحديد الموقع في منطقة `svg`. كما أنه يعطى `height` و `width` لتحديد الحجم.
 
 # --instructions--
 
-Add a `rect` shape to the `svg` using `append()`, and give it a `width` attribute of `25` and `height` attribute of `100`. Also, give the `rect` `x` and `y` attributes each set to `0`.
+إضافة شكل `rect` إلى `svg` باستخدام `append()`، وقم بإعطائه سمة `width` بقيمة `25` و سمة `height` بقيمة `100`. أيضًا ، أعط `rect` سمات `x` و `y` كلاهن بقيمة`0`.
 
 # --hints--
 
-Your document should have 1 `rect` element.
+يجب أن تحتوي وثيقتك على 1 عناصر `rect`.
 
 ```js
 assert($('rect').length == 1);
 ```
 
-The `rect` element should have a `width` attribute set to `25`.
+يجب أن يكون لعنصر `rect` سمة `width` بقيمة `25`.
 
 ```js
 assert($('rect').attr('width') == '25');
 ```
 
-The `rect` element should have a `height` attribute set to `100`.
+يجب أن يكون لعنصر `rect` سمة `height` بقيمة `100`.
 
 ```js
 assert($('rect').attr('height') == '100');
 ```
 
-The `rect` element should have an `x` attribute set to `0`.
+يجب أن يكون لعنصر `rect` سمة `x` بقيمة `0`.
 
 ```js
 assert($('rect').attr('x') == '0');
 ```
 
-The `rect` element should have a `y` attribute set to `0`.
+يجب أن يكون لعنصر `rect` سمة `y` بقيمة `0`.
 
 ```js
 assert($('rect').attr('y') == '0');

@@ -8,7 +8,7 @@ dashedName: add-event-listeners
 
 # --description--
 
-特定の機能のためにイベントリスナーを追加する必要がある場合、`componentDidMount()` メソッドもまたイベントリスナーをアタッチするのに最適な場所になります。 React は、ブラウザーのネイティブのイベントシステムを包み込む、合成のイベントシステムを備えています。 この合成のイベントシステムは、ユーザーのブラウザーに関係なく、たとえネイティブイベントの動作がブラウザー間で異なる場合があるとしても、まったく同じ動作をします。
+The `componentDidMount()` method is also the best place to attach any event listeners you need to add for specific functionality. React provides a synthetic event system which wraps the native event system present in browsers. This means that the synthetic event system behaves exactly the same regardless of the user's browser - even if the native events may behave differently between different browsers.
 
 すでに `onClick()` などで、こうした合成のイベントハンドラーのいくつかを使用しています。 React の合成のイベントシステムは、DOM 要素で管理するほとんどのやり取りで使用するのにとても適しています。 ただし、イベントハンドラーを document オブジェクトや window オブジェクトにアタッチしたい場合は、直接実行する必要があります。
 

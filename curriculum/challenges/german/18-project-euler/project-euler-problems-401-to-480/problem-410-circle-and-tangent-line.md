@@ -1,6 +1,6 @@
 ---
 id: 5900f5071000cf542c510018
-title: 'Problem 410: Circle and tangent line'
+title: 'Problem 410: Kreis und Tangenslinie'
 challengeType: 1
 forumTopicId: 302079
 dashedName: problem-410-circle-and-tangent-line
@@ -8,19 +8,19 @@ dashedName: problem-410-circle-and-tangent-line
 
 # --description--
 
-Let $C$ be the circle with radius $r$, $x^2 + y^2 = r^2$. We choose two points $P(a, b)$ and $Q(-a, c)$ so that the line passing through $P$ and $Q$ is tangent to $C$.
+Sei $C$ der Kreis mit dem Radius $r$, $x^2 + y^2 = r^2$. Wir wählen zwei Punkte $P(a, b)$ und $Q(-a, c)$, so dass die Linie, die durch $P$ und $Q$ verläuft, tangent zu $C$ ist.
 
-For example, the quadruplet $(r, a, b, c) = (2, 6, 2, -7)$ satisfies this property.
+Zum Bespiel erfüllt der Vierling $(r, a, b, c) = (2, 6, 2, -7)$ diese Eigenschaft.
 
-Let $F(R, X)$ be the number of the integer quadruplets $(r, a, b, c)$ with this property, and with $0 &lt; r ≤ R$ and $0 &lt; a ≤ X$.
+Lass $F(R, X)$ die Anzahl der ganzzahligen Vierlinge $(r, a, b, c)$ mit dieser Eigenschaft und mit $0 &lt; r ≤ R$ und $0 &lt; a ≤ X$ sein.
 
-We can verify that $F(1, 5) = 10$, $F(2, 10) = 52$ and $F(10, 100) = 3384$.
+Wir können nachweisen, dass $F(1, 5) = 10$, $F(2, 10) = 52$ und $F(10, 100) = 3384$.
 
-Find $F({10}^8, {10}^9) + F({10}^9, {10}^8)$.
+Finde $F({10}^8, {10}^9) + F({10}^9, {10}^8)$.
 
 # --hints--
 
-`circleAndTangentLine()` should return `799999783589946600`.
+`circleAndTangentLine()` sollte `799999783589946600` zurückgeben.
 
 ```js
 assert.strictEqual(circleAndTangentLine(), 799999783589946600);

@@ -8,7 +8,7 @@ dashedName: no-repeats-please
 
 # --description--
 
-Поверніть кількість всіх перестановок заданого рядка, в яких не повторюються літери. Припустимо, що всі символи в заданому рядку унікальні.
+Return the number of total permutations of the provided string that don't have repeated consecutive letters. Assume that all characters in the provided string are each unique.
 
 Наприклад, `aab` має повернути 2, тому що загалом є 6 перестановок (`aab`, `aab`, `aba`, `aba`, `baa`, `baa`), але тільки 2 з них (`aba` та `aba`) не мають повторення однієї і тієї ж літери (в даному випадку `a`).
 

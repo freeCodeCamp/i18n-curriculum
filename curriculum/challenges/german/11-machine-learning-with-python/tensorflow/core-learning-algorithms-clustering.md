@@ -1,6 +1,6 @@
 ---
 id: 5e8f2f13c4cdbe86b5c72d8f
-title: 'Core Learning Algorithms: Clustering'
+title: 'Grundlegende Lernalgorithmen: Gruppierung'
 challengeType: 11
 videoId: 8sqIaHc9Cz4
 bilibiliIds:
@@ -18,23 +18,23 @@ Which of the following steps is **not** part of the K-Means algorithm?
 
 ## --answers--
 
-Randomly pick K points to place K centeroids.
+Wähle nach dem Zufallsprinzip K Punkte aus, um K Schwerpunkte zu platzieren.
 
 ---
 
-Assign each K point to the closest K centeroid.
+Ordne jeden K-Punkt dem nächstgelegenen K-Schwerpunkte zu.
 
 ---
 
-Move each K centeroid into the middle of all of their data points.
+Verschiebe jeden K-Schwerpunkt in die Mitte aller seiner Datenpunkte.
 
 ---
 
-Shuffle the K points so they're redistributed randomly.
+Mische die K-Punkte so, dass sie nach dem Zufallsprinzip neu verteilt werden.
 
 ---
 
-Reassign each K point to the closest K centeroid.
+Ordne jeden K-Punkt dem nächstgelegenen K-Schwerpunkt neu zu.
 
 ## --video-solution--
 

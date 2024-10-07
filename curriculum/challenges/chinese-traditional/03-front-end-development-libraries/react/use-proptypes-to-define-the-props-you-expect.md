@@ -8,7 +8,7 @@ dashedName: use-proptypes-to-define-the-props-you-expect
 
 # --description--
 
-React 提供了有用的類型檢查特性，以驗證組件是否接收了正確類型的 props。 例如，應用程序調用 API 來檢索數據是否是數組，然後將數據作爲 prop 傳遞給組件。 可以在組件上設置 `propTypes`，以要求數據的類型爲 `array`。 當數據是任何其它類型時，都會拋出警告。
+React provides useful type-checking features to verify that components receive props of the correct type. For example, your application makes an API call to retrieve data that you expect to be in an array, which is then passed to a component as a prop. You can set `propTypes` on your component to require the data to be of type `array`. This will throw a useful warning when the data is of any other type.
 
 當提前知道 prop 的類型時，最佳實踐是設置其 `propTypes`。 可以爲組件定義 `propTypes` 屬性，方法與定義 `defaultProps` 相同。 這樣做將檢查一個鍵的 prop 是否是給定類型。 這裏有一個示例，表示名爲 `handleClick` 的 prop 應爲 `function` 類型：
 

@@ -9,7 +9,7 @@ dashedName: decrease-the-opacity-of-an-element
 
 # --description--
 
-Die Eigenschaft `opacity` wird in CSS verwendet, um die Deckkraft, oder anders betrachtet, die Durchsichtigkeit für ein Element anzupassen.
+The `opacity` property in CSS is used to adjust the opacity, or conversely, the transparency for an item.
 
 <blockquote>Der Wert 1 ist undurchsichtig und nicht transparent.<br> Der Wert 0.5 ist halb durchsichtig. <br> Der Wert 0 ist völlig durchsichtig.</blockquote>
 

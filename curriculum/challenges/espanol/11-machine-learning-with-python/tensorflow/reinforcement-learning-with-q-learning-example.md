@@ -1,6 +1,6 @@
 ---
 id: 5e8f2f13c4cdbe86b5c72da5
-title: 'Reinforcement Learning With Q-Learning: Example'
+title: 'Aprendizaje Reforzado con Q-Learning: Ejemplo'
 challengeType: 11
 videoId: RBBSNta234s
 bilibiliIds:
@@ -10,7 +10,7 @@ bilibiliIds:
 dashedName: reinforcement-learning-with-q-learning-example
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 

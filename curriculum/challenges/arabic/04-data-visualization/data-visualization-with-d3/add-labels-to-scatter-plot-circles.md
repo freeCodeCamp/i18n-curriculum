@@ -1,6 +1,6 @@
 ---
 id: 587d7fab367417b2b2512bd9
-title: Add Labels to Scatter Plot Circles
+title: إضافة تسميات إلى دوائر المخطط المبعثر
 challengeType: 6
 forumTopicId: 301477
 dashedName: add-labels-to-scatter-plot-circles
@@ -10,23 +10,23 @@ dashedName: add-labels-to-scatter-plot-circles
 
 You can add text to create labels for the points in a scatter plot.
 
-The goal is to display the comma-separated values for the first (`x`) and second (`y`) fields of each item in `dataset`.
+الهدف هو عرض القيم المفصولة بفواصل للحقول الأولى (`x` والحقول الثانية (`y`) لكل عنصر في `dataset`.
 
-The `text` nodes need `x` and `y` attributes to position it on the SVG. In this challenge, the `y` value (which determines height) can use the same value that the `circle` uses for its `cy` attribute. The `x` value can be slightly larger than the `cx` value of the `circle`, so the label is visible. This will push the label to the right of the plotted point.
+The `text` nodes need `x` and `y` attributes to position it on the SVG. وفي هذا التحدي، يمكن أن تستخدم القيمة `y` (التي تحدد الطول) نفس القيمة التي تستخدمها `circle` لسمتها `cy`. تستطيع أن تكون القيمة `x` أكبر بقليل من قيمة `cx` للدائرة `circle`، لتكون التسمية مرئية. سيؤدي هذا إلى دفع التسمية إلى يمين النقطة المخططة.
 
 # --instructions--
 
-Label each point on the scatter plot using the `text` elements. The text of the label should be the two values separated by a comma and a space. For example, the label for the first point is `34, 78`. Set the `x` attribute so it's `5` units more than the value you used for the `cx` attribute on the `circle`. Set the `y` attribute the same way that's used for the `cy` value on the `circle`.
+ضف تسمية لكل نقطة على مخطط التشتت باستخدام العناصر `text`. يجب أن يتكوَّن نص التسمية من القيمتين المنفصلتين بفاصلة ومساحة. على سبيل المثال، التسمية للنقطة الأولى هي `34, 78`. عيّن قيمة لسمة `x` لتكون `5` وحدات أكثر من القيمة التي استخدمتها لسمة `cx` في `circle`. عيّن قيمة لسمة `y` بنفس قيمة `cy` التي استخدمت على `circle`.
 
 # --hints--
 
-Your code should have 10 `text` elements.
+يجب أن يحتوي كودك على 10 عناصر `text`.
 
 ```js
 assert($('text').length == 10);
 ```
 
-The first label should have text of `34, 78`, an `x` value of `39`, and a `y` value of `422`.
+يجب أن تحتوي التسمية الأولى على نص من `34, 78` و تكون قيمة `x` هي `39`، وقيمة `y` هي `422`.
 
 ```js
 assert(
@@ -36,7 +36,7 @@ assert(
 );
 ```
 
-The second label should have text of `109, 280`, an `x` value of `114`, and a `y` value of `220`.
+يجب أن تحتوي التسمية الثانية على نص من `109, 280` و تكون قيمة `x` هي `114`، وقيمة `y` هي `220`.
 
 ```js
 assert(
@@ -46,7 +46,7 @@ assert(
 );
 ```
 
-The third label should have text of `310, 120`, an `x` value of `315`, and a `y` value of `380`.
+يجب أن تحتوي التسمية الثالثة على نص من `310, 120` و تكون قيمة `x` هي `315`، وقيمة `y` هي `380`.
 
 ```js
 assert(
@@ -56,7 +56,7 @@ assert(
 );
 ```
 
-The fourth label should have text of `79, 411`, an `x` value of `84`, and a `y` value of `89`.
+يجب أن تحتوي التسمية الرابعة على نص من `79, 411` و تكون قيمة `x` هي `84`، وقيمة `y` هي `89`.
 
 ```js
 assert(
@@ -66,7 +66,7 @@ assert(
 );
 ```
 
-The fifth label should have text of `420, 220`, an `x` value of `425`, and a `y` value of `280`.
+يجب أن تحتوي التسمية الخامسة على نص من `420, 220` و تكون قيمة `x` هي `425`، وقيمة `y` هي `280`.
 
 ```js
 assert(
@@ -76,7 +76,7 @@ assert(
 );
 ```
 
-The sixth label should have text of `233, 145`, an `x` value of `238`, and a `y` value of `355`.
+يجب أن تحتوي التسمية السادسة على نص من `233, 145` و تكون قيمة `x` هي `238`، وقيمة `y` هي `355`.
 
 ```js
 assert(
@@ -86,7 +86,7 @@ assert(
 );
 ```
 
-The seventh label should have text of `333, 96`, an `x` value of `338`, and a `y` value of `404`.
+يجب أن تحتوي التسمية السابعة على نص من `333, 96` و تكون قيمة `x` هي `338`، وقيمة `y` هي `404`.
 
 ```js
 assert(
@@ -96,7 +96,7 @@ assert(
 );
 ```
 
-The eighth label should have text of `222, 333`, an `x` value of `227`, and a `y` value of `167`.
+يجب أن تحتوي التسمية الثامنة على نص من `222, 333` و تكون قيمة `x` هي `227`، وقيمة `y` هي `167`.
 
 ```js
 assert(
@@ -106,7 +106,7 @@ assert(
 );
 ```
 
-The ninth label should have text of `78, 320`, an `x` value of `83`, and a `y` value of `180`.
+يجب أن تحتوي التسمية التاسعة على نص من `78, 320` و تكون قيمة `x` هي `83`، وقيمة `y` هي `180`.
 
 ```js
 assert(
@@ -116,7 +116,7 @@ assert(
 );
 ```
 
-The tenth label should have text of `21, 123`, an `x` value of `26`, and a `y` value of `377`.
+يجب أن تحتوي التسمية العاشرة على نص من `21, 123` و تكون قيمة `x` هي `26`، وقيمة `y` هي `377`.
 
 ```js
 assert(

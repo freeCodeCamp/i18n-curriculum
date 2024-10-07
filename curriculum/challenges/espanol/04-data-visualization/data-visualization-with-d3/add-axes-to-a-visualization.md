@@ -8,7 +8,7 @@ dashedName: add-axes-to-a-visualization
 
 # --description--
 
-Otra forma de mejorar el diagrama de dispersión es agregar un eje "x" y un eje "y".
+Another way to improve the scatter plot is to add an x-axis and a y-axis.
 
 D3 tiene dos métodos, `axisLeft()` y `axisBottom()`, para representar el eje "y" y el eje "x", respectivamente. Aquí hay un ejemplo para crear el eje "x" basado en `xScale` en los desafíos anteriores:
 

@@ -8,7 +8,7 @@ dashedName: use-the-spread-operator-to-evaluate-arrays-in-place
 
 # --description--
 
-ES6 引入了<dfn>展開操作符</dfn>，可以展開數組以及需要多個參數或元素的表達式。
+ES6 introduces the <dfn>spread operator</dfn>, which allows us to expand arrays and other expressions in places where multiple parameters or elements are expected.
 
 下面的 ES5 代碼使用了 `apply()` 來計算數組的最大值：
 

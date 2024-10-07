@@ -12,13 +12,13 @@ dashedName: more-conditional-structures
 
 # --description--
 
-More resources:
+Más recursos:
 
 \- <a href="https://www.youtube.com/watch?v=crLerB4ZxMI" target="_blank" rel="noopener noreferrer nofollow">Ejercicio 1</a>
 
 \- <a href="https://www.youtube.com/watch?v=KJN3-7HH6yk" target="_blank" rel="noopener noreferrer nofollow">Ejercicio 2</a>
 
-# --questions--
+# --preguntas----preguntas--
 
 ## --text--
 

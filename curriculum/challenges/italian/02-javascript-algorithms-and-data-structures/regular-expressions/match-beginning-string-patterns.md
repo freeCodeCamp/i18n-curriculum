@@ -8,7 +8,7 @@ dashedName: match-beginning-string-patterns
 
 # --description--
 
-Le sfide precedenti hanno mostrato che le espressioni regolari possono essere usate per cercare un certo numero di corrispondenze. Sono anche utilizzati per cercare pattern in posizioni specifiche delle stringhe.
+Prior challenges showed that regular expressions can be used to look for a number of matches. They are also used to search for patterns in specific positions in strings.
 
 In una sfida precedente, hai usato il carattere del cursore (`^`) all'interno di un set di caratteri per creare un set di caratteri negati nella forma `[^thingsThatWillNotBeMatched]`. Al di fuori di un set di caratteri, il cursore viene usato per cercare pattern all'inizio delle stringhe.
 

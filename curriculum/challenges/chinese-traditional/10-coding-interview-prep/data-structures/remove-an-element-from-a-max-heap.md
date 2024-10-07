@@ -1,6 +1,6 @@
 ---
 id: 587d825b367417b2b2512c8b
-title: Remove an Element from a Max Heap
+title: 從最大堆中刪除元素
 challengeType: 1
 forumTopicId: 301710
 dashedName: remove-an-element-from-a-max-heap
@@ -12,17 +12,17 @@ Now that we can add elements to our heap let's see how we can remove elements. R
 
 <ol>
   <li>Move the last element in the heap into the root position.</li>
-  <li>If either child of the root is greater than it, swap the root with the child of greater value.</li>
-  <li>Continue swapping until the parent is greater than both children or you reach the last level in the tree.</li>
+  <li>如果根的任一子節點大於它，則將根與值更大的子節點交換。</li>
+  <li>繼續交換，直到父級大於兩個子級，或者到達樹中的最後一級。</li>
 </ol>
 
 # --instructions--
 
-Instructions: Add a method to our max heap called `remove`. This method should return the greatest value that has been added to our max heap and remove it from the heap. It should also reorder the heap so the heap property is maintained. After removing an element, the next greatest element remaining in the heap should become the root.
+說明：向我們的最大堆添加一個名爲 `remove` 的方法。 此方法應返回已添加到最大堆的最大值，並將其從堆中刪除。 它還應該重新排序堆，以便保持堆屬性。 刪除元素後，堆中剩餘的下一個最大元素應該成爲根。
 
 # --hints--
 
-The `MaxHeap` data structure should exist.
+MaxHeap  數據結構應該存在。
 
 ```js
 assert(
@@ -36,7 +36,7 @@ assert(
 );
 ```
 
-`MaxHeap` should have a method called `print`.
+MaxHeap 應該有一個名爲print  的方法。
 
 ```js
 assert(
@@ -52,7 +52,7 @@ assert(
 );
 ```
 
-`MaxHeap` should have a method called `insert`.
+MaxHeap  應該有一個名爲  insert 的方法。
 
 ```js
 assert(
@@ -68,7 +68,7 @@ assert(
 );
 ```
 
-`MaxHeap` should have a method called `remove`.
+MinHeap中應該有一個名爲remove 的方法。
 
 ```js
 assert(
@@ -84,7 +84,7 @@ assert(
 );
 ```
 
-The `remove` method should remove the greatest element from the max heap while maintaining the max heap property.
+remove 方法應該從最大堆中刪除最大的元素，同時保持最大堆屬性。
 
 ```js
 function isHeap(arr, i, n) {

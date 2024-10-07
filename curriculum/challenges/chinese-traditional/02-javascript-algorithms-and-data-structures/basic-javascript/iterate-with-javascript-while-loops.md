@@ -9,7 +9,7 @@ dashedName: iterate-with-javascript-while-loops
 
 # --description--
 
-你可以使用循環多次執行相同的代碼。
+You can run the same code multiple times by using a loop.
 
 我們將學習的第一種類型的循環稱爲 `while` 循環，當 while 指定的條件爲真，循環纔會執行，反之不執行。
 

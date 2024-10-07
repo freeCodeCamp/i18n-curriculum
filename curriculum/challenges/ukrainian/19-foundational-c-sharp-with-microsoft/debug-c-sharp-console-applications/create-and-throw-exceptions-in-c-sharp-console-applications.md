@@ -12,7 +12,7 @@ dashedName: create-and-throw-exceptions-in-c-sharp-console-applications
 1. Перейдіть до <a href="https://learn.microsoft.com/training/modules/create-throw-exceptions-c-sharp/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/create-throw-exceptions-c-sharp/</a> та виконайте всі завдання модуля «Створіть та викиньте винятки в консольних застосунках C#». Це **обов’язково**, щоб отримати трофей з «Налагодження консольних застосунків C#» на Microsoft Learn та мати змогу скласти сертифікаційний екзамен.
 1. Як тільки завершите, поверніться та дайте правильну відповідь на запитання нижче.
 
-# --assignment--
+# --Завдання--
 
 Виконайте модуль <a href="https://learn.microsoft.com/training/modules/create-throw-exceptions-c-sharp/" target="_blank" rel="noreferrer">«Створіть та викиньте винятки в консольних застосунках C#»</a> на Microsoft Learn. Потім дайте відповідь на запитання нижче.
 
@@ -20,19 +20,19 @@ dashedName: create-and-throw-exceptions-in-c-sharp-console-applications
 
 ## --text--
 
-Коли метод повинен кинути виняток?
+When should a method throw an exception?
 
 ## --answers--
 
-Метод повинен кинути виняток, коли метод може завершити своє цільове призначення.
+A method should throw an exception when the method can complete its intended purpose.
 
 ---
 
-Метод повинен кинути виняток, коли метод не може завершити своє цільове призначення.
+A method should throw an exception when the method can't complete its intended purpose.
 
 ---
 
-Метод повинен кинути виняток, коли тип винятку відповідає цільовому призначенню методу.
+A method should throw an exception when an exception type matches the intended purpose of the method.
 
 ## --video-solution--
 

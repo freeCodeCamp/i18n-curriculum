@@ -1,6 +1,6 @@
 ---
 id: 587d8254367417b2b2512c6f
-title: Perform a Subset Check on Two Sets of Data
+title: Eine Teilmengenprüfung für zwei Datensätze durchführen
 challengeType: 1
 forumTopicId: 301707
 dashedName: perform-a-subset-check-on-two-sets-of-data
@@ -10,11 +10,11 @@ dashedName: perform-a-subset-check-on-two-sets-of-data
 
 In this exercise, we are going to perform a subset test on 2 sets of data. We will create a method on our `Set` data structure called `isSubsetOf`. This will compare the first set against the second, and if the first set is fully contained within the second, it will return `true`.
 
-For example, if `setA = ['a','b']` and `setB = ['a','b','c','d']`, then `setA` is a subset of `setB`, so `setA.isSubsetOf(setB)` should return `true`.
+Wenn zum Beispiel `setA = ['a','b']` und `setB = ['a','b','c','d']`, dann ist `setA` eine Teilmenge von `setB`, also sollte `setA.isSubsetOf(setB)` `true` zurückgeben.
 
 # --hints--
 
-Your `Set` class should have a `isSubsetOf` method.
+Deine `Set` Klasse sollte eine `isSubsetOf` Methode haben.
 
 ```js
 assert(
@@ -25,7 +25,7 @@ assert(
 );
 ```
 
-The first `Set` should be contained in the second `Set`.
+Das erste `Set` sollte im zweiten `Set` enthalten sein.
 
 ```js
 assert(

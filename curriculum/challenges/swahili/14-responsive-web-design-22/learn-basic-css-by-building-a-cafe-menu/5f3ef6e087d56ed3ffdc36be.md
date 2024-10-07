@@ -7,7 +7,7 @@ dashedName: step-61
 
 # --description--
 
-Sasa tumia class ya `established` kwa maandishi ya `Est. 2020`.
+Now apply the `established` class to the `Est. 2020` text.
 
 # --hints--
 
@@ -17,7 +17,7 @@ Unapaswa kuweka `class` ya kipengele cha `p` kuwa `established`.
 assert.match(code,/<p class=('|")established\1>/i);
 ```
 
-Class yako ya `established` inapaswa kuwa kwenye kipengele chenye maandishi `Est. 2020`.
+Your `established` class should be on the element with the text `Est. 2020`.
 
 ```js
 assert.match(document.querySelector('.established')?.innerText, /Est\.\s2020/i);

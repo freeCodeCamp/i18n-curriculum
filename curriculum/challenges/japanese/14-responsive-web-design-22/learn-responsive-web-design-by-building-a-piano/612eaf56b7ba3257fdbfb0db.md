@@ -7,7 +7,7 @@ dashedName: step-21
 
 # --description--
 
-ピアノを公式なものにするため、freeCodeCamp のロゴを追加しましょう。
+The piano needs the freeCodeCamp logo to make it official.
 
 `img` 要素を `.keys` 要素の前に 1 つ追加してください。 その `img` の `class` 属性の値を `logo` に、`src` 属性の値を `https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg` に設定してください。 また、`freeCodeCamp Logo` という `alt` テキストを加えてください。
 

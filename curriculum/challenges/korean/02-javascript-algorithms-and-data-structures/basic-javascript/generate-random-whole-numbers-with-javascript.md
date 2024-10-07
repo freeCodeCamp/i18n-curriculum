@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c12feddfaeb1bdef
-title: Generate Random Whole Numbers with JavaScript
+title: 자바스크립트로 무작위 정수 생성하기
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cRn6bfr'
 forumTopicId: 18186
@@ -12,26 +12,26 @@ dashedName: generate-random-whole-numbers-with-javascript
 You can generate random decimal numbers with `Math.random()`, but sometimes you need to generate random whole numbers. The following process will give you a random whole number less than `20`:
 
 1. Use `Math.random()` to generate a random decimal number.
-2. Multiply that random decimal number by `20`.
-3. Use `Math.floor()` to round this number down to its nearest whole number.
+2. 무작위 십진수에 `20`을 곱하시오.
+3. 가장 근사한 정수로 내림하도록 `Math.floor()`을 사용하시오.
 
-Remember that `Math.random()` can never quite return a `1`, so it's impossible to actually get `20` since you are rounding down with `Math.floor()`. This process will give you a random whole number in the range from `0` to `19`.
+`Math.floor()`로 내림 시 `Math.random()`가 `1`을 절대 반환할 수 없으므로 `20`을 얻을 수 없다는 것에 주의하시기 바랍니다. 이 과정은 `0`에서 `19` 사이의 무작위 정수를 줄 것입니다.
 
-Putting everything together, this is what your code looks like:
+모두 함께 넣어보면, 코드는 다음과 같을 것입니다:
 
 ```js
 Math.floor(Math.random() * 20);
 ```
 
-You are calling `Math.random()`, multiplying the result by 20, then passing the value to `Math.floor()` to round the value down to the nearest whole number.
+`Math.random()`을 호출하여 결과에 20을 곱한 다음에 가장 근사한 정수로 내림하도록 `Math.floor()`에 해당 값을 을 전달합니다.
 
 # --instructions--
 
-Use this technique to generate and return a random whole number in the range from `0` to `9`.
+`0`과 `9` 사이의 무작위 정수를 생성하고 반환하도록 이 방법을 사용하시오.
 
 # --hints--
 
-The result of `randomWholeNum` should be a whole number.
+`randomWholeNum`의 결과는 정수이어야 합니다.
 
 ```js
 assert(
@@ -43,13 +43,13 @@ assert(
 );
 ```
 
-You should use `Math.random` to generate a random number.
+무작위 십진수를 생성하기 위해 `Math.random`을 사용해야 합니다.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/Math.random/g).length >= 1);
 ```
 
-You should have multiplied the result of `Math.random` by 10 to make it a number in the range from zero to nine.
+`Math.random`의 결과를 0과 9사이의 숫자로 만들도록 10을 곱해야 합니다.
 
 ```js
 assert(
@@ -58,7 +58,7 @@ assert(
 );
 ```
 
-You should use `Math.floor` to remove the decimal part of the number.
+해당 숫자의 소숫점을 제거하기 위해 `Math.floor`를 사용해야 합니다.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/Math.floor/g).length >= 1);

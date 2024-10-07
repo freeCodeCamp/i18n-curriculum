@@ -8,7 +8,7 @@ dashedName: problem-299-three-similar-triangles
 
 # --description--
 
-Four points with integer coordinates are selected:
+Es werden vier Punkte mit ganzzahligen Koordinaten ausgewählt:
 
 $A(a, 0)$, $B(b, 0)$, $C(0, c)$ and $D(0, d)$, with $0 &lt; a &lt; b$ and $0 &lt; c &lt; d$.
 
@@ -30,7 +30,7 @@ Wenn $b + d &lt; 100\\,000\\,000$ ist, wie viele verschiedene Dreiergruppen ($a$
 
 # --hints--
 
-`threeSimilarTriangles()` should return `549936643`.
+`threeSimilarTriangles()` sollte `549936643` zurückgeben.
 
 ```js
 assert.strictEqual(threeSimilarTriangles(), 549936643);

@@ -8,7 +8,7 @@ dashedName: use-a-switch-statement-to-handle-multiple-actions
 
 # --description--
 
-يمكنك إخبار متجر Redux كيفية التعامل مع أنواع متعددة من الإجراءات. قل أنك إدارة توثيق المستخدم (user authentication) في متجرك Redux. تريد أن يكون لديك تمثيل للحالة (state) عندما يتم تسجيل دخول المستخدمين وعندما يتم تسجيل خروجهم. أنت تمثل هذا مع كائن (object) حالة (state) واحد مع الخاصية `authenticated`. تحتاج أيضًا إلى منشئي الإجراءات الذين ينشئ إجراءات مناظرة لتسجيل دخول المستخدم وتسجيل خروجه، إلى جانب كائنات الإجراء نفسها.
+You can tell the Redux store how to handle multiple action types. Say you are managing user authentication in your Redux store. You want to have a state representation for when users are logged in and when they are logged out. You represent this with a single state object with the property `authenticated`. You also need action creators that create actions corresponding to user login and user logout, along with the action objects themselves.
 
 # --instructions--
 

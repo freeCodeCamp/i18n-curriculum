@@ -8,7 +8,7 @@ dashedName: write-a-react-component-from-scratch
 
 # --description--
 
-你已經瞭解了 JSX 和 React 組件的基礎知識，是時候自己編寫一個組件了。 React 組件是 React 應用程序的核心組成部分，因此熟練編寫它們是非常重要的。 記住，典型的 React 組件是 ES6 `class`，它擴展了 `React.Component`。 它有一個返回 HTML（從 JSX 返回）或 `null` 的渲染方法， 這是 React 組件的基本形式。 理解了這一點之後，就可以開始構建更復雜的 React 項目了。
+Now that you've learned the basics of JSX and React components, it's time to write a component on your own. React components are the core building blocks of React applications so it's important to become very familiar with writing them. Remember, a typical React component is an ES6 `class` which extends `React.Component`. It has a render method that returns HTML (from JSX) or `null`. This is the basic form of a React component. Once you understand this well, you will be prepared to start building more complex React projects.
 
 # --instructions--
 

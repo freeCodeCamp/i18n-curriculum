@@ -8,7 +8,7 @@ dashedName: use-comments-to-clarify-code
 
 # --description--
 
-jQuery를 사용하기 시작하면 실제 HTML 안의 요소들을 변경할 필요 없이 수정할 수 있습니다.
+When we start using jQuery, we will modify HTML elements without needing to actually change them in HTML.
 
 이 코드를 직접 수정하지 않아도 된다는 것을 확인해봅시다.
 

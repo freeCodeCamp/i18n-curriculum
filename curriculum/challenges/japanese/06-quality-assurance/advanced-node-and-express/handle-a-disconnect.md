@@ -8,7 +8,7 @@ dashedName: handle-a-disconnect
 
 # --description--
 
-お気づきかもしれませんが、ここまでは単にユーザー数を増やしているだけです。 ユーザーの切断処理も最初の接続と同じくらい簡単です。ただし、サーバー全体でリッスンするのではなくソケットごとにリッスンする必要があります。
+You may notice that up to now you have only been increasing the user count. Handling a user disconnecting is just as easy as handling the initial connect, except you have to listen for it on each socket instead of on the whole server.
 
 これを行うには、データを渡さずにソケットで `'disconnect'` をリッスンする別のリスナーを、既存の `'connect'` リスナーの中に追加してください。 この機能をテストするには、ユーザーが切断したことをコンソールに記録するだけです。
 

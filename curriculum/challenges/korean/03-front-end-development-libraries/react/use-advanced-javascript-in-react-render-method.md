@@ -8,7 +8,7 @@ dashedName: use-advanced-javascript-in-react-render-method
 
 # --description--
 
-이전 과제들에서, props에 접근하거나 props를 전달하고, state에 접근하며, 코드에 주석을 삽입하고, 가장 최근에는 컴포넌트를 스타일링하는 등의 작업을 위해 중괄호 `{ }`를 사용하여 JSX 코드에 자바스크립트 코드를 주입하는 방법을 배웠습니다. 모두 JSX에 자바스크립트를 넣는 일반적인 사용 방법이지만, 리액트 컴포넌트에 자바스크립트 코드를 사용할 수 있는 유일한 방법은 아닙니다.
+In previous challenges, you learned how to inject JavaScript code into JSX code using curly braces, `{ }`, for tasks like accessing props, passing props, accessing state, inserting comments into your code, and most recently, styling your components. These are all common use cases to put JavaScript in JSX, but they aren't the only way that you can utilize JavaScript code in your React components.
 
 중괄호를 ***사용하지 않고*** `return`문 앞에 있는, `render` 메서드에 자바스크립트를 넣을 수 있습니다. 왜냐하면 아직 JSX 코드 안에 있지 않기 때문입니다. `return`문 *안에서* 변수를 사용하고 싶을 때는, 중괄호에 변수 이름을 넣어주면 됩니다.
 

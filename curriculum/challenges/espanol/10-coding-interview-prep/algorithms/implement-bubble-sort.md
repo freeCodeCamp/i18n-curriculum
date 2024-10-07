@@ -8,7 +8,7 @@ dashedName: implement-bubble-sort
 
 # --description--
 
-Este es el primero de varios retos en algoritmos de ordenación. Dado un arreglo de elementos desordenados, queremos ser capaces de devolver un arreglo ordenado. Veremos diferentes métodos para hacerlo y aprenderemos algunos pros y contras entre estos diferentes enfoques. Mientras que la mayoría de los lenguajes modernos tienen métodos de ordenamiento incorporados para este tipo de operaciones, sigue siendo importante entender algunos de los enfoques básicos y aprender cómo pueden implementarse.
+This is the first of several challenges on sorting algorithms. Given an array of unsorted items, we want to be able to return a sorted array. We will see several different methods to do this and learn some tradeoffs between these different approaches. While most modern languages have built-in sorting methods for operations like this, it is still important to understand some of the common basic approaches and learn how they can be implemented.
 
 Aquí veremos el algoritmo de burbuja. El método de ordenación de burbuja comienza al inicio de un arreglo desordenado y 'burbujea hacia arriba' los valores no ordenados, iterando a través del arreglo hasta que esté completamente ordenado. Esto se hace comparando elementos adyacentes e intercambiándolos si no están en orden. El método continúa iterando sobre el arreglo hasta que no hay mas intercambios, lo que significa que el arreglo esta ordenado.
 

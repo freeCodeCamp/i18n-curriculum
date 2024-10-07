@@ -7,13 +7,13 @@ dashedName: learn-block-and-inline-lesson-g
 
 # --description--
 
-Now that you have some basic understanding of `block` and `inline` elements, pull up your list of `block` and `inline` elements from a couple questions ago and see if you can identify which of the following elements are `block` elements and which are `inline` elements.
+Ahora que tienes un entendimiento básico de elementos `block` y elementos `inline`, busca tu lista de elementos `block` y elementos `inline` de unas preguntas atras y trata de identificar cuales son elementos `block` y cuales son elementos `inline`.
 
-# --questions--
+# --preguntas----preguntas--
 
 ## --text--
 
-Which of the following is NOT an `inline` element?
+¿Cuál de los siguientes NO es un elemento`inline`?
 
 ## --answers--
 

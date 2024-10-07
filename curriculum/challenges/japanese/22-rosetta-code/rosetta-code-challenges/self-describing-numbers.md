@@ -21,7 +21,7 @@ There are several so-called "self-describing" or "self-descriptive" integers.
     <li> 3 の位置の値は 0 で、この数字内には 3 がありません。 </li>
 </ul>
 
-自己記述数 &lt; 100000000 は、1210, 2020, 21200, 3211000, 42100000 です。
+Self-describing numbers &lt; 100,000,000 are: 1210, 2020, 21200, 3211000, 42101000.
 
 # --instructions--
 

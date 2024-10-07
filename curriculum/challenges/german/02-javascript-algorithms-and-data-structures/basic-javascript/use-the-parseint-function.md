@@ -9,7 +9,7 @@ dashedName: use-the-parseint-function
 
 # --description--
 
-Die Funktion `parseInt()` parst einen String und gibt eine Ganzzahl zurück. Hier ist ein Beispiel:
+The `parseInt()` function parses a string and returns an integer. Hier ist ein Beispiel:
 
 ```js
 const a = parseInt("007");

@@ -8,7 +8,7 @@ dashedName: problem-123-prime-square-remainders
 
 # --description--
 
-Let $p_n$ be the $n$th prime: 2, 3, 5, 7, 11, ..., and let $r$ be the remainder when ${(p_n−1)}^n + {(p_n+1)}^n$ is divided by ${p_n}^2$.
+Lass $p_n$ die $n$-te Primzahl sein: 2, 3, 5, 7, 11, ..., und lass $r$ den Restwert sein, wenn ${(p_n-1)}^n + {(p_n+1)}^n$ durch ${p_n}^2$ geteilt wird.
 
 Zum Beispiel, wenn $n = 3, p_3 = 5$, und $4^3 + 6^3 = 280 ≡ 5\\ mod\ 25$.
 

@@ -9,7 +9,7 @@ dashedName: word-blanks
 
 # --description--
 
-Вам надано речення з пропущеними словами: іменниками, дієсловами, прикметниками та прислівниками. Потім ви заповнюєте пропуски словами так, щоб завершене речення мало сенс.
+You are provided sentences with some missing words, like nouns, verbs, adjectives and adverbs. You then fill in the missing pieces with words of your choice in a way that the completed sentence makes sense.
 
 Розглянемо це речення:
 

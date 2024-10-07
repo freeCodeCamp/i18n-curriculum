@@ -9,7 +9,7 @@ dashedName: understanding-boolean-values
 
 # --description--
 
-Ein weiterer Datentyp ist <dfn>Boolean</dfn>. Booleans können nur einen von zwei Werten annehmen: `true` oder `false`. Sie sind im Grunde kleine An-Aus-Schalter, bei denen `true` an und `false` aus ist. Diese beiden Zustände schließen sich gegenseitig aus.
+Another data type is the <dfn>Boolean</dfn>. Booleans may only be one of two values: `true` or `false`. They are basically little on-off switches, where `true` is on and `false` is off. These two states are mutually exclusive.
 
 **Hinweis:** Boolesche Werte werden nie mit Anführungszeichen geschrieben. Die Strings `"true"` und `"false"` sind nicht boolesch und haben keine besondere Bedeutung in JavaScript.
 

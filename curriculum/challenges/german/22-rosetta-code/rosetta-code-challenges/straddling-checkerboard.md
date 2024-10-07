@@ -8,7 +8,7 @@ dashedName: straddling-checkerboard
 
 # --description--
 
-Implement functions to encrypt and decrypt a message using the **straddling checkerboard** method.
+Implementierung von Funktionen zur Verschlüsselung und Entschlüsselung einer Nachricht unter Verwendung der **straddling checkerboard** Methode.
 
 Jede Funktion erhält zwei Argumente, eine `message` Zeichenfolge und eine `alphabet` Auflistung. Die `alphabet` Auflistung enthält 3 Zeichenketten, die die 3 Zeilen des übergreifenden Schachbretts darstellen.
 

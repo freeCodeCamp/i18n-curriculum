@@ -8,7 +8,7 @@ dashedName: return-largest-numbers-in-arrays
 
 # --description--
 
-Gib ein Array zurück, das aus den größten Zahlen der Sub-Arrays besteht. Zur Vereinfachung wird das übergebene Array genau vier Sub-Arrays enthalten.
+Return an array consisting of the largest number from each provided sub-array. For simplicity, the provided array will contain exactly 4 sub-arrays.
 
 Denk daran, dass du ein Array mit einem einfachen for-Loop durchlaufen kannst und auf jedes Element mit der Array-Syntax `arr[i]` zugreifen kannst.
 

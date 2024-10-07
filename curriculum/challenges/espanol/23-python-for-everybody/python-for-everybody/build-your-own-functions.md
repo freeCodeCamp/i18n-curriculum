@@ -12,11 +12,11 @@ dashedName: build-your-own-functions
 
 # --description--
 
-More resources:
+Más recursos:
 
 \- <a href="https://www.youtube.com/watch?v=ksvGhDsjtpw" target="_blank" rel="noopener noreferrer nofollow">Ejercicio</a>
 
-# --questions--
+# --preguntas----preguntas--
 
 ## --text--
 

@@ -8,7 +8,7 @@ dashedName: create-a-javascript-promise
 
 # --description--
 
-Проміс у JavaScript (з англ. «обіцянка») має пряме значення: цей термін використовується для того, щоб «пообіцяти» щось зробити, зазвичай асинхронно. Коли завдання завершується, ви або виконуєте проміс, або відхиляєте його. `Promise` є конструктурною функцією, тому потрібно використати ключове слово `new`, щоб створити новий проміс. Він приймає функцію як свій аргумент з двома параметрами: `resolve` та `reject`. Ці методи використовують, щоб визначити результат промісу. Синтаксис виглядає наступним чином:
+A promise in JavaScript is exactly what it sounds like - you use it to make a promise to do something, usually asynchronously. When the task completes, you either fulfill your promise or fail to do so. `Promise` is a constructor function, so you need to use the `new` keyword to create one. It takes a function, as its argument, with two parameters - `resolve` and `reject`. These are methods used to determine the outcome of the promise. The syntax looks like this:
 
 ```js
 const myPromise = new Promise((resolve, reject) => {

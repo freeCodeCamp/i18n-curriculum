@@ -8,7 +8,7 @@ dashedName: cash-register
 
 # --description--
 
-Progetta una funzione per il cassetto di un registratore di cassa `checkCashRegister()` che accetta il prezzo di acquisto come primo argomento (`price`), il pagamento come secondo argomento (`cash`) e il cassetto dei contanti (cash-in-drawer, `cid`) come terzo argomento.
+Design a cash register drawer function `checkCashRegister()` that accepts purchase price as the first argument (`price`), payment as the second argument (`cash`), and cash-in-drawer (`cid`) as the third argument.
 
 `cid` è un array 2D che elenca la valuta disponibile.
 
@@ -20,7 +20,7 @@ Restituisce `{status: "CLOSED", change: [...]}` con il cid come valore per la ch
 
 Altrimenti, restituisce `{status: "OPEN", change: [...]}`, con il cambio dovuto in monete e banconote, ordinati in ordine dal valore più alto al più basso, come valore della chiave `change`.
 
-<table><tbody><tr><th>Unità monetaria</th><th>Importo</th></tr><tr><td>Penny</td><td>$0.01 (PENNY)</td></tr><tr><td>Nichel</td><td>$0.05 (NICKEL)</td></tr><tr><td>Dime</td><td>$0.1 (DIME)</td></tr><tr><td>Quarter</td><td>$0.25 (QUARTER)</td></tr><tr><td>Dollar</td><td>$1 (ONE)</td></tr><tr><td>Five Dollars</td><td>$5 (FIVE)</td></tr><tr><td>Ten Dollars</td><td>$10 (TEN)</td></tr><tr><td>Twenty Dollars</td><td>$20 (TWENTY)</td></tr><tr><td>One-hundred Dollars</td><td>$100 (ONE HUNDRED)</td></tr></tbody></table>
+<table><tbody><tr><th>Currency Unit</th><th>Amount</th></tr><tr><td>Penny</td><td>$0.01 (PENNY)</td></tr><tr><td>Nickel</td><td>$0.05 (NICKEL)</td></tr><tr><td>Dime</td><td>$0.1 (DIME)</td></tr><tr><td>Quarter</td><td>$0.25 (QUARTER)</td></tr><tr><td>Dollar</td><td>$1 (ONE)</td></tr><tr><td>Five Dollars</td><td>$5 (FIVE)</td></tr><tr><td>Ten Dollars</td><td>$10 (TEN)</td></tr><tr><td>Twenty Dollars</td><td>$20 (TWENTY)</td></tr><tr><td>One-hundred Dollars</td><td>$100 (ONE HUNDRED)</td></tr></tbody></table>
 
 Ecco qui sotto un esempio di array cash-in-drawer:
 

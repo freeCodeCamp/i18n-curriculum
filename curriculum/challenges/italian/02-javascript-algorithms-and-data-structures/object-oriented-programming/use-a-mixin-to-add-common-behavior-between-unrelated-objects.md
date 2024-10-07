@@ -8,7 +8,7 @@ dashedName: use-a-mixin-to-add-common-behavior-between-unrelated-objects
 
 # --description--
 
-Come hai visto, il comportamento è condiviso attraverso l'ereditarietà. Tuttavia, ci sono casi in cui l'ereditarietà non è la soluzione migliore. L'ereditarietà non funziona bene per oggetti non correlati come `Bird` e `Airplane`. Entrambi possono volare, ma un `Bird` non è un tipo di `Airplane` e viceversa.
+As you have seen, behavior is shared through inheritance. However, there are cases when inheritance is not the best solution. Inheritance does not work well for unrelated objects like `Bird` and `Airplane`. They can both fly, but a `Bird` is not a type of `Airplane` and vice versa.
 
 Per gli oggetti non correlati, è meglio utilizzare i <dfn>mixin</dfn>. Un mixin permette ad altri oggetti di utilizzare una raccolta di funzioni.
 

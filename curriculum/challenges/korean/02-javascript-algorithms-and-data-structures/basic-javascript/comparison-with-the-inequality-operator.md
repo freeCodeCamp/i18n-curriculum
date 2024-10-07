@@ -1,6 +1,6 @@
 ---
 id: 56533eb9ac21ba0edf2244d2
-title: Comparison with the Inequality Operator
+title: 비등호 연산자로 비교하기
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cdBm9Sr'
 forumTopicId: 16787
@@ -11,7 +11,7 @@ dashedName: comparison-with-the-inequality-operator
 
 The inequality operator (`!=`) is the opposite of the equality operator. It means not equal and returns `false` where equality would return `true` and *vice versa*. Like the equality operator, the inequality operator will convert data types of values while comparing.
 
-**Examples**
+**예시**
 
 ```js
 1 !=  2    // true
@@ -23,41 +23,41 @@ The inequality operator (`!=`) is the opposite of the equality operator. It mean
 
 # --instructions--
 
-Add the inequality operator `!=` in the `if` statement so that the function will return the string `Not Equal` when `val` is not equivalent to `99`.
+함수가 `val`가 `99`와 같지 않을 때 문자열 `Not Equal`을 반환하도록 `if` 문에 있는 등호 연산자 `!=`를 추가하시오.
 
 # --hints--
 
-`testNotEqual(99)` should return the string `Equal`
+`testNotEqual(99)`는 문자열 `Equal`을 반환해야 합니다.
 
 ```js
 assert(testNotEqual(99) === 'Equal');
 ```
 
-`testNotEqual("99")` should return the string `Equal`
+`testNotEqual("99")`는 문자열 `Equal`을 반환해야 합니다.
 
 ```js
 assert(testNotEqual('99') === 'Equal');
 ```
 
-`testNotEqual(12)` should return the string `Not Equal`
+`testNotEqual(12)`는 문자열 `Not Equal`을 반환해야 합니다.
 
 ```js
 assert(testNotEqual(12) === 'Not Equal');
 ```
 
-`testNotEqual("12")` should return the string `Not Equal`
+`testNotEqual("12")`는 문자열 `Not Equal`을 반환해야 합니다.
 
 ```js
 assert(testNotEqual('12') === 'Not Equal');
 ```
 
-`testNotEqual("bob")` should return the string `Not Equal`
+`testNotEqual("bob")`는 문자열 `Not Equal`을 반환해야 합니다.
 
 ```js
 assert(testNotEqual('bob') === 'Not Equal');
 ```
 
-You should use the `!=` operator
+`!=` 연산자를 사용해야 합니다.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/(?!!==)!=/));

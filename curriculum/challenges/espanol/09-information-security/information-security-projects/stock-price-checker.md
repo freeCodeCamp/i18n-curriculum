@@ -8,15 +8,15 @@ dashedName: stock-price-checker
 
 # --description--
 
-Construye una aplicacion Javascript full stack que funcione similarmente a esta: <a href="https://stock-price-checker.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://stock-price-checker.freecodecamp.rocks/</a>.
+Build a full stack JavaScript app that is functionally similar to this: <a href="https://stock-price-checker.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://stock-price-checker.freecodecamp.rocks/</a>.
 
 Como todas las API de precios de acciones fiables requieren una clave de API, hemos creado una solución. Utilice <a href="https://stock-price-checker-proxy.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://stock-price-checker-proxy.freecodecamp.rocks/</a> para obtener información actualizada del precio de las acciones sin necesidad de registrarte para tu propia clave.
 
 Trabajar en este proyecto implicará escribir tu código utilizando uno de los siguientes métodos:
 
--   Clone este repositorio de <a href="https://github.com/freeCodeCamp/boilerplate-project-stockchecker/" target="_blank" rel="noopener noreferrer nofollow"> GitHub</a> y complete estos desafíos localmente.
+-   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-stockchecker/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
 -   Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-stockchecker/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete your project.
--   Utiliza un constructor de sitios de tu elección para completar el proyecto. Asegúrate de incorporar todos los archivos de nuestro repositorio GitHub.
+-   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
 
 # --instructions--
 
@@ -27,7 +27,7 @@ Trabajar en este proyecto implicará escribir tu código utilizando uno de los s
 
 **Note** Privacy Considerations: Due to the requirement that only 1 like per IP should be accepted, you will have to save IP addresses. It is important to remain compliant with data privacy laws such as the General Data Protection Regulation. One option is to get permission to save the user's data, but it is much simpler to anonymize it. For this challenge, remember to anonymize IP addresses before saving them to the database. If you need ideas on how to do this, you may choose to hash the data, truncate it, or set part of the IP address to 0.
 
-Write the following tests in `tests/2_functional-tests.js`:
+Escribe las siguientes pruebas en `tests/2_functional-tests.js`:
 
 -   Viewing one stock: GET request to `/api/stock-prices/`
 -   Viewing one stock and liking it: GET request to `/api/stock-prices/`
@@ -37,7 +37,7 @@ Write the following tests in `tests/2_functional-tests.js`:
 
 # --hints--
 
-Puedes proporcionar tu propio proyecto, no la URL de ejemplo.
+Puedes proporcionar tu propio proyecto, no la URL ejemplo.
 
 ```js
 (getUserInput) => {

@@ -8,7 +8,7 @@ dashedName: pass-arguments-to-avoid-external-dependence-in-a-function
 
 # --description--
 
-前回のチャレンジで、関数型プログラミングの原則に一歩近づきましたが、まだ何かが欠けています。
+The last challenge was a step closer to functional programming principles, but there is still something missing.
 
 グローバル変数の値は変更しませんでしたが、関数 `incrementer` はグローバル変数 `fixedValue` がなければ動作しませんでした。
 

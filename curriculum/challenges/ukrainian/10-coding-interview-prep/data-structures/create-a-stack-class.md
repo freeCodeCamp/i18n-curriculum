@@ -8,7 +8,7 @@ dashedName: create-a-stack-class
 
 # --description--
 
-В останньому розділі ми розібрали, що таке стек і як можна його представити за допомогою масиву. У цьому розділі ми створимо власний клас Stack. Хоча його й можна створити за допомогою масивів, все ж іноді краще обмежити контроль, який властивий стекам. Окрім методів `push` та `pop`, стеки мають й інші корисні методи. Додамо до нашого класу Stack такі методи: `peek`, `isEmpty` та `clear`.
+In the last section, we talked about what a stack is and how we can use an array to represent a stack. In this section, we will be creating our own stack class. Although you can use arrays to create stacks, sometimes it is best to limit the amount of control we have with our stacks. Apart from the `push` and `pop` method, stacks have other useful methods. Let's add a `peek`, `isEmpty`, and `clear` method to our stack class.
 
 # --instructions--
 

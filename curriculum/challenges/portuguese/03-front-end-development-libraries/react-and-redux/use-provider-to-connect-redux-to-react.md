@@ -8,7 +8,7 @@ dashedName: use-provider-to-connect-redux-to-react
 
 # --description--
 
-No último desafio, você criou uma store Redux para lidar com o array messages e criou uma ação para adicionar novas mensagens. O próximo passo é fornecer ao React o acesso à store Redux e as ações que ele precise para despachar atualizações. O React Redux fornece seu pacote `react-redux` para ajudar a realizar essas tarefas.
+In the last challenge, you created a Redux store to handle the messages array and created an action for adding new messages. The next step is to provide React access to the Redux store and the actions it needs to dispatch updates. React Redux provides its `react-redux` package to help accomplish these tasks.
 
 O React Redux fornece uma pequena API com dois principais recursos: `Provider` e `connect`. Outro desafio tratará do `connect`. O `Provider` é um componente encapsulador do React Redux que encapsula seu aplicativo React. Este wrapper permite então que você acesse a `store` Redux e funções de `dispatch` em toda a sua árvore de componentes. `Provider` usa duas props, a store do Redux e os componentes filhos do seu aplicativo. Definir o `Provider` para um componente do aplicativo pode se parecer com isto:
 

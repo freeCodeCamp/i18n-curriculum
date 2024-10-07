@@ -11,7 +11,7 @@ dashedName: change-the-css-of-an-element-using-jquery
 
 # --description--
 
-也能用 jQuery 直接改變 HTML 標籤的 CSS。
+We can also change the CSS of an HTML element directly with jQuery.
 
 jQuery 有一個 `.css()` 方法，能改變標籤的 CSS。
 

@@ -8,7 +8,7 @@ dashedName: add-inline-styles-in-react
 
 # --description--
 
-ربما لاحظت في التحدي الأخير أن هناك عدة اختلافات بناء الجملة الأخرى من أنماط HTML المضمنة بالإضافة إلى `style` السمة المعينة إلى كائن JavaScript. أولاً، تستخدم بعض أساليب خصائص CSS أسماء في حالة الجمال (camel case). على سبيل المثال، آخر تحد تعيّن فيه حجم الخط مع `fontSize` بدلاً من `font-size`. الكلمات المهيمنة مثل `font-size` هي صيغة غير صالحة لخصائص كائن JavaScript، لذلك يستخدم React حالة الجمال. وكقاعدة، يتم كتابة أي أساليب خصائص مميزة باستخدام حالة الجمال في JSX.
+You may have noticed in the last challenge that there were several other syntax differences from HTML inline styles in addition to the `style` attribute set to a JavaScript object. First, the names of certain CSS style properties use camel case. For example, the last challenge set the size of the font with `fontSize` instead of `font-size`. Hyphenated words like `font-size` are invalid syntax for JavaScript object properties, so React uses camel case. As a rule, any hyphenated style properties are written using camel case in JSX.
 
 جميع وحدات طول قيمة الخاصية (مثل `height`، و `width`، و `fontSize`) سيفترض أنهم في `px` ما لم يذكر خلاف ذلك. إذا كنت ترغب في استخدام `em`، على سبيل المثال، أنت تلف القيمة والوحدات في علامتا التنصيص (quotes)، مثل `{fontSize: "4em"}`. بخلاف قيم الطول التي هي افتراضية إلى `px`، يجب تغليف جميع قيم الخصائص الأخرى في علامتا التنصيص.
 
@@ -42,7 +42,7 @@ assert(styles.fontSize == 40);
 assert(styles.border === '2px solid purple');
 ```
 
-يجب أن ينتج من المكون عنصر `div`.
+يجب أن يكون المكون عنصر `div`.
 
 ```js
 assert(

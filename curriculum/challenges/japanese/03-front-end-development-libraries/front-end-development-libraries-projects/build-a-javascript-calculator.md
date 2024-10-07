@@ -7,13 +7,13 @@ dashedName: build-a-javascript-calculator
 ---
 
 # --description--
-**注:** **React 18 はこのプロジェクトのテストとの互換性がありません。 (詳細は[こちらの Issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922) を参照してください。)**
+**Note:** **React 18 has known incompatibilities with the tests for this project (see [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
 
 **目標:** こちらと似た機能を持つアプリを構築してください: <a href="https://javascript-calculator.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://javascript-calculator.freecodecamp.rocks</a>
 
 以下のユーザーストーリーを満たし、すべてのテストが成功するようにしてください。 必要に応じて、どのようなライブラリあるいは API を使用してもかまいません。 あなた独自のアレンジを加えましょう。
 
-このプロジェクトを完了するために、HTML、JavaScript、CSS、Bootstrap、SASS、React、Redux、および jQuery を自在に組み合わせて利用することができます。 このセクションはフロントエンドフレームワークの学習を目的としていますので、React などのフロントエンドフレームワークを使用してください。 上記以外の他のテクノロジーは推奨されません。使用する場合は自己責任で行ってください。 Angular や Vue などの他のフロントエンドフレームワークのサポートを検討していますが、現時点ではサポートされていません。 このプロジェクトで推奨されている一連のテクノロジーを使用した状況で生じる不具合については、freeCodeCamp にて報告を受け入れ、修正するよう努めます。 コーディングを楽しみましょう！Happy coding!
+このプロジェクトを完了するために、HTML、JavaScript、CSS、Bootstrap、SASS、React、Redux、および jQuery を自在に組み合わせて利用することができます。 このセクションはフロントエンドフレームワークの学習を目的としていますので、React などのフロントエンドフレームワークを使用してください。 上記以外の他のテクノロジーは推奨されません。使用する場合は自己責任で行ってください。 Angular や Vue などの他のフロントエンドフレームワークのサポートを検討していますが、現時点ではサポートされていません。 このプロジェクトで推奨している一連のテクノロジーを使用して生じる不具合については、freeCodeCamp にて報告を受け入れ、修正するよう努めます。 コーディングを楽しみましょう！Happy coding!
 
 **ユーザーストーリー 1:** `=` (等号) を含み、対応する `id="equals"` を持つ、クリック可能な要素が電卓にあります。
 
@@ -49,7 +49,7 @@ dashedName: build-a-javascript-calculator
 
 **例:** `3 + 5 x 6 - 2 / 4 =`
 
--   **即時実行ロジック:** `11.5`
+-   **Immediate Execution Logic:** `11.5`
 -   **数式ロジック:** `32.5`
 
 <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">この CodePen テンプレートを使用して</a>あなたのプロジェクトを構築することができます。`Save` をクリックすると、あなた用の pen を作成することができます。 または、下記の CDN リンクを使用して、使い慣れている環境でテストを実行することもできます:`https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`

@@ -8,7 +8,7 @@ dashedName: repeat-a-string-repeat-a-string
 
 # --description--
 
-Wiederhole den vorgegeben String `str` (erstes Argument) für `num` male (zweites Argument). Gib einen leeren String zurück, falls `num` keine positive Zahl ist. Für den Zweck dieser Aufgabe sollte *nicht* die built-in Methode `.repeat()` verwendet werden.
+Repeat a given string `str` (first argument) for `num` times (second argument). Return an empty string if `num` is not a positive number. For the purpose of this challenge, do *not* use the built-in `.repeat()` method.
 
 # --hints--
 

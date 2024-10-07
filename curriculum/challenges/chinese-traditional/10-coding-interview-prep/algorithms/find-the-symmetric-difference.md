@@ -8,7 +8,7 @@ dashedName: find-the-symmetric-difference
 
 # --description--
 
-兩個集合的數學術語 <dfn>對稱差異</dfn> （`△` 或 `⊕`）是指存在於兩個集合中的任意一個集合，但不同時存在於兩個集合中的元素的集。 例如集合 `A = {1, 2, 3}` 和 `B = {2, 3, 4}`，那麼 `A △ B = {1, 4}`。
+The mathematical term <dfn>symmetric difference</dfn> (`△` or `⊕`) of two sets is the set of elements which are in either of the two sets but not in both. For example, for sets `A = {1, 2, 3}` and `B = {2, 3, 4}`, `A △ B = {1, 4}`.
 
 對稱差異是一種二元操作，這意味着它只能在兩個元素上操作。 所以要評估一個涉及*三個*元素的表達式（`A △ B △ C`），你必須一次完成一個操作。 因此，對於上述 `A` 和 `B` 兩個集合，如果 `C = {2, 3}`，那麼 `A △ B △ C = (A △ B) △ C = {1, 4} △ {2, 3} = {1, 2, 3, 4}`。
 

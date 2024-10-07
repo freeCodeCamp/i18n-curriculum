@@ -9,7 +9,7 @@ dashedName: change-the-font-size-of-an-element
 
 # --description--
 
-Schriftgrößen werden mit der `font-size` CSS-Eigenschaft gesteuert, und zwar so:
+Font size is controlled by the `font-size` CSS property, like this:
 
 ```css
 h1 {

@@ -8,7 +8,7 @@ dashedName: set-a-domain-and-a-range-on-a-scale
 
 # --description--
 
-デフォルトでは、スケールは同一関係を使用します。 これは、入力値が出力値にマッピングされることを意味します。 しかし、スケールはそれよりはるかに柔軟で面白いことができます。
+By default, scales use the identity relationship. This means the input value maps to the output value. However, scales can be much more flexible and interesting.
 
 データセットの値の範囲を 50 ～ 480 とします。 これはスケールの入力情報であり、<dfn>ドメイン</dfn> とも呼ばれます。
 

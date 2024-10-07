@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c442eddfaeb5bd18
-title: Build a Tribute Page
+title: أنشئ مشروع صفحة الثناء
 challengeType: 14
 demoType: onClick
 dashedName: build-a-tribute-page
@@ -8,9 +8,9 @@ dashedName: build-a-tribute-page
 
 # --description--
 
-**Objective:** Fulfill the user stories below and get all the tests to pass to complete the lab.
+Fulfill the user stories below and get all the tests to pass to complete the lab.
 
-**User Stories:**
+**المطلبيات:**
 
 1. Your tribute page should have a `main` element with a corresponding `id` of `main`, which contains all other elements.
 1. You should see an element with an `id` of `title`, which contains a string (i.e. text), that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug").
@@ -18,7 +18,7 @@ dashedName: build-a-tribute-page
 1. Within the `#img-div` element, you should see an `img` element with a corresponding `id="image"`.
 1. Within the `#img-div` element, you should see an element with a corresponding `id="img-caption"` that contains textual content describing the image shown in `#img-div`.
 1. You should see an element with a corresponding `id="tribute-info"`, which contains textual content describing the subject of the tribute page.
-1. You should see an `a` element with a corresponding `id="tribute-link"`, which links to an outside site, that contains additional information about the subject of the tribute page. HINT: You must give your element an attribute of `target` and set it to `_blank` in order for your link to open in a new tab.
+1. يجب أن ترى عنصر `a` مع `id="tribute-link"` مقابل له، والذي يربط بموقع خارجي، والذي يحتوي على معلومات إضافية عن موضوع صفحة الثناء tribute page. HINT: You must give your element an attribute of `target` and set it to `_blank` in order for your link to open in a new tab.
 1. Your `#image` should use `max-width` and `height` properties to resize responsively, relative to the width of its parent element, without exceeding its original size.
 1. Your `img` element should be centered within its parent element.
 
@@ -26,14 +26,14 @@ dashedName: build-a-tribute-page
 
 # --hints--
 
-You should have a `main` element with an `id` of `main`.
+يجب أن يكون لديك عنصر `main` مع `id` بقيمة `main`.
 
 ```js
 const el = document.getElementById('main')
 assert(!!el && el.tagName === 'MAIN')
 ```
 
-Your `#img-div`, `#image`, `#img-caption`, `#tribute-info`, and `#tribute-link` should all be descendants of `#main`.
+`#img-div` و`#image` و `#img-caption` و `#tribute-info` و `#tribute-link` يجب أن تكون كلها تابعة لـ `#main`.
 
 ```js
 const el1 = document.querySelector('#main #img-div')
@@ -44,14 +44,14 @@ const el5 = document.querySelector('#main #tribute-link')
 assert(!!el1 & !!el2 && !!el3 && !!el4 && !!el5)
 ```
 
-You should have an element with an `id` of `title`.
+يجب أن يكون لديك عنصر مع `id` بقيمة `title`.
 
 ```js
 const el = document.getElementById('title')
 assert(!!el)
 ```
 
-Your `#title` should not be empty.
+يجب ألا يكون `#title` فارغاً.
 
 ```js
 const el = document.getElementById('title')
@@ -59,84 +59,84 @@ assert(!!el && el.innerText.length > 0)
 
 ```
 
-You should have a `figure` or `div` element with an `id` of `img-div`.
+يجب أن يكون لديك عنصر `figure` أو `div` مع `id` بقيمة `img-div`.
 
 ```js
 const el = document.getElementById('img-div')
 assert(!!el && (el.tagName === 'DIV' || el.tagName === 'FIGURE'))
 ```
 
-You should have an `img` element with an `id` of `image`.
+يجب أن يكون لديك عنصر `img` مع `id` بقيمة `image`.
 
 ```js
 const el = document.getElementById('image')
 assert(!!el && el.tagName === 'IMG')
 ```
 
-Your `#image` should be a descendant of `#img-div`.
+`#image` الخاص بك يجب أن يكون تابعا لـ `#img-div`.
 
 ```js
 const el = document.querySelector('#img-div #image')
 assert(!!el)
 ```
 
-You should have a `figcaption` or `div` element with an `id` of `img-caption`.
+يجب أن يكون لديك عنصر `figcaption` أو `div` مع `id` بقيمة `img-caption`.
 
 ```js
 const el = document.getElementById('img-caption')
 assert(!!el && (el.tagName === 'DIV' || el.tagName === 'FIGCAPTION'))
 ```
 
-Your `#img-caption` should be a descendant of `#img-div`.
+`#img-caption` الخاص بك يجب أن يكون تابعا لـ `#img-div`.
 
 ```js
 const el = document.querySelector('#img-div #img-caption')
 assert(!!el)
 ```
 
-Your `#img-caption` should not be empty.
+يجب ألا يكون `#img-caption` فارغاً.
 
 ```js
 const el = document.getElementById('img-caption')
 assert(!!el && el.innerText.length > 0)
 ```
 
-You should have an element with an `id` of `tribute-info`.
+يجب أن يكون لديك عنصر مع `id` بقيمة `tribute-info`.
 
 ```js
 const el = document.getElementById('tribute-info')
 assert(!!el)
 ```
 
-Your `#tribute-info` should not be empty.
+يجب ألا يكون `#tribute-info` فارغاً.
 
 ```js
 const el = document.getElementById('tribute-info')
 assert(!!el && el.innerText.length > 0)
 ```
 
-You should have an `a` element with an `id` of `tribute-link`.
+يجب أن يكون لديك عنصر `a` مع `id` بقيمة `tribute-link`.
 
 ```js
 const el = document.getElementById('tribute-link')
 assert(!!el && el.tagName === 'A')
 ```
 
-Your `#tribute-link` should have an `href` attribute and value.
+`#tribute-link` يجب أن يحتوي على السمة والقيمة لـ `href`.
 
 ```js
 const el = document.getElementById('tribute-link')
 assert(!!el && !!el.href && el.href.length > 0)
 ```
 
-Your `#tribute-link` should have a `target` attribute set to `_blank`.
+يجب أن يحتوي عنصر `#tribute-link` على سمة `target` بقيمة `_blank`.
 
 ```js
 const el = document.getElementById('tribute-link')
 assert(!!el && el.target === '_blank')
 ```
 
-Your `img` element should have a `display` of `block`.
+`img` الخاص بك يجب أن يكون له `display` بقيمة `block`.
 
 ```js
 const img = document.getElementById('image');
@@ -145,7 +145,7 @@ const style = imgStyle?.getPropertyValue('display')
 assert(style === 'block')
 ```
 
-Your `#image` should have a `max-width` of `100%`.
+`#image` الخاص بك يجب أن يكون له `max-width` بقيمة `100%`.
 
 ```js
 const img = document.getElementById('image');
@@ -154,7 +154,7 @@ const style = imgStyle?.getPropertyValue('max-width')
 assert(style === '100%')
 ```
 
-Your `#image` should have a `height` of `auto`.
+`#image` الخاص بك يجب أن يكون له `height` بقيمة `auto`.
 
 ```js
 // taken from the testable-projects repo
@@ -168,7 +168,7 @@ img?.style.setProperty('display', oldDisplayValue, oldDisplayPriority);
 assert(heightValue === 'auto')
 ```
 
-Your `#image` should be centered within its parent.
+`#image` الخاص بك يجب أن يتمركز داخل العنصر الاب.
 
 ```js
 // taken from the testable-projects repo

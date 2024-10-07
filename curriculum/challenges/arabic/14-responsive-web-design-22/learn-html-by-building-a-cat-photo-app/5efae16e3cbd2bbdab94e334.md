@@ -7,7 +7,7 @@ dashedName: step-31
 
 # --description--
 
-بعد آخر عنصر `img` ، أضف عنصر `figcaption` مع النص `Cats hate other cats.`
+After the last `img` element, add a `figcaption` element with the text `Cats hate other cats.`
 
 # --hints--
 
@@ -45,7 +45,7 @@ assert(
 assert(document.querySelectorAll('figure').length === 2);
 ```
 
-يجب أن يحتوي العنصر `figure` على closing tag. Closing tags لها `/` مباشرة بعد رمز `<`.
+يجب أن يحتوي العنصر `figure` على closing tag. Closing tags يجب ان تتبع بـ `/` مباشرة بعد رمز `<`.
 
 ```js
 assert(code.match(/<\/figure\>/g).length === 2);

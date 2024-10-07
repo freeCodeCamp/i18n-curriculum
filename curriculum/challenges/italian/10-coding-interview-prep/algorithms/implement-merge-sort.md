@@ -8,7 +8,7 @@ dashedName: implement-merge-sort
 
 # --description--
 
-Un altro algoritmo di ordinamento intermedio comune è Merge Sort. Come Quick Sort, anche Merge Sort utilizza una metodologia ricorsiva divide-et-impera per ordinare un array. Esso si avvale del fatto che è relativamente semplice ordinare due array se ciascuno di essi è già ordinato. Ma inizieremo con un solo array come input, quindi come arriviamo a due array ordinati partendo da quello? Bene, possiamo dividere ricorsivamente a metà l'input originale fino a raggiungere il caso base di un array con un elemento. Un array con un singolo elemento è naturalmente ordinato, quindi possiamo iniziare a combinare. Questa combinazione darà il via alle chiamate ricorsive che dividono l'array originale, producendo alla fine un array finale ordinato di tutti gli elementi. I passi di Merge Sort, sono quindi:
+Another common intermediate sorting algorithm is merge sort. Like quick sort, merge sort also uses a divide-and-conquer, recursive methodology to sort an array. It takes advantage of the fact that it is relatively easy to sort two arrays as long as each is sorted in the first place. But we'll start with only one array as input, so how do we get to two sorted arrays from that? Well, we can recursively divide the original input in two until we reach the base case of an array with one item. A single-item array is naturally sorted, so then we can start combining. This combination will unwind the recursive calls that split the original array, eventually producing a final sorted array of all the elements. The steps of merge sort, then, are:
 
 **1)** Dividi ricorsivamente l'array di input a metà finché non viene prodotto un sotto-array con un solo elemento.
 

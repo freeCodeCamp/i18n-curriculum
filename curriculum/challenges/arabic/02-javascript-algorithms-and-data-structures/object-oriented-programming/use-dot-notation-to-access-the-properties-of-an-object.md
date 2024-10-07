@@ -8,7 +8,7 @@ dashedName: use-dot-notation-to-access-the-properties-of-an-object
 
 # --description--
 
-أنشئ التحدي السابق كائن (object) ذو خصائص (properties) مختلفة. الآن سترى كيف تصل إلى قيم تلك الخصائص. إليك مثال:
+The last challenge created an object with various properties. Now you'll see how to access the values of those properties. إليك مثال:
 
 ```js
 let duck = {

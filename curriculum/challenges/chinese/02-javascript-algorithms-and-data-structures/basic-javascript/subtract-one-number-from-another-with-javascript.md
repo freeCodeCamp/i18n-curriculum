@@ -9,7 +9,7 @@ dashedName: subtract-one-number-from-another-with-javascript
 
 # --description--
 
-我们也可以在 JavaScript 中进行减法运算。
+We can also subtract one number from another.
 
 JavaScript 中使用 `-` 来做减法运算。
 

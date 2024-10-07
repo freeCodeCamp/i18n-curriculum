@@ -11,7 +11,7 @@ The plus `+` exists in two forms: the binary form that you used in the last chal
 
 The unary plus or, in other words, the plus operator `+` applied to a single value, doesn’t do anything to numbers. But if the operand is not a number, the unary plus converts it into a number.
 
-For example:
+例如：
 
 ```js
 // No effect on numbers
@@ -54,7 +54,7 @@ From a mathematician’s standpoint, the abundance of pluses may seem strange. B
 
 Why are unary pluses applied to values before the binary ones? As you’re going to see, that’s because of their _higher_ precedence.
 
-# --questions--
+# 问题
 
 ## --text--
 Given the explanation of unary and binary `+` operators in JavaScript, how can you correctly sum the string values `'2'` and `'3'` as numbers using unary `+`?

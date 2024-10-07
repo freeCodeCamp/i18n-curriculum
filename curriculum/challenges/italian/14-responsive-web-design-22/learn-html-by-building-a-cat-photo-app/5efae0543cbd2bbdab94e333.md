@@ -7,13 +7,13 @@ dashedName: step-30
 
 # --description--
 
-Per migliorare l'accessibilità dell'immagine che hai aggiunto, aggiungi un attributo `alt` con il testo:
+To improve accessibility of the image you added, add an `alt` attribute with the text:
 
 `Five cats looking around a field.`
 
 # --hints--
 
-L'elemento `figure` dovrebbe avere un tag di apertura. I tag di apertura hanno questa sintassi: `<nomeElemento>`.
+L'elemento `figure` dovrebbe avere un tag di apertura. Le etichette di apertura hanno questa sintassi: `<nomeElemento>`.
 
 ```js
 assert(document.querySelectorAll('figure').length === 2);

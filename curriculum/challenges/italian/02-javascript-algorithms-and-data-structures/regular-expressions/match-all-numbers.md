@@ -8,7 +8,7 @@ dashedName: match-all-numbers
 
 # --description--
 
-Hai imparato le scorciatoie per i pattern di stringhe comuni, come quello per i caratteri alfanumerici. Un altro pattern comune cerca solo cifre o numeri.
+You've learned shortcuts for common string patterns like alphanumerics. Another common pattern is looking for just digits or numbers.
 
 La scorciatoia per cercare caratteri numerici è `\d`, con una `d` minuscola. Questo corrisponde alla classe di caratteri `[0-9]`, che cerca un singolo carattere di qualsiasi numero tra zero e nove.
 

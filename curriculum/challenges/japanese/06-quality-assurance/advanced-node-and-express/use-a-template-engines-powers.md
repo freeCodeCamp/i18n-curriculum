@@ -8,7 +8,7 @@ dashedName: use-a-template-engines-powers
 
 # --description--
 
-テンプレートエンジンを使用する最大の利点の 1 つは、HTML にレンダーする前に変数をサーバーからテンプレートファイルに渡せることです。
+One of the greatest features of using a template engine is being able to pass variables from the server to the template file before rendering it to HTML.
 
 Pug ファイルでは変数を使用することができます。それには、変数名を `#{variable_name}` として参照し、要素上の他のテキストとともにインラインで記述します。または、要素に対して `p=variable_name` のように空白を付けずに等号を使用します (この例では変数の値が p 要素のテキストに割り当てられます)。
 

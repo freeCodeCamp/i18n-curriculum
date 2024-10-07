@@ -1,6 +1,6 @@
 ---
 id: 56533eb9ac21ba0edf2244da
-title: Introducing Else Statements
+title: Else문 소개
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cek4Efq'
 forumTopicId: 18207
@@ -21,47 +21,47 @@ if (num > 10) {
 
 # --instructions--
 
-Combine the `if` statements into a single `if/else` statement.
+`if`문을 하나의 `if/else`문으로 조합하시오.
 
 # --hints--
 
-You should only have one `if` statement in the editor
+편집기에 하나의 `if`문만 가져야 합니다.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/if/g).length === 1);
 ```
 
-You should use an `else` statement
+`else`문을 사용해야 합니다.
 
 ```js
 assert(/else/g.test(__helpers.removeJSComments(code)));
 ```
 
-`testElse(4)` should return the string `5 or Smaller`
+`testElse(4)`는 문자열 `5 or Smaller`을 반환해야 합니다.
 
 ```js
 assert(testElse(4) === '5 or Smaller');
 ```
 
-`testElse(5)` should return the string `5 or Smaller`
+`testElse(5)`는 문자열 `5 or Smaller`을 반환해야 합니다.
 
 ```js
 assert(testElse(5) === '5 or Smaller');
 ```
 
-`testElse(6)` should return the string `Bigger than 5`
+`testElse(6)`는 문자열 `Bigger than 5`을 반환해야 합니다.
 
 ```js
 assert(testElse(6) === 'Bigger than 5');
 ```
 
-`testElse(10)` should return the string `Bigger than 5`
+`testElse(10)`는 문자열 `Bigger than 5`을 반환해야 합니다.
 
 ```js
 assert(testElse(10) === 'Bigger than 5');
 ```
 
-You should not change the code above or below the specified comments.
+특정 주석 위아래의 코드를 변환하지 않아야 합니다.
 
 ```js
 assert(/let result = "";/.test(__helpers.removeJSComments(code)) && /return result;/.test(__helpers.removeJSComments(code)));

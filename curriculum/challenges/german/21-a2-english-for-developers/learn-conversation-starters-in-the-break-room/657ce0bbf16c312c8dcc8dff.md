@@ -9,7 +9,7 @@ dashedName: task-61
 
 There are some words you can use in your sentence to express how often something happens. Sie werden `adverbs of frequency` genannt.
 
-`Usually` is a word that suggests that something happens more often than not but is not constant.
+`Usually` ist ein Wort, das andeutet, dass etwas häufiger vorkommt als üblich, aber nicht konstant ist.
 
 Wenn `usually` mit dem Verb `to be,` verwendet wird, wird es nach dem Verb plaziert. `She is usually on time for meetings.`
 
@@ -25,7 +25,7 @@ Wähle den Satz, der das Adverb `usually.` korrekt verwendet
 
 `She usually is very careful with her work.`
 
-### --Feedback--
+### --feedback--
 
 `Usually` sollte vor dem Hauptverb kommen, wenn nicht `to be.` verwendet wird. Der korrekte Satz ist `She is usually very careful with her work.`
 
@@ -37,7 +37,7 @@ Wähle den Satz, der das Adverb `usually.` korrekt verwendet
 
 `They plays usually together on weekends.`
 
-### --Feedback--
+### --feedback--
 
 `Usually` sollte in Standartsätzen vor dem Hauptverb stehen. Der korrekte Satz ist `They usually play together on weekends.`
 

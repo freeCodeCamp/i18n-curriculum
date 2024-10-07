@@ -9,7 +9,7 @@ dashedName: create-visual-balance-using-the-text-align-property
 
 # --description--
 
-Esta seção do currículo se concentra no Design Visual Aplicado. O primeiro grupo de desafios baseia-se no layout de cartão fornecido para mostrar uma série de princípios básicos.
+This section of the curriculum focuses on Applied Visual Design. The first group of challenges build on the given card layout to show a number of core principles.
 
 O texto costuma ser uma grande parte do conteúdo na web. O CSS possui várias opções de como alinhá-lo com a propriedade `text-align`.
 

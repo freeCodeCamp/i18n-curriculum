@@ -8,11 +8,11 @@ dashedName: build-a-survey-form
 
 # --description--
 
-**目標：** 構建一個應用，它在功能上類似於 <a href="https://survey-form.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://survey-form.freecodecamp.rocks</a>。 **不要複製這個演示項目**。
+**Objective:** Build an app that is functionally similar to <a href="https://survey-form.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://survey-form.freecodecamp.rocks</a>. **Do not copy this demo project**.
 
-**需求：**
+**用戶需求:**
 
-1. 你應該有一個 `id` 爲 `title` 的 `h1` 元素
+1. You should have a page title in an `h1` element with an `id` of `title`
 1. 你應該有一個 `id` 爲 `description` 的 `p` 元素
 1. 你應該有一個 `id` 爲 `survey-form` 的 `form` 元素
 1. 在表單元素內，你**需要**在 `input` 字段中輸入你的名字，該字段的 `id` 爲 `name`，`type` 爲 `text`
@@ -29,7 +29,7 @@ dashedName: build-a-survey-form
 1. 在表單元素內，你會有一個 `textarea` 以獲取額外的評論
 1. 在表單元素內，你將收到一個按鈕，其 `id` 爲 `submit`，提交所有輸入
 
-完成需求並通過下面的所有測試來完成這個項目。 賦予它你自己的個人風格。 編程愉快！
+完成需求並通過下面的所有測試來完成這個項目。 使用你自己的個人風格樣式。 編程愉快！
 
 **注意：** 請在你的 HTML 中添加 `<link rel="stylesheet" href="styles.css">` 以鏈接你的樣式表並應用你的 CSS
 
@@ -84,7 +84,7 @@ const el = document.getElementById('name')
 assert(!!el && el.type === 'text')
 ```
 
-你的 `#name` 元素應該需要輸入。
+你的 `#name` 元素應該在表單中是必填項。
 
 ```js
 const el = document.getElementById('name')

@@ -1,6 +1,6 @@
 ---
 id: 587d8251367417b2b2512c61
-title: Work with Nodes in a Linked List
+title: 使用链表中的节点
 challengeType: 1
 forumTopicId: 301721
 dashedName: work-with-nodes-in-a-linked-list
@@ -10,23 +10,23 @@ dashedName: work-with-nodes-in-a-linked-list
 
 Another common data structure you'll run into in computer science is the <dfn>linked list</dfn>. A linked list is a linear collection of data elements, called 'nodes', each of which points to the next. Each <dfn>node</dfn> in a linked list contains two key pieces of information: the `element` itself, and a reference to the next `node`.
 
-Imagine that you are in a conga line. You have your hands on the next person in the line, and the person behind you has their hands on you. You can see the person straight ahead of you, but they are blocking the view of the other people ahead in line. A node is just like a person in a conga line: they know who they are and they can only see the next person in line, but they are not aware of the other people ahead or behind them.
+想象一下你在康加舞线上。 你的手放在队伍中的前一个人身上，而你后面的人的手也放在你身上。 您可以看到正前方的人，但他们挡住了其他人的视线。 一个节点就像一个康加舞线上的人：他们知道自己是谁，他们只能看到下一个人，但他们并不知道前方或后方的其他人。
 
 # --instructions--
 
-In our code editor, we've created two nodes, `Kitten` and `Puppy`, and we've manually connected the `Kitten` node to the `Puppy` node.
+在我们的代码编辑器中，我们已经创建了两个节点，`Kitten` 和 `Puppy`，并且我们已经手动将 `Kitten` 节点连接到 `Puppy` 节点。
 
-Create a `Cat` and `Dog` node and manually add them to the line.
+创建 `Cat` 和 `Dog` 节点并手动将它们添加到行中。
 
 # --hints--
 
-Your `Puppy` node should have a reference to a `Cat` node.
+你的 `Puppy` 节点应该引用 `Cat` 节点。
 
 ```js
 assert(Puppy.next.element === 'Cat');
 ```
 
-Your `Cat` node should have a reference to a `Dog` node.
+你的 `Cat` 节点应该引用 `Dog` 节点。
 
 ```js
 assert(Cat.next.element === 'Dog');

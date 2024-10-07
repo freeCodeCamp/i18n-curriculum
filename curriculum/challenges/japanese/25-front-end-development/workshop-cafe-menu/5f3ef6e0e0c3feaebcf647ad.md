@@ -1,6 +1,6 @@
 ---
 id: 5f3ef6e0e0c3feaebcf647ad
-title: Step 47
+title: ステップ 47
 challengeType: 0
 dashedName: step-47
 ---
@@ -11,19 +11,19 @@ Add an `h2` element in the new section and give it the text `Desserts`.
 
 # --hints--
 
-You should not change your existing `section` element.
+既存の `section` 要素を変更しないようにしてください。
 
 ```js
 assert.lengthOf(document.querySelectorAll('section'), 2);
 ```
 
-You should add an `h2` element in your second `section` element.
+2 つ目の `section` 要素内に、`h2` 要素を 1 つ追加する必要があります。
 
 ```js
 assert.strictEqual(document.querySelectorAll('section')?.[1]?.children?.[0]?.tagName, 'H2');
 ```
 
-Your new `h2` element should have the text `Desserts`.
+新しい `h2` 要素は `Desserts` というテキストをもつ必要があります。
 
 ```js
 assert.match(document.querySelectorAll('h2')?.[1]?.innerText, /Desserts/i);

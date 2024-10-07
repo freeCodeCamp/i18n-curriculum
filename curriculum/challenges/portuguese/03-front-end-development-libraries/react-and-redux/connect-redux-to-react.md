@@ -8,7 +8,7 @@ dashedName: connect-redux-to-react
 
 # --description--
 
-Agora que você escreveu ambas as funções `mapStateToProps()` e `mapDispatchToProps()`, você pode usá-las para mapear `state` e `dispatch` para `props` de um de seus componentes React. O método `connect` do Redux React pode lidar com essa tarefa. Esse método recebe dois argumentos opcionais, `mapStateToProps()` e `mapDispatchToProps()`. Eles são opcionais porque você pode ter um componente que precisa apenas acessar o `state`, mas não precisa despachar nenhuma ação, ou vice-versa.
+Now that you've written both the `mapStateToProps()` and the `mapDispatchToProps()` functions, you can use them to map `state` and `dispatch` to the `props` of one of your React components. The `connect` method from React Redux can handle this task. This method takes two optional arguments, `mapStateToProps()` and `mapDispatchToProps()`. They are optional because you may have a component that only needs access to `state` but doesn't need to dispatch any actions, or vice versa.
 
 Para usar esse método, passe nas funções como argumentos, e imediatamente chame o resultado com seu componente. Essa sintaxe é um pouco incomum e se parece com:
 

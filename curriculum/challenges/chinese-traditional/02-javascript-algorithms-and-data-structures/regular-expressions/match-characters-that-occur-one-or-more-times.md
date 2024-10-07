@@ -8,7 +8,7 @@ dashedName: match-characters-that-occur-one-or-more-times
 
 # --description--
 
-有時，需要匹配出現一次或者連續多次的的字符（或字符組）。 這意味着它至少出現一次，並且可能重複出現。
+Sometimes, you need to match a character (or group of characters) that appears one or more times in a row. This means it occurs at least once, and may be repeated.
 
 可以使用 `+` 符號來檢查情況是否如此。 記住，字符或匹配模式必須一個接一個地連續出現。 這就是說，字符必須一個接一個地重複。
 

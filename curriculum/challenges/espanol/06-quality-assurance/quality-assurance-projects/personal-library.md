@@ -8,22 +8,22 @@ dashedName: personal-library
 
 # --description--
 
-Construye una aplicacion Javascript full stack que funcione similarmente a esta: <a href="https://personal-library.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://personal-library.freecodecamp.rocks/</a>. Trabajar en este proyecto implicará escribir tu código utilizando uno de los siguientes métodos:
+Build a full stack JavaScript app that is functionally similar to this: <a href="https://personal-library.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://personal-library.freecodecamp.rocks/</a>. Working on this project will involve you writing your code using one of the following methods:
 
--   Clona este repositorio de <a href="https://github.com/freeCodeCamp/boilerplate-project-library" target="_blank" rel="noopener noreferrer nofollow">GitHub</a> y complete estos desafíos localmente.
--   Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-library" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete your project.
+-   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-library" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
+-   Utilice <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-library" target="_blank" rel="noopener noreferrer nofollow">nuestro proyecto inicial de Gitpod</a> para completar tu proyecto.
 -   Usa un constructor de sitios de tu elección para completar el proyecto. Asegúrate de incorporar todos los archivos de nuestro repositorio de GitHub.
 
 # --instructions--
 
-1.  Agrega tu cadena de conexión MongoDB a tu `.env` sin comillas como `DB` Ejemplo: `DB=mongodb://admin:pass@1234.mlab.com:1234/fccpersonallib`
+1.  Add your MongoDB connection string to `.env` without quotes as `DB` Example: `DB=mongodb://admin:pass@1234.mlab.com:1234/fccpersonallib`
 2.  En tu archivo `.env` establece `NODE_ENV` a `test`, sin comillas
 3.  Es necesario crear todas la rutas dentro de `routes/api.js`
 4.  Escribe las siguientes pruebas en `tests/2_functional-tests.js`
 
 # --hints--
 
-You can provide your own project, not the example URL.
+Puedes proveer tu propio proyecto, no la URL del ejemplo.
 
 ```js
 (getUserInput) => {
@@ -33,7 +33,7 @@ You can provide your own project, not the example URL.
 };
 ```
 
-You can send a <b>POST</b> request to `/api/books` with `title` as part of the form data to add a book.  The returned response will be an object with the `title` and a unique `_id` as keys.  If `title` is not included in the request, the returned response should be the string `missing required field title`.
+You can send a <b>POST</b> request to `/api/books` with `title` as part of the form data to add a book.  La respuesta devuelta será un objeto con las propiedades `title` y un `_id` único como claves.  Si `title` no está incluido en la petición, la respuesta devuelta será una cadena con `missing required field title`.
 
 ```js
 async (getUserInput) => {
@@ -54,7 +54,7 @@ async (getUserInput) => {
 };
 ```
 
-You can send a <b>GET</b> request to `/api/books` and receive a JSON response representing all the books. The JSON response will be an array of objects with each object (book) containing `title`, `_id`, and `commentcount` properties.
+You can send a <b>GET</b> request to `/api/books` and receive a JSON response representing all the books. La respuesta JSON será un array de objetos con cada objeto (libro) que contiene `título`, `_id`y `commentcount` propiedades.
 
 ```js
 async (getUserInput) => {
@@ -82,7 +82,7 @@ async (getUserInput) => {
 };
 ```
 
-You can send a <b>GET</b> request to `/api/books/{_id}` to retrieve a single object of a book containing the properties `title`, `_id`, and a `comments` array (empty array if no comments present). Si no se encuentra ningún libro, devuelve la cadena `no book exists`.
+Puedes enviar una petición <b>GET</b> a `/api/books/{_id}` para recuperar un solo objeto de un libro que contiene las propiedades `title`, `_id`, y un arreglo `comments` (arreglo vacío si no hay comentarios). If no book is found, return the string `no book exists`.
 
 ```js
 async (getUserInput) => {
@@ -106,7 +106,7 @@ async (getUserInput) => {
 };
 ```
 
-You can send a <b>POST</b> request containing `comment` as the form body data to `/api/books/{_id}` to add a comment to a book. The returned response will be the books object similar to <b>GET</b> `/api/books/{_id}` request in an earlier test. If `comment` is not included in the request, return the string `missing required field comment`. Si no se encuentra ningún libro, devuelve la cadena `no book exists`.
+Puedes enviar una petición de <b>POST</b> que contenga un `comment` como los datos del cuerpo del formulario a `/api/books/{_id}` para agregar un comentario a un libro. The returned response will be the books object similar to <b>GET</b> `/api/books/{_id}` request in an earlier test. Si `comment` no está incluido en la petición, la respuesta devuelta será una cadena con `missing required field comment`. Si no se encuentra ningún libro, devuelve la cadena `no book exists`.
 
 ```js
 async (getUserInput) => {
@@ -144,7 +144,7 @@ async (getUserInput) => {
 };
 ```
 
-You can send a <b>DELETE</b> request to `/api/books/{_id}` to delete a book from the collection. The returned response will be the string `delete successful` if successful. If no book is found, return the string `no book exists`.
+Puedes enviar una petición de <b>DELETE</b> a `/api/books/{_id}` para eliminar un libro de la colección. La respuesta devuelta será la cadena `delete successful` si tiene éxito. Si no se encuentra ningún libro, devuelve la cadena `no book exists`.
 
 ```js
 async (getUserInput) => {
@@ -168,7 +168,7 @@ async (getUserInput) => {
 };
 ```
 
-You can send a <b>DELETE</b> request to `/api/books` to delete all books in the database. The returned response will be the string `complete delete successful` if successful.
+Puedes enviar una petición de <b>DELETE</b> a `/api/books` para eliminar todos los libros de la base de datos. La respuesta devuelta será la cadena `'complete delete successful` si tiene éxito.
 
 ```js
 async (getUserInput) => {
@@ -185,7 +185,7 @@ async (getUserInput) => {
 };
 ```
 
-All 10 functional tests required are complete and passing.
+Las 10 pruebas funcionales requeridas están completas y aprobadas.
 
 ```js
 async (getUserInput) => {

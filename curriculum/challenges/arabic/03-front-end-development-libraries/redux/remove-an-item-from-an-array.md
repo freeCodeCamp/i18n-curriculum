@@ -8,7 +8,7 @@ dashedName: remove-an-item-from-an-array
 
 # --description--
 
-الوقت المتاح لإزالة العناصر من القائمة (array). يمكن استخدام مشغل الانتشار هنا أيضا. وتشمل طرق JavaScript المفيدة الأخرى `slice()` و `concat()`.
+Time to practice removing items from an array. The spread operator can be used here as well. Other useful JavaScript methods include `slice()` and `concat()`.
 
 # --instructions--
 

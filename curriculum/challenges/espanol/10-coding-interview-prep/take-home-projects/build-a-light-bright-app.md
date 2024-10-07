@@ -10,9 +10,9 @@ dashedName: build-a-light-bright-app
 
 **Objective:** Build an app that is functionally similar to this: <https://codepen.io/freeCodeCamp/full/eyLYXE>.
 
-**Regla #1:** No mires el código del proyecto de ejemplo. Encuentra tu propia solución.
+**Regla #1:** No mires el código de ejemplo del proyecto. Encuentra tu propia solución.
 
-**Rule #2:** Fulfill the below user stories and get all of the tests to pass. Utilice las librerías o APIs que necesites. Dale tu propio estilo personal.
+**Regla #2:** Completa las siguientes historias de usuario y consigue que todas las pruebas sean aprobadas. Utilice las bibliotecas o API que necesite. Dale tu estilo personal.
 
 **Historia del usuario:** Puedo hacer clic o arrastrar el cursor del ratón para colorear los círculos.
 
@@ -28,7 +28,7 @@ dashedName: build-a-light-bright-app
 
 Cuando hayas terminado, incluye un enlace a tu proyecto en CodePen y haz clic en el botón "He completado este desafío".
 
-You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
+Puedes recibir comentarios sobre tu proyecto compartiéndolo en el <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
 
 # --solutions--
 

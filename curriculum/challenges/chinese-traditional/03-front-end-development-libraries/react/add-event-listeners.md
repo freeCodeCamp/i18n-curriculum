@@ -8,7 +8,7 @@ dashedName: add-event-listeners
 
 # --description--
 
-`componentDidMount()` 方法也是添加特定功能所需的任何事件監聽器的最佳位置。 React 提供了一個合成事件系統，它封裝了瀏覽器中的事件系統。 這意味着，不管用戶用的是什麼瀏覽器，合成事件系統的行爲都完全相同 -- 即使不同瀏覽器之間的本地事件的行爲可能不同。
+The `componentDidMount()` method is also the best place to attach any event listeners you need to add for specific functionality. React provides a synthetic event system which wraps the native event system present in browsers. This means that the synthetic event system behaves exactly the same regardless of the user's browser - even if the native events may behave differently between different browsers.
 
 之前已經接觸了一些合成事件處理程序，如`onClick()`。 React 的合成事件系統非常適合用於在 DOM 元素上管理的大多數交互。 但是，如果要將事件處理程序附加到 document 或 window 對象，則必須直接執行此操作。
 

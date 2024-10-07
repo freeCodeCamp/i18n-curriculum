@@ -8,10 +8,10 @@ dashedName: remove-an-element-from-a-max-heap
 
 # --description--
 
-Ми вже вміємо додавати елементи до купи, а тепер навчимося їх видаляти. Алгоритми видалення та додавання вимагають схожої логіки. Зазвичай з незростаючої купи видаляють найбільше значення, тому його потрібно просто вилучити з кореня дерева. Властивість купи у цьому дереві зруйнується, а отже її потрібно якось відновити. У випадку з незростаючою купою це можна зробити таким чином:
+Now that we can add elements to our heap let's see how we can remove elements. Removing and inserting elements both require similar logic. In a max heap you will usually want to remove the greatest value, so this involves simply extracting it from the root of our tree. This will break the heap property of our tree, so we must reestablish it in some way. Typically, for a max heap this is done in the following way:
 
 <ol>
-  <li>Перемістіть останній елемент купи до кореневої позиції.</li>
+  <li>Move the last element in the heap into the root position.</li>
   <li>Якщо будь-який дочірній елемент кореня більший за корінь, то корінь та більшу за значенням дитину потрібно поміняти місцями.</li>
   <li>Продовжуйте змінювати елементи місцями, поки значення батьківського елемента не буде більшим за обох дітей, або поки не досягнете останнього рівня дерева.</li>
 </ol>

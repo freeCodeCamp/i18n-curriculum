@@ -8,7 +8,7 @@ dashedName: apply-functional-programming-to-convert-strings-to-url-slugs
 
 # --description--
 
-最後幾個挑戰中涵蓋了許多符合函數式編程原則並在處理數組和字符串中非常有用的方法。 我們還學習了強大的、可以將問題簡化爲更簡單形式的 `reduce` 方法。 從計算平均值到排序，任何數組操作都可以用它來實現。 回想一下，`map` 和 `filter` 方法都是 `reduce` 的特殊實現。
+The last several challenges covered a number of useful array and string methods that follow functional programming principles. We've also learned about `reduce`, which is a powerful method used to reduce problems to simpler forms. From computing averages to sorting, any array operation can be achieved by applying it. Recall that `map` and `filter` are special cases of `reduce`.
 
 讓我們把學到的知識結合起來解決一個實際問題。
 

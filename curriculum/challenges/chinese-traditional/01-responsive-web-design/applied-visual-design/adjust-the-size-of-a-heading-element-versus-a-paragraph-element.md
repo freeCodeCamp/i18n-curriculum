@@ -9,7 +9,7 @@ dashedName: adjust-the-size-of-a-heading-element-versus-a-paragraph-element
 
 # --description--
 
-標題元素（`h1` 到 `h6`）的字體大小通常應大於段落標籤的字體大小。 這使用戶更容易直觀地瞭解頁面上所有內容的佈局和重要性級別。 你可以使用 `font-size` 屬性來調整元素中文本的大小。
+The font size of heading elements (`h1` through `h6`) should generally be larger than the font size of paragraph tags. This makes it easier for the user to visually understand the layout and level of importance of everything on the page. You use the `font-size` property to adjust the size of the text in an element.
 
 # --instructions--
 

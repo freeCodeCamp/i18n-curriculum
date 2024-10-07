@@ -1,6 +1,6 @@
 ---
 id: 66c748ffdfbe4f2ede268be2
-title: Step 20
+title: ステップ 20
 challengeType: 1
 dashedName: step-20
 ---

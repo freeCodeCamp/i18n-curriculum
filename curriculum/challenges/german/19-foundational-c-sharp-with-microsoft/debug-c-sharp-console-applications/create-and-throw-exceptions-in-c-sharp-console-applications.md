@@ -7,14 +7,14 @@ dashedName: create-and-throw-exceptions-in-c-sharp-console-applications
 
 # --description--
 
-Diese Aufgabe wird teilweise auf der Microsoft Learn-Plattform gelöst. Folge diesen Anweisungen, um die Aufgabe zu lösen:
+Diese Aufgabe wird teilweise auf der Microsoft Learn Plattform erledigt. Folge diesen Anweisungen, um die Aufgabe zu lösen:
 
-1. Go to <a href="https://learn.microsoft.com/training/modules/create-throw-exceptions-c-sharp/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/create-throw-exceptions-c-sharp/</a> and complete all the tasks for the "Create and Throw Exceptions in C# Console Applications" module. This is **required** earn to the "Debug C# Console Applications" trophy on Microsoft Learn, and qualify for the certification exam.
+1. Gehe zu <a href="https://learn.microsoft.com/training/modules/create-throw-exceptions-c-sharp/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/create-throw-exceptions-c-sharp/</a> und erledige alle die Aufgaben für das Modul "Erstellen und Auslösen von Ausnahmen in C#-Konsolenanwendungen". Dies ist **erforderlich**, um die "Debug C# Console Applications"-Trophäe auf Microsoft Learn zu erverben und sich für die Zertifizierungsprüfung zu qualifizieren.
 1. Wenn du damit fertig bist, komme zurück und beantworte die folgende Frage richtig.
 
-# --assignment--
+# --Auftrag--
 
-Complete the <a href="https://learn.microsoft.com/training/modules/create-throw-exceptions-c-sharp/" target="_blank" rel="noreferrer">Create and Throw Exceptions in C# Console Applications</a> module on Microsoft Learn. Beantworte dann die Frage unten.
+Schließe das Modul <a href="https://learn.microsoft.com/training/modules/create-throw-exceptions-c-sharp/" target="_blank" rel="noreferrer">Erstellen und Auslösen von Ausnahmen in C#-Konsolen-Anwendungen</a> auf Microsoft Learn ab. Beantworte dann die Frage unten.
 
 # --questions--
 
@@ -24,11 +24,11 @@ Wann sollte eine Methode eine Ausnahme auslösen?
 
 ## --answers--
 
-A method should throw an exception when the method can complete its intended purpose.
+Eine Methode sollte eine Ausnahme auslösen, wenn die Methode ihren beabsichtigten Zweck erfüllen kann.
 
 ---
 
-A method should throw an exception when the method can't complete its intended purpose.
+Eine Methode sollte eine Ausnahme auslösen, wenn die Methode ihren beabsichtigten Zweck nicht erfüllen kann.
 
 ---
 

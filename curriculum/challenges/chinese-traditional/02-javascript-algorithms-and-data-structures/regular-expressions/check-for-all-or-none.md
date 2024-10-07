@@ -8,7 +8,7 @@ dashedName: check-for-all-or-none
 
 # --description--
 
-有時，想要搜尋的匹配模式可能有不確定是否存在的部分。 儘管如此，還是想檢查它們。
+Sometimes the patterns you want to search for may have parts of it that may or may not exist. However, it may be important to check for them nonetheless.
 
 爲此，可以使用問號 `?` 指定可能存在的元素。 這將檢查前面的零個或一個元素。 可以將此符號視爲前面的元素是可選的。
 

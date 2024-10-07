@@ -8,7 +8,7 @@ dashedName: problem-358-cyclic-numbers
 
 # --description--
 
-A cyclic number with $n$ digits has a very interesting property:
+Eine zyklische Zahl mit $n$ Ziffern hat eine sehr interessante Eigenschaft:
 
 Wenn sie mit 1, 2, 3, 4, ... $n$ multipliziert wird, haben alle Produkte genau die gleichen Ziffern, in der gleichen Reihenfolge, aber kreisförmig gedreht!
 
@@ -31,7 +31,7 @@ Es gibt nur eine zyklische Zahl, für die die elf Ziffern ganz links 000000137 u
 
 # --hints--
 
-`cyclicNumbers()` should return `3284144505`.
+`cyclicNumbers()` sollte `3284144505` zurückgeben.
 
 ```js
 assert.strictEqual(cyclicNumbers(), 3284144505);

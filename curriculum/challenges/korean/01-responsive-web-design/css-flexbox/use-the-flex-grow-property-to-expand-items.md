@@ -9,7 +9,7 @@ dashedName: use-the-flex-grow-property-to-expand-items
 
 # --description--
 
-`flex-shrink` 반대되는 속성은 `flex-grow` 속성입니다. `flex-shrink`가 컨테이너가 줄어들 때 아이템의 크기를 제어한다는 것을 상기하세요. `flex-grow` 속성은 부모 컨테이너가 확장될 때 아이템의 크기를 제어합니다.
+The opposite of `flex-shrink` is the `flex-grow` property. Recall that `flex-shrink` controls the size of the items when the container shrinks. The `flex-grow` property controls the size of items when the parent container expands.
 
 지난 과제의 비슷한 예시를 통해 하나의 아이템이 `1` 값을 준 `flex-grow` 그리고 다른 아이템이 `3`의 값을 준 `flex-grow` 속성을 가진다면 `3` 값을 가진 속성이 다른 아이템보다 세 배 더 커질 것입니다.
 

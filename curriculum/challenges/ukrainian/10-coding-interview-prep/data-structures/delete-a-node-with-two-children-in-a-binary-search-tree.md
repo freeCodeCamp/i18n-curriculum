@@ -8,7 +8,7 @@ dashedName: delete-a-node-with-two-children-in-a-binary-search-tree
 
 # --description--
 
-Видалення вузлів, які мають два дочірні елементи, — найважче. При видаленні такого вузла утворюються два піддерева, які більше не з’єднані з початковою структурою дерева. Як можна відновити їхнє з’єднання? Один з методів полягає у тому, аби знайти найменше значення у правому піддереві цільового вузла та замінити цільовий вузол саме цим значенням. Вибір заміни таким чином гарантує, що цей вузол буде більшим за кожен вузол лівого піддерева, новим батьківським вузлом якого він стає; але водночас він буде меншим за кожен вузол правого піддерева, новим батьківським вузлом якого він стає. Як тільки така заміна виконана, вузол заміни потрібно видалити з правого піддерева. Але навіть ця операція є підступною, оскільки заміна може бути листовим вузлом або навіть батьком правого піддерева. Якщо це листовий вузол, з батьківського вузла потрібно видалити посилання на нього. В іншому випадку він має бути правою дитиною цільового вузла. У цьому разі потрібно замінити значення цільового вузла на значення заміни та зробити так, щоб цільовий вузол посилався на праву дитину заміни.
+Removing nodes that have two children is the hardest case to implement. Removing a node like this produces two subtrees that are no longer connected to the original tree structure. How can we reconnect them? One method is to find the smallest value in the right subtree of the target node and replace the target node with this value. Selecting the replacement in this way ensures that it is greater than every node in the left subtree it becomes the new parent of but also less than every node in the right subtree it becomes the new parent of. Once this replacement is made the replacement node must be removed from the right subtree. Even this operation is tricky because the replacement may be a leaf or it may itself be the parent of a right subtree. If it is a leaf we must remove its parent's reference to it. Otherwise, it must be the right child of the target. In this case, we must replace the target value with the replacement value and make the target reference the replacement's right child.
 
 # --instructions--
 
@@ -107,7 +107,7 @@ assert(
 );
 ```
 
-Метод `remove` має видалити вузли з однією дитиною.
+Метод `remove` повинен видалити вузли з одним дочірнім елементом.
 
 ```js
 assert(

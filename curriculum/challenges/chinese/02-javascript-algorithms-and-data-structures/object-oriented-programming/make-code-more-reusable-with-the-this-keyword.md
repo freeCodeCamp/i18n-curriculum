@@ -8,7 +8,7 @@ dashedName: make-code-more-reusable-with-the-this-keyword
 
 # --description--
 
-在上一个挑战中我们了解了该如何给 `duck` 对象设置一个方法。 然后在 return 语句里，我们通过使用 “点号表示法” `duck.name` 来获取 `name` 的属性值：
+The last challenge introduced a method to the `duck` object. It used `duck.name` dot notation to access the value for the `name` property within the return statement:
 
 ```js
 sayName: function() {return "The name of this duck is " + duck.name + ".";}

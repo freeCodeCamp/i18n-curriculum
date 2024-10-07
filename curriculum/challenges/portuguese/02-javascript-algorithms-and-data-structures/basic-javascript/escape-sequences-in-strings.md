@@ -9,9 +9,9 @@ dashedName: escape-sequences-in-strings
 
 # --description--
 
-Aspas não são os únicos caracteres que podem ser <dfn>escapados</dfn> dentro de uma string. As sequências de escape permitem que você use caracteres que você não poderia usar em uma string em outras situações.
+Quotes are not the only characters that can be <dfn>escaped</dfn> inside a string. Escape sequences allow you to use characters you may not otherwise be able to use in a string.
 
-<table><thead><tr><th>Código</th><th>Saída</th></tr></thead><tbody><tr><td><code>\'</code></td><td>aspas simples</td></tr><tr><td><code>\"</code></td><td>aspas duplas</td></tr><tr><td><code>\\</code></td><td>barra invertida</td></tr><tr><td><code>\n</code></td><td>nova linha</td></tr><tr><td><code>\t</code></td><td>tab</td></tr><tr><td><code>\r</code></td><td>retorno de carro</td></tr><tr><td><code>\b</code></td><td>retroceder</td></tr><tr><td><code>\f</code></td><td>quebra de página</td></tr></tbody></table>
+<table><thead><tr><th>Code</th><th>Saída</th></tr></thead><tbody><tr><td><code>\'</code></td><td>single quote</td></tr><tr><td><code>\"</code></td><td>aspas duplas</td></tr><tr><td><code>\\</code></td><td>barra invertida</td></tr><tr><td><code>\n</code></td><td>nova linha</td></tr><tr><td><code>\t</code></td><td>tab</td></tr><tr><td><code>\r</code></td><td>retorno de carro</td></tr><tr><td><code>\b</code></td><td>retroceder</td></tr><tr><td><code>\f</code></td><td>quebra de página</td></tr></tbody></table>
 
 *Note que a própria barra invertida deve ser escapada para ser exibida como uma barra invertida.*
 

@@ -1,6 +1,6 @@
 ---
 id: 5cdafbe72913098997531682
-title: Handle a Rejected Promise with catch
+title: catch를 사용해 거부된 프로미스 처리하기
 challengeType: 1
 forumTopicId: 301204
 dashedName: handle-a-rejected-promise-with-catch
@@ -16,15 +16,15 @@ myPromise.catch(error => {
 });
 ```
 
-`error` is the argument passed in to the `reject` method.
+`error`는 `reject`메소드에 전달되는 인자입니다.
 
 # --instructions--
 
-Add the `catch` method to your promise. Use `error` as the parameter of its callback function and log `error` to the console.
+프로미스에 `catch` 메소드를 추가하세요. `error`를 콜백 함수의 파라미터로 사용하여 `error`를 콘솔에 출력하세요.
 
 # --hints--
 
-You should call the `catch` method on the promise.
+프로미스에서 `catch` 메소드를 호출해야 합니다.
 
 ```js
 assert(
@@ -32,13 +32,13 @@ assert(
 );
 ```
 
-Your `catch` method should have a callback function with `error` as its parameter.
+`catch` 메소드는 `error`을 파라미터로 가지는 콜백 함수를 가져야 합니다.
 
 ```js
 assert(errorIsParameter);
 ```
 
-You should log `error` to the console.
+`error`를 콘솔에 출력해야 합니다.
 
 ```js
 assert(

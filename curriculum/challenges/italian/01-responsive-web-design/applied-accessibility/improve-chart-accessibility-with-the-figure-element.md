@@ -9,7 +9,7 @@ dashedName: improve-chart-accessibility-with-the-figure-element
 
 # --description--
 
-HTML5 ha introdotto l'elemento `figure`, insieme al relativo `figcaption`. Usati insieme, questi elementi contengono una rappresentazione visiva (come un'immagine, un diagramma o un grafico) e la sua didascalia. Avvolgere questi elementi insieme dà un doppio impulso di accessibilità raggruppando semanticamente i contenuti correlati e fornendo un testo alternativo che spiega la `figure`.
+HTML5 introduced the `figure` element and the related `figcaption`. Used together, these items wrap a visual representation (like an image, diagram, or chart) along with its caption. Wrapping these elements together gives a two-fold accessibility boost by semantically grouping related content and providing a text alternative explaining the `figure`.
 
 Per la visualizzazione di dati come nei grafici, la didascalia può essere utilizzata per annotare brevemente le tendenze o i risultati per gli utenti ipovedenti. Un'altra sfida spiegherà come spostare una versione tabulare dei dati del grafico fuori dallo schermo (utilizzando CSS) per chi utilizza uno screen reader.
 

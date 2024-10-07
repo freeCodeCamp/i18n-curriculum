@@ -8,17 +8,17 @@ dashedName: problem-379-least-common-multiple-count
 
 # --description--
 
-Let $f(n)$ be the number of couples ($x$, $y$) with $x$ and $y$ positive integers, $x ≤ y$ and the least common multiple of $x$ and $y$ equal to $n$.
+Sei $f(n)$ die Anzahl der Paare ($x$, $y$) mit $x$ und $y$ positiven Integern, $x ≤ y$ und dem kleinsten gemeinsamen Vielfachen von $x$ und $y$ gleich $n$.
 
 Lasse $g$ die Summationsfunktion von $f$ sein, d.h.: $g(n) = \sum f(i)$ für $1 ≤ i ≤ n$.
 
-You are given that $g({10}^6) = 37\\,429\\,395$.
+Es ist gegeben, dass $g({10}^6) = 37\\,429\\,395$.
 
-Find $g({10}^{12})$.
+Finde $g({10}^{12})$.
 
 # --hints--
 
-`leastCommonMultipleCount()` should return `132314136838185`.
+`leastCommonMultipleCount()` sollte `132314136838185` zurückgeben.
 
 ```js
 assert.strictEqual(leastCommonMultipleCount(), 132314136838185);

@@ -1,6 +1,6 @@
 ---
 id: 5895f70bf9fc0f352b528e64
-title: Use a Template Engine's Powers
+title: Verwende ein Template Engine's Powers
 challengeType: 2
 forumTopicId: 301567
 dashedName: use-a-template-engines-powers
@@ -10,11 +10,11 @@ dashedName: use-a-template-engines-powers
 
 One of the greatest features of using a template engine is being able to pass variables from the server to the template file before rendering it to HTML.
 
-In your Pug file, you're able to use a variable by referencing the variable name as `#{variable_name}` inline with other text on an element or by using an equal sign on the element without a space such as `p=variable_name` which assigns the variable's value to the p element's text.
+In deiner Pug Datei kannst du eine Variable verwenden, indem du den Variablennamen als `#{variable_name}` inline mit einem anderen Text eines Elements verwendest oder indem du ein gleiches Zeichnen auf dem Element ohne Leerzeichen wie `p=variable_name` verwendest, der den Wert der Variable dem Text des Elements zuweist.
 
-Pug is all about using whitespace and tabs to show nested elements and cutting down on the amount of code needed to make a beautiful site.
+Bei Pug dreht sich alles um die Verwendung von Leerzeichen und Tabulatoren, um verschachtelte Elemente anzuzeigen und die Menge an Code zu reduzieren, die für eine schöne Website erforderlich ist.
 
-Take the following Pug code for example:
+Nimm zum Beispiel den folgenden Pug-Code:
 
 ```pug
 head
@@ -42,21 +42,21 @@ Daraus ergibt sich der folgende HTML-Code:
 
 Die in deinem Projekt enthaltene `index.pug`-Datei verwendet die Variablen `title` und `message`.
 
-Pass those from your server to the Pug file by adding an object as a second argument to your `res.render` call with the variables and their values. Give the `title` a value of `Hello` and `message` a value of `Please log in`.
+Übergebe diese von deinem Server an die Pug-Datei, indem du ein Objekt als zweites Argument zu deinem `res.render`-Aufruf mit den Variablen und deinen Werten hinzufügst. Gib dem `title` einen Wert von `Hello` und `message` einen Wert von `Please log in`.
 
-It should look like:
+Es sollte wie folgt aussehen:
 
 ```javascript
 res.render('index', { title: 'Hello', message: 'Please log in' });
 ```
 
-Now refresh your page, and you should see those values rendered in your view in the correct spot as laid out in your `index.pug` file!
+Aktualisiere nun deine Seite, und du solltest diese Werte in deiner Ansicht an der richtigen Stelle sehen, wie sie in deiner `index.pug`-Datei festgelegt ist!
 
-Reiche deine Seite ein, wenn du davon ausgehst, alles richtig gemacht zu haben. If you're running into errors, you can check out the <a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#use-a-template-engines-power-2" target="_blank" rel="noopener noreferrer nofollow">project completed up to this point</a>.
+Reiche deine Seite ein, wenn du davon ausgehst, alles richtig gemacht zu haben. Wenn du auf Fehler stößt, kannst du das <a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#use-a-template-engines-power-2" target="_blank" rel="noopener noreferrer nofollow">bis zu diesem Punkt abgeschlossene Projekt</a> überprüfen.
 
 # --hints--
 
-Pug should correctly render variables.
+Pug sollte Variablen korrekt darstellen.
 
 ```js
 async (getUserInput) => {

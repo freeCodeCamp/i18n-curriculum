@@ -8,7 +8,7 @@ dashedName: catch-mixed-usage-of-single-and-double-quotes
 
 # --description--
 
-JavaScript consente l'uso dell'apostrofo (`'`) e delle virgolette (`"`) per dichiarare una stringa. Decidere quale utilizzare generalmente è una questione di gusti personali, con alcune eccezioni.
+JavaScript allows the use of both single (`'`) and double (`"`) quotes to declare a string. Deciding which one to use generally comes down to personal preference, with some exceptions.
 
 Avere due scelte è ottimo quando una stringa ha all'interno contrazioni o un altro pezzo di testo citato. Basta stare attenti a non chiudere la stringa troppo presto, perché provocherebbe un errore di sintassi.
 

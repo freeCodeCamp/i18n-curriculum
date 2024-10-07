@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: networking-text-processing
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-Which type of encoding do most websites use?
+¿Qué tipo de codificación usan la mayoría de los sitios web?
 
 ## --answers--
 

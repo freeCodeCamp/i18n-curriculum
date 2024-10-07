@@ -8,7 +8,7 @@ dashedName: add-items-to-an-array-with-push-and-unshift
 
 # --description--
 
-Довжина масиву, як і типи даних у ньому, не фіксована. Масиви можуть бути створені з будь-якою кількістю елементів, а елементи можуть бути додані або видалені з плином часу. Іншими словами, масиви <dfn>мінливі</dfn>. У цьому завданні ми розглянемо два методи, за допомогою яких ми можемо програмно змінювати масив: `Array.push()` і `Array.unshift()`.
+An array's length, like the data types it can contain, is not fixed. Arrays can be defined with a length of any number of elements, and elements can be added or removed over time; in other words, arrays are <dfn>mutable</dfn>. In this challenge, we will look at two methods with which we can programmatically modify an array: `Array.push()` and `Array.unshift()`.
 
 Обидва методи приймають один або кілька елементів як параметри і додають ці елементи в масив, для якого викликається метод. Метод `push()` додає елементи в кінець масиву, а `unshift()` додає елементи на початку. Зверніть увагу:
 

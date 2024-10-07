@@ -12,7 +12,7 @@ dashedName: show-the-local-weather
 
 **Rule #1:** Don't look at the example project's code. Figure it out for yourself.
 
-**Rule #2:** Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+**Rule #2:** Fulfill the below user stories and get all of the tests to pass. 필요한 라이브러리나 API를 사용하시오. 자신만의 개성을 담아 디자인을 꾸며보세요.
 
 **User Story:** I can see the weather in my current location.
 

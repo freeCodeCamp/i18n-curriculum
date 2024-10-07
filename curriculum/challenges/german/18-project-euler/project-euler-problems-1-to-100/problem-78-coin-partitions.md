@@ -1,6 +1,6 @@
 ---
 id: 5900f3ba1000cf542c50fecd
-title: 'Problem 78: Coin partitions'
+title: 'Problem 78: Münzteilungen'
 challengeType: 1
 forumTopicId: 302191
 dashedName: problem-78-coin-partitions
@@ -12,15 +12,15 @@ Lasse ${p}(n)$ die Anzahl an verschiedenen Wegen repräsentieren, in denen `n` M
 
 <div style='text-align: center;'>
 
-| Coin piles        |
+| Münzstapel      |
 | ----------------- |
 | OOOOO             |
-| OOOO   O          |
-| OOO   OO          |
-| OOO   O   O       |
-| OO   OO   O       |
-| OO   O   O   O    |
-| O   O   O   O   O |
+| OOOO   O          |
+| OOO   OO          |
+| OOO   O   O       |
+| OO   OO   O       |
+| OO   O   O   O    |
+| O   O   O   O   O |
 
 </div><br>
 

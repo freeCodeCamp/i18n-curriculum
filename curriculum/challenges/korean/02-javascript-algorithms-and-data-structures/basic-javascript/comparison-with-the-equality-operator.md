@@ -9,7 +9,7 @@ dashedName: comparison-with-the-equality-operator
 
 # --description--
 
-자바스크립트에는 여러 <dfn>비교 연산자</dfn>가 있습니다. 이 모든 연산자는 불리언 `true` 또는 `false` 값을 반환합니다.
+There are many <dfn>comparison operators</dfn> in JavaScript. All of these operators return a boolean `true` or `false` value.
 
 가장 기본적인 연산자는 등호 연산자 `==`입니다. 등호 연산자는 두 값을 비교해서 동일하면 `true`를 반환하고 그렇지 않으면 `false`를 반환합니다. 등호는 할당(`=`)과 다르다는 점을 주의하세요. 할당은 연산자 오른쪽의 값을 왼쪽 변수에 할당합니다.
 

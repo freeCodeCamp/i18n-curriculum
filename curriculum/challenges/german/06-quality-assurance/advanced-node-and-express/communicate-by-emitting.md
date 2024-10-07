@@ -8,21 +8,21 @@ dashedName: communicate-by-emitting
 
 # --description--
 
-<dfn>Emit</dfn> ist die häufigste Art der Kommunikation, die du verwenden wirst. Wenn du etwas vom Server an 'io' sendest, sendest du den Namen und die Daten eines Ereignisses an alle verbundenen Sockets. Ein gutes Beispiel für dieses Konzept wäre, jedes Mal, wenn sich ein neuer Benutzer anmeldet, die aktuelle Anzahl der verbundenen Benutzer auszugeben!
+<dfn>Emit</dfn> is the most common way of communicating you will use. When you emit something from the server to 'io', you send an event's name and data to all the connected sockets. A good example of this concept would be emitting the current count of connected users each time a new user connects!
 
-Start by adding a variable to keep track of the users, just before where you are currently listening for connections.
+Füge zunächst eine Variable hinzu, um die Benutzer zu verfolgen, und zwar kurz vor der Stelle, an der du gerade auf Verbindungen wartest.
 
 ```js
 let currentUsers = 0;
 ```
 
-Now, when someone connects, you should increment the count before emitting the count. So, you will want to add the incrementer within the connection listener.
+Wenn sich nun jemand verbindet, solltest du den Zähler vor dem Emittieren erhöhen. Deshalb solltest du den Zuwachszähler innerhalb des Verbindungs-Listeners hinzufügen.
 
 ```js
 ++currentUsers;
 ```
 
-Finally, after incrementing the count, you should emit the event (still within the connection listener). Das Ereignis sollte 'user count' heißen und die Daten sollten einfach `currentUsers` sein.
+Schließlich, nachdem du die Anzahl erhöht hast, solltest du das Ereignis emittieren (noch innerhalb des Verbindung-Listeners). Das Ereignis sollte 'user count' heißen und die Daten sollten einfach `currentUsers` sein.
 
 ```js
 io.emit('user count', currentUsers);
@@ -72,7 +72,7 @@ async (getUserInput) => {
 }
 ```
 
-Your client should be listening for `'user count'` event.
+Dein Client sollte auf das `'user count'`-Ereignis warten.
 
 ```js
 async (getUserInput) => {

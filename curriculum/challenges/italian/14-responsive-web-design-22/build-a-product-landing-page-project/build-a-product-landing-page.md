@@ -10,9 +10,9 @@ dashedName: build-a-product-landing-page
 
 **Objective:** Build an app that is functionally similar to <a href="https://product-landing-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://product-landing-page.freecodecamp.rocks</a>. **Do not copy this demo project**.
 
-**User story:**
+**User story (storia d'utente):**
 
-1. La landing page del prodotto dovrebbe avere un elemento `header` con un corrispondente `id="header"`
+1. Your product landing page should have a `header` element with a corresponding `id="header"`
 1. Dovresti avere un'immagine dentro l'elemento `header` con un attributo corrispondente `id="header-img"` (un logo sarebbe una buona scelta)
 1. Dentro l'elemento `#header`, dovresti avere un elemento `nav` con un corrispondente attributo `id="nav-bar"`
 1. Dovresti avere almeno tre elementi cliccabili dentro l'elemento `nav`, ognuno con la classe `nav-link`
@@ -28,20 +28,20 @@ dashedName: build-a-product-landing-page
 1. La landing page dovrebbe avere almeno una media query
 1. La landing page dovrebbe utilizzare CSS flexbox almeno una volta
 
-Soddisfa le user story e supera tutti i test qui sotto per completare questo progetto. Usa il tuo stile personale. Buon divertimento!
+Soddisfa le user story e supera tutti i test qui sotto per completare questo progetto. Usa il tuo stile personale. Buon Coding!
 
-**Nota:** Assicurati di aggiungere `<link rel="stylesheet" href="styles.css">` nel tuo HTML per linkare il foglio di stile e applicare il CSS
+**Nota:** Assicurati di aggiungere `<link rel="stylesheet" href="styles.css">` nell'HTML per linkare il foglio di stile e applicare il CSS
 
 # --hints--
 
-Dovresti avere un elemento `header` con un `id` del valore di `header`.
+Dovresti avere un elemento `header` con un `id` di `header`.
 
 ```js
 const el = document.getElementById('header')
 assert(!!el && el.tagName === 'HEADER')
 ```
 
-Dovresti avere un elemento `img` con un attributo `id` del valore di `header-img`.
+Dovresti avere un elemento `img` con un attributo `id` di `header-img`.
 
 ```js
 const el = document.getElementById('header-img')
@@ -69,7 +69,7 @@ const el = document.getElementById('header-img')
 assert(!!el && /^http/.test(el.src))
 ```
 
-Dovresti avere un elemento `nav` con un `id` del valore di `nav-bar`.
+Dovresti avere un elemento `nav` con un `id` di `nav-bar`.
 
 ```js
 const el = document.getElementById('nav-bar')
@@ -100,7 +100,7 @@ els.forEach(el => {
 assert(els.length > 0)
 ```
 
-Ogni elemento `.nav-link` dovrebbe linkare a un elemento corrispondente nella pagina (quindi ha un attributo `href` con il valore dell'id di un altro elemento, ad esempio `#footer`).
+Ogni elemento `.nav-link` dovrebbe linkare a un elemento corrispondente nella pagina (quindi dovrebbe avere un attributo `href` con il valore dell'id di un altro elemento, ad esempio `#footer`).
 
 ```js
 const els = document.querySelectorAll('.nav-link')
@@ -111,7 +111,7 @@ els.forEach(el => {
 assert(els.length > 0)
 ```
 
-Dovresti avere un elemento `video` o `iframe` con un `id` del valore di `video`.
+Dovresti avere un elemento `video` o `iframe` con un `id` di `video`.
 
 ```js
 const el = document.getElementById('video')
@@ -133,14 +133,14 @@ if (sourceElement) {
 assert(el.hasAttribute('src'));
 ```
 
-Dovresti avere un elemento `form` con un attributo `id` del valore di `form`.
+Dovresti avere un elemento `form` con un attributo `id` di `form`.
 
 ```js
 const el = document.getElementById('form')
 assert(!!el && el.tagName === 'FORM')
 ```
 
-Dovresti avere un elemento `input` con un `id` del valore di `email`.
+Dovresti avere un elemento `input` con un `id` di `email`.
 
 ```js
 const el = document.getElementById('email')
@@ -168,7 +168,7 @@ const el = document.getElementById('email')
 assert(!!el && el.type === 'email')
 ```
 
-Dovresti avere un elemento `input` con un `id` del valore di `submit`.
+Dovresti avere un elemento `input` con un `id` di `submit`.
 
 ```js
 const el = document.getElementById('submit')

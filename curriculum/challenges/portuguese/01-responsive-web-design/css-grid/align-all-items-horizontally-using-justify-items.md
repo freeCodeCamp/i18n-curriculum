@@ -9,7 +9,7 @@ dashedName: align-all-items-horizontally-using-justify-items
 
 # --description--
 
-Às vezes, você quer que todos os itens no seu grid possuam o mesmo alinhamento. Você pode usar as propriedades aprendidas anteriormente e alinhá-los individualmente ou pode alinhá-los todos de uma vez horizontalmente usando a propriedade `justify-items` em seu grid container. Essa propriedade aceita todos os mesmos valores que você aprendeu nos dois desafios anteriores. A diferença é que ela moverá **todos** os itens do grid para o alinhamento especificado.
+Sometimes you want all the items in your CSS Grid to share the same alignment. You can use the previously learned properties and align them individually, or you can align them all at once horizontally by using `justify-items` on your grid container. This property can accept all the same values you learned about in the previous two challenges, the difference being that it will move **all** the items in our grid to the desired alignment.
 
 # --instructions--
 

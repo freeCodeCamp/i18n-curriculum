@@ -11,7 +11,7 @@ dashedName: target-even-elements-using-jquery
 
 # --description--
 
-也可以用基於位置的奇 `:odd` 和偶 `:even` 選擇器選取標籤。
+You can also target elements based on their positions using `:odd` or `:even` selectors.
 
 注意，jQuery 是零索引（zero-indexed）的，這意味着第 1 個標籤的位置編號是 0。 這有點混亂和反常——`:odd` 表示選擇第 2 個標籤（位置編號 1）、第 4 個標籤（位置編號 3）……等等，以此類推。
 

@@ -8,7 +8,7 @@ dashedName: use-advanced-javascript-in-react-render-method
 
 # --description--
 
-In früheren Aufgaben hast du gelernt, wie du mit geschweiften Klammern (`{ }`) JavaScript-Code in JSX-Code einfügst, z. B. für den Zugriff auf Eigenschaften (props), die Übergabe von Eigenschaften, den Zugriff auf den Zustand (state), das Einfügen von Kommentaren in deinen Code und vor allem für das Styling deiner Komponenten. Das sind alles gängige Anwendungsfälle für JavaScript in JSX, aber sie sind nicht die einzige Möglichkeit, wie du JavaScript-Code in deinen React-Komponenten verwenden kannst.
+In previous challenges, you learned how to inject JavaScript code into JSX code using curly braces, `{ }`, for tasks like accessing props, passing props, accessing state, inserting comments into your code, and most recently, styling your components. These are all common use cases to put JavaScript in JSX, but they aren't the only way that you can utilize JavaScript code in your React components.
 
 Du kannst JavaScript auch direkt in deine `render`-Methoden schreiben, vor der `return`-Anweisung, ***ohne*** es in geschweifte Klammern einzufügen. Das liegt daran, dass sie noch nicht im JSX-Code enthalten ist. Wenn du eine Variable später im JSX-Code *innerhalb* der `return`-Anweisung verwenden willst, setzt du den Variablennamen in geschweifte Klammern.
 

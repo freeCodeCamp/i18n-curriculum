@@ -8,7 +8,7 @@ dashedName: use-the-every-method-to-check-that-every-element-in-an-array-meets-a
 
 # --description--
 
-Метод `every` працює з масивами, щоб перевірити, чи *кожен* елемент проходить певний тест. Він повертає булеве значення `true`, якщо всі значення відповідають критеріям або `false`, якщо навпаки.
+The `every` method works with arrays to check if *every* element passes a particular test. It returns a Boolean value - `true` if all values meet the criteria, `false` if not.
 
 Наприклад, наступний код перевіряє, чи всі елементи в масиві `numbers` менші за 10:
 

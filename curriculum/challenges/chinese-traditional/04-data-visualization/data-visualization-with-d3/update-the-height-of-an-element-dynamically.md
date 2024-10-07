@@ -8,7 +8,7 @@ dashedName: update-the-height-of-an-element-dynamically
 
 # --description--
 
-之前的挑戰包括如何從數組中顯示數據和如何添加 CSS 類。 將這些課程的內容結合起來，你就能創建出一個簡單的條形圖， 只需兩步：
+The previous challenges covered how to display data from an array and how to add CSS classes. You can combine these lessons to create a simple bar chart. There are two steps to this:
 
 1) 爲每一個數組中的數據點都創建一個 `div`
 

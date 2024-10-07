@@ -1,6 +1,6 @@
 ---
 id: 587d8256367417b2b2512c7a
-title: Find the Minimum and Maximum Value in a Binary Search Tree
+title: 在二叉搜索樹中查找最小值和最大值
 challengeType: 1
 forumTopicId: 301642
 dashedName: find-the-minimum-and-maximum-value-in-a-binary-search-tree
@@ -12,7 +12,7 @@ In this challenge you will define two methods, `findMin` and `findMax`. These me
 
 # --hints--
 
-The `BinarySearchTree` data structure should exist.
+存在 `BinarySearchTree` 數據結構。
 
 ```js
 assert(
@@ -26,7 +26,7 @@ assert(
 );
 ```
 
-The binary search tree should have a method called `findMin`.
+二叉搜索樹應該有一個名爲 `findMin` 的方法。
 
 ```js
 assert(
@@ -42,7 +42,7 @@ assert(
 );
 ```
 
-The binary search tree should have a method called `findMax`.
+二叉搜索樹應該有一個名爲 `findMax` 的方法。
 
 ```js
 assert(
@@ -58,7 +58,7 @@ assert(
 );
 ```
 
-The `findMin` method should return the minimum value in the binary search tree.
+`findMin` 方法應該返回二叉搜索樹中的最小值。
 
 ```js
 assert(
@@ -85,7 +85,7 @@ assert(
 );
 ```
 
-The `findMax` method should return the maximum value in the binary search tree.
+`findMax` 方法應該返回二叉搜索樹中的最大值。
 
 ```js
 assert(
@@ -112,7 +112,7 @@ assert(
 );
 ```
 
-The `findMin` and `findMax` methods should return `null` for an empty tree.
+`findMin` 和 `findMax` 方法應該爲空樹返回 `null`。
 
 ```js
 assert(

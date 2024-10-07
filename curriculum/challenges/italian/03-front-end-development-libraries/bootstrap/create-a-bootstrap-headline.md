@@ -8,7 +8,7 @@ dashedName: create-a-bootstrap-headline
 
 # --description--
 
-Ora costruiamo qualcosa da zero per fare pratica con le nostre abilità HTML, CSS e Bootstrap.
+Now let's build something from scratch to practice our HTML, CSS and Bootstrap skills.
 
 Costruiremo un "terreno di gioco" che presto useremo con le nostre sfide jQuery.
 

@@ -9,7 +9,7 @@ dashedName: comparisons-with-the-logical-or-operator
 
 # --description--
 
-يرجع مشغل <dfn>إي من</dfn> (logical or) الآتي (`||`) القيمة `true` إذا كان أي من <dfn>المعاملتين</dfn> هما `true`. خلاف ذلك، فإنه يرجع `false`.
+The <dfn>logical or</dfn> operator (`||`) returns `true` if either of the <dfn>operands</dfn> is `true`. Otherwise, it returns `false`.
 
 يتكون مشغل <dfn>إي من</dfn> من رمزين و هما خطين مستقيمين كالآتي: (`||`). يمكن العثور على هذا الرمز عادة بين مفاتيح Backspace و Enter.
 

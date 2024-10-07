@@ -9,7 +9,7 @@ dashedName: avoid-colorblindness-issues-by-using-sufficient-contrast
 
 # --description--
 
-Farbe ist ein großer Teil des visuellen Designs, dessen Verwendung allerdings zu zwei Problemen der Barrierefreiheit führt. Zuerst einmal sollte Farbe allein nicht als einzige Möglichkeit verwendet werden, um wichtige Informationen zu vermitteln, da Benutzer von Screenreadern diese nicht sehen werden. Zweitens müssen Vorder- und Hintergrundfarben einen ausreichenden Kontrast aufweisen, damit farbenblinde Benutzer sie unterscheiden können.
+Color is a large part of visual design, but its use introduces two accessibility issues. First, color alone should not be used as the only way to convey important information because screen reader users won't see it. Second, foreground and background colors need sufficient contrast so colorblind users can distinguish them.
 
 Frühere Aufgaben behandelten Alternativtexte, um das erste Problem zu lösen. Die letzte Aufgabe führte Werkzeuge für die Kontrastprüfung ein, um gegen das zweite Problem vorzugehen. Das von den WCAG empfohlene Kontrastverhältnis von 4.5:1 gilt sowohl für die Verwendung von Farben als auch für Graustufenkombinationen.
 

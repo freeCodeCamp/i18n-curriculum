@@ -7,7 +7,7 @@ dashedName: css-foundations-exercise-d
 
 # --description--
 
-With this exercise, we've provided you a completed HTML file, so you will only have to edit the CSS file. Bei dieser Übung ist es wichtiger zu verstehen, wie die Verkettung verschiedener Selektoren funktioniert, als zu wissen, wie man die Attribute tatsächlich hinzufügt.
+Für diese Übung haben wir dir eine fertige HTML-Datei zur Verfügung gestellt, sodass du nur noch die CSS-Datei bearbeiten musst. Bei dieser Übung ist es wichtiger zu verstehen, wie die Verkettung verschiedener Selektoren funktioniert, als zu wissen, wie man die Attribute tatsächlich hinzufügt.
 
 1. Du solltest eine `width` von `300px` auf dem `avatar` und der `proportioned`-Klasse sehen.
 1. Du solltest ihm eine Höhe geben, damit es seine ursprünglichen quadratischen Proportionen beibehält (gib für die Höhe keinen Hardcode-Pixelwert ein!).

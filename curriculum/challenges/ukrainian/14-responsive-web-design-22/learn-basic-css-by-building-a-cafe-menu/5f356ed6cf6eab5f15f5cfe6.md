@@ -13,7 +13,7 @@ dashedName: step-20
 
 # --hints--
 
-Початковий тег `<div>` повинен мати атрибут `id` зі значенням `menu`.
+Початковий тег`<div>` повинен мати атрибут `id` зі значенням `menu`.
 
 ```js
 assert.strictEqual(document.querySelector('div')?.id, 'menu');

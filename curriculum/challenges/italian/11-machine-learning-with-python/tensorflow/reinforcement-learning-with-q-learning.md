@@ -18,19 +18,19 @@ The next few video lessons will reference [this Colab notebook](https://colab.re
 
 ## --text--
 
-Le componenti chiave dell'apprendimento per rinforzo sono...
+The key components of reinforcement learning are...
 
 ## --answers--
 
-ambiente, rappresentazione, stato, reazione e ricompensa.
+environment, representative, state, reaction, and reward.
 
 ---
 
-ambiente, agente, stato, azione e ricompensa.
+environment, agent, state, action, and reward.
 
 ---
 
-habitat, agente, stato, azione e punizione.
+habitat, agent, state, action, and punishment.
 
 ## --video-solution--
 

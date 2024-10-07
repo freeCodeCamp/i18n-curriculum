@@ -1,6 +1,6 @@
 ---
 id: 587d774d367417b2b2512a9e
-title: Use Headings to Show Hierarchical Relationships of Content
+title: استخدم العناوين لعرض علاقات تسلسل المحتوى
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cqVEktm'
 forumTopicId: 301026
@@ -11,41 +11,41 @@ dashedName: use-headings-to-show-hierarchical-relationships-of-content
 
 Headings (`h1` through `h6` elements) are workhorse tags that help provide structure and labeling to your content. Screen readers can be set to read only the headings on a page so the user gets a summary. This means it is important for the heading tags in your markup to have semantic meaning and relate to each other, not be picked merely for their size values.
 
-*Semantic meaning* means that the tag you use around content indicates the type of information it contains.
+نقصد بمصطلح المعنى التوضيحي *Semantic meaning*، بأن الوسم المُستخدم في المحتوى يجب أن يدل على نوع المعلومات التي يحتويها.
 
-If you were writing a paper with an introduction, a body, and a conclusion, it wouldn't make much sense to put the conclusion as a subsection of the body in your outline. It should be its own section. Similarly, the heading tags in a webpage need to go in order and indicate the hierarchical relationships of your content.
+على سبيل المثال، إن كنت تكتب مقالةً تحتوي على مقدمة ومحتوى واستنتاج، لن يكون من المنطقي وضع الاستنتاج كقسم فرعي من المحتوى في مخطط المقال. فمن المفروض أن يكون موجودًا في قسمه الخاص. يجب أن تكون وسوم العناوين في صفحة الويب بالترتيب بالمثل، بحيث تدلّ على علاقات التسلسل الهرمي للمحتوى.
 
-Headings with equal (or higher) rank start new implied sections, headings with lower rank start subsections of the previous one.
+نحصل على أقسام جديدة عند استخدام عناوين برتبة متساوية (أو أكبر) للعنوان الذي يسبقها، ونحصل على أقسام فرعية باستخدام عناوين برتبة أصغر من العنوان الذي يسبقها.
 
-As an example, a page with an `h2` element followed by several subsections labeled with `h4` elements would confuse a screen reader user. With six choices, it's tempting to use a tag because it looks better in a browser, but you can use CSS to edit the relative sizing.
+على سبيل المثال، ستشوّش صفحة تحتوي على عنصر `h2` متبوعًا بعدّة بعدّة أقسام فرعية بعنوان `h4` تركيز مستخدم قارئ الشاشة. لربّما يكون استخدام هذا النوع من الوسوم جذابًا نظرًا إلى الخيارات الستّ الواسعة وأن شكلها جيّد عند استعراضها باستخدام المتصفح، إلا أنه بإمكانك استخدام CSS للتعديل على أحجام العناوين النسبية.
 
-One final point, each page should always have one (and only one) `h1` element, which is the main subject of your content. This and the other headings are used in part by search engines to understand the topic of the page.
+أخيرًا، يجب على كلّ صفحة أن تحتوي دائمًا على عنصر `h1` واحد فقط، الذي يدل على الموضوع الرئيس لمحتوى هذه الصفحة. يُستخدم هذا العنوان -بالإضافة إلى العناوين الأخرى- من قبل محركات البحث حتى تستطيع فهم موضوع الصفحة.
 
 # --instructions--
 
-يريد Camper Cat صفحة مخصصة على موقعه الإلكتروني لتعليم النينجا. Help him fix the headings so his markup gives semantic meaning to the content, and shows the proper parent-child relationships of his sections. Change all the `h5` tags to the proper heading level to indicate they are subsections of the `h2` ones. Use `h3` tags for the purpose.
+يريد Camper Cat صفحة مخصصة على موقعه الإلكتروني لتعليم النينجا. ساعده في تصحيح العناوين حتى يصبح هيكل الصفحة ذو معنى دلالي للمحتوى، وأن يحتوي على العلاقات الصحيحة بين الأب والإبن ضمن أقسام الصفحة. عدّل جميع وسوم `h5` إلى رتبة العنوان الصحيحة للدلالة على أن الفقرات أقسام فرعية من العناوين `h2`. واستخدم وسوم `h3` لتحقيق ذلك.
 
 # --hints--
 
-Your code should have 6 `h3` elements.
+يجب أن تحتوي شيفرتك البرمجية على 6 عناصر `h3`.
 
 ```js
 assert.lengthOf(document.querySelectorAll('h3') , 6);
 ```
 
-Your code should have 6 `h3` closing tags.
+يجب أن تحتوي شيفرتك البرمجية على 6 وسوم إغلاق للعنوان `h3`.
 
 ```js
 assert.lengthOf((code.match(/\/h3/g) || []) ,6);
 ```
 
-Your code should not have any `h5` elements.
+يجب ألّا تحتوي شيفرتك البرمجية على أي عناصر `h5`.
 
 ```js
 assert.isEmpty(document.querySelectorAll('h5'));
 ```
 
-Your code should not have any `h5` closing tags.
+يجب ألّا تحتوي شيفرتك البرمجية على أي وسوم إغلاق للعنوان `h5`.
 
 ```js
 assert.notMatch(code, /\/h5/);

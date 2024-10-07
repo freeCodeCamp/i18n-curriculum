@@ -11,7 +11,7 @@ dashedName: target-elements-by-class-using-jquery
 
 # --description--
 
-Зрозуміли, як ми змусили всі елементи `button` стрибати? Ми вибрали їх за допомогою `$("button")`, а потім додали декілька класів CSS за допомогою `.addClass("animated bounce");`.
+You see how we made all of your `button` elements bounce? We selected them with `$("button")`, then we added some CSS classes to them with `.addClass("animated bounce");`.
 
 Ви щойно використали функцію `.addClass()`, яка дозволяє додавати класи до елементів.
 
@@ -35,7 +35,7 @@ $(".text-primary").addClass("animated shake");
 assert($('.well').hasClass('animated') && $('.well').hasClass('shake'));
 ```
 
-Для додавання цих класів використовуйте лише jQuery.
+Для додавання цих класів до елемента використовуйте лише jQuery.
 
 ```js
 assert(!code.match(/class\.\*animated/g));

@@ -8,11 +8,11 @@ dashedName: build-a-technical-documentation-page
 
 # --description--
 
-**Objetivo:** construye una app que sea funcionalmente similar a <a href="https://technical-documentation-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://technical-documentation-page.freecodecamp.rocks</a>. **No copies este proyecto de demostración**.
+**Objective:** Build an app that is functionally similar to <a href="https://technical-documentation-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://technical-documentation-page.freecodecamp.rocks</a>. **Do not copy this demo project**.
 
-**Historias de Usuario:**
+**Instrucciones:**
 
-1. Puedes ver un elemento `main` con su correspondiente `id="main-doc"`, el cual abarcará el contenido principal de la página (documentación técnica)
+1. You can see a `main` element with a corresponding `id="main-doc"`, which contains the page's main content (technical documentation)
 1. Dentro del elemento `#main-doc`, se pueden ver varios elementos `section`, cada uno con la clase `main-section`. Debe haber un mínimo de cinco
 1. El primer elemento dentro de cada `.main-section` debería ser un elemento `header`, el cual contendrá texto que describa el tema de esa sección.
 1. Cada elemento `section` con la clase `main-section` debería tener también un `id` que corresponda al texto de cada `header` contenido dentro de él. Cualquier espacio debe ser reemplazado por guiones bajos ( Ejemplo: La sección que contiene el encabezado "JavaScript and Java" debe tener un `id="JavaScript_and_Java"`)
@@ -28,9 +28,9 @@ dashedName: build-a-technical-documentation-page
 1. En dispositivos de tamaño normal (portatiles, computadoras de escritorio), el elemento con `id="navbar"` debe mostrarse en el lado izquierdo de la pantalla y siempre ser visible para el usuario
 1. Tu documentación técnica debe usar al menos una media query
 
-Completa las historias de usuario y pasa todas las pruebas a continuación para completar este proyecto. Dale tu propio estilo personal. ¡Feliz día programando!
+Completa las intrucciones y pasa los tests de abajo para completar este projecto. Dale tu estilo personal. ¡Que tengas una feliz programación!
 
-**Nota:** Asegúrate de agregar `<link rel="stylesheet" href="styles.css">` en tu HTML para enlazar tu hoja de estilos y aplicar tu CSS
+**Nota:** Asegúrese de adicionar `<link rel="stylesheet" href="styles.css">` en su HTML para enlazar su hoja de estilos y aplicarla a su CSS
 
 # --hints--
 
@@ -95,7 +95,7 @@ els.forEach(el => {
 assert(els.length > 0)
 ```
 
-Cada `.main-section` debe tener un `id` que coincida con el texto de su primer hijo, para tener espacios en el texto de su hijo reemplace los espacios por (`_`) para los id.
+Cada `.main-section` debe tener un `id` que coincida con el texto de su primer hijo, reemplazando los espacios en el texto del hijo con guiones bajos (`_`) para los id.
 
 ```js
 const els = document.querySelectorAll('.main-section')
@@ -148,7 +148,7 @@ const els = document.querySelectorAll('a.nav-link')
 assert(els.length >= 1)
 ```
 
-Todos tus elementos `.nav-link` deben ser elementos de anclaje (`a`).
+Todos tus elementos `.nav-link` deben ser elementos ancla (`a`).
 
 ```js
 const els = document.querySelectorAll('.nav-link')
@@ -174,7 +174,7 @@ const els2 = document.querySelectorAll('.nav-link')
 assert(els1.length > 0 && els2.length > 0 && els1.length === els2.length)
 ```
 
-El elemento `header` en el `#navbar` debe estar antes que cualquier enlace (`a`) en el `#navbar`.
+El elemento `header` en el `#navbar` debe estar antes de cualquiera de los elementos enlace (`a`) también en la `#navbar`.
 
 ```js
 const navLinks = document.querySelectorAll('#navbar a.nav-link');
@@ -203,7 +203,7 @@ const remainder = headerText.filter(str => linkText.indexOf(str) === -1)
 assert(headerText.length > 0 && linkText.length > 0 && remainder.length === 0)
 ```
 
-Cada `.nav-link` debe tener un atributo `href` que enlace a su correspondiente `.main-section` (por ejemplo, si haces clic en un elemento `.nav-link` que contenga el texto "Hello world", la pagina navega al elemento `section` con ese id).
+Cada `.nav-link` debe tener un atributo `href` que enlace a su correspondiente `.main-section` (por ejemplo, si haces clic en un elemento `.nav-link` que contenga el texto "Hello world", la página navega al elemento `section` con ese id).
 
 ```js
 const hrefValues = Array.from(document.querySelectorAll('.nav-link')).map(el => el.getAttribute('href'))
@@ -221,7 +221,7 @@ const left2 = el?.offsetLeft
 assert(!!el && left1 >= -15 && left1 <= 15 && left2 >= -15 && left2 <= 15)
 ```
 
-Tu proyecto de documentación técnica debe usar al menos una media query.
+Tu proyecto de documentación técnica debe usar al menos una consulta de medios.
 
 ```js
 const htmlSourceAttr = Array.from(document.querySelectorAll('source')).map(el => el.getAttribute('media'))

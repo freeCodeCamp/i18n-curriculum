@@ -9,7 +9,7 @@ dashedName: use-multiple-conditional-ternary-operators
 
 # --description--
 
-以前のチェレンジでは単一条件演算子を使用しました。 それらをまとめて、複数の条件をチェックすることもできます。
+In the previous challenge, you used a single conditional operator. You can also chain them together to check for multiple conditions.
 
 次の関数は `if` ステートメント、`else if` ステートメント、`else` ステートメントを使用して、複数の条件をチェックしています。
 
@@ -37,7 +37,7 @@ function findGreaterOrEqual(a, b) {
 }
 ```
 
-上記のように、各条件が別々の行となるように複数条件演算子を記述することをお勧めします。 適切なインデントを付けずに複数条件演算子を使用すると、コードが読みにくくなる可能性があります。 例:
+上記のように、各条件が別々の行となるように複数条件演算子を記述することをお勧めします。 適切なインデントを付けずに複数条件演算子を使用すると、コードが読みにくくなる可能性があります。 例えば、次のようになります。
 
 ```js
 function findGreaterOrEqual(a, b) {

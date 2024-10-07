@@ -8,7 +8,7 @@ dashedName: build-a-periodic-table-database
 
 # --description--
 
-这是你获得认证的必做项目之一。 For this project, you will create a Bash script to get information about chemical elements from a periodic table database.
+This is one of the required projects to earn your certification. For this project, you will create a Bash script to get information about chemical elements from a periodic table database.
 
 # --instructions--
 

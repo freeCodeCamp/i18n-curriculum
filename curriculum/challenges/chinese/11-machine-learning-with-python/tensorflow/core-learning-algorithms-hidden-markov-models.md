@@ -14,7 +14,7 @@ dashedName: core-learning-algorithms-hidden-markov-models
 
 ## --text--
 
-隐马尔科夫模型与线性回归或分类有何不同？
+What makes a Hidden Markov model different than linear regression or classification?
 
 ## --answers--
 

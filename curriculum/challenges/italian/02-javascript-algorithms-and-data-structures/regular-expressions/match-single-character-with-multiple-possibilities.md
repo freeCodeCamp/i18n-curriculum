@@ -8,7 +8,7 @@ dashedName: match-single-character-with-multiple-possibilities
 
 # --description--
 
-Hai imparato come riconosce i pattern letterali (`/literal/`) e i caratteri jolly (`/./`). Questi sono i due estremi delle espressioni regolari, dove uno trova corrispondenze esatte, e l'altro corrispondono a qualunque carattere. Ci sono opzioni che sono un equilibrio tra i due estremi.
+You learned how to match literal patterns (`/literal/`) and wildcard character (`/./`). Those are the extremes of regular expressions, where one finds exact matches and the other matches everything. There are options that are a balance between the two extremes.
 
 È possibile cercare un pattern letterale con una certa flessibilità con le <dfn>classi di caratteri</dfn>. Le classi di caratteri consentono di definire un gruppo di caratteri che si desidera riconoscere posizionandoli all'interno di parentesi quadre (`[` e `]`).
 

@@ -8,7 +8,7 @@ dashedName: get-json-with-the-javascript-xmlhttprequest-method
 
 # --description--
 
-Você também pode solicitar dados de uma fonte externa. Esse é o ponto em que as APIs entram no jogo.
+You can also request data from an external source. This is where APIs come into play.
 
 Lembre-se de que as APIs - ou Interfaces de Programação de Aplicativos - são ferramentas que os computadores usam para se comunicarem uns com os outros. Você aprenderá como atualizar o HTML com os dados que recebemos das APIs usando uma tecnologia chamada AJAX.
 

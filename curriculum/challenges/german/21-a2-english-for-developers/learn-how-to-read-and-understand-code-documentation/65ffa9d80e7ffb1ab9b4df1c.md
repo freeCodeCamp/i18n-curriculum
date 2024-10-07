@@ -1,6 +1,6 @@
 ---
 id: 65ffa9d80e7ffb1ab9b4df1c
-title: Task 11
+title: Aufgabe 11
 challengeType: 22
 dashedName: task-11
 ---
@@ -9,7 +9,7 @@ dashedName: task-11
 
 # --description--
 
-Listen to the audio and complete the sentence.
+Höre das Audio und vervollständige den Satz.
 
 # --fillInTheBlank--
 

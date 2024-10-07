@@ -7,7 +7,7 @@ dashedName: step-47
 
 # --description--
 
-在新的章節中添加一個 `h2` 元素，並給它文本 `Desserts`。
+Add an `h2` element in the new section and give it the text `Desserts`.
 
 # --hints--
 

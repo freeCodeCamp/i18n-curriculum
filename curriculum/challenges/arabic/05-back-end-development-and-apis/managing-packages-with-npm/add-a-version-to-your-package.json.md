@@ -8,7 +8,7 @@ dashedName: add-a-version-to-your-package-json
 
 # --description--
 
-إن `version` أحد الخانات المطلوبة في ملفك package.json. هذه الخانة تصف الإصدار الحالي من مشروعك. إليك مثال:
+A `version` is one of the required fields of your package.json file. This field describes the current version of your project. إليك مثال:
 
 ```json
 "version": "1.2.0",

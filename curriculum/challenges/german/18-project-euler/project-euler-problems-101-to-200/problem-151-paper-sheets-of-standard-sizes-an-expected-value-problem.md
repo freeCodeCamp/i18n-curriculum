@@ -20,7 +20,7 @@ Alle unbenutzten Blätter werden in den Umschlag zurückgelegt.
 
 Zu Beginn jedes weiteren Stapels nimmt er ein Blatt Papier nach dem Zufallsprinzip aus dem Umschlag. Wenn es die Größe A5 hat, verwendet er es. Ist sie größer, wiederholt er die Prozedur des "Halbierens", bis er hat, was er braucht, und legt die restlichen Blätter danach immer zurück in den Umschlag.
 
-Excluding the first and last batch of the week, find the expected number of times (during each week) that the foreman finds a single sheet of paper in the envelope.
+Finde heraus, wie oft der Vorarbeiter voraussichtlich (in jeder Woche) ein einzelnes Blatt Papier im Umschlag findet, wenn er den ersten und letzten Lauf der Woche ausschließt.
 
 Gib deine Antwort auf sechs Dezimalstellen gerundet in der Form `x.xxxxxx` an.
 

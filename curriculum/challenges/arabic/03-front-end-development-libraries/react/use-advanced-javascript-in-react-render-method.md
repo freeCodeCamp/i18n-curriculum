@@ -8,7 +8,7 @@ dashedName: use-advanced-javascript-in-react-render-method
 
 # --description--
 
-في التحديات السابقة، تعلمت كيفية حقن كود JavaScript في كود JSX باستخدام الأقواس المنحنية، `{ }`، للمهام مثل الوصول إلى props، وتمرير prop، والوصول إلى state، وإدراج التعليقات في كودك، ومؤخراً تصميم مكوناتك (components). هذا كلها حالات استخدام شائعة لوضع JavaScript في JSX، لكنهم ليسوا الطريقة الوحيدة التي يمكنك بها استخدام تعلميات JavaScript البرمجية في مكونات React الخاصة بك.
+In previous challenges, you learned how to inject JavaScript code into JSX code using curly braces, `{ }`, for tasks like accessing props, passing props, accessing state, inserting comments into your code, and most recently, styling your components. These are all common use cases to put JavaScript in JSX, but they aren't the only way that you can utilize JavaScript code in your React components.
 
 يمكنك أيضًا كتابة JavaScript قاصدًا في طرقك (methods) تسمى `render`، قبل بيان `return`، و***دون*** إدراجه داخل أقواس منحنية (curly braces). هذا لأنه ليس ضمن تعلميات JSX البرمجية. عندما تريد استخدام متغير (variable) في كود JSX *داخل* تعبير `return` لاحقاً، ضع اسم المتغير (variable) داخل الأقواس المنحنية (curly braces).
 

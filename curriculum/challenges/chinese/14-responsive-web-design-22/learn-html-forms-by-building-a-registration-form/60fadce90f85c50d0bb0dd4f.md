@@ -7,7 +7,7 @@ dashedName: step-47
 
 # --description--
 
-选择 `fieldset`，设置其 `border-bottom` 为 `3px solid #3b3b4f`，来给它们添加一些间距。
+To give the `fieldset` elements a bit of separation, select them and give them a `border-bottom` of `3px solid #3b3b4f`.
 
 # --hints--
 

@@ -7,7 +7,7 @@ dashedName: step-31
 
 # --description--
 
-Después del último elemento `img` añade un elemento `figcaption` con el texto `Cats hate other cats.`
+After the last `img` element, add a `figcaption` element with the text `Cats hate other cats.`
 
 # --hints--
 
@@ -66,7 +66,7 @@ assert(
 );
 ```
 
-El elemento `figcaption` debe tener el texto `Cats hate other cats.` Has omitido una palabra o tienes en error tipográfico.
+El elemento `figcaption` debe tener el texto `Cats hate other cats.` Has omitido una palabra o tienes un error tipográfico.
 
 ```js
 assert(

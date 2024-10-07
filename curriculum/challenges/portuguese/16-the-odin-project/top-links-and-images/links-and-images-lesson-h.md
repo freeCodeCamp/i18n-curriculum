@@ -11,7 +11,7 @@ Os sites da web seriam muito chatos se apenas pudessem exibir texto. Felizmente,
 
 Para exibir uma imagem em HTML, você usa o elemento `<img>`. Diferente dos outros elementos que você encontrou, o elemento `<img>` tem fechamento próprio. Os elementos vazios ou de fechamento próprio do HTML não precisam de uma tag de fechamento.
 
-Em vez de envolver o conteúdo com uma tag de abertura e fechamento, esse elemento incorpora uma imagem na página usando um atributo `src`, que informa ao navegador onde o arquivo da imagem está localizado. O atributo `src` funciona de modo muito semelhante ao atributo `href` para tags de âncora. Ele pode incorporar uma imagem usando caminhos relativos e absolutos.
+Em vez de envolver o conteúdo com uma tag de abertura e uma de fechamento, esse elemento incorpora uma imagem na página usando um atributo `src`, que informa ao navegador onde o arquivo da imagem está localizado. O atributo `src` funciona de modo muito semelhante ao atributo `href` para tags de âncora. Ele pode incorporar uma imagem usando caminhos relativos e absolutos.
 
 Por exemplo, ao usar um caminho absoluto, você pode exibir uma imagem localizada no site do The Odin Project:
 
@@ -45,7 +45,7 @@ Salve o arquivo `index.html` e abra-o em um navegador para conhecer o Charles e 
 
 Como usar a imagem do cachorro na página `about`? Primeiro, você precisa subir um nível no diretório de páginas para o diretório pai para depois poder acessar o diretório de imagens.
 
-Para subir para o diretório pai, você precisa usar dois pontos no caminho relativo, assim: `../.` Vamos ver isso em ação: dentro do `body` do arquivo `about.html`, adicione a seguinte imagem abaixo do título que você adicionou anteriormente:
+Para subir para o diretório pai, você precisa usar dois pontos no caminho relativo, assim: `../.` Vamos ver isso em ação! Dentro do `body` do arquivo `about.html`, adicione a seguinte imagem abaixo do título que você adicionou anteriormente:
 
 ```html
 <img src="../images/dog.jpg">

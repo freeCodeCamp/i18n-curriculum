@@ -8,7 +8,7 @@ dashedName: label-bootstrap-buttons
 
 # --description--
 
-부트스트랩 웰에 라벨을 적용했던 것처럼, 버튼에도 라벨을 적용하려 합니다.
+Just like we labeled our wells, we want to label our buttons.
 
 각 `button` 요소들에 id 선택자와 동일한 텍스트를 부여해주세요.
 

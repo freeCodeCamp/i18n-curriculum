@@ -8,7 +8,7 @@ dashedName: work-with-nodes-in-a-linked-list
 
 # --description--
 
-Un'altra struttura dati che incontrerai in computer science è la <dfn>lista concatenata</dfn>. Una lista concatenata è una collezione lineare di elementi di dati, chiamati nodi, ognuno dei quali fa riferimento al successivo. Ogni <dfn>nodo</dfn> in una lista concatenata contiene due informazioni fondamentali: l'elemento stesso, e un riferimento al nodo successivo.
+Another common data structure you'll run into in computer science is the <dfn>linked list</dfn>. A linked list is a linear collection of data elements, called 'nodes', each of which points to the next. Each <dfn>node</dfn> in a linked list contains two key pieces of information: the `element` itself, and a reference to the next `node`.
 
 Immagina di essere in un trenino. Hai le mani sulle spalle della persona davanti a te in fila, e la persona dietro di te ha le mani sulle tue spalle. Puoi vedere la persona direttamente di fronte a te, ma stanno bloccando la vista delle altre persone più in la nel trenino. Un nodo è proprio come una persona in un trenino: sanno chi sono e possono vedere solo la persona successiva nella fila, ma non sono a conoscenza delle altre persone davanti o dietro di loro.
 

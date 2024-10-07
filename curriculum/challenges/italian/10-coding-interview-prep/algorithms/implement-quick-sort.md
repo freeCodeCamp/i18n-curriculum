@@ -8,7 +8,7 @@ dashedName: implement-quick-sort
 
 # --description--
 
-Qui passeremo ad un algoritmo di ordinamento intermedio: Quick Sort. Quick Sort è un approccio efficiente e ricorsivo di logica divide-et-impera per l'ordinamento di un array. In questo approccio, viene scelto un valore pivot nell'array originale. L'array viene poi suddiviso in due sottoarray di valori inferiori e superiori al valore pivot. Quindi combiniamo il risultato della chiamata ricorsiva dell'algoritmo Quick Sort su entrambi i sotto-array. Questo continua fino al raggiungimento del caso base di un array vuoto o di un singolo oggetto, al che torniamo indietro. Lo svolgimento delle chiamate ricorsive restitusce l'array ordinato.
+Here we will move on to an intermediate sorting algorithm: quick sort. Quick sort is an efficient, recursive divide-and-conquer approach to sorting an array. In this method, a pivot value is chosen in the original array. The array is then partitioned into two subarrays of values less than and greater than the pivot value. We then combine the result of recursively calling the quick sort algorithm on both sub-arrays. This continues until the base case of an empty or single-item array is reached, which we return. The unwinding of the recursive calls return us the sorted array.
 
 Quick Sort è un metodo di ordinamento molto efficiente, che fornisce prestazioni *O(nlog(n))* in media. È anche relativamente facile da implementare. Questi attributi lo rendono un metodo di ordinamento popolare e utile.
 

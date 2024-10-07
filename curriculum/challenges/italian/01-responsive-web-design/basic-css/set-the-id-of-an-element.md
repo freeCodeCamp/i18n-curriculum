@@ -9,7 +9,7 @@ dashedName: set-the-id-of-an-element
 
 # --description--
 
-Oltre alle classi, ogni elemento HTML può avere anche un attributo `id`.
+In addition to classes, each HTML element can also have an `id` attribute.
 
 Ci sono diversi vantaggi ad usare gli attributi `id`: puoi usare un `id` per stilizzare un singolo elemento, e in seguito imparerai che puoi usarli per selezionare e modificare elementi specifici con JavaScript.
 

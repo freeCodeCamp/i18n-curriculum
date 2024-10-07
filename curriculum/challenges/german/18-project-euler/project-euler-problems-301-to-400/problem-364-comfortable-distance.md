@@ -8,23 +8,23 @@ dashedName: problem-364-comfortable-distance
 
 # --description--
 
-There are $N$ seats in a row. $N$ people come after each other to fill the seats according to the following rules:
+Es gibt $N$ Sitze in einer Reihe. $N$ Personen kommen nacheinander, um die Plätze nach den folgenden Regeln zu besetzen:
 
-1. If there is any seat whose adjacent seat(s) are not occupied take such a seat.
+1. Wenn es einen Sitz gibt, dessen Nachbarsitz(e) nicht besetzt ist/sind, nehme diesen Sitz ein.
 2. Wenn es keinen solchen Platz gibt und ein Platz vorhanden ist, für den nur ein benachbarter Platz besetzt ist, nimm diesen Platz ein.
 3. Andernfalls nimmst du einen der noch freien Plätze.
 
-Let $T(N)$ be the number of possibilities that $N$ seats are occupied by $N$ people with the given rules. The following figure shows $T(4) = 8$.
+Lasse $T(N)$ die Anzahl der Möglichkeiten sein, die $N$ Sitze von $N$ Personen unter den gegebenen Regeln besetzen. Die folgende Abbildung zeigt $T(4) = 8$.
 
-<img alt="eight ways for N seats to be occupied by N people" src="https://cdn.freecodecamp.org/curriculum/project-euler/comfortable-distance.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
+<img alt="acht Möglichkeiten, wie N Sitze von N Personen besetzt werden können" src="https://cdn.freecodecamp.org/curriculum/project-euler/comfortable-distance.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-We can verify that $T(10) = 61\\,632$ and $T(1\\,000)\bmod 100\\,000\\,007 = 47\\,255\\,094$.
+Wir können nachweisen, dass $T(10) = 61\\,632$ und $T(1\\,000)\bmod 100\\,000\\,007 = 47\\,255\\,094$.
 
-Find $T(1\\,000\\,000)\bmod 100\\,000\\,007$.
+Finde $T(1\\,000\\,000)\bmod 100\\,000\\,007$.
 
 # --hints--
 
-`comfortableDistance()` should return `44855254`.
+`comfortableDistance()` sollte `44855254` zurückgeben.
 
 ```js
 assert.strictEqual(comfortableDistance(), 44855254);

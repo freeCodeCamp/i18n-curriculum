@@ -8,7 +8,7 @@ dashedName: remove-an-element-using-jquery
 
 # --description--
 
-jQueryを使用して、ページから HTML 要素を削除しましょう。
+Now let's remove an HTML element from your page using jQuery.
 
 jQuery には `.remove()` という関数があり、HTML 要素全体を削除します。
 

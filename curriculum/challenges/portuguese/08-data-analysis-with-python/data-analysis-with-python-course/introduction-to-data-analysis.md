@@ -11,7 +11,7 @@ dashedName: introduction-to-data-analysis
 ---
 
 # --description--
-A análise de dados é o ato de transformar dados brutos e confusos em informações úteis, limpando os dados, transformando-os, manipulando-os e inspecionando-os.
+Data analysis is the act of turning raw, messy data into useful insights by cleaning the data up, transforming it, manipulating it, and inspecting it.
 
 Mais recursos:
 

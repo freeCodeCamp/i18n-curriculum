@@ -8,7 +8,7 @@ dashedName: inventory-update
 
 # --description--
 
-將存儲在二維數組中的庫存與新交貨的二維數組進行比較和更新。 更新當前現有庫存物料數量（在 `arr1`）。 如果找不到商品，請將新商品和數量添加到庫存數組中。 返回的庫存數組應按項目的字母順序排列。
+Compare and update the inventory stored in a 2D array against a second 2D array of a fresh delivery. Update the current existing inventory item quantities (in `arr1`). If an item cannot be found, add the new item and quantity into the inventory array. The returned inventory array should be in alphabetical order by item.
 
 # --hints--
 

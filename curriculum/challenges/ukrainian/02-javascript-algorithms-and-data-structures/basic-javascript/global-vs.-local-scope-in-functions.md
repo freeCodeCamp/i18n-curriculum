@@ -9,7 +9,7 @@ dashedName: global-vs--local-scope-in-functions
 
 # --description--
 
-<dfn>Локальні</dfn> та <dfn>глобальні</dfn> змінні можуть мати однакову назву. При цьому локальна змінна матиме перевагу над глобальною змінною.
+It is possible to have both <dfn>local</dfn> and <dfn>global</dfn> variables with the same name. When you do this, the local variable takes precedence over the global variable.
 
 У цьому прикладі:
 
@@ -36,7 +36,7 @@ function myFun() {
 assert(outerWear === 'T-Shirt');
 ```
 
-`myOutfit` має повертати рядок `sweater`.
+`myOutfit` повинна повертати рядок `sweater`.
 
 ```js
 assert(myOutfit() === 'sweater');

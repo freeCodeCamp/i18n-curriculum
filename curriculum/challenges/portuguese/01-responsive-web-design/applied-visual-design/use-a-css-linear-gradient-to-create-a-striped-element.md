@@ -9,7 +9,7 @@ dashedName: use-a-css-linear-gradient-to-create-a-striped-element
 
 # --description--
 
-A função `repeating-linear-gradient()` é muito semelhante a `linear-gradient()`, com a principal diferença de que repete o padrão de gradiente especificado. `repeating-linear-gradient()` aceita uma variedade de valores, mas, para simplificar, você vai trabalhar com um valor de ângulo e valores de interrupção de cor neste desafio.
+The `repeating-linear-gradient()` function is very similar to `linear-gradient()` with the major difference that it repeats the specified gradient pattern. `repeating-linear-gradient()` accepts a variety of values, but for simplicity, you'll work with an angle value and color stop values in this challenge.
 
 O valor do ângulo é a direção do gradiente. As interrupções de cor são como valores de largura que marcam onde ocorre uma transição e são fornecidas com uma porcentagem ou um número de pixels.
 

@@ -8,7 +8,7 @@ dashedName: use-the-map-method-to-extract-data-from-an-array
 
 # --description--
 
-ここまで、プログラムの副作用を回避するために純粋な関数を使用することを学んできました。 また、関数を使用する場合の値は入力の引数にのみ依存することを説明しました。
+So far we have learned to use pure functions to avoid side effects in a program. Also, we have seen the value in having a function only depend on its input arguments.
 
 これは始まりにすぎません。 その名前が示すように、関数型プログラミングは関数の理論を中心としています。
 

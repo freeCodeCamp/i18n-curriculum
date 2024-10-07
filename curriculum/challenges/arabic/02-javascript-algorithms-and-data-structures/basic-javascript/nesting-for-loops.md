@@ -9,7 +9,7 @@ dashedName: nesting-for-loops
 
 # --description--
 
-إذا كان لديك قائمة متعددة الأبعاد، يمكنك استخدام نفس المنطق مثل النقطة السابقة للمرور علي من كل من القائمة وأي قوائم فرعية. إليك مثال:
+If you have a multi-dimensional array, you can use the same logic as the prior waypoint to loop through both the array and any sub-arrays. Here is an example:
 
 ```js
 const arr = [

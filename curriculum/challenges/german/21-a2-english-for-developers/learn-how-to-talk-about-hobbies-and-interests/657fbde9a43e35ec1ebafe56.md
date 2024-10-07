@@ -1,6 +1,6 @@
 ---
 id: 657fbde9a43e35ec1ebafe56
-title: Task 75
+title: Aufgabe 75
 challengeType: 19
 dashedName: task-75
 ---
@@ -9,7 +9,7 @@ dashedName: task-75
 
 # --description--
 
-Listen to the audio and answer the question.
+Höre dir die Audio an und beantworte die Frage.
 
 # --questions--
 

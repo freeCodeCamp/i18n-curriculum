@@ -9,7 +9,7 @@ dashedName: generate-random-whole-numbers-within-a-range
 
 # --description--
 
-你可以在从零到给定数字的范围内生成随机整数。 你也可以为此范围选择一个不同的较小数字。
+You can generate a random whole number in the range from zero to a given number. You can also pick a different lower number for this range.
 
 你将把最小的数字定义为 `min`，把最大的数字定义为 `max`。
 

@@ -9,7 +9,7 @@ dashedName: store-multiple-values-in-one-variable-using-javascript-arrays
 
 # --description--
 
-Con le variabili `array` di JavaScript, possiamo memorizzare diversi dati in un unico posto.
+With JavaScript `array` variables, we can store several pieces of data in one place.
 
 La dichiarazione di un array inizia con una parentesi quadra di apertura, e termina con una parentesi quadra di chiusura, con gli elementi separati da virgole, in questo modo:
 

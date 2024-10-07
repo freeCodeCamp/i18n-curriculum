@@ -9,7 +9,7 @@ dashedName: add-placeholder-text-to-a-text-field
 
 # --description--
 
-플레이스홀더(Placeholder) 텍스트는 사용자가 무언가를 입력하기 전에 `input` 엘리먼트에 표시되는 내용입니다.
+Placeholder text is what is displayed in your `input` element before your user has inputted anything.
 
 다음과 같이 플레이스홀더 텍스트를 생성할 수 있습니다.
 

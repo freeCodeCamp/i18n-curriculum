@@ -1,19 +1,19 @@
 ---
 id: 5f356ed6cf6eab5f15f5cfe6
-title: Step 20
+title: Крок 20
 challengeType: 0
 dashedName: step-20
 ---
 
 # --description--
 
-The `div` element is used mainly for design layout purposes unlike the other content elements you have used so far. Add a `div` element inside the `body` element and then move all the other elements inside the new `div`.
+Переважно елемент `div` використовують для дизайну розкладки, на відміну від вже використаних вами елементів. Додайте елемент `div` всередині елемента `body`, а потім перемістіть всі інші елементи всередину нового `div`.
 
-Inside the opening `div` tag, add the `id` attribute with a value of `menu`.
+Додайте атрибут `id` зі значенням `menu` до початкового тегу `div`.
 
 # --hints--
 
-Початковий тег `<div>` повинен мати атрибут `id` зі значенням `menu`.
+Початковий тег`<div>` повинен мати атрибут `id` зі значенням `menu`.
 
 ```js
 assert.strictEqual(document.querySelector('div')?.id, 'menu');
@@ -25,13 +25,13 @@ assert.strictEqual(document.querySelector('div')?.id, 'menu');
 assert(code.match(/<\/div>/i));
 ```
 
-Не змінюйте наявний елемент `body`. Make sure you did not delete the closing tag.
+Не змінюйте наявний елемент `body`. Переконайтеся, що не видалили кінцевий тег.
 
 ```js
 assert.lengthOf(document.querySelectorAll('body'), 1);
 ```
 
-Your `div` tag should be nested in the `body`.
+Тег `div` має бути вкладеним в `body`.
 
 ```js
 assert.equal(document.querySelector('div')?.parentElement?.tagName, 'BODY');

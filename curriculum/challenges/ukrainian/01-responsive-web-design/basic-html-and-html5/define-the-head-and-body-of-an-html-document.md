@@ -9,7 +9,7 @@ dashedName: define-the-head-and-body-of-an-html-document
 
 # --description--
 
-Ви можете додати інший рівень організації у вашому документі HTML в межах тегів `html` з елементами `head` та `body`. Будь-яка розмітка з інформацією про вашу сторінку буде у тезі `head`. Тоді будь-яка розмітка із вмістом сторінки (яка показується для користувача) буде у тезі `body`.
+You can add another level of organization in your HTML document within the `html` tags with the `head` and `body` elements. Any markup with information about your page would go into the `head` tag. Then any markup with the content of the page (what displays for a user) would go into the `body` tag.
 
 Елементи метаданих, такі як `link`, `meta`, `title`, та `style`, як правило, всередині елементу `head`.
 

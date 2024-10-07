@@ -1,6 +1,6 @@
 ---
 id: 587d825a367417b2b2512c88
-title: Reverse a Doubly Linked List
+title: Umkehrung einer doppelt verknüpften Liste
 challengeType: 1
 forumTopicId: 301714
 dashedName: reverse-a-doubly-linked-list
@@ -12,7 +12,7 @@ Let's create one more method for our doubly linked list called reverse which rev
 
 # --hints--
 
-The `DoublyLinkedList` data structure should exist.
+Die `DoublyLinkedList` Datenstruktur sollte vorhanden sein.
 
 ```js
 assert(
@@ -26,7 +26,7 @@ assert(
 );
 ```
 
-The `DoublyLinkedList` should have a method called `reverse`.
+Die `DoublyLinkedList` sollte eine Methode namens `reverse` haben.
 
 ```js
 assert(
@@ -43,7 +43,7 @@ assert(
 );
 ```
 
-Reversing an empty list should return `null`.
+Die Umkehrung einer leeren Liste sollte `null` zurückgeben.
 
 ```js
 assert(
@@ -57,7 +57,7 @@ assert(
 );
 ```
 
-The `reverse` method should reverse the list.
+Die Methode `reverse` soll die Liste umkehren.
 
 ```js
 assert(
@@ -77,7 +77,7 @@ assert(
 );
 ```
 
-The `next` and `previous` references should be correctly maintained when a list is reversed.
+Die `next` und `previous` Referenzen sollten korrekt beibehalten werden, wenn eine Liste umgedreht wird.
 
 ```js
 assert(

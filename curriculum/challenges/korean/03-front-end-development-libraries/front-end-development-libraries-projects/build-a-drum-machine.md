@@ -7,13 +7,13 @@ dashedName: build-a-drum-machine
 ---
 
 # --description--
-**주의:** **이 프로젝트의 테스트에는 React 18과의 알려진 호환성 문제가 있습니다 ([문제](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922) 보기)**
+**Note:** **React 18 has known incompatibilities with the tests for this project (see [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
 
 **목적:** 다음과 비슷한 기능을 하는 앱을 만들기: <a href="https://drum-machine.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://drum-machine.freecodecamp.rocks/</a>
 
-아래의 사용자 이야기를 충족하고 모든 테스트를 통과 시키세요. 필요한 라이브러리 또는 API를 사용하세요. 자신만의 스타일을 적용하세요.
+아래 사용자 스토리를 만족시키고 모든 테스트를 통과하시오. 필요한 라이브러리나 API를 사용하시오. 자신만의 개성을 담아 디자인을 꾸며보세요.
 
-이 프로젝트를 완료하기 위해 HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux 및 jQuery를 자유롭게 섞어서 사용할 수 있습니다. 프론트엔드 프레임워크(예: React)는 꼭 사용해야 합니다. 이 섹션은 프론트엔드 프레임워크를 학습하는 것과 관련되어 있기 때문입니다. 위에 나열된 기술 이외의 추가 기술은 권장되지 않으며 사용 시 개인 책임하에 사용하세요. Angular 및 Vue와 같은 다른 프론트엔드 프레임워크를 지원하는 것을 고려 중이지만 현재는 지원되지 않습니다. 이 프로젝트에 제안된 기술 스택을 사용하는 모든 이슈 보고서를 수용하고 문제를 해결하겠습니다. 즐거운 코딩하세요!
+이 프로젝트를 완료하기 위해 HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux 및 jQuery를 혼합하여 사용할 수 있습니다. 이 섹션은 프론트엔드 프레임워크를 학습하는 것이 목적이기 때문에 (React 같은) 프론트엔드 프레임워크를 사용해야 합니다. 위에 나열된 기술만 사용하여 이 프로젝트를 완료하는 것이 권장되고 이외의 기술을 사용할 경우 문제가 있을 수 있습니다. Angular 및 Vue와 같은 다른 프론트엔드 프레임워크를 지원할 예정이지만 현재는 지원되지 않습니다. 이 프로젝트에 제안된 기술 스택을 사용하는 모든 이슈 보고서를 수용하고 문제를 해결하겠습니다. 즐거운 코딩하세요!
 
 **유저 스토리 #1:** 모든 다른 요소를 포함하는 `id="drum-machine"`을 가진 외부 컨테이너를 볼 수 있어야 합니다.
 

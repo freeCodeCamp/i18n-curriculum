@@ -8,26 +8,26 @@ dashedName: secure-real-time-multiplayer-game
 
 # --description--
 
-HTML Canvas API と Socket.io を使用して、<a href="https://secure-real-time-multiplayer-game.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://secure-real-time-multiplayer-game.freecodecamp.rocks/</a> と同じような機能を持つ 2D リアルタイムマルチプレイヤーゲームを開発します。 プロジェクトに取り組むにあたり、以下の方法のうち1つを用いてコードを記述します。
+Develop a 2D real time multiplayer game using the HTML Canvas API and Socket.io that is functionally similar to this: <a href="https://secure-real-time-multiplayer-game.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://secure-real-time-multiplayer-game.freecodecamp.rocks/</a>. Working on this project will involve you writing your code using one of the following methods:
 
--   <a href="https://github.com/freeCodeCamp/boilerplate-project-secure-real-time-multiplayer-game/" target="_blank" rel="noopener noreferrer nofollow">GitHub リポジトリ</a>をクローンし、ローカル環境でチャレンジを完了させる。
+-   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-secure-real-time-multiplayer-game/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
 -   Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-secure-real-time-multiplayer-game/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete your project.
--   使い慣れたサイトビルダーを使用してプロジェクトを完了させる。 必ず GitHub リポジトリのすべてのファイルを取り込む。
+-   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
 
 # --instructions--
 
-セキュアなマルチプレイヤーゲームを作成してください。このゲームでは、各プレイヤーがアバターを動かすことができます。また、少なくとも 1 つの収集可能なアイテムがあり、プレイヤーのランクが各自のスコアに基づいて計算されます。
+Create a secure multiplayer game in which each player can move their avatar, there is at least one collectible item, and the rank of the players is calculated based on their score.
 
-詳細については、以下のテストを参照してください。
+For details consult the tests below.
 
-ゲームは必ずセキュアにしてください！ 以下のセキュリティ対策を組み込んでください:
+Make sure that your game is secure! Include these security measures:
 
-- クライアントが MIME タイプを推測またはスニッフィング (盗み見) できないようにする
+- The client should not be able to guess/sniff the MIME type
 - XSS 攻撃を防止する
-- クライアントにウェブサイトから何もキャッシュさせないようにする
+- クライアントでウェブサイトから何もキャッシュさせない
 - ヘッダーに、このサイトで `PHP 7.4.3` が使用されていることを記述する
 
-**注**: このユーザーストーリーには `helmet@^3.21.3` が必要です。 そのため、ユーザーストーリーを実現するための情報として、Helmet の旧バージョンのドキュメントを参照する必要があります。
+**Note**: `helmet@^3.21.3` is needed for the user stories. This means you will need to use the previous version of Helmet's docs, for information on how to achieve the user stories.
 
 # --hints--
 
@@ -43,91 +43,91 @@ HTML Canvas API と Socket.io を使用して、<a href="https://secure-real-tim
 };
 ```
 
-複数のプレイヤーがサーバーに接続してプレイすることができます。
+Multiple players can connect to a server and play.
 
 ```js
 
 ```
 
-プレイヤーはそれぞれアバターを持ちます。
+Each player has an avatar.
 
 ```js
 
 ```
 
-各プレイヤーは、`Player.mjs` の `Player` クラスによって作成されるオブジェクトにより表現されます。
+Each player is represented by an object created by the `Player` class in `Player.mjs`.
 
 ```js
 
 ```
 
-各プレーヤーオブジェクトには、最低限として、固有の `id`、`score`、プレーヤーの現在の位置を示す `x` および `y` 座標を含める必要があります。
+At a minimum, each player object should contain a unique `id`, a `score`, and `x` and `y` coordinates representing the player's current position.
 
 ```js
 
 ```
 
-ゲームには少なくとも 1 種類のコレクションアイテムがあります。 それを実装するために、`Collectible.mjs` で `Collectible` クラスを作成してください。
+The game has at least one type of collectible item. Complete the `Collectible` class in `Collectible.mjs` to implement this.
 
 ```js
 
 ```
 
-`Collectible` クラスにより作成された各コレクションアイテムオブジェクトには、最低限として、固有の `id`、`value`、アイテムの現在の位置を示す `x` および `y` 座標を含める必要があります。
+At a minimum, each collectible item object created by the `Collectible` class should contain a unique `id`, a `value`, and `x` and `y` coordinates representing the item's current position.
 
 ```js
 
 ```
 
-プレイヤーは、WASD キーや矢印キーを使用してアバターを動かすことができます。 それを実装するために、`Player.mjs` で `movePlayer` メソッドを作成してください。
+Players can use the WASD and/or arrow keys to move their avatar. Complete the `movePlayer` method in `Player.mjs` to implement this.
 
 ```js
 
 ```
 
-`movePlayer` メソッドは、"up"、"down"、"left"、"right" のいずれかの文字列と、プレーヤーの位置を変更するピクセル量を表す数値の、2 つの引数を受け取る必要があります。 `movePlayer` は、呼び出し元のプレイヤーオブジェクトの `x` 座標と `y` 座標を調整する必要があります。
+The `movePlayer` method should accept two arguments: a string of "up", "down", "left", or "right", and a number for the amount of pixels the player's position should change. `movePlayer` should adjust the `x` and `y` coordinates of the player object it's called from.
 
 ```js
 
 ```
 
-プレーヤーのスコアを使用して、他のプレーヤーとの相対順位を計算する必要があります。 それを実装するために、`Player` クラスの `calculateRank` メソッドを完成させてください。
+The player's score should be used to calculate their rank among the other players. Complete the `calculateRank` method in the `Player` class to implement this.
 
 ```js
 
 ```
 
-`calculateRank` メソッドは、すべての接続中のプレイヤーを表すオブジェクトの配列を受け取り、文字列 `Rank: currentRanking/totalPlayers` を返す必要があります。 たとえば、プレイヤーが 2 人のゲームで、プレイヤー A のスコアが 3、プレイヤー B のスコアが 5 の場合、プレイヤー A の `calculateRank` は `Rank: 2/2` を返す必要があります。
+The `calculateRank` method should accept an array of objects representing all connected players and return the string `Rank: currentRanking/totalPlayers`. For example, in a game with two players, if Player A has a score of 3 and Player B has a score of 5, `calculateRank` for Player A should return `Rank: 2/2`.
 
 ```js
 
 ```
 
-プレイヤーはコレクションアイテムにぶつかって接触することができます。 それを実装するために、`Player.mjs` で `collision` メソッドを作成してください。
+Players can collide with a collectible item. Complete the `collision` method in `Player.mjs` to implement this.
 
 ```js
 
 ```
 
-`collision` メソッドは、コレクションアイテムのオブジェクトを引数として受け取る必要があります。 プレイヤーのアバターがアイテムに接触した場合、`collision` メソッドは `true` を返す必要があります。
+The `collision` method should accept a collectible item's object as an argument. If the player's avatar intersects with the item, the `collision` method should return `true`.
 
 ```js
 
 ```
 
-すべてのプレイヤーは同期が保たれます。
+All players are kept in sync.
 
 ```js
 
 ```
 
-プレイヤーはいつでもゲームから離れることができます。
+Players can disconnect from the game at any time.
 
 ```js
 
 ```
 
-クライアントによる MIME タイプの推測や参照の試行を防いでください。
+Prevent the client from trying to guess / sniff the MIME type.
 
 ```js
 async (getUserInput) => {
@@ -137,7 +137,7 @@ async (getUserInput) => {
 };
 ```
 
-クロスサイトスクリプティング (XSS) 攻撃を防いでください。
+Prevent cross-site scripting (XSS) attacks.
 
 ```js
 async (getUserInput) => {
@@ -147,7 +147,7 @@ async (getUserInput) => {
 };
 ```
 
-ウェブサイトからクライアントにキャッシュされるものは何もありません。
+Nothing from the website is cached in the client.
 
 ```js
 async (getUserInput) => {
@@ -163,7 +163,7 @@ async (getUserInput) => {
 };
 ```
 
-ヘッダーには、サイトで "PHP 7.4.3" が使用されていることを記述します。ただし実際には使用されていません (セキュリティ対策が目的です)。
+The headers say that the site is powered by "PHP 7.4.3" even though it isn't (as a security measure).
 
 ```js
 async (getUserInput) => {

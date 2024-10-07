@@ -9,7 +9,7 @@ dashedName: use-the-css-transform-scale-property-to-scale-an-element-on-hover
 
 # --description--
 
-Властивість `transform` має різні функції, що дозволяють масштабувати, рухати, обертати, нахиляти, і т. д., ваші елементи. При використанні з псевдокласами, такими як `:hover`, який визначає певний стан елемента, властивість `transform` може легко додати інтерактивність до ваших елементів.
+The `transform` property has a variety of functions that let you scale, move, rotate, skew, etc., your elements. When used with pseudo-classes such as `:hover` that specify a certain state of an element, the `transform` property can easily add interactivity to your elements.
 
 Ось приклад масштабування елементів абзацу до 2,1 разів від початкового розміру, коли користувач наводить на нього:
 

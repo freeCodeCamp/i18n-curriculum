@@ -14,12 +14,12 @@ As a reminder, this project is being built upon the following starter project on
 
 All'interno di `tests/2_functional-tests.js`, nel test `'Submit the surname "Vespucci" in the HTML form'` (`// #6`), automatizza quanto segue:
 
-1.  Compila il modulo con il cognome `Vespucci`
-2.  Premi il pulsante submit
+1.  Fill in the form with the surname `Vespucci`
+2.  Press the submit button
 
 E all'interno della callback `pressButton`:
 
-1.  Asserisci che lo stato sia OK `200`
+1.  Assert that status is OK `200`
 2.  Asserisci che il testo all'interno dell'elemento `span#name` è `'Amerigo'`
 3.  Asserisci che il testo all'interno dell'elemento `span#surname` è `'Vespucci'`
 4.  Asserisci che gli elementi `span#dates` esistono e il loro conteggio è `1`

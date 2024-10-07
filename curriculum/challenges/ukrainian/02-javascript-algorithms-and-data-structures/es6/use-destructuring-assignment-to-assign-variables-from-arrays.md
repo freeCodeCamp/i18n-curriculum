@@ -8,7 +8,7 @@ dashedName: use-destructuring-assignment-to-assign-variables-from-arrays
 
 # --description--
 
-ES6 робить деструктуризацію масивів такою ж легкою, як і деструктуризацію об’єктів.
+ES6 makes destructuring arrays as easy as destructuring objects.
 
 Ключовою відмінністю між оператором розширення та деструктурованим масивом є те, що оператор розширення розпаковує весь вміст масиву в список, розділений комою. Тому ви не можете вибрати, які елементи потрібно присвоїти до змінних.
 

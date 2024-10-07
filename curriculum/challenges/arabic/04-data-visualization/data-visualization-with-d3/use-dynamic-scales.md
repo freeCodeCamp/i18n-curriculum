@@ -1,6 +1,6 @@
 ---
 id: 587d7fac367417b2b2512bdd
-title: Use Dynamic Scales
+title: استخدام المقاييس الديناميكية
 challengeType: 6
 forumTopicId: 301495
 dashedName: use-dynamic-scales
@@ -10,11 +10,11 @@ dashedName: use-dynamic-scales
 
 The D3 `min()` and `max()` methods are useful to help set the scale.
 
-Given a complex data set, one priority is to set the scale so the visualization fits the SVG container's width and height. You want all the data plotted inside the SVG so it's visible on the web page.
+وبالنظر إلى مجموعة بيانات معقدة، تتمثل إحدى الأولويات في وضع المقياس بحيث يناسب العرض المرئي لحاوية SVG وطولها. You want all the data plotted inside the SVG so it's visible on the web page.
 
-The example below sets the x-axis scale for scatter plot data. The `domain()` method passes information to the scale about the raw data values for the plot. The `range()` method gives it information about the actual space on the web page for the visualization.
+المثال أدناه يحدد مقياس المحور X لبيانات مخطط مبعثر. طريقة `domain()` تنقل المعلومات إلى المقياس حول قيم البيانات الخام الخاصة بالمخطط. وتعطيه طريقة `range()` معلومات عن المساحة الفعلية على صفحة الويب من أجل التصور.
 
-In the example, the domain goes from 0 to the maximum in the set. It uses the `max()` method with a callback function based on the x values in the arrays. The range uses the SVG's width (`w`), but it includes some padding, too. This puts space between the scatter plot dots and the edge of the SVG.
+في المثال ، يتروَّح المجال من 0 إلى الحد الأقصى في المجموعة. تُستخدم طريقة `max()` مع وظيفة إعادة التفعيل استنادًا إلى القيم x في القوائم. The range uses the SVG's width (`w`), but it includes some padding, too. This puts space between the scatter plot dots and the edge of the SVG.
 
 ```js
 const dataset = [
@@ -38,29 +38,29 @@ const xScale = d3.scaleLinear()
   .range([padding, w - padding]);
 ```
 
-The padding may be confusing at first. Picture the x-axis as a horizontal line from 0 to 500 (the width value for the SVG). Including the padding in the `range()` method forces the plot to start at 30 along that line (instead of 0), and end at 470 (instead of 500).
+قد تكون الحشوة مربكة في البداية. Picture the x-axis as a horizontal line from 0 to 500 (the width value for the SVG). ضم الحشوة في طريقة `range()` يجبر المخطط على البدء عند 30 على طول هذا الخط (بدلا من 0)، وينتهي عند 470 (بدلا من 500).
 
 # --instructions--
 
-Use the `yScale` variable to create a linear y-axis scale. The domain should start at zero and go to the maximum `y` value in the set. The range should use the SVG height (`h`) and include padding.
+غيّر المتغير `yScale` لإنشاء مقياس المحور الخطي y (linear scale). يجب أن يبدأ المجال عند الصفر وينتقل إلى الحد الأقصى من قيمة `y` في المجموعة. يجب أن يستخدم النطاق ارتفاع (`h`) من SVG ويشمل الحشو.
 
-**Note:** Remember to keep the plot right-side-up. When you set the range for the y coordinates, the higher value (height minus padding) is the first argument, and the lower value is the second argument.
+**ملاحظة:** تذكر أن المخطط عليه أن يكون معدول إلى فوق. عند تعيين النطاق للإحداثيات y ، تكون القيمة الأعلى (الارتفاع مطروحا منه الحشو) هي المعطى الأول، والقيمة الأدنى هي المعطى الثاني.
 
 # --hints--
 
-The text in the `h2` should be `30`.
+يجب أن يكون النص في `h2` بقيمة `30`.
 
 ```js
 assert(output == 30 && $('h2').text() == '30');
 ```
 
-The `domain()` of yScale should be equivalent to `[0, 411]`.
+يجب أن يكون `domain()` من yScale معادلا لهذا: `[0, 411]`.
 
 ```js
 assert(JSON.stringify(yScale.domain()) == JSON.stringify([0, 411]));
 ```
 
-The `range()` of yScale should be equivalent to `[470, 30]`.
+يجب أن يكون `range()` من yScale معادلا لهذا: `[470, 30]`.
 
 ```js
 assert(JSON.stringify(yScale.range()) == JSON.stringify([470, 30]));

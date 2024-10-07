@@ -8,17 +8,17 @@ dashedName: exercise-tracker
 
 # --description--
 
-构建一个功能类似于此的全栈 JavaScript 应用：<a href="https://exercise-tracker.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://exercise-tracker.freecodecamp.rocks</a>。 在这个项目中，你将使用以下方法之一编写你的代码：
+Build a full stack JavaScript app that is functionally similar to this: <a href="https://exercise-tracker.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://exercise-tracker.freecodecamp.rocks</a>. Working on this project will involve you writing your code using one of the following methods:
 
--   克隆<a href="https://github.com/freeCodeCamp/boilerplate-project-exercisetracker/" target="_blank" rel="noopener noreferrer nofollow">这个 GitHub 仓库</a>，并在本地完成你的项目。
+-   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-exercisetracker/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
 -   使用<a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-exercisetracker/" target="_blank" rel="noopener noreferrer nofollow">我们的 Gitpod 初始项目</a>来完成你的项目。
 -   使用你选择的网站生成器来完成项目。 需要包含我们 GitHub 仓库的所有文件。
 
 # --instructions--
 
-你的答案应该有以下结构。
+Your responses should have the following structures.
 
-练习：
+Exercise:
 
 ```js
 {
@@ -30,7 +30,7 @@ dashedName: exercise-tracker
 }
 ```
 
-用户：
+User:
 
 ```js
 {
@@ -39,7 +39,7 @@ dashedName: exercise-tracker
 }
 ```
 
-日志：
+Log:
 
 ```js
 {
@@ -54,11 +54,11 @@ dashedName: exercise-tracker
 }
 ```
 
-**提示：** 对于 `date` 属性，`Date` API 的 `toDateString` 方法可用于实现预期输出。
+**Hint:** For the `date` property, the `toDateString` method of the `Date` API can be used to achieve the expected output.
 
 # --hints--
 
-你应该提交你自己的项目，而不是示例 URL。
+You should provide your own project, not the example URL.
 
 ```js
 (getUserInput) => {
@@ -69,7 +69,7 @@ dashedName: exercise-tracker
 };
 ```
 
-你可以将表单里的 `username` 通过 `POST` 请求发送到 `/api/users`，以创建一个新的用户。
+You can `POST` to `/api/users` with form data `username` to create a new user.
 
 ```js
 async (getUserInput) => {
@@ -86,7 +86,7 @@ async (getUserInput) => {
 };
 ```
 
-从包含 `username` 的 `POST /api/users` 请求返回的结果将是一个包含 `username` 和 `_id` 属性的对象。
+The returned response from `POST /api/users` with form data `username` will be an object with `username` and `_id` properties.
 
 ```js
 async (getUserInput) => {
@@ -106,7 +106,7 @@ async (getUserInput) => {
 };
 ```
 
-你可以向 `/api/users` 发出 `GET` 请求以获取所有用户的列表。
+You can make a `GET` request to `/api/users` to get a list of all users.
 
 ```js
 async(getUserInput) => {
@@ -119,7 +119,7 @@ async(getUserInput) => {
 };
 ```
 
-对 `/api/users` 的 `GET` 请求将返回一个数组。
+The `GET` request to `/api/users` returns an array.
 
 ```js
 async(getUserInput) => {
@@ -134,7 +134,7 @@ async(getUserInput) => {
 };
 ```
 
-从 `GET /api/users` 返回的数组中的每个元素都是一个对象字面量，包含用户的 `username` 和 `_id`。
+Each element in the array returned from `GET /api/users` is an object literal containing a user's `username` and `_id`.
 
 ```js
 async(getUserInput) => {
@@ -154,7 +154,7 @@ async(getUserInput) => {
 };
 ```
 
-你可以将表单里的 `description`，`duration` 和 `date`（可选）用 `POST` 发送请求到 `/api/users/:_id/exercises`。 如果没有传入 date，默认采用当前日期。
+You can `POST` to `/api/users/:_id/exercises` with form data `description`, `duration`, and optionally `date`. If no date is supplied, the current date will be used.
 
 ```js
 async (getUserInput) => {
@@ -188,7 +188,7 @@ async (getUserInput) => {
 };
 ```
 
-从 `POST /api/users/:_id/exercises` 返回的响应将是添加了运动字段的用户对象。
+The response returned from `POST /api/users/:_id/exercises` will be the user object with the exercise fields added.
 
 ```js
 async (getUserInput) => {
@@ -227,7 +227,7 @@ async (getUserInput) => {
 };
 ```
 
-可以发送 `GET` 请求到 `/api/users/:_id/logs`，以获取任何用户的完整运动日志。
+You can make a `GET` request to `/api/users/:_id/logs` to retrieve a full exercise log of any user.
 
 ```js
 async (getUserInput) => {
@@ -266,7 +266,7 @@ async (getUserInput) => {
 };
 ```
 
-对用户日志的请求 `GET /api/users/:_id/logs` 返回一个用户对象，该对象具有一个 `count` 属性，表示属于该用户的运动次数。
+A request to a user's log `GET /api/users/:_id/logs` returns a user object with a `count` property representing the number of exercises that belong to that user.
 
 ```js
 async (getUserInput) => {
@@ -307,7 +307,7 @@ async (getUserInput) => {
 };
 ```
 
-对 `/api/users/:_id/logs` 的 `GET` 请求，将返回用户对象，其中包含添加的所有练习的 `log` 数组。
+A `GET` request to `/api/users/:_id/logs` will return the user object with a `log` array of all the exercises added.
 
 ```js
 async(getUserInput) => {
@@ -351,7 +351,7 @@ async(getUserInput) => {
 };
 ```
 
-从 `GET /api/users/:_id/logs` 返回的 `log` 数组中的每个项目都是一个应该具有 `description`、`duration` 和 `date` 属性的对象。
+Each item in the `log` array that is returned from `GET /api/users/:_id/logs` is an object that should have a `description`, `duration`, and `date` properties.
 
 ```js
 async(getUserInput) => {
@@ -398,7 +398,7 @@ async(getUserInput) => {
 };
 ```
 
-从 `GET /api/users/:_id/logs` 返回的 `log` 数组中任何对象的 `description` 属性都应该是一个字符串。
+The `description` property of any object in the `log` array that is returned from `GET /api/users/:_id/logs` should be a string.
 
 ```js
 async(getUserInput) => {
@@ -445,7 +445,7 @@ async(getUserInput) => {
 };
 ```
 
-从 `GET /api/users/:_id/logs` 返回的 `log` 数组中任何对象的 `duration` 属性应该是一个数字。
+The `duration` property of any object in the `log` array that is returned from `GET /api/users/:_id/logs` should be a number.
 
 ```js
 async(getUserInput) => {
@@ -492,7 +492,7 @@ async(getUserInput) => {
 };
 ```
 
-从 `GET /api/users/:_id/logs` 返回的 `log` 数组中任何对象的 `date` 属性应该是一个字符串。 使用 `Date` API 的 `dateString` 格式。
+The `date` property of any object in the `log` array that is returned from `GET /api/users/:_id/logs` should be a string. Use the `dateString` format of the `Date` API.
 
 ```js
 async(getUserInput) => {
@@ -542,7 +542,7 @@ async(getUserInput) => {
 };
 ```
 
-你可以将 `from`、`to` 和 `limit` 参数添加到 `GET /api/users/:_id/logs` 请求，检索任何用户的部分日志。 `from` 和 `to` 是 `yyyy-mm-dd` 形式的日期， `limit` 是一个整数，表示要送回多少份日志。
+You can add `from`, `to` and `limit` parameters to a `GET /api/users/:_id/logs` request to retrieve part of the log of any user. `from` and `to` are dates in `yyyy-mm-dd` format. `limit` is an integer of how many logs to send back.
 
 ```js
 async (getUserInput) => {

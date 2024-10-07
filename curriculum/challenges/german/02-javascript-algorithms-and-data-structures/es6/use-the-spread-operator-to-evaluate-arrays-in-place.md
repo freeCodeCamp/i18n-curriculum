@@ -8,7 +8,7 @@ dashedName: use-the-spread-operator-to-evaluate-arrays-in-place
 
 # --description--
 
-ES6 führt den <dfn>Spread-Operator</dfn> ein, mit dem wir Arrays und andere Ausdrücke an Stellen erweitern können, an denen mehrere Parameter oder Elemente erwartet werden.
+ES6 introduces the <dfn>spread operator</dfn>, which allows us to expand arrays and other expressions in places where multiple parameters or elements are expected.
 
 Der folgende ES5-Code verwendet `apply()`, um den maximalen Wert in einem Array zu berechnen:
 

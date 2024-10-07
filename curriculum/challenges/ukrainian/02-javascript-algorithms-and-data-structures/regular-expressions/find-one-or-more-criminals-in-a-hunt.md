@@ -8,7 +8,7 @@ dashedName: find-one-or-more-criminals-in-a-hunt
 
 # --description--
 
-Настав час зупинитися та перевірити ваші нові навички написання регулярних виразів. Група злочинців втекла з в’язниці, але ви не знаєте скільки. Однак ви знаєте, що вони тримаються разом, коли довкола них інші люди. Ви відповідаєте за те, щоб знайти всіх злочинців одразу.
+Time to pause and test your new regex writing skills. A group of criminals escaped from jail and ran away, but you don't know how many. However, you do know that they stay close together when they are around other people. You are responsible for finding all of the criminals at once.
 
 Ось приклад, який допоможе вам розібратися, як це зробити:
 

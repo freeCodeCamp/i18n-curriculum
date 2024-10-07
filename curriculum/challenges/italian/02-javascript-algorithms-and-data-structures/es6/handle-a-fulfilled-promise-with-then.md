@@ -8,13 +8,13 @@ dashedName: handle-a-fulfilled-promise-with-then
 
 # --description--
 
-Le promise sono più utili quando hai nel codice un processo che richiede una quantità sconosciuta di tempo (cioè qualcosa di asincrono), spesso una richiesta al server. Quando si effettua una richiesta ad un server questa prende un certo lasso di tempo, e, dopo che si è conclusa, di solito si desidera fare qualcosa con la risposta del server. Questo risultato può essere ottenuto utilizzando il metodo `then`.
+Promises are most useful when you have a process that takes an unknown amount of time in your code (i.e. something asynchronous), often a server request. When you make a server request it takes some amount of time, and after it completes you usually want to do something with the response from the server. This can be achieved by using the `then` method.
 
 ```js
 Promise.prototype.then(onFulfilled, onRejected)
 ```
 
-The `then` method schedules callback functions for the eventual completion of a Promise - either fulfillment or rejection. One of the `onFulfilled` and `onRejected` handlers will be executed to handle the current promise's fulfillment or rejection. When the promise is fulfilled with `resolve` the `onFulfilled` handler is called.
+Il metodo `then` pianifica le funzioni di callback per l'eventuale completamento di una Promis, ovvero l'adempimento o il rifiuto. Uno dei gestori `onFulfilled` e `onRejected` sarà eseguito per gestire l'adempimento o il rifiuto della promise corrente. Quando la promise viene soddisfatta con `resolve`, viene richiamato il gestore `onFulfilled`.
 
 ```js
 myPromise.then(result => {
@@ -22,15 +22,15 @@ myPromise.then(result => {
 });
 ```
 
-`result` deriva dall'argomento dato al metodo `resolve`.
+`result` comes from the argument given to the `resolve` method.
 
 # --instructions--
 
-Aggiungi il metodo `then` alla tua promise. Usa `result` come parametro della sua funzione di callback e scrivi `result` sulla console.
+Add the `then` method to your promise. Use `result` as the parameter of its callback function and log `result` to the console.
 
 # --hints--
 
-Dovresti chiamare il metodo `then` sulla promise.
+You should call the `then` method on the promise.
 
 ```js
 assert(
@@ -38,13 +38,13 @@ assert(
 );
 ```
 
-Il tuo metodo `then` dovrebbe avere una funzione di callback con `result` come parametro.
+Your `then` method should have a callback function with `result` as its parameter.
 
 ```js
 assert(resultIsParameter);
 ```
 
-Dovresti scrivere `result` sulla console.
+You should log `result` to the console.
 
 ```js
 assert(

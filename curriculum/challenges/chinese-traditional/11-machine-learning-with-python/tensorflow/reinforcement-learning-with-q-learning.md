@@ -14,23 +14,23 @@ dashedName: reinforcement-learning-with-q-learning
 
 The next few video lessons will reference [this Colab notebook](https://colab.research.google.com/drive/1IlrlS3bB8t1Gd5Pogol4MIwUxlAjhWOQ#forceEdit=true&sandboxMode=true).
 
-# --questions--
+# 問題
 
 ## --text--
 
-強化學習的關鍵組成部分是......
+The key components of reinforcement learning are...
 
 ## --answers--
 
-環境、代表、狀態、反應和獎勵。
+environment, representative, state, reaction, and reward.
 
 ---
 
-環境、代理、狀態、動作和獎勵。
+environment, agent, state, action, and reward.
 
 ---
 
-環境、代理、狀態、動作和懲罰。
+habitat, agent, state, action, and punishment.
 
 ## --video-solution--
 

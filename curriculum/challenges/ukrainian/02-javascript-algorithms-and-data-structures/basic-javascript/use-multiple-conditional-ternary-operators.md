@@ -9,7 +9,7 @@ dashedName: use-multiple-conditional-ternary-operators
 
 # --description--
 
-У попередньому завданні ви використовували одинарний умовний оператор. Ви також можете об’єднати їх для того, щоб перевірити декілька умов.
+In the previous challenge, you used a single conditional operator. You can also chain them together to check for multiple conditions.
 
 Наступна функція використовує інструкції `if`, `else if` та `else`, щоб перевірити декілька умов:
 

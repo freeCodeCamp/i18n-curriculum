@@ -9,7 +9,7 @@ dashedName: apply-the-flex-direction-property-to-create-a-column-in-the-tweet-em
 
 # --description--
 
-El `header` y `footer` del tweet insertado usaron previamente la propiedad `flex-direction` con un valor de fila. De manera similar, los elementos dentro del elemento `.profile-name` funcionarían bien apilados como una columna.
+The tweet embed `header` and `footer` used the `flex-direction` property earlier with a row value. Similarly, the items inside the `.profile-name` element would work well stacked as a column.
 
 # --instructions--
 
@@ -17,7 +17,7 @@ Agrega la propiedad CSS `flex-direction` al elemento `.profile-name` del título
 
 # --hints--
 
-Tu `.follow-btn` debe mostrarse en la página. Asegúrate de desactivar las extensiones, como los bloqueadores de anuncios.
+Tu `.follow-btn` debe representarse en la página. Asegúrate de desactivar las extensiones, como los bloqueadores de anuncios.
 
 ```js
 assert($('.follow-btn').length > 0 && $('.follow-btn').css('display') !== 'none');

@@ -9,7 +9,7 @@ dashedName: align-elements-using-the-justify-content-property
 
 # --description--
 
-flex 子元素有時不能充滿整個 flex 容器， 所以我們經常需要告訴 CSS 以什麼方式排列 flex 子元素，以及調整它們的間距。 幸運的是，我們可以通過 `justify-content` 屬性的不同值來實現。 在介紹屬性的可選值之前，我們要先理解一些重要術語。
+Sometimes the flex items within a flex container do not fill all the space in the container. It is common to want to tell CSS how to align and space out the flex items a certain way. Fortunately, the `justify-content` property has several options to do this. But first, there is some important terminology to understand before reviewing those options.
 
 <a href="https://chinese.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/" target="_blank" rel="noopener noreferrer nofollow">閱讀更多關於 flex-box 屬性的信息</a>
 
@@ -17,7 +17,7 @@ flex 子元素有時不能充滿整個 flex 容器， 所以我們經常需要�
 
 對於如何沿主軸線排放 flex 項目，有幾種選擇。 常用的一種是 `justify-content: center;`：即 flex 子元素在 flex 容器中居中排列。 其他選擇包括：
 
-<ul><li><code>flex-start</code>：從 flex 容器的起始位置開始排列項目。 對行來說是把項目移至左邊， 對於列是把項目移至頂部。 如未設置 <code>justify-content</code> 的值，那麼這就是默認值。</li><li><code>flex-end</code>：從 flex 容器的終止位置開始排列項目。 對行來說是把項目移至右邊， 對於列是把項目移至底部。</li><li><code>space-between</code>：項目間保留一定間距地沿主軸居中排列。 第一個和最後一個項目被放置在容器邊沿。 例如，在行中第一個項目會緊貼着容器左邊，最後一個項目會緊貼着容器右邊，然後其他項目均勻排布。</li><li><code>space-around</code>：與<code>space-between</code>相似，但頭尾兩個項目不會緊貼容器邊緣，所有項目之間的空間均勻排布。</li><li><code>space-evenly</code>：在 flex 項目之間均勻分配空間，在 flex 容器的任一端都有一個完整的空間。</li></ul>
+<ul><li><code>flex-start</code>: aligns items to the start of the flex container. For a row, this pushes the items to the left of the container. For a column, this pushes the items to the top of the container. This is the default alignment if no <code>justify-content</code> is specified.</li><li><code>flex-end</code>：從 flex 容器的終止位置開始對齊項目。 對行來說是把項目移至右邊， 對於列是把項目移至底部。</li><li><code>space-between</code>：項目間保留一定間距地沿主軸居中排列。 第一個和最後一個項目被放置在容器邊沿。 例如，在行中第一個項目會緊貼着容器左邊，最後一個項目會緊貼着容器右邊，然後其他項目均勻排布。</li><li><code>space-around</code>：與<code>space-between</code>相似，但頭尾兩個項目不會緊貼容器邊緣，所有項目之間的空間均勻排布。</li><li><code>space-evenly</code>：在 flex 項目之間均勻分配空間，在 flex 容器的任一端都有一個完整的空間。</li></ul>
 
 # --instructions--
 

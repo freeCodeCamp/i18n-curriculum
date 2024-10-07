@@ -9,7 +9,7 @@ dashedName: lock-an-element-to-the-browser-window-with-fixed-positioning
 
 # --description--
 
-Il successivo schema di layout che CSS offre è la posizione `fixed`, che è un tipo di posizionamento assoluto che posiziona un elemento relativamente alla finestra del browser. Simile al posizionamento assoluto, esso è utilizzato con le proprietà di offset e anch'esso rimuove l'elemento dal normale flusso del documento. Gli altri elementi non "realizzano" più dove sono posizionati, il che potrebbe richiedere delle altre modifiche al layout.
+The next layout scheme that CSS offers is the `fixed` position, which is a type of absolute positioning that locks an element relative to the browser window. Similar to absolute positioning, it's used with the CSS offset properties and also removes the element from the normal flow of the document. Other items no longer "realize" where it is positioned, which may require some layout adjustments elsewhere.
 
 Un'altra differenza chiave tra le posizioni `fixed` e `absolute` è che un elemento con una posizione fixed non si muove quando l'utente scrolla la pagina.
 

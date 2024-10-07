@@ -9,7 +9,7 @@ dashedName: use-the-parseint-function-with-a-radix
 
 # --description--
 
-`parseInt()` 函數解析一個字符串並返回一個整數。 它還可以傳入第二個參數，指定了字符串中數字的基數。 基數可以是 2 到 36 之間的整數。
+The `parseInt()` function parses a string and returns an integer. It takes a second argument for the radix, which specifies the base of the number in the string. The radix can be an integer between 2 and 36.
 
 函數調用如下所示：
 

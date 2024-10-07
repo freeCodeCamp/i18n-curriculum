@@ -9,7 +9,7 @@ dashedName: create-a-horizontal-line-using-the-hr-element
 
 # --description--
 
-`<hr>` 태그를 사용하여 해당 요소의 너비 전체에 달하는 수평선을 추가할 수 있습니다. 이 선은 주제를 변경하거나 콘텐츠 그룹을 시각적으로 분리하는 데 사용될 수 있습니다.
+You can use the `hr` tag to add a horizontal line across the width of its containing element. This can be used to define a change in topic or to visually separate groups of content.
 
 # --instructions--
 

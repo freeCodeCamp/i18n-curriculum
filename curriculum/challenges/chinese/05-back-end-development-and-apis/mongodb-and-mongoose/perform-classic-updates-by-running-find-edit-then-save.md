@@ -8,7 +8,7 @@ dashedName: perform-classic-updates-by-running-find-edit-then-save
 
 # --description--
 
-在过去，如果想要编辑 document 并以某种方式使用它（比如放到服务器的返回数据中），就必须执行查找、编辑和保存。 Mongoose 有一个专用的更新方法 `Model.update()`， 它与底层的 mongo 驱动绑定。 通过这个方法，我们可以批量编辑符合特定条件的多个 document。但问题在于，这个方法不会返回更新后的 document，而是返回状态信息。 此外，它直接调用 mongo 的底层驱动，让处理 model 的验证变得更加棘手。
+In the good old days, this was what you needed to do if you wanted to edit a document, and be able to use it somehow (e.g. sending it back in a server response). Mongoose has a dedicated updating method: `Model.update()`. It is bound to the low-level mongo driver. It can bulk-edit many documents matching certain criteria, but it doesn’t send back the updated document, only a 'status' message. Furthermore, it makes model validations difficult, because it just directly calls the mongo driver.
 
 # --instructions--
 

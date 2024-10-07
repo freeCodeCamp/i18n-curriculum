@@ -8,7 +8,7 @@ dashedName: remove-a-package-from-your-dependencies
 
 # --description--
 
-لقد اختبرت الآن بعض الطرق الذي يمكنك بها إدارة التبعيات لمشروعك باستخدام قسم التبعيات في package.json. لقد قمت أيضا بإدراج حزم خارجية عن طريق إضافتها إلى الملف وأخبرت npm ما هي أنواع الإصدارات التي تريدها، باستخدام أحرف خاصة مثل tilde (~) أو caret (^).
+You have now tested a few ways you can manage dependencies of your project by using the package.json's dependencies section. You have also included external packages by adding them to the file and even told npm what types of versions you want, by using special characters such as the tilde or the caret.
 
 ولكن ماذا لو أردت إزالة حزمة خارجية لم تعد بحاجة إليها؟ ربما قد خمنتها فعلًا، عليك فقط أن تزيل زوج key-value المقابل لتلك الحزمة من تبعياتك (dependencies).
 

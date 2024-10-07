@@ -8,7 +8,7 @@ dashedName: write-concise-object-literal-declarations-using-object-property-shor
 
 # --description--
 
-ES6 では、オブジェクトリテラルを簡単に定義できるように、便利なサポートが提供されるようになりました。
+ES6 adds some nice support for easily defining object literals.
 
 次のコードを考えてみましょう。
 

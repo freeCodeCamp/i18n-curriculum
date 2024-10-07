@@ -11,19 +11,19 @@ Add an `h2` element in the new section and give it the text `Desserts`.
 
 # --hints--
 
-You should not change your existing `section` element.
+Non dovresti cambiare l'elemento `section` esistente.
 
 ```js
 assert.lengthOf(document.querySelectorAll('section'), 2);
 ```
 
-You should add an `h2` element in your second `section` element.
+Dovresti aggiungere un elemento `h2` nel secondo elemento `section`.
 
 ```js
 assert.strictEqual(document.querySelectorAll('section')?.[1]?.children?.[0]?.tagName, 'H2');
 ```
 
-Your new `h2` element should have the text `Desserts`.
+Il nuovo elemento `h2` dovrebbe avere il testo `Desserts`.
 
 ```js
 assert.match(document.querySelectorAll('h2')?.[1]?.innerText, /Desserts/i);

@@ -1,13 +1,13 @@
 ---
 id: 5f46ede1ff8fec5ba656b44c
-title: Schritt 77
+title: Schitt 77
 challengeType: 0
 dashedName: step-77
 ---
 
 # --description--
 
-Als Nächstes wirst du das `footer`-Element formatieren. Um das CSS zu organisieren, füge einen Kommentar am Ende von `styles.css` mit dem Text `FOOTER` hinzu.
+Next you are going to be styling the `footer` element. To keep the CSS organized, add a comment at the end of `styles.css` with the text `FOOTER`.
 
 # --hints--
 

@@ -8,7 +8,7 @@ dashedName: binary-agents
 
 # --description--
 
-Поверніть переданий бінарний рядок, перекладений англійською мовою.
+Return an English translated sentence of the passed binary string.
 
 Бінарний рядок буде розділений пробілом.
 

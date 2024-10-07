@@ -7,7 +7,7 @@ dashedName: step-41
 
 # --description--
 
-Sasa ni wakati wa kuongeza maelezo mengine kwa alama, kuanzia na ya kwanza.
+Now it's time to add other details to the markers, starting with the first one.
 
 Katika kipengele cha `div` cha alama ya kwanza, badilisha class `one` hadi `red`.
 

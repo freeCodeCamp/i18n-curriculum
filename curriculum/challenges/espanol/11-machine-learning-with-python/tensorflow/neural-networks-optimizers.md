@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: neural-networks-optimizers
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 
-¿Qué es una función optimizador?
+What is an optimizer function?
 
 ## --answers--
 

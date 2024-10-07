@@ -8,7 +8,7 @@ dashedName: understand-the-hazards-of-using-imperative-code
 
 # --description--
 
-使用函數式編程是一個好的習慣。 它使你的代碼易於管理，避免潛在的 bug。 但在開始之前，先看看命令式編程方法，以強調你可能有什麼問題。
+Functional programming is a good habit. It keeps your code easy to manage, and saves you from sneaky bugs. But before we get there, let's look at an imperative approach to programming to highlight where you may have issues.
 
 在英語 (以及許多其他語言) 中，命令式時態用來發出指令。 同樣，命令式編程是向計算機提供一套執行任務的聲明。
 

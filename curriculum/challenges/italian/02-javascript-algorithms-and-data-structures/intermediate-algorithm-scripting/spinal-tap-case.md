@@ -8,7 +8,7 @@ dashedName: spinal-tap-case
 
 # --description--
 
-Converti una stringa in spinal case. Spinal case è composto di tutte-parole-minuscole-unite-da-trattini.
+Convert a string to spinal case. Spinal case is all-lowercase-words-joined-by-dashes.
 
 # --hints--
 

@@ -9,7 +9,7 @@ dashedName: create-decimal-numbers-with-javascript
 
 # --description--
 
-يمكننا تخزين أرقام عشرية في المتغيرات أيضا. يشار أحياناً إلى الأرقام العشرية على أنها أرقام <dfn>نُقَط عائمة (floating point)</dfn> أو <dfn>عائمات (floats)</dfn>.
+We can store decimal numbers in variables too. Decimal numbers are sometimes referred to as <dfn>floating point</dfn> numbers or <dfn>floats</dfn>.
 
 **ملاحظة:** عندما تحسب الأرقام، يتم حسابها بدقة محدودة. وقد تؤدي العمليات التي تستخدم نُقَط عائمة إلى نتائج مختلفة عن النتائج المرغوبة. إذا حصلت على واحدة من هذه النتائج، أفتح موضوع في <a href="https://forum.freecodecamp.org/" target="_blank" rel="noopener noreferrer nofollow">منتدى freeCodeCamp</a>.
 

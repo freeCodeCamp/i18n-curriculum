@@ -12,7 +12,7 @@ dashedName: web-services-api-rate-limiting-and-security
 
 # --description--
 
-More resources:
+Más recursos:
 
 \- <a href="https://www.youtube.com/watch?v=TJGJN0T8tak" target="_blank" rel="noopener noreferrer nofollow">Ejercicio: GeoJSON</a>
 
@@ -22,7 +22,7 @@ More resources:
 
 \- <a href="https://www.youtube.com/watch?v=AopYOlDa-vY" target="_blank" rel="noopener noreferrer nofollow">Ejercicio: XML</a>
 
-# --questions--
+# --preguntas----preguntas--
 
 ## --text--
 

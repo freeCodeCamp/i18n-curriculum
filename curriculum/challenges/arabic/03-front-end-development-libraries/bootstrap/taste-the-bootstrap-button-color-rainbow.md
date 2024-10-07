@@ -8,7 +8,7 @@ dashedName: taste-the-bootstrap-button-color-rainbow
 
 # --description--
 
-فئة `btn-primary` هي اللون الرئيسة التي ستستخدمه في التطبيق الخاص بك. هي مفيدة لتسليط الضوء على الإجراءات التي تريد من المستخدم أن يتخذها.
+The `btn-primary` class is the main color you'll use in your app. It is useful for highlighting actions you want your user to take.
 
 استبدل فئة `btn-default` الخاص بفئة `btn-primary` في الزر الخاص بك.
 

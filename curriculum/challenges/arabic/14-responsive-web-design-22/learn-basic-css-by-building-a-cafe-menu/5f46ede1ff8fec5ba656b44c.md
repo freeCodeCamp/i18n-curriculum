@@ -7,7 +7,7 @@ dashedName: step-77
 
 # --description--
 
-بعد ذلك ستقوم بتصميم (style) عنصر `footer`. للحفاظ على تنظيم CSS، أضف تعليق في نهاية `styles.css` مع النص `FOOTER`.
+Next you are going to be styling the `footer` element. To keep the CSS organized, add a comment at the end of `styles.css` with the text `FOOTER`.
 
 # --hints--
 

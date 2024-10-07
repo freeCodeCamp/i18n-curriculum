@@ -8,7 +8,7 @@ dashedName: return-largest-numbers-in-arrays
 
 # --description--
 
-各サブ配列の最大数値からなる配列を返してください。 簡単のため、与えられる配列にはちょうど 4 つのサブ配列が含まれています。
+Return an array consisting of the largest number from each provided sub-array. For simplicity, the provided array will contain exactly 4 sub-arrays.
 
 単純な for ループを使用して配列を反復処理し、配列式 `arr[i]` で含まれる各数字にアクセスできます。
 

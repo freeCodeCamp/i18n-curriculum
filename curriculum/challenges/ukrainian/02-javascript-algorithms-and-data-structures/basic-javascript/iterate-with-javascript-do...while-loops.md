@@ -9,7 +9,7 @@ dashedName: iterate-with-javascript-do---while-loops
 
 # --description--
 
-Наступним ви вивчите цикл `do...while`. Цикл `do...while` називається так, бо спочатку він щось виконує у коді (`do`), а потім продовжує цикл (`while`), доки умова не становитиме `true`.
+The next type of loop you will learn is called a `do...while` loop. It is called a `do...while` loop because it will first `do` one pass of the code inside the loop no matter what, and then continue to run the loop `while` the specified condition evaluates to `true`.
 
 ```js
 const ourArray = [];

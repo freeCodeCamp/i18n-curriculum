@@ -8,7 +8,7 @@ dashedName: add-elements-within-your-bootstrap-wells
 
 # --description--
 
-現在的每一行的列都已經有了 `div` 元素。 這已經足夠了， 現在讓我們添加 `button` 元素吧。
+Now we're several `div` elements deep on each column of our row. This is as deep as we'll need to go. Now we can add our `button` elements.
 
 每一個 class 屬性爲 `well` 的 `div` 元素內都應該放三個 `button` 元素。
 

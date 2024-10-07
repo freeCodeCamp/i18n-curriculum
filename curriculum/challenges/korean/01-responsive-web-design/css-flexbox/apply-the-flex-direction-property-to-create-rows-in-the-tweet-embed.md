@@ -9,7 +9,7 @@ dashedName: apply-the-flex-direction-property-to-create-rows-in-the-tweet-embed
 
 # --description--
 
-트윗 임베드 예시에 있는 `header`와 `footer`는 `flex-direction` 속성을 사용하여 행으로 배치될 수 있는 자식 아이템을 가지고 있습니다. 이는 CSS에게 자식 요소들을 수평으로 정렬하도록 지시합니다.
+The `header` and `footer` in the tweet embed example have child items that could be arranged as rows using the `flex-direction` property. This tells CSS to align the children horizontally.
 
 # --instructions--
 
@@ -17,7 +17,7 @@ dashedName: apply-the-flex-direction-property-to-create-rows-in-the-tweet-embed
 
 # --hints--
 
-`.follow-btn`는 페이지에 렌더링되어야 합니다. 광고 차단기 같은 확장 프로그램은 꺼야합니다.
+`.follow-btn`가 페이지에 렌더링되어야 합니다. 광고 차단기 같은 확장 프로그램은 꺼야합니다.
 
 ```js
 assert($('.follow-btn').length > 0 && $('.follow-btn').css('display') !== 'none');

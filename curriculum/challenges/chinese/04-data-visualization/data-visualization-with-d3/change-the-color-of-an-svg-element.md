@@ -8,7 +8,7 @@ dashedName: change-the-color-of-an-svg-element
 
 # --description--
 
-所有条形图的位置都是正确的，但是它们都是一样的黑色。 SVG 可以改变条形图的颜色。
+The bars are in the right position, but they are all the same black color. SVG has a way to change the color of the bars.
 
 在 SVG 中， `rect` 图形用 `fill` 属性着色。 它支持十六进制代码、颜色名称、rgb 值以及更复杂的选项，比如渐变和透明。
 

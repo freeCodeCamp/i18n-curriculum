@@ -8,7 +8,7 @@ dashedName: add-a-tooltip-to-a-d3-element
 
 # --description--
 
-Uma dica mostra mais informações sobre um item em uma página quando o usuário passa o mouse por cima do item. Existem várias maneiras de se adicionar uma dica a uma visualização. Este desafio usa o elemento SVG `title`.
+A tooltip shows more information about an item on a page when the user hovers over that item. There are several ways to add a tooltip to a visualization. This challenge uses the SVG `title` element.
 
 `title` está junto com o método `text()` para adicionar dinamicamente dados às barras.
 

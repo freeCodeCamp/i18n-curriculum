@@ -14,7 +14,7 @@ dashedName: web-services-json
 
 ## --text--
 
-O que será impresso pelo código a seguir?:
+O que será impresso pelo código a seguir?
 
 ```python
 import json

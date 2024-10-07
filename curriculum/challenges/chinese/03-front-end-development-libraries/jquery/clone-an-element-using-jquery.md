@@ -8,7 +8,7 @@ dashedName: clone-an-element-using-jquery
 
 # --description--
 
-除了移动标签，也可以把元素从一个地方复制到另一地方。
+In addition to moving elements, you can also copy them from one place to another.
 
 jQuery 有一个 `clone()` 方法，可以复制标签。
 

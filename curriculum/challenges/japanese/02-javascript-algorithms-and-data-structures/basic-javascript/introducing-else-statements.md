@@ -9,7 +9,7 @@ dashedName: introducing-else-statements
 
 # --description--
 
-`if` ステートメントの条件が true の場合は、その後のコードブロックが実行されます。 条件が false の場合はどうなるでしょうか？ 通常は何も起こりません。 `else` ステートメントを記述することによって、 別のコードブロックを実行できます。
+When a condition for an `if` statement is true, the block of code following it is executed. What about when that condition is false? Normally nothing would happen. With an `else` statement, an alternate block of code can be executed.
 
 ```js
 if (num > 10) {

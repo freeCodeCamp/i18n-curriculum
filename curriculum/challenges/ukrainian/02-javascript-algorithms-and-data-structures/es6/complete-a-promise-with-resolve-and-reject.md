@@ -8,7 +8,7 @@ dashedName: complete-a-promise-with-resolve-and-reject
 
 # --description--
 
-Проміс має три стани: `pending`, `fulfilled` та `rejected`. Проміс, який ви створили у попередньому завданні, завжди буде знаходитись у стані `pending`, оскільки ви не передбачили його завершення. Для цього використовуються параметри `resolve` та `reject`, які надаються аргументу. Використовуйте `resolve`, якщо ви хочете виконати проміс успішно та `reject`, якщо навпаки. Ці методи приймають аргумент, як показано нижче.
+A promise has three states: `pending`, `fulfilled`, and `rejected`. The promise you created in the last challenge is forever stuck in the `pending` state because you did not add a way to complete the promise. The `resolve` and `reject` parameters given to the promise argument are used to do this. `resolve` is used when you want your promise to succeed, and `reject` is used when you want it to fail. These are methods that take an argument, as seen below.
 
 ```js
 const myPromise = new Promise((resolve, reject) => {

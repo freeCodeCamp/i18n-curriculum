@@ -8,7 +8,7 @@ dashedName: remove-an-item-from-an-array
 
 # --description--
 
-Hora de praticar a remoção de itens de um array. O operador spread também pode ser usado aqui. Outros métodos de JavaScript úteis incluem `slice()` e `concat()`.
+Time to practice removing items from an array. The spread operator can be used here as well. Other useful JavaScript methods include `slice()` and `concat()`.
 
 # --instructions--
 

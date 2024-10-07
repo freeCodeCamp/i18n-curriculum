@@ -9,7 +9,7 @@ dashedName: compound-assignment-with-augmented-addition
 
 # --description--
 
-プログラミングでは、代入を使用して変数の中身を変更する操作がよく行われます。 最初に等号の右辺のすべてが評価されることを忘れないようにしましょう。
+In programming, it is common to use assignments to modify the contents of a variable. Remember that everything to the right of the equals sign is evaluated first, so we can say:
 
 ```js
 myVar = myVar + 5;

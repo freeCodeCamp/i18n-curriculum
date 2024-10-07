@@ -8,7 +8,7 @@ dashedName: understand-the-immediately-invoked-function-expression-iife
 
 # --description--
 
-النمط الشائع في JavaScript هو تنفيذ الوظيفة (function) بمجرد إعلانه:
+A common pattern in JavaScript is to execute a function as soon as it is declared:
 
 ```js
 (function () {

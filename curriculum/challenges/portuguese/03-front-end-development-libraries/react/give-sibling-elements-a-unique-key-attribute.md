@@ -8,7 +8,7 @@ dashedName: give-sibling-elements-a-unique-key-attribute
 
 # --description--
 
-O último desafio mostrou como o método `map` é usado para renderizar dinamicamente um número de elementos com base na entrada do usuário. No entanto, faltou uma peça importante desse exemplo. Ao criar um array de elementos, cada um precisa de um atributo `key` definido com um valor único. React usa essas chaves para manter o controle de quais itens são adicionados, alterados ou removidos. Isso ajuda a tornar o processo de re-renderização mais eficiente quando a lista é modificada de qualquer forma.
+The last challenge showed how the `map` method is used to dynamically render a number of elements based on user input. However, there was an important piece missing from that example. When you create an array of elements, each one needs a `key` attribute set to a unique value. React uses these keys to keep track of which items are added, changed, or removed. This helps make the re-rendering process more efficient when the list is modified in any way.
 
 **Observação:** as chaves só precisam ser únicas entre elementos irmãos, elas não precisam ser globalmente exclusivas na sua aplicação.
 

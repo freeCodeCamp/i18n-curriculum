@@ -7,7 +7,7 @@ dashedName: step-23
 
 # --description--
 
-Ndani ya `tr` ya tatu, ongeza kipengele cha `th` chenye maandishi `Credit The outstanding balance on our credit card.`. Funga maandishi hayo, isipokuwa `Credit`, katika kipengele cha `span` chenye sifa ya `class` iliyowekwa `description`.
+Within the third `tr`, add a `th` element with the text `Credit The outstanding balance on our credit card.`. Wrap that text, except for `Credit`, within a `span` element with the `class` set to `description`.
 
 Ongeza vipengele vitatu vya `td` chini ya yake, na uipe maandishi yafuatayo, kwa mpangilio: `$50`, `$50` na `$75`. Kipe kipengele cha tatu cha `td` sifa ya `class` iliyowekwa kuwa `current`.
 

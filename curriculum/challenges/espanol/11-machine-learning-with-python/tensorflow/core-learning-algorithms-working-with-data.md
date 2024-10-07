@@ -10,7 +10,7 @@ bilibiliIds:
 dashedName: core-learning-algorithms-working-with-data
 ---
 
-# --questions--
+# --preguntas--
 
 ## --text--
 

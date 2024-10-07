@@ -8,7 +8,7 @@ dashedName: catch-mixed-usage-of-single-and-double-quotes
 
 # --description--
 
-يسمح JavaScript باستخدام كلا علامات التنصيص، الفردية (`'`) والزوجية (`"`) لإعلان المقطع النصي (string). انتقاء أحد الخيارين هو تفضيل شخصي، مع بعض الاستثناءات.
+JavaScript allows the use of both single (`'`) and double (`"`) quotes to declare a string. Deciding which one to use generally comes down to personal preference, with some exceptions.
 
 وجدود الخيارين مجدٍ عندما يحوي المقطع النصي اختصارات أو نص آخر داخل علامات تنصيص. فقط كن حذراً من إغلاق المقطع مبكراً، مما يسبب خطأ في تركيب الجملة.
 

@@ -8,7 +8,7 @@ dashedName: extend-one-set-of-css-styles-to-another-element
 
 # --description--
 
-Sass ha una caratteristica chiamata `extend` che rende facile prendere in prestito le regole CSS da un elemento e partire da esse in un altro.
+Sass has a feature called `extend` that makes it easy to borrow the CSS rules from one element and build upon them in another.
 
 Per esempio, il seguente blocco di regole CSS stilizza una classe `.panel`. Esso specifica un `background-color`, un'`height` e un `border`.
 

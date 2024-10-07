@@ -9,7 +9,7 @@ dashedName: introducing-else-if-statements
 
 # --description--
 
-如果你有多個條件語句，你可以通過 `else if` 語句把 `if` 語句鏈起來。
+If you have multiple conditions that need to be addressed, you can chain `if` statements together with `else if` statements.
 
 ```js
 if (num > 15) {

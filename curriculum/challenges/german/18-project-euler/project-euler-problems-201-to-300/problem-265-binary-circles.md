@@ -1,6 +1,6 @@
 ---
 id: 5900f4761000cf542c50ff88
-title: 'Problem 265: Binary Circles'
+title: 'Problem 265: Binäre Kreise'
 challengeType: 1
 forumTopicId: 301914
 dashedName: problem-265-binary-circles
@@ -8,26 +8,26 @@ dashedName: problem-265-binary-circles
 
 # --description--
 
-$2^N$ binary digits can be placed in a circle so that all the $N$-digit clockwise subsequences are distinct.
+$2^N$ Binärziffern können in einem Kreis platziert werden, so dass alle $N$-stellige Teilfolgen im Uhrzeigersinn verschieden sind.
 
-For $N = 3$, two such circular arrangements are possible, ignoring rotations:
+Für $N = 3$ sind zwei solche kreisförmigen Anordnungen möglich, wobei Drehungen ignoriert werden:
 
-<img alt="two circular arrangements for N = 3" src="https://cdn.freecodecamp.org/curriculum/project-euler/binary-circles.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
+<img alt="zwei kreisförmige Arrangements für N = 3" src="https://cdn.freecodecamp.org/curriculum/project-euler/binary-circles.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-For the first arrangement, the 3-digit subsequences, in clockwise order, are: 000, 001, 010, 101, 011, 111, 110 and 100.
+Für das erste Arrangement sind die dreistelligen Teilfolgen im Uhrzeigersinn: 000, 001, 010, 101, 011, 111, 110 und 100.
 
-Each circular arrangement can be encoded as a number by concatenating the binary digits starting with the subsequence of all zeros as the most significant bits and proceeding clockwise. The two arrangements for $N = 3$ are thus represented as 23 and 29:
+Jede kreisförmige Anordnung kann als Zahl kodiert werden, indem die binären Ziffern aneinandergereiht werden, beginnend mit der Teilfolge aller Nullen als höchstwertigen Bits und im Uhrzeigersinn fortschreitend. Die beiden Arrangements für $N = 3$ werden also als 23 und 29 dargestellt:
 
 $${00010111}_2 = 23\\\\
 {00011101}_2 = 29$$
 
-Calling $S(N)$ the sum of the unique numeric representations, we can see that $S(3) = 23 + 29 = 52$.
+Nennt man $S(N)$ die Summe der eindeutigen numerischen Darstellungen, so sieht man, dass $S(3) = 23 + 29 = 52$.
 
-Find $S(5)$.
+Finde $S(5)$.
 
 # --hints--
 
-`binaryCircles()` should return `209110240768`.
+`binaryCircles()` sollte `209110240768` zurückgeben.
 
 ```js
 assert.strictEqual(binaryCircles(), 209110240768);

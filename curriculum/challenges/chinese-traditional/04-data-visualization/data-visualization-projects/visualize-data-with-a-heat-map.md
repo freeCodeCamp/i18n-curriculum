@@ -8,11 +8,11 @@ dashedName: visualize-data-with-a-heat-map
 
 # --description--
 
-**目標：** 構建一個應用，功能和 <a href="https://heat-map.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://heat-map.freecodecamp.rocks</a> 類似。
+**Objective:** Build an app that is functionally similar to this: <a href="https://heat-map.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://heat-map.freecodecamp.rocks</a>.
 
-完成以下需求，並且通過所有測試。 你可以使用你需要的任何庫或 API。 賦予它你自己的個人風格。
+完成以下需求，並且通過所有測試。 你可以使用你需要的任何庫或 API。 可以用你自己的樣式來完成。
 
-你可以使用 HTML、JavaScript、CSS、以及基於 svg 的 D3 可視化庫來完成這個挑戰。 要求的 DOM 元素在每次測試時都會被查詢。 如果你使用了前端框架（例如 Vue），那麼對於動態的內容測試結果可能不準確。 我們希望最終能夠兼容這些框架，但 D3 項目目前還不支持它們。
+你可以使用 HTML、JavaScript、CSS、以及基於 svg 的 D3 可視化庫來完成這個挑戰。 要求的 DOM 元素在每次測試時都會被查詢。 如果你使用了前端框架（例如 Vue），因爲內容是動態渲染的，試結果可能不準確。 我們希望最終能夠兼容這些框架，但 D3 框架目前還不支持它們。
 
 **需求 #1：** 熱度圖包含一個具有 `id="title"` 屬性的標題。
 

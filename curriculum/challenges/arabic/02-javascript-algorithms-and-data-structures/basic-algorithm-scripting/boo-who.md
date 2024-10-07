@@ -8,7 +8,7 @@ dashedName: boo-who
 
 # --description--
 
-تحقق مما إذا كانت القيمة تصنف كقيمة boolean المنطقية. أنتج القيم `true` أو `false`.
+Check if a value is classified as a boolean primitive. Return `true` or `false`.
 
 قيم المقارنة (Boolean primitives) تكون `true` و `false`.
 

@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aed708826
-title: Remove an Element Using jQuery
+title: jQuery로 요소 지우기
 challengeType: 6
 forumTopicId: 18262
 dashedName: remove-an-element-using-jquery
@@ -10,13 +10,13 @@ dashedName: remove-an-element-using-jquery
 
 Now let's remove an HTML element from your page using jQuery.
 
-jQuery has a function called `.remove()` that will remove an HTML element entirely.
+jQuery는 HTML 요소를 전부 지우는 `.remove()`라는 함수를 가지고 있습니다.
 
-Remove the `#target4` element from the page by using the `.remove()` function.
+`.remove()` 함수로 페이지로부터 `#target4` 요소를 지우시오.
 
 # --hints--
 
-You should use jQuery to remove your `target4` element from your page.
+페이지로부터 `target4` 요소를 지우기 위해 jQuery를 사용해야 합니다.
 
 ```js
 assert(
@@ -24,7 +24,7 @@ assert(
 );
 ```
 
-You should only use jQuery to remove this element.
+이 요소를 지우기 위해 jQuery만 사용해야 합니다.
 
 ```js
 assert(

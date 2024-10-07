@@ -9,7 +9,7 @@ dashedName: local-scope-and-functions
 
 # --description--
 
-関数内で宣言された変数や、関数のパラメーターは、<dfn>ローカル</dfn>のスコープを持ちます。 つまり、それらは関数内でのみ参照されます。
+Variables which are declared within a function, as well as the function parameters, have <dfn>local</dfn> scope. That means they are only visible within that function.
 
 次は、`loc` というローカル変数を持つ関数 `myTest` です。
 

@@ -1,6 +1,6 @@
 ---
 id: 587d78a6367417b2b2512ade
-title: Create a More Complex Shape Using CSS and HTML
+title: إنشاء شكل أكثر تعقيداً بواسطة HTML و CSS
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cPpz4fr'
 forumTopicId: 301050
@@ -24,11 +24,11 @@ One of the most popular shapes in the world is the heart shape, and in this chal
 }
 ```
 
-For the `::before` and `::after` pseudo-elements to function properly, they must have a defined `content` property. This property is usually used to add things like a photo or text to the selected element. When the `::before` and `::after` pseudo-elements are used to make shapes, the `content` property is still required, but it's set to an empty string. In the above example, the element with the class of `heart` has a `::before` pseudo-element that produces a yellow rectangle with height and width of `50px` and `70px`, respectively. This rectangle has round corners due to its 25% `border-radius` and is positioned absolutely at `5px` from the left and `50px` above the top of the element.
+لتعمل العناصر المستعارة `::before` و `::after` بشكل صحيح، يجب أن تملك خاصية المحتوى `content` بشكل محددة. هذه الخاصية تستخدم عادة لإضافة أشياء مثل صورة أو نص إلى العنصر المحدد. عندما تستخدم العناصر المستعارة `::before` و `::after` لصنع أشكال، خاصية المحتوى `content` لا تزال مطلوبة، لكنها تكون مضبوطة إلى سلسلة فارغة. في المثال الوارد أعلاه، يحتوى العنصر مع الكلاس `heart` على الخاصية المستعارة `::before` التي تنتج مستطيلاً أصفر بعرض `50px` و طول `70px` على التوالي. This rectangle has round corners due to its 25% `border-radius` and is positioned absolutely at `5px` from the left and `50px` above the top of the element.
 
 # --instructions--
 
-Transform the element on the screen to a heart. In the `.heart::after` selector, change the `background-color` to `pink` and the `border-radius` to 50%.
+قم بتحويل العنصر على الشاشة إلى قلب. In the `.heart::after` selector, change the `background-color` to `pink` and the `border-radius` to 50%.
 
 Next, target the element with the class `heart` (just `heart`) and fill in the `transform` property. Use the `rotate()` function with -45 degrees.
 

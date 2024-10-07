@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d4036151
-title: Use a Switch Statement to Handle Multiple Actions
+title: 다수 행동을 다루기 위한 Switch문 사용하기
 challengeType: 6
 forumTopicId: 301449
 dashedName: use-a-switch-statement-to-handle-multiple-actions
@@ -12,31 +12,31 @@ You can tell the Redux store how to handle multiple action types. Say you are ma
 
 # --instructions--
 
-The code editor has a store, actions, and action creators set up for you. Fill in the `reducer` function to handle multiple authentication actions. Use a JavaScript `switch` statement in the `reducer` to respond to different action events. This is a standard pattern in writing Redux reducers. The switch statement should switch over `action.type` and return the appropriate authentication state.
+코드 편집기에는 스토어, 행동, 그리고 행동 생성자가 설정되어 있습니다. 여러 인증 액션을 처리하도록 `reducer` 함수를 작성하시오. `reducer`에서 JavaScript `switch` 문을 사용하여 다른 액션 이벤트에 대응하시오. 이것은 Redux reducer를 작성할 때 사용하는 표준 패턴입니다. Switch문은 `action.type` 을 기준으로 전환하여 적절한 인증 상태를 반환해야 합니다.
 
-**Note:** At this point, don't worry about state immutability, since it is small and simple in this example. For each action, you can return a new object — for example, `{authenticated: true}`. Also, don't forget to write a `default` case in your switch statement that returns the current `state`. This is important because once your app has multiple reducers, they are all run any time an action dispatch is made, even when the action isn't related to that reducer. In such a case, you want to make sure that you return the current `state`.
+참고: 이 단계에서는 상태의 불변성에 대해 걱정하지 않아도 됩니다. 이 예에서는 상태가 작고 단순하기 때문입니다. 각 액션에 대해 `{authenticated: true}`와 같은 새로운 객체를 반환할 수 있습니다. 또한 switch문에서 현재 `state`를 반환하는 `default` 케이스를 작성하는 것을 잊지 마시오. 이것은 중요합니다. 왜냐하면 앱에 여러 개의 리듀서가 있을 때, 액션이 해당 리듀서와 관련이 없더라도 액션이 디스패치될 때마다 모든 리듀서가 실행되기 때문입니다. 이 경우, 현재 `state`를 반환하도록 해야 합니다.
 
 # --hints--
 
-Calling the function `loginUser` should return an object with type property set to the string `LOGIN`.
+함수 `loginUser` 호출은 문자열 `LOGIN`로 설정된 type 속성을 가진 객체를 반환해야 합니다.
 
 ```js
 assert(loginUser().type === 'LOGIN');
 ```
 
-Calling the function `logoutUser` should return an object with type property set to the string `LOGOUT`.
+함수 `logoutUser` 호출은 문자열 `LOGOUT`로 설정된 type 속성을 가진 객체를 반환해야 합니다.
 
 ```js
 assert(logoutUser().type === 'LOGOUT');
 ```
 
-The store should be initialized with an object with an `authenticated` property set to `false`.
+스토어는 `false`로 설정된 `authenticated` 속성을 가진 객체로 초기화되어야 합니다.
 
 ```js
 assert(store.getState().authenticated === false);
 ```
 
-Dispatching `loginUser` should update the `authenticated` property in the store state to `true`.
+`loginUser`를 디스패칭하면 스토어 상태에 있는 `authenticated` 속성을 `true`로 업데이트해야 합니다.
 
 ```js
 assert(
@@ -51,7 +51,7 @@ assert(
 );
 ```
 
-Dispatching `logoutUser` should update the `authenticated` property in the store state to `false`.
+`logoutUser`를 디스패칭하면 스토어 상태에 있는 `authenticated`속성을 `false`로 업데이트해야 합니다.
 
 ```js
 assert(
@@ -67,7 +67,7 @@ assert(
 );
 ```
 
-The `authReducer` function should handle multiple action types with a `switch` statement.
+`authReducer` 함수는 `switch`문으로 다수의 action 유형을 다루어야 합니다.
 
 ```js
 (getUserInput) =>

@@ -8,7 +8,7 @@ dashedName: build-a-world-cup-database
 
 # --description--
 
-这是你获得认证的必做项目之一。 对于这个项目，你将创建一个 Bash 脚本，将世界杯赛中的信息存储到 PostgreSQL 中，然后通过查询数据库来获取有用的统计数据。
+This is one of the required projects to earn your certification. For this project, you will create a Bash script that enters information from World Cup games into PostgreSQL, then query the database for useful statistics.
 
 # --instructions--
 

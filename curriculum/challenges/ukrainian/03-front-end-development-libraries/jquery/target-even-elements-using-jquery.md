@@ -11,7 +11,7 @@ dashedName: target-even-elements-using-jquery
 
 # --description--
 
-Ви також можете націлити елементи на основі їхньої позиції за допомогою селекторів `:odd` чи `:even`.
+You can also target elements based on their positions using `:odd` or `:even` selectors.
 
 Зверніть увагу, що jQuery має індекс на основі нуля, тобто першим елементом вибірки є нуль (позиція 0). Це може бути трохи заплутано, оскільки `:odd` обирає другий елемент (позиція 1), четвертий елемент (позиція 3) і так далі проти логіки.
 

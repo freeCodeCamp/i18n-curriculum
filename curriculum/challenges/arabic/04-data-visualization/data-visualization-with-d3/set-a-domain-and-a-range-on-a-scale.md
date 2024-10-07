@@ -1,6 +1,6 @@
 ---
 id: 587d7fac367417b2b2512bdb
-title: Set a Domain and a Range on a Scale
+title: تعيين مجال ونطاق على مقياس
 challengeType: 6
 forumTopicId: 301491
 dashedName: set-a-domain-and-a-range-on-a-scale
@@ -10,11 +10,11 @@ dashedName: set-a-domain-and-a-range-on-a-scale
 
 By default, scales use the identity relationship. This means the input value maps to the output value. However, scales can be much more flexible and interesting.
 
-Say a dataset has values ranging from 50 to 480. This is the input information for a scale, also known as the <dfn>domain</dfn>.
+فلنقول أن مجموعة البيانات لها قيم تتراوح بين 50 و 480. هذه هي معلومات الإدخال لمقياس ما، والمعروفة أيضًا باسم المجال <dfn>domain</dfn>.
 
-You want to map those points along the `x` axis on the SVG, between 10 units and 500 units. This is the output information, also known as the <dfn>range</dfn>.
+You want to map those points along the `x` axis on the SVG, between 10 units and 500 units. هذه هي المعلومات المخرجة، والمعروفة أيضًا باسم النطاق <dfn>range</dfn>.
 
-The `domain()` and `range()` methods set these values for the scale. Both methods take an array of at least two elements as an argument. Here's an example:
+الطرق `domain()` و `range()` تحدد هذه القيم للمقياس. وكلا الطريقتين تأخذ قائمة مكوَّنة من عنصرين على الأقل كمعطى. على سبيل المثال:
 
 ```js
 scale.domain([50, 480]);
@@ -26,43 +26,43 @@ scale(750)
 d3.scaleLinear()
 ```
 
-In order, the following values would be displayed in the console: `10`, `500`, `323.37`, and `807.67`.
+بالترتيب، سيتم عرض القيم التالية في الكونسول: `10` و `500` و `323.37` و `807.67`.
 
-Notice that the scale uses the linear relationship between the domain and range values to figure out what the output should be for a given number. The minimum value in the domain (50) maps to the minimum value (10) in the range.
+لاحظ أن المقياس يستخدم العلاقة الخطية بين المجال وقيم النطاق لمعرفة ما يجب أن يكون الإخراج لعدد معين. قيمة الحد الأدنى في المجال (50) ستؤدي إلى الحد الأدنى للقيمة (10) في النطاق.
 
 # --instructions--
 
-Create a scale and set its domain to `[250, 500]` and range to `[10, 150]`.
+قم بإنشاء مقياس وتعيين مجاله إلى `[250, 500]` ونطاقه إلى `[10, 150]`.
 
-**Note:** You can chain the `domain()` and `range()` methods onto the `scale` variable.
+**ملاحظة:** يمكنك سلسلة طرق `domain()` و `range()` على متغير المقياس `scale`.
 
 # --hints--
 
-Your code should use the `domain()` method.
+يجب أن يستخدم الكود الخاص بك طريقة `domain()`.
 
 ```js
 assert(code.match(/\.domain/g));
 ```
 
-The `domain()` of the `scale` should be set to `[250, 500]`.
+يجب تعيين `domain()` من `scale` إلى `[250, 500]`.
 
 ```js
 assert(JSON.stringify(scale.domain()) == JSON.stringify([250, 500]));
 ```
 
-Your code should use the `range()` method.
+يجب أن يستخدم الكود الخاص بك طريقة `range()`.
 
 ```js
 assert(code.match(/\.range/g));
 ```
 
-The `range()` of the `scale` should be set to `[10, 150]`.
+يجب تعيين `range()` من `scale` إلى `[10, 150]`.
 
 ```js
 assert(JSON.stringify(scale.range()) == JSON.stringify([10, 150]));
 ```
 
-The text in the `h2` should be `-102`.
+يجب أن يكون النص في `h2` بقيمة `-102`.
 
 ```js
 assert($('h2').text() == '-102');

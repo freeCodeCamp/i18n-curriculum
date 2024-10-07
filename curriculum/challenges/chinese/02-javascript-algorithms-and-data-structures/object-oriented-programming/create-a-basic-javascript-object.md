@@ -8,7 +8,7 @@ dashedName: create-a-basic-javascript-object
 
 # --description--
 
-想想我们在生活中每天都可见到的事物：比如汽车、商店以及小鸟等。 它们都是<dfn>对象</dfn>：即人们可以观察和与之互动的实体事物。
+Think about things people see every day, like cars, shops, and birds. These are all <dfn>objects</dfn>: tangible things people can observe and interact with.
 
 这些物体的性质是什么？ 汽车有轮子， 商店销售物品， 鸟儿有翅膀。
 

@@ -98,4 +98,4 @@ if (!isPremium || membershipDuration <= 12 || isBlocked) {
 
 ## --video-solution--
 
-3
+الثالث

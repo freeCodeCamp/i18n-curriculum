@@ -8,7 +8,7 @@ dashedName: adjacency-matrix
 
 # --description--
 
-Otra forma de representar un grafo es ponerlo en una <dfn>matriz de adyacencia</dfn>. Una <dfn>matriz de adyacencia</dfn> es un arreglo de 2 dos-dimensiones (2D) donde cada arreglo anidado tiene el mismo número de elementos que el arreglo externo. En otras palabras, es una matriz o cuadrícula de números, donde los numeros representas las aristas.
+Another way to represent a graph is to put it in an <dfn>adjacency matrix</dfn>. An <dfn>adjacency matrix</dfn> is a two-dimensional (2D) array where each nested array has the same number of elements as the outer array. In other words, it is a matrix or grid of numbers, where the numbers represent the edges.
 
 **Nota**: los números de la parte superios y a la izquierda de la matriz son solo etiquetas para los nodos. Dentro de la matriz, los unos indican que existe una arista entre los vertices (nodos) que representan la fila y la columna. Finalmente, los ceros indican que no existe una arista o relación.
 

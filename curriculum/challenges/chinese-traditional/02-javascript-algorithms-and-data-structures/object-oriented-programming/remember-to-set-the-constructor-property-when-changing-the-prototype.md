@@ -8,7 +8,7 @@ dashedName: remember-to-set-the-constructor-property-when-changing-the-prototype
 
 # --description--
 
-手動設置一個新對象的原型有一個重要的副作用。 它清除了 `constructor` 屬性！ 此屬性可以用來檢查是哪個構造函數創建了實例，但由於該屬性已被覆蓋，它現在給出了錯誤的結果：
+There is one crucial side effect of manually setting the prototype to a new object. It erases the `constructor` property! This property can be used to check which constructor function created the instance, but since the property has been overwritten, it now gives false results:
 
 ```js
 duck.constructor === Bird;

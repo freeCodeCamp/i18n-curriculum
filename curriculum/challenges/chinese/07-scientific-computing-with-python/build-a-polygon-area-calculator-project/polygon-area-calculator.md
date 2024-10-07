@@ -12,19 +12,19 @@ In this project you will use object oriented programming to create a `Rectangle`
 
 ## Rectangle class
 
-When a Rectangle object is created, it should be initialized with `width` and `height` attributes. The class should also contain the following methods:
+When a Rectangle object is created, it should be initialized with `width` and `height` attributes. 该类还应包含以下方法：
 
 - `set_width`
 - `set_height`
-- `get_area`: Returns area (`width * height`)
-- `get_perimeter`: Returns perimeter (`2 * width + 2 * height`)
-- `get_diagonal`: Returns diagonal (`(width ** 2 + height ** 2) ** .5`)
-- `get_picture`: Returns a string that represents the shape using lines of '\*'. The number of lines should be equal to the height and the number of '\*' in each line should be equal to the width. There should be a new line (`\n`) at the end of each line. If the width or height is larger than 50, this should return the string: `'Too big for picture.'`.
-- `get_amount_inside`: Takes another shape (square or rectangle) as an argument. Returns the number of times the passed in shape could fit inside the shape (with no rotations). For instance, a rectangle with a width of 4 and a height of 8 could fit in two squares with sides of 4.
+- `get_area`：返回面积（`width * height`）
+- `get_perimeter`：返回周长（`2 * width + 2 * height`）
+- `get_diagonal`：返回对角线 (`(width ** 2 + height ** 2) ** .5`)
+- `get_picture`: Returns a string that represents the shape using lines of '\*'. The number of lines should be equal to the height and the number of '\*' in each line should be equal to the width. 每行末尾应该有一个新行 (`\n`)。 If the width or height is larger than 50, this should return the string: `'Too big for picture.'`.
+- `get_amount_inside`：以另一个形状（正方形或矩形）作为参数。 返回传入的形状可以装进该形状的次数（没有旋转）。 例如，一个宽为 4，高为 8 的矩形可以放入两个边长为 4 的正方形。
 
 Additionally, if an instance of a `Rectangle` is represented as a string, it should look like: `'Rectangle(width=5, height=10)'`.
 
-## Square class
+## Square 类
 
 The `Square` class should be a subclass of `Rectangle`. When a `Square` object is created, a single side length is passed in. The `__init__` method should store the side length in both the `width` and `height` attributes from the `Rectangle` class.
 
@@ -32,7 +32,7 @@ The `Square` class should be able to access the `Rectangle` class methods but sh
 
 Additionally, the `set_width` and `set_height` methods on the `Square` class should set both the width and height.
 
-## Usage example
+## 使用示例
 
 ```py
 rect = Rectangle(10, 5)

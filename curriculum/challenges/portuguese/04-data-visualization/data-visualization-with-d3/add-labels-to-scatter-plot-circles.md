@@ -8,7 +8,7 @@ dashedName: add-labels-to-scatter-plot-circles
 
 # --description--
 
-Você pode adicionar texto para criar etiquetas para os pontos em um diagrama de dispersão.
+You can add text to create labels for the points in a scatter plot.
 
 O objetivo é exibir os valores separados por vírgula para o primeiro (`x`) e para o segundo (`y`) campo de cada item do `dataset`.
 

@@ -8,7 +8,7 @@ dashedName: everything-be-true
 
 # --description--
 
-컬렉션(첫 번째 인수)의 모든 요소에 대해 술부(두 번째 인수)가 <dfn>참</dfn>인지 확인하십시오.
+Check if the predicate (second argument) is <dfn>truthy</dfn> on all elements of a collection (first argument).
 
 다시 말해서, 객체의 배열 컬렉션이 주어집니다. 술부 `pre`는 객체의 속성이 될 것이며, 그 값이 `truthy`인 경우 `true`를 반환해야 합니다. 그렇지 않으면 `false`를 반환합니다.
 

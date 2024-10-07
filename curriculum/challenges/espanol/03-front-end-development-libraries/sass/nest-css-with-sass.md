@@ -8,7 +8,7 @@ dashedName: nest-css-with-sass
 
 # --description--
 
-Sass permite anidar las reglas CSS, que es una forma útil de organizar una hoja de estilo.
+Sass allows nesting of CSS rules, which is a useful way of organizing a style sheet.
 
 Normalmente, cada elemento está dirigido a una línea diferente para darle estilo, así:
 

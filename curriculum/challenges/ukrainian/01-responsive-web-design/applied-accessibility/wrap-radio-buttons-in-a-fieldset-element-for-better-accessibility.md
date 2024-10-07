@@ -9,7 +9,7 @@ dashedName: wrap-radio-buttons-in-a-fieldset-element-for-better-accessibility
 
 # --description--
 
-Наступна тема стосується доступності радіокнопок. Кожній опції надається мітка `label` з атрибутом `for`, прив'язаним до `id` відповідного об'єкта, як пояснюється в останньому завданні. Оскільки радіокнопки часто знаходяться в групі, де користувач має обрати лише одну, існує спосіб семантично продемонструвати, що вибір є частиною набору.
+The next form topic covers the accessibility of radio buttons. Each choice is given a `label` with a `for` attribute tying to the `id` of the corresponding item as covered in the last challenge. Since radio buttons often come in a group where the user must choose one, there's a way to semantically show the choices are part of a set.
 
 Для цього всю групу радіокнопок оточує теґ `fieldset`. Він часто використовує теґ `legend`, щоб забезпечити наявність опису групи кнопок, який фіксують зчитувачі з екрана для кожної опції в елементі `fieldset`.
 

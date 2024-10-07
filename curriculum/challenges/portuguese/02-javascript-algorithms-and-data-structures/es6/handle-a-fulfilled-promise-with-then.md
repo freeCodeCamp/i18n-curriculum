@@ -8,7 +8,7 @@ dashedName: handle-a-fulfilled-promise-with-then
 
 # --description--
 
-Promessas são úteis quando você tem um processo que leva uma quantidade de tempo desconhecido para ser finalizado (ou seja, algo assíncrono). Muitas vezes, uma requisição a um servidor. Fazer uma requisição a um servidor leva tempo, e após a requisição ser finalizada, você geralmente quer fazer algo com a resposta retornada. Isso pode ser feito usando o método `then`.
+Promises are most useful when you have a process that takes an unknown amount of time in your code (i.e. something asynchronous), often a server request. When you make a server request it takes some amount of time, and after it completes you usually want to do something with the response from the server. This can be achieved by using the `then` method.
 
 ```js
 Promise.prototype.then(onFulfilled, onRejected)
@@ -22,15 +22,15 @@ myPromise.then(result => {
 });
 ```
 
-O parâmetro `result` vem do argumento dado ao método `resolve`.
+`result` comes from the argument given to the `resolve` method.
 
 # --instructions--
 
-Adicione o método `then` à sua promessa. Use `result` como parâmetro de sua função de callback e exiba `result` no console.
+Add the `then` method to your promise. Use `result` as the parameter of its callback function and log `result` to the console.
 
 # --hints--
 
-Você deve chamar o método `then` na promessa.
+You should call the `then` method on the promise.
 
 ```js
 assert(
@@ -38,13 +38,13 @@ assert(
 );
 ```
 
-O método `then` deve ter uma função de callback com `result` como seu parâmetro.
+Your `then` method should have a callback function with `result` as its parameter.
 
 ```js
 assert(resultIsParameter);
 ```
 
-Você deve exibir o valor do parâmetro `result` no console.
+You should log `result` to the console.
 
 ```js
 assert(

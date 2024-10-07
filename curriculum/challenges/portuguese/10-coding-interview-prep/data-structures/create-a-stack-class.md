@@ -8,7 +8,7 @@ dashedName: create-a-stack-class
 
 # --description--
 
-Na última seção, falamos sobre o que é uma pilha (stack, em inglês) e sobre como podemos usar um array para representá-la. Nesta seção, vamos criar a nossa própria classe de pilha. Embora você possa usar arrays para criar pilhas, às vezes é melhor limitar o volume de controle que temos com relação às pilhas. Além dos métodos `push` e `pop`, as pilhas têm outros métodos úteis. Vamos adicionar os métodos `peek`, `isEmpty` e `clear` à nossa classe de pilha.
+In the last section, we talked about what a stack is and how we can use an array to represent a stack. In this section, we will be creating our own stack class. Although you can use arrays to create stacks, sometimes it is best to limit the amount of control we have with our stacks. Apart from the `push` and `pop` method, stacks have other useful methods. Let's add a `peek`, `isEmpty`, and `clear` method to our stack class.
 
 # --instructions--
 

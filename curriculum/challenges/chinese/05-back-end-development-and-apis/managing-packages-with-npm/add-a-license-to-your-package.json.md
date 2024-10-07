@@ -8,7 +8,7 @@ dashedName: add-a-license-to-your-package-json
 
 # --description--
 
-`license` 字段将告知用户允许他们拿这个项目干什么。
+The `license` field is where you inform users of what they are allowed to do with your project.
 
 开源项目常见的协议有 MIT 和 BSD 等。 许可证信息并不是必须的。 大多数国家的版权法会默认让你拥有自己创作的作品的所有权。 但是，明确说明用户可以做什么和不能做什么会是一个很好的做法。 这里有一个 license 字段的例子：
 

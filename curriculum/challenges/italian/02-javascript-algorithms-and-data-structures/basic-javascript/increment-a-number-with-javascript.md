@@ -9,13 +9,13 @@ dashedName: increment-a-number-with-javascript
 
 # --description--
 
-Puoi facilmente <dfn>incrementare</dfn> o aggiungerne un'unità a una variabile con l'operatore `++`.
+You can easily <dfn>increment</dfn> or add one to a variable with the `++` operator.
 
 ```js
 i++;
 ```
 
-è l'equivalente di
+è equivalente a
 
 ```js
 i = i + 1;
@@ -49,7 +49,7 @@ Dovresti usare l'operatore `++`.
 assert(/[+]{2}\s*myVar|myVar\s*[+]{2}/.test(__helpers.removeJSComments(code)));
 ```
 
-Non dovresti cambiare il codice sopra il commento specificato.
+Non dovresti modificare il codice sopra il commento specificato.
 
 ```js
 assert(/let myVar = 87;/.test(__helpers.removeJSComments(code)));

@@ -8,7 +8,7 @@ dashedName: insert-an-element-into-a-max-heap
 
 # --description--
 
-次に、別のツリーデータ構造である二分ヒープに進みます。 二分ヒープは、ヒーププロパティを満たす、部分的に順序付きの二分木です。 ヒーププロパティは、親ノードと子ノードの関係を指定します。 最大ヒープ (すべての親ノードがその子ノード以上であるようなヒープ)、または最小ヒープ (その逆であるヒープ) を持つことができます。 二分ヒープは完全な二分木でもあります。 つまり、木のすべてのレベルが完全に埋まっています。最後のレベルが部分的に埋まっている場合には、左から右に埋まります。
+Now we will move on to another tree data structure, the binary heap. A binary heap is a partially ordered binary tree which satisfies the heap property. The heap property specifies a relationship between parent and child nodes. You may have a max heap, in which all parent nodes are greater than or equal to their child nodes, or a min heap, in which the reverse is true. Binary heaps are also complete binary trees. This means that all levels of the tree are fully filled and if the last level is partially filled it is filled from left to right.
 
 二分ヒープは、左右の参照を含むノードを持つツリー構造として実装できますが、ヒーププロパティに従って部分的に順序付けすれば、配列を使ってヒープを表現することができます。 ここでは親子関係に注目します。あらゆる親ノードの子と、あらゆる子ノードの親を、簡単な算術で計算することができます。
 
@@ -39,7 +39,7 @@ dashedName: insert-an-element-into-a-max-heap
 手順: ここでは最大ヒープを作成してください。 まず、ヒープに要素を追加する `insert` メソッドを作成します。 挿入中は、ヒーププロパティを常に維持することが重要です。 つまり最大ヒープの場合、根要素は常に木の中で最大値を持ち、すべての親ノードは子ノードより大きくなければなりません。 ヒープの配列実装では、通常、これは次の 3 つのステップで実行されます。
 
 <ol>
-  <li>配列の末尾に新しい要素を追加します。</li>
+  <li>Add the new element to the end of the array.</li>
   <li>要素が親より大きい場合は、それらを交換します。</li>
   <li>新しい要素が親より小さくなるまで、または木の根に到達するまで、交換を続けます。</li>
 </ol>

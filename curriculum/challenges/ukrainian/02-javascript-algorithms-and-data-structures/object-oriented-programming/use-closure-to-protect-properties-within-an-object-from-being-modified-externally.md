@@ -10,7 +10,7 @@ dashedName: >-
 
 # --description--
 
-`bird` у попередньому завданні мав публічну властивість `name`. Вона вважається публічною, оскільки до неї можна отримати доступ та змінити за межами визначення `bird`.
+In the previous challenge, `bird` had a public property `name`. It is considered public because it can be accessed and changed outside of `bird`'s definition.
 
 ```js
 bird.name = "Duffy";

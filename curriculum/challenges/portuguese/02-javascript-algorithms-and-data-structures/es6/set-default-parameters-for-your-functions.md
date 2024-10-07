@@ -8,9 +8,9 @@ dashedName: set-default-parameters-for-your-functions
 
 # --description--
 
-Para nos ajudar a criar funções mais flexíveis, a versão ES6 introduziu os <dfn>parâmetros padrão</dfn> para funções.
+In order to help us create more flexible functions, ES6 introduces <dfn>default parameters</dfn> for functions.
 
-Confira este código:
+Verifique esse código:
 
 ```js
 const greeting = (name = "Anonymous") => "Hello " + name;

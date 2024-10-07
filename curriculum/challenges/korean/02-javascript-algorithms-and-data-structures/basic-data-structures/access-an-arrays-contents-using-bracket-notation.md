@@ -8,7 +8,7 @@ dashedName: access-an-arrays-contents-using-bracket-notation
 
 # --description--
 
-자료 구조의 핵심 기능은 당연히 자료를 저장하는 것뿐만 아니라 필요시 해당 자료를 불러오는 것입니다. 이미 배열을 생성하는 법을 배웠으니 이제 배열 안의 정보에 접근하는 법에 대하여 생각해 보겠습니다.
+The fundamental feature of any data structure is, of course, the ability to not only store data, but to be able to retrieve that data on command. So, now that we've learned how to create an array, let's begin to think about how we can access that array's information.
 
 아래와 같이 간단한 배열을 정의할 때, 이 배열에는 3개의 요소가 있습니다.
 

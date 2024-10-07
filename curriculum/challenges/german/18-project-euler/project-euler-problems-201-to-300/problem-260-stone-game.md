@@ -1,6 +1,6 @@
 ---
 id: 5900f4701000cf542c50ff83
-title: 'Problem 260: Stone Game'
+title: 'Problem 260: Steinspiel'
 challengeType: 1
 forumTopicId: 301909
 dashedName: problem-260-stone-game
@@ -8,33 +8,33 @@ dashedName: problem-260-stone-game
 
 # --description--
 
-A game is played with three piles of stones and two players.
+Ein Spiel wird mit drei Haufen Steinen und zwei Spielern gespielt.
 
-On each player's turn, the player removes one or more stones from the piles. However, if the player takes stones from more than one pile, the same number of stones must be removed from each of the selected piles.
+Bei jedem Zug entfernt der Spieler einen oder mehrere Steine von den Haufen. Nimmt der Spieler jedoch Steine von mehr als einem Haufen, muss von jedem gewählten Haufen die gleiche Anzahl an Steinen entfernt werden.
 
-In other words, the player chooses some $N > 0$ and removes:
+In anderen Worten, der Spieler wählt einige $N > 0$ und entfernt:
 
-- $N$ stones from any single pile; or
-- $N$ stones from each of any two piles ($2N$ total); or
-- $N$ stones from each of the three piles ($3N$ total).
+- $N$ Steine aus einem einzigen Haufen; oder
+- $N$ Steine von jedem der beiden Haufen ($2N$ total); oder
+- $N$ Steine von jedem der drei Haufen ($3N$ total).
 
-The player taking the last stone(s) wins the game.
+Der Spieler, der den/die letzten Stein(e) nimmt gewinnt das Spiel.
 
-A winning configuration is one where the first player can force a win.
+Eine gewinnende Konfiguration ist eine, bei der der erste Spieler einen Sieg erzwingen kann.
 
-For example, (0,0,13), (0,11,11) and (5,5,5) are winning configurations because the first player can immediately remove all stones.
+Zum Beispiel sind (0,0,13), (0,11,11) und (5,5,5) gewinnende Konfigurationen, da der erste Spieler sofort alle Steine entfernen kann.
 
-A losing configuration is one where the second player can force a win, no matter what the first player does.
+Eine verlierende Konfiguration ist eine, in der der zweite Spieler einen Sieg erzwingen kann, unabhängig davon, was der erste Spieler tut.
 
-For example, (0,1,2) and (1,3,3) are losing configurations: any legal move leaves a winning configuration for the second player.
+Zum Beispiel sind (0,1,2) und (1,3,3) verlierende Konfigurationen: Jeder legale Zug hinterlässt eine gewinnende Konfiguration für den zweiten Spieler.
 
-Consider all losing configurations ($x_i$,$y_i$,$z_i$) where $x_i ≤ y_i ≤ z_i ≤ 100$. We can verify that $\sum (x_i + y_i + z_i) = 173\\,895$ for these.
+Betrachte alle verlierenden Konfigurationen ($x_i$,$y_i$,$z_i$), wo $x_i ≤ y_i ≤ z_i ≤ 100$. Wir können nachweisen, dass für diese $\sum (x_i + y_i + z_i) = 173\\,895$.
 
-Find $\sum (x_i + y_i + z_i)$ where ($x_i$,$y_i$,$z_i$) ranges over the losing configurations with $x_i ≤ y_i ≤ z_i ≤ 1000$.
+Finde $\sum (x_i + y_i + z_i)$, bei der ($x_i$,$y_i$,$z_i$) über den verlierenden Konfigurationen mit $x_i ≤ y_i ≤ z_i ≤ 1000$ liegt.
 
 # --hints--
 
-`stoneGame()` should return `167542057`.
+`stoneGame()` sollte `167542057` zurückgeben.
 
 ```js
 assert.strictEqual(stoneGame(), 167542057);

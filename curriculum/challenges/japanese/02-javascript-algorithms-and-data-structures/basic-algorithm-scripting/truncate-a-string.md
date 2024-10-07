@@ -8,7 +8,7 @@ dashedName: truncate-a-string
 
 # --description--
 
-文字列 (最初の引数) が指定された最大文字列長 (2 番目の引数) より長い場合、文字列を切り捨ててください。 末尾に `...` を付けて、省略された文字列を返してください。
+Truncate a string (first argument) if it is longer than the given maximum string length (second argument). Return the truncated string with a `...` ending.
 
 # --hints--
 

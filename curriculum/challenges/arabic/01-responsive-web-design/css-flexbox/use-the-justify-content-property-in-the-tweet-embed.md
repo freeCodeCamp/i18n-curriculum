@@ -9,7 +9,7 @@ dashedName: use-the-justify-content-property-in-the-tweet-embed
 
 # --description--
 
-عرض التحدي الأخير مثال على خاصية `justify-content`. بالنسبة للتغريدة المضمنة، يمكن تطبيق هذه الخاصية لمحاذاة العناصر في عنصر `.profile-name`.
+The last challenge showed an example of the `justify-content` property. For the tweet embed, this property can be applied to align the items in the `.profile-name` element.
 
 # --instructions--
 
@@ -23,7 +23,7 @@ dashedName: use-the-justify-content-property-in-the-tweet-embed
 assert($('.follow-btn').length > 0 && $('.follow-btn').css('display') !== 'none');
 ```
 
-The `.profile-name` element should have the `justify-content` property set to any of these values: `center`, `flex-start`, `flex-end`, `space-between`, `space-around`, or `space-evenly`.
+العنصر `.profile-name` يجب أن تكون له الخاصّيّة `justify-content` محددة بأيّ قيمة من هذه القيم: `center`، أو `flex-start`، أو `flex-end`، أو `space-between`، أو `space-around`، أو `space-evenly`.
 
 ```js
 assert(

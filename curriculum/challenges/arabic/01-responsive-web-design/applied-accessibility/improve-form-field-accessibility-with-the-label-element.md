@@ -1,6 +1,6 @@
 ---
 id: 587d778a367417b2b2512aa6
-title: Improve Form Field Accessibility with the label Element
+title: تحسين إمكانية الوصول إلى حقل النموذج مع عنصر label
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cGJMMAN'
 forumTopicId: 301016
@@ -11,11 +11,11 @@ dashedName: improve-form-field-accessibility-with-the-label-element
 
 Improving accessibility with semantic HTML markup applies to using both appropriate tag names and attributes. The next several challenges cover some important scenarios using attributes in forms.
 
-The `label` tag wraps the text for a specific form control item, usually the name or label for a choice. This ties meaning to the item and makes the form more readable. The `for` attribute on a `label` tag explicitly associates that `label` with the form control and is used by screen readers.
+وسم `label` تغلف النص لعنصر تحكم استمارة محددة، عادة الاسم أو التسمية لاختيار. هذه الروابط تعني العنصر وتجعل الشكل أكثر قابلية للقراءة. السمة `for` على علامة `label` تربط بشكل صريح أن `label` مع عنصر التحكم في الاستمارة ويستخدمها قارئ الشاشة.
 
-You learned about radio buttons and their labels in a lesson in the Basic HTML section. In that lesson, we wrapped the radio button input element inside a `label` element along with the label text in order to make the text clickable. Another way to achieve this is by using the `for` attribute, as explained in this lesson.
+لقد تعلمت عن radio buttons وتسميتها في درس في قسم HTML Basic. في ذلك الدرس، قمنا بتغليف عنصر radio button داخل عنصر `label` جنبا إلى جنب مع نص label لجعل النص قابل للنقر. طريقة أخرى لتحقيق هذا هو استخدام السمة `for` كما هو موضح في هذا الدرس.
 
-The value of the `for` attribute must be the same as the value of the `id` attribute of the form control. Here's an example:
+قيمة `for` السمة يجب أن تكون نفس قيمة `id` سمة التحكم في الشكل. على سبيل المثال:
 
 ```html
 <form>
@@ -26,21 +26,20 @@ The value of the `for` attribute must be the same as the value of the `id` attri
 
 # --instructions--
 
-تنتظر Camper Cat الكثير من الاهتمام في مشاركاته المدونة المدروسة وترغب في تضمين نموذج تسجيل البريد الإلكتروني. Add a `for` attribute on the email `label` that matches the `id` on its `input` field.
+تنتظر Camper Cat الكثير من الاهتمام في مشاركاته المدونة المدروسة وترغب في تضمين نموذج تسجيل البريد الإلكتروني. أضف `for` سمة على البريد الإلكتروني `label` التي تطابق `id` على `input`.
 
 # --hints--
 
-Your code should have a `for` attribute on the `label` tag that is not empty.
+يجب أن يحتوي الكود الخاص بك علي attribute من نوع `for` في وسم ال `label` و تعين قيمه فارغه.
 
 ```js
 assert.isNotEmpty(document.querySelector('label')?.getAttribute('for'));
 ```
 
-Your `for` attribute value should match the `id` value on the email `input`.
+يجب أن تتطابق قيمة الرمز ` for ` مع قيمة ` id ` في ` إدخال البريد الإلكتروني </ code>.</p>
 
-```js
-assert.equal(document.querySelector('label')?.getAttribute('for'), 'email');
-```
+<pre><code class="js">assert.equal(document.querySelector('label')?.getAttribute('for'), 'email');
+`</pre>
 
 # --seed--
 

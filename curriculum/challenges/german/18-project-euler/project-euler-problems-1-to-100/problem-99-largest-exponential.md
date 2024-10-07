@@ -12,7 +12,7 @@ Der Vergleich zweier in Indexform geschriebener Zahlen wie $2^{11}$ und $3^7$ is
 
 Die Bestätigung, dass $632382^{518061} &lt; 519432^{525806}$ wäre viel schwieriger, da beide Zahlen über drei Millionen Ziffern enthalten.
 
-Using the 2D `baseExp` array of base/exponent pairs, determine pair with the greatest numerical value and return it.
+Bestimme mit Hilfe des 2D `baseExp`-Arrays von Basis-/Exponentenpaaren das Paar mit dem größten Zahlenwert und gib es zurück.
 
 # --hints--
 

@@ -9,7 +9,7 @@ dashedName: apply-the-flex-direction-property-to-create-rows-in-the-tweet-embed
 
 # --description--
 
-У прикладі вбудованого твіту `header` та `footer` мають дочірні елементи, які можна впорядковувати у ряди за допомогою властивості `flex-direction`. Вона вказує CSS вирівнювати дочірні елементи горизонтально.
+The `header` and `footer` in the tweet embed example have child items that could be arranged as rows using the `flex-direction` property. This tells CSS to align the children horizontally.
 
 # --instructions--
 
@@ -17,7 +17,7 @@ dashedName: apply-the-flex-direction-property-to-create-rows-in-the-tweet-embed
 
 # --hints--
 
-Ваш `.follow-btn` має відображатися на цій сторінці. Переконайтеся, що всі розширення вимкнено, наприклад блокувальники реклами.
+Ваш `.follow-btn` має відображатися на сторінці. Переконайтеся, що такі розширення, як блокувальники реклами, вимкнено.
 
 ```js
 assert($('.follow-btn').length > 0 && $('.follow-btn').css('display') !== 'none');

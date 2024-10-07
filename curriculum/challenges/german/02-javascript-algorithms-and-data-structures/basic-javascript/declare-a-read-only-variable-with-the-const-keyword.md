@@ -8,7 +8,7 @@ dashedName: declare-a-read-only-variable-with-the-const-keyword
 
 # --description--
 
-Das Schlüsselwort `let` ist nicht die einzige neue Möglichkeit, Variablen zu deklarieren. In ES6 kannst du Variablen auch mit dem Schlüsselwort `const` deklarieren.
+The keyword `let` is not the only new way to declare variables. In ES6, you can also declare variables using the `const` keyword.
 
 `const` hat die gleichen tollen Funktionen die auch `let` hat, mit dem zusätzlichen Vorteil, dass Variablen, die mit `const` deklariert werden, schreibgeschützt sind. Sie sind ein konstanter Wert, was bedeutet, dass eine Variable, die einmal mit `const` zugewiesen wurde, nicht mehr neu zugewiesen werden kann:
 

@@ -8,7 +8,7 @@ dashedName: dynamically-set-the-coordinates-for-each-bar
 
 # --description--
 
-The last challenge created and appended a rectangle to the `svg` element for each point in `dataset` to represent a bar. لسوء الحظ، كانوا مكدسين بعضَهم فوق بعض.
+The last challenge created and appended a rectangle to the `svg` element for each point in `dataset` to represent a bar. Unfortunately, they were all stacked on top of each other.
 
 التحكم في موقع المستطيل يكون بواسطة سمات (attributes) `x` و `y`. فانهم يخبرون D3 أين يبدأ في رسم الشكل في منطقة `svg`. قام التحدي السابق بتحديدهم إلى صفر، لذلك تم وضع كل عمود (bar) في الزاوية العلوية اليسرى.
 

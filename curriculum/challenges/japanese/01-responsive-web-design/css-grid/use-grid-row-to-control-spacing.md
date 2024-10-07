@@ -9,7 +9,7 @@ dashedName: use-grid-row-to-control-spacing
 
 # --description--
 
-もちろん、列と同じように複数の行をアイテムに消費させることもできます。 グリッドアイテムに `grid-row` プロパティを使用して、アイテムを開始・終了させたい水平方向の線を定義します。
+Of course, you can make items consume multiple rows just like you can with columns. You define the horizontal lines you want an item to start and stop at using the `grid-row` property on a grid item.
 
 # --instructions--
 

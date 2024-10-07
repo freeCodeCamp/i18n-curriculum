@@ -8,7 +8,7 @@ dashedName: add-items-using-splice
 
 # --description--
 
-还记得在上个挑战中我们提到 `splice()` 方法最多可以接收 3 个参数吗？ 第三个参数可以是一个或多个元素，这些元素会被添加到数组中。 这样，我们能够便捷地将数组中的一个或多个连续元素换成其他的元素。
+Remember in the last challenge we mentioned that `splice()` can take up to three parameters? Well, you can use the third parameter, comprised of one or more element(s), to add to the array. This can be incredibly useful for quickly switching out an element, or a set of elements, for another.
 
 ```js
 const numbers = [10, 11, 12, 12, 15];

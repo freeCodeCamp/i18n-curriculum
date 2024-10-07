@@ -1,6 +1,6 @@
 ---
 id: 587d8259367417b2b2512c84
-title: Create a Trie Search Tree
+title: 創建Trie搜索樹
 challengeType: 1
 forumTopicId: 301634
 dashedName: create-a-trie-search-tree
@@ -12,11 +12,11 @@ Here we will move on from binary search trees and take a look at another type of
 
 # --instructions--
 
-Let's create a trie to store words. It will accept words through an `add` method and store these in a trie data structure. It will also allow us to query if a given string is a word with an `isWord` method, and retrieve all the words entered into the trie with a `print` method. `isWord` should return a boolean value and `print` should return an array of all these words as string values. In order for us to verify that this data structure is implemented correctly, we've provided a `Node` structure for each node in the tree. Each node will be an object with a `keys` property which is a JavaScript Map object. This will hold the individual letters that are valid keys of each node. We've also created an `end` property on the nodes that can be set to `true` if the node represents the termination of a word.
+說明：讓我們創建一個存儲單詞的trie。 它將通過 `add` 方法接受單詞並將這些單詞存儲在一個 trie 數據結構中。 它還允許我們使用 `isWord` 方法查詢給定的字符串是否是單詞，並使用 `print` 方法檢索輸入到樹中的所有單詞。 < code > isWord </code > 應該返回一個布爾值，< code > print </code > 應該返回一個包含所有這些單詞的字符串值的數組。 爲了驗證此數據結構是否正確實現，我們爲樹中的每個節點提供了一個 `Node` 結構。 每個節點都是一個帶有 `keys` 屬性的對象，它是一個 JavaScript Map 對象。 這將保存作爲每個節點的有效鍵的單個字母。 我們還在節點上創建了一個 < code > end </code > 屬性，如果節點表示一個單詞的終止，那麼可以將該屬性設置爲 < code > true </code > 。
 
 # --hints--
 
-The `Trie` should have an `add` method.
+< code > Trie </code > 應該有一個 < code > add </code > 方法。
 
 ```js
 assert(
@@ -32,7 +32,7 @@ assert(
 );
 ```
 
-The `Trie` should have a `print` method.
+< code > Trie </code > 應該有一個 < code > print </code > 方法。
 
 ```js
 assert(
@@ -48,7 +48,7 @@ assert(
 );
 ```
 
-The `Trie` should have an `isWord` method.
+< code > Trie </code > 應該有一個 < code > add </code > 方法。
 
 ```js
 assert(
@@ -64,7 +64,7 @@ assert(
 );
 ```
 
-The `print` method should return all items added to the trie as strings in an array.
+< code > print </code > 方法應該返回以字符串形式添加到 trie 中的所有項。
 
 ```js
 assert(
@@ -93,7 +93,7 @@ assert(
 );
 ```
 
-The `isWord` method should return `true` only for words added to the trie and `false` for all other words.
+`has` 方法，對於已經添加的項目應該返回 `true`, 缺失的項目返回`false` 。
 
 ```js
 assert(

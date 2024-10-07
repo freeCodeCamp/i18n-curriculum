@@ -8,7 +8,7 @@ dashedName: remove-elements-from-a-linked-list
 
 # --description--
 
-Il metodo successivo importante che ogni implementazione di una lista concatenata avrà bisogno è un metodo `remove`. Questo metodo dovrebbe prendere l'elemento che vogliamo rimuovere come un argomento, e quindi cercare l'elenco per trovare e rimuovere il nodo che contiene quell'elemento.
+The next important method that any implementation of a linked list will need is a `remove` method. This method should take the element we want to remove as an argument, and then search the list to find and remove the node that contains that element.
 
 Ogni volta che rimuovi un nodo da una lista collegata, è importante che non orfani accidentalmente il resto della lista nel farlo. Ricorda che la proprietà `next` di ogni nodo punta al nodo che lo segue nella lista. Se stiamo rimuovendo l'elemento di mezzo, vogliamo fare in modo che c'è una connessione tra la proprietà `next` dell'elemento precedente e la proprietà `next` dell'elemento di mezzo (che è il nodo seguente nella lista!)
 

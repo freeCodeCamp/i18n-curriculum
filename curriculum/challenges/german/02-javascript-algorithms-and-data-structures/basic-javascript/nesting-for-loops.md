@@ -9,7 +9,7 @@ dashedName: nesting-for-loops
 
 # --description--
 
-Wenn du ein mehrdimensionales Array hast, kannst du die gleiche Logik wie in der vorherigen Aufgabe verwenden, um eine Schleife durch das Array und alle Unterarrays zu ziehen. Hier ist ein Beispiel:
+If you have a multi-dimensional array, you can use the same logic as the prior waypoint to loop through both the array and any sub-arrays. Hier ist ein Beispiel:
 
 ```js
 const arr = [

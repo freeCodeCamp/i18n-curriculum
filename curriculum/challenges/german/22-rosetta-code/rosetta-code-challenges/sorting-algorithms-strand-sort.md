@@ -8,7 +8,7 @@ dashedName: sorting-algorithmsstrand-sort
 
 # --description--
 
-The **Strand sort** creates sorted subsets that are merged to create the final result.
+Die **Strand sort** erzeugt sortierte Teilmengen, die zu einem Endergebnis zusammengeführt werden.
 
 Betrachte ein `unsortedArray = [3, 1, 4, 2]`. Wähle das erste Element `3` und kopiere es in ein separates Array. Suche nach einem größeren Artikel, der diesem Artikel folgt. Wenn du ein größeres Element findest, in diesem Fall `4`, dann kopiere es in das serparate Array, `[3, 4]`, und vergleiche die folgenden Gegenstände mit diesem neuen Wert, `4`.
 

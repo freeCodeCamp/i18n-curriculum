@@ -9,7 +9,7 @@ dashedName: generate-random-fractions-with-javascript
 
 # --description--
 
-Zufallszahlen sind nützlich, um zufälliges Verhalten zu erzeugen.
+Random numbers are useful for creating random behavior.
 
 JavaScript hat eine Funktion `Math.random()`, die eine zufällige Dezimalzahl zwischen `0` (einschließlich) und `1` (ausschließlich) erzeugt. So kann `Math.random()` eine `0` zurückgeben, aber niemals eine `1`.
 

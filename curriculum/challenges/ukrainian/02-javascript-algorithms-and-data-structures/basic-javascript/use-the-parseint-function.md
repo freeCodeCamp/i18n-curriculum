@@ -9,7 +9,7 @@ dashedName: use-the-parseint-function
 
 # --description--
 
-Функція `parseInt()` аналізує рядок і повертає ціле число. Наприклад:
+The `parseInt()` function parses a string and returns an integer. Ось приклад:
 
 ```js
 const a = parseInt("007");

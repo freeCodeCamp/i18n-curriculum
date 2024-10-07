@@ -1,6 +1,6 @@
 ---
 id: 587d78a5367417b2b2512ad6
-title: Create a Gradual CSS Linear Gradient
+title: أنشأ تدرج CSS خطى تدريجى Gradual CSS Linear Gradient
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cg4dpt9'
 forumTopicId: 301047

@@ -8,7 +8,7 @@ dashedName: find-the-longest-word-in-a-string
 
 # --description--
 
-返回給出的句子中，最長單詞的長度。
+Return the length of the longest word in the provided sentence.
 
 函數的返回值應是一個數字。
 

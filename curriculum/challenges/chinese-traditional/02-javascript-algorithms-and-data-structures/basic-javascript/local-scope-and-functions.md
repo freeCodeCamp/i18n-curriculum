@@ -9,7 +9,7 @@ dashedName: local-scope-and-functions
 
 # --description--
 
-在一個函數內聲明的變量，以及該函數的參數都具有局部（<dfn>local</dfn>）作用域。 這意味着它們只在該函數內可見。
+Variables which are declared within a function, as well as the function parameters, have <dfn>local</dfn> scope. That means they are only visible within that function.
 
 這是在函數 `myTest` 內聲明局部變量 `loc` 的例子：
 

@@ -8,7 +8,7 @@ dashedName: match-letters-of-the-alphabet
 
 # --description--
 
-لقد رأيت كيف يمكنك استخدام <dfn>character sets</dfn> لتحديد مجموعة من الأحرف للمطابقة، لكن هذا يؤدي الي الكثير من الكتابة عندما تحتاج إلى مطابقة مجموعة كبيرة من الأحرف (على سبيل المثال، كل الحروف في الأبجدية). لحسن الحظ، هناك ميزة داخلية تجعل هذا قصير وبسيط.
+You saw how you can use <dfn>character sets</dfn> to specify a group of characters to match, but that's a lot of typing when you need to match a large range of characters (for example, every letter in the alphabet). Fortunately, there is a built-in feature that makes this short and simple.
 
 داخل character set، يمكنك تحديد مجموعة من الأحرف لتطابق باستخدام رمز الشَرطة: `-`.
 

@@ -8,7 +8,7 @@ dashedName: convert-html-entities
 
 # --description--
 
-Перетворіть символи `&`, `<`, `>`, `"` (подвійні лапки) та `'` (апостроф) у відповідне позначення символів для HTML.
+Convert the characters `&`, `<`, `>`, `"` (double quote), and `'` (apostrophe), in a string to their corresponding HTML entities.
 
 # --hints--
 

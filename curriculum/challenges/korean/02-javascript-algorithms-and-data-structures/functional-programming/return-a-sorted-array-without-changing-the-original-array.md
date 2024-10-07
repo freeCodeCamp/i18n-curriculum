@@ -1,6 +1,6 @@
 ---
 id: 587d7da9367417b2b2512b6a
-title: Return a Sorted Array Without Changing the Original Array
+title: 본래 배열 변형없이 정렬된 배열 반환하기
 challengeType: 1
 forumTopicId: 301237
 dashedName: return-a-sorted-array-without-changing-the-original-array
@@ -12,23 +12,23 @@ A side effect of the `sort` method is that it changes the order of the elements 
 
 # --instructions--
 
-Use the `sort` method in the `nonMutatingSort` function to sort the elements of an array in ascending order. The function should return a new array, and not mutate the `globalArray` variable.
+오름차순으로 배열의 요소를 정렬하기 위해 `nonMutatingSort` 함수에 `sort`를 사용하시오. 이 함수는 새로운 배열을 반환해야 하며 `globalArray` 변수를 변형시키지 않아야 합니다.
 
 # --hints--
 
-Your code should use the `sort` method.
+`sort` 메소드를 사용해야 합니다.
 
 ```js
 assert(nonMutatingSort.toString().match(/\.sort/g));
 ```
 
-The `globalArray` variable should not change.
+`globalArray` 변수는 변하지 않아야 합니다.
 
 ```js
 assert(JSON.stringify(globalArray) === JSON.stringify([5, 6, 3, 2, 9]));
 ```
 
-`nonMutatingSort(globalArray)` should return `[2, 3, 5, 6, 9]`.
+`nonMutatingSort(globalArray)`는 `[2, 3, 5, 6, 9]`을 반환해야 합니다.
 
 ```js
 assert(
@@ -37,26 +37,26 @@ assert(
 );
 ```
 
-`nonMutatingSort(globalArray)` should not be hard coded.
+`nonMutatingSort(globalArray)`는 하드코딩되지 않아야 합니다.
 
 ```js
 assert(!nonMutatingSort.toString().match(/\[.*?[23569].*?\]/gs));
 ```
 
-The function should return a new array, not the array passed to it.
+이 함수는 전달받은 배열이 아닌 새로운 배열을 반환해야 합니다.
 
 ```js
 assert(nonMutatingSort(globalArray) !== globalArray);
 ```
 
-`nonMutatingSort([1, 30, 4, 21, 100000])` should return `[1, 4, 21, 30, 100000]`.
+`nonMutatingSort([1, 30, 4, 21, 100000])`는 `[1, 4, 21, 30, 100000]`를 반환해야 합니다.
 
 ```js
 assert(JSON.stringify(nonMutatingSort([1, 30, 4, 21, 100000])) ===
     JSON.stringify([1, 4, 21, 30, 100000]))
 ```
 
-`nonMutatingSort([140000, 104, 99])` should return `[99, 104, 140000]`.
+`nonMutatingSort([140000, 104, 99])`는 `[99, 104, 140000]`를 반환해야 합니다.
 
 ```js
 assert(JSON.stringify(nonMutatingSort([140000, 104, 99])) ===

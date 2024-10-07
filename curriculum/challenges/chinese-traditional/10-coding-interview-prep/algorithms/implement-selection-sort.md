@@ -8,7 +8,7 @@ dashedName: implement-selection-sort
 
 # --description--
 
-這裏我們將實現選擇排序。 選擇排序的工作原理是選擇列表中的最小值並與列表中的第一個值進行交換。 然後它從第二個位置開始，選擇剩餘列表中的最小值，並將其與第二個元素交換。 它繼續遍歷列表並交換元素，直到它到達列表的末尾。 現在列表已排序。 在所有情況下，選擇排序都具有二次方的時間複雜度。
+Here we will implement selection sort. Selection sort works by selecting the minimum value in a list and swapping it with the first value in the list. It then starts at the second position, selects the smallest value in the remaining list, and swaps it with the second element. It continues iterating through the list and swapping elements until it reaches the end of the list. Now the list is sorted. Selection sort has quadratic time complexity in all cases.
 
 **說明**：編寫一個 `selectionSort` 函數，它將一個整數數組作爲輸入，並按照從最小到最大的排序順序返回這些整數的數組。
 

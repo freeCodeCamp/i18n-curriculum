@@ -8,7 +8,7 @@ dashedName: learn-about-self-closing-jsx-tags
 
 # --description--
 
-حتى الآن، رأيت كيف يختلف JSX عن HTML بطريقة رئيسة باستخدام `className` ضد `class` لتحديد فئات HTML.
+So far, you’ve seen how JSX differs from HTML in a key way with the use of `className` vs. `class` for defining HTML classes.
 
 وهناك طريقة هامة أخرى تختلف فيها JSX عن HTML وهي ظريقة علامة الإغلاق الذاتي (self-closing tag).
 

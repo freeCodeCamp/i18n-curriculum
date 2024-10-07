@@ -20,7 +20,7 @@ Complete o módulo <a href="https://learn.microsoft.com/training/modules/csharp-
 
 ## --text--
 
-Qual das seguintes instruções `for` está correta?
+Which of the following `for` statements is correct?
 
 ## --answers--
 

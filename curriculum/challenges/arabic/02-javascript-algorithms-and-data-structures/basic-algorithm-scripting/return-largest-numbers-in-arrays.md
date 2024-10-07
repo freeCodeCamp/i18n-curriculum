@@ -8,7 +8,7 @@ dashedName: return-largest-numbers-in-arrays
 
 # --description--
 
-أنشئ قائمة تتكون من أكبر رَقَم من كل قائمة فرعية. من أجل البساطة، سوف تحتوي القائمة على 4 قوائم فرعية بالضبط.
+Return an array consisting of the largest number from each provided sub-array. For simplicity, the provided array will contain exactly 4 sub-arrays.
 
 تذكر، يمكنك المرور علي قائمة باستخدام for loop البسيطة، والوصول إلى كل عنصر باستخدام اسم القائمة `arr[i]`.
 

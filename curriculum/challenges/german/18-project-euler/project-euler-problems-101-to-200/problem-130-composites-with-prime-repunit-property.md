@@ -1,6 +1,6 @@
 ---
 id: 5900f3ee1000cf542c50ff00
-title: 'Problem 130: Composites with prime repunit property'
+title: 'Problem 130: Zusammensetzung mit Repunit-Primzahlen Eigenschaft'
 challengeType: 1
 forumTopicId: 301758
 dashedName: problem-130-composites-with-prime-repunit-property
@@ -12,7 +12,7 @@ Eine Zahl, die ausschließlich aus Einsen besteht, nennt man Repunit. Wir defini
 
 Unter der Voraussetzung, dass $n$ eine positive Integer ist und $GCD(n, 10) = 1$, kann man zeigen, dass es immer einen Wert $k$ gibt, für den $R(k)$ durch $n$ teilbar ist, und dass $A(n)$ der kleinste solche Wert von $k$ ist; zum Beispiel $A(7) = 6$ und $A(41) = 5$.
 
-You are given that for all primes, $p > 5$, that $p − 1$ is divisible by $A(p)$. Wenn zum Beispiel $p = 41 ist, ist A(41) = 5$, und 40 durch 5 teilbar.
+Du sollst wissen, dass für alle Primzahlen $p > 5$, $p - 1$ durch $A(p)$ teilbar ist. Wenn zum Beispiel $p = 41 ist, ist A(41) = 5$, und 40 durch 5 teilbar.
 
 Es gibt jedoch seltene zusammengesetzte Werte, für die dies ebenfalls zutrifft; die ersten fünf Beispiele sind 91, 259, 451, 481 und 703.
 

@@ -39,4 +39,4 @@ let result = condition ? "option 1" : "option 2";
 
 ## --video-solution--
 
-2
+٢

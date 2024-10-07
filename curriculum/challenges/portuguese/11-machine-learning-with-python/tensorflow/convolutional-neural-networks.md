@@ -12,25 +12,25 @@ dashedName: convolutional-neural-networks
 
 # --description--
 
-As próximas aulas em vídeo farão referência a [este Colab notebook](https://colab.research.google.com/drive/1ZZXnCjFEOkp_KdNcNabd14yok0BAIuwS#forceEdit=true&sandboxMode=true).
+The next few video lessons will reference [this Colab notebook](https://colab.research.google.com/drive/1ZZXnCjFEOkp_KdNcNabd14yok0BAIuwS#forceEdit=true&sandboxMode=true).
 
 # --questions--
 
 ## --text--
 
-As redes neurais densas analisam a entrada em uma escala global e reconhecem padrões em áreas específicas. Redes Neurais Convolucionais...:
+Dense neural networks analyze input on a global scale and recognize patterns in specific areas. Convolutional neural networks...:
 
 ## --answers--
 
-também analisam entradas globalmente e extraem recursos de áreas específicas.
+also analyze input globally and extract features from specific areas.
 
 ---
 
-não funcionam bem para a classificação de imagens ou para a detecção de objetos.
+do not work well for image classification or object detection.
 
 ---
 
-escaneiam a entrada inteira um pouco por vez e aprendem os padrões locais.
+scan through the entire input a little at a time and learn local patterns.
 
 ## --video-solution--
 

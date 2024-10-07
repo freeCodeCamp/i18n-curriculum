@@ -8,7 +8,7 @@ dashedName: chain-search-query-helpers-to-narrow-search-results
 
 # --description--
 
-`Model.find()` (または他の検索メソッド) に最後の引数としてコールバックを渡さない場合、クエリは実行されません。 クエリを変数に保存しておき、後で使用することができます。 この種類のオブジェクトでは、チェーン シンタックスを使用してクエリを構築できます。 実際の db 検索は、最後にメソッド `.exec()` をチェーンしたときに実行されます。 この最後のメソッドに、常にコールバックを渡す必要があります。 多くのクエリヘルパーがありますが、ここでは最もよく使用されるものを使用します。
+If you don’t pass the callback as the last argument to `Model.find()` (or to the other search methods), the query is not executed. You can store the query in a variable for later use. This kind of object enables you to build up a query using chaining syntax. The actual db search is executed when you finally chain the method `.exec()`. You always need to pass your callback to this last method. There are many query helpers, here we'll use the most commonly used.
 
 # --instructions--
 

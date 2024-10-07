@@ -13,7 +13,7 @@ dashedName: line-up-form-elements-responsively-with-bootstrap
 
 # --description--
 
-Jetzt lass uns dein Formular-`input` und dein Übermittlungs-`button` in die selbe Zeile bringen. Wir machen das auf die gleiche Art und Weise wie davor: Indem wir ein `div`-Element mit der Klasse `row`, und andere `div`-Elemente innerhalb dieser mittels der `col-xs-*` Klasse verwenden.
+Now let's get your form `input` and your submission `button` on the same line. We'll do this the same way we have previously: by using a `div` element with the class `row`, and other `div` elements within it using the `col-xs-*` class.
 
 Verschachtel beide deiner Text-`input` Felder des Formulars sowie den Übermittlungs-`button` innerhalb eines `div` mit der Klasse `row`. Veschachtel den Text `input` im Formular innerhalb einer div mit der Klasse `col-xs-7`. Verschachtel deinen Bestätigungs- `button` des Formulars in ein `div` mit der Klasse `col-xs-5`.
 

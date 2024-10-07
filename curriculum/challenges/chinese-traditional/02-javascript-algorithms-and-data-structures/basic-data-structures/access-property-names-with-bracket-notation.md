@@ -8,7 +8,7 @@ dashedName: access-property-names-with-bracket-notation
 
 # --description--
 
-在關於對象的第一個挑戰中，我們提到可以在一對方括號中用一個變量作爲屬性名來訪問屬性的值。 假設一個超市收銀機程序中有一個 `foods` 對象, 並且有一個函數會設置 `selectedFood`；如果我們需要查詢 `foods` 對象中，某種食物是否存在， 可以這樣實現：
+In the first object challenge we mentioned the use of bracket notation as a way to access property values using the evaluation of a variable. For instance, imagine that our `foods` object is being used in a program for a supermarket cash register. We have some function that sets the `selectedFood` and we want to check our `foods` object for the presence of that food. This might look like:
 
 ```js
 let selectedFood = getCurrentFood(scannedItem);

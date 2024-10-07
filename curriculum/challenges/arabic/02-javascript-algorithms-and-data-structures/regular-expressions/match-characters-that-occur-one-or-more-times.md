@@ -8,7 +8,7 @@ dashedName: match-characters-that-occur-one-or-more-times
 
 # --description--
 
-في بعض الأحيان، تحتاج إلى مطابقة رمز (أو مجموعة من الرموز) يظهر مرة أو أكثر على التوالي. وهذا يعني أنه يحدث مرة واحدة على الأقل، ويمكن تكراره.
+Sometimes, you need to match a character (or group of characters) that appears one or more times in a row. This means it occurs at least once, and may be repeated.
 
 يمكنك استخدام رمز `+` للتحقق مما إذا كان الأمر كذلك. تذكر ، يجب أن يكون الرمز أو النمط موجودًا على التوالي. وهذا يعني أن الرمز يجب أن يتكرر واحدًا تلو الآخر.
 

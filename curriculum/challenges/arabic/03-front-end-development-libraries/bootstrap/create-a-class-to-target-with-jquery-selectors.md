@@ -8,7 +8,7 @@ dashedName: create-a-class-to-target-with-jquery-selectors
 
 # --description--
 
-ليس كل فئة بحاجة إلى مقابلها في CSS. في بعض الأحيان تنشئ فئات لغرض اختيار هذه العناصر بسهولة أكبر باستخدام jQuery.
+Not every class needs to have corresponding CSS. Sometimes we create classes just for the purpose of selecting these elements more easily using jQuery.
 
 اعطي كل عنصر من عناصر `button` الخاص بك `target`.
 

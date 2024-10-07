@@ -8,7 +8,7 @@ dashedName: add-key-value-pairs-to-javascript-objects
 
 # --description--
 
-Im Grunde genommen sind Objekte nur Sammlungen von <dfn>key-value-</dfn> Paaren. Mit anderen Worten sind sie Teile von Daten (<dfn>values</dfn>), die zu eindeutigen Identifikatoren namens <dfn>properties</dfn> zugeordnet sind (<dfn>keys</dfn>). Schau dir ein Beispiel an:
+At their most basic, objects are just collections of <dfn>key-value</dfn> pairs. In other words, they are pieces of data (<dfn>values</dfn>) mapped to unique identifiers called <dfn>properties</dfn> (<dfn>keys</dfn>). Take a look at an example:
 
 ```js
 const tekkenCharacter = {
@@ -81,7 +81,7 @@ Das Objekt `foods` sollte einen Schlüssel `strawberries` mit einem Wert von `27
 assert(foods.strawberries === 27);
 ```
 
-The definition of the `foods` object should not be changed.
+Die Definition des `foods`-Objekts sollte nicht geändert werden.
 
 ```js
 assert(

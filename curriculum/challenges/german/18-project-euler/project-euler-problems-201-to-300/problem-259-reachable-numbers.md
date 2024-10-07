@@ -1,6 +1,6 @@
 ---
 id: 5900f4701000cf542c50ff82
-title: 'Problem 259: Reachable Numbers'
+title: 'Problem 259: Erreichbare Zahlen'
 challengeType: 1
 forumTopicId: 301907
 dashedName: problem-259-reachable-numbers
@@ -8,22 +8,22 @@ dashedName: problem-259-reachable-numbers
 
 # --description--
 
-A positive integer will be called reachable if it can result from an arithmetic expression obeying the following rules:
+Eine positiv Integer wird als erreichbar bezeichnet, wenn sie aus einem arithmetischen Ausdruck resultieren kann, der den folgenden Regeln gehorcht:
 
-- Uses the digits 1 through 9, in that order and exactly once each.
-- Any successive digits can be concatenated (for example, using the digits 2, 3 and 4 we obtain the number 234).
-- Only the four usual binary arithmetic operations (addition, subtraction, multiplication and division) are allowed.
-- Each operation can be used any number of times, or not at all.
-- Unary minus is not allowed.
-- Any number of (possibly nested) parentheses may be used to define the order of operations.
+- Verwendet die Ziffern 1 bis 9, in dieser Reihenfolge und genau einmal.
+- Beliebige aufeinanderfolgende Ziffern können aneinandergereiht werden (z. B. erhalten wir mit den Ziffern 2, 3 und 4 die Zahl 234).
+- Nur die vier üblichen binären arithmetischen Operationen (Zugabe, Subtraktion, Multiplikation und Abteilung) sind erlaubt.
+- Jede Operation kann beliebig oft oder gar nicht genutzt werden.
+- Unäres Minus ist nicht erlaubt.
+- Eine beliebige Anzahl von (möglicherweise verschachtelten) Klammern kann verwendet werden, um die Reihenfolge der Operationen zu definieren.
 
-For example, 42 is reachable, since $\frac{1}{23} \times ((4 \times 5) - 6) \times (78 - 9) = 42$.
+Zum Beispiel ist 42 erreichbar, da $\frac{1}{23} \times ((4 \times 5) - 6) \times (78 - 9) = 42$.
 
-What is the sum of all positive reachable integers?
+Was ist die Summe aller positiven erreichbaren Integer?
 
 # --hints--
 
-`reachableNumbers()` should return `20101196798`.
+`reachableNumbers()` sollte `20101196798` zurückgeben.
 
 ```js
 assert.strictEqual(reachableNumbers(), 20101196798);

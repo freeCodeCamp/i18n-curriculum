@@ -9,7 +9,7 @@ dashedName: override-class-declarations-by-styling-id-attributes
 
 # --description--
 
-우리는 방금 브라우저가 CSS를 선언 순서대로 위에서 아래로 읽는다는 것을 증명했습니다. 이 말은 즉, 충돌이 일어 났을 때 브라우저는 가장 마지막에 오는 CSS 선언을 사용한다는 것입니다. 만약 `h1`요소의 클래스 속성에서 `blue-text`를 `pink-text`앞에 넣었더라도, 사용 순서가 아닌 선언 순서를 참조할 것입니다.
+We just proved that browsers read CSS from top to bottom in order of their declaration. That means that, in the event of a conflict, the browser will use whichever CSS declaration came last. Notice that if we even had put `blue-text` before `pink-text` in our `h1` element's classes, it would still look at the declaration order and not the order of their use!
 
 이것이 끝이 아닙니다. CSS를 덮어쓸 수 있는 다른 방법들이 있습니다. id 속성을 기억하시나요?
 

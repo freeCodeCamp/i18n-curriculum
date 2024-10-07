@@ -9,7 +9,7 @@ dashedName: multiply-two-numbers-with-javascript
 
 # --description--
 
-يمكننا أيضًا ضرب رَقْم في آخر.
+We can also multiply one number by another.
 
 يستخدم JavaScript رمز `*` لضرب رقمين.
 

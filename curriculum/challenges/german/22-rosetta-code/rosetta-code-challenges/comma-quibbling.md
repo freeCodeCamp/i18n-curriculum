@@ -15,7 +15,7 @@ dashedName: comma-quibbling
 Schreibe eine Funktion, um eine Zeichenkettenausgabe zu erzeugen, die die Verkettung von Eingabewörtern aus einer Liste/Sequenz ist:
 
 <ol>
-  <li>An input of no words produces the output string of just the two brace characters (<code>"{}"</code>)</li>
+  <li>Eine Eingabe ohne Worte ergibt eine Ausgabe, die nur aus den beiden Klammerzeichen besteht (<code>"{}"</code>)</li>
   <li>Eine Eingabe von nur einem Wort, z.B. <code>["ABC"]</code>, erzeugt die Ausgabezeichenfolge des Wortes innerhalb der zwei Klammern z.B. <code>"{ABC}"</code></li>
   <li>Eine Eingabe von zwei Wörtern, z.B. <code>["ABC", "DEF"]</code>, erzeugt den Ausgabe-String der beiden Wörter innerhalb der beiden Klammern, wobei die Wörter durch den String <code>" and "</code> getrennt sind, z.B. <code>"{ABC and DEF}"</code></li>
   <li>Eine Eingabe von drei oder mehr Wörtern, z. B. <code>["ABC", "DEF", "G", "H"]</code>, ergibt die Ausgabe aller Wörter bis auf das letzte Wort, das durch <code>", "</code> getrennt ist, wobei das letzte Wort durch <code>" and "</code> getrennt ist und alle Wörter in geschweiften Klammern stehen; z.B. <code>"{ABC, DEF, G and H}"</code></li>
@@ -24,7 +24,7 @@ Schreibe eine Funktion, um eine Zeichenkettenausgabe zu erzeugen, die die Verket
 Teste deine Funktion mit der folgenden Reihe von Eingaben, die deine Ausgabe hier auf dieser Seite zeigen:
 
 <ul>
-  <li>[] # (No input words).</li>
+  <li>[] # (Keine Eingabewörter).</li>
   <li>["ABC"]</li>
   <li>["ABC", "DEF"]</li>
   <li>["ABC", "DEF", "G", "H"]</li>

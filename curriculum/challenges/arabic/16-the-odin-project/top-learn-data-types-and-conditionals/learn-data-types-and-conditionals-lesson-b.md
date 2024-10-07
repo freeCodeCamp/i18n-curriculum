@@ -43,4 +43,4 @@ The `trimStart()` method should be used to only remove the trailing space from t
 
 ## --video-solution--
 
-3
+الثالث

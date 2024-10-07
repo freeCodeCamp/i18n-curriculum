@@ -8,7 +8,7 @@ dashedName: set-default-parameters-for-your-functions
 
 # --description--
 
-Per aiutarci a creare funzioni più flessibili, ES6 introduce dei <dfn>parametri predefiniti</dfn> per le funzioni.
+In order to help us create more flexible functions, ES6 introduces <dfn>default parameters</dfn> for functions.
 
 Dai un'occhiata a questo codice:
 

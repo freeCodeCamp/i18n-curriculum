@@ -9,7 +9,7 @@ dashedName: introducing-else-if-statements
 
 # --description--
 
-Якщо вам потрібно звернутися до декількох умов, можна об’єднати інструкції `if` та `else if`.
+If you have multiple conditions that need to be addressed, you can chain `if` statements together with `else if` statements.
 
 ```js
 if (num > 15) {

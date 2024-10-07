@@ -9,7 +9,7 @@ dashedName: use-css-selectors-to-style-elements
 
 # --description--
 
-У CSS існує сотні функцій, які можна використовувати для редагування вигляду елемента на вашій сторінці.
+With CSS, there are hundreds of CSS properties that you can use to change the way an element looks on your page.
 
 Коли ви вводите `<h2 style="color: red;">CatPhotoApp</h2>`, ви стилізуєте окремий елемент `h2` за допомогою вбудованих CSS (Cascading Style Sheets, укр. Каскадні таблиці стилів).
 

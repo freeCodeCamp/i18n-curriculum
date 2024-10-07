@@ -8,7 +8,7 @@ dashedName: use-spread-and-notes-for-es5-set-integration
 
 # --description--
 
-Пам’ятаєте оператор поширення `...` від ES6?
+Do you remember the ES6 spread operator `...`?
 
 `...` може приймати ітеровані об’єкти в ES6 і перетворювати їх на масиви.
 

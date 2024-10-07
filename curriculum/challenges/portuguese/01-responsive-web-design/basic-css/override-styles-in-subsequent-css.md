@@ -9,7 +9,7 @@ dashedName: override-styles-in-subsequent-css
 
 # --description--
 
-A classe `pink-text` sobrescreveu a declaração de estilo do elemento `body`!
+Our `pink-text` class overrode our `body` element's CSS declaration!
 
 Com isso, podemos perceber que classes sobrescrevem os estilos declarados no elemento `body`. Isso nos leva à pergunta: o que podemos fazer para substituir a classe `pink-text`?
 

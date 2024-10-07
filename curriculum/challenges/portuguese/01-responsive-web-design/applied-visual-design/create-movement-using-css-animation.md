@@ -9,7 +9,7 @@ dashedName: create-movement-using-css-animation
 
 # --description--
 
-Quando os elementos têm a propriedade `position` definida, como `fixed` ou `relative`, as propriedades de deslocamento CSS `right`, `left`, `top` e `bottom` podem ser usadas em regras de animação para criar movimento.
+When elements have a specified `position`, such as `fixed` or `relative`, the CSS offset properties `right`, `left`, `top`, and `bottom` can be used in animation rules to create movement.
 
 Conforme mostrado no exemplo abaixo, você pode empurrar o item para baixo e para cima. No keyframe de `50%` a propriedade `top` recebeu 50px, empurrando o elemento para baixo. Já nos keyframes `0%` e `100%`, a propriedade recebeu 0px.
 

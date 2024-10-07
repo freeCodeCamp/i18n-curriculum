@@ -8,7 +8,7 @@ dashedName: pre-filter-json-to-get-the-data-you-need
 
 # --description--
 
-Se non vuoi rendere ogni foto di gatto che ricevi dall'API Cat Photo di freeCodeCamp, è possibile pre-filtrare il JSON prima di iterare su di esso.
+If you don't want to render every cat photo you get from the freeCodeCamp Cat Photo API, you can pre-filter the JSON before looping through it.
 
 Dato che i dati JSON sono memorizzati in un array, è possibile utilizzare il metodo `filter` per filtrare il gatto il cui codice `id` ha un valore di `1`.
 

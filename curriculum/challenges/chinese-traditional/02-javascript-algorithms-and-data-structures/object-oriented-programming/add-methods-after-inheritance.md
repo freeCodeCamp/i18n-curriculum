@@ -8,7 +8,7 @@ dashedName: add-methods-after-inheritance
 
 # --description--
 
-從超類構造函數繼承其 `prototype` 對象的構造函數，除了繼承的方法外，還可以擁有自己的方法。
+A constructor function that inherits its `prototype` object from a supertype constructor function can still have its own methods in addition to inherited methods.
 
 請看舉例：`Bird` 是一個構造函數，它繼承了 `Animal` 的 `prototype`：
 

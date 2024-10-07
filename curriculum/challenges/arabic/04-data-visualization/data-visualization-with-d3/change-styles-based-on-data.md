@@ -1,6 +1,6 @@
 ---
 id: 587d7fa7367417b2b2512bc7
-title: Change Styles Based on Data
+title: تغيير التصميم استناداً إلى البيانات
 challengeType: 6
 forumTopicId: 301479
 dashedName: change-styles-based-on-data
@@ -8,7 +8,7 @@ dashedName: change-styles-based-on-data
 
 # --description--
 
-D3 is about visualization and presentation of data. It's likely you'll want to change the styling of elements based on the data. For example, you may want to color a data point blue if it has a value less than 20, and red otherwise. You can use a callback function in the `style()` method and include the conditional logic. تستخدم وظيفة إعادة التفعيل على الوسيط `d` لتمثيل نقطة البيانات:
+D3 is about visualization and presentation of data. It's likely you'll want to change the styling of elements based on the data. For example, you may want to color a data point blue if it has a value less than 20, and red otherwise. You can use a callback function in the `style()` method and include the conditional logic. The callback function uses the `d` parameter to represent the data point:
 
 ```js
 selection.style("color", (d) => {
@@ -16,65 +16,65 @@ selection.style("color", (d) => {
 });
 ```
 
-The `style()` method is not limited to setting the `color` - it can be used with other CSS properties as well.
+لا تقتصر وظيفة `style()` على تعيين `color` - يمكن استخدامها مع خصائص CSS الأخرى.
 
 # --instructions--
 
-Add the `style()` method to the code in the editor to set the `color` of the `h2` elements conditionally. Write the callback function so if the data value is less than 20, it returns red, otherwise it returns green.
+أضف طريقة `style()` إلى الكود في المحرر لتعيين اللون `color` للعناصر المسمى `h2` بشروط. اكتب وظيفة إعادة التفاعل بحيث إذا كانت قيمة البيانات أقل من 20، فإنها ترجع أحمر، وإلا فإنها ترجع أخضر.
 
-**Note:** You can use if-else logic, or the ternary operator.
+**ملاحظة:** يمكنك استخدام منطق if-else، أو ternary operator.
 
 # --hints--
 
-The first `h2` should have a `color` of red.
+يجب أن يكون أول `h2` له لون `color` أحمر (red).
 
 ```js
 assert($('h2').eq(0).css('color') == 'rgb(255, 0, 0)');
 ```
 
-The second `h2` should have a `color` of green.
+يجب أن يكون ثاني `h2` له `color` أخضر (green).
 
 ```js
 assert($('h2').eq(1).css('color') == 'rgb(0, 128, 0)');
 ```
 
-The third `h2` should have a `color` of green.
+يجب أن يكون ثالث `h2` له `color` أخضر (green).
 
 ```js
 assert($('h2').eq(2).css('color') == 'rgb(0, 128, 0)');
 ```
 
-The fourth `h2` should have a `color` of red.
+يجب أن يكون رابع `h2` له لون `color` أحمر (red).
 
 ```js
 assert($('h2').eq(3).css('color') == 'rgb(255, 0, 0)');
 ```
 
-The fifth `h2` should have a `color` of green.
+يجب أن يكون هامس `h2` له `color` أخضر (green).
 
 ```js
 assert($('h2').eq(4).css('color') == 'rgb(0, 128, 0)');
 ```
 
-The sixth `h2` should have a `color` of red.
+يجب أن يكون سادس `h2` له لون `color` أحمر (red).
 
 ```js
 assert($('h2').eq(5).css('color') == 'rgb(255, 0, 0)');
 ```
 
-The seventh `h2` should have a `color` of green.
+يجب أن يكون سابع `h2` له `color` أخضر (green).
 
 ```js
 assert($('h2').eq(6).css('color') == 'rgb(0, 128, 0)');
 ```
 
-The eighth `h2` should have a `color` of red.
+يجب أن يكون ثامن `h2` له لون `color` أحمر (red).
 
 ```js
 assert($('h2').eq(7).css('color') == 'rgb(255, 0, 0)');
 ```
 
-The ninth `h2` should have a `color` of red.
+يجب أن يكون تاسع `h2` له لون `color` أحمر (red).
 
 ```js
 assert($('h2').eq(8).css('color') == 'rgb(255, 0, 0)');

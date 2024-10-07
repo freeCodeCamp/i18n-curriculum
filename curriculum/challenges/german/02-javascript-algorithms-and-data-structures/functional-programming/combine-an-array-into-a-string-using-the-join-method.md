@@ -8,7 +8,7 @@ dashedName: combine-an-array-into-a-string-using-the-join-method
 
 # --description--
 
-Die Methode `join` wird verwendet, um die Elemente eines Arrays miteinander zu verbinden und einen String zu erstellen. Es wird ein Argument für das Trennzeichen benötigt, das verwendet wird, um die Array-Elemente im String zu trennen.
+The `join` method is used to join the elements of an array together to create a string. It takes an argument for the delimiter that is used to separate the array elements in the string.
 
 Hier ist ein Beispiel:
 

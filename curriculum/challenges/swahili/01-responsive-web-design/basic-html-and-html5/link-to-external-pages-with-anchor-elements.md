@@ -9,7 +9,7 @@ dashedName: link-to-external-pages-with-anchor-elements
 
 # --description--
 
-Unaweza kutumia vipengele vya `a` (*anchor*) ili kuunganisha kwa maudhui nje ya ukurasa wako wa wavuti.
+You can use `a` (*anchor*) elements to link to content outside of your web page.
 
 Vipengele vya `a` vinahitaji anwani ya tovuti lengwa inayoitwa sifa ya  `href`. Pia vinahitaji maandishi ya maelezo. Hapa kuna mfano:
 

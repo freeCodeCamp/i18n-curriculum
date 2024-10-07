@@ -9,7 +9,7 @@ dashedName: accessing-nested-arrays
 
 # --description--
 
-Como hemos visto en ejemplos anteriores, los objetos pueden contener tanto objetos anidados como así también arreglos anidados. De manera similar a como se accede a los objetos anidados, la notación de corchetes de arreglos puede ser encadenada para acceder a arreglos anidados.
+As we have seen in earlier examples, objects can contain both nested objects and nested arrays. Similar to accessing nested objects, array bracket notation can be chained to access nested arrays.
 
 En el siguiente ejemplo, vemos cómo se accede a un arreglo anidado:
 
@@ -41,7 +41,7 @@ ourPets[1].names[0];
 
 # --instructions--
 
-Using dot and bracket notation, set the variable `secondTree` to the second element in the `list` array from the second object in the `myPlants` array.
+Mediante la notación de punto y corchetes, establece la variable `secondTree` al valor del segundo elemento del array `list`, que forma parte del segundo objeto del array `myPlants`.
 
 # --hints--
 

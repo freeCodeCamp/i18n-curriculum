@@ -9,7 +9,7 @@ dashedName: specify-how-fonts-should-degrade
 
 # --description--
 
-すべてのブラウザで利用可能なデフォルトのフォントがいくつかあります。 この総称フォントファミリには、`monospace`、`serif`、`sans-serif` などがあります。
+There are several default fonts that are available in all browsers. These generic font families include `monospace`, `serif` and `sans-serif`.
 
 あるフォントが利用できない場合は、別のフォントへ「降格」するようにブラウザに伝えることができます。
 

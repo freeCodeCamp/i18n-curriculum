@@ -8,7 +8,7 @@ dashedName: never-mutate-state
 
 # --description--
 
-وتصف هذه التحديات الأخيرة عدة أساليب لإنفاذ المبدأ الرئيس المتمثل في عدم قابلية تغيير الحالة (state immutability) في عملية Redux. تعني الحالة غير المتغيرة لا تعدل الحالة بشكل قصداً، بدلاً من ذلك، يمكنك إعادة نسخة جديدة من الحالة.
+These final challenges describe several methods of enforcing the key principle of state immutability in Redux. Immutable state means that you never modify state directly, instead, you return a new copy of state.
 
 إذا أخذت لقطة (snapshot) عن حالة تطبيق Redux على مر الزمن، سترى شيئا مثل `state 1`، و`state 2`، و`state 3`، و`state 4`، وكذلك `...`، حيث يمكن لكل الحالة أن تكون مماثلة للحالة الأخيرة، ولكن كل منها جزء مستقل من البيانات. هذا عدم التغير، في الواقع، هو ما يوفر خاصيات مثل تصحيح أخطاء السفر الزمني (time-travel debugging) الذي ربما سمعتم عنها.
 

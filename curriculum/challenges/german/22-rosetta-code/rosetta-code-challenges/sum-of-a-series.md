@@ -8,7 +8,7 @@ dashedName: sum-of-a-series
 
 # --description--
 
-Compute the **n**<sup>th</sup> term of a <em>series</em>, i.e. the sum of the **n** first terms of the corresponding <em>sequence</em>. Informally this value, or its limit when **n** tends to infinity, is also called the *sum of the series*, thus the title of this task. For this task, use: $S_n = \displaystyle\sum_{k=1}^n \frac{1}{k^2}$.
+Berechne den **n**<sup>th</sup> Ausdruck einer <em>Reihe</em>, d. h. die Summe der **n** ersten Ausdrücke der zugehörigen <em>Sequenz</em>. Informell wird dieser Wert oder sein Limit, wenn **n** zur Unendlichkeit neigt, auch die *Summe der Reihe*genannt, also der Titel dieser Aufgabe. Nutze für diese Aufgabe das Folgende: $S_n = \displaystyle\sum_{k=1}^n \frac{1}{k^2}$.
 
 # --instructions--
 

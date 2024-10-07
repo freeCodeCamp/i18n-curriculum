@@ -8,9 +8,9 @@ dashedName: implementation-of-social-authentication
 
 # --description--
 
-在應用中這種驗證的基本路徑是：
+The basic path this kind of authentication will follow in your app is:
 
-1.  用戶點擊一個按鈕或鏈接，訪問你的路由，使用特定的策略（例如 GitHub）進行認證。
+1.  User clicks a button or link sending them to your route to authenticate using a specific strategy (e.g. GitHub).
 2.  需要在路由中調用 `passport.authenticate('github')`，跳轉至 GitHub 驗證頁面。
 3.  頁面跳轉到 GitHub 上，如果用戶未登錄 GitHub，就需要在這裏進行登錄。 然後它要求他們批准從你的應用程序訪問他們的個人資料。
 4.  如果用戶被批准，他們會在一個特定的回調 url 上帶着他們的個人資料返回到你的應用程序。

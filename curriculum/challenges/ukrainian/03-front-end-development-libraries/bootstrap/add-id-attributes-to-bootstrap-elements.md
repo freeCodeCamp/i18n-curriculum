@@ -8,7 +8,7 @@ dashedName: add-id-attributes-to-bootstrap-elements
 
 # --description--
 
-Пригадайте, що окрім атрибутів класу, кожному елементу можна надати атрибут `id`.
+Recall that in addition to class attributes, you can give each of your elements an `id` attribute.
 
 Кожен id має бути унікальним для певного елементу і використовуватись лише один раз на сторінці.
 

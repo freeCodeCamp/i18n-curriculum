@@ -9,11 +9,11 @@ dashedName: improve-accessibility-of-audio-content-with-the-audio-element
 
 # --description--
 
-HTML5 的 `audio` 標籤用於呈現音頻內容或音頻流，它也具有語義化特性。 音頻內容也需要備用文本，供聾啞人或聽力困難的人使用。 這可以通過頁面上的文本或與字幕鏈接來實現。
+HTML5's `audio` element gives semantic meaning when it wraps sound or audio stream content in your markup. Audio content also needs a text alternative to be accessible to people who are deaf or hard of hearing. This can be done with nearby text on the page or a link to a transcript.
 
 `audio` 標籤支持 `controls` 屬性， 用於顯示瀏覽器默認播放、停止和其他控制，以及支持鍵盤功能。 這是一個布爾值屬性，意味着它不需要一個值，它在標籤上存在即開啓設置。
 
-舉個例子：
+請看下面的舉例：
 
 ```html
 <audio id="meowClip" controls>
@@ -26,7 +26,7 @@ HTML5 的 `audio` 標籤用於呈現音頻內容或音頻流，它也具有語�
 
 # --instructions--
 
-是時候讓 Camper Cat 休息一下，並與朋友 Zersiax (@zersiax) 會面了。 Zersiax 是一位屏幕閱讀器用戶，同時也是無障礙設計的高手。 爲了體驗屏幕閱讀器的朗讀效果，請在 `p` 元素之後添加一個 `audio` 元素， 具有 `controls` 屬性。 Then place a `source` element inside the `audio` tags with the `src` attribute set to `https://cdn.freecodecamp.org/curriculum/applied-accessibility/screen-reader.mp3` and `type` attribute set to `"audio/mpeg"`.
+是時候讓 Camper Cat 休息一下，並與朋友 Zersiax (@zersiax) 會面了。 Zersiax 是一位屏幕閱讀器用戶，同時也是無障礙設計的高手。 爲了體驗屏幕閱讀器的朗讀效果，請在 `p` 元素之後添加一個 `audio` 元素， 具有 `controls` 屬性。 然後將 `source` 元素放入 `audio` 標記內，並將 `src` 屬性設置爲 `https://cdn.freecodecamp.org/curriculum/applied-accessibility/screen-reader.mp3` 和 `type` 屬性設置爲 `"audio/mpeg"`。
 
 **注意：** 音頻片段的播放速度可能會快到令我們難以理解，但是對於屏幕閱讀器用戶來說這是正常速度。
 

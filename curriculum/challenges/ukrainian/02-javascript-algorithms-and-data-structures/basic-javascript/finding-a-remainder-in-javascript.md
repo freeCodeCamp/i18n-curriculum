@@ -9,13 +9,13 @@ dashedName: finding-a-remainder-in-javascript
 
 # --description--
 
-Оператор <dfn>остачі</dfn> `%` надає залишок від ділення двох чисел.
+The <dfn>remainder</dfn> operator `%` gives the remainder of the division of two numbers.
 
-**Приклад**
+**Наприклад:**
 
 <pre>
 5 % 2 = 1
-5 / 2 = 2 остача 1
+5 / 2 = 2 remainder 1
 2 * 2 = 4
 5 - 4 = 1
 </pre>

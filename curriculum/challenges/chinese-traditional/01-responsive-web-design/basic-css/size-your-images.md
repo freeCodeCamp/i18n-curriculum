@@ -8,7 +8,7 @@ dashedName: size-your-images
 
 # --description--
 
-CSS 的 `width` 屬性可以控制元素的寬度。 和設置文本字號一樣，我們會以 `px`（像素）爲單位來設置圖片的寬度。
+CSS has a property called `width` that controls an element's width. Just like with fonts, we'll use `px` (pixels) to specify the image's width.
 
 例如，如果你想創建一個叫 `larger-image` 的 CSS class，來控制 HTML 元素的寬度爲 500px，就可以這樣寫：
 

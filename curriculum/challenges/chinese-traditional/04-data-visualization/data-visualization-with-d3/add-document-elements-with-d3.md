@@ -8,9 +8,9 @@ dashedName: add-document-elements-with-d3
 
 # --description--
 
-D3 有多種方法可以用來在文檔中增加元素、修改元素。
+D3 has several methods that let you add and change elements in your document.
 
-`select()` 方法從文檔中選擇一個元素。 它接受你想要選擇的元素的名字作爲參數，並返回文檔中第一個與名字匹配的 HTML 節點。 以下是一個例子：
+`select()` 方法從文檔中選擇一個元素。 它接受你想要選擇的元素的名字作爲參數，並返回文檔中第一個與名字匹配的 HTML 節點。 這是一個示例：
 
 ```js
 const anchor = d3.select("a");

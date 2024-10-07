@@ -8,7 +8,7 @@ dashedName: missing-letters
 
 # --description--
 
-ابحث عن الحرف المفقود في نطاق الحروف الذي تم تمريرها وقم بارجاعه.
+Find the missing letter in the passed letter range and return it.
 
 إذا كانت جميع الحروف موجودة في النطاق، إرجع `undefined`.
 

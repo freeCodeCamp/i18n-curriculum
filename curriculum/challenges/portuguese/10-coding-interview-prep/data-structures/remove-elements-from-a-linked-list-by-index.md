@@ -8,7 +8,7 @@ dashedName: remove-elements-from-a-linked-list-by-index
 
 # --description--
 
-Antes de avançarmos para outra estrutura de dados, vamos aprender algumas práticas finais com listas encadeadas.
+Before we move on to another data structure, let's get a couple of last bits of practice with linked lists.
 
 Vamos escrever um método `removeAt`, que remove o `element` em um determinado `index`. O método deve ser chamado `removeAt(index)`. Para remover um `element` em um certo `index`, precisaremos manter uma contagem em execução de cada nó enquanto percorremos a lista encadeada.
 

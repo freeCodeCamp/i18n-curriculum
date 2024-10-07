@@ -8,7 +8,7 @@ dashedName: caesars-cipher
 
 # --description--
 
-Одним з найпростіших і найпоширеніших <dfn>шифрів</dfn> є <dfn>шифр Цезаря</dfn>, також відомий як <dfn>шифр зсуву</dfn>. У шифрі зсуву значення літери зміщене на встановлену кількість.
+One of the simplest and most widely known <dfn>ciphers</dfn> is a <dfn>Caesar cipher</dfn>, also known as a <dfn>shift cipher</dfn>. In a shift cipher the meanings of the letters are shifted by some set amount.
 
 Часто використовують шифр <a href="https://www.freecodecamp.org/news/how-to-code-the-caesar-cipher-an-introduction-to-basic-encryption-3bf77b4e19f7/" target="_blank" rel="noopener noreferrer nofollow">ROT13</a>, який зміщує літеру на 13 місць. Таким чином, `A ↔ N`, `B ↔ O` і так далі.
 

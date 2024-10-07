@@ -9,7 +9,7 @@ dashedName: accessing-object-properties-with-bracket-notation
 
 # --description--
 
-الطريقة الثانية للوصول إلى خصائص الكائن هي استخدام علامات الأقواس (`[]`). في حال إن خاصية الكائن الذي تحاول الوصول إليه يحتوي على مسافة في اسمه, سوف تحتاج إلى استخدام علامات الأقواس (bracket notation).
+The second way to access the properties of an object is bracket notation (`[]`). If the property of the object you are trying to access has a space in its name, you will need to use bracket notation.
 
 على أية حال, فانه يمكنك أستخدام bracket notation على خصائص الكائن من دون مسافات.
 

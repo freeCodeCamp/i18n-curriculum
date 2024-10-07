@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d403616d
-title: Use PropTypes to Define the Props You Expect
+title: PropTypes로 예상되는 props 타입 정의하기
 challengeType: 6
 forumTopicId: 301419
 dashedName: use-proptypes-to-define-the-props-you-expect
@@ -10,23 +10,23 @@ dashedName: use-proptypes-to-define-the-props-you-expect
 
 React provides useful type-checking features to verify that components receive props of the correct type. For example, your application makes an API call to retrieve data that you expect to be in an array, which is then passed to a component as a prop. You can set `propTypes` on your component to require the data to be of type `array`. This will throw a useful warning when the data is of any other type.
 
-It's considered a best practice to set `propTypes` when you know the type of a prop ahead of time. You can define a `propTypes` property for a component in the same way you defined `defaultProps`. Doing this will check that props of a given key are present with a given type. Here's an example to require the type `function` for a prop called `handleClick`:
+이미 Prop의 타입을 알고 있다면 `propTypes`를 설정하는 것이 좋습니다. `defaultProps`를 정의한 것과 동일한 방법으로 컴포넌트의 `propTypes`를 정의할 수 있습니다. 이렇게 하면 특정 키의 프로퍼티가 특정 타입인지 확인이 가능합니다. 다음 예시에서는 `handleClick`이라는 prop이 `function` 타입이어야 합니다.
 
 ```js
 MyComponent.propTypes = { handleClick: PropTypes.func.isRequired }
 ```
 
-In the example above, the `PropTypes.func` part checks that `handleClick` is a function. Adding `isRequired` tells React that `handleClick` is a required property for that component. You will see a warning if that prop isn't provided. Also notice that `func` represents `function`. Among the seven JavaScript primitive types, `function` and `boolean` (written as `bool`) are the only two that use unusual spelling. In addition to the primitive types, there are other types available. For example, you can check that a prop is a React element. Please refer to the <a href="https://reactjs.org/docs/typechecking-with-proptypes.html#proptypes" target="_blank" rel="noopener noreferrer nofollow">documentation</a> for all of the options.
+위의 예시에서 `PropTypes.func` 부분은 `handleClick`이 함수인지 확인을 합니다. `isRequired`를 추가하면 `handleClick`이 해당 컴포넌트에 필수 프로퍼티라고 알려주는 겁니다. 그래서 만약 `handleClick`이 제공되지 않으면 경고가 표시됩니다. 여기서 `func`은 `function`을 나타내는 겁니다. 7가지 자바스크립트 원시 타입 중에서 `function`과 `boolean`(`bool`이라고 쓰임)만 다른 철자를 사용합니다. 추가적으로 원시 타입 외에도 다른 타입을 사용할 수 있습니다. 예를 들면, prop이 리액트 엘리먼트인지도 확인할 수 있습니다. 다양한 옵션에 대해 자세한 내용은 <a href="https://reactjs.org/docs/typechecking-with-proptypes.html#proptypes" target="_blank" rel="noopener noreferrer nofollow">문서</a>를 참조하세요.
 
-**Note:** As of React v15.5.0, `PropTypes` is imported independently from React, like this: `import PropTypes from 'prop-types';`
+**참고:** 리액트 v15.5.0 부터 `PropTypes`를 이렇게 가져와서 사용합니다: `import PropTypes from 'prop-types';`
 
 # --instructions--
 
-Define `propTypes` for the `Items` component to require `quantity` as a prop and verify that it is of type `number`.
+`Items` 컴포넌트의 `propTypes`를 정의해보세요. `quantity` 프로퍼티를 가지고 있어야 하고 타입은 `number` 입니다.
 
 # --hints--
 
-The `ShoppingCart` component should render.
+`ShoppingCart` 컴포넌트가 렌더링 되어야 합니다.
 
 ```js
 assert(
@@ -37,7 +37,7 @@ assert(
 );
 ```
 
-The `Items` component should render.
+`Items` 컴포넌트가 렌더링 되어야 합니다.
 
 ```js
 assert(
@@ -48,7 +48,7 @@ assert(
 );
 ```
 
-The `Items` component should include a `propTypes` check to require a value for `quantity` and ensure that its value is a number.
+`Items` 컴포넌트는 `quantity`의 값이 숫자인지 확인하는 `propTypes`를 가지고 있어야 합니다.
 
 ```js
 (getUserInput) =>

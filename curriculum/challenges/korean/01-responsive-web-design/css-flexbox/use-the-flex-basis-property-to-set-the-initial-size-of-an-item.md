@@ -9,7 +9,7 @@ dashedName: use-the-flex-basis-property-to-set-the-initial-size-of-an-item
 
 # --description--
 
-`flex-basis` 속성은 CSS가 `flex-shrink` 혹은 `flex-grow`로 조정을 하기 전에 아이템의 초기 크기를 특정합니다.
+The `flex-basis` property specifies the initial size of the item before CSS makes adjustments with `flex-shrink` or `flex-grow`.
 
 `flex-basis` 속성은 다른 크기 속성과 같은 단위를 사용합니다(`px`, `em`, `%` 등등). `auto` 값은 내용을 기준으로 아이템의 크기를 정합니다.
 

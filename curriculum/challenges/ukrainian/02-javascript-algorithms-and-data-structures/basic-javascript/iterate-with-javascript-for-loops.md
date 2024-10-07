@@ -9,7 +9,7 @@ dashedName: iterate-with-javascript-for-loops
 
 # --description--
 
-Ви можете виконати один і той самий код декілька разів за допомогою циклу.
+You can run the same code multiple times by using a loop.
 
 Найпоширенішим типом циклу в JavaScript є `for`, оскільки він виконується певну кількість разів.
 

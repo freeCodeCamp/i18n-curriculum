@@ -9,7 +9,7 @@ dashedName: use-a-css-class-to-style-an-element
 
 # --description--
 
-Las clases son estilos reutilizables que se pueden agregar a los elementos HTML.
+Classes are reusable styles that can be added to HTML elements.
 
 A continuación te presentamos un ejemplo de cómo declarar una clase CSS:
 

@@ -8,7 +8,7 @@ dashedName: use-an-iife-to-create-a-module
 
 # --description--
 
-غالباً ما يستخدم immediately invoked function expression (IIFE) لتجميع الــ functionality ذات الصلة في object واحد أو <dfn>module</dfn>. فعلى سبيل المثال، كان هناك تحد سابق حدد اثنان mixins:
+An immediately invoked function expression (IIFE) is often used to group related functionality into a single object or <dfn>module</dfn>. For example, an earlier challenge defined two mixins:
 
 ```js
 function glideMixin(obj) {

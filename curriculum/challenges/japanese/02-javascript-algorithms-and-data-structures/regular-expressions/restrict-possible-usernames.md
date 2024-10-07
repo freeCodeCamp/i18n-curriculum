@@ -8,11 +8,11 @@ dashedName: restrict-possible-usernames
 
 # --description--
 
-ユーザー名はインターネット上の至るところで使用されています。 これらは、お気に入りのサイトでユーザーを一意に識別するものです。
+Usernames are used everywhere on the internet. They are what give users a unique identity on their favorite sites.
 
 データベース内ですべてのユーザー名を確認する必要があります。 ユーザー名を作成する際に、ユーザーが従わなければならない簡単なルールをいくつか示します。
 
-1) Usernames can only use alphanumeric characters.
+1) ユーザー名は英数字のみ使用できます。
 
 2) ユーザー名に数字を付ける場合は末尾にのみ付けることができます。 末尾には 0 個以上の数字を付けることができます。 ユーザー名を数字で始めることはできません。
 

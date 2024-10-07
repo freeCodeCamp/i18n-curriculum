@@ -8,7 +8,7 @@ dashedName: pass-state-as-props-to-child-components
 
 # --description--
 
-In den vorherigen Aufgaben hast du viele Beispiele gesehen, in denen Eigenschaften an untergeordnete JSX-Elemente und untergeordnete React-Komponenten übergeben wurden. Du fragst dich vielleicht, woher diese Eigenschaften kommen. Ein gängiges Muster ist es, eine zustandsfähige Komponente zu haben, die den `state` enthält, der für deine Anwendung wichtig ist, und die dann Kindkomponenten rendert. Du möchtest, dass diese Komponenten Zugriff auf einige Teile des `state` haben, die als Eigenschaften (props) übergeben werden.
+You saw a lot of examples that passed props to child JSX elements and child React components in previous challenges. You may be wondering where those props come from. A common pattern is to have a stateful component containing the `state` important to your app, that then renders child components. You want these components to have access to some pieces of that `state`, which are passed in as props.
 
 Vielleicht hast du zum Beispiel eine `App`-Komponente, die neben anderen Komponenten auch eine `Navbar` darstellt. In deiner `App` hast du einen `state`, der viele Benutzerinformationen enthält, aber die `Navbar` braucht nur Zugriff auf den Benutzernamen des Benutzers, damit sie ihn anzeigen kann. Du übergibst diesen Teil des `state` an die `Navbar`-Komponente als Eigenschaft.
 

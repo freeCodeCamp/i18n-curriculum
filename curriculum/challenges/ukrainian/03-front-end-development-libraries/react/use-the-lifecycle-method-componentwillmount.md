@@ -8,7 +8,7 @@ dashedName: use-the-lifecycle-method-componentwillmount
 
 # --description--
 
-Компоненти React мають декілька спеціальних методів, які надають можливість виконувати дії у визначений час їхнього життєвого циклу. Вони називаються методами життєвого циклу, або перехоплювачами життєвого циклу, і дозволяють виловити компонент у визначений час. Це може бути перед відтворенням, оновленням, отриманням пропсу, від’єднанням тощо. Ось список декількох головних методів життєвого циклу: `componentWillMount()` `componentDidMount()` `shouldComponentUpdate()` `componentDidUpdate()` `componentWillUnmount()`. В наступнних уроках ми розглянемо деякі основні випадки їх використання.
+React components have several special methods that provide opportunities to perform actions at specific points in the lifecycle of a component. These are called lifecycle methods, or lifecycle hooks, and allow you to catch components at certain points in time. This can be before they are rendered, before they update, before they receive props, before they unmount, and so on. Here is a list of some of the main lifecycle methods: `componentWillMount()` `componentDidMount()` `shouldComponentUpdate()` `componentDidUpdate()` `componentWillUnmount()` The next several lessons will cover some of the basic use cases for these lifecycle methods.
 
 **Примітка:** метод життєвого циклу `componentWillMount` буде нерекомендований у майбутній версії 16.X і видалений з версії 17. Дізнайтесь більше у цій <a href="https://www.freecodecamp.org/news/how-to-safely-use-reacts-life-cycles-with-fiber-s-async-rendering-fd4469ebbd8f/" target="_blank" rel="noopener noreferrer nofollow">публікації</a>
 

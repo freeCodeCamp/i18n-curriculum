@@ -9,7 +9,7 @@ dashedName: use-the-order-property-to-rearrange-items
 
 # --description--
 
-`order` 속성은 플렉스 컨테이너에 플렉스 아이템이 어떻게 보여질지에 대한 순서를 정하기 위해 사용됩니다. 기본 설정으로 아이템은 소스 HTML에 나타난 순서대로 보여질 것입니다. 이 속성은 음수를 포함한 숫자를 값으로 취합니다.
+The `order` property is used to tell CSS the order of how flex items appear in the flex container. By default, items will appear in the same order they come in the source HTML. The property takes numbers as values, and negative numbers can be used.
 
 # --instructions--
 

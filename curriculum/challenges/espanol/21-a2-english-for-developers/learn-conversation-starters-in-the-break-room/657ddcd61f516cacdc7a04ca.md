@@ -15,7 +15,7 @@ Maria informs Tom about public transportation options, specifically mentioning a
 
 `Downtown` is the heart of a city where there are many shops, restaurants, and usually tall buildings.
 
-# --questions--
+# --preguntas----preguntas--
 
 ## --text--
 
@@ -25,7 +25,7 @@ What does Maria say stops two blocks away?
 
 A taxi.
 
-### --retroalimentación--
+### --feedback--
 
 Maria mentions a public transportation option, not a private service.
 
@@ -33,7 +33,7 @@ Maria mentions a public transportation option, not a private service.
 
 A train.
 
-### --retroalimentación--
+### --feedback--
 
 Trains don't typically stop at blocks; they stop at stations.
 
@@ -45,7 +45,7 @@ A bus.
 
 A bicycle rental.
 
-### --retroalimentación--
+### --feedback--
 
 Rentals are usually stationary services, not something that stops.
 
@@ -53,7 +53,7 @@ Rentals are usually stationary services, not something that stops.
 
 3
 
-# --escena---
+# --scene--
 
 ```json
 { "setup": { "background": "company2-center.png", "characters": [

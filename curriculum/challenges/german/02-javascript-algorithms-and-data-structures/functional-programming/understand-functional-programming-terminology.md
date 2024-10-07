@@ -8,7 +8,7 @@ dashedName: understand-functional-programming-terminology
 
 # --description--
 
-Das FCC-Team hatte einen Stimmungswandel und will jetzt zwei Sorten Tee: grünen und schwarzen Tee. Allgemeiner Fakt: Stimmungsschwankungen bei Kunden sind ziemlich normal.
+The FCC Team had a mood swing and now wants two types of tea: green tea and black tea. General Fact: Client mood swings are pretty common.
 
 Mit diesen Informationen müssen wir die Funktion `getTea` aus der letzten Aufgabe wieder aufgreifen, um verschiedene Teeanfragen zu bearbeiten. Wir können `getTea` so abändern, dass es eine Funktion als Parameter akzeptiert, um die Art des Tees zu ändern, den es zubereitet. Das macht `getTea` flexibler und gibt dem Programmierer mehr Kontrolle, wenn sich die Kundenanforderungen ändern.
 

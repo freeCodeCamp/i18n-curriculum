@@ -12,7 +12,7 @@ dashedName: relational-databases-and-sqlite
 
 # --description--
 
-More resources:
+その他のリソース:
 
 \- <a href="https://www.sqlite.org/download.html" target="_blank" rel="noopener noreferrer nofollow">Download SQLite</a>
 
@@ -24,23 +24,23 @@ More resources:
 
 ## --text--
 
-データベースの基本のデータ構造「ではない」ものはどれですか？
+Which is NOT a primary data structure in a database?
 
 ## --answers--
 
-インデックス
+index
 
 ---
 
-テーブル
+table
 
 ---
 
-行
+row
 
 ---
 
-列
+column
 
 ## --video-solution--
 

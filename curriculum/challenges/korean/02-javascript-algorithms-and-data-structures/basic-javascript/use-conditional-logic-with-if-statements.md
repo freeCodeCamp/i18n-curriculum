@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c12feddfaeb3bdef
-title: Use Conditional Logic with If Statements
+title: 조건부 로직에 If문 사용하기
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cy87mf3'
 forumTopicId: 18348
@@ -11,11 +11,11 @@ dashedName: use-conditional-logic-with-if-statements
 
 `if` statements are used to make decisions in code. The keyword `if` tells JavaScript to execute the code in the curly braces under certain conditions, defined in the parentheses. These conditions are known as `Boolean` conditions and they may only be `true` or `false`.
 
-When the condition evaluates to `true`, the program executes the statement inside the curly braces. When the Boolean condition evaluates to `false`, the statement inside the curly braces will not execute.
+어떤 조건이 `true`로 평가되면, 프로그램은 중괄호 안에 있는 코드를 실행합니다. Boolean 조건이 `false`로 평가되면, 중괄호 안의 코드는 실행되지 않습니다.
 
-**Pseudocode**
+**의사코드**
 
-<blockquote>if (<i>condition is true</i>) {<br>  <i>statement is executed</i><br>}</blockquote>
+<blockquote>만약 (<i>이 조건이 참이면</i>) {<br> <i>이 코드가 실행됩니다</i><br>}</blockquote>
 
 **예:**
 
@@ -31,41 +31,41 @@ test(true);
 test(false);
 ```
 
-`test(true)` returns the string `It was true`, and `test(false)` returns the string `It was false`.
+`test(true)`는 `It was true`라는 문자열을 반환하고, `test(false)`는 `It was false`라는 문자열을 반환합니다.
 
-When `test` is called with a value of `true`, the `if` statement evaluates `myCondition` to see if it is `true` or not. Since it is `true`, the function returns `It was true`. When we call `test` with a value of `false`, `myCondition` is *not* `true` and the statement in the curly braces is not executed and the function returns `It was false`.
+`test` 함수가 `true`라는 매개변수와 함께 호출되면, `if`문은 `myCondition`이 `true`인지 아닌지 평가합니다. 이것이 `true`면, 이 함수는 `It was true`를 반환합니다. `test` 함수를 `false`라는 매개변수와 함께 호출하면, `myCondition`은 *not* `true`이고 중괄호 안의 코드는 실행되지 않으며 이 함수는 `It was false`를 반환하게 됩니다.
 
 # --instructions--
 
-Create an `if` statement inside the function to return `Yes, that was true` if the parameter `wasThatTrue` is `true` and return `No, that was false` otherwise.
+함수 내부에 `if` 문을 생성하여 매개변수 `wasThatTrue`가 `true`일 경우 `Yes, that was true`를 반환하고, 그렇지 않은 경우 `No, that was false`를 반환하도록 작성해주세요.
 
 # --hints--
 
-`trueOrFalse` should be a function
+`trueOrFalse`는 함수여야 합니다.
 
 ```js
 assert(typeof trueOrFalse === 'function');
 ```
 
-`trueOrFalse(true)` should return a string
+`trueOrFalse(true)`는 문자열을 반환해야 합니다.
 
 ```js
 assert(typeof trueOrFalse(true) === 'string');
 ```
 
-`trueOrFalse(false)` should return a string
+`trueOrFalse(false)`는 문자열을 반환해야 합니다.
 
 ```js
 assert(typeof trueOrFalse(false) === 'string');
 ```
 
-`trueOrFalse(true)` should return the string `Yes, that was true`
+`trueOrFalse(true)`는 `Yes, that was true`라는 문자열을 반환해야 합니다.
 
 ```js
 assert(trueOrFalse(true) === 'Yes, that was true');
 ```
 
-`trueOrFalse(false)` should return the string `No, that was false`
+`trueOrFalse(false)`는 `No, that was false`라는 문자열을 반환해야 합니다.
 
 ```js
 assert(trueOrFalse(false) === 'No, that was false');

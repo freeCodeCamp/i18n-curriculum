@@ -8,7 +8,7 @@ dashedName: use-typeof-to-check-the-type-of-a-variable
 
 # --description--
 
-يمكنك استخدام `typeof` للتحقق من نوع البيانات، أو نوع المتغير. هذا مفيد في تصحيح الأخطاء عند العمل مع أنواع متعددة من البيانات. إذا كنت تعتقد أنك تضيف رقمين، ولكن في الواقع يكون واحد منهم مقطع، يمكن أن تكون النتيجة غير متوقعة. يمكن أن تكمن أخطاء النوع (Type errors) في العمليات الحسابية أو استدعاءات الوظائف. كن حذرًا خاصةً عند العامل مع البيانات الخارجية في شكل كائن JavaScript يختصر إلى (JSON).
+You can use `typeof` to check the data structure, or type, of a variable. This is useful in debugging when working with multiple data types. If you think you're adding two numbers, but one is actually a string, the results can be unexpected. Type errors can lurk in calculations or function calls. Be careful especially when you're accessing and working with external data in the form of a JavaScript Object Notation (JSON) object.
 
 فيما يلي بعض الأمثلة التي تستخدم `typeof`:
 

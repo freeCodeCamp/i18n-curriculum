@@ -9,7 +9,7 @@ dashedName: word-blanks
 
 # --description--
 
-Du erhältst Sätze mit einigen fehlenden Wörtern wie Nomen, Verben, Adjektiven und Adverbien. Anschließend ergänzt du die fehlenden Teile mit Wörtern deiner Wahl und so, dass der vollständige Satz einen Sinn ergibt.
+You are provided sentences with some missing words, like nouns, verbs, adjectives and adverbs. You then fill in the missing pieces with words of your choice in a way that the completed sentence makes sense.
 
 Betrachte diesen Satz:
 
@@ -29,7 +29,7 @@ Bei dieser Aufgabe stellen wir dir ein Nomen, ein Verb, ein Adjektiv sowie ein A
 
 Du musst den String-Verkettungsoperator `+` verwenden, um einen neuen String zu erstellen, indem du die angegebenen Variablen verwendest: `myNoun`, `myAdjective`, `myVerb` und `myAdverb`. Anschließend musst du den erstellten String der Variable `wordBlanks` zuweisen. Du solltest die Wörter, die den Variablen zugeordnet sind, nicht ändern.
 
-You will also need to account for spaces in your string, so that the final sentence has spaces between all the words. Das Ergebnis sollte einen vollständigen Satz darstellen.
+Du musst auch die Leerzeichen in deinem String berücksichtigen, damit der letzte Satz Leerzeichen zwischen allen Wörtern hat. Das Ergebnis sollte einen vollständigen Satz darstellen.
 
 # --hints--
 

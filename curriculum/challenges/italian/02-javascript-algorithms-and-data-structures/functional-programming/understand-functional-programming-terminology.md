@@ -8,7 +8,7 @@ dashedName: understand-functional-programming-terminology
 
 # --description--
 
-La squadra di FCC ha avuto uno sbalzo di umore e ora vuole due tipi di tè: tè verde e tè nero. Fatto generale: gli sbalzi di umore dei clienti sono piuttosto comuni.
+The FCC Team had a mood swing and now wants two types of tea: green tea and black tea. General Fact: Client mood swings are pretty common.
 
 Con queste informazioni, avremo bisogno di rivedere la funzione `getTea` dall'ultima sfida per gestire varie richieste di tè. Possiamo modificare `getTea` in modo che accetti una funzione come parametro per poter cambiare il tipo di tè che prepara. Questo rende `getTea` più flessibile e dà al programmatore più controllo quando le richieste del cliente cambiano.
 

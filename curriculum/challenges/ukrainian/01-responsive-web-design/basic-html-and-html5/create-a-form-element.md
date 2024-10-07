@@ -8,7 +8,7 @@ dashedName: create-a-form-element
 
 # --description--
 
-Ви можете створювати вебформи, які фактично відправляють дані на сервер, не використовуючи нічого крім HTML. Це можна зробити, вказавши атрибут `action` у вашому елементі `form`.
+You can build web forms that actually submit data to a server using nothing more than pure HTML. You can do this by specifying an `action` attribute on your `form` element.
 
 Наприклад:
 

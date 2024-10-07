@@ -9,7 +9,7 @@ dashedName: comparison-with-the-strict-inequality-operator
 
 # --description--
 
-엄격한 부등호 연산자(`!==`) 는 일치 연산자와 반대입니다. 이는 "엄격하게 같지 않다"는 것을 의미하며, 일치 연산자에서 `true`를 반환하는 경우에는 `false`를 반환하고, 그 반대의 경우에는 *true*을 반환합니다. 엄격한 부등호 연산자는 비교 시 데이터 타입 변환을 수행하지 않습니다.
+The strict inequality operator (`!==`) is the logical opposite of the strict equality operator. It means "Strictly Not Equal" and returns `false` where strict equality would return `true` and *vice versa*. The strict inequality operator will not convert data types.
 
 **예시**
 

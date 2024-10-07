@@ -8,36 +8,36 @@ dashedName: stock-price-checker
 
 # --description--
 
-Erstelle eine vollständige JavaScript Anwendung, die eine ähnliche Funktionalität wie <a href="https://stock-price-checker.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://stock-price-checker.freecodecamp.rocks/</a> aufweist.
+Build a full stack JavaScript app that is functionally similar to this: <a href="https://stock-price-checker.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://stock-price-checker.freecodecamp.rocks/</a>.
 
-Since all reliable stock price APIs require an API key, we've built a workaround. Use <a href="https://stock-price-checker-proxy.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://stock-price-checker-proxy.freecodecamp.rocks/</a> to get up-to-date stock price information without needing to sign up for your own key.
+Da alle zuverlässigen Aktienpreis-APIs einen API-Schlüssel benötigen, haben wir eine Umgehungslösung entwickelt. Benutze <a href="https://stock-price-checker-proxy.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://stock-price-checker-proxy.freecodecamp.rocks/</a> um aktuelle Informationen zum Aktienkurs zu erhalten, ohne sich selbst anmelden zu müssen.
 
 Bei der Arbeit an diesem Projekt musst du deinen Code mit einer der folgenden Methoden schreiben:
 
 -   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-stockchecker/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
 -   Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-stockchecker/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete your project.
--   Verwende einen Site-Builder deiner Wahl, um das Projekt abzuschließen. Achte darauf, alle Dateien von unserem GitHub-Repo zu integrieren.
+-   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
 
 # --instructions--
 
 1.  Set the `NODE_ENV` environment variable to `test`, without quotes
-2.  Complete the project in `routes/api.js` or by creating a handler/controller
-3.  You will add any security features to `server.js`
+2.  Schließe das Projekt in `routes/api.js` oder durch das Erstellen von Handler/Controller ab
+3.  Füge alle Sicherheitsfunktionen zu `server.js` hinzu
 4.  Du wirst alle funktionalen Tests in `tests/2_functional-tests.js` erstellen
 
 **Note** Privacy Considerations: Due to the requirement that only 1 like per IP should be accepted, you will have to save IP addresses. It is important to remain compliant with data privacy laws such as the General Data Protection Regulation. One option is to get permission to save the user's data, but it is much simpler to anonymize it. For this challenge, remember to anonymize IP addresses before saving them to the database. If you need ideas on how to do this, you may choose to hash the data, truncate it, or set part of the IP address to 0.
 
-Write the following tests in `tests/2_functional-tests.js`:
+Schreibe die folgenden Tests in `tests/2_functional-tests.js`:
 
 -   Viewing one stock: GET request to `/api/stock-prices/`
--   Viewing one stock and liking it: GET request to `/api/stock-prices/`
--   Viewing the same stock and liking it again: GET request to `/api/stock-prices/`
--   Viewing two stocks: GET request to `/api/stock-prices/`
--   Viewing two stocks and liking them: GET request to `/api/stock-prices/`
+-   Eine Aktie mit "Like" anzeigen: GET Befehl an `/api/stock-prices/` senden
+-   Diesselbe Aktie nochmal anzeigen und liken: GET Befehl an `/api/stock-prices/` senden
+-   Zwei Aktien anzeigen: GET Befehl an `/api/stock-prices/` senden
+-   Zwei Aktien mit "Like" anzeigen: GET Befehl an `/api/stock-prices/` senden
 
 # --hints--
 
-You can provide your own project, not the example URL.
+Du kannst dein eigenes Projekt und nicht die Beispiel-URL angeben.
 
 ```js
 (getUserInput) => {
@@ -74,7 +74,7 @@ async (getUserInput) => {
 };
 ```
 
-Die `stockData`-Eigenschaft enthält das `stock`-Symbol als ein String, den `price` als eine Zahl und `likes` als eine Zahl.
+The `stockData` property includes the `stock` symbol as a string, the `price` as a number, and `likes` as a number.
 
 ```js
 async (getUserInput) => {
@@ -89,13 +89,13 @@ async (getUserInput) => {
 };
 ```
 
-You can also pass along a `like` field as `true` (boolean) to have your like added to the stock(s). Nur 1 "Like" pro IP sollte akzeptiert werden.
+You can also pass along a `like` field as `true` (boolean) to have your like added to the stock(s). Only 1 like per IP should be accepted.
 
 ```js
 
 ```
 
-Wenn du 2 Aktien übergibst, ist der Rückgabewert eine Anordnung mit Informationen über beide Aktien. Instead of `likes`, it will display `rel_likes` (the difference between the likes on both stocks) for both `stockData` objects.
+If you pass along 2 stocks, the returned value will be an array with information about both stocks. Instead of `likes`, it will display `rel_likes` (the difference between the likes on both stocks) for both `stockData` objects.
 
 ```js
 async (getUserInput) => {

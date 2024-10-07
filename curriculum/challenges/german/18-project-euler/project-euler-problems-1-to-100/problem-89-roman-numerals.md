@@ -34,7 +34,7 @@ So sieht es beispielsweise so aus, als gäbe es mindestens sechs Arten, die Zahl
 
 Nach den Regeln sind jedoch nur XIIIIII und XVI gültig, und das letzte Beispiel wird als das effizienteste angesehen, da es die geringste Anzahl von Ziffern verwendet.
 
-The array, `roman`, will contain numbers written with valid, but not necessarily minimal, Roman numerals.
+Das Array `roman` enthält Zahlen, die mit gültigen, aber nicht unbedingt minimalen römischen Ziffern geschrieben sind.
 
 Ermittele die Anzahl der Zeichen, die du einsparen kannst, wenn du jedes dieser Zeichen in seiner Minimalform schreibst.
 

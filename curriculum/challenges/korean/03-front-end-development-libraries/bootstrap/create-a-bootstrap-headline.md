@@ -8,7 +8,7 @@ dashedName: create-a-bootstrap-headline
 
 # --description--
 
-이제 HTML, CSS, 부트스트랩 기술을 연습해보기 위해 무언가를 처음부터 만들어봅시다.
+Now let's build something from scratch to practice our HTML, CSS and Bootstrap skills.
 
 앞으로의 jQuery 챌린지에서 활용할 jQuery playground를 만들 것입니다.
 

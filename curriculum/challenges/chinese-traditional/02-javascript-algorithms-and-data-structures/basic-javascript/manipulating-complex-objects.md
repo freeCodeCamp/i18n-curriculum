@@ -9,7 +9,7 @@ dashedName: manipulating-complex-objects
 
 # --description--
 
-有時你可能希望將數據存儲在一個靈活的數據結構（<dfn>Data Structure</dfn>）中。 JavaScript 對象是一種靈活的數據結構。 它可以儲存字符串（<dfn>strings</dfn>）、數字（<dfn>numbers</dfn>）、布爾值（<dfn>booleans</dfn>）、數組（<dfn>arrays</dfn>）、函數（<dfn>functions</dfn>）和對象（<dfn>objects</dfn>）以及這些值的任意組合。
+Sometimes you may want to store data in a flexible <dfn>Data Structure</dfn>. A JavaScript object is one way to handle flexible data. They allow for arbitrary combinations of <dfn>strings</dfn>, <dfn>numbers</dfn>, <dfn>booleans</dfn>, <dfn>arrays</dfn>, <dfn>functions</dfn>, and <dfn>objects</dfn>.
 
 這是一個複雜數據結構的示例：
 

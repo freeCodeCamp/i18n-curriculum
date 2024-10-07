@@ -8,7 +8,7 @@ dashedName: match-letters-of-the-alphabet
 
 # --description--
 
-Du hast gesehen, wie du <dfn>Zeichensätze</dfn> verwenden kannst, um eine Gruppe von Zeichen zu bestimmen, die übereinstimmen sollen, aber das ist eine Menge Tipparbeit, wenn du einen großen Bereich von Zeichen abgleichen musst (zum Beispiel alle Buchstaben des Alphabets). Zum Glück gibt es eine eingebaute Funktion, die dies schnell und einfach erledigt.
+You saw how you can use <dfn>character sets</dfn> to specify a group of characters to match, but that's a lot of typing when you need to match a large range of characters (for example, every letter in the alphabet). Fortunately, there is a built-in feature that makes this short and simple.
 
 Im Zeichensatz können Bindestriche (`-`) verwendet werden, um den Bereich der zu übereinstimmenden Zeichen zu definieren.
 

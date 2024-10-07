@@ -9,7 +9,7 @@ dashedName: accessing-nested-objects
 
 # --description--
 
-我們可以通過連續使用點號表示法和方括號表示法來訪問對象的嵌套屬性。
+The sub-properties of objects can be accessed by chaining together the dot or bracket notation.
 
 這是一個嵌套對象：
 

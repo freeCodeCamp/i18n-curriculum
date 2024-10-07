@@ -1,6 +1,6 @@
 ---
 id: 587d8255367417b2b2512c75
-title: Create a Circular Queue
+title: 創建循環隊列
 challengeType: 1
 forumTopicId: 301625
 dashedName: create-a-circular-queue
@@ -10,7 +10,7 @@ dashedName: create-a-circular-queue
 
 In this challenge you will be creating a Circular Queue. A circular queue is a queue that writes to the end of a collection then begins overwriting itself at the beginning of the collection. This type of data structure is useful in certain situations. For example, a circular queue can be used for streaming media. Once the queue is full, new media data will overwrite old data.
 
-A good way to illustrate this concept is with an array of length `5`:
+可以用一個長度爲 `5` 的數組來演示：
 
 ```js
 [null, null, null, null, null]
@@ -18,7 +18,7 @@ A good way to illustrate this concept is with an array of length `5`:
  ^Write @ 0
 ```
 
-Here the read and write are both at position `0`. Now the queue gets 3 new records `a`, `b`, and `c`. Our queue now looks like:
+這裏的讀寫都在第 `0` 位。 現在隊列獲得 3 個新記錄 `a`、`b` 和 `c` 。 我們的隊列現在看起來像：
 
 ```js
 [a, b, c, null, null]
@@ -26,7 +26,7 @@ Here the read and write are both at position `0`. Now the queue gets 3 new recor
           ^Write @ 3
 ```
 
-As the read head reads, it can remove values or keep them:
+隨着讀頭讀取數據，它可以選擇刪除數值或者保留它們。
 
 ```js
 [null, null, null, null, null]
@@ -34,7 +34,7 @@ As the read head reads, it can remove values or keep them:
                    ^Write @ 3
 ```
 
-Now we write the values `d`, `e`, and `f` to the queue. Once the write reaches the end of the array it loops back to the beginning:
+現在我們寫入的值 `d`、`e` 和 `f` 到隊列。 一旦寫入到數組的末尾，它將回到起始：
 
 ```js
 [f, null, null, d, e]
@@ -42,21 +42,21 @@ Now we write the values `d`, `e`, and `f` to the queue. Once the write reaches t
     ^Write @ 1
 ```
 
-This approach requires a constant amount of memory but allows files of a much larger size to be processed.
+這種方法需要恆定的內存數量，但允許處理大得多的文件。
 
 # --instructions--
 
-In this challenge we will implement a circular queue. The circular queue should provide `enqueue` and `dequeue` methods which allow you to read from and write to the queue. The class itself should also accept an integer argument which you can use to specify the size of the queue when created. 我們已經在代碼編輯器中爲您編寫了此類的起始版本。
+在此挑戰中，我們將實現循環隊列。 循環隊列應提供 `enqueue` 和 `dequeue` 方法，允許你讀取和寫入隊列。 類本身也應該接受一個整數，您可以使用該整數在創建隊列時指定隊列的大小。 我們已經在代碼編輯器中爲您編寫了此類的起始版本。
 
-When you enqueue items to the queue, the write pointer should advance forward and loop back to the beginning once it reaches the end of the queue. The `enqueue` method should return the item you enqueued if it is successful; otherwise it will return `null`.
+將項目排入隊列時，寫入指針應向前推進，並在到達隊列末尾時循環回到開頭。 如果成功，則 `enqueue` 方法應返回你入列的項木，否則返回 `null`。
 
-Likewise, the read pointer should advance forward as you dequeue items. When you dequeue an item, that item should be returned. If you cannot dequeue an item, you should return `null`.
+同樣，當你使項目出列時，讀指針應向前推進。 當你將一個項目移出隊列時，應該返回該項目。 如果你不能將一個項目移出隊列時，你應該返回 `null`。
 
-The write pointer should not be allowed to move past the read pointer (our class won't let you overwrite data you haven't read yet) and the read pointer should not be able to advance past data you have written.
+不應允許寫指針超過讀指針的位置（我們的類不會讓你覆蓋你還沒有讀過的數據），並且讀指針不能超過你寫的數據的位置。
 
 # --hints--
 
-The `enqueue` method should add items to the circular queue.
+`enqueue` 方法將項目添加到循環隊列中。
 
 ```js
 assert(
@@ -71,7 +71,7 @@ assert(
 );
 ```
 
-You should not enqueue items past the read pointer.
+你不應該在超過讀取指針的位置加入項目。
 
 ```js
 assert(
@@ -89,7 +89,7 @@ assert(
 );
 ```
 
-The `dequeue` method should dequeue items from the queue.
+`dequeue` 方法使隊列中的項目出列。
 
 ```js
 assert(
@@ -105,7 +105,7 @@ assert(
 );
 ```
 
-After an item is dequeued, its position in the queue should be reset to `null`.
+項目出隊後，其在隊列中的位置應重置爲 `null`。
 
 ```js
 assert(
@@ -122,7 +122,7 @@ assert(
 );
 ```
 
-Trying to dequeue past the write pointer should return `null` and does not advance the write pointer.
+試圖超過寫指針的位置去出列項目應該返回 `null`，並且不會推進寫指針。
 
 ```js
 assert(

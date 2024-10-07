@@ -8,7 +8,7 @@ dashedName: use-arrow-functions-to-write-concise-anonymous-functions
 
 # --description--
 
-在 JavaScript 里，我们会经常遇到不需要给函数命名的情况，尤其是在需要将一个函数作为参数传给另外一个函数的时候。 这时，我们会创建匿名函数。 因为这些函数不会在其他地方复用，所以我们不需要给它们命名。
+In JavaScript, we often don't need to name our functions, especially when passing a function as an argument to another function. Instead, we create inline functions. We don't need to name these functions because we do not reuse them anywhere else.
 
 这种情况下，我们通常会使用以下语法：
 
@@ -42,7 +42,7 @@ const myFunc = () => "value";
 
 # --hints--
 
-应该替换 `var` 关键字。
+应替换 `var` 关键词。
 
 ```js
 assert.notMatch(code, /var/g)
@@ -66,7 +66,7 @@ assert(typeof magic === 'function');
 assert(magic().setHours(0, 0, 0, 0) === new Date().setHours(0, 0, 0, 0));
 ```
 
-不要使用 `function` 关键字。
+不能使用 `function` 关键字。
 
 ```js
 assert.notMatch(code, /function/g)

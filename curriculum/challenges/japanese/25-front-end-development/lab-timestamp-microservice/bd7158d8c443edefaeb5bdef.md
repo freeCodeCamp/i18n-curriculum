@@ -11,13 +11,13 @@ Build a full stack JavaScript app that is functionally similar to this: <a href=
 
 -   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-timestamp/"  target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
 -   Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-timestamp/"  target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete your project.
--   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
+-   使い慣れたサイトビルダーを使用してプロジェクトを完了させる。 必ず GitHub リポジトリのすべてのファイルを取り込む。
 
 **Note:** Time zones conversion is not a purpose of this project, so assume all sent valid dates will be parsed with `new Date()` as GMT dates.
 
 # --hints--
 
-You should provide your own project, not the example URL.
+サンプルの URL ではなく、自分で作成したプロジェクトを提供する必要があります。
 
 ```js
 (getUserInput) => {
@@ -45,7 +45,7 @@ A request to `/api/:date?` with a valid date should return a JSON object with a 
   );
 ```
 
-A request to `/api/:date?` with a valid date should return a JSON object with a `utc` key that is a string of the input date in the format: `Thu, 01 Jan 1970 00:00:00 GMT`
+有効な日付を持つ `/api/:date?` へのリクエストに対して、`Thu, 01 Jan 1970 00:00:00 GMT` 形式の入力日文字列である `utc` キーを持つ JSON オブジェクトを返す必要があります。
 
 ```js
 (getUserInput) =>
@@ -63,7 +63,7 @@ A request to `/api/:date?` with a valid date should return a JSON object with a 
   );
 ```
 
-A request to `/api/1451001600000` should return `{ unix: 1451001600000, utc: "Fri, 25 Dec 2015 00:00:00 GMT" }`
+`/api/1451001600000` へのリクエストに対して、`{ unix: 1451001600000, utc: "Fri, 25 Dec 2015 00:00:00 GMT" }` を返す必要があります。
 
 ```js
 (getUserInput) =>
@@ -80,7 +80,7 @@ A request to `/api/1451001600000` should return `{ unix: 1451001600000, utc: "Fr
   );
 ```
 
-Your project can handle dates that can be successfully parsed by `new Date(date_string)`
+プロジェクトでは、`new Date(date_string)` で正常に解析できる日付を処理することができます。
 
 ```js
 (getUserInput) =>
@@ -111,7 +111,7 @@ If the input date string is invalid, the API returns an object having the struct
   );
 ```
 
-An empty date parameter should return the current time in a JSON object with a `unix` key
+空の日付パラメータに対して、`unix` キーを持つ JSON オブジェクトに現在時刻を返す必要があります。
 
 ```js
 (getUserInput) =>
@@ -126,7 +126,7 @@ An empty date parameter should return the current time in a JSON object with a `
   );
 ```
 
-An empty date parameter should return the current time in a JSON object with a `utc` key
+空の日付パラメータに対して、`utc` キーを持つ JSON オブジェクトに現在時刻を返す必要があります。
 
 ```js
 (getUserInput) =>

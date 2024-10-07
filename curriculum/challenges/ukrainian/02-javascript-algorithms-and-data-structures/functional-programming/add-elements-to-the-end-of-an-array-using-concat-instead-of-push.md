@@ -8,7 +8,7 @@ dashedName: add-elements-to-the-end-of-an-array-using-concat-instead-of-push
 
 # --description--
 
-Найважливішим у функційному програмуванні є створення та використання незмінних функцій.
+Functional programming is all about creating and using non-mutating functions.
 
 У попередньому завданні ви дізнались про метод `concat`, за допомогою якого можна злити масиви в один, не змінюючи початкові масиви. Порівняйте метод `concat` з методом `push`. `push` додає елементи в кінець того масиву, в якому викликаний, тим самим змінюючи його. Ось приклад:
 
@@ -23,7 +23,7 @@ arr.push(4, 5, 6);
 
 # --instructions--
 
-Змініть функцію `nonMutatingPush` так, щоб вона використовувала `concat`, аби додати `newItem` в кінець `original`, не змінюючи масиви `original` чи `newItem`. Функція повинна повертати масив.
+Змініть функцію `nonMutatingPush` так, щоб вона використовувала `concat`, аби додати `newItem` в кінець `original`, не змінюючи масиви `original` чи `newItem`. The function should return an array.
 
 # --hints--
 

@@ -8,7 +8,7 @@ dashedName: steamroller
 
 # --description--
 
-嵌套數組扁平化成一維數組。 必須考慮到各種深度的嵌套層級。
+Flatten a nested array. You must account for varying levels of nesting.
 
 # --hints--
 

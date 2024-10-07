@@ -9,7 +9,7 @@ dashedName: practice-comparing-different-values
 
 # --description--
 
-في التحديين الأخيرين، لقد تعلمنا عن مشغل المساواة (`==`) ومشغل المساواة الصارمة (`===`). راجع سريعا وتدرب على استخدام هؤلاء المشغلين.
+In the last two challenges, we learned about the equality operator (`==`) and the strict equality operator (`===`). Let's do a quick review and practice using these operators some more.
 
 إذا لم تكن القيم الذي تقارن من نفس النوع، سيقوم مشغل المساواة بإجراء تحويل نوعي (type conversion)، ثم يقوم بمقارنة القيم. ومع ذلك، إن مشغل المساواة الصارمة (strict equality operator) سيقارن بين نوع البيانات والقيمة كما هي، دون تحويل نوع إلى آخر.
 

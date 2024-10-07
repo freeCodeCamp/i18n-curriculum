@@ -8,7 +8,7 @@ dashedName: refactor-global-variables-out-of-functions
 
 # --description--
 
-目前为止，我们已经看到了函数式编程的两个原则：
+So far, we have seen two distinct principles for functional programming:
 
 1) 不要更改变量或对象 - 创建新变量和对象，并在需要时从函数返回它们。 提示：使用类似 `const newArr = arrVar` 的东西，其中 `arrVar` 是一个数组，只会创建对现有变量的引用，而不是副本。 所以更改 `newArr` 中的值会同时更改 `arrVar` 中的值。
 

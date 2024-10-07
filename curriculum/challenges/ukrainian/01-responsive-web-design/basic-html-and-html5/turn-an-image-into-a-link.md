@@ -9,9 +9,9 @@ dashedName: turn-an-image-into-a-link
 
 # --description--
 
-Ви можете перетворити зображення на посилання, вклавши їх в `a` елемент.
+You can make elements into links by nesting them within an `a` element.
 
-Вкладіть ваше зображення в `a` елемент. Наприклад:
+Вкладіть ваше зображення в `a` елемент. Ось приклад:
 
 ```html
 <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="Three kittens running towards the camera."></a>

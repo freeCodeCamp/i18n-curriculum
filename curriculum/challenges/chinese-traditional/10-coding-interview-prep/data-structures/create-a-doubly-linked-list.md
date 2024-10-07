@@ -1,6 +1,6 @@
 ---
 id: 587d825a367417b2b2512c87
-title: Create a Doubly Linked List
+title: 創建雙向鏈接列表
 challengeType: 1
 forumTopicId: 301626
 dashedName: create-a-doubly-linked-list
@@ -10,17 +10,17 @@ dashedName: create-a-doubly-linked-list
 
 All of the linked lists we've created so far are singly linked lists. Here, we'll create a <dfn>doubly linked list</dfn>. As the name implies, nodes in a doubly linked list have references to the next and previous node in the list.
 
-This allows us to traverse the list in both directions but it also requires more memory to be used because every node must contain an additional reference to the previous node in the list.
+這允許我們在兩個方向上遍歷列表，但它還需要使用更多內存，因爲每個節點必須包含對列表中前一個節點的附加引用。
 
 # --instructions--
 
-We've provided a `Node` object and started our `DoublyLinkedList`. Let's add two methods to our doubly linked list called `add` and `remove`. The `add` method should add the given element to the list while the `remove` method should remove all occurrences of a given element in the list.
+我們提供了一個 `Node` 對象以及我們的 `DoublyLinkedList` 的起始代碼。 讓我們將兩個名爲 `add` 和 `remove` 的方法添加到我們的雙向鏈表結構中。 `add`方法應該將給定元素添加到列表中，而`remove`方法應該刪除列表中所有出現的給定元素。
 
-Be careful to handle any possible edge cases when writing these methods, such as deletions for the first or last element. Also, removing any item on an empty list should return `null`.
+編寫這些方法時要小心處理任何可能的邊緣情況，例如刪除第一個或最後一個元素。 此外，刪除空列表中的任何項應返回 `null`。
 
 # --hints--
 
-The `DoublyLinkedList` data structure should exist.
+存在`DoublyLinkedList`數據結構。
 
 ```js
 assert(
@@ -34,7 +34,7 @@ assert(
 );
 ```
 
-The `DoublyLinkedList` should have a method called `add`.
+`DoublyLinkedList` 應該有一個名爲 `add`的方法。
 
 ```js
 assert(
@@ -51,7 +51,7 @@ assert(
 );
 ```
 
-The `DoublyLinkedList` should have a method called `remove`.
+`DoublyLinkedList` 應該有一個名爲 `remove`的方法。
 
 ```js
 assert(
@@ -68,7 +68,7 @@ assert(
 );
 ```
 
-Removing an item from an empty list should return `null`.
+從一個空列表中移除項應當返回 `null`。
 
 ```js
 assert(
@@ -82,7 +82,7 @@ assert(
 );
 ```
 
-The `add` method should add items to the list.
+`add`方法應當將元素添加到列表中。
 
 ```js
 assert(
@@ -99,7 +99,7 @@ assert(
 );
 ```
 
-Each node should keep track of the previous node.
+每個節點都應該跟蹤上一個節點。
 
 ```js
 assert(
@@ -116,7 +116,7 @@ assert(
 );
 ```
 
-The first item should be removable from the list.
+第一個項目應該從列表中刪除。
 
 ```js
 assert(
@@ -134,7 +134,7 @@ assert(
 );
 ```
 
-The last item should be removable from the list.
+最後一個項目應該從列表中刪除。
 
 ```js
 assert(

@@ -1,6 +1,6 @@
 ---
 id: 587d7b7e367417b2b2512b24
-title: Use the Conditional (Ternary) Operator
+title: 조건부 (삼항) 연산자 사용하기
 challengeType: 1
 forumTopicId: 301181
 dashedName: use-the-conditional-ternary-operator
@@ -12,7 +12,7 @@ The <dfn>conditional operator</dfn>, also called the <dfn>ternary operator</dfn>
 
 The syntax is `a ? b : c`, where `a` is the condition, `b` is the code to run when the condition returns `true`, and `c` is the code to run when the condition returns `false`.
 
-The following function uses an `if/else` statement to check a condition:
+다음 함수는 조건을 확인하기 위해 `if/else`문을 사용합니다.
 
 ```js
 function findGreater(a, b) {
@@ -25,7 +25,7 @@ function findGreater(a, b) {
 }
 ```
 
-This can be re-written using the conditional operator:
+이 함수는 조건부 연산자를 사용하여 다시 작성할 수 있습니다:
 
 ```js
 function findGreater(a, b) {
@@ -35,29 +35,29 @@ function findGreater(a, b) {
 
 # --instructions--
 
-Use the conditional operator in the `checkEqual` function to check if two numbers are equal or not. The function should return either the string `Equal` or the string `Not Equal`.
+두 숫자가 같은지 여부를 확인하기 위해 `checkEqual` 함수 안에 조건부 연산자를 사용하시오. 함수는 문자열 `Equal` 혹은 `Not Equal`을 반환해야 합니다.
 
 # --hints--
 
-`checkEqual` should use the conditional operator
+`checkEqual`는 조건부 연산자를 사용해야 합니다
 
 ```js
 assert(/.+?\s*?\?\s*?.+?\s*?:\s*?.+?/.test(__helpers.removeJSComments(code)));
 ```
 
-`checkEqual(1, 2)` should return the string `Not Equal`
+`checkEqual(1, 2)`는 문자열 `Not Equal`을 반환해야 합니다
 
 ```js
 assert(checkEqual(1, 2) === 'Not Equal');
 ```
 
-`checkEqual(1, 1)` should return the string `Equal`
+`checkEqual(1, 1)`는 문자열 `Equal`을 반환해야 합니다
 
 ```js
 assert(checkEqual(1, 1) === 'Equal');
 ```
 
-`checkEqual(1, -1)` should return the string `Not Equal`
+`checkEqual(1, -1)`는 문자열 `Not Equal`을 반환해야 합니다
 
 ```js
 assert(checkEqual(1, -1) === 'Not Equal');

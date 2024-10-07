@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d4036182
-title: Add Inline Styles in React
+title: 리액트에 인라인 스타일 적용하기
 challengeType: 6
 forumTopicId: 301378
 dashedName: add-inline-styles-in-react
@@ -10,39 +10,39 @@ dashedName: add-inline-styles-in-react
 
 You may have noticed in the last challenge that there were several other syntax differences from HTML inline styles in addition to the `style` attribute set to a JavaScript object. First, the names of certain CSS style properties use camel case. For example, the last challenge set the size of the font with `fontSize` instead of `font-size`. Hyphenated words like `font-size` are invalid syntax for JavaScript object properties, so React uses camel case. As a rule, any hyphenated style properties are written using camel case in JSX.
 
-All property value length units (like `height`, `width`, and `fontSize`) are assumed to be in `px` unless otherwise specified. If you want to use `em`, for example, you wrap the value and the units in quotes, like `{fontSize: "4em"}`. Other than the length values that default to `px`, all other property values should be wrapped in quotes.
+다음은, 모든 속성의 길이(`height`, `width`, `fontSize`)는 지정되지 않는 한 `px`로 추정됩니다. 예를 들어 `em`을 사용하고 싶으면 이렇게 따옴표에 값과 단위를 넣어주면 됩니다 `{fontSize: "4em"}`. `px`를 제외한 모든 길이 값들은 따옴표로 묶어줘야 합니다.
 
 # --instructions--
 
-If you have a large set of styles, you can assign a style `object` to a constant to keep your code organized. Declare your styles constant as a global variable at the top of the file. Initialize `styles` constant and assign an `object` with three style properties and their values to it. Give the `div` a color of `purple`, a font-size of `40`, and a border of `2px solid purple`. Then set the `style` attribute equal to the `styles` constant.
+많은 스타일을 설정한 경우, 스타일 객체(`object`)를 상수 변수에 할당해서 코드를 정리할 수 있습니다. 파일 제일 상단에 `styles` 상수를 전역 변수로 선언해보세요. `styles` 상수에 다음 세 가지 속성을 가진 `객체`를 할당해주세요. `div`의 color는 `purple`, font-size는 `40`, border는 `2px solid purple`를 넣어주세요. 그런 다음 `style` 속성에 `styles` 상수 변수를 설정합니다.
 
 # --hints--
 
-The `styles` variable should be an `object` with three properties.
+`styles` 변수는 세 개의 속성을 가진 `object`이어야 합니다.
 
 ```js
 assert(Object.keys(styles).length === 3);
 ```
 
-The `styles` variable should have a `color` property set to a value of `purple`.
+`styles` 변수는 `color` 속성에 `purple` 값이 설정되어야 합니다.
 
 ```js
 assert(styles.color === 'purple');
 ```
 
-The `styles` variable should have a `fontSize` property set to a value of `40`.
+`styles` 변수는 `fontSize` 속성에 `40` 값이 설정되어야 합니다.
 
 ```js
 assert(styles.fontSize == 40);
 ```
 
-The `styles` variable should have a `border` property set to a value of `2px solid purple`.
+`styles` 변수는 `border` 속성에 `2px solid purple` 값이 설정되어야 합니다.
 
 ```js
 assert(styles.border === '2px solid purple');
 ```
 
-The component should render a `div` element.
+이 컴포넌트는 `div` 엘리먼트를 렌더링해야 합니다.
 
 ```js
 assert(
@@ -53,7 +53,7 @@ assert(
 );
 ```
 
-The `div` element should have its styles defined by the `styles` object.
+`div` 엘리먼트는 `styles` 객체로 정의된 스타일이 있어야 합니다.
 
 ```js
 assert(

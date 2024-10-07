@@ -9,7 +9,7 @@ dashedName: change-a-variable-for-a-specific-area
 
 # --description--
 
-`:root`에 변수를 생성하면 전체 페이지에 해당 변수의 값이 설정됩니다.
+When you create your variables in `:root` they will set the value of that variable for the whole page.
 
 그런 다음 특정 선택자(selector)에서 변수를 다시 설정하여 이러한 변수를 덮어쓸 수 있습니다.
 

@@ -8,7 +8,7 @@ dashedName: slice-and-splice
 
 # --description--
 
-Tienes dos arreglos y un índice.
+You are given two arrays and an index.
 
 Copia cada elemento del primer arreglo en el segundo arreglo, en orden.
 

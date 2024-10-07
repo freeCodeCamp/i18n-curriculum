@@ -8,7 +8,7 @@ dashedName: change-text-inside-an-element-using-jquery
 
 # --description--
 
-За допомогою jQuery можна змінити текст між початковими і кінцевими тегами елемента. Можна навіть змінити розмітку HTML.
+Using jQuery, you can change the text between the start and end tags of an element. You can even change HTML markup.
 
 jQuery має функцію `.html()`, яка дозволяє додати теги HTML та текст в межах елемента. Будь-який попередній вміст елемента буде повністю замінений на той, який ви надасте через функцію.
 

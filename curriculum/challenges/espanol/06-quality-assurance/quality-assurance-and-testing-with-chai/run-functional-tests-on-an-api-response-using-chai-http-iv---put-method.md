@@ -28,7 +28,7 @@ Envia el siguiente objeto JSON con tu solicitud PUT:
 
 Compruebe lo siguiente dentro del callback `request.end`:
 
-1.  El `status` debe ser `200`
+1.  The `status` should be `200`
 2.  El `type` debe ser `application/json`
 3.  El `body.name` debe ser `Giovanni`
 4.  El `body.surname` debe ser `da Verrazzano`

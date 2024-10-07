@@ -8,7 +8,7 @@ dashedName: specify-only-the-lower-number-of-matches
 
 # --description--
 
-Du kannst die Unter- und Oberzahl der Muster mit Quantifizierern in geschweiften Klammern angeben. Manchmal willst du nur die Untergrenze für die Anzahl der Muster angeben, aber keine Obergrenze.
+You can specify the lower and upper number of patterns with quantity specifiers using curly brackets. Sometimes you only want to specify the lower number of patterns with no upper limit.
 
 Wenn du nur die Unterzahl der Muster angeben willst, behalte die erste Zahl gefolgt von einem Komma bei.
 

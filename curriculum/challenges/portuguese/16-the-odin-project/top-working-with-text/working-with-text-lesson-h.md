@@ -8,7 +8,7 @@ dashedName: working-with-text-lesson-h
 
 # --description--
 
-Se você quer ter uma lista de itens onde a ordem não importa, como uma lista de compras de itens que podem ser comprados em qualquer ordem, então você pode usar uma lista não ordenada.
+Se você quer ter uma lista de itens onde a ordem não importa, como uma lista de compras de itens que podem ser comprados em qualquer ordem, pode usar uma lista não ordenada.
 
 Listas não ordenadas são criadas usando o elemento `<ul>`. Cada item na lista é criado usando o elemento de item de lista `<li>`.
 

@@ -9,7 +9,7 @@ dashedName: create-a-media-query
 
 # --description--
 
-미디어 쿼리는 CSS3에 도입된 새로운 기술로, 다른 뷰포트 사이즈에 따라 어떻게 내용을 표시할지 변경합니다. 뷰포트는 웹 페이지에서의 유저의 시각적 영역으로, 해당 사이트를 접속하는 데 쓰인 단말기에 따라 달라집니다.
+Media Queries are a new technique introduced in CSS3 that change the presentation of content based on different viewport sizes. The viewport is a user's visible area of a web page, and is different depending on the device used to access the site.
 
 미디어 쿼리는 미디어 유형을 활용하며, 이 미디어 유형이 해당 웹 문서가 보여지는 단말기의 유형과 일치하면 스타일이 적용되는 식입니다. 여러분은 원하는 만큼 많이 다양한 선택자와 스타일 안에 미디어 쿼리를 사용할 수 있습니다.
 

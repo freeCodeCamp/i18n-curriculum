@@ -9,7 +9,7 @@ dashedName: generate-random-fractions-with-javascript
 
 # --description--
 
-الأرقام العشوائية مفيدة لخلق سلوك عشوائي.
+Random numbers are useful for creating random behavior.
 
 لدى JavaScript وظيفة `Math.random()` التي تولد رَقَم عشري عشوائي بين `0` (مشمول) و `1` (غير مشمول). ولذلك يمكن أن ينتج `Math.random()` رَقَم `0` ولكن لا يمكن أبدا أن ينتج رَقَم `1`.
 

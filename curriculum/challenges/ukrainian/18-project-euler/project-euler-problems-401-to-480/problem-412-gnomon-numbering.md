@@ -12,7 +12,7 @@ dashedName: problem-412-gnomon-numbering
 
 Наприклад, $L(5, 3)$ виглядає так:
 
-<img alt="сітка 5x5 без верхньої правої частини розміром 3x3" src="https://cdn.freecodecamp.org/curriculum/project-euler/gnomon-numbering-1.png" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
+<img alt="сітка 5x5 без верхньої правої частини 3x3" src="https://cdn.freecodecamp.org/curriculum/project-euler/gnomon-numbering-1.png" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
 У кожну клітинку $L(m, n)$ потрібно ввести послідовні цілі числа (1, 2, 3, ...) так, щоб число в кожній клітинці було меншим ніж те, яке знаходиться внизу та зліва.
 

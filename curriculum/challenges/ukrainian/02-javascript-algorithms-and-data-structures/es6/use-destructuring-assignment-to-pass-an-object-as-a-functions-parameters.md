@@ -8,7 +8,7 @@ dashedName: use-destructuring-assignment-to-pass-an-object-as-a-functions-parame
 
 # --description--
 
-У деяких випадках ви можете деструктурувати об’єкт в самому аргументі функції.
+In some cases, you can destructure the object in a function argument itself.
 
 Розглянемо наступний код:
 

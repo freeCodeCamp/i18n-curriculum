@@ -8,7 +8,7 @@ dashedName: depth-first-search
 
 # --description--
 
-Do mesmo modo que na <dfn>busca em largura</dfn>, aqui aprenderemos sobre outro algoritmo de travessia de grafos chamado <dfn>busca em profundidade</dfn>.
+Similar to <dfn>breadth-first search</dfn>, here we will learn about another graph traversal algorithm called <dfn>depth-first search</dfn>.
 
 Enquanto a busca em largura busca pela distância das arestas do nó de origem de modo incremental, a <dfn>busca em profundidade</dfn> desce todo o caminho das arestas o mais distante que ela puder.
 

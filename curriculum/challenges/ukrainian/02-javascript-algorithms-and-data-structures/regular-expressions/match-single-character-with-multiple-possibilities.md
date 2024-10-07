@@ -8,7 +8,7 @@ dashedName: match-single-character-with-multiple-possibilities
 
 # --description--
 
-Ви дізнались про точні збіги шаблонів (`/literal/`) та байдужий символ (`/./`). Це два кінці регулярних виразів, де один знаходить точний збіг, а другий збігається з усім. Між ними існує й баланс.
+You learned how to match literal patterns (`/literal/`) and wildcard character (`/./`). Those are the extremes of regular expressions, where one finds exact matches and the other matches everything. There are options that are a balance between the two extremes.
 
 Ви можете знайти точний збіг з певним відхиленням за допомогою <dfn>символьних класів</dfn>. Символьні класи дозволяють визначити групу символів, для яких ви хочете знайти збіги. Для цього їх потрібно розмістити всередині квадратних дужок (`[` та `]`).
 

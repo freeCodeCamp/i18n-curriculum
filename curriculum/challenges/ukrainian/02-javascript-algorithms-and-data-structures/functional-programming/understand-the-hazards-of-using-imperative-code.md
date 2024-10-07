@@ -8,7 +8,7 @@ dashedName: understand-the-hazards-of-using-imperative-code
 
 # --description--
 
-Функційне програмування — хороша навичка. Воно дозволяє легко керувати кодом та рятує від підступних помилок. Але перед тим, як перейти до цього, варто розібрати імперативний метод програмування, щоб підкреслити моменти, з якими у вас можуть виникнути проблеми.
+Functional programming is a good habit. It keeps your code easy to manage, and saves you from sneaky bugs. But before we get there, let's look at an imperative approach to programming to highlight where you may have issues.
 
 В англійській мові (та багатьох інших) імператив використовується для надання команд. Аналогічно, імперативний стиль у програмуванні — це стиль, який надає комп’ютеру набір інструкцій, щоб виконати завдання.
 

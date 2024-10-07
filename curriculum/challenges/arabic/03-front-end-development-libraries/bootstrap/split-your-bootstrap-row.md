@@ -8,7 +8,7 @@ dashedName: split-your-bootstrap-row
 
 # --description--
 
-الآن بعد أن كان لدينا صف Bootstrap، دعونا نقسمه إلى عمودين لإيواء عناصرنا.
+Now that we have a Bootstrap Row, let's split it into two columns to house our elements.
 
 أنشئ عنصرين `div` داخل الصف الخاص بك، وكلاهما يحتوي فئة باسم `col-xs-6`.
 

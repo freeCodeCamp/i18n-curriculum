@@ -9,13 +9,13 @@ dashedName: use-bracket-notation-to-find-the-first-character-in-a-string
 
 # --description--
 
-Завдяки <dfn>дужковій нотації</dfn> можна отримати символ з певним індексом в рядку.
+<dfn>Bracket notation</dfn> is a way to get a character at a specific index within a string.
 
 Більшість сучасних мов програмування, наприклад JavaScript, не починають рахунок з 1, як це роблять люди. Вони починають з 0. Це називається індексацією <dfn>на основі нуля</dfn>.
 
 Наприклад, символом з індексом 0 у слові `Charles` буде `C`. Тому, якщо `const firstName = "Charles"`, ви можете отримати значення першої літери рядка, використовуючи `firstName[0]`.
 
-Приклад:
+Наприклад:
 
 ```js
 const firstName = "Charles";

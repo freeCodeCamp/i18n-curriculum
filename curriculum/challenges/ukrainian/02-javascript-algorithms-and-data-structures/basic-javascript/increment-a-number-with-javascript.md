@@ -9,7 +9,7 @@ dashedName: increment-a-number-with-javascript
 
 # --description--
 
-Ви можете легко <dfn>збільшити</dfn> або додати одиницю до змінної за допомогою оператора `++`.
+You can easily <dfn>increment</dfn> or add one to a variable with the `++` operator.
 
 ```js
 i++;

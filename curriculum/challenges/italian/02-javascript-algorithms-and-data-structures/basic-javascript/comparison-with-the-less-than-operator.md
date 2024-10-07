@@ -9,7 +9,7 @@ dashedName: comparison-with-the-less-than-operator
 
 # --description--
 
-L'operatore di minoranza (`<`) confronta i valori di due numeri. Se il numero a sinistra è inferiore al numero a destra, restituisce `true`. In caso contrario, restituisce `false`. Come l'operatore di uguaglianza, l'operatore di minoranza converte i tipi di dati durante il confronto.
+The less than operator (`<`) compares the values of two numbers. If the number to the left is less than the number to the right, it returns `true`. Otherwise, it returns `false`. Like the equality operator, the less than operator converts data types while comparing.
 
 **Esempi**
 

@@ -8,7 +8,7 @@ dashedName: avoid-mutations-and-side-effects-using-functional-programming
 
 # --description--
 
-아직 알아채지 못하셨을 수도 있겠지만 이전 과제에서 문제는 `tabClose()` 함수 안에 `splice`에 있었습니다. `splice`는 이 메소드를 호출하는 본래의 배열을 변형시킵니다. 그래서 두 번째 호출은 변형된 배열을 사용하여 예상치 못한 결과를 줬습니다.
+If you haven't already figured it out, the issue in the previous challenge was with the `splice` call in the `tabClose()` function. Unfortunately, `splice` changes the original array it is called on, so the second call to it used a modified array, and gave unexpected results.
 
 이는 더 큰 유형의 일부 예시입니다. 변수, 배열 혹은 객체에 함수를 호출하고 그 함수가 객체 안에 있는 변수 등을 변형시킵니다.
 

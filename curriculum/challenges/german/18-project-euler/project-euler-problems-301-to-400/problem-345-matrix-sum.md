@@ -8,7 +8,7 @@ dashedName: problem-345-matrix-sum
 
 # --description--
 
-We define the Matrix Sum of a matrix as the maximum sum of matrix elements with each element being the only one in his row and column.
+Wir definieren die Matrix-Summe einer Matrix als die maximale Summe von Matrixelementen, wobei jedes Element das einzige in seiner Reihe und Spalte ist.
 
 Zum Beispiel entspricht die Matrix-Summe der unteren Matrix $3315 ( = 863 + 383 + 343 + 959 + 767)$:
 
@@ -29,7 +29,7 @@ $$\\begin{array}{r}     7 &  53 & 183 & 439 & 863 & 497 & 383 & 563 &  79 & 973 
 
 # --hints--
 
-`matrixSum()` should return `13938`.
+`matrixSum()` sollte `13938` zurückgeben.
 
 ```js
 assert.strictEqual(matrixSum(), 13938);

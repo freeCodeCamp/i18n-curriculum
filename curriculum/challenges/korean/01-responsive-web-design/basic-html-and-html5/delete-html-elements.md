@@ -9,7 +9,7 @@ dashedName: delete-html-elements
 
 # --description--
 
-휴대전화에는 세로 공간이 많지 않습니다.
+Our phone doesn't have much vertical space.
 
 고양이 사진 앱 (CatPhotoApp)을 만들 수 있도록 불필요한 요소를 제거하겠습니다.
 

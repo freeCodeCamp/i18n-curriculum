@@ -8,7 +8,7 @@ dashedName: return-part-of-an-array-using-the-slice-method
 
 # --description--
 
-Метод `slice` повертає копію певних елементів масиву. Він може приймати два аргументи: перший надає індекс, де починається слайс, а другий є індексом, де слайс закінчується (не включно). Якщо аргументи не надані, то початок і кінець відповідають початку і кінцю масиву, що є найлегшим способом створити копію масиву. Метод `slice` не змінює вихідний масив, а повертає новий.
+The `slice` method returns a copy of certain elements of an array. It can take two arguments, the first gives the index of where to begin the slice, the second is the index for where to end the slice (and it's non-inclusive). If the arguments are not provided, the default is to start at the beginning of the array through the end, which is an easy way to make a copy of the entire array. The `slice` method does not mutate the original array, but returns a new one.
 
 Ось приклад:
 
@@ -21,7 +21,7 @@ const newArray = arr.slice(1, 3);
 
 # --instructions--
 
-Використайте метод `slice` у функції `sliceArray`, щоб повернути частину масиву `anim`, врахувавши надані індекси `beginSlice` та `endSlice`. Функція повинна повертати масив.
+Використайте метод `slice` у функції `sliceArray`, щоб повернути частину масиву `anim`, врахувавши надані індекси `beginSlice` та `endSlice`. Функція має повернути масив.
 
 # --hints--
 

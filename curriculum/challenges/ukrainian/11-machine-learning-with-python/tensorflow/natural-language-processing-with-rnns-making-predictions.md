@@ -14,7 +14,7 @@ dashedName: natural-language-processing-with-rnns-making-predictions
 
 ## --text--
 
-Перед тим, як розпочати процес прогнозування свого огляду, потрібно...:
+Before you make a prediction with your own review, you should...:
 
 ## --answers--
 

@@ -14,7 +14,7 @@ dashedName: what-is-numpy
 
 ## --text--
 
-爲什麼 Numpy 數組要比常規的 Python 列表更快？
+Why are Numpy arrays faster than regular Python lists?
 
 ## --answers--
 

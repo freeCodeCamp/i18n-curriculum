@@ -8,7 +8,7 @@ dashedName: create-bootstrap-wells
 
 # --description--
 
-Bootstrap 有一個叫作 `well` 的 class，作用是使界面更具層次感。
+Bootstrap has a class called `well` that can create a visual sense of depth for your columns.
 
 在每一個 class 屬性爲 `col-xs-6` 的 `div` 元素中都嵌入一個帶有 `well` class 的 `div` 元素。
 

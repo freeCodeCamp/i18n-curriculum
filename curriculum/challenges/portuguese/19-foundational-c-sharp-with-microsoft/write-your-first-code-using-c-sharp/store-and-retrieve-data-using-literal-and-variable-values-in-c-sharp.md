@@ -20,7 +20,7 @@ Complete o módulo <a href="https://learn.microsoft.com/training/modules/csharp-
 
 ## --text--
 
-Qual das linhas de código a seguir cria uma variável corretamente?
+Which of the following lines of code creates a variable correctly?
 
 ## --answers--
 

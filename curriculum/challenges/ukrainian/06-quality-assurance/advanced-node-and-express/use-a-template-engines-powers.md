@@ -8,7 +8,7 @@ dashedName: use-a-template-engines-powers
 
 # --description--
 
-Одна з головних переваг шаблонізатора — це можливість передавати змінні з сервера до шаблону перед його візуалізацією в HTML.
+One of the greatest features of using a template engine is being able to pass variables from the server to the template file before rendering it to HTML.
 
 У своєму файлі Pug ви можете використовувати змінну, посилаючись на ім’я змінної як `#{variable_name}` в рядку з іншим текстом в елементі або використовуючи знак рівності в елементі без пробілу, наприклад, `p=variable_name`, що присвоює значення змінної до тексту елемента p.
 

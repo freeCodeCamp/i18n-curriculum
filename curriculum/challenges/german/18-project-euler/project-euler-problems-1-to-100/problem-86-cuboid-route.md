@@ -1,6 +1,6 @@
 ---
 id: 5900f3c31000cf542c50fed5
-title: 'Problem 86: Cuboid route'
+title: 'Problem 86: Quadratische Strecke'
 challengeType: 1
 forumTopicId: 302200
 dashedName: problem-86-cuboid-route
@@ -12,11 +12,11 @@ Eine Spinne, S, sitzt in einer Ecke eines quaderförmigen Raums mit den Maßen 6
 
 <img alt="ein Diagramm des Weges einer Spinne und einer Fliege von einer Ecke eines quaderförmigen Raumes zur gegenüberliegenden Ecke" src="https://cdn-media-1.freecodecamp.org/project-euler/cuboid-route.png" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-However, there are up to three "shortest" path candidates for any given cuboid and the shortest route doesn't always have integer length.
+Allerdings gibt es für jeden beliebigen Quader bis zu drei Kandidaten für den "kürzesten" Weg, und der kürzeste Weg hat nicht immer eine ganzzahlige Länge.
 
-It can be shown that there are exactly `2060` distinct cuboids, ignoring rotations, with integer dimensions, up to a maximum size of M by M by M, for which the shortest route has integer length when M = 100. This is the least value of M for which the number of solutions first exceeds two thousand; the number of solutions when M = 99 is `1975`.
+Es kann gezeigt werden, dass es genau `2060` verschiedene Quader mit ganzzahligen Dimensionen gibt, ohne Berücksichtigung von Drehungen, bis zu einer maximalen Größe von M x M x M, für die der kürzeste Weg eine ganzzahlige Länge hat, wenn M = 100. Dies ist der geringste Wert von M, für den die Anzahl der Lösungen zuerst mehr als zweitausend ist; die Anzahl der Lösungen, wenn M = 99 `1975` ist.
 
-Find the least value of M such that the number of solutions first exceeds `n`.
+Finde den kleinsten Wert von M, sodass die Anzahl der Lösungen zunächst `n` übersteigt.
 
 # --hints--
 

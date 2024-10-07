@@ -8,7 +8,7 @@ dashedName: combine-two-arrays-using-the-concat-method
 
 # --description--
 
-<dfn>Concatenation</dfn> 意思是将元素连接到尾部。 同理，JavaScript 为字符串和数组提供了`concat`方法。 对数组来说，在一个数组上调用 `concat` 方法，然后提供另一个数组作为参数添加到第一个数组末尾。 它返回一个新数组，不会改变任何一个原始数组。 举个例子：
+<dfn>Concatenation</dfn> means to join items end to end. JavaScript offers the `concat` method for both strings and arrays that work in the same way. For arrays, the method is called on one, then another array is provided as the argument to `concat`, which is added to the end of the first array. It returns a new array and does not mutate either of the original arrays. 如下所示：
 
 ```js
 [1, 2, 3].concat([4, 5, 6]);

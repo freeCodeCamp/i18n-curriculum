@@ -8,7 +8,7 @@ dashedName: finders-keepers
 
 # --description--
 
-أنشئ وظيفة تبحث في القائمة `arr` وترجع العنصر الأول فيها الذي يجتاز 'اختبار الحقيقة'. وهذا يعني أنه نظراً لعنصر `x`، يتم اجتياز 'اختبار الحقيقة' إذا كان `func(x)` صحيحا `true`. إذا لم ينجح أي عنصر في الاختبار، انتج `undefined`.
+Create a function that looks through an array `arr` and returns the first element in it that passes a 'truth test'. This means that given an element `x`, the 'truth test' is passed if `func(x)` is `true`. If no element passes the test, return `undefined`.
 
 # --hints--
 

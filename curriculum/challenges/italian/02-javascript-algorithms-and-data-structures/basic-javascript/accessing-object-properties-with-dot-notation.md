@@ -9,7 +9,7 @@ dashedName: accessing-object-properties-with-dot-notation
 
 # --description--
 
-Esistono due modi per accedere alle proprietà di un oggetto: notazione a punti (`.`) e notazione a parentesi (`[]`), simile a un array.
+There are two ways to access the properties of an object: dot notation (`.`) and bracket notation (`[]`), similar to an array.
 
 La notazione a punti è quella che usi quando conosci già il nome della proprietà a cui stai tentando di accedere.
 

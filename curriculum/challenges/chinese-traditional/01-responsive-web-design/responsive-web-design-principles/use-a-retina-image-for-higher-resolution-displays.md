@@ -9,7 +9,7 @@ dashedName: use-a-retina-image-for-higher-resolution-displays
 
 # --description--
 
-隨着聯網設備的增加，設備間的區別不僅發生在尺寸和規格上，還發生在用於顯示的設備上。 像素密度就是區分不同顯示設備的一個指標，它一般會以 PPI（Pixel Per Inch，即每英寸像素）或 DPI（每英寸點數）爲計量單位。 最著名的顯示器就是 Apple MacBook Pro 筆記本電腦上的“視網膜顯示屏”（現亦用於 iMac）。 由於“視網膜顯示屏”和“非視網膜顯示屏”顯示器之間像素密度的不同，某些未考慮高分辨率顯示器的圖像在高分辨率顯示器上渲染時，可能因出現“像素化”而不夠清晰。
+With the increase of internet connected devices, their sizes and specifications vary, and the displays they use could be different externally and internally. Pixel density is an aspect that could be different on one device from others and this density is known as Pixel Per Inch(PPI) or Dots Per Inch(DPI). The most famous such display is the one known as a "Retina Display" on the latest Apple MacBook Pro notebooks, and recently iMac computers. Due to the difference in pixel density between a "Retina" and "Non-Retina" displays, some images that have not been made with a High-Resolution Display in mind could look "pixelated" when rendered on a High-Resolution display.
 
 讓圖像正確出現在高分辨率顯示器（例如 MacBook Pros “Revistina display”）上的最簡單方式， 是定義它們的 `width` 和 `height` 值爲原始值的一半。 下面是一個僅使用原始高度和寬度一半的圖像示例：
 

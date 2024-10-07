@@ -8,17 +8,17 @@ dashedName: registration-of-new-users
 
 # --description--
 
-現在你需要允許你網站上的新用戶註冊一個賬戶。 在主頁的 `res.render` 中，給傳遞的對象添加一個新的變量——`showRegistration: true`。 當你刷新頁面時，你應該看到已經在 `index.pug` 文件中創建的註冊表格。 這個表單被設置爲在 `/register` 上使用 **POST** 方法，因此根據下面的邏輯創建路由並將用戶對象添加到數據庫中。
+Now you need to allow a new user on your site to register an account. In the `res.render` for the home page add a new variable to the object passed along - `showRegistration: true`. When you refresh your page, you should then see the registration form that was already created in your `index.pug` file. This form is set up to **POST** on `/register`, so create that route and have it add the user object to the database by following the logic below.
 
 註冊路由的邏輯應如下：
 
-1. 註冊新用戶
-2. 驗證新用戶
-3. 重定向到 `/profile`
+1. Register the new user
+2. Authenticate the new user
+3. Redirect to `/profile`
 
 第 1 步的邏輯應如下：
 
-1. 使用 `findOne` 查詢數據庫
+1. Query database with `findOne`
 2. 如果出現錯誤，調用 `next` 並傳入錯誤對象。
 3. 如果用戶結果返回，則重定向至主頁
 4. 如果找不到用戶並且沒有發生錯誤，那麼使用 `insertOne` 在數據庫中插入用戶名和密碼。 只要沒有發生錯誤，就調用 `next` 進行第 2 步，認證新用戶，即你已經在 `POST /login` 路由中編寫的邏輯。

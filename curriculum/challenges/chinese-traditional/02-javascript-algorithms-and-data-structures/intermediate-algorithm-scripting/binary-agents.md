@@ -8,7 +8,7 @@ dashedName: binary-agents
 
 # --description--
 
-請實現一個函數，把傳入的二進制字符串轉換成英文句子。
+Return an English translated sentence of the passed binary string.
 
 二進制字符串會以空格分隔。
 
