@@ -1,6 +1,6 @@
 ---
 id: 5e6a54af58d3af90110a60a1
-title: '導言：硬件架構'
+title: 'Introduction: Hardware Architecture'
 challengeType: 11
 videoId: H6qtjRTfSog
 bilibiliIds:
@@ -18,15 +18,15 @@ Where are your programs stored when they are running?
 
 ## --answers--
 
-硬盤。
+Hard Drive.
 
 ---
 
-內存。
+Memory.
 
 ---
 
-中央處理器。
+Central Processing Unit.
 
 ## --video-solution--
 

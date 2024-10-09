@@ -1,6 +1,6 @@
 ---
 id: 587d7b8d367417b2b2512b5b
-title: Дізнайтесь про функційне програмування
+title: Learn About Functional Programming
 challengeType: 1
 forumTopicId: 301233
 dashedName: learn-about-functional-programming
@@ -8,31 +8,31 @@ dashedName: learn-about-functional-programming
 
 # --description--
 
-Функційне програмування — це стиль програмування, у якому рішення є простими ізольованими функціями без будь-яких побічних ефектів, які виходять за межі області дії функції: `INPUT -> PROCESS -> OUTPUT`
+Functional programming is a style of programming where solutions are simple, isolated functions, without any side effects outside of the function scope: `INPUT -> PROCESS -> OUTPUT`
 
-Функційне програмування передбачає:
+Functional programming is about:
 
-1) Ізольовані функції: немає залежності від стану програми, включно з глобальними змінними, які можуть бути змінені
+1) Isolated functions - there is no dependence on the state of the program, which includes global variables that are subject to change
 
-2) Чисті функції: однакові вхідні дані завжди надають однакові вихідні дані
+2) Pure functions - the same input always gives the same output
 
-3) Функції з обмеженими побічними ефектами: будь-які зміни чи мутації стану програми за межами функції ретельно контролюються
+3) Functions with limited side effects - any changes, or mutations, to the state of the program outside the function are carefully controlled
 
 # --instructions--
 
-Так сталось, що команда freeCodeCamp любить чай.
+The members of freeCodeCamp happen to love tea.
 
-Функції `prepareTea` та `getTea` вже визначені у редакторі коду. Викличте функцію `getTea`, щоб отримати 40 чашок чаю для команди, і збережіть їх у змінній `tea4TeamFCC`.
+In the code editor, the `prepareTea` and `getTea` functions are already defined for you. Call the `getTea` function to get 40 cups of tea for the team, and store them in the `tea4TeamFCC` variable.
 
 # --hints--
 
-Змінна `tea4TeamFCC` повинна містити 40 чашок чаю для команди.
+The `tea4TeamFCC` variable should hold 40 cups of tea for the team.
 
 ```js
 assert(tea4TeamFCC.length === 40);
 ```
 
-Змінна `tea4TeamFCC` повинна містити чашки зеленого чаю.
+The `tea4TeamFCC` variable should hold cups of green tea.
 
 ```js
 assert(tea4TeamFCC[0] === 'greenTea');

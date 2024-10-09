@@ -1,6 +1,6 @@
 ---
 id: 5e601bf95ac9d0ecd8b94afd
-title: Solucionador de Sudoku
+title: Sudoku Solver
 challengeType: 4
 forumTopicId: 462357
 dashedName: sudoku-solver
@@ -8,11 +8,11 @@ dashedName: sudoku-solver
 
 # --description--
 
-Crea una aplicación full stack de JavaScript que sea funcionalmente similar a esta: <a href="https://sudoku-solver.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://sudoku-solver.freecodecamp.rocks/</a>. Trabajar en este proyecto implicará escribir tu código utilizando uno de los siguientes métodos:
+Build a full stack JavaScript app that is functionally similar to this: <a href="https://sudoku-solver.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://sudoku-solver.freecodecamp.rocks/</a>. Working on this project will involve you writing your code using one of the following methods:
 
--   Clone este repositorio de <a href="https://github.com/freecodecamp/boilerplate-project-sudoku-solver" target="_blank" rel="noopener noreferrer nofollow"> GitHub</a> y complete estos desafíos localmente.
+-   Clone <a href="https://github.com/freecodecamp/boilerplate-project-sudoku-solver" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
 -   Use <a href="https://gitpod.io/?autostart=true#https://github.com/freecodecamp/boilerplate-project-sudoku-solver" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete your project.
--   Usa un constructor de sitios de tu elección para completar el proyecto. Asegúrate de incorporar todos los archivos de nuestro repositorio de GitHub.
+-   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
 
 # --instructions--
 
@@ -23,9 +23,9 @@ Crea una aplicación full stack de JavaScript que sea funcionalmente similar a e
 - All routing logic can go into `/routes/api.js`
 - See the `puzzle-strings.js` file in `/controllers` for some sample puzzles your application should solve
 - To run the challenge tests on this page, set `NODE_ENV` to `test` without quotes in the `.env` file
-- Para ejecutar las pruebas en la consola, use el comando `npm run test`.
+- To run the tests in the console, use the command `npm run test`.
 
-Escribe las siguientes pruebas en `tests/1_unit-tests.js`:
+Write the following tests in `tests/1_unit-tests.js`:
 
 -   Logic handles a valid puzzle string of 81 characters
 -   Logic handles a puzzle string with invalid characters (not 1-9 or `.`)
@@ -59,7 +59,7 @@ Write the following tests in `tests/2_functional-tests.js`
 
 # --hints--
 
-Debes proporcionar tu propio proyecto, no la URL ejemplo.
+You should provide your own project, not the example URL.
 
 ```js
 (getUserInput) => {

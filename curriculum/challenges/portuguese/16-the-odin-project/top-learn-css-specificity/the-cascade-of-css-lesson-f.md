@@ -34,7 +34,9 @@ Aqui, a regra 1 e a regra 2 têm a mesma especificidade. A regra 1 usa um seleto
 
 Este exemplo mostra a mesma coisa. Mesmo que a regra 2 esteja usando um combinador de filhos (`>`), ele não altera o valor de especificidade. As duas regras ainda têm duas classes. Por isso, elas têm os mesmos valores de especificidade.
 
-*Observação:* nem tudo adiciona especificidade. Ao comparar seletores, você pode encontrar símbolos especiais para o seletor universal (`*`), bem como os combinadores (`+`, `~`, `>` e o espaço vazio). Esses símbolos não adicionam nenhuma especificidade por eles mesmos.
+*Note:* Not everything adds to specificity
+
+When comparing selectors, you may come across special symbols for the universal selector (`*`) as well as combinators (`+`, `~`, `>`, and an empty space). Esses símbolos não adicionam nenhuma especificidade por eles mesmos.
 
 # --questions--
 

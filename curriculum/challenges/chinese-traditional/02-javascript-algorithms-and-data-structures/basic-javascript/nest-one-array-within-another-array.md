@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c11feddfaeb7bdef
-title: 將一個數組嵌套在另一個數組中
+title: Nest one Array within Another Array
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/crZQZf8'
 forumTopicId: 18247
@@ -9,21 +9,21 @@ dashedName: nest-one-array-within-another-array
 
 # --description--
 
-您也可以在其他數組中嵌套數組，如：
+You can also nest arrays within other arrays, like below:
 
 ```js
 const teams = [["Bulls", 23], ["White Sox", 45]];
 ```
 
-這也叫做多維數組（<dfn>multi-dimensional array</dfn>）。
+This is also called a <dfn>multi-dimensional array</dfn>.
 
 # --instructions--
 
-創建一個名爲 `myArray` 的嵌套數組。
+Create a nested array called `myArray`.
 
 # --hints--
 
-`myArray` 應該至少有一個數組嵌套在另一個數組中。
+`myArray` should have at least one array nested within another array.
 
 ```js
 assert(Array.isArray(myArray) && myArray.some(Array.isArray));

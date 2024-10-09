@@ -1,6 +1,6 @@
 ---
 id: 5e9a093a74c4063ca6f7c152
-title: Numpy 入門 A
+title: Numpy Introduction A
 challengeType: 11
 videoId: P-JjV6GBCmk
 bilibiliIds:
@@ -12,30 +12,30 @@ dashedName: numpy-introduction-a
 
 # --description--
 
-*動画で説明しているように、notebooks.ai を使用する代わりに Google Colab を使用することができます。*
+*Instead of using notebooks.ai like it shows in the video, you can use Google Colab instead.*
 
-その他のリソース:
+More resources:
 
--  <a href="https://github.com/ine-rmotr-curriculum/freecodecamp-intro-to-numpy" target="_blank" rel="noopener noreferrer nofollow">GitHub のノート</a>
--  <a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb" target="_blank" rel="noopener noreferrer nofollow">Google Colab を使用して GitHub からノートを開く方法</a>
+-  <a href="https://github.com/ine-rmotr-curriculum/freecodecamp-intro-to-numpy" target="_blank" rel="noopener noreferrer nofollow">Notebooks on GitHub</a>
+-  <a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb" target="_blank" rel="noopener noreferrer nofollow">How to open Notebooks from GitHub using Google Colab.</a>
 
 # --questions--
 
 ## --text--
 
-なぜ Numpy は重要でありながら人気のない Python ライブラリなのでしょうか？
+Why is Numpy an important, but unpopular Python library?
 
 ## --answers--
 
-Numpy で直接作業する機会があまりないから。
+Often you won't work directly with Numpy.
 
 ---
 
-非常に遅いから。
+It is extremely slow.
 
 ---
 
-Numpy で作業することは難しいから。
+Working with Numpy is difficult.
 
 ## --video-solution--
 

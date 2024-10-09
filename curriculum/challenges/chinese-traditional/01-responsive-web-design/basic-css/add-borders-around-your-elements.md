@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9bedf08813
-title: 在元素周圍添加邊框
+title: Add Borders Around Your Elements
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/c2MvnHZ'
 forumTopicId: 16630
@@ -9,9 +9,9 @@ dashedName: add-borders-around-your-elements
 
 # --description--
 
-CSS 邊框具有 `style`、`color`、`width` 屬性。
+CSS borders have properties like `style`, `color` and `width`.
 
-假如我們要將一個 HTML 元素邊框設置爲 5px 的紅色實線邊框，我們可以這樣做：
+For example, if we wanted to create a red, 5 pixel border around an HTML element, we could use this class:
 
 ```html
 <style>
@@ -25,9 +25,9 @@ CSS 邊框具有 `style`、`color`、`width` 屬性。
 
 # --instructions--
 
-創建一個名爲 `thick-green-border` 的 class， 該 class 應在 HTML 元素周圍添加一個 10px 的綠色實線邊框。 將這個 class 應用於你的貓圖。
+Create a class called `thick-green-border`. This class should add a 10px, solid, green border around an HTML element. Apply the class to your cat photo.
 
-記得在一個元素上可以同時應用多個 `class`，使用空格來分隔不同 class 即可， 例如：
+Remember that you can apply multiple classes to an element using its `class` attribute, by separating each class name with a space. For example:
 
 ```html
 <img class="class1 class2">
@@ -35,19 +35,19 @@ CSS 邊框具有 `style`、`color`、`width` 屬性。
 
 # --hints--
 
-`img` 元素的 class 應包含 `smaller-image`。
+Your `img` element should have the class `smaller-image`.
 
 ```js
 assert($('img').hasClass('smaller-image'));
 ```
 
-`img` 元素應包含 `thick-green-border` class。
+Your `img` element should have the class `thick-green-border`.
 
 ```js
 assert($('img').hasClass('thick-green-border'));
 ```
 
-圖片邊框寬度應設置爲 `10px`。
+Your image should have a border width of `10px`.
 
 ```js
 assert(
@@ -57,13 +57,13 @@ assert(
 );
 ```
 
-圖片邊框樣式應爲 `solid` 實線。
+Your image should have a border style of `solid`.
 
 ```js
 assert($('img').css('border-right-style') === 'solid');
 ```
 
-`img` 元素的邊框顏色應爲綠色。
+The border around your `img` element should be green.
 
 ```js
 assert($('img').css('border-left-color') === 'rgb(0, 128, 0)');

@@ -1,6 +1,6 @@
 ---
 id: 5a23c84252665b21eecc7e76
-title: Гамма-функція
+title: Gamma function
 challengeType: 1
 forumTopicId: 302271
 dashedName: gamma-function
@@ -8,51 +8,51 @@ dashedName: gamma-function
 
 # --description--
 
-Реалізуйте один алгоритм (або більше) для обчислення гамма-функції (лише в полі дійсних чисел).
+Implement one algorithm (or more) to compute the Gamma function (in the real field only).
 
-Гамма-функція може бути визначена як:
+The Gamma function can be defined as:
 
 <div style='padding-left: 4em;'><big><big>$\Gamma(x) = \displaystyle\int_0^\infty t^{x-1}e^{-t} dt$</big></big></div>
 
 # --hints--
 
-`gamma` має бути функцією.
+`gamma` should be a function.
 
 ```js
 assert(typeof gamma == 'function');
 ```
 
-`gamma(.1)` має повернути число.
+`gamma(.1)` should return a number.
 
 ```js
 assert(typeof gamma(0.1) == 'number');
 ```
 
-`gamma(.1)` має повернути `9.513507698668736`.
+`gamma(.1)` should return `9.513507698668736`.
 
 ```js
 assert.equal(round(gamma(0.1)), round(9.513507698668736));
 ```
 
-`gamma(.2)` має повернути `4.590843711998803`.
+`gamma(.2)` should return `4.590843711998803`.
 
 ```js
 assert.equal(round(gamma(0.2)), round(4.590843711998803));
 ```
 
-`gamma(.3)` має повернути `2.9915689876875904`.
+`gamma(.3)` should return `2.9915689876875904`.
 
 ```js
 assert.equal(round(gamma(0.3)), round(2.9915689876875904));
 ```
 
-`gamma(.4)` має повернути `2.218159543757687`.
+`gamma(.4)` should return `2.218159543757687`.
 
 ```js
 assert.equal(round(gamma(0.4)), round(2.218159543757687));
 ```
 
-`gamma(.5)` має повернути `1.7724538509055159`.
+`gamma(.5)` should return `1.7724538509055159`.
 
 ```js
 assert.equal(round(gamma(0.5)), round(1.7724538509055159));

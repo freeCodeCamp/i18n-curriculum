@@ -1,6 +1,6 @@
 ---
 id: 587d778b367417b2b2512aa8
-title: 添加可訪問的日期選擇器
+title: Add an Accessible Date Picker
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cR3bRbCV'
 forumTopicId: 301008
@@ -9,13 +9,13 @@ dashedName: add-an-accessible-date-picker
 
 # --description--
 
-表單中經常出現 `input` 標籤，它可以用來創建多種表單控件。 它的 `type` 屬性指定了所要創建的 `input` 標籤類型。
+Forms often include the `input` field, which can be used to create several different form controls. The `type` attribute on this element indicates what kind of `input` element will be created.
 
-在以前的挑戰中，我們已經見過 `text` 與 `submit` 類型的 input 標籤。 HTML5 規範添加了 `date` 類型來創建日期選擇器。 如果瀏覽器支持，在點擊 `input` 標籤時，日期選擇器會顯示出來，這讓用戶填寫表單變得更加容易。
+You may have noticed the `text` and `submit` input types in prior challenges, and HTML5 introduced an option to specify a `date` field. Depending on browser support, a date picker shows up in the `input` field when it's in focus, which makes filling in a form easier for all users.
 
-對於較老的瀏覽器，類型將默認爲 `text`， 這樣它可以通過 `label` 或 `placeholder` 文本向用戶顯示預期的日期格式。
+For older browsers, the type will default to `text`, so it helps to show users the expected date format in the `label` or `placeholder` text just in case.
 
-舉個例子：
+Here's an example:
 
 ```html
 <label for="input1">Enter a date:</label>
@@ -24,29 +24,29 @@ dashedName: add-an-accessible-date-picker
 
 # --instructions--
 
-Camper Cat 想舉辦一場比武大會，他想收集參賽者的最佳參賽時間。 請爲 Camper Cat 的頁面添加一個`input` 標籤，起 `type` 屬性值爲 `date`，`id` 屬性爲 `pickdate`，`name` 屬性爲 `date`。
+Camper Cat is setting up a Mortal Kombat tournament and wants to ask his competitors to see what date works best. Add an `input` tag with a `type` attribute of `date`, an `id` attribute of `pickdate`, and a `name` attribute of `date`.
 
 # --hints--
 
-日期選擇器應有一個 `input` 標籤。
+Your code should add one `input` tag for the date selector field.
 
 ```js
 assert.lengthOf(document.querySelectorAll('input'), 2);
 ```
 
-`input` 標籤應有一個值爲 `date` 的 `type` 屬性。
+Your `input` tag should have a `type` attribute with a value of `date`.
 
 ```js
 assert.equal(document.querySelector('input')?.getAttribute('type'), 'date');
 ```
 
-`input` 標籤應有一個值爲 `pickdate` 的 `id` 屬性。
+Your `input` tag should have an `id` attribute with a value of `pickdate`.
 
 ```js
 assert.equal(document.querySelector('input')?.getAttribute('id'),'pickdate');
 ```
 
-`input` 標籤應有一個值爲 `date` 的 `name` 屬性。
+Your `input` tag should have a `name` attribute with a value of `date`.
 
 ```js
 assert.equal(document.querySelector('input')?.getAttribute('name'), 'date');

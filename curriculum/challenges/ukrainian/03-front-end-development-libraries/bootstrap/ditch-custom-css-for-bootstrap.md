@@ -1,6 +1,6 @@
 ---
 id: bad87fee1347bd9aedf08845
-title: Замініть власний CSS для Bootstrap
+title: Ditch Custom CSS for Bootstrap
 challengeType: 0
 forumTopicId: 17565
 dashedName: ditch-custom-css-for-bootstrap
@@ -8,31 +8,31 @@ dashedName: ditch-custom-css-for-bootstrap
 
 # --description--
 
-Ми можемо почистити код та надати нашому застосунку стандартнішого вигляду, використавши вбудовані стилі Bootstrap замість стилів, створених нами раніше.
+We can clean up our code and make our Cat Photo App look more conventional by using Bootstrap's built-in styles instead of the custom styles we created earlier.
 
-Не хвилюйтесь, у вас ще буде час стилізувати CSS.
+Don't worry - there will be plenty of time to customize our CSS later.
 
-Видаліть CSS оголошення `.red-text`, `p` та `.smaller-image` з елементу `style`, щоб залишились лише оголошення `h2` та `thick-green-border`.
+Delete the `.red-text`, `p`, and `.smaller-image` CSS declarations from your `style` element so that the only declarations left in your `style` element are `h2` and `thick-green-border`.
 
-Потім видаліть елемент `p`, який містить неактивне посилання. Після цього видаліть клас `red-text` з елементу `h2` і замініть його на клас `text-primary`.
+Then delete the `p` element that contains a dead link. Then remove the `red-text` class from your `h2` element and replace it with the `text-primary` Bootstrap class.
 
-Вкінці видаліть клас `smaller-image` з першого елементу `img` і замініть його на клас `img-responsive`.
+Finally, remove the `smaller-image` class from your first `img` element and replace it with the `img-responsive` class.
 
 # --hints--
 
-Елемент `h2` більше не повинен мати клас `red-text`.
+Your `h2` element should no longer have the class `red-text`.
 
 ```js
 assert.isFalse(document.querySelector('h2')?.classList?.contains('red-text'));
 ```
 
-Елемент `h2` тепер повинен мати клас `text-primary`.
+Your `h2` element should now have the class `text-primary`.
 
 ```js
 assert.isTrue(document.querySelector('h2')?.classList?.contains('text-primary'));
 ```
 
-Елементи абзацу більше не повинні використовувати шрифт `Monospace`.
+Your paragraph elements should no longer use the font `Monospace`.
 
 ```js
 const paragraphElement = document.querySelector('p');
@@ -40,13 +40,13 @@ const paragraphFontFamily = window.getComputedStyle(paragraphElement)["font-fami
 assert.notMatch(paragraphFontFamily,/monospace/i);
 ```
 
-Видаліть клас `smaller-image` з верхнього зображення.
+The `smaller-image` class should be removed from your top image.
 
 ```js
 assert.isFalse(document.querySelector('img')?.classList?.contains('smaller-image'));
 ```
 
-Додайте клас `img-responsive` до верхнього зображення.
+You should add the `img-responsive` class to your top image.
 
 ```js
 assert.lengthOf(document.querySelectorAll('.img-responsive'),2);

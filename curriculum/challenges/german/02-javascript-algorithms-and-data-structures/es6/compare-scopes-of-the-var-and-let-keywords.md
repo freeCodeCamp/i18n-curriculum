@@ -1,6 +1,6 @@
 ---
 id: 587d7b87367417b2b2512b40
-title: Vergleich der Geltungsbereiche der Schlüsselwörter var und let
+title: Compare Scopes of the var and let Keywords
 challengeType: 1
 forumTopicId: 301195
 dashedName: compare-scopes-of-the-var-and-let-keywords
@@ -8,13 +8,13 @@ dashedName: compare-scopes-of-the-var-and-let-keywords
 
 # --description--
 
-Wenn du mit `let` nicht vertraut bist, schau dir <a href="/learn/javascript-algorithms-and-data-structures/basic-javascript/explore-differences-between-the-var-and-let-keywords" target="_blank" rel="noopener noreferrer nofollow">diese Aufgabe über den Unterschied von <code>let</code> und <code>var</code> an</a>.
+If you are unfamiliar with `let`, check out <a href="/learn/javascript-algorithms-and-data-structures/basic-javascript/explore-differences-between-the-var-and-let-keywords" target="_blank" rel="noopener noreferrer nofollow">this challenge about the difference between <code>let</code> and <code>var</code></a>.
 
-Wenn du eine Variable mit dem Schlüsselwort `var` deklarierst, wird sie global deklariert oder lokal, wenn sie innerhalb einer Funktion deklariert wird.
+When you declare a variable with the `var` keyword, it is declared globally, or locally if declared inside a function.
 
-Das Schlüsselwort `let` verhält sich ähnlich, aber mit einigen zusätzlichen Funktionen. Wenn du eine Variable mit dem Schlüsselwort `let` innerhalb eines Blocks, einer Anweisung oder eines Ausdrucks deklarierst, ist ihr Geltungsbereich auf diesen Block, diese Anwendung oder diesen Ausdruck beschränkt.
+The `let` keyword behaves similarly, but with some extra features. When you declare a variable with the `let` keyword inside a block, statement, or expression, its scope is limited to that block, statement, or expression.
 
-Zum Beispiel:
+For example:
 
 ```js
 var numArray = [];
@@ -25,9 +25,9 @@ console.log(numArray);
 console.log(i);
 ```
 
-Hier wird die Konsole die Werte `[0, 1, 2]` und `3` anzeigen.
+Here the console will display the values `[0, 1, 2]` and `3`.
 
-Durch das Schlüsselwort `var` ist `i` global deklariert. Wenn also `i++` ausgeführt wird, aktualisiert das die globale Variable. Dieser Code ist ähnlich wie der Nachfolgende:
+With the `var` keyword, `i` is declared globally. So when `i++` is executed, it updates the global variable. This code is similar to the following:
 
 ```js
 var numArray = [];
@@ -39,9 +39,9 @@ console.log(numArray);
 console.log(i);
 ```
 
-Hier wird die Konsole die Werte `[0, 1, 2]` und `3` anzeigen.
+Here the console will display the values `[0, 1, 2]` and `3`.
 
-Dieses Verhalten wird Probleme verursachen, wenn du eine Funktion erstellst und sie zur späteren Verwendung innerhalb einer `for`-Schleife speicherst, die die Variable `i` verwendet. Das liegt daran, dass sich die gespeicherte Funktion immer auf den Wert der aktualisierten globalen Variable `i` bezieht.
+This behavior will cause problems if you were to create a function and store it for later use inside a `for` loop that uses the `i` variable. This is because the stored function will always refer to the value of the updated global `i` variable.
 
 ```js
 var printNumTwo;
@@ -55,9 +55,9 @@ for (var i = 0; i < 3; i++) {
 console.log(printNumTwo());
 ```
 
-Hier wird in der Konsole der Wert `3` angezeigt.
+Here the console will display the value `3`.
 
-Wie du sehen kannst, gibt `printNumTwo()` 3 und nicht 2 aus. Das liegt daran, dass der Wert `i` zugewiesen wurde, aktualisiert wurde und `printNumTwo()` das globale `i` zurückgibt und nicht den Wert, den `i` hatte, als die Funktion in der for-Schleife erstellt wurde. Das Schlüsselwort `let` verhält sich nicht so:
+As you can see, `printNumTwo()` prints 3 and not 2. This is because the value assigned to `i` was updated and the `printNumTwo()` returns the global `i` and not the value `i` had when the function was created in the for loop. The `let` keyword does not follow this behavior:
 
 ```js
 let printNumTwo;
@@ -72,31 +72,31 @@ console.log(printNumTwo());
 console.log(i);
 ```
 
-Hier zeigt die Konsole den Wert `2` an und die Fehlermeldung `i is not defined`.
+Here the console will display the value `2`, and an error that `i is not defined`.
 
-`i` ist nicht definiert, weil es nicht im globalen Geltungsbereich deklariert wurde. Sie wird nur innerhalb der `for`-Schleifenanweisung deklariert. `printNumTwo()` gab den richtigen Wert zurück, weil drei verschiedene `i`-Variablen mit eindeutigen Werten (0, 1 und 2) durch das Schlüsselwort `let` innerhalb der Schleifenanweisung erstellt wurden.
+`i` is not defined because it was not declared in the global scope. It is only declared within the `for` loop statement. `printNumTwo()` returned the correct value because three different `i` variables with unique values (0, 1, and 2) were created by the `let` keyword within the loop statement.
 
 # --instructions--
 
-Ändere den Code so, dass `i`, das in der `if`-Anweisung deklariert wird, eine andere Variable ist als `i`, das in der ersten Zeile der Funktion deklariert wird. Achte darauf, dass du das Schlüsselwort `var` nirgendwo in deinem Code verwendest.
+Fix the code so that `i` declared in the `if` statement is a separate variable than `i` declared in the first line of the function. Be certain not to use the `var` keyword anywhere in your code.
 
-Diese Übung soll den Unterschied zwischen den Schlüsselwörtern `var` und `let` verdeutlichen, die der deklarierten Variable den Geltungsbereich zuweisen. Wenn du eine Funktion programmierst, die der in dieser Übung verwendeten ähnelt, ist es oft besser, verschiedene Variablennamen zu verwenden, um Verwechslungen zu vermeiden.
+This exercise is designed to illustrate the difference between how `var` and `let` keywords assign scope to the declared variable. When programming a function similar to the one used in this exercise, it is often better to use different variable names to avoid confusion.
 
 # --hints--
 
-`var` sollte nicht im Code vorhanden sein.
+`var` should not exist in code.
 
 ```js
 assert(!__helpers.removeJSComments(code).match(/var/g));
 ```
 
-Die Variable `i`, die in der `if`-Anweisung deklariert wird, sollte gleich dem String `block scope` sein.
+The variable `i` declared in the `if` statement should equal the string `block scope`.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/(i\s*=\s*).*\s*.*\s*.*\1('|")block\s*scope\2/g));
 ```
 
-`checkScope()` sollte den String `function scope` zurückgeben.
+`checkScope()` should return the string `function scope`
 
 ```js
 assert(checkScope() === 'function scope');

@@ -1,6 +1,6 @@
 ---
 id: 5895f70df9fc0f352b528e68
-title: 認証ストラテジー
+title: Authentication Strategies
 challengeType: 2
 forumTopicId: 301547
 dashedName: authentication-strategies
@@ -8,7 +8,7 @@ dashedName: authentication-strategies
 
 # --description--
 
-ストラテジーとは、ユーザーを認証する方法です。 ローカルに保存された情報に基づいてユーザーを認証できるようにするためのストラテジーを使用したり (初めてユーザーに登録してもらう場合)、Google や GitHub などのさまざまなプロバイダーからユーザーを認証できるようにするためのストラテジーを使用したりできます。 このプロジェクトでは、Passport というミドルウェアを使用します。 Passport はユーザー名とパスワード、GitHub、Google などを使用する認証をサポートしている包括的なストラテジーのセットを提供します。
+A strategy is a way of authenticating a user. You can use a strategy for allowing users to authenticate based on locally saved information (if you have them register first) or from a variety of providers such as Google or GitHub. For this project, we will use Passport middleware. Passport provides a comprehensive set of strategies that support authentication using a username and password, GitHub, Google, and more.
 
 `passport-local@~1.0.0` has already been added as a dependency. Add it to your server as follows:
 
@@ -36,11 +36,11 @@ Many strategies are set up using different settings. Generally, it is easy to se
 
 In the next step, you will set up how to actually call the authentication strategy to validate a user based on form data.
 
-正しいと思ったら、ページを送信してください。 エラーが発生している場合、<a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#authentication-strategies-6" target="_blank" rel="noopener noreferrer nofollow">この時点までの完成形のコードをこちらで確認できます</a>。
+Submit your page when you think you've got it right. If you're running into errors, you can <a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#authentication-strategies-6" target="_blank" rel="noopener noreferrer nofollow">check out the project completed up to this point</a>.
 
 # --hints--
 
-Passport-local を依存関係にする必要があります。
+Passport-local should be a dependency.
 
 ```js
 async (getUserInput) => {

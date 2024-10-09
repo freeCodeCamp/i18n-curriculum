@@ -1,6 +1,6 @@
 ---
 id: 587d78a3367417b2b2512ad0
-title: Вирівнювання елемента горизонтально по центру з використанням властивості margin
+title: Center an Element Horizontally Using the margin Property
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cyLJqU4'
 forumTopicId: 301043
@@ -9,17 +9,17 @@ dashedName: center-an-element-horizontally-using-the-margin-property
 
 # --description--
 
-Ще однією технікою вирівнювання є розташувати блок-елемент горизонтально по центру. Одним зі способів це зробити є встановити властивість `margin` для значення "auto".
+Another positioning technique is to center a block element horizontally. One way to do this is to set its `margin` to a value of auto.
 
-Цей метод працює і для зображень. Зображення є вбудованими (inline) елементами за замовчуванням, але їх можна зробити елементами-блоками, якщо надати властивості `display` значення `block`.
+This method works for images, too. Images are inline elements by default, but can be changed to block elements when you set the `display` property to `block`.
 
 # --instructions--
 
-Відцентруйте `div` на сторінці, додавши `margin` властивість із значенням `auto`.
+Center the `div` on the page by adding a `margin` property with a value of `auto`.
 
 # --hints--
 
-Властивість `margin` для `div` потрібно встановити на `auto`.
+The `div` should have a `margin` set to `auto`.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('div')?.margin ,'auto');

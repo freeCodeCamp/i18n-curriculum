@@ -1,6 +1,6 @@
 ---
 id: 587d7dab367417b2b2512b70
-title: 函數柯里化和局部調用
+title: Introduction to Currying and Partial Application
 challengeType: 1
 forumTopicId: 301232
 dashedName: introduction-to-currying-and-partial-application
@@ -8,11 +8,11 @@ dashedName: introduction-to-currying-and-partial-application
 
 # --description--
 
-<dfn>arity</dfn>（參數個數）是函數所需的形參的數量。 函數柯里化（<dfn>Currying</dfn>）意思是把接受多個 arity 的函數變換成接受單一 arity 的函數。
+The <dfn>arity</dfn> of a function is the number of arguments it requires. <dfn>Currying</dfn> a function means to convert a function of N arity into N functions of arity 1.
 
-換句話說，就是重構函數讓它接收一個參數，然後返回接收下一個參數的函數，依此類推。
+In other words, it restructures a function so it takes one argument, then returns another function that takes the next argument, and so on.
 
-舉個例子：
+Here's an example:
 
 ```js
 function unCurried(x, y) {
@@ -30,16 +30,16 @@ const curried = x => y => x + y
 curried(1)(2)
 ```
 
-`curried(1)(2)` 會返回 `3`。
+`curried(1)(2)` would return `3`.
 
-柯里化在不能一次爲函數提供所有參數情況下很有用。 因爲它可以將每個函數的調用保存到一個變量中，該變量將保存返回的函數引用，該引用在下一個參數可用時接受該參數。 下面是使用柯里化函數的例子：
+This is useful in your program if you can't supply all the arguments to a function at one time. You can save each function call into a variable, which will hold the returned function reference that takes the next argument when it's available. Here's an example using the curried function in the example above:
 
 ```js
 const funcForY = curried(1);
 console.log(funcForY(2)); // 3
 ```
 
-類似地，局部調用（ <dfn>partial application</dfn>）的意思是一次對一個函數應用幾個參數，然後返回另一個應用更多參數的函數。 這是一個示例：
+Similarly, <dfn>partial application</dfn> can be described as applying a few arguments to a function at a time and returning another function that is applied to more arguments. Here's an example:
 
 ```js
 function impartial(x, y, z) {
@@ -52,29 +52,29 @@ partialFn(10); // 13
 
 # --instructions--
 
-填寫 `add` 函數主體部分，用柯里化添加參數 `x`，`y` 和 `z`.
+Fill in the body of the `add` function so it uses currying to add parameters `x`, `y`, and `z`.
 
 # --hints--
 
-`add(10)(20)(30)` 應返回 `60`。
+`add(10)(20)(30)` should return `60`.
 
 ```js
 assert(add(10)(20)(30) === 60);
 ```
 
-`add(1)(2)(3)` 應返回 `6`。
+`add(1)(2)(3)` should return `6`.
 
 ```js
 assert(add(1)(2)(3) === 6);
 ```
 
-`add(11)(22)(33)` 應返回 `66`。
+`add(11)(22)(33)` should return `66`.
 
 ```js
 assert(add(11)(22)(33) === 66);
 ```
 
-應返回 `x + y + z` 的最終結果。
+Your code should include a final statement that returns `x + y + z`.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/[xyz]\s*?\+\s*?[xyz]\s*?\+\s*?[xyz]/g));

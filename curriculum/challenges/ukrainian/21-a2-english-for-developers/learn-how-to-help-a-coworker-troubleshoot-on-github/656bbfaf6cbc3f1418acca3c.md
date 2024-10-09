@@ -9,7 +9,7 @@ dashedName: task-6
 
 # --description--
 
-Послухайте аудіо та доповніть речення.
+Listen to the audio and complete the sentence.
 
 # --fillInTheBlank--
 

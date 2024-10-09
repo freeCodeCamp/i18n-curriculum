@@ -16,19 +16,19 @@ Tom: Oh, awesome. My computer and drawing tablet are great, too.
 
 # --fillInTheBlank--
 
-## Frases
+## --sentence--
 
 `BLANK. My computer and drawing tablet are great, too.`
 
-## Palabra correcta
+## --blanks--
 
 `Awesome`
 
-### devolución
+### --feedback--
 
 Listen for a word that means `very good` or `I really like it.`
 
-# --escena---
+# --scene--
 
 ```json
 {

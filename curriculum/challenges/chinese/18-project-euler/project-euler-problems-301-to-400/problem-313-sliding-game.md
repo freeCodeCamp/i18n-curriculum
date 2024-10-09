@@ -1,6 +1,6 @@
 ---
 id: 5900f4a61000cf542c50ffb8
-title: '问题313：滑行游戏'
+title: 'Problem 313: Sliding game'
 challengeType: 1
 forumTopicId: 301969
 dashedName: problem-313-sliding-game

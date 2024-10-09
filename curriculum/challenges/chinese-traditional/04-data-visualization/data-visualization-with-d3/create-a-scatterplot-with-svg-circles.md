@@ -1,6 +1,6 @@
 ---
 id: 587d7fab367417b2b2512bd7
-title: 使用 SVG Circles 創建散點圖
+title: Create a Scatterplot with SVG Circles
 challengeType: 6
 forumTopicId: 301484
 dashedName: create-a-scatterplot-with-svg-circles
@@ -8,19 +8,19 @@ dashedName: create-a-scatterplot-with-svg-circles
 
 # --description--
 
-散點圖是另一種形式的可視化。 它用圓圈來映射數據點，每個數據點有兩個值。 這兩個值和 `x` 和 `y` 軸相關聯，在可視化中用來給圓圈定位。
+A scatter plot is another type of visualization. It usually uses circles to map data points, which have two values each. These values tie to the `x` and `y` axes, and are used to position the circle in the visualization.
 
-SVG 用 `circle` 標籤來創建圓形。 它和之前用來構建條形圖的 `rect` 非常相像。
+SVG has a `circle` tag to create the circle shape. It works a lot like the `rect` elements you used for the bar chart.
 
 # --instructions--
 
-使用 `data()`、`enter()`、`append()` 方法將 `dataset` 和添加到 SVG 的新 `circle` 元素綁定起來。
+Use the `data()`, `enter()`, and `append()` methods to bind `dataset` to new `circle` elements that are appended to the SVG.
 
-**注意：** 圓形並不可見，因爲我們還沒有設置它們的屬性。 我們會在下一個挑戰中設置屬性。
+**Note:** The circles won't be visible because we haven't set their attributes yet. We'll do that in the next challenge.
 
 # --hints--
 
-應該有 10 個 `circle` 元素。
+Your code should have 10 `circle` elements.
 
 ```js
 assert($('circle').length == 10);

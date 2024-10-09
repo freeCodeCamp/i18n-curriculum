@@ -1,6 +1,6 @@
 ---
 id: 5a9d7286424fe3d0e10cad13
-title: 給 CSS 變量設置備用值
+title: Attach a Fallback value to a CSS Variable
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/c6bDNfp'
 forumTopicId: 301084
@@ -9,25 +9,25 @@ dashedName: attach-a-fallback-value-to-a-css-variable
 
 # --description--
 
-使用變量來作爲 CSS 屬性值的時候，可以設置一個備用值來防止由於某些原因導致變量不生效的情況。
+When using your variable as a CSS property value, you can attach a fallback value that your browser will revert to if the given variable is invalid.
 
-**注意：** 備用值不是用於增強瀏覽器的兼容性，它也不適用於 IE 瀏覽器。 相反，它是用來讓瀏覽器在找不到你的變量時可以顯示一種顏色。
+**Note:** This fallback is not used to increase browser compatibility, and it will not work on IE browsers. Rather, it is used so that the browser has a color to display if it cannot find your variable.
 
-下面是操作方式：
+Here's how you do it:
 
 ```css
 background: var(--penguin-skin, black);
 ```
 
-如果你的變量沒有設置，這將會把背景設置爲 `black`。 提示：這對調試代碼也會很有幫助。
+This will set background to `black` if your variable wasn't set. Note that this can be useful for debugging.
 
 # --instructions--
 
-`.penguin-top` 和 `.penguin-bottom` 類的變量看起來似乎有點問題。 請爲 class 爲 `penguin-top` 和 `penguin-bottom` 的元素的 `background` 屬性設置一個 `black` 的備用色。
+It looks like there is a problem with the variables supplied to the `.penguin-top` and `.penguin-bottom` classes. Rather than fix the typo, add a fallback value of `black` to the `background` property of the `.penguin-top` and `.penguin-bottom` classes.
 
 # --hints--
 
-class 爲 `penguin-top` 的元素的 `background` 屬性值應有 `black` 作爲備用顏色。
+The fallback value of `black` should be used in the `background` property of the `penguin-top` class.
 
 ```js
 assert(
@@ -37,7 +37,7 @@ assert(
 );
 ```
 
-class 爲 `penguin-bottom` 的元素的 `background` 屬性值應有 `black` 作爲備用顏色。
+The fallback value of `black` should be used in `background` property of the `penguin-bottom` class.
 
 ```js
 assert(

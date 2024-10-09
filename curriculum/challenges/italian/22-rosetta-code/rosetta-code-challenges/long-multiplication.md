@@ -1,6 +1,6 @@
 ---
 id: 5e4ce2a1ac708cc68c1df25d
-title: Moltiplicazione lunga
+title: Long multiplication
 challengeType: 1
 forumTopicId: 385269
 dashedName: long-multiplication
@@ -10,29 +10,29 @@ dashedName: long-multiplication
 
 Explicitly implement long multiplication.
 
-Questo è un possibile approccio all'algebra intera a precisione arbitraria.
+This is one possible approach to arbitrary-precision integer algebra.
 
 # --instructions--
 
-Scrivi una funzione che richiede due stringhe di grandi numeri come parametri. La tua funzione dovrebbe restituire il prodotto di questi due grandi numeri come stringa.
+Write a function that takes two strings of large numbers as parameters. Your function should return the product of these two large numbers as a string.
 
-**Nota:** In JavaScript, le operazioni aritmetiche sono inaccurate con grandi numeri, quindi dovrai implementare una moltiplicazione precisa da solo.
+**Note:** In JavaScript, arithmetic operations are inaccurate with large numbers, so you will have to implement precise multiplication yourself.
 
 # --hints--
 
-`mult` dovrebbe essere una funzione.
+`mult` should be a function.
 
 ```js
 assert(typeof mult == 'function');
 ```
 
-`mult("18446744073709551616", "18446744073709551616")` dovrebbe restituire una stringa.
+`mult("18446744073709551616", "18446744073709551616")` should return a string.
 
 ```js
 assert(typeof mult('18446744073709551616', '18446744073709551616') == 'string');
 ```
 
-`mult("18446744073709551616", "18446744073709551616")` dovrebbe restituire `"340282366920938463463374607431768211456"`.
+`mult("18446744073709551616", "18446744073709551616")` should return `"340282366920938463463374607431768211456"`.
 
 ```js
 assert.equal(
@@ -41,7 +41,7 @@ assert.equal(
 );
 ```
 
-`mult("31844674073709551616", "1844674407309551616")` dovrebbe restituire `"58743055272886011737990786529368211456"`.
+`mult("31844674073709551616", "1844674407309551616")` should return `"58743055272886011737990786529368211456"`.
 
 ```js
 assert.equal(
@@ -50,7 +50,7 @@ assert.equal(
 );
 ```
 
-`mult("1846744073709551616", "44844644073709551616")` dovrebbe restituire `"82816580680737279241781007431768211456"`.
+`mult("1846744073709551616", "44844644073709551616")` should return `"82816580680737279241781007431768211456"`.
 
 ```js
 assert.equal(
@@ -59,7 +59,7 @@ assert.equal(
 );
 ```
 
-`mult("1844674407370951616", "1844674407709551616")` dovrebbe restituire `"3402823669833978308014392742590611456"`.
+`mult("1844674407370951616", "1844674407709551616")` should return `"3402823669833978308014392742590611456"`.
 
 ```js
 assert.equal(
@@ -68,7 +68,7 @@ assert.equal(
 );
 ```
 
-`mult("2844674407370951616", "1844674407370955616")` dovrebbe restituire `"5247498076580334548376218009219475456"`.
+`mult("2844674407370951616", "1844674407370955616")` should return `"5247498076580334548376218009219475456"`.
 
 ```js
 assert.equal(

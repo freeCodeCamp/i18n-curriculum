@@ -1,6 +1,6 @@
 ---
 id: 5e601bf95ac9d0ecd8b94afd
-title: Sudoku-Löser
+title: Sudoku Solver
 challengeType: 4
 forumTopicId: 462357
 dashedName: sudoku-solver
@@ -12,7 +12,7 @@ Build a full stack JavaScript app that is functionally similar to this: <a href=
 
 -   Clone <a href="https://github.com/freecodecamp/boilerplate-project-sudoku-solver" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
 -   Use <a href="https://gitpod.io/?autostart=true#https://github.com/freecodecamp/boilerplate-project-sudoku-solver" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete your project.
--   Verwende einen Site-Builder deiner Wahl, um das Projekt abzuschließen. Achte darauf, alle Dateien von unserem GitHub-Repo zu integrieren.
+-   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
 
 # --instructions--
 
@@ -68,7 +68,7 @@ You should provide your own project, not the example URL.
 };
 ```
 
-You can `POST` `/api/solve` with form data containing `puzzle` which will be a string containing a combination of numbers (1-9) and periods `.` to represent empty spaces. Das zurückgegebene Objekt enthält eine `solution`-Eigenschaft mit dem gelösten Rätsel.
+You can `POST` `/api/solve` with form data containing `puzzle` which will be a string containing a combination of numbers (1-9) and periods `.` to represent empty spaces. The returned object will contain a `solution` property with the solved puzzle.
 
 ```js
 async (getUserInput) => {

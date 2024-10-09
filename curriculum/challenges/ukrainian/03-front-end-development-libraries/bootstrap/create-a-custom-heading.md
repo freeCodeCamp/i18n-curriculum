@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aede08845
-title: Створіть власний заголовок
+title: Create a Custom Heading
 challengeType: 0
 forumTopicId: 16816
 dashedName: create-a-custom-heading
@@ -8,17 +8,17 @@ dashedName: create-a-custom-heading
 
 # --description--
 
-Почнемо зі створення простого заголовка для застосунку з фотографіями котів, розмістивши заголовок та зображення кота в одному ряді.
+We will make a simple heading for our Cat Photo App by putting the title and relaxing cat image in the same row.
 
-Пам’ятайте, що Bootstrap використовує систему адаптивної сітки, яка полегшує розміщення елементів у рядах та визначення відносної ширини кожного елемента. Більшість класів Bootstrap можна застосувати до елемента `div`.
+Remember, Bootstrap uses a responsive grid system, which makes it easy to put elements into rows and specify each element's relative width. Most of Bootstrap's classes can be applied to a `div` element.
 
-Вкладіть перше зображення та елемент `h2` в елемент `<div class="row">`. Вкладіть елемент `h2` в `<div class="col-xs-8">`, а зображення вкладіть в `<div class="col-xs-4">`, щоб вони знаходились в одному рядку.
+Nest your first image and your `h2` element within a single `<div class="row">` element. Nest your `h2` element within a `<div class="col-xs-8">` and your image in a `<div class="col-xs-4">` so that they are on the same line.
 
-Помітили, що зображення тепер відповідного розміру, щоб поміститися поруч із текстом?
+Notice how the image is now just the right size to fit along the text?
 
 # --hints--
 
-Елемент `h2` та найвищий елемент `img` мають бути вкладеними в елементі `div` з класом `row`.
+Your `h2` element and topmost `img` element should both be nested together within a `div` element with the class `row`.
 
 ```js
 const row = document.querySelector('div.row');
@@ -28,7 +28,7 @@ assert.lengthOf(h2,1);
 assert.lengthOf(image ,1);
 ```
 
-Найвищий елемент `img` має бути вкладеним у `div` з класом `col-xs-4`.
+Your topmost `img` element should be nested within a `div` with the class `col-xs-4`.
 
 ```js
 const column = document.querySelector('div.col-xs-4');
@@ -38,7 +38,7 @@ assert.isEmpty(div);
 assert.lengthOf(img,1)
 ```
 
-Елемент `h2` має бути вкладеним у `div` з класом `col-xs-8`.
+Your `h2` element should be nested within a `div` with the class `col-xs-8`.
 
 ```js
 const column = document.querySelector('div.col-xs-8');
@@ -49,7 +49,7 @@ assert.isEmpty(div);
 assert.lengthOf(h2, 1);
 ```
 
-Усі елементи `div` повинні мати кінцеві теги.
+All of your `div` elements should have closing tags.
 
 ```js
 assert.match(code,/<\/div>/g);

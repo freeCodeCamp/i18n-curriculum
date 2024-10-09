@@ -9,7 +9,7 @@ dashedName: task-40
 
 # --description--
 
-Послухайте аудіо та дайте відповідь на запитання.
+Listen to the audio and answer the question.
 
 # --questions--
 

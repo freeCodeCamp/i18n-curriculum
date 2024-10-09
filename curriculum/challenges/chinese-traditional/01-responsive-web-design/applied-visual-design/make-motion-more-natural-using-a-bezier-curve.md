@@ -1,6 +1,6 @@
 ---
 id: 587d78a9367417b2b2512aea
-title: 使用貝塞爾曲線讓運動更加自然
+title: Make Motion More Natural Using a Bezier Curve
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/c7akWUv'
 forumTopicId: 301063
@@ -9,25 +9,25 @@ dashedName: make-motion-more-natural-using-a-bezier-curve
 
 # --description--
 
-在這個挑戰中，我們需要給元素添加動畫來模擬雜耍中被拋接的球。 之前的挑戰中，我們學習了 `linear` 和 `ease-out` 的貝塞爾曲線描述，但這兩個都無法完美地描述雜耍球的運動。 在本關裏你需要定製貝塞爾曲線。
+This challenge animates an element to replicate the movement of a ball being juggled. Prior challenges covered the `linear` and `ease-out` cubic Bezier curves, however neither depicts the juggling movement accurately. You need to customize a Bezier curve for this.
 
-當 `animation-iteration-count` 值爲 infinite 時，`animation-timing-function` 會自動循環 keyframe。 由於我們是在動畫週期的中間點（`50%` 處）設置的 keyframe 規則，最終的結果是球向上和球向下是兩個同樣的動畫過程。
+The `animation-timing-function` automatically loops at every keyframe when the `animation-iteration-count` is set to infinite. Since there is a keyframe rule set in the middle of the animation duration (at `50%`), it results in two identical animation progressions at the upward and downward movement of the ball.
 
-下面的例子模擬了雜耍球運動：
+The following cubic Bezier curve simulates a juggling movement:
 
 ```css
 cubic-bezier(0.3, 0.4, 0.5, 1.6);
 ```
 
-注意 y2 的值是大於 1 的。 雖然貝塞爾曲線是在 1*1 的座標系統內，x 值只能在 0 到 1，但是 y 值是可以大於 1 的。 這樣才能模擬雜耍球運動。
+Notice that the value of y2 is larger than 1. Although the cubic Bezier curve is mapped on a 1 by 1 coordinate system, and it can only accept x values from 0 to 1, the y value can be set to numbers larger than one. This results in a bouncing movement that is ideal for simulating the juggling ball.
 
 # --instructions--
 
-把 id 爲 `green` 的元素的 `animation-timing-function` 值改成 `cubic-bezier` 函數，函數的參數 x1，y1，x2，y2 值依次爲 0.311、0.441、0.444、1.649。
+Change value of the `animation-timing-function` of the element with the id of `green` to a `cubic-bezier` function with x1, y1, x2, y2 values set respectively to 0.311, 0.441, 0.444, 1.649.
 
 # --hints--
 
-id 爲 `green` 的元素的 `animation-timing-function` 值應爲 `cubic-bezier` 函數，函數的參數 x1，y1，x2，y2 值應爲指定值。
+The value of the `animation-timing-function` property for the element with the id `green` should be a `cubic-bezier` function with x1, y1, x2, y2 values as specified.
 
 ```js
 const greenElement = document.querySelector('#green');

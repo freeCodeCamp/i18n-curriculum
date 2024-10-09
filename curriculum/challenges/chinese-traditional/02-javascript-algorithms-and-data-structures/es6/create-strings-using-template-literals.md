@@ -1,6 +1,6 @@
 ---
 id: 587d7b8a367417b2b2512b4e
-title: 使用模板字面量創建字符串
+title: Create Strings using Template Literals
 challengeType: 1
 forumTopicId: 301200
 dashedName: create-strings-using-template-literals
@@ -8,11 +8,11 @@ dashedName: create-strings-using-template-literals
 
 # --description--
 
-模板字符串是 ES6 的另外一項新的功能。 這是一種可以輕鬆構建複雜字符串的方法。
+A new feature of ES6 is the <dfn>template literal</dfn>. This is a special type of string that makes creating complex strings easier.
 
-模板字符串可以使用多行字符串和字符串插值功能。
+Template literals allow you to create multi-line strings and to use string interpolation features to create strings.
 
-請看以下代碼：
+Consider the code below:
 
 ```js
 const person = {
@@ -26,15 +26,15 @@ I am ${person.age} years old.`;
 console.log(greeting);
 ```
 
-控制檯將顯示字符串 `Hello, my name is Zodiac Hasbro!` 和 `I am 56 years old.`。
+The console will display the strings `Hello, my name is Zodiac Hasbro!` and `I am 56 years old.`.
 
-這裏發生了許多事情。 首先，這個例子使用反引號（`` ` ``），而不是引號（`'` 或者 `"`）將字符串括起來。 其次，注意代碼和輸出中的字符串都是多行的。 不需要在字符串中插入 `\n`。 上面使用的 `${variable}` 語法是一個佔位符。 這樣一來，你將不再需要使用 `+` 運算符來連接字符串。 當需要在字符串裏增加變量的時候，你只需要在變量的外面括上 `${` 和 `}`，並將其放在模板字符串裏就可以了。 同樣，你可以在字符串中包含其他表達式，例如 `${a + b}`。 這個新的方式使你可以更靈活地創建複雜的字符串。
+A lot of things happened there. Firstly, the example uses backticks (`` ` ``), not quotes (`'` or `"`), to wrap the string. Secondly, notice that the string is multi-line, both in the code and the output. This saves inserting `\n` within strings. The `${variable}` syntax used above is a placeholder. Basically, you won't have to use concatenation with the `+` operator anymore. To add variables to strings, you just drop the variable in a template string and wrap it with `${` and `}`. Similarly, you can include other expressions in your string literal, for example `${a + b}`. This new way of creating strings gives you more flexibility to create robust strings.
 
 # --instructions--
 
-使用模板字符串的反引號的語法創建一個包含條目（`li`）字符串的數組。 每個條目應該是 `result` 對象 `failure` 屬性的數組內的元素，並具有 `class` 屬性，值爲 `text-warning`。 `makeList` 函數應該返回列表項字符串的數組。
+Use template literal syntax with backticks to create an array of list element (`li`) strings. Each list element's text should be one of the array elements from the `failure` property on the `result` object and have a `class` attribute with the value `text-warning`. The `makeList` function should return the array of list item strings.
 
-使用遍歷方法（可以是任意形式的循環）輸出指定值（如下）。
+Use an iterator method (any kind of loop) to get the desired output (shown below).
 
 ```js
 [
@@ -46,7 +46,7 @@ console.log(greeting);
 
 # --hints--
 
-`failuresList` 應該是一個包含了 `result failure` 信息的數組。
+`failuresList` should be an array containing `result failure` messages.
 
 ```js
 assert(
@@ -54,7 +54,7 @@ assert(
 );
 ```
 
-`failuresList` 應該輸出指定的值。
+`failuresList` should be equal to the specified output.
 
 ```js
 assert(
@@ -66,13 +66,13 @@ assert(
 );
 ```
 
-應使用模板字符串和表達式內插。
+Template strings and expression interpolation should be used.
 
 ```js
 assert.match(code, /(`.*\${.*}.*`)/);
 ```
 
-應該使用遍歷。
+An iterator should be used.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/for|map|reduce|forEach|while/));

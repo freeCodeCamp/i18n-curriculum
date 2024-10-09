@@ -1,22 +1,22 @@
 ---
 id: 561add10cb82ac38a17523bc
-title: Сертифікація «Розробка Back End та API»
+title: Back End Development and APIs Certification
 certification: back-end-development-and-apis
 challengeType: 7
 isPrivate: true
 tests:
   - 
     id: bd7158d8c443edefaeb5bdef
-    title: Мікросервіс Timestamp
+    title: Timestamp Microservice
   - 
     id: bd7158d8c443edefaeb5bdff
-    title: Мікросервіс синтаксичного аналізатора заголовків запиту
+    title: Request Header Parser Microservice
   - 
     id: bd7158d8c443edefaeb5bd0e
-    title: Мікросервіс скорочування URL-адрес
+    title: URL Shortener Microservice
   - 
     id: 5a8b073d06fa14fcfde687aa
-    title: Фітнес-трекер
+    title: Exercise Tracker
   - 
     id: bd7158d8c443edefaeb5bd0f
-    title: Мікросервіс метаданих файлу
+    title: File Metadata Microservice

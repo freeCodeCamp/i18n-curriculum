@@ -1,6 +1,6 @@
 ---
 id: 5900f4771000cf542c50ff8a
-title: 'Завдання 267: мільярдер'
+title: 'Problem 267: Billionaire'
 challengeType: 1
 forumTopicId: 301916
 dashedName: problem-267-billionaire
@@ -8,21 +8,21 @@ dashedName: problem-267-billionaire
 
 # --description--
 
-Ви отримали унікальну можливість для інвестування.
+You are given a unique investment opportunity.
 
-Починаючи з капіталу в £1, ви можете вибрати фіксовану частку $f$, щоб поставити на чесне підкидання монетою 1000 разів.
+Starting with £1 of capital, you can choose a fixed proportion, $f$, of your capital to bet on a fair coin toss repeatedly for 1000 tosses.
 
-Якщо випаде орел, то ви отримаєте подвійну ставку, якщо решка — втратите ставку.
+Your return is double your bet for heads and you lose your bet for tails.
 
-Наприклад, якщо $f = \frac{1}{4}$, на перше підкидання ви ставите £0.25, і якщо випаде орел, ви виграєте £0.5 та матимете £1.5. Потім ви ставите £0.375, і якщо на друге підкидання випаде решка, то матимете £1.125.
+For example, if $f = \frac{1}{4}$, for the first toss you bet £0.25, and if heads comes up you win £0.5 and so then have £1.5. You then bet £0.375 and if the second toss is tails, you have £1.125.
 
-Який шанс стати мільярдером, обравши $f$ з метою максимізувати свої шанси отримати принаймні £1 000 000 000 після 1000 підкидань?
+Choosing $f$ to maximize your chances of having at least £1,000,000,000 after 1,000 flips, what is the chance that you become a billionaire?
 
-Всі обчислення вважаються точними (не округлюються). Однак дайте відповідь, заокруглену до 12 знаків після коми у вигляді 0.abcdefghijkl.
+All computations are assumed to be exact (no rounding), but give your answer rounded to 12 digits behind the decimal point in the form 0.abcdefghijkl.
 
 # --hints--
 
-`billionaire()` має повернути `0.999992836187`.
+`billionaire()` should return `0.999992836187`.
 
 ```js
 assert.strictEqual(billionaire(), 0.999992836187);

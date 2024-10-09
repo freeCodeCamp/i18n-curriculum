@@ -1,6 +1,6 @@
 ---
 id: 5b7d72c338cd7e35b63f3e14
-title: Покращення сумісності із застосуванням резервних значень для браузера
+title: Improve Compatibility with Browser Fallbacks
 challengeType: 0
 forumTopicId: 301087
 dashedName: improve-compatibility-with-browser-fallbacks
@@ -8,19 +8,19 @@ dashedName: improve-compatibility-with-browser-fallbacks
 
 # --description--
 
-Під час роботи з CSS ви, ймовірно, в якийсь момент стикнетеся з проблемами сумісності браузерів. Ось чому важливо забезпечувати резервні значення для браузера, щоб уникнути можливих проблем.
+When working with CSS you will likely run into browser compatibility issues at some point. This is why it's important to provide browser fallbacks to avoid potential problems.
 
-Коли браузер аналізує CSS веб-сторінки, він ігнорує всі властивості, які він не розпізнає чи не підтримує. Наприклад, якщо ви використовуєте змінну CSS, щоб призначити колір фону на сайті, Internet Explorer проігнорує цей колір, адже він не підтримує змінні CSS. В такому випадку, браузер буде використовувати будь-яке значення, яке він має для цієї властивості. Якщо він не може знайти іншого значення, встановленого для цієї властивості, то повернеться до стандартного значення, що часто є неідеальним.
+When your browser parses the CSS of a webpage, it ignores any properties that it doesn't recognize or support. For example, if you use a CSS variable to assign a background color on a site, Internet Explorer will ignore the background color because it does not support CSS variables. In that case, the browser will use whatever value it has for that property. If it can't find any other value set for that property, it will revert to the default value, which is typically not ideal.
 
-Це означає, що, якщо ви хочете забезпечити "резерв" браузера, то достатньо вказати інше, більш широко підтримуване значення безпосередньо перед об'явою. Таким чином, старому браузерові буде на що спертися, а новіший просто інтерпретує ту об'яву, що йде далі в каскаді.
+This means that if you do want to provide a browser fallback, it's as easy as providing another more widely supported value immediately before your declaration. That way an older browser will have something to fall back on, while a newer browser will just interpret whatever declaration comes later in the cascade.
 
 # --instructions--
 
-Схоже, що змінна використовується, щоб встановити колір фону в класі `.red-box` class. Давайте покращимо сумісність браузерів, додавши ще одну об'яву `background`, прямо перед вже існуючою і встановивши їй значення `red`.
+It looks like a variable is being used to set the background color of the `.red-box` class. Let's improve our browser compatibility by adding another `background` declaration right before the existing declaration and set its value to `red`.
 
 # --hints--
 
-Правило `.red-box` повинне включати резервне значення `background` з параметром `red`, безпосередньо перед існуючою об'явою `background`.
+Your `.red-box` rule should include a fallback with the `background` set to `red` immediately before the existing `background` declaration.
 
 ```js
 assert(

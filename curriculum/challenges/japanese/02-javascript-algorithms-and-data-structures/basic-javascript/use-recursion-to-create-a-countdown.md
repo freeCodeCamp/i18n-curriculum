@@ -1,6 +1,6 @@
 ---
 id: 5cd9a70215d3c4e65518328f
-title: 再帰関数を利用してカウントダウンを作成する
+title: Use Recursion to Create a Countdown
 challengeType: 1
 forumTopicId: 305925
 dashedName: use-recursion-to-create-a-countdown
@@ -8,11 +8,11 @@ dashedName: use-recursion-to-create-a-countdown
 
 # --description--
 
-<a href="/japanese/learn/javascript-algorithms-and-data-structures/basic-javascript/replace-loops-using-recursion" target="_blank" rel="noopener noreferrer nofollow">以前のチャレンジ</a>で、再帰関数を利用して `for` ループを置き換える方法について学びました。 今回はもっと複雑な例として、`1` から関数に渡された数値までの連続した整数の配列を返す関数を考えてみましょう。
+In a <a href="/learn/javascript-algorithms-and-data-structures/basic-javascript/replace-loops-using-recursion" target="_blank" rel="noopener noreferrer nofollow">previous challenge</a>, you learned how to use recursion to replace a `for` loop. Now, let's look at a more complex function that returns an array of consecutive integers starting with `1` through the number passed to the function.
 
-以前のチャレンジで触れたように、<dfn>基準ケース</dfn>を記述します。 基準ケースは、再帰をいつ止めるかを再帰関数に指示します。 これは戻り値があらかじめわかっている単純なケースです。 別の引数を付けて元の関数を実行する<dfn>再帰呼び出し</dfn>もあります。 関数が適切に記述されていれば、最終的には基準ケースに到達します。
+As mentioned in the previous challenge, there will be a <dfn>base case</dfn>. The base case tells the recursive function when it no longer needs to call itself. It is a simple case where the return value is already known. There will also be a <dfn>recursive call</dfn> which executes the original function with different arguments. If the function is written correctly, eventually the base case will be reached.
 
-たとえば、`1` から `n` までの数値を含む配列を返す再帰関数を記述するとします。 この関数は、最後の数値を表す引数 `n` を受け取る必要があります。 次に、`n` が `1` に達するまで、n の値を徐々に小さくし、その値を引数として自分自身を呼び出す必要があります。 関数は次のように記述することができます。
+For example, say you want to write a recursive function that returns an array containing the numbers `1` through `n`. This function will need to accept an argument, `n`, representing the final number. Then it will need to call itself with progressively smaller values of `n` until it reaches `1`. You could write the function as follows:
 
 ```javascript
 function countup(n) {
@@ -27,35 +27,35 @@ function countup(n) {
 console.log(countup(5));
 ```
 
-コンソールには値 `[1, 2, 3, 4, 5]` が表示されます。
+The value `[1, 2, 3, 4, 5]` will be displayed in the console.
 
-`n` の値が*減少していく*ため、最初はわかりにくいかもしれませんが、最終的な配列の値は*増加*していきます。 なぜなら、再帰呼び出しから制御が戻った後、最後に push が実行されるからです。 `n` が配列に push された時点で、`countup(n - 1)` の評価はすでに完了しており、`[1, 2, ..., n - 1]` を返します。
+At first, this seems counterintuitive since the value of `n` *decreases*, but the values in the final array are *increasing*. This happens because the push happens last, after the recursive call has returned. At the point where `n` is pushed into the array, `countup(n - 1)` has already been evaluated and returned `[1, 2, ..., n - 1]`.
 
 # --instructions--
 
-1つのパラメータ (`n`) を持つ `countdown` という関数を定義しました。 この関数は再帰を利用して、`n` パラメーターに基づいて `n` から `1` までの整数を含む配列を返す必要があります。 関数が 1 未満の数値で呼び出された場合は、空の配列を返す必要があります。 たとえば、この関数を `n = 5` で呼び出すと、配列 `[5, 4, 3, 2, 1]` が返されます。 関数では自分自身を呼び出す再帰を利用する必要があり、またどのような種類のループも使用してはいけません。
+We have defined a function called `countdown` with one parameter (`n`). The function should use recursion to return an array containing the integers `n` through `1` based on the `n` parameter. If the function is called with a number less than 1, the function should return an empty array. For example, calling this function with `n = 5` should return the array `[5, 4, 3, 2, 1]`. Your function must use recursion by calling itself and must not use loops of any kind.
 
 # --hints--
 
-`countdown(-1)` は空の配列を返す必要があります。
+`countdown(-1)` should return an empty array.
 
 ```js
 assert.isEmpty(countdown(-1));
 ```
 
-`countdown(10)` は `[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]` を返す必要があります。
+`countdown(10)` should return `[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]`
 
 ```js
 assert.deepStrictEqual(countdown(10), [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]);
 ```
 
-`countdown(5)` は `[5, 4, 3, 2, 1]` を返す必要があります。
+`countdown(5)` should return `[5, 4, 3, 2, 1]`
 
 ```js
 assert.deepStrictEqual(countdown(5), [5, 4, 3, 2, 1]);
 ```
 
-このコードには、どのような種類のループ (`for`、`while`、または `forEach`、`map`、`filter`、`reduce` のような高階関数) も使用しないでください。
+Your code should not rely on any kind of loops (`for`, `while` or higher order functions such as `forEach`, `map`, `filter`, and `reduce`).
 
 ```js
 assert(
@@ -63,7 +63,7 @@ assert(
 );
 ```
 
-この課題の解決には、再帰を使用してください。
+You should use recursion to solve this problem.
 
 ```js
 assert(
@@ -71,7 +71,7 @@ assert(
 );
 ```
 
-配列をキャッシュするためにグローバル変数を使用しないでください。
+Global variables should not be used to cache the array.
 
 ```js
 countdown(1)

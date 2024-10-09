@@ -8,11 +8,11 @@ dashedName: install-and-require-helmet
 
 # --description--
 
-العمل على هذه التحديات سوف ينطوي على كتابة كودك باستخدام إحدى الطرق التالية:
+Working on these challenges will involve you writing your code using one of the following methods:
 
 - Clone <a href="https://github.com/freeCodeCamp/boilerplate-infosec/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete these challenges locally.
 - Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-infosec/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete these challenges.
-- استخدم أي منشئ موقع لإكمال المشروع. تحقق انك أضفت جميع الملفات من مستودعنا في GitHub في مشروعك.
+- Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
 
 Helmet helps you secure your Express apps by setting various HTTP headers.
 

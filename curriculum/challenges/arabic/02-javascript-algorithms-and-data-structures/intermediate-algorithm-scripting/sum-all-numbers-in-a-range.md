@@ -1,6 +1,6 @@
 ---
 id: a3566b1109230028080c9345
-title: جمع كل الأعداد في نطاق معين (Sum All Numbers in a Range)
+title: Sum All Numbers in a Range
 challengeType: 1
 forumTopicId: 16083
 dashedName: sum-all-numbers-in-a-range
@@ -8,37 +8,37 @@ dashedName: sum-all-numbers-in-a-range
 
 # --description--
 
-سنقوم بتمرير مصفوفة من رقمين. قم بإرجاع مجموع هذين الرقمين بالإضافة إلى مجموع جميع الأرقام بينهما. لن يأتي أقل رقم دائماً أولاً.
+We'll pass you an array of two numbers. Return the sum of those two numbers plus the sum of all the numbers between them. The lowest number will not always come first.
 
-على سبيل المثال، `sumAll([4,1])` يجب أن يرجع `10` لأن مجموع جميع الأرقام بين 1 و 4 (وكلاهما شامل) هو `10`.
+For example, `sumAll([4,1])` should return `10` because sum of all the numbers between 1 and 4 (both inclusive) is `10`.
 
 # --hints--
 
-`sumAll([1, 4])` يجب أن يرجع رقم.
+`sumAll([1, 4])` should return a number.
 
 ```js
 assert(typeof sumAll([1, 4]) === 'number');
 ```
 
-`sumAll([1, 4])` يجب أن يرجع 10.
+`sumAll([1, 4])` should return 10.
 
 ```js
 assert.deepEqual(sumAll([1, 4]), 10);
 ```
 
-`sumAll([4, 1])` يجب أن يرجع 10.
+`sumAll([4, 1])` should return 10.
 
 ```js
 assert.deepEqual(sumAll([4, 1]), 10);
 ```
 
-`sumAll([5, 10])` يجب أن يرجع 45.
+`sumAll([5, 10])` should return 45.
 
 ```js
 assert.deepEqual(sumAll([5, 10]), 45);
 ```
 
-`sumAll([10, 5])` يجب أن يرجع 45.
+`sumAll([10, 5])` should return 45.
 
 ```js
 assert.deepEqual(sumAll([10, 5]), 45);

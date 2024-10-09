@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c448eddfaeb5bdef
-title: Ermitteln der Länge eines Strings
+title: Find the Length of a String
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cvmqEAd'
 forumTopicId: 18182
@@ -9,23 +9,23 @@ dashedName: find-the-length-of-a-string
 
 # --description--
 
-Du kannst die Länge eines `String`-Wertes ermitteln, indem du `.length` hinter die String-Variable oder das String-Literal schreibst.
+You can find the length of a `String` value by writing `.length` after the string variable or string literal.
 
 ```js
 console.log("Alan Peter".length);
 ```
 
-Der Wert `10` würde in der Konsole angezeigt werden. Beachte, dass auch das Leerzeichen zwischen "Alan" und "Peter" gezählt wird.
+The value `10` would be displayed in the console. Note that the space character between "Alan" and "Peter" is also counted.
 
-Wenn wir zum Beispiel eine Variable `const firstName = "Ada"` erstellen, können wir mit der Eigenschaft `firstName.length` herausfinden, wie lang der String `Ada` ist.
+For example, if we created a variable `const firstName = "Ada"`, we could find out how long the string `Ada` is by using the `firstName.length` property.
 
 # --instructions--
 
-Benutze die `.length`-Eigenschaft, um `lastNameLength` auf die Anzahl der Zeichen in `lastName` zu setzen.
+Use the `.length` property to set `lastNameLength` to the number of characters in `lastName`.
 
 # --hints--
 
-Du solltest die Variablendeklarationen im Abschnitt `// Setup` nicht ändern.
+You should not change the variable declarations in the `// Setup` section.
 
 ```js
 assert(
@@ -34,13 +34,13 @@ assert(
 );
 ```
 
-`lastNameLength` sollte gleich acht sein.
+`lastNameLength` should be equal to eight.
 
 ```js
 assert(typeof lastNameLength !== 'undefined' && lastNameLength === 8);
 ```
 
-Du solltest die Länge von `lastName` erhalten, indem du `.length` wie folgt benutzt: `lastName.length`.
+You should be getting the length of `lastName` by using `.length` like this: `lastName.length`.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/=\s*lastName\.length/g) && !__helpers.removeJSComments(code).match(/lastName\s*=\s*8/));

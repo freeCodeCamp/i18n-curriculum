@@ -1,6 +1,6 @@
 ---
 id: 5e46f7e5ac417301a38fb929
-title: 人口統計數據分析器
+title: Demographic Data Analyzer
 challengeType: 10
 forumTopicId: 462367
 dashedName: demographic-data-analyzer
@@ -10,15 +10,15 @@ dashedName: demographic-data-analyzer
 
 You will be <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-demographic-data-analyzer/" target="_blank" rel="noopener noreferrer nofollow">working on this project with our Gitpod starter code</a>.
 
-我們仍在開發 Python 課程的交互式教學部分。 目前，你可以在 YouTube 上通過 freeCodeCamp.org 上傳的一些視頻學習這個項目相關的知識。
+We are still developing the interactive instructional part of the Python curriculum. For now, here are some videos on the freeCodeCamp.org YouTube channel that will teach you everything you need to know to complete this project:
 
-- <a href="https://www.freecodecamp.org/news/python-for-everybody/" target="_blank" rel="noopener noreferrer nofollow">給所有人的 Python 課程</a>（14 小時）
+- <a href="https://www.freecodecamp.org/news/python-for-everybody/" target="_blank" rel="noopener noreferrer nofollow">Python for Everybody Video Course</a> (14 hours)
 
-- <a href="https://www.freecodecamp.org/news/how-to-analyze-data-with-python-pandas/" target="_blank" rel="noopener noreferrer nofollow">如何使用 Python Pandas 分析數據</a>（10 小時）
+- <a href="https://www.freecodecamp.org/news/how-to-analyze-data-with-python-pandas/" target="_blank" rel="noopener noreferrer nofollow">How to Analyze Data with Python Pandas</a> (10 hours)
 
 # --instructions--
 
-在這個挑戰中，你必須使用 Pandas 對人口統計進行分析。 你將獲得從 1994 年人口普查數據庫中提取的人口統計數據數據集。 以下是數據的示例：
+In this challenge you must analyze demographic data using Pandas. You are given a dataset of demographic data that was extracted from the 1994 Census database. Here is a sample of what the data looks like:
 
 ```markdown
 |    |   age | workclass        |   fnlwgt | education   |   education-num | marital-status     | occupation        | relationship   | race   | sex    |   capital-gain |   capital-loss |   hours-per-week | native-country   | salary   |
@@ -30,39 +30,39 @@ You will be <a href="https://gitpod.io/?autostart=true#https://github.com/freeCo
 |  4 |    28 | Private          |   338409 | Bachelors   |              13 | Married-civ-spouse | Prof-specialty    | Wife           | Black  | Female |              0 |              0 |               40 | Cuba             | <=50K    |
 ```
 
-你必須使用 Pandas 來回答以下問題：
+You must use Pandas to answer the following questions:
 
-- 這個數據集中每個種族有多少人？ 這應該是一個以種族名稱作爲索引標籤的 Pandas 系列。 （`race` 欄）
-- 男性的平均年齡是多少？
-- 擁有學士學位的人的百分比是多少？
-- 受過高等教育（`Bachelors`、`Masters` 或 `Doctorate`）且收入超過 50K 的人佔多大比例？
-- 沒有受過高等教育且收入超過 50K 的人的比例是多少？
-- 一個人每週最少工作多少小時？
-- 每週工作最少小時數的人中有多少人的工資超過 50K？
-- 哪個國家/地區的收入 >50K 的人口比例最高，該比例是多少？
-- 找出印度收入 >50K 的人最受歡迎的職業。
+- How many people of each race are represented in this dataset? This should be a Pandas series with race names as the index labels. (`race` column)
+- What is the average age of men?
+- What is the percentage of people who have a Bachelor's degree?
+- What percentage of people with advanced education (`Bachelors`, `Masters`, or `Doctorate`) make more than 50K?
+- What percentage of people without advanced education make more than 50K?
+- What is the minimum number of hours a person works per week?
+- What percentage of the people who work the minimum number of hours per week have a salary of more than 50K?
+- What country has the highest percentage of people that earn >50K and what is that percentage?
+- Identify the most popular occupation for those who earn >50K in India.
 
-Use the starter code in the file `demographic_data_analyzer.py`. Update the code so all variables set to `None` are set to the appropriate calculation or code. 將所有小數四捨五入到最接近的十分之一。
+Use the starter code in the file `demographic_data_analyzer.py`. Update the code so all variables set to `None` are set to the appropriate calculation or code. Round all decimals to the nearest tenth.
 
-## 開發
+## Development
 
 Write your code in `demographic_data_analyzer.py`. For development, you can use `main.py` to test your code.
 
-## 測試
+## Testing
 
-The unit tests for this project are in `test_module.py`. 爲了你的方便，我們將測試從 `test_module.py` 導入到 `main.py`。
+The unit tests for this project are in `test_module.py`. We imported the tests from `test_module.py` to `main.py` for your convenience.
 
-## 提交
+## Submitting
 
-複製項目的 URL 並將其提交給 freeCodeCamp。
+Copy your project's URL and submit it to freeCodeCamp.
 
-## 數據集源
+## Dataset Source
 
 Dua, D. and Graff, C. (2019). <a href="http://archive.ics.uci.edu/ml" target="_blank" rel="noopener noreferrer nofollow">UCI Machine Learning Repository</a>. Irvine, CA: University of California, School of Information and Computer Science.
 
 # --hints--
 
-它應該通過所有的 Python 測試。
+It should pass all Python tests.
 
 ```js
 

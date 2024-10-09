@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedd08830
-title: Додаємо кнопку "відправити" у форму
+title: Add a Submit Button to a Form
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVMPUv/cp2Nkhz'
 forumTopicId: 16627
@@ -9,9 +9,9 @@ dashedName: add-a-submit-button-to-a-form
 
 # --description--
 
-Додаймо кнопку `submit` (відправити) у форму. При натисканні цієї кнопки дані з форми будуть відправлені за URL-адресою, яка попередньо була прописана у атрибуті `action` форми.
+Let's add a `submit` button to your form. Clicking this button will send the data from your form to the URL you specified with your form's `action` attribute.
 
-Ось приклад кнопки "відправити":
+Here's an example submit button:
 
 ```html
 <button type="submit">this button submits the form</button>
@@ -19,23 +19,23 @@ dashedName: add-a-submit-button-to-a-form
 
 # --instructions--
 
-Додайте кнопку наприкінці вашого елемента `form` з типом `submit`, де має бути написано `Submit`.
+Add a button as the last element of your `form` element with a type of `submit`, and `Submit` as its text.
 
 # --hints--
 
-Всередині вашої `form` має бути прописана `button`.
+Your `form` should have a `button` inside it.
 
 ```js
 assert($('form').children('button').length > 0);
 ```
 
-Ваша кнопка "відправити" повинна мати атрибут `type`, встановлений на `submit`.
+Your submit button should have the attribute `type` set to `submit`.
 
 ```js
 assert($('button').attr('type') === 'submit');
 ```
 
-Ваша кнопка "відправити" повинна мати лише текст `Submit`.
+Your submit button should only have the text `Submit`.
 
 ```js
 assert(
@@ -45,7 +45,7 @@ assert(
 );
 ```
 
-Елемент `button` повинен мати кінцевий тег.
+Your `button` element should have a closing tag.
 
 ```js
 assert(

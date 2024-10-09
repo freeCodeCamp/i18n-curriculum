@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d4036164
-title: Створіть компонент за допомогою композиції
+title: Create a Component with Composition
 challengeType: 6
 forumTopicId: 301383
 dashedName: create-a-component-with-composition
@@ -8,9 +8,9 @@ dashedName: create-a-component-with-composition
 
 # --description--
 
-Тепер розглянемо, як можна компонувати декілька компонентів React. Уявіть, що ви будуєте застосунок і вже створили три компоненти: `Navbar`, `Dashboard` та `Footer`.
+Now we will look at how we can compose multiple React components together. Imagine you are building an app and have created three components: a `Navbar`, `Dashboard`, and `Footer`.
 
-Щоб компонувати їх, ви можете створити *батьківський* компонент `App`, який відтворює ці три компоненти як *дочірні*. Щоб відтворити компонент як дочірній в компоненті React, помістіть назву компонента (написану як власні теги HTML) в JSX. Для прикладу, у методі `render` ви можете написати:
+To compose these components together, you could create an `App` *parent* component which renders each of these three components as *children*. To render a component as a child in a React component, you include the component name written as a custom HTML tag in the JSX. For example, in the `render` method you could write:
 
 ```jsx
 return (
@@ -22,17 +22,17 @@ return (
 )
 ```
 
-Коли React стикається з власним тегом HTML, який посилається на інший компонент (назва компонента в `< />`), він відтворює розмітку для цього компонента в місці розташування тегу. Це має проілюструвати батьківські/дочірні зв’язки між компонентом `App` та `Navbar`, `Dashboard`, `Footer`.
+When React encounters a custom HTML tag that references another component (a component name wrapped in `< />` like in this example), it renders the markup for that component in the location of the tag. This should illustrate the parent/child relationship between the `App` component and the `Navbar`, `Dashboard`, and `Footer`.
 
 # --instructions--
 
-У редакторі коду є простий функціональний компонент під назвою `ChildComponent` та класовий компонент під назвою `ParentComponent`. Компонуйте їх, відтворивши `ChildComponent` в межах `ParentComponent`. Переконайтесь, що закрили тег `ChildComponent` за допомогою скісної риски.
+In the code editor, there is a simple functional component called `ChildComponent` and a class component called `ParentComponent`. Compose the two together by rendering the `ChildComponent` within the `ParentComponent`. Make sure to close the `ChildComponent` tag with a forward slash.
 
-**Примітка:** `ChildComponent` визначено за допомогою стрілкової функції ES6, оскільки це досить поширена практика під час використання React.
+**Note:** `ChildComponent` is defined with an ES6 arrow function because this is a very common practice when using React.
 
 # --hints--
 
-Компонент React має повернути єдиний елемент `div`.
+The React component should return a single `div` element.
 
 ```js
 assert(
@@ -43,7 +43,7 @@ assert(
 );
 ```
 
-Компонент має повернути два вкладені елементи.
+The component should return two nested elements.
 
 ```js
 assert(
@@ -54,7 +54,7 @@ assert(
 );
 ```
 
-Компонент має повернути `ChildComponent` як свій другий дочірній елемент.
+The component should return the `ChildComponent` as its second child.
 
 ```js
 assert(

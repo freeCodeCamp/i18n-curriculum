@@ -1,6 +1,6 @@
 ---
 id: 56533eb9ac21ba0edf2244b5
-title: Fare l'escaping delle virgolette nelle stringhe
+title: Escaping Literal Quotes in Strings
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/c2QvgSr'
 forumTopicId: 17568
@@ -9,15 +9,15 @@ dashedName: escaping-literal-quotes-in-strings
 
 # --description--
 
-Quando definisci una stringa devi cominciare e finire con una virgoletta singola o doppia. Cosa succede quando ti serve una virgoletta letterale `"` o `'` dentro la tua stringa?
+When you are defining a string you must start and end with a single or double quote. What happens when you need a literal quote: `"` or `'` inside of your string?
 
-In JavaScript, puoi fare l'<dfn>escape</dfn> di una virgoletta per distinguerla da quella usata per terminare la stringa posizionando una <dfn>barra rovesciata</dfn> (`\`) davanti alla virgoletta.
+In JavaScript, you can <dfn>escape</dfn> a quote from considering it as an end of string quote by placing a <dfn>backslash</dfn> (`\`) in front of the quote.
 
 ```js
 const sampleStr = "Alan said, \"Peter is learning JavaScript\".";
 ```
 
-Questo segnala a JavaScript che la virgoletta seguente non è la fine della stringa, ma dovrebbe invece apparire dentro la stringa. Quindi se dovessi farla visualizzare nella console, otterresti:
+This signals to JavaScript that the following quote is not the end of the string, but should instead appear inside the string. So if you were to print this to the console, you would get:
 
 ```js
 Alan said, "Peter is learning JavaScript".
@@ -25,7 +25,7 @@ Alan said, "Peter is learning JavaScript".
 
 # --instructions--
 
-Usa le <dfn>barre rovesciate</dfn> per assegnare una stringa alla variabile `myStr` in modo che se dovessi farla visualizzare sulla console, si vedrebbe:
+Use <dfn>backslashes</dfn> to assign a string to the `myStr` variable so that if you were to print it to the console, you would see:
 
 ```js
 I am a "double quoted" string inside "double quotes".
@@ -33,13 +33,13 @@ I am a "double quoted" string inside "double quotes".
 
 # --hints--
 
-Dovresti usare due virgolette doppie (`"`) e quattro virgolette doppie con escape (`\"`).
+You should use two double quotes (`"`) and four escaped double quotes (`\"`).
 
 ```js
 assert(__helpers.removeJSComments(code).match(/\\"/g).length === 4 && __helpers.removeJSComments(code).match(/[^\\]"/g).length === 2);
 ```
 
-La variabile `myStr` dovrebbe contenere la stringa: `I am a "double quoted" string inside "double quotes".`
+Variable `myStr` should contain the string: `I am a "double quoted" string inside "double quotes".`
 
 ```js
 assert(/I am a "double quoted" string inside "double quotes(\."|"\.)$/.test(myStr));

@@ -1,22 +1,22 @@
 ---
 id: 561acd10cb82ac38a17513bc
-title: Сертифікація «Бібліотеки верстання вебсторінок»
+title: Front End Development Libraries Certification
 certification: front-end-development-libraries
 challengeType: 7
 isPrivate: true
 tests:
   - 
     id: bd7158d8c442eddfaeb5bd13
-    title: Створіть генератор випадкових цитат
+    title: Build a Random Quote Machine
   - 
     id: bd7157d8c242eddfaeb5bd13
-    title: Створіть попередній перегляд Markdown
+    title: Build a Markdown Previewer
   - 
     id: 587d7dbc367417b2b2512bae
-    title: Створіть драм-машину
+    title: Build a Drum Machine
   - 
     id: bd7158d8c442eddfaeb5bd17
-    title: Створіть калькулятор JavaScript
+    title: Build a JavaScript Calculator
   - 
     id: bd7158d8c442eddfaeb5bd0f
-    title: Створіть таймер 25 + 5
+    title: Build a 25 + 5 Clock

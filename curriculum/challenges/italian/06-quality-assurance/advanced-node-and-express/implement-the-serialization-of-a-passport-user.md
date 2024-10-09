@@ -1,6 +1,6 @@
 ---
 id: 5895f70cf9fc0f352b528e67
-title: Implementare la serializzazione di un utente Passport
+title: Implement the Serialization of a Passport User
 challengeType: 2
 forumTopicId: 301556
 dashedName: implement-the-serialization-of-a-passport-user
@@ -8,11 +8,11 @@ dashedName: implement-the-serialization-of-a-passport-user
 
 # --description--
 
-Non stai caricando un vero e proprio oggetto utente poiché il database non è configurato. Connettiti al database una volta, quando avvii il server, e mantieni una connessione continua per l'intero ciclo di vita dell'app. Per fare questo, aggiungi la stringa di connessione del database (per esempio: `mongodb+srv://<username>:<password>@cluster0-jvwxi.mongodb.net/?retryWrites=true&w=majority`) alla variabile di ambiente `MONGO_URI`. Questo è usato nel file `connection.js`.
+You are not loading an actual user object since the database is not set up. Connect to the database once, when you start the server, and keep a persistent connection for the full life-cycle of the app. To do this, add your database's connection string (for example: `mongodb+srv://<username>:<password>@cluster0-jvwxi.mongodb.net/?retryWrites=true&w=majority`) to the environment variable `MONGO_URI`. This is used in the `connection.js` file.
 
-*Se stai avendo problemi a impostare un database gratuito con MongoDB Atlas, vedi questo <a href="https://www.freecodecamp.org/news/get-started-with-mongodb-atlas/" target="_blank" rel="noopener noreferrer nofollow">tutorial</a>.*
+*If you are having issues setting up a free database on MongoDB Atlas, check out this <a href="https://www.freecodecamp.org/news/get-started-with-mongodb-atlas/" target="_blank" rel="noopener noreferrer nofollow">tutorial</a>.*
 
-Ora vuoi connetterti al tuo database e metterti in ascolto delle richieste. Lo scopo è di non permettere richieste prima che il database sia connesso o nel caso ci sia un errore del database. Per farlo, includi la tua serializzazione e le rotte della app nel seguente codice:
+Now you want to connect to your database, then start listening for requests. The purpose of this is to not allow requests before your database is connected or if there is a database error. To accomplish this, encompass your serialization and app routes in the following code:
 
 ```javascript
 myDB(async client => {
@@ -38,13 +38,13 @@ myDB(async client => {
 // app.listen out here...
 ```
 
-Assicurati di decommentare il codice di `myDataBase` in `deserializeUser`, e modifica il tuo `done(null, null)` per includere il `doc`.
+Be sure to uncomment the `myDataBase` code in `deserializeUser`, and edit your `done(null, null)` to include the `doc`.
 
-Invia la tua pagina quando pensi di averlo fatto correttamente. Se incontri degli errori, puoi vedere <a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#implement-the-serialization-of-a-passport-user-5" target="_blank" rel="noopener noreferrer nofollow">il progetto completato fino a questo punto</a>.
+Submit your page when you think you've got it right. If you're running into errors, you can <a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#implement-the-serialization-of-a-passport-user-5" target="_blank" rel="noopener noreferrer nofollow">check out the project completed up to this point</a>.
 
 # --hints--
 
-La connessione al database dovrebbe essere presente.
+Database connection should be present.
 
 ```js
 async (getUserInput) => {
@@ -59,7 +59,7 @@ async (getUserInput) => {
 }
 ```
 
-La deserializzazione dovrebbe ora usare correttamente il DB e `done(null, null)` dovrebbe essere invocato con il `doc`.
+Deserialization should now be correctly using the DB and `done(null, null)` should be called with the `doc`.
 
 ```js
 async (getUserInput) => {

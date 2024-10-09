@@ -8,35 +8,35 @@ dashedName: find-characters-with-lazy-matching
 
 # --description--
 
-في الـ regular expressions ، تعثر المطابقة من نوع <dfn>greedy</dfn> على أطول جزء ممكن من الـ string الذي يلائم نمط الـ regex، وترجعه كمطابق. البديل يسمى مطابقة من نوع <dfn>lazy</dfn> والتي تجد أصغر جزء ممكن من الـ string الذي يستوفي نمط الـ regex.
+In regular expressions, a <dfn>greedy</dfn> match finds the longest possible part of a string that fits the regex pattern and returns it as a match. The alternative is called a <dfn>lazy</dfn> match, which finds the smallest possible part of the string that satisfies the regex pattern.
 
-يمكنك تطبيق الـ regex الآتي `/t[a-z]*i/` على السلسلة `"titanic"`. الـ regex هذا هو في الأساس نمط يبدأ بـ `t`، وينتهي بـ `i`، ولديه بعض الحروف بينهما.
+You can apply the regex `/t[a-z]*i/` to the string `"titanic"`. This regex is basically a pattern that starts with `t`, ends with `i`, and has some letters in between.
 
-الـ Regular expressions هي greedy بشكل افتراضي، لذا فإن المطابقة ستعيد `["titani"]`. وهي تجد أكبر سلسلة فرعية (sub-string) ممكنة لتتناسب مع النمط.
+Regular expressions are by default greedy, so the match would return `["titani"]`. It finds the largest sub-string possible to fit the pattern.
 
-ومع ذلك، يمكنك استخدام رمز `?` لتغييره إلى تطابق lazy. مطابقة `"titanic"` للـ regex المعدل `/t[a-z]*?i/`  يعيد `["ti"]`.
+However, you can use the `?` character to change it to lazy matching. `"titanic"` matched against the adjusted regex of `/t[a-z]*?i/` returns `["ti"]`.
 
-**ملاحظة:** يجب تجنب تحليل HTML باستخدام الـ regular expressions، ولكن لا بأس من مطابقة نمط لـ HTML string مع الـ regular expressions.
+**Note:** Parsing HTML with regular expressions should be avoided, but pattern matching an HTML string with regular expressions is completely fine.
 
 # --instructions--
 
-قم بإصلاح `/<.*>/` لإرجاع الـ HTML tag الآتي `<h1>` وليس النص `"<h1>Winter is coming</h1>"`. تذكر ان الرمز `.` في الـ regular expression، يطابق أي حرف.
+Fix the regex `/<.*>/` to return the HTML tag `<h1>` and not the text `"<h1>Winter is coming</h1>"`. Remember the wildcard `.` in a regular expression matches any character.
 
 # --hints--
 
-متغير `result` يجب أن يكون array مع `<h1>` بداخله
+The `result` variable should be an array with `<h1>` in it
 
 ```js
 assert(result[0] == '<h1>');
 ```
 
-`myRegex` يجب أن يستخدم المطابقة الـ lazy
+`myRegex` should use lazy matching
 
 ```js
 assert(/[^\\][\*\+\?]\?/.test(myRegex));
 ```
 
-`myRegex` لا يجب أن يتضمن السلسلة `h1`
+`myRegex` should not include the string `h1`
 
 ```js
 assert(!myRegex.source.match('h1'));

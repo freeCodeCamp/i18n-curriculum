@@ -1,6 +1,6 @@
 ---
 id: a2f1d72d9b908d0bd72bb9f6
-title: Eine Person erstellen
+title: Make a Person
 challengeType: 1
 forumTopicId: 16020
 dashedName: make-a-person
@@ -8,7 +8,7 @@ dashedName: make-a-person
 
 # --description--
 
-Fülle den Objekt-Konstruktor mit den folgenden Methoden aus:
+Fill in the object constructor with the following methods below:
 
 ```js
 getFirstName()
@@ -19,7 +19,7 @@ setLastName(last)
 setFullName(first, last)
 ```
 
-Führe die Tests durch, um die erwartete Ausgabe für jede Methode zu sehen. These methods must be the only available means of interacting with the object. Each test will declare a new `Person` instance as `new Person('Bob', 'Ross')`.
+Run the tests to see the expected output for each method. These methods must be the only available means of interacting with the object. Each test will declare a new `Person` instance as `new Person('Bob', 'Ross')`.
 
 # --hints--
 

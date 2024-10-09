@@ -1,6 +1,6 @@
 ---
 id: 56533eb9ac21ba0edf2244bc
-title: Lista de compras
+title: Shopping List
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/c9MEKHZ'
 forumTopicId: 18280
@@ -9,37 +9,37 @@ dashedName: shopping-list
 
 # --description--
 
-Crea una lista de compras en la variable `myList`. La lista debe ser un arreglo multidimensional que contenga varios sub-arreglos.
+Create a shopping list in the variable `myList`. The list should be a multi-dimensional array containing several sub-arrays.
 
-El primer elemento de cada sub-arreglo debe contener una cadena con el nombre del artículo. El segundo elemento debe ser un número que represente la cantidad, por ejemplo.
+The first element in each sub-array should contain a string with the name of the item. The second element should be a number representing the quantity i.e.
 
 ```js
 ["Chocolate Bar", 15]
 ```
 
-Debe haber al menos 5 sub-arreglos en la lista.
+There should be at least 5 sub-arrays in the list.
 
 # --hints--
 
-`myList` debe ser un arreglo.
+`myList` should be an array.
 
 ```js
 assert(isArray);
 ```
 
-Los primeros elementos de cada sub-arreglo deben ser cadenas.
+The first elements in each of your sub-arrays should all be strings.
 
 ```js
 assert(hasString);
 ```
 
-Los segundos elementos de cada sub-arreglo deben ser números.
+The second elements in each of your sub-arrays should all be numbers.
 
 ```js
 assert(hasNumber);
 ```
 
-Debes tener al menos 5 elementos en tu lista.
+You should have at least 5 items in your list.
 
 ```js
 assert(count > 4);

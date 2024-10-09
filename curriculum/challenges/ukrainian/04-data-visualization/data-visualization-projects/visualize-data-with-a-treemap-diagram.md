@@ -1,6 +1,6 @@
 ---
 id: 587d7fa6367417b2b2512bc0
-title: Візуалізуйте дані за допомогою діаграми Treemap
+title: Visualize Data with a Treemap Diagram
 challengeType: 3
 forumTopicId: 301468
 dashedName: visualize-data-with-a-treemap-diagram
@@ -8,43 +8,43 @@ dashedName: visualize-data-with-a-treemap-diagram
 
 # --description--
 
-**Мета:** створити застосунок, функціонально схожий до <a href="https://treemap-diagram.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://treemap-diagram.freecodecamp.rocks</a>.
+**Objective:** Build an app that is functionally similar to this: <a href="https://treemap-diagram.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://treemap-diagram.freecodecamp.rocks</a>.
 
-Виконайте історію користувача та пройдіть тести. Використовуйте необхідні вам бібліотеки або API. Оформте за власним стилем.
+Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
 
-Ви можете використовувати HTML, JavaScript, CSS та бібліотеку візуалізації D3 на основі svg. Для тестів потрібно згенерувати осі, використовуючи властивість осі D3, що автоматично створює відмітки вздовж осі. Ці відмітки потрібні для проходження тестів D3, оскільки їхнє положення використовується для вирівнювання графічних елементів. Ви знайдете інформацію про генерування осей на <https://d3js.org/d3-axis>. Необхідні DOM-елементи запитуються під час кожного тесту. Якщо ви використовуєте фронтенд-фреймворк (наприклад, Vue), результати тестів можуть бути неточними для динамічного вмісту. Ми сподіваємося скоро їх налагодити, однак наразі ці фреймворки не підтримуються для проєктів D3.
+You can use HTML, JavaScript, CSS, and the D3 svg-based visualization library. The tests require axes to be generated using the D3 axis property, which automatically generates ticks along the axis. These ticks are required for passing the D3 tests because their positions are used to determine alignment of graphed elements. You will find information about generating axes at <https://d3js.org/d3-axis>. Required DOM elements are queried on the moment of each test. If you use a frontend framework (like Vue for example), the test results may be inaccurate for dynamic content. We hope to accommodate them eventually, but these frameworks are not currently supported for D3 projects.
 
-**Історія користувача №1:** моя treemap повинна мати заголовок з відповідним `id="title"`.
+**User Story #1:** My tree map should have a title with a corresponding `id="title"`.
 
-**Історія користувача №2:** моя treemap повинна мати опис з відповідним `id="description"`.
+**User Story #2:** My tree map should have a description with a corresponding `id="description"`.
 
-**Історія користувача №3:** моя treemap повинна мати елементи `rect` з відповідним `class="tile"`, що показують дані.
+**User Story #3:** My tree map should have `rect` elements with a corresponding `class="tile"` that represent the data.
 
-**Історія користувача №4:** потрібно використати принаймні 2 різних кольори заливки для комірок.
+**User Story #4:** There should be at least 2 different fill colors used for the tiles.
 
-**Історія користувача №5:** кожна комірка повинна мати властивості `data-name`, `data-category` та `data-value` з відповідними `name`, `category` та `value`.
+**User Story #5:** Each tile should have the properties `data-name`, `data-category`, and `data-value` containing their corresponding `name`, `category`, and `value`.
 
-**Історія користувача №6:** ділянка кожної комірки повинна відповідати обсягу `data-value`: комірки з більшим `data-value` повинні мати більшу ділянку.
+**User Story #6:** The area of each tile should correspond to the `data-value` amount: tiles with a larger `data-value` should have a bigger area.
 
-**Історія користувача №7:** моя treemap повинна мати легенду з відповідним `id="legend"`.
+**User Story #7:** My tree map should have a legend with corresponding `id="legend"`.
 
-**Історія користувача №8:** легенда повинна містити елементи `rect` з відповідним `class="legend-item"`.
+**User Story #8:** My legend should have `rect` elements with a corresponding `class="legend-item"`.
 
-**Історія користувача №9:** потрібно використати принаймні 2 різних кольори заливки для елементів `rect`.
+**User Story #9:** The `rect` elements in the legend should use at least 2 different fill colors.
 
-**Історія користувача №10:** я можу навести курсор на певну ділянку та побачу спливаючу підказку з відповідним `id="tooltip"`, що показує більше інформації про ділянку.
+**User Story #10:** I can mouse over an area and see a tooltip with a corresponding `id="tooltip"` which displays more information about the area.
 
-**Історія користувача №11:** спливаюча підказка повинна мати властивість `data-value`, яка відповідає `data-value` наведеної ділянки.
+**User Story #11:** My tooltip should have a `data-value` property that corresponds to the `data-value` of the active area.
 
-Ось набір даних, необхідних для виконання цього проєкту:
+For this project you can use any of the following datasets:
 
--   **Внески Kickstarter:** `https://cdn.freecodecamp.org/testable-projects-fcc/data/tree_map/kickstarter-funding-data.json`
--   **Продажі фільмів:** `https://cdn.freecodecamp.org/testable-projects-fcc/data/tree_map/movie-data.json`
--   **Продажі відеоігор:** `https://cdn.freecodecamp.org/testable-projects-fcc/data/tree_map/video-game-sales-data.json`
+-   **Kickstarter Pledges:** `https://cdn.freecodecamp.org/testable-projects-fcc/data/tree_map/kickstarter-funding-data.json`
+-   **Movie Sales:** `https://cdn.freecodecamp.org/testable-projects-fcc/data/tree_map/movie-data.json`
+-   **Video Game Sales:** `https://cdn.freecodecamp.org/testable-projects-fcc/data/tree_map/video-game-sales-data.json`
 
-Ви можете створити свій проєкт, <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">використовуючи цей шаблон CodePen</a> і натиснувши `Save`. Або ж ви можете скористатися цим посиланням CDN, щоб виконати тести в будь-якому середовищі: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
+You can build your project by <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">using this CodePen template</a> and clicking `Save` to create your own pen. Or you can use this CDN link to run the tests in any environment you like: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
 
-Як тільки закінчите, надайте посилання на свій проєкт з усіма пройденими тестами.
+Once you're done, submit the URL to your working project with all its tests passing.
 
 # --solutions--
 

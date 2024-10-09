@@ -1,6 +1,6 @@
 ---
 id: 5900f3761000cf542c50fe89
-title: '問題 10: 素数の和'
+title: 'Problem 10: Summation of primes'
 challengeType: 1
 forumTopicId: 301723
 dashedName: problem-10-summation-of-primes
@@ -8,37 +8,37 @@ dashedName: problem-10-summation-of-primes
 
 # --description--
 
-10 より小さい素数の和は、2 + 3 + 5 + 7 = 17 です。
+The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
 
-`n` より小さい素数の総和を求めなさい。
+Find the sum of all the primes below `n`.
 
 # --hints--
 
-`primeSummation(17)` は数値を返す必要があります。
+`primeSummation(17)` should return a number.
 
 ```js
 assert(typeof primeSummation(17) === 'number');
 ```
 
-`primeSummation(17)` は 41 を返す必要があります。
+`primeSummation(17)` should return 41.
 
 ```js
 assert.strictEqual(primeSummation(17), 41);
 ```
 
-`primeSummation(2001)` は 277050 を返す必要があります。
+`primeSummation(2001)` should return 277050.
 
 ```js
 assert.strictEqual(primeSummation(2001), 277050);
 ```
 
-`primeSummation(140759)` は 873608362 を返す必要があります。
+`primeSummation(140759)` should return 873608362.
 
 ```js
 assert.strictEqual(primeSummation(140759), 873608362);
 ```
 
-`primeSummation(2000000)` は 142913828922 を返す必要があります。
+`primeSummation(2000000)` should return 142913828922.
 
 ```js
 assert.strictEqual(primeSummation(2000000), 142913828922);

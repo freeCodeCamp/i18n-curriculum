@@ -1,6 +1,6 @@
 ---
 id: 587d781a367417b2b2512ab8
-title: Використання тегу u для підкреслення тексту
+title: Use the u Tag to Underline Text
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cN6aQCL'
 forumTopicId: 301082
@@ -9,23 +9,23 @@ dashedName: use-the-u-tag-to-underline-text
 
 # --description--
 
-Щоб підкреслити текст, ви можете скористатися тегом `u`. Це часто використовується, щоб виділити важливу частину тексту або те, що необхідно запам'ятати. З тегом `u` браузер використовує до елементу CSS властивість `text-decoration: underline;`.
+To underline text, you can use the `u` tag. This is often used to signify that a section of text is important, or something to remember. With the `u` tag, the browser applies the CSS of `text-decoration: underline;` to the element.
 
 # --instructions--
 
-Тег `u` має містити лише текст `Ph.D. students`.
+Wrap the `u` tag only around the text `Ph.D. students`.
 
-**Примітка:**Намагайтеся уникнути використання тегу `u` для тексту, схожого на посилання. Якірні теги також мають формат підкреслення за замовчуванням.
+**Note:** Try to avoid using the `u` tag when it could be confused for a link. Anchor tags also have a default underlined formatting.
 
 # --hints--
 
-Ваш код має додати тег `u` у текст розмітки.
+Your code should add a `u` tag to the markup.
 
 ```js
 assert.lengthOf(document.querySelectorAll('u'), 1);
 ```
 
-Тег `u` має містити лише текст `Ph.D. students`.
+The `u` tag should wrap around the text `Ph.D. students`.
 
 ```js
 assert.equal(document.querySelector('u')?.textContent , 'Ph.D. students');

@@ -1,6 +1,6 @@
 ---
 id: 587d7db0367417b2b2512b82
-title: 瞭解原型鏈
+title: Understand the Prototype Chain
 challengeType: 1
 forumTopicId: 301329
 dashedName: understand-the-prototype-chain
@@ -8,7 +8,7 @@ dashedName: understand-the-prototype-chain
 
 # --description--
 
-JavaScript 中所有的對象（除了少數例外）都有自己的 `prototype`。 而且，對象的 `prototype` 本身也是一個對象。
+All objects in JavaScript (with a few exceptions) have a `prototype`. Also, an object’s `prototype` itself is an object.
 
 ```js
 function Bird(name) {
@@ -18,28 +18,28 @@ function Bird(name) {
 typeof Bird.prototype;
 ```
 
-正因爲 `prototype` 是一個對象，所以 `prototype` 對象也有它自己的 `prototype`！ 這樣看來的話，`Bird.prototype` 的 `prototype` 就是 `Object.prototype`：
+Because a `prototype` is an object, a `prototype` can have its own `prototype`! In this case, the `prototype` of `Bird.prototype` is `Object.prototype`:
 
 ```js
 Object.prototype.isPrototypeOf(Bird.prototype);
 ```
 
-這有什麼作用呢？ 你可能還記得我們在上一個挑戰中學到的 `hasOwnProperty` 方法：
+How is this useful? You may recall the `hasOwnProperty` method from a previous challenge:
 
 ```js
 let duck = new Bird("Donald");
 duck.hasOwnProperty("name");
 ```
 
-`hasOwnProperty` 是定義在 `Object.prototype` 上的一個方法，儘管在 `Bird.prototype` 和 `duck`上並沒有定義該方法，但是我們依然可以在這兩個對象上訪問到。 這就是 `prototype` 鏈的一個例子。 在這個`prototype` 鏈中，`Bird` 是 `duck` 的 `supertype`，而 `duck` 是 `subtype`。 `Object` 則是 `Bird` 和 `duck` 實例共同的 `supertype`。 `Object` 是 JavaScript 中所有對象的 `supertype`，也就是原型鏈的最頂層。 因此，所有對象都可以訪問 `hasOwnProperty` 方法。
+The `hasOwnProperty` method is defined in `Object.prototype`, which can be accessed by `Bird.prototype`, which can then be accessed by `duck`. This is an example of the `prototype` chain. In this `prototype` chain, `Bird` is the `supertype` for `duck`, while `duck` is the `subtype`. `Object` is a `supertype` for both `Bird` and `duck`. `Object` is a `supertype` for all objects in JavaScript. Therefore, any object can use the `hasOwnProperty` method.
 
 # --instructions--
 
-修改以下代碼使其展示出正確的原型鏈。
+Modify the code to show the correct prototype chain.
 
 # --hints--
 
-你的代碼應該展示 `Object.prototype` 是 `Dog.prototype` 的原型。
+Your code should show that `Object.prototype` is the prototype of `Dog.prototype`
 
 ```js
 assert(/Object\.prototype\.isPrototypeOf/.test(__helpers.removeJSComments(code)));

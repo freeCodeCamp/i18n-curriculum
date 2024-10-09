@@ -1,6 +1,6 @@
 ---
 id: 587d824c367417b2b2512c4e
-title: Перевірте, чи значення є меншим чи дорівнює іншому
+title: Test if One Value is Below or At Least as Large as Another
 challengeType: 2
 forumTopicId: 301606
 dashedName: test-if-one-value-is-below-or-at-least-as-large-as-another
@@ -8,15 +8,15 @@ dashedName: test-if-one-value-is-below-or-at-least-as-large-as-another
 
 # --description--
 
-Нагадуємо, що цей проєкт створюється на основі наступного стартового проєкту на <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a> або клонований з <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
+As a reminder, this project is being built upon the following starter project on <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>, or cloned from <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
 
 # --instructions--
 
-У межах `tests/1_unit-tests.js` під тестом з міткою `#9` в наборі `Comparisons` змініть кожний `assert` на `assert.isBelow` або `assert.isAtLeast`, щоб пройти тест (повинен дорівнювати `true`). Не змінюйте аргументи, передані до тверджень.
+Within `tests/1_unit-tests.js` under the test labelled `#9` in the `Comparisons` suite, change each `assert` to either `assert.isBelow` or `assert.isAtLeast` to make the test pass (should evaluate to `true`). Do not alter the arguments passed to the asserts.
 
 # --hints--
 
-Всі тести повинні бути успішно пройдені.
+All tests should pass.
 
 ```js
 (getUserInput) =>
@@ -30,7 +30,7 @@ dashedName: test-if-one-value-is-below-or-at-least-as-large-as-another
   );
 ```
 
-Ви повинні обрати правильний метод для першого твердження: `isBelow` або `isAtLeast`.
+You should choose the correct method for the first assertion - `isBelow` vs. `isAtLeast`.
 
 ```js
 (getUserInput) =>
@@ -48,7 +48,7 @@ dashedName: test-if-one-value-is-below-or-at-least-as-large-as-another
   );
 ```
 
-Ви повинні обрати правильний метод для другого твердження: `isBelow` або `isAtLeast`.
+You should choose the correct method for the second assertion - `isBelow` vs. `isAtLeast`.
 
 ```js
 (getUserInput) =>
@@ -66,7 +66,7 @@ dashedName: test-if-one-value-is-below-or-at-least-as-large-as-another
   );
 ```
 
-Ви повинні обрати правильний метод для третього твердження: `isBelow` або `isAtLeast`.
+You should choose the correct method for the third assertion - `isBelow` vs. `isAtLeast`.
 
 ```js
 (getUserInput) =>
@@ -80,7 +80,7 @@ dashedName: test-if-one-value-is-below-or-at-least-as-large-as-another
   );
 ```
 
-Ви повинні обрати правильний метод для четвертого твердження: `isBelow` або `isAtLeast`.
+You should choose the correct method for the fourth assertion - `isBelow` vs. `isAtLeast`.
 
 ```js
 (getUserInput) =>

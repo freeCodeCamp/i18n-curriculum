@@ -1,6 +1,6 @@
 ---
 id: 594810f028c0303b75339ad4
-title: Mandare a capo
+title: Word wrap
 challengeType: 1
 forumTopicId: 302344
 dashedName: word-wrap
@@ -12,7 +12,7 @@ Even today, with proportional fonts and complex layouts, there are still cases w
 
 # --instructions--
 
-Scrivi una funzione che può mandare a capo questo testo a qualsiasi numero di caratteri. Ad esempio, il testo a capo di 80 caratteri dovrebbe assomigliare a quanto segue:
+Write a function that can wrap this text to any number of characters. As an example, the text wrapped to 80 characters should look like the following:
 
 <pre>
 Wrap text using a more sophisticated algorithm such as the Knuth and Plass TeX
@@ -23,37 +23,37 @@ than a simple minimum length algorithm.
 
 # --hints--
 
-wrap dovrebbe essere una funzione.
+wrap should be a function.
 
 ```js
 assert.equal(typeof wrap, 'function');
 ```
 
-wrap dovrebbe restituire una stringa.
+wrap should return a string.
 
 ```js
 assert.equal(typeof wrap('abc', 10), 'string');
 ```
 
-wrap(80) dovrebbe restituire 4 righe.
+wrap(80) should return 4 lines.
 
 ```js
 assert(wrapped80.split('\n').length === 4);
 ```
 
-La funzione `wrap` dovrebbe restituire il testo previsto.
+Your `wrap` function should return our expected text.
 
 ```js
 assert.equal(wrapped80.split('\n')[0], firstRow80);
 ```
 
-wrap(42) dovrebbe restituire 7 righe.
+wrap(42) should return 7 lines.
 
 ```js
 assert(wrapped42.split('\n').length === 7);
 ```
 
-La funzione `wrap` dovrebbe restituire il testo previsto.
+Your `wrap` function should return our expected text.
 
 ```js
 assert.equal(wrapped42.split('\n')[0], firstRow42);

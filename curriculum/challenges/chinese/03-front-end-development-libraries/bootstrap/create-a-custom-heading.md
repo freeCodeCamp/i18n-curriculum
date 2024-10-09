@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aede08845
-title: 创建自定义标题
+title: Create a Custom Heading
 challengeType: 0
 forumTopicId: 16816
 dashedName: create-a-custom-heading
@@ -8,17 +8,17 @@ dashedName: create-a-custom-heading
 
 # --description--
 
-为 Cat Photo App 做一个简单的头部，把标题和惬意的猫咪图片放在同一行。
+We will make a simple heading for our Cat Photo App by putting the title and relaxing cat image in the same row.
 
-记住，由于 Bootstrap 使用了响应式栅格系统，可以很方便地把元素放到一行以及指定元素的相对宽度。 大部分的 Bootstrap 的 class 都能被用在 `div` 元素上。
+Remember, Bootstrap uses a responsive grid system, which makes it easy to put elements into rows and specify each element's relative width. Most of Bootstrap's classes can be applied to a `div` element.
 
-把第一张图片和 `h2` 元素用一个简单的 `<div class="row">` 元素包裹起来。 再用 `<div class="col-xs-8">` 包裹 `h2` 元素，用 `<div class="col-xs-4">` 包裹我们的图片，这样它们就能位于同一行了。
+Nest your first image and your `h2` element within a single `<div class="row">` element. Nest your `h2` element within a `<div class="col-xs-8">` and your image in a `<div class="col-xs-4">` so that they are on the same line.
 
-注意现在图片是否与文字大小一致呢？
+Notice how the image is now just the right size to fit along the text?
 
 # --hints--
 
-`h2` 元素和最上方的 `img` 元素应该一起内嵌于具有 `row` class 的 `div` 元素内。
+Your `h2` element and topmost `img` element should both be nested together within a `div` element with the class `row`.
 
 ```js
 const row = document.querySelector('div.row');
@@ -28,7 +28,7 @@ assert.lengthOf(h2,1);
 assert.lengthOf(image ,1);
 ```
 
-最上方的 `img` 元素应该内嵌于含有 `col-xs-4` class 的 `div` 元素中。
+Your topmost `img` element should be nested within a `div` with the class `col-xs-4`.
 
 ```js
 const column = document.querySelector('div.col-xs-4');
@@ -38,7 +38,7 @@ assert.isEmpty(div);
 assert.lengthOf(img,1)
 ```
 
-`h2` 元素应该内嵌于含有 `col-xs-8` class 的 `div` 元素中。
+Your `h2` element should be nested within a `div` with the class `col-xs-8`.
 
 ```js
 const column = document.querySelector('div.col-xs-8');
@@ -49,7 +49,7 @@ assert.isEmpty(div);
 assert.lengthOf(h2, 1);
 ```
 
-确保每一个 `div` 元素都有一个结束标签。
+All of your `div` elements should have closing tags.
 
 ```js
 assert.match(code,/<\/div>/g);

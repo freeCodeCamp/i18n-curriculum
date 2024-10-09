@@ -1,6 +1,6 @@
 ---
 id: 618590adb0730ca724e37672
-title: "学生データベースを構築する (パート 2)"
+title: "Build a Student Database: Part 2"
 challengeType: 12
 url: freeCodeCamp/learn-sql-by-building-a-student-database-part-2
 dashedName: build-a-student-database-part-2
@@ -8,7 +8,7 @@ dashedName: build-a-student-database-part-2
 
 # --description--
 
-この 140 のレッスンから成るコースでは、SQL コマンドをより深く掘り下げながら、学生データベースを完成させます。
+In this 140-lesson course, you will complete your student database while diving deeper into SQL commands.
 
 # --instructions--
 

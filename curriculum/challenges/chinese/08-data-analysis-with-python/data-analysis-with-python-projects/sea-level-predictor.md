@@ -1,6 +1,6 @@
 ---
 id: 5e4f5c4b570f7e3a4949899f
-title: 海平面预报器
+title: Sea Level Predictor
 challengeType: 10
 forumTopicId: 462370
 dashedName: sea-level-predictor
@@ -10,46 +10,46 @@ dashedName: sea-level-predictor
 
 You will be <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-sea-level-predictor/" target="_blank" rel="noopener noreferrer nofollow">working on this project with our Gitpod starter code</a>.
 
-我们仍在开发 Python 课程的交互式教学部分。 目前，你可以在 YouTube 上通过 freeCodeCamp.org 上传的一些视频学习这个项目相关的知识。
+We are still developing the interactive instructional part of the Python curriculum. For now, here are some videos on the freeCodeCamp.org YouTube channel that will teach you everything you need to know to complete this project:
 
-- <a href="https://www.freecodecamp.org/news/python-for-everybody/" target="_blank" rel="noopener noreferrer nofollow">每个人视频课程的 Python</a> (14小时)
+- <a href="https://www.freecodecamp.org/news/python-for-everybody/" target="_blank" rel="noopener noreferrer nofollow">Python for Everybody Video Course</a> (14 hours)
 
-- <a href="https://www.freecodecamp.org/news/how-to-analyze-data-with-python-pandas/" target="_blank" rel="noopener noreferrer nofollow">如何使用 Python Pandas 分析数据</a>（10 小时）
+- <a href="https://www.freecodecamp.org/news/how-to-analyze-data-with-python-pandas/" target="_blank" rel="noopener noreferrer nofollow">How to Analyze Data with Python Pandas</a> (10 hours)
 
 # --instructions--
 
-你将分析自 1880 年以来全球平均海平面变化的数据集。 你将使用这些数据来预测到 2050 年的海平面变化。
+You will analyze a dataset of the global average sea level change since 1880. You will use the data to predict the sea level change through year 2050.
 
-使用数据完成以下任务：
+Use the data to complete the following tasks:
 
-- 使用 Pandas 从 `epa-sea-level.csv` 导入数据。
-- 使用 matplotlib 创建散点图，将 `Year` 列作为 x 轴，将 `CSIRO Adjusted Sea Level` 列作为 y 轴。
-- 使用 `scipy.stats` 中的 `linregress` 函数来获得最佳拟合线的斜率和 y 截距。 在散点图的顶部绘制最佳拟合线。 使线穿过 2050 年以预测 2050 年的海平面上升。
-- 仅使用数据集中从 2000 年到最近一年的数据绘制一条新的最佳拟合线。 如果上升速度继续与 2000 年一样，则使该线也经过 2050 年以预测 2050 年的海平面上升。
-- x 标签应为 `Year`，y 标签应为 `Sea Level (inches)`，标题应为 `Rise in Sea Level`。
+- Use Pandas to import the data from `epa-sea-level.csv`.
+- Use matplotlib to create a scatter plot using the `Year` column as the x-axis and the `CSIRO Adjusted Sea Level` column as the y-axis.
+- Use the `linregress` function from `scipy.stats` to get the slope and y-intercept of the line of best fit. Plot the line of best fit over the top of the scatter plot. Make the line go through the year 2050 to predict the sea level rise in 2050.
+- Plot a new line of best fit just using the data from year 2000 through the most recent year in the dataset. Make the line also go through the year 2050 to predict the sea level rise in 2050 if the rate of rise continues as it has since the year 2000.
+- The x label should be `Year`, the y label should be `Sea Level (inches)`, and the title should be `Rise in Sea Level`.
 
-样板文件还包括保存和返回图像的命令。
+The boilerplate also includes commands to save and return the image.
 
-## 开发
+## Development
 
 Write your code in `sea_level_predictor.py`. For development, you can use `main.py` to test your code.
 
-## 测试
+## Testing
 
-The unit tests for this project are in `test_module.py`. 为了你的方便，我们将测试从 `test_module.py` 导入到 `main.py`。
+The unit tests for this project are in `test_module.py`. We imported the tests from `test_module.py` to `main.py` for your convenience.
 
-## 提交
+## Submitting
 
-复制项目的 URL 并将其提交给 freeCodeCamp。
+Copy your project's URL and submit it to freeCodeCamp.
 
-## 数据源
+## Data Source
 
-<a href="https://datahub.io/core/sea-level-rise" target="_blank" rel="noopener noreferrer nofollow">全球平均绝对海平面变化</a>，1880 - 2014 年，来自美国环境保护局，数据来源：CSIRO, 2015; NOAA, 2015。
+<a href="https://datahub.io/core/sea-level-rise" target="_blank" rel="noopener noreferrer nofollow">Global Average Absolute Sea Level Change</a>, 1880-2014 from the US Environmental Protection Agency using data from CSIRO, 2015; NOAA, 2015.
 
 
 # --hints--
 
-它应该通过所有的 Python 测试。
+It should pass all Python tests.
 
 ```js
 

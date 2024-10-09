@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aede08807
-title: Establece la familia de fuentes de un elemento
+title: Set the Font Family of an Element
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/c3bvpCg'
 forumTopicId: 18278
@@ -9,9 +9,9 @@ dashedName: set-the-font-family-of-an-element
 
 # --description--
 
-Puedes utilizar la propiedad `font-family` (familia de fuente) para establecer qué fuente debe usar un elemento.
+You can set which font an element should use, by using the `font-family` property.
 
-Por ejemplo, si quieres establecer la fuente de tu elemento `h2` a `sans-serif`, usarías el siguiente CSS:
+For example, if you wanted to set your `h2` element's font to `sans-serif`, you would use the following CSS:
 
 ```css
 h2 {
@@ -21,11 +21,11 @@ h2 {
 
 # --instructions--
 
-Haz que todos tus elementos `p` usen la fuente `monospace`.
+Make all of your `p` elements use the `monospace` font.
 
 # --hints--
 
-Tus elementos `p` deben usar la fuente `monospace`.
+Your `p` elements should use the font `monospace`.
 
 ```js
 assert(

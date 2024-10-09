@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aede08807
-title: Встановіть сімейство шрифтів елемента
+title: Set the Font Family of an Element
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/c3bvpCg'
 forumTopicId: 18278
@@ -9,9 +9,9 @@ dashedName: set-the-font-family-of-an-element
 
 # --description--
 
-Ви можете налаштувати шрифт, який використовує елемент, за допомогою властивості `font-family`.
+You can set which font an element should use, by using the `font-family` property.
 
-Наприклад, якби ви хотіли встановити шрифт `sans-serif` для елемента `h2`, ви б використали такі CSS:
+For example, if you wanted to set your `h2` element's font to `sans-serif`, you would use the following CSS:
 
 ```css
 h2 {
@@ -21,11 +21,11 @@ h2 {
 
 # --instructions--
 
-Встановіть шрифт `monospace` для всіх елементів `p`.
+Make all of your `p` elements use the `monospace` font.
 
 # --hints--
 
-Елементи `p` повинні використовувати шрифт `monospace`.
+Your `p` elements should use the font `monospace`.
 
 ```js
 assert(

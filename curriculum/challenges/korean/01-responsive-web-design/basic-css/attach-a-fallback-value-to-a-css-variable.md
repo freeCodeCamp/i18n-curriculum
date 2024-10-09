@@ -1,6 +1,6 @@
 ---
 id: 5a9d7286424fe3d0e10cad13
-title: CSS변수에 Fallback 값 추가하기
+title: Attach a Fallback value to a CSS Variable
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/c6bDNfp'
 forumTopicId: 301084
@@ -9,25 +9,25 @@ dashedName: attach-a-fallback-value-to-a-css-variable
 
 # --description--
 
-CSS속성 값으로 변수를 사용할 때, 지정된 변수가 유효하지 않을 경우 브라우저가 반환할 fallback 값을 추가할 수 있습니다.
+When using your variable as a CSS property value, you can attach a fallback value that your browser will revert to if the given variable is invalid.
 
-**Note:** fallback은 브라우저 호환성을 높이는데 사용되지는 않으며, IE(인터넷 익스플로어) 브라우저에서는 작동하지 않습니다. 오히려, 브라우저가 변수를 찾을 수 없는 경우 표시할 색상을 갖도록 사용됩니다.
+**Note:** This fallback is not used to increase browser compatibility, and it will not work on IE browsers. Rather, it is used so that the browser has a color to display if it cannot find your variable.
 
-방법은 다음과 같습니다:
+Here's how you do it:
 
 ```css
 background: var(--penguin-skin, black);
 ```
 
-만약 변수가 설정되어 있지 않다면 배경색이 `black`으로 설정될 것입니다. 이것은 디버깅에 유용합니다.
+This will set background to `black` if your variable wasn't set. Note that this can be useful for debugging.
 
 # --instructions--
 
-`.penguin-top` 및 `.penguin-bottom` 클래스에 제공된 변수에 문제가 있는 것처럼 보입니다. 타이핑을 수정하는 것보다, `.penguin-top` 및`.penguin-bottom` 클래스의 `background` 속성에 fallback value로 `black`를 추가하는 것이 좋습니다.
+It looks like there is a problem with the variables supplied to the `.penguin-top` and `.penguin-bottom` classes. Rather than fix the typo, add a fallback value of `black` to the `background` property of the `.penguin-top` and `.penguin-bottom` classes.
 
 # --hints--
 
-Fallback 값 `black`은 `penguin-top` 클래스의 `background` 속성에 사용되어야 합니다.
+The fallback value of `black` should be used in the `background` property of the `penguin-top` class.
 
 ```js
 assert(
@@ -37,7 +37,7 @@ assert(
 );
 ```
 
-Fallback 값 `black`은 `penguin-bottom` 클래스의 `background` 속성에 사용되어야 합니다.
+The fallback value of `black` should be used in `background` property of the `penguin-bottom` class.
 
 ```js
 assert(

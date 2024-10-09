@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aede08807
-title: 设置元素的字体族名
+title: Set the Font Family of an Element
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/c3bvpCg'
 forumTopicId: 18278
@@ -9,9 +9,9 @@ dashedName: set-the-font-family-of-an-element
 
 # --description--
 
-通过 `font-family` 属性，我们可以设置元素里的字体族名。
+You can set which font an element should use, by using the `font-family` property.
 
-如果你想将 `h2` 元素的字体设置为 `sans-serif`，可以这样写：
+For example, if you wanted to set your `h2` element's font to `sans-serif`, you would use the following CSS:
 
 ```css
 h2 {
@@ -21,11 +21,11 @@ h2 {
 
 # --instructions--
 
-请将 `p` 元素的字体设置为 `monospace`。
+Make all of your `p` elements use the `monospace` font.
 
 # --hints--
 
-`p` 元素应使用 `monospace` 作为字体。
+Your `p` elements should use the font `monospace`.
 
 ```js
 assert(

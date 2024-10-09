@@ -1,6 +1,6 @@
 ---
 id: 56533eb9ac21ba0edf2244bc
-title: Lista della spesa
+title: Shopping List
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/c9MEKHZ'
 forumTopicId: 18280
@@ -9,37 +9,37 @@ dashedName: shopping-list
 
 # --description--
 
-Crea una lista della spesa nella variabile `myList`. L'elenco dovrebbe essere un array multidimensionale contenente diversi sotto-array.
+Create a shopping list in the variable `myList`. The list should be a multi-dimensional array containing several sub-arrays.
 
-Il primo elemento in ogni sotto-array dovrebbe contenere una stringa con il nome dell'elemento. Il secondo elemento dovrebbe essere un numero che rappresenta la quantità, per esempio
+The first element in each sub-array should contain a string with the name of the item. The second element should be a number representing the quantity i.e.
 
 ```js
 ["Chocolate Bar", 15]
 ```
 
-Ci dovrebbero essere almeno 5 sotto-array nella lista.
+There should be at least 5 sub-arrays in the list.
 
 # --hints--
 
-`myList` dovrebbe essere un array.
+`myList` should be an array.
 
 ```js
 assert(isArray);
 ```
 
-Il primo elemento in ciascuno dei sotto-array dovrebbe essere una stringa.
+The first elements in each of your sub-arrays should all be strings.
 
 ```js
 assert(hasString);
 ```
 
-Il secondo elemento in ciascuno dei sotto-array dovrebbe essere un numero.
+The second elements in each of your sub-arrays should all be numbers.
 
 ```js
 assert(hasNumber);
 ```
 
-Dovresti avere almeno 5 articoli nella lista.
+You should have at least 5 items in your list.
 
 ```js
 assert(count > 4);

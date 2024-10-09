@@ -1,6 +1,6 @@
 ---
 id: 5e7b9f0b0b6c005b0e76f06d
-title: Tuples 的比较和排序
+title: Comparing and Sorting Tuples
 challengeType: 11
 videoId: dZXzBXUxxCs
 bilibiliIds:
@@ -14,13 +14,13 @@ dashedName: comparing-and-sorting-tuples
 
 More resources:
 
-\- <a href="https://www.youtube.com/watch?v=EhQxwzyT16E" target="_blank" rel="noopener noreferrer nofollow">练习</a>
+\- <a href="https://www.youtube.com/watch?v=EhQxwzyT16E" target="_blank" rel="noopener noreferrer nofollow">Exercise</a>
 
 # --questions--
 
 ## --text--
 
-哪个代码与示例代码完成相同的功能？
+Which does the same thing as the following code?:
 
 ```python
 lst = []

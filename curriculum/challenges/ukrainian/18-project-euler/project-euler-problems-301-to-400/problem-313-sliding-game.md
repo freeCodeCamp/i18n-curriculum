@@ -1,6 +1,6 @@
 ---
 id: 5900f4a61000cf542c50ffb8
-title: 'Завдання 313: гра «П’ятнашки»'
+title: 'Problem 313: Sliding game'
 challengeType: 1
 forumTopicId: 301969
 dashedName: problem-313-sliding-game
@@ -8,21 +8,21 @@ dashedName: problem-313-sliding-game
 
 # --description--
 
-У п’ятнашках фішку можна переміщати горизонтально або вертикально, займаючи порожнє місце. Мета гри — перемістити червону фішку з лівого верхнього кута сітки в правий нижній кут. На початку гри порожньою клітинкою завжди є нижній правий кут. Ось приклад того, як можна завершити гру за п’ять ходів на сітці 2 × 2.
+In a sliding game a counter may slide horizontally or vertically into an empty space. The objective of the game is to move the red counter from the top left corner of a grid to the bottom right corner; the space always starts in the bottom right corner. For example, the following sequence of pictures show how the game can be completed in five moves on a 2 by 2 grid.
 
-<img alt="завершення гри за п’ять ходів на сітці 2х2" src="https://cdn.freecodecamp.org/curriculum/project-euler/sliding-game-1.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
+<img alt="completing game in five moves on grid 2x2" src="https://cdn.freecodecamp.org/curriculum/project-euler/sliding-game-1.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-Нехай $S(m, n)$ позначає мінімальну кількість ходів, щоб завершити гру на сітці розміром $m$ × $n$. Наприклад, можна довести, що $S(5, 4) = 25$.
+Let $S(m, n)$ represent the minimum number of moves to complete the game on an $m$ by $n$ grid. For example, it can be verified that $S(5, 4) = 25$.
 
-<img alt="початок і кінець гри на сітці розміром 5х4" src="https://cdn.freecodecamp.org/curriculum/project-euler/sliding-game-2.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
+<img alt="initial grid state and final grid state for game on grid 5x4" src="https://cdn.freecodecamp.org/curriculum/project-euler/sliding-game-2.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-Існує 5482 сітки, за яких $S(m, n) = p^2$, де $p &lt; 100$ є простим числом.
+There are exactly 5482 grids for which $S(m, n) = p^2$, where $p &lt; 100$ is prime.
 
-Скільки сіток створює $S(m, n) = p^2$, де $p &lt; {10}^6$ є простим числом?
+How many grids does $S(m, n) = p^2$, where $p &lt; {10}^6$ is prime?
 
 # --hints--
 
-`slidingGame()` має повернути `2057774861813004`.
+`slidingGame()` should return `2057774861813004`.
 
 ```js
 assert.strictEqual(slidingGame(), 2057774861813004);

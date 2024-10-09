@@ -1,6 +1,6 @@
 ---
 id: 587d824c367417b2b2512c4e
-title: ある値が、他の値より小さいか、もしくは他の値以上かをテストする
+title: Test if One Value is Below or At Least as Large as Another
 challengeType: 2
 forumTopicId: 301606
 dashedName: test-if-one-value-is-below-or-at-least-as-large-as-another
@@ -12,11 +12,11 @@ As a reminder, this project is being built upon the following starter project on
 
 # --instructions--
 
-`tests/1_unit-tests.js` の中の、`Comparisons` スイート内の `#9` に分類されたテストにおいて、テストを成功させる (`true` と評価する必要があります) ために、それぞれの `assert` を `assert.isBelow` または `assert.isAtLeast` に変更してください。 アサートに渡された引数を変更しないでください。
+Within `tests/1_unit-tests.js` under the test labelled `#9` in the `Comparisons` suite, change each `assert` to either `assert.isBelow` or `assert.isAtLeast` to make the test pass (should evaluate to `true`). Do not alter the arguments passed to the asserts.
 
 # --hints--
 
-すべてのテストが成功する必要があります。
+All tests should pass.
 
 ```js
 (getUserInput) =>
@@ -30,7 +30,7 @@ As a reminder, this project is being built upon the following starter project on
   );
 ```
 
-最初のアサーションに対して、正しいメソッドを選ぶ必要があります - `isBelow` もしくは `isAtLeast` です。
+You should choose the correct method for the first assertion - `isBelow` vs. `isAtLeast`.
 
 ```js
 (getUserInput) =>
@@ -48,7 +48,7 @@ As a reminder, this project is being built upon the following starter project on
   );
 ```
 
-2 番目のアサーションに対して、正しいメソッドを選ぶ必要があります - `isBelow` もしくは `isAtLeast` です。
+You should choose the correct method for the second assertion - `isBelow` vs. `isAtLeast`.
 
 ```js
 (getUserInput) =>
@@ -66,7 +66,7 @@ As a reminder, this project is being built upon the following starter project on
   );
 ```
 
-3 番目のアサーションに対して、正しいメソッドを選ぶ必要があります - `isBelow` もしくは `isAtLeast` です。
+You should choose the correct method for the third assertion - `isBelow` vs. `isAtLeast`.
 
 ```js
 (getUserInput) =>
@@ -80,7 +80,7 @@ As a reminder, this project is being built upon the following starter project on
   );
 ```
 
-4 番目のアサーションに対して、正しいメソッドを選ぶ必要があります - `isBelow` もしくは `isAtLeast` です。
+You should choose the correct method for the fourth assertion - `isBelow` vs. `isAtLeast`.
 
 ```js
 (getUserInput) =>

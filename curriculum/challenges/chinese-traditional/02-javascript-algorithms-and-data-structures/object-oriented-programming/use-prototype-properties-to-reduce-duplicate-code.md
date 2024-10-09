@@ -1,6 +1,6 @@
 ---
 id: 587d7dae367417b2b2512b7c
-title: 使用原型屬性來減少重複代碼
+title: Use Prototype Properties to Reduce Duplicate Code
 challengeType: 1
 forumTopicId: 301336
 dashedName: use-prototype-properties-to-reduce-duplicate-code
@@ -8,44 +8,44 @@ dashedName: use-prototype-properties-to-reduce-duplicate-code
 
 # --description--
 
-所有 `Bird` 實例可能會有相同的 `numLegs` 值，所以在每一個 `Bird` 的實例中本質上都有一個重複的變量 `numLegs`。
+Since `numLegs` will probably have the same value for all instances of `Bird`, you essentially have a duplicated variable `numLegs` inside each `Bird` instance.
 
-當只有兩個實例時可能並不是什麼問題，但想象一下如果有數百萬個實例。 這將會產生許許多多重複的變量。
+This may not be an issue when there are only two instances, but imagine if there are millions of instances. That would be a lot of duplicated variables.
 
-更好的方法是使用 `Bird` 的 `prototype`。 `prototype` 是一個可以在所有 `Bird` 實例之間共享的對象。 以下是一個在 `Bird prototype` 中添加 `numLegs` 屬性的示例：
+A better way is to use the `prototype` of `Bird`. Properties in the `prototype` are shared among ALL instances of `Bird`. Here's how to add `numLegs` to the `Bird prototype`:
 
 ```js
 Bird.prototype.numLegs = 2;
 ```
 
-現在所有的 `Bird` 實例都擁有了共同的 `numLegs` 屬性值。
+Now all instances of `Bird` have the `numLegs` property.
 
 ```js
 console.log(duck.numLegs);
 console.log(canary.numLegs);
 ```
 
-由於所有的實例都可以繼承 `prototype` 上的屬性，所以可以把 `prototype` 看作是創建對象的 "配方"。 請注意：`duck` 和 `canary` 的 `prototype` 屬於 `Bird` 的構造函數，即 Bird 的原型 `Bird.prototype`。
+Since all instances automatically have the properties on the `prototype`, think of a `prototype` as a "recipe" for creating objects. Note that the `prototype` for `duck` and `canary` is part of the `Bird` constructor as `Bird.prototype`.
 
 # --instructions--
 
-給 `Dog` 的 `prototype` 添加一個 `numLegs` 屬性。
+Add a `numLegs` property to the `prototype` of `Dog`
 
 # --hints--
 
-`beagle` 應該有一個 `numLegs` 屬性。
+`beagle` should have a `numLegs` property.
 
 ```js
 assert(beagle.numLegs !== undefined);
 ```
 
-`beagle.numLegs` 應該是一個數字。
+`beagle.numLegs` should be a number.
 
 ```js
 assert(typeof beagle.numLegs === 'number');
 ```
 
-`numLegs` 應該是一個 `prototype` 屬性，而不是一個自身屬性。
+`numLegs` should be a `prototype` property not an own property.
 
 ```js
 assert(beagle.hasOwnProperty('numLegs') === false);

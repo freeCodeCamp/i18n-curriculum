@@ -1,6 +1,6 @@
 ---
 id: 587d7fa7367417b2b2512bc8
-title: Додайте класи за допомогою D3
+title: Add Classes with D3
 challengeType: 6
 forumTopicId: 301473
 dashedName: add-classes-with-d3
@@ -8,29 +8,29 @@ dashedName: add-classes-with-d3
 
 # --description--
 
-Багатьма вбудованими стилями в елементах HTML важко управляти, навіть у менших застосунках. Простіше додати клас до елементів та стилізувати його, використовуючи правила CSS. D3 має метод `attr()`, що дає змогу додавати будь-який атрибут HTML до елемента, включно з назвою класу.
+Using a lot of inline styles on HTML elements gets hard to manage, even for smaller apps. It's easier to add a class to elements and style that class one time using CSS rules. D3 has the `attr()` method to add any HTML attribute to an element, including a class name.
 
-Метод `attr()` працює так само, як і `style()`. Він приймає значення, розділені комою, і може використовувати функцію зворотного виклику. Ось приклад, як додати клас `container` до вибірки:
+The `attr()` method works the same way that `style()` does. It takes comma-separated values, and can use a callback function. Here's an example to add a class of `container` to a selection:
 
 ```js
 selection.attr("class", "container");
 ```
 
-Зауважте, що параметр `class` залишиться таким же, коли потрібно додати клас, і лише параметр `container` зміниться.
+Note that the `class` parameter will remain the same whenever you need to add a class and only the `container` parameter will change.
 
 # --instructions--
 
-Додайте метод `attr()` до коду в редакторі і застосуйте клас `bar` до елементів `div`.
+Add the `attr()` method to the code in the editor and put a class of `bar` on the `div` elements.
 
 # --hints--
 
-Елементи `div` повинні мати клас `bar`.
+Your `div` elements should have a class of `bar`.
 
 ```js
 assert($('div').attr('class').trim().split(/\s+/g).includes('bar'));
 ```
 
-Код має використати метод `attr()`.
+Your code should use the `attr()` method.
 
 ```js
 assert(code.match(/\.attr/g));

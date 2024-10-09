@@ -8,7 +8,7 @@ dashedName: understand-the-prototype-chain
 
 # --description--
 
-جميع ال objects في جافا سكريبت (مع بعض الاستثناءات) لديها `prototype`. أيضًا ، يعتبر الـ `prototype` لل object هو نفسه object.
+All objects in JavaScript (with a few exceptions) have a `prototype`. Also, an object’s `prototype` itself is an object.
 
 ```js
 function Bird(name) {
@@ -18,28 +18,28 @@ function Bird(name) {
 typeof Bird.prototype;
 ```
 
-لأن `prototype` هو object، فـ `prototype` يمكن أن يكون له الـ `prototype` الخاص به! في هذه الحالة، الـ `prototype` لـ `Bird.prototype` هو `Object.prototype`:
+Because a `prototype` is an object, a `prototype` can have its own `prototype`! In this case, the `prototype` of `Bird.prototype` is `Object.prototype`:
 
 ```js
 Object.prototype.isPrototypeOf(Bird.prototype);
 ```
 
-كيف يكون ذلك مفيداً؟ قد تتذكر `hasOwnProperty` من تحدي سابق:
+How is this useful? You may recall the `hasOwnProperty` method from a previous challenge:
 
 ```js
 let duck = new Bird("Donald");
 duck.hasOwnProperty("name");
 ```
 
-تم تعريف `hasOwnProperty` في `Object.prototype`، والتي يمكن الوصول إليها بواسطة `Bird.prototype` والذي يمكن الوصول إليه من قبل `duck`. هذا مثال على سلسلة الـ `prototype`. في سلسلة `prototype` هذه، `Bird` هو `supertype` لـ `duck`، بينما `duck` هو الـ `subtype`. `Object` هو `supertype` لكلا من `Bird` و `duck`. `Object` هو `supertype` لجميع ال objects في جافا سكريبت. لذلك، يمكن لأي object أن يستخدم `hasOwnProperty`.
+The `hasOwnProperty` method is defined in `Object.prototype`, which can be accessed by `Bird.prototype`, which can then be accessed by `duck`. This is an example of the `prototype` chain. In this `prototype` chain, `Bird` is the `supertype` for `duck`, while `duck` is the `subtype`. `Object` is a `supertype` for both `Bird` and `duck`. `Object` is a `supertype` for all objects in JavaScript. Therefore, any object can use the `hasOwnProperty` method.
 
 # --instructions--
 
-قم بتعديل الكود لإظهار سلسلة ال prototype الصحيحة.
+Modify the code to show the correct prototype chain.
 
 # --hints--
 
-يجب أن يظهر الكود الخاص بك أن `Object.prototype` هو ال prototype لـ `Dog.prototype`
+Your code should show that `Object.prototype` is the prototype of `Dog.prototype`
 
 ```js
 assert(/Object\.prototype\.isPrototypeOf/.test(__helpers.removeJSComments(code)));

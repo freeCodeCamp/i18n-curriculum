@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aeda08826
-title: Mirar elementos por id usando o jQuery
+title: Target Elements by id Using jQuery
 challengeType: 6
 forumTopicId: 18317
 required:
@@ -11,15 +11,15 @@ dashedName: target-elements-by-id-using-jquery
 
 # --description--
 
-Você também pode mirar elementos por seus atributos id.
+You can also target elements by their id attributes.
 
-Primeiro, vamos tomar como alvo seu elemento `button` com o id `target3` usando o seletor `$("#target3")`.
+First target your `button` element with the id `target3` by using the `$("#target3")` selector.
 
-Note que, assim como as declarações CSS, você digita um `#` antes do nome do id.
+Note that, just like with CSS declarations, you type a `#` before the id's name.
 
-Em seguida use a função `.addClass()` do jQuery para adicionar as classes `animated` e `fadeOut`.
+Then use jQuery's `.addClass()` function to add the classes `animated` and `fadeOut`.
 
-Aqui está como você faria o elemento `button` com o id `target6` desaparecer:
+Here's how you'd make the `button` element with the id `target6` fade out:
 
 ```js
 $("#target6").addClass("animated fadeOut");
@@ -27,13 +27,13 @@ $("#target6").addClass("animated fadeOut");
 
 # --hints--
 
-Você deve selecionar o elemento `button` com o `id` `target3` e usar a função `addClass()` do jQuery para dar ao botão a classe `animated`.
+You should select the `button` element with the `id` of `target3` and use the jQuery `addClass()` function to give it the class of `animated`.
 
 ```js
 assert($('#target3').hasClass('animated'));
 ```
 
-Você deve mirar o elemento com o id `target3` e usar a função `addClass()` do jQuery para dar a ele a classe `fadeOut`.
+You should target the element with the id `target3` and use the jQuery `addClass()` function to give it the class `fadeOut`.
 
 ```js
 assert(
@@ -42,7 +42,7 @@ assert(
 );
 ```
 
-Você deve usar apenas jQuery para adicionar essas classes ao elemento.
+You should only use jQuery to add these classes to the element.
 
 ```js
 assert(!code.match(/class.*animated/g));

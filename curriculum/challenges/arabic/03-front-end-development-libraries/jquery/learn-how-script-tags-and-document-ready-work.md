@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9acdd08826
-title: تعلم كيف يمكن وضع علامات Script وعمل Document محضرا
+title: Learn How Script Tags and Document Ready Work
 challengeType: 6
 forumTopicId: 18224
 dashedName: learn-how-script-tags-and-document-ready-work
@@ -8,23 +8,23 @@ dashedName: learn-how-script-tags-and-document-ready-work
 
 # --description--
 
-نحن الآن مستعدون لتعلم jQuery، أداة JavaScript الأكثر شعبية في جميع الأوقات.
+Now we're ready to learn jQuery, the most popular JavaScript tool of all time.
 
-قبل أن نتمكن من استخدام jQuery، نحتاج إلى إضافة بعض الأشياء إلى HTML.
+Before we can start using jQuery, we need to add some things to our HTML.
 
-أولا، إضافة عنصر `script` في الجزء العلوي من الصفحة. تيقن من إغلاقه على السطر التالي.
+First, add a `script` element at the top of your page. Be sure to close it on the following line.
 
-سيقوم متصفحك بتشغيل أي JavaScript داخل عنصر `script`، بما في ذلك jQuery.
+Your browser will run any JavaScript inside a `script` element, including jQuery.
 
-في داخل عنصر البرنامَج `script` الخاص بك، أضف هذا الرمز: `$(document).ready(function() {` إلى `script` الخاص بك. ثم أغلقه على السطر التالي (لا يزال داخل عنصر `script` الخاص بك) مع: `});`
+Inside your `script` element, add this code: `$(document).ready(function() {` to your `script`. Then close it on the following line (still inside your `script` element) with: `});`
 
-سنتعلم المزيد عن `functions` لاحقاً. الشيء المهم الذي يجب أن نعلمه هو أن التعليمات البرمجية التي تضعها داخل هذه `function` سيتم تشغيلها بمجرد أن يقوم المتصفح بتحميل صفحتك.
+We'll learn more about `functions` later. The important thing to know is that code you put inside this `function` will run as soon as your browser has loaded your page.
 
-هذا مهم لأنه دون أن يعمل `document ready function`, قد يعمل تعليماتك البرمجية قبل أن يتم تقديم HTML الخاص بك، ما من شأنه أن يسبب أخطاء.
+This is important because without your `document ready function`, your code may run before your HTML is rendered, which would cause bugs.
 
 # --hints--
 
-يجب عليك إنشاء `script` للتأكد من أنه صالح ولديه علامة إغلاق.
+You should create a `script` element making sure it is valid and has a closing tag.
 
 ```js
 assert(
@@ -39,7 +39,7 @@ assert(
 );
 ```
 
-يجب عليك إضافة `$(document).ready(function() {` إلى بداية عنصر `script` الخاص بك.
+You should add `$(document).ready(function() {` to the beginning of your `script` element.
 
 ```js
 assert(
@@ -49,7 +49,7 @@ assert(
 );
 ```
 
-يجب عليك إغلاق وظيفة `$(document).ready(function() {` مع `});`
+You should close your `$(document).ready(function() {` function with `});`
 
 ```js
 assert(code.match(/\n*?\s*?\}\s*?\);/g));

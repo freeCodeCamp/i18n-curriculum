@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d403616a
-title: 傳遞一個數組作爲 Props
+title: Pass an Array as Props
 challengeType: 6
 forumTopicId: 301401
 dashedName: pass-an-array-as-props
@@ -8,7 +8,7 @@ dashedName: pass-an-array-as-props
 
 # --description--
 
-上一個挑戰演示瞭如何將來自父組件的信息作爲 `props` 傳遞給子組件。 這個挑戰着眼於如何將數組作爲 `props` 傳遞。 要將數組傳遞給 JSX 元素，必須將其視爲 JavaScript 並用花括號括起來。
+The last challenge demonstrated how to pass information from a parent component to a child component as `props` or properties. This challenge looks at how arrays can be passed as `props`. To pass an array to a JSX element, it must be treated as JavaScript and wrapped in curly braces.
 
 ```jsx
 <ParentComponent>
@@ -16,7 +16,7 @@ dashedName: pass-an-array-as-props
 </ParentComponent>
 ```
 
-這樣，子組件就可以訪問數組屬性 `colors`。 訪問屬性時可以使用 `join()` 等數組方法。
+The child component then has access to the array property `colors`. Array methods such as `join()` can be used when accessing the property.
 
 ```jsx
 const ChildComponent = (props) => <p>{props.colors.join(', ')}</p>

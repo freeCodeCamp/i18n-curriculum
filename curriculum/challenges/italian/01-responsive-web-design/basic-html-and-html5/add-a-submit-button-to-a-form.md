@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedd08830
-title: Aggiungere un pulsante di invio a un modulo
+title: Add a Submit Button to a Form
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVMPUv/cp2Nkhz'
 forumTopicId: 16627
@@ -9,9 +9,9 @@ dashedName: add-a-submit-button-to-a-form
 
 # --description--
 
-Aggiungiamo un pulsante `submit` al tuo modulo. Facendo clic su questo pulsante invierai i dati dal tuo modulo all'URL specificato con l'attributo `action`.
+Let's add a `submit` button to your form. Clicking this button will send the data from your form to the URL you specified with your form's `action` attribute.
 
-Ecco un esempio di pulsante di invio:
+Here's an example submit button:
 
 ```html
 <button type="submit">this button submits the form</button>
@@ -19,23 +19,23 @@ Ecco un esempio di pulsante di invio:
 
 # --instructions--
 
-Aggiungi un pulsante come ultimo elemento del tuo elemento `form`, con type `submit` e testo `Submit`.
+Add a button as the last element of your `form` element with a type of `submit`, and `Submit` as its text.
 
 # --hints--
 
-Il tuo `form` dovrebbe contenere un `button`.
+Your `form` should have a `button` inside it.
 
 ```js
 assert($('form').children('button').length > 0);
 ```
 
-Il tuo pulsante di invio dovrebbe avere l'attributo `type` settato a `submit`.
+Your submit button should have the attribute `type` set to `submit`.
 
 ```js
 assert($('button').attr('type') === 'submit');
 ```
 
-Il tuo pulsante di invio dovrebbe avere solo il testo `Submit`.
+Your submit button should only have the text `Submit`.
 
 ```js
 assert(
@@ -45,7 +45,7 @@ assert(
 );
 ```
 
-Il tuo elemento `button` dovrebbe avere un tag di chiusura.
+Your `button` element should have a closing tag.
 
 ```js
 assert(

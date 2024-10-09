@@ -1,6 +1,6 @@
 ---
 id: 587d7b83367417b2b2512b37
-title: Різниця між консолями freeCodeCamp та браузера
+title: Understanding the Differences between the freeCodeCamp and Browser Console
 challengeType: 1
 forumTopicId: 301193
 dashedName: understanding-the-differences-between-the-freecodecamp-and-browser-console
@@ -8,25 +8,25 @@ dashedName: understanding-the-differences-between-the-freecodecamp-and-browser-c
 
 # --description--
 
-Ви могли помітити, що у деяких завдань freeCodeCamp є власна консоль. Ця консоль функціонує трохи інакше, ніж консоль браузера.
+You may have noticed that some freeCodeCamp challenges include their own console. This console behaves a little differently than the browser console.
 
-Існує багато методів, які можна використовувати з `console`, щоб надрукувати повідомлення. Наприклад, ось деякі з них: `log`, `warn` та `clear`. Консоль freeCodeCamp виведе лише повідомлення `log`, а консоль браузера виведе всі повідомлення. У разі внесення змін до коду вона автоматично запуститься та покаже логи. А консоль freeCodeCamp очищується щоразу, як запускається ваш код.
+There are many methods to use with `console` to output messages. `log`, `warn`, and `clear` to name a few. The freeCodeCamp console will only output `log` messages, while the browser console will output all messages. When you make changes to your code, it will automatically run and show the logs. The freeCodeCamp console is then cleared each time your code runs.
 
 # --instructions--
 
-Спочатку відкрийте консоль вашого браузера так, щоб бачити логи. Для цього натисніть правою кнопкою миші зверху на панелі навігаційної стрічки freeCodeCamp та виберіть `inspect` на панелі інструментів більшості браузерів. Потім знайдіть вкладку `console` у вікні, що відкриється.
+First, open your browser console so you can see the logs. To do that, you can right-click the freeCodeCamp navigation bar at the top and click `inspect` on most browsers. Then find the `console` tab in the window that opens.
 
-Після цього використайте `console.log`, щоб зазначити змінну `output`. Перегляньте дві консолі, щоб побачити лог. Наприкінці використайте функцію `console.clear` після свого логу, щоб очистити консоль браузера. Погляньте на різницю у двох консолях.
+After that, use `console.log` to log the `output` variable. View the two consoles to see the log. Finally, use `console.clear` after your log to clear the browser console. View the difference in the two consoles.
 
 # --hints--
 
-Ви повинні використати `console.log()`, щоб надрукувати змінну `output`.
+You should use `console.log()` to print the `output` variable.
 
 ```js
 assert(__helpers.removeWhiteSpace(__helpers.removeJSComments(code)).match(/console\.log\(output\)/));
 ```
 
-Ви повинні використати `console.clear()`, щоб очистити консоль браузера.
+You should use `console.clear()` to clear the browser console.
 
 ```js
 assert(
@@ -36,7 +36,7 @@ assert(
 );
 ```
 
-Ви повинні очистити консоль після логу.
+You should clear the console after your log.
 
 ```js
 assert(

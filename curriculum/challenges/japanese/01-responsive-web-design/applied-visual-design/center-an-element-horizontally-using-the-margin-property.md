@@ -1,6 +1,6 @@
 ---
 id: 587d78a3367417b2b2512ad0
-title: margin プロパティで要素を水平方向の中央に配置する
+title: Center an Element Horizontally Using the margin Property
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cyLJqU4'
 forumTopicId: 301043
@@ -9,17 +9,17 @@ dashedName: center-an-element-horizontally-using-the-margin-property
 
 # --description--
 
-次のテクニックは、ブロック要素を水平方向の中央に配置する方法です。 これを行う一つの方法は、`margin` の値を auto に設定することです。
+Another positioning technique is to center a block element horizontally. One way to do this is to set its `margin` to a value of auto.
 
-この方法は画像に対しても使うことができます。 画像はデフォルトではインライン要素ですが、`display` プロパティを `block` に設定すると、ブロック要素に変更できます。
+This method works for images, too. Images are inline elements by default, but can be changed to block elements when you set the `display` property to `block`.
 
 # --instructions--
 
-値が `auto` の `margin` プロパティを追加して、`div` を中央に表示させてください。
+Center the `div` on the page by adding a `margin` property with a value of `auto`.
 
 # --hints--
 
-`div` の `margin` の値は `auto` に設定される必要があります。
+The `div` should have a `margin` set to `auto`.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('div')?.margin ,'auto');

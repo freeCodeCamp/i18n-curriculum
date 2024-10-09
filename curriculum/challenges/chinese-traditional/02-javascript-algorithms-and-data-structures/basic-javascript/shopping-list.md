@@ -1,6 +1,6 @@
 ---
 id: 56533eb9ac21ba0edf2244bc
-title: 購物清單
+title: Shopping List
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/c9MEKHZ'
 forumTopicId: 18280
@@ -9,37 +9,37 @@ dashedName: shopping-list
 
 # --description--
 
-創建一個名叫 `myList` 的購物清單。 清單的數據格式就是多維數組。
+Create a shopping list in the variable `myList`. The list should be a multi-dimensional array containing several sub-arrays.
 
-每個子數組中的第一個元素應該是購買的物品名稱。 第二個元素應該是物品的數量，類似於：
+The first element in each sub-array should contain a string with the name of the item. The second element should be a number representing the quantity i.e.
 
 ```js
 ["Chocolate Bar", 15]
 ```
 
-列表中應至少有 5 個子數組。
+There should be at least 5 sub-arrays in the list.
 
 # --hints--
 
-`myList` 應該是一個數組。
+`myList` should be an array.
 
 ```js
 assert(isArray);
 ```
 
-每個子數組的第一個元素都應該是字符串。
+The first elements in each of your sub-arrays should all be strings.
 
 ```js
 assert(hasString);
 ```
 
-每個子數組的第二個元素都應該是數字。
+The second elements in each of your sub-arrays should all be numbers.
 
 ```js
 assert(hasNumber);
 ```
 
-列表中至少要包含 5 個元素。
+You should have at least 5 items in your list.
 
 ```js
 assert(count > 4);

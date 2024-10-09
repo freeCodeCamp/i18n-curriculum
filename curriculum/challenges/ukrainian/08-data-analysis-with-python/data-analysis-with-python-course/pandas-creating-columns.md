@@ -1,6 +1,6 @@
 ---
 id: 5e9a093a74c4063ca6f7c15c
-title: 'Pandas: створення стовпчиків'
+title: Pandas Creating Columns
 challengeType: 11
 videoId: _sSo2XZoB3E
 bilibiliIds:
@@ -12,18 +12,18 @@ dashedName: pandas-creating-columns
 
 # --description--
 
-*Замість використаного у відеоматеріалі notebooks.ai можна користуватись блокнотом Google Colab.*
+*Instead of using notebooks.ai like it shows in the video, you can use Google Colab instead.*
 
-Додаткові ресурси:
+More resources:
 
--  <a href="https://github.com/ine-rmotr-curriculum/freecodecamp-intro-to-pandas" target="_blank" rel="noopener noreferrer nofollow">Блокноти на GitHub</a>
--  <a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb" target="_blank" rel="noopener noreferrer nofollow">Як відкрити блокноти з GitHub, використовуючи Google Colab.</a>
+-  <a href="https://github.com/ine-rmotr-curriculum/freecodecamp-intro-to-pandas" target="_blank" rel="noopener noreferrer nofollow">Notebooks on GitHub</a>
+-  <a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb" target="_blank" rel="noopener noreferrer nofollow">How to open Notebooks from GitHub using Google Colab.</a>
 
 # --questions--
 
 ## --text--
 
-Який код додасть стовпчик «Certificates per month» до таблиці даних `certificates_earned` аналогічно до прикладу нижче?
+What code would add a "Certificates per month" column to the `certificates_earned` DataFrame like the one below?
 
 <pre>      Certificates  Time (in months)  Certificates per month
 Tom               8                16                    0.50

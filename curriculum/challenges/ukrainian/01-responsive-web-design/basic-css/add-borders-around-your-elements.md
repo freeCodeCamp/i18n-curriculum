@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9bedf08813
-title: Додайте кордони навколо елементів
+title: Add Borders Around Your Elements
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/c2MvnHZ'
 forumTopicId: 16630
@@ -9,9 +9,9 @@ dashedName: add-borders-around-your-elements
 
 # --description--
 
-Кордони в CSS мають властивості `style`, `color` та `width`.
+CSS borders have properties like `style`, `color` and `width`.
 
-Наприклад, якщо ми хочемо створити червоний п’ятипіксельний кордон навколо елементу HTML, ми використаємо цей клас:
+For example, if we wanted to create a red, 5 pixel border around an HTML element, we could use this class:
 
 ```html
 <style>
@@ -25,9 +25,9 @@ dashedName: add-borders-around-your-elements
 
 # --instructions--
 
-Створіть клас під назвою `thick-green-border`. Цей клас має додати 10-піксельний зелений суцільний кордон навколо елемента HTML. Застосуйте цей клас до фотографії кота.
+Create a class called `thick-green-border`. This class should add a 10px, solid, green border around an HTML element. Apply the class to your cat photo.
 
-Пам’ятайте, що за допомогою атрибута `class` до елемента можна додати декілька класів, розділивши їх пробілами. Наприклад:
+Remember that you can apply multiple classes to an element using its `class` attribute, by separating each class name with a space. For example:
 
 ```html
 <img class="class1 class2">
@@ -35,19 +35,19 @@ dashedName: add-borders-around-your-elements
 
 # --hints--
 
-Елемент `img` повинен мати клас `smaller-image`.
+Your `img` element should have the class `smaller-image`.
 
 ```js
 assert($('img').hasClass('smaller-image'));
 ```
 
-Елемент `img` повинен мати клас `thick-green-border`.
+Your `img` element should have the class `thick-green-border`.
 
 ```js
 assert($('img').hasClass('thick-green-border'));
 ```
 
-Значенням ширини кордону зображення має бути `10px`.
+Your image should have a border width of `10px`.
 
 ```js
 assert(
@@ -57,13 +57,13 @@ assert(
 );
 ```
 
-Значенням стилю кордону зображення має бути `solid`.
+Your image should have a border style of `solid`.
 
 ```js
 assert($('img').css('border-right-style') === 'solid');
 ```
 
-Кордон навколо елемента `img` має бути зеленим.
+The border around your `img` element should be green.
 
 ```js
 assert($('img').css('border-left-color') === 'rgb(0, 128, 0)');

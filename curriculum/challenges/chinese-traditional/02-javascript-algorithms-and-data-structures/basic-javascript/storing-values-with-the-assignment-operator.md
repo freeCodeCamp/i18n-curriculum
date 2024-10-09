@@ -1,6 +1,6 @@
 ---
 id: 56533eb9ac21ba0edf2244a8
-title: 使用賦值運算符存儲值
+title: Storing Values with the Assignment Operator
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cEanysE'
 forumTopicId: 18310
@@ -9,36 +9,36 @@ dashedName: storing-values-with-the-assignment-operator
 
 # --description--
 
-在 JavaScript 中，你可以使用賦值（<dfn>assignment</dfn>）運算符 （`=`）將值存儲在變量中。
+In JavaScript, you can store a value in a variable with the <dfn>assignment</dfn> operator (`=`).
 
 ```js
 myVariable = 5;
 ```
 
-這條語句把 `Number` 類型的值 `5` 賦給變量 `myVariable`。
+This assigns the `Number` value `5` to `myVariable`.
 
-在將值賦給運算符左側的變量之前，將先執行 `=` 運算符右側的所有運算。
+If there are any calculations to the right of the `=` operator, those are performed before the value is assigned to the variable on the left of the operator.
 
 ```js
 var myVar;
 myVar = 5;
 ```
 
-首先，此代碼創建一個名爲 `myVar` 的變量。 然後，數值 `5` 被賦給變量 `myVar`。 現在，如果 `myVar` 再次出現在代碼中，程序將會將它視爲 `5`。
+First, this code creates a variable named `myVar`. Then, the code assigns `5` to `myVar`. Now, if `myVar` appears again in the code, the program will treat it as if it is `5`.
 
 # --instructions--
 
-把數值 `7` 賦給變量 `a`。
+Assign the value `7` to variable `a`.
 
 # --hints--
 
-不應該修改註釋上面的代碼。
+You should not change code above the specified comment.
 
 ```js
 assert(/var a;/.test(__helpers.removeJSComments(code)));
 ```
 
-`a` 的值應該爲 7。
+`a` should have a value of 7.
 
 ```js
 assert(typeof a === 'number' && a === 7);

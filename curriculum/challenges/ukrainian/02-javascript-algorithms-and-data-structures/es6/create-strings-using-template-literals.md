@@ -1,6 +1,6 @@
 ---
 id: 587d7b8a367417b2b2512b4e
-title: Створення рядків за допомогою шаблонних літералів
+title: Create Strings using Template Literals
 challengeType: 1
 forumTopicId: 301200
 dashedName: create-strings-using-template-literals
@@ -8,11 +8,11 @@ dashedName: create-strings-using-template-literals
 
 # --description--
 
-Новою особливістю ES6 є <dfn>шаблонний літерал</dfn>. Це особливий тип рядка, який полегшує створення складних рядків.
+A new feature of ES6 is the <dfn>template literal</dfn>. This is a special type of string that makes creating complex strings easier.
 
-Шаблонні літерали дозволяють нам створювати багатолінійні рядки та використовувати можливості інтерполяції для створення рядків.
+Template literals allow you to create multi-line strings and to use string interpolation features to create strings.
 
-Розглянемо наступний код:
+Consider the code below:
 
 ```js
 const person = {
@@ -26,15 +26,15 @@ I am ${person.age} years old.`;
 console.log(greeting);
 ```
 
-Консоль показуватиме рядки `Hello, my name is Zodiac Hasbro!` та `I am 56 years old.`.
+The console will display the strings `Hello, my name is Zodiac Hasbro!` and `I am 56 years old.`.
 
-Тут відбувається багато процесів. По-перше, у прикладі вживаються зворотні лапки (`` ` ``), а не одинарні чи подвійні (`'` чи `"`), щоб обрамити рядок. По-друге, зверніть увагу, що рядок залишається багатолінійним як у коді, так і у виводі. Через це у рядок не потрібно вставляти `\n`. Наведений вище синтаксис `${variable}` є заповнювачем тексту (плейсхолдером). По суті, вам більше не доведеться використовувати конкатенацію з оператором `+`. Щоб додати змінні до рядків, просто помістіть змінну у шаблонний рядок і розмістіть між `${` та `}`. Так само можна помістити інші вирази в рядковий літерал, наприклад `${a + b}`. Цей новий спосіб створення рядків дає вам більше гнучкості під час створення складних рядків.
+A lot of things happened there. Firstly, the example uses backticks (`` ` ``), not quotes (`'` or `"`), to wrap the string. Secondly, notice that the string is multi-line, both in the code and the output. This saves inserting `\n` within strings. The `${variable}` syntax used above is a placeholder. Basically, you won't have to use concatenation with the `+` operator anymore. To add variables to strings, you just drop the variable in a template string and wrap it with `${` and `}`. Similarly, you can include other expressions in your string literal, for example `${a + b}`. This new way of creating strings gives you more flexibility to create robust strings.
 
 # --instructions--
 
-Використайте синтаксис шаблонних літералів зі зворотними лапками, щоб створити масив із рядками елементів списку (`li`). Текстом кожного елемента масиву повинен бути один з елементів, що містяться в масиві у властивості `failure` об’єкта `result` та мати атрибут `class` зі значенням `text-warning`. Функція `makeList` повинна повертати масив із рядками елементів списку.
+Use template literal syntax with backticks to create an array of list element (`li`) strings. Each list element's text should be one of the array elements from the `failure` property on the `result` object and have a `class` attribute with the value `text-warning`. The `makeList` function should return the array of list item strings.
 
-Використайте метод ітератора (будь-який цикл), щоб отримати бажаний вивід (наведений нижче).
+Use an iterator method (any kind of loop) to get the desired output (shown below).
 
 ```js
 [
@@ -46,7 +46,7 @@ console.log(greeting);
 
 # --hints--
 
-`failuresList` має бути масивом, що містить повідомлення `result failure`.
+`failuresList` should be an array containing `result failure` messages.
 
 ```js
 assert(
@@ -54,7 +54,7 @@ assert(
 );
 ```
 
-`failuresList` має дорівнювати вказаному виводу.
+`failuresList` should be equal to the specified output.
 
 ```js
 assert(
@@ -66,13 +66,13 @@ assert(
 );
 ```
 
-Використайте шаблонні рядки та інтерполяцію виразу.
+Template strings and expression interpolation should be used.
 
 ```js
 assert.match(code, /(`.*\${.*}.*`)/);
 ```
 
-Використайте цикл.
+An iterator should be used.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/for|map|reduce|forEach|while/));

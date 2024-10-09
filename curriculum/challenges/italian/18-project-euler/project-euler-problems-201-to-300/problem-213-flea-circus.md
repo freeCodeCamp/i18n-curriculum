@@ -1,6 +1,6 @@
 ---
 id: 5900f4411000cf542c50ff54
-title: 'Problema 213: circo delle pulci'
+title: 'Problem 213: Flea Circus'
 challengeType: 1
 forumTopicId: 301855
 dashedName: problem-213-flea-circus
@@ -8,15 +8,15 @@ dashedName: problem-213-flea-circus
 
 # --description--
 
-Una griglia di 30×30 quadrati contiene 900 pulci, inizialmente una pulce per quadrato.
+A 30×30 grid of squares contains 900 fleas, initially one flea per square.
 
-Quando una campana viene suonata, ogni pulce salta in un quadrato adiacente a caso (di solito quattro possibilità, a eccezione delle pulci sul bordo della griglia o negli angoli).
+When a bell is rung, each flea jumps to an adjacent square at random (usually 4 possibilities, except for fleas on the edge of the grid or at the corners).
 
-Qual è il numero previsto di quadrati non occupati dopo 50 rintocchi della campana? Dai la risposta arrotondata a sei decimali.
+What is the expected number of unoccupied squares after 50 rings of the bell? Give your answer rounded to six decimal places.
 
 # --hints--
 
-`fleaCircus()` dovrebbe restituire `330.721154`.
+`fleaCircus()` should return `330.721154`.
 
 ```js
 assert.strictEqual(fleaCircus(), 330.721154);

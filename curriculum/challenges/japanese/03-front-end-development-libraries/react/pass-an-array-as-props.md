@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d403616a
-title: 配列を props として渡す
+title: Pass an Array as Props
 challengeType: 6
 forumTopicId: 301401
 dashedName: pass-an-array-as-props
@@ -8,7 +8,7 @@ dashedName: pass-an-array-as-props
 
 # --description--
 
-前回のチャレンジでは、親コンポーネントから子コンポーネントに情報を `props`、つまりプロパティとして渡す方法を示しました。 このチャレンジでは、配列を `props` として渡す方法を説明します。 JSX 要素に配列を渡すには、配列を JavaScript として扱い、中括弧で囲む必要があります。
+The last challenge demonstrated how to pass information from a parent component to a child component as `props` or properties. This challenge looks at how arrays can be passed as `props`. To pass an array to a JSX element, it must be treated as JavaScript and wrapped in curly braces.
 
 ```jsx
 <ParentComponent>
@@ -16,21 +16,21 @@ dashedName: pass-an-array-as-props
 </ParentComponent>
 ```
 
-これで、子コンポーネントから配列プロパティ `colors` にアクセスできます。 プロパティにアクセスするときは `join()` などの配列メソッドを使用できます:
+The child component then has access to the array property `colors`. Array methods such as `join()` can be used when accessing the property.
 
 ```jsx
 const ChildComponent = (props) => <p>{props.colors.join(', ')}</p>
 ```
 
-これは `colors` 配列のアイテムすべてをコンマ区切りの文字列に連結し、 `<p>green, blue, red</p>` という文字列を生成します。 後ほど、React で配列データをレンダーする一般的な方法を他にもいくつか学習します。
+This will join all `colors` array items into a comma separated string and produce: `<p>green, blue, red</p>`. Later, we will learn about other common methods to render arrays of data in React.
 
 # --instructions--
 
-コードエディターに `List` コンポーネントと `ToDo` コンポーネントがあります。 `ToDo` コンポーネントから各 `List` をレンダーするときに、to-do タスクの配列 (たとえば `["walk dog", "workout"]` など) が割り当てられた `tasks` プロパティを渡してください。 次に、`List` コンポーネントにあるこの `tasks` 配列にアクセスして、`p` 要素の中に値を表示してください。 `join(", ")` を使用し、`props.tasks` 配列をコンマ区切りリストとして `p` 要素に表示してください。 今日のリストには少なくとも 2 つのタスクを含め、明日のリストには少なくとも 3 つのタスクを含めてください。
+There are `List` and `ToDo` components in the code editor. When rendering each `List` from the `ToDo` component, pass in a `tasks` property assigned to an array of to-do tasks, for example `["walk dog", "workout"]`. Then access this `tasks` array in the `List` component, showing its value within the `p` element. Use `join(", ")` to display the `props.tasks` array in the `p` element as a comma-separated list. Today's list should have at least 2 tasks and tomorrow's should have at least 3 tasks.
 
 # --hints--
 
-`ToDo` コンポーネントから単一の外側の `div` 要素を返します。
+The `ToDo` component should return a single outer `div`.
 
 ```js
 assert(
@@ -41,7 +41,7 @@ assert(
 );
 ```
 
-`ToDo` コンポーネントの 3 つ目の子要素を、`List` コンポーネントのインスタンスにします。
+The third child of the `ToDo` component should be an instance of the `List` component.
 
 ```js
 assert(
@@ -52,7 +52,7 @@ assert(
 );
 ```
 
-`ToDo` コンポーネントの 5 つ目の子要素を、`List` コンポーネントのインスタンスにします。
+The fifth child of the `ToDo` component should be an instance of the `List` component.
 
 ```js
 assert(
@@ -63,7 +63,7 @@ assert(
 );
 ```
 
-`List` コンポーネントの両方のインスタンスに、`tasks` というプロパティを持たせ、`tasks` を配列型にします。
+Both instances of the `List` component should have a property called `tasks` and `tasks` should be of type array.
 
 ```js
 assert(
@@ -77,7 +77,7 @@ assert(
 );
 ```
 
-今日のタスクを表す 1 つ目の `List` コンポーネントに、2 つ以上のアイテムを持たせます。
+The first `List` component representing the tasks for today should have 2 or more items.
 
 ```js
 assert(
@@ -88,7 +88,7 @@ assert(
 );
 ```
 
-明日のタスクを表す 2 つ目の `List` コンポーネントに、3 つ以上のアイテムを持たせます。
+The second `List` component representing the tasks for tomorrow should have 3 or more items.
 
 ```js
 assert(
@@ -99,7 +99,7 @@ assert(
 );
 ```
 
-`List` コンポーネントで、`tasks` prop からの値を `p` タグにレンダーします。
+The `List` component should render the value from the `tasks` prop in the `p` tag.
 
 ```js
 assert(

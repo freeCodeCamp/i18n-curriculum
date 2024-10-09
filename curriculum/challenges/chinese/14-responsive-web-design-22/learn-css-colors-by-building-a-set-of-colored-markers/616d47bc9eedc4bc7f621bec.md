@@ -1,35 +1,35 @@
 ---
 id: 616d47bc9eedc4bc7f621bec
-title: 步骤 10
+title: Step 10
 challengeType: 0
 dashedName: step-10
 ---
 
 # --description--
 
-接下来，在 `div` 中，添加另一个 `div` 元素，并为其添加一个 `marker` 类。
+Next, within the `div` element, add another `div` element and give it a class of `marker`.
 
 # --hints--
 
-你的新 `div` 元素应该有一个开始标签。
+Your new `div` element should have an opening tag.
 
 ```js
 assert([...code.matchAll(/<div.*?>/gi)][1]);
 ```
 
-你的新 `div` 元素应该有一个结束标签。
+Your new `div` element should have a closing tag.
 
 ```js
 assert([...code.matchAll(/<\/div\s*>/gi)][1]);
 ```
 
-你应该使用类 `container` 将新的 `div` 元素嵌套在 `div` 中。
+You should nest your new `div` element within the `div` with the class `container`.
 
 ```js
 assert(document.querySelector('.container')?.children[0]?.localName === 'div');
 ```
 
-你应该给你的新 `div` 元素一个 `marker` 类。
+You should give your new `div` element a class of `marker`.
 
 ```js
 const containerChildren = [...document.querySelector('.container')?.children];

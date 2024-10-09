@@ -1,6 +1,6 @@
 ---
 id: 5900f3701000cf542c50fe83
-title: 'Problema 4: prodotto palindromo più grande'
+title: 'Problem 4: Largest palindrome product'
 challengeType: 1
 forumTopicId: 302065
 dashedName: problem-4-largest-palindrome-product
@@ -8,25 +8,25 @@ dashedName: problem-4-largest-palindrome-product
 
 # --description--
 
-Un numero palindromico rimane lo stesso se viene letto in entrambi i sensi. Il palindromo più grande ottenuto dal prodotto con due numeri a due cifre è 9009 = 91 × 99.
+A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.
 
-Trova il più grande palindromo formato dal prodotto di due numeri con `n` cifre.
+Find the largest palindrome made from the product of two `n`-digit numbers.
 
 # --hints--
 
-`largestPalindromeProduct(2)` dovrebbe restituire un numero.
+`largestPalindromeProduct(2)` should return a number.
 
 ```js
 assert(typeof largestPalindromeProduct(2) === 'number');
 ```
 
-`largestPalindromeProduct(2)` dovrebbe restituire 9009.
+`largestPalindromeProduct(2)` should return 9009.
 
 ```js
 assert.strictEqual(largestPalindromeProduct(2), 9009);
 ```
 
-`largestPalindromeProduct(3)` dovrebbe restituire 906609.
+`largestPalindromeProduct(3)` should return 906609.
 
 ```js
 assert.strictEqual(largestPalindromeProduct(3), 906609);

@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aeda08826
-title: Elemente mithilfe von id mit jQuery anvisieren
+title: Target Elements by id Using jQuery
 challengeType: 6
 forumTopicId: 18317
 required:
@@ -11,15 +11,15 @@ dashedName: target-elements-by-id-using-jquery
 
 # --description--
 
-Du kannst Elemente auch über ihre id-Attribute auswählen.
+You can also target elements by their id attributes.
 
-Verwende zunächst den Selektor `$("#target3")` für dein `button`-Element mit der id `target3`.
+First target your `button` element with the id `target3` by using the `$("#target3")` selector.
 
-Beachte, dass du, genau wie bei CSS-Deklarationen, ein `#` vor dem Namen der id schreibst.
+Note that, just like with CSS declarations, you type a `#` before the id's name.
 
-Dann benutze die Funktion `.addClass()` von jQuery, um die Klassen `animated` und `fadeOut` hinzuzufügen.
+Then use jQuery's `.addClass()` function to add the classes `animated` and `fadeOut`.
 
-Hier siehst du, wie du das `button`-Element mit der id `target6` ausblendest:
+Here's how you'd make the `button` element with the id `target6` fade out:
 
 ```js
 $("#target6").addClass("animated fadeOut");
@@ -27,13 +27,13 @@ $("#target6").addClass("animated fadeOut");
 
 # --hints--
 
-Du solltest das `button`-Element mit der `id` von `target3` auswählen und die jQuery Funktion `addClass()` verwenden, um ihm die Klasse `animated` zu geben.
+You should select the `button` element with the `id` of `target3` and use the jQuery `addClass()` function to give it the class of `animated`.
 
 ```js
 assert($('#target3').hasClass('animated'));
 ```
 
-Du solltest das Element mit der id `target3` auswählen und die jQuery-Funktion `addClass()` verwenden, um ihm die Klasse `fadeOut` zu geben.
+You should target the element with the id `target3` and use the jQuery `addClass()` function to give it the class `fadeOut`.
 
 ```js
 assert(
@@ -42,7 +42,7 @@ assert(
 );
 ```
 
-Du solltest nur jQuery verwenden, um diese Klassen zu dem Element hinzuzufügen.
+You should only use jQuery to add these classes to the element.
 
 ```js
 assert(!code.match(/class.*animated/g));

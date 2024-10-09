@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c11feddfaeb7bdef
-title: Nidificare un array in un altro array
+title: Nest one Array within Another Array
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/crZQZf8'
 forumTopicId: 18247
@@ -9,21 +9,21 @@ dashedName: nest-one-array-within-another-array
 
 # --description--
 
-È anche possibile nidificare array all'interno di altri array, come nell'esempio:
+You can also nest arrays within other arrays, like below:
 
 ```js
 const teams = [["Bulls", 23], ["White Sox", 45]];
 ```
 
-Questo viene anche chiamato un <dfn>array multidimensionale</dfn>.
+This is also called a <dfn>multi-dimensional array</dfn>.
 
 # --instructions--
 
-Crea un array annidato chiamato `myArray`.
+Create a nested array called `myArray`.
 
 # --hints--
 
-`myArray` dovrebbe avere almeno un array annidato all'interno di un altro array.
+`myArray` should have at least one array nested within another array.
 
 ```js
 assert(Array.isArray(myArray) && myArray.some(Array.isArray));

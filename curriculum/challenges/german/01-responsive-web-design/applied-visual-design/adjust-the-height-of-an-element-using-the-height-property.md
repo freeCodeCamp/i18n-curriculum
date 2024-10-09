@@ -1,6 +1,6 @@
 ---
 id: 587d7791367417b2b2512ab5
-title: Die Höhe eines Elements mithilfe der height-Eigenschaft anpassen
+title: Adjust the Height of an Element Using the height Property
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cEDaDTN'
 forumTopicId: 301034
@@ -9,7 +9,7 @@ dashedName: adjust-the-height-of-an-element-using-the-height-property
 
 # --description--
 
-Du kannst die Höhe eines Elements in CSS mit der `height`-Eigenschaft festlegen, ähnlich der `width`-Eigenschaft (dt. Breite). Hier ist ein Beispiel, welches die Höhe eines Bildes in 20px ändert:
+You can specify the height of an element using the `height` property in CSS, similar to the `width` property. Here's an example that changes the height of an image to 20px:
 
 ```css
 img {
@@ -19,13 +19,13 @@ img {
 
 # --instructions--
 
-Füge eine `height`-Eigenschaft zu dem `h4`-Tag hinzu und setze es auf 25px.
+Add a `height` property to the `h4` tag and set it to 25px.
 
-**Hinweis:** Dein Zoom muss möglicherweise auf 100 % eingestellt sein, damit du diese Aufgabe bestehen kannst.
+**Note:** You may need to be at 100% zoom to pass the test on this challenge.
 
 # --hints--
 
-Dein Code sollte die `height`-Eigenschaft des `h4`-Elements auf 25px setzen.
+Your code should change the `h4` `height` property to a value of 25 pixels.
 
 ```js
 const spaceFreeText = document.querySelector("style")?.textContent?.replace(/\s/g, ''); 

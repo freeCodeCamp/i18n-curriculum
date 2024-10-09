@@ -1,6 +1,6 @@
 ---
 id: a105e963526e7de52b219be9
-title: 集合排序
+title: Sorted Union
 challengeType: 1
 forumTopicId: 16077
 dashedName: sorted-union
@@ -8,29 +8,29 @@ dashedName: sorted-union
 
 # --description--
 
-編寫一個帶有兩個或更多數組的函數，並按原始提供的數組的順序返回一個新的唯一值數組。
+Write a function that takes two or more arrays and returns a new array of unique values in the order of the original provided arrays.
 
-換句話說，所有數組中出現的所有值都應按其原始順序包括在內，但最終數組中不得重複。
+In other words, all values present from all arrays should be included in their original order, but with no duplicates in the final array.
 
-去重後的數字應按其出現在參數中的原始順序排序，最終數組不應按數字大小進行排序。
+The unique numbers should be sorted by their original order, but the final array should not be sorted in numerical order.
 
-如有疑問，請先瀏覽下方的測試用例。
+Check the assertion tests for examples.
 
 # --hints--
 
-`uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1])` 應返回 `[1, 3, 2, 5, 4]`。
+`uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1])` should return `[1, 3, 2, 5, 4]`.
 
 ```js
 assert.deepEqual(uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1]), [1, 3, 2, 5, 4]);
 ```
 
-`uniteUnique([1, 2, 3], [5, 2, 1])` 應返回 `[1, 2, 3, 5]`。
+`uniteUnique([1, 2, 3], [5, 2, 1])` should return `[1, 2, 3, 5]`.
 
 ```js
 assert.deepEqual(uniteUnique([1, 2, 3], [5, 2, 1]), [1, 2, 3, 5]);
 ```
 
-`uniteUnique([1, 2, 3], [5, 2, 1, 4], [2, 1], [6, 7, 8])` 應返回 `[1, 2, 3, 5, 4, 6, 7, 8]`。
+`uniteUnique([1, 2, 3], [5, 2, 1, 4], [2, 1], [6, 7, 8])` should return `[1, 2, 3, 5, 4, 6, 7, 8]`.
 
 ```js
 assert.deepEqual(uniteUnique([1, 2, 3], [5, 2, 1, 4], [2, 1], [6, 7, 8]), [
@@ -45,13 +45,13 @@ assert.deepEqual(uniteUnique([1, 2, 3], [5, 2, 1, 4], [2, 1], [6, 7, 8]), [
 ]);
 ```
 
-`uniteUnique([1, 3, 2], [5, 4], [5, 6])` 應該返回 `[1, 3, 2, 5, 4, 6]`。
+`uniteUnique([1, 3, 2], [5, 4], [5, 6])` should return `[1, 3, 2, 5, 4, 6]`.
 
 ```js
 assert.deepEqual(uniteUnique([1, 3, 2], [5, 4], [5, 6]), [1, 3, 2, 5, 4, 6]);
 ```
 
-`uniteUnique([1, 3, 2, 3], [5, 2, 1, 4], [2, 1])` 應該返回 `[1, 3, 2, 5, 4]`。
+`uniteUnique([1, 3, 2, 3], [5, 2, 1, 4], [2, 1])` should return `[1, 3, 2, 5, 4]`.
 
 ```js
 assert.deepEqual(uniteUnique([1, 3, 2, 3], [5, 2, 1, 4], [2, 1]), [1, 3, 2, 5, 4]);

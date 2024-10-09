@@ -8,23 +8,23 @@ dashedName: arguments-optional
 
 # --description--
 
-قم بإنشاء دالة تجمع وسيطين (arrguments) معًا. إذا تم توفير argument واحدة فقط ، فقم بإرجاع function تتوقع argument واحدة وتعيد المجموع.
+Create a function that sums two arguments together. If only one argument is provided, then return a function that expects one argument and returns the sum.
 
-على سبيل المثال ، `addTogether(2, 3)` يجب أن تعيد `5`، و `addTogether(2)` يجب أن تعيد function.
+For example, `addTogether(2, 3)` should return `5`, and `addTogether(2)` should return a function.
 
-استخدام هذه ال function المرتجعة مع argument واحدة سوف يعيد المجموع:
+Calling this returned function with a single argument will then return the sum:
 
 ```js
 var sumTwoAnd = addTogether(2);
 ```
 
-`sumTwoAnd(3)` يرجع `5`.
+`sumTwoAnd(3)` returns `5`.
 
-إذا لم تكن أي من الوسيطتين (arguments) رقمًا صالحًا ، قم بارجع undefined.
+If either argument isn't a valid number, return undefined.
 
 # --hints--
 
-`addTogether(2, 3)` يجب ان يعيد 5.
+`addTogether(2, 3)` should return 5.
 
 ```js
 assert.deepEqual(addTogether(2, 3), 5);

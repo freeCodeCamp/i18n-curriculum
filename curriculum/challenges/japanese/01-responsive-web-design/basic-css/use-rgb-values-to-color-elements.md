@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aede08718
-title: 要素の色指定に RGB 値を使用する
+title: Use RGB values to Color Elements
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cRkp2fr'
 forumTopicId: 18369
@@ -9,25 +9,25 @@ dashedName: use-rgb-values-to-color-elements
 
 # --description--
 
-CSS で色を表現するもう一つの方法は、`RGB` の値を使用することです。
+Another way you can represent colors in CSS is by using `RGB` values.
 
-黒の `RGB` の値は以下のようになります:
+The `RGB` value for black looks like this:
 
 ```css
 rgb(0, 0, 0)
 ```
 
-白の `RGB` の値は以下のようになります:
+The `RGB` value for white looks like this:
 
 ```css
 rgb(255, 255, 255)
 ```
 
-6 桁の 16 進数を使う代わりに、`RGB` ではそれぞれの色の明るさを 0 から 255 の数字で指定します。
+Instead of using six hexadecimal digits like you do with hex code, with `RGB` you specify the brightness of each color with a number between 0 and 255.
 
-計算してみると、1 色を表す 16 進数 2 桁は 16×16 と等しく、合計 256 通りの値となることが分かります。 したがって、0 から数え始める `RGB` の取り得る値は、16 進数コードの場合と全く同じ数になります。
+If you do the math, the two digits for one color equal 16 times 16, which gives us 256 total values. So `RGB`, which starts counting from zero, has the exact same number of possible values as hex code.
 
-RGB コードを使用して `body` の背景をオレンジに変更する例を以下に示します。
+Here's an example of how you'd change the `body` background to orange using its RGB code.
 
 ```css
 body {
@@ -37,17 +37,17 @@ body {
 
 # --instructions--
 
-`body` 要素の背景色の 16 進数コードを、黒を表す RGB 値 `rgb(0, 0, 0)` に置き換えましょう。
+Let's replace the hex code in our `body` element's background color with the RGB value for black: `rgb(0, 0, 0)`
 
 # --hints--
 
-`body` 要素の背景は黒になるはずです。
+Your `body` element should have a black background.
 
 ```js
 assert($('body').css('background-color') === 'rgb(0, 0, 0)');
 ```
 
-`body` 要素の背景色を黒にするために `rgb` を使用してください。
+You should use `rgb` to give your `body` element a background of black.
 
 ```js
 assert(code.match(/rgb\s*\(\s*0\s*,\s*0\s*,\s*0\s*\)/gi));

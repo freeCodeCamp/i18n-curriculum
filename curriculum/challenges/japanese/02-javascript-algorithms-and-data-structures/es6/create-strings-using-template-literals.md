@@ -1,6 +1,6 @@
 ---
 id: 587d7b8a367417b2b2512b4e
-title: テンプレートリテラルを使用して文字列を作成する
+title: Create Strings using Template Literals
 challengeType: 1
 forumTopicId: 301200
 dashedName: create-strings-using-template-literals
@@ -8,11 +8,11 @@ dashedName: create-strings-using-template-literals
 
 # --description--
 
-ES6 の新機能に<dfn>テンプレートリテラル</dfn>があります。 これは複雑な文字列を簡単に作成できる特殊な型の文字列です。
+A new feature of ES6 is the <dfn>template literal</dfn>. This is a special type of string that makes creating complex strings easier.
 
-テンプレートリテラルを使用すると、複数行の文字列を作成したり、文字列の補完機能を使用して文字列を作成したりできます。
+Template literals allow you to create multi-line strings and to use string interpolation features to create strings.
 
-次のコードを考えてみましょう。
+Consider the code below:
 
 ```js
 const person = {
@@ -26,15 +26,15 @@ I am ${person.age} years old.`;
 console.log(greeting);
 ```
 
-コンソールには、`Hello, my name is Zodiac Hasbro!` と `I am 56 years old.` の文字列が表示されます。
+The console will display the strings `Hello, my name is Zodiac Hasbro!` and `I am 56 years old.`.
 
-ここではいろいろな処理を行っています。 まず、文字列を囲むのに引用符 (`'` または `"`) ではなくバッククォート (`` ` ``) を使用しています。 次に、コードと出力の両方で文字列が複数行になっています。 このため文字列内に `\n` を挿入せずに済みます。 上記で使用している `${variable}` の構文はプレイスホルダーです。 基本的には `+` 演算子で連結する必要がなくなります。 文字列に変数を追加するには、変数をテンプレート文字列に入れて `${` と `}` で囲むだけです。 同様にして、文字列リテラルに `${a + b}` などの他の式を含めることもできます。 この新しい方法で文字列を作成することで、より柔軟に堅牢な文字列を作成できます。
+A lot of things happened there. Firstly, the example uses backticks (`` ` ``), not quotes (`'` or `"`), to wrap the string. Secondly, notice that the string is multi-line, both in the code and the output. This saves inserting `\n` within strings. The `${variable}` syntax used above is a placeholder. Basically, you won't have to use concatenation with the `+` operator anymore. To add variables to strings, you just drop the variable in a template string and wrap it with `${` and `}`. Similarly, you can include other expressions in your string literal, for example `${a + b}`. This new way of creating strings gives you more flexibility to create robust strings.
 
 # --instructions--
 
-テンプレートリテラル構文でバッククォートを使用して、リスト要素 (`li`) 文字列の配列を作成してください。 各リスト要素のテキストは、`result` オブジェクトの `failure` プロパティの配列要素の 1 つであり、`text-warning` の値を持つ `class` 属性を持たせます。 `makeList` 関数からは、リスト項目の文字列の配列を返してください。
+Use template literal syntax with backticks to create an array of list element (`li`) strings. Each list element's text should be one of the array elements from the `failure` property on the `result` object and have a `class` attribute with the value `text-warning`. The `makeList` function should return the array of list item strings.
 
-イテレーターメソッド (任意の種類のループ) を使用して、次のような目的の出力を実現してください。
+Use an iterator method (any kind of loop) to get the desired output (shown below).
 
 ```js
 [
@@ -46,7 +46,7 @@ console.log(greeting);
 
 # --hints--
 
-`failuresList` は、`result.failure` のメッセージを含む配列にする必要があります。
+`failuresList` should be an array containing `result failure` messages.
 
 ```js
 assert(
@@ -54,7 +54,7 @@ assert(
 );
 ```
 
-`failuresList` は、指定された出力と等しい必要があります。
+`failuresList` should be equal to the specified output.
 
 ```js
 assert(
@@ -66,13 +66,13 @@ assert(
 );
 ```
 
-テンプレート文字列と式の補間機能を使用する必要があります。
+Template strings and expression interpolation should be used.
 
 ```js
 assert.match(code, /(`.*\${.*}.*`)/);
 ```
 
-イテレーターを使用する必要があります。
+An iterator should be used.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/for|map|reduce|forEach|while/));

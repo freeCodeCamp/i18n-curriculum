@@ -1,6 +1,6 @@
 ---
 id: 5e8f2f13c4cdbe86b5c72d97
-title: 'Reti neurali convolutionali: Il livello convoluzionale'
+title: 'Convolutional Neural Networks: The Convolutional Layer'
 challengeType: 11
 videoId: LrdmcQpTyLw
 bilibiliIds:
@@ -14,19 +14,19 @@ dashedName: convolutional-neural-networks-the-convolutional-layer
 
 ## --text--
 
-Quali sono le tre proprietà principali di ogni strato convoluzionale?
+What are the three main properties of each convolutional layer?
 
 ## --answers--
 
-Dimensione dell'input, numero di filtri e dimensione del campione dei filtri.
+Input size, the number of filters, and the sample size of the filters.
 
 ---
 
-Dimensione dell'input, dimensioni in ingresso e valori di colore dell'input.
+Input size, input dimensions, and the color values of the input.
 
 ---
 
-Dimensione dell'input, padding in ingresso e passo (stride).
+Input size, input padding, and stride.
 
 ## --video-solution--
 

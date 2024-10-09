@@ -1,6 +1,6 @@
 ---
 id: 589fc832f9fc0f352b528e79
-title: 发送和显示聊天消息
+title: Send and Display Chat Messages
 challengeType: 2
 forumTopicId: 301562
 dashedName: send-and-display-chat-messages
@@ -8,7 +8,7 @@ dashedName: send-and-display-chat-messages
 
 # --description--
 
-是时候开始允许用户向服务器发送聊天消息，以向所有客户端发送消息了！ 在 `client.js` 文件里，你应该已经注意到了这段提交消息表单的代码：
+It's time you start allowing clients to send a chat message to the server to emit to all the clients! In your `client.js` file, you should see there is already a block of code handling when the message form is submitted.
 
 ```js
 $('form').submit(function() {
@@ -16,23 +16,23 @@ $('form').submit(function() {
 });
 ```
 
-在表单提交代码中，需要处理发送（emit）事件，它应该发生在定义 `messageToSend` 之后，以及清除 `#m` 中的文本之前。 我们称这个事件为 `'chat message'`，需发送的数据为 `messageToSend`。
+Within the form submit code, you should emit an event after you define `messageToSend` but before you clear the text box `#m`. The event should be named `'chat message'` and the data should just be `messageToSend`.
 
 ```js
 socket.emit('chat message', messageToSend);
 ```
 
-在服务端，我们需要监听包含 `message` 数据的 `'chat message'` 事件。 一旦接收到事件，服务端应该使用 `io.emit` 向所有套接字发出 `'chat message'` 事件，并发送包含 `username` 和 `message` 的数据对象。
+Now, on your server, you should be listening to the socket for the event `'chat message'` with the data being named `message`. Once the event is received, it should emit the event `'chat message'` to all sockets using `io.emit`, sending a data object containing the `username` and `message`.
 
-在 `client.js` 中，你现在应该监听 `'chat message'` 事件，并在接收到事件后将用户名、冒号和消息添加到 `#messages` 的列表项中！
+In `client.js`, you should now listen for event `'chat message'` and, when received, append a list item to `#messages` with the username, a colon, and the message!
 
-至此，我们已经完成发送信息到所有客户端的功能。
+At this point, the chat should be fully functional and sending messages across all clients!
 
-完成上述要求后，请提交你的页面链接。 如果你在运行时遇到错误，可以<a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#send-and-display-chat-messages-11" target="_blank" rel="noopener noreferrer nofollow">查看已完成的项目</a>。
+Submit your page when you think you've got it right. If you're running into errors, you can <a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#send-and-display-chat-messages-11" target="_blank" rel="noopener noreferrer nofollow">check out the project completed up to this point</a>.
 
 # --hints--
 
-服务端应监听 `'chat message'`，且应在监听到后发送它。
+Server should listen for `'chat message'` and then emit it properly.
 
 ```js
 async (getUserInput) => {
@@ -47,7 +47,7 @@ async (getUserInput) => {
 }
 ```
 
-客户端应正确处理和展示从 `'chat message'` 事件发来的新数据。
+Client should properly handle and display the new data from event `'chat message'`.
 
 ```js
 async (getUserInput) => {

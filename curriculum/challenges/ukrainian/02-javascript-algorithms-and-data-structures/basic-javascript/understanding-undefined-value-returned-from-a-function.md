@@ -1,6 +1,6 @@
 ---
 id: 598e8944f009e646fc236146
-title: Невизначене значення, повернуте з функції
+title: Understanding Undefined Value returned from a Function
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/ce2p7cL'
 forumTopicId: 301177
@@ -9,9 +9,9 @@ dashedName: understanding-undefined-value-returned-from-a-function
 
 # --description--
 
-Функція може містити інструкцію `return`, але це необов’язково. Якщо функція не має інструкції `return`, то під час виклику функція обробляє внутрішній код, але поверненим значенням є `undefined`.
+A function can include the `return` statement but it does not have to. In the case that the function doesn't have a `return` statement, when you call it, the function processes the inner code but the returned value is `undefined`.
 
-**Приклад**
+**Example**
 
 ```js
 let sum = 0;
@@ -23,33 +23,33 @@ function addSum(num) {
 addSum(3);
 ```
 
-`addSum` є функцією без інструкції `return`. Функція змінить глобальну змінну `sum`, але поверненим значенням функції буде `undefined`.
+`addSum` is a function without a `return` statement. The function will change the global `sum` variable but the returned value of the function is `undefined`.
 
 # --instructions--
 
-Створіть функцію `addFive` без аргументів. Ця функція додає 5 до змінної `sum`, але поверненим значенням є `undefined`.
+Create a function `addFive` without any arguments. This function adds 5 to the `sum` variable, but its returned value is `undefined`.
 
 # --hints--
 
-`addFive` має бути функцією.
+`addFive` should be a function.
 
 ```js
 assert(typeof addFive === 'function');
 ```
 
-Після запуску обидвох функцій, `sum` має дорівнювати `8`.
+Once both functions have run, the `sum` should be equal to `8`.
 
 ```js
 assert(sum === 8);
 ```
 
-Поверненим значенням з `addFive` повинне бути `undefined`.
+Returned value from `addFive` should be `undefined`.
 
 ```js
 assert(addFive() === undefined);
 ```
 
-Всередині функції `addFive` ви повинні додати `5` до змінної `sum`.
+Inside the `addFive` function, you should add `5` to the `sum` variable.
 
 ```js
 assert(

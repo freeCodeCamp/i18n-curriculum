@@ -1,6 +1,6 @@
 ---
 id: 587d8253367417b2b2512c6d
-title: Realizar a interseção entre dois conjuntos de dados
+title: Perform an Intersection on Two Sets of Data
 challengeType: 1
 forumTopicId: 301709
 dashedName: perform-an-intersection-on-two-sets-of-data
@@ -8,13 +8,13 @@ dashedName: perform-an-intersection-on-two-sets-of-data
 
 # --description--
 
-Neste exercício, vamos obter a interseção entre dois conjuntos de dados. Vamos criar um método na nossa estrutura de dados `Set`, chamado `intersection`. Uma interseção de conjuntos representa todos os valores que são comuns a dois ou mais conjuntos. Este método deve receber outro `Set` como um argumento e retornar a `intersection` dos dois conjuntos.
+In this exercise we are going to perform an intersection on 2 sets of data. We will create a method on our `Set` data structure called `intersection`. An intersection of sets represents all values that are common to two or more sets. This method should take another `Set` as an argument and return the `intersection` of the two sets.
 
-Por exemplo, se `setA = ['a','b','c']` e `setB = ['a','b','d','e']`, a interseção do setA e do setB é: `setA.intersection(setB) = ['a', 'b']`.
+For example, if `setA = ['a','b','c']` and `setB = ['a','b','d','e']`, then the intersection of setA and setB is: `setA.intersection(setB) = ['a', 'b']`.
 
 # --hints--
 
-A classe `Set` deve ter o método `intersection`.
+Your `Set` class should have a `intersection` method.
 
 ```js
 assert(
@@ -25,7 +25,7 @@ assert(
 );
 ```
 
-A coleção adequada deve ser retornada.
+The proper collection should be returned.
 
 ```js
 assert(

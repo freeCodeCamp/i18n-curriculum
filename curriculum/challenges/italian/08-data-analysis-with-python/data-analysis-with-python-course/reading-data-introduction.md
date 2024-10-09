@@ -1,6 +1,6 @@
 ---
 id: 5e9a093a74c4063ca6f7c161
-title: Introduzione alla lettura dei dati
+title: Reading Data Introduction
 challengeType: 11
 videoId: cDnt02BcHng
 bilibiliIds:
@@ -12,18 +12,18 @@ dashedName: reading-data-introduction
 
 # --description--
 
-*Invece di usare notebooks.ai come mostrato nel video, puoi usare Google Colab.*
+*Instead of using notebooks.ai like it shows in the video, you can use Google Colab instead.*
 
-Altre risorse:
+More resources:
 
--  <a href="https://github.com/krishnatray/RDP-Reading-Data-with-Python-and-Pandas" target="_blank" rel="noopener noreferrer nofollow">Notebook su GitHub</a>
--  <a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb" target="_blank" rel="noopener noreferrer nofollow">Come aprire Notebooks da GitHub usando Google Colab.</a>
+-  <a href="https://github.com/krishnatray/RDP-Reading-Data-with-Python-and-Pandas" target="_blank" rel="noopener noreferrer nofollow">Notebooks on GitHub</a>
+-  <a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb" target="_blank" rel="noopener noreferrer nofollow">How to open Notebooks from GitHub using Google Colab.</a>
 
 # --questions--
 
 ## --text--
 
-Dato un file chiamato `certificates.csv` con questi contenuti:
+Given a file named `certificates.csv` with these contents:
 
 <pre>
 Name$Certificates$Time (in months)
@@ -33,7 +33,7 @@ Ahmad$5$9
 Beau$6$12
 </pre>
 
-Riempi gli spazi vuoti per gli argomenti mancanti qui sotto:
+Fill in the blanks for the missing arguments below:
 
 ```py
 import csv

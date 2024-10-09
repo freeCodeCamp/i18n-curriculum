@@ -1,6 +1,6 @@
 ---
 id: 587d7790367417b2b2512ab0
-title: Використовуйте tabindex, щоб додати фокус клавіатури до елемента
+title: Use tabindex to Add Keyboard Focus to an Element
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cmzMDHW'
 forumTopicId: 301027
@@ -9,29 +9,29 @@ dashedName: use-tabindex-to-add-keyboard-focus-to-an-element
 
 # --description--
 
-Значення HTML `tabindex` має три різні функції, що відносяться до елемента фокусу на клавіатурі. Коли він з'явиться на клавіатурі, це означає, що елемент можна фокусувати. Значення (ціле число: додатнє, від'ємне або нуль) визначає поводження об'єкта.
+The HTML `tabindex` attribute has three distinct functions relating to an element's keyboard focus. When it's on a tag, it indicates that the element can be focused on. The value (an integer that's positive, negative, or zero) determines the behavior.
 
-Певні елементи, такі як посилання і форми управління, отримують автоматично фокус клавіатури, якщо користувач виділяє їх через сторінку. В тому ж самому порядку як елементи надходять у HTML джерела розмітки. Цю ж саму функцію можна додати до інших елементів, таких як `div`, `span` і `p`, розмістивши для них значення `tabindex="0"`. Для прикладу:
+Certain elements, such as links and form controls, automatically receive keyboard focus when a user tabs through a page. It's in the same order as the elements come in the HTML source markup. This same functionality can be given to other elements, such as `div`, `span`, and `p`, by placing a `tabindex="0"` attribute on them. Here's an example:
 
 ```html
 <div tabindex="0">I need keyboard focus!</div>
 ```
 
-**Note:**: від'ємне значення `tabindex` (як правило -1) показує, що елемент фокусується, але не доступний за допомогою клавіатури. Зазвичай цей метод використовується для надання контенту фокусу програмного (наприклад, коли `div` використовується для активації спливаючого вікна), і виходить за рамки самих завдань.
+**Note:** A negative `tabindex` value (typically -1) indicates that an element is focusable, but is not reachable by the keyboard. This method is generally used to bring focus to content programmatically (like when a `div` used for a pop-up window is activated), and is beyond the scope of these challenges.
 
 # --instructions--
 
-Camper Cat створив нову анкету, щоб зібрати інформацію про своїх користувачів. Він знає, що поля вводу автоматично фокусуються на клавіатурі, але хоче переконатися, що його користувачі клавіатури слідують інструкціям при табуляції через елементи. Додайте значення `tabindex` до тегу `p` та задайте це значення до `0`. Бонус - використання `tabindex` також дозволяє псевдокласу CSS `:focus` працювати з тегом `p`.
+Camper Cat created a new survey to collect information about his users. He knows input fields automatically get keyboard focus, but he wants to make sure his keyboard users pause at the instructions while tabbing through the items. Add a `tabindex` attribute to the `p` tag and set its value to `0`. Bonus - using `tabindex` also enables the CSS pseudo-class `:focus` to work on the `p` tag.
 
 # --hints--
 
-Ваш код повинен додати значення `tabindex` до тегу `p`, який містить інструкції до форми.
+Your code should add a `tabindex` attribute to the `p` tag that holds the form instructions.
 
 ```js
 assert.isNotNull(document.querySelector('p')?.getAttribute('tabindex'));
 ```
 
-Ваш код повинен встановити значення `tabindex` до тегу `p` зі значенням 0.
+Your code should set the `tabindex` attribute on the `p` tag to a value of 0.
 
 ```js
 assert.equal(document.querySelector('p')?.getAttribute('tabindex'), '0');

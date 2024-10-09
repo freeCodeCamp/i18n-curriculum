@@ -1,6 +1,6 @@
 ---
 id: 589690e6f9fc0f352b528e6e
-title: モジュールを使用してプロジェクトを整理する
+title: Clean Up Your Project with Modules
 challengeType: 2
 forumTopicId: 301549
 dashedName: clean-up-your-project-with-modules
@@ -8,9 +8,9 @@ dashedName: clean-up-your-project-with-modules
 
 # --description--
 
-ここまで作成したものはすべて `server.js` ファイルにあります。 このままではコードが管理しずらくなって、あまり拡張できなくなる可能性があります。 `routes.js` と `auth.js` という 2 つの新しいファイルを作成してください。
+Right now, everything you have is in your `server.js` file. This can lead to hard to manage code that isn't very expandable. Create 2 new files: `routes.js` and `auth.js`
 
-どちらも次のコードから始める必要があります。
+Both should start with the following code:
 
 ```js
 module.exports = function (app, myDataBase) {
@@ -18,19 +18,19 @@ module.exports = function (app, myDataBase) {
 }
 ```
 
-サーバーファイルの先頭で `const routes = require('./routes.js');` のようにしてファイルを require します。データベースとの接続を正常に確立した直後に、`routes(app, myDataBase)` のようにしてそれぞれをインスタンス化します。
+Now, in the top of your server file, require these files like so: `const routes = require('./routes.js');` Right after you establish a successful connection with the database, instantiate each of them like so: `routes(app, myDataBase)`
 
-さらに、サーバー内のすべてのルートを新しいファイルに貼り付け、サーバーファイルからそれらのルートを削除します。 `ensureAuthenticated` 関数についても、ルーティングのために特別に作成したものなので貼り付けます。 ここで、使用している `const passport = require('passport');` などの依存関係を `routes.js` ファイルのエクスポート行の先頭に正しく追加する必要があります。
+Finally, take all of the routes in your server and paste them into your new files, and remove them from your server file. Also take the `ensureAuthenticated` function, since it was specifically created for routing. Now, you will have to correctly add the dependencies in which are used, such as `const passport = require('passport');`, at the very top, above the export line in your `routes.js` file.
 
-以上の追加を、エラーがなくなりサーバーファイルにルーティングがなくなるまで続けます (**catchブロック内のルートは除きます**)。
+Keep adding them until no more errors exist, and your server file no longer has any routing (**except for the route in the catch block**)!
 
-Do the same thing in your `auth.js` file with all of the things related to authentication such as the serialization and the setting up of the local strategy and erase them from your server file. サーバーの同じ場所で、依存関係を追加し、`auth(app, myDataBase)` を呼び出してください。
+Do the same thing in your `auth.js` file with all of the things related to authentication such as the serialization and the setting up of the local strategy and erase them from your server file. Be sure to add the dependencies in and call `auth(app, myDataBase)` in the server in the same spot.
 
-正しいと思ったら、ページを送信してください。 エラーが発生している場合、<a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#clean-up-your-project-with-modules-2" target="_blank" rel="noopener noreferrer nofollow">完成形のプロジェクトの例をこちらで確認できます</a>。
+Submit your page when you think you've got it right. If you're running into errors, you can <a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#clean-up-your-project-with-modules-2" target="_blank" rel="noopener noreferrer nofollow">check out an example of the completed project</a>.
 
 # --hints--
 
-モジュールが存在する必要があります。
+Modules should be present.
 
 ```js
 async (getUserInput) => {

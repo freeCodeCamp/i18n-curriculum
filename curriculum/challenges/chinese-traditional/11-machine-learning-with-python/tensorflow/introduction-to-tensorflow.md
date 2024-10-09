@@ -1,6 +1,6 @@
 ---
 id: 5e8f2f13c4cdbe86b5c72d88
-title: TensorFlow 簡介
+title: Introduction to TensorFlow
 challengeType: 11
 videoId: r9hRyGGjOgQ
 bilibiliIds:
@@ -18,11 +18,11 @@ The next few video lessons will reference [this Colab notebook](https://colab.re
 
 ## --text--
 
-以下哪個 **不是** 張量的類型？
+Which of the following is **not** a type of tensor?
 
 ## --answers--
 
-變量
+Variable
 
 ---
 
@@ -30,15 +30,15 @@ Flowing
 
 ---
 
-佔位符
+Placeholder
 
 ---
 
-稀疏張量
+SparseTensor
 
 ---
 
-常量
+Constant
 
 ## --video-solution--
 

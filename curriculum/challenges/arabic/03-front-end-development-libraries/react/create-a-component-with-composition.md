@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d4036164
-title: إنشاء مكون (Component) مع التكوين (Composition)
+title: Create a Component with Composition
 challengeType: 6
 forumTopicId: 301383
 dashedName: create-a-component-with-composition
@@ -8,9 +8,9 @@ dashedName: create-a-component-with-composition
 
 # --description--
 
-الآن سوف تنظر في كيفية تكوين مكونات متعددة من React. تخيل أنك تبني تطبيق وأنشأت ثلاث مكونات: `Navbar`, و `Dashboard`, و `Footer`.
+Now we will look at how we can compose multiple React components together. Imagine you are building an app and have created three components: a `Navbar`, `Dashboard`, and `Footer`.
 
-لتجميع هذه المكونات معا، يمكنك إنشاء عنصر `App` تكون مكون *الأصل* الذي يجعل كل واحد من هذه المكونات الثلاثة *أبنائه*. لجعل مكون أبن في مكون React، ضف اسم المكون المكتوب كعلامة HTML مخصصة في JSX. على سبيل المثال، في طريقة `render` يمكنك الكتابة:
+To compose these components together, you could create an `App` *parent* component which renders each of these three components as *children*. To render a component as a child in a React component, you include the component name written as a custom HTML tag in the JSX. For example, in the `render` method you could write:
 
 ```jsx
 return (
@@ -22,17 +22,17 @@ return (
 )
 ```
 
-عندما يقرا React علامة HTML مخصصة تشير إلى مكون آخر (اسم مكون مغلف في `< />` مثل المثال)، فهو يجعل تكوين ذلك المكون في موقع العلامة. هذا يجب أن يوضح العِلاقة بين الوالد والابن بين عنصر `App` و `Navbar`, و`Dashboard`, و `Footer`.
+When React encounters a custom HTML tag that references another component (a component name wrapped in `< />` like in this example), it renders the markup for that component in the location of the tag. This should illustrate the parent/child relationship between the `App` component and the `Navbar`, `Dashboard`, and `Footer`.
 
 # --instructions--
 
-في محرر التعليمات البرمجية، هناك مكون وظيفي بسيط يسمى `ChildComponent` ومكون فئة يسمى `ParentComponent`. تكوين الاثنين معاً بواسطة تقديم `ChildComponent` ضمن `ParentComponent`. تيقن من إغلاق علامة `ChildComponent` مع خط المائل إلى الأمام.
+In the code editor, there is a simple functional component called `ChildComponent` and a class component called `ParentComponent`. Compose the two together by rendering the `ChildComponent` within the `ParentComponent`. Make sure to close the `ChildComponent` tag with a forward slash.
 
 **Note:** `ChildComponent` is defined with an ES6 arrow function because this is a very common practice when using React.
 
 # --hints--
 
-يجب أن يعيد مكون React عنصر `div` واحد.
+The React component should return a single `div` element.
 
 ```js
 assert(
@@ -43,7 +43,7 @@ assert(
 );
 ```
 
-وينبغي للمكون أن ينتج عنصرين متداخلين (two nested elements).
+The component should return two nested elements.
 
 ```js
 assert(
@@ -54,7 +54,7 @@ assert(
 );
 ```
 
-يجب أن ينتج المكون `ChildComponent` يكون أبن الثاني.
+The component should return the `ChildComponent` as its second child.
 
 ```js
 assert(

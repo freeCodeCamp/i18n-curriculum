@@ -1,6 +1,6 @@
 ---
 id: acda2fb1324d9b0fa741e6b5
-title: 末尾の一致判定
+title: Confirm the Ending
 challengeType: 1
 forumTopicId: 16006
 dashedName: confirm-the-ending
@@ -8,31 +8,31 @@ dashedName: confirm-the-ending
 
 # --description--
 
-文字列 (最初の引数、`str`) が与えられたターゲット文字列 (2 番目の引数、`target`) で終わるかどうかを確認してください。
+Check if a string (first argument, `str`) ends with the given target string (second argument, `target`).
 
-このチャレンジは ES2015 で導入された `.endsWith()` メソッドを使用すれば*解決できます*。 しかし、ここでは代わりに JavaScript の substring メソッドを使用してください。
+This challenge *can* be solved with the `.endsWith()` method, which was introduced in ES2015. But for the purpose of this challenge, we would like you to use one of the JavaScript substring methods instead.
 
 # --hints--
 
-`confirmEnding("Bastian", "n")` は `true` を返す必要があります。
+`confirmEnding("Bastian", "n")` should return `true`.
 
 ```js
 assert(confirmEnding('Bastian', 'n') === true);
 ```
 
-`confirmEnding("Congratulation", "on")`は `true` を返す必要があります。
+`confirmEnding("Congratulation", "on")` should return `true`.
 
 ```js
 assert(confirmEnding('Congratulation', 'on') === true);
 ```
 
-`confirmEnding("Connor", "n")` は `false` を返す必要があります。
+`confirmEnding("Connor", "n")` should return `false`.
 
 ```js
 assert(confirmEnding('Connor', 'n') === false);
 ```
 
-`confirmEnding("Walking on water and developing software from a specification are easy if both are frozen", "specification")` は `false` を返す必要があります。
+`confirmEnding("Walking on water and developing software from a specification are easy if both are frozen", "specification")` should return `false`.
 
 ```js
 assert(
@@ -43,31 +43,31 @@ assert(
 );
 ```
 
-`confirmEnding("He has to give me a new name", "name")` は `true` を返す必要があります。
+`confirmEnding("He has to give me a new name", "name")` should return `true`.
 
 ```js
 assert(confirmEnding('He has to give me a new name', 'name') === true);
 ```
 
-`confirmEnding("Open sesame", "same")` は `true` を返す必要があります。
+`confirmEnding("Open sesame", "same")` should return `true`.
 
 ```js
 assert(confirmEnding('Open sesame', 'same') === true);
 ```
 
-`confirmEnding("Open sesame", "sage")` は `false` を返す必要があります。
+`confirmEnding("Open sesame", "sage")` should return `false`.
 
 ```js
 assert(confirmEnding('Open sesame', 'sage') === false);
 ```
 
-`confirmEnding("Open sesame", "game")` は `false` を返す必要があります。
+`confirmEnding("Open sesame", "game")` should return `false`.
 
 ```js
 assert(confirmEnding('Open sesame', 'game') === false);
 ```
 
-`confirmEnding("If you want to save our world, you must hurry. We dont know how much longer we can withstand the nothing", "mountain")` は `false` を返す必要があります。
+`confirmEnding("If you want to save our world, you must hurry. We dont know how much longer we can withstand the nothing", "mountain")` should return `false`.
 
 ```js
 assert(
@@ -78,13 +78,13 @@ assert(
 );
 ```
 
-`confirmEnding("Abstraction", "action")` は `true` を返す必要があります。
+`confirmEnding("Abstraction", "action")` should return `true`.
 
 ```js
 assert(confirmEnding('Abstraction', 'action') === true);
 ```
 
-このチャレンジを解決するプログラムでは、組み込みメソッド `.endsWith()` を使用しないでください。
+Your code should not use the built-in method `.endsWith()` to solve the challenge.
 
 ```js
 assert(!/\.endsWith\(.*?\)\s*?;?/.test(__helpers.removeJSComments(code)) && !/\['endsWith'\]/.test(__helpers.removeJSComments(code)));

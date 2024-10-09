@@ -1,6 +1,6 @@
 ---
 id: 587d7b88367417b2b2512b44
-title: Pfeilfunktionen mit Parametern schreiben
+title: Write Arrow Functions with Parameters
 challengeType: 1
 forumTopicId: 301223
 dashedName: write-arrow-functions-with-parameters
@@ -8,49 +8,49 @@ dashedName: write-arrow-functions-with-parameters
 
 # --description--
 
-Genau wie bei einer normalen Funktion kannst du einer Pfeilfunktion Argumente übergeben.
+Just like a regular function, you can pass arguments into an arrow function.
 
 ```js
 const doubler = (item) => item * 2;
 doubler(4);
 ```
 
-`doubler(4)` würde den Wert `8` zurückgeben.
+`doubler(4)` would return the value `8`.
 
-Wenn eine Pfeilfunktion einen einzigen Parameter hat, können die Klammern, die den Parameter einschließen, weggelassen werden.
+If an arrow function has a single parameter, the parentheses enclosing the parameter may be omitted.
 
 ```js
 const doubler = item => item * 2;
 ```
 
-Es ist möglich, mehr als ein Argument an eine Pfeilfunktion zu übergeben.
+It is possible to pass more than one argument into an arrow function.
 
 ```js
 const multiplier = (item, multi) => item * multi;
 multiplier(4, 2);
 ```
 
-`multiplier(4, 2)` würde den Wert `8` zurückgeben.
+`multiplier(4, 2)` would return the value `8`.
 
 # --instructions--
 
-Schreibe die Funktion `myConcat`, die den Inhalt von `arr2` an `arr1` anhängt, so um, dass die Funktion die Syntax der Pfeilfunktion verwendet.
+Rewrite the `myConcat` function which appends contents of `arr2` to `arr1` so that the function uses arrow function syntax.
 
 # --hints--
 
-Du solltest das Schlüsselwort `var` ersetzen.
+You should replace the `var` keyword.
 
 ```js
 assert.notMatch(code, /var/g);
 ```
 
-`myConcat` sollte eine konstante Variable sein (durch Verwendung von `const`).
+`myConcat` should be a constant variable (by using `const`).
 
 ```js
 assert.match(code, /const\s+myConcat/g);
 ```
 
-`myConcat` sollte eine Pfeilfunktion mit zwei Parametern sein
+`myConcat` should be an arrow function with two parameters
 
 ```js
 assert(
@@ -59,13 +59,13 @@ assert(
 );
 ```
 
-`myConcat()` sollte `[1, 2, 3, 4, 5]` zurückgeben.
+`myConcat()` should return `[1, 2, 3, 4, 5]`.
 
 ```js
 assert.deepEqual(myConcat([1, 2], [3, 4, 5]), [1, 2, 3, 4, 5]);
 ```
 
-Das Schlüsselwort `function` sollte nicht verwendet werden.
+The `function` keyword should not be used.
 
 ```js
 assert.notMatch(code, /function/g);

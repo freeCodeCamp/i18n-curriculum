@@ -1,6 +1,6 @@
 ---
 id: 56533eb9ac21ba0edf2244de
-title: إضافة خِيار افتراضي (Default) في عبارات التبديل (Switch)
+title: Adding a Default Option in Switch Statements
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/c3JvVfg'
 forumTopicId: 16653
@@ -9,9 +9,9 @@ dashedName: adding-a-default-option-in-switch-statements
 
 # --description--
 
-في عبارة `switch` قد لا تكون قادراً على تحديد جميع القيم المحتملة كعبارات `case`. بدلاً من ذلك، يمكنك إضافة عبارة `default` التي سيتم تنفيذها إذا لم يتم العثور على عبارات `case` مطابقة. وكأنها مثل آخر عبارة `else` في `if/else`.
+In a `switch` statement you may not be able to specify all possible values as `case` statements. Instead, you can add the `default` statement which will be executed if no matching `case` statements are found. Think of it like the final `else` statement in an `if/else` chain.
 
-يجب أن تكون عبارة `default` آخر حالة.
+A `default` statement should be the last case.
 
 ```js
 switch (num) {
@@ -30,7 +30,7 @@ switch (num) {
 
 # --instructions--
 
-اكتب عبارة التبديل لتعيين `answer` للشروط التالية:  
+Write a switch statement to set `answer` for the following conditions:  
 `a` - `apple`  
 `b` - `bird`  
 `c` - `cat`  
@@ -38,49 +38,49 @@ switch (num) {
 
 # --hints--
 
-يجب أن ينتج `switchOfStuff("a")` مقطع نصي (string) بقيمة `apple`
+`switchOfStuff("a")` should return the string `apple`
 
 ```js
 assert(switchOfStuff('a') === 'apple');
 ```
 
-يجب أن ينتج `switchOfStuff("b")` مقطع نصي بقيمة `bird`
+`switchOfStuff("b")` should return the string `bird`
 
 ```js
 assert(switchOfStuff('b') === 'bird');
 ```
 
-يجب أن ينتج `switchOfStuff("c")` مقطع نصي بقيمة `cat`
+`switchOfStuff("c")` should return the string `cat`
 
 ```js
 assert(switchOfStuff('c') === 'cat');
 ```
 
-يجب أن ينتج `switchOfStuff("d")`مقطع نصي بقيمة `stuff`
+`switchOfStuff("d")` should return the string `stuff`
 
 ```js
 assert(switchOfStuff('d') === 'stuff');
 ```
 
-يجب أن ينتج `switchOfStuff(4)` مقطع نصي بقيمة `stuff`
+`switchOfStuff(4)` should return the string `stuff`
 
 ```js
 assert(switchOfStuff(4) === 'stuff');
 ```
 
-يجب ألا تستخدم أي عبارات `if` أو `else`
+You should not use any `if` or `else` statements
 
 ```js
 assert(!/else/g.test(__helpers.removeJSComments(code)) || !/if/g.test(__helpers.removeJSComments(code)));
 ```
 
-يجب أن تستخدم عبارة `default`
+You should use a `default` statement
 
 ```js
 assert(switchOfStuff('string-to-trigger-default-case') === 'stuff');
 ```
 
-يجب أن يكون لديك في الأقل ٣ عبارات `break`
+You should have at least 3 `break` statements
 
 ```js
 assert(__helpers.removeJSComments(code).match(/break/g).length > 2);

@@ -1,6 +1,6 @@
 ---
 id: 5a9d7286424fe3d0e10cad13
-title: Einer CSS-Variable einen Rückfall-Wert zuordnen
+title: Attach a Fallback value to a CSS Variable
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/c6bDNfp'
 forumTopicId: 301084
@@ -9,25 +9,25 @@ dashedName: attach-a-fallback-value-to-a-css-variable
 
 # --description--
 
-Wenn du eine Variable als Wert einer CSS-Eigenschaft benutzt, kannst du einen Rückfall-Wert (engl. fallback value) zuweisen, auf den dein Browser zugreift, falls jener der Variable ungültig wäre.
+When using your variable as a CSS property value, you can attach a fallback value that your browser will revert to if the given variable is invalid.
 
-**Hinweis:** Dieser Fallback-Wert dient nicht dazu die Browserkompatibilität zu erhöhen und er wird nicht im Internet Explorer funktionieren. Vielmehr wird er dazu verwendet, dem Browser einen Reservefarbwert anzubieten, falls er die Deklaration deiner Variable nicht findet.
+**Note:** This fallback is not used to increase browser compatibility, and it will not work on IE browsers. Rather, it is used so that the browser has a color to display if it cannot find your variable.
 
-In der Praxis sieht das so aus:
+Here's how you do it:
 
 ```css
 background: var(--penguin-skin, black);
 ```
 
-Dies setzt den Hintergrund auf `black`, falls deine Variable nicht deklariert wurde. Das kann beim Debuggen nützlich sein.
+This will set background to `black` if your variable wasn't set. Note that this can be useful for debugging.
 
 # --instructions--
 
-Es sieht so aus, als gäbe es ein Problem mit den Variablen in den Klassen `.penguin-top` und `.penguin-bottom`. Statt den Tippfehler zu berichtigen, sollst du hier einen Fallback-Wert von `black` zu den `background`-Eigenschaften der `.penguin-top` und `.penguin-bottom` Klassen hinzufügen.
+It looks like there is a problem with the variables supplied to the `.penguin-top` and `.penguin-bottom` classes. Rather than fix the typo, add a fallback value of `black` to the `background` property of the `.penguin-top` and `.penguin-bottom` classes.
 
 # --hints--
 
-Ein Fallback-Wert von `black` soll in der `background`-Eigenschaft der Klasse `penguin-top` verwendet werden.
+The fallback value of `black` should be used in the `background` property of the `penguin-top` class.
 
 ```js
 assert(
@@ -37,7 +37,7 @@ assert(
 );
 ```
 
-Ein Fallback-Wert von `black` soll in der `background`-Eigenschaft der `penguin-bottom` Klasse verwendet werden.
+The fallback value of `black` should be used in `background` property of the `penguin-bottom` class.
 
 ```js
 assert(

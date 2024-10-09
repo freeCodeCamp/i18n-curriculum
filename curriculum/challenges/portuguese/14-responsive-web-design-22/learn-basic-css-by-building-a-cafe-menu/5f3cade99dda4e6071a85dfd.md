@@ -1,35 +1,35 @@
 ---
 id: 5f3cade99dda4e6071a85dfd
-title: Passo 46
+title: Step 46
 challengeType: 0
 dashedName: step-46
 ---
 
 # --description--
 
-Você ainda vai voltar à estilização do menu, mas, por agora, adicione um segundo elemento `section` abaixo do primeiro para mostrar as sobremesas oferecidas pela cafeteria.
+You will come back to styling the menu in a few steps, but for now, go ahead and add a second `section` element below the first for displaying the desserts offered by the cafe.
 
 # --hints--
 
-Você deve acrescentar uma tag de abertura para `section`.
+You should have an opening `section` tag.
 
 ```js
 assert.lengthOf(code.match(/<section>/ig) ,2);
 ```
 
-Você deve acrescentar uma tag de fechamento para `section`.
+You should have a closing `section` tag.
 
 ```js
 assert.lengthOf(code.match(/<\/section>/ig) ,2);
 ```
 
-O elemento preexistente `main` deve permanecer o mesmo.
+You should not change the existing `main` element.
 
 ```js
 assert.lengthOf (document.querySelectorAll('main'), 1);
 ```
 
-O novo elemento `section` deve estar dentro do elemento `main`.
+Your new `section` element should be nested in the `main` element.
 
 ```js
 const main = document.querySelector('main');

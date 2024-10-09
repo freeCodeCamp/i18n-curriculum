@@ -1,6 +1,6 @@
 ---
 id: 5e8f2f13c4cdbe86b5c72d97
-title: 'Redes neuronales convolucionales: La capa convolucional'
+title: 'Convolutional Neural Networks: The Convolutional Layer'
 challengeType: 11
 videoId: LrdmcQpTyLw
 bilibiliIds:
@@ -14,7 +14,7 @@ dashedName: convolutional-neural-networks-the-convolutional-layer
 
 ## --text--
 
-¿Cuáles son las tres propiedades principales de cada capa convolucional?
+What are the three main properties of each convolutional layer?
 
 ## --answers--
 

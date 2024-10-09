@@ -1,6 +1,6 @@
 ---
 id: 587d7b89367417b2b2512b49
-title: 使用解构赋值从对象中分配变量
+title: Use Destructuring Assignment to Assign Variables from Objects
 challengeType: 1
 forumTopicId: 301215
 dashedName: use-destructuring-assignment-to-assign-variables-from-objects
@@ -8,29 +8,29 @@ dashedName: use-destructuring-assignment-to-assign-variables-from-objects
 
 # --description--
 
-可以给解构的值赋予一个新的变量名， 通过在赋值的时候将新的变量名放在冒号后面来实现。
+Destructuring allows you to assign a new variable name when extracting values. You can do this by putting the new name after a colon when assigning the value.
 
-还是以上个例子的对象来举例：
+Using the same object from the last example:
 
 ```js
 const user = { name: 'John Doe', age: 34 };
 ```
 
-这是指定新的变量名的例子：
+Here's how you can give new variable names in the assignment:
 
 ```js
 const { name: userName, age: userAge } = user;
 ```
 
-你可以这么理解这段代码：获取 `user.name` 的值，将它赋给一个新的变量 `userName`，等等。 `userName` 的值将是字符串 `John Doe`，`userAge` 的值将是数字 `34`。
+You may read it as "get the value of `user.name` and assign it to a new variable named `userName`" and so on. The value of `userName` would be the string `John Doe`, and the value of `userAge` would be the number `34`.
 
 # --instructions--
 
-使用解构赋值语句替换两个赋值语句。 将 `HIGH_TEMPERATURES` 的 `today` 和 `tomorrow` 的值赋值给 `highToday` 和 `highTomorrow`。
+Replace the two assignments with an equivalent destructuring assignment. It should still assign the variables `highToday` and `highTomorrow` the values of `today` and `tomorrow` from the `HIGH_TEMPERATURES` object.
 
 # --hints--
 
-应该移除 ES5 赋值语句。
+You should remove the ES5 assignment syntax.
 
 ```js
 assert(
@@ -39,7 +39,7 @@ assert(
 );
 ```
 
-应该使用解构赋值语句创建 `highToday` 变量。
+You should use destructuring to create the `highToday` variable.
 
 ```js
 assert(
@@ -49,7 +49,7 @@ assert(
 );
 ```
 
-应该使用解构赋值语句创建 `highTomorrow` 变量。
+You should use destructuring to create the `highTomorrow` variable.
 
 ```js
 assert(
@@ -59,7 +59,7 @@ assert(
 );
 ```
 
-`highToday` 应该等于 `77`，`highTomorrow` 应该等于 `80`。
+`highToday` should be equal to `77` and `highTomorrow` should be equal to `80`.
 
 ```js
 assert(highToday === 77 && highTomorrow === 80);

@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d4036167
-title: 將 class 組件渲染到 DOM 樹
+title: Render a Class Component to the DOM
 challengeType: 6
 forumTopicId: 301404
 dashedName: render-a-class-component-to-the-dom
@@ -8,19 +8,19 @@ dashedName: render-a-class-component-to-the-dom
 
 # --description--
 
-還記不記得在之前的挑戰中使用 ReactDOM API 將 JSX 元素渲染到 DOM， 這與渲染 React 組件的過程十分相似。 過去的幾個挑戰主要針對組件和組合，因此渲染是在幕後完成的。 但是，如果不調用 ReactDOM API，編寫的任何 React 代碼都不會渲染到 DOM。
+You may remember using the ReactDOM API in an earlier challenge to render JSX elements to the DOM. The process for rendering React components will look very similar. The past few challenges focused on components and composition, so the rendering was done for you behind the scenes. However, none of the React code you write will render to the DOM without making a call to the ReactDOM API.
 
-複習一下語法： `ReactDOM.render(componentToRender, targetNode)`。 第一個參數是要渲染的 React 組件。 第二個參數是要在其中渲染該組件的 DOM 節點。
+Here's a refresher on the syntax: `ReactDOM.render(componentToRender, targetNode)`. The first argument is the React component that you want to render. The second argument is the DOM node that you want to render that component within.
 
-傳遞到`ReactDOM.render()` 的React 組件與 JSX 元素略有不同。 對於 JSX 元素，傳入的是要渲染的元素的名稱。 但是，對於 React 組件，需要使用與渲染嵌套組件相同的語法，例如`ReactDOM.render(<ComponentToRender />, targetNode)`。 此語法用於 ES6 class 組件和函數組件都可以。
+React components are passed into `ReactDOM.render()` a little differently than JSX elements. For JSX elements, you pass in the name of the element that you want to render. However, for React components, you need to use the same syntax as if you were rendering a nested component, for example `ReactDOM.render(<ComponentToRender />, targetNode)`. You use this syntax for both ES6 class components and functional components.
 
 # --instructions--
 
-在後臺引入了 `Fruits` 和 `Vegetables` 組件。 將兩個組件渲染爲 `TypesOfFood` 組件的子組件，然後將 `TypesOfFood` 渲染到 DOM 節點， 在這個挑戰中，請渲染到 `id='challenge-node'`的 `div` 中。
+Both the `Fruits` and `Vegetables` components are defined for you behind the scenes. Render both components as children of the `TypesOfFood` component, then render `TypesOfFood` to the DOM. There is a `div` with `id='challenge-node'` available for you to use.
 
 # --hints--
 
-`TypesOfFood` 組件應該返回單個 `div` 元素。
+The `TypesOfFood` component should return a single `div` element.
 
 ```js
 assert(
@@ -31,7 +31,7 @@ assert(
 );
 ```
 
-`TypesOfFood` 組件應該在 `h1` 元素之後渲染 `Fruits` 組件。
+The `TypesOfFood` component should render the `Fruits` component after the `h1` element.
 
 ```js
 assert(
@@ -42,7 +42,7 @@ assert(
 );
 ```
 
-`TypesOfFood` 組件應該在 `Fruits` 組件之後渲染 `Vegetables` 組件。
+The `TypesOfFood` component should render the `Vegetables` component after `Fruits`.
 
 ```js
 assert(
@@ -53,7 +53,7 @@ assert(
 );
 ```
 
-`TypesOfFood` 組件應該渲染到 id 爲 `challenge-node` 的 `div`中。
+The `TypesOfFood` component should render to the DOM within the `div` with the id `challenge-node`.
 
 ```js
 assert(

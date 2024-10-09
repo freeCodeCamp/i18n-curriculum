@@ -1,6 +1,6 @@
 ---
 id: 587d7b7b367417b2b2512b14
-title: Prüfe das Vorhandensein eines Elements mit indexOf()
+title: Check For The Presence of an Element With indexOf()
 challengeType: 1
 forumTopicId: 301154
 dashedName: check-for-the-presence-of-an-element-with-indexof
@@ -8,9 +8,9 @@ dashedName: check-for-the-presence-of-an-element-with-indexof
 
 # --description--
 
-Da Arrays jederzeit geändert oder *mutiert* werden können, gibt es keine Garantie dafür, wo sich ein bestimmtes Datenelement in einem bestimmten Array befindet, oder ob es überhaupt noch existiert. Zum Glück bietet uns JavaScript eine andere eingebaute Methode, `indexOf()`, welche es uns erlaubt, schnell und einfach das Vorhandensein eines Elements in einem Array zu überprüfen. `indexOf()` benötigt ein Element als Parameter und gibt beim Aufrufen die Position oder den Index des Elements wieder, oder `-1`, wenn das Element nicht im Array existiert.
+Since arrays can be changed, or *mutated*, at any time, there's no guarantee about where a particular piece of data will be on a given array, or if that element even still exists. Luckily, JavaScript provides us with another built-in method, `indexOf()`, that allows us to quickly and easily check for the presence of an element on an array. `indexOf()` takes an element as a parameter, and when called, it returns the position, or index, of that element, or `-1` if the element does not exist on the array.
 
-Zum Beispiel:
+For example:
 
 ```js
 let fruits = ['apples', 'pears', 'oranges', 'peaches', 'pears'];
@@ -20,21 +20,21 @@ fruits.indexOf('oranges');
 fruits.indexOf('pears');
 ```
 
-`indexOf('dates')` gibt `-1` wieder, `indexOf('oranges')` gibt `2` wieder, und `indexOf('pears')` gibt `1` wieder (der erste Index, bei dem jedes Element existiert).
+`indexOf('dates')` returns `-1`, `indexOf('oranges')` returns `2`, and `indexOf('pears')` returns `1` (the first index at which each element exists).
 
 # --instructions--
 
-`indexOf()` kann unglaublich nützlich für das schnelle Überprüfen zum Vorhandensein eines Elements in einem Array sein. Wir haben eine Funktion `quickCheck` definiert, welche einen Array und ein Element als Argumente benötigt. Ändere die Funktion, indem du `indexOf()` so benutzt, dass es `true` zurückgibt, wenn das übergebene Element im Array existiert, und `false`, wenn es nicht der Fall ist.
+`indexOf()` can be incredibly useful for quickly checking for the presence of an element on an array. We have defined a function, `quickCheck`, that takes an array and an element as arguments. Modify the function using `indexOf()` so that it returns `true` if the passed element exists on the array, and `false` if it does not.
 
 # --hints--
 
-Die Funktion `quickCheck` sollte einen Boolean (`true` oder `false`) zurückgeben, keinen String (`"true"` oder `"false"`)
+The `quickCheck` function should return a boolean (`true` or `false`), not a string (`"true"` or `"false"`)
 
 ```js
 assert.isBoolean(quickCheck(['squash', 'onions', 'shallots'], 'mushrooms'));
 ```
 
-`quickCheck(["squash", "onions", "shallots"], "mushrooms")` sollte `false` zurückgeben
+`quickCheck(["squash", "onions", "shallots"], "mushrooms")` should return `false`
 
 ```js
 assert.strictEqual(
@@ -43,7 +43,7 @@ assert.strictEqual(
 );
 ```
 
-`quickCheck(["onions", "squash", "shallots"], "onions")` sollte `true` zurückgeben
+`quickCheck(["onions", "squash", "shallots"], "onions")` should return `true`
 
 ```js
 assert.strictEqual(
@@ -52,19 +52,19 @@ assert.strictEqual(
 );
 ```
 
-`quickCheck([3, 5, 9, 125, 45, 2], 125)` sollte `true` zurückgeben
+`quickCheck([3, 5, 9, 125, 45, 2], 125)` should return `true`
 
 ```js
 assert.strictEqual(quickCheck([3, 5, 9, 125, 45, 2], 125), true);
 ```
 
-`quickCheck([true, false, false], undefined)` sollte `false` zurückgeben
+`quickCheck([true, false, false], undefined)` should return `false`
 
 ```js
 assert.strictEqual(quickCheck([true, false, false], undefined), false);
 ```
 
-Die Funktion `quickCheck` sollte die Methode `indexOf()` verwenden
+The `quickCheck` function should utilize the `indexOf()` method
 
 ```js
 assert.notStrictEqual(quickCheck.toString().search(/\.indexOf\(/), -1);

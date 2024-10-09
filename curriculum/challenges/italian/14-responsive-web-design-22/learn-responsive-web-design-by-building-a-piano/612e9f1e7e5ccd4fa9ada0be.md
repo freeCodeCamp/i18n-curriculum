@@ -7,17 +7,17 @@ dashedName: step-17
 
 # --description--
 
-Assegna a `.key` un `margin` di `2px` e una proprietà `float` con il valore `left`.
+Give the `.key` a `margin` of `2px` and a `float` property set to `left`.
 
 # --hints--
 
-Il selettore `.key` dovrebbe avere una proprietà `margin` impostata a `2px`.
+Your `.key` selector should have a `margin` property set to `2px`.
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('.key')?.margin === '2px');
 ```
 
-Il selettore `.key` dovrebbe avere una proprietà `float` con il valore `left`.
+Your `.key` selector should have a `float` property set to `left`.
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('.key')?.float === 'left');

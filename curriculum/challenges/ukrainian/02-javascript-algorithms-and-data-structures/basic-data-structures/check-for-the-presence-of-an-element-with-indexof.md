@@ -1,6 +1,6 @@
 ---
 id: 587d7b7b367417b2b2512b14
-title: Перевірка наявності елемента за допомогою indexOf()
+title: Check For The Presence of an Element With indexOf()
 challengeType: 1
 forumTopicId: 301154
 dashedName: check-for-the-presence-of-an-element-with-indexof
@@ -8,9 +8,9 @@ dashedName: check-for-the-presence-of-an-element-with-indexof
 
 # --description--
 
-Оскільки масиви можуть бути змінені або *мутовані* в будь-який час, немає ніяких гарантій щодо того, де буде знаходитися конкретний фрагмент даних в масиві, або що цей елемент взагалі існуватиме. На щастя, JavaScript надає нам ще один вбудований метод `indexOf()`, який дозволяє швидко і легко перевірити наявність елемента в масиві. `indexOf()` приймає елемент як параметр і при виклику повертає позицію чи індекс цього елемента або `-1`, якщо елемента в масиві немає.
+Since arrays can be changed, or *mutated*, at any time, there's no guarantee about where a particular piece of data will be on a given array, or if that element even still exists. Luckily, JavaScript provides us with another built-in method, `indexOf()`, that allows us to quickly and easily check for the presence of an element on an array. `indexOf()` takes an element as a parameter, and when called, it returns the position, or index, of that element, or `-1` if the element does not exist on the array.
 
-Наприклад:
+For example:
 
 ```js
 let fruits = ['apples', 'pears', 'oranges', 'peaches', 'pears'];
@@ -20,21 +20,21 @@ fruits.indexOf('oranges');
 fruits.indexOf('pears');
 ```
 
-`indexOf('dates')` повертає `-1`, `indexOf('oranges')` повертає `2`, а `indexOf('pears')` повертає `1` (перший індекс, за якого існує кожен елемент).
+`indexOf('dates')` returns `-1`, `indexOf('oranges')` returns `2`, and `indexOf('pears')` returns `1` (the first index at which each element exists).
 
 # --instructions--
 
-`indexOf()` може бути неймовірно корисним для швидкої перевірки наявності елемента в масиві. Ми визначили функцію `quickCheck`, яка приймає масив і елемент як аргументи. Змініть функцію, використовуючи `indexOf()` так, щоб вона повернула `true`, якщо переданий елемент існує в масиві, та `false`, якщо не існує.
+`indexOf()` can be incredibly useful for quickly checking for the presence of an element on an array. We have defined a function, `quickCheck`, that takes an array and an element as arguments. Modify the function using `indexOf()` so that it returns `true` if the passed element exists on the array, and `false` if it does not.
 
 # --hints--
 
-Функція `quickCheck` повинна повернути логічне значення (`true` або `false`), а не рядок (`"true"` або `"false"`)
+The `quickCheck` function should return a boolean (`true` or `false`), not a string (`"true"` or `"false"`)
 
 ```js
 assert.isBoolean(quickCheck(['squash', 'onions', 'shallots'], 'mushrooms'));
 ```
 
-`quickCheck(["squash", "onions", "shallots"], "mushrooms")` має повернути `false`
+`quickCheck(["squash", "onions", "shallots"], "mushrooms")` should return `false`
 
 ```js
 assert.strictEqual(
@@ -43,7 +43,7 @@ assert.strictEqual(
 );
 ```
 
-`quickCheck(["onions", "squash", "shallots"], "onions")` має повернути `true`
+`quickCheck(["onions", "squash", "shallots"], "onions")` should return `true`
 
 ```js
 assert.strictEqual(
@@ -52,19 +52,19 @@ assert.strictEqual(
 );
 ```
 
-`quickCheck([3, 5, 9, 125, 45, 2], 125)` має повернути `true`
+`quickCheck([3, 5, 9, 125, 45, 2], 125)` should return `true`
 
 ```js
 assert.strictEqual(quickCheck([3, 5, 9, 125, 45, 2], 125), true);
 ```
 
-`quickCheck([true, false, false], undefined)` має повернути `false`
+`quickCheck([true, false, false], undefined)` should return `false`
 
 ```js
 assert.strictEqual(quickCheck([true, false, false], undefined), false);
 ```
 
-Функція `quickCheck` повинна використовувати метод `indexOf()`
+The `quickCheck` function should utilize the `indexOf()` method
 
 ```js
 assert.notStrictEqual(quickCheck.toString().search(/\.indexOf\(/), -1);

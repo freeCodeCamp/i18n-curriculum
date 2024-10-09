@@ -1,6 +1,6 @@
 ---
 id: 56533eb9ac21ba0edf2244a8
-title: Memorizzare valori con l'operatore di assegnazione
+title: Storing Values with the Assignment Operator
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cEanysE'
 forumTopicId: 18310
@@ -9,36 +9,36 @@ dashedName: storing-values-with-the-assignment-operator
 
 # --description--
 
-In JavaScript, puoi memorizzare un valore in una variabile con l'operatore <dfn>di assegnazione</dfn> (`=`).
+In JavaScript, you can store a value in a variable with the <dfn>assignment</dfn> operator (`=`).
 
 ```js
 myVariable = 5;
 ```
 
-Questo assegna il valore `Number` `5` a `myVariable`.
+This assigns the `Number` value `5` to `myVariable`.
 
-Se sono presenti calcoli a destra dell'operatore `=`, vengono eseguiti prima che il valore venga assegnato alla variabile a sinistra dell'operatore.
+If there are any calculations to the right of the `=` operator, those are performed before the value is assigned to the variable on the left of the operator.
 
 ```js
 var myVar;
 myVar = 5;
 ```
 
-Innanzitutto, questo codice crea una variabile denominata `myVar`. Quindi, il codice assegna `5` a `myVar`. Ora, se `myVar` appare di nuovo nel codice, il programma lo tratterà come se fosse `5`.
+First, this code creates a variable named `myVar`. Then, the code assigns `5` to `myVar`. Now, if `myVar` appears again in the code, the program will treat it as if it is `5`.
 
 # --instructions--
 
-Assegna il valore `7` alla variabile `a`.
+Assign the value `7` to variable `a`.
 
 # --hints--
 
-Non modificare il codice sopra il commento specificato.
+You should not change code above the specified comment.
 
 ```js
 assert(/var a;/.test(__helpers.removeJSComments(code)));
 ```
 
-`a` dovrebbe avere un valore di 7.
+`a` should have a value of 7.
 
 ```js
 assert(typeof a === 'number' && a === 7);

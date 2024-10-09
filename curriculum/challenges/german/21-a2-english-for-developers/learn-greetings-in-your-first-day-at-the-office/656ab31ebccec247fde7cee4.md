@@ -1,6 +1,6 @@
 ---
 id: 656ab31ebccec247fde7cee4
-title: Aufgabe 63
+title: Task 63
 challengeType: 22
 dashedName: task-63
 ---
@@ -12,7 +12,7 @@ Tom: Oh, awesome. My computer and drawing tablet are great, too.
 
 # --description--
 
-`Awesome` ist ein Wort, das Leute verwenden wenn sie etwas wirklich mögen. Es ist als wenn du sagst `very good!` Es ist ein informeller Weg, um Zustimmung oder Bewunderung zu zeigen.
+`Awesome` is a word people use when they really like something. It's like saying `very good!` It's an informal way to show approval or admiration.
 
 # --fillInTheBlank--
 
@@ -20,15 +20,15 @@ Tom: Oh, awesome. My computer and drawing tablet are great, too.
 
 `BLANK. My computer and drawing tablet are great, too.`
 
-## -blanks--
+## --blanks--
 
 `Awesome`
 
 ### --feedback--
 
-Höre auf ein Wort, welches `very good` oder `I really like it.` bedeutet
+Listen for a word that means `very good` or `I really like it.`
 
-# --blanks--
+# --scene--
 
 ```json
 {

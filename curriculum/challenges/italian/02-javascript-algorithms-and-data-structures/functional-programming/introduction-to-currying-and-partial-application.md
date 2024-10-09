@@ -1,6 +1,6 @@
 ---
 id: 587d7dab367417b2b2512b70
-title: Introduzione al currying e all'applicazione parziale
+title: Introduction to Currying and Partial Application
 challengeType: 1
 forumTopicId: 301232
 dashedName: introduction-to-currying-and-partial-application
@@ -8,11 +8,11 @@ dashedName: introduction-to-currying-and-partial-application
 
 # --description--
 
-L'<dfn>arietà</dfn> di una funzione è il numero di argomenti che essa richiede. Effetturare il <dfn>curry</dfn> di una funzione significa convertire una funzione di arietà N in N funzioni di arietà 1.
+The <dfn>arity</dfn> of a function is the number of arguments it requires. <dfn>Currying</dfn> a function means to convert a function of N arity into N functions of arity 1.
 
-In altre parole, questa operazione ristruttura una funzione in modo che prenda un argomento, poi restituisce un'altra funzione che prende l'argomento successivo, e così via.
+In other words, it restructures a function so it takes one argument, then returns another function that takes the next argument, and so on.
 
-Ecco un esempio:
+Here's an example:
 
 ```js
 function unCurried(x, y) {
@@ -30,16 +30,16 @@ const curried = x => y => x + y
 curried(1)(2)
 ```
 
-`curried(1)(2)` restituirà `3`.
+`curried(1)(2)` would return `3`.
 
-Questo sarà utile nel tuo programma se non sarai in grado di fornire tutti gli argomenti ad una funzione in una sola volta. Potrai salvare ogni chiamata di funzione in una variabile, che manterrà il riferimento alla funzione restituita, che prenderà l'argomento successivo quando sarà disponibile. Ecco un esempio usando la funzione curried dell'esempio visto sopra:
+This is useful in your program if you can't supply all the arguments to a function at one time. You can save each function call into a variable, which will hold the returned function reference that takes the next argument when it's available. Here's an example using the curried function in the example above:
 
 ```js
 const funcForY = curried(1);
 console.log(funcForY(2)); // 3
 ```
 
-Allo stesso modo, <dfn>l'applicazione parziale</dfn> può essere descritta come l'applicazione di alcuni argomenti a una funzione alla volta e la restituzione di un'altra funzione che viene applicata a più argomenti. Ecco un esempio:
+Similarly, <dfn>partial application</dfn> can be described as applying a few arguments to a function at a time and returning another function that is applied to more arguments. Here's an example:
 
 ```js
 function impartial(x, y, z) {
@@ -52,29 +52,29 @@ partialFn(10); // 13
 
 # --instructions--
 
-Riempi il corpo della funzione `add` in modo che usi il currying per aggiungere i parametri `x`, `y`, e `z`.
+Fill in the body of the `add` function so it uses currying to add parameters `x`, `y`, and `z`.
 
 # --hints--
 
-`add(10)(20)(30)` dovrebbe restituire `60`.
+`add(10)(20)(30)` should return `60`.
 
 ```js
 assert(add(10)(20)(30) === 60);
 ```
 
-`add(1)(2)(3)` dovrebbe restituire `6`.
+`add(1)(2)(3)` should return `6`.
 
 ```js
 assert(add(1)(2)(3) === 6);
 ```
 
-`add(11)(22)(33)` dovrebbe restituire `66`.
+`add(11)(22)(33)` should return `66`.
 
 ```js
 assert(add(11)(22)(33) === 66);
 ```
 
-Il tuo codice dovrebbe includere una dichiarazione finale che restituisca `x + y + z`.
+Your code should include a final statement that returns `x + y + z`.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/[xyz]\s*?\+\s*?[xyz]\s*?\+\s*?[xyz]/g));

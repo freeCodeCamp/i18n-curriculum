@@ -1,6 +1,6 @@
 ---
 id: 587d8252367417b2b2512c67
-title: リンクリストの特定のインデックスに要素を追加する
+title: Add Elements at a Specific Index in a Linked List
 challengeType: 1
 forumTopicId: 301619
 dashedName: add-elements-at-a-specific-index-in-a-linked-list
@@ -8,15 +8,15 @@ dashedName: add-elements-at-a-specific-index-in-a-linked-list
 
 # --description--
 
-与えられたインデックスの位置に要素を追加する addAt(index,element) メソッドを作成しましょう。 与えられたインデックスの位置にある要素を削除する方法と同様に、リンクリストを走査する際に currentIndex を追跡する必要があります。 currentIndex と与えられたインデックスとが一致する場合、前のノードの next プロパティを再び割り当て、追加された新しいノードを参照する必要があります。 新しいノードは、currentIndex 内の次のノードを参照する必要があります。 コンガラインの例に戻りましょう。新しい人がラインの途中に加わりたいと考えています。 あなたは列の途中にいるので、自分の手を前の人から離します。 新しい人が歩いてきて、今まであなたが手を置いていた人に手を置きます。そしてあなたは新しい人に手を置きます。
+Let's create a addAt(index,element) method that adds an element at a given index. Just like how we remove elements at a given index, we need to keep track of the currentIndex as we traverse the linked list. When the currentIndex matches the given index, we would need to reassign the previous node's next property to reference the new added node. And the new node should reference the next node in the currentIndex. Returning to the conga line example, a new person wants to join the line, but he wants to join in the middle. You are in the middle of the line, so you take your hands off of the person ahead of you. The new person walks over and puts his hands on the person you once had hands on, and you now have your hands on the new person.
 
 # --instructions--
 
-与えられたインデックスの位置に要素を追加する `addAt(index,element)` メソッドを作成してください。 要素を追加できなかった場合は false を返してください。 **注:** 与えられたインデックスが負であるか、リンクリストの長さよりも長いかを必ず調べてください。
+Create an `addAt(index,element)` method that adds an element at a given index. Return false if an element could not be added. **Note:** Remember to check if the given index is a negative or is longer than the length of the linked list.
 
 # --hints--
 
-与えられたインデックスが 0 の場合、`addAt` メソッドは `head` を新しいノードに再割り当てする必要があります。
+Your `addAt` method should reassign `head` to the new node when the given index is 0.
 
 ```js
 assert(
@@ -30,7 +30,7 @@ assert(
 );
 ```
 
-`addAt` メソッドは、リンクリストに新しいノードが追加されるたびに、リンクリストの長さを 1 ずつ増やす必要があります。
+Your `addAt` method should increase the length of the linked list by one for each new node added to the linked list.
 
 ```js
 assert(
@@ -44,7 +44,7 @@ assert(
 );
 ```
 
-`addAt` メソッドは、ノードを追加できなかった場合に `false` を返す必要があります。
+Your `addAt` method should return `false` if a node was unable to be added.
 
 ```js
 assert(

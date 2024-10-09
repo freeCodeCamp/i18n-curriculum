@@ -1,6 +1,6 @@
 ---
 id: 56533eb9ac21ba0edf2244bc
-title: Список покупок
+title: Shopping List
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/c9MEKHZ'
 forumTopicId: 18280
@@ -9,37 +9,37 @@ dashedName: shopping-list
 
 # --description--
 
-Створіть список покупок у змінній `myList`. Список повинен бути багатовимірним масивом, який містить декілька підмасивів.
+Create a shopping list in the variable `myList`. The list should be a multi-dimensional array containing several sub-arrays.
 
-Перший елемент у кожному підмасиві повинен містити рядок з назвою одиниці. Другим елементом повинне бути число, яке вказує кількість.
+The first element in each sub-array should contain a string with the name of the item. The second element should be a number representing the quantity i.e.
 
 ```js
 ["Chocolate Bar", 15]
 ```
 
-У списку повинно бути принаймні 5 вкладених масивів.
+There should be at least 5 sub-arrays in the list.
 
 # --hints--
 
-`myList` повинен бути масивом.
+`myList` should be an array.
 
 ```js
 assert(isArray);
 ```
 
-Першими елементами у кожному з ваших підмасивів повинні бути рядки.
+The first elements in each of your sub-arrays should all be strings.
 
 ```js
 assert(hasString);
 ```
 
-Другими елементами у кожному підмасиві повинні бути числа.
+The second elements in each of your sub-arrays should all be numbers.
 
 ```js
 assert(hasNumber);
 ```
 
-У списку повинно бути принаймні п’ять товарів.
+You should have at least 5 items in your list.
 
 ```js
 assert(count > 4);

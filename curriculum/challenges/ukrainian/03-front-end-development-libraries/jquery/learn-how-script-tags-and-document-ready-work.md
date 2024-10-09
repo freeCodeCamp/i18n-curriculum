@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9acdd08826
-title: Дізнайтесь, як працюють теги script та document ready
+title: Learn How Script Tags and Document Ready Work
 challengeType: 6
 forumTopicId: 18224
 dashedName: learn-how-script-tags-and-document-ready-work
@@ -8,23 +8,23 @@ dashedName: learn-how-script-tags-and-document-ready-work
 
 # --description--
 
-Тепер ми готові вивчити jQuery — найпопулярніший інструмент JavaScript усіх часів.
+Now we're ready to learn jQuery, the most popular JavaScript tool of all time.
 
-Перш ніж ми зможемо почати використовувати jQuery, нам потрібно додати декілька елементів до HTML.
+Before we can start using jQuery, we need to add some things to our HTML.
 
-Спочатку додайте елемент `script` зверху своєї сторінки. Не забудьте закрити його в наступному рядку.
+First, add a `script` element at the top of your page. Be sure to close it on the following line.
 
-Ваш браузер запустить будь-який JavaScript всередині елемента `script`, включно з jQuery.
+Your browser will run any JavaScript inside a `script` element, including jQuery.
 
-Всередині елемента `script` додайте цей код: `$(document).ready(function() {` до `script`. Потім закрийте його в наступному рядку (досі всередині елемента `script`), використавши `});`
+Inside your `script` element, add this code: `$(document).ready(function() {` to your `script`. Then close it on the following line (still inside your `script` element) with: `});`
 
-Згодом ви дізнаєтесь більше про функції. Важливо знати, що код всередині функції запуститься, як тільки браузер завантажить сторінку.
+We'll learn more about `functions` later. The important thing to know is that code you put inside this `function` will run as soon as your browser has loaded your page.
 
-Це важливо, оскільки без `document ready function` код може запуститись до того, як виконається HTML, що може спричинити помилки.
+This is important because without your `document ready function`, your code may run before your HTML is rendered, which would cause bugs.
 
 # --hints--
 
-Створіть елемент `script` та переконайтесь, що він дійсний і має кінцевий тег.
+You should create a `script` element making sure it is valid and has a closing tag.
 
 ```js
 assert(
@@ -39,7 +39,7 @@ assert(
 );
 ```
 
-Додайте `$(document).ready(function() {` на початку елемента `script`.
+You should add `$(document).ready(function() {` to the beginning of your `script` element.
 
 ```js
 assert(
@@ -49,7 +49,7 @@ assert(
 );
 ```
 
-Закрийте функцію `$(document).ready(function() {` за допомогою `});`
+You should close your `$(document).ready(function() {` function with `});`
 
 ```js
 assert(code.match(/\n*?\s*?\}\s*?\);/g));

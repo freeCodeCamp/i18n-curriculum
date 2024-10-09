@@ -1,6 +1,6 @@
 ---
 id: 5e9a093a74c4063ca6f7c152
-title: Numpy 簡介 A
+title: Numpy Introduction A
 challengeType: 11
 videoId: P-JjV6GBCmk
 bilibiliIds:
@@ -12,30 +12,30 @@ dashedName: numpy-introduction-a
 
 # --description--
 
-*在視頻中我們使用的編輯器工具是在 notebook.ai 這個平臺，你也可以選擇用其他的平臺，比如說 Google Colab 也是一個不錯的選擇。*
+*Instead of using notebooks.ai like it shows in the video, you can use Google Colab instead.*
 
-以下有更多的資料：
+More resources:
 
--  <a href="https://github.com/ine-rmotr-curriculum/freecodecamp-intro-to-numpy" target="_blank" rel="noopener noreferrer nofollow">在 GitHub 平臺的 Notebooks</a>
--  <a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb" target="_blank" rel="noopener noreferrer nofollow">如何使用 Google Colab 來打開 GitHub 上的 Notebooks</a>
+-  <a href="https://github.com/ine-rmotr-curriculum/freecodecamp-intro-to-numpy" target="_blank" rel="noopener noreferrer nofollow">Notebooks on GitHub</a>
+-  <a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb" target="_blank" rel="noopener noreferrer nofollow">How to open Notebooks from GitHub using Google Colab.</a>
 
 # --questions--
 
 ## --text--
 
-爲什麼 Numpy 是一個重要的卻又不流行的 Python 庫？
+Why is Numpy an important, but unpopular Python library?
 
 ## --answers--
 
-你常常不會直接使用 Numpy。
+Often you won't work directly with Numpy.
 
 ---
 
-它是極其緩慢的。
+It is extremely slow.
 
 ---
 
-使用 Numpy 的難度是很大的。
+Working with Numpy is difficult.
 
 ## --video-solution--
 

@@ -1,6 +1,6 @@
 ---
 id: 587d8250367417b2b2512c5d
-title: Запустіть функціональні тести за допомогою headless браузера
+title: Run Functional Tests Using a Headless Browser
 challengeType: 2
 forumTopicId: 301595
 dashedName: run-functional-tests-using-a-headless-browser
@@ -8,13 +8,13 @@ dashedName: run-functional-tests-using-a-headless-browser
 
 # --description--
 
-Нагадуємо, що цей проєкт створюється на основі наступного стартового проєкту на <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a> або клонований з <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
+As a reminder, this project is being built upon the following starter project on <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>, or cloned from <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
 
-На сторінці знаходиться форма для вхідних даних. Вона надсилає дані до кінцевої точки `PUT /travellers` як запит AJAX.
+On the page there's an input form. It sends data to the `PUT /travellers` endpoint as an AJAX request.
 
-Коли запит успішно виконано, код клієнта додає `<div>`, що містить інформацію у відповідь на DOM.
+When the request successfully completes, the client code appends a `<div>` containing the information in the response to the DOM.
 
-Ось приклад використання Zombie.js для взаємодії з формою:
+Here's an example of how to use Zombie.js to interact with the form:
 
 ```js
 test('Submit the surname "Polo" in the HTML form', function (done) {
@@ -30,38 +30,38 @@ test('Submit the surname "Polo" in the HTML form', function (done) {
 });
 ```
 
-Спершу метод `fill` об’єкта `browser` заповнює поле форми `surname` зі значенням `'Polo'`. `fill` повертає проміс, тому `then` від’єднується.
+First, the `fill` method of the `browser` object fills the `surname` field of the form with the value `'Polo'`. `fill` returns a promise, so `then` is chained off of it.
 
-У межах зворотного виклику `then` метод `pressButton` об’єкта `browser` використовується для виклику слухача події форми `submit`. Метод `pressButton` є асинхронним.
+Within the `then` callback, the `pressButton` method of the `browser` object is used to invoke the form's `submit` event listener. The `pressButton` method is asynchronous.
 
-Як тільки від запиту AJAX буде отримана відповідь, виникає декілька тверджень:
+Then, once a response is received from the AJAX request, a few assertions are made confirming:
 
-1.  Статус відповіді становить `200`
-2.  Текст всередині елемента `<span id='name'></span>` відповідає `'Marco'`
-3.  Текст всередині елемента `<span id='surname'></span>` відповідає `'Polo'`
-4.  Наявний `1` елемент `<span id='dates'></span>`.
+1.  The status of the response is `200`
+2.  The text within the `<span id='name'></span>` element matches `'Marco'`
+3.  The text within the `<span id='surname'></span>` element matches `'Polo'`
+4.  There is `1` `<span id='dates'></span>` element.
 
-Вкінці буде запущено зворотний виклик `done`, який необхідний для асинхронного тесту.
+Finally, the `done` callback is invoked, which is needed due to the asynchronous test.
 
 # --instructions--
 
-У межах `tests/2_functional-tests.js` у тесті `'Submit the surname "Colombo" in the HTML form'` `// #5` автоматизуйте наступне:
+Within `tests/2_functional-tests.js`, in the `'Submit the surname "Colombo" in the HTML form'` test (`// #5`), automate the following:
 
-1.  Впишіть у форму прізвище `Colombo`
-2.  Натисніть кнопку підтвердження
+1.  Fill in the form with the surname `Colombo`
+2.  Press the submit button
 
-У межах кнопки зворотного виклику `pressButton`:
+And within the `pressButton` callback:
 
-1.  Підтвердьте, що статус становить OK `200`
-2.  Підтвердьте, що текстом всередині елемента `span#name` є `'Cristoforo'`
-3.  Підтвердьте, що текстом всередині елемента `span#surname` є `'Colombo'`
-4.  Підтвердьте, що елемент(и) `span#dates` існують та їхня кількість дорівнює `1`
+1.  Assert that status is OK `200`
+2.  Assert that the text inside the element `span#name` is `'Cristoforo'`
+3.  Assert that the text inside the element `span#surname` is `'Colombo'`
+4.  Assert that the element(s) `span#dates` exist and their count is `1`
 
-Не забудьте видалити виклик `assert.fail()`.
+Do not forget to remove the `assert.fail()` call.
 
 # --hints--
 
-Всі тести повинні бути успішно пройдені.
+All tests should pass.
 
 ```js
 (getUserInput) =>
@@ -75,7 +75,7 @@ test('Submit the surname "Polo" in the HTML form', function (done) {
   );
 ```
 
-Ви повинні підтвердити, що запит headless браузера був успішним.
+You should assert that the headless browser request succeeded.
 
 ```js
 (getUserInput) =>
@@ -89,7 +89,7 @@ test('Submit the surname "Polo" in the HTML form', function (done) {
   );
 ```
 
-Ви повинні підтвердити, що текстом всередині елемента `span#name` є `'Cristoforo'`.
+You should assert that the text inside the element `span#name` is `'Cristoforo'`.
 
 ```js
 (getUserInput) =>
@@ -105,7 +105,7 @@ test('Submit the surname "Polo" in the HTML form', function (done) {
   );
 ```
 
-Ви повинні підтвердити, що текстом всередині елемента `span#surname` є `'Colombo'`.
+You should assert that the text inside the element `span#surname` is `'Colombo'`.
 
 ```js
 (getUserInput) =>
@@ -121,7 +121,7 @@ test('Submit the surname "Polo" in the HTML form', function (done) {
   );
 ```
 
-Ви повинні підтвердити, що існує лише один елемент `span#dates`.
+You should assert that the element `span#dates` exist and its count is 1.
 
 ```js
 (getUserInput) =>

@@ -1,6 +1,6 @@
 ---
 id: 587d7b83367417b2b2512b37
-title: 瞭解 freeCodeCamp 和瀏覽器控制檯之間的差異
+title: Understanding the Differences between the freeCodeCamp and Browser Console
 challengeType: 1
 forumTopicId: 301193
 dashedName: understanding-the-differences-between-the-freecodecamp-and-browser-console
@@ -8,25 +8,25 @@ dashedName: understanding-the-differences-between-the-freecodecamp-and-browser-c
 
 # --description--
 
-你可能已經注意到一些 freeCodeCamp 的挑戰有自己的控制檯。 這個控制檯的行爲與瀏覽器控制檯有些不同。
+You may have noticed that some freeCodeCamp challenges include their own console. This console behaves a little differently than the browser console.
 
-有許多方法可以與 `console` 一起使用來輸出消息。 `log`、`warn` 和 `clear` 就是幾個例子。 freeCodeCamp 控制檯只會輸出 `log` 消息，而瀏覽器控制檯會輸出所有消息。 當你對你的代碼進行修改時，它將自動運行並顯示日誌。 每次代碼運行時，freeCodeCamp 控制檯都會被清除。
+There are many methods to use with `console` to output messages. `log`, `warn`, and `clear` to name a few. The freeCodeCamp console will only output `log` messages, while the browser console will output all messages. When you make changes to your code, it will automatically run and show the logs. The freeCodeCamp console is then cleared each time your code runs.
 
 # --instructions--
 
-首先，打開瀏覽器控制檯，以便查看日誌。 要做到這一點，在大多數瀏覽器上，你可以右擊頂部的 freeCodeCamp 導航欄，並點擊 `inspect`。 然後在打開的窗口中找到 `console` 選項卡。
+First, open your browser console so you can see the logs. To do that, you can right-click the freeCodeCamp navigation bar at the top and click `inspect` on most browsers. Then find the `console` tab in the window that opens.
 
-之後，使用 `console.log` 記錄 `output` 變量。 查看這兩個控制檯，可以看到日誌。 最後，在你的日誌後面使用 `console.clear` 清除瀏覽器控制檯。 查看兩個控制檯的差異。
+After that, use `console.log` to log the `output` variable. View the two consoles to see the log. Finally, use `console.clear` after your log to clear the browser console. View the difference in the two consoles.
 
 # --hints--
 
-你應該使用 `console.log()` 來打印 `output` 變量。
+You should use `console.log()` to print the `output` variable.
 
 ```js
 assert(__helpers.removeWhiteSpace(__helpers.removeJSComments(code)).match(/console\.log\(output\)/));
 ```
 
-你應該使用 `console.clear()` 來清除瀏覽器控制檯。
+You should use `console.clear()` to clear the browser console.
 
 ```js
 assert(
@@ -36,7 +36,7 @@ assert(
 );
 ```
 
-你應該在你的日誌之後清除控制檯。
+You should clear the console after your log.
 
 ```js
 assert(

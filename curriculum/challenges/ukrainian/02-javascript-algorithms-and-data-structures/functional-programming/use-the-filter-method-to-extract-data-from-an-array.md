@@ -1,6 +1,6 @@
 ---
 id: 587d7b8f367417b2b2512b63
-title: Використання методу filter для отримання даних з масиву
+title: Use the filter Method to Extract Data from an Array
 challengeType: 1
 forumTopicId: 18179
 dashedName: use-the-filter-method-to-extract-data-from-an-array
@@ -8,13 +8,13 @@ dashedName: use-the-filter-method-to-extract-data-from-an-array
 
 # --description--
 
-Іншою корисною функцією масиву є `Array.prototype.filter()`, або просто `filter()`.
+Another useful array function is `Array.prototype.filter()`, or simply `filter()`.
 
-`filter` викликає функцію для кожного елемента масиву та повертає новий масив, що містить лише елементи, для яких функція повертає істинне значення (значення, яке повертає `true`, якщо передано до конструктора `Boolean()`). Іншими словами, вона фільтрує масив на основі переданої функції. Як і `map`, це робиться без необхідності зміни початкового масиву.
+`filter` calls a function on each element of an array and returns a new array containing only the elements for which that function returns a truthy value - that is, a value which returns `true` if passed to the `Boolean()` constructor. In other words, it filters the array, based on the function passed to it. Like `map`, it does this without needing to modify the original array.
 
-Функція зворотного виклику приймає три аргументи. Першим аргументом є елемент, який наразі опрацьовується. Другим аргументом є індекс цього елемента, а третій є масивом, на якому було викликано метод `filter`.
+The callback function accepts three arguments. The first argument is the current element being processed. The second is the index of that element and the third is the array upon which the `filter` method was called.
 
-Нижче наведено приклад використання методу `filter` на масиві `users`, що повертає новий масив з іменами користувачів, які не досягли 30-річного віку. Аби було простіше, у прикладі використовується лише перший аргумент зворотного виклику.
+See below for an example using the `filter` method on the `users` array to return a new array containing only the users under the age of 30. For simplicity, the example only uses the first argument of the callback.
 
 ```js
 const users = [
@@ -27,15 +27,15 @@ const usersUnder30 = users.filter(user => user.age < 30);
 console.log(usersUnder30); 
 ```
 
-Консоль показуватиме значення `[ { name: 'Amy', age: 20 }, { name: 'camperCat', age: 10 } ]`.
+The console would display the value `[ { name: 'Amy', age: 20 }, { name: 'camperCat', age: 10 } ]`.
 
 # --instructions--
 
-Змінна `watchList` містить масив об’єктів з інформацією про декілька фільмів. Використайте комбінацію `filter` та `map` на `watchList`, щоб отримати новий масив об’єктів із ключами `title` та `rating`. Новий масив повинен містити лише ті об’єкти, де `imdbRating` більше або дорівнює 8.0. Зверніть увагу, що значення `rating` збережено в об’єкті як рядки і, можливо, вам знадобиться конвертувати їх у числа, щоб виконати математичні операції.
+The variable `watchList` holds an array of objects with information on several movies. Use a combination of `filter` and `map` on `watchList` to assign a new array of objects with only `title` and `rating` keys. The new array should only include objects where `imdbRating` is greater than or equal to 8.0. Note that the `rating` values are saved as strings in the object and you may need to convert them into numbers to perform mathematical operations on them.
 
 # --hints--
 
-Змінна `watchList` не повинна змінюватися.
+The `watchList` variable should not change.
 
 ```js
 assert(
@@ -43,19 +43,19 @@ assert(
 );
 ```
 
-Ваш код повинен використовувати метод `filter`.
+Your code should use the `filter` method.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/\s*\.\s*filter/g));
 ```
 
-Ваш код не повинен використовувати цикл `for`.
+Your code should not use a `for` loop.
 
 ```js
 assert(!__helpers.removeJSComments(code).match(/for\s*?\([\s\S]*?\)/g));
 ```
 
-`filteredList` має дорівнювати `[{"title": "Inception", "rating": "8.8"}, {"title": "Interstellar", "rating": "8.6"}, {"title": "The Dark Knight", "rating": "9.0"}, {"title": "Batman Begins", "rating": "8.3"}]`.
+`filteredList` should equal `[{"title": "Inception", "rating": "8.8"}, {"title": "Interstellar", "rating": "8.6"}, {"title": "The Dark Knight", "rating": "9.0"}, {"title": "Batman Begins", "rating": "8.3"}]`.
 
 ```js
 assert.deepEqual(filteredList, [

@@ -1,6 +1,6 @@
 ---
 id: 5e6dee7749a0b85a3f1fc7d5
-title: リュカ–レーマー・テスト
+title: Lucas-Lehmer test
 challengeType: 1
 forumTopicId: 385281
 dashedName: lucas-lehmer-test
@@ -12,53 +12,53 @@ Lucas-Lehmer Test: for $p$ an odd prime, the Mersenne number $2^p-1$ is prime if
 
 # --instructions--
 
-与えられたメルセンヌ数が素数かどうかの判定を返す関数を記述してください。
+Write a function that returns whether the given Mersenne number is prime or not.
 
 # --hints--
 
-`lucasLehmer` は関数とします。
+`lucasLehmer` should be a function.
 
 ```js
 assert(typeof lucasLehmer == 'function');
 ```
 
-`lucasLehmer(11)` はブール値を返す必要があります。
+`lucasLehmer(11)` should return a boolean.
 
 ```js
 assert(typeof lucasLehmer(11) == 'boolean');
 ```
 
-`lucasLehmer(11)` は `false` を返す必要があります。
+`lucasLehmer(11)` should return `false`.
 
 ```js
 assert.equal(lucasLehmer(11), false);
 ```
 
-`lucasLehmer(15)` は `false` を返す必要があります。
+`lucasLehmer(15)` should return `false`.
 
 ```js
 assert.equal(lucasLehmer(15), false);
 ```
 
-`lucasLehmer(13)` は `true` を返す必要があります。
+`lucasLehmer(13)` should return `true`.
 
 ```js
 assert.equal(lucasLehmer(13), true);
 ```
 
-`lucasLehmer(17)` は `true` を返す必要があります。
+`lucasLehmer(17)` should return `true`.
 
 ```js
 assert.equal(lucasLehmer(17), true);
 ```
 
-`lucasLehmer(19)` は `true` を返す必要があります。
+`lucasLehmer(19)` should return `true`.
 
 ```js
 assert.equal(lucasLehmer(19), true);
 ```
 
-`lucasLehmer(21)` は `false` を返す必要があります。
+`lucasLehmer(21)` should return `false`.
 
 ```js
 assert.equal(lucasLehmer(21), false);

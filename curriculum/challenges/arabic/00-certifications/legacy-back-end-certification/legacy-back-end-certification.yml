@@ -1,37 +1,36 @@
----
 id: 660add10cb82ac38a17513be
-title: شهادة الواجهة الخلفية القديمة
+title: Legacy Back End Certification
 certification: legacy-back-end
 challengeType: 7
 isPrivate: true
 tests:
   - 
     id: bd7158d8c443edefaeb5bdef
-    title: الخدمة المصغرة للطابع الزمني
+    title: Timestamp Microservice
   - 
     id: bd7158d8c443edefaeb5bdff
-    title: الخدمة المصغرة لمحلل Request Header
+    title: Request Header Parser Microservice
   - 
     id: bd7158d8c443edefaeb5bd0e
-    title: الخدمة المصغرة لتقصير الروابط
+    title: URL Shortener Microservice
   - 
     id: bd7158d8c443edefaeb5bdee
-    title: طبقة مجرّدة للبحث عن الصور
+    title: Image Search Abstraction Layer
   - 
     id: bd7158d8c443edefaeb5bd0f
-    title: خدمة مصغرة للبيانات الوصفية للملفات
+    title: File Metadata Microservice
   - 
     id: bd7158d8c443eddfaeb5bdef
-    title: بناء تطبيق تصويت
+    title: Build a Voting App
   - 
     id: bd7158d8c443eddfaeb5bdff
-    title: بناء تطبيق تنسيق الحياة الليلية
+    title: Build a Nightlife Coordination App
   - 
     id: bd7158d8c443eddfaeb5bd0e
-    title: رسم بياني لسوق الأسهم
+    title: Chart the Stock Market
   - 
     id: bd7158d8c443eddfaeb5bd0f
-    title: إدارة نادي تجارة الكتب
+    title: Manage a Book Trading Club
   - 
     id: bd7158d8c443eddfaeb5bdee
-    title: بناء نسخة من Pinterest
+    title: Build a Pinterest Clone

@@ -1,6 +1,6 @@
 ---
 id: 587d7db0367417b2b2512b82
-title: Ланцюг прототипів
+title: Understand the Prototype Chain
 challengeType: 1
 forumTopicId: 301329
 dashedName: understand-the-prototype-chain
@@ -8,7 +8,7 @@ dashedName: understand-the-prototype-chain
 
 # --description--
 
-Усі об’єкти в JavaScript (за парою винятків) мають `prototype`. До того ж сам прототип об’єкта є об’єктом.
+All objects in JavaScript (with a few exceptions) have a `prototype`. Also, an object’s `prototype` itself is an object.
 
 ```js
 function Bird(name) {
@@ -18,28 +18,28 @@ function Bird(name) {
 typeof Bird.prototype;
 ```
 
-Оскільки `prototype` є об’єктом, `prototype` може мати власний `prototype`! У цьому випадку `prototype` `Bird.prototype` є `Object.prototype`:
+Because a `prototype` is an object, a `prototype` can have its own `prototype`! In this case, the `prototype` of `Bird.prototype` is `Object.prototype`:
 
 ```js
 Object.prototype.isPrototypeOf(Bird.prototype);
 ```
 
-Чим це корисно? Згадайте метод `hasOwnProperty` із попереднього завдання:
+How is this useful? You may recall the `hasOwnProperty` method from a previous challenge:
 
 ```js
 let duck = new Bird("Donald");
 duck.hasOwnProperty("name");
 ```
 
-Метод `hasOwnProperty` визначений в `Object.prototype`, до якого можна отримати доступ завдяки `Bird.prototype`, до якого можна отримати доступ завдяки `duck`. Це приклад ланцюга прототипів. `Bird` у цьому ланцюзі прототипів є супертипом для `duck`, а `duck` є підтипом. `Object` є супертипом для `Bird` та `duck`. `Object` є супертипом для всіх об’єктів у JavaScript. Отже, будь-який об’єкт може використовувати метод `hasOwnProperty`.
+The `hasOwnProperty` method is defined in `Object.prototype`, which can be accessed by `Bird.prototype`, which can then be accessed by `duck`. This is an example of the `prototype` chain. In this `prototype` chain, `Bird` is the `supertype` for `duck`, while `duck` is the `subtype`. `Object` is a `supertype` for both `Bird` and `duck`. `Object` is a `supertype` for all objects in JavaScript. Therefore, any object can use the `hasOwnProperty` method.
 
 # --instructions--
 
-Змініть код, щоб показувати правильний ланцюг прототипів.
+Modify the code to show the correct prototype chain.
 
 # --hints--
 
-Код має показувати, що `Object.prototype` є прототипом `Dog.prototype`
+Your code should show that `Object.prototype` is the prototype of `Dog.prototype`
 
 ```js
 assert(/Object\.prototype\.isPrototypeOf/.test(__helpers.removeJSComments(code)));

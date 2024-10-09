@@ -1,6 +1,6 @@
 ---
 id: 5e6dee7749a0b85a3f1fc7d5
-title: Тест Люка-Лемера
+title: Lucas-Lehmer test
 challengeType: 1
 forumTopicId: 385281
 dashedName: lucas-lehmer-test
@@ -8,57 +8,57 @@ dashedName: lucas-lehmer-test
 
 # --description--
 
-Тест Люка-Лемера: число Мерсенна $2^p-1$, де $p$ є непарним простим числом, є простим числом лише за умови, що $S(p-1)$ ділиться на $2^p-1$, де $S(n+1)=(S(n))^2-2$ та $S(1)=4$.
+Lucas-Lehmer Test: for $p$ an odd prime, the Mersenne number $2^p-1$ is prime if and only if $2^p-1$ divides $S(p-1)$ where $S(n+1)=(S(n))^2-2$, and $S(1)=4$.
 
 # --instructions--
 
-Напишіть функцію, яка повертає, чи задане число Мерсенна є простим.
+Write a function that returns whether the given Mersenne number is prime or not.
 
 # --hints--
 
-`lucasLehmer` має бути функцією.
+`lucasLehmer` should be a function.
 
 ```js
 assert(typeof lucasLehmer == 'function');
 ```
 
-`lucasLehmer(11)` має повернути булеве значення.
+`lucasLehmer(11)` should return a boolean.
 
 ```js
 assert(typeof lucasLehmer(11) == 'boolean');
 ```
 
-`lucasLehmer(11)` має повернути `false`.
+`lucasLehmer(11)` should return `false`.
 
 ```js
 assert.equal(lucasLehmer(11), false);
 ```
 
-`lucasLehmer(15)` має повернути `false`.
+`lucasLehmer(15)` should return `false`.
 
 ```js
 assert.equal(lucasLehmer(15), false);
 ```
 
-`lucasLehmer(13)` має повернути `true`.
+`lucasLehmer(13)` should return `true`.
 
 ```js
 assert.equal(lucasLehmer(13), true);
 ```
 
-`lucasLehmer(17)` має повернути `true`.
+`lucasLehmer(17)` should return `true`.
 
 ```js
 assert.equal(lucasLehmer(17), true);
 ```
 
-`lucasLehmer(19)` має повернути `true`.
+`lucasLehmer(19)` should return `true`.
 
 ```js
 assert.equal(lucasLehmer(19), true);
 ```
 
-`lucasLehmer(21)` має повернути `false`.
+`lucasLehmer(21)` should return `false`.
 
 ```js
 assert.equal(lucasLehmer(21), false);

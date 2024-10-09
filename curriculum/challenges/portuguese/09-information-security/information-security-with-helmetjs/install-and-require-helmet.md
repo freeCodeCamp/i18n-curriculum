@@ -1,6 +1,6 @@
 ---
 id: 587d8247367417b2b2512c36
-title: Instalar e solicitar o Helmet
+title: Install and Require Helmet
 challengeType: 2
 forumTopicId: 301581
 dashedName: install-and-require-helmet
@@ -8,23 +8,23 @@ dashedName: install-and-require-helmet
 
 # --description--
 
-Trabalhar nesses desafios vai fazer com que você escreva seu código usando um dos seguintes métodos:
+Working on these challenges will involve you writing your code using one of the following methods:
 
-- Clone <a href="https://github.com/freeCodeCamp/boilerplate-infosec/" target="_blank" rel="noopener noreferrer nofollow">este repositório do GitHub</a> e complete esses desafios localmente.
-- Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-infosec/" target="_blank" rel="noopener noreferrer nofollow"> nosso projeto incial no Gitpod </a> para completar esses desafios.
-- Use um construtor de site de sua escolha para completar o projeto. Certifique-se de incorporar todos os arquivos do nosso repositório no GitHub.
+- Clone <a href="https://github.com/freeCodeCamp/boilerplate-infosec/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete these challenges locally.
+- Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-infosec/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete these challenges.
+- Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
 
-O Helmet ajuda você a proteger seus aplicativos do Express, definindo vários cabeçalhos HTTP.
+Helmet helps you secure your Express apps by setting various HTTP headers.
 
 # --instructions--
 
-Todo o código para estas aulas vai para o arquivo `myApp.js` entre as linhas de código que fornecemos para você começar. Não altere nem exclua o código que adicionamos para você.
+All your code for these lessons goes in the `myApp.js` file between the lines of code we have started you off with. Do not change or delete the code we have added for you.
 
-A versão `3.21.3` do Helmet já foi instalada, então solicite-a como `helmet` no `myApp.js`.
+Helmet version `3.21.3` has already been installed, so require it as `helmet` in `myApp.js`.
 
 # --hints--
 
-A versão do `helmet` `3.21.3` deve estar no `package.json`
+`helmet` version `3.21.3` should be in `package.json`
 
 ```js
 (getUserInput) =>

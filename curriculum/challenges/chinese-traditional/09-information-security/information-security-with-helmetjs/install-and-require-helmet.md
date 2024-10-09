@@ -1,6 +1,6 @@
 ---
 id: 587d8247367417b2b2512c36
-title: 安裝和引入 Helmet
+title: Install and Require Helmet
 challengeType: 2
 forumTopicId: 301581
 dashedName: install-and-require-helmet
@@ -8,23 +8,23 @@ dashedName: install-and-require-helmet
 
 # --description--
 
-你可以採用下面的任意一種編寫代碼的方式來完成這些挑戰：
+Working on these challenges will involve you writing your code using one of the following methods:
 
-- 克隆<a href="https://github.com/freeCodeCamp/boilerplate-infosec/" target="_blank" rel="noopener noreferrer nofollow">這個 GitHub 倉庫</a>，並在本地完成這些挑戰。
+- Clone <a href="https://github.com/freeCodeCamp/boilerplate-infosec/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete these challenges locally.
 - Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-infosec/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete these challenges.
-- 使用你選擇的網站生成器來完成項目。 需要包含我們 GitHub 倉庫的所有文件。
+- Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
 
-Helmet 通過設置各種 HTTP 頭來保護你的 Express 應用程序。
+Helmet helps you secure your Express apps by setting various HTTP headers.
 
 # --instructions--
 
-你在這些課程中寫的所有代碼都在 `myApp.js` 文件中，在初始代碼之間。 不要改變或刪除我們爲你添加的代碼。
+All your code for these lessons goes in the `myApp.js` file between the lines of code we have started you off with. Do not change or delete the code we have added for you.
 
-Helmet `3.21.3` 版已經安裝完畢，所以在 `myApp.js` 中請求它作爲 `helmet`。
+Helmet version `3.21.3` has already been installed, so require it as `helmet` in `myApp.js`.
 
 # --hints--
 
-`helmet` 版本 `3.21.3` 應該在 `package.json` 中。
+`helmet` version `3.21.3` should be in `package.json`
 
 ```js
 (getUserInput) =>

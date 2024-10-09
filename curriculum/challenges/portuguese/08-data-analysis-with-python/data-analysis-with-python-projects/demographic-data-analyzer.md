@@ -1,6 +1,6 @@
 ---
 id: 5e46f7e5ac417301a38fb929
-title: Analisador de dados demográficos
+title: Demographic Data Analyzer
 challengeType: 10
 forumTopicId: 462367
 dashedName: demographic-data-analyzer
@@ -8,17 +8,17 @@ dashedName: demographic-data-analyzer
 
 # --description--
 
-Você <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-demographic-data-analyzer/" target="_blank" rel="noopener noreferrer nofollow">trabalhará nesse projeto com o nosso código inicial do Gitpod </a>.
+You will be <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-demographic-data-analyzer/" target="_blank" rel="noopener noreferrer nofollow">working on this project with our Gitpod starter code</a>.
 
-Ainda estamos desenvolvendo a parte instrucional interativa do currículo Python. Por enquanto, aqui estão alguns vídeos no canal do freeCodeCamp.org do YouTube que ensinarão tudo o que você precisa saber para completar este projeto:
+We are still developing the interactive instructional part of the Python curriculum. For now, here are some videos on the freeCodeCamp.org YouTube channel that will teach you everything you need to know to complete this project:
 
-- <a href="https://www.freecodecamp.org/news/python-for-everybody/" target="_blank" rel="noopener noreferrer nofollow">Curso de Python em vídeo para todos</a> (14 horas)
+- <a href="https://www.freecodecamp.org/news/python-for-everybody/" target="_blank" rel="noopener noreferrer nofollow">Python for Everybody Video Course</a> (14 hours)
 
-- <a href="https://www.freecodecamp.org/news/how-to-analyze-data-with-python-pandas/" target="_blank" rel="noopener noreferrer nofollow">Como analisar dados em Python com o Pandas</a> (10 horas)
+- <a href="https://www.freecodecamp.org/news/how-to-analyze-data-with-python-pandas/" target="_blank" rel="noopener noreferrer nofollow">How to Analyze Data with Python Pandas</a> (10 hours)
 
 # --instructions--
 
-Neste desafio você deve analisar dados demográficos usando o Pandas. Você receberá um conjunto de dados relativos aos dados demográficos que foram extraídos do banco de dados do censo de 1994. Aqui está um exemplo de como os dados ficariam:
+In this challenge you must analyze demographic data using Pandas. You are given a dataset of demographic data that was extracted from the 1994 Census database. Here is a sample of what the data looks like:
 
 ```markdown
 |    |   age | workclass        |   fnlwgt | education   |   education-num | marital-status     | occupation        | relationship   | race   | sex    |   capital-gain |   capital-loss |   hours-per-week | native-country   | salary   |
@@ -30,39 +30,39 @@ Neste desafio você deve analisar dados demográficos usando o Pandas. Você rec
 |  4 |    28 | Private          |   338409 | Bachelors   |              13 | Married-civ-spouse | Prof-specialty    | Wife           | Black  | Female |              0 |              0 |               40 | Cuba             | <=50K    |
 ```
 
-Você deve usar o Pandas para responder as seguintes questões:
+You must use Pandas to answer the following questions:
 
-- Quantas pessoas de cada raça estão representadas neste dataset? Esta deve ser uma série Pandas com nomes das raças como rótulos de índice. (coluna `race`)
-- Qual é a média de idade dos homens?
-- Qual é a porcentagem de pessoas que têm um diploma de bacharel?
-- Qual é a porcentagem de pessoas com educação superior (`Bachelors`, `Masters`, ou `Doctorate` - graduados, mestres e doutores, respectivamente) que ganham mais de 50 mil?
-- Qual é a porcentagem de pessoas sem educação superior que ganham mais de 50 mil?
-- Qual é o número mínimo de horas que uma pessoa trabalha por semana?
-- Qual é a porcentagem das pessoas que trabalham o número mínimo de horas por semana e que têm um salário superior a 50 mil?
-- Qual país tem a maior porcentagem de pessoas que ganham > 50mil e qual é essa porcentagem?
-- Identifique a ocupação mais popular entre aqueles que ganham > 50 mil na Índia.
+- How many people of each race are represented in this dataset? This should be a Pandas series with race names as the index labels. (`race` column)
+- What is the average age of men?
+- What is the percentage of people who have a Bachelor's degree?
+- What percentage of people with advanced education (`Bachelors`, `Masters`, or `Doctorate`) make more than 50K?
+- What percentage of people without advanced education make more than 50K?
+- What is the minimum number of hours a person works per week?
+- What percentage of the people who work the minimum number of hours per week have a salary of more than 50K?
+- What country has the highest percentage of people that earn >50K and what is that percentage?
+- Identify the most popular occupation for those who earn >50K in India.
 
-Use o código inicial do arquivo `demographic_data_analyzer.py`. Atualize o código para que todas as variáveis definidas como `None` sejam definidas com o cálculo ou código apropriado. Arredonde todos os números decimais para o décimo mais próximo.
+Use the starter code in the file `demographic_data_analyzer.py`. Update the code so all variables set to `None` are set to the appropriate calculation or code. Round all decimals to the nearest tenth.
 
-## Desenvolvimento
+## Development
 
-Escreva seu código em `demographic_data_analyzer.py`. Para o desenvolvimento, você pode usar `main.py` para testar o seu código.
+Write your code in `demographic_data_analyzer.py`. For development, you can use `main.py` to test your code.
 
-## Testes
+## Testing
 
-Os testes unitários para esse projeto estão em `test_module.py`. Importamos os testes de `test_module.py` em `main.py` para a sua conveniência.
+The unit tests for this project are in `test_module.py`. We imported the tests from `test_module.py` to `main.py` for your convenience.
 
-## Envio
+## Submitting
 
-Copie o URL do seu projeto e envie-o para o freeCodeCamp.
+Copy your project's URL and submit it to freeCodeCamp.
 
-## Fonte do dataset
+## Dataset Source
 
-Dua, D. e Graff, C. (2019). <a href="http://archive.ics.uci.edu/ml" target="_blank" rel="noopener noreferrer nofollow">UCI Machine Learning Repository</a>. Irvine, CA: University of California, School of Information and Computer Science.
+Dua, D. and Graff, C. (2019). <a href="http://archive.ics.uci.edu/ml" target="_blank" rel="noopener noreferrer nofollow">UCI Machine Learning Repository</a>. Irvine, CA: University of California, School of Information and Computer Science.
 
 # --hints--
 
-Ele deve passar em todos os testes do Python.
+It should pass all Python tests.
 
 ```js
 

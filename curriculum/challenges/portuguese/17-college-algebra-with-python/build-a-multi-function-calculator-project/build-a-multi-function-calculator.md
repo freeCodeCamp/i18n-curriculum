@@ -1,28 +1,28 @@
 ---
 id: 63d83ff239c73468b059cd3f
-title: "Crie uma calculadora multifunção"
+title: "Build a Multi-Function Calculator"
 challengeType: 10
 dashedName: build-a-multi-function-calculator
 ---
 
 # --description--
 
-Você vai <a href="https://colab.research.google.com/drive/1jT7atuRCOnkdPyDmlgKVJqxouDSx7Ioh?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">trabalhar neste projeto com o Google Colaboratory</a>.
+You will be <a href="https://colab.research.google.com/drive/1jT7atuRCOnkdPyDmlgKVJqxouDSx7Ioh?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">working on this project with Google Colaboratory</a>.
 
-Depois de acessar o link, crie uma cópia do notebook em sua conta pessoal ou localmente. Depois que você completar o projeto e ele passar no teste (incluído naquele link), envie o link do seu projeto abaixo. Se você estiver enviando um link do Google Colaboratory, certifique-se de ativar o compartilhamento de links para "qualquer um com o link".
+After going to that link, create a copy of the notebook either in your own account or locally. Once you complete the project and it passes the test (included at that link), submit your project link below. If you are submitting a Google Colaboratory link, make sure to turn on link sharing for "anyone with the link."
 
 # --instructions--
 
-Para este desafio, você precisará criar uma calculadora multifuncional usando Python que receberá entradas e fará o seguinte:
+For this challenge, you need to create a multi-function calculator using Python that take input and do the following:
 
-- resolução de proporções
-- resolução de x em equações
-- fatoração de raízes quadradas
-- conversão de números decimais em frações e porcentagens
-- conversão de frações em números decimais e porcentagens
-- conversão de porcentagens em números decimais e frações
+- solve proportions
+- solve for x in equations
+- factor square roots
+- convert decimals to fractions and percents
+- convert fractions to decimals and percents
+- convert percents to decimals and fractions
 
-Se estiver com dificuldades, pode seguir o <a href="https://www.youtube.com/embed/PdsvcZNPEEs" target="_blank" rel="noopener noreferrer nofollow">vídeo com o roteiro deste projeto.</a>
+If you are struggling, you can follow the <a href="https://www.youtube.com/embed/PdsvcZNPEEs" target="_blank" rel="noopener noreferrer nofollow">video walkthrough for this project.</a>
 
-Assim que terminar, envie o URL para o notebook público do Colaboratory no seu Google Drive.
+Once you're done, submit the URL to the public Colab notebook on your Google drive.
 

@@ -1,6 +1,6 @@
 ---
 id: a0b5010f579e69b815e7c5d6
-title: البحث والاستبدال
+title: Search and Replace
 challengeType: 1
 forumTopicId: 16045
 dashedName: search-and-replace
@@ -8,19 +8,19 @@ dashedName: search-and-replace
 
 # --description--
 
-اجري بحث واستبدال علي الجملة باستخدام المعطيات (arguments) المقدمة وأنتج الجملة الجديدة.
+Perform a search and replace on the sentence using the arguments provided and return the new sentence.
 
-إن المعطى الأولى جملة التي سيجري البحث والاستبدال عليها.
+First argument is the sentence to perform the search and replace on.
 
-إن المعطى الثانية كلمة التي استبدلتها (سابقا).
+Second argument is the word that you will be replacing (before).
 
-أما المعطى الثالث ما سيحل محل المعطى الثاني (سلفا).
+Third argument is what you will be replacing the second argument with (after).
 
-**ملاحظة:** احتفظ بحالة الحرف الأول في الكلمة الأصلية عند استبدالها. على سبيل المثال إذا كنت تقصد استبدال كلمة `Book` بكلمة `dog`، ينبغي استبدالها كـ `Dog`
+**Note:** Preserve the case of the first character in the original word when you are replacing it. For example if you mean to replace the word `Book` with the word `dog`, it should be replaced as `Dog`
 
 # --hints--
 
-`myReplace("Let us go to the store", "store", "mall")` يجب أن يعيد المقطع النصي `Let us go to the mall`.
+`myReplace("Let us go to the store", "store", "mall")` should return the string `Let us go to the mall`.
 
 ```js
 assert.deepEqual(
@@ -29,7 +29,7 @@ assert.deepEqual(
 );
 ```
 
-`myReplace("He is Sleeping on the couch", "Sleeping", "sitting")` يجب أن يعيد المقطع النصي `He is Sitting on the couch`.
+`myReplace("He is Sleeping on the couch", "Sleeping", "sitting")` should return the string `He is Sitting on the couch`.
 
 ```js
 assert.deepEqual(
@@ -38,7 +38,7 @@ assert.deepEqual(
 );
 ```
 
-`myReplace("I think we should look up there", "up", "Down")` يجب أن يعيد المقطع النصي `I think we should look down there`.
+`myReplace("I think we should look up there", "up", "Down")` should return the string `I think we should look down there`.
 
 ```js
 assert.deepEqual(
@@ -47,7 +47,7 @@ assert.deepEqual(
 );
 ```
 
-`myReplace("This has a spellngi error", "spellngi", "spelling")` يجب أن يعيد المقطع النصي `This has a spelling error`.
+`myReplace("This has a spellngi error", "spellngi", "spelling")` should return the string `This has a spelling error`.
 
 ```js
 assert.deepEqual(
@@ -56,7 +56,7 @@ assert.deepEqual(
 );
 ```
 
-`myReplace("His name is Tom", "Tom", "john")` يجب أن يعيد المقطع النصي `His name is John`.
+`myReplace("His name is Tom", "Tom", "john")` should return the string `His name is John`.
 
 ```js
 assert.deepEqual(
@@ -65,7 +65,7 @@ assert.deepEqual(
 );
 ```
 
-`myReplace("Let us get back to more Coding", "Coding", "algorithms")` يجب أن يعيد السلسلة النصية `Let us get back to more Algorithms`.
+`myReplace("Let us get back to more Coding", "Coding", "algorithms")` should return the string `Let us get back to more Algorithms`.
 
 ```js
 assert.deepEqual(

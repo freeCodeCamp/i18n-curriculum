@@ -1,6 +1,6 @@
 ---
 id: 5900f5221000cf542c510033
-title: '問題 436: 不公平な賭け'
+title: 'Problem 436: Unfair wager'
 challengeType: 1
 forumTopicId: 302107
 dashedName: problem-436-unfair-wager
@@ -8,29 +8,29 @@ dashedName: problem-436-unfair-wager
 
 # --description--
 
-ジュリーは、姉のルイーズに次のような賭けを提案しました。
+Julie proposes the following wager to her sister Louise.
 
-誰が皿を洗うかを決めるために、運で決まるゲームをするというものです。
+She suggests they play a game of chance to determine who will wash the dishes.
 
-このゲームでは、0 から 1 の間に一様に分布する独立的な乱数を作る生成器を使います。
+For this game, they shall use a generator of independent random numbers uniformly distributed between 0 and 1.
 
-ゲームは $S = 0$ から開始します。
+The game starts with $S = 0$.
 
-先手であるルイーズは、生成器から得られるさまざまな乱数を $S$ に加えていき、$S > 1$ になったら止め、最後の乱数 '$x$' を記録します。
+The first player, Louise, adds to $S$ different random numbers from the generator until $S > 1$ and records her last random number '$x$'.
 
-後手のジュリーは、生成器から得られる色々な乱数を引き続き $S$ に加えていき、$S > 2$ になったら止め、最後の乱数 '$y$' を記録します。
+The second player, Julie, continues adding to $S$ different random numbers from the generator until $S > 2$ and records her last random number '$y$'.
 
-最大の数を記録した方が勝ち、負けた方は皿洗いをします。すなわち、$y > x$ であれば後手の勝ちです。
+The player with the highest number wins and the loser washes the dishes, i.e. if $y > x$ the second player wins.
 
-例えば、先手が生成器から 0.62 と 0.44 を得た場合、$0.62 + 0.44 > 1$ なので先手のターンが終わり、$x = 0.44$ となります。 後手が 0.1, 0.27, 0.91 を得た場合、$0.62 + 0.44 + 0.1 + 0.27 + 0.91 > 2$ なので後手のターンが終わり、$y = 0.91$ となります。 $y > x$ なので後手の勝ちです。
+For example, if the first player draws 0.62 and 0.44, the first player turn ends since $0.62 + 0.44 > 1$ and $x = 0.44$. If the second players draws 0.1, 0.27 and 0.91, the second player turn ends since $0.62 + 0.44 + 0.1 + 0.27 + 0.91 > 2$ and $y = 0.91$. Since $y > x$, the second player wins.
 
-ルイーズは少し考えてから、「不公平だわ」と抗議しました。
+Louise thinks about it for a second, and objects: "That's not fair".
 
-後手が勝つ確率を求めなさい。 回答は、四捨五入して小数第 10 位まで求め、0.abcdefghij の形式にすること。
+What is the probability that the second player wins? Give your answer rounded to 10 places behind the decimal point in the form 0.abcdefghij
 
 # --hints--
 
-`unfairWager()` は `0.5276662759` を返す必要があります。
+`unfairWager()` should return `0.5276662759`.
 
 ```js
 assert.strictEqual(unfairWager(), 0.5276662759);

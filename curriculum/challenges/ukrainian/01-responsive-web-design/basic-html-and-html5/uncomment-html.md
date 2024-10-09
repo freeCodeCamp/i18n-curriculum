@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedf08802
-title: Розкоментований HTML
+title: Uncomment HTML
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVMPUv/cBmG9T7'
 forumTopicId: 18329
@@ -9,37 +9,37 @@ dashedName: uncomment-html
 
 # --description--
 
-Коментування - це спосіб, за допомогою якого ви можете залишити коментарі для інших розробників в межах вашого коду, не впливаючи на результат отриманого значення, який відображається кінцевому користувачу.
+Commenting is a way that you can leave comments for other developers within your code without affecting the resulting output that is displayed to the end user.
 
-Коментування є також і зручним способом зробити код неактивним без необхідності його повного видалення.
+Commenting is also a convenient way to make code inactive without having to delete it entirely.
 
-Коментарі в HTML починаються з `<!--` і закінчуються `-->`
+Comments in HTML start with `<!--` and end with a `-->`
 
 # --instructions--
 
-Прокоментуйте ваші `h1`, `h2` та `p` елементи.
+Uncomment your `h1`, `h2` and `p` elements.
 
 # --hints--
 
-Ваш елемент `h1` має бути видимим на сторінці шляхом його розкоментування.
+Your `h1` element should be visible on the page by uncommenting it.
 
 ```js
 assert($('h1').length > 0);
 ```
 
-Ваш елемент `h2` має бути видимим на сторінці шляхом його розкоментування.
+Your `h2` element should be visible on the page by uncommenting it.
 
 ```js
 assert($('h2').length > 0);
 ```
 
-Ваш елемент `p` має бути видимим на сторінці шляхом його розкоментування.
+Your `p` element should be visible on the page by uncommenting it.
 
 ```js
 assert($('p').length > 0);
 ```
 
-Кінцеві теги коментарів не мають бути видимими на сторінці (тобто `-->`).
+No trailing comment tags should be visible on the page (i.e. `-->`).
 
 ```js
 assert(!$('*:contains("-->")')[1]);

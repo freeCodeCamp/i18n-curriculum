@@ -1,6 +1,6 @@
 ---
 id: 587d7fb6367417b2b2512c09
-title: Erstellen und Speichern eines Datensatzes für ein Modell
+title: Create and Save a Record of a Model
 challengeType: 2
 forumTopicId: 301536
 dashedName: create-and-save-a-record-of-a-model
@@ -8,11 +8,11 @@ dashedName: create-and-save-a-record-of-a-model
 
 # --description--
 
-In dieser Aufgabe musst du einen Datensatz für ein Modell erstellen und speichern.
+In this challenge you will have to create and save a record of a model.
 
 # --instructions--
 
-Erstelle eine Dokumentinstanz innerhalb der `createAndSavePerson`-Funktion, unter Verwendung des Modell-Konstruktors `Person`, den du zuvor erstellt hast. Übergebe dem Konstruktor ein Objekt mit den Feldern `name`, `age`, und `favoriteFoods`. Deren Typen müssen mit denen in `personSchema` übereinstimmen. Rufe anschließend die Methode `document.save()` in der zurückgegebenen Dokumentinstanz auf. Übergib dieser einen Callback unter Verwendung der Node-Konvention. Das ist ein gängiges Muster; alle folgenden CRUD-Methoden akzeptieren eine Callback-Funktion wie diese als letztes Argument.
+Within the `createAndSavePerson` function, create a document instance using the `Person` model constructor you built before. Pass to the constructor an object having the fields `name`, `age`, and `favoriteFoods`. Their types must conform to the ones in the `personSchema`. Then, call the method `document.save()` on the returned document instance. Pass to it a callback using the Node convention. This is a common pattern; all the following CRUD methods take a callback function like this as the last argument.
 
 ```js
 /* Example */
@@ -25,7 +25,7 @@ person.save(function(err, data) {
 
 # --hints--
 
-Das Erstellen und Speichern eines Datenbankeintrags sollte funktionieren
+Creating and saving a db item should succeed
 
 ```js
 (getUserInput) =>

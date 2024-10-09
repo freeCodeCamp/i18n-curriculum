@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aec908855
-title: Gib jedem Element eine eindeutige ID
+title: Give Each Element a Unique id
 challengeType: 0
 forumTopicId: 18191
 dashedName: give-each-element-a-unique-id
@@ -8,15 +8,15 @@ dashedName: give-each-element-a-unique-id
 
 # --description--
 
-Wir werden jQuery auch verwenden wollen, um einzelne Buttons durch deren eindeutige ID anzuwählen.
+We will also want to be able to use jQuery to target each button by its unique id.
 
-Gib jedem Button eine eindeutige ID, angefangen mit `target1` und endend mit `target6`.
+Give each of your buttons a unique id, starting with `target1` and ending with `target6`.
 
-Stelle sicher, dass `target1` bis `target3` in `#left-well` und `target4` bis `target6` in `#right-well` untergeordnet sind.
+Make sure that `target1` to `target3` are in `#left-well`, and `target4` to `target6` are in `#right-well`.
 
 # --hints--
 
-Es sollte ein `button`-Element mit der ID `target1` geben.
+One `button` element should have the id `target1`.
 
 ```js
 const leftWall = document.querySelector('#left-well'); 
@@ -24,7 +24,7 @@ const targetOne = leftWall?.querySelectorAll(`:scope ${'#target1'}`)
 assert.lengthOf(targetOne,1);
 ```
 
-Es sollte ein `button`-Element mit der ID `target2` geben.
+One `button` element should have the id `target2`.
 
 ```js
 const leftWall = document.querySelector('#left-well'); 
@@ -32,7 +32,7 @@ const targetTwo = leftWall?.querySelectorAll(`:scope ${'#target2'}`)
 assert.lengthOf(targetTwo,1);
 ```
 
-Es sollte ein `button`-Element mit der ID `target3` geben.
+One `button` element should have the id `target3`.
 
 ```js
 const leftWall = document.querySelector('#left-well'); 
@@ -40,7 +40,7 @@ const targetThree = leftWall?.querySelectorAll(`:scope ${'#target3'}`)
 assert.lengthOf(targetThree,1);
 ```
 
-Es sollte ein `button`-Element mit der ID `target4` geben.
+One `button` element should have the id `target4`.
 
 ```js
 const leftWall = document.querySelector('#right-well'); 
@@ -48,7 +48,7 @@ const targetFour = leftWall?.querySelectorAll(`:scope ${'#target4'}`)
 assert.lengthOf(targetFour,1);
 ```
 
-Es sollte ein `button`-Element mit der ID `target5` geben.
+One `button` element should have the id `target5`.
 
 ```js
 const leftWall = document.querySelector('#right-well'); 
@@ -56,7 +56,7 @@ const targetFive = leftWall?.querySelectorAll(`:scope ${'#target5'}`)
 assert.lengthOf(targetFive,1);
 ```
 
-Es sollte ein `button`-Element mit der ID `target6` geben.
+One `button` element should have the id `target6`.
 
 ```js
 const leftWall = document.querySelector('#right-well'); 

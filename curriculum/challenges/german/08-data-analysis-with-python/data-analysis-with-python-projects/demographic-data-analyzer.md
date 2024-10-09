@@ -1,6 +1,6 @@
 ---
 id: 5e46f7e5ac417301a38fb929
-title: Demografischer Datenanalysator
+title: Demographic Data Analyzer
 challengeType: 10
 forumTopicId: 462367
 dashedName: demographic-data-analyzer
@@ -10,15 +10,15 @@ dashedName: demographic-data-analyzer
 
 You will be <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-demographic-data-analyzer/" target="_blank" rel="noopener noreferrer nofollow">working on this project with our Gitpod starter code</a>.
 
-Wir sind noch dabei, den interaktiven Teil des Python-Kurses zu entwickeln. Hier sind erstmal einige Videos auf dem freeCodeCamp.org YouTube-Kanal, die dir alles beibringen, was du wissen musst, um dieses Projekt abzuschließen:
+We are still developing the interactive instructional part of the Python curriculum. For now, here are some videos on the freeCodeCamp.org YouTube channel that will teach you everything you need to know to complete this project:
 
-- <a href="https://www.freecodecamp.org/news/python-for-everybody/" target="_blank" rel="noopener noreferrer nofollow">Videokurs: Python für jedermann</a> (14 Stunden)
+- <a href="https://www.freecodecamp.org/news/python-for-everybody/" target="_blank" rel="noopener noreferrer nofollow">Python for Everybody Video Course</a> (14 hours)
 
-- <a href="https://www.freecodecamp.org/news/how-to-analyze-data-with-python-pandas/" target="_blank" rel="noopener noreferrer nofollow">Wie man Daten mit Python-Pandas analysiert </a> (10 Stunden)
+- <a href="https://www.freecodecamp.org/news/how-to-analyze-data-with-python-pandas/" target="_blank" rel="noopener noreferrer nofollow">How to Analyze Data with Python Pandas</a> (10 hours)
 
 # --instructions--
 
-Bei dieser Aufgabe musst du demographische Daten mit Hilfe von Pandas analysieren. Du erhälst einen Datensatz von demographischen Daten, die aus der Datenbank der Volkszählung 1994 gewonnen wurden. Hier ist ein Beispiel dafür, wie die Daten aussehen:
+In this challenge you must analyze demographic data using Pandas. You are given a dataset of demographic data that was extracted from the 1994 Census database. Here is a sample of what the data looks like:
 
 ```markdown
 |    |   age | workclass        |   fnlwgt | education   |   education-num | marital-status     | occupation        | relationship   | race   | sex    |   capital-gain |   capital-loss |   hours-per-week | native-country   | salary   |
@@ -30,39 +30,39 @@ Bei dieser Aufgabe musst du demographische Daten mit Hilfe von Pandas analysiere
 |  4 |    28 | Private          |   338409 | Bachelors   |              13 | Married-civ-spouse | Prof-specialty    | Wife           | Black  | Female |              0 |              0 |               40 | Cuba             | <=50K    |
 ```
 
-Du musst Pandas verwenden, um die folgenden Fragen zu beantworten:
+You must use Pandas to answer the following questions:
 
-- Wie viele Personen jeder ethnischen Gruppe sind in diesem Datensatz vertreten? Dies sollte eine Pandas-Reihe mit den Namen der verschiedenen Ethnien als Indexbezeichnungen sein. (`race` Spalte)
-- Wie hoch ist das Durchschnittsalter der Männer?
-- Wie hoch ist der Prozentsatz von Menschen, die einen Bachelorabschluss haben?
-- Wie hoch ist der Prozentsatz der Menschen mit einer weiterführenden Bildung (`Bachelors`, `Masters`, oder `Doctorate`), die mehr als 50K verdienen?
-- Wie hoch ist der Prozentsatz der Menschen ohne weiterführende Bildung, die mehr als 50K verdienen?
-- Wie hoch ist die Mindestanzahl an Arbeitsstunden, die eine Person pro Woche arbeitet?
-- Wie hoch ist der Prozentsatz von Menschen, die die Mindestarbeitszeit arbeiten und mehr als 50K verdienen?
-- Welches Land hat den höchsten Prozentsatz an Menschen, die >50K verdienen und wie viel Prozent sind es?
-- Ermittle den bekanntesten Beruf für diejenigen, die in Indien >50K verdienen.
+- How many people of each race are represented in this dataset? This should be a Pandas series with race names as the index labels. (`race` column)
+- What is the average age of men?
+- What is the percentage of people who have a Bachelor's degree?
+- What percentage of people with advanced education (`Bachelors`, `Masters`, or `Doctorate`) make more than 50K?
+- What percentage of people without advanced education make more than 50K?
+- What is the minimum number of hours a person works per week?
+- What percentage of the people who work the minimum number of hours per week have a salary of more than 50K?
+- What country has the highest percentage of people that earn >50K and what is that percentage?
+- Identify the most popular occupation for those who earn >50K in India.
 
-Use the starter code in the file `demographic_data_analyzer.py`. Update the code so all variables set to `None` are set to the appropriate calculation or code. Runde alle Dezimalstellen auf die nächste Zehnerstelle.
+Use the starter code in the file `demographic_data_analyzer.py`. Update the code so all variables set to `None` are set to the appropriate calculation or code. Round all decimals to the nearest tenth.
 
-## Entwicklung
+## Development
 
 Write your code in `demographic_data_analyzer.py`. For development, you can use `main.py` to test your code.
 
-## Testen
+## Testing
 
-The unit tests for this project are in `test_module.py`. Wir haben die Tests von `test_module.py` zu `main.py` bereits für dich importiert.
+The unit tests for this project are in `test_module.py`. We imported the tests from `test_module.py` to `main.py` for your convenience.
 
-## Absenden
+## Submitting
 
-Kopiere die URL deines Projekts und übermittle sie an freeCodeCamp.
+Copy your project's URL and submit it to freeCodeCamp.
 
-## Datensatzquelle
+## Dataset Source
 
 Dua, D. and Graff, C. (2019). <a href="http://archive.ics.uci.edu/ml" target="_blank" rel="noopener noreferrer nofollow">UCI Machine Learning Repository</a>. Irvine, CA: University of California, School of Information and Computer Science.
 
 # --hints--
 
-Es sollte alle Python-Tests bestehen.
+It should pass all Python tests.
 
 ```js
 

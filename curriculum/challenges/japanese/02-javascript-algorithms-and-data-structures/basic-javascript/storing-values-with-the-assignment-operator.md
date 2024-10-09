@@ -1,6 +1,6 @@
 ---
 id: 56533eb9ac21ba0edf2244a8
-title: 代入演算子を使用して値を格納する
+title: Storing Values with the Assignment Operator
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cEanysE'
 forumTopicId: 18310
@@ -9,36 +9,36 @@ dashedName: storing-values-with-the-assignment-operator
 
 # --description--
 
-JavaScript では、<dfn>代入</dfn>演算子 (`=`) を使用して値を変数に格納できます。
+In JavaScript, you can store a value in a variable with the <dfn>assignment</dfn> operator (`=`).
 
 ```js
 myVariable = 5;
 ```
 
-この例は `Number` 値 `5` を `myVariable` に代入します。
+This assigns the `Number` value `5` to `myVariable`.
 
-`=` 演算子の右側に何らかの計算式がある場合は、それらの計算が実行されてから、左側の変数に値が代入されます。
+If there are any calculations to the right of the `=` operator, those are performed before the value is assigned to the variable on the left of the operator.
 
 ```js
 var myVar;
 myVar = 5;
 ```
 
-最初に、このコードは `myVar` という名前の変数を作成します。 次に、`5` を `myVar` に代入します。 これ以降、`myVar` がコードに再び出現した場合、プログラムはそれを `5` であるかのように扱います。
+First, this code creates a variable named `myVar`. Then, the code assigns `5` to `myVar`. Now, if `myVar` appears again in the code, the program will treat it as if it is `5`.
 
 # --instructions--
 
-値 `7` を変数 `a` に代入してください。
+Assign the value `7` to variable `a`.
 
 # --hints--
 
-指定のコメントより上にあるコードを変更しないでください。
+You should not change code above the specified comment.
 
 ```js
 assert(/var a;/.test(__helpers.removeJSComments(code)));
 ```
 
-`a` の値は 7 である必要があります。
+`a` should have a value of 7.
 
 ```js
 assert(typeof a === 'number' && a === 7);

@@ -1,19 +1,19 @@
 ---
 id: 65e1957a500d930ce8ed90a6
-title: Вивчіть змінні та оператори. Урок №3
+title: Learn Variables and Operators Lesson C
 challengeType: 15
 dashedName: learn-variables-and-operators-lesson-c
 ---
 
 # --description--
 
-Щоб оголосити константну (незмінну) змінну, використайте `const`, а не `let`:
+To declare a constant (unchanging) variable, use `const` instead of `let`:
 
 ```javascript
 const myBirthday = '16-09-2003';
 ```
 
-Змінні, оголошені за допомогою `const`, називають «константами». Їх неможливо перепризначити. Така спроба призведе до помилки:
+Variables declared using `const` are called "constants". They cannot be reassigned. An attempt to do so would cause an error:
 
 ```javascript
 const myBirthday = '16-09-2003';
@@ -21,29 +21,29 @@ const myBirthday = '16-09-2003';
 myBirthday = '01-01-2001'; // error, can't reassign the constant!
 ```
 
-Якщо програміст впевнений, що змінна ніколи не змінюватиметься, то її оголосять за допомогою `const`, тим самим гарантуючи цей факт та повідомляючи інших.
+When a programmer is sure that a variable will never change, they can declare it with `const` to guarantee and communicate that fact to everyone.
 
 # --questions--
 
 ## --text--
 
-Що відбудеться, якщо спробувати перепризначити змінну, оголошену за допомогою `const` в JavaScript?
+What is the result of attempting to reassign a `const` declared variable in JavaScript?
 
 ## --answers--
 
-Перепризначення спрацює без помилок.
+The reassignment succeeds with no errors.
 
 ---
 
-Вискочить помилка, оскільки неможливо перепризначити змінні, оголошені за допомогою `const`.
+An error is thrown because `const` declared variables cannot be reassigned.
 
 ---
 
-JavaScript проігнорує перепризначення.
+JavaScript silently ignores the reassignment.
 
 ---
 
-Тип змінної автоматично зміниться на `let`.
+The variable type is automatically changed to `let`.
 
 
 ## --video-solution--

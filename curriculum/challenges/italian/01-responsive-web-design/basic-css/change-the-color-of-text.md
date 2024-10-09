@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedf08803
-title: Cambiare il colore del testo
+title: Change the Color of Text
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cRkVmSm'
 forumTopicId: 16775
@@ -9,39 +9,39 @@ dashedName: change-the-color-of-text
 
 # --description--
 
-Ora cambiamo il colore di alcuni dei nostri testi.
+Now let's change the color of some of our text.
 
-Possiamo farlo cambiando lo `style` dell'elemento `h2`.
+We can do this by changing the `style` of your `h2` element.
 
-La proprietà responsabile del colore del testo di un elemento è la proprietà di stile `color`.
+The property that is responsible for the color of an element's text is the `color` style property.
 
-Ecco come impostare il colore del testo del tuo elemento `h2` su blu:
+Here's how you would set your `h2` element's text color to blue:
 
 ```html
 <h2 style="color: blue;">CatPhotoApp</h2>
 ```
 
-Nota che è una buona pratica terminare le dichiarazioni in linea `style` con un `;`.
+Note that it is a good practice to end inline `style` declarations with a `;` .
 
 # --instructions--
 
-Cambia lo stile dell'elemento `h2` in modo che il colore del testo sia rosso.
+Change your `h2` element's style so that its text color is red.
 
 # --hints--
 
-Il tuo elemento `h2` dovrebbe avere una dichiarazione `style`.
+Your `h2` element should have a `style` declaration.
 
 ```js
 assert($('h2').attr('style'));
 ```
 
-Il tuo elemento `h2` dovrebbe avere il color impostato su `red`.
+Your `h2` element should have color set to `red`.
 
 ```js
 assert($('h2')[0].style.color === 'red');
 ```
 
-La tua dichiarazione `style` dovrebbe terminare con un `;`.
+Your `style` declaration should end with a `;` .
 
 ```js
 assert($('h2').attr('style') && $('h2').attr('style').endsWith(';'));

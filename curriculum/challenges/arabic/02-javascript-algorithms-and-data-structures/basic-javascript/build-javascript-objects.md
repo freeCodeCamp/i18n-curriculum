@@ -1,6 +1,6 @@
 ---
 id: 56bbb991ad1ed5201cd392d0
-title: بناء الكائنات في JavaScript
+title: Build JavaScript Objects
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cWGkbtd'
 forumTopicId: 16769
@@ -9,13 +9,13 @@ dashedName: build-javascript-objects
 
 # --description--
 
-ربما قد سمعت عن مصطلح `object` من قبل.
+You may have heard the term `object` before.
 
-الكائنات تشبه `arrays`، باستثناء انه بدلا من استخدام الترتيب للوصول إلى بياناتها وتعديلها، يمكنك الوصول إلى البيانات في الكائنات بواسطة `properties`.
+Objects are similar to `arrays`, except that instead of using indexes to access and modify their data, you access the data in objects through what are called `properties`.
 
-تكون الكائنات مفيدة لتخزين البيانات بطريقة منظمة، ويمكن تمثل الكائن في الواقع، مثل القطة.
+Objects are useful for storing data in a structured way, and can represent real world objects, like a cat.
 
-هذا مثال مبسط عن كائن القطة:
+Here's a sample cat object:
 
 ```js
 const cat = {
@@ -26,7 +26,7 @@ const cat = {
 };
 ```
 
-في المثال، يتم تخزين جميع الخصائص كمقاطع مثل `name`، و`legs`، و `tails`. ومع ذلك، يمكنك استخدام الأرقام كالخواص أيضاً. يمكنك حذف علامتان التنصيص (" ") لخصائص النص المكون من كلمة واحدة، على النحو التالي:
+In this example, all the properties are stored as strings, such as `name`, `legs`, and `tails`. However, you can also use numbers as properties. You can even omit the quotes for single-word string properties, as follows:
 
 ```js
 const anotherObject = {
@@ -36,17 +36,17 @@ const anotherObject = {
 };
 ```
 
-ومع ذلك، إذا كان الكائن الخاص بك يحتوي على خصائص غير المقطع النصي، فإن JavaScript سيحتسبها تلقائياً كمقاطع.
+However, if your object has any non-string properties, JavaScript will automatically typecast them as strings.
 
 # --instructions--
 
-أنشئ كائن يمثل كلبا يسمى `myDog` الذي يحتوي على الخواص `name` (مقطع نصي)، `legs`, و `tails`, و `friends`.
+Make an object that represents a dog called `myDog` which contains the properties `name` (a string), `legs`, `tails` and `friends`.
 
-يمكنك وضع خصائص الكائن الذي تريدها، مادام أن `name` هو مقطع، `legs` و `tails` هي أرقام، و`friends` هو قائمة (array).
+You can set these object properties to whatever values you want, as long as `name` is a string, `legs` and `tails` are numbers, and `friends` is an array.
 
 # --hints--
 
-يجب أن يحتوي `myDog` على الخاصية `name`, ويجب أن تكون الخاصية بنوع `string`.
+`myDog` should contain the property `name` and it should be a `string`.
 
 ```js
 assert(
@@ -64,7 +64,7 @@ assert(
 );
 ```
 
-يجب أن يحتوي `myDog` على الخاصية `legs`, ويجب أن تكون الخاصية بنوع `number`.
+`myDog` should contain the property `legs` and it should be a `number`.
 
 ```js
 assert(
@@ -82,7 +82,7 @@ assert(
 );
 ```
 
-يجب أن يحتوي `myDog` على الخاصية `tails`, ويجب أن تكون الخاصية بنوع `number`.
+`myDog` should contain the property `tails` and it should be a `number`.
 
 ```js
 assert(
@@ -100,7 +100,7 @@ assert(
 );
 ```
 
-يجب أن يحتوي `myDog` على الخاصية `friends`, ويجب أن تكون الخاصية بنوع `array`.
+`myDog` should contain the property `friends` and it should be an `array`.
 
 ```js
 assert(
@@ -118,7 +118,7 @@ assert(
 );
 ```
 
-يجب أن يحتوي `myDog` على جميع الخصائص المعطاة فقط.
+`myDog` should only contain all the given properties.
 
 ```js
 assert(

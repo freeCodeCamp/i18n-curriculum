@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aede08807
-title: 要素のフォントファミリーを設定する
+title: Set the Font Family of an Element
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/c3bvpCg'
 forumTopicId: 18278
@@ -9,9 +9,9 @@ dashedName: set-the-font-family-of-an-element
 
 # --description--
 
-`font-family` プロパティを使用して、要素がどのフォントを使用するかを設定できます。
+You can set which font an element should use, by using the `font-family` property.
 
-例えば、`h2` 要素のフォントを `sans-serif` に設定したい場合は、次の CSS を使用します:
+For example, if you wanted to set your `h2` element's font to `sans-serif`, you would use the following CSS:
 
 ```css
 h2 {
@@ -21,11 +21,11 @@ h2 {
 
 # --instructions--
 
-すべての `p` 要素に `monospace` フォントを使用するように設定してください。
+Make all of your `p` elements use the `monospace` font.
 
 # --hints--
 
-`p` 要素はフォント `monospace` を使用する必要があります。
+Your `p` elements should use the font `monospace`.
 
 ```js
 assert(

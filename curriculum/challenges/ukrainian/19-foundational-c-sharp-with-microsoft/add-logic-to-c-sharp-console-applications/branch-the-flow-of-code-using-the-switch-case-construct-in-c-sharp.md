@@ -1,38 +1,38 @@
 ---
 id: 647e214b8acb466c97ccbee0
-title: 'Розгалужте потік коду, використовуючи конструкцію switch-case в C#'
+title: 'Branch the Flow of Code Using the switch-case Construct in C#'
 challengeType: 19
 dashedName: branch-the-flow-of-code-using-the-switch-case-construct-in-c-sharp
 ---
 
 # --description--
 
-Це завдання буде частково виконано на платформі Microsoft Learn. Дотримуйтесь цих інструкцій, щоб виконати завдання:
+This challenge will be partially completed on the Microsoft Learn platform. Follow these instructions to complete the challenge:
 
-1. Перейдіть до <a href="https://learn.microsoft.com/training/modules/csharp-switch-case/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/csharp-switch-case/</a> та виконайте всі завдання модуля «Розгалужте потік коду, використовуючи конструкцію switch-case в C#». Це **обов’язково**, щоб отримати трофей з «Додавання логіки до консольних застосунків C#» на Microsoft Learn та мати змогу скласти сертифікаційний екзамен.
-1. Як тільки завершите, поверніться та дайте правильну відповідь на запитання нижче.
+1. Go to <a href="https://learn.microsoft.com/training/modules/csharp-switch-case/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/csharp-switch-case/</a> and complete all the tasks for the "Branch the Flow of Code Using the switch-case Construct in C#" module. This is **required** to earn the "Add Logic to C# Console Applications" trophy on Microsoft Learn, and qualify for the certification exam.
+1. When you are finished, come back and correctly answer the question below.
 
 # --assignment--
 
-Виконайте модуль <a href="https://learn.microsoft.com/training/modules/csharp-switch-case/" target="_blank" rel="noreferrer">«Розгалужте потік коду, використовуючи конструкцію switch-case в C#»</a> на Microsoft Learn. Потім дайте відповідь на запитання нижче.
+Complete the <a href="https://learn.microsoft.com/training/modules/csharp-switch-case/" target="_blank" rel="noreferrer">Branch the Flow of Code Using the `switch`-`case` Construct in C#</a> module on Microsoft Learn. Then, answer the question below.
 
 # --questions--
 
 ## --text--
 
-Яка мета ключового слова `break`?
+What is the purpose of the `break` keyword?
 
 ## --answers--
 
-Ключове слово `break` повідомляє продовжувати оцінювання інших випадків в конструкції `switch`.
+The `break` keyword tells the runtime to continue evaluating other cases in the `switch` construct.
 
 ---
 
-Ключове слово `break` повідомляє зупинити оцінювання інших випадків в конструкції `switch`.
+The `break` keyword tells the runtime to stop evaluating other cases in the `switch` construct.
 
 ---
 
-Ключове слово `break` повідомляє вийти із застосунку.
+The `break` keyword tells the runtime to exit the application.
 
 ## --video-solution--
 

@@ -14,7 +14,7 @@ Every night, the child's father has to pick up the pieces of the caterpillar tha
 
 As the caterpillar is built up in this way, it forms distinct segments that gradually merge together. The number of segments starts at zero (no pieces placed), generally increases up to about eleven or twelve, then tends to drop again before finishing at a single segment (all pieces placed).
 
-Por ejemplo:
+For example:
 
 | Piece Placed | Segments So Far |
 | ------------ | --------------- |
@@ -37,13 +37,13 @@ Let $M$ be the maximum number of segments encountered during a random tidy-up of
 | 4 | 1418112       |
 | 5 | 144000        |
 
-así que el valor más probable de $M$ es 3 y el valor medio es $\frac{385\\,643}{113\\,400} = 3.400732$, redondeado a seis lugares decimales.
+so the most likely value of $M$ is 3 and the average value is $\frac{385\\,643}{113\\,400} = 3.400732$, rounded to six decimal places.
 
-El valor más probable de $M$ para una oruga de cuarenta piezas es 11; pero ¿cuál es el valor medio de $M$? Da tu respuesta redondeada a seis lugares decimales.
+The most likely value of $M$ for a forty-piece caterpillar is 11; but what is the average value of $M$? Give your answer rounded to six decimal places.
 
 # --hints--
 
-`tidyingUp()` debería volver `11.492847`.
+`tidyingUp()` should return `11.492847`.
 
 ```js
 assert.strictEqual(tidyingUp(), 11.492847);

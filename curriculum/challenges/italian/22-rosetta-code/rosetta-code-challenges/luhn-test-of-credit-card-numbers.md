@@ -1,6 +1,6 @@
 ---
 id: 5ea28156e79528a9ab248f27
-title: Test di Luhn dei numeri delle carte di credito
+title: Luhn test of credit card numbers
 challengeType: 1
 forumTopicId: 385284
 dashedName: luhn-test-of-credit-card-numbers
@@ -10,20 +10,20 @@ dashedName: luhn-test-of-credit-card-numbers
 
 The Luhn test is used by some credit card companies to distinguish valid credit card numbers from what could be a random selection of digits.
 
-Le società che utilizzano numeri di carta di credito che possono essere convalidati dal test di Luhn hanno numeri che superano il seguente test:
+Those companies using credit card numbers that can be validated by the Luhn test have numbers that pass the following test:
 
 <ol>
   <li> Reverse the order of the digits in the number.</li>
-  <li> Prende la prima, la terza, ... e ogni altra cifra dispari nelle cifre invertite e le somma per formare la somma parziale s1</li>
-  <li> Prende la seconda, la quarta... e ogni altra cifra pari nelle cifre invertite:</li>
+  <li> Take the first, third, ... and every other odd digit in the reversed digits and sum them to form the partial sum s1</li>
+  <li> Taking the second, fourth ... and every other even digit in the reversed digits:</li>
     <ol>
       <li>Multiply each digit by two and sum the digits if the answer is greater than nine to form partial sums for the even digits.</li>
-      <li>Somma le somme parziali delle cifre pari per formare s2.</li>
+      <li>Sum the partial sums of the even digits to form s2.</li>
     </ol>
-  <li>Se s1 + s2 termina in zero allora il numero originale ha la forma di un numero di carta di credito valido, stando alla verifica del test di Luhn.</li>
+  <li>If s1 + s2 ends in zero then the original number is in the form of a valid credit card number as verified by the Luhn test.</li>
 </ol>
 
-Ad esempio, se il numero da testare è 49927398716:
+For example, if the trial number is 49927398716:
 
 ```bash
 Reverse the digits:
@@ -44,53 +44,53 @@ s1 + s2 = 70 which ends in zero which means that 49927398716 passes the Luhn tes
 
 # --instructions--
 
-Scrivi una funzione che convaliderà un numero con il test Luhn. Restituisce vero se è un numero valido. Altrimenti, restituisci false.
+Write a function that will validate a number with the Luhn test. Return true if it's a valid number. Otherwise, return false.
 
 # --hints--
 
-`luhnTest` dovrebbe essere una funzione.
+`luhnTest` should be a function.
 
 ```js
 assert(typeof luhnTest === 'function');
 ```
 
-`luhnTest("4111111111111111")` dovrebbe restituire un booleano.
+`luhnTest("4111111111111111")` should return a boolean.
 
 ```js
 assert(typeof luhnTest('4111111111111111') === 'boolean');
 ```
 
-`luhnTest("4111111111111111")` dovrebbe restituire `true`.
+`luhnTest("4111111111111111")` should return `true`.
 
 ```js
 assert.equal(luhnTest('4111111111111111'), true);
 ```
 
-`luhnTest("4111111111111112")` dovrebbe restituire `false`.
+`luhnTest("4111111111111112")` should return `false`.
 
 ```js
 assert.equal(luhnTest('4111111111111112'), false);
 ```
 
-`luhnTest("49927398716")` dovrebbe restituire `true`.
+`luhnTest("49927398716")` should return `true`.
 
 ```js
 assert.equal(luhnTest('49927398716'), true);
 ```
 
-`luhnTest("49927398717")` dovrebbe restituire `false`.
+`luhnTest("49927398717")` should return `false`.
 
 ```js
 assert.equal(luhnTest('49927398717'), false);
 ```
 
-`luhnTest("1234567812345678")` dovrebbe restituire `false`.
+`luhnTest("1234567812345678")` should return `false`.
 
 ```js
 assert.equal(luhnTest('1234567812345678'), false);
 ```
 
-`luhnTest("1234567812345670")` dovrebbe restituire `true`.
+`luhnTest("1234567812345670")` should return `true`.
 
 ```js
 assert.equal(luhnTest('1234567812345670'), true);

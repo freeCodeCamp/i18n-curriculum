@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aec908855
-title: 각 요소들마다 고유한 id 부여하기
+title: Give Each Element a Unique id
 challengeType: 0
 forumTopicId: 18191
 dashedName: give-each-element-a-unique-id
@@ -8,15 +8,15 @@ dashedName: give-each-element-a-unique-id
 
 # --description--
 
-우리는 각 버튼에 고유한 id를 부여해 jQuery에서 원하는 버튼을 선택할 수 있도록 하려고 합니다.
+We will also want to be able to use jQuery to target each button by its unique id.
 
-각 버튼에 `target1`부터 `target6`까지의 고유한 id를 부여해주세요.
+Give each of your buttons a unique id, starting with `target1` and ending with `target6`.
 
-`target1`부터 `target3`까지는 `#left-well`에, `target4`부터 `target6`까지는 `#right-well` 에 배치해 주세요.
+Make sure that `target1` to `target3` are in `#left-well`, and `target4` to `target6` are in `#right-well`.
 
 # --hints--
 
-한 `button` 요소는 `target1` 이라는 id를 가져야 합니다.
+One `button` element should have the id `target1`.
 
 ```js
 const leftWall = document.querySelector('#left-well'); 
@@ -24,7 +24,7 @@ const targetOne = leftWall?.querySelectorAll(`:scope ${'#target1'}`)
 assert.lengthOf(targetOne,1);
 ```
 
-한 `button` 요소는 `target2` 이라는 id를 가져야 합니다.
+One `button` element should have the id `target2`.
 
 ```js
 const leftWall = document.querySelector('#left-well'); 
@@ -32,7 +32,7 @@ const targetTwo = leftWall?.querySelectorAll(`:scope ${'#target2'}`)
 assert.lengthOf(targetTwo,1);
 ```
 
-한 `button` 요소는 `target3` 이라는 id를 가져야 합니다.
+One `button` element should have the id `target3`.
 
 ```js
 const leftWall = document.querySelector('#left-well'); 
@@ -40,7 +40,7 @@ const targetThree = leftWall?.querySelectorAll(`:scope ${'#target3'}`)
 assert.lengthOf(targetThree,1);
 ```
 
-한 `button` 요소는 `target4` 이라는 id를 가져야 합니다.
+One `button` element should have the id `target4`.
 
 ```js
 const leftWall = document.querySelector('#right-well'); 
@@ -48,7 +48,7 @@ const targetFour = leftWall?.querySelectorAll(`:scope ${'#target4'}`)
 assert.lengthOf(targetFour,1);
 ```
 
-한 `button` 요소는 `target5` 이라는 id를 가져야 합니다.
+One `button` element should have the id `target5`.
 
 ```js
 const leftWall = document.querySelector('#right-well'); 
@@ -56,7 +56,7 @@ const targetFive = leftWall?.querySelectorAll(`:scope ${'#target5'}`)
 assert.lengthOf(targetFive,1);
 ```
 
-한 `button` 요소는 `target6` 이라는 id를 가져야 합니다.
+One `button` element should have the id `target6`.
 
 ```js
 const leftWall = document.querySelector('#right-well'); 

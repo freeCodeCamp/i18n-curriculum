@@ -1,6 +1,6 @@
 ---
 id: 587d7787367417b2b2512aa1
-title: Facilitar a navegação do leitor de tela com o ponto de referência header
+title: Make Screen Reader Navigation Easier with the header Landmark
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cB76vtv'
 forumTopicId: 301023
@@ -9,25 +9,25 @@ dashedName: make-screen-reader-navigation-easier-with-the-header-landmark
 
 # --description--
 
-O próximo elemento HTML5 que adiciona significado semântico e melhora a acessibilidade é a tag `header`. Ela é usada para envolver informações introdutórias ou links de navegação e funciona bem em torno do conteúdo que é repetido no topo em várias páginas.
+The next HTML5 element that adds semantic meaning and improves accessibility is the `header` tag. It's used to wrap introductory information or navigation links for its parent tag and works well around content that's repeated at the top on multiple pages.
 
-O elemento `header` compartilha o recurso de referência incorporado que você viu em `main`, permitindo que tecnologias de assistência naveguem rapidamente até esse conteúdo.
+`header` shares the embedded landmark feature you saw with `main`, allowing assistive technologies to quickly navigate to that content.
 
-**Observação: ** o elemento `header` deve ser usado na tag `body` do seu documento HTML. É diferente do elemento `head`, que contém o título da página, metadados, etc.
+**Note:** The `header` is meant for use in the `body` tag of your HTML document. It is different than the `head` element, which contains the page's title, meta information, etc.
 
 # --instructions--
 
-O Camper Cat está escrevendo ótimos artigos sobre treinamento de ninjas e deseja adicionar uma página para eles no site. Altere a `div` superior que atualmente contém o `h1` para uma tag `header`.
+Camper Cat is writing some great articles about ninja training, and wants to add a page for them to his site. Change the top `div` that currently contains the `h1` to a `header` tag instead.
 
 # --hints--
 
-O código deve ter uma tag `header`.
+Your code should have one `header` tag.
 
 ```js
 assert.lengthOf(document.querySelectorAll('header'),1);
 ```
 
-A tag `header` deve envolver o `h1`.
+Your `header` tags should wrap around the `h1`.
 
 ```js
 const header = document.querySelector('header');
@@ -35,13 +35,13 @@ const children = header?.querySelectorAll(`:scope ${'h1'}`);
 assert.lengthOf(children , 1);
 ```
 
-O código não deve ter nenhuma tag `div`.
+Your code should not have any `div` tags.
 
 ```js
 assert.lengthOf(document.querySelectorAll('div') , 0);
 ```
 
-O elemento `header` deve ter uma tag de fechamento.
+Your `header` element should have a closing tag.
 
 ```js
 assert.isTrue(code.match(/<\/header>/g)?.length === code.match(/<header>/g)?.length);

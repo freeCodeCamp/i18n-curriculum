@@ -1,6 +1,6 @@
 ---
 id: a2f1d72d9b908d0bd72bb9f6
-title: Створіть людину
+title: Make a Person
 challengeType: 1
 forumTopicId: 16020
 dashedName: make-a-person
@@ -8,7 +8,7 @@ dashedName: make-a-person
 
 # --description--
 
-Заповніть конструктор об’єкта, використовуючи наведені нижче методи:
+Fill in the object constructor with the following methods below:
 
 ```js
 getFirstName()
@@ -19,29 +19,29 @@ setLastName(last)
 setFullName(first, last)
 ```
 
-Запустіть тести, щоб побачити очікуваний вивід для кожного методу. Ці методи повинні бути єдиними доступними засобами для взаємодії з об’єктом. Кожен тест оголосить новий екземпляр `Person` як `new Person('Bob', 'Ross')`.
+Run the tests to see the expected output for each method. These methods must be the only available means of interacting with the object. Each test will declare a new `Person` instance as `new Person('Bob', 'Ross')`.
 
 # --hints--
 
-Ви не повинні змінювати сигнатуру функції.
+You should not change the function signature.
 
 ```js
 assert.match(code, /const\s+Person\s*=\s*function\s*\(\s*first\s*,\s*last\s*\)\s*{/);
 ```
 
-Ви не повинні перепризначати параметр `first`.
+You should not reassign the `first` parameter.
 
 ```js
 assert.notMatch(code, /\bfirst\s*=\s*/);
 ```
 
-Ви не повинні перепризначати параметр `last`.
+You should not reassign the `last` parameter.
 
 ```js
 assert.notMatch(code, /\blast\s*=\s*/);
 ```
 
-Не треба додавати жодних властивостей. `Object.keys(Person).length` завжди має повертати 6.
+No properties should be added. `Object.keys(Person).length` should always return 6.
 
 ```js
 const _person = new Person('Bob', 'Ross');
@@ -51,49 +51,49 @@ _person.setFullName('John', 'Smith');
 assert.lengthOf(Object.keys(_person), 6);
 ```
 
-Ви повинні мати можливість створити об’єкт `Person`.
+You should be able to instantiate your `Person` object.
 
 ```js
 const _person = new Person('Bob', 'Ross');
 assert.instanceOf(_person, Person);
 ```
 
-Об’єкт `Person` не повинен мати властивість `firstName`.
+Your `Person` object should not have a `firstName` property.
 
 ```js
 const _person = new Person('Bob', 'Ross');
 assert.notProperty(_person, 'firstName');
 ```
 
-Об’єкт `Person` не повинен мати властивість `lastName`.
+Your `Person` object should not have a `lastName` property.
 
 ```js
 const _person = new Person('Bob', 'Ross');
 assert.notProperty(_person, 'lastName');
 ```
 
-Метод `.getFirstName()` має повертати рядок `Bob`.
+The `.getFirstName()` method should return the string `Bob`.
 
 ```js
 const _person = new Person('Bob', 'Ross');
 assert.strictEqual(_person.getFirstName(), 'Bob');
 ```
 
-`.getLastName()` має повертати рядок `Ross`.
+The `.getLastName()` should return the string `Ross`.
 
 ```js
 const _person = new Person('Bob', 'Ross');
 assert.strictEqual(_person.getLastName(), 'Ross');
 ```
 
-Метод `.getFullName()` має повертати рядок `Bob Ross`.
+The `.getFullName()` method should return the string `Bob Ross`.
 
 ```js
 const _person = new Person('Bob', 'Ross');
 assert.strictEqual(_person.getFullName(), 'Bob Ross');
 ```
 
-Метод `.getFullName()` має повертати рядок `Haskell Ross` після виклику `.setFirstName('Haskell')`.
+The `.getFullName()` method should return the string `Haskell Ross` after calling `.setFirstName('Haskell')`.
 
 ```js
 const _person = new Person('Bob', 'Ross');
@@ -101,7 +101,7 @@ _person.setFirstName('Haskell');
 assert.strictEqual(_person.getFullName(), 'Haskell Ross');
 ```
 
-Метод `.getFullName()` має повертати рядок `Bob Curry` після виклику `.setLastName('Curry')`.
+The `.getFullName()` method should return the string `Bob Curry` after calling `.setLastName('Curry')`.
 
 ```js
 const _person = new Person('Bob', 'Ross');
@@ -109,7 +109,7 @@ _person.setLastName('Curry');
 assert.strictEqual(_person.getFullName(), 'Bob Curry');
 ```
 
-Метод `.getFullName()` має повертати рядок `Haskell Curry` після виклику `.setFullName('Haskell', 'Curry')`.
+The `.getFullName()` method should return the string `Haskell Curry` after calling `.setFullName('Haskell', 'Curry')`.
 
 ```js
 const _person = new Person('Bob', 'Ross');
@@ -117,7 +117,7 @@ _person.setFullName('Haskell', 'Curry');
 assert.strictEqual(_person.getFullName(), 'Haskell Curry');
 ```
 
-Метод `.getFirstName()` має повертати рядок `Haskell` після виклику `.setFullName('Haskell', 'Curry')`.
+The `.getFirstName()` method should return the string `Haskell` after calling `.setFullName('Haskell', 'Curry')`.
 
 ```js
 const _person = new Person('Bob', 'Ross');
@@ -125,7 +125,7 @@ _person.setFullName('Haskell', 'Curry');
 assert.strictEqual(_person.getFirstName(), 'Haskell');
 ```
 
-Метод `.getLastName()` має повертати рядок `Curry` після виклику `.setFullName('Haskell', 'Curry')`.
+The `.getLastName()` method should return the string `Curry` after calling `.setFullName('Haskell', 'Curry')`.
 
 ```js
 const _person = new Person('Bob', 'Ross');
@@ -133,7 +133,7 @@ _person.setFullName('Haskell', 'Curry');
 assert.strictEqual(_person.getLastName(), 'Curry');
 ```
 
-Метод `.getFullName()` має повертати рядок `Emily Martinez de la Rosa` після виклику `.setFullName('Emily Martinez', 'de la Rosa')`.
+The `.getFullName()` method should return the string `Emily Martinez de la Rosa` after calling `.setFullName('Emily Martinez', 'de la Rosa')`.
 
 ```js
 const _person = new Person('Bob', 'Ross');
@@ -141,7 +141,7 @@ _person.setFullName('Emily Martinez', 'de la Rosa');
 assert.strictEqual(_person.getFullName(), 'Emily Martinez de la Rosa');
 ```
 
-Властивість `.getFirstName()` має повертати рядок `Emily Martinez` після виклику `.setFullName('Emily Martinez', 'de la Rosa')`.
+The `.getFirstName()` property should return the string `Emily Martinez` after calling `.setFullName('Emily Martinez', 'de la Rosa')`.
 
 ```js
 const _person = new Person('Bob', 'Ross');
@@ -149,7 +149,7 @@ _person.setFullName('Emily Martinez', 'de la Rosa');
 assert.strictEqual(_person.getFirstName(), 'Emily Martinez');
 ```
 
-Властивість `.getLastName()` має повертати рядок `de la Rosa` після виклику `.setFullName('Emily Martinez', 'de la Rosa')`.
+The `.getLastName()` property should return the string `de la Rosa` after calling `.setFullName('Emily Martinez', 'de la Rosa')`.
 
 ```js
 const _person = new Person('Bob', 'Ross');

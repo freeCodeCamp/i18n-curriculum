@@ -1,6 +1,6 @@
 ---
 id: 5e4f5c4b570f7e3a4949899f
-title: Прогнозування змін рівня моря
+title: Sea Level Predictor
 challengeType: 10
 forumTopicId: 462370
 dashedName: sea-level-predictor
@@ -8,48 +8,48 @@ dashedName: sea-level-predictor
 
 # --description--
 
-Ви будете <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-sea-level-predictor/" target="_blank" rel="noopener noreferrer nofollow">працювати над цим проєктом з нашим стартовим кодом Gitpod</a>.
+You will be <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-sea-level-predictor/" target="_blank" rel="noopener noreferrer nofollow">working on this project with our Gitpod starter code</a>.
 
-Ми досі розробляємо інтерактивну частину навчальної програми з Python. Наразі є декілька відео на ютуб-каналі freeCodeCamp.org, які навчать всього необхідного для виконання цього проєкту:
+We are still developing the interactive instructional part of the Python curriculum. For now, here are some videos on the freeCodeCamp.org YouTube channel that will teach you everything you need to know to complete this project:
 
-- <a href="https://www.freecodecamp.org/news/python-for-everybody/" target="_blank" rel="noopener noreferrer nofollow">Python for Everybody Video Course</a> (14 годин)
+- <a href="https://www.freecodecamp.org/news/python-for-everybody/" target="_blank" rel="noopener noreferrer nofollow">Python for Everybody Video Course</a> (14 hours)
 
-- <a href="https://www.freecodecamp.org/news/how-to-analyze-data-with-python-pandas/" target="_blank" rel="noopener noreferrer nofollow">How to Analyze Data with Python Pandas</a> (10 годин)
+- <a href="https://www.freecodecamp.org/news/how-to-analyze-data-with-python-pandas/" target="_blank" rel="noopener noreferrer nofollow">How to Analyze Data with Python Pandas</a> (10 hours)
 
 # --instructions--
 
-Ви проаналізуєте набір даних про зміни середнього рівня моря на планеті з 1880 року. Ви використаєте дані, щоб передбачити зміни рівня моря до 2050 року.
+You will analyze a dataset of the global average sea level change since 1880. You will use the data to predict the sea level change through year 2050.
 
-Використайте дані для виконання наступних завдань:
+Use the data to complete the following tasks:
 
-- Використайте Pandas для імпорту даних з `epa-sea-level.csv`.
-- Використайте matplotlib, щоб створити діаграму розсіювання, використовуючи стовпчик `Year` як вісь X та стовпчик `CSIRO Adjusted Sea Level` як вісь Y.
-- Використайте функцію `linregress` із `scipy.stats`, щоб отримати нахил та Y-перехоплення лінії, яка найкраще підходить. Нанесіть лінію, яка найкраще підходить, поверх діаграми розсіювання. Проведіть лінію через 2050 рік, щоб передбачити підвищення рівня моря в 2050 році.
-- Побудуйте нову лінію, яка найкраще підходить, просто використовуючи дані з 2000 року до найновішого року в наборі даних. Зробіть так, щоб лінія також проходила через 2050 рік, щоб передбачити підвищення рівня моря в 2050 році, якщо темпи підвищення триватимуть, як це було з 2000 року.
-- Міткою X повинна бути `Year`, міткою Y повинна бути `Sea Level (inches)`, а назвою повинна бути `Rise in Sea Level`.
+- Use Pandas to import the data from `epa-sea-level.csv`.
+- Use matplotlib to create a scatter plot using the `Year` column as the x-axis and the `CSIRO Adjusted Sea Level` column as the y-axis.
+- Use the `linregress` function from `scipy.stats` to get the slope and y-intercept of the line of best fit. Plot the line of best fit over the top of the scatter plot. Make the line go through the year 2050 to predict the sea level rise in 2050.
+- Plot a new line of best fit just using the data from year 2000 through the most recent year in the dataset. Make the line also go through the year 2050 to predict the sea level rise in 2050 if the rate of rise continues as it has since the year 2000.
+- The x label should be `Year`, the y label should be `Sea Level (inches)`, and the title should be `Rise in Sea Level`.
 
-Шаблон також містить команди для збереження та повернення зображення.
+The boilerplate also includes commands to save and return the image.
 
-## Розробка
+## Development
 
-Напишіть свій код в `sea_level_predictor.py`. Для розробки ви можете використати `main.py`, щоб протестувати свій код.
+Write your code in `sea_level_predictor.py`. For development, you can use `main.py` to test your code.
 
-## Тестування
+## Testing
 
-Модульні тести для цього проєкту знаходяться в `test_module.py`. Ми перенесли тести з `test_module.py` в `main.py` для вашої зручності.
+The unit tests for this project are in `test_module.py`. We imported the tests from `test_module.py` to `main.py` for your convenience.
 
-## Надсилання
+## Submitting
 
-Скопіюйте URL-адресу свого проєкту та відправте її до freeCodeCamp.
+Copy your project's URL and submit it to freeCodeCamp.
 
-## Джерело даних
+## Data Source
 
-<a href="https://datahub.io/core/sea-level-rise" target="_blank" rel="noopener noreferrer nofollow">Глобальна зміна середнього абсолютного рівня моря</a>, 1880-2014 від Агентства з охорони навколишнього середовища США з використанням даних CSIRO, 2015; NOAA, 2015.
+<a href="https://datahub.io/core/sea-level-rise" target="_blank" rel="noopener noreferrer nofollow">Global Average Absolute Sea Level Change</a>, 1880-2014 from the US Environmental Protection Agency using data from CSIRO, 2015; NOAA, 2015.
 
 
 # --hints--
 
-Проєкт повинен пройти усі тести Python.
+It should pass all Python tests.
 
 ```js
 

@@ -1,6 +1,6 @@
 ---
 id: 5900f4151000cf542c50ff27
-title: '問題 168: 数の循環'
+title: 'Problem 168: Number Rotations'
 challengeType: 1
 forumTopicId: 301802
 dashedName: problem-168-number-rotations
@@ -8,23 +8,23 @@ dashedName: problem-168-number-rotations
 
 # --description--
 
-142857 という数について考えます。 最下位の数字 (7) を最上位に移すことによりこの数を右に循環させると、714285 が得られます。
+Consider the number 142857. We can right-rotate this number by moving the last digit (7) to the front of it, giving us 714285.
 
-$714285 = 5 × 142857$ であることを確認できます。
+It can be verified that $714285 = 5 × 142857$.
 
-これは、右に循環させた数の約数であるという、142857 が持つ珍しい性質を示しています。
+This demonstrates an unusual property of 142857: it is a divisor of its right-rotation.
 
-$a$ 桁と $b$ 桁の整数について、すべての整数 $n$ ($10^a &lt; n &lt; 10^b$) の和の最後の 5 桁がこの性質を持つものを求めなさい。
+For integer number of digits $a$ and $b$, find the last 5 digits of the sum of all integers $n$, $10^a &lt; n &lt; 10^b$, that have this property.
 
 # --hints--
 
-`numberRotations(2, 10)` は `98311` を返す必要があります。
+`numberRotations(2, 10)` should return `98311`.
 
 ```js
 assert.strictEqual(numberRotations(2, 10), 98311);
 ```
 
-`numberRotations(2, 100)` は `59206` を返す必要があります。
+`numberRotations(2, 100)` should return `59206`.
 
 ```js
 assert.strictEqual(numberRotations(2, 100), 59206);

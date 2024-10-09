@@ -1,6 +1,6 @@
 ---
 id: 5900f4071000cf542c50ff19
-title: 'Problem 154: Erforschung der Pascalschen Pyramide'
+title: 'Problem 154: Exploring Pascal''s pyramid'
 challengeType: 1
 forumTopicId: 301785
 dashedName: problem-154-exploring-pascals-pyramid
@@ -10,17 +10,17 @@ dashedName: problem-154-exploring-pascals-pyramid
 
 A triangular pyramid is constructed using spherical balls so that each ball rests on exactly three balls of the next lower level.
 
-<img alt="dreieckige Pyramide konstruiert mit kugelförmige Kugeln mit vier Ebenen" src="https://cdn.freecodecamp.org/curriculum/project-euler/exploring-pascals-pyramid.png" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
+<img alt="triangular pyramid constructed using spherical balls with four levels" src="https://cdn.freecodecamp.org/curriculum/project-euler/exploring-pascals-pyramid.png" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-Dann berechnen wir die Anzahl der Pfade, die vom Scheitelpunkt zu jeder Position führen: Ein Pfad beginnt am Scheitelpunkt und verläuft nach unten zu einer der drei Kugeln direkt unter der aktuellen Position. Folglich ist die Anzahl der Wege, um eine bestimmte Position zu erreichen, die Summe der Zahlen direkt darüber (je nach Position gibt es bis zu drei Zahlen darüber).
+Then, we calculate the number of paths leading from the apex to each position: A path starts at the apex and progresses downwards to any of the three spheres directly below the current position. Consequently, the number of paths to reach a certain position is the sum of the numbers immediately above it (depending on the position, there are up to three numbers above it).
 
-Das Ergebnis ist die Pascalsche Pyramide, und die Zahlen auf jeder Ebene n sind die Koeffizienten der Trinomialentwicklung ${(x + y + z)}^n$.
+The result is Pascal's pyramid and the numbers at each level n are the coefficients of the trinomial expansion ${(x + y + z)}^n$.
 
-Wie viele Koeffizienten in der Entwicklung von ${(x + y + z)}^{200000}$ sind Vielfache von ${10}^{12}$?
+How many coefficients in the expansion of ${(x + y + z)}^{200000}$ are multiples of ${10}^{12}$?
 
 # --hints--
 
-`pascalsPyramid()` sollte `479742450` zurückgeben.
+`pascalsPyramid()` should return `479742450`.
 
 ```js
 assert.strictEqual(pascalsPyramid(), 479742450);

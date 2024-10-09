@@ -1,6 +1,6 @@
 ---
 id: 587d7b89367417b2b2512b49
-title: Verwende die Destrukturierungszuweisung, um Variablen von Objekten zuzuweisen
+title: Use Destructuring Assignment to Assign Variables from Objects
 challengeType: 1
 forumTopicId: 301215
 dashedName: use-destructuring-assignment-to-assign-variables-from-objects
@@ -8,29 +8,29 @@ dashedName: use-destructuring-assignment-to-assign-variables-from-objects
 
 # --description--
 
-Die Destrukturierung ermöglicht es dir, beim Extrahieren von Werten einen neuen Variablennamen zu vergeben. Du kannst dies tun, indem du den neuen Namen bei der Zuweisung des Wertes nach einem Doppelpunkt setzt.
+Destructuring allows you to assign a new variable name when extracting values. You can do this by putting the new name after a colon when assigning the value.
 
-Verwende das gleiche Objekt wie im letzten Beispiel:
+Using the same object from the last example:
 
 ```js
 const user = { name: 'John Doe', age: 34 };
 ```
 
-So kannst du neue Variablennamen in der Zuweisung vergeben:
+Here's how you can give new variable names in the assignment:
 
 ```js
 const { name: userName, age: userAge } = user;
 ```
 
-Du kannst es so lesen: "Hole den Wert von `user.name` und weise ihn einer neuen Variablen namens `userName` zu" und so weiter. Der Wert von `userName` wäre der String `John Doe`, und der Wert von `userAge` wäre die Zahl `34`.
+You may read it as "get the value of `user.name` and assign it to a new variable named `userName`" and so on. The value of `userName` would be the string `John Doe`, and the value of `userAge` would be the number `34`.
 
 # --instructions--
 
-Ersetze die beiden Zuweisungen durch eine gleichwertige Destrukturierungszuweisung. Es sollte den Variablen `highToday` und `highTomorrow` noch die Werte von `today` und `tomorrow` aus dem Objekt `HIGH_TEMPERATURES` zugewiesen werden.
+Replace the two assignments with an equivalent destructuring assignment. It should still assign the variables `highToday` and `highTomorrow` the values of `today` and `tomorrow` from the `HIGH_TEMPERATURES` object.
 
 # --hints--
 
-Du solltest die ES5-Zuweisungssyntax entfernen.
+You should remove the ES5 assignment syntax.
 
 ```js
 assert(
@@ -39,7 +39,7 @@ assert(
 );
 ```
 
-Du solltest die Destrukturierung verwenden, um die Variable `highToday` zu erstellen.
+You should use destructuring to create the `highToday` variable.
 
 ```js
 assert(
@@ -49,7 +49,7 @@ assert(
 );
 ```
 
-Du solltest die Destrukturierung verwenden, um die Variable `highTomorrow` zu erstellen.
+You should use destructuring to create the `highTomorrow` variable.
 
 ```js
 assert(
@@ -59,7 +59,7 @@ assert(
 );
 ```
 
-`highToday` sollte gleich `77` sein und `highTomorrow` sollte gleich `80` sein.
+`highToday` should be equal to `77` and `highTomorrow` should be equal to `80`.
 
 ```js
 assert(highToday === 77 && highTomorrow === 80);

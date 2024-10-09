@@ -1,6 +1,6 @@
 ---
 id: 587d7b83367417b2b2512b37
-title: Comprendere le differenze tra la console di freeCodeCamp e quella del Browser
+title: Understanding the Differences between the freeCodeCamp and Browser Console
 challengeType: 1
 forumTopicId: 301193
 dashedName: understanding-the-differences-between-the-freecodecamp-and-browser-console
@@ -8,25 +8,25 @@ dashedName: understanding-the-differences-between-the-freecodecamp-and-browser-c
 
 # --description--
 
-Potresti aver notato che alcune sfide di freeCodeCamp includono la propria console. Questa console si comporta in modo leggermente diverso rispetto alla console del browser.
+You may have noticed that some freeCodeCamp challenges include their own console. This console behaves a little differently than the browser console.
 
-Ci sono molti metodi che possono essere usati con `console` per scrivere messaggi sulla console. Alcuni di questi sono `log`, `warn`, e `clear`. Sulla console freeCodeCamp verranno scritti solo messaggi log `log`, mentre sulla console del browser tutti i messaggi. Quando fai modifiche al tuo codice, questo eseguirà automaticamente e mostrerà i log sulla console. La console di freeCodeCamp viene svuotata ogni volta che il tuo codice esegue.
+There are many methods to use with `console` to output messages. `log`, `warn`, and `clear` to name a few. The freeCodeCamp console will only output `log` messages, while the browser console will output all messages. When you make changes to your code, it will automatically run and show the logs. The freeCodeCamp console is then cleared each time your code runs.
 
 # --instructions--
 
-Per prima cosa, apri la console del tuo browser affinché tu possa vedere il log. Per farlo, puoi cliccare con il taso destro la barra di navigazione di freeCodeCamp in cima alla pagina e cliccare `inspect` (o "Ispeziona") nella maggior parte dei browser. Quindi trova la scheda `console` nella finestra che si apre.
+First, open your browser console so you can see the logs. To do that, you can right-click the freeCodeCamp navigation bar at the top and click `inspect` on most browsers. Then find the `console` tab in the window that opens.
 
-Dopo questo, usa `console.log` per scrivere il valore della variabile `output` nella console. Guarda le due console per vedere il log. Infine, usa `console.clear` dopo il tuo log per pulire la console del browser. Vedi la differenza nelle due console.
+After that, use `console.log` to log the `output` variable. View the two consoles to see the log. Finally, use `console.clear` after your log to clear the browser console. View the difference in the two consoles.
 
 # --hints--
 
-Dovresti usare `console.log()` per visualizzare la variabile `output`.
+You should use `console.log()` to print the `output` variable.
 
 ```js
 assert(__helpers.removeWhiteSpace(__helpers.removeJSComments(code)).match(/console\.log\(output\)/));
 ```
 
-Dovresti usare `console.clear()` per cancellare la console del browser.
+You should use `console.clear()` to clear the browser console.
 
 ```js
 assert(
@@ -36,7 +36,7 @@ assert(
 );
 ```
 
-Dovresti pulire la console con `console.clear` dopo il tuo log.
+You should clear the console after your log.
 
 ```js
 assert(

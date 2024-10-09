@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9bedf08813
-title: Füge Rahmen rund um deine Elemente hinzu
+title: Add Borders Around Your Elements
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/c2MvnHZ'
 forumTopicId: 16630
@@ -9,9 +9,9 @@ dashedName: add-borders-around-your-elements
 
 # --description--
 
-CSS-Rahmen haben Eigenschaften wie `style`, `color` und `width`.
+CSS borders have properties like `style`, `color` and `width`.
 
-Wenn wir beispielsweise einen roten, 5 Pixel großen Rahmen um ein HTML-Element herum erstellen wollten, könnten wir diese Klasse verwenden:
+For example, if we wanted to create a red, 5 pixel border around an HTML element, we could use this class:
 
 ```html
 <style>
@@ -25,9 +25,9 @@ Wenn wir beispielsweise einen roten, 5 Pixel großen Rahmen um ein HTML-Element 
 
 # --instructions--
 
-Erstelle eine Klasse mit dem Namen `thick-green-border`. Diese Klasse soll einen 10px breiten, durchgezogenen, grünen Rahmen um ein HTML-Element hinzufügen. Wende die Klasse auf dein Katzenfoto an.
+Create a class called `thick-green-border`. This class should add a 10px, solid, green border around an HTML element. Apply the class to your cat photo.
 
-Denke daran, dass du mehrere Klassen auf ein Element anwenden kannst, indem du das Attribut `class` verwendest und jeden Klassennamen mit einem Leerzeichen trennst. Zum Beispiel:
+Remember that you can apply multiple classes to an element using its `class` attribute, by separating each class name with a space. For example:
 
 ```html
 <img class="class1 class2">
@@ -35,19 +35,19 @@ Denke daran, dass du mehrere Klassen auf ein Element anwenden kannst, indem du d
 
 # --hints--
 
-Dein `img`-Element sollte die Klasse `smaller-image` enthalten.
+Your `img` element should have the class `smaller-image`.
 
 ```js
 assert($('img').hasClass('smaller-image'));
 ```
 
-Dein `img`-Element sollte die Klasse `thick-green-border` enthalten.
+Your `img` element should have the class `thick-green-border`.
 
 ```js
 assert($('img').hasClass('thick-green-border'));
 ```
 
-Dein Bild sollte eine Rahmenbreite von `10px` haben.
+Your image should have a border width of `10px`.
 
 ```js
 assert(
@@ -57,13 +57,13 @@ assert(
 );
 ```
 
-Dein Bild sollte den Rahmenstil `solid` besitzen.
+Your image should have a border style of `solid`.
 
 ```js
 assert($('img').css('border-right-style') === 'solid');
 ```
 
-Der Rahmen um dein `img`-Element sollte grün sein.
+The border around your `img` element should be green.
 
 ```js
 assert($('img').css('border-left-color') === 'rgb(0, 128, 0)');

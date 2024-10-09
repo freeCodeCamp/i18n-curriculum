@@ -16,7 +16,7 @@ The last challenge showed how the `@for` directive uses a starting and ending va
 }
 ```
 
-A map has slightly different syntax. Hapa kuna mfano:
+A map has slightly different syntax. Here's an example:
 
 ```scss
 $colors: (color1: blue, color2: red, color3: green);

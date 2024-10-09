@@ -1,6 +1,6 @@
 ---
 id: 587d781b367417b2b2512abc
-title: Налаштування властивості фонового кольору тексту
+title: Adjust the background-color Property of Text
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cEDqwA6'
 forumTopicId: 301032
@@ -9,23 +9,23 @@ dashedName: adjust-the-background-color-property-of-text
 
 # --description--
 
-Замість того, щоб налаштовувати загальний фон чи колір тексту, аби передній план легко читався, ви можете додати `background-color` до елемента з текстом, який хочете підкреслити. В цьому завданні використовується код `rgba()` замість `hex` чи стандартного `rgb()`.
+Instead of adjusting your overall background or the color of the text to make the foreground easily readable, you can add a `background-color` to the element holding the text you want to emphasize. This challenge uses `rgba()` instead of `hex` codes or normal `rgb()`.
 
-<blockquote>rgba означає:<br>  r = red (червоний)<br>  g = green (зелений)<br>  b = blue (синій)<br>  a = alpha/рівень непрозорості</blockquote>
+<blockquote>rgba stands for:<br>  r = red<br>  g = green<br>  b = blue<br>  a = alpha/level of opacity</blockquote>
 
-Значення RGB можуть змінюватися в діапазоні від 0 до 255. Значення альфа може змінюватися від 1, коли колір повністю непрозорий або суцільний, до 0, коли колір стає повністю прозорий і виразний. `rgba()` чудово підходить в цій ситуації, оскільки дозволяє вам налаштувати непрозорість. Це значить, що вам не треба повністю загороджувати фон.
+The RGB values can range from 0 to 255. The alpha value can range from 1, which is fully opaque or a solid color, to 0, which is fully transparent or clear. `rgba()` is great to use in this case, as it allows you to adjust the opacity. This means you don't have to completely block out the background.
 
-В цьому завданні вам слід використати `background-color: rgba(45, 45, 45, 0.1)`. Це створить темно-сірий колір, який буде майже прозорим через низький рівень непрозорості.
+You'll use `background-color: rgba(45, 45, 45, 0.1)` for this challenge. It produces a dark gray color that is nearly transparent given the low opacity value of 0.1.
 
 # --instructions--
 
-Щоб текст більше виділявся, поміняйте властивість `background-color` елемента `h4` на дане значення `rgba()`.
+To make the text stand out more, adjust the `background-color` of the `h4` element to the given `rgba()` value.
 
-Також видаліть в `h4` властивість `height` та додайте `padding` з 10px.
+Also for the `h4`, remove the `height` property and add `padding` of 10px.
 
 # --hints--
 
-Ваш код повинен додати властивість `background-color` до елемента `h4` з налаштуванням `rgba(45, 45, 45, 0.1)`.
+Your code should add a `background-color` property to the `h4` element set to `rgba(45, 45, 45, 0.1)`.
 
 ```js
 assert(
@@ -35,7 +35,7 @@ assert(
 );
 ```
 
-Ваш код повинен додати властивість `padding` до елемента `h4` та налаштувати її до 10 пікселів.
+Your code should add a `padding` property to the `h4` element and set it to 10 pixels.
 
 ```js
 const h4Element = document.querySelector("h4"); 
@@ -46,7 +46,7 @@ assert.equal(h4style?.paddingBottom, "10px");
 assert.equal(h4style?.paddingLeft, "10px");
 ```
 
-Властивість `height` елемента `h4` потрібно видалити.
+The `height` property on the `h4` element should be removed.
 
 ```js
 const h4Element = document.querySelector("h4"); 

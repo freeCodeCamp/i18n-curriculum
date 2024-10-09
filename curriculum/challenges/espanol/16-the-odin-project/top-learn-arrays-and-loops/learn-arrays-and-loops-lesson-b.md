@@ -1,13 +1,13 @@
 ---
 id: 661e27568602567c118451d2
-title: Aprende arreglos y bucles lección B
+title: Learn Arrays and Loops Lesson B
 challengeType: 15
 dashedName: learn-arrays-and-loops-lesson-b
 ---
 
 # --description--
 
-Para acceder a los elementos de un arreglo, puedes usar el número de índice. El número de índice comienza desde 0, así que el primer elemento de un arreglo está en el índice 0, el segundo elemento está en el índice 1, y así sucesivamente.
+To access the elements of an array, you can use the index number. The index number starts from 0, so the first element of an array is at index 0, the second element is at index 1, and so on.
 
 For example, to access the first element of the `fruits` array, you can use the following code:
 

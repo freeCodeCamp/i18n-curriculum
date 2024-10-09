@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d4036149
-title: استخراج المنطقة المحلية (Local State) إلى Redux
+title: Extract Local State into Redux
 challengeType: 6
 forumTopicId: 301428
 dashedName: extract-local-state-into-redux
@@ -8,17 +8,17 @@ dashedName: extract-local-state-into-redux
 
 # --description--
 
-أنت على وشك الانتهاء! قم بالتذكير بأنك كتبت كل تعلمات Redux البرمجية بحيث يتمكن Redux من التحكم في إدارة حالة تطبيق React للرسائل الخاص بك. الآن بعد أن تم توصيل Redux، تحتاج إلى استخراج إدارة الحالة من مكون `Presentational` ومررها إلى Redux. حالياً، لديك Redux متصل، لكنك تتعامل مع الحالة محلياً ضمن مكون `Presentational`.
+You're almost done! Recall that you wrote all the Redux code so that Redux could control the state management of your React messages app. Now that Redux is connected, you need to extract the state management out of the `Presentational` component and into Redux. Currently, you have Redux connected, but you are handling the state locally within the `Presentational` component.
 
 # --instructions--
 
-في مكون `Presentational` أولاً، إزال خاصية `messages` في `state` المحلية. سيتم إدارة هذه الرسائل بواسطة Redux. بعد ذلك، عدل طريقة `submitMessage()` بحيث ترسل `submitNewMessage()` من `this.props`، ومرر في إدخال الرسالة الحالية من `state` كحاجة. لأنك إزالة `messages` من الحالة المحلية، إزالة خاصية `messages` من المكالمة إلى `this.setState()` هنا أيضا. وأخيرا، عدل طريقة `render()` بحيث تنشئ الرسائل الواردة من `props` بدلا من `state`.
+In the `Presentational` component, first, remove the `messages` property in the local `state`. These messages will be managed by Redux. Next, modify the `submitMessage()` method so that it dispatches `submitNewMessage()` from `this.props`, and pass in the current message input from local `state` as an argument. Because you removed `messages` from local state, remove the `messages` property from the call to `this.setState()` here as well. Finally, modify the `render()` method so that it maps over the messages received from `props` rather than `state`.
 
-بمجرد إجراء هذه التغييرات، ستستمر وظيفة التطبيق بنفس القدر، إلا أن Redux يدير الحالة. يوضح هذا المثال أيضًا كيف أن المكون قد يحتوي على `state` المحلية: مكونك لا يزال يتتبع إدخال المستخدم محليًا في `state` الخاصة به. يمكنك أن ترى كيف يوفر Redux أداة framework لإدارة الحالة مفيدة على رأس React. في البداية لقد حققت نفس النتيجة باستخدام حالة React المحلية فقط، وهذا ممكن عادة مع التطبيقات البسيطة. ومع ذلك، كلما أصبحت تطبيقاتك أكبر وأكثر تعقيدا، وكتلك إدارة حالتك، وهذه هي المشكلة في الحلول Redux.
+Once these changes are made, the app will continue to function the same, except Redux manages the state. This example also illustrates how a component may have local `state`: your component still tracks user input locally in its own `state`. You can see how Redux provides a useful state management framework on top of React. You achieved the same result using only React's local state at first, and this is usually possible with simple apps. However, as your apps become larger and more complex, so does your state management, and this is the problem Redux solves.
 
 # --hints--
 
-يجب أن ينشئ `AppWrapper` في الصفحة.
+The `AppWrapper` should render to the page.
 
 ```js
 assert(
@@ -29,7 +29,7 @@ assert(
 );
 ```
 
-يجب أن يقدم مكون `Presentational` في الصفحة.
+The `Presentational` component should render to page.
 
 ```js
 assert(
@@ -40,7 +40,7 @@ assert(
 );
 ```
 
-يجب أن ينشئ مكون `Presentational` عناصر `h2`، و `input`، و `button`، و `ul`.
+The `Presentational` component should render an `h2`, `input`, `button`, and `ul` elements.
 
 ```js
 assert(
@@ -57,7 +57,7 @@ assert(
 );
 ```
 
-يجب أن يتلقى مكون `Presentational` مِيزة (prop) باسم `messages` من متجر Redux.
+The `Presentational` component should receive `messages` from the Redux store as a prop.
 
 ```js
 assert(
@@ -70,7 +70,7 @@ assert(
 );
 ```
 
-يجب أن يتلقى مكون `Presentational` مِيزة (prop) على هيئة منشئ أجراء (action creator) باسم `submitMessage`.
+The `Presentational` component should receive the `submitMessage` action creator as a prop.
 
 ```js
 assert(
@@ -83,7 +83,7 @@ assert(
 );
 ```
 
-حالة مكون `Presentational` يجب أن تحتوي على خاصية واحدة، و`input`، الذي تم تهيئته إلى string فارغة.
+The state of the `Presentational` component should contain one property, `input`, which is initialized to an empty string.
 
 ```js
 assert(
@@ -100,7 +100,7 @@ assert(
 );
 ```
 
-الكتابة في عنصر `input` يجب أن حديث حالة `Presentational`.
+Typing in the `input` element should update the state of the `Presentational` component.
 
 ```js
 async () => {
@@ -124,7 +124,7 @@ async () => {
 };
 ```
 
-إرسال `submitMessage` على `Presentational` يجب أن يحديث متجر Redux ويمسح الإدخال (input) في الحالة (state) المحلية.
+Dispatching the `submitMessage` on the `Presentational` component should update Redux store and clear the input in local state.
 
 ```js
 async () => {
@@ -156,7 +156,7 @@ async () => {
 };
 ```
 
-يجب أن يكون مكون `Presentational` مِيزة (prop) باسم `messages` من متجر Redux.
+The `Presentational` component should render the `messages` from the Redux store.
 
 ```js
 async () => {

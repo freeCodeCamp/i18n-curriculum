@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedf08834
-title: Crea un conjunto de botones de radio
+title: Create a Set of Radio Buttons
 challengeType: 0
 forumTopicId: 16822
 dashedName: create-a-set-of-radio-buttons
@@ -8,15 +8,15 @@ dashedName: create-a-set-of-radio-buttons
 
 # --description--
 
-Puedes usar <dfn>botones de radio</dfn> para preguntas en las que quieres que el usuario solo te dé una respuesta a partir de múltiples opciones.
+You can use <dfn>radio buttons</dfn> for questions where you want the user to only give you one answer out of multiple options.
 
-Los botones de radio son un tipo de entrada `input`.
+Radio buttons are a type of `input`.
 
-Cada uno de tus botones de radio puede anidarse dentro de su propio elemento `label`. Envolver un elemento `input` dentro de un elemento `label` asociará automáticamente la entrada del botón de radio con el elemento label que lo rodea.
+Each of your radio buttons can be nested within its own `label` element. By wrapping an `input` element inside of a `label` element it will automatically associate the radio button input with the label element surrounding it.
 
-Todos los botones de radio relacionados deben tener el mismo atributo `name` para crear un grupo de botones de radio. Al crear un grupo de radio, si se selecciona cualquier botón de radio se deselecciona automáticamente los otros botones dentro del mismo grupo, asegurándose que el usuario proporcione solo una respuesta.
+All related radio buttons should have the same `name` attribute to create a radio button group. By creating a radio group, selecting any single radio button will automatically deselect the other buttons within the same group ensuring only one answer is provided by the user.
 
-Aquí hay un ejemplo de un botón de radio:
+Here's an example of a radio button:
 
 ```html
 <label> 
@@ -24,14 +24,14 @@ Aquí hay un ejemplo de un botón de radio:
 </label>
 ```
 
-Se considera buena práctica establecer un atributo `for` en el elemento `label`, con un valor que coincida con el valor del atributo `id` del elemento `input`. Esto permite a las tecnologías asistivas establecer una relación de vínculo entre la etiqueta y el elemento `input` relacionado. Por ejemplo:
+It is considered best practice to set a `for` attribute on the `label` element, with a value that matches the value of the `id` attribute of the `input` element. This allows assistive technologies to create a linked relationship between the label and the related `input` element. For example:
 
 ```html
 <input id="indoor" type="radio" name="indoor-outdoor">
 <label for="indoor">Indoor</label>
 ```
 
-También podemos anidar el elemento `input` dentro de las etiquetas `label`:
+We can also nest the `input` element within the `label` tags:
 
 ```html
 <label for="indoor"> 
@@ -41,29 +41,29 @@ También podemos anidar el elemento `input` dentro de las etiquetas `label`:
 
 # --instructions--
 
-Añade un par de botones de radio a tu formulario, cada uno de ellos anidado en su propio elemento `label`. Uno debe tener la opción de `indoor` y el otro debe tener la opción de `outdoor`. Ambos deben compartir el atributo `name` de `indoor-outdoor` para crear un grupo de radio.
+Add a pair of radio buttons to your form, each nested in its own `label` element. One should have the option of `indoor` and the other should have the option of `outdoor`. Both should share the `name` attribute of `indoor-outdoor` to create a radio group.
 
 # --hints--
 
-Tu página debe tener dos elementos de botón de `radio`.
+Your page should have two `radio` button elements.
 
 ```js
 assert($('input[type="radio"]').length > 1);
 ```
 
-Tus botones de radio deben poseer el atributo `name` con el valor `indoor-outdoor`.
+Your radio buttons should be given the `name` attribute of `indoor-outdoor`.
 
 ```js
 assert($('input[type="radio"]').filter("[name='indoor-outdoor']").length > 1);
 ```
 
-Cada uno de tus dos elementos de botón de radio debe estar anidado en su propio elemento `label`.
+Each of your two radio button elements should be nested in its own `label` element.
 
 ```js
 assert($('label > input[type="radio"]:only-child').length > 1);
 ```
 
-Cada uno de tus elementos `label` debe tener una etiqueta de cierre.
+Each of your `label` elements should have a closing tag.
 
 ```js
 assert(
@@ -73,7 +73,7 @@ assert(
 );
 ```
 
-Uno de tus botones de radio debe tener la etiqueta `indoor`.
+One of your radio buttons should have the label `indoor`.
 
 ```js
 assert(
@@ -83,7 +83,7 @@ assert(
 );
 ```
 
-Uno de tus botones de radio debe tener la etiqueta `outdoor`.
+One of your radio buttons should have the label `outdoor`.
 
 ```js
 assert(
@@ -93,7 +93,7 @@ assert(
 );
 ```
 
-Cada uno de tus elementos de botón de radio debe ser agregado dentro de la etiqueta `form`.
+Each of your radio button elements should be added within the `form` tag.
 
 ```js
 assert($('label').parent().get(0).tagName.match('FORM'));

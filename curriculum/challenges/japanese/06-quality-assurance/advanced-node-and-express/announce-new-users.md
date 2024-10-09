@@ -1,6 +1,6 @@
 ---
 id: 589fc832f9fc0f352b528e78
-title: 新しいユーザーを通知する
+title: Announce New Users
 challengeType: 2
 forumTopicId: 301546
 dashedName: announce-new-users
@@ -8,7 +8,7 @@ dashedName: announce-new-users
 
 # --description--
 
-多くのチャットルームは、ユーザーが接続または切断したときに、チャットにいる他のすべての接続中ユーザーにそのことを通知して表示することができます。 接続時と切断時にすでにイベントをエミットしているはずなので、このような機能をサポートするようにこのイベントを変更するだけです。 The most logical way of doing so is sending 3 pieces of data with the event: the username of the user who connected/disconnected, the current user count, and if that username connected or disconnected.
+Many chat rooms are able to announce when a user connects or disconnects and then display that to all of the connected users in the chat. Seeing as though you already are emitting an event on connect and disconnect, you will just have to modify this event to support such a feature. The most logical way of doing so is sending 3 pieces of data with the event: the username of the user who connected/disconnected, the current user count, and if that username connected or disconnected.
 
 Change the event name to `'user'`, and pass an object along containing the fields `username`, `currentUsers`, and `connected` (to be `true` in case of connection, or `false` for disconnection of the user sent). Be sure to change both `'user count'` events and set the disconnect one to send `false` for the field `connected` instead of `true` like the event emitted on connect.
 
@@ -20,9 +20,9 @@ io.emit('user', {
 });
 ```
 
-これで必要なすべての情報がクライアントに揃い、ユーザーが接続または切断したときに現在のユーザー数と通知が正しく表示されます！ クライアント側でこのイベントを処理するには、`'user'` をリッスンし、それから jQuery を使用して現在のユーザー数を更新し、`#num-users` のテキストを `'{NUMBER} users online'` に変更する必要があります。また、id が `messages` の順序なしリストに、`'{NAME} has {joined/left} the chat.'` という内容の `<li>` を追加します。
+Now your client will have all the necessary information to correctly display the current user count and announce when a user connects or disconnects! To handle this event on the client side we should listen for `'user'`, then update the current user count by using jQuery to change the text of `#num-users` to `'{NUMBER} users online'`, as well as append a `<li>` to the unordered list with id `messages` with `'{NAME} has {joined/left} the chat.'`.
 
-この実装は次のようになります。
+An implementation of this could look like the following:
 
 ```js
 socket.on('user', data => {
@@ -34,7 +34,7 @@ socket.on('user', data => {
 });
 ```
 
-正しいと思ったら、ページを送信してください。 エラーが発生している場合、<a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135/3#announce-new-users-10" target="_blank" rel="noopener noreferrer nofollow">この時点までの完成形のコードをこちらで確認できます</a>。
+Submit your page when you think you've got it right. If you're running into errors, you can check out <a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135/3#announce-new-users-10" target="_blank" rel="noopener noreferrer nofollow">the project completed up to this point </a>.
 
 # --hints--
 
@@ -54,7 +54,7 @@ async (getUserInput) => {
 }
 ```
 
-クライアントは、イベント `'user'` の新しいデータを適切に処理して表示する必要があります。
+Client should properly handle and display the new data from event `'user'`.
 
 ```js
 async (getUserInput) => {

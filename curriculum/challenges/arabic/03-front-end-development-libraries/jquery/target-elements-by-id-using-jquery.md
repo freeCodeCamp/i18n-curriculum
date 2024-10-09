@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aeda08826
-title: أستهدف عناصر بواسطة المعرف باستخدام jQuery
+title: Target Elements by id Using jQuery
 challengeType: 6
 forumTopicId: 18317
 required:
@@ -11,15 +11,15 @@ dashedName: target-elements-by-id-using-jquery
 
 # --description--
 
-يمكنك أيضا استهداف العناصر بطريقة سماتها المعرفية.
+You can also target elements by their id attributes.
 
-أولا، أستهدف عناصر `button` مع الفئة `target3` باستخدام منتقي `$("#target3")`.
+First target your `button` element with the id `target3` by using the `$("#target3")` selector.
 
-لاحظ ذلك، تماما مثل إعلانات CSS، يمكنك كتابة `#` قبل اسم المُعرف.
+Note that, just like with CSS declarations, you type a `#` before the id's name.
 
-ثم استخدم وظيفة jQuery باسم `.addClass()` لإضافة الفئات `animated` و `fadeOut`.
+Then use jQuery's `.addClass()` function to add the classes `animated` and `fadeOut`.
 
-إليك كيف ستجعل عنصر `button` مع معرف `target6` يتلاشى:
+Here's how you'd make the `button` element with the id `target6` fade out:
 
 ```js
 $("#target6").addClass("animated fadeOut");
@@ -27,13 +27,13 @@ $("#target6").addClass("animated fadeOut");
 
 # --hints--
 
-يجب عليك تحديد عنصر `button` مع `id` باسم `target3` واستخدام وظيفة jQuery باسم `addClass()` لإعطائه فئة `animated`.
+You should select the `button` element with the `id` of `target3` and use the jQuery `addClass()` function to give it the class of `animated`.
 
 ```js
 assert($('#target3').hasClass('animated'));
 ```
 
-يجب عليك تحديد عنصر تحتوي على معرف باسم `target3` واستخدام وظيفة jQuery باسم `addClass()` لإعطائه فئة `fadeOut`.
+You should target the element with the id `target3` and use the jQuery `addClass()` function to give it the class `fadeOut`.
 
 ```js
 assert(
@@ -42,7 +42,7 @@ assert(
 );
 ```
 
-يجب عليك استخدام jQuery فقط لإضافة هذه الفئات إلى العنصر.
+You should only use jQuery to add these classes to the element.
 
 ```js
 assert(!code.match(/class.*animated/g));

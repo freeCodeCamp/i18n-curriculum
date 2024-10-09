@@ -1,6 +1,6 @@
 ---
 id: 5690307fddb111c6084545d7
-title: Ordine logico nelle istruzioni If/Else
+title: Logical Order in If Else Statements
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cwNvMUV'
 forumTopicId: 18228
@@ -9,13 +9,13 @@ dashedName: logical-order-in-if-else-statements
 
 # --description--
 
-L'ordine è importante nelle istruzioni `if`, `else if`.
+Order is important in `if`, `else if` statements.
 
-La funzione viene eseguita dall'alto verso il basso, quindi dovrai fare attenzione a quale istruzione viene prima.
+The function is executed from top to bottom so you will want to be careful of what statement comes first.
 
-Prendiamo queste due funzioni come esempio.
+Take these two functions as an example.
 
-Ecco la prima:
+Here's the first:
 
 ```js
 function foo(x) {
@@ -29,7 +29,7 @@ function foo(x) {
 }
 ```
 
-E la secondo cambia semplicemente l'ordine delle dichiarazioni:
+And the second just switches the order of the statements:
 
 ```js
 function bar(x) {
@@ -43,34 +43,34 @@ function bar(x) {
 }
 ```
 
-Anche se queste due funzioni sembrano quasi identiche, se passiamo un numero ad entrambe otterremo output diversi.
+While these two functions look nearly identical if we pass a number to both we get different outputs.
 
 ```js
 foo(0)
 bar(0)
 ```
 
-`foo(0)` restituirà la stringa `Less than one`, e `bar(0)` restituirà la stringa `Less than two`.
+`foo(0)` will return the string `Less than one`, and `bar(0)` will return the string `Less than two`.
 
 # --instructions--
 
-Cambia l'ordine della logica nella funzione in modo che restituisca le affermazioni corrette in tutti i casi.
+Change the order of logic in the function so that it will return the correct statements in all cases.
 
 # --hints--
 
-`orderMyLogic(4)` dovrebbe restituire la stringa `Less than 5`
+`orderMyLogic(4)` should return the string `Less than 5`
 
 ```js
 assert(orderMyLogic(4) === 'Less than 5');
 ```
 
-`orderMyLogic(6)` dovrebbe restituire la stringa `Less than 10`
+`orderMyLogic(6)` should return the string `Less than 10`
 
 ```js
 assert(orderMyLogic(6) === 'Less than 10');
 ```
 
-`orderMyLogic(11)` dovrebbe restituire la stringa `Greater than or equal to 10`
+`orderMyLogic(11)` should return the string `Greater than or equal to 10`
 
 ```js
 assert(orderMyLogic(11) === 'Greater than or equal to 10');

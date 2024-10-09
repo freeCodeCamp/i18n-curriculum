@@ -1,6 +1,6 @@
 ---
 id: 595671d4d2cdc305f0d5b36f
-title: 2つの配列からハッシュを作成する
+title: Hash from two arrays
 challengeType: 1
 forumTopicId: 302283
 dashedName: hash-from-two-arrays
@@ -10,7 +10,7 @@ dashedName: hash-from-two-arrays
 
 Given two arrays, create a hash object where the elements from one array (the keys) are linked to the elements of the other (the values).
 
-例:
+Example:
 
 ```js
 const firstArr = [1, 2, 3];
@@ -18,7 +18,7 @@ const secondArr = ["a", "b", "c"];
 const hashObj = arrToObj(firstArr, secondArr);
 ```
 
-上記の配列から作成されるハッシュオブジェクトは `{1: "a", 2: "b", 3: "c"}` となります。
+The hash object created from the arrays above will be `{1: "a", 2: "b", 3: "c"}`.
 
 # --hints--
 

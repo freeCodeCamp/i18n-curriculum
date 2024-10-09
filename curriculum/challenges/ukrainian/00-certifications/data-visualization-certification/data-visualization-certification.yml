@@ -1,22 +1,21 @@
----
 id: 5a553ca864b52e1d8bceea14
-title: Сертифікація «Унаочнювання даних»
+title: Data Visualization Certification
 certification: data-visualization
 challengeType: 7
 isPrivate: true
 tests:
   - 
     id: bd7168d8c242eddfaeb5bd13
-    title: Візуалізуйте дані з допомогою стовпчикової діаграми
+    title: Visualize Data with a Bar Chart
   - 
     id: bd7178d8c242eddfaeb5bd13
-    title: Візуалізуйте дані з допомогою точкової діаграми
+    title: Visualize Data with a Scatterplot Graph
   - 
     id: bd7188d8c242eddfaeb5bd13
-    title: Візуалізуйте дані з допомогою теплокарти
+    title: Visualize Data with a Heat Map
   - 
     id: 587d7fa6367417b2b2512bbf
-    title: Візуалізуйте дані з допомогою хороплета
+    title: Visualize Data with a Choropleth Map
   - 
     id: 587d7fa6367417b2b2512bc0
-    title: Візуалізуйте дані з допомогою деревової діаграми
+    title: Visualize Data with a Treemap Diagram

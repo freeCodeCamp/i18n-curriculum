@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d403614a
-title: ما بعد ذالك
+title: Moving Forward From Here
 challengeType: 6
 forumTopicId: 301434
 dashedName: moving-forward-from-here
@@ -8,19 +8,19 @@ dashedName: moving-forward-from-here
 
 # --description--
 
-تهانينا! أنهيت الدروس في React و Redux. هناك عنصر أخير يستحق الإشارة قبل المضي قدما. عادة، لن تكتب تطبيقات React في محرر التعليمات البرمجية مثل ذلك. This challenge gives you a glimpse of what the syntax looks like if you're working with a file system on your own machine. يجب أن يبدو كود متشابه، باستثناء استخدام تعبيرات `import` (هذه تجذب في جميع التبعيات (dependencies) التي تم توفيرها لك في التحديات).
+Congratulations! You finished the lessons on React and Redux. There's one last item worth pointing out before you move on. Typically, you won't write React apps in a code editor like this. This challenge gives you a glimpse of what the syntax looks like if you're working with a file system on your own machine. The code should look similar, except for the use of `import` statements (these pull in all of the dependencies that have been provided for you in the challenges).
 
-وأخيرا، تتطلب كتابة تعليمات React و Redux البرمجية بعض الترتيب (configuration) عمومًا. وهذا يمكن أن يصبح معقدا بسرعة. إذا كنت مهتما بالتجربة على جهازك الخاص، فإن <a href="https://www.freecodecamp.org/news/install-react-with-create-react-app/" target="_blank" rel="noopener noreferrer nofollow">إنشاء تطبيق React</a> يتم تكوينه واستعداده للذهاب.
+Finally, writing React and Redux code generally requires some configuration. This can get complicated quickly. If you are interested in experimenting on your own machine, the <a href="https://www.freecodecamp.org/news/install-react-with-create-react-app/" target="_blank" rel="noopener noreferrer nofollow">Create React App</a> comes configured and ready to go.
 
-بدلاً من ذلك، يمكنك تمكين Babel كمعالج تمهيدي إلى JavaScript في CodePen، إضافة React و ReactDOM كموارد JavaScript خارجية، والعمل هناك أيضًا.
+Alternatively, you can enable Babel as a JavaScript Preprocessor in CodePen, add React and ReactDOM as external JavaScript resources, and work there as well.
 
 # --instructions--
 
-سجل الرسالة `'Now I know React and Redux!'` إلى وحدة التحكم.
+Log the message `'Now I know React and Redux!'` to the console.
 
 # --hints--
 
-الرسالة `Now I know React and Redux!` يجب تسجيل إلى وحدة التحكم.
+The message `Now I know React and Redux!` should be logged to the console.
 
 ```js
 (getUserInput) =>

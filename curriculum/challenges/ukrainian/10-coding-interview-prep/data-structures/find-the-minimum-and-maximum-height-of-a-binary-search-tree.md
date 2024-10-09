@@ -1,6 +1,6 @@
 ---
 id: 587d8257367417b2b2512c7d
-title: Знайдіть мінімальну та максимальну висоту в бінарному дереві пошуку
+title: Find the Minimum and Maximum Height of a Binary Search Tree
 challengeType: 1
 forumTopicId: 301641
 dashedName: find-the-minimum-and-maximum-height-of-a-binary-search-tree
@@ -8,19 +8,19 @@ dashedName: find-the-minimum-and-maximum-height-of-a-binary-search-tree
 
 # --description--
 
-У попередньому завданні ми описали ситуацію, коли бінарне дерево пошуку може стати незбалансованим. Щоб зрозуміти поняття балансу, розглянемо ще одну властивість дерева: його висоту. Висота дерева — це відстань від кореневого вузла до будь-якого заданого листового вузла. Різні шляхи в структурі дерева з великою кількістю гілок можуть мати неоднакову висоту, однак для наданого дерева існує мінімальна та максимальна висота. Якщо дерево збалансоване, ці значення будуть відрізнятися максимум на одиницю. Це означає, що у збалансованому дереві всі листові вузли або існують в межах одного рівня, або, якщо вони на різних рівнях, відрізняються щонайбільше на один рівень.
+In the last challenge we described a scenario in which a tree could become unbalanced. To understand the concept of balance, let's take a look at another tree property: height. Height in a tree represents the distance from the root node to any given leaf node. Different paths in a highly branched tree structure may have different heights, but for a given tree there will be a minimum and maximum height. If the tree is balanced, these values will differ at most by one. This means that in a balanced tree, all the leaf nodes exist within the same level, or if they are not within the same level they are at most one level apart.
 
-Баланс важливий для дерев, оскільки саме він визначає ефективність операцій на дереві. Згідно з поясненням в попередньому завданні, через незбалансовані дерева виникає найгірша часова складність. З цієї причини до дерев з динамічними даними часто використовують самозбалансовані дерева. До таких належать АВЛ-дерева, червоно-чорні дерева та Б-дерева. Усі ці типи дерев містять додаткову внутрішню логіку, яка перебалансовує дерево, коли вставка чи видалення елементів призводять до порушення балансу.
+The property of balance is important for trees because it is what determines the efficiency of tree operations. As we explained in the last challenge, we face worst case time complexity for heavily unbalanced trees. Self-balancing trees are commonly used to account for this issue in trees with dynamic data sets. Common examples of these include AVL trees, red-black trees, and B-trees. These trees all contain additional internal logic which re-balance the tree when insertions or deletions create a state of imbalance.
 
-**Примітка:** існує схожа властивість — глибина, яка позначає відстань від кореня до даного вузла.
+**Note:** A similar property to height is depth, which refers to how far a given node is from the root node.
 
 # --instructions--
 
-Напишіть два методи для нашого бінарного дерева: `findMinHeight` та `findMaxHeight`. Ці методи відповідно мають повернути ціле значення для мінімальної та максимальної висоти в наданому бінарному дереві. Якщо вузол порожній, призначте до нього висоту `-1` (базовий випадок). Вкінці додайте третій метод `isBalanced`, який повертає `true` або `false` залежно від того, чи дерево збалансоване. Щоб це визначити, можна застосувати перші два методи, які ви щойно написали.
+Write two methods for our binary tree: `findMinHeight` and `findMaxHeight`. These methods should return an integer value for the minimum and maximum height within a given binary tree, respectively. If the node is empty let's assign it a height of `-1` (that's the base case). Finally, add a third method `isBalanced` which returns `true` or `false` depending on whether the tree is balanced or not. You can use the first two methods you just wrote to determine this.
 
 # --hints--
 
-Має існувати структура даних `BinarySearchTree`.
+The `BinarySearchTree` data structure should exist.
 
 ```js
 assert(
@@ -34,7 +34,7 @@ assert(
 );
 ```
 
-Бінарне дерево пошуку повинне мати метод під назвою `findMinHeight`.
+The binary search tree should have a method called `findMinHeight`.
 
 ```js
 assert(
@@ -50,7 +50,7 @@ assert(
 );
 ```
 
-Бінарне дерево пошуку повинне мати метод під назвою `findMaxHeight`.
+The binary search tree should have a method called `findMaxHeight`.
 
 ```js
 assert(
@@ -66,7 +66,7 @@ assert(
 );
 ```
 
-Бінарне дерево пошуку повинне мати метод під назвою `isBalanced`.
+The binary search tree should have a method called `isBalanced`.
 
 ```js
 assert(
@@ -82,7 +82,7 @@ assert(
 );
 ```
 
-Метод `findMinHeight` має повернути мінімальну висоту дерева.
+The `findMinHeight` method should return the minimum height of the tree.
 
 ```js
 assert(
@@ -109,7 +109,7 @@ assert(
 );
 ```
 
-Метод `findMaxHeight` має повернути максимальну висоту дерева.
+The `findMaxHeight` method should return the maximum height of the tree.
 
 ```js
 assert(
@@ -136,7 +136,7 @@ assert(
 );
 ```
 
-Порожнє дерево має повернути висоту `-1`.
+An empty tree should return a height of `-1`.
 
 ```js
 assert(
@@ -155,7 +155,7 @@ assert(
 );
 ```
 
-Метод `isBalanced` має повернути `false`, якщо дерево є незбалансованим бінарним деревом пошуку.
+The `isBalanced` method should return `false` if the tree is an unbalanced binary search tree.
 
 ```js
 assert(
@@ -182,7 +182,7 @@ assert(
 );
 ```
 
-Метод `isBalanced` має повернути `true`, якщо дерево є збалансованим бінарним деревом пошуку.
+The `isBalanced` method should return `true` if the tree is a balanced binary search tree.
 
 ```js
 assert(

@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aede08845
-title: カスタムの見出しを作成する
+title: Create a Custom Heading
 challengeType: 0
 forumTopicId: 16816
 dashedName: create-a-custom-heading
@@ -8,17 +8,17 @@ dashedName: create-a-custom-heading
 
 # --description--
 
-猫の写真アプリのシンプルな見出しを作成してみましょう。和んでいる猫の画像とタイトルを同じ行に配置します。
+We will make a simple heading for our Cat Photo App by putting the title and relaxing cat image in the same row.
 
-Bootstrap ではレスポンシブなグリッドシステムが採用されているので、要素を行に配置して各要素の相対幅を指定することが簡単にできます。 Bootstrap のほとんどのクラスを `div` 要素に適用することができます。
+Remember, Bootstrap uses a responsive grid system, which makes it easy to put elements into rows and specify each element's relative width. Most of Bootstrap's classes can be applied to a `div` element.
 
-1 つ目の画像と `h2` 要素を 1 つの `<div class="row">` 要素の中に入れてください。 `h2` 要素を `<div class="col-xs-8">` の中に入れ、画像を `<div class="col-xs-4">` の中に入れて、それらが同じ行に配置されるようにしてください。
+Nest your first image and your `h2` element within a single `<div class="row">` element. Nest your `h2` element within a `<div class="col-xs-8">` and your image in a `<div class="col-xs-4">` so that they are on the same line.
 
-画像がテキストに合わせて適切なサイズになることを確認してください。
+Notice how the image is now just the right size to fit along the text?
 
 # --hints--
 
-`h2` 要素と一番上の `img` 要素の両方を、クラス `row` を持つ `div` 要素の中に入れます。
+Your `h2` element and topmost `img` element should both be nested together within a `div` element with the class `row`.
 
 ```js
 const row = document.querySelector('div.row');
@@ -28,7 +28,7 @@ assert.lengthOf(h2,1);
 assert.lengthOf(image ,1);
 ```
 
-一番上の `img` 要素を、クラス `col-xs-4` を持つ `div` の中に入れます。
+Your topmost `img` element should be nested within a `div` with the class `col-xs-4`.
 
 ```js
 const column = document.querySelector('div.col-xs-4');
@@ -38,7 +38,7 @@ assert.isEmpty(div);
 assert.lengthOf(img,1)
 ```
 
-`h2` 要素を、クラス `col-xs-8` を持つ `div` の中に入れます。
+Your `h2` element should be nested within a `div` with the class `col-xs-8`.
 
 ```js
 const column = document.querySelector('div.col-xs-8');
@@ -49,7 +49,7 @@ assert.isEmpty(div);
 assert.lengthOf(h2, 1);
 ```
 
-`div` 要素にはすべて終了タグが必要です。
+All of your `div` elements should have closing tags.
 
 ```js
 assert.match(code,/<\/div>/g);

@@ -1,6 +1,6 @@
 ---
 id: 594810f028c0303b75339ad2
-title: 矢量叉積
+title: Vector cross product
 challengeType: 1
 forumTopicId: 302342
 dashedName: vector-cross-product
@@ -12,23 +12,23 @@ A vector is defined as having three dimensions as being represented by an ordere
 
 # --instructions--
 
-編寫一個函數，將兩個向量（數組）作爲輸入並計算它們的叉積。 該函數應該在無效輸入（例如不同長度的向量）上返回 `null`。
+Write a function that takes two vectors (arrays) as input and computes their cross product. Your function should return `null` on invalid inputs such as vectors of different lengths.
 
 # --hints--
 
-`crossProduct` 應該是一個函數。
+`crossProduct` should be a function.
 
 ```js
 assert.equal(typeof crossProduct, 'function');
 ```
 
-`crossProduct()` 應該返回 null。
+`crossProduct()` should return null.
 
 ```js
 assert.equal(crossProduct(), null);
 ```
 
-`crossProduct([1, 2, 3], [4, 5, 6])` 應該返回 `[-3, 6, -3]`。
+`crossProduct([1, 2, 3], [4, 5, 6])` should return `[-3, 6, -3]`.
 
 ```js
 assert.deepEqual(res12, exp12);

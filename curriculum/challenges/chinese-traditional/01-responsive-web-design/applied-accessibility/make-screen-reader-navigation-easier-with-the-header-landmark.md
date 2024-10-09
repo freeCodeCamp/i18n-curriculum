@@ -1,6 +1,6 @@
 ---
 id: 587d7787367417b2b2512aa1
-title: 使用 header 元素來讓屏幕閱讀器更容易進行導航
+title: Make Screen Reader Navigation Easier with the header Landmark
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cB76vtv'
 forumTopicId: 301023
@@ -9,25 +9,25 @@ dashedName: make-screen-reader-navigation-easier-with-the-header-landmark
 
 # --description--
 
-`header` 也是一個具有語義化的、可以提升頁面可訪問性的 HTML5 標籤。 它可以爲父級標籤呈現簡介信息或者導航鏈接，適用於那些在多個頁面頂部重複出現的內容。
+The next HTML5 element that adds semantic meaning and improves accessibility is the `header` tag. It's used to wrap introductory information or navigation links for its parent tag and works well around content that's repeated at the top on multiple pages.
 
-與 `main` 類似，`header` 的語義化特性也可以讓輔助工具快速定位到它的內容。
+`header` shares the embedded landmark feature you saw with `main`, allowing assistive technologies to quickly navigate to that content.
 
-**注意：** `header` 應當在 HTML 文檔的 `body` 標籤內使用。 它與包含頁面標題、元信息的 `head` 標籤不同。
+**Note:** The `header` is meant for use in the `body` tag of your HTML document. It is different than the `head` element, which contains the page's title, meta information, etc.
 
 # --instructions--
 
-Camper Cat 正在創作一些訓練忍者的精彩文章，並打算爲這些文章創建一個新的頁面。 請把包含 `h1` 的 `div` 標籤替換爲 `header` 標籤。
+Camper Cat is writing some great articles about ninja training, and wants to add a page for them to his site. Change the top `div` that currently contains the `h1` to a `header` tag instead.
 
 # --hints--
 
-應該存在一個 `header` 標籤。
+Your code should have one `header` tag.
 
 ```js
 assert.lengthOf(document.querySelectorAll('header'),1);
 ```
 
-`header` 標籤中應包含 `h1`。
+Your `header` tags should wrap around the `h1`.
 
 ```js
 const header = document.querySelector('header');
@@ -35,13 +35,13 @@ const children = header?.querySelectorAll(`:scope ${'h1'}`);
 assert.lengthOf(children , 1);
 ```
 
-不應存在 `div` 標籤。
+Your code should not have any `div` tags.
 
 ```js
 assert.lengthOf(document.querySelectorAll('div') , 0);
 ```
 
-確保 `header` 標籤是閉合的。
+Your `header` element should have a closing tag.
 
 ```js
 assert.isTrue(code.match(/<\/header>/g)?.length === code.match(/<header>/g)?.length);

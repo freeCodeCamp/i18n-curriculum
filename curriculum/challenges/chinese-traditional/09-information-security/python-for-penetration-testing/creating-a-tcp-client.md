@@ -1,6 +1,6 @@
 ---
 id: 5ea9997bbec2e9bc47e94db0
-title: 創建一個 TCP 客戶端
+title: Creating a TCP Client
 challengeType: 11
 videoId: ugYfJNTawks
 bilibiliIds:
@@ -14,7 +14,7 @@ dashedName: creating-a-tcp-client
 
 ## --text--
 
-哪種套接字對象方法讓你設置客戶端一次接受的最大數據量？
+Which socket object method lets you set the maximum amount of data your client accepts at once?
 
 ## --answers--
 

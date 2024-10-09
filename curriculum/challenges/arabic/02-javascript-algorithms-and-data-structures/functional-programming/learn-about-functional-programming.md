@@ -1,6 +1,6 @@
 ---
 id: 587d7b8d367417b2b2512b5b
-title: تعلم عن البرمجة الوظيفية (Functional)
+title: Learn About Functional Programming
 challengeType: 1
 forumTopicId: 301233
 dashedName: learn-about-functional-programming
@@ -8,31 +8,31 @@ dashedName: learn-about-functional-programming
 
 # --description--
 
-يكون البرمجة الوظيفية (Functional) أسلوب للبرمجة فيه الحلول من الوظائف (functions) بسيطة ومنعزلة، دون أي تأثيرات جانبية خارج نطاق الوظيفة: `INPUT -> PROCESS -> OUTPUT`
+Functional programming is a style of programming where solutions are simple, isolated functions, without any side effects outside of the function scope: `INPUT -> PROCESS -> OUTPUT`
 
-تتعلق البرمجة الوظيفية (Functional) بما يلي:
+Functional programming is about:
 
-1) وظائف منعزلة (Isolated functions) - لا تعتمد على حالة البرنامَج، الذي يشمل المتغيرات الشاملة (global) القابلة للتغيير
+1) Isolated functions - there is no dependence on the state of the program, which includes global variables that are subject to change
 
-2) الوظائف الخالصة (Pure functions) - نفس الإدخال يعطي دائمًا نفس الإخراج
+2) Pure functions - the same input always gives the same output
 
-(3) الوظائف (functions) ذات التأثيرات الجانبية المحدودة - أي تغييرات أو تحولات في حالة البرنامَج خارج الوظيفة (function) تخضع للتحكم الدقيق
+3) Functions with limited side effects - any changes, or mutations, to the state of the program outside the function are carefully controlled
 
 # --instructions--
 
-يصادف أن أعضاء freeCodeCamp يحبون الشاي.
+The members of freeCodeCamp happen to love tea.
 
-في محرر الكود، تم تعريف وظيفتان (functions) تسمى `prepareTea` و `getTea` من أجلك فعلًا. أستدعي وظيفة `getTea` للحصول على 40 كوب من الشاي للفريق، وتخزينها في متغير `tea4TeamFCC`.
+In the code editor, the `prepareTea` and `getTea` functions are already defined for you. Call the `getTea` function to get 40 cups of tea for the team, and store them in the `tea4TeamFCC` variable.
 
 # --hints--
 
-يجب أن يحتوي متغير `tea4TeamFCC` على 40 كوب من الشاي للفريق.
+The `tea4TeamFCC` variable should hold 40 cups of tea for the team.
 
 ```js
 assert(tea4TeamFCC.length === 40);
 ```
 
-يجب أن يحتوي متغير `tea4TeamFCC` على أكواب الشاي الأخضر.
+The `tea4TeamFCC` variable should hold cups of green tea.
 
 ```js
 assert(tea4TeamFCC[0] === 'greenTea');

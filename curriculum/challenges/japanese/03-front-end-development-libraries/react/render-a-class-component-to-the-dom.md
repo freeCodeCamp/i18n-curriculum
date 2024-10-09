@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d4036167
-title: クラスコンポーネントを DOM にレンダーする
+title: Render a Class Component to the DOM
 challengeType: 6
 forumTopicId: 301404
 dashedName: render-a-class-component-to-the-dom
@@ -8,19 +8,19 @@ dashedName: render-a-class-component-to-the-dom
 
 # --description--
 
-前のチャレンジで、ReactDOM API を使用して JSX 要素を DOM にレンダーする例を紹介しました。 React コンポーネントのレンダーの処理も、よく似たものになります。 前のいくつかのチャレンジでは、コンポーネントとコンポジションを中心に説明していて、レンダーは舞台裏で行っていました。 しかし、ReactDOM API を呼び出さなければ、記述した React のコードは DOM にレンダーされません。
+You may remember using the ReactDOM API in an earlier challenge to render JSX elements to the DOM. The process for rendering React components will look very similar. The past few challenges focused on components and composition, so the rendering was done for you behind the scenes. However, none of the React code you write will render to the DOM without making a call to the ReactDOM API.
 
-新しい構文を次に示します: `ReactDOM.render(componentToRender, targetNode)`。 1 つ目の引数は、レンダーする React コンポーネントです。 2 つ目の引数は DOM ノードで、この中にコンポーネントをレンダーします。
+Here's a refresher on the syntax: `ReactDOM.render(componentToRender, targetNode)`. The first argument is the React component that you want to render. The second argument is the DOM node that you want to render that component within.
 
-React コンポーネントは、JSX 要素とは少し異なる形で `ReactDOM.render()` に渡されます。 JSX 要素の場合は、レンダーする要素の名前を渡します。 しかし React コンポーネントの場合は、ネストされたコンポーネントをレンダーする場合と同じ構文を使用する必要があります (例: `ReactDOM.render(<ComponentToRender />, targetNode)`)。 この構文は ES6 クラスコンポーネントの場合でも関数型コンポーネントの場合でも使用します。
+React components are passed into `ReactDOM.render()` a little differently than JSX elements. For JSX elements, you pass in the name of the element that you want to render. However, for React components, you need to use the same syntax as if you were rendering a nested component, for example `ReactDOM.render(<ComponentToRender />, targetNode)`. You use this syntax for both ES6 class components and functional components.
 
 # --instructions--
 
-`Fruits` コンポーネントと `Vegetables` コンポーネントをすでに定義してあります。 両方のコンポーネントを `TypesOfFood` コンポーネントの子としてレンダーし、`TypesOfFood` を DOM にレンダーしてください。 `id='challenge-node'` を持つ `div` を使用できます。
+Both the `Fruits` and `Vegetables` components are defined for you behind the scenes. Render both components as children of the `TypesOfFood` component, then render `TypesOfFood` to the DOM. There is a `div` with `id='challenge-node'` available for you to use.
 
 # --hints--
 
-`TypesOfFood` コンポーネントから単一の `div` 要素を返します。
+The `TypesOfFood` component should return a single `div` element.
 
 ```js
 assert(
@@ -31,7 +31,7 @@ assert(
 );
 ```
 
-`TypesOfFood` コンポーネントで、 `h1` 要素の後に `Fruits` コンポーネントをレンダーします。
+The `TypesOfFood` component should render the `Fruits` component after the `h1` element.
 
 ```js
 assert(
@@ -42,7 +42,7 @@ assert(
 );
 ```
 
-`TypesOfFood` コンポーネントで、 `Fruits` の後に `Vegetables` コンポーネントをレンダーします。
+The `TypesOfFood` component should render the `Vegetables` component after `Fruits`.
 
 ```js
 assert(
@@ -53,7 +53,7 @@ assert(
 );
 ```
 
-`TypesOfFood` コンポーネントを DOM にレンダーします。id `challenge-node` を持つ `div` の中にレンダーします。
+The `TypesOfFood` component should render to the DOM within the `div` with the id `challenge-node`.
 
 ```js
 assert(

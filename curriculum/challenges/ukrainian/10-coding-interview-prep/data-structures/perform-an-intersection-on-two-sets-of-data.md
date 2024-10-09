@@ -1,6 +1,6 @@
 ---
 id: 587d8253367417b2b2512c6d
-title: Перетин двох множин даних
+title: Perform an Intersection on Two Sets of Data
 challengeType: 1
 forumTopicId: 301709
 dashedName: perform-an-intersection-on-two-sets-of-data
@@ -8,13 +8,13 @@ dashedName: perform-an-intersection-on-two-sets-of-data
 
 # --description--
 
-У цій вправі ми знайдемо перетин двох множин даних. Ми створимо метод на множині під назвою `intersection`. Перетин множин — це всі значення, які є спільними для двох чи більше множин. Цей метод має приймати іншу множину як аргумент та повернути перетин двох множин.
+In this exercise we are going to perform an intersection on 2 sets of data. We will create a method on our `Set` data structure called `intersection`. An intersection of sets represents all values that are common to two or more sets. This method should take another `Set` as an argument and return the `intersection` of the two sets.
 
-Наприклад, якщо `setA = ['a','b','c']`, а `setB = ['a','b','d','e']`, то перетином setA та setB буде `setA.intersection(setB) = ['a', 'b']`.
+For example, if `setA = ['a','b','c']` and `setB = ['a','b','d','e']`, then the intersection of setA and setB is: `setA.intersection(setB) = ['a', 'b']`.
 
 # --hints--
 
-Клас `Set` повинен мати метод `intersection`.
+Your `Set` class should have a `intersection` method.
 
 ```js
 assert(
@@ -25,7 +25,7 @@ assert(
 );
 ```
 
-Метод має повернути правильну множину.
+The proper collection should be returned.
 
 ```js
 assert(

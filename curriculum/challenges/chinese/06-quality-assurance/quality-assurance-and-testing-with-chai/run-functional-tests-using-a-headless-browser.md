@@ -1,6 +1,6 @@
 ---
 id: 587d8250367417b2b2512c5d
-title: 使用无头浏览器运行功能测试
+title: Run Functional Tests Using a Headless Browser
 challengeType: 2
 forumTopicId: 301595
 dashedName: run-functional-tests-using-a-headless-browser
@@ -10,11 +10,11 @@ dashedName: run-functional-tests-using-a-headless-browser
 
 As a reminder, this project is being built upon the following starter project on <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>, or cloned from <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
 
-在页面上有一个输入表单。 它将数据作为 AJAX 请求发送到 `PUT /travellers` 端点。
+On the page there's an input form. It sends data to the `PUT /travellers` endpoint as an AJAX request.
 
-当请求成功完成后，客户端代码将一个包含响应信息的 `<div>` 附加到 DOM 中。
+When the request successfully completes, the client code appends a `<div>` containing the information in the response to the DOM.
 
-下面是一个如何使用 Zombie.js 与表单互动的例子。
+Here's an example of how to use Zombie.js to interact with the form:
 
 ```js
 test('Submit the surname "Polo" in the HTML form', function (done) {
@@ -30,38 +30,38 @@ test('Submit the surname "Polo" in the HTML form', function (done) {
 });
 ```
 
-首先， `browser` 对象的 `fill` 方法在表格的 `surname` 字段中填入值 `'Polo'`。 `fill` 返回一个 promise，所以 `then` 被链接起来。
+First, the `fill` method of the `browser` object fills the `surname` field of the form with the value `'Polo'`. `fill` returns a promise, so `then` is chained off of it.
 
-在 `then` 回调中，`browser` 对象的 `pressButton` 方法用于调用表单的 `submit` 的事件侦听器。 `pressButton` 方法是异步的。
+Within the `then` callback, the `pressButton` method of the `browser` object is used to invoke the form's `submit` event listener. The `pressButton` method is asynchronous.
 
-然后，一旦收到来自 AJAX 请求的响应，就会做出一些断言来确认：
+Then, once a response is received from the AJAX request, a few assertions are made confirming:
 
-1.  响应状态是 `200`
-2.  `<span id='name'></span>` 元素的文本是 `'Marco'`
-3.  `<span id='surname'></span>` 元素的文本是 `'Polo'`
-4.  有 `1` 个 `<span id='dates'></span>` 元素。
+1.  The status of the response is `200`
+2.  The text within the `<span id='name'></span>` element matches `'Marco'`
+3.  The text within the `<span id='surname'></span>` element matches `'Polo'`
+4.  There is `1` `<span id='dates'></span>` element.
 
-最后，执行 `done`，这是异步测试所必需的。
+Finally, the `done` callback is invoked, which is needed due to the asynchronous test.
 
 # --instructions--
 
-在 `tests/2_functional-tests.js` 中，在 `'Submit the surname "Colombo" in the HTML form'` 测试（`// #5`），自动执行以下操作：
+Within `tests/2_functional-tests.js`, in the `'Submit the surname "Colombo" in the HTML form'` test (`// #5`), automate the following:
 
-1.  在表格中填写姓氏 `Colombo`。
-2.  点击提交按钮
+1.  Fill in the form with the surname `Colombo`
+2.  Press the submit button
 
-在 `pressButton` 回调中：
+And within the `pressButton` callback:
 
-1.  断言状态是正常的 `200`。
-2.  断言元素 `span#name` 中的文本是 `'Cristoforo'`。
-3.  断言元素 `span#surname` 中的文本是 `'Colombo'`。
-4.  断言有 `span#dates` 元素，它们的计数是 `1`。
+1.  Assert that status is OK `200`
+2.  Assert that the text inside the element `span#name` is `'Cristoforo'`
+3.  Assert that the text inside the element `span#surname` is `'Colombo'`
+4.  Assert that the element(s) `span#dates` exist and their count is `1`
 
-不要忘记删除 `assert.fail()` 调用。
+Do not forget to remove the `assert.fail()` call.
 
 # --hints--
 
-应通过所有测试。
+All tests should pass.
 
 ```js
 (getUserInput) =>
@@ -75,7 +75,7 @@ test('Submit the surname "Polo" in the HTML form', function (done) {
   );
 ```
 
-应断言无头浏览器成功执行请求。
+You should assert that the headless browser request succeeded.
 
 ```js
 (getUserInput) =>
@@ -89,7 +89,7 @@ test('Submit the surname "Polo" in the HTML form', function (done) {
   );
 ```
 
-应断言元素 `span#name` 中的文本是 `'Cristoforo'`。
+You should assert that the text inside the element `span#name` is `'Cristoforo'`.
 
 ```js
 (getUserInput) =>
@@ -105,7 +105,7 @@ test('Submit the surname "Polo" in the HTML form', function (done) {
   );
 ```
 
-应断言元素 `span#surname` 中的文本是 `'Colombo'`。
+You should assert that the text inside the element `span#surname` is `'Colombo'`.
 
 ```js
 (getUserInput) =>
@@ -121,7 +121,7 @@ test('Submit the surname "Polo" in the HTML form', function (done) {
   );
 ```
 
-应该断言元素 `span#dates` 存在，且它的值为 1。
+You should assert that the element `span#dates` exist and its count is 1.
 
 ```js
 (getUserInput) =>

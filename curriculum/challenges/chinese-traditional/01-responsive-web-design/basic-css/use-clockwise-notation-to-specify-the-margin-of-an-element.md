@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9afdf08726
-title: 使用順時針標記指定元素的外邊距
+title: Use Clockwise Notation to Specify the Margin of an Element
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cnpybAd'
 forumTopicId: 18345
@@ -9,47 +9,47 @@ dashedName: use-clockwise-notation-to-specify-the-margin-of-an-element
 
 # --description--
 
-讓我們再試一次，不過這一次輪到 `margin` 了。
+Let's try this again, but with `margin` this time.
 
-同樣，每個方向的外邊距值可以在一行裏面彙總聲明，而無需分別通過 `margin-top`、`margin-right`、`margin-bottom`、`margin-left` 分別聲明，比如：
+Instead of specifying an element's `margin-top`, `margin-right`, `margin-bottom`, and `margin-left` properties individually, you can specify them all in one line, like this:
 
 ```css
 margin: 10px 20px 10px 20px;
 ```
 
-這四個值按順時針排序：上、右、下、左，並且設置的效果等同於分別聲明每一個方向的外邊距值。
+These four values work like a clock: top, right, bottom, left, and will produce the exact same result as using the side-specific margin instructions.
 
 # --instructions--
 
-按照順時針順序，將 class 爲 `blue-box` 的元素的上外邊距以及左外邊距設置爲 `40px`，右外邊距和下外邊距設置爲 `20px`。
+Use Clockwise Notation to give the element with the `blue-box` class a margin of `40px` on its top and left side, but only `20px` on its bottom and right side.
 
 # --hints--
 
-class 爲 `blue-box` 的元素的上外邊距 `margin` 應爲 `40px`。
+Your `blue-box` class should give the top of elements `40px` of `margin`.
 
 ```js
 assert($('.blue-box').css('margin-top') === '40px');
 ```
 
-class 爲 `blue-box` 的元素的右外邊距 `margin` 應爲 `20px`。
+Your `blue-box` class should give the right of elements `20px` of `margin`.
 
 ```js
 assert($('.blue-box').css('margin-right') === '20px');
 ```
 
-class 爲 `blue-box` 的元素的下外邊距 `margin` 應爲 `20px`。
+Your `blue-box` class should give the bottom of elements `20px` of `margin`.
 
 ```js
 assert($('.blue-box').css('margin-bottom') === '20px');
 ```
 
-class 爲 `blue-box` 的元素的左外邊距 `margin` 應爲 `40px`。
+Your `blue-box` class should give the left of elements `40px` of `margin`.
 
 ```js
 assert($('.blue-box').css('margin-left') === '40px');
 ```
 
-應沿順時針方向設置 `blue-box` 的外邊距。
+You should use the clockwise notation to set the margin of `blue-box` class.
 
 ```js
 assert(

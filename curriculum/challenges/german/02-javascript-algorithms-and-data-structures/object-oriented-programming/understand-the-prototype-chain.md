@@ -1,6 +1,6 @@
 ---
 id: 587d7db0367417b2b2512b82
-title: Die Prototypenkette verstehen
+title: Understand the Prototype Chain
 challengeType: 1
 forumTopicId: 301329
 dashedName: understand-the-prototype-chain
@@ -8,7 +8,7 @@ dashedName: understand-the-prototype-chain
 
 # --description--
 
-Alle Objekte in JavaScript (mit ein paar Ausnahmen) haben einen Prototypen (`prototype`). Auch der `prototype` eines Objekts ist selbst ein Objekt.
+All objects in JavaScript (with a few exceptions) have a `prototype`. Also, an object’s `prototype` itself is an object.
 
 ```js
 function Bird(name) {
@@ -18,28 +18,28 @@ function Bird(name) {
 typeof Bird.prototype;
 ```
 
-Weil ein `prototype` ein Objekt ist, kann ein `prototype` seinen eigenen `prototype` haben! In diesem Fall ist der `prototype` von `Bird.prototype` der `Object.prototype`:
+Because a `prototype` is an object, a `prototype` can have its own `prototype`! In this case, the `prototype` of `Bird.prototype` is `Object.prototype`:
 
 ```js
 Object.prototype.isPrototypeOf(Bird.prototype);
 ```
 
-Wie kann das hilfreich sein? Vielleicht erinnerst du dich an die Methode `hasOwnProperty` aus einer früheren Aufgabe:
+How is this useful? You may recall the `hasOwnProperty` method from a previous challenge:
 
 ```js
 let duck = new Bird("Donald");
 duck.hasOwnProperty("name");
 ```
 
-Die Methode `hasOwnProperty` ist in `Object.prototype` definiert, auf die `Bird.prototype` zugreifen kann, auf die wiederum `duck` zugreifen kann. Dies ist ein Beispiel für die `prototype`-Kette. In dieser `prototype`-Kette ist `Bird` der `supertype` für `duck`, während `duck` der `subtype` ist. `Object` ist ein `supertype` sowohl für `Bird` als auch für `duck`. `Object` ist ein `supertype` für alle Objekte in JavaScript. Deshalb kann jedes Objekt die Methode `hasOwnProperty` verwenden.
+The `hasOwnProperty` method is defined in `Object.prototype`, which can be accessed by `Bird.prototype`, which can then be accessed by `duck`. This is an example of the `prototype` chain. In this `prototype` chain, `Bird` is the `supertype` for `duck`, while `duck` is the `subtype`. `Object` is a `supertype` for both `Bird` and `duck`. `Object` is a `supertype` for all objects in JavaScript. Therefore, any object can use the `hasOwnProperty` method.
 
 # --instructions--
 
-Ändere den Code so ab, dass er die richtige Prototypenkette zeigt.
+Modify the code to show the correct prototype chain.
 
 # --hints--
 
-Dein Code sollte zeigen, dass `Object.prototype` der Prototyp von `Dog.prototype` ist.
+Your code should show that `Object.prototype` is the prototype of `Dog.prototype`
 
 ```js
 assert(/Object\.prototype\.isPrototypeOf/.test(__helpers.removeJSComments(code)));

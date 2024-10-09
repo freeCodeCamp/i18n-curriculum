@@ -1,6 +1,6 @@
 ---
 id: 587d7fb8367417b2b2512c0f
-title: Виконайте нові оновлення на документі за допомогою model.findOneAndUpdate()
+title: Perform New Updates on a Document Using model.findOneAndUpdate()
 challengeType: 2
 forumTopicId: 301542
 dashedName: perform-new-updates-on-a-document-using-model-findoneandupdate
@@ -8,17 +8,17 @@ dashedName: perform-new-updates-on-a-document-using-model-findoneandupdate
 
 # --description--
 
-Останні версії Mongoose мають методи спрощення оновлення документів. Деякі більш розширені функції (наприклад, хуки до/після, перевірка) поводяться з таким підходом по-різному, тому класичний метод залишається корисним. `findByIdAndUpdate()` можна використовувати під час пошуку за id.
+Recent versions of Mongoose have methods to simplify documents updating. Some more advanced features (i.e. pre/post hooks, validation) behave differently with this approach, so the classic method is still useful in many situations. `findByIdAndUpdate()` can be used when searching by id.
 
 # --instructions--
 
-Змініть функцію `findAndUpdate`, щоб знайти людину за `Name` і встановити вік на `20`. Використайте параметр функції `personName` як ключ пошуку.
+Modify the `findAndUpdate` function to find a person by `Name` and set the person's age to `20`. Use the function parameter `personName` as the search key.
 
-**Примітка:** ви повинні повернути оновлений документ. Для цього потрібно передати опції документа `{ new: true }` до `findOneAndUpdate()` як третій аргумент. За замовчуванням ці методи повертають незмінений об’єкт.
+**Note:** You should return the updated document. To do that, you need to pass the options document `{ new: true }` as the 3rd argument to `findOneAndUpdate()`. By default, these methods return the unmodified object.
 
 # --hints--
 
-findOneAndUpdate елемента має бути успішним
+findOneAndUpdate an item should succeed
 
 ```js
 (getUserInput) =>

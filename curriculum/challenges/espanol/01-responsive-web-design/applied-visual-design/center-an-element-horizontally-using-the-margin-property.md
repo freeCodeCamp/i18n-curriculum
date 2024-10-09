@@ -1,6 +1,6 @@
 ---
 id: 587d78a3367417b2b2512ad0
-title: Centra un elemento horizontalmente usando la propiedad margin
+title: Center an Element Horizontally Using the margin Property
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cyLJqU4'
 forumTopicId: 301043
@@ -9,17 +9,17 @@ dashedName: center-an-element-horizontally-using-the-margin-property
 
 # --description--
 
-Otra técnica de posicionamiento consiste en centrar un elemento de bloque horizontalmente. Una manera de hacer esto es que `margin` tenga valor auto.
+Another positioning technique is to center a block element horizontally. One way to do this is to set its `margin` to a value of auto.
 
-Este método también funciona para imágenes. Las imágenes son elementos en línea de forma predeterminada, pero se pueden cambiar a elementos de bloque cuando se establece la propiedad `display` en `block`.
+This method works for images, too. Images are inline elements by default, but can be changed to block elements when you set the `display` property to `block`.
 
 # --instructions--
 
-Centra el `div` en la página agregando una propiedad `margin` con un valor de `auto`.
+Center the `div` on the page by adding a `margin` property with a value of `auto`.
 
 # --hints--
 
-El `div` debe tener un `margin` establecido en `auto`.
+The `div` should have a `margin` set to `auto`.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('div')?.margin ,'auto');

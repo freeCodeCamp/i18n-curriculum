@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c11feddfaeb7bdef
-title: 한 배열을 다른 배열 안에 중첩하기
+title: Nest one Array within Another Array
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/crZQZf8'
 forumTopicId: 18247
@@ -9,21 +9,21 @@ dashedName: nest-one-array-within-another-array
 
 # --description--
 
-아래와 같이, 당신은 배열들을 다른 배열들 안으로 감싸 넣을 수도 있습니다.
+You can also nest arrays within other arrays, like below:
 
 ```js
 const teams = [["Bulls", 23], ["White Sox", 45]];
 ```
 
-이것을 <dfn>다차원 배열(multi-dimensional array)</dfn>이라고 부르기도 합니다.
+This is also called a <dfn>multi-dimensional array</dfn>.
 
 # --instructions--
 
-`myArray`라는 이름의 중첩 배열을 하나 만드세요.
+Create a nested array called `myArray`.
 
 # --hints--
 
-`myArray`는 다른 배열 안에 적어도 한 개 이상의 중첩 배열을 가지고 있어야 합니다.
+`myArray` should have at least one array nested within another array.
 
 ```js
 assert(Array.isArray(myArray) && myArray.some(Array.isArray));

@@ -1,6 +1,6 @@
 ---
 id: 5e8f2f13c4cdbe86b5c72d97
-title: 'Redes Neurais Convolucionais: A camada convolucional'
+title: 'Convolutional Neural Networks: The Convolutional Layer'
 challengeType: 11
 videoId: LrdmcQpTyLw
 bilibiliIds:
@@ -14,19 +14,19 @@ dashedName: convolutional-neural-networks-the-convolutional-layer
 
 ## --text--
 
-Quais são as três propriedades principais de cada camada convolucional?
+What are the three main properties of each convolutional layer?
 
 ## --answers--
 
-Tamanho de entrada, o número de filtros e o tamanho da amostra dos filtros.
+Input size, the number of filters, and the sample size of the filters.
 
 ---
 
-Tamanho de entrada, dimensões de entrada e os valores de cor da entrada.
+Input size, input dimensions, and the color values of the input.
 
 ---
 
-Tamanho de entrada, preenchimento de entrada e distância do passo.
+Input size, input padding, and stride.
 
 ## --video-solution--
 

@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d4036188
-title: أنتاج مشروطاً (Conditionally) من مِيزات Props
+title: Render Conditionally from Props
 challengeType: 6
 forumTopicId: 301405
 dashedName: render-conditionally-from-props
@@ -8,21 +8,21 @@ dashedName: render-conditionally-from-props
 
 # --description--
 
-حتى الآن، لقد رأيت كيفية استخدام `if/else`، و `&&`، وternary operator مثل (`condition ? expressionIfTrue : expressionIfFalse`) لاتخاذ قرارات مشروطة حول ما يجب القيام به ومتى. ومع ذلك، هناك موضوع مهم متبقي للمناقشة يسمح لك بالجمع بين أي أو كل هذه المفاهيم مع خاصية أخرى قوية React: مِيزات (props). استخدام مِيزات (props) لجعل التعليمات البرمجية مشروطة أمر شائع جدا مع مطوري الذي يستخدموا React، فهم يستخدمون قيمة مِيزة (prop) معين لاتخاذ القرارات تلقائياً حول ما يجب القيام به.
+So far, you've seen how to use `if/else`, `&&`, and the ternary operator (`condition ? expressionIfTrue : expressionIfFalse`) to make conditional decisions about what to render and when. However, there's one important topic left to discuss that lets you combine any or all of these concepts with another powerful React feature: props. Using props to conditionally render code is very common with React developers — that is, they use the value of a given prop to automatically make decisions about what to render.
 
-في هذا التحدي، ستضع مكوناً فرعياً لاتخاذ القرارات بناءً على مِيزات. ستستخدم أيضًا ternary operator، ولكن يمكنكم أن ترى كيف أن العديد من المفاهيم الأخرى التي تمت تغطيتها في التحديات القليلة السابقة قد تكون مفيدة بنفس القدر في هذا السياق.
+In this challenge, you'll set up a child component to make rendering decisions based on props. You'll also use the ternary operator, but you can see how several of the other concepts that were covered in the last few challenges might be just as useful in this context.
 
 # --instructions--
 
-يحتوي محرر التعليمات البرمجية على مكونين محددين بشكل جزئي لك: أحد الأساسين يسمى `GameOfChance`، والفرعي يسمى `Results`. تستخدم لإنشاء لُعْبَة بسيطة حيث يقوم المستخدم بالضغط على زر لمعرفة ما إذا كان يفوز أو يخسر.
+The code editor has two components that are partially defined for you: a parent called `GameOfChance`, and a child called `Results`. They are used to create a simple game where the user presses a button to see if they win or lose.
 
-أولا، ستحتاج إلى تعبير بسيط ينتج قيمة عشوائيا مختلفة في كل مرة يتم تشغيلها. يمكنك استخدام `Math.random()`. هذه الطريقة تنتج قيمة بين `0` (شامل) و `1` (حصري) في كل مرة يتم تسميتها. إذاً الإمكانات تكون 50/50،أستخدم `Math.random() >= .5` في التعبير الخاص بك. من الناحية الإحصائية، سيعود هذا التعبير `true` بنسبة 50% من الوقت، و `false` بنسبة 50%. في طريقة الإنتاج، استبدل `null` بالتعبير الوارد أعلاه لإكمال إعلان المتغير.
+First, you'll need a simple expression that randomly returns a different value every time it is run. You can use `Math.random()`. This method returns a value between `0` (inclusive) and `1` (exclusive) each time it is called. So for 50/50 odds, use `Math.random() >= .5` in your expression. Statistically speaking, this expression will return `true` 50% of the time, and `false` the other 50%. In the render method, replace `null` with the above expression to complete the variable declaration.
 
-الآن لديك تعبير يمكنك استخدامه لاتخاذ قرار عشوائي في التعليمات البرمجية. بعد ذلك تحتاج إلى تنفيذ هذا. تقديم `Results` كعنصر فرعي من `GameOfChance`، وتمرير في `expression` كمِيزة يسمى `fiftyFifty`. في مكون `Results`، كتابة ternary expression لإنتاج عنصر `h1` بالنص `You Win!` أو `You Lose!` بناء على مِيزة `fiftyFifty` التي يتم تمريره من `GameOfChance`. وأخيرا، تحقق أن طريقة `handleClick()` تحسب كل دورة، بحيث يعرف المستخدم عدد المرات التي تلعبها. وهذا يساعد أيضا على إبلاغ المستخدم بأن المكون قد تم تحديثه فعلًا في حالة فوزه أو فقدانه مرتين على التوالي.
+Now you have an expression that you can use to make a randomized decision in the code. Next you need to implement this. Render the `Results` component as a child of `GameOfChance`, and pass in `expression` as a prop called `fiftyFifty`. In the `Results` component, write a ternary expression to render the `h1` element with the text `You Win!` or `You Lose!` based on the `fiftyFifty` prop that's being passed in from `GameOfChance`. Finally, make sure the `handleClick()` method is correctly counting each turn so the user knows how many times they've played. This also serves to let the user know the component has actually updated in case they win or lose twice in a row.
 
 # --hints--
 
-يجب أن يكون مكون `GameOfChance` موجوداً وأن يُنتج في الصفحة.
+The `GameOfChance` component should exist and render to the page.
 
 ```js
 assert.strictEqual(
@@ -31,7 +31,7 @@ assert.strictEqual(
 );
 ```
 
-`GameOfChance` يجب أن يعيد عنصر `button` واحد.
+`GameOfChance` should return a single `button` element.
 
 ```js
 assert.strictEqual(
@@ -40,7 +40,7 @@ assert.strictEqual(
 );
 ```
 
-`GameOfChance` يجب أن بنتج مكون `Results` مرة واحد، الذي يحتوي على مِيزة تسمى `fiftyFifty`.
+`GameOfChance` should return a single instance of the `Results` component, which has a prop called `fiftyFifty`.
 
 ```js
 assert(
@@ -53,7 +53,7 @@ assert(
 );
 ```
 
-`GameOfChance` يجب تبدئ حالة (state) تحتوي على خاصية `counter` بقيمة `1`.
+`GameOfChance` state should be initialized with a property of `counter` set to a value of `1`.
 
 ```js
 assert.strictEqual(
@@ -62,7 +62,7 @@ assert.strictEqual(
 );
 ```
 
-عندما يتم تسليم المكون `GameOfChance` أول مرة إلى DOM، يجب إرجاع عنصر `p` مع النص الداخلي من `Turn: 1`.
+When the `GameOfChance` component is first rendered to the DOM, a `p` element should be returned with the inner text of `Turn: 1`.
 
 ```js
 assert.strictEqual(
@@ -71,7 +71,7 @@ assert.strictEqual(
 );
 ```
 
-في كل مرة يتم النقر على الزر، يجب زيادة حالة (state) برنامَج counter بقيمة 1، وينبغي تقديم عنصر واحد `p` إلى DOM الذي يحتوي على نص `Turn: N`، حيث `N` هي قيمة حالة (state) برنامَج counter.
+Each time the button is clicked, the counter state should be incremented by a value of 1, and a single `p` element should be rendered to the DOM that contains the text `Turn: N`, where `N` is the value of the counter state.
 
 ```js
 (() => {
@@ -123,7 +123,7 @@ assert.strictEqual(
 })();
 ```
 
-عندما يتم تحميل عنصر `GameOfChance` أول مرة إلى DOM وفي كل مرة يتم النقر على الزر بعد ذلك، يتم إنتاج عنصر `h1` واحد الذي يمنحك عشوائياً `You Win!` أو `You Lose!`. ملاحظة: هذا قد يفشل عشوائيا. إذا حدث ذلك، يرجى المحاولة مرة أخرى.
+When the `GameOfChance` component is first mounted to the DOM and each time the button is clicked thereafter, a single `h1` element should be returned that randomly renders either `You Win!` or `You Lose!`. Note: this can fail randomly. If that happens, please try again.
 
 ```js
 (() => {

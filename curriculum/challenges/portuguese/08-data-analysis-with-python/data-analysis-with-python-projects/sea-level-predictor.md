@@ -1,6 +1,6 @@
 ---
 id: 5e4f5c4b570f7e3a4949899f
-title: Previsor de nível do mar
+title: Sea Level Predictor
 challengeType: 10
 forumTopicId: 462370
 dashedName: sea-level-predictor
@@ -8,48 +8,48 @@ dashedName: sea-level-predictor
 
 # --description--
 
-Você <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-sea-level-predictor/" target="_blank" rel="noopener noreferrer nofollow">trabalhará nesse projeto com o nosso código inicial do Gitpod </a>.
+You will be <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-sea-level-predictor/" target="_blank" rel="noopener noreferrer nofollow">working on this project with our Gitpod starter code</a>.
 
-Ainda estamos desenvolvendo a parte instrucional interativa do currículo Python. Por enquanto, aqui estão alguns vídeos no canal do freeCodeCamp.org do YouTube que ensinarão tudo o que você precisa saber para completar este projeto:
+We are still developing the interactive instructional part of the Python curriculum. For now, here are some videos on the freeCodeCamp.org YouTube channel that will teach you everything you need to know to complete this project:
 
-- <a href="https://www.freecodecamp.org/news/python-for-everybody/" target="_blank" rel="noopener noreferrer nofollow">Curso de Python em vídeo para todos</a> (14 horas)
+- <a href="https://www.freecodecamp.org/news/python-for-everybody/" target="_blank" rel="noopener noreferrer nofollow">Python for Everybody Video Course</a> (14 hours)
 
-- <a href="https://www.freecodecamp.org/news/how-to-analyze-data-with-python-pandas/" target="_blank" rel="noopener noreferrer nofollow">Como analisar dados em Python com o Pandas</a> (10 horas)
+- <a href="https://www.freecodecamp.org/news/how-to-analyze-data-with-python-pandas/" target="_blank" rel="noopener noreferrer nofollow">How to Analyze Data with Python Pandas</a> (10 hours)
 
 # --instructions--
 
-Você analisará um dataset da mudança média do nível do mar global desde 1880. Você utilizará os dados para prever a mudança do nível do mar até ao ano de 2050.
+You will analyze a dataset of the global average sea level change since 1880. You will use the data to predict the sea level change through year 2050.
 
-Use os dados para completar as seguintes tarefas:
+Use the data to complete the following tasks:
 
-- Use o Pandas para importar os dados de `epa-sea-level.csv`.
-- Use a matplotlib para criar um diagrama de dispersão usando a coluna `Year` como eixo x e a coluna `CSIRO Adjusted Sea Level` (Nível do mar ajustado) como o eixo y.
-- Use a função `linregress` do `scipy.stats` para obter o coeficiente angular e o ponto de interceptação da linha de y do melhor ajuste. Trace a linha de melhor ajuste na parte superior do diagrama de dispersão. Faça a linha passar pelo ano 2050 para prever o aumento do nível do mar em 2050.
-- Trace uma nova linha do melhor ajuste utilizando apenas os dados do ano 2000 ao longo do último ano no dataset. Faça com que a linha passe também pelo ano 2050 para prever o aumento do nível do mar em 2050 se a taxa de crescimento continuar como está desde o ano 2000.
-- O rótulo de x deve ser `Year` e o rótulo de y deve ser `Sea Level (inches)` (Nível do mar, em polegadas), e o título deve ser `Rise in Sea Level` (Aumento do nível do mar).
+- Use Pandas to import the data from `epa-sea-level.csv`.
+- Use matplotlib to create a scatter plot using the `Year` column as the x-axis and the `CSIRO Adjusted Sea Level` column as the y-axis.
+- Use the `linregress` function from `scipy.stats` to get the slope and y-intercept of the line of best fit. Plot the line of best fit over the top of the scatter plot. Make the line go through the year 2050 to predict the sea level rise in 2050.
+- Plot a new line of best fit just using the data from year 2000 through the most recent year in the dataset. Make the line also go through the year 2050 to predict the sea level rise in 2050 if the rate of rise continues as it has since the year 2000.
+- The x label should be `Year`, the y label should be `Sea Level (inches)`, and the title should be `Rise in Sea Level`.
 
-O boilerplate também inclui comandos para salvar e retornar a imagem.
+The boilerplate also includes commands to save and return the image.
 
-## Desenvolvimento
+## Development
 
-Escreva seu código em `sea_level_predictor.py`. Para o desenvolvimento, você pode usar `main.py` para testar o seu código.
+Write your code in `sea_level_predictor.py`. For development, you can use `main.py` to test your code.
 
-## Testes
+## Testing
 
-Os testes unitários para esse projeto estão em `test_module.py`. Importamos os testes de `test_module.py` em `main.py` para a sua conveniência.
+The unit tests for this project are in `test_module.py`. We imported the tests from `test_module.py` to `main.py` for your convenience.
 
-## Envio
+## Submitting
 
-Copie o URL do seu projeto e envie-o para o freeCodeCamp.
+Copy your project's URL and submit it to freeCodeCamp.
 
-## Fonte dos dados
+## Data Source
 
-<a href="https://datahub.io/core/sea-level-rise" target="_blank" rel="noopener noreferrer nofollow">Global Average Absolute Sea Level Change</a>, 1880-2014 da Agência de Proteção Ambiental dos EUA, usando dados do CSIRO, 2015; NOAA, 2015.
+<a href="https://datahub.io/core/sea-level-rise" target="_blank" rel="noopener noreferrer nofollow">Global Average Absolute Sea Level Change</a>, 1880-2014 from the US Environmental Protection Agency using data from CSIRO, 2015; NOAA, 2015.
 
 
 # --hints--
 
-Ele deve passar em todos os testes do Python.
+It should pass all Python tests.
 
 ```js
 

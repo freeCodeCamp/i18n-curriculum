@@ -1,6 +1,6 @@
 ---
 id: 5900f4411000cf542c50ff54
-title: 'Problem 213: Flohzirkus'
+title: 'Problem 213: Flea Circus'
 challengeType: 1
 forumTopicId: 301855
 dashedName: problem-213-flea-circus
@@ -12,11 +12,11 @@ A 30×30 grid of squares contains 900 fleas, initially one flea per square.
 
 When a bell is rung, each flea jumps to an adjacent square at random (usually 4 possibilities, except for fleas on the edge of the grid or at the corners).
 
-Wie hoch ist die erwartete Anzahl unbesetzter Plätze nach fünfzigmaligem Läuten der Glocke? Gib deine Antwort auf sechs Dezimalstellen gerundet an.
+What is the expected number of unoccupied squares after 50 rings of the bell? Give your answer rounded to six decimal places.
 
 # --hints--
 
-`fleaCircus()` sollte `330.721154` zurückgeben.
+`fleaCircus()` should return `330.721154`.
 
 ```js
 assert.strictEqual(fleaCircus(), 330.721154);

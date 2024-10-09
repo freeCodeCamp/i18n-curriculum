@@ -1,6 +1,6 @@
 ---
 id: 56bbb991ad1ed5201cd392d0
-title: Створення об’єктів JavaScript
+title: Build JavaScript Objects
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cWGkbtd'
 forumTopicId: 16769
@@ -9,13 +9,13 @@ dashedName: build-javascript-objects
 
 # --description--
 
-Можливо, ви вже чули термін «об’єкт» (`object`).
+You may have heard the term `object` before.
 
-Об’єкти подібні до масивів (`arrays`), за винятком того, що для отримання доступу та зміни їхніх даних використовуються не індекси, а властивості (`properties`).
+Objects are similar to `arrays`, except that instead of using indexes to access and modify their data, you access the data in objects through what are called `properties`.
 
-Об’єкти придатні для структурованого зберігання даних, і також можуть представляти реальні об’єкти (наприклад, кота).
+Objects are useful for storing data in a structured way, and can represent real world objects, like a cat.
 
-Приклад об’єкта-кота:
+Here's a sample cat object:
 
 ```js
 const cat = {
@@ -26,7 +26,7 @@ const cat = {
 };
 ```
 
-У цьому прикладі всі властивості зберігаються як рядки, як-от `name`, `legs` та `tails`. Однак числа також можна використовувати як властивості. Ви навіть можете пропустити лапки для властивостей з одним словом, як показано нижче:
+In this example, all the properties are stored as strings, such as `name`, `legs`, and `tails`. However, you can also use numbers as properties. You can even omit the quotes for single-word string properties, as follows:
 
 ```js
 const anotherObject = {
@@ -36,17 +36,17 @@ const anotherObject = {
 };
 ```
 
-Однак, якщо ваші об’єкти містять будь-які не рядкові властивості, JavaScript автоматично перетворить їх на рядки.
+However, if your object has any non-string properties, JavaScript will automatically typecast them as strings.
 
 # --instructions--
 
-Створіть об’єкт, який представляє собаку, під назвою `myDog` і який має властивості `name` (рядок), `legs`, `tails` та `friends`.
+Make an object that represents a dog called `myDog` which contains the properties `name` (a string), `legs`, `tails` and `friends`.
 
-Ви можете встановити властивості на будь-яке значення, але `name` має бути рядком, `legs` та `tails` мають бути числами, а `friends` має бути масивом.
+You can set these object properties to whatever values you want, as long as `name` is a string, `legs` and `tails` are numbers, and `friends` is an array.
 
 # --hints--
 
-`myDog` повинен містити властивість `name`, яка є рядком (`string`).
+`myDog` should contain the property `name` and it should be a `string`.
 
 ```js
 assert(
@@ -64,7 +64,7 @@ assert(
 );
 ```
 
-`myDog` повинен містити властивість `legs`, яка є числом (`number`).
+`myDog` should contain the property `legs` and it should be a `number`.
 
 ```js
 assert(
@@ -82,7 +82,7 @@ assert(
 );
 ```
 
-`myDog` повинен містити властивість `tails`, яка є числом (`number`).
+`myDog` should contain the property `tails` and it should be a `number`.
 
 ```js
 assert(
@@ -100,7 +100,7 @@ assert(
 );
 ```
 
-`myDog` повинен містити властивість `friends`, яка є масивом (`array`).
+`myDog` should contain the property `friends` and it should be an `array`.
 
 ```js
 assert(
@@ -118,7 +118,7 @@ assert(
 );
 ```
 
-`myDog` має містити всі задані властивості.
+`myDog` should only contain all the given properties.
 
 ```js
 assert(

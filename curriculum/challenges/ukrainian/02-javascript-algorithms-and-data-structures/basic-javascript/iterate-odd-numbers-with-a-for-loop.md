@@ -1,6 +1,6 @@
 ---
 id: 56104e9e514f539506016a5c
-title: Ітерація непарних чисел за допомогою циклу for
+title: Iterate Odd Numbers With a For Loop
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cm8n7T9'
 forumTopicId: 18212
@@ -9,9 +9,9 @@ dashedName: iterate-odd-numbers-with-a-for-loop
 
 # --description--
 
-Цикли for не обов’язково повинні додавати одиницю кожної ітерації. Змінюючи `final-expression`, ми можемо перерахувати лише парні числа.
+For loops don't have to iterate one at a time. By changing our `final-expression`, we can count by even numbers.
 
-Розпочнемо з `i = 0` та створимо цикл, коли `i < 10`. Кожного циклу ми збільшуватимемо `i` на 2 за допомогою `i += 2`.
+We'll start at `i = 0` and loop while `i < 10`. We'll increment `i` by 2 each loop with `i += 2`.
 
 ```js
 const ourArray = [];
@@ -21,21 +21,21 @@ for (let i = 0; i < 10; i += 2) {
 }
 ```
 
-Тепер `ourArray` міститиме `[0, 2, 4, 6, 8]`. Змінимо нашу `initialization` так, щоб ми могли перерахувати непарні числа.
+`ourArray` will now contain `[0, 2, 4, 6, 8]`. Let's change our `initialization` so we can count by odd numbers.
 
 # --instructions--
 
-Додайте непарні числа від 1 до 9 до `myArray`, використовуючи цикл `for`.
+Push the odd numbers from 1 through 9 to `myArray` using a `for` loop.
 
 # --hints--
 
-Ви повинні використати цикл `for`.
+You should be using a `for` loop for this.
 
 ```js
 assert(/for\s*\([^)]+?\)/.test(__helpers.removeJSComments(code)));
 ```
 
-`myArray` має дорівнювати `[1, 3, 5, 7, 9]`.
+`myArray` should equal `[1, 3, 5, 7, 9]`.
 
 ```js
 assert.deepEqual(myArray, [1, 3, 5, 7, 9]);

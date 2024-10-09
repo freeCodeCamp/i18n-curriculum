@@ -1,6 +1,6 @@
 ---
 id: 587d7db6367417b2b2512b9b
-title: Zeichen mit einer ungenauen Übereinstimmung finden (Lazy Matching)
+title: Find Characters with Lazy Matching
 challengeType: 1
 forumTopicId: 301341
 dashedName: find-characters-with-lazy-matching
@@ -8,35 +8,35 @@ dashedName: find-characters-with-lazy-matching
 
 # --description--
 
-Bei regulären Ausdrücken findet eine <dfn>greedy</dfn>-Übereinstimmung den längsten möglichen Teil eines Strings, der dem Muster des regulären Ausdrucks entspricht, und gibt ihn zurück. Die Alternative ist eine <dfn>lazy</dfn>-Übereinstimmung, die den kleinstmöglichen Teil des Strings findet, der das Muster des regulären Ausdrucks erfüllt.
+In regular expressions, a <dfn>greedy</dfn> match finds the longest possible part of a string that fits the regex pattern and returns it as a match. The alternative is called a <dfn>lazy</dfn> match, which finds the smallest possible part of the string that satisfies the regex pattern.
 
-Du kannst den regulären Ausdruck `/t[a-z]*i/` auf den String `"titanic"` anwenden. Dieser reguläre Ausdruck ist im Grunde ein Muster, das mit `t` beginnt, mit `i` endet und einige Buchstaben dazwischen hat.
+You can apply the regex `/t[a-z]*i/` to the string `"titanic"`. This regex is basically a pattern that starts with `t`, ends with `i`, and has some letters in between.
 
-Reguläre Ausdrücke sind standardmäßig "gierig" (greedy), also würde die Übereinstimmung `["titani"]` ergeben. Er findet den größtmöglichen Teilstring, der dem Muster entspricht.
+Regular expressions are by default greedy, so the match would return `["titani"]`. It finds the largest sub-string possible to fit the pattern.
 
-Du kannst jedoch das `?`-Zeichen verwenden, um es auf eine "träge" (lazy) Übereinstimmung umzustellen. `"titanic"` verglichen mit dem angepassten regulären Ausdruck von `/t[a-z]*?i/` ergibt `["ti"]`.
+However, you can use the `?` character to change it to lazy matching. `"titanic"` matched against the adjusted regex of `/t[a-z]*?i/` returns `["ti"]`.
 
-**Hinweis:** Das Parsen von HTML mit regulären Ausdrücken sollte vermieden werden, aber der Musterabgleich eines HTML-Strings mit regulären Ausdrücken ist völlig in Ordnung.
+**Note:** Parsing HTML with regular expressions should be avoided, but pattern matching an HTML string with regular expressions is completely fine.
 
 # --instructions--
 
-Korrigiere den regulären Ausdruck `/<.*>/` so, dass er das HTML-Tag `<h1>` zurückgibt und nicht den Text `"<h1>Winter is coming</h1>"`. Denk daran, dass der Platzhalter `.` in einem regulären Ausdruck auf jedes beliebige Zeichen passt.
+Fix the regex `/<.*>/` to return the HTML tag `<h1>` and not the text `"<h1>Winter is coming</h1>"`. Remember the wildcard `.` in a regular expression matches any character.
 
 # --hints--
 
-Die Variable `result` sollte ein Array sein, das `<h1>` enthält
+The `result` variable should be an array with `<h1>` in it
 
 ```js
 assert(result[0] == '<h1>');
 ```
 
-`myRegex` sollte Lazy Matching verwenden
+`myRegex` should use lazy matching
 
 ```js
 assert(/[^\\][\*\+\?]\?/.test(myRegex));
 ```
 
-`myRegex` sollte nicht den String `h1` enthalten
+`myRegex` should not include the string `h1`
 
 ```js
 assert(!myRegex.source.match('h1'));

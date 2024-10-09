@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedf08834
-title: Створити набір радіокнопок
+title: Create a Set of Radio Buttons
 challengeType: 0
 forumTopicId: 16822
 dashedName: create-a-set-of-radio-buttons
@@ -8,15 +8,15 @@ dashedName: create-a-set-of-radio-buttons
 
 # --description--
 
-Ви можете використовувати <dfn>radio buttons</dfn> (радіокнопки) для запитань, де ви хочете, щоб користувач давав вам тільки одну відповідь з декількох варіантів.
+You can use <dfn>radio buttons</dfn> for questions where you want the user to only give you one answer out of multiple options.
 
-Радіокнопки це тип `input`.
+Radio buttons are a type of `input`.
 
-Кожна з радіокнопок може бути вкладеною у власний елемент `label`. Коли елемент `input` всередині елементу `label`, він буде автоматично пов'язувати ввідну радіокнопку з міткою навколо неї.
+Each of your radio buttons can be nested within its own `label` element. By wrapping an `input` element inside of a `label` element it will automatically associate the radio button input with the label element surrounding it.
 
-Усі пов'язані радіокнопки повинні мати однаковий атрибут `name`, щоб створити групу радіокнопок. Створюючи групу радіокнопок, вибір будь-якої однієї радіокнопки автоматично зніме інші радіокнопки всередині тієї ж групи, гарантуючи, що користувач дасть тільки одну відповідь.
+All related radio buttons should have the same `name` attribute to create a radio button group. By creating a radio group, selecting any single radio button will automatically deselect the other buttons within the same group ensuring only one answer is provided by the user.
 
-Приклад радіокнопки:
+Here's an example of a radio button:
 
 ```html
 <label> 
@@ -24,14 +24,14 @@ dashedName: create-a-set-of-radio-buttons
 </label>
 ```
 
-Оптимальна практика - встановлення атрибута `for` в елементі `label` зі значенням, яке відповідає значенню атрибута `id` елемента `input`. Це дозволяє скористатися допоміжними технологіями, щоб створити співвідношення між міткою та пов'язаним елементом `input`. Приклад:
+It is considered best practice to set a `for` attribute on the `label` element, with a value that matches the value of the `id` attribute of the `input` element. This allows assistive technologies to create a linked relationship between the label and the related `input` element. For example:
 
 ```html
 <input id="indoor" type="radio" name="indoor-outdoor">
 <label for="indoor">Indoor</label>
 ```
 
-Ми також можемо вкласти елемент `input` всередині тегів `label`:
+We can also nest the `input` element within the `label` tags:
 
 ```html
 <label for="indoor"> 
@@ -41,29 +41,29 @@ dashedName: create-a-set-of-radio-buttons
 
 # --instructions--
 
-Додайте пару радіокнопок до вашої форми, кожна вкладена у власний елемент `label`. Одна з них повинна мати опцію `indoor`, а інша повинні мати опцію `outdoor`. Обидві повинні ділитися атрибутом `name` з `indoor-outdoor`, щоб створити радіогрупу.
+Add a pair of radio buttons to your form, each nested in its own `label` element. One should have the option of `indoor` and the other should have the option of `outdoor`. Both should share the `name` attribute of `indoor-outdoor` to create a radio group.
 
 # --hints--
 
-Ваша сторінка повинна мати два елементи кнопок `radio`.
+Your page should have two `radio` button elements.
 
 ```js
 assert($('input[type="radio"]').length > 1);
 ```
 
-Вашим радіо кнопкам слід вказати атрибут `name` з `indoor-outdoor`.
+Your radio buttons should be given the `name` attribute of `indoor-outdoor`.
 
 ```js
 assert($('input[type="radio"]').filter("[name='indoor-outdoor']").length > 1);
 ```
 
-Кожна з ваших двох елементів радіо кнопок повинна бути вкладеною у власний елемент `label`.
+Each of your two radio button elements should be nested in its own `label` element.
 
 ```js
 assert($('label > input[type="radio"]:only-child').length > 1);
 ```
 
-Кожен елемент `label` повинен мати кінцевий тег.
+Each of your `label` elements should have a closing tag.
 
 ```js
 assert(
@@ -73,7 +73,7 @@ assert(
 );
 ```
 
-Одна з ваших радіо кнопок повинна мати мітку `indoor`.
+One of your radio buttons should have the label `indoor`.
 
 ```js
 assert(
@@ -83,7 +83,7 @@ assert(
 );
 ```
 
-Одна з ваших радіо кнопок повинна мати мітку `outdoor`.
+One of your radio buttons should have the label `outdoor`.
 
 ```js
 assert(
@@ -93,7 +93,7 @@ assert(
 );
 ```
 
-Кожні з ваших радіо кнопок повинні бути додані всередину тегу `form`.
+Each of your radio button elements should be added within the `form` tag.
 
 ```js
 assert($('label').parent().get(0).tagName.match('FORM'));

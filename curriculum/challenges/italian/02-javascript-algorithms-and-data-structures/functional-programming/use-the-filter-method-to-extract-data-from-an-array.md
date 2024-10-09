@@ -1,6 +1,6 @@
 ---
 id: 587d7b8f367417b2b2512b63
-title: Usare il metodo filter per estrarre i dati da un array
+title: Use the filter Method to Extract Data from an Array
 challengeType: 1
 forumTopicId: 18179
 dashedName: use-the-filter-method-to-extract-data-from-an-array
@@ -8,13 +8,13 @@ dashedName: use-the-filter-method-to-extract-data-from-an-array
 
 # --description--
 
-Un'altra funzione utile con gli array è `Array.prototype.filter()`, o semplicemente `filter()`.
+Another useful array function is `Array.prototype.filter()`, or simply `filter()`.
 
-`filter` chiama una funzione su ogni elemento di un array e restituisce un nuovo array contenente solo gli elementi per i quali quella funzione restituisce un valore truthy - cioè, un valore che restituisce `true` se passato al costruttore `Boolean()`. In altre parole, filtra l'array, sulla base della funzione passata ad esso. Come `map`, lo fa senza dover modificare l'array originale.
+`filter` calls a function on each element of an array and returns a new array containing only the elements for which that function returns a truthy value - that is, a value which returns `true` if passed to the `Boolean()` constructor. In other words, it filters the array, based on the function passed to it. Like `map`, it does this without needing to modify the original array.
 
-La funzione callback accetta tre argomenti. Il primo argomento è l'elemento che è correntemente in fase di elaborazione. Il secondo è l'indice di quell'elemento e il terzo è l'array su cui è stato chiamato il metodo `filter`.
+The callback function accepts three arguments. The first argument is the current element being processed. The second is the index of that element and the third is the array upon which the `filter` method was called.
 
-Qui sotto trovi un esempio che utilizza il metodo `filter` sull'array `users` per restituire un nuovo array contenente solo gli utenti al di sotto dei 30 anni. Per semplicità, l'esempio utilizza solo il primo argomento della callback.
+See below for an example using the `filter` method on the `users` array to return a new array containing only the users under the age of 30. For simplicity, the example only uses the first argument of the callback.
 
 ```js
 const users = [
@@ -27,15 +27,15 @@ const usersUnder30 = users.filter(user => user.age < 30);
 console.log(usersUnder30); 
 ```
 
-La console visualizzerà il valore `[ { name: 'Amy', age: 20 }, { name: 'camperCat', age: 10 } ]`.
+The console would display the value `[ { name: 'Amy', age: 20 }, { name: 'camperCat', age: 10 } ]`.
 
 # --instructions--
 
-La variabile `watchList` contiene una serie di oggetti con informazioni su diversi film. Usa una combinazione di `filter` e `map` su `watchList` per assegnare un nuovo array di oggetti con le sole chiavi `title` e `rating`. Il nuovo array dovrebbe includere solo oggetti per i quali `imdbRating` è maggiore o uguale a 8.0. Nota che i valori di `rating` vengono salvati come stringhe nell'oggetto e potrebbe essere necessario convertirli in numeri per eseguire operazioni matematiche su di essi.
+The variable `watchList` holds an array of objects with information on several movies. Use a combination of `filter` and `map` on `watchList` to assign a new array of objects with only `title` and `rating` keys. The new array should only include objects where `imdbRating` is greater than or equal to 8.0. Note that the `rating` values are saved as strings in the object and you may need to convert them into numbers to perform mathematical operations on them.
 
 # --hints--
 
-La variabile `watchList` non dovrebbe cambiare.
+The `watchList` variable should not change.
 
 ```js
 assert(
@@ -43,19 +43,19 @@ assert(
 );
 ```
 
-Il tuo codice dovrebbe utilizzare il metodo `filter`.
+Your code should use the `filter` method.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/\s*\.\s*filter/g));
 ```
 
-Il tuo codice non dovrebbe utilizzare un ciclo `for`.
+Your code should not use a `for` loop.
 
 ```js
 assert(!__helpers.removeJSComments(code).match(/for\s*?\([\s\S]*?\)/g));
 ```
 
-`filteredList` dovrebbe essere uguale a `[{"title": "Inception", "rating": "8.8"}, {"title": "Interstellar", "rating": "8.6"}, {"title": "The Dark Knight", "rating": "9.0"}, {"title": "Batman Begins", "rating": "8.3"}]`.
+`filteredList` should equal `[{"title": "Inception", "rating": "8.8"}, {"title": "Interstellar", "rating": "8.6"}, {"title": "The Dark Knight", "rating": "9.0"}, {"title": "Batman Begins", "rating": "8.3"}]`.
 
 ```js
 assert.deepEqual(filteredList, [

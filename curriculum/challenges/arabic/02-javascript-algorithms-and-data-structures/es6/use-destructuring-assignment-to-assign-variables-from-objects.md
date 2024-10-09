@@ -8,29 +8,29 @@ dashedName: use-destructuring-assignment-to-assign-variables-from-objects
 
 # --description--
 
-Destructuring يسمح لك بتعيين اسم متغير جديد عند استخراج القيم. يمكنك القيام بذلك بوضع الاسم الجديد بعد colon و هي علامة النقطتين (:) عند تعيين القيمة.
+Destructuring allows you to assign a new variable name when extracting values. You can do this by putting the new name after a colon when assigning the value.
 
-استخدام نفس الـ object من المثال الأخير:
+Using the same object from the last example:
 
 ```js
 const user = { name: 'John Doe', age: 34 };
 ```
 
-إليك كيف يمكنك إعطاء أسماء متغيرة جديدة عند التعيين:
+Here's how you can give new variable names in the assignment:
 
 ```js
 const { name: userName, age: userAge } = user;
 ```
 
-يمكنك قراءتها كـ "احصل على قيمة `user.name` وقم بتعيينه إلى متغير جديد يسمى `userName`" وما الي ذلك. قيمة `userName` ستكون السلسلة `John Doe`، وقيمة `userAge` ستكون الرقم `34`.
+You may read it as "get the value of `user.name` and assign it to a new variable named `userName`" and so on. The value of `userName` would be the string `John Doe`, and the value of `userAge` would be the number `34`.
 
 # --instructions--
 
-استبدل التعينين بـ destructuring assignment معادلة لها. يجب أن يستمر في تعيين المتغيرين `highToday` و `highTomorrow` القيم `today` و `tomorrow` من الـ object الآتي `HIGH_TEMPERATURES`.
+Replace the two assignments with an equivalent destructuring assignment. It should still assign the variables `highToday` and `highTomorrow` the values of `today` and `tomorrow` from the `HIGH_TEMPERATURES` object.
 
 # --hints--
 
-يجب عليك إزالة صيغة تعيين ES5.
+You should remove the ES5 assignment syntax.
 
 ```js
 assert(
@@ -39,7 +39,7 @@ assert(
 );
 ```
 
-يجب عليك استخدام الـ destructuring لإنشاء المتغير `highToday`.
+You should use destructuring to create the `highToday` variable.
 
 ```js
 assert(
@@ -49,7 +49,7 @@ assert(
 );
 ```
 
-يجب عليك استخدام الـ destructuring لإنشاء المتغير `highTomorrow`.
+You should use destructuring to create the `highTomorrow` variable.
 
 ```js
 assert(
@@ -59,7 +59,7 @@ assert(
 );
 ```
 
-`highToday` يجب أن يساوي `77` و `highTomorrow` يجب أن يساوي `80`.
+`highToday` should be equal to `77` and `highTomorrow` should be equal to `80`.
 
 ```js
 assert(highToday === 77 && highTomorrow === 80);

@@ -1,6 +1,6 @@
 ---
 id: 5cc0bd7a49b71cb96132e54c
-title: 使用遞歸來創建一個數字序列
+title: Use Recursion to Create a Range of Numbers
 challengeType: 1
 forumTopicId: 301180
 dashedName: use-recursion-to-create-a-range-of-numbers
@@ -8,21 +8,21 @@ dashedName: use-recursion-to-create-a-range-of-numbers
 
 # --description--
 
-接着上一個挑戰，有另外一個機會來用遞歸函數解決問題。
+Continuing from the previous challenge, we provide you another opportunity to create a recursive function to solve a problem.
 
 # --instructions--
 
-已經定義好了 `rangeOfNumbers` 函數，包含兩個參數。 函數應該返回一個連續數字數組，`startNum` 參數開始 `endNum` 參數截止。 開始的數字小於或等於截止數字。 函數必需遞歸調用自身，不能使用任意形式的循環。 要考慮到 `startNum` 和 `endNum` 相同的情況。
+We have defined a function named `rangeOfNumbers` with two parameters. The function should return an array of integers which begins with a number represented by the `startNum` parameter and ends with a number represented by the `endNum` parameter. The starting number will always be less than or equal to the ending number. Your function must use recursion by calling itself and not use loops of any kind. It should also work for cases where both `startNum` and `endNum` are the same.
 
 # --hints--
 
-函數應該返回一個數組。
+Your function should return an array.
 
 ```js
 assert(Array.isArray(rangeOfNumbers(5, 10)));
 ```
 
-不能包含循環語句（`for` 或者 `while` 或者高階函數比如 `forEach`、`map`、`filter` 或者 `reduce`）。
+Your code should not use any loop syntax (`for` or `while` or higher order functions such as `forEach`, `map`, `filter`, or `reduce`).
 
 ```js
 assert(
@@ -30,7 +30,7 @@ assert(
 );
 ```
 
-`rangeOfNumbers` 應該使用遞歸函數（調用自身）來完成這個挑戰。
+`rangeOfNumbers` should use recursion (call itself) to solve this challenge.
 
 ```js
 assert(
@@ -38,25 +38,25 @@ assert(
 );
 ```
 
-`rangeOfNumbers(1, 5)` 應該返回 `[1, 2, 3, 4, 5]`。
+`rangeOfNumbers(1, 5)` should return `[1, 2, 3, 4, 5]`.
 
 ```js
 assert.deepStrictEqual(rangeOfNumbers(1, 5), [1, 2, 3, 4, 5]);
 ```
 
-`rangeOfNumbers(6, 9)` 應該返回 `[6, 7, 8, 9]`。
+`rangeOfNumbers(6, 9)` should return `[6, 7, 8, 9]`.
 
 ```js
 assert.deepStrictEqual(rangeOfNumbers(6, 9), [6, 7, 8, 9]);
 ```
 
-`rangeOfNumbers(4, 4)` 應該返回 `[4]`。
+`rangeOfNumbers(4, 4)` should return `[4]`.
 
 ```js
 assert.deepStrictEqual(rangeOfNumbers(4, 4), [4]);
 ```
 
-不應使用全局變量來緩存數組。
+Global variables should not be used to cache the array.
 
 ```js
 rangeOfNumbers(1, 3)

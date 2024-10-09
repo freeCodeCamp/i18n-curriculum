@@ -1,6 +1,6 @@
 ---
 id: 587d78ad367417b2b2512afa
-title: Usar a propriedade flex-wrap para quebrar uma linha ou coluna
+title: Use the flex-wrap Property to Wrap a Row or Column
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVaDAv/cQv9ZtG'
 forumTopicId: 301114
@@ -9,21 +9,21 @@ dashedName: use-the-flex-wrap-property-to-wrap-a-row-or-column
 
 # --description--
 
-O CSS flexbox possui uma propriedade que permite dividir um contêiner flex em várias linhas (ou colunas). Por padrão, um flex container manterá todos os flex items juntos. Por exemplo, todos os flex items estarão lado a lado na mesma linha.
+CSS flexbox has a feature to split a flex container into multiple rows (or columns). By default, a flex container will fit all flex items together. For example, a row will all be on one line.
 
-No entanto, ao usar a propriedade `flex-wrap`, informamos ao CSS para quebrar essa linha. Isso significa que os itens adicionais serão movidos para uma nova linha ou coluna. O ponto onde essa quebra acontece depende do tamanho dos itens e do tamanho do flex conteiner.
+However, using the `flex-wrap` property tells CSS to wrap items. This means extra items move into a new row or column. The break point of where the wrapping happens depends on the size of the items and the size of the container.
 
-O CSS oferece as seguintes opções para a direção da quebra de linha:
+CSS also has options for the direction of the wrap:
 
-<ul><li><code>nowrap</code>: esta é a configuração padrão e não cria novas linhas ou colunas.</li><li><code>wrap</code>: cria novas linhas de cima para baixo se os itens estiverem dispostos em linhas e da esquerda para a direita se estiverem em colunas.</li><li><code>wrap-reverse</code>: cria novas linhas de baixo para cima se os itens estiverem dispostos em linhas e da direita para a esquerda se estiverem em colunas.</li></ul>
+<ul><li><code>nowrap</code>: this is the default setting, and does not wrap items.</li><li><code>wrap</code>: wraps items onto multiple lines from top-to-bottom if they are in rows and left-to-right if they are in columns.</li><li><code>wrap-reverse</code>: wraps items onto multiple lines from bottom-to-top if they are in rows and right-to-left if they are in columns.</li></ul>
 
 # --instructions--
 
-O layout atual possui itens demais para caber em apenas uma linha. Adicione a propriedade CSS `flex-wrap` com o valor de `wrap` ao elemento de id `#box-container`.
+The current layout has too many boxes for one row. Add the CSS property `flex-wrap` to the `#box-container` element, and give it a value of `wrap`.
 
 # --hints--
 
-O elemento de id `#box-container` deve ter a propriedade `flex-wrap` com o valor de `wrap`.
+The `#box-container` element should have the `flex-wrap` property set to a value of `wrap`.
 
 ```js
 assert($('#box-container').css('flex-wrap') == 'wrap');

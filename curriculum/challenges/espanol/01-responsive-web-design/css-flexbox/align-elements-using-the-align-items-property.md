@@ -1,6 +1,6 @@
 ---
 id: 587d78ad367417b2b2512af8
-title: Alinea elementos mediante la propiedad align-items
+title: Align Elements Using the align-items Property
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVaDAv/c8aggtk'
 forumTopicId: 301101
@@ -9,26 +9,26 @@ dashedName: align-elements-using-the-align-items-property
 
 # --description--
 
-La propiedad `align-items` es similar a `justify-content`. Recuerda que la propiedad `justify-content` alineó los elementos flexibles a lo largo del eje principal. Para las filas, el eje principal es una línea horizontal y para las columnas es una vertical.
+The `align-items` property is similar to `justify-content`. Recall that the `justify-content` property aligned flex items along the main axis. For rows, the main axis is a horizontal line and for columns it is a vertical line.
 
-Los contenedores flexibles también tienen un **eje transversal** que es el opuesto al eje principal. Para las filas, el eje transversal es vertical y para las columnas, el eje transversal es horizontal.
+Flex containers also have a **cross axis** which is the opposite of the main axis. For rows, the cross axis is vertical and for columns, the cross axis is horizontal.
 
-CSS ofrece la propiedad `align-items` para alinear elementos flexibles a lo largo del eje transversal. Para una fila, le indica al CSS como empujar los elementos en toda la fila hacia arriba o hacia abajo dentro del contenedor. Y para una columna, como empujar todos los elementos hacia la izquierda o hacia la derecha dentro del contenedor.
+CSS offers the `align-items` property to align flex items along the cross axis. For a row, it tells CSS how to push the items in the entire row up or down within the container. And for a column, how to push all the items left or right within the container.
 
-Los diferentes valores disponibles para `align-items` incluyen:
+The different values available for `align-items` include:
 
-<ul><li><code>flex-start</code>: alinea los elementos con el inicio del contenedor flexible. Para las filas, esto alinea los elementos a la parte superior del contenedor. Para las columnas, esto alinea los elementos a la parte izquierda del contenedor.</li><li><code>flex-end</code>: alinea los elementos con el final del contenedor flexible. Para las filas, esto alinea los elementos a la parte inferior del contenedor. Para las columnas, esto alinea los elementos a la parte derecha del contenedor.</li><li><code>center</code>: alinea los elementos hacia el centro. Para las filas, esto alinea los elementos verticalmente (igual espacio por encima y por debajo de los elementos). Para columnas, esto las alinea horizontalmente (igual espacio a la izquierda y a la derecha de los elementos).</li><li><code>stretch</code>: estira los elementos para llenar el contenedor flexible. Por ejemplo, los elementos de filas son estirados para llenar el contenedor flexible de arriba hacia abajo. Este es el valor predeterminado si no se especifica ningún tipo de <code>align-items</code>.</li><li><code>baseline</code>: alinea los elementos con sus líneas base. Una línea base es un concepto de texto, piensa en ella como la línea en la que se sitúan las letras.</li></ul>
+<ul><li><code>flex-start</code>: aligns items to the start of the flex container. For rows, this aligns items to the top of the container. For columns, this aligns items to the left of the container.</li><li><code>flex-end</code>: aligns items to the end of the flex container. For rows, this aligns items to the bottom of the container. For columns, this aligns items to the right of the container.</li><li><code>center</code>: align items to the center. For rows, this vertically aligns items (equal space above and below the items). For columns, this horizontally aligns them (equal space to the left and right of the items).</li><li><code>stretch</code>: stretch the items to fill the flex container. For example, rows items are stretched to fill the flex container top-to-bottom. This is the default value if no <code>align-items</code> value is specified.</li><li><code>baseline</code>: align items to their baselines. Baseline is a text concept, think of it as the line that the letters sit on.</li></ul>
 
 # --instructions--
 
-Un ejemplo ayuda a mostrar esta propiedad en acción. Agrega la propiedad CSS `align-items` al elemento `#box-container` y asígnale un valor de `center`.
+An example helps show this property in action. Add the CSS property `align-items` to the `#box-container` element, and give it a value of `center`.
 
-**Extra**  
-Prueba las otras opciones de la propiedad `align-items` en el editor de código para ver sus diferencias. Pero ten en cuenta que un valor de `center` es el único que superará este desafío.
+**Bonus**  
+Try the other options for the `align-items` property in the code editor to see their differences. But note that a value of `center` is the only one that will pass this challenge.
 
 # --hints--
 
-El elemento `#box-container` debe tener una propiedad `align-items` establecida en un valor de `center`.
+The `#box-container` element should have an `align-items` property set to a value of `center`.
 
 ```js
 assert($('#box-container').css('align-items') == 'center');

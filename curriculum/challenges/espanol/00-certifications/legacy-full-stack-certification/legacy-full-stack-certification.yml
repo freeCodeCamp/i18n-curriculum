@@ -1,25 +1,24 @@
----
 id: 561add10cb82ac38a17213bd
-title: Certificado de Full Stack Heredado
+title: Legacy Full Stack Certification
 certification: legacy-full-stack
 challengeType: 7
 isPrivate: true
 tests:
   - 
     id: 561add10cb82ac38a17513bc
-    title: Certificación en Diseño Web Adaptativo
+    title: Responsive Web Design Certification
   - 
     id: 561abd10cb81ac38a17513bc
-    title: Certificación en Estructura de Datos y Algoritmos de Javascript
+    title: JavaScript Algorithms and Data Structures Certification
   - 
     id: 561acd10cb82ac38a17513bc
-    title: Certificación en Librerías de Desarrollo Front End
+    title: Front End Libraries Certification
   - 
     id: 5a553ca864b52e1d8bceea14
-    title: Certificación en Visualización de Datos
+    title: Data Visualization Certification
   - 
     id: 561add10cb82ac38a17523bc
-    title: Certificación de APIs y Microservicios
+    title: API's and Microservices Certification
   - 
     id: 561add10cb82ac38a17213bc
-    title: Certificación de Garantía de Calidad Y Seguridad de la información Heredada
+    title: Legacy Information Security and Quality Assurance Certification

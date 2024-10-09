@@ -1,6 +1,6 @@
 ---
 id: 587d7dbe367417b2b2512bb9
-title: استخدم @for لأنشاء حلقة Sass
+title: Use @for to Create a Sass Loop
 challengeType: 0
 forumTopicId: 301462
 dashedName: use-for-to-create-a-sass-loop
@@ -8,11 +8,11 @@ dashedName: use-for-to-create-a-sass-loop
 
 # --description--
 
-يضيف التوجيه `@for` لتصميم بواسطة حلقة (loop)، شبيهة `for` جداً لحلقة (loop) في JavaScript.
+The `@for` directive adds styles in a loop, very similar to a `for` loop in JavaScript.
 
-`@for` يستخدم بطريقتين: "start through end" أو "start to end". الفرق الرئيس هو أن "بداية **إلى** نهاية" *يستبعد* الرَّقَم النهائي كجزء من العد، و "ابدأ **حتى** نهاية" *يتضمن* الرَّقَم النهائي كجزء من العد.
+`@for` is used in two ways: "start through end" or "start to end". The main difference is that the "start **to** end" *excludes* the end number as part of the count, and "start **through** end" *includes* the end number as part of the count.
 
-إليك بداية **حتى** مثال نهاية:
+Here's a start **through** end example:
 
 ```scss
 @for $i from 1 through 12 {
@@ -20,7 +20,7 @@ dashedName: use-for-to-create-a-sass-loop
 }
 ```
 
-جزء `#{$i}` هو بناء الجملة للجمع بين المتغير (`i`) مع النص لنشئ string. عندما يتم تحويل مِلَفّ Sass إلى CSS، يبدو كذلك:
+The `#{$i}` part is the syntax to combine a variable (`i`) with text to make a string. When the Sass file is converted to CSS, it looks like this:
 
 ```scss
 .col-1 {
@@ -38,47 +38,47 @@ dashedName: use-for-to-create-a-sass-loop
 }
 ```
 
-هذه طريقة قوية لإنشاء تخطيط شبكي (grid layout). الآن لديك 12 خياراً لعرض الأعمدة المتاحة كفئات CSS.
+This is a powerful way to create a grid layout. Now you have twelve options for column widths available as CSS classes.
 
 # --instructions--
 
-كتابة توجيه `@for` الذي يأخذ متغير `$j` الذي ينتقل من 1 **إلى** 6.
+Write a `@for` directive that takes a variable `$j` that goes from 1 **to** 6.
 
-يجب أن ينشئ 5 فئات تسمى `.text-1` إلى `.text-5` حيث كل واحد لديه `font-size` بقيمه 15px مضروبة بالترتيب.
+It should create 5 classes called `.text-1` to `.text-5` where each has a `font-size` set to 15px multiplied by the index.
 
 # --hints--
 
-يجب أن تستخدم التعليمات البرمجية الخاصة بك توجيه `@for`.
+Your code should use the `@for` directive.
 
 ```js
 assert(code.match(/@for /g));
 ```
 
-يجب أن يكون للفئة `.text-1` الخاص بك `font-size` بقيمة 15px.
+Your `.text-1` class should have a `font-size` of 15px.
 
 ```js
 assert($('.text-1').css('font-size') == '15px');
 ```
 
-يجب أن يكون للفئة `.text-2` الخاص بك `font-size` بقيمة 30px.
+Your `.text-2` class should have a `font-size` of 30px.
 
 ```js
 assert($('.text-2').css('font-size') == '30px');
 ```
 
-يجب أن يكون للفئة `.text-3` الخاص بك `font-size` بقيمة 45px.
+Your `.text-3` class should have a `font-size` of 45px.
 
 ```js
 assert($('.text-3').css('font-size') == '45px');
 ```
 
-يجب أن يكون للفئة `.text-4` الخاص بك `font-size` بقيمة 60px.
+Your `.text-4` class should have a `font-size` of 60px.
 
 ```js
 assert($('.text-4').css('font-size') == '60px');
 ```
 
-يجب أن يكون للفئة `.text-5` الخاص بك `font-size` بقيمة 75px.
+Your `.text-5` class should have a `font-size` of 75px.
 
 ```js
 assert($('.text-5').css('font-size') == '75px');

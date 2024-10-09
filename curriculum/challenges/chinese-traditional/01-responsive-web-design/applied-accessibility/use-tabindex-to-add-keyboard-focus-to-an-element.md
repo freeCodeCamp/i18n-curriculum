@@ -1,6 +1,6 @@
 ---
 id: 587d7790367417b2b2512ab0
-title: 使用 tabindex 將鍵盤焦點添加到元素中
+title: Use tabindex to Add Keyboard Focus to an Element
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cmzMDHW'
 forumTopicId: 301027
@@ -9,29 +9,29 @@ dashedName: use-tabindex-to-add-keyboard-focus-to-an-element
 
 # --description--
 
-HTML 的 `tabindex` 屬性有三種與標籤焦點相關的功能。 當它在一個元素上時，表示該元素可以獲得焦點。 tabindex 的值（可以是零、負整數或正整數）定義了行爲。
+The HTML `tabindex` attribute has three distinct functions relating to an element's keyboard focus. When it's on a tag, it indicates that the element can be focused on. The value (an integer that's positive, negative, or zero) determines the behavior.
 
-當用戶使用鍵盤瀏覽頁面時，諸如鏈接、表單控件等元素可以自動獲得焦點。 它們獲得焦點的順序與它們出現在 HTML 文檔流中的順序一致。 我們可以通過將其他標籤（如 `div`、`span`、`p` 等）的 `tabindex` 屬性值設爲 0 來讓它們實現類似的效果。 比如：
+Certain elements, such as links and form controls, automatically receive keyboard focus when a user tabs through a page. It's in the same order as the elements come in the HTML source markup. This same functionality can be given to other elements, such as `div`, `span`, and `p`, by placing a `tabindex="0"` attribute on them. Here's an example:
 
 ```html
 <div tabindex="0">I need keyboard focus!</div>
 ```
 
-**注意：** `tabindex` 屬性值爲負整數（通常爲 -1）的標籤也是可以獲得焦點的，只是不可以通過鍵盤操作（如 tab 鍵）來獲得焦點。 這種方法通常用於以編程的方式使內容獲得焦點（如：將焦點設置到用 `div` 實現的彈出框上）的場景。 只是這部分內容已經超出了當前挑戰的範圍。
+**Note:** A negative `tabindex` value (typically -1) indicates that an element is focusable, but is not reachable by the keyboard. This method is generally used to bring focus to content programmatically (like when a `div` used for a pop-up window is activated), and is beyond the scope of these challenges.
 
 # --instructions--
 
-Camper Cat 新建了一個用來收集他的用戶信息的調查。 他知道輸入框可以自動獲得鍵盤焦點，但他希望用戶使用鍵盤切換標籤時，焦點可以停留在指示文字（Instructions）上。 請給 `p` 標籤添加一個 `tabindex` 屬性，將屬性值設置爲 `0`。 注意：使用 `tabindex` 屬性還可以讓 CSS 僞類 `:focus` 在 `p` 標籤上生效。
+Camper Cat created a new survey to collect information about his users. He knows input fields automatically get keyboard focus, but he wants to make sure his keyboard users pause at the instructions while tabbing through the items. Add a `tabindex` attribute to the `p` tag and set its value to `0`. Bonus - using `tabindex` also enables the CSS pseudo-class `:focus` to work on the `p` tag.
 
 # --hints--
 
-表單中，作爲指示文字（Instructions）的 `p` 標籤應具有 `tabindex` 屬性。
+Your code should add a `tabindex` attribute to the `p` tag that holds the form instructions.
 
 ```js
 assert.isNotNull(document.querySelector('p')?.getAttribute('tabindex'));
 ```
 
-`p` 標籤的 `tabindex` 屬性值應設置爲 0。
+Your code should set the `tabindex` attribute on the `p` tag to a value of 0.
 
 ```js
 assert.equal(document.querySelector('p')?.getAttribute('tabindex'), '0');

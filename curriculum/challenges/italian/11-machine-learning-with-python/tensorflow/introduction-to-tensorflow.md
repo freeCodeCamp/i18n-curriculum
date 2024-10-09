@@ -1,6 +1,6 @@
 ---
 id: 5e8f2f13c4cdbe86b5c72d88
-title: Introduzione a TensorFlow
+title: Introduction to TensorFlow
 challengeType: 11
 videoId: r9hRyGGjOgQ
 bilibiliIds:
@@ -18,11 +18,11 @@ The next few video lessons will reference [this Colab notebook](https://colab.re
 
 ## --text--
 
-Quale dei seguenti elementi **non** è un tipo di tensore?
+Which of the following is **not** a type of tensor?
 
 ## --answers--
 
-Variabile
+Variable
 
 ---
 
@@ -30,7 +30,7 @@ Flowing
 
 ---
 
-Segnaposto (placeholder)
+Placeholder
 
 ---
 
@@ -38,7 +38,7 @@ SparseTensor
 
 ---
 
-Costante
+Constant
 
 ## --video-solution--
 

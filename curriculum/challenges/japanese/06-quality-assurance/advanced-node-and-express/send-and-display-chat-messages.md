@@ -1,6 +1,6 @@
 ---
 id: 589fc832f9fc0f352b528e79
-title: チャットメッセージを送信して表示する
+title: Send and Display Chat Messages
 challengeType: 2
 forumTopicId: 301562
 dashedName: send-and-display-chat-messages
@@ -8,7 +8,7 @@ dashedName: send-and-display-chat-messages
 
 # --description--
 
-ここでは、クライアントからサーバーにチャットメッセージを送信できるようにし、サーバーからすべてのクライアントにエミットできるようにします。 `client.js` ファイルには、すでにメッセージフォームの送信時の処理を行うコードブロックが用意されています。
+It's time you start allowing clients to send a chat message to the server to emit to all the clients! In your `client.js` file, you should see there is already a block of code handling when the message form is submitted.
 
 ```js
 $('form').submit(function() {
@@ -16,23 +16,23 @@ $('form').submit(function() {
 });
 ```
 
-フォームの送信コードの中で、`messageToSend` を定義した後、ただしテキストボックス `#m` をクリアする前に、イベントをエミットする必要があります。 イベント名は `'chat message'` にし、データは `messageToSend` にする必要があります。
+Within the form submit code, you should emit an event after you define `messageToSend` but before you clear the text box `#m`. The event should be named `'chat message'` and the data should just be `messageToSend`.
 
 ```js
 socket.emit('chat message', messageToSend);
 ```
 
-次に、サーバー上でソケットをリッスンし、 `message` というデータを持つイベント `'chat message'` を受信する必要があります。 Once the event is received, it should emit the event `'chat message'` to all sockets using `io.emit`, sending a data object containing the `username` and `message`.
+Now, on your server, you should be listening to the socket for the event `'chat message'` with the data being named `message`. Once the event is received, it should emit the event `'chat message'` to all sockets using `io.emit`, sending a data object containing the `username` and `message`.
 
 In `client.js`, you should now listen for event `'chat message'` and, when received, append a list item to `#messages` with the username, a colon, and the message!
 
-この時点でチャットが完全に機能し、すべてのクライアントにメッセージが送信されるはずです！
+At this point, the chat should be fully functional and sending messages across all clients!
 
-正しいと思ったら、ページを送信してください。 エラーが発生している場合、<a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#send-and-display-chat-messages-11" target="_blank" rel="noopener noreferrer nofollow">この時点までの完成形のコードをこちらで確認できます</a>。
+Submit your page when you think you've got it right. If you're running into errors, you can <a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#send-and-display-chat-messages-11" target="_blank" rel="noopener noreferrer nofollow">check out the project completed up to this point</a>.
 
 # --hints--
 
-サーバーは、`'chat message'` をリッスンして正しくエミットする必要があります。
+Server should listen for `'chat message'` and then emit it properly.
 
 ```js
 async (getUserInput) => {
@@ -47,7 +47,7 @@ async (getUserInput) => {
 }
 ```
 
-クライアントは、イベント `'chat message'` から受信した新しいデータを適切に処理して表示する必要があります。
+Client should properly handle and display the new data from event `'chat message'`.
 
 ```js
 async (getUserInput) => {

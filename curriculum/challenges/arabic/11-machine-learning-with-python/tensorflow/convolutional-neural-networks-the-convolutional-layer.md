@@ -30,5 +30,5 @@ Input size, input padding, and stride.
 
 ## --video-solution--
 
-الأول
+1
 

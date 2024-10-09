@@ -1,6 +1,6 @@
 ---
 id: 587d781c367417b2b2512ac3
-title: Impostare lo spessore del carattere per più elementi di intestazione
+title: Set the font-weight for Multiple Heading Elements
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/crVWRHq'
 forumTopicId: 301069
@@ -9,17 +9,17 @@ dashedName: set-the-font-weight-for-multiple-heading-elements
 
 # --description--
 
-Hai impostatio il `font-size` per ogni tag di intestazione nell'ultima sfida, qui potrai regolare il `font-weight`.
+You set the `font-size` of each heading tag in the last challenge, here you'll adjust the `font-weight`.
 
-La proprietà `font-weight` imposta quanto grossi o sottili devono apparire i caratteri in una sezione di testo.
+The `font-weight` property sets how thick or thin characters are in a section of text.
 
 # --instructions--
 
-<ul><li>Imposta il <code>font-weight</code> del tag <code>h1</code> a 800.</li><li>Imposta il <code>font-weight</code> del tag <code>h2</code> a 600.</li><li>Imposta il <code>font-weight</code> del tag <code>h3</code> a 500.</li><li>Imposta il <code>font-weight</code> del tag <code>h4</code> a 400.</li><li>Imposta il <code>font-weight</code> del tag <code>h5</code> a 300.</li><li>Imposta il <code>font-weight</code> del tag <code>h6</code> a 200.</li></ul>
+<ul><li>Set the <code>font-weight</code> of the <code>h1</code> tag to 800.</li><li>Set the <code>font-weight</code> of the <code>h2</code> tag to 600.</li><li>Set the <code>font-weight</code> of the <code>h3</code> tag to 500.</li><li>Set the <code>font-weight</code> of the <code>h4</code> tag to 400.</li><li>Set the <code>font-weight</code> of the <code>h5</code> tag to 300.</li><li>Set the <code>font-weight</code> of the <code>h6</code> tag to 200.</li></ul>
 
 # --hints--
 
-Il tuo codice dovrebbe impostare proprietà `font-weight` per il tag `h1` a 800.
+Your code should set the `font-weight` property for the `h1` tag to 800.
 
 ```js
 const h1Element =document.querySelector('h1')
@@ -27,7 +27,7 @@ const h1Style = window.getComputedStyle(h1Element);
 assert.equal(h1Style?.fontWeight, '800');
 ```
 
-Il tuo codice dovrebbe impostare la proprietà `font-weight` per il tag `h2` a 600.
+Your code should set the `font-weight` property for the `h2` tag to 600.
 
 ```js
 const h2Element =document.querySelector('h2')
@@ -35,7 +35,7 @@ const h2Style = window.getComputedStyle(h2Element);
 assert.equal(h2Style?.fontWeight, '600');
 ```
 
-Il tuo codice dovrebbe impostare la proprietà `font-weight` per il tag `h3` a 500.
+Your code should set the `font-weight` property for the `h3` tag to 500.
 
 ```js
 const h3Element =document.querySelector('h3')
@@ -43,7 +43,7 @@ const h3Style = window.getComputedStyle(h3Element);
 assert.equal(h3Style?.fontWeight, '500');
 ```
 
-Il tuo codice dovrebbe impostare proprietà `font-weight` per il tag `h4` a 400.
+Your code should set the `font-weight` property for the `h4` tag to 400.
 
 ```js
 const h4Element =document.querySelector('h4')
@@ -51,7 +51,7 @@ const h4Style = window.getComputedStyle(h4Element);
 assert.equal(h4Style?.fontWeight, '400');
 ```
 
-Il tuo codice dovrebbe impostare la proprietà `font-weight` per il tag `h5` a 300.
+Your code should set the `font-weight` property for the `h5` tag to 300.
 
 ```js
 const h5Element =document.querySelector('h5')
@@ -59,7 +59,7 @@ const h5Style = window.getComputedStyle(h5Element);
 assert.equal(h5Style?.fontWeight, '300');
 ```
 
-Il tuo codice dovrebbe impostare proprietà `font-weight` per il tag `h6` a 200.
+Your code should set the `font-weight` property for the `h6` tag to 200.
 
 ```js
 const h6Element =document.querySelector('h6')

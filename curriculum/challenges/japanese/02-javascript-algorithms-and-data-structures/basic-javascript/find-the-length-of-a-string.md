@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c448eddfaeb5bdef
-title: 文字列の長さの取得
+title: Find the Length of a String
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cvmqEAd'
 forumTopicId: 18182
@@ -9,23 +9,23 @@ dashedName: find-the-length-of-a-string
 
 # --description--
 
-文字列変数または文字列リテラルの後に `.length` と記述することで、`String` 値の長さを取得することができます。
+You can find the length of a `String` value by writing `.length` after the string variable or string literal.
 
 ```js
 console.log("Alan Peter".length);
 ```
 
-コンソールに `10` の値が表示されます。 なお、"Alan" と "Peter" の間のスペースも文字としてカウントされます。
+The value `10` would be displayed in the console. Note that the space character between "Alan" and "Peter" is also counted.
 
-たとえば、変数 `const firstName = "Ada"` を作成した場合、`firstName.length` プロパティを使用して文字列 `Ada` の長さを取得できます。
+For example, if we created a variable `const firstName = "Ada"`, we could find out how long the string `Ada` is by using the `firstName.length` property.
 
 # --instructions--
 
-`.length` プロパティを使って、`lastNameLength` に `lastName` の文字数を設定します。
+Use the `.length` property to set `lastNameLength` to the number of characters in `lastName`.
 
 # --hints--
 
-`// Setup` セクションの変数宣言を変更しないでください。
+You should not change the variable declarations in the `// Setup` section.
 
 ```js
 assert(
@@ -34,13 +34,13 @@ assert(
 );
 ```
 
-`lastNameLength` は 8 になる必要があります。
+`lastNameLength` should be equal to eight.
 
 ```js
 assert(typeof lastNameLength !== 'undefined' && lastNameLength === 8);
 ```
 
-`lastName.length` のように、`.length` を使用して `lastName` の長さを取得する必要があります。
+You should be getting the length of `lastName` by using `.length` like this: `lastName.length`.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/=\s*lastName\.length/g) && !__helpers.removeJSComments(code).match(/lastName\s*=\s*8/));

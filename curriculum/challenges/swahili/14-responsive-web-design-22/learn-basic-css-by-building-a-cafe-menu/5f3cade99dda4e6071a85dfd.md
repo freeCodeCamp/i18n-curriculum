@@ -1,35 +1,35 @@
 ---
 id: 5f3cade99dda4e6071a85dfd
-title: Hatua ya 46
+title: Step 46
 challengeType: 0
 dashedName: step-46
 ---
 
 # --description--
 
-Utarudi kutengeneza menyu katika hatua chache, lakini kwa sasa, endelea na uongeze kipengele cha pili cha `section` chini ya cha kwanza kwa ajili ya kuonyesha vitandamra vinavyotolewa na mkahawa.
+You will come back to styling the menu in a few steps, but for now, go ahead and add a second `section` element below the first for displaying the desserts offered by the cafe.
 
 # --hints--
 
-Unapaswa kuwa na tagi ya kufungua `section`.
+You should have an opening `section` tag.
 
 ```js
 assert.lengthOf(code.match(/<section>/ig) ,2);
 ```
 
-Unapaswa kuwa na tagi ya kufunga ya `section`.
+You should have a closing `section` tag.
 
 ```js
 assert.lengthOf(code.match(/<\/section>/ig) ,2);
 ```
 
-Hupaswi kubadilisha kipengele cha `main` kilichopo.
+You should not change the existing `main` element.
 
 ```js
 assert.lengthOf (document.querySelectorAll('main'), 1);
 ```
 
-Kipengee chako kipya cha `section` kinapaswa kuwekwa katika kipengele cha `main`.
+Your new `section` element should be nested in the `main` element.
 
 ```js
 const main = document.querySelector('main');

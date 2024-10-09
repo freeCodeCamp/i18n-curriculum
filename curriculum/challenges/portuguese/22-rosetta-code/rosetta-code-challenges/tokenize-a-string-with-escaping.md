@@ -1,6 +1,6 @@
 ---
 id: 594faaab4e2a8626833e9c3d
-title: Tokenizar uma string com escape
+title: Tokenize a string with escaping
 challengeType: 1
 forumTopicId: 302338
 dashedName: tokenize-a-string-with-escaping
@@ -8,71 +8,71 @@ dashedName: tokenize-a-string-with-escaping
 
 # --description--
 
-Escreva uma função ou programa que possa dividir uma string em cada ocorrência sem escape de um caractere separador.
+Write a function or program that can split a string at each non-escaped occurrence of a separator character.
 
-Ela deve aceitar três parâmetros de entrada:
-
-<ul>
-  <li>A <strong>string</strong></li>
-  <li>O <strong>caractere separador</strong></li>
-  <li>O <strong>caractere de escape</strong></li>
-</ul>
-
-Ela deve ter como saída uma lista de strings.
-
-Regras para a divisão:
+It should accept three input parameters:
 
 <ul>
-  <li>Os campos que foram separados pelos separadores se tornam os elementos da lista de saída.</li>
-  <li>Campos vazios devem ser preservados, mesmo no início e no fim.</li>
+  <li>The <strong>string</strong></li>
+  <li>The <strong>separator character</strong></li>
+  <li>The <strong>escape character</strong></li>
 </ul>
 
-Regras para o escape:
+It should output a list of strings.
+
+Rules for splitting:
 
 <ul>
-  <li>Com "escape" significa precedido por uma ocorrência do caractere de escape, que já não estiver escapado por si mesmo.</li>
-  <li>Quando o caractere de escape preceder um caractere que não tem nenhum significado especial, ele ainda conta como um escape (mas não faz nada especial).</li>
-  <li>Cada ocorrência do caractere de escape que for usada para fazer o escape de algo não deve se tornar parte do resultado.</li>
+  <li>The fields that were separated by the separators, become the elements of the output list.</li>
+  <li>Empty fields should be preserved, even at the start and end.</li>
 </ul>
 
-Demonstre que sua função satisfaz o seguinte caso de teste:
+Rules for escaping:
 
-Dada a string
+<ul>
+  <li>"Escaped" means preceded by an occurrence of the escape character that is not already escaped itself.</li>
+  <li>When the escape character precedes a character that has no special meaning, it still counts as an escape (but does not do anything special).</li>
+  <li>Each occurrences of the escape character that was used to escape something, should not become part of the output.</li>
+</ul>
+
+Demonstrate that your function satisfies the following test-case:
+
+Given the string
 
 <pre>one^|uno||three^^^^|four^^^|^cuatro|</pre>
 
-e usando `|` como separador e `^` como caractere de escape, a função deve dar como resultado o seguinte array:
+and using `|` as a separator and `^` as escape character, your function should output the following array:
 
 <pre>  ['one|uno', '', 'three^^', 'four^|cuatro', '']
 </pre>
 
 # --hints--
 
-`tokenize` deve ser uma função.
+`tokenize` should be a function.
 
 ```js
 assert(typeof tokenize === 'function');
 ```
 
-`tokenize` deve retornar um array.
+`tokenize` should return an array.
 
 ```js
 assert(typeof tokenize('a', 'b', 'c') === 'object');
 ```
 
-`tokenize('one^|uno||three^^^^|four^^^|^cuatro|', '|', '^')` deve retornar `['one|uno', '', 'three^^', 'four^|cuatro', '']`
+`tokenize('one^|uno||three^^^^|four^^^|^cuatro|', '|', '^')` should return `['one|uno', '', 'three^^', 'four^|cuatro', '']`
 
 ```js
 assert.deepEqual(tokenize(testStr1, '|', '^'), res1);
 ```
 
-`tokenize('a@&bcd&ef&&@@hi', '&', '@')` deve retornar `['a&bcd', 'ef', '', '@hi']`
+`tokenize('a@&bcd&ef&&@@hi', '&', '@')` should return `['a&bcd', 'ef', '', '@hi']`
 
 ```js
 assert.deepEqual(tokenize(testStr2, '&', '@'), res2);
 ```
 
-`tokenize('hello^|world|how^are^you^|', '|', '^')` deve retornar `['hello|world', 'howareyou|']`
+`tokenize('hello^|world|how^are^you^|', '|', '^')` should return `['hello|world', 'howareyou|']`
 
 ```js
 assert.deepEqual(tokenize(testStr3, '|', '^'), res3);

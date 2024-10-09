@@ -1,6 +1,6 @@
 ---
 id: 587d78ad367417b2b2512af8
-title: 使用 align-items 屬性對齊元素
+title: Align Elements Using the align-items Property
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVaDAv/c8aggtk'
 forumTopicId: 301101
@@ -9,25 +9,26 @@ dashedName: align-elements-using-the-align-items-property
 
 # --description--
 
-`align-items` 屬性與 `justify-content` 類似。 回憶一下，`justify-content` 屬性使 flex 子元素沿主軸排列。 行的主軸是水平線，列的主軸是垂直線。
+The `align-items` property is similar to `justify-content`. Recall that the `justify-content` property aligned flex items along the main axis. For rows, the main axis is a horizontal line and for columns it is a vertical line.
 
-Flex 容器中，與主軸垂直的叫做 **cross axis（交叉軸）**。 行的交叉軸是垂直的，列的交叉軸是水平的。
+Flex containers also have a **cross axis** which is the opposite of the main axis. For rows, the cross axis is vertical and for columns, the cross axis is horizontal.
 
-CSS 中的 `align-items` 屬性用來定義 flex 子元素沿交叉軸的對齊方式。 對行來說，定義的是元素的上下對齊方式； 對列來說，是定義元素的左右對齊方式。
+CSS offers the `align-items` property to align flex items along the cross axis. For a row, it tells CSS how to push the items in the entire row up or down within the container. And for a column, how to push all the items left or right within the container.
 
-`align-items` 的可選值包括：
+The different values available for `align-items` include:
 
-<ul><li><code>flex-start</code>：從 flex 容器的起始位置開始對齊項目。 對行來說，把項目移至容器頂部； 對列來說，是把項目移至容器左邊。</li><li><code>flex-end</code>：從 flex 容器的終止位置開始對齊項目。 對行來說，把項目移至容器底部； 對列來說，把項目移至容器右邊。</li><li><code>center</code>：把項目居中放置。 對行來說，垂直居中（項目距離頂部和底部的距離相等）； 對列來說，水平居中（項目距離左邊和右邊的距離相等）。</li><li><code>stretch</code>：拉伸項目，填滿 flex 容器。 例如，排成行的項目從容器頂部拉伸到底部。 如未設置<code>align-items</code>的值，那麼這就是默認值。</li><li><code>baseline</code>：沿基線對齊。 基線是文本相關的概念，可以認爲它是字母排列的下端基準線。</li></ul>
+<ul><li><code>flex-start</code>: aligns items to the start of the flex container. For rows, this aligns items to the top of the container. For columns, this aligns items to the left of the container.</li><li><code>flex-end</code>: aligns items to the end of the flex container. For rows, this aligns items to the bottom of the container. For columns, this aligns items to the right of the container.</li><li><code>center</code>: align items to the center. For rows, this vertically aligns items (equal space above and below the items). For columns, this horizontally aligns them (equal space to the left and right of the items).</li><li><code>stretch</code>: stretch the items to fill the flex container. For example, rows items are stretched to fill the flex container top-to-bottom. This is the default value if no <code>align-items</code> value is specified.</li><li><code>baseline</code>: align items to their baselines. Baseline is a text concept, think of it as the line that the letters sit on.</li></ul>
 
 # --instructions--
 
-這個例子可以幫助你理解這個屬性。 請在 `#box-container` 裏添加 CSS 屬性 `align-items` 並將值設爲 `center`。
+An example helps show this property in action. Add the CSS property `align-items` to the `#box-container` element, and give it a value of `center`.
 
-**提示：** 請在編輯器裏試試 `align-items` 的其他值，看看它們之間的區別。 但要通過挑戰，你必須把屬性值設爲 `center`。
+**Bonus**  
+Try the other options for the `align-items` property in the code editor to see their differences. But note that a value of `center` is the only one that will pass this challenge.
 
 # --hints--
 
-`#box-container` 所選擇的元素應有 `align-items` 屬性，且其屬性值應爲 `center`。
+The `#box-container` element should have an `align-items` property set to a value of `center`.
 
 ```js
 assert($('#box-container').css('align-items') == 'center');

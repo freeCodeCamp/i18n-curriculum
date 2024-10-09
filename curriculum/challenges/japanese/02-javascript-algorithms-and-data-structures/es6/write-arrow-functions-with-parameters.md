@@ -1,6 +1,6 @@
 ---
 id: 587d7b88367417b2b2512b44
-title: パラメーターのあるアロー関数を記述する
+title: Write Arrow Functions with Parameters
 challengeType: 1
 forumTopicId: 301223
 dashedName: write-arrow-functions-with-parameters
@@ -8,49 +8,49 @@ dashedName: write-arrow-functions-with-parameters
 
 # --description--
 
-通常の関数と同様に、アロー関数にも引数を渡すことができます。
+Just like a regular function, you can pass arguments into an arrow function.
 
 ```js
 const doubler = (item) => item * 2;
 doubler(4);
 ```
 
-`doubler(4)` は値 `8` を返します。
+`doubler(4)` would return the value `8`.
 
-アロー関数のパラメーターが 1 つしかない場合は、パラメーターを囲む丸括弧を省略してもかまいません。
+If an arrow function has a single parameter, the parentheses enclosing the parameter may be omitted.
 
 ```js
 const doubler = item => item * 2;
 ```
 
-複数の引数をアロー関数に渡すこともできます。
+It is possible to pass more than one argument into an arrow function.
 
 ```js
 const multiplier = (item, multi) => item * multi;
 multiplier(4, 2);
 ```
 
-`multiplier(4, 2)` は値 `8` を返します。
+`multiplier(4, 2)` would return the value `8`.
 
 # --instructions--
 
-`arr2` の内容を `arr1` の末尾に追加する `myConcat` 関数を書き換えて、アロー関数の構文を使用してください。
+Rewrite the `myConcat` function which appends contents of `arr2` to `arr1` so that the function uses arrow function syntax.
 
 # --hints--
 
-`var` キーワードを置き換える必要があります。
+You should replace the `var` keyword.
 
 ```js
 assert.notMatch(code, /var/g);
 ```
 
-`myConcat` は (`const` を使用して宣言した) 定数変数である必要があります。
+`myConcat` should be a constant variable (by using `const`).
 
 ```js
 assert.match(code, /const\s+myConcat/g);
 ```
 
-`myConcat` は、2 つのパラメーターを持つアロー関数にする必要があります。
+`myConcat` should be an arrow function with two parameters
 
 ```js
 assert(
@@ -59,13 +59,13 @@ assert(
 );
 ```
 
-`myConcat()` は `[1, 2, 3, 4, 5]` を返す必要があります。
+`myConcat()` should return `[1, 2, 3, 4, 5]`.
 
 ```js
 assert.deepEqual(myConcat([1, 2], [3, 4, 5]), [1, 2, 3, 4, 5]);
 ```
 
-`function` キーワードは使用しないでください。
+The `function` keyword should not be used.
 
 ```js
 assert.notMatch(code, /function/g);

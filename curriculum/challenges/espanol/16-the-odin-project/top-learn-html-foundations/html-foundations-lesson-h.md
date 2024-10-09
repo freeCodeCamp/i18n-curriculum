@@ -1,31 +1,31 @@
 ---
 id: 637633162724a688c04636e4
-title: Fundamentos de HTML lección H
+title: HTML Foundations Lesson H
 challengeType: 15
 dashedName: html-foundations-lesson-h
 ---
 
 # --description--
 
-Muchos recursos útiles ahí afuera siguen refiriéndose a HTML y CSS como lenguajes de programación, pero si quieres ser técnico, etiquetarlos así no es del todo exacto. Esto se debe a que solo se preocupan por presentar información. No se usan para programar lógica. JavaScript, que aprenderás en la próxima sección, es un lenguaje de programación porque se usa para hacer que las páginas web hagan cosas. Sin embargo, hay mucho que puedes hacer solo con HTML y CSS, y definitivamente los necesitarás ambos. A lo largo de nuestro currículo, las siguientes lecciones se enfocan en darte las herramientas que necesitas para tener éxito una vez que llegues al contenido de JavaScript.
+Many helpful resources out there keep referring to HTML and CSS as programming languages, but if you want to get technical, labeling them as such is not quite accurate. This is because they are only concerned with presenting information. They are not used to program logic. JavaScript, which you will learn in the next section, is a programming language because it’s used to make webpages do things. Yet, there is quite a lot you can do with just HTML and CSS, and you will definitely need them both. Throughout our curriculum, the following lessons focus on giving you the tools you need to succeed once you reach JavaScript content.
 
 # --questions--
 
 ## --text--
 
-¿Por qué HTML y CSS no se clasifican típicamente como lenguajes de programación?
+Why are HTML and CSS not typically classified as programming languages?
 
 ## --answers--
 
-Carecen de la capacidad para crear páginas web.
+They lack the ability to create webpages.
 
 ---
 
-Se enfocan en presentar información en lugar de programar lógica.
+They focus on presenting information rather than programming logic.
 
 ---
 
-Son tecnologías obsoletas.
+They are outdated technologies.
 
 ## --video-solution--
 

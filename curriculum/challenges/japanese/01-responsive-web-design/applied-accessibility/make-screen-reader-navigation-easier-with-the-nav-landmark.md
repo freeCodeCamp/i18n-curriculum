@@ -1,6 +1,6 @@
 ---
 id: 587d7788367417b2b2512aa2
-title: nav の目印でスクリーンリーダーのナビゲーションを容易にする
+title: Make Screen Reader Navigation Easier with the nav Landmark
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/czVwWSv'
 forumTopicId: 301024
@@ -9,23 +9,23 @@ dashedName: make-screen-reader-navigation-easier-with-the-nav-landmark
 
 # --description--
 
-`nav` 要素もまた、スクリーンリーダーのナビゲーションを容易にするために目印を埋め込む機能を持つ HTML5 アイテムです。 このタグはページ内のメインナビゲーションリンクを囲うためのものです。
+The `nav` element is another HTML5 item with the embedded landmark feature for easy screen reader navigation. This tag is meant to wrap around the main navigation links in your page.
 
-ページ下部に繰り返し表示されるサイトリンクがある場合は、さらにこれらを `nav` タグでマークアップする必要はありません。 (次のチャレンジで取り上げる) `footer` を使用するだけで十分です。
+If there are repeated site links at the bottom of the page, it isn't necessary to markup those with a `nav` tag as well. Using a `footer` (covered in the next challenge) is sufficient.
 
 # --instructions--
 
-Camper Cat はトレーニングページの上部にナビゲーションリンクを設置しましたが、それを `div` で囲っています。 ページのアクセシビリティが向上させるために、`div` タグを `nav` タグに変更してください。
+Camper Cat included navigation links at the top of his training page, but wrapped them in a `div`. Change the `div` to a `nav` tag to improve the accessibility on his page.
 
 # --hints--
 
-コードには `nav` タグが 1 つ必要です。
+Your code should have one `nav` tag.
 
 ```js
 assert.lengthOf(document.querySelectorAll('nav') , 1);
 ```
 
-`nav` タグは `ul` とそのリストの項目を囲む必要があります。
+Your `nav` tags should wrap around the `ul` and its list items.
 
 ```js
 const nav = document.querySelector('nav');
@@ -33,13 +33,13 @@ const children = nav?.querySelectorAll(`:scope ${'ul'}`);
 assert.lengthOf(children,1);
 ```
 
-コードに `div` タグを含めないでください。
+Your code should not have any `div` tags.
 
 ```js
 assert.lengthOf(document.querySelectorAll('div') , 0);
 ```
 
-`nav` 要素には終了タグが必要です。
+Your `nav` element should have a closing tag.
 
 ```js
 assert.isTrue(code.match(/<\/nav>/g)?.length === code.match(/<nav>/g)?.length);

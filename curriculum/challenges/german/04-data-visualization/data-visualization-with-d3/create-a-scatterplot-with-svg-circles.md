@@ -1,6 +1,6 @@
 ---
 id: 587d7fab367417b2b2512bd7
-title: Erstelle ein Streudiagramm mit SVG-Kreisen
+title: Create a Scatterplot with SVG Circles
 challengeType: 6
 forumTopicId: 301484
 dashedName: create-a-scatterplot-with-svg-circles
@@ -8,19 +8,19 @@ dashedName: create-a-scatterplot-with-svg-circles
 
 # --description--
 
-Ein Streudiagramm ist eine andere Art der Visualisierung. Es verwendet in der Regel Kreise, um Datenpunkte zuzuordnen, die jeweils zwei Werte haben. Diese Werte sind an die Achsen `x` und `y` gebunden und werden verwendet, um den Kreis in der Visualisierung zu positionieren.
+A scatter plot is another type of visualization. It usually uses circles to map data points, which have two values each. These values tie to the `x` and `y` axes, and are used to position the circle in the visualization.
 
-SVG hat ein `circle`-Tag um die Kreisform zu erstellen. Es funktioniert sehr ähnlich wie die `rect`-Elemente, die du für das Balkendiagramm verwendet hast.
+SVG has a `circle` tag to create the circle shape. It works a lot like the `rect` elements you used for the bar chart.
 
 # --instructions--
 
-Verwende die `data()`-, `enter()`- und `append()`-Methoden, um `dataset` an neue `circle`-Elemente zu binden, die der SVG hinzugefügt werden.
+Use the `data()`, `enter()`, and `append()` methods to bind `dataset` to new `circle` elements that are appended to the SVG.
 
-**Hinweis:** Die Kreise werden nicht sichtbar sein, weil wir ihre Attribute noch nicht gesetzt haben. Wir werden das bei der nächsten Aufgabe machen.
+**Note:** The circles won't be visible because we haven't set their attributes yet. We'll do that in the next challenge.
 
 # --hints--
 
-Dein Code sollte 10 `circle`-Elemente enthalten.
+Your code should have 10 `circle` elements.
 
 ```js
 assert($('circle').length == 10);

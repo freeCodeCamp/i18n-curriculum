@@ -1,6 +1,6 @@
 ---
 id: 587d8256367417b2b2512c77
-title: Список суміжності
+title: Adjacency List
 challengeType: 1
 forumTopicId: 301620
 dashedName: adjacency-list
@@ -8,11 +8,11 @@ dashedName: adjacency-list
 
 # --description--
 
-Графи можуть бути представлені різними способами. У цьому завданні розглянемо один з них, який називають <dfn>списком суміжності</dfn>. По суті, список суміжності — це маркований список, зліва якого є вершина, а справа перераховуються всі інші вершини, з якими вона з’єднана. Нижче наведено представлення списку суміжності.
+Graphs can be represented in different ways. Here we describe one way, which is called an <dfn>adjacency list</dfn>. An adjacency list is essentially a bulleted list where the left side is the node and the right side lists all the other nodes it's connected to. Below is a representation of an adjacency list.
 
-<blockquote>Вершина1: Вершина2, Вершина3<br>Вершина2: Вершина1<br>Вершина3: Вершина1</blockquote>
+<blockquote>Node1: Node2, Node3<br>Node2: Node1<br>Node3: Node1</blockquote>
 
-Вищенаведений приклад є неорієнтованим графом, оскільки `Вершина1` з’єднана з `Вершина2` та `Вершина3`, і ця інформація відповідає з’єднанню `Вершина2` та `Вершина3`. Список суміжності для орієнтованого графа означатиме, що кожен ряд списку показує напрямок. Якби наведений вище граф був орієнтованим, то `Вершина2: Вершина1` означало б, що ребро вказує напрямок від `Вершина2` до `Вершина1`. Ми можемо представити згаданий вище неорієнтований граф у вигляді списку суміжності, помістивши його в об’єкті JavaScript.
+Above is an undirected graph because `Node1` is connected to `Node2` and `Node3`, and that information is consistent with the connections `Node2` and `Node3` show. An adjacency list for a directed graph would mean each row of the list shows direction. If the above was directed, then `Node2: Node1` would mean there the directed edge is pointing from `Node2` towards `Node1`. We can represent the undirected graph above as an adjacency list by putting it within a JavaScript object.
 
 ```js
 var undirectedG = {
@@ -22,7 +22,7 @@ var undirectedG = {
 };
 ```
 
-Також його можна легше представити у вигляді масиву, де мітками вершин є числа, а не рядки.
+This can also be more simply represented as an array where the nodes just have numbers rather than string labels.
 
 ```js
 var undirectedGArr = [
@@ -34,17 +34,17 @@ var undirectedGArr = [
 
 # --instructions--
 
-Створіть соціальну мережу у вигляді неорієнтованого графа з 4 вершинами/людьми, яких звати `James`, `Jill`, `Jenny` та `Jeff`. Між `James` та `Jeff`, `Jill` та `Jenny`, `Jeff` та `Jenny` існують ребра/зв’язки.
+Create a social network as an undirected graph with 4 nodes/people named `James`, `Jill`, `Jenny`, and `Jeff`. There are edges/relationships between James and Jeff, Jill and Jenny, and Jeff and Jenny.
 
 # --hints--
 
-`undirectedAdjList` має містити лише чотири вершини.
+`undirectedAdjList` should only contain four nodes.
 
 ```js
 assert(Object.keys(undirectedAdjList).length === 4);
 ```
 
-Між `Jeff` та `James` має бути ребро.
+There should be an edge between `Jeff` and `James`.
 
 ```js
 assert(
@@ -53,7 +53,7 @@ assert(
 );
 ```
 
-Між `Jill` та `Jenny` має бути ребро.
+There should be an edge between `Jill` and `Jenny`.
 
 ```js
 assert(
@@ -62,7 +62,7 @@ assert(
 );
 ```
 
-Між `Jeff` та `Jenny` має бути ребро.
+There should be an edge between `Jeff` and `Jenny`.
 
 ```js
 assert(

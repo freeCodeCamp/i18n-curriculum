@@ -13,15 +13,15 @@ In this exercise, you will explore the phrase `pique one's interest`. This phras
 
 # --fillInTheBlank--
 
-## Frases
+## --sentence--
 
 `I BLANK a course in organizational BLANK, and it BLANK my interest in the workplace and employee dynamics.`
 
-## Palabra correcta
+## --blanks--
 
 `took`
 
-### --retroalimentación--
+### --feedback--
 
 This word refers to the action of participating in or completing a course.
 
@@ -29,7 +29,7 @@ This word refers to the action of participating in or completing a course.
 
 `psychology`
 
-### --retroalimentación--
+### --feedback--
 
 This word describes the study of the mind and behavior, particularly in a workplace setting in this context.
 
@@ -37,7 +37,7 @@ This word describes the study of the mind and behavior, particularly in a workpl
 
 `piqued`
 
-### --retroalimentación--
+### --feedback--
 
 This word means to arouse or stimulate interest or curiosity. You should correctly use its simple past tense.
 

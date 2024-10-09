@@ -1,6 +1,6 @@
 ---
 id: 587d7787367417b2b2512aa1
-title: Rahisisha Uelekezaji wa Kisoma skrini kwa kutumia alama kuu ya kichwa
+title: Make Screen Reader Navigation Easier with the header Landmark
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cB76vtv'
 forumTopicId: 301023
@@ -9,25 +9,25 @@ dashedName: make-screen-reader-navigation-easier-with-the-header-landmark
 
 # --description--
 
-Kipengele kinachofuata cha HTML5 kinachoongeza maana ya kisemantiki na kuboresha ufikivu ni lebo ya `header`. Hutumika kufunga maelezo ya utangulizi au viungo vya usogezaji kwa lebo yake kuu na hufanya kazi vyema katika maudhui ambayo yanarudiwa katika sehemu ya juu kwenye kurasa nyingi.
+The next HTML5 element that adds semantic meaning and improves accessibility is the `header` tag. It's used to wrap introductory information or navigation links for its parent tag and works well around content that's repeated at the top on multiple pages.
 
-`header` hushiriki kipengele muhimu kilichopachikwa ulichokiona na `main`, ikiruhusu teknolojia saidizi kuelekeza kwa maudhui hayo kwa haraka.
+`header` shares the embedded landmark feature you saw with `main`, allowing assistive technologies to quickly navigate to that content.
 
-**Kumbuka:** `header` inakusudiwa kutumika katika lebo ya `body` ya hati yako ya HTML. Ni tofauti na kipengele cha `head`, ambacho kina kichwa cha ukurasa, taarifa ya meta n.k.
+**Note:** The `header` is meant for use in the `body` tag of your HTML document. It is different than the `head` element, which contains the page's title, meta information, etc.
 
 # --instructions--
 
-Camper Cat anaandika baadhi ya nakala nzuri kuhusu mafunzo ya ninja, na anataka kuwaongezea ukurasa kwenye tovuti yake. Badilisha `div` ya juu ambayo kwa sasa ina `h1` kuwa `header` badala yake.
+Camper Cat is writing some great articles about ninja training, and wants to add a page for them to his site. Change the top `div` that currently contains the `h1` to a `header` tag instead.
 
 # --hints--
 
-Code yako unapaswa kuwa na lebo moja ya `header`.
+Your code should have one `header` tag.
 
 ```js
 assert.lengthOf(document.querySelectorAll('header'),1);
 ```
 
-Lebo zako za `header` zinapaswa kuzunguka `h1`.
+Your `header` tags should wrap around the `h1`.
 
 ```js
 const header = document.querySelector('header');
@@ -35,13 +35,13 @@ const children = header?.querySelectorAll(`:scope ${'h1'}`);
 assert.lengthOf(children , 1);
 ```
 
-Code yako haipaswi kuwa na lebo zozote za `div`.
+Your code should not have any `div` tags.
 
 ```js
 assert.lengthOf(document.querySelectorAll('div') , 0);
 ```
 
-Kipengele chako cha `header` kinapaswa kuwa na lebo ya kufunga.
+Your `header` element should have a closing tag.
 
 ```js
 assert.isTrue(code.match(/<\/header>/g)?.length === code.match(/<header>/g)?.length);

@@ -1,6 +1,6 @@
 ---
 id: 598e8944f009e646fc236146
-title: فهم القيم غير المحددة المنتجة من وظيفة
+title: Understanding Undefined Value returned from a Function
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/ce2p7cL'
 forumTopicId: 301177
@@ -9,9 +9,9 @@ dashedName: understanding-undefined-value-returned-from-a-function
 
 # --description--
 
-تستطيع الوظيفة أن تتضمن عبارة `return` ولكن ليست ملزمة بفعل ذلك. في حالة أن الوظيفة لا تحتوي على عبارة `return`، عند تفعيلها، يتم معالجة الكود الداخلي في الوظيفة، ولكن القيمة المنتجة تكون `undefined`.
+A function can include the `return` statement but it does not have to. In the case that the function doesn't have a `return` statement, when you call it, the function processes the inner code but the returned value is `undefined`.
 
-**مثال**
+**Example**
 
 ```js
 let sum = 0;
@@ -23,33 +23,33 @@ function addSum(num) {
 addSum(3);
 ```
 
-الوظيفة `addSum` بدون `return`. ستغير الوظيفة قيمة المتغير الشامل `sum`، ولكن تكون القيمة المنتجة للوظيفة هي `undefined`.
+`addSum` is a function without a `return` statement. The function will change the global `sum` variable but the returned value of the function is `undefined`.
 
 # --instructions--
 
-أنشئ وظيفة `addFive` دون أي معطيات. تضيف الوظيفة 5 إلى متغير `sum` ولكن تكون القيمة المنتجة `undefined`.
+Create a function `addFive` without any arguments. This function adds 5 to the `sum` variable, but its returned value is `undefined`.
 
 # --hints--
 
-يجب أن تكون `addFive` وظيفة.
+`addFive` should be a function.
 
 ```js
 assert(typeof addFive === 'function');
 ```
 
-بمجرد تشغيل كلا الوظيفتين، يجب أن يكون `sum` يساوي `8`.
+Once both functions have run, the `sum` should be equal to `8`.
 
 ```js
 assert(sum === 8);
 ```
 
-يجب أن تنتج `addFive` القيمة `undefined`.
+Returned value from `addFive` should be `undefined`.
 
 ```js
 assert(addFive() === undefined);
 ```
 
-داخل وظيفة `addFive`، يجب عليك إضافة `5` إلى المتغير `sum`.
+Inside the `addFive` function, you should add `5` to the `sum` variable.
 
 ```js
 assert(

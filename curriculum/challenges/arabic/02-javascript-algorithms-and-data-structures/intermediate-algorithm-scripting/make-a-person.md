@@ -1,6 +1,6 @@
 ---
 id: a2f1d72d9b908d0bd72bb9f6
-title: اصنع شخصا (Make a Person)
+title: Make a Person
 challengeType: 1
 forumTopicId: 16020
 dashedName: make-a-person
@@ -8,7 +8,7 @@ dashedName: make-a-person
 
 # --description--
 
-املأ الـ object constructor بالـ methods التالية أدناه:
+Fill in the object constructor with the following methods below:
 
 ```js
 getFirstName()
@@ -19,7 +19,7 @@ setLastName(last)
 setFullName(first, last)
 ```
 
-قم بتشغيل الاختبارات لرؤية المخرجات المتوقعة لكل method. يجب أن تكون هذه الـ methods هي الوسيلة الوحيدة المتاحة للتفاعل مع الـ object. Each test will declare a new `Person` instance as `new Person('Bob', 'Ross')`.
+Run the tests to see the expected output for each method. These methods must be the only available means of interacting with the object. Each test will declare a new `Person` instance as `new Person('Bob', 'Ross')`.
 
 # --hints--
 

@@ -1,6 +1,6 @@
 ---
 id: adf08ec01beb4f99fc7a68f2
-title: 偽値を取り除く「用心棒」
+title: Falsy Bouncer
 challengeType: 1
 forumTopicId: 16014
 dashedName: falsy-bouncer
@@ -8,39 +8,39 @@ dashedName: falsy-bouncer
 
 # --description--
 
-すべての偽値を配列から取り除いてください。 元の配列は変更せずに、新しい配列を返してください。
+Remove all falsy values from an array. Return a new array; do not mutate the original array.
 
-JavaScriptにおける偽値とは、`false`、`null`、`0`、`""`、`undefined`、そして `NaN` です。
+Falsy values in JavaScript are `false`, `null`, `0`, `""`, `undefined`, and `NaN`.
 
-ヒント: それぞれの値をブール値に変換してみてください。
+Hint: Try converting each value to a Boolean.
 
 # --hints--
 
-`bouncer([7, "ate", "", false, 9])` は `[7, "ate", 9]` を返す必要があります。
+`bouncer([7, "ate", "", false, 9])` should return `[7, "ate", 9]`.
 
 ```js
 assert.deepEqual(bouncer([7, 'ate', '', false, 9]), [7, 'ate', 9]);
 ```
 
-`bouncer(["a", "b", "c"])` は `["a", "b", "c"]` を返す必要があります。
+`bouncer(["a", "b", "c"])` should return `["a", "b", "c"]`.
 
 ```js
 assert.deepEqual(bouncer(['a', 'b', 'c']), ['a', 'b', 'c']);
 ```
 
-`bouncer([false, null, 0, NaN, undefined, ""])` は `[]` を返す必要があります。
+`bouncer([false, null, 0, NaN, undefined, ""])` should return `[]`.
 
 ```js
 assert.deepEqual(bouncer([false, null, 0, NaN, undefined, '']), []);
 ```
 
-`bouncer([null, NaN, 1, 2, undefined])` は `[1, 2]` を返す必要があります。
+`bouncer([null, NaN, 1, 2, undefined])` should return `[1, 2]`.
 
 ```js
 assert.deepEqual(bouncer([null, NaN, 1, 2, undefined]), [1, 2]);
 ```
 
-`arr` は変更しないでください。
+You should not mutate `arr`.
 
 ```js
 const arr = ['a', false, 0, 'Naomi'];

@@ -1,6 +1,6 @@
 ---
 id: 5e8f2f13c4cdbe86b5c72d88
-title: Introdução ao TensorFlow
+title: Introduction to TensorFlow
 challengeType: 11
 videoId: r9hRyGGjOgQ
 bilibiliIds:
@@ -12,25 +12,25 @@ dashedName: introduction-to-tensorflow
 
 # --description--
 
-As próximas aulas em vídeo farão referência a [este Colab notebook](https://colab.research.google.com/drive/1F_EWVKa8rbMXi3_fG0w7AtcscFq7Hi7B#forceEdit=true&sandboxMode=true).
+The next few video lessons will reference [this Colab notebook](https://colab.research.google.com/drive/1F_EWVKa8rbMXi3_fG0w7AtcscFq7Hi7B#forceEdit=true&sandboxMode=true).
 
 # --questions--
 
 ## --text--
 
-Qual das seguintes etapas **não** é um tipo de tensor?
+Which of the following is **not** a type of tensor?
 
 ## --answers--
 
-Variável
+Variable
 
 ---
 
-De fluxo
+Flowing
 
 ---
 
-De espaço reservado
+Placeholder
 
 ---
 
@@ -38,7 +38,7 @@ SparseTensor
 
 ---
 
-Constante
+Constant
 
 ## --video-solution--
 

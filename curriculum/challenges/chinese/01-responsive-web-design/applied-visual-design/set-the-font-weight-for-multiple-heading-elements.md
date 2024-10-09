@@ -1,6 +1,6 @@
 ---
 id: 587d781c367417b2b2512ac3
-title: 设置多个标题元素的 font-weight
+title: Set the font-weight for Multiple Heading Elements
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/crVWRHq'
 forumTopicId: 301069
@@ -9,17 +9,17 @@ dashedName: set-the-font-weight-for-multiple-heading-elements
 
 # --description--
 
-在上一个挑战里我们已经为每个标题设置了 `font-size`，接下来我们将要设置 `font-weight`。
+You set the `font-size` of each heading tag in the last challenge, here you'll adjust the `font-weight`.
 
-`font-weight` 属性用于设置文本中字体的粗细。
+The `font-weight` property sets how thick or thin characters are in a section of text.
 
 # --instructions--
 
-<ul><li>设置 <code>h1</code> 标签的 <code>font-weight</code> 为 800。</li><li>设置 <code>h2</code> 标签的 <code>font-weight</code> 为 600。</li><li>设置 <code>h3</code> 标签的 <code>font-weight</code> 为 500。</li><li>设置 <code>h4</code> 标签的 <code>font-weight</code> 为 400。</li><li>设置 <code>h5</code> 标签的 <code>font-weight</code> 为 300。</li><li>设置 <code>h6</code> 标签的 <code>font-weight</code> 为 200。</li></ul>
+<ul><li>Set the <code>font-weight</code> of the <code>h1</code> tag to 800.</li><li>Set the <code>font-weight</code> of the <code>h2</code> tag to 600.</li><li>Set the <code>font-weight</code> of the <code>h3</code> tag to 500.</li><li>Set the <code>font-weight</code> of the <code>h4</code> tag to 400.</li><li>Set the <code>font-weight</code> of the <code>h5</code> tag to 300.</li><li>Set the <code>font-weight</code> of the <code>h6</code> tag to 200.</li></ul>
 
 # --hints--
 
-`h1` 标签的 `font-weight` 属性值应为 800。
+Your code should set the `font-weight` property for the `h1` tag to 800.
 
 ```js
 const h1Element =document.querySelector('h1')
@@ -27,7 +27,7 @@ const h1Style = window.getComputedStyle(h1Element);
 assert.equal(h1Style?.fontWeight, '800');
 ```
 
-`h2` 标签的 `font-weight` 属性值应为 600。
+Your code should set the `font-weight` property for the `h2` tag to 600.
 
 ```js
 const h2Element =document.querySelector('h2')
@@ -35,7 +35,7 @@ const h2Style = window.getComputedStyle(h2Element);
 assert.equal(h2Style?.fontWeight, '600');
 ```
 
-`h3` 标签的 `font-weight` 属性值应为 500。
+Your code should set the `font-weight` property for the `h3` tag to 500.
 
 ```js
 const h3Element =document.querySelector('h3')
@@ -43,7 +43,7 @@ const h3Style = window.getComputedStyle(h3Element);
 assert.equal(h3Style?.fontWeight, '500');
 ```
 
-`h4` 标签的 `font-weight` 属性值应为 400。
+Your code should set the `font-weight` property for the `h4` tag to 400.
 
 ```js
 const h4Element =document.querySelector('h4')
@@ -51,7 +51,7 @@ const h4Style = window.getComputedStyle(h4Element);
 assert.equal(h4Style?.fontWeight, '400');
 ```
 
-`h5` 标签的 `font-weight` 属性值应为 300。
+Your code should set the `font-weight` property for the `h5` tag to 300.
 
 ```js
 const h5Element =document.querySelector('h5')
@@ -59,7 +59,7 @@ const h5Style = window.getComputedStyle(h5Element);
 assert.equal(h5Style?.fontWeight, '300');
 ```
 
-`h6` 标签的 `font-weight` 属性值应为 200。
+Your code should set the `font-weight` property for the `h6` tag to 200.
 
 ```js
 const h6Element =document.querySelector('h6')

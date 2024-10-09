@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d4036148
-title: إيصال Redux إلى تطبيق الرسائل
+title: Connect Redux to the Messages App
 challengeType: 6
 forumTopicId: 301427
 dashedName: connect-redux-to-the-messages-app
@@ -8,17 +8,17 @@ dashedName: connect-redux-to-the-messages-app
 
 # --description--
 
-الآن بعد أن فهمت كيفية استخدام `connect` لتوصيل React إلى Redux، يمكنك تطبيق ما تعلمته على مكون React الخاص بك الذي يتعامل مع الرسائل.
+Now that you understand how to use `connect` to connect React to Redux, you can apply what you've learned to your React component that handles messages.
 
-في الدرس الأخير، المكون الذي يتصل إلى Redux يسما `Presentational`، وهذا لم يكن غير مقصود. هذا المصطلح *عمومًا* يشير إلى مكونات React غير متصلة قاصدًا إلى Redux. وهم ببساطة مسؤولون عن عرض واجهة المستخدم ويفعلون ذلك كوظيفة (function) من الميزات (props) التي يتلقُها. وعلى النقيض من ذلك، فإن مكونات المحتوي موصولة إلى Redux. وعادة ما تكون هذه المؤسسات مسؤولة عن إرسال (dispatching) الإجراءات (actions) إلى المتجر (store) وكثيراً ما تنقل إلى مكونات (components) الفرعية كميزات (props).
+In the last lesson, the component you connected to Redux was named `Presentational`, and this wasn't arbitrary. This term *generally* refers to React components that are not directly connected to Redux. They are simply responsible for the presentation of UI and do this as a function of the props they receive. By contrast, container components are connected to Redux. These are typically responsible for dispatching actions to the store and often pass store state to child components as props.
 
 # --instructions--
 
-محرر التعليمات البرمجية لديه كل التعليمات البرمجية التي كتبتها في هذا القسم حتى الآن. التغيير الوحيد هو أن مكون React قد أعيد تسميته إلى `Presentational`. أنشئ مكون جديد محتفظ به في ثابتة تسمى `Container` التي تستخدم `connect` لربط مكون `Presentational` ألى Redux. ثم في `AppWrapper`، انتج مكون React المربوط ألى Redux باسم`Provider`. مرر `Provider` من `store` في Redux كمِيزة (prop) وتنشئ `Container` كفرع. بمجرد إعداد كل شيء، سترى تطبيق الرسائل الذي يتم أنتاجه إلى الصفحة مرة أخرى.
+The code editor has all the code you've written in this section so far. The only change is that the React component is renamed to `Presentational`. Create a new component held in a constant called `Container` that uses `connect` to connect the `Presentational` component to Redux. Then, in the `AppWrapper`, render the React Redux `Provider` component. Pass `Provider` the Redux `store` as a prop and render `Container` as a child. Once everything is set up, you will see the messages app rendered to the page again.
 
 # --hints--
 
-يجب أن ينشئ `AppWrapper` إلى الصفحة.
+The `AppWrapper` should render to the page.
 
 ```js
 assert(
@@ -29,7 +29,7 @@ assert(
 );
 ```
 
-يجب أن يقدم مكون `Presentational` إلى الصفحة.
+The `Presentational` component should render to page.
 
 ```js
 assert(
@@ -40,7 +40,7 @@ assert(
 );
 ```
 
-يجب أن ينشئ مكون `Presentational` عناصر `h2`، و `input`، و `button`، و `ul`.
+The `Presentational` component should render an `h2`, `input`, `button`, and `ul` elements.
 
 ```js
 assert(
@@ -57,7 +57,7 @@ assert(
 );
 ```
 
-يجب أن يتلقى مكون `Presentational` مِيزة (prop) باسم `messages` من متجر Redux.
+The `Presentational` component should receive `messages` from the Redux store as a prop.
 
 ```js
 assert(
@@ -70,7 +70,7 @@ assert(
 );
 ```
 
-يجب أن يتلقى عنصر `Presentational` مِيزة (prop) على هيئة منشئ أجراء (action creator) باسم `submitMessage`.
+The `Presentational` component should receive the `submitMessage` action creator as a prop.
 
 ```js
 assert(

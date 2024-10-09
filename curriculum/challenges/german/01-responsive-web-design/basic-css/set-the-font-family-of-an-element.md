@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aede08807
-title: Lege die Schriftfamilie eines Elements fest
+title: Set the Font Family of an Element
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/c3bvpCg'
 forumTopicId: 18278
@@ -9,9 +9,9 @@ dashedName: set-the-font-family-of-an-element
 
 # --description--
 
-Du kannst die Schriftfamilie eines Elements mit der `font-family`-Eigenschaft festlegen.
+You can set which font an element should use, by using the `font-family` property.
 
-Möchtest du beispielsweise die Schrift deines `h2`-Elements auf `sans-serif` setzen, würdest du Folgendes schreiben:
+For example, if you wanted to set your `h2` element's font to `sans-serif`, you would use the following CSS:
 
 ```css
 h2 {
@@ -21,11 +21,11 @@ h2 {
 
 # --instructions--
 
-Weise allen `p`-Elementen eine `monospace`-Schriftart zu.
+Make all of your `p` elements use the `monospace` font.
 
 # --hints--
 
-Deine `p`-Elemente sollten die Schriftfamilie `monospace` verwenden.
+Your `p` elements should use the font `monospace`.
 
 ```js
 assert(

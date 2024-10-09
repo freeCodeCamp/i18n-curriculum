@@ -1,6 +1,6 @@
 ---
 id: 5cd9a70215d3c4e65518328f
-title: Використання рекурсії для створення зворотного відліку
+title: Use Recursion to Create a Countdown
 challengeType: 1
 forumTopicId: 305925
 dashedName: use-recursion-to-create-a-countdown
@@ -8,11 +8,11 @@ dashedName: use-recursion-to-create-a-countdown
 
 # --description--
 
-У <a href="/ukrainian/learn/javascript-algorithms-and-data-structures/basic-javascript/replace-loops-using-recursion" target="_blank" rel="noopener noreferrer nofollow">попередньому завданні</a> ви дізнались, як використовувати рекурсію для заміни циклів `for`. Тепер розглянемо складнішу функцію, яка повертає масив послідовних цілих чисел, починаючи з `1` та закінчуючи переданим числом.
+In a <a href="/learn/javascript-algorithms-and-data-structures/basic-javascript/replace-loops-using-recursion" target="_blank" rel="noopener noreferrer nofollow">previous challenge</a>, you learned how to use recursion to replace a `for` loop. Now, let's look at a more complex function that returns an array of consecutive integers starting with `1` through the number passed to the function.
 
-Як було згадано в попередньому завданні, ми матимемо <dfn>базовий випадок</dfn>. Він повідомляє рекурсивній функції, коли їй більше не потрібно викликати саму себе. Це простий випадок, коли повернене значення вже відоме. Також існує <dfn>рекурсивний виклик</dfn>, який виконує початкову функцію з різними аргументами. Якщо функція написана правильно, то буде досягнутий базовий випадок.
+As mentioned in the previous challenge, there will be a <dfn>base case</dfn>. The base case tells the recursive function when it no longer needs to call itself. It is a simple case where the return value is already known. There will also be a <dfn>recursive call</dfn> which executes the original function with different arguments. If the function is written correctly, eventually the base case will be reached.
 
-Скажімо, ви хочете написати рекурсивну функцію, що повертає масив, який містить числа від `1` до `n`. Цій функції потрібно прийняти аргумент `n`, який позначає кінцеве число. Тоді їй потрібно викликати саму себе, поступово зменшуючи значення числа `n`, поки воно не досягне `1`. Ви можете написати функцію наступним чином:
+For example, say you want to write a recursive function that returns an array containing the numbers `1` through `n`. This function will need to accept an argument, `n`, representing the final number. Then it will need to call itself with progressively smaller values of `n` until it reaches `1`. You could write the function as follows:
 
 ```javascript
 function countup(n) {
@@ -27,35 +27,35 @@ function countup(n) {
 console.log(countup(5));
 ```
 
-Консоль показуватиме значення `[1, 2, 3, 4, 5]`.
+The value `[1, 2, 3, 4, 5]` will be displayed in the console.
 
-Спочатку це може здатися парадоксальним, адже значення `n` *зменшується*, а значення у кінцевому масиві *збільшується*. Так відбувається через те, що збільшення відбувається останнім, після повернення рекурсивного виклику. На моменті, коли `n` поміщається у масив, `countup(n - 1)` вже проаналізовано та повернуто `[1, 2, ..., n - 1]`.
+At first, this seems counterintuitive since the value of `n` *decreases*, but the values in the final array are *increasing*. This happens because the push happens last, after the recursive call has returned. At the point where `n` is pushed into the array, `countup(n - 1)` has already been evaluated and returned `[1, 2, ..., n - 1]`.
 
 # --instructions--
 
-Ми вже визначили функцію під назвою `countdown` з одним параметром (`n`). Функція повинна використовувати рекурсію, щоб повернути масив, який містить цілі числа від `n` до `1` на основі параметра `n`. Якщо функція викликається числом, меншим за 1, вона повинна повернути порожній масив. Наприклад, якщо викликати цю функцію із `n = 5`, повинен повернутися масив `[5, 4, 3, 2, 1]`. Ваша функція повинна використовувати рекурсію, викликаючи саму себе, та не повинна використовувати цикли.
+We have defined a function called `countdown` with one parameter (`n`). The function should use recursion to return an array containing the integers `n` through `1` based on the `n` parameter. If the function is called with a number less than 1, the function should return an empty array. For example, calling this function with `n = 5` should return the array `[5, 4, 3, 2, 1]`. Your function must use recursion by calling itself and must not use loops of any kind.
 
 # --hints--
 
-`countdown(-1)` має повертати порожній масив.
+`countdown(-1)` should return an empty array.
 
 ```js
 assert.isEmpty(countdown(-1));
 ```
 
-`countdown(10)` має повертати `[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]`
+`countdown(10)` should return `[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]`
 
 ```js
 assert.deepStrictEqual(countdown(10), [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]);
 ```
 
-`countdown(5)` має повертати `[5, 4, 3, 2, 1]`
+`countdown(5)` should return `[5, 4, 3, 2, 1]`
 
 ```js
 assert.deepStrictEqual(countdown(5), [5, 4, 3, 2, 1]);
 ```
 
-Ваш код не повинен опиратися на жодні цикли (`for`, `while` або функції вищого порядку, як-от `forEach`, `map`, `filter` або `reduce`).
+Your code should not rely on any kind of loops (`for`, `while` or higher order functions such as `forEach`, `map`, `filter`, and `reduce`).
 
 ```js
 assert(
@@ -63,7 +63,7 @@ assert(
 );
 ```
 
-Ви повинні використати рекурсію, щоб розв’язати це завдання.
+You should use recursion to solve this problem.
 
 ```js
 assert(
@@ -71,7 +71,7 @@ assert(
 );
 ```
 
-Не використовуйте глобальні змінні для кешування масиву.
+Global variables should not be used to cache the array.
 
 ```js
 countdown(1)

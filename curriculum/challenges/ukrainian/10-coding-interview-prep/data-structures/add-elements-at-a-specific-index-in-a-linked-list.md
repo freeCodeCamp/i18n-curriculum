@@ -1,6 +1,6 @@
 ---
 id: 587d8252367417b2b2512c67
-title: Додайте елементи до зв’язаного списку за індексом
+title: Add Elements at a Specific Index in a Linked List
 challengeType: 1
 forumTopicId: 301619
 dashedName: add-elements-at-a-specific-index-in-a-linked-list
@@ -8,15 +8,15 @@ dashedName: add-elements-at-a-specific-index-in-a-linked-list
 
 # --description--
 
-Створимо метод `addAt(index,element)`, який додає елемент за заданим індексом. Як і при видаленні елементів за певним індексом, нам потрібно прослідкувати поточний індекс під час проходження зв’язаного списку. Коли поточний індекс відповідає заданому, потрібно перепризначити властивість `next` попереднього вузла, щоб посилатись на новий доданий вузол. Новий вузол повинен посилатися на наступний вузол з поточним індексом. Повернемось до прикладу з колоною: нова людина хоче приєднатися до колони, але посередині. Ви знаходитеся посередині, тому забираєте руки від людини перед вами. Нова людина підходить і кладе руки на ту людину, за яку ви тримались раніше; тепер ваші руки знаходяться на новій людині.
+Let's create a addAt(index,element) method that adds an element at a given index. Just like how we remove elements at a given index, we need to keep track of the currentIndex as we traverse the linked list. When the currentIndex matches the given index, we would need to reassign the previous node's next property to reference the new added node. And the new node should reference the next node in the currentIndex. Returning to the conga line example, a new person wants to join the line, but he wants to join in the middle. You are in the middle of the line, so you take your hands off of the person ahead of you. The new person walks over and puts his hands on the person you once had hands on, and you now have your hands on the new person.
 
 # --instructions--
 
-Створимо метод `addAt(index,element)`, який додає елемент за заданим індексом. Метод має повернути `false`, якщо елемент неможливо додати. **Примітка:** не забудьте перевірити, чи заданий індекс від’ємний або більший за довжину зв’язаного списку.
+Create an `addAt(index,element)` method that adds an element at a given index. Return false if an element could not be added. **Note:** Remember to check if the given index is a negative or is longer than the length of the linked list.
 
 # --hints--
 
-Метод `addAt` має перепризначити `head` до нового вузла, якщо заданий індекс дорівнює 0.
+Your `addAt` method should reassign `head` to the new node when the given index is 0.
 
 ```js
 assert(
@@ -30,7 +30,7 @@ assert(
 );
 ```
 
-Метод `addAt` має збільшити довжину зв’язаного списку на одиницю після кожного нового вузла, доданого до цього списку.
+Your `addAt` method should increase the length of the linked list by one for each new node added to the linked list.
 
 ```js
 assert(
@@ -44,7 +44,7 @@ assert(
 );
 ```
 
-Метод `addAt` має повернути `false`, якщо вузол не вдалося додати.
+Your `addAt` method should return `false` if a node was unable to be added.
 
 ```js
 assert(

@@ -1,6 +1,6 @@
 ---
 id: 587d7db6367417b2b2512b9b
-title: 怠惰なマッチングで文字を検索する
+title: Find Characters with Lazy Matching
 challengeType: 1
 forumTopicId: 301341
 dashedName: find-characters-with-lazy-matching
@@ -8,35 +8,35 @@ dashedName: find-characters-with-lazy-matching
 
 # --description--
 
-正規表現では、<dfn>貪欲な</dfn>マッチは、正規表現パターンに合致した文字列の中で可能な限り最も長い部分を見つけ、それをマッチとして返します。 別の方法として<dfn>怠惰な</dfn>マッチと呼ばれるものがあり、これは正規表現パターンを満たす文字列の中で可能な限り最も短い部分を見つけます。
+In regular expressions, a <dfn>greedy</dfn> match finds the longest possible part of a string that fits the regex pattern and returns it as a match. The alternative is called a <dfn>lazy</dfn> match, which finds the smallest possible part of the string that satisfies the regex pattern.
 
-たとえば正規表現 `/t[a-z]*i/` を文字列 `"titanic"` に適用してみましょう。 この正規表現は基本的には、`t` で始まり、`i` で終わり、その間にいくつかの文字があるパターンです。
+You can apply the regex `/t[a-z]*i/` to the string `"titanic"`. This regex is basically a pattern that starts with `t`, ends with `i`, and has some letters in between.
 
-正規表現はデフォルトでは貪欲モードなので、マッチは `["titani"]` を返します。 つまり、パターンに合致する最も長い部分文字列を見つけます。
+Regular expressions are by default greedy, so the match would return `["titani"]`. It finds the largest sub-string possible to fit the pattern.
 
-一方で、`?` 文字を使用して怠惰なマッチングに変更することができます。 修正後の正規表現 `/t[a-z]*?i/` に対して `"titanic"` を適用すると、マッチとして `["ti"]` を返します。
+However, you can use the `?` character to change it to lazy matching. `"titanic"` matched against the adjusted regex of `/t[a-z]*?i/` returns `["ti"]`.
 
-**注:** HTML を正規表現で解析することは避けるべきですが、正規表現を使用した HTML 文字列のパターンマッチングはまったく問題ありません。
+**Note:** Parsing HTML with regular expressions should be avoided, but pattern matching an HTML string with regular expressions is completely fine.
 
 # --instructions--
 
-正規表現 `/<.*>/` を修正して、テキスト `"<h1>Winter is coming</h1>"` ではなく、HTML タグ `<h1>` を返すようにしてください。 正規表現のワイルドカード `.` は任意の文字にマッチすることを覚えておいてください。
+Fix the regex `/<.*>/` to return the HTML tag `<h1>` and not the text `"<h1>Winter is coming</h1>"`. Remember the wildcard `.` in a regular expression matches any character.
 
 # --hints--
 
-`result` 変数は `<h1>` を含む配列になる必要があります。
+The `result` variable should be an array with `<h1>` in it
 
 ```js
 assert(result[0] == '<h1>');
 ```
 
-`myRegex` で怠惰なマッチングを使用する必要があります。
+`myRegex` should use lazy matching
 
 ```js
 assert(/[^\\][\*\+\?]\?/.test(myRegex));
 ```
 
-`myRegex` に文字列 `h1` を含めないでください。
+`myRegex` should not include the string `h1`
 
 ```js
 assert(!myRegex.source.match('h1'));
