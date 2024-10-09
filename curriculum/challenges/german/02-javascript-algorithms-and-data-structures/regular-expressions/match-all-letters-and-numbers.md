@@ -1,6 +1,6 @@
 ---
 id: 587d7db7367417b2b2512b9f
-title: Alle Buchstaben und Zahlen finden
+title: Match All Letters and Numbers
 challengeType: 1
 forumTopicId: 301346
 dashedName: match-all-letters-and-numbers
@@ -8,9 +8,9 @@ dashedName: match-all-letters-and-numbers
 
 # --description--
 
-Mithilfe von Zeichenklassen konntest du mit `[a-z]` nach allen Buchstaben des Alphabets suchen. Diese Art von Zeichenklasse ist so häufig, dass es eine Kurzform dafür gibt, obwohl sie auch ein paar zusätzliche Zeichen enthält.
+Using character classes, you were able to search for all letters of the alphabet with `[a-z]`. This kind of character class is common enough that there is a shortcut for it, although it includes a few extra characters as well.
 
-Die nächstgelegene Zeichenklasse in JavaScript, die dem Alphabet entspricht, ist `\w`. Diese Kurzform ist gleich `[A-Za-z0-9_]`. Diese Zeichenklasse umfasst Groß- und Kleinbuchstaben sowie Zahlen. Beachte, dass diese Zeichenklasse auch das Unterstrichzeichen \[Underscore\] (`_`) enthält.
+The closest character class in JavaScript to match the alphabet is `\w`. This shortcut is equal to `[A-Za-z0-9_]`. This character class matches upper and lowercase letters plus numbers. Note, this character class also includes the underscore character (`_`).
 
 ```js
 let longHand = /[A-Za-z0-9_]+/;
@@ -23,29 +23,29 @@ longHand.test(varNames);
 shortHand.test(varNames);
 ```
 
-Alle vier dieser `test`-Aufrufe würden `true` zurückgeben.
+All four of these `test` calls would return `true`.
 
-Diese Kurzformen von Zeichenklassen sind auch als <dfn>Kurzzeichen-Klassen</dfn> bekannt.
+These shortcut character classes are also known as <dfn>shorthand character classes</dfn>.
 
 # --instructions--
 
-Verwende die Kurzzeichen-Klasse `\w`, um die Anzahl der alphanumerischen Zeichen in verschiedenen Zitaten und Strings zu zählen.
+Use the shorthand character class `\w` to count the number of alphanumeric characters in various quotes and strings.
 
 # --hints--
 
-Dein regulärer Ausdruck sollte den globalen Flag verwenden.
+Your regex should use the global flag.
 
 ```js
 assert(alphabetRegexV2.global);
 ```
 
-Dein regulärer Ausdruck sollte das Kurzzeichen `\w` verwenden, um alle alphanumerischen Zeichen zu finden.
+Your regex should use the shorthand character `\w` to match all characters which are alphanumeric.
 
 ```js
 assert(/\\w/.test(alphabetRegexV2.source));
 ```
 
-Dein regulärer Ausdruck sollte 31 alphanumerische Zeichen in dem String `The five boxing wizards jump quickly.` finden.
+Your regex should find 31 alphanumeric characters in the string `The five boxing wizards jump quickly.`
 
 ```js
 assert(
@@ -53,7 +53,7 @@ assert(
 );
 ```
 
-Dein regulärer Ausdruck sollte 32 alphanumerische Zeichen in dem String `Pack my box with five dozen liquor jugs.` finden.
+Your regex should find 32 alphanumeric characters in the string `Pack my box with five dozen liquor jugs.`
 
 ```js
 assert(
@@ -62,7 +62,7 @@ assert(
 );
 ```
 
-Dein regulärer Ausdruck sollte 30 alphanumerische Zeichen in dem String `How vexingly quick daft zebras jump!` finden.
+Your regex should find 30 alphanumeric characters in the string `How vexingly quick daft zebras jump!`
 
 ```js
 assert(
@@ -70,7 +70,7 @@ assert(
 );
 ```
 
-Dein regulärer Ausdruck sollte 36 alphanumerische Zeichen in dem String `123 456 7890 ABC def GHI jkl MNO pqr STU vwx YZ.` finden.
+Your regex should find 36 alphanumeric characters in the string `123 456 7890 ABC def GHI jkl MNO pqr STU vwx YZ.`
 
 ```js
 assert(

@@ -1,6 +1,6 @@
 ---
 id: 587d7db7367417b2b2512b9f
-title: Збіги усіх літер та чисел
+title: Match All Letters and Numbers
 challengeType: 1
 forumTopicId: 301346
 dashedName: match-all-letters-and-numbers
@@ -8,9 +8,9 @@ dashedName: match-all-letters-and-numbers
 
 # --description--
 
-Використовуючи символьні класи, ви знайшли всі літери алфавіту за допомогою `[a-z]`. Такий тип символьних класів настільки популярний, що для нього існує скорочення, хоча воно й містить декілька додаткових символів.
+Using character classes, you were able to search for all letters of the alphabet with `[a-z]`. This kind of character class is common enough that there is a shortcut for it, although it includes a few extra characters as well.
 
-Символьним класом, який дозволяє виконати найближчий збіг з алфавітом, є `\w`. Це скорочення дорівнює `[A-Za-z0-9_]`. Цей символьний клас відповідає великим і малим літерам та числам. Зверніть увагу, що цей символьний клас також містить знак підкреслення (`_`).
+The closest character class in JavaScript to match the alphabet is `\w`. This shortcut is equal to `[A-Za-z0-9_]`. This character class matches upper and lowercase letters plus numbers. Note, this character class also includes the underscore character (`_`).
 
 ```js
 let longHand = /[A-Za-z0-9_]+/;
@@ -23,29 +23,29 @@ longHand.test(varNames);
 shortHand.test(varNames);
 ```
 
-Усі чотири виклики `test` повернуть `true`.
+All four of these `test` calls would return `true`.
 
-Скорочені позначення символьних класів також відомі як <dfn>скорочені символьні класи</dfn>.
+These shortcut character classes are also known as <dfn>shorthand character classes</dfn>.
 
 # --instructions--
 
-Використайте скорочений символьний клас `\w`, щоб підрахувати кількість алфавітно-цифрових символів у різних цитатах і рядках.
+Use the shorthand character class `\w` to count the number of alphanumeric characters in various quotes and strings.
 
 # --hints--
 
-Ваш регулярний вираз має використати глобальний прапорець.
+Your regex should use the global flag.
 
 ```js
 assert(alphabetRegexV2.global);
 ```
 
-Ваш регулярний вираз має використати скорочений символ `\w`, щоб збігатись з усіма алфавітно-цифровими символами.
+Your regex should use the shorthand character `\w` to match all characters which are alphanumeric.
 
 ```js
 assert(/\\w/.test(alphabetRegexV2.source));
 ```
 
-Ваш регулярний вираз повинен знайти 31 алфавітно-цифровий символ у рядку `The five boxing wizards jump quickly.`
+Your regex should find 31 alphanumeric characters in the string `The five boxing wizards jump quickly.`
 
 ```js
 assert(
@@ -53,7 +53,7 @@ assert(
 );
 ```
 
-Ваш регулярний вираз повинен знайти 32 алфавітно-цифрових символів у рядку `Pack my box with five dozen liquor jugs.`
+Your regex should find 32 alphanumeric characters in the string `Pack my box with five dozen liquor jugs.`
 
 ```js
 assert(
@@ -62,7 +62,7 @@ assert(
 );
 ```
 
-Ваш регулярний вираз повинен знайти 30 алфавітно-цифрових символів у рядку `How vexingly quick daft zebras jump!`
+Your regex should find 30 alphanumeric characters in the string `How vexingly quick daft zebras jump!`
 
 ```js
 assert(
@@ -70,7 +70,7 @@ assert(
 );
 ```
 
-Ваш регулярний вираз повинен знайти 36 алфавітно-цифрових символів у рядку `123 456 7890 ABC def GHI jkl MNO pqr STU vwx YZ.`
+Your regex should find 36 alphanumeric characters in the string `123 456 7890 ABC def GHI jkl MNO pqr STU vwx YZ.`
 
 ```js
 assert(

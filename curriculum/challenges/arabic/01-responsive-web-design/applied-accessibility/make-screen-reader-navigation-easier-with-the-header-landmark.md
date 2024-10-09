@@ -1,6 +1,6 @@
 ---
 id: 587d7787367417b2b2512aa1
-title: تسهيل تصفح قارئ الشاشة مع علامة الرأس header
+title: Make Screen Reader Navigation Easier with the header Landmark
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cB76vtv'
 forumTopicId: 301023
@@ -9,25 +9,25 @@ dashedName: make-screen-reader-navigation-easier-with-the-header-landmark
 
 # --description--
 
-عنصر الـ HTML5 التالي الذي يضيف المعنى الدلالي ويحسن إمكانية الوصول هو عنصر `header`. يستخدم لاحتواء المعلومات التمهيدية أو روابط التنقل لعنصره آلأساسي ويعمل بشكل جيد مع المحتوى المتكرر في الأعلى على الصفحات متعددة.
+The next HTML5 element that adds semantic meaning and improves accessibility is the `header` tag. It's used to wrap introductory information or navigation links for its parent tag and works well around content that's repeated at the top on multiple pages.
 
-`header` يشاركك الميزة البارزة المدمجة التي رأيتها مع `main`، مما يسمح للتكنولوجيات المساعدة بالانتقال بسرعة إلى ذلك المحتوى.
+`header` shares the embedded landmark feature you saw with `main`, allowing assistive technologies to quickly navigate to that content.
 
-**ملاحظة:** عنصر `header` يستخدم في عنصر `body` بمستند HTML الخاص بك. وهذا يختلف عن عن عنصر الـ `head` الذي يحتوي على عنوان الصفحة، معلومات تعريفية، و الخ.
+**Note:** The `header` is meant for use in the `body` tag of your HTML document. It is different than the `head` element, which contains the page's title, meta information, etc.
 
 # --instructions--
 
-يقوم Camper Cat بكتابة بعض المقالات الرائعة عن تدريب النينجا، ويريد إضافة صفحة لهم على موقعه. قم بتغيير `div` العلوية التي تحتوي حاليا على `h1` إلى عنصر `header` بدلا من ذلك.
+Camper Cat is writing some great articles about ninja training, and wants to add a page for them to his site. Change the top `div` that currently contains the `h1` to a `header` tag instead.
 
 # --hints--
 
-يجب أن يحتوي الكود الخاص بك على علامة `header` واحدة فقط.
+Your code should have one `header` tag.
 
 ```js
 assert.lengthOf(document.querySelectorAll('header'),1);
 ```
 
-يجب أن يحتوي عنصر `header` على عنصر `h1`.
+Your `header` tags should wrap around the `h1`.
 
 ```js
 const header = document.querySelector('header');
@@ -35,13 +35,13 @@ const children = header?.querySelectorAll(`:scope ${'h1'}`);
 assert.lengthOf(children , 1);
 ```
 
-يجب ألا يحتوي الكود الخاص بك على أي عنصر `div`.
+Your code should not have any `div` tags.
 
 ```js
 assert.lengthOf(document.querySelectorAll('div') , 0);
 ```
 
-يجب أن يحتوي عنصر `header` الخاص بك على علامة إغلاق.
+Your `header` element should have a closing tag.
 
 ```js
 assert.isTrue(code.match(/<\/header>/g)?.length === code.match(/<header>/g)?.length);

@@ -1,6 +1,6 @@
 ---
 id: 5e6a54af58d3af90110a60a1
-title: 'はじめに: ハードウェアアーキテクチャ'
+title: 'Introduction: Hardware Architecture'
 challengeType: 11
 videoId: H6qtjRTfSog
 bilibiliIds:
@@ -14,19 +14,19 @@ dashedName: introduction-hardware-architecture
 
 ## --text--
 
-実行中のプログラムはどこに保存されていますか？
+Where are your programs stored when they are running?
 
 ## --answers--
 
-ハードドライブ
+Hard Drive.
 
 ---
 
-メモリ
+Memory.
 
 ---
 
-中央処理装置
+Central Processing Unit.
 
 ## --video-solution--
 

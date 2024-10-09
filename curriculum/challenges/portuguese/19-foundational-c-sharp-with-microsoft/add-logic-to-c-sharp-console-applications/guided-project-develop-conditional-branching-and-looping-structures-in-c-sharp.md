@@ -1,38 +1,38 @@
 ---
 id: 647e217e8acb466c97ccbee4
-title: 'Projeto guiado – desenvolver estruturas de ramificação condicional e de repetição em C#'
+title: 'Guided Project - Develop Conditional Branching and Looping Structures in C#'
 challengeType: 19
 dashedName: guided-project-develop-conditional-branching-and-looping-structures-in-c-sharp
 ---
 
 # --description--
 
-Este desafio será parcialmente concluído na plataforma Microsoft Learn. Siga estas instruções para concluir o desafio:
+This challenge will be partially completed on the Microsoft Learn platform. Follow these instructions to complete the challenge:
 
-1. Acesse <a href="https://learn.microsoft.com/training/modules/guided-project-develop-conditional-branching-looping/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/guided-project-develop-conditional-branching-looping/</a> e complete todas as tarefas do módulo "Projeto guiado – desenvolver estruturas de ramificação condicional e de repetição em C#". Isso é **necessário** para conquistar o troféu "Adicione lógica a aplicações de console do C#" da Microsoft Learn e para se qualificar para o exame de certificação.
-1. Quando terminar, volte e responda corretamente à pergunta abaixo.
+1. Go to <a href="https://learn.microsoft.com/training/modules/guided-project-develop-conditional-branching-looping/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/guided-project-develop-conditional-branching-looping/</a> and complete all the tasks for the "Guided Project - Develop Conditional Branching and Looping Structures in C#" module. This is **required** to earn the "Add Logic to C# Console Applications" trophy on Microsoft Learn, and qualify for the certification exam.
+1. When you are finished, come back and correctly answer the question below.
 
 # --assignment--
 
-Complete o projeto guiado <a href="https://learn.microsoft.com/training/modules/guided-project-develop-conditional-branching-looping/" target="_blank" rel="noreferrer">Desenvolver estruturas de ramificação condicional e de repetição em C#</a> no Microsoft Learn. Em seguida, responda a pergunta abaixo.
+Complete the <a href="https://learn.microsoft.com/training/modules/guided-project-develop-conditional-branching-looping/" target="_blank" rel="noreferrer">Develop Conditional Branching and Looping Structures in C#</a> guided project on Microsoft Learn. Then, answer the question below.
 
 # --questions--
 
 ## --text--
 
-Quando é apropriado usar um bloco `switch-case` ao invés de um bloco `if-elseif-else`?
+When is it appropriate to use a `switch-case` construct rather than a `if-elseif-else` construct?
 
 ## --answers--
 
-Um bloco `switch-case` é apropriado quando mais de 2-3 blocos de código `else if` forem necessários.
+A `switch-case` construct is appropriate when more than 2-3 `else if` code blocks are required.
 
 ---
 
-Um bloco `switch-case` é apropriado quando o número de padrões `case` for pequeno.
+A `switch-case` construct is appropriate when the number of `case` patterns is small.
 
 ---
 
-Um bloco `switch-case` é apropriado quando a instrução de seleção estiver dentro de um laço.
+A `switch-case` construct is appropriate when the selection statement is inside a loop.
 
 
 ## --video-solution--

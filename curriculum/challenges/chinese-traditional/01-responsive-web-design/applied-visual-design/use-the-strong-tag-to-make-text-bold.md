@@ -1,6 +1,6 @@
 ---
 id: 587d781a367417b2b2512ab7
-title: 使用 strong 標籤加粗文本
+title: Use the strong Tag to Make Text Bold
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/ceJNBSb'
 forumTopicId: 301080
@@ -9,21 +9,21 @@ dashedName: use-the-strong-tag-to-make-text-bold
 
 # --description--
 
-你可以使用 `strong` 標籤來加粗文字。 粗體文字一般用來吸引讀者注意或用來表示強調。 添加了 `strong` 標籤後，瀏覽器會自動給元素添加這段樣式：`font-weight:bold;`。
+To make text bold, you can use the `strong` tag. This is often used to draw attention to text and symbolize that it is important. With the `strong` tag, the browser applies the CSS of `font-weight: bold;` to the element.
 
 # --instructions--
 
-給 `p` 標籤裏的 `Stanford University` 內容文本外面添加 `strong` 標籤（不包括句號）。
+Wrap a `strong` tag around the text `Stanford University` inside the `p` tag (do not include the period).
 
 # --hints--
 
-應添加一個 `strong` 標籤。
+Your code should add one `strong` tag to the markup.
 
 ```js
 assert.lengthOf(document.querySelectorAll('strong'),1);
 ```
 
-`strong` 標籤應在 `p` 標籤裏。
+The `strong` tag should be inside the `p` tag.
 
 ```js
 const pargraphElement = document.querySelector('p');
@@ -31,7 +31,7 @@ const pargraphChildren = pargraphElement?.querySelectorAll(`:scope ${'strong'}`)
 assert.lengthOf(pargraphChildren, 1);
 ```
 
-`strong` 標籤的文本應爲 `Stanford University`。
+The `strong` tag should wrap around the words `Stanford University`.
 
 ```js
 assert.match(document.querySelector('strong')?.textContent, /^Stanford University\.?$/gi);

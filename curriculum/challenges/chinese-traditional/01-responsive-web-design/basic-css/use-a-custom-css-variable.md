@@ -1,6 +1,6 @@
 ---
 id: 5a9d727a424fe3d0e10cad12
-title: 使用一個自定義的 CSS 變量
+title: Use a custom CSS Variable
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cM989ck'
 forumTopicId: 301090
@@ -9,21 +9,21 @@ dashedName: use-a-custom-css-variable
 
 # --description--
 
-創建變量後，CSS 屬性可以通過調用變量名來使用它對應的值。
+After you create your variable, you can assign its value to other CSS properties by referencing the name you gave it.
 
 ```css
 background: var(--penguin-skin);
 ```
 
-因爲引用了 `--penguin-skin` 變量的值，使用了這個樣式的元素背景顏色會是灰色。 請注意，除非變量名稱完全匹配，否則將不會應用樣式。
+This will change the background of whatever element you are targeting to gray because that is the value of the `--penguin-skin` variable. Note that styles will not be applied unless the variable names are an exact match.
 
 # --instructions--
 
-將 `--penguin-skin` 的值應用到 class 爲 `penguin-top`、`penguin-bottom`、`right-hand`、`left-hand` 的 `background` 的屬性值。
+Apply the `--penguin-skin` variable to the `background` property of the `penguin-top`, `penguin-bottom`, `right-hand` and `left-hand` classes.
 
 # --hints--
 
-將 `--penguin-skin` 的值應用到 `penguin-top` class 的 `background` 屬性。
+The `--penguin-skin` variable should be applied to the `background` property of the `penguin-top` class.
 
 ```js
 assert(
@@ -33,7 +33,7 @@ assert(
 );
 ```
 
-class 爲 `penguin-bottom` 的 `background` 屬性值應使用變量 `--penguin-skin` 的值。
+The `--penguin-skin` variable should be applied to the `background` property of the `penguin-bottom` class.
 
 ```js
 assert(
@@ -43,7 +43,7 @@ assert(
 );
 ```
 
-class 爲 `right-hand` 的 `background` 屬性值應使用變量 `--penguin-skin` 的值。
+The `--penguin-skin` variable should be applied to the `background` property of the `right-hand` class.
 
 ```js
 assert(
@@ -53,7 +53,7 @@ assert(
 );
 ```
 
-class 爲 `left-hand` 的 `background` 屬性值應使用變量 `--penguin-skin` 的值。
+The `--penguin-skin` variable should be applied to the `background` property of the `left-hand` class.
 
 ```js
 assert(

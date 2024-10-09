@@ -1,6 +1,6 @@
 ---
 id: 594ecc0d9a8cf816e3340187
-title: 出租车号码
+title: Taxicab numbers
 challengeType: 1
 forumTopicId: 302337
 dashedName: taxicab-numbers
@@ -10,58 +10,58 @@ dashedName: taxicab-numbers
 
 A taxicab number (the definition that is being used here) is a positive integer that can be expressed as the sum of two positive cubes in more than one way.
 
-第一个出租车号码是`1729`，即：
+The first taxicab number is `1729`, which is:
 
-1<sup>3</sup> + 12<sup>3</sup> 和
+1<sup>3</sup> + 12<sup>3</sup> and
 
-9<sup>3</sup> + 10<sup>3</sup>。
+9<sup>3</sup> + 10<sup>3</sup>.
 
-出租车号码也被称为：
+Taxicab numbers are also known as:
 
 <ul>
   <li>taxi numbers</li>
-  <li>出租车号码（taxi-cab numbers）</li>
-  <li>出租车号码（taxi cab numbers）</li>
-  <li>Hardy-Ramanujan 数</li>
+  <li>taxi-cab numbers</li>
+  <li>taxi cab numbers</li>
+  <li>Hardy-Ramanujan numbers</li>
 </ul>
 
 # --instructions--
 
-编写一个返回最低的 `n` 个出租车号码的函数。 对于每个出租车号码，显示该号码及其组成的立方体。
+Write a function that returns the lowest `n` taxicab numbers. For each of the taxicab numbers, show the number as well as its constituent cubes.
 
 # --hints--
 
-`taxicabNumbers` 应该是一个函数。
+`taxicabNumbers` should be a function.
 
 ```js
 assert(typeof taxicabNumbers === 'function');
 ```
 
-`taxicabNumbers` 应该返回一个数组。
+`taxicabNumbers` should return an array.
 
 ```js
 assert(typeof taxicabNumbers(2) === 'object');
 ```
 
-`taxicabNumbers` 应该返回一个数字数组。
+`taxicabNumbers` should return an array of numbers.
 
 ```js
 assert(typeof taxicabNumbers(100)[0] === 'number');
 ```
 
-`taxicabNumbers(4)` 应该返回 [1729, 4104, 13832, 20683]。
+`taxicabNumbers(4)` should return [1729, 4104, 13832, 20683].
 
 ```js
 assert.deepEqual(taxicabNumbers(4), res4);
 ```
 
-`taxicabNumbers(25)` 应该返回 [1729, 4104, 13832, 20683, 32832, 39312, 40033, 46683, 64232, 65728, 110656, 110808, 134379, 149389, 165464, 171288, 195841, 216027, 216125, 262656, 314496, 320264, 327763, 373464, 402597]
+`taxicabNumbers(25)` should return [1729, 4104, 13832, 20683, 32832, 39312, 40033, 46683, 64232, 65728, 110656, 110808, 134379, 149389, 165464, 171288, 195841, 216027, 216125, 262656, 314496, 320264, 327763, 373464, 402597]
 
 ```js
 assert.deepEqual(taxicabNumbers(25), res25);
 ```
 
-`taxicabNumbers(39)` 的第 20 - 29 位结果数字应该是 [314496,320264,327763,373464,402597,439101,443889,513000,513856]。
+`taxicabNumbers(39)` resulting numbers from 20 - 29 should be [314496,320264,327763,373464,402597,439101,443889,513000,513856].
 
 ```js
 assert.deepEqual(taxicabNumbers(39).slice(20, 29), res39From20To29);

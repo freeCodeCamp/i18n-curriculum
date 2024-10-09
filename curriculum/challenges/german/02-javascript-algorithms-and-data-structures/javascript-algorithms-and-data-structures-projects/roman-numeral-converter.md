@@ -1,6 +1,6 @@
 ---
 id: a7f4d8f2483413a6ce226cac
-title: Konverter für römische Zahlen
+title: Roman Numeral Converter
 challengeType: 5
 forumTopicId: 16044
 dashedName: roman-numeral-converter
@@ -8,179 +8,179 @@ dashedName: roman-numeral-converter
 
 # --description--
 
-Konvertiere die übergebene Zahl in eine römische Zahl.
+Convert the given number into a roman numeral.
 
-| Römische Ziffern | Arabische Ziffern |
-| ---------------- | ----------------- |
-| M                | 1000              |
-| CM               | 900               |
-| D                | 500               |
-| CD               | 400               |
-| C                | 100               |
-| XC               | 90                |
-| L                | 50                |
-| XL               | 40                |
-| X                | 10                |
-| IX               | 9                 |
-| V                | 5                 |
-| IV               | 4                 |
-| I                | 1                 |
+| Roman numerals | Arabic numerals |
+| -------------- | --------------- |
+| M              | 1000            |
+| CM             | 900             |
+| D              | 500             |
+| CD             | 400             |
+| C              | 100             |
+| XC             | 90              |
+| L              | 50              |
+| XL             | 40              |
+| X              | 10              |
+| IX             | 9               |
+| V              | 5               |
+| IV             | 4               |
+| I              | 1               |
 
-Alle Antworten mit römischen Ziffern sind in Großbuchstaben anzugeben.
+All roman numerals answers should be provided in upper-case.
 
 # --hints--
 
-`convertToRoman(2)` sollte den String `II` zurückgeben.
+`convertToRoman(2)` should return the string `II`.
 
 ```js
 assert.deepEqual(convertToRoman(2), 'II');
 ```
 
-`convertToRoman(3)` sollte den String `III` zurückgeben.
+`convertToRoman(3)` should return the string `III`.
 
 ```js
 assert.deepEqual(convertToRoman(3), 'III');
 ```
 
-`convertToRoman(4)` sollte den String `IV` zurückgeben.
+`convertToRoman(4)` should return the string `IV`.
 
 ```js
 assert.deepEqual(convertToRoman(4), 'IV');
 ```
 
-`convertToRoman(5)` sollte den String `V` zurückgeben.
+`convertToRoman(5)` should return the string `V`.
 
 ```js
 assert.deepEqual(convertToRoman(5), 'V');
 ```
 
-`convertToRoman(9)` sollte den String `IX` zurückgeben.
+`convertToRoman(9)` should return the string `IX`.
 
 ```js
 assert.deepEqual(convertToRoman(9), 'IX');
 ```
 
-`convertToRoman(12)` sollte den String `XII` zurückgeben.
+`convertToRoman(12)` should return the string `XII`.
 
 ```js
 assert.deepEqual(convertToRoman(12), 'XII');
 ```
 
-`convertToRoman(16)` sollte den String `XVI` zurückgeben.
+`convertToRoman(16)` should return the string `XVI`.
 
 ```js
 assert.deepEqual(convertToRoman(16), 'XVI');
 ```
 
-`convertToRoman(29)` sollte den String `XXIX` zurückgeben.
+`convertToRoman(29)` should return the string `XXIX`.
 
 ```js
 assert.deepEqual(convertToRoman(29), 'XXIX');
 ```
 
-`convertToRoman(44)` sollte den String `XLIV` zurückgeben.
+`convertToRoman(44)` should return the string `XLIV`.
 
 ```js
 assert.deepEqual(convertToRoman(44), 'XLIV');
 ```
 
-`convertToRoman(45)` sollte den String `XLV` zurückgeben.
+`convertToRoman(45)` should return the string `XLV`.
 
 ```js
 assert.deepEqual(convertToRoman(45), 'XLV');
 ```
 
-`convertToRoman(68)` sollte den String `LXVIII` zurückgeben.
+`convertToRoman(68)` should return the string `LXVIII`
 
 ```js
 assert.deepEqual(convertToRoman(68), 'LXVIII');
 ```
 
-`convertToRoman(83)` sollte den String `LXXXIII` zurückgeben.
+`convertToRoman(83)` should return the string `LXXXIII`
 
 ```js
 assert.deepEqual(convertToRoman(83), 'LXXXIII');
 ```
 
-`convertToRoman(97)` sollte den String `XCVII` zurückgeben.
+`convertToRoman(97)` should return the string `XCVII`
 
 ```js
 assert.deepEqual(convertToRoman(97), 'XCVII');
 ```
 
-`convertToRoman(99)` sollte den String `XCIX` zurückgeben.
+`convertToRoman(99)` should return the string `XCIX`
 
 ```js
 assert.deepEqual(convertToRoman(99), 'XCIX');
 ```
 
-`convertToRoman(400)` sollte den String `CD` zurückgeben.
+`convertToRoman(400)` should return the string `CD`
 
 ```js
 assert.deepEqual(convertToRoman(400), 'CD');
 ```
 
-`convertToRoman(500)` sollte den String `D` zurückgeben.
+`convertToRoman(500)` should return the string `D`
 
 ```js
 assert.deepEqual(convertToRoman(500), 'D');
 ```
 
-`convertToRoman(501)` sollte den String `DI` zurückgeben.
+`convertToRoman(501)` should return the string `DI`
 
 ```js
 assert.deepEqual(convertToRoman(501), 'DI');
 ```
 
-`convertToRoman(649)` sollte den String `DCXLIX` zurückgeben.
+`convertToRoman(649)` should return the string `DCXLIX`
 
 ```js
 assert.deepEqual(convertToRoman(649), 'DCXLIX');
 ```
 
-`convertToRoman(798)` sollte den String `DCCXCVIII` zurückgeben.
+`convertToRoman(798)` should return the string `DCCXCVIII`
 
 ```js
 assert.deepEqual(convertToRoman(798), 'DCCXCVIII');
 ```
 
-`convertToRoman(891)` sollte den String `DCCCXCI` zurückgeben.
+`convertToRoman(891)` should return the string `DCCCXCI`
 
 ```js
 assert.deepEqual(convertToRoman(891), 'DCCCXCI');
 ```
 
-`convertToRoman(1000)` sollte den String `M` zurückgeben.
+`convertToRoman(1000)` should return the string `M`
 
 ```js
 assert.deepEqual(convertToRoman(1000), 'M');
 ```
 
-`convertToRoman(1004)` sollte den String `MIV` zurückgeben.
+`convertToRoman(1004)` should return the string `MIV`
 
 ```js
 assert.deepEqual(convertToRoman(1004), 'MIV');
 ```
 
-`convertToRoman(1006)` sollte den String `MVI` zurückgeben.
+`convertToRoman(1006)` should return the string `MVI`
 
 ```js
 assert.deepEqual(convertToRoman(1006), 'MVI');
 ```
 
-`convertToRoman(1023)` sollte den String `MXXIII` zurückgeben.
+`convertToRoman(1023)` should return the string `MXXIII`
 
 ```js
 assert.deepEqual(convertToRoman(1023), 'MXXIII');
 ```
 
-`convertToRoman(2014)` sollte den String `MMXIV` zurückgeben.
+`convertToRoman(2014)` should return the string `MMXIV`
 
 ```js
 assert.deepEqual(convertToRoman(2014), 'MMXIV');
 ```
 
-`convertToRoman(3999)` sollte den String `MMMCMXCIX` zurückgeben.
+`convertToRoman(3999)` should return the string `MMMCMXCIX`
 
 ```js
 assert.deepEqual(convertToRoman(3999), 'MMMCMXCIX');

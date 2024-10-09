@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d403616a
-title: مرر قائمة (Array) مثل مِيزات (Props)
+title: Pass an Array as Props
 challengeType: 6
 forumTopicId: 301401
 dashedName: pass-an-array-as-props
@@ -8,7 +8,7 @@ dashedName: pass-an-array-as-props
 
 # --description--
 
-وأظهر التحدي السابق كيفية نقل المعلومات من عنصر الأساسي إلى مكون الفرعي مثل عنصر `props` أو الخواص. هذا التحدي يظهر كيفية تمرير القائمات (arrays) مثل `props`. لتمرير قائمة (array) إلى عنصر JSX، يجب معاملته JavaScript ومغلف في أقواس منحنية (curly braces).
+The last challenge demonstrated how to pass information from a parent component to a child component as `props` or properties. This challenge looks at how arrays can be passed as `props`. To pass an array to a JSX element, it must be treated as JavaScript and wrapped in curly braces.
 
 ```jsx
 <ParentComponent>
@@ -16,7 +16,7 @@ dashedName: pass-an-array-as-props
 </ParentComponent>
 ```
 
-بعد ذلك يمكن لمكون الفرعي الوصول إلى خاصية قائمة (array) باسم `colors`. وسائل القائمة مثل `join()` يمكن استخدامها عند اللجوء إلى الخاصية.
+The child component then has access to the array property `colors`. Array methods such as `join()` can be used when accessing the property.
 
 ```jsx
 const ChildComponent = (props) => <p>{props.colors.join(', ')}</p>

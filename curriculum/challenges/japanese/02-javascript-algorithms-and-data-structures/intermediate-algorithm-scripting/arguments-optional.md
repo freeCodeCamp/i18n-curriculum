@@ -1,6 +1,6 @@
 ---
 id: a97fd23d9b809dac9921074f
-title: 省略可能な引数
+title: Arguments Optional
 challengeType: 1
 forumTopicId: 14271
 dashedName: arguments-optional
@@ -8,23 +8,23 @@ dashedName: arguments-optional
 
 # --description--
 
-2 つの引数を合計する関数を作成してください。 1 つの引数のみが与えられた場合は、関数を返してください。その関数は 1 つの引数を取り、合計を返します。
+Create a function that sums two arguments together. If only one argument is provided, then return a function that expects one argument and returns the sum.
 
-たとえば、`addTogether(2, 3)` は `5`を返し、`addTogether(2)` は関数を返す必要があります。
+For example, `addTogether(2, 3)` should return `5`, and `addTogether(2)` should return a function.
 
-この返された関数に １ つの引数を与えて呼び出すと、合計を返します。
+Calling this returned function with a single argument will then return the sum:
 
 ```js
 var sumTwoAnd = addTogether(2);
 ```
 
-`sumTwoAnd(3)` は `5` を返します。
+`sumTwoAnd(3)` returns `5`.
 
-いずれかの引数が有効な数値でない場合は、undefined を返してください。
+If either argument isn't a valid number, return undefined.
 
 # --hints--
 
-`addTogether(2, 3)` は 5 を返す必要があります。
+`addTogether(2, 3)` should return 5.
 
 ```js
 assert.deepEqual(addTogether(2, 3), 5);

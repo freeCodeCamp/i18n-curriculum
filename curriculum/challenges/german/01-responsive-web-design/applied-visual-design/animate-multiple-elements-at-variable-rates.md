@@ -1,6 +1,6 @@
 ---
 id: 587d78a8367417b2b2512ae6
-title: Mehrere Elemente mit unterschiedlicher Geschwindigkeit animieren
+title: Animate Multiple Elements at Variable Rates
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cnpWZc9'
 forumTopicId: 301042
@@ -9,17 +9,17 @@ dashedName: animate-multiple-elements-at-variable-rates
 
 # --description--
 
-In der vorherigen Aufgabe hast du die Geschwindigkeit zweier ähnlich animierter Elemente verändert, indem du deren `@keyframes`-Regel abgeändert hast. Du kannst denselben Effekt erzielen, indem du mehreren Elementen via `animation-duration` eine unterschiedliche Animationsdauer zuweist.
+In the previous challenge, you changed the animation rates for two similarly animated elements by altering their `@keyframes` rules. You can achieve the same goal by manipulating the `animation-duration` of multiple elements.
 
-In der im Texteditor laufenden Animation funkeln drei Sterne synchron in einer Endlosschleife. Um sie mit unterschiedlicher Geschwindigkeit funkeln zu lassen, kannst du die `animation-duration`-Eigenschaft je auf andere Werte setzen.
+In the animation running in the code editor, there are three stars in the sky that twinkle at the same rate on a continuous loop. To make them twinkle at different rates, you can set the `animation-duration` property to different values for each element.
 
 # --instructions--
 
-Setze die `animation-duration` der Elemente mit den Klassen `star-1`, `star-2` und `star-3` auf 1s, 0.9s, und 1.1s.
+Set the `animation-duration` of the elements with the classes `star-1`, `star-2`, and `star-3` to 1s, 0.9s, and 1.1s, respectively.
 
 # --hints--
 
-Die `animation-duration`-Eigenschaft für den Stern mit der Klasse `star-1` sollte weiterhin 1s betragen.
+The `animation-duration` property for the star with class `star-1` should remain at 1s.
 
 ```js
 const starOne = document.querySelector('.star-1');
@@ -27,7 +27,7 @@ const starOneStyle = window.getComputedStyle(starOne);
 assert.equal(starOneStyle?.animationDuration, '1s');
 ```
 
-Die `animation-duration`-Eigenschaft für den Stern mit Klasse `star-2` sollte 0.9s betragen.
+The `animation-duration` property for the star with class `star-2` should be 0.9s.
 
 ```js
 const starTwo = document.querySelector('.star-2');
@@ -35,7 +35,7 @@ const starTwoStyle = window.getComputedStyle(starTwo);
 assert.equal(starTwoStyle?.animationDuration , '0.9s');
 ```
 
-Die `animation-duration`-Eigenschaft für den Stern mit Klasse `star-3` sollte 1.1s betragen.
+The `animation-duration` property for the star with class `star-3` should be 1.1s.
 
 ```js
 const starThree = document.querySelector('.star-3');

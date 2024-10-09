@@ -1,6 +1,6 @@
 ---
 id: a0b5010f579e69b815e7c5d6
-title: Cercare e sostituire
+title: Search and Replace
 challengeType: 1
 forumTopicId: 16045
 dashedName: search-and-replace
@@ -8,19 +8,19 @@ dashedName: search-and-replace
 
 # --description--
 
-Esegui un cerca e sostituisci sulla frase utilizzando gli argomenti forniti e restituisci la nuova frase.
+Perform a search and replace on the sentence using the arguments provided and return the new sentence.
 
-Il primo argomento è la frase su cui eseguire la ricerca e sostituzione.
+First argument is the sentence to perform the search and replace on.
 
-Il secondo argomento è la parola che stai cercando.
+Second argument is the word that you will be replacing (before).
 
-Il terzo argomento è quello con cui sostituirai il secondo argomento.
+Third argument is what you will be replacing the second argument with (after).
 
-**Nota:** Preserva l'iniziale maiuscola o minuscola del primo carattere nella parola originale se viene sostituita. Per esempio, se intendi sostituire la parola `Book` con la parola `dog`, dovrebbe essere sostituita come `Dog`
+**Note:** Preserve the case of the first character in the original word when you are replacing it. For example if you mean to replace the word `Book` with the word `dog`, it should be replaced as `Dog`
 
 # --hints--
 
-`myReplace("Let us go to the store", "store", "mall")` dovrebbe restituire la stringa `Let us go to the mall`.
+`myReplace("Let us go to the store", "store", "mall")` should return the string `Let us go to the mall`.
 
 ```js
 assert.deepEqual(
@@ -29,7 +29,7 @@ assert.deepEqual(
 );
 ```
 
-`myReplace("He is Sleeping on the couch", "Sleeping", "sitting")` dovrebbe restituire la stringa `He is Sitting on the couch`.
+`myReplace("He is Sleeping on the couch", "Sleeping", "sitting")` should return the string `He is Sitting on the couch`.
 
 ```js
 assert.deepEqual(
@@ -38,7 +38,7 @@ assert.deepEqual(
 );
 ```
 
-`myReplace("I think we should look up there", "up", "Down")` dovrebbe restituire la stringa `I think we should look down there`.
+`myReplace("I think we should look up there", "up", "Down")` should return the string `I think we should look down there`.
 
 ```js
 assert.deepEqual(
@@ -47,7 +47,7 @@ assert.deepEqual(
 );
 ```
 
-`myReplace("This has a spellngi error", "spellngi", "spelling")` dovrebbe restituire `This has a spelling error`.
+`myReplace("This has a spellngi error", "spellngi", "spelling")` should return the string `This has a spelling error`.
 
 ```js
 assert.deepEqual(
@@ -56,7 +56,7 @@ assert.deepEqual(
 );
 ```
 
-`myReplace("His name is Tom", "Tom", "john")` dovrebbe restituire la stringa `His name is John`.
+`myReplace("His name is Tom", "Tom", "john")` should return the string `His name is John`.
 
 ```js
 assert.deepEqual(
@@ -65,7 +65,7 @@ assert.deepEqual(
 );
 ```
 
-`myReplace("Let us get back to more Coding", "Coding", "algorithms")` dovrebbe restituire la stringa `Let us get back to more Algorithms`.
+`myReplace("Let us get back to more Coding", "Coding", "algorithms")` should return the string `Let us get back to more Algorithms`.
 
 ```js
 assert.deepEqual(

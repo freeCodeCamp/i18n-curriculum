@@ -1,6 +1,6 @@
 ---
 id: 5900f3e81000cf542c50fefb
-title: '問題 124: 順序付き累乗根'
+title: 'Problem 124: Ordered radicals'
 challengeType: 1
 forumTopicId: 301751
 dashedName: problem-124-ordered-radicals
@@ -8,17 +8,17 @@ dashedName: problem-124-ordered-radicals
 
 # --description--
 
-$n$ の累乗根 $rad(n)$ は、$n$ の相異なる素因数の積です。 例えば、$504 = 2^3 × 3^2 × 7$ なので、$rad(504) = 2 × 3 × 7 = 42$ です。
+The radical of $n$, $rad(n)$, is the product of the distinct prime factors of $n$. For example, $504 = 2^3 × 3^2 × 7$, so $rad(504) = 2 × 3 × 7 = 42$.
 
-$1 ≤ n ≤ 10$ に対して $rad(n)$ を求め、それらを $rad(n)$ でソートし、累乗根の値が等しい場合は $n$ でソートすると、次のようになります。
+If we calculate $rad(n)$ for $1 ≤ n ≤ 10$, then sort them on $rad(n)$, and sorting on $n$ if the radical values are equal, we get:
 
 <div style="text-align: center;">
   <table cellpadding="2" cellspacing="0" border="0" align="center">
     <tbody>
       <tr>
-        <td colspan="2">$未ソート$</td>
+        <td colspan="2">$Unsorted$</td>
         <td></td>
-        <td colspan="3">$ソート済み$</td>
+        <td colspan="3">$Sorted$</td>
       </tr>
       <tr>
         <td>$n$</td>
@@ -112,11 +112,11 @@ $1 ≤ n ≤ 10$ に対して $rad(n)$ を求め、それらを $rad(n)$ でソ�
   </table>
 </div><br>
 
-ソート済みの $n$ 列の $k$ 番目の要素を $E(k)$ とします。例えば、$E(4) = 8$, $E(6) = 9$ です。 $1 ≤ n ≤ 100000$ のとき、$rad(n)$ をソートした場合の $E(10000)$ を求めなさい。
+Let $E(k)$ be the $k$th element in the sorted $n$ column; for example, $E(4) = 8$ and $E(6) = 9$. If $rad(n)$ is sorted for $1 ≤ n ≤ 100000$, find $E(10000)$.
 
 # --hints--
 
-`orderedRadicals()` は `21417` を返す必要があります。
+`orderedRadicals()` should return `21417`.
 
 ```js
 assert.strictEqual(orderedRadicals(), 21417);

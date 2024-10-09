@@ -1,6 +1,6 @@
 ---
 id: 587d7b8d367417b2b2512b5b
-title: 함수형 프로그래밍 배우기
+title: Learn About Functional Programming
 challengeType: 1
 forumTopicId: 301233
 dashedName: learn-about-functional-programming
@@ -8,31 +8,31 @@ dashedName: learn-about-functional-programming
 
 # --description--
 
-함수형 프로그래밍은 함수의 범위 밖에서 어떤 부작용 없이 해결책이 간단하고 독립적인 함수인 프로그래밍 스타일입니다: `INPUT -> PROCESS -> OUTPUT`
+Functional programming is a style of programming where solutions are simple, isolated functions, without any side effects outside of the function scope: `INPUT -> PROCESS -> OUTPUT`
 
-함수형 프로그래밍은
+Functional programming is about:
 
-1) 독립적인 함수 - 변화에 취약한 전역 변수를 포함하는 프로그램의 상태에 의존성이 없다
+1) Isolated functions - there is no dependence on the state of the program, which includes global variables that are subject to change
 
-2) 순수 함수 - 같은 입력은 항상 같은 출력을 낸다
+2) Pure functions - the same input always gives the same output
 
-제한적인 부작용을 가진 함수 - 함수 밖의 프로그램의 상태의 변화가 안정적으로 제어된다
+3) Functions with limited side effects - any changes, or mutations, to the state of the program outside the function are carefully controlled
 
 # --instructions--
 
-freeCodeCamp 회원들은 차 마시는 것을 좋아한다고 합니다.
+The members of freeCodeCamp happen to love tea.
 
-코드 편집기에 `prepareTea`와 `getTea` 함수가 정의되어 있습니다. 팀을 위한 40 잔의 차를 얻고 변수 `tea4TeamFCC`에 저장하도록 `getTea` 함수를 호출하시오.
+In the code editor, the `prepareTea` and `getTea` functions are already defined for you. Call the `getTea` function to get 40 cups of tea for the team, and store them in the `tea4TeamFCC` variable.
 
 # --hints--
 
-변수 `tea4TeamFCC`는 팀을 위해 40잔의 차를 가지고 있어야 합니다.
+The `tea4TeamFCC` variable should hold 40 cups of tea for the team.
 
 ```js
 assert(tea4TeamFCC.length === 40);
 ```
 
-변수 `tea4TeamFCC`는 녹차를 가지고 있어야 합니다.
+The `tea4TeamFCC` variable should hold cups of green tea.
 
 ```js
 assert(tea4TeamFCC[0] === 'greenTea');

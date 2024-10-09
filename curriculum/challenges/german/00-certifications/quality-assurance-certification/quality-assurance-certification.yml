@@ -1,23 +1,22 @@
----
 id: 5e611829481575a52dc59c0e
-title: Zertifizierung für Qualitätssicherung
+title: Quality Assurance Certification
 certification: quality-assurance
 challengeType: 7
 isPrivate: true
 tests:
   - 
     id: 587d8249367417b2b2512c41
-    title: Metrisch-Imperialer Konverter
+    title: Metric-Imperial Converter
   - 
     id: 587d8249367417b2b2512c42
-    title: Issue-Tracker
+    title: Issue Tracker
   - 
     id: 587d824a367417b2b2512c43
-    title: Persönliche Bibliothek
+    title: Personal Library
   - 
     id: 5e601bf95ac9d0ecd8b94afd
-    title: Sudoku-Löser
+    title: Sudoku Solver
   - 
     id: 5e601c0d5ac9d0ecd8b94afe
-    title: Übersetzer Amerikanisch-Britisch
+    title: American British Translator
 

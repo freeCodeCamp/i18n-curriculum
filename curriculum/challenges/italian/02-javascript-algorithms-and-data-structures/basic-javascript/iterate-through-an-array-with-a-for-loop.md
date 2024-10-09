@@ -1,6 +1,6 @@
 ---
 id: 5675e877dbd60be8ad28edc6
-title: Iterare attraverso un array con un ciclo For
+title: Iterate Through an Array with a For Loop
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/caeR3HB'
 forumTopicId: 18216
@@ -9,7 +9,7 @@ dashedName: iterate-through-an-array-with-a-for-loop
 
 # --description--
 
-Un compito comune in JavaScript è quello di iterare attraverso i contenuti di un array. Un modo per farlo è con un ciclo `for`. Questo codice visualizzerà ogni elemento dell'array `arr` nella console:
+A common task in JavaScript is to iterate through the contents of an array. One way to do that is with a `for` loop. This code will output each element of the array `arr` to the console:
 
 ```js
 const arr = [10, 9, 8, 7, 6];
@@ -19,33 +19,33 @@ for (let i = 0; i < arr.length; i++) {
 }
 ```
 
-Ricorda che gli array hanno un'indicizzazione basata sullo zero, il che significa che l'ultimo indice dell'array è `length - 1`. La nostra condizione per questo ciclo è `i < arr.length` che interrompe il ciclo quando `i` è uguale a `length`. In questo caso l’ultima iterazione è `i === 4` i.e. quando `i` diventa uguale a `arr.length - 1` e `6` viene visualizzato nella la console. Quindi `i` diventa `5`, e il ciclo termina perché `i < arr.length` è uguale a `false`.
+Remember that arrays have zero-based indexing, which means the last index of the array is `length - 1`. Our condition for this loop is `i < arr.length`, which stops the loop when `i` is equal to `length`. In this case the last iteration is `i === 4` i.e. when `i` becomes equal to `arr.length - 1` and outputs `6` to the console. Then `i` increases to `5`, and the loop terminates because `i < arr.length` is `false`.
 
 # --instructions--
 
-Dichiara una variabile `total` e inizializzala a `0`. Usa un ciclo `for` per sommare il valore di ogni elemento dell'array `myArr` a `total`.
+Declare and initialize a variable `total` to `0`. Use a `for` loop to add the value of each element of the `myArr` array to `total`.
 
 # --hints--
 
-`total` dovrebbe essere dichiarato e inizializzato a 0.
+`total` should be declared and initialized to 0.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/(var|let|const)\s*?total\s*=\s*0.*?;?/));
 ```
 
-`total` dovrebbe essere uguale a 20.
+`total` should equal 20.
 
 ```js
 assert(total === 20);
 ```
 
-Dovresti usare un ciclo `for` per iterare attraverso `myArr`.
+You should use a `for` loop to iterate through `myArr`.
 
 ```js
 assert(/for\s*\(/g.test(__helpers.removeJSComments(code)) && /myArr\s*\[/g.test(__helpers.removeJSComments(code)));
 ```
 
-Non dovresti tentare di assegnare direttamente il valore 20 a `total`.
+You should not attempt to directly assign the value 20 to `total`.
 
 ```js
 assert(!__helpers.removeWhiteSpace(__helpers.removeJSComments(code)).match(/total[=+-]0*[1-9]+/gm));

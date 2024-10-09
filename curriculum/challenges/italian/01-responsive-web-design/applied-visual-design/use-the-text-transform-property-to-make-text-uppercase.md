@@ -1,6 +1,6 @@
 ---
 id: 587d781c367417b2b2512ac0
-title: Usare la proprietà text-transform per rendere il testo maiuscolo
+title: Use the text-transform Property to Make Text Uppercase
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cvVZQSP'
 forumTopicId: 301081
@@ -9,19 +9,19 @@ dashedName: use-the-text-transform-property-to-make-text-uppercase
 
 # --description--
 
-La proprietà `text-transform` è usata in CSS per cambiare l'aspetto del testo. È un modo conveniente per assicurarsi che il testo su una pagina web appaia coerentemente, senza dover cambiare il contenuto di testo degli elementi HTML stessi.
+The `text-transform` property in CSS is used to change the appearance of text. It's a convenient way to make sure text on a webpage appears consistently, without having to change the text content of the actual HTML elements.
 
-La seguente tabella mostra come i diversi valori `text-transform`cambiano il testo di esempio "Transform me".
+The following table shows how the different `text-transform`values change the example text "Transform me".
 
-<table><thead><tr><th>Valore</th><th>Risultato</th></tr></thead><tbody><tr><td><code>lowercase</code></td><td>"transform me"</td></tr><tr><td><code>uppercase</code></td><td>"TRANSFORM ME"</td></tr><tr><td><code>capitalize</code></td><td>"Transform Me"</td></tr><tr><td><code>initial</code></td><td>Usa il valore predefinito</td></tr><tr><td><code>inherit</code></td><td>Usa il valore <code>text-transform</code> dell'elemento genitore</td></tr><tr><td><code>none</code></td><td><strong>Default:</strong> Usa il testo originale</td></tr></tbody></table>
+<table><thead><tr><th>Value</th><th>Result</th></tr></thead><tbody><tr><td><code>lowercase</code></td><td>"transform me"</td></tr><tr><td><code>uppercase</code></td><td>"TRANSFORM ME"</td></tr><tr><td><code>capitalize</code></td><td>"Transform Me"</td></tr><tr><td><code>initial</code></td><td>Use the default value</td></tr><tr><td><code>inherit</code></td><td>Use the <code>text-transform</code> value from the parent element</td></tr><tr><td><code>none</code></td><td><strong>Default:</strong> Use the original text</td></tr></tbody></table>
 
 # --instructions--
 
-Trasforma il testo della proprietà `h4` in maiuscolo usando la proprietà `text-transform`.
+Transform the text of the `h4` to be uppercase using the `text-transform` property.
 
 # --hints--
 
-Il testo `h4` dovrebbe essere `uppercase` (maiuscolo).
+The `h4` text should be `uppercase`.
 
 ```js
 const h4Element =document.querySelector('h4')
@@ -29,7 +29,7 @@ const h4Style = window.getComputedStyle(h4Element);
 assert.equal(h4Style?.textTransform, 'uppercase');
 ```
 
-Il testo originale dell'h4 non dovrebbe essere modificato.
+The original text of the h4 should not be changed.
 
 ```js
 assert.notEqual(document.querySelector('h4')?.textContent, document.querySelector('h4')?.textContent?.toUpperCase());

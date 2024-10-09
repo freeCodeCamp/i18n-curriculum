@@ -1,6 +1,6 @@
 ---
 id: 5e8f2f13c4cdbe86b5c72d88
-title: Einführung in TensorFlow
+title: Introduction to TensorFlow
 challengeType: 11
 videoId: r9hRyGGjOgQ
 bilibiliIds:
@@ -38,7 +38,7 @@ SparseTensor
 
 ---
 
-Konstante
+Constant
 
 ## --video-solution--
 

@@ -1,6 +1,6 @@
 ---
 id: 587d78ab367417b2b2512af0
-title: 'display: flex を使って 2 つのボックスを配置する'
+title: 'Use display: flex to Position Two Boxes'
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVaDAv/cgz3QS7'
 forumTopicId: 301105
@@ -9,17 +9,17 @@ dashedName: use-display-flex-to-position-two-boxes
 
 # --description--
 
-このセクションでは、2 種類のチャレンジを行き来しながら、 CSS を使って要素を柔軟に配置する方法を説明します。 まず、あるチャレンジで理論を説明し、次にシンプルなツイートのコンポーネントを扱う実践的なチャレンジで、flexbox の概念を実際に使ってみます。
+This section uses alternating challenge styles to show how to use CSS to position elements in a flexible way. First, a challenge will explain theory, then a practical challenge using a simple tweet component will apply the flexbox concept.
 
-要素に CSS プロパティ `display: flex;` を追加すると、他のフレックスプロパティを利用してレスポンシブなページを作成できるようになります。
+Placing the CSS property `display: flex;` on an element allows you to use other flex properties to build a responsive page.
 
 # --instructions--
 
-CSS プロパティ `display` を `#box-container` に追加し、値を `flex` に設定してください。
+Add the CSS property `display` to `#box-container` and set its value to `flex`.
 
 # --hints--
 
-`#box-container` は `display` プロパティを `flex` に設定しなければなりません。
+`#box-container` should have the `display` property set to a value of `flex`.
 
 ```js
 assert($('#box-container').css('display') == 'flex');

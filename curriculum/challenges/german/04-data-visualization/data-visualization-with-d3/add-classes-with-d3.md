@@ -1,6 +1,6 @@
 ---
 id: 587d7fa7367417b2b2512bc8
-title: Füge Klassen mit D3 hinzu
+title: Add Classes with D3
 challengeType: 6
 forumTopicId: 301473
 dashedName: add-classes-with-d3
@@ -8,29 +8,29 @@ dashedName: add-classes-with-d3
 
 # --description--
 
-Die Verwendung einer Vielzahl von Inline-Styles für HTML-Elemente ist selbst für kleinere Anwendungen schwer zu handhaben. Es ist einfacher, eine Klasse mit CSS-Regeln zu Elementen und Stilen hinzuzufügen. D3 verfügt über die `attr()`-Methode, um einem Element ein beliebiges HTML-Attribut hinzuzufügen, einschließlich eines Klassennamens.
+Using a lot of inline styles on HTML elements gets hard to manage, even for smaller apps. It's easier to add a class to elements and style that class one time using CSS rules. D3 has the `attr()` method to add any HTML attribute to an element, including a class name.
 
-Die `attr()`Methode funktioniert genauso wie `style()`. Es verwendet kommagetrennte Werte und kann eine Callback-Funktion verwenden. Hier ist ein Beispiel, um eine Klasse von `container` einer Auswahl hinzuzufügen:
+The `attr()` method works the same way that `style()` does. It takes comma-separated values, and can use a callback function. Here's an example to add a class of `container` to a selection:
 
 ```js
 selection.attr("class", "container");
 ```
 
-Beachte, dass der `class`-Parameter gleich bleiben wird, wenn du eine Klasse hinzufügen musst und nur der `container`-Parameter wird sich ändern.
+Note that the `class` parameter will remain the same whenever you need to add a class and only the `container` parameter will change.
 
 # --instructions--
 
-Füge die `attr()`-Methode zu dem Code im Editor hinzu und setze die Klasse von `bar` auf die `div`-Elemente.
+Add the `attr()` method to the code in the editor and put a class of `bar` on the `div` elements.
 
 # --hints--
 
-Deine `div`-Elemente sollten eine Klasse von `bar` haben.
+Your `div` elements should have a class of `bar`.
 
 ```js
 assert($('div').attr('class').trim().split(/\s+/g).includes('bar'));
 ```
 
-Dein Code sollte die `attr()`-Methode verwenden.
+Your code should use the `attr()` method.
 
 ```js
 assert(code.match(/\.attr/g));

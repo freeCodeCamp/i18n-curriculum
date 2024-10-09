@@ -1,6 +1,6 @@
 ---
 id: 598e8944f009e646fc236146
-title: 関数から返される undefined 値を理解する
+title: Understanding Undefined Value returned from a Function
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/ce2p7cL'
 forumTopicId: 301177
@@ -9,9 +9,9 @@ dashedName: understanding-undefined-value-returned-from-a-function
 
 # --description--
 
-関数には `return` ステートメントを含めることができますが、必須ではありません。 関数に `return` ステートメントがない場合、関数は呼び出されたときに内部のコードを処理しますが、戻り値は `undefined` になります。
+A function can include the `return` statement but it does not have to. In the case that the function doesn't have a `return` statement, when you call it, the function processes the inner code but the returned value is `undefined`.
 
-**例**
+**Example**
 
 ```js
 let sum = 0;
@@ -23,33 +23,33 @@ function addSum(num) {
 addSum(3);
 ```
 
-`addSum` は、`return` ステートメントを持たない関数です。 関数はグローバル変数の `sum` を変更しますが、関数の戻り値は `undefined` です。
+`addSum` is a function without a `return` statement. The function will change the global `sum` variable but the returned value of the function is `undefined`.
 
 # --instructions--
 
-引数を持たない関数 `addFive` を作成してください。 この関数は `sum` 変数に 5 を足しますが、戻り値は `undefined` です。
+Create a function `addFive` without any arguments. This function adds 5 to the `sum` variable, but its returned value is `undefined`.
 
 # --hints--
 
-`addFive` は関数である必要があります。
+`addFive` should be a function.
 
 ```js
 assert(typeof addFive === 'function');
 ```
 
-両方の関数の実行後に、`sum` は `8` と等しくなる必要があります。
+Once both functions have run, the `sum` should be equal to `8`.
 
 ```js
 assert(sum === 8);
 ```
 
-`addFive` の戻り値は `undefined` となる必要があります。
+Returned value from `addFive` should be `undefined`.
 
 ```js
 assert(addFive() === undefined);
 ```
 
-`addFive` 関数の内部で、`sum` 変数に `5` を足す必要があります。
+Inside the `addFive` function, you should add `5` to the `sum` variable.
 
 ```js
 assert(

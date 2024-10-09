@@ -1,7 +1,7 @@
 ---
 id: 587d7fac367417b2b2512bdc
 title: >-
-  使用 d3.max 和 d3.min 函數在數據集中查找最小值和最大值
+  Use the d3.max and d3.min Functions to Find Minimum and Maximum Values in a Dataset
 challengeType: 6
 forumTopicId: 301496
 dashedName: >-
@@ -10,11 +10,11 @@ dashedName: >-
 
 # --description--
 
-D3 的 `domain()` 和 `range()` 方法根據數據設置比例尺的信息。 下面有幾種更簡單的方法。
+The D3 methods `domain()` and `range()` set that information for your scale based on the data. There are a couple methods to make that easier.
 
-通常當你設置域的時候，你會想用數據集中的最小值和最大值。 試圖手動的找到這些值，尤其是在很大的數據集中，可能會出錯。
+Often when you set the domain, you'll want to use the minimum and maximum values within the data set. Trying to find these values manually, especially in a large data set, may cause errors.
 
-D3 有兩個方法——`min()` 和 `max()` 來返回這些值。 下面是一個例子：
+D3 has two methods - `min()` and `max()` to return this information. Here's an example:
 
 ```js
 const exampleData = [34, 234, 73, 90, 6, 52];
@@ -22,28 +22,28 @@ d3.min(exampleData)
 d3.max(exampleData)
 ```
 
-像在散點圖的例子中的 `[x, y]` 座標對一樣，數據集有可能嵌套數組。 在這種情況下，你需要告訴 D3 怎麼計算最大值和最小值。 幸運的是，`min()` 和 `max()` 都可以使用回調函數。 在下面這個例子中，回調函數的參數 `d` 是當前的內部數組。 回調函數需要從內數組中返回你想比較大小的元素（`x` 值或 `y` 值）。 下面是一個如何找到二維數組的最大值和最小值的例子：
+A dataset may have nested arrays, like the `[x, y]` coordinate pairs that were in the scatter plot example. In that case, you need to tell D3 how to calculate the maximum and minimum. Fortunately, both the `min()` and `max()` methods take a callback function. In this example, the callback function's argument `d` is for the current inner array. The callback needs to return the element from the inner array (the `x` or `y` value) over which you want to compute the maximum or minimum. Here's an example for how to find the min and max values with an array of arrays:
 
 ```js
 const locationData = [[1, 7],[6, 3],[8, 3]];
 const minX = d3.min(locationData, (d) => d[0]);
 ```
 
-`minX` 的值應爲 `1`。
+`minX` would have the value `1`.
 
 # --instructions--
 
-`positionData` 數組的子數組元素爲 x、y 和 z 座標。 使用 D3 方法從數組中查找 z 座標（第三個值）的最大值，並將其保存在 `output` 變量中。
+The `positionData` array holds sub arrays of x, y, and z coordinates. Use a D3 method to find the maximum value of the z coordinate (the third value) from the arrays and save it in the `output` variable.
 
 # --hints--
 
-`h2` 文本應爲 `8`。
+The text in the `h2` should be `8`.
 
 ```js
 assert(output == 8 && $('h2').text() == '8');
 ```
 
-應使用 `max()` 方法。
+Your code should use the `max()` method.
 
 ```js
 assert(

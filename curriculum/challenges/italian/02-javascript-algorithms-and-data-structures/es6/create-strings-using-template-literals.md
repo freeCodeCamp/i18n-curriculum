@@ -1,6 +1,6 @@
 ---
 id: 587d7b8a367417b2b2512b4e
-title: Creare stringhe usando i modelli letterali
+title: Create Strings using Template Literals
 challengeType: 1
 forumTopicId: 301200
 dashedName: create-strings-using-template-literals
@@ -8,11 +8,11 @@ dashedName: create-strings-using-template-literals
 
 # --description--
 
-Una nuova caratteristica di ES6 è il <dfn>modello letterale</dfn>. Questo è un tipo speciale di stringa che facilita la creazione di stringhe complesse.
+A new feature of ES6 is the <dfn>template literal</dfn>. This is a special type of string that makes creating complex strings easier.
 
-I modelli letterali consentono di creare stringhe multi-linea e di utilizzare le funzioni di interpolazione di stringhe per crearne altre.
+Template literals allow you to create multi-line strings and to use string interpolation features to create strings.
 
-Considera il codice qui sotto:
+Consider the code below:
 
 ```js
 const person = {
@@ -26,15 +26,15 @@ I am ${person.age} years old.`;
 console.log(greeting);
 ```
 
-La console mostrerà le stringhe `Hello, my name is Zodiac Hasbro!` e `I am 56 years old.`.
+The console will display the strings `Hello, my name is Zodiac Hasbro!` and `I am 56 years old.`.
 
-Sono accadute un sacco di cose qui! In primo luogo, l'esempio utilizza l'apice inverso, detto backtick (`` ` ``), non le virgolette (`'` o `"`), per racchiudere la stringa. In secondo luogo, nota che la stringa è multi-riga, sia nel codice che nell'output. Questo ci risparmia l'inserimento di `\n` all'interno delle stringhe. La sintassi `${variable}` utilizzata sopra è un segnaposto. Fondamentalmente, non dovrai più usare la concatenazione con l'operatore `+`. Per aggiungere variabili alle stringhe, basta mettere la variabile in una stringa modello e avvolgerla con `${` e `}`. Allo stesso modo, puoi includere altre espressioni nella tua stringa letterale, ad esempio `${a + b}`. Questo nuovo modo di creare stringhe ti dà più flessibilità per creare stringhe affidabili.
+A lot of things happened there. Firstly, the example uses backticks (`` ` ``), not quotes (`'` or `"`), to wrap the string. Secondly, notice that the string is multi-line, both in the code and the output. This saves inserting `\n` within strings. The `${variable}` syntax used above is a placeholder. Basically, you won't have to use concatenation with the `+` operator anymore. To add variables to strings, you just drop the variable in a template string and wrap it with `${` and `}`. Similarly, you can include other expressions in your string literal, for example `${a + b}`. This new way of creating strings gives you more flexibility to create robust strings.
 
 # --instructions--
 
-Usa la sintassi dei modelli letterali con l'apice inverso per creare un array di stringhe di elementi di lista (`li`). Il testo di ogni elemento della lista dovrebbe essere uno degli elementi dell'array dalla proprietà `failure` dell'oggetto `result` e avere un attributo `class` con il valore `text-warning`. La funzione `makeList` dovrebbe restituire l'array delle stringhe degli elementi della lista.
+Use template literal syntax with backticks to create an array of list element (`li`) strings. Each list element's text should be one of the array elements from the `failure` property on the `result` object and have a `class` attribute with the value `text-warning`. The `makeList` function should return the array of list item strings.
 
-Utilizza un metodo iteratore (qualsiasi tipo di ciclo) per ottenere l'output desiderato (mostrato di seguito).
+Use an iterator method (any kind of loop) to get the desired output (shown below).
 
 ```js
 [
@@ -46,7 +46,7 @@ Utilizza un metodo iteratore (qualsiasi tipo di ciclo) per ottenere l'output des
 
 # --hints--
 
-`failuresList` dovrebbe essere un array contenente messaggi `result failure`.
+`failuresList` should be an array containing `result failure` messages.
 
 ```js
 assert(
@@ -54,7 +54,7 @@ assert(
 );
 ```
 
-`failuresList` dovrebbe essere uguale all'output specificato.
+`failuresList` should be equal to the specified output.
 
 ```js
 assert(
@@ -66,13 +66,13 @@ assert(
 );
 ```
 
-Dovresti usare modelli di stringhe e interpolazione di espressioni.
+Template strings and expression interpolation should be used.
 
 ```js
 assert.match(code, /(`.*\${.*}.*`)/);
 ```
 
-Dovresti usare un iteratore.
+An iterator should be used.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/for|map|reduce|forEach|while/));

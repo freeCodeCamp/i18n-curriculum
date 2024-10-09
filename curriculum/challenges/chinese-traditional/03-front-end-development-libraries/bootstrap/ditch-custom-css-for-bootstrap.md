@@ -1,6 +1,6 @@
 ---
 id: bad87fee1347bd9aedf08845
-title: 替換自定義的 Bootstrap 樣式
+title: Ditch Custom CSS for Bootstrap
 challengeType: 0
 forumTopicId: 17565
 dashedName: ditch-custom-css-for-bootstrap
@@ -8,31 +8,31 @@ dashedName: ditch-custom-css-for-bootstrap
 
 # --description--
 
-現在可以清理一下之前代碼，用 Bootstrap 的內置樣式來替換之前定義的樣式，這樣 Cat Photo App 看起來更簡潔些。
+We can clean up our code and make our Cat Photo App look more conventional by using Bootstrap's built-in styles instead of the custom styles we created earlier.
 
-別擔心——以後會有大把時間來自定義 CSS 樣式的。
+Don't worry - there will be plenty of time to customize our CSS later.
 
-刪除 `style` 元素裏的 `.red-text`、`p` 和 `.smaller-image` CSS 聲明，使 `style` 元素只留下 `h2` 和 `thick-green-border`。
+Delete the `.red-text`, `p`, and `.smaller-image` CSS declarations from your `style` element so that the only declarations left in your `style` element are `h2` and `thick-green-border`.
 
-刪除包含死鏈接的 `p` 元素。 然後將 `h2` 的 `red-text` class 替換爲 Bootstrap 的 `text-primary` class。
+Then delete the `p` element that contains a dead link. Then remove the `red-text` class from your `h2` element and replace it with the `text-primary` Bootstrap class.
 
-最後，從第一個 `img` 元素中刪除 `smaller-image` class，並將其替換爲 `img-responsive` class。
+Finally, remove the `smaller-image` class from your first `img` element and replace it with the `img-responsive` class.
 
 # --hints--
 
-`h2` 元素不應該有 `red-text` class。
+Your `h2` element should no longer have the class `red-text`.
 
 ```js
 assert.isFalse(document.querySelector('h2')?.classList?.contains('red-text'));
 ```
 
-`h2` 元素應有 `text-primary` class。
+Your `h2` element should now have the class `text-primary`.
 
 ```js
 assert.isTrue(document.querySelector('h2')?.classList?.contains('text-primary'));
 ```
 
-段落元素（p）不應該再使用 `Monospace` 字體。
+Your paragraph elements should no longer use the font `Monospace`.
 
 ```js
 const paragraphElement = document.querySelector('p');
@@ -40,13 +40,13 @@ const paragraphFontFamily = window.getComputedStyle(paragraphElement)["font-fami
 assert.notMatch(paragraphFontFamily,/monospace/i);
 ```
 
-移除第一張圖片的 `smaller-image` class 屬性。
+The `smaller-image` class should be removed from your top image.
 
 ```js
 assert.isFalse(document.querySelector('img')?.classList?.contains('smaller-image'));
 ```
 
-給第一張圖片添加 `img-responsive` class 屬性。
+You should add the `img-responsive` class to your top image.
 
 ```js
 assert.lengthOf(document.querySelectorAll('.img-responsive'),2);

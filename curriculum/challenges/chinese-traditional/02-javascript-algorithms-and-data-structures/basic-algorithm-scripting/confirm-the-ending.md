@@ -1,6 +1,6 @@
 ---
 id: acda2fb1324d9b0fa741e6b5
-title: 確認結尾
+title: Confirm the Ending
 challengeType: 1
 forumTopicId: 16006
 dashedName: confirm-the-ending
@@ -8,31 +8,31 @@ dashedName: confirm-the-ending
 
 # --description--
 
-檢查字符串（第一個參數 `str`）是否以給定的目標字符串（第二個參數 `target`）結束。
+Check if a string (first argument, `str`) ends with the given target string (second argument, `target`).
 
-這個挑戰 *可以* 用 ES2015 引入的 `.endsWith()` 方法來解決。但在這個挑戰中，請使用 JavaScript 的字符串子串方法。
+This challenge *can* be solved with the `.endsWith()` method, which was introduced in ES2015. But for the purpose of this challenge, we would like you to use one of the JavaScript substring methods instead.
 
 # --hints--
 
-`confirmEnding("Bastian", "n")` 應返回 `true`。
+`confirmEnding("Bastian", "n")` should return `true`.
 
 ```js
 assert(confirmEnding('Bastian', 'n') === true);
 ```
 
-`confirmEnding("Congratulation", "on")` 應返回 `true`。
+`confirmEnding("Congratulation", "on")` should return `true`.
 
 ```js
 assert(confirmEnding('Congratulation', 'on') === true);
 ```
 
-`confirmEnding("Connor", "n")` 應返回 `false`。
+`confirmEnding("Connor", "n")` should return `false`.
 
 ```js
 assert(confirmEnding('Connor', 'n') === false);
 ```
 
-`confirmEnding("Walking on water and developing software from a specification are easy if both are frozen", "specification")` 應返回 `false`。
+`confirmEnding("Walking on water and developing software from a specification are easy if both are frozen", "specification")` should return `false`.
 
 ```js
 assert(
@@ -43,31 +43,31 @@ assert(
 );
 ```
 
-`confirmEnding("He has to give me a new name", "name")` 應返回 `true`。
+`confirmEnding("He has to give me a new name", "name")` should return `true`.
 
 ```js
 assert(confirmEnding('He has to give me a new name', 'name') === true);
 ```
 
-`confirmEnding("Open sesame", "same")` 應返回 `true`。
+`confirmEnding("Open sesame", "same")` should return `true`.
 
 ```js
 assert(confirmEnding('Open sesame', 'same') === true);
 ```
 
-`confirmEnding("Open sesame", "sage")` 應返回 `false`。
+`confirmEnding("Open sesame", "sage")` should return `false`.
 
 ```js
 assert(confirmEnding('Open sesame', 'sage') === false);
 ```
 
-`confirmEnding("Open sesame", "game")` 應返回 `false`。
+`confirmEnding("Open sesame", "game")` should return `false`.
 
 ```js
 assert(confirmEnding('Open sesame', 'game') === false);
 ```
 
-`confirmEnding("If you want to save our world, you must hurry. We dont know how much longer we can withstand the nothing", "mountain")` 應返回 `false`。
+`confirmEnding("If you want to save our world, you must hurry. We dont know how much longer we can withstand the nothing", "mountain")` should return `false`.
 
 ```js
 assert(
@@ -78,13 +78,13 @@ assert(
 );
 ```
 
-`confirmEnding("Abstraction", "action")` 應該返回 `true`。
+`confirmEnding("Abstraction", "action")` should return `true`.
 
 ```js
 assert(confirmEnding('Abstraction', 'action') === true);
 ```
 
-不應使用內置方法 `.endsWith()` 來完成挑戰。
+Your code should not use the built-in method `.endsWith()` to solve the challenge.
 
 ```js
 assert(!/\.endsWith\(.*?\)\s*?;?/.test(__helpers.removeJSComments(code)) && !/\['endsWith'\]/.test(__helpers.removeJSComments(code)));

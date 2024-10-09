@@ -1,6 +1,6 @@
 ---
 id: 589fc832f9fc0f352b528e78
-title: Повідомлення про нових користувачів
+title: Announce New Users
 challengeType: 2
 forumTopicId: 301546
 dashedName: announce-new-users
@@ -8,9 +8,9 @@ dashedName: announce-new-users
 
 # --description--
 
-Багато чатів можуть повідомляти всіх приєднаних користувачів чату про приєднання чи від’єднання іншого користувача. Оскільки з приєднанням чи від’єднанням ви видаєте подію, то для підтримки такої функції вам потрібно просто відредагувати цю подію. Найлогічніший спосіб зробити це — надіслати 3 частини даних разом із подією: ім’я користувача, який приєднався/від’єднався, поточну кількість користувачів, а також те, чи це ім’я користувача приєднане чи від’єднане.
+Many chat rooms are able to announce when a user connects or disconnects and then display that to all of the connected users in the chat. Seeing as though you already are emitting an event on connect and disconnect, you will just have to modify this event to support such a feature. The most logical way of doing so is sending 3 pieces of data with the event: the username of the user who connected/disconnected, the current user count, and if that username connected or disconnected.
 
-Змініть назву події на `'user'` і передайте об’єкт, що містить поля `username`, `currentUsers` та `connected` (`true` у разі приєднання або `false` у разі від’єднання надісланого користувача). Обов’язково переконайтесь, що змінили обидві події `'user count'` та встановили подію від’єднання так, щоб надсилалось `false` у поле `connected` замість `true`, яке надсилається у події приєднання.
+Change the event name to `'user'`, and pass an object along containing the fields `username`, `currentUsers`, and `connected` (to be `true` in case of connection, or `false` for disconnection of the user sent). Be sure to change both `'user count'` events and set the disconnect one to send `false` for the field `connected` instead of `true` like the event emitted on connect.
 
 ```js
 io.emit('user', {
@@ -20,9 +20,9 @@ io.emit('user', {
 });
 ```
 
-Тепер ваш клієнт матиме всю необхідну інформацію, щоб правильно показувати кількість поточних користувачів і повідомляти, коли користувач приєднується або від’єднується! Щоб обробити цю подію зі сторони клієнта, ми повинні послухати `'user'`, потім оновити кількість поточних користувачів за допомогою jQuery, щоб змінити текст `#num-users` на `'{NUMBER} users online'`, а також додати `<li>` до невпорядкованого списку з id `messages` з `'{NAME} has {joined/left} the chat.'`.
+Now your client will have all the necessary information to correctly display the current user count and announce when a user connects or disconnects! To handle this event on the client side we should listen for `'user'`, then update the current user count by using jQuery to change the text of `#num-users` to `'{NUMBER} users online'`, as well as append a `<li>` to the unordered list with id `messages` with `'{NAME} has {joined/left} the chat.'`.
 
-Ця дія може виглядати таким чином:
+An implementation of this could look like the following:
 
 ```js
 socket.on('user', data => {
@@ -34,11 +34,11 @@ socket.on('user', data => {
 });
 ```
 
-Відправте свою сторінку коли впевнились, що все правильно. Якщо виникають помилки, ви можете <a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135/3#announce-new-users-10" target="_blank" rel="noopener noreferrer nofollow">переглянути проєкт, виконаний до цього етапу</a>.
+Submit your page when you think you've got it right. If you're running into errors, you can check out <a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135/3#announce-new-users-10" target="_blank" rel="noopener noreferrer nofollow">the project completed up to this point </a>.
 
 # --hints--
 
-Подію `'user'` потрібно видати разом з `username`, `currentUsers` та `connected`.
+Event `'user'` should be emitted with `username`, `currentUsers`, and `connected`.
 
 ```js
 async (getUserInput) => {
@@ -54,7 +54,7 @@ async (getUserInput) => {
 }
 ```
 
-Клієнт повинен правильно обробляти та показувати нові дані із події `'user'`.
+Client should properly handle and display the new data from event `'user'`.
 
 ```js
 async (getUserInput) => {

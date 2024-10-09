@@ -1,6 +1,6 @@
 ---
 id: 5e46f7e5ac417301a38fb929
-title: 人口統計データ分析プログラム
+title: Demographic Data Analyzer
 challengeType: 10
 forumTopicId: 462367
 dashedName: demographic-data-analyzer
@@ -10,15 +10,15 @@ dashedName: demographic-data-analyzer
 
 You will be <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-demographic-data-analyzer/" target="_blank" rel="noopener noreferrer nofollow">working on this project with our Gitpod starter code</a>.
 
-Python カリキュラムの対話式教育コンテンツを引き続き開発中です。 現在、下記の freeCodeCamp.org YouTube チャンネルで、このプロジェクトの完了に必要なすべての知識について説明する動画をいくつか公開しています。
+We are still developing the interactive instructional part of the Python curriculum. For now, here are some videos on the freeCodeCamp.org YouTube channel that will teach you everything you need to know to complete this project:
 
-- <a href="https://www.freecodecamp.org/news/python-for-everybody/" target="_blank" rel="noopener noreferrer nofollow">「みんなの Python」動画コース</a> (14 時間)
+- <a href="https://www.freecodecamp.org/news/python-for-everybody/" target="_blank" rel="noopener noreferrer nofollow">Python for Everybody Video Course</a> (14 hours)
 
-- <a href="https://www.freecodecamp.org/news/how-to-analyze-data-with-python-pandas/" target="_blank" rel="noopener noreferrer nofollow">Python Pandas でデータを分析する方法</a> (10 時間)
+- <a href="https://www.freecodecamp.org/news/how-to-analyze-data-with-python-pandas/" target="_blank" rel="noopener noreferrer nofollow">How to Analyze Data with Python Pandas</a> (10 hours)
 
 # --instructions--
 
-このチャレンジでは、Pandas を使用して人口統計データを分析します。 1994 年の国勢調査データベースから抽出された人口統計データのデータセットが与えられます。 データの例を次に示します。
+In this challenge you must analyze demographic data using Pandas. You are given a dataset of demographic data that was extracted from the 1994 Census database. Here is a sample of what the data looks like:
 
 ```markdown
 |    |   age | workclass        |   fnlwgt | education   |   education-num | marital-status     | occupation        | relationship   | race   | sex    |   capital-gain |   capital-loss |   hours-per-week | native-country   | salary   |
@@ -30,39 +30,39 @@ Python カリキュラムの対話式教育コンテンツを引き続き開発�
 |  4 |    28 | Private          |   338409 | Bachelors   |              13 | Married-civ-spouse | Prof-specialty    | Wife           | Black  | Female |              0 |              0 |               40 | Cuba             | <=50K    |
 ```
 
-Pandas を使用して次の問いに答える必要があります。
+You must use Pandas to answer the following questions:
 
-- このデータセットで表現される各人種の人数は何人ですか？ これは、人種名 (`race` 列) をインデックスラベルに持つ Pandas のシリーズとして表現する必要があります。
-- 男性の平均年齢は何歳ですか？
-- 学士号を取得した人の割合は何パーセントですか？
-- 高等教育 (`Bachelors` (学士)、`Masters` (修士)、または `Doctorate` (博士)) を受けた人のうち給料が 50K を超えているのは何パーセントですか？
-- 高等教育を受けていない人のうち給料が 50K を超えているのは何パーセントですか？
-- 週間労働時間の最小値は何時間ですか？
-- 最小の週間労働時間だけ働いている人のうち給料が 50K を超えているのは何パーセントですか？
-- >50K (50K を超える額) を稼いでいる人の割合が最も高い国はどこですか？その割合は何パーセントですか？
-- インドで >50K を稼いでいる人に最も人気のある職業を特定してください。
+- How many people of each race are represented in this dataset? This should be a Pandas series with race names as the index labels. (`race` column)
+- What is the average age of men?
+- What is the percentage of people who have a Bachelor's degree?
+- What percentage of people with advanced education (`Bachelors`, `Masters`, or `Doctorate`) make more than 50K?
+- What percentage of people without advanced education make more than 50K?
+- What is the minimum number of hours a person works per week?
+- What percentage of the people who work the minimum number of hours per week have a salary of more than 50K?
+- What country has the highest percentage of people that earn >50K and what is that percentage?
+- Identify the most popular occupation for those who earn >50K in India.
 
-Use the starter code in the file `demographic_data_analyzer.py`. Update the code so all variables set to `None` are set to the appropriate calculation or code. 小数はすべて最も近い小数点以下 1 桁に丸めてください。
+Use the starter code in the file `demographic_data_analyzer.py`. Update the code so all variables set to `None` are set to the appropriate calculation or code. Round all decimals to the nearest tenth.
 
-## 開発
+## Development
 
 Write your code in `demographic_data_analyzer.py`. For development, you can use `main.py` to test your code.
 
-## テスト
+## Testing
 
-The unit tests for this project are in `test_module.py`. すでに `test_module.py` から `main.py` にテストをインポートしてあります。
+The unit tests for this project are in `test_module.py`. We imported the tests from `test_module.py` to `main.py` for your convenience.
 
-## 提出
+## Submitting
 
-プロジェクトの URL をコピーし、freeCodeCamp に提出してください。
+Copy your project's URL and submit it to freeCodeCamp.
 
-## データセットのソース
+## Dataset Source
 
 Dua, D. and Graff, C. (2019). <a href="http://archive.ics.uci.edu/ml" target="_blank" rel="noopener noreferrer nofollow">UCI Machine Learning Repository</a>. Irvine, CA: University of California, School of Information and Computer Science.
 
 # --hints--
 
-すべての Python テストが成功する必要があります。
+It should pass all Python tests.
 
 ```js
 

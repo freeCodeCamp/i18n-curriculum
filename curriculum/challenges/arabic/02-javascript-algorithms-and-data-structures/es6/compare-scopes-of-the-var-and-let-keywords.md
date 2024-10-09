@@ -1,6 +1,6 @@
 ---
 id: 587d7b87367417b2b2512b40
-title: مقارنة نطاقات var و let
+title: Compare Scopes of the var and let Keywords
 challengeType: 1
 forumTopicId: 301195
 dashedName: compare-scopes-of-the-var-and-let-keywords
@@ -8,13 +8,13 @@ dashedName: compare-scopes-of-the-var-and-let-keywords
 
 # --description--
 
-إذا كانت `let` غير مألوف، تحقق <a href="/learn/javascript-algorithms-and-data-structures/basic-javascript/explore-differences-between-the-var-and-let-keywords" target="_blank" rel="noopener noreferrer nofollow">هذا التحدي عن أختلاف بين كلمة (<code>let</code>) وكلمة (<code>var</code>)</a>.
+If you are unfamiliar with `let`, check out <a href="/learn/javascript-algorithms-and-data-structures/basic-javascript/explore-differences-between-the-var-and-let-keywords" target="_blank" rel="noopener noreferrer nofollow">this challenge about the difference between <code>let</code> and <code>var</code></a>.
 
-عندما تعلن متغير باستخدام مصطلح `var`، يكون للمتغير مجال شامل (global scope)، أو إذا اعلن عنه داخل وظيفة (function) فمجاله محدد (local scope).
+When you declare a variable with the `var` keyword, it is declared globally, or locally if declared inside a function.
 
-يتصرف مصطلح `let` بالمثل، ولكن مع بعض الميزات الإضافية. عندما تعلن متغير باستخدام `let` داخل الكتلة أو تعبير أو عبارة، فنطاق المتغير يقتصر على تلك الكتلة (block) أو التعبير (statement) أو العبارة (expression).
+The `let` keyword behaves similarly, but with some extra features. When you declare a variable with the `let` keyword inside a block, statement, or expression, its scope is limited to that block, statement, or expression.
 
-على سبيل المثال:
+For example:
 
 ```js
 var numArray = [];
@@ -25,9 +25,9 @@ console.log(numArray);
 console.log(i);
 ```
 
-هنا ستعرض وحدة التحكم القيم `[0, 1, 2]` و `3`.
+Here the console will display the values `[0, 1, 2]` and `3`.
 
-مع مصطلح `var`، يعلن `i` بشكل شامل. لذلك عندما ينفذ `i++`، فإنه يحدث المتغير الشامل. وهذا الكود مماثل لما يلي:
+With the `var` keyword, `i` is declared globally. So when `i++` is executed, it updates the global variable. This code is similar to the following:
 
 ```js
 var numArray = [];
@@ -39,9 +39,9 @@ console.log(numArray);
 console.log(i);
 ```
 
-هنا ستعرض وحدة التحكم القيم `[0, 1, 2]` و `3`.
+Here the console will display the values `[0, 1, 2]` and `3`.
 
-هذا السلوك سوف يسبب مشكلات إذا كنت تريد إنشاء وظيفة وتخزينها لاستخدامها لاحقاً داخل حلقة `for` تستخدم متغير `i`. هذا لأن الوظيفة المخزنة سوف تشير دائما إلى قيمة متغير `i` الشامل المحدث.
+This behavior will cause problems if you were to create a function and store it for later use inside a `for` loop that uses the `i` variable. This is because the stored function will always refer to the value of the updated global `i` variable.
 
 ```js
 var printNumTwo;
@@ -55,9 +55,9 @@ for (var i = 0; i < 3; i++) {
 console.log(printNumTwo());
 ```
 
-هنا ستعرض وحدة التحكم القيمة `3`.
+Here the console will display the value `3`.
 
-كما تري، `printNumTwo()` يطبع 3 وليس 2. هذا لأن القيمة التي عينت إلى `i` تُحدث, وتنتج `printNumTwo()` القيمة الشاملة `i` وليس القيمة التي احتواها `i` عندما أنشئت الوظيفة في حلقة التكرار. لا تتبع مصطلح `let` هذا السلوك:
+As you can see, `printNumTwo()` prints 3 and not 2. This is because the value assigned to `i` was updated and the `printNumTwo()` returns the global `i` and not the value `i` had when the function was created in the for loop. The `let` keyword does not follow this behavior:
 
 ```js
 let printNumTwo;
@@ -72,31 +72,31 @@ console.log(printNumTwo());
 console.log(i);
 ```
 
-هنا ستعرض وحدة التحكم القيمة `2`، وخطأ `i is not defined`.
+Here the console will display the value `2`, and an error that `i is not defined`.
 
-`i` غير معروف لأنه لم يعلن في المجال الشامل (global scope). اعلن عنه فقط ضمن حلقة `for`. أنتج `printNumTwo()` القيمة الصحيحة لأن ثلاث متغيرات `i` مختلفة مع قيم فريدة (0, 1, و 2) أنشئت بواسطة `let` داخل كود الحلقة التكرارية.
+`i` is not defined because it was not declared in the global scope. It is only declared within the `for` loop statement. `printNumTwo()` returned the correct value because three different `i` variables with unique values (0, 1, and 2) were created by the `let` keyword within the loop statement.
 
 # --instructions--
 
-أصلح الكود بحيث إن `i` المعلن عنها في `if` تصبح متغير منفصل من `i` المعلن عنها في السطر الأول من الوظيفة. كن متيقن من عدم استخدام مصطلح `var` في أي مكان في كودك.
+Fix the code so that `i` declared in the `if` statement is a separate variable than `i` declared in the first line of the function. Be certain not to use the `var` keyword anywhere in your code.
 
-تم تصميم هذا التمرين لتوضيح الفرق بين كيفية تعيين المصطلحات `var` و `let` نطاقًا للمتغير المعلن. عند برمجة وظيفة مماثلة لتلك المستخدمة في هذه الممارسة، كثيرا ما يكون من الأفضل استخدام أسماء مختلفة للمتغيرات لتجنب الخلط.
+This exercise is designed to illustrate the difference between how `var` and `let` keywords assign scope to the declared variable. When programming a function similar to the one used in this exercise, it is often better to use different variable names to avoid confusion.
 
 # --hints--
 
-يجب ألا تكون `var` موجودة في الكود.
+`var` should not exist in code.
 
 ```js
 assert(!__helpers.removeJSComments(code).match(/var/g));
 ```
 
-يجب أن يساوي المتغير `i` المعلن عنه في `if` المقطع النصي `block scope`.
+The variable `i` declared in the `if` statement should equal the string `block scope`.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/(i\s*=\s*).*\s*.*\s*.*\1('|")block\s*scope\2/g));
 ```
 
-يجب أن ينتج `checkScope()` مقطع `function scope`
+`checkScope()` should return the string `function scope`
 
 ```js
 assert(checkScope() === 'function scope');

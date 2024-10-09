@@ -1,6 +1,6 @@
 ---
 id: 56533eb9ac21ba0edf2244a9
-title: Ініціалізація змінних за допомогою оператора присвоєння
+title: Initializing Variables with the Assignment Operator
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cWJ4Bfb'
 forumTopicId: 301171
@@ -9,21 +9,21 @@ dashedName: initializing-variables-with-the-assignment-operator
 
 # --description--
 
-Часто змінній <dfn>ініціалізовують</dfn> початкове значення в тому ж рядку, що оголошення.
+It is common to <dfn>initialize</dfn> a variable to an initial value in the same line as it is declared.
 
 ```js
 var myVar = 0;
 ```
 
-Створює нову змінну під назвою `myVar` та призначає їй початкове значення `0`.
+Creates a new variable called `myVar` and assigns it an initial value of `0`.
 
 # --instructions--
 
-Визначте змінну `a` за допомогою `var` та ініціалізуйте їй значення `9`.
+Define a variable `a` with `var` and initialize it to a value of `9`.
 
 # --hints--
 
-Ви повинні ініціалізувати `a` зі значенням `9`.
+You should initialize `a` to a value of `9`.
 
 ```js
 assert(/var\s+a\s*=\s*9(\s*;?\s*)$/.test(__helpers.removeJSComments(code)));

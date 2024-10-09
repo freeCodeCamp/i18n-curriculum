@@ -13,11 +13,11 @@ A divisão por zero não é uma operação válida na matemática.
 
 Para tratar este caso limite, você deve atualizar a função `calculateQuotient` para verificar se `num2` é zero.
 
-Se for, a função deve retornar a string `'Error: Division by zero'`. Caso contrário, deve retornar o resultado da divisão de `num1` por `num2`.
+If it is, the function should return the string `"Error: Division by zero"`. Caso contrário, deve retornar o resultado da divisão de `num1` por `num2`.
 
 # --hints--
 
-A função `calculateQuotient` deve retornar a string `'Error: Division by zero'` se `num2` for zero.
+Your `calculateQuotient` function should return the string `"Error: Division by zero"` if `num2` is zero.
 
 ```js
 assert.strictEqual(calculateQuotient(10, 0), 'Error: Division by zero');

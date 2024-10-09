@@ -1,6 +1,6 @@
 ---
 id: 5e9a0e9ef99a403d019610cc
-title: Deep Learning Desmitificado
+title: Deep Learning Demystified
 challengeType: 11
 videoId: bejQ-W9BGJg
 dashedName: deep-learning-demystified
@@ -10,23 +10,23 @@ dashedName: deep-learning-demystified
 
 ## --text--
 
-¿Cómo deberías asignar pesos a las neuronas de entrada antes de entrenar tu red por primera vez?
+How should you assign weights to input neurons before training your network for the first time?
 
 ## --answers--
 
-De más pequeño a más grande.
+From smallest to largest.
 
 ---
 
-Completamente al azar.
+Completely randomly.
 
 ---
 
-Alfabéticamente.
+Alphabetically.
 
 ---
 
-Ninguna de las anteriores.
+None of the above.
 
 ## --video-solution--
 

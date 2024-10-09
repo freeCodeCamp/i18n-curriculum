@@ -1,23 +1,23 @@
 ---
 id: 612e9f1e7e5ccd4fa9ada0be
-title: Hatua ya 17
+title: Step 17
 challengeType: 0
 dashedName: step-17
 ---
 
 # --description--
 
-Ipe `.key` `margin` ya `2px` na sifa ya `float` iliyowekwa kuwa `left`.
+Give the `.key` a `margin` of `2px` and a `float` property set to `left`.
 
 # --hints--
 
-Kichaguzi chako cha `.key` kinafaa kuwa na sifa ya `margin` iliyowekwa kuwa `2px`.
+Your `.key` selector should have a `margin` property set to `2px`.
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('.key')?.margin === '2px');
 ```
 
-Kichaguzi chako cha `.key` kinafaa kuwa na sifa ya `float` iliyowekwa kuwa `left`.
+Your `.key` selector should have a `float` property set to `left`.
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('.key')?.float === 'left');

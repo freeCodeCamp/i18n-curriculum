@@ -1,13 +1,13 @@
 ---
 id: 661e275a8602567c118451d7
-title: Вивчіть масиви та цикли. Урок №7
+title: Learn Arrays and Loops Lesson G
 challengeType: 15
 dashedName: learn-arrays-and-loops-lesson-g
 ---
 
 # --description--
 
-Ви вже знаєте про найпоширеніші способи ітерувати над значеннями та масивами, тому розглянемо й інші способи ітерації над масивами. Масиви мають вбудований метод під назвою `map()`, який використовують для створення нового масиву, застосовуючи функцію до кожного елемента вхідного масиву. Метод `map()` не змінює вхідний масив. Синтаксис методу `map()` такий:
+Now that you know about the most common ways to iterate over values and arrays, there are a few more ways to iterate over arrays. Arrays have a built-in method called `map()`, which is used to create a new array by applying a function to each element of the original array. The `map()` method does not change the original array. The syntax of the `map()` method is as follows:
 
 ```javascript
 const array = [1, 2, 3, 4, 5];
@@ -19,13 +19,13 @@ const newArray = array.map((arrayValue) => {
 console.log(newArray); // Output: [2, 4, 6, 8, 10]
 ```
 
-Метод `map()` створює новий масив, застосовуючи функцію `(arrayValue) => { return arrayValue * 2;` до кожного елемента вхідного масиву. Це особливо корисно, якщо потрібно змінити елементи масиву, не змінюючи вхідний масив.
+The `map()` method creates a new array by applying the function `(arrayValue) => { return arrayValue * 2;` to each element of the original array. This is particularly useful when you want to transform the elements of an array without changing the original array.
 
 # --questions--
 
 ## --text--
 
-Яким буде вивід даного фрагменту коду JavaScript?
+What will be the output of the following JavaScript code snippet?
 
 ```javascript
 const numbers = [1, 2, 3, 4, 5];

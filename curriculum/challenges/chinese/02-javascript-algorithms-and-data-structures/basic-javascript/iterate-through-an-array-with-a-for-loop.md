@@ -1,6 +1,6 @@
 ---
 id: 5675e877dbd60be8ad28edc6
-title: 使用 For 循环遍历数组
+title: Iterate Through an Array with a For Loop
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/caeR3HB'
 forumTopicId: 18216
@@ -9,7 +9,7 @@ dashedName: iterate-through-an-array-with-a-for-loop
 
 # --description--
 
-JavaScript 中的一个常见任务是遍历数组的内容。 一种方法是使用 `for` 循环。 下面的代码将输出数组 `arr` 的每个元素到控制台：
+A common task in JavaScript is to iterate through the contents of an array. One way to do that is with a `for` loop. This code will output each element of the array `arr` to the console:
 
 ```js
 const arr = [10, 9, 8, 7, 6];
@@ -19,33 +19,33 @@ for (let i = 0; i < arr.length; i++) {
 }
 ```
 
-记住数组的索引从零开始的，这意味着数组的最后一个元素的下标是：`length - 1`（数组的长度 -1）。 我们这个循环的条件是 `i < arr.length`，当 `i` 的值为 `length` 的时候循环就停止了。 在这个例子中，最后一个循环是 `i === 4`，也就是说，当 `i` 的值等于 `arr.length - 1` 时，结果输出 `6`。 然后 `i` 增加到 `5`，循环会终止，因为 `i < arr.length` 是 `false`。
+Remember that arrays have zero-based indexing, which means the last index of the array is `length - 1`. Our condition for this loop is `i < arr.length`, which stops the loop when `i` is equal to `length`. In this case the last iteration is `i === 4` i.e. when `i` becomes equal to `arr.length - 1` and outputs `6` to the console. Then `i` increases to `5`, and the loop terminates because `i < arr.length` is `false`.
 
 # --instructions--
 
-声明并初始化一个变量 `total` 值为 `0`。 使用 `for` 循环，使得 `total` 的值为 `myArr` 的数组中的每个元素的值的总和。
+Declare and initialize a variable `total` to `0`. Use a `for` loop to add the value of each element of the `myArr` array to `total`.
 
 # --hints--
 
-`total` 应该被声明, 并且初始化值为 0。
+`total` should be declared and initialized to 0.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/(var|let|const)\s*?total\s*=\s*0.*?;?/));
 ```
 
-`total` 应该等于 20。
+`total` should equal 20.
 
 ```js
 assert(total === 20);
 ```
 
-你应该使用 `for` 循环在 `myArr` 中遍历。
+You should use a `for` loop to iterate through `myArr`.
 
 ```js
 assert(/for\s*\(/g.test(__helpers.removeJSComments(code)) && /myArr\s*\[/g.test(__helpers.removeJSComments(code)));
 ```
 
-不能直接把 `total` 设置成 20。
+You should not attempt to directly assign the value 20 to `total`.
 
 ```js
 assert(!__helpers.removeWhiteSpace(__helpers.removeJSComments(code)).match(/total[=+-]0*[1-9]+/gm));

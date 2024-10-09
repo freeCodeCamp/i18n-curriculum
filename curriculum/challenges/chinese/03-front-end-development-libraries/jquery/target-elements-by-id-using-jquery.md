@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aeda08826
-title: 使用 jQuery id 选择器选择元素
+title: Target Elements by id Using jQuery
 challengeType: 6
 forumTopicId: 18317
 required:
@@ -11,15 +11,15 @@ dashedName: target-elements-by-id-using-jquery
 
 # --description--
 
-也能通过 id 属性选取标签。
+You can also target elements by their id attributes.
 
-首先，用 `$("#target3")` 选择器选取 id 为 `target3` 的 `button` 标签。
+First target your `button` element with the id `target3` by using the `$("#target3")` selector.
 
-注意，和 CSS 声明一样，在 id 名前需要添加 `#`。
+Note that, just like with CSS declarations, you type a `#` before the id's name.
 
-然后，用 jQuery 的 `.addClass()` 方法添加 `animated` 和 `fadeOut` 类。
+Then use jQuery's `.addClass()` function to add the classes `animated` and `fadeOut`.
 
-下面的代码的效果是使 id 为 `target6` 的 `button` 标签淡出：
+Here's how you'd make the `button` element with the id `target6` fade out:
 
 ```js
 $("#target6").addClass("animated fadeOut");
@@ -27,13 +27,13 @@ $("#target6").addClass("animated fadeOut");
 
 # --hints--
 
-应该选择 `id` 为 `target3` 的 `button` 元素，使用 jQuery 的 `addClass()` 函数给它添加 `animated` class。
+You should select the `button` element with the `id` of `target3` and use the jQuery `addClass()` function to give it the class of `animated`.
 
 ```js
 assert($('#target3').hasClass('animated'));
 ```
 
-应该选中 id 为 `target3` 的元素，使用 jQuery 的 `addClass()` 函数给它添加 `fadeOut` class。
+You should target the element with the id `target3` and use the jQuery `addClass()` function to give it the class `fadeOut`.
 
 ```js
 assert(
@@ -42,7 +42,7 @@ assert(
 );
 ```
 
-应该仅用 jQuery 给元素添加这些 class。
+You should only use jQuery to add these classes to the element.
 
 ```js
 assert(!code.match(/class.*animated/g));

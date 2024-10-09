@@ -1,6 +1,6 @@
 ---
 id: 5900f5361000cf542c510048
-title: '問題 457: 素数の平方数を法とする多項式'
+title: 'Problem 457: A polynomial modulo the square of a prime'
 challengeType: 1
 forumTopicId: 302131
 dashedName: problem-457-a-polynomial-modulo-the-square-of-a-prime
@@ -8,19 +8,19 @@ dashedName: problem-457-a-polynomial-modulo-the-square-of-a-prime
 
 # --description--
 
-$f(n) = n^2 - 3n - 1$ と定義します。
+Let $f(n) = n^2 - 3n - 1$.
 
-$p$ を素数とします。
+Let $p$ be a prime.
 
-$f(n)\bmod p^2 = 0$ が成り立つ最小の正の整数 $n$ が存在するときは $R(p)$ = $n$ とし、存在しないときは $R(p) = 0$ と定義します。
+Let $R(p)$ be the smallest positive integer $n$ such that $f(n)\bmod p^2 = 0$ if such an integer $n$ exists, otherwise $R(p) = 0$.
 
-$L$ を超えないすべての素数について、$\sum R(p)$ を $SR(L)$ とします。
+Let $SR(L)$ be $\sum R(p)$ for all primes not exceeding $L$.
 
-$SR({10}^7)$ を求めなさい。
+Find $SR({10}^7)$.
 
 # --hints--
 
-`polynomialModuloSquareOfPrime()` は `2647787126797397000` を返す必要があります。
+`polynomialModuloSquareOfPrime()` should return `2647787126797397000`.
 
 ```js
 assert.strictEqual(polynomialModuloSquareOfPrime(), 2647787126797397000);

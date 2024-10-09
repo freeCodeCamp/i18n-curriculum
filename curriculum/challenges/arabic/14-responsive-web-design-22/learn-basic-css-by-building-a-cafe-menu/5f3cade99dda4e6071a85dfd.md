@@ -1,35 +1,35 @@
 ---
 id: 5f3cade99dda4e6071a85dfd
-title: الخطوة 46
+title: Step 46
 challengeType: 0
 dashedName: step-46
 ---
 
 # --description--
 
-سوف تعود إلى تصميم القائمة بعد بضع خطوات، ولكن الآن، أضف عنصر `section` ثان تحت الأول لعرض الحَلْوَيَات (desserts) المقدمة من المقهى (cafe).
+You will come back to styling the menu in a few steps, but for now, go ahead and add a second `section` element below the first for displaying the desserts offered by the cafe.
 
 # --hints--
 
-يجب أن يكون لديك علامة مفتوحة (opening tag) الآتي `section`.
+You should have an opening `section` tag.
 
 ```js
 assert.lengthOf(code.match(/<section>/ig) ,2);
 ```
 
-يجب أن يكون لديك علامة مغلقة (closing tag) الآتي `section`.
+You should have a closing `section` tag.
 
 ```js
 assert.lengthOf(code.match(/<\/section>/ig) ,2);
 ```
 
-لا يجب عليك تغيير عنصر `main` الحالي.
+You should not change the existing `main` element.
 
 ```js
 assert.lengthOf (document.querySelectorAll('main'), 1);
 ```
 
-عنصر `section` الجديد الخاص بك يجب أن يكون متداخلا في عنصر `main`.
+Your new `section` element should be nested in the `main` element.
 
 ```js
 const main = document.querySelector('main');

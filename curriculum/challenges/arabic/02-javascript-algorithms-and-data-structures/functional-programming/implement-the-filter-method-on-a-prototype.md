@@ -8,15 +8,15 @@ dashedName: implement-the-filter-method-on-a-prototype
 
 # --description--
 
-قد تتعلم الكثير عن دالة `filter` إذا قمت بتنفيذ الإصدار الخاص بك منها. من المستحسن أن تستخدم حلقات `for` التكرارية أو `Array.prototype.forEach()`.
+You might learn a lot about the `filter` method if you implement your own version of it. It is recommended you use a `for` loop or `Array.prototype.forEach()`.
 
 # --instructions--
 
-اكتب `Array.prototype.myFilter()`الخاص بك، والذي يجب أن يتصرف مثل `Array.prototype.filter()`. يجب ألا تستخدم دالة `filter` المدمجة. يمكن الوصول إلى مثيل (instance) `Array` في دالة `myFilter` باستخدام `this`.
+Write your own `Array.prototype.myFilter()`, which should behave exactly like `Array.prototype.filter()`. You should not use the built-in `filter` method. The `Array` instance can be accessed in the `myFilter` method using `this`.
 
 # --hints--
 
-يجب أن يساوي `[23, 65, 98, 5, 13].myFilter(item => item % 2)` قيمة `[23, 65, 5, 13]`.
+`[23, 65, 98, 5, 13].myFilter(item => item % 2)` should equal `[23, 65, 5, 13]`.
 
 ```js
 const _test_s = [23, 65, 98, 5, 13];
@@ -24,7 +24,7 @@ const _callback = item => item % 2;
 assert(JSON.stringify(_test_s.filter(_callback)) === JSON.stringify(_test_s.myFilter(_callback)));
 ```
 
-يجب أن ينتج `["naomi", "quincy", "camperbot"].myFilter(element => element === "naomi")` قائمة `["naomi"]`.
+`["naomi", "quincy", "camperbot"].myFilter(element => element === "naomi")` should return `["naomi"]`.
 
 ```js
 const _test_s = ["naomi", "quincy", "camperbot"];
@@ -32,7 +32,7 @@ const _callback = element => element === "naomi";
 assert(JSON.stringify(_test_s.filter(_callback)) === JSON.stringify(_test_s.myFilter(_callback)));
 ```
 
-يجب أن ينتج `[1, 1, 2, 5, 2].myFilter((element, index, array) => array.indexOf(element) === index)` قائمة `[1, 2, 5]`.
+`[1, 1, 2, 5, 2].myFilter((element, index, array) => array.indexOf(element) === index)` should return `[1, 2, 5]`.
 
 ```js
 const _test_s = [1, 1, 2, 5, 2];
@@ -40,7 +40,7 @@ const _callback = (element, index, array) => array.indexOf(element) === index;
 assert(JSON.stringify(_test_s.filter(_callback)) === JSON.stringify(_test_s.myFilter(_callback)));
 ```
 
-يجب ألا يستخدم كودك الطريقة (method) المسمى `filter`.
+Your code should not use the `filter` method.
 
 ```js
 assert(!__helpers.removeJSComments(code).match(/\.?[\s\S]*?filter/g));

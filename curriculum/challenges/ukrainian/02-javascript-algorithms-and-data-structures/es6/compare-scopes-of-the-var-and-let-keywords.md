@@ -1,6 +1,6 @@
 ---
 id: 587d7b87367417b2b2512b40
-title: Порівняння областей видимості ключових слів var та let
+title: Compare Scopes of the var and let Keywords
 challengeType: 1
 forumTopicId: 301195
 dashedName: compare-scopes-of-the-var-and-let-keywords
@@ -8,13 +8,13 @@ dashedName: compare-scopes-of-the-var-and-let-keywords
 
 # --description--
 
-Якщо ви ще не знайомі з `let`, див. <a href="/ukrainian/learn/javascript-algorithms-and-data-structures/basic-javascript/explore-differences-between-the-var-and-let-keywords" target="_blank" rel="noopener noreferrer nofollow">це завдання про різницю між <code>let</code> та <code>var</code></a>.
+If you are unfamiliar with `let`, check out <a href="/learn/javascript-algorithms-and-data-structures/basic-javascript/explore-differences-between-the-var-and-let-keywords" target="_blank" rel="noopener noreferrer nofollow">this challenge about the difference between <code>let</code> and <code>var</code></a>.
 
-Коли ви оголошуєте змінну з ключовим словом `var`, вона оголошена глобально, або локально, якщо оголошена всередині функції.
+When you declare a variable with the `var` keyword, it is declared globally, or locally if declared inside a function.
 
-Ключове слово `let` поводиться схожим чином, але з додатковими можливостями. Коли ви оголошуєте змінну з ключовим словом `let` всередині блоку, інструкції чи виразу, її область видимості обмежується цим блоком, інструкцією чи виразом.
+The `let` keyword behaves similarly, but with some extra features. When you declare a variable with the `let` keyword inside a block, statement, or expression, its scope is limited to that block, statement, or expression.
 
-Наприклад:
+For example:
 
 ```js
 var numArray = [];
@@ -25,9 +25,9 @@ console.log(numArray);
 console.log(i);
 ```
 
-У такому разі консоль показуватиме значення `[0, 1, 2]` та `3`.
+Here the console will display the values `[0, 1, 2]` and `3`.
 
-Якщо ключовим словом є `var`, то `i` оголошується глобально. Тому коли виконується `i++`, оновлюється глобальна змінна. Такий код схожий до наступного:
+With the `var` keyword, `i` is declared globally. So when `i++` is executed, it updates the global variable. This code is similar to the following:
 
 ```js
 var numArray = [];
@@ -39,9 +39,9 @@ console.log(numArray);
 console.log(i);
 ```
 
-У такому разі консоль показуватиме значення `[0, 1, 2]` та `3`.
+Here the console will display the values `[0, 1, 2]` and `3`.
 
-Така поведінка спричиняє проблеми при створенні функції та її збереженні для подальшого використання в циклі `for`, що використовує змінну `i`. Це пояснюється тим, що збережена функція завжди посилатиметься на значення оновленої глобальної змінної `i`.
+This behavior will cause problems if you were to create a function and store it for later use inside a `for` loop that uses the `i` variable. This is because the stored function will always refer to the value of the updated global `i` variable.
 
 ```js
 var printNumTwo;
@@ -55,9 +55,9 @@ for (var i = 0; i < 3; i++) {
 console.log(printNumTwo());
 ```
 
-У такому разі консоль показуватиме значення `3`.
+Here the console will display the value `3`.
 
-Як бачите, `printNumTwo()` друкує 3, а не 2. Це пояснюється тим, що значення для `i` оновилося, а `printNumTwo()` повертає глобальну `i`, а не те значення, яке `i` мало при створенні функції у циклі for. Ключове слово `let` діє інакше:
+As you can see, `printNumTwo()` prints 3 and not 2. This is because the value assigned to `i` was updated and the `printNumTwo()` returns the global `i` and not the value `i` had when the function was created in the for loop. The `let` keyword does not follow this behavior:
 
 ```js
 let printNumTwo;
@@ -72,31 +72,31 @@ console.log(printNumTwo());
 console.log(i);
 ```
 
-У такому разі консоль показуватиме значення `2` та помилку `i is not defined`.
+Here the console will display the value `2`, and an error that `i is not defined`.
 
-`i` не визначена, оскільки її не було оголошено в глобальній області. Вона оголошена лише в інструкції циклу `for`. `printNumTwo()` повернула правильне значення, оскільки за допомогою ключового слова `let` в межах інструкції циклу було створено три різні змінні `i` з унікальними значеннями (0, 1 та 2).
+`i` is not defined because it was not declared in the global scope. It is only declared within the `for` loop statement. `printNumTwo()` returned the correct value because three different `i` variables with unique values (0, 1, and 2) were created by the `let` keyword within the loop statement.
 
 # --instructions--
 
-Виправте код так, щоб `i`, оголошена в інструкції `if`, була окремою змінною від `i`, оголошеною у першому рядку функції. Не використовуйте у своєму коді ключове слово `var`.
+Fix the code so that `i` declared in the `if` statement is a separate variable than `i` declared in the first line of the function. Be certain not to use the `var` keyword anywhere in your code.
 
-Це завдання створене для того, щоб показати відмінність між тим, як ключові слова `var` та `let` присвоюють область видимості оголошеній змінній. При програмуванні схожої функції краще використовувати різні назви для змінних, щоб уникнути плутанини.
+This exercise is designed to illustrate the difference between how `var` and `let` keywords assign scope to the declared variable. When programming a function similar to the one used in this exercise, it is often better to use different variable names to avoid confusion.
 
 # --hints--
 
-`var` має бути відсутнім у коді.
+`var` should not exist in code.
 
 ```js
 assert(!__helpers.removeJSComments(code).match(/var/g));
 ```
 
-Змінна `i`, оголошена в інструкції `if`, повинна дорівнювати рядку `block scope`.
+The variable `i` declared in the `if` statement should equal the string `block scope`.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/(i\s*=\s*).*\s*.*\s*.*\1('|")block\s*scope\2/g));
 ```
 
-`checkScope()` має повертати рядок `function scope`
+`checkScope()` should return the string `function scope`
 
 ```js
 assert(checkScope() === 'function scope');

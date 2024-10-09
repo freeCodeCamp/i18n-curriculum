@@ -1,6 +1,6 @@
 ---
 id: 5900f41e1000cf542c50ff31
-title: 'Problema 178: Números com passos'
+title: 'Problem 178: Step Numbers'
 challengeType: 1
 forumTopicId: 301813
 dashedName: problem-178-step-numbers
@@ -8,19 +8,19 @@ dashedName: problem-178-step-numbers
 
 # --description--
 
-Considere o número 45656.
+Consider the number 45656.
 
-Podemos ver que cada par de algarismos consecutivos de 45656 tem uma diferença de um.
+It can be seen that each pair of consecutive digits of 45656 has a difference of one.
 
-Um número para o qual cada par de algarismos consecutivos tem uma diferença de um é chamado de um número com passos.
+A number for which every pair of consecutive digits has a difference of one is called a step number.
 
-Um número pandigital contém todos os algarismos decimais de 0 a 9 pelo menos uma vez.
+A pandigital number contains every decimal digit from 0 to 9 at least once.
 
-Quantos números com passos pandigitais menores que ${10}^{40}$ existem?
+How many pandigital step numbers less than ${10}^{40}$ are there?
 
 # --hints--
 
-`stepNumbers()` deve retornar `126461847755`.
+`stepNumbers()` should return `126461847755`.
 
 ```js
 assert.strictEqual(stepNumbers(), 126461847755);

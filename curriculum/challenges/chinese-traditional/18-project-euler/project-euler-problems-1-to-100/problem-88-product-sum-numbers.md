@@ -1,6 +1,6 @@
 ---
 id: 5900f3c51000cf542c50fed6
-title: '問題88：產品總和數'
+title: 'Problem 88: Product-sum numbers'
 challengeType: 1
 forumTopicId: 302203
 dashedName: problem-88-product-sum-numbers

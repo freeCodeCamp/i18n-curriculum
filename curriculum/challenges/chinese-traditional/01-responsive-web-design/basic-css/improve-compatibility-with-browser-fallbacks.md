@@ -1,6 +1,6 @@
 ---
 id: 5b7d72c338cd7e35b63f3e14
-title: 通過瀏覽器降級提高兼容性
+title: Improve Compatibility with Browser Fallbacks
 challengeType: 0
 forumTopicId: 301087
 dashedName: improve-compatibility-with-browser-fallbacks
@@ -8,19 +8,19 @@ dashedName: improve-compatibility-with-browser-fallbacks
 
 # --description--
 
-使用 CSS 時可能會遇到瀏覽器兼容性問題。 提供瀏覽器降級方案來避免潛在的問題會顯得很重要。
+When working with CSS you will likely run into browser compatibility issues at some point. This is why it's important to provide browser fallbacks to avoid potential problems.
 
-當瀏覽器解析頁面的 CSS 時，會自動忽視不能識別或者不支持的屬性。 舉個例子，如果使用 CSS 變量來指定站點的背景色，IE 瀏覽器由於不支持 CSS 變量而會忽略背景色。 此時，瀏覽器會嘗試使用其它值。 但如果沒有找到其它值，則會使用默認值，也就是沒有背景色。
+When your browser parses the CSS of a webpage, it ignores any properties that it doesn't recognize or support. For example, if you use a CSS variable to assign a background color on a site, Internet Explorer will ignore the background color because it does not support CSS variables. In that case, the browser will use whatever value it has for that property. If it can't find any other value set for that property, it will revert to the default value, which is typically not ideal.
 
-這意味着如果想提供瀏覽器降級方案，在聲明之前提供另一個更寬泛的值即可。 這樣老舊的瀏覽器會降級使用這個方案，新的瀏覽器會在後面的聲明裏覆蓋降級方案。
+This means that if you do want to provide a browser fallback, it's as easy as providing another more widely supported value immediately before your declaration. That way an older browser will have something to fall back on, while a newer browser will just interpret whatever declaration comes later in the cascade.
 
 # --instructions--
 
-我們使用了 CSS 變量來定義 `.red-box` 的背景色。 現在，我們通過在現有的聲明之前添加另一個 `background` 聲明，並將它的值設置爲 `red`，來提升瀏覽器的兼容性。
+It looks like a variable is being used to set the background color of the `.red-box` class. Let's improve our browser compatibility by adding another `background` declaration right before the existing declaration and set its value to `red`.
 
 # --hints--
 
-`.red-box` 規則應在現有的 `background` 聲明之前有一個 `background` 的備用屬性，其值爲 `red`。
+Your `.red-box` rule should include a fallback with the `background` set to `red` immediately before the existing `background` declaration.
 
 ```js
 assert(

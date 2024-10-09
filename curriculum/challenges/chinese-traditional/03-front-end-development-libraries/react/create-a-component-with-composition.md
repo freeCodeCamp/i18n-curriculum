@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d4036164
-title: 用組合的方式創建一個 React 組件
+title: Create a Component with Composition
 challengeType: 6
 forumTopicId: 301383
 dashedName: create-a-component-with-composition
@@ -8,9 +8,9 @@ dashedName: create-a-component-with-composition
 
 # --description--
 
-現在來看看如何組合多個 React 組件。 想象一下，現在正在構建一個應用程序，並創建了三個組件：`Navbar`、`Dashboard` 和 `Footer`。
+Now we will look at how we can compose multiple React components together. Imagine you are building an app and have created three components: a `Navbar`, `Dashboard`, and `Footer`.
 
-要將這些組件組合在一起，可以創建一個 `App` *父組件*，將這三個組件分別渲染成爲*子組件*。 要在 React 組件中渲染一個子組件，需要在 JSX 中將組件名稱寫作自定義的 HTML 標籤。 例如，在 `render` 方法中，可以這樣編寫：
+To compose these components together, you could create an `App` *parent* component which renders each of these three components as *children*. To render a component as a child in a React component, you include the component name written as a custom HTML tag in the JSX. For example, in the `render` method you could write:
 
 ```jsx
 return (
@@ -22,17 +22,17 @@ return (
 )
 ```
 
-當 React 遇到一個自定義 HTML 標籤引用另一個組件的時（如本例所示，組件名稱包含在 `< />` 中），它在自定義標籤的位置渲染該組件的標籤。 這可以說明 `App` 組件和 `Navbar`、`Dashboard` 以及 `Footer` 之間的父子關係。
+When React encounters a custom HTML tag that references another component (a component name wrapped in `< />` like in this example), it renders the markup for that component in the location of the tag. This should illustrate the parent/child relationship between the `App` component and the `Navbar`, `Dashboard`, and `Footer`.
 
 # --instructions--
 
-在代碼編輯器中，有一個名爲 `ChildComponent` 的簡單函數組件和一個名爲 `ParentComponent` 的 React 組件。 通過在 `ParentComponent` 中渲染 `ChildComponent` 來將兩者組合在一起。 確保使用正斜槓關閉 `ChildComponent` 標籤。
+In the code editor, there is a simple functional component called `ChildComponent` and a class component called `ParentComponent`. Compose the two together by rendering the `ChildComponent` within the `ParentComponent`. Make sure to close the `ChildComponent` tag with a forward slash.
 
 **Note:** `ChildComponent` is defined with an ES6 arrow function because this is a very common practice when using React.
 
 # --hints--
 
-React 組件應該返回單個 `div` 元素。
+The React component should return a single `div` element.
 
 ```js
 assert(
@@ -43,7 +43,7 @@ assert(
 );
 ```
 
-組件應該返回兩個嵌套的元素。
+The component should return two nested elements.
 
 ```js
 assert(
@@ -54,7 +54,7 @@ assert(
 );
 ```
 
-組件的第二個子元素應該是 `ChildComponent`。
+The component should return the `ChildComponent` as its second child.
 
 ```js
 assert(

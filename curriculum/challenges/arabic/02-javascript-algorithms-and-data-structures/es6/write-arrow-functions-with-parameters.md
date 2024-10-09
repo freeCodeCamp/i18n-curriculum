@@ -1,6 +1,6 @@
 ---
 id: 587d7b88367417b2b2512b44
-title: أنشاء وظائف السهم (Arrow Functions) مع الوسائط
+title: Write Arrow Functions with Parameters
 challengeType: 1
 forumTopicId: 301223
 dashedName: write-arrow-functions-with-parameters
@@ -8,49 +8,49 @@ dashedName: write-arrow-functions-with-parameters
 
 # --description--
 
-تماما مثل اي function عادي، يمكنك تمرير الـ arguments إلى arrow function.
+Just like a regular function, you can pass arguments into an arrow function.
 
 ```js
 const doubler = (item) => item * 2;
 doubler(4);
 ```
 
-`doubler(4)` سوف يعيد القيمة `8`.
+`doubler(4)` would return the value `8`.
 
-إذا كان للوظيفة السهم وسيط واحدة، يمكن حذف الأقواس المرفقة للوسيط.
+If an arrow function has a single parameter, the parentheses enclosing the parameter may be omitted.
 
 ```js
 const doubler = item => item * 2;
 ```
 
-ومن الممكن تمرير أكثر من argument واحدة إلى الـ arrow function.
+It is possible to pass more than one argument into an arrow function.
 
 ```js
 const multiplier = (item, multi) => item * multi;
 multiplier(4, 2);
 ```
 
-`multiplier(4, 2)` سوف يعيد القيمة `8`.
+`multiplier(4, 2)` would return the value `8`.
 
 # --instructions--
 
-قم بإعادة كتابة دالة `myConcat` التي تضيف محتويات `arr2` إلى `arr1` بحيث تستخدم الدالة الـ arrow function syntax.
+Rewrite the `myConcat` function which appends contents of `arr2` to `arr1` so that the function uses arrow function syntax.
 
 # --hints--
 
-يجب عليك استبدال كلمة `var`.
+You should replace the `var` keyword.
 
 ```js
 assert.notMatch(code, /var/g);
 ```
 
-`myConcat` يجب أن يكون متغير ثابت (باستخدام `const`).
+`myConcat` should be a constant variable (by using `const`).
 
 ```js
 assert.match(code, /const\s+myConcat/g);
 ```
 
-يجب أن تكون `myConcat` وظيفة السهم (arrow function) مع وسيطين (parameters)
+`myConcat` should be an arrow function with two parameters
 
 ```js
 assert(
@@ -59,13 +59,13 @@ assert(
 );
 ```
 
-`myConcat()` يجب أن يعيد `[1, 2, 3, 4, 5]`.
+`myConcat()` should return `[1, 2, 3, 4, 5]`.
 
 ```js
 assert.deepEqual(myConcat([1, 2], [3, 4, 5]), [1, 2, 3, 4, 5]);
 ```
 
-لا ينبغي استخدام كلمة `function`.
+The `function` keyword should not be used.
 
 ```js
 assert.notMatch(code, /function/g);

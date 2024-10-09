@@ -1,6 +1,6 @@
 ---
 id: 587d78a8367417b2b2512ae5
-title: 以可變速率來給元素添加動畫
+title: Animate Elements at Variable Rates
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cZ89WA4'
 forumTopicId: 301040
@@ -9,17 +9,17 @@ dashedName: animate-elements-at-variable-rates
 
 # --description--
 
-改變相似元素的動畫頻率的方法有很多。 目前我們接觸到的就有 `animation-iteration-count` 和 `@keyframes`。
+There are a variety of ways to alter the animation rates of similarly animated elements. So far, this has been achieved by applying an `animation-iteration-count` property and setting `@keyframes` rules.
 
-舉例說明，右邊的動畫包含了兩個小星星，每個小星星都在 `@keyframes` 爲 20% 處變小並且透明度變低，也就是一閃一閃的動畫效果。 你可以通過改變其中一個元素的 `@keyframes` 規則以使兩個小星星以不同的頻率閃爍。
+To illustrate, the animation on the right consists of two stars that each decrease in size and opacity at the 20% mark in the `@keyframes` rule, which creates the twinkle animation. You can change the `@keyframes` rule for one of the elements so the stars twinkle at different rates.
 
 # --instructions--
 
-請將 class 爲 `star-1` 的元素的 `@keyframes` 爲設置爲 50%，以此改變其動畫頻率。
+Alter the animation rate for the element with the class name of `star-1` by changing its `@keyframes` rule to 50%.
 
 # --hints--
 
-class 爲 `star-1` 的元素的 `@keyframes` 規則應爲 50%。
+The `@keyframes` rule for the `star-1` class should be 50%.
 
 ```js
 assert.match(code,/twinkle-1\s*?{\s*?50%/g);

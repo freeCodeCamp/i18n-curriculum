@@ -1,6 +1,6 @@
 ---
 id: 587d8250367417b2b2512c5d
-title: Funktionstests mit einem Headless Browser ausführen
+title: Run Functional Tests Using a Headless Browser
 challengeType: 2
 forumTopicId: 301595
 dashedName: run-functional-tests-using-a-headless-browser
@@ -10,11 +10,11 @@ dashedName: run-functional-tests-using-a-headless-browser
 
 As a reminder, this project is being built upon the following starter project on <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>, or cloned from <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
 
-Auf der Seite befindet sich ein Eingabeformular. Es sendet Daten an den `PUT /travellers` Endpunkt als AJAX Anfrage.
+On the page there's an input form. It sends data to the `PUT /travellers` endpoint as an AJAX request.
 
-Wenn die Anfrage erfolgreich abgeschlossen wurde, fügt der Client-Code einen `<div>` an, der die Informationen in der Antwort auf das DOM enthält.
+When the request successfully completes, the client code appends a `<div>` containing the information in the response to the DOM.
 
-Hier ist ein Beispiel für die Verwendung von Zombie.js zur Interaktion mit dem Formular:
+Here's an example of how to use Zombie.js to interact with the form:
 
 ```js
 test('Submit the surname "Polo" in the HTML form', function (done) {
@@ -30,38 +30,38 @@ test('Submit the surname "Polo" in the HTML form', function (done) {
 });
 ```
 
-Als Erstes die `fill` Methode von dem `browser` Objekt - diese füllt das `surname` Feld des Formulars mit dem Wert `'Polo'` aus. `fill` gibt ein Versprechen zurück, und somit wird `then` davon entkettet.
+First, the `fill` method of the `browser` object fills the `surname` field of the form with the value `'Polo'`. `fill` returns a promise, so `then` is chained off of it.
 
-Innerhalb des `then` Callbacks, wird die `pressButton` Methode des `browser` Objekts dazu verwendet, um den `submit`-Ereignis-Listener des Formulars aufzurufen. Die `pressButton`-Methode ist asynchron.
+Within the `then` callback, the `pressButton` method of the `browser` object is used to invoke the form's `submit` event listener. The `pressButton` method is asynchronous.
 
-Sobald eine Antwort von der AJAX-Anfrage empfangen wird, werden einige Behauptungen zur Bestätigung aufgestellt:
+Then, once a response is received from the AJAX request, a few assertions are made confirming:
 
-1.  Der Status der Antwort ist `200`
-2.  Der Text innerhalb des `<span id='name'></span>` Elements entspricht `'Marco'`
-3.  Der Text innerhalb des `<span id='surname'></span>` Elements entspricht `'Polo'`
-4.  Es gibt `1` `<span id='dates'></span>`-Element.
+1.  The status of the response is `200`
+2.  The text within the `<span id='name'></span>` element matches `'Marco'`
+3.  The text within the `<span id='surname'></span>` element matches `'Polo'`
+4.  There is `1` `<span id='dates'></span>` element.
 
-Schließlich wird der `done` Callback aufgerufen, der aufgrund des asynchronen Tests benötigt wird.
+Finally, the `done` callback is invoked, which is needed due to the asynchronous test.
 
 # --instructions--
 
-Automatisiere Folgendes innerhalb `tests/2_functional-tests.js`, in dem `'Submit the surname "Colombo" in the HTML form'` Test (`// #5`):
+Within `tests/2_functional-tests.js`, in the `'Submit the surname "Colombo" in the HTML form'` test (`// #5`), automate the following:
 
-1.  Fülle das Formular mit dem Nachnamen `Colombo` aus
-2.  Klicke auf den "Bestätigen" Button
+1.  Fill in the form with the surname `Colombo`
+2.  Press the submit button
 
-Und innerhalb des `pressButton` Callback:
+And within the `pressButton` callback:
 
-1.  Prüfen ob der Status `200` OK ist
-2.  Prüfe, ob der Text innerhalb des Elements `span#name` `'Cristoforo'` ist
-3.  Prüfe, ob der Text innerhalb des Elements `span#surname` `'Colombo'` ist
-4.  Überprüfe, ob das/die Element(e) `span#dates` existieren und deren Zahl `1` ist
+1.  Assert that status is OK `200`
+2.  Assert that the text inside the element `span#name` is `'Cristoforo'`
+3.  Assert that the text inside the element `span#surname` is `'Colombo'`
+4.  Assert that the element(s) `span#dates` exist and their count is `1`
 
-Vergiss nicht, den `assert.fail()`-Aufruf zu entfernen.
+Do not forget to remove the `assert.fail()` call.
 
 # --hints--
 
-Alle Tests sollten bestanden werden.
+All tests should pass.
 
 ```js
 (getUserInput) =>
@@ -75,7 +75,7 @@ Alle Tests sollten bestanden werden.
   );
 ```
 
-Du solltest überprüfen, ob die Anfrage des Headless Browsers erfolgreich war.
+You should assert that the headless browser request succeeded.
 
 ```js
 (getUserInput) =>
@@ -89,7 +89,7 @@ Du solltest überprüfen, ob die Anfrage des Headless Browsers erfolgreich war.
   );
 ```
 
-Prüfe, ob der Text innerhalb des Elements `span#name` `'Cristoforo'` ist.
+You should assert that the text inside the element `span#name` is `'Cristoforo'`.
 
 ```js
 (getUserInput) =>
@@ -105,7 +105,7 @@ Prüfe, ob der Text innerhalb des Elements `span#name` `'Cristoforo'` ist.
   );
 ```
 
-Prüfe, ob der Text innerhalb des Elements `span#surname` `'Colombo'` ist.
+You should assert that the text inside the element `span#surname` is `'Colombo'`.
 
 ```js
 (getUserInput) =>
@@ -121,7 +121,7 @@ Prüfe, ob der Text innerhalb des Elements `span#surname` `'Colombo'` ist.
   );
 ```
 
-Du solltest überprüfen, ob das Element `span#dates` existiert und seine Anzahl 1 ist.
+You should assert that the element `span#dates` exist and its count is 1.
 
 ```js
 (getUserInput) =>

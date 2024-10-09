@@ -1,24 +1,24 @@
 ---
 id: 63ee3ff8381756f9716727f3
-title: Основи CSS. Вправа №5
+title: CSS Foundations Exercise E
 challengeType: 14
 dashedName: css-foundations-exercise-e
 ---
 
 # --description--
 
-Роботу комбінаторів простіше зрозуміти, як тільки ви почнете працювати з ними та побачите, на що саме вони впливають.
+Understanding how combinators work can become a lot easier when you start playing around with them and see what exactly is affected by them versus what isn't.
 
-Мета цієї вправи — застосувати стилі до елементів, які є нащадками іншого елемента, тим часом залишаючи без стилю елементи, які не є нащадками цього елемента.
+The goal of this exercise is to apply styles to elements that are descendants of another element, while leaving elements that aren't descendants of that element unstyled.
 
-1. Ви повинні бачити фон зі значенням `yellow` для елементів `p`, які є нащадками елемента `div`.
-1. Ви повинні бачити колір тексту зі значенням `red` для елементів, які є нащадками елемента `div`.
-1. Ви повинні бачити розмір шрифту зі значенням `20px` для елементів, які є нащадками елемента `div`.
-1. Ви повинні вирівняти за центром текст елементів, які є нащадками елемента `div`.
+1. You should see a `yellow` background for `p` elements that are descendants of the `div` element.
+1. You should see a text color of `red` for elements that are descendants of the `div` element.
+1. You should see a font size of `20px` for elements that are descendants of the `div` element.
+1. You should center align text for elements that are descendants of the `div` element.
 
 # --hints--
 
-Нащадки повинні мати колір фону зі значенням `yellow`.
+You should have a background color of `yellow` on your descendants.
 
 ```js
 const styleOne = new __helpers.CSSHelp(document).getStyle('.container .text');
@@ -40,7 +40,7 @@ assert(getCorrectStyle()?.backgroundColor === 'yellow');
 
 ```
 
-Нащадки повинні мати колір тексту зі значенням `red`.
+You should have a text color of `red` on your descendants.
 
 ```js
 const styleOne = new __helpers.CSSHelp(document).getStyle('.container .text');
@@ -62,7 +62,7 @@ assert(getCorrectStyle()?.color === 'red');
 
 ```
 
-Нащадки повинні мати розмір шрифту зі значенням `20px`.
+You should have a font size of `20px` on your descendants.
 
 ```js
 const styleOne = new __helpers.CSSHelp(document).getStyle('.container .text');
@@ -84,7 +84,7 @@ assert(getCorrectStyle()?.fontSize === '20px');
 
 ```
 
-Ви повинні вирівняти текст нащадків за центром.
+You should center align the text on your descendants.
 
 ```js
 const styleOne = new __helpers.CSSHelp(document).getStyle('.container .text');

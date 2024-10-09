@@ -1,25 +1,24 @@
----
 id: 561add10cb82ac38a17213bd
-title: شهادة الـ Full Stack التراثية
+title: Legacy Full Stack Certification
 certification: legacy-full-stack
 challengeType: 7
 isPrivate: true
 tests:
   - 
     id: 561add10cb82ac38a17513bc
-    title: شهادة Responsive Web Design
+    title: Responsive Web Design Certification
   - 
     id: 561abd10cb81ac38a17513bc
-    title: شهادة الخوارزميات وهياكل البيانات في JavaScript
+    title: JavaScript Algorithms and Data Structures Certification
   - 
     id: 561acd10cb82ac38a17513bc
-    title: شهادة مكتبات Front End
+    title: Front End Libraries Certification
   - 
     id: 5a553ca864b52e1d8bceea14
-    title: شهادة التصور المرئي للبيانات
+    title: Data Visualization Certification
   - 
     id: 561add10cb82ac38a17523bc
-    title: شهادة واجهة برمجة التطبيقات (API) والخدمات المصغّرة
+    title: API's and Microservices Certification
   - 
     id: 561add10cb82ac38a17213bc
-    title: شهادة أمن المعلومات التراثية وشهادة ضمان الجودة
+    title: Legacy Information Security and Quality Assurance Certification

@@ -1,6 +1,6 @@
 ---
 id: 587d78ad367417b2b2512af8
-title: Allineare gli elementi usando la proprietà align-items
+title: Align Elements Using the align-items Property
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVaDAv/c8aggtk'
 forumTopicId: 301101
@@ -9,26 +9,26 @@ dashedName: align-elements-using-the-align-items-property
 
 # --description--
 
-La proprietà `align-items` è simile a `justify-content`. Ricorda che la proprietà `justify-content` ha allineato gli elementi flex lungo l'asse principale. Per le righe, l'asse principale è una linea orizzontale e per le colonne è una linea verticale.
+The `align-items` property is similar to `justify-content`. Recall that the `justify-content` property aligned flex items along the main axis. For rows, the main axis is a horizontal line and for columns it is a vertical line.
 
-I contenitori flex hanno anche un **asse trasversale** che è ortogonale all'asse principale. Per le righe, l'asse trasversale è verticale e per le colonne, l'asse trasversale è orizzontale.
+Flex containers also have a **cross axis** which is the opposite of the main axis. For rows, the cross axis is vertical and for columns, the cross axis is horizontal.
 
-CSS offre la proprietà `align-items` per allineare gli elementi flex lungo l'asse trasversale. In una riga, esso dice a CSS come spingere gli oggetti in tutta la riga su o giù all'interno del contenitore. E in una colonna, come spingere tutti gli oggetti a sinistra o a destra all'interno del contenitore.
+CSS offers the `align-items` property to align flex items along the cross axis. For a row, it tells CSS how to push the items in the entire row up or down within the container. And for a column, how to push all the items left or right within the container.
 
-I diversi valori disponibili per `align-items` includono:
+The different values available for `align-items` include:
 
-<ul><li><code>flex-start</code>: allinea gli elementi all'inizio del contenitore flex. Per le righe, questo allinea gli oggetti alla parte superiore del contenitore. Per le colonne, questo allinea gli oggetti alla sinistra del contenitore.</li><li><code>flex-end</code>: allinea gli elementi alla fine del contenitore flex. Per le righe, questo allinea gli oggetti alla parte inferiore del contenitore. Per le colonne, questo allinea gli oggetti alla parte destra del contenitore.</li><li><code>center</code>: allinea gli elementi al centro. Per le righe, questo allinea verticalmente gli oggetti (uguale spazio sopra e sotto gli elementi). Per le colonne, questo li allinea orizzontalmente (spazio uguale a sinistra e destra degli elementi).</li><li><code>stretch</code>: allunga gli oggetti per riempire il contenitore flex. Ad esempio, gli elementi delle righe sono allungati per riempire il contenitore flex dall'alto al basso. Questo è il valore predefinito se nessun valore <code>align-items</code> è specificato.</li><li><code>baseline</code>: allinea gli elementi alla linea di base. La linea di base è un concetto testuale, pensala come la linea su cui si trovano le lettere.</li></ul>
+<ul><li><code>flex-start</code>: aligns items to the start of the flex container. For rows, this aligns items to the top of the container. For columns, this aligns items to the left of the container.</li><li><code>flex-end</code>: aligns items to the end of the flex container. For rows, this aligns items to the bottom of the container. For columns, this aligns items to the right of the container.</li><li><code>center</code>: align items to the center. For rows, this vertically aligns items (equal space above and below the items). For columns, this horizontally aligns them (equal space to the left and right of the items).</li><li><code>stretch</code>: stretch the items to fill the flex container. For example, rows items are stretched to fill the flex container top-to-bottom. This is the default value if no <code>align-items</code> value is specified.</li><li><code>baseline</code>: align items to their baselines. Baseline is a text concept, think of it as the line that the letters sit on.</li></ul>
 
 # --instructions--
 
-Un esempio aiuta a mostrare questa proprietà in azione. Aggiungi la proprietà `align-items` all'elemento `#box-container` e dagli un valore di `center`.
+An example helps show this property in action. Add the CSS property `align-items` to the `#box-container` element, and give it a value of `center`.
 
 **Bonus**  
-Prova le altre opzioni per la proprietà `align-items` nell'editor di codice per vedere le loro differenze. Nota però che un valore di `center` è l'unico che supererà questa sfida.
+Try the other options for the `align-items` property in the code editor to see their differences. But note that a value of `center` is the only one that will pass this challenge.
 
 # --hints--
 
-L'elemento `#box-container` dovrebbe avere la proprietà `align-items` impostata su un valore di `center`.
+The `#box-container` element should have an `align-items` property set to a value of `center`.
 
 ```js
 assert($('#box-container').css('align-items') == 'center');

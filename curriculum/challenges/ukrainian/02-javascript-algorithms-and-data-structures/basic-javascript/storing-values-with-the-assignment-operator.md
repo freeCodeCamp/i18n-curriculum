@@ -1,6 +1,6 @@
 ---
 id: 56533eb9ac21ba0edf2244a8
-title: Зберігання значень за допомогою оператора присвоювання
+title: Storing Values with the Assignment Operator
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cEanysE'
 forumTopicId: 18310
@@ -9,36 +9,36 @@ dashedName: storing-values-with-the-assignment-operator
 
 # --description--
 
-У JavaScript можна зберігати значення в змінній за допомогою оператора <dfn>присвоювання</dfn> (`=`).
+In JavaScript, you can store a value in a variable with the <dfn>assignment</dfn> operator (`=`).
 
 ```js
 myVariable = 5;
 ```
 
-Вона призначає `Number` зі значенням `5` до `myVariable`.
+This assigns the `Number` value `5` to `myVariable`.
 
-Якщо праворуч від оператора `=` є будь-які розрахунки, вони виконуються до того, як значення буде присвоєно змінній ліворуч від оператора.
+If there are any calculations to the right of the `=` operator, those are performed before the value is assigned to the variable on the left of the operator.
 
 ```js
 var myVar;
 myVar = 5;
 ```
 
-Спочатку цей код створює змінну під назвою `myVar`. Потім код присвоює `5` до `myVar`. Якщо `myVar` знову з’явиться у коді, програма розглядатиме її як `5`.
+First, this code creates a variable named `myVar`. Then, the code assigns `5` to `myVar`. Now, if `myVar` appears again in the code, the program will treat it as if it is `5`.
 
 # --instructions--
 
-Надайте значення `7` змінній `a`.
+Assign the value `7` to variable `a`.
 
 # --hints--
 
-Не змінюйте код над зазначеним коментарем.
+You should not change code above the specified comment.
 
 ```js
 assert(/var a;/.test(__helpers.removeJSComments(code)));
 ```
 
-`a` повинна мати значення 7.
+`a` should have a value of 7.
 
 ```js
 assert(typeof a === 'number' && a === 7);

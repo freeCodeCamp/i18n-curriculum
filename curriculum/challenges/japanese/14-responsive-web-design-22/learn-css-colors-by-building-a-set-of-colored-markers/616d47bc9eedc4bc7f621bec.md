@@ -1,35 +1,35 @@
 ---
 id: 616d47bc9eedc4bc7f621bec
-title: ステップ 10
+title: Step 10
 challengeType: 0
 dashedName: step-10
 ---
 
 # --description--
 
-次に、その `div` 要素内に別の `div` 要素を追加して、`marker` のクラスを設定してください。
+Next, within the `div` element, add another `div` element and give it a class of `marker`.
 
 # --hints--
 
-新しい `div` 要素に開始タグが必要です。
+Your new `div` element should have an opening tag.
 
 ```js
 assert([...code.matchAll(/<div.*?>/gi)][1]);
 ```
 
-新しい `div` 要素に終了タグが必要です。
+Your new `div` element should have a closing tag.
 
 ```js
 assert([...code.matchAll(/<\/div\s*>/gi)][1]);
 ```
 
-クラスが `container` の `div` の中に、新しい `div` 要素をネストする必要があります。
+You should nest your new `div` element within the `div` with the class `container`.
 
 ```js
 assert(document.querySelector('.container')?.children[0]?.localName === 'div');
 ```
 
-新しい `div` 要素のクラスを `marker` に設定する必要があります。
+You should give your new `div` element a class of `marker`.
 
 ```js
 const containerChildren = [...document.querySelector('.container')?.children];

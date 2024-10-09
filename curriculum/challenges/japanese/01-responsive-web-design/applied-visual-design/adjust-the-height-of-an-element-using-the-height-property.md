@@ -1,6 +1,6 @@
 ---
 id: 587d7791367417b2b2512ab5
-title: height プロパティで要素の高さを調整する
+title: Adjust the Height of an Element Using the height Property
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cEDaDTN'
 forumTopicId: 301034
@@ -9,7 +9,7 @@ dashedName: adjust-the-height-of-an-element-using-the-height-property
 
 # --description--
 
-`width` プロパティと同様に、CSSでは `height` プロパティを使用して要素の高さを指定できます。 下記は画像の高さを 20px に変更する例です:
+You can specify the height of an element using the `height` property in CSS, similar to the `width` property. Here's an example that changes the height of an image to 20px:
 
 ```css
 img {
@@ -19,13 +19,13 @@ img {
 
 # --instructions--
 
-`height` プロパティを `h4` タグに追加し、25px に設定してください。
+Add a `height` property to the `h4` tag and set it to 25px.
 
-**注:** このチャレンジのテストをパスするには、ブラウザのズーム設定を 100% にする必要がある場合があります。
+**Note:** You may need to be at 100% zoom to pass the test on this challenge.
 
 # --hints--
 
-`h4` の `height` プロパティを 25 ピクセルに変更する必要があります。
+Your code should change the `h4` `height` property to a value of 25 pixels.
 
 ```js
 const spaceFreeText = document.querySelector("style")?.textContent?.replace(/\s/g, ''); 

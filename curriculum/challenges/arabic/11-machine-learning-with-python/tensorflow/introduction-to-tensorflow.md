@@ -42,5 +42,5 @@ Constant
 
 ## --video-solution--
 
-٢
+2
 

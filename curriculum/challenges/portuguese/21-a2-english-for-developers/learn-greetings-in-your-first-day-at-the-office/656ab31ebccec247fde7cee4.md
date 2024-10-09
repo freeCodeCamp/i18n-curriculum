@@ -1,6 +1,6 @@
 ---
 id: 656ab31ebccec247fde7cee4
-title: Tarefa 63
+title: Task 63
 challengeType: 22
 dashedName: task-63
 ---
@@ -16,11 +16,11 @@ Tom: Oh, awesome. My computer and drawing tablet are great, too.
 
 # --fillInTheBlank--
 
-## --frase--
+## --sentence--
 
 `BLANK. My computer and drawing tablet are great, too.`
 
-## --espaços em branco--
+## --blanks--
 
 `Awesome`
 
@@ -28,7 +28,7 @@ Tom: Oh, awesome. My computer and drawing tablet are great, too.
 
 Listen for a word that means `very good` or `I really like it.`
 
-# --cena--
+# --scene--
 
 ```json
 {

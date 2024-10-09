@@ -1,6 +1,6 @@
 ---
 id: 56104e9e514f539506016a5c
-title: for ループによる奇数の繰り返し処理
+title: Iterate Odd Numbers With a For Loop
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cm8n7T9'
 forumTopicId: 18212
@@ -9,9 +9,9 @@ dashedName: iterate-odd-numbers-with-a-for-loop
 
 # --description--
 
-for ステートメントのループ処理は必ずしも 1 回に 1 つずつ繰り返す必要はありません。 `final-expression` の部分を変更して偶数ずつカウントすることができます。
+For loops don't have to iterate one at a time. By changing our `final-expression`, we can count by even numbers.
 
-`i = 0` から始めて、`i < 10` の間、ループ処理を行います。 `i += 2` で、`i` をループごとに 2 ずつインクリメントします。
+We'll start at `i = 0` and loop while `i < 10`. We'll increment `i` by 2 each loop with `i += 2`.
 
 ```js
 const ourArray = [];
@@ -21,21 +21,21 @@ for (let i = 0; i < 10; i += 2) {
 }
 ```
 
-`ourArray` には `[0, 2, 4, 6, 8]` が格納されます。 奇数をカウントできるように `initialization` の部分を変更してみましょう。
+`ourArray` will now contain `[0, 2, 4, 6, 8]`. Let's change our `initialization` so we can count by odd numbers.
 
 # --instructions--
 
-`for` ループを使用して、1 から 9 までの奇数を `myArray` に push してください。
+Push the odd numbers from 1 through 9 to `myArray` using a `for` loop.
 
 # --hints--
 
-この作業には `for` ループを使用してください。
+You should be using a `for` loop for this.
 
 ```js
 assert(/for\s*\([^)]+?\)/.test(__helpers.removeJSComments(code)));
 ```
 
-`myArray` は `[1, 3, 5, 7, 9]` になる必要があります。
+`myArray` should equal `[1, 3, 5, 7, 9]`.
 
 ```js
 assert.deepEqual(myArray, [1, 3, 5, 7, 9]);

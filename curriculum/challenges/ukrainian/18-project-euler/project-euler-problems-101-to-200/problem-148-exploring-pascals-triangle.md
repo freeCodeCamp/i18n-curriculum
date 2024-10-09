@@ -1,6 +1,6 @@
 ---
 id: 5900f4021000cf542c50ff14
-title: 'Завдання 148: вивчення трикутника Паскаля'
+title: 'Problem 148: Exploring Pascal''s triangle'
 challengeType: 1
 forumTopicId: 301777
 dashedName: problem-148-exploring-pascals-triangle
@@ -8,7 +8,7 @@ dashedName: problem-148-exploring-pascals-triangle
 
 # --description--
 
-Ми можемо легко перевірити, що жоден елемент у перших семи рядах трикутника Паскаля не ділиться на 7:
+We can easily verify that none of the entries in the first seven rows of Pascal's triangle are divisible by 7:
 
 ```markup
             1
@@ -20,15 +20,15 @@ dashedName: problem-148-exploring-pascals-triangle
 1   6   15  20  15  6   1
 ```
 
-Однак, якщо ми перевіряємо перші сто рядів, то виявимо, що лише 2361 з 5050 елементів не діляться на 7.
+However, if we check the first one hundred rows, we will find that only 2361 of the 5050 entries are not divisible by 7.
 
 # --instructions--
 
-Знайдіть кількість елементів, які не діляться на 7 у першому мільярді (${10}^9$) рядків трикутника Паскаля.
+Find the number of entries which are not divisible by 7 in the first one billion (${10}^9$) rows of Pascal's triangle.
 
 # --hints--
 
-`entriesOfPascalsTriangle()` має повернути `2129970655314432`.
+`entriesOfPascalsTriangle()` should return `2129970655314432`.
 
 ```js
 assert.strictEqual(entriesOfPascalsTriangle(), 2129970655314432);

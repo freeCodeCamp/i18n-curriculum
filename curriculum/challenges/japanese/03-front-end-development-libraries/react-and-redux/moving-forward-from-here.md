@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d403614a
-title: 次に進む
+title: Moving Forward From Here
 challengeType: 6
 forumTopicId: 301434
 dashedName: moving-forward-from-here
@@ -8,19 +8,19 @@ dashedName: moving-forward-from-here
 
 # --description--
 
-おめでとうございます ！ React と Redux のレッスンが終了しました。 次に進む前に、最後に重要なことを一つ説明しておきましょう。 通常はこのようなコードエディターで React アプリケーションを記述することはありません。 このチャレンジでは、皆さん自身のマシンのファイルシステムを使用する場合にどのような構文になるかを少しだけ紹介します。 コードは、`import` ステートメントを使用している部分を除いて似たものになります (これらの import はチャレンジで提供したすべての依存関係を抽出します)。
+Congratulations! You finished the lessons on React and Redux. There's one last item worth pointing out before you move on. Typically, you won't write React apps in a code editor like this. This challenge gives you a glimpse of what the syntax looks like if you're working with a file system on your own machine. The code should look similar, except for the use of `import` statements (these pull in all of the dependencies that have been provided for you in the challenges).
 
-最後に、React と Redux のコードを記述する際、通常はいくつかの設定が必要になります。 この設定はすぐに複雑になる可能性があります。 自分のマシンで試してみたい方は、<a href="https://www.freecodecamp.org/news/install-react-with-create-react-app/" target="_blank" rel="noopener noreferrer nofollow">Create React App</a> というツールを利用すると簡単に設定を完了できます。
+Finally, writing React and Redux code generally requires some configuration. This can get complicated quickly. If you are interested in experimenting on your own machine, the <a href="https://www.freecodecamp.org/news/install-react-with-create-react-app/" target="_blank" rel="noopener noreferrer nofollow">Create React App</a> comes configured and ready to go.
 
-または、CodePen で JavaScript プリプロセッサーとして Babel を有効にし、React と ReactDOM を外部の JavaScript リソースとして追加し、そこで作業することもできます。
+Alternatively, you can enable Babel as a JavaScript Preprocessor in CodePen, add React and ReactDOM as external JavaScript resources, and work there as well.
 
 # --instructions--
 
-メッセージ `'Now I know React and Redux!'` をコンソールに出力してください。
+Log the message `'Now I know React and Redux!'` to the console.
 
 # --hints--
 
-メッセージ `Now I know React and Redux!` をコンソールに出力します。
+The message `Now I know React and Redux!` should be logged to the console.
 
 ```js
 (getUserInput) =>

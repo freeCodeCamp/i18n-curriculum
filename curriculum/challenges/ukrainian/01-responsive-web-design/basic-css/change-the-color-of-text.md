@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedf08803
-title: Змініть кольору тексту
+title: Change the Color of Text
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cRkVmSm'
 forumTopicId: 16775
@@ -9,39 +9,39 @@ dashedName: change-the-color-of-text
 
 # --description--
 
-Змінимо колір нашого тексту.
+Now let's change the color of some of our text.
 
-Це можна зробити, змінивши `style` елемента `h2`.
+We can do this by changing the `style` of your `h2` element.
 
-Властивість стилю `color` відповідає за колір тексту елемента.
+The property that is responsible for the color of an element's text is the `color` style property.
 
-Ось так ми б встановили колір тексту елемента `h2` на синій:
+Here's how you would set your `h2` element's text color to blue:
 
 ```html
 <h2 style="color: blue;">CatPhotoApp</h2>
 ```
 
-Зауважте, що вбудовані оголошення `style` краще закінчувати символом `;` .
+Note that it is a good practice to end inline `style` declarations with a `;` .
 
 # --instructions--
 
-Змініть стиль елемента `h2`, щоб колір його тексту був червоним.
+Change your `h2` element's style so that its text color is red.
 
 # --hints--
 
-Елемент `h2` повинен мати оголошення `style`.
+Your `h2` element should have a `style` declaration.
 
 ```js
 assert($('h2').attr('style'));
 ```
 
-Елемент `h2` повинен мати колір зі значенням `red`.
+Your `h2` element should have color set to `red`.
 
 ```js
 assert($('h2')[0].style.color === 'red');
 ```
 
-Оголошення `style` має закінчуватись символом `;` .
+Your `style` declaration should end with a `;` .
 
 ```js
 assert($('h2').attr('style') && $('h2').attr('style').endsWith(';'));

@@ -1,22 +1,22 @@
 ---
 id: 561add10cb82ac38a17523bc
-title: تطوير واجهات الخلفية وشهادة واجهات برمجة التطبيقات API
+title: Back End Development and APIs Certification
 certification: back-end-development-and-apis
 challengeType: 7
 isPrivate: true
 tests:
   - 
     id: bd7158d8c443edefaeb5bdef
-    title: الخدمة المصغرة للطابع الزمني
+    title: Timestamp Microservice
   - 
     id: bd7158d8c443edefaeb5bdff
-    title: الخدمة المصغرة لمحلل Request Header
+    title: Request Header Parser Microservice
   - 
     id: bd7158d8c443edefaeb5bd0e
-    title: الخدمة المصغرة لتقصير الروابط
+    title: URL Shortener Microservice
   - 
     id: 5a8b073d06fa14fcfde687aa
-    title: متعقب التمارين
+    title: Exercise Tracker
   - 
     id: bd7158d8c443edefaeb5bd0f
-    title: خدمة مصغرة للبيانات الوصفية للملفات
+    title: File Metadata Microservice

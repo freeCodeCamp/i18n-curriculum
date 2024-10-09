@@ -1,6 +1,6 @@
 ---
 id: 56533eb9ac21ba0edf2244ca
-title: استخدام الكائنات للبحث (Using Objects for Lookups)
+title: Using Objects for Lookups
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cdBk8sM'
 forumTopicId: 18373
@@ -9,9 +9,9 @@ dashedName: using-objects-for-lookups
 
 # --description--
 
-يمكن اعتبار الكائنات كمخزن بطريقة هُوِيَّة/قيمة، مثل القاموس. إذا كانت لديك بيانات جدولية، فيمكنك استخدام كائن للبحث عن القيم بدلاً من عبارة `switch` أو تسلسل `if/else`. هذا مفيد للغاية عندما تعرف أن بيانات الإدخال الخاصة بك محدودة بمدى معين.
+Objects can be thought of as a key/value storage, like a dictionary. If you have tabular data, you can use an object to lookup values rather than a `switch` statement or an `if/else` chain. This is most useful when you know that your input data is limited to a certain range.
 
-فيما يلي مثال على مقالة بهيئة كائن (object):
+Here is an example of an article object:
 
 ```js
 const article = {
@@ -30,63 +30,63 @@ const value = "title";
 const valueLookup = article[value];
 ```
 
-يكون `articleAuthor` مقطع `Kaashan Hussain`، ويكون `articleLink` مقطع `https://www.freecodecamp.org/news/a-complete-guide-to-creating-objects-in-javascript-b0e2450655e8/`، ويكون `valueLookup` مقطع `How to create objects in JavaScript`.
+`articleAuthor` is the string `Kaashan Hussain`, `articleLink` is the string `https://www.freecodecamp.org/news/a-complete-guide-to-creating-objects-in-javascript-b0e2450655e8/`, and `valueLookup` is the string `How to create objects in JavaScript`.
 
 # --instructions--
 
-حوّل تعبير switch إلى كائن يسمى `lookup`. استخدمه للبحث عن `val` وتعيين المقطع المرتبط بمتغير `result`.
+Convert the switch statement into an object called `lookup`. Use it to look up `val` and assign the associated string to the `result` variable.
 
 # --hints--
 
-يجب أن تساوي `phoneticLookup("alpha")` مقطع `Adams`
+`phoneticLookup("alpha")` should equal the string `Adams`
 
 ```js
 assert(phoneticLookup('alpha') === 'Adams');
 ```
 
-يجب أن تساوي `phoneticLookup("bravo")` مقطع `Boston`
+`phoneticLookup("bravo")` should equal the string `Boston`
 
 ```js
 assert(phoneticLookup('bravo') === 'Boston');
 ```
 
-يجب أن تساوي `phoneticLookup("charlie")` مقطع `Chicago`
+`phoneticLookup("charlie")` should equal the string `Chicago`
 
 ```js
 assert(phoneticLookup('charlie') === 'Chicago');
 ```
 
-يجب أن تساوي `phoneticLookup("delta")` مقطع `Denver`
+`phoneticLookup("delta")` should equal the string `Denver`
 
 ```js
 assert(phoneticLookup('delta') === 'Denver');
 ```
 
-يجب أن تساوي `phoneticLookup("echo")` مقطع `Easy`
+`phoneticLookup("echo")` should equal the string `Easy`
 
 ```js
 assert(phoneticLookup('echo') === 'Easy');
 ```
 
-يجب أن تساوي `phoneticLookup("foxtrot")` مقطع `Frank`
+`phoneticLookup("foxtrot")` should equal the string `Frank`
 
 ```js
 assert(phoneticLookup('foxtrot') === 'Frank');
 ```
 
-يجب أن تساوي `phoneticLookup("")` كلمة `undefined`
+`phoneticLookup("")` should equal `undefined`
 
 ```js
 assert(typeof phoneticLookup('') === 'undefined');
 ```
 
-لا يجب عليك تعديل تعبير `return`
+You should not modify the `return` statement
 
 ```js
 assert(__helpers.removeJSComments(code).match(/return\sresult;/));
 ```
 
-لا يجب عليك استخدام تعبيرات `case`, أو `switch`, أو `if`
+You should not use `case`, `switch`, or `if` statements
 
 ```js
 assert(

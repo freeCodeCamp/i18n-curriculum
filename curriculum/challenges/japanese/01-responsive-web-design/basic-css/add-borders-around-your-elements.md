@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9bedf08813
-title: 要素の周りに境界線を追加する
+title: Add Borders Around Your Elements
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/c2MvnHZ'
 forumTopicId: 16630
@@ -9,9 +9,9 @@ dashedName: add-borders-around-your-elements
 
 # --description--
 
-CSSの border には `style`、`color` および `width` のようなプロパティがあります。
+CSS borders have properties like `style`, `color` and `width`.
 
-例えば、ある HTML 要素の周りに赤色の5ピクセルの境界線を作成したい場合、次のようなクラスを使えます:
+For example, if we wanted to create a red, 5 pixel border around an HTML element, we could use this class:
 
 ```html
 <style>
@@ -25,9 +25,9 @@ CSSの border には `style`、`color` および `width` のようなプロパ�
 
 # --instructions--
 
-`thick-green-border` というクラスを作成しましょう。 このクラスは HTML 要素の周りに 10px、実線 (solid)、緑色の境界線を追加するようにしてください。 猫の写真にこのクラスを適用してください。
+Create a class called `thick-green-border`. This class should add a 10px, solid, green border around an HTML element. Apply the class to your cat photo.
 
-1 つの要素に複数のクラスを適用するには、`class` 属性に各クラス名を半角スペースで区切って指定することを覚えておいてください。 例えば次のようになります:
+Remember that you can apply multiple classes to an element using its `class` attribute, by separating each class name with a space. For example:
 
 ```html
 <img class="class1 class2">
@@ -35,19 +35,19 @@ CSSの border には `style`、`color` および `width` のようなプロパ�
 
 # --hints--
 
-`img` 要素にはクラス `smaller-image` が必要です。
+Your `img` element should have the class `smaller-image`.
 
 ```js
 assert($('img').hasClass('smaller-image'));
 ```
 
-`img` 要素にはクラス `thick-green-border` が必要です。
+Your `img` element should have the class `thick-green-border`.
 
 ```js
 assert($('img').hasClass('thick-green-border'));
 ```
 
-画像の境界線の幅は `10px` である必要があります。
+Your image should have a border width of `10px`.
 
 ```js
 assert(
@@ -57,13 +57,13 @@ assert(
 );
 ```
 
-画像の境界線のスタイルは `solid` である必要があります。
+Your image should have a border style of `solid`.
 
 ```js
 assert($('img').css('border-right-style') === 'solid');
 ```
 
-`img` 要素の周りの境界線は緑色でなければなりません。
+The border around your `img` element should be green.
 
 ```js
 assert($('img').css('border-left-color') === 'rgb(0, 128, 0)');

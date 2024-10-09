@@ -1,6 +1,6 @@
 ---
 id: 587d7dbe367417b2b2512bb9
-title: 使用 @for 創建一個 Sass 循環
+title: Use @for to Create a Sass Loop
 challengeType: 0
 forumTopicId: 301462
 dashedName: use-for-to-create-a-sass-loop
@@ -8,11 +8,11 @@ dashedName: use-for-to-create-a-sass-loop
 
 # --description--
 
-可以在 Sass 中使用 `@for` 循環添加樣式，它的用法和 JavaScript 中的 `for` 循環類似。
+The `@for` directive adds styles in a loop, very similar to a `for` loop in JavaScript.
 
-`@for` 以兩種方式使用：“開始 through 結束” 或 “開始 to 結束”。 主要區別在於“開始 **to** 結束”*不包括*結束數字，而“開始 **through** 結束”*包括*結束數字。
+`@for` is used in two ways: "start through end" or "start to end". The main difference is that the "start **to** end" *excludes* the end number as part of the count, and "start **through** end" *includes* the end number as part of the count.
 
-這是一個開始 **through** 結束的示例：
+Here's a start **through** end example:
 
 ```scss
 @for $i from 1 through 12 {
@@ -20,7 +20,7 @@ dashedName: use-for-to-create-a-sass-loop
 }
 ```
 
-`#{$i}` 部分是將變量（`i`）與文本組合成字符串的語法。 當 Sass 文件轉換爲 CSS 時，它看起來像這樣：
+The `#{$i}` part is the syntax to combine a variable (`i`) with text to make a string. When the Sass file is converted to CSS, it looks like this:
 
 ```scss
 .col-1 {
@@ -38,47 +38,47 @@ dashedName: use-for-to-create-a-sass-loop
 }
 ```
 
-這是創建網格佈局的有效方法。 現在，有了 12 個可用作 CSS class 的列寬選項。
+This is a powerful way to create a grid layout. Now you have twelve options for column widths available as CSS classes.
 
 # --instructions--
 
-編寫 `@for` 指令，使 `$j` 的值爲從 1 **to** 6。
+Write a `@for` directive that takes a variable `$j` that goes from 1 **to** 6.
 
-它應該創建 5 個名爲 `.text-1` to `.text-5` 的 class，其中每個 class 的 `font-size` 設置爲 15px 乘以索引。
+It should create 5 classes called `.text-1` to `.text-5` where each has a `font-size` set to 15px multiplied by the index.
 
 # --hints--
 
-應使用 `@for` 指令。
+Your code should use the `@for` directive.
 
 ```js
 assert(code.match(/@for /g));
 ```
 
-`.text-1` class 的 `font-size` 應爲 15px。
+Your `.text-1` class should have a `font-size` of 15px.
 
 ```js
 assert($('.text-1').css('font-size') == '15px');
 ```
 
-`.text-2` class 的 `font-size` 應爲 30px。
+Your `.text-2` class should have a `font-size` of 30px.
 
 ```js
 assert($('.text-2').css('font-size') == '30px');
 ```
 
-`.text-3` class 的 `font-size` 應爲 45px。
+Your `.text-3` class should have a `font-size` of 45px.
 
 ```js
 assert($('.text-3').css('font-size') == '45px');
 ```
 
-`.text-4` class 的 `font-size` 應爲 60px。
+Your `.text-4` class should have a `font-size` of 60px.
 
 ```js
 assert($('.text-4').css('font-size') == '60px');
 ```
 
-`.text-5` class 的 `font-size` 應爲 75px。
+Your `.text-5` class should have a `font-size` of 75px.
 
 ```js
 assert($('.text-5').css('font-size') == '75px');

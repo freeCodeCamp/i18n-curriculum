@@ -1,6 +1,6 @@
 ---
 id: 656abcd4cccfc84bf50f861b
-title: Aufgabe 79
+title: Task 79
 challengeType: 19
 dashedName: task-79
 ---
@@ -19,7 +19,7 @@ Which sentence correctly differentiates between `these` and `those`?
 
 `These is my monitor and those is my speakers.`
 
-### --Feedback--
+### --feedback--
 
 Look for a sentence that uses `these` for multiple items nearby and `those` for multiple items at a distance or not being directly addressed.
 
@@ -27,7 +27,7 @@ Look for a sentence that uses `these` for multiple items nearby and `those` for 
 
 `Those are my papers on the table, and these is my stapler.`
 
-### --Feedback--
+### --feedback--
 
 Look for a sentence that uses `these` for multiple items nearby and `those` for multiple items at a distance or not being directly addressed.
 

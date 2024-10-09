@@ -1,6 +1,6 @@
 ---
 id: 587d8255367417b2b2512c72
-title: Використайте .has та .size на множині ES6
+title: Use .has and .size on an ES6 Set
 challengeType: 1
 forumTopicId: 301717
 dashedName: use--has-and--size-on-an-es6-set
@@ -8,21 +8,21 @@ dashedName: use--has-and--size-on-an-es6-set
 
 # --description--
 
-Розглянемо методи .has та .size, які доступні для множини ES6.
+Let's look at the .has and .size methods available on the ES6 Set object.
 
-Спочатку створимо множину ES6.
+First, create an ES6 Set
 
 ```js
 var set = new Set([1,2,3]);
 ```
 
-Метод .has перевірить, чи в множині існує певне значення.
+The .has method will check if the value is contained within the set.
 
 ```js
 var hasTwo = set.has(2);
 ```
 
-Метод .size поверне ціле число, що позначає розмір множини.
+The .size method will return an integer representing the size of the Set
 
 ```js
 var howBig = set.size;
@@ -30,11 +30,11 @@ var howBig = set.size;
 
 # --instructions--
 
-У цій вправі ми передамо масив і значення до функції checkSet(). Функція має створити множину ES6 з аргументу-масиву. Перевірте, чи множина містить аргумент-значення. Знайдіть розмір множини. Потім поверніть ці два значення в масиві.
+In this exercise we will pass an array and a value to the checkSet() function. Your function should create an ES6 set from the array argument. Find if the set contains the value argument. Find the size of the set. And return those two values in an array.
 
 # --hints--
 
-`checkSet([4, 5, 6], 3)` має повернути [ false, 3 ].
+`checkSet([4, 5, 6], 3)` should return [ false, 3 ]
 
 ```js
 assert(

@@ -1,13 +1,13 @@
 ---
 id: 6617a128e90de1b3fd10bd4d
-title: Вивчіть основи функцій. Урок №1
+title: Learn Function Basics Lesson A
 challengeType: 15
 dashedName: learn-function-basics-lesson-a
 ---
 
 # --description--
 
-Обговоримо параметри та аргументи на прикладі даної функції:
+Let’s discuss parameters and arguments in the context of the following example function:
 
 ```js
 function favoriteAnimal(animal) {
@@ -17,31 +17,31 @@ function favoriteAnimal(animal) {
 console.log(favoriteAnimal('Goat'));
 ```
 
-Параметри в JavaScript — це предмети, розміщені в круглих дужках `()` в оголошенні функції. Аргументи функції — це реальні значення, передані до функції.
+In JavaScript, parameters are the items listed between the parentheses `()` in the function declaration. Function arguments are the actual values you decide to pass to the function.
 
-Визначення функції в прикладі вище написане в першому рядку: `function favoriteAnimal(animal)`. Параметр `animal` знаходиться в круглих дужках. `animal` можна легко замінити на `pet`, `x` або `blah`. Але в цьому випадку назва параметра `animal` надає коду певного контексту, тому читачі не зобов’язані вгадувати, що насправді міститиме `animal`.
+In the example above, the function definition is written on the first line: `function favoriteAnimal(animal)`. The parameter, `animal`, is found inside the parentheses. You could just as easily replace `animal` with `pet`, `x`, or `blah`. But in this case, naming the parameter `animal` gives someone reading your code a bit of context so that they don't have to guess what `animal` may eventually contain.
 
 # --questions--
 
 ## --text--
 
-Що представляє параметр у функції `favoriteAnimal` в контексті функцій JavaScript?
+What does the parameter in the function `favoriteAnimal` represent in the context of JavaScript functions?
 
 ## --answers--
 
-Реальне значення, яке використовується при виклику функції.
+The actual value that is used when calling the function.
 
 ---
 
-Заповнювач для значення, яке буде передано до функції при її виклику.
+A placeholder for the value that will be passed to the function when it is called.
 
 ---
 
-Назву функції.
+The name of the function.
 
 ---
 
-Результат виконання функції.
+The result of the function execution.
 
 ## --video-solution--
 

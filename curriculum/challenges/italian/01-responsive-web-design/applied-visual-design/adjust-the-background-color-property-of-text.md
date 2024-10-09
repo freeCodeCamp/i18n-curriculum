@@ -1,6 +1,6 @@
 ---
 id: 587d781b367417b2b2512abc
-title: Regolare il colore di sfondo del testo
+title: Adjust the background-color Property of Text
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cEDqwA6'
 forumTopicId: 301032
@@ -9,23 +9,23 @@ dashedName: adjust-the-background-color-property-of-text
 
 # --description--
 
-Invece di regolare lo sfondo generale o il colore del testo per rendere il primo piano facilmente leggibile, puoi aggiungere un `background-color` all'elemento che contiene il testo che vuoi enfatizzare. Questa sfida utilizza il formato `rgba()` invece dei codici esadecimali `hex` o il classico `rgb()`.
+Instead of adjusting your overall background or the color of the text to make the foreground easily readable, you can add a `background-color` to the element holding the text you want to emphasize. This challenge uses `rgba()` instead of `hex` codes or normal `rgb()`.
 
-<blockquote>rgba sta per:<br> r = rosso<br> g = verde <br>b = blu <br>a = alfa/livello di opacità</blockquote>
+<blockquote>rgba stands for:<br>  r = red<br>  g = green<br>  b = blue<br>  a = alpha/level of opacity</blockquote>
 
-I valori RGB possono variare da 0 a 255. Il valore alfa può variare da 1, che è rappresenta un colore completamente opaco, a 0, che invece è completamente trasparente. `rgba()` è ottimo da usare in questo caso, in quanto consente di regolare l'opacità. Ciò significa che non è necessario coprire completamente lo sfondo.
+The RGB values can range from 0 to 255. The alpha value can range from 1, which is fully opaque or a solid color, to 0, which is fully transparent or clear. `rgba()` is great to use in this case, as it allows you to adjust the opacity. This means you don't have to completely block out the background.
 
-Per questa sfida utilizzerai `background-color: rgba(45, 45, 45, 0.1)`. Questo produce un colore grigio scuro che è quasi trasparente, per via del basso valore di opacità di 0.1.
+You'll use `background-color: rgba(45, 45, 45, 0.1)` for this challenge. It produces a dark gray color that is nearly transparent given the low opacity value of 0.1.
 
 # --instructions--
 
-Per far risaltare ulteriormente il testo, aggiusta il `background-color` dell'elemento `h4` al valore `rgba()` indicato sopra.
+To make the text stand out more, adjust the `background-color` of the `h4` element to the given `rgba()` value.
 
-Inoltre, sempre per il tag `h4`, rimuovi la proprietà `height` e aggiungi un `padding` di 10 px.
+Also for the `h4`, remove the `height` property and add `padding` of 10px.
 
 # --hints--
 
-Il tuo codice dovrebbe aggiungere una proprietà `background-color` all'elemento `h4`, impostata su `rgba(45, 45, 45, 0.1)`.
+Your code should add a `background-color` property to the `h4` element set to `rgba(45, 45, 45, 0.1)`.
 
 ```js
 assert(
@@ -35,7 +35,7 @@ assert(
 );
 ```
 
-Il tuo codice dovrebbe aggiungere una proprietà `padding` all'elemento `h4` e impostarla a 10 pixel.
+Your code should add a `padding` property to the `h4` element and set it to 10 pixels.
 
 ```js
 const h4Element = document.querySelector("h4"); 
@@ -46,7 +46,7 @@ assert.equal(h4style?.paddingBottom, "10px");
 assert.equal(h4style?.paddingLeft, "10px");
 ```
 
-La proprietà `height` dell'elemento `h4` dovrebbe essere rimossa.
+The `height` property on the `h4` element should be removed.
 
 ```js
 const h4Element = document.querySelector("h4"); 

@@ -1,6 +1,6 @@
 ---
 id: 587d7791367417b2b2512ab5
-title: 使用 height 屬性調整元素的寬度
+title: Adjust the Height of an Element Using the height Property
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cEDaDTN'
 forumTopicId: 301034
@@ -9,7 +9,7 @@ dashedName: adjust-the-height-of-an-element-using-the-height-property
 
 # --description--
 
-和 `width` 屬性類似，你可以使用 CSS 裏面的 `height` 屬性來指定元素的高度。 下面這段代碼可以把圖片的高度設置爲 20px：
+You can specify the height of an element using the `height` property in CSS, similar to the `width` property. Here's an example that changes the height of an image to 20px:
 
 ```css
 img {
@@ -19,13 +19,13 @@ img {
 
 # --instructions--
 
-給 `h4` 標籤添加 `height` 屬性並將屬性值設置爲 25px。
+Add a `height` property to the `h4` tag and set it to 25px.
 
-**注意：** 可能需要將瀏覽器的縮放比調整爲 100% 才能通過這一挑戰。
+**Note:** You may need to be at 100% zoom to pass the test on this challenge.
 
 # --hints--
 
-`h4` 的 `height` 屬性值應爲 25px。
+Your code should change the `h4` `height` property to a value of 25 pixels.
 
 ```js
 const spaceFreeText = document.querySelector("style")?.textContent?.replace(/\s/g, ''); 

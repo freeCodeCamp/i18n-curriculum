@@ -8,17 +8,17 @@ dashedName: install-and-require-helmet
 
 # --description--
 
-Bei der Arbeit an diesen Aufgaben wirst du deinen Code mithilfe folgender Methoden schreiben:
+Working on these challenges will involve you writing your code using one of the following methods:
 
-- Klone <a href="https://github.com/freeCodeCamp/boilerplate-infosec/" target="_blank" rel="noopener noreferrer nofollow">diese GitHub-Repo</a> und schließe dein Projekt lokal ab.
-- Verwende <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-infosec/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> um diese Challenge abzuschließen.
-- Verwende einen Site-Builder deiner Wahl, um das Projekt abzuschließen. Achte darauf, alle Dateien von unserem GitHub-Repo zu integrieren.
+- Clone <a href="https://github.com/freeCodeCamp/boilerplate-infosec/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete these challenges locally.
+- Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-infosec/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete these challenges.
+- Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
 
-Helmet hilft dir, deine Express-Anwendungen durch die Einstellung verschiedener HTTP-Header zu sichern.
+Helmet helps you secure your Express apps by setting various HTTP headers.
 
 # --instructions--
 
-All your code for these lessons goes in the `myApp.js` file between the lines of code we have started you off with. Ändere oder lösche nicht den Code, den wir für dich hinzugefügt haben.
+All your code for these lessons goes in the `myApp.js` file between the lines of code we have started you off with. Do not change or delete the code we have added for you.
 
 Helmet version `3.21.3` has already been installed, so require it as `helmet` in `myApp.js`.
 

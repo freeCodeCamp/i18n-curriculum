@@ -1,6 +1,6 @@
 ---
 id: 587d781a367417b2b2512ab8
-title: 使用 u 標籤給文本添加下劃線
+title: Use the u Tag to Underline Text
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cN6aQCL'
 forumTopicId: 301082
@@ -9,23 +9,23 @@ dashedName: use-the-u-tag-to-underline-text
 
 # --description--
 
-你可以使用 `u` 標籤來給文字添加下劃線。 下劃線通常用來表示重要內容或需要記憶的內容。 添加了 `u` 標籤後，瀏覽器會自動給元素添加這段樣式：`text-decoration: underline;`。
+To underline text, you can use the `u` tag. This is often used to signify that a section of text is important, or something to remember. With the `u` tag, the browser applies the CSS of `text-decoration: underline;` to the element.
 
 # --instructions--
 
-給文本 `Ph.D. students` 添加 `u` 標籤。
+Wrap the `u` tag only around the text `Ph.D. students`.
 
-**注意：** 如果使用 `u` 標籤添加下劃線，可能混淆文本和鏈接，則應避免使用它。 錨標籤也有默認的下劃線格式。
+**Note:** Try to avoid using the `u` tag when it could be confused for a link. Anchor tags also have a default underlined formatting.
 
 # --hints--
 
-應添加一個 `u` 標籤。
+Your code should add a `u` tag to the markup.
 
 ```js
 assert.lengthOf(document.querySelectorAll('u'), 1);
 ```
 
-`u` 標籤的內容文本應爲 `Ph.D. students`。
+The `u` tag should wrap around the text `Ph.D. students`.
 
 ```js
 assert.equal(document.querySelector('u')?.textContent , 'Ph.D. students');

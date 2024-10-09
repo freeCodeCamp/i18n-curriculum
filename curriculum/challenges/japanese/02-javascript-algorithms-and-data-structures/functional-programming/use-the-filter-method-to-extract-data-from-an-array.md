@@ -1,6 +1,6 @@
 ---
 id: 587d7b8f367417b2b2512b63
-title: filter メソッドを使用して配列からデータを抽出する
+title: Use the filter Method to Extract Data from an Array
 challengeType: 1
 forumTopicId: 18179
 dashedName: use-the-filter-method-to-extract-data-from-an-array
@@ -8,13 +8,13 @@ dashedName: use-the-filter-method-to-extract-data-from-an-array
 
 # --description--
 
-もう一つの便利な配列関数に、`Array.prototype.filter()`、または単に `filter()` があります。
+Another useful array function is `Array.prototype.filter()`, or simply `filter()`.
 
-`filter` は配列の各要素に対して関数を呼び出し、その関数が真値 (Truthy な値) を返す要素のみを含む新しい配列を返します。真値とは、`Boolean()` コンストラクターに渡されたとき `true` を返す値です。 つまり、渡された関数に基づいて配列をフィルターで絞り込みます。 `map` と同様に、元の配列を変更せずにこうした操作を実行します。
+`filter` calls a function on each element of an array and returns a new array containing only the elements for which that function returns a truthy value - that is, a value which returns `true` if passed to the `Boolean()` constructor. In other words, it filters the array, based on the function passed to it. Like `map`, it does this without needing to modify the original array.
 
-コールバック関数は 3 つの引数を受け取ります。 最初の引数は、現在処理中の要素です。 2 つ目は、その要素のインデックスです。3 つ目は、`filter` メソッドを呼び出した対象の配列です。
+The callback function accepts three arguments. The first argument is the current element being processed. The second is the index of that element and the third is the array upon which the `filter` method was called.
 
-次の例では、`users` 配列で `filter` メソッドを使用して、30 歳未満のユーザーのみを含む新しい配列を返しています。 簡単のため、この例ではコールバックの最初の引数のみを使用しています。
+See below for an example using the `filter` method on the `users` array to return a new array containing only the users under the age of 30. For simplicity, the example only uses the first argument of the callback.
 
 ```js
 const users = [
@@ -27,15 +27,15 @@ const usersUnder30 = users.filter(user => user.age < 30);
 console.log(usersUnder30); 
 ```
 
-コンソールには値 `[ { name: 'Amy', age: 20 }, { name: 'camperCat', age: 10 } ]` が表示されます。
+The console would display the value `[ { name: 'Amy', age: 20 }, { name: 'camperCat', age: 10 } ]`.
 
 # --instructions--
 
-変数 `watchList` に、複数のムービーに関する情報を持つオブジェクトの配列が保持されています。 `watchList` に対して `filter` と `map` を組み合わせて使用し、`title` キーと `rating` キーのみを持つオブジェクトの新しい配列を割り当ててください。 新しい配列には、`imdbRating` が 8.0 以上のオブジェクトのみを含める必要があります。 `rating` の値はオブジェクトに文字列として保存され、算術演算を実行する場合は数値に変換する必要があることに注意してください。
+The variable `watchList` holds an array of objects with information on several movies. Use a combination of `filter` and `map` on `watchList` to assign a new array of objects with only `title` and `rating` keys. The new array should only include objects where `imdbRating` is greater than or equal to 8.0. Note that the `rating` values are saved as strings in the object and you may need to convert them into numbers to perform mathematical operations on them.
 
 # --hints--
 
-`watchList` 変数は変更しないでください。
+The `watchList` variable should not change.
 
 ```js
 assert(
@@ -43,19 +43,19 @@ assert(
 );
 ```
 
-コードで `filter` メソッドを使用する必要があります。
+Your code should use the `filter` method.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/\s*\.\s*filter/g));
 ```
 
-コードで `for` ループを使用しないでください。
+Your code should not use a `for` loop.
 
 ```js
 assert(!__helpers.removeJSComments(code).match(/for\s*?\([\s\S]*?\)/g));
 ```
 
-`filteredList` は `[{"title": "Inception", "rating": "8.8"}, {"title": "Interstellar", "rating": "8.6"}, {"title": "The Dark Knight", "rating": "9.0"}, {"title": "Batman Begins", "rating": "8.3"}]` と等しくなる必要があります。
+`filteredList` should equal `[{"title": "Inception", "rating": "8.8"}, {"title": "Interstellar", "rating": "8.6"}, {"title": "The Dark Knight", "rating": "9.0"}, {"title": "Batman Begins", "rating": "8.3"}]`.
 
 ```js
 assert.deepEqual(filteredList, [

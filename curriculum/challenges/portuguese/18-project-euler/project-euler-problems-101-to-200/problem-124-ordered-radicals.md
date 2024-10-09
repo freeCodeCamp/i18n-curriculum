@@ -1,6 +1,6 @@
 ---
 id: 5900f3e81000cf542c50fefb
-title: 'Problema 124: Radicais ordenados'
+title: 'Problem 124: Ordered radicals'
 challengeType: 1
 forumTopicId: 301751
 dashedName: problem-124-ordered-radicals
@@ -8,17 +8,17 @@ dashedName: problem-124-ordered-radicals
 
 # --description--
 
-O radical de $n$, $rad(n)$, é o produto dos fatores primos distintos de $n$. Por exemplo, $504 = 2^3 × 3^2 × 7$, então $rad(504) = 2 × 3 × 7 = 42$.
+The radical of $n$, $rad(n)$, is the product of the distinct prime factors of $n$. For example, $504 = 2^3 × 3^2 × 7$, so $rad(504) = 2 × 3 × 7 = 42$.
 
-Se calcularmos $rad(n)$ para $1 ≤ n ≤ 10$ e, em seguida, ordená-los em $rad(n)$, e ordená-los novamente em $n$ se os valores dos radicais forem iguais, obtemos:
+If we calculate $rad(n)$ for $1 ≤ n ≤ 10$, then sort them on $rad(n)$, and sorting on $n$ if the radical values are equal, we get:
 
 <div style="text-align: center;">
   <table cellpadding="2" cellspacing="0" border="0" align="center">
     <tbody>
       <tr>
-        <td colspan="2">$Nao ordenados$</td>
+        <td colspan="2">$Unsorted$</td>
         <td></td>
-        <td colspan="3">$Ordenados$</td>
+        <td colspan="3">$Sorted$</td>
       </tr>
       <tr>
         <td>$n$</td>
@@ -112,11 +112,11 @@ Se calcularmos $rad(n)$ para $1 ≤ n ≤ 10$ e, em seguida, ordená-los em $rad
   </table>
 </div><br>
 
-Considere $E(k)$ como o $k$-ésimo elemento na coluna de ordenados $n$; por exemplo, $E(4) = 8$ e $E(6) = 9$. Se $rad(n)$ estiver ordenado para $1 ≤ n ≤ 100000$, encontre $E(10000)$.
+Let $E(k)$ be the $k$th element in the sorted $n$ column; for example, $E(4) = 8$ and $E(6) = 9$. If $rad(n)$ is sorted for $1 ≤ n ≤ 100000$, find $E(10000)$.
 
 # --hints--
 
-`orderedRadicals()` deve retornar `21417`.
+`orderedRadicals()` should return `21417`.
 
 ```js
 assert.strictEqual(orderedRadicals(), 21417);

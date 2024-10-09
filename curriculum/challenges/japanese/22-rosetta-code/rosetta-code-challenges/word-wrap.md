@@ -1,6 +1,6 @@
 ---
 id: 594810f028c0303b75339ad4
-title: ワードラップ
+title: Word wrap
 challengeType: 1
 forumTopicId: 302344
 dashedName: word-wrap
@@ -12,7 +12,7 @@ Even today, with proportional fonts and complex layouts, there are still cases w
 
 # --instructions--
 
-このテキストを任意の文字数でワードラップできる関数を記述してください。 例えば、80 文字でワードラップしたテキストは以下のようになります:
+Write a function that can wrap this text to any number of characters. As an example, the text wrapped to 80 characters should look like the following:
 
 <pre>
 Wrap text using a more sophisticated algorithm such as the Knuth and Plass TeX
@@ -23,37 +23,37 @@ than a simple minimum length algorithm.
 
 # --hints--
 
-wrap は関数とします。
+wrap should be a function.
 
 ```js
 assert.equal(typeof wrap, 'function');
 ```
 
-wrap は文字列を返す必要があります。
+wrap should return a string.
 
 ```js
 assert.equal(typeof wrap('abc', 10), 'string');
 ```
 
-wrap(80) は 4 行を返す必要があります。
+wrap(80) should return 4 lines.
 
 ```js
 assert(wrapped80.split('\n').length === 4);
 ```
 
-`wrap` 関数は期待されるテキストを返す必要があります。
+Your `wrap` function should return our expected text.
 
 ```js
 assert.equal(wrapped80.split('\n')[0], firstRow80);
 ```
 
-wrap(42) は 7 行を返す必要があります。
+wrap(42) should return 7 lines.
 
 ```js
 assert(wrapped42.split('\n').length === 7);
 ```
 
-`wrap` 関数は期待されるテキストを返す必要があります。
+Your `wrap` function should return our expected text.
 
 ```js
 assert.equal(wrapped42.split('\n')[0], firstRow42);

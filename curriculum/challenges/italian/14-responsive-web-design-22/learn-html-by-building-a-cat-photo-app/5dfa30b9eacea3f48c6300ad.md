@@ -7,7 +7,7 @@ dashedName: step-15
 
 # --description--
 
-Nei passaggi precedenti hai usato un elemento di ancoraggio per trasformare il testo in un link. Anche altri tipi di contenuto possono essere trasformati in un link racchiudendoli in tag di ancoraggio.
+In previous steps you used an anchor element to turn text into a link. Other types of content can also be turned into a link by wrapping it in anchor tags.
 
 Here is an example of turning an image into a link:
 
@@ -17,11 +17,11 @@ Here is an example of turning an image into a link:
 </a>
 ```
 
-Trasforma l'immagine in un link circondandola con i tag necessari. Usa `https://freecatphotoapp.com` come valore dell'attributo dell'elemento di ancoraggio `href`.
+Turn the image into a link by surrounding it with necessary element tags. Use `https://freecatphotoapp.com` as the anchor's `href` attribute value.
 
 # --hints--
 
-You should have an `img` element with a `src` value of `https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg`. Potresti averlo eliminato accidentalmente.
+You should have an `img` element with a `src` value of `https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg`. You may have accidentally deleted it.
 
 ```js
 assert(
@@ -31,37 +31,37 @@ assert(
 );
 ```
 
-L'elemento di ancoraggio (`a`) dovrebbe avere un tag di apertura. I tag di apertura hanno questa sintassi: `<elementName>`.
+Your anchor (`a`) element should have an opening tag. Opening tags have this syntax: `<elementName>`.
 
 ```js
 assert(document.querySelectorAll('a').length >= 2);
 ```
 
-Ti manca un tag di chiusura (`a`) dopo l'immagine.
+You are missing a closing (`a`) tag after the image.
 
 ```js
 assert(document.querySelectorAll('a').length === 2);
 ```
 
-L'elemento di ancoraggio (`a`) dovrebbe avere un tag di chiusura. I tag di chiusura hanno un carattere `/` subito dopo il carattere `<`.
+Your anchor (`a`) element should have a closing tag. Closing tags have a `/` just after the `<` character.
 
 ```js
 assert(code.match(/<\/a>/g).length >= 2);
 ```
 
-Dovresti aggiungere un solo tag di chiusura di ancoraggio (`a`). Rimuovi quelli di troppo.
+You should only add one closing anchor (`a`) tag. Please remove any extras.
 
 ```js
 assert(code.match(/<\/a>/g).length === 2);
 ```
 
-L'elemento di ancoraggio (`a`) non ha un attributo `href`. Verifica che ci sia uno spazio dopo il nome del tag di apertura e/o che ci siano spazi prima di tutti i nomi degli attributi.
+Your anchor (`a`) element does not have an `href` attribute. Check that there is a space after the opening tag's name and/or there are spaces before all attribute names.
 
 ```js
 assert(document.querySelector('a').hasAttribute('href'));
 ```
 
-L'elemento di ancoraggio (`a`) dovrebbe contenere il link `https://freecatphotoapp.com`. Hai omesso l'URL o hai un refuso.
+Your anchor (`a`) element should link to `https://freecatphotoapp.com`. You have either omitted the URL or have a typo.
 
 ```js
 assert(
@@ -70,7 +70,7 @@ assert(
 );
 ```
 
-L'elemento `img` dovrebbe essere annidato all'interno dell'elemento di ancoraggio (`a`). L'intero elemento `img` dovrebbe essere all'interno dei tag di apertura e chiusura dell'elemento di ancoraggio (`a`).
+Your `img` element should be nested within the anchor (`a`) element. The entire `img` element should be inside the opening and closing tags of the anchor (`a`) element.
 
 ```js
 assert(document.querySelector('img').parentNode.nodeName === 'A');

@@ -1,6 +1,6 @@
 ---
 id: 594810f028c0303b75339ad2
-title: Навхресний векторний добуток
+title: Vector cross product
 challengeType: 1
 forumTopicId: 302342
 dashedName: vector-cross-product
@@ -8,27 +8,27 @@ dashedName: vector-cross-product
 
 # --description--
 
-Вектор визначається наявністю трьох вимірів, представлених впорядкованою множиною трьох чисел: (X, Y, Z).
+A vector is defined as having three dimensions as being represented by an ordered collection of three numbers: (X, Y, Z).
 
 # --instructions--
 
-Напишіть функцію, яка приймає два вектори (масиви) як ввід та обчислює їх векторний добуток. Функція має повернути `null`, якщо ввід недійсний (наприклад, надано вектори різної довжини).
+Write a function that takes two vectors (arrays) as input and computes their cross product. Your function should return `null` on invalid inputs such as vectors of different lengths.
 
 # --hints--
 
-`crossProduct` має бути функцією.
+`crossProduct` should be a function.
 
 ```js
 assert.equal(typeof crossProduct, 'function');
 ```
 
-`crossProduct()` має повернути `null`.
+`crossProduct()` should return null.
 
 ```js
 assert.equal(crossProduct(), null);
 ```
 
-`crossProduct([1, 2, 3], [4, 5, 6])` має повернути `[-3, 6, -3]`.
+`crossProduct([1, 2, 3], [4, 5, 6])` should return `[-3, 6, -3]`.
 
 ```js
 assert.deepEqual(res12, exp12);

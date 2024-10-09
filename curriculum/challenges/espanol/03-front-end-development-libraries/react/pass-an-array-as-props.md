@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d403616a
-title: Pasa un arreglo como "props"
+title: Pass an Array as Props
 challengeType: 6
 forumTopicId: 301401
 dashedName: pass-an-array-as-props
@@ -8,7 +8,7 @@ dashedName: pass-an-array-as-props
 
 # --description--
 
-El último desafío demostró cómo pasar información desde un componente padre a un componente hijo como `props` o propiedades. Este desafío busca demostrar cómo se pueden pasar arreglos como `props`. Para pasar un arreglo a un elemento JSX, debe ser tratado como JavaScript y envolverlo entre llaves.
+The last challenge demonstrated how to pass information from a parent component to a child component as `props` or properties. This challenge looks at how arrays can be passed as `props`. To pass an array to a JSX element, it must be treated as JavaScript and wrapped in curly braces.
 
 ```jsx
 <ParentComponent>
@@ -16,7 +16,7 @@ El último desafío demostró cómo pasar información desde un componente padre
 </ParentComponent>
 ```
 
-El componente hijo entonces tiene acceso a la propiedad del arreglo `colors`. Los métodos de arreglo, como `join()` pueden ser usados al acceder a la propiedad.
+The child component then has access to the array property `colors`. Array methods such as `join()` can be used when accessing the property.
 
 ```jsx
 const ChildComponent = (props) => <p>{props.colors.join(', ')}</p>

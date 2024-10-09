@@ -1,6 +1,6 @@
 ---
 id: 5900f4021000cf542c50ff14
-title: '問題 148: パスカルの三角形を探索する'
+title: 'Problem 148: Exploring Pascal''s triangle'
 challengeType: 1
 forumTopicId: 301777
 dashedName: problem-148-exploring-pascals-triangle
@@ -8,7 +8,7 @@ dashedName: problem-148-exploring-pascals-triangle
 
 # --description--
 
-パスカルの三角形の最初の 7 段には 7 で割り切れる要素がないことを、簡単に確認できます。
+We can easily verify that none of the entries in the first seven rows of Pascal's triangle are divisible by 7:
 
 ```markup
             1
@@ -20,15 +20,15 @@ dashedName: problem-148-exploring-pascals-triangle
 1   6   15  20  15  6   1
 ```
 
-しかし最初の 100 段を調べると、7 で割り切れない要素は 5050 個の要素のうち 2361 個に過ぎません。
+However, if we check the first one hundred rows, we will find that only 2361 of the 5050 entries are not divisible by 7.
 
 # --instructions--
 
-パスカルの三角形の最初の 10 億段 (${10}^9$) にある要素のうち、7 で割り切れない要素はいくつありますか。
+Find the number of entries which are not divisible by 7 in the first one billion (${10}^9$) rows of Pascal's triangle.
 
 # --hints--
 
-`entriesOfPascalsTriangle()` は `2129970655314432` を返す必要があります。
+`entriesOfPascalsTriangle()` should return `2129970655314432`.
 
 ```js
 assert.strictEqual(entriesOfPascalsTriangle(), 2129970655314432);

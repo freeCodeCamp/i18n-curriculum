@@ -1,6 +1,6 @@
 ---
 id: 587d7787367417b2b2512aa1
-title: header の目印でスクリーンリーダーのナビゲーションを容易にする
+title: Make Screen Reader Navigation Easier with the header Landmark
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cB76vtv'
 forumTopicId: 301023
@@ -9,25 +9,25 @@ dashedName: make-screen-reader-navigation-easier-with-the-header-landmark
 
 # --description--
 
-次の HTML5 要素は、セマンティックな意味を加えてアクセシビリティを向上させる `header` タグです。 これは導入的な情報や、親タグ内のコンテンツのナビゲーションリンクを囲むために使われることが多く、複数ページのトップに繰り返し表示するようなコンテンツを囲むのに役立ちます。
+The next HTML5 element that adds semantic meaning and improves accessibility is the `header` tag. It's used to wrap introductory information or navigation links for its parent tag and works well around content that's repeated at the top on multiple pages.
 
-`header` は `main`でも取り上げた目印を埋め込む機能を共有しており、支援技術がそのコンテンツに素早く移動できるようにします。
+`header` shares the embedded landmark feature you saw with `main`, allowing assistive technologies to quickly navigate to that content.
 
-**注:** `header` は HTML ドキュメントの `body` タグ内で使用するためのものです。 これはページのタイトルやメタ情報などを含む `head` 要素とは異なるものです。
+**Note:** The `header` is meant for use in the `body` tag of your HTML document. It is different than the `head` element, which contains the page's title, meta information, etc.
 
 # --instructions--
 
-Camper Cat は忍者の訓練についてのすばらしい記事を書いていて、そのためのページをサイトに加えたいと思っています。 現在 `h1` を囲んでいる先頭の `div` を `header` タグへ変更してください。
+Camper Cat is writing some great articles about ninja training, and wants to add a page for them to his site. Change the top `div` that currently contains the `h1` to a `header` tag instead.
 
 # --hints--
 
-コードには `header` タグが 1 つ必要です。
+Your code should have one `header` tag.
 
 ```js
 assert.lengthOf(document.querySelectorAll('header'),1);
 ```
 
-`header` タグは `h1` 要素を囲む必要があります。
+Your `header` tags should wrap around the `h1`.
 
 ```js
 const header = document.querySelector('header');
@@ -35,13 +35,13 @@ const children = header?.querySelectorAll(`:scope ${'h1'}`);
 assert.lengthOf(children , 1);
 ```
 
-コードに `div` タグを含めないでください。
+Your code should not have any `div` tags.
 
 ```js
 assert.lengthOf(document.querySelectorAll('div') , 0);
 ```
 
-`header` 要素には終了タグが必要です。
+Your `header` element should have a closing tag.
 
 ```js
 assert.isTrue(code.match(/<\/header>/g)?.length === code.match(/<header>/g)?.length);

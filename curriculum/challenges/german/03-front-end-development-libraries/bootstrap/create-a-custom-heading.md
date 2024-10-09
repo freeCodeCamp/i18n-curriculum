@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aede08845
-title: Erstelle eine eigene Überschrift
+title: Create a Custom Heading
 challengeType: 0
 forumTopicId: 16816
 dashedName: create-a-custom-heading
@@ -8,17 +8,17 @@ dashedName: create-a-custom-heading
 
 # --description--
 
-Wir werden eine einfache Überschrift für unsere Katzenfoto-App erstellen, indem wir den Titel und das Bild einer entspannten Katze in derselben Reihe platzieren.
+We will make a simple heading for our Cat Photo App by putting the title and relaxing cat image in the same row.
 
-Denk daran, dass Bootstrap ein Gestaltungsraster (Grid) mit responsivem Design verwendet, das es einfach macht, Elemente in Zeilen anzuordnen und die relative Breite der einzelnen Elemente festzulegen. Die meisten Bootstrap-Klassen können auf ein `div`-Element angewendet werden.
+Remember, Bootstrap uses a responsive grid system, which makes it easy to put elements into rows and specify each element's relative width. Most of Bootstrap's classes can be applied to a `div` element.
 
-Verschachtel dein erstes Bild und dein `h2`-Element in ein einziges `<div class="row">`-Element. Verschachtel dein `h2`-Element in einem `<div class="col-xs-8">` und dein Bild in einem `<div class="col-xs-4">`, damit sie sich auf der gleichen Zeile befinden.
+Nest your first image and your `h2` element within a single `<div class="row">` element. Nest your `h2` element within a `<div class="col-xs-8">` and your image in a `<div class="col-xs-4">` so that they are on the same line.
 
-Hast du bemerkt, dass das Bild jetzt genau die richtige Größe hat, um neben den Text zu passen?
+Notice how the image is now just the right size to fit along the text?
 
 # --hints--
 
-Dein `h2`-Element und das oberste `img`-Element sollten beide in einem `div`-Element der Klasse `row` verschachtelt werden.
+Your `h2` element and topmost `img` element should both be nested together within a `div` element with the class `row`.
 
 ```js
 const row = document.querySelector('div.row');
@@ -28,7 +28,7 @@ assert.lengthOf(h2,1);
 assert.lengthOf(image ,1);
 ```
 
-Dein oberstes `img`-Element sollte in einem `div` der Klasse `col-xs-4` verschachtelt sein.
+Your topmost `img` element should be nested within a `div` with the class `col-xs-4`.
 
 ```js
 const column = document.querySelector('div.col-xs-4');
@@ -38,7 +38,7 @@ assert.isEmpty(div);
 assert.lengthOf(img,1)
 ```
 
-Dein `h2`-Element sollte in einem `div` der Klasse `col-xs-8` verschachtelt sein.
+Your `h2` element should be nested within a `div` with the class `col-xs-8`.
 
 ```js
 const column = document.querySelector('div.col-xs-8');
@@ -49,7 +49,7 @@ assert.isEmpty(div);
 assert.lengthOf(h2, 1);
 ```
 
-All deine `div` Elemente sollten abschließende Tags haben.
+All of your `div` elements should have closing tags.
 
 ```js
 assert.match(code,/<\/div>/g);

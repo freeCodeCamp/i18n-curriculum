@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aede08845
-title: إنشاء Heading مخصص
+title: Create a Custom Heading
 challengeType: 0
 forumTopicId: 16816
 dashedName: create-a-custom-heading
@@ -8,17 +8,17 @@ dashedName: create-a-custom-heading
 
 # --description--
 
-صنع عنوان بسيط لتطبيق Cat Photo App عن طريق وضع العنوان وإرخاء صورة القطط في الصف نفسه.
+We will make a simple heading for our Cat Photo App by putting the title and relaxing cat image in the same row.
 
-تذكر، Bootstrap يستخدم نظام شبكة مستجيبة (responsive grid)، مما يجعل من السهل وضع العناصر في صفوف وتحديد العرض النسبي لكل عنصر. يمكن تطبيق معظم فئات Bootstrap على عنصر `div`.
+Remember, Bootstrap uses a responsive grid system, which makes it easy to put elements into rows and specify each element's relative width. Most of Bootstrap's classes can be applied to a `div` element.
 
-أدخل صورتك الأولى و عنصر `h2` الخاص بك ضمن عنصر واحد `<div class="row">`. أدخل عنصر `h2` الخاص بك داخل `<div class="col-xs-8">` وصورتك في `<div class="col-xs-4">` بحيث تكون على نفس الخط.
+Nest your first image and your `h2` element within a single `<div class="row">` element. Nest your `h2` element within a `<div class="col-xs-8">` and your image in a `<div class="col-xs-4">` so that they are on the same line.
 
-لاحظ كيف أن حجم الصورة يتناسب مع النص بشكل صحيح الآن؟
+Notice how the image is now just the right size to fit along the text?
 
 # --hints--
 
-عنصر `h2` الخاص بك و أعلى `img` يجب أن يتداخل مع عنصر `div` مع `row`.
+Your `h2` element and topmost `img` element should both be nested together within a `div` element with the class `row`.
 
 ```js
 const row = document.querySelector('div.row');
@@ -28,7 +28,7 @@ assert.lengthOf(h2,1);
 assert.lengthOf(image ,1);
 ```
 
-يجب أدخال أعلى عنصر `img` الخاصة بك في `div` مع فئة يسمي `col-xs-4`.
+Your topmost `img` element should be nested within a `div` with the class `col-xs-4`.
 
 ```js
 const column = document.querySelector('div.col-xs-4');
@@ -38,7 +38,7 @@ assert.isEmpty(div);
 assert.lengthOf(img,1)
 ```
 
-يجب أدخال عنصر `h2` الخاصة بك في `div` مع فئة يسمي `col-xs-8`.
+Your `h2` element should be nested within a `div` with the class `col-xs-8`.
 
 ```js
 const column = document.querySelector('div.col-xs-8');
@@ -49,7 +49,7 @@ assert.isEmpty(div);
 assert.lengthOf(h2, 1);
 ```
 
-لا بد أن يوجد وسم إغلاق لكل عناصر `div`.
+All of your `div` elements should have closing tags.
 
 ```js
 assert.match(code,/<\/div>/g);

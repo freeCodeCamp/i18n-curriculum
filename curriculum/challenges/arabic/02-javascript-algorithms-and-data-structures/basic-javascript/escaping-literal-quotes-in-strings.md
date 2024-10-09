@@ -1,6 +1,6 @@
 ---
 id: 56533eb9ac21ba0edf2244b5
-title: إخراج (Escape) علامات التنصيص في المقاطع النصية
+title: Escaping Literal Quotes in Strings
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/c2QvgSr'
 forumTopicId: 17568
@@ -9,15 +9,15 @@ dashedName: escaping-literal-quotes-in-strings
 
 # --description--
 
-عند تحديد مقطع نصي يجب أن تبدأ وتنتهي بعلامات التنصيص مفردة ('') أو مزدوجة (""). ماذا يحدث عندما تحتاج إلى استخدام علامتا التنصيص مثل: `"` أو `'` داخل مقطعك النصي؟
+When you are defining a string you must start and end with a single or double quote. What happens when you need a literal quote: `"` or `'` inside of your string?
 
-في JavaScript، يمكنك <dfn>إخراج</dfn> علامتا التنصيص حتى لا تعدّ نهاية للمقطع النصي عن طريق وضع <dfn>خط مائل للشمال</dfn> بشكل (`\`) أمام علامة التنصيص.
+In JavaScript, you can <dfn>escape</dfn> a quote from considering it as an end of string quote by placing a <dfn>backslash</dfn> (`\`) in front of the quote.
 
 ```js
 const sampleStr = "Alan said, \"Peter is learning JavaScript\".";
 ```
 
-هذا يوضح إلى JavaScript أن علامة التنصيص التالية ليست بنهاية للمقطع، بل يجب أن تظهر داخل المقطع. لذا عند طبع هذا إلى الكونسول (console) ستحصل على:
+This signals to JavaScript that the following quote is not the end of the string, but should instead appear inside the string. So if you were to print this to the console, you would get:
 
 ```js
 Alan said, "Peter is learning JavaScript".
@@ -25,7 +25,7 @@ Alan said, "Peter is learning JavaScript".
 
 # --instructions--
 
-استخدم <dfn>شرطات مائلة للشمال</dfn> لتعيين مقطع نصي إلى متغير `myStr` بحيث إذا كنت تريد طباعته إلى الكونسول، ستري ما يلي:
+Use <dfn>backslashes</dfn> to assign a string to the `myStr` variable so that if you were to print it to the console, you would see:
 
 ```js
 I am a "double quoted" string inside "double quotes".
@@ -33,13 +33,13 @@ I am a "double quoted" string inside "double quotes".
 
 # --hints--
 
-يجب عليك استخدام علامة التنصيص المزدوجة (`"`) وتخرج العلامات أربع مرات مثل (`\"`).
+You should use two double quotes (`"`) and four escaped double quotes (`\"`).
 
 ```js
 assert(__helpers.removeJSComments(code).match(/\\"/g).length === 4 && __helpers.removeJSComments(code).match(/[^\\]"/g).length === 2);
 ```
 
-يجب أن يحتوي المتغير `myStr` على المقطع النصي الآتي: `I am a "double quoted" string inside "double quotes".`
+Variable `myStr` should contain the string: `I am a "double quoted" string inside "double quotes".`
 
 ```js
 assert(/I am a "double quoted" string inside "double quotes(\."|"\.)$/.test(myStr));

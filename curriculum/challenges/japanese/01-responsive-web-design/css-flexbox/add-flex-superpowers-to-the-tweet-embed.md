@@ -1,6 +1,6 @@
 ---
 id: 587d78ab367417b2b2512af1
-title: 埋め込みツイートに flex の強力なパワーを追加する
+title: Add Flex Superpowers to the Tweet Embed
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVaDAv/c9W7MhM'
 forumTopicId: 301100
@@ -9,59 +9,59 @@ dashedName: add-flex-superpowers-to-the-tweet-embed
 
 # --description--
 
-実践的な例として使用する埋め込みツイートが右側にあります。 いくつかの要素はレイアウトを変えると見栄えがより良くなりそうです。 前回のチャレンジで `display: flex` を説明しました。 ここでは、埋め込みツイート内のコンポーネントにそれを追加して、位置の調整を行いましょう。
+To the right is the tweet embed that will be used as a practical example. Some of the elements would look better with a different layout. The last challenge demonstrated `display: flex`. Here you'll add it to several components in the tweet embed to start adjusting their positioning.
 
 # --instructions--
 
-CSS プロパティ `display: flex` を以下のすべてのアイテムに追加してください。セレクターは既に CSS に設定されていることに注意してください。
+Add the CSS property `display: flex` to all of the following items - note that the selectors are already set up in the CSS:
 
-`header`、ヘッダーの `.profile-name`、ヘッダーの `.follow-btn`、ヘッダーの `h3` および `h4`、`footer`、フッターの `.stats`
+`header`, the header's `.profile-name`, the header's `.follow-btn`, the header's `h3` and `h4`, the `footer`, and the footer's `.stats`.
 
 # --hints--
 
-`.follow-btn` がページ上に表示されている必要があります。 必ず広告ブロッカーなどの拡張機能をオフにしてください。
+Your `.follow-btn` should be rendered on the page. Be sure to turn off any extensions such as ad blockers.
 
 ```js
 assert($('.follow-btn').length > 0 && $('.follow-btn').css('display') !== 'none');
 ```
 
-`header` は `display` プロパティを `flex` に設定する必要があります。
+Your `header` should have a `display` property set to `flex`.
 
 ```js
 assert($('header').css('display') == 'flex');
 ```
 
-`footer` は `display` プロパティを `flex` に設定する必要があります。
+Your `footer` should have a `display` property set to `flex`.
 
 ```js
 assert($('footer').css('display') == 'flex');
 ```
 
-`h3` は `display` プロパティを `flex` に設定する必要があります。
+Your `h3` should have a `display` property set to `flex`.
 
 ```js
 assert($('h3').css('display') == 'flex');
 ```
 
-`h4` は `display` プロパティを `flex` に設定する必要があります。
+Your `h4` should have a `display` property set to `flex`.
 
 ```js
 assert($('h4').css('display') == 'flex');
 ```
 
-`.profile-name` は `display` プロパティを `flex` に設定する必要があります。
+Your `.profile-name` should have a `display` property set to `flex`.
 
 ```js
 assert($('.profile-name').css('display') == 'flex');
 ```
 
-`.follow-btn` は `display` プロパティを `flex` に設定する必要があります。
+Your `.follow-btn` should have a `display` property set to `flex`.
 
 ```js
 assert($('.follow-btn').css('display') == 'flex');
 ```
 
-`.stats` は `display` プロパティを `flex` に設定する必要があります。
+Your `.stats` should have a `display` property set to `flex`.
 
 ```js
 assert($('.stats').css('display') == 'flex');

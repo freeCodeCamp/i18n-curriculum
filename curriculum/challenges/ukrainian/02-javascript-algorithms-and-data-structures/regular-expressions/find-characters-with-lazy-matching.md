@@ -1,6 +1,6 @@
 ---
 id: 587d7db6367417b2b2512b9b
-title: Пошук символів за допомогою лінивого збігу
+title: Find Characters with Lazy Matching
 challengeType: 1
 forumTopicId: 301341
 dashedName: find-characters-with-lazy-matching
@@ -8,35 +8,35 @@ dashedName: find-characters-with-lazy-matching
 
 # --description--
 
-<dfn>Жадібний</dfn> збіг знаходить найдовшу частину рядка, яка відповідає шаблону регулярного виразу та повертає його як збіг. Альтернативою є <dfn>лінивий</dfn> збіг, що знаходить найменшу частину рядка, яка відповідає шаблону регулярного виразу.
+In regular expressions, a <dfn>greedy</dfn> match finds the longest possible part of a string that fits the regex pattern and returns it as a match. The alternative is called a <dfn>lazy</dfn> match, which finds the smallest possible part of the string that satisfies the regex pattern.
 
-Ви можете застосувати регулярний вираз `/t[a-z]*i/` до рядка `"titanic"`. Цей регулярний вираз фактично є шаблоном, який починається з `t`, закінчується на `i` та має кілька літер між ними.
+You can apply the regex `/t[a-z]*i/` to the string `"titanic"`. This regex is basically a pattern that starts with `t`, ends with `i`, and has some letters in between.
 
-Регулярні вирази за замовчуванням «жадібні», тому збіг поверне `["titani"]`. Він знаходить найбільший можливий підрядок, який відповідає шаблону.
+Regular expressions are by default greedy, so the match would return `["titani"]`. It finds the largest sub-string possible to fit the pattern.
 
-Однак ви можете використати символ `?`, щоб змінити його на «лінивий» пошук. `"titanic"`, зіставлений зі скоригованим регулярним виразом `/t[a-z]*?i/` поверне `["ti"]`.
+However, you can use the `?` character to change it to lazy matching. `"titanic"` matched against the adjusted regex of `/t[a-z]*?i/` returns `["ti"]`.
 
-**Примітка:** варто уникати синтаксичного аналізу HTML (парсингу) регулярних виразів, але за допомогою регулярних виразів можна зіставляти рядок HTML з шаблоном.
+**Note:** Parsing HTML with regular expressions should be avoided, but pattern matching an HTML string with regular expressions is completely fine.
 
 # --instructions--
 
-Виправте регулярний вираз `/<.*>/`, щоб він повернув HTML тег `<h1>`, а не текст `"<h1>Winter is coming</h1>"`. Пам’ятайте, що байдужий символ `.` в регулярному виразі відповідає будь-якому символу.
+Fix the regex `/<.*>/` to return the HTML tag `<h1>` and not the text `"<h1>Winter is coming</h1>"`. Remember the wildcard `.` in a regular expression matches any character.
 
 # --hints--
 
-Змінна `result` повинна бути масивом, який містить `<h1>`
+The `result` variable should be an array with `<h1>` in it
 
 ```js
 assert(result[0] == '<h1>');
 ```
 
-`myRegex` має використати «лінивий» пошук
+`myRegex` should use lazy matching
 
 ```js
 assert(/[^\\][\*\+\?]\?/.test(myRegex));
 ```
 
-`myRegex` не повинен містити рядок `h1`
+`myRegex` should not include the string `h1`
 
 ```js
 assert(!myRegex.source.match('h1'));

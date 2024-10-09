@@ -1,6 +1,6 @@
 ---
 id: 56533eb9ac21ba0edf2244de
-title: Adicionar uma opção padrão em instruções switch
+title: Adding a Default Option in Switch Statements
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/c3JvVfg'
 forumTopicId: 16653
@@ -9,9 +9,9 @@ dashedName: adding-a-default-option-in-switch-statements
 
 # --description--
 
-Na instrução `switch`, você não deve ser capaz de especificar todos os possíveis valores como instruções `case`. Ao invés disso, você pode adicionar a instrução `default`, que será executada se nenhuma instrução `case` correspondente for encontrada. Pense nisso como a instrução final `else` em uma cadeia de `if/else`.
+In a `switch` statement you may not be able to specify all possible values as `case` statements. Instead, you can add the `default` statement which will be executed if no matching `case` statements are found. Think of it like the final `else` statement in an `if/else` chain.
 
-A instrução `default` deve ser o último caso.
+A `default` statement should be the last case.
 
 ```js
 switch (num) {
@@ -30,7 +30,7 @@ switch (num) {
 
 # --instructions--
 
-Escreva a instrução switch para definir `answer` para as seguintes condições:  
+Write a switch statement to set `answer` for the following conditions:  
 `a` - `apple`  
 `b` - `bird`  
 `c` - `cat`  
@@ -38,49 +38,49 @@ Escreva a instrução switch para definir `answer` para as seguintes condições
 
 # --hints--
 
-`switchOfStuff("a")` deve retornar a string `apple`
+`switchOfStuff("a")` should return the string `apple`
 
 ```js
 assert(switchOfStuff('a') === 'apple');
 ```
 
-`switchOfStuff("b")` deve retornar a string `bird`
+`switchOfStuff("b")` should return the string `bird`
 
 ```js
 assert(switchOfStuff('b') === 'bird');
 ```
 
-`switchOfStuff("c")` deve retornar a string `cat`
+`switchOfStuff("c")` should return the string `cat`
 
 ```js
 assert(switchOfStuff('c') === 'cat');
 ```
 
-`switchOfStuff("d")` deve retornar a string `stuff`
+`switchOfStuff("d")` should return the string `stuff`
 
 ```js
 assert(switchOfStuff('d') === 'stuff');
 ```
 
-`switchOfStuff(4)` deve retornar a string `stuff`
+`switchOfStuff(4)` should return the string `stuff`
 
 ```js
 assert(switchOfStuff(4) === 'stuff');
 ```
 
-Você não deve usar nenhuma instrução do tipo `if` ou `else`
+You should not use any `if` or `else` statements
 
 ```js
 assert(!/else/g.test(__helpers.removeJSComments(code)) || !/if/g.test(__helpers.removeJSComments(code)));
 ```
 
-Você deve usar a instrução `default`
+You should use a `default` statement
 
 ```js
 assert(switchOfStuff('string-to-trigger-default-case') === 'stuff');
 ```
 
-Você deve ter pelo menos 3 instruções `break`
+You should have at least 3 `break` statements
 
 ```js
 assert(__helpers.removeJSComments(code).match(/break/g).length > 2);

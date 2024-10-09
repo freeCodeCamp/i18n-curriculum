@@ -1,6 +1,6 @@
 ---
 id: 56533eb9ac21ba0edf2244ca
-title: Usar objetos para pesquisas
+title: Using Objects for Lookups
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cdBk8sM'
 forumTopicId: 18373
@@ -9,9 +9,9 @@ dashedName: using-objects-for-lookups
 
 # --description--
 
-Objetos podem ser pensados como armazenamento de chave/valor, como um dicionário. Se você tem um dado tabular, você pode usar um objeto para pesquisar valores ao invés de uma instrução `switch` ou uma cadeia de `if/else`. Isso é mais útil quando você sabe que o seu dado de entrada é limitado para um certo intervalo.
+Objects can be thought of as a key/value storage, like a dictionary. If you have tabular data, you can use an object to lookup values rather than a `switch` statement or an `if/else` chain. This is most useful when you know that your input data is limited to a certain range.
 
-Aqui está um exemplo de um objeto de artigo:
+Here is an example of an article object:
 
 ```js
 const article = {
@@ -30,63 +30,63 @@ const value = "title";
 const valueLookup = article[value];
 ```
 
-`articleAuthor` é a string `Kaashan Hussain`, `articleLink` é a string `https://www.freecodecamp.org/news/a-complete-guide-to-creating-objects-in-javascript-b0e2450655e8/` e `valueLookup` é a string `How to create objects in JavaScript`.
+`articleAuthor` is the string `Kaashan Hussain`, `articleLink` is the string `https://www.freecodecamp.org/news/a-complete-guide-to-creating-objects-in-javascript-b0e2450655e8/`, and `valueLookup` is the string `How to create objects in JavaScript`.
 
 # --instructions--
 
-Converta a instrução switch em um objeto chamado `lookup`. Use-o para pesquisar por `val` e atribua a string associada para a variável `result`.
+Convert the switch statement into an object called `lookup`. Use it to look up `val` and assign the associated string to the `result` variable.
 
 # --hints--
 
-`phoneticLookup("alpha")` deve ser igual a string `Adams`
+`phoneticLookup("alpha")` should equal the string `Adams`
 
 ```js
 assert(phoneticLookup('alpha') === 'Adams');
 ```
 
-`phoneticLookup("bravo")` deve ser igual a string `Boston`
+`phoneticLookup("bravo")` should equal the string `Boston`
 
 ```js
 assert(phoneticLookup('bravo') === 'Boston');
 ```
 
-`phoneticLookup("charlie")` deve ser igual a string `Chicago`
+`phoneticLookup("charlie")` should equal the string `Chicago`
 
 ```js
 assert(phoneticLookup('charlie') === 'Chicago');
 ```
 
-`phoneticLookup("delta")` deve ser igual a string `Denver`
+`phoneticLookup("delta")` should equal the string `Denver`
 
 ```js
 assert(phoneticLookup('delta') === 'Denver');
 ```
 
-`phoneticLookup("echo")` deve ser igual a string `Easy`
+`phoneticLookup("echo")` should equal the string `Easy`
 
 ```js
 assert(phoneticLookup('echo') === 'Easy');
 ```
 
-`phoneticLookup("foxtrot")` deve ser igual a string `Frank`
+`phoneticLookup("foxtrot")` should equal the string `Frank`
 
 ```js
 assert(phoneticLookup('foxtrot') === 'Frank');
 ```
 
-`phoneticLookup("")` deve ser igual a `undefined`
+`phoneticLookup("")` should equal `undefined`
 
 ```js
 assert(typeof phoneticLookup('') === 'undefined');
 ```
 
-Você não deve modificar a instrução `return`
+You should not modify the `return` statement
 
 ```js
 assert(__helpers.removeJSComments(code).match(/return\sresult;/));
 ```
 
-Você não deve usar as instruções `case`, `switch` ou `if`
+You should not use `case`, `switch`, or `if` statements
 
 ```js
 assert(

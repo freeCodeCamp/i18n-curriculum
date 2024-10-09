@@ -1,6 +1,6 @@
 ---
 id: 587d7dbf367417b2b2512bba
-title: Використайте @each, щоб переглянути елементи списку
+title: Use @each to Map Over Items in a List
 challengeType: 0
 forumTopicId: 301461
 dashedName: use-each-to-map-over-items-in-a-list
@@ -8,7 +8,7 @@ dashedName: use-each-to-map-over-items-in-a-list
 
 # --description--
 
-У попередньому завданні ми побачили, як директива `@for` використовує початкове та кінцеве значення, щоб виконати цикл певну кількість разів. Sass також пропонує директиву `@each`, яка перебирає кожен елемент в списку або на карті. На кожній ітерації змінній присвоюється поточне значення зі списку або карти.
+The last challenge showed how the `@for` directive uses a starting and ending value to loop a certain number of times. Sass also offers the `@each` directive which loops over each item in a list or map. On each iteration, the variable gets assigned to the current value from the list or map.
 
 ```scss
 @each $color in blue, red, green {
@@ -16,7 +16,7 @@ dashedName: use-each-to-map-over-items-in-a-list
 }
 ```
 
-У карти трохи інший синтаксис. Ось приклад:
+A map has slightly different syntax. Here's an example:
 
 ```scss
 $colors: (color1: blue, color2: red, color3: green);
@@ -26,7 +26,7 @@ $colors: (color1: blue, color2: red, color3: green);
 }
 ```
 
-Зверніть увагу, що змінна `$key` необхідна для посилання на ключі карти. В іншому випадку скомпільований CSS містив би `color1`, `color2`… Обидва наведені вище приклади коду перетворені в наступний CSS:
+Note that the `$key` variable is needed to reference the keys in the map. Otherwise, the compiled CSS would have `color1`, `color2`... in it. Both of the above code examples are converted into the following CSS:
 
 ```scss
 .blue-text {
@@ -44,29 +44,29 @@ $colors: (color1: blue, color2: red, color3: green);
 
 # --instructions--
 
-Напишіть директиву `@each`, яка проходить список `blue, black, red` та присвоює кожну змінну до класу `.color-bg`, де `color` змінюється на відповідний колір кожного елемента. До того ж кожен клас має встановити `background-color` на відповідний колір.
+Write an `@each` directive that goes through a list: `blue, black, red` and assigns each variable to a `.color-bg` class, where the `color` part changes for each item to the respective color. Each class should set the `background-color` to the respective color as well.
 
 # --hints--
 
-Ваш код має використати директиву `@each`.
+Your code should use the `@each` directive.
 
 ```js
 assert(code.match(/@each /g));
 ```
 
-Клас `.blue-bg` повинен мати синій `background-color`.
+Your `.blue-bg` class should have a `background-color` of blue.
 
 ```js
 assert($('.blue-bg').css('background-color') == 'rgb(0, 0, 255)');
 ```
 
-Клас `.black-bg` повинен мати чорний `background-color`.
+Your `.black-bg` class should have a `background-color` of black.
 
 ```js
 assert($('.black-bg').css('background-color') == 'rgb(0, 0, 0)');
 ```
 
-Клас `.red-bg` повинен мати червоний `background-color`.
+Your `.red-bg` class should have a `background-color` of red.
 
 ```js
 assert($('.red-bg').css('background-color') == 'rgb(255, 0, 0)');

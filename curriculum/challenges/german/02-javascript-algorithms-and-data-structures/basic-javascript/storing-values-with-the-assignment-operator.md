@@ -1,6 +1,6 @@
 ---
 id: 56533eb9ac21ba0edf2244a8
-title: Speichern von Werten mit dem Zuweisungsoperator
+title: Storing Values with the Assignment Operator
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cEanysE'
 forumTopicId: 18310
@@ -9,36 +9,36 @@ dashedName: storing-values-with-the-assignment-operator
 
 # --description--
 
-In JavaScript kannst du mit dem <dfn>Zuweisungsoperator</dfn> (`=`) einen Wert in einer Variablen speichern.
+In JavaScript, you can store a value in a variable with the <dfn>assignment</dfn> operator (`=`).
 
 ```js
 myVariable = 5;
 ```
 
-Dies weist `myVariable` den `Number`-Wert `5` zu.
+This assigns the `Number` value `5` to `myVariable`.
 
-Wenn sich rechts vom Operator `=` Berechnungen befinden, werden diese durchgeführt, bevor der Wert der Variablen links vom Operator zugewiesen wird.
+If there are any calculations to the right of the `=` operator, those are performed before the value is assigned to the variable on the left of the operator.
 
 ```js
 var myVar;
 myVar = 5;
 ```
 
-Zunächst wird in diesem Code eine Variable mit dem Namen `myVar` erstellt. Danach weist der Code `5` zu `myVar` hinzu. Wenn nun `myVar` wieder im Code auftaucht, wird das Programm es so behandeln, als wäre es `5`.
+First, this code creates a variable named `myVar`. Then, the code assigns `5` to `myVar`. Now, if `myVar` appears again in the code, the program will treat it as if it is `5`.
 
 # --instructions--
 
-Weise den Wert `7` der Variablen `a` zu.
+Assign the value `7` to variable `a`.
 
 # --hints--
 
-Du solltest den Code oberhalb des vorgegebenen Kommentars nicht ändern.
+You should not change code above the specified comment.
 
 ```js
 assert(/var a;/.test(__helpers.removeJSComments(code)));
 ```
 
-`a` sollte einen Wert von 7 haben.
+`a` should have a value of 7.
 
 ```js
 assert(typeof a === 'number' && a === 7);

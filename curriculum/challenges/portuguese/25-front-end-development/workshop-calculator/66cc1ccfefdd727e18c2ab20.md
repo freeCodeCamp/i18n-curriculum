@@ -7,7 +7,7 @@ dashedName: step-14
 
 # --description--
 
-`calculateQuotient` parece estar funcionando corretamente, mas há um caso que você ainda não testou.
+Your `calculateQuotient` appears to be working correctly but there is one case that you have not tested yet.
 
 Adicione um `console.log` que chama a função `calculateQuotient` com os argumentos `3` e `0`.
 

@@ -8,44 +8,44 @@ dashedName: use-prototype-properties-to-reduce-duplicate-code
 
 # --description--
 
-نظرًا لأن `numLegs` سيكون لها نفس القيمة لجميع مثيلات `Bird`، لديك أساسا متغير مكرر `numLegs` داخل كل مثيل `Bird`.
+Since `numLegs` will probably have the same value for all instances of `Bird`, you essentially have a duplicated variable `numLegs` inside each `Bird` instance.
 
-وقد لا تكون هذه مشكلة عندما لا تكون هناك سوى حالتين، ولكن تخيل، إذا كانت هناك ملايين الحالات. سيكون ذلك الكثير من المتغيرات المتكررة.
+This may not be an issue when there are only two instances, but imagine if there are millions of instances. That would be a lot of duplicated variables.
 
-طريقة أفضل هي استخدام `prototype` الـ `Bird`. تتم مشاركة الخصائص في الـ `prototype` بين جميع مثيلات `Bird`. إليك كيفية إضافة `numLegs` إلى `Bird prototype`:
+A better way is to use the `prototype` of `Bird`. Properties in the `prototype` are shared among ALL instances of `Bird`. Here's how to add `numLegs` to the `Bird prototype`:
 
 ```js
 Bird.prototype.numLegs = 2;
 ```
 
-الآن جميع مثيلات `Bird` لديها خاصية `numLegs`.
+Now all instances of `Bird` have the `numLegs` property.
 
 ```js
 console.log(duck.numLegs);
 console.log(canary.numLegs);
 ```
 
-بما أن جميع ال instances تحتوي تلقائياً على الخصائص في الـ `prototype`، فكر في `prototype` كـ "وصفة" لإنشاء الـ objects. لاحظ أن الـ `prototype` لـ `duck` و `canary` هو جزء من constructor الـ`Bird` كـ `Bird.prototype`.
+Since all instances automatically have the properties on the `prototype`, think of a `prototype` as a "recipe" for creating objects. Note that the `prototype` for `duck` and `canary` is part of the `Bird` constructor as `Bird.prototype`.
 
 # --instructions--
 
-قم بإضافة خاصية `numLegs` إلى `prototype` الـ `Dog`
+Add a `numLegs` property to the `prototype` of `Dog`
 
 # --hints--
 
-`beagle` يجب أن يكون لديه خاصية `numLegs`.
+`beagle` should have a `numLegs` property.
 
 ```js
 assert(beagle.numLegs !== undefined);
 ```
 
-`beagle.numLegs` يجب أن يكون رقما.
+`beagle.numLegs` should be a number.
 
 ```js
 assert(typeof beagle.numLegs === 'number');
 ```
 
-`numLegs` يجب أن تكون خاصية `prototype` ليست خاصية خاصة (own property).
+`numLegs` should be a `prototype` property not an own property.
 
 ```js
 assert(beagle.hasOwnProperty('numLegs') === false);

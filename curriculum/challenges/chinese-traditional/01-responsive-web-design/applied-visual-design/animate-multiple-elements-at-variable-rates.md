@@ -1,6 +1,6 @@
 ---
 id: 587d78a8367417b2b2512ae6
-title: 以可變速率來給多個元素添加動畫
+title: Animate Multiple Elements at Variable Rates
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cnpWZc9'
 forumTopicId: 301042
@@ -9,17 +9,17 @@ dashedName: animate-multiple-elements-at-variable-rates
 
 # --description--
 
-在前面的關卡里，我們通過修改 `@keyframes` 改變了兩個相似動畫元素的頻率。 你也可以通過改變多個元素的 `animation-duration` 來達到同樣的效果。
+In the previous challenge, you changed the animation rates for two similarly animated elements by altering their `@keyframes` rules. You can achieve the same goal by manipulating the `animation-duration` of multiple elements.
 
-在代碼編輯器裏運行的動畫中，天空中有三顆以同樣頻率不停閃爍的星星。 你可以設置每一個星星的 `animation-duration` 屬性爲不同的值，以使其具有不同的閃爍頻率。
+In the animation running in the code editor, there are three stars in the sky that twinkle at the same rate on a continuous loop. To make them twinkle at different rates, you can set the `animation-duration` property to different values for each element.
 
 # --instructions--
 
-依次設置 class 爲 `star-1`、`star-2`、`star-3` 的元素的 `animation-duration` 爲 1s、0.9s、1.1s。
+Set the `animation-duration` of the elements with the classes `star-1`, `star-2`, and `star-3` to 1s, 0.9s, and 1.1s, respectively.
 
 # --hints--
 
-class 爲 `star-1` 的 `animation-duration` 屬性值應該 1s。
+The `animation-duration` property for the star with class `star-1` should remain at 1s.
 
 ```js
 const starOne = document.querySelector('.star-1');
@@ -27,7 +27,7 @@ const starOneStyle = window.getComputedStyle(starOne);
 assert.equal(starOneStyle?.animationDuration, '1s');
 ```
 
-class 爲 `star-2` 的 `animation-duration` 屬性值應該 0.9s。
+The `animation-duration` property for the star with class `star-2` should be 0.9s.
 
 ```js
 const starTwo = document.querySelector('.star-2');
@@ -35,7 +35,7 @@ const starTwoStyle = window.getComputedStyle(starTwo);
 assert.equal(starTwoStyle?.animationDuration , '0.9s');
 ```
 
-class 爲 `star-3` 的 `animation-duration` 屬性值應該 1.1s。
+The `animation-duration` property for the star with class `star-3` should be 1.1s.
 
 ```js
 const starThree = document.querySelector('.star-3');

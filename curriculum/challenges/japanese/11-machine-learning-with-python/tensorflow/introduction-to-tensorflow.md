@@ -1,6 +1,6 @@
 ---
 id: 5e8f2f13c4cdbe86b5c72d88
-title: TensorFlow 入門
+title: Introduction to TensorFlow
 challengeType: 11
 videoId: r9hRyGGjOgQ
 bilibiliIds:
@@ -18,19 +18,19 @@ The next few video lessons will reference [this Colab notebook](https://colab.re
 
 ## --text--
 
-次のうち、テンソルの型**ではない**ものはどれですか？
+Which of the following is **not** a type of tensor?
 
 ## --answers--
 
-変数
+Variable
 
 ---
 
-流動
+Flowing
 
 ---
 
-プレイスホルダー
+Placeholder
 
 ---
 
@@ -38,7 +38,7 @@ SparseTensor
 
 ---
 
-定数
+Constant
 
 ## --video-solution--
 

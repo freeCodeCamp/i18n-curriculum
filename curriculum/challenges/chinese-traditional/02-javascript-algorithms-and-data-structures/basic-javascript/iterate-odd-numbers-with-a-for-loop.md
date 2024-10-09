@@ -1,6 +1,6 @@
 ---
 id: 56104e9e514f539506016a5c
-title: 使用 For 循環遍歷數組的奇數
+title: Iterate Odd Numbers With a For Loop
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cm8n7T9'
 forumTopicId: 18212
@@ -9,9 +9,9 @@ dashedName: iterate-odd-numbers-with-a-for-loop
 
 # --description--
 
-對於循環，一次不必遞增一個。 通過更改我們的 `final-expression`，我們可以用偶數來計數。
+For loops don't have to iterate one at a time. By changing our `final-expression`, we can count by even numbers.
 
-初始化 `i = 0`，當 `i < 10` 的時候繼續循環。 `i += 2` 讓 `i` 每次循環之後增加 2。
+We'll start at `i = 0` and loop while `i < 10`. We'll increment `i` by 2 each loop with `i += 2`.
 
 ```js
 const ourArray = [];
@@ -21,21 +21,21 @@ for (let i = 0; i < 10; i += 2) {
 }
 ```
 
-`ourArray` 現在將包含 `[0, 2, 4, 6, 8]`。 改變計數器（`initialization`） ，這樣我們可以用奇數來遞增。
+`ourArray` will now contain `[0, 2, 4, 6, 8]`. Let's change our `initialization` so we can count by odd numbers.
 
 # --instructions--
 
-寫一個 `for` 循環，把從 1 到 9 的奇數添加到 `myArray`。
+Push the odd numbers from 1 through 9 to `myArray` using a `for` loop.
 
 # --hints--
 
-應該使用 `for` 循環。
+You should be using a `for` loop for this.
 
 ```js
 assert(/for\s*\([^)]+?\)/.test(__helpers.removeJSComments(code)));
 ```
 
-`myArray` 應該等於 `[1, 3, 5, 7, 9]`。
+`myArray` should equal `[1, 3, 5, 7, 9]`.
 
 ```js
 assert.deepEqual(myArray, [1, 3, 5, 7, 9]);

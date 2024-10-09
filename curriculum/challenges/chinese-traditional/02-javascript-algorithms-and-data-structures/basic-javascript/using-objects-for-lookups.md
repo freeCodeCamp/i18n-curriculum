@@ -1,6 +1,6 @@
 ---
 id: 56533eb9ac21ba0edf2244ca
-title: 使用對象進行查找
+title: Using Objects for Lookups
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cdBk8sM'
 forumTopicId: 18373
@@ -9,9 +9,9 @@ dashedName: using-objects-for-lookups
 
 # --description--
 
-對象和字典一樣，可以用來存儲鍵/值對。 如果數據是扁平的，你可以用對象來查找你想要的值，而不是鏈式使用 `switch` 或 `if/else` 語句。 當你知道你的輸入數據在某個範圍時，這種查找方式極爲有效。
+Objects can be thought of as a key/value storage, like a dictionary. If you have tabular data, you can use an object to lookup values rather than a `switch` statement or an `if/else` chain. This is most useful when you know that your input data is limited to a certain range.
 
-這是一個文章對象的示例：
+Here is an example of an article object:
 
 ```js
 const article = {
@@ -30,63 +30,63 @@ const value = "title";
 const valueLookup = article[value];
 ```
 
-`articleAuthor` 是字符串 `Kaashan Hussain`，`articleLink` 是字符串 `https://www.freecodecamp.org/news/a-complete-guide-to-creating-objects-in-javascript-b0e2450655e8/`，`valueLookup` 是字符串 `How to create objects in JavaScript`。
+`articleAuthor` is the string `Kaashan Hussain`, `articleLink` is the string `https://www.freecodecamp.org/news/a-complete-guide-to-creating-objects-in-javascript-b0e2450655e8/`, and `valueLookup` is the string `How to create objects in JavaScript`.
 
 # --instructions--
 
-把 switch 語句轉化爲對象 `lookup` 調用。 使用它來查找 `val` 屬性的值，並賦值給 `result` 變量。
+Convert the switch statement into an object called `lookup`. Use it to look up `val` and assign the associated string to the `result` variable.
 
 # --hints--
 
-`phoneticLookup("alpha")` 應該等於 `Adams`
+`phoneticLookup("alpha")` should equal the string `Adams`
 
 ```js
 assert(phoneticLookup('alpha') === 'Adams');
 ```
 
-`phoneticLookup("bravo")` 應該等於 `Boston`
+`phoneticLookup("bravo")` should equal the string `Boston`
 
 ```js
 assert(phoneticLookup('bravo') === 'Boston');
 ```
 
-`phoneticLookup("charlie")` 應該等於 `Chicago`
+`phoneticLookup("charlie")` should equal the string `Chicago`
 
 ```js
 assert(phoneticLookup('charlie') === 'Chicago');
 ```
 
-`phoneticLookup("delta")` 應該等於 `Denver`
+`phoneticLookup("delta")` should equal the string `Denver`
 
 ```js
 assert(phoneticLookup('delta') === 'Denver');
 ```
 
-`phoneticLookup("echo")` 應該等於 `Easy`
+`phoneticLookup("echo")` should equal the string `Easy`
 
 ```js
 assert(phoneticLookup('echo') === 'Easy');
 ```
 
-`phoneticLookup("foxtrot")` 應該等於字符串 `Frank`
+`phoneticLookup("foxtrot")` should equal the string `Frank`
 
 ```js
 assert(phoneticLookup('foxtrot') === 'Frank');
 ```
 
-`phoneticLookup("")` 應該等於 `undefined`。
+`phoneticLookup("")` should equal `undefined`
 
 ```js
 assert(typeof phoneticLookup('') === 'undefined');
 ```
 
-請不要修改 `return` 語句
+You should not modify the `return` statement
 
 ```js
 assert(__helpers.removeJSComments(code).match(/return\sresult;/));
 ```
 
-請不要使用 `case`、`switch`、`if` 語句
+You should not use `case`, `switch`, or `if` statements
 
 ```js
 assert(

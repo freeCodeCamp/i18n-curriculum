@@ -1,6 +1,6 @@
 ---
 id: 587d7b8d367417b2b2512b5b
-title: 學習函數式編程
+title: Learn About Functional Programming
 challengeType: 1
 forumTopicId: 301233
 dashedName: learn-about-functional-programming
@@ -8,31 +8,31 @@ dashedName: learn-about-functional-programming
 
 # --description--
 
-函數式編程是一種方案簡單、功能獨立、對作用域外沒有任何副作用的編程範式：`INPUT -> PROCESS -> OUTPUT`。
+Functional programming is a style of programming where solutions are simple, isolated functions, without any side effects outside of the function scope: `INPUT -> PROCESS -> OUTPUT`
 
-函數式編程：
+Functional programming is about:
 
-1）功能獨立——不依賴於程序的狀態（比如可能發生變化的全局變量）；
+1) Isolated functions - there is no dependence on the state of the program, which includes global variables that are subject to change
 
-2）純函數——同一個輸入永遠能得到同一個輸出；
+2) Pure functions - the same input always gives the same output
 
-3）有限的副作用——可以嚴格地限制函數外部對狀態的更改。
+3) Functions with limited side effects - any changes, or mutations, to the state of the program outside the function are carefully controlled
 
 # --instructions--
 
-freeCodeCamp 的成員們愛喝茶。
+The members of freeCodeCamp happen to love tea.
 
-在代碼編輯器中，已經爲你定義好了`prepareTea`和`getTea`函數。 調用 `getTea` 函數爲團隊準備 40 杯茶，並將它們存儲在 `tea4TeamFCC` 變量裏。
+In the code editor, the `prepareTea` and `getTea` functions are already defined for you. Call the `getTea` function to get 40 cups of tea for the team, and store them in the `tea4TeamFCC` variable.
 
 # --hints--
 
-`tea4TeamFCC` 變量裏應有 40 杯爲團隊準備的茶。
+The `tea4TeamFCC` variable should hold 40 cups of tea for the team.
 
 ```js
 assert(tea4TeamFCC.length === 40);
 ```
 
-`tea4TeamFCC` 變量裏應有幾杯 greenTea（綠茶）。
+The `tea4TeamFCC` variable should hold cups of green tea.
 
 ```js
 assert(tea4TeamFCC[0] === 'greenTea');

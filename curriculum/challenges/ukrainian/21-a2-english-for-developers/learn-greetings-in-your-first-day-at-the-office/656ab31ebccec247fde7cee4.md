@@ -1,6 +1,6 @@
 ---
 id: 656ab31ebccec247fde7cee4
-title: Завдання 63
+title: Task 63
 challengeType: 22
 dashedName: task-63
 ---
@@ -12,7 +12,7 @@ Tom: Oh, awesome. My computer and drawing tablet are great, too.
 
 # --description--
 
-Люди використовують `awesome`, коли говорять про щось, що їм дійсно подобається. Це те ж саме, що й `very good!`. Це неофіційний спосіб показати згоду або захоплення.
+`Awesome` is a word people use when they really like something. It's like saying `very good!` It's an informal way to show approval or admiration.
 
 # --fillInTheBlank--
 
@@ -26,7 +26,7 @@ Tom: Oh, awesome. My computer and drawing tablet are great, too.
 
 ### --feedback--
 
-Уважно послухайте, щоб почути слово, яке означає `very good` або `I really like it.`
+Listen for a word that means `very good` or `I really like it.`
 
 # --scene--
 

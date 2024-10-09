@@ -1,6 +1,6 @@
 ---
 id: 587d781a367417b2b2512ab7
-title: Utiliza la etiqueta strong para poner el texto en negrita
+title: Use the strong Tag to Make Text Bold
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/ceJNBSb'
 forumTopicId: 301080
@@ -9,21 +9,21 @@ dashedName: use-the-strong-tag-to-make-text-bold
 
 # --description--
 
-Para poner el texto en negrita, puedes usar la etiqueta `strong`. Esto se usa a menudo para llamar la atención sobre el texto y simbolizar que es importante. Con la etiqueta `strong`, el navegador aplica el CSS de `font-weight: bold;` al elemento.
+To make text bold, you can use the `strong` tag. This is often used to draw attention to text and symbolize that it is important. With the `strong` tag, the browser applies the CSS of `font-weight: bold;` to the element.
 
 # --instructions--
 
-Envuelve una etiqueta `strong` alrededor del texto `Stanford University` dentro de la etiqueta `p` (no incluyas el punto).
+Wrap a `strong` tag around the text `Stanford University` inside the `p` tag (do not include the period).
 
 # --hints--
 
-Tu código debe agregar una etiqueta `strong` al lenguaje de marcado.
+Your code should add one `strong` tag to the markup.
 
 ```js
 assert.lengthOf(document.querySelectorAll('strong'),1);
 ```
 
-La etiqueta `strong` debe estar dentro de la etiqueta `p`.
+The `strong` tag should be inside the `p` tag.
 
 ```js
 const pargraphElement = document.querySelector('p');
@@ -31,7 +31,7 @@ const pargraphChildren = pargraphElement?.querySelectorAll(`:scope ${'strong'}`)
 assert.lengthOf(pargraphChildren, 1);
 ```
 
-La etiqueta `strong` debe envolver el texto `Stanford University`.
+The `strong` tag should wrap around the words `Stanford University`.
 
 ```js
 assert.match(document.querySelector('strong')?.textContent, /^Stanford University\.?$/gi);

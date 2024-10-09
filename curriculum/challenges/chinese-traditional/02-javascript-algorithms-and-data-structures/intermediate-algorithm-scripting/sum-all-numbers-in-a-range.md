@@ -1,6 +1,6 @@
 ---
 id: a3566b1109230028080c9345
-title: 範圍內的數字求和
+title: Sum All Numbers in a Range
 challengeType: 1
 forumTopicId: 16083
 dashedName: sum-all-numbers-in-a-range
@@ -8,37 +8,37 @@ dashedName: sum-all-numbers-in-a-range
 
 # --description--
 
-我們會傳入一個由兩個數字組成的數組。 給出一個含有兩個數字的數組，我們需要寫一個函數，讓它返回這兩個數字間所有數字（包含這兩個數字）的總和。 最低的數字並不總是第一位。
+We'll pass you an array of two numbers. Return the sum of those two numbers plus the sum of all the numbers between them. The lowest number will not always come first.
 
-例如，`sumAll([4,1])` 應返回 `10`，因爲從 1 到 4（包含 1、4）的所有數字的和是 `10`。
+For example, `sumAll([4,1])` should return `10` because sum of all the numbers between 1 and 4 (both inclusive) is `10`.
 
 # --hints--
 
-`sumAll([1, 4])` 應返回一個數字。
+`sumAll([1, 4])` should return a number.
 
 ```js
 assert(typeof sumAll([1, 4]) === 'number');
 ```
 
-`sumAll([1, 4])` 應返回 10。
+`sumAll([1, 4])` should return 10.
 
 ```js
 assert.deepEqual(sumAll([1, 4]), 10);
 ```
 
-`sumAll([4, 1])` 應返回 10。
+`sumAll([4, 1])` should return 10.
 
 ```js
 assert.deepEqual(sumAll([4, 1]), 10);
 ```
 
-`sumAll([5, 10])` 應返回 45。
+`sumAll([5, 10])` should return 45.
 
 ```js
 assert.deepEqual(sumAll([5, 10]), 45);
 ```
 
-`sumAll([10, 5])` 應返回 45。
+`sumAll([10, 5])` should return 45.
 
 ```js
 assert.deepEqual(sumAll([10, 5]), 45);

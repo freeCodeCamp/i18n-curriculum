@@ -1,22 +1,21 @@
----
 id: 5e44431b903586ffb414c951
-title: Python による科学計算認定証
+title: Scientific Computing with Python Certification
 certification: scientific-computing-with-python
 challengeType: 7
 isPrivate: true
 tests:
   - 
     id: 5e44412c903586ffb414c94c
-    title: 計算の縦書き整形プログラム
+    title: Arithmetic Formatter
   - 
     id: 5e444136903586ffb414c94d
-    title: 時刻計算プログラム
+    title: Time Calculator
   - 
     id: 5e44413e903586ffb414c94e
-    title: 予算アプリ
+    title: Budget App
   - 
     id: 5e444147903586ffb414c94f
-    title: 四角形の面積計算プログラム
+    title: Polygon Area Calculator
   - 
     id: 5e44414f903586ffb414c950
-    title: 確率計算プログラム
+    title: Probability Calculator

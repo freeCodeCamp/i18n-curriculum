@@ -1,7 +1,7 @@
 ---
 id: 587d7fac367417b2b2512bdc
 title: >-
-  Використайте функції d3.max та d3.min, щоб знайти мінімальне та максимальне значення в наборі даних
+  Use the d3.max and d3.min Functions to Find Minimum and Maximum Values in a Dataset
 challengeType: 6
 forumTopicId: 301496
 dashedName: >-
@@ -10,11 +10,11 @@ dashedName: >-
 
 # --description--
 
-Методи `domain()` та `range()` від D3 встановлюють інформацію для шкали на основі даних. Існує декілька методів, які полегшують це завдання.
+The D3 methods `domain()` and `range()` set that information for your scale based on the data. There are a couple methods to make that easier.
 
-При встановленні домену часто потрібно використати мінімальне та максимальне значення у наборі даних. Однак пошук значень вручну може призвести до помилок, особливо при роботі з великими наборами даних.
+Often when you set the domain, you'll want to use the minimum and maximum values within the data set. Trying to find these values manually, especially in a large data set, may cause errors.
 
-D3 має два методи: `min()` та `max()`, щоб повернути цю інформацію. Наприклад:
+D3 has two methods - `min()` and `max()` to return this information. Here's an example:
 
 ```js
 const exampleData = [34, 234, 73, 90, 6, 52];
@@ -22,28 +22,28 @@ d3.min(exampleData)
 d3.max(exampleData)
 ```
 
-Набір даних може містити вкладені масиви, як-от пари координат `[x, y]`, які були в прикладі точкової діаграми. У цьому випадку потрібно повідомити D3, як обчислити максимальне та мінімальне значення. На щастя, обидва методи `min()` та `max()` приймають функцію зворотного виклику. У цьому прикладі, аргумент функції зворотного виклику `d` призначений для поточного внутрішнього масиву. Зворотний виклик має повернути елемент з внутрішнього масиву (значення `x` або `y`), у якому потрібно обчислити максимальне чи мінімальне значення. Ось приклад, як знайти мінімальне та максимальне значення з масивом масивів:
+A dataset may have nested arrays, like the `[x, y]` coordinate pairs that were in the scatter plot example. In that case, you need to tell D3 how to calculate the maximum and minimum. Fortunately, both the `min()` and `max()` methods take a callback function. In this example, the callback function's argument `d` is for the current inner array. The callback needs to return the element from the inner array (the `x` or `y` value) over which you want to compute the maximum or minimum. Here's an example for how to find the min and max values with an array of arrays:
 
 ```js
 const locationData = [[1, 7],[6, 3],[8, 3]];
 const minX = d3.min(locationData, (d) => d[0]);
 ```
 
-`minX` матиме значення `1`.
+`minX` would have the value `1`.
 
 # --instructions--
 
-Масив `positionData` містить вкладені масиви координат x, y та z. Використайте метод D3, щоб знайти максимальне значення координати z (третє значення) з масивів та збережіть його в змінній `output`.
+The `positionData` array holds sub arrays of x, y, and z coordinates. Use a D3 method to find the maximum value of the z coordinate (the third value) from the arrays and save it in the `output` variable.
 
 # --hints--
 
-Текстом елемента `h2` має бути `8`.
+The text in the `h2` should be `8`.
 
 ```js
 assert(output == 8 && $('h2').text() == '8');
 ```
 
-Код має використати метод `max()`.
+Your code should use the `max()` method.
 
 ```js
 assert(

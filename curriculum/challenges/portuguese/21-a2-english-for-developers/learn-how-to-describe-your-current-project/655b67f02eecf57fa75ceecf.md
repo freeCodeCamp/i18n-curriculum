@@ -1,6 +1,6 @@
 ---
 id: 655b67f02eecf57fa75ceecf
-title: Tarefa 8
+title: Task 8
 challengeType: 22
 dashedName: task-8
 ---
@@ -9,7 +9,7 @@ dashedName: task-8
 
 # --description--
 
-`Stay` is used to indicate remaining in a particular state or condition. It's often used in instructions or advice to keep oneself in a certain situation. Por exemplo:
+`Stay` is used to indicate remaining in a particular state or condition. It's often used in instructions or advice to keep oneself in a certain situation. For example:
 
 `Stay safe online` (continue being safe while using the internet)
 
@@ -20,11 +20,11 @@ dashedName: task-8
 
 # --fillInTheBlank--
 
-## --frase--
+## --sentence--
 
 `That's important work. I'm BLANK our team learn how to BLANK safe online.`
 
-## --espaços em branco--
+## --blanks--
 
 `helping`
 

@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aeda08826
-title: jQuery を使用してターゲットの要素を id で指定する
+title: Target Elements by id Using jQuery
 challengeType: 6
 forumTopicId: 18317
 required:
@@ -11,15 +11,15 @@ dashedName: target-elements-by-id-using-jquery
 
 # --description--
 
-ターゲットの要素を id 属性で指定することもできます。
+You can also target elements by their id attributes.
 
-まず、`$("#target3")` セレクターを使用して、id `target3` を持つ `button` 要素をターゲットとして選択してください。
+First target your `button` element with the id `target3` by using the `$("#target3")` selector.
 
-CSS 宣言と同様に、id 名の前に `#` を入力することに注意してください。
+Note that, just like with CSS declarations, you type a `#` before the id's name.
 
-次に、jQuery の `.addClass()` 関数を使用して、クラス `animated` と `fadeOut` を追加してください。
+Then use jQuery's `.addClass()` function to add the classes `animated` and `fadeOut`.
 
-id `target6` を持つ `button` 要素をフェードアウトさせる方法を次に示します。
+Here's how you'd make the `button` element with the id `target6` fade out:
 
 ```js
 $("#target6").addClass("animated fadeOut");
@@ -27,13 +27,13 @@ $("#target6").addClass("animated fadeOut");
 
 # --hints--
 
-`id` が `target3` の `button` 要素を選択し、jQuery の `addClass()` 関数を使用してクラス `animated` を付けます。
+You should select the `button` element with the `id` of `target3` and use the jQuery `addClass()` function to give it the class of `animated`.
 
 ```js
 assert($('#target3').hasClass('animated'));
 ```
 
-id が `target3` の要素をターゲットとして選択し、jQuery の `addClass()` 関数を使用してクラス `fadeOut` を適用します。
+You should target the element with the id `target3` and use the jQuery `addClass()` function to give it the class `fadeOut`.
 
 ```js
 assert(
@@ -42,7 +42,7 @@ assert(
 );
 ```
 
-jQuery のみを使用して、これらのクラスを要素に追加してください。
+You should only use jQuery to add these classes to the element.
 
 ```js
 assert(!code.match(/class.*animated/g));

@@ -1,6 +1,6 @@
 ---
 id: 587d7b89367417b2b2512b49
-title: Usar atribuição de desestruturação para atribuir variáveis de objetos
+title: Use Destructuring Assignment to Assign Variables from Objects
 challengeType: 1
 forumTopicId: 301215
 dashedName: use-destructuring-assignment-to-assign-variables-from-objects
@@ -8,29 +8,29 @@ dashedName: use-destructuring-assignment-to-assign-variables-from-objects
 
 # --description--
 
-Desestruturar o permite atribuir um novo nome de variável quando extrair valores. Você pode fazer isso ao colocar o novo nome após dois pontos quando atribuir o valor.
+Destructuring allows you to assign a new variable name when extracting values. You can do this by putting the new name after a colon when assigning the value.
 
-Usando o mesmo objeto do exemplo anterior:
+Using the same object from the last example:
 
 ```js
 const user = { name: 'John Doe', age: 34 };
 ```
 
-Aqui está como você pode dar novos nomes a variáveis na atribuição:
+Here's how you can give new variable names in the assignment:
 
 ```js
 const { name: userName, age: userAge } = user;
 ```
 
-Você pode lê-lo como "pegue o valor de `user.name` e atribua-o a uma nova variável chamada `userName`" e assim em diante. O valor de `userName` seria a string `John Doe` e o valor de `userAge` seria o número `34`.
+You may read it as "get the value of `user.name` and assign it to a new variable named `userName`" and so on. The value of `userName` would be the string `John Doe`, and the value of `userAge` would be the number `34`.
 
 # --instructions--
 
-Substitua as duas atribuições com uma atribuição de desestruturação equivalente. Ainda deve ser atribuído às variáveis `highToday` e `highTomorrow` os valores de `today` e `tomorrow` do objeto `HIGH_TEMPERATURES`.
+Replace the two assignments with an equivalent destructuring assignment. It should still assign the variables `highToday` and `highTomorrow` the values of `today` and `tomorrow` from the `HIGH_TEMPERATURES` object.
 
 # --hints--
 
-Você deve remover a sintaxe da atribuição ES5.
+You should remove the ES5 assignment syntax.
 
 ```js
 assert(
@@ -39,7 +39,7 @@ assert(
 );
 ```
 
-Você deve usar desestruturação para criar a variável `highToday`.
+You should use destructuring to create the `highToday` variable.
 
 ```js
 assert(
@@ -49,7 +49,7 @@ assert(
 );
 ```
 
-Você deve usar desestruturação para criar a variável `highTomorrow`.
+You should use destructuring to create the `highTomorrow` variable.
 
 ```js
 assert(
@@ -59,7 +59,7 @@ assert(
 );
 ```
 
-`highToday` deve ser igual a `77` e `highTomorrow` deve ser igual a `80`.
+`highToday` should be equal to `77` and `highTomorrow` should be equal to `80`.
 
 ```js
 assert(highToday === 77 && highTomorrow === 80);

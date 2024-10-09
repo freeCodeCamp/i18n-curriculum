@@ -1,6 +1,6 @@
 ---
 id: 589fc832f9fc0f352b528e79
-title: Invia e visualizza messaggi di chat
+title: Send and Display Chat Messages
 challengeType: 2
 forumTopicId: 301562
 dashedName: send-and-display-chat-messages
@@ -8,7 +8,7 @@ dashedName: send-and-display-chat-messages
 
 # --description--
 
-È ora di iniziare a consentire ai client di inviare un messaggio di chat al server da inviare a tutti i client! Nel tuo file `client.js`, dovresti vedere che c'è già un blocco di codice che gestisce quando il modulo invia il messaggio.
+It's time you start allowing clients to send a chat message to the server to emit to all the clients! In your `client.js` file, you should see there is already a block of code handling when the message form is submitted.
 
 ```js
 $('form').submit(function() {
@@ -16,23 +16,23 @@ $('form').submit(function() {
 });
 ```
 
-All'interno del codice di invio del modulo, dovresti emettere un evento dopo aver definito `messageToSend` ma prima di cancellare la casella di testo `#m`. L'evento dovrebbe essere chiamato `'chat message'` e i dati dovrebbero essere solo `messageToSend`.
+Within the form submit code, you should emit an event after you define `messageToSend` but before you clear the text box `#m`. The event should be named `'chat message'` and the data should just be `messageToSend`.
 
 ```js
 socket.emit('chat message', messageToSend);
 ```
 
-Ora, sul tuo server, si dovrebbe ascoltare il socket in attesa dell'evento `'chat message'` con i dati chiamati `message`. Una volta ricevuto l'evento, dovrebbe emettere l'evento `'chat message'` a tutti i socket usando `io.emit`, inviando un oggetto dati contenente `username` e `message`.
+Now, on your server, you should be listening to the socket for the event `'chat message'` with the data being named `message`. Once the event is received, it should emit the event `'chat message'` to all sockets using `io.emit`, sending a data object containing the `username` and `message`.
 
-In `client.js`, dovresti ora rimanere in ascolto per l'evento `'chat message'` e, quando ricevuto, aggiungi un elemento di lista a `#messages` con lo username, due punti e il messaggio!
+In `client.js`, you should now listen for event `'chat message'` and, when received, append a list item to `#messages` with the username, a colon, and the message!
 
-A questo punto, la chat dovrebbe essere completamente funzionante e in grado di inviare messaggi attraverso tutti i client!
+At this point, the chat should be fully functional and sending messages across all clients!
 
-Invia la tua pagina quando pensi di averlo fatto correttamente. Se incontri degli errori, puoi vedere <a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#send-and-display-chat-messages-11" target="_blank" rel="noopener noreferrer nofollow">il progetto completato fino a questo punto</a>.
+Submit your page when you think you've got it right. If you're running into errors, you can <a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#send-and-display-chat-messages-11" target="_blank" rel="noopener noreferrer nofollow">check out the project completed up to this point</a>.
 
 # --hints--
 
-Il server dovrebbe rimanere in ascolto di `'chat message'` ed emetterlo correttamente.
+Server should listen for `'chat message'` and then emit it properly.
 
 ```js
 async (getUserInput) => {
@@ -47,7 +47,7 @@ async (getUserInput) => {
 }
 ```
 
-Il client dovrebbe gestire e visualizzare correttamente i nuovi dati dall'evento `'chat message'`.
+Client should properly handle and display the new data from event `'chat message'`.
 
 ```js
 async (getUserInput) => {

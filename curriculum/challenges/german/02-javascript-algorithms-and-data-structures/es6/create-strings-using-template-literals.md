@@ -1,6 +1,6 @@
 ---
 id: 587d7b8a367417b2b2512b4e
-title: Strings mit Template-Literalen erstellen
+title: Create Strings using Template Literals
 challengeType: 1
 forumTopicId: 301200
 dashedName: create-strings-using-template-literals
@@ -8,11 +8,11 @@ dashedName: create-strings-using-template-literals
 
 # --description--
 
-Eine neue Funktion von ES6 ist das <dfn>Template-Literal</dfn>. Dies ist eine besondere Art von String, die das Erstellen komplexer Strings erleichtert.
+A new feature of ES6 is the <dfn>template literal</dfn>. This is a special type of string that makes creating complex strings easier.
 
-Mit Template-Literalen kannst du mehrzeilige Strings erstellen und String-Interpolationsfunktionen verwenden, um Strings zu erstellen.
+Template literals allow you to create multi-line strings and to use string interpolation features to create strings.
 
-Schau dir den folgenden Code an:
+Consider the code below:
 
 ```js
 const person = {
@@ -26,15 +26,15 @@ I am ${person.age} years old.`;
 console.log(greeting);
 ```
 
-Die Konsole zeigt die Strings `Hello, my name is Zodiac Hasbro!` und `I am 56 years old.` an.
+The console will display the strings `Hello, my name is Zodiac Hasbro!` and `I am 56 years old.`.
 
-Dort sind eine Menge Dinge passiert. Erstens verwendet das Beispiel Backticks (`` ` ``) und keine Anführungszeichen (`'` oder `"`), um den String einzuschließen. Zweitens: Beachte, dass der String mehrzeilig ist, sowohl im Code als auch in der Ausgabe. Das erspart das Einfügen von `\n` innerhalb von Strings. Die oben verwendete Syntax `${variable}` ist ein Platzhalter. Im Grunde musst du die Verkettung mit dem Operator `+` nicht mehr verwenden. Um Variablen zu Strings hinzuzufügen, fügst du die Variable einfach in einen Template-String ein und umschließt sie mit `${` und `}`. Du kannst auch andere Ausdrücke in dein Stringliteral einfügen, zum Beispiel `${a + b}`. Diese neue Art, Strings zu erstellen, gibt dir mehr Flexibilität, um robuste Strings zu erstellen.
+A lot of things happened there. Firstly, the example uses backticks (`` ` ``), not quotes (`'` or `"`), to wrap the string. Secondly, notice that the string is multi-line, both in the code and the output. This saves inserting `\n` within strings. The `${variable}` syntax used above is a placeholder. Basically, you won't have to use concatenation with the `+` operator anymore. To add variables to strings, you just drop the variable in a template string and wrap it with `${` and `}`. Similarly, you can include other expressions in your string literal, for example `${a + b}`. This new way of creating strings gives you more flexibility to create robust strings.
 
 # --instructions--
 
-Verwende die Template-Literal-Syntax mit Backticks, um ein Array aus Listenelementen (`li`) zu erstellen. Der Text jedes Listenelements sollte eines der Array-Elemente aus der `failure`-Eigenschaft des Objekts `result` sein und ein `class`-Attribut mit dem Wert `text-warning` haben. Die Funktion `makeList` sollte das Array mit den Strings der Listenelemente zurückgeben.
+Use template literal syntax with backticks to create an array of list element (`li`) strings. Each list element's text should be one of the array elements from the `failure` property on the `result` object and have a `class` attribute with the value `text-warning`. The `makeList` function should return the array of list item strings.
 
-Verwende eine Iterationsmethode (jede Art von Schleife), um die gewünschte Ausgabe zu erhalten (siehe unten).
+Use an iterator method (any kind of loop) to get the desired output (shown below).
 
 ```js
 [
@@ -46,7 +46,7 @@ Verwende eine Iterationsmethode (jede Art von Schleife), um die gewünschte Ausg
 
 # --hints--
 
-`failuresList` sollte ein Array sein, das `result failure` Meldungen enthält.
+`failuresList` should be an array containing `result failure` messages.
 
 ```js
 assert(
@@ -54,7 +54,7 @@ assert(
 );
 ```
 
-`failuresList` sollte gleich der angegebenen Ausgabe sein.
+`failuresList` should be equal to the specified output.
 
 ```js
 assert(
@@ -66,13 +66,13 @@ assert(
 );
 ```
 
-Es sollten Template-Strings und die Interpolation von Ausdrücken verwendet werden.
+Template strings and expression interpolation should be used.
 
 ```js
 assert.match(code, /(`.*\${.*}.*`)/);
 ```
 
-Es sollte ein Iterator verwendet werden.
+An iterator should be used.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/for|map|reduce|forEach|while/));

@@ -1,6 +1,6 @@
 ---
 id: 587d7dbd367417b2b2512bb6
-title: Створіть багаторазовий CSS за допомогою міксинів
+title: Create Reusable CSS with Mixins
 challengeType: 0
 forumTopicId: 301455
 dashedName: create-reusable-css-with-mixins
@@ -8,7 +8,7 @@ dashedName: create-reusable-css-with-mixins
 
 # --description--
 
-<dfn>Міксин</dfn> у Sass — це група оголошень CSS, які можна повторно використовувати у таблиці стилів. Визначення починається з директиви `@mixin`, після якої пишуть назву. Ви застосовуєте міксин за допомогою директиви `@include`.
+In Sass, a <dfn>mixin</dfn> is a group of CSS declarations that can be reused throughout the style sheet. The definition starts with the `@mixin` at-rule, followed by a custom name. You apply the mixin using the `@include` at-rule.
 
 ```scss
 @mixin reset-list {
@@ -22,7 +22,7 @@ nav ul {
 }
 ```
 
-Компілюється у:
+Compiles to:
 
 ```css
 nav ul {
@@ -32,7 +32,7 @@ nav ul {
 }
 ```
 
-Міксини також можуть приймати аргументи, що дозволяє налаштувати їхню поведінку. Аргументи потрібні під час використання міксину.
+Your mixins can also take arguments, which allows their behavior to be customized. The arguments are required when using the mixin.
 
 ```scss
 @mixin prose($font-size, $spacing) {
@@ -50,7 +50,7 @@ h2 {
 }
 ```
 
-Аргументи можна зробити необов’язковими, надавши параметрам значення за замовчуванням.
+You can make arguments optional by giving the parameters default values.
 
 ```scss
 @mixin text-color($color: black) {
@@ -68,49 +68,49 @@ nav a {
 
 # --instructions--
 
-Напишіть міксин під назвою `shape` і надайте йому 3 параметри: `$w`, `$h` та `$bg-color`.
+Write a mixin named `shape` and give it 3 parameters: `$w`, `$h`, and `$bg-color`.
 
-Використайте міксин `shape`, щоб надати елементу `#square` ширину та висоту зі значенням `50px` і червоний колір фону (`red`). До елемента `#rect-a` додайте ширину `100px`, висоту `50px` та блакитний колір фону (`blue`). Вкінці до елемента `#rect-b` додайте ширину `50px`, висоту `100px` та оранжевий колір фону (`orange`).
+Use the `shape` mixin to give the `#square` element a width and height of `50px`, and the background color `red`. For the `#rect-a` element add a width of `100px`, a height of `50px`, and the background color `blue`. Finally, for the `#rect-b` element add a width of `50px`, a height of `100px`, and the background color `orange`.
 
 # --hints--
 
-Оголосіть міксин під назвою `shape` із 3 параметрами: `$w`, `$h` та `$bg-color`.
+You should declare a mixin named `shape` with 3 parameters: `$w`, `$h`, and `$bg-color`.
 
 ```js
 assert.match(code, /@mixin\s+shape\s*\(\s*\$w,\s*\$h,\s*\$bg-color\s*\)\s*{/gi);
 ```
 
-Міксин має містити властивість `width`, яка використовує параметр `$w`.
+Your mixin should include a `width` property that uses the `$w` parameter.
 
 ```js
 assert.match(__helpers.removeWhiteSpace(code), /width:\$w;/gi);
 ```
 
-Міксин має містити властивість `height`, яка використовує параметр `$h`.
+Your mixin should include a `height` property that uses the `$h` parameter.
 
 ```js
 assert.match(__helpers.removeWhiteSpace(code), /height:\$h;/gi);
 ```
 
-Міксин має містити властивість `background-color`, яка використовує параметр `$bg-color`.
+Your mixin should include a `background-color` property that uses the `$bg-color` parameter.
 
 ```js
 assert.match(__helpers.removeWhiteSpace(code), /background-color:\$bg\-color;/gi);
 ```
 
-Замініть стилі всередині селектора `#square` на виклик міксину `shape` за допомогою ключового слова `@include`. Встановіть ширину та висоту на `50px`, а колір фону — на `red`.
+You should replace the styles inside the `#square` selector with a call to the `shape` mixin using the `@include` keyword. Setting a width and height of `50px`, and the background color `red`.
 
 ```js
 assert.match(code, /#square\s*{\s*@include\s+shape\s*\(\s*50px\s*,\s*50px\s*,\s*red\s*\)\s*;\s*}/gi);
 ```
 
-Замініть стилі всередині селектора `#rect-a` на виклик міксину `shape` за допомогою ключового слова `@include`. Встановіть ширину на `100px`, висоту — на `50px`, а колір фону — на `blue`.
+You should replace the styles inside the `#rect-a` selector with a call to the `shape` mixin using the `@include` keyword. Setting a width of `100px`, a height of `50px`, and the background color `blue`.
 
 ```js
 assert.match(code, /#rect-a\s*{\s*@include\s+shape\s*\(\s*100px\s*,\s*50px\s*,\s*blue\s*\)\s*;\s*}/gi);
 ```
 
-Замініть стилі всередині селектора `#rect-b` на виклик міксину `shape` за допомогою ключового слова `@include`. Встановіть ширину на `50px`, висоту — на `100px`, а колір фону — на `orange`.
+You should replace the styles inside the `#rect-b` selector with a call to the `shape` mixin using the `@include` keyword. Setting a width of `50px`, a height of `100px`, and the background color `orange`.
 
 ```js
 assert.match(code, /#rect-b\s*{\s*@include\s+shape\s*\(\s*50px\s*,\s*100px\s*,\s*orange\s*\)\s*;\s*}/gi);

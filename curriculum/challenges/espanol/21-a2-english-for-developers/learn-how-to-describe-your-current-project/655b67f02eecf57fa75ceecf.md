@@ -9,7 +9,7 @@ dashedName: task-8
 
 # --description--
 
-`Stay` is used to indicate remaining in a particular state or condition. It's often used in instructions or advice to keep oneself in a certain situation. Por ejemplo:
+`Stay` is used to indicate remaining in a particular state or condition. It's often used in instructions or advice to keep oneself in a certain situation. For example:
 
 `Stay safe online` (continue being safe while using the internet)
 
@@ -20,15 +20,15 @@ dashedName: task-8
 
 # --fillInTheBlank--
 
-## Frases
+## --sentence--
 
 `That's important work. I'm BLANK our team learn how to BLANK safe online.`
 
-## Palabra correcta
+## --blanks--
 
 `helping`
 
-### --retroalimentación--
+### --feedback--
 
 This word indicates that Sophie is actively providing assistance or support to her team. It is in the gerund form `-ing`
 
@@ -36,7 +36,7 @@ This word indicates that Sophie is actively providing assistance or support to h
 
 `stay`
 
-### --retroalimentación--
+### --feedback--
 
 This word is used to suggest maintaining a certain state, in this case, being safe while online.
 

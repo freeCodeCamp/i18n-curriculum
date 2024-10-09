@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aeda08826
-title: Націльте елементи за id за допомогою jQuiery
+title: Target Elements by id Using jQuery
 challengeType: 6
 forumTopicId: 18317
 required:
@@ -11,15 +11,15 @@ dashedName: target-elements-by-id-using-jquery
 
 # --description--
 
-Ви також можете націлити елементи за їхніми атрибутами id.
+You can also target elements by their id attributes.
 
-Спочатку націльте елемент `button` з id зі значенням `target3`, використавши селектор `$("#target3")`.
+First target your `button` element with the id `target3` by using the `$("#target3")` selector.
 
-Зверніть увагу: як і в оголошеннях CSS, перед назвою id потрібно ставити `#`.
+Note that, just like with CSS declarations, you type a `#` before the id's name.
 
-Потім використайте функцію `.addClass()`, щоб додати класи `animated` та `fadeOut`.
+Then use jQuery's `.addClass()` function to add the classes `animated` and `fadeOut`.
 
-Ось приклад, як змусити елемент `button` з id зі значенням `target6` затихати:
+Here's how you'd make the `button` element with the id `target6` fade out:
 
 ```js
 $("#target6").addClass("animated fadeOut");
@@ -27,13 +27,13 @@ $("#target6").addClass("animated fadeOut");
 
 # --hints--
 
-Виберіть елемент `button` з `id` зі значенням `target3` та використайте функцію `addClass()`, щоб надати йому клас `animated`.
+You should select the `button` element with the `id` of `target3` and use the jQuery `addClass()` function to give it the class of `animated`.
 
 ```js
 assert($('#target3').hasClass('animated'));
 ```
 
-Виберіть елемент з `id` зі значенням `target3` та використайте функцію `addClass()`, щоб надати йому клас `fadeOut`.
+You should target the element with the id `target3` and use the jQuery `addClass()` function to give it the class `fadeOut`.
 
 ```js
 assert(
@@ -42,7 +42,7 @@ assert(
 );
 ```
 
-Для додавання цих класів використовуйте лише jQuery.
+You should only use jQuery to add these classes to the element.
 
 ```js
 assert(!code.match(/class.*animated/g));

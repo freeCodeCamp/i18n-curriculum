@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedd08830
-title: Adicionar um botão de envio a um formulário
+title: Add a Submit Button to a Form
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVMPUv/cp2Nkhz'
 forumTopicId: 16627
@@ -9,9 +9,9 @@ dashedName: add-a-submit-button-to-a-form
 
 # --description--
 
-Vamos adicionar um botão do tipo `submit` ao seu formulário. Ao clicar neste botão, enviaremos os dados inseridos para o URL que você especificou no atributo `action` de seu formulário.
+Let's add a `submit` button to your form. Clicking this button will send the data from your form to the URL you specified with your form's `action` attribute.
 
-Aqui está um exemplo de um botão do tipo enviar (submit):
+Here's an example submit button:
 
 ```html
 <button type="submit">this button submits the form</button>
@@ -19,23 +19,23 @@ Aqui está um exemplo de um botão do tipo enviar (submit):
 
 # --instructions--
 
-Adicione um botão do tipo `submit` e com o texto `Submit` como o último elemento de seu elemento `form`.
+Add a button as the last element of your `form` element with a type of `submit`, and `Submit` as its text.
 
 # --hints--
 
-O elemento `form` precisa ter um elemento `button` dentro dele.
+Your `form` should have a `button` inside it.
 
 ```js
 assert($('form').children('button').length > 0);
 ```
 
-O botão de envio deve ter o atributo `type` definido como `submit`.
+Your submit button should have the attribute `type` set to `submit`.
 
 ```js
 assert($('button').attr('type') === 'submit');
 ```
 
-O botão de envio deve ter apenas o texto `Submit`.
+Your submit button should only have the text `Submit`.
 
 ```js
 assert(
@@ -45,7 +45,7 @@ assert(
 );
 ```
 
-O elemento `button` deve ter uma tag de fechamento.
+Your `button` element should have a closing tag.
 
 ```js
 assert(

@@ -1,6 +1,6 @@
 ---
 id: 56533eb9ac21ba0edf2244de
-title: switch ステートメントへのデフォルトオプションの追加
+title: Adding a Default Option in Switch Statements
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/c3JvVfg'
 forumTopicId: 16653
@@ -9,9 +9,9 @@ dashedName: adding-a-default-option-in-switch-statements
 
 # --description--
 
-`switch` ステートメントでは、可能性のあるすべての値を `case` ステートメントとして指定することができない場合があります。 代わりに、`case` に一致するものが見つからない場合に実行される `default` を追加することができます。 これは、`if/else` チェーンの最後の `else` のようなものだと考えてください。
+In a `switch` statement you may not be able to specify all possible values as `case` statements. Instead, you can add the `default` statement which will be executed if no matching `case` statements are found. Think of it like the final `else` statement in an `if/else` chain.
 
-`default` ステートメントは最後の case として記述してください。
+A `default` statement should be the last case.
 
 ```js
 switch (num) {
@@ -30,7 +30,7 @@ switch (num) {
 
 # --instructions--
 
-次の条件ごとに `answer` を設定した switch ステートメントを記述してください。  
+Write a switch statement to set `answer` for the following conditions:  
 `a` - `apple`  
 `b` - `bird`  
 `c` - `cat`  
@@ -38,49 +38,49 @@ switch (num) {
 
 # --hints--
 
-`switchOfStuff("a")` は文字列 `apple` を返す必要があります。
+`switchOfStuff("a")` should return the string `apple`
 
 ```js
 assert(switchOfStuff('a') === 'apple');
 ```
 
-`switchOfStuff("b")` は文字列 `bird` を返す必要があります。
+`switchOfStuff("b")` should return the string `bird`
 
 ```js
 assert(switchOfStuff('b') === 'bird');
 ```
 
-`switchOfStuff("c")` は文字列 `cat` を返す必要があります。
+`switchOfStuff("c")` should return the string `cat`
 
 ```js
 assert(switchOfStuff('c') === 'cat');
 ```
 
-`switchOfStuff("d")` は文字列 `stuff` を返す必要があります。
+`switchOfStuff("d")` should return the string `stuff`
 
 ```js
 assert(switchOfStuff('d') === 'stuff');
 ```
 
-`switchOfStuff(4)` は文字列 `stuff` を返す必要があります。
+`switchOfStuff(4)` should return the string `stuff`
 
 ```js
 assert(switchOfStuff(4) === 'stuff');
 ```
 
-`if` または `else` ステートメントを使用することはできません。
+You should not use any `if` or `else` statements
 
 ```js
 assert(!/else/g.test(__helpers.removeJSComments(code)) || !/if/g.test(__helpers.removeJSComments(code)));
 ```
 
-`default` ステートメントを使用する必要があります。
+You should use a `default` statement
 
 ```js
 assert(switchOfStuff('string-to-trigger-default-case') === 'stuff');
 ```
 
-少なくとも 3 つの `break` ステートメントを含める必要があります。
+You should have at least 3 `break` statements
 
 ```js
 assert(__helpers.removeJSComments(code).match(/break/g).length > 2);

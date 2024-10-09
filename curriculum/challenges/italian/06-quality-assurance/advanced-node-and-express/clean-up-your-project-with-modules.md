@@ -1,6 +1,6 @@
 ---
 id: 589690e6f9fc0f352b528e6e
-title: Riordinare il progetto con i moduli
+title: Clean Up Your Project with Modules
 challengeType: 2
 forumTopicId: 301549
 dashedName: clean-up-your-project-with-modules
@@ -8,9 +8,9 @@ dashedName: clean-up-your-project-with-modules
 
 # --description--
 
-Al momento, tutto il codice è compreso nel file `server.js`. Questo può portare ad un codice difficile da mantenere a poco espandibile. Crea 2 nuovi file: `routes.js` e `auth.js`
+Right now, everything you have is in your `server.js` file. This can lead to hard to manage code that isn't very expandable. Create 2 new files: `routes.js` and `auth.js`
 
-Entrambi dovrebbero iniziare con il codice seguente:
+Both should start with the following code:
 
 ```js
 module.exports = function (app, myDataBase) {
@@ -18,19 +18,19 @@ module.exports = function (app, myDataBase) {
 }
 ```
 
-Ora, all'inizio del tuo file del server, richiedi questi nuovi file così: `const routes = require('./routes.js');` Subito dopo aver stabilito con successo una connessione al database, crea un'istanza per ciascun file, in questo modo: `routes(app, myDataBase)`
+Now, in the top of your server file, require these files like so: `const routes = require('./routes.js');` Right after you establish a successful connection with the database, instantiate each of them like so: `routes(app, myDataBase)`
 
-Infine, trasferisci tutte le rotte presenti nel tuo server e incollale nei nuovi file. Inoltre, prendi la funzione `ensureAuthenticated` dato che è stata creata specificamente per il routing. Ora, dovrai importare correttamente in cima al tuo file `routes.js` le dipendenze che vengono utilizzate, come `const passport = require('passport');` al di sopra della linea di export.
+Finally, take all of the routes in your server and paste them into your new files, and remove them from your server file. Also take the `ensureAuthenticated` function, since it was specifically created for routing. Now, you will have to correctly add the dependencies in which are used, such as `const passport = require('passport');`, at the very top, above the export line in your `routes.js` file.
 
-Continua ad aggiungere percorsi fino a quando non ci saranno più errori e il tuo file server non avrà più neanche una rotta (**ad eccezione della rotta nel blocco catch**)!
+Keep adding them until no more errors exist, and your server file no longer has any routing (**except for the route in the catch block**)!
 
-Fai la stessa cosa nel tuo file `auth.js` con tutte le cose relative all'autenticazione come la serializzazione e l'impostazione della strategia locale e cancellali dal file del server. Assicurati di aggiungere le dipendenze e invocare `auth(app, myDataBase)` nel server nello stesso punto.
+Do the same thing in your `auth.js` file with all of the things related to authentication such as the serialization and the setting up of the local strategy and erase them from your server file. Be sure to add the dependencies in and call `auth(app, myDataBase)` in the server in the same spot.
 
-Invia la tua pagina quando pensi di averlo fatto correttamente. Se incontri errori, puoi <a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#clean-up-your-project-with-modules-2" target="_blank" rel="noopener noreferrer nofollow">vedere un esempio del progetto completato qui</a>.
+Submit your page when you think you've got it right. If you're running into errors, you can <a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#clean-up-your-project-with-modules-2" target="_blank" rel="noopener noreferrer nofollow">check out an example of the completed project</a>.
 
 # --hints--
 
-Dovrebbero essere presenti dei moduli.
+Modules should be present.
 
 ```js
 async (getUserInput) => {

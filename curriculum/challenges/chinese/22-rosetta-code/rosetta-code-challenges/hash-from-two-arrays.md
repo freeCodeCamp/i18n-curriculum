@@ -1,6 +1,6 @@
 ---
 id: 595671d4d2cdc305f0d5b36f
-title: 来自两个数组的散列
+title: Hash from two arrays
 challengeType: 1
 forumTopicId: 302283
 dashedName: hash-from-two-arrays
@@ -10,7 +10,7 @@ dashedName: hash-from-two-arrays
 
 Given two arrays, create a hash object where the elements from one array (the keys) are linked to the elements of the other (the values).
 
-例如：
+Example:
 
 ```js
 const firstArr = [1, 2, 3];

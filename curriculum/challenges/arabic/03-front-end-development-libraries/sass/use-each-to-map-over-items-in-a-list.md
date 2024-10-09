@@ -1,6 +1,6 @@
 ---
 id: 587d7dbf367417b2b2512bba
-title: استخدام @each لتركيب (Map) العناصر في القائمة (List)
+title: Use @each to Map Over Items in a List
 challengeType: 0
 forumTopicId: 301461
 dashedName: use-each-to-map-over-items-in-a-list
@@ -8,7 +8,7 @@ dashedName: use-each-to-map-over-items-in-a-list
 
 # --description--
 
-وأظهر التحدي الأخير كيف يستخدم التوجيه `@for` قيمة البَدْء و النهاية لتكرار عدد معين من المرات. يوفر Sass أيضًا التوجيه `@each` الذي يدور حول كل عنصر في قائمة (list) أو مركَب (map). في كل تكرار (iteration)، يتم تعيين المتغير للقيمة الحالية من القائمة (list) أو المركَب (map).
+The last challenge showed how the `@for` directive uses a starting and ending value to loop a certain number of times. Sass also offers the `@each` directive which loops over each item in a list or map. On each iteration, the variable gets assigned to the current value from the list or map.
 
 ```scss
 @each $color in blue, red, green {
@@ -16,7 +16,7 @@ dashedName: use-each-to-map-over-items-in-a-list
 }
 ```
 
-المركَب لها صياغة مختلفة قليلاً. وهذا مثال على ذلك:
+A map has slightly different syntax. Here's an example:
 
 ```scss
 $colors: (color1: blue, color2: red, color3: green);
@@ -26,7 +26,7 @@ $colors: (color1: blue, color2: red, color3: green);
 }
 ```
 
-لاحظ أن المتغير `$key` مطلوب للإشارة إلى الهُوِيَّات (keys) في الخريطة (map). وإلا فإن CSS المنشئة (compiled) سيكون لديها `color1` و `color2`... فيها. يتم تحويل مثالي التعليمات البرمجية أعلاه إلى CSS التالية:
+Note that the `$key` variable is needed to reference the keys in the map. Otherwise, the compiled CSS would have `color1`, `color2`... in it. Both of the above code examples are converted into the following CSS:
 
 ```scss
 .blue-text {
@@ -48,25 +48,25 @@ Write an `@each` directive that goes through a list: `blue, black, red` and assi
 
 # --hints--
 
-يجب أن تستخدم التعليمات البرمجية الخاصة بك توجيه `@each`.
+Your code should use the `@each` directive.
 
 ```js
 assert(code.match(/@each /g));
 ```
 
-يجب أن يكون لفئة `.blue-bg` الخاص بك `background-color` باللون الأزرق.
+Your `.blue-bg` class should have a `background-color` of blue.
 
 ```js
 assert($('.blue-bg').css('background-color') == 'rgb(0, 0, 255)');
 ```
 
-يجب أن يكون لفئة `.black-bg` الخاص بك `background-color` من الأسود.
+Your `.black-bg` class should have a `background-color` of black.
 
 ```js
 assert($('.black-bg').css('background-color') == 'rgb(0, 0, 0)');
 ```
 
-يجب أن يكون لفئة `.red-bg` الخاص بك `background-color` باللون الأحمر.
+Your `.red-bg` class should have a `background-color` of red.
 
 ```js
 assert($('.red-bg').css('background-color') == 'rgb(255, 0, 0)');

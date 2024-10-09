@@ -1,6 +1,6 @@
 ---
 id: 587d7b7b367417b2b2512b14
-title: Verificare la presenza di un elemento con indexOf()
+title: Check For The Presence of an Element With indexOf()
 challengeType: 1
 forumTopicId: 301154
 dashedName: check-for-the-presence-of-an-element-with-indexof
@@ -8,9 +8,9 @@ dashedName: check-for-the-presence-of-an-element-with-indexof
 
 # --description--
 
-Dal momento che gli array possono essere cambiati, o *mutati*, in qualsiasi momento, non c'è alcuna garanzia su dove sia un particolare dato in un determinato array, o se quell'elemento esista ancora. Fortunatamente, JavaScript ci fornisce un altro metodo nativo, `indexOf()`, che ci permette di controllare rapidamente e facilmente la presenza di un elemento in un array. `indexOf()` prende un elemento come parametro, e quando chiamato, restituisce la posizione, o indice, di quell'elemento, o `-1` se l'elemento non è presente nell'array.
+Since arrays can be changed, or *mutated*, at any time, there's no guarantee about where a particular piece of data will be on a given array, or if that element even still exists. Luckily, JavaScript provides us with another built-in method, `indexOf()`, that allows us to quickly and easily check for the presence of an element on an array. `indexOf()` takes an element as a parameter, and when called, it returns the position, or index, of that element, or `-1` if the element does not exist on the array.
 
-Ad esempio:
+For example:
 
 ```js
 let fruits = ['apples', 'pears', 'oranges', 'peaches', 'pears'];
@@ -20,21 +20,21 @@ fruits.indexOf('oranges');
 fruits.indexOf('pears');
 ```
 
-`indexOf('dates')` restituisce `-1`, `indexOf('oranges')` restituisce `2`e `indexOf('pears')` restituisce `1` (il primo indice in cui è presente il rispettivo elemento).
+`indexOf('dates')` returns `-1`, `indexOf('oranges')` returns `2`, and `indexOf('pears')` returns `1` (the first index at which each element exists).
 
 # --instructions--
 
-`indexOf()` può essere incredibilmente utile per verificare rapidamente la presenza di un elemento in un array. Abbiamo definito una funzione, `quickCheck`, che richiede un array e un elemento come argomenti. Modifica la funzione usando `indexOf()` in modo che restituisca `true` se l'elemento passato è nell'array, e `false` se non lo è.
+`indexOf()` can be incredibly useful for quickly checking for the presence of an element on an array. We have defined a function, `quickCheck`, that takes an array and an element as arguments. Modify the function using `indexOf()` so that it returns `true` if the passed element exists on the array, and `false` if it does not.
 
 # --hints--
 
-La funzione `quickCheck` dovrebbe restituire un booleano (`true` o `false`), non una stringa (`"true"` o `"false"`)
+The `quickCheck` function should return a boolean (`true` or `false`), not a string (`"true"` or `"false"`)
 
 ```js
 assert.isBoolean(quickCheck(['squash', 'onions', 'shallots'], 'mushrooms'));
 ```
 
-`quickCheck(["squash", "onions", "shallots"], "mushrooms")` dovrebbe restituire `false`
+`quickCheck(["squash", "onions", "shallots"], "mushrooms")` should return `false`
 
 ```js
 assert.strictEqual(
@@ -43,7 +43,7 @@ assert.strictEqual(
 );
 ```
 
-`quickCheck(["onions", "squash", "shallots"], "onions")` dovrebbe restituire `true`
+`quickCheck(["onions", "squash", "shallots"], "onions")` should return `true`
 
 ```js
 assert.strictEqual(
@@ -52,19 +52,19 @@ assert.strictEqual(
 );
 ```
 
-`quickCheck([3, 5, 9, 125, 45, 2], 125)` dovrebbe restituire `true`
+`quickCheck([3, 5, 9, 125, 45, 2], 125)` should return `true`
 
 ```js
 assert.strictEqual(quickCheck([3, 5, 9, 125, 45, 2], 125), true);
 ```
 
-`quickCheck([true, false, false], undefined)` dovrebbe restituire `false`
+`quickCheck([true, false, false], undefined)` should return `false`
 
 ```js
 assert.strictEqual(quickCheck([true, false, false], undefined), false);
 ```
 
-La funzione `quickCheck` dovrebbe utilizzare il metodo `indexOf()`
+The `quickCheck` function should utilize the `indexOf()` method
 
 ```js
 assert.notStrictEqual(quickCheck.toString().search(/\.indexOf\(/), -1);

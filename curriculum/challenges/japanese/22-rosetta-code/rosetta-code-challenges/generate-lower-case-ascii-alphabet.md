@@ -1,6 +1,6 @@
 ---
 id: 5a23c84252665b21eecc7e7a
-title: 小文字の ASCII アルファベットを生成する
+title: Generate lower case ASCII alphabet
 challengeType: 1
 forumTopicId: 302274
 dashedName: generate-lower-case-ascii-alphabet
@@ -12,43 +12,43 @@ Write a function to generate an array of lower case ASCII characters for a given
 
 # --hints--
 
-`lascii` は関数とします。
+`lascii` should be a function.
 
 ```js
 assert(typeof lascii == 'function');
 ```
 
-`lascii("a","d")` は配列を返す必要があります。
+`lascii("a","d")` should return an array.
 
 ```js
 assert(Array.isArray(lascii('a', 'd')));
 ```
 
-`lascii('a','d')` は`[ 'a', 'b', 'c', 'd' ]`を返す必要があります。
+`lascii('a','d')` should return `[ 'a', 'b', 'c', 'd' ]`.
 
 ```js
 assert.deepEqual(lascii('a', 'd'), results[0]);
 ```
 
-`lascii('c','i')` は`[ 'c', 'd', 'e', 'f', 'g', 'h', 'i' ]`を返す必要があります。
+`lascii('c','i')` should return `[ 'c', 'd', 'e', 'f', 'g', 'h', 'i' ]`.
 
 ```js
 assert.deepEqual(lascii('c', 'i'), results[1]);
 ```
 
-`lascii('m','q')` は`[ 'm', 'n', 'o', 'p', 'q' ]`を返す必要があります。
+`lascii('m','q')` should return `[ 'm', 'n', 'o', 'p', 'q' ]`.
 
 ```js
 assert.deepEqual(lascii('m', 'q'), results[2]);
 ```
 
-`lascii('k','n')` は`[ 'k', 'l', 'm', 'n' ]`を返す必要があります。
+`lascii('k','n')` should return `[ 'k', 'l', 'm', 'n' ]`.
 
 ```js
 assert.deepEqual(lascii('k', 'n'), results[3]);
 ```
 
-`lascii('t','z')` は`[ 't', 'u', 'v', 'w', 'x', 'y', 'z' ]`を返す必要があります。
+`lascii('t','z')` should return `[ 't', 'u', 'v', 'w', 'x', 'y', 'z' ]`.
 
 ```js
 assert.deepEqual(lascii('t', 'z'), results[4]);

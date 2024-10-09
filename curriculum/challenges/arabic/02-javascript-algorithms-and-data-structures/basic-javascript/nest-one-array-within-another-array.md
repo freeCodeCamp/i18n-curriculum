@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c11feddfaeb7bdef
-title: إدخال قائمة في قائمة اخرى
+title: Nest one Array within Another Array
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/crZQZf8'
 forumTopicId: 18247
@@ -9,21 +9,21 @@ dashedName: nest-one-array-within-another-array
 
 # --description--
 
-يمكنك أيضًا إدخال قوائم داخل قوائم أخرى، مثل أدناه:
+You can also nest arrays within other arrays, like below:
 
 ```js
 const teams = [["Bulls", 23], ["White Sox", 45]];
 ```
 
-هذا يسمى أيضا <dfn>قوائم متعددة الأبعاد (multi-dimensional array)</dfn>.
+This is also called a <dfn>multi-dimensional array</dfn>.
 
 # --instructions--
 
-أنشئ قائمة متداخلة تسمى `myArray`.
+Create a nested array called `myArray`.
 
 # --hints--
 
-يجب أن تحتوي `myArray` على الأقل علي قائمة واحدة متداخلة في قائمة أخرى.
+`myArray` should have at least one array nested within another array.
 
 ```js
 assert(Array.isArray(myArray) && myArray.some(Array.isArray));

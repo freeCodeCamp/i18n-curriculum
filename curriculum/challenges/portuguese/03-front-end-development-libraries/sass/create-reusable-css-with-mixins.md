@@ -1,6 +1,6 @@
 ---
 id: 587d7dbd367417b2b2512bb6
-title: Criar CSS reutilizável com mixins
+title: Create Reusable CSS with Mixins
 challengeType: 0
 forumTopicId: 301455
 dashedName: create-reusable-css-with-mixins
@@ -8,7 +8,7 @@ dashedName: create-reusable-css-with-mixins
 
 # --description--
 
-Em Sass, um <dfn>mixin</dfn> é um grupo de declarações CSS que podem ser reutilizados em toda a folha de estilos. A definição começa com a regra @ do `@mixin` seguida por um nome personalizado. Você aplica o mixin usando a regra `@include`.
+In Sass, a <dfn>mixin</dfn> is a group of CSS declarations that can be reused throughout the style sheet. The definition starts with the `@mixin` at-rule, followed by a custom name. You apply the mixin using the `@include` at-rule.
 
 ```scss
 @mixin reset-list {
@@ -22,7 +22,7 @@ nav ul {
 }
 ```
 
-Compila para:
+Compiles to:
 
 ```css
 nav ul {
@@ -32,7 +32,7 @@ nav ul {
 }
 ```
 
-Os mixins também podem receber argumentos, o que permite que seu comportamento seja personalizado. Os argumentos são necessários quando se utiliza o mixin.
+Your mixins can also take arguments, which allows their behavior to be customized. The arguments are required when using the mixin.
 
 ```scss
 @mixin prose($font-size, $spacing) {
@@ -50,7 +50,7 @@ h2 {
 }
 ```
 
-Você pode tornar os argumentos opcionais dando valores padrão aos parâmetros.
+You can make arguments optional by giving the parameters default values.
 
 ```scss
 @mixin text-color($color: black) {
@@ -68,49 +68,49 @@ nav a {
 
 # --instructions--
 
-Escreva um mixin chamado `shape` e dê a ele 3 parâmetros: `$w`, `$h` e `$bg-color`.
+Write a mixin named `shape` and give it 3 parameters: `$w`, `$h`, and `$bg-color`.
 
-Use o mixin `shape` para dar ao elemento `#square` uma largura (w) e uma altura (h) de `50px` e a cor de fundo `red` (vermelha). Para o elemento `#rect-a`, adicione uma largura (w) de `100px`, uma altura (h) de `50px` e a cor de fundo `blue` (azul). Finalmente, para o elemento `#rect-b`, adicione uma largura (w) de `50px`, uma altura (h) de `100px` e a cor de fundo `orange` (laranja).
+Use the `shape` mixin to give the `#square` element a width and height of `50px`, and the background color `red`. For the `#rect-a` element add a width of `100px`, a height of `50px`, and the background color `blue`. Finally, for the `#rect-b` element add a width of `50px`, a height of `100px`, and the background color `orange`.
 
 # --hints--
 
-Você deve declarar um mixin chamado `shape` e dar a ele 3 parâmetros: `$w`, `$h` e `$bg-color`.
+You should declare a mixin named `shape` with 3 parameters: `$w`, `$h`, and `$bg-color`.
 
 ```js
 assert.match(code, /@mixin\s+shape\s*\(\s*\$w,\s*\$h,\s*\$bg-color\s*\)\s*{/gi);
 ```
 
-O mixin deve incluir uma propriedade `width` que usa o parâmetro `$w`.
+Your mixin should include a `width` property that uses the `$w` parameter.
 
 ```js
 assert.match(__helpers.removeWhiteSpace(code), /width:\$w;/gi);
 ```
 
-O mixin deve incluir uma propriedade `height` que usa o parâmetro `$h`.
+Your mixin should include a `height` property that uses the `$h` parameter.
 
 ```js
 assert.match(__helpers.removeWhiteSpace(code), /height:\$h;/gi);
 ```
 
-O mixin deve incluir uma propriedade `background-color` que usa o parâmetro `$bg-color`.
+Your mixin should include a `background-color` property that uses the `$bg-color` parameter.
 
 ```js
 assert.match(__helpers.removeWhiteSpace(code), /background-color:\$bg\-color;/gi);
 ```
 
-Você deve substituir os estilos dentro do seletor `#square` por uma chamada ao mixin `shape` usando a palavra-chave `@include`. Definindo uma largura e altura de `50px` e a cor de fundo `red`.
+You should replace the styles inside the `#square` selector with a call to the `shape` mixin using the `@include` keyword. Setting a width and height of `50px`, and the background color `red`.
 
 ```js
 assert.match(code, /#square\s*{\s*@include\s+shape\s*\(\s*50px\s*,\s*50px\s*,\s*red\s*\)\s*;\s*}/gi);
 ```
 
-Você deve substituir os estilos dentro do seletor `#rect-a` por uma chamada ao mixin `shape` mixin usando a palavra-chave `@include`. Definindo uma largura de `100px`, uma altura de `50px` e a cor de fundo `blue`.
+You should replace the styles inside the `#rect-a` selector with a call to the `shape` mixin using the `@include` keyword. Setting a width of `100px`, a height of `50px`, and the background color `blue`.
 
 ```js
 assert.match(code, /#rect-a\s*{\s*@include\s+shape\s*\(\s*100px\s*,\s*50px\s*,\s*blue\s*\)\s*;\s*}/gi);
 ```
 
-Você deve substituir os estilos dentro do seletor `#rect-b` por uma chamada ao mixin `shape` usando a palavra-chave `@include`. Definindo uma largura de `50px`, uma altura de `100px` e a cor de fundo `orange`.
+You should replace the styles inside the `#rect-b` selector with a call to the `shape` mixin using the `@include` keyword. Setting a width of `50px`, a height of `100px`, and the background color `orange`.
 
 ```js
 assert.match(code, /#rect-b\s*{\s*@include\s+shape\s*\(\s*50px\s*,\s*100px\s*,\s*orange\s*\)\s*;\s*}/gi);

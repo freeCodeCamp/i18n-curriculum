@@ -1,6 +1,6 @@
 ---
 id: bad87fee1347bd9aedf08845
-title: حذف مخصص CSS في Bootstrap
+title: Ditch Custom CSS for Bootstrap
 challengeType: 0
 forumTopicId: 17565
 dashedName: ditch-custom-css-for-bootstrap
@@ -8,31 +8,31 @@ dashedName: ditch-custom-css-for-bootstrap
 
 # --description--
 
-يمكننا تنظيف تعليماتنا البرمجية وجعل Cat Photo App أكثر تقليدية باستخدام الأنماط المدمجة في Bootstrap، بدلاً من الأنماط المخصصة التي أنشأناها سابقاً.
+We can clean up our code and make our Cat Photo App look more conventional by using Bootstrap's built-in styles instead of the custom styles we created earlier.
 
-لا تقلق - سيكون هناك الكثير من الوقت لتخصيص CSS في وقت لاحق.
+Don't worry - there will be plenty of time to customize our CSS later.
 
-حذف `.red-text` و`p` و`.smaller-image` تعريفات CSS من عنصر `style` بحيث تكون تعريغات الوحيدة المتبقية داخل عنصر `style` هي `h2` و `thick-green-border`.
+Delete the `.red-text`, `p`, and `.smaller-image` CSS declarations from your `style` element so that the only declarations left in your `style` element are `h2` and `thick-green-border`.
 
-ثم قم بحذف عنصر `p` الذي يحتوي على رابط زائد. ثم إزال فئة `red-text` من عنصر `h2` الخاص بك واستبداله بفئة Bootstrap باسم `text-primary`.
+Then delete the `p` element that contains a dead link. Then remove the `red-text` class from your `h2` element and replace it with the `text-primary` Bootstrap class.
 
-أخيراً، إزال فئة `smaller-image` في أول العنصر `img` الخاص بك واستبداله بفئة `img-responsive` الخاص بك.
+Finally, remove the `smaller-image` class from your first `img` element and replace it with the `img-responsive` class.
 
 # --hints--
 
-عُنصر `h2` يجب ألّا يحتوي على فئة باسم `red-text`.
+Your `h2` element should no longer have the class `red-text`.
 
 ```js
 assert.isFalse(document.querySelector('h2')?.classList?.contains('red-text'));
 ```
 
-عُنصر `h2` يجب يحتوي فئة باسم `text-primary` حالياً.
+Your `h2` element should now have the class `text-primary`.
 
 ```js
 assert.isTrue(document.querySelector('h2')?.classList?.contains('text-primary'));
 ```
 
-عناصر الفِقْرة الخاصة بك يجب ألّا يستخدم خط `Monospace`.
+Your paragraph elements should no longer use the font `Monospace`.
 
 ```js
 const paragraphElement = document.querySelector('p');
@@ -40,13 +40,13 @@ const paragraphFontFamily = window.getComputedStyle(paragraphElement)["font-fami
 assert.notMatch(paragraphFontFamily,/monospace/i);
 ```
 
-يجب إزالة فئة `smaller-image` من أعلى صورتك.
+The `smaller-image` class should be removed from your top image.
 
 ```js
 assert.isFalse(document.querySelector('img')?.classList?.contains('smaller-image'));
 ```
 
-يجب عليك إضافة فئة `img-responsive` إلى أعلى صورتك.
+You should add the `img-responsive` class to your top image.
 
 ```js
 assert.lengthOf(document.querySelectorAll('.img-responsive'),2);

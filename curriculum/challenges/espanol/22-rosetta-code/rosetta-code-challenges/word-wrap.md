@@ -1,6 +1,6 @@
 ---
 id: 594810f028c0303b75339ad4
-title: Ajuste de palabra
+title: Word wrap
 challengeType: 1
 forumTopicId: 302344
 dashedName: word-wrap
@@ -12,7 +12,7 @@ Even today, with proportional fonts and complex layouts, there are still cases w
 
 # --instructions--
 
-Escribe una función que pueda ajustar este texto a cualquier número de caracteres. Como ejemplo, el texto ajustado a 80 caracteres debería verse como lo siguiente:
+Write a function that can wrap this text to any number of characters. As an example, the text wrapped to 80 characters should look like the following:
 
 <pre>
 Wrap text using a more sophisticated algorithm such as the Knuth and Plass TeX
@@ -23,37 +23,37 @@ than a simple minimum length algorithm.
 
 # --hints--
 
-ajustar debería ser una función.
+wrap should be a function.
 
 ```js
 assert.equal(typeof wrap, 'function');
 ```
 
-ajustar debería devolver una cadena.
+wrap should return a string.
 
 ```js
 assert.equal(typeof wrap('abc', 10), 'string');
 ```
 
-wrap(80) debería devolver 4 líneas.
+wrap(80) should return 4 lines.
 
 ```js
 assert(wrapped80.split('\n').length === 4);
 ```
 
-Tu función `wrap` debe devolver el texto esperado.
+Your `wrap` function should return our expected text.
 
 ```js
 assert.equal(wrapped80.split('\n')[0], firstRow80);
 ```
 
-wrap(42) debería devolver 7 líneas.
+wrap(42) should return 7 lines.
 
 ```js
 assert(wrapped42.split('\n').length === 7);
 ```
 
-Tu función `wrap`debería devolver el texto esperado.
+Your `wrap` function should return our expected text.
 
 ```js
 assert.equal(wrapped42.split('\n')[0], firstRow42);

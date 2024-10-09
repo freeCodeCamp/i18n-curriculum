@@ -1,6 +1,6 @@
 ---
 id: 587d824c367417b2b2512c4e
-title: 測試一個值是否小於或等於另一個值
+title: Test if One Value is Below or At Least as Large as Another
 challengeType: 2
 forumTopicId: 301606
 dashedName: test-if-one-value-is-below-or-at-least-as-large-as-another
@@ -12,11 +12,11 @@ As a reminder, this project is being built upon the following starter project on
 
 # --instructions--
 
-在 `tests/1_unit-tests.js` 中，在 `Comparisons` 套件裏標有 `#9` 的測試中，將每個 `assert` 改成 `assert.isBelow` 或 `assert.isAtLeast` 方法，讓測試通過（結果應該返回 `true`）。 不要修改傳給斷言的參數。
+Within `tests/1_unit-tests.js` under the test labelled `#9` in the `Comparisons` suite, change each `assert` to either `assert.isBelow` or `assert.isAtLeast` to make the test pass (should evaluate to `true`). Do not alter the arguments passed to the asserts.
 
 # --hints--
 
-應通過所有測試。
+All tests should pass.
 
 ```js
 (getUserInput) =>
@@ -30,7 +30,7 @@ As a reminder, this project is being built upon the following starter project on
   );
 ```
 
-應該爲第一個斷言選擇正確的方法：`isBelow` 或 `isAtLeast`。
+You should choose the correct method for the first assertion - `isBelow` vs. `isAtLeast`.
 
 ```js
 (getUserInput) =>
@@ -48,7 +48,7 @@ As a reminder, this project is being built upon the following starter project on
   );
 ```
 
-應該爲第二個斷言選擇正確的方法：`isBelow` 或 `isAtLeast`。
+You should choose the correct method for the second assertion - `isBelow` vs. `isAtLeast`.
 
 ```js
 (getUserInput) =>
@@ -66,7 +66,7 @@ As a reminder, this project is being built upon the following starter project on
   );
 ```
 
-應該爲第三個斷言選擇正確的方法：`isBelow` 或 `isAtLeast`。
+You should choose the correct method for the third assertion - `isBelow` vs. `isAtLeast`.
 
 ```js
 (getUserInput) =>
@@ -80,7 +80,7 @@ As a reminder, this project is being built upon the following starter project on
   );
 ```
 
-應該爲第四個斷言選擇正確的方法：`isBelow` 或 `isAtLeast`。
+You should choose the correct method for the fourth assertion - `isBelow` vs. `isAtLeast`.
 
 ```js
 (getUserInput) =>

@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedb08845
-title: Стилізуйте радіокнопки адаптивно
+title: Responsively Style Radio Buttons
 challengeType: 0
 forumTopicId: 18270
 required:
@@ -13,29 +13,29 @@ dashedName: responsively-style-radio-buttons
 
 # --description--
 
-Ви також можете використовувати класи `col-xs-*` на елементах `form`! Таким чином радіокнопки будуть рівномірно розташовані на сторінці, незалежно від того, яка роздільна здатність екрану.
+You can use Bootstrap's `col-xs-*` classes on `form` elements, too! This way, our radio buttons will be evenly spread out across the page, regardless of how wide the screen resolution is.
 
-Вкладіть обидві радіокнопки в елемент `<div class="row">`. Потім вкладіть кожну з них в елемент `<div class="col-xs-6">`.
+Nest both your radio buttons within a `<div class="row">` element. Then nest each of them within a `<div class="col-xs-6">` element.
 
-**Примітка:** пам’ятайте, що радіокнопки є елементами `input` типу `radio`.
+**Note:** As a reminder, radio buttons are `input` elements of type `radio`.
 
 # --hints--
 
-Усі радіокнопки мають бути вкладеними в одному елементі `div` з класом `row`.
+All of your radio buttons should be nested inside one `div` with the class `row`.
 
 ```js
 const radioButtons = document.querySelectorAll(`div.row input[type=radio]`); 
 assert.lengthOf(radioButtons , 2);
 ```
 
-Кожна радіокнопка має бути вкладена у власному елементі `div` з класом `col-xs-6`.
+Each of your radio buttons should be nested inside its own `div` with the class `col-xs-6`.
 
 ```js
 const radioButtons = document.querySelectorAll(`div.col-xs-6 input[type=radio]`); 
 assert.lengthOf(radioButtons , 2);
 ```
 
-Усі елементи `div` повинні мати кінцеві теги.
+All of your `div` elements should have closing tags.
 
 ```js
 assert.match(code,/<\/div>/);

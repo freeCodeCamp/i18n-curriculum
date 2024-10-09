@@ -1,6 +1,6 @@
 ---
 id: 56104e9e514f539506016a5c
-title: تكرار الأرقام الفردية باستخدام حلقة For التكرارية (Iterate Odd Numbers With a For Loop)
+title: Iterate Odd Numbers With a For Loop
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cm8n7T9'
 forumTopicId: 18212
@@ -9,9 +9,9 @@ dashedName: iterate-odd-numbers-with-a-for-loop
 
 # --description--
 
-لا تتطلب For loops مرور علي عناصر واحد تلو الآخر. بتغيير `final-expression` الخاص بك، يمكننا أن تعد بأرقام زوجية.
+For loops don't have to iterate one at a time. By changing our `final-expression`, we can count by even numbers.
 
-سنبدأ عند `i = 0` والحلقة (loop) مادام `i < 10`. أكثر قيمة `i` بمقدار 2 في كل loop باستخدام `i += 2`.
+We'll start at `i = 0` and loop while `i < 10`. We'll increment `i` by 2 each loop with `i += 2`.
 
 ```js
 const ourArray = [];
@@ -21,21 +21,21 @@ for (let i = 0; i < 10; i += 2) {
 }
 ```
 
-سوف تحتوي `ourArray` على `[0, 2, 4, 6, 8]` الآن. غيّر `initialization` حتى نتمكن من عد بالأرقام الفردية.
+`ourArray` will now contain `[0, 2, 4, 6, 8]`. Let's change our `initialization` so we can count by odd numbers.
 
 # --instructions--
 
-اضف الأرقام الفردية من 1 ألى 9 ألى `myArray` باستخدام حلقة `for`.
+Push the odd numbers from 1 through 9 to `myArray` using a `for` loop.
 
 # --hints--
 
-يجب أن تستخدم حلقة `for`.
+You should be using a `for` loop for this.
 
 ```js
 assert(/for\s*\([^)]+?\)/.test(__helpers.removeJSComments(code)));
 ```
 
-يجب أن يساوي `myArray` قيمة `[1, 3, 5, 7, 9]`.
+`myArray` should equal `[1, 3, 5, 7, 9]`.
 
 ```js
 assert.deepEqual(myArray, [1, 3, 5, 7, 9]);

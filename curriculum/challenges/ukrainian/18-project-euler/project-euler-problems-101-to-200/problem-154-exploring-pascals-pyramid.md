@@ -1,6 +1,6 @@
 ---
 id: 5900f4071000cf542c50ff19
-title: 'Завдання 154: вивчення піраміди Паскаля'
+title: 'Problem 154: Exploring Pascal''s pyramid'
 challengeType: 1
 forumTopicId: 301785
 dashedName: problem-154-exploring-pascals-pyramid
@@ -8,19 +8,19 @@ dashedName: problem-154-exploring-pascals-pyramid
 
 # --description--
 
-Трикутна піраміда побудована з використанням сферичних куль таким чином, що кожна куля розташована на трьох кулях нижнього рівня.
+A triangular pyramid is constructed using spherical balls so that each ball rests on exactly three balls of the next lower level.
 
-<img alt="трикутна піраміда побудована зі сферичних куль з чотирма рівнями" src="https://cdn.freecodecamp.org/curriculum/project-euler/exploring-pascals-pyramid.png" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
+<img alt="triangular pyramid constructed using spherical balls with four levels" src="https://cdn.freecodecamp.org/curriculum/project-euler/exploring-pascals-pyramid.png" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-Потім ми обчислюємо кількість шляхів, що ведуть від вершини до кожної позиції: шлях починається з вершини і проходить вниз до кожної з трьох сфер одразу під поточним розташуванням. Відповідно, кількість шляхів для досягнення певної позиції — це сума чисел одразу над нею (залежно від положення, над нею може бути до трьох чисел).
+Then, we calculate the number of paths leading from the apex to each position: A path starts at the apex and progresses downwards to any of the three spheres directly below the current position. Consequently, the number of paths to reach a certain position is the sum of the numbers immediately above it (depending on the position, there are up to three numbers above it).
 
-У результаті ми отримаємо піраміду Паскаля, де числа у кожному ряді n є коефіцієнтами розкладання тричлена ${(x + y + z)}^n$.
+The result is Pascal's pyramid and the numbers at each level n are the coefficients of the trinomial expansion ${(x + y + z)}^n$.
 
-Скільки коефіцієнтів розкладання ${(x + y + z)}^{200000}$ діляться на ${10}^{12}$?
+How many coefficients in the expansion of ${(x + y + z)}^{200000}$ are multiples of ${10}^{12}$?
 
 # --hints--
 
-`pascalsPyramid()` має повернути `479742450`.
+`pascalsPyramid()` should return `479742450`.
 
 ```js
 assert.strictEqual(pascalsPyramid(), 479742450);

@@ -1,6 +1,6 @@
 ---
 id: 5cc0bd7a49b71cb96132e54c
-title: Використання рекурсії для створення діапазону чисел
+title: Use Recursion to Create a Range of Numbers
 challengeType: 1
 forumTopicId: 301180
 dashedName: use-recursion-to-create-a-range-of-numbers
@@ -8,21 +8,21 @@ dashedName: use-recursion-to-create-a-range-of-numbers
 
 # --description--
 
-Продовжуючи попереднє завдання, ми пропонуємо створити рекурсивну функцію ще раз, щоб розв’язати завдання.
+Continuing from the previous challenge, we provide you another opportunity to create a recursive function to solve a problem.
 
 # --instructions--
 
-Ми визначили функцію під назвою `rangeOfNumbers` з двома параметрами. Функція повинна повернути масив цілих чисел, що починається з числа, представленого параметром `startNum` і закінчується числом, представленим параметром `endNum`. Початкове число завжди буде меншим або дорівнюватиме кінцевому числу. Ваша функція повинна використовувати рекурсію, викликаючи саму себе, та не повинна використовувати цикли. Вона також повинна працювати, якщо `startNum` та `endNum` однакові.
+We have defined a function named `rangeOfNumbers` with two parameters. The function should return an array of integers which begins with a number represented by the `startNum` parameter and ends with a number represented by the `endNum` parameter. The starting number will always be less than or equal to the ending number. Your function must use recursion by calling itself and not use loops of any kind. It should also work for cases where both `startNum` and `endNum` are the same.
 
 # --hints--
 
-Ваша функція повинна повертати масив.
+Your function should return an array.
 
 ```js
 assert(Array.isArray(rangeOfNumbers(5, 10)));
 ```
 
-Ваш код не повинен використовувати синтаксиси циклу (`for`, `while` або функції вищого порядку, як-от `forEach`, `map`, `filter` або `reduce`).
+Your code should not use any loop syntax (`for` or `while` or higher order functions such as `forEach`, `map`, `filter`, or `reduce`).
 
 ```js
 assert(
@@ -30,7 +30,7 @@ assert(
 );
 ```
 
-`rangeOfNumbers` має використовувати рекурсію (викликати саму себе), щоб розв’язати це завдання.
+`rangeOfNumbers` should use recursion (call itself) to solve this challenge.
 
 ```js
 assert(
@@ -38,25 +38,25 @@ assert(
 );
 ```
 
-`rangeOfNumbers(1, 5)` має повертати `[1, 2, 3, 4, 5]`.
+`rangeOfNumbers(1, 5)` should return `[1, 2, 3, 4, 5]`.
 
 ```js
 assert.deepStrictEqual(rangeOfNumbers(1, 5), [1, 2, 3, 4, 5]);
 ```
 
-`rangeOfNumbers(6, 9)` має повертати `[6, 7, 8, 9]`.
+`rangeOfNumbers(6, 9)` should return `[6, 7, 8, 9]`.
 
 ```js
 assert.deepStrictEqual(rangeOfNumbers(6, 9), [6, 7, 8, 9]);
 ```
 
-`rangeOfNumbers(4, 4)` має повертати `[4]`.
+`rangeOfNumbers(4, 4)` should return `[4]`.
 
 ```js
 assert.deepStrictEqual(rangeOfNumbers(4, 4), [4]);
 ```
 
-Не використовуйте глобальні змінні для кешування масиву.
+Global variables should not be used to cache the array.
 
 ```js
 rangeOfNumbers(1, 3)

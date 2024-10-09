@@ -1,6 +1,6 @@
 ---
 id: 587d7b7e367417b2b2512b20
-title: Використання масиву для зберігання зібраних даних
+title: Use an Array to Store a Collection of Data
 challengeType: 1
 forumTopicId: 301167
 dashedName: use-an-array-to-store-a-collection-of-data
@@ -8,16 +8,16 @@ dashedName: use-an-array-to-store-a-collection-of-data
 
 # --description--
 
-Нижче наведено приклад найпростішої реалізації структури масиву даних. Це <dfn>одновимірний масив</dfn>, тобто він має лише один рівень або не містить жодних вкладених масивів. Зверніть увагу, що в ньому містяться <dfn>булеві значення</dfn>, <dfn>рядки</dfn> та <dfn>числа</dfn> серед інших дійсних типів даних JavaScript:
+The below is an example of the simplest implementation of an array data structure. This is known as a <dfn>one-dimensional array</dfn>, meaning it only has one level, or that it does not have any other arrays nested within it. Notice it contains <dfn>booleans</dfn>, <dfn>strings</dfn>, and <dfn>numbers</dfn>, among other valid JavaScript data types:
 
 ```js
 let simpleArray = ['one', 2, 'three', true, false, undefined, null];
 console.log(simpleArray.length);
 ```
 
-Виклик `console.log` виводить `7`.
+The `console.log` call displays `7`.
 
-Усі масиви мають властивість довжини, до якої, як згадується вище, дуже легко можна отримати доступ за допомогою синтаксису `Array.length`. Складнішу реалізацію масиву можна побачити нижче. Це <dfn>багатовимірний масив</dfn>, тобто масив, який містить інші масиви. Зверніть увагу, що цей масив також містить <dfn>об’єкти</dfn>, які ми ретельно вивчатимемо в наступному розділі, але поки вам потрібно знати тільки те, що масиви також здатні зберігати складні об’єкти.
+All arrays have a length property, which as shown above, can be very easily accessed with the syntax `Array.length`. A more complex implementation of an array can be seen below. This is known as a <dfn>multi-dimensional array</dfn>, or an array that contains other arrays. Notice that this array also contains JavaScript <dfn>objects</dfn>, which we will examine very closely in our next section, but for now, all you need to know is that arrays are also capable of storing complex objects.
 
 ```js
 let complexArray = [
@@ -46,35 +46,35 @@ let complexArray = [
 
 # --instructions--
 
-Ми визначили змінну під назвою `yourArray`. Закінчіть інструкцію, призначивши масив з принаймні п’яти елементів до змінної `yourArray`. Ваш масив повинен містити принаймні по одному <dfn>рядку</dfn>, <dfn>числу</dfn> і <dfn>булевому значенню</dfn>.
+We have defined a variable called `yourArray`. Complete the statement by assigning an array of at least 5 elements in length to the `yourArray` variable. Your array should contain at least one <dfn>string</dfn>, one <dfn>number</dfn>, and one <dfn>boolean</dfn>.
 
 # --hints--
 
-`yourArray` має бути масивом.
+`yourArray` should be an array.
 
 ```js
 assert.strictEqual(Array.isArray(yourArray), true);
 ```
 
-`yourArray` має містити принаймні п’ять елементів у довжину.
+`yourArray` should be at least 5 elements long.
 
 ```js
 assert.isAtLeast(yourArray.length, 5);
 ```
 
-`yourArray` має містити принаймні одне `boolean`.
+`yourArray` should contain at least one `boolean`.
 
 ```js
 assert(yourArray.filter((el) => typeof el === 'boolean').length >= 1);
 ```
 
-`yourArray` має містити принаймні одне `number`.
+`yourArray` should contain at least one `number`.
 
 ```js
 assert(yourArray.filter((el) => typeof el === 'number').length >= 1);
 ```
 
-`yourArray` має містити принаймні одне `string`.
+`yourArray` should contain at least one `string`.
 
 ```js
 assert(yourArray.filter((el) => typeof el === 'string').length >= 1);

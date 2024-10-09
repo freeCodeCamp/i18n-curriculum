@@ -1,6 +1,6 @@
 ---
 id: 5e9a093a74c4063ca6f7c166
-title: Conhecer coleções e funções do Python
+title: Python Functions and Collections
 challengeType: 11
 videoId: NzpU17ZVlUw
 bilibiliIds:
@@ -12,30 +12,30 @@ dashedName: python-functions-and-collections
 
 # --description--
 
-*Ao invés de usar notebooks.ai como foi mostrado no vídeo, você pode usar o Google Colab como substituto.*
+*Instead of using notebooks.ai like it shows in the video, you can use Google Colab instead.*
 
-Mais recursos:
+More resources:
 
--  <a href="https://github.com/ine-rmotr-curriculum/ds-content-python-under-10-minutes" target="_blank" rel="noopener noreferrer nofollow">Notebooks no GitHub</a>
--  <a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb" target="_blank" rel="noopener noreferrer nofollow">Como abrir notebooks do GitHub usando o Google Colab.</a>
+-  <a href="https://github.com/ine-rmotr-curriculum/ds-content-python-under-10-minutes" target="_blank" rel="noopener noreferrer nofollow">Notebooks on GitHub</a>
+-  <a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb" target="_blank" rel="noopener noreferrer nofollow">How to open Notebooks from GitHub using Google Colab.</a>
 
 # --questions--
 
 ## --text--
 
-Qual é a principal diferença entre listas e tuplas em Python?
+What is the main difference between lists and tuples in Python?
 
 ## --answers--
 
-Tuplas são imutáveis.
+Tuples are immutable.
 
 ---
 
-Listas são ordenadas.
+Lists are ordered.
 
 ---
 
-Tuplas são desordenadas.
+Tuples are unordered.
 
 ## --video-solution--
 

@@ -1,6 +1,6 @@
 ---
 id: 56533eb9ac21ba0edf2244aa
-title: فهم المتغيرات غير المهيأة
+title: Understanding Uninitialized Variables
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cBa2JAL'
 forumTopicId: 18335
@@ -9,33 +9,33 @@ dashedName: understanding-uninitialized-variables
 
 # --description--
 
-عند إعلان المتغيرات في JavaScript، يكون لها قيمة أولية وهي `undefined`. إذا قمت بعملية رياضية على متغير قيمته `undefined` ستكون نتيجتك `NaN` مما يعني <dfn>"Not a Number"</dfn> إي "ليس رقما". إذا ربط مقطع نصي مع متغير `undefined`، فستحصل على <dfn>مقطع نصي</dfn> بقيمة `undefined`.
+When JavaScript variables are declared, they have an initial value of `undefined`. If you do a mathematical operation on an `undefined` variable your result will be `NaN` which means <dfn>"Not a Number"</dfn>. If you concatenate a string with an `undefined` variable, you will get a <dfn>string</dfn> of `undefined`.
 
 # --instructions--
 
-قم بتهيئة المتغيرات الثلاثة `a`, و `b`, و `c` بالقيم `5`, و `10`, و `"I am a"` على التوالي، حتى لا يكونوا `undefined`.
+Initialize the three variables `a`, `b`, and `c` with `5`, `10`, and `"I am a"` respectively so that they will not be `undefined`.
 
 # --hints--
 
-يجب أن يتم تعريف `a` وأن تكون قيمتها `6`.
+`a` should be defined and have a final value of `6`.
 
 ```js
 assert(typeof a === 'number' && a === 6);
 ```
 
-يجب أن يتم تعريف `b` وأن تكون قيمتها `15`.
+`b` should be defined and have a final value of `15`.
 
 ```js
 assert(typeof b === 'number' && b === 15);
 ```
 
-يجب ألّا يحتوي `c` على `undefined` ويجب أن يكون لديه مقطع بقيمة `I am a String!`
+`c` should not contain `undefined` and should have a final value of the string `I am a String!`
 
 ```js
 assert(!/undefined/.test(c) && c === 'I am a String!');
 ```
 
-لا يجب عليك تعديل الكود فوق التعليق المحدد.
+You should not change code below the specified comment.
 
 ```js
 assert(

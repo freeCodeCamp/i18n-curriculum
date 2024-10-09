@@ -1,6 +1,6 @@
 ---
 id: 5900f4021000cf542c50ff14
-title: '問題 148：帕斯卡三角形的研究'
+title: 'Problem 148: Exploring Pascal''s triangle'
 challengeType: 1
 forumTopicId: 301777
 dashedName: problem-148-exploring-pascals-triangle
@@ -20,15 +20,15 @@ We can easily verify that none of the entries in the first seven rows of Pascal'
 1   6   15  20  15  6   1
 ```
 
-但是如果我們檢查前一百行，會發現在 5050 個數中只有 2361 個數字不能被 7 整除。
+However, if we check the first one hundred rows, we will find that only 2361 of the 5050 entries are not divisible by 7.
 
 # --instructions--
 
-請找出帕斯卡三角形前十億（${10}^9$）行中不能被 7 整除的數的個數。
+Find the number of entries which are not divisible by 7 in the first one billion (${10}^9$) rows of Pascal's triangle.
 
 # --hints--
 
-`entriesOfPascalsTriangle()` 應該返回 `2129970655314432`。
+`entriesOfPascalsTriangle()` should return `2129970655314432`.
 
 ```js
 assert.strictEqual(entriesOfPascalsTriangle(), 2129970655314432);

@@ -1,6 +1,6 @@
 ---
 id: 5675e877dbd60be8ad28edc6
-title: Ітерація масиву за допомогою циклу for
+title: Iterate Through an Array with a For Loop
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/caeR3HB'
 forumTopicId: 18216
@@ -9,7 +9,7 @@ dashedName: iterate-through-an-array-with-a-for-loop
 
 # --description--
 
-У JavaScript часто доводиться перебрати вміст масиву. Це можна зробити за допомогою циклу `for`. Цей код виводитиме кожен елемент масиву `arr` на консоль:
+A common task in JavaScript is to iterate through the contents of an array. One way to do that is with a `for` loop. This code will output each element of the array `arr` to the console:
 
 ```js
 const arr = [10, 9, 8, 7, 6];
@@ -19,33 +19,33 @@ for (let i = 0; i < arr.length; i++) {
 }
 ```
 
-Пам’ятайте, що масиви мають індексацію на основі нуля і це означає, що останнім індексом масиву є `length - 1`. Нашою умовою для цього циклу є `i < arr.length`, який зупиняє цикл, коли `i` дорівнює `length`. У цьому випадку останньою ітерацією є `i === 4`, тобто коли `i` дорівнює `arr.length - 1` і виводить `6` на консоль. Тоді `i` збільшується до `5`, і цикл закінчується через те, що `i < arr.length` є `false`.
+Remember that arrays have zero-based indexing, which means the last index of the array is `length - 1`. Our condition for this loop is `i < arr.length`, which stops the loop when `i` is equal to `length`. In this case the last iteration is `i === 4` i.e. when `i` becomes equal to `arr.length - 1` and outputs `6` to the console. Then `i` increases to `5`, and the loop terminates because `i < arr.length` is `false`.
 
 # --instructions--
 
-Оголосіть та ініціалізуйте змінну `total` до `0`. Використайте цикл `for`, щоб додати значення кожного елемента масиву `myArr` до `total`.
+Declare and initialize a variable `total` to `0`. Use a `for` loop to add the value of each element of the `myArr` array to `total`.
 
 # --hints--
 
-`total` повинна бути оголошеною та ініціалізованою до 0.
+`total` should be declared and initialized to 0.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/(var|let|const)\s*?total\s*=\s*0.*?;?/));
 ```
 
-`total` має дорівнювати 20.
+`total` should equal 20.
 
 ```js
 assert(total === 20);
 ```
 
-Ви повинні використати цикл `for`, щоб перебрати `myArr`.
+You should use a `for` loop to iterate through `myArr`.
 
 ```js
 assert(/for\s*\(/g.test(__helpers.removeJSComments(code)) && /myArr\s*\[/g.test(__helpers.removeJSComments(code)));
 ```
 
-Не потрібно намагатися напряму присвоїти значення 20 до `total`.
+You should not attempt to directly assign the value 20 to `total`.
 
 ```js
 assert(!__helpers.removeWhiteSpace(__helpers.removeJSComments(code)).match(/total[=+-]0*[1-9]+/gm));

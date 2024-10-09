@@ -1,6 +1,6 @@
 ---
 id: 587d7788367417b2b2512aa2
-title: Rendere più semplice la navigazione dagli screen reader con il riferimento alla barra di navigazione
+title: Make Screen Reader Navigation Easier with the nav Landmark
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/czVwWSv'
 forumTopicId: 301024
@@ -9,23 +9,23 @@ dashedName: make-screen-reader-navigation-easier-with-the-nav-landmark
 
 # --description--
 
-L'elemento `nav` è un altro elemento HTML5 con il riferimento incorporato per facilitare la navigazione degli screen reader. Questo tag serve a contenere i principali collegamenti di navigazione nella tua pagina.
+The `nav` element is another HTML5 item with the embedded landmark feature for easy screen reader navigation. This tag is meant to wrap around the main navigation links in your page.
 
-Se ci sono collegamenti al sito ripetuti in fondo alla pagina, non è necessario marcare anche quelli con un tag `nav`. Utilizzare un tag `footer` (coperto nella prossima sfida) è sufficiente.
+If there are repeated site links at the bottom of the page, it isn't necessary to markup those with a `nav` tag as well. Using a `footer` (covered in the next challenge) is sufficient.
 
 # --instructions--
 
-Camper Cat ha incluso link di navigazione nella parte superiore della sua pagina di allenamento, ma li ha avvolti in un tag `div`. Cambia il tag `div` in un tag `nav` per migliorare l'accessibilità della sua pagina.
+Camper Cat included navigation links at the top of his training page, but wrapped them in a `div`. Change the `div` to a `nav` tag to improve the accessibility on his page.
 
 # --hints--
 
-Il tuo codice dovrebbe avere un tag `nav`.
+Your code should have one `nav` tag.
 
 ```js
 assert.lengthOf(document.querySelectorAll('nav') , 1);
 ```
 
-I tuoi tag `nav` dovrebbero avvolgere i tag `ul` e gli elementi della lista.
+Your `nav` tags should wrap around the `ul` and its list items.
 
 ```js
 const nav = document.querySelector('nav');
@@ -33,13 +33,13 @@ const children = nav?.querySelectorAll(`:scope ${'ul'}`);
 assert.lengthOf(children,1);
 ```
 
-Il tuo codice non dovrebbe avere alcun tag `div`.
+Your code should not have any `div` tags.
 
 ```js
 assert.lengthOf(document.querySelectorAll('div') , 0);
 ```
 
-Il tuo elemento `nav` dovrebbe avere un tag di chiusura.
+Your `nav` element should have a closing tag.
 
 ```js
 assert.isTrue(code.match(/<\/nav>/g)?.length === code.match(/<nav>/g)?.length);

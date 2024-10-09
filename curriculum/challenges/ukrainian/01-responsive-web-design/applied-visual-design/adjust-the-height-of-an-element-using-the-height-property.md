@@ -1,6 +1,6 @@
 ---
 id: 587d7791367417b2b2512ab5
-title: Змініть висоту елементу за допомогою властивості висоти
+title: Adjust the Height of an Element Using the height Property
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cEDaDTN'
 forumTopicId: 301034
@@ -9,7 +9,7 @@ dashedName: adjust-the-height-of-an-element-using-the-height-property
 
 # --description--
 
-Ви можете вказати висоту елементу, використовуючи властивість `height` в CSS, схожу до властивості `width`. Ось приклад, який задає зображенню висоту в 20 пікселів:
+You can specify the height of an element using the `height` property in CSS, similar to the `width` property. Here's an example that changes the height of an image to 20px:
 
 ```css
 img {
@@ -19,13 +19,13 @@ img {
 
 # --instructions--
 
-Додайте властивість `height` до тегу `h4` і задайте йому значення у 25 пікселів.
+Add a `height` property to the `h4` tag and set it to 25px.
 
-**Примітка:** Вам може знадобитися збільшити масштаб на 100%, щоб пройти тест у цьому завданні.
+**Note:** You may need to be at 100% zoom to pass the test on this challenge.
 
 # --hints--
 
-Вам код має змінити значення властивості `height` тегу `h4` на 25 пікселів.
+Your code should change the `h4` `height` property to a value of 25 pixels.
 
 ```js
 const spaceFreeText = document.querySelector("style")?.textContent?.replace(/\s/g, ''); 

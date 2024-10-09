@@ -1,6 +1,6 @@
 ---
 id: 5cd9a70215d3c4e65518328f
-title: 使用遞歸創建一個倒計時
+title: Use Recursion to Create a Countdown
 challengeType: 1
 forumTopicId: 305925
 dashedName: use-recursion-to-create-a-countdown
@@ -8,11 +8,11 @@ dashedName: use-recursion-to-create-a-countdown
 
 # --description--
 
-在上一個<a href="/learn/javascript-algorithms-and-data-structures/basic-javascript/replace-loops-using-recursion" target="_blank" rel="noopener noreferrer nofollow">挑戰</a>中，你學習了怎樣用遞歸來代替 `for` 循環。 現在來學習一個更復雜的函數，函數返回一個從 `1` 到傳遞給函數的指定數字的連續數字數組。
+In a <a href="/learn/javascript-algorithms-and-data-structures/basic-javascript/replace-loops-using-recursion" target="_blank" rel="noopener noreferrer nofollow">previous challenge</a>, you learned how to use recursion to replace a `for` loop. Now, let's look at a more complex function that returns an array of consecutive integers starting with `1` through the number passed to the function.
 
-正如上一個挑戰提到的，會有一個 <dfn>base case</dfn>。 base case 告訴遞歸函數什麼時候不再需要調用其自身。 這是簡單 情況，返回得到的值。 還有 <dfn>recursive call</dfn>，繼續用不同的參數調用自身。 如果函數無誤，一直執行直到 base case 爲止。
+As mentioned in the previous challenge, there will be a <dfn>base case</dfn>. The base case tells the recursive function when it no longer needs to call itself. It is a simple case where the return value is already known. There will also be a <dfn>recursive call</dfn> which executes the original function with different arguments. If the function is written correctly, eventually the base case will be reached.
 
-比如，如果想寫一個遞歸函數，返回一個數字 `1` 到 `n` 的連續數組。 這個函數需要接收一個參數 `n` 代表最終數字。 然後會持續的調用自身，傳入一個比 `n` 更小的值一直到傳入的值是 `1` 爲止。 函數如下：
+For example, say you want to write a recursive function that returns an array containing the numbers `1` through `n`. This function will need to accept an argument, `n`, representing the final number. Then it will need to call itself with progressively smaller values of `n` until it reaches `1`. You could write the function as follows:
 
 ```javascript
 function countup(n) {
@@ -27,35 +27,35 @@ function countup(n) {
 console.log(countup(5));
 ```
 
-值 `[1, 2, 3, 4, 5]` 將顯示在控制檯中。
+The value `[1, 2, 3, 4, 5]` will be displayed in the console.
 
-起初，這似乎是違反直覺的，因爲 `n` 的值*遞減*，但是最終數組中的值卻*遞增*。 之所以發生這種情況，是因爲在遞歸調用返回之後，才調用 push。 在將 `n` pushed 進數組時，`countup(n - 1)` 已經調用賦值成功並返回了 `[1, 2, ..., n - 1]`。
+At first, this seems counterintuitive since the value of `n` *decreases*, but the values in the final array are *increasing*. This happens because the push happens last, after the recursive call has returned. At the point where `n` is pushed into the array, `countup(n - 1)` has already been evaluated and returned `[1, 2, ..., n - 1]`.
 
 # --instructions--
 
-已經定義了一個函數 `countdown`，函數有一個參數（`n`）。 函數應該基於參數 `n` 遞歸調用返回 `n` 到 `1` 的連續數字的數組。 如果函數以小於 1 的參數調用，函數應該返回空數組。 比如，用 `n = 5` 調用函數應該返回數組 `[5, 4, 3, 2, 1]`。 函數必需使用遞歸函數調用自身，不能使用任何形式的循環。
+We have defined a function called `countdown` with one parameter (`n`). The function should use recursion to return an array containing the integers `n` through `1` based on the `n` parameter. If the function is called with a number less than 1, the function should return an empty array. For example, calling this function with `n = 5` should return the array `[5, 4, 3, 2, 1]`. Your function must use recursion by calling itself and must not use loops of any kind.
 
 # --hints--
 
-`countdown(-1)` 應該返回一個空數組。
+`countdown(-1)` should return an empty array.
 
 ```js
 assert.isEmpty(countdown(-1));
 ```
 
-`countdown(10)` 應該返回 `[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]`。
+`countdown(10)` should return `[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]`
 
 ```js
 assert.deepStrictEqual(countdown(10), [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]);
 ```
 
-`countdown(5)` 應該返回 `[5, 4, 3, 2, 1]`。
+`countdown(5)` should return `[5, 4, 3, 2, 1]`
 
 ```js
 assert.deepStrictEqual(countdown(5), [5, 4, 3, 2, 1]);
 ```
 
-代碼不能包含任意形式的循環（`for`、`while` 或者高階函數如：`forEach`、`map`、`filter` 以及 `reduce`）。
+Your code should not rely on any kind of loops (`for`, `while` or higher order functions such as `forEach`, `map`, `filter`, and `reduce`).
 
 ```js
 assert(
@@ -63,7 +63,7 @@ assert(
 );
 ```
 
-應該用遞歸解決這個問題。
+You should use recursion to solve this problem.
 
 ```js
 assert(
@@ -71,7 +71,7 @@ assert(
 );
 ```
 
-不應使用全局變量來緩存數組。
+Global variables should not be used to cache the array.
 
 ```js
 countdown(1)

@@ -1,6 +1,6 @@
 ---
 id: 587d7dab367417b2b2512b70
-title: Вступ до каррінгу та часткового застосування
+title: Introduction to Currying and Partial Application
 challengeType: 1
 forumTopicId: 301232
 dashedName: introduction-to-currying-and-partial-application
@@ -8,11 +8,11 @@ dashedName: introduction-to-currying-and-partial-application
 
 # --description--
 
-<dfn>Арність</dfn> функції — це кількість необхідних аргументів. <dfn>Каррінгом</dfn> функції називають перетворення функції з n-ною арністю у n-ну кількість функцій з арністю 1.
+The <dfn>arity</dfn> of a function is the number of arguments it requires. <dfn>Currying</dfn> a function means to convert a function of N arity into N functions of arity 1.
 
-Іншими словами, структура функції змінюється так, що вона приймає один аргумент, потім повертається інша функція, яка приймає наступний аргумент і так далі.
+In other words, it restructures a function so it takes one argument, then returns another function that takes the next argument, and so on.
 
-Ось приклад:
+Here's an example:
 
 ```js
 function unCurried(x, y) {
@@ -30,16 +30,16 @@ const curried = x => y => x + y
 curried(1)(2)
 ```
 
-`curried(1)(2)` поверне `3`.
+`curried(1)(2)` would return `3`.
 
-Каррінг корисний для програми, якщо ви не можете надати всі аргументи до функції одночасно. Ви можете зберегти кожен виклик функції у змінній, що матиме посилання на повернуту функцію, яка прийме наступний аргумент (щойно він буде доступний). Ось приклад використання вищезгаданої функції каррінгу:
+This is useful in your program if you can't supply all the arguments to a function at one time. You can save each function call into a variable, which will hold the returned function reference that takes the next argument when it's available. Here's an example using the curried function in the example above:
 
 ```js
 const funcForY = curried(1);
 console.log(funcForY(2)); // 3
 ```
 
-<dfn>Часткове застосування</dfn> можна описати як застосування декількох аргументів до функції одночасно і повернення іншої функції, яка застосовується до більшої кількості аргументів. Ось приклад:
+Similarly, <dfn>partial application</dfn> can be described as applying a few arguments to a function at a time and returning another function that is applied to more arguments. Here's an example:
 
 ```js
 function impartial(x, y, z) {
@@ -52,29 +52,29 @@ partialFn(10); // 13
 
 # --instructions--
 
-Заповніть тіло функції `add` так, щоб вона використовувала каррінг для додавання параметрів `x`, `y` та `z`.
+Fill in the body of the `add` function so it uses currying to add parameters `x`, `y`, and `z`.
 
 # --hints--
 
-`add(10)(20)(30)` має повертати `60`.
+`add(10)(20)(30)` should return `60`.
 
 ```js
 assert(add(10)(20)(30) === 60);
 ```
 
-`add(1)(2)(3)` має повертати `6`.
+`add(1)(2)(3)` should return `6`.
 
 ```js
 assert(add(1)(2)(3) === 6);
 ```
 
-`add(11)(22)(33)` має повертати `66`.
+`add(11)(22)(33)` should return `66`.
 
 ```js
 assert(add(11)(22)(33) === 66);
 ```
 
-Ваш код повинен містити кінцеву інструкцію, яка повертає `x + y + z`.
+Your code should include a final statement that returns `x + y + z`.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/[xyz]\s*?\+\s*?[xyz]\s*?\+\s*?[xyz]/g));

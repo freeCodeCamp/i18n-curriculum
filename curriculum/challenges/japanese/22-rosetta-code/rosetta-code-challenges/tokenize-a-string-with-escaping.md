@@ -1,6 +1,6 @@
 ---
 id: 594faaab4e2a8626833e9c3d
-title: エスケープ文字のある文字列をトークン化する
+title: Tokenize a string with escaping
 challengeType: 1
 forumTopicId: 302338
 dashedName: tokenize-a-string-with-escaping
@@ -10,7 +10,7 @@ dashedName: tokenize-a-string-with-escaping
 
 Write a function or program that can split a string at each non-escaped occurrence of a separator character.
 
-次の 3 つの入力パラメータを受け取る必要があります:
+It should accept three input parameters:
 
 <ul>
   <li>The <strong>string</strong></li>
@@ -18,55 +18,55 @@ Write a function or program that can split a string at each non-escaped occurren
   <li>The <strong>escape character</strong></li>
 </ul>
 
-文字列のリストを出力する必要があります。
+It should output a list of strings.
 
-分割ルール:
+Rules for splitting:
 
 <ul>
   <li>The fields that were separated by the separators, become the elements of the output list.</li>
-  <li>空のフィールドは、開始時と終了時にも保存する必要があります。</li>
+  <li>Empty fields should be preserved, even at the start and end.</li>
 </ul>
 
-エスケープルール:
+Rules for escaping:
 
 <ul>
   <li>"Escaped" means preceded by an occurrence of the escape character that is not already escaped itself.</li>
-  <li>エスケープ文字が特別な意味を持たない文字の前に置かれた場合でも、エスケープとしてカウントされます (ただし、特別なことはしません)。</li>
-  <li>エスケープ処理のために使用されたエスケープ文字は、出力の一部にならないようにします。</li>
+  <li>When the escape character precedes a character that has no special meaning, it still counts as an escape (but does not do anything special).</li>
+  <li>Each occurrences of the escape character that was used to escape something, should not become part of the output.</li>
 </ul>
 
-関数が以下のテストケースを満たしていることを示してください。
+Demonstrate that your function satisfies the following test-case:
 
-以下の文字列が与えられました。
+Given the string
 
 <pre>one^|uno||three^^^^|four^^^|^cuatro|</pre>
 
-ここで、`|` を区切り文字として `^` をエスケープ文字として使用します。関数は次の配列を出力しなければなりません。
+and using `|` as a separator and `^` as escape character, your function should output the following array:
 
 <pre>  ['one|uno', '', 'three^^', 'four^|cuatro', '']
 </pre>
 
 # --hints--
 
-`tokenize` は関数とします。
+`tokenize` should be a function.
 
 ```js
 assert(typeof tokenize === 'function');
 ```
 
-`tokenize` は配列を返す必要があります。
+`tokenize` should return an array.
 
 ```js
 assert(typeof tokenize('a', 'b', 'c') === 'object');
 ```
 
-`tokenize('one^|uno||three^^^^|four^^^|^cuatro|', '|', '^')` は `['one|uno', '', 'three^^', 'four^|cuatro', '']` を返す必要があります。
+`tokenize('one^|uno||three^^^^|four^^^|^cuatro|', '|', '^')` should return `['one|uno', '', 'three^^', 'four^|cuatro', '']`
 
 ```js
 assert.deepEqual(tokenize(testStr1, '|', '^'), res1);
 ```
 
-`tokenize('a@&bcd&ef&&@@hi', '&', '@')` は `['a&bcd', 'ef', '', '@hi']` を返す必要があります。
+`tokenize('a@&bcd&ef&&@@hi', '&', '@')` should return `['a&bcd', 'ef', '', '@hi']`
 
 ```js
 assert.deepEqual(tokenize(testStr2, '&', '@'), res2);

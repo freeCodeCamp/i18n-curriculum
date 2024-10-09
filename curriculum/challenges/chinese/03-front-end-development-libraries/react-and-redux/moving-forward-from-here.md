@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d403614a
-title: 从这里前进
+title: Moving Forward From Here
 challengeType: 6
 forumTopicId: 301434
 dashedName: moving-forward-from-here
@@ -8,19 +8,19 @@ dashedName: moving-forward-from-here
 
 # --description--
 
-恭喜！ 你完成了 React 和 Redux 的所有课程！ 结束之前，还要再提一点。 通常，我们不会在这样的编辑器中编写 React 应用代码。 This challenge gives you a glimpse of what the syntax looks like if you're working with a file system on your own machine. 除了使用 `import` 语句（这些语句引入了各挑战中提供的所有依赖关系），其代码看起来类似。
+Congratulations! You finished the lessons on React and Redux. There's one last item worth pointing out before you move on. Typically, you won't write React apps in a code editor like this. This challenge gives you a glimpse of what the syntax looks like if you're working with a file system on your own machine. The code should look similar, except for the use of `import` statements (these pull in all of the dependencies that have been provided for you in the challenges).
 
-最后，写 React 和 Redux 的代码通常需要一些配置， 且很快会变得复杂起来。 如果你有兴趣在自己的机器上进行实验，<a href="https: www.freecodecamp.org/news/install-react-with-create-react-app/" target="_blank" rel="noopener noreferrer nofollow">Create React App</a> 已配置好并准备就绪。
+Finally, writing React and Redux code generally requires some configuration. This can get complicated quickly. If you are interested in experimenting on your own machine, the <a href="https://www.freecodecamp.org/news/install-react-with-create-react-app/" target="_blank" rel="noopener noreferrer nofollow">Create React App</a> comes configured and ready to go.
 
-或者，你可以在 CodePen 中启用 Babel 作为 JavaScript 预处理器，将 React 和 ReactDOM 添加为外部 JavaScript 资源，这样编写应用。
+Alternatively, you can enable Babel as a JavaScript Preprocessor in CodePen, add React and ReactDOM as external JavaScript resources, and work there as well.
 
 # --instructions--
 
-在控制台输出消息 `'Now I know React and Redux!'`。
+Log the message `'Now I know React and Redux!'` to the console.
 
 # --hints--
 
-应该将 `Now I know React and Redux!` 这一消息应输出到控制台。
+The message `Now I know React and Redux!` should be logged to the console.
 
 ```js
 (getUserInput) =>

@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d403614a
-title: Von hier aus weitergehen
+title: Moving Forward From Here
 challengeType: 6
 forumTopicId: 301434
 dashedName: moving-forward-from-here
@@ -8,19 +8,19 @@ dashedName: moving-forward-from-here
 
 # --description--
 
-Glückwunsch! Du hast die Lektionen über React und Redux abgeschlossen. Bevor du weitermachst, gibt es noch einen letzten Punkt, den du beachten solltest. Normalerweise schreibst du React-Apps nicht in einem Code-Editor wie diesem. Diese Aufgabe gibt dir einen Einblick, wie die Syntax aussieht, wenn du mit einem Dateisystem auf deinem eigenen Rechner arbeitest. Der Code sollte ähnlich aussehen, bis auf die Verwendung von `import`-Anweisungen (diese ziehen alle Abhängigkeiten herein, die dir in den Aufgaben zur Verfügung gestellt wurden).
+Congratulations! You finished the lessons on React and Redux. There's one last item worth pointing out before you move on. Typically, you won't write React apps in a code editor like this. This challenge gives you a glimpse of what the syntax looks like if you're working with a file system on your own machine. The code should look similar, except for the use of `import` statements (these pull in all of the dependencies that have been provided for you in the challenges).
 
-Schließlich erfordert das Schreiben von React- und Redux-Code in der Regel eine gewisse Konfiguration. Das kann schnell kompliziert werden. Wenn du auf deinem eigenen Rechner experimentieren möchtest, ist die <a href="https://www.freecodecamp.org/news/install-react-with-create-react-app/" target="_blank" rel="noopener noreferrer nofollow">Create React App</a> bereits konfiguriert und einsatzbereit.
+Finally, writing React and Redux code generally requires some configuration. This can get complicated quickly. If you are interested in experimenting on your own machine, the <a href="https://www.freecodecamp.org/news/install-react-with-create-react-app/" target="_blank" rel="noopener noreferrer nofollow">Create React App</a> comes configured and ready to go.
 
-Alternativ kannst du Babel als JavaScript-Präprozessor in CodePen aktivieren, React und ReactDOM als externe JavaScript-Ressourcen hinzufügen und auch dort arbeiten.
+Alternatively, you can enable Babel as a JavaScript Preprocessor in CodePen, add React and ReactDOM as external JavaScript resources, and work there as well.
 
 # --instructions--
 
-Logge die Meldung `'Now I know React and Redux!'` in der Konsole.
+Log the message `'Now I know React and Redux!'` to the console.
 
 # --hints--
 
-Die Meldung `Now I know React and Redux!` sollte in der Konsole geloggt werden.
+The message `Now I know React and Redux!` should be logged to the console.
 
 ```js
 (getUserInput) =>

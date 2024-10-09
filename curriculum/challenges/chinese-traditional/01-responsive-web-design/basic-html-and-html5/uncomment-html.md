@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedf08802
-title: 去除 HTML 的註釋
+title: Uncomment HTML
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVMPUv/cBmG9T7'
 forumTopicId: 18329
@@ -9,37 +9,37 @@ dashedName: uncomment-html
 
 # --description--
 
-註釋的作用是給代碼添加一些說明，方便團隊合作或日後自己查看，但又不影響代碼本身。
+Commenting is a way that you can leave comments for other developers within your code without affecting the resulting output that is displayed to the end user.
 
-註釋的另一個用途就是在不刪除代碼的前提下，讓代碼不起作用。
+Commenting is also a convenient way to make code inactive without having to delete it entirely.
 
-在 HTML 中，註釋的開始標籤是 `<!--`，結束標籤是 `-->`。
+Comments in HTML start with `<!--` and end with a `-->`
 
 # --instructions--
 
-現在我們反其道而行之，去掉 `h1` 元素、`h2` 元素、`p` 元素的註釋。
+Uncomment your `h1`, `h2` and `p` elements.
 
 # --hints--
 
-頁面上應存在 `h1` 元素。
+Your `h1` element should be visible on the page by uncommenting it.
 
 ```js
 assert($('h1').length > 0);
 ```
 
-頁面上應存在 `h2` 元素。
+Your `h2` element should be visible on the page by uncommenting it.
 
 ```js
 assert($('h2').length > 0);
 ```
 
-頁面上應存在 `p` 元素。
+Your `p` element should be visible on the page by uncommenting it.
 
 ```js
 assert($('p').length > 0);
 ```
 
-應刪除註釋的結束標籤 `-->`。
+No trailing comment tags should be visible on the page (i.e. `-->`).
 
 ```js
 assert(!$('*:contains("-->")')[1]);

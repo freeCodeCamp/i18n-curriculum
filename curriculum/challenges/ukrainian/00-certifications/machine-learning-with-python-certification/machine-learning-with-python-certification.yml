@@ -1,23 +1,22 @@
----
 id: 5e46fc95ac417301a38fb935
-title: Сертифікація «Машинне навчання з Python»
+title: Machine Learning with Python Certification
 certification: machine-learning-with-python
 challengeType: 7
 isPrivate: true
 tests:
   - 
     id: 5e46f8d6ac417301a38fb92d
-    title: Камінь-ножиці-папір
+    title: Rock Paper Scissors
   - 
     id: 5e46f8dcac417301a38fb92e
-    title: Класифікатор зображень котів і собак
+    title: Cat and Dog Image Classifier
   - 
     id: 5e46f8e3ac417301a38fb92f
-    title: Інструмент рекомендацій книг із використанням KNN
+    title: Book Recommendation Engine using KNN
   - 
     id: 5e46f8edac417301a38fb930
-    title: Калькулятор лінійної регресії витрат на охорону здоров'я
+    title: Linear Regression Health Costs Calculator
   - 
     id: 5e46f8edac417301a38fb931
-    title: Нейронна мережа для класифікації текстів SMS
+    title: Neural Network SMS Text Classifier
 

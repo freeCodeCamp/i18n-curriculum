@@ -1,13 +1,13 @@
 ---
 id: 6617a128e90de1b3fd10bd4d
-title: Lição A de Aprenda funções básicas
+title: Learn Function Basics Lesson A
 challengeType: 15
 dashedName: learn-function-basics-lesson-a
 ---
 
 # --description--
 
-Vamos discutir parâmetros e argumentos no contexto da seguinte função de exemplo:
+Let’s discuss parameters and arguments in the context of the following example function:
 
 ```js
 function favoriteAnimal(animal) {
@@ -17,31 +17,31 @@ function favoriteAnimal(animal) {
 console.log(favoriteAnimal('Goat'));
 ```
 
-Em JavaScript, parâmetros são os itens listados entre os parênteses `()` na declaração da função. Argumentos de função são os valores reais que você decide passar para a função.
+In JavaScript, parameters are the items listed between the parentheses `()` in the function declaration. Function arguments are the actual values you decide to pass to the function.
 
-No exemplo acima, a definição da função é escrita na primeira linha: `function favoriteAnimal(animal)`. O parâmetro, `animal`, é encontrado dentro dos parênteses. Você poderia facilmente substituir `animal` por `pet`, `x` ou `blah`. Neste caso, porém, nomear o parâmetro `animal` dá a alguém que está lendo o código um pouco de contexto, para que não precise adivinhar o que `animal` pode conter.
+In the example above, the function definition is written on the first line: `function favoriteAnimal(animal)`. The parameter, `animal`, is found inside the parentheses. You could just as easily replace `animal` with `pet`, `x`, or `blah`. But in this case, naming the parameter `animal` gives someone reading your code a bit of context so that they don't have to guess what `animal` may eventually contain.
 
 # --questions--
 
 ## --text--
 
-O que o parâmetro na função `favoriteAnimal` representa no contexto das funções em JavaScript?
+What does the parameter in the function `favoriteAnimal` represent in the context of JavaScript functions?
 
 ## --answers--
 
-O valor real que é usado ao chamar a função.
+The actual value that is used when calling the function.
 
 ---
 
-Um espaço reservado para o valor que será passado para a função quando ela for chamada.
+A placeholder for the value that will be passed to the function when it is called.
 
 ---
 
-O nome da função.
+The name of the function.
 
 ---
 
-O resultado da execução da função.
+The result of the function execution.
 
 ## --video-solution--
 

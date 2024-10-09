@@ -1,6 +1,6 @@
 ---
 id: a97fd23d9b809dac9921074f
-title: Додаткові аргументи
+title: Arguments Optional
 challengeType: 1
 forumTopicId: 14271
 dashedName: arguments-optional
@@ -8,71 +8,71 @@ dashedName: arguments-optional
 
 # --description--
 
-Створіть функцію, яка додає два аргументи. Якщо вказано лише один аргумент, то поверніть функцію, яка очікує один аргумент і повертає суму.
+Create a function that sums two arguments together. If only one argument is provided, then return a function that expects one argument and returns the sum.
 
-Наприклад, `addTogether(2, 3)` має повертати `5`, а `addTogether(2)` має повертати функцію.
+For example, `addTogether(2, 3)` should return `5`, and `addTogether(2)` should return a function.
 
-Якщо викликати функцію, повернуту з одним аргументом, то повернеться сума:
+Calling this returned function with a single argument will then return the sum:
 
 ```js
 var sumTwoAnd = addTogether(2);
 ```
 
-`sumTwoAnd(3)` повертає `5`.
+`sumTwoAnd(3)` returns `5`.
 
-Якщо жоден з аргументів не є дійсним числом, поверніть undefined.
+If either argument isn't a valid number, return undefined.
 
 # --hints--
 
-`addTogether(2, 3)` має повертати 5.
+`addTogether(2, 3)` should return 5.
 
 ```js
 assert.deepEqual(addTogether(2, 3), 5);
 ```
 
-`addTogether(23.4, 30)` має повертати 53.4.
+`addTogether(23.4, 30)` should return 53.4.
 
 ```js
 assert.deepEqual(addTogether(23.4, 30), 53.4);
 ```
 
-`addTogether("2", 3)` має повертати `undefined`.
+`addTogether("2", 3)` should return `undefined`.
 
 ```js
 assert.isUndefined(addTogether('2', 3));
 ```
 
-`addTogether(5, undefined)` має повертати `undefined`.
+`addTogether(5, undefined)` should return `undefined`.
 
 ```js
 assert.isUndefined(addTogether(5, undefined));
 ```
 
-`addTogether("https://www.youtube.com/watch?v=dQw4w9WgXcQ")` має повертати `undefined`.
+`addTogether("https://www.youtube.com/watch?v=dQw4w9WgXcQ")` should return `undefined`.
 
 ```js
 assert.isUndefined(addTogether('https://www.youtube.com/watch?v=dQw4w9WgXcQ'));
 ```
 
-`addTogether(5)` має повертати функцію.
+`addTogether(5)` should return a function.
 
 ```js
 assert.deepEqual(typeof(addTogether(5)), 'function');
 ```
 
-`addTogether(5)(7)` має повертати 12.
+`addTogether(5)(7)` should return 12.
 
 ```js
 assert.deepEqual(addTogether(5)(7), 12);
 ```
 
-`addTogether(2)([3])` має повертати `undefined`.
+`addTogether(2)([3])` should return `undefined`.
 
 ```js
 assert.isUndefined(addTogether(2)([3]));
 ```
 
-`addTogether(2, "3")` має повертати `undefined`.
+`addTogether(2, "3")` should return `undefined`.
 
 ```js
 assert.isUndefined(addTogether(2, '3'));

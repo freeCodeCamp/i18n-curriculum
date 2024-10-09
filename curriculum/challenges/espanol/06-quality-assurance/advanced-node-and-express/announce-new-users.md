@@ -1,6 +1,6 @@
 ---
 id: 589fc832f9fc0f352b528e78
-title: Anuncia nuevos usuarios
+title: Announce New Users
 challengeType: 2
 forumTopicId: 301546
 dashedName: announce-new-users
@@ -8,9 +8,9 @@ dashedName: announce-new-users
 
 # --description--
 
-Muchas salas de chat son capaces de anunciar cuando un usuario se conecta o se desconecta y luego lo muestra a todos los usuarios conectados en el chat. Viendo como si ya estuvieras emitiendo un evento al conectar y desconectar, sólo tendrás que modificar este evento para soportar una característica de este tipo. La forma más lógica de hacerlo es enviando 3 datos con el evento: el nombre del usuario que se conectó/desconectó, el recuento actual de usuarios y si ese nombre se conectó o desconectó.
+Many chat rooms are able to announce when a user connects or disconnects and then display that to all of the connected users in the chat. Seeing as though you already are emitting an event on connect and disconnect, you will just have to modify this event to support such a feature. The most logical way of doing so is sending 3 pieces of data with the event: the username of the user who connected/disconnected, the current user count, and if that username connected or disconnected.
 
-Cambia el nombre del evento a `'user'`, y pasa un objeto a lo largo de los campos que contengan `username`, `currentUsers`, y `connected` (esto será, `true` en caso de conexión, o `false` para desconexión del usuario enviado). Asegúrate de cambiar los dos eventos `'user count'` y configura el de desconexión para enviar `false` para el campo `connected` en lugar de `true` como el evento emitido al conectar.
+Change the event name to `'user'`, and pass an object along containing the fields `username`, `currentUsers`, and `connected` (to be `true` in case of connection, or `false` for disconnection of the user sent). Be sure to change both `'user count'` events and set the disconnect one to send `false` for the field `connected` instead of `true` like the event emitted on connect.
 
 ```js
 io.emit('user', {
@@ -20,9 +20,9 @@ io.emit('user', {
 });
 ```
 
-¡Ahora tu cliente tendrá toda la información necesaria para mostrar correctamente el recuento de usuarios actual y anunciar cuando un usuario se conecta o se desconecta! Para manejar este evento en el lado del cliente debemos escuchar `'user'`, luego actualiza el recuento de usuarios usando jQuery para cambiar el texto de `#num-users` a `'{NUMBER} users online'`, así como añadir un `<li>` a la lista desordenada con id `messages` con `'{NAME} has {joined/left} the chat.'`.
+Now your client will have all the necessary information to correctly display the current user count and announce when a user connects or disconnects! To handle this event on the client side we should listen for `'user'`, then update the current user count by using jQuery to change the text of `#num-users` to `'{NUMBER} users online'`, as well as append a `<li>` to the unordered list with id `messages` with `'{NAME} has {joined/left} the chat.'`.
 
-Una implementación de esto podría parecerse a lo siguiente:
+An implementation of this could look like the following:
 
 ```js
 socket.on('user', data => {
@@ -34,7 +34,7 @@ socket.on('user', data => {
 });
 ```
 
-Envía tu página cuando creas que lo has hecho bien. Si te encuentras con errores, puedes consultar el <a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135/3#announce-new-users-10" target="_blank" rel="noopener noreferrer nofollow">proyecto completado hasta este momento</a>.
+Submit your page when you think you've got it right. If you're running into errors, you can check out <a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135/3#announce-new-users-10" target="_blank" rel="noopener noreferrer nofollow">the project completed up to this point </a>.
 
 # --hints--
 
@@ -54,7 +54,7 @@ async (getUserInput) => {
 }
 ```
 
-El cliente debe manejar y mostrar correctamente los nuevos datos del evento `'user'`.
+Client should properly handle and display the new data from event `'user'`.
 
 ```js
 async (getUserInput) => {

@@ -1,6 +1,6 @@
 ---
 id: 587d778b367417b2b2512aa8
-title: Додайте доступне поле для вибору дати
+title: Add an Accessible Date Picker
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cR3bRbCV'
 forumTopicId: 301008
@@ -9,13 +9,13 @@ dashedName: add-an-accessible-date-picker
 
 # --description--
 
-Форми часто містять поле `input`, яке можна використовувати, щоб створити декілька різних елементів керування формою. Атрибут `type` на цьому елементі позначає, який різновид елементу `input` буде створений.
+Forms often include the `input` field, which can be used to create several different form controls. The `type` attribute on this element indicates what kind of `input` element will be created.
 
-Ви могли помітити типи введення `text` і `submit` у попередніх завданнях; HTML5 запропонував опцію, щоб вказати поле `date`. Залежно від підтримки браузера, поле вибору дати з'являється в полі `input`, коли воно у фокусі, що спрощує заповнення форми для всіх користувачів.
+You may have noticed the `text` and `submit` input types in prior challenges, and HTML5 introduced an option to specify a `date` field. Depending on browser support, a date picker shows up in the `input` field when it's in focus, which makes filling in a form easier for all users.
 
-У старих браузерах за замовчуванням буде відтворюватися тип `text`, тож варто показати користувачам очікуваний формат дати в `label` або тексті `placeholder` про всяк випадок.
+For older browsers, the type will default to `text`, so it helps to show users the expected date format in the `label` or `placeholder` text just in case.
 
-Наприклад:
+Here's an example:
 
 ```html
 <label for="input1">Enter a date:</label>
@@ -24,29 +24,29 @@ dashedName: add-an-accessible-date-picker
 
 # --instructions--
 
-Кіт Кампер організовує турнір у Mortal Kombat і хоче опитати своїх супротивників, щоб визначити найкращу дату. Додайте теґ `input` з атрибутом `type` для `date`, атрибут `id` для `pickdate` і атрибут `name` для `date`.
+Camper Cat is setting up a Mortal Kombat tournament and wants to ask his competitors to see what date works best. Add an `input` tag with a `type` attribute of `date`, an `id` attribute of `pickdate`, and a `name` attribute of `date`.
 
 # --hints--
 
-Ваш код має додати один теґ `input` для поля вибору дати.
+Your code should add one `input` tag for the date selector field.
 
 ```js
 assert.lengthOf(document.querySelectorAll('input'), 2);
 ```
 
-Ваш теґ `input` повинен містити атрибут `type` зі значенням `date`.
+Your `input` tag should have a `type` attribute with a value of `date`.
 
 ```js
 assert.equal(document.querySelector('input')?.getAttribute('type'), 'date');
 ```
 
-Ваш теґ `input` повинен містити атрибут `id` зі значенням `pickdate`.
+Your `input` tag should have an `id` attribute with a value of `pickdate`.
 
 ```js
 assert.equal(document.querySelector('input')?.getAttribute('id'),'pickdate');
 ```
 
-Ваш теґ `input` повинен містити атрибут `name` зі значенням `date`.
+Your `input` tag should have a `name` attribute with a value of `date`.
 
 ```js
 assert.equal(document.querySelector('input')?.getAttribute('name'), 'date');

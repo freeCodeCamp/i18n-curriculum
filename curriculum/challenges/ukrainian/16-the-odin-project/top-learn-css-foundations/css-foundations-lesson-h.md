@@ -1,14 +1,14 @@
 ---
 id: 63ee354c0d8d4841c3a70921
 videoId: LGQuIIv2RVA
-title: Основи CSS. Урок №8
+title: CSS Foundations Lesson H
 challengeType: 15
 dashedName: css-foundations-lesson-h
 ---
 
 # --description--
 
-Вбудований `CSS` дозволяє додавати стилі одразу до елементів `HTML`, хоча цей метод нерекомендований:
+Inline `CSS` makes it possible to add styles directly to `HTML` elements, though this method isn’t as recommended:
 
 ```html
 <body>
@@ -16,29 +16,29 @@ dashedName: css-foundations-lesson-h
 </body>
 ```
 
-Потрібно зазначити, що тут немає селекторів, оскільки стилі додаються одразу до початкового тегу `<div>`. Ви маєте атрибут `style`, значення якого всередині пари лапок є оголошеннями.
+The first thing to note is that there aren't any selectors here, since the styles are being added directly to the opening `<div>` tag itself. Next, you have the `style` attribute, with its value within the pair of quotation marks being the declarations.
 
-Якщо вам потрібно додати унікальний стиль для одного елементу, цей метод підходить. Однак це нерекомендований спосіб додавання CSS до HTML через декілька причин:
+If you need to add a unique style for a single element, this method can work just fine. Generally, though, this isn’t exactly a recommended way for adding CSS to HTML for a few reasons:
 
-Все може швидко стати досить заплутаним, як тільки ви почнете додавати багато оголошень до одного елемента, забруднюючи свій файл HTML. Якщо ви хочете надати багатьом елементам одного стилю, ви копіюватимете та вставлятимете їх по декілька разів, що призведе до непотрібного повторення. Будь-який вбудований CSS перекриватиме інші два методи, що може призвести до несподіваних результатів. (Ми не будемо вдаватися в деталі, але насправді це можна використати на користь).
+It can quickly become pretty messy once you start adding a lot of declarations to a single element, causing your HTML file to become unnecessarily bloated. If you want many elements to have the same style, you would have to copy + paste the same style to each individual element, causing lots of unnecessary repetition and more bloat. Any inline CSS will override the other two methods, which can cause unexpected results. (While you won’t dive into it here, this can actually be taken advantage of).
 
 # --questions--
 
 ## --text--
 
-Що з переліченого є головним недоліком вбудованого CSS?
+Which of the following is the main disadvantage of using inline CSS?
 
 ## --answers--
 
-Все може швидко стати досить заплутаним, як тільки ви почнете додавати багато оголошень до одного елемента, забруднюючи свій файл HTML.
+It can quickly become pretty messy once you start adding a lot of declarations to a single element, causing your HTML file to become unnecessarily bloated.
 
 ---
 
-Вбудований CSS вимагає використання селекторів, що може бути складним для початківців.
+It requires using selectors, which can be complicated for beginners.
 
 ---
 
-Будь-який вбудований CSS перекриватиме інші два методи (внутрішній та зовнішній), що може призвести до несподіваних результатів.
+Any inline CSS will override the other two methods (internal and external), which can cause unexpected results.
 
 
 ## --video-solution--

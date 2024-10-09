@@ -1,6 +1,6 @@
 ---
 id: 587d7b8d367417b2b2512b5b
-title: Aprende sobre programación funcional
+title: Learn About Functional Programming
 challengeType: 1
 forumTopicId: 301233
 dashedName: learn-about-functional-programming
@@ -8,31 +8,31 @@ dashedName: learn-about-functional-programming
 
 # --description--
 
-La programación funcional es un estilo de programación donde las soluciones son simples, funciones aisladas, sin ningún efecto secundario fuera del ámbito de la función: `INPUT -> PROCESS -> OUTPUT`
+Functional programming is a style of programming where solutions are simple, isolated functions, without any side effects outside of the function scope: `INPUT -> PROCESS -> OUTPUT`
 
-La programación funcional se refiere a:
+Functional programming is about:
 
-1) Funciones aisladas: sin dependencia alguna del estado del programa, el cual incluye variables globales sujetas a cambios
+1) Isolated functions - there is no dependence on the state of the program, which includes global variables that are subject to change
 
-2) Funciones puras: una misma entrada siempre da la misma salida
+2) Pure functions - the same input always gives the same output
 
-3) Funciones con efectos secundarios limitados: cualquier cambio o mutación en el estado del programa fuera de la función son cuidadosamente controlados
+3) Functions with limited side effects - any changes, or mutations, to the state of the program outside the function are carefully controlled
 
 # --instructions--
 
-A los miembros de freeCodeCamp les encanta el té.
+The members of freeCodeCamp happen to love tea.
 
-En el editor de código, las funciones `prepareTea` y `getTea` ya están definidas. Llama a la función `getTea` para obtener 40 tazas de té para el equipo y guárdalas en la variable `tea4TeamFCC`.
+In the code editor, the `prepareTea` and `getTea` functions are already defined for you. Call the `getTea` function to get 40 cups of tea for the team, and store them in the `tea4TeamFCC` variable.
 
 # --hints--
 
-La variable `tea4TeamFCC` debe contener 40 tazas de té para el equipo.
+The `tea4TeamFCC` variable should hold 40 cups of tea for the team.
 
 ```js
 assert(tea4TeamFCC.length === 40);
 ```
 
-La variable `tea4TeamFCC` debe contener tazas de té verde.
+The `tea4TeamFCC` variable should hold cups of green tea.
 
 ```js
 assert(tea4TeamFCC[0] === 'greenTea');

@@ -1,19 +1,19 @@
 ---
 id: 656abcd4cccfc84bf50f861b
-title: Завдання 79
+title: Task 79
 challengeType: 19
 dashedName: task-79
 ---
 
 # --description--
 
-В офісі часто використовують `these` та `those`, щоб вказати на предмети. Пам’ятайте, що `these` вказує на предмети, розташовані близько, а `those` вказує на предмети, розташовані далеко.
+In an office setting, it's common to point out items using `these` and `those`. Remember, `these` points to items near you, while `those` points to items further away.
 
 # --questions--
 
 ## --text--
 
-В якому реченні правильно використано `these` та `those`?
+Which sentence correctly differentiates between `these` and `those`?
 
 ## --answers--
 
@@ -21,7 +21,7 @@ dashedName: task-79
 
 ### --feedback--
 
-Знайдіть речення, де використано `these` для декількох предметів поблизу та `those` для декількох предметів далеко.
+Look for a sentence that uses `these` for multiple items nearby and `those` for multiple items at a distance or not being directly addressed.
 
 ---
 
@@ -29,7 +29,7 @@ dashedName: task-79
 
 ### --feedback--
 
-Знайдіть речення, де використано `these` для декількох предметів поблизу та `those` для декількох предметів далеко.
+Look for a sentence that uses `these` for multiple items nearby and `those` for multiple items at a distance or not being directly addressed.
 
 ---
 
@@ -41,7 +41,7 @@ dashedName: task-79
 
 ### --feedback--
 
-Знайдіть речення, де використано `these` для декількох предметів поблизу та `those` для декількох предметів далеко.
+Look for a sentence that uses `these` for multiple items nearby and `those` for multiple items at a distance or not being directly addressed.
 
 ## --video-solution--
 

@@ -1,13 +1,13 @@
 ---
 id: 5dfa30b9eacea3f48c6300ad
-title: Hatua ya 15
+title: Step 15
 challengeType: 0
 dashedName: step-15
 ---
 
 # --description--
 
-Katika hatua za awali ulitumia kipengele cha nanga kugeuza maandishi kuwa kiungo. Aina zingine za maudhui pia zinaweza kugeuzwa kuwa kiunga kwa kuifunga kwa tagi za nanga.
+In previous steps you used an anchor element to turn text into a link. Other types of content can also be turned into a link by wrapping it in anchor tags.
 
 Here is an example of turning an image into a link:
 
@@ -17,11 +17,11 @@ Here is an example of turning an image into a link:
 </a>
 ```
 
-Geuza picha kuwa kiungo kwa kuizunguka na tagi za vipengele zinazofaa. Tumia `https://freecatphotoapp.com` kama thamani ya sifa `href`.
+Turn the image into a link by surrounding it with necessary element tags. Use `https://freecatphotoapp.com` as the anchor's `href` attribute value.
 
 # --hints--
 
-You should have an `img` element with a `src` value of `https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg`. Huenda umeifuta kwa bahati mbaya.
+You should have an `img` element with a `src` value of `https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg`. You may have accidentally deleted it.
 
 ```js
 assert(
@@ -31,37 +31,37 @@ assert(
 );
 ```
 
-Kipengele chako cha nanga (`a`) kinapaswa kuwa na tagi ya ufunguzi. Tagi za ufunguzi zina sintaksia ifuatayo: `<elementName>`.
+Your anchor (`a`) element should have an opening tag. Opening tags have this syntax: `<elementName>`.
 
 ```js
 assert(document.querySelectorAll('a').length >= 2);
 ```
 
-Unakosa tagi ya kufunga ya (`a`) baada ya picha.
+You are missing a closing (`a`) tag after the image.
 
 ```js
 assert(document.querySelectorAll('a').length === 2);
 ```
 
-Kipengele chako cha nanga (`a`) kinapaswa kuwa na tagi ya kufunga. Tagi za kufunga zina `/` mara baada ya herufi ya `<`.
+Your anchor (`a`) element should have a closing tag. Closing tags have a `/` just after the `<` character.
 
 ```js
 assert(code.match(/<\/a>/g).length >= 2);
 ```
 
-Unapaswa kuongeza tu tagi moja ya kufunga ya (`a`). Tafadhali ondoa ziada yoyote.
+You should only add one closing anchor (`a`) tag. Please remove any extras.
 
 ```js
 assert(code.match(/<\/a>/g).length === 2);
 ```
 
-Kipengele chako cha nanga (`a`) hakina sifa ya `href`. Hakikisha kuwa kuna nafasi baada ya jina la tagi inayofungua na/au kuna nafasi kabla ya majina yote ya sifa.
+Your anchor (`a`) element does not have an `href` attribute. Check that there is a space after the opening tag's name and/or there are spaces before all attribute names.
 
 ```js
 assert(document.querySelector('a').hasAttribute('href'));
 ```
 
-Kipengele chako cha nanga (`a`) kinapaswa kuunganishwa na `https://freecatphotoapp.com`. Aidha umesahau URL au umeandika makosa.
+Your anchor (`a`) element should link to `https://freecatphotoapp.com`. You have either omitted the URL or have a typo.
 
 ```js
 assert(
@@ -70,7 +70,7 @@ assert(
 );
 ```
 
-Kipengee chako cha `img` kinapaswa kuwekwa ndani ya kipengele cha nanga `a`. Kipengele kizima cha `img` kinafaa kuwa ndani ya tagi za ufunguzi na za kufunga za kipengele cha nanga (`a`).
+Your `img` element should be nested within the anchor (`a`) element. The entire `img` element should be inside the opening and closing tags of the anchor (`a`) element.
 
 ```js
 assert(document.querySelector('img').parentNode.nodeName === 'A');

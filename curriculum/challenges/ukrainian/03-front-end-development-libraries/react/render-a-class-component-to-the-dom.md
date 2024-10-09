@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d4036167
-title: Відтворіть класовий компонент в DOM
+title: Render a Class Component to the DOM
 challengeType: 6
 forumTopicId: 301404
 dashedName: render-a-class-component-to-the-dom
@@ -8,19 +8,19 @@ dashedName: render-a-class-component-to-the-dom
 
 # --description--
 
-Ви вже використовували ReactDOM API в попередніх завданнях, щоб відтворити елементи JSX в DOM. Процес відтворення компонентів React буде схожим. У попередніх завданнях ми фокусувались на компонентах та композиції, тому відтворення виконувалось за замовчуванням. Однак жоден з написаного коду React не буде відтворюватись в DOM без виклику ReactDOM API.
+You may remember using the ReactDOM API in an earlier challenge to render JSX elements to the DOM. The process for rendering React components will look very similar. The past few challenges focused on components and composition, so the rendering was done for you behind the scenes. However, none of the React code you write will render to the DOM without making a call to the ReactDOM API.
 
-Ось оновлення синтаксису: `ReactDOM.render(componentToRender, targetNode)`. Першим аргументом є компонент React, який ви хочете відтворити. Другим аргументом є вузол DOM, де ви хочете відтворити компонент.
+Here's a refresher on the syntax: `ReactDOM.render(componentToRender, targetNode)`. The first argument is the React component that you want to render. The second argument is the DOM node that you want to render that component within.
 
-Компоненти React передаються до `ReactDOM.render()` дещо інакше, ніж елементи JSX. Для елементів JSX ви передаєте назву елемента, який хочете відтворити. А для компонентів React потрібно використати той самий синтаксис, що й для відтворення вкладеного компонента: `ReactDOM.render(<ComponentToRender />, targetNode)`. Такий синтаксис використовується як для класових, так і для функціональних компонентів ES6.
+React components are passed into `ReactDOM.render()` a little differently than JSX elements. For JSX elements, you pass in the name of the element that you want to render. However, for React components, you need to use the same syntax as if you were rendering a nested component, for example `ReactDOM.render(<ComponentToRender />, targetNode)`. You use this syntax for both ES6 class components and functional components.
 
 # --instructions--
 
-Компоненти `Fruits` та `Vegetables` вже визначені. Відтворіть обидва компоненти як дочірні компоненти компонента `TypesOfFood`, а потім відтворіть `TypesOfFood` в DOM. Ви також можете використати `div` з `id='challenge-node'`.
+Both the `Fruits` and `Vegetables` components are defined for you behind the scenes. Render both components as children of the `TypesOfFood` component, then render `TypesOfFood` to the DOM. There is a `div` with `id='challenge-node'` available for you to use.
 
 # --hints--
 
-Компонент `TypesOfFood` має повернути єдиний елемент `div`.
+The `TypesOfFood` component should return a single `div` element.
 
 ```js
 assert(
@@ -31,7 +31,7 @@ assert(
 );
 ```
 
-Компонент `TypesOfFood` має відтворити компонент `Fruits` після елемента `h1`.
+The `TypesOfFood` component should render the `Fruits` component after the `h1` element.
 
 ```js
 assert(
@@ -42,7 +42,7 @@ assert(
 );
 ```
 
-Компонент `TypesOfFood` має відтворити компонент `Vegetables` після `Fruits`.
+The `TypesOfFood` component should render the `Vegetables` component after `Fruits`.
 
 ```js
 assert(
@@ -53,7 +53,7 @@ assert(
 );
 ```
 
-Компонент `TypesOfFood` має відтворитись в DOM в межах `div` з id зі значенням `challenge-node`.
+The `TypesOfFood` component should render to the DOM within the `div` with the id `challenge-node`.
 
 ```js
 assert(

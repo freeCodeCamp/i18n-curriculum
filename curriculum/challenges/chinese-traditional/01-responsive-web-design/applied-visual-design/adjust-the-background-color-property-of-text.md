@@ -1,6 +1,6 @@
 ---
 id: 587d781b367417b2b2512abc
-title: 調整文本的背景色
+title: Adjust the background-color Property of Text
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cEDqwA6'
 forumTopicId: 301032
@@ -9,23 +9,23 @@ dashedName: adjust-the-background-color-property-of-text
 
 # --description--
 
-爲了讓頁面更美觀，除了設置整個頁面的背景色以及文字顏色外，你還可以單獨設置文字的背景色，即在文字的父元素上添加 `background-color` 屬性。 在本挑戰裏我們將使用 `rgba()` 顏色，而不是之前學到的 `hex` 編碼或者 `rgb()` 顏色。
+Instead of adjusting your overall background or the color of the text to make the foreground easily readable, you can add a `background-color` to the element holding the text you want to emphasize. This challenge uses `rgba()` instead of `hex` codes or normal `rgb()`.
 
-<blockquote>rgba 代表：<br>  r = red 紅色<br>  g = green 綠色<br>  b = blue 藍色<br>  a = alpha 透明度</blockquote>
+<blockquote>rgba stands for:<br>  r = red<br>  g = green<br>  b = blue<br>  a = alpha/level of opacity</blockquote>
 
-RGB 值可以取在 0 到 255 之間。 alpha 值可取在 0 到 1 之間，其中 0 代表完全透明，1 代表完全不透明。 `rgba()` 在需要設置顏色透明度時十分有用， 這意味着你可以做出一些很漂亮的半透明效果。
+The RGB values can range from 0 to 255. The alpha value can range from 1, which is fully opaque or a solid color, to 0, which is fully transparent or clear. `rgba()` is great to use in this case, as it allows you to adjust the opacity. This means you don't have to completely block out the background.
 
-在本挑戰裏你將會用到這個代碼 `background-color: rgba(45, 45, 45, 0.1)`。 它表示背景是黑灰色，因爲設置了透明度爲 0.1，所以幾乎是透明的。
+You'll use `background-color: rgba(45, 45, 45, 0.1)` for this challenge. It produces a dark gray color that is nearly transparent given the low opacity value of 0.1.
 
 # --instructions--
 
-爲了讓文字更醒目，設置 `h4` 元素的 `background-color` 屬性值爲上面指定的 `rgba()`。
+To make the text stand out more, adjust the `background-color` of the `h4` element to the given `rgba()` value.
 
-同時移除 `h4` 的 `height` 屬性，並添加 `padding` 屬性，值爲 10px。
+Also for the `h4`, remove the `height` property and add `padding` of 10px.
 
 # --hints--
 
-你應該給 `h4` 元素添加一個 `background-color` 屬性並且賦值 `rgba(45, 45, 45, 0.1)`。
+Your code should add a `background-color` property to the `h4` element set to `rgba(45, 45, 45, 0.1)`.
 
 ```js
 assert(
@@ -35,7 +35,7 @@ assert(
 );
 ```
 
-`h4` 元素的 `padding` 屬性值應爲 10px。
+Your code should add a `padding` property to the `h4` element and set it to 10 pixels.
 
 ```js
 const h4Element = document.querySelector("h4"); 
@@ -46,7 +46,7 @@ assert.equal(h4style?.paddingBottom, "10px");
 assert.equal(h4style?.paddingLeft, "10px");
 ```
 
-`h4` 元素不應有 `height` 屬性。
+The `height` property on the `h4` element should be removed.
 
 ```js
 const h4Element = document.querySelector("h4"); 

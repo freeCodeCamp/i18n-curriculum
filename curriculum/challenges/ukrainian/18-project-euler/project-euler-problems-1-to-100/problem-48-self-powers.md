@@ -1,6 +1,6 @@
 ---
 id: 5900f39c1000cf542c50feaf
-title: 'Завдання 48: власні степені'
+title: 'Problem 48: Self powers'
 challengeType: 1
 forumTopicId: 302157
 dashedName: problem-48-self-powers
@@ -8,37 +8,37 @@ dashedName: problem-48-self-powers
 
 # --description--
 
-Дано послідовність 1<sup>1</sup> + 2<sup>2</sup> + 3<sup>3</sup> + ... + 10<sup>10</sup> = 10405071317.
+The series, 1<sup>1</sup> + 2<sup>2</sup> + 3<sup>3</sup> + ... + 10<sup>10</sup> = 10405071317.
 
-Знайдіть останні десять цифр послідовності 1<sup>1</sup> + 2<sup>2</sup> + 3<sup>3</sup> + ... + 1000<sup>1000</sup>.
+Find the last ten digits of the series, 1<sup>1</sup> + 2<sup>2</sup> + 3<sup>3</sup> + ... + 1000<sup>1000</sup>.
 
 # --hints--
 
-`selfPowers(10, 3)` має повернути число.
+`selfPowers(10, 3)` should return a number.
 
 ```js
 assert(typeof selfPowers(10, 3) === 'number');
 ```
 
-`selfPowers(10, 3)` має повернути 317.
+`selfPowers(10, 3)` should return 317.
 
 ```js
 assert.strictEqual(selfPowers(10, 3), 317);
 ```
 
-`selfPowers(150, 6)` має повернути 29045.
+`selfPowers(150, 6)` should return 29045.
 
 ```js
 assert.strictEqual(selfPowers(150, 6), 29045);
 ```
 
-`selfPowers(673, 7)` має повернути 2473989.
+`selfPowers(673, 7)` should return 2473989.
 
 ```js
 assert.strictEqual(selfPowers(673, 7), 2473989);
 ```
 
-`selfPowers(1000, 10)` має повернути 9110846700.
+`selfPowers(1000, 10)` should return 9110846700.
 
 ```js
 assert.strictEqual(selfPowers(1000, 10), 9110846700);

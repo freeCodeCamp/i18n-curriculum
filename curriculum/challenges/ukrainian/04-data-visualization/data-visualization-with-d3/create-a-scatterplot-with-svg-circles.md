@@ -1,6 +1,6 @@
 ---
 id: 587d7fab367417b2b2512bd7
-title: Створіть точкову діаграму за допомогою кругів SVG
+title: Create a Scatterplot with SVG Circles
 challengeType: 6
 forumTopicId: 301484
 dashedName: create-a-scatterplot-with-svg-circles
@@ -8,19 +8,19 @@ dashedName: create-a-scatterplot-with-svg-circles
 
 # --description--
 
-Точкова діаграма — ще один вид візуалізації. Вона зазвичай використовує круги, щоб позначити точки даних, які мають по два значення. Ці значення прив’язують до осей `x` та `y`; їх використовують, щоб розмістити круг у візуалізації.
+A scatter plot is another type of visualization. It usually uses circles to map data points, which have two values each. These values tie to the `x` and `y` axes, and are used to position the circle in the visualization.
 
-SVG має тег `circle` для створення круга. Він працює схоже до елементів `rect`, які ви використовували для стовпчикової діаграми.
+SVG has a `circle` tag to create the circle shape. It works a lot like the `rect` elements you used for the bar chart.
 
 # --instructions--
 
-Використайте методи `data()`, `enter()` та `append()`, щоб прив’язати `dataset` до нових елементів `circle`, які додані до SVG.
+Use the `data()`, `enter()`, and `append()` methods to bind `dataset` to new `circle` elements that are appended to the SVG.
 
-**Примітка:** круги будуть невидимими, оскільки ми не встановили їхні атрибути. Ми зробимо це у наступному завданні.
+**Note:** The circles won't be visible because we haven't set their attributes yet. We'll do that in the next challenge.
 
 # --hints--
 
-Код має містити 10 елементів `circle`.
+Your code should have 10 `circle` elements.
 
 ```js
 assert($('circle').length == 10);

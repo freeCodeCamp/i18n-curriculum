@@ -1,6 +1,6 @@
 ---
 id: 5900f4d01000cf542c50ffe3
-title: 'Problema 356: le più grandi radici dei polinomi cubici'
+title: 'Problem 356: Largest roots of cubic polynomials'
 challengeType: 1
 forumTopicId: 302016
 dashedName: problem-356-largest-roots-of-cubic-polynomials
@@ -8,17 +8,17 @@ dashedName: problem-356-largest-roots-of-cubic-polynomials
 
 # --description--
 
-Sia $a_n$ la più grande radice reale di un polinomio $g(x) = x^3 - 2^n \times x^2 + n$.
+Let $a_n$ be the largest real root of a polynomial $g(x) = x^3 - 2^n \times x^2 + n$.
 
-Per esempio, $a_2 = 3.86619826\ldots$
+For example, $a_2 = 3.86619826\ldots$
 
-Trova le ultime otto cifre di $\displaystyle\sum_{i = 1}^{30} \lfloor {a_i}^{987654321}\rfloor$.
+Find the last eight digits of $\displaystyle\sum_{i = 1}^{30} \lfloor {a_i}^{987654321}\rfloor$.
 
-**Nota:** $\lfloor a\rfloor$ rappresenta la funzione di arrotondamento verso il basso.
+**Note:** $\lfloor a\rfloor$ represents the floor function.
 
 # --hints--
 
-`rootsOfCubicPolynomials()` dovrebbe restituire `28010159`.
+`rootsOfCubicPolynomials()` should return `28010159`.
 
 ```js
 assert.strictEqual(rootsOfCubicPolynomials(), 28010159);

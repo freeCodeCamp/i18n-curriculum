@@ -1,6 +1,6 @@
 ---
 id: 5a9d7286424fe3d0e10cad13
-title: Прикріплення резервного значення до змінної CSS
+title: Attach a Fallback value to a CSS Variable
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/c6bDNfp'
 forumTopicId: 301084
@@ -9,25 +9,25 @@ dashedName: attach-a-fallback-value-to-a-css-variable
 
 # --description--
 
-При використанні змінної як значення властивості CSS ви можете прикріпити резервне значення, до якого повернеться браузер, якщо дана змінна виявиться недійсною.
+When using your variable as a CSS property value, you can attach a fallback value that your browser will revert to if the given variable is invalid.
 
-**Примітка:** цей резервний варіант не використовується для підвищення сумісності браузерів і не буде працювати в IE браузерах. Швидше за все, він використовується для того, щоб у браузера був колір для відображення, якщо він не зможе знайти вашу змінну.
+**Note:** This fallback is not used to increase browser compatibility, and it will not work on IE browsers. Rather, it is used so that the browser has a color to display if it cannot find your variable.
 
-Ось як це зробити:
+Here's how you do it:
 
 ```css
 background: var(--penguin-skin, black);
 ```
 
-Це встановить фон в `black`, навіть якщо ваша змінна не була визначена. Зверніть увагу, що це може бути корисно для налагодження.
+This will set background to `black` if your variable wasn't set. Note that this can be useful for debugging.
 
 # --instructions--
 
-Схоже, виникла проблема зі змінними, що передаються класам `.penguin-top` та `.penguin-bottom`. Замість того, щоб виправляти цю опечатку, додайте резервне значення `black` до властивості `background` класів `.penguin-top` та `.penguin-bottom`.
+It looks like there is a problem with the variables supplied to the `.penguin-top` and `.penguin-bottom` classes. Rather than fix the typo, add a fallback value of `black` to the `background` property of the `.penguin-top` and `.penguin-bottom` classes.
 
 # --hints--
 
-Резервне значення `black` потрібно використати у властивості `background` класу `penguin-top`.
+The fallback value of `black` should be used in the `background` property of the `penguin-top` class.
 
 ```js
 assert(
@@ -37,7 +37,7 @@ assert(
 );
 ```
 
-Резервне значення `black` потрібно використати у властивості `background` класу `penguin-bottom`.
+The fallback value of `black` should be used in `background` property of the `penguin-bottom` class.
 
 ```js
 assert(

@@ -1,37 +1,36 @@
----
 id: 561add10cb82ac39a17513bc
-title: Certificación en Visualización de Datos Heredado
+title: Legacy Data Visualization Certification
 certification: legacy-data-visualization
 challengeType: 7
 isPrivate: true
 tests:
   - 
     id: bd7157d8c242eddfaeb5bd13
-    title: Crea un visor de Markdown
+    title: Build a Markdown Previewer
   - 
     id: bd7156d8c242eddfaeb5bd13
-    title: Construye una Tabla de Clasificación de "Camper"
+    title: Build a Camper Leaderboard
   - 
     id: bd7155d8c242eddfaeb5bd13
-    title: Crea una Caja de Recetas
+    title: Build a Recipe Box
   - 
     id: bd7154d8c242eddfaeb5bd13
-    title: Crea el Juego de la Vida
+    title: Build the Game of Life
   - 
     id: bd7153d8c242eddfaeb5bd13
-    title: Crea un juego de mazmorras estilo "Roguelike Crawler"
+    title: Build a Roguelike Dungeon Crawler Game
   - 
     id: bd7168d8c242eddfaeb5bd13
-    title: Visualiza datos con una gráfica de barras
+    title: Visualize Data with a Bar Chart
   - 
     id: bd7178d8c242eddfaeb5bd13
-    title: Visualiza datos con un diagrama de dispersión
+    title: Visualize Data with a Scatterplot Graph
   - 
     id: bd7188d8c242eddfaeb5bd13
-    title: Visualiza datos con un mapa térmico
+    title: Visualize Data with a Heat Map
   - 
     id: bd7198d8c242eddfaeb5bd13
-    title: Muestra la contigüidad nacional con un gráfico dirigido por fuerzas
+    title: Show National Contiguity with a Force Directed Graph
   - 
     id: bd7108d8c242eddfaeb5bd13
-    title: Mapea datos a través del globo
+    title: Map Data Across the Globe

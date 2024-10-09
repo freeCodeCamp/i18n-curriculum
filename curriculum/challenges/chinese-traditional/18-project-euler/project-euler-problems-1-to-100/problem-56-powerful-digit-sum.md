@@ -1,6 +1,6 @@
 ---
 id: 5900f3a41000cf542c50feb7
-title: '問題56：強大的數字總和'
+title: 'Problem 56: Powerful digit sum'
 challengeType: 1
 forumTopicId: 302167
 dashedName: problem-56-powerful-digit-sum

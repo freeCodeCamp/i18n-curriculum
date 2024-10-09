@@ -1,6 +1,6 @@
 ---
 id: 5e9a093a74c4063ca6f7c15c
-title: Pandas での列の作成
+title: Pandas Creating Columns
 challengeType: 11
 videoId: _sSo2XZoB3E
 bilibiliIds:
@@ -12,18 +12,18 @@ dashedName: pandas-creating-columns
 
 # --description--
 
-*動画で説明しているように、notebooks.ai を使用する代わりに Google Colab を使用することができます。*
+*Instead of using notebooks.ai like it shows in the video, you can use Google Colab instead.*
 
-その他のリソース:
+More resources:
 
--  <a href="https://github.com/ine-rmotr-curriculum/freecodecamp-intro-to-pandas" target="_blank" rel="noopener noreferrer nofollow">GitHub のノート</a>
--  <a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb" target="_blank" rel="noopener noreferrer nofollow">Google Colab を使用して GitHub からノートを開く方法</a>
+-  <a href="https://github.com/ine-rmotr-curriculum/freecodecamp-intro-to-pandas" target="_blank" rel="noopener noreferrer nofollow">Notebooks on GitHub</a>
+-  <a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb" target="_blank" rel="noopener noreferrer nofollow">How to open Notebooks from GitHub using Google Colab.</a>
 
 # --questions--
 
 ## --text--
 
-次のような `certificates_earned` DataFrame に "Certificates per month" (月ごとの証明書) 列を追加するコードはどのようになりますか？
+What code would add a "Certificates per month" column to the `certificates_earned` DataFrame like the one below?
 
 <pre>      Certificates  Time (in months)  Certificates per month
 Tom               8                16                    0.50

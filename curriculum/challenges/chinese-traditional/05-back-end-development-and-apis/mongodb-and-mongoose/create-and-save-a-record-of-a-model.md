@@ -1,6 +1,6 @@
 ---
 id: 587d7fb6367417b2b2512c09
-title: 創建並保存一條 Model 記錄
+title: Create and Save a Record of a Model
 challengeType: 2
 forumTopicId: 301536
 dashedName: create-and-save-a-record-of-a-model
@@ -8,11 +8,11 @@ dashedName: create-and-save-a-record-of-a-model
 
 # --description--
 
-在這個挑戰中，你需要創建並保存一條模型數據。
+In this challenge you will have to create and save a record of a model.
 
 # --instructions--
 
-在 `createAndSavePerson` 函數中，用我們在上一個挑戰中寫好的 `Person` 構造函數創建 document 實例， 將包含 `name`、`age` 和 `favoriteFoods` 的對象傳給構造函數， 這些屬性的數據類型必須符合我們在 `personSchema` 中定義的類型。 然後在返回的 document 實例上調用方法 `document.save()`。 同時，按 Node.js 的方式爲它傳一個回調函數。 這是一種常見模式，以下所有CRUD方法都將這樣的回調函數作爲最後一個參數。
+Within the `createAndSavePerson` function, create a document instance using the `Person` model constructor you built before. Pass to the constructor an object having the fields `name`, `age`, and `favoriteFoods`. Their types must conform to the ones in the `personSchema`. Then, call the method `document.save()` on the returned document instance. Pass to it a callback using the Node convention. This is a common pattern; all the following CRUD methods take a callback function like this as the last argument.
 
 ```js
 /* Example */
@@ -25,7 +25,7 @@ person.save(function(err, data) {
 
 # --hints--
 
-應成功地創建數據並保存一條數據到數據庫
+Creating and saving a db item should succeed
 
 ```js
 (getUserInput) =>

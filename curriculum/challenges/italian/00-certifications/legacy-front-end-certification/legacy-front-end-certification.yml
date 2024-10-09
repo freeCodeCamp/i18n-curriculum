@@ -1,37 +1,36 @@
----
 id: 561add10cb82ac38a17513be
-title: Vecchia Certificazione Front End
+title: Legacy Front End Certification
 certification: legacy-front-end
 challengeType: 7
 isPrivate: true
 tests:
   - 
     id: bd7158d8c242eddfaeb5bd13
-    title: Costruisci una pagina per il tuo portfolio personale
+    title: Build a Personal Portfolio Webpage
   - 
     id: bd7158d8c442eddfaeb5bd13
-    title: Costruisci una Macchina per le citazioni casuali
+    title: Build a Random Quote Machine
   - 
     id: bd7158d8c442eddfaeb5bd0f
-    title: Costruisci un Orologio 25 + 5
+    title: Build a 25 + 5 Clock
   - 
     id: bd7158d8c442eddfaeb5bd17
-    title: Costruisci una calcolatrice JavaScript
+    title: Build a JavaScript Calculator
   - 
     id: bd7158d8c442eddfaeb5bd10
-    title: Mostra il Meteo locale
+    title: Show the Local Weather
   - 
     id: bd7158d8c442eddfaeb5bd1f
-    title: Usa l'API JSON di Twitch
+    title: Use the Twitch JSON API
   - 
     id: bd7158d8c442eddfaeb5bd18
-    title: Storie di Stylize su Camper News
+    title: Stylize Stories on Camper News
   - 
     id: bd7158d8c442eddfaeb5bd19
-    title: Costruisci un visualizzatore di Wikipedia
+    title: Build a Wikipedia Viewer
   - 
     id: bd7158d8c442eedfaeb5bd1c
-    title: Costruisci un gioco Tic Tac Toe
+    title: Build a Tic Tac Toe Game
   - 
     id: bd7158d8c442eddfaeb5bd1c
-    title: Costruisci un gioco Simon
+    title: Build a Simon Game

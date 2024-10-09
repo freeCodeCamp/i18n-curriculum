@@ -1,6 +1,6 @@
 ---
 id: 587d7b89367417b2b2512b49
-title: Деструктуроване присвоєння для присвоєння змінних з об’єктів
+title: Use Destructuring Assignment to Assign Variables from Objects
 challengeType: 1
 forumTopicId: 301215
 dashedName: use-destructuring-assignment-to-assign-variables-from-objects
@@ -8,29 +8,29 @@ dashedName: use-destructuring-assignment-to-assign-variables-from-objects
 
 # --description--
 
-Деструктуризація дозволяє присвоїти нову назву змінної при вилученні значень. Для цього потрібно поставити нову назву після двокрапки, коли присвоюєте значення.
+Destructuring allows you to assign a new variable name when extracting values. You can do this by putting the new name after a colon when assigning the value.
 
-Використовуючи той самий об’єкт, що і в попередньому прикладі:
+Using the same object from the last example:
 
 ```js
 const user = { name: 'John Doe', age: 34 };
 ```
 
-Ось так ви можете надати нові назви змінних у присвоєнні:
+Here's how you can give new variable names in the assignment:
 
 ```js
 const { name: userName, age: userAge } = user;
 ```
 
-Ви можете прочитати це як «отримати значення `user.name` та присвоїти його до нової змінної під назвою `userName`» і т.д. Значенням `userName` буде рядок `John Doe`, а значенням `userAge` буде число `34`.
+You may read it as "get the value of `user.name` and assign it to a new variable named `userName`" and so on. The value of `userName` would be the string `John Doe`, and the value of `userAge` would be the number `34`.
 
 # --instructions--
 
-Замініть два присвоєння на еквівалентні деструктуровані присвоєння. Вони досі повинні присвоювати змінним `highToday` та `highTomorrow` значення `today` та `tomorrow` з об’єкта `HIGH_TEMPERATURES`.
+Replace the two assignments with an equivalent destructuring assignment. It should still assign the variables `highToday` and `highTomorrow` the values of `today` and `tomorrow` from the `HIGH_TEMPERATURES` object.
 
 # --hints--
 
-Ви повинні видалити синтаксис присвоєння ES5.
+You should remove the ES5 assignment syntax.
 
 ```js
 assert(
@@ -39,7 +39,7 @@ assert(
 );
 ```
 
-Ви повинні використати деструктуризацію, щоб створити змінну `highToday`.
+You should use destructuring to create the `highToday` variable.
 
 ```js
 assert(
@@ -49,7 +49,7 @@ assert(
 );
 ```
 
-Ви повинні використати деструктуризацію, щоб створити змінну `highTomorrow`.
+You should use destructuring to create the `highTomorrow` variable.
 
 ```js
 assert(
@@ -59,7 +59,7 @@ assert(
 );
 ```
 
-`highToday` повинна дорівнювати `77`, а `highTomorrow` повинна дорівнювати `80`.
+`highToday` should be equal to `77` and `highTomorrow` should be equal to `80`.
 
 ```js
 assert(highToday === 77 && highTomorrow === 80);

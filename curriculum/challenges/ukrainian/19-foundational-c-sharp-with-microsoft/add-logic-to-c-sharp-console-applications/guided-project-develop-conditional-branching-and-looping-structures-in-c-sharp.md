@@ -1,38 +1,38 @@
 ---
 id: 647e217e8acb466c97ccbee4
-title: 'Керований проєкт: розробіть умовні гілкові та циклові структури в C#'
+title: 'Guided Project - Develop Conditional Branching and Looping Structures in C#'
 challengeType: 19
 dashedName: guided-project-develop-conditional-branching-and-looping-structures-in-c-sharp
 ---
 
 # --description--
 
-Це завдання буде частково виконано на платформі Microsoft Learn. Дотримуйтесь цих інструкцій, щоб виконати завдання:
+This challenge will be partially completed on the Microsoft Learn platform. Follow these instructions to complete the challenge:
 
-1. Перейдіть до <a href="https://learn.microsoft.com/training/modules/guided-project-develop-conditional-branching-looping/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/guided-project-develop-conditional-branching-looping/</a> та виконайте всі завдання модуля «Керований проєкт: розробіть умовні гілкові та циклові структури в C#». Це **обов’язково**, щоб отримати трофей з «Додавання логіки до консольних застосунків C#» на Microsoft Learn та мати змогу скласти сертифікаційний екзамен.
-1. Як тільки завершите, поверніться та дайте правильну відповідь на запитання нижче.
+1. Go to <a href="https://learn.microsoft.com/training/modules/guided-project-develop-conditional-branching-looping/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/guided-project-develop-conditional-branching-looping/</a> and complete all the tasks for the "Guided Project - Develop Conditional Branching and Looping Structures in C#" module. This is **required** to earn the "Add Logic to C# Console Applications" trophy on Microsoft Learn, and qualify for the certification exam.
+1. When you are finished, come back and correctly answer the question below.
 
 # --assignment--
 
-Виконайте керований проєкт <a href="https://learn.microsoft.com/training/modules/guided-project-develop-conditional-branching-looping/" target="_blank" rel="noreferrer">«Розробіть умовні гілкові та циклові структури в C#»</a> на Microsoft Learn. Потім дайте відповідь на запитання нижче.
+Complete the <a href="https://learn.microsoft.com/training/modules/guided-project-develop-conditional-branching-looping/" target="_blank" rel="noreferrer">Develop Conditional Branching and Looping Structures in C#</a> guided project on Microsoft Learn. Then, answer the question below.
 
 # --questions--
 
 ## --text--
 
-У якому випадку краще використати конструкцію `switch-case`, а не `if-elseif-else`?
+When is it appropriate to use a `switch-case` construct rather than a `if-elseif-else` construct?
 
 ## --answers--
 
-Конструкцію `switch-case` доречно використати, якщо необхідно понад 2-3 блоків коду `else if`.
+A `switch-case` construct is appropriate when more than 2-3 `else if` code blocks are required.
 
 ---
 
-Конструкцію `switch-case` доречно використати, якщо кількість шаблонів `case` невелика.
+A `switch-case` construct is appropriate when the number of `case` patterns is small.
 
 ---
 
-Конструкцію `switch-case` доречно використати, якщо інструкція вибору знаходиться в циклі.
+A `switch-case` construct is appropriate when the selection statement is inside a loop.
 
 
 ## --video-solution--

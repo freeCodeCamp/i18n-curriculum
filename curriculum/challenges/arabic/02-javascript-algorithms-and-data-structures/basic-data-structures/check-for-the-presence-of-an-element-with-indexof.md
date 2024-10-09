@@ -1,6 +1,6 @@
 ---
 id: 587d7b7b367417b2b2512b14
-title: تحقق من وجود عنصر باستخدام indexOf()
+title: Check For The Presence of an Element With indexOf()
 challengeType: 1
 forumTopicId: 301154
 dashedName: check-for-the-presence-of-an-element-with-indexof
@@ -8,9 +8,9 @@ dashedName: check-for-the-presence-of-an-element-with-indexof
 
 # --description--
 
-نظرًا لأنه يمكن تغيير القوائم، أو *يتم تحويرها* في أي وقت، لا يوجد ضمان حول مكان وجود جزء معين من البيانات في قائمة معينة، أو حتي إذا كان هذا العنصر لا يزال موجودا. لحسن الحظ، يوفر لنا JavaScript وظيفة مدمجة (built-in method) أخرى تسمى `indexOf()`، وهذه تسمح لنا بالتحقق بسرعة وسهولة من وجود عنصر في القائمة. تأخذ `indexOf()` عنصرا كوسيط عند تفعيلها، فإنها تنتج المكان (position)، أو الترتيب (index)، لهذا العنصر، أو `-1` إذا كان العنصر غير موجود في القائمة (array).
+Since arrays can be changed, or *mutated*, at any time, there's no guarantee about where a particular piece of data will be on a given array, or if that element even still exists. Luckily, JavaScript provides us with another built-in method, `indexOf()`, that allows us to quickly and easily check for the presence of an element on an array. `indexOf()` takes an element as a parameter, and when called, it returns the position, or index, of that element, or `-1` if the element does not exist on the array.
 
-على سبيل المثال:
+For example:
 
 ```js
 let fruits = ['apples', 'pears', 'oranges', 'peaches', 'pears'];
@@ -20,21 +20,21 @@ fruits.indexOf('oranges');
 fruits.indexOf('pears');
 ```
 
-`indexOf('dates')` يرجع `-1`، و `indexOf('oranges')` يرجع `2`، و `indexOf('pears')` يرجع `1` (اول ترتيب يوجد فيه كل عنصر).
+`indexOf('dates')` returns `-1`, `indexOf('oranges')` returns `2`, and `indexOf('pears')` returns `1` (the first index at which each element exists).
 
 # --instructions--
 
-`indexOf()` يمكن أن تكون مفيدة بشكل لا يصدق للتحقق بسرعة من وجود عنصر في القائمة. لقد حددنا الوظيفة `quickCheck`، التي تأخذ القائمة وعناصر كمعطيات (arguments). عدل الوظيفة باستخدام `indexOf()` بحيث تنتج `true` إذا كان العنصر الذي تم تمريره موجود في القائمة، و `false` إذا لم يكن موجود.
+`indexOf()` can be incredibly useful for quickly checking for the presence of an element on an array. We have defined a function, `quickCheck`, that takes an array and an element as arguments. Modify the function using `indexOf()` so that it returns `true` if the passed element exists on the array, and `false` if it does not.
 
 # --hints--
 
-يجب أن تقوم الوظيفة `quickCheck` بإرجاع منطق (boolean) (`true` أو `false`)، ليس مقطع نصي (string) (`"true"` أو `"false"`)
+The `quickCheck` function should return a boolean (`true` or `false`), not a string (`"true"` or `"false"`)
 
 ```js
 assert.isBoolean(quickCheck(['squash', 'onions', 'shallots'], 'mushrooms'));
 ```
 
-`quickCheck(["squash", "onions", "shallots"], "mushrooms")` يجب أن ترجع `false`
+`quickCheck(["squash", "onions", "shallots"], "mushrooms")` should return `false`
 
 ```js
 assert.strictEqual(
@@ -43,7 +43,7 @@ assert.strictEqual(
 );
 ```
 
-`quickCheck(["onions", "squash", "shallots"], "onions")` يجب ان ترجع `true`
+`quickCheck(["onions", "squash", "shallots"], "onions")` should return `true`
 
 ```js
 assert.strictEqual(
@@ -52,19 +52,19 @@ assert.strictEqual(
 );
 ```
 
-`quickCheck([3, 5, 9, 125, 45, 2], 125)` يجب ان ترجع `true`
+`quickCheck([3, 5, 9, 125, 45, 2], 125)` should return `true`
 
 ```js
 assert.strictEqual(quickCheck([3, 5, 9, 125, 45, 2], 125), true);
 ```
 
-`quickCheck([true, false, false], undefined)` يجب ان ترجع `false`
+`quickCheck([true, false, false], undefined)` should return `false`
 
 ```js
 assert.strictEqual(quickCheck([true, false, false], undefined), false);
 ```
 
-يجب أن تستخدم الوظيفة `quickCheck` طريقة `indexOf()`
+The `quickCheck` function should utilize the `indexOf()` method
 
 ```js
 assert.notStrictEqual(quickCheck.toString().search(/\.indexOf\(/), -1);

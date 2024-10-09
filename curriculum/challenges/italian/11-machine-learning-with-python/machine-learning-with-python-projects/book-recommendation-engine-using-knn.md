@@ -1,6 +1,6 @@
 ---
 id: 5e46f8e3ac417301a38fb92f
-title: Motore per il suggerimento di libri che utilizza KNN
+title: Book Recommendation Engine using KNN
 challengeType: 10
 forumTopicId: 462378
 dashedName: book-recommendation-engine-using-knn
@@ -8,29 +8,29 @@ dashedName: book-recommendation-engine-using-knn
 
 # --description--
 
-<a href="https://colab.research.google.com/github/freeCodeCamp/boilerplate-book-recommendation-engine/blob/master/fcc_book_recommendation_knn.ipynb" target="_blank" rel="noopener noreferrer nofollow">Lavorerai su questo progetto con Google Colaboratory</a>.
+You will be <a href="https://colab.research.google.com/github/freeCodeCamp/boilerplate-book-recommendation-engine/blob/master/fcc_book_recommendation_knn.ipynb" target="_blank" rel="noopener noreferrer nofollow">working on this project with Google Colaboratory</a>.
 
-Dopo essere andato a quel collegamento, crea una copia del notebook nel tuo account o localmente. Una volta completato il progetto e superato il test (incluso a quel link), invia il link del progetto qui sotto. Se stai inviando un link di Google Colaboratory, assicurati di attivare la condivisione di link per "anyone with the link"
+After going to that link, create a copy of the notebook either in your own account or locally. Once you complete the project and it passes the test (included at that link), submit your project link below. If you are submitting a Google Colaboratory link, make sure to turn on link sharing for "anyone with the link."
 
-Stiamo ancora sviluppando il contenuto didattico interattivo per il programma di machine learning. Per ora, puoi vedere le sfide video in questa certificazione. Potrebbe anche essere necessario cercare ulteriori risorse di apprendimento, in maniera simile a quello che faresti lavorando su un progetto del mondo reale.
+We are still developing the interactive instructional content for the machine learning curriculum. For now, you can go through the video challenges in this certification. You may also have to seek out additional learning resources, similar to what you would do when working on a real-world project.
 
 # --instructions--
 
-In questa sfida creerai un algoritmo per suggerire dei libri usando **K-Nearest Neighbors**.
+In this challenge, you will create a book recommendation algorithm using **K-Nearest Neighbors**.
 
-Userai il <a href="http://www2.informatik.uni-freiburg.de/~cziegler/BX/" target="_blank" rel="noopener noreferrer nofollow">Book-Crossings dataset</a>. Questo set di dati contiene 1,1 milioni di valutazioni (scala 1-10) di 270.000 libri da 90.000 utenti.
+You will use the <a href="http://www2.informatik.uni-freiburg.de/~cziegler/BX/" target="_blank" rel="noopener noreferrer nofollow">Book-Crossings dataset</a>. This dataset contains 1.1 million ratings (scale of 1-10) of 270,000 books by 90,000 users.
 
-Dopo aver importato e pulito i dati, usa `NearestNeighbors` da `sklearn.neighbors` per sviluppare un modello che mostra libri che sono simili a un dato libro. L'algoritmo Nearest Neighbors misura la distanza per determinare la "vicinanza" delle istanze.
+After importing and cleaning the data, use `NearestNeighbors` from `sklearn.neighbors` to develop a model that shows books that are similar to a given book. The Nearest Neighbors algorithm measures the distance to determine the “closeness” of instances.
 
-Crea una funzione dal nome `get_recommends` che prende il titolo di un libro (dal dataset) come argomento e restituisce una lista di 5 libri simili con la loro distanza dal libro argomento.
+Create a function named `get_recommends` that takes a book title (from the dataset) as an argument and returns a list of 5 similar books with their distances from the book argument.
 
-Questo codice:
+This code:
 
 ```py
 get_recommends("The Queen of the Damned (Vampire Chronicles (Paperback))")
 ```
 
-dovrebbe restituire:
+should return:
 
 ```py
 [
@@ -45,15 +45,15 @@ dovrebbe restituire:
 ]
 ```
 
-Nota che i dati restituiti da `get_recommends()` è una lista. Il primo elemento nella lista è il titolo del libro passato nella funzione. Il secondo elemento nella lista è una lista di altre cinque liste. Ognuna delle cinque liste contiene un libro raccomandato e la distanza dal libro suggerito al libro passato nella funzione.
+Notice that the data returned from `get_recommends()` is a list. The first element in the list is the book title passed into the function. The second element in the list is a list of five more lists. Each of the five lists contains a recommended book and the distance from the recommended book to the book passed into the function.
 
-Se grafichi il dataset (facoltativo), noterai che molti libri non sono votati frequentemente. Per assicurarti significanza statistica, rimuovi dal dataset utenti con meno di 200 voti e libri con meno di 100 voti.
+If you graph the dataset (optional), you will notice that most books are not rated frequently. To ensure statistical significance, remove from the dataset users with less than 200 ratings and books with less than 100 ratings.
 
-Le prime tre celle importano librerie di cui potresti avere bisogno e i dati da usare. L'ultima cella è per i test. Scrivi il tuo codive tra queste celle.
+The first three cells import libraries you may need and the data to use. The final cell is for testing. Write all your code in between those cells.
 
 # --hints--
 
-Dovrebbe superare tutti i test Python.
+It should pass all Python tests.
 
 ```js
 

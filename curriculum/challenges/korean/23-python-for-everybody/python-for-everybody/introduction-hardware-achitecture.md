@@ -1,6 +1,6 @@
 ---
 id: 5e6a54af58d3af90110a60a1
-title: '소개: 하드웨어 구조'
+title: 'Introduction: Hardware Architecture'
 challengeType: 11
 videoId: H6qtjRTfSog
 bilibiliIds:
@@ -18,15 +18,15 @@ Where are your programs stored when they are running?
 
 ## --answers--
 
-하드 드라이브
+Hard Drive.
 
 ---
 
-메모리
+Memory.
 
 ---
 
-CPU
+Central Processing Unit.
 
 ## --video-solution--
 

@@ -1,6 +1,6 @@
 ---
 id: 587d78a8367417b2b2512ae5
-title: Elemente mit variablen Geschwindigkeiten animieren
+title: Animate Elements at Variable Rates
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cZ89WA4'
 forumTopicId: 301040
@@ -9,17 +9,17 @@ dashedName: animate-elements-at-variable-rates
 
 # --description--
 
-Es gibt eine Vielzahl von Möglichkeiten, die Geschwindigkeit von ähnlich animierten Elementen zu variieren. Bisher wurde dies durch die Verwendung der Eigenschaft `animation-iteration-count` (dt. Anzahl der Animationsdurchläufe) und das Setzen von `@keyframes`-Regeln (dt. Schlüsselbilder) erreicht.
+There are a variety of ways to alter the animation rates of similarly animated elements. So far, this has been achieved by applying an `animation-iteration-count` property and setting `@keyframes` rules.
 
-Als Beispiel dient uns die Animation auf der rechten Seite, welche aus zwei Sternen besteht, welche je bei der 20 %-Marke in der `@keyframes`-Regel kleiner und transparent werden und die Funkel-Animation erzeugen. Du kannst die `@keyframes`-Regel für eines der Elemente ändern, sodass die Sterne mit unterschiedlicher Geschwindigkeit funkeln.
+To illustrate, the animation on the right consists of two stars that each decrease in size and opacity at the 20% mark in the `@keyframes` rule, which creates the twinkle animation. You can change the `@keyframes` rule for one of the elements so the stars twinkle at different rates.
 
 # --instructions--
 
-Ändere die Animationsgeschwindigkeit für das Element mit dem Klassennamen `star-1`, indem du die `@keyframes`-Regel auf 50 % änderst.
+Alter the animation rate for the element with the class name of `star-1` by changing its `@keyframes` rule to 50%.
 
 # --hints--
 
-Die `@keyframes`-Regel der `star-1`-Klasse sollte bei 50 % liegen.
+The `@keyframes` rule for the `star-1` class should be 50%.
 
 ```js
 assert.match(code,/twinkle-1\s*?{\s*?50%/g);

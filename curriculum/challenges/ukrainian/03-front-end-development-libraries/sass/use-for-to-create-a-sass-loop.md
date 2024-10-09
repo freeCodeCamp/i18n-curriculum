@@ -1,6 +1,6 @@
 ---
 id: 587d7dbe367417b2b2512bb9
-title: Використайте @for, щоб створити цикл Sass
+title: Use @for to Create a Sass Loop
 challengeType: 0
 forumTopicId: 301462
 dashedName: use-for-to-create-a-sass-loop
@@ -8,11 +8,11 @@ dashedName: use-for-to-create-a-sass-loop
 
 # --description--
 
-Директива `@for` додає стилі до циклу, схоже до циклу `for` в JavaScript.
+The `@for` directive adds styles in a loop, very similar to a `for` loop in JavaScript.
 
-`@for` використовують двома способами: «від початку до кінця» або «від початку до самого кінця». Основна відмінність полягає в тому, що «від початку **до** кінця» *виключає* кінцеве число з підрахунку, а «від початку **до самого** кінця» *включає* кінцеве число в підрахунок.
+`@for` is used in two ways: "start through end" or "start to end". The main difference is that the "start **to** end" *excludes* the end number as part of the count, and "start **through** end" *includes* the end number as part of the count.
 
-Ось приклад від початку **до** кінця:
+Here's a start **through** end example:
 
 ```scss
 @for $i from 1 through 12 {
@@ -20,7 +20,7 @@ dashedName: use-for-to-create-a-sass-loop
 }
 ```
 
-Частина `#{$i}` — це синтаксис, який поєднує змінну (`i`) з текстом, щоб створити рядок. Коли файл Sass конвертовано в CSS, це виглядає приблизно так:
+The `#{$i}` part is the syntax to combine a variable (`i`) with text to make a string. When the Sass file is converted to CSS, it looks like this:
 
 ```scss
 .col-1 {
@@ -38,47 +38,47 @@ dashedName: use-for-to-create-a-sass-loop
 }
 ```
 
-Це ефективний спосіб створення макету сітки. Тепер у вас є дванадцять варіантів ширини стовпців, доступних як класи CSS.
+This is a powerful way to create a grid layout. Now you have twelve options for column widths available as CSS classes.
 
 # --instructions--
 
-Напишіть директиву `@for`, яка приймає змінну `$j` від 1 **до** 6.
+Write a `@for` directive that takes a variable `$j` that goes from 1 **to** 6.
 
-Вона має створити 5 класів (від `.text-1` до `.text-5`), кожен з яких має `font-size` зі значенням 15px, помноженим на індекс.
+It should create 5 classes called `.text-1` to `.text-5` where each has a `font-size` set to 15px multiplied by the index.
 
 # --hints--
 
-Ваш код має використати директиву `@for`.
+Your code should use the `@for` directive.
 
 ```js
 assert(code.match(/@for /g));
 ```
 
-Клас `.text-1` повинен мати `font-size` зі значенням 15px.
+Your `.text-1` class should have a `font-size` of 15px.
 
 ```js
 assert($('.text-1').css('font-size') == '15px');
 ```
 
-Клас `.text-2` повинен мати `font-size` зі значенням 30px.
+Your `.text-2` class should have a `font-size` of 30px.
 
 ```js
 assert($('.text-2').css('font-size') == '30px');
 ```
 
-Клас `.text-3` повинен мати `font-size` зі значенням 45px.
+Your `.text-3` class should have a `font-size` of 45px.
 
 ```js
 assert($('.text-3').css('font-size') == '45px');
 ```
 
-Клас `.text-4` повинен мати `font-size` зі значенням 60px.
+Your `.text-4` class should have a `font-size` of 60px.
 
 ```js
 assert($('.text-4').css('font-size') == '60px');
 ```
 
-Клас `.text-5` повинен мати `font-size` зі значенням 75px.
+Your `.text-5` class should have a `font-size` of 75px.
 
 ```js
 assert($('.text-5').css('font-size') == '75px');

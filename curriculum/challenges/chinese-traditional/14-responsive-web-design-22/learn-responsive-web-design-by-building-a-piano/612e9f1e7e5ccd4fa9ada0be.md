@@ -1,23 +1,23 @@
 ---
 id: 612e9f1e7e5ccd4fa9ada0be
-title: 步驟 17
+title: Step 17
 challengeType: 0
 dashedName: step-17
 ---
 
 # --description--
 
-給 `.key` 一個 `2px` 的 `margin` 和一個設置爲 `left` 的 `float` 屬性.
+Give the `.key` a `margin` of `2px` and a `float` property set to `left`.
 
 # --hints--
 
-`.key` 選擇器應該有一個 `margin` 屬性設置爲 `2px`。
+Your `.key` selector should have a `margin` property set to `2px`.
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('.key')?.margin === '2px');
 ```
 
-`.key` 選擇器應該有一個 `float` 屬性設置爲 `left`。
+Your `.key` selector should have a `float` property set to `left`.
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('.key')?.float === 'left');

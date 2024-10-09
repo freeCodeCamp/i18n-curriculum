@@ -1,6 +1,6 @@
 ---
 id: 5e601bf95ac9d0ecd8b94afd
-title: Solucionador de Sudoku
+title: Sudoku Solver
 challengeType: 4
 forumTopicId: 462357
 dashedName: sudoku-solver
@@ -8,58 +8,58 @@ dashedName: sudoku-solver
 
 # --description--
 
-Crie um aplicativo full stack em JavaScript que seja funcionalmente semelhante a este: <a href="https://sudoku-solver.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://sudoku-solver.freecodecamp.rocks/</a>. Trabalhar nesse projeto vai fazer com que você escreva seu código usando um dos seguintes métodos:
+Build a full stack JavaScript app that is functionally similar to this: <a href="https://sudoku-solver.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://sudoku-solver.freecodecamp.rocks/</a>. Working on this project will involve you writing your code using one of the following methods:
 
--   Clone <a href="https://github.com/freecodecamp/boilerplate-project-sudoku-solver" target="_blank" rel="noopener noreferrer nofollow">este repositório do GitHub</a> e complete o projeto localmente.
--   Recorra ao <a href="https://gitpod.io/?autostart=true#https://github.com/freecodecamp/boilerplate-project-sudoku-solver" target="_blank" rel="noopener noreferrer nofollow"> nosso projeto inicial no Gitpod </a> para completar o seu projeto.
--   Use um construtor de site de sua escolha para completar o projeto. Certifique-se de incorporar todos os arquivos do nosso repositório no GitHub.
+-   Clone <a href="https://github.com/freecodecamp/boilerplate-project-sudoku-solver" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
+-   Use <a href="https://gitpod.io/?autostart=true#https://github.com/freecodecamp/boilerplate-project-sudoku-solver" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete your project.
+-   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
 
 # --instructions--
 
-- Toda a lógica do quebra-cabeça pode ir em `/controllers/sudoku-solver.js`
-  - A função `validate` deve receber uma determinada string do quebra-cabeça e verificá-la para ver se ela tem os 81 caracteres válidos para a entrada.
-  - As funções `check` devem estar validando contra o estado *current* do tabuleiro.
-  - A função `solve` deve tratar da solução de qualquer string de quebra-cabeças válida, não apenas as entradas e soluções de teste. Espera-se que você escreva a lógica para resolver isso.
-- Toda a lógica de roteamento pode ir em `/routes/api.js`
-- Veja o arquivo `puzzle-strings.js` em `/controllers` para algumas amostras de quebra-cabeças que sua aplicação deve resolver
-- Para executar os testes do desafio nesta página, defina `NODE_ENV` como `test` sem aspas no arquivo `.env`
-- Para executar os testes no console, use o comando `npm run test`.
+- All puzzle logic can go into `/controllers/sudoku-solver.js`
+  - The `validate` function should take a given puzzle string and check it to see if it has 81 valid characters for the input.
+  - The `check` functions should be validating against the *current* state of the board.
+  - The `solve` function should handle solving any given valid puzzle string, not just the test inputs and solutions. You are expected to write out the logic to solve this.
+- All routing logic can go into `/routes/api.js`
+- See the `puzzle-strings.js` file in `/controllers` for some sample puzzles your application should solve
+- To run the challenge tests on this page, set `NODE_ENV` to `test` without quotes in the `.env` file
+- To run the tests in the console, use the command `npm run test`.
 
-Escreva os testes a seguir em `tests/1_unit-tests.js`:
+Write the following tests in `tests/1_unit-tests.js`:
 
--   A lógica lida com uma string de quebra-cabeças válida de 81 caracteres
--   A lógica lida com uma string de quebra-cabeças com caracteres inválidos (não 1-9 ou `.`)
--   A lógica lida com uma string de quebra-cabeças que não tenha 81 caracteres de tamanho
--   A lógica lida com um posicionamento de linha válido
--   A lógica lida com um posicionamento de linha inválido
--   A lógica lida com um posicionamento de coluna válido
--   A lógica lida com um posicionamento de coluna inválido
--   A lógica trata de uma região válida (grade 3x3)
--   A lógica trata de uma colocação em região válida (grade 3x3)
--   Strings de quebra-cabeças válidas passam no solucionador
--   Strings de quebra-cabeças inválidas não passam no solucionador
--   O solucionador retorna a solução esperada para um quebra-cabeças incompleto
+-   Logic handles a valid puzzle string of 81 characters
+-   Logic handles a puzzle string with invalid characters (not 1-9 or `.`)
+-   Logic handles a puzzle string that is not 81 characters in length
+-   Logic handles a valid row placement
+-   Logic handles an invalid row placement
+-   Logic handles a valid column placement
+-   Logic handles an invalid column placement
+-   Logic handles a valid region (3x3 grid) placement
+-   Logic handles an invalid region (3x3 grid) placement
+-   Valid puzzle strings pass the solver
+-   Invalid puzzle strings fail the solver
+-   Solver returns the expected solution for an incomplete puzzle
 
-Escreva os testes a seguir em `tests/2_functional-tests.js`
+Write the following tests in `tests/2_functional-tests.js`
 
--   Resolva um quebra-cabeças com uma string de quebra-cabeças válida: solicitação de POST para `/api/solve`
--   Resolva um quebra-cabeças com uma string de quebra-cabeças ausente: solicitação de POST para `/api/solve`
--   Resolva um quebra-cabeças com caracteres inválidos: solicitação de POST para `/api/solve`
--   Resolva um quebra-cabeças com tamanho incorreto: solicitação de POST para `/api/solve`
--   Resolva um quebra-cabeças que não pode ser resolvido: solicitação de POST para `/api/solve`
--   Verifique o posicionamento de um quebra-cabeças com todos os campos: solicitação de POST para `/api/check`
--   Verifique o posicionamento de um quebra-cabeças com um conflito único de posicionamento: solicitação de POST para `/api/check`
--   Verifique o posicionamento de um quebra-cabeças com vários conflitos de posicionamento: solicitação de POST para `/api/check`
--   Verifique o posicionamento de um quebra-cabeças com todos os conflitos de posicionamento: solicitação de POST para `/api/check`
--   Verifique o posicionamento de um quebra-cabeças com campos obrigatórios ausentes: solicitação de POST para `/api/check`
--   Verifique o posicionamento de um quebra-cabeças com caracteres inválidos: solicitação de POST para `/api/check`
--   Verifique o posicionamento de um quebra-cabeças com tamanho incorreto: solicitação de POST para `/api/check`
--   Verifique o posicionamento de um quebra-cabeças com coordenadas de posicionamento inválidas: solicitação de POST para `/api/check`
--   Verifique o posicionamento de um quebra-cabeças com valor de posicionamento inválido: solicitação de POST para `/api/check`
+-   Solve a puzzle with valid puzzle string: POST request to `/api/solve`
+-   Solve a puzzle with missing puzzle string: POST request to `/api/solve`
+-   Solve a puzzle with invalid characters: POST request to `/api/solve`
+-   Solve a puzzle with incorrect length: POST request to `/api/solve`
+-   Solve a puzzle that cannot be solved: POST request to `/api/solve`
+-   Check a puzzle placement with all fields: POST request to `/api/check`
+-   Check a puzzle placement with single placement conflict: POST request to `/api/check`
+-   Check a puzzle placement with multiple placement conflicts: POST request to `/api/check`
+-   Check a puzzle placement with all placement conflicts: POST request to `/api/check`
+-   Check a puzzle placement with missing required fields: POST request to `/api/check`
+-   Check a puzzle placement with invalid characters: POST request to `/api/check`
+-   Check a puzzle placement with incorrect length: POST request to `/api/check`
+-   Check a puzzle placement with invalid placement coordinate: POST request to `/api/check`
+-   Check a puzzle placement with invalid placement value: POST request to `/api/check`
 
 # --hints--
 
-Você deve fornecer seu próprio projeto, não o exemplo de URL.
+You should provide your own project, not the example URL.
 
 ```js
 (getUserInput) => {
@@ -68,7 +68,7 @@ Você deve fornecer seu próprio projeto, não o exemplo de URL.
 };
 ```
 
-Você pode fazer uma solicitação de `POST` para `/api/solve` com dados do formulário contendo `puzzle`, que será uma string contendo uma combinação de números (1-9) e pontos `.` para representar espaços vazios. O objeto retornado conterá uma propriedade `solution` com o quebra-cabeças resolvido.
+You can `POST` `/api/solve` with form data containing `puzzle` which will be a string containing a combination of numbers (1-9) and periods `.` to represent empty spaces. The returned object will contain a `solution` property with the solved puzzle.
 
 ```js
 async (getUserInput) => {
@@ -87,7 +87,7 @@ async (getUserInput) => {
 };
 ```
 
-Se o objeto enviado a `/api/solve` estiver ausente no `puzzle`, o valor retornado será `{ error: 'Required field missing' }`
+If the object submitted to `/api/solve` is missing `puzzle`, the returned value will be `{ error: 'Required field missing' }`
 
 ```js
 async (getUserInput) => {
@@ -105,7 +105,7 @@ async (getUserInput) => {
 };
 ```
 
-Se o quebra-cabeças enviado a `/api/solve` contém valores que não são números ou ponto, o valor retornado será `{ error: 'Invalid characters in puzzle' }`
+If the puzzle submitted to `/api/solve` contains values which are not numbers or periods, the returned value will be `{ error: 'Invalid characters in puzzle' }`
 
 ```js
 async (getUserInput) => {
@@ -123,7 +123,7 @@ async (getUserInput) => {
 };
 ```
 
-Se o desafio enviado a `/api/solve` é maior ou menor que 81 caracteres, o valor retornado será `{ error: 'Expected puzzle to be 81 characters long' }`
+If the puzzle submitted to `/api/solve` is greater or less than 81 characters, the returned value will be `{ error: 'Expected puzzle to be 81 characters long' }`
 
 ```js
 async (getUserInput) => {
@@ -145,7 +145,7 @@ async (getUserInput) => {
 };
 ```
 
-Se o quebra-cabeças enviado a `/api/solve` contém valores que não são números ou ponto, o valor retornado será `{ error: 'Puzzle cannot be solved' }`
+If the puzzle submitted to `/api/solve` is invalid or cannot be solved, the returned value will be `{ error: 'Puzzle cannot be solved' }`
 
 ```js
 async (getUserInput) => {
@@ -163,7 +163,7 @@ async (getUserInput) => {
 };
 ```
 
-Você pode fazer a solicitação de `POST` para `/api/check` de um objeto contendo `puzzle`, `coordinate` e `value`, onde `coordinate` é composto de letras de A-I indicando a linha, seguidas de um número de 1-9 indicando a coluna. O `value` é um número de 1-9.
+You can `POST` to `/api/check` an object containing `puzzle`, `coordinate`, and `value` where the `coordinate` is the letter A-I indicating the row, followed by a number 1-9 indicating the column, and `value` is a number from 1-9.
 
 ```js
 async (getUserInput) => {
@@ -182,7 +182,7 @@ async (getUserInput) => {
 };
 ```
 
-O valor de retorno de da solicitação de `POST` para `/api/check` será um objeto que contém uma propriedade `valid`, que é `true` se o número puder ser colocado na coordenada fornecida e `false` se o número não puder. Se falso, o objeto retornado também conterá uma propriedade `conflict` que é um array contendo as strings `"row"`, `"column"` e/ou `"region"`, dependendo de qual deles torna o posicionamento inválido.
+The return value from the `POST` to `/api/check` will be an object containing a `valid` property, which is `true` if the number may be placed at the provided coordinate and `false` if the number may not. If false, the returned object will also contain a `conflict` property which is an array containing the strings `"row"`, `"column"`, and/or `"region"` depending on which makes the placement invalid.
 
 ```js
 async (getUserInput) => {
@@ -205,7 +205,7 @@ async (getUserInput) => {
 };
 ```
 
-Se o `value` enviado a `/api/check` já estiver colocado no `puzzle` naquela `coordinate`, o valor retornado será um objeto contendo uma propriedade `valid` com `true` se o `value` não for conflitante.
+If `value` submitted to `/api/check` is already placed in `puzzle` on that `coordinate`, the returned value will be an object containing a `valid` property with `true` if `value` is not conflicting.
 
 ```js
 async (getUserInput) => {
@@ -224,7 +224,7 @@ async (getUserInput) => {
 };
 ```
 
-Se o quebra-cabeças enviado a `/api/check` contém valores que não são números ou ponto, o valor retornado será `{ error: 'Invalid characters in puzzle' }`
+If the puzzle submitted to `/api/check` contains values which are not numbers or periods, the returned value will be `{ error: 'Invalid characters in puzzle' }`
 
 ```js
 async (getUserInput) => {
@@ -244,7 +244,7 @@ async (getUserInput) => {
 };
 ```
 
-Se o desafio enviado a `/api/check` é maior ou menor que 81 caracteres, o valor retornado será `{ error: 'Expected puzzle to be 81 characters long' }`
+If the puzzle submitted to `/api/check` is greater or less than 81 characters, the returned value will be `{ error: 'Expected puzzle to be 81 characters long' }`
 
 ```js
 async (getUserInput) => {
@@ -268,7 +268,7 @@ async (getUserInput) => {
 };
 ```
 
-Se o objeto enviado a `/api/check` estiver com `puzzle`, `coordinate` ou `value` faltando, o valor retornado será `{ error: 'Required field(s) missing' }`
+If the object submitted to `/api/check` is missing `puzzle`, `coordinate` or `value`, the returned value will be `{ error: 'Required field(s) missing' }`
 
 ```js
 async (getUserInput) => {
@@ -300,7 +300,7 @@ async (getUserInput) => {
 };
 ```
 
-Se a coordenada enviada para `api/check` não apontar para uma célula da grade existente, o valor retornado será `{ error: 'Invalid coordinate'}`
+If the coordinate submitted to `api/check` does not point to an existing grid cell, the returned value will be `{ error: 'Invalid coordinate'}`
 
 ```js
 async (getUserInput) => {
@@ -322,7 +322,7 @@ async (getUserInput) => {
 };
 ```
 
-Se o `value` enviado à `/api/check` não for um número entre 1 e 9, o valor retornado será `{ error: 'Invalid value' }`
+If the `value` submitted to `/api/check` is not a number between 1 and 9, the returned value will be `{ error: 'Invalid value' }`
 
 ```js
 async (getUserInput) => {
@@ -344,7 +344,7 @@ async (getUserInput) => {
 };
 ```
 
-Todos os 12 testes de unidade foram concluídos e tiveram aprovação.
+All 12 unit tests are complete and passing.
 
 ```js
 async (getUserInput) => {
@@ -369,7 +369,7 @@ async (getUserInput) => {
 };
 ```
 
-Todos os 14 testes funcionais foram concluídos e tiveram aprovação.
+All 14 functional tests are complete and passing.
 
 ```js
 async (getUserInput) => {

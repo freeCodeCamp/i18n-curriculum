@@ -1,35 +1,35 @@
 ---
 id: 616d47bc9eedc4bc7f621bec
-title: Hatua ya 10
+title: Step 10
 challengeType: 0
 dashedName: step-10
 ---
 
 # --description--
 
-Kisha, ndani ya kipengele cha `div`, ongeza kipengele kingine cha `div` na ukipe class ya `marker`.
+Next, within the `div` element, add another `div` element and give it a class of `marker`.
 
 # --hints--
 
-Kipengele chako kipya cha `div` kinafaa kuwa na tagi ya kufungua.
+Your new `div` element should have an opening tag.
 
 ```js
 assert([...code.matchAll(/<div.*?>/gi)][1]);
 ```
 
-Kipengele chako kipya cha `div` kinafaa kuwa na tagi ya kufunga.
+Your new `div` element should have a closing tag.
 
 ```js
 assert([...code.matchAll(/<\/div\s*>/gi)][1]);
 ```
 
-Unapaswa kuweka kipengee chako kipya cha `div` ndani ya `div` yenye class ya `container`.
+You should nest your new `div` element within the `div` with the class `container`.
 
 ```js
 assert(document.querySelector('.container')?.children[0]?.localName === 'div');
 ```
 
-Unapaswa kukipa kipengele chako kipya cha `div` class ya `marker`.
+You should give your new `div` element a class of `marker`.
 
 ```js
 const containerChildren = [...document.querySelector('.container')?.children];

@@ -1,6 +1,6 @@
 ---
 id: 5e8f2f13c4cdbe86b5c72d88
-title: Вступ до TensorFlow
+title: Introduction to TensorFlow
 challengeType: 11
 videoId: r9hRyGGjOgQ
 bilibiliIds:
@@ -12,25 +12,25 @@ dashedName: introduction-to-tensorflow
 
 # --description--
 
-Декілька наступних відеоуроків посилатимуться на [цей блокнот Colab](https://colab.research.google.com/drive/1F_EWVKa8rbMXi3_fG0w7AtcscFq7Hi7B#forceEdit=true&sandboxMode=true).
+The next few video lessons will reference [this Colab notebook](https://colab.research.google.com/drive/1F_EWVKa8rbMXi3_fG0w7AtcscFq7Hi7B#forceEdit=true&sandboxMode=true).
 
 # --questions--
 
 ## --text--
 
-Що з нижчепереліченого **не** є типом тензору?
+Which of the following is **not** a type of tensor?
 
 ## --answers--
 
-Змінна
+Variable
 
 ---
 
-Потік
+Flowing
 
 ---
 
-Заповнювач
+Placeholder
 
 ---
 
@@ -38,7 +38,7 @@ SparseTensor
 
 ---
 
-Константа
+Constant
 
 ## --video-solution--
 

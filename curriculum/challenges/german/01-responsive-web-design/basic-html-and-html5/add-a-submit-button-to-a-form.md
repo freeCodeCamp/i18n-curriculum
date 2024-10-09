@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedd08830
-title: Füge einen Absenden-Button (Submit) zu einem Formular hinzu
+title: Add a Submit Button to a Form
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVMPUv/cp2Nkhz'
 forumTopicId: 16627
@@ -9,9 +9,9 @@ dashedName: add-a-submit-button-to-a-form
 
 # --description--
 
-Lass uns einen `submit` Button zum Formular hinzufügen. Wenn du auf diesen Button klickst, werden die Daten deines Formulars an die URL gesendet, die du mit dem `action`-Attribut deines Formulars festgelegt hast.
+Let's add a `submit` button to your form. Clicking this button will send the data from your form to the URL you specified with your form's `action` attribute.
 
-Hier ist ein Beispiel für einen Absenden-Button:
+Here's an example submit button:
 
 ```html
 <button type="submit">this button submits the form</button>
@@ -19,23 +19,23 @@ Hier ist ein Beispiel für einen Absenden-Button:
 
 # --instructions--
 
-Füge einen Button als letztes Element deines `form`-Elements mit dem Typ `submit` und `Submit` als dessen Text hinzu.
+Add a button as the last element of your `form` element with a type of `submit`, and `Submit` as its text.
 
 # --hints--
 
-Dein Formular `form` sollte einen `button` enthalten.
+Your `form` should have a `button` inside it.
 
 ```js
 assert($('form').children('button').length > 0);
 ```
 
-Dein Absenden-Button sollte ein Attribut `type` haben, das auf `submit` gesetzt ist.
+Your submit button should have the attribute `type` set to `submit`.
 
 ```js
 assert($('button').attr('type') === 'submit');
 ```
 
-Dein Absenden-Button sollte nur den Text `Submit` haben.
+Your submit button should only have the text `Submit`.
 
 ```js
 assert(
@@ -45,7 +45,7 @@ assert(
 );
 ```
 
-Dein `button`-Element sollte einen schließenden Tag besitzen.
+Your `button` element should have a closing tag.
 
 ```js
 assert(

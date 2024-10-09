@@ -1,22 +1,21 @@
----
 id: 561add10cb82ac38a17213bc
-title: 舊版信息安全和質量保證認證
+title: Legacy Information Security and Quality Assurance Certification
 certification: legacy-information-security-and-quality-assurance
 challengeType: 7
 isPrivate: true
 tests:
   - 
     id: 587d8249367417b2b2512c41
-    title: 公英制轉換器
+    title: Metric-Imperial Converter
   - 
     id: 587d8249367417b2b2512c42
-    title: 問題追蹤器
+    title: Issue Tracker
   - 
     id: 587d824a367417b2b2512c43
-    title: 個人圖書館
+    title: Personal Library
   - 
     id: 587d824a367417b2b2512c44
-    title: 股票價格檢查器
+    title: Stock Price Checker
   - 
     id: 587d824a367417b2b2512c45
-    title: 匿名留言板
+    title: Anonymous Message Board

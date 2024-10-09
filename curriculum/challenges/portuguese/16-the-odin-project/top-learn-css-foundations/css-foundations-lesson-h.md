@@ -1,14 +1,14 @@
 ---
 id: 63ee354c0d8d4841c3a70921
 videoId: LGQuIIv2RVA
-title: Lição H sobre os fundamentos do CSS
+title: CSS Foundations Lesson H
 challengeType: 15
 dashedName: css-foundations-lesson-h
 ---
 
 # --description--
 
-O `CSS` em linha torna possível adicionar estilos diretamente em elementos do `HTML`, embora esse método não seja recomendado:
+Inline `CSS` makes it possible to add styles directly to `HTML` elements, though this method isn’t as recommended:
 
 ```html
 <body>
@@ -16,29 +16,29 @@ O `CSS` em linha torna possível adicionar estilos diretamente em elementos do `
 </body>
 ```
 
-A primeira coisa a observar é que não há seletores aqui, já que os estilos estão sendo adicionados diretamente à tag de abertura da `<div>` em si. Em seguida, você tem o atributo do `style`, com seu valor dentro do par de aspas sendo as declarações.
+The first thing to note is that there aren't any selectors here, since the styles are being added directly to the opening `<div>` tag itself. Next, you have the `style` attribute, with its value within the pair of quotation marks being the declarations.
 
-Se você precisar adicionar um estilo único para um único elemento, esse método pode funcionar bem. Geralmente, porém, essa não é exatamente a maneira recomendada de se adicionar CSS ao HTML por alguns motivos:
+If you need to add a unique style for a single element, this method can work just fine. Generally, though, this isn’t exactly a recommended way for adding CSS to HTML for a few reasons:
 
-Pode se tornar um pouco confuso rapidamente quando você começar a adicionar diversas declarações a um único elemento, fazendo com que o seu arquivo HTML se torne desnecessariamente inchado. Se você quiser que muitos elementos tenham o mesmo estilo, você terá que copiar e colar o mesmo estilo para cada elemento individual, causando muitas repetições desnecessárias e mais inchaço. Qualquer CSS em linha sobrescreverá os outros dois métodos, o que pode causar resultados inesperados. (Embora não vejamos isso em detalhes aqui, é possível tirar vantagem desse método).
+It can quickly become pretty messy once you start adding a lot of declarations to a single element, causing your HTML file to become unnecessarily bloated. If you want many elements to have the same style, you would have to copy + paste the same style to each individual element, causing lots of unnecessary repetition and more bloat. Any inline CSS will override the other two methods, which can cause unexpected results. (While you won’t dive into it here, this can actually be taken advantage of).
 
 # --questions--
 
 ## --text--
 
-Qual das seguintes opções é a principal desvantagem de se usar CSS em linha?
+Which of the following is the main disadvantage of using inline CSS?
 
 ## --answers--
 
-Pode se tornar um pouco confuso rapidamente quando você começar a adicionar diversas declarações a um único elemento, fazendo com que o seu arquivo HTML se torne desnecessariamente inchado.
+It can quickly become pretty messy once you start adding a lot of declarations to a single element, causing your HTML file to become unnecessarily bloated.
 
 ---
 
-Requer o uso de seletores, o que pode ser complicado para iniciantes.
+It requires using selectors, which can be complicated for beginners.
 
 ---
 
-Qualquer CSS em linha sobrescreverá os outros dois métodos (interno e externo), o que pode causar resultados inesperados.
+Any inline CSS will override the other two methods (internal and external), which can cause unexpected results.
 
 
 ## --video-solution--

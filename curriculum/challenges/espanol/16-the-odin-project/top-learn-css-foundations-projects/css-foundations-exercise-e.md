@@ -1,24 +1,24 @@
 ---
 id: 63ee3ff8381756f9716727f3
-title: Ejercicio E de fundamentos de CSS
+title: CSS Foundations Exercise E
 challengeType: 14
 dashedName: css-foundations-exercise-e
 ---
 
 # --description--
 
-Entender cómo funcionan los combinadores puede volverse mucho más fácil cuando comienzas a experimentar con ellos y ves qué exactamente se ve afectado por ellos versus qué no lo está.
+Understanding how combinators work can become a lot easier when you start playing around with them and see what exactly is affected by them versus what isn't.
 
-El objetivo de este ejercicio es aplicar estilos a elementos que son descendientes de otro elemento, mientras dejas sin estilo a elementos que no son descendientes de ese elemento.
+The goal of this exercise is to apply styles to elements that are descendants of another element, while leaving elements that aren't descendants of that element unstyled.
 
-1. Debe ver un fondo `yellow` para los elementos `p` que son descendientes del elemento `div`.
-1. Debe ver un color de texto `red` para los elementos que son descendientes del elemento `div`.
-1. Debe ver un tamaño de fuente de `20px` para elementos que son descendientes del elemento `div`.
-1. Debe alinear al centro el texto para elementos que son descendientes del elemento `div`.
+1. You should see a `yellow` background for `p` elements that are descendants of the `div` element.
+1. You should see a text color of `red` for elements that are descendants of the `div` element.
+1. You should see a font size of `20px` for elements that are descendants of the `div` element.
+1. You should center align text for elements that are descendants of the `div` element.
 
 # --hints--
 
-Debe tener un color de fondo `yellow` en sus descendientes.
+You should have a background color of `yellow` on your descendants.
 
 ```js
 const styleOne = new __helpers.CSSHelp(document).getStyle('.container .text');
@@ -40,7 +40,7 @@ assert(getCorrectStyle()?.backgroundColor === 'yellow');
 
 ```
 
-Debe tener un color de texto `red` en sus descendientes.
+You should have a text color of `red` on your descendants.
 
 ```js
 const styleOne = new __helpers.CSSHelp(document).getStyle('.container .text');
@@ -62,7 +62,7 @@ assert(getCorrectStyle()?.color === 'red');
 
 ```
 
-Debe tener un tamaño de fuente de `20px` en sus descendientes.
+You should have a font size of `20px` on your descendants.
 
 ```js
 const styleOne = new __helpers.CSSHelp(document).getStyle('.container .text');
@@ -84,7 +84,7 @@ assert(getCorrectStyle()?.fontSize === '20px');
 
 ```
 
-Debe alinear al centro el texto en sus descendientes.
+You should center align the text on your descendants.
 
 ```js
 const styleOne = new __helpers.CSSHelp(document).getStyle('.container .text');

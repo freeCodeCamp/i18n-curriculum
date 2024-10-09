@@ -1,6 +1,6 @@
 ---
 id: 587d7788367417b2b2512aa2
-title: Полегшіть навігацію по екрані за допомогою навігаційного орієнтиру
+title: Make Screen Reader Navigation Easier with the nav Landmark
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/czVwWSv'
 forumTopicId: 301024
@@ -9,23 +9,23 @@ dashedName: make-screen-reader-navigation-easier-with-the-nav-landmark
 
 # --description--
 
-Теґ `nav` - це ще один елемент HTML5 із вбудованою функцією орієнтира, що спрощує навігацію по екрані. Цей теґ призначений для об'єднання основних навігаційних посилань на сторінці.
+The `nav` element is another HTML5 item with the embedded landmark feature for easy screen reader navigation. This tag is meant to wrap around the main navigation links in your page.
 
-Якщо в нижній частині сторінки містяться повторювані посилання, не обов'язково також позначати їх теґом `nav`. Достатньо використати теґ `footer` (розглядатиметься в наступному завданні).
+If there are repeated site links at the bottom of the page, it isn't necessary to markup those with a `nav` tag as well. Using a `footer` (covered in the next challenge) is sufficient.
 
 # --instructions--
 
-Camper Cat включив навігаційні посилання у верхній частині тренувальної сторінки, але розмістив їх у `div`. Замініть теґ `div` на `nav`, щоб покращити доступність його сторінки.
+Camper Cat included navigation links at the top of his training page, but wrapped them in a `div`. Change the `div` to a `nav` tag to improve the accessibility on his page.
 
 # --hints--
 
-Ваш код має містити один теґ `nav`.
+Your code should have one `nav` tag.
 
 ```js
 assert.lengthOf(document.querySelectorAll('nav') , 1);
 ```
 
-Ваші теґи `nav` мають обгортати `ul` і елементи його списку.
+Your `nav` tags should wrap around the `ul` and its list items.
 
 ```js
 const nav = document.querySelector('nav');
@@ -33,13 +33,13 @@ const children = nav?.querySelectorAll(`:scope ${'ul'}`);
 assert.lengthOf(children,1);
 ```
 
-Ваш код не має містити жодних теґів `div`.
+Your code should not have any `div` tags.
 
 ```js
 assert.lengthOf(document.querySelectorAll('div') , 0);
 ```
 
-Елемент `nav` повинен мати кінцевий тег.
+Your `nav` element should have a closing tag.
 
 ```js
 assert.isTrue(code.match(/<\/nav>/g)?.length === code.match(/<nav>/g)?.length);

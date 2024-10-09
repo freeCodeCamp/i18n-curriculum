@@ -1,6 +1,6 @@
 ---
 id: 587d78a9367417b2b2512aea
-title: Tornar o movimento da animação mais natural usando uma curva de Bézier
+title: Make Motion More Natural Using a Bezier Curve
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/c7akWUv'
 forumTopicId: 301063
@@ -9,25 +9,25 @@ dashedName: make-motion-more-natural-using-a-bezier-curve
 
 # --description--
 
-Este desafio anima um elemento para replicar o movimento de uma bola sendo quicada. Desafios anteriores cobriram as curvas cúbicas de Bezier `linear` e `ease-out`, no entanto, nenhuma descreve o movimento de quicar com precisão. Você precisa personalizar uma curva de Bézier para isso.
+This challenge animates an element to replicate the movement of a ball being juggled. Prior challenges covered the `linear` and `ease-out` cubic Bezier curves, however neither depicts the juggling movement accurately. You need to customize a Bezier curve for this.
 
-A propriedade `animation-timing-function` faz automaticamente um loop em cada quadro-chave (keyframe) quando a propriedade `animation-iteration-count` é definida com o valor de infinite. Como há uma regra keyframe definida no meio da duração da animação (em `50%`), isso resulta em duas progressões de animação idênticas no movimento para cima e para baixo da bola.
+The `animation-timing-function` automatically loops at every keyframe when the `animation-iteration-count` is set to infinite. Since there is a keyframe rule set in the middle of the animation duration (at `50%`), it results in two identical animation progressions at the upward and downward movement of the ball.
 
-A seguinte curva cúbica de Bézier simula um movimento de malabarismo:
+The following cubic Bezier curve simulates a juggling movement:
 
 ```css
 cubic-bezier(0.3, 0.4, 0.5, 1.6);
 ```
 
-Observe que o valor de y2 é maior que 1. Embora a curva cúbica de Bézier seja mapeada em um sistema de coordenadas de 1 por 1 e só possa aceitar valores de x de 0 a 1, o valor de y pode ser definido com números maiores que um. Isso resulta em um movimento de salto ideal para simular a bola de malabarismo.
+Notice that the value of y2 is larger than 1. Although the cubic Bezier curve is mapped on a 1 by 1 coordinate system, and it can only accept x values from 0 to 1, the y value can be set to numbers larger than one. This results in a bouncing movement that is ideal for simulating the juggling ball.
 
 # --instructions--
 
-Altere o valor da propriedade `animation-timing-function` do elemento com o id de `green` para uma função `cubic-bezier` com os valores de x1, y1, x2, e y2 definidos respectivamente para 0.311, 0.441, 0.444, 1.649.
+Change value of the `animation-timing-function` of the element with the id of `green` to a `cubic-bezier` function with x1, y1, x2, y2 values set respectively to 0.311, 0.441, 0.444, 1.649.
 
 # --hints--
 
-O valor da propriedade `animation-timing-function` para o elemento com o id `green` deve ser uma função `cubic-bezier` com os valores x1, y1, x2 e y2 conforme especificado.
+The value of the `animation-timing-function` property for the element with the id `green` should be a `cubic-bezier` function with x1, y1, x2, y2 values as specified.
 
 ```js
 const greenElement = document.querySelector('#green');

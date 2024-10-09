@@ -1,15 +1,15 @@
 ---
 id: 661e27568602567c118451d2
-title: Вивчіть масиви та цикли. Урок №2
+title: Learn Arrays and Loops Lesson B
 challengeType: 15
 dashedName: learn-arrays-and-loops-lesson-b
 ---
 
 # --description--
 
-Щоб отримати елементи масиву, можна використати індекс. Індекси починаються з 0, тому перший елемент масиву розташований за індексом 0, другий — за індексом 1 і так далі.
+To access the elements of an array, you can use the index number. The index number starts from 0, so the first element of an array is at index 0, the second element is at index 1, and so on.
 
-Наприклад, щоб отримати перший елемент масиву `fruits`, можна використати такий код:
+For example, to access the first element of the `fruits` array, you can use the following code:
 
 ```javascript
 const fruits = ['apple', 'banana', 'orange'];
@@ -17,14 +17,14 @@ console.log(fruits[0]); // Output: apple
 console.log(fruits[2]); // Output: orange
 ```
 
-Якщо індекс поза діапазоном, JavaScript поверне `undefined`. Якби ви спробували отримати `fruits[3]` у прикладі вище, він би повернув `undefined`.
+If the index is out of range, JavaScript will return `undefined`. Meaning that if you try to access `fruits[3]` in the above example, it will return `undefined`.
 
 
 # --questions--
 
 ## --text--
 
-Який елемент розташований за четвертим індексом в масиві `fruits`?
+What is the element at the fourth index of the `fruits` array?
 
 ## --answers--
 

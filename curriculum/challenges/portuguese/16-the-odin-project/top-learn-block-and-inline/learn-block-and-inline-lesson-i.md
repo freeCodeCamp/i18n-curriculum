@@ -1,31 +1,31 @@
 ---
 id: 65704484e7b02272663824e7
-title: Lição I de Aprenda sobre block e inline
+title: Learn Block and Inline Lesson I
 challengeType: 15
 dashedName: learn-block-and-inline-lesson-i
 ---
 
 # --description--
 
-Você não pode falar sobre elementos `block` e `inline` sem discutir `div`s e `span`s. Todos os outros elementos HTML que você encontrou até agora dão significado ao seu conteúdo. Por exemplo, elementos de parágrafo informam ao navegador para exibir o texto que contém como um parágrafo. Elementos strong informam ao navegador quais textos dentro deles são importantes e assim por diante. Ainda assim, `div`s e `span`s não dão nenhum significado particular ao seu conteúdo. Eles são apenas caixas genéricas que podem conter qualquer coisa.
+You can't talk about `block` and `inline` elements without discussing `div`s and `span`s. All the other HTML elements you have encountered so far give meaning to their content. For example, paragraph elements tell the browser to display the text it contains as a paragraph. Strong elements tell the browser which texts within are important and so on. Yet, `div`s and `span`s give no particular meaning to their content. They are just generic boxes that can contain anything.
 
 # --questions--
 
 ## --text--
 
-Qual é a diferença principal dos elementos `span` e `div` de outros elementos?
+What is the primary difference of `span` and `div` elements from other elements?
 
 ## --answers--
 
-Ao contrário de elementos do HTML específicos que carregam significados inerentes, os elementos `span` e `div` são versáteis e são usados principalmente para fins de estilo e layout.
+Unlike specific HTML elements that carry inherent meanings, `span` and `div` elements are versatile and are primarily used for styling and layout purposes.
 
 ---
 
-Os elementos `span` e `div` não transmitem nenhum significado semântico específico ao conteúdo que contêm, ao contrário de outros elementos HTML, como parágrafos ou cabeçalhos.
+`span` and `div` elements do not impart any specific semantic meaning to the content they contain, unlike other HTML elements such as paragraphs or headings.
 
 ---
 
-Os elementos `span` e `div` são contêineres genéricos que permitem aos desenvolvedores aplicar estilos CSS e estruturar conteúdo sem qualquer significado semântico particular.
+`span` and `div` elements are generic containers that allow developers to apply CSS styles and structure content without any particular semantic significance.
 
 ## --video-solution--
 

@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aede08718
-title: Utiliza valores RGB para asignar color a los elementos
+title: Use RGB values to Color Elements
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cRkp2fr'
 forumTopicId: 18369
@@ -9,25 +9,25 @@ dashedName: use-rgb-values-to-color-elements
 
 # --description--
 
-Otra forma de representar colores en CSS es utilizar valores `RGB`.
+Another way you can represent colors in CSS is by using `RGB` values.
 
-El valor `RGB` del color negro se ve así:
+The `RGB` value for black looks like this:
 
 ```css
 rgb(0, 0, 0)
 ```
 
-El valor `RGB` del color blanco se ve así:
+The `RGB` value for white looks like this:
 
 ```css
 rgb(255, 255, 255)
 ```
 
-En lugar de usar seis dígitos hexadecimales, como hacemos con el código hexadecimal, en `RGB` se especifica el brillo de cada color con un número que va de 0 a 255.
+Instead of using six hexadecimal digits like you do with hex code, with `RGB` you specify the brightness of each color with a number between 0 and 255.
 
-Si haces el cálculo, cada uno de los dos dígitos para un color representa 16 combinaciones, lo que nos da 256 valores posibles. Entonces, `RGB`, que comienza a contar desde cero, tiene el mismo número exacto de valores posibles que el código hexadecimal.
+If you do the math, the two digits for one color equal 16 times 16, which gives us 256 total values. So `RGB`, which starts counting from zero, has the exact same number of possible values as hex code.
 
-A continuación puedes ver un ejemplo de cómo cambiar el color de fondo de `body` a naranja usando su código RGB.
+Here's an example of how you'd change the `body` background to orange using its RGB code.
 
 ```css
 body {
@@ -37,17 +37,17 @@ body {
 
 # --instructions--
 
-Reemplacemos el código hexadecimal en el color de fondo de nuestro elemento `body` por el valor RGB correspondiente al color negro: `rgb(0, 0, 0)`
+Let's replace the hex code in our `body` element's background color with the RGB value for black: `rgb(0, 0, 0)`
 
 # --hints--
 
-Tu elemento `body` debe tener un color de fondo "black" (negro).
+Your `body` element should have a black background.
 
 ```js
 assert($('body').css('background-color') === 'rgb(0, 0, 0)');
 ```
 
-Debes usar `rgb` para asignar a tu elemento `body` un color de fondo de negro.
+You should use `rgb` to give your `body` element a background of black.
 
 ```js
 assert(code.match(/rgb\s*\(\s*0\s*,\s*0\s*,\s*0\s*\)/gi));

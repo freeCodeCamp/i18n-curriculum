@@ -1,6 +1,6 @@
 ---
 id: 56104e9e514f539506016a5c
-title: Iterare numeri dispari con un ciclo for
+title: Iterate Odd Numbers With a For Loop
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cm8n7T9'
 forumTopicId: 18212
@@ -9,9 +9,9 @@ dashedName: iterate-odd-numbers-with-a-for-loop
 
 # --description--
 
-I cicli for non devono necessariamente iterare un numero alla volta. Modificando la nostra `final-expression` possiamo iterare solo sui numeri pari.
+For loops don't have to iterate one at a time. By changing our `final-expression`, we can count by even numbers.
 
-Inizieremo da `i = 0` e ripeteremo il ciclo finché `i < 10`. Incrementeremo `i` di 2 ad ogni ciclo con `i += 2`.
+We'll start at `i = 0` and loop while `i < 10`. We'll increment `i` by 2 each loop with `i += 2`.
 
 ```js
 const ourArray = [];
@@ -21,21 +21,21 @@ for (let i = 0; i < 10; i += 2) {
 }
 ```
 
-`ourArray` ora conterrà `[0, 2, 4, 6, 8]`. Cambiamo la nostra `initialization` in modo da poter iterare sui numeri dispari.
+`ourArray` will now contain `[0, 2, 4, 6, 8]`. Let's change our `initialization` so we can count by odd numbers.
 
 # --instructions--
 
-Inserisci i numeri dispari da 1 a 9 in `myArray` usando un ciclo `for`.
+Push the odd numbers from 1 through 9 to `myArray` using a `for` loop.
 
 # --hints--
 
-Dovresti usare un ciclo `for`.
+You should be using a `for` loop for this.
 
 ```js
 assert(/for\s*\([^)]+?\)/.test(__helpers.removeJSComments(code)));
 ```
 
-`myArray` dovrebbe essere uguale a `[1, 3, 5, 7, 9]`.
+`myArray` should equal `[1, 3, 5, 7, 9]`.
 
 ```js
 assert.deepEqual(myArray, [1, 3, 5, 7, 9]);

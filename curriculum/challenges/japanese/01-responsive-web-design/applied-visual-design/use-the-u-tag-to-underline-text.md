@@ -1,6 +1,6 @@
 ---
 id: 587d781a367417b2b2512ab8
-title: u タグでテキストに下線を引く
+title: Use the u Tag to Underline Text
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cN6aQCL'
 forumTopicId: 301082
@@ -9,23 +9,23 @@ dashedName: use-the-u-tag-to-underline-text
 
 # --description--
 
-テキストに下線を引くには `u` タグを使用します。 これは、テキストの一部が重要であること、または覚えておくべきであることを示すためによく用いられます。 `u` タグを使うと、ブラウザは CSS の `text-decoration: underline;` を要素に適用します。
+To underline text, you can use the `u` tag. This is often used to signify that a section of text is important, or something to remember. With the `u` tag, the browser applies the CSS of `text-decoration: underline;` to the element.
 
 # --instructions--
 
-`u` タグで `Ph.D. students` のテキストだけを囲んでください。
+Wrap the `u` tag only around the text `Ph.D. students`.
 
-**注:** リンクと混同する可能性がある場合には、`u` タグを使うのは避けるようにしましょう。 アンカータグもデフォルトで下線付きで表示されるためです。
+**Note:** Try to avoid using the `u` tag when it could be confused for a link. Anchor tags also have a default underlined formatting.
 
 # --hints--
 
-コード内でマークアップに `u` タグを 1 つ追加する必要があります。
+Your code should add a `u` tag to the markup.
 
 ```js
 assert.lengthOf(document.querySelectorAll('u'), 1);
 ```
 
-`u` タグが `Ph.D. students` のテキストを囲むようにしてください。
+The `u` tag should wrap around the text `Ph.D. students`.
 
 ```js
 assert.equal(document.querySelector('u')?.textContent , 'Ph.D. students');

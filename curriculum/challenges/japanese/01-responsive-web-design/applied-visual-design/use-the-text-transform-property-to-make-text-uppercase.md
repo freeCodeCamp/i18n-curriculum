@@ -1,6 +1,6 @@
 ---
 id: 587d781c367417b2b2512ac0
-title: text-transform プロパティでテキストを大文字にする
+title: Use the text-transform Property to Make Text Uppercase
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cvVZQSP'
 forumTopicId: 301081
@@ -9,19 +9,19 @@ dashedName: use-the-text-transform-property-to-make-text-uppercase
 
 # --description--
 
-CSS の `text-transform` プロパティはテキストの外観を変更するために使用されます。 実際の HTML 要素のテキストを変更することなく、ウェブページ上のテキストが一貫した形で表示されるようにするための便利な方法です。
+The `text-transform` property in CSS is used to change the appearance of text. It's a convenient way to make sure text on a webpage appears consistently, without having to change the text content of the actual HTML elements.
 
-以下の表は、異なる `text-transform` の値がどのように "Transform me" の例文を変化させるかを示しています。
+The following table shows how the different `text-transform`values change the example text "Transform me".
 
-<table><thead><tr><th>値</th><th>結果</th></tr></thead><tbody><tr><td><code>lowercase</code></td><td>"transform me"</td></tr><tr><td><code>uppercase</code></td><td>"TRANSFORM ME"</td></tr><tr><td><code>capitalize</code></td><td>"Transform Me"</td></tr><tr><td><code>initial</code></td><td>デフォルト値が使用される</td></tr><tr><td><code>inherit</code></td><td>親要素の <code>text-transform</code> の値が使用される</td></tr><tr><td><code>none</code></td><td><strong>デフォルト:</strong> 元のテキストを使用する</td></tr></tbody></table>
+<table><thead><tr><th>Value</th><th>Result</th></tr></thead><tbody><tr><td><code>lowercase</code></td><td>"transform me"</td></tr><tr><td><code>uppercase</code></td><td>"TRANSFORM ME"</td></tr><tr><td><code>capitalize</code></td><td>"Transform Me"</td></tr><tr><td><code>initial</code></td><td>Use the default value</td></tr><tr><td><code>inherit</code></td><td>Use the <code>text-transform</code> value from the parent element</td></tr><tr><td><code>none</code></td><td><strong>Default:</strong> Use the original text</td></tr></tbody></table>
 
 # --instructions--
 
-`h4` のテキストを、`text-transform` プロパティを使用して大文字に変換してください。
+Transform the text of the `h4` to be uppercase using the `text-transform` property.
 
 # --hints--
 
-`h4` のテキストは `uppercase` でなければなりません。
+The `h4` text should be `uppercase`.
 
 ```js
 const h4Element =document.querySelector('h4')
@@ -29,7 +29,7 @@ const h4Style = window.getComputedStyle(h4Element);
 assert.equal(h4Style?.textTransform, 'uppercase');
 ```
 
-h4 の元のテキストは変更しないようにしてください。
+The original text of the h4 should not be changed.
 
 ```js
 assert.notEqual(document.querySelector('h4')?.textContent, document.querySelector('h4')?.textContent?.toUpperCase());

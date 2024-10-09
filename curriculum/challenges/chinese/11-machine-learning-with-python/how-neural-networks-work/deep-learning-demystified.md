@@ -1,6 +1,6 @@
 ---
 id: 5e9a0e9ef99a403d019610cc
-title: 解密深度学习
+title: Deep Learning Demystified
 challengeType: 11
 videoId: bejQ-W9BGJg
 dashedName: deep-learning-demystified
@@ -10,23 +10,23 @@ dashedName: deep-learning-demystified
 
 ## --text--
 
-在你第一次训练你的网络之前，你应该如何给输入层节点分配权重？
+How should you assign weights to input neurons before training your network for the first time?
 
 ## --answers--
 
-从小到大
+From smallest to largest.
 
 ---
 
-完全随机的
+Completely randomly.
 
 ---
 
-按字母顺序
+Alphabetically.
 
 ---
 
-以上都不对
+None of the above.
 
 ## --video-solution--
 

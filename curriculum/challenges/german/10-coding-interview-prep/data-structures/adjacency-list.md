@@ -1,6 +1,6 @@
 ---
 id: 587d8256367417b2b2512c77
-title: Adjazenzliste
+title: Adjacency List
 challengeType: 1
 forumTopicId: 301620
 dashedName: adjacency-list
@@ -8,11 +8,11 @@ dashedName: adjacency-list
 
 # --description--
 
-Graphen können auf unterschiedliche Weise repräsentiert werden. Hier beschreiben wir einen Weg, der <dfn>adjacency list</dfn> genannt wird. Eine Adjazenzliste ist im Wesentlichen eine Aufzählung, bei der die linke Seite der Knoten ist und die rechte Seite alle anderen Knoten auflistet, mit denen er verbunden ist. Unten sehen Sie eine Darstellung einer Adjazenzliste.
+Graphs can be represented in different ways. Here we describe one way, which is called an <dfn>adjacency list</dfn>. An adjacency list is essentially a bulleted list where the left side is the node and the right side lists all the other nodes it's connected to. Below is a representation of an adjacency list.
 
-<blockquote>Knoten1: Knoten2, Knoten 3<br>Knoten2: Knoten 1<br>Knoten3: Knoten1</blockquote>
+<blockquote>Node1: Node2, Node3<br>Node2: Node1<br>Node3: Node1</blockquote>
 
-Dieses Beispiel zeigt einen richtungslosen Graphen an, da `Node1` mit `Node2` und `Node3` verbunden ist, und diese Information konsistent durch die Verbindungen `Node2` zu `Node3` bestätigt wird. Eine Adjazenzliste für einen gerichteten Graphen würde bedeuten, dass jede Zeile der Liste die Richtung angibt. Wenn die obigen Angaben stimmen, dann würde `Node2: Node1` bedeuten, dass `Node2` in Richtung `Node1` zeigt. Wir können den obigen nicht ausgerichteten Graphen als eine Adjazenzliste darstellen, indem wir ihn in ein JavaScript-Objekt einfügen.
+Above is an undirected graph because `Node1` is connected to `Node2` and `Node3`, and that information is consistent with the connections `Node2` and `Node3` show. An adjacency list for a directed graph would mean each row of the list shows direction. If the above was directed, then `Node2: Node1` would mean there the directed edge is pointing from `Node2` towards `Node1`. We can represent the undirected graph above as an adjacency list by putting it within a JavaScript object.
 
 ```js
 var undirectedG = {
@@ -22,7 +22,7 @@ var undirectedG = {
 };
 ```
 
-Dies kann auch einfacher als ein Array dargestellt werden, bei dem die Knoten nur Nummern und keine String-Bezeichnungen haben.
+This can also be more simply represented as an array where the nodes just have numbers rather than string labels.
 
 ```js
 var undirectedGArr = [
@@ -34,17 +34,17 @@ var undirectedGArr = [
 
 # --instructions--
 
-Erstelle ein soziales Netzwerk repräsentiert durch einen nicht ausgerichteten Graphen mit 4 Knoten/Personen, namens James `James`, `Jill`, `Jenny`, und `Jeff`. Es gibt Kanten/Beziehungen zwischen James und Jeff, Jill und Jenny und Jeff und Jenny.
+Create a social network as an undirected graph with 4 nodes/people named `James`, `Jill`, `Jenny`, and `Jeff`. There are edges/relationships between James and Jeff, Jill and Jenny, and Jeff and Jenny.
 
 # --hints--
 
-`undirectedAdjList` sollte nur 4 Knoten enthalten.
+`undirectedAdjList` should only contain four nodes.
 
 ```js
 assert(Object.keys(undirectedAdjList).length === 4);
 ```
 
-Es sollte eine Kante zwischen `Jeff` und `James` geben.
+There should be an edge between `Jeff` and `James`.
 
 ```js
 assert(
@@ -53,7 +53,7 @@ assert(
 );
 ```
 
-Es sollte eine Kante zwischen `Jill` und `Jenny` geben.
+There should be an edge between `Jill` and `Jenny`.
 
 ```js
 assert(
@@ -62,7 +62,7 @@ assert(
 );
 ```
 
-Es sollte eine Kante zwischen`Jeff` und `Jenny` geben.
+There should be an edge between `Jeff` and `Jenny`.
 
 ```js
 assert(

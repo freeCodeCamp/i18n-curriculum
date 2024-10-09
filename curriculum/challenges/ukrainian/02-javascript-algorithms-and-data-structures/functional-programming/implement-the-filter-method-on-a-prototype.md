@@ -1,6 +1,6 @@
 ---
 id: 587d7b8f367417b2b2512b64
-title: Імплементація методу filter на прототипі
+title: Implement the filter Method on a Prototype
 challengeType: 1
 forumTopicId: 301231
 dashedName: implement-the-filter-method-on-a-prototype
@@ -8,15 +8,15 @@ dashedName: implement-the-filter-method-on-a-prototype
 
 # --description--
 
-Ви можете багато дізнатись про метод `filter`, якщо реалізуєте власну версію. Рекомендовано використовувати цикл `for` або `Array.prototype.forEach()`.
+You might learn a lot about the `filter` method if you implement your own version of it. It is recommended you use a `for` loop or `Array.prototype.forEach()`.
 
 # --instructions--
 
-Напишіть свій `Array.prototype.myFilter()`, який поводиться як `Array.prototype.filter()`. Ви не повинні використовувати вбудований метод `filter`. Доступ до екземпляра `Array` можна отримати у методі `myFilter` за допомогою `this`.
+Write your own `Array.prototype.myFilter()`, which should behave exactly like `Array.prototype.filter()`. You should not use the built-in `filter` method. The `Array` instance can be accessed in the `myFilter` method using `this`.
 
 # --hints--
 
-`[23, 65, 98, 5, 13].myFilter(item => item % 2)` має дорівнювати `[23, 65, 5, 13]`.
+`[23, 65, 98, 5, 13].myFilter(item => item % 2)` should equal `[23, 65, 5, 13]`.
 
 ```js
 const _test_s = [23, 65, 98, 5, 13];
@@ -24,7 +24,7 @@ const _callback = item => item % 2;
 assert(JSON.stringify(_test_s.filter(_callback)) === JSON.stringify(_test_s.myFilter(_callback)));
 ```
 
-`["naomi", "quincy", "camperbot"].myFilter(element => element === "naomi")` має повертати `["naomi"]`.
+`["naomi", "quincy", "camperbot"].myFilter(element => element === "naomi")` should return `["naomi"]`.
 
 ```js
 const _test_s = ["naomi", "quincy", "camperbot"];
@@ -32,7 +32,7 @@ const _callback = element => element === "naomi";
 assert(JSON.stringify(_test_s.filter(_callback)) === JSON.stringify(_test_s.myFilter(_callback)));
 ```
 
-`[1, 1, 2, 5, 2].myFilter((element, index, array) => array.indexOf(element) === index)` має повертати `[1, 2, 5]`.
+`[1, 1, 2, 5, 2].myFilter((element, index, array) => array.indexOf(element) === index)` should return `[1, 2, 5]`.
 
 ```js
 const _test_s = [1, 1, 2, 5, 2];
@@ -40,7 +40,7 @@ const _callback = (element, index, array) => array.indexOf(element) === index;
 assert(JSON.stringify(_test_s.filter(_callback)) === JSON.stringify(_test_s.myFilter(_callback)));
 ```
 
-Ваш код не повинен використовувати метод `filter`.
+Your code should not use the `filter` method.
 
 ```js
 assert(!__helpers.removeJSComments(code).match(/\.?[\s\S]*?filter/g));

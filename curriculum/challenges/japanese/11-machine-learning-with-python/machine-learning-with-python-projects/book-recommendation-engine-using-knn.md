@@ -1,6 +1,6 @@
 ---
 id: 5e46f8e3ac417301a38fb92f
-title: KNN を使用した書籍推薦エンジン
+title: Book Recommendation Engine using KNN
 challengeType: 10
 forumTopicId: 462378
 dashedName: book-recommendation-engine-using-knn
@@ -8,29 +8,29 @@ dashedName: book-recommendation-engine-using-knn
 
 # --description--
 
-このプロジェクトには <a href="https://colab.research.google.com/github/freeCodeCamp/boilerplate-book-recommendation-engine/blob/master/fcc_book_recommendation_knn.ipynb" target="_blank" rel="noopener noreferrer nofollow">Google Colaboratory</a> を使用して取り組んでください。
+You will be <a href="https://colab.research.google.com/github/freeCodeCamp/boilerplate-book-recommendation-engine/blob/master/fcc_book_recommendation_knn.ipynb" target="_blank" rel="noopener noreferrer nofollow">working on this project with Google Colaboratory</a>.
 
-上記のリンクにアクセスした後、自分のアカウントまたはローカルに、ノートブックのコピーを作成してください。 プロジェクトを完了し、テストが成功したら (テストはリンクに含まれています)、下記にプロジェクトリンクを送信してください。 Google Colaboratory のリンクを送信する場合は、リンクの共有設定を必ず「リンクを知っている全員」に設定してください。
+After going to that link, create a copy of the notebook either in your own account or locally. Once you complete the project and it passes the test (included at that link), submit your project link below. If you are submitting a Google Colaboratory link, make sure to turn on link sharing for "anyone with the link."
 
-機械学習カリキュラム用の対話型教育コンテンツは、現在開発中です。 現状、この認定講座では動画チャレンジを受講できます。 プロジェクトに取り組むにあたり、場合によってはその他の学習資料を探して参考にする必要もあります。これは実際の仕事でプロジェクトに取り組む場合も同様です。
+We are still developing the interactive instructional content for the machine learning curriculum. For now, you can go through the video challenges in this certification. You may also have to seek out additional learning resources, similar to what you would do when working on a real-world project.
 
 # --instructions--
 
-このチャレンジでは、**K 近傍法**を使用して書籍推薦アルゴリズムを作成します。
+In this challenge, you will create a book recommendation algorithm using **K-Nearest Neighbors**.
 
-<a href="http://www2.informatik.uni-freiburg.de/~cziegler/BX/" target="_blank" rel="noopener noreferrer nofollow">ブッククロッシングのデータセット</a>を使用してください。 このデータセットには、90,000 人のユーザーによる 270,000 冊の本に関する 110 万件の (10 段階の) 評価が含まれています。
+You will use the <a href="http://www2.informatik.uni-freiburg.de/~cziegler/BX/" target="_blank" rel="noopener noreferrer nofollow">Book-Crossings dataset</a>. This dataset contains 1.1 million ratings (scale of 1-10) of 270,000 books by 90,000 users.
 
-データをインポートしてクリーニングしたら、`sklearn.neighbors` の `NearestNeighbors` を使用して、指定された本と似た本を表示するモデルを作成してください。 Nearest Neighbors アルゴリズムは、distance (距離) を測定してインスタンスの「近さ」を求めます。
+After importing and cleaning the data, use `NearestNeighbors` from `sklearn.neighbors` to develop a model that shows books that are similar to a given book. The Nearest Neighbors algorithm measures the distance to determine the “closeness” of instances.
 
-本のタイトルを (データセットから) 引数として 1 つ取り、それと似た 5 冊の本に、引数の本からの distance を添えたリストを返す `get_recommends` という名前の関数を作成してください。
+Create a function named `get_recommends` that takes a book title (from the dataset) as an argument and returns a list of 5 similar books with their distances from the book argument.
 
-このコードは:
+This code:
 
 ```py
 get_recommends("The Queen of the Damned (Vampire Chronicles (Paperback))")
 ```
 
-次のものを返します。
+should return:
 
 ```py
 [
@@ -45,15 +45,15 @@ get_recommends("The Queen of the Damned (Vampire Chronicles (Paperback))")
 ]
 ```
 
-`get_recommends()` が返すデータがリストであることに注目してください。 リストの最初の要素は関数に渡された本のタイトルです。 リストの 2 番目の要素は 5 つのリストを持つリストです。 5 つのリストはそれぞれ推薦本と、推薦本から関数に渡された本までの distance を含みます。
+Notice that the data returned from `get_recommends()` is a list. The first element in the list is the book title passed into the function. The second element in the list is a list of five more lists. Each of the five lists contains a recommended book and the distance from the recommended book to the book passed into the function.
 
-(オプション作業) データセットをグラフにしてみると、ほとんどの書籍が頻繁には評価されていないことがわかります。 意味のある統計にするため、評価が 200 未満のユーザーと 100 未満の書籍をデータセットから削除してください。
+If you graph the dataset (optional), you will notice that most books are not rated frequently. To ensure statistical significance, remove from the dataset users with less than 200 ratings and books with less than 100 ratings.
 
-最初の 3 つのセルでは、必要と思われるライブラリと使用するデータをインポートします。 最後のセルはテスト用です。 これらのセルの間にすべてのコードを記述してください。
+The first three cells import libraries you may need and the data to use. The final cell is for testing. Write all your code in between those cells.
 
 # --hints--
 
-すべての Python テストが成功する必要があります。
+It should pass all Python tests.
 
 ```js
 

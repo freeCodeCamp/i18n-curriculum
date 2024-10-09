@@ -1,6 +1,6 @@
 ---
 id: 587d8247367417b2b2512c36
-title: Instalar y Requerir Helmet
+title: Install and Require Helmet
 challengeType: 2
 forumTopicId: 301581
 dashedName: install-and-require-helmet
@@ -8,23 +8,23 @@ dashedName: install-and-require-helmet
 
 # --description--
 
-Trabajar en estos desafíos implica escribir tu código usando uno de los siguientes métodos:
+Working on these challenges will involve you writing your code using one of the following methods:
 
-- Clona <a href="https://github.com/freeCodeCamp/boilerplate-infosec/" target="_blank" rel="noopener noreferrer nofollow">este repositorio de GitHub </a> y completa esos retos localmente.
-- Usa <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-infosec/" target="_blank" rel="noopener noreferrer nofollow">nuestro proyecto inicial de Gitpod</a> para completar estos desafíos.
-- Utilice un constructor de sitios de su elección para completar el proyecto. Asegúrese de incorporar todos los archivos de nuestro repositorio de GitHub.
+- Clone <a href="https://github.com/freeCodeCamp/boilerplate-infosec/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete these challenges locally.
+- Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-infosec/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete these challenges.
+- Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
 
-Helmet ayuda asegurar tus aplicaciones Express apps configurando varios encabezados HTTP.
+Helmet helps you secure your Express apps by setting various HTTP headers.
 
 # --instructions--
 
-Todo el código para estas lecciones va a ir en el archivo `myApp.js` entre las líneas de código que iniciamos para ti. No cambies o borres el código que agregamos para ti.
+All your code for these lessons goes in the `myApp.js` file between the lines of code we have started you off with. Do not change or delete the code we have added for you.
 
-Helmet version `3.21.3` ha sido instalado, este requiere que `helmet` este en `myApp.js`.
+Helmet version `3.21.3` has already been installed, so require it as `helmet` in `myApp.js`.
 
 # --hints--
 
-`helmet` version `3.21.3` debería estar en `package.json`
+`helmet` version `3.21.3` should be in `package.json`
 
 ```js
 (getUserInput) =>

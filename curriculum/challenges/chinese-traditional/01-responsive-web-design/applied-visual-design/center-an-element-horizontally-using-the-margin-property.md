@@ -1,6 +1,6 @@
 ---
 id: 587d78a3367417b2b2512ad0
-title: 使用 margin 屬性將元素水平居中
+title: Center an Element Horizontally Using the margin Property
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cyLJqU4'
 forumTopicId: 301043
@@ -9,17 +9,17 @@ dashedName: center-an-element-horizontally-using-the-margin-property
 
 # --description--
 
-在應用設計中經常需要把一個塊級元素水平居中顯示。 一種常見的實現方式是把塊級元素的 `margin` 值設置爲 auto。
+Another positioning technique is to center a block element horizontally. One way to do this is to set its `margin` to a value of auto.
 
-同樣的，這個方法也對圖片奏效。 圖片默認是內聯元素，但是可以通過設置其 `display` 屬性爲 `block`來把它變成塊級元素。
+This method works for images, too. Images are inline elements by default, but can be changed to block elements when you set the `display` property to `block`.
 
 # --instructions--
 
-通過添加一個值爲 `auto` 的 `margin` 屬性，將 `div` 在頁面居中。
+Center the `div` on the page by adding a `margin` property with a value of `auto`.
 
 # --hints--
 
-`div` 應有一個 `margin`，設置爲 `auto`。
+The `div` should have a `margin` set to `auto`.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('div')?.margin ,'auto');

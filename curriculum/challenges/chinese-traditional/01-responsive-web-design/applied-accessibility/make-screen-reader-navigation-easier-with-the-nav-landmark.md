@@ -1,6 +1,6 @@
 ---
 id: 587d7788367417b2b2512aa2
-title: 使用 nav 元素使屏幕閱讀器更容易導航
+title: Make Screen Reader Navigation Easier with the nav Landmark
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/czVwWSv'
 forumTopicId: 301024
@@ -9,23 +9,23 @@ dashedName: make-screen-reader-navigation-easier-with-the-nav-landmark
 
 # --description--
 
-`nav` 也是一個具有語義化特性的 HTML5 標籤，它可以使屏幕閱讀器快速識別出頁面中的導航信息。 它用於呈現頁面中的主導航鏈接。
+The `nav` element is another HTML5 item with the embedded landmark feature for easy screen reader navigation. This tag is meant to wrap around the main navigation links in your page.
 
-對於在多個頁面底部出現的站點鏈接，我們不需要使用 `nav` 標籤。 我們將會在下個挑戰中學習 `footer` 標籤的使用。
+If there are repeated site links at the bottom of the page, it isn't necessary to markup those with a `nav` tag as well. Using a `footer` (covered in the next challenge) is sufficient.
 
 # --instructions--
 
-Camper Cat 在他的忍者訓練頁面頂端放置了多個導航鏈接，但這些鏈接都寫在了 `div` 中。 請將 `div` 標籤更改爲 `nav` 標籤，以提升頁面的可訪問性。
+Camper Cat included navigation links at the top of his training page, but wrapped them in a `div`. Change the `div` to a `nav` tag to improve the accessibility on his page.
 
 # --hints--
 
-應存在一個 `nav` 標籤。
+Your code should have one `nav` tag.
 
 ```js
 assert.lengthOf(document.querySelectorAll('nav') , 1);
 ```
 
-`nav` 標籤應包含 `ul` 標籤及其列表項。
+Your `nav` tags should wrap around the `ul` and its list items.
 
 ```js
 const nav = document.querySelector('nav');
@@ -33,13 +33,13 @@ const children = nav?.querySelectorAll(`:scope ${'ul'}`);
 assert.lengthOf(children,1);
 ```
 
-不應存在 `div` 標籤。
+Your code should not have any `div` tags.
 
 ```js
 assert.lengthOf(document.querySelectorAll('div') , 0);
 ```
 
-確保 `nav` 標籤是閉合的。
+Your `nav` element should have a closing tag.
 
 ```js
 assert.isTrue(code.match(/<\/nav>/g)?.length === code.match(/<nav>/g)?.length);

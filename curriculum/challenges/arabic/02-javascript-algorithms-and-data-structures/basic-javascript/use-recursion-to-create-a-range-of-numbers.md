@@ -1,6 +1,6 @@
 ---
 id: 5cc0bd7a49b71cb96132e54c
-title: استخدم التكرار لإنشاء نطاق من الأرقام (Use Recursion to Create a Range of Numbers)
+title: Use Recursion to Create a Range of Numbers
 challengeType: 1
 forumTopicId: 301180
 dashedName: use-recursion-to-create-a-range-of-numbers
@@ -8,21 +8,21 @@ dashedName: use-recursion-to-create-a-range-of-numbers
 
 # --description--
 
-مع الاستمرار في التحدي السابق، نوفر لك فرصة لحل مشكلة أخرى باستخدام الوظيفة المتكررة.
+Continuing from the previous challenge, we provide you another opportunity to create a recursive function to solve a problem.
 
 # --instructions--
 
-لقد حددنا وظيفة (function) تسمى `rangeOfNumbers` مع اثنين من الوسائط (parameters). يجب أن تنتج الوظيفة قائمة من الأعداد الصحيحة التي تبدأ بعدد يمثله وسيط `startNum` وتنتهي بعدد يمثله وسيط `endNum` الآخرة. سيكون رقم البداية دائماً أقل من أو يساوي رقم النهاية. يجب أن تستخدم الوظيفة التكرار بواسطة تفعيل نفسها، ويجب ألا تستخدم الحلَقات من أي نوع. يجب أن تعمل أيضا في الحالات التي يكون فيها كل من `startNum` و `endNum` متماثلين.
+We have defined a function named `rangeOfNumbers` with two parameters. The function should return an array of integers which begins with a number represented by the `startNum` parameter and ends with a number represented by the `endNum` parameter. The starting number will always be less than or equal to the ending number. Your function must use recursion by calling itself and not use loops of any kind. It should also work for cases where both `startNum` and `endNum` are the same.
 
 # --hints--
 
-يجب أن تنتج الوظيفة قيمة القائمة.
+Your function should return an array.
 
 ```js
 assert(Array.isArray(rangeOfNumbers(5, 10)));
 ```
 
-لا ينبغي أن يعتمد الكود الخاص بك على أي نوع من الحلَقات سواءً (`for`, أو `while`, أو وظائف ذو مستوي عالى التجريد مثل `forEach`, أو `map`, أو `filter`, أو `reduce`).
+Your code should not use any loop syntax (`for` or `while` or higher order functions such as `forEach`, `map`, `filter`, or `reduce`).
 
 ```js
 assert(
@@ -30,7 +30,7 @@ assert(
 );
 ```
 
-يجب أن يستخدم `rangeOfNumbers` التكرار (استدعاء نفسه) لحل هذا التحدي.
+`rangeOfNumbers` should use recursion (call itself) to solve this challenge.
 
 ```js
 assert(
@@ -38,25 +38,25 @@ assert(
 );
 ```
 
-يجب أن ينتج `rangeOfNumbers(1, 5)` قائمة `[1, 2, 3, 4, 5]`.
+`rangeOfNumbers(1, 5)` should return `[1, 2, 3, 4, 5]`.
 
 ```js
 assert.deepStrictEqual(rangeOfNumbers(1, 5), [1, 2, 3, 4, 5]);
 ```
 
-يجب أن ينتج `rangeOfNumbers(6, 9)` قائمة `[6, 7, 8, 9]`.
+`rangeOfNumbers(6, 9)` should return `[6, 7, 8, 9]`.
 
 ```js
 assert.deepStrictEqual(rangeOfNumbers(6, 9), [6, 7, 8, 9]);
 ```
 
-يجب أن ينتج `rangeOfNumbers(4, 4)` قائمة `[4]`.
+`rangeOfNumbers(4, 4)` should return `[4]`.
 
 ```js
 assert.deepStrictEqual(rangeOfNumbers(4, 4), [4]);
 ```
 
-لا ينبغي استخدام المتغيرات الشاملة (Global variables) للتخزين المؤقت للقائمة (array).
+Global variables should not be used to cache the array.
 
 ```js
 rangeOfNumbers(1, 3)

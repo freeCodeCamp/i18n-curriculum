@@ -1,6 +1,6 @@
 ---
 id: 56104e9e514f539506016a5c
-title: Ungerade Zahlen mit einer For-Schleife iterieren
+title: Iterate Odd Numbers With a For Loop
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cm8n7T9'
 forumTopicId: 18212
@@ -9,9 +9,9 @@ dashedName: iterate-odd-numbers-with-a-for-loop
 
 # --description--
 
-For-Schleifen müssen nicht eine nach der anderen durchlaufen. Indem wir unsere `final-expression` (abschießenden Ausdruck) ändern, können wir mit geraden Zahlen zählen.
+For loops don't have to iterate one at a time. By changing our `final-expression`, we can count by even numbers.
 
-Wir beginnen bei `i = 0` und machen eine Schleife, solange `i < 10`. Wir werden `i` in jeder Schleife mit `i += 2` um 2 erhöhen.
+We'll start at `i = 0` and loop while `i < 10`. We'll increment `i` by 2 each loop with `i += 2`.
 
 ```js
 const ourArray = [];
@@ -21,21 +21,21 @@ for (let i = 0; i < 10; i += 2) {
 }
 ```
 
-`ourArray` wird nun `[0, 2, 4, 6, 8]` enthalten. Ändern wir unsere `initialization`, damit wir mit ungeraden Zahlen zählen können.
+`ourArray` will now contain `[0, 2, 4, 6, 8]`. Let's change our `initialization` so we can count by odd numbers.
 
 # --instructions--
 
-Füge die ungeraden Zahlen von 1 bis 9 in `myArray` ein und verwende dazu eine `for`-Schleife.
+Push the odd numbers from 1 through 9 to `myArray` using a `for` loop.
 
 # --hints--
 
-Du solltest dafür eine `for`-Schleife verwenden.
+You should be using a `for` loop for this.
 
 ```js
 assert(/for\s*\([^)]+?\)/.test(__helpers.removeJSComments(code)));
 ```
 
-`myArray` sollte gleich `[1, 3, 5, 7, 9]` sein.
+`myArray` should equal `[1, 3, 5, 7, 9]`.
 
 ```js
 assert.deepEqual(myArray, [1, 3, 5, 7, 9]);

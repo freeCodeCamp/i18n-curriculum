@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d4036148
-title: Приєднайте Redux до застосунку повідомлень
+title: Connect Redux to the Messages App
 challengeType: 6
 forumTopicId: 301427
 dashedName: connect-redux-to-the-messages-app
@@ -8,17 +8,17 @@ dashedName: connect-redux-to-the-messages-app
 
 # --description--
 
-Тепер ви розумієте, як використовувати `connect`, щоб приєднати React до Redux, тому можете застосувати набуті знання до компонента React, який обробляє повідомлення.
+Now that you understand how to use `connect` to connect React to Redux, you can apply what you've learned to your React component that handles messages.
 
-Компонент з попереднього уроку, який ви приєднали до Redux, мав назву `Presentational`, яка не була випадковою. Цей термін *зазвичай* посилається на компоненти React, які не приєднані до Redux напряму. Вони просто відповідають за представлення UI і виконують це як функції отриманих пропсів. На відміну від цього, компоненти контейнера приєднані до Redux. Зазвичай вони відповідають за відправлення дій до сховища та часто передають стан сховища до дочірніх компонентів як пропси.
+In the last lesson, the component you connected to Redux was named `Presentational`, and this wasn't arbitrary. This term *generally* refers to React components that are not directly connected to Redux. They are simply responsible for the presentation of UI and do this as a function of the props they receive. By contrast, container components are connected to Redux. These are typically responsible for dispatching actions to the store and often pass store state to child components as props.
 
 # --instructions--
 
-Редактор коду вже містить весь написаний вами код у цьому розділі. Єдина зміна полягає у тому, що компонент React перейменовується на `Presentational`. Створіть новий компонент, який знаходиться у константі під назвою `Container`, що використовує `connect`, щоб приєднати компонент `Presentational` до Redux. Потім відтворіть компонент React Redux `Provider` в `AppWrapper`. Передайте сховище Redux до `Provider` як пропс та відтворіть `Container` як дочірній компонент. Коли все буде налаштовано, ви знову побачите застосунок повідомлень відтвореним на сторінці.
+The code editor has all the code you've written in this section so far. The only change is that the React component is renamed to `Presentational`. Create a new component held in a constant called `Container` that uses `connect` to connect the `Presentational` component to Redux. Then, in the `AppWrapper`, render the React Redux `Provider` component. Pass `Provider` the Redux `store` as a prop and render `Container` as a child. Once everything is set up, you will see the messages app rendered to the page again.
 
 # --hints--
 
-`AppWrapper` має відтворитись на сторінці.
+The `AppWrapper` should render to the page.
 
 ```js
 assert(
@@ -29,7 +29,7 @@ assert(
 );
 ```
 
-Компонент `Presentational` має відтворитись на сторінці.
+The `Presentational` component should render to page.
 
 ```js
 assert(
@@ -40,7 +40,7 @@ assert(
 );
 ```
 
-Компонент `Presentational` має відтворити `h2`, `input`, `button` та елементи `ul`.
+The `Presentational` component should render an `h2`, `input`, `button`, and `ul` elements.
 
 ```js
 assert(
@@ -57,7 +57,7 @@ assert(
 );
 ```
 
-Компонент `Presentational` має отримати `messages` зі сховища Redux як пропс.
+The `Presentational` component should receive `messages` from the Redux store as a prop.
 
 ```js
 assert(
@@ -70,7 +70,7 @@ assert(
 );
 ```
 
-Компонент `Presentational` має отримати автора дії `submitMessage` як пропс.
+The `Presentational` component should receive the `submitMessage` action creator as a prop.
 
 ```js
 assert(

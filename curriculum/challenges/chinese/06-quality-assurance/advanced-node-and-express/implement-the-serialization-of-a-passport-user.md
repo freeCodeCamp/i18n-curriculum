@@ -1,6 +1,6 @@
 ---
 id: 5895f70cf9fc0f352b528e67
-title: 实现 Passport 用户的序列化
+title: Implement the Serialization of a Passport User
 challengeType: 2
 forumTopicId: 301556
 dashedName: implement-the-serialization-of-a-passport-user
@@ -8,11 +8,11 @@ dashedName: implement-the-serialization-of-a-passport-user
 
 # --description--
 
-你没有加载一个实际的用户对象，因为数据库没有设置好。 当你启动服务器时，连接到数据库一次，并在应用程序的整个生命周期中保持持久连接。 为此，你需要在环境变量 `MONGO_URI` 中添加你的数据库连接字符串（比如：`mongodb+srv://<username>:<password>@cluster0-jvwxi.mongodb.net/?retryWrites=true&w=majority`）。 我们会在 `connection.js` 文件中调用它。
+You are not loading an actual user object since the database is not set up. Connect to the database once, when you start the server, and keep a persistent connection for the full life-cycle of the app. To do this, add your database's connection string (for example: `mongodb+srv://<username>:<password>@cluster0-jvwxi.mongodb.net/?retryWrites=true&w=majority`) to the environment variable `MONGO_URI`. This is used in the `connection.js` file.
 
-*如果你在 MongoDB Atlas 设置免费数据库时遇到问题，请查看这个<a href="https://chinese.freecodecamp.org/news/get-started-with-mongodb-atlas/" target="_blank" rel="noopener noreferrer nofollow">教程</a>。*
+*If you are having issues setting up a free database on MongoDB Atlas, check out this <a href="https://www.freecodecamp.org/news/get-started-with-mongodb-atlas/" target="_blank" rel="noopener noreferrer nofollow">tutorial</a>.*
 
-现在你想要连接到数据库，然后开始监听请求。 这样做的目的是在连接数据库之前或者出现数据库错误时，不接收任何请求。 要实现这一点，你需要在以下代码中包含序列化和应用的路由：
+Now you want to connect to your database, then start listening for requests. The purpose of this is to not allow requests before your database is connected or if there is a database error. To accomplish this, encompass your serialization and app routes in the following code:
 
 ```javascript
 myDB(async client => {
@@ -38,13 +38,13 @@ myDB(async client => {
 // app.listen out here...
 ```
 
-记得要取消 `deserializeUser` 中 `myDataBase` 的注释，并把 `doc` 添加到 `done(null, null)`。
+Be sure to uncomment the `myDataBase` code in `deserializeUser`, and edit your `done(null, null)` to include the `doc`.
 
-完成上述要求后，请提交你的页面链接。 如果你在运行时遇到错误，你可以<a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#implement-the-serialization-of-a-passport-user-5" target="_blank" rel="noopener noreferrer nofollow">查看已完成的项目</a>。
+Submit your page when you think you've got it right. If you're running into errors, you can <a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#implement-the-serialization-of-a-passport-user-5" target="_blank" rel="noopener noreferrer nofollow">check out the project completed up to this point</a>.
 
 # --hints--
 
-应存在数据库连接。
+Database connection should be present.
 
 ```js
 async (getUserInput) => {
@@ -59,7 +59,7 @@ async (getUserInput) => {
 }
 ```
 
-序列化应正确使用数据库，应用 `doc` 调用 `done(null, null)`。
+Deserialization should now be correctly using the DB and `done(null, null)` should be called with the `doc`.
 
 ```js
 async (getUserInput) => {

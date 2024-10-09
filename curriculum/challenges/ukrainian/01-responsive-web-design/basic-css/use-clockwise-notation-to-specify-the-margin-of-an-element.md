@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9afdf08726
-title: Використовуйте запис за годинниковою стрілкою, щоб визначити поле елементу
+title: Use Clockwise Notation to Specify the Margin of an Element
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cnpybAd'
 forumTopicId: 18345
@@ -9,47 +9,47 @@ dashedName: use-clockwise-notation-to-specify-the-margin-of-an-element
 
 # --description--
 
-Спробуйте ще раз, але з `margin` цього разу.
+Let's try this again, but with `margin` this time.
 
-Замість того, щоб вказати властивості `margin-top`, `margin-right`, `margin-bottom`, і `margin-left` елемента, ви можете вказати їх всі в одному рядку, на зразок цього:
+Instead of specifying an element's `margin-top`, `margin-right`, `margin-bottom`, and `margin-left` properties individually, you can specify them all in one line, like this:
 
 ```css
 margin: 10px 20px 10px 20px;
 ```
 
-Ці чотири значення працюють як годинник: зверху, праворуч, знизу, ліворуч, і дають той самий результат, як і використання окремих інструкцій для кожної сторони поля.
+These four values work like a clock: top, right, bottom, left, and will produce the exact same result as using the side-specific margin instructions.
 
 # --instructions--
 
-Використовуйте запис за годинниковою стрілкою, щоб надати елементу класу `blue-box` поле `40px` у верхній та лівій частині, але лише `20px` в нижній та правій частині.
+Use Clockwise Notation to give the element with the `blue-box` class a margin of `40px` on its top and left side, but only `20px` on its bottom and right side.
 
 # --hints--
 
-Клас `blue-box` повинен надати елементам `margin` зі значенням `40px` зверху.
+Your `blue-box` class should give the top of elements `40px` of `margin`.
 
 ```js
 assert($('.blue-box').css('margin-top') === '40px');
 ```
 
-Клас `blue-box` повинен надати елементам `margin` зі значенням `20px` справа.
+Your `blue-box` class should give the right of elements `20px` of `margin`.
 
 ```js
 assert($('.blue-box').css('margin-right') === '20px');
 ```
 
-Клас `blue-box` повинен надати елементам `margin` зі значенням `20px` знизу.
+Your `blue-box` class should give the bottom of elements `20px` of `margin`.
 
 ```js
 assert($('.blue-box').css('margin-bottom') === '20px');
 ```
 
-Клас `blue-box` повинен надати елементам `margin` зі значенням `40px` зліва.
+Your `blue-box` class should give the left of elements `40px` of `margin`.
 
 ```js
 assert($('.blue-box').css('margin-left') === '40px');
 ```
 
-Вам варто використовувати запис за годинниковою стрілкою, щоб визначити поле класу `blue-box`.
+You should use the clockwise notation to set the margin of `blue-box` class.
 
 ```js
 assert(

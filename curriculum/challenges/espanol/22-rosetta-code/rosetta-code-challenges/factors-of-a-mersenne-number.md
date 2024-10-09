@@ -1,6 +1,6 @@
 ---
 id: 598eea87e5cf4b116c3ff81a
-title: Factores De Un Numero Mersenne
+title: Factors of a Mersenne number
 challengeType: 1
 forumTopicId: 302264
 dashedName: factors-of-a-mersenne-number
@@ -10,23 +10,23 @@ dashedName: factors-of-a-mersenne-number
 
 A Mersenne number is a number in the form of <code>2<sup>P</sup>-1</code>.
 
-Si `P` es primo, el número Mersenne puede ser un primo de Mersenne. (Si `P` no es primo, el número Mersenne tampoco es primo.)
+If `P` is prime, the Mersenne number may be a Mersenne prime. (If `P` is not prime, the Mersenne number is also not prime.)
 
-En la búsqueda de números primos de Mersenne es ventajoso eliminar exponentes encontrando un pequeño factor antes de comenzar a, potencialmente largo, <a href="https://rosettacode.org/wiki/Lucas-Lehmer test" target="_blank" rel="noopener noreferrer nofollow">Lucas-Lehmer test</a>.
+In the search for Mersenne prime numbers it is advantageous to eliminate exponents by finding a small factor before starting a, potentially lengthy, <a href="https://rosettacode.org/wiki/Lucas-Lehmer test" target="_blank" rel="noopener noreferrer nofollow">Lucas-Lehmer test</a>.
 
-Hay algoritmos muy eficientes para determinar si un número divide <code>2<sup>P</sup>-1</code> (o equivalentemente, if <code>2<sup>P</sup> mod (el número) = 1</code>).
+There are very efficient algorithms for determining if a number divides <code>2<sup>P</sup>-1</code> (or equivalently, if <code>2<sup>P</sup> mod (the number) = 1</code>).
 
-Algunos lenguajes ya tienen implementaciones integradas de esta operación exponent-and-mod (denominada modPow o similar).
+Some languages already have built-in implementations of this exponent-and-mod operation (called modPow or similar).
 
-Lo siguiente es cómo implementar este modPow por ti mismo:
+The following is how to implement this modPow yourself:
 
-Por ejemplo, calculemos <code>2<sup>23</sup> mod 47</code>.
+For example, let's compute <code>2<sup>23</sup> mod 47</code>.
 
-Convierte el exponente 23 a binario, obtén 10111. Empieza con <code><tt>square</tt> = 1</code>, repetidamente al cuadrado.
+Convert the exponent 23 to binary, you get 10111. Starting with <code><tt>square</tt> = 1</code>, repeatedly square it.
 
-Elimina el pedazo superior del exponente, y si es 1 multiplicar `square` por la base de la exponenciación (2) luego calcula <code><tt>square</tt> modulo 47</code>.
+Remove the top bit of the exponent, and if it's 1 multiply `square` by the base of the exponentiation (2), then compute <code><tt>square</tt> modulo 47</code>.
 
-Usa el resultado del modulo desde el ultimo paso como el valor inicial de `square` en el proximo paso:
+Use the result of the modulo from the last step as the initial value of `square` in the next step:
 
 <pre>Remove   Optional
 square        top bit  multiply by 2  mod 47

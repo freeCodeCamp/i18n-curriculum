@@ -10,49 +10,49 @@ dashedName: gamma-function
 
 Implement one algorithm (or more) to compute the Gamma function (in the real field only).
 
-Die Gamma-Funktion kann wie folgt definiert werden:
+The Gamma function can be defined as:
 
 <div style='padding-left: 4em;'><big><big>$\Gamma(x) = \displaystyle\int_0^\infty t^{x-1}e^{-t} dt$</big></big></div>
 
 # --hints--
 
-`gamma` sollte eine Funktion sein.
+`gamma` should be a function.
 
 ```js
 assert(typeof gamma == 'function');
 ```
 
-`gamma(.1)` sollte eine Zahl zurückgeben.
+`gamma(.1)` should return a number.
 
 ```js
 assert(typeof gamma(0.1) == 'number');
 ```
 
-`gamma(.1)` sollte `9.513507698668736` zurückgeben.
+`gamma(.1)` should return `9.513507698668736`.
 
 ```js
 assert.equal(round(gamma(0.1)), round(9.513507698668736));
 ```
 
-`gamma(.2)` sollte `4.590843711998803` zurückgeben.
+`gamma(.2)` should return `4.590843711998803`.
 
 ```js
 assert.equal(round(gamma(0.2)), round(4.590843711998803));
 ```
 
-`gamma(.3)` sollte `2.9915689876875904` zurückgeben.
+`gamma(.3)` should return `2.9915689876875904`.
 
 ```js
 assert.equal(round(gamma(0.3)), round(2.9915689876875904));
 ```
 
-`gamma(.4)` sollte `2.218159543757687` zurückgeben.
+`gamma(.4)` should return `2.218159543757687`.
 
 ```js
 assert.equal(round(gamma(0.4)), round(2.218159543757687));
 ```
 
-`gamma(.5)` sollte `1.7724538509055159` zurückgeben.
+`gamma(.5)` should return `1.7724538509055159`.
 
 ```js
 assert.equal(round(gamma(0.5)), round(1.7724538509055159));

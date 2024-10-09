@@ -1,6 +1,6 @@
 ---
 id: 5a23c84252665b21eecc7edf
-title: Minimo comune multiplo
+title: Least common multiple
 challengeType: 1
 forumTopicId: 302301
 dashedName: least-common-multiple
@@ -14,47 +14,47 @@ $$ \\operatorname{lcm}(m, n) = \\frac{|m \\times n|}{\\operatorname{gcd}(m, n)} 
 
 # --instructions--
 
-Calcola il mcm di un array di interi. Dati *m* e *n*, il mcm è il più piccolo intero positivo che ha sia *m* che *n* come fattori.
+Compute the least common multiple of an array of integers. Given *m* and *n*, the least common multiple is the smallest positive integer that has both *m* and *n* as factors.
 
 # --hints--
 
-`LCM` dovrebbe essere una funzione.
+`LCM` should be a function.
 
 ```js
 assert(typeof LCM == 'function');
 ```
 
-`LCM([2, 4, 8])` dovrebbe restituire un numero.
+`LCM([2, 4, 8])` should return a number.
 
 ```js
 assert(typeof LCM([2, 4, 8]) == 'number');
 ```
 
-`LCM([2, 4, 8])` dovrebbe restituire `8`.
+`LCM([2, 4, 8])` should return `8`.
 
 ```js
 assert.equal(LCM([2, 4, 8]), 8);
 ```
 
-`LCM([4, 8, 12])` dovrebbe restituire `24`.
+`LCM([4, 8, 12])` should return `24`.
 
 ```js
 assert.equal(LCM([4, 8, 12]), 24);
 ```
 
-`LCM([3, 4, 5, 12, 40])` dovrebbe restituire `120`.
+`LCM([3, 4, 5, 12, 40])` should return `120`.
 
 ```js
 assert.equal(LCM([3, 4, 5, 12, 40]), 120);
 ```
 
-`LCM([11, 33, 90])` dovrebbe restituire `990`.
+`LCM([11, 33, 90])` should return `990`.
 
 ```js
 assert.equal(LCM([11, 33, 90]), 990);
 ```
 
-`LCM([-50, 25, -45, -18, 90, 447])` dovrebbe restituire `67050`.
+`LCM([-50, 25, -45, -18, 90, 447])` should return `67050`.
 
 ```js
 assert.equal(LCM([-50, 25, -45, -18, 90, 447]), 67050);

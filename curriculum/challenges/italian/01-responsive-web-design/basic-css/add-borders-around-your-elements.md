@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9bedf08813
-title: Aggiungere bordi Intorno agli elementi
+title: Add Borders Around Your Elements
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/c2MvnHZ'
 forumTopicId: 16630
@@ -9,9 +9,9 @@ dashedName: add-borders-around-your-elements
 
 # --description--
 
-I bordi CSS hanno proprietà come `style`, `color` e `width`.
+CSS borders have properties like `style`, `color` and `width`.
 
-Per esempio, se volessimo creare un bordo rosso di 5 pixel attorno ad un elemento HTML, potremmo usare questa classe:
+For example, if we wanted to create a red, 5 pixel border around an HTML element, we could use this class:
 
 ```html
 <style>
@@ -25,9 +25,9 @@ Per esempio, se volessimo creare un bordo rosso di 5 pixel attorno ad un element
 
 # --instructions--
 
-Crea una classe chiamata `thick-green-border`. Questa classe dovrebbe aggiungere un bordo di 10px, solido e verde intorno ad un elemento HTML. Applica la classe alla foto del gatto.
+Create a class called `thick-green-border`. This class should add a 10px, solid, green border around an HTML element. Apply the class to your cat photo.
 
-Ricorda che puoi applicare più classi a un elemento usando il suo attributo `class`, separando ogni nome di classe con uno spazio. Per esempio:
+Remember that you can apply multiple classes to an element using its `class` attribute, by separating each class name with a space. For example:
 
 ```html
 <img class="class1 class2">
@@ -35,19 +35,19 @@ Ricorda che puoi applicare più classi a un elemento usando il suo attributo `cl
 
 # --hints--
 
-Il tuo elemento `img` dovrebbe avere la classe `smaller-image`.
+Your `img` element should have the class `smaller-image`.
 
 ```js
 assert($('img').hasClass('smaller-image'));
 ```
 
-Il tuo elemento `img` dovrebbe avere la classe `thick-green-border`.
+Your `img` element should have the class `thick-green-border`.
 
 ```js
 assert($('img').hasClass('thick-green-border'));
 ```
 
-La tua immagine dovrebbe avere uno spessore del bordo di `10px`.
+Your image should have a border width of `10px`.
 
 ```js
 assert(
@@ -57,13 +57,13 @@ assert(
 );
 ```
 
-La tua immagine dovrebbe avere uno stile `solid` per il bordo.
+Your image should have a border style of `solid`.
 
 ```js
 assert($('img').css('border-right-style') === 'solid');
 ```
 
-Il bordo attorno al tuo elemento `img` dovrebbe essere verde.
+The border around your `img` element should be green.
 
 ```js
 assert($('img').css('border-left-color') === 'rgb(0, 128, 0)');

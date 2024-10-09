@@ -1,6 +1,6 @@
 ---
 id: 587d781a367417b2b2512ab7
-title: Usare il tag strong per rendere il testo grassetto
+title: Use the strong Tag to Make Text Bold
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/ceJNBSb'
 forumTopicId: 301080
@@ -9,21 +9,21 @@ dashedName: use-the-strong-tag-to-make-text-bold
 
 # --description--
 
-Per rendere il testo in grassetto, puoi usare il tag `strong`. Esso viene spesso usato per attirare l'attenzione sul testo e indicare che è importante. Con il tag `strong`, il browser applica il CSS di `font-weight: bold;` all'elemento.
+To make text bold, you can use the `strong` tag. This is often used to draw attention to text and symbolize that it is important. With the `strong` tag, the browser applies the CSS of `font-weight: bold;` to the element.
 
 # --instructions--
 
-Avvolgi le `strong` tag attorno al testo `Stanford University` dentro al tag `p` (non includere il punto!).
+Wrap a `strong` tag around the text `Stanford University` inside the `p` tag (do not include the period).
 
 # --hints--
 
-Il tuo codice dovrebbe aggiungere un tag `strong` al markup.
+Your code should add one `strong` tag to the markup.
 
 ```js
 assert.lengthOf(document.querySelectorAll('strong'),1);
 ```
 
-Il tag `strong` dovrebbe essere all'interno del tag `p`.
+The `strong` tag should be inside the `p` tag.
 
 ```js
 const pargraphElement = document.querySelector('p');
@@ -31,7 +31,7 @@ const pargraphChildren = pargraphElement?.querySelectorAll(`:scope ${'strong'}`)
 assert.lengthOf(pargraphChildren, 1);
 ```
 
-Il tag `strong` dovrebbe avvolgere le parole `Stanford University`.
+The `strong` tag should wrap around the words `Stanford University`.
 
 ```js
 assert.match(document.querySelector('strong')?.textContent, /^Stanford University\.?$/gi);

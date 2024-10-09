@@ -1,6 +1,6 @@
 ---
 id: 587d7dbf367417b2b2512bba
-title: 使用 @each 遍歷列表中的項目
+title: Use @each to Map Over Items in a List
 challengeType: 0
 forumTopicId: 301461
 dashedName: use-each-to-map-over-items-in-a-list
@@ -8,7 +8,7 @@ dashedName: use-each-to-map-over-items-in-a-list
 
 # --description--
 
-上一個挑戰顯示了 `@for` 指令如何通過起始值和結束值循環一定次數。 Sass 還提供 `@each` 指令，該指令循環遍歷列表或映射中的每個項目。 在每次迭代時，變量將從列表或映射分配給當前值。
+The last challenge showed how the `@for` directive uses a starting and ending value to loop a certain number of times. Sass also offers the `@each` directive which loops over each item in a list or map. On each iteration, the variable gets assigned to the current value from the list or map.
 
 ```scss
 @each $color in blue, red, green {
@@ -16,7 +16,7 @@ dashedName: use-each-to-map-over-items-in-a-list
 }
 ```
 
-map 的語法略有不同。 這是一個示例：
+A map has slightly different syntax. Here's an example:
 
 ```scss
 $colors: (color1: blue, color2: red, color3: green);
@@ -26,7 +26,7 @@ $colors: (color1: blue, color2: red, color3: green);
 }
 ```
 
-請注意，需要用 `$key` 變量來引用 map 中的鍵。 否則，編譯後的 CSS 將包含 `color1`，`color2`...... 以上兩個代碼示例都轉換爲以下 CSS：
+Note that the `$key` variable is needed to reference the keys in the map. Otherwise, the compiled CSS would have `color1`, `color2`... in it. Both of the above code examples are converted into the following CSS:
 
 ```scss
 .blue-text {
@@ -44,29 +44,29 @@ $colors: (color1: blue, color2: red, color3: green);
 
 # --instructions--
 
-編寫一個 `@each` 指令遍歷列表：`blue, black, red` ，將每個變量分配給 class 爲 `.color-bg` 的項目，使每個項目的 `color` 部分都是各自相應的顏色。 每個 class 也應該將 `background-color` 設置爲相應的顏色。
+Write an `@each` directive that goes through a list: `blue, black, red` and assigns each variable to a `.color-bg` class, where the `color` part changes for each item to the respective color. Each class should set the `background-color` to the respective color as well.
 
 # --hints--
 
-代碼應使用 `@each` 指令。
+Your code should use the `@each` directive.
 
 ```js
 assert(code.match(/@each /g));
 ```
 
-`.blue-bg` class 的 `background-color` 應爲藍色。
+Your `.blue-bg` class should have a `background-color` of blue.
 
 ```js
 assert($('.blue-bg').css('background-color') == 'rgb(0, 0, 255)');
 ```
 
-`.black-bg` class 的 `background-color` 應爲黑色。
+Your `.black-bg` class should have a `background-color` of black.
 
 ```js
 assert($('.black-bg').css('background-color') == 'rgb(0, 0, 0)');
 ```
 
-`.red-bg` class 的 `background-color` 應爲紅色。
+Your `.red-bg` class should have a `background-color` of red.
 
 ```js
 assert($('.red-bg').css('background-color') == 'rgb(255, 0, 0)');

@@ -1,6 +1,6 @@
 ---
 id: 587d824c367417b2b2512c4e
-title: Testar se um valor estiver abaixo ou se for pelo menos tão grande quanto outro
+title: Test if One Value is Below or At Least as Large as Another
 challengeType: 2
 forumTopicId: 301606
 dashedName: test-if-one-value-is-below-or-at-least-as-large-as-another
@@ -8,15 +8,15 @@ dashedName: test-if-one-value-is-below-or-at-least-as-large-as-another
 
 # --description--
 
-Lembrete, esse projeto está sendo construido conforme o seguinte projeto inicial em <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>, ou clonado de <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
+As a reminder, this project is being built upon the following starter project on <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>, or cloned from <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
 
 # --instructions--
 
-Em `tests/1_unit-tests.js`, no teste classificado como `#9` e na suíte `Comparisons`, modifique cada `assert` para `assert.isBelow` ou para `assert.isAtLeast`, de maneira que cada teste passe (seja avaliado como `true`). Não altere os argumentos passados às afirmações.
+Within `tests/1_unit-tests.js` under the test labelled `#9` in the `Comparisons` suite, change each `assert` to either `assert.isBelow` or `assert.isAtLeast` to make the test pass (should evaluate to `true`). Do not alter the arguments passed to the asserts.
 
 # --hints--
 
-Todos os testes devem passar.
+All tests should pass.
 
 ```js
 (getUserInput) =>
@@ -30,7 +30,7 @@ Todos os testes devem passar.
   );
 ```
 
-Você deve escolher o método correto para a primeira afirmação - `isBelow` ou `isAtLeast`.
+You should choose the correct method for the first assertion - `isBelow` vs. `isAtLeast`.
 
 ```js
 (getUserInput) =>
@@ -48,7 +48,7 @@ Você deve escolher o método correto para a primeira afirmação - `isBelow` ou
   );
 ```
 
-Você deve escolher o método correto para a segunda afirmação - `isBelow` ou `isAtLeast`.
+You should choose the correct method for the second assertion - `isBelow` vs. `isAtLeast`.
 
 ```js
 (getUserInput) =>
@@ -66,7 +66,7 @@ Você deve escolher o método correto para a segunda afirmação - `isBelow` ou 
   );
 ```
 
-Você deve escolher o método correto para a terceira afirmação - `isBelow` ou `isAtLeast`.
+You should choose the correct method for the third assertion - `isBelow` vs. `isAtLeast`.
 
 ```js
 (getUserInput) =>
@@ -80,7 +80,7 @@ Você deve escolher o método correto para a terceira afirmação - `isBelow` ou
   );
 ```
 
-Você deve escolher o método correto para a quarta afirmação - `isBelow` ou `isAtLeast`.
+You should choose the correct method for the fourth assertion - `isBelow` vs. `isAtLeast`.
 
 ```js
 (getUserInput) =>

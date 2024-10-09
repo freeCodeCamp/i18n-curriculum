@@ -1,6 +1,6 @@
 ---
 id: 587d778b367417b2b2512aa8
-title: Aggiungere un selettore di data accessibile
+title: Add an Accessible Date Picker
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cR3bRbCV'
 forumTopicId: 301008
@@ -9,13 +9,13 @@ dashedName: add-an-accessible-date-picker
 
 # --description--
 
-I moduli spesso includono il campo `input`, che può essere usato per creare diversi tipi di controlli. L'attributo `type` indica che tipo di elemento `input` sarà creato.
+Forms often include the `input` field, which can be used to create several different form controls. The `type` attribute on this element indicates what kind of `input` element will be created.
 
-Potresti aver notato i tipi di input `text` e `submit` nelle sfide precedenti, e HTML5 ha introdotto anche un'opzione per specificare un campo `date`. A seconda del supporto del browser, un selettore di date appare nel campo `input` quando è selezionato, il che rende la compilazione del modulo più semplice per tutti gli utenti.
+You may have noticed the `text` and `submit` input types in prior challenges, and HTML5 introduced an option to specify a `date` field. Depending on browser support, a date picker shows up in the `input` field when it's in focus, which makes filling in a form easier for all users.
 
-Nei browser più vecchi il tipo sarà predefinito a `text`, quindi è utile mostrare agli utenti il formato di data previsto nella `label` o nel testo `placeholder` per sicurezza.
+For older browsers, the type will default to `text`, so it helps to show users the expected date format in the `label` or `placeholder` text just in case.
 
-Ecco un esempio:
+Here's an example:
 
 ```html
 <label for="input1">Enter a date:</label>
@@ -24,29 +24,29 @@ Ecco un esempio:
 
 # --instructions--
 
-Camper Cat sta organizzando un torneo di Mortal Kombat e vuole chiedere ai suoi concorrenti di vedere quale data sia la migliore. Aggiungi un tag `input` con un attributo `type` pari a `date`, un attributo `id` pari a `pickdate` e un attributo `name` pari a `date`.
+Camper Cat is setting up a Mortal Kombat tournament and wants to ask his competitors to see what date works best. Add an `input` tag with a `type` attribute of `date`, an `id` attribute of `pickdate`, and a `name` attribute of `date`.
 
 # --hints--
 
-Il tuo codice dovrebbe aggiungere un tag `input` per il campo di selezione della data.
+Your code should add one `input` tag for the date selector field.
 
 ```js
 assert.lengthOf(document.querySelectorAll('input'), 2);
 ```
 
-Il tuo tag `input` dovrebbe avere un attributo `type` con un valore di `date`.
+Your `input` tag should have a `type` attribute with a value of `date`.
 
 ```js
 assert.equal(document.querySelector('input')?.getAttribute('type'), 'date');
 ```
 
-Il tuo tag `input` dovrebbe avere un attributo `id` con un valore di `pickdate`.
+Your `input` tag should have an `id` attribute with a value of `pickdate`.
 
 ```js
 assert.equal(document.querySelector('input')?.getAttribute('id'),'pickdate');
 ```
 
-Il tuo tag `input` dovrebbe avere un attributo `name` con un valore di `date`.
+Your `input` tag should have a `name` attribute with a value of `date`.
 
 ```js
 assert.equal(document.querySelector('input')?.getAttribute('name'), 'date');

@@ -1,37 +1,36 @@
----
 id: 660add10cb82ac38a17513be
-title: 舊版後端認證
+title: Legacy Back End Certification
 certification: legacy-back-end
 challengeType: 7
 isPrivate: true
 tests:
   - 
     id: bd7158d8c443edefaeb5bdef
-    title: 時間戳微服務
+    title: Timestamp Microservice
   - 
     id: bd7158d8c443edefaeb5bdff
-    title: 請求頭解析器微服務
+    title: Request Header Parser Microservice
   - 
     id: bd7158d8c443edefaeb5bd0e
-    title: 短網址微服務
+    title: URL Shortener Microservice
   - 
     id: bd7158d8c443edefaeb5bdee
-    title: 圖像搜索抽象層
+    title: Image Search Abstraction Layer
   - 
     id: bd7158d8c443edefaeb5bd0f
-    title: 文件元數據微服務
+    title: File Metadata Microservice
   - 
     id: bd7158d8c443eddfaeb5bdef
-    title: 編寫一個投票程序
+    title: Build a Voting App
   - 
     id: bd7158d8c443eddfaeb5bdff
-    title: 建立一個夜間生活協調程序
+    title: Build a Nightlife Coordination App
   - 
     id: bd7158d8c443eddfaeb5bd0e
-    title: 繪製股市圖
+    title: Chart the Stock Market
   - 
     id: bd7158d8c443eddfaeb5bd0f
-    title: 管理一個圖書交易俱樂部
+    title: Manage a Book Trading Club
   - 
     id: bd7158d8c443eddfaeb5bdee
-    title: 建立一個 Pinterest 克隆
+    title: Build a Pinterest Clone

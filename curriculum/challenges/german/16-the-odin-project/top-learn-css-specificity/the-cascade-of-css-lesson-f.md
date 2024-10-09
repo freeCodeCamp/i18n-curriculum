@@ -34,7 +34,9 @@ Hier haben die Regeln 1 und 2 die gleiche Spezifizität. Regel 1 verwendet einen
 
 Dieses Beispiel zeigt das Gleiche. Auch wenn in Regel 2 ein untergeordneter Kombinator (`>`) verwendet wird, ändert sich der Wert für die Spezifität nicht. Beide Regeln haben nach wie vor zwei Klassen, so dass sie die gleichen Spezifitätswerte haben.
 
-*Hinweis:* Nicht alles trägt zur Spezifizität bei Beim Vergleich von Selektoren stößt du unter Umständen auf spezielle Symbole für den universellen Selektor (`*`) sowie auf Kombinatoren (`+`, `~`, `>`, und ein Leerzeichen). Diese Symbole sind für sich genommen nicht besonders aussagekräftig.
+*Note:* Not everything adds to specificity
+
+When comparing selectors, you may come across special symbols for the universal selector (`*`) as well as combinators (`+`, `~`, `>`, and an empty space). Diese Symbole sind für sich genommen nicht besonders aussagekräftig.
 
 # --questions--
 

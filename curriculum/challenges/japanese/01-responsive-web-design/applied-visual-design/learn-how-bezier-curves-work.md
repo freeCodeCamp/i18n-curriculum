@@ -1,6 +1,6 @@
 ---
 id: 587d78a9367417b2b2512ae8
-title: ベジェ曲線の仕組みを学ぶ
+title: Learn How Bezier Curves Work
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/c9bDrs8'
 forumTopicId: 301058
@@ -9,25 +9,25 @@ dashedName: learn-how-bezier-curves-work
 
 # --description--
 
-前回のチャレンジでは、`animation-timing-function` プロパティと、アニメーションのスピードを時間に伴って変更するキーワードをいくつか紹介しました。 CSS はキーワード以外のオプションも提供しており、ベジェ曲線を使用してアニメーションの動作を細かく制御できます。
+The last challenge introduced the `animation-timing-function` property and a few keywords that change the speed of an animation over its duration. CSS offers an option other than keywords that provides even finer control over how the animation plays out, through the use of Bezier curves.
 
-CSS アニメーションでは、ベジェ曲線は `cubic-bezier` 関数とともに使用されます。 曲線の形状は、アニメーションがどのように再生されるかを表します。 曲線は、1 × 1 の座標系に配置されます。 この座標系の X 軸はアニメーションの持続時間です (時間軸と考えてください)。そして、Y 軸はアニメーションの変化です。
+In CSS animations, Bezier curves are used with the `cubic-bezier` function. The shape of the curve represents how the animation plays out. The curve lives on a 1 by 1 coordinate system. The X-axis of this coordinate system is the duration of the animation (think of it as a time scale), and the Y-axis is the change in the animation.
 
-`cubic-bezier` 関数は 1 × 1 グリッド上の `p0`、`p1`、`p2`、`p3` の 4 つの点で構成されます。 `p0` と `p3` は固定されています。これらは開始点と終了点であり、常に原点 (0, 0) と (1, 1) にそれぞれ配置されます。 あなたが設定するのは残りの2点の x, y の値です。これらをグリッド上のどこに配置するかでアニメーションの曲線の形状が決まります。 CSSでこの設定を行うには、「アンカー」ポイントと呼ばれる 2 点 `p1` と `p2` の x, y の値を次の形式で宣言します: `(x1, y1, x2, y2)`。 まとめると、CSS コードにおけるベジェ曲線の例はこのようになります。
+The `cubic-bezier` function consists of four main points that sit on this 1 by 1 grid: `p0`, `p1`, `p2`, and `p3`. `p0` and `p3` are set for you - they are the beginning and end points which are always located respectively at the origin (0, 0) and (1, 1). You set the x and y values for the other two points, and where you place them in the grid dictates the shape of the curve for the animation to follow. This is done in CSS by declaring the x and y values of the `p1` and `p2` "anchor" points in the form: `(x1, y1, x2, y2)`. Pulling it all together, here's an example of a Bezier curve in CSS code:
 
 ```css
 animation-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
 ```
 
-上の例では、x と y の値は点ごとに等価です (x1 = 0.25 = y1, x2 = 0.75 = y2)。もし幾何学の授業を覚えているなら、これは原点から点 (1, 1) までの直線になることが分かります。 このアニメーションは、アニメーションの継続時間全体を通して要素を線形変化させるもので、`linear` キーワードを使用するのと同じです。 言い換えると、一定の速度で変化するということです。
+In the example above, the x and y values are equivalent for each point (x1 = 0.25 = y1 and x2 = 0.75 = y2), which if you remember from geometry class, results in a line that extends from the origin to point (1, 1). This animation is a linear change of an element during the length of an animation, and is the same as using the `linear` keyword. In other words, it changes at a constant speed.
 
 # --instructions--
 
-id が `ball1` の要素について、`animation-timing-function` プロパティの値を `linear` から、 同等の `cubic-bezier` 関数の値に変更してください。 上記の例で与えられた値を使用してください。
+For the element with the id of `ball1`, change the value of the `animation-timing-function` property from `linear` to its equivalent `cubic-bezier` function value. Use the point values given in the example above.
 
 # --hints--
 
-id `ball1` を持つ要素の `animation-timing-function` プロパティの値は、線形 (linear) と等価の `cubic-bezier` 関数でなければなりません。
+The value of the `animation-timing-function` property for the element with the id `ball1` should be the linear-equivalent `cubic-bezier` function.
 
 ```js
 const ballOne = document.querySelector('#ball1');
@@ -38,7 +38,7 @@ assert.equal(
 );
 ```
 
-id `ball2` を持つ要素の `animation-timing-function` プロパティの値は変更しないでください。
+The value of the `animation-timing-function` property for the element with the id `ball2` should not change.
 
 ```js
 const ballTwoElement = document.querySelector('#ball2');

@@ -1,6 +1,6 @@
 ---
 id: bad87fee1347bd9aedf08845
-title: Limpar o CSS customizado para o Bootstrap
+title: Ditch Custom CSS for Bootstrap
 challengeType: 0
 forumTopicId: 17565
 dashedName: ditch-custom-css-for-bootstrap
@@ -8,31 +8,31 @@ dashedName: ditch-custom-css-for-bootstrap
 
 # --description--
 
-Nós podemos limpar nosso código e fazer o aplicativo de fotos de gato parecer mais convencional ao utilizar os estilos nativos do Bootstrap ao invés dos estilos customizados que criamos mais cedo.
+We can clean up our code and make our Cat Photo App look more conventional by using Bootstrap's built-in styles instead of the custom styles we created earlier.
 
-Não se preocupe - haverá muito tempo para customizar nosso CSS depois.
+Don't worry - there will be plenty of time to customize our CSS later.
 
-Exclua as declarações CSS `.red-text`, `p` e `.smaller-image` do elemento `style` para que as únicas declarações restantes no elemento `style` sejam `h2` e `thick-green-border`.
+Delete the `.red-text`, `p`, and `.smaller-image` CSS declarations from your `style` element so that the only declarations left in your `style` element are `h2` and `thick-green-border`.
 
-Em seguida, exclua o elemento `p` que contem um link morto. Depois disso, remova a classe `red-text` do elemento `h2` e substitua-a pela classe `text-primary`do Bootstrap.
+Then delete the `p` element that contains a dead link. Then remove the `red-text` class from your `h2` element and replace it with the `text-primary` Bootstrap class.
 
-Finalmente, remova a classe `smaller-image` do primeiro elemento `img` e substitua-a pela classe `img-responsive`.
+Finally, remove the `smaller-image` class from your first `img` element and replace it with the `img-responsive` class.
 
 # --hints--
 
-O elemento `h2` não deve mais conter a classe `red-text`.
+Your `h2` element should no longer have the class `red-text`.
 
 ```js
 assert.isFalse(document.querySelector('h2')?.classList?.contains('red-text'));
 ```
 
-O elemento `h2` deve ter agora a classe `text-primary`.
+Your `h2` element should now have the class `text-primary`.
 
 ```js
 assert.isTrue(document.querySelector('h2')?.classList?.contains('text-primary'));
 ```
 
-Os elementos de parágrafo não devem mais usar a fonte `Monospace`.
+Your paragraph elements should no longer use the font `Monospace`.
 
 ```js
 const paragraphElement = document.querySelector('p');
@@ -40,13 +40,13 @@ const paragraphFontFamily = window.getComputedStyle(paragraphElement)["font-fami
 assert.notMatch(paragraphFontFamily,/monospace/i);
 ```
 
-A classe `smaller-image` deve ser removida da imagem superior.
+The `smaller-image` class should be removed from your top image.
 
 ```js
 assert.isFalse(document.querySelector('img')?.classList?.contains('smaller-image'));
 ```
 
-Você deve adicionar a classe `img-responsive` à imagem superior.
+You should add the `img-responsive` class to your top image.
 
 ```js
 assert.lengthOf(document.querySelectorAll('.img-responsive'),2);

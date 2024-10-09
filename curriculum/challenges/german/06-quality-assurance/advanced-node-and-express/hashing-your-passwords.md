@@ -1,6 +1,6 @@
 ---
 id: 58a25c98f9fc0f352b528e7f
-title: Hashing deiner Passwörter
+title: Hashing Your Passwords
 challengeType: 2
 forumTopicId: 301553
 dashedName: hashing-your-passwords
@@ -8,7 +8,7 @@ dashedName: hashing-your-passwords
 
 # --description--
 
-Going back to the information security section, you may remember that storing plaintext passwords is *never* okay. Jetzt ist es an der Zeit, BCrypt zu implementieren, um dieses Problem zu lösen.
+Going back to the information security section, you may remember that storing plaintext passwords is *never* okay. Now it is time to implement BCrypt to solve this issue.
 
 `bcrypt@~5.0.0` has already been added as a dependency, so require it in your server. You will need to handle hashing in 2 key areas: where you handle registering/saving a new account, and when you check to see that a password is correct on login.
 
@@ -24,11 +24,11 @@ if (!bcrypt.compareSync(password, user.password)) {
 
 That is all it takes to implement one of the most important security features when you have to store passwords.
 
-Reiche deine Seite ein, wenn du davon ausgehst, alles richtig gemacht zu haben. If you're running into errors, you can <a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#hashing-your-passwords-1" target="_blank" rel="noopener noreferrer nofollow">check out the project completed up to this point</a>.
+Submit your page when you think you've got it right. If you're running into errors, you can <a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#hashing-your-passwords-1" target="_blank" rel="noopener noreferrer nofollow">check out the project completed up to this point</a>.
 
 # --hints--
 
-BCrypt sollte eine Abhängigkeit sein.
+BCrypt should be a dependency.
 
 ```js
 async (getUserInput) => {
@@ -43,7 +43,7 @@ async (getUserInput) => {
 }
 ```
 
-BCrypt sollte korrekt angewendet und implementiert werden.
+BCrypt should be correctly required and implemented.
 
 ```js
 async (getUserInput) => {

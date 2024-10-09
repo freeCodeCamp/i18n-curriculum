@@ -1,6 +1,6 @@
 ---
 id: 5a9d727a424fe3d0e10cad12
-title: カスタム CSS 変数を使用する
+title: Use a custom CSS Variable
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cM989ck'
 forumTopicId: 301090
@@ -9,21 +9,21 @@ dashedName: use-a-custom-css-variable
 
 # --description--
 
-変数を作成したら、変数につけた名前を参照することで、その値を他の CSS プロパティに割り当てることができます。
+After you create your variable, you can assign its value to other CSS properties by referencing the name you gave it.
 
 ```css
 background: var(--penguin-skin);
 ```
 
-上のコードは、適用された要素の背景色をグレーに変更します。`--penguin-skin` 変数の値がグレーだからです。 変数名が完全に一致しなければ、スタイルは適用されないことに注意してください。
+This will change the background of whatever element you are targeting to gray because that is the value of the `--penguin-skin` variable. Note that styles will not be applied unless the variable names are an exact match.
 
 # --instructions--
 
-`--penguin-skin` 変数を、`penguin-top`, `penguin-bottom`, `right-hand`, `left-hand` クラスの `background` プロパティに適用してください。
+Apply the `--penguin-skin` variable to the `background` property of the `penguin-top`, `penguin-bottom`, `right-hand` and `left-hand` classes.
 
 # --hints--
 
-`--penguin-skin` 変数を `penguin-top` クラスの `background` プロパティに適用してください。
+The `--penguin-skin` variable should be applied to the `background` property of the `penguin-top` class.
 
 ```js
 assert(
@@ -33,7 +33,7 @@ assert(
 );
 ```
 
-`--penguin-skin` 変数を `penguin-bottom` クラスの `background` プロパティに適用してください。
+The `--penguin-skin` variable should be applied to the `background` property of the `penguin-bottom` class.
 
 ```js
 assert(
@@ -43,7 +43,7 @@ assert(
 );
 ```
 
-`--penguin-skin` 変数を `right-hand` クラスの `background` プロパティに適用してください。
+The `--penguin-skin` variable should be applied to the `background` property of the `right-hand` class.
 
 ```js
 assert(
@@ -53,7 +53,7 @@ assert(
 );
 ```
 
-`--penguin-skin` 変数を `left-hand` クラスの `background` プロパティに適用してください。
+The `--penguin-skin` variable should be applied to the `background` property of the `left-hand` class.
 
 ```js
 assert(

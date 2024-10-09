@@ -1,6 +1,6 @@
 ---
 id: 5a23c84252665b21eecc7edf
-title: 最小公倍数
+title: Least common multiple
 challengeType: 1
 forumTopicId: 302301
 dashedName: least-common-multiple

@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9bec908846
-title: Створіть ряд Bootstrap
+title: Create a Bootstrap Row
 challengeType: 0
 forumTopicId: 16813
 dashedName: create-a-bootstrap-row
@@ -8,13 +8,13 @@ dashedName: create-a-bootstrap-row
 
 # --description--
 
-Тепер створимо ряд Bootstrap для вбудованих елементів.
+Now we'll create a Bootstrap row for our inline elements.
 
-Створіть елемент `div` з класом `row` під тегом `h3`.
+Create a `div` element below the `h3` tag, with a class of `row`.
 
 # --hints--
 
-Додайте елемент `div` під елементом `h3`.
+You should add a `div` element below your `h3` element.
 
 ```js
 assert.lengthOf(document.querySelectorAll('div'),2);
@@ -23,20 +23,20 @@ assert.lengthOf(document.querySelectorAll('div.row + h3.text-primary'),0)
 assert.lengthOf(document.querySelectorAll('h3.text-primary + div.row'),1);
 ```
 
-Елемент `div` повинен мати клас `row`
+Your `div` element should have the class `row`
 
 ```js
 const newDiv = document.querySelectorAll('div')?.[1]; 
 assert.isTrue(newDiv?.classList?.contains('row'));
 ```
 
-`row div` має бути вкладеним всередині `container-fluid div`
+Your `row div` should be nested inside the `container-fluid div`
 
 ```js
 assert.lengthOf(document.querySelectorAll('div.container-fluid div.row'),1);
 ```
 
-Елемент `div` повинен мати кінцевий тег.
+Your `div` element should have a closing tag.
 
 ```js
 assert.match(code,/<\/div>/g);

@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c448eddfaeb5bdef
-title: العثور عن عدد الرموز أو الطول لمقطع نصي
+title: Find the Length of a String
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cvmqEAd'
 forumTopicId: 18182
@@ -9,23 +9,23 @@ dashedName: find-the-length-of-a-string
 
 # --description--
 
-يمكنك العثور على الطول أو عدد الرموز في `String` بكتابة `.length` بعد متغير المقطع النصي أو بعد مقطع حرفي (string literal).
+You can find the length of a `String` value by writing `.length` after the string variable or string literal.
 
 ```js
 console.log("Alan Peter".length);
 ```
 
-سوف يتم عرض القيمة `10` في الكونسول. لاحظ أن رمز المسافة بين "Alan" و "Peter" يتم عدُّه أيضا.
+The value `10` would be displayed in the console. Note that the space character between "Alan" and "Peter" is also counted.
 
-على سبيل المثال، إذا أنشئت متغير `const firstName = "Ada"`، يمكننا معرفة طول المقطع النصي الآتي `Ada` باستخدام `firstName.length`.
+For example, if we created a variable `const firstName = "Ada"`, we could find out how long the string `Ada` is by using the `firstName.length` property.
 
 # --instructions--
 
-استخدم خاصية `.length` لتعيين `lastNameLength` إلى عدد الرموز في `lastName`.
+Use the `.length` property to set `lastNameLength` to the number of characters in `lastName`.
 
 # --hints--
 
-لا يجب عليك تغيير إعلانات المتغيرات في قسم `// Setup`.
+You should not change the variable declarations in the `// Setup` section.
 
 ```js
 assert(
@@ -34,13 +34,13 @@ assert(
 );
 ```
 
-يجب أن يساوي `lastNameLength` ثمانية.
+`lastNameLength` should be equal to eight.
 
 ```js
 assert(typeof lastNameLength !== 'undefined' && lastNameLength === 8);
 ```
 
-يجب الحصول على الطول `lastName` باستخدام `.length` مثل: `lastName.length`.
+You should be getting the length of `lastName` by using `.length` like this: `lastName.length`.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/=\s*lastName\.length/g) && !__helpers.removeJSComments(code).match(/lastName\s*=\s*8/));

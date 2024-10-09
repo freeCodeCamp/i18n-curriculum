@@ -1,23 +1,23 @@
 ---
 id: 612e9f1e7e5ccd4fa9ada0be
-title: الخطوة 17
+title: Step 17
 challengeType: 0
 dashedName: step-17
 ---
 
 # --description--
 
-امنح `.key` الـ `margin` بقيمة `2px` و خاصية `float` بقيمة `left`.
+Give the `.key` a `margin` of `2px` and a `float` property set to `left`.
 
 # --hints--
 
-يجب أن يكون لمنتقي `.key` الخاص بك خاصية `margin` بقيمة `2px`.
+Your `.key` selector should have a `margin` property set to `2px`.
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('.key')?.margin === '2px');
 ```
 
-يجب أن يكون لمنتقي `.key` الخاص بك خاصية `float` بقيمة `left`.
+Your `.key` selector should have a `float` property set to `left`.
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('.key')?.float === 'left');

@@ -1,35 +1,35 @@
 ---
 id: 5f3cade99dda4e6071a85dfd
-title: 步骤 46
+title: Step 46
 challengeType: 0
 dashedName: step-46
 ---
 
 # --description--
 
-你将在几个步骤中回到菜单的样式的调整，但现在，继续添加第二个 `section` 元素，在第一个部分下面显示咖啡馆提供的甜点。
+You will come back to styling the menu in a few steps, but for now, go ahead and add a second `section` element below the first for displaying the desserts offered by the cafe.
 
 # --hints--
 
-你应该有一个 `section` 开始标签。
+You should have an opening `section` tag.
 
 ```js
 assert.lengthOf(code.match(/<section>/ig) ,2);
 ```
 
-你应该有一个 `section` 结束标签。
+You should have a closing `section` tag.
 
 ```js
 assert.lengthOf(code.match(/<\/section>/ig) ,2);
 ```
 
-你不应该改变你现有的 `main` 元素。
+You should not change the existing `main` element.
 
 ```js
 assert.lengthOf (document.querySelectorAll('main'), 1);
 ```
 
-你的新 `section` 元素应该嵌套在 `main` 元素中。
+Your new `section` element should be nested in the `main` element.
 
 ```js
 const main = document.querySelector('main');

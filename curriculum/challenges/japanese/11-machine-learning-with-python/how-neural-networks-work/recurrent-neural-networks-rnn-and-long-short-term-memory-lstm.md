@@ -1,6 +1,6 @@
 ---
 id: 5e9a0e9ef99a403d019610cb
-title: 再帰型ニューラルネットワーク RNN と長・短期記憶 LSTM
+title: Recurrent Neural Networks RNN and Long Short Term Memory LSTM
 challengeType: 11
 videoId: UVimlsy9eW0
 dashedName: recurrent-neural-networks-rnn-and-long-short-term-memory-lstm
@@ -10,19 +10,19 @@ dashedName: recurrent-neural-networks-rnn-and-long-short-term-memory-lstm
 
 ## --text--
 
-長・短期記憶ネットワークを構成するニューラルネットワークの主な構成要素は何ですか？
+What are the main neural network components that make up a Long Short Term Memory network?
 
 ## --answers--
 
-新しい情報や予測。
+New information and prediction.
 
 ---
 
-予測、収集した可能性、および選択。
+Prediction, collected possibilities, and selection.
 
 ---
 
-予測、無知、忘却、選択。
+Prediction, ignoring, forgetting, and selection.
 
 ## --video-solution--
 

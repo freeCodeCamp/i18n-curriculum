@@ -1,6 +1,6 @@
 ---
 id: 587d781c367417b2b2512ac0
-title: 使用 text-transform 屬性給文本添加大寫效果
+title: Use the text-transform Property to Make Text Uppercase
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cvVZQSP'
 forumTopicId: 301081
@@ -9,19 +9,19 @@ dashedName: use-the-text-transform-property-to-make-text-uppercase
 
 # --description--
 
-CSS 裏的 `text-transform` 屬性可以改變英文字母的大小寫。 使用這個屬性時，我們無需改變 HTML 元素中的文本也可以統一頁面裏英文的顯示。
+The `text-transform` property in CSS is used to change the appearance of text. It's a convenient way to make sure text on a webpage appears consistently, without having to change the text content of the actual HTML elements.
 
-下面的表格展示了 `text-transform` 的不同值對文字 “Transform me” 的影響：
+The following table shows how the different `text-transform`values change the example text "Transform me".
 
-<table><thead><tr><th>值</th><th>結果</th></tr></thead><tbody><tr><td><code>lowercase</code></td><td>"transform me"</td></tr><tr><td><code>uppercase</code></td><td>"TRANSFORM ME"</td></tr><tr><td><code>capitalize</code></td><td>"Transform Me"</td></tr><tr><td><code>initial</code></td><td>使用默認值</td></tr><tr><td><code>inherit</code></td><td>使用父元素的 <code>text-transform</code> 值。</td></tr><tr><td><code>none</code></td><td><strong>Default:</strong>不改變文字。</td></tr></tbody></table>
+<table><thead><tr><th>Value</th><th>Result</th></tr></thead><tbody><tr><td><code>lowercase</code></td><td>"transform me"</td></tr><tr><td><code>uppercase</code></td><td>"TRANSFORM ME"</td></tr><tr><td><code>capitalize</code></td><td>"Transform Me"</td></tr><tr><td><code>initial</code></td><td>Use the default value</td></tr><tr><td><code>inherit</code></td><td>Use the <code>text-transform</code> value from the parent element</td></tr><tr><td><code>none</code></td><td><strong>Default:</strong> Use the original text</td></tr></tbody></table>
 
 # --instructions--
 
-請使用 `text-transform` 屬性把 `h4` 內容文本中的所有字母變成大寫。
+Transform the text of the `h4` to be uppercase using the `text-transform` property.
 
 # --hints--
 
-`h4` 內容文本中的所有字母均應爲 `uppercase` 大寫 。
+The `h4` text should be `uppercase`.
 
 ```js
 const h4Element =document.querySelector('h4')
@@ -29,7 +29,7 @@ const h4Style = window.getComputedStyle(h4Element);
 assert.equal(h4Style?.textTransform, 'uppercase');
 ```
 
-`h4` 內的原文不應改變。
+The original text of the h4 should not be changed.
 
 ```js
 assert.notEqual(document.querySelector('h4')?.textContent, document.querySelector('h4')?.textContent?.toUpperCase());

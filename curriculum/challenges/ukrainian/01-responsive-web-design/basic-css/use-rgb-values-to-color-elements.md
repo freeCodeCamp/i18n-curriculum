@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aede08718
-title: Використовування властивостей RGB до Кольорових Елементів
+title: Use RGB values to Color Elements
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cRkp2fr'
 forumTopicId: 18369
@@ -9,25 +9,25 @@ dashedName: use-rgb-values-to-color-elements
 
 # --description--
 
-Інша можливість представлення кольорів у CSS - це використання конструкції `RGB`.
+Another way you can represent colors in CSS is by using `RGB` values.
 
-Наприклад, представлення `RGB` для чорного кольору виглядає наступним чином:
+The `RGB` value for black looks like this:
 
 ```css
 rgb(0, 0, 0)
 ```
 
-Представлення `RGB` для білого кольору виглядає так:
+The `RGB` value for white looks like this:
 
 ```css
 rgb(255, 255, 255)
 ```
 
-Замість використання шести шістнадцяткових цифр, як у випадку з шістнадцятковим кодом, у разі `RGB` яскравість кожного кольору задається числом від 0 до 255.
+Instead of using six hexadecimal digits like you do with hex code, with `RGB` you specify the brightness of each color with a number between 0 and 255.
 
-Якщо підрахувати, то два значення для одного кольору дорівнює 16 разів по 16, що приносить у підсумку 256 значень. Таким чином, `RGB` починаючи відлік з нуля, має таку ж саму кількість можливих значень, як і шістнадцятковий код.
+If you do the math, the two digits for one color equal 16 times 16, which gives us 256 total values. So `RGB`, which starts counting from zero, has the exact same number of possible values as hex code.
 
-Ось приклад того, як можна змінити `body` тла на помаранчевий, використовуючи його RGB код.
+Here's an example of how you'd change the `body` background to orange using its RGB code.
 
 ```css
 body {
@@ -37,17 +37,17 @@ body {
 
 # --instructions--
 
-Давайте змінимо шістнадцятковий код у `body` властивості кольору тла на значення RGB для чорного кольору: `rgb(0, 0, 0)`
+Let's replace the hex code in our `body` element's background color with the RGB value for black: `rgb(0, 0, 0)`
 
 # --hints--
 
-Ваш елемент `body` повинен мати чорне тло.
+Your `body` element should have a black background.
 
 ```js
 assert($('body').css('background-color') === 'rgb(0, 0, 0)');
 ```
 
-Слід використовувати `rgb` для надання чорного кольору тлу елемента `body`.
+You should use `rgb` to give your `body` element a background of black.
 
 ```js
 assert(code.match(/rgb\s*\(\s*0\s*,\s*0\s*,\s*0\s*\)/gi));

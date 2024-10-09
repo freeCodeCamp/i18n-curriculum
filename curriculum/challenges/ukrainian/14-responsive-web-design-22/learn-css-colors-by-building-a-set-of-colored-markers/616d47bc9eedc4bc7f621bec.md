@@ -1,35 +1,35 @@
 ---
 id: 616d47bc9eedc4bc7f621bec
-title: Крок 10
+title: Step 10
 challengeType: 0
 dashedName: step-10
 ---
 
 # --description--
 
-Потім додайте інший елемент `div` в межах елемента `div` та надайте йому клас `marker`.
+Next, within the `div` element, add another `div` element and give it a class of `marker`.
 
 # --hints--
 
-Ваш новий елемент `div` повинен мати початковий теґ.
+Your new `div` element should have an opening tag.
 
 ```js
 assert([...code.matchAll(/<div.*?>/gi)][1]);
 ```
 
-Новий елемент `div` повинен мати кінцевий тег.
+Your new `div` element should have a closing tag.
 
 ```js
 assert([...code.matchAll(/<\/div\s*>/gi)][1]);
 ```
 
-Ви повинні вкласти свій новий елемент `div` в `div` класу `container`.
+You should nest your new `div` element within the `div` with the class `container`.
 
 ```js
 assert(document.querySelector('.container')?.children[0]?.localName === 'div');
 ```
 
-Ви повинні надати вашому новому елементу `div` клас `marker`.
+You should give your new `div` element a class of `marker`.
 
 ```js
 const containerChildren = [...document.querySelector('.container')?.children];

@@ -1,6 +1,6 @@
 ---
 id: 587d7b8a367417b2b2512b4e
-title: إنشاء المقاطع النصية باستخدام قوالب النصوص
+title: Create Strings using Template Literals
 challengeType: 1
 forumTopicId: 301200
 dashedName: create-strings-using-template-literals
@@ -8,11 +8,11 @@ dashedName: create-strings-using-template-literals
 
 # --description--
 
-احدي الميزات الجديدة لـ ES6 هي <dfn>template literal</dfn>. هذا نوع خاص من الـ strings يجعل إنشاء سلاسل معقدة أسهل.
+A new feature of ES6 is the <dfn>template literal</dfn>. This is a special type of string that makes creating complex strings easier.
 
-Template literals تتيح لك إنشاء strings متعددة السطور واستخدام ميزات الـ string interpolation لإنشاء strings.
+Template literals allow you to create multi-line strings and to use string interpolation features to create strings.
 
-انظر الي الكود أدناه:
+Consider the code below:
 
 ```js
 const person = {
@@ -26,15 +26,15 @@ I am ${person.age} years old.`;
 console.log(greeting);
 ```
 
-ستعرض وحدة التحكم السلاسل `Hello, my name is Zodiac Hasbro!` و `I am 56 years old.`.
+The console will display the strings `Hello, my name is Zodiac Hasbro!` and `I am 56 years old.`.
 
-لقد حدث الكثير من الأشياء هنا. أولاً، يستخدم المثال الـ backticks الآتية (`` ` ``)، وليس علامات الاقتباس (`'` أو `"`) لاحتواء المقطع النصي. ثانياً، لاحظ أن الـ string متعدد الأسطر في كل من الكود والناتج. هذا يوفر من إدخال `\n` داخل الـ strings. بناء الجملة `${variable}` المستخدم أعلاه هو placeholder. بشكل أساسي، لن تضطر إلى استخدام التسلسل مع عامل التشغيل `+` بعد الآن. لإضافة متغيرات إلى الـ strings، فقط قم بإسقاط المتغير في template string و حاوطه بـ `${` و `}`. وبالمثل، يمكنك تضمين عبارات أخرى في الـ string literal، على سبيل المثال `${a + b}`. هذه الطريقة الجديدة لإنشاء الـ strings تمنحك المزيد من المرونة لإنشاء strings قوية.
+A lot of things happened there. Firstly, the example uses backticks (`` ` ``), not quotes (`'` or `"`), to wrap the string. Secondly, notice that the string is multi-line, both in the code and the output. This saves inserting `\n` within strings. The `${variable}` syntax used above is a placeholder. Basically, you won't have to use concatenation with the `+` operator anymore. To add variables to strings, you just drop the variable in a template string and wrap it with `${` and `}`. Similarly, you can include other expressions in your string literal, for example `${a + b}`. This new way of creating strings gives you more flexibility to create robust strings.
 
 # --instructions--
 
-استخدم template literal مع backticks لإنشاء array من سلاسل عناصر القائمة (`li`). يجب أن يكون نص كل عنصر من عناصر القائمة أحد عناصر الـ array من خاصية `failure` في كائن `result` وأن يحتوي على سمة `class` مع القيمة `text-warning`. يجب أن تقوم دالة `makeList` بإرجاع مجموعة من سلاسل عناصر القائمة.
+Use template literal syntax with backticks to create an array of list element (`li`) strings. Each list element's text should be one of the array elements from the `failure` property on the `result` object and have a `class` attribute with the value `text-warning`. The `makeList` function should return the array of list item strings.
 
-قم باستخدام iterator method (أي نوع من الـ loops) للحصول على المخرجات المطلوبة (موضحة أدناه).
+Use an iterator method (any kind of loop) to get the desired output (shown below).
 
 ```js
 [
@@ -46,7 +46,7 @@ console.log(greeting);
 
 # --hints--
 
-`failuresList` يجب أن تكون array تحتوي على رسائل الـ `result failure`.
+`failuresList` should be an array containing `result failure` messages.
 
 ```js
 assert(
@@ -54,7 +54,7 @@ assert(
 );
 ```
 
-`failuresList` يجب أن تكون مساوية للمخرجات المحددة.
+`failuresList` should be equal to the specified output.
 
 ```js
 assert(
@@ -66,13 +66,13 @@ assert(
 );
 ```
 
-وينبغي استخدام template strings و expression interpolation.
+Template strings and expression interpolation should be used.
 
 ```js
 assert.match(code, /(`.*\${.*}.*`)/);
 ```
 
-ينبغي استخدام iterator.
+An iterator should be used.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/for|map|reduce|forEach|while/));

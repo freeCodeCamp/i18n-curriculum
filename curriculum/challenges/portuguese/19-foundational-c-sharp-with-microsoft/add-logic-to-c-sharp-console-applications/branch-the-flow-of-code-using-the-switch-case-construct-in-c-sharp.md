@@ -1,38 +1,38 @@
 ---
 id: 647e214b8acb466c97ccbee0
-title: 'Faça a ramificação do fluxo de código usando a construção de switch-case em C#'
+title: 'Branch the Flow of Code Using the switch-case Construct in C#'
 challengeType: 19
 dashedName: branch-the-flow-of-code-using-the-switch-case-construct-in-c-sharp
 ---
 
 # --description--
 
-Este desafio será parcialmente concluído na plataforma Microsoft Learn. Siga estas instruções para concluir o desafio:
+This challenge will be partially completed on the Microsoft Learn platform. Follow these instructions to complete the challenge:
 
-1. Acesse <a href="https://learn.microsoft.com/training/modules/csharp-switch-case/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/csharp-switch-case/</a> e complete todas as tarefas do módulo "Faça a ramificação do fluxo de código usando a construção de switch-case em C#". Isso é **necessário** para conquistar o troféu "Adicione lógica a aplicações de console do C#" da Microsoft Learn e para se qualificar para o exame de certificação.
-1. Quando terminar, volte e responda corretamente à pergunta abaixo.
+1. Go to <a href="https://learn.microsoft.com/training/modules/csharp-switch-case/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/csharp-switch-case/</a> and complete all the tasks for the "Branch the Flow of Code Using the switch-case Construct in C#" module. This is **required** to earn the "Add Logic to C# Console Applications" trophy on Microsoft Learn, and qualify for the certification exam.
+1. When you are finished, come back and correctly answer the question below.
 
 # --assignment--
 
-Complete o módulo <a href="https://learn.microsoft.com/training/modules/csharp-switch-case/" target="_blank" rel="noreferrer">Faça a ramificação do fluxo de código usando a construção de `switch`-`case` em C#</a> no Microsoft Learn. Em seguida, responda a pergunta abaixo.
+Complete the <a href="https://learn.microsoft.com/training/modules/csharp-switch-case/" target="_blank" rel="noreferrer">Branch the Flow of Code Using the `switch`-`case` Construct in C#</a> module on Microsoft Learn. Then, answer the question below.
 
 # --questions--
 
 ## --text--
 
-Qual é a finalidade do elemento `break`?
+What is the purpose of the `break` keyword?
 
 ## --answers--
 
-A palavra-chave `break` diz ao tempo de execução para continuar avaliando outros casos no bloco `switch`.
+The `break` keyword tells the runtime to continue evaluating other cases in the `switch` construct.
 
 ---
 
-A palavra-chave `break` diz ao tempo de execução para parar de avaliar outros casos no bloco `switch`.
+The `break` keyword tells the runtime to stop evaluating other cases in the `switch` construct.
 
 ---
 
-A palavra-chave `break` diz ao tempo de execução para sair da aplicação.
+The `break` keyword tells the runtime to exit the application.
 
 ## --video-solution--
 

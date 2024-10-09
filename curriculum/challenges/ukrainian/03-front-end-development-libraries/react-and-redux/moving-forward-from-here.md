@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d403614a
-title: Перейдіть далі
+title: Moving Forward From Here
 challengeType: 6
 forumTopicId: 301434
 dashedName: moving-forward-from-here
@@ -8,19 +8,19 @@ dashedName: moving-forward-from-here
 
 # --description--
 
-Вітаємо! Ви закінчили уроки з React та Redux. Є ще одна річ, на яку варто звернути увагу, перш ніж рухатися далі. Як правило, ви не будете писати застосунки React в такому редакторі коду. Це завдання дає вам уявлення про те, як виглядає синтаксис, якщо ви працюєте з файловою системою на своєму пристрої. Код повинен виглядати подібно, за винятком використання інструкцій `import` (вони використовують всі залежності, які були в завданнях).
+Congratulations! You finished the lessons on React and Redux. There's one last item worth pointing out before you move on. Typically, you won't write React apps in a code editor like this. This challenge gives you a glimpse of what the syntax looks like if you're working with a file system on your own machine. The code should look similar, except for the use of `import` statements (these pull in all of the dependencies that have been provided for you in the challenges).
 
-Зрештою, написання коду React і Redux зазвичай вимагає певного налаштування. Це може швидко ускладнитись. Якщо вам цікаво експериментувати на власному пристрої, <a href="https://www.freecodecamp.org/news/install-react-with-create-react-app/" target="_blank" rel="noopener noreferrer nofollow">Create React App</a> вже налаштований та готовий до роботи.
+Finally, writing React and Redux code generally requires some configuration. This can get complicated quickly. If you are interested in experimenting on your own machine, the <a href="https://www.freecodecamp.org/news/install-react-with-create-react-app/" target="_blank" rel="noopener noreferrer nofollow">Create React App</a> comes configured and ready to go.
 
-Або ж ви можете використати Babel як препроцесор JavaScript в CodePen, додати React та ReactDOM як зовнішні ресурси JavaScript, й працювати там.
+Alternatively, you can enable Babel as a JavaScript Preprocessor in CodePen, add React and ReactDOM as external JavaScript resources, and work there as well.
 
 # --instructions--
 
-Введіть повідомлення `'Now I know React and Redux!'` на консолі.
+Log the message `'Now I know React and Redux!'` to the console.
 
 # --hints--
 
-Повідомлення `Now I know React and Redux!` має бути введеним на консолі.
+The message `Now I know React and Redux!` should be logged to the console.
 
 ```js
 (getUserInput) =>

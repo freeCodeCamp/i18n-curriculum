@@ -1,6 +1,6 @@
 ---
 id: 587d78a9367417b2b2512ae8
-title: 學習貝塞爾曲線的原理
+title: Learn How Bezier Curves Work
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/c9bDrs8'
 forumTopicId: 301058
@@ -9,25 +9,25 @@ dashedName: learn-how-bezier-curves-work
 
 # --description--
 
-上一個挑戰中，我們介紹了 `animation-timing-function` 以及它的一些預設值，這些值定義了不同時間內的動畫速度。 除了預定義值之外，CSS 還提供了貝塞爾曲線（Bezier curves）來更細緻地控制動畫的速度曲線。
+The last challenge introduced the `animation-timing-function` property and a few keywords that change the speed of an animation over its duration. CSS offers an option other than keywords that provides even finer control over how the animation plays out, through the use of Bezier curves.
 
-在 CSS 動畫裏，我們可以用 `cubic-bezier` 來定義貝塞爾曲線。 曲線的形狀代表了動畫的速度。 曲線在 1 * 1 的座標系統內， 其中 X 軸代表動畫的時間間隔（類似於時間比例尺），Y 軸代表動畫的改變。
+In CSS animations, Bezier curves are used with the `cubic-bezier` function. The shape of the curve represents how the animation plays out. The curve lives on a 1 by 1 coordinate system. The X-axis of this coordinate system is the duration of the animation (think of it as a time scale), and the Y-axis is the change in the animation.
 
-`cubic-bezier` 函數包含了 1 * 1 網格里的4個點：`p0`、`p1`、`p2`、`p3`。 其中 `p0` 和 `p3` 是固定值，代表曲線的起始點和結束點，座標值依次爲 (0, 0) 和 (1, 1)。 你只需設置另外兩點的 x 值和 y 值，設置的這兩點確定了曲線的形狀從而確定了動畫的速度曲線。 在 CSS 裏面通過 `(x1, y1, x2, y2)` 來確定 `p1` 和 `p2`。 以下就是 CSS 貝塞爾曲線的例子：
+The `cubic-bezier` function consists of four main points that sit on this 1 by 1 grid: `p0`, `p1`, `p2`, and `p3`. `p0` and `p3` are set for you - they are the beginning and end points which are always located respectively at the origin (0, 0) and (1, 1). You set the x and y values for the other two points, and where you place them in the grid dictates the shape of the curve for the animation to follow. This is done in CSS by declaring the x and y values of the `p1` and `p2` "anchor" points in the form: `(x1, y1, x2, y2)`. Pulling it all together, here's an example of a Bezier curve in CSS code:
 
 ```css
 animation-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
 ```
 
-在上面的例子裏，兩個點的 x 和 y 值相等（x1 = 0.25 = y1 和 x2 = 0.75 = y2）。如果你還記得幾何課的知識，結果是從原點到點 (1, 1) 的一條直線。 元素在動畫中的速度呈線性，效果和使用 `linear` 關鍵詞的效果一致。 換言之，元素勻速運動。
+In the example above, the x and y values are equivalent for each point (x1 = 0.25 = y1 and x2 = 0.75 = y2), which if you remember from geometry class, results in a line that extends from the origin to point (1, 1). This animation is a linear change of an element during the length of an animation, and is the same as using the `linear` keyword. In other words, it changes at a constant speed.
 
 # --instructions--
 
-對於 id 爲 `ball1` 的元素，把 `animation-timing-function` 屬性的值從 `linear` 改爲等價的 `cubic-bezier` 函數值。 也就是說使用上面例子給的值。
+For the element with the id of `ball1`, change the value of the `animation-timing-function` property from `linear` to its equivalent `cubic-bezier` function value. Use the point values given in the example above.
 
 # --hints--
 
-id 爲 `ball1` 的元素的 `animation-timing-function` 屬性值應該爲和 linear 預定值等價的 `cubic-bezier` 函數值。
+The value of the `animation-timing-function` property for the element with the id `ball1` should be the linear-equivalent `cubic-bezier` function.
 
 ```js
 const ballOne = document.querySelector('#ball1');
@@ -38,7 +38,7 @@ assert.equal(
 );
 ```
 
-id 爲 `ball2` 的元素的 `animation-timing-function` 屬性值不應改變。
+The value of the `animation-timing-function` property for the element with the id `ball2` should not change.
 
 ```js
 const ballTwoElement = document.querySelector('#ball2');

@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aede08845
-title: Creare un'intestazione personalizzata
+title: Create a Custom Heading
 challengeType: 0
 forumTopicId: 16816
 dashedName: create-a-custom-heading
@@ -8,17 +8,17 @@ dashedName: create-a-custom-heading
 
 # --description--
 
-Creeremo una semplice intestazione per la nostra Cat Photo App mettendo il titolo e l'immagine del gatto nella stessa riga.
+We will make a simple heading for our Cat Photo App by putting the title and relaxing cat image in the same row.
 
-Ricorda, Bootstrap utilizza un sistema di griglia responsivo, che rende facile mettere gli elementi in righe e specificare la larghezza relativa di ogni elemento. La maggior parte delle classi di Bootstrap può essere applicata a un elemento `div`.
+Remember, Bootstrap uses a responsive grid system, which makes it easy to put elements into rows and specify each element's relative width. Most of Bootstrap's classes can be applied to a `div` element.
 
-Annida la prima immagine e l'elemento `h2` nello stesso elemento `<div class="row">`. Annida l'elemento `h2` in un `<div class="col-xs-8">` e la tua immagine in un `<div class="col-xs-4">` in modo che stiano nella stessa linea.
+Nest your first image and your `h2` element within a single `<div class="row">` element. Nest your `h2` element within a `<div class="col-xs-8">` and your image in a `<div class="col-xs-4">` so that they are on the same line.
 
-Hai notato come l'immagine ha ora la giusta dimensione per adattarsi al testo?
+Notice how the image is now just the right size to fit along the text?
 
 # --hints--
 
-Il tuo elemento `h2` e l'elemento `img` più in alto dovrebbero essere entrambi annidati all'interno di un elemento `div` di classe `row`.
+Your `h2` element and topmost `img` element should both be nested together within a `div` element with the class `row`.
 
 ```js
 const row = document.querySelector('div.row');
@@ -28,7 +28,7 @@ assert.lengthOf(h2,1);
 assert.lengthOf(image ,1);
 ```
 
-Il tuo elemento `img` più in alto dovrebbe essere annidato all'interno di un `div` di classe `col-xs-4`.
+Your topmost `img` element should be nested within a `div` with the class `col-xs-4`.
 
 ```js
 const column = document.querySelector('div.col-xs-4');
@@ -38,7 +38,7 @@ assert.isEmpty(div);
 assert.lengthOf(img,1)
 ```
 
-Il tuo elemento `h2` dovrebbe essere annidato all'interno di un `div` di classe `col-xs-8`.
+Your `h2` element should be nested within a `div` with the class `col-xs-8`.
 
 ```js
 const column = document.querySelector('div.col-xs-8');
@@ -49,7 +49,7 @@ assert.isEmpty(div);
 assert.lengthOf(h2, 1);
 ```
 
-Tutti i tuoi elementi `div` dovrebbero avere dei tag di chiusura.
+All of your `div` elements should have closing tags.
 
 ```js
 assert.match(code,/<\/div>/g);

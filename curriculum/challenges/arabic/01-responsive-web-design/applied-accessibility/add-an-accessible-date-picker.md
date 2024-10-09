@@ -1,6 +1,6 @@
 ---
 id: 587d778b367417b2b2512aa8
-title: إضافة منتقي تاريخ يمكن الوصول إليه
+title: Add an Accessible Date Picker
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cR3bRbCV'
 forumTopicId: 301008
@@ -9,13 +9,13 @@ dashedName: add-an-accessible-date-picker
 
 # --description--
 
-غالبًا ما تتضمن النماذج حقل `input` ، والذي يمكن استخدامه لإنشاء العديد من العناصر المختلفة للتحكم في النموذج. خاصية `type` على هذا العنصر تشير إلي أي نوع `input` سيتم إنشاؤه.
+Forms often include the `input` field, which can be used to create several different form controls. The `type` attribute on this element indicates what kind of `input` element will be created.
 
-ربما تكون قد لاحظت وجود أنواع المدخلات `text` و `submit` في تحديات سابقة، و HTML5 قد وفرت خيار حقل `date`. اعتمادا على دعم المتصفح، يظهر منتقي التاريخ في حقل `input` عندما يكون في التركيز، مما يجعل تعبئة النموذج أسهل لجميع المستخدمين.
+You may have noticed the `text` and `submit` input types in prior challenges, and HTML5 introduced an option to specify a `date` field. Depending on browser support, a date picker shows up in the `input` field when it's in focus, which makes filling in a form easier for all users.
 
-بالنسبة إلى المتصفحات الأقدم ، سيكون type افتراضيًا بقيمة ` text ` ،لساعد في إظهار تنسيق التاريخ المتوقع للمستخدمين في `label`  أو  `placeholder` في النص احتياطيا.
+For older browsers, the type will default to `text`, so it helps to show users the expected date format in the `label` or `placeholder` text just in case.
 
-إليك مثال:
+Here's an example:
 
 ```html
 <label for="input1">Enter a date:</label>
@@ -24,29 +24,29 @@ dashedName: add-an-accessible-date-picker
 
 # --instructions--
 
-يقوم Camper Cat بإعداد بطولة Mortal Kombat ويريد أن يطلب من منافسيه معرفة التاريخ الأفضل. أضف علامة `input` مع سمة `type` من نوع `date`، و مع سمة `id` بقيمة `pickdate`، و أيضا سمة `name` بقيمة `date`.
+Camper Cat is setting up a Mortal Kombat tournament and wants to ask his competitors to see what date works best. Add an `input` tag with a `type` attribute of `date`, an `id` attribute of `pickdate`, and a `name` attribute of `date`.
 
 # --hints--
 
-يجب أن يحتوي الكود علي علامة `input` واحد لخانة محدد التاريخ.
+Your code should add one `input` tag for the date selector field.
 
 ```js
 assert.lengthOf(document.querySelectorAll('input'), 2);
 ```
 
-يجب أن يحتوي علامة `input` على سمة `type` بقيمة `date`.
+Your `input` tag should have a `type` attribute with a value of `date`.
 
 ```js
 assert.equal(document.querySelector('input')?.getAttribute('type'), 'date');
 ```
 
-يجب أن يحتوي علامة `input` على سمة `id` بقيمة `pickdate`.
+Your `input` tag should have an `id` attribute with a value of `pickdate`.
 
 ```js
 assert.equal(document.querySelector('input')?.getAttribute('id'),'pickdate');
 ```
 
-يجب أن يحتوي علامة `input` على سمة `name` بقيمة `date`.
+Your `input` tag should have a `name` attribute with a value of `date`.
 
 ```js
 assert.equal(document.querySelector('input')?.getAttribute('name'), 'date');

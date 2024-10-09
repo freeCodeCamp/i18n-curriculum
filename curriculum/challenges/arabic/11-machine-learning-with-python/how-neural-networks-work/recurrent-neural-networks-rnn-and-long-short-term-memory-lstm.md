@@ -26,5 +26,5 @@ Prediction, ignoring, forgetting, and selection.
 
 ## --video-solution--
 
-الثالث
+3
 

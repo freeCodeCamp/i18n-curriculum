@@ -1,6 +1,6 @@
 ---
 id: 587d78a8367417b2b2512ae5
-title: Анімаційні елементи у змінних ставках
+title: Animate Elements at Variable Rates
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cZ89WA4'
 forumTopicId: 301040
@@ -9,17 +9,17 @@ dashedName: animate-elements-at-variable-rates
 
 # --description--
 
-Існує безліч способів зміни частоти анімації аналогічно анімованих елементів. Поки що цього було досягнуто шляхом застосування властивості `animation-iteration-count` і встановлення правил `@keyframes`.
+There are a variety of ways to alter the animation rates of similarly animated elements. So far, this has been achieved by applying an `animation-iteration-count` property and setting `@keyframes` rules.
 
-До прикладу, анімація справа складається з двох зірок, розмір і прозорість кожної з яких у правилі `@keyframes` зменшується до позначки 20%, що створює ефект миготіння. Ви можете змінити правило `@keyframes` для одного з елементів, щоб зірки миготіли з різною швидкістю.
+To illustrate, the animation on the right consists of two stars that each decrease in size and opacity at the 20% mark in the `@keyframes` rule, which creates the twinkle animation. You can change the `@keyframes` rule for one of the elements so the stars twinkle at different rates.
 
 # --instructions--
 
-Змініть частоту кадрів анімації елементу класу `star-1`, змінивши значення його `@keyframes` правила на 50%.
+Alter the animation rate for the element with the class name of `star-1` by changing its `@keyframes` rule to 50%.
 
 # --hints--
 
-Правило `@keyframes` для класу `star-1` повинно становити 50%.
+The `@keyframes` rule for the `star-1` class should be 50%.
 
 ```js
 assert.match(code,/twinkle-1\s*?{\s*?50%/g);

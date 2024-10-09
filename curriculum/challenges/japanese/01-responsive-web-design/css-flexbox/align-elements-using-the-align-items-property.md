@@ -1,6 +1,6 @@
 ---
 id: 587d78ad367417b2b2512af8
-title: align-items プロパティを使用して要素を整列する
+title: Align Elements Using the align-items Property
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVaDAv/c8aggtk'
 forumTopicId: 301101
@@ -9,26 +9,26 @@ dashedName: align-elements-using-the-align-items-property
 
 # --description--
 
-`align-items` プロパティは `justify-content` に似ています。 `justify-content` プロパティは主軸に沿ってフレックスアイテムを整列していたことを思い出してください。 行の主軸は水平線で、列の主軸は垂直線です。
+The `align-items` property is similar to `justify-content`. Recall that the `justify-content` property aligned flex items along the main axis. For rows, the main axis is a horizontal line and for columns it is a vertical line.
 
-フレックスコンテナーには主軸と対照的な**交差軸** (cross axis) もあります。 行の交差軸は垂直線で、列の交差軸は水平線です。
+Flex containers also have a **cross axis** which is the opposite of the main axis. For rows, the cross axis is vertical and for columns, the cross axis is horizontal.
 
-CSS は `align-items` プロパティを提供しており、フレックスアイテムを交差軸方向に整列させることができます。 行の場合、コンテナー内で行全体のアイテムをどのように上下に揃えるかを CSS に指定します。 そして列の場合は、コンテナー内で全てのアイテムをどのように左右に揃えるかを指定します。
+CSS offers the `align-items` property to align flex items along the cross axis. For a row, it tells CSS how to push the items in the entire row up or down within the container. And for a column, how to push all the items left or right within the container.
 
-`align-items` で使用できるさまざまな値は次のとおりです。
+The different values available for `align-items` include:
 
-<ul><li><code>flex-start</code>: フレックスコンテナーの先頭にアイテムを揃えます。 行の場合、アイテムはコンテナーの上部に揃えられます。 列の場合、アイテムはコンテナーの左側に揃えられます。</li><li><code>flex-end</code>: フレックスコンテナーの末端にアイテムを揃えます。 行の場合、アイテムはコンテナーの下部に揃えられます。 列の場合、アイテムはコンテナーの右側に揃えられます。</li><li><code>center</code>: アイテムを中心で揃えます。 行の場合、アイテムを垂直方向に揃えます (アイテムの上下のスペースを均等にします)。 列の場合、アイテムを水平方向に揃えます (アイテムの左右のスペースを均等にします)。</li><li><code>stretch</code>: フレックスコンテナーいっぱいを埋めるためにアイテムを拡大させます。 たとえば、行のアイテムはフレックスコンテナーの上から下いっぱいを埋めるように引き伸ばされます。 <code>align-items</code> の値が指定されていない場合、これがデフォルト値になります。</li><li><code>baseline</code>: アイテムをベースラインで揃えます。 ベースラインとはテキストについての考え方で、文字が乗っているラインだと考えてください。</li></ul>
+<ul><li><code>flex-start</code>: aligns items to the start of the flex container. For rows, this aligns items to the top of the container. For columns, this aligns items to the left of the container.</li><li><code>flex-end</code>: aligns items to the end of the flex container. For rows, this aligns items to the bottom of the container. For columns, this aligns items to the right of the container.</li><li><code>center</code>: align items to the center. For rows, this vertically aligns items (equal space above and below the items). For columns, this horizontally aligns them (equal space to the left and right of the items).</li><li><code>stretch</code>: stretch the items to fill the flex container. For example, rows items are stretched to fill the flex container top-to-bottom. This is the default value if no <code>align-items</code> value is specified.</li><li><code>baseline</code>: align items to their baselines. Baseline is a text concept, think of it as the line that the letters sit on.</li></ul>
 
 # --instructions--
 
-このプロパティの動作は例を見ると分かりやすいでしょう。 CSS プロパティ `align-items` を `#box-container` 要素に追加し、値を `center` に設定してください。
+An example helps show this property in action. Add the CSS property `align-items` to the `#box-container` element, and give it a value of `center`.
 
 **Bonus**  
-コードエディタ上で `align-items` プロパティの他のオプションを試してみて、違いを確認してみましょう。 ただし `center` がこのチャレンジをパスする唯一の値であることに注意してください。
+Try the other options for the `align-items` property in the code editor to see their differences. But note that a value of `center` is the only one that will pass this challenge.
 
 # --hints--
 
-`#box-container` 要素の `align-items` プロパティを `center` に設定してください。
+The `#box-container` element should have an `align-items` property set to a value of `center`.
 
 ```js
 assert($('#box-container').css('align-items') == 'center');

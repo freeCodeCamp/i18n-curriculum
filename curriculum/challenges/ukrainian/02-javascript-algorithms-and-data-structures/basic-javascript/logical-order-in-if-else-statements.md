@@ -1,6 +1,6 @@
 ---
 id: 5690307fddb111c6084545d7
-title: Логічна послідовність в інструкції if else
+title: Logical Order in If Else Statements
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cwNvMUV'
 forumTopicId: 18228
@@ -9,13 +9,13 @@ dashedName: logical-order-in-if-else-statements
 
 # --description--
 
-В інструкціях `if` та `else if` важлива послідовність.
+Order is important in `if`, `else if` statements.
 
-Функція виконується зверху донизу, тому уважно перевіряйте, яка інструкція написана першою.
+The function is executed from top to bottom so you will want to be careful of what statement comes first.
 
-Візьмемо ці дві функції як приклад.
+Take these two functions as an example.
 
-Перша:
+Here's the first:
 
 ```js
 function foo(x) {
@@ -29,7 +29,7 @@ function foo(x) {
 }
 ```
 
-А друга лише змінює порядок інструкцій:
+And the second just switches the order of the statements:
 
 ```js
 function bar(x) {
@@ -43,34 +43,34 @@ function bar(x) {
 }
 ```
 
-Ці функції виглядають майже однаково, але ми отримаємо різні результати, навіть якщо надамо те саме число обом.
+While these two functions look nearly identical if we pass a number to both we get different outputs.
 
 ```js
 foo(0)
 bar(0)
 ```
 
-`foo(0)` повертатиме рядок `Less than one`, а `bar(0)` повертатиме рядок `Less than two`.
+`foo(0)` will return the string `Less than one`, and `bar(0)` will return the string `Less than two`.
 
 # --instructions--
 
-Змініть логічну послідовність функції так, щоб вона повертала правильні твердження у всіх випадках.
+Change the order of logic in the function so that it will return the correct statements in all cases.
 
 # --hints--
 
-`orderMyLogic(4)` має повертати рядок `Less than 5`
+`orderMyLogic(4)` should return the string `Less than 5`
 
 ```js
 assert(orderMyLogic(4) === 'Less than 5');
 ```
 
-`orderMyLogic(6)` має повертати рядок `Less than 10`
+`orderMyLogic(6)` should return the string `Less than 10`
 
 ```js
 assert(orderMyLogic(6) === 'Less than 10');
 ```
 
-`orderMyLogic(11)` має повертати рядок `Greater than or equal to 10`
+`orderMyLogic(11)` should return the string `Greater than or equal to 10`
 
 ```js
 assert(orderMyLogic(11) === 'Greater than or equal to 10');

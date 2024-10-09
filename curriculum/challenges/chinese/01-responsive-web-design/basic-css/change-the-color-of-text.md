@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedf08803
-title: 更改文本的颜色
+title: Change the Color of Text
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cRkVmSm'
 forumTopicId: 16775
@@ -9,39 +9,39 @@ dashedName: change-the-color-of-text
 
 # --description--
 
-现在让我们来修改文本的颜色。
+Now let's change the color of some of our text.
 
-我们通过修改 `h2` 元素的 `style` 属性来改变文本颜色。
+We can do this by changing the `style` of your `h2` element.
 
-我们需要修改 `color` 属性值。
+The property that is responsible for the color of an element's text is the `color` style property.
 
-以下是将 `h2` 元素设置为蓝色的方法：
+Here's how you would set your `h2` element's text color to blue:
 
 ```html
 <h2 style="color: blue;">CatPhotoApp</h2>
 ```
 
-请注意，需要在内联 `style` 声明末尾加上 `;`。
+Note that it is a good practice to end inline `style` declarations with a `;` .
 
 # --instructions--
 
-修改 `h2` 的样式，使它的文本颜色为红色。
+Change your `h2` element's style so that its text color is red.
 
 # --hints--
 
-`h2` 元素应有一个 `style` 声明。
+Your `h2` element should have a `style` declaration.
 
 ```js
 assert($('h2').attr('style'));
 ```
 
-`h2` 元素的颜色应设置为 `red`。
+Your `h2` element should have color set to `red`.
 
 ```js
 assert($('h2')[0].style.color === 'red');
 ```
 
-`style` 声明应该以 `;` 结尾。
+Your `style` declaration should end with a `;` .
 
 ```js
 assert($('h2').attr('style') && $('h2').attr('style').endsWith(';'));

@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedb08845
-title: Definire responsivamente lo stile dei pulsanti di opzione
+title: Responsively Style Radio Buttons
 challengeType: 0
 forumTopicId: 18270
 required:
@@ -13,29 +13,29 @@ dashedName: responsively-style-radio-buttons
 
 # --description--
 
-Puoi usare le classi `col-xs-*` di Bootstrap anche sugli elementi dei `form`! In questo modo, i nostri pulsanti di opzione saranno distribuiti uniformemente nella pagina, indipendentemente dalla risoluzione dello schermo.
+You can use Bootstrap's `col-xs-*` classes on `form` elements, too! This way, our radio buttons will be evenly spread out across the page, regardless of how wide the screen resolution is.
 
-Annida entrambi i pulsanti di opzione all'interno di un elemento `<div class="row">`. Poi annida ciascuno di essi all'interno di un elemento `<div class="col-xs-6">`.
+Nest both your radio buttons within a `<div class="row">` element. Then nest each of them within a `<div class="col-xs-6">` element.
 
-**Nota:** Come promemoria, i pulsanti di opzione sono elementi `input` di tipo `radio`.
+**Note:** As a reminder, radio buttons are `input` elements of type `radio`.
 
 # --hints--
 
-Tutti i pulsanti di opzione dovrebbero essere annidati all'interno di un `div` di classe `row`.
+All of your radio buttons should be nested inside one `div` with the class `row`.
 
 ```js
 const radioButtons = document.querySelectorAll(`div.row input[type=radio]`); 
 assert.lengthOf(radioButtons , 2);
 ```
 
-Ciascuno dei tuoi pulsanti di opzione dovrebbe essere annidato all'interno del suo `div` di classe `col-xs-6`.
+Each of your radio buttons should be nested inside its own `div` with the class `col-xs-6`.
 
 ```js
 const radioButtons = document.querySelectorAll(`div.col-xs-6 input[type=radio]`); 
 assert.lengthOf(radioButtons , 2);
 ```
 
-Tutti i tuoi elementi `div` dovrebbero avere dei tag di chiusura.
+All of your `div` elements should have closing tags.
 
 ```js
 assert.match(code,/<\/div>/);

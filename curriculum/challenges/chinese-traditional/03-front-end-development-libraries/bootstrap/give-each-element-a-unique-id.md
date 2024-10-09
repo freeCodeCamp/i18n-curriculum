@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aec908855
-title: 給每個元素一個唯一的 id
+title: Give Each Element a Unique id
 challengeType: 0
 forumTopicId: 18191
 dashedName: give-each-element-a-unique-id
@@ -8,15 +8,15 @@ dashedName: give-each-element-a-unique-id
 
 # --description--
 
-也可以通過 jQuery 根據每個按鈕唯一的 id 來定位出它們。
+We will also want to be able to use jQuery to target each button by its unique id.
 
-給每一個按鈕設置唯一的 id，以 `target1` 開始，`target6` 結束。
+Give each of your buttons a unique id, starting with `target1` and ending with `target6`.
 
-確保 `target1` 到 `target3` 在 `#left-well` 之中，`target4` 到 `target6` 在 `#right-well` 之中。
+Make sure that `target1` to `target3` are in `#left-well`, and `target4` to `target6` are in `#right-well`.
 
 # --hints--
 
-其中一個 `button` 元素應該有 id `target1`。
+One `button` element should have the id `target1`.
 
 ```js
 const leftWall = document.querySelector('#left-well'); 
@@ -24,7 +24,7 @@ const targetOne = leftWall?.querySelectorAll(`:scope ${'#target1'}`)
 assert.lengthOf(targetOne,1);
 ```
 
-其中一個 `button` 元素應該有 id `target2`。
+One `button` element should have the id `target2`.
 
 ```js
 const leftWall = document.querySelector('#left-well'); 
@@ -32,7 +32,7 @@ const targetTwo = leftWall?.querySelectorAll(`:scope ${'#target2'}`)
 assert.lengthOf(targetTwo,1);
 ```
 
-其中一個 `button` 元素應該有 id `target3`。
+One `button` element should have the id `target3`.
 
 ```js
 const leftWall = document.querySelector('#left-well'); 
@@ -40,7 +40,7 @@ const targetThree = leftWall?.querySelectorAll(`:scope ${'#target3'}`)
 assert.lengthOf(targetThree,1);
 ```
 
-其中一個 `button` 元素應該有 id `target4`。
+One `button` element should have the id `target4`.
 
 ```js
 const leftWall = document.querySelector('#right-well'); 
@@ -48,7 +48,7 @@ const targetFour = leftWall?.querySelectorAll(`:scope ${'#target4'}`)
 assert.lengthOf(targetFour,1);
 ```
 
-其中一個 `button` 元素應該有 id `target5`。
+One `button` element should have the id `target5`.
 
 ```js
 const leftWall = document.querySelector('#right-well'); 
@@ -56,7 +56,7 @@ const targetFive = leftWall?.querySelectorAll(`:scope ${'#target5'}`)
 assert.lengthOf(targetFive,1);
 ```
 
-其中一個 `button` 元素應有 id `target6`。
+One `button` element should have the id `target6`.
 
 ```js
 const leftWall = document.querySelector('#right-well'); 

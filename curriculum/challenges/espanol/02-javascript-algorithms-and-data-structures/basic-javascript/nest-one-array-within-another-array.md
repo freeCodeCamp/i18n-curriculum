@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c11feddfaeb7bdef
-title: Anida un arreglo dentro de otro arreglo
+title: Nest one Array within Another Array
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/crZQZf8'
 forumTopicId: 18247
@@ -9,21 +9,21 @@ dashedName: nest-one-array-within-another-array
 
 # --description--
 
-También puedes anidar arreglos dentro de otros arreglos, como a continuación:
+You can also nest arrays within other arrays, like below:
 
 ```js
 const teams = [["Bulls", 23], ["White Sox", 45]];
 ```
 
-Esto también es conocido como <dfn>arreglo multidimensional</dfn>.
+This is also called a <dfn>multi-dimensional array</dfn>.
 
 # --instructions--
 
-Crea un arreglo anidado llamado `myArray`.
+Create a nested array called `myArray`.
 
 # --hints--
 
-`myArray` debe tener al menos un arreglo anidado dentro de otro arreglo.
+`myArray` should have at least one array nested within another array.
 
 ```js
 assert(Array.isArray(myArray) && myArray.some(Array.isArray));

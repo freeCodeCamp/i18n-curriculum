@@ -1,6 +1,6 @@
 ---
 id: 56533eb9ac21ba0edf2244ca
-title: オブジェクトを使用して検索を行う
+title: Using Objects for Lookups
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cdBk8sM'
 forumTopicId: 18373
@@ -9,9 +9,9 @@ dashedName: using-objects-for-lookups
 
 # --description--
 
-オブジェクトは、辞書のようなキー/値の保管場所と捉えることができます。 表形式のデータがある場合、`switch` ステートメントや `if/else` のチェーンを使用せずに、オブジェクトを利用して目的の値を探すことができます。 この方法は、入力データが特定の範囲に制限されていることがわかっている場合に特に便利です。
+Objects can be thought of as a key/value storage, like a dictionary. If you have tabular data, you can use an object to lookup values rather than a `switch` statement or an `if/else` chain. This is most useful when you know that your input data is limited to a certain range.
 
-下記は記事 (article) を表すオブジェクトを使った例です。
+Here is an example of an article object:
 
 ```js
 const article = {
@@ -30,63 +30,63 @@ const value = "title";
 const valueLookup = article[value];
 ```
 
-`articleAuthor` は `Kaashan Hussain` という文字列、`articleLink` は `https://www.freecodecamp.org/news/a-complete-guide-to-creating-objects-in-javascript-b0e2450655e8/` という文字列、`valueLookup` は `How to create objects in JavaScript` という文字列になります。
+`articleAuthor` is the string `Kaashan Hussain`, `articleLink` is the string `https://www.freecodecamp.org/news/a-complete-guide-to-creating-objects-in-javascript-b0e2450655e8/`, and `valueLookup` is the string `How to create objects in JavaScript`.
 
 # --instructions--
 
-switch ステートメントを `lookup` という名前のオブジェクトに変換してください。 オブジェクトを利用して `val` をルックアップ検索し、関連する文字列を `result` 変数に代入してください。
+Convert the switch statement into an object called `lookup`. Use it to look up `val` and assign the associated string to the `result` variable.
 
 # --hints--
 
-`phoneticLookup("alpha")` は文字列 `Adams` と等しくなる必要があります。
+`phoneticLookup("alpha")` should equal the string `Adams`
 
 ```js
 assert(phoneticLookup('alpha') === 'Adams');
 ```
 
-`phoneticLookup("bravo")` は文字列 `Boston` と等しくなる必要があります。
+`phoneticLookup("bravo")` should equal the string `Boston`
 
 ```js
 assert(phoneticLookup('bravo') === 'Boston');
 ```
 
-`phoneticLookup("charlie")` は文字列 `Chicago` と等しくなる必要があります。
+`phoneticLookup("charlie")` should equal the string `Chicago`
 
 ```js
 assert(phoneticLookup('charlie') === 'Chicago');
 ```
 
-`phoneticLookup("delta")` は文字列 `Denver` と等しくなる必要があります。
+`phoneticLookup("delta")` should equal the string `Denver`
 
 ```js
 assert(phoneticLookup('delta') === 'Denver');
 ```
 
-`phoneticLookup("echo")` は文字列 `Easy` と等しくなる必要があります。
+`phoneticLookup("echo")` should equal the string `Easy`
 
 ```js
 assert(phoneticLookup('echo') === 'Easy');
 ```
 
-`phoneticLookup("foxtrot")` は文字列 `Frank` と等しくなる必要があります。
+`phoneticLookup("foxtrot")` should equal the string `Frank`
 
 ```js
 assert(phoneticLookup('foxtrot') === 'Frank');
 ```
 
-`phoneticLookup("")` は `undefined` になる必要があります。
+`phoneticLookup("")` should equal `undefined`
 
 ```js
 assert(typeof phoneticLookup('') === 'undefined');
 ```
 
-`return` ステートメントを変更しないでください。
+You should not modify the `return` statement
 
 ```js
 assert(__helpers.removeJSComments(code).match(/return\sresult;/));
 ```
 
-`case` ステートメント、`switch` ステートメント、`if` ステートメントを使用しないでください。
+You should not use `case`, `switch`, or `if` statements
 
 ```js
 assert(

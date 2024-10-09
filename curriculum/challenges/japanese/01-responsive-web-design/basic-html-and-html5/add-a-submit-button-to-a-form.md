@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedd08830
-title: フォームに送信ボタンを追加する
+title: Add a Submit Button to a Form
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVMPUv/cp2Nkhz'
 forumTopicId: 16627
@@ -9,9 +9,9 @@ dashedName: add-a-submit-button-to-a-form
 
 # --description--
 
-`submit` (送信) ボタンをフォームに追加しましょう。 このボタンをクリックすると、フォームの `action` 属性で指定した URL にフォームのデータが送信されます。
+Let's add a `submit` button to your form. Clicking this button will send the data from your form to the URL you specified with your form's `action` attribute.
 
-こちらが送信ボタンの例です:
+Here's an example submit button:
 
 ```html
 <button type="submit">this button submits the form</button>
@@ -19,23 +19,23 @@ dashedName: add-a-submit-button-to-a-form
 
 # --instructions--
 
-`form` 要素内の最後の要素として `submit` タイプのボタンを追加してください。ボタンのテキストは `Submit` としてください。
+Add a button as the last element of your `form` element with a type of `submit`, and `Submit` as its text.
 
 # --hints--
 
-`form` の中に `button` が必要です。
+Your `form` should have a `button` inside it.
 
 ```js
 assert($('form').children('button').length > 0);
 ```
 
-送信ボタンは `type` 属性を `submit` に設定する必要があります。
+Your submit button should have the attribute `type` set to `submit`.
 
 ```js
 assert($('button').attr('type') === 'submit');
 ```
 
-送信ボタンのテキストは `Submit` にしてください。
+Your submit button should only have the text `Submit`.
 
 ```js
 assert(
@@ -45,7 +45,7 @@ assert(
 );
 ```
 
-`button` 要素には終了タグが必要です。
+Your `button` element should have a closing tag.
 
 ```js
 assert(

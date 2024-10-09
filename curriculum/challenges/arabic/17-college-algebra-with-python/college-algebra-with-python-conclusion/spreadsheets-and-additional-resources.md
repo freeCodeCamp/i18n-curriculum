@@ -34,4 +34,4 @@ Matplotlib
 
 ## --video-solution--
 
-٢
+2

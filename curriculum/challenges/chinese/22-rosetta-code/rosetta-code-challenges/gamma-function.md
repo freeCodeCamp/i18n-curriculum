@@ -10,13 +10,13 @@ dashedName: gamma-function
 
 Implement one algorithm (or more) to compute the Gamma function (in the real field only).
 
-$ \\ Gamma（x）= \\ displaystyle \\ int_0 ^ \\ infty t ^ {x-1} e ^ { - t} dt $
+The Gamma function can be defined as:
 
 <div style='padding-left: 4em;'><big><big>$\Gamma(x) = \displaystyle\int_0^\infty t^{x-1}e^{-t} dt$</big></big></div>
 
 # --hints--
 
-`gamma`应该是一个功能。
+`gamma` should be a function.
 
 ```js
 assert(typeof gamma == 'function');

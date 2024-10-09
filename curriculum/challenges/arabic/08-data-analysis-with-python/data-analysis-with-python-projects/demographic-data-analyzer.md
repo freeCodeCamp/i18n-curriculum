@@ -44,15 +44,15 @@ You must use Pandas to answer the following questions:
 
 Use the starter code in the file `demographic_data_analyzer.py`. Update the code so all variables set to `None` are set to the appropriate calculation or code. Round all decimals to the nearest tenth.
 
-## التطوير
+## Development
 
 Write your code in `demographic_data_analyzer.py`. For development, you can use `main.py` to test your code.
 
-## الاختبار
+## Testing
 
 The unit tests for this project are in `test_module.py`. We imported the tests from `test_module.py` to `main.py` for your convenience.
 
-## التقديم
+## Submitting
 
 Copy your project's URL and submit it to freeCodeCamp.
 

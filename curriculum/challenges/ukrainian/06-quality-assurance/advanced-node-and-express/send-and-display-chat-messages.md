@@ -1,6 +1,6 @@
 ---
 id: 589fc832f9fc0f352b528e79
-title: Відправлення та відображення повідомлень чату
+title: Send and Display Chat Messages
 challengeType: 2
 forumTopicId: 301562
 dashedName: send-and-display-chat-messages
@@ -8,7 +8,7 @@ dashedName: send-and-display-chat-messages
 
 # --description--
 
-Настав час дозволити клієнтам надсилати повідомлення чату на сервер! У файлі `client.js` ви бачите, що вже існує блок обробки коду, після відправлення форми повідомлення.
+It's time you start allowing clients to send a chat message to the server to emit to all the clients! In your `client.js` file, you should see there is already a block of code handling when the message form is submitted.
 
 ```js
 $('form').submit(function() {
@@ -16,23 +16,23 @@ $('form').submit(function() {
 });
 ```
 
-У межах коду відправлення форми потрібно видати подію після того, як ви визначите `messageToSend`, але перед тим, як ви очистите текстову панель `#m`. Подія повинна називатися `'chat message'`, а даними повинні бути `messageToSend`.
+Within the form submit code, you should emit an event after you define `messageToSend` but before you clear the text box `#m`. The event should be named `'chat message'` and the data should just be `messageToSend`.
 
 ```js
 socket.emit('chat message', messageToSend);
 ```
 
-Тепер на своєму сервері ви можете прослухати сокет для події `'chat message'` з даними під назвою `message`. Після отримання події потрібно видати подію `'chat message'` до всіх сокетів, використовуючи `io.emit`, надсилаючи об’єкт-дані, що містить `username` та `message`.
+Now, on your server, you should be listening to the socket for the event `'chat message'` with the data being named `message`. Once the event is received, it should emit the event `'chat message'` to all sockets using `io.emit`, sending a data object containing the `username` and `message`.
 
-В `client.js` тепер потрібно послухати подію `'chat message'` та після отримання додати список елементів до `#messages` з іменем користувача, двокрапкою та повідомленням!
+In `client.js`, you should now listen for event `'chat message'` and, when received, append a list item to `#messages` with the username, a colon, and the message!
 
-Тепер чат повинен бути повністю функціональним і спроможним відправляти повідомлення між клієнтами!
+At this point, the chat should be fully functional and sending messages across all clients!
 
-Відправте свою сторінку коли впевнились, що все правильно. Якщо виникають помилки, ви можете <a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#send-and-display-chat-messages-11" target="_blank" rel="noopener noreferrer nofollow">переглянути проєкт, виконаний до цього етапу</a>.
+Submit your page when you think you've got it right. If you're running into errors, you can <a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#send-and-display-chat-messages-11" target="_blank" rel="noopener noreferrer nofollow">check out the project completed up to this point</a>.
 
 # --hints--
 
-Сервер повинен слухати `'chat message'` та видавати його належним чином.
+Server should listen for `'chat message'` and then emit it properly.
 
 ```js
 async (getUserInput) => {
@@ -47,7 +47,7 @@ async (getUserInput) => {
 }
 ```
 
-Клієнт повинен правильно обробляти та показувати нові дані із події `'chat message'`.
+Client should properly handle and display the new data from event `'chat message'`.
 
 ```js
 async (getUserInput) => {

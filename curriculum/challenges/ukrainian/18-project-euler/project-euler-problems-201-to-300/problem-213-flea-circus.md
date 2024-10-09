@@ -1,6 +1,6 @@
 ---
 id: 5900f4411000cf542c50ff54
-title: 'Завдання 213: блошиний цирк'
+title: 'Problem 213: Flea Circus'
 challengeType: 1
 forumTopicId: 301855
 dashedName: problem-213-flea-circus
@@ -8,15 +8,15 @@ dashedName: problem-213-flea-circus
 
 # --description--
 
-На сітці 30×30 знаходиться 900 бліх, початково по одній блосі на квадраті.
+A 30×30 grid of squares contains 900 fleas, initially one flea per square.
 
-Коли дзвонить дзвінок, кожна блоха стрибає на випадковий сусідній квадрат (4 варіанти, за винятком бліх на краю сітки або по кутах).
+When a bell is rung, each flea jumps to an adjacent square at random (usually 4 possibilities, except for fleas on the edge of the grid or at the corners).
 
-Скільки залишиться пустих квадратів після 50 дзвінків? Дайте відповідь, заокруглену до шести знаків після коми.
+What is the expected number of unoccupied squares after 50 rings of the bell? Give your answer rounded to six decimal places.
 
 # --hints--
 
-`fleaCircus()` має повернути `330.721154`.
+`fleaCircus()` should return `330.721154`.
 
 ```js
 assert.strictEqual(fleaCircus(), 330.721154);

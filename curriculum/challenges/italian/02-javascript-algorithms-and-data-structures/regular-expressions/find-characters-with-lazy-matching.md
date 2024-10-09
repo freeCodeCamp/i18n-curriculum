@@ -1,6 +1,6 @@
 ---
 id: 587d7db6367417b2b2512b9b
-title: Trovare caratteri con la corrispondenza lazy
+title: Find Characters with Lazy Matching
 challengeType: 1
 forumTopicId: 301341
 dashedName: find-characters-with-lazy-matching
@@ -8,35 +8,35 @@ dashedName: find-characters-with-lazy-matching
 
 # --description--
 
-Nelle espressioni regolari, una corrispondenza <dfn>greedy</dfn> (avida) trova la parte più lunga possibile di una stringa che si adatta al pattern dell'espressione regolare e la restituisce. L'alternativa è chiamata corrispondenza <dfn>lazy</dfn> (pigra), che trova la parte più piccola possibile della stringa che soddisfa il modello dell'espressione regolare.
+In regular expressions, a <dfn>greedy</dfn> match finds the longest possible part of a string that fits the regex pattern and returns it as a match. The alternative is called a <dfn>lazy</dfn> match, which finds the smallest possible part of the string that satisfies the regex pattern.
 
-Puoi applicare l'espressione regolare `/t[a-z]*i/` alla stringa `"titanic"`. Questa espressione regolare è fondamentalmente un pattern che inizia con `t`, termina con `i`e ha alcune lettere nel mezzo.
+You can apply the regex `/t[a-z]*i/` to the string `"titanic"`. This regex is basically a pattern that starts with `t`, ends with `i`, and has some letters in between.
 
-Le espressioni regolari sono di default greedy, quindi la corrispondenza restituirà `["titani"]`. Trova la sotto-stringa più grande possibile che si adatti al pattern.
+Regular expressions are by default greedy, so the match would return `["titani"]`. It finds the largest sub-string possible to fit the pattern.
 
-Puoi usare il carattere `?` per passare alla corrispondenza lazy. `"titanic"` passato attraverso l'espressione regolare modificata di `/t[a-z]*?i/` restituisce `["ti"]`.
+However, you can use the `?` character to change it to lazy matching. `"titanic"` matched against the adjusted regex of `/t[a-z]*?i/` returns `["ti"]`.
 
-**Nota:** L'analisi dell'HTML con le espressioni regolari dovrebbe essere evitata, ma il pattern che corrisponde a una stringa HTML con le espressioni regolari va del tutto bene.
+**Note:** Parsing HTML with regular expressions should be avoided, but pattern matching an HTML string with regular expressions is completely fine.
 
 # --instructions--
 
-Correggi l'espressione regolare `/<.*>/` in modo che restituisca il tag HTML `<h1>` e non il testo `"<h1>Winter is coming</h1>"`. Ricorda che il carattere jolly `.` in un'espressione regolare corrisponde a qualsiasi carattere.
+Fix the regex `/<.*>/` to return the HTML tag `<h1>` and not the text `"<h1>Winter is coming</h1>"`. Remember the wildcard `.` in a regular expression matches any character.
 
 # --hints--
 
-La variabile `result` dovrebbe essere un array con `<h1>` al suo interno
+The `result` variable should be an array with `<h1>` in it
 
 ```js
 assert(result[0] == '<h1>');
 ```
 
-`myRegex` dovrebbe usare la corrispondenza lazy
+`myRegex` should use lazy matching
 
 ```js
 assert(/[^\\][\*\+\?]\?/.test(myRegex));
 ```
 
-`myRegex` non dovrebbe includere la stringa `h1`
+`myRegex` should not include the string `h1`
 
 ```js
 assert(!myRegex.source.match('h1'));

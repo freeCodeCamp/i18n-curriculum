@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedf08834
-title: 創建一組單選按鈕
+title: Create a Set of Radio Buttons
 challengeType: 0
 forumTopicId: 16822
 dashedName: create-a-set-of-radio-buttons
@@ -8,15 +8,15 @@ dashedName: create-a-set-of-radio-buttons
 
 # --description--
 
-<dfn>radio buttons</dfn>（單選按鈕）就好比單項選擇題，正確答案只有一個。
+You can use <dfn>radio buttons</dfn> for questions where you want the user to only give you one answer out of multiple options.
 
-單選按鈕是 `input` 選擇框的一種類型。
+Radio buttons are a type of `input`.
 
-每一個單選按鈕都應該嵌套在它自己的 `label`（標籤）元素中。 這樣，我們相當於給 `input` 元素和包裹它的 `label` 元素建立起了對應關係。
+Each of your radio buttons can be nested within its own `label` element. By wrapping an `input` element inside of a `label` element it will automatically associate the radio button input with the label element surrounding it.
 
-所有關聯的單選按鈕應該擁有相同的 `name` 屬性。 創建一組單選按鈕，選中其中一個按鈕，其他按鈕即顯示爲未選中，以確保用戶只提供一個答案。
+All related radio buttons should have the same `name` attribute to create a radio button group. By creating a radio group, selecting any single radio button will automatically deselect the other buttons within the same group ensuring only one answer is provided by the user.
 
-下面是一個單選按鈕的例子：
+Here's an example of a radio button:
 
 ```html
 <label> 
@@ -24,14 +24,14 @@ dashedName: create-a-set-of-radio-buttons
 </label>
 ```
 
-最佳實踐是在 `label` 元素上設置 `for` 屬性，讓其值與相關聯的 `input` 單選按鈕的 `id` 屬性值相同。 這使得輔助技術能夠在標籤和相關的 `input` 元素之間建立關聯關係。 例如：
+It is considered best practice to set a `for` attribute on the `label` element, with a value that matches the value of the `id` attribute of the `input` element. This allows assistive technologies to create a linked relationship between the label and the related `input` element. For example:
 
 ```html
 <input id="indoor" type="radio" name="indoor-outdoor">
 <label for="indoor">Indoor</label>
 ```
 
-我們也可以在 `label` 標籤中嵌入 `input` 元素：
+We can also nest the `input` element within the `label` tags:
 
 ```html
 <label for="indoor"> 
@@ -41,29 +41,29 @@ dashedName: create-a-set-of-radio-buttons
 
 # --instructions--
 
-在表格中添加一對單選按鈕，每個按鈕嵌套在自己的 `label` 元素中。 一個選項應該是 `indoor` ，另一個選項應該是 `outdoor`。 兩個按鈕的 `name` 屬性都是 `indoor-outdoor`，以創建一組單選按鈕。
+Add a pair of radio buttons to your form, each nested in its own `label` element. One should have the option of `indoor` and the other should have the option of `outdoor`. Both should share the `name` attribute of `indoor-outdoor` to create a radio group.
 
 # --hints--
 
-頁面上應存在兩個 `radio` 按鈕元素。
+Your page should have two `radio` button elements.
 
 ```js
 assert($('input[type="radio"]').length > 1);
 ```
 
-應設置單選按鈕的 `name` 屬性值爲 `indoor-outdoor`。
+Your radio buttons should be given the `name` attribute of `indoor-outdoor`.
 
 ```js
 assert($('input[type="radio"]').filter("[name='indoor-outdoor']").length > 1);
 ```
 
-每個單選按鈕都應嵌套進它自己的 `label` 元素中。
+Each of your two radio button elements should be nested in its own `label` element.
 
 ```js
 assert($('label > input[type="radio"]:only-child').length > 1);
 ```
 
-每一個 `label` 元素都有結束標籤。
+Each of your `label` elements should have a closing tag.
 
 ```js
 assert(
@@ -73,7 +73,7 @@ assert(
 );
 ```
 
-其中一個單選按鈕的文本爲 `indoor`。
+One of your radio buttons should have the label `indoor`.
 
 ```js
 assert(
@@ -83,7 +83,7 @@ assert(
 );
 ```
 
-其中一個單選按鈕的文本爲 `outdoor`。
+One of your radio buttons should have the label `outdoor`.
 
 ```js
 assert(
@@ -93,7 +93,7 @@ assert(
 );
 ```
 
-所有的單選按鈕都應該包含在 `form` 標籤中。
+Each of your radio button elements should be added within the `form` tag.
 
 ```js
 assert($('label').parent().get(0).tagName.match('FORM'));

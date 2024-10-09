@@ -1,6 +1,6 @@
 ---
 id: 5900f42c1000cf542c50ff3f
-title: 'Завдання 192: найкращі апроксимації'
+title: 'Problem 192: Best Approximations'
 challengeType: 1
 forumTopicId: 301830
 dashedName: problem-192-best-approximations
@@ -8,19 +8,19 @@ dashedName: problem-192-best-approximations
 
 # --description--
 
-Нехай $x$ буде дійсним числом.
+Let $x$ be a real number.
 
-Найкращою апроксимацією $x$ для знаменника, обмеженим $d$, є раціональне число $\frac{r}{s}$ у скороченій формі, де $s ≤ d$, щоб будь-яке раціональне число, яке ближче до $x$ ніж $\frac{r}{s}$, мало знаменник більший за $d$:
+A best approximation to $x$ for the denominator bound $d$ is a rational number $\frac{r}{s}$ in reduced form, with $s ≤ d$, such that any rational number which is closer to $x$ than $\frac{r}{s}$ has a denominator larger than $d$:
 
 $$|\frac{p}{q} - x| &lt; |\frac{r}{s} - x| ⇒ q > d$$
 
-Наприклад, найкращою апроксимацією $\sqrt{13}$ для знаменника, обмеженим $20$, є $\frac{18}{5}$, а найкращою апроксимацією $\sqrt{13}$ для знаменника, обмеженим $30$, є $\frac{101}{28}$.
+For example, the best approximation to $\sqrt{13}$ for the denominator bound $20$ is $\frac{18}{5}$ and the best approximation to $\sqrt{13}$ for the denominator bound $30$ is $\frac{101}{28}$.
 
-Знайдіть суму всіх знаменників найкращої апроксимації $\sqrt{n}$ для знаменника, обмеженим ${10}^{12}$, де $n$ не є повним квадратом та $1 &lt; n ≤ 100000$.
+Find the sum of all denominators of the best approximations to $\sqrt{n}$ for the denominator bound ${10}^{12}$, where $n$ is not a perfect square and $1 &lt; n ≤ 100000$.
 
 # --hints--
 
-`bestApproximations()` має повернути `57060635927998344`.
+`bestApproximations()` should return `57060635927998344`.
 
 ```js
 assert.strictEqual(bestApproximations(), 57060635927998344);

@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d4036167
-title: أنتاج مكون فئة (Class Component) إلى DOM
+title: Render a Class Component to the DOM
 challengeType: 6
 forumTopicId: 301404
 dashedName: render-a-class-component-to-the-dom
@@ -8,19 +8,19 @@ dashedName: render-a-class-component-to-the-dom
 
 # --description--
 
-يمكنك تذكر استخدام API ReactDOM في تحدي سابق لإضافة عناصر JSX إلى DOM. وستبدو عملية تقديم مكونات React متشابهة جدا. لقد ركزت التحديات القليلة الماضية على المكونات (components) والتكوين (composition)، لذلك تم التقديم لك خلف الكواليس. ومع ذلك، لن يقدم أي من رمز React الذي تكتبه إلى DOM دون أستدعاء API ReactDOM.
+You may remember using the ReactDOM API in an earlier challenge to render JSX elements to the DOM. The process for rendering React components will look very similar. The past few challenges focused on components and composition, so the rendering was done for you behind the scenes. However, none of the React code you write will render to the DOM without making a call to the ReactDOM API.
 
-إليك تذكير بكفية كتابة الصيغة: `ReactDOM.render(componentToRender, targetNode)`. الحَجَّة الأولى هي عنصر React الذي تريد أنتاجه. الحجة الثانية هي DOM node التي تريد أن تجعل ذلك المكون داخلها.
+Here's a refresher on the syntax: `ReactDOM.render(componentToRender, targetNode)`. The first argument is the React component that you want to render. The second argument is the DOM node that you want to render that component within.
 
-يتم تمرير مكونات React إلى `ReactDOM.render()` بشكل مختلف قليلا عن عناصر JSX. بالنسبة لعناصر JSX ، يمكنك تمرير اسم العنصر الذي تريد أنتاجه. لكن، بالنسبة لمكونات React، تحتاج إلى استخدام نفس الجملة كما لو كنت تقدم مكوناً متداخلاً، على سبيل المثال `ReactDOM.render(<ComponentToRender />, targetNode)`. أنت تستخدم هذه الجملة لكل من مكونات فئة ES6 والمكونات الوظيفية ES6.
+React components are passed into `ReactDOM.render()` a little differently than JSX elements. For JSX elements, you pass in the name of the element that you want to render. However, for React components, you need to use the same syntax as if you were rendering a nested component, for example `ReactDOM.render(<ComponentToRender />, targetNode)`. You use this syntax for both ES6 class components and functional components.
 
 # --instructions--
 
-كل من مكونين `Fruits` و `Vegetables` تم تعريفهما لك خلف الكواليس. أنتج كلا المكونين كمكون `TypesOfFood` فرعي، ثم أنشئ `TypesOfFood` على DOM. هناك `div` مع `id='challenge-node'` متاح لك للاستخدام.
+Both the `Fruits` and `Vegetables` components are defined for you behind the scenes. Render both components as children of the `TypesOfFood` component, then render `TypesOfFood` to the DOM. There is a `div` with `id='challenge-node'` available for you to use.
 
 # --hints--
 
-يجب أن ينتج مكون `TypesOfFood` عنصر `div` واحد.
+The `TypesOfFood` component should return a single `div` element.
 
 ```js
 assert(
@@ -31,7 +31,7 @@ assert(
 );
 ```
 
-يجب أن ينتج مكون `TypesOfFood` المكون `Fruits` بعد عنصر `h1`.
+The `TypesOfFood` component should render the `Fruits` component after the `h1` element.
 
 ```js
 assert(
@@ -42,7 +42,7 @@ assert(
 );
 ```
 
-يجب أن ينتج مكون `TypesOfFood` المكون `Vegetables` بعد `Fruits`.
+The `TypesOfFood` component should render the `Vegetables` component after `Fruits`.
 
 ```js
 assert(
@@ -53,7 +53,7 @@ assert(
 );
 ```
 
-يجب أن يقدم مكون `TypesOfFood` إلى DOM ضمن `div` مع معرف `challenge-node`.
+The `TypesOfFood` component should render to the DOM within the `div` with the id `challenge-node`.
 
 ```js
 assert(

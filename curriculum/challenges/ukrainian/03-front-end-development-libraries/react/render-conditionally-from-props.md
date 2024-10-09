@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d4036188
-title: Умовне відтворення з пропсів
+title: Render Conditionally from Props
 challengeType: 6
 forumTopicId: 301405
 dashedName: render-conditionally-from-props
@@ -8,21 +8,21 @@ dashedName: render-conditionally-from-props
 
 # --description--
 
-Наразі ви бачили, як використовувати `if/else`, `&&` та тернарний оператор (`condition ? expressionIfTrue : expressionIfFalse`), щоб приймати умовні рішення про те, що і коли відтворювати. Проте залишилася ще одна важлива для огляду тема, вивчення якої дозволить поєднувати всі ці поняття з іншою потужною функцією React: пропси. Використання пропсів для умовного відтворення коду є дуже поширеним явищем серед розробників React: вони використовують значення даного пропсу для автоматичного прийняття рішень про те, що відтворювати.
+So far, you've seen how to use `if/else`, `&&`, and the ternary operator (`condition ? expressionIfTrue : expressionIfFalse`) to make conditional decisions about what to render and when. However, there's one important topic left to discuss that lets you combine any or all of these concepts with another powerful React feature: props. Using props to conditionally render code is very common with React developers — that is, they use the value of a given prop to automatically make decisions about what to render.
 
-У цьому завданні ви встановите дочірній компонент, щоб приймати рішення щодо відтворення на основі пропсів. Ви також використовуватимете тернарний оператор та побачите деякі інші корисні поняття, описані в попередніх завданнях.
+In this challenge, you'll set up a child component to make rendering decisions based on props. You'll also use the ternary operator, but you can see how several of the other concepts that were covered in the last few challenges might be just as useful in this context.
 
 # --instructions--
 
-Редактор коду містить два компоненти, частково визначені за вас: батьківський компонент `GameOfChance` та дочірній компонент `Results`. Їх використовують для створення простої гри, в якій користувач натискає кнопку, щоб дізнатись про свою перемогу чи поразку.
+The code editor has two components that are partially defined for you: a parent called `GameOfChance`, and a child called `Results`. They are used to create a simple game where the user presses a button to see if they win or lose.
 
-Перш за все, вам знадобиться простий вираз, який випадковим чином повертає різні значення при кожному запуску. Можна використати `Math.random()`. Цей метод повертає значення між `0` (включно) та `1` (виключно) кожного разу, коли він викликається. Тому для шансів 50/50 використайте `Math.random() >= .5` у виразі. З точки зору статистики, цей вираз поверне `true` в 50% випадків та `false` в інших 50%. В методі відтворення замініть `null` на вираз, наведений вище, щоб завершити оголошення змінної.
+First, you'll need a simple expression that randomly returns a different value every time it is run. You can use `Math.random()`. This method returns a value between `0` (inclusive) and `1` (exclusive) each time it is called. So for 50/50 odds, use `Math.random() >= .5` in your expression. Statistically speaking, this expression will return `true` 50% of the time, and `false` the other 50%. In the render method, replace `null` with the above expression to complete the variable declaration.
 
-Тепер у вас є вираз, здатний приймати випадкове рішення у коді. Тепер потрібно впровадити його. Відтворіть компонент `Results` як дочірній компонент компонента `GameOfChance` та передайте `expression` як пропс під назвою `fiftyFifty`. У компоненті `Results` напишіть тернарний вираз, щоб відтворити елемент `h1` з текстом `You Win!` або `You Lose!`, залежно від пропсу `fiftyFifty`, переданого від `GameOfChance`. Вкінці переконайтеся, що метод `handleClick()` правильно обчислює кожний хід, щоб користувач знав скільки разів він зіграв. Це також дозволить користувачеві дізнатися, що компонент дійсно оновився, коли він виграв або програв двічі поспіль.
+Now you have an expression that you can use to make a randomized decision in the code. Next you need to implement this. Render the `Results` component as a child of `GameOfChance`, and pass in `expression` as a prop called `fiftyFifty`. In the `Results` component, write a ternary expression to render the `h1` element with the text `You Win!` or `You Lose!` based on the `fiftyFifty` prop that's being passed in from `GameOfChance`. Finally, make sure the `handleClick()` method is correctly counting each turn so the user knows how many times they've played. This also serves to let the user know the component has actually updated in case they win or lose twice in a row.
 
 # --hints--
 
-Компонент `GameOfChance` має існувати та відтворюватись на сторінці.
+The `GameOfChance` component should exist and render to the page.
 
 ```js
 assert.strictEqual(
@@ -31,7 +31,7 @@ assert.strictEqual(
 );
 ```
 
-`GameOfChance` має повернути єдиний елемент `button`.
+`GameOfChance` should return a single `button` element.
 
 ```js
 assert.strictEqual(
@@ -40,7 +40,7 @@ assert.strictEqual(
 );
 ```
 
-`GameOfChance` має повернути єдиний екземпляр компонента `Results`, який має пропс під назвою `fiftyFifty`.
+`GameOfChance` should return a single instance of the `Results` component, which has a prop called `fiftyFifty`.
 
 ```js
 assert(
@@ -53,7 +53,7 @@ assert(
 );
 ```
 
-Стан `GameOfChance` має ініціалізуватися властивістю `counter` зі значенням `1`.
+`GameOfChance` state should be initialized with a property of `counter` set to a value of `1`.
 
 ```js
 assert.strictEqual(
@@ -62,7 +62,7 @@ assert.strictEqual(
 );
 ```
 
-Коли компонент `GameOfChance` вперше відтворено в DOM, має повернутись елемент `p` з внутрішнім текстом `Turn: 1`.
+When the `GameOfChance` component is first rendered to the DOM, a `p` element should be returned with the inner text of `Turn: 1`.
 
 ```js
 assert.strictEqual(
@@ -71,7 +71,7 @@ assert.strictEqual(
 );
 ```
 
-При кожному натисканні кнопки стан лічильника має збільшуватись на одиницю, а єдиний елемент `p` має відтворюватись в DOM з текстом `Turn: N`, де `N` є значенням стану лічильника.
+Each time the button is clicked, the counter state should be incremented by a value of 1, and a single `p` element should be rendered to the DOM that contains the text `Turn: N`, where `N` is the value of the counter state.
 
 ```js
 (() => {
@@ -123,7 +123,7 @@ assert.strictEqual(
 })();
 ```
 
-Коли компонент `GameOfChance` вперше встановлений в DOM і після кожного натискання кнопки, має повернутись єдиний елемент `h1`, який випадково відтворює `You Win!` або `You Lose!`. Примітка: випадково може виникнути помилка. Якщо це сталося, спробуйте ще раз.
+When the `GameOfChance` component is first mounted to the DOM and each time the button is clicked thereafter, a single `h1` element should be returned that randomly renders either `You Win!` or `You Lose!`. Note: this can fail randomly. If that happens, please try again.
 
 ```js
 (() => {

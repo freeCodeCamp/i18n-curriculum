@@ -1,6 +1,6 @@
 ---
 id: 587d7790367417b2b2512ab0
-title: Verwende tabindex, um den Tastaturfokus zu einem Element hinzuzufügen
+title: Use tabindex to Add Keyboard Focus to an Element
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cmzMDHW'
 forumTopicId: 301027
@@ -9,29 +9,29 @@ dashedName: use-tabindex-to-add-keyboard-focus-to-an-element
 
 # --description--
 
-Das HTML-Attribut `tabindex` hat drei verschiedene Funktionen in Bezug auf den Tastaturfokus eines Elements. Wenn es an einem Tag steht, zeigt es an, dass das Element fokussiert werden kann. Der Wert (eine Ganzzahl, die positiv, negativ oder Null ist) bestimmt das Verhalten.
+The HTML `tabindex` attribute has three distinct functions relating to an element's keyboard focus. When it's on a tag, it indicates that the element can be focused on. The value (an integer that's positive, negative, or zero) determines the behavior.
 
-Bestimmte Elemente, wie z. B. Links und Formularsteuerelemente, erhalten automatisch den Tastaturfokus, wenn ein Benutzer durch eine Seite blättert. Die Reihenfolge ist dieselbe, in der die Elemente im HTML-Quelltext stehen. Die gleiche Funktionalität kann man auch anderen Elementen wie `div`, `span` und `p` geben, indem man ihnen ein `tabindex="0"`-Attribut zuweist. Hier ist ein Beispiel:
+Certain elements, such as links and form controls, automatically receive keyboard focus when a user tabs through a page. It's in the same order as the elements come in the HTML source markup. This same functionality can be given to other elements, such as `div`, `span`, and `p`, by placing a `tabindex="0"` attribute on them. Here's an example:
 
 ```html
 <div tabindex="0">I need keyboard focus!</div>
 ```
 
-**Hinweis:** Ein negativer `tabindex`-Wert (typischerweise -1) zeigt an, dass ein Element fokussierbar, aber nicht über die Tastatur erreichbar ist. Diese Methode wird in der Regel verwendet, um den Fokus programmatisch auf den Inhalt zu legen (z. B. wenn ein `div` für ein Pop-up-Fenster aktiviert wird) und ist nicht Gegenstand dieser Aufgaben.
+**Note:** A negative `tabindex` value (typically -1) indicates that an element is focusable, but is not reachable by the keyboard. This method is generally used to bring focus to content programmatically (like when a `div` used for a pop-up window is activated), and is beyond the scope of these challenges.
 
 # --instructions--
 
-Camper Cat hat eine neue Umfrage erstellt, um Informationen über seine Nutzer zu sammeln. Er weiß, dass Eingabefelder automatisch den Tastaturfokus erhalten, aber er möchte sicherstellen, dass seine Tastaturbenutzer bei den Anweisungen pausieren, während sie durch die Elemente navigieren. Füge ein `tabindex`-Attribut zum `p`-Tag hinzu und setze dessen Wert auf `0`. Bonus: Die Verwendung von `tabindex` ermöglicht auch, dass die CSS-Pseudoklasse `:focus` auf dem `p`-Tag wirkt.
+Camper Cat created a new survey to collect information about his users. He knows input fields automatically get keyboard focus, but he wants to make sure his keyboard users pause at the instructions while tabbing through the items. Add a `tabindex` attribute to the `p` tag and set its value to `0`. Bonus - using `tabindex` also enables the CSS pseudo-class `:focus` to work on the `p` tag.
 
 # --hints--
 
-Dein Code sollte ein `tabindex`-Attribut zum `p`-Tag hinzufügen, das die Formularanweisungen enthält.
+Your code should add a `tabindex` attribute to the `p` tag that holds the form instructions.
 
 ```js
 assert.isNotNull(document.querySelector('p')?.getAttribute('tabindex'));
 ```
 
-Dein Code sollte das `tabindex`-Attribut am `p`-Tag auf den Wert 0 setzen.
+Your code should set the `tabindex` attribute on the `p` tag to a value of 0.
 
 ```js
 assert.equal(document.querySelector('p')?.getAttribute('tabindex'), '0');

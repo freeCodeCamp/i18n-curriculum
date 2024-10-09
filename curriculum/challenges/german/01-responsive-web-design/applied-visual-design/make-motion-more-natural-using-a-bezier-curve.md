@@ -1,6 +1,6 @@
 ---
 id: 587d78a9367417b2b2512aea
-title: Natürlichere Bewegungen mittels Bézierkurven erzeugen
+title: Make Motion More Natural Using a Bezier Curve
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/c7akWUv'
 forumTopicId: 301063
@@ -9,25 +9,25 @@ dashedName: make-motion-more-natural-using-a-bezier-curve
 
 # --description--
 
-In dieser Aufgabe wird ein Element animiert, das die Bewegung eines Jonglierballs simulieren soll. In früheren Aufgaben wurden die `linear`- und `ease-out`-Bézierkurven behandelt, jedoch stellt keine davon die Jonglierbewegung akkurat dar. Dafür musst du eine Bézierkurve individuell anpassen.
+This challenge animates an element to replicate the movement of a ball being juggled. Prior challenges covered the `linear` and `ease-out` cubic Bezier curves, however neither depicts the juggling movement accurately. You need to customize a Bezier curve for this.
 
-Die `animation-timing-function` wiederholt sich automatisch bei jedem Keyframe, wenn `animation-iteration-count` (dt. Anzahl der Animationsdurchläufe) auf infinite (dt. unendlich) gesetzt wird. Da in der Mitte der Animation (bei `50%`) eine Keyframe-Regel definiert ist, ergeben sich zwei identische Animationsabläufe für die Aufwärts- und Abwärtsbewegung des Balles.
+The `animation-timing-function` automatically loops at every keyframe when the `animation-iteration-count` is set to infinite. Since there is a keyframe rule set in the middle of the animation duration (at `50%`), it results in two identical animation progressions at the upward and downward movement of the ball.
 
-Die folgende kubische Bézierkurve simuliert eine Jonglierbewegung:
+The following cubic Bezier curve simulates a juggling movement:
 
 ```css
 cubic-bezier(0.3, 0.4, 0.5, 1.6);
 ```
 
-Beachte, dass der Wert von y2 größer als 1 ist. Obwohl die kubische Bézierkurve auf einem Koordinatensystem von 1 x 1 platziert ist und dieses nur x-Werte von 0 bis 1 akzeptiert, kann der y-Wert größer als 1 sein. Dadurch entsteht eine Springbewegung, die sich gut zur Simulation eines Jonglierballs eignet.
+Notice that the value of y2 is larger than 1. Although the cubic Bezier curve is mapped on a 1 by 1 coordinate system, and it can only accept x values from 0 to 1, the y value can be set to numbers larger than one. This results in a bouncing movement that is ideal for simulating the juggling ball.
 
 # --instructions--
 
-Ändere den Wert der `animation-timing-function` des Elements mit der Id `green` in eine `cubic-bezier`-Funktion mit x1, y1, x2, y2 Werten von 0.311, 0.441, 0.444, 1.649.
+Change value of the `animation-timing-function` of the element with the id of `green` to a `cubic-bezier` function with x1, y1, x2, y2 values set respectively to 0.311, 0.441, 0.444, 1.649.
 
 # --hints--
 
-Der Wert der Eigenschaft `animation-timing-function` für das Element mit der Id `green` sollte wie angegeben eine `cubic-bezier`-Funktion mit x1, y1, x2, y2 Werten sein.
+The value of the `animation-timing-function` property for the element with the id `green` should be a `cubic-bezier` function with x1, y1, x2, y2 values as specified.
 
 ```js
 const greenElement = document.querySelector('#green');
