@@ -7,7 +7,7 @@ dashedName: step-47
 
 # --description--
 
-Add an `h2` element in the new section and give it the text `Desserts`.
+新しいセクションの中に `h2` 要素を 1 つ追加し、`Desserts` というテキストを入れてください。
 
 # --hints--
 

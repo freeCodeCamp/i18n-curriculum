@@ -11,14 +11,14 @@ You know that JavaScript has a variety of data types, including strings, numbers
 
 The following comparison operators are available in JavaScript:
 
-| Operator | 描述                       | Example |
-| -------- | ------------------------ | ------- |
-| ==       | Equal (value comparison) | x == y  |
-| !=       | Not equal                | x != y  |
-| >        | Greater than             | x > y   |
-| <        | Less than                | x < y   |
-| >=       | Greater than or equal to | x >= y  |
-| <=       | Less than or equal to    | x <= y  |
+| 運算符 | 描述                       | Example |
+| --- | ------------------------ | ------- |
+| ==  | Equal (value comparison) | x == y  |
+| !=  | 不等於                      | x != y  |
+| >   | 大於                       | x > y   |
+| <   | 小於                       | x < y   |
+| >=  | 大於或等於                    | x >= y  |
+| <=  | 小於或等於                    | x <= y  |
 
 To use a comparison in a variable assignment, you can use the `==` operator. For example:
 

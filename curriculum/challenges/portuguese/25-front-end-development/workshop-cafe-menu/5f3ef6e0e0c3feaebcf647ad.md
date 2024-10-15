@@ -7,7 +7,7 @@ dashedName: step-47
 
 # --description--
 
-Add an `h2` element in the new section and give it the text `Desserts`.
+Adicione um elemento `h2` na nova seção e dê a ele o texto `Desserts`.
 
 # --hints--
 

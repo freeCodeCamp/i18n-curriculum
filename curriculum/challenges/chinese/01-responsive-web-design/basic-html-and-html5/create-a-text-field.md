@@ -19,7 +19,7 @@ Now let's create a web form.
 <input type="text">
 ```
 
-注意 `input` 输入框是没有结束标签的。
+Note that `input` is a void element.
 
 # --instructions--
 

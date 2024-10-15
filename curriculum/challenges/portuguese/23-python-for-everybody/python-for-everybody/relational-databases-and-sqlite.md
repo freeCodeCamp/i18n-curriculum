@@ -24,23 +24,23 @@ Mais recursos:
 
 ## --text--
 
-Which is NOT a primary data structure in a database?
+Qual dessas NÃO é uma estrutura de dados primária em um banco de dados?
 
 ## --answers--
 
-index
+índice
 
 ---
 
-table
+tabela
 
 ---
 
-row
+linha
 
 ---
 
-column
+coluna
 
 ## --video-solution--
 

@@ -16,7 +16,7 @@ Un esempio di questo è:
 <img src="https://www.freecatphotoapp.com/your-image.jpg">
 ```
 
-Nota che gli elementi `img` si auto-completano.
+Note that `img` is a void element.
 
 Tutti gli elementi `img` **devono** avere un attributo `alt`. Il testo all'interno dell' attributo `alt` viene utilizzato dagli screen reader per migliorare l'accessibilità e viene anche visualizzato nel caso di problemi di caricamento dell'immagine.
 

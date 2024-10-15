@@ -17,7 +17,7 @@ Placeholder text is what is displayed in your `input` element before your user h
 <input type="text" placeholder="this is placeholder text">
 ```
 
-**참고:** `input` 엘리먼트는 자동으로 닫힙니다 (self-closing).
+**Note:** Remember that `input` is a void element.
 
 # --instructions--
 

@@ -17,7 +17,7 @@ Placeholder text is what is displayed in your `input` element before your user h
 <input type="text" placeholder="this is placeholder text">
 ```
 
-**注:** `input` 要素は終了タグを持たないことを忘れないでください。
+**Note:** Remember that `input` is a void element.
 
 # --instructions--
 

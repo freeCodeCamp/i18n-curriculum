@@ -14,7 +14,7 @@ dashedName: reorganizing-arrays
 
 ## --text--
 
-What code would produce the following array?
+次の配列を生成するコードはどれですか？
 
 ```py
 [[1. 1.]

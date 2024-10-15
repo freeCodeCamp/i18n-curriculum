@@ -9,7 +9,7 @@ dashedName: comparison-with-the-greater-than-or-equal-to-operator
 
 # --description--
 
-The greater than or equal to operator (`>=`) compares the values of two numbers. If the number to the left is greater than or equal to the number to the right, it returns `true`. Otherwise, it returns `false`.
+O operador maior ou igual que (`>=`) compara os valores de dois números. Se o número à esquerda é maior ou igual ao número à direita, ele retorna `true`. Caso contrário, retorna `false`.
 
 Tal como o operador de igualdade, o operador maior que converterá os tipos de dados de valores enquanto compara.
 

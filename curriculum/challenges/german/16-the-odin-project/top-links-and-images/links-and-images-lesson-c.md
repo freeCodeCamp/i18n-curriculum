@@ -7,15 +7,15 @@ dashedName: links-and-images-lesson-c
 
 # --description--
 
-To get some practice using links and images throughout this lesson you need an HTML project to work with.
+Um die Verwendung von Links und Bildern in dieser Lektion zu üben, benötigst du ein HTML-Projekt mit dem du arbeiten kannst.
 
-- Create a new directory named `odin-links-and-images`.
+- Erstellen ein neues Verzeichnis namens `odin-links-and-images`.
 
-- Within that directory, create a new file named `index.html`.
+- Erstelle innerhalb dieses Verzeichnisses eine neue Datei namens `index.html`.
 
-- Fill in the usual HTML boilerplate.
+- Fülle das übliche HTML-Boilerplate aus.
 
-- Finally, add the following `h1` to the `body`: `<h1>Homepage</h1>`
+- Füge schließlich den folgenden `h1` zum `body` hinzu: `<h1>Homepage</h1>`
 
 ## Anchor Elements
 To create a link in HTML, you use the anchor element. An anchor element is defined by wrapping the text or another HTML element you want to be a link with an `<a>` tag.

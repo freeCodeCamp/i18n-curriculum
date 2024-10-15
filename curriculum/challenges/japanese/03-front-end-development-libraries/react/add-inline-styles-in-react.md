@@ -8,7 +8,7 @@ dashedName: add-inline-styles-in-react
 
 # --description--
 
-You may have noticed in the last challenge that there were several other syntax differences from HTML inline styles in addition to the `style` attribute set to a JavaScript object. First, the names of certain CSS style properties use camel case. For example, the last challenge set the size of the font with `fontSize` instead of `font-size`. Hyphenated words like `font-size` are invalid syntax for JavaScript object properties, so React uses camel case. As a rule, any hyphenated style properties are written using camel case in JSX.
+前回のチャレンジで気づいたかもしれませんが、JavaScript オブジェクトに設定された `style` 属性に加えて、他にも HTML のインラインスタイルとの構文の違いがいくつかありました。 まず、特定の CSS スタイルプロパティの名前にキャメルケースを使用しています。 たとえば前回のチャレンジでは、フォントのサイズを設定するのに `font-size` ではなく `fontSize` を使用しました。 `font-size` のようなハイフンつなぎの単語は JavaScript オブジェクトのプロパティの構文としては無効であるため、React ではキャメルケースを使用しています。 通常、JSX ではハイフンつなぎのスタイルプロパティはキャメルケースを使用して記述します。
 
 プロパティ値 (`height`、`width`、`fontSize` など) の長さの単位はすべて、特に指定がない限り `px` とみなされます。 たとえば `em` を使用する場合は、`{fontSize: "4em"}` のように値と単位を引用符で囲みます。 デフォルトで `px` になる長さの値を除いて、それ以外の他のすべてのプロパティ値は引用符で囲む必要があります。
 

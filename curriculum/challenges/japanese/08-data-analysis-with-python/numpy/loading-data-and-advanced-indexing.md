@@ -14,7 +14,7 @@ dashedName: loading-data-and-advanced-indexing
 
 ## --text--
 
-Given a file named `data.txt` with these contents:
+次の内容を含む `data.txt` という名前のファイルが与えられます。
 
 <pre>
 29,97,32,100,45

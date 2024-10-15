@@ -12,7 +12,7 @@ So far, you’ve seen how JSX differs from HTML in a key way with the use of `cl
 
 Un altro aspetto importante in cui JSX differisce da HTML è quello che riguarda i tag a chiusura automatica (self-closing).
 
-In HTML, quasi tutti i tag hanno sia un tag di apertura che di chiusura: `<div></div>`; il tag di chiusura ha sempre una barra in avanti prima del nome del tag che si sta chiudendo. Tuttavia, ci sono dei casi speciali in HTML chiamati “tag a chiusura automatica”, cioè dei tag che non richiedono sia un tag di apertura che di chiusura prima che un altro tag possa iniziare.
+In HTML, quasi tutti i tag hanno sia un tag di apertura che di chiusura: `<div></div>`; il tag di chiusura ha sempre una barra in avanti prima del nome del tag che si sta chiudendo. However, there are special instances in HTML called <dfn>void elements</dfn>, or elements that don’t require both an opening and closing tag before another element can start.
 
 Ad esempio, il tag line-break può essere scritto come `<br>` o come `<br />`, ma non dovrebbe mai essere scritto come `<br></br>`, poiché non contiene alcun contenuto.
 

@@ -7,7 +7,7 @@ dashedName: step-58
 
 # --description--
 
-With a `display` of `block` the submit button sits flush against the left edge of its parent.
+`display` を `block` に設定すると、送信ボタンは親要素の左端に表示されます。
 
 `form` を中央揃えにする際に使ったのとテクニックを使って、送信ボタンを中央揃えにしてください。
 

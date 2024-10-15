@@ -8,7 +8,7 @@ dashedName: disable-an-element-using-jquery
 
 # --description--
 
-You can also change the non-CSS properties of HTML elements with jQuery. For example, you can disable buttons.
+jQuery を使用して HTML 要素の CSS 以外のプロパティを変更することもできます。 たとえば、ボタンを無効にすることができます。
 
 ボタンを無効にすると、グレー表示になり、クリックできなくなります。
 

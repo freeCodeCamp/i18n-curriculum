@@ -9,7 +9,7 @@ dashedName: accessing-nested-objects
 
 # --description--
 
-The sub-properties of objects can be accessed by chaining together the dot or bracket notation.
+As subpropriedades de objetos podem ser acessadas ao encadear a notação de ponto e de colchetes.
 
 Aqui está um objeto aninhado:
 

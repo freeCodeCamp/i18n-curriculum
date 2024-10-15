@@ -8,7 +8,7 @@ dashedName: remove-whitespace-from-start-and-end
 
 # --description--
 
-Sometimes whitespace characters around strings are not wanted but are there. Typical processing of strings is to remove the whitespace at the start and end of it.
+Às vezes, strings têm espaços em branco indesejados em seus inícios e fins. Uma operação muito comum de strings é remover esses espaços ao redor delas.
 
 # --instructions--
 

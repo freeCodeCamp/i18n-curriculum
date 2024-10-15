@@ -10,13 +10,13 @@ tests:
     title: Timestamp Microservice
   - 
     id: bd7158d8c443edefaeb5bdff
-    title: Request Header Parser Microservice
+    title: Microservicio de análisis de cabeceras de solicitud
   - 
     id: bd7158d8c443edefaeb5bd0e
     title: URL Shortener Microservice
   - 
     id: 5a8b073d06fa14fcfde687aa
-    title: Exercise Tracker
+    title: Rastreador de ejercicios
   - 
     id: bd7158d8c443edefaeb5bd0f
     title: File Metadata Microservice

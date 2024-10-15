@@ -1,6 +1,6 @@
 ---
 id: 66ed8fb9f45ce3ece4053eac
-title: Computer Basics Quiz
+title: Questionário sobre o básico a respeito de computadores
 challengeType: 8
 dashedName: quiz-computer-basics
 ---

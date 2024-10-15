@@ -11,7 +11,7 @@ dashedName: change-the-css-of-an-element-using-jquery
 
 # --description--
 
-We can also change the CSS of an HTML element directly with jQuery.
+jQuery を使用して HTML 要素の CSS を直接変更することもできます。
 
 jQuery には `.css()` という関数があり、要素の CSS を変更することができます。
 

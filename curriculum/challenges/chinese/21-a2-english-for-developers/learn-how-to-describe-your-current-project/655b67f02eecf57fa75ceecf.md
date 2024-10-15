@@ -9,7 +9,7 @@ dashedName: task-8
 
 # --description--
 
-`Stay` is used to indicate remaining in a particular state or condition. It's often used in instructions or advice to keep oneself in a certain situation. For example:
+`Stay` is used to indicate remaining in a particular state or condition. It's often used in instructions or advice to keep oneself in a certain situation. 举个例子：
 
 `Stay safe online` (continue being safe while using the internet)
 

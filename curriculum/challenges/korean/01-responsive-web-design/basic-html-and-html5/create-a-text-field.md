@@ -19,7 +19,7 @@ Now let's create a web form.
 <input type="text">
 ```
 
-`input` 요소는 스스로 여닫는 태그임을 알아두시오.
+Note that `input` is a void element.
 
 # --instructions--
 

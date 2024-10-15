@@ -7,7 +7,7 @@ dashedName: step-31
 
 # --description--
 
-After the last `img` element, add a `figcaption` element with the text `Cats hate other cats.`
+Después del último elemento `img` añade un elemento `figcaption` con el texto `Cats hate other cats.`
 
 # --hints--
 

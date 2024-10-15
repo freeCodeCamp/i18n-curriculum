@@ -14,7 +14,7 @@ dashedName: initialize-array-problem
 
 ## --text--
 
-What is another way to produce the following array?
+次のような配列を生成する別の方法は何ですか？
 
 ```py
 [[0. 0. 0. 0. 0. 0. 0.]

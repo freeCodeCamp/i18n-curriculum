@@ -1,6 +1,6 @@
 ---
 id: 587d78ab367417b2b2512af1
-title: Add Flex Superpowers to the Tweet Embed
+title: 트윗 임베드에 플렉스 능력 추가하기
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVaDAv/c9W7MhM'
 forumTopicId: 301100
@@ -13,55 +13,55 @@ To the right is the tweet embed that will be used as a practical example. Some o
 
 # --instructions--
 
-Add the CSS property `display: flex` to all of the following items - note that the selectors are already set up in the CSS:
+다음 모든 아이템에 `display: flex` 속성을 추가하시오 - 셀렉터는 이미 CSS에 설정되어 있음에 주의하십시오.
 
-`header`, the header's `.profile-name`, the header's `.follow-btn`, the header's `h3` and `h4`, the `footer`, and the footer's `.stats`.
+`header`, 헤더의 `.profile-name`, 헤더의 `.follow-btn`, 헤더의 `h3` and `h4`, `footer`, 푸터의 `.stats`.
 
 # --hints--
 
-Your `.follow-btn` should be rendered on the page. Be sure to turn off any extensions such as ad blockers.
+`.follow-btn`는 페이지에 렌더링 되어야 합니다. 광고 차단기 같은 모든 확장 프로그램은 꺼야 합니다.
 
 ```js
 assert($('.follow-btn').length > 0 && $('.follow-btn').css('display') !== 'none');
 ```
 
-Your `header` should have a `display` property set to `flex`.
+`header`는 `flex`로 설정된 `display` 속성을 가져야 합니다.
 
 ```js
 assert($('header').css('display') == 'flex');
 ```
 
-Your `footer` should have a `display` property set to `flex`.
+`footer`는 `flex`로 설정된 `display` 속성을 가져야 합니다.
 
 ```js
 assert($('footer').css('display') == 'flex');
 ```
 
-Your `h3` should have a `display` property set to `flex`.
+`h3`는 `flex`로 설정된 `display` 속성을 가져야 합니다.
 
 ```js
 assert($('h3').css('display') == 'flex');
 ```
 
-Your `h4` should have a `display` property set to `flex`.
+`h4`는 `flex`로 설정된 `display` 속성을 가져야 합니다.
 
 ```js
 assert($('h4').css('display') == 'flex');
 ```
 
-Your `.profile-name` should have a `display` property set to `flex`.
+`.profile-name`는 `flex`로 설정된 `display` 속성을 가져야 합니다.
 
 ```js
 assert($('.profile-name').css('display') == 'flex');
 ```
 
-Your `.follow-btn` should have a `display` property set to `flex`.
+`.follow-btn`는 `flex`로 설정된 `display` 속성을 가져야 합니다.
 
 ```js
 assert($('.follow-btn').css('display') == 'flex');
 ```
 
-Your `.stats` should have a `display` property set to `flex`.
+`.stats`는 `flex`로 설정된 `display` 속성을 가져야 합니다.
 
 ```js
 assert($('.stats').css('display') == 'flex');

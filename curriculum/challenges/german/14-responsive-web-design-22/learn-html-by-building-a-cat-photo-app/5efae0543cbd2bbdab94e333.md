@@ -7,7 +7,7 @@ dashedName: step-30
 
 # --description--
 
-To improve accessibility of the image you added, add an `alt` attribute with the text:
+Füg, um die Barrierefreiheit des Bildes, das du gerade hinzugefügt hast, zu verbessern, ein `alt`-Attribut mit dem folgenden Text hinzu:
 
 `Five cats looking around a field.`
 

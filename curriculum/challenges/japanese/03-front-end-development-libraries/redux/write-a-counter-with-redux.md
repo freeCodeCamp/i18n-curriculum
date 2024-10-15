@@ -8,7 +8,7 @@ dashedName: write-a-counter-with-redux
 
 # --description--
 
-Now you've learned all the core principles of Redux! You've seen how to create actions and action creators, create a Redux store, dispatch your actions against the store, and design state updates with pure reducers. You've even seen how to manage complex state with reducer composition and handle asynchronous actions. These examples are simplistic, but these concepts are the core principles of Redux. If you understand them well, you're ready to start building your own Redux app. The next challenges cover some of the details regarding `state` immutability, but first, here's a review of everything you've learned so far.
+以上で Redux の中心的な原則のすべてを説明しました。 アクションとアクションクリエイターの作成方法、Redux ストアの作成方法、ストアに対するアクションのディスパッチ方法、純粋なレデューサーによる state の更新の設計方法について説明しました。 さらに、レデューサーコンポジションによる複雑な状態管理の方法、非同期アクションの処理方法についても説明しました。 ここで紹介した例はごく単純なものですが、その概念は Redux の中心的な原則となっています。 以上のことを十分に理解すれば、Redux アプリを自分で構築する作業に取り掛かることができます。 以降のチャレンジでは `state` の不変性に関する詳細について触れますが、まずはこれまでに学んだすべてのことをここでおさらいしておきましょう。
 
 # --instructions--
 

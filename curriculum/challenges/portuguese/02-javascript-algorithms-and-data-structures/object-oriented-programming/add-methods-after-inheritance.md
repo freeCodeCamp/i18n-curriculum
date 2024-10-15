@@ -8,7 +8,7 @@ dashedName: add-methods-after-inheritance
 
 # --description--
 
-A constructor function that inherits its `prototype` object from a supertype constructor function can still have its own methods in addition to inherited methods.
+Uma função construtora, ou simplesmente construtor, que herda seu objeto de `prototype` de uma função construtora de supertipo, além dos métodos herdados, ainda poderá ter seus próprios métodos.
 
 Por exemplo, `Bird` é um construtor que herda seu `prototype` de `Animal`:
 

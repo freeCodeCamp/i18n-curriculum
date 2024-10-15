@@ -8,7 +8,7 @@ dashedName: label-bootstrap-wells
 
 # --description--
 
-For the sake of clarity, let's label both of our wells with their ids.
+両方のウェルに、対応する id のラベルを付けて、わかりやすくしましょう。
 
 左側のウェルの上で、その `col-xs-6` `div` 要素の内側に、テキスト `#left-well` を持つ `h4` 要素を追加してください。
 

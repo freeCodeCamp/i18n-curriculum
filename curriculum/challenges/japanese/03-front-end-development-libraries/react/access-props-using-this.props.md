@@ -8,7 +8,7 @@ dashedName: access-props-using-this-props
 
 # --description--
 
-The last several challenges covered the basic ways to pass props to child components. But what if the child component that you're passing a prop to is an ES6 class component, rather than a stateless functional component? The ES6 class component uses a slightly different convention to access props.
+前のいくつかのチャレンジでは、子コンポーネントに props を渡す基本的な方法について説明しました。 しかし、props に渡そうとしている子コンポーネントが、ステートレス関数型コンポーネントではなく、ES6 クラスコンポーネントである場合はどうでしょうか？ ES6 クラスコンポーネントでは、props にアクセスするために多少異なる規約を使用します。
 
 クラスコンポーネント自体を参照するときはいつでも、`this` キーワードを使用します。 クラスコンポーネント内の props にアクセスするには、アクセスに使用するコードの前に `this` を置きます。 たとえば、ES6 クラスコンポーネントに `data` という prop がある場合、JSX では `{this.props.data}` と記述します。
 

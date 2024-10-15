@@ -9,7 +9,7 @@ dashedName: use-bracket-notation-to-find-the-first-character-in-a-string
 
 # --description--
 
-<dfn>Bracket notation</dfn> is a way to get a character at a specific index within a string.
+<dfn>Notação de colchetes</dfn> é uma forma de pegar um caractere no índice especificado dentro de uma string.
 
 A maioria das linguagens de programação modernas, como JavaScript, não começa contando do 1 como humanos fazem. Elas começam no 0. Isso é referido como indexação <dfn>baseada em zero</dfn>.
 

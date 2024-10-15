@@ -7,7 +7,7 @@ dashedName: step-46
 
 # --description--
 
-You will come back to styling the menu in a few steps, but for now, go ahead and add a second `section` element below the first for displaying the desserts offered by the cafe.
+Você ainda vai voltar à estilização do menu, mas, por agora, adicione um segundo elemento `section` abaixo do primeiro para mostrar as sobremesas oferecidas pela cafeteria.
 
 # --hints--
 

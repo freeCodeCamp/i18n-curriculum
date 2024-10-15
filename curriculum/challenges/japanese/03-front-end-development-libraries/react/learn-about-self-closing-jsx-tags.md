@@ -8,11 +8,11 @@ dashedName: learn-about-self-closing-jsx-tags
 
 # --description--
 
-So far, you’ve seen how JSX differs from HTML in a key way with the use of `className` vs. `class` for defining HTML classes.
+ここまで、HTML クラスの定義方法について、HTML では `class` を使用するのに対し、JSX では `className` を使用するという違いがあることを説明しました。
 
 もう一つ、JSX が HTML と異なる重要な点として挙げられるのが、自己終了タグの概念です。
 
-HTML では、ほとんどすべてのタグに開始タグと終了タグの両方があり (`<div></div>` など)、終了タグ名の前には常にスラッシュが付いています。 ただし、HTMLには「自己終了タグ」という特別な記法があります。これは、別のタグを開始する前に開始と終了の両方を必要としないタグです。
+HTML では、ほとんどすべてのタグに開始タグと終了タグの両方があり (`<div></div>` など)、終了タグ名の前には常にスラッシュが付いています。 However, there are special instances in HTML called <dfn>void elements</dfn>, or elements that don’t require both an opening and closing tag before another element can start.
 
 たとえば、改行タグは `<br>` または `<br />` と記述できますが、`<br></br>` と記述することはありません。これは内容が含まれていないためです。
 

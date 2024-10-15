@@ -12,7 +12,7 @@ So far, you’ve seen how JSX differs from HTML in a key way with the use of `cl
 
 Іншою важливою відмінністю JSX від HTML є самозакриваючі теги.
 
-У HTML майже всі елементи мають початковий та кінцевий тег: `<div></div>`; кінцевий тег завжди має скісну риску перед назвою тегу, який ви закриваєте. Проте в HTML існують так звані «самозакриваючі теги», які не вимагають початкового та кінцевого тегів перед початком іншого тегу.
+У HTML майже всі елементи мають початковий та кінцевий тег: `<div></div>`; кінцевий тег завжди має скісну риску перед назвою тегу, який ви закриваєте. However, there are special instances in HTML called <dfn>void elements</dfn>, or elements that don’t require both an opening and closing tag before another element can start.
 
 Наприклад, тег розриву рядка можна записати як `<br>` або `<br />`, але не можна записати як `<br></br>`, оскільки він не містить жодного вмісту.
 

@@ -8,7 +8,7 @@ dashedName: house-our-page-within-a-bootstrap-container-fluid-div
 
 # --description--
 
-Now let's make sure all the content on your page is mobile-responsive.
+ページ上のすべてのコンテンツがモバイル対応になっていることを確認してみましょう。
 
 クラス `container-fluid` を持つ `div` 要素の中に `h3` 要素を入れてみましょう。
 

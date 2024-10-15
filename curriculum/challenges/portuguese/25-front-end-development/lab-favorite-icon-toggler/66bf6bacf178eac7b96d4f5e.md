@@ -1,6 +1,6 @@
 ---
 id: 66bf6bacf178eac7b96d4f5e
-title: Build a Favorite Icon Toggler
+title: Crie um alternador de ícones favoritos
 challengeType: 14
 dashedName: build-a-favorite-icon-toggler
 demoType: onClick
@@ -10,7 +10,7 @@ demoType: onClick
 
 In this lab you will use JavaScript click events to toggle the appearance of a favorite icon. When the heart icon is clicked, the appearance of the heart changes from empty to filled, and vice versa.
 
-Fulfill the user stories below and get all the tests to pass to complete the lab. **Não copie este projeto de demonstração**.
+Atenda às histórias de usuário abaixo e faça todos os testes passarem para completar o laboratório. **Não copie este projeto de demonstração**.
 
 **Histórias de usuário:**
 

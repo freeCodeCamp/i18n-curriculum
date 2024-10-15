@@ -10,9 +10,9 @@ dashedName: css-foundations-lesson-f
 
 Tudo bem, você já passou por um bocado até aqui. A única coisa que falta por enquanto é ver como adicionar esse CSS ao HTML. Existem três métodos para se fazer isso.
 
-O CSS externo é o método mais comum que você encontrará. Ele envolve a criação de um arquivo separado para o CSS e a vinculação desse arquivo dentro das tags de abertura e fechamento de um elemento `<head>` do HTML na forma de um elemento `<link>` de fechamento próprio:
+External CSS is the most common method you will come across, and it involves creating a separate file for the CSS and linking it inside of an HTML’s opening and closing `<head>` tags with a `<link>` element (which is a void element and doesn't require a closing tag):
 
-Primeiro, você adiciona um elemento `<link>` de fechamento próprio dentro das tags de abertura e fechamento de `<head>` do arquivo HTML. O atributo `href` é o local do arquivo CSS, que pode ser um URL absoluto ou um URL relativo à localização do arquivo HTML (você usará essa última opção). No exemplo acima, você está assumindo que ambos os arquivos estão localizados no mesmo diretório. O atributo `rel` é necessário e especifica a relação entre o arquivo HTML e o arquivo vinculado.
+First, you add a void element `<link>` tag inside of the opening and closing `<head>` tags of the HTML file. O atributo `href` é o local do arquivo CSS, que pode ser um URL absoluto ou um URL relativo à localização do arquivo HTML (você usará essa última opção). No exemplo acima, você está assumindo que ambos os arquivos estão localizados no mesmo diretório. O atributo `rel` é necessário e especifica a relação entre o arquivo HTML e o arquivo vinculado.
 
 Então, dentro do arquivo de estilos recém-criado `styles.css`, você tem o seletor (`div` e `p`), seguido por um par de chaves de abertura e de fechamento, que criam um "bloco de declaração". Por fim, colocamos as declarações dentro do bloco da declaração. `color: white;` é uma declaração, com `color` sendo a propriedade e `white` o valor. `background-color: black;` é outra declaração.
 

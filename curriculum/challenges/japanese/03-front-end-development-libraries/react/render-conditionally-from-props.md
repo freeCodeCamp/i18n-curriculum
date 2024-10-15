@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d4036188
-title: Render Conditionally from Props
+title: props から条件付きでレンダーする
 challengeType: 6
 forumTopicId: 301405
 dashedName: render-conditionally-from-props
@@ -8,21 +8,21 @@ dashedName: render-conditionally-from-props
 
 # --description--
 
-So far, you've seen how to use `if/else`, `&&`, and the ternary operator (`condition ? expressionIfTrue : expressionIfFalse`) to make conditional decisions about what to render and when. However, there's one important topic left to discuss that lets you combine any or all of these concepts with another powerful React feature: props. Using props to conditionally render code is very common with React developers — that is, they use the value of a given prop to automatically make decisions about what to render.
+ここまで、いつ、何をレンダーするのかを条件で決める方法として、`if/else`、`&&`、および三項演算子 (` 条件 ? True の場合の式 : False の場合の式`) を使用する方法を紹介しました。 しかし、まだ説明していない重要なトピックが一つあります。それは、これらの概念はそのいずれかまたはすべてを、React の別の強力な機能である props と組み合わせることができる、ということです。 props を使用してコードを条件付きでレンダーすることは、React の開発者にとってはごく一般的な作業です。つまり、与えられた prop の値を利用することで、何を表示するかを自動的に決めることができます。
 
-In this challenge, you'll set up a child component to make rendering decisions based on props. You'll also use the ternary operator, but you can see how several of the other concepts that were covered in the last few challenges might be just as useful in this context.
+このチャレンジでは、props に基づいてレンダー処理を決定する子コンポーネントを設定します。 また、三項演算子も使用しますが、前のチャレンジで説明した他のいくつかの概念が、このチャレンジでも同じように役立つかもしれません。
 
 # --instructions--
 
-The code editor has two components that are partially defined for you: a parent called `GameOfChance`, and a child called `Results`. They are used to create a simple game where the user presses a button to see if they win or lose.
+コードエディターに 2 つのコンポーネントがあって、一部が定義されています。1 つは `GameOfChance` という親で、もう 1 つは `Results` という子です。 これらを使用して、ユーザーがボタンを押して勝ったか負けたかを表示する簡単なゲームを作成します。
 
-First, you'll need a simple expression that randomly returns a different value every time it is run. You can use `Math.random()`. This method returns a value between `0` (inclusive) and `1` (exclusive) each time it is called. So for 50/50 odds, use `Math.random() >= .5` in your expression. Statistically speaking, this expression will return `true` 50% of the time, and `false` the other 50%. In the render method, replace `null` with the above expression to complete the variable declaration.
+まず、実行のたびに異なる値をランダムに返す簡単な式が必要です。 これには `Math.random()` を使用できます。 このメソッドは、呼び出されるたびに `0` (含む) ～ `1` (含まない) の間の値を返します。 そのため、確率を 50/50 にする場合は `Math.random() >= .5` という式を使用します。 統計的に言えば、この式は 50% の確率で `true` を返し、残りの 50% の確率で `false` を返します。 render メソッドで、`null` の部分を前述の式に置き換えて変数宣言を完成させてください。
 
-Now you have an expression that you can use to make a randomized decision in the code. Next you need to implement this. Render the `Results` component as a child of `GameOfChance`, and pass in `expression` as a prop called `fiftyFifty`. In the `Results` component, write a ternary expression to render the `h1` element with the text `You Win!` or `You Lose!` based on the `fiftyFifty` prop that's being passed in from `GameOfChance`. Finally, make sure the `handleClick()` method is correctly counting each turn so the user knows how many times they've played. This also serves to let the user know the component has actually updated in case they win or lose twice in a row.
+これで、コードでランダムな決定を行うのに使用できる式ができました。 次に、この式を実装する必要があります。 `Results` コンポーネントを `GameOfChance` の子としてレンダーし、`expression` を `fiftyFifty` という prop として渡してください。 `Results` コンポーネントで、`GameOfChance` から渡される `fiftyFifty` prop に基づいて、`You Win!` または `You Lose!` というテキストを使用して `h1` 要素をレンダーする三項式を記述してください。 最後に、`handleClick()` メソッドで、各ターンを正しくカウントし、ユーザーが自分のプレイした回数を確認できるようにしてください。 こうすることで、2 連勝または 2 連敗した場合にコンポーネントが実際に更新されたことをユーザーに伝えることもできます。
 
 # --hints--
 
-The `GameOfChance` component should exist and render to the page.
+`GameOfChance` コンポーネントが存在し、ページにレンダーする必要があります。
 
 ```js
 assert.strictEqual(
@@ -31,7 +31,7 @@ assert.strictEqual(
 );
 ```
 
-`GameOfChance` should return a single `button` element.
+`GameOfChance` から単一の `button` 要素を返します。
 
 ```js
 assert.strictEqual(
@@ -40,7 +40,7 @@ assert.strictEqual(
 );
 ```
 
-`GameOfChance` should return a single instance of the `Results` component, which has a prop called `fiftyFifty`.
+`GameOfChance` から `Results` コンポーネントの単一のインスタンスを返します。これには `fiftyFifty` という prop があります。
 
 ```js
 assert(
@@ -53,7 +53,7 @@ assert(
 );
 ```
 
-`GameOfChance` state should be initialized with a property of `counter` set to a value of `1`.
+`GameOfChance` の state を初期化し、`counter` のプロパティを値 `1` に設定します。
 
 ```js
 assert.strictEqual(
@@ -62,7 +62,7 @@ assert.strictEqual(
 );
 ```
 
-When the `GameOfChance` component is first rendered to the DOM, a `p` element should be returned with the inner text of `Turn: 1`.
+`GameOfChance` コンポーネントを初めて DOM にレンダーするときに、`p` 要素をその内側のテキスト `Turn: 1` とともに返します。
 
 ```js
 assert.strictEqual(
@@ -71,7 +71,7 @@ assert.strictEqual(
 );
 ```
 
-Each time the button is clicked, the counter state should be incremented by a value of 1, and a single `p` element should be rendered to the DOM that contains the text `Turn: N`, where `N` is the value of the counter state.
+ボタンがクリックされるたびに、カウンターの state の値を 1 ずつ増やし、テキスト `Turn: N` が含まれている DOM に単一の `p` 要素をレンダーします。ここで `N` はカウンターの state の値です。
 
 ```js
 (() => {
@@ -123,7 +123,7 @@ Each time the button is clicked, the counter state should be incremented by a va
 })();
 ```
 
-When the `GameOfChance` component is first mounted to the DOM and each time the button is clicked thereafter, a single `h1` element should be returned that randomly renders either `You Win!` or `You Lose!`. Note: this can fail randomly. If that happens, please try again.
+`GameOfChance` コンポーネントが初めて DOM にマウントされたら、その後ボタンがクリックされるたびに、`You Win!` または `You Lose!` のいずれかをランダムにレンダーする単一の `h1` 要素を返します。 注: このテストはランダムに失敗する可能性があります。 その場合は再実行してください。
 
 ```js
 (() => {

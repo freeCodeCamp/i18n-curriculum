@@ -8,7 +8,7 @@ dashedName: create-a-bootstrap-headline
 
 # --description--
 
-Now let's build something from scratch to practice our HTML, CSS and Bootstrap skills.
+ここでは、HTML、CSS、Bootstrap のスキルを磨くために、何もない状態から作成してみましょう。
 
 jQuery プレイグラウンドを作成します。このプレイグラウンドは、このあとの jQuery のチャレンジで使用します。
 

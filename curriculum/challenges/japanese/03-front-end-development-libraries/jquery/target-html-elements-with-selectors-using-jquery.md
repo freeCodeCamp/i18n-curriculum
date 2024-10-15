@@ -11,7 +11,7 @@ dashedName: target-html-elements-with-selectors-using-jquery
 
 # --description--
 
-Now we have a `document ready` function.
+ここには `document ready` 関数があります。
 
 最初の jQuery ステートメントを記述してみましょう。 すべての jQuery 関数は `$` で始まります。通常、これはドル記号演算子またはブリングと呼ばれます。
 

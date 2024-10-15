@@ -1,6 +1,6 @@
 ---
 id: 66edcdd18a4ef8df16e6bb7e
-title: JavaScript Higher Order Functions Quiz
+title: Questionário sobre funções de ordem superior em JavaScript
 challengeType: 8
 dashedName: quiz-javascript-higher-order-functions
 ---

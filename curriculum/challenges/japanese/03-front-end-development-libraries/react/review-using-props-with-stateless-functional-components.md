@@ -8,7 +8,7 @@ dashedName: review-using-props-with-stateless-functional-components
 
 # --description--
 
-Except for the last challenge, you've been passing props to stateless functional components. These components act like pure functions. They accept props as input and return the same view every time they are passed the same props. You may be wondering what state is, and the next challenge will cover it in more detail. Before that, here's a review of the terminology for components.
+前回のチャレンジを除いて、ステートレス関数型コンポーネントにはずっと props を渡しています。 これらのコンポーネントは純粋な関数のように機能します。 props を入力として受け取り、同じ props が渡されるたびに同じビューを返します。 state (状態、ステート) とは何なのかと思うかもしれません。それについては次のチャレンジで詳しく説明します。 その前に、ここではコンポーネントの用語について復習をします。
 
 *ステートレス関数型コンポーネント*とは、props を受け取り、JSX を返すように記述する関数です。 一方、*ステートレスコンポーネント*とは `React.Component` を拡張するクラスですが、内部状態を使用しません (次のチャレンジで説明します)。 そして、*ステートフルコンポーネント*とは、自身の内部状態を維持するクラスコンポーネントです。 ステートフルコンポーネントのことを単に「コンポーネント」または「React コンポーネント」と呼ぶこともあります。
 

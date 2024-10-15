@@ -1,22 +1,22 @@
 ---
 id: 561add10cb82ac38a17523bc
-title: Back End Development and APIs Certification
+title: Certificazione di sviluppo back end e API
 certification: back-end-development-and-apis
 challengeType: 7
 isPrivate: true
 tests:
   - 
     id: bd7158d8c443edefaeb5bdef
-    title: Timestamp Microservice
+    title: Microservizio marca temporale
   - 
     id: bd7158d8c443edefaeb5bdff
-    title: Request Header Parser Microservice
+    title: Microservizio parser di header di richiesta
   - 
     id: bd7158d8c443edefaeb5bd0e
-    title: URL Shortener Microservice
+    title: Microservizio abbreviatore di URL
   - 
     id: 5a8b073d06fa14fcfde687aa
-    title: Exercise Tracker
+    title: Monitor degli esercizi
   - 
     id: bd7158d8c443edefaeb5bd0f
-    title: File Metadata Microservice
+    title: Microservizio metadati di un file

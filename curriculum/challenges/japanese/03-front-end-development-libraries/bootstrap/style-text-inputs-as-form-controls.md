@@ -13,7 +13,7 @@ dashedName: style-text-inputs-as-form-controls
 
 # --description--
 
-You can add the `fa-paper-plane` Font Awesome icon by adding `<i class="fa fa-paper-plane"></i>` within your submit `button` element.
+送信 `button` 要素の中に `<i class="fa fa-paper-plane"></i>` を追加することで、Font Awesome アイコン `fa-paper-plane` を追加できます。
 
 フォームのテキスト入力フィールドに、クラス `form-control` を付けてください。 フォームの送信ボタンに、クラス `btn btn-primary` を付けてください。 また、このボタンに `fa-paper-plane` という Font Awesome アイコンも付けてください。
 

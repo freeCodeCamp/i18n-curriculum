@@ -10,7 +10,7 @@ dashedName: links-and-images-lesson-e
 
 Los sitios web serían bastante aburridos si solo pudieran mostrar texto. Por suerte, HTML proporciona una amplia variedad de elementos para mostrar todo tipo de medios diferentes. El más utilizado de estos es el elemento de imagen.
 
-Para mostrar una imagen en HTML, se utiliza el elemento `<img>`. A diferencia de los otros elementos con los que te has encontrado, el elemento `<img>` se cierra automáticamente. Los elementos HTML vacíos que se cierran automáticamente no necesitan una etiqueta de cierre.
+Para mostrar una imagen en HTML, se utiliza el elemento `<img>`. Unlike the other elements you have encountered, the `<img>` is a void element. Empty, void HTML elements do not need a closing tag.
 
 En lugar de envolver contenido con una etiqueta de apertura y cierre, inserta una imagen en la página usando un atributo `src` que indica al navegador dónde se encuentra el archivo de imagen. El atributo `src` funciona de manera muy similar al atributo `href` para etiquetas de ancla. Puede insertar una imagen usando rutas absolutas y relativas.
 

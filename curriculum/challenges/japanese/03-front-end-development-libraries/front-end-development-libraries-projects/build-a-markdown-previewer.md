@@ -7,7 +7,7 @@ dashedName: build-a-markdown-previewer
 ---
 
 # --description--
-**Note:** **React 18 has known incompatibilities with the tests for this project (see [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
+**注:** **React 18 はこのプロジェクトのテストとの互換性がありません。(詳細は[こちらの Issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922) を参照してください。)**
 
 **目標:** こちらと似た機能を持つアプリを構築してください: <a href="https://markdown-previewer.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://markdown-previewer.freecodecamp.rocks</a>
 

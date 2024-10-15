@@ -8,7 +8,7 @@ dashedName: use-the-lifecycle-method-componentdidmount
 
 # --description--
 
-Most web developers, at some point, need to call an API endpoint to retrieve data. If you're working with React, it's important to know where to perform this action.
+ほとんどのウェブ開発者は、ある時点で、データを取得するために API エンドポイントを呼び出す必要があります。 React の作業では、このアクションをどこで実行すべきかを理解しておくことが重要です。
 
 React では、API の呼び出しやサーバーへの呼び出しをライフサイクルメソッド `componentDidMount()` に配置することをお勧めします。 このメソッドは、コンポーネントが DOM にマウントされた後に呼び出されます。 この中で `setState()` を呼び出すと、そのたびにコンポーネントの再レンダーがトリガーされます。 このメソッドで API を呼び出して、API が返すデータを使用して state を設定すると、データの受信後に自動的に更新がトリガーされます。
 

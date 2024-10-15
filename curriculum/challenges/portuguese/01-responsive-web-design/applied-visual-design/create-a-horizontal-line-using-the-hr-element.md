@@ -15,7 +15,7 @@ You can use the `hr` tag to add a horizontal line across the width of its contai
 
 Adicione a tag `hr` abaixo do elemento `h4` que contém o título do cartão.
 
-**Observação:** no HTML, a tag `hr` fecha em si mesma e, portanto, não precisa de uma tag de fechamento separada.
+**Note:** In HTML, `hr` is a void element, and therefore doesn't need a separate closing tag.
 
 # --hints--
 

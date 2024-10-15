@@ -15,7 +15,7 @@ You can use the `hr` tag to add a horizontal line across the width of its contai
 
 在卡片标题元素 `h4` 下方添加一个 `hr` 标签。
 
-**注意：** HTML 中的 `hr` 是自闭合标签，所以我们不需要为它添加结束标签。
+**Note:** In HTML, `hr` is a void element, and therefore doesn't need a separate closing tag.
 
 # --hints--
 

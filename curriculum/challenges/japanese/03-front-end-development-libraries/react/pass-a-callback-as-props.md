@@ -8,7 +8,7 @@ dashedName: pass-a-callback-as-props
 
 # --description--
 
-You can pass `state` as props to child components, but you're not limited to passing data. You can also pass handler functions or any method that's defined on a React component to a child component. This is how you allow child components to interact with their parent components. You pass methods to a child just like a regular prop. It's assigned a name and you have access to that method name under `this.props` in the child component.
+`state` を props として子コンポーネントに渡すことができますが、渡せるのはデータに限りません。 ハンドラー関数や、React コンポーネントで定義されている任意のメソッドを、子コンポーネントに渡すこともできます。 この方法で、子コンポーネントがその親コンポーネントとやり取りできるようになります。 メソッドについても、通常の prop とまったく同様に子に渡します。 メソッドには名前が割り当てられており、子コンポーネントの `this.props` の下でそのメソッド名にアクセスできます。
 
 # --instructions--
 

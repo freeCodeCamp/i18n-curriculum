@@ -7,7 +7,7 @@ dashedName: step-2
 
 # --description--
 
-Variables can store values of different data types. You just assigned an integer value, but if you want to represent some text, you need to assign a string. Strings are sequences of characters enclosed by single or double quotes, but you cannot start a string with a single quote and end it with a double quote or vice versa:
+變量可以存儲不同數據類型的值。 You just assigned an integer value, but if you want to represent some text, you need to assign a string. Strings are sequences of characters enclosed by single or double quotes, but you cannot start a string with a single quote and end it with a double quote or vice versa:
 
 ```py
 string_1 = "I am a string"
@@ -15,7 +15,7 @@ string_2 = 'I am also a string'
 string_3 = 'This is not valid"
 ```
 
-Delete your `number` variable and its value. Then, declare another variable called `text` and assign the string `'Hello World'` to this variable.
+刪除你的 `number` 變量及其值。 Then, declare another variable called `text` and assign the string `'Hello World'` to this variable.
 
 # --hints--
 
@@ -26,7 +26,7 @@ const commentless_code = __helpers.python.removeComments(code);
 assert.isFalse(/number\s*=\s*5/.test(commentless_code))
 ```
 
-You should declare a variable called `text`. Pay attention to place the variable name at the beginning of the line.
+You should declare a variable called `text`. 注意將變量名放在行首。
 
 ```js
 assert.match(code, /^text\s*=/m)

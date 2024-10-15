@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aede08807
-title: Set the Font Family of an Element
+title: 요소의 글꼴 패밀리를 설정하기
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/c3bvpCg'
 forumTopicId: 18278
@@ -11,7 +11,7 @@ dashedName: set-the-font-family-of-an-element
 
 You can set which font an element should use, by using the `font-family` property.
 
-For example, if you wanted to set your `h2` element's font to `sans-serif`, you would use the following CSS:
+예를 들어, `h2` 요소의 글꼴을 `sans-serif`로 설정하려면 다음과 같은 CSS를 사용할 수 있습니다.
 
 ```css
 h2 {
@@ -21,11 +21,11 @@ h2 {
 
 # --instructions--
 
-Make all of your `p` elements use the `monospace` font.
+모든 `p` 요소가 `monospace` 글꼴을 사용하도록 만드세요.
 
 # --hints--
 
-Your `p` elements should use the font `monospace`.
+`p` 요소는 `monospace` 글꼴을 사용해야 합니다.
 
 ```js
 assert(

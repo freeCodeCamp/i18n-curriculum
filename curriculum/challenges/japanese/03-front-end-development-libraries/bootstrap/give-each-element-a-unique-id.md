@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aec908855
-title: Give Each Element a Unique id
+title: 各要素に一意の id を付ける
 challengeType: 0
 forumTopicId: 18191
 dashedName: give-each-element-a-unique-id
@@ -8,15 +8,15 @@ dashedName: give-each-element-a-unique-id
 
 # --description--
 
-We will also want to be able to use jQuery to target each button by its unique id.
+また、jQuery を使用してそれぞれのボタンを一意の id でターゲットとして選択できるようにします。
 
-Give each of your buttons a unique id, starting with `target1` and ending with `target6`.
+`target1` から `target6` までの各ボタンに一意の id を付けてください。
 
-Make sure that `target1` to `target3` are in `#left-well`, and `target4` to `target6` are in `#right-well`.
+`target1` から `target3` までを `#left-well` の中に入れ、`target4` から `target6` までを `#right-well` の中に入れてください。
 
 # --hints--
 
-One `button` element should have the id `target1`.
+`button` 要素に id `target1` を付けます。
 
 ```js
 const leftWall = document.querySelector('#left-well'); 
@@ -24,7 +24,7 @@ const targetOne = leftWall?.querySelectorAll(`:scope ${'#target1'}`)
 assert.lengthOf(targetOne,1);
 ```
 
-One `button` element should have the id `target2`.
+`button` 要素に id `target2` を付けます。
 
 ```js
 const leftWall = document.querySelector('#left-well'); 
@@ -32,7 +32,7 @@ const targetTwo = leftWall?.querySelectorAll(`:scope ${'#target2'}`)
 assert.lengthOf(targetTwo,1);
 ```
 
-One `button` element should have the id `target3`.
+`button` 要素に id `target3` を付けます。
 
 ```js
 const leftWall = document.querySelector('#left-well'); 
@@ -40,7 +40,7 @@ const targetThree = leftWall?.querySelectorAll(`:scope ${'#target3'}`)
 assert.lengthOf(targetThree,1);
 ```
 
-One `button` element should have the id `target4`.
+`button` 要素に id `target4` を付けます。
 
 ```js
 const leftWall = document.querySelector('#right-well'); 
@@ -48,7 +48,7 @@ const targetFour = leftWall?.querySelectorAll(`:scope ${'#target4'}`)
 assert.lengthOf(targetFour,1);
 ```
 
-One `button` element should have the id `target5`.
+`button` 要素に id `target5` を付けます。
 
 ```js
 const leftWall = document.querySelector('#right-well'); 
@@ -56,7 +56,7 @@ const targetFive = leftWall?.querySelectorAll(`:scope ${'#target5'}`)
 assert.lengthOf(targetFive,1);
 ```
 
-One `button` element should have the id `target6`.
+`button` 要素に id `target6` を付けます。
 
 ```js
 const leftWall = document.querySelector('#right-well'); 

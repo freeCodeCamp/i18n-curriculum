@@ -10,9 +10,9 @@ dashedName: css-foundations-lesson-f
 
 Okay, du hast bis jetzt schon eine ganze Menge durchgenommen. Es bleibt jetzt nur noch zu besprechen, wie du das CSS in dein HTML einfügen kannst. Es gibt drei Methoden um dies zu machen.
 
-Externes CSS ist die am häufigsten angewandte Methode, bei der eine separate Datei für das CSS erstellt und innerhalb der öffnenden und schließenden `<head>`-Tags eines HTML-Dokuments mit einem selbstschließenden `<link>`-Element verknüpft wird:
+External CSS is the most common method you will come across, and it involves creating a separate file for the CSS and linking it inside of an HTML’s opening and closing `<head>` tags with a `<link>` element (which is a void element and doesn't require a closing tag):
 
-Zunächst fügst du ein selbstschließendes `<link>`-Element innerhalb der öffnenden und schließenden `<head>`-Tags der HTML-Datei ein. Das `href`-Attribut ist der Speicherort der CSS-Datei, entweder eine absolute URL oder, was du verwenden wirst, eine URL relativ zum Speicherort der HTML-Datei. Im vorstehenden Beispiel gehst du davon aus, dass sich beide Dateien in demselben Verzeichnis befinden. Das `rel`-Attribut ist notwendig und gibt die Beziehung zwischen der HTML-Datei und der verlinkten Datei an.
+First, you add a void element `<link>` tag inside of the opening and closing `<head>` tags of the HTML file. Das `href`-Attribut ist der Speicherort der CSS-Datei, entweder eine absolute URL oder, was du verwenden wirst, eine URL relativ zum Speicherort der HTML-Datei. Im vorstehenden Beispiel gehst du davon aus, dass sich beide Dateien in demselben Verzeichnis befinden. Das `rel`-Attribut ist notwendig und gibt die Beziehung zwischen der HTML-Datei und der verlinkten Datei an.
 
 In der neu erstellten `styles.css`-Datei befindet sich dann der Selektor (`div` und `p`), gefolgt von einem Paar öffnender und schließender geschwungener Klammern, die einen "Deklarationsblock" bilden. Schließlich platzierst du alle Deklarationen innerhalb des Deklarationsblocks. `color: white;` ist eine Deklaration, bei der `color` die Eigenschaft und `white` der Wert ist, und `background-color: black;` ist eine weitere Deklaration.
 

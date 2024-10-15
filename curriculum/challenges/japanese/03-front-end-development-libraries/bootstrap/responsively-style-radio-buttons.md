@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedb08845
-title: Responsively Style Radio Buttons
+title: ラジオボタンをレスポンシブスタイルにする
 challengeType: 0
 forumTopicId: 18270
 required:
@@ -13,29 +13,29 @@ dashedName: responsively-style-radio-buttons
 
 # --description--
 
-You can use Bootstrap's `col-xs-*` classes on `form` elements, too! This way, our radio buttons will be evenly spread out across the page, regardless of how wide the screen resolution is.
+Bootstrap の `col-xs-*` クラスは `form` 要素にも使用できます。 この方法では、画面解像度の幅に関係なく、ラジオボタンがページ全体に等間隔で表示されます。
 
-Nest both your radio buttons within a `<div class="row">` element. Then nest each of them within a `<div class="col-xs-6">` element.
+両方のラジオボタンを `<div class="row">` 要素の中に入れてください。 次に、各ラジオボタンを `<div class="col-xs-6">` 要素の中に入れてください。
 
-**Note:** As a reminder, radio buttons are `input` elements of type `radio`.
+**注:** ラジオボタンはタイプが `radio` の `input` 要素です。
 
 # --hints--
 
-All of your radio buttons should be nested inside one `div` with the class `row`.
+すべてのラジオボタンを、クラス `row` を持つ 1 つの `div` の内側に入れます。
 
 ```js
 const radioButtons = document.querySelectorAll(`div.row input[type=radio]`); 
 assert.lengthOf(radioButtons , 2);
 ```
 
-Each of your radio buttons should be nested inside its own `div` with the class `col-xs-6`.
+各ラジオボタンを、クラス `col-xs-6` を持つ自身の `div` の内側に入れます。
 
 ```js
 const radioButtons = document.querySelectorAll(`div.col-xs-6 input[type=radio]`); 
 assert.lengthOf(radioButtons , 2);
 ```
 
-All of your `div` elements should have closing tags.
+`div` 要素にはすべて終了タグが必要です。
 
 ```js
 assert.match(code,/<\/div>/);

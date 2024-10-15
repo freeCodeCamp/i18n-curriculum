@@ -8,7 +8,7 @@ dashedName: pass-state-as-props-to-child-components
 
 # --description--
 
-You saw a lot of examples that passed props to child JSX elements and child React components in previous challenges. You may be wondering where those props come from. A common pattern is to have a stateful component containing the `state` important to your app, that then renders child components. You want these components to have access to some pieces of that `state`, which are passed in as props.
+ここまでのチャレンジで、子の JSX 要素や子の React コンポーネントに props を渡す例をたくさん紹介してきました。 これらの props はいったいどこからやって来るのでしょうか。 よくあるパターンとしては、アプリにとって重要な `state` を含むステートフルコンポーネントを用意し、それから子コンポーネントをレンダーします。 そしてそれらのコンポーネントから、props として渡された `state` の一部にアクセスできるようにします。
 
 たとえば `App` コンポーネントがあり、他のコンポーネントの中から `Navbar` をレンダーするとします。 `App` には `state` があり、そこにはたくさんのユーザー情報が含まれていますが、`Navbar` ではユーザーのユーザー名にアクセスして表示できれば十分です。 そこで、`state` のうちその部分を prop として `Navbar` コンポーネントに渡します。
 

@@ -8,7 +8,7 @@ dashedName: create-a-bootstrap-button
 
 # --description--
 
-Bootstrap has its own styles for `button` elements, which look much better than the plain HTML ones.
+Bootstrap には、`button` 要素用に独自のスタイルが用意されており、プレーンな HTML のボタンよりもずっと良い見栄えで表示されます。
 
 大きな子猫の写真の下に、新しい `button` 要素を作成してください。 ボタンには `btn` クラスと `btn-default` クラスを付け、`Like` というテキストも設定してください。
 

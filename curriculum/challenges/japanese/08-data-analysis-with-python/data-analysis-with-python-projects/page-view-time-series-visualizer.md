@@ -22,23 +22,23 @@ Python カリキュラムの対話式教育コンテンツを引き続き開発�
 
 データを使用して、次のタスクを完了してください。
 
-- Use Pandas to import the data from "fcc-forum-pageviews.csv". Set the index to the `date` column.
+- Pandas を使用して "fcc-forum-pageviews.csv" からデータをインポートします。 インデックスとして `date` 列を設定します。
 - データをクリーニングするため、ページビュー数がデータセットの上位 2.5% または下位 2.5% となった日を除外します。
 - `draw_line_plot` 関数を作成します。この関数は、Matplotlib を使用して "examples/Figure_1.png" に示すような折れ線グラフを描きます。 タイトルは `Daily freeCodeCamp Forum Page Views 5/2016-12/2019` とします。 x 軸のラベルを `Date`、y 軸のラベルを `Page Views` とします。
 - `draw_bar_plot` 関数を作成します。この関数は "examples/Figure_2.png" に示すような棒グラフを描きます。 月ごとの 1 日の平均ページビュー数を表示し、年ごとにグループ化する必要があります。 凡例には月のラベルを表示し、タイトルを `Months` とします。 グラフの x 軸のラベルを `Years`、y 軸のラベルを `Average Page Views` とします。
 - `draw_box_plot` 関数を作成します。この関数は、Seaborn を使用して "examples/Figure_3.png" に示すような 2 つの隣接するボックスプロットを描きます。 これらのボックスプロットでは、特定の年または月の中で値がどのように分布しているかを示し、経時的に比較できるようにする必要があります。 最初のグラフのタイトルを `Year-wise Box Plot (Trend)`、2 つ目のグラフのタイトルを `Month-wise Box Plot (Seasonality)` とします。 一番下の月ラベルの始まりを `Jan` とし、x および x 軸のラベルを正しく設定する必要があります。 ボイラープレートには、データを準備するコマンドが含まれています。
 
-For each chart, make sure to use a copy of the data frame.
+グラフごとに、必ずデータフレームのコピーを使用してください。
 
 このボイラープレートには、画像を保存して返すコマンドも含まれています。
 
-## Development
+## 開発
 
-Write your code in `time_series_visualizer.py`. For development, you can use `main.py` to test your code.
+Write your code in `time_series_visualizer.py`. 開発には `main.py` を使用してコードをテストすることができます。
 
 ## テスト
 
-The unit tests for this project are in `test_module.py`. すでに `test_module.py` から `main.py` にテストをインポートしてあります。
+このプロジェクトの単体テストは `test_module.py` にあります。 すでに `test_module.py` から `main.py` にテストをインポートしてあります。
 
 ## 提出
 

@@ -1,22 +1,22 @@
 id: 5e46fc95ac417301a38fb934
-title: Data Analysis with Python Certification
+title: Certificazione analisi dei dati con Python
 certification: data-analysis-with-python
 challengeType: 7
 isPrivate: true
 tests:
   - 
     id: 5e46f7e5ac417301a38fb928
-    title: Mean-Variance-Standard Deviation Calculator
+    title: Calcolatore di varianza, media e deviazione standard
   - 
     id: 5e46f7e5ac417301a38fb929
-    title: Demographic Data Analyzer
+    title: Analizzatore di dati demografici
   - 
     id: 5e46f7f8ac417301a38fb92a
-    title: Medical Data Visualizer
+    title: Visualizzatore di dati medici
   - 
     id: 5e46f802ac417301a38fb92b
     title: Page View Time Series Visualizer
   - 
     id: 5e4f5c4b570f7e3a4949899f
-    title: Sea Level Predictor
+    title: Predittore del livello del mare
 

@@ -8,7 +8,7 @@ dashedName: use-a-ternary-expression-for-conditional-rendering
 
 # --description--
 
-Before moving on to dynamic rendering techniques, there's one last way to use built-in JavaScript conditionals to render what you want: the <dfn>ternary operator</dfn>. The ternary operator is often utilized as a shortcut for `if/else` statements in JavaScript. They're not quite as robust as traditional `if/else` statements, but they are very popular among React developers. One reason for this is because of how JSX is compiled, `if/else` statements can't be inserted directly into JSX code. You might have noticed this a couple challenges ago — when an `if/else` statement was required, it was always *outside* the `return` statement. Ternary expressions can be an excellent alternative if you want to implement conditional logic within your JSX. Recall that a ternary operator has three parts, but you can combine several ternary expressions together. Here's the basic syntax:
+動的レンダーの手法の話に移る前に、組み込みの JavaScript 条件である<dfn>三項演算子</dfn>を使用して必要なものをレンダーする方法を最後に紹介します。 三項演算子は JavaScript の `if/else` ステートメントの省略形としてよく利用されます。 これらは従来の `if/else` ステートメントほど堅牢ではありませんが、React 開発者の間では非常に人気があります。 その理由の一つは、JSX のコンパイルの仕組み上、`if/else` ステートメントを JSX コードに直接挿入できないためです。 今までのチャレンジでこのことに気づいていたかもしれませんが、`if/else` ステートメントが必要な場合は常に `return` ステートメントの*外側*にありました。 JSX の中で条件付きロジックを実装したい場合に、三項式は代わりの手段としてとても便利です。 三項演算子には 3 つのパートがありますが、複数の三項式を組み合わせることもできます。 基本的な構文は次のとおりです。
 
 ```jsx
 condition ? expressionIfTrue : expressionIfFalse;

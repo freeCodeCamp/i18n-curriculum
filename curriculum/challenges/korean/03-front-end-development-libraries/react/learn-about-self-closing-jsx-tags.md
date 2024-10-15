@@ -12,7 +12,7 @@ So far, you’ve seen how JSX differs from HTML in a key way with the use of `cl
 
 JSX를 HTML과 구별하는 또 다른 중요한 점은 자체닫기(self-closing) 태그입니다.
 
-HTML에서는 `<div></div>`처럼 거의 모든 태그가 시작(opening)과 끝(closing) 두 태그를 가지고 있습니다. 끝 태그는 항상 태그 이름 앞에 빗금 부호를 가지고 있습니다. 그러나 HTML에는 시작 그리고 끝, 두 개의 태그가 필요하지 않는, "자체 닫기 태그"라고 불리는 특이한 경우도 있습니다.
+HTML에서는 `<div></div>`처럼 거의 모든 태그가 시작(opening)과 끝(closing) 두 태그를 가지고 있습니다. 끝 태그는 항상 태그 이름 앞에 빗금 부호를 가지고 있습니다. However, there are special instances in HTML called <dfn>void elements</dfn>, or elements that don’t require both an opening and closing tag before another element can start.
 
 예를 들면 줄 바꿈(line-break) 태그는 `<br>` 혹은 `<br />`으로 작성될 수 있으나, 태그 사이에 어떤 내용도 없는 `<br></br>`로는 작성되면 안됩니다.
 

@@ -1,6 +1,6 @@
 ---
 id: 66ed8fc9f45ce3ece4053eae
-title: CSS Animations Quiz
+title: Questionário sobre animações no CSS
 challengeType: 8
 dashedName: quiz-css-animations
 ---

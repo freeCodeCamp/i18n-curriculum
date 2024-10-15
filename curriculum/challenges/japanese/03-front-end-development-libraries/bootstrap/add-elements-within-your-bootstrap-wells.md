@@ -8,7 +8,7 @@ dashedName: add-elements-within-your-bootstrap-wells
 
 # --description--
 
-Now we're several `div` elements deep on each column of our row. This is as deep as we'll need to go. Now we can add our `button` elements.
+行の列ごとにいくつかの `div` 要素がネストになっていて、 必要な深さになっています。 ここで `button` 要素を追加できます。
 
 クラス名 `well` を持つ各 `div` 要素の中に 3 つの `button` 要素を入れてください。
 

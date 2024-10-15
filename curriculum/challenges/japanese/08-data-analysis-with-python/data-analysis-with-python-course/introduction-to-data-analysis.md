@@ -11,7 +11,7 @@ dashedName: introduction-to-data-analysis
 ---
 
 # --description--
-Data analysis is the act of turning raw, messy data into useful insights by cleaning the data up, transforming it, manipulating it, and inspecting it.
+データ分析とは、加工されていない乱雑なデータを、整理したり、変換したり、操作したり、検査したりして、その本質が見える有益な情報に変える活動のことです。
 
 その他のリソース:
 

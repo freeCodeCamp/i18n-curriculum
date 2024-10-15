@@ -8,7 +8,7 @@ dashedName: use-proptypes-to-define-the-props-you-expect
 
 # --description--
 
-React provides useful type-checking features to verify that components receive props of the correct type. For example, your application makes an API call to retrieve data that you expect to be in an array, which is then passed to a component as a prop. You can set `propTypes` on your component to require the data to be of type `array`. This will throw a useful warning when the data is of any other type.
+React は、コンポーネントが正しい型の props を受け取ることを検証するための便利な型チェック機能を備えています。 たとえば、アプリケーションで API 呼び出しを実行して、配列にあると想定しているデータを取得し、prop としてコンポーネントに渡すとします。 コンポーネントで `propTypes` を設定して、データが `array` 型であることを要求することができます。 こうすることで、データが他の型である場合に、便利な警告がスローされます。
 
 prop の型が事前にわかっている場合は `propTypes` を設定することをお勧めします。 `defaultProps` の定義と同じ方法で、コンポーネントの `propTypes` プロパティを定義できます。 こうすることで、与えられたキーの props が与えられた型であるかどうかがチェックされます。 `handleClick` という prop に `function` 型を要求する例を次に示します。
 

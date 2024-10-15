@@ -8,7 +8,7 @@ dashedName: target-the-children-of-an-element-using-jquery
 
 # --description--
 
-When HTML elements are placed one level below another they are called <dfn>children</dfn> of that element. For example, the button elements in this challenge with the text `#target1`, `#target2`, and `#target3` are all children of the `<div class="well" id="left-well">` element.
+HTML 要素が別の要素の 1 つ下のレベルに配置されたとき、それをその要素の<dfn>子要素</dfn>と呼びます。 たとえば、このチャレンジにあるボタン要素のうちテキスト `#target1`、`#target2`、および `#target3` を持つものはすべて、`<div class="well" id="left-well">` 要素の子要素です。
 
 jQuery には `children()` という関数があり、選択した要素の子要素にアクセスすることができます。
 

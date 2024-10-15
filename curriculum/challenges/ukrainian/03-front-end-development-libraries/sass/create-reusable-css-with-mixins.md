@@ -74,43 +74,43 @@ Use the `shape` mixin to give the `#square` element a width and height of `50px`
 
 # --hints--
 
-You should declare a mixin named `shape` with 3 parameters: `$w`, `$h`, and `$bg-color`.
+Оголосіть міксин під назвою `shape` із 3 параметрами: `$w`, `$h` та `$bg-color`.
 
 ```js
 assert.match(code, /@mixin\s+shape\s*\(\s*\$w,\s*\$h,\s*\$bg-color\s*\)\s*{/gi);
 ```
 
-Your mixin should include a `width` property that uses the `$w` parameter.
+Міксин має містити властивість `width`, яка використовує параметр `$w`.
 
 ```js
 assert.match(__helpers.removeWhiteSpace(code), /width:\$w;/gi);
 ```
 
-Your mixin should include a `height` property that uses the `$h` parameter.
+Міксин має містити властивість `height`, яка використовує параметр `$h`.
 
 ```js
 assert.match(__helpers.removeWhiteSpace(code), /height:\$h;/gi);
 ```
 
-Your mixin should include a `background-color` property that uses the `$bg-color` parameter.
+Міксин має містити властивість `background-color`, яка використовує параметр `$bg-color`.
 
 ```js
 assert.match(__helpers.removeWhiteSpace(code), /background-color:\$bg\-color;/gi);
 ```
 
-You should replace the styles inside the `#square` selector with a call to the `shape` mixin using the `@include` keyword. Setting a width and height of `50px`, and the background color `red`.
+Замініть стилі всередині селектора `#square` на виклик міксину `shape` за допомогою ключового слова `@include`. Setting a width and height of `50px`, and the background color `red`.
 
 ```js
 assert.match(code, /#square\s*{\s*@include\s+shape\s*\(\s*50px\s*,\s*50px\s*,\s*red\s*\)\s*;\s*}/gi);
 ```
 
-You should replace the styles inside the `#rect-a` selector with a call to the `shape` mixin using the `@include` keyword. Setting a width of `100px`, a height of `50px`, and the background color `blue`.
+Замініть стилі всередині селектора `#rect-a` на виклик міксину `shape` за допомогою ключового слова `@include`. Setting a width of `100px`, a height of `50px`, and the background color `blue`.
 
 ```js
 assert.match(code, /#rect-a\s*{\s*@include\s+shape\s*\(\s*100px\s*,\s*50px\s*,\s*blue\s*\)\s*;\s*}/gi);
 ```
 
-You should replace the styles inside the `#rect-b` selector with a call to the `shape` mixin using the `@include` keyword. Setting a width of `50px`, a height of `100px`, and the background color `orange`.
+Замініть стилі всередині селектора `#rect-b` на виклик міксину `shape` за допомогою ключового слова `@include`. Setting a width of `50px`, a height of `100px`, and the background color `orange`.
 
 ```js
 assert.match(code, /#rect-b\s*{\s*@include\s+shape\s*\(\s*50px\s*,\s*100px\s*,\s*orange\s*\)\s*;\s*}/gi);

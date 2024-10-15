@@ -15,7 +15,7 @@ You can use the `hr` tag to add a horizontal line across the width of its contai
 
 قم بإضافة كود `hr` أسفل كود `h4` الذي يحوي على عنوان البطاقة.
 
-**Note:** In HTML, `hr` is a self-closing tag, and therefore doesn't need a separate closing tag.
+**Note:** In HTML, `hr` is a void element, and therefore doesn't need a separate closing tag.
 
 # --hints--
 

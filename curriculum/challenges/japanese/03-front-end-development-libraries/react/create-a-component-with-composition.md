@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d4036164
-title: Create a Component with Composition
+title: コンポジションを使用してコンポーネントを作成する
 challengeType: 6
 forumTopicId: 301383
 dashedName: create-a-component-with-composition
@@ -8,9 +8,9 @@ dashedName: create-a-component-with-composition
 
 # --description--
 
-Now we will look at how we can compose multiple React components together. Imagine you are building an app and have created three components: a `Navbar`, `Dashboard`, and `Footer`.
+ここでは、複数の React コンポーネントをまとめて作成する方法について説明します。 アプリを作成していて、すでに `Navbar`、`Dashboard`、`Footer` の 3 つのコンポーネントを作成したとします。
 
-To compose these components together, you could create an `App` *parent* component which renders each of these three components as *children*. To render a component as a child in a React component, you include the component name written as a custom HTML tag in the JSX. For example, in the `render` method you could write:
+これら 3 つのコンポーネントを*子*としてレンダーする `App` という*親*コンポーネントを作成することができます。 コンポーネントを React コンポーネント内の子としてレンダーするには、カスタム HTML タグとして記述したコンポーネント名を JSX に含めます。 たとえば、`render` メソッドで次のように記述できます。
 
 ```jsx
 return (
@@ -22,17 +22,17 @@ return (
 )
 ```
 
-When React encounters a custom HTML tag that references another component (a component name wrapped in `< />` like in this example), it renders the markup for that component in the location of the tag. This should illustrate the parent/child relationship between the `App` component and the `Navbar`, `Dashboard`, and `Footer`.
+React で、別のコンポーネントを参照するカスタム HTML タグが出現すると (この例では `< />` で囲まれたコンポーネント名)、そのコンポーネントのマークアップがタグの場所にレンダーされます。 これにより、`App` コンポーネントと `Navbar`、`Dashboard`、`Footer` との間の親子関係が示されます。
 
 # --instructions--
 
-In the code editor, there is a simple functional component called `ChildComponent` and a class component called `ParentComponent`. Compose the two together by rendering the `ChildComponent` within the `ParentComponent`. Make sure to close the `ChildComponent` tag with a forward slash.
+コードエディターに、`ChildComponent` という単純な関数型コンポーネントと、`ParentComponent` というクラスコンポーネントがあります。 `ParentComponent` の中に `ChildComponent` をレンダーして、2 つのコンポーネントをまとめて作成してください。 必ずフォワードスラッシュで `ChildComponent` タグを終了してください。
 
-**Note:** `ChildComponent` is defined with an ES6 arrow function because this is a very common practice when using React.
+**注:** `ChildComponent` は ES6 のアロー関数で定義されています。これは React を使用するときのごく一般的な記法です。
 
 # --hints--
 
-The React component should return a single `div` element.
+React コンポーネントから単一の `div` 要素を返します。
 
 ```js
 assert(
@@ -43,7 +43,7 @@ assert(
 );
 ```
 
-The component should return two nested elements.
+コンポーネントから 2 つのネストされた要素を返します。
 
 ```js
 assert(
@@ -54,7 +54,7 @@ assert(
 );
 ```
 
-The component should return the `ChildComponent` as its second child.
+コンポーネントから `ChildComponent` を 2 番目の子として返します。
 
 ```js
 assert(

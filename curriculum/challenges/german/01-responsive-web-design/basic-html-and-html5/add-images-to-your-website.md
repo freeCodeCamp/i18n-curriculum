@@ -16,7 +16,7 @@ Ein Beispiel könnte sein:
 <img src="https://www.freecatphotoapp.com/your-image.jpg">
 ```
 
-Beachte, dass `img`-Elemente selbstschließend sind.
+Note that `img` is a void element.
 
 Alle `img`-Elemente sollten **unbedingt** ein `alt`-Attribut haben. Der Text in einem `alt`-Attribut wird für Screenreader verwendet, um die Barrierefreiheit zu verbessern und wird angezeigt, wenn das Bild nicht geladen wird.
 

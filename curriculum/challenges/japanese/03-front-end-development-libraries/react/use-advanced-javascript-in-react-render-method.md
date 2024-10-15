@@ -8,7 +8,7 @@ dashedName: use-advanced-javascript-in-react-render-method
 
 # --description--
 
-In previous challenges, you learned how to inject JavaScript code into JSX code using curly braces, `{ }`, for tasks like accessing props, passing props, accessing state, inserting comments into your code, and most recently, styling your components. These are all common use cases to put JavaScript in JSX, but they aren't the only way that you can utilize JavaScript code in your React components.
+以前のチャレンジでは、中括弧 `{ }` を使用して JavaScript コードを JSX コードに挿入する方法について説明しました。たとえば props へのアクセス、props の受け渡し、state へのアクセス、コードへのコメントの挿入、そして前回はコンポーネントのスタイル設定などの作業で使用しました。 これらはすべて JSX で JavaScript を使用するための一般的な用例ですが、これ以外の方法でも React コンポーネントで JavaScript コードを利用することができます。
 
 中括弧の内側に***挿入せずに***、`return` ステートメントの前で、`render` メソッドで JavaScript を直接記述することもできます。 なぜなら、まだ JSX コードの中にないからです。 後で JSX コードの `return` ステートメントの*内側*で変数を使用したい場合は、変数名を中括弧の中に置きます。
 

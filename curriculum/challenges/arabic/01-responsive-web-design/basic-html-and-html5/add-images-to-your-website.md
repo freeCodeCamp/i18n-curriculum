@@ -16,7 +16,7 @@ You can add images to your website by using the `img` element, and point to a sp
 <img src="https://www.freecatphotoapp.com/your-image.jpg">
 ```
 
-لاحظ أن عناصر `img` مغلقة ذاتيا.
+Note that `img` is a void element.
 
 جميع العناصر `img` **يجب أن ** تحتوي على الصفة `alt`. يتم استخدام النص داخل الصفة `alt` لقارئ الشاشة لتحسين ال accessibility ويتم عرضه إذا فشلت الصورة في التحميل.
 

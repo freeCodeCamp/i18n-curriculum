@@ -1,21 +1,21 @@
 id: 5a553ca864b52e1d8bceea14
-title: Data Visualization Certification
+title: データ可視化認定証
 certification: data-visualization
 challengeType: 7
 isPrivate: true
 tests:
   - 
     id: bd7168d8c242eddfaeb5bd13
-    title: Visualize Data with a Bar Chart
+    title: 棒グラフでデータを可視化する
   - 
     id: bd7178d8c242eddfaeb5bd13
-    title: Visualize Data with a Scatterplot Graph
+    title: 散布図でデータを可視化する
   - 
     id: bd7188d8c242eddfaeb5bd13
-    title: Visualize Data with a Heat Map
+    title: ヒートマップでデータを可視化する
   - 
     id: 587d7fa6367417b2b2512bbf
-    title: Visualize Data with a Choropleth Map
+    title: 階級区分図でデータを可視化する
   - 
     id: 587d7fa6367417b2b2512bc0
-    title: Visualize Data with a Treemap Diagram
+    title: ツリーマップ図でデータを可視化する

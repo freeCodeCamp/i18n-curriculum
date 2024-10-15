@@ -11,7 +11,7 @@ dashedName: target-elements-by-class-using-jquery
 
 # --description--
 
-You see how we made all of your `button` elements bounce? We selected them with `$("button")`, then we added some CSS classes to them with `.addClass("animated bounce");`.
+すべての `button` 要素をバウンスさせる方法がわかったでしょうか？ `$("button")` を使用してそれらのボタンを選択し、`.addClass("animated bounce");` を使用していくつかの CSS クラスを追加しました。
 
 要素にクラスを追加できる jQuery の `.addClass()` 関数はすでに使用しました。
 

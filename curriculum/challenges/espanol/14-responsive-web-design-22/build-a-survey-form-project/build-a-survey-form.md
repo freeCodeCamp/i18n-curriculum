@@ -8,11 +8,11 @@ dashedName: build-a-survey-form
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to <a href="https://survey-form.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://survey-form.freecodecamp.rocks</a>. **Do not copy this demo project**.
+**Objetivo:** Construye una aplicación que sea funcionalmente similar a <a href="https://survey-form.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://survey-form.freecodecamp.rocks</a>. **No copies este proyecto de demostración**.
 
 **Instrucciones:**
 
-1. You should have a page title in an `h1` element with an `id` of `title`
+1. Debe tener un título de página en in elemento `h1` con un `id` de `title`
 1. Debes tener una pequeña explicación en un elemento `p` con un `id` de `description`
 1. Debe tener un elemento `form` con un `id` de `survey-form`
 1. Dentro del elemento form, debes ser **obligatorio** (required) ingresar tu nombre en un campo de `input` que tenga un `id` de `name` y un `type` de `text`

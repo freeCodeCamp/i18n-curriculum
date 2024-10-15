@@ -54,31 +54,31 @@ Your code should use the `@for` directive.
 assert(code.match(/@for /g));
 ```
 
-Your `.text-1` class should have a `font-size` of 15px.
+Deine Klasse `.text-1` sollte eine`font-size` von 15px haben.
 
 ```js
 assert($('.text-1').css('font-size') == '15px');
 ```
 
-Your `.text-2` class should have a `font-size` of 30px.
+Deine Klasse `.text-2` sollte eine `font-size` von 30px haben.
 
 ```js
 assert($('.text-2').css('font-size') == '30px');
 ```
 
-Your `.text-3` class should have a `font-size` of 45px.
+Deine Klasse `.text-3` sollte eine `font-size` von 45px haben.
 
 ```js
 assert($('.text-3').css('font-size') == '45px');
 ```
 
-Your `.text-4` class should have a `font-size` of 60px.
+Deine Klasse `.text-4` sollte eine `font-size` von 60px haben.
 
 ```js
 assert($('.text-4').css('font-size') == '60px');
 ```
 
-Your `.text-5` class should have a `font-size` of 75px.
+Deine Klasse `.text-5` sollte eine `font-size` von 75px haben.
 
 ```js
 assert($('.text-5').css('font-size') == '75px');

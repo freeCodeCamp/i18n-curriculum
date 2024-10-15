@@ -12,7 +12,7 @@ So far, you’ve seen how JSX differs from HTML in a key way with the use of `cl
 
 وهناك طريقة هامة أخرى تختلف فيها JSX عن HTML وهي ظريقة علامة الإغلاق الذاتي (self-closing tag).
 
-في HTML، جميع العلامات تقريبا لديها علامات فتح وإغلاق على حد سواء: `<div></div>`؛ علامة الإغلاق تحتوي دائما على قطع أمامي قبل اسم العلامة التي تغلقاها. غير أن هناك حالات خاصة في HTML تسمى "علامات الإغلاق الذاتي". أو العلامات التي لا تتطلب علامة فتح أو إغلاق قبل أن تبدأ علامة أخرى.
+في HTML، جميع العلامات تقريبا لديها علامات فتح وإغلاق على حد سواء: `<div></div>`؛ علامة الإغلاق تحتوي دائما على قطع أمامي قبل اسم العلامة التي تغلقاها. However, there are special instances in HTML called <dfn>void elements</dfn>, or elements that don’t require both an opening and closing tag before another element can start.
 
 على سبيل المثال، يمكن كتابة علامة مثل `<br>` أو `<br />`، ولكن لا ينبغي أن يكتب على أنه `<br></br>` لأنه لا يحتوي على أي محتوى.
 

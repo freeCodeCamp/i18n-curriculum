@@ -8,7 +8,7 @@ dashedName: use-the-every-method-to-check-that-every-element-in-an-array-meets-a
 
 # --description--
 
-The `every` method works with arrays to check if *every* element passes a particular test. It returns a Boolean value - `true` if all values meet the criteria, `false` if not.
+O método `every` funciona verificando se *todos* os elementos de um array passam em um teste. Ele retorna um booleano: `true` se todos os valores atendem ao critério e `false` caso contrário.
 
 Por exemplo, o código a seguir verifica se todos os elementos no array `numbers` são menores que 10:
 

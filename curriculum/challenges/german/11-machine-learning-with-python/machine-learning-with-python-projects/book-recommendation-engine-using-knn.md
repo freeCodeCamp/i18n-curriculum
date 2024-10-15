@@ -10,7 +10,7 @@ dashedName: book-recommendation-engine-using-knn
 
 You will be <a href="https://colab.research.google.com/github/freeCodeCamp/boilerplate-book-recommendation-engine/blob/master/fcc_book_recommendation_knn.ipynb" target="_blank" rel="noopener noreferrer nofollow">working on this project with Google Colaboratory</a>.
 
-After going to that link, create a copy of the notebook either in your own account or locally. Once you complete the project and it passes the test (included at that link), submit your project link below. If you are submitting a Google Colaboratory link, make sure to turn on link sharing for "anyone with the link."
+Nachdem du diesen Link aufgerufen hast, erstelle eine Kopie des Notizbuchs entweder in deinem eigenen Konto oder vor Ort. Sobald du das Projekt abgeschlossen hast und es den Test bestanden hat (unter diesem Link enthalten), reiche deinen Projektlink unten ein. Wenn du einen Google Colaboratory-Link übermittelst, stelle sicher, dass du die Linkfreigabe für alle Personen, die den Link verwenden, aktivierst.
 
 We are still developing the interactive instructional content for the machine learning curriculum. For now, you can go through the video challenges in this certification. You may also have to seek out additional learning resources, similar to what you would do when working on a real-world project.
 

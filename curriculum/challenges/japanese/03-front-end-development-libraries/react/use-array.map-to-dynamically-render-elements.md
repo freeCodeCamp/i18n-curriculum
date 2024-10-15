@@ -8,7 +8,7 @@ dashedName: use-array-map-to-dynamically-render-elements
 
 # --description--
 
-Conditional rendering is useful, but you may need your components to render an unknown number of elements. Often in reactive programming, a programmer has no way to know what the state of an application is until runtime, because so much depends on a user's interaction with that program. Programmers need to write their code to correctly handle that unknown state ahead of time. Using `Array.map()` in React illustrates this concept.
+条件付きレンダーは便利ですが、コンポーネントでレンダーする必要のある要素の数がわからない場合もあります。 リアクティブなプログラミングでは多くの場合、アプリケーションの状態は実行時までわかりません。なぜなら、ユーザーとそのプログラムのやり取りに大きく依存しているからです。 そうした未知の状態を事前に正しく処理するコードを記述する必要があります。 こうした概念に対応できるのが、React での `Array.map()` の使用です。
 
 たとえば、シンプルな「To Do List」アプリを作成するとします。 ユーザーが各自のリストにいくつのアイテムを持っているかは、プログラマーにはわかりません。 プログラムを使用している誰かが「今日は洗濯の日だ」と決めるよりもずっと前に、リスト要素の正しい数を動的にレンダーするようにコンポーネントを設定する必要があります。
 

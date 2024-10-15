@@ -8,7 +8,7 @@ dashedName: dispatch-an-action-event
 
 # --description--
 
-`dispatch` method is what you use to dispatch actions to the Redux store. Calling `store.dispatch()` and passing the value returned from an action creator sends an action back to the store.
+`dispatch` は、アクションを Redux ストアにディスパッチするために使用するメソッドです。 `store.dispatch()` を呼び出して、アクションクリエイターから返された値を渡すと、ストアにアクションが送り返されます。
 
 すでに説明したように、アクションクリエイターは、発生したアクションの型を指定する type プロパティを持つオブジェクトを返します。 そして、メソッドからアクションオブジェクトを Redux ストアにディスパッチします。 次の行は前のチャレンジの例に基づいていますが、これらは等価であり、どちらもタイプ `LOGIN` のアクションをディスパッチします。
 

@@ -7,7 +7,7 @@ dashedName: step-20
 
 # --description--
 
-The `div` element is used mainly for design layout purposes unlike the other content elements you have used so far. Add a `div` element inside the `body` element and then move all the other elements inside the new `div`.
+El elemento `div` se utiliza principalmente para própositos de diseño a diferencia de los otros elementos de contenido que has usado hasta ahora. Añade un elemento `div` dentro del elemento `body` y luego mueve todos los demás elementos dentro del nuevo `div`.
 
 Dentro de la etiqueta `div` de apertura, añade el atributo `id` con un valor de `menu`.
 

@@ -8,7 +8,7 @@ dashedName: combine-multiple-reducers
 
 # --description--
 
-When the state of your app begins to grow more complex, it may be tempting to divide state into multiple pieces. Instead, remember the first principle of Redux: all app state is held in a single state object in the store. Therefore, Redux provides reducer composition as a solution for a complex state model. You define multiple reducers to handle different pieces of your application's state, then compose these reducers together into one root reducer. The root reducer is then passed into the Redux `createStore()` method.
+アプリの状態が複雑になってくると、状態を複数の断片に分割したいと考えるかもしれません。 しかし、Redux の 1 つ目の原則である「すべてのアプリの状態はストア内の単一の状態オブジェクトに保持される」という原則を忘れてはいけません。 そこで、Redux では複雑な状態モデルの解決策として、レデューサーコンポジションを提供しています。 アプリケーションの状態のさまざまな部分を処理するために複数のレデューサーを定義し、それらのレデューサーを 1 つのルートレデューサーに結合します。 そして、そのルートレデューサーを Redux の `createStore()` メソッドに渡します。
 
 複数のレデューサーを結合できるように、Redux には `combineReducers()` メソッドが用意されています。 このメソッドはオブジェクトを引数として受け取ります。オブジェクトでは、特定のレデューサー関数にキーを関連付けるプロパティを定義します。 Redux は、キーに付けられた名前を、state の関連付けられた部分を示す名前として使用します。
 

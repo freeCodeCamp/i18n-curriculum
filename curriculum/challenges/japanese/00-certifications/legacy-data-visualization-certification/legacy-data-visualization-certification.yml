@@ -1,36 +1,36 @@
 id: 561add10cb82ac39a17513bc
-title: Legacy Data Visualization Certification
+title: レガシーデータ可視化認定証
 certification: legacy-data-visualization
 challengeType: 7
 isPrivate: true
 tests:
   - 
     id: bd7157d8c242eddfaeb5bd13
-    title: Build a Markdown Previewer
+    title: マークダウンプレビューアを作成する
   - 
     id: bd7156d8c242eddfaeb5bd13
-    title: Build a Camper Leaderboard
+    title: Camper Leaderboard を作成する
   - 
     id: bd7155d8c242eddfaeb5bd13
-    title: Build a Recipe Box
+    title: レシピボックスを作成する
   - 
     id: bd7154d8c242eddfaeb5bd13
-    title: Build the Game of Life
+    title: ライフゲームを作成する
   - 
     id: bd7153d8c242eddfaeb5bd13
-    title: Build a Roguelike Dungeon Crawler Game
+    title: ダンジョン探索ローグライクゲームを作成する
   - 
     id: bd7168d8c242eddfaeb5bd13
-    title: Visualize Data with a Bar Chart
+    title: 棒グラフでデータを可視化する
   - 
     id: bd7178d8c242eddfaeb5bd13
-    title: Visualize Data with a Scatterplot Graph
+    title: 散布図でデータを可視化する
   - 
     id: bd7188d8c242eddfaeb5bd13
-    title: Visualize Data with a Heat Map
+    title: ヒートマップでデータを可視化する
   - 
     id: bd7198d8c242eddfaeb5bd13
-    title: Show National Contiguity with a Force Directed Graph
+    title: 力学モデルによるグラフで国の隣接関係を表示する
   - 
     id: bd7108d8c242eddfaeb5bd13
-    title: Map Data Across the Globe
+    title: 世界地図にデータをマッピングする

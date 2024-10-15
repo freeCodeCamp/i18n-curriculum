@@ -16,7 +16,7 @@ Exemplo:
 <img src="https://www.freecatphotoapp.com/your-image.jpg">
 ```
 
-Observe que os elementos `img` fecham em si mesmos.
+Note that `img` is a void element.
 
 Todos os elementos `img` **precisam** ter um atributo `alt`. O texto de um atributo `alt` é usado por leitores de tela para melhorar a acessibilidade. Ele é exibido se a imagem não puder ser carregada.
 

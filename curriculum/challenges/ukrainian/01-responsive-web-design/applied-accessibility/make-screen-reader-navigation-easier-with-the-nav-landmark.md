@@ -39,7 +39,7 @@ Your code should not have any `div` tags.
 assert.lengthOf(document.querySelectorAll('div') , 0);
 ```
 
-Your `nav` element should have a closing tag.
+Елемент `nav` повинен мати кінцевий тег.
 
 ```js
 assert.isTrue(code.match(/<\/nav>/g)?.length === code.match(/<nav>/g)?.length);
