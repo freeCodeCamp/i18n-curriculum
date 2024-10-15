@@ -8,7 +8,7 @@ dashedName: remove-an-item-from-an-array
 
 # --description--
 
-Time to practice removing items from an array. The spread operator can be used here as well. Other useful JavaScript methods include `slice()` and `concat()`.
+配列からアイテムを削除する練習をしましょう。 ここでもスプレッド演算子を使用できます。 他にも `slice()` や `concat()` といった便利な JavaScript メソッドがあります。
 
 # --instructions--
 

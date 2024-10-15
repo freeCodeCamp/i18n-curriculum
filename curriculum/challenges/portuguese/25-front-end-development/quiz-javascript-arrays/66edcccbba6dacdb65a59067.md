@@ -1,6 +1,6 @@
 ---
 id: 66edcccbba6dacdb65a59067
-title: JavaScript Arrays Quiz
+title: Questionário sobre arrays em JavaScript
 challengeType: 8
 dashedName: quiz-javascript-arrays
 ---

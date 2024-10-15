@@ -8,7 +8,7 @@ dashedName: use--to-import-everything-from-a-file
 
 # --description--
 
-Suppose you have a file and you wish to import all of its contents into the current file. This can be done with the `import * as` syntax. Here's an example where the contents of a file named `math_functions.js` are imported into a file in the same directory:
+Suponha que você tem um arquivo e deseja importar todo o conteúdo dele no arquivo atual. Isso pode ser feito com a sintaxe `import * as`. Aqui está um exemplo onde todo o conteúdo de um arquivo chamado `math_function.js` é importado em um arquivo no mesmo diretório:
 
 ```js
 import * as myMathModule from "./math_functions.js";

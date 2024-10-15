@@ -15,7 +15,7 @@ You can use the `hr` tag to add a horizontal line across the width of its contai
 
 Füge ein `hr`-Tag unterhalb des `h4` ein, welches den Kartentitel enthält.
 
-**Hinweis:** In HTML ist `hr` ein selbstschließendes Tag und benötigt daher kein separates schließendes Tag.
+**Note:** In HTML, `hr` is a void element, and therefore doesn't need a separate closing tag.
 
 # --hints--
 

@@ -1,6 +1,6 @@
 ---
 id: 587d7dbe367417b2b2512bb8
-title: Use @if and @else to Add Logic To Your Styles
+title: '@if と @else を使用してスタイルにロジックを追加する'
 challengeType: 0
 forumTopicId: 301463
 dashedName: use-if-and-else-to-add-logic-to-your-styles
@@ -8,7 +8,7 @@ dashedName: use-if-and-else-to-add-logic-to-your-styles
 
 # --description--
 
-The `@if` directive in Sass is useful to test for a specific case - it works just like the `if` statement in JavaScript.
+Sass の `@if` ディレクティブは特定の case をテストするのに便利です。JavaScript の `if` ステートメントとまったく同じように動作します。
 
 ```scss
 @mixin make-bold($bool) {
@@ -18,7 +18,7 @@ The `@if` directive in Sass is useful to test for a specific case - it works jus
 }
 ```
 
-And just like in JavaScript, the `@else if` and `@else` directives test for more conditions:
+JavaScript と同様に、`@else if` と `@else` ディレクティブを使うとテストする条件を増やせます。
 
 ```scss
 @mixin text-effect($val) {
@@ -39,7 +39,7 @@ And just like in JavaScript, the `@else if` and `@else` directives test for more
 
 # --instructions--
 
-Create a mixin called `border-stroke` that takes a parameter `$val`. The mixin should check for the following conditions using `@if`, `@else if`, and `@else` directives:
+パラメーター `$val` を受け取る `border-stroke` というミックスインを作成してください。 ミックスインでは `@if`、`@else if`、`@else` ディレクティブを使用して次の条件をチェックしてください。
 
 ```scss
 light - 1px solid black
@@ -47,17 +47,17 @@ medium - 3px solid black
 heavy - 6px solid black
 ```
 
-If the `$val` parameter value is not `light`, `medium`, or `heavy`, then the `border` property should be set to `none`.
+もし `$val` パラメーターの値が `light`、`medium`、`heavy` のいずれでもない場合、`border` プロパティは `none` にしてください。
 
 # --hints--
 
-Your code should declare a mixin named `border-stroke` which has a parameter named `$val`.
+`$val` というパラメーターを持つ `border-stroke` というミックスインをコードで宣言します。
 
 ```js
 assert(code.match(/@mixin\s+?border-stroke\s*?\(\s*?\$val\s*?\)\s*?{/gi));
 ```
 
-Your mixin should have an `@if` statement to check if `$val` is `light`, and to set the `border` to `1px solid black`.
+ミックスインで `@if` ステートメントを使用して、`$val` が `light` かどうかをチェックし、`border` を `1px solid black` に設定します。
 
 ```js
 assert(
@@ -67,7 +67,7 @@ assert(
 );
 ```
 
-Your mixin should have an `@else if` statement to check if `$val` is `medium`, and to set the `border` to `3px solid black`.
+ミックスインで `@else if` ステートメントを使用して、`$val` が `medium` かどうかをチェックし、`border` を `3px solid black` に設定します。
 
 ```js
 assert(
@@ -77,7 +77,7 @@ assert(
 );
 ```
 
-Your mixin should have an `@else if` statement to check if `$val` is `heavy`, and to set the `border` to `6px solid black`.
+ミックスインで `@else if` ステートメントを使用して、`$val` が `heavy` かどうかをチェックし、`border` を `6px solid black` に設定します。
 
 ```js
 assert(
@@ -87,7 +87,7 @@ assert(
 );
 ```
 
-Your mixin should have an `@else` statement to set the `border` to `none`.
+ミックスインで `@else` ステートメントを使用して、`border` を `none` に設定します。
 
 ```js
 assert(code.match(/@else\s*?{\s*?border\s*?:\s*?none\s*?;\s*?}/gi));

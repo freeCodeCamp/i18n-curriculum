@@ -8,11 +8,11 @@ dashedName: build-a-product-landing-page
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to <a href="https://product-landing-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://product-landing-page.freecodecamp.rocks</a>. **Do not copy this demo project**.
+**目標:** <a href="https://product-landing-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://product-landing-page.freecodecamp.rocks</a> と似た機能を持つアプリを作成してください。 **このデモプロジェクトをコピーしないでください**。
 
 **ユーザーストーリー:**
 
-1. Your product landing page should have a `header` element with a corresponding `id="header"`
+1. このプロダクトランディングページには、`id="header"` を持つ `header` 要素があります
 1. `header` 要素内に、`id="header-img"` を持つ画像があります (ロゴのような画像を表示すると良いでしょう)
 1. `#header` の要素内には、`id="nav-bar"` を持つ `nav` 要素があります
 1. `nav` 要素内に少なくとも 3 つ、クリック可能な `nav-link` クラスの要素があります

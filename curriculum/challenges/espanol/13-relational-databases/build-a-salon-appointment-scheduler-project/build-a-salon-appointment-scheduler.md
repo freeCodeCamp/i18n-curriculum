@@ -8,7 +8,7 @@ dashedName: build-a-salon-appointment-scheduler
 
 # --description--
 
-This is one of the required projects to earn your certification. For this project, you will create an interactive Bash program that uses PostgreSQL to track the customers and appointments for your salon.
+Este es uno de los proyectos necesarios para obtener su certificación. Para este proyecto, creará un programa Bash interactivo que utilice PostgreSQL para rastrear los clientes y citas de su salón.
 
 # --instructions--
 

@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9acdd08826
-title: Learn How Script Tags and Document Ready Work
+title: スクリプトタグと Document Ready の仕組みを学ぶ
 challengeType: 6
 forumTopicId: 18224
 dashedName: learn-how-script-tags-and-document-ready-work
@@ -8,23 +8,23 @@ dashedName: learn-how-script-tags-and-document-ready-work
 
 # --description--
 
-Now we're ready to learn jQuery, the most popular JavaScript tool of all time.
+これで jQuery について学ぶ用意ができました。jQuery は今までで最も人気を得た JavaScript ツールです。
 
-Before we can start using jQuery, we need to add some things to our HTML.
+jQuery を使い始める前に、HTML にいくつか追加する必要があります。
 
-First, add a `script` element at the top of your page. Be sure to close it on the following line.
+まず、`script` 要素をページの先頭に追加してください。 必ず次の行でタグを終了してください。
 
-Your browser will run any JavaScript inside a `script` element, including jQuery.
+ブラウザーは `script` 要素の中で、jQuery を含む任意の JavaScript を実行します。
 
-Inside your `script` element, add this code: `$(document).ready(function() {` to your `script`. Then close it on the following line (still inside your `script` element) with: `});`
+`script` 要素の中で、コード `$(document).ready(function() {` を `script` に追加してください。 そして、次の行で `});` を使用してスクリプトを終了してください (まだ `script` 要素の内側です)。
 
-We'll learn more about `functions` later. The important thing to know is that code you put inside this `function` will run as soon as your browser has loaded your page.
+`function` についてはあとで詳しく説明します。 ここで重要なのは、この `function` の中に入れたコードは、ブラウザーがページの読み込みを完了するとすぐに実行されるということです。
 
-This is important because without your `document ready function`, your code may run before your HTML is rendered, which would cause bugs.
+これが重要である理由は、`document ready function` がなければ、HTML がレンダーされる前にコードが実行され、その結果バグを引き起こす可能性があるからです。
 
 # --hints--
 
-You should create a `script` element making sure it is valid and has a closing tag.
+`script` 要素を作成して、それが有効であり終了タグがあることを確認します。
 
 ```js
 assert(
@@ -39,7 +39,7 @@ assert(
 );
 ```
 
-You should add `$(document).ready(function() {` to the beginning of your `script` element.
+`$(document).ready(function() {` を `script` 要素の先頭に追加します。
 
 ```js
 assert(
@@ -49,7 +49,7 @@ assert(
 );
 ```
 
-You should close your `$(document).ready(function() {` function with `});`
+`});` を使用して `$(document).ready(function() {` 関数を終了します。
 
 ```js
 assert(code.match(/\n*?\s*?\}\s*?\);/g));

@@ -1,6 +1,6 @@
 ---
 id: 656bbfaf6cbc3f1418acca3c
-title: Task 6
+title: Tarefa 6
 challengeType: 22
 dashedName: task-6
 ---
@@ -9,7 +9,7 @@ dashedName: task-6
 
 # --description--
 
-Listen to the audio and complete the sentence.
+Ouça o áudio e complete a frase.
 
 # --fillInTheBlank--
 

@@ -1,6 +1,6 @@
 ---
 id: 66ed8ffcf45ce3ece4053eb5
-title: CSS Positioning Quiz
+title: Questionário sobre posicionamento em CSS
 challengeType: 8
 dashedName: quiz-css-positioning
 ---

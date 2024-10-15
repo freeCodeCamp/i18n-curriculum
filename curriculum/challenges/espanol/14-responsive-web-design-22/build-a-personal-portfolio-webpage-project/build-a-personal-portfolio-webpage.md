@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c242eddfaeb5bd13
-title: Construye una Página Web Personal
+title: Construye una página web personal
 challengeType: 14
 forumTopicId: 301143
 dashedName: build-a-personal-portfolio-webpage
@@ -8,12 +8,12 @@ dashedName: build-a-personal-portfolio-webpage
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to <a href="https://personal-portfolio.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://personal-portfolio.freecodecamp.rocks</a>. **Do not copy this demo project**.
+**Objetivo:** construye una aplicación que sea funcionalmente similar a <a href="https://personal-portfolio.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://personal-portfolio.freecodecamp.rocks</a>. **No copies este proyecto de demostración**.
 
 
 **Instrucciones:**
 
-1. Your portfolio should have a welcome section with an `id` of `welcome-section`
+1. Tu portafolio debe tener una sección de bienvenida con un `id` de `welcome-section`
 1. La sección de bienvenida debe tener un elemento `h1` que contenga texto
 1. Tu portafolio debe tener una sección de proyectos con un `id` de `projects`
 1. La sección de proyectos debe tener al menos un elemento con una `class` llamada `project-tile` para mantener el proyecto
@@ -27,7 +27,7 @@ dashedName: build-a-personal-portfolio-webpage
 
 Completa las intrucciones y pasa los tests de abajo para completar este projecto. Dale tu estilo personal. ¡Que tengas una feliz programación!
 
-**Nota:** Asegúrese de adicionar `<link rel="stylesheet" href="styles.css">` en su HTML para enlazar su hoja de estilos y aplicarla a su CSS
+**Nota:** Asegúrete de adicionar `<link rel="stylesheet" href="styles.css">` en tu HTML para enlazar la hoja de estilos y aplicarla a el CSS
 
 # --hints--
 

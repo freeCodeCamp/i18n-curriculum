@@ -11,7 +11,7 @@ dashedName: delete-your-jquery-functions
 
 # --description--
 
-These animations were cool at first, but now they're getting kind of distracting.
+こうしたアニメーションは当初は素敵でしたが、今では少し飽きられています。
 
 これら 3 つの jQuery 関数のすべてを `document ready function` から削除してください。ただし、`document ready function` 自体はそのままにしておいてください。
 

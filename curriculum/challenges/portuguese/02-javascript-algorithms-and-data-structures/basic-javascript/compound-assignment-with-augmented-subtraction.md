@@ -9,7 +9,7 @@ dashedName: compound-assignment-with-augmented-subtraction
 
 # --description--
 
-Like the `+=` operator, `-=` subtracts a number from a variable.
+Como o operador `+=`, `-=` subtrai um número de uma variável.
 
 ```js
 myVar = myVar - 5;

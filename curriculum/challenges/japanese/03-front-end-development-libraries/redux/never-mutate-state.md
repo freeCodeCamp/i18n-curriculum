@@ -8,7 +8,7 @@ dashedName: never-mutate-state
 
 # --description--
 
-These final challenges describe several methods of enforcing the key principle of state immutability in Redux. Immutable state means that you never modify state directly, instead, you return a new copy of state.
+以降のチャレンジでは、Redux で重要な状態の不変性の原則を強制するいくつかの方法について説明します。 イミュータブルな state とは、state を直接変更せず、代わりに state の新しいコピーを返すことです。
 
 Redux アプリの state のスナップショットを時間を追って取得すると、`state 1`、`state 2`、`state 3`、`state 4`、`...` のようなものが取得されます。各 state は最後の状態と似ている可能性がありますが、それぞれ別個のデータです。 この不変性こそが、皆さんが耳にしたことがあるかもしれないタイムトラベルデバッグのような機能を実現します。
 

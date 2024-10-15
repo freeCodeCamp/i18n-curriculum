@@ -19,7 +19,7 @@ Now let's create a web form.
 <input type="text">
 ```
 
-Зверніть увагу, що елементи `input` автоматично закриваються.
+Note that `input` is a void element.
 
 # --instructions--
 

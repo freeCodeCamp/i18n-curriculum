@@ -1,6 +1,6 @@
 ---
 id: acda2fb1324d9b0fa741e6b5
-title: Confirm the Ending
+title: 끝 부분 확인하기
 challengeType: 1
 forumTopicId: 16006
 dashedName: confirm-the-ending
@@ -14,25 +14,25 @@ This challenge *can* be solved with the `.endsWith()` method, which was introduc
 
 # --hints--
 
-`confirmEnding("Bastian", "n")` should return `true`.
+`confirmEnding("Bastian", "n")`은 `true`를 반환합니다.
 
 ```js
 assert(confirmEnding('Bastian', 'n') === true);
 ```
 
-`confirmEnding("Congratulation", "on")` should return `true`.
+`confirmEnding("Congratulation", "on")`은 `true`를 반환합니다.
 
 ```js
 assert(confirmEnding('Congratulation', 'on') === true);
 ```
 
-`confirmEnding("Connor", "n")` should return `false`.
+`confirmEnding("Connor", "n")`은 `false`를 반환합니다.
 
 ```js
 assert(confirmEnding('Connor', 'n') === false);
 ```
 
-`confirmEnding("Walking on water and developing software from a specification are easy if both are frozen", "specification")` should return `false`.
+`confirmEnding("Walking on water and developing software from a specification are easy if both are frozen", "specification")`은 `false`를 반환합니다.
 
 ```js
 assert(
@@ -43,25 +43,25 @@ assert(
 );
 ```
 
-`confirmEnding("He has to give me a new name", "name")` should return `true`.
+`confirmEnding("He has to give me a new name", "name")`은 `true`를 반환합니다.
 
 ```js
 assert(confirmEnding('He has to give me a new name', 'name') === true);
 ```
 
-`confirmEnding("Open sesame", "same")` should return `true`.
+`confirmEnding("Open sesame", "same")`은 `true`를 반환합니다.
 
 ```js
 assert(confirmEnding('Open sesame', 'same') === true);
 ```
 
-`confirmEnding("Open sesame", "sage")` should return `false`.
+`confirmEnding("Open sesame", "sage")`은 `false`를 반환합니다.
 
 ```js
 assert(confirmEnding('Open sesame', 'sage') === false);
 ```
 
-`confirmEnding("Open sesame", "game")` should return `false`.
+`confirmEnding("Open sesame", "game")`은 `false`를 반환합니다.
 
 ```js
 assert(confirmEnding('Open sesame', 'game') === false);
@@ -78,13 +78,13 @@ assert(
 );
 ```
 
-`confirmEnding("Abstraction", "action")` should return `true`.
+`confirmEnding("Abstraction", "action")`은 `true`를 반환합니다.
 
 ```js
 assert(confirmEnding('Abstraction', 'action') === true);
 ```
 
-Your code should not use the built-in method `.endsWith()` to solve the challenge.
+해당 도전 과제를 해결하기 위해 내장 메소드인 `.endsWith()`를 사용하지 않아야 합니다.
 
 ```js
 assert(!/\.endsWith\(.*?\)\s*?;?/.test(__helpers.removeJSComments(code)) && !/\['endsWith'\]/.test(__helpers.removeJSComments(code)));

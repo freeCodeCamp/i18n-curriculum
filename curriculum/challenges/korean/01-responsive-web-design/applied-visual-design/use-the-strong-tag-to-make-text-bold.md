@@ -1,6 +1,6 @@
 ---
 id: 587d781a367417b2b2512ab7
-title: Use the strong Tag to Make Text Bold
+title: Strong 태그로 굵은 텍스트 만들기
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/ceJNBSb'
 forumTopicId: 301080
@@ -13,17 +13,17 @@ To make text bold, you can use the `strong` tag. This is often used to draw atte
 
 # --instructions--
 
-Wrap a `strong` tag around the text `Stanford University` inside the `p` tag (do not include the period).
+`p` 태그 내부에 있는 `Stanford University` 텍스트를 `strong`태그로 감싸보세요(마침표는 포함하지 마세요).
 
 # --hints--
 
-Your code should add one `strong` tag to the markup.
+코드에서 마크업에 `strong` 태그를 하나 추가해야 합니다.
 
 ```js
 assert.lengthOf(document.querySelectorAll('strong'),1);
 ```
 
-The `strong` tag should be inside the `p` tag.
+`strong` 태그는 `p` 태그 내부에 위치해야 합니다.
 
 ```js
 const pargraphElement = document.querySelector('p');
@@ -31,7 +31,7 @@ const pargraphChildren = pargraphElement?.querySelectorAll(`:scope ${'strong'}`)
 assert.lengthOf(pargraphChildren, 1);
 ```
 
-The `strong` tag should wrap around the words `Stanford University`.
+`strong` 태그는 `Stanford University`라는 단어를 감싸야 합니다.
 
 ```js
 assert.match(document.querySelector('strong')?.textContent, /^Stanford University\.?$/gi);

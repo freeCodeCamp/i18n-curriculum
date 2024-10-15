@@ -8,7 +8,7 @@ dashedName: apply-the-default-bootstrap-button-style
 
 # --description--
 
-Bootstrap has another button class called `btn-default`.
+Bootstrap には `btn-default` という別のボタンクラスがあります。
 
 各 `button` 要素に `btn` クラスと `btn-default` クラスの両方を適用してください。
 

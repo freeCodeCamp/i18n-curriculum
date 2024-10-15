@@ -1,6 +1,6 @@
 ---
 id: 5900f3db1000cf542c50feec
-title: 'Problem 109: Darts'
+title: 'Problema 109: Dardos'
 challengeType: 1
 forumTopicId: 301733
 dashedName: problem-109-darts
@@ -8,17 +8,17 @@ dashedName: problem-109-darts
 
 # --description--
 
-In the game of darts a player throws three darts at a target board which is split into twenty equal sized sections numbered one to twenty.
+En el juego de dardos, un jugador lanza tres dardos a un tablero objetivo que está dividido en veinte secciones de igual tamaño numeradas del uno al veinte.
 
-<img alt="Darts board" src="https://cdn.freecodecamp.org/curriculum/project-euler/darts.png" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
+<img alt="Tablero de dardos" src="https://cdn.freecodecamp.org/curriculum/project-euler/darts.png" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-The score of a dart is determined by the number of the region that the dart lands in. A dart landing outside the red/green outer ring scores zero. The black and cream regions inside this ring represent single scores. However, the red/green outer ring and middle ring score double and treble scores respectively.
+La puntuación de un dardo se determina por el número de la región en la que el dardo aterriza. Un dardo que aterriza fuera del anillo exterior rojo/verde puntúa cero. Las regiones negras y crema dentro de este anillo representan puntuaciones simples. Sin embargo, el anillo exterior rojo/verde y el anillo del medio puntúan doble y triple respectivamente.
 
-At the center of the board are two concentric circles called the bull region, or bulls-eye. The outer bull is worth 25 points and the inner bull is a double, worth 50 points.
+En el centro del tablero hay dos círculos concéntricos llamados la región del toro o diana. El toro exterior vale 25 puntos y el toro interior es un doble, valiendo 50 puntos.
 
-There are many variations of rules but in the most popular game the players will begin with a score of 301 or 501 and the first player to reduce their running total to zero is a winner. However, it is normal to play a "doubles out" system, which means that the player must land a double (including the double bulls-eye at the center of the board) on their final dart to win; any other dart that would reduce their running total to one or lower means the score for that set of three darts is "bust".
+Existen muchas variaciones de reglas, pero en el juego más popular, los jugadores comienzan con una puntuación de 301 o 501 y el primer jugador que reduce su total acumulado a cero es el ganador. Sin embargo, es normal jugar un sistema de "dobles de salida", lo que significa que el jugador debe lograr un doble (incluyendo la doble diana en el centro del tablero) con su dardo final para ganar; cualquier otro dardo que reduciría su total acumulado a uno o menos significa que la puntuación para ese conjunto de tres dardos es "quebrado".
 
-When a player is able to finish on their current score it is called a "checkout" and the highest checkout is 170: T20 T20 D25 (two treble 20s and double bull). There are exactly eleven distinct ways to checkout on a score of 6:
+Cuando un jugador puede terminar con su puntuación actual, se llama "checkout" y el checkout más alto es 170: T20 T20 D25 (dos triple 20s y un doble toro). Hay exactamente once maneras distintas de hacer checkout con una puntuación de 6:
 
 $$\begin{array}   \text{D3} &    &    \\\\
   D1        & D2 &    \\\\   S2        & D2 &    \\\\
@@ -27,11 +27,11 @@ $$\begin{array}   \text{D3} &    &    \\\\
   S1        & S3 & D1 \\\\   D1        & D1 & D1 \\\\
   D1        & S2 & D1 \\\\ S2        & S2 & D1 \end{array}$$
 
-Note that D1 D2 is considered different from D2 D1 as they finish on different doubles. However, the combination S1 T1 D1 is considered the same as T1 S1 D1. In addition, we shall not include misses in considering combinations; for example, D3 is the same as 0 D3 and 0 0 D3. Incredibly there are 42336 distinct ways of checking out in total. How many distinct ways can a player checkout with a score less than 100?
+Observar que D1 D2 se considera diferente de D2 D1, ya que terminan en dobles diferentes. Sin embargo, la combinación S1 T1 D1 se considera igual que T1 S1 D1. Además, no incluiremos fallos al considerar combinaciones; por ejemplo, D3 es lo mismo que 0 D3 y 0 0 D3. Increíblemente, hay 42336 maneras distintas de hacer checkout en total. ¿Cuántas maneras distintas puede un jugador hacer checkout con una puntuación menor a 100?
 
 # --hints--
 
-`darts()` should return `38182`.
+`darts()` debe devolver `38182`.
 
 ```js
 assert.strictEqual(darts(), 38182);

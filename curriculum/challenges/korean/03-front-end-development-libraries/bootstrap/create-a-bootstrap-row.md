@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9bec908846
-title: Create a Bootstrap Row
+title: 부트스트랩 행 생성하기
 challengeType: 0
 forumTopicId: 16813
 dashedName: create-a-bootstrap-row
@@ -10,11 +10,11 @@ dashedName: create-a-bootstrap-row
 
 Now we'll create a Bootstrap row for our inline elements.
 
-Create a `div` element below the `h3` tag, with a class of `row`.
+`h3`태그 아래에 `div` 요소를 생성하고, `row` 클래스를 지정해주세요.
 
 # --hints--
 
-You should add a `div` element below your `h3` element.
+`h3` 요소 아래에 `div` 요소를 추가해야 합니다.
 
 ```js
 assert.lengthOf(document.querySelectorAll('div'),2);
@@ -23,20 +23,20 @@ assert.lengthOf(document.querySelectorAll('div.row + h3.text-primary'),0)
 assert.lengthOf(document.querySelectorAll('h3.text-primary + div.row'),1);
 ```
 
-Your `div` element should have the class `row`
+`div` 요소에는 `row` 클래스가 있어야 합니다.
 
 ```js
 const newDiv = document.querySelectorAll('div')?.[1]; 
 assert.isTrue(newDiv?.classList?.contains('row'));
 ```
 
-Your `row div` should be nested inside the `container-fluid div`
+`row div`는 `container-fluid div` 안에 들어있어야 합니다.
 
 ```js
 assert.lengthOf(document.querySelectorAll('div.container-fluid div.row'),1);
 ```
 
-Your `div` element should have a closing tag.
+`div` 요소는 닫는 태그를 가져야 합니다.
 
 ```js
 assert.match(code,/<\/div>/g);

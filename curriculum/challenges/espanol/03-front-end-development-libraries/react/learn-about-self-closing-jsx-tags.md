@@ -12,7 +12,7 @@ So far, you’ve seen how JSX differs from HTML in a key way with the use of `cl
 
 Otra forma importante en la que JSX difiere de HTML está en la idea de la etiqueta de auto-cierre.
 
-En HTML, casi todas las etiquetas tienen una etiqueta de apertura y cierre: `<div></div>`; la etiqueta de cierre siempre tiene una barra inclinada antes del nombre de la etiqueta que está cerrando. Sin embargo, hay instancias especiales en HTML llamadas “etiquetas auto-cerradas”, o etiquetas que no requieren una etiqueta de apertura y cierre antes de que otra etiqueta pueda comenzar.
+En HTML, casi todas las etiquetas tienen una etiqueta de apertura y cierre: `<div></div>`; la etiqueta de cierre siempre tiene una barra inclinada antes del nombre de la etiqueta que está cerrando. However, there are special instances in HTML called <dfn>void elements</dfn>, or elements that don’t require both an opening and closing tag before another element can start.
 
 Por ejemplo, la etiqueta de salto de línea puede escribirse como `<br>` o como `<br />`, pero nunca debe escribirse como `<br></br>`, ya que no contiene ningún contenido.
 

@@ -12,7 +12,7 @@ So far, you’ve seen how JSX differs from HTML in a key way with the use of `cl
 
 Ein weiterer wichtiger Unterschied zwischen JSX und HTML besteht in der Idee des selbstschließenden Tags.
 
-In HTML haben fast alle Tags sowohl einen öffnenden als auch einen schließenden Tag: `<div></div>`; der schließende Tag hat immer einen Schrägstrich vor dem Namen des Tags, den du schließt. Es gibt jedoch spezielle Fälle in HTML, die "selbstschließende Tags" genannt werden, also Tags, die keinen öffnenden und schließenden Tag benötigen, bevor ein anderer Tag beginnen kann.
+In HTML haben fast alle Tags sowohl einen öffnenden als auch einen schließenden Tag: `<div></div>`; der schließende Tag hat immer einen Schrägstrich vor dem Namen des Tags, den du schließt. However, there are special instances in HTML called <dfn>void elements</dfn>, or elements that don’t require both an opening and closing tag before another element can start.
 
 Das Zeilenumbruch-Tag kann zum Beispiel als `<br>` oder als `<br />` geschrieben werden, sollte aber nie als `<br></br>` geschrieben werden, da es keinen Inhalt enthält.
 

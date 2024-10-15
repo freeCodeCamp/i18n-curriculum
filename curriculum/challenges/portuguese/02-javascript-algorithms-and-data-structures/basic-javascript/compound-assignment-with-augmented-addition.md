@@ -9,7 +9,7 @@ dashedName: compound-assignment-with-augmented-addition
 
 # --description--
 
-In programming, it is common to use assignments to modify the contents of a variable. Remember that everything to the right of the equals sign is evaluated first, so we can say:
+Na programação, é comum usar atribuições para modificar o conteúdo de uma variável. Lembre-se de que tudo à direita do sinal de igual é avaliado primeiro, para que possamos dizer:
 
 ```js
 myVar = myVar + 5;

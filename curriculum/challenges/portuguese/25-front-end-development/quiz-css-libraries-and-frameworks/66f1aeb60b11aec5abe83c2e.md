@@ -1,6 +1,6 @@
 ---
 id: 66f1aeb60b11aec5abe83c2e
-title: CSS Libraries and Frameworks Quiz
+title: Questionário sobre bibliotecas e frameworks do CSS
 challengeType: 8
 dashedName: quiz-css-libraries-and-frameworks
 ---

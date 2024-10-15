@@ -8,7 +8,7 @@ dashedName: cash-register
 
 # --description--
 
-Design a cash register drawer function `checkCashRegister()` that accepts purchase price as the first argument (`price`), payment as the second argument (`cash`), and cash-in-drawer (`cid`) as the third argument.
+Implemente uma função de caixa registradora `checkCashRegister()` que aceita o preço de compra como o primeiro argumento (`price`), pagamento como o segundo argumento (`cash`) e dinheiro na registradora (`cid`) como o terceiro argumento.
 
 `cid` é um array de duas dimensões listando a moeda disponível e a quantidade.
 

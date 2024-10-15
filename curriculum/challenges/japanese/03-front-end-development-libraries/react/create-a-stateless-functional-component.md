@@ -8,7 +8,7 @@ dashedName: create-a-stateless-functional-component
 
 # --description--
 
-Components are the core of React. Everything in React is a component and here you will learn how to create one.
+コンポーネントは React の中心となるものです。 React にあるものはすべてコンポーネントです。ここではコンポーネントの作成方法について説明します。
 
 React コンポーネントは 2 つの方法で作成できます。 1 つ目は JavaScript 関数を使用する方法です。 この方法でコンポーネントを定義すると、*ステートレス関数型コンポーネント*が作成されます。 アプリケーションにおける state (状態、ステート) の概念については以降のチャレンジで説明しますが、 ここではステートレスコンポーネントを「データを受け取ってレンダーすることができるが、データの変更を管理または追跡することをしないコンポーネント」であると理解してください (React コンポーネントを作成する 2 つ目の方法については次のチャレンジで説明します)。
 

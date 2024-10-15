@@ -8,7 +8,7 @@ dashedName: handle-an-action-in-the-store
 
 # --description--
 
-After an action is created and dispatched, the Redux store needs to know how to respond to that action. This is the job of a `reducer` function. Reducers in Redux are responsible for the state modifications that take place in response to actions. A `reducer` takes `state` and `action` as arguments, and it always returns a new `state`. It is important to see that this is the **only** role of the reducer. It has no side effects — it never calls an API endpoint and it never has any hidden surprises. The reducer is simply a pure function that takes state and action, then returns new state.
+アクションが作成されてディスパッチされた後、Redux ストアでは、そのアクションに対してどう応答するかを知る必要があります。 その役割を担うのが `reducer` (リデューサー) 関数です。 Redux のリデューサーは、アクションに応じて行われる state の変更を担います。 `reducer` は、引数として `state` と `action` を受け取り、常に新しい `state` を返します。 ここで重要なのは、これがレデューサーの**唯一の**役割であると理解することです。 副次的な処理はまったくありません。API のエンドポイントを呼び出すこともなく、驚くようなことも隠されていません。 レデューサーは、state と action を受け取って新しい state を返すだけの純粋な関数です。
 
 Redux のもう一つの重要な原則は「`state` は読み取り専用である」ことです。 言い換えれば、`reducer` 関数は**常に** `state` の新しいコピーを返す必要があり、state を直接変更することは決して許されません。 Redux では状態の不変性を強制してはいませんが、レデューサー関数のコードではプログラマーが状態の不変性を強制する必要があります。 これについてはこのあとのチャレンジで練習します。
 

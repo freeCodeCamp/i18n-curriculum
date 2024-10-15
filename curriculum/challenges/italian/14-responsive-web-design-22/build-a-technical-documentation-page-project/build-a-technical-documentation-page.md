@@ -8,11 +8,11 @@ dashedName: build-a-technical-documentation-page
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to <a href="https://technical-documentation-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://technical-documentation-page.freecodecamp.rocks</a>. **Do not copy this demo project**.
+**Obiettivo:** crea un'app funzionalmente simile a questa: <a href="https://technical-documentation-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://technical-documentation-page.freecodecamp.rocks</a>. **Non copiare questo progetto demo**.
 
-**User story (storia d'utente):**
+**User story:**
 
-1. You can see a `main` element with a corresponding `id="main-doc"`, which contains the page's main content (technical documentation)
+1. Puoi vedere un elemento `main` con un corrispondente `id="main-doc"`, che contiene il contenuto principale della pagina (documentazione tecnica)
 1. Dentro l'elemento `#main-doc`, puoi aggiungere svariati elementi `section`, ognuno con una classe di valore `main-section`. Dovrebbero essercene almeno cinque
 1. Il primo elemento dentro ogni `.main-section` dovrebbe essere un elemento `header`, che contiene testo che descrive l'argomento della sezione.
 1. Ogni elemento `section` con la classe `main-section` dovrebbe avere un `id` che corrisponde al testo di ogni elemento `header` al suo interno. Qualsiasi spazio deve essere sostituito con un underscore (ad esempio, la sezione che contiene l'intestazione "JavaScript and Java" dovrebbe avere un corrispondente `id="JavaScript_and_Java"`)

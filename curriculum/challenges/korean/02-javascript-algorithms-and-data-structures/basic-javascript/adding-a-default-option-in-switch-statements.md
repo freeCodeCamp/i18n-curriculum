@@ -68,7 +68,7 @@ assert(switchOfStuff('d') === 'stuff');
 assert(switchOfStuff(4) === 'stuff');
 ```
 
-You should not use any `if` or `else` statements
+`if` 나 `else`문을 사용하지 않아야 합니다.
 
 ```js
 assert(!/else/g.test(__helpers.removeJSComments(code)) || !/if/g.test(__helpers.removeJSComments(code)));

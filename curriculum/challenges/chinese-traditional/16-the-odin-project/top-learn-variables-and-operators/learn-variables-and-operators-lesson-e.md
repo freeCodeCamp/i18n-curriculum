@@ -9,14 +9,14 @@ dashedName: learn-variables-and-operators-lesson-e
 
 Numbers are the building blocks of programming logic! In fact, it’s hard to think of any useful programming task that doesn’t involve at least a little basic math… so knowing how numbers work is obviously quite important. Luckily, it’s also fairly straightforward.
 
-| Operator | 描述             | Example      |
-| -------- | -------------- | ------------ |
-| +        | Addition       | 5 + 3 = 8    |
-| -        | Subtraction    | 5 - 3 = 2    |
-| *        | Multiplication | 5 * 3 = 15   |
-| **       | Exponentiation | 5 ** 3 = 125 |
-| /        | Division       | 6 / 3 = 2    |
-| %        | Modulus        | 5 % 3 = 2    |
+| 運算符 | 描述             | Example      |
+| --- | -------------- | ------------ |
+| +   | Addition       | 5 + 3 = 8    |
+| -   | Subtraction    | 5 - 3 = 2    |
+| *   | Multiplication | 5 * 3 = 15   |
+| **  | Exponentiation | 5 ** 3 = 125 |
+| /   | Division       | 6 / 3 = 2    |
+| %   | Modulus        | 5 % 3 = 2    |
 
 
 # --作業--

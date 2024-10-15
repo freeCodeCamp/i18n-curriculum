@@ -1,6 +1,6 @@
 ---
 id: 587d7dbf367417b2b2512bba
-title: Use @each to Map Over Items in a List
+title: '@each を使用してリスト内の各アイテムをマップする'
 challengeType: 0
 forumTopicId: 301461
 dashedName: use-each-to-map-over-items-in-a-list
@@ -8,7 +8,7 @@ dashedName: use-each-to-map-over-items-in-a-list
 
 # --description--
 
-The last challenge showed how the `@for` directive uses a starting and ending value to loop a certain number of times. Sass also offers the `@each` directive which loops over each item in a list or map. On each iteration, the variable gets assigned to the current value from the list or map.
+前回のチャレンジでは、 `@for` ディレクティブで開始値と終了値を使用して特定の回数を繰り返し処理する方法を紹介しました。 Sass には、リストやマップの各アイテムをループ処理する `@each` ディレクティブもあります。 それぞれの繰り返しで、リストまたはマップの現在の値が変数に割り当てられます。
 
 ```scss
 @each $color in blue, red, green {
@@ -16,7 +16,7 @@ The last challenge showed how the `@for` directive uses a starting and ending va
 }
 ```
 
-A map has slightly different syntax. Here's an example:
+マップの構文は少し異なります。 以下が例です:
 
 ```scss
 $colors: (color1: blue, color2: red, color3: green);
@@ -26,7 +26,7 @@ $colors: (color1: blue, color2: red, color3: green);
 }
 ```
 
-Note that the `$key` variable is needed to reference the keys in the map. Otherwise, the compiled CSS would have `color1`, `color2`... in it. Both of the above code examples are converted into the following CSS:
+マップのキーを参照するために `$key` 変数が必要です。 変数がない場合、コンパイル後の CSS には `color1`、 `color2`... が含まれます。 上記のコード例はどちらも次の CSS に変換されます。
 
 ```scss
 .blue-text {
@@ -44,29 +44,29 @@ Note that the `$key` variable is needed to reference the keys in the map. Otherw
 
 # --instructions--
 
-Write an `@each` directive that goes through a list: `blue, black, red` and assigns each variable to a `.color-bg` class, where the `color` part changes for each item to the respective color. Each class should set the `background-color` to the respective color as well.
+リスト `blue, black, red` をひととおり処理して各変数に `.color-bg` クラス (`color` の部分はアイテムごとに対応する色名に変化します) を割り当てる `@each` ディレクティブを記述してください。 各クラスの `background-color` にもそれぞれの色を設定してください。
 
 # --hints--
 
-Your code should use the `@each` directive.
+コードで `@each` ディレクティブを使用します。
 
 ```js
 assert(code.match(/@each /g));
 ```
 
-Your `.blue-bg` class should have a `background-color` of blue.
+`.blue-bg` クラスの `background-color` を青に設定します。
 
 ```js
 assert($('.blue-bg').css('background-color') == 'rgb(0, 0, 255)');
 ```
 
-Your `.black-bg` class should have a `background-color` of black.
+`.black-bg` クラスの `background-color` を黒に設定します。
 
 ```js
 assert($('.black-bg').css('background-color') == 'rgb(0, 0, 0)');
 ```
 
-Your `.red-bg` class should have a `background-color` of red.
+`.red-bg` クラスの `background-color` を赤に設定します。
 
 ```js
 assert($('.red-bg').css('background-color') == 'rgb(255, 0, 0)');

@@ -17,7 +17,7 @@ Puoi creare il testo segnaposto in questo modo:
 <input type="text" placeholder="this is placeholder text">
 ```
 
-**Nota:** Ricorda che gli elementi `input` non hanno bisogno di un tag di chiusura.
+**Note:** Remember that `input` is a void element.
 
 # --instructions--
 

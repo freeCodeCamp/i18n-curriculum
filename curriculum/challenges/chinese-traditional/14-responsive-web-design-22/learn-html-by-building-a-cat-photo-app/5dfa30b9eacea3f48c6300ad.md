@@ -9,7 +9,7 @@ dashedName: step-15
 
 In previous steps you used an anchor element to turn text into a link. Other types of content can also be turned into a link by wrapping it in anchor tags.
 
-Here is an example of turning an image into a link:
+這是一個將圖像轉換爲鏈接的示例：
 
 ```html
 <a href="example-link">
@@ -21,7 +21,7 @@ Turn the image into a link by surrounding it with necessary element tags. Use `h
 
 # --hints--
 
-You should have an `img` element with a `src` value of `https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg`. You may have accidentally deleted it.
+`img` 元素的 `src` 屬性值應爲 `https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg`。 You may have accidentally deleted it.
 
 ```js
 assert(
@@ -31,7 +31,7 @@ assert(
 );
 ```
 
-Your anchor (`a`) element should have an opening tag. Opening tags have this syntax: `<elementName>`.
+Your anchor (`a`) element should have an opening tag. 開始標籤的書寫語法爲：`<elementName>`。
 
 ```js
 assert(document.querySelectorAll('a').length >= 2);

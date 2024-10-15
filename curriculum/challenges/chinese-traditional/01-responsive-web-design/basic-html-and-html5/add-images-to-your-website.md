@@ -16,7 +16,7 @@ You can add images to your website by using the `img` element, and point to a sp
 <img src="https://www.freecatphotoapp.com/your-image.jpg">
 ```
 
-注意：`img` 元素是沒有結束標籤的。
+Note that `img` is a void element.
 
 所有的 `img` 元素 **必須** 有 `alt` 屬性。 `alt` 的屬性值有兩個作用，第一個作用是讓屏幕閱讀器可以知曉圖片的內容，這會對網頁的可訪問性有很大提升；另一個作用是當圖片無法加載時，頁面需要顯示的替代文本。
 

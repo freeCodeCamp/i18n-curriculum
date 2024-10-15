@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d4036148
-title: Connect Redux to the Messages App
+title: Redux をメッセージアプリに接続する
 challengeType: 6
 forumTopicId: 301427
 dashedName: connect-redux-to-the-messages-app
@@ -8,17 +8,17 @@ dashedName: connect-redux-to-the-messages-app
 
 # --description--
 
-Now that you understand how to use `connect` to connect React to Redux, you can apply what you've learned to your React component that handles messages.
+`connect` を使用して React を Redux に接続する方法を理解したところで、メッセージを処理する React コンポーネントに応用してみましょう。
 
-In the last lesson, the component you connected to Redux was named `Presentational`, and this wasn't arbitrary. This term *generally* refers to React components that are not directly connected to Redux. They are simply responsible for the presentation of UI and do this as a function of the props they receive. By contrast, container components are connected to Redux. These are typically responsible for dispatching actions to the store and often pass store state to child components as props.
+前回のレッスンで、Redux に接続したコンポーネントは `Presentational` という名前でしたが、これは勝手に付けたものではありません。 この用語は*全般的に*、Redux に直接接続していない React コンポーネントのことを指します。 これらのコンポーネントは、単に UI の表現部分 (プレゼンテーション) を担い、自身が受け取る props の関数としてその機能を実行します。 これに対して、コンテナーコンポーネントは Redux に接続します。 これらは通常、ストアにアクションをディスパッチする役割を担い、多くの場合、ストアの state を props として子コンポーネントに渡します。
 
 # --instructions--
 
-The code editor has all the code you've written in this section so far. The only change is that the React component is renamed to `Presentational`. Create a new component held in a constant called `Container` that uses `connect` to connect the `Presentational` component to Redux. Then, in the `AppWrapper`, render the React Redux `Provider` component. Pass `Provider` the Redux `store` as a prop and render `Container` as a child. Once everything is set up, you will see the messages app rendered to the page again.
+コードエディターには、ここまでこのセクションで記述したすべてのコードがあります。 一つだけ、React コンポーネントの名前が `Presentational` に変更されています。 `Container` という定数に保持する新しいコンポーネントを作成してください。このコンポーネントは、`connect` を使用して `Presentational` コンポーネントを Redux に接続します。 次に、`AppWrapper` の中で React Redux の `Provider` コンポーネントをレンダーしてください。 `Provider` に Redux の `store` を prop として渡し、`Container` を子としてレンダーしてください。 すべての設定が完了すると、再びメッセージアプリがページにレンダーされます。
 
 # --hints--
 
-The `AppWrapper` should render to the page.
+`AppWrapper` をページにレンダーします。
 
 ```js
 assert(
@@ -29,7 +29,7 @@ assert(
 );
 ```
 
-The `Presentational` component should render to page.
+`Presentational` コンポーネントをページにレンダーします。
 
 ```js
 assert(
@@ -40,7 +40,7 @@ assert(
 );
 ```
 
-The `Presentational` component should render an `h2`, `input`, `button`, and `ul` elements.
+`Presentational` コンポーネントで、`h2`、`input`、`button`、`ul` の各要素をレンダーします。
 
 ```js
 assert(
@@ -57,7 +57,7 @@ assert(
 );
 ```
 
-The `Presentational` component should receive `messages` from the Redux store as a prop.
+`Presentational` コンポーネントで、Redux ストアから `messages` を prop として受け取ります。
 
 ```js
 assert(
@@ -70,7 +70,7 @@ assert(
 );
 ```
 
-The `Presentational` component should receive the `submitMessage` action creator as a prop.
+`Presentational` コンポーネントで、`submitMessage` アクションクリエイターを prop として受け取ります。
 
 ```js
 assert(

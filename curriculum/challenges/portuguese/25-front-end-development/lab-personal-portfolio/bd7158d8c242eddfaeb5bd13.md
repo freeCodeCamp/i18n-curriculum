@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c242eddfaeb5bd13
-title: Build a Personal Portfolio
+title: Crie um portfólio pessoal
 challengeType: 14
 dashedName: build-a-personal-portfolio
 demoType: onClick
@@ -8,23 +8,23 @@ demoType: onClick
 
 # --description--
 
-Fulfill the user stories below and get all the tests to pass to complete the lab.
+Atenda às histórias de usuário abaixo e faça todos os testes passarem para completar o laboratório.
 
 **Histórias de usuário:**
 
-1. Your portfolio should have a welcome section with an `id` of `welcome-section`.
-2. The welcome section should have an `h1` element that contains text.
+1. O portfólio deve ter uma seção de boas-vindas com o `id` `welcome-section`.
+2. A seção de boas-vindas deve ter um elemento `h1` que contenha texto.
 3. Your portfolio should have a projects section with an `id` of `project-section`.
-4. The projects section should contain at least one element with a `class` of `project-tile` to hold a project.
-5. The projects section should contain at least one link to a project.
-6. Your portfolio should have a navbar with an id of `navbar`.
-7. The navbar should contain at least one link that you can click on to navigate to different sections of the page.
-8. Your portfolio should have a link with an id of `profile-link`, which opens your GitHub or freeCodeCamp profile in a new tab.
-9. Your portfolio should have at least one media query.
-10. The height of the welcome section should be equal to the height of the viewport.
-11. The navbar should always be at the top of the viewport.
+4. A seção de projetos deve conter pelo menos um elemento com a `class` `project-tile` que contenha um projeto.
+5. A seção de projetos deve conter pelo menos um link para um projeto.
+6. O portfólio precisa ter uma barra de navegação com o id `navbar`.
+7. A barra de navegação deve conter pelo menos um link clicável que navegue para seções diferentes da página.
+8. O portfólio deve ter um link com o id `profile-link`, que abra seu perfil no GitHub ou no freeCodeCamp em uma nova aba.
+9. O portfólio deve ter pelo menos uma media query.
+10. A altura da seção de boas-vindas deve ser igual à altura da viewport.
+11. A barra de navegação deve estar sempre na parte superior da viewport.
 
-**Note:** Be sure to link your stylesheet in your HTML and apply your CSS.
+**Observação:** certifique-se de vincular sua folha de estilo ao HTML e de aplicar o CSS.
 
 # --hints--
 

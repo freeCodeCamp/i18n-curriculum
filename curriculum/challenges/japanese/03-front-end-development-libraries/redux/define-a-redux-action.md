@@ -8,7 +8,7 @@ dashedName: define-a-redux-action
 
 # --description--
 
-Since Redux is a state management framework, updating state is one of its core tasks. In Redux, all state updates are triggered by dispatching actions. An action is simply a JavaScript object that contains information about an action event that has occurred. The Redux store receives these action objects, then updates its state accordingly. Sometimes a Redux action also carries some data. For example, the action carries a username after a user logs in. While the data is optional, actions must carry a `type` property that specifies the 'type' of action that occurred.
+Redux は状態管理フレームワークであり、したがって state の更新はその中心的な作業の一つです。 Redux では、state の更新はすべて、アクションをディスパッチすることによってトリガーされます。 アクションとは、発生したアクションイベントに関する情報を格納する単なる JavaScript オブジェクトです。 Redux ストアは、これらのアクションオブジェクトを受け取り、それに応じて自身の state を更新します。 場合によっては、Redux のアクションにも何らかのデータが伴うことがあります。 たとえば、ユーザーのログイン後にアクションはユーザー名を伴います。 データは省略可能ですが、アクションには、発生したアクションの「タイプ」を指定する `type` プロパティを持たせる必要があります。
 
 Redux のアクションは、アプリで発生しているイベントに関する情報を Redux ストアに届けるメッセンジャーと捉えることができます。 情報を受け取ったストアは、発生したアクションに基づいて状態を更新する役割を果たします。
 

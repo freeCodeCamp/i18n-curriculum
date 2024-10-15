@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d4036149
-title: Extract Local State into Redux
+title: ローカルの state を Redux に抽出する
 challengeType: 6
 forumTopicId: 301428
 dashedName: extract-local-state-into-redux
@@ -8,17 +8,17 @@ dashedName: extract-local-state-into-redux
 
 # --description--
 
-You're almost done! Recall that you wrote all the Redux code so that Redux could control the state management of your React messages app. Now that Redux is connected, you need to extract the state management out of the `Presentational` component and into Redux. Currently, you have Redux connected, but you are handling the state locally within the `Presentational` component.
+完成までもう少しです！ Redux が React メッセージアプリの状態管理を制御できるように、すべての Redux コードを記述しました。 Redux に接続したので、`Presentational` コンポーネントから Redux に状態管理を抽出する必要があります。 現在は Redux に接続した状態ですが、`Presentational` コンポーネントの中で状態をローカルに処理しています。
 
 # --instructions--
 
-In the `Presentational` component, first, remove the `messages` property in the local `state`. These messages will be managed by Redux. Next, modify the `submitMessage()` method so that it dispatches `submitNewMessage()` from `this.props`, and pass in the current message input from local `state` as an argument. Because you removed `messages` from local state, remove the `messages` property from the call to `this.setState()` here as well. Finally, modify the `render()` method so that it maps over the messages received from `props` rather than `state`.
+`Presentational` コンポーネントで、まず、ローカルの `state` にある `messages` プロパティを削除してください。 これらのメッセージは Redux によって管理されます。 次に、`submitMessage()` メソッドを変更して `this.props` から `submitNewMessage()` をディスパッチするようにし、ローカルの `state` から入力された現在のメッセージを引数として渡してください。 ローカルの state から `messages` を削除したので、`this.setState()` 呼び出しからも `messages` プロパティを削除してください。 最後に、`render()` メソッドを変更して、`state` からではなく `props` から受信したメッセージをマップしてください。
 
-Once these changes are made, the app will continue to function the same, except Redux manages the state. This example also illustrates how a component may have local `state`: your component still tracks user input locally in its own `state`. You can see how Redux provides a useful state management framework on top of React. You achieved the same result using only React's local state at first, and this is usually possible with simple apps. However, as your apps become larger and more complex, so does your state management, and this is the problem Redux solves.
+以上の変更を加えると、Redux によって状態が管理されること以外、アプリの動作は引き続き同じです。 この例では、コンポーネントでローカルの `state` を維持できることも示しています。その場合、コンポーネントは引き続きユーザー入力を自身の `state` でローカルに追跡します。 Redux によって、React の上に便利な状態管理フレームワークが提供されることがわかります。 最初は React のローカルの state のみを使用して同じ結果を達成しました。シンプルなアプリであれば通常はそれが可能です。 しかし、アプリの規模が大きくなり複雑になるにつれて、状態管理もまた大きく複雑になります。そうした問題を Redux が解決してくれます。
 
 # --hints--
 
-The `AppWrapper` should render to the page.
+`AppWrapper` をページにレンダーします。
 
 ```js
 assert(
@@ -29,7 +29,7 @@ assert(
 );
 ```
 
-The `Presentational` component should render to page.
+`Presentational` コンポーネントをページにレンダーします。
 
 ```js
 assert(
@@ -40,7 +40,7 @@ assert(
 );
 ```
 
-The `Presentational` component should render an `h2`, `input`, `button`, and `ul` elements.
+`Presentational` コンポーネントで、`h2`、`input`、`button`、`ul` の各要素をレンダーします。
 
 ```js
 assert(
@@ -57,7 +57,7 @@ assert(
 );
 ```
 
-The `Presentational` component should receive `messages` from the Redux store as a prop.
+`Presentational` コンポーネントで、Redux ストアから `messages` を prop として受け取ります。
 
 ```js
 assert(
@@ -70,7 +70,7 @@ assert(
 );
 ```
 
-The `Presentational` component should receive the `submitMessage` action creator as a prop.
+`Presentational` コンポーネントで、`submitMessage` アクションクリエイターを prop として受け取ります。
 
 ```js
 assert(
@@ -83,7 +83,7 @@ assert(
 );
 ```
 
-The state of the `Presentational` component should contain one property, `input`, which is initialized to an empty string.
+`Presentational` コンポーネントの state に、空の文字列に初期化された 1 つのプロパティである `input` を含めます。
 
 ```js
 assert(
@@ -100,7 +100,7 @@ assert(
 );
 ```
 
-Typing in the `input` element should update the state of the `Presentational` component.
+`input` 要素への入力で、`Presentational` コンポーネントの state を更新します。
 
 ```js
 async () => {
@@ -124,7 +124,7 @@ async () => {
 };
 ```
 
-Dispatching the `submitMessage` on the `Presentational` component should update Redux store and clear the input in local state.
+`Presentational` コンポーネントでの `submitMessage` のディスパッチで、Redux ストアを更新し、ローカルの state の入力をクリアします。
 
 ```js
 async () => {
@@ -156,7 +156,7 @@ async () => {
 };
 ```
 
-The `Presentational` component should render the `messages` from the Redux store.
+`Presentational` コンポーネントで、Redux ストアからの `messages` をレンダーします。
 
 ```js
 async () => {

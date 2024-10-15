@@ -8,7 +8,7 @@ dashedName: problem-133-repunit-nonfactors
 
 # --description--
 
-A number consisting entirely of ones is called a repunit. We shall define $R(k)$ to be a repunit of length $k$; for example, $R(6) = 111111$.
+Un número que consiste enteramente en unos se llama un repituno. Definiremos $R(k)$ como un repituno de longitud $k$; por ejemplo, $R(6) = 111111$.
 
 Let us consider repunits of the form $R({10}^n)$.
 

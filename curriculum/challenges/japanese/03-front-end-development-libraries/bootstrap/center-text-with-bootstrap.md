@@ -8,7 +8,7 @@ dashedName: center-text-with-bootstrap
 
 # --description--
 
-Now that we're using Bootstrap, we can center our heading element to make it look better. All we need to do is add the class `text-center` to our `h2` element.
+Bootstrap を使用しているので、見出し要素を中央に配置して、見た目を良くすることができます。 必要なのは、クラス `text-center` を `h2` 要素に追加することだけです。
 
 同じ要素に複数のクラスを追加するには、次のようにそれぞれのクラスをスペースで区切ります。
 

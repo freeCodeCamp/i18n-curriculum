@@ -8,7 +8,7 @@ dashedName: split-your-styles-into-smaller-chunks-with-partials
 
 # --description--
 
-<dfn>Partials</dfn> in Sass are separate files that hold segments of CSS code. These are imported and used in other Sass files. This is a great way to group similar code into a module to keep it organized.
+Sass の<dfn>パーシャル</dfn>は、CSS コードの一部分を保持する別のファイルです。 これらのファイルは他の Sass ファイルにインポートして使用します。 この機能は、類似したコードをモジュールにまとめて整理するのにとても便利です。
 
 パーシャルの名前はアンダースコア (`_`) 文字で始まります。これにより、パーシャルが CSS の小さなセグメントであり、CSS ファイルに変換しないよう Sass に指示します。 また、Sass ファイルは `.scss` ファイル拡張子で終わります。 パーシャル内のコードを別の Sass ファイルに含めるには `@import` ディレクティブを使用します。
 

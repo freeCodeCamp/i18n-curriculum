@@ -7,7 +7,7 @@ dashedName: step-21
 
 # --description--
 
-The piano needs the freeCodeCamp logo to make it official.
+El piano necesita el logo de freeCodeCamp para hacerlo oficial.
 
 Agrega un elemento `img` antes de tu elemento `.keys`. Dale al `img` un `class` de `logo`, y establece el `src` en `https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg`. Dale un texto `alt` de `freeCodeCamp Logo`.
 

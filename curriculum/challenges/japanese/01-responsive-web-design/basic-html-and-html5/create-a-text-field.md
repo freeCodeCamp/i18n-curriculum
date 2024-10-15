@@ -19,7 +19,7 @@ Now let's create a web form.
 <input type="text">
 ```
 
-`input` 要素は終了タグを持たないことに注意してください。
+Note that `input` is a void element.
 
 # --instructions--
 

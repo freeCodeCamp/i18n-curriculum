@@ -8,21 +8,21 @@ dashedName: build-a-tribute-page
 
 # --description--
 
-Fulfill the user stories below and get all the tests to pass to complete the lab.
+Atenda às histórias de usuário abaixo e faça todos os testes passarem para completar o laboratório.
 
 **Histórias de usuário:**
 
-1. Your tribute page should have a `main` element with a corresponding `id` of `main`, which contains all other elements.
-1. You should see an element with an `id` of `title`, which contains a string (i.e. text), that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug").
+1. A página de homenagem deve ter um elemento `main` com o `id` `main` correspondente, que envolva todos os demais elementos.
+1. Deve haver um elemento com `id` `title`, que contenha uma string (ou seja, um texto) que descreva a pessoa a quem a página presta homenagem (por exemplo, "Dr. Norman Borlaug").
 1. You should see either a `figure` or a `div` element with an `id` of `img-div`.
-1. Within the `#img-div` element, you should see an `img` element with a corresponding `id="image"`.
-1. Within the `#img-div` element, you should see an element with a corresponding `id="img-caption"` that contains textual content describing the image shown in `#img-div`.
-1. You should see an element with a corresponding `id="tribute-info"`, which contains textual content describing the subject of the tribute page.
-1. Deve haver um elemento `a` com um `id="tribute-link"`, que leve a um site externo que contenha informações adicionais sobre a pessoa a quem a página presta homenagem. HINT: You must give your element an attribute of `target` and set it to `_blank` in order for your link to open in a new tab.
-1. Your `#image` should use `max-width` and `height` properties to resize responsively, relative to the width of its parent element, without exceeding its original size.
-1. Your `img` element should be centered within its parent element.
+1. Dentro do elemento `#img-div`, deve haver um elemento `img` com um `id="image"` correspondente.
+1. Dentro do elemento `#img-div`, deve haver um elemento com um `id="img-caption"` correspondente que contenha um conteúdo textual descrevendo a imagem mostrada em `#img-div`.
+1. Deve haver um elemento com `id="tribute-info"`, que contenha conteúdo textual descrevendo a pessoa a quem a página presta homenagem.
+1. Deve haver um elemento `a` com um `id="tribute-link"`, que leve a um site externo que contenha informações adicionais sobre a pessoa a quem a página presta homenagem. DICA: você deve dar ao seu elemento um atributo `target` e definir o valor para `_blank` para que seu link possa ser aberto em uma nova aba.
+1. O elemento `#image` deve usar `max-width` e `height` para redimensionar de forma responsiva, em relação à largura de seu elemento pai, sem exceder seu tamanho original.
+1. O elemento `img` deve ser centralizado dentro de seu elemento pai.
 
-**Note:** Be sure to link your stylesheet in your HTML and apply your CSS.
+**Observação:** certifique-se de vincular sua folha de estilo ao HTML e de aplicar o CSS.
 
 # --hints--
 

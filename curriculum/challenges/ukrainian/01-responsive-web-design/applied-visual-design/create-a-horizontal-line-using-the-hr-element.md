@@ -15,7 +15,7 @@ You can use the `hr` tag to add a horizontal line across the width of its contai
 
 Додайте тег `hr` під`h4`, який містить заголовок карти.
 
-**Примітка:** У HTML, `hr` - само завершувальний тег і тому тег, що окремо закривається - не потрібен.
+**Note:** In HTML, `hr` is a void element, and therefore doesn't need a separate closing tag.
 
 # --hints--
 

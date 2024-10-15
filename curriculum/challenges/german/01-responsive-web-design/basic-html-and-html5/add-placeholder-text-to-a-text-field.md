@@ -17,7 +17,7 @@ Du kannst Platzhaltertext wie folgt erstellen:
 <input type="text" placeholder="this is placeholder text">
 ```
 
-**Hinweis:** Denke daran, dass `input`-Elemente selbstschließend sind.
+**Note:** Remember that `input` is a void element.
 
 # --instructions--
 

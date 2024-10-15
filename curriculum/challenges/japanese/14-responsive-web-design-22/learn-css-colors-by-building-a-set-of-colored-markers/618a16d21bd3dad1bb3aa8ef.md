@@ -7,7 +7,7 @@ dashedName: step-41
 
 # --description--
 
-Now it's time to add other details to the markers, starting with the first one.
+では最初のマーカーから、ディテールを追加し始めましょう。
 
 最初のマーカーの `div` 要素について、クラスを `one` から `red` に変更してください。
 

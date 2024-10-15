@@ -7,7 +7,7 @@ dashedName: step-47
 
 # --description--
 
-Position the `.face` elements so that they are `15%` from the top.
+`.face` 要素を上端から `15%` の位置に配置してください。
 
 # --hints--
 

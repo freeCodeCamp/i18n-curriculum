@@ -7,7 +7,7 @@ dashedName: step-19
 
 # --description--
 
-When you add a lower rank heading element to the page, it's implied that you're starting a new subsection.
+ページ内に下位の見出し要素を追加することは、そこから新しいサブセクションが始まることを意味します。
 
 2 つ目の `section` 要素内の `h2` 要素の後に、`h3` 要素を追加して次のテキストを設定してください:
 

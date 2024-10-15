@@ -17,7 +17,7 @@ Puedes crear texto provisional así:
 <input type="text" placeholder="this is placeholder text">
 ```
 
-**Nota:** Recuerda que los elementos `input` se cierran solos.
+**Note:** Remember that `input` is a void element.
 
 # --instructions--
 

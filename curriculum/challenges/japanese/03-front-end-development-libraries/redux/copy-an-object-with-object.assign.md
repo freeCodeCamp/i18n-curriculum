@@ -8,7 +8,7 @@ dashedName: copy-an-object-with-object-assign
 
 # --description--
 
-The last several challenges worked with arrays, but there are ways to help enforce state immutability when state is an `object`, too. A useful tool for handling objects is the `Object.assign()` utility. `Object.assign()` takes a target object and source objects and maps properties from the source objects to the target object. Any matching properties are overwritten by properties in the source objects. This behavior is commonly used to make shallow copies of objects by passing an empty object as the first argument followed by the object(s) you want to copy. こちらがその例です。
+前のいくつかのチャレンジでは配列を扱いましたが、state が `object` の場合にも状態の不変性 (イミュータビリティ) を強制するのに役立つ方法があります。 オブジェクトを扱うのに便利なツールとして `Object.assign()` ユーティリティがあります。 `Object.assign()` は、ターゲットオブジェクトとソースオブジェクトを受け取り、ソースオブジェクトからターゲットオブジェクトにプロパティをマップします。 一致するプロパティはすべて、ソースオブジェクト内のプロパティによって上書きされます。 この方法はオブジェクトのシャローコピーを作成するのによく使用されます。1 つ目の引数として空のオブジェクトを渡し、その後にコピーしたいオブジェクトを渡します。 こちらがその例です。
 
 ```js
 const newObject = Object.assign({}, obj1, obj2);

@@ -12,7 +12,7 @@ So far, you’ve seen how JSX differs from HTML in a key way with the use of `cl
 
 Outra forma importante em que o JSX difere do HTML é na ideia da tag de fechamento automático.
 
-Em HTML, quase todas as tags possuem uma tag de abertura e fechamento: `<div></div>`; a tag de fechamento sempre tem uma barra para frente antes do nome da tag que está fechando. No entanto, há instâncias especiais no HTML chamadas de "tags de fechamento automático", ou tags que não requerem uma tag de abertura e fechamento antes que outra tag possa iniciar.
+Em HTML, quase todas as tags possuem uma tag de abertura e fechamento: `<div></div>`; a tag de fechamento sempre tem uma barra para frente antes do nome da tag que está fechando. However, there are special instances in HTML called <dfn>void elements</dfn>, or elements that don’t require both an opening and closing tag before another element can start.
 
 Por exemplo, a tag de quebra de linha pode ser escrita como `<br>` ou como `<br />`, mas nunca deve ser escrita como `<br></br>`, uma vez que não contém nenhum conteúdo.
 

@@ -9,7 +9,7 @@ dashedName: accessing-nested-arrays
 
 # --description--
 
-As we have seen in earlier examples, objects can contain both nested objects and nested arrays. Similar to accessing nested objects, array bracket notation can be chained to access nested arrays.
+Como vimos em exemplos anteriores, objetos podem conter tanto objetos aninhados quanto arrays aninhados. Similar to accessing nested objects, array bracket notation can be chained to access nested arrays.
 
 Aqui está um exemplo de como se acessar um array aninhado:
 

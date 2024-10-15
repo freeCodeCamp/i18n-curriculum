@@ -1,6 +1,6 @@
 ---
 id: 587d78a4367417b2b2512ad5
-title: Adjust the Tone of a Color
+title: 색상의 톤(tone) 조절하기
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cEDJvT7'
 forumTopicId: 301038
@@ -13,11 +13,11 @@ The `hsl()` option in CSS also makes it easy to adjust the tone of a color. Mixi
 
 # --instructions--
 
-All elements have a default `background-color` of `transparent`. Our `nav` element currently appears to have a `cyan` background, because the element behind it has a `background-color` set to `cyan`. Add a `background-color` to the `nav` element so it uses the same `cyan` hue, but has `80%` saturation and `25%` lightness values to change its tone and shade.
+모든 엘리먼트의 `background-color` 기본값은 `transparent`입니다. `nav` 요소의 배경 색은 현재 `cyan`으로 나옵니다. 요소의 `background-color`가 `cyan`으로 설정되어 있기 때문입니다. `nav` 요소에 `background-color`를 추가하여 동일한 `cyan` 순색을 쓰되, 채도는 `80%`, 밝기는 `25%`로 조절하여 톤과 쉐이드를 바꿔 보세요.
 
 # --hints--
 
-The `nav` element should have a `background-color` of the adjusted cyan tone using the `hsl()` property.
+`nav` 요소의 `background-color`는 `hsl()` 속성을 사용하여 보정한 청록색(cyan) 톤이 되어야 합니다.
 
 ```js
 // Computed style of hsl(180, 80%, 25%) results in rgb(13,115,115)

@@ -1,6 +1,6 @@
 ---
 id: 587d78af367417b2b2512b04
-title: Costruisci la landing page per un prodotto
+title: Crea la landing page di un prodotto
 challengeType: 14
 forumTopicId: 301144
 dashedName: build-a-product-landing-page
@@ -8,11 +8,11 @@ dashedName: build-a-product-landing-page
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to <a href="https://product-landing-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://product-landing-page.freecodecamp.rocks</a>. **Do not copy this demo project**.
+**Obiettivo:** crea un'app funzionalmente simile a questa: <a href="https://product-landing-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://product-landing-page.freecodecamp.rocks</a>. **Non copiare questo progetto demo**.
 
-**User story (storia d'utente):**
+**User story:**
 
-1. Your product landing page should have a `header` element with a corresponding `id="header"`
+1. La landing page del prodotto dovrebbe avere un elemento `header` con un corrispondente `id="header"`
 1. Dovresti avere un'immagine dentro l'elemento `header` con un attributo corrispondente `id="header-img"` (un logo sarebbe una buona scelta)
 1. Dentro l'elemento `#header`, dovresti avere un elemento `nav` con un corrispondente attributo `id="nav-bar"`
 1. Dovresti avere almeno tre elementi cliccabili dentro l'elemento `nav`, ognuno con la classe `nav-link`

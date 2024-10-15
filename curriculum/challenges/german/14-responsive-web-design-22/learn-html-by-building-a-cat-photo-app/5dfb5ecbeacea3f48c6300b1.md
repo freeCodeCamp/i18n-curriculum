@@ -7,7 +7,7 @@ dashedName: step-21
 
 # --description--
 
-The `li` element is used to create a list item in an ordered or unordered list.
+Das `li`-Element wird verwendet, um ein Listenelement in einer geordneten oder ungeordneten Liste zu erstellen.
 
 Hier ist ein Beispiel für Listen-Elemente in einer unsortierten Liste:
 

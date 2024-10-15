@@ -17,7 +17,7 @@ Placeholder text is what is displayed in your `input` element before your user h
 <input type="text" placeholder="this is placeholder text">
 ```
 
-**注意：** 别忘了 `input` 元素是 "自闭和标签"，即不需要结束标签。
+**Note:** Remember that `input` is a void element.
 
 # --instructions--
 

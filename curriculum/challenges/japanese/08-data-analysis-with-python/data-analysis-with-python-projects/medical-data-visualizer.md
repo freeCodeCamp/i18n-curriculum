@@ -20,29 +20,29 @@ Python カリキュラムの対話式教育コンテンツを引き続き開発�
 
 In this project, you will visualize and make calculations from medical examination data using `matplotlib`, `seaborn`, and `pandas`. データセットの値は診察時に収集されたものです。
 
-## Data description
+## データの説明
 
 データセットの行は患者を表し、列は身体の測定値、さまざまな血液検査の結果、生活習慣の選択などの情報を表します。 このデータセットを使用して、心臓疾患、身体測定値、血液指標値、生活習慣の選択について、それらの間の関係を調べます。
 
 ファイル名: medical_examination.csv
 
-|                    Feature                    |      変数のタイプ       |      変数       |             値のタイプ              |
-|:---------------------------------------------:|:-----------------:|:-------------:|:------------------------------:|
-|                      Age                      | Objective Feature |     `age`     |           int (days)           |
-|                    Height                     |       客観的特徴       |   `height`    |            int (cm)            |
-|                    Weight                     |       客観的特徴       |   `weight`    |           float (kg)           |
-|                    Gender                     |       客観的特徴       |   `gender`    |            カテゴリコード             |
-|            Systolic blood pressure            |       検査の特徴       |    `ap_hi`    |              int               |
-|           Diastolic blood pressure            |       検査の特徴       |    `ap_lo`    |              int               |
-|                  Cholesterol                  |       検査の特徴       | `cholesterol` | 1: 正常値、2: 正常値より高い、3: 正常値を優に超える |
-|                    Glucose                    |       検査の特徴       |    `gluc`     | 1: 正常値、2: 正常値より高い、3: 正常値を優に超える |
-|                    Smoking                    |       主観的特徴       |    `smoke`    |             binary             |
-|                Alcohol intake                 |       主観的特徴       |    `alco`     |             binary             |
-|               Physical activity               |       主観的特徴       |   `active`    |             binary             |
-| Presence or absence of cardiovascular disease |       目的の変数       |   `cardio`    |             binary             |
+|                            特徴                            | 変数のタイプ |      変数       |             値のタイプ              |
+|:--------------------------------------------------------:|:------:|:-------------:|:------------------------------:|
+|                           Age                            | 客観的特徴  |     `age`     |            int (日数)            |
+|                       Height (身長)                        | 客観的特徴  |   `height`    |            int (cm)            |
+|                       Weight (体重)                        | 客観的特徴  |   `weight`    |           float (kg)           |
+|                       Gender (性別)                        | 客観的特徴  |   `gender`    |            カテゴリコード             |
+|              Systolic blood pressure (最高血圧)              | 検査の特徴  |    `ap_hi`    |              int               |
+|             Diastolic blood pressure (最低血圧)              | 検査の特徴  |    `ap_lo`    |              int               |
+|                  Cholesterol (コレステロール値)                  | 検査の特徴  | `cholesterol` | 1: 正常値、2: 正常値より高い、3: 正常値を優に超える |
+|                      Glucose (血糖値)                       | 検査の特徴  |    `gluc`     | 1: 正常値、2: 正常値より高い、3: 正常値を優に超える |
+|                       Smoking (喫煙)                       | 主観的特徴  |    `smoke`    |             binary             |
+|                 Alcohol intake (アルコール摂取)                 | 主観的特徴  |    `alco`     |             binary             |
+|                Physical activity (身体活動状況)                | 主観的特徴  |   `active`    |             binary             |
+| Presence or absence of cardiovascular disease (心血管疾患の有無) | 目的の変数  |   `cardio`    |             binary             |
 
 
-## Instructions
+## 手順書
 By each number in the `medical_data_visualizer.py` file, add the code from the associated instruction number below.
 
 1. Import the data from `medical_examination.csv` and assign it to the `df` variable
@@ -56,11 +56,11 @@ By each number in the `medical_data_visualizer.py` file, add the code from the a
 9. Do not modify the next two lines
 10. Draw the Heat Map in the `draw_heat_map` function
 11. Clean the data in the `df_heat` variable by filtering out the following patient segments that represent incorrect data:
-    - diastolic pressure is higher than systolic (Keep the correct data with `(df['ap_lo'] <= df['ap_hi'])`)
-    - height is less than the 2.5th percentile (Keep the correct data with `(df['height'] >= df['height'].quantile(0.025))`)
-    - height is more than the 97.5th percentile
-    - weight is less than the 2.5th percentile
-    - weight is more than the 97.5th percentile
+    - 最低血圧が最高血圧よりも高い (`(df['ap_lo'] <= df['ap_hi'])`) で正しいデータを保持できます)
+    - 身長が 2.5 パーセンタイルを下回る (`(df['height'] >= df['height'].quantile(0.025))` で正しいデータを保持できます)
+    - 身長が 97.5 パーセンタイルを上回る
+    - 体重が 2.5 パーセンタイルを下回る
+    - 体重が 97.5 パーセンタイルを上回る
 12. Calculate the correlation matrix and store it in the `corr` variable
 13. Generate a mask for the upper triangle and store it in the `mask` variable
 14. Set up the `matplotlib` figure
@@ -69,11 +69,11 @@ By each number in the `medical_data_visualizer.py` file, add the code from the a
 
 ## 開発
 
-Write your code in `medical_data_visualizer.py`. For development, you can use `main.py` to test your code.
+Write your code in `medical_data_visualizer.py`. 開発には `main.py` を使用してコードをテストすることができます。
 
 ## テスト
 
-The unit tests for this project are in `test_module.py`. すでに `test_module.py` から `main.py` にテストをインポートしてあります。
+このプロジェクトの単体テストは `test_module.py` にあります。 すでに `test_module.py` から `main.py` にテストをインポートしてあります。
 
 ## 提出
 

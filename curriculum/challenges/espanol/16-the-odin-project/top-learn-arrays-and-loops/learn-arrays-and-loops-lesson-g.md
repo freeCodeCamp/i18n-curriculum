@@ -1,13 +1,13 @@
 ---
 id: 661e275a8602567c118451d7
-title: Learn Arrays and Loops Lesson G
+title: Aprende arreglos y bucles Lección G
 challengeType: 15
 dashedName: learn-arrays-and-loops-lesson-g
 ---
 
 # --description--
 
-Now that you know about the most common ways to iterate over values and arrays, there are a few more ways to iterate over arrays. Arrays have a built-in method called `map()`, which is used to create a new array by applying a function to each element of the original array. The `map()` method does not change the original array. The syntax of the `map()` method is as follows:
+Ahora que sabes sobre las formas más comunes de iterar sobre valores y arreglos, hay algunas formas más de iterar sobre arreglos. Los arreglos tienen un método incorporado llamado `map()`, que se utiliza para crear un nuevo arreglo aplicando una función a cada elemento del arreglo original. El método `map()` no cambia el arreglo original. La sintaxis del método `map()` es la siguiente:
 
 ```javascript
 const array = [1, 2, 3, 4, 5];
@@ -19,13 +19,13 @@ const newArray = array.map((arrayValue) => {
 console.log(newArray); // Output: [2, 4, 6, 8, 10]
 ```
 
-The `map()` method creates a new array by applying the function `(arrayValue) => { return arrayValue * 2;` to each element of the original array. This is particularly useful when you want to transform the elements of an array without changing the original array.
+The `map()` method creates a new array by applying the function `(arrayValue) => { return arrayValue * 2; }` to each element of the original array. Esto es particularmente útil cuando deseas transformar los elementos de un arreglo sin cambiar el arreglo original.
 
 # --questions--
 
 ## --text--
 
-What will be the output of the following JavaScript code snippet?
+¿Cuál será el resultado del siguiente fragmento de código JavaScript?
 
 ```javascript
 const numbers = [1, 2, 3, 4, 5];

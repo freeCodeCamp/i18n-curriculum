@@ -1,6 +1,6 @@
 ---
 id: bad87fee1347bd9aedf08845
-title: Ditch Custom CSS for Bootstrap
+title: カスタムの Bootstrap 用 CSS を作成する
 challengeType: 0
 forumTopicId: 17565
 dashedName: ditch-custom-css-for-bootstrap
@@ -8,31 +8,31 @@ dashedName: ditch-custom-css-for-bootstrap
 
 # --description--
 
-We can clean up our code and make our Cat Photo App look more conventional by using Bootstrap's built-in styles instead of the custom styles we created earlier.
+前に作成したカスタムスタイルの代わりに Bootstrap の組み込みスタイルを使用して、余分なコードを取り除き、猫の写真アプリの見栄えをもっと平凡なものにすることができます。
 
-Don't worry - there will be plenty of time to customize our CSS later.
+心配はいりません。あとで CSS をカスタマイズする時間が十分にあります。
 
-Delete the `.red-text`, `p`, and `.smaller-image` CSS declarations from your `style` element so that the only declarations left in your `style` element are `h2` and `thick-green-border`.
+`.red-text`、`p`、`.smaller-image` の CSS 宣言を `style` 要素から削除し、`h2` と `thick-green-border` の宣言だけを `style` 要素に残してください。
 
-Then delete the `p` element that contains a dead link. Then remove the `red-text` class from your `h2` element and replace it with the `text-primary` Bootstrap class.
+次に、無効なリンクが含まれている `p` 要素を削除してください。 その次に、`red-text` クラスを `h2` 要素から削除し、`text-primary` Bootstrap クラスに置き換えてください。
 
-Finally, remove the `smaller-image` class from your first `img` element and replace it with the `img-responsive` class.
+最後に、1 つ目の `img` 要素から `smaller-image` クラスを削除し、`img-responsive` クラスに置き換えてください。
 
 # --hints--
 
-Your `h2` element should no longer have the class `red-text`.
+`h2` 要素にはクラス `red-text` はもう必要ありません。
 
 ```js
 assert.isFalse(document.querySelector('h2')?.classList?.contains('red-text'));
 ```
 
-Your `h2` element should now have the class `text-primary`.
+`h2` 要素には新しくクラス `text-primary` を持たせます。
 
 ```js
 assert.isTrue(document.querySelector('h2')?.classList?.contains('text-primary'));
 ```
 
-Your paragraph elements should no longer use the font `Monospace`.
+段落ではフォント `Monospace` を使用する必要はもうありません。
 
 ```js
 const paragraphElement = document.querySelector('p');
@@ -40,13 +40,13 @@ const paragraphFontFamily = window.getComputedStyle(paragraphElement)["font-fami
 assert.notMatch(paragraphFontFamily,/monospace/i);
 ```
 
-The `smaller-image` class should be removed from your top image.
+`smaller-image` クラスを一番上の画像から削除します。
 
 ```js
 assert.isFalse(document.querySelector('img')?.classList?.contains('smaller-image'));
 ```
 
-You should add the `img-responsive` class to your top image.
+`img-responsive` クラスを一番上の画像に追加します。
 
 ```js
 assert.lengthOf(document.querySelectorAll('.img-responsive'),2);

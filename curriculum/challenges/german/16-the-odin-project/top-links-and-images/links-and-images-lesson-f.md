@@ -9,7 +9,7 @@ dashedName: links-and-images-lesson-f
 
 Websites wären ziemlich langweilig, wenn sie nur Text anzeigen könnten. Glücklicherweise bietet HTML eine Vielzahl von Elementen für die Darstellung unterschiedlichster Medien. Das am häufigsten verwendete Element ist das Bildelement.
 
-To display an image in HTML you use the `<img>` element. Im Gegensatz zu den anderen Elementen, denen du begegnet bist, ist das `<img>`-Element selbstschließend. Leere, selbstschließende HTML-Elemente benötigen kein abschließendes Tag.
+To display an image in HTML you use the `<img>` element. Unlike the other elements you have encountered, the `<img>` is a void element. Empty, void HTML elements do not need a closing tag.
 
 Anstatt den Inhalt mit einem öffnenden und abschließenden Tag zu umschließen, wird ein Bild mit einem `src`-Attribut in die Seite eingebettet, das dem Browser mitteilt, wo sich die Bilddatei befindet. Das `src`-Attribut funktioniert ähnlich wie das `href`-Attribut für Ankertags. Es kann ein Bild sowohl mit absoluten als auch mit relativen Pfaden einbetten.
 

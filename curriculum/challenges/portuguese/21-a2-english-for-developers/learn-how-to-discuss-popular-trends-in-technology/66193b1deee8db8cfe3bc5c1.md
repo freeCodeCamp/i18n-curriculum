@@ -1,6 +1,6 @@
 ---
 id: 66193b1deee8db8cfe3bc5c1
-title: Task 40
+title: Tarefa 40
 challengeType: 19
 dashedName: task-40
 ---
@@ -9,7 +9,7 @@ dashedName: task-40
 
 # --description--
 
-Listen to the audio and answer the question.
+Ouça o áudio e responda à pergunta.
 
 # --questions--
 

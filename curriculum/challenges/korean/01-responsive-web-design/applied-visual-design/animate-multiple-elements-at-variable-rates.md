@@ -1,6 +1,6 @@
 ---
 id: 587d78a8367417b2b2512ae6
-title: Animate Multiple Elements at Variable Rates
+title: 변수 속도로 여러 요소들에 애니메이션을 적용하기
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cnpWZc9'
 forumTopicId: 301042
@@ -11,15 +11,15 @@ dashedName: animate-multiple-elements-at-variable-rates
 
 In the previous challenge, you changed the animation rates for two similarly animated elements by altering their `@keyframes` rules. You can achieve the same goal by manipulating the `animation-duration` of multiple elements.
 
-In the animation running in the code editor, there are three stars in the sky that twinkle at the same rate on a continuous loop. To make them twinkle at different rates, you can set the `animation-duration` property to different values for each element.
+코드 편집기에서 실행 중인 애니메이션에서는 하늘에 세 개의 별들이 계속해서 동일한 속도로 반짝입니다. `animation-duration` 속성을 각각의 요소마다 다른 값을 지정해주면 다른 속도로 반짝이게 만들 수 있습니다.
 
 # --instructions--
 
-Set the `animation-duration` of the elements with the classes `star-1`, `star-2`, and `star-3` to 1s, 0.9s, and 1.1s, respectively.
+클래스가 `star-1`, `star-2`, `star-3`인 요소들의 `animation-duration`을 각각 1초, 0.9초, 1.1초로 설정합니다.
 
 # --hints--
 
-The `animation-duration` property for the star with class `star-1` should remain at 1s.
+클래스가 `star-1`인 별의 `animation-duration` 속성은 1초로 유지되어야 합니다.
 
 ```js
 const starOne = document.querySelector('.star-1');
@@ -27,7 +27,7 @@ const starOneStyle = window.getComputedStyle(starOne);
 assert.equal(starOneStyle?.animationDuration, '1s');
 ```
 
-The `animation-duration` property for the star with class `star-2` should be 0.9s.
+클래스가 `star-2`인 별의 `animation-duration` 속성은 0.9초여야 합니다.
 
 ```js
 const starTwo = document.querySelector('.star-2');
@@ -35,7 +35,7 @@ const starTwoStyle = window.getComputedStyle(starTwo);
 assert.equal(starTwoStyle?.animationDuration , '0.9s');
 ```
 
-The `animation-duration` property for the star with class `star-3` should be 1.1s.
+클래스가 `star-3`인 별의 `animation-duration` 속성은 1.1초여야 합니다.
 
 ```js
 const starThree = document.querySelector('.star-3');

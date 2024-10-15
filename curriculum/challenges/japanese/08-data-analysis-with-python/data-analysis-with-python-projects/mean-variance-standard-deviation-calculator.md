@@ -50,7 +50,7 @@ Python カリキュラムの対話式教育コンテンツを引き続き開発�
 }
 ```
 
-## Development
+## 開発
 
 Write your code in `mean_var_std.py`. 開発には `main.py` を使用してコードをテストすることができます。
 

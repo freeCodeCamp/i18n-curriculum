@@ -15,7 +15,7 @@ You can use the `hr` tag to add a horizontal line across the width of its contai
 
 カードのタイトルを含んでいる `h4` の下に、`hr` タグを追加してください。
 
-**注:** HTML では `hr` は自己終了タグであり、終了タグは必要ありません。
+**Note:** In HTML, `hr` is a void element, and therefore doesn't need a separate closing tag.
 
 # --hints--
 

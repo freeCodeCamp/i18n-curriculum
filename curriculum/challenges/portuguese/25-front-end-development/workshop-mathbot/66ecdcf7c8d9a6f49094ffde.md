@@ -9,7 +9,7 @@ dashedName: step-11
 
 In the lecture videos, you learned that the `Math.round()` method rounds the value to the nearest whole integer.
 
-Here are some examples:
+Aqui estão alguns exemplos:
 
 ```js
 Math.round(6.7); // 7

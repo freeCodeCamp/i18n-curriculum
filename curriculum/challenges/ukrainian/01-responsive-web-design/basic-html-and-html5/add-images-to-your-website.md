@@ -16,7 +16,7 @@ You can add images to your website by using the `img` element, and point to a sp
 <img src="https://www.freecatphotoapp.com/your-image.jpg">
 ```
 
-Зауважте, що елементи `img` автоматично закриваються.
+Note that `img` is a void element.
 
 Усі елементи `img` **повинні** мати атрибут `alt`. Текст всередині атрибуту `alt` використовують для покращення доступності для користувачів. Він з'являється замість зображення, якщо воно не завантажується.
 

@@ -8,7 +8,7 @@ dashedName: write-a-react-component-from-scratch
 
 # --description--
 
-Now that you've learned the basics of JSX and React components, it's time to write a component on your own. React components are the core building blocks of React applications so it's important to become very familiar with writing them. Remember, a typical React component is an ES6 `class` which extends `React.Component`. It has a render method that returns HTML (from JSX) or `null`. This is the basic form of a React component. Once you understand this well, you will be prepared to start building more complex React projects.
+JSX と React コンポーネントの基本を学んだところで、今度は自分でコンポーネントを記述してみましょう。 React コンポーネントは React アプリケーションの中心的な構成要素であるため、それらの記述に十分慣れることが重要です。 代表的な React コンポーネントとして、`React.Component` を拡張する ES6 `class` があります。 このコンポーネントには、HTML (JSX からの) を返すかまたは `null` を返す render メソッドがあります。 これは React コンポーネントの基本的な形式です。 これについて十分に理解すれば、より複雑な React プロジェクトの構築を始めることができます。
 
 # --instructions--
 

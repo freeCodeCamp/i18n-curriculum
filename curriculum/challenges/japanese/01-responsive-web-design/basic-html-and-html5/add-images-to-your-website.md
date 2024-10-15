@@ -16,7 +16,7 @@ You can add images to your website by using the `img` element, and point to a sp
 <img src="https://www.freecatphotoapp.com/your-image.jpg">
 ```
 
-`img` 要素は終了タグを持たないことに注意してください。
+Note that `img` is a void element.
 
 すべての `img` 要素は **必ず** `alt` 属性を持たなければなりません。 `alt` 属性内のテキストは、アクセシビリティを向上させるためにスクリーンリーダーが使用します。また、画像の読み込みに失敗した場合にも表示されます。
 

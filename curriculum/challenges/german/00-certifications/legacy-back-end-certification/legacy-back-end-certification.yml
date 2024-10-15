@@ -6,19 +6,19 @@ isPrivate: true
 tests:
   - 
     id: bd7158d8c443edefaeb5bdef
-    title: Timestamp Microservice
+    title: Zeitstempel Microservice
   - 
     id: bd7158d8c443edefaeb5bdff
     title: Request Header Parser Microservice
   - 
     id: bd7158d8c443edefaeb5bd0e
-    title: URL Shortener Microservice
+    title: URL-Verkürzungs-Microservice
   - 
     id: bd7158d8c443edefaeb5bdee
     title: Image Search Abstraction Layer
   - 
     id: bd7158d8c443edefaeb5bd0f
-    title: File Metadata Microservice
+    title: Datei-Metadaten-Mikroservice
   - 
     id: bd7158d8c443eddfaeb5bdef
     title: Build a Voting App

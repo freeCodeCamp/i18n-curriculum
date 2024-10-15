@@ -8,11 +8,11 @@ dashedName: build-a-product-landing-page
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to <a href="https://product-landing-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://product-landing-page.freecodecamp.rocks</a>. **Do not copy this demo project**.
+**Objetivo:** construye una aplicación que sea funcionalmente similar a <a href="https://product-landing-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://product-landing-page.freecodecamp.rocks</a>. **No copies este proyecto de demostración**.
 
 **Instrucciones:**
 
-1. Your product landing page should have a `header` element with a corresponding `id="header"`
+1. Tu página de inicio de producto debe tener un elemento `header` con un correspondiente `id="header"`
 1. Puedes ver una imagen dentro del elemento `header` con el correspondiente `id="header-img"` (Un logotipo sería una buena imagen aquí)
 1. Dentro del elemento `#header` puedes ver un elemento `nav` con el correspondiente `id="nav-bar"`
 1. Puedes ver al menos tres elementos que se puede hacer clic dentro del elemento `nav`, cada uno con la clase `nav-link`

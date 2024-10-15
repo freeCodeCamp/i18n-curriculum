@@ -7,7 +7,7 @@ dashedName: build-a-javascript-calculator
 ---
 
 # --description--
-**Note:** **React 18 has known incompatibilities with the tests for this project (see [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
+**注:** **React 18 はこのプロジェクトのテストとの互換性がありません。(詳細は[こちらの Issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922) を参照してください。)**
 
 **目標:** こちらと似た機能を持つアプリを構築してください: <a href="https://javascript-calculator.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://javascript-calculator.freecodecamp.rocks</a>
 
@@ -49,7 +49,7 @@ dashedName: build-a-javascript-calculator
 
 **例:** `3 + 5 x 6 - 2 / 4 =`
 
--   **Immediate Execution Logic:** `11.5`
+-   **即時実行ロジック:** `11.5`
 -   **数式ロジック:** `32.5`
 
 <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">この CodePen テンプレートを使用して</a>あなたのプロジェクトを構築することができます。`Save` をクリックすると、あなた用の pen を作成することができます。 または、下記の CDN リンクを使用して、使い慣れている環境でテストを実行することもできます:`https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`

@@ -1,6 +1,6 @@
 ---
 id: 587d7787367417b2b2512aa1
-title: Make Screen Reader Navigation Easier with the header Landmark
+title: 화면 낭독기 탐색을 더욱 쉽게 만들어주는 헤더 랜드마크
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cB76vtv'
 forumTopicId: 301023
@@ -11,23 +11,23 @@ dashedName: make-screen-reader-navigation-easier-with-the-header-landmark
 
 The next HTML5 element that adds semantic meaning and improves accessibility is the `header` tag. It's used to wrap introductory information or navigation links for its parent tag and works well around content that's repeated at the top on multiple pages.
 
-`header` shares the embedded landmark feature you saw with `main`, allowing assistive technologies to quickly navigate to that content.
+`header`는 `main`에서 보았던 내장 랜드마크 기능을 공유하여 접근성 기기가 해당 콘텐츠로 빠르게 이동할 수 있게 합니다.
 
-**Note:** The `header` is meant for use in the `body` tag of your HTML document. It is different than the `head` element, which contains the page's title, meta information, etc.
+**참고:** `header`는 HTML 문서의 `body` 태그 안에서 사용하도록 의도된 태그입니다. 이 요소는 페이지 제목, 메타 정보 등을 포함하는 `head` 요소와는 다릅니다.
 
 # --instructions--
 
-Camper Cat is writing some great articles about ninja training, and wants to add a page for them to his site. Change the top `div` that currently contains the `h1` to a `header` tag instead.
+캠퍼 캣은 닌자 트레이닝에 관한 멋진 기사들을 쓰고, 그를 위한 페이지를 자신의 사이트에 추가하고 싶어합니다. 현재 맨 위에 있는 `h1`을 포함하고 있는 `div`를 `header` 태그로 변경하세요.
 
 # --hints--
 
-Your code should have one `header` tag.
+코드에는 `header` 태그가 하나만 있어야 합니다.
 
 ```js
 assert.lengthOf(document.querySelectorAll('header'),1);
 ```
 
-Your `header` tags should wrap around the `h1`.
+`header` 태그는 `h1`을 감싸야 합니다.
 
 ```js
 const header = document.querySelector('header');
@@ -35,13 +35,13 @@ const children = header?.querySelectorAll(`:scope ${'h1'}`);
 assert.lengthOf(children , 1);
 ```
 
-Your code should not have any `div` tags.
+`div` 태그는 하나도 없어야 합니다.
 
 ```js
 assert.lengthOf(document.querySelectorAll('div') , 0);
 ```
 
-Your `header` element should have a closing tag.
+`header` 요소는 닫는 태그가 있어야 합니다.
 
 ```js
 assert.isTrue(code.match(/<\/header>/g)?.length === code.match(/<header>/g)?.length);

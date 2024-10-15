@@ -7,7 +7,7 @@ dashedName: step-18
 
 # --description--
 
-Below your `.text` element, create a new `section` element and give it a `class` of `text text-with-images`. Within that, create an `article` element with a `class` set to `brief-history`, and an `aside` element with the `class` set to `image-wrapper`.
+`.text` 要素の下に新しい `section` 要素を作成して、`text text-with-images` という `class` を割り当ててください。 その中に、`class` を `brief-history` に設定した `article` 要素と、 `class` を `image-wrapper` に設定した `aside` 要素を作成してください。
 
 # --hints--
 

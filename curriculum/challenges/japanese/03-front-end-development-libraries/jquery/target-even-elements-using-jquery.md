@@ -11,7 +11,7 @@ dashedName: target-even-elements-using-jquery
 
 # --description--
 
-You can also target elements based on their positions using `:odd` or `:even` selectors.
+`:odd` または `:even` セレクターを使用して、ターゲットの要素をその位置に基づいて指定することもできます。
 
 jQuery は 0 からインデックスが始まります。したがって、選択における 1 番目の要素の位置は 0 になることに注意してください。 このことは多少混乱を招くかもしれません。`:odd` は直感に反して、2 番目の要素 (位置 1)、4 番目の要素 (位置 3)、というように選択します。
 

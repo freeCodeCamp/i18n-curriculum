@@ -1,6 +1,6 @@
 ---
 id: 66ed8fd0f45ce3ece4053eaf
-title: CSS Attribute Selectors Quiz
+title: Questionário sobre seletores de atributos em CSS
 challengeType: 8
 dashedName: quiz-css-attribute-selectors
 ---

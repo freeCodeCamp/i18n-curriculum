@@ -8,7 +8,7 @@ dashedName: check-for-all-or-none
 
 # --description--
 
-Sometimes the patterns you want to search for may have parts of it that may or may not exist. However, it may be important to check for them nonetheless.
+Haverá vezes em que você procurará padrões que podem ou não existir na string. Pode ser relevante validá-los dependendo da situação.
 
 Você pode fazer com que um padrão seja opcional ao usar uma interrogação, `?`, depois dele. Ela valida se há uma ou nenhuma ocorrência do padrão. Pode-se dizer que a interrogação torna o elemento à esquerda dela opcional.
 

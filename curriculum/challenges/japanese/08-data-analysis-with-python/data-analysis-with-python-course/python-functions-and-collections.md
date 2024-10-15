@@ -1,6 +1,6 @@
 ---
 id: 5e9a093a74c4063ca6f7c166
-title: Python Functions and Collections
+title: Python の関数とコレクション
 challengeType: 11
 videoId: NzpU17ZVlUw
 bilibiliIds:
@@ -12,30 +12,30 @@ dashedName: python-functions-and-collections
 
 # --description--
 
-*Instead of using notebooks.ai like it shows in the video, you can use Google Colab instead.*
+*動画で説明しているように、notebooks.ai を使用する代わりに Google Colab を使用することができます。*
 
-More resources:
+その他のリソース:
 
--  <a href="https://github.com/ine-rmotr-curriculum/ds-content-python-under-10-minutes" target="_blank" rel="noopener noreferrer nofollow">Notebooks on GitHub</a>
--  <a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb" target="_blank" rel="noopener noreferrer nofollow">How to open Notebooks from GitHub using Google Colab.</a>
+-  <a href="https://github.com/ine-rmotr-curriculum/ds-content-python-under-10-minutes" target="_blank" rel="noopener noreferrer nofollow">GitHub のノート</a>
+-  <a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb" target="_blank" rel="noopener noreferrer nofollow">Google Colab を使用して GitHub からノートを開く方法</a>
 
 # --questions--
 
 ## --text--
 
-What is the main difference between lists and tuples in Python?
+Python のリストとタプルの主な違いは何ですか？
 
 ## --answers--
 
-Tuples are immutable.
+タプルはイミュータブル (変更不可) である。
 
 ---
 
-Lists are ordered.
+リストは順序付けられている。
 
 ---
 
-Tuples are unordered.
+タプルは順序付けられていない。
 
 ## --video-solution--
 

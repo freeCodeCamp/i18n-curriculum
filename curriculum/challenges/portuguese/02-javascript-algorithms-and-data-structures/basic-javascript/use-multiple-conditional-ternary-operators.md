@@ -9,7 +9,7 @@ dashedName: use-multiple-conditional-ternary-operators
 
 # --description--
 
-In the previous challenge, you used a single conditional operator. You can also chain them together to check for multiple conditions.
+No desafio anterior, você usou um único operador condicional. Você também pode encadear eles juntos para verificar por múltiplas condições.
 
 A seguinte função usa as instruções `if`, `else if` e `else` para verificar múltiplas condições:
 
