@@ -16,7 +16,7 @@ Este desafío se completará parcialmente en la plataforma de aprendizaje de Mic
 
 Complete the <a href="https://learn.microsoft.com/training/modules/implement-exception-handling-c-sharp/" target="_blank" rel="noreferrer">Implement Exception Handling in C# Console Applications</a> module on Microsoft Learn. Luego, responda a la siguiente pregunta.
 
-# --preguntas--
+# --questions--
 
 ## --text--
 

@@ -16,7 +16,7 @@ Este desafío se completará parcialmente en la plataforma de aprendizaje de Mic
 
 Complete the <a href="https://learn.microsoft.com/training/modules/csharp-modify-content/" target="_blank" rel="noreferrer">Modify the Content of Strings Using Built-In String Data Type Methods in C#</a> module on Microsoft Learn. Luego, responda a la siguiente pregunta.
 
-# --preguntas--
+# --questions--
 
 ## --text--
 
