@@ -8,7 +8,7 @@ dashedName: change-text-with-click-events
 
 # --description--
 
-When the click event happens, you can use JavaScript to update an HTML element.
+クリックイベントが発生したとき、JavaScript を使用して HTML 要素を更新できます。
 
 例えばユーザーが `Get Message` ボタンをクリックすると、`message` クラスを持つその要素のテキストが `Here is the message` に変わるとします。
 

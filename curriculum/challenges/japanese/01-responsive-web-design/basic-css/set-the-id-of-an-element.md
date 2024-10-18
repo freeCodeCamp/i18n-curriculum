@@ -9,7 +9,7 @@ dashedName: set-the-id-of-an-element
 
 # --description--
 
-In addition to classes, each HTML element can also have an `id` attribute.
+クラスに加えて、各 HTML 要素は `id` 属性を持つこともできます。
 
 `id` 属性を使用するいくつかの利点があります: 単一の要素のスタイルを指定するために `id` を使用することができます。また、JavaScript で特定の要素を選択して変更できることも後ほど学習します。
 

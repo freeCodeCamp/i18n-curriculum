@@ -9,7 +9,7 @@ dashedName: use-a-retina-image-for-higher-resolution-displays
 
 # --description--
 
-With the increase of internet connected devices, their sizes and specifications vary, and the displays they use could be different externally and internally. Pixel density is an aspect that could be different on one device from others and this density is known as Pixel Per Inch(PPI) or Dots Per Inch(DPI). The most famous such display is the one known as a "Retina Display" on the latest Apple MacBook Pro notebooks, and recently iMac computers. Due to the difference in pixel density between a "Retina" and "Non-Retina" displays, some images that have not been made with a High-Resolution Display in mind could look "pixelated" when rendered on a High-Resolution display.
+インターネット接続デバイスの増加に伴い、そのサイズや仕様は様々になり、使用されるディスプレイは外部的にも内部的にも異なる可能性があります。 ピクセル密度はデバイスによって異なる場合があり、この密度は Pixel Per Inch (PPI) もしくは Dots Per Inch (DPI) と呼ばれます。 最も有名なディスプレイは、最新の Apple MacBook Pro ノートブックや最近の iMac コンピューターに搭載された「Retina ディスプレイ」と呼ばれるものです。 Retina ディスプレイと非 Retina ディスプレイ間のピクセル密度の違いにより、高解像度ディスプレイを想定して作成されていない画像を高解像度ディスプレイで表示すると「ピクセル化」して見える場合があります。
 
 MacBook Pro の「Retina ディスプレイ」のような高解像度ディスプレイで画像を適切に表示する最も簡単な方法は、`width` と `height` の値を元のファイルの半分だけと定義することです。 以下に、元の画像の高さと幅の半分を設定する例を示します。
 

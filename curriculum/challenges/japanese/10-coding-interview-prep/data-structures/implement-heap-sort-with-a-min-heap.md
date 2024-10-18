@@ -8,7 +8,7 @@ dashedName: implement-heap-sort-with-a-min-heap
 
 # --description--
 
-Now that we can add and remove elements let's see some of the applications heaps can be used for. Heaps are commonly used to implement priority queues because they always store an item of greatest or least value in first position. In addition, they are used to implement a sorting algorithm called heap sort. We'll see how to do this here. Heap sort uses a min heap, the reverse of a max heap. A min heap always stores the element of least value in the root position.
+要素の追加と削除ができるようになったので、ヒープを使える応用をいくつか見てみましょう。 ヒープは優先度付きキューを実装するためによく使用されます。なぜなら、優先度付きキューは常に、先頭に最大値または最小値の要素を格納するからです。 さらに、ヒープソートと呼ばれるソートアルゴリズムの実装にもヒープが使用されます。 その方法を見ていきましょう。 ヒープソートは、最大ヒープの逆である最小ヒープを使用します。 最小ヒープは常に、最小値である要素を根の位置に格納します。
 
 ヒープソートの仕組みは、ソートされていない配列を取り、配列内の各要素を最小ヒープに追加し、次に最小ヒープからすべての要素を新しい配列に抽出するというものです。 最小ヒープ構造では、新しい配列に元の要素が必ず最小から最大の順序で格納されます。 これは、平均ケースと最悪ケースのパフォーマンスが O(nlog(n)) である最も効率的なソートアルゴリズムの一つです。
 

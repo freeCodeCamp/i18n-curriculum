@@ -8,23 +8,23 @@ dashedName: issue-tracker
 
 # --description--
 
-Build a full stack JavaScript app that is functionally similar to this: <a href="https://issue-tracker.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://issue-tracker.freecodecamp.rocks/</a>. Working on this project will involve you writing your code using one of the following methods:
+<a href="https://issue-tracker.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://issue-tracker.freecodecamp.rocks/</a> と同じような機能を持つ、フルスタック JavaScript アプリを構築してください。 プロジェクトに取り組むにあたり、以下の方法のうち 1 つを用いてコードを記述します。
 
 -   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-issuetracker/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
 -   Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-issuetracker/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete your project.
--   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
+-   ご自身で選んだサイトビルダーを使用して、プロジェクトを完了させてください。 必ず GitHub リポジトリのすべてのファイルを取り込む。
 
 # --instructions--
 
--   Complete the necessary routes in `/routes/api.js`
+-   `/routes/api.js` で、必要なルートを完成させてください。
 -   `tests/2_functional-tests.js` にすべての機能テストを作成してください。
 -   `sample.env` ファイルを `.env` にコピーし、変数を適切に設定してください。
 -   To run the tests automatically, add `NODE_ENV=test` in your `.env` file
 -   To run the tests in the console, use the command `npm run test`
 
-Write the following tests in `tests/2_functional-tests.js`:
+次のテストを `tests/2_functional-tests.js` に記述してください。
 
--   Create an issue with every field: POST request to `/api/issues/{project}`
+-   すべてのフィールドを指定して課題を作成する: `/api/issues/{project}` への POST リクエスト
 -   必須フィールドのみについて課題を作成してください: `/api/issues/{project}` への POST リクエスト
 -   不足している必須フィールドについて課題を作成してください: `/api/issues/{project}` への POST リクエスト
 -   プロジェクトの課題を表示してください: `/api/issues/{project}` への GET リクエスト
@@ -71,7 +71,7 @@ async (getUserInput) => {
 };
 ```
 
-The `POST` request to `/api/issues/{projectname}` will return the created object, and must include all of the submitted fields. Excluded optional fields will be returned as empty strings. Additionally, include `created_on` (date/time), `updated_on` (date/time), `open` (boolean, `true` for open - default value, `false` for closed), and `_id`.
+`/api/issues/{projectname}` への `POST` リクエストは、そのリクエストで作成されたオブジェクトを返します。また、送信したすべてのフィールドが含まれている必要があります。 除外したオプションフィールドは空の文字列として返します。 さらに、`created_on` (日付/時間)、`updated_on` (日付/時間)、`open` (ブール値、open の場合は `true` (こちらがデフォルト値) 、closed の場合は `false`) および `_id` を含めてください。
 
 ```js
 async (getUserInput) => {
@@ -105,7 +105,7 @@ async (getUserInput) => {
 };
 ```
 
-If you send a `POST` request to `/api/issues/{projectname}` without the required fields, returned will be the error `{ error: 'required field(s) missing' }`
+`/api/issues/{projectname}` への `POST` リクエストを必須フィールドなしで送信した場合は、エラー `{ error: 'required field(s) missing' }` を返します。
 
 ```js
 async (getUserInput) => {
@@ -123,7 +123,7 @@ async (getUserInput) => {
 };
 ```
 
-You can send a `GET` request to `/api/issues/{projectname}` for an array of all issues for that specific `projectname`, with all the fields present for each issue.
+`/api/issues/{projectname}` へ `GET` リクエストを送信して、特定の `projectname` に対するすべての課題の配列 (課題ごとに存在するすべてのフィールドを含む) を取得できます。
 
 ```js
 async (getUserInput) => {
@@ -170,7 +170,7 @@ async (getUserInput) => {
 };
 ```
 
-You can send a `GET` request to `/api/issues/{projectname}` and filter the request by also passing along any field and value as a URL query (ie. `/api/issues/{project}?open=false`). You can pass one or more field/value pairs at once.
+`/api/issues/{projectname}` へ `GET` リクエストを送信し、任意のフィールドと値を URL クエリとして渡すことにより、リクエストをフィルターで絞り込むことができます (例: `/api/issues/{project}?open=false`)。 1 つ以上のフィールド/値のペアを一度に渡すことができます。
 
 ```js
 async (getUserInput) => {
@@ -216,7 +216,7 @@ async (getUserInput) => {
 };
 ```
 
-You can send a `PUT` request to `/api/issues/{projectname}` with an `_id` and one or more fields to update. On success, the `updated_on` field should be updated, and returned should be `{  result: 'successfully updated', '_id': _id }`.
+`_id` と 1 つ 以上の更新対象のフィールドを指定して、`/api/issues/{projectname}` へ `PUT` リクエストを送信することができます。 成功した場合は、`updated_on` フィールドを更新し、`{  result: 'successfully updated', '_id': _id }` を返す必要があります。
 
 ```js
 async (getUserInput) => {
@@ -251,7 +251,7 @@ async (getUserInput) => {
 };
 ```
 
-When the `PUT` request sent to `/api/issues/{projectname}` does not include an `_id`, the return value is `{ error: 'missing _id' }`.
+`/api/issues/{projectname}` へ送信した `PUT` リクエストに `_id` が含まれていない場合、戻り値は `{ error: 'missing _id' }` です。
 
 ```js
 async (getUserInput) => {
@@ -267,7 +267,7 @@ async (getUserInput) => {
 };
 ```
 
-When the `PUT` request sent to `/api/issues/{projectname}` does not include update fields, the return value is `{ error: 'no update field(s) sent', '_id': _id }`. On any other error, the return value is `{ error: 'could not update', '_id': _id }`.
+`/api/issues/{projectname}` へ送信した `PUT` リクエストに更新フィールドが含まれていない 場合、戻り値は `{ error: 'no update field(s) sent', '_id': _id }` です。 それ以外のエラーでは、戻り値は `{ error: 'could not update', '_id': _id }` です。
 
 ```js
 async (getUserInput) => {
@@ -297,7 +297,7 @@ async (getUserInput) => {
 };
 ```
 
-You can send a `DELETE` request to `/api/issues/{projectname}` with an `_id` to delete an issue. If no `_id` is sent, the return value is `{ error: 'missing _id' }`. On success, the return value is `{ result: 'successfully deleted', '_id': _id }`. On failure, the return value is `{ error: 'could not delete', '_id': _id }`.
+`_id` を指定して `/api/issues/{projectname}` へ `DELETE` リクエストを送信して、課題を削除することができます。 `_id` が送信されなかった場合、戻り値は `{ error: 'missing _id' }` です。 成功した場合、戻り値は `{ result: 'successfully deleted', '_id': _id }` です。 失敗した場合、戻り値は `{ error: 'could not delete', '_id': _id }` です。
 
 ```js
 async (getUserInput) => {
@@ -339,7 +339,7 @@ async (getUserInput) => {
 };
 ```
 
-All 14 functional tests are complete and passing.
+14 件の機能テストがすべて記述され、成功する状態になっています。
 
 ```js
 async (getUserInput) => {

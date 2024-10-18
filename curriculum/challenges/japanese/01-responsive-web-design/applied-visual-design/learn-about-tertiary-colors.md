@@ -8,7 +8,7 @@ dashedName: learn-about-tertiary-colors
 
 # --description--
 
-Computer monitors and device screens create different colors by combining amounts of red, green, and blue light. This is known as the RGB additive color model in modern color theory. Red (R), green (G), and blue (B) are called primary colors. Mixing two primary colors creates the secondary colors cyan (G + B), magenta (R + B) and yellow (R + G). You saw these colors in the Complementary Colors challenge. These secondary colors happen to be the complement to the primary color not used in their creation, and are opposite to that primary color on the color wheel. For example, magenta is made with red and blue, and is the complement to green.
+コンピュータのモニタやデバイスの画面は、赤、緑、青の光の量を組み合わせることによって異なる色を生成します。 これは現代の色彩理論では RGB 加法カラーモデルとして知られています。 赤 (R)、緑 (G)、青 (B) は原色と呼ばれます。 2 つの原色を混合すると、シアン (G + B)、マゼンタ (R + B)、黄色 (R + G) が生成されます。 これらの色は補色のチャレンジに出てきました。 これら二次色は、その色を作る時に使わなかった原色の補色にあたり、色相環ではその原色の反対側に位置します。 例えばマゼンタは赤と青でできており、緑の補色です。
 
 三次色は、ある原色と色相環上で隣合う二次色のどちらかを混合した結果です。 例えば、RGB カラーモデルでは、赤 (原色) と黄色 (二次色) でオレンジ (三次色) が作られます。 これでシンプルな色相環に更に 6 色を加え、12 色になります。
 
@@ -16,7 +16,7 @@ Computer monitors and device screens create different colors by combining amount
 
 こちらが分裂補色配色を使用して作成した三色です。
 
-<table><thead><tr><th>Color</th><th>Hex Code</th></tr></thead><thead></thead><tbody><tr><td>orange</td><td>#FF7F00</td></tr><tr><td>cyan</td><td>#00FFFF</td></tr><tr><td>raspberry</td><td>#FF007F</td></tr></tbody></table>
+<table><thead><tr><th>色</th><th>16 進数カラーコード</th></tr></thead><thead></thead><tbody><tr><td>オレンジ</td><td>#FF7F00</td></tr><tr><td>シアン</td><td>#00FFFF</td></tr><tr><td>ラズベリー</td><td>#FF007F</td></tr></tbody></table>
 
 # --instructions--
 

@@ -8,9 +8,9 @@ dashedName: implement-binary-search
 
 # --description--
 
-Binary search is an **O(log(n))** efficiency algorithm for searching a sorted array to find an element. It operates using the following steps:
+二分探索はソートされた配列内で要素を検索するアルゴリズムで、その時間計算量は **O(log(n))** です。 次のように演算が行われます。
 
-1. Find the middle `value` of a sorted array. If `value == target` return `true` (The value has been found and the search is complete).
+1. ソートされた配列内の中央の `value` (値) を探します。 If `value == target` return `true` (The value has been found and the search is complete).
 1. 中央の `value < target` であれば、次の比較で配列の右半分を検索します。
 1. 中央の `value > target` であれば、次の比較で配列の左半分を検索します。
 1. If after searching the whole array the value is not present, return `false` (The array has been searched and the value is not in the array).

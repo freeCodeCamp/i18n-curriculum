@@ -9,7 +9,7 @@ dashedName: comparison-with-the-strict-equality-operator
 
 # --description--
 
-Strict equality (`===`) is the counterpart to the equality operator (`==`). However, unlike the equality operator, which attempts to convert both values being compared to a common type, the strict equality operator does not perform a type conversion.
+厳密等価演算子 (`===`) は等価演算子 (`==`) の相棒です。 しかし、比較する値を共通の型に変換しようとする等価演算子とは異なり、厳密等価演算子は型変換を行いません。
 
 比較する値の型が異なる場合は等しくないとみなし、厳密等価演算子は false を返します。
 

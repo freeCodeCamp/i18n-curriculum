@@ -8,7 +8,7 @@ dashedName: cumulative-standard-deviation
 
 # --description--
 
-Suppose that the entire population of interest is eight students in a particular class. For a finite set of numbers, the population standard deviation is found by taking the square root of the average of the squared deviations of the values subtracted from their average value. The marks of a class of eight students (that is, a statistical population) are the following eight values:
+対象となる母集団全体が、特定のクラスの 8 人の学生であるとします。 有限の数値集合において、母集団の標準偏差は、平均値から差し引いた値の偏差の 2 乗の平均の平方根をとることによって求められます。 8 人の学生 (つまり統計人口) のクラスの得点は、以下の 8 つの値です。
 
 $2、4、4、4、5、5、7、9$
 
@@ -18,12 +18,12 @@ $$\mu ={\frac {2+4+4+4+5+5+7+9}{8}}={\frac {40}{8}}=5$$
 
 まず、平均から各データポイントの偏差を計算し、それぞれの結果を 2 乗します:
 
-| Deviations of each data | 結果の 2 乗              |
-| ----------------------- | -------------------- |
-| $(2-5)^{2}=(-3)^{2}=9$  | $(5-5)^{2}=0^{2}=0$  |
-| $(4-5)^{2}=(-1)^{2}=1$  | $(5-5)^{2}=0^{2}=0$  |
-| $(4-5)^{2}=(-1)^{2}=1$  | $(7-5)^{2}=2^{2}=4$  |
-| $(4-5)^{2}=(-1)^{2}=1$  | $(9-5)^{2}=4^{2}=16$ |
+| 各データの偏差                | 結果の 2 乗              |
+| ---------------------- | -------------------- |
+| $(2-5)^{2}=(-3)^{2}=9$ | $(5-5)^{2}=0^{2}=0$  |
+| $(4-5)^{2}=(-1)^{2}=1$ | $(5-5)^{2}=0^{2}=0$  |
+| $(4-5)^{2}=(-1)^{2}=1$ | $(7-5)^{2}=2^{2}=4$  |
+| $(4-5)^{2}=(-1)^{2}=1$ | $(9-5)^{2}=4^{2}=16$ |
 
 分散は、これらの値の平均です:
 
@@ -37,37 +37,37 @@ $$\sigma ={\sqrt {4}}=2$$
 
 # --hints--
 
-`standardDeviation` should be a function.
+`standardDeviation` という関数です。
 
 ```js
 assert(typeof standardDeviation == 'function');
 ```
 
-`standardDeviation([2, 4, 4, 4, 5, 5, 7, 9])` should return a number.
+`standardDeviation([2, 4, 4, 4, 5, 5, 7, 9])` は数字を返します。
 
 ```js
 assert(typeof standardDeviation([2, 4, 4, 4, 5, 5, 7, 9]) == 'number');
 ```
 
-`standardDeviation([2, 4, 4, 4, 5, 5, 7, 9])` should return `2`.
+`standardDeviation([2, 4, 4, 4, 5, 5, 7, 9])` は `2` を返します。
 
 ```js
 assert.equal(standardDeviation([2, 4, 4, 4, 5, 5, 7, 9]), 2);
 ```
 
-`standardDeviation([600, 470, 170, 430, 300])` should return `147.323`.
+`standardDeviation([600, 470, 170, 430, 300])` は `147.323` を返します。
 
 ```js
 assert.equal(standardDeviation([600, 470, 170, 430, 300]), 147.323);
 ```
 
-`standardDeviation([75, 83, 96, 100, 121, 125])` should return `18.239`.
+`standardDeviation([75, 83, 96, 100, 121, 125])` は `18.239` を返します。
 
 ```js
 assert.equal(standardDeviation([75, 83, 96, 100, 121, 125]), 18.239);
 ```
 
-`standardDeviation([23, 37, 45, 49, 56, 63, 63, 70, 72, 82])` should return `16.87`.
+`standardDeviation([23, 37, 45, 49, 56, 63, 63, 70, 72, 82])` は `16.87` を返します。
 
 ```js
 assert.equal(
@@ -76,7 +76,7 @@ assert.equal(
 );
 ```
 
-`standardDeviation([271, 354, 296, 301, 333, 326, 285, 298, 327, 316, 287, 314])` should return `22.631`.
+`standardDeviation([271, 354, 296, 301, 333, 326, 285, 298, 327, 316, 287, 314])` は `22.631` を返します。
 
 ```js
 assert.equal(

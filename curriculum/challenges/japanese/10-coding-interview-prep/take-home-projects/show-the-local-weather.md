@@ -8,7 +8,7 @@ dashedName: show-the-local-weather
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://codepen.io/freeCodeCamp/full/bELRjV" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/bELRjV</a>.
+**目標:** こちらと似た機能を持つアプリを構築してください: <a href="https://codepen.io/freeCodeCamp/full/bELRjV" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/bELRjV</a>
 
 **ルール #1:** 模範プロジェクトのコードを見ないようにしてください。 自分の力で解いてみてください。
 

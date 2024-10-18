@@ -9,7 +9,7 @@ dashedName: change-an-elements-relative-position
 
 # --description--
 
-CSS treats each HTML element as its own box, which is usually referred to as the <dfn>CSS Box Model</dfn>. Block-level items automatically start on a new line (think headings, paragraphs, and divs) while inline items sit within surrounding content (like images or spans). The default layout of elements in this way is called the <dfn>normal flow</dfn> of a document, but CSS offers the position property to override it.
+CSS は各 HTML 要素を独自のボックスとして扱います。これは一般に <dfn>CSS ボックスモデル</dfn> と呼ばれます。 ブロックレベル要素 (見出し、段落、div 要素など) は自動的に新しい行から始まりますが、インライン要素 (画像、span 要素など) は周囲のコンテンツの間にとどまります。 このような要素のデフォルトのレイアウトはドキュメントの <dfn>通常フロー</dfn> と呼ばれますが、CSS にはそれをオーバーライドする position プロパティがあります。
 
 ある要素の position が `relative` に設定されていると、その要素を今の通常フローでの位置を基準に *相対的に* どのように CSS で動かすかを指定することができます。 これは CSS のオフセットプロパティの `left` または `right`, および `top` または `bottom` とセットで使います。 これらは要素を通常の位置から何ピクセル、何 %、または何 em *離す* かを表しています。 下記の例は、段落を下から 10 ピクセル離すように移動します。
 

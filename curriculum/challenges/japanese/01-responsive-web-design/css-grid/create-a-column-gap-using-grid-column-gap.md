@@ -9,7 +9,7 @@ dashedName: create-a-column-gap-using-grid-column-gap
 
 # --description--
 
-So far in the grids you have created, the columns have all been tight up against each other. Sometimes you want a gap in between the columns. To add a gap between the columns, use the `grid-column-gap` property like this:
+これまでに作成したグリッドでは、列はすべて互いにくっついています。 場合によっては、列の間に隙間が必要になります。 列の間に隙間を作るためには、`grid-column-gap` プロパティを次のように使用します:
 
 ```css
 grid-column-gap: 10px;

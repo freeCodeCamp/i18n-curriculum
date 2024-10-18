@@ -8,7 +8,7 @@ dashedName: sort-stability
 
 # --description--
 
-When sorting records in a table by a particular column or field, a <a href="https://www.freecodecamp.org/news/stability-in-sorting-algorithms-a-treatment-of-equality-fa3140a5a539/" target="_blank" rel="noopener noreferrer nofollow">stable sort</a> will always retain the relative order of records that have the same key.
+表のレコードを特定の列またはフィールドで並び替える時、<a href="https://www.freecodecamp.org/news/stability-in-sorting-algorithms-a-treatment-of-equality-fa3140a5a539/" target="_blank" rel="noopener noreferrer nofollow">安定ソート</a> は同じキーを持つレコードの相対的な順序を常に保持します。
 
 例えば、この国と都市の表で **2 番目**の列の都市で安定ソートを行うと、米国のバーミンガムが英国のバーミンガムの上という順序が保たれます。 (このケースでは、不安定ソートでも米国のバーミンガムが英国のバーミンガムの上に配置される*可能性*はありますが、安定ソートのルーチンはそれを*保証*します)。
 

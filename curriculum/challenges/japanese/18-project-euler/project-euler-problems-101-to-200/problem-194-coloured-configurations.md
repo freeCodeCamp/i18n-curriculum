@@ -8,17 +8,17 @@ dashedName: problem-194-coloured-configurations
 
 # --description--
 
-Consider graphs built with the units A: <img alt="graph unit A" src="https://cdn.freecodecamp.org/curriculum/project-euler/coloured-configurations-1.png" style="display: inline-block; background-color: white; padding: 10px;" /> and B: <img  alt="graph unit B" src="https://cdn.freecodecamp.org/curriculum/project-euler/coloured-configurations-2.png" style="display: inline-block; background-color: white; padding: 10px;" />, where the units are glued along the vertical edges as in the graph <img alt="graph with four units glued along the vertical edges" src="https://cdn.freecodecamp.org/curriculum/project-euler/coloured-configurations-3.png" style="display: inline-block; background-color: white; padding: 10px;" />.
+ユニット A: <img alt="graph unit A" src="https://cdn.freecodecamp.org/curriculum/project-euler/coloured-configurations-1.png" style="display: inline-block; background-color: white; padding: 10px;" /> と B: <img  alt="graph unit B" src="https://cdn.freecodecamp.org/curriculum/project-euler/coloured-configurations-2.png" style="display: inline-block; background-color: white; padding: 10px;" /> からなる図形を考えます。このユニットを次の図のように、垂直方向の辺に沿って接着します。<img alt="graph with four units glued along the vertical edges" src="https://cdn.freecodecamp.org/curriculum/project-euler/coloured-configurations-3.png" style="display: inline-block; background-color: white; padding: 10px;" />
 
-A configuration of type $(a,b,c)$ is a graph thus built of $a$ units A and $b$ units B, where the graph's vertices are coloured using up to $c$ colours, so that no two adjacent vertices have the same colour. The compound graph above is an example of a configuration of type $(2,2,6)$, in fact of type $(2,2,c)$ for all $c ≥ 4$
+$(a,b,c)$ 型の構成は、$a$ 個のユニット A と $b$ 個のユニット B からなり、図の頂点は、隣接する 2 つの頂点が同色にならない形で最大 $c$ 種類の色が付けられています。 上図の連結ユニットは (2,2,6) 型の構成の例です。実は、これはすべての $c ≥ 4 に対する (2,2,c) 型の構成です。
 
-Let $N(a,b,c)$ be the number of configurations of type $(a,b,c)$. For example, $N(1,0,3) = 24$, $N(0,2,4) = 92928$ and $N(2,2,3) = 20736$.
+$(a,b,c)$ 型の構成の数を $N(a,b,c)$ とします。 例えば、$N(1,0,3) = 24$, $N(0,2,4) = 92928$, $N(2,2,3) = 20736$ です。
 
-Find the last 8 digits of $N(25,75,1984)$.
+$N(25,75,1984)$ の下位 8 桁を求めなさい。
 
 # --hints--
 
-`coloredConfigurations()` should return `61190912`.
+`coloredConfigurations()` は `61190912` を返す必要があります。
 
 ```js
 assert.strictEqual(coloredConfigurations(), 61190912);

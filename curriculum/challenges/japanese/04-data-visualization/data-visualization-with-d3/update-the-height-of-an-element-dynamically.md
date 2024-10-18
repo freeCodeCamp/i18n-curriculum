@@ -8,7 +8,7 @@ dashedName: update-the-height-of-an-element-dynamically
 
 # --description--
 
-The previous challenges covered how to display data from an array and how to add CSS classes. You can combine these lessons to create a simple bar chart. There are two steps to this:
+これまでのチャレンジでは、配列からのデータを表示する方法と、CSS クラスを追加する方法を学びました。 それらで学んだことを組み合わせて、単純な棒グラフを作成できます。 それは次の 2 段階で行います。
 
 1) 配列内の各データポイントに対して `div` を作成する
 

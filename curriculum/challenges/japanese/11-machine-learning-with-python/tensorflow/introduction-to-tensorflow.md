@@ -1,6 +1,6 @@
 ---
 id: 5e8f2f13c4cdbe86b5c72d88
-title: Introduction to TensorFlow
+title: TensorFlow 入門
 challengeType: 11
 videoId: r9hRyGGjOgQ
 bilibiliIds:
@@ -22,15 +22,15 @@ Which of the following is **not** a type of tensor?
 
 ## --answers--
 
-Variable
+変数
 
 ---
 
-Flowing
+流動
 
 ---
 
-Placeholder
+プレイスホルダー
 
 ---
 
@@ -38,7 +38,7 @@ SparseTensor
 
 ---
 
-Constant
+定数
 
 ## --video-solution--
 

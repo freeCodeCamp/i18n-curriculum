@@ -8,7 +8,7 @@ dashedName: smallest-common-multiple
 
 # --description--
 
-Find the smallest common multiple of the provided parameters that can be evenly divided by both, as well as by all sequential numbers in the range between these parameters.
+指定されたパラメーターに対して、両方のパラメーターで割り切れるだけでなく、これらのパラメーターの範囲内にあるすべての連続する数でも割り切れる、最小公倍数を求めてください。
 
 範囲は 2 つの数値の配列になりますが、必ずしも数値順とは限りません。
 

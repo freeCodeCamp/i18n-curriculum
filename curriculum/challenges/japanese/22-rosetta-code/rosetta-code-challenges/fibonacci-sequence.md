@@ -8,7 +8,7 @@ dashedName: fibonacci-sequence
 
 # --description--
 
-Write a function to generate the <code>n<sup>th</sup></code> Fibonacci number.
+<code>n</code> 番目のフィボナッチ数を生成する関数を作成します。
 
 <code>n</code> 番目のフィボナッチ数は以下のように計算されます。
 

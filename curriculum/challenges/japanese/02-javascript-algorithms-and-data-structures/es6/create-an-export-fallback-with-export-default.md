@@ -8,7 +8,7 @@ dashedName: create-an-export-fallback-with-export-default
 
 # --description--
 
-In the `export` lesson, you learned about the syntax referred to as a <dfn>named export</dfn>. This allowed you to make multiple functions and variables available for use in other files.
+`export` のレッスンでは、<dfn>名前付きエクスポート</dfn>と呼ばれる構文について学びました。 これにより、複数の関数や変数を他のファイルで使用できるようになります。
 
 もう一つ覚えておく必要がある `export` 構文として、<dfn>export default</dfn> というものがあります。 通常は、ファイルから 1 つの値だけをエクスポートする場合にこの構文を使用します。 また、ファイルやモジュールのフォールバック (代替) 値を作成する場合にも使用します。
 

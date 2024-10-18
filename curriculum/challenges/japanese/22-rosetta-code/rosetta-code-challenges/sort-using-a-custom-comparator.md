@@ -8,7 +8,7 @@ dashedName: sort-using-a-custom-comparator
 
 # --description--
 
-Write a function to sort an array (or list) of strings in order of descending length, and in ascending lexicographic order for strings of equal length.
+文字列の配列 (またはリスト) を長さの降順に、かつ長さの等しい文字列は辞書式昇順にソートする関数を記述してください。
 
 # --hints--
 

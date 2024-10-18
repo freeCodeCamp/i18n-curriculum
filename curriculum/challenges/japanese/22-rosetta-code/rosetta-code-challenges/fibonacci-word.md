@@ -8,12 +8,12 @@ dashedName: fibonacci-word
 
 # --description--
 
-The Fibonacci Word Sequence may be created in a manner analogous to the Fibonacci Sequence, but it focuses on iterating concatenation.
+フィボナッチ列はフィボナッチ数列に類似した方法で作成できますが、連結の繰り返しが中心になります。
 
-<pre>Define  F_Word<sub>1</sub>  as  <strong>1</strong>
-Define  F_Word<sub>2</sub>  as  <strong>0</strong>
-Form   F_Word<sub>3</sub>  as  F_Word<sub>2</sub>   concatenated with  F_Word<sub>1</sub>   i.e.:  <strong>01</strong>
-Form   F_Word<sub>n</sub>  as  F_Word<sub>n-1</sub>  concatenated with  F_word<sub>n-2</sub>
+<pre>F_Word<sub>1</sub> を <strong>1</strong> と定義します
+F_Word<sub>2</sub> を <strong>0</strong> と定義します
+F_Word<sub>3</sub> を F_Word <sub>1</sub> と結びついた F_Word<sub>2</sub> として作成します 例: <strong>01</strong>
+F_Word<sub>n</sub> を F_word <sub>n-2</sub> と結びついた F_Word<sub>n-1</sub> として作成します
 </pre>
 
 このチャレンジでは、<a href="https://www.freecodecamp.org/japanese/learn/coding-interview-prep/rosetta-code/entropy" target="_blank" rel="noopener noreferrer nofollow">こちらのロゼッタコードのチャレンジで説明されている</a>エントロピーの計算が必要です。

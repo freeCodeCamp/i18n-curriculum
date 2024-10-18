@@ -8,7 +8,7 @@ dashedName: understand-the-hazards-of-using-imperative-code
 
 # --description--
 
-Functional programming is a good habit. It keeps your code easy to manage, and saves you from sneaky bugs. But before we get there, let's look at an imperative approach to programming to highlight where you may have issues.
+関数型プログラミングは良い習慣です。 コードが管理しやすくなり、バグの潜入を防ぎます。 しかし、そうした習慣に行き着く前に、命令型プログラミングのアプローチについて、問題が起こりそうな場所を明らかにしておきましょう。
 
 英語 (および他の多くの言語) では、コマンドを与えるために命令型の時制が使用されています。 同様に、プログラミングにおける命令型のスタイルは、コンピューターにタスクを実行するための一連のステートメントを与えます。
 

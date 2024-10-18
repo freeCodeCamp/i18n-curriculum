@@ -9,7 +9,7 @@ dashedName: delete-properties-from-a-javascript-object
 
 # --description--
 
-We can also delete properties from objects like this:
+次のようにオブジェクトからプロパティを削除することもできます。
 
 ```js
 delete ourDog.bark;

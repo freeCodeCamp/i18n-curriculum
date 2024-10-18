@@ -8,7 +8,7 @@ dashedName: use-destructuring-assignment-to-assign-variables-from-nested-objects
 
 # --description--
 
-You can use the same principles from the previous two lessons to destructure values from nested objects.
+前の 2 つのレッスンと同じ原則を使用して、ネストされたオブジェクトから値を分割することができます。
 
 前の例と同様のオブジェクトを使用します。
 

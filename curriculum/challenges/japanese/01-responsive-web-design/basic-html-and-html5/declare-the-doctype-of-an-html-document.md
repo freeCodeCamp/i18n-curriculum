@@ -9,7 +9,7 @@ dashedName: declare-the-doctype-of-an-html-document
 
 # --description--
 
-The challenges so far have covered specific HTML elements and their uses. However, there are a few elements that give overall structure to your page, and should be included in every HTML document.
+これまでのチャレンジでは、特定の HTML 要素とその使い方を学んできました。 しかし、ページ全体の構造を示すため、すべての HTML ドキュメントに含めるべき要素がいくつかあります。
 
 ドキュメントの最上部で、あなたのページが使用している HTML のバージョンをブラウザに伝える必要があります。 HTML は進化する言語であり、定期的に更新されています。 ほとんどの主要なブラウザは最新の仕様 (HTML5) をサポートしています。 ただし、古いウェブページでは以前のバージョンの言語を使用していることがあります。
 

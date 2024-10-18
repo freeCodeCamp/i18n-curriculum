@@ -9,7 +9,7 @@ dashedName: create-a-custom-css-variable
 
 # --description--
 
-To create a CSS variable, you just need to give it a name with two hyphens in front of it and assign it a value like this:
+CSS 変数を作成するには、2 つのハイフンで始まる名前を付けて、次のように値を代入します:
 
 ```css
 --penguin-skin: gray;

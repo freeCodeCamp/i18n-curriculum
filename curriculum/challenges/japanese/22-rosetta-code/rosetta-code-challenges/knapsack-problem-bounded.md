@@ -8,7 +8,7 @@ dashedName: knapsack-problembounded
 
 # --description--
 
-The bounded knapsack problem is defined as follows:
+個数制限付きナップサック問題は以下のように定義されます。
 
 ナップサックに入れるアイテムを表すオブジェクトの配列が与えられます。 オブジェクトにはアイテム名、ピース (特定のアイテムの数)、重量、価値の 4 つの属性があります。 総重量が最大重量を超えず、価値が最大化されるようにアイテムを選択する必要があります。 各アイテムは 0 ～ `pieces` 回の範囲で選択できることに注意してください。
 

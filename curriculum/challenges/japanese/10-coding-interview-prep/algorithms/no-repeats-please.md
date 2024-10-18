@@ -8,7 +8,7 @@ dashedName: no-repeats-please
 
 # --description--
 
-Return the number of total permutations of the provided string that don't have repeated consecutive letters. Assume that all characters in the provided string are each unique.
+与えられた文字列の全順列のうち、同じ文字の連続的な繰り返しを含まない順列がいくつあるかを返します。 与えられた文字列のすべての文字がそれぞれ一意であると仮定します。
 
 例えば `aab` は、計 6 つの順列 (`aab`, `aab`, `aba`, `aba`, `baa`, `baa`) を持ちますが、そのうち 2 つ (`aba` と `aba`) だけは同じ文字 (この場合は `a`) が繰り返されていないので、2 を返す必要があります。
 

@@ -8,7 +8,7 @@ dashedName: use-capture-groups-to-search-and-replace
 
 # --description--
 
-Searching is useful. However, you can make searching even more powerful when it also changes (or replaces) the text you match.
+検索は便利ですが、 マッチさせたテキストを変更 (または置換) すると、検索をさらに強力にすることができます。
 
 文字列では `.replace()` を使用して文字列内のテキストを検索したり置換したりできます。 `.replace()` への最初の入力には、検索したい正規表現パターンを渡します。 2 番目のパラメーターには、マッチしたものを置き換える文字列や、何かを実行する関数を渡します。
 

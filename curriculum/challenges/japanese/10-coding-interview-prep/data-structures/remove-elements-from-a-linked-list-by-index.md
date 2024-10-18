@@ -8,7 +8,7 @@ dashedName: remove-elements-from-a-linked-list-by-index
 
 # --description--
 
-Before we move on to another data structure, let's get a couple of last bits of practice with linked lists.
+別のデータ構造の話に移る前に、リンクリストを使って最後の練習をいくつか行いましょう。
 
 与えられた `index` に位置している `element` を削除する `removeAt` メソッドを書きましょう。 メソッドは `removeAt(index)` と呼ばれる必要があります。 特定の `index` にある `element` を削除するには、リンクリストに沿って移動しながら各ノードの実行数を数え続ける必要があります。
 

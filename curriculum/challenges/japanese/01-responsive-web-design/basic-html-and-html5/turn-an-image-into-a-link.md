@@ -9,7 +9,7 @@ dashedName: turn-an-image-into-a-link
 
 # --description--
 
-You can make elements into links by nesting them within an `a` element.
+ある要素を `a` 要素内にネストすることで、その要素をリンクにすることができます。
 
 画像を `a` 要素内にネストしてみましょう。 以下が例です:
 

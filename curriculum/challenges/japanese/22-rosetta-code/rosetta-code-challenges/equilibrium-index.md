@@ -8,7 +8,7 @@ dashedName: equilibrium-index
 
 # --description--
 
-An equilibrium index of a sequence is an index into the sequence such that the sum of elements at lower indices is equal to the sum of elements at higher indices.
+数列の平衡インデックスは、下位インデックスの要素の合計が上位インデックスの要素の合計と等しくなるような数列へのインデックスです。
 
 下記は数列 $A$ の例です。
 

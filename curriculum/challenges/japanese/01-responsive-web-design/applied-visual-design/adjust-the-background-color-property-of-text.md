@@ -1,6 +1,6 @@
 ---
 id: 587d781b367417b2b2512abc
-title: Adjust the background-color Property of Text
+title: テキストの background-color プロパティを調整する
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cEDqwA6'
 forumTopicId: 301032
@@ -9,23 +9,23 @@ dashedName: adjust-the-background-color-property-of-text
 
 # --description--
 
-Instead of adjusting your overall background or the color of the text to make the foreground easily readable, you can add a `background-color` to the element holding the text you want to emphasize. This challenge uses `rgba()` instead of `hex` codes or normal `rgb()`.
+前面のテキストを読みやすくするには、全体的な背景やテキストの色を調整する代わりに、強調したいテキストを持つ要素に `background-color` を追加することもできます。 このチャレンジでは `hex` (16進数) コードや通常の `rgb()` ではなく、`rgba()` を使います。
 
-<blockquote>rgba stands for:<br>  r = red<br>  g = green<br>  b = blue<br>  a = alpha/level of opacity</blockquote>
+<blockquote>rgba は以下の略です:<br>  r = red<br>  g = green<br>  b = blue<br>  a = alpha/不透明度のレベル</blockquote>
 
-The RGB values can range from 0 to 255. The alpha value can range from 1, which is fully opaque or a solid color, to 0, which is fully transparent or clear. `rgba()` is great to use in this case, as it allows you to adjust the opacity. This means you don't have to completely block out the background.
+RGB 値は 0～255 の範囲の値を取ることができます。 アルファ値は、完全に不透明である 1 から、完全に透明な 0 までの範囲の値を取ることができます。 `rgba()` を使うと不透明度を調整できるため、このチャレンジでの使い方に最適です。 背景を完全にブロックしなくても良いということです。
 
-You'll use `background-color: rgba(45, 45, 45, 0.1)` for this challenge. It produces a dark gray color that is nearly transparent given the low opacity value of 0.1.
+このチャレンジでは `background-color: rgba(45, 45, 45, 0.1)` を使用します。 不透明度が 0.1 と低いので、ほぼ透明な濃い灰色になります。
 
 # --instructions--
 
-To make the text stand out more, adjust the `background-color` of the `h4` element to the given `rgba()` value.
+テキストをより目立たせるために、`h4` 要素の `background-color` を与えられた `rgba()` の値に設定してください。
 
-Also for the `h4`, remove the `height` property and add `padding` of 10px.
+更に `h4` について、`height` プロパティを削除し、10px の `padding` を追加してください。
 
 # --hints--
 
-Your code should add a `background-color` property to the `h4` element set to `rgba(45, 45, 45, 0.1)`.
+`h4` 要素に `background-color` プロパティを追加し `rgba(45, 45, 45, 0.1)` に設定してください。
 
 ```js
 assert(
@@ -35,7 +35,7 @@ assert(
 );
 ```
 
-Your code should add a `padding` property to the `h4` element and set it to 10 pixels.
+`h4` 要素に `padding` プロパティを追加し、10 ピクセルに設定してください。
 
 ```js
 const h4Element = document.querySelector("h4"); 
@@ -46,7 +46,7 @@ assert.equal(h4style?.paddingBottom, "10px");
 assert.equal(h4style?.paddingLeft, "10px");
 ```
 
-The `height` property on the `h4` element should be removed.
+`h4` 要素の `height` プロパティを削除する必要があります。
 
 ```js
 const h4Element = document.querySelector("h4"); 

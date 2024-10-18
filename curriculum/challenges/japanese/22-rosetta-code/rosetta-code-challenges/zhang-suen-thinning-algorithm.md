@@ -8,7 +8,7 @@ dashedName: zhang-suen-thinning-algorithm
 
 # --description--
 
-This is an algorithm used to thin a black and white i.e. one bit per pixel images. For example, with an input image of:
+これは、白黒画像、つまり 1 ビット画像を細線化するために使用されるアルゴリズムです。 たとえば、以下の入力画像の場合、
 
 ```js
 const testImage1 = [
@@ -40,7 +40,7 @@ const testImage1 = [
   '                               ' ];
 ```
 
-## Algorithm
+## アルゴリズム
 
 黒のピクセルを 1、白のピクセルを 0 とし、入力画像は 1 と 0 の N×M の長方形配列とします。 このアルゴリズムは、8つの近傍を持つ黒のピクセル P1 全体に処理を行います。 近傍は以下のように並んでいます:
 
@@ -48,18 +48,18 @@ $$\begin{array}{|c|c|c|} \\hline P9 & P2              & P3\\\\ \\hline P8 & \bol
 
 当然、画像の境界ピクセルは 8 つすべての近傍を持つことはできません。
 
-- Define $A(P1)$ = the number of transitions from white to black, ($0 \to 1$) in the sequence P2, P3, P4, P5, P6, P7, P8, P9, P2. (Note the extra P2 at the end - it is circular).
+- 数列 P2, P3, P4, P5, P6, P7, P8, P9, P2 において、$A(P1)$ = 白から黒 ($0 \to 1$) になっている場所の数として定義します。 (最後に追加の P2 が来て、環状になります)
 - $B(P1)$ = P1 の近傍の黒のピクセル数として定義します。 ($= \\sum(P2 \ldots P9)$)
 
 **ステップ 1:**
 
 すべてのピクセルをテストし、この段階では次のすべての条件を (同時に) 満たすピクセルに注目します。
 
-1. The pixel is black and has eight neighbours
+1. ピクセルは黒で 8 つの近傍を持ちます
 2. $2 \le B(P1) \le 6$
 3. $A(P1) = 1$
-4. At least one of $P2$, $P4$ and $P6$ is white
-5. At least one of $P4$, $P6$ and $P8$ is white
+4. $P2$、$P4$、$P6$ のうち、少なくとも 1 つは白です
+5. $P4$、$P6$、$P8$ のうち、少なくとも 1 つは白です
 
 画像への条件の適用を反復し、ステップ 1 の条件を満たすピクセルをすべて収集した後、この条件を満たす全ピクセルを白にします。
 
@@ -67,7 +67,7 @@ $$\begin{array}{|c|c|c|} \\hline P9 & P2              & P3\\\\ \\hline P8 & \bol
 
 すべてのピクセルを再度テストし、この段階では次のすべての条件を満たすピクセルに注目します。
 
-1. The pixel is black and has eight neighbours
+1. ピクセルは黒で 8 つの近傍を持ちます
 2. $2 \le B(P1) \le 6$
 3. $A(P1) = 1$
 4. $P2$、$P4$、$P8$ のうち、少なくとも1つは白です

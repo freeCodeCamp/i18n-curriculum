@@ -12,7 +12,7 @@ Dieses nächste Video zeigt dir die Verbindung zwischen Funktionen und Grafik. B
 
 Hier ist das <a href="https://colab.research.google.com/drive/1UYorWd9-Btf_ZQyA9YdUzxzKR8rnVrSV" target="_blank" rel="noopener noreferrer nofollow">Colab-Notizbuch zu diesem Video.</a>
 
-# --Auftrag--
+# --assignment--
 
 Füge in deinem Algebra-Code-Notizbuch Code für Funktionen und Grafiken hinzu.
 

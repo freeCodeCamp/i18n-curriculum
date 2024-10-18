@@ -9,7 +9,7 @@ dashedName: comparison-with-the-less-than-or-equal-to-operator
 
 # --description--
 
-The less than or equal to operator (`<=`) compares the values of two numbers. If the number to the left is less than or equal to the number to the right, it returns `true`. If the number on the left is greater than the number on the right, it returns `false`. Like the equality operator, the less than or equal to operator converts data types.
+小なりイコール演算子 (`<=`) は、2 つの数値の値を比較します。 左の数値が右の数値よりも小さいか等しい場合は、`true` を返します。 左の数値が右の数値よりも大きい場合は、`false` を返します。 等価演算子と同様に、小なりイコール演算子でもデータ型が変換されます。
 
 **例**
 

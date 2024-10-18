@@ -9,7 +9,7 @@ dashedName: iterate-with-javascript-for-loops
 
 # --description--
 
-You can run the same code multiple times by using a loop.
+ループ処理によって、同じコードを何度も実行できます。
 
 JavaScript のループで最も一般的なのは、特定の回数を実行する `for` ループと呼ばれるものです。
 

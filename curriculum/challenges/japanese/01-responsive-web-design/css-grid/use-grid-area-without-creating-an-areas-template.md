@@ -9,7 +9,7 @@ dashedName: use-grid-area-without-creating-an-areas-template
 
 # --description--
 
-The `grid-area` property you learned in the last challenge can be used in another way. If your grid doesn't have an areas template to reference, you can create an area on the fly for an item to be placed like this:
+前回のチャレンジで学んだ `grid-area` プロパティは、別の方法でも使用できます。 参照できるエリアテンプレートがグリッドにない場合は、 アイテムを配置するためのエリアをその場で作成できます。
 
 ```css
 item1 { grid-area: 1/1/2/4; }

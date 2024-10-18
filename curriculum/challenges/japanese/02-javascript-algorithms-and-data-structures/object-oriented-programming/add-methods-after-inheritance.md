@@ -8,7 +8,7 @@ dashedName: add-methods-after-inheritance
 
 # --description--
 
-A constructor function that inherits its `prototype` object from a supertype constructor function can still have its own methods in addition to inherited methods.
+スーパータイプのコンストラクター関数から自身の `prototype` オブジェクトを継承するコンストラクター関数は、継承されるメソッドに加えて独自のメソッドを持つこともできます。
 
 たとえば、`Bird` は、自身の `prototype` を `Animal` から継承するコンストラクターです。
 

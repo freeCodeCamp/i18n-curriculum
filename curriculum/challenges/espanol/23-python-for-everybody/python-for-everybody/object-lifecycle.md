@@ -10,7 +10,7 @@ bilibiliIds:
 dashedName: object-lifecycle
 ---
 
-# --preguntas--
+# --questions--
 
 ## --text--
 

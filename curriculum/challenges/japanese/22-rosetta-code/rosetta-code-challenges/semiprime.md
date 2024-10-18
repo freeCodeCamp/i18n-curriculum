@@ -8,7 +8,7 @@ dashedName: semiprime
 
 # --description--
 
-Semiprime numbers are natural numbers that are products of exactly two (possibly equal) <a href="https://rosettacode.org/wiki/prime_number" target="_blank" rel="noopener noreferrer nofollow">prime numbers</a>.
+半素数は、2 つ (同じ数字も可) の<a href="https://rosettacode.org/wiki/prime_number" target="_blank" rel="noopener noreferrer nofollow">素数</a>の積である自然数です。
 
 <pre>1679  =  23 x 73</pre>
 

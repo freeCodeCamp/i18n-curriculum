@@ -9,7 +9,7 @@ dashedName: quoting-strings-with-single-quotes
 
 # --description--
 
-<dfn>String</dfn> values in JavaScript may be written with single or double quotes, as long as you start and end with the same type of quote. Unlike some other programming languages, single and double quotes work the same in JavaScript.
+JavaScript で<dfn>文字列</dfn>の値を記述するときは、開始と終了の引用符が同じ種類であればシングルクォートとダブルクォートのどちらも使用できます。 他のいくつかのプログラミング言語とは違い、JavaScript ではシングルクォートとダブルクォートは同様に機能します。
 
 ```js
 const doubleQuoteStr = "This is a string"; 

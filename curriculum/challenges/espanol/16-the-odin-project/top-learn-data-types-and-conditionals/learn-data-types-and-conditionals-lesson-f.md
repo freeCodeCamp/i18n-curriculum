@@ -32,7 +32,7 @@ console.log(result); // true
 ```
 
 
-# --preguntas----preguntas--
+# --questions--
 
 ## --text--
 

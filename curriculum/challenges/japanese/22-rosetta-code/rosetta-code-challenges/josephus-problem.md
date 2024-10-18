@@ -8,7 +8,7 @@ dashedName: josephus-problem
 
 # --description--
 
-Josephus problem is a math puzzle with a grim description: $n$ prisoners are standing on a circle, sequentially numbered from $0$ to $n-1$.
+ヨセフスの問題とは、次のような恐ろしい描写付きの数学パズルです。$n$ 人の囚人が円状に立っており、$0$ から順に $n-1$ まで番号が付けられています。
 
 死刑執行人が円の周囲を歩きながら、囚人 $0$ から始め、$k$ 番目ごとに囚人を処刑していきます。
 

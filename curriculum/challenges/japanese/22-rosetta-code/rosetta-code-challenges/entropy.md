@@ -8,7 +8,7 @@ dashedName: entropy
 
 # --description--
 
-Calculate the Shannon entropy H of a given input string.
+与えられた入力文字列のシャノンエントロピーHを計算します。
 
 Given the discrete random variable $X$ that is a string of $N$ "symbols" (total characters) consisting of $n$ different characters (n=2 for binary), the Shannon entropy of X in bits/symbol is:
 

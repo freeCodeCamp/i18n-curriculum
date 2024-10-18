@@ -8,7 +8,7 @@ dashedName: serve-json-on-a-specific-route
 
 # --description--
 
-While an HTML server serves HTML, an API serves data. A <dfn>REST</dfn> (REpresentational State Transfer) API allows data exchange in a simple way, without the need for clients to know any detail about the server. The client only needs to know where the resource is (the URL), and the action it wants to perform on it (the verb). The GET verb is used when you are fetching some information, without modifying anything. These days, the preferred data format for moving information around the web is JSON. Simply put, JSON is a convenient way to represent a JavaScript object as a string, so it can be easily transmitted.
+HTML サーバーは HTML を提供しますが、API はデータを提供します。 <dfn>REST</dfn> (REpresentational State Transfer) API では、クライアントがサーバーの詳細を知らなくても、簡単な方法でデータ交換ができます。 クライアントで知る必要があるのは、リソースのある場所 (URL) と、そこで実行したいアクション (動詞) だけです。 GET 動詞は、情報を取得するだけで何も変更を加えない場合に使用します。 最近では、ウェブでの情報の操作に使用するデータ形式として JSON が好まれています。 簡単に言えば、JSON は JavaScript オブジェクトを文字列として表現する便利な手段であり、簡単に送信することができます。
 
 シンプルな API として、パス `/json` で JSON で応答するルートを作成してみましょう。 いつものように `app.get()` メソッドを使用できます。 ルートハンドラートの中で、メソッド `res.json()` を使用し、オブジェクトを引数として渡します。 このメソッドは、リクエスト-レスポンス ループを閉じ、データを返します。 バックグラウンドでは、有効な JavaScript オブジェクトを文字列に変換します。そして、適切なヘッダーを設定して、JSON を提供しようとしていることをブラウザーに伝え、データを返します。 有効なオブジェクトには通常の構造体 `{key: data}` があります。 `data` は、数値、文字列、ネストされたオブジェクトまたは配列です。 `data` はまた、変数または関数呼び出しの結果になることもあり、その場合は文字列に変換される前に評価されます。
 

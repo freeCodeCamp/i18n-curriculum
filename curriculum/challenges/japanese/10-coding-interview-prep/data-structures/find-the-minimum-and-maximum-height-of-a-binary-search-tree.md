@@ -1,6 +1,6 @@
 ---
 id: 587d8257367417b2b2512c7d
-title: Find the Minimum and Maximum Height of a Binary Search Tree
+title: 二分探索木の最小と最大の高さを見つける
 challengeType: 1
 forumTopicId: 301641
 dashedName: find-the-minimum-and-maximum-height-of-a-binary-search-tree
@@ -8,19 +8,19 @@ dashedName: find-the-minimum-and-maximum-height-of-a-binary-search-tree
 
 # --description--
 
-In the last challenge we described a scenario in which a tree could become unbalanced. To understand the concept of balance, let's take a look at another tree property: height. Height in a tree represents the distance from the root node to any given leaf node. Different paths in a highly branched tree structure may have different heights, but for a given tree there will be a minimum and maximum height. If the tree is balanced, these values will differ at most by one. This means that in a balanced tree, all the leaf nodes exist within the same level, or if they are not within the same level they are at most one level apart.
+直前のチャレンジでは、木が不均衡になる (平衡でなくなる) 可能性のあるシナリオを説明しました。 平衡の概念を理解するために、木のもう一つの性質である「高さ」に注目してみましょう。 木の高さは、根ノードから、与えられた葉ノードまでの距離を表します。 分岐の多いツリー構造では経路によって高さが異なる場合がありますが、与えられた木には最小と最大の高さがあります。 平衡木の場合、これらの値の差は最大 1 です。 つまり平衡木では、すべての葉ノードが同じレベル内にあるか、または、同じレベル内でないとしても差は 1 レベル以内です。
 
-The property of balance is important for trees because it is what determines the efficiency of tree operations. As we explained in the last challenge, we face worst case time complexity for heavily unbalanced trees. Self-balancing trees are commonly used to account for this issue in trees with dynamic data sets. Common examples of these include AVL trees, red-black trees, and B-trees. These trees all contain additional internal logic which re-balance the tree when insertions or deletions create a state of imbalance.
+平衡性は、木の操作効率を左右するので木にとって重要なものです。 直前のチャレンジで説明したように、ひどく不均衡な木では最悪ケースの時間計算量になってしまいます。 動的データセットを持つ木でこの問題を考慮するために、平衡木がよく使われます。 その一般的な例としては、AVL 木、赤黒木、B 木などがあります。 これらすべての木には、挿入や削除によって平衡でなくなった木を再び平衡にするための内部ロジックが追加されています。
 
-**Note:** A similar property to height is depth, which refers to how far a given node is from the root node.
+**注:**「高さ」と似た性質として「深さ」があります。深さは、与えられたノードが根ノードからどれだけ離れているかを表します。
 
 # --instructions--
 
-Write two methods for our binary tree: `findMinHeight` and `findMaxHeight`. These methods should return an integer value for the minimum and maximum height within a given binary tree, respectively. If the node is empty let's assign it a height of `-1` (that's the base case). Finally, add a third method `isBalanced` which returns `true` or `false` depending on whether the tree is balanced or not. You can use the first two methods you just wrote to determine this.
+私たちの二分木に対して 2 つのメソッド、`findMinHeight` と `findMaxHeight` を記述してください。 これらのメソッドは、与えられた二分木の中の最小と最大の高さの整数値をそれぞれ返す必要があります。 ノードが空の場合は、`-1` の高さを割り当てましょう (これは初期条件です)。 最後に、木が平衡であるかどうかに応じて `true` または `false` を返す 3 つ目のメソッド、`isBalanced` を追加してください。 木が平衡かどうかを決定するには、最初の 2 つのメソッドを使用できます。
 
 # --hints--
 
-The `BinarySearchTree` data structure should exist.
+`BinarySearchTree` データ構造が存在する必要があります。
 
 ```js
 assert(
@@ -34,7 +34,7 @@ assert(
 );
 ```
 
-The binary search tree should have a method called `findMinHeight`.
+二分探索木に `findMinHeight` というメソッドが必要です。
 
 ```js
 assert(
@@ -50,7 +50,7 @@ assert(
 );
 ```
 
-The binary search tree should have a method called `findMaxHeight`.
+二分探索木に `findMaxHeight` というメソッドが必要です。
 
 ```js
 assert(
@@ -66,7 +66,7 @@ assert(
 );
 ```
 
-The binary search tree should have a method called `isBalanced`.
+二分探索木に `isBalanced` というメソッドが必要です。
 
 ```js
 assert(
@@ -82,7 +82,7 @@ assert(
 );
 ```
 
-The `findMinHeight` method should return the minimum height of the tree.
+`findMinHeight` メソッドは、木の最小の高さを返す必要があります。
 
 ```js
 assert(
@@ -109,7 +109,7 @@ assert(
 );
 ```
 
-The `findMaxHeight` method should return the maximum height of the tree.
+`findMaxHeight` メソッドは、木の最大の高さを返す必要があります。
 
 ```js
 assert(
@@ -136,7 +136,7 @@ assert(
 );
 ```
 
-An empty tree should return a height of `-1`.
+空の木は `-1` の高さを返す必要があります。
 
 ```js
 assert(
@@ -155,7 +155,7 @@ assert(
 );
 ```
 
-The `isBalanced` method should return `false` if the tree is an unbalanced binary search tree.
+`isBalanced` メソッドは、その木が不均衡な二分探索木である場合に `false` を返す必要があります。
 
 ```js
 assert(
@@ -182,7 +182,7 @@ assert(
 );
 ```
 
-The `isBalanced` method should return `true` if the tree is a balanced binary search tree.
+`isBalanced` メソッドは、その木が平衡な二分探索木である場合に `true` を返す必要があります。
 
 ```js
 assert(

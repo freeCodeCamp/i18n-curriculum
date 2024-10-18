@@ -8,7 +8,7 @@ dashedName: sorting-algorithmspermutation-sort
 
 # --description--
 
-Write a function to implement a permutation sort, which proceeds by generating the possible permutations of the input array until discovering the sorted one. The function should return the sorted array.
+順列ソートを実装する関数を記述してください。順列ソートはソートされた配列となるまで、入力配列の可能な順列の生成を継続します。 この関数はソートされた配列を返す必要があります。
 
 擬似コード:
 

@@ -8,7 +8,7 @@ dashedName: match-literal-strings
 
 # --description--
 
-In the last challenge, you searched for the word `Hello` using the regular expression `/Hello/`. That regex searched for a literal match of the string `Hello`. Here's another example searching for a literal match of the string `Kevin`:
+前回のチャレンジでは、正規表現 `/Hello/` を使用して `Hello` という単語を検索しました。 その正規表現は文字列 `Hello` のリテラルマッチ (記述した文字のとおりのマッチ) を検索しました。 ここでは、文字列 `Kevin` のリテラルマッチを検索する別の例を紹介します。
 
 ```js
 let testStr = "Hello, my name is Kevin.";

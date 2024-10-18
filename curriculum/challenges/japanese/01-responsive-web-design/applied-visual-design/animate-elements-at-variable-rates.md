@@ -1,6 +1,6 @@
 ---
 id: 587d78a8367417b2b2512ae5
-title: Animate Elements at Variable Rates
+title: 要素を可変レートでアニメーションさせる
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cZ89WA4'
 forumTopicId: 301040
@@ -9,17 +9,17 @@ dashedName: animate-elements-at-variable-rates
 
 # --description--
 
-There are a variety of ways to alter the animation rates of similarly animated elements. So far, this has been achieved by applying an `animation-iteration-count` property and setting `@keyframes` rules.
+似たようなアニメーション要素のアニメーション速度を変更する方法は様々です。 これまでは、`animation-iteration-count` プロパティを適用し、`@keyframes` ルールを設定することでそれが実現されていました。
 
-To illustrate, the animation on the right consists of two stars that each decrease in size and opacity at the 20% mark in the `@keyframes` rule, which creates the twinkle animation. You can change the `@keyframes` rule for one of the elements so the stars twinkle at different rates.
+例えば、右のアニメーションは 2 つの星で構成されており、それぞれ `@keyframes` ルールの 20% 時点でサイズと不透明度を縮小・減少させることで、星のまたたきを表現しています。 いずれかの要素に対して `@keyframes` ルールを変更することで、異なる速度で星を輝かせることができます。
 
 # --instructions--
 
-Alter the animation rate for the element with the class name of `star-1` by changing its `@keyframes` rule to 50%.
+クラス名 `star-1` の要素のアニメーション速度を変更するために、`@keyframes` ルールを 50% に変更します。
 
 # --hints--
 
-The `@keyframes` rule for the `star-1` class should be 50%.
+`star-1` クラスの `@keyframes` ルールは 50% でなければなりません。
 
 ```js
 assert.match(code,/twinkle-1\s*?{\s*?50%/g);

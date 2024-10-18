@@ -9,7 +9,7 @@ dashedName: adjust-the-hue-of-a-color
 
 # --description--
 
-Colors have several characteristics including hue, saturation, and lightness. CSS3 introduced the `hsl()` function as an alternative way to pick a color by directly stating these characteristics.
+色は色相、彩度、明度など、いくつかの特性を持っています。 CSS3 はこれらの特性を直接指定して色を選択する方法として `hsl()` 関数を導入しました。
 
 **Hue** (色相) は一般的に人々が「色」と考えるものです。 左端が赤から始まり、真ん中が緑、右端が青の色のスペクトルを思い浮かべた時、ある色がこの線のどこに位置するかを表すのが色相です。 `hsl()` では、色相はスペクトルの代わりに色相環の概念を使用し、円上のその色の角度が 0 から 360 の間の値として与えられます。
 
@@ -19,7 +19,7 @@ Colors have several characteristics including hue, saturation, and lightness. CS
 
 こちらは彩度が最大、明度が標準の色を `hsl()` を使って表した例です。
 
-<table><thead><tr><th>Color</th><th>HSL</th></tr></thead><tbody><tr><td>red</td><td>hsl(0, 100%, 50%)</td></tr><tr><td>yellow</td><td>hsl(60, 100%, 50%)</td></tr><tr><td>green</td><td>hsl(120, 100%, 50%)</td></tr><tr><td>cyan</td><td>hsl(180, 100%, 50%)</td></tr><tr><td>blue</td><td>hsl(240, 100%, 50%)</td></tr><tr><td>magenta</td><td>hsl(300, 100%, 50%)</td></tr></tbody></table>
+<table><thead><tr><th>色</th><th>HSL</th></tr></thead><tbody><tr><td>赤</td><td>hsl(0, 100%, 50%)</td></tr><tr><td>黄色</td><td>hsl(60, 100%, 50%)</td></tr><tr><td>緑</td><td>hsl(120, 100%, 50%)</td></tr><tr><td>シアン</td><td>hsl(180, 100%, 50%)</td></tr><tr><td>青</td><td>hsl(240, 100%, 50%)</td></tr><tr><td>マゼンタ</td><td>hsl(300, 100%, 50%)</td></tr></tbody></table>
 
 # --instructions--
 

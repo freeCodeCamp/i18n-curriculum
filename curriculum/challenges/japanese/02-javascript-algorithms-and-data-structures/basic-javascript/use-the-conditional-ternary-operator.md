@@ -8,7 +8,7 @@ dashedName: use-the-conditional-ternary-operator
 
 # --description--
 
-The <dfn>conditional operator</dfn>, also called the <dfn>ternary operator</dfn>, can be used as a one line if-else expression.
+<dfn>条件演算子</dfn>は<dfn>三項演算子</dfn>とも呼ばれ、1 行の if-else 式として使用できます。
 
 The syntax is `a ? b : c`, where `a` is the condition, `b` is the code to run when the condition returns `true`, and `c` is the code to run when the condition returns `false`.
 

@@ -8,7 +8,7 @@ dashedName: incidence-matrix
 
 # --description--
 
-Yet another way to represent a graph is to put it in an <dfn>incidence matrix.</dfn>
+グラフを表すもう一つの方法は、 <dfn>接続行列</dfn>に入れることです。
 
 <dfn>接続行列</dfn> は二次元 (2D) 配列です。 一般に接続行列は、2 つの次元の間で 2 種類のクラスのオブジェクトを関連付けます。 このような行列は隣接行列に似ています。 しかし、行と列の意味がそれとは異なります。
 

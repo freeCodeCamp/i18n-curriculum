@@ -8,10 +8,10 @@ dashedName: remove-an-element-from-a-max-heap
 
 # --description--
 
-Now that we can add elements to our heap let's see how we can remove elements. Removing and inserting elements both require similar logic. In a max heap you will usually want to remove the greatest value, so this involves simply extracting it from the root of our tree. This will break the heap property of our tree, so we must reestablish it in some way. Typically, for a max heap this is done in the following way:
+ヒープに要素を追加できるようになったので、要素を削除する方法を学びましょう。 要素の削除と挿入は、どちらも似たようなロジックが必要です。 最大ヒープでは一般に最大値を削除したいので、単に木の根からそれを抽出すれば良いのです。 これによって木のヒーププロパティが壊れるので、何らかの方法でそれを作り直す必要があります。 通常、最大ヒープの場合は次の方法でそれを行います。
 
 <ol>
-  <li>Move the last element in the heap into the root position.</li>
+  <li>ヒープ内の最後の要素を根の位置に移動します。</li>
   <li>根の子のいずれかが根より大きい場合は、根を、より大きい値の子と交換します。</li>
   <li>親が両方の子よりも大きくなるまで、または操作が木の最後のレベルに達するまで、交換を続けます。</li>
 </ol>

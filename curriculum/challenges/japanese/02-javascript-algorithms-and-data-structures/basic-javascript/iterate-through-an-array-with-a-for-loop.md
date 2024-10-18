@@ -1,6 +1,6 @@
 ---
 id: 5675e877dbd60be8ad28edc6
-title: Iterate Through an Array with a For Loop
+title: for ループによる配列の繰り返し処理
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/caeR3HB'
 forumTopicId: 18216
@@ -9,7 +9,7 @@ dashedName: iterate-through-an-array-with-a-for-loop
 
 # --description--
 
-A common task in JavaScript is to iterate through the contents of an array. One way to do that is with a `for` loop. This code will output each element of the array `arr` to the console:
+JavaScript では配列の内容を繰り返し処理する作業をよく行います。 その方法の一つとして `for` ループを使用できます。 次のコードは、配列 `arr` の各要素をコンソールに出力します。
 
 ```js
 const arr = [10, 9, 8, 7, 6];
@@ -19,33 +19,33 @@ for (let i = 0; i < arr.length; i++) {
 }
 ```
 
-Remember that arrays have zero-based indexing, which means the last index of the array is `length - 1`. Our condition for this loop is `i < arr.length`, which stops the loop when `i` is equal to `length`. In this case the last iteration is `i === 4` i.e. when `i` becomes equal to `arr.length - 1` and outputs `6` to the console. Then `i` increases to `5`, and the loop terminates because `i < arr.length` is `false`.
+配列は 0 から始まるインデックスを持つことに注意してください。つまり、配列の最後のインデックスは `length - 1` になります。 このループ処理の条件は `i < arr.length` となっていて、`i` が `length` に等しくなるとループ処理を終了します。 この例では、最後の繰り返しは `i === 4` です。つまり、`i` が `arr.length - 1` に等しくなり、コンソールに `6` を出力します。 その後、`i` が加算されて `5` になると、`i < arr.length` が `false` となるため、ループ処理は終了します。
 
 # --instructions--
 
-Declare and initialize a variable `total` to `0`. Use a `for` loop to add the value of each element of the `myArr` array to `total`.
+変数 `total` を宣言し、`0` に初期化してください。 `for` ループを使用して、`myArr` 配列の各要素の値を `total` に追加してください。
 
 # --hints--
 
-`total` should be declared and initialized to 0.
+`total` を宣言し、0 に初期化する必要があります。
 
 ```js
 assert(__helpers.removeJSComments(code).match(/(var|let|const)\s*?total\s*=\s*0.*?;?/));
 ```
 
-`total` should equal 20.
+`total` は 20 と等しくなる必要があります。
 
 ```js
 assert(total === 20);
 ```
 
-You should use a `for` loop to iterate through `myArr`.
+`for` ループを使用して、`myArr` の繰り返し処理を行う必要があります。
 
 ```js
 assert(/for\s*\(/g.test(__helpers.removeJSComments(code)) && /myArr\s*\[/g.test(__helpers.removeJSComments(code)));
 ```
 
-You should not attempt to directly assign the value 20 to `total`.
+値 20 を直接 `total` に代入しないでください。
 
 ```js
 assert(!__helpers.removeWhiteSpace(__helpers.removeJSComments(code)).match(/total[=+-]0*[1-9]+/gm));

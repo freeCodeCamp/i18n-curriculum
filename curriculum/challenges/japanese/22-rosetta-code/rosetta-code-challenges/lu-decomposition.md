@@ -8,7 +8,7 @@ dashedName: lu-decomposition
 
 # --description--
 
-Every square matrix $A$ can be decomposed into a product of a lower triangular matrix $L$ and a upper triangular matrix $U$. This is known as the LU decomposition.
+すべての正方行列 $A$ は下三角行列 $L$ と上三角行列 $U$の積に分解することができます。 このことを LU 分解と言います。
 
 $A = LU$
 

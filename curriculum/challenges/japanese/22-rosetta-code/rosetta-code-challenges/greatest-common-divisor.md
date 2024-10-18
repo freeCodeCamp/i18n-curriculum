@@ -8,7 +8,7 @@ dashedName: greatest-common-divisor
 
 # --description--
 
-Write a function that returns the greatest common divisor of two integers.
+2 つの整数の最大公約数を返す関数を記述します。
 
 # --hints--
 

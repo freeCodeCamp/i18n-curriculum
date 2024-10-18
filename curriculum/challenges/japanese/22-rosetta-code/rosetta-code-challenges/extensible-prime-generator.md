@@ -8,12 +8,12 @@ dashedName: extensible-prime-generator
 
 # --description--
 
-Write a generator of prime numbers, in order, that will automatically adjust to accommodate the generation of any reasonably high prime.
+かなり高い素数の生成に対応するために自動的に調整する素数ジェネレータを作成します。
 
 ジェネレータで次のことが可能です。
 
 <ul>
-  <li>Show the first <code>n</code> prime numbers</li>
+  <li>最初の <code>n</code> 個の素数を表示する</li>
   <li>範囲内に素数を表示する</li>
   <li>範囲内の素数の数を表示する</li>
   <li><code>n<sup>th</sup></code> の素数を表示する</li>

@@ -9,7 +9,7 @@ dashedName: global-scope-and-functions
 
 # --description--
 
-In JavaScript, <dfn>scope</dfn> refers to the visibility of variables. Variables which are defined outside of a function block have <dfn>Global</dfn> scope. This means, they can be seen everywhere in your JavaScript code.
+JavaScript では、変数の効力の及ぶ範囲のことを<dfn>スコープ</dfn>と呼びます。 関数ブロックの外側で定義された変数は、<dfn>グローバル</dfn>のスコープを持ちます。 つまり、JavaScript コードのどこからでもその変数を参照することができます。
 
 `let` キーワードまたは `const` キーワードを使用せずに宣言された変数は、自動的に `global` スコープで作成されます。 これは、コード内の他の場所や、関数を複数回実行する場合に、意図しない結果を引き起こす可能性があります。 変数は常に `let` または `const` を使用して宣言するようにしましょう。
 

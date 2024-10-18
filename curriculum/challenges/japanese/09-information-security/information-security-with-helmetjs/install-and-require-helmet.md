@@ -1,6 +1,6 @@
 ---
 id: 587d8247367417b2b2512c36
-title: Install and Require Helmet
+title: Helmet を install して require する
 challengeType: 2
 forumTopicId: 301581
 dashedName: install-and-require-helmet
@@ -8,23 +8,23 @@ dashedName: install-and-require-helmet
 
 # --description--
 
-Working on these challenges will involve you writing your code using one of the following methods:
+これらのチャレンジに取り組むにあたり、以下の方法のうち 1 つを用いてコードを記述します。
 
 - Clone <a href="https://github.com/freeCodeCamp/boilerplate-infosec/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete these challenges locally.
 - Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-infosec/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete these challenges.
-- Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
+- 使い慣れたサイトビルダーを使用してプロジェクトを完了させる。 必ず GitHub リポジトリのすべてのファイルを取り込む。
 
-Helmet helps you secure your Express apps by setting various HTTP headers.
+Helmet を使用すると、さまざまな HTTP ヘッダーを設定することができ、Express アプリケーションのセキュリティを確保するのに役立ちます。
 
 # --instructions--
 
-All your code for these lessons goes in the `myApp.js` file between the lines of code we have started you off with. Do not change or delete the code we have added for you.
+これらのレッスンで使用するコードはすべて、`myApp.js`ファイルの中の、最初に用意されているコードの間に記述します。 あらかじめ記述されているコードを変更したり削除したりしないでください。
 
-Helmet version `3.21.3` has already been installed, so require it as `helmet` in `myApp.js`.
+すでに Helmet バージョン `3.21.3` がインストールされているので、`myApp.js` で `helmet` として require します。
 
 # --hints--
 
-`helmet` version `3.21.3` should be in `package.json`
+`helmet` のバージョン `3.21.3` を `package.json` に含める必要があります。
 
 ```js
 (getUserInput) =>

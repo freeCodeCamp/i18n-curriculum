@@ -70,7 +70,7 @@ dashedName: links-and-images-lesson-h
 Ось так виглядає логотип The Odin Project з атрибутом alt:
 <iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="300" width="100%" name="cp_embed_2" scrolling="no" src="https://codepen.io/TheOdinProjectExamples/embed/ExXjoEp?height=300&amp;theme-id=dark&amp;default-tab=html%2Cresult&amp;slug-hash=ExXjoEp&amp;user=TheOdinProjectExamples&amp;name=cp_embed_2" style="width: 100%; overflow:hidden; display:block;" title="Вставка CodePen" loading="lazy" id="cp_embed_ExXjoEp"></iframe>
 
-# --Завдання--
+# --assignment--
 
 Прочитайте про <a href="https://www.freecodecamp.org/ukrainian/news/typy-zobrazhen-rozshyrennya-jpeg-svg-ta-png/" target="_blank">чотири основні формати зображень</a>, які можна використовувати у вебмережі.
 

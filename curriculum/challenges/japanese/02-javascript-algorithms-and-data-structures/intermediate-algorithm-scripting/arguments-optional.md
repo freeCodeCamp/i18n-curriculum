@@ -1,6 +1,6 @@
 ---
 id: a97fd23d9b809dac9921074f
-title: Arguments Optional
+title: 省略可能な引数
 challengeType: 1
 forumTopicId: 14271
 dashedName: arguments-optional
@@ -8,47 +8,47 @@ dashedName: arguments-optional
 
 # --description--
 
-Create a function that sums two arguments together. If only one argument is provided, then return a function that expects one argument and returns the sum.
+2 つの引数を合計する関数を作成してください。 1 つの引数のみが与えられた場合は、関数を返してください。その関数は 1 つの引数を取り、合計を返します。
 
-For example, `addTogether(2, 3)` should return `5`, and `addTogether(2)` should return a function.
+たとえば、`addTogether(2, 3)` は `5`を返し、`addTogether(2)` は関数を返す必要があります。
 
-Calling this returned function with a single argument will then return the sum:
+この返された関数に １ つの引数を与えて呼び出すと、合計を返します。
 
 ```js
 var sumTwoAnd = addTogether(2);
 ```
 
-`sumTwoAnd(3)` returns `5`.
+`sumTwoAnd(3)` は `5` を返します。
 
-If either argument isn't a valid number, return undefined.
+いずれかの引数が有効な数値でない場合は、undefined を返してください。
 
 # --hints--
 
-`addTogether(2, 3)` should return 5.
+`addTogether(2, 3)` は 5 を返す必要があります。
 
 ```js
 assert.deepEqual(addTogether(2, 3), 5);
 ```
 
-`addTogether(23.4, 30)` should return 53.4.
+`addTogether(23.4, 30)` は 53.4 を返す必要があります。
 
 ```js
 assert.deepEqual(addTogether(23.4, 30), 53.4);
 ```
 
-`addTogether("2", 3)` should return `undefined`.
+`addTogether("2", 3)` は `undefined` を返す必要があります。
 
 ```js
 assert.isUndefined(addTogether('2', 3));
 ```
 
-`addTogether(5, undefined)` should return `undefined`.
+`addTogether(5, undefined)` は `undefined` を返す必要があります。
 
 ```js
 assert.isUndefined(addTogether(5, undefined));
 ```
 
-`addTogether("https://www.youtube.com/watch?v=dQw4w9WgXcQ")` should return `undefined`.
+`addTogether("https://www.youtube.com/watch?v=dQw4w9WgXcQ")` は `undefined` を返す必要があります。
 
 ```js
 assert.isUndefined(addTogether('https://www.youtube.com/watch?v=dQw4w9WgXcQ'));
@@ -60,19 +60,19 @@ assert.isUndefined(addTogether('https://www.youtube.com/watch?v=dQw4w9WgXcQ'));
 assert.deepEqual(typeof(addTogether(5)), 'function');
 ```
 
-`addTogether(5)(7)` should return 12.
+`addTogether(5)(7)` は 12 を返す必要があります。
 
 ```js
 assert.deepEqual(addTogether(5)(7), 12);
 ```
 
-`addTogether(2)([3])` should return `undefined`.
+`addTogether(2)([3])` は `undefined` を返す必要があります。
 
 ```js
 assert.isUndefined(addTogether(2)([3]));
 ```
 
-`addTogether(2, "3")` should return `undefined`.
+`addTogether(2, "3")` は `undefined` を返す必要があります。
 
 ```js
 assert.isUndefined(addTogether(2, '3'));

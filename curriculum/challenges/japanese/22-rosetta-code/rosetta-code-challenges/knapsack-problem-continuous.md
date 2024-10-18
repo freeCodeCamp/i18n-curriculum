@@ -8,7 +8,7 @@ dashedName: knapsack-problemcontinuous
 
 # --description--
 
-A thief burgles a butcher's shop, where he can select from some items.
+泥棒が肉屋に押し入り、商品の中から盗むものを選びます。
 
 泥棒はそれぞれの商品の重量と価格を知っています。 泥棒は耐荷重に制限のあるナップサックを持ち込んでおり、耐えられる重量の範囲内で利益を最大化できる商品を選びたいと考えています。 商品は切ることも可能です。切ると、元の価格に応じ、質量比に合わせて価格が減少します。 つまり、商品を半分に切ると、その価格は元の商品の半値になります。
 

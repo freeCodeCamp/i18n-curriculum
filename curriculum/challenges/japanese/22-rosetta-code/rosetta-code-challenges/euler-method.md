@@ -8,7 +8,7 @@ dashedName: euler-method
 
 # --description--
 
-Euler's method numerically approximates solutions of first-order ordinary differential equations (ODEs) with a given initial value. It is an explicit method for solving initial value problems (IVPs), as described in <a href="https://www.freecodecamp.org/news/eulers-method-explained-with-examples/" title="Euler's Method Explained with Examples" target="_blank" rel="noopener noreferrer nofollow">this article</a>.
+オイラー法は、所定の初期値を持つ 1 階の常微分方程式 (ODE) の解における近似値を求めます。 It is an explicit method for solving initial value problems (IVPs), as described in <a href="https://www.freecodecamp.org/news/eulers-method-explained-with-examples/" title="Euler's Method Explained with Examples" target="_blank" rel="noopener noreferrer nofollow">this article</a>.
 
 ODEは以下の形式で書きます。
 
@@ -85,7 +85,7 @@ $h$ はステップサイズで、解の精度に関連する最も重要なパ�
 **初期値：**
 
 <ul>
-  <li>initial temperature <big>$T_0$</big> shall be <code>100 °C</code></li>
+  <li>初期温度 <big>$T_0$</big> は <code>100 °C</code> です</li>
   <li>室温 <big>$T_R$</big> は <code>20 °C</code> です</li>
   <li>冷却定数 <big>$k$</big> は <code>0.07</code>です</li>
   <li>計算する時間間隔は、 <code>0 s</code> から <code>100 s</code>です</li>

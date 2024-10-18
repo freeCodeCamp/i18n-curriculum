@@ -14,7 +14,7 @@ dashedName: creating-a-convolutional-neural-network
 
 ## --text--
 
-Fill in the blanks below to complete the architecture for a convolutional neural network:
+次の空欄を埋めて、畳み込みニューラルネットワークのアーキテクチャを完成させてください。
 
 ```py
 model = models.__A__()

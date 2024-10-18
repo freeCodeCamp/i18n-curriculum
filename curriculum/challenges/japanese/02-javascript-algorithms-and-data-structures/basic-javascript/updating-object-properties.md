@@ -9,7 +9,7 @@ dashedName: updating-object-properties
 
 # --description--
 
-After you've created a JavaScript object, you can update its properties at any time just like you would update any other variable. You can use either dot or bracket notation to update.
+JavaScript オブジェクトを作成した後、他の変数と同じようにいつでもそのプロパティを更新することができます。 更新には、ドット記法またはブラケット記法のいずれも使用できます。
 
 例として、`ourDog` を見てみましょう。
 

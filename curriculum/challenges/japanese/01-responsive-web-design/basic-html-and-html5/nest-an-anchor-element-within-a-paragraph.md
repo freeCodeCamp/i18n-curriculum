@@ -8,7 +8,7 @@ dashedName: nest-an-anchor-element-within-a-paragraph
 
 # --description--
 
-You can nest links within other text elements.
+リンクは他のテキスト要素内にネストする (入れ子にする) ことができます。
 
 ```html
 <p>

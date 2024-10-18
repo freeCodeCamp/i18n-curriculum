@@ -9,7 +9,7 @@ dashedName: use-css-selectors-to-style-elements
 
 # --description--
 
-With CSS, there are hundreds of CSS properties that you can use to change the way an element looks on your page.
+CSS では、ページ上の要素の見た目を変更するために使える CSS プロパティが多数あります。
 
 `<h2 style="color: red;">CatPhotoApp</h2>` と入力することで、その 1 つの `h2` 要素にインライン CSS でスタイルを設定することができました。CSS はカスケーディングスタイルシート (Cascading Style Sheets) の略です。
 

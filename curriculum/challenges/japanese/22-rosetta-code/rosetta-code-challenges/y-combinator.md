@@ -8,47 +8,47 @@ dashedName: y-combinator
 
 # --description--
 
-In strict <a href="https://www.freecodecamp.org/news/the-principles-of-functional-programming/" target="_blank" rel="noopener noreferrer nofollow">functional programming</a> and the lambda calculus, functions (lambda expressions) don't have state and are only allowed to refer to arguments of enclosing functions. This rules out the usual definition of a recursive function wherein a function is associated with the state of a variable and this variable's state is used in the body of the function.
+In strict <a href="https://www.freecodecamp.org/news/the-principles-of-functional-programming/" target="_blank" rel="noopener noreferrer nofollow">functional programming</a> and the lambda calculus, functions (lambda expressions) don't have state and are only allowed to refer to arguments of enclosing functions. これにより、関数は変数の状態と関連し、変数の状態は関数本体で使用されるという通常の再帰関数の定義が排除されます。
 
 Y コンビネータ は、それ自体がステートレス関数であり、他のステートレス関数に適用されると、関数の再帰バージョンを返します。 Y コンビネータは、不動点コンビネータと呼ばれるこのような関数のクラスの最も単純なものです。
 
 # --instructions--
 
-ステートレスな Y コンビネータ関数を定義し、それを使用して階乗を計算してください。 The `factorial(N)` function is already given to you.
+ステートレスな Y コンビネータ関数を定義し、それを使用して階乗を計算してください。 `factorial(N)` 関数はすでに与えられています。
 
 # --hints--
 
-Y should return a function.
+Y は関数を返す必要があります。
 
 ```js
 assert.equal(typeof Y((f) => (n) => n), 'function');
 ```
 
-factorial(1) should return 1.
+factorial(1) は 1 を返す必要があります。
 
 ```js
 assert.equal(factorial(1), 1);
 ```
 
-factorial(2) should return 2.
+factorial(2) は 2 を返す必要があります。
 
 ```js
 assert.equal(factorial(2), 2);
 ```
 
-factorial(3) should return 6.
+factorial(3) は 6 を返す必要があります。
 
 ```js
 assert.equal(factorial(3), 6);
 ```
 
-factorial(4) should return 24.
+factorial(4) は 24 を返す必要があります。
 
 ```js
 assert.equal(factorial(4), 24);
 ```
 
-factorial(10) should return 3628800.
+factorial(10) は 3628800 を返す必要があります。
 
 ```js
 assert.equal(factorial(10), 3628800);

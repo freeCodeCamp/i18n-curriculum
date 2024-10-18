@@ -12,7 +12,7 @@ Diese Aufgabe wird teilweise auf der Microsoft Learn Plattform erledigt. Folge d
 1. Gehe auf <a href="https://learn.microsoft.com/training/modules/csharp-modify-content/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/csharp-modify-content/</a> und löse alle Aufgaben für das Modul "Den Inhalt von Strings mit eingebauten String-Datentyp-Methoden in C# ändern". Dies ist **erforderlich**, um die Trophäe " Arbeiten mit variablen Daten in C# Konsolen-Anwendungen" auf Microsoft Learn zu erwerben und sich für die Zertifizierungsprüfung zu qualifizieren.
 1. Wenn du damit fertig bist, komme zurück und beantworte die folgende Frage richtig.
 
-# --Auftrag--
+# --assignment--
 
 Schließe das Modul <a href="https://learn.microsoft.com/training/modules/csharp-modify-content/" target="_blank" rel="noreferrer">Den Inhalt von Strings mit eingebauten String-Datentyp-Methoden in C# ändern</a> auf Microsoft Learn ab. Beantworte dann die Frage unten.
 

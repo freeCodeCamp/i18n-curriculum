@@ -8,7 +8,7 @@ dashedName: match-anything-with-wildcard-period
 
 # --description--
 
-Sometimes you won't (or don't need to) know the exact characters in your patterns. Thinking of all words that match, say, a misspelling would take a long time. Luckily, you can save time using the wildcard character: `.`
+パターンにある正確な文字がわからない (またはわかる必要がない) こともあります。 マッチするすべての単語を考えようとして、スペルミスをすると長い時間がかかってしまいます。 幸い、ワイルドカード文字 `.` を使用して時間を省くことができます。
 
 ワイルドカード文字 `.` は任意の 1 文字にマッチします。 このワイルドカードは `dot` (ドット)、`period` (ピリオド) とも呼ばれます。 ワイルドカード文字も正規表現で他の文字とまったく同じように使用できます。 たとえば、`hug`、`huh`、`hut`、`hum` にマッチさせたい場合は、正規表現 `/hu./` を使用して 4 つの単語すべてにマッチさせることができます。
 

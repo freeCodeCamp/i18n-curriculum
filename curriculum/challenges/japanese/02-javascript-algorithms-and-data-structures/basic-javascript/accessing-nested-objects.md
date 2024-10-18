@@ -9,7 +9,7 @@ dashedName: accessing-nested-objects
 
 # --description--
 
-The sub-properties of objects can be accessed by chaining together the dot or bracket notation.
+オブジェクトの下位プロパティには、ドット記法またはブラケット記法によるチェーンでアクセスできます。
 
 次はネストされたオブジェクトです。
 

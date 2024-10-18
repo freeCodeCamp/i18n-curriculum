@@ -8,7 +8,7 @@ dashedName: identity-matrix
 
 # --description--
 
-An *identity matrix* is a square matrix of size \\( n \\times n \\), where the diagonal elements are all `1`s (ones), and all the other elements are all `0`s (zeroes).
+*単位行列* は、サイズ\\( n \\times n \\) の正方行列であり、ここでは、対角線要素はすべて `1`、その他の要素はすべて `0` となります。
 
 <ul>
   <li style='list-style: none;'>\(\displaystyle I_{n}=\begin{bmatrix} 1 &#x26; 0 &#x26; 0 \cr 0 &#x26; 1 &#x26; 0 \cr 0 &#x26; 0 &#x26; 1 \cr \end{bmatrix}\)</li>

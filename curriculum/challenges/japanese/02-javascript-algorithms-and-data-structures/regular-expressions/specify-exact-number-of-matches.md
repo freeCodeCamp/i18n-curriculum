@@ -8,7 +8,7 @@ dashedName: specify-exact-number-of-matches
 
 # --description--
 
-You can specify the lower and upper number of patterns with quantity specifiers using curly brackets. Sometimes you only want a specific number of matches.
+中括弧を使用して、数量指定子でパターンの最小数と最大数を指定できます。 特定の数のマッチしか必要としない場合があります。
 
 特定数のパターンを指定するには、中括弧の間に数字を 1 つ指定します。
 

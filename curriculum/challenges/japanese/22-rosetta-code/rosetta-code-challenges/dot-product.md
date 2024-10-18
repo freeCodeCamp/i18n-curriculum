@@ -8,7 +8,7 @@ dashedName: dot-product
 
 # --description--
 
-Create a function, to compute the **dot product**, also known as the **scalar product** of two vectors.
+**ドット積**を計算する関数を作成します。ドット積は 2 つのベクトルの**スカラー積**とも呼ばれます。
 
 # --hints--
 

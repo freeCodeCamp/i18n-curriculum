@@ -18,19 +18,19 @@ The next few video lessons will reference [this Colab notebook](https://colab.re
 
 ## --text--
 
-The key components of reinforcement learning are...
+強化学習の主な構成要素は何ですか？
 
 ## --answers--
 
-environment, representative, state, reaction, and reward.
+環境、代表者、状態、反応、報酬。
 
 ---
 
-environment, agent, state, action, and reward.
+環境、エージェント、状態、行動、報酬。
 
 ---
 
-habitat, agent, state, action, and punishment.
+生息地、エージェント、状態、行動、処罰。
 
 ## --video-solution--
 

@@ -1,6 +1,6 @@
 ---
 id: 587d8256367417b2b2512c77
-title: Adjacency List
+title: 隣接リスト
 challengeType: 1
 forumTopicId: 301620
 dashedName: adjacency-list
@@ -8,11 +8,11 @@ dashedName: adjacency-list
 
 # --description--
 
-Graphs can be represented in different ways. Here we describe one way, which is called an <dfn>adjacency list</dfn>. An adjacency list is essentially a bulleted list where the left side is the node and the right side lists all the other nodes it's connected to. Below is a representation of an adjacency list.
+グラフはさまざまな方法で表すことができます。 ここでは、<dfn>隣接リスト</dfn>と呼ばれる方法について説明します。 隣接リストは基本的に箇条書きリストで、左側がノードであり、右側にはそのノードが接続されている他のすべてのノードが列挙されます。 隣接リストの表現を次に示します。
 
 <blockquote>Node1: Node2, Node3<br>Node2: Node1<br>Node3: Node1</blockquote>
 
-Above is an undirected graph because `Node1` is connected to `Node2` and `Node3`, and that information is consistent with the connections `Node2` and `Node3` show. An adjacency list for a directed graph would mean each row of the list shows direction. If the above was directed, then `Node2: Node1` would mean there the directed edge is pointing from `Node2` towards `Node1`. We can represent the undirected graph above as an adjacency list by putting it within a JavaScript object.
+上のリストでは、`Node1` が `Node2` と `Node3` に接続されており、その情報は `Node2` と `Node3` が示す接続と一致しているので、無向グラフです。 有向グラフの隣接リストとは、リストの各行が方向を示しているリストのことです。 これが有向グラフであった場合、`Node2: Node1` とは、そこでは有向エッジ (枝) が `Node2` から `Node1` へ向かっているという意味です。 JavaScript オブジェクトの中に入れることで、上の無向グラフを隣接リストとして表すことができます。
 
 ```js
 var undirectedG = {
@@ -22,7 +22,7 @@ var undirectedG = {
 };
 ```
 
-This can also be more simply represented as an array where the nodes just have numbers rather than string labels.
+これは、ノードが文字列ラベルではなく数字だけを持つ配列として、より単純に表現することもできます。
 
 ```js
 var undirectedGArr = [
@@ -34,17 +34,17 @@ var undirectedGArr = [
 
 # --instructions--
 
-Create a social network as an undirected graph with 4 nodes/people named `James`, `Jill`, `Jenny`, and `Jeff`. There are edges/relationships between James and Jeff, Jill and Jenny, and Jeff and Jenny.
+`James`、`Jill`、`Jenny`、`Jeff` という 4 つ (4人) のノードを持つ無向グラフとしてソーシャルネットワークを作成してください。 James と Jeff の間、Jill と Jenny の間、および Jeff と Jenny の間にはエッジ / 関係があります。
 
 # --hints--
 
-`undirectedAdjList` should only contain four nodes.
+`undirected AdjList` には 4 つのノードのみが含まれている必要があります。
 
 ```js
 assert(Object.keys(undirectedAdjList).length === 4);
 ```
 
-There should be an edge between `Jeff` and `James`.
+`Jeff` と `James` の間にはエッジが必要です。
 
 ```js
 assert(
@@ -53,7 +53,7 @@ assert(
 );
 ```
 
-There should be an edge between `Jill` and `Jenny`.
+`Jill` と `Jenny` の間にはエッジが必要です。
 
 ```js
 assert(
@@ -62,7 +62,7 @@ assert(
 );
 ```
 
-There should be an edge between `Jeff` and `Jenny`.
+`Jeff` と `Jenny` の間にはエッジが必要です。
 
 ```js
 assert(

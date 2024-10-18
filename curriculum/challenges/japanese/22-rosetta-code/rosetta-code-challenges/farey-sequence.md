@@ -8,15 +8,15 @@ dashedName: farey-sequence
 
 # --description--
 
-The Farey sequence <code>F<sub>n</sub></code> of order `n` is the sequence of completely reduced fractions between `0` and `1` which, when in lowest terms, have denominators less than or equal to `n`, arranged in order of increasing size.
+位数 `n` のファレイ数列 <code>F<sub>n</sub></code> は、`0` から `1` の間の既約分数の数列であり、`n` 以下の分母を持ち、昇順に並べられます。
 
 *ファレイ数列* は、 間違って *ファレイseries* と呼ばれることがあります。
 
 各ファレイ数列：
 
 <ul>
-  <li>starts with the value  0,  denoted by the fraction  $ \frac{0}{1} $</li>
-  <li>ends with the value  1,  denoted by the fraction  $ \frac{1}{1}$.</li>
+  <li>値は 0 から始まり、分数 $ \frac{0}{1}$ で表されます。</li>
+  <li>値は 1 で終わり、分数 $ \frac{1}{1}$ で表されます。</li>
 </ul>
 
 `1` から `5` のファレイ数列は以下のとおりです。

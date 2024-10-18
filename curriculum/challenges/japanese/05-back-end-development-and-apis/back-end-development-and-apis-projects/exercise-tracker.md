@@ -8,7 +8,7 @@ dashedName: exercise-tracker
 
 # --description--
 
-Build a full stack JavaScript app that is functionally similar to this: <a href="https://exercise-tracker.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://exercise-tracker.freecodecamp.rocks</a>. Working on this project will involve you writing your code using one of the following methods:
+Build a full stack JavaScript app that is functionally similar to this: <a href="https://exercise-tracker.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://exercise-tracker.freecodecamp.rocks</a>. プロジェクトに取り組むにあたり、以下の方法のうち 1 つを用いてコードを記述します。
 
 -   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-exercisetracker/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
 -   Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-exercisetracker/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete your project.
@@ -16,9 +16,9 @@ Build a full stack JavaScript app that is functionally similar to this: <a href=
 
 # --instructions--
 
-Your responses should have the following structures.
+レスポンスは、以下の構造にしてください。
 
-Exercise:
+エクササイズ:
 
 ```js
 {
@@ -30,7 +30,7 @@ Exercise:
 }
 ```
 
-User:
+ユーザー:
 
 ```js
 {
@@ -39,7 +39,7 @@ User:
 }
 ```
 
-Log:
+ログ:
 
 ```js
 {
@@ -58,7 +58,7 @@ Log:
 
 # --hints--
 
-You should provide your own project, not the example URL.
+サンプルの URL ではなく、自分で作成したプロジェクトを提出する必要があります。
 
 ```js
 (getUserInput) => {
@@ -69,7 +69,7 @@ You should provide your own project, not the example URL.
 };
 ```
 
-You can `POST` to `/api/users` with form data `username` to create a new user.
+フォームデータ `username` を使用して `/api/users` への `POST` リクエストを実行することで、新しいユーザーを作成することができます。
 
 ```js
 async (getUserInput) => {
@@ -86,7 +86,7 @@ async (getUserInput) => {
 };
 ```
 
-The returned response from `POST /api/users` with form data `username` will be an object with `username` and `_id` properties.
+フォームデータ `username` を使用して `POST /api/users` を実行した際のレスポンスは、`username` プロパティおよび `_id` プロパティを持つオブジェクトです。
 
 ```js
 async (getUserInput) => {
@@ -106,7 +106,7 @@ async (getUserInput) => {
 };
 ```
 
-You can make a `GET` request to `/api/users` to get a list of all users.
+`/api/users` への `GET` リクエストを実行することにより、すべてのユーザーのリストを取得できます。
 
 ```js
 async(getUserInput) => {
@@ -119,7 +119,7 @@ async(getUserInput) => {
 };
 ```
 
-The `GET` request to `/api/users` returns an array.
+`/api/users` への `GET` リクエストを実行すると、配列が返されます。
 
 ```js
 async(getUserInput) => {
@@ -134,7 +134,7 @@ async(getUserInput) => {
 };
 ```
 
-Each element in the array returned from `GET /api/users` is an object literal containing a user's `username` and `_id`.
+`GET /api/users` から返される配列の各要素は、ユーザーの `username` および `_id` を含むオブジェクトリテラルです。
 
 ```js
 async(getUserInput) => {
@@ -154,7 +154,7 @@ async(getUserInput) => {
 };
 ```
 
-You can `POST` to `/api/users/:_id/exercises` with form data `description`, `duration`, and optionally `date`. If no date is supplied, the current date will be used.
+You can `POST` to `/api/users/:_id/exercises` with form data `description`, `duration`, and optionally `date`. 日付を指定しない場合は、現在の日付が使用されます。
 
 ```js
 async (getUserInput) => {
@@ -188,7 +188,7 @@ async (getUserInput) => {
 };
 ```
 
-The response returned from `POST /api/users/:_id/exercises` will be the user object with the exercise fields added.
+`POST /api/users/:_id/exercises` から返されるレスポンスは、エクササイズの各フィールドが追加されたユーザーオブジェクトです。
 
 ```js
 async (getUserInput) => {
@@ -227,7 +227,7 @@ async (getUserInput) => {
 };
 ```
 
-You can make a `GET` request to `/api/users/:_id/logs` to retrieve a full exercise log of any user.
+`/api/users/:_id/logs` への `GET` リクエストを実行すると、任意のユーザーのすべてのエクササイズログを取得できます。
 
 ```js
 async (getUserInput) => {
@@ -266,7 +266,7 @@ async (getUserInput) => {
 };
 ```
 
-A request to a user's log `GET /api/users/:_id/logs` returns a user object with a `count` property representing the number of exercises that belong to that user.
+ユーザーログのリクエスト `GET /api/users/:_id/logs` は、そのユーザーに属するエクササイズの数を表す `count` プロパティを持つユーザーオブジェクトを返します。
 
 ```js
 async (getUserInput) => {
@@ -307,7 +307,7 @@ async (getUserInput) => {
 };
 ```
 
-A `GET` request to `/api/users/:_id/logs` will return the user object with a `log` array of all the exercises added.
+`/api/users/:_id/logs` への `GET` リクエストは、全エクササイズの `log` の配列が追加されたユーザーオブジェクトを返します。
 
 ```js
 async(getUserInput) => {
@@ -351,7 +351,7 @@ async(getUserInput) => {
 };
 ```
 
-Each item in the `log` array that is returned from `GET /api/users/:_id/logs` is an object that should have a `description`, `duration`, and `date` properties.
+`GET /api/users/:_id/logs` から返される `log` 配列内の各アイテムは、`description`、`duration` および `date` プロパティを持つオブジェクトです。
 
 ```js
 async(getUserInput) => {
@@ -398,7 +398,7 @@ async(getUserInput) => {
 };
 ```
 
-The `description` property of any object in the `log` array that is returned from `GET /api/users/:_id/logs` should be a string.
+`GET /api/users/:_id/logs` から返される `log` 配列内のどのオブジェクトの `description` プロパティも、文字列である必要があります。
 
 ```js
 async(getUserInput) => {
@@ -445,7 +445,7 @@ async(getUserInput) => {
 };
 ```
 
-The `duration` property of any object in the `log` array that is returned from `GET /api/users/:_id/logs` should be a number.
+`GET /api/users/:_id/logs` から返される `log` 配列内のどのオブジェクトの `duration` プロパティも、数値である必要があります。
 
 ```js
 async(getUserInput) => {
@@ -492,7 +492,7 @@ async(getUserInput) => {
 };
 ```
 
-The `date` property of any object in the `log` array that is returned from `GET /api/users/:_id/logs` should be a string. Use the `dateString` format of the `Date` API.
+`GET /api/users/:_id/logs` から返される `log` 配列内のどのオブジェクトの `date` プロパティも、文字列である必要があります。 `Date` API の `dateString` 形式を使用してください。
 
 ```js
 async(getUserInput) => {
@@ -542,7 +542,7 @@ async(getUserInput) => {
 };
 ```
 
-You can add `from`, `to` and `limit` parameters to a `GET /api/users/:_id/logs` request to retrieve part of the log of any user. `from` and `to` are dates in `yyyy-mm-dd` format. `limit` is an integer of how many logs to send back.
+`GET /api/users/:_id/logs` リクエストに `from`、`to` および `limit` パラメーターを追加すると、任意のユーザーについてログの一部を取得できます。 `from` and `to` are dates in `yyyy-mm-dd` format. `limit` は、返されるログの数を表す整数です。
 
 ```js
 async (getUserInput) => {

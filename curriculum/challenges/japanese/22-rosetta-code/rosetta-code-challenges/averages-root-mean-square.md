@@ -8,7 +8,7 @@ dashedName: averagesroot-mean-square
 
 # --description--
 
-Compute the Root Mean Square (RMS) of the numbers 1 through 10 inclusive.
+1 から 10 までの数字の二乗平均平方根 (RMS) を計算します。
 
 <abbr title="Root mean square">RMS</abbr> を計算するには、数値の 2 乗の平均の平方根をとります。
 

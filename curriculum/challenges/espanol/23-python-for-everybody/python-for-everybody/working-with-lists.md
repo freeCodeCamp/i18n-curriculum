@@ -10,7 +10,7 @@ bilibiliIds:
 dashedName: working-with-lists
 ---
 
-# --preguntas--
+# --questions--
 
 ## --text--
 

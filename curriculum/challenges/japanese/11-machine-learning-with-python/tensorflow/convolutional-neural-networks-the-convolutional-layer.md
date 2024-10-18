@@ -1,6 +1,6 @@
 ---
 id: 5e8f2f13c4cdbe86b5c72d97
-title: 'Convolutional Neural Networks: The Convolutional Layer'
+title: '畳み込みニューラルネットワーク: 畳み込み層'
 challengeType: 11
 videoId: LrdmcQpTyLw
 bilibiliIds:
@@ -14,19 +14,19 @@ dashedName: convolutional-neural-networks-the-convolutional-layer
 
 ## --text--
 
-What are the three main properties of each convolutional layer?
+それぞれの畳み込み層の主な 3 つの特性は何ですか？
 
 ## --answers--
 
-Input size, the number of filters, and the sample size of the filters.
+入力サイズ、フィルター数、およびフィルターのサンプルサイズ。
 
 ---
 
-Input size, input dimensions, and the color values of the input.
+入力サイズ、入力次元、および入力のカラー値。
 
 ---
 
-Input size, input padding, and stride.
+入力サイズ、入力パディング、およびストライド。
 
 ## --video-solution--
 

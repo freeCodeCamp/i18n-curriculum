@@ -8,7 +8,7 @@ dashedName: match-characters-that-occur-zero-or-more-times
 
 # --description--
 
-The last challenge used the plus `+` sign to look for characters that occur one or more times. There's also an option that matches characters that occur zero or more times.
+前回のチャレンジでは、プラス `+` 記号を使用して、1 回以上出現する文字を検索しました。 0 回以上出現する文字にマッチするオプションもあります。
 
 それにはアスタリスクまたはスター `*` 文字を使用します。
 

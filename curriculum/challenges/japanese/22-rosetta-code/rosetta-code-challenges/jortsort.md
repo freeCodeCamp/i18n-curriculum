@@ -8,7 +8,7 @@ dashedName: jortsort
 
 # --description--
 
-jortSort is a sorting toolset that makes the user do the work and guarantees efficiency because you don't have to sort ever again. It was originally presented by Jenn "Moneydollars" Schiffer at the prestigious JSConf2014.
+jortSort は、ユーザーがソート作業に使用するソート用ツールセットで、ソート作業をやり直さずにすむよう効率性を保証します。 もともとは、高名な JSConf2014 で Jenn "Moneydollars" Schiffer によって発表されたものです。
 
 jortSort は、比較可能なオブジェクトの単一の配列を引数として取る関数とします。 その後、配列を昇順にソートし、ソートされた配列を元の配列と比較します。 配列が一致する (つまり、元の配列がすでにソートされていた) 場合、関数は true を返します。 配列が一致しない (つまり、元の配列がソートされていなかった) 場合、関数は false を返します。
 

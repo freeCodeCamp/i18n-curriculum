@@ -8,7 +8,7 @@ dashedName: remove-a-package-from-your-dependencies
 
 # --description--
 
-You have now tested a few ways you can manage dependencies of your project by using the package.json's dependencies section. You have also included external packages by adding them to the file and even told npm what types of versions you want, by using special characters such as the tilde or the caret.
+package.json の依存関係セクションを使用して、いくつかの方法でプロジェクトの依存関係を管理できることがわかりました。 また、外部パッケージをファイルに追加する作業、チルダやキャレットなどの特殊文字を使用してどのバージョンが必要なのかを npm に指示する作業も行いました。
 
 しかし、不要になった外部パッケージを削除したい場合はどうすればよいでしょうか？ すでに推察している人もいるかもしれませんが、そのパッケージに対応するキーと値のペアを依存関係から削除するだけです。
 

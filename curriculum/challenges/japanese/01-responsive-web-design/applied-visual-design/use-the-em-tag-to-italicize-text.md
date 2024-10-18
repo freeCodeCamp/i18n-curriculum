@@ -9,7 +9,7 @@ dashedName: use-the-em-tag-to-italicize-text
 
 # --description--
 
-To emphasize text, you can use the `em` tag. This displays text as italicized, as the browser applies the CSS of `font-style: italic;` to the element.
+テキストを強調するには `em` タグを使用します。 これによりブラウザは CSS の `font-style: italic;` を要素に適用し、テキストを斜体で表示します。
 
 # --instructions--
 

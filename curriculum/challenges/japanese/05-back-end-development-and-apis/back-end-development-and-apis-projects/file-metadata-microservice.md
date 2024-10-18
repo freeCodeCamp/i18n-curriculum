@@ -8,7 +8,7 @@ dashedName: file-metadata-microservice
 
 # --description--
 
-Build a full stack JavaScript app that is functionally similar to this: <a href="https://file-metadata-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://file-metadata-microservice.freecodecamp.rocks</a>. Working on this project will involve you writing your code using one of the following methods:
+Build a full stack JavaScript app that is functionally similar to this: <a href="https://file-metadata-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://file-metadata-microservice.freecodecamp.rocks</a>. プロジェクトに取り組むにあたり、以下の方法のうち 1 つを用いてコードを記述します。
 
 -   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-filemetadata/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
 -   Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-filemetadata/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete your project.
@@ -32,7 +32,7 @@ Build a full stack JavaScript app that is functionally similar to this: <a href=
 };
 ```
 
-You can submit a form that includes a file upload.
+ファイルのアップロードを含むフォームを送信できます。
 
 ```js
 async (getUserInput) => {
@@ -43,7 +43,7 @@ async (getUserInput) => {
 };
 ```
 
-The form file input field has the `name` attribute set to `upfile`.
+フォームのファイル入力フィールドの `name` 属性が `upfile` に設定されています。
 
 ```js
 async (getUserInput) => {
@@ -54,7 +54,7 @@ async (getUserInput) => {
 };
 ```
 
-When you submit a file, you receive the file `name`, `type`, and `size` in bytes within the JSON response.
+ファイルを送信すると、`name`、`type` および `size` (バイト単位) を含む JSON レスポンスを受け取ります。
 
 ```js
 async (getUserInput) => {

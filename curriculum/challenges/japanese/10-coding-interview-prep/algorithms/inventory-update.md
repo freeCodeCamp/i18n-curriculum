@@ -8,7 +8,7 @@ dashedName: inventory-update
 
 # --description--
 
-Compare and update the inventory stored in a 2D array against a second 2D array of a fresh delivery. Update the current existing inventory item quantities (in `arr1`). If an item cannot be found, add the new item and quantity into the inventory array. The returned inventory array should be in alphabetical order by item.
+二次元配列に格納されている在庫を、フレッシュデリバリーの 2 つ目の二次元配列と比較して更新します。 既存の在庫品目の数量 (`arr1` 内) を更新します。 品目が見つからない場合は、新しい品目と数量を在庫配列に追加します。 返された在庫配列は、品目名でアルファベット順にする必要があります。
 
 # --hints--
 

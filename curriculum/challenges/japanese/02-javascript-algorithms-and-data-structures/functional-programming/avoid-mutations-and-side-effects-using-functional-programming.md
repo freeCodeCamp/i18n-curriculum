@@ -8,7 +8,7 @@ dashedName: avoid-mutations-and-side-effects-using-functional-programming
 
 # --description--
 
-If you haven't already figured it out, the issue in the previous challenge was with the `splice` call in the `tabClose()` function. Unfortunately, `splice` changes the original array it is called on, so the second call to it used a modified array, and gave unexpected results.
+まだ気づいていない方もいるかもしれませんが、 前回のチャレンジには `tabClose()` 関数の `splice` 呼び出しに問題がありました。 残念ながら、`splice` は呼び出しの対象となる元の配列を変更します。そのため、2 つ目の呼び出しでは変更後の配列が使用され、予期しない結果をもたらしました。
 
 これははるかに大きなパターンの小さな一例にすぎません。変数、配列、またはオブジェクトに対して関数を呼び出すと、関数によってオブジェクトの変数などが変更されます。
 

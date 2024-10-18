@@ -9,7 +9,7 @@ dashedName: use-abbreviated-hex-code
 
 # --description--
 
-Many people feel overwhelmed by the possibilities of more than 16 million colors. And it's difficult to remember hex code. Fortunately, you can shorten it.
+1600 万色以上と言われて圧倒される人も多いでしょう。 また、16 進数のコードを覚えるのは大変です。 幸い、それを短縮できます。
 
 例えば、赤色の 16 進数コード `#FF0000` は `#F00` と短縮できます。 この短縮形は、1 桁ずつ赤、緑、青を表します。
 
@@ -19,7 +19,7 @@ Many people feel overwhelmed by the possibilities of more than 16 million colors
 
 短縮形の 16 進数コードを使用して、正しい要素に色を付けてみましょう。
 
-<table><tbody><tr><th>Color</th><th>Short Hex Code</th></tr><tr><td>Cyan</td><td><code>#0FF</code></td></tr><tr><td>Green</td><td><code>#0F0</code></td></tr><tr><td>Red</td><td><code>#F00</code></td></tr><tr><td>Fuchsia</td><td><code>#F0F</code></td></tr></tbody></table>
+<table><tbody><tr><th>色</th><th>短縮 16 進数コード</th></tr><tr><td>シアン</td><td><code>#0FF</code></td></tr><tr><td>緑</td><td><code>#0F0</code></td></tr><tr><td>赤</td><td><code>#F00</code></td></tr><tr><td>フューシャ</td><td><code>#F0F</code></td></tr></tbody></table>
 
 # --hints--
 

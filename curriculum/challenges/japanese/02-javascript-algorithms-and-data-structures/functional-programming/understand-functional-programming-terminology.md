@@ -8,7 +8,7 @@ dashedName: understand-functional-programming-terminology
 
 # --description--
 
-The FCC Team had a mood swing and now wants two types of tea: green tea and black tea. General Fact: Client mood swings are pretty common.
+FCC のチームの気が変わって、今は緑茶と紅茶の 2 種類のお茶が欲しくなりました。 クライアントの気が変わるというのは一般的な事実としてよくあることです。
 
 そんな情報を踏まえて、前回のチャレンジで取り上げた `getTea` 関数を見直して、さまざまなお茶のリクエストを処理する必要が出てきました。 パラメーターとして関数を受け取るように `getTea` を変更して、用意するお茶の種類を変えることができます。 これで `getTea` の柔軟性が増し、クライアントのリクエストが変更されたときにプログラマーはより詳細に制御できるようになります。
 

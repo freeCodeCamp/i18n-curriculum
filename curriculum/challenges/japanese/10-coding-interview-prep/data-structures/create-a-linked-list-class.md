@@ -8,7 +8,7 @@ dashedName: create-a-linked-list-class
 
 # --description--
 
-Let's create a `linked list` class. Every linked list should start out with a few basic properties: a `head` (the first item in your list) and a `length` (number of items in your list). Sometimes you'll see implementations of linked lists that incorporate a `tail` for the last element of the list, but for now we'll just stick with these two. Whenever we add an element to the linked list, our `length` property should be incremented by one.
+`linked list` (リンクリスト) クラスを作成しましょう。 どのリンクリストでも、まずは基本プロパティ、すなわち `head` (リストの最初の要素) と `length` (リストの要素数) を定義する必要があります。 リストの最後の要素に `tail` を組み込んだリンクリストの実装も時々見かけますが、今はこの 2 つだけを使いましょう。 リンクリストに要素を追加するたびに、`length` プロパティが 1 ずつ増分される必要があります。
 
 リンクリストに要素を追加する方法が必要なので、最初に作成したいのは `add` メソッドです。
 

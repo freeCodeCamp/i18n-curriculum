@@ -9,11 +9,11 @@ dashedName: counting-cards
 
 # --description--
 
-In the casino game Blackjack, a player can determine whether they have an advantage on the next hand over the house by keeping track of the relative number of high and low cards remaining in the deck. This is called Card Counting.
+カジノゲームのブラックジャックでは、デッキに残っているカードのハイローの相対数を把握しておくことで、プレイヤーはディーラーに対して次の手が有利であるかどうかを見極めることができます。 これはカードカウンティングと呼ばれています。
 
 デッキに残っているハイカードの数が多いほど、プレイヤーに有利となります。 次の表に従って各カードに値を割り当てます。 カウンティングの結果が正の場合、プレイヤーは高く賭けるべきです。 カウンティングの結果がゼロまたは負の場合、プレイヤーは少なめに賭けた方がいいでしょう。
 
-<table><thead><tr><th>Count Change</th><th>カード</th></tr></thead><tbody><tr><td>+1</td><td>2, 3, 4, 5, 6</td></tr><tr><td>0</td><td>7、8、9</td></tr><tr><td>-1</td><td>10、'J'、'Q'、'K'、'A'</td></tr></tbody></table>
+<table><thead><tr><th>カウントの変更</th><th>カード</th></tr></thead><tbody><tr><td>+1</td><td>2、3、4、5、6</td></tr><tr><td>0</td><td>7、8、9</td></tr><tr><td>-1</td><td>10、'J'、'Q'、'K'、'A'</td></tr></tbody></table>
 
 カードカウンティング関数を記述してください。 この関数は数値または文字列の `card` パラメーターを受け取り、カードの値に応じて (表を参照)、グローバルの `count` 変数をインクリメントまたはデクリメントします。 次に、この関数は現在のカウントを示す文字列と、文字列 `Bet` (カウントが正の場合) または文字列 `Hold` (カウントがゼロか負の場合) を返します。 現在のカウントとプレイヤーの判断 (`Bet` または `Hold`) の間にスペースを 1 つ入れてください。
 

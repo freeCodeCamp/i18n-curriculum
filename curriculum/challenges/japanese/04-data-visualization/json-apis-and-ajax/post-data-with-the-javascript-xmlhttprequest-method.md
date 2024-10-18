@@ -8,7 +8,7 @@ dashedName: post-data-with-the-javascript-xmlhttprequest-method
 
 # --description--
 
-In the previous examples, you received data from an external resource. You can also send data to an external resource, as long as that resource supports AJAX requests and you know the URL.
+以前の例では、外部リソースからデータを受け取りました。 そのリソースが AJAX リクエストをサポートし、あなたが URL を知っていれば、外部リソースにデータを送信することもできます。
 
 JavaScriptの `XMLHttpRequest` メソッドは、データをサーバーにポストするためにも使用されます。 以下が例です:
 

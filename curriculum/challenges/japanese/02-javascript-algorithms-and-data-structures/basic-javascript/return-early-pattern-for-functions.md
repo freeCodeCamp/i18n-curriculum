@@ -9,7 +9,7 @@ dashedName: return-early-pattern-for-functions
 
 # --description--
 
-When a `return` statement is reached, the execution of the current function stops and control returns to the calling location.
+`return` ステートメントに達すると、現在の関数の実行が停止し、元の呼び出し場所に制御が戻ります。
 
 **例**
 

@@ -1,6 +1,6 @@
 ---
 id: 5e6dee7749a0b85a3f1fc7d5
-title: Lucas-Lehmer test
+title: リュカ–レーマー・テスト
 challengeType: 1
 forumTopicId: 385281
 dashedName: lucas-lehmer-test
@@ -8,57 +8,57 @@ dashedName: lucas-lehmer-test
 
 # --description--
 
-Lucas-Lehmer Test: for $p$ an odd prime, the Mersenne number $2^p-1$ is prime if and only if $2^p-1$ divides $S(p-1)$ where $S(n+1)=(S(n))^2-2$, and $S(1)=4$.
+リュカ–レーマー・テスト: $p$ が奇素数のとき、$2^p-1$ で $S(p-1)$ が割り切れる場合に限り、メルセンヌ数 $2^p-1$ が素数になります。ここでは $S(n+1)=(S(n))^2-2$、$S(1)=4$ と定義されます。
 
 # --instructions--
 
-Write a function that returns whether the given Mersenne number is prime or not.
+与えられたメルセンヌ数が素数かどうかの判定を返す関数を記述してください。
 
 # --hints--
 
-`lucasLehmer` should be a function.
+`lucasLehmer` は関数とします。
 
 ```js
 assert(typeof lucasLehmer == 'function');
 ```
 
-`lucasLehmer(11)` should return a boolean.
+`lucasLehmer(11)` はブール値を返す必要があります。
 
 ```js
 assert(typeof lucasLehmer(11) == 'boolean');
 ```
 
-`lucasLehmer(11)` should return `false`.
+`lucasLehmer(11)` は `false` を返す必要があります。
 
 ```js
 assert.equal(lucasLehmer(11), false);
 ```
 
-`lucasLehmer(15)` should return `false`.
+`lucasLehmer(15)` は `false` を返す必要があります。
 
 ```js
 assert.equal(lucasLehmer(15), false);
 ```
 
-`lucasLehmer(13)` should return `true`.
+`lucasLehmer(13)` は `true` を返す必要があります。
 
 ```js
 assert.equal(lucasLehmer(13), true);
 ```
 
-`lucasLehmer(17)` should return `true`.
+`lucasLehmer(17)` は `true` を返す必要があります。
 
 ```js
 assert.equal(lucasLehmer(17), true);
 ```
 
-`lucasLehmer(19)` should return `true`.
+`lucasLehmer(19)` は `true` を返す必要があります。
 
 ```js
 assert.equal(lucasLehmer(19), true);
 ```
 
-`lucasLehmer(21)` should return `false`.
+`lucasLehmer(21)` は `false` を返す必要があります。
 
 ```js
 assert.equal(lucasLehmer(21), false);

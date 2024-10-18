@@ -8,7 +8,7 @@ dashedName: sorting-algorithmscomb-sort
 
 # --description--
 
-Implement a *comb sort*.
+*コムソート*を実装します。
 
 **コムソート**はバブルソートの派生版です。
 
@@ -18,14 +18,14 @@ Implement a *comb sort*.
 
 一部の実装では、間隔が一定距離以下になると挿入ソートを使用します。
 
-Variants:
+バリエーション:
 
 <ul>
-  <li>Combsort11 makes sure the gap ends in (11, 8, 6, 4, 3, 2, 1), which is significantly faster than the other two possible endings.</li>
-  <li>Combsort with different endings changes to a more efficient sort when the data is almost sorted (when the gap is small). Comb sort with a low gap isn't much better than the Bubble Sort.</li>
+  <li>コムソート 11 は、間隔の結果を (11, 8, 6, 4, 3, 2, 1) となるようにするもので、他の 2 つの起こり得る間隔の場合よりもずっと高速になります。</li>
+  <li>データがほぼソートされたとき (間隔が小さいとき) 、間隔の結果を変化させると、より効率的なソートになります。 間隔が小さい時のコムソートはバブルソートとほぼ変わりません。</li>
 </ul>
 
-Pseudocode:
+擬似コード:
 
 <pre><b>function</b> combsort(<b>array</b> input)
   gap := input<b>.size</b> <i>//initialize gap size</i>
@@ -53,41 +53,41 @@ Pseudocode:
 
 # --instructions--
 
-Write a function that sorts a given array using Comb sort.
+コムソートを使って、与えられた配列をソートする関数を記述してください。
 
 # --hints--
 
-`combSort` should be a function.
+`combSort` は関数とします。
 
 ```js
 assert(typeof combSort == 'function');
 ```
 
-`combSort([25, 32, 12, 7, 20])` should return an array.
+`combSort([25, 32, 12, 7, 20])` は配列を返す必要があります。
 
 ```js
 assert(Array.isArray(combSort([25, 32, 12, 7, 20])));
 ```
 
-`combSort([25, 32, 12, 7, 20])` should return `[7, 12, 20, 25, 32]`.
+`combSort([25, 32, 12, 7, 20])` は `[7, 12, 20, 25, 32]` を返す必要があります。
 
 ```js
 assert.deepEqual(combSort([25, 32, 12, 7, 20]), [7, 12, 20, 25, 32]);
 ```
 
-`combSort([38, 45, 35, 8, 13])` should return `[8, 13, 35, 38, 45]`.
+`combSort([38, 45, 35, 8, 13])` は `[8, 13, 35, 38, 45]` を返す必要があります。
 
 ```js
 assert.deepEqual(combSort([38, 45, 35, 8, 13]), [8, 13, 35, 38, 45]);
 ```
 
-`combSort([43, 36, 20, 34, 24])` should return `[20, 24, 34, 36, 43]`.
+`combSort([43, 36, 20, 34, 24])` は `[20, 24, 34, 36, 43]` を返す必要があります。
 
 ```js
 assert.deepEqual(combSort([43, 36, 20, 34, 24]), [20, 24, 34, 36, 43]);
 ```
 
-`combSort([12, 33, 26, 18, 1, 16, 38])` should return `[1, 12, 16, 18, 26, 33, 38]`.
+`combSort([12, 33, 26, 18, 1, 16, 38])` は `[1, 12, 16, 18, 26, 33, 38]` を返す必要があります。
 
 ```js
 assert.deepEqual(combSort([12, 33, 26, 18, 1, 16, 38]), [
@@ -101,7 +101,7 @@ assert.deepEqual(combSort([12, 33, 26, 18, 1, 16, 38]), [
 ]);
 ```
 
-`combSort([3, 39, 48, 16, 1, 4, 29])` should return `[1, 3, 4, 16, 29, 39, 48]`.
+`combSort([3, 39, 48, 16, 1, 4, 29])` は `[1, 3, 4, 16, 29, 39, 48]` を返す必要があります。
 
 ```js
 assert.deepEqual(combSort([3, 39, 48, 16, 1, 4, 29]), [

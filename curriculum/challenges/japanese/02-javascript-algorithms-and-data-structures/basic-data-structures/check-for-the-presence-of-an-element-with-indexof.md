@@ -1,6 +1,6 @@
 ---
 id: 587d7b7b367417b2b2512b14
-title: Check For The Presence of an Element With indexOf()
+title: indexOf() で要素の存在をチェックする
 challengeType: 1
 forumTopicId: 301154
 dashedName: check-for-the-presence-of-an-element-with-indexof
@@ -8,7 +8,7 @@ dashedName: check-for-the-presence-of-an-element-with-indexof
 
 # --description--
 
-Since arrays can be changed, or *mutated*, at any time, there's no guarantee about where a particular piece of data will be on a given array, or if that element even still exists. Luckily, JavaScript provides us with another built-in method, `indexOf()`, that allows us to quickly and easily check for the presence of an element on an array. `indexOf()` takes an element as a parameter, and when called, it returns the position, or index, of that element, or `-1` if the element does not exist on the array.
+配列はいつでも変更、つまり*ミューテート*が可能であるため、 特定のデータが配列内のどこにあるのかや、その要素がまだ存在するかどうかについては何も保証されません。 幸い、JavaScript には組み込みメソッド `indexOf()` があり、配列内の要素の存在を素早く簡単に確認することができます。 `indexOf()` は要素をパラメーターとして取り、呼び出すと要素の位置 (インデックス) を返します。要素が配列内に存在しない場合には `-1` を返します。
 
 次に例を示します。
 
@@ -20,21 +20,21 @@ fruits.indexOf('oranges');
 fruits.indexOf('pears');
 ```
 
-`indexOf('dates')` returns `-1`, `indexOf('oranges')` returns `2`, and `indexOf('pears')` returns `1` (the first index at which each element exists).
+`indexOf('dates')` は `-1` を返します。`indexOf('oranges')` は `2` を、`indexOf('pears')` は `1` を返します (それぞれの要素が出現する最初のインデックス)。
 
 # --instructions--
 
-`indexOf()` can be incredibly useful for quickly checking for the presence of an element on an array. We have defined a function, `quickCheck`, that takes an array and an element as arguments. Modify the function using `indexOf()` so that it returns `true` if the passed element exists on the array, and `false` if it does not.
+`indexOf()` は、配列内の要素の存在を素早くチェックするのに非常に便利です。 関数 `quickCheck` を定義しました。この関数は配列と要素を引数として取ります。 `indexOf()` を使用してこの関数を変更し、渡した要素が配列内に存在する場合は `true` を、存在しない場合は `false` を返すようにしてください。
 
 # --hints--
 
-The `quickCheck` function should return a boolean (`true` or `false`), not a string (`"true"` or `"false"`)
+`quickCheck` 関数は文字列 (`"true"` または `"false"`) ではなく、ブール型 (`true` または `false`) を返す必要があります。
 
 ```js
 assert.isBoolean(quickCheck(['squash', 'onions', 'shallots'], 'mushrooms'));
 ```
 
-`quickCheck(["squash", "onions", "shallots"], "mushrooms")` should return `false`
+`quickCheck(["squash", "onions", "shallots"], "mushrooms")` は `false` を返す必要があります。
 
 ```js
 assert.strictEqual(
@@ -43,7 +43,7 @@ assert.strictEqual(
 );
 ```
 
-`quickCheck(["onions", "squash", "shallots"], "onions")` should return `true`
+`quickCheck(["onions", "squash", "shallots"], "onions")` は `true` を返す必要があります。
 
 ```js
 assert.strictEqual(
@@ -52,19 +52,19 @@ assert.strictEqual(
 );
 ```
 
-`quickCheck([3, 5, 9, 125, 45, 2], 125)` should return `true`
+`quickCheck([3, 5, 9, 125, 45, 2], 125)` は `true` を返す必要があります。
 
 ```js
 assert.strictEqual(quickCheck([3, 5, 9, 125, 45, 2], 125), true);
 ```
 
-`quickCheck([true, false, false], undefined)` should return `false`
+`quickCheck([true, false, false], undefined)` は `false` を返す必要があります。
 
 ```js
 assert.strictEqual(quickCheck([true, false, false], undefined), false);
 ```
 
-The `quickCheck` function should utilize the `indexOf()` method
+`quickCheck` 関数では `indexOf()` メソッドを使用する必要があります。
 
 ```js
 assert.notStrictEqual(quickCheck.toString().search(/\.indexOf\(/), -1);

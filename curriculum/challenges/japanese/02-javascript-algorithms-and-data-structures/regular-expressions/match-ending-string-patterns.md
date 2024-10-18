@@ -8,7 +8,7 @@ dashedName: match-ending-string-patterns
 
 # --description--
 
-In the last challenge, you learned to use the caret character to search for patterns at the beginning of strings. There is also a way to search for patterns at the end of strings.
+前回のチャレンジでは、キャレット文字を使用して文字列の先頭にあるパターンを検索することを学びました。 文字列の末尾でパターンを検索する方法もあります。
 
 正規表現の末尾でドル記号 `$` を使用すると、文字列の末尾を検索できます。
 

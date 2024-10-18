@@ -8,7 +8,7 @@ dashedName: gaussian-elimination
 
 # --description--
 
-Write a function to solve \\(Ax = b\\) using Gaussian elimination then backwards substitution.
+ガウスの消去法を用い、後退代入で \\(Ax = b\\) を解く関数を記述します。
 
 \\(A\\) は \\(n \\× n\\) 行列とします。 また、\\(x\\) と \\(b\\) は \\(n\\) に 1 ベクトルを掛けます。
 

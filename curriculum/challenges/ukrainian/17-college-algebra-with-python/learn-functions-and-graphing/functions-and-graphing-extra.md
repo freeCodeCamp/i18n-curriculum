@@ -12,7 +12,7 @@ dashedName: functions-and-graphing-extra
 
 Ось <a href="https://colab.research.google.com/drive/1UYorWd9-Btf_ZQyA9YdUzxzKR8rnVrSV" target="_blank" rel="noopener noreferrer nofollow">блокнот Colab для цього відео.</a>
 
-# --Завдання--
+# --assignment--
 
 Додайте код для функцій та графіків до свого блокнота Colab.
 

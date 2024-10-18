@@ -8,7 +8,7 @@ dashedName: stream-merge
 
 # --description--
 
-Write a function that takes multiple sorted arrays of items, and returns one array of sorted items.
+複数のソートされた項目の配列を取り、1 つのソートされた項目の 配列を返す関数を記述してください。
 
 # --hints--
 

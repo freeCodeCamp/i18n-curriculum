@@ -8,7 +8,7 @@ dashedName: use-body-parser-to-parse-post-requests
 
 # --description--
 
-Besides GET, there is another common HTTP verb, it is POST. POST is the default method used to send client data with HTML forms. In REST convention, POST is used to send data to create new items in the database (a new user, or a new blog post). You don’t have a database in this project, but you are going to learn how to handle POST requests anyway.
+GET のほかにもう一つ一般的な HTTP 動詞があります。それは、POST です。 POST は、HTML フォームを使用してクライアントデータを送信するために使用するデフォルトのメソッドです。 REST の慣例では、POST は、データベースに新しいアイテム (新規ユーザー、または新しいブログ投稿) を作成するためのデータを送信する場合に使用します。 このプロジェクトにはデータベースはありませんが、ひとまず POST リクエストの処理方法について説明します。
 
 このようなリクエストでは、データは URL には表示されず、リクエストボディに隠されています。 ボディは HTTP リクエストの一部であり、ペイロードとも呼ばれます。 URL にデータが表示されていなくても、データが非公開であるとは限りません。 その理由を理解するため、HTTP POST リクエストの処理前の内容を見てみましょう。
 

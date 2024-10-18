@@ -8,7 +8,7 @@ dashedName: abc-problem
 
 # --description--
 
-You are given a collection of ABC blocks (e.g., childhood alphabet blocks). There are 20 blocks with two letters on each block. A complete alphabet is guaranteed amongst all sides of the blocks. The sample collection of blocks:
+ABC ブロック一式が与えられます (例えば、子供用のアルファベットブロック)。 20 個のブロックがあり、各ブロックに 2 文字入っています。 ブロックの全側面を見れば、すべてのアルファベットが必ずあります。 ブロックのサンプル一式:
 
 <pre>(B O)
 (X K)
@@ -39,7 +39,7 @@ You are given a collection of ABC blocks (e.g., childhood alphabet blocks). Ther
 留意すべきルール:
 
 <ul>
-  <li>Once a letter on a block is used, that block cannot be used again.</li>
+  <li>ブロック上の文字を使用すると、そのブロックは再度使用することはできません。</li>
   <li>関数は大文字小文字を区別しません。</li>
 </ul>
 

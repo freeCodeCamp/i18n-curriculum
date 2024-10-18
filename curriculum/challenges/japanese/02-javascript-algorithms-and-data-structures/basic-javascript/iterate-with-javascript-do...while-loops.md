@@ -9,7 +9,7 @@ dashedName: iterate-with-javascript-do---while-loops
 
 # --description--
 
-The next type of loop you will learn is called a `do...while` loop. It is called a `do...while` loop because it will first `do` one pass of the code inside the loop no matter what, and then continue to run the loop `while` the specified condition evaluates to `true`.
+次に学ぶループ処理のタイプは `do...while` ループと呼ばれるものです。 この処理が `do...while` ループと呼ばれるのは、最初にループ内のコードが無条件に 1 回実行 (`do`) され、その後、指定された条件が `true` と評価される間ずっと (`while`)、ループ処理が実行され続けるからです。
 
 ```js
 const ourArray = [];

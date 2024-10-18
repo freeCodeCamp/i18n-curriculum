@@ -14,7 +14,7 @@ dashedName: understanding-sockets-and-creating-a-tcp-server
 
 ## --text--
 
-Which of the following functions creates a socket object?
+ソケットオブジェクトを生成する関数は次のうちどれですか？
 
 ## --answers--
 

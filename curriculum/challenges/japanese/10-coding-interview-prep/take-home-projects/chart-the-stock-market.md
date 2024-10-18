@@ -8,7 +8,7 @@ dashedName: chart-the-stock-market
 
 # --description--
 
-Build a full stack JavaScript app that is functionally similar to this: <a href="https://chart-the-stock-market.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://chart-the-stock-market.freecodecamp.rocks/</a>. Use a site builder of your choice to complete the project.
+<a href="https://chart-the-stock-market.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://chart-the-stock-market.freecodecamp.rocks/</a> と同じような機能を持つ、フルスタック JavaScript アプリを構築してください。 ご自身で選んだサイトビルダーを使用して、プロジェクトを完了させてください。
 
 このプロジェクトに実装する必要がある具体的なユーザー ストーリーはこちらです:
 

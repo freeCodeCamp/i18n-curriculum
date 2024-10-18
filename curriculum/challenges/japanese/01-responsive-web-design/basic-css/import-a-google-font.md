@@ -9,7 +9,7 @@ dashedName: import-a-google-font
 
 # --description--
 
-In addition to specifying common fonts that are found on most operating systems, we can also specify non-standard, custom web fonts for use on our website. There are many sources for web fonts on the Internet. For this example we will focus on the Google Fonts library.
+ほとんどのオペレーティングシステムで使われている一般的なフォントの他に、非標準のカスタム Web フォントを Web サイトに使うこともできます。 インターネット上には多くの Web フォントの提供元があります。 今回の例では Google Fonts ライブラリに焦点を当てます。
 
 Google Fonts は無料の Web フォントのライブラリで、フォントの URL を参照することによって CSS の中で使用できます。
 

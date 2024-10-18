@@ -8,7 +8,7 @@ dashedName: add-items-to-an-array-with-push-and-unshift
 
 # --description--
 
-An array's length, like the data types it can contain, is not fixed. Arrays can be defined with a length of any number of elements, and elements can be added or removed over time; in other words, arrays are <dfn>mutable</dfn>. In this challenge, we will look at two methods with which we can programmatically modify an array: `Array.push()` and `Array.unshift()`.
+配列の長さは、そこに含まれるデータ型と同じく固定されていません。 配列は任意の数の要素の長さで定義することができ、要素は時間の経過とともに追加されたり削除されたりします。 つまり、配列は<dfn>ミュータブル (変更可能)</dfn> です。 このチャレンジでは、配列をプログラム的に変更できる 2 つのメソッド `Array.push()` と `Array.unshift()` について見ていきます。
 
 どちらのメソッドもパラメーターとして 1 つ以上の要素を受け取り、メソッド呼び出しの対象の配列にそれらの要素を追加します。`push()` メソッドは要素を配列の末尾に追加し、`unshift()` メソッドは要素を配列の先頭に追加します。 以下の例について考えてみましょう。
 

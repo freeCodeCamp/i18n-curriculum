@@ -8,7 +8,7 @@ dashedName: get-query-parameter-input-from-the-client
 
 # --description--
 
-Another common way to get input from the client is by encoding the data after the route path, using a query string. The query string is delimited by a question mark (?), and includes field=value couples. Each couple is separated by an ampersand (&). Express can parse the data from the query string, and populate the object `req.query`. Some characters, like the percent (%), cannot be in URLs and have to be encoded in a different format before you can send them. If you use the API from JavaScript, you can use specific methods to encode/decode these characters.
+クライアントから入力を取得するもう一つの一般的な方法として、クエリ文字列を使用してルートパスの後にデータをエンコードすることができます。 クエリ文字列は、疑問符 (?) で区切られ、field=value のペアを含みます。 各ペアはアンパサンド (&) で区切られます。 Express では、クエリ文字列のデータを解析し、`req.query` オブジェクトを設定することができます。 パーセント (%) などのいくつかの文字は URL に含めることができないので、送信する前に別の形式にエンコードする必要があります。 JavaScript の API を使用する場合は、そうした文字をエンコード/デコードするために特定のメソッドを使用できます。
 
 <blockquote>route_path: '/library'<br>actual_request_URL: '/library?userId=546&#x26;bookId=6754' <br>req.query: {userId: '546', bookId: '6754'}</blockquote>
 

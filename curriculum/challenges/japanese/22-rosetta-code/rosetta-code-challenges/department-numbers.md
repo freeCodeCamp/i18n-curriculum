@@ -8,10 +8,10 @@ dashedName: department-numbers
 
 # --description--
 
-There is a highly organized city that has decided to assign a number to each of their departments:
+高度に組織化された都市が、各部署に番号を割り当てることにしました。
 
 <ul>
-  <li>Police department</li>
+  <li>警察局</li>
   <li>公衆衛生局</li>
   <li>消防局</li>
 </ul>

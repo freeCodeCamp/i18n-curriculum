@@ -1,6 +1,6 @@
 ---
 id: 587d781a367417b2b2512ab7
-title: Use the strong Tag to Make Text Bold
+title: strong タグでテキストを太字にする
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/ceJNBSb'
 forumTopicId: 301080
@@ -9,21 +9,21 @@ dashedName: use-the-strong-tag-to-make-text-bold
 
 # --description--
 
-To make text bold, you can use the `strong` tag. This is often used to draw attention to text and symbolize that it is important. With the `strong` tag, the browser applies the CSS of `font-weight: bold;` to the element.
+テキストを太字にするには `strong` タグを使用します。 これは、テキストに注目させ、重要であることを示すためによく使われます。 `strong` タグを使うと、ブラウザは CSS の `font-weight: bold;` を要素に適用します。
 
 # --instructions--
 
-Wrap a `strong` tag around the text `Stanford University` inside the `p` tag (do not include the period).
+`p` タグの中のテキスト `Stanford University` を、`strong` タグで囲みましょう (ピリオドは含まないようにしてください)。
 
 # --hints--
 
-Your code should add one `strong` tag to the markup.
+コード内でマークアップに `strong` タグを 1 つ追加する必要があります。
 
 ```js
 assert.lengthOf(document.querySelectorAll('strong'),1);
 ```
 
-The `strong` tag should be inside the `p` tag.
+`strong` タグは `p` タグの内側にあるようにしてください。
 
 ```js
 const pargraphElement = document.querySelector('p');
@@ -31,7 +31,7 @@ const pargraphChildren = pargraphElement?.querySelectorAll(`:scope ${'strong'}`)
 assert.lengthOf(pargraphChildren, 1);
 ```
 
-The `strong` tag should wrap around the words `Stanford University`.
+`strong` タグが `Stanford University` の語句を囲むようにしてください。
 
 ```js
 assert.match(document.querySelector('strong')?.textContent, /^Stanford University\.?$/gi);

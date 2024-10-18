@@ -8,7 +8,7 @@ dashedName: add-attributes-to-the-circle-elements
 
 # --description--
 
-The last challenge created the `circle` elements for each point in the `dataset`, and appended them to the SVG. But D3 needs more information about the position and size of each `circle` to display them correctly.
+The last challenge created the `circle` elements for each point in the `dataset`, and appended them to the SVG. しかし D3 でこれらを正しく表示するには、各 `circle` の位置とサイズに関する詳細情報が必要です。
 
 SVG の `circle` には主要な 3 つの属性があります。 `cx` と `cy` 属性は座標です。 They tell D3 where to position the *center* of the shape on the SVG. 半径 (`r` 属性) は、`circle` の大きさを指定します。
 

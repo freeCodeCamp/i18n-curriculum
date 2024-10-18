@@ -12,7 +12,7 @@ Diese Aufgabe wird teilweise auf der Microsoft Learn Plattform erledigt. Folge d
 1. Gehe auf <a href="https://learn.microsoft.com/training/modules/csharp-if-elseif-else/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/csharp-if-elseif-else/</a> und löse alle Aufgaben für das Modul "Hinzufügen von Entscheidungslogik zu deinem Code mit if-, else- und else if-Anweisungen in C#". Dies ist **erforderlich**, um die "Create und Run Simple C# Console Applicaions"-Trophäe auf Microsoft Learn zu erwerben und sich für die Zertifizierungsprüfung zu qualifizieren.
 1. Wenn du damit fertig bist, komme zurück und beantworte die folgende Frage richtig.
 
-# --Auftrag--
+# --assignment--
 
 Schließe das Modul <a href="https://learn.microsoft.com/training/modules/csharp-if-elseif-else/" target="_blank" rel="noreferrer">Hinzufügen von Entscheidungslogik zu deinem Code mit if-, else- und else if-Anweisungen in C#</a> auf Microsoft Learn ab. Beantworte dann die Frage unten.
 

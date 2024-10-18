@@ -9,7 +9,7 @@ dashedName: check-radio-buttons-and-checkboxes-by-default
 
 # --description--
 
-You can set a checkbox or radio button to be checked by default using the `checked` attribute.
+`checked` 属性を使用して、チェックボックスやラジオボタンをデフォルトで選択された状態にすることができます。
 
 そのためには、`checked` という単語を `input` 要素の内部に追加します。 例えば、次のように記述できます。
 

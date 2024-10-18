@@ -10,7 +10,7 @@ bilibiliIds:
 dashedName: web-services-service-oriented-approach
 ---
 
-# --preguntas--
+# --questions--
 
 ## --text--
 

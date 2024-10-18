@@ -8,7 +8,7 @@ dashedName: averagesmode
 
 # --description--
 
-Write a function `mode` to find the value that appears most in an array.
+配列内で最も出現数の多い値を見つける関数 `mode` を記述します。
 
 データが空の場合は無視します。 最頻値が1つではない場合には注意が必要です。
 

@@ -1,6 +1,6 @@
 ---
 id: 56533eb9ac21ba0edf2244bc
-title: Shopping List
+title: ショッピングリスト
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/c9MEKHZ'
 forumTopicId: 18280
@@ -9,37 +9,37 @@ dashedName: shopping-list
 
 # --description--
 
-Create a shopping list in the variable `myList`. The list should be a multi-dimensional array containing several sub-arrays.
+変数 `myList` にショッピングリストを作成してください。 リストは、複数のサブ配列を含む多次元配列とします。
 
-The first element in each sub-array should contain a string with the name of the item. The second element should be a number representing the quantity i.e.
+各サブ配列の最初の要素には、商品の名前を持つ文字列を含める必要があります。 2 番目の要素は、数量を表す数値としてください。
 
 ```js
 ["Chocolate Bar", 15]
 ```
 
-There should be at least 5 sub-arrays in the list.
+リストには、少なくとも 5 つのサブ配列が必要です。
 
 # --hints--
 
-`myList` should be an array.
+`myList` は配列である必要があります。
 
 ```js
 assert(isArray);
 ```
 
-The first elements in each of your sub-arrays should all be strings.
+各サブ配列の最初の要素は、すべて文字列である必要があります。
 
 ```js
 assert(hasString);
 ```
 
-The second elements in each of your sub-arrays should all be numbers.
+各サブ配列の 2 番目の要素は、すべて数値である必要があります。
 
 ```js
 assert(hasNumber);
 ```
 
-You should have at least 5 items in your list.
+リストには少なくとも 5 つのアイテムが必要です。
 
 ```js
 assert(count > 4);

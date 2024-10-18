@@ -8,7 +8,7 @@ dashedName: sum-of-squares
 
 # --description--
 
-Write a function to find the sum of squares of an array of integers.
+整数の配列の平方和を求める関数を記述してください。
 
 # --hints--
 

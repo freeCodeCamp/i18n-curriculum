@@ -8,7 +8,7 @@ dashedName: invert-svg-elements
 
 # --description--
 
-You may have noticed the bar chart looked like it's upside-down, or inverted. This is because of how SVG uses (x, y) coordinates.
+棒グラフが上下逆になっている、つまり反転していることに気付いたことでしょう。 原因は、SVG による (x, y) 座標の使い方にあります。
 
 SVG では、座標の原点は左上の隅にあります。 `x` 座標が 0 の場合、SVG 領域の左端に図形が配置されます。 `y` 座標が 0 の場合、SVG 領域の上端に図形が配置されます。 `x` の値が大きいほど、長方形は右側に押し出されます。 `y` の値が大きいほど、長方形は下側に押し出されます。
 

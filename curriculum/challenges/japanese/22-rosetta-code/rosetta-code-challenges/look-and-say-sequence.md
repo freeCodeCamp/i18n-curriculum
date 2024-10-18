@@ -8,17 +8,17 @@ dashedName: look-and-say-sequence
 
 # --description--
 
-The Look and say sequence is a recursively defined sequence of numbers.
+読み上げ数列は、再帰的に定義される数列です。
 
 数列の定義
 
-<ul><li>Take a decimal number</li>
+<ul><li>10 進数の数値を 1 つ選びます</li>
 <li>数字を<span>見て</span>、同じ数字の連続した並びのグループを視覚的に把握します</li>
 <li>番号を左から右へグループごとに、数字が何個あるかと、続けてそのグループの数字を<span>読み上げ</span>ます。</li></ul><span> これが数列の次の数値になります。</span>
 
 以下に例を示します。
 
-<ul><li>Starting with the number 1, you have <span>one</span> 1 which produces 11</li>
+<ul><li>数値 1 から始めると、<span>1</span> 個の 1 で 11 になります</li>
 <li>11 から始めると、<span>2</span> 個の1。 つまり、21になります</li>
 <li>21から始めると、 <span>1</span> 個の 2、<span>1</span> 個の 1。 つまり、(12)(11) で 1211 になります</li>
 <li>1211から始めると、 <span>1</span> 個の 1、 <span>1</span> 個の 2、そして <span>2</span> 個の 1。 つまり、(11)(12)(21) で 111221 になります</li></ul>

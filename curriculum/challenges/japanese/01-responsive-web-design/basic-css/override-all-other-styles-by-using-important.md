@@ -9,7 +9,7 @@ dashedName: override-all-other-styles-by-using-important
 
 # --description--
 
-Yay! We just proved that inline styles will override all the CSS declarations in your `style` element.
+おめでとう！ インラインスタイルが `style` 要素内のすべての CSS 宣言をオーバーライドすることを証明しました。
 
 でも待ってください。 CSS をオーバーライドする方法が最後にもう 1 つあります。 これは最も強力な方法です。 でもその前に、そもそもなぜ CSS をオーバーライドしたいのかについて話しましょう。
 

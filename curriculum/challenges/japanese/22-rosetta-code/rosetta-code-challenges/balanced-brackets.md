@@ -8,17 +8,17 @@ dashedName: balanced-brackets
 
 # --description--
 
-Determine whether a generated string of brackets is balanced; that is, whether it consists entirely of pairs of opening/closing brackets (in that order), none of which mis-nest.
+生成された括弧が対になっているかどうかを確認します。括弧が開き括弧と閉じ括弧の順番で対になっているかどうか、誤った入れ子になっていないかどうかを確認します。
 
 **例:**
-| Input                     | 出力   |
-| ------------------------- | ---- |
-| <code>\[]</code> | true |
-| <code>]\[</code> | 偽    |
-| <code>[][]</code> | 真    |
-| <code>]\[]</code> | 偽    |
-| <code>\[]]\[\[]</code> | 偽    |
-| <code>\[\[\[\[]]]]</code> | 真    |
+| 入力                        | 出力 |
+| ------------------------- | -- |
+| <code>\[]</code> | 真  |
+| <code>]\[</code> | 偽  |
+| <code>[][]</code> | 真  |
+| <code>]\[]</code> | 偽  |
+| <code>\[]]\[\[]</code> | 偽  |
+| <code>\[\[\[\[]]]]</code> | 真  |
 
 # --hints--
 

@@ -8,10 +8,10 @@ dashedName: set-consolidation
 
 # --description--
 
-Given two sets of items then if any item is common to any set then the result of applying *consolidation* to those sets is a set of sets whose contents is:
+2 つの項目セットが与えられ、ある項目がいずれかのセットで共通である場合、これらのセットに*結合*を適用した結果は、次の内容のセットのセットになります。
 
 <ul>
-  <li>The two input sets if no common item exists between the two input sets of items.</li>
+  <li>2 つの入力セット間に共通項目が存在しない場合、2 つの入力セット。</li>
   <li>共通項目がある場合は、2つの入力セットを結合した単一のセット。</li>
 </ul>
 

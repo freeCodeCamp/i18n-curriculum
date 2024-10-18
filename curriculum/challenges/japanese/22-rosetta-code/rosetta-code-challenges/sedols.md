@@ -8,7 +8,7 @@ dashedName: sedols
 
 # --description--
 
-<abbr title="Stock Exchange Daily Official List">SEDOL</abbr> is a list of securities identification numbers issued by the London Stock Exchange.
+<abbr title="Stock Exchange Daily Official List">SEDOL</abbr> は、ロンドン証券取引所が発行する証券識別番号のリストです。
 
 6 桁の <abbr title="Stock Exchange Daily Official List">SEDOL コード</abbr>の数字リストごとに、チェックディジットを計算して追加します。 つまり、左辺の入力文字列に対して、関数は対応する右辺の文字列を返す必要があります。
 

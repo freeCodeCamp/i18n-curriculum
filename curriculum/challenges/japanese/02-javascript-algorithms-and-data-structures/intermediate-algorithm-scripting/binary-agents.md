@@ -8,7 +8,7 @@ dashedName: binary-agents
 
 # --description--
 
-Return an English translated sentence of the passed binary string.
+渡されたバイナリー文字列の英語の翻訳文を返してください。
 
 バイナリー文字列はスペースで区切られます。
 

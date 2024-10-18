@@ -8,7 +8,7 @@ dashedName: harshad-or-niven-series
 
 # --description--
 
-The Harshad or Niven numbers are positive integers ≥ 1 that are divisible by the sum of their digits.
+ハーシャッド数またはニーベン数とは、自身の各桁の和で割り切れる 1 以上の正の整数です。
 
 例えば、 `42` は、 `42` が `(4 + 2)` で割り切れるため、ハーシャッド数です。
 

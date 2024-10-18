@@ -8,7 +8,7 @@ dashedName: longest-common-subsequence
 
 # --description--
 
-The **longest common subsequence** (or **LCS**) of groups A and B is the longest group of elements from A and B that are common between the two groups and in the same order in each group. For example, the sequences `1234` and `1224533324` have an LCS of `1234`:
+グループ A および B の **最長共通部分列** (または **LCS**) とは、2 つのグループ間で共通していて、各グループで同じ順序である A および B の要素の最長グループです。 例えば、数列 `1234` と `1224533324` の LCS は `1234` です。
 
 <u>1234</u>
 
@@ -20,51 +20,51 @@ The **longest common subsequence** (or **LCS**) of groups A and B is the longest
 
 <u>t</u>e<u>s</u>t<u>i</u>ng123<u>test</u>ing
 
-Your code only needs to deal with strings.
+今回のコードでは文字列のみを扱います。
 
 # --instructions--
 
-Write a case-sensitive function that returns the LCS of two strings. You don't need to show multiple LCS's.
+2 つの文字列の LCS を返す関数 (大文字と小文字を区別する) を記述してください。 複数の LCS を表示する必要はありません。
 
 # --hints--
 
-`lcs` should be a function.
+`lcs` は関数とします。
 
 ```js
 assert(typeof lcs == 'function');
 ```
 
-`lcs("thisisatest", "testing123testing")` should return a string.
+`lcs("thisisatest", "testing123testing")` は文字列を返す必要があります。
 
 ```js
 assert(typeof lcs('thisisatest', 'testing123testing') == 'string');
 ```
 
-`lcs("thisisatest", "testing123testing")` should return `"tsitest"`.
+`lcs("thisisatest", "testing123testing")` は `"tsitest"` を返す必要があります。
 
 ```js
 assert.equal(lcs('thisisatest', 'testing123testing'), 'tsitest');
 ```
 
-`lcs("ABCDGH", "AEDFHR")` should return `"ADH"`.
+`lcs("ABCDGH", "AEDFHR")` は `"ADH"` を返す必要があります。
 
 ```js
 assert.equal(lcs('ABCDGH', 'AEDFHR'), 'ADH');
 ```
 
-`lcs("AGGTAB", "GXTXAYB")` should return `"GTAB"`.
+`lcs("AGGTAB", "GXTXAYB")` は `"GTAB"` を返す必要があります。
 
 ```js
 assert.equal(lcs('AGGTAB', 'GXTXAYB'), 'GTAB');
 ```
 
-`lcs("BDACDB", "BDCB")` should return `"BDCB"`.
+`lcs("BDACDB", "BDCB")` は `"BDCB"` を返す必要があります。
 
 ```js
 assert.equal(lcs('BDACDB', 'BDCB'), 'BDCB');
 ```
 
-`lcs("ABAZDC", "BACBAD")` should return `"ABAD"`.
+`lcs("ABAZDC", "BACBAD")` は `"ABAD"` を返す必要があります。
 
 ```js
 assert.equal(lcs('ABAZDC', 'BACBAD'), 'ABAD');

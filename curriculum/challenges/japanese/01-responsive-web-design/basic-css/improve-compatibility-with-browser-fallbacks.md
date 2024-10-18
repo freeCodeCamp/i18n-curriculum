@@ -1,6 +1,6 @@
 ---
 id: 5b7d72c338cd7e35b63f3e14
-title: Improve Compatibility with Browser Fallbacks
+title: ブラウザのフォールバックで互換性を向上させる
 challengeType: 0
 forumTopicId: 301087
 dashedName: improve-compatibility-with-browser-fallbacks
@@ -8,19 +8,19 @@ dashedName: improve-compatibility-with-browser-fallbacks
 
 # --description--
 
-When working with CSS you will likely run into browser compatibility issues at some point. This is why it's important to provide browser fallbacks to avoid potential problems.
+CSS の作業をしているうちに、いつかブラウザの互換性の問題に遭遇するでしょう。 そのため、潜在的な問題を回避するためにブラウザのフォールバックを提供することが重要です。
 
-When your browser parses the CSS of a webpage, it ignores any properties that it doesn't recognize or support. For example, if you use a CSS variable to assign a background color on a site, Internet Explorer will ignore the background color because it does not support CSS variables. In that case, the browser will use whatever value it has for that property. If it can't find any other value set for that property, it will revert to the default value, which is typically not ideal.
+ブラウザがウェブページの CSS を解析する際、認識できないプロパティやサポートされていないプロパティは無視されます。 例えば、CSS 変数を使用してサイトに背景色を割り当てている場合、Internet Explorer は CSS 変数をサポートしていないため、背景色を無視します。 その場合、ブラウザはそのプロパティに対して設定されている何らかの値を使用します。 そのプロパティに他の値の設定が見つからない場合はデフォルト値に戻ります。通常、これは理想的ではありません。
 
-This means that if you do want to provide a browser fallback, it's as easy as providing another more widely supported value immediately before your declaration. That way an older browser will have something to fall back on, while a newer browser will just interpret whatever declaration comes later in the cascade.
+つまり、ブラウザのフォールバックを提供したい場合には、ある宣言の直前にもっと広くサポートされている値を提供することで簡単に実現できます。 そのようにすれば古いブラウザは何かフォールバックとして使用するものがある状態になり、同時に新しいブラウザはその後の宣言を解釈するようになります。
 
 # --instructions--
 
-It looks like a variable is being used to set the background color of the `.red-box` class. Let's improve our browser compatibility by adding another `background` declaration right before the existing declaration and set its value to `red`.
+`.red-box` クラスの背景色を設定するために変数が使用されているようです。 既存の宣言の直前にもう一つ `background` 宣言を追加し、その値を `red` に設定することで、ブラウザの互換性を改善しましょう。
 
 # --hints--
 
-Your `.red-box` rule should include a fallback with the `background` set to `red` immediately before the existing `background` declaration.
+`.red-box` のルール内において、既存の `background` 宣言の直前に、`background` が `red` に設定されたフォールバックを追加してください。
 
 ```js
 assert(

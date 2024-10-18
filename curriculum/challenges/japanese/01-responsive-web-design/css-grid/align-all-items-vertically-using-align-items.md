@@ -9,7 +9,7 @@ dashedName: align-all-items-vertically-using-align-items
 
 # --description--
 
-Using the `align-items` property on a grid container will set the vertical alignment for all the items in our grid.
+グリッドコンテナーに `align-items` プロパティを使用すると、グリッド内のすべてのアイテムが垂直方向に整列します。
 
 # --instructions--
 

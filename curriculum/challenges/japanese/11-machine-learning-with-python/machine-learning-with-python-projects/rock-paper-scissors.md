@@ -8,7 +8,7 @@ dashedName: rock-paper-scissors
 
 # --description--
 
-For this challenge, you will create a program to play Rock, Paper, Scissors. A program that picks at random will usually win 50% of the time. To pass this challenge your program must play matches against four different bots, winning at least 60% of the games in each match.
+このチャレンジでは、じゃんけんするプログラムを作成します。 手をランダムに選択するプログラムの勝率は、通常は 50% になります。 このチャレンジを成功させるには、プログラムで 4 つの異なるボットを相手に試合を行う必要があり、各試合で 60％ 以上の勝率を達成しなければなりません。
 
 You will be <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-rock-paper-scissors/" target="_blank" rel="noopener noreferrer nofollow">working on this project with our Gitpod starter code</a>.
 
@@ -24,7 +24,7 @@ You will be <a href="https://gitpod.io/?autostart=true#https://github.com/freeCo
 
 *ヒント: 4 つすべての対戦相手に勝つためには、プログラムで複数の戦略を用意しておき、対戦相手のプレイに応じて変更する必要があります。*
 
-## Development
+## 開発
 
 `RPS_game.py` を変更しないでください。 あなたのコードはすべて `RPS.py` に記述してください。 開発には `main.py` を使用してコードをテストすることができます。
 
@@ -32,7 +32,7 @@ You will be <a href="https://gitpod.io/?autostart=true#https://github.com/freeCo
 
 コードをテストするには、`play` 関数を使用してゲームをプレイします。 `play` 関数は 4 つの引数を取ります:
 
-- two players to play against each other (the players are actually functions)
+- 互いに対戦する 2 人のプレーヤー (プレイヤーは実際には関数)
 - プレイするゲームの数
 - 各ゲームのログを表示するオプション引数。 `True` に設定するとそれらのメッセージが表示されます。
 

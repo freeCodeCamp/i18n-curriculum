@@ -8,7 +8,7 @@ dashedName: towers-of-hanoi
 
 # --description--
 
-Solve the Towers of Hanoi problem. The number of objects will be given as the first parameter, followed by the strings used to identify each stack of objects. Create a nested array containing the list of moves, `["source", "destination"]`.
+ハノイの塔の問題を解きます。 オブジェクトの数を第 1 パラメータとして指定し、その後にオブジェクトの各スタックを識別するのに使用する文字列を指定します。 移動回数のリストを含む、ネストされた配列 `["source", "destination"]` を作成します。
 
 たとえば、パラメータ `(4, 'A', 'B', 'C')` の結果は、ネストされた移動の配列 `[['A', 'C'], ['B', 'A']]` となります。これは、最初の移動でオブジェクトをスタック `A` から `C` に移動し、2 回目の移動でオブジェクトをスタック `B` から `A` に移動したことを示します。
 
@@ -36,7 +36,7 @@ assert(res3.length === 7);
 assert.deepEqual(towerOfHanoi(3, 'A', 'B', 'C'), res3Moves);
 ```
 
-`towerOfHanoi(5, "X", "Y", "Z")` 10th move should be Y -> X.
+`towerOfHanoi(5, "X", "Y", "Z")` の 10 番目の移動は Y -> X となる必要があります。
 
 ```js
 assert.deepEqual(res5[9], ['Y', 'X']);

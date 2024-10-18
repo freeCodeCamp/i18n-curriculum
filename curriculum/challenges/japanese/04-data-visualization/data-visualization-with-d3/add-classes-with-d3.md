@@ -1,6 +1,6 @@
 ---
 id: 587d7fa7367417b2b2512bc8
-title: Add Classes with D3
+title: D3 でクラスを追加する
 challengeType: 6
 forumTopicId: 301473
 dashedName: add-classes-with-d3
@@ -8,29 +8,29 @@ dashedName: add-classes-with-d3
 
 # --description--
 
-Using a lot of inline styles on HTML elements gets hard to manage, even for smaller apps. It's easier to add a class to elements and style that class one time using CSS rules. D3 has the `attr()` method to add any HTML attribute to an element, including a class name.
+HTML 要素に多くのインラインスタイルを使用すると、小さなアプリでも管理が難しくなります。 CSS ルールを使用して、要素にクラスを追加しそのクラスのスタイルを指定するという作業を一度だけ行う方が簡単です。 D3 には、任意の HTML 属性 (クラス名など) を要素に追加する `attr()` メソッドがあります。
 
-The `attr()` method works the same way that `style()` does. It takes comma-separated values, and can use a callback function. Here's an example to add a class of `container` to a selection:
+`attr()` メソッドは `style()` と同じように動作します。 このメソッドはカンマ区切りの値を取得します。また、コールバック関数を使用できます。 次のコードは、`container` のクラスを選択範囲に追加する例です。
 
 ```js
 selection.attr("class", "container");
 ```
 
-Note that the `class` parameter will remain the same whenever you need to add a class and only the `container` parameter will change.
+注意点として、クラスを追加する必要があり `container` パラメータのみが変更される場合は常に、`class` パラメータは同じままです。
 
 # --instructions--
 
-Add the `attr()` method to the code in the editor and put a class of `bar` on the `div` elements.
+エディタ内のコードに `attr()` メソッドを追加し、`div` 要素に `bar` のクラスを追加してください。
 
 # --hints--
 
-Your `div` elements should have a class of `bar`.
+`div` 要素には `bar` のクラスが必要です。
 
 ```js
 assert($('div').attr('class').trim().split(/\s+/g).includes('bar'));
 ```
 
-Your code should use the `attr()` method.
+`attr()` メソッドを使用する必要があります。
 
 ```js
 assert(code.match(/\.attr/g));

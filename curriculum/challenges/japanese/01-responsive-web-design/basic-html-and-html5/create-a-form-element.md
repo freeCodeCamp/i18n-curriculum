@@ -8,7 +8,7 @@ dashedName: create-a-form-element
 
 # --description--
 
-You can build web forms that actually submit data to a server using nothing more than pure HTML. You can do this by specifying an `action` attribute on your `form` element.
+純粋な HTML だけで、実際にデータをサーバーに送信するウェブフォームを作成できます。 そのためには、`form` 要素に `action` 属性を指定します。
 
 次に例を示します。
 

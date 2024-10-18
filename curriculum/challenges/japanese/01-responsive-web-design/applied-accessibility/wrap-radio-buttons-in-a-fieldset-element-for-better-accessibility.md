@@ -9,7 +9,7 @@ dashedName: wrap-radio-buttons-in-a-fieldset-element-for-better-accessibility
 
 # --description--
 
-The next form topic covers the accessibility of radio buttons. Each choice is given a `label` with a `for` attribute tying to the `id` of the corresponding item as covered in the last challenge. Since radio buttons often come in a group where the user must choose one, there's a way to semantically show the choices are part of a set.
+フォームの次のトピックとして、ラジオボタンのアクセシビリティについて説明します。 前回のチャレンジで説明したように、それぞれの選択肢には対応する項目の `id` に結び付く `for` 属性を持つ `label` が与えられます。 ラジオボタンは、ユーザーがどれか 1 つを選択する必要があるグループ内にあることが多いため、その選択肢がセットの一部であることを意味的に明示する方法があります。
 
 `fieldset` タグでラジオボタンのグループ全体を囲むのがその方法です。 `legend` タグはグループの説明を提供するために使用され、スクリーンリーダーは `fieldset` 要素内の各選択肢と一緒にこの説明を読み上げます。
 

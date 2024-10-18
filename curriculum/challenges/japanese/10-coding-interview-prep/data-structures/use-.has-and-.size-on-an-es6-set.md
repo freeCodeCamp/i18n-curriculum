@@ -1,6 +1,6 @@
 ---
 id: 587d8255367417b2b2512c72
-title: Use .has and .size on an ES6 Set
+title: ES6 Set に .has と .size を使用する
 challengeType: 1
 forumTopicId: 301717
 dashedName: use--has-and--size-on-an-es6-set
@@ -8,21 +8,21 @@ dashedName: use--has-and--size-on-an-es6-set
 
 # --description--
 
-Let's look at the .has and .size methods available on the ES6 Set object.
+ES6 Set オブジェクトで利用できる .has メソッドと .size メソッドを見てみましょう。
 
-First, create an ES6 Set
+まず、ES6 Set を作成します。
 
 ```js
 var set = new Set([1,2,3]);
 ```
 
-The .has method will check if the value is contained within the set.
+.has メソッドは、その値がセットに含まれているかどうかを調べます。
 
 ```js
 var hasTwo = set.has(2);
 ```
 
-The .size method will return an integer representing the size of the Set
+.size メソッドは、セットのサイズを表す整数を返します。
 
 ```js
 var howBig = set.size;
@@ -30,11 +30,11 @@ var howBig = set.size;
 
 # --instructions--
 
-In this exercise we will pass an array and a value to the checkSet() function. Your function should create an ES6 set from the array argument. Find if the set contains the value argument. Find the size of the set. And return those two values in an array.
+この課題では、checkSet() 関数に配列と値を渡します。 この関数は配列引数から ES6 Set を作成します。 値の引数がセットに含まれているかどうかを調べてください。 セットのサイズを求めてください。 そして、配列内のこれら 2 つの値を返してください。
 
 # --hints--
 
-`checkSet([4, 5, 6], 3)` should return [ false, 3 ]
+`checkSet([4, 5, 6], 3)` は [false, 3 ] を返す必要があります
 
 ```js
 assert(

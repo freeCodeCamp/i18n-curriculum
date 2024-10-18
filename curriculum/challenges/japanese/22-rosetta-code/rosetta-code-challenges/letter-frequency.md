@@ -8,7 +8,7 @@ dashedName: letter-frequency
 
 # --description--
 
-Given a string, calculate the frequency of each character.
+与えられた文字列で、各文字の出現頻度を計算します。
 
 すべての文字を数える必要があります。 これには、小文字・大文字、数字、空白、特殊文字、その他のあらゆる記号などが含まれます。
 

@@ -8,7 +8,7 @@ dashedName: understand-the-immediately-invoked-function-expression-iife
 
 # --description--
 
-A common pattern in JavaScript is to execute a function as soon as it is declared:
+JavaScript では、関数を宣言したらすぐに実行するというのが一般的なパターンです。
 
 ```js
 (function () {

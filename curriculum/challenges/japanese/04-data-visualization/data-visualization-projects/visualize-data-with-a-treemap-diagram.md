@@ -1,6 +1,6 @@
 ---
 id: 587d7fa6367417b2b2512bc0
-title: Visualize Data with a Treemap Diagram
+title: ツリーマップ図でデータを可視化する
 challengeType: 3
 forumTopicId: 301468
 dashedName: visualize-data-with-a-treemap-diagram
@@ -8,39 +8,39 @@ dashedName: visualize-data-with-a-treemap-diagram
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://treemap-diagram.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://treemap-diagram.freecodecamp.rocks</a>.
+**目標:** こちらと似た機能を持つアプリを構築してください: <a href="https://treemap-diagram.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://treemap-diagram.freecodecamp.rocks</a>
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+以下のユーザーストーリーを満たし、すべてのテストが成功するようにしてください。 必要に応じて、どのようなライブラリあるいは API を使用してもかまいません。 あなた独自のアレンジを加えましょう。
 
-You can use HTML, JavaScript, CSS, and the D3 svg-based visualization library. The tests require axes to be generated using the D3 axis property, which automatically generates ticks along the axis. These ticks are required for passing the D3 tests because their positions are used to determine alignment of graphed elements. You will find information about generating axes at <https://d3js.org/d3-axis>. Required DOM elements are queried on the moment of each test. If you use a frontend framework (like Vue for example), the test results may be inaccurate for dynamic content. We hope to accommodate them eventually, but these frameworks are not currently supported for D3 projects.
+HTML、JavaScript、CSS、および D3 の SVG ベースのビジュアライゼーションライブラリを使用できます。 テストでは、軸に沿って自動的に目盛りを生成する D3 軸プロパティを使用して軸を生成する必要があります。 グラフ化された要素の配置を調べるために目盛りの位置が使用されるので、D3 テストを成功させるためにはこの目盛りが必要です。 You will find information about generating axes at <https://d3js.org/d3-axis>. Required DOM elements are queried on the moment of each test. フロントエンドフレームワーク (例えば Vue など) を使用した場合、動的なコンテンツではテスト結果が不正確になる可能性があります。 最終的には対応したいと考えていますが、現在の D3 プロジェクトではこれらのフレームワークはサポートされていません。
 
-**User Story #1:** My tree map should have a title with a corresponding `id="title"`.
+**ユーザーストーリー #1:** 私のツリーマップには、タイトルとそれに対応する `id="title"` が必要です。
 
-**User Story #2:** My tree map should have a description with a corresponding `id="description"`.
+**ユーザーストーリー #2:** 私のツリーマップには、説明とそれに対応する `id="description"` が必要です。
 
-**User Story #3:** My tree map should have `rect` elements with a corresponding `class="tile"` that represent the data.
+**ユーザーストーリー #3:** 私のツリーマップには、`rect` 要素と、それに対応してデータを表す `class="tile"` が必要です。
 
-**User Story #4:** There should be at least 2 different fill colors used for the tiles.
+**ユーザーストーリー #4:** タイルの塗りつぶしに使用する色が 2 種類以上必要です。
 
-**User Story #5:** Each tile should have the properties `data-name`, `data-category`, and `data-value` containing their corresponding `name`, `category`, and `value`.
+**ユーザーストーリー #5:** 各タイルには、対応する `name`、`category`、`value` をそれぞれ格納している `data-name` プロパティ、`data-category` プロパティ、および `data-value` プロパティが必要です。
 
-**User Story #6:** The area of each tile should correspond to the `data-value` amount: tiles with a larger `data-value` should have a bigger area.
+**ユーザーストーリー #6:** 各タイルの面積は `data-value` の量に対応していなければなりません。タイルの `data-value` が大きいほど面積も大きくなっている必要があります。
 
-**User Story #7:** My tree map should have a legend with corresponding `id="legend"`.
+**ユーザーストーリー #7:** 私のツリーマップには、凡例とそれに対応する `id="legend"` が必要です。
 
-**User Story #8:** My legend should have `rect` elements with a corresponding `class="legend-item"`.
+**ユーザーストーリー #8:** 私の凡例には、`rect` 要素とそれに対応する `class="legend-item"` が必要です。
 
-**User Story #9:** The `rect` elements in the legend should use at least 2 different fill colors.
+**ユーザーストーリー #9: 凡例の ** `rect` 要素には、2 種類以上の塗りつぶし色を使用する必要があります。
 
-**User Story #10:** I can mouse over an area and see a tooltip with a corresponding `id="tooltip"` which displays more information about the area.
+**ユーザーストーリー #10:**マウスをエリアの上に移動させ、エリアについての更なる情報を表示する `id="tooltip"` に対応したツールチップを表示できます。
 
-**User Story #11:** My tooltip should have a `data-value` property that corresponds to the `data-value` of the active area.
+**ユーザーストーリー #11:** 私のツールチップには、アクティブな領域の `data-value` に対応する `data-value` プロパティが必要です。
 
-For this project you can use any of the following datasets:
+このプロジェクトでは、以下のいずれかのデータセットを使用できます。
 
--   **Kickstarter Pledges:** `https://cdn.freecodecamp.org/testable-projects-fcc/data/tree_map/kickstarter-funding-data.json`
--   **Movie Sales:** `https://cdn.freecodecamp.org/testable-projects-fcc/data/tree_map/movie-data.json`
--   **Video Game Sales:** `https://cdn.freecodecamp.org/testable-projects-fcc/data/tree_map/video-game-sales-data.json`
+-   **キックスタータープレッジ:** `https://cdn.freecodecamp.org/testable-projects-fcc/data/tree_map/kickstarter-funding-data.json`
+-   **ムービーセールス:** `https://cdn.freecodecamp.org/testable-projects-fcc/data/tree_map/movie-data.json`
+-   **ビデオゲームセールス:** `https://cdn.freecodecamp.org/testable-projects-fcc/data/tree_map/video-game-sales-data.json`
 
 <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">この CodePen テンプレートを使用して</a>あなたのプロジェクトを構築することができます。`Save` をクリックすると、あなた用の pen を作成することができます。 または、下記の CDN リンクを使用して、使い慣れている環境でテストを実行することもできます: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
 

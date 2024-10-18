@@ -8,7 +8,7 @@ dashedName: knapsack-problemunbounded
 
 # --description--
 
-A traveler gets diverted and has to make an unscheduled stop in what turns out to be Shangri-La. Opting to leave, he is allowed to take as much as he likes of the items available there, so long as it will fit in his knapsack, and he can carry it.
+ある旅人が道から外れ、予定外の場所に立ち寄ることを余儀なくされたところ、そこは理想郷だったのです。 その地を離れるにあたり、そこで入手できるアイテムを好きなだけ、ナップサックに入れて運べる限り持って行くことを許されています。
 
 旅人は、合計で最大重量を超えるものを運ぶことができないことを知っていますし、ナップサックの容量は限られています。
 

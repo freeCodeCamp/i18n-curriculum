@@ -1,6 +1,6 @@
 ---
 id: 5e9a0e9ef99a403d019610cc
-title: Deep Learning Demystified
+title: ディープラーニングとは
 challengeType: 11
 videoId: bejQ-W9BGJg
 dashedName: deep-learning-demystified
@@ -10,23 +10,23 @@ dashedName: deep-learning-demystified
 
 ## --text--
 
-How should you assign weights to input neurons before training your network for the first time?
+初めてネットワークをトレーニングする前に、入力ニューロンに割り当てる必要がある重みはどれですか？
 
 ## --answers--
 
-From smallest to largest.
+最小から最大まで。
 
 ---
 
-Completely randomly.
+完全にランダム。
 
 ---
 
-Alphabetically.
+アルファベット順。
 
 ---
 
-None of the above.
+上記のいずれでもない。
 
 ## --video-solution--
 

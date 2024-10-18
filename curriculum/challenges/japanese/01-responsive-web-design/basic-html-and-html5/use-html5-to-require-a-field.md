@@ -9,7 +9,7 @@ dashedName: use-html5-to-require-a-field
 
 # --description--
 
-You can require specific form fields so that your user will not be able to submit your form until he or she has filled them out.
+ユーザーがその項目を入力するまでフォームを送信できないように、特定のフォームフィールドを必須とすることができます。
 
 例えば、テキスト入力フィールドを必須にしたい場合、次のように `required` 属性を `input` 要素に追加します: `<input type="text" required>`
 

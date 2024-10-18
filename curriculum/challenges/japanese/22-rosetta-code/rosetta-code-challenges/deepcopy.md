@@ -8,12 +8,12 @@ dashedName: deepcopy
 
 # --description--
 
-Write a function that returns a deep copy of a given object. The copy must not be the same object that was given.
+与えられたオブジェクトのディープコピーを返す関数を作成します。 コピーは与えられたオブジェクトと同じであってはなりません。
 
 このタスクは次のものをテストするものではありません。
 
 <ul>
-  <li>Objects with properties that are functions</li>
+  <li>関数のプロパティを持つオブジェクト</li>
   <li>日付オブジェクト、または日付オブジェクトであるプロパティを持つオブジェクト</li>
   <li>RegEx、またはRegExオブジェクトであるプロパティを持つオブジェクト</li>
   <li>プロトタイプのコピー</li>

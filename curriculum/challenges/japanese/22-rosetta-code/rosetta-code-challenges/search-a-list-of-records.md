@@ -8,7 +8,7 @@ dashedName: search-a-list-of-records
 
 # --description--
 
-A record consists of attributes that describe an entity. Each attribute has a name and a value. For example, a person can have an attribute `age` with a value of 25. An important operation on a list of records is to find a record with a particular attribute value.
+レコードはエンティティを記述する複数の属性で構成されます。 各属性には名前と値があります。 たとえば、ある人は値が 25 である属性 `age` を持つなどです。 レコードのリストで重要な操作は、特定の属性値を持つレコードを見つけることです。
 
 # --instructions--
 

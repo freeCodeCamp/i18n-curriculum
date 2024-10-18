@@ -8,7 +8,7 @@ dashedName: use-the-some-method-to-check-that-any-elements-in-an-array-meet-a-cr
 
 # --description--
 
-The `some` method works with arrays to check if *any* element passes a particular test. It returns a Boolean value - `true` if any of the values meet the criteria, `false` if not.
+`some` メソッドは配列と連携して機能し、*いずれかの*要素が特定のテストを満たすかどうかを調べます。 いずれかの値が基準を満たしている場合は、ブール値 `true` を返します。そうでない場合は、`false` を返します。
 
 たとえば、次のコードは `numbers` 配列のいずれかの要素が 10 未満であるかどうかを調べます。
 

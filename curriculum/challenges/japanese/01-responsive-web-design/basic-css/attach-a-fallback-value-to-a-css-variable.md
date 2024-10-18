@@ -1,6 +1,6 @@
 ---
 id: 5a9d7286424fe3d0e10cad13
-title: Attach a Fallback value to a CSS Variable
+title: CSS 変数にフォールバック値を追加する
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/c6bDNfp'
 forumTopicId: 301084
@@ -9,25 +9,25 @@ dashedName: attach-a-fallback-value-to-a-css-variable
 
 # --description--
 
-When using your variable as a CSS property value, you can attach a fallback value that your browser will revert to if the given variable is invalid.
+CSS プロパティの値として変数を使用する場合、指定された変数が無効な場合にブラウザが代わりに使用するフォールバック値を付けることができます。
 
-**Note:** This fallback is not used to increase browser compatibility, and it will not work on IE browsers. Rather, it is used so that the browser has a color to display if it cannot find your variable.
+**注:** このフォールバックはブラウザの互換性を高めるためのものではなく、また IE では動作しません。 むしろ、ブラウザが変数を見つけられない場合に表示する色を持つようにするために使用されます。
 
-Here's how you do it:
+方法は次のとおりです:
 
 ```css
 background: var(--penguin-skin, black);
 ```
 
-This will set background to `black` if your variable wasn't set. Note that this can be useful for debugging.
+これで、もし変数が設定されていなかった場合に背景色を `black` にすることができます。 これがデバッグに役立つことに注目してください。
 
 # --instructions--
 
-It looks like there is a problem with the variables supplied to the `.penguin-top` and `.penguin-bottom` classes. Rather than fix the typo, add a fallback value of `black` to the `background` property of the `.penguin-top` and `.penguin-bottom` classes.
+`.penguin-top` クラスと `.penguin-bottom` クラスに与えられている変数に問題があるようですね。 誤字を直すのではなく、`.penguin-top` クラスと `.penguin-bottom` クラスの `background` プロパティにフォールバック値 `black` を追加してみましょう。
 
 # --hints--
 
-The fallback value of `black` should be used in the `background` property of the `penguin-top` class.
+`penguin-top` クラスの `background` プロパティのフォールバック値に `black` を使用してください。
 
 ```js
 assert(
@@ -37,7 +37,7 @@ assert(
 );
 ```
 
-The fallback value of `black` should be used in `background` property of the `penguin-bottom` class.
+`penguin-bottom` クラスの `background` プロパティのフォールバック値に `black` を使用してください。
 
 ```js
 assert(

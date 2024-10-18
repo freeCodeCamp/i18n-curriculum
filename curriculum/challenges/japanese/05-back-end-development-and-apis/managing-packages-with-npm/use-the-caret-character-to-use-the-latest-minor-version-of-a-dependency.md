@@ -8,7 +8,7 @@ dashedName: use-the-caret-character-to-use-the-latest-minor-version-of-a-depende
 
 # --description--
 
-Similar to how the tilde we learned about in the last challenge allows npm to install the latest PATCH for a dependency, the caret (`^`) allows npm to install future updates as well. The difference is that the caret will allow both MINOR updates and PATCHes.
+前回のチャレンジで学んだチルダと同じように、npm では依存関係の最新の PATCH をインストールできます。npm でキャレット (`^`) を使用すると、将来のアップデートもインストールできます。 両者の違いは、キャレットでは MINOR アップデートと PATCH の両方が可能であることです。
 
 Your current version of `@freecodecamp/example` should be `~1.2.13` which allows npm to install to the latest `1.2.x` version. If you were to use the caret (^) as a version prefix instead, npm would be allowed to update to any `1.x.x` version.
 

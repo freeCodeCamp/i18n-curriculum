@@ -9,7 +9,7 @@ dashedName: modify-array-data-with-indexes
 
 # --description--
 
-Unlike strings, the entries of arrays are <dfn>mutable</dfn> and can be changed freely, even if the array was declared with `const`.
+文字列とは異なり、配列の項目は<dfn>ミュータブル</dfn>であり、配列が `const` で宣言されている場合であっても自由に変更することができます。
 
 **例**
 

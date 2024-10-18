@@ -1,6 +1,6 @@
 ---
 id: 5690307fddb111c6084545d7
-title: Logical Order in If Else Statements
+title: if else ステートメントの論理的順序
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cwNvMUV'
 forumTopicId: 18228
@@ -9,13 +9,13 @@ dashedName: logical-order-in-if-else-statements
 
 # --description--
 
-Order is important in `if`, `else if` statements.
+`if` ステートメント、`else if` ステートメントでは、順序が重要です。
 
-The function is executed from top to bottom so you will want to be careful of what statement comes first.
+関数は上から下へと実行されるので、どのステートメントが先に来るかに気をつけるようにしてください。
 
-Take these two functions as an example.
+例として 2 つの関数を考えてみましょう。
 
-Here's the first:
+まず 1 つ目です。
 
 ```js
 function foo(x) {
@@ -29,7 +29,7 @@ function foo(x) {
 }
 ```
 
-And the second just switches the order of the statements:
+2 つ目は 1 つ目のステートメントの順序を入れ替えただけのものです。
 
 ```js
 function bar(x) {
@@ -43,34 +43,34 @@ function bar(x) {
 }
 ```
 
-While these two functions look nearly identical if we pass a number to both we get different outputs.
+これら 2 つの関数は見かけはほとんど同じですが、両方に数値を渡すと異なる出力が得られます。
 
 ```js
 foo(0)
 bar(0)
 ```
 
-`foo(0)` will return the string `Less than one`, and `bar(0)` will return the string `Less than two`.
+`foo(0)` は文字列 `Less than one` を返し、`bar(0)` は文字列 `Less than two` を返します。
 
 # --instructions--
 
-Change the order of logic in the function so that it will return the correct statements in all cases.
+すべてのケースで適切なステートメントを返すように、関数内のロジックの順序を変更してください。
 
 # --hints--
 
-`orderMyLogic(4)` should return the string `Less than 5`
+`orderMyLogic(4)` は文字列 `Less than 5` を返す必要があります。
 
 ```js
 assert(orderMyLogic(4) === 'Less than 5');
 ```
 
-`orderMyLogic(6)` should return the string `Less than 10`
+`orderMyLogic(6)` は文字列 `Less than 10` を返す必要があります。
 
 ```js
 assert(orderMyLogic(6) === 'Less than 10');
 ```
 
-`orderMyLogic(11)` should return the string `Greater than or equal to 10`
+`orderMyLogic(11)` は文字列 `Greater than or equal to 10` を返す必要があります。
 
 ```js
 assert(orderMyLogic(11) === 'Greater than or equal to 10');

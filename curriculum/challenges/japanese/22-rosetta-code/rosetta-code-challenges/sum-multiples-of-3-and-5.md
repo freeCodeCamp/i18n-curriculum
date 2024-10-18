@@ -8,7 +8,7 @@ dashedName: sum-multiples-of-3-and-5
 
 # --description--
 
-The objective is to write a function that finds the sum of all positive multiples of 3 or 5 below *n*.
+目標は、 *n* 未満の 3 または 5 のすべての正の倍数の和を求める関数を記述することです。
 
 # --hints--
 

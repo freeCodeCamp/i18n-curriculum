@@ -8,7 +8,7 @@ dashedName: jaro-distance
 
 # --description--
 
-The Jaro distance is a measure of similarity between two strings. The higher the Jaro distance for two strings is, the more similar the strings are. The score is normalized such that `0` equates to no similarity and `1` is an exact match.
+ジャロ距離は、2 つの文字列の類似性を測る尺度です。 2 つの文字列のジャロ距離が大きいほど、類似性が高くなります。 スコアは、`0` は類似性がなく、`1` は完全一致であるように正規化されています。
 
 **定義**
 
@@ -19,8 +19,8 @@ The Jaro distance is a measure of similarity between two strings. The higher the
 ここでは、
 
 <ul>
-  <li>\(m\) is the number of <i>matching characters</i>;</li>
-  <li> \(t\) is half the number of <i>transpositions</i>.</li>
+  <li>\(m\) は <i>一致する文字数 </i> です。</li>
+  <li> \(t\) は <i>転置</i> の半数です。</li>
 </ul>
 
 \\(s_1\\) および \\(s_2\\) の2つの文字はそれぞれ、同じか、\\(\\left\\lfloor\\frac{\\max(|s_1|,|s_2|)}{2}\\right\\rfloor-1\\) よりも離れていない場合にのみ*一致している*とみなされます。

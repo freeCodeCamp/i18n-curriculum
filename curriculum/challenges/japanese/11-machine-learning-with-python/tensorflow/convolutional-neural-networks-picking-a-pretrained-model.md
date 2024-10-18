@@ -1,6 +1,6 @@
 ---
 id: 5e8f2f13c4cdbe86b5c72d9a
-title: 'Convolutional Neural Networks: Picking a Pretrained Model'
+title: '畳み込みニューラルネットワーク: 事前トレーニングされたモデルの選択'
 challengeType: 11
 videoId: h1XUt1AgIOI
 bilibiliIds:
@@ -14,7 +14,7 @@ dashedName: convolutional-neural-networks-picking-a-pretrained-model
 
 ## --text--
 
-Fill in the blanks below to use Google's pre-trained MobileNet V2 model as a base for a convolutional neural network:
+Google の事前トレーニングされた MobileNet V2 モデルを畳み込みニューラルネットワークのベースとして使用できるように、次の空欄を埋めてください。
 
 ```py
 base_model = tf.__A__.applications.__B__(input_shape=(160, 160, 3),

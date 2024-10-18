@@ -8,7 +8,7 @@ dashedName: invert-a-binary-tree
 
 # --description--
 
-Here will we create a function to invert a binary tree. Given a binary tree, we want to produce a new tree that is equivalently the mirror image of this tree. Running an inorder traversal on an inverted tree will explore the nodes in reverse order when compared to the inorder traversal of the original tree. Write a method to do this called `invert` on our binary tree. Calling this method should invert the current tree structure. Ideally, we would like to do this in-place in linear time. That is, we only visit each node once and we modify the existing tree structure as we go, without using any additional memory. Good luck!
+ここでは、二分木を反転させる関数を作成します。 与えられた二分木の左右を逆にして新しい木を作りましょう。 反転した木で通りがけ順走査を実行すると、元の木の通りがけ順走査とは逆の順にノードが探索されます。 これを行うための `invert` と呼ばれるメソッドを二分木に対して記述してください。 このメソッドを呼び出すことで現在のツリー構造が反転する必要があります。 線形時間計算量でこれをそのまま行えるのが理想です。 つまり、各ノードを 1 回訪れ、追加のメモリを使用せずに、走査しながら既存のツリー構造を変更します。 頑張ってください！
 
 # --hints--
 

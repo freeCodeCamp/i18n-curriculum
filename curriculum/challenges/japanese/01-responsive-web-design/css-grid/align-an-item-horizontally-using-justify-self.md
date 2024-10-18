@@ -9,7 +9,7 @@ dashedName: align-an-item-horizontally-using-justify-self
 
 # --description--
 
-In CSS Grid, the content of each item is located in a box which is referred to as a <dfn>cell</dfn>. You can align the content's position within its cell horizontally using the `justify-self` property on a grid item. By default, this property has a value of `stretch`, which will make the content fill the whole width of the cell. This CSS Grid property accepts other values as well:
+CSS グリッドでは、各アイテムのコンテンツは<dfn>セル</dfn>と呼ばれるボックス内に配置されます。 グリッドアイテムの `justify-self` プロパティを使用して、セル内でのコンテンツの水平方向の位置を揃えることができます。 デフォルトでは、このプロパティの値は `stretch` なので、コンテンツはセル全体の幅を埋めるようになります。 この CSS グリッドプロパティは他の値も受け付けます:
 
 `start`: セルの左側にコンテンツを揃えます。
 

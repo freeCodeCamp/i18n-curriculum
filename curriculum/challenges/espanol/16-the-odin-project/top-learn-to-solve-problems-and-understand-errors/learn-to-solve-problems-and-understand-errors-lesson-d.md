@@ -11,7 +11,7 @@ Leer y comprender los mensajes de error es un requisito como desarrollador. A pr
 
 Sin embargo, los mensajes de error proporcionan a los desarrolladores un tesoro de conocimiento, y te dicen todo lo que necesitas saber sobre cómo resolverlos! Poder analizar los mensajes de error y advertencias sin miedo te permitirá depurar eficazmente tus aplicaciones, recibir ayuda significativa de otros y capacitarte para seguir avanzando cuando te enfrentes a un error.
 
-# --preguntas----preguntas--
+# --questions--
 
 ## --text--
 

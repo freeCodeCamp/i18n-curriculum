@@ -8,7 +8,7 @@ dashedName: telephone-number-validator
 
 # --description--
 
-Return `true` if the passed string looks like a valid US phone number.
+関数に渡された文字列が有効な米国の電話番号と思われる場合は、`true` を返してください。
 
 ユーザーは、有効な米国番号の形式になっている限り、任意の方法でフォームフィールドに入力することができます。 米国の電話番号の有効な形式の例を以下に示します (他のバリエーションについては、下のテストを参照してください)。
 

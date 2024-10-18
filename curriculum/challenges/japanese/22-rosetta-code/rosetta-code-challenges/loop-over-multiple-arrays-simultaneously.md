@@ -8,7 +8,7 @@ dashedName: loop-over-multiple-arrays-simultaneously
 
 # --description--
 
-Loop over multiple arrays and create a new array whose $i^{th}$ element is the concatenation of $i^{th}$ element of each of the given.
+複数の配列にループ処理を行い、与えられた各配列の $i$ 番目の要素を連結した物を $i$ 番目の要素として持つ新しい配列を作成します。
 
 以下の例では、次の配列の配列が与えられています。
 

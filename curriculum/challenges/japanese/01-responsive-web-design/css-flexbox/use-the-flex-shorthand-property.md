@@ -9,7 +9,7 @@ dashedName: use-the-flex-shorthand-property
 
 # --description--
 
-There is a shortcut available to set several flex properties at once. The `flex-grow`, `flex-shrink`, and `flex-basis` properties can all be set together by using the `flex` property.
+複数のフレックスプロパティを一度に設定するためのショートカットがあります。 `flex-grow`、`flex-shrink`、`flex-basis` プロパティは、`flex` プロパティを使用することで一括設定することが可能です。
 
 例えば、アイテムに `flex: 1 0 10px;` と設定すると、これは `flex-grow: 1;`、`flex-shrink: 0;`、`flex-basis: 10px;` と同じ設定になります。
 

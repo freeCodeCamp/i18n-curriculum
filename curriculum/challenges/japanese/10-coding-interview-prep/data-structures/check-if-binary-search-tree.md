@@ -8,7 +8,7 @@ dashedName: check-if-tree-is-binary-search-tree
 
 # --description--
 
-Since you already know what a binary search tree is, this challenge will establish how it is you can tell that a tree is a binary search tree or not.
+二分探索木がどのようなものかはもう分かったので、このチャレンジでは、ある木が二分探索木であるかどうかを知る方法を学びます。
 
 二分探索木の主な特徴は、ノードが整然と順序付けられることです。 ノードは、子ノードの値が親ノード以上なのか (右)、親ノードより小さいのか (左) に基づいて、最大 2 つの子ノード (右か左、またはその両方) を持ちます。
 

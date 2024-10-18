@@ -9,7 +9,7 @@ dashedName: subtract-one-number-from-another-with-javascript
 
 # --description--
 
-We can also subtract one number from another.
+ある数値から別の数値を引き算することもできます。
 
 JavaScript では減算記号として `-` を使用します。
 

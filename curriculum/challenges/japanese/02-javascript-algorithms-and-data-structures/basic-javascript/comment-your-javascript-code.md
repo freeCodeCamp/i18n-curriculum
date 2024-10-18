@@ -9,7 +9,7 @@ dashedName: comment-your-javascript-code
 
 # --description--
 
-Comments are lines of code that JavaScript will intentionally ignore. Comments are a great way to leave notes to yourself and to other people who will later need to figure out what that code does.
+コメントとは、JavaScript が意図的にコードを無視する行です。 コメントは、そのコードが何をするかを後で自分自身や他の人が把握するためにメモを残すために最適な方法です。
 
 JavaScript でコメントを書く方法は 2 つあります。
 

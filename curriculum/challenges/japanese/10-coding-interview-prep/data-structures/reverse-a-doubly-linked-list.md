@@ -8,7 +8,7 @@ dashedName: reverse-a-doubly-linked-list
 
 # --description--
 
-Let's create one more method for our doubly linked list called reverse which reverses the list in place. Once the method is executed the head should point to the previous tail and the tail should point to the previous head. Now, if we traverse the list from head to tail we should meet the nodes in a reverse order compared to the original list. Trying to reverse an empty list should return null.
+二重リンクリストに対して、通りがけ順にリストを逆にする reverse というメソッドを作りましょう。 このメソッドが実行されると、ヘッドは以前のテールを指し、テールは以前のヘッドを指します。 こうすると、ヘッドからテールまでリストを走査したときに、元のリストとは逆の順序でノードを訪問することになります。 空のリストを逆順にしようとすると、null が返される必要があります。
 
 # --hints--
 

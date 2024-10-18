@@ -1,6 +1,6 @@
 ---
 id: a3566b1109230028080c9345
-title: Sum All Numbers in a Range
+title: 範囲内のすべての数値を合計する
 challengeType: 1
 forumTopicId: 16083
 dashedName: sum-all-numbers-in-a-range
@@ -8,37 +8,37 @@ dashedName: sum-all-numbers-in-a-range
 
 # --description--
 
-We'll pass you an array of two numbers. Return the sum of those two numbers plus the sum of all the numbers between them. The lowest number will not always come first.
+２つの数字の配列が渡されます。 それら 2 つの数の和と、2 つの間にあるすべての数の和との合計を返してください。 最も小さい数字が常に最初に来るとは限りません。
 
-For example, `sumAll([4,1])` should return `10` because sum of all the numbers between 1 and 4 (both inclusive) is `10`.
+たとえば、`sumAll([4,1])` は `10` を返す必要があります。なぜなら、1 と 4 (両方を含む) の間にあるすべての数の合計は `10` になるからです。
 
 # --hints--
 
-`sumAll([1, 4])` should return a number.
+`sumAll([1, 4])` は数値を返す必要があります。
 
 ```js
 assert(typeof sumAll([1, 4]) === 'number');
 ```
 
-`sumAll([1, 4])` should return 10.
+`sumAll([1, 4])` は 10 を返す必要があります。
 
 ```js
 assert.deepEqual(sumAll([1, 4]), 10);
 ```
 
-`sumAll([4, 1])` should return 10.
+`sumAll([4, 1])` は 10 を返す必要があります。
 
 ```js
 assert.deepEqual(sumAll([4, 1]), 10);
 ```
 
-`sumAll([5, 10])` should return 45.
+`sumAll([5, 10])` は 45 を返す必要があります。
 
 ```js
 assert.deepEqual(sumAll([5, 10]), 45);
 ```
 
-`sumAll([10, 5])` should return 45.
+`sumAll([10, 5])` は 45 を返す必要があります。
 
 ```js
 assert.deepEqual(sumAll([10, 5]), 45);

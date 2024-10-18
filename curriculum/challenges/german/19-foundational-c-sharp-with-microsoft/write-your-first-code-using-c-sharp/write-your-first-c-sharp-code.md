@@ -12,7 +12,7 @@ Diese Aufgabe wird teilweise auf der Microsoft Learn Plattform erledigt. Folge d
 1. Gehe auf <a href="https://learn.microsoft.com/training/modules/csharp-write-first/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/csharp-write-first/</a> und löse alle Aufgaben im Modul "Schreibe deinen ersten C#-Code". Dies ist **erforderlich**, um die Trophäe " Schreibe deinen ersten Code mit C#" auf Microsoft Learn zu erhalten und sich für die Zertifizierungsprüfung zu qualifizieren.
 1. Wenn du damit fertig bist, komme zurück und beantworte die folgende Frage richtig.
 
-# --Auftrag--
+# --assignment--
 
 Schließe das Modul <a href="https://learn.microsoft.com/training/modules/csharp-write-first/" target="_blank" rel="noreferrer">Schreibe deinen ersten C#-Code</a> auf Microsoft Learn ab. Beantworte dann die Frage unten.
 

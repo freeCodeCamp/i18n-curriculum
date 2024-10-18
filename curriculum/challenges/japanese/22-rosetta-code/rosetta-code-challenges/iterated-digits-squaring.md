@@ -8,7 +8,7 @@ dashedName: iterated-digits-squaring
 
 # --description--
 
-If you add the square of the digits of a Natural number (an integer bigger than zero), you always end with either 1 or 89:
+自然数 (0より大きい整数) の各位を 2 乗して足すと、やがて、常に 1 か 89 になります。
 
 <pre>15 -> 26 -> 40 -> 16 -> 37 -> 58 -> 89
 7 -> 49 -> 97 -> 130 -> 10 -> 1

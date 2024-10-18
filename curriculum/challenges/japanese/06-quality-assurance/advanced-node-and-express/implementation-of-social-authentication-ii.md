@@ -8,7 +8,7 @@ dashedName: implementation-of-social-authentication-ii
 
 # --description--
 
-The last part of setting up your GitHub authentication is to create the strategy itself. `passport-github@~1.1.0` has already been added as a dependency, so require it in your `auth.js` file as `GithubStrategy` like this: `const GitHubStrategy = require('passport-github').Strategy;`. Do not forget to require and configure `dotenv` to use your environment variables.
+GitHub 認証の最後の設定作業として、ストラテジーそのものを作成します。 すでに `passport-github@~1.1.0` が依存関係として追加されているので、次のように `auth.js` ファイルで `GithubStrategy` として require します: `const GitHubStrategy = require('passport-github').Strategy;`。 環境変数を使用できるように、`dotenv` の require と設定を忘れないでください。
 
 GitHub ストラテジーを設定するには、インスタンス化された `GitHubStrategy` を使用するよう Passport に指示する必要があります。これは 2 つの引数を受け取ります。1 つはオブジェクト (`clientID`、`clientSecret` および `callbackURL` を含む) で、もう 1 つはユーザーが正常に認証されたときに呼び出される関数です。この関数は、ユーザーが新規かどうかを判断し、ユーザーのデータベースオブジェクトに最初にどのフィールドを保存するかを決めます。 この手順は多くのストラテジーで一般的ですが、特定のストラテジーの GitHub README に概説されているように、より多くの情報が必要な場合もあります。 たとえば、Google では*スコープ*も必要です。スコープは、リクエストがどのような種類の情報を返すよう求めているのかを判断し、そのようなアクセスを承認するようユーザーに求めます。
 

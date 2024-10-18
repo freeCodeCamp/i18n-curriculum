@@ -9,7 +9,7 @@ dashedName: practice-comparing-different-values
 
 # --description--
 
-In the last two challenges, we learned about the equality operator (`==`) and the strict equality operator (`===`). Let's do a quick review and practice using these operators some more.
+前回の 2 つのチャレンジでは等価演算子 (`==`) と厳密等価演算子 (`===`) について学習しました。 簡単なおさらいを兼ねて、これらの演算子の使用についてもう少し練習をしてみましょう。
 
 比較する値が同じ型でない場合、等価演算子では型変換を行ってから、それらの値を評価します。 しかし、厳密等価演算子では型変換を行うことなく、データ型と値をそのまま比較します。
 

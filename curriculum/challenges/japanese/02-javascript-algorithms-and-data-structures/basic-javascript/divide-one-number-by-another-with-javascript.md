@@ -9,7 +9,7 @@ dashedName: divide-one-number-by-another-with-javascript
 
 # --description--
 
-We can also divide one number by another.
+数値どうしの割り算をすることもできます。
 
 JavaScript では除算記号として `/` を使用します。
 

@@ -9,7 +9,7 @@ dashedName: compound-assignment-with-augmented-multiplication
 
 # --description--
 
-The `*=` operator multiplies a variable by a number.
+`*=` 演算子は変数に数を掛けます。
 
 ```js
 myVar = myVar * 5;

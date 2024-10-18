@@ -8,7 +8,7 @@ dashedName: use-the-every-method-to-check-that-every-element-in-an-array-meets-a
 
 # --description--
 
-The `every` method works with arrays to check if *every* element passes a particular test. It returns a Boolean value - `true` if all values meet the criteria, `false` if not.
+`every` メソッドは配列で動作し、*すべての*要素が特定のテストを満たすかどうかを調べます。 すべての値が基準を満たしている場合は、ブール値 `true` を返します。そうでない場合は、`false` を返します。
 
 たとえば、次のコードは `numbers` 配列のすべての要素が 10 未満であるかどうかを確認します。
 

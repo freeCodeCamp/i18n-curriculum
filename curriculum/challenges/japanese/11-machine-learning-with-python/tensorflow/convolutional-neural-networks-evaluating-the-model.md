@@ -14,7 +14,7 @@ dashedName: convolutional-neural-networks-evaluating-the-model
 
 ## --text--
 
-What is **not** a good way to increase the accuracy of a convolutional neural network?
+畳み込みニューラルネットワークの精度を向上させる良い方法**ではない**ものはどれですか？
 
 ## --answers--
 

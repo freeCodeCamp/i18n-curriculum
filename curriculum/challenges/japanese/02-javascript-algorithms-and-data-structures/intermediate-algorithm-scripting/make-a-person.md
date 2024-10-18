@@ -1,6 +1,6 @@
 ---
 id: a2f1d72d9b908d0bd72bb9f6
-title: Make a Person
+title: 人を作成する
 challengeType: 1
 forumTopicId: 16020
 dashedName: make-a-person
@@ -8,7 +8,7 @@ dashedName: make-a-person
 
 # --description--
 
-Fill in the object constructor with the following methods below:
+次のメソッドを持つオブジェクトコンストラクターを記述してください。
 
 ```js
 getFirstName()
@@ -19,7 +19,7 @@ setLastName(last)
 setFullName(first, last)
 ```
 
-Run the tests to see the expected output for each method. These methods must be the only available means of interacting with the object. Each test will declare a new `Person` instance as `new Person('Bob', 'Ross')`.
+テストを実行して、各メソッドに対して期待される出力を確認してください。 これらのメソッドのみをオブジェクトとやり取りする手段とする必要があります。 Each test will declare a new `Person` instance as `new Person('Bob', 'Ross')`.
 
 # --hints--
 
@@ -41,7 +41,7 @@ You should not reassign the `last` parameter.
 assert.notMatch(code, /\blast\s*=\s*/);
 ```
 
-No properties should be added. `Object.keys(Person).length` should always return 6.
+プロパティを追加しないでください。 `Object.keys(Person).length` should always return 6.
 
 ```js
 const _person = new Person('Bob', 'Ross');

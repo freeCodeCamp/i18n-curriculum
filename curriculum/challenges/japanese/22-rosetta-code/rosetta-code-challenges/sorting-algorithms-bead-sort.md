@@ -8,7 +8,7 @@ dashedName: sorting-algorithmsbead-sort
 
 # --description--
 
-A *bead sort* starts by creating a matrix of zeroes whose length is equal to the value of the largest element in the input array. The matrix is transformed by adding one to all elements between the zeroth index and the index indicated by the current element. This process is repeated, until you have filled the matrix.
+*ビーズソート*では、まず、入力行列の中で最大の要素の値と等しい長さのゼロ行列を作成します。 この行列のうち、ゼロ番目のインデックスと現在の要素によって示されるインデックスの間にあるすべての要素に 1 を加えて、行列を変換します。 この処理を、行列が埋まるまで繰り返します。
 
 行列に繰り返し処理を行って、0 より大きい要素の数を足し合わせ、それから各要素の値を 1 減らすと、ソートされた配列が得られます。
 

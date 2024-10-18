@@ -8,7 +8,7 @@ dashedName: extract-matches
 
 # --description--
 
-So far, you have only been checking if a pattern exists or not within a string. You can also extract the actual matches you found with the `.match()` method.
+ここまでは、単にパターンが文字列内に存在するかどうかをチェックしてきました。 `.match()` メソッドで見つけた実際のマッチ部分を抽出することもできます。
 
 `.match()` メソッドを使用するには、メソッドを文字列に適用し、括弧内に正規表現を渡します。
 

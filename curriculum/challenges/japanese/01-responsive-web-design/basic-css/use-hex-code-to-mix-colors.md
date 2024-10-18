@@ -9,7 +9,7 @@ dashedName: use-hex-code-to-mix-colors
 
 # --description--
 
-To review, hex codes use 6 hexadecimal digits to represent colors, two each for red (R), green (G), and blue (B) components.
+復習になりますが、16 進数カラーコードは 6 桁の 16 進数の数字を使用し、2 桁ごとに赤 (R)、緑 (G)、青 (B) の成分を表して色を表現します。
 
 この 3 つの純粋色 (赤、緑、青) から、それぞれの量を変更して 1,600 万色以上の色を作成することができます！
 
@@ -23,7 +23,7 @@ To review, hex codes use 6 hexadecimal digits to represent colors, two each for 
 
 `style` 要素の中のカラーキーワードを正しい 16 進数カラーコードで置き換えてください。
 
-<table><tbody><tr><th>Color</th><th>Hex Code</th></tr><tr><td>Dodger Blue</td><td><code>#1E90FF</code></td></tr><tr><td>Green</td><td><code>#00FF00</code></td></tr><tr><td>Orange</td><td><code>#FFA500</code></td></tr><tr><td>Red</td><td><code>#FF0000</code></td></tr></tbody></table>
+<table><tbody><tr><th>色</th><th>16 進数カラーコード</th></tr><tr><td>ドジャーブルー</td><td><code>#1E90FF</code></td></tr><tr><td>緑</td><td><code>#00FF00</code></td></tr><tr><td>オレンジ</td><td><code>#FFA500</code></td></tr><tr><td>赤</td><td><code>#FF0000</code></td></tr></tbody></table>
 
 # --hints--
 

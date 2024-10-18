@@ -8,14 +8,14 @@ dashedName: amicable-pairs
 
 # --description--
 
-Two integers $N$ and $M$ are said to be amicable pairs if $N \\neq M$ and the sum of the proper divisors of $N$ ($\\mathrm{sum}(\\mathrm{propDivs}(N))$) $= M$ as well as $\\mathrm{sum}(\\mathrm{propDivs}(M)) = N$.
+2 つの整数 $N$ と $M$ が、$N \\neq M$ で、かつ、$N$ の真の約数の和 ($\\mathrm{sum}(\\mathrm{propDivs}(N))$) $= M$ であり、$\\mathrm{sum}(\\mathrm{propDivs}(M)) = N$ でもある場合、それらの整数の組のことを友愛数と呼びます。
 
 **例:**
 
 **1184** と **1210** は、真の約数の和から友愛数だと分かります。
 
 <ul>
-  <li>1, 2, 4, 8, 16, 32, 37, 74, 148, 296, 592 and</li>
+  <li>1、2、4、8、16、32、37、74、148、296、592</li>
   <li>1、2、5、10、11、22、55、110、121、242、605</li>
 </ul>
 
@@ -23,29 +23,29 @@ Two integers $N$ and $M$ are said to be amicable pairs if $N \\neq M$ and the su
 
 # --instructions--
 
-Calculate and show here the Amicable pairs below 20,000 (there are eight).
+計算して、20,000 以下の 友愛数を表示します (8 つあります)。
 
 # --hints--
 
-`amicablePairsUpTo` should be a function.
+`amicablePairsUpTo` という関数です。
 
 ```js
 assert(typeof amicablePairsUpTo === 'function');
 ```
 
-`amicablePairsUpTo(300)` should return `[[220,284]]`.
+`amicablePairsUpTo(300)` は `[[220,284]]` を返します。
 
 ```js
 assert.deepEqual(amicablePairsUpTo(300), answer300);
 ```
 
-`amicablePairsUpTo(3000)` should return `[[220,284],[1184,1210],[2620,2924]]`.
+`amicablePairsUpTo(3000)` は `[[220,284],[1184,1210],[2620,2924]]` を返します。
 
 ```js
 assert.deepEqual(amicablePairsUpTo(3000), answer3000);
 ```
 
-`amicablePairsUpTo(20000)` should return `[[220,284],[1184,1210],[2620,2924],[5020,5564],[6232,6368],[10744,10856],[12285,14595],[17296,18416]]`.
+`amicablePairsUpTo(20000)` は `[[220,284],[1184,1210],[2620,2924],[5020,5564],[6232,6368],[10744,10856],[12285,14595],[17296,18416]]` を返します。
 
 ```js
 assert.deepEqual(amicablePairsUpTo(20000), answer20000);

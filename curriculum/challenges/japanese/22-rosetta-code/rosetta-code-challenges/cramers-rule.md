@@ -8,7 +8,7 @@ dashedName: cramers-rule
 
 # --description--
 
-<a href="https://rosettacode.org/wiki/Cramer%27s_rule" target="_blank" rel="noopener noreferrer nofollow">Cramer's rule</a> is a formula for solving a system of linear equations by using the determinants of matrices formed from subsets of the coefficients and right hand side values.
+<a href="https://rosettacode.org/wiki/Cramer%27s_rule" target="_blank" rel="noopener noreferrer nofollow">クラメルの公式</a>とは、行列の係数の部分集合と右辺の値から形成される行列式を使用して線形方程式の系を解くための式です。
 
 2 行 2 列の行列の行列式は以下で与えられます:
 

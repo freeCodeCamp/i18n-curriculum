@@ -10,7 +10,7 @@ bilibiliIds:
 dashedName: networking-write-a-web-browser
 ---
 
-# --preguntas--
+# --questions--
 
 ## --text--
 

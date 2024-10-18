@@ -8,7 +8,7 @@ dashedName: zeckendorf-number-representation
 
 # --description--
 
-Just as numbers can be represented in a positional notation as sums of multiples of the powers of ten (decimal) or two (binary); all the positive integers can be represented as the sum of one or zero times the distinct members of the Fibonacci series. Recall that the first six distinct Fibonacci numbers are: `1, 2, 3, 5, 8, 13`.
+数字を 10 (10 進数) または 2 (2 進数) の累乗の倍数の和として位取り記数法で表現できるように、すべての正の整数は、フィボナッチ数列のそれぞれ異なる要素の 1 倍または 0 倍の和として表現できます。 最初の 6 つの個々のフィボナッチ数は以下のとおりでした: `1, 2, 3, 5, 8, 13`.
 
 10 進数の 11 は、各列がフィボナッチ数列の特定の要素による乗算を表す位取り記数法で `0*13 + 1*8 + 0*5 + 1*3 + 0*2 + 0*1` または `010100` のように記述することもできます。 先頭のゼロを落として、10 進数の 11 が `10100`になるようにします。 フィボナッチ数から 11 を作る方法は 10100 だけではありませんが、 `0*13 + 1*8 + 0*5 + 0*3 + 1*2 + 1*1` または 010011もまた、10 進数の 11 を表しています。 真のゼッケンドルフ表現については、*2 つの連続するフィボナッチ数を使用できない*という追加の制限があり、それが前の一意の解ということにつながります。
 

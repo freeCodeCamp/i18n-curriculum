@@ -8,7 +8,7 @@ dashedName: factors-of-an-integer
 
 # --description--
 
-Write a function that returns the factors of a positive integer as an array.
+正の整数の因数を配列として返す関数を作成します。
 
 これらの因数は正の整数であり、因数分解される数値を除算して、正の整数の結果を得ることができます。
 

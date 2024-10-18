@@ -8,7 +8,7 @@ dashedName: spiral-matrix
 
 # --description--
 
-Produce a spiral array. A *spiral array* is a square arrangement of the first N<sup>2</sup> natural numbers, where the numbers increase sequentially as you go around the edges of the array spiraling inwards. For example, given **5**, produce this array:
+スパイラル配列を作ります。 *スパイラル配列*は最初のN<sup>2</sup>個の自然数の正方形配列です。ここでは配列の端をらせん状に内側へと進むごとに数値が順に増えていきます。 例えば、**5** を与えられた場合、以下の配列を生成します。
 
 <pre>
 0  1  2  3  4

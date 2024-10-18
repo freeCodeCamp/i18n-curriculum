@@ -8,7 +8,7 @@ dashedName: knights-tour
 
 # --description--
 
-Knight's Tour Problem: You have an empty `width` \* `height` chessboard, but for a single knight on some square. The knight must perform a sequence of legal moves that result in the knight visiting every square on the chessboard exactly once. Note that it is *not* a requirement that the tour be "closed"; that is, the knight need not end within a single move of its start position.
+ナイトツアー: 幅と高さが `width` \* `height` の空のチェスボードがあり、その上のどこかのマスに 1 つのナイトの駒が置いてあります。 ナイトは一連のルールに従って動き、チェスボード上のすべてのマスを 1 度だけ訪れなければなりません。 ツアーを「終了する」必要は*ない*ことに注意してください。つまり、ナイトは開始地点の一手以内を終了地点にする必要はありません。
 
 # --instructions--
 

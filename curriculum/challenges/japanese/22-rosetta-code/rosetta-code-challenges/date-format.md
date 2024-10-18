@@ -8,9 +8,9 @@ dashedName: date-format
 
 # --description--
 
-Return an array with two date strings of the current date with the following specifications:
+次の仕様で、現在の日付の日付文字列を 2 つ持つ配列を返します。
 
-- The first string's date order should be the year number, month number, and day number separated by dashes (`-`).
+- 最初の文字列の日付は、年、月、日の順にダッシュで区切られます (`-`)。
 - 最初の文字列の年は、4桁です。
 - 最初の文字列の月と日は、先頭にゼロを含めません。
 - 2番目の文字列の曜日と月は、省略表記にしません。

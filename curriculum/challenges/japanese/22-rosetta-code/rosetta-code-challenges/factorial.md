@@ -8,7 +8,7 @@ dashedName: factorial
 
 # --description--
 
-Write a function to return the factorial of a number.
+数字の階乗を返す関数を作成します。
 
 数値の階乗は次のようになります。
 

@@ -14,7 +14,7 @@ dashedName: core-learning-algorithms-building-the-model
 
 ## --text--
 
-What kind of estimator/model does TensorFlow recommend using for classification?
+TensorFlow で分類を行う場合、どの Estimator/モデルの使用が推奨されますか？
 
 ## --answers--
 

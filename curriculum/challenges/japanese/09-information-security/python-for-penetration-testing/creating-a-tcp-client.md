@@ -1,6 +1,6 @@
 ---
 id: 5ea9997bbec2e9bc47e94db0
-title: Creating a TCP Client
+title: TCP クライアントの作成
 challengeType: 11
 videoId: ugYfJNTawks
 bilibiliIds:
@@ -14,7 +14,7 @@ dashedName: creating-a-tcp-client
 
 ## --text--
 
-Which socket object method lets you set the maximum amount of data your client accepts at once?
+クライアントが一度に受け取る最大データ量を設定できるソケットオブジェクトメソッドはどれですか？
 
 ## --answers--
 

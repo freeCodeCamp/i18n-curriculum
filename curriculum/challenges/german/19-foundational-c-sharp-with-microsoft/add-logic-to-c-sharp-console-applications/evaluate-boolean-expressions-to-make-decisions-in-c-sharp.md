@@ -12,7 +12,7 @@ Diese Aufgabe wird teilweise auf der Microsoft Learn Plattform erledigt. Folge d
 1. Gehe auf <a href="https://learn.microsoft.com/training/modules/csharp-evaluate-boolean-expressions/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/csharp-evaluate-boolean-expressions/</a> und löse alle Aufgaben für das Modul "Boolesche Ausdrücke auswerten, um Entscheidungen in C# zu treffen". Dies ist **erforderlich**, um die Trophäe "Add Logic to C# Console Applications" auf Microsoft Learn zu erwerben und sich für die Zertifizierungsprüfung zu qualifizieren.
 1. Wenn du damit fertig bist, komme zurück und beantworte die folgende Frage richtig.
 
-# --Auftrag--
+# --assignment--
 
 Schließe das Modul <a href="https://learn.microsoft.com/training/modules/csharp-evaluate-boolean-expressions/" target="_blank" rel="noreferrer">Boolesche Ausdrücke auswerten, um Entscheidungen in C# zu treffen</a> auf Microsoft Learn ab. Beantworte dann die Frage unten.
 

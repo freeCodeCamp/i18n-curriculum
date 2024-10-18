@@ -12,11 +12,11 @@ Este desafío se completará parcialmente en la plataforma de aprendizaje de Mic
 1. Ve a <a href="https://learn.microsoft.com/training/modules/csharp-write-first/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/csharp-write-first/</a> y completa todas las tareas del módulo "Escritura de código de C# por primera vez". Esto es **requerido** para ganar el trofeo "Escritura de código de C# por primera vez" en Microsoft Learn, y calificar para el examen de certificación.
 1. Cuando haya terminado, vuelva y responda correctamente a la siguiente pregunta.
 
-# --tarea--
+# --assignment--
 
 Completa el módulo <a href="https://learn.microsoft.com/training/modules/csharp-write-first/" target="_blank" rel="noreferrer">Escritura de código de C# por primera vez</a> en Microsoft Learn. Luego, responda a la siguiente pregunta.
 
-# --preguntas--
+# --questions--
 
 ## --text--
 

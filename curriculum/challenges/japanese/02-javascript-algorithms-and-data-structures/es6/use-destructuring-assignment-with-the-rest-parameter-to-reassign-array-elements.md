@@ -10,7 +10,7 @@ dashedName: >-
 
 # --description--
 
-In some situations involving array destructuring, we might want to collect the rest of the elements into a separate array.
+配列の分割において、残りの要素を別の配列にまとめたいことがあります。
 
 次に示すように、`Array.prototype.slice()` に似た結果になります。
 

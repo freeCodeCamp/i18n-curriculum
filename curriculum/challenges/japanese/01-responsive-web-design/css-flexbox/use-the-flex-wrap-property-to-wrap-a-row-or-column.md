@@ -1,6 +1,6 @@
 ---
 id: 587d78ad367417b2b2512afa
-title: Use the flex-wrap Property to Wrap a Row or Column
+title: flex-wrap プロパティを使用して行または列を折り返す
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVaDAv/cQv9ZtG'
 forumTopicId: 301114
@@ -9,21 +9,21 @@ dashedName: use-the-flex-wrap-property-to-wrap-a-row-or-column
 
 # --description--
 
-CSS flexbox has a feature to split a flex container into multiple rows (or columns). By default, a flex container will fit all flex items together. For example, a row will all be on one line.
+CSS の flexbox には、フレックスコンテナーを複数の行 (または列) に分割する機能があります。 デフォルトでは、フレックスコンテナーはすべてのフレックスアイテムが1つに収まるように格納します。 例えば、行はすべて1行になります。
 
-However, using the `flex-wrap` property tells CSS to wrap items. This means extra items move into a new row or column. The break point of where the wrapping happens depends on the size of the items and the size of the container.
+しかし、`flex-wrap` プロパティを使用することでアイテムを折り返すように CSS に指示できます。 これにより、はみ出したアイテムは新しい行または列に移動します。 折り返す際のブレークポイントは、アイテムのサイズとコンテナーのサイズによって決まります。
 
-CSS also has options for the direction of the wrap:
+CSS には折り返す方向のオプションもあります:
 
-<ul><li><code>nowrap</code>: this is the default setting, and does not wrap items.</li><li><code>wrap</code>: wraps items onto multiple lines from top-to-bottom if they are in rows and left-to-right if they are in columns.</li><li><code>wrap-reverse</code>: wraps items onto multiple lines from bottom-to-top if they are in rows and right-to-left if they are in columns.</li></ul>
+<ul><li><code>nowrap</code>: これはデフォルトの設定であり、アイテムを折り返しません。</li><li><code>wrap</code>: 行である場合は上から下へ、列である場合は左から右へ複数のラインにアイテムを折り返します。</li><li><code>wrap-reverse</code>: 行である場合は下から上へ、列である場合は右から左へ複数のラインにアイテムを折り返します。</li></ul>
 
 # --instructions--
 
-The current layout has too many boxes for one row. Add the CSS property `flex-wrap` to the `#box-container` element, and give it a value of `wrap`.
+現在のレイアウトでは1行に対してボックスが多すぎます。 CSS プロパティ `flex-wrap` を `#box-container` 要素に追加し、 `wrap` 値を設定してください。
 
 # --hints--
 
-The `#box-container` element should have the `flex-wrap` property set to a value of `wrap`.
+`#box-container` 要素の `flex-wrap` プロパティを `wrap` に設定してください。
 
 ```js
 assert($('#box-container').css('flex-wrap') == 'wrap');

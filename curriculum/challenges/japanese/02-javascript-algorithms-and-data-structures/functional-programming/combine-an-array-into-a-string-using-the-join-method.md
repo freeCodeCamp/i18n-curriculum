@@ -8,7 +8,7 @@ dashedName: combine-an-array-into-a-string-using-the-join-method
 
 # --description--
 
-The `join` method is used to join the elements of an array together to create a string. It takes an argument for the delimiter that is used to separate the array elements in the string.
+`join` メソッドは、配列の要素を結合して文字列を作成するのに使用します。 このメソッドは、文字列内の配列要素の分割に使用される区切り文字の引数を取ります。
 
 例を示します。
 

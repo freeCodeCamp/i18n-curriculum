@@ -1,6 +1,6 @@
 ---
 id: 587d8253367417b2b2512c6d
-title: Perform an Intersection on Two Sets of Data
+title: 2 つのデータセットの積集合を求める
 challengeType: 1
 forumTopicId: 301709
 dashedName: perform-an-intersection-on-two-sets-of-data
@@ -8,13 +8,13 @@ dashedName: perform-an-intersection-on-two-sets-of-data
 
 # --description--
 
-In this exercise we are going to perform an intersection on 2 sets of data. We will create a method on our `Set` data structure called `intersection`. An intersection of sets represents all values that are common to two or more sets. This method should take another `Set` as an argument and return the `intersection` of the two sets.
+この課題では、2 つのデータセットの積集合を求めます。 `intersection` と呼ばれるメソッドを `Set` データ構造に作成します。 セットの積集合とは、2 つ以上のセットに共通するすべての値のことです。 このメソッドは、別の `Set` を引数として取り、2 つのセットの `intersection` を返す必要があります。
 
-For example, if `setA = ['a','b','c']` and `setB = ['a','b','d','e']`, then the intersection of setA and setB is: `setA.intersection(setB) = ['a', 'b']`.
+例えば、`setA = ['a','b','c']` かつ `setB = ['a','b','d','e']` の場合、setA と setB の積集合は `setA.intersection(setB) = ['a', 'b']` です。
 
 # --hints--
 
-Your `Set` class should have a `intersection` method.
+`Set` クラスに `intersection` メソッドが必要です。
 
 ```js
 assert(
@@ -25,7 +25,7 @@ assert(
 );
 ```
 
-The proper collection should be returned.
+適切なコレクションが返される必要があります。
 
 ```js
 assert(

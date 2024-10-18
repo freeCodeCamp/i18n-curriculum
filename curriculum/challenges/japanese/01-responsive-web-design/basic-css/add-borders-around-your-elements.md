@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9bedf08813
-title: Add Borders Around Your Elements
+title: 要素の周りに境界線を追加する
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/c2MvnHZ'
 forumTopicId: 16630
@@ -9,9 +9,9 @@ dashedName: add-borders-around-your-elements
 
 # --description--
 
-CSS borders have properties like `style`, `color` and `width`.
+CSSの border には `style`、`color` および `width` のようなプロパティがあります。
 
-For example, if we wanted to create a red, 5 pixel border around an HTML element, we could use this class:
+例えば、ある HTML 要素の周りに赤色の5ピクセルの境界線を作成したい場合、次のようなクラスを使えます:
 
 ```html
 <style>
@@ -25,9 +25,9 @@ For example, if we wanted to create a red, 5 pixel border around an HTML element
 
 # --instructions--
 
-Create a class called `thick-green-border`. This class should add a 10px, solid, green border around an HTML element. Apply the class to your cat photo.
+`thick-green-border` というクラスを作成しましょう。 このクラスは HTML 要素の周りに 10px、実線 (solid)、緑色の境界線を追加するようにしてください。 猫の写真にこのクラスを適用してください。
 
-Remember that you can apply multiple classes to an element using its `class` attribute, by separating each class name with a space. 例えば、次のようになります。
+1 つの要素に複数のクラスを適用するには、`class` 属性に各クラス名を半角スペースで区切って指定することを覚えておいてください。 例えば、次のようになります。
 
 ```html
 <img class="class1 class2">
@@ -35,19 +35,19 @@ Remember that you can apply multiple classes to an element using its `class` att
 
 # --hints--
 
-Your `img` element should have the class `smaller-image`.
+`img` 要素にはクラス `smaller-image` が必要です。
 
 ```js
 assert($('img').hasClass('smaller-image'));
 ```
 
-Your `img` element should have the class `thick-green-border`.
+`img` 要素にはクラス `thick-green-border` が必要です。
 
 ```js
 assert($('img').hasClass('thick-green-border'));
 ```
 
-Your image should have a border width of `10px`.
+画像の境界線の幅は `10px` である必要があります。
 
 ```js
 assert(
@@ -57,13 +57,13 @@ assert(
 );
 ```
 
-Your image should have a border style of `solid`.
+画像の境界線のスタイルは `solid` である必要があります。
 
 ```js
 assert($('img').css('border-right-style') === 'solid');
 ```
 
-The border around your `img` element should be green.
+`img` 要素の周りの境界線は緑色でなければなりません。
 
 ```js
 assert($('img').css('border-left-color') === 'rgb(0, 128, 0)');

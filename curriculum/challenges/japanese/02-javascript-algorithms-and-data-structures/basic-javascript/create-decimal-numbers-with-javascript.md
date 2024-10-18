@@ -9,7 +9,7 @@ dashedName: create-decimal-numbers-with-javascript
 
 # --description--
 
-We can store decimal numbers in variables too. Decimal numbers are sometimes referred to as <dfn>floating point</dfn> numbers or <dfn>floats</dfn>.
+変数に小数を格納することもできます。 小数は<dfn>浮動小数点数</dfn>または <dfn>float</dfn> と呼ばれることもあります。
 
 **注:** 数値は有限精度で計算されます。 そのため、浮動小数点を使用した演算は、期待する結果と異なる結果になる可能性があります。 その場合は、<a href="https://forum.freecodecamp.org/" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp フォーラム</a>にトピックを作成してください。
 

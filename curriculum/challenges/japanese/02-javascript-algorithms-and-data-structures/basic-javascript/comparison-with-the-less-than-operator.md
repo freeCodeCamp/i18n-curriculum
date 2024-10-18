@@ -9,7 +9,7 @@ dashedName: comparison-with-the-less-than-operator
 
 # --description--
 
-The less than operator (`<`) compares the values of two numbers. If the number to the left is less than the number to the right, it returns `true`. Otherwise, it returns `false`. Like the equality operator, the less than operator converts data types while comparing.
+小なり演算子 (`<`) は、2 つの数値の値を比較します。 左の数値が右の数値よりも小さい場合は、`true` を返します。 それ以外の場合は、`false` を返します。 等価演算子と同様に、小なり演算子でも比較時にデータ型が変換されます。
 
 **例**
 

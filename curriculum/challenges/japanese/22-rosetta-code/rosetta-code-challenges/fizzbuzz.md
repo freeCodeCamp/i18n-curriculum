@@ -8,10 +8,10 @@ dashedName: fizzbuzz
 
 # --description--
 
-Write a program that generates an array of integers from 1 to 100 (inclusive). But:
+1 から 100 までの整数の配列を生成するプログラムを記述します。 ただし、
 
 <ul>
-    <li>for multiples of 3, add <code>"Fizz"</code> to the array instead of the number</li>
+    <li>3 の倍数の場合は、数値ではなく、<code>"Fizz"</code> を配列に 追加します</li>
     <li>5 の倍数の場合は、数値ではなく、<code>"Buzz"</code> を配列に 追加します</li>
     <li>3 と 5 の倍数の場合は、数値ではなく、<code>"FizzBuzz"</code> を配列に追加します</li>
 </ul>

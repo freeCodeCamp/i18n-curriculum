@@ -8,7 +8,7 @@ dashedName: longest-string-challenge
 
 # --description--
 
-In this challenge, you have to find the strings that are the longest among the given strings.
+このチャレンジでは、与えられた文字列の中で最も長い文字列を見つけます。
 
 # --instructions--
 

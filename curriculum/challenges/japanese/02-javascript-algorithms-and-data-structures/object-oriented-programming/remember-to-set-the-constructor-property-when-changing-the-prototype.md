@@ -8,7 +8,7 @@ dashedName: remember-to-set-the-constructor-property-when-changing-the-prototype
 
 # --description--
 
-There is one crucial side effect of manually setting the prototype to a new object. It erases the `constructor` property! This property can be used to check which constructor function created the instance, but since the property has been overwritten, it now gives false results:
+プロトタイプに新しいオブジェクトを手動で設定すると、重要な副作用が一つ発生します。 それは、`constructor` プロパティを消してしまうことです！ このプロパティを使用して、どのコンストラクター関数がインスタンスを作成したかを確認することができますが、プロパティが上書きされてしまうと次の結果は正しくなくなります。
 
 ```js
 duck.constructor === Bird;

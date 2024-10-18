@@ -14,7 +14,7 @@ dashedName: core-learning-algorithms-clustering
 
 ## --text--
 
-Which of the following steps is **not** part of the K-Means algorithm?
+次のステップのうち、K 平均法アルゴリズムのステップの一部**ではない**ものはどれですか？
 
 ## --answers--
 

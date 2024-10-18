@@ -8,7 +8,7 @@ dashedName: use-a-pre-defined-scale-to-place-elements
 
 # --description--
 
-With the scales set up, it's time to map the scatter plot again. The scales are like processing functions that turn the `x` and `y` raw data into values that fit and render correctly on the SVG. They keep the data within the screen's plotting area.
+スケールの設定ができたので、散布図を再びマッピングしましょう。 The scales are like processing functions that turn the `x` and `y` raw data into values that fit and render correctly on the SVG. スケールにより、データが常に画面のプロット領域内に収められます。
 
 スケーリング関数を使用して、SVG 図形の座標属性値を設定します。 これには `rect` 要素か `text` 要素の `x` 属性と `y` 属性、または、`circles` 要素の `cx` 属性と `cy` 属性が含まれます。 以下が例です:
 

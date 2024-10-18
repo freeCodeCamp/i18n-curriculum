@@ -8,10 +8,10 @@ dashedName: babbage-problem
 
 # --description--
 
-Charles Babbage, looking ahead to the sorts of problems his Analytical Engine would be able to solve, gave this example:
+チャールズ・バベッジは、分析エンジンが解決できるであろう問題の種類を見越して、次の例を挙げました。
 
 <blockquote>
-  What is the smallest positive integer whose square ends in the digits 269,696?
+  2 乗の末尾が 269,696 になる最小の正の整数は何ですか?
   <footer style='margin-left: 2em;'>Babbage, letter to Lord Bowden, 1837; see Hollingdale and Tootill, <i>Electronic Computers</i>, second edition, 1970, p. 125.</footer>
 </blockquote>
 

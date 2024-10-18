@@ -9,7 +9,7 @@ dashedName: store-multiple-values-in-one-variable-using-javascript-arrays
 
 # --description--
 
-With JavaScript `array` variables, we can store several pieces of data in one place.
+JavaScript の `array` 変数を使用すると、複数のデータを一か所に格納できます。
 
 配列を宣言するには、開始の角括弧を記述して宣言を開始し、各項目の間にコンマを入れ、最後に終了の角括弧を記述します。
 

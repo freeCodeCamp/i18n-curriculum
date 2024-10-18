@@ -8,7 +8,7 @@ dashedName: generatorexponential
 
 # --description--
 
-A generator is an executable entity (like a function or procedure) that contains code that yields a sequence of values, one at a time, so that each time you call the generator, the next value in the sequence is provided.
+ジェネレータは、一連の値を1度に1つずつ生成するコードを含む実行可能なエンティティ (関数やプロシージャのような) であり、ジェネレータを呼び出すたびに、数列内の次の値を返します。
 
 ジェネレータは、オブジェクトの内部状態が「自然に」処理されるように、しばしば、コルーチンやオブジェクトに追加して作成されます。
 

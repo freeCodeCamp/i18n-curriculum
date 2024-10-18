@@ -12,7 +12,7 @@ dashedName: learn-about-self-closing-jsx-tags
 
 もう一つ、JSX が HTML と異なる重要な点として挙げられるのが、自己終了タグの概念です。
 
-HTML では、ほとんどすべてのタグに開始タグと終了タグの両方があり (`<div></div>` など)、終了タグ名の前には常にスラッシュが付いています。 However, there are special instances in HTML called <dfn>void elements</dfn>, or elements that don’t require both an opening and closing tag before another element can start.
+HTML では、ほとんどすべてのタグに開始タグと終了タグの両方があり (`<div></div>` など)、終了タグ名の前には常にスラッシュが付いています。 ただし、HTML には<dfn>空要素</dfn>という特例があります。空要素の場合、開始タグと終了タグをペアにしないで次の要素を開始できます。
 
 たとえば、改行タグは `<br>` または `<br />` と記述できますが、`<br></br>` と記述することはありません。これは内容が含まれていないためです。
 

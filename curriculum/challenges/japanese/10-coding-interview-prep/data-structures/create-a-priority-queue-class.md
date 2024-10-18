@@ -8,7 +8,7 @@ dashedName: create-a-priority-queue-class
 
 # --description--
 
-In this challenge you will be creating a Priority Queue. A Priority Queue is a special type of Queue in which items may have additional information which specifies their priority. This could be simply represented with an integer. Item priority will override placement order in determining the sequence items are dequeued. If an item with a higher priority is enqueued after items with lower priority, the higher priority item will be dequeued before all the others.
+このチャレンジでは、優先度付きキューを作成します。 優先度付きキューとは、要素の優先度を指定する追加情報をその要素が持てるという、特殊なタイプのキューです。 優先度は単純に整数で表すことができます。 ある数列要素がキューから取り出されるかどうかの決定は、その要素の位置よりも優先度に基づきます。 優先度の高い要素が優先度の低い要素の後にキューに追加されると、優先度の高い要素は他のすべての要素よりも先にキューから取り出されます。
 
 例えば、3 つの要素を持つ優先度付きキューがあるとします。
 

@@ -8,7 +8,7 @@ dashedName: use-the-delete-keyword-to-remove-object-properties
 
 # --description--
 
-Now you know what objects are and their basic features and advantages. In short, they are key-value stores which provide a flexible, intuitive way to structure data, ***and***, they provide very fast lookup time. Throughout the rest of these challenges, we will describe several common operations you can perform on objects so you can become comfortable applying these useful data structures in your programs.
+ここまで、オブジェクトとは何か、そしてその基本的な機能と利点について学んできました。 手短に言えば、オブジェクトとはキーと値のペアを格納したものです。データを構造化するための柔軟で直感的な方法を提供し、***なおかつ***、参照時間が非常に高速です。 以降のチャレンジでは、オブジェクトに対するいくつかの一般的な操作について説明します。これらを学ぶことで、こうした便利なデータ構造を自身のプログラムで自信をもって扱えるようになるでしょう。
 
 前のチャレンジで、オブジェクトのキーと値のペアの追加と変更について説明しました。 ここでは、オブジェクトからキーと値のペアを*削除*する方法について説明します。
 

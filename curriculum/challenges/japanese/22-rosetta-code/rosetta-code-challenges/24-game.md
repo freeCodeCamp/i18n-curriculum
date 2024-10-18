@@ -8,7 +8,7 @@ dashedName: 24-game
 
 # --description--
 
-The 24 Game tests a person's mental arithmetic.
+24 Game は、人の暗算力を試します。
 
 ゲームの目的は、算出結果が24になるように4つの数字を配置することです。
 
@@ -18,13 +18,13 @@ The 24 Game tests a person's mental arithmetic.
 
 **ルール:**
 <ul>
-  <li> Only the following operators/functions are allowed: multiplication, division, addition, subtraction. </li>
+  <li> 以下の演算子 / 関数のみが使用できます: 乗算、除算、加算、減算。 </li>
   <li> 除算では、余りを保持するために浮動小数点や有理数演算などを使用します。 </li>
   <li> 与えられた数字から複数の桁数を作成することはできません。 (つまり、1、2、2、1が与えられた場合、12+12という答えは間違っています)。 </li>
   <li> 与えられた数字の順序は保持する必要がありません。 </li>
 </ul>
 
-| Example input             | 出力例                       |
+| 入力例                       | 出力例                       |
 | ------------------------- | ------------------------- |
 | <code>solve24("4878");</code> | <code>(7-8/8)\*4</code> |
 | <code>solve24("1234");</code> | <code>3\*1\*4\*2</code> |
