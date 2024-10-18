@@ -8,7 +8,7 @@ dashedName: gray-code
 
 # --description--
 
-Gray code is a form of binary encoding where transitions between consecutive numbers differ by only one bit.
+グレイコードとは、2 進数の表現で、隣り合う値でビットの変化が 1 ビットしかないようにしたものです。
 
 これは、急速に変化する値を持つ場合や入力時に動作の遅いハードウェアに接続する場合に、ハードウェアのデータハザードを減少させるのに役立つエンコーディングです。
 

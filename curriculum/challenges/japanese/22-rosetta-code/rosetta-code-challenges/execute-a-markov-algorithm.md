@@ -8,7 +8,7 @@ dashedName: execute-a-markov-algorithm
 
 # --description--
 
-Markov Concepts are used in machine learning, because of its simple approach in data manipulation. With a set number of `rules` you can manipulate given `data` to create a desired `output`.
+マルコフの概念は、データ操作におけるアプローチが単純であることから機械学習で利用されます。 1 組の `rules` を指定することで、与えられた `data` を操作して望ましい `output` を得ることができます。
 
 以下のものが用意されています:
 

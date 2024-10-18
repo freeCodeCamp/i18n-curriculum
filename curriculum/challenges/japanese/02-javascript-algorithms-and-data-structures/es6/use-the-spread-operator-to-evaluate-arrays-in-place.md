@@ -8,7 +8,7 @@ dashedName: use-the-spread-operator-to-evaluate-arrays-in-place
 
 # --description--
 
-ES6 introduces the <dfn>spread operator</dfn>, which allows us to expand arrays and other expressions in places where multiple parameters or elements are expected.
+ES6 では<dfn>スプレッド演算子</dfn>が導入されています。この演算子を使用すると、複数のパラメーターまたは要素が要求される場所の中で配列やその他の式を展開することができます。
 
 次の ES5 コードでは、配列の最大値を計算するために `apply()` を使用しています。
 
@@ -42,23 +42,23 @@ const spreaded = ...arr;
 
 # --instructions--
 
-Copy all contents of `arr1` into another array `arr2` using the spread operator.
+スプレッド演算子を使用して、 `arr1` のすべての内容を別の配列 `arr2` にコピーしてください。
 
 # --hints--
 
-`arr2` should be correct copy of `arr1`.
+`arr2` は `arr1` の正確なコピーである必要があります。
 
 ```js
 assert(arr2.every((v, i) => v === arr1[i]) && arr2.length);
 ```
 
-`...` spread operator should be used to duplicate `arr1`.
+`...` スプレッド演算子を使用して `arr1` を複製する必要があります。
 
 ```js
 assert(__helpers.removeJSComments(code).match(/Array\(\s*\.\.\.arr1\s*\)|\[\s*\.\.\.arr1\s*\]/));
 ```
 
-`arr2` should remain unchanged when `arr1` is changed.
+`arr1` が変更されても `arr2` は変わりません。
 
 ```js
 assert((arr1, arr2) => {

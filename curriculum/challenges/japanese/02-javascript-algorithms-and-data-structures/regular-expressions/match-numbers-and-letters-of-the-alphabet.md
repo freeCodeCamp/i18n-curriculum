@@ -8,7 +8,7 @@ dashedName: match-numbers-and-letters-of-the-alphabet
 
 # --description--
 
-Using the hyphen (`-`) to match a range of characters is not limited to letters. It also works to match a range of numbers.
+ハイフン (`-`) を使用した文字の範囲のマッチは英文字に限定されません。 数字の範囲のマッチでも有効です。
 
 たとえば、`/[0-5]/` は `0` ～ `5` の間の任意の数字 (`0` と `5` を含む) にマッチします。
 

@@ -8,7 +8,7 @@ dashedName: use-the-reduce-method-to-analyze-data
 
 # --description--
 
-`Array.prototype.reduce()`, or simply `reduce()`, is the most general of all array operations in JavaScript. You can solve almost any array processing problem using the `reduce` method.
+`Array.prototype.reduce()`、または単に `reduce()` は、JavaScript のすべての配列操作の中で最も一般的なものです。 `reduce` メソッドを使用すると、ほぼすべての配列処理の問題を解決できます。
 
 `reduce` メソッドでは、より一般的な形式の配列処理が可能であり、`filter` および `map` の両方が `reduce` の特別な応用として導かれることを示すことができます。 `reduce` メソッドは、配列内の各アイテムを反復処理し、単一の値 (文字列、数値、オブジェクト、配列など) を返します。 これは、各反復で呼び出されるコールバック関数によって実現されます。
 

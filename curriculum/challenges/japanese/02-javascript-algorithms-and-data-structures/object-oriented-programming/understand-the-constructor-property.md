@@ -8,7 +8,7 @@ dashedName: understand-the-constructor-property
 
 # --description--
 
-There is a special `constructor` property located on the object instances `duck` and `beagle` that were created in the previous challenges:
+前のチャレンジで作成したオブジェクトインスタンス `duck` と `beagle` には、特別な `constructor` プロパティが配置されています。
 
 ```js
 let duck = new Bird();

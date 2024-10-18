@@ -8,7 +8,7 @@ dashedName: greatest-subsequential-sum
 
 # --description--
 
-Given a sequence of integers, find a continuous subsequence which maximizes the sum of its elements, that is, the elements of no other single subsequence add up to a value larger than this one.
+与えられた整数の数列において、その要素の和が最大となる部分配列を求めます。つまり、他の単一の部分配列の合計値がこの部分配列の合計値より大きくなることはありません。
 
 空の部分配列は、\\( 0 \\); の和を取るとみなされるため、すべての要素が負の場合、結果は空の数列でなければなりません。
 

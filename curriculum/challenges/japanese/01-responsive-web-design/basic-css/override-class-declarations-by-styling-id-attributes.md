@@ -9,7 +9,7 @@ dashedName: override-class-declarations-by-styling-id-attributes
 
 # --description--
 
-We just proved that browsers read CSS from top to bottom in order of their declaration. That means that, in the event of a conflict, the browser will use whichever CSS declaration came last. Notice that if we even had put `blue-text` before `pink-text` in our `h1` element's classes, it would still look at the declaration order and not the order of their use!
+私たちは、ブラウザが CSS を上から下へ宣言の順に読み込むことを証明しました。 つまり、競合が発生した場合、ブラウザは後に来た CSS 宣言を使用します。 `h1` 要素のクラス属性で `blue-text` を `pink-text` の前に置いたとしても、使われた順番ではなく宣言の順番が見られることに注目してください。
 
 これで終わりではありません。 CSS をオーバーライドする方法は他にもあります。 id 属性を覚えていますか？
 

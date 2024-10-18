@@ -12,7 +12,7 @@ Diese Aufgabe wird teilweise auf der Microsoft Learn Plattform erledigt. Folge d
 1. Gehe auf <a href="https://learn.microsoft.com/training/modules/challenge-project-arrays-iteration-selection/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/challenge-project-arrays-iteration-selection/</a> und erledige alle Aufgaben für das Modul "Challenge Project - Develop foreach and if-elseif-else Structures to Process Array Data in C#". Dies ist **erforderlich**, um die "Create und Run Simple C# Console Applicaions"-Trophäe auf Microsoft Learn zu erwerben und sich für die Zertifizierungsprüfung zu qualifizieren.
 1. Wenn du damit fertig bist, komme zurück und beantworte die folgende Frage richtig.
 
-# --Auftrag--
+# --assignment--
 
 Schließe das <a href="https://learn.microsoft.com/training/modules/challenge-project-arrays-iteration-selection/" target="_blank" rel="noreferrer">Entwickle `foreach` und `if`-`elseif`-`else` Strukturen zur Verarbeitung von Array-Daten in C#</a> Challenge-Projekt unter Microsoft Learn ab. Beantworte dann die Frage unten.
 

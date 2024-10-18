@@ -8,7 +8,7 @@ dashedName: use-spread-and-notes-for-es5-set-integration
 
 # --description--
 
-Do you remember the ES6 spread operator `...`?
+ES6 スプレッド演算子 "`...`" を覚えていますか？
 
 "`...`" は、ES6 の反復可能なオブジェクトを配列に変換することができます。
 

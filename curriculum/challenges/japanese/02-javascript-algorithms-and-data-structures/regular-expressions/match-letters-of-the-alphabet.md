@@ -8,7 +8,7 @@ dashedName: match-letters-of-the-alphabet
 
 # --description--
 
-You saw how you can use <dfn>character sets</dfn> to specify a group of characters to match, but that's a lot of typing when you need to match a large range of characters (for example, every letter in the alphabet). Fortunately, there is a built-in feature that makes this short and simple.
+<dfn>文字セット</dfn>を使用して、マッチ対象の文字のグループを指定する方法を見てきました。しかし、マッチさせる文字の範囲が広い場合 (たとえば、アルファベットのすべての文字など)、たくさんの入力が必要になります。 幸い、その作業を手早く簡単にしてくれる組み込み機能があります。
 
 文字セットの中でハイフン文字 `-` を使用すると、マッチさせる文字の範囲を定義することができます。
 

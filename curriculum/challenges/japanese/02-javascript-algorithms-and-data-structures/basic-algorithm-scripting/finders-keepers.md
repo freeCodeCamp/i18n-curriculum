@@ -8,7 +8,7 @@ dashedName: finders-keepers
 
 # --description--
 
-Create a function that looks through an array `arr` and returns the first element in it that passes a 'truth test'. This means that given an element `x`, the 'truth test' is passed if `func(x)` is `true`. If no element passes the test, return `undefined`.
+配列 `arr` を参照し、「真偽判定」で真となる最初の要素を返す関数を作成してください。 たとえば、要素 `x` が与えられた場合、`func(x)` が `true` であれば、「真偽判定」は真となります。 真となる要素が無い場合は、`undefined` を返してください。
 
 # --hints--
 

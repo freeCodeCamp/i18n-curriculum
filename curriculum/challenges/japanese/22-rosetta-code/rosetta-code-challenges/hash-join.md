@@ -8,14 +8,14 @@ dashedName: hash-join
 
 # --description--
 
-An inner join is an operation that combines two data tables into one table, based on matching column values. The simplest way of implementing this operation is the nested loop join algorithm, but a more scalable alternative is the hash join algorithm.
+内部結合とは、2 つのデータテーブルを、一致する列の値に基づいて 1 つのテーブルに結合する演算です。 この演算を実装する最も簡単な方法は、ネストされたループ結合アルゴリズムですが、より拡張性のある代わりの方法としてハッシュ結合アルゴリズムがあります。
 
 「hash join」アルゴリズムは次の 2 つのステップで構成されています。
 
 <ol>
-  <li><strong>Hash phase:</strong> Create a multimap from one of the two tables, mapping from each join column value to all the rows that contain it.</li>
+  <li><strong>Hash phase:</strong> 2 つのテーブルのいずれかからマルチマップを作成し、それぞれの結合列の値を、その値を含むすべての行にマッピングします。</li>
   <ul>
-    <li>The multimap must support hash-based lookup which scales better than a simple linear search, because that's the whole point of this algorithm.</li>
+    <li>multimap は単純な線形探索よりもスケーラブルなハッシュベースの探索をサポートする必要があります。それこそが、このアルゴリズムの肝要な点だからです。</li>
     <li>理想としては、小さい方のテーブルのmultimapを作成することを推奨します。これにより、作成時間とメモリサイズを最小化できます。</li>
   </ul>
   <li><strong>join phase:</strong> もう一方のテーブルをスキャンし、作成しておいたmultimapを参照して一致する行を見つけます。</li>
@@ -113,13 +113,13 @@ An inner join is an operation that combines two data tables into one table, base
             <i>j<sub>A</sub> =</i>
           </td>
           <td style="border:none">
-            <i><code>Name</code> (i.e. column 1)</i>
+            <i><code>Name</code> (例：列 1)</i>
           </td>
           <td style="border:none">
             <i>j<sub>B</sub> =</i>
           </td>
           <td style="border:none">
-            <i><code>Character</code> (i.e. column 0)</i>
+            <i><code>Character</code> (例：列 0)</i>
           </td>
         </tr>
       </table>

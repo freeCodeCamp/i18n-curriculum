@@ -8,7 +8,7 @@ dashedName: match-single-character-with-multiple-possibilities
 
 # --description--
 
-You learned how to match literal patterns (`/literal/`) and wildcard character (`/./`). Those are the extremes of regular expressions, where one finds exact matches and the other matches everything. There are options that are a balance between the two extremes.
+リテラルパターン (`/literal/`) とワイルドカード文字 (`/./`) にマッチさせる方法を学びました。 これらは正規表現の極端なもので、前者は完全にマッチするものを見つけ、後者はすべてにマッチします。 これら両極端の間をとったオプションがあります。
 
 <dfn>文字クラス</dfn>を使用すると、ある程度柔軟にリテラルパターンを検索できます。 文字クラスでは、マッチさせたい文字のグループを角括弧 (`[` と `]`) で囲むことで定義できます。
 

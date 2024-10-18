@@ -32,7 +32,7 @@ for (let i = 0; i < arr.length; i++) {
 }
 ```
 
-# --preguntas----preguntas--
+# --questions--
 
 ## --text--
 

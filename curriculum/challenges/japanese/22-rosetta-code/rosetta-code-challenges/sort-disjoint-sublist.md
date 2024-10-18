@@ -8,7 +8,7 @@ dashedName: sort-disjoint-sublist
 
 # --description--
 
-Given a list of values and a set of integer indices into that value list, the task is to sort the values at the given indices, but preserving the values at indices outside the set of those to be sorted.
+値のリストとその値リストに対する整数インデックスのセットが与えられている場合、今回のタスクでは、指定されたインデックスの値をソートしますが、ソートされるもの以外のインデックスの値はそのままとします。
 
 次の値とインデックスのセットで関数を動作させます。
 

@@ -33,19 +33,19 @@ Python カリキュラムの対話式教育コンテンツを引き続き開発�
 
 関数のテストに使用できるハッシュ化されたパスワードの例を次に示します。
 
-- `b305921a3723cd5d70a375cd21a61e60aabb84ec` should return "sammy123"
+- `b305921a3723cd5d70a375cd21a61e60aabb84ec` は "sammy123" を返す
 - `c7ab388a5ebefbf4d550652f1eb4d833e5316e3e` は "abacab" を返す
 - `5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8` は "password" を返す
 
 `use_salts` を `True` に設定した場合に関数のテストに使用できるハッシュ化されたパスワードの例を次に示します。
 
-- `53d8b3dc9d39f0184144674e310185e41a87ffd5` should return "superman"
+- `53d8b3dc9d39f0184144674e310185e41a87ffd5` は "superman" を返す
 - `da5a4e8cf89539e66097acd2f8af128acae2f8ae` は "q1w2e3r4t5" を返す
 - `ea3f62d498e3b98557f9f9cd0d905028b3b019e1` は "bubbles1" を返す
 
 `hashlib` ライブラリをあらかじめインポートしてあります。 このライブラリの使用を検討してください。 <a href="https://docs.python.org/3/library/hashlib.html" target="_blank" rel="noopener noreferrer nofollow">hashlib の詳細についてはこちらを参照してください</a>。
 
-## Development
+## 開発
 
 `password_cracker.py` にコードを記述してください。 開発には `main.py` を使用してコードをテストすることができます。
 

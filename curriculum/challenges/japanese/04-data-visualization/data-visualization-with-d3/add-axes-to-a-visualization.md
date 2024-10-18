@@ -8,7 +8,7 @@ dashedName: add-axes-to-a-visualization
 
 # --description--
 
-Another way to improve the scatter plot is to add an x-axis and a y-axis.
+散布図を改善するもう一つの方法は、x 軸と y 軸を追加することです。
 
 D3 には、y 軸と x 軸のそれぞれをレンダリングするための 2 つのメソッド、`axisLeft()` と `axisBottom()` があります。 以前のチャレンジでの `xScale` を基にして x 軸を作成する例を示します。
 

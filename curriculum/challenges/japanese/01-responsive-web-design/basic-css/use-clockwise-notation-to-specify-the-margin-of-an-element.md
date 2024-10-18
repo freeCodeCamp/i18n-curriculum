@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9afdf08726
-title: Use Clockwise Notation to Specify the Margin of an Element
+title: 時計回りの表記を使用して要素のマージンを指定する
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cnpybAd'
 forumTopicId: 18345
@@ -9,47 +9,47 @@ dashedName: use-clockwise-notation-to-specify-the-margin-of-an-element
 
 # --description--
 
-Let's try this again, but with `margin` this time.
+今度は `margin` で同じことをやってみましょう。
 
-Instead of specifying an element's `margin-top`, `margin-right`, `margin-bottom`, and `margin-left` properties individually, you can specify them all in one line, like this:
+要素の `margin-top`, `margin-right`, `margin-bottom`, `margin-left` のプロパティを個々に指定する代わりに、次のようにしてすべてを 1 行で指定することができます:
 
 ```css
 margin: 10px 20px 10px 20px;
 ```
 
-These four values work like a clock: top, right, bottom, left, and will produce the exact same result as using the side-specific margin instructions.
+これら 4 つの値は時計のように上、右、下、左の順に働き、そして辺ごとの margin 指定を使用するのとまったく同じ結果になります。
 
 # --instructions--
 
-Use Clockwise Notation to give the element with the `blue-box` class a margin of `40px` on its top and left side, but only `20px` on its bottom and right side.
+時計回りの表記を使用して、`blue-box` クラスの要素に上側と左側は `40px`、下側と右側は `20px` の margin を設定してください。
 
 # --hints--
 
-Your `blue-box` class should give the top of elements `40px` of `margin`.
+`blue-box` クラスは、要素の上側に `40px` の `margin` を与える必要があります。
 
 ```js
 assert($('.blue-box').css('margin-top') === '40px');
 ```
 
-Your `blue-box` class should give the right of elements `20px` of `margin`.
+`blue-box` クラスは、要素の右側に `20px` の `margin` を与える必要があります。
 
 ```js
 assert($('.blue-box').css('margin-right') === '20px');
 ```
 
-Your `blue-box` class should give the bottom of elements `20px` of `margin`.
+`blue-box` クラスは、要素の下側に `20px` の `margin` を与える必要があります。
 
 ```js
 assert($('.blue-box').css('margin-bottom') === '20px');
 ```
 
-Your `blue-box` class should give the left of elements `40px` of `margin`.
+`blue-box` クラスは、要素の左側に `40px` の `margin` を与える必要があります。
 
 ```js
 assert($('.blue-box').css('margin-left') === '40px');
 ```
 
-You should use the clockwise notation to set the margin of `blue-box` class.
+`blue-box` クラスのマージンの設定に時計回りの表記を使用してください。
 
 ```js
 assert(

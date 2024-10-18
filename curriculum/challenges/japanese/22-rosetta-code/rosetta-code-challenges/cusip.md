@@ -8,11 +8,11 @@ dashedName: cusip
 
 # --description--
 
-A **CUSIP** is a nine-character alphanumeric code that identifies a North American financial security for the purposes of facilitating clearing and settlement of trades. The CUSIP was adopted as an American National Standard under Accredited Standards X9.6.
+**CUSIP** は、取引の清算と決済を容易にする目的で、北米の有価証券を識別する 9 文字の英数字コードです。 CUSIP は、Accredited Standards X9.6 に基づき、米国国家規格として採用されました。
 
 # --instructions--
 
-文字列をパラメータとして取り、文字列が有効なCUSIPであるかどうかをチェックする関数を作成します。
+文字列をパラメータとして取り、文字列が有効な CUSIP であるかどうかをチェックする関数を作成します。
 
 # --hints--
 

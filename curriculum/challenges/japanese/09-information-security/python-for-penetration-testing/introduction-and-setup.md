@@ -14,7 +14,7 @@ dashedName: introduction-and-setup
 
 ## --text--
 
-What code editor and extension does the instructor recommend for developing penetration testing tools in Python?
+Python でペネトレーションテストを開発する際に講師が推奨しているコードエディターと拡張機能はどれですか？
 
 ## --answers--
 

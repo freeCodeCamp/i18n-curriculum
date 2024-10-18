@@ -8,7 +8,7 @@ dashedName: create-a-basic-javascript-object
 
 # --description--
 
-Think about things people see every day, like cars, shops, and birds. These are all <dfn>objects</dfn>: tangible things people can observe and interact with.
+車、お店、鳥など、人々が毎日見かけるものについて考えてみてください。 これらはすべて<dfn>オブジェクト</dfn> (対象物) です。人々が観察し、やり取りすることのできる有形のものです。
 
 これらのオブジェクトの特徴は何でしょうか？ 車には車輪が付いています。 お店は品物を販売しています。 鳥には翼があります。
 

@@ -8,7 +8,7 @@ dashedName: split-a-character-string-based-on-change-of-character
 
 # --description--
 
-Split a (character) string into comma (plus a blank) delimited strings based on a change of character (left to right). Blanks should be treated as any other character (except they are problematic to display clearly). The same applies to commas. For instance, the string:
+文字の変化 (左から右) を基にして文字列を分割し、カンマ (と空白) で区切られた文字列とします。 空白は他の文字と同様に扱う必要があります (表示に問題がある場合を除く)。 同じことがカンマにも当てはまります。 例えば、文字列:
 
 <pre>
 "gHHH5YY++///\\"

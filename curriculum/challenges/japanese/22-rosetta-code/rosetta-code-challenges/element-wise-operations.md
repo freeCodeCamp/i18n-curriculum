@@ -8,12 +8,12 @@ dashedName: element-wise-operations
 
 # --description--
 
-Implement basic element-wise matrix-matrix and scalar-matrix operations.
+基本的な要素ごとの matrix-matrix と scalar-matrix 演算を実装します。
 
 **実装:**
 
 <ul>
-  <li>addition</li>
+  <li>加法</li>
   <li>減法</li>
   <li>乗法</li>
   <li>除法</li>

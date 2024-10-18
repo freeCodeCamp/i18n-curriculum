@@ -8,7 +8,7 @@ dashedName: closest-pair-problem
 
 # --description--
 
-Provide a function to find the closest two points among a set of given points in two dimensions.
+2 次元の任意の点の集合の中から最も近い 2 点を見つける関数を提供します。
 
 簡単な解決策は、(*brute-force algorithm*と呼ばれる)$O(n^2)$ アルゴリズムを使用することです。疑似コード(インデックス使用)は単純に以下のようになります。
 

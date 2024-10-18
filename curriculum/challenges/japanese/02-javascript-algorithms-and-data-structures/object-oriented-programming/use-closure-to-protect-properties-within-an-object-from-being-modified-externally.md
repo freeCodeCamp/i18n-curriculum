@@ -10,7 +10,7 @@ dashedName: >-
 
 # --description--
 
-In the previous challenge, `bird` had a public property `name`. It is considered public because it can be accessed and changed outside of `bird`'s definition.
+前回のチャレンジで、`bird` には public プロパティの `name` がありました。 `bird` の定義の外側からアクセスして変更できるため、public とみなされます。
 
 ```js
 bird.name = "Duffy";

@@ -9,7 +9,7 @@ dashedName: create-a-set-of-checkboxes
 
 # --description--
 
-Forms commonly use <dfn>checkboxes</dfn> for questions that may have more than one answer.
+フォームでは一般的に、複数の回答がある可能性のある質問には<dfn>チェックボックス</dfn>を使用します。
 
 チェックボックスは `input` の一種です。
 

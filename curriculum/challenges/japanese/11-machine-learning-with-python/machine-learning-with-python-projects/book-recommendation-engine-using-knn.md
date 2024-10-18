@@ -1,6 +1,6 @@
 ---
 id: 5e46f8e3ac417301a38fb92f
-title: Book Recommendation Engine using KNN
+title: KNN を使用した書籍推薦エンジン
 challengeType: 10
 forumTopicId: 462378
 dashedName: book-recommendation-engine-using-knn
@@ -20,9 +20,9 @@ You will be <a href="https://colab.research.google.com/github/freeCodeCamp/boile
 
 <a href="http://www2.informatik.uni-freiburg.de/~cziegler/BX/" target="_blank" rel="noopener noreferrer nofollow">ブッククロッシングのデータセット</a>を使用してください。 このデータセットには、90,000 人のユーザーによる 270,000 冊の本に関する 110 万件の (10 段階の) 評価が含まれています。
 
-After importing and cleaning the data, use `NearestNeighbors` from `sklearn.neighbors` to develop a model that shows books that are similar to a given book. Nearest Neighbors アルゴリズムは、distance (距離) を測定してインスタンスの「近さ」を求めます。
+データをインポートしてクリーニングしたら、`sklearn.neighbors` の `NearestNeighbors` を使用して、指定された本と似た本を表示するモデルを作成してください。 Nearest Neighbors アルゴリズムは、distance (距離) を測定してインスタンスの「近さ」を求めます。
 
-Create a function named `get_recommends` that takes a book title (from the dataset) as an argument and returns a list of 5 similar books with their distances from the book argument.
+本のタイトルを (データセットから) 引数として 1 つ取り、それと似た 5 冊の本に、引数の本からの distance を添えたリストを返す `get_recommends` という名前の関数を作成してください。
 
 このコードは:
 
@@ -53,7 +53,7 @@ get_recommends("The Queen of the Damned (Vampire Chronicles (Paperback))")
 
 # --hints--
 
-It should pass all Python tests.
+すべての Python テストが成功する必要があります。
 
 ```js
 

@@ -8,7 +8,7 @@ dashedName: vector-dot-product
 
 # --description--
 
-A vector can have one or more values represented by an ordered collection. Examples could be (x), (x, y), or (x, y, z).
+ベクトルは、順序集合によって表される 1 つ以上の値を持つことができます。 例として (x)、(x, y)、(x, y, z) などがあります。
 
 # --instructions--
 

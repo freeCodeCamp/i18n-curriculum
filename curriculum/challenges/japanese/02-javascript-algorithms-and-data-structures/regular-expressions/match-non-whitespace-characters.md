@@ -8,7 +8,7 @@ dashedName: match-non-whitespace-characters
 
 # --description--
 
-You learned about searching for whitespace using `\s`, with a lowercase `s`. You can also search for everything except whitespace.
+小文字の `s` による `\s` を使用した空白の検索方法を学びました。 空白以外のすべてのものを検索することもできます。
 
 空白以外を検索するには `\S` を使用します。これには大文字の `s` を使用します。 このパターンは、空白、キャリッジリターン、タブ、フォームフィード、および改行文字にマッチしません。 文字クラス `[^ \r\t\f\n\v]` に似たものと考えることができます。
 

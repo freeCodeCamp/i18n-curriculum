@@ -9,7 +9,7 @@ dashedName: manipulate-arrays-with-shift
 
 # --description--
 
-`pop()` always removes the last element of an array. What if you want to remove the first?
+`pop()` は常に配列の最後の要素を削除します。 では、最初の要素を削除したい場合はどうすればいいでしょうか？
 
 そのような場合に使用するのが `.shift()` です。 これは `.pop()` と同様の動作をしますが、最後の要素ではなく最初の要素を削除します。
 

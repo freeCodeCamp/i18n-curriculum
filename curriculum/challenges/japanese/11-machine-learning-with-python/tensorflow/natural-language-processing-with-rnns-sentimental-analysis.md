@@ -14,7 +14,7 @@ dashedName: natural-language-processing-with-rnns-sentiment-analysis
 
 ## --text--
 
-Fill in the blanks below to create the model for the RNN:
+次の空欄を埋めて RNN のモデルを作成してください。
 
 ```py
 model = __A__.keras.Sequential([

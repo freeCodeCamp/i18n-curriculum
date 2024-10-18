@@ -9,7 +9,7 @@ dashedName: use-the-css-transform-property-skewx-to-skew-an-element-along-the-x-
 
 # --description--
 
-The next function of the `transform` property is `skewX()`, which skews the selected element along its X (horizontal) axis by a given degree.
+`transform` プロパティの次の関数は `skewX()` です。これは選択された要素を X 軸 (水平方向) に沿って指定された角度だけゆがめます。
 
 次のコードは、段落要素を X 軸に沿って -32 度傾けます。
 

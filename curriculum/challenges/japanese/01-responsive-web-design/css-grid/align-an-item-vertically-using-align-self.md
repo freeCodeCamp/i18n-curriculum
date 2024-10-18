@@ -9,7 +9,7 @@ dashedName: align-an-item-vertically-using-align-self
 
 # --description--
 
-Just as you can align an item horizontally, there's a way to align an item vertically as well. To do this, you use the `align-self` property on an item. This property accepts all of the same values as `justify-self` from the last challenge.
+アイテムを水平方向に配置するのと同様に、垂直に配置する方法もあります。 そのためには、アイテムの `align-self` プロパティを使用します。 このプロパティは前回のチャレンジで説明した `justify-self` と同じ値をすべて受け付けることができます。
 
 # --instructions--
 

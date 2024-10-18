@@ -8,7 +8,7 @@ dashedName: manage-npm-dependencies-by-understanding-semantic-versioning
 
 # --description--
 
-`Versions` of the npm packages in the dependencies section of your package.json file follow what’s called Semantic Versioning (SemVer), an industry standard for software versioning aiming to make it easier to manage dependencies. Libraries, frameworks or other tools published on npm should use SemVer in order to clearly communicate what kind of changes projects can expect if they update.
+package.json ファイルの依存関係セクションにある npm パッケージの `Versions` は、いわゆるセンマティック バージョニング (SemVer) と呼ばれる決まりに従っています。SemVer とは、依存関係の管理を容易にすることを目的としたソフトウェアバージョン管理の業界標準です。 npm に公開されるライブラリ、フレームワークおよびその他のツールでは、プロジェクトを更新する場合にどのような変更がプロジェクトに加えられるのかを明確に伝えるために、SemVer を使用する必要があります。
 
 SemVer を理解しておくと、外部の依存関係を使用するソフトウェアを開発する場合 (ほとんどの場合はそうです) に役立ちます。 将来、これらの数字を理解しておけば、昨日まで動いていたものが今日になって突然動かなくなった理由を理解できなくても、誤ってプロジェクトに破壊的な変更を加えることはなくなります。 公式ウェブサイトによれば、センマティック バージョニングの仕組みは以下のようになっています。
 

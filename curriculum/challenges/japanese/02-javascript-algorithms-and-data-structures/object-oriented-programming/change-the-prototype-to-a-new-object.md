@@ -8,7 +8,7 @@ dashedName: change-the-prototype-to-a-new-object
 
 # --description--
 
-Up until now you have been adding properties to the `prototype` individually:
+これまでは、`prototype` に個別にプロパティを追加してきました。
 
 ```js
 Bird.prototype.numLegs = 2;

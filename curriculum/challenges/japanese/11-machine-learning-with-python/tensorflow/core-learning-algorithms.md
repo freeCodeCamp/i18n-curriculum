@@ -18,25 +18,25 @@ The next few video lessons will reference [this Colab notebook](https://colab.re
 
 ## --text--
 
-Which type of analysis would be best suited for the following problem?:
+次の問題に最も適している分析のタイプはどれですか？
 
-You have the average temperature in the month of March for the last 100 years. Using this data, you want to predict the average temperature in the month of March 5 years from now.
+過去 100 年間の 3 月の平均気温があります。 このデータを使用して、今から 5 年後の 3 月の平均気温を予測したいと考えています。
 
 ## --answers--
 
-Multiple regression
+重回帰
 
 ---
 
-Correlation
+相関関係
 
 ---
 
-Decision tree
+決定木分析
 
 ---
 
-Linear regression
+線形回帰
 
 ## --video-solution--
 

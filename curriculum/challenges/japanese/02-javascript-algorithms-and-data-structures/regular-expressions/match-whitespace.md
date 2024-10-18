@@ -8,7 +8,7 @@ dashedName: match-whitespace
 
 # --description--
 
-The challenges so far have covered matching letters of the alphabet and numbers. You can also match the whitespace or spaces between letters.
+ここまでのチャレンジでは、アルファベットと数字の文字のマッチングについて説明しました。 文字間の空白やスペースにマッチさせることもできます。
 
 空白を検索するには `\s` (小文字の `s`) を使用できます。 このパターンは、空白にマッチするだけでなく、キャリッジリターン、タブ、フォームフィード、改行文字にもマッチします。 文字クラス`[ \r\t\f\n\v]` に似たものと考えることができます。
 

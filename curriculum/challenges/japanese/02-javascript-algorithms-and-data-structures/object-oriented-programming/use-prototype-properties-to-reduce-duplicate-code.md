@@ -1,6 +1,6 @@
 ---
 id: 587d7dae367417b2b2512b7c
-title: Use Prototype Properties to Reduce Duplicate Code
+title: プロトタイプのプロパティを使用して重複コードを減らす
 challengeType: 1
 forumTopicId: 301336
 dashedName: use-prototype-properties-to-reduce-duplicate-code
@@ -8,44 +8,44 @@ dashedName: use-prototype-properties-to-reduce-duplicate-code
 
 # --description--
 
-Since `numLegs` will probably have the same value for all instances of `Bird`, you essentially have a duplicated variable `numLegs` inside each `Bird` instance.
+`numLegs` はおそらく `Bird` のすべてのインスタンスで同じ値になるので、実質的に各 `Bird` インスタンスの中に重複した変数 `numLegs` が存在することになります。
 
-This may not be an issue when there are only two instances, but imagine if there are millions of instances. That would be a lot of duplicated variables.
+インスタンスが 2 つだけならば問題にはならないかもしれませんが、インスタンスが何百万もある状況を想像してみてください。 たくさんの重複変数ができることになります。
 
-A better way is to use the `prototype` of `Bird`. Properties in the `prototype` are shared among ALL instances of `Bird`. Here's how to add `numLegs` to the `Bird prototype`:
+より適切なのは、`Bird` の `prototype` を使用する方法です。 `prototype` のプロパティは `Bird` のすべてのインスタンスで共有されます。 次の方法で `numLegs` を `Bird prototype` に追加できます。
 
 ```js
 Bird.prototype.numLegs = 2;
 ```
 
-Now all instances of `Bird` have the `numLegs` property.
+これで `Bird` のすべてのインスタンスが `numLegs` プロパティを持ちます。
 
 ```js
 console.log(duck.numLegs);
 console.log(canary.numLegs);
 ```
 
-Since all instances automatically have the properties on the `prototype`, think of a `prototype` as a "recipe" for creating objects. Note that the `prototype` for `duck` and `canary` is part of the `Bird` constructor as `Bird.prototype`.
+すべてのインスタンスは自動的に `prototype` にプロパティを持つので、`prototype` をオブジェクトを作成するための「レシピ」と捉えることができます。 ちなみに、`duck` と `canary` の `prototype` は、`Bird.prototype` として `Bird` のコンストラクターの一部となっています。
 
 # --instructions--
 
-Add a `numLegs` property to the `prototype` of `Dog`
+`numLegs` プロパティを `Dog` の `prototype` に追加してください。
 
 # --hints--
 
-`beagle` should have a `numLegs` property.
+`beagle` は `numLegs` プロパティを持つ必要があります。
 
 ```js
 assert(beagle.numLegs !== undefined);
 ```
 
-`beagle.numLegs` should be a number.
+`beagle.numLegs` は数値である必要があります。
 
 ```js
 assert(typeof beagle.numLegs === 'number');
 ```
 
-`numLegs` should be a `prototype` property not an own property.
+`numLegs` は、独自のプロパティではなく、`prototype` のプロパティにする必要があります。
 
 ```js
 assert(beagle.hasOwnProperty('numLegs') === false);

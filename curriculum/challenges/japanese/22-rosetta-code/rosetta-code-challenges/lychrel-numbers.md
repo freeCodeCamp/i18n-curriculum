@@ -9,12 +9,12 @@ dashedName: lychrel-numbers
 # --description--
 
 <ol>
-  <li>Take an integer <code>n₀</code>, greater than zero.</li>
+  <li>0 より大きい整数 <code>n₀</code> を取得します。</li>
   <li><code>n₀</code> を反転させ、 これを <code>n₀</code> に追加して、級数の次の数 <code>n</code> を作ります。</li>
   <li><code>n</code> が回文数になったとき、すなわち逆順の <code>n</code> の桁 == <code>n</code> になったときに停止します。</li>
 </ol>
 
-The above recurrence relation when applied to most starting numbers `n` = 1, 2, ... terminates in a palindrome quite quickly.
+上記の漸化式は、適用するほとんどの開始数値 `n` = 1, 2, ... で、かなり早く回文数になり終了します。
 
 例えば、`n₀` = 12 の場合、以下のようになります。
 

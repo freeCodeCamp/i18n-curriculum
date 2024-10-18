@@ -8,7 +8,7 @@ dashedName: set-up-the-environment
 
 # --description--
 
-The following challenges will make use of the `chat.pug` file. So, in your `routes.js` file, add a GET route pointing to `/chat` which makes use of `ensureAuthenticated`, and renders `chat.pug`, with `{ user: req.user }` passed as an argument to the response. Now, alter your existing `/auth/github/callback` route to set the `req.session.user_id = req.user.id`, and redirect to `/chat`.
+以降のチャレンジでは `chat.pug` ファイルを使用します。 そこで、`routes.js` ファイルで、`/chat` を指す GET ルートを追加してください。/chat は、`ensureAuthenticated` を利用し、レスポンスへの引数として渡された `{ user: req.user }` を使用して `chat.pug` をレンダーします。 次に、既存の `/auth/github/callback` ルートを変更して、`req.session.user_id = req.user.id` を設定し、`/chat` にリダイレクトしてください。
 
 すでに `socket.io@~2.3.0` が依存関係として追加されているので、(Node.js に組み込まれている) `http` を使用して、以下のようにサーバーでソケットの require を定義しインスタンス化してください。
 

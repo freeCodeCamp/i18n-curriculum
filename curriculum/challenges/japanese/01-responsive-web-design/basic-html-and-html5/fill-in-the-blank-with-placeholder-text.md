@@ -9,7 +9,7 @@ dashedName: fill-in-the-blank-with-placeholder-text
 
 # --description--
 
-Web developers traditionally use <dfn>lorem ipsum text</dfn> as placeholder text. The lorem ipsum text is randomly scraped from a famous passage by Cicero of Ancient Rome.
+Web 開発者は慣習的に <dfn>lorem ipsum</dfn> テキストをプレイスホルダーテキストとして使用します。 lorem ipsum テキストとは、古代ローマの哲学者キケロの書いた有名な文章をランダムに抜粋したものです。
 
 lorem ipsum テキストはプレイスホルダーテキストとして 16 世紀から植字工たちに使用されており、この伝統がウェブに引き継がれています。
 

@@ -8,7 +8,7 @@ dashedName: deal-cards-for-freecell
 
 # --description--
 
-*FreeCell* is the solitaire card game that Paul Alfille introduced to the PLATO system in 1978. Jim Horne, at Microsoft, changed the name to FreeCell and reimplemented the game for DOS, then Windows. This version introduced 32000 numbered deals.
+*フリーセル*は、ポール・アルフィレ (Paul Alfille) が 1978 年に PLATO システムに導入したソリティアというカードゲームです。 Microsoft のジム・ホーンは、ゲームの名称を「フリーセル」に改め、DOS、続いて Windows 向けにゲームを再実装しました。 このバージョンでは、32000 のゲーム番号が導入されました。
 
 ゲームが普及し、ジム・ホーンがアルゴリズムを開示したため、他のフリーセル実装でも Microsoft と同様のアルゴリズムでカードが配られるようになりました。 カードの配り方には 1 から 32000 まで番号が付けられています。 Microsoft の新しいバージョンでは、1 から 1000000 までの番号が付けられた 100 万のゲーム番号があります。一部の実装では、この範囲外の番号も使用されています。
 
@@ -23,16 +23,16 @@ dashedName: deal-cards-for-freecell
 アルゴリズムは以下のとおりです。
 
 <ol>
-  <li>Seed the RNG with the number of the deal.
+  <li>RNG にゲーム番号を与えます。
   </li><li>52 枚のカードの配列を作成します。クラブのエース、ダイヤモンドのエース、ハートのエース、スペードのエース、クラブの 2、ダイヤモンドの 2、…と続き、エース、2、3、4、5、6、7、8、9、10、ジャック、クイーン、キングまで続きます。 配列インデックスは 0 から 51 で、クラブのエースは 0、スペードのキングは 51 です。</li>
   <li>配列が空になるまで、以下の手順を実行します。</li>
     <ul>
       <li>Choose a random card at <i>index</i> ≡ <i>next random number</i> (mod <i>array length</i>).</li>
-      <li>Swap this random card with the last card of the array.</li>
-      <li>Remove this random card from the array. (Array length goes down by 1.)</li>
-      <li>Deal this random card.</li>
+      <li>このランダムなカードを配列の最後のカードと交換します。</li>
+      <li>このランダムなカードを配列から削除します (配列の長さが 1 減る)。</li>
+      <li>このランダムなカードを配ります。</li>
     </ul>
-  <li>Deal all 52 cards, face up, across 8 columns. The first 8 cards go in 8 columns, the next 8 cards go on the first 8 cards, and so on.</li>
+  <li>52 枚すべてのカードを、表を上にして 8 列に配ります。 最初の 8 枚のカードが 8 列に配られ、その上に次の 8 枚のカードが配られ、と続いていきます。</li>
 </ol>
 
 **例:**
@@ -81,31 +81,31 @@ dashedName: deal-cards-for-freecell
 
 # --hints--
 
-`dealFreeCell` should be a function.
+`dealFreeCell` という関数です。
 
 ```js
 assert(typeof dealFreeCell === 'function');
 ```
 
-`dealFreeCell(seed)` should return an object.
+`dealFreeCell(seed)` はオブジェクトを返します。
 
 ```js
 assert(typeof dealFreeCell(1) === 'object');
 ```
 
-`dealFreeCell(seed)` should return an array of length 7.
+`dealFreeCell(seed)` は長さ 7 の配列を返します。
 
 ```js
 assert(dealFreeCell(1).length === 7);
 ```
 
-`dealFreeCell(1)` should return an array identical to example "Game #1"
+`dealFreeCell(1)` は例「Game #1」と同一の配列を返します。
 
 ```js
 assert.deepEqual(dealFreeCell(1), game1);
 ```
 
-`dealFreeCell(617)` should return an array identical to example "Game #617"
+`dealFreeCell(617)` は「Game #617」と同一の配列を返します。
 
 ```js
 assert.deepEqual(dealFreeCell(617), game617);

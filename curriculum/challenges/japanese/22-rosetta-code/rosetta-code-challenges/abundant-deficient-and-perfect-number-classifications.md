@@ -8,7 +8,7 @@ dashedName: abundant-deficient-and-perfect-number-classifications
 
 # --description--
 
-These define three classifications of positive integers based on their proper divisors.
+真の約数に基づいて、正の整数を 3 つに分類します。
 
 $P(n)$ は、真の約数が `n` 自身以外の正の整数 `n` である場合の `n` の真の約数の総和です。
 

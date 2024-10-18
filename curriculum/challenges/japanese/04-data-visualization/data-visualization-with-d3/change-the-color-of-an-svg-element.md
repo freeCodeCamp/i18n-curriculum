@@ -8,7 +8,7 @@ dashedName: change-the-color-of-an-svg-element
 
 # --description--
 
-The bars are in the right position, but they are all the same black color. SVG has a way to change the color of the bars.
+バーは正しい位置にありますが、すべて同じ黒色です。 SVG にはバーの色を変更する方法があります。
 
 SVG では、`rect` 図形は `fill` 属性で色付けされます。 16 進コード、色名、rgb 値、さらにはグラデーションや透過性などの複雑なオプションもサポートしています。
 

@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedf08834
-title: Create a Set of Radio Buttons
+title: ラジオボタンのセットを作成する
 challengeType: 0
 forumTopicId: 16822
 dashedName: create-a-set-of-radio-buttons
@@ -8,15 +8,15 @@ dashedName: create-a-set-of-radio-buttons
 
 # --description--
 
-You can use <dfn>radio buttons</dfn> for questions where you want the user to only give you one answer out of multiple options.
+ユーザーに複数の選択肢から 1 つだけ回答を選んでほしい質問には<dfn>ラジオボタン</dfn>を使うことができます。
 
-Radio buttons are a type of `input`.
+ラジオボタンは `input` の一種です。
 
-Each of your radio buttons can be nested within its own `label` element. By wrapping an `input` element inside of a `label` element it will automatically associate the radio button input with the label element surrounding it.
+1 つ 1 つのラジオボタンは、対応する `label` 要素内にネストすることができます。 `input` 要素を `label` 要素の中に入れることにより、ラジオボタンがそれを囲んでいるラベル要素と自動的に関連付けられます。
 
-All related radio buttons should have the same `name` attribute to create a radio button group. By creating a radio group, selecting any single radio button will automatically deselect the other buttons within the same group ensuring only one answer is provided by the user.
+ラジオボタングループを作成するために、すべての関係するラジオボタンには同じ `name` 属性を設定します。 ラジオボタングループを作成することにより、どれか 1 つのラジオボタンを選択すると同じグループ内の他のラジオボタンの選択が自動的に解除されるようになり、ユーザーから回答が 1 つだけ提供されることが保証されます。
 
-Here's an example of a radio button:
+こちらがラジオボタンの例です:
 
 ```html
 <label> 
@@ -24,14 +24,14 @@ Here's an example of a radio button:
 </label>
 ```
 
-It is considered best practice to set a `for` attribute on the `label` element, with a value that matches the value of the `id` attribute of the `input` element. This allows assistive technologies to create a linked relationship between the label and the related `input` element. For example:
+`label` 要素の `for` 属性に、`input` 要素の `id` 属性と一致する値を設定することがベストプラクティスと考えられています。 そうすることにより、アシスティブ・テクノロジーがラベルと対応する `input` 要素を関連付けることができるようになります。 例:
 
 ```html
 <input id="indoor" type="radio" name="indoor-outdoor">
 <label for="indoor">Indoor</label>
 ```
 
-We can also nest the `input` element within the `label` tags:
+`input` 要素を `label` タグの中にネストすることもできます:
 
 ```html
 <label for="indoor"> 
@@ -41,29 +41,29 @@ We can also nest the `input` element within the `label` tags:
 
 # --instructions--
 
-Add a pair of radio buttons to your form, each nested in its own `label` element. One should have the option of `indoor` and the other should have the option of `outdoor`. Both should share the `name` attribute of `indoor-outdoor` to create a radio group.
+フォームに、それぞれが `label` 要素の中にネストされた 2 つのラジオボタンを追加してください。 1 つは `indoor` の選択肢、もう一つは `outdoor` の選択肢を持つようにしてください。 ラジオボタングループを作成するために、両方とも `name` 属性は `indoor-outdoor` としてください。
 
 # --hints--
 
-Your page should have two `radio` button elements.
+ページには `radio` ボタン要素が 2 つ必要です。
 
 ```js
 assert($('input[type="radio"]').length > 1);
 ```
 
-Your radio buttons should be given the `name` attribute of `indoor-outdoor`.
+ラジオボタンの `name` 属性は `indoor-outdoor` に設定してください。
 
 ```js
 assert($('input[type="radio"]').filter("[name='indoor-outdoor']").length > 1);
 ```
 
-Each of your two radio button elements should be nested in its own `label` element.
+2 つのラジオボタン要素は、それぞれ対応する `label` 要素にネストされている必要があります。
 
 ```js
 assert($('label > input[type="radio"]:only-child').length > 1);
 ```
 
-Each of your `label` elements should have a closing tag.
+それぞれの `label` 要素に終了タグが必要です。
 
 ```js
 assert(
@@ -73,7 +73,7 @@ assert(
 );
 ```
 
-One of your radio buttons should have the label `indoor`.
+ラジオボタンの 1 つに `indoor` というラベルを付けてください。
 
 ```js
 assert(
@@ -83,7 +83,7 @@ assert(
 );
 ```
 
-One of your radio buttons should have the label `outdoor`.
+ラジオボタンの 1 つに `outdoor` というラベルを付けてください。
 
 ```js
 assert(
@@ -93,7 +93,7 @@ assert(
 );
 ```
 
-Each of your radio button elements should be added within the `form` tag.
+各ラジオボタン要素は `form` タグ内に追加する必要があります。
 
 ```js
 assert($('label').parent().get(0).tagName.match('FORM'));

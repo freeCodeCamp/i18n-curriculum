@@ -8,9 +8,9 @@ dashedName: hailstone-sequence
 
 # --description--
 
-The Hailstone sequence of numbers can be generated from a starting positive integer, `n` by:
+ヘイルストーンシーケンスの数列は、正の整数 `n` を初期値として生成され、n は以下のいずれかになります：
 
-- If `n` is `1` then the sequence ends
+- `n` が `1` の場合、この数列は終了します
 - `n` が`even` (偶数) の場合、シーケンスの 次の `n` は `= n/2`
 - `n` が `odd` (奇数) の場合、シーケンスの次の `n` は `= (3 * n) + 1`
 
@@ -20,7 +20,7 @@ The Hailstone sequence of numbers can be generated from a starting positive inte
 
 # --instructions--
 
-1. Create a routine to generate the hailstone sequence for a number
+1. ある数値のヘイルストーンシーケンスを生成するルーチンを作成してください。
 2. この関数は、最長のヘイルストーンシーケンスを取る `limit` 未満の数とそのシーケンスの長さを持つ配列を返す必要があります。 (ただし、実際のシーケンスは表示しないでください！)
 
 # --hints--

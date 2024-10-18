@@ -8,7 +8,7 @@ dashedName: communicate-by-emitting
 
 # --description--
 
-<dfn>Emit</dfn> is the most common way of communicating you will use. When you emit something from the server to 'io', you send an event's name and data to all the connected sockets. A good example of this concept would be emitting the current count of connected users each time a new user connects!
+<dfn>エミット (emit)</dfn> は、最もよく使用する通信方法です。 サーバーから「io」へ何かをエミットするときは、接続中のすべてのソケットにイベントの名前とデータを送信します。 エミットの良い例として、たとえば新しいユーザーが接続するたびに、接続したユーザーの現在の数をエミットすることができます。
 
 まず、現在接続をリッスンしている場所の直前に、ユーザーを追跡する変数を追加してください。
 

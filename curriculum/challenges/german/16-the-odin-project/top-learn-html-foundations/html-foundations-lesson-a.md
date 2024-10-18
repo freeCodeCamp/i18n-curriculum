@@ -18,7 +18,7 @@ Ein vollständiges Absatzelement sieht folgendermaßen aus:
 
 <img src="https://cdn.freecodecamp.org/curriculum/odin-project/html-foundations/html-foundations-01.png" alt='An opening p tag, followed by the content string "some text content", followed by a closing p tag.' />
 
-# --Auftrag--
+# --assignment--
 
 Watch Kevin Powell’s <a href="https://www.youtube.com/watch?v=LGQuIIv2RVA&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-" target="_blank">Introduction to HTML video</a>
 

@@ -8,7 +8,7 @@ dashedName: prevent-infinite-loops-with-a-valid-terminal-condition
 
 # --description--
 
-The final topic is the dreaded infinite loop. Loops are great tools when you need your program to run a code block a certain number of times or until a condition is met, but they need a terminal condition that ends the looping. Infinite loops are likely to freeze or crash the browser, and cause general program execution mayhem, which no one wants.
+最後のトピックは、煩わしい無限ループです。 ループは、コードブロックを特定の回数だけ、または条件が満たされるまで実行するには最適なツールですが、ループを終わらせるためには終了条件が必要です。 無限ループはブラウザーをフリーズまたはクラッシュさせ、通常のプログラムの実行を妨げる問題を引き起こす可能性があります。
 
 このセクションの導入部に無限ループの例がありましたが、`loopy()` 内の `while` ループを抜け出すための終了条件は記述していませんでした。 次の関数を呼び出さないでください！
 

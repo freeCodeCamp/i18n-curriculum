@@ -9,7 +9,7 @@ dashedName: link-to-external-pages-with-anchor-elements
 
 # --description--
 
-You can use `a` (*anchor*) elements to link to content outside of your web page.
+`a` (*アンカー*) 要素を使用して、あなたのウェブページ外のコンテンツへリンクすることができます。
 
 `a` 要素には、`href` 属性と呼ばれるリンク先のウェブアドレスが必要です。 また、アンカーテキストも必要です。 以下が例です:
 

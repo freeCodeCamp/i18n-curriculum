@@ -8,7 +8,7 @@ dashedName: sum-all-primes
 
 # --description--
 
-A <dfn>prime number</dfn> is a whole number greater than 1 with exactly two divisors: 1 and itself. For example, 2 is a prime number because it is only divisible by 1 and 2. In contrast, 4 is not prime since it is divisible by 1, 2 and 4.
+<dfn>素数</dfn>とは、1 より大きい整数で、約数として 1 とそれ自体の 2 つのみを持つものです。 たとえば、2 は 1 と 2 でしか割り切れないので素数です。 一方、4 は 1、2、4 で割り切れるので素数ではありません。
 
 num 以下のすべての素数の合計を返すように `sumPrimes` を書き換えてください。
 

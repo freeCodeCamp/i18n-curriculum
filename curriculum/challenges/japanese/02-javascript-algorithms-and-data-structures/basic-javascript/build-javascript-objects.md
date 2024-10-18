@@ -1,6 +1,6 @@
 ---
 id: 56bbb991ad1ed5201cd392d0
-title: Build JavaScript Objects
+title: JavaScript オブジェクトの作成
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cWGkbtd'
 forumTopicId: 16769
@@ -9,13 +9,13 @@ dashedName: build-javascript-objects
 
 # --description--
 
-You may have heard the term `object` before.
+これまでに `object` (オブジェクト) という言葉を耳にしたことがあるでしょうか。
 
-Objects are similar to `arrays`, except that instead of using indexes to access and modify their data, you access the data in objects through what are called `properties`.
+オブジェクトは `arrays` (配列) に似ていますが、配列とは異なり、インデックスを使用してデータにアクセスしたりデータを変更したりする代わりに、`properties` (プロパティ) と呼ばれるものを通じてオブジェクトのデータにアクセスします。
 
-Objects are useful for storing data in a structured way, and can represent real world objects, like a cat.
+オブジェクトはデータを構造化して格納する場合に便利であり、たとえば猫などの現実世界の物体 (オブジェクト) を表現することができます。
 
-Here's a sample cat object:
+次は猫のオブジェクトの例です。
 
 ```js
 const cat = {
@@ -26,7 +26,7 @@ const cat = {
 };
 ```
 
-In this example, all the properties are stored as strings, such as `name`, `legs`, and `tails`. However, you can also use numbers as properties. You can even omit the quotes for single-word string properties, as follows:
+この例では、すべてのプロパティを `name`、`legs`、`tails` のように文字列として格納しています。 しかし、数値もプロパティとして使用することが可能です。 次のように、1 つの単語の文字列プロパティの場合は引用符を省略することもできます。
 
 ```js
 const anotherObject = {
@@ -36,17 +36,17 @@ const anotherObject = {
 };
 ```
 
-However, if your object has any non-string properties, JavaScript will automatically typecast them as strings.
+ただし、オブジェクトに文字列ではないプロパティがある場合、JavaScript では自動的に文字列に型変換されます。
 
 # --instructions--
 
-Make an object that represents a dog called `myDog` which contains the properties `name` (a string), `legs`, `tails` and `friends`.
+犬を表現する `myDog` というオブジェクトを作成してください。このオブジェクトには `name` (文字列)、`legs`、`tails`、`friends` というプロパティを含めてください。
 
-You can set these object properties to whatever values you want, as long as `name` is a string, `legs` and `tails` are numbers, and `friends` is an array.
+オブジェクトのプロパティには任意の値を設定できます。ただし、`name` は文字列、`legs` と `tails` は数値、`friends` は配列とします。
 
 # --hints--
 
-`myDog` should contain the property `name` and it should be a `string`.
+`myDog` はプロパティ `name` を含み、それは `string` である必要があります。
 
 ```js
 assert(
@@ -64,7 +64,7 @@ assert(
 );
 ```
 
-`myDog` should contain the property `legs` and it should be a `number`.
+`myDog` はプロパティ `legs` を含み、それは `number` である必要があります。
 
 ```js
 assert(
@@ -82,7 +82,7 @@ assert(
 );
 ```
 
-`myDog` should contain the property `tails` and it should be a `number`.
+`myDog` はプロパティ `tails` を含み、それは `number` である必要があります。
 
 ```js
 assert(
@@ -100,7 +100,7 @@ assert(
 );
 ```
 
-`myDog` should contain the property `friends` and it should be an `array`.
+`myDog` はプロパティ `friends` を含み、それは `array` である必要があります。
 
 ```js
 assert(
@@ -118,7 +118,7 @@ assert(
 );
 ```
 
-`myDog` should only contain all the given properties.
+`myDog` には指定されたすべてのプロパティのみを含めてください。
 
 ```js
 assert(

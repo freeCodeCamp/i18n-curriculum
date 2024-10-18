@@ -8,7 +8,7 @@ dashedName: sha-1
 
 # --description--
 
-**SHA-1** or **SHA1** is a one-way hash function; it computes a 160-bit message digest.
+**SHA-1** または **SHA1** は一方向ハッシュ関数で、160 ビットのメッセージダイジェストを計算します。
 
 SHA-1は、多くの場合、セキュリティプロトコルに登場します。たとえば、多くのHTTPSウェブサイトは、接続を保護するためにSHA-1を用いたRSAを使用しています。
 

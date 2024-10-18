@@ -10,7 +10,7 @@ bilibiliIds:
 dashedName: python-functions
 ---
 
-# --preguntas--
+# --questions--
 
 ## --text--
 

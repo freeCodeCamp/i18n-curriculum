@@ -9,7 +9,7 @@ dashedName: comparison-with-the-strict-inequality-operator
 
 # --description--
 
-The strict inequality operator (`!==`) is the logical opposite of the strict equality operator. It means "Strictly Not Equal" and returns `false` where strict equality would return `true` and *vice versa*. The strict inequality operator will not convert data types.
+厳密不等価演算子 (`!==`) は論理的な意味で厳密等価演算子の逆です。 つまり、「厳密に等しくない」 場合に厳密等価演算子が `false` を返す場面で、`true` を返します。*逆の場合も同様です*。 厳密不等価演算子はデータ型の変換を行いません。
 
 **例**
 

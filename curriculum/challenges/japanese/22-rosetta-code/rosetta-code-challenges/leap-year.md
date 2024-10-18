@@ -8,7 +8,7 @@ dashedName: leap-year
 
 # --description--
 
-Determine whether a given year is a leap year in the Gregorian calendar.
+指定された年がグレゴリオ暦のうるう年かどうかを判断します。
 
 # --hints--
 

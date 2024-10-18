@@ -8,7 +8,7 @@ dashedName: create-grids-within-grids
 
 # --description--
 
-Turning an element into a grid only affects the behavior of its direct descendants. So by turning a direct descendant into a grid, you have a grid within a grid.
+要素をグリッドに変換すると、その直接の子要素の動作にのみ影響します。 つまり、直接の子要素をグリッドに変換することで、グリッド内にグリッドを作成することができます。
 
 例えば、`item3` クラスの要素 に `display` と `grid-template-columns` プロパティを設定すると、グリッド内にグリッドを作成できます。
 

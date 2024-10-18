@@ -8,7 +8,7 @@ dashedName: date-manipulation
 
 # --description--
 
-Given a date string in EST, output the given date as a string with 12 hours added to the time. Time zone should be preserved.
+EST に基づく日付文字列が与えられると、12 時間を加えて日付を文字列として出力します。 タイムゾーンは保持します。
 
 入力例: `"March 6 2009 7:30pm EST"`
 

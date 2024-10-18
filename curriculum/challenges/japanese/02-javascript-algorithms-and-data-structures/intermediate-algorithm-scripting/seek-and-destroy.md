@@ -8,7 +8,7 @@ dashedName: seek-and-destroy
 
 # --description--
 
-You will be provided with an initial array as the first argument to the `destroyer` function, followed by one or more arguments. Remove all elements from the initial array that are of the same value as these arguments.
+最初の配列 (`destroyer` 関数の最初の引数) が与えられ、続いて 1 つ以上の引数が与えられます。 これらの引数と同じ値を持つすべての要素を最初の配列から削除してください。
 
 この関数は、variadic 関数とも呼ばれる不定数を受け入れなければなりません。 関数定義にrestパラメータを追加するか、 `arguments` を使用して追加の引数にアクセスできます。
 

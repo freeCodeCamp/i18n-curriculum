@@ -9,7 +9,7 @@ dashedName: comparisons-with-the-logical-and-operator
 
 # --description--
 
-Sometimes you will need to test more than one thing at a time. The <dfn>logical and</dfn> operator (`&&`) returns `true` if and only if the <dfn>operands</dfn> to the left and right of it are true.
+一度に複数の条件をテストしなければならない場合があります。 <dfn>論理積</dfn>演算子 (`&&`) は、左側と右側の<dfn>オペランド</dfn>の両方が true である場合にのみ `true` を返します。
 
 The same effect could be achieved by nesting an `if` statement inside another `if`.
 

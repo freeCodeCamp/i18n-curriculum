@@ -1,6 +1,6 @@
 ---
 id: 56533eb9ac21ba0edf2244aa
-title: Understanding Uninitialized Variables
+title: 初期化されていない変数について理解する
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cBa2JAL'
 forumTopicId: 18335
@@ -9,33 +9,33 @@ dashedName: understanding-uninitialized-variables
 
 # --description--
 
-When JavaScript variables are declared, they have an initial value of `undefined`. If you do a mathematical operation on an `undefined` variable your result will be `NaN` which means <dfn>"Not a Number"</dfn>. If you concatenate a string with an `undefined` variable, you will get a <dfn>string</dfn> of `undefined`.
+JavaScript で変数が宣言されるとき、その初期値は `undefined` です。 `undefined` の変数に対して数値演算を行うと、結果は `NaN` になります。これは、<dfn>"Not a Number" (数字ではない)</dfn> という意味です。 `undefined` の変数を文字列と連結した場合には、`undefined` という<dfn>文字列</dfn>が得られます。
 
 # --instructions--
 
-Initialize the three variables `a`, `b`, and `c` with `5`, `10`, and `"I am a"` respectively so that they will not be `undefined`.
+3 つの変数 `a`、`b`、`c` をそれぞれ `5`、`10`、`"I am a"` で初期化し、これらが `undefined` にならないようにしてください。
 
 # --hints--
 
-`a` should be defined and have a final value of `6`.
+`a` を定義し、最終的な値が `6` になるようにしてください。
 
 ```js
 assert(typeof a === 'number' && a === 6);
 ```
 
-`b` should be defined and have a final value of `15`.
+`b` を定義し、最終的な値が `15` になるようにしてください。
 
 ```js
 assert(typeof b === 'number' && b === 15);
 ```
 
-`c` should not contain `undefined` and should have a final value of the string `I am a String!`
+`c` は `undefined` を含まず、最終的な値が文字列の `I am a String!` になるようにしてください。
 
 ```js
 assert(!/undefined/.test(c) && c === 'I am a String!');
 ```
 
-You should not change code below the specified comment.
+指定のコメントより下にあるコードを変更しないでください。
 
 ```js
 assert(

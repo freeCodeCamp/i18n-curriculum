@@ -8,14 +8,14 @@ dashedName: levenshtein-distance
 
 # --description--
 
-In information theory and computer science, the **Levenshtein distance** is a metric for measuring the amount of difference between two sequences (i.e. an edit distance). The Levenshtein distance between two strings is defined as the minimum number of edits needed to transform one string into the other, with the allowable edit operations being insertion, deletion, or substitution of a single character.
+情報理論やコンピューターサイエンスにおける**レーベンシュタイン距離**とは、2 つの文字列間の違いの度合いを測定するための指標で、 編集距離とも呼ばれます。 2 つの文字列間のレーベンシュタイン距離は、1 つの文字の挿入、削除、置換を行うことで、1 つの文字列をもう 1 つの文字列に変換するために必要な最小編集回数として定義されます。
 
 例:
 
 "**kitten**" と "**sitting**" の間のレーベンシュタイン距離は 3 です。以下の 3 回で一方から他方へと変換され、かつ 3 回より少ない回数の編集でこの変換を行う方法がないからです。
 
 <ul>
-  <li><strong>k</strong>itten   <strong>s</strong>itten    (substitution of 'k' with 's')</li>
+  <li><strong>k</strong>itten   <strong>s</strong>itten    ('k' を 's' で置換)</li>
   <li>sitt<strong>e</strong>n   sitt<strong>i</strong>n    ('e' を 'i' で置換)</li>
   <li>sittin   sittin<strong>g</strong>    (最後に 'g' を挿入)</li>
 </ul>

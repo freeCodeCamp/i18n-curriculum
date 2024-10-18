@@ -15,7 +15,7 @@ dashedName: comma-quibbling
 リスト / シーケンスからの入力単語の連結である文字列を出力する関数を作成します。
 
 <ol>
-  <li>An input of no words produces the output string of just the two brace characters (<code>"{}"</code>)</li>
+  <li>単語を入力しなかった場合、2 つの中括弧文字 (<code>"{}"</code>) だけの出力文字列が生成されます。</li>
   <li>1 単語、例えば <code>["ABC"]</code>、だけを入力した場合、<code>"{ABC}"</code> のように、2 つの中括弧の中にその単語が出力文字列として生成されます。</li>
   <li>2 つの単語、例えば <code>["ABC", "DEF"]</code>、を入力した場合、<code>"{ABC and DEF}"</code> のように、文字列 <code>" and "</code> に区切られた 2 つの単語が、2 つの中括弧の中に出力文字列として生成されます。</li>
   <li>3 つ以上の単語、 例えば <code>["ABC", "DEF", "G", "H"]</code> を入力した場合、<code>"{ABC, DEF, G and H}"</code> のように、最後の単語以外のすべての単語は、<code>", "</code> で区切られ、最後の単語は <code>" and "</code> で区切られ、すべての単語が中括弧の中に出力文字列として生成されます。</li>
@@ -24,7 +24,7 @@ dashedName: comma-quibbling
 次の一連の入力によりこのページに出力表示して、関数をテストします。
 
 <ul>
-  <li>[] # (No input words).</li>
+  <li>[] # (入力単語なし)</li>
   <li>["ABC"]</li>
   <li>["ABC", "DEF"]</li>
   <li>["ABC", "DEF", "G", "H"]</li>

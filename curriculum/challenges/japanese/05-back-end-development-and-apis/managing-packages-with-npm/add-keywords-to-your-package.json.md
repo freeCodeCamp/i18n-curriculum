@@ -1,6 +1,6 @@
 ---
 id: 587d7fb4367417b2b2512bfd
-title: Add Keywords to Your package.json
+title: package.json にキーワードを追加する
 challengeType: 2
 forumTopicId: 301526
 dashedName: add-keywords-to-your-package-json
@@ -8,23 +8,23 @@ dashedName: add-keywords-to-your-package-json
 
 # --description--
 
-The `keywords` field is where you can describe your project using related keywords. Here's an example:
+`keywords` フィールドでは、関連するキーワードを使用してプロジェクトを記述できます。 こちらがその例です。
 
 ```json
 "keywords": [ "descriptive", "related", "words" ],
 ```
 
-As you can see, this field is structured as an array of double-quoted strings.
+ご覧のとおり、このフィールドは二重引用符で囲まれた文字列の配列として構成されています。
 
 # --instructions--
 
-Add an array of suitable strings to the `keywords` field in the package.json file of your project.
+プロジェクトの package.json ファイルの `keywords` フィールドに、適切な文字列の配列を追加してください。
 
-One of the keywords should be "freecodecamp".
+キーワードの 1 つを「freecodecamp」にする必要があります。
 
 # --hints--
 
-package.json should have a valid "keywords" key
+package.json で、有効な 「keywords」キーを記述する必要があります。
 
 ```js
 (getUserInput) =>
@@ -39,7 +39,7 @@ package.json should have a valid "keywords" key
   );
 ```
 
-"keywords" field should be an Array
+「keywords」フィールドは、配列である必要があります。
 
 ```js
 (getUserInput) =>
@@ -54,7 +54,7 @@ package.json should have a valid "keywords" key
   );
 ```
 
-"keywords" should include "freecodecamp"
+「keywords」に「freecodecamp」を含める必要があります。
 
 ```js
 (getUserInput) =>

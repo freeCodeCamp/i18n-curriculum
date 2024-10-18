@@ -8,7 +8,7 @@ dashedName: use-export-to-share-a-code-block
 
 # --description--
 
-Imagine a file called `math_functions.js` that contains several functions related to mathematical operations. One of them is stored in a variable, `add`, that takes in two numbers and returns their sum. You want to use this function in several different JavaScript files. In order to share it with these other files, you first need to `export` it.
+算術演算に関わる関数をいくつか含む `math_functions.js` というファイルがあるとします。 それらの関数の 1 つは変数 `add` に格納されています。この関数は、2 つの数字を受け取り、その和を返します。 この関数を、複数の別の JavaScript ファイルで使用したいとします。 関数をそれらの他のファイルと共有するには、まず `export` (エクスポート) する必要があります。
 
 ```js
 export const add = (x, y) => {

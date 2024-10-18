@@ -9,7 +9,7 @@ dashedName: use-the-flex-shrink-property-to-shrink-items
 
 # --description--
 
-So far, all the properties in the challenges apply to the flex container (the parent of the flex items). However, there are several useful properties for the flex items.
+これまでは、チャレンジ内のすべてのプロパティはフレックスコンテナー (フレックスアイテムの親) に適用されていました。 一方で、フレックスアイテムにもいくつかの便利なプロパティがあります。
 
 1 つ目は `flex-shrink` プロパティです。 これを使用すると、フレックスコンテナーが小さすぎるとき、アイテムを縮小させることができます。 親コンテナーの幅がその中のすべてのフレックスアイテムを足し合わせた幅より小さい場合に、アイテムが縮小されます。
 

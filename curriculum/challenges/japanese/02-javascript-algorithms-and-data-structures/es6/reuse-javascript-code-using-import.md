@@ -8,7 +8,7 @@ dashedName: reuse-javascript-code-using-import
 
 # --description--
 
-`import` allows you to choose which parts of a file or module to load. In the previous lesson, the examples exported `add` from the `math_functions.js` file. Here's how you can import it to use in another file:
+`import` を使用すると、ファイルまたはモジュールのどの部分を読み込むかを選択できます。 前のレッスンの例では、`math_functions.js` ファイルから `add` をエクスポートしました。 次の方法で、別のファイルでインポートして使用することができます。
 
 ```js
 import { add } from './math_functions.js';

@@ -8,7 +8,7 @@ dashedName: remove-items-from-a-set-in-es6
 
 # --description--
 
-Let's practice removing items from an ES6 Set using the `delete` method.
+`delete` メソッドを使って ES6 のセットから要素を削除する方法を練習しましょう。
 
 まず、ES6のセットを作成します。
 

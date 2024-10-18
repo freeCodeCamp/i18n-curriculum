@@ -8,7 +8,7 @@ dashedName: positive-and-negative-lookahead
 
 # --description--
 
-<dfn>Lookaheads</dfn> are patterns that tell JavaScript to look-ahead in your string to check for patterns further along. This can be useful when you want to search for multiple patterns over the same string.
+<dfn>先読み</dfn>とは、文字列の先頭から調べるように JavaScript に指示するパターンです。 これは、同じ文字列で複数のパターンを検索する場合に便利です。
 
 先読みには<dfn>肯定先読み</dfn>と<dfn>否定先読み</dfn>の 2 種類があります。
 

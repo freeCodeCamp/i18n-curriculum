@@ -8,7 +8,7 @@ dashedName: understand-where-an-objects-prototype-comes-from
 
 # --description--
 
-Just like people inherit genes from their parents, an object inherits its `prototype` directly from the constructor function that created it. For example, here the `Bird` constructor creates the `duck` object:
+人々が親から遺伝子を継承するのと同じように、オブジェクトはそれを作成したコンストラクター関数から直接、自身の `prototype` を継承します。 次の例では、`Bird` コンストラクターが `duck` オブジェクトを作成します。
 
 ```js
 function Bird(name) {

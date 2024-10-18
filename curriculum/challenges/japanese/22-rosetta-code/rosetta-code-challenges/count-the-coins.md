@@ -8,19 +8,19 @@ dashedName: count-the-coins
 
 # --description--
 
-There are four types of common coins in US currency:
+米国通貨には 4 種類の一般的なコインがあります。
 
 <ul>
-  <li>quarters (25 cents)</li>
-  <li>dimes (10 cents)</li>
-  <li>nickels (5 cents), and</li>
-  <li>pennies (1 cent)</li>
+  <li>25 セント硬貨</li>
+  <li>10 セント硬貨</li>
+  <li>5 セント硬貨</li>
+  <li>1 セント硬貨</li>
 </ul>
 
 <p>15セントを両替するには6つの組み合わせがあります。</p>
 
 <ul>
-  <li>A dime and a nickel</li>
+  <li>10 セント硬貨 1 枚と 5 セント硬貨 1 枚</li>
   <li>10セント硬貨1枚と1セント硬貨5枚</li>
   <li>5セント硬貨3枚</li>
   <li>5セント硬貨2枚と1セント硬貨5枚</li>
@@ -46,7 +46,7 @@ assert(typeof countCoins === 'function');
 assert.equal(countCoins(15), 6);
 ```
 
-`countCoins(85)` should return `163`.
+`countCoins(85)` は `163` を返します。
 
 ```js
 assert.equal(countCoins(85), 163);

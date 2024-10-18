@@ -8,7 +8,7 @@ dashedName: use-getters-and-setters-to-control-access-to-an-object
 
 # --description--
 
-You can obtain values from an object and set the value of a property within an object.
+オブジェクトから値を取得したり、オブジェクト内のプロパティの値を設定したりできます。
 
 これらは従来から <dfn>getters</dfn> および <dfn>setters</dfn> と呼ばれています。
 
@@ -65,7 +65,7 @@ assert.isFunction(Thermostat);
 assert.isFunction(Thermostat?.constructor);
 ```
 
-The `class` keyword should be used.
+`class` キーワードを使用する必要があります。
 
 ```js
 assert.match(code, /class/);

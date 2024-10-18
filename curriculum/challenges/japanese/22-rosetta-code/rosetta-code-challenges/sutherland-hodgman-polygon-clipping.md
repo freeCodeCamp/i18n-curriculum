@@ -8,7 +8,7 @@ dashedName: sutherland-hodgman-polygon-clipping
 
 # --description--
 
-The Sutherland-Hodgman clipping algorithm finds the polygon that is the intersection between an arbitrary polygon (the "subject polygon") and a convex polygon (the "clip polygon"). It is used in computer graphics (especially 2D graphics) to reduce the complexity of a scene being displayed by eliminating parts of a polygon that do not need to be displayed. Take the closed polygon defined by the points:
+サザーランド・ホッジマン・ポリゴンクリッピング・アルゴリズムは、任意のポリゴン (「サブジェクトポリゴン」) と凸ポリゴン (「クリップポリゴン」) との共通部分であるポリゴンを求めます。 これは、表示する必要のないポリゴンのパーツを排除することによって、シーンの表示の複雑さを軽減するためにコンピュータグラフィックス (特に 2D グラフィックス) に使用されます。 点によって定義されたクローズドポリゴンを取ります:
 
 <pre>[(50, 150), (200, 50), (350, 150), (350, 300), (250, 300), (200, 250), (150, 350), (100, 250), (100, 200)]</pre>
 

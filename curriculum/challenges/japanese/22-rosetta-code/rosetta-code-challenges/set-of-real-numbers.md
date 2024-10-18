@@ -8,7 +8,7 @@ dashedName: set-of-real-numbers
 
 # --description--
 
-All real numbers form the uncountable set ℝ. Among its subsets, relatively simple are the convex sets, each expressed as a range between two real numbers *a* and *b* where *a* ≤ *b*. There are actually four cases for the meaning of "between", depending on open or closed boundary:
+すべての実数は非可算集合 ℝ を形成します。 Among its subsets, relatively simple are the convex sets, each expressed as a range between two real numbers *a* and *b* where *a* ≤ *b*. 実際には、「区間」の意味は境界の開・閉に応じて、4 つのケースがあります。
 
 <ul>
   <li>[<i>a</i>, <i>b</i>]: {<i>x</i> | <i>a</i> ≤ <i>x</i> and <i>x</i> ≤ <i>b</i> }</li>
@@ -22,12 +22,12 @@ All real numbers form the uncountable set ℝ. Among its subsets, relatively sim
 **タスク**
 
 <ul>
-  <li>Devise a way to represent any set of real numbers, for the definition of "any" in the implementation notes below.</li>
+  <li>以下の実装ノートの「任意の集合」を定義するために、実数の任意の集合を表現する方法を考案します。</li>
   <li>以下の共通の集合演算のための方法を提供します (<i>x</i> は実数; <i>A</i> と <i>B</i> は集合)。</li>
   <ul>
     <li>
-      <i>x</i> ∈ <i>A</i>: determine if <i>x</i> is an element of <i>A</i><br>
-      example: 1 is in [1, 2), while 2, 3, ... are not.
+      <i>x</i> ∈ <i>A</i>: <i>x</i> が <i>A</i> の要素かどうかを判定する<br>
+      例: 1 は [1, 2) に含まれるのに対し、2, 3, ... は含まれない。
     </li>
     <li>
       <i>A</i> ∪ <i>B</i>: <i>A</i> と <i>B</i> の和集合、つまり {<i>x</i> | <i>x</i> ∈ <i>A</i> or <i>x</i> ∈ <i>B</i>}<br>

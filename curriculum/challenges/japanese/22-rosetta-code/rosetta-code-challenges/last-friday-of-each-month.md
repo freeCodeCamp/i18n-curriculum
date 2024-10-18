@@ -8,7 +8,7 @@ dashedName: last-friday-of-each-month
 
 # --description--
 
-Write a function that returns the date of the last Friday of a given month for a given year.
+指定した年の指定した月の最終金曜日の日付を返す関数を記述してください。
 
 # --hints--
 

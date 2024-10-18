@@ -1,6 +1,6 @@
 ---
 id: 594ecc0d9a8cf816e3340187
-title: Taxicab numbers
+title: タクシー数
 challengeType: 1
 forumTopicId: 302337
 dashedName: taxicab-numbers
@@ -8,60 +8,60 @@ dashedName: taxicab-numbers
 
 # --description--
 
-A taxicab number (the definition that is being used here) is a positive integer that can be expressed as the sum of two positive cubes in more than one way.
+タクシー数 (ここで使用する定義) とは、複数の方法で 2 つの正の 3 乗の和として表すことができる正の整数です。
 
-The first taxicab number is `1729`, which is:
+最初のタクシー数は `1729`です。これは:
 
-1<sup>3</sup> + 12<sup>3</sup> and
+1<sup>3</sup> + 12<sup>3</sup> および
 
-9<sup>3</sup> + 10<sup>3</sup>.
+9<sup>3</sup> + 10<sup>3</sup> と表せます。
 
-Taxicab numbers are also known as:
+タクシー数には、次のような呼び方もあります:
 
 <ul>
-  <li>taxi numbers</li>
-  <li>taxi-cab numbers</li>
-  <li>taxi cab numbers</li>
-  <li>Hardy-Ramanujan numbers</li>
+  <li>タクシー数</li>
+  <li>タクシーキャブ数</li>
+  <li>タクシー・キャブ数</li>
+  <li>ハーディ＝ラマヌジャン数</li>
 </ul>
 
 # --instructions--
 
-Write a function that returns the lowest `n` taxicab numbers. For each of the taxicab numbers, show the number as well as its constituent cubes.
+最小の `n` 個のタクシー数を返す関数を記述してください。 それぞれのタクシー数について、数値とその構成立方数を示します。
 
 # --hints--
 
-`taxicabNumbers` should be a function.
+`taxicabNumbers` は関数とします。
 
 ```js
 assert(typeof taxicabNumbers === 'function');
 ```
 
-`taxicabNumbers` should return an array.
+`taxicabNumbers` は配列を返す必要があります。
 
 ```js
 assert(typeof taxicabNumbers(2) === 'object');
 ```
 
-`taxicabNumbers` should return an array of numbers.
+`taxicabNumbers` は数値の配列を返す必要があります。
 
 ```js
 assert(typeof taxicabNumbers(100)[0] === 'number');
 ```
 
-`taxicabNumbers(4)` should return [1729, 4104, 13832, 20683].
+`taxicabNumbers(4)` は [1729, 4104, 13832, 20683] を返す必要があります。
 
 ```js
 assert.deepEqual(taxicabNumbers(4), res4);
 ```
 
-`taxicabNumbers(25)` should return [1729, 4104, 13832, 20683, 32832, 39312, 40033, 46683, 64232, 65728, 110656, 110808, 134379, 149389, 165464, 171288, 195841, 216027, 216125, 262656, 314496, 320264, 327763, 373464, 402597]
+`taxicabNumbers(25)` は [1729, 4104, 13832, 20683, 32832, 39312, 40033, 46683, 64232, 65728, 110656, 110808, 134379, 149389, 165464, 171288, 195841, 216027, 216125, 262656, 314496, 320264, 327763, 373464, 402597] を返す必要があります。
 
 ```js
 assert.deepEqual(taxicabNumbers(25), res25);
 ```
 
-`taxicabNumbers(39)` resulting numbers from 20 - 29 should be [314496,320264,327763,373464,402597,439101,443889,513000,513856].
+`taxicabNumbers(39)` の 20 ～ 29 番目の数値は [314496,320264,327763,373464,402597,439101,443889,513000,513856] となる必要があります。
 
 ```js
 assert.deepEqual(taxicabNumbers(39).slice(20, 29), res39From20To29);

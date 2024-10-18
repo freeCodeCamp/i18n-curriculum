@@ -8,7 +8,7 @@ dashedName: catch-mixed-usage-of-single-and-double-quotes
 
 # --description--
 
-JavaScript allows the use of both single (`'`) and double (`"`) quotes to declare a string. Deciding which one to use generally comes down to personal preference, with some exceptions.
+JavaScript では、文字列の宣言にシングルクォート (`'`) と ダブルクォート (`"`) のどちらの引用符も使用できます。 どちらを使用するかは通常は個人の好みによりますが、いくつか例外があります。
 
 文字列に短縮形が含まれている場合や、引用符で囲まれた別のテキストがある場合は、2 つの選択肢があると便利です。 ただし、文字列をあまりに早く終了することがないように注意してください。構文エラーになります。
 

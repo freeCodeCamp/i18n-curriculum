@@ -8,14 +8,14 @@ dashedName: 9-billion-names-of-god-the-integer
 
 # --description--
 
-This task is a variation of the short story by Arthur C. Clarke.
+このタスクは、アーサー・C・クラークによるショートストーリーのバリエーションです。
 
 (ソルバーは、このタスクの完了結果を認識している必要があります。)
 
 「名前」が意味するものを詳細に示します。
 
 <ul>
-  <li>The integer 1 has 1 name "1".</li>
+  <li>整数 1 には、「1」という名前があります。</li>
   <li>整数2には、「1+1」と「2」という2つの名前があります。</li>
   <li>整数3には、「1+1+ 1」と「2+1」と「3」という3つの名前があります。</li>
   <li>整数4には、「1+1+1+1」と「2+1」と「2+2」と「3+1」と「4」という5つの名前があります。</li>
@@ -25,11 +25,11 @@ This task is a variation of the short story by Arthur C. Clarke.
 これは以下の形式で表すことができます。
 
 <pre>          1
-        1   1
-      1   1   1
-    1   2   1   1
-  1   2   2   1   1
-1   3   3   2   1   1
+        1 1
+      1 1 1
+    1 2 1 1
+  1 2 1 1 1
+1 3 3 2 1 1
 </pre>
 
 $n$ 行は、整数 $n$に相当し、左から右への $m$行内の$C$の各列は、$C$で始まる名前の数に相当します。

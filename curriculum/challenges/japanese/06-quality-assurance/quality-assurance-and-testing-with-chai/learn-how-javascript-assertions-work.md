@@ -8,7 +8,7 @@ dashedName: learn-how-javascript-assertions-work
 
 # --description--
 
-Working on these challenges will involve you writing your code using one of the following methods:
+これらのチャレンジに取り組むにあたり、以下の方法のうち 1 つを用いてコードを記述します。
 
 - Clone <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete these challenges locally.
 - Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete these challenges.
@@ -34,7 +34,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#1` in the `Basic Asserti
   );
 ```
 
-You should choose the correct method for the first assertion - `isNull` vs. `isNotNull`.
+最初のアサーションに対して、正しいメソッドを選ぶ必要があります - `isNull` もしくは `isNotNull` です。
 
 ```js
 (getUserInput) =>
@@ -48,7 +48,7 @@ You should choose the correct method for the first assertion - `isNull` vs. `isN
   );
 ```
 
-You should choose the correct method for the second assertion - `isNull` vs. `isNotNull`.
+2 番目のアサーションに対して、正しいメソッドを選ぶ必要があります- `isNull` もしくは `isNotNull` です。
 
 ```js
 (getUserInput) =>

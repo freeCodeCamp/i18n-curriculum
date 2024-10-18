@@ -9,7 +9,7 @@ dashedName: use-attribute-selectors-to-style-elements
 
 # --description--
 
-You have been adding `id` or `class` attributes to elements that you wish to specifically style. These are known as ID and class selectors. There are other CSS Selectors you can use to select custom groups of elements to style.
+ここまで、スタイルを指定したい要素に `id` か `class` 属性を追加してきました。 これらは ID およびクラスセレクターと呼ばれています。 スタイルを適用する要素のグループを選択するために使える CSS セレクターは他にもあります。
 
 CSS セレクターの使い方を練習するために、猫の写真アプリをもう一度取り上げます。
 

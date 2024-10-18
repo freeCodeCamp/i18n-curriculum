@@ -8,7 +8,7 @@ dashedName: heronian-triangles
 
 # --description--
 
-Hero's formula for the area of a triangle given the length of its three sides `a`, `b`, and `c` is given by:
+`a`、`b`、`c` の 3 辺の長さが与えられた三角形の面積を求めるヘロンの公式は、次のように与えられます:
 
 $A = \\sqrt{s(s-a)(s-b)(s-c)},$
 

@@ -9,7 +9,7 @@ dashedName: wrap-content-in-the-article-element
 
 # --description--
 
-`article` is another one of the new HTML5 elements that add semantic meaning to your markup. `article` is a sectioning element and is used to wrap independent, self-contained content. The tag works well with blog entries, forum posts, or news articles.
+`article` は、マークアップにセマンティックな意味を追加する新しい HTML5 要素の 1 つです。 `article` はセクショニング (区分け) 要素であり、独立した自己完結型コンテンツをラップするために使用されます。 このタグはブログのエントリ、フォーラムの投稿、ニュース記事でうまく機能します。
 
 コンテンツが単独で成り立つかどうかは、通常は主観的に判断するしかありませんが、いくつかの簡単なテストを行うこともできます。 全ての周辺コンテキストを削除しても、そのコンテンツはまだ意味を成すでしょうか？ 同様に、テキストの場合、それが RSS フィードに流れてきた場合でも意味を成す内容でしょうか。
 

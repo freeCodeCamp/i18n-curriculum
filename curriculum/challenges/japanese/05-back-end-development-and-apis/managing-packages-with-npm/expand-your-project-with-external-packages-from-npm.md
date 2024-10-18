@@ -8,7 +8,7 @@ dashedName: expand-your-project-with-external-packages-from-npm
 
 # --description--
 
-One of the biggest reasons to use a package manager, is their powerful dependency management. Instead of manually having to make sure that you get all dependencies whenever you set up a project on a new computer, npm automatically installs everything for you. But how can npm know exactly what your project needs? Meet the `dependencies` section of your package.json file.
+パッケージマネージャーを使用する最大の理由の 1 つは、強力な依存関係管理です。 新しいコンピューターでプロジェクトを準備する場合、そのたびにすべての依存関係を手動で確認する必要はなく、npm が自動的にすべてをインストールしてくれます。 しかし、npm はプロジェクトに必要なものをどのようにして正確に知ることができるのでしょうか？ package.json ファイルの `dependencies` セクションを見てください。
 
 このセクションには、プロジェクトが必要とするパッケージが次のような形式で保存されています。
 

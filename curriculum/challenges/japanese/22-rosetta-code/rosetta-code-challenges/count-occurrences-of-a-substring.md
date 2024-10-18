@@ -8,12 +8,12 @@ dashedName: count-occurrences-of-a-substring
 
 # --description--
 
-Create a function, or show a built-in function, to count the number of non-overlapping occurrences of a substring inside a string.
+関数を作成するか、組み込み関数を表示して、文字列内で重複しない部分文字列の発生回数を数えます。
 
 関数は二つの引数を取ります。
 
 <ul>
-  <li>the first argument being the string to search, and</li>
+  <li>1 つ目の引数は検索文字列です。</li>
   <li>2つ目の引数は検索する部分文字列です。</li>
 </ul>
 

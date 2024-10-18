@@ -8,7 +8,7 @@ dashedName: create-a-set-class
 
 # --description--
 
-In this exercise we are going to create a class named `Set` to emulate an abstract data structure called "set". A set is like an array, but it cannot contain duplicate values. The typical use for a set is to simply check for the presence of an item. We can see how the ES6 `Set` object works in the example below:
+この課題では、「セット (集合)」と呼ばれる抽象的なデータ構造を模倣するために、`Set` という名前のクラスを作成します。 セットは配列と似ていますが、重複した値を含むことはできません。 セットの典型的な使用方法は、単純に要素の有無を確認することです。 次の例を見れば、ES6 `Set` オブジェクトの仕組みが分かります。
 
 ```js
 const set1 = new Set([1, 2, 3, 5, 5, 2, 0]);

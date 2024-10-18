@@ -1,6 +1,6 @@
 ---
 id: 587d7db0367417b2b2512b82
-title: Understand the Prototype Chain
+title: プロトタイプチェーンを理解する
 challengeType: 1
 forumTopicId: 301329
 dashedName: understand-the-prototype-chain
@@ -8,7 +8,7 @@ dashedName: understand-the-prototype-chain
 
 # --description--
 
-All objects in JavaScript (with a few exceptions) have a `prototype`. Also, an object’s `prototype` itself is an object.
+JavaScript 内のすべてのオブジェクトは (いくつかの例外を除いて) `prototype` を持っています。 また、オブジェクトの `prototype` それ自体もオブジェクトです。
 
 ```js
 function Bird(name) {
@@ -18,28 +18,28 @@ function Bird(name) {
 typeof Bird.prototype;
 ```
 
-Because a `prototype` is an object, a `prototype` can have its own `prototype`! In this case, the `prototype` of `Bird.prototype` is `Object.prototype`:
+`prototype` はオブジェクトであるため、`prototype` は独自の `prototype` を持つことができます！ この場合、`Bird.prototype` の `prototype` は `Object.prototype` です。
 
 ```js
 Object.prototype.isPrototypeOf(Bird.prototype);
 ```
 
-How is this useful? You may recall the `hasOwnProperty` method from a previous challenge:
+これはどのように役立つのでしょうか？ 前のチャレンジで説明した `hasOwnProperty` メソッドを思い出してください。
 
 ```js
 let duck = new Bird("Donald");
 duck.hasOwnProperty("name");
 ```
 
-The `hasOwnProperty` method is defined in `Object.prototype`, which can be accessed by `Bird.prototype`, which can then be accessed by `duck`. This is an example of the `prototype` chain. In this `prototype` chain, `Bird` is the `supertype` for `duck`, while `duck` is the `subtype`. `Object` is a `supertype` for both `Bird` and `duck`. `Object` is a `supertype` for all objects in JavaScript. Therefore, any object can use the `hasOwnProperty` method.
+`hasOwnProperty` メソッドは `Object.prototype` で定義されており、`Bird.prototype` でアクセスでき、さらに Bird.prototype には `duck` でアクセスできます。 これは `prototype` チェーンの例です。 この `prototype` において、`Bird` は `duck` に対する `supertype` であり、一方 `duck` は `subtype` です。 `Object` は `Bird` と `duck` 両方に対する `supertype` です。 `Object` は JavaScript におけるすべてのオブジェクトの `supertype` です。 したがって、任意のオブジェクトで `hasOwnProperty` メソッドを使用することができます。
 
 # --instructions--
 
-Modify the code to show the correct prototype chain.
+コードを変更して、正しいプロトタイプチェーンを表示してください。
 
 # --hints--
 
-Your code should show that `Object.prototype` is the prototype of `Dog.prototype`
+`Object.prototype` が `Dog.prototype` のプロトタイプであることを示す必要があります。
 
 ```js
 assert(/Object\.prototype\.isPrototypeOf/.test(__helpers.removeJSComments(code)));

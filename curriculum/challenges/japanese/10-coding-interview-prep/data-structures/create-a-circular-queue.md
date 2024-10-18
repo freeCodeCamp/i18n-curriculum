@@ -8,7 +8,7 @@ dashedName: create-a-circular-queue
 
 # --description--
 
-In this challenge you will be creating a Circular Queue. A circular queue is a queue that writes to the end of a collection then begins overwriting itself at the beginning of the collection. This type of data structure is useful in certain situations. For example, a circular queue can be used for streaming media. Once the queue is full, new media data will overwrite old data.
+このチャレンジでは、循環キューを作成します。 循環キューとは、コレクションの末尾にデータを書き込んだ後にコレクションの先頭から上書きを始めるキューです。 このタイプのデータ構造は、特定の状況で便利です。 例えば、ストリーミングメディアに循環キューを使用できます。 キューがいっぱいになると、新しいメディアデータが古いデータを上書きします。
 
 この概念を分かりやすく説明するために、次のような、長さが `5` の配列を使います。
 

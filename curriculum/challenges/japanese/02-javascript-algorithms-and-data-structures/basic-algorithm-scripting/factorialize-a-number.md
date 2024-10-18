@@ -8,7 +8,7 @@ dashedName: factorialize-a-number
 
 # --description--
 
-Return the factorial of the provided integer.
+指定された整数の階乗を返してください。
 
 指定された整数が `n` の場合、階乗は `n` 以下のすべての正の整数の積となります。
 

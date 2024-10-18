@@ -8,7 +8,7 @@ dashedName: missing-letters
 
 # --description--
 
-Find the missing letter in the passed letter range and return it.
+渡された文字の範囲で不足している文字を見つけて返してください。
 
 すべての文字が範囲内に存在する場合は、`undefined` を返してください。
 

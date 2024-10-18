@@ -8,12 +8,12 @@ dashedName: define-a-primitive-data-type
 
 # --description--
 
-Define a type that behaves like an integer but has a lowest valid value of 1 and a highest valid value of 10.
+整数のように動作するが、最小の有効値が 1 で最大の有効値が 10 である型を定義します。
 
 エラー処理:
 
 <ul>
-  <li>If you try to instantiate a <code>Num</code> with a value outside of 1 - 10, it should throw a <code>TypeError</code> with an error message of <code>'Out of range'</code>.</li>
+  <li><code>Num</code> を1から10以外の値でインスタンス化しようとすると、<code>TypeError</code> が返され、<code>'Out of range'</code> のエラーメッセージが表示されます。</li>
   <li><code>Num</code> を数字ではない値でインスタンス化しようとすると、<code>TypeError</code> が返され、<code>'Not a Number'</code> のエラーメッセージが表示されます。</li>
 </ul>
 

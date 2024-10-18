@@ -9,7 +9,7 @@ dashedName: create-a-bulleted-unordered-list
 
 # --description--
 
-HTML has a special element for creating <dfn>unordered lists</dfn>, or bullet point style lists.
+HTML には<dfn>順序なしリスト (unordered lists) </dfn> または箇条書きと呼ばれるリストを作成するための特別な要素があります。
 
 順序なしリストは `<ul>` 要素で始まり、その後に任意の数の `<li>` 要素が続きます。 最後に、`</ul>` で閉じます。
 

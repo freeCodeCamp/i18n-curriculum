@@ -8,7 +8,7 @@ dashedName: match-all-numbers
 
 # --description--
 
-You've learned shortcuts for common string patterns like alphanumerics. Another common pattern is looking for just digits or numbers.
+英数字のような一般的な文字列パターンのショートカットを学びました。 もう一つの一般的なパターンは、数字や数値のみの検索です。
 
 数字を探すためのショートカットは `\d`で、小文字の `d` です。 これは文字クラス `[0-9]` と同等で、0 から 9 までの数字のうち任意の数字 1 文字を検索します。
 

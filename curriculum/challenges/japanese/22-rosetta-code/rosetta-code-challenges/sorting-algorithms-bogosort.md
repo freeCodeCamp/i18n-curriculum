@@ -8,7 +8,7 @@ dashedName: sorting-algorithmsbogosort
 
 # --description--
 
-Bogosort a list of numbers.
+数値のリストをボゴソートしてください。
 
 ボゴソートは、ソートされるまで集合をランダムに、単にシャッフルするものです。
 

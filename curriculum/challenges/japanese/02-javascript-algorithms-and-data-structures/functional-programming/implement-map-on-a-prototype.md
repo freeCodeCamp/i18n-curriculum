@@ -8,7 +8,7 @@ dashedName: implement-map-on-a-prototype
 
 # --description--
 
-As you have seen from applying `Array.prototype.map()`, or simply `map()` earlier, the `map` method returns an array of the same length as the one it was called on. It also doesn't alter the original array, as long as its callback function doesn't.
+前に説明した `Array.prototype.map()` (または単純に `map()`) の適用からわかるように、`map` メソッドは、呼び出された配列と同じ長さの配列を返します。 また、コールバック関数で操作しない限り、元の配列も変更しません。
 
 言い換えれば、`map` は純粋な関数であり、その出力は入力にのみ依存します。 さらに、引数として別の関数を取ります。
 

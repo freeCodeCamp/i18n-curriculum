@@ -8,7 +8,7 @@ dashedName: create-a-hash-table
 
 # --description--
 
-In this challenge we will learn about hash tables. A Hash table is used to implement associative arrays, or mappings of key-value pairs, like the objects and Maps we have just been studying. A JavaScript object could be implemented as a hash table, for instance (its actual implementation will depend on the environment it's running in). The way a hash table works is that it takes a key input and hashes this key in a deterministic way to some numerical value. This numerical value is then used as the actual key the associated value is stored by. Then, if you try to access the same key again, the hashing function will process the key, return the same numerical result, which will then be used to look up the associated value. This provides very efficient O(1) lookup time on average.
+このチャレンジでは、ハッシュテーブルについて学びます。 ハッシュテーブルは、連想配列、すなわちキーと値のペアのマッピング (例えば、これまでに学んだオブジェクトやマップ) を実装するために使用されます。 例えば、JavaScript オブジェクトはハッシュテーブルとして実装することができます (実際の実装は実行環境によって異なります)。 ハッシュテーブルの仕組みは、キー入力を受け取り、決定論的方法でこのキーを何らかの数値にハッシュすることです。 この数値は、関連付けられた値が格納される際の実際のキーとして使用されます。 次に、同じキーにアクセスしようとすると、ハッシュ関数はそのキーを処理して同じ数値結果を返し、それは関連付けられた値の検索に使用されます。 これにより、平均ケースでの検索時間は非常に効率的な O(1) になります。
 
 ハッシュテーブルは、指定された範囲内で配列インデックスを生成するハッシュ関数を持つ配列として実装できます。 この方法では、ハッシュ関数と同様に配列サイズの選択が重要です。 例えば、ハッシュ関数が 2 つの異なるキーに対して同じ値を生成したらどうなりますか？ これは衝突と呼ばれます。 衝突を処理する方法の一つは、キーと値のペアを両方ともそのインデックスに格納することです。 その場合、そのどちらかを検索するとき、あなたが探しているキーを見つけるために大量の要素に対して検索を繰り返す必要があります。 優れたハッシュ関数は、高い検索効率を維持するために衝突を最小限に抑えます。
 

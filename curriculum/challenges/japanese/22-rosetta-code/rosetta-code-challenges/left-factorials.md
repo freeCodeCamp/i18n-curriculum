@@ -8,7 +8,7 @@ dashedName: left-factorials
 
 # --description--
 
-**Left factorials**, $ !n $, may refer to either *subfactorials* or to *factorial sums*. The same notation can be confusingly seen used for the two different definitions. Sometimes, *subfactorials* (also known as *derangements*) may use any of the notations:
+**左階乗**, $ !n $, は *下位階乗* または *階乗和* のいずれかをいいます。 同じ表記が 2 つの別々の定義に使われているために、混乱を招く可能性があります。 *下位階乗* (*攪乱順列*とも呼ばれる) は、以下の表記を使用することもあります。
 
 <ul>
   <li>$!n`$</li>

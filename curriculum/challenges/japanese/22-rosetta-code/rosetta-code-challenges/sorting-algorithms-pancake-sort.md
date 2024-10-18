@@ -8,13 +8,13 @@ dashedName: sorting-algorithmspancake-sort
 
 # --description--
 
-Write a function to sort an array of integers (of any convenient size) into ascending order using Pancake sorting. The function should return the sorted array.
+パンケーキソートを使用して、(便利なサイズの) 整数の配列を昇順に並べ替える関数を作成します。 この関数はソートされた配列を返す必要があります。
 
 つまり、個々の要素をソートするのではなく、以下のように、可能な操作はリストの 1 つの端で「ひっくり返す」ことだけとなります。
 
-<pre>Before:
+<pre>前:
 <b>6 7 8 9</b> 2 5 3 4 1<br>
-After:
+後:
 <b>9 8 7 6</b> 2 5 3 4 1
 </pre>
 

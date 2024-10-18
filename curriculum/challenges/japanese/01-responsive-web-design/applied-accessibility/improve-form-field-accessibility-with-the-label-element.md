@@ -9,7 +9,7 @@ dashedName: improve-form-field-accessibility-with-the-label-element
 
 # --description--
 
-Improving accessibility with semantic HTML markup applies to using both appropriate tag names and attributes. The next several challenges cover some important scenarios using attributes in forms.
+セマンティックな HTML マークアップでアクセシビリティを向上させるには、適切なタグ名と属性を使用する必要があります。 ここからいくつかのチャレンジでは、フォームで属性を使用する主要なシナリオを学びます。
 
 `label` タグは、指定のフォームコントロール (入力フィールド) アイテムのテキストを囲みます。通常は、選択肢の名前またはラベルを囲みます。 これはアイテムと意味を紐付け、フォームをより読みやすくします。 `label` タグの `for` 属性は `label` とフォームコントロールを明示的に関連付けるもので、スクリーンリーダーが使用します。
 

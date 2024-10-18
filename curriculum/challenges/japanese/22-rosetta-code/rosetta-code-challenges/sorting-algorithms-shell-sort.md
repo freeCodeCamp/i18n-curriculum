@@ -8,7 +8,7 @@ dashedName: sorting-algorithmsshell-sort
 
 # --description--
 
-Write a function to sort an array of elements using the Shell sort algorithm, a diminishing increment sort. The function should return the sorted array.
+漸減ソートの一つであるシェルソートアルゴリズムを使用して要素の配列をソートする関数を作成します。 この関数はソートされた配列を返す必要があります。
 
 シェルソート (シェルメソッドとも呼ばれます) は、1959年にこのアルゴリズムを発表した発案者のドナルド・シェルにちなんで名付けられています。
 

@@ -9,7 +9,7 @@ dashedName: create-a-more-complex-shape-using-css-and-html
 
 # --description--
 
-One of the most popular shapes in the world is the heart shape, and in this challenge you'll create one using pure CSS. But first, you need to understand the `::before` and `::after` pseudo-elements. `::before` creates a pseudo-element that is the first child of the selected element; `::after` creates a pseudo-element that is the last child of the selected element. In the following example, a `::before` pseudo-element is used to add a rectangle to an element with the class `heart`:
+世界で最もポピュラーな形の一つはハート形でしょう。このチャレンジでは純粋な CSS を使ってハート形を作ります。 まず、疑似要素の `::before` と `::after` を理解する必要があります。 `::before` は選択された要素の最初の子要素である疑似要素を作成し、`::after` は選択された要素の最後の子要素である疑似要素を作成します。 下記の例では、クラス `heart` を持つ要素に長方形を追加するのに `::before` 疑似要素が使われています。
 
 ```css
 .heart::before {

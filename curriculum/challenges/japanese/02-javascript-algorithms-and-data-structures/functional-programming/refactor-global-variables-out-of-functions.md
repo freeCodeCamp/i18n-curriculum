@@ -8,7 +8,7 @@ dashedName: refactor-global-variables-out-of-functions
 
 # --description--
 
-So far, we have seen two distinct principles for functional programming:
+ここまで、関数型プログラミングの 2 つの異なる原則について説明しました。
 
 1) 変数やオブジェクトを変更しないこと - 新しい変数やオブジェクトを作成し、必要に応じて関数からそれらを返します。 ヒント: `const newArr = arrVar` のようなものを使用した場合、`arrVar` が配列であれば、コピーを作成するのではなく、既存の変数への参照を作成するだけです。 そのため、`newArr` の値を変更すると、`arrVar` の値が変更されます。
 

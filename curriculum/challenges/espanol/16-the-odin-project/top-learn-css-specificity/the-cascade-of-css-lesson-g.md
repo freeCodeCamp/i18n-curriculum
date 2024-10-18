@@ -33,7 +33,7 @@ La excepción a esto es cuando se apunta directamente a un elemento, ya que esto
 
 A pesar de que el elemento `parent` tiene una especificidad mayor con un ID, el elemento `child` tendría el estilo `color: blue` aplicado ya que esa declaración lo apunta directamente, mientras que `color: red` del padre solo se hereda.
 
-# --preguntas----preguntas--
+# --questions--
 
 ## --text--
 

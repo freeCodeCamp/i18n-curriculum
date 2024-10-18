@@ -1,6 +1,6 @@
 ---
 id: 587d78a8367417b2b2512ae6
-title: Animate Multiple Elements at Variable Rates
+title: 複数の要素を可変レートでアニメーションさせる
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cnpWZc9'
 forumTopicId: 301042
@@ -9,17 +9,17 @@ dashedName: animate-multiple-elements-at-variable-rates
 
 # --description--
 
-In the previous challenge, you changed the animation rates for two similarly animated elements by altering their `@keyframes` rules. You can achieve the same goal by manipulating the `animation-duration` of multiple elements.
+前回のチャレンジでは、`@keyframes` ルールを操作することで、2つのよく似たアニメーションの要素に対するアニメーション速度を変更しました。 複数の要素の `animation-duration` を操作することで、同じ目標を達成することができます。
 
-In the animation running in the code editor, there are three stars in the sky that twinkle at the same rate on a continuous loop. To make them twinkle at different rates, you can set the `animation-duration` property to different values for each element.
+コードエディタで実行されているアニメーションでは、空に3つの星が同じ速度で連続ループでまたたいています。 これらが異なる速度で輝くようにするには、各要素に対して `animation-duration` プロパティを異なる値で設定します。
 
 # --instructions--
 
-Set the `animation-duration` of the elements with the classes `star-1`, `star-2`, and `star-3` to 1s, 0.9s, and 1.1s, respectively.
+`star-1`、`star-2`、`star-3` のクラスに属する要素に対して、`animation-duration` の値としてそれぞれ 1s、0.9s、1.1s をセットします。
 
 # --hints--
 
-The `animation-duration` property for the star with class `star-1` should remain at 1s.
+`star-1` クラスの星が持つ `animation-duration` プロパティは、1 秒のままにします。
 
 ```js
 const starOne = document.querySelector('.star-1');
@@ -27,7 +27,7 @@ const starOneStyle = window.getComputedStyle(starOne);
 assert.equal(starOneStyle?.animationDuration, '1s');
 ```
 
-The `animation-duration` property for the star with class `star-2` should be 0.9s.
+`star-2` クラスの星が持つ `animation-duration` プロパティは、0.9 秒でなければなりません。
 
 ```js
 const starTwo = document.querySelector('.star-2');
@@ -35,7 +35,7 @@ const starTwoStyle = window.getComputedStyle(starTwo);
 assert.equal(starTwoStyle?.animationDuration , '0.9s');
 ```
 
-The `animation-duration` property for the star with class `star-3` should be 1.1s.
+`star-3` クラスの星が持つ `animation-duration` プロパティは、1.1 秒でなければなりません。
 
 ```js
 const starThree = document.querySelector('.star-3');

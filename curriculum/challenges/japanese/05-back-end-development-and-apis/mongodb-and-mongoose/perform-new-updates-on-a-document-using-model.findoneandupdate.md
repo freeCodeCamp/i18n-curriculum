@@ -1,6 +1,6 @@
 ---
 id: 587d7fb8367417b2b2512c0f
-title: Perform New Updates on a Document Using model.findOneAndUpdate()
+title: Model.findOneAndUpdate() を使用して、ドキュメントの新しい更新を実行する
 challengeType: 2
 forumTopicId: 301542
 dashedName: perform-new-updates-on-a-document-using-model-findoneandupdate
@@ -8,17 +8,17 @@ dashedName: perform-new-updates-on-a-document-using-model-findoneandupdate
 
 # --description--
 
-Recent versions of Mongoose have methods to simplify documents updating. Some more advanced features (i.e. pre/post hooks, validation) behave differently with this approach, so the classic method is still useful in many situations. `findByIdAndUpdate()` can be used when searching by id.
+最新バージョンの Mongoose は、ドキュメントの更新を簡素化するメソッドを備えています。 しかし、いくつかの高度な機能 (プレ/ポストフック、検証) は、上記のアプローチに対しては異なる動作をします。そのため、従来のメソッドが今でも多くの状況で役に立ちます。 `findByIdAndUpdate()` は、id で検索するときに使用できます。
 
 # --instructions--
 
-Modify the `findAndUpdate` function to find a person by `Name` and set the person's age to `20`. Use the function parameter `personName` as the search key.
+`findAndUpdate` 関数を変更して、`Name` で個人を検索し、年齢を `20` に設定してください。 検索キーとして、関数パラメーター `personName` を使用してください。
 
-**Note:** You should return the updated document. To do that, you need to pass the options document `{ new: true }` as the 3rd argument to `findOneAndUpdate()`. By default, these methods return the unmodified object.
+**注:** 更新したドキュメントを返す必要があります。 そのためには、オプションのドキュメント `{ new: true }` を `findOneAndUpdate()` の第 3 引数として渡す必要があります。 デフォルトでは、これらのメソッドは変更前のオブジェクトを返します。
 
 # --hints--
 
-findOneAndUpdate an item should succeed
+アイテムを正しく findOneAndUpdate する必要があります。
 
 ```js
 (getUserInput) =>

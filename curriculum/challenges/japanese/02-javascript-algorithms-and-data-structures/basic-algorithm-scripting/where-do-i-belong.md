@@ -8,7 +8,7 @@ dashedName: where-do-i-belong
 
 # --description--
 
-Return the lowest index at which a value (second argument) should be inserted into an array (first argument) once it has been sorted. The returned value should be a number.
+ソート後、配列 (最初の引数) の中で値 (2 番目の引数) を挿入すべきインデックスの最小値を返してください。 返される値は数値である必要があります。
 
 たとえば、`getIndexToIns([1,2,3,4], 1.5)` は `1` を返す必要があります。値の 1.5 は `1` (インデックスは 0) より大きく、`2` (インデックスは 1) より小さいからです。
 

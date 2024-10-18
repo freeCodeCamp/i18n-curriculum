@@ -8,7 +8,7 @@ dashedName: perform-a-difference-on-two-sets-of-data
 
 # --description--
 
-In this exercise we are going to perform a difference on 2 sets of data. We will create a method on our `Set` data structure called `difference`. A difference of sets should compare two sets and return the items present in the first set that are absent in the second. This method should take another `Set` as an argument and return the `difference` of the two sets.
+この課題では、2 つのデータセットの差集合を求めます。 `difference` と呼ばれる メソッドを `Set` データ構造に作成します。 2 つのセットの差集合を求めるには、2 つのセットを比較して、最初のセットにはあるが 2 番目のセットにはない要素を返す必要があります。 このメソッドは、別の `Set` を引数として取り、2 つのセットの `difference` を返す必要があります。
 
 例えば、`setA = ['a','b','c']` かつ `setB = ['a','b','d','e']` の場合、setA と setB の差集合は `setA.difference(setB) = ['c']` です。
 

@@ -9,7 +9,7 @@ dashedName: concatenating-strings-with-the-plus-equals-operator
 
 # --description--
 
-We can also use the `+=` operator to <dfn>concatenate</dfn> a string onto the end of an existing string variable. This can be very helpful to break a long string over several lines.
+`+=` 演算子を使用して、既存の文字列変数の末尾に文字列を<dfn>連結する</dfn>こともできます。 これは長い文字列を複数行に分割する場合にとても便利です。
 
 **注:** 空白が必要な場合は注意してください。 連結では、文字列の間に空白が追加されないため、必要な場合は自分で付け加える必要があります。
 

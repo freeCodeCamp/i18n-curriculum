@@ -8,13 +8,13 @@ dashedName: i-before-e-except-after-c
 
 # --description--
 
-**<a href="http://www.rosettacode.org/wiki/I_before_E_except_after_C" target="_blank" rel="noopener noreferrer nofollow">"I before E, except after C"</a>** is a general rule for English language spelling. If one is unsure whether a word is spelled with the digraph `ei` or `ie`, the rhyme suggests that the correct order is `ie` unless the preceding letter is `c`, in which case it may be `ei`.
+**<a href="http://www.rosettacode.org/wiki/I_before_E_except_after_C" target="_blank" rel="noopener noreferrer nofollow">"I before E, except after C"</a>** is a general rule for English language spelling. このルールは、ある単語が二重字 `ei` と `ie` のどちらでつづられているかわからない場合、正しい順序は `ie` であるが、前の文字が `c` の場合は `ei` となる場合がある、ということを示しています。
 
 与えられた単語を使用して、フレーズの2つの従属節がそれぞれ妥当かどうかを確認します。
 
 <ol>
   <li>
-    <i>"I before E when not preceded by C".</i>
+    <i>「I before E when not before preceded by C」</i>
   </li>
   <li>
     <i>「E before I when preceded by C」</i>

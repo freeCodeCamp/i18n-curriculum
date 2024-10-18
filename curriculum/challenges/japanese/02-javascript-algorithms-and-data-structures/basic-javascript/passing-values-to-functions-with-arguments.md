@@ -9,7 +9,7 @@ dashedName: passing-values-to-functions-with-arguments
 
 # --description--
 
-<dfn>Parameters</dfn> are variables that act as placeholders for the values that are to be input to a function when it is called. When a function is defined, it is typically defined along with one or more parameters. The actual values that are input (or <dfn>"passed"</dfn>) into a function when it is called are known as <dfn>arguments</dfn>.
+<dfn>パラメーター</dfn>は、関数が呼び出されたときに関数に入力される値のプレイスホルダーとして機能する変数です。 通常、関数を定義するときは 1 つ以上のパラメーターを一緒に定義します。 関数が呼び出されるときに入力される (または<dfn>「渡される」</dfn>) 実際の値のことを<dfn>引数</dfn>と呼びます。
 
 次の関数は `param1` と `param2` の 2 つのパラメーターを持っています。
 
@@ -23,7 +23,7 @@ function testFun(param1, param2) {
 
 # --instructions--
 
-<ol><li>Create a function called <code>functionWithArgs</code> that accepts two arguments and outputs their sum to the dev console.</li><li>2 つの数値を引数に取る関数を呼び出してください。</li></ol>
+<ol><li>2 つの引数を受け取り、その合計を開発コンソールに出力する <code>functionWithArgs</code> という関数を作成してください。</li><li>2 つの数値を引数に取る関数を呼び出してください。</li></ol>
 
 # --hints--
 

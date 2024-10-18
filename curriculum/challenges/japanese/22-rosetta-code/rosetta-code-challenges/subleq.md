@@ -8,7 +8,7 @@ dashedName: subleq
 
 # --description--
 
-Subleq is an example of a One-Instruction Set Computer (OISC).
+Subleq は、単一命令セットコンピューター (OISC) の一例です。
 
 この名前は、**SU**btract and **B**ranch if **L**ess than or **EQ**ual to zero というこのコンピュータの唯一の命令から取られています。
 
@@ -19,7 +19,7 @@ Subleq is an example of a One-Instruction Set Computer (OISC).
 アドレス 0 である最初の単語を指す命令ポインタから実行が始まります。 次のように進みます。
 
 <ol>
-  <li>Let A, B, and C be the value stored in the three consecutive words in memory starting at the instruction pointer.</li>
+  <li>A、B、C は命令ポインタから始まる 3 つの連続した単語に格納される値とします。</li>
   <li>命令ポインタを 3 単語進め、C を含むものの後のアドレスを指します。</li>
   <li>A が -1 の場合、標準入力から文字が読み込まれ、そのコードポイントは B が指定するアドレスに格納されます。C は使用されません。</li>
   <li>B が -1 の場合、A が指定するアドレスに含まれる数値はコードポイントとして解釈され、対応する文字が出力されます。 Cは今度も使用されません。</li>

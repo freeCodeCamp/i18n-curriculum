@@ -8,7 +8,7 @@ dashedName: accumulator-factory
 
 # --description--
 
-A problem posed by Paul Graham is that of creating a function that takes a single (numeric) argument and which returns another function that is an accumulator. The returned accumulator function in turn also takes a single numeric argument, and returns the sum of all the numeric values passed in so far to that accumulator (including the initial value passed when the accumulator was created).
+ポール・グレアムは、1 つの数値引数を取り、アキュムレータである別の関数を返す関数を作成する問題を考え出しました。 返されたアキュムレータ関数は、1 つの数値引数を取り、これまでにアキュムレータに渡されたすべての数値の合計 (アキュムレータが作成されたときに渡された初期値を含む) を返します。
 
 # --instructions--
 

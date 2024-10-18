@@ -10,7 +10,7 @@ bilibiliIds:
 dashedName: accessing-and-changing-elements-rows-columns
 ---
 
-# --preguntas--
+# --questions--
 
 ## --text--
 

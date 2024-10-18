@@ -8,7 +8,7 @@ dashedName: copy-an-array-with-the-spread-operator
 
 # --description--
 
-While `slice()` allows us to be selective about what elements of an array to copy, among several other useful tasks, ES6's new <dfn>spread operator</dfn> allows us to easily copy *all* of an array's elements, in order, with a simple and highly readable syntax. The spread syntax simply looks like this: `...`
+`slice()` を使用すると、コピーする配列の要素を選択できますが、他にもいくつかの便利な機能があり、ES6の新しい<dfn>スプレッド演算子</dfn>を使用すれば、簡単で非常に読みやすい構文で、配列の*すべての*要素を順番通りにコピーすることができます。 スプレッドの構文は「`...`」のように単純なものです。
 
 実際には、スプレッド演算子を使用して、以下のように配列をコピーすることができます。
 

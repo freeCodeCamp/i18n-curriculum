@@ -8,7 +8,7 @@ dashedName: cash-register
 
 # --description--
 
-Design a cash register drawer function `checkCashRegister()` that accepts purchase price as the first argument (`price`), payment as the second argument (`cash`), and cash-in-drawer (`cid`) as the third argument.
+第 1 引数に購入価格 (`price`)、第 2 引数に支払額 (`cash`)、第 3 引数に現金在高 (`cid`) を受け取る現金精算機関数 `checkCashRegister()` を設計してください。
 
 `cid` は、利用可能な通貨の一覧を表す 2 次元配列です。
 
@@ -20,7 +20,7 @@ Design a cash register drawer function `checkCashRegister()` that accepts purcha
 
 それ以外の場合は、`{status: "OPEN", change: [...]}` を返し、コインや紙幣のお釣りを高価な通貨から安価な通貨の順にソートし、それを `change` キーの値として一緒に返してください。
 
-<table><tbody><tr><th>Currency Unit</th><th>Amount</th></tr><tr><td>Penny</td><td>$0.01 (PENNY)</td></tr><tr><td>Nickel</td><td>$0.05 (NICKEL)</td></tr><tr><td>Dime</td><td>$0.1 (DIME)</td></tr><tr><td>Quarter</td><td>$0.25 (QUARTER)</td></tr><tr><td>Dollar</td><td>$1 (ONE)</td></tr><tr><td>Five Dollars</td><td>$5 (FIVE)</td></tr><tr><td>Ten Dollars</td><td>$10 (TEN)</td></tr><tr><td>Twenty Dollars</td><td>$20 (TWENTY)</td></tr><tr><td>One-hundred Dollars</td><td>$100 (ONE HUNDRED)</td></tr></tbody></table>
+<table><tbody><tr><th>通貨単位</th><th>金額</th></tr><tr><td>1 セント硬貨</td><td>$0.01 (PENNY)</td></tr><tr><td>5 セント硬貨</td><td>$0.05 (NICKEL)</td></tr><tr><td>10 セント硬貨</td><td>$0.1 (DIME)</td></tr><tr><td>25 セント硬貨</td><td>$0.25 (QUARTER)</td></tr><tr><td>1 ドル札</td><td>$1 (ONE)</td></tr><tr><td>5 ドル札</td><td>$5 (FIVE)</td></tr><tr><td>10 ドル札</td><td>$10 (TEN)</td></tr><tr><td>20 ドル札</td><td>$20 (TWENTY)</td></tr><tr><td>100 ドル札</td><td>$100 (ONE HUNDRED)</td></tr></tbody></table>
 
 現金在高を表す配列の例は以下を参照してください。
 

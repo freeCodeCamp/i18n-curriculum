@@ -8,7 +8,7 @@ dashedName: remove-items-from-an-array-with-pop-and-shift
 
 # --description--
 
-Both `push()` and `unshift()` have corresponding methods that are nearly functional opposites: `pop()` and `shift()`. As you may have guessed by now, instead of adding, `pop()` *removes* an element from the end of an array, while `shift()` removes an element from the beginning. The key difference between `pop()` and `shift()` and their cousins `push()` and `unshift()`, is that neither method takes parameters, and each only allows an array to be modified by a single element at a time.
+`push()` および `unshift()` と対で、ほぼ反対の機能を持つメソッドが `pop()` および `shift()` です。 ご推察のとおり、`pop()` は配列の末尾から、`shift()` は配列の先頭から、要素を追加するのではなく*削除*します。 `pop()` や `shift()` は同じような仲間の `push()` や `unshift()` と違って、どちらのメソッドもパラメーターを受け取らず、一度に 1 つの配列要素しか変更できません。
 
 以下を見てみましょう。
 

@@ -1,6 +1,6 @@
 ---
 id: 5cc0bd7a49b71cb96132e54c
-title: Use Recursion to Create a Range of Numbers
+title: 再帰関数を利用して指定範囲の数値配列を作成する
 challengeType: 1
 forumTopicId: 301180
 dashedName: use-recursion-to-create-a-range-of-numbers
@@ -8,21 +8,21 @@ dashedName: use-recursion-to-create-a-range-of-numbers
 
 # --description--
 
-Continuing from the previous challenge, we provide you another opportunity to create a recursive function to solve a problem.
+前回のチャレンジに引き続き、再帰関数を作成して課題を解決していきます。
 
 # --instructions--
 
-We have defined a function named `rangeOfNumbers` with two parameters. The function should return an array of integers which begins with a number represented by the `startNum` parameter and ends with a number represented by the `endNum` parameter. The starting number will always be less than or equal to the ending number. Your function must use recursion by calling itself and not use loops of any kind. It should also work for cases where both `startNum` and `endNum` are the same.
+2 つのパラメータを持つ `rangeOfNumbers` という名前の関数を定義しました。 この関数は、`startNum` パラメーターで表される数値で始まり、`endNum` パラメーターで表される数値で終わる、整数の配列を返す必要があります。 開始の数値は常に終了の数値以下になります。 関数では自分自身を呼び出す再帰を利用する必要があり、またどのような種類のループも使用してはいけません。 `startNum` と `endNum` の両方が同じ値である場合にも、関数が機能する必要があります。
 
 # --hints--
 
-Your function should return an array.
+この関数は配列を返す必要があります。
 
 ```js
 assert(Array.isArray(rangeOfNumbers(5, 10)));
 ```
 
-Your code should not use any loop syntax (`for` or `while` or higher order functions such as `forEach`, `map`, `filter`, or `reduce`).
+このコードには、どのようなループ構文 (`for`、`while`、または `forEach`、`map`、`filter`、`reduce` のような高階関数) も使用しないでください。
 
 ```js
 assert(
@@ -30,7 +30,7 @@ assert(
 );
 ```
 
-`rangeOfNumbers` should use recursion (call itself) to solve this challenge.
+`rangeOfNumbers` では再帰 (自分自身の呼び出し) を利用して、この課題を解決する必要があります。
 
 ```js
 assert(
@@ -38,25 +38,25 @@ assert(
 );
 ```
 
-`rangeOfNumbers(1, 5)` should return `[1, 2, 3, 4, 5]`.
+`rangeOfNumbers(1, 5)` は `[1, 2, 3, 4, 5]` を返す必要があります。
 
 ```js
 assert.deepStrictEqual(rangeOfNumbers(1, 5), [1, 2, 3, 4, 5]);
 ```
 
-`rangeOfNumbers(6, 9)` should return `[6, 7, 8, 9]`.
+`rangeOfNumbers(6, 9)` は `[6, 7, 8, 9]` を返す必要があります。
 
 ```js
 assert.deepStrictEqual(rangeOfNumbers(6, 9), [6, 7, 8, 9]);
 ```
 
-`rangeOfNumbers(4, 4)` should return `[4]`.
+`rangeOfNumbers(4, 4)` は `[4]` を返す必要があります。
 
 ```js
 assert.deepStrictEqual(rangeOfNumbers(4, 4), [4]);
 ```
 
-Global variables should not be used to cache the array.
+配列をキャッシュするためにグローバル変数を使用しないでください。
 
 ```js
 rangeOfNumbers(1, 3)

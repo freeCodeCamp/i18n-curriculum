@@ -9,7 +9,7 @@ dashedName: link-to-internal-sections-of-a-page-with-anchor-elements
 
 # --description--
 
-`a` (*anchor*) elements can also be used to create internal links to jump to different sections within a webpage.
+`a` (*アンカー*) 要素は、ウェブページ内の異なるセクションにジャンプする内部リンク作成にも使用することができます。
 
 内部リンクを作成するには、リンクの `href` 属性に、ハッシュ記号 `#` に続けて内部リンク先にする要素の `id` 属性の値を設定します。ページの下の方の要素をリンク先にするような使われ方が一般的です。 そして、リンク先の要素に同じ `id` 属性を追加します。 `id` は、要素を一意に表す属性です。
 

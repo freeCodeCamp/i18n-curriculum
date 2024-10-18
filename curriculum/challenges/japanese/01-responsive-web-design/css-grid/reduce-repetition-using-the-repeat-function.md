@@ -9,7 +9,7 @@ dashedName: reduce-repetition-using-the-repeat-function
 
 # --description--
 
-When you used `grid-template-columns` and `grid-template-rows` to define the structure of a grid, you entered a value for each row or column you created.
+グリッドの構造を定義するために `grid-template-columns` や `grid-template-rows` を使用した際、作成する各行または列の値を入力しました。
 
 たとえば、100 行の同じ高さのグリッドを作成したいとします。 100 個の値を個別に挿入するのはあまり実用的ではありません。 幸い、より良い方法があります。`repeat` 関数を使用して、列や行を繰り返す回数を指定することです。回数の後にコンマと繰り返したい値を続けます。
 

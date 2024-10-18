@@ -8,7 +8,7 @@ dashedName: align-columns
 
 # --description--
 
-Given an array of many lines, where fields within a line are delineated by a single `$` character, write a program that aligns each column of fields by ensuring that words in each column are separated by at least one space. Further, allow for each word in a column to be either left justified, right justified, or center justified within its column.
+たくさんの行を持つ配列で、行内のフィールドが単一の `$` 文字で区切られます。 各列の単語が少なくとも1つのスペースで区切られることで、フィールドの各列を揃えるプログラムを作成します。 さらに、各単語をその列内で左揃え、右揃え、または中央揃えにします。
 
 # --instructions--
 
@@ -31,7 +31,7 @@ const testText = [
 
 **注記:**
 
-- The example input texts lines may, or may not, have trailing dollar characters.
+- 入力コードの例では、ドル文字を末尾に含めることもできますが、そうでない場合もあります。
 - すべての列を同じように配列する必要があります。
 - 行末に隣接して生成された連続空白文字は、タスクの目的において重要なものではありません。
 - 出力テキストは、プレーンテキストエディタまたは基本端末に等幅フォントで表示されます。 その行は、改行文字 (`\n`) を使って結合します。

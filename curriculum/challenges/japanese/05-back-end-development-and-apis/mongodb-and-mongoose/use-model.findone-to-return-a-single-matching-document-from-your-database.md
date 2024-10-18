@@ -8,7 +8,7 @@ dashedName: use-model-findone-to-return-a-single-matching-document-from-your-dat
 
 # --description--
 
-`Model.findOne()` behaves like `Model.find()`, but it returns only one document (not an array), even if there are multiple items. It is especially useful when searching by properties that you have declared as unique.
+`Model.findOne()` の動作は `Model.find()` と似ていますが、アイテムが複数あっても (配列ではなく) 1 つのドキュメントだけを返します。 これは、プロパティを一意なものに宣言し、プロパティで検索をするときに特に便利です。
 
 # --instructions--
 

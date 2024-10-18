@@ -8,7 +8,7 @@ dashedName: palindrome-checker
 
 # --description--
 
-Return `true` if the given string is a palindrome. Otherwise, return `false`.
+関数に与えられた文字列が回文の場合は、`true` を返してください。 それ以外の場合は、`false` を返してください。
 
 ここでの<dfn>回文</dfn>とは、句読点、大文字と小文字、スペースを無視して、前からでも後ろからでも同じ綴りとなる単語または文章です。
 

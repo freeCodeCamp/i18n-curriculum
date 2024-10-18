@@ -9,7 +9,7 @@ dashedName: jump-straight-to-the-content-using-the-main-element
 
 # --description--
 
-HTML5 introduced several new elements that give developers more options while also incorporating accessibility features. These tags include `main`, `header`, `footer`, `nav`, `article`, and `section`, among others.
+HTML5 では、より多くの選択肢を開発者に提供すると同時にアクセシビリティ機能も組み込んだ新しい要素が導入されました。 These tags include `main`, `header`, `footer`, `nav`, `article`, and `section`, among others.
 
 デフォルトでは、ブラウザはこれらの要素を特に装飾のない `div` と同じように表示します。 しかし、これらを適切に使用することでマークアップに追加の意味を与えることができます。 タグ名だけでそこに含まれる情報の種類を示すことができるので、そのコンテンツにセマンティックな意味を追加することができます。 アシスティブ・テクノロジー (支援技術) はこの情報にアクセスして、より良いページ要約やナビゲーションオプションをユーザーに提供することができます。
 

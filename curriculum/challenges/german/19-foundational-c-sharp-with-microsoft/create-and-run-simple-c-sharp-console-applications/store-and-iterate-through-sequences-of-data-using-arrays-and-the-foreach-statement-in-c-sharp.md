@@ -12,7 +12,7 @@ Diese Aufgabe wird teilweise auf der Microsoft Learn Plattform erledigt. Folge d
 1. Gehe auf <a href="https://learn.microsoft.com/training/modules/csharp-arrays/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/csharp-arrays/</a> und löse alle Aufgaben für das Modul "Speichern und Wiederholen von Datenfolgen mithilfe von Arrays und der "Foreach"-Anweisung in C#". Dies ist **erforderlich**, um die "Create und Run Simple C# Console Applicaions"-Trophäe auf Microsoft Learn zu erwerben und sich für die Zertifizierungsprüfung zu qualifizieren.
 1. Wenn du damit fertig bist, komme zurück und beantworte die folgende Frage richtig.
 
-# --Auftrag--
+# --assignment--
 
 Löse das Modul <a href="https://learn.microsoft.com/training/modules/csharp-arrays/" target="_blank" rel="noreferrer">Speichern und Wiederholen von Datenfolgen mithilfe von Arrays und der "Foreach"-Anweisung in C#</a> auf Microsoft Learn ab. Beantworte dann die Frage unten.
 

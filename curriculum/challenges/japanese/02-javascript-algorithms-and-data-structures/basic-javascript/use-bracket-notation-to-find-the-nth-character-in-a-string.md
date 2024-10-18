@@ -9,7 +9,7 @@ dashedName: use-bracket-notation-to-find-the-nth-character-in-a-string
 
 # --description--
 
-You can also use <dfn>bracket notation</dfn> to get the character at other positions within a string.
+<dfn>ブラケット記法</dfn>を使用して、文字列内の他の位置の文字を取得することもできます。
 
 コンピューターでは `0` から数え始めることに注意してください。つまり、最初の文字は実際にはゼロ番目の文字になります。
 

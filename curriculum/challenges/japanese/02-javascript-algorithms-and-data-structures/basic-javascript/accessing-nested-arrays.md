@@ -9,7 +9,7 @@ dashedName: accessing-nested-arrays
 
 # --description--
 
-As we have seen in earlier examples, objects can contain both nested objects and nested arrays. Similar to accessing nested objects, array bracket notation can be chained to access nested arrays.
+これまでの例で見てきたとおり、オブジェクトには、ネストされたオブジェクトとネストされた配列のどちらも含めることができます。 ネストされたオブジェクトへのアクセスと同様に、配列のブラケット記法のチェーンを使用して、ネストされた配列にアクセスできます。
 
 次はネストされた配列にアクセスする方法の例です。
 

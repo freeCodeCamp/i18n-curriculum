@@ -8,7 +8,7 @@ dashedName: learn-how-a-stack-works
 
 # --description--
 
-You are probably familiar with stack of books on your table. You have likely used the undo feature of a text editor. You are also probably used to hitting the back button on your phone to go back to the previous view in your app.
+机の上に本が積まれていることはよくあるでしょう。 テキストエディタの取り消し機能を使ったことがあるでしょう。 また、携帯電話の「戻る」ボタンを押してアプリを直前の表示に戻すことに慣れているでしょう。
 
 そのすべてに共通する点は何でしょうか？ それらはすべて、後方に走査できるようにデータを格納しています。
 

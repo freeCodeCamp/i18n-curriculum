@@ -8,7 +8,7 @@ dashedName: use-destructuring-assignment-to-pass-an-object-as-a-functions-parame
 
 # --description--
 
-In some cases, you can destructure the object in a function argument itself.
+場合によっては関数の引数自体にオブジェクトを分割することもできます。
 
 次のコードを考えてみましょう。
 

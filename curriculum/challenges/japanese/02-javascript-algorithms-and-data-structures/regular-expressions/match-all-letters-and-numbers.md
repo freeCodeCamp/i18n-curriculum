@@ -1,6 +1,6 @@
 ---
 id: 587d7db7367417b2b2512b9f
-title: Match All Letters and Numbers
+title: すべての英文字と数字にマッチさせる
 challengeType: 1
 forumTopicId: 301346
 dashedName: match-all-letters-and-numbers
@@ -8,9 +8,9 @@ dashedName: match-all-letters-and-numbers
 
 # --description--
 
-Using character classes, you were able to search for all letters of the alphabet with `[a-z]`. This kind of character class is common enough that there is a shortcut for it, although it includes a few extra characters as well.
+文字クラスを使用して、アルファベットのすべての文字を `[a-z]` で検索することができました。 この種の文字クラスはよく使用されるのでそのためのショートカットがありますが、それにはいくつかの余分な文字も含まれています。
 
-The closest character class in JavaScript to match the alphabet is `\w`. This shortcut is equal to `[A-Za-z0-9_]`. This character class matches upper and lowercase letters plus numbers. Note, this character class also includes the underscore character (`_`).
+JavaScript でアルファベットにマッチする最も近い文字クラスは `\w` で、 このショートカットは `[A-Za-z0-9_]` と同等です。 この文字クラスは大文字と小文字に加えて数字にもマッチします。 また、アンダースコア文字 (`_`) も含まれていることに注意してください。
 
 ```js
 let longHand = /[A-Za-z0-9_]+/;
@@ -23,29 +23,29 @@ longHand.test(varNames);
 shortHand.test(varNames);
 ```
 
-All four of these `test` calls would return `true`.
+これら 4 つの `test` 呼び出しはすべて `true` を返します。
 
-These shortcut character classes are also known as <dfn>shorthand character classes</dfn>.
+これらのショートカット文字クラスは<dfn>文字クラスの略記</dfn>とも呼ばれます。
 
 # --instructions--
 
-Use the shorthand character class `\w` to count the number of alphanumeric characters in various quotes and strings.
+文字クラス `\w` を使用して、さまざまな引用符や文字列の英数字の個数を数えてください。
 
 # --hints--
 
-Your regex should use the global flag.
+正規表現でグローバルフラグを使用する必要があります。
 
 ```js
 assert(alphabetRegexV2.global);
 ```
 
-Your regex should use the shorthand character `\w` to match all characters which are alphanumeric.
+正規表現をすべての英数字にマッチさせるために、略記文字 `\w` を使用する必要があります。
 
 ```js
 assert(/\\w/.test(alphabetRegexV2.source));
 ```
 
-Your regex should find 31 alphanumeric characters in the string `The five boxing wizards jump quickly.`
+正規表現は、文字列 `The five boxing wizards jump quickly.` の中に英数字を 31 文字見つける必要があります。
 
 ```js
 assert(
@@ -53,7 +53,7 @@ assert(
 );
 ```
 
-Your regex should find 32 alphanumeric characters in the string `Pack my box with five dozen liquor jugs.`
+正規表現は、文字列 `Pack my box with five dozen liquor jugs.` の中に英数字を 32 文字見つける必要があります。
 
 ```js
 assert(
@@ -62,7 +62,7 @@ assert(
 );
 ```
 
-Your regex should find 30 alphanumeric characters in the string `How vexingly quick daft zebras jump!`
+正規表現は、文字列 `How vexingly quick daft zebras jump!` の中に英数字を 30 文字見つける必要があります。
 
 ```js
 assert(
@@ -70,7 +70,7 @@ assert(
 );
 ```
 
-Your regex should find 36 alphanumeric characters in the string `123 456 7890 ABC def GHI jkl MNO pqr STU vwx YZ.`
+正規表現は、文字列 `123 456 7890 ABC def GHI jkl MNO pqr STU vwx YZ.` の中に英数字を 36 文字見つける必要があります。
 
 ```js
 assert(

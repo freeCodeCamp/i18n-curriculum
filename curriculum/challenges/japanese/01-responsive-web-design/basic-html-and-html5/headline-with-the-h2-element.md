@@ -9,7 +9,7 @@ dashedName: headline-with-the-h2-element
 
 # --description--
 
-Over the next few lessons, we'll build an HTML5 cat photo web app piece-by-piece.
+ここからいくつかのレッスンを通して、HTML5 で猫の写真を表示するウェブアプリを作ります。
 
 このステップで追加する `h2` 要素は、ウェブページにレベル 2 の見出し要素を追加します。
 

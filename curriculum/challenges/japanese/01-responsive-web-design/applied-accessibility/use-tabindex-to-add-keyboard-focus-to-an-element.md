@@ -1,6 +1,6 @@
 ---
 id: 587d7790367417b2b2512ab0
-title: Use tabindex to Add Keyboard Focus to an Element
+title: tabindex を使用して要素にキーボードフォーカスを追加する
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cmzMDHW'
 forumTopicId: 301027
@@ -9,29 +9,29 @@ dashedName: use-tabindex-to-add-keyboard-focus-to-an-element
 
 # --description--
 
-The HTML `tabindex` attribute has three distinct functions relating to an element's keyboard focus. When it's on a tag, it indicates that the element can be focused on. The value (an integer that's positive, negative, or zero) determines the behavior.
+HTML の `tabindex` 属性は要素のキーボードフォーカスに関連した 3 つの異なる機能を持っています。 これがタグ上にある場合、要素にフォーカス可能なことを示します。 値 (正、負、またはゼロの整数) によって動作が決まります。
 
-Certain elements, such as links and form controls, automatically receive keyboard focus when a user tabs through a page. It's in the same order as the elements come in the HTML source markup. This same functionality can be given to other elements, such as `div`, `span`, and `p`, by placing a `tabindex="0"` attribute on them. Here's an example:
+リンクやフォームコントロールなどの特定の要素は、ユーザーがページをタブで移動する際、自動的にキーボードフォーカスを受け取ります。 これは要素が HTML ソース上でマークアップされたものと同じ順序です。 これと同じ機能を `div` や `span`、`p` といった他の要素に対しても、`tabindex="0"` 属性を配置することで与えることができます。 以下が例です:
 
 ```html
 <div tabindex="0">I need keyboard focus!</div>
 ```
 
-**Note:** A negative `tabindex` value (typically -1) indicates that an element is focusable, but is not reachable by the keyboard. This method is generally used to bring focus to content programmatically (like when a `div` used for a pop-up window is activated), and is beyond the scope of these challenges.
+**注:** 負の `tabindex` 値 (通常 -1) は、要素がフォーカス可能であるものの、キーボードからは到達できないことを示します。 この手法は一般的に、プログラム的にコンテンツへのフォーカスを与えるために使用されます (ポップアップウィンドウで使用される `div` をアクティブにする場合など)。これはこのチャレンジの範囲外です。
 
 # --instructions--
 
-Camper Cat created a new survey to collect information about his users. He knows input fields automatically get keyboard focus, but he wants to make sure his keyboard users pause at the instructions while tabbing through the items. Add a `tabindex` attribute to the `p` tag and set its value to `0`. Bonus - using `tabindex` also enables the CSS pseudo-class `:focus` to work on the `p` tag.
+Camper Cat は、ユーザーに関する情報を収集するための新しい調査を作成しました。 彼は入力フィールドが自動的にキーボードフォーカスを得ることを知っていますが、キーボードユーザーがタブで移動する間に説明文で一時停止したいと思っています。 `tabindex` 属性を `p` タグに追加し、値を `0` に設定してください。 ボーナス - `tabindex` を使用することで、CSS の疑似クラス `:focus` が `p` タグで動作するようになります。
 
 # --hints--
 
-Your code should add a `tabindex` attribute to the `p` tag that holds the form instructions.
+コードではフォームの説明文を保持する `p` タグに `tabindex` 属性を追加してください。
 
 ```js
 assert.isNotNull(document.querySelector('p')?.getAttribute('tabindex'));
 ```
 
-Your code should set the `tabindex` attribute on the `p` tag to a value of 0.
+コードには `p` タグの `tabindex` 属性として 0 を設定する必要があります。
 
 ```js
 assert.equal(document.querySelector('p')?.getAttribute('tabindex'), '0');

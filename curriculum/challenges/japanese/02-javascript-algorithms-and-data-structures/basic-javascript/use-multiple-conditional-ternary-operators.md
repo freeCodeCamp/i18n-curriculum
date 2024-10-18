@@ -9,7 +9,7 @@ dashedName: use-multiple-conditional-ternary-operators
 
 # --description--
 
-In the previous challenge, you used a single conditional operator. You can also chain them together to check for multiple conditions.
+以前のチェレンジでは単一条件演算子を使用しました。 それらをまとめて、複数の条件をチェックすることもできます。
 
 次の関数は `if` ステートメント、`else if` ステートメント、`else` ステートメントを使用して、複数の条件をチェックしています。
 

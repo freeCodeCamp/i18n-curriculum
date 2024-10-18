@@ -8,7 +8,7 @@ dashedName: work-with-dynamic-data-in-d3
 
 # --description--
 
-The last two challenges cover the basics of displaying data dynamically with D3 using the `data()` and `enter()` methods. These methods take a data set and, together with the `append()` method, create a new DOM element for each entry in the data set.
+最後の 2 つのチャレンジでは、`data()` と `enter()` の各メソッドを使用して D3 で動的にデータを表示するための基本を学びます。 これらのメソッドは `append()` メソッドと共にデータセットを取り、データセット内の各エントリに対して新しい DOM 要素を作成します。
 
 以前のチャレンジでは、`dataset` 配列内の各アイテムに対して新しい `h2` 要素を作成しました。しかし、それらはすべて `New Title` という同じテキストを含んでいました。 その原因は、`h2` 要素のそれぞれにバインドされているデータを使用していないことです。
 

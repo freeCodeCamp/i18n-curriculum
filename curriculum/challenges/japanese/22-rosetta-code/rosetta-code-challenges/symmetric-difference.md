@@ -8,7 +8,7 @@ dashedName: symmetric-difference
 
 # --description--
 
-Given two sets *A* and *B*, compute $(A \\setminus B) \\cup (B \\setminus A).$ That is, enumerate the items that are in *A* or *B* but not both. This set is called the symmetric difference of *A* and *B*. In other words: $(A \\cup B) \\setminus (A \\cap B)$ (the set of items that are in at least one of *A* or *B* minus the set of items that are in both *A* and *B*).
+2 つの集合 *A* と *B* について、$(A \\setminus B) \\cup (B \\setminus A)$ を計算します。つまり、*A* または *B* に属しているが、両方共には属していない項目を列挙します。 This set is called the symmetric difference of *A* and *B*. 言い換えれば: $(A \\cup B) \\setminus (A \\cap B)$ となります。(少なくとも *A* または *B* のいずれかに属している項目の集合から *A* と *B* の両方に属している項目の集合を引きます)。
 
 例:
 
@@ -16,17 +16,17 @@ Given two sets *A* and *B*, compute $(A \\setminus B) \\cup (B \\setminus A).$ T
 
 # --instructions--
 
-Write a function that takes two arrays as parameters and returns the symmetric difference. Sort the resultant array before returning it.
+2 つの配列をパラメータとして取り、対称差を返す関数を記述してください。 返す前に、結果の配列をソートします。
 
 # --hints--
 
-`symmetricDifference` should be a function.
+`symmetricDifference` は関数とします。
 
 ```js
 assert(typeof symmetricDifference == 'function');
 ```
 
-`symmetricDifference(["John", "Bob", "Mary", "Serena"], ["Jim", "Mary", "John", "Bob"])` should return an array.
+`symmetricDifference(["John", "Bob", "Mary", "Serena"], ["Jim", "Mary", "John", "Bob"])` は配列を返す必要があります。
 
 ```js
 assert(
@@ -39,7 +39,7 @@ assert(
 );
 ```
 
-`symmetricDifference(["John", "Bob", "Mary", "Serena"], ["Jim", "Mary", "John", "Bob"])` should return `["Jim", "Serena"]`.
+`symmetricDifference(["John", "Bob", "Mary", "Serena"], ["Jim", "Mary", "John", "Bob"])` は `["Jim", "Serena"]` を返す必要があります。
 
 ```js
 assert.deepEqual(
@@ -51,13 +51,13 @@ assert.deepEqual(
 );
 ```
 
-`symmetricDifference([1, 2, 3], [3, 4])` should return `[1, 2, 4]`.
+`symmetricDifference([1, 2, 3], [3, 4])` は `[1, 2, 4]` を返す必要があります。
 
 ```js
 assert.deepEqual(symmetricDifference([1, 2, 3], [3, 4]), [1, 2, 4]);
 ```
 
-`symmetricDifference([1, 2, 3, 4, 5], [3, 4, 8, 7])` should return `[1, 2, 5, 7, 8]`.
+`symmetricDifference([1, 2, 3, 4, 5], [3, 4, 8, 7])` は `[1, 2, 5, 7, 8]` を返す必要があります。
 
 ```js
 assert.deepEqual(symmetricDifference([1, 2, 3, 4, 5], [3, 4, 8, 7]), [
@@ -69,7 +69,7 @@ assert.deepEqual(symmetricDifference([1, 2, 3, 4, 5], [3, 4, 8, 7]), [
 ]);
 ```
 
-`symmetricDifference([1, 2, 3, 4, 5, 6, 7, 8], [1, 3, 5, 6, 7, 8, 9])` should return `[2, 4, 9]`.
+`symmetricDifference([1, 2, 3, 4, 5, 6, 7, 8], [1, 3, 5, 6, 7, 8, 9])` は `[2, 4, 9]` を返す必要があります。
 
 ```js
 assert.deepEqual(
@@ -78,7 +78,7 @@ assert.deepEqual(
 );
 ```
 
-`symmetricDifference([1, 2, 4, 7, 9], [2, 3, 7, 8, 9])` should return `[1, 3, 4, 8]`.
+`symmetricDifference([1, 2, 4, 7, 9], [2, 3, 7, 8, 9])` は `[1, 3, 4, 8]` を返す必要があります。
 
 ```js
 assert.deepEqual(symmetricDifference([1, 2, 4, 7, 9], [2, 3, 7, 8, 9]), [

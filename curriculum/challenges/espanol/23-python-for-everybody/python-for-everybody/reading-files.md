@@ -10,7 +10,7 @@ bilibiliIds:
 dashedName: reading-files
 ---
 
-# --preguntas--
+# --questions--
 
 ## --text--
 

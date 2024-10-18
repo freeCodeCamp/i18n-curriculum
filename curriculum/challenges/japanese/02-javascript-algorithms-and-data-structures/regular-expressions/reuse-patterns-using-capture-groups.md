@@ -8,7 +8,7 @@ dashedName: reuse-patterns-using-capture-groups
 
 # --description--
 
-Say you want to match a word that occurs multiple times like below.
+次のように複数回出現する単語にマッチさせたいとします。
 
 ```js
 let repeatStr = "row row row your boat";

@@ -8,16 +8,16 @@ dashedName: ethiopian-multiplication
 
 # --description--
 
-Ethiopian multiplication is a method of multiplying integers using only addition, doubling, and halving.
+エチオピア乗算は、加算、倍増、および半減のみを使用して整数を乗算する方法です。
 
 **方法:**
 
 <ol>
-  <li>Take two numbers to be multiplied and write them down at the top of two columns</li>
-  <li>In the left-hand column repeatedly halve the last number, discarding any remainders, and write the result below the last in the same column, until you write a value of <code>1</code></li>
-  <li>In the right-hand column repeatedly double the last number and write the result below. stop when you add a result in the same row as where the left hand column shows <code>1</code></li>
-  <li>Examine the table produced and discard any row where the value in the left column is even</li>
-  <li>Sum the values in the right-hand column that remain to produce the result of multiplying the original two numbers together</li>
+  <li>乗算対象の 2 つの数を取り、2 つの列の上に書きます。</li>
+  <li>左側の列で、最後の数字を繰り返し 2 で割り、残りを捨て、値が <code>1</code> になるまで同じ列の最後に結果を書き込みます。</li>
+  <li>右側の列で、繰り返し最後の数字を 2 倍にして、結果を列の最後に書きます。 左側の列に <code>1</code> が表示されている行まで結果を入れ、その後停止します。</li>
+  <li>出来上がったテーブルを見て、左側の列の値が偶数である行を削除します。</li>
+  <li>残っている右側の列の値を加算すると、元の 2 つの数を乗算した結果になります。</li>
 </ol>
 
 **例:** `17 × 34`
@@ -74,7 +74,7 @@ Ethiopian multiplication is a method of multiplying integers using only addition
 タスクは、3つの名前付き関数/メソッド/プロシージャ/サブルーチンを定義することです。
 
 <ol>
-  <li>one to halve an integer,</li>
+  <li>整数を半分にする</li>
   <li>整数を2倍にする</li>
   <li>整数が偶数かどうかを示す</li>
 </ol>

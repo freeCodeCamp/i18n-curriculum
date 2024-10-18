@@ -8,14 +8,14 @@ dashedName: linear-congruential-generator
 
 # --description--
 
-A linear congruential generator (LCG) is an <em>algorithm</em> that yields a sequence of pseudo-randomized numbers calculated with a discontinuous piecewise linear equation. All linear congruential generators use this formula:
+線形合同法 (LCG) は、不連続の区分的な線形方程式で計算された疑似乱数列を生成する<em>アルゴリズム</em>です。 すべての線形合同法は次の式を使用します。
 
 $$r_{n + 1} = (a \times r_n + c) \bmod m$$
 
 ここでは、
 
 <ul>
-<li>$ r_0 $ is a seed.</li>
+<li>$ r_0 $ はシードです。</li>
 <li>$r_1$, $r_2$, $r_3$, ... は乱数です。</li>
 <li>$a$, $c$, $m$ は定数です。</li>
 </ul>

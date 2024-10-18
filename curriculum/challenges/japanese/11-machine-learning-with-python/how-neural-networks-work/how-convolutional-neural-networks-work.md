@@ -10,7 +10,7 @@ dashedName: how-convolutional-neural-networks-work
 
 ## --text--
 
-When are Convolutional Neural Networks not useful?
+畳み込みニューラルネットワークが役に立たない場合はどれですか？
 
 ## --answers--
 

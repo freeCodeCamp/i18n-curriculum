@@ -8,7 +8,7 @@ dashedName: return-part-of-an-array-using-the-slice-method
 
 # --description--
 
-The `slice` method returns a copy of certain elements of an array. It can take two arguments, the first gives the index of where to begin the slice, the second is the index for where to end the slice (and it's non-inclusive). If the arguments are not provided, the default is to start at the beginning of the array through the end, which is an easy way to make a copy of the entire array. The `slice` method does not mutate the original array, but returns a new one.
+`slice` メソッドは、配列の特定の要素のコピーを返します。 このメソッドは 2 つの引数を取ることができます。1 つ目はスライスの開始位置のインデックスで、2 つ目はスライスの終了位置のインデックスです (終了位置自体は slice の対象に含まれません)。 引数が指定されていない場合は、デフォルトで配列の先頭から末尾まで処理します。この方法で配列全体のコピーを簡単に作成できます。 `slice` メソッドは元の配列をミューテート (変化) させず、新しい配列を返します。
 
 例を示します。
 

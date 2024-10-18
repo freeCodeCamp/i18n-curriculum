@@ -8,7 +8,7 @@ dashedName: drop-it
 
 # --description--
 
-Given the array `arr`, iterate through and remove each element starting from the first element (the 0 index) until the function `func` returns `true` when the iterated element is passed through it.
+配列 `arr` が与えられたとき、最初の要素 (インデックスは 0) から順に各要素を反復処理し、関数 `func` に反復要素が渡されたときに関数が `true` を返すまで、要素を削除してください。
 
 条件が満たされた場合は、配列の残りの部分を返してください。条件が満たされない場合は、`arr` を空の配列として返す必要があります。
 

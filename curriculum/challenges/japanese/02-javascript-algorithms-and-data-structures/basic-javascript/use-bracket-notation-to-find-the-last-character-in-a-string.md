@@ -9,7 +9,7 @@ dashedName: use-bracket-notation-to-find-the-last-character-in-a-string
 
 # --description--
 
-In order to get the last letter of a string, you can subtract one from the string's length.
+文字列の最後の文字を取得するには、文字列の長さから 1 を引きます。
 
 たとえば、`const firstName = "Ada"` の場合は、`firstName[firstName.length - 1]` とすることでこの文字列の最後の文字の値を取得できます。
 

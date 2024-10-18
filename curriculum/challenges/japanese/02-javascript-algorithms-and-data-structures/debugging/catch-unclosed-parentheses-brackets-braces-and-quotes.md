@@ -8,7 +8,7 @@ dashedName: catch-unclosed-parentheses-brackets-braces-and-quotes
 
 # --description--
 
-Another syntax error to be aware of is that all opening parentheses, brackets, curly braces, and quotes have a closing pair. Forgetting a piece tends to happen when you're editing existing code and inserting items with one of the pair types. Also, take care when nesting code blocks into others, such as adding a callback function as an argument to a method.
+もう一つ注意すべき構文エラーは、すべての開始の丸括弧、角括弧、波括弧、および引用符に、終了のためのペアがあるかということです。 既存のコードを編集していて、アイテムを挿入するときにペアを記述し忘れることがよくあります。 また、コールバック関数をメソッドの引数として追加する場合など、コードブロックをネストする場合にも、注意が必要です。
 
 こうした間違いを避ける方法の一つとして、開始文字を入力した直後に終了のペアを入力し、カーソルをその中間に戻してからコーディングを続けることができます。 幸い、最新のほとんどのコードエディターは、ペアの部分を自動的に生成してくれます。
 

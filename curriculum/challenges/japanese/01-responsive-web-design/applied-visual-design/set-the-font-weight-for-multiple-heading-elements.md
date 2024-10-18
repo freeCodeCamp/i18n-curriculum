@@ -1,6 +1,6 @@
 ---
 id: 587d781c367417b2b2512ac3
-title: Set the font-weight for Multiple Heading Elements
+title: 複数の見出し要素の font-weight を設定する
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/crVWRHq'
 forumTopicId: 301069
@@ -9,17 +9,17 @@ dashedName: set-the-font-weight-for-multiple-heading-elements
 
 # --description--
 
-You set the `font-size` of each heading tag in the last challenge, here you'll adjust the `font-weight`.
+ひとつ前のチャレンジでは各見出しタグの `font-size` を設定しました。次は `font-weight` を調整してみましょう。
 
-The `font-weight` property sets how thick or thin characters are in a section of text.
+`font-weight` プロパティは、文字の太さまたは細さを設定します。
 
 # --instructions--
 
-<ul><li>Set the <code>font-weight</code> of the <code>h1</code> tag to 800.</li><li>Set the <code>font-weight</code> of the <code>h2</code> tag to 600.</li><li>Set the <code>font-weight</code> of the <code>h3</code> tag to 500.</li><li>Set the <code>font-weight</code> of the <code>h4</code> tag to 400.</li><li>Set the <code>font-weight</code> of the <code>h5</code> tag to 300.</li><li>Set the <code>font-weight</code> of the <code>h6</code> tag to 200.</li></ul>
+<ul><li><code>h1</code> タグの <code>font-weight</code> を 800 に設定してください。</li><li><code>h2</code> タグの <code>font-weight</code> を 600 に設定してください。</li><li><code>h3</code> タグの <code>font-weight</code> を 500 に設定してください。</li><li><code>h4</code> タグの <code>font-weight</code> を 400 に設定してください。</li><li><code>h5</code> タグの <code>font-weight</code> を 300 に設定してください。</li><li><code>h6</code> タグの <code>font-weight</code> を 200 に設定してください。</li></ul>
 
 # --hints--
 
-Your code should set the `font-weight` property for the `h1` tag to 800.
+`h1` タグの `font-weight` プロパティは 800 に設定される必要があります。
 
 ```js
 const h1Element =document.querySelector('h1')
@@ -27,7 +27,7 @@ const h1Style = window.getComputedStyle(h1Element);
 assert.equal(h1Style?.fontWeight, '800');
 ```
 
-Your code should set the `font-weight` property for the `h2` tag to 600.
+`h2` タグの `font-weight` プロパティは 600 に設定される必要があります。
 
 ```js
 const h2Element =document.querySelector('h2')
@@ -35,7 +35,7 @@ const h2Style = window.getComputedStyle(h2Element);
 assert.equal(h2Style?.fontWeight, '600');
 ```
 
-Your code should set the `font-weight` property for the `h3` tag to 500.
+`h3` タグの `font-weight` プロパティは 500 に設定される必要があります。
 
 ```js
 const h3Element =document.querySelector('h3')
@@ -43,7 +43,7 @@ const h3Style = window.getComputedStyle(h3Element);
 assert.equal(h3Style?.fontWeight, '500');
 ```
 
-Your code should set the `font-weight` property for the `h4` tag to 400.
+`h4` タグの `font-weight` プロパティは 400 に設定される必要があります。
 
 ```js
 const h4Element =document.querySelector('h4')
@@ -51,7 +51,7 @@ const h4Style = window.getComputedStyle(h4Element);
 assert.equal(h4Style?.fontWeight, '400');
 ```
 
-Your code should set the `font-weight` property for the `h5` tag to 300.
+`h5` タグの `font-weight` プロパティは 300 に設定される必要があります。
 
 ```js
 const h5Element =document.querySelector('h5')
@@ -59,7 +59,7 @@ const h5Style = window.getComputedStyle(h5Element);
 assert.equal(h5Style?.fontWeight, '300');
 ```
 
-Your code should set the `font-weight` property for the `h6` tag to 200.
+`h6` タグの `font-weight` プロパティは 200 に設定される必要があります。
 
 ```js
 const h6Element =document.querySelector('h6')

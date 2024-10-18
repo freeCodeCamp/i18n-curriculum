@@ -8,7 +8,7 @@ dashedName: url-shortener-microservice
 
 # --description--
 
-Build a full stack JavaScript app that is functionally similar to this: <a href="https://url-shortener-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://url-shortener-microservice.freecodecamp.rocks</a>. Working on this project will involve you writing your code using one of the following methods:
+Build a full stack JavaScript app that is functionally similar to this: <a href="https://url-shortener-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://url-shortener-microservice.freecodecamp.rocks</a>. プロジェクトに取り組むにあたり、以下の方法のうち 1 つを用いてコードを記述します。
 
 -   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-urlshortener/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
 -   Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-urlshortener/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete your project.
@@ -16,7 +16,7 @@ Build a full stack JavaScript app that is functionally similar to this: <a href=
 
 # --instructions--
 
-**HINT:** Do not forget to use a body parsing middleware to handle the POST requests. Also, you can use the function `dns.lookup(host, cb)` from the `dns` core module to verify a submitted URL.
+** ヒント: ** POST リクエストを処理するために、ボディ解析ミドルウェアを使用してください。 また、`dns` コアモジュールの `dns.lookup(host, cb)` 関数を使用して、送信された URL を確認することが可能です。
 
 # --hints--
 
@@ -32,7 +32,7 @@ Build a full stack JavaScript app that is functionally similar to this: <a href=
 };
 ```
 
-You can POST a URL to `/api/shorturl` and get a JSON response with `original_url` and `short_url` properties. Here's an example: `{ original_url : 'https://freeCodeCamp.org', short_url : 1}`
+`/api/shorturl` へ URL を POST すると、`original_url` および `short_url` プロパティを持つ JSON レスポンスを取得できます。 例: `{ original_url : 'https://freeCodeCamp.org', short_url : 1}`
 
 ```js
 async (getUserInput) => {
@@ -54,7 +54,7 @@ async (getUserInput) => {
 };
 ```
 
-When you visit `/api/shorturl/<short_url>`, you will be redirected to the original URL.
+`/api/shorturl/<short_url>` へアクセスすると、元の URL にリダイレクトされます。
 
 ```js
 async (getUserInput) => {
@@ -86,7 +86,7 @@ async (getUserInput) => {
 };
 ```
 
-If you pass an invalid URL that doesn't follow the valid `http://www.example.com` format, the JSON response will contain `{ error: 'invalid url' }`
+有効な `http://www.example.com` という形式に従っていない無効な URL を渡すと、JSON レスポンスで `{ error: 'invalid url' }` が返されます。
 
 ```js
 async (getUserInput) => {

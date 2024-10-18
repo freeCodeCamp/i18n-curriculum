@@ -8,7 +8,7 @@ dashedName: hofstadter-figure-figure-sequences
 
 # --description--
 
-The Hofstadter Figure-Figure sequences $R_n$ and $S_n$ are given by
+ホフスタッターフィギュア-フィギュア数列 $R_n$ および $S_n$ は次で与えられます。
 
 $R_1 = 1\\ ;\\ S_1 = 2 \\\\R_n = R_{n-1} + S_{n-1}, \\quad n>1.$
 

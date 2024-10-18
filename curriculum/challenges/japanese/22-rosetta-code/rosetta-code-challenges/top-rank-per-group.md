@@ -8,7 +8,7 @@ dashedName: top-rank-per-group
 
 # --description--
 
-Find the top `n` ranked data in each group, where `n` is provided as a parameter. Name of the rank and the group are also provided as parameter.
+各グループの上位 `n` 位のデータを検索します。パラメータとして `n` が提供されます。 ランク名とグループ名もパラメータとして提供されます。
 
 以下のデータが与えられているとします:
 

@@ -8,7 +8,7 @@ dashedName: largest-int-from-concatenated-ints
 
 # --description--
 
-Given a set of positive integers, write a function to order the integers in such a way that the concatenation of the numbers forms the largest possible integer and return this integer.
+指定された正の整数一式に対して、この数字の連結が最大の整数を形成するように整数を並び替え、この最大整数を返すような関数を記述してください。
 
 # --hints--
 

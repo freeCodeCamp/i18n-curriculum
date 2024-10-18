@@ -8,7 +8,7 @@ dashedName: pig-latin
 
 # --description--
 
-Pig Latin is a way of altering English Words. The rules are as follows:
+ピッグ・ラテンは英語の言葉を言い変える方法です。 ルールは次のとおりです。
 
 \-子音で始まる単語は、最初の子音または子音連結を語末へ移動し、`ay` を追加します。
 

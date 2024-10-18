@@ -8,7 +8,7 @@ dashedName: 100-doors
 
 # --description--
 
-There are 100 doors in a row that are all initially closed. You make 100 passes by the doors. The first time through, visit every door and 'toggle' the door (if the door is closed, open it; if it is open, close it). The second time, only visit every 2nd door (i.e., door #2, #4, #6, ...) and toggle it. The third time, visit every 3rd door (i.e., door #3, #6, #9, ...), etc., until you only visit the 100th door.
+100 個のドアが連続してあり、最初はすべてのドアは閉じています。 100 個のドア全てを対象とします。 1 回目はすべてのドアを訪問し、ドアを「切り替え」(ドアが閉じられている場合は、開き、開いている場合は、閉じる）ます。 2 回目は、2 の倍数のドア (#2 のドア、#4 のドア、#6 のドア...) に訪問し、それぞれの開閉を「切り替え」ます。 3 回目は、3 の倍数のドア (#3 のドア、#6 のドア、#9 のドア...) を訪問して「切替」を行い、100 番目のドアまで続けます。
 
 # --instructions--
 

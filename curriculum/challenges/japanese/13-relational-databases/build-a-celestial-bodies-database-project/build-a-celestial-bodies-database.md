@@ -1,6 +1,6 @@
 ---
 id: 5f1a4ef5d5d6b5ab580fc6ae
-title: Build a Celestial Bodies Database
+title: 天体データベースを構築する
 challengeType: 13
 url: freeCodeCamp/learn-celestial-bodies-database
 dashedName: build-a-celestial-bodies-database
@@ -8,15 +8,15 @@ dashedName: build-a-celestial-bodies-database
 
 # --description--
 
-This is one of the required projects to earn your certification. For this project, you will build a database of celestial bodies using PostgreSQL.
+これは認定証の取得に必須のプロジェクトの 1 つです。 このプロジェクトでは、PostgreSQL を使用して天体のデータベースを構築します。
 
 # --instructions--
 
-**Important:** After you pass all the project tests, save a dump of your database into a `universe.sql` file so you can complete step 2. There will be instructions how to do that within the virtual machine.
+**重要:** プロジェクトのテストがすべて成功した後に、データベースのダンプを `universe.sql` ファイルの中に保存することでステップ 2 を完了できます。 仮想マシン内にその方法についての説明があります。
 
 # --notes--
 
-Required files: `universe.sql`
+必須のファイル: `universe.sql`
 
 # --hints--
 

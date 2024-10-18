@@ -8,14 +8,14 @@ dashedName: emirp-primes
 
 # --description--
 
-An emirp (**prime** spelled backwards) are primes that when reversed (in their decimal representation) are a different prime.
+emirp (**prime** の逆さの綴り) は、(10 進数表記で) 逆から読んでも素数になる素数です。
 
 # --instructions--
 
 以下の関数を作成します。
 
 <ul>
-  <li>Shows the first <code>n</code> emirp numbers.</li>
+  <li>最初の <code>n</code> 個のエマープを表示します。</li>
   <li>範囲内のエマープを表示します。</li>
   <li>範囲内のエマープの数を表示します。</li>
   <li><code>n<sup>th</sup></code> のエマープを表示します。</li>

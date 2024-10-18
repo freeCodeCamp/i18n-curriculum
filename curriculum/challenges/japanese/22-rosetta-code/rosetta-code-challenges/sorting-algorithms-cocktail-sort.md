@@ -8,7 +8,7 @@ dashedName: sorting-algorithmscocktail-sort
 
 # --description--
 
-The <a href="https://rosettacode.org/wiki/Sorting_algorithms/Cocktail_sort" target="_blank" rel="noopener noreferrer nofollow">cocktail sort</a> is an improvement on the Bubble Sort. Given an array of numbers, the cocktail sort will traverse the array from start to finish, moving the largest number to the end. Then, it will traverse the array backwards and move the smallest number to the start. It repeats these two passes, moving the next largest/smallest number to its correct position in the array until it is sorted.
+The <a href="https://rosettacode.org/wiki/Sorting_algorithms/Cocktail_sort" target="_blank" rel="noopener noreferrer nofollow">cocktail sort</a> is an improvement on the Bubble Sort. カクテルソートでは、与えられた数値配列について、先頭から末尾まで横断し、最大の数値を末尾に移動します。 次に、配列を逆行して、最小の数値を先頭に移動します。 これら 2 つのパスを繰り返して、次の最大 / 最小の数を配列内の正しい位置に移動し、それをソートされるまで繰り返します。
 
 # --instructions--
 

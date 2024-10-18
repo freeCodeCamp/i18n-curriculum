@@ -8,7 +8,7 @@ dashedName: use-the-tilde-character-to-always-use-the-latest-patch-version-of-a-
 
 # --description--
 
-In the last challenge, you told npm to only include a specific version of a package. That’s a useful way to freeze your dependencies if you need to make sure that different parts of your project stay compatible with each other. But in most use cases, you don’t want to miss bug fixes since they often include important security patches and (hopefully) don’t break things in doing so.
+前回のチャレンジでは、npm に特定のバージョンのパッケージのみを含めるよう指示しました。 この方法は、プロジェクトのさまざまな部分について互いの互換性を保つ必要がある場合に、依存関係を固定するのに便利です。 しかし、ほとんどのケースではバグ修正を省くのは好ましくありません。これは、 バグ修正には重要なセキュリティパッチが含まれていることが多く、適用しても現在の動作を壊すことはない (だろうと考える) からです。
 
 依存関係のバージョンの前にプレフィックスとしてチルダ (`~`) 文字を付けると、npm の依存関係を最新の PATCH バージョンに更新することができます。 Here's an example of how to allow updates to any `1.3.x` version.
 

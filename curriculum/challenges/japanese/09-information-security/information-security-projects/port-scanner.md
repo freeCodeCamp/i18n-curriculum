@@ -68,7 +68,7 @@ PORT     SERVICE
 
 `get_open_ports` 関数に渡された IP アドレスが無効な場合、関数は文字列 "Error: Invalid IP address" を返す必要があります。
 
-## Development
+## 開発
 
 `port_scanner.py` にコードを記述してください。 開発には `main.py` を使用してコードをテストすることができます。
 

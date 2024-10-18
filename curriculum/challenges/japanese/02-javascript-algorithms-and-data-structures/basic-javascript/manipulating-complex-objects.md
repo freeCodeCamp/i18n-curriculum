@@ -9,7 +9,7 @@ dashedName: manipulating-complex-objects
 
 # --description--
 
-Sometimes you may want to store data in a flexible <dfn>Data Structure</dfn>. A JavaScript object is one way to handle flexible data. They allow for arbitrary combinations of <dfn>strings</dfn>, <dfn>numbers</dfn>, <dfn>booleans</dfn>, <dfn>arrays</dfn>, <dfn>functions</dfn>, and <dfn>objects</dfn>.
+場合によっては、データを柔軟な<dfn>データ構造</dfn>に保存したいことがあります。 JavaScript オブジェクトは、柔軟性のあるデータを扱う方法の一つです。 They allow for arbitrary combinations of <dfn>strings</dfn>, <dfn>numbers</dfn>, <dfn>booleans</dfn>, <dfn>arrays</dfn>, <dfn>functions</dfn>, and <dfn>objects</dfn>.
 
 次は複雑なデータ構造の例です。
 

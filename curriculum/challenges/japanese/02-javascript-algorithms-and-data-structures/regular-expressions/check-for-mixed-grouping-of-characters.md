@@ -8,7 +8,7 @@ dashedName: check-for-mixed-grouping-of-characters
 
 # --description--
 
-Sometimes we want to check for groups of characters using a Regular Expression and to achieve that we use parentheses `()`.
+正規表現を使用して文字のグループをチェックするために、括弧 `()` を使用することがあります。
 
 文字列の中から `Penguin` または `Pumpkin` のどちらかを見つけたい場合は、`/P(engu|umpk)in/g` という正規表現を使用できます。
 

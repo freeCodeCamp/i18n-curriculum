@@ -8,11 +8,11 @@ dashedName: kaprekar-numbers
 
 # --description--
 
-A positive integer is a Kaprekar number if:
+正の整数がカプレカ数であるとは、次が成り立つ場合を言います:
 
 <ul>
-  <li>It is 1, or,</li>
-  <li>The decimal representation of its square may be split once into two parts consisting of positive integers which sum to the original number. </li>
+  <li>1 である、または</li>
+  <li>その数字の2乗の10進数を正の整数の2つの部分に分け、その合計が元の数値に等しくなる </li>
 </ul>
 
 ただし、分割された部分が 0 のみであった場合は、0 は正とはみなされないため、無効となることに注意してください。
@@ -20,7 +20,7 @@ A positive integer is a Kaprekar number if:
 カプレカ数の例:
 
 <ul>
-  <li><code>2223</code> is a Kaprekar number, as <code>2223 * 2223 = 4941729</code>, <code>4941729</code> may be split to <code>494</code> and <code>1729</code>, and <code>494 + 1729 = 2223</code></li>
+  <li><code>2223</code> は以下のとおりカプレカ数です。<code>2223 * 2223 = 4941729</code> であり、<code>4941729</code> が <code>494</code> と <code>1729</code> に分割でき、かつ <code>494 + 1729 = 2223</code> となります。</li>
   <li>一連のカプレカ数は A006886 として知られており、 <code>1, 9, 45, 55, ...</code> で始まります。</li>
 </ul>
 

@@ -8,7 +8,7 @@ dashedName: create-a-method-on-an-object
 
 # --description--
 
-Objects can have a special type of property, called a <dfn>method</dfn>.
+オブジェクトには、<dfn>メソッド</dfn>と呼ばれる特別なタイプのプロパティを持たせることができます。
 
 メソッドは、関数をその実体とするプロパティです。 メソッドによってオブジェクトにさまざまな動作が追加されます。 次は、メソッドを持つ `duck` の例です。
 

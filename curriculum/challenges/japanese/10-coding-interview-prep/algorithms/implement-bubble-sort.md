@@ -8,7 +8,7 @@ dashedName: implement-bubble-sort
 
 # --description--
 
-This is the first of several challenges on sorting algorithms. Given an array of unsorted items, we want to be able to return a sorted array. We will see several different methods to do this and learn some tradeoffs between these different approaches. While most modern languages have built-in sorting methods for operations like this, it is still important to understand some of the common basic approaches and learn how they can be implemented.
+このチャレンジは、ソートアルゴリズムに関するいくつかのチャレンジの 1 つ目です。 ソートされていない要素の配列が与えられ、ソートされた配列を返す操作を行います。 これを行うための方法をいくつか知り、それらの異なるアプローチの間にどのようなトレードオフがあるかを学びます。 最近のほとんどの言語にはこのような操作を行うソート方法が組み込まれていますが、一般的な基本アプローチをいくつか理解し、それらの実装方法を学ぶことはやはり重要です。
 
 まずはバブルソートです。 バブルソート法は、ソートされていない配列の先頭から始まり、ソートされていない値を末尾に向けて押し出す「バブルアップ」を行います。これを、配列が完全にソートされるまで繰り返します。 具体的には、隣接する要素を比較し、順序が正しくなければそれらを交換します。 配列がソートされて交換が発生しなくなるまで、この操作が配列内をループし続けます。
 

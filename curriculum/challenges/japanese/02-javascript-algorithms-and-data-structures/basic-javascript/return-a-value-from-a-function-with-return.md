@@ -9,7 +9,7 @@ dashedName: return-a-value-from-a-function-with-return
 
 # --description--
 
-We can pass values into a function with <dfn>arguments</dfn>. You can use a `return` statement to send a value back out of a function.
+関数に値を渡すには<dfn>引数</dfn>を使用します。 関数から値を返すには `return` ステートメントを使用します。
 
 **例**
 

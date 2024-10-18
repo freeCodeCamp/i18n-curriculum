@@ -14,7 +14,7 @@ dashedName: natural-language-processing-with-rnns-part-2
 
 ## --text--
 
-Word embeddings are...:
+単語埋め込みとは何ですか？
 
 ## --answers--
 

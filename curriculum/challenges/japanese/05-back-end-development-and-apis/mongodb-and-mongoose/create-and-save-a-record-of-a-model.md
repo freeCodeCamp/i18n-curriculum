@@ -1,6 +1,6 @@
 ---
 id: 587d7fb6367417b2b2512c09
-title: Create and Save a Record of a Model
+title: モデルのレコードを作成および保存する
 challengeType: 2
 forumTopicId: 301536
 dashedName: create-and-save-a-record-of-a-model
@@ -8,11 +8,11 @@ dashedName: create-and-save-a-record-of-a-model
 
 # --description--
 
-In this challenge you will have to create and save a record of a model.
+このチャレンジでは、モデルのレコードを作成して保存する必要があります。
 
 # --instructions--
 
-Within the `createAndSavePerson` function, create a document instance using the `Person` model constructor you built before. Pass to the constructor an object having the fields `name`, `age`, and `favoriteFoods`. Their types must conform to the ones in the `personSchema`. Then, call the method `document.save()` on the returned document instance. Pass to it a callback using the Node convention. This is a common pattern; all the following CRUD methods take a callback function like this as the last argument.
+`createAndSavePerson` 関数内で、以前に構築した `Person` モデル コンストラクターを使用してドキュメント インスタンスを作成します。 フィールド `name`、`age` および `favoriteFoods` を持つオブジェクトをコンストラクターに渡します。 これらのタイプは、`personSchema` 内のものに準拠していなければなりません。 次に、返されるドキュメント インスタンスに対してメソッド `document.save()` を呼び出します。 Node の規約を使用してコールバックを渡します。 これはよく使用するパターンです。以下の CRUD メソッドはすべて、このようなコールバック関数を最後の引数として受け取ります。
 
 ```js
 /* Example */
@@ -25,7 +25,7 @@ person.save(function(err, data) {
 
 # --hints--
 
-Creating and saving a db item should succeed
+db アイテムを正しく作成して保存する必要があります。
 
 ```js
 (getUserInput) =>

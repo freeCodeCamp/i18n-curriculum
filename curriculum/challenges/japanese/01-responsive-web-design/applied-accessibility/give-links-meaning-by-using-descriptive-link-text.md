@@ -9,7 +9,7 @@ dashedName: give-links-meaning-by-using-descriptive-link-text
 
 # --description--
 
-Screen reader users have various options for what type of content their device reads. These options include skipping to (or over) landmark elements, jumping to the main content, or getting a page summary from the headings. Another option is to only hear the links available on a page.
+スクリーンリーダーのユーザーには、デバイスがどの種類のコンテンツを読み上げるかに関するさまざまなオプションがあります。 これらのオプションには、ランドマーク要素まで (またはその先に) スキップする、メインコンテンツへのジャンプ、見出しからページの要約を取得するなどがあります。 他に、ページで利用可能なリンクだけを聞くこともできます。
 
 この場合、スクリーンリーダーはリンクテキスト、つまりアンカー (`a`) タグの間にあるテキストを読み上げます。 「click here (ここをクリック)」や「read more (詳細を読む)」というリンクの一覧があっても役に立ちません。 代わりに、これらのユーザーにより多くの意味を提供するために、`a` タグ内では簡潔で説明的なテキストを使用してください。
 

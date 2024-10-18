@@ -8,7 +8,7 @@ dashedName: restrict-possible-usernames
 
 # --description--
 
-Usernames are used everywhere on the internet. They are what give users a unique identity on their favorite sites.
+ユーザー名はインターネット上の至るところで使用されています。 これらは、お気に入りのサイトでユーザーを一意に識別するものです。
 
 データベース内ですべてのユーザー名を確認する必要があります。 ユーザー名を作成する際に、ユーザーが従わなければならない簡単なルールをいくつか示します。
 

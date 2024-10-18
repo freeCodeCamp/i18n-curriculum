@@ -8,7 +8,7 @@ dashedName: match-all-non-numbers
 
 # --description--
 
-The last challenge showed how to search for digits using the shortcut `\d` with a lowercase `d`. You can also search for non-digits using a similar shortcut that uses an uppercase `D` instead.
+前回のチャレンジでは、ショートカット `\d` で小文字の `d` を使用して数字を検索する方法を示しました。 似たようなショートカットで、代わりに大文字の `D` を使用して数字以外を検索することもできます。
 
 数字以外の文字を検索するためのショートカットは `\D` です。 これは文字クラス `[^0-9]` と同等です。0 から 9 の数字以外の単一の文字を検索します。
 

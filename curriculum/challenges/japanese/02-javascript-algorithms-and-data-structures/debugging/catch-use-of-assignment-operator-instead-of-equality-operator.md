@@ -8,7 +8,7 @@ dashedName: catch-use-of-assignment-operator-instead-of-equality-operator
 
 # --description--
 
-Branching programs, i.e. ones that do different things if certain conditions are met, rely on `if`, `else if`, and `else` statements in JavaScript. The condition sometimes takes the form of testing whether a result is equal to a value.
+プログラムの分岐、つまり、満たされた特定の条件ごとに異なる処理を実行する部分では、JavaScript の `if`、`else if`、`else` などのステートメントが使用されます。 条件として「結果が値と等しいかどうかをテストする」ことがあります。
 
 このロジックを言葉にすれば (少なくとも英語では) "if x equals y, then ..." (x が y に等しい場合は、... を実行する) などとなり、代入演算子 `=` を使用すれば文字通りのコードに変換できますが、 そうするとプログラムで予期しない制御フローが生じます。
 

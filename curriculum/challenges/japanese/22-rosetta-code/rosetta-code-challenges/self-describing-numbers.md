@@ -8,14 +8,14 @@ dashedName: self-describing-numbers
 
 # --description--
 
-There are several so-called "self-describing" or "self-descriptive" integers.
+いわゆる「自己記述数」と呼ばれる整数がいくつかあります。
 
 各桁が 0 から N-1 にラベル付けされているとき、各桁の数字がこの数字内でその桁が現れる回数と同じという性質を持つ場合、その整数は「自己記述数」と呼ばれます。
 
 例えば、 **2020** は4桁の自己記述数です。
 
 <ul>
-    <li> position 0 has value 2 and there are two 0s in the number; </li>
+    <li> 0 の位置の値は 2 で、この数字内には 2 つの 0 があります。 </li>
     <li> 1 の位置の値は 0 で、この数字内には 1 がありません。 </li>
     <li> 2 の位置の値は 2 で、この数字内には 2 つの 2 があります。 </li>
     <li> 3 の位置の値は 0 で、この数字内には 3 がありません。 </li>

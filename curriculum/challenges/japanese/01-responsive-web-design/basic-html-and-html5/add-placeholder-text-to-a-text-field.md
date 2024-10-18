@@ -9,7 +9,7 @@ dashedName: add-placeholder-text-to-a-text-field
 
 # --description--
 
-Placeholder text is what is displayed in your `input` element before your user has inputted anything.
+プレイスホルダーテキストは、ユーザーが何かを入力する前に `input` 要素に表示されているテキストです。
 
 次のようにしてプレイスホルダーテキストを作成できます。
 

@@ -8,7 +8,7 @@ dashedName: boo-who
 
 # --description--
 
-Check if a value is classified as a boolean primitive. Return `true` or `false`.
+値がブールプリミティブとして分類されるかどうかを確認してください。 Return `true` or `false`.
 
 ブールプリミティブは `true` および `false` です。
 

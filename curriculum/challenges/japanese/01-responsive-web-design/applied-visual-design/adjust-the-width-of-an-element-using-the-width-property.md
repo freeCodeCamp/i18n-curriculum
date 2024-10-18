@@ -9,7 +9,7 @@ dashedName: adjust-the-width-of-an-element-using-the-width-property
 
 # --description--
 
-You can specify the width of an element using the `width` property in CSS. Values can be given in relative length units (such as `em`), absolute length units (such as `px`), or as a percentage of its containing parent element. Here's an example that changes the width of an image to 220px:
+CSS では `width` プロパティを使用して要素の幅を指定できます。 値は相対単位 (`em` など) や、絶対単位 (`px` など)、または親要素に対するパーセンテージなどで指定することができます。 下記は画像の幅を 220px に変更する例です:
 
 ```css
 img {

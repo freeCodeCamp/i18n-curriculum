@@ -1,6 +1,6 @@
 ---
 id: 587d7b87367417b2b2512b40
-title: Compare Scopes of the var and let Keywords
+title: var キーワードと let キーワードのスコープを比較する
 challengeType: 1
 forumTopicId: 301195
 dashedName: compare-scopes-of-the-var-and-let-keywords
@@ -10,9 +10,9 @@ dashedName: compare-scopes-of-the-var-and-let-keywords
 
 If you are unfamiliar with `let`, check out <a href="/learn/javascript-algorithms-and-data-structures/basic-javascript/explore-differences-between-the-var-and-let-keywords" target="_blank" rel="noopener noreferrer nofollow">this challenge about the difference between <code>let</code> and <code>var</code></a>.
 
-When you declare a variable with the `var` keyword, it is declared globally, or locally if declared inside a function.
+`var` キーワードを付けて変数を宣言すると、グローバルに宣言されるか、または関数内で宣言された場合はローカルに宣言されます。
 
-The `let` keyword behaves similarly, but with some extra features. When you declare a variable with the `let` keyword inside a block, statement, or expression, its scope is limited to that block, statement, or expression.
+`let` キーワードの動作も似ていますが、いくつか追加の機能があります。 ブロック、ステートメント、または式の中で `let` キーワードを付けて変数を宣言すると、変数のスコープがそのブロック、ステートメント、または式に限定されます。
 
 例えば次のようになります。
 
@@ -25,9 +25,9 @@ console.log(numArray);
 console.log(i);
 ```
 
-Here the console will display the values `[0, 1, 2]` and `3`.
+ここでは、コンソールに値 `[0, 1, 2]` と `3` が表示されます。
 
-With the `var` keyword, `i` is declared globally. So when `i++` is executed, it updates the global variable. This code is similar to the following:
+`var` キーワードでは、`i` はグローバルに宣言されます。 そのため、`i++` を実行するとグローバル変数が更新されます。 このコードは次のコードと同様です。
 
 ```js
 var numArray = [];
@@ -39,9 +39,9 @@ console.log(numArray);
 console.log(i);
 ```
 
-Here the console will display the values `[0, 1, 2]` and `3`.
+ここでも、コンソールに値 `[0, 1, 2]` と `3` が表示されます。
 
-This behavior will cause problems if you were to create a function and store it for later use inside a `for` loop that uses the `i` variable. This is because the stored function will always refer to the value of the updated global `i` variable.
+`i` 変数を使用している `for` ループの中で関数を作成し、後で使用できるように保存した場合には、この動作が問題を起こします。 これは、変数を保存した関数からは、更新されたグローバルの `i` 変数の値が常に参照されるためです。
 
 ```js
 var printNumTwo;
@@ -55,9 +55,9 @@ for (var i = 0; i < 3; i++) {
 console.log(printNumTwo());
 ```
 
-Here the console will display the value `3`.
+ここでは、コンソールに値 `3` が表示されます。
 
-As you can see, `printNumTwo()` prints 3 and not 2. This is because the value assigned to `i` was updated and the `printNumTwo()` returns the global `i` and not the value `i` had when the function was created in the for loop. The `let` keyword does not follow this behavior:
+ご覧のように、`printNumTwo()` は 2 ではなく 3 を出力します。 これは、`i` に代入された値が更新されて、`printNumTwo()` が、for ループで関数を作成したときに与えられた値 `i` ではなく、グローバルの `i` を返すからです。 `let` キーワードの場合はこうした動作に従いません。
 
 ```js
 let printNumTwo;
@@ -72,31 +72,31 @@ console.log(printNumTwo());
 console.log(i);
 ```
 
-Here the console will display the value `2`, and an error that `i is not defined`.
+ここでは、コンソールに値 `2` が表示され、エラー `i is not defined` が表示されます。
 
-`i` is not defined because it was not declared in the global scope. It is only declared within the `for` loop statement. `printNumTwo()` returned the correct value because three different `i` variables with unique values (0, 1, and 2) were created by the `let` keyword within the loop statement.
+`i` はグローバルスコープで宣言されていないため、定義されていません。 `for` ループステートメントの中で宣言されているだけです。 `printNumTwo()`は正しい値を返しました。これは、ループステートメント内で `let` キーワードによって、独自の値 (0、1、および 2) を持つ 3 つの異なる `i` 変数が作成されたからです。
 
 # --instructions--
 
-Fix the code so that `i` declared in the `if` statement is a separate variable than `i` declared in the first line of the function. Be certain not to use the `var` keyword anywhere in your code.
+`if` ステートメント内で宣言された `i` が、関数の最初の行で宣言された `i` とは別の変数になるように、コードを修正してください。 コードではどの場所でもキーワード `var` を使用しないでください。
 
-This exercise is designed to illustrate the difference between how `var` and `let` keywords assign scope to the declared variable. When programming a function similar to the one used in this exercise, it is often better to use different variable names to avoid confusion.
+この練習の目的は、`var` キーワードと `let` キーワードで、宣言された変数に割り当てられるスコープの違いを理解することです。 この練習で使用しているような関数をプログラミングする場合は、通常は混同を避けるために異なる変数名を使用することをお勧めします。
 
 # --hints--
 
-`var` should not exist in code.
+`var` をコードに入れてはいけません。
 
 ```js
 assert(!__helpers.removeJSComments(code).match(/var/g));
 ```
 
-The variable `i` declared in the `if` statement should equal the string `block scope`.
+`if` ステートメント内で宣言された変数 `i` は、文字列 `block scope` になる必要があります。
 
 ```js
 assert(__helpers.removeJSComments(code).match(/(i\s*=\s*).*\s*.*\s*.*\1('|")block\s*scope\2/g));
 ```
 
-`checkScope()` should return the string `function scope`
+`checkScope()` は、文字列 `function scope` を返す必要があります。
 
 ```js
 assert(checkScope() === 'function scope');

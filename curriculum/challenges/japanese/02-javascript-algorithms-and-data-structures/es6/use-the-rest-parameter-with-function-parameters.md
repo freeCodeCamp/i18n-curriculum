@@ -8,7 +8,7 @@ dashedName: use-the-rest-parameter-with-function-parameters
 
 # --description--
 
-In order to help us create more flexible functions, ES6 introduces the <dfn>rest parameter</dfn> for function parameters. With the rest parameter, you can create functions that take a variable number of arguments. These arguments are stored in an array that can be accessed later from inside the function.
+より柔軟な関数を作成できるように、ES6 では関数パラメーターに<dfn>残余引数</dfn>が導入されています。 残余引数を使用すると、可変個の引数を取る関数を作成できます。 これらの引数は配列に格納され、後で関数内からアクセスできます。
 
 次のコードをご覧ください。
 

@@ -18,19 +18,19 @@ The next few video lessons will reference [this Colab notebook](https://colab.re
 
 ## --text--
 
-Natural Language Processing is a branch of artificial intelligence that...:
+自然言語処理は人工知能の一分野として、どのようなことを対象としていますか？
 
 ## --answers--
 
-deals with how computers understand and process natural/human languages.
+コンピューターが自然言語や人間の言語を理解し処理する方法を扱う。
 
 ---
 
-translates image data into natural/human languages.
+画像データを自然言語または人間の言語に翻訳する。
 
 ---
 
-is focused on translating computer languages into natural/human languages.
+コンピューター言語を自然言語または人間の言語に翻訳することを中心とする。
 
 ## --video-solution--
 

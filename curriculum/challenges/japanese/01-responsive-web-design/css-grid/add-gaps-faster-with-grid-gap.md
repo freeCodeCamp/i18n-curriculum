@@ -9,7 +9,7 @@ dashedName: add-gaps-faster-with-grid-gap
 
 # --description--
 
-`grid-gap` is a shorthand property for `grid-row-gap` and `grid-column-gap` from the previous two challenges that's more convenient to use. If `grid-gap` has one value, it will create a gap between all rows and columns. However, if there are two values, it will use the first one to set the gap between the rows and the second value for the columns.
+`grid-gap` は `grid-row-gap` と `grid-column-gap` の一括指定プロパティで、これまでの 2 つのチャレンジで使ったものがより便利になります。 `grid-gap` が値を 1 つ持つ場合、すべての行と列の間に隙間が作成されます。 ただし、値が 2 つある場合は、1 つ目の値で行の隙間を設定し、2 番目の値で列の隙間を設定します。
 
 # --instructions--
 

@@ -14,7 +14,7 @@ dashedName: reinforcement-learning-with-q-learning-part-2
 
 ## --text--
 
-What can happen if the agent does not have a good balance of taking random actions and using learned actions?
+エージェントが、ランダムなアクションを実行するか、学習したアクションを使用するかで良好なバランスを取れていない場合、何が起こる可能性がありますか？
 
 ## --answers--
 

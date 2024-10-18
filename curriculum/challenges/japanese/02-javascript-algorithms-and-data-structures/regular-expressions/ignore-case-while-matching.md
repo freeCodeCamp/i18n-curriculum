@@ -8,7 +8,7 @@ dashedName: ignore-case-while-matching
 
 # --description--
 
-Up until now, you've looked at regexes to do literal matches of strings. But sometimes, you might want to also match case differences.
+ここまで、文字列のリテラルな (文字のとおりの) マッチを行う正規表現を見てきました。 しかし、場合によっては大文字と小文字の違いにかかわらずマッチさせたいことがあります。
 
 英語で大文字と小文字の違いのことをケース (またはレターケース) と呼びます。 大文字の例としては、`A`、`B`、`C` があります。 小文字の例としては、`a`、`b`、`c` があります。
 

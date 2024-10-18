@@ -12,7 +12,7 @@ dashedName: how-to-solve-for-x-extra
 
 Ось <a href="https://colab.research.google.com/drive/1Jv6WxW93J_1GZao8DkNb4X0D93oVibbs" target="_blank" rel="noopener noreferrer nofollow">блокнот Colab для цього відео.</a> Використайте його, щоб заповнити свій блокнот Colab з алгебри.
 
-# --Завдання--
+# --assignment--
 
 Додайте код з відео для інших розв’язків рівняння до свого блокнота Colab.
 

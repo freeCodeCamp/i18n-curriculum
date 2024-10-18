@@ -8,14 +8,14 @@ dashedName: last-letter-first-letter
 
 # --description--
 
-A certain children's game involves starting with a word in a particular category. Each participant in turn says a word, but that word must begin with the final letter of the previous word. Once a word has been given, it cannot be repeated. If an opponent cannot give a word in the category, they fall out of the game.
+子供たちの遊びのひとつで、あるカテゴリに属する単語の連想から始めます。 各参加者は順番に単語を言いますが、その単語は前の単語の最後の文字で始まる必要があります。 一度誰かが言った単語を繰り返して使うことはできません。 そのカテゴリの単語を言えなかった参加者は、ゲームから脱落します。
 
 例えば、カテゴリが「動物」であるとします。
 
-<pre>Child 1: dog
-Child 2: goldfish
-Child 1: hippopotamus
-Child 2: snake
+<pre>子供 1: dog
+子供 2: goldfish
+子供 1: hippopotamus
+子供 2: snake
 ...
 </pre>
 

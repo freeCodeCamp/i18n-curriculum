@@ -8,7 +8,7 @@ dashedName: delete-one-document-using-model-findbyidandremove
 
 # --description--
 
-`findByIdAndRemove` and `findOneAndRemove` are like the previous update methods. They pass the removed document to the db. As usual, use the function argument `personId` as the search key.
+`findByIdAndRemove` と `findOneAndRemove` も、前回の更新メソッドと同様です。 これらは、削除したドキュメントを db に渡します。 いつものように、関数引数 `personId` を検索キーとして使用してください。
 
 # --instructions--
 

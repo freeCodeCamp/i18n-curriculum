@@ -1,6 +1,6 @@
 ---
 id: 587d7b8d367417b2b2512b5b
-title: Learn About Functional Programming
+title: 関数型プログラミングについて学習する
 challengeType: 1
 forumTopicId: 301233
 dashedName: learn-about-functional-programming
@@ -8,31 +8,31 @@ dashedName: learn-about-functional-programming
 
 # --description--
 
-Functional programming is a style of programming where solutions are simple, isolated functions, without any side effects outside of the function scope: `INPUT -> PROCESS -> OUTPUT`
+関数型プログラミングはプログラミングのスタイルの一つで、ソリューションが単純で独立した関数であり、関数スコープ外の副作用がありません: `INPUT -> PROCESS -> OUTPUT`
 
-Functional programming is about:
+関数型プログラミングでは次のような関数を目指します。
 
-1) Isolated functions - there is no dependence on the state of the program, which includes global variables that are subject to change
+1) 独立した関数 - プログラムの状態 (変更される可能性があるグローバル変数を含む) にまったく依存しない
 
-2) Pure functions - the same input always gives the same output
+2) 純粋な関数 - 同じ入力は常に同じ出力を与える
 
-3) Functions with limited side effects - any changes, or mutations, to the state of the program outside the function are carefully controlled
+3) 限られた副作用を持つ関数 - 関数外のプログラムの状態に対する任意の変更 (ミューテーション) は慎重に制御される
 
 # --instructions--
 
-The members of freeCodeCamp happen to love tea.
+freeCodeCamp のメンバーはたまたま紅茶が大好きです。
 
-In the code editor, the `prepareTea` and `getTea` functions are already defined for you. Call the `getTea` function to get 40 cups of tea for the team, and store them in the `tea4TeamFCC` variable.
+コードエディターでは、`prepareTea` および `getTea` 関数がすでに定義されています。 `getTea` 関数を呼び出して、チームの紅茶 40 杯分をもらい、`tea4TeamFCC` 変数に格納してください。
 
 # --hints--
 
-The `tea4TeamFCC` variable should hold 40 cups of tea for the team.
+`tea4TeamFCC` 変数には、チームの 40 杯分の紅茶を保持する必要があります。
 
 ```js
 assert(tea4TeamFCC.length === 40);
 ```
 
-The `tea4TeamFCC` variable should hold cups of green tea.
+`tea4TeamFCC` 変数には、緑茶を数杯分保持する必要があります。
 
 ```js
 assert(tea4TeamFCC[0] === 'greenTea');

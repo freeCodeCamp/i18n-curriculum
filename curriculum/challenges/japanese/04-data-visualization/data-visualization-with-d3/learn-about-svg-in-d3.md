@@ -8,7 +8,7 @@ dashedName: learn-about-svg-in-d3
 
 # --description--
 
-<dfn>SVG</dfn> stands for <dfn>Scalable Vector Graphics</dfn>.
+<dfn>SVG</dfn> とは <dfn>Scalable Vector Graphics</dfn> (スケーラブル・ベクター・グラフィックス) の略称です。
 
 ここで言う「スケーラブル」とは、オブジェクトをズームインまたはズームアウトしてもピクセル化されないことを意味します。 携帯電話の小さな画面であれ、大型テレビの画面であれ、ディスプレイシステムに合わせて画像が調整されます。
 

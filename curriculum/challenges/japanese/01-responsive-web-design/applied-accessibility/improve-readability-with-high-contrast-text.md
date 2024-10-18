@@ -9,7 +9,7 @@ dashedName: improve-readability-with-high-contrast-text
 
 # --description--
 
-Low contrast between the foreground and background colors can make text difficult to read. Sufficient contrast improves your content's readability, but what exactly does "sufficient" mean?
+前景色と背景色間でコントラストが低いと、テキストが読みづらくなります。 十分なコントラストはコンテンツの可読性を向上させますが、「十分」とは何を意味するのでしょうか？
 
 ウェブコンテンツアクセシビリティガイドライン (Web Content Accessibility Guidelines, WCAG) では、通常のテキストに対して少なくとも 4.5 〜 1 のコントラスト比を推奨しています。 この比率は 2 色の相対輝度値を比較することで算出します。 その範囲は、比率が 1:1 で同じ色だったりコントラストがない場合から、白に対する黒の比率 21:1、つまり最も大きなコントラストがある場合までの値を取ります。 オンラインで利用可能な多くのコントラストチェックツールがあり、この比率を計算できます。
 

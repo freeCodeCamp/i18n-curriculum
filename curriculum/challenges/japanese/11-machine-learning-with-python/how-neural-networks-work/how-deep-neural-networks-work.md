@@ -10,7 +10,7 @@ dashedName: how-deep-neural-networks-work
 
 ## --text--
 
-Why is it better to calculate the gradient (slope) directly rather than numerically?
+数値ではなく勾配 (傾斜) を直接計算する方が良いのはなぜですか？
 
 ## --answers--
 

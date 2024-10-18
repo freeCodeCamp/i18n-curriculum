@@ -8,7 +8,7 @@ dashedName: sorting-algorithmsgnome-sort
 
 # --description--
 
-Gnome sort is a sorting algorithm which is similar to <a href="https://rosettacode.org/wiki/Insertion_sort" target="_blank" rel="noopener noreferrer nofollow">Insertion sort</a>, except that moving an element to its proper place is accomplished by a series of swaps, as in <a href="https://rosettacode.org/wiki/Bubble" target="_blank" rel="noopener noreferrer nofollow">Bubble Sort</a>.
+ノームソートは、<a href="https://rosettacode.org/wiki/Insertion_sort" target="_blank" rel="noopener noreferrer nofollow">挿入ソート</a>に似たソートアルゴリズムですが、適切な場所への要素の移動が<a href="https://rosettacode.org/wiki/Bubble" target="_blank" rel="noopener noreferrer nofollow">バブルソート</a>のように一連の交換で行われる点のみが異なっています。
 
 アルゴリズムの疑似コードは次のとおりです。
 

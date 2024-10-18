@@ -12,7 +12,7 @@ Diese Aufgabe wird teilweise auf der Microsoft Learn Plattform erledigt. Folge d
 1. Gehe auf <a href="https://learn.microsoft.com/training/modules/challenge-project-create-mini-game/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/challenge-project-create-mini-game/</a> und löse alle Aufgaben für das Modul "Challenge Project - Create a Mini-Game". Dies ist **erforderlich**, um die Trophäe "Create Methods in C# Console Applications" auf Microsoft Learn zu erwerben und sich für die Zertifizierungsprüfung zu qualifizieren.
 1. Wenn du damit fertig bist, komme zurück und beantworte die folgende Frage richtig.
 
-# --Auftrag--
+# --assignment--
 
 Schließe das <a href="https://learn.microsoft.com/training/modules/challenge-project-create-mini-game/" target="_blank" rel="noreferrer">Erstelle ein Mini-Game</a> Projekt mit Microsoft Learn. Beantworte dann die Frage unten.
 

@@ -8,7 +8,7 @@ dashedName: iban
 
 # --description--
 
-The International Bank Account Number (IBAN) is an internationally agreed means of identifying bank accounts across national borders with a reduced risk of propagating transcription errors.
+国際銀行口座番号 (IBAN) は、国境を越えて銀行口座を識別するための国際的に合意された手段であり、転記ミスが伝わるリスクを軽減します。
 
 <abbr title="International Bank Account Number">IBAN</abbr> は最長 34 文字の英数字で構成されます:
 

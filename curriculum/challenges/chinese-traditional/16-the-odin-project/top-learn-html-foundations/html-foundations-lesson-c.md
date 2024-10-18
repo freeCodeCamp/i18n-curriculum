@@ -31,7 +31,7 @@ dashedName: html-foundations-lesson-c
 
 打開你的文本編輯器早些時候創建的 `index.html` 文件，並將 `<!DOCTYPE html>` 添加到第一行。
 
-# 問題
+# --questions--
 ## --text--
 
 `DOCTYPE` 聲明的目的是什麼？

@@ -8,7 +8,7 @@ dashedName: match-beginning-string-patterns
 
 # --description--
 
-Prior challenges showed that regular expressions can be used to look for a number of matches. They are also used to search for patterns in specific positions in strings.
+これまでのチャレンジで、正規表現を使用して多くのマッチを探せることがわかりました。 正規表現では、文字列内で特定の位置にあるパターンを検索することもできます。
 
 以前のチャレンジでは、文字セットの内側でキャレット文字 (`^`) を使用して、`[^thingsThatWillNotBeMatched]` という形式で否定の文字セットを作成しました。 文字セットの外側でキャレットを使用すると、文字列の先頭にあるパターンを検索できます。
 

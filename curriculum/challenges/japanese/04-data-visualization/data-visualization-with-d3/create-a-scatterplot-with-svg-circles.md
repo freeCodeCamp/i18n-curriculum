@@ -1,6 +1,6 @@
 ---
 id: 587d7fab367417b2b2512bd7
-title: Create a Scatterplot with SVG Circles
+title: SVG 円で散布図を作成する
 challengeType: 6
 forumTopicId: 301484
 dashedName: create-a-scatterplot-with-svg-circles
@@ -8,19 +8,19 @@ dashedName: create-a-scatterplot-with-svg-circles
 
 # --description--
 
-A scatter plot is another type of visualization. It usually uses circles to map data points, which have two values each. These values tie to the `x` and `y` axes, and are used to position the circle in the visualization.
+散布図もデータ可視化の一種です。 通常、円を使用してデータポイントをマッピングし、それぞれの円が 2 つの値を持っています。 これらの値は `x` 軸と `y` 軸に結び付いており、視覚化において円の配置に使用されます。
 
-SVG has a `circle` tag to create the circle shape. It works a lot like the `rect` elements you used for the bar chart.
+SVG には円形を作成するための `circle` タグがあります。 このタグは、棒グラフに使用した `rect` 要素とよく似た働きをします。
 
 # --instructions--
 
 Use the `data()`, `enter()`, and `append()` methods to bind `dataset` to new `circle` elements that are appended to the SVG.
 
-**Note:** The circles won't be visible because we haven't set their attributes yet. We'll do that in the next challenge.
+**注:** まだ属性を設定していないため、円は表示されません。 次のチャレンジでそれを行います。
 
 # --hints--
 
-Your code should have 10 `circle` elements.
+10 個の `circle` 要素が必要です。
 
 ```js
 assert($('circle').length == 10);

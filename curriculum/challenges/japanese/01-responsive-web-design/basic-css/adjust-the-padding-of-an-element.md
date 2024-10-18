@@ -9,7 +9,7 @@ dashedName: adjust-the-padding-of-an-element
 
 # --description--
 
-Now let's put our Cat Photo App away for a little while and learn more about styling HTML.
+では猫の写真アプリは一旦置いておいて、HTML のスタイル調整についてもっと学びましょう。
 
 すでに気づいているかもしれませんが、すべての HTML 要素は基本的に小さな長方形です。
 

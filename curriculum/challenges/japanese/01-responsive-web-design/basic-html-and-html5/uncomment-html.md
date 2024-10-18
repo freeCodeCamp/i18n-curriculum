@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedf08802
-title: Uncomment HTML
+title: HTML のコメントを解除する
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVMPUv/cBmG9T7'
 forumTopicId: 18329
@@ -9,37 +9,37 @@ dashedName: uncomment-html
 
 # --description--
 
-Commenting is a way that you can leave comments for other developers within your code without affecting the resulting output that is displayed to the end user.
+コメントは、エンドユーザーに表示される最終的な出力に影響を与えることなく、コード内に他の開発者へのコメントを残す方法です。
 
-Commenting is also a convenient way to make code inactive without having to delete it entirely.
+また、コメントはコードを完全に削除せずに無効化するための便利な方法でもあります。
 
-Comments in HTML start with `<!--` and end with a `-->`
+HTML のコメントは `<!--` で始まり、`-->` で終わります。
 
 # --instructions--
 
-Uncomment your `h1`, `h2` and `p` elements.
+`h1`, `h2` と `p` 要素のコメントを解除してください。
 
 # --hints--
 
-Your `h1` element should be visible on the page by uncommenting it.
+コメントを解除すると `h1` 要素はページに表示されるはずです。
 
 ```js
 assert($('h1').length > 0);
 ```
 
-Your `h2` element should be visible on the page by uncommenting it.
+コメントを解除すると `h2` 要素はページに表示されるはずです。
 
 ```js
 assert($('h2').length > 0);
 ```
 
-Your `p` element should be visible on the page by uncommenting it.
+コメントを解除すると `p` 要素はページに表示されるはずです。
 
 ```js
 assert($('p').length > 0);
 ```
 
-No trailing comment tags should be visible on the page (i.e. `-->`).
+コメントタグの末尾がページに表示されてはいけません (例: `-->`) 。
 
 ```js
 assert(!$('*:contains("-->")')[1]);

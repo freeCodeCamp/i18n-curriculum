@@ -9,7 +9,7 @@ dashedName: constructing-strings-with-variables
 
 # --description--
 
-Sometimes you will need to build a string. By using the concatenation operator (`+`), you can insert one or more variables into a string you're building.
+文字列を組み立てなければならない場合があります。 連結演算子 (`+`) を使用して、作成する文字列に 1 つまたは複数の変数を挿入することができます。
 
 例:
 

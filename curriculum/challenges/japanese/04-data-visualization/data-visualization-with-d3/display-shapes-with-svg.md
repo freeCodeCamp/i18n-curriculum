@@ -8,7 +8,7 @@ dashedName: display-shapes-with-svg
 
 # --description--
 
-The last challenge created an `svg` element with a given width and height, which was visible because it had a `background-color` applied to it in the `style` tag. The code made space for the given width and height.
+前回のチャレンジでは、与えられた幅と高さで `svg` 要素を作成しました。これが表示されたのは、`style` タグ内でその要素に適用される `background-color` があったからです。 前回のコードでは、与えられた幅と高さのためのスペースを作りました。
 
 次に行うことは、`svg` 領域に配置する図形の作成です。 SVG には、長方形や円など、サポートされている図形が数多くあります。 これらはデータを表示するために使用されます。 例えば、長方形 (`<rect>`) の SVG 図形で棒グラフのバーを作成できます。
 

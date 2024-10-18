@@ -1,6 +1,6 @@
 ---
 id: 587d8250367417b2b2512c5d
-title: Run Functional Tests Using a Headless Browser
+title: ヘッドレスブラウザーを使用して機能テストを実行する
 challengeType: 2
 forumTopicId: 301595
 dashedName: run-functional-tests-using-a-headless-browser
@@ -10,11 +10,11 @@ dashedName: run-functional-tests-using-a-headless-browser
 
 As a reminder, this project is being built upon the following starter project on <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>, or cloned from <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
 
-On the page there's an input form. It sends data to the `PUT /travellers` endpoint as an AJAX request.
+ページに入力フォームがあります。 AJAX リクエストとして、`PUT /travellers` エンドポイントへデータを送信します。
 
-When the request successfully completes, the client code appends a `<div>` containing the information in the response to the DOM.
+リクエストが正常に完了すると、クライアントコードは、情報を含む `<div>` を、DOM へのレスポンスに追加します。
 
-Here's an example of how to use Zombie.js to interact with the form:
+以下は、Zombie.js を使用してフォームとやり取りする方法の例です。
 
 ```js
 test('Submit the surname "Polo" in the HTML form', function (done) {
@@ -30,38 +30,38 @@ test('Submit the surname "Polo" in the HTML form', function (done) {
 });
 ```
 
-First, the `fill` method of the `browser` object fills the `surname` field of the form with the value `'Polo'`. `fill` returns a promise, so `then` is chained off of it.
+まず、`browser` オブジェクトの `fill` メソッドにより、フォームの `surname` フィールドに値 `'Polo'` を入力します。 `fill` は promise を返すので、そこから `then` でつなぎます。
 
-Within the `then` callback, the `pressButton` method of the `browser` object is used to invoke the form's `submit` event listener. The `pressButton` method is asynchronous.
+`then` コールバック内で、`browser` オブジェクトの `pressButton` メソッドを使用して、フォームの `submit` イベントリスナーを呼び出します。 `pressButton` メソッドは非同期です。
 
-Then, once a response is received from the AJAX request, a few assertions are made confirming:
+その後、AJAX リクエストからレスポンスを受信すると、いくつかのアサーションが実行され、以下が確定します。
 
-1.  The status of the response is `200`
+1.  レスポンスのステータスは、`200` です。
 2.  The text within the `<span id='name'></span>` element matches `'Marco'`
 3.  The text within the `<span id='surname'></span>` element matches `'Polo'`
 4.  There is `1` `<span id='dates'></span>` element.
 
-Finally, the `done` callback is invoked, which is needed due to the asynchronous test.
+最後に、`done` コールバックを呼び出します。これは非同期テストのために必要です。
 
 # --instructions--
 
-Within `tests/2_functional-tests.js`, in the `'Submit the surname "Colombo" in the HTML form'` test (`// #5`), automate the following:
+`tests/2_functional-tests.js` 内の `'Submit the surname "Colombo" in the HTML form'` テスト (`// #5`) で、以下を自動化してください。
 
-1.  Fill in the form with the surname `Colombo`
-2.  Press the submit button
+1.  フォームに姓 `Colombo` を入力します。
+2.  送信ボタンを押します。
 
-And within the `pressButton` callback:
+`pressButton` コールバック内で以下を実行してください。
 
-1.  Assert that status is OK `200`
-2.  Assert that the text inside the element `span#name` is `'Cristoforo'`
-3.  Assert that the text inside the element `span#surname` is `'Colombo'`
-4.  Assert that the element(s) `span#dates` exist and their count is `1`
+1.  ステータスが OK `200` であることをアサートします。
+2.  要素 `span#name` 内のテキストが `'Cristoforo'` であることをアサートします。
+3.  要素 `span#surname` 内のテキストが `'Colombo'` であることをアサートします。
+4.  要素 `span#dates` が存在し、そのカウントが `1` であることをアサートします。
 
-Do not forget to remove the `assert.fail()` call.
+`assert.fail()` 呼び出しを削除することを忘れないでください。
 
 # --hints--
 
-All tests should pass.
+すべてのテストが成功する必要があります。
 
 ```js
 (getUserInput) =>
@@ -75,7 +75,7 @@ All tests should pass.
   );
 ```
 
-You should assert that the headless browser request succeeded.
+ヘッドレスブラウザーのリクエストが成功したことをアサートする必要があります。
 
 ```js
 (getUserInput) =>
@@ -89,7 +89,7 @@ You should assert that the headless browser request succeeded.
   );
 ```
 
-You should assert that the text inside the element `span#name` is `'Cristoforo'`.
+要素 `span#name` 内のテキストが `'Cristoforo'` であることをアサートする必要があります。
 
 ```js
 (getUserInput) =>
@@ -105,7 +105,7 @@ You should assert that the text inside the element `span#name` is `'Cristoforo'`
   );
 ```
 
-You should assert that the text inside the element `span#surname` is `'Colombo'`.
+要素 `span#surname` 内のテキストが `'Colombo'` であることをアサートする必要があります。
 
 ```js
 (getUserInput) =>
@@ -121,7 +121,7 @@ You should assert that the text inside the element `span#surname` is `'Colombo'`
   );
 ```
 
-You should assert that the element `span#dates` exist and its count is 1.
+要素 `span#dates` が存在し、カウントが 1 であることをアサートする必要があります。
 
 ```js
 (getUserInput) =>

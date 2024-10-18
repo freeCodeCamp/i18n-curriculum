@@ -8,39 +8,39 @@ dashedName: sailors-coconuts-and-a-monkey-problem
 
 # --description--
 
-Five sailors are shipwrecked on an island and collect a large pile of coconuts during the day.
+5 人の水兵がある島に漂着し、日中の間にココナッツをたくさん集めました。
 
-That night the first sailor wakes up and decides to take his first share early so tries to divide the pile of coconuts equally into five piles but finds that there is one coconut left over, so he tosses it to a monkey and then hides "his" one of the five equally sized piles of coconuts and pushes the other four piles together to form a single visible pile of coconuts again and goes to bed.
+その夜、最初の水兵が目を覚まし、早めに自分の分を取ろうと考え、ココナッツの山を 5 つに均等に分けようとしたところ、ココナッツが 1 つ余ることに気づきました。そこで、1 つをサルに投げ与え、均等に分けられた 5 つの山から「自分の分け前」の1 つを隠し、他の 4 つの山を再び 1 つにまとめて、ベッドに戻りました。
 
 長い話なので端折って言うと、夜の間、それぞれの水兵が順番に 1 度起き、ココナッツの山を 5 つに分け、ココナッツが 1 つ余ることに気付いて、その 1 つをサルに投げ与えてから、他の 4 つの山を 1 つの山にまとめるという同じ行動をしました。
 
-In the morning (after the surreptitious and separate action of each of the five sailors during the night), the remaining coconuts are divided into five equal piles for each of the sailors, whereupon it is found that the pile of coconuts divides equally amongst the sailors with no remainder. (Nothing for the monkey in the morning.)
+(夜、5 人の水兵がそれぞれ秘密の行動を取った後) 朝になり、残りのココナッツをそれぞれの水兵の分として 5 つに均等に分けたところ、ココナッツの山はきっちり等分になり、1 つも余りませんでした。 (朝には、サルの分け前はなかったのです)。
 
 # --instructions--
 
-Create a function that returns the minimum possible size of the initial pile of coconuts collected during the day for `N` sailors. **注:** もちろん、この物語は日中にいくらでもココナッツを集められたり、ココナッツの山を何度も分けられたりと、話の筋に都合のいい時間に物事が起きる世界のお話です。この世界の条件が数学に影響を与えることはありません。
+`N` 人の水兵が日中に集めたココナッツの元々の数について、最も少ない場合の値を返す関数を記述してください。 **注:** もちろん、この物語は日中にいくらでもココナッツを集められたり、ココナッツの山を何度も分けられたりと、話の筋に都合のいい時間に物事が起きる世界のお話です。この世界の条件が数学に影響を与えることはありません。
 
 # --hints--
 
-`splitCoconuts` should be a function.
+`splitCoconuts` は関数とします。
 
 ```js
 assert(typeof splitCoconuts === 'function');
 ```
 
-`splitCoconuts(5)` should return 3121.
+`splitCoconuts(5)` は 3121 を返す必要があります。
 
 ```js
 assert(splitCoconuts(5) === 3121);
 ```
 
-`splitCoconuts(6)` should return 233275.
+`splitCoconuts(6)` は 233275 を返す必要があります。
 
 ```js
 assert(splitCoconuts(6) === 233275);
 ```
 
-`splitCoconuts(7)` should return 823537.
+`splitCoconuts(7)` は 823537 を返す必要があります。
 
 ```js
 assert(splitCoconuts(7) === 823537);

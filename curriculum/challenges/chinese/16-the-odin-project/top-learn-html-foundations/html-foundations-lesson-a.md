@@ -18,7 +18,7 @@ HTML 页面上几乎所有的元素都是在开始和结束 HTML 标签中包裹
 
 <img src="https://cdn.freecodecamp.org/curriculum/odin-project/html-foundations/html-foundations-01.png" alt='An opening p tag, followed by the content string "some text content", followed by a closing p tag.' />
 
-# --作业--
+# --assignment--
 
 Watch Kevin Powell’s <a href="https://www.youtube.com/watch?v=LGQuIIv2RVA&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-" target="_blank">Introduction to HTML video</a>
 

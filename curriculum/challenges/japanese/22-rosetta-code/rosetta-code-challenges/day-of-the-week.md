@@ -8,11 +8,11 @@ dashedName: day-of-the-week
 
 # --description--
 
-A company decides that whenever Xmas falls on a Sunday they will give their workers all extra paid holidays so that, together with any public holidays, workers will not have to work the following week (between the 25th of December and the first of January).
+ある会社は、クリスマスが日曜日と重なる場合、従業員に追加の有給休暇を与えることにしました。それにより、従業員は祝日と合わせて次の週 (12 月 25 日から 1 月 1 日まで) 働く必要がなくなります。
 
 # --instructions--
 
-開始年と終了年が入力されると、12月25日が日曜日と重なる年の配列を返す関数を作成します。
+開始年と終了年が入力されると、12 月 25 日が日曜日と重なる年の配列を返す関数を作成します。
 
 # --hints--
 

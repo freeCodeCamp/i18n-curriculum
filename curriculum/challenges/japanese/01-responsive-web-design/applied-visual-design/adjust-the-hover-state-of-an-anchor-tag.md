@@ -9,7 +9,7 @@ dashedName: adjust-the-hover-state-of-an-anchor-tag
 
 # --description--
 
-This challenge will touch on the usage of pseudo-classes. A pseudo-class is a keyword that can be added to selectors, in order to select a specific state of the element.
+このチャレンジでは疑似クラスの使い方について触れます。 疑似クラスは、セレクターに追加して要素の特定の状態を選択することができるキーワードです。
 
 例えば、`:hover` という疑似クラスセレクターを使用して、ホバー状態のアンカータグのスタイルを変更することができます。 アンカータグがホバー状態の間だけ `color` を変更する CSS は次の通りです。
 
