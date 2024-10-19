@@ -26,7 +26,7 @@ There is also a strict inequality operator `!==` that checks if the two values a
 
 There are a lot of ways to use the strict equality operator, and it's important to understand how it works.
 
-# --作业--
+# --assignment--
 
 Read <a href="https://javascript.info/comparison" target="_blank" rel="noopener noreferrer nofollow">this article on JavaScript.info</a> to learn more about the strict equality operator.
 

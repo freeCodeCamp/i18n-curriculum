@@ -10,7 +10,7 @@ bilibiliIds:
 dashedName: conclusion
 ---
 
-# --preguntas--
+# --questions--
 
 ## --text--
 

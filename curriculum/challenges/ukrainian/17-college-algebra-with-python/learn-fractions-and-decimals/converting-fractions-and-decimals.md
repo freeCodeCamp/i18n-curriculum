@@ -12,7 +12,7 @@ dashedName: converting-fractions-and-decimals
 
 Ось <a href="https://colab.research.google.com/drive/1dgeEEODP7cwm_96_JqbjxxJhVpZcFfGe?usp=sharing#scrollTo=NkMTAVF0BlqE" target="_blank" rel="noopener noreferrer nofollow">блокнот Colab, використаний у цьому відео.</a> Використайте цей код як модель та напишіть власний код для перетворення дробів та десяткових чисел.
 
-# --Завдання--
+# --assignment--
 
 Додайте код для перетворення дробів та десяткових чисел до свого блокнота Colab.
 

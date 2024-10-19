@@ -8,18 +8,18 @@ dashedName: record-collection
 
 # --description--
 
-You are creating a function that aids in the maintenance of a musical album collection. The collection is organized as an object that contains multiple albums which are also objects. Each album is represented in the collection with a unique `id` as the property name. Within each album object, there are various properties describing information about the album. Not all albums have complete information.
+Está creando una función que ayuda en el mantenimiento de una colección de álbumes musicales. La colección se organiza como un objeto que contiene múltiples álbumes que también son objetos. Cada álbum se representa en la colección con un `id` único como nombre de la propiedad. Dentro de cada objeto álbum, hay varias propiedades que describen información sobre el álbum. No todos los álbumes tienen información completa.
 
 La función `updateRecords` toma 4 argumentos representados por los siguientes parámetros de función:
 
--   `records` - an object containing several individual albums
--   `id` - a number representing a specific album in the `records` object
--   `prop` - a string representing the name of the album’s property to update
--   `value` - a string containing the information used to update the album’s property
+-   `records` - un objeto que contiene varios álbumes individuales
+-   `id` - un número que representa un álbum específico en el objeto `records`
+-   `prop` - una cadena que representa el nombre de la propiedad del álbum a actualizar
+-   `value` - una cadena que contiene la información utilizada para actualizar la propiedad del álbum
 
 Completa la función utilizando las reglas siguientes para modificar el objeto pasado a la función.
 
--   Your function must always return the entire `records` object.
+-   Tu función debe devolver siempre el objeto `records` completo.
 -   Si `value` es una cadena vacía, elimina la propiedad `prop` dada del álbum.
 -   Si `prop` no es `tracks` y `value` no es una cadena vacía, asigna el `value` a la `prop` de ese álbum.
 -   Si `prop` es `tracks` y `value` no es una cadena de carácteres vacía, pero el álbum no tiene una propiedad `tracks`, crea un arreglo vacío y agregalo `value` a él.

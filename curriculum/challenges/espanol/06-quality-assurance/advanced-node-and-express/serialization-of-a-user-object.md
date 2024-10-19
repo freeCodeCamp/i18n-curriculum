@@ -8,7 +8,7 @@ dashedName: serialization-of-a-user-object
 
 # --description--
 
-Serialization and deserialization are important concepts in regard to authentication. To serialize an object means to convert its contents into a small *key* that can then be deserialized into the original object. This is what allows us to know who has communicated with the server without having to send the authentication data, like the username and password, at each request for a new page.
+La serialización y deserialización son conceptos importantes en lo que respecta a la autenticación. Para serializar un objeto significa convertir su contenido en una pequeña *key* que puede ser deserializada en el objeto original. Esto es lo que nos permite saber quién se ha comunicado con el servidor sin tener que enviar los datos de autentificación, como el nombre de usuario y la contraseña, en cada petición de una nueva página.
 
 Para configurar esto apropiadamente, necesita tener una función serializada y una función deserialización. En Passport, esto puede ser creado con:
 

@@ -10,7 +10,7 @@ dashedName: sudoku-solver
 
 <a href="https://sudoku-solver.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://sudoku-solver.freecodecamp.rocks/</a> と同じような機能を持つ、フルスタック JavaScript アプリを構築してください。 プロジェクトに取り組むにあたり、以下の方法のうち 1 つを用いてコードを記述します。
 
--   Clone <a href="https://github.com/freecodecamp/boilerplate-project-sudoku-solver" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
+-   <a href="https://github.com/freecodecamp/boilerplate-project-sudoku-solver" target="_blank" rel="noopener noreferrer nofollow">GitHub リポジトリ</a>をクローンし、ローカル環境でチャレンジを完了させる。
 -   Use <a href="https://gitpod.io/?autostart=true#https://github.com/freecodecamp/boilerplate-project-sudoku-solver" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete your project.
 -   ご自身で選んだサイトビルダーを使用して、プロジェクトを完了させてください。 必ず GitHub リポジトリのすべてのファイルを取り込む。
 
@@ -163,7 +163,7 @@ async (getUserInput) => {
 };
 ```
 
-You can `POST` to `/api/check` an object containing `puzzle`, `coordinate`, and `value` where the `coordinate` is the letter A-I indicating the row, followed by a number 1-9 indicating the column, and `value` is a number from 1-9.
+`puzzle`、`coordinate` および `value` を含むオブジェクトを `/api/check` に `POST` できます。 `coordinate` は行を示す文字 A～I で、その後に列を示す 1～9 の数字が続きます。`value` は 1～9 の数値です。
 
 ```js
 async (getUserInput) => {
@@ -205,7 +205,7 @@ async (getUserInput) => {
 };
 ```
 
-If `value` submitted to `/api/check` is already placed in `puzzle` on that `coordinate`, the returned value will be an object containing a `valid` property with `true` if `value` is not conflicting.
+`/api/check` へ送信された `value` がすでに `puzzle` のその `coordinate` に配置されている場合、戻り値は `valid` プロパティを含むオブジェクトになり、このプロパティの値は `value` が競合していなければ `true` となります。
 
 ```js
 async (getUserInput) => {

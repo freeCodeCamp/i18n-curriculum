@@ -10,7 +10,7 @@ bilibiliIds:
 dashedName: networking-text-processing
 ---
 
-# --preguntas--
+# --questions--
 
 ## --text--
 

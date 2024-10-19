@@ -9,7 +9,7 @@ dashedName: port-scanner
 
 # --description--
 
-You will be <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-port-scanner" target="_blank" rel="noopener noreferrer nofollow">working on this project with our Gitpod starter code</a>.
+Estarás <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-port-scanner" target="_blank" rel="noopener noreferrer nofollow">trabajando en este proyecto con nuestro código inicial en Gitpod</a>.
 
 Estamos desarrollando las instrucciones interactivas del currículo de Python. Aunque puedes encontrar los siguientes videos en el canal de YouTube de freeCodeCamp.org que te enseñaran lo necesario para realizar este proyecto:
 
@@ -68,7 +68,7 @@ Si el URL pasado dentro de la función `get_open_ports` es invalido, la función
 
 Si la dirección IP pasada dentro de la función `get_open_ports` es invalida, la función debe retornar la cadena de texto: "Error: Invalid IP address".
 
-## Development
+## Desarrollo
 
 Escribe tu codigo en `port_scanner.py`. Para el desarrollo, puedes usar `main.py` para probar tu código.
 

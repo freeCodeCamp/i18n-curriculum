@@ -8,7 +8,7 @@ dashedName: caesars-cipher
 
 # --description--
 
-One of the simplest and most widely known <dfn>ciphers</dfn> is a <dfn>Caesar cipher</dfn>, also known as a <dfn>shift cipher</dfn>. In a shift cipher the meanings of the letters are shifted by some set amount.
+Uno de los <dfn>cifrados</dfn> más simples y conocidos es el <dfn>cifrado César</dfn>, también conocido como <dfn>cifrado por desplazamiento</dfn>. En un cifrado por desplazamiento los significados de las letras se desplazan por una cantidad determinada de letras.
 
 Un uso moderno común es el cifrado <a href="https://www.freecodecamp.org/news/how-to-code-the-caesar-cipher-an-introduction-to-basic-encryption-3bf77b4e19f7/" target="_blank" rel="noopener noreferrer nofollow">ROT13</a>, donde los valores de las letras son desplazados por 13 lugares. Así `A ↔ N`, `B ↔ O` y así sucesivamente.
 

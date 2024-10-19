@@ -10,7 +10,7 @@ dashedName: confirm-the-ending
 
 文字列 (最初の引数、`str`) が与えられたターゲット文字列 (2 番目の引数、`target`) で終わるかどうかを確認してください。
 
-This challenge *can* be solved with the `.endsWith()` method, which was introduced in ES2015. But for the purpose of this challenge, we would like you to use one of the JavaScript substring methods instead.
+このチャレンジは ES2015 で導入された `.endsWith()` メソッドを使用すれば*解決できます*。 しかし、ここでは代わりに JavaScript の substring メソッドを使用してください。
 
 # --hints--
 
@@ -67,7 +67,7 @@ assert(confirmEnding('Open sesame', 'sage') === false);
 assert(confirmEnding('Open sesame', 'game') === false);
 ```
 
-`confirmEnding("If you want to save our world, you must hurry. We dont know how much longer we can withstand the nothing", "mountain")` should return `false`.
+`confirmEnding("If you want to save our world, you must hurry. We dont know how much longer we can withstand the nothing", "mountain")` は `false` を返す必要があります。
 
 ```js
 assert(

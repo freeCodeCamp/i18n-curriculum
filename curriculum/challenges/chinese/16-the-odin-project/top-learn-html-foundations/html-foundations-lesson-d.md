@@ -22,7 +22,7 @@ dashedName: html-foundations-lesson-d
 ## lang 属性是什么？
 `lang` 在元素中指定了文本内容的语言。 这个属性主要用于提升网页的可访问性。 它允许辅助技术，例如屏幕阅读器，根据语言进行调整并调用正确的发音。
 
-# 问题
+# --questions--
 
 ## --text--
 

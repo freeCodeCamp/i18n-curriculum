@@ -8,7 +8,7 @@ dashedName: create-a-queue-class
 
 # --description--
 
-Like stacks, queues are a collection of elements. But unlike stacks, queues follow the FIFO (First-In First-Out) principle. Elements added to a queue are pushed to the tail, or the end, of the queue, and only the element at the front of the queue is allowed to be removed.
+Como las pilas, las colas son una colleción de elementos. Pero a diferencia de las pilas, las colas siguen el principio FIFO (First-In First-Out). Los elementos que son añadidos a la cola son puestos en la cola, o al final, de la cola, y solo el elemento del frente de la cola es posible extraerlo.
 
 Podríamos usar un arreglo para representar una cola, pero como las pilas, queremos limitar la cantidad de control que tenemos sobre nuestras colas.
 

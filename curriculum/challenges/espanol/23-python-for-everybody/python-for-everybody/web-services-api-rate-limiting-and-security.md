@@ -22,7 +22,7 @@ Más recursos:
 
 \- <a href="https://www.youtube.com/watch?v=AopYOlDa-vY" target="_blank" rel="noopener noreferrer nofollow">Ejercicio: XML</a>
 
-# --preguntas----preguntas--
+# --questions--
 
 ## --text--
 

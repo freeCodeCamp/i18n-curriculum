@@ -12,7 +12,7 @@ In diesem ersten Video wird gezeigt, wie man Gleichungssysteme zunächst mit sch
 
 Hier ist das <a href="https://colab.research.google.com/drive/1N1JEZJctODxsntROnmg0VqMSHXYdIlFD?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">Colab-Notizbuch, das in diesem Video verwendet wird.</a>
 
-# --Auftrag--
+# --assignment--
 
 Füge den Code aus dem Video zu deinem Algebra-Notizbuch ein, das du gerade erstellst, und teste ihn mit verschiedenen Funktionen.
 

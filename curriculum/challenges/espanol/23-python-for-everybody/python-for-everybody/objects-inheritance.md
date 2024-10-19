@@ -10,7 +10,7 @@ bilibiliIds:
 dashedName: objects-inheritance
 ---
 
-# --preguntas--
+# --questions--
 
 ## --text--
 

@@ -9,7 +9,7 @@ dashedName: iterate-with-javascript-do---while-loops
 
 # --description--
 
-The next type of loop you will learn is called a `do...while` loop. It is called a `do...while` loop because it will first `do` one pass of the code inside the loop no matter what, and then continue to run the loop `while` the specified condition evaluates to `true`.
+El siguiente tipo de bucle que aprenderás se llama bucle `do...while`. Se llama bucle `do...while` porque primero hace (`do`) una pasada por el código dentro del bucle sin importar qué, y luego continua ejecutando el bucle mientras (`while`) la condición especificada sea verdadera (`true`).
 
 ```js
 const ourArray = [];

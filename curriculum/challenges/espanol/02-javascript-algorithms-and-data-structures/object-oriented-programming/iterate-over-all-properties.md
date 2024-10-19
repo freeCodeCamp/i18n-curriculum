@@ -8,7 +8,7 @@ dashedName: iterate-over-all-properties
 
 # --description--
 
-You have now seen two kinds of properties: <dfn>own properties</dfn> and `prototype` properties. Own properties are defined directly on the object instance itself. And prototype properties are defined on the `prototype`.
+Ahora has visto dos tipos de propiedades: <dfn>propiedades directas</dfn> y propiedades `prototype`. Las propiedades directas se definen directamente en la propia instancia del objeto. Y las propiedades prototype se definen en el `prototype`.
 
 ```js
 function Bird(name) {

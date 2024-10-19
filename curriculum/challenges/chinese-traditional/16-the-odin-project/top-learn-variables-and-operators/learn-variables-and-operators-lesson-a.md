@@ -36,7 +36,7 @@ Another way to include JavaScript in a webpage is through an external script. Th
 
 JavaScript files have the extension `.js` similar to `.css` for stylesheets. External JavaScript files are used for more complex scripts.
 
-# 問題
+# --questions--
 
 ## --text--
 

@@ -10,7 +10,7 @@ bilibiliIds:
 dashedName: relational-databases-relationship-building
 ---
 
-# --preguntas--
+# --questions--
 
 ## --text--
 

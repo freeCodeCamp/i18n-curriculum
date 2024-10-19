@@ -8,7 +8,7 @@ dashedName: perform-a-subset-check-on-two-sets-of-data
 
 # --description--
 
-In this exercise, we are going to perform a subset test on 2 sets of data. We will create a method on our `Set` data structure called `isSubsetOf`. This will compare the first set against the second, and if the first set is fully contained within the second, it will return `true`.
+En este ejercicio vamos a hacer una diferencia en dos conjuntos de datos. Crearemos un método en nuestra estructura de datos `Set` llamada `isSubsetOf`. método. Esto comparará el primer conjunto con el segundo, y si el primer conjunto está completamente contenido dentro del segundo, devolverá `true`.
 
 Por ejemplo, si `setA = ['a','b']` y `setB = ['a','b','c','d']`</code>, entonces `setA` es un subconjunto de `setB`, así que `setA.isSubsetOf(setB)` debería devolver `true`.
 

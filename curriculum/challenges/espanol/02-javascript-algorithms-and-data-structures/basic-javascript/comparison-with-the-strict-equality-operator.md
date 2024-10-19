@@ -9,7 +9,7 @@ dashedName: comparison-with-the-strict-equality-operator
 
 # --description--
 
-Strict equality (`===`) is the counterpart to the equality operator (`==`). However, unlike the equality operator, which attempts to convert both values being compared to a common type, the strict equality operator does not perform a type conversion.
+La estricta igualdad (`===`) es la contraparte del operador de igualdad (`==`). Sin embargo, a diferencia del operador de igualdad, el cual intenta convertir ambos valores comparados a un tipo común, el operador de estricta igualdad no realiza una conversión de tipo.
 
 Si los valores que se comparan tienen diferentes tipos, se consideran desiguales, y el operador de estricta igualdad devolverá falso.
 

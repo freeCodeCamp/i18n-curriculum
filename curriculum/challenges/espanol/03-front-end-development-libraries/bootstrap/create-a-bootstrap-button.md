@@ -8,7 +8,7 @@ dashedName: create-a-bootstrap-button
 
 # --description--
 
-Bootstrap has its own styles for `button` elements, which look much better than the plain HTML ones.
+Bootstrap tiene sus propios estilos para los elementos `button`, que se ven mucho mejor que los de HTML puro.
 
 Crea un nuevo elemento `button` debajo de la foto grande del gatito. Dale las clases `btn` y `btn-default` y también el texto `Like`.
 

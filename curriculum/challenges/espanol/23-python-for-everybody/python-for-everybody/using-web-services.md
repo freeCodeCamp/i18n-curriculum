@@ -10,7 +10,7 @@ bilibiliIds:
 dashedName: using-web-services
 ---
 
-# --preguntas--
+# --questions--
 
 ## --text--
 

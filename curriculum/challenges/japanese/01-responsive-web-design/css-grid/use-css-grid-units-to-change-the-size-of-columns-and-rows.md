@@ -15,7 +15,7 @@ CSS グリッドでは `px` や `em` のような絶対単位および相対単�
 
 `auto`: 列または行をコンテンツの幅や高さに自動的に設定します。
 
-`%`: adjusts the column or row to the percent width of its container.
+`%`: 列または行をコンテナーのパーセント幅に調整します。
 
 プレビューに表示されている出力を生成するコードは次のとおりです:
 

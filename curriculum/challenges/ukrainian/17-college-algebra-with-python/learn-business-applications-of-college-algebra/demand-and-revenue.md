@@ -16,7 +16,7 @@ dashedName: demand-and-revenue
 
 \- <a href="https://lyryx.com/subjects/business/business-mathematics/" target="_blank" rel="noopener noreferrer nofollow">Бізнес-математика: покроковий довідник (2021). Жан-Пол Олівер</a>
 
-# --Завдання--
+# --assignment--
 
 Розв’яжіть завдання на ст. 155 та 163 з підручника «Бізнес-математика: покроковий довідник (2021)».
 

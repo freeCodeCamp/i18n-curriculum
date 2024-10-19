@@ -10,7 +10,7 @@ bilibiliIds:
 dashedName: introduction-python-as-a-language
 ---
 
-# --preguntas--
+# --questions--
 
 ## --text--
 

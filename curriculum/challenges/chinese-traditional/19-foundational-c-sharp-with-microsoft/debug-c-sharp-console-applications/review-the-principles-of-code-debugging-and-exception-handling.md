@@ -12,7 +12,7 @@ dashedName: review-the-principles-of-code-debugging-and-exception-handling
 1. 跳轉到 <a href="https://learn.microsoft.com/training/modules/review-principles-code-debugging-exception-handling-c-sharp/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/review-principles-code-debugging-exception-handling-c-sharp/</a>，然後完成“查看代碼調試和異常處理的原則”模塊的所有任務。 這是在 Microsoft Learn 上獲得“調試 C# 控制檯應用程序”的獎盃以及參加認證考試所**必需**的。
 1. 完成後，返回並正確回答下面的問題。
 
-# --作業--
+# --assignment--
 
 在 Microsoft Learn 上完成 <a href="https://learn.microsoft.com/training/modules/review-principles-code-debugging-exception-handling-c-sharp/" target="_blank" rel="noreferrer">查看代碼調試和異常處理的原則</a> 模塊。 然後，回答下面的問題。
 

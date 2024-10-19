@@ -9,7 +9,7 @@ dashedName: make-links-navigable-with-html-access-keys
 
 # --description--
 
-HTML offers the `accesskey` attribute to specify a shortcut key to activate or bring focus to an element. Adding an `accesskey` attribute can make navigation more efficient for keyboard-only users.
+HTML ofrece el atributo `accesskey` para especificar una tecla de acceso directo para activar o enfocar un elemento. Añadiendo un atributo `accesskey` puede hacer que la navegación sea más eficiente para los usuarios que solo utilizan teclado.
 
 HTML5 permite que este atributo se use en cualquier elemento, pero es particularmente útil cuando se usa con elementos interactivos. Esto incluye enlaces, botones y controles de formulario.
 

@@ -8,7 +8,7 @@ dashedName: implement-quick-sort
 
 # --description--
 
-Here we will move on to an intermediate sorting algorithm: quick sort. Quick sort is an efficient, recursive divide-and-conquer approach to sorting an array. In this method, a pivot value is chosen in the original array. The array is then partitioned into two subarrays of values less than and greater than the pivot value. We then combine the result of recursively calling the quick sort algorithm on both sub-arrays. This continues until the base case of an empty or single-item array is reached, which we return. The unwinding of the recursive calls return us the sorted array.
+Aquí pasaremos a un algoritmo de ordenación intermedio: la ordenación rápida. La ordenación rápida es un método eficiente y recursivo de dividir y conquistar para ordenar un arreglo. En este método, es elegido un valor pivote en el arreglo original. A continuación, el arreglo se divide en dos submatrices de valores menores y mayores que el valor pivote. A continuación, combinamos el resultado de llamar recursivamente al algoritmo de ordenación rápida en ambos subarreglos. Esto continúa hasta llegar al caso base de un arreglo vacío o de un solo elemento, que devolvemos. El desenvolvimiento de las llamadas recursivas nos devuelve el arreglo ordenado.
 
 La ordenación rápida es un método de ordenación muy eficiente, que proporciona un rendimiento *O(nlog(n))* de media. También es relativamente fácil de implementar. Estos atributos lo convierten en un método de ordenación popular y útil.
 

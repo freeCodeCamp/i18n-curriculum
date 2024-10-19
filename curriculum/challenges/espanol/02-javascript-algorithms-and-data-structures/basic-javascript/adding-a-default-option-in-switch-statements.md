@@ -9,7 +9,7 @@ dashedName: adding-a-default-option-in-switch-statements
 
 # --description--
 
-In a `switch` statement you may not be able to specify all possible values as `case` statements. Instead, you can add the `default` statement which will be executed if no matching `case` statements are found. Think of it like the final `else` statement in an `if/else` chain.
+En una declaración `switch` puede que no seas capaz de especificar todos los valores posibles como declaraciones de `case` (caso). En su lugar, se puede añadir la declaración `default`, la cual se ejecutará si no se encuentran declaraciones `case`. Piensa en ella como la última sentencia `else` en una cadena `if/else`.
 
 Una declaración `default` debe ser el último caso.
 

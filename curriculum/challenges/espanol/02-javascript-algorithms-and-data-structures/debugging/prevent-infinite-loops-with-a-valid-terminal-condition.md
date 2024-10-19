@@ -8,7 +8,7 @@ dashedName: prevent-infinite-loops-with-a-valid-terminal-condition
 
 # --description--
 
-The final topic is the dreaded infinite loop. Loops are great tools when you need your program to run a code block a certain number of times or until a condition is met, but they need a terminal condition that ends the looping. Infinite loops are likely to freeze or crash the browser, and cause general program execution mayhem, which no one wants.
+El último tema es el temido bucle infinito. Los bucles son una gran herramienta cuando necesitas que tu programa ejecute un bloque de código un determinado número de veces o hasta que se cumpla una condición, pero necesitan una condición terminal para que finalice el bucle. Los bucles infinitos pueden congelar o bloquear el navegador, y causar un caos en la ejecución del programa en general, lo que nadie quiere.
 
 Había un ejemplo de un bucle infinito en la introducción de esta sección - no tenía ninguna condición terminal para salir del bucle `while` dentro de `loopy()`. ¡NO llames esta función!
 

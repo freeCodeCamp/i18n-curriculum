@@ -9,7 +9,7 @@ dashedName: say-hello-to-html-elements
 
 # --description--
 
-Welcome to freeCodeCamp's HTML coding challenges. These will walk you through web development step-by-step.
+Bienvenido a los desafíos de programación HTML de freeCodeCamp. Estos te guiarán paso a paso a través del mundo del desarrollo web.
 
 Primero, comenzarás construyendo una página web simple usando HTML. Puedes editar el código desde tu editor de código, el cual está insertado en esta página web.
 

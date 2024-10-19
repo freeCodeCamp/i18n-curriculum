@@ -9,7 +9,7 @@ dashedName: create-an-ordered-list
 
 # --description--
 
-HTML has another special element for creating <dfn>ordered lists</dfn>, or numbered lists.
+HTML tiene otro elemento especial para crear <dfn>listas ordenadas</dfn>, o listas numeradas.
 
 Las listas ordenadas comienzan con un elemento de apertura `<ol>`, seguido de cualquier número de elementos `<li>`. Por último, las listas ordenadas se cierran con la etiqueta `</ol>`.
 

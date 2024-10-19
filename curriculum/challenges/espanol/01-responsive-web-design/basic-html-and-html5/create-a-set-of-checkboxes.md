@@ -9,7 +9,7 @@ dashedName: create-a-set-of-checkboxes
 
 # --description--
 
-Forms commonly use <dfn>checkboxes</dfn> for questions that may have more than one answer.
+Los formularios suelen usar casillas de verificación (<dfn>checkboxes</dfn>) para preguntas que puedan tener más de una respuesta.
 
 Las casillas de verificación son un tipo de `input` (entrada).
 

@@ -12,7 +12,7 @@ dashedName: guided-project-debug-and-handle-exceptions-in-a-c-sharp-console-appl
 1. 跳转到 <a href="https://learn.microsoft.com/training/modules/guided-project-debug-handle-exceptions-c-sharp-console-application/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/guided-project-debug-handle-exceptions-c-sharp-console-application/</a>，然后完成“引导项目 - 使用 VS Code 在 C# 控制台应用程序中调试和处理异常”模块的所有任务。 这是在 Microsoft Learn 上获得“调试 C# 控制台应用程序”的奖杯以及参加认证考试所**必需**的。
 1. 完成后，返回并正确回答下面的问题。
 
-# --作业--
+# --assignment--
 
 在 Microsoft Learn 上完成<a href="https://learn.microsoft.com/training/modules/guided-project-debug-handle-exceptions-c-sharp-console-application/" target="_blank" rel="noreferrer">使用 Visual Studio Code 调试和处理 C# 控制台应用程序中的异常</a>的引导项目。 然后，回答下面的问题。
 

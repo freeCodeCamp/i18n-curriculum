@@ -12,7 +12,7 @@ dashedName: challenge-project-develop-branching-and-looping-structures-in-c-shar
 1. 跳轉到 <a href="https://learn.microsoft.com/training/modules/challenge-project-develop-branching-looping-structures-c-sharp/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/challenge-project-develop-branching-looping-structures-c-sharp/</a>，然後完成“挑戰項目 - 在 C# 中開發分支和循環結構”模塊的所有任務。 這是在 Microsoft Learn 上獲得“向 C# 控制檯應用程序添加邏輯”的獎盃以及參加認證考試所**必需**的。
 1. 完成後，返回並正確回答下面的問題。
 
-# --作業--
+# --assignment--
 
 在 Microsoft Learn 上完成 <a href="https://learn.microsoft.com/training/modules/challenge-project-develop-branching-looping-structures-c-sharp/" target="_blank" rel="noreferrer">在 C# 中開發分支和循環結構</a> 的挑戰項目。 然後，回答下面的問題。
 

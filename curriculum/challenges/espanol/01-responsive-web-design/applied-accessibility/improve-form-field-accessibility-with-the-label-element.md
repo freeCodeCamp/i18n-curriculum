@@ -9,7 +9,7 @@ dashedName: improve-form-field-accessibility-with-the-label-element
 
 # --description--
 
-Improving accessibility with semantic HTML markup applies to using both appropriate tag names and attributes. The next several challenges cover some important scenarios using attributes in forms.
+La mejora de la accesibilidad con el marcado semántico HTML se aplica al uso de nombres de etiquetas y atributos apropiados. Los próximos desafíos cubren algunos escenarios importantes utilizando atributos en formularios.
 
 La etiqueta `label` contiene el texto para un elemento específico de control de formulario, por lo general el nombre o etiqueta para una elección. Esto vincula el significado al elemento y hace que el formulario se lea mejor. El atributo `for` en una etiqueta `label` asocia de manera explícita dicho `label` con el control de formulario utilizado por los lectores de pantalla.
 

@@ -10,7 +10,7 @@ bilibiliIds:
 dashedName: neural-networks-activation-functions
 ---
 
-# --preguntas--
+# --questions--
 
 ## --text--
 

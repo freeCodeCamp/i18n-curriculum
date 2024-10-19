@@ -10,7 +10,7 @@ bilibiliIds:
 dashedName: iterations-loop-idioms
 ---
 
-# --preguntas--
+# --questions--
 
 ## --text--
 

@@ -8,7 +8,7 @@ dashedName: use-destructuring-assignment-to-assign-variables-from-arrays
 
 # --description--
 
-ES6 makes destructuring arrays as easy as destructuring objects.
+ES6 hace que desestructurar arreglos sea tan fácil como desestructurar objetos.
 
 Una diferencia clave entre el operador de propagación y la desestructuración de arreglos es que el operador de propagación desempaca todos los contenidos de un arreglo en una lista separada por comas. En consecuencia, no puedes elegir qué elementos deseas asignar como variables.
 

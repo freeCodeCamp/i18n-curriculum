@@ -8,7 +8,7 @@ dashedName: create-a-doubly-linked-list
 
 # --description--
 
-All of the linked lists we've created so far are singly linked lists. Here, we'll create a <dfn>doubly linked list</dfn>. As the name implies, nodes in a doubly linked list have references to the next and previous node in the list.
+Todas las listas enlazadas que hemos creado son listas simplemente enlazadas. Aquí, crearemos una <dfn>lista doblemente enlazada</dfn>. Como el nombre lo implica, los nodos en una lista doblemente enlazada tiene referencias al siguiente y anterior nodo en la lista.
 
 Esto nos permite recorrer la lista en ambas direcciones pero también requiere usar más memoria ya que cada nodo debe contener una referencia adicional al nodo anterior en la lista.
 

@@ -8,7 +8,7 @@ dashedName: implement-heap-sort-with-a-min-heap
 
 # --description--
 
-Now that we can add and remove elements let's see some of the applications heaps can be used for. Heaps are commonly used to implement priority queues because they always store an item of greatest or least value in first position. In addition, they are used to implement a sorting algorithm called heap sort. We'll see how to do this here. Heap sort uses a min heap, the reverse of a max heap. A min heap always stores the element of least value in the root position.
+Ahora que podemos añadir y remover elementos, podremos ver que algunos de los montones de aplicaciones podran ser utilizados. Los Heaps (montones) son comunmente utilizados para implementar colas prioritarias porque siempre almacenan elementos de mayor o menor valor en la primera posición. Además, se usan para implementar un algoritmo de clasificación llamado ''orden de montón'' (orden Heap). Aquí veremos cómo hacer esto. La clasificación por montónes usa un montón mínimo (Heap mínimo), el opuesto del montón máximo (Heap máximo). Un montón mínimo siempre almacena el elemento de menor valor en la posición raíz.
 
 La clasificación por montón (Heap Sort) trabaja tomando una colección sin ordenar, añadiendo cada item en la colección dentro de un montón mínimo (min Heap), y luego extrayendo cada item desde el montón mínimo a una nueva colección. La estructura de montón mínimo asegura que la nueva colección contendrá los elementos originales en orden de menor a mayor. Este es uno de los mas eficientes algoritmos de clasificación con un rendimiento tanto promedio como en el peor de los casos de O(nlog(n)).
 

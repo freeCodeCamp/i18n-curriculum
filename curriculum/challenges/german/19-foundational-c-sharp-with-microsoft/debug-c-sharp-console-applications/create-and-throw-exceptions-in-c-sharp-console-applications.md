@@ -12,7 +12,7 @@ Diese Aufgabe wird teilweise auf der Microsoft Learn Plattform erledigt. Folge d
 1. Gehe zu <a href="https://learn.microsoft.com/training/modules/create-throw-exceptions-c-sharp/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/create-throw-exceptions-c-sharp/</a> und erledige alle die Aufgaben für das Modul "Erstellen und Auslösen von Ausnahmen in C#-Konsolenanwendungen". Dies ist **erforderlich**, um die "Debug C# Console Applications"-Trophäe auf Microsoft Learn zu erverben und sich für die Zertifizierungsprüfung zu qualifizieren.
 1. Wenn du damit fertig bist, komme zurück und beantworte die folgende Frage richtig.
 
-# --Auftrag--
+# --assignment--
 
 Schließe das Modul <a href="https://learn.microsoft.com/training/modules/create-throw-exceptions-c-sharp/" target="_blank" rel="noreferrer">Erstellen und Auslösen von Ausnahmen in C#-Konsolen-Anwendungen</a> auf Microsoft Learn ab. Beantworte dann die Frage unten.
 

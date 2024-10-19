@@ -8,7 +8,7 @@ dashedName: understand-the-immediately-invoked-function-expression-iife
 
 # --description--
 
-A common pattern in JavaScript is to execute a function as soon as it is declared:
+Un patrón común en JavaScript es la ejecución de una función apenas declarada:
 
 ```js
 (function () {

@@ -9,7 +9,7 @@ dashedName: understand-absolute-versus-relative-units
 
 # --description--
 
-The last several challenges all set an element's margin or padding with pixels (`px`). Pixels are a type of length unit, which is what tells the browser how to size or space an item. In addition to `px`, CSS has a number of different length unit options that you can use.
+Varios de los últimos desafíos establecen el "margin" o "padding" de un elemento usando píxeles (`px`). Los píxeles son un tipo de unidad de longitud que le indica al navegador qué tamaño o cuánto espaciado asignarle a un elemento. Además de `px`, CSS cuenta con variedad de opciones de unidades de longitud que puedes utilizar.
 
 Los dos tipos principales de unidades de longitud son las unidades absolutas y relativas. Las unidades absolutas están relacionadas con unidades físicas de longitud. Por ejemplo, `in` y `mm` se refieren a pulgadas y milímetros, respectivamente. Las unidades de longitud absoluta aproximan la medición real sobre una pantalla, pero existen cierta variación que depende de la resolución de la pantalla utilizada.
 

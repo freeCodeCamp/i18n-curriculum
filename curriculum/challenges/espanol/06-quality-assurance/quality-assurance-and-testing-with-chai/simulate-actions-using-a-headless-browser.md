@@ -7,7 +7,7 @@ dashedName: simulate-actions-using-a-headless-browser
 
 # --description--
 
-As a reminder, this project is being built upon the following starter project on <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>, or cloned from <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
+Como recordatorio, este proyecto se está construyendo sobre el siguiente proyecto inicial en <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>, o clonado desde <a href="https://github.com/freeCodeCamp/boilerplate-mochachai/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
 
 En los siguientes desafíos, simularás la interacción humana con una página usando un navegador sin interfaz gráfica.
 
@@ -37,7 +37,7 @@ Luego, en la raíz del conjunto de `'Functional Tests with Zombie.js'`, crea una
 const browser = new Browser();
 ```
 
-And use the `suiteSetup` hook to direct the `browser` to the `/` route with the following code. **Note**: `done` is passed as a callback to `browser.visit`, you should not invoke it.
+Y usa el hook `suiteSetup` para dirigir el navegador `browser` a la ruta `/` con el siguiente código. **Note**: `done` is passed as a callback to `browser.visit`, you should not invoke it.
 
 ```js
 suiteSetup(function(done) {

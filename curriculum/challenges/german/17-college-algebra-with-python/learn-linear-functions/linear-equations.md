@@ -12,7 +12,7 @@ In diesem Video erfährst du, wie du den y-Achsenabschnitt einer linearen Funkti
 
 Hier ist das <a href="https://colab.research.google.com/drive/1UJ1w-XFTuCfK6FI3H2GT0lbxd2HO3tQ6?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">Colab-Notizbuch zu den letzten beiden Videos,</a> damit du die Formeln sehen kannst.
 
-# --Auftrag--
+# --assignment--
 
 Füge deinem Algebra-Colab-Notizbuch Code hinzu, um eine Funktion anhand von Punkten oder einer Gleichungseingabe grafisch darzustellen.
 

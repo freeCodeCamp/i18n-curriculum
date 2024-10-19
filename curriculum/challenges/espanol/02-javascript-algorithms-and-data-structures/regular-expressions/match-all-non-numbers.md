@@ -8,7 +8,7 @@ dashedName: match-all-non-numbers
 
 # --description--
 
-The last challenge showed how to search for digits using the shortcut `\d` with a lowercase `d`. You can also search for non-digits using a similar shortcut that uses an uppercase `D` instead.
+El último desafío mostró cómo buscar dígitos usando el atajo `\d` con una `d` minúscula. También puedes buscar caracteres que no sean dígitos usando un atajo similar que utilice una `D` mayúscula en su lugar.
 
 El atajo para buscar caracteres que no sean dígitos es `\D`. Esto es igual a la clase de caracteres `[^0-9]`, el cual busca un único carácter que no sea un número entre cero y nueve.
 

@@ -20,7 +20,7 @@ Más recursos:
 
 \- <a href="https://www.youtube.com/watch?v=g9flPDG9nnY" target="_blank" rel="noopener noreferrer nofollow">Ejercicio: urllinks</a>
 
-# --preguntas----preguntas--
+# --questions--
 
 ## --text--
 

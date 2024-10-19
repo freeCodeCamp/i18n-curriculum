@@ -31,7 +31,7 @@ Echemos un vistazo a algunos ejemplos rápidos para visualizar cómo funciona la
 
 En el ejemplo anterior, ambas reglas están usando solo selectores de clase, pero la regla 2 es más específica porque está usando más selectores de clase.
 
-# --preguntas----preguntas--
+# --questions--
 
 ## --text--
 

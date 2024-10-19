@@ -9,7 +9,7 @@ dashedName: local-scope-and-functions
 
 # --description--
 
-Variables which are declared within a function, as well as the function parameters, have <dfn>local</dfn> scope. That means they are only visible within that function.
+Las variables que se declaran dentro de una función, así como los parámetros de la función tienen un ámbito <dfn>local</dfn>. Esto significa que sólo son visibles dentro de esa función.
 
 Esta es una función `myTest` con una variable local llamada `loc`.
 

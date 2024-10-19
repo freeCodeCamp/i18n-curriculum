@@ -8,7 +8,7 @@ dashedName: create-grids-within-grids
 
 # --description--
 
-Turning an element into a grid only affects the behavior of its direct descendants. So by turning a direct descendant into a grid, you have a grid within a grid.
+Convertir un elemento a una cuadrícula solo afecta el comportamiento de sus descendientes directos. Entonces, al convertir un descendiente directo a una cuadrícula, obtienes una cuadrícula dentro de una cuadrícula.
 
 Por ejemplo, al establecer las propiedades `display` and `grid-template-columns` del elemento con clase `item3`, creas una cuadrícula dentro de tu cuadrícula.
 

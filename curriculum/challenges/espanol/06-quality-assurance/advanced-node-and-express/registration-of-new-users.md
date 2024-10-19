@@ -8,17 +8,17 @@ dashedName: registration-of-new-users
 
 # --description--
 
-Now you need to allow a new user on your site to register an account. In the `res.render` for the home page add a new variable to the object passed along - `showRegistration: true`. When you refresh your page, you should then see the registration form that was already created in your `index.pug` file. This form is set up to **POST** on `/register`, so create that route and have it add the user object to the database by following the logic below.
+Ahora necesitas permitir que un nuevo usuario registre una cuenta. En el método `res.render` para la página de inicio añade una nueva variable al objeto que se le pasa como argumento - `showRegistration: true`. Cuando actualizas tu página, entonces verás el formulatio de registro que ya fue creado en tu archivo `index.pug`. Este formulario esta configurado para **POST** en `/register`, así crea esa ruta y tiene que agregar el objeto usuario a la base de datos siguiendo la lógica a continuación.
 
 La lógica de la ruta de registro debería ser la siguiente:
 
-1. Register the new user
-2. Authenticate the new user
-3. Redirect to `/profile`
+1. Registrar el nuevo usuario
+2. Autenticar el nuevo usuario
+3. Redireccionar a `/profile`
 
 La lógica del paso 1 debería ser la siguiente:
 
-1. Query database with `findOne`
+1. Consulta la base de datos con `findOne`
 2. Si hay un error, llama a `next` con el error
 3. Si el usuario es devuelto, redirecciona de regreso al inicio
 4. Si un usuario no fue encontrado y no ocurren errores, entonces `insertOne` en la base de datos con el nombre de usuario y contraseña. Mientras no ocurran errores ahí, llama a `next` para ir al paso 2, autenticando el nuevo usuario, para el cual escribiste la lógica para entrar en tu ruta `POST /login`.

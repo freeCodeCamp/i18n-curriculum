@@ -9,7 +9,7 @@ dashedName: declare-the-doctype-of-an-html-document
 
 # --description--
 
-The challenges so far have covered specific HTML elements and their uses. However, there are a few elements that give overall structure to your page, and should be included in every HTML document.
+Hasta el momento, los desafíos han cubierto elementos HTML específicos y sus usos. Sin embargo, hay algunos elementos que dan una estructura general a tu página, y deben incluirse en cada documento HTML.
 
 En la parte superior de tu documento, necesitas decirle al navegador qué versión de HTML está utilizando tu página. HTML es un lenguaje en evolución, y se actualiza regularmente. La mayoría de los navegadores principales soportan la última especificación, que es HTML5. Sin embargo, páginas web más antiguas puede que hagan uso de versiones anteriores del lenguaje.
 

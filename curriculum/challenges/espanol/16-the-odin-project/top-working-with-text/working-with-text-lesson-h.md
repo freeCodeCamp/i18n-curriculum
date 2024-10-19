@@ -22,7 +22,7 @@ Las listas ordenadas se crean usando el `<ol>` elemento. Cada elemento individua
 
 <iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="300" width="100%" name="cp_embed_2" scrolling="no" src="https://codepen.io/TheOdinProjectExamples/embed/yLXYvYp?height=300&amp;theme-id=dark&amp;default-tab=html%2Cresult&amp;slug-hash=yLXYvYp&amp;user=TheOdinProjectExamples&amp;name=cp_embed_2" style="width: 100%; overflow:hidden; display:block;" title="Insertar CodePen" loading="lazy" id="cp_embed_yLXYvYp"></iframe>
 
-# --tarea--
+# --assignment--
 
 Mira los primeros tres minutos del video de Kevin Powell sobre listas ordenadas y listas sin numerar arriba.
 
@@ -42,7 +42,7 @@ Haz una lista sin numerar de lugares que te gustaría visitar algún día.
 
 Haz una lista ordenada de tus 5 mejores videojuegos o películas de todos los tiempos.
 
-# --preguntas--
+# --questions--
 
 ## --text--
 

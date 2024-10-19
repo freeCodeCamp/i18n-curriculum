@@ -16,7 +16,7 @@ This first video will look at key words that tell you what math operation to use
 
 \- <a href="https://openstax.org/details/books/algebra-and-trigonometry" target="_blank" rel="noopener noreferrer nofollow">Algebra and Trigonometry by Jay Abramson</a>
 
-# --tarea--
+# --assignment--
 
 Complete the problems on pages 63, 75, 85, and 118 from "Business Math, a Step-by-Step Handbook (2021)".
 
@@ -24,7 +24,7 @@ Complete the problems on pages 63, 75, 85, and 118 from "Business Math, a Step-b
 
 Complete the problems on pages 304, 308, and 321 from "Algebra and Trigonometry".
 
-# --preguntas--
+# --questions--
 
 ## --text--
 

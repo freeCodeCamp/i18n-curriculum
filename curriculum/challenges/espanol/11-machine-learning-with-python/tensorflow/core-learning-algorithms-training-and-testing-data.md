@@ -10,7 +10,7 @@ bilibiliIds:
 dashedName: core-learning-algorithms-training-and-testing-data
 ---
 
-# --preguntas--
+# --questions--
 
 ## --text--
 

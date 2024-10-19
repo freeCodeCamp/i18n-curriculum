@@ -12,7 +12,7 @@ Das letzte Element, das zur Vervollständigung der HTML-Boilerplate benötigt wi
 
 Um die Boilerplate zu vervollständigen, füge der `index.html`-Datei ein `body`-Element hinzu. Das `body`-Element befindet sich auch innerhalb des `html`-Elements und steht immer unter dem `head`-Element, etwa so:
 
-# --Auftrag--
+# --assignment--
 
 Sieh dir oben Kevin Powells brillantes Video zum Aufbau deiner ersten Website an und folge ihm.
 

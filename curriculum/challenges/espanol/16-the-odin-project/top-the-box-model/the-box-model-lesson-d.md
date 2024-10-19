@@ -14,11 +14,11 @@ Cuando se selecciona un elemento, la pestaña Estilos mostrará todos los estilo
 
 <img src="https://cdn.freecodecamp.org/curriculum/odin-project/the-box-model/overwritten-style.png" alt="Fragmento de código CSS en la consola del desarrollador que muestra .hero_main-heading con un margin-bottom: 100px, un padding-bottom: 1.875rem, un color .accent #ce973e. las reglas de estilo del emento h1 incluyen tamaño de fuente, peso, separación de letras, con su margen inferior: 2rem anulado." />
 
-# --tarea--
+# --assignment--
 
 Play around with Chrome Dev Tools and see if you can answer the following question.
 
-# --preguntas--
+# --questions--
 
 ## --text--
 

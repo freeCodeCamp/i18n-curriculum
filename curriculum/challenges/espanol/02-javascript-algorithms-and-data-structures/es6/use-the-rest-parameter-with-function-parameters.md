@@ -8,7 +8,7 @@ dashedName: use-the-rest-parameter-with-function-parameters
 
 # --description--
 
-In order to help us create more flexible functions, ES6 introduces the <dfn>rest parameter</dfn> for function parameters. With the rest parameter, you can create functions that take a variable number of arguments. These arguments are stored in an array that can be accessed later from inside the function.
+Para ayudarnos a crear funciones más flexibles, ES6 introduce el <dfn>parámetro rest</dfn> para los parámetros de función. Con el parámetro rest, puedes crear funciones que tomen un número variable de argumentos. Estos argumentos se almacenan en un arreglo al que se puede acceder más tarde desde dentro de la función.
 
 Echa un vistazo, al siguente código:
 

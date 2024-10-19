@@ -8,7 +8,7 @@ dashedName: create-a-javascript-promise
 
 # --description--
 
-A promise in JavaScript is exactly what it sounds like - you use it to make a promise to do something, usually asynchronously. When the task completes, you either fulfill your promise or fail to do so. `Promise` is a constructor function, so you need to use the `new` keyword to create one. It takes a function, as its argument, with two parameters - `resolve` and `reject`. These are methods used to determine the outcome of the promise. The syntax looks like this:
+Una promesa en JavaScript es exactamente como suena, se utiliza para hacer una promesa de que harás algo, habitualmente de forma asíncrona. Cuando la tarea se completa, o cumples tu promesa o no la cumples. `Promise` es una función constructora, así que tu necesitas usar la palabra clave `new` para crear una. Recibe una función como su argumento, con dos parámetros: `resolve` y `reject`. Estos métodos se utilizan para determinar el resultado de la promesa. Su sintaxis se ve así:
 
 ```js
 const myPromise = new Promise((resolve, reject) => {

@@ -8,7 +8,7 @@ dashedName: build-the-game-of-life
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://codepen.io/freeCodeCamp/full/BpwMZv/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/BpwMZv/</a>.
+**目標:** こちらと似た機能を持つアプリを構築してください: <a href="https://codepen.io/freeCodeCamp/full/BpwMZv/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/BpwMZv/</a>
 
 「ライフゲーム (Game of Life)」は、イギリスの数学者ジョン・ホートン・コンウェイが考案したセルオートマトンです。 これは<em>プレイヤーのいないゲーム</em>です。つまり、その進化は初期状態によって決定され、それ以上の入力は必要ありません。 初期構成を作成して、それがどのように進化するかを眺めるのが、このライフゲームの楽しみ方です。
 

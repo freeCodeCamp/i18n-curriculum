@@ -12,7 +12,7 @@ Diese Aufgabe wird teilweise auf der Microsoft Learn Plattform erledigt. Folge d
 1. Gehe auf <a href="https://learn.microsoft.com/training/modules/write-first-c-sharp-method/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/write-first-c-sharp-method/</a> und löse alle Aufgaben für das Modul "Schreibe deine erste C#-Methode". Dies ist **erforderlich**, um die Trophäe "Create Methods in C# Console Applications" auf Microsoft Learn zu erwerben und sich für die Zertifizierungsprüfung zu qualifizieren.
 1. Wenn du damit fertig bist, komme zurück und beantworte die folgende Frage richtig.
 
-# --Auftrag--
+# --assignment--
 
 Schließe das Modul <a href="https://learn.microsoft.com/training/modules/write-first-c-sharp-method/" target="_blank" rel="noreferrer">Schreibe deine erste C#-Methode</a> auf Microsoft Learn ab. Beantworte dann die Frage unten.
 

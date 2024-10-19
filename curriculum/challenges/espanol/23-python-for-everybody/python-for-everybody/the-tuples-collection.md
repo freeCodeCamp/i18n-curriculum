@@ -10,7 +10,7 @@ bilibiliIds:
 dashedName: the-tuples-collection
 ---
 
-# --preguntas--
+# --questions--
 
 ## --text--
 

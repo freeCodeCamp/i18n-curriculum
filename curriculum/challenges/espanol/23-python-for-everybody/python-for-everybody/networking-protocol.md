@@ -10,7 +10,7 @@ bilibiliIds:
 dashedName: networking-protocol
 ---
 
-# --preguntas--
+# --questions--
 
 ## --text--
 

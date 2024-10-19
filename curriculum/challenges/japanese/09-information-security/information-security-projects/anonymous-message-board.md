@@ -12,7 +12,7 @@ dashedName: anonymous-message-board
 
 プロジェクトに取り組むにあたり、以下の方法のうち 1 つを用いてコードを記述します。
 
--   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-messageboard/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
+-   <a href="https://github.com/freeCodeCamp/boilerplate-project-messageboard/" target="_blank" rel="noopener noreferrer nofollow">GitHub リポジトリ</a>をクローンし、ローカル環境でチャレンジを完了させる。
 -   Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-messageboard/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete your project.
 -   ご自身で選んだサイトビルダーを使用して、プロジェクトを完了させてください。 必ず GitHub リポジトリのすべてのファイルを取り込む。
 
@@ -79,7 +79,7 @@ async (getUserInput) => {
 };
 ```
 
-`text` と `delete_password` を含むフォームデータを使用して、`/api/threads/{board}` への POST リクエストを送信できます。 The saved database record will have at least the fields `_id`, `text`, `created_on`(date & time), `bumped_on`(date & time, starts same as `created_on`), `reported` (boolean), `delete_password`, & `replies` (array).
+`text` と `delete_password` を含むフォームデータを使用して、`/api/threads/{board}` への POST リクエストを送信できます。 保存されるデータベースレコードは、少なくとも `_id`、`text`、`created_on` (日付と時刻)、`bumped_on` (日付と時刻、初期値は `created_on` と同じ時刻)、`reported` (ブール値)、`delete_password`、および `replies` (配列) のフィールドを持ちます。
 
 ```js
 async (getUserInput) => {
@@ -111,7 +111,7 @@ async (getUserInput) => {
 };
 ```
 
-`text`、`delete_password`、および `thread_id` を含むフォームデータを使用して、`/api/replies/{board}` への POST リクエストを送信できます。 これにより、`bumped_on` の日付がコメントの日付に更新されます。 In the thread's `replies` array, an object will be saved with at least the properties `_id`, `text`, `created_on`, `delete_password`, & `reported`.
+`text`、`delete_password`、および `thread_id` を含むフォームデータを使用して、`/api/replies/{board}` への POST リクエストを送信できます。 これにより、`bumped_on` の日付がコメントの日付に更新されます。 スレッドの `replies` 配列には、少なくとも `_id`、`text`、`created_on`、`delete_password`、および `reported` のプロパティを持つオブジェクトが保存されます。
 
 ```js
 async (getUserInput) => {

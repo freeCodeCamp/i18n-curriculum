@@ -8,7 +8,7 @@ dashedName: insert-an-element-into-a-max-heap
 
 # --description--
 
-Now we will move on to another tree data structure, the binary heap. A binary heap is a partially ordered binary tree which satisfies the heap property. The heap property specifies a relationship between parent and child nodes. You may have a max heap, in which all parent nodes are greater than or equal to their child nodes, or a min heap, in which the reverse is true. Binary heaps are also complete binary trees. This means that all levels of the tree are fully filled and if the last level is partially filled it is filled from left to right.
+Ahora pasaremos a otra estructura de datos de árbol, la pila binaria. Una pila binaria es un árbol binario parcialmente ordenado que satisface la propiedad de la pila. La propiedad heap especifica una relación entre los nodos padre e hijo. Puede tener una pila máxima, en la que todos los nodos padre son mayores o iguales a sus nodos secundarios, o un montón de minutos, en el que lo contrario es cierto. Los montones binarios también son árboles binarios completos. Esto significa que todos los niveles del árbol se llenan completamente y si el último nivel está parcialmente llenado se llena de izquierda a derecha.
 
 Mientras que los montones binarios pueden ser implementados como estructuras de árbol con nodos que contienen referencias izquierdas y derechas, el orden parcial según la propiedad del montón nos permite representar el montón con una matriz. La relación padre-hijos es lo que estamos interesados y con aritmética simple podemos calcular los hijos de cualquier padre y el padre de cualquier nodo hijo.
 
@@ -39,7 +39,7 @@ Una vez envueltas la cabeza alrededor de las matemáticas, usar una representaci
 Instrucciones: Aquí crearemos una pila máxima. Comienza por crear un método `insert` que añade elementos a nuestra pila. Durante la inserción, es importante mantener siempre la propiedad del montón. Para una pila máxima, esto significa que el elemento raíz siempre debe tener el mayor valor en el árbol y todos los nodos padre deben ser mayores que sus hijos. Para una implementación de array de un montón, esto se logra típicamente en tres pasos:
 
 <ol>
-  <li>Add the new element to the end of the array.</li>
+  <li>Agrega el nuevo elemento al final de la matriz.</li>
   <li>Si el elemento es más grande que su padre, conmutalos.</li>
   <li>Continúe cambiando hasta que el nuevo elemento sea más pequeño que el padre o llegue a la raíz del árbol.</li>
 </ol>

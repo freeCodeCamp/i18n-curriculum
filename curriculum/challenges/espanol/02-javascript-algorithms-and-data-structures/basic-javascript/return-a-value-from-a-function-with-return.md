@@ -9,7 +9,7 @@ dashedName: return-a-value-from-a-function-with-return
 
 # --description--
 
-We can pass values into a function with <dfn>arguments</dfn>. You can use a `return` statement to send a value back out of a function.
+Podemos pasar valores a una función con <dfn>argumentos</dfn>. Puedes utilizar una declaración de devolución (`return`) para enviar un valor fuera de una función.
 
 **Por ejemplo**
 

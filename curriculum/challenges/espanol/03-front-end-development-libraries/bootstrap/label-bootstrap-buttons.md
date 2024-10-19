@@ -8,7 +8,7 @@ dashedName: label-bootstrap-buttons
 
 # --description--
 
-Just like we labeled our wells, we want to label our buttons.
+Así como etiquetamos nuestros "wells", también queremos etiquetar nuestros botones.
 
 Dale a cada uno de tus elementos `button`, texto que corresponde a su id.
 

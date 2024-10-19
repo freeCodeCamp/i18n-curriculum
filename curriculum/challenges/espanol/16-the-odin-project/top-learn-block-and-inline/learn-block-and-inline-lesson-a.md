@@ -9,7 +9,7 @@ dashedName: learn-block-and-inline-lesson-a
 
 La mayoría de los elementos de los que has aprendido hasta ahora son elementos de bloque. En otras palabras, su estilo predeterminado es `display: block`. Por defecto, los elementos de bloque aparecerán en la página apilados uno encima del otro, comenzando cada elemento nuevo en una nueva línea.
 
-# --preguntas----preguntas--
+# --questions--
 
 ## --text--
 

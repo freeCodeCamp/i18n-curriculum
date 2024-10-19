@@ -8,7 +8,7 @@ dashedName: use-spread-and-notes-for-es5-set-integration
 
 # --description--
 
-Do you remember the ES6 spread operator `...`?
+¿Te acordas del operador de espacios ES6 `...`?
 
 `...` puede tomar objetos iterables en ES6 y convertirlos en arrays.
 

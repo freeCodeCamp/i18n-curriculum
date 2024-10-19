@@ -51,7 +51,7 @@ PUT リクエストで、次の JSON オブジェクトを送信してくださ�
 
 `request.end` コールバック内で、以下を確認してください。
 
-1.  The `status` should be `200`
+1.  `status` は、`200` でなければなりません。
 2.  `type` は、 `application/json` でなければなりません。
 3.  `body.name` は、`Cristoforo` でなければなりません。
 4.  `body.surname` は、`Colombo` でなければなりません。

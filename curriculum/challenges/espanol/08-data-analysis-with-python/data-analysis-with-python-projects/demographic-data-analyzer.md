@@ -1,6 +1,6 @@
 ---
 id: 5e46f7e5ac417301a38fb929
-title: Demographic Data Analyzer
+title: Analizador de Datos Demográficos
 challengeType: 10
 forumTopicId: 462367
 dashedName: demographic-data-analyzer
@@ -8,9 +8,9 @@ dashedName: demographic-data-analyzer
 
 # --description--
 
-You will be <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-demographic-data-analyzer/" target="_blank" rel="noopener noreferrer nofollow">working on this project with our Gitpod starter code</a>.
+Estarás <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-demographic-data-analyzer/" target="_blank" rel="noopener noreferrer nofollow">trabajando en este proyecto con nuestro código inicial en Gitpod</a>.
 
-We are still developing the interactive instructional part of the Python curriculum. For now, here are some videos on the freeCodeCamp.org YouTube channel that will teach you everything you need to know to complete this project:
+Estamos desarrollando las instrucciones interactivas del currículo de Python. Aunque puedes encontrar los siguientes videos en el canal de YouTube de freeCodeCamp.org que te enseñaran lo necesario para realizar este proyecto:
 
 - <a href="https://www.freecodecamp.org/news/python-for-everybody/" target="_blank" rel="noopener noreferrer nofollow">Python for Everybody Video Course</a> (14 hours)
 
@@ -18,7 +18,7 @@ We are still developing the interactive instructional part of the Python curricu
 
 # --instructions--
 
-In this challenge you must analyze demographic data using Pandas. You are given a dataset of demographic data that was extracted from the 1994 Census database. Here is a sample of what the data looks like:
+En este desafío debe analizar los datos demográficos usando Pandas. Se le da un conjunto de datos demográficos que fueron extraidos de la base de datos del censo de 1994. Aquí hay un ejemplo de cómo se debería ver:
 
 ```markdown
 |    |   age | workclass        |   fnlwgt | education   |   education-num | marital-status     | occupation        | relationship   | race   | sex    |   capital-gain |   capital-loss |   hours-per-week | native-country   | salary   |
@@ -30,39 +30,39 @@ In this challenge you must analyze demographic data using Pandas. You are given 
 |  4 |    28 | Private          |   338409 | Bachelors   |              13 | Married-civ-spouse | Prof-specialty    | Wife           | Black  | Female |              0 |              0 |               40 | Cuba             | <=50K    |
 ```
 
-You must use Pandas to answer the following questions:
+Debes usar Pandas para responder a las siguientes preguntas:
 
-- How many people of each race are represented in this dataset? This should be a Pandas series with race names as the index labels. (`race` column)
-- What is the average age of men?
-- What is the percentage of people who have a Bachelor's degree?
-- What percentage of people with advanced education (`Bachelors`, `Masters`, or `Doctorate`) make more than 50K?
-- What percentage of people without advanced education make more than 50K?
-- What is the minimum number of hours a person works per week?
-- What percentage of the people who work the minimum number of hours per week have a salary of more than 50K?
-- What country has the highest percentage of people that earn >50K and what is that percentage?
-- Identify the most popular occupation for those who earn >50K in India.
+- ¿Cuántas personas de cada raza están representadas en este set de datos? Debe ser una serie Pandas con los nombres de raza como índice. (`race` column)
+- ¿Cuál es la edad promedio de los hombres?
+- ¿Cuál es el porcentaje de personas que tienen un grado de licenciatura?
+- ¿Que porcentaje de personas con una educación avanzada (`Bachelors`, `Masters` o `Doctorate`) generan mas de 50k?
+- ¿Que porcentaje de personas sin una educación avanzada generan mas de 50k?
+- ¿Cuál es el mínimo número de horas que una persona trabaja por semana?
+- ¿Qué porcentaje de personas que trabajan el minimo de horas por semana tienen un salario de mas de 50k?
+- ¿Qué país tiene el mas alto porcentaje de personjas que ganan >50k y cual es ese porcentaje?
+- Identifica la ocupacion mas popular de aquellos que ganan >50k en India.
 
-Use the starter code in the file `demographic_data_analyzer.py`. Update the code so all variables set to `None` are set to the appropriate calculation or code. Round all decimals to the nearest tenth.
+Use the starter code in the file `demographic_data_analyzer.py`. Update the code so all variables set to `None` are set to the appropriate calculation or code. Redondea todos los decimales a la décima más cercana.
 
-## Development
+## Dessarrollo
 
-Write your code in `demographic_data_analyzer.py`. For development, you can use `main.py` to test your code.
+Write your code in `demographic_data_analyzer.py`. Para el desarrollo, puedes utilizar `main.py` para probar tu código.
 
-## Testing
+## Pruebas
 
-The unit tests for this project are in `test_module.py`. We imported the tests from `test_module.py` to `main.py` for your convenience.
+Las pruebas unitarias para este proyecto están en `test_module.py`. Por defecto las pruebas del archivo `test_module.py` ya están importadas en el archivo `main.py` para su comodidad.
 
-## Submitting
+## Enviar
 
-Copy your project's URL and submit it to freeCodeCamp.
+Copia la URL de tu proyecto y envíalo a freeCodeCamp.
 
-## Dataset Source
+## Fuente de datos
 
-Dua, D. and Graff, C. (2019). <a href="http://archive.ics.uci.edu/ml" target="_blank" rel="noopener noreferrer nofollow">UCI Machine Learning Repository</a>. Irvine, CA: University of California, School of Information and Computer Science.
+Dua, D. y Graff, C. (2019). <a href="http://archive.ics.uci.edu/ml" target="_blank" rel="noopener noreferrer nofollow">UCI Machine Learning Repository</a>. Irvine, CA: University of California, School of Information and Computer Science.
 
 # --hints--
 
-It should pass all Python tests.
+Debería pasar todas las pruebas de Python.
 
 ```js
 

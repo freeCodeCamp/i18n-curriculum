@@ -9,7 +9,7 @@ dashedName: dialogue-1-im-tom
 
 Watch the video below to understand the context of the upcoming lessons.
 
-# --tarea--
+# --assignment--
 
 Mira el vídeo
 

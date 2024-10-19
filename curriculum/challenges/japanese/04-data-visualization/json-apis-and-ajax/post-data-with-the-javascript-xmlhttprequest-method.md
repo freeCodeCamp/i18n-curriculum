@@ -26,13 +26,13 @@ const body = JSON.stringify({ userName: userName, suffix: ' loves cats!' });
 xhr.send(body);
 ```
 
-これらのメソッドのいくつかは見覚えがあるでしょう。 Here the `open` method initializes the request as a `POST` to the given URL of the external resource, and passes `true` as the third parameter - indicating to perform the operation asynchronously.
+これらのメソッドのいくつかは見覚えがあるでしょう。 このコードでは、`open` メソッドがリクエストを、与えられた外部リソースの URL への `POST` として初期化し、`true` を 3 番目の引数として渡すことで、非同期処理として実行するよう指示しています。
 
 `setRequestHeader` メソッドは HTTP リクエストヘッダーの値を設定します。これには送信者とリクエストに関する情報が格納されています。 それは `open` メソッドより後、かつ、`send` メソッドより前に呼び出される必要があります。 この 2 つのパラメータは、ヘッダーの名前と、ヘッダーのボディーとして設定する値です。
 
-次に、`onreadystatechange` イベントリスナーがリクエスト状態の変化を処理します。 `readyState` の `4` は操作の完了を意味し、`status` の `201` はリクエストが成功したことを意味します。 Therefore, the document's HTML can be updated.
+次に、`onreadystatechange` イベントリスナーがリクエスト状態の変化を処理します。 `readyState` の `4` は操作の完了を意味し、`status` の `201` はリクエストが成功したことを意味します。 つまり、ドキュメントの HTML を更新することができます。
 
-Finally, the `send` method sends the request with the `body` value. The `body` consists of a `userName` and a `suffix` key.
+最後に、`send` メソッドが、`body` の値と共にリクエストを送信します。 `body` は `userName` と `suffix` のキーを持ちます。
 
 # --instructions--
 

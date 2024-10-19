@@ -21,7 +21,7 @@ Das Schreiben eines HTML-Kommentars ist einfach: Du umschließt den Kommentar ei
 <!-- I am another html comment -->
 ```
 
-# --Auftrag--
+# --assignment--
 
 Um den Umgang mit Text in HTML zu üben, erstelle eine leere Blog-Artikelseite mit verschiedenen Überschriften, Absätzen und fett- und kursivgeschriebenem Text in den Absätzen. Du kannst [Lorem Ipsum](https://loremipsum.io) verwenden, um beim Aufbau deiner Websites Blindtext anstelle von echtem Text zu erzeugen.
 

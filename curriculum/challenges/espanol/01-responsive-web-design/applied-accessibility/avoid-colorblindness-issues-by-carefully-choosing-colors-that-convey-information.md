@@ -11,7 +11,7 @@ dashedName: >-
 
 # --description--
 
-There are various forms of colorblindness. These can range from a reduced sensitivity to a certain wavelength of light to the inability to see color at all. The most common form is a reduced sensitivity to detect greens.
+Existen varias formas de daltonismo o ceguera al color. Estos pueden ir desde tener una sensibilidad reducida a una longitud de onda de luz específica, hasta la incapacidad total de ver algún color. La forma más común en que se presenta es una sensibilidad reducida para detectar tonos de verde.
 
 Por ejemplo, si dos colores verdes similares son el color usado en el primer plano y el fondo de tu contenido, un usuario daltónico podría no ser capaz de distinguirlos entre sí. Podemos pensar en los colores cercanos como aquellos colores que son vecinos o adyacentes en la rueda de color. Por este motivo, las combinaciones de estos colores deben evitarse cuando se usan para transmitir información importante.
 

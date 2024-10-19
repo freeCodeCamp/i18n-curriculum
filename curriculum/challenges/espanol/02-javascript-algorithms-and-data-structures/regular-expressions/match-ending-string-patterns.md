@@ -8,7 +8,7 @@ dashedName: match-ending-string-patterns
 
 # --description--
 
-In the last challenge, you learned to use the caret character to search for patterns at the beginning of strings. There is also a way to search for patterns at the end of strings.
+En el último desafío, aprendiste a usar el carácter de intercalación para buscar patrones al inicio de las cadenas. También hay una manera de buscar patrones al final de las cadenas.
 
 Puedes buscar el final de las cadenas usando el carácter del signo de dólar `$` al final de la expresión regular.
 

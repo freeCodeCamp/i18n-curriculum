@@ -8,7 +8,7 @@ dashedName: match-a-literal-string-with-different-possibilities
 
 # --description--
 
-Using regexes like `/coding/`, you can look for the pattern `coding` in another string.
+Al utilizar expresiones regulares como `/coding/`, puedes buscar el patrón `coding` en otra cadena.
 
 Esto es muy potente al buscar cadenas individuales, pero está limitado a un solo patrón. Puedes buscar múltiples patrones usando el operador `alternation` o `OR`: `|`.
 

@@ -8,9 +8,9 @@ dashedName: exercise-tracker
 
 # --description--
 
-Build a full stack JavaScript app that is functionally similar to this: <a href="https://exercise-tracker.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://exercise-tracker.freecodecamp.rocks</a>. プロジェクトに取り組むにあたり、以下の方法のうち 1 つを用いてコードを記述します。
+<a href="https://exercise-tracker.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://exercise-tracker.freecodecamp.rocks</a> と同じような機能を持つ、フルスタック JavaScript アプリを構築してください。 プロジェクトに取り組むにあたり、以下の方法のうち 1 つを用いてコードを記述します。
 
--   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-exercisetracker/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
+-   <a href="https://github.com/freeCodeCamp/boilerplate-project-exercisetracker/" target="_blank" rel="noopener noreferrer nofollow">GitHub リポジトリ</a>をクローンし、ローカル環境でチャレンジを完了させる。
 -   Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-exercisetracker/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete your project.
 -   使い慣れたサイトビルダーを使用してプロジェクトを完了させる。 必ず GitHub リポジトリのすべてのファイルを取り込む。
 
@@ -54,7 +54,7 @@ Build a full stack JavaScript app that is functionally similar to this: <a href=
 }
 ```
 
-**Hint:** For the `date` property, the `toDateString` method of the `Date` API can be used to achieve the expected output.
+** ヒント: ** `date` プロパティについては、`Date` API の `toDateString` メソッド を使用すると期待した出力が得られます。
 
 # --hints--
 
@@ -154,7 +154,7 @@ async(getUserInput) => {
 };
 ```
 
-You can `POST` to `/api/users/:_id/exercises` with form data `description`, `duration`, and optionally `date`. 日付を指定しない場合は、現在の日付が使用されます。
+`/api/users/:_id/exercises` への `POST` では、フォームデータ `description`、`duration`、および `date` (省略可) を指定できます。 日付を指定しない場合は、現在の日付が使用されます。
 
 ```js
 async (getUserInput) => {
@@ -542,7 +542,7 @@ async(getUserInput) => {
 };
 ```
 
-`GET /api/users/:_id/logs` リクエストに `from`、`to` および `limit` パラメーターを追加すると、任意のユーザーについてログの一部を取得できます。 `from` and `to` are dates in `yyyy-mm-dd` format. `limit` は、返されるログの数を表す整数です。
+`GET /api/users/:_id/logs` リクエストに `from`、`to` および `limit` パラメーターを追加すると、任意のユーザーについてログの一部を取得できます。 `from` および `to` は、`yyyy-mm-dd` 形式の日付です。 `limit` は、返されるログの数を表す整数です。
 
 ```js
 async (getUserInput) => {

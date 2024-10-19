@@ -9,7 +9,7 @@ dashedName: comparison-with-the-inequality-operator
 
 # --description--
 
-The inequality operator (`!=`) is the opposite of the equality operator. Inequality means not equal. The inequality operator returns `false` when the equality operator would return `true` and *vice versa*. Like the equality operator, the inequality operator will convert data types of values while comparing.
+El operador de desigualdad (`!=`) es lo opuesto al operador de igualdad. Inequality means not equal. The inequality operator returns `false` when the equality operator would return `true` and *vice versa*. Al igual que el operador de igualdad, el operador de desigualdad convertirá los tipos de datos mientras los compara.
 
 **Ejemplos**
 

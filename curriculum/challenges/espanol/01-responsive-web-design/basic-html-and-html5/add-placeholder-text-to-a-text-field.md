@@ -9,7 +9,7 @@ dashedName: add-placeholder-text-to-a-text-field
 
 # --description--
 
-Placeholder text is what is displayed in your `input` element before your user has inputted anything.
+El texto provisional es lo que se muestra en tu elemento de entrada `input` antes de que el usuario haya ingresado nada.
 
 Puedes crear texto provisional así:
 

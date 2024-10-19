@@ -9,7 +9,7 @@ dashedName: dialogue-meeting-a-client
 
 观看上面的视频以了解接下来的课程。
 
-# --作业--
+# --assignment--
 
 观看视频
 

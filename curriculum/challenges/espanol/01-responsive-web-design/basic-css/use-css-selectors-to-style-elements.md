@@ -9,7 +9,7 @@ dashedName: use-css-selectors-to-style-elements
 
 # --description--
 
-With CSS, there are hundreds of CSS properties that you can use to change the way an element looks on your page.
+En CSS tienes a tu disposición cientos de propiedades CSS que puedes usar para cambiar el aspecto de un elemento de tu página.
 
 Cuando escribiste `<h2 style="color: red;">CatPhotoApp</h2>`, estabas aplicando un estilo a ese elemento `h2` específico usando CSS en línea; CSS significa hojas de estilo en cascada (Cascading Style Sheets).
 

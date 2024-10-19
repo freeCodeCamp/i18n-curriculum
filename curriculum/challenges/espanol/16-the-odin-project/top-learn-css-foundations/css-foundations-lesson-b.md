@@ -51,7 +51,7 @@ En lugar de un punto, usas una almohadilla seguida inmediatamente por el valor s
 
 La principal diferencia entre clases e IDs es que un elemento solo puede tener un `id`. Un `id` no puede repetirse en una sola página, y el atributo `id` no debe contener espacios en absoluto.
 
-# --preguntas----preguntas--
+# --questions--
 
 ## --text--
 

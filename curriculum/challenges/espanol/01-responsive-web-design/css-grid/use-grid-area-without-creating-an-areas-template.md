@@ -9,7 +9,7 @@ dashedName: use-grid-area-without-creating-an-areas-template
 
 # --description--
 
-The `grid-area` property you learned in the last challenge can be used in another way. If your grid doesn't have an areas template to reference, you can create an area on the fly for an item to be placed like this:
+La propiedad `grid-area` que aprendiste en el último desafío puede ser usada de otra manera. Si tu cuadrícula (grid) no tiene plantillas de área de referencia, puedes crear un área para un elemento sobre la marcha para ubicar los elementos de la siguiente manera:
 
 ```css
 item1 { grid-area: 1/1/2/4; }

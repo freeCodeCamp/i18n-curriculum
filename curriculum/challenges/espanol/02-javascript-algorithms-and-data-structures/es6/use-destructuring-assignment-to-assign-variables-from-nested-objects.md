@@ -8,7 +8,7 @@ dashedName: use-destructuring-assignment-to-assign-variables-from-nested-objects
 
 # --description--
 
-You can use the same principles from the previous two lessons to destructure values from nested objects.
+Puedes usar los mismos principios de las dos lecciones anteriores para desestructurar los valores desde objetos anidados.
 
 Usando un objeto similar a los ejemplos anteriores:
 

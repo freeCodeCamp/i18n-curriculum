@@ -9,7 +9,7 @@ dashedName: use-bracket-notation-to-find-the-first-character-in-a-string
 
 # --description--
 
-<dfn>Bracket notation</dfn> is a way to get a character at a specific index within a string.
+La <dfn>notación de corchetes</dfn> es una forma de obtener un carácter en un índice (index) específico dentro de una cadena.
 
 La mayoría de lenguajes de programación modernos, como JavaScript, no empiezan a contar desde 1 como lo hacen los humanos. Empiezan desde 0. Esto se conoce como indexación <dfn>basada en cero</dfn>.
 

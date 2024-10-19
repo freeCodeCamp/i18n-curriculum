@@ -8,7 +8,7 @@ dashedName: use-model-findbyid-to-search-your-database-by-id
 
 # --description--
 
-When saving a document, MongoDB automatically adds the field `_id`, and set it to a unique alphanumeric key. Searching by `_id` is an extremely frequent operation, so Mongoose provides a dedicated method for it.
+Al guardar un documento, MongoDB añade automáticamente el campo `_id`, y lo establece como una clave alfanumérica única. Buscar por `_id` es una operación extremadamente frecuente, así que Mongoose proporciona un método dedicado para ello.
 
 # --instructions--
 

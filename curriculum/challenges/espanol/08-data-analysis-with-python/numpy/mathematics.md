@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: mathematics
 ---
 
-# --preguntas--
+# --questions--
 
 ## --text--
 
-What is the value of `b` after running the following code?
+¿Cuál es el valor de `b` después de ejecutar el siguiente código?
 
 ```py
 import numpy as np

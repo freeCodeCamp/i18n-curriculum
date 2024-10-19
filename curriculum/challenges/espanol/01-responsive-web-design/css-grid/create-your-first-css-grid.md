@@ -9,7 +9,7 @@ dashedName: create-your-first-css-grid
 
 # --description--
 
-Turn any HTML element into a grid container by setting its `display` property to `grid`. This gives you the ability to use all the other properties associated with CSS Grid.
+Convierte cualquier elemento HTML en una cuadrícula al establecer la propiedad `display` a `grid`. Esto te da la habilidad de usar todas las demás propiedades asociadas con CSS Grid.
 
 **Nota:** en CSS Grid, el elemento padre se refiere como el <dfn>contenedor</dfn> y sus hijos se llaman <dfn>elementos</dfn>.
 

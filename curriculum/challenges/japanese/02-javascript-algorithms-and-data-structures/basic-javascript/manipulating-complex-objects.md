@@ -9,7 +9,7 @@ dashedName: manipulating-complex-objects
 
 # --description--
 
-場合によっては、データを柔軟な<dfn>データ構造</dfn>に保存したいことがあります。 JavaScript オブジェクトは、柔軟性のあるデータを扱う方法の一つです。 They allow for arbitrary combinations of <dfn>strings</dfn>, <dfn>numbers</dfn>, <dfn>booleans</dfn>, <dfn>arrays</dfn>, <dfn>functions</dfn>, and <dfn>objects</dfn>.
+場合によっては、データを柔軟な<dfn>データ構造</dfn>に保存したいことがあります。 JavaScript オブジェクトは、柔軟性のあるデータを扱う方法の一つです。 オブジェクトでは、<dfn>文字列</dfn>、<dfn>数値</dfn>、<dfn>ブール値</dfn>、<dfn>配列</dfn>、<dfn>関数</dfn>、<dfn>オブジェクト</dfn>の任意の組み合わせを使用できます。
 
 次は複雑なデータ構造の例です。
 

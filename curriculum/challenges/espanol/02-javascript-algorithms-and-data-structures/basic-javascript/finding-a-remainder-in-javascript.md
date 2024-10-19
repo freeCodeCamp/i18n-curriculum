@@ -9,13 +9,13 @@ dashedName: finding-a-remainder-in-javascript
 
 # --description--
 
-The <dfn>remainder</dfn> operator `%` gives the remainder of the division of two numbers.
+El operador de <dfn>resto</dfn> `%` entrega el resto de la división entre dos números.
 
 **Por ejemplo**
 
 <pre>
 5 % 2 = 1
-5 / 2 = 2 remainder 1
+5 / 2 = 2 restante 1
 2 * 2 = 4
 5 - 4 = 1
 </pre>

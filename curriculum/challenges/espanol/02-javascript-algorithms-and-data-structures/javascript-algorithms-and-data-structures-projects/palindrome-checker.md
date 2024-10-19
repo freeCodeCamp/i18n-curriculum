@@ -8,7 +8,7 @@ dashedName: palindrome-checker
 
 # --description--
 
-Return `true` if the given string is a palindrome. Otherwise, return `false`.
+Devuelve `true` si la cadena proporcionada es un palíndromo. De lo contrario, devuelve `false`.
 
 Un <dfn>palíndromo</dfn> es una palabra o frase que se escribe de la misma manera hacia adelante y hacia atrás, ignorando la puntuación, mayúsculas, minúsculas y espaciado.
 

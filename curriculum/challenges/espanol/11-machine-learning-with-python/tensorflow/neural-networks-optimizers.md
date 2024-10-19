@@ -10,7 +10,7 @@ bilibiliIds:
 dashedName: neural-networks-optimizers
 ---
 
-# --preguntas--
+# --questions--
 
 ## --text--
 

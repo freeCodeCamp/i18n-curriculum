@@ -8,7 +8,7 @@ dashedName: match-non-whitespace-characters
 
 # --description--
 
-You learned about searching for whitespace using `\s`, with a lowercase `s`. You can also search for everything except whitespace.
+Aprendiste a buscar espacios en blanco usando `\s`, con una `s` en minúscula. También puedes buscar todo excepto los espacios en blanco.
 
 Busca caracteres que no sean espacios en blanco usando `\S`, la cual es una `s` mayúscula. Este patrón no coincidirá con los caracteres de espacios en blanco, retorno de carro, tabulaciones, alimentación de formulario y saltos de línea. Puedes pensar que es similar a la clase de caracteres `[^ \r\t\f\n\v]`.
 

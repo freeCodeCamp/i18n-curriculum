@@ -8,7 +8,7 @@ dashedName: match-single-character-with-multiple-possibilities
 
 # --description--
 
-You learned how to match literal patterns (`/literal/`) and wildcard character (`/./`). Those are the extremes of regular expressions, where one finds exact matches and the other matches everything. There are options that are a balance between the two extremes.
+Aprendiste cómo hacer coincidir los patrones literales (`/literal/`) y el carácter de comodín (`/./`). Estos son los extremos de las expresiones regulares, donde uno encuentra coincidencias exactas y el otro coincide de todo. Hay opciones que representan un equilibrio entre los dos extremos.
 
 Puedes buscar un patrón literal con cierta flexibilidad utilizando las <dfn>clases de caracteres</dfn>. Las clases de caracteres te permiten definir un grupo de caracteres que deseas coincidir colocándolos dentro de corchetes (`[` y `]`).
 

@@ -9,7 +9,7 @@ dashedName: link-to-internal-sections-of-a-page-with-anchor-elements
 
 # --description--
 
-`a` (*anchor*) elements can also be used to create internal links to jump to different sections within a webpage.
+Los elementos `a` (*anchor*) también pueden utilizarse para crear enlaces internos para saltar a diferentes secciones dentro de una página web.
 
 Para crear un enlace interno, asignas el atributo `href` de un enlace con un símbolo hash `#` más el valor del atributo `id` para el elemento al que deseas enlazar internamente, normalmente más abajo de la página. Luego necesitas agregar el mismo atributo `id` al elemento que estás enlazando. Un `id` es un atributo que describe un elemento de forma única.
 

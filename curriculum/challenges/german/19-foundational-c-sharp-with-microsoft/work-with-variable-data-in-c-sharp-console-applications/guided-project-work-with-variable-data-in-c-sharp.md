@@ -12,7 +12,7 @@ Diese Aufgabe wird teilweise auf der Microsoft Learn Plattform erledigt. Folge d
 1. Gehe auf <a href="https://learn.microsoft.com/training/modules/guided-project-work-variable-data-c-sharp/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/guided-project-work-variable-data-c-sharp/</a> und löse alle Aufgaben für das Modul "Geführtes Projekt - Arbeiten mit variablen Daten in C#". Dies ist **erforderlich**, um die Trophäe " Arbeiten mit variablen Daten in C# Konsolen-Anwendungen" auf Microsoft Learn zu erwerben und sich für die Zertifizierungsprüfung zu qualifizieren.
 1. Wenn du damit fertig bist, komme zurück und beantworte die folgende Frage richtig.
 
-# --Auftrag--
+# --assignment--
 
 Schließe das geführte Projekt <a href="https://learn.microsoft.com/training/modules/guided-project-work-variable-data-c-sharp/" target="_blank" rel="noreferrer">Arbeiten mit variablen Daten in C#</a> auf Microsoft Learn ab. Beantworte dann die Frage unten.
 

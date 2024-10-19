@@ -9,7 +9,7 @@ dashedName: dialogue-1-im-tom
 
 观看下面的视频，以了解接下来课程的背景。
 
-# --作业--
+# --assignment--
 
 观看视频
 

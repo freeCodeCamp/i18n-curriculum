@@ -8,7 +8,7 @@ dashedName: specify-only-the-lower-number-of-matches
 
 # --description--
 
-You can specify the lower and upper number of patterns with quantity specifiers using curly brackets. Sometimes you only want to specify the lower number of patterns with no upper limit.
+Puedes especificar el número inferior y superior de patrones mediante especificadores de cantidad utilizando corchetes. A veces sólo se quiere especificar el número inferior de patrones sin tener un límite superior.
 
 Para especificar sólo el número inferior de patrones, mantén el primer número seguido de una coma.
 

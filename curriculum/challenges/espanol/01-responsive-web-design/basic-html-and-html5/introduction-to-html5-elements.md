@@ -9,7 +9,7 @@ dashedName: introduction-to-html5-elements
 
 # --description--
 
-HTML5 introduces more descriptive HTML tags. These include `main`, `header`, `footer`, `nav`, `video`, `article`, `section` and others.
+HTML5 introduce etiquetas HTML más descriptivas. These include `main`, `header`, `footer`, `nav`, `video`, `article`, `section` and others.
 
 Estas etiquetas dan una estructura descriptiva a tu HTML, hacen que tu HTML sea más fácil de leer, ayudan con la Optimización de Motores de Búsqueda (SEO) y mejoran la accesibilidad. La etiqueta HTML5 `main` ayuda a los motores de búsqueda y otros desarrolladores a encontrar el contenido principal de tu página.
 

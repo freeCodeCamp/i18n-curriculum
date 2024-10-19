@@ -9,7 +9,7 @@ dashedName: modify-array-data-with-indexes
 
 # --description--
 
-Unlike strings, the entries of arrays are <dfn>mutable</dfn> and can be changed freely, even if the array was declared with `const`.
+A diferencia de las cadenas, las entradas de los arreglos son <dfn>mutables</dfn> y pueden cambiarse libremente, incluso si el arreglo fue declarado con `const`.
 
 **Por ejemplo**
 

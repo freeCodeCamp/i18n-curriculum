@@ -19,7 +19,7 @@ Numbers are the building blocks of programming logic! In fact, it’s hard to th
 | %        | Modulus        | 5 % 3 = 2    |
 
 
-# --Auftrag--
+# --assignment--
 
 Given the table of operators above, write a simple program snippet that demonstrates the use of each operator with the variable `x` initialized to `10`.
 

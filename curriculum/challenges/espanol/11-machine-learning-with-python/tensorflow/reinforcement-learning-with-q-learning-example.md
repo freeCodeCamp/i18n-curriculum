@@ -10,7 +10,7 @@ bilibiliIds:
 dashedName: reinforcement-learning-with-q-learning-example
 ---
 
-# --preguntas--
+# --questions--
 
 ## --text--
 

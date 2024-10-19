@@ -31,7 +31,7 @@ Let’s take a look at a few quick examples to visualize how specificity works. 
 
 In the example above, both rules are using only class selectors, but rule 2 is more specific because it is using more class selectors.
 
-# 问题
+# --questions--
 
 ## --text--
 

@@ -8,7 +8,7 @@ dashedName: handle-a-disconnect
 
 # --description--
 
-You may notice that up to now you have only been increasing the user count. Handling a user disconnecting is just as easy as handling the initial connect, except you have to listen for it on each socket instead of on the whole server.
+Puedes observar que hasta ahora sólo has aumentado el recuento de usuarios. Manejar la desconexión de un usuario es tan fácil como manejar la conexión inicial, excepto que tienes que escucharlo en cada socket en lugar de en todo el servidor.
 
 Para ello, añade otro oyente (listener) dentro del oyente existente `'connect'` que escuche `'disconnect'` en el socket sin que pasen datos. Puedes probar esta funcionalidad simplemente registrando que un usuario se ha desconectado en la consola.
 

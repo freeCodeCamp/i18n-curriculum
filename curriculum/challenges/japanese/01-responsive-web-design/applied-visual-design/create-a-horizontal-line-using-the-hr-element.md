@@ -15,7 +15,7 @@ dashedName: create-a-horizontal-line-using-the-hr-element
 
 カードのタイトルを含んでいる `h4` の下に、`hr` タグを追加してください。
 
-**Note:** In HTML, `hr` is a void element, and therefore doesn't need a separate closing tag.
+**注:** HTML では `hr` は空要素であり、終了タグは必要ありません。
 
 # --hints--
 

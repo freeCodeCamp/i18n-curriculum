@@ -16,7 +16,7 @@ In diesem ersten Video geht es um Schlüsselwörter, die Aufschluss darüber geb
 
 \- <a href="https://openstax.org/details/books/algebra-and-trigonometry" target="_blank" rel="noopener noreferrer nofollow">Algebra and Trigonometry von Jay Abramson</a>
 
-# --Auftrag--
+# --assignment--
 
 Löse die Aufgaben auf den Seiten 63, 75, 85 und 118 aus dem Lehrbuch "Business Math, a Step-by-Step Handbook (2021)".
 

@@ -8,7 +8,7 @@ dashedName: prevent-object-mutation
 
 # --description--
 
-As seen in the previous challenge, `const` declaration alone doesn't really protect your data from mutation. To ensure your data doesn't change, JavaScript provides a function `Object.freeze` to prevent data mutation.
+Como se vio en el desafío anterior, la declaración `const` por sí sola no protege la información de la mutación. Para asegurar que tu información no cambie, JavaScript provee una función `Object.freeze` para prevenir la mutación de datos.
 
 Cualquier intento de cambiar el objeto será rechazado, lanzando un error si el script se ejecuta en modo estricto (strict mode).
 

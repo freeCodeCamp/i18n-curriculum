@@ -9,7 +9,7 @@ dashedName: use-an-id-attribute-to-style-an-element
 
 # --description--
 
-One cool thing about `id` attributes is that, like classes, you can style them using CSS.
+Una cosa genial de los atributos `id` es que, al igual que las clases, puedes aplicarles estilos con CSS.
 
 Sin embargo, un `id` no es reutilizable y solo debe aplicarse a un único elemento. Un `id` también tiene mayor especificidad (importancia) que una clase, así que si aplicas un id y una clase al mismo elemento y sus estilos se contradicen, se aplicarán los estilos del `id`.
 

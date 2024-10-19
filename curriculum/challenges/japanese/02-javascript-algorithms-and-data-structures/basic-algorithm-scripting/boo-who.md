@@ -8,7 +8,7 @@ dashedName: boo-who
 
 # --description--
 
-値がブールプリミティブとして分類されるかどうかを確認してください。 Return `true` or `false`.
+値がブールプリミティブとして分類されるかどうかを確認してください。 `true` または `false` を返してください。
 
 ブールプリミティブは `true` および `false` です。
 

@@ -10,7 +10,7 @@ bilibiliIds:
 dashedName: visualizing-data-with-python
 ---
 
-# --preguntas--
+# --questions--
 
 ## --text--
 

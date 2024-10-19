@@ -12,7 +12,7 @@ Jetzt kommen wir zum mathematischen Inhalt. In diesem Video wird gezeigt, wie ma
 
 Hier ist das <a href="https://colab.research.google.com/drive/1Q7nCcbrnoYttkwiHB_nQ-X1JuLpUmtRD?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">Colab-Notizbuch zu diesem Video.</a> Falls du dies noch nicht getan hast, dann richte dein Algebra-Colab-Notizbuch aus dem letzten Video ein. Füge dann den Code aus diesem Video zum Notizbuch hinzu.
 
-# --Auftrag--
+# --assignment--
 
 Füge den Code aus dem Video in das Algebra-Colab-Notizbuch ein, das du im ersten Schritt erstellt hast.
 

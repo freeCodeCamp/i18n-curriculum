@@ -12,7 +12,7 @@ In diesem ersten Video wird dir zunächst erklärt, was eine Funktion ist, und d
 
 Hier ist das <a href="https://colab.research.google.com/drive/1d0e55NoKjKILIum34POv04h0OLpE_pkn" target="_blank" rel="noopener noreferrer nofollow">Colab-Notizbuch, das in diesem und in den folgenden Videos verwendet wird.</a>
 
-# --Auftrag--
+# --assignment--
 
 Fügen deinem Algebra-Colab-Notizbuch Code hinzu, der Python-Funktionen für die Umwandlung von Dezimalzahlen in Brüche erstellt
 

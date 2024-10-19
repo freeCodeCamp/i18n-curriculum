@@ -28,7 +28,7 @@ Más recursos:
 
 \-<a href="https://www.youtube.com/watch?v=Fm0hpkxsZoo" target="_blank" rel="noopener noreferrer nofollow">Ejercicio: Página Viz</a>
 
-# --preguntas----preguntas--
+# --questions--
 
 ## --text--
 

@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9bec908846
-title: Create a Bootstrap Row
+title: Crea una Fila con Bootstrap
 challengeType: 0
 forumTopicId: 16813
 dashedName: create-a-bootstrap-row
@@ -8,13 +8,13 @@ dashedName: create-a-bootstrap-row
 
 # --description--
 
-Now we'll create a Bootstrap row for our inline elements.
+Ahora crearemos una fila con Bootstrap para nuestros elementos en linea.
 
-Create a `div` element below the `h3` tag, with a class of `row`.
+Crea un elemento `div` debajo de la etiqueta `h3`, con la clase `row`.
 
 # --hints--
 
-You should add a `div` element below your `h3` element.
+Debes añadir un elemento `div` debajo de tu elemento `h3`.
 
 ```js
 assert.lengthOf(document.querySelectorAll('div'),2);
@@ -23,20 +23,20 @@ assert.lengthOf(document.querySelectorAll('div.row + h3.text-primary'),0)
 assert.lengthOf(document.querySelectorAll('h3.text-primary + div.row'),1);
 ```
 
-Your `div` element should have the class `row`
+Tu elemento `div` debe tener la clase `row`
 
 ```js
 const newDiv = document.querySelectorAll('div')?.[1]; 
 assert.isTrue(newDiv?.classList?.contains('row'));
 ```
 
-Your `row div` should be nested inside the `container-fluid div`
+Tu `row div` debe estar anidado dentro de `container-fluid div`
 
 ```js
 assert.lengthOf(document.querySelectorAll('div.container-fluid div.row'),1);
 ```
 
-Your `div` element should have a closing tag.
+Tu elemento `div` debe tener una etiqueta de cierre.
 
 ```js
 assert.match(code,/<\/div>/g);

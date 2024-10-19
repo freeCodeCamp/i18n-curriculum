@@ -9,7 +9,7 @@ dashedName: inherit-styles-from-the-body-element
 
 # --description--
 
-Now we've proven that every HTML page has a `body` element, and that its `body` element can also be styled with CSS.
+Ahora hemos demostrado que cada página HTML tiene un elemento `body`, y que a este elemento `body` también se le puede dar estilo con CSS.
 
 Recuerda, puedes dar estilo a tu elemento `body` como a cualquier otro elemento HTML, y todos los demás elementos heredarán los estilos del elemento `body`.
 

@@ -30,7 +30,7 @@ Besides these differences, the syntax is exactly the same as the external method
 
 This method can be useful for adding unique styles to a single page of a website, but it doesn’t keep things separate like the external method, and depending on how many rules and declarations there are it can cause the HTML file to get pretty big.
 
-# 問題
+# --questions--
 
 ## --text--
 

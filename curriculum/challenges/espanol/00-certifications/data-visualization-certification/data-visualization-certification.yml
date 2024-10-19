@@ -9,7 +9,7 @@ tests:
     title: Visualiza datos con un gráfico de barras
   - 
     id: bd7178d8c242eddfaeb5bd13
-    title: Visualize Data with a Scatterplot Graph
+    title: Visualiza datos con un gráfico de dispersión
   - 
     id: bd7188d8c242eddfaeb5bd13
     title: Visualiza datos con un mapa de calor
