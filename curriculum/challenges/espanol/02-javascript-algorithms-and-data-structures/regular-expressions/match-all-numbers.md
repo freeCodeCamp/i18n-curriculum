@@ -8,7 +8,7 @@ dashedName: match-all-numbers
 
 # --description--
 
-You've learned shortcuts for common string patterns like alphanumerics. Another common pattern is looking for just digits or numbers.
+Has aprendido atajos para patrones de cadenas comunes como los alfanuméricos. Otro patrón común es buscar solo dígitos o números.
 
 El atajo para buscar caracteres de dígitos es `\d`, con una `d` minúscula. Esto es igual a la clase de caracteres `[0-9]`, la cual busca un solo carácter de cualquier número entre cero y nueve.
 

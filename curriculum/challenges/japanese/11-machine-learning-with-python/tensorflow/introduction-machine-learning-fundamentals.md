@@ -14,7 +14,7 @@ dashedName: introduction-machine-learning-fundamentals
 
 ## --text--
 
-Which statement below is **false**?
+次のうち**正しくない**文章はどれですか？
 
 ## --answers--
 

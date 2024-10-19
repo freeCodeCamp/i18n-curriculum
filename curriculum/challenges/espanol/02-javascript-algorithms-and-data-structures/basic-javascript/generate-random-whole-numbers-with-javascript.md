@@ -9,9 +9,9 @@ dashedName: generate-random-whole-numbers-with-javascript
 
 # --description--
 
-You can generate random decimal numbers with `Math.random()`, but sometimes you need to generate random whole numbers. The following process will give you a random whole number less than `20`:
+Puedes generar números decimales aleatorios con `Math.random()`, pero a veces es necesario generar números enteros aleatorios. El siguiente proceso te dará un número entero aleatorio menor que `20`:
 
-1. Use `Math.random()` to generate a random decimal number.
+1. Usa `Math.random()` para generar un número decimal aleatorio.
 2. Multiplica ese número decimal aleatorio por `20`.
 3. Usa `Math.floor()` para redondear este número hacia abajo a su número entero más cercano.
 

@@ -20,11 +20,11 @@ Asegúrate de estudiar los diagramas cuidadosamente.
 
 <img src="https://cdn.freecodecamp.org/curriculum/odin-project/the-box-model/the-box-model.png" alt="Representación visual del modelo de caja de CSS con texto, rodeado de 'padding' en rosa, un 'borde' púrpura, y 'margen' indicado por flechas azules, explicando el espacio entre texto, borde de la caja y borde de la ventana." />
 
-# --tarea--
+# --assignment--
 
 Agrega un borde a cada elemento en la página y observa cómo están dispuestas las cajas.
 
-# --preguntas--
+# --questions--
 
 ## --text--
 

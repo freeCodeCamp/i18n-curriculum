@@ -10,7 +10,7 @@ bilibiliIds:
 dashedName: regular-expressions
 ---
 
-# --preguntas--
+# --questions--
 
 ## --text--
 

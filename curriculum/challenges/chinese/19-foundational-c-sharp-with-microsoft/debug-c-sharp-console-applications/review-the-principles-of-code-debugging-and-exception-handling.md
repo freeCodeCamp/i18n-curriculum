@@ -12,7 +12,7 @@ dashedName: review-the-principles-of-code-debugging-and-exception-handling
 1. 跳转到 <a href="https://learn.microsoft.com/training/modules/review-principles-code-debugging-exception-handling-c-sharp/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/review-principles-code-debugging-exception-handling-c-sharp/</a>，然后完成“查看代码调试和异常处理的原则”模块的所有任务。 这是在 Microsoft Learn 上获得“调试 C# 控制台应用程序”的奖杯以及参加认证考试所**必需**的。
 1. 完成后，返回并正确回答下面的问题。
 
-# --作业--
+# --assignment--
 
 在 Microsoft Learn 上完成 <a href="https://learn.microsoft.com/training/modules/review-principles-code-debugging-exception-handling-c-sharp/" target="_blank" rel="noreferrer">查看代码调试和异常处理的原则</a> 模块。 然后，回答下面的问题。
 

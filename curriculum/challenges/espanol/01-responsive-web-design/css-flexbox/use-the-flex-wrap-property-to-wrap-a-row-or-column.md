@@ -1,6 +1,6 @@
 ---
 id: 587d78ad367417b2b2512afa
-title: Use the flex-wrap Property to Wrap a Row or Column
+title: Usa la propiedad flex-wrap para envolver una fila o columna
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVaDAv/cQv9ZtG'
 forumTopicId: 301114
@@ -9,21 +9,21 @@ dashedName: use-the-flex-wrap-property-to-wrap-a-row-or-column
 
 # --description--
 
-CSS flexbox has a feature to split a flex container into multiple rows (or columns). By default, a flex container will fit all flex items together. For example, a row will all be on one line.
+CSS flexbox tiene una característica para dividir un flex container en varias filas (o columnas). De forma predeterminada, un contenedor flexible encajará todos los elementos flexibles juntos. Por ejemplo, una fila estará completa en una sola línea.
 
-However, using the `flex-wrap` property tells CSS to wrap items. This means extra items move into a new row or column. The break point of where the wrapping happens depends on the size of the items and the size of the container.
+Sin embargo, usar la propiedad `flex-wrap` le indica al CSS que envuelva los elementos. Esto significa que los elementos extra se mueven hacia una nueva fila o columna. El punto de ruptura donde ocurre la envoltura depende del tamaño de los elementos y del tamaño del contenedor.
 
-CSS also has options for the direction of the wrap:
+CSS también tiene opciones para la dirección de la envoltura:
 
-<ul><li><code>nowrap</code>: this is the default setting, and does not wrap items.</li><li><code>wrap</code>: wraps items onto multiple lines from top-to-bottom if they are in rows and left-to-right if they are in columns.</li><li><code>wrap-reverse</code>: wraps items onto multiple lines from bottom-to-top if they are in rows and right-to-left if they are in columns.</li></ul>
+<ul><li><code>nowrap</code>: esta es la configuración predeterminada, y no envuelve elementos.</li><li><code>wrap</code>: envuelve elementos en múltiples líneas de arriba a abajo si están en filas y de izquierda a derecha si están en columnas.</li><li><code>wrap-reverse</code>: envuelve elementos en múltiples líneas de abajo hacia arriba si están en filas y de derecha a izquierda si están en columnas.</li></ul>
 
 # --instructions--
 
-The current layout has too many boxes for one row. Add the CSS property `flex-wrap` to the `#box-container` element, and give it a value of `wrap`.
+La disposición actual tiene demasiadas cajas para una sola fila. Agrega la propiedad CSS `flex-wrap` al elemento `#box-container` y asígnale un valor de `wrap`.
 
 # --hints--
 
-The `#box-container` element should have the `flex-wrap` property set to a value of `wrap`.
+El elemento `#box-container` debe tener la propiedad `flex-wrap` establecida en un valor de `wrap`.
 
 ```js
 assert($('#box-container').css('flex-wrap') == 'wrap');

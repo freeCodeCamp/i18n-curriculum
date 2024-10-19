@@ -8,7 +8,7 @@ dashedName: change-the-prototype-to-a-new-object
 
 # --description--
 
-Up until now you have been adding properties to the `prototype` individually:
+Hasta ahora, has estado agregando propiedades al `prototype` (prototipo) individualmente:
 
 ```js
 Bird.prototype.numLegs = 2;

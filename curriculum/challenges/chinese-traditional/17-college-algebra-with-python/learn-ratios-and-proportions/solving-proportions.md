@@ -12,7 +12,7 @@ dashedName: solving-proportions
 
 這是<a href="https://colab.research.google.com/drive/1Q7nCcbrnoYttkwiHB_nQ-X1JuLpUmtRD?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">和視頻配套的 Colab 筆記本</a>。如果你還沒有這樣做，請設置好上一個視頻中你的代數 Colab 筆記本。 然後，將本視頻中的代碼添加到其中。
 
-# --作業--
+# --assignment--
 
 將視頻中的代碼添加到你在第一步創建的代數 Colab 筆記本中。
 

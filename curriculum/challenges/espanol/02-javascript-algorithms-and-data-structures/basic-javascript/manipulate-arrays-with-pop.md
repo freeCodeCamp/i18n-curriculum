@@ -9,7 +9,7 @@ dashedName: manipulate-arrays-with-pop
 
 # --description--
 
-Another way to change the data in an array is with the `.pop()` function.
+Otra manera de cambiar los datos en un arreglo es con la función `.pop()`.
 
 `.pop()` se utiliza para sacar un valor del final de un arreglo. Podemos almacenar este valor sacado asignándolo a una variable. En otras palabras, `.pop()` elimina el último elemento de un arreglo y devuelve ese elemento.
 

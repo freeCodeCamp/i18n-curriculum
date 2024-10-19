@@ -9,7 +9,7 @@ dashedName: adjust-the-margin-of-an-element
 
 # --description--
 
-An element's `margin` controls the amount of space between an element's `border` and surrounding elements.
+El `margin` (margen) de un elemento controla la cantidad de espacio entre su `border` y los elementos que lo rodean.
 
 Aquí podemos ver que la caja azul y la caja roja están anidadas dentro de la caja amarilla. Ten en cuenta que la caja roja tiene un `margin` más grande que el de la caja azul, lo que hace que aparezca más pequeña.
 

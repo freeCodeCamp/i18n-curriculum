@@ -1,6 +1,6 @@
 ---
 id: 587d8257367417b2b2512c7b
-title: Add a New Element to a Binary Search Tree
+title: Añadir un nuevo elemento a un Árbol Binario de Búsqueda
 challengeType: 1
 forumTopicId: 301618
 dashedName: add-a-new-element-to-a-binary-search-tree
@@ -8,7 +8,7 @@ dashedName: add-a-new-element-to-a-binary-search-tree
 
 # --description--
 
-This series of challenges will introduce the tree data structure. Trees are an important and versatile data structure in computer science. Of course, their name comes from the fact that when visualized they look much like the trees we are familiar with in the natural world. A tree data structure begins with one node, typically referred to as the root, and from here branches out to additional nodes, each of which may have more child nodes, and so on and so forth. The data structure is usually visualized with the root node at the top; you can think of it as a natural tree flipped upside down.
+Esta serie de desafíos introducen la estructura de datos de árbol. Los árboles son una estructura de datos importante y versátil en las ciencias de la computación. Por supuesto, el nombre proviene del hecho que cuando las visualizamos se parecen mucho a los árboles con los que estamos familiarizados en el mundo natural. Una estructura de datos de árbol inicia con un nodo, comúnmente llamado raíz, y desde aquí se ramifica hacia nodos adicionales, cada uno de los cuales podría tener más nodos hijos, y así sucesivamente. La estructura de datos es usualmente visualizada con el nodo raíz en la parte superior; tu puedes pensar en él como un árbol natural invertido hacia abajo.
 
 Primero, vamos a describir alguna terminología común que encontraremos con los árboles. El nodo raíz es la parte superior del árbol. Los puntos de datos en el árbol son llamados nodos. Los nodos con ramas que unen a otros nodos son llamados como el padre del nodo al que la rama conduce ( el hijo). Otros términos familiares más complicados son aplicados como podría esperarse. Un subárbol se refiere a todos los descendientes de un nodo en particular, las ramas pueden ser llamadas aristas, y los nodos hojas son los nodos al final del árbol que no tienen hijos. Finalmente, tenga en cuenta que los árboles son inherentemente estructuras de datos recursivas. Esto quiere decir, que todos los hijos de un nodo son padres de su propio subárbol y así sucesivamente. Es importante entender la naturaleza recursiva de los árboles cuando diseñamos algoritmos para las operaciones comunes en árboles.
 

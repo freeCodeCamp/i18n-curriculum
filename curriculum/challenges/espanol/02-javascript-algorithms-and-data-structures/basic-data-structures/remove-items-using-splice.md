@@ -8,7 +8,7 @@ dashedName: remove-items-using-splice
 
 # --description--
 
-Ok, so we've learned how to remove elements from the beginning and end of arrays using `shift()` and `pop()`, but what if we want to remove an element from somewhere in the middle? Or remove more than one element at once? Well, that's where `splice()` comes in. `splice()` allows us to do just that: **remove any number of consecutive elements** from anywhere in an array.
+Bien, ya hemos aprendido a eliminar elementos al principio y al final de los arreglos utilizando `shift()` y `pop()`, pero ¿qué pasa si queremos eliminar un elemento de alguna parte del medio? ¿O eliminar más de un elemento a la vez? Pues bien, ahí es donde entra `splice()`. `splice()` nos permite hacer precisamente eso: **eliminar cualquier número de elementos consecutivos** de cualquier parte de un arreglo.
 
 `splice()` puede tomar hasta 3 parámetros, pero por ahora, nos centraremos sólo en los 2 primeros. Los primeros dos parámetros de `splice()` son enteros que representan índices, o posiciones, de elementos en el arreglo a la que `splice()` está siendo llamado. Y recuerda que los arreglos están *indexados en cero*, por lo que para indicar el primer elemento de un arreglo, usaríamos `0`. El primer parámetro de `splice()` representa el índice del arreglo a partir del cual se empiezan a eliminar los elementos, mientras que el segundo parámetro indica el número de elementos a eliminar. Por ejemplo:
 

@@ -8,7 +8,7 @@ dashedName: build-a-pong-game
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <https://codepen.io/satyamdev/full/pdMmBp>.
+**目標:** こちらと似た機能を持つアプリを構築してください: <https://codepen.io/satyamdev/full/pdMmBp>
 
 **ルール #1:** 模範プロジェクトのコードを見ないようにしてください。 自分の力で解いてみてください。
 

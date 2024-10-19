@@ -8,7 +8,7 @@ dashedName: match-beginning-string-patterns
 
 # --description--
 
-Prior challenges showed that regular expressions can be used to look for a number of matches. They are also used to search for patterns in specific positions in strings.
+Los desafíos anteriores demostraron que las expresiones regulares pueden ser utilizadas para buscar una serie de coincidencias. También se utilizan para buscar patrones en posiciones específicas en cadenas.
 
 En un desafío anterior, usaste el carácter caret (`^`) dentro de un conjunto de caracteres para crear un conjunto de caracteres en la forma `[^thingsThatWillNotBeMatched]`. Fuera de un conjunto de caracteres, el caret es utilizado para buscar patrones al principio de las cadenas.
 

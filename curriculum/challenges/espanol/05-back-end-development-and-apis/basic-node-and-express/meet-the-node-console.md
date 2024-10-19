@@ -8,17 +8,17 @@ dashedName: meet-the-node-console
 
 # --description--
 
-Working on these challenges will involve you writing your code using one of the following methods:
+Trabajar en estos desafíos implica escribir tu código usando uno de los siguientes métodos:
 
 - Clone <a href="https://github.com/freeCodeCamp/boilerplate-express/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete these challenges locally.
 - Utiliza <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-express/" target="_blank" rel="noopener noreferrer nofollow">nuestro proyecto inicial en Gitpod</a> para completar estos desafíos.
 - Usa un constructor de sitios de tu elección para completar el proyecto. Asegúrate de incorporar todos los archivos de nuestro repositorio de GitHub.
 
-During the development process, it is important to be able to check what’s going on in your code.
+Durante el proceso de desarrollo, es importante poder comprobar lo que ocurre en el código.
 
-Node is just a JavaScript environment. Like client side JavaScript, you can use the console to display useful debug information. On your local machine, you would see console output in a terminal. En Gitpod, un terminal está abierto en la parte inferior del editor de forma predeterminada.
+Node es solo un entorno JavaScript. Al igual que el JavaScript del lado cliente, puedes hacer uso de la consola para mostrar información útil para la depuración. En tu máquina, varía la salida de la consola en un terminal. En Gitpod, un terminal está abierto en la parte inferior del editor de forma predeterminada.
 
-We recommend to keep the terminal open while working at these challenges. By reading the output in the terminal, you can see any errors that may occur.
+Recomendamos mantener abierto el terminal mientras desarrolles estos retos. Al leer el resultado en el terminal, puedes ver cualquier error que pueda producirse.
 
 El servidor debe reiniciarse después de realizar cambios en sus archivos.
 
@@ -30,11 +30,11 @@ Para implementar el auto reinicio del servidor al guardar archivos, Node proporc
 
 # --instructions--
 
-Modify the `myApp.js` file to log "Hello World" to the console.
+Modifica el archivo `myApp.js` para que registre "Hello World" en la consola.
 
 # --hints--
 
-`"Hello World"` should be in the console
+`"Hello World"` debe aparecer en la consola
 
 ```js
 (getUserInput) =>

@@ -8,7 +8,7 @@ dashedName: specify-exact-number-of-matches
 
 # --description--
 
-You can specify the lower and upper number of patterns with quantity specifiers using curly brackets. Sometimes you only want a specific number of matches.
+Puedes especificar el número inferior y superior de patrones mediante especificadores de cantidad utilizando corchetes. A veces solo quieres un número específico de coincidencias.
 
 Para especificar un cierto número de patrones, simplemente pon ese número entre corchetes.
 

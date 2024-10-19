@@ -32,11 +32,11 @@ Modificar nuestro ejemplo anterior para usar elementos de párrafo soluciona el 
 
 <iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="300" width="100%" name="cp_embed_2" scrolling="no" src="https://codepen.io/TheOdinProjectExamples/embed/mdwbmdp?height=300&amp;theme-id=dark&amp;default-tab=html%2Cresult&amp;slug-hash=mdwbmdp&amp;user=TheOdinProjectExamples&amp;name=cp_embed_2" style="width: 100%; overflow:hidden; display:block;" title="Insertar de CodePen" loading="lazy" id="cp_embed_mdwbmdp"></iframe>
 
-# --tarea--
+# --assignment--
 
 Mira y sigue el video de Párrafos y Títulos de HTML de Kevin Powell arriba.
 
-# --preguntas--
+# --questions--
 
 ## --text--
 

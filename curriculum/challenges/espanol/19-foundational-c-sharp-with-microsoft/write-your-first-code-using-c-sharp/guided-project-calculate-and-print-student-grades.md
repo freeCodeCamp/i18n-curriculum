@@ -12,11 +12,11 @@ Este desafío se completará parcialmente en la plataforma de aprendizaje de Mic
 1. Go to <a href="https://learn.microsoft.com/training/modules/guided-project-calculate-print-student-grades/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/guided-project-calculate-print-student-grades/</a> and complete all the tasks for the "Guided Project - Calculate and Print Student Grades" module. Esto es **requerido** para ganar el trofeo "Escritura de código de C# por primera vez" en Microsoft Learn, y calificar para el examen de certificación.
 1. Cuando haya terminado, vuelva y responda correctamente a la siguiente pregunta.
 
-# --tarea--
+# --assignment--
 
 Complete the <a href="https://learn.microsoft.com/training/modules/guided-project-calculate-print-student-grades/" target="_blank" rel="noreferrer">Calculate and Print Student Grades</a> guided project on Microsoft Learn. Luego, responda a la siguiente pregunta.
 
-# --preguntas--
+# --questions--
 
 ## --text--
 

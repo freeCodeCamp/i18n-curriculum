@@ -8,7 +8,7 @@ dashedName: smallest-common-multiple
 
 # --description--
 
-Find the smallest common multiple of the provided parameters that can be evenly divided by both, as well as by all sequential numbers in the range between these parameters.
+Encuentra el múltiplo común más pequeño de los parámetros proporcionados que pueden dividirse equitativamente por ambos, así como por todos los números consecutivos del rango entre estos parámetros.
 
 El rango será un arreglo de dos números que no necesariamente estarán en orden numérico.
 

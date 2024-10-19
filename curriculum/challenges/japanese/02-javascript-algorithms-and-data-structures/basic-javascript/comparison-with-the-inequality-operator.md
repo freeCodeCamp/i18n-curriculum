@@ -9,7 +9,7 @@ dashedName: comparison-with-the-inequality-operator
 
 # --description--
 
-不等価演算子 (`!=`) は等価演算子の逆です。 Inequality means not equal. The inequality operator returns `false` when the equality operator would return `true` and *vice versa*. 等価演算子と同様に、不等価演算子でも比較時に値のデータ型が変換されます。
+不等価演算子 (`!=`) は等価演算子の逆です。 Inequality means not equal. つまり、等価演算子では等しくない場合に `false` を返していたところを、不等価演算子では `true` を返します。 *逆の場合も同様です*。 等価演算子と同様に、不等価演算子でも比較時に値のデータ型が変換されます。
 
 **例**
 

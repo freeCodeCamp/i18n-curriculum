@@ -9,7 +9,7 @@ dashedName: declare-javascript-variables
 
 # --description--
 
-In computer science, <dfn>data</dfn> is anything that is meaningful to the computer. JavaScript provides eight different <dfn>data types</dfn> which are `undefined`, `null`, `boolean`, `string`, `symbol`, `bigint`, `number`, and `object`.
+En informática, los <dfn>datos</dfn> son cualquier cosa que tenga sentido para la computadora. JavaScript provides eight different <dfn>data types</dfn> which are `undefined`, `null`, `boolean`, `string`, `symbol`, `bigint`, `number`, and `object`.
 
 Por ejemplo, las computadoras distinguen entre números, como el número `12` y cadenas (`strings`), tales como `"12"`, `"dog"`, o `"123 cats"`, que son colecciones de caracteres. Las computadoras pueden realizar operaciones matemáticas en un número, pero no en una cadena.
 

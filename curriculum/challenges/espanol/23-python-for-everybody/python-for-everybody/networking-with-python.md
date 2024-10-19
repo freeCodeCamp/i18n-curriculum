@@ -10,7 +10,7 @@ bilibiliIds:
 dashedName: networking-with-python
 ---
 
-# --preguntas--
+# --questions--
 
 ## --text--
 

@@ -10,7 +10,7 @@ bilibiliIds:
 dashedName: basics-of-numpy
 ---
 
-# --preguntas--
+# --questions--
 
 ## --text--
 

@@ -8,7 +8,7 @@ dashedName: use-body-parser-to-parse-post-requests
 
 # --description--
 
-Besides GET, there is another common HTTP verb, it is POST. POST is the default method used to send client data with HTML forms. In REST convention, POST is used to send data to create new items in the database (a new user, or a new blog post). You don’t have a database in this project, but you are going to learn how to handle POST requests anyway.
+Además de GET, hay otro verbo HTTP común, es POST. POST es el método por defecto utilizado para enviar datos del cliente con formularios HTML. En la convención REST, POST se utiliza para enviar datos para crear nuevos elementos en la base de datos (un nuevo usuario, o una nueva entrada de blog). No tienes una base de datos en este proyecto, pero de todos modos aprenderás a manejar las peticiones POST.
 
 En este tipo de peticiones, los datos no aparecen en la URL, están ocultos en el cuerpo de la petición. El cuerpo es parte de la petición HTTP, también llamada la carga útil. Aunque los datos no son visibles en la URL, esto no significa que sean privados. Para ver por qué, mire el contenido bruto de una petición HTTP POST:
 

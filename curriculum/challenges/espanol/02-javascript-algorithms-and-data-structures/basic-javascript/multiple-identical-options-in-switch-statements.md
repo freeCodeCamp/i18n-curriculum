@@ -9,7 +9,7 @@ dashedName: multiple-identical-options-in-switch-statements
 
 # --description--
 
-If the `break` statement is omitted from a `switch` statement's `case`, the following `case` statement(s) are executed until a `break` is encountered. If you have multiple inputs with the same output, you can represent them in a `switch` statement like this:
+Si la sentencia `break` es omitida en un caso (`case`) de una sentencia `switch`, las siguientes sentencias `case` serán ejecutadas hasta encontrar un `break`. Si tienes múltiples entradas con la misma salida, puedes representarlas en una sentencia `switch` como esta:
 
 ```js
 let result = "";

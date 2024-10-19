@@ -9,7 +9,7 @@ dashedName: add-rounded-corners-with-border-radius
 
 # --description--
 
-Your cat photo currently has sharp corners. We can round out those corners with a CSS property called `border-radius`.
+Actualmente, las esquinas de tu foto de gato son puntiagudas. Podemos redondear esas esquinas con una propiedad CSS llamada `border-radius` (radio del borde).
 
 # --instructions--
 

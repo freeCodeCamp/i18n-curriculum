@@ -10,7 +10,7 @@ bilibiliIds:
 dashedName: conditional-execution
 ---
 
-# --preguntas--
+# --questions--
 
 ## --text--
 

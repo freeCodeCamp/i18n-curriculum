@@ -9,7 +9,7 @@ dashedName: compound-assignment-with-augmented-division
 
 # --description--
 
-The `/=` operator divides a variable by another number.
+El operador `/=` divide una variable entre otro número.
 
 ```js
 myVar = myVar / 5;

@@ -9,7 +9,7 @@ dashedName: accessing-object-properties-with-dot-notation
 
 # --description--
 
-There are two ways to access the properties of an object: dot notation (`.`) and bracket notation (`[]`), similar to an array.
+Hay dos maneras de acceder a las propiedades de un objeto: notación de puntos (`.`) y notación de corchetes (`[]`), similar a un arreglo.
 
 La notación de puntos es lo que se usa cuando conoces el nombre de la propiedad a la que intentas acceder con antelación.
 

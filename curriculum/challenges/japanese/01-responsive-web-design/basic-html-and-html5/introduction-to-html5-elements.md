@@ -9,7 +9,7 @@ dashedName: introduction-to-html5-elements
 
 # --description--
 
-HTML5 では、より説明的な HTML タグが導入されています。 These include `main`, `header`, `footer`, `nav`, `video`, `article`, `section` and others.
+HTML5 では、より説明的な HTML タグが導入されています。 例えば `main`, `header`, `footer`, `nav`, `video`, `article`, `section` など。 これ以外にもあります。
 
 これらのタグは HTML の文章に記述的な構造を与え、HTML を読みやすくし、SEO (検索エンジン最適化) やアクセシビリティを向上させます。 HTML5 の `main` タグは、検索エンジンや他の開発者があなたのページのメインコンテンツを見つけるのに役立ちます。
 

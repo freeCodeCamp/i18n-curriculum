@@ -9,7 +9,7 @@ dashedName: return-early-pattern-for-functions
 
 # --description--
 
-When a `return` statement is reached, the execution of the current function stops and control returns to the calling location.
+Cuando se alcanza una sentencia `return`, la ejecución de la función actual se detiene y el control se devuelve a la ubicación de la llamada.
 
 **Por ejemplo**
 

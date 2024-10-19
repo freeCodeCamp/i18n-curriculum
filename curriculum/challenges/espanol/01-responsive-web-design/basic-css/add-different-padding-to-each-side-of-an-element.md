@@ -9,7 +9,7 @@ dashedName: add-different-padding-to-each-side-of-an-element
 
 # --description--
 
-Sometimes you will want to customize an element so that it has different amounts of `padding` on each of its sides.
+En ocasiones, querrás personalizar un elemento para que tenga un `padding` o relleno diferente en cada uno de sus lados.
 
 CSS te permite controlar por separado el `padding` de los cuatro lados individuales de un elemento por medio de las propiedades `padding-top`, `padding-right`, `padding-bottom` y `padding-left`.
 

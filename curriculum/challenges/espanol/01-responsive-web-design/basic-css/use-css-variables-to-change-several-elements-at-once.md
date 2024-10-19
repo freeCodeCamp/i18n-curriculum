@@ -9,7 +9,7 @@ dashedName: use-css-variables-to-change-several-elements-at-once
 
 # --description--
 
-<dfn>CSS Variables</dfn> are a powerful way to change many CSS style properties at once by changing only one value.
+Las <dfn>Variables CSS</dfn> son una manera poderosa de modificar varias propiedades de estilos CSS a la vez, cambiando su valor en un único sitio.
 
 Sigue las instrucciones a continuación para ver cómo puedes cambiar el estilo de varios elementos modificando únicamente tres valores.
 

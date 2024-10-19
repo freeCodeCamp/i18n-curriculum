@@ -8,7 +8,7 @@ dashedName: exercise-tracker
 
 # --description--
 
-Build a full stack JavaScript app that is functionally similar to this: <a href="https://exercise-tracker.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://exercise-tracker.freecodecamp.rocks</a>. Working on this project will involve you writing your code using one of the following methods:
+Build a full stack JavaScript app that is functionally similar to this: <a href="https://exercise-tracker.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://exercise-tracker.freecodecamp.rocks</a>. Trabajar en este proyecto implicará escribir tu código utilizando uno de los siguientes métodos:
 
 -   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-exercisetracker/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
 -   Utiliza <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-exercisetracker/" target="_blank" rel="noopener noreferrer nofollow">nuestro proyecto inicial en Gitpod</a> para completar tu proyecto.
@@ -16,9 +16,9 @@ Build a full stack JavaScript app that is functionally similar to this: <a href=
 
 # --instructions--
 
-Your responses should have the following structures.
+Tus respuestas deben tener las siguientes estructuras.
 
-Exercise:
+Ejercicio:
 
 ```js
 {
@@ -30,7 +30,7 @@ Exercise:
 }
 ```
 
-User:
+Usuario:
 
 ```js
 {
@@ -58,7 +58,7 @@ Log:
 
 # --hints--
 
-You should provide your own project, not the example URL.
+Debes proporcionar tu propio proyecto, no la URL ejemplo.
 
 ```js
 (getUserInput) => {
@@ -69,7 +69,7 @@ You should provide your own project, not the example URL.
 };
 ```
 
-You can `POST` to `/api/users` with form data `username` to create a new user.
+Puedes hacer una petición `POST` a `/api/users` con los datos de formulario que tenga la propiedad `username` para crear un nuevo usuario.
 
 ```js
 async (getUserInput) => {
@@ -86,7 +86,7 @@ async (getUserInput) => {
 };
 ```
 
-The returned response from `POST /api/users` with form data `username` will be an object with `username` and `_id` properties.
+La respuesta devuelta de `POST /api/users` con datos de formulario `username` será un objeto con propiedades `username` y `_id`.
 
 ```js
 async (getUserInput) => {
@@ -106,7 +106,7 @@ async (getUserInput) => {
 };
 ```
 
-You can make a `GET` request to `/api/users` to get a list of all users.
+Puedes hacer una petición `GET` a `/api/users` para obtener una lista con todos los usuarios.
 
 ```js
 async(getUserInput) => {
@@ -119,7 +119,7 @@ async(getUserInput) => {
 };
 ```
 
-The `GET` request to `/api/users` returns an array.
+La petición `GET` a `/api/users` devuelve un arreglo.
 
 ```js
 async(getUserInput) => {
@@ -134,7 +134,7 @@ async(getUserInput) => {
 };
 ```
 
-Each element in the array returned from `GET /api/users` is an object literal containing a user's `username` and `_id`.
+Cada elemento en el arreglo devuelto desde `GET /api/users` es un literal de objeto que contiene el `username` y `_id`.
 
 ```js
 async(getUserInput) => {
@@ -154,7 +154,7 @@ async(getUserInput) => {
 };
 ```
 
-You can `POST` to `/api/users/:_id/exercises` with form data `description`, `duration`, and optionally `date`. If no date is supplied, the current date will be used.
+You can `POST` to `/api/users/:_id/exercises` with form data `description`, `duration`, and optionally `date`. Si no se proporciona ninguna fecha, se utilizará la fecha actual.
 
 ```js
 async (getUserInput) => {
@@ -188,7 +188,7 @@ async (getUserInput) => {
 };
 ```
 
-The response returned from `POST /api/users/:_id/exercises` will be the user object with the exercise fields added.
+La respuesta devuelta desde `POST /api/users/:_id/exercises` será el objeto de usuario con los campos de ejercicio añadidos.
 
 ```js
 async (getUserInput) => {
@@ -227,7 +227,7 @@ async (getUserInput) => {
 };
 ```
 
-You can make a `GET` request to `/api/users/:_id/logs` to retrieve a full exercise log of any user.
+Puedes hacer una petición `GET` a `/api/users/:_id/logs` para recuperar un log completo del ejercicio de cualquier usuario.
 
 ```js
 async (getUserInput) => {
@@ -266,7 +266,7 @@ async (getUserInput) => {
 };
 ```
 
-A request to a user's log `GET /api/users/:_id/logs` returns a user object with a `count` property representing the number of exercises that belong to that user.
+Una solicitud al log del usuario `GET /api/users/:_id/logs` devuelve un objeto de usuario con una propiedad `count` representando el número de ejercicios que pertenecen a ese usuario.
 
 ```js
 async (getUserInput) => {
@@ -307,7 +307,7 @@ async (getUserInput) => {
 };
 ```
 
-A `GET` request to `/api/users/:_id/logs` will return the user object with a `log` array of all the exercises added.
+Una solicitud `GET` a `/api/users/:_id/logs` devolverá el objeto de usuario con un arreglo `log` de todos los ejercicios añadidos.
 
 ```js
 async(getUserInput) => {
@@ -351,7 +351,7 @@ async(getUserInput) => {
 };
 ```
 
-Each item in the `log` array that is returned from `GET /api/users/:_id/logs` is an object that should have a `description`, `duration`, and `date` properties.
+Cada elemento en el arreglo `log` que es devuelto desde `GET /api/users/:_id/logs` es un objeto que debe tener las propiedades `description`, `duration` y `date`.
 
 ```js
 async(getUserInput) => {
@@ -398,7 +398,7 @@ async(getUserInput) => {
 };
 ```
 
-The `description` property of any object in the `log` array that is returned from `GET /api/users/:_id/logs` should be a string.
+La propiedad `description` de cualquier objeto en el arreglo `log` que es devuelto desde `GET /api/users/:_id/logs` debe ser una cadena.
 
 ```js
 async(getUserInput) => {
@@ -445,7 +445,7 @@ async(getUserInput) => {
 };
 ```
 
-The `duration` property of any object in the `log` array that is returned from `GET /api/users/:_id/logs` should be a number.
+La propiedad `duration` de cualquier objeto en el arreglo `log` que es devuelto desde `GET /api/users/:_id/logs` debe ser un número.
 
 ```js
 async(getUserInput) => {
@@ -492,7 +492,7 @@ async(getUserInput) => {
 };
 ```
 
-The `date` property of any object in the `log` array that is returned from `GET /api/users/:_id/logs` should be a string. Use the `dateString` format of the `Date` API.
+La propiedad `date` de cualquier objeto en el arreglo `log` que es devuelto desde `GET /api/users/:_id/logs` debe ser una cadena. Utiliza el formato `dateString` de la API `Date`.
 
 ```js
 async(getUserInput) => {
@@ -542,7 +542,7 @@ async(getUserInput) => {
 };
 ```
 
-You can add `from`, `to` and `limit` parameters to a `GET /api/users/:_id/logs` request to retrieve part of the log of any user. `from` and `to` are dates in `yyyy-mm-dd` format. `limit` is an integer of how many logs to send back.
+Puedes añadir parámetros `from`, `to` y `limit` a una petición `GET /api/users/:_id/logs` para recuperar parte del log de cualquier usuario. `from` and `to` are dates in `yyyy-mm-dd` format. `limit` es un número entero de cuántos logs hay que devolver.
 
 ```js
 async (getUserInput) => {

@@ -8,7 +8,7 @@ dashedName: reset-an-inherited-constructor-property
 
 # --description--
 
-When an object inherits its `prototype` from another object, it also inherits the supertype's constructor property.
+Cuando un objeto hereda el `prototype` de otro objeto, también hereda la propiedad del constructor del supertipo.
 
 Por ejemplo:
 

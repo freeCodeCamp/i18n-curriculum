@@ -8,7 +8,7 @@ dashedName: build-a-wikipedia-viewer
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <a href="https://codepen.io/freeCodeCamp/full/wGqEga/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/wGqEga/</a>.
+**目標:** こちらと似た機能を持つアプリを構築してください: <a href="https://codepen.io/freeCodeCamp/full/wGqEga/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/wGqEga/</a>
 
 MediaWiki のソフトウェアにより運営されているウィキペディアは、知識を収集して整理し、人々に利用できるようにするのに役立っています。
 

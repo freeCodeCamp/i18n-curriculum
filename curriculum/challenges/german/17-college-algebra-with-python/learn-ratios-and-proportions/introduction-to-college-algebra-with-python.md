@@ -16,7 +16,7 @@ Dieses erste Video enthält eine Einführung in den Kurs, wie er funktioniert un
 
 \- <a href="https://openstax.org/details/books/algebra-and-trigonometry" target="_blank" rel="noopener noreferrer nofollow">Algebra and Trigonometry von Jay Abramson</a>
 
-# --Auftrag--
+# --assignment--
 
 Erstelle ein Algebra-<a href="https://drive.google.com/" target="_blank" rel="noopener noreferrer nofollow">Colab-Notizbuch auf deinem Google Drive</a>, damit du die Videos mitverfolgen kannst.
 

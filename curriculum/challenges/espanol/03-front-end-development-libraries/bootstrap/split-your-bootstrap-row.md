@@ -8,7 +8,7 @@ dashedName: split-your-bootstrap-row
 
 # --description--
 
-Now that we have a Bootstrap Row, let's split it into two columns to house our elements.
+Ahora que tenemos una fila de Bootstrap, vamos a dividirla en dos columnas para hospedar nuestros elementos.
 
 Crea dos elementos `div` dentro de tu "row", ambos con la clase `col-xs-6`.
 

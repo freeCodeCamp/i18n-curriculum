@@ -9,7 +9,7 @@ dashedName: improve-accessibility-of-audio-content-with-the-audio-element
 
 # --description--
 
-HTML5's `audio` element gives semantic meaning when it wraps sound or audio stream content in your markup. Audio content also needs a text alternative to be accessible to people who are deaf or hard of hearing. This can be done with nearby text on the page or a link to a transcript.
+El elemento `audio` de HTLM le da un significado semántico cuando contiene sonido o contenido de flujo de audio en el código. El contenido del audio también necesita un texto alternativo para que las personas sordas o con dificultad para escuchar puedan acceder al mismo. Para esto debe tener un texto cercano en la página o un enlace a una transcripción.
 
 La etiqueta de `audio` suporta los atributos `controls`. Esto muestra los controles por defecto de reproducir, pausar, entre otros controles, y soporta la funcionalidad del teclado. Este es un atributo booleano por lo que no necesita un valor, su presencia en la etiqueta activa la configuración.
 

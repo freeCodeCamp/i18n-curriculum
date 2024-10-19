@@ -8,9 +8,9 @@ dashedName: implementation-of-social-authentication
 
 # --description--
 
-The basic path this kind of authentication will follow in your app is:
+La ruta básica que seguirá este tipo de autenticación en tu aplicación es:
 
-1.  User clicks a button or link sending them to your route to authenticate using a specific strategy (e.g. GitHub).
+1.  El usuario hace clic en un botón o enlace que le envía a tu ruta para autenticarte utilizando una estrategia específica (por ejemplo, GitHub).
 2.  Tu ruta llama a `passport.authenticate('github')` que los redirige a GitHub.
 3.  La página en la que aterriza el usuario, en GitHub, le permite iniciar sesión si aún no lo ha hecho. A continuación, les pides que aprueben el acceso a su perfil desde tu aplicación.
 4.  A continuación, el usuario es devuelto a tu aplicación en una url callback específica con su perfil si es aprobado.

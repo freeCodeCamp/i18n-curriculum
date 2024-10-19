@@ -8,25 +8,25 @@ dashedName: metric-imperial-converter
 
 # --description--
 
-Build a full stack JavaScript app that is functionally similar to this: <a href="https://metric-imperial-converter.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://metric-imperial-converter.freecodecamp.rocks/</a>. Working on this project will involve you writing your code using one of the following methods:
+Construye una aplicación full stack de JavaScript que sea funcionalmente similar a esta: <a href="https://metric-imperial-converter.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://metric-imperial-converter.freecodecamp.rocks/</a>. Trabajar en este proyecto implicará escribir tu código utilizando uno de los siguientes métodos:
 
 - Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-metricimpconverter/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
-- Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-metricimpconverter/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete your project.
-- Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
+- Utiliza <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-metricimpconverter/" target="_blank" rel="noopener noreferrer nofollow">nuestro proyecto inicial de Gitpod</a> para completar tu proyecto.
+- Usa un constructor de sitios de tu elección para completar el proyecto. Asegúrate de incorporar todos los archivos de nuestro repositorio de GitHub.
 
 **Nota:** Las pruebas de este proyecto no funcionan cuando se usa `glitch.com`.
 
 # --instructions--
 
-- Complete the necessary conversion logic in `/controllers/convertHandler.js`
+- Completa la lógica de conversión necesaria en `/controllers/convertHandler.js`
 - Completa las rutas necesarias en `/routes/api.js`
 - Copie el archivo `sample.env` a `.env` y establezca las variables apropiadamente
 - Para ejecutar las pruebas automáticamente, añade `NODE_ENV=test` en tu archivo `.env`
-- To run the tests in the console, use the command `npm run test`.
+- Para ejecutar las pruebas en la consola, usa el comando: `npm run test`.
 
 Escribe las siguientes pruebas en `tests/1_unit-tests.js`:
 
-- `convertHandler` should correctly read a whole number input.
+- `convertHandler` debería leer correctamente una entrada de número entero.
 - `convertHandler` debería leer correctamente una entrada de número decimal.
 - `convertHandler` debería leer correctamente una entrada fraccional.
 - `convertHandler` debería leer correctamente una entrada fraccional con un decimal.
@@ -45,7 +45,7 @@ Escribe las siguientes pruebas en `tests/1_unit-tests.js`:
 
 Escribir las siguientes pruebas en `tests/2_functional-tests.js`:
 
-- Convert a valid input such as `10L`: `GET` request to `/api/convert`.
+- Convierte una entrada válida como `10L`: petición `GET` a `/api/convert`.
 - Convierte una entrada inválida como `32g`: petición `GET` a `/api/convert`.
 - Convierte un número inválido como `3/7.2/4kg`: petición `GET` a `/api/convert`.
 - Convierte un número Y una unidad no válidos como `3/7.2/4kilomegagram`: petición `GET` a `/api/convert`.

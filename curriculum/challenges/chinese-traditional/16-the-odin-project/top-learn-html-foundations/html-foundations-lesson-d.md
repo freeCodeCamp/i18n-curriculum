@@ -22,7 +22,7 @@ dashedName: html-foundations-lesson-d
 ## lang 屬性是什麼？
 `lang` 在元素中指定了文本內容的語言。 這個屬性主要用於提升網頁的可訪問性。 它允許輔助技術，例如屏幕閱讀器，根據語言進行調整並調用正確的發音。
 
-# 問題
+# --questions--
 
 ## --text--
 

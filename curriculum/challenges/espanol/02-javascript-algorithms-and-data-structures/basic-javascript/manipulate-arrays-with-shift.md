@@ -9,7 +9,7 @@ dashedName: manipulate-arrays-with-shift
 
 # --description--
 
-`pop()` always removes the last element of an array. What if you want to remove the first?
+`pop()` siempre elimina el último elemento de un arreglo. ¿Qué tal si quieres eliminar el primero?
 
 Ahí es donde entra `.shift()`. Funciona igual que `.pop()`, excepto que elimina el primer elemento en lugar del último.
 

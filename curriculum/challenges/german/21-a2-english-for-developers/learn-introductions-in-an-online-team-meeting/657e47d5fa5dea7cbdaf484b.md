@@ -9,7 +9,7 @@ dashedName: dialogue-meeting-a-client
 
 Schau dir das Vides oben an, um den Kontext der kommenden Lektionen zu verstehen.
 
-# --Auftrag--
+# --assignment--
 
 Schau das Video
 

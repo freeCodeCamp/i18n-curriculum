@@ -12,7 +12,7 @@ Diese Aufgabe wird teilweise auf der Microsoft Learn Plattform erledigt. Folge d
 1. Go to <a href="https://learn.microsoft.com/training/modules/challenge-project-debug-c-sharp-console-application/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/challenge-project-debug-c-sharp-console-application/</a> and complete all the tasks for the "Challenge Project - Debug a C# Console Application Using Visual Studio Code" module. Dies ist **erforderlich**, um die "Debuggen von C#-Konsolen-Anwendungen"-Trophäe auf Microsoft Learn zu erwerben und sich für die Zertifizierungsprüfung zu qualifizieren.
 1. Wenn du damit fertig bist, komme zurück und beantworte die folgende Frage richtig.
 
-# --Auftrag--
+# --assignment--
 
 Complete the <a href="https://learn.microsoft.com/training/modules/challenge-project-debug-c-sharp-console-application/" target="_blank" rel="noreferrer">Debug a C# Console Application Using Visual Studio Code</a> challenge project on Microsoft Learn. Beantworte dann die Frage unten.
 

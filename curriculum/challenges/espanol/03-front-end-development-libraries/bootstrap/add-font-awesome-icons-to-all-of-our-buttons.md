@@ -12,7 +12,7 @@ dashedName: add-font-awesome-icons-to-all-of-our-buttons
 
 # --description--
 
-Font Awesome is a convenient library of icons. These icons can be web fonts or vector graphics. These icons are treated just like fonts. You can specify their size using pixels, and they will assume the font size of their parent HTML elements.
+Font Awesome es una conveniente librería de iconos. Estos pueden ser fuentes web o gráficos vectoriales. Estos íconos son tratados como fuentes. Puedes especificar su tamaño usando píxeles, y ellos asumirán el tamaño de fuente de su elemento HTML padre.
 
 # --instructions--
 

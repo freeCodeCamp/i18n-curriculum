@@ -8,7 +8,7 @@ dashedName: medical-data-visualizer
 
 # --description--
 
-You will be <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-medical-data-visualizer/" target="_blank" rel="noopener noreferrer nofollow">working on this project with our Gitpod starter code</a>.
+Estarás <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-medical-data-visualizer/" target="_blank" rel="noopener noreferrer nofollow">trabajando en este proyecto con nuestro código inicial en Gitpod</a>.
 
 Estamos desarrollando las instrucciones interactivas del currículo de Python. Aunque puedes encontrar los siguientes videos en el canal de YouTube de freeCodeCamp.org que te enseñaran lo necesario para realizar este proyecto:
 
@@ -20,32 +20,32 @@ Estamos desarrollando las instrucciones interactivas del currículo de Python. A
 
 En este proyecto, visualizarás y realizarás cálculos a partir de datos de exámenes médicos usando `matplotlib`, `seaborn` y `pandas`. Los valores del conjunto de datos (dataset) se recogieron durante los exámenes médicos.
 
-## Data description
+## Descripción de datos
 
 Las filas del conjunto de datos representan a los pacientes y las columnas representan información como medidas corporales, resultados de varios análisis de sangre y opciones de estilo de vida. Utilizarás el conjunto de datos para explorar la relación entre enfermedades cardiacas, medidas del cuerpo, indicadores sanguíneos y opciones de estilo de vida.
 
 Nombre del archivo: medical_examination.csv
 
-|                    Feature                    |      Tipo de variable      |   Variable    |                            Tipo de unidad                             |
-|:---------------------------------------------:|:--------------------------:|:-------------:|:---------------------------------------------------------------------:|
-|                      Age                      |     Objective Feature      |     `age`     |                              int (days)                               |
-|                    Height                     |  Característica objetivo   |   `height`    |                               int (cm)                                |
-|                    Weight                     |  Característica objetivo   |   `weight`    |                              float (kg)                               |
-|                    Gender                     |  Característica objetivo   |   `gender`    |                          código de categoría                          |
-|            Systolic blood pressure            | Características del examen |    `ap_hi`    |                                  int                                  |
-|           Diastolic blood pressure            | Característica del examen  |    `ap_lo`    |                                  int                                  |
-|                  Cholesterol                  | Característica del examen  | `cholesterol` | 1: normal, 2: por encima de lo normal, 3: muy por encima de lo normal |
-|                    Glucose                    | Característica del examen  |    `gluc`     | 1: normal, 2: por encima de lo normal, 3: muy por encima de lo normal |
-|                    Smoking                    |  Característica subjetiva  |    `smoke`    |                                binario                                |
-|                Alcohol intake                 |  Característica subjetiva  |    `alco`     |                                binario                                |
-|               Physical activity               |  Característica subjetiva  |   `active`    |                                binario                                |
-| Presence or absence of cardiovascular disease |     Variable objetivo      |   `cardio`    |                                binario                                |
+|                    Característica                     |      Tipo de variable      |   Variable    |                            Tipo de unidad                             |
+|:-----------------------------------------------------:|:--------------------------:|:-------------:|:---------------------------------------------------------------------:|
+|                         Edad                          |  Característica objetivo   |     `age`     |                              int (días)                               |
+|                        Altura                         |  Característica objetivo   |   `height`    |                               int (cm)                                |
+|                         Peso                          |  Característica objetivo   |   `weight`    |                              float (kg)                               |
+|                         Sexo                          |  Característica objetivo   |   `gender`    |                          código de categoría                          |
+|              Presión arterial sistólica               | Características del examen |    `ap_hi`    |                                  int                                  |
+|              Presión arterial diastólica              | Característica del examen  |    `ap_lo`    |                                  int                                  |
+|                      Colesterol                       | Característica del examen  | `cholesterol` | 1: normal, 2: por encima de lo normal, 3: muy por encima de lo normal |
+|                        Glucosa                        | Característica del examen  |    `gluc`     | 1: normal, 2: por encima de lo normal, 3: muy por encima de lo normal |
+|                        Fumador                        |  Característica subjetiva  |    `smoke`    |                                binario                                |
+|                  Consumo de alcohol                   |  Característica subjetiva  |    `alco`     |                                binario                                |
+|                   Actividad física                    |  Característica subjetiva  |   `active`    |                                binario                                |
+| Presencia o ausencia de enfermedades cardiovasculares |     Variable objetivo      |   `cardio`    |                                binario                                |
 
 
-## Instructions
-By each number in the `medical_data_visualizer.py` file, add the code from the associated instruction number below.
+## Instrucciones
+Por cada número en el archivo `medical_data_visualizer.py` agrege el codigo del numero de instruccion asociado a continuación.
 
-1. Import the data from `medical_examination.csv` and assign it to the `df` variable
+1. Importe los datos de `medical_examination.csv` y asignelos a la variable `df`
 2. Crea la columna `sobrepeso` en la variable `df`
 3. Normaliza los datos haciendo `0` siempre bueno y `1` siempre malo. Si el valor de `cholesterol` o `gluc` es `1`, haga el valor `0`. Si el valor es mayor que `1`, ajuste el valor a `1`.
 4. Dibuja la trama Categórica en la función `draw_cat_plot`
@@ -56,11 +56,11 @@ By each number in the `medical_data_visualizer.py` file, add the code from the a
 9. No modificar las siguientes dos líneas
 10. Dibuja el mapa de calor en la función `draw_heat_map`
 11. Limpia los datos en la variable `df_heat` filtrando los siguientes segmentos del paciente que representan datos incorrectos:
-    - diastolic pressure is higher than systolic (Keep the correct data with `(df['ap_lo'] <= df['ap_hi'])`)
-    - height is less than the 2.5th percentile (Keep the correct data with `(df['height'] >= df['height'].quantile(0.025))`)
-    - height is more than the 97.5th percentile
-    - weight is less than the 2.5th percentile
-    - weight is more than the 97.5th percentile
+    - la presión diastólica es mayor que la sistólica (Mantenga los datos correctos con `(df['ap_lo'] <= df['ap_hi'])`)
+    - la altura es menor que el porcentaje de 2,5 (Mantenga los datos correctos con `(df['height'] >= df['height'].quantile(0.025))`
+    - la altura es superior al 97.5 por ciento
+    - el peso es inferior al 2.5 por ciento
+    - el peso es mayor al 97.5 por ciento
 12. Calcular la matriz de correlación y almacenarla en la variable `corr`
 13. Genera una máscara para el triángulo superior y guárdala en la variable `máscara`
 14. Configura la figura `matplotlib`
@@ -69,7 +69,7 @@ By each number in the `medical_data_visualizer.py` file, add the code from the a
 
 ## Desarrollo
 
-Write your code in `medical_data_visualizer.py`. Para el desarrollo, puedes utilizar `main.py` para probar tu código.
+Escribe tu código en `medical_data_visualizer.py`. Para el desarrollo, puedes utilizar `main.py` para probar tu código.
 
 ## Pruebas
 

@@ -8,7 +8,7 @@ dashedName: store-data-with-sass-variables
 
 # --description--
 
-One feature of Sass that's different than CSS is it uses variables. They are declared and set to store data, similar to JavaScript.
+Una característica de Sass que es diferente de CSS es que utiliza variables. Se declaran y establecen para almacenar datos, de forma similar a JavaScript.
 
 En JavaScript, las variables se definen mediante las palabras clave `let` y `const`. En Sass, las variables comienzan con un `$` seguido del nombre de la variable.
 

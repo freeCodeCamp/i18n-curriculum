@@ -1,6 +1,6 @@
 ---
 id: a97fd23d9b809dac9921074f
-title: Arguments Optional
+title: Argumentos opcionales
 challengeType: 1
 forumTopicId: 14271
 dashedName: arguments-optional
@@ -8,29 +8,29 @@ dashedName: arguments-optional
 
 # --description--
 
-Create a function that sums two arguments together. If only one argument is provided, then return a function that expects one argument and returns the sum.
+Crea una función que sume dos argumentos. Si sólo se proporciona un argumento, entonces devuelve una función que espera un argumento y devuelve la suma.
 
-For example, `addTogether(2, 3)` should return `5`, and `addTogether(2)` should return a function.
+Por ejemplo, `addTogether(2, 3)` debe devolver `5` y `addTogether(2)` debe devolver una función.
 
-Calling this returned function with a single argument will then return the sum:
+Si se llama a esta función devuelta con un solo argumento, se obtendrá la suma:
 
 ```js
 var sumTwoAnd = addTogether(2);
 ```
 
-`sumTwoAnd(3)` returns `5`.
+`sumTwoAnd(3)` devuelve `5`.
 
-If either argument isn't a valid number, return undefined.
+Si cualquiera de los dos argumentos no es un número válido, devuelve undefined.
 
 # --hints--
 
-`addTogether(2, 3)` should return 5.
+`addTogether(2, 3)` debe devolver 5.
 
 ```js
 assert.deepEqual(addTogether(2, 3), 5);
 ```
 
-`addTogether(23.4, 30)` should return 53.4.
+`addTogether(23.4, 30)` debe devolver 53.4.
 
 ```js
 assert.deepEqual(addTogether(23.4, 30), 53.4);

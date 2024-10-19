@@ -9,7 +9,7 @@ dashedName: dialogue-1-a-job-interview
 
 觀看上面的視頻以瞭解接下來的課程。
 
-# --作業--
+# --assignment--
 
 觀看視頻
 

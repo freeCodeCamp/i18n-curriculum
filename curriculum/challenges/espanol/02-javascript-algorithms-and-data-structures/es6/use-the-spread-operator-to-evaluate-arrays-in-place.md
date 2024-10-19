@@ -8,7 +8,7 @@ dashedName: use-the-spread-operator-to-evaluate-arrays-in-place
 
 # --description--
 
-ES6 introduces the <dfn>spread operator</dfn>, which allows us to expand arrays and other expressions in places where multiple parameters or elements are expected.
+ES6 introduce el <dfn>operador de propagación</dfn>, que nos permite expandir arreglos y otras expresiones en lugares donde se esperan múltiples parámetros o elementos.
 
 El siguiente código ES5 usa `apply()` para calcular el valor máximo en un arreglo:
 

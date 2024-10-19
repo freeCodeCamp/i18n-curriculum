@@ -20,7 +20,7 @@ Completa las historias de los usuarios que están aquí abajo y haz que pasen to
 
 **User Story:** I can propose a trade and wait for the other user to accept the trade.
 
-Once you've finished implementing these user stories, enter the URL to your live app and, optionally, your GitHub repository. Then click the "I've completed this challenge" button.
+Una vez que hayas terminado de implementar estas historias de usuario, introduce la URL en tu aplicación en vivo y, opcionalmente, en tu repositorio de GitHub. Luego, haga clic en el botón "He completado este desafío".
 
 Puedes obtener opiniones de tu proyecto compartiéndolo en la <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
 

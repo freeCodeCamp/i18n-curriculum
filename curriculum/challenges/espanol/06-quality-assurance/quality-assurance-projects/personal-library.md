@@ -8,7 +8,7 @@ dashedName: personal-library
 
 # --description--
 
-Build a full stack JavaScript app that is functionally similar to this: <a href="https://personal-library.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://personal-library.freecodecamp.rocks/</a>. Working on this project will involve you writing your code using one of the following methods:
+Construye una aplicación full stack de JavaScript que sea funcionalmente similar a esta: <a href="https://personal-library.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://personal-library.freecodecamp.rocks/</a>. Trabajar en este proyecto implicará escribir tu código utilizando uno de los siguientes métodos:
 
 -   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-library" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
 -   Utilice <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-library" target="_blank" rel="noopener noreferrer nofollow">nuestro proyecto inicial de Gitpod</a> para completar tu proyecto.
@@ -16,7 +16,7 @@ Build a full stack JavaScript app that is functionally similar to this: <a href=
 
 # --instructions--
 
-1.  Add your MongoDB connection string to `.env` without quotes as `DB` Example: `DB=mongodb://admin:pass@1234.mlab.com:1234/fccpersonallib`
+1.  Agrega tu cadena de conexión MongoDB a tu `.env` sin comillas como `DB` Ejemplo: `DB=mongodb://admin:pass@1234.mlab.com:1234/fccpersonallib`
 2.  En tu archivo `.env` establece `NODE_ENV` a `test`, sin comillas
 3.  Es necesario crear todas la rutas dentro de `routes/api.js`
 4.  Escribe las siguientes pruebas en `tests/2_functional-tests.js`
@@ -33,7 +33,7 @@ Puedes proveer tu propio proyecto, no la URL del ejemplo.
 };
 ```
 
-You can send a <b>POST</b> request to `/api/books` with `title` as part of the form data to add a book.  La respuesta devuelta será un objeto con las propiedades `title` y un `_id` único como claves.  Si `title` no está incluido en la petición, la respuesta devuelta será una cadena con `missing required field title`.
+Puedes enviar una petición <b>POST</b> a `/api/books` con `title` como parte de los datos del formulario para agregar un libro.  La respuesta devuelta será un objeto con las propiedades `title` y un `_id` único como claves.  Si `title` no está incluido en la petición, la respuesta devuelta será una cadena con `missing required field title`.
 
 ```js
 async (getUserInput) => {
@@ -54,7 +54,7 @@ async (getUserInput) => {
 };
 ```
 
-You can send a <b>GET</b> request to `/api/books` and receive a JSON response representing all the books. La respuesta JSON será un array de objetos con cada objeto (libro) que contiene `título`, `_id`y `commentcount` propiedades.
+Puedes enviar una petición <b>GET</b> a `/api/books` y recibir una respuesta JSON que representa todos los libros. La respuesta JSON será un array de objetos con cada objeto (libro) que contiene `título`, `_id`y `commentcount` propiedades.
 
 ```js
 async (getUserInput) => {
@@ -82,7 +82,7 @@ async (getUserInput) => {
 };
 ```
 
-Puedes enviar una petición <b>GET</b> a `/api/books/{_id}` para recuperar un solo objeto de un libro que contiene las propiedades `title`, `_id`, y un arreglo `comments` (arreglo vacío si no hay comentarios). If no book is found, return the string `no book exists`.
+Puedes enviar una petición <b>GET</b> a `/api/books/{_id}` para recuperar un solo objeto de un libro que contiene las propiedades `title`, `_id`, y un arreglo `comments` (arreglo vacío si no hay comentarios). Si no se encuentra ningún libro, devuelve la cadena `no book exists`.
 
 ```js
 async (getUserInput) => {
@@ -106,7 +106,7 @@ async (getUserInput) => {
 };
 ```
 
-Puedes enviar una petición de <b>POST</b> que contenga un `comment` como los datos del cuerpo del formulario a `/api/books/{_id}` para agregar un comentario a un libro. The returned response will be the books object similar to <b>GET</b> `/api/books/{_id}` request in an earlier test. Si `comment` no está incluido en la petición, la respuesta devuelta será una cadena con `missing required field comment`. Si no se encuentra ningún libro, devuelve la cadena `no book exists`.
+Puedes enviar una petición de <b>POST</b> que contenga un `comment` como los datos del cuerpo del formulario a `/api/books/{_id}` para agregar un comentario a un libro. La respuesta devuelta será el objeto de libros similar a la petición <b>GET</b> `/api/books/{_id}` en una prueba anterior. Si `comment` no está incluido en la petición, la respuesta devuelta será una cadena con `missing required field comment`. Si no se encuentra ningún libro, devuelve la cadena `no book exists`.
 
 ```js
 async (getUserInput) => {

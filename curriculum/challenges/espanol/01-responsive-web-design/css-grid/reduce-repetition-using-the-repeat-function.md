@@ -9,7 +9,7 @@ dashedName: reduce-repetition-using-the-repeat-function
 
 # --description--
 
-When you used `grid-template-columns` and `grid-template-rows` to define the structure of a grid, you entered a value for each row or column you created.
+Cuando usaste `grid-template-columns` y `grid-template-rows` para definir la estructura de una cuadrícula (grid), ingresaste un valor para cada fila o columna que creaste.
 
 Digamos que quieres una cuadrícula con 100 filas del mismo tamaño. No es muy práctico insertar 100 valores manualmente. Afortunadamente, hay una mejor manera - usando la función `repeat` para especificar el número de veces que quieres que tu columna o fila se repita, seguido de una coma y el valor que quieres repetir.
 

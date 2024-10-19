@@ -10,7 +10,7 @@ bilibiliIds:
 dashedName: natural-language-processing-with-rnns-recurring-neural-networks
 ---
 
-# --preguntas--
+# --questions--
 
 ## --text--
 

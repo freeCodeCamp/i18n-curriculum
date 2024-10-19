@@ -37,7 +37,7 @@ let message = 'Hello';
 ```
 
 
-# --preguntas----preguntas--
+# --questions--
 
 ## --text--
 

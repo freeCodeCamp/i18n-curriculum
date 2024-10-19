@@ -8,7 +8,7 @@ dashedName: add-key-value-pairs-to-javascript-objects
 
 # --description--
 
-At their most basic, objects are just collections of <dfn>key-value</dfn> pairs. In other words, they are pieces of data (<dfn>values</dfn>) mapped to unique identifiers called <dfn>properties</dfn> (<dfn>keys</dfn>). Take a look at an example:
+En su aspecto más básico, los objetos no son más que colecciones de pares <dfn>clave-valor</dfn>. En otras palabras, son piezas de datos (<dfn>valores</dfn>) asignados a identificadores únicos llamados <dfn>propiedades</dfn> (<dfn>claves</dfn>). Mira un ejemplo:
 
 ```js
 const tekkenCharacter = {

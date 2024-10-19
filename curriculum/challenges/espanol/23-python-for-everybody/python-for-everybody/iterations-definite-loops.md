@@ -10,7 +10,7 @@ bilibiliIds:
 dashedName: iterations-definite-loops
 ---
 
-# --preguntas--
+# --questions--
 
 ## --text--
 

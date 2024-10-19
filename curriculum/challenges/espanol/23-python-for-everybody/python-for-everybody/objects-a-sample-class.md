@@ -10,7 +10,7 @@ bilibiliIds:
 dashedName: objects-a-sample-class
 ---
 
-# --preguntas--
+# --questions--
 
 ## --text--
 

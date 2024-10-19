@@ -12,7 +12,7 @@ Im ersten Video erfährst du, wie man ein System aus zwei Gleichungen löst, ohn
 
 Hier ist das <a href="https://colab.research.google.com/drive/1UfyQiXCedAAv5kcqgi_pGYV-HkSgN8YD?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">Colab-Notizbuch, das in diesem Video verwendet wird.</a>
 
-# --Auftrag--
+# --assignment--
 
 Füge deinem Notizbuch Code hinzu, um Gleichungssysteme zu lösen und grafisch darzustellen
 

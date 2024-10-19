@@ -8,7 +8,7 @@ dashedName: iterate-through-the-keys-of-an-object-with-a-for---in-statement
 
 # --description--
 
-Sometimes you need to iterate through all the keys within an object. You can use a <dfn>for...in</dfn> loop to do this. The for...in loop looks like:
+En ocasiones, necesitas iterar todas las claves de un objeto. Puedes usar un bucle <dfn>for...in</dfn> para hacerlo. Un bucle <dfn>for...in</dfn> se ve así:
 
 ```javascript
 const refrigerator = {

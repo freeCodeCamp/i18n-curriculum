@@ -8,7 +8,7 @@ dashedName: how-to-use-passport-strategies
 
 # --description--
 
-In the `index.pug` file supplied, there is a login form. It is hidden because of the inline JavaScript `if showLogin` with the form indented after it.
+En el archivo `index.pug` proporcionado, hay un formulario de inicio de sesion. Esta oculto debido al JavaScript en línea `if showLogin` con el formulatio indentado luego de este.
 
 En el `res.render` para esa página, agrega una nueva variable para el objeto `showLogin: true`. Cuando actualices tu página, entonces deberas ver el formulario! Este formulario est configurado para **POST** en `/login`. Así que, aquí es donde tu deberías configurar para aceptar la petición POST y autenticar al usuario.
 

@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: understanding-sockets-and-creating-a-tcp-server
 ---
 
-# --preguntas--
+# --questions--
 
 ## --text--
 
-Which of the following functions creates a socket object?
+¿Cuál de las siguientes funciones crea un objeto socket?
 
 ## --answers--
 

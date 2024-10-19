@@ -20,7 +20,7 @@ Wahrscheinlich wirst du aber feststellen, dass du das `strong`-Element eher in K
 
 Manchmal möchte man Text fettgedruckt machen, ohne ihm eine wichtige Bedeutung zu geben. Wie das geht, erfährst du in den CSS-Lektionen später im Lehrplan.
 
-# --Auftrag--
+# --assignment--
 
 Sieh dir Kevin Powells video zum HTML Fettgedruckten und Kursiven Text oben an.
 

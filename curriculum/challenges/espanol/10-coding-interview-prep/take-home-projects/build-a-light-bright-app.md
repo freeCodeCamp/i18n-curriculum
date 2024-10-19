@@ -8,7 +8,7 @@ dashedName: build-a-light-bright-app
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <https://codepen.io/freeCodeCamp/full/eyLYXE>.
+**Objective:** Crea una aplicación funcionalmente similar a esta: <https://codepen.io/freeCodeCamp/full/eyLYXE>.
 
 **Regla #1:** No mires el código de ejemplo del proyecto. Encuentra tu propia solución.
 

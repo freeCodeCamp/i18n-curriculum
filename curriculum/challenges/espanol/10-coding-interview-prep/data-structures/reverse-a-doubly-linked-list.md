@@ -8,7 +8,7 @@ dashedName: reverse-a-doubly-linked-list
 
 # --description--
 
-Let's create one more method for our doubly linked list called reverse which reverses the list in place. Once the method is executed the head should point to the previous tail and the tail should point to the previous head. Now, if we traverse the list from head to tail we should meet the nodes in a reverse order compared to the original list. Trying to reverse an empty list should return null.
+Vamos a crear un método más para nuestra lista de doble enlazada llamada reversa, la cual revierte la lista en su lugar. Una vez que se ejecuta el método, la cabeza debe apuntar a la cola anterior y la cola debe apuntar a la cabeza anterior. Ahora, si recorremos la lista de cabeza a cola, deberíamos encontrar los nodos en orden inverso en comparación con la lista original. Intentar revertir una lista vacía debe devolver nulo.
 
 # --hints--
 

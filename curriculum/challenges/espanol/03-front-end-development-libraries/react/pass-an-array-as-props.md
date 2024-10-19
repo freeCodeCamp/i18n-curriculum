@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d403616a
-title: Pass an Array as Props
+title: Pasa un arreglo como "props"
 challengeType: 6
 forumTopicId: 301401
 dashedName: pass-an-array-as-props
@@ -8,7 +8,7 @@ dashedName: pass-an-array-as-props
 
 # --description--
 
-The last challenge demonstrated how to pass information from a parent component to a child component as `props` or properties. This challenge looks at how arrays can be passed as `props`. To pass an array to a JSX element, it must be treated as JavaScript and wrapped in curly braces.
+El último desafío demostró cómo pasar información desde un componente padre a un componente hijo como `props` o propiedades. Este desafío busca demostrar cómo se pueden pasar arreglos como `props`. Para pasar un arreglo a un elemento JSX, debe ser tratado como JavaScript y envolverlo entre llaves.
 
 ```jsx
 <ParentComponent>
@@ -16,21 +16,21 @@ The last challenge demonstrated how to pass information from a parent component 
 </ParentComponent>
 ```
 
-The child component then has access to the array property `colors`. Array methods such as `join()` can be used when accessing the property.
+El componente hijo entonces tiene acceso a la propiedad del arreglo `colors`. Los métodos de arreglo, como `join()` pueden ser usados al acceder a la propiedad.
 
 ```jsx
 const ChildComponent = (props) => <p>{props.colors.join(', ')}</p>
 ```
 
-This will join all `colors` array items into a comma separated string and produce: `<p>green, blue, red</p>`. Later, we will learn about other common methods to render arrays of data in React.
+Esto unirá todos los miembros del arreglo `colors` en un string separado por comas: `<p>green, blue, red</p>`. Más adelante veremos otras formas muy comunes en React de renderizar arreglos de datos.
 
 # --instructions--
 
-There are `List` and `ToDo` components in the code editor. When rendering each `List` from the `ToDo` component, pass in a `tasks` property assigned to an array of to-do tasks, for example `["walk dog", "workout"]`. Then access this `tasks` array in the `List` component, showing its value within the `p` element. Use `join(", ")` to display the `props.tasks` array in the `p` element as a comma-separated list. Today's list should have at least 2 tasks and tomorrow's should have at least 3 tasks.
+En el editor de código están definidos los componentes `List` y `ToDo`. Para renderizar cada `List` del componente `ToDo`, pasa una propiedad `tasks` asignada a un arreglo de tareas pendientes, por ejemplo `["walk dog", "workout"]`. Después accede a dicho arreglo `tasks` en el componente `List`, mostrando su valor dentro del elemento `p`. Usa `join(", ")` para mostrar el arreglo `props.tasks` en el elemento `p` como una lista separada por comas. La lista de hoy debe tener al menos 2 tareas y la de mañana por lo menos 3.
 
 # --hints--
 
-The `ToDo` component should return a single outer `div`.
+El componente `ToDo` debe devolver un solo `div` externo.
 
 ```js
 assert(
@@ -41,7 +41,7 @@ assert(
 );
 ```
 
-The third child of the `ToDo` component should be an instance of the `List` component.
+El tercer descendiente del componente `ToDo` debe ser una instancia del componente `List`.
 
 ```js
 assert(
@@ -52,7 +52,7 @@ assert(
 );
 ```
 
-The fifth child of the `ToDo` component should be an instance of the `List` component.
+El quinto descendiente del componente `ToDo` debe ser una instancia del componente `List`.
 
 ```js
 assert(
@@ -63,7 +63,7 @@ assert(
 );
 ```
 
-Both instances of the `List` component should have a property called `tasks` and `tasks` should be of type array.
+Ambas instancias del componente `List` deben tener una propiedad llamada `tasks` de tipo arreglo.
 
 ```js
 assert(
@@ -77,7 +77,7 @@ assert(
 );
 ```
 
-The first `List` component representing the tasks for today should have 2 or more items.
+El primer componente `List` representando las tareas de hoy debe tener 2 o más miembros.
 
 ```js
 assert(
@@ -88,7 +88,7 @@ assert(
 );
 ```
 
-The second `List` component representing the tasks for tomorrow should have 3 or more items.
+El segundo componente `List` representando las tareas de mañana debe tener 3 o más componentes.
 
 ```js
 assert(
@@ -99,7 +99,7 @@ assert(
 );
 ```
 
-The `List` component should render the value from the `tasks` prop in the `p` tag.
+El componente `List` debe renderizar el valor de la propiedad `tasks` en el tag `p`.
 
 ```js
 assert(

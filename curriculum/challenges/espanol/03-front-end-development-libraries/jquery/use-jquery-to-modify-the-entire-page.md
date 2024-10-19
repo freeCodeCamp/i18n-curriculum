@@ -11,7 +11,7 @@ dashedName: use-jquery-to-modify-the-entire-page
 
 # --description--
 
-We're done playing with our jQuery playground. Let's tear it down!
+Hemos terminado de jugar con nuestra área de juego de jQuery. ¡Vamos a derribarlo!
 
 jQuery también puede seleccionar al elemento `body`.
 

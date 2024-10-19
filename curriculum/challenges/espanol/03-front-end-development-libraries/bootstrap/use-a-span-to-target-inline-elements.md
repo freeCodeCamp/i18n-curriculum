@@ -8,9 +8,9 @@ dashedName: use-a-span-to-target-inline-elements
 
 # --description--
 
-You can use spans to create inline elements. Remember when we used the `btn-block` class to make the button fill the entire row?
+Puedes usar spans para crear elementos en linea. Recuerdas cuando usamos la clase `btn-block` para hacer que el botón ocupe la fila entera?
 
-<button class='btn' style='background-color: rgb(0, 100, 0);  color: rgb(255, 255, 255);'>normal button</button>
+<button class='btn' style='background-color: rgb(0, 100, 0);  color: rgb(255, 255, 255);'>botón normal</button>
 
 <button class='btn btn-block' style='background-color: rgb(0, 100, 0);  color: rgb(255, 255, 255);'>botón btn-block</button>
 

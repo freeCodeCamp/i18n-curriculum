@@ -37,9 +37,9 @@ test('Submit the surname "Polo" in the HTML form', function (done) {
 その後、AJAX リクエストからレスポンスを受信すると、いくつかのアサーションが実行され、以下が確定します。
 
 1.  レスポンスのステータスは、`200` です。
-2.  The text within the `<span id='name'></span>` element matches `'Marco'`
-3.  The text within the `<span id='surname'></span>` element matches `'Polo'`
-4.  There is `1` `<span id='dates'></span>` element.
+2.  `<span id='name'></span>` 要素内のテキストは、`'Marco'` と一致します。
+3.  `<span id='surname'></span>` 要素内のテキストは、`'Polo'` と一致します。
+4.  `1` という内容の `<span id='dates'></span>` 要素があります。
 
 最後に、`done` コールバックを呼び出します。これは非同期テストのために必要です。
 

@@ -21,7 +21,7 @@ tests:
     title: Muestra el clima local
   - 
     id: bd7158d8c442eddfaeb5bd1f
-    title: Use the Twitch JSON API
+    title: Utiliza la API JSON de Twitch
   - 
     id: bd7158d8c442eddfaeb5bd18
     title: Estilizar historias en Camper News

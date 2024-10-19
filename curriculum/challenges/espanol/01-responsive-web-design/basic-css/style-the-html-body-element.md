@@ -9,7 +9,7 @@ dashedName: style-the-html-body-element
 
 # --description--
 
-Now let's start fresh and talk about CSS inheritance.
+Ahora vamos comenzar de cero y hablaremos sobre la herencia CSS (en inglés: "CSS inheritance").
 
 Toda página HTML tiene un elemento `body`.
 

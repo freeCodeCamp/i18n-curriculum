@@ -12,11 +12,11 @@ Este desafío se completará parcialmente en la plataforma de aprendizaje de Mic
 1. Go to <a href="https://learn.microsoft.com/training/modules/csharp-literals-variables/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/csharp-literals-variables/</a> and complete all the tasks for the "Store and Retrieve Data Using Literal and Variable Values in C#" module. Esto es **requerido** para ganar el trofeo "Escritura de código de C# por primera vez" en Microsoft Learn, y calificar para el examen de certificación.
 1. Cuando haya terminado, vuelva y responda correctamente a la siguiente pregunta.
 
-# --tarea--
+# --assignment--
 
 Complete the <a href="https://learn.microsoft.com/training/modules/csharp-literals-variables/" target="_blank" rel="noreferrer">Store and Retrieve Data Using Literal and Variable Values in C#</a> module on Microsoft Learn. Luego, responda a la siguiente pregunta.
 
-# --preguntas--
+# --questions--
 
 ## --text--
 

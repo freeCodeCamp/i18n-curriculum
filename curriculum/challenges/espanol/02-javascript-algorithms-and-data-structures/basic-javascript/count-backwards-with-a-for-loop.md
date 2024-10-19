@@ -9,7 +9,7 @@ dashedName: count-backwards-with-a-for-loop
 
 # --description--
 
-A for loop can also count backwards, so long as we can define the right conditions.
+Un bucle for también puede contar hacia atrás, siempre que definamos las condiciones adecuadas.
 
 Para poder disminuirle dos cada iteración, necesitaremos cambiar nuestra inicialización, condición, y expresión final.
 

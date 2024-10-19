@@ -9,7 +9,7 @@ dashedName: apply-the-flex-direction-property-to-create-rows-in-the-tweet-embed
 
 # --description--
 
-The `header` and `footer` in the tweet embed example have child items that could be arranged as rows using the `flex-direction` property. This tells CSS to align the children horizontally.
+El `header` y `footer` en el ejemplo de tweet insertado tienen elementos secundarios que podrían organizarse como filas usando la propiedad `flex-direction`. Esto le dice a CSS que alinee los hijos horizontalmente.
 
 # --instructions--
 

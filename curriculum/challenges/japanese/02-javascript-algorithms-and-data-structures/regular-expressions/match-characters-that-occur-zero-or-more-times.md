@@ -54,7 +54,7 @@ assert(result[0] === 'Aaaaaaaaaaaaaaaa');
 assert(result[0].length === 16);
 ```
 
-Your regex should not match any characters in the string `He made a fair move. Screaming about it can't help you.`
+正規表現は文字列 `He made a fair move. Screaming about it can't help you.` にあるどの文字にもマッチしない必要があります。
 
 ```js
 assert(
@@ -62,7 +62,7 @@ assert(
 );
 ```
 
-Your regex should not match any characters in the string `Let him have it. It's not wise to upset a Wookiee.`
+正規表現は文字列 `Let him have it. It's not wise to upset a Wookiee.` にあるどの文字にもマッチしない必要があります。
 
 ```js
 assert(

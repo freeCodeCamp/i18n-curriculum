@@ -8,7 +8,7 @@ dashedName: remove-elements-from-a-linked-list
 
 # --description--
 
-The next important method that any implementation of a linked list will need is a `remove` method. This method should take the element we want to remove as an argument, and then search the list to find and remove the node that contains that element.
+El siguiente método importante que necesitará cualquier implementación de una lista enlazada es el método `remove`. Este método debe recibir como argumento el elemento que se quiera eliminar, para a continuación realizar una búsqueda en la lista con el objetivo de encontrar y eliminar el nodo que contiene dicho elemento.
 
 Siempre que eliminemos un nodo de una lista enlazada, es importante que no dejemos huérfano el resto de la lista. Recordar que la propiedad `next` de cualquier nodo apunta al nodo que lo sigue en la lista. Si estamos eliminando el elemento central, por ejemplo, debemos asegurarnos de establecer una conexión desde la propiedad `next` del nodo previo a dicho elemento central, hasta el nodo al que apunta la propiedad `next` (¡el cual es el siguiente nodo en la lista!) del elemento central
 

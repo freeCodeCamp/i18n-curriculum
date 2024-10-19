@@ -8,7 +8,7 @@ dashedName: map-data-across-the-globe
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <https://codepen.io/freeCodeCamp/full/mVEJag>.
+**Objective:** Crea una aplicación funcionalmente similar a esta: <https://codepen.io/freeCodeCamp/full/mVEJag>.
 
 Completa las historias de los usuarios que están aquí abajo y haz que pasen todas las pruebas. Utiliza cualquier librería o API que necesites. Dale tu propio estilo.
 

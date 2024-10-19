@@ -8,7 +8,7 @@ dashedName: convert-html-entities
 
 # --description--
 
-Convert the characters `&`, `<`, `>`, `"` (double quote), and `'` (apostrophe), in a string to their corresponding HTML entities.
+文字列中の文字 `&`、`<`、`>`、`"` (二重引用符)、`'` (アポストロフィー) を、それぞれ対応する HTML エンティティに変換してください。
 
 # --hints--
 

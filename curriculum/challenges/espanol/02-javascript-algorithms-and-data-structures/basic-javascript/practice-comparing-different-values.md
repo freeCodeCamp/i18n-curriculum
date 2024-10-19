@@ -9,7 +9,7 @@ dashedName: practice-comparing-different-values
 
 # --description--
 
-In the last two challenges, we learned about the equality operator (`==`) and the strict equality operator (`===`). Let's do a quick review and practice using these operators some more.
+En los dos últimos desafíos, aprendimos sobre el operador de igualdad (`==`) y el operador de estricta igualdad (`===`). Vamos a hacer una rápida revisión y práctica utilizando estos operadores un poco más.
 
 Si los valores que se comparan no son del mismo tipo, el operador de igualdad realizará una conversión de tipo y luego evaluará los valores. Sin embargo, el operador de estricta igualdad comparará tanto el tipo de datos como el valor tal como es, sin convertir un tipo a otro.
 

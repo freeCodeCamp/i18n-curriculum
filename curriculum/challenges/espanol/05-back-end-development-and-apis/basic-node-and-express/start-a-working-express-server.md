@@ -8,7 +8,7 @@ dashedName: start-a-working-express-server
 
 # --description--
 
-In the first two lines of the file `myApp.js`, you can see how easy it is to create an Express app object. This object has several methods, and you will learn many of them in these challenges. One fundamental method is `app.listen(port)`. It tells your server to listen on a given port, putting it in running state. For testing reasons, we need the app to be running in the background so we added this method in the `server.js` file for you.
+En las primeras dos líneas del archivo `myApp.js`, puedes ver lo fácil que es crear un objeto app Express. Este objeto tiene varios métodos, y aprenderás muchos de ellos en estos desafíos. Un método fundamental es `app.listen(port)`. Le dice a tu servidor que escuche en un puerto determinado, poniéndolo en estado de ejecución. Por razones de prueba, necesitamos que la aplicación se ejecute en segundo plano, así que añadimos este método en el archivo `server.js` para ti.
 
 ¡Sirvamos nuestra primer cadena! En Express, las rutas toman la siguiente estructura: `app.METHOD(PATH, HANDLER)`. METHOD es un método http en minúsculas. PATH es una ruta relativa en el servidor (puede ser una cadena, o incluso una expresión regular). HANDLER es una función que Express llama cuando la ruta coincide. Los Handlers toman la forma `function(req, res) {...}`, donde req es el objeto de la solicitud, y res es el objeto de respuesta. Por ejemplo, el handler
 

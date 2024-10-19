@@ -9,7 +9,7 @@ dashedName: accessing-object-properties-with-variables
 
 # --description--
 
-Another use of bracket notation on objects is to access a property which is stored as the value of a variable. This can be very useful for iterating through an object's properties or when accessing a lookup table.
+Otro uso de la notación de corchetes en objetos es acceder a una propiedad que está almacenada como el valor de una variable. Esto puede ser muy útil para iterar a través de las propiedades de un objeto o para acceder a una tabla de búsqueda.
 
 Aquí hay un ejemplo del uso de una variable para acceder a una propiedad:
 

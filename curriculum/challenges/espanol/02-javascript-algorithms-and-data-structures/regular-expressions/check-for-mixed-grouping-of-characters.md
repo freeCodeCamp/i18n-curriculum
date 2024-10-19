@@ -8,7 +8,7 @@ dashedName: check-for-mixed-grouping-of-characters
 
 # --description--
 
-Sometimes we want to check for groups of characters using a Regular Expression and to achieve that we use parentheses `()`.
+A veces queremos comprobar grupos de caracteres utilizando una expresión regular y para conseguirlo usamos paréntesis `()`.
 
 Si deseas encontrar `Penguin` o `Pumpkin` en una cadena, puedes usar la siguiente expresión regular: `/P(engu|umpk)in/g`
 

@@ -13,7 +13,7 @@ Así que si terminas con algún comportamiento inesperado como éste, ello se de
 
 La cascada es lo que determina qué reglas realmente se aplican a tu HTML. Hay diferentes factores que la cascada usa para determinar esto. Examinaremos tres de estos factores, que esperemos te ayudarán a evitar esos frustrantes momentos de "Odio CSS".
 
-# --preguntas----preguntas--
+# --questions--
 ## --text--
 
 ¿Por qué podrías encontrarte un comportamiento inesperado en CSS?

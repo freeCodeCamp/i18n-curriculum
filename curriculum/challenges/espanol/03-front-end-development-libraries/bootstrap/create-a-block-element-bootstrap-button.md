@@ -8,7 +8,7 @@ dashedName: create-a-block-element-bootstrap-button
 
 # --description--
 
-Normally, your `button` elements with the `btn` and `btn-default` classes are only as wide as the text that they contain. Por ejemplo:
+Normalmente, tus elementos `button` con las clases `btn` y `btn-default` son tan anchos como el texto que los contiene. Por ejemplo:
 
 ```html
 <button class="btn btn-default">Submit</button>
@@ -16,7 +16,7 @@ Normally, your `button` elements with the `btn` and `btn-default` classes are on
 
 Este botón será tan ancho como la palabra `Submit`.
 
-<button class='btn btn-default'>Submit</button>
+<button class='btn btn-default'>Enviar</button>
 
 Al convertirlos en elementos de bloque con la clase adicional `btn-block`, tu botón se estirará para llenar completamente el espacio horizontal de tu página y cualquier elemento siguiente se posicionará en una "nueva línea" debajo del bloque.
 

@@ -21,7 +21,7 @@ console.log(newNumbers); // Output: [5, 6, 9]
 
 El método `filter()` crea un nuevo arreglo con todos los elementos que son mayores que 2. El método `filter()` no cambia el arreglo original.
 
-# --preguntas----preguntas--
+# --questions--
 
 ## --text--
 

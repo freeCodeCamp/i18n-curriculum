@@ -8,7 +8,7 @@ dashedName: review-using-props-with-stateless-functional-components
 
 # --description--
 
-Except for the last challenge, you've been passing props to stateless functional components. These components act like pure functions. They accept props as input and return the same view every time they are passed the same props. You may be wondering what state is, and the next challenge will cover it in more detail. Before that, here's a review of the terminology for components.
+Excepto por el último desafío, has estado pasando props a componentes funcionales sin estado. Estos componentes actúan como funciones puras. Aceptan props como entrada y devuelven la misma vista cada vez que se les pasa el mismo props. Tal vez te estes preguntando qué es estado, y el próximo desafío lo cubrirá con más detalle. Antes de eso, aquí hay una revisión de la terminología de los componentes.
 
 Un *componente funcional sin estado*, es cualquier función que escribas que acepte props y devuelva JSX. Un *componente sin estado*, por otra parte, es una clase que extiende `React.Component`, pero no usa el estado interno (que será cubierto en el siguiente desafío). Finalmente, un *componente con estado* es un componente de clase que mantiene su propio estado interno. Puedes ver componentes con estado referidos simplemente como componentes de React.
 

@@ -12,7 +12,7 @@ dashedName: task-36
 
 Listen to Maria and answer the question.
 
-# --preguntas----preguntas--
+# --questions--
 
 ## --text--
 

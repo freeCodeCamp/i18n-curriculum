@@ -9,7 +9,7 @@ dashedName: use-css-animation-to-change-the-hover-state-of-a-button
 
 # --description--
 
-You can use CSS `@keyframes` to change the color of a button in its hover state.
+Puedes usar CSS `@keyframes` para cambiar el color de un botón en su estado de desplazamiento.
 
 Aquí hay un ejemplo de como cambiar el ancho de una imagen al pasar sobre ella:
 

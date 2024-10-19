@@ -8,7 +8,7 @@ dashedName: render-state-in-the-user-interface-another-way
 
 # --description--
 
-There is another way to access `state` in a component. In the `render()` method, before the `return` statement, you can write JavaScript directly. For example, you could declare functions, access data from `state` or `props`, perform computations on this data, and so on. Then, you can assign any data to variables, which you have access to in the `return` statement.
+Hay otra manera de acceder al `state` de un componente. En el método `render()`, antes de la sentencia `return`, se puede escribir JavaScript directamente. Por ejemplo, puedes declarar funciones, acceder a datos de `state` o `props`, realizar cálculos sobre estos datos, etc. Luego, puedes asignar cualquier dato a las variables, a las que tienes acceso en la sentencia `return`.
 
 # --instructions--
 

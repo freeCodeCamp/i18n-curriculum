@@ -41,7 +41,7 @@ Standardmäßig sieht jeder Text, der mit einem Anker-Tag ohne ein `href`-Attrib
 
 Es ist erwähnenswert, dass du Anker-Tags verwenden kannst, um auf jede Art von Ressource im Internet zu verlinken, und nicht nur auf andere HTML-Dokumente. Du kannst auf Videos, PDF-Dateien, Bilder usw. verlinken, aber größtenteils wirst du auf andere HTML-Dokumente verlinken.
 
-# --Auftrag--
+# --assignment--
 
 Sieh dir Kevin Powells Video über HTML-Links oben an.
 

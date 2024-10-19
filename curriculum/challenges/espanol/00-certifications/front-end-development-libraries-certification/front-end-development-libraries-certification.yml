@@ -10,13 +10,13 @@ tests:
     title: Construye una máquina de frases aleatorias
   - 
     id: bd7157d8c242eddfaeb5bd13
-    title: Build a Markdown Previewer
+    title: Construye un previsualizador de Markdown
   - 
     id: 587d7dbc367417b2b2512bae
-    title: Build a Drum Machine
+    title: Construye una caja de ritmos
   - 
     id: bd7158d8c442eddfaeb5bd17
-    title: Build a JavaScript Calculator
+    title: Construye una calculadora JavaScript
   - 
     id: bd7158d8c442eddfaeb5bd0f
-    title: Build a 25 + 5 Clock
+    title: Construye un reloj 25 + 5

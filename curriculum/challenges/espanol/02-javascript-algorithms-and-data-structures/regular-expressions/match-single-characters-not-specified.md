@@ -8,7 +8,7 @@ dashedName: match-single-characters-not-specified
 
 # --description--
 
-So far, you have created a set of characters that you want to match, but you could also create a set of characters that you do not want to match. These types of character sets are called <dfn>negated character sets</dfn>.
+Hasta ahora, has creado un conjunto de caracteres que deseas coincidir, pero también podrías crear un conjunto de caracteres que no desees coincidir. Este tipo de conjuntos de caracteres se llaman <dfn>conjuntos de caracteres negados</dfn>.
 
 Para crear un conjunto de caracteres negados colocas un carácter de intercalación (`^`) después del corchete de apertura y antes de los caracteres que no quieres coincidir.
 

@@ -17,7 +17,7 @@ dashedName: add-placeholder-text-to-a-text-field
 <input type="text" placeholder="this is placeholder text">
 ```
 
-**Note:** Remember that `input` is a void element.
+**注:** `input` 要素は空要素であることを忘れないでください。
 
 # --instructions--
 

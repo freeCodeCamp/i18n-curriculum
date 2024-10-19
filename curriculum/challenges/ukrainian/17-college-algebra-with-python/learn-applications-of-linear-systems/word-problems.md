@@ -16,7 +16,7 @@ dashedName: word-problems
 
 \- <a href="https://openstax.org/details/books/algebra-and-trigonometry" target="_blank" rel="noopener noreferrer nofollow">Алгебра та тригонометрія. Джей Абрамсон</a>
 
-# --Завдання--
+# --assignment--
 
 Розв’яжіть завдання на ст. 63, 75, 85 та 118 з підручника «Бізнес-математика: покроковий довідник (2021)».
 

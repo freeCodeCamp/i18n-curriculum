@@ -9,7 +9,7 @@ dashedName: sha-1-password-cracker
 
 # --description--
 
-You will be <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-SHA-1-password-cracker" target="_blank" rel="noopener noreferrer nofollow">working on this project with our Gitpod starter code</a>.
+Estarás <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-SHA-1-password-cracker" target="_blank" rel="noopener noreferrer nofollow">trabajando en este proyecto con nuestro código inicial en Gitpod</a>.
 
 Estamos desarrollando las instrucciones interactivas del currículo de Python. Aunque puedes encontrar los siguientes videos en el canal de YouTube de freeCodeCamp.org que te enseñaran lo necesario para realizar este proyecto:
 
@@ -33,19 +33,19 @@ La función tomará un segundo argumento opcional llamado `use_salts`. Si su val
 
 Estás son algunas contraseñas cifradas para probar la función:
 
-- `b305921a3723cd5d70a375cd21a61e60aabb84ec` should return "sammy123"
+- `b305921a3723cd5d70a375cd21a61e60aabb84ec` debe retornar "sammy123"
 - `c7ab388a5ebefbf4d550652f1eb4d833e5316e3e` debe retornar "abacab"
 - `5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8` debe retornar "password"
 
 Estás son algunas contraseñas cifradas para probar la función cuando el valor de `use_salts` es `True`:
 
-- `53d8b3dc9d39f0184144674e310185e41a87ffd5` should return "superman"
+- `53d8b3dc9d39f0184144674e310185e41a87ffd5` debe retornar "superman"
 - `da5a4e8cf89539e66097acd2f8af128acae2f8ae` debe retornar "q1w2e3r4t5"
 - `ea3f62d498e3b98557f9f9cd0d905028b3b019e1` debe retornar "bubbles1"
 
 La librería `hashlib` ya viene importada. Deberías considerar usarla en tu código. <a href="https://docs.python.org/3/library/hashlib.html" target="_blank" rel="noopener noreferrer nofollow">Aprende más sobre "hashlib" aquí</a>.
 
-## Development
+## Dessarrollo
 
 Escribe tu código en `password_cracker.py`. Para el desarrollo, puedes usar `main.py` para probar tu código.
 

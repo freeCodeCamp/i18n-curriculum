@@ -20,7 +20,7 @@ let ourStr = "I come first. ";
 ourStr += "I come second.";
 ```
 
-`ourStr` now has a value of the string `I come first. I come second.`.
+これで `ourStr` の値は文字列 `I come first. I come second.` になります。
 
 # --instructions--
 
@@ -34,7 +34,7 @@ ourStr += "I come second.";
 assert(/sentence\. This/.test(myStr));
 ```
 
-`myStr` should have a value of the string `This is the first sentence. This is the second sentence.`
+`myStr` の値が文字列値 `This is the first sentence. This is the second sentence.` になる必要があります。
 
 ```js
 assert(myStr === 'This is the first sentence. This is the second sentence.');

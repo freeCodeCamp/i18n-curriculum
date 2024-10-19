@@ -1,6 +1,6 @@
 ---
 id: 587d78ab367417b2b2512af1
-title: Add Flex Superpowers to the Tweet Embed
+title: Agrega superpoderes flex al tweet incrustado
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVaDAv/c9W7MhM'
 forumTopicId: 301100
@@ -9,59 +9,59 @@ dashedName: add-flex-superpowers-to-the-tweet-embed
 
 # --description--
 
-To the right is the tweet embed that will be used as a practical example. Some of the elements would look better with a different layout. The last challenge demonstrated `display: flex`. Here you'll add it to several components in the tweet embed to start adjusting their positioning.
+A la derecha está el tweet incrustado que se utilizará como ejemplo práctico. Algunos de los elementos lucirían mejor con una disposición diferente. El último desafío demostró `display: flex`. Aquí la agregaras a varios componentes en el tweet incrustado para empezar a ajustar su posición.
 
 # --instructions--
 
-Add the CSS property `display: flex` to all of the following items - note that the selectors are already set up in the CSS:
+Agrega la propiedad CSS `display: flex` a todos los siguientes elementos (ten en cuenta que los selectores ya están configurados en el CSS):
 
-`header`, the header's `.profile-name`, the header's `.follow-btn`, the header's `h3` and `h4`, the `footer`, and the footer's `.stats`.
+El encabezado `header`, el `.profile-name` del encabezado, el `.follow-btn` del encabezado, el `h3` y `h4` del encabezado, el `footer`, y el `.stats` del pie de página (footer).
 
 # --hints--
 
-Your `.follow-btn` should be rendered on the page. Be sure to turn off any extensions such as ad blockers.
+Tu `.follow-btn` debe mostrarse en la página. Asegúrate de desactivar las extensiones, como los bloqueadores de anuncios.
 
 ```js
 assert($('.follow-btn').length > 0 && $('.follow-btn').css('display') !== 'none');
 ```
 
-Your `header` should have a `display` property set to `flex`.
+Tu `header` debe tener una propiedad `display` establecida en `flex`.
 
 ```js
 assert($('header').css('display') == 'flex');
 ```
 
-Your `footer` should have a `display` property set to `flex`.
+Tu `footer` debe tener una propiedad `display` establecida en `flex`.
 
 ```js
 assert($('footer').css('display') == 'flex');
 ```
 
-Your `h3` should have a `display` property set to `flex`.
+Tu `h3` debe tener una propiedad `display` establecida en `flex`.
 
 ```js
 assert($('h3').css('display') == 'flex');
 ```
 
-Your `h4` should have a `display` property set to `flex`.
+Tu `h4` debe tener una propiedad `display` establecida en `flex`.
 
 ```js
 assert($('h4').css('display') == 'flex');
 ```
 
-Your `.profile-name` should have a `display` property set to `flex`.
+Tu `.profile-name` debe tener una propiedad `display` establecida en `flex`.
 
 ```js
 assert($('.profile-name').css('display') == 'flex');
 ```
 
-Your `.follow-btn` should have a `display` property set to `flex`.
+Tu `.follow-btn` debe tener una propiedad `display` establecida en `flex`.
 
 ```js
 assert($('.follow-btn').css('display') == 'flex');
 ```
 
-Your `.stats` should have a `display` property set to `flex`.
+Tu `.stats` debe tener una propiedad `display` establecida en `flex`.
 
 ```js
 assert($('.stats').css('display') == 'flex');

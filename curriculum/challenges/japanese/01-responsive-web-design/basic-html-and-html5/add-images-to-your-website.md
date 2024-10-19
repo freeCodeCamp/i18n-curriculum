@@ -16,7 +16,7 @@ dashedName: add-images-to-your-website
 <img src="https://www.freecatphotoapp.com/your-image.jpg">
 ```
 
-Note that `img` is a void element.
+`img` 要素は空要素であることに注意してください。
 
 すべての `img` 要素は **必ず** `alt` 属性を持たなければなりません。 `alt` 属性内のテキストは、アクセシビリティを向上させるためにスクリーンリーダーが使用します。また、画像の読み込みに失敗した場合にも表示されます。
 

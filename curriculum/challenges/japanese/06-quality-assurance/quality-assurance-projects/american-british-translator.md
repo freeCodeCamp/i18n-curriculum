@@ -10,7 +10,7 @@ dashedName: american-british-translator
 
 <a href="https://american-british-translator.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://american-british-translator.freecodecamp.rocks/</a> と同じような機能を持つ、フルスタック JavaScript アプリを構築してください。 プロジェクトに取り組むにあたり、以下の方法のうち 1 つを用いてコードを記述します。
 
--   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-american-british-english-translator/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
+-   <a href="https://github.com/freeCodeCamp/boilerplate-project-american-british-english-translator/" target="_blank" rel="noopener noreferrer nofollow">GitHub リポジトリ</a>をクローンし、ローカル環境でチャレンジを完了させる。
 -   Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-american-british-english-translator/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete your project.
 -   ご自身で選んだサイトビルダーを使用して、プロジェクトを完了させてください。 必ず GitHub リポジトリのすべてのファイルを取り込む。
 
@@ -101,7 +101,7 @@ async (getUserInput) => {
 };
 ```
 
-`/api/translate` ルートでは、アメリカ英語とイギリス英語の時間の記述方法を扱えるようにしてください。 たとえば、10 時 30 分は、イギリス英語では「10.30」、アメリカ英語では「10:30」と記述します。 The `span` element should wrap the entire time string, i.e. `<span class="highlight">10:30</span>`.
+`/api/translate` ルートでは、アメリカ英語とイギリス英語の時間の記述方法を扱えるようにしてください。 たとえば、10 時 30 分は、イギリス英語では「10.30」、アメリカ英語では「10:30」と記述します。 `span` 要素に時間の文字列全体を含める必要があります。 たとえば、`<span class="highlight">10:30</span>` などとします。
 
 ```js
 async (getUserInput) => {
@@ -155,7 +155,7 @@ async (getUserInput) => {
 };
 ```
 
-Wrap any translated spelling or terms with `<span class="highlight">...</span>` tags so they appear in green.
+変換されたスペルや用語が緑色で表示されるように、`<span class="highlight">...</span>` タグで囲んでください。
 
 ```js
 async (getUserInput) => {

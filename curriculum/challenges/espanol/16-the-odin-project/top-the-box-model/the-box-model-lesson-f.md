@@ -16,11 +16,11 @@ Cada cosa en una página web es un cuadro rectangular. Estos cuadros pueden tene
 }
 ```
 
-# --tarea--
+# --assignment--
 
 Agrega un borde a cada elemento en la página y observa cómo se disponen los cuadros.
 
-# --preguntas--
+# --questions--
 
 ## --text--
 

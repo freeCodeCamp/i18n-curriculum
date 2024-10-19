@@ -8,7 +8,7 @@ dashedName: show-national-contiguity-with-a-force-directed-graph
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to this: <https://codepen.io/freeCodeCamp/full/XWEONRz>.
+**Objetivo:** crear una aplicación que sea funcionalmente similar a esta <https://codepen.io/freeCodeCamp/full/XWEONRz>.
 
 Completa las historias de los usuarios que están aquí abajo y haz que pasen todas las pruebas. Utiliza cualquier librería o API que necesites. Dale tu propio estilo.
 
@@ -16,7 +16,7 @@ Completa las historias de los usuarios que están aquí abajo y haz que pasen to
 
 **User Story:** I can see each country's flag on its node.
 
-**Hint:** Here's a dataset you can use to build this: <https://raw.githubusercontent.com/DealPete/forceDirected/master/countries.json>
+Sugerencia: aqui hay un conjunto de datos que puede usar para crear esto: <https://raw.githubusercontent.com/DealPete/forceDirected/master/countries.json>
 
 **Hint:** You can create a spritesheet of national flags at <https://www.flag-sprites.com>.
 

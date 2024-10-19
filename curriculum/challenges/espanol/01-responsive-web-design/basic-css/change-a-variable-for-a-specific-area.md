@@ -9,7 +9,7 @@ dashedName: change-a-variable-for-a-specific-area
 
 # --description--
 
-When you create your variables in `:root` they will set the value of that variable for the whole page.
+Cuando creas tus variables en `:root`, el valor de esa variable quedará establecido para toda la página.
 
 Puedes entonces sobreescribir estas variables configurándolas nuevamente con un selector específico.
 

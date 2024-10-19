@@ -9,7 +9,7 @@ dashedName: use-media-queries-to-create-responsive-layouts
 
 # --description--
 
-CSS Grid can be an easy way to make your site more responsive by using media queries to rearrange grid areas, change dimensions of a grid, and rearrange the placement of items.
+CSS Grid puede ser una manera fácil de hacer que tu sitio sea más adaptable al usar consultas de medios (media queries) para reorganizar las áreas de cuadrícula (grid), cambiar sus dimensiones y reorganizar la ubicación de los elementos.
 
 En la vista previa, cuando el ancho del viewport es 300px o más, el número de columnas cambia de 1 a 2. El área de publicidad entonces ocupa la columna de la izquierda por completo.
 

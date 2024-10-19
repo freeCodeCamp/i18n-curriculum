@@ -10,7 +10,7 @@ bilibiliIds:
 dashedName: regular-expressions-practical-applications
 ---
 
-# --preguntas--
+# --questions--
 
 ## --text--
 

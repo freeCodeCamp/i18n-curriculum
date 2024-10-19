@@ -38,7 +38,7 @@ This example shows the same thing. Even though rule 2 is using a child combinato
 
 When comparing selectors, you may come across special symbols for the universal selector (`*`) as well as combinators (`+`, `~`, `>`, and an empty space). These symbols do not add any specificity in and of themselves.
 
-# 问题
+# --questions--
 
 ## --text--
 

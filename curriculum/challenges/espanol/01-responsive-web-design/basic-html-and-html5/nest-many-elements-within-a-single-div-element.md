@@ -9,7 +9,7 @@ dashedName: nest-many-elements-within-a-single-div-element
 
 # --description--
 
-The `div` element, also known as a division element, is a general purpose container for other elements.
+El elemento `div`, también conocido como elemento de división, es un contenedor de propósito general para otros elementos.
 
 El elemento `div` es probablemente el elemento HTML más utilizado de todos.
 

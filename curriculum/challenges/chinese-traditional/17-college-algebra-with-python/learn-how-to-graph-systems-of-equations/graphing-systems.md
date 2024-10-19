@@ -12,7 +12,7 @@ dashedName: graphing-systems
 
 這是<a href="https://colab.research.google.com/drive/1N1JEZJctODxsntROnmg0VqMSHXYdIlFD?usp=sharing" target="_blank" rel="noopener noreferrer nofollow">這個視頻中用到的 Colab 筆記本</a>。
 
-# --作業--
+# --assignment--
 
 將視頻中的代碼添加到你正在創建的代數筆記本中，並使用不同的函數進行測試。
 

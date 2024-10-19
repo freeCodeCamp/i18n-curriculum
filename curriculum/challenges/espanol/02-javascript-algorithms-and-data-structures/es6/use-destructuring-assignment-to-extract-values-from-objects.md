@@ -8,7 +8,7 @@ dashedName: use-destructuring-assignment-to-extract-values-from-objects
 
 # --description--
 
-<dfn>Destructuring assignment</dfn> is special syntax introduced in ES6, for neatly assigning values taken directly from an object.
+La <dfn>sintaxis de desestructuración</dfn> es una sintaxis especial introducida en ES6, para asignar los valores directamente desde un objeto.
 
 Considera el siguiente código ES5:
 

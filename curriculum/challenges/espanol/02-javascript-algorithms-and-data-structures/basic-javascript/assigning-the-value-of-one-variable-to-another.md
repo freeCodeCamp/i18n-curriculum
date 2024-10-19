@@ -8,7 +8,7 @@ dashedName: assigning-the-value-of-one-variable-to-another
 
 # --description--
 
-After a value is assigned to a variable using the <dfn>assignment</dfn> operator, you can assign the value of that variable to another variable using the <dfn>assignment</dfn> operator.
+Después de asignar un valor a una variable usando el operador de <dfn>asignación</dfn>, puedes asignar el valor de esa variable a otra variable usando el mismo operador de <dfn>asignación</dfn>.
 
 ```js
 var myVar;

@@ -10,7 +10,7 @@ bilibiliIds:
 dashedName: networking-using-urllib-in-python
 ---
 
-# --preguntas--
+# --questions--
 
 ## --text--
 

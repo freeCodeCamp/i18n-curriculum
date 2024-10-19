@@ -9,7 +9,7 @@ dashedName: create-a-more-complex-shape-using-css-and-html
 
 # --description--
 
-One of the most popular shapes in the world is the heart shape, and in this challenge you'll create one using pure CSS. But first, you need to understand the `::before` and `::after` pseudo-elements. `::before` creates a pseudo-element that is the first child of the selected element; `::after` creates a pseudo-element that is the last child of the selected element. In the following example, a `::before` pseudo-element is used to add a rectangle to an element with the class `heart`:
+Una de las formas más populares en el mundo es la forma del corazón, y en este desafío crearás una usando CSS puro. Pero primero, debes comprender los pseudo-elements `::before` y `::after`. `::before` crea un pseudo-elemento que es el primer hijo del elemento seleccionado; `::after` crea un pseudo-elemento que es el último hijo del elemento seleccionado. En el siguiente ejemplo, se utiliza un pseudo-elemento `::before` para agregar un rectángulo a un elemento con la clase `heart`:
 
 ```css
 .heart::before {

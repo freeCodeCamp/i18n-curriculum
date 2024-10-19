@@ -12,7 +12,7 @@ Diese Aufgabe wird teilweise auf der Microsoft Learn Plattform erledigt. Folge d
 1. Gehe auf <a href="https://learn.microsoft.com/training/modules/challenge-project-develop-branching-looping-structures-c-sharp/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/challenge-project-develop-branching-looping-structures-c-sharp/</a> und erledige alle Aufgaben für das Modul "Challenge Project - Develop Branching and Looping Structures in C#". Dies ist **erforderlich**, um die Trophäe "Add Logic to C# Console Applications" auf Microsoft Learn zu erwerben und sich für die Zertifizierungsprüfung zu qualifizieren.
 1. Wenn du damit fertig bist, komme zurück und beantworte die folgende Frage richtig.
 
-# --Auftrag--
+# --assignment--
 
 Schließe das <a href="https://learn.microsoft.com/training/modules/challenge-project-develop-branching-looping-structures-c-sharp/" target="_blank" rel="noreferrer">Zweig- und Schleifstrukturen in C#</a> Challenge-Projekt unter Microsoft Learn ab. Beantworte dann die Frage unten.
 

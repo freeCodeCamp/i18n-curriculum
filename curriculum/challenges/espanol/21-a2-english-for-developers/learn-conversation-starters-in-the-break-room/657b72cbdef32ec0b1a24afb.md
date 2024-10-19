@@ -11,7 +11,7 @@ dashedName: task-29
 
 Cuando oigas hablar de diferentes tipos de guitarras, podrían surgir dos tipos comunes: `electric` y `acoustic`. Las `Electric guitars` normalmente necesitan algo llamado un amplificador para que sea lo suficientemente fuerte para oír, mientras que las `acoustic guitars` se pueden escuchar sin ningún equipo adicional.
 
-# --preguntas----preguntas--
+# --questions--
 
 ## --text--
 

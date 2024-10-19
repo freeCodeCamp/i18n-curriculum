@@ -8,7 +8,7 @@ dashedName: explore-differences-between-the-var-and-let-keywords
 
 # --description--
 
-One of the biggest problems with declaring variables with the `var` keyword is that you can easily overwrite variable declarations:
+Uno de los mayores problemas con la declaración de variables utilizando la palabra clave `var` es que tú puedes fácilmente sobrescribir declaraciones de variables:
 
 ```js
 var camper = "James";

@@ -30,7 +30,7 @@ const someFunc = function(done) {
 
 Crea un esquema de persona llamado `personSchema` con la siguiente forma:
 
-* A required `name` field of type `String`
+* Un campo `name` obligatorio de tipo `String`
 * Un campo `age` de tipo `Number`
 * Un campo `favoriteFoods` de tipo `[String]`
 

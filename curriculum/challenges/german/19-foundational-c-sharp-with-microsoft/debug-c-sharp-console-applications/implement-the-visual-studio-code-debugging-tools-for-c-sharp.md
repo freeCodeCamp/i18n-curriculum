@@ -12,7 +12,7 @@ Diese Aufgabe wird teilweise auf der Microsoft Learn Plattform erledigt. Folge d
 1. Gehe auf <a href="https://learn.microsoft.com/training/modules/implement-visual-studio-code-debugging-tools/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/implement-visual-studio-code-debugging-tools/</a> und löse alle Aufgaben für das Modul "Implementierung der Visual Studio Code Debugging Tools für C#". Dies ist **erforderlich**, um die "Debuggen von C#-Konsolen-Anwendungen"-Trophäe auf Microsoft Learn zu erwerben und sich für die Zertifizierungsprüfung zu qualifizieren.
 1. Wenn du damit fertig bist, komme zurück und beantworte die folgende Frage richtig.
 
-# --Auftrag--
+# --assignment--
 
 Schließe das Modul <a href="https://learn.microsoft.com/training/modules/implement-visual-studio-code-debugging-tools/" target="_blank" rel="noreferrer">Implementierung der Visual Studio Code Debugging Tools für C#</a> auf Microsoft Learn ab. Beantworte dann die Frage unten.
 

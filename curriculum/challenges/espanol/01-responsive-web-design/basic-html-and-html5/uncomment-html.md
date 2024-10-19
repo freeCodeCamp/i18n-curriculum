@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedf08802
-title: Uncomment HTML
+title: Descomenta código HTML
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVMPUv/cBmG9T7'
 forumTopicId: 18329
@@ -9,37 +9,37 @@ dashedName: uncomment-html
 
 # --description--
 
-Commenting is a way that you can leave comments for other developers within your code without affecting the resulting output that is displayed to the end user.
+Comentar es una forma en la que puedes dejar comentarios dentro de tu código para otros desarrolladores, sin que eso afecte el resultado que se muestra al usuario final.
 
-Commenting is also a convenient way to make code inactive without having to delete it entirely.
+Comentar es también una forma conveniente de desactivar código sin tener que borrarlo por completo.
 
-Comments in HTML start with `<!--` and end with a `-->`
+Los comentarios en HTML comienzan con `<!--` y terminan con `-->`
 
 # --instructions--
 
-Uncomment your `h1`, `h2` and `p` elements.
+Descomenta tus elementos `h1`, `h2` y `p`.
 
 # --hints--
 
-Your `h1` element should be visible on the page by uncommenting it.
+Tu elemento `h1` debe ser visible en la página al descomentarlo.
 
 ```js
 assert($('h1').length > 0);
 ```
 
-Your `h2` element should be visible on the page by uncommenting it.
+Tu elemento `h2` debe ser visible en la página al descomentarlo.
 
 ```js
 assert($('h2').length > 0);
 ```
 
-Your `p` element should be visible on the page by uncommenting it.
+Tu elemento `p` debe ser visible en la página al descomentarlo.
 
 ```js
 assert($('p').length > 0);
 ```
 
-No trailing comment tags should be visible on the page (i.e. `-->`).
+Ninguna etiqueta de cierre de comentario debe ser visible en la página (por ejemplo, `-->`).
 
 ```js
 assert(!$('*:contains("-->")')[1]);

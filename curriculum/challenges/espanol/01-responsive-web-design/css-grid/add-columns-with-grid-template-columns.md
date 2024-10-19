@@ -9,7 +9,7 @@ dashedName: add-columns-with-grid-template-columns
 
 # --description--
 
-Simply creating a grid element doesn't get you very far. You need to define the structure of the grid as well. To add some columns to the grid, use the `grid-template-columns` property on a grid container as demonstrated below:
+Crea un simple elemento cuadrícula (grid) no te llevará muy lejos. Necesitas también definir su estructura. Para agregar columnas a la cuadrícula, usa la propiedad `grid-template-columns` en el contenedor de la cuadrícula como se demuestra a continuación:
 
 ```css
 .container {

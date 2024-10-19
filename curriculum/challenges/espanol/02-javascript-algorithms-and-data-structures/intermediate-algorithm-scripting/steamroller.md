@@ -8,7 +8,7 @@ dashedName: steamroller
 
 # --description--
 
-Flatten a nested array. You must account for varying levels of nesting.
+Aplana un arreglo anidado. Debes tener en cuenta los diferentes niveles de anidación.
 
 # --hints--
 

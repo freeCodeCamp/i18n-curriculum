@@ -9,7 +9,7 @@ dashedName: iterate-with-javascript-while-loops
 
 # --description--
 
-You can run the same code multiple times by using a loop.
+Puedes ejecutar el mismo código múltiples veces usando un bucle.
 
 El primer tipo de bucle que aprenderemos se llama bucle `while` porque ejecuta una condición específica mientras esta sea verdadera, y se detiene una vez que esa condición ya no sea verdadera.
 

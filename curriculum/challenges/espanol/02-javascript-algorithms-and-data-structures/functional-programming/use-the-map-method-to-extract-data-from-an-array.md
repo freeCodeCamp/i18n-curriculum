@@ -8,7 +8,7 @@ dashedName: use-the-map-method-to-extract-data-from-an-array
 
 # --description--
 
-So far we have learned to use pure functions to avoid side effects in a program. Also, we have seen the value in having a function only depend on its input arguments.
+Hasta ahora hemos aprendido a utilizar funciones puras para evitar efectos secundarios en un programa. Además, hemos aprendido el valor de tener una función que solo depende de sus argumentos de entrada.
 
 Este es solo el principio. Como su nombre indica, la programación funcional se centra en una teoría de funciones.
 

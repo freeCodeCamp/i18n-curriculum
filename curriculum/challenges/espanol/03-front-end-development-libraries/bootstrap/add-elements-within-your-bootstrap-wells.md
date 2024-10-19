@@ -8,7 +8,7 @@ dashedName: add-elements-within-your-bootstrap-wells
 
 # --description--
 
-Now we're several `div` elements deep on each column of our row. This is as deep as we'll need to go. Now we can add our `button` elements.
+Ahora estamos a varios elementos `div` de profundidad en cada columna de nuestra fila. Esto es lo más profundo que necesitaremos ir. Ahora podemos agregar nuestros elementos `button`.
 
 Anida tres elementos `button` dentro de cada uno de tus elementos `div` usando la clase llamada `well`.
 

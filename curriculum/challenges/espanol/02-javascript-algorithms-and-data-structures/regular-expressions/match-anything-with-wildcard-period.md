@@ -8,7 +8,7 @@ dashedName: match-anything-with-wildcard-period
 
 # --description--
 
-Sometimes you won't (or don't need to) know the exact characters in your patterns. Thinking of all words that match, say, a misspelling would take a long time. Luckily, you can save time using the wildcard character: `.`
+A veces no conoces (o no necesitas conocer) los caracteres exactos en tus patrones. Pensar en todas las palabras que coincidan, digamos, con una ortografía errónea llevaría mucho tiempo. Afortunadamente, puedes ahorrar tiempo utilizando el carácter de comodín: `.`
 
 El carácter de comodín `.` coincidirá con cualquier carácter único. El comodín también es llamado `dot` y `period`. Puedes utilizar el carácter de comodín como cualquier otro carácter en la expresión regular. Por ejemplo, si quieres hacer coincidir `hug`, `huh`, `hut`, y `hum`, puedes usar la la expresión regular `/hu./` para que coincida con las cuatro palabras.
 

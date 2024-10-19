@@ -20,7 +20,7 @@ dashedName: the-box-model-lesson-g
 
 <img src="https://cdn.freecodecamp.org/curriculum/odin-project/the-box-model/the-box-model.png" alt="Візуальне представлення блокової моделі CSS з текстом, оточеним рожевим відступом (padding), фіолетовим кордоном (border) та полем (margin), позначеним стрілками, що пояснює відстань між текстом, краєм блоку та краєм вікна." />
 
-# --Завдання--
+# --assignment--
 
 Додайте кордон до кожного елемента на сторінці та подивіться, як розміщені блоки.
 

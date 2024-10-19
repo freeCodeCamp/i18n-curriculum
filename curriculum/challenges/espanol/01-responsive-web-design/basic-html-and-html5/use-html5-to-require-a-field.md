@@ -9,7 +9,7 @@ dashedName: use-html5-to-require-a-field
 
 # --description--
 
-You can require specific form fields so that your user will not be able to submit your form until he or she has filled them out.
+Puedes requerir campos específicos de un formulario para que tu usuario no pueda enviarlo hasta que no los haya rellenado.
 
 Por ejemplo, si deseas hacer obligatorio un campo de entrada de texto, puedes agregar el atributo `required` dentro de tu elemento `input`, de esta forma: `<input type="text" required>`
 

@@ -12,7 +12,7 @@ Diese Aufgabe wird teilweise auf der Microsoft Learn Plattform erledigt. Folge d
 1. Gehe auf <a href="https://learn.microsoft.com/training/modules/guided-project-debug-handle-exceptions-c-sharp-console-application/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/guided-project-debug-handle-exceptions-c-sharp-console-application/</a> und löse alle Aufgaben für das Modul "Geführtes Projekt - Debuggen und Behandeln von Ausnahmen in einer C#-Konsolen-Anwendung mit Visual Studio-Code". Dies ist **erforderlich**, um die "Debuggen von C#-Konsolen-Anwendungen"-Trophäe auf Microsoft Learn zu erwerben und sich für die Zertifizierungsprüfung zu qualifizieren.
 1. Wenn du damit fertig bist, komme zurück und beantworte die folgende Frage richtig.
 
-# --Auftrag--
+# --assignment--
 
 Schließe das geführte Projekt <a href="https://learn.microsoft.com/training/modules/guided-project-debug-handle-exceptions-c-sharp-console-application/" target="_blank" rel="noreferrer">Debuggen und Behandeln von Ausnahmen in einer C#-Konsolen-Anwendung mit Visual Studio Code</a> auf Microsoft Learn ab. Beantworte dann die Frage unten.
 

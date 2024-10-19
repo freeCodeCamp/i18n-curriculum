@@ -41,11 +41,11 @@ Por defecto, cualquier texto envuelto con una etiqueta de ancla sin un atributo 
 
 Es importante observar que puedes utilizar etiquetas de ancla para enlazar a cualquier tipo de recurso en internet, no solo otros documentos HTML. Puedes enlazar a videos, archivos pdf, imágenes, etc., pero en su mayoría estarás enlazando a otros documentos HTML.
 
-# --tarea--
+# --assignment--
 
 Watch Kevin Powell’s HTML Links video above.
 
-# --preguntas--
+# --questions--
 
 ## --text--
 

@@ -12,11 +12,11 @@ Este desafío se completará parcialmente en la plataforma de aprendizaje de Mic
 1. Go to <a href="https://learn.microsoft.com/training/modules/create-c-sharp-methods-parameters/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/create-c-sharp-methods-parameters/</a> and complete all the tasks for the "Create C# Methods with Parameters" module. This is **required** to earn the "Create Methods in C# Console Applications" trophy on Microsoft Learn, and qualify for the certification exam.
 1. Cuando haya terminado, vuelva y responda correctamente a la siguiente pregunta.
 
-# --tarea--
+# --assignment--
 
 Complete the <a href="https://learn.microsoft.com/training/modules/create-c-sharp-methods-parameters/" target="_blank" rel="noreferrer">Create C# Methods with Parameters</a> module on Microsoft Learn. Luego, responda a la siguiente pregunta.
 
-# --preguntas--
+# --questions--
 
 ## --text--
 

@@ -8,7 +8,7 @@ dashedName: understand-functional-programming-terminology
 
 # --description--
 
-The FCC Team had a mood swing and now wants two types of tea: green tea and black tea. General Fact: Client mood swings are pretty common.
+El equipo de FCC tuvo un cambio de humor y ahora quiere dos tipos de té: té verde y té negro. Hecho general: Los cambios del estado de ánimo de los clientes son bastante concurrentes.
 
 Con esa información, tendremos que volver a visitar la función `getTea` del último desafío para manejar varias solicitudes de té. Podemos modificar `getTea` para aceptar una función como parámetro y así poder cambiar el tipo de té que prepara. Esto hace que `getTea` sea más flexible y le da al programador más control cuando las solicitudes del cliente cambian.
 

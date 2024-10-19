@@ -8,23 +8,23 @@ dashedName: anonymous-message-board
 
 # --description--
 
-Build a full stack JavaScript app that is functionally similar to this: <a href="https://anonymous-message-board.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://anonymous-message-board.freecodecamp.rocks/</a>.
+Construye una aplicación full stack de JavaScript que sea funcionalmente similar a esta: <a href="https://anonymous-message-board.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://anonymous-message-board.freecodecamp.rocks/</a>.
 
 Trabajar en este proyecto implicará escribir tu código utilizando uno de los siguientes métodos:
 
 -   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-messageboard/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
--   Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-messageboard/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete your project.
--   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
+-   Utiliza <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-messageboard/" target="_blank" rel="noopener noreferrer nofollow">nuestro proyecto inicial de Gitpod</a> para completar tu proyecto.
+-   Usa un constructor de sitios de tu elección para completar el proyecto. Asegúrate de incorporar todos los archivos de nuestro repositorio de GitHub.
 
 # --instructions--
 
-1.  Set `NODE_ENV` to test without quotes when ready to write tests and DB to your databases connection string (in `.env`)
+1.  Define `NODE_ENV` para probar sin comillas cuando esté listo para escribir pruebas y BD en la cadena de conexión de tus bases de datos (en `.env`)
 2.  Se recomienda crear controladores/manejadores y manejar el enrutamiento en `routes/api.js`
 3.  Añadirás cualquier característica de seguridad a `server.js`
 
 Escribe las siguientes pruebas en `tests/2_functional-tests.js`:
 
--   Creating a new thread: POST request to `/api/threads/{board}`
+-   Creando un nuevo hilo: POST petición a `/api/threads/{board}`
 -   Viendo los 10 hilos más recientes con 3 respuestas cada una: Solicitud GET a `/api/threads/{board}`
 -   Eliminando un hilo con la contraseña incorrecta: solicitud de DELETE a `/api/threads/{board}` con una `delete_password` inválida
 -   Eliminando un hilo con la contraseña incorrecta: solicitud de DELETE a `/api/threads/{board}` con una `delete_password` inválida
@@ -49,7 +49,7 @@ Puedes proveer tu propio proyecto, no la URL de ejemplo.
 };
 ```
 
-Only allow your site to be loaded in an iFrame on your own pages.
+Solo permitele a tu sitio ser cargado dentro de un iFrame sobre tus propias páginas.
 
 ```js
 async (getUserInput) => {
@@ -59,7 +59,7 @@ async (getUserInput) => {
 };
 ```
 
-Do not allow DNS prefetching.
+No se permite DNS prefetching.
 
 ```js
 async (getUserInput) => {
@@ -69,7 +69,7 @@ async (getUserInput) => {
 };
 ```
 
-Only allow your site to send the referrer for your own pages.
+Solo permite a tu sitio enviar a lo concerniente para tus propias páginas.
 
 ```js
 async (getUserInput) => {
@@ -79,7 +79,7 @@ async (getUserInput) => {
 };
 ```
 
-You can send a POST request to `/api/threads/{board}` with form data including `text` and `delete_password`. The saved database record will have at least the fields `_id`, `text`, `created_on`(date & time), `bumped_on`(date & time, starts same as `created_on`), `reported` (boolean), `delete_password`, & `replies` (array).
+Puedes enviar una petición POST a `/api/threads/{board}` con el formulario de datos incluyendo `text` and `delete_password`. The saved database record will have at least the fields `_id`, `text`, `created_on`(date & time), `bumped_on`(date & time, starts same as `created_on`), `reported` (boolean), `delete_password`, & `replies` (array).
 
 ```js
 async (getUserInput) => {
@@ -111,7 +111,7 @@ async (getUserInput) => {
 };
 ```
 
-You can send a POST request to `/api/replies/{board}` with form data including `text`, `delete_password`, & `thread_id`. This will update the `bumped_on` date to the comment's date. In the thread's `replies` array, an object will be saved with at least the properties `_id`, `text`, `created_on`, `delete_password`, & `reported`.
+Puedes enviar una petición POST a `/api/replies/{board}` con el fomulario de datos incluyendo:`text`, `delete_password`, & `thread_id`. Esto actualizará la fecha `bumped_on` en la fecha de comentarios. In the thread's `replies` array, an object will be saved with at least the properties `_id`, `text`, `created_on`, `delete_password`, & `reported`.
 
 ```js
 async (getUserInput) => {
@@ -148,7 +148,7 @@ async (getUserInput) => {
 };
 ```
 
-You can send a GET request to `/api/threads/{board}`. Returned will be an array of the most recent 10 bumped threads on the board with only the most recent 3 replies for each. The `reported` and `delete_password` fields will not be sent to the client.
+Puedes enviar una solicitud GET a `/api/threads/{board}`. Se devolverá un arreglo de los 10 hilos más recientes en el tablero con solo las 3 respuestas más recientes para cada uno. Los campos `reported` y `delete_password` no serán enviados al cliente.
 
 ```js
 async (getUserInput) => {
@@ -179,7 +179,7 @@ async (getUserInput) => {
 };
 ```
 
-You can send a GET request to `/api/replies/{board}?thread_id={thread_id}`. Returned will be the entire thread with all its replies, also excluding the same fields from the client as the previous test.
+Puedes enviar una solicitud GET a `/api/replies/{board}?thread_id={thread_id}`. Se devolverá el hilo completo con todas sus respuestas, también excluyendo los mismos campos del cliente que la prueba anterior.
 
 ```js
 async (getUserInput) => {
@@ -211,7 +211,7 @@ async (getUserInput) => {
 };
 ```
 
-You can send a DELETE request to `/api/threads/{board}` and pass along the `thread_id` & `delete_password` to delete the thread. Returned will be the string `incorrect password` or `success`.
+Puedes enviar una solicitud DELETE a `/api/threads/{board}` y pasar a lo largo del `thread_id` & `delete_password` para eliminar el hilo. Devuelta será la cadena `incorrect password` o `success`.
 
 ```js
 async (getUserInput) => {
@@ -248,7 +248,7 @@ async (getUserInput) => {
 };
 ```
 
-You can send a DELETE request to `/api/replies/{board}` and pass along the `thread_id`, `reply_id`, & `delete_password`. Devuelto será la cadena `incorrect password` o `success`. On success, the text of the `reply_id` will be changed to `[deleted]`.
+Puedes enviar una solicitud DELETE a `/api/replies/{board}` y pasar a lo largo del `thread_id`, `reply_id`, & `delete_password`. Devuelto será la cadena `incorrect password` o `success`. En caso de éxito, el texto del `reply_id` se cambiará a `[deleted]`.
 
 ```js
 async (getUserInput) => {
@@ -303,7 +303,7 @@ async (getUserInput) => {
 };
 ```
 
-You can send a PUT request to `/api/threads/{board}` and pass along the `thread_id`. Returned will be the string `reported`. The `reported` value of the `thread_id` will be changed to `true`.
+Puedes enviar una solicitud PUT a `/api/threads/{board}` y pasar a lo largo del `thread_id`. Devuelta será la cadena `reported`. The `reported` value of the `thread_id` will be changed to `true`.
 
 ```js
 async (getUserInput) => {
@@ -334,7 +334,7 @@ async (getUserInput) => {
 };
 ```
 
-You can send a PUT request to `/api/replies/{board}` and pass along the `thread_id` & `reply_id`. Devuelta será la cadena `reported`. The `reported` value of the `reply_id` will be changed to `true`.
+Puedes enviar una solicitud PUT a`/api/replies/{board}` y pasar a lo largo de `thread_id` & `reply_id`. Devuelta será la cadena `reported`. El valor `reported` del `reply_id` será cambiado a `true`.
 
 ```js
 async (getUserInput) => {
@@ -366,7 +366,7 @@ async (getUserInput) => {
 };
 ```
 
-All 10 functional tests are complete and passing.
+Las 10 pruebas funcionales están completas y pasan.
 
 ```js
 async (getUserInput) => {

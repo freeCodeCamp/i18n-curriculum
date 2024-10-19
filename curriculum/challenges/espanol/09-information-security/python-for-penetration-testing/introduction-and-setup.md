@@ -10,11 +10,11 @@ bilibiliIds:
 dashedName: introduction-and-setup
 ---
 
-# --preguntas--
+# --questions--
 
 ## --text--
 
-What code editor and extension does the instructor recommend for developing penetration testing tools in Python?
+¿Qué editor de código y extensión recomienda el instructor para desarrollar herramientas de prueba de penetración en Python?
 
 ## --answers--
 

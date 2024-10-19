@@ -30,7 +30,7 @@ console.log(newCharacters); // Output: ['Ron']
 
 El código anterior crea un nuevo arreglo `newCharacters` con el segundo elemento del arreglo `characters`. El método `slice()` toma dos argumentos: el índice del elemento para comenzar el corte y el índice del elemento para terminar el corte (no incluido).
 
-# --preguntas----preguntas--
+# --questions--
 
 ## --text--
 
