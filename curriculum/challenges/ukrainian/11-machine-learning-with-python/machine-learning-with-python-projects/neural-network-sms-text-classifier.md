@@ -8,7 +8,7 @@ dashedName: neural-network-sms-text-classifier
 
 # --description--
 
-You will be <a href="https://colab.research.google.com/github/freeCodeCamp/boilerplate-neural-network-sms-text-classifier/blob/master/fcc_sms_text_classification.ipynb" target="_blank" rel="noopener noreferrer nofollow">working on this project with Google Colaboratory</a>.
+Ви будете <a href="https://colab.research.google.com/github/freeCodeCamp/boilerplate-neural-network-sms-text-classifier/blob/master/fcc_sms_text_classification.ipynb" target="_blank" rel="noopener noreferrer nofollow">працювати над цим проєктом з Google Colaboratory</a>.
 
 Перейшовши за цим посиланням, створіть копію блокнота у своєму обліковому записі або локально. Як тільки ви завершили проєкт та пройшли тест (доданий до посилання), введіть посилання на свій проєкт. Якщо ви надаєте посилання на Google Colaboratory, переконайтеся, що ви увімкнули режим доступу для «усіх, хто має це посилання».
 

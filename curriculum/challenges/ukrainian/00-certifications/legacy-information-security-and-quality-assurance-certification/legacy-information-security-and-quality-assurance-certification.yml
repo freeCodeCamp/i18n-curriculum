@@ -1,21 +1,21 @@
 id: 561add10cb82ac38a17213bc
-title: Legacy Information Security and Quality Assurance Certification
+title: Застаріла сертифікація «Інформаційна безпека та забезпечення якості»
 certification: legacy-information-security-and-quality-assurance
 challengeType: 7
 isPrivate: true
 tests:
   - 
     id: 587d8249367417b2b2512c41
-    title: Metric-Imperial Converter
+    title: Метрико-імперський конвертер
   - 
     id: 587d8249367417b2b2512c42
-    title: Issue Tracker
+    title: Система відстеження помилок
   - 
     id: 587d824a367417b2b2512c43
-    title: Personal Library
+    title: Особиста бібліотека
   - 
     id: 587d824a367417b2b2512c44
-    title: Stock Price Checker
+    title: Перевірка ціни на ринку акцій
   - 
     id: 587d824a367417b2b2512c45
-    title: Anonymous Message Board
+    title: Дошка анонімних повідомлень

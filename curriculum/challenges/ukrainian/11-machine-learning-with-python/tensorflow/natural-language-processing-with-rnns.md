@@ -12,25 +12,25 @@ dashedName: natural-language-processing-with-rnns
 
 # --description--
 
-The next few video lessons will reference [this Colab notebook](https://colab.research.google.com/drive/1ysEKrw_LE2jMndo1snrZUh5w87LQsCxk#forceEdit=true&sandboxMode=true).
+Декілька наступних відеоуроків посилатимуться на [цей блокнот Colab](https://colab.research.google.com/drive/1ysEKrw_LE2jMndo1snrZUh5w87LQsCxk#forceEdit=true&sandboxMode=true).
 
 # --questions--
 
 ## --text--
 
-Natural Language Processing is a branch of artificial intelligence that...:
+Обробка природної мови — це галузь штучного інтелекту, яка...:
 
 ## --answers--
 
-deals with how computers understand and process natural/human languages.
+стосується того, як комп’ютери розуміють та обробляють природні/людські мови.
 
 ---
 
-translates image data into natural/human languages.
+переводить зображення в природні/людські мови.
 
 ---
 
-is focused on translating computer languages into natural/human languages.
+спеціалізується на перекладі комп’ютерних мов на природні/людські мови.
 
 ## --video-solution--
 

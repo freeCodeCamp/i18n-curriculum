@@ -14,7 +14,7 @@ dashedName: natural-language-processing-with-rnns-create-a-play-generator
 
 ## --text--
 
-Fill in the blanks below to create the training examples for the RNN:
+Заповніть пробіли, щоб створити навчальні приклади рекурентних нейронних мереж:
 
 ```py
 char_dataset = tf.data.__A__.__B__(text_as_int)

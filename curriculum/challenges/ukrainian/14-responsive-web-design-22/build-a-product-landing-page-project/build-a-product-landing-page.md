@@ -12,7 +12,7 @@ dashedName: build-a-product-landing-page
 
 **Історія користувача:**
 
-1. Your product landing page should have a `header` element with a corresponding `id="header"`
+1. Посадкова сторінка продукту повинна містити елемент `header` з відповідним `id="header"`
 1. Можна побачити зображення в межах елемента `header` з відповідним `id="header-img"` (на місце зображення чудово підійде логотип)
 1. В межах елемента `#header` видно елемент `nav` з відповідним `id="nav-bar"`
 1. Можна побачити принаймні три активні елементи всередині елемента `nav`, кожен з класом `nav-link`

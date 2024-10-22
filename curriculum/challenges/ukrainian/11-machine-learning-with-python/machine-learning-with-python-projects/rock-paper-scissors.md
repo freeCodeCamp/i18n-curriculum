@@ -8,7 +8,7 @@ dashedName: rock-paper-scissors
 
 # --description--
 
-For this challenge, you will create a program to play Rock, Paper, Scissors. A program that picks at random will usually win 50% of the time. To pass this challenge your program must play matches against four different bots, winning at least 60% of the games in each match.
+В цьому завданні ви створите програму, щоб грати в камінь-ножиці-папір. Програма, яка обиратиме випадково, зазвичай виграватиме у 50%. Щоб виконати це завдання, ваша програма повинна зіграти матчі проти чотирьох різних ботів, вигравши принаймні 60% ігор у кожному матчі.
 
 Ви будете <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-rock-paper-scissors/" target="_blank" rel="noopener noreferrer nofollow">працювати над цим проєктом з нашим стартовим кодом Gitpod</a>.
 
@@ -24,7 +24,7 @@ For this challenge, you will create a program to play Rock, Paper, Scissors. A p
 
 *Підказка: щоб перемогти всіх чотирьох супротивників, ваша програма повинна мати багато стратегій, які змінюються залежно від гри супротивника.*
 
-## Development
+## Розробка
 
 Не змінюйте `RPS_game.py`. Запишіть весь свій код у `RPS.py`. Для розробки ви можете використати `main.py`, щоб протестувати свій код.
 
@@ -32,7 +32,7 @@ For this challenge, you will create a program to play Rock, Paper, Scissors. A p
 
 Щоб перевірити свій код, пограйте в гру за допомогою функції `play`. Функція `play` приймає чотири аргументи:
 
-- two players to play against each other (the players are actually functions)
+- два гравці грають один проти одного (насправді гравцями є функції)
 - кількість ігор, які потрібно зіграти в матчі
 - необов'язковий аргумент для перегляду журналу кожної гри. Встановіть його на `True`, щоб побачити ці повідомлення.
 

@@ -12,7 +12,7 @@ dashedName: build-a-survey-form
 
 **Історія користувача:**
 
-1. You should have a page title in an `h1` element with an `id` of `title`
+1. Ви повинні мати назву сторінки в елементі `h1` з `id` зі значенням `title`
 1. Ви повинні мати коротке роз'яснення в елементі `p` з `id` зі значенням `description`
 1. Ви повинні мати елемент `form` з `id` зі значенням `survey-form`
 1. В елементі форми вам **потрібно** ввести своє ім'я в полі `input`, яке має `id` зі значенням `name` та `type` зі значенням `text`

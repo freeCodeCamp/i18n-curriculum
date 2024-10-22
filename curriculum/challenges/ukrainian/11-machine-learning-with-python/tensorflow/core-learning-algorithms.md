@@ -12,31 +12,31 @@ dashedName: core-learning-algorithms
 
 # --description--
 
-The next few video lessons will reference [this Colab notebook](https://colab.research.google.com/drive/15Cyy2H7nT40sGR7TBN5wBvgTd57mVKay#forceEdit=true&sandboxMode=true).
+Декілька наступних відеоуроків посилатимуться на [цей блокнот Colab](https://colab.research.google.com/drive/15Cyy2H7nT40sGR7TBN5wBvgTd57mVKay#forceEdit=true&sandboxMode=true).
 
 # --questions--
 
 ## --text--
 
-Which type of analysis would be best suited for the following problem?:
+Який тип аналізу найкраще підходить для розв’язання наданої задачі?
 
-You have the average temperature in the month of March for the last 100 years. Using this data, you want to predict the average temperature in the month of March 5 years from now.
+У вас є дані про середню температуру у березні за останні 100 років. Використовуючи цю інформацію, потрібно передбачити середню температуру у березні через 5 років.
 
 ## --answers--
 
-Multiple regression
+Множинна регресія
 
 ---
 
-Correlation
+Кореляція
 
 ---
 
-Decision tree
+Дерево рішень
 
 ---
 
-Linear regression
+Лінійна регресія
 
 ## --video-solution--
 
