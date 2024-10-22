@@ -1,36 +1,36 @@
 id: 561add10cb82ac39a17513bc
-title: Legacy Data Visualization Certification
+title: Застаріла сертифікація «Візуалізація даних»
 certification: legacy-data-visualization
 challengeType: 7
 isPrivate: true
 tests:
   - 
     id: bd7157d8c242eddfaeb5bd13
-    title: Build a Markdown Previewer
+    title: Створіть попередній перегляд Markdown
   - 
     id: bd7156d8c242eddfaeb5bd13
-    title: Build a Camper Leaderboard
+    title: Створіть таблицю лідерів серед кемперів
   - 
     id: bd7155d8c242eddfaeb5bd13
-    title: Build a Recipe Box
+    title: Створіть збірник рецептів
   - 
     id: bd7154d8c242eddfaeb5bd13
-    title: Build the Game of Life
+    title: Створіть гру «Життя»
   - 
     id: bd7153d8c242eddfaeb5bd13
-    title: Build a Roguelike Dungeon Crawler Game
+    title: Створіть мандрівну гру «Dungeon Crawler»
   - 
     id: bd7168d8c242eddfaeb5bd13
-    title: Visualize Data with a Bar Chart
+    title: Візуалізуйте дані за допомогою стовпчикової діаграми
   - 
     id: bd7178d8c242eddfaeb5bd13
-    title: Visualize Data with a Scatterplot Graph
+    title: Візуалізація даних за допомогою точкової діаграми
   - 
     id: bd7188d8c242eddfaeb5bd13
-    title: Visualize Data with a Heat Map
+    title: Візуалізуйте дані за допомогою теплокарти
   - 
     id: bd7198d8c242eddfaeb5bd13
-    title: Show National Contiguity with a Force Directed Graph
+    title: Зобразіть сусідні країни за допомогою силового алгоритму візуалізації графа
   - 
     id: bd7108d8c242eddfaeb5bd13
-    title: Map Data Across the Globe
+    title: Картографічні дані по всьому світу

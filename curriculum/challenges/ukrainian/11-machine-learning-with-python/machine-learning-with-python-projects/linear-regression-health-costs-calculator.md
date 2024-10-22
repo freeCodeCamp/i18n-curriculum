@@ -8,7 +8,7 @@ dashedName: linear-regression-health-costs-calculator
 
 # --description--
 
-You will be <a href="https://colab.research.google.com/github/freeCodeCamp/boilerplate-linear-regression-health-costs-calculator/blob/master/fcc_predict_health_costs_with_regression.ipynb" target="_blank" rel="noopener noreferrer nofollow">working on this project with Google Colaboratory</a>.
+Ви будете <a href="https://colab.research.google.com/github/freeCodeCamp/boilerplate-linear-regression-health-costs-calculator/blob/master/fcc_predict_health_costs_with_regression.ipynb" target="_blank" rel="noopener noreferrer nofollow">працювати над цим проєктом з Google Colaboratory</a>.
 
 Перейшовши за цим посиланням, створіть копію блокнота у своєму обліковому записі або локально. Як тільки ви завершили проєкт та пройшли тест (доданий до посилання), введіть посилання на свій проєкт. Якщо ви надаєте посилання на Google Colaboratory, переконайтеся, що ви увімкнули режим доступу для «усіх, хто має це посилання».
 

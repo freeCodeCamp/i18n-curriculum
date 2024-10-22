@@ -14,7 +14,7 @@ dashedName: natural-language-processing-with-rnns-part-2
 
 ## --text--
 
-Word embeddings are...:
+Вкладання слів — це...:
 
 ## --answers--
 

@@ -12,25 +12,25 @@ dashedName: neural-networks-with-tensorflow
 
 # --description--
 
-The next few video lessons will reference [this Colab notebook](https://colab.research.google.com/drive/1m2cg3D1x3j5vrFc-Cu0gMvc48gWyCOuG#forceEdit=true&sandboxMode=true).
+Декілька наступних відеоуроків посилатимуться на [цей блокнот Colab](https://colab.research.google.com/drive/1m2cg3D1x3j5vrFc-Cu0gMvc48gWyCOuG#forceEdit=true&sandboxMode=true).
 
 # --questions--
 
 ## --text--
 
-A densely connected neural network is one in which...:
+Щільно зв’язана нейронна мережа — це та, в якій...:
 
 ## --answers--
 
-all the neurons in the current layer are connected to one neuron in the previous layer.
+всі нейрони поточного шару з’єднані з одним нейроном попереднього шару.
 
 ---
 
-all the neurons in each layer are connected randomly.
+всі нейрони у кожному шарі пов’язані випадковим чином.
 
 ---
 
-all the neurons in the current layer are connected to every neuron in the previous layer.
+всі нейрони поточного шару з’єднані з кожним нейроном попереднього шару.
 
 ## --video-solution--
 

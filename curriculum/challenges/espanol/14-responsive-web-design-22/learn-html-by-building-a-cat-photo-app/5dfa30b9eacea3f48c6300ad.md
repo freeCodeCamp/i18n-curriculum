@@ -1,8 +1,8 @@
 ---
 id: 5dfa30b9eacea3f48c6300ad
-title: Paso 15
+title: Step 17
 challengeType: 0
-dashedName: step-15
+dashedName: step-17
 ---
 
 # --description--
@@ -40,7 +40,7 @@ assert(document.querySelectorAll('a').length >= 2);
 Te falta una etiqueta (`a`) de cierre después de la imagen.
 
 ```js
-assert(document.querySelectorAll('a').length === 2);
+assert.lengthOf(document.querySelectorAll('a'), 3);
 ```
 
 Tu elemento anchor (`a`) debe tener una etiqueta de cierre. Las etiquetas de cierre tiene una `/` después del carácter `<`.
@@ -52,7 +52,7 @@ assert(code.match(/<\/a>/g).length >= 2);
 Solo debes añadir una etiqueta anchor (`a`) de cierre. Elimina cualquier extra.
 
 ```js
-assert(code.match(/<\/a>/g).length === 2);
+assert.lengthOf(code.match(/<\/a>/g), 3);
 ```
 
 Tu elemento anchor (`a`) no tiene atributo `href`. Comprueba que hay un espacio después del nombre de la etiqueta de apertura y/o que hay espacios antes de los nombres de los atributos.
@@ -86,7 +86,7 @@ assert(document.querySelector('img').parentNode.nodeName === 'A');
     <main>
       <h1>CatPhotoApp</h1>
       <h2>Cat Photos</h2>
-      <!-- TODO: Add link to cat photos -->
+      <p>Everyone loves <a href="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg">cute cats</a> online!</p>
       <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
 --fcc-editable-region--
       <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back.">

@@ -1,6 +1,6 @@
 ---
 id: 5e8f2f13c4cdbe86b5c72d97
-title: 'Convolutional Neural Networks: The Convolutional Layer'
+title: 'Згорткові нейронні мережі: згортковий шар'
 challengeType: 11
 videoId: LrdmcQpTyLw
 bilibiliIds:
@@ -14,19 +14,19 @@ dashedName: convolutional-neural-networks-the-convolutional-layer
 
 ## --text--
 
-What are the three main properties of each convolutional layer?
+Які три основні властивості кожного згорткового шару?
 
 ## --answers--
 
-Input size, the number of filters, and the sample size of the filters.
+Вхідний розмір, кількість фільтрів та розмір вибірки фільтрів.
 
 ---
 
-Input size, input dimensions, and the color values of the input.
+Вхідний розмір, вхідні виміри та значення кольору входу.
 
 ---
 
-Input size, input padding, and stride.
+Вхідний розмір, вхідний відступ та крок.
 
 ## --video-solution--
 

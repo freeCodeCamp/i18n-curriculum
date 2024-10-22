@@ -14,7 +14,7 @@ dashedName: natural-language-processing-with-rnns-sentiment-analysis
 
 ## --text--
 
-Fill in the blanks below to create the model for the RNN:
+Заповніть пропуски нижче, щоб створити модель для рекурентної нейронної мережі:
 
 ```py
 model = __A__.keras.Sequential([

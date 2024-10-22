@@ -14,7 +14,7 @@ dashedName: introduction-machine-learning-fundamentals
 
 ## --text--
 
-Which statement below is **false**?
+Яке твердження подане нижче є **хибним**?
 
 ## --answers--
 

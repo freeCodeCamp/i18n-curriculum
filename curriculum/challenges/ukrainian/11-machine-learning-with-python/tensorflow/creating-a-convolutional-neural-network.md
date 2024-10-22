@@ -14,7 +14,7 @@ dashedName: creating-a-convolutional-neural-network
 
 ## --text--
 
-Fill in the blanks below to complete the architecture for a convolutional neural network:
+Заповніть пропуски нижче, щоб завершити архітектуру згорткової нейронної мережі:
 
 ```py
 model = models.__A__()

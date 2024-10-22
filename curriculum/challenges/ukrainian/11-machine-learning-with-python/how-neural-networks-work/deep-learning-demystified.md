@@ -1,6 +1,6 @@
 ---
 id: 5e9a0e9ef99a403d019610cc
-title: Deep Learning Demystified
+title: Пояснення глибинного навчання
 challengeType: 11
 videoId: bejQ-W9BGJg
 dashedName: deep-learning-demystified
@@ -10,23 +10,23 @@ dashedName: deep-learning-demystified
 
 ## --text--
 
-How should you assign weights to input neurons before training your network for the first time?
+Яке значення необхідно задавати ваговим коефіцієнтам вхідних нейронів перед першим тренуванням нейронної мережі?
 
 ## --answers--
 
-From smallest to largest.
+Від найменшого до найбільшого.
 
 ---
 
-Completely randomly.
+Абсолютно випадково.
 
 ---
 
-Alphabetically.
+За алфавітом.
 
 ---
 
-None of the above.
+Жодне із перерахованого вище.
 
 ## --video-solution--
 

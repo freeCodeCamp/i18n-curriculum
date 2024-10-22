@@ -14,7 +14,7 @@ dashedName: core-learning-algorithms-working-with-data
 
 ## --text--
 
-What does the pandas `.head()` function do?
+Що робить функція pandas `.head()`?
 
 ## --answers--
 

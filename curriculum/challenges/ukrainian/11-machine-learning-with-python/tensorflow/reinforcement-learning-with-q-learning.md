@@ -12,25 +12,25 @@ dashedName: reinforcement-learning-with-q-learning
 
 # --description--
 
-The next few video lessons will reference [this Colab notebook](https://colab.research.google.com/drive/1IlrlS3bB8t1Gd5Pogol4MIwUxlAjhWOQ#forceEdit=true&sandboxMode=true).
+Декілька наступних відеоуроків посилатимуться на [цей блокнот Colab](https://colab.research.google.com/drive/1IlrlS3bB8t1Gd5Pogol4MIwUxlAjhWOQ#forceEdit=true&sandboxMode=true).
 
 # --questions--
 
 ## --text--
 
-The key components of reinforcement learning are...
+До ключових компонентів посиленого навчання належать...
 
 ## --answers--
 
-environment, representative, state, reaction, and reward.
+середовище, представництво, стан, реакція та винагорода.
 
 ---
 
-environment, agent, state, action, and reward.
+середовище, агент, стан, дія та винагорода.
 
 ---
 
-habitat, agent, state, action, and punishment.
+середовище, агент, стан, дія та покарання.
 
 ## --video-solution--
 

@@ -10,7 +10,7 @@ dashedName: how-deep-neural-networks-work
 
 ## --text--
 
-Why is it better to calculate the gradient (slope) directly rather than numerically?
+Чому обраховувати кутовий коефіцієнт краще за напрямком, а не чисельно?
 
 ## --answers--
 
