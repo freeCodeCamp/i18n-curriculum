@@ -1,6 +1,6 @@
 ---
 id: 5dfa371beacea3f48c6300af
-title: Step 21
+title: ステップ 21
 challengeType: 0
 dashedName: step-21
 ---
