@@ -1,26 +1,26 @@
 ---
 id: 64aaf2aff7f1fc7a550f40cb
-title: Step 36
+title: 步驟 36
 challengeType: 0
 dashedName: step-36
 ---
 
 # --description--
 
-Now it is time to see your new player drawn on the screen.
+現在是時候在屏幕上看到你的新玩家了。
 
-Start by creating an empty arrow function called `startGame`.
+首先創建一個名爲 `startGame` 的空箭頭函數。
 
 # --hints--
 
 
-`startGame` should be a function
+`startGame` 應該是一個函數。
 
 ```js
 assert.isFunction(startGame);
 ```
 
-`startGame` should be an arrow function
+`startGame` 應該是一個箭頭函數。
 
 
 ```js
@@ -219,8 +219,8 @@ class Player {
       this.position.x = this.width;
     }
 
-    if (this.position.x >= canvas.width - 2 * this.width) {
-      this.position.x = canvas.width - 2 * this.width;
+    if (this.position.x >= canvas.width - this.width * 2) {
+      this.position.x = canvas.width - this.width * 2;
     }
   }
 }

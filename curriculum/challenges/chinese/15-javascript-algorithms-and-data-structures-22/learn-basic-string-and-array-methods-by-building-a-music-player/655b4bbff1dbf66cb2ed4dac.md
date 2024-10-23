@@ -1,23 +1,23 @@
 ---
 id: 655b4bbff1dbf66cb2ed4dac
-title: Step 97
+title: 步骤 97
 challengeType: 0
 dashedName: step-97
 ---
 
 # --description--
 
-Use an `if` statement to check if `nextSongExists` exists, then call the `playNextSong()` function in the `if` block. This will automatically play the next song when the current song ends.
+使用 `if` 语句检查 `nextSongExists` 是否存在，然后调用 `if` 块中的 `playNextSong()` 函数。 当当前歌曲结束时，这将自动播放下一首歌曲。
 
 # --hints--
 
-You should create an `if` statement with the condition `nextSongExists`.
+你应该创建一个带有条件 `nextSongExists` 的 `if` 语句。
 
 ```js
 assert.match(code, /if\s*\(\s*nextSongExists\s*\)\s*\{\s*/)
 ```
 
-You should call the `playNextSong` function inside your `if` statement.
+你应该在 `if` 语句内调用 `playNextSong` 函数。
 
 ```js
 assert.match(code, /if\s*\(\s*nextSongExists\s*\)\s*\{\s*playNextSong\(\s*\)\s*;?\s*\}/)

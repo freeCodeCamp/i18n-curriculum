@@ -1,6 +1,6 @@
 ---
 id: 65afeb7ab6867b43dacbf32b
-title: Step 10
+title: Schritt 10
 challengeType: 0
 dashedName: step-10
 ---
@@ -13,13 +13,13 @@ Start by creating an arrow function called `proportionalSize` that takes in a `s
 
 # --hints--
 
-`proportionalSize` should be a function.
+`proportionalSize` sollte eine Funktion sein.
 
 ```js
 assert.isFunction(proportionalSize);
 ```
 
-Your `proportionalSize` function should use arrow syntax.
+Deine `proportionalSize`-Funktion sollte eine Arrow-Syntax verwenden.
 
 ```js
 assert.match(code, /const\s+proportionalSize\s*=\s*\(?\s*.*\s*\)?\s*=>/);

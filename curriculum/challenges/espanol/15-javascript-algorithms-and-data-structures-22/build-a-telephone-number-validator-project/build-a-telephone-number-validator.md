@@ -8,7 +8,7 @@ dashedName: build-a-telephone-number-validator
 
 # --description--
 
-In the US, phone numbers can be formatted in many ways. Here are some examples of valid formats for US phone numbers:
+En los Estados Unidos, los números de teléfono pueden tener varios formatos. Aquí hay algunos ejemplos de formatos válidos para números de teléfono en Estados Unidos:
 
 <blockquote>
 1 555-555-5555<br>
@@ -20,14 +20,14 @@ In the US, phone numbers can be formatted in many ways. Here are some examples o
 (555)555-5555<br>
 </blockquote>
 
-Note that the area code is required. Also, if the country code is provided, you must confirm that the country code is `1`.
+Ten en cuenta que el código de área es obligatorio. Además, si se proporciona el código de país, debes confirmar que el código de país es `1`.
 
-**Objective:** Build an app that is functionally similar to <a href="https://telephone-number-validator.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://telephone-number-validator.freecodecamp.rocks</a>
+**Objetivo:** Construir una aplicación que sea funcionalmente similar a <a href="https://telephone-number-validator.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://telephone-number-validator.freecodecamp.rocks</a>
 
-**User Stories:**
+**Historias de usuario:**
 
 1. You should have an `input` element with an `id` of `"user-input"`
-1. You should have a `button` element with an `id` of `"check-btn"`
+1. Debes tener un elemento `button` con un `id` de `"check-btn"`
 1. You should have a `button` element with an `id` of `"clear-btn"`
 1. You should have a `div`, `span` or `p` element with an `id` of `"results-div"`
 1. When you click on the `#check-btn` element without entering a value into the `#user-input` element, an alert should appear with the text `"Please provide a phone number"`
@@ -35,7 +35,7 @@ Note that the area code is required. Also, if the country code is provided, you 
 1. When the `#user-input` element contains `1 555-555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: 1 555-555-5555"`
 1. When the `#user-input` element contains `1 (555) 555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: 1 (555) 555-5555"`
 1. When the `#user-input` element contains `5555555555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: 5555555555"`
-1. When the `#user-input` element contains `555-555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: 555-555-5555"
+1. When the `#user-input` element contains `555-555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: 555-555-5555"`
 1. When the `#user-input` element contains `(555)555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: (555)555-5555"`
 1. When the `#user-input` element contains `1(555)555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: 1(555)555-5555"`
 1. When the `#user-input` element contains `555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 555-5555"`
@@ -61,7 +61,7 @@ Note that the area code is required. Also, if the country code is provided, you 
 1. When the `#user-input` element contains `55 55-55-555-5` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 55 55-55-555-5"`
 1. When the `#user-input` element contains `11 555-555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 11 555-555-5555"`
 
-Fulfill the user stories and pass all the tests below to complete this project. Give it your own personal style. Happy Coding!
+Completa las historias de usuario y pasa todas las pruebas a continuación para completar este proyecto. Dale tu propio estilo personal. ¡Feliz día programando!
 
 # --hints--
 
@@ -72,7 +72,7 @@ const el = document.getElementById('user-input');
 assert.strictEqual(el?.nodeName?.toLowerCase(), 'input');
 ```
 
-You should have a `button` element with an `id` of `"check-btn"`.
+Debes tener un elemento `button` con un `id` de `"check-btn"`.
 
 ```js
 const el = document.getElementById('check-btn');

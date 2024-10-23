@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1c9fa
-title: Step 29
+title: 步驟 29
 challengeType: 0
 dashedName: step-29
 ---

@@ -140,7 +140,7 @@ assert(
   lineGraph.append('path')
     .attr('d', instagramLine(data))
 
-    
+
 
 </script>
 ```
@@ -232,8 +232,8 @@ assert(
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
 
-  
+
+
 </script>
 ```

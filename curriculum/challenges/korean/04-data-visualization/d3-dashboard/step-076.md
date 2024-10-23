@@ -141,7 +141,7 @@ assert(
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
@@ -164,7 +164,7 @@ assert(
     .attr('stroke', tumblrColor)
     .style('cursor', 'pointer')
 
-  
+
 
 </script>
 ```
@@ -256,7 +256,7 @@ assert(
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()

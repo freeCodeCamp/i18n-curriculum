@@ -140,7 +140,7 @@ assert(/translate\s*\(\s*100\s*,\s*100\s*\)/g.test(transform));
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
@@ -191,7 +191,7 @@ assert(/translate\s*\(\s*100\s*,\s*100\s*\)/g.test(transform));
 
   const pie = d3.pie()
     .value(d => d.value);
-    
+
   const pieGraphData = pieGraph.selectAll('pieSlices')
     .data(pie(d3.entries(data[8].followers)))
     .enter()

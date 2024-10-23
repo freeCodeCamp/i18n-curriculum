@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1ca40
-title: Step 99
+title: Hatua ya 99
 challengeType: 0
 dashedName: step-99
 ---
@@ -137,7 +137,7 @@ assert($('.dashboard div svg path')[0].getAttribute('d').length === 94);
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
@@ -188,7 +188,7 @@ assert($('.dashboard div svg path')[0].getAttribute('d').length === 94);
 
   const pie = d3.pie()
     .value(d => d.value);
-    
+
   const pieGraphData = pieGraph.selectAll('pieSlices')
     .data(pie(d3.entries(data[8].followers)))
     .enter()
@@ -288,7 +288,7 @@ assert($('.dashboard div svg path')[0].getAttribute('d').length === 94);
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
@@ -339,7 +339,7 @@ assert($('.dashboard div svg path')[0].getAttribute('d').length === 94);
 
   const pie = d3.pie()
     .value(d => d.value);
-    
+
   const pieGraphData = pieGraph.selectAll('pieSlices')
     .data(pie(d3.entries(data[8].followers)))
     .enter()

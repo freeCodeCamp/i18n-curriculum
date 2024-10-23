@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1ca21
-title: Step 68
+title: Passo 68
 challengeType: 0
 dashedName: step-68
 ---
@@ -137,14 +137,14 @@ assert($('svg circle')[0].getAttribute('r') == '6');
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
     .append('circle')
     .attr('cx', d => xScale(d.year))
     .attr('cy', d => yScale(d.followers.twitter))
-    
+
 
 
 </script>
@@ -237,7 +237,7 @@ assert($('svg circle')[0].getAttribute('r') == '6');
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
@@ -245,7 +245,7 @@ assert($('svg circle')[0].getAttribute('r') == '6');
     .attr('cx', d => xScale(d.year))
     .attr('cy', d => yScale(d.followers.twitter))
     .attr('r', 6)
-    
+
 
 
 </script>

@@ -1,15 +1,15 @@
 ---
 id: 62aa264d23cdaa45a20efada
-title: Step 163
+title: 步骤 163
 challengeType: 0
 dashedName: step-163
 ---
 
 # --description--
 
-After your `numbers` array, create a `while` loop that runs as long as `numbers.length` is less than `10`.
+在 `numbers` 数组之后，创建一个 `while` 循环，只要 `numbers.length` 小于 `10`，该循环就会运行。
 
-In the previous project, you learned how to work with `while` loops like this:
+在上一个项目中，你学习了如何使用 `while` 循环，如下所示：
 
 ```js
 while (condition) {

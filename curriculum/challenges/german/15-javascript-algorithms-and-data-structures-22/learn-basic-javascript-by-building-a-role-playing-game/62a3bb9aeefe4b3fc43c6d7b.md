@@ -1,6 +1,6 @@
 ---
 id: 62a3bb9aeefe4b3fc43c6d7b
-title: Step 17
+title: Schritt 17
 challengeType: 0
 dashedName: step-17
 ---

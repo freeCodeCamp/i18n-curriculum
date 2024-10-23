@@ -42,7 +42,7 @@ assert(/padding\s*:\s*100px\s*10px\s*(;|})/g.test(body));
 body {
   background-color: #ccc;
 
-  
+
 }
 
 .dashboard {

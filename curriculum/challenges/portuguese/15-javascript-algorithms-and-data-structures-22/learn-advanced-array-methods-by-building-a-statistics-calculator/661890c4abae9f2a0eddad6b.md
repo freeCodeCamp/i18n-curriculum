@@ -21,7 +21,7 @@ arr.length % 2 === 0;
 arr.length % 2 === 1;
 ```
 
-If the remainder is `0`, the number is even. If the remainder is `1`, the number is odd.
+Se o resto for `0`, o número é par. Se o resto for `1`, o número é ímpar.
 
 Create a variable called `isEven`. Then use the modulus operator to check if the length of the `testArr2` array is even. Assign that expression to the `isEven` variable.
 

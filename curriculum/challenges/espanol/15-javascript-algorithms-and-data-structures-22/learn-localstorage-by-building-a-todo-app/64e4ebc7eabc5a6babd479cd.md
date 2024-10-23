@@ -7,37 +7,37 @@ dashedName: step-9
 
 # --description--
 
-If the user clicks the `Discard` button, you want to close the modal showing the `Cancel` and `Discard` buttons, then hide the form modal.
+Si el usuario hace clic en el botón `Discard`, quieres cerrar la modal mostrando los botones `Cancel` y `Discard`, luego ocultar la modal del formulario.
 
-Add a click event listener to `discardBtn`, then use the `close()` method on the `confirmCloseDialog` variable. Also, use `classList` to toggle the class `hidden` on `taskForm` so the form modal will close too.
+Añade un detector de eventos de clic a `discardBtn`, luego usa el método `close()` en la variable `confirmCloseDialog`. También, usa `classList` para alternar la clase `oculta` en `taskForm` para que la modal del formulario también se cierre.
 
 # --hints--
 
-You should call the `addEventListener()` method on your `discardBtn` variable.
+Debería llamar al método `addEventListener()` en su variable `discardBtn`.
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(/)
 ```
 
-Your event listener should listen for a `click` event.
+Tu método. addEventListener() debería detectar el evento de `click`.
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1/)
 ```
 
-You should use arrow syntax to set your event listener to an empty pair of curly braces.
+Debes usar la sintaxis de flecha para establecer tu detector de eventos en un par de llaves vacías.
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{/)
 ```
 
-Your event listener should use the `close()` method on `confirmCloseDialog`.
+Su detector de eventos debe usar el método `close()` en `confirmCloseDialog`.
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{\s*confirmCloseDialog\.close\(\s*\)\s*;?/)
 ```
 
-Your event listener should use `classList` to toggle the class `hidden` on `taskForm`.
+Tu oyente de eventos debe usar `classList` para alternar la clase `hidden` en `taskForm`.
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{\s*confirmCloseDialog\.close\(\s*\)\s*;?\s*taskForm\.classList\.toggle\(\s*('|"|`)hidden\2\s*\)\s*;?\s*\}\s*\)\s*;?/)

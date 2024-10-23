@@ -139,7 +139,7 @@ assert($('svg circle').length === 18);
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
@@ -245,7 +245,7 @@ assert($('svg circle').length === 18);
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
@@ -262,7 +262,7 @@ assert($('svg circle').length === 18);
     .enter()
     .append('circle')
 
-    
+
 
 </script>
 ```

@@ -153,7 +153,7 @@ assert(
       .attr('stroke', instagramColor)
       .attr('stroke-width', 3)
       .attr('fill', 'transparent');
-      
+
     lineGraph.selectAll('twitter-circles')
       .data(data)
       .enter()
@@ -213,7 +213,7 @@ assert(
 
     const pie = d3.pie()
       .value(d => d.value);
-      
+
     const pieGraphData = pieGraph.selectAll('pieSlices')
       .data(pie(d3.entries(data[index].followers)))
       .enter()
@@ -370,7 +370,7 @@ assert(
       .attr('stroke', instagramColor)
       .attr('stroke-width', 3)
       .attr('fill', 'transparent');
-      
+
     lineGraph.selectAll('twitter-circles')
       .data(data)
       .enter()
@@ -426,7 +426,7 @@ assert(
 
     const pie = d3.pie()
       .value(d => d.value);
-      
+
     const pieGraphData = pieGraph.selectAll('pieSlices')
       .data(pie(d3.entries(data[index].followers)))
       .enter()

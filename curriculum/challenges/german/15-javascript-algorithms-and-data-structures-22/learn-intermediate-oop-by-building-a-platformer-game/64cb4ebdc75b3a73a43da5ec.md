@@ -1,39 +1,39 @@
 ---
 id: 64cb4ebdc75b3a73a43da5ec
-title: Step 108
+title: Schritt 108
 challengeType: 0
 dashedName: step-108
 ---
 
 # --description--
 
-Create an `if` statement that checks if `isCheckpointCollisionDetectionActive` is true.
+Erstelle eine `if`-Anweisung, die prüft, ob `isCheckpointCollisionDetectionActive` true ist.
 
-Inside the `if` statement, add a `setTimeout()` that takes in a callback function and a delay of 2000 milliseconds.
+Füge innerhalb der `if`-Anweisung einen `setTimeout()` hinzu, der eine Callback-Funktion und eine Verzögerung von 2000 Millisekunden annimmt.
 
 For the callback function, it should set the `checkpointScreen` `style.display` property to `"none"`.
 
 # --hints--
 
-You should have an `if` statement that checks if `isCheckpointCollisionDetectionActive` is true.
+Du solltest eine `if`-Anweisung haben, die prüft, ob `isCheckpointCollisionDetectionActive` true ist.
 
 ```js
 assert.match(code, /\s*if\s*\(\s*isCheckpointCollisionDetectionActive\s*\)\s*{/s);
 ```
 
-You should have a `setTimeout()` function inside the `if` statement.
+Du solltest eine `setTimeout()`-Funktion innerhalb der `if`-Anweisung haben.
 
 ```js
 assert.match(code, /\s*if\s*\(\s*isCheckpointCollisionDetectionActive\s*\)\s*{\s*setTimeout\s*\(/s);
 ```
 
-Your `setTimeout()` function should have a callback function as the first argument.
+Deine `setTimeout()`-Funktion sollte eine Callback-Funktion als erstes Argument haben.
 
 ```js
 assert.match(code, /\s*setTimeout\s*\(\s*\(\s*\)\s*=>/s);
 ```
 
-Your `setTimeout()` function should have a delay of 2000 milliseconds as the second argument.
+Deine `setTimeout()`-Funktion sollte eine Verzögerung von 2000 Millisekunden als zweites Argument haben.
 
 ```js
 assert.match(code, /\s*setTimeout\s*\(\s*\(\s*\)\s*=>[^,]*,\s*2000\s*\)/s);
@@ -235,8 +235,8 @@ class Player {
       this.position.x = this.width;
     }
 
-    if (this.position.x >= canvas.width - 2 * this.width) {
-      this.position.x = canvas.width - 2 * this.width;
+    if (this.position.x >= canvas.width - this.width * 2) {
+      this.position.x = canvas.width - this.width * 2;
     }
   }
 }

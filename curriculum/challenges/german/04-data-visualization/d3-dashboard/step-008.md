@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1c9e5
-title: Step 8
+title: Schritt 8
 challengeType: 0
 dashedName: step-8
 ---
@@ -50,7 +50,7 @@ body {
   width: 980px;
   height: 500px;
 
-  
+
 }
 </style>
 ```

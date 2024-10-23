@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1ca2e
-title: Step 81
+title: ステップ 81
 challengeType: 0
 dashedName: step-81
 ---
@@ -141,7 +141,7 @@ assert(
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
@@ -267,7 +267,7 @@ assert(
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()

@@ -1,31 +1,31 @@
 ---
 id: 63c9f24afbc9cf324dcaa9a4
-title: Step 94
+title: 步驟 95
 challengeType: 0
-dashedName: step-94
+dashedName: step-95
 ---
 
 # --description--
 
-You also need to clear the `output` element's text. You can do this by setting the `innerText` property to an empty string.
+你還需要清除 `output` 元素的文本。 你可以通過將 `innerText` 屬性設置爲空字符串來實現此目的。
 
-The difference between `innerText` and `innerHTML` is that `innerText` will not render HTML elements, but will display the tags and content as raw text.
+`innerText` 和 `innerHTML` 的區別在於 `innerText` 不會呈現 HTML 元素，而是將標籤和內容顯示爲原始文本。
 
 # --hints--
 
-Your `clearForm` function should access the `innerText` property of the `output` element.
+你的 `clearForm` 函數應該訪問 `output` 元素的 `innerText` 屬性。
 
 ```js
 assert.match(clearForm.toString(), /output\.innerText/);
 ```
 
-Your `clearForm` function should set the `innerText` property of the `output` element to an empty string.
+你的 `clearForm` 函數應該將 `output` 元素的 `innerText` 屬性設置爲空字符串。
 
 ```js
 assert.match(clearForm.toString(), /output\.innerText\s*=\s*('|"|`)\1/);
 ```
 
-You should modify `output` after modifying `budgetNumberInput`.
+你應該在修改 `budgetNumberInput` 之後修改 `output`。
 
 ```js
 assert.isAbove(clearForm.toString().indexOf('output'), clearForm.toString().indexOf('budgetNumberInput'));
@@ -234,11 +234,11 @@ function calculateCalories(e) {
   e.preventDefault();
   isError = false;
 
-  const breakfastNumberInputs = document.querySelectorAll('#breakfast input[type=number]');
-  const lunchNumberInputs = document.querySelectorAll('#lunch input[type=number]');
-  const dinnerNumberInputs = document.querySelectorAll('#dinner input[type=number]');
-  const snacksNumberInputs = document.querySelectorAll('#snacks input[type=number]');
-  const exerciseNumberInputs = document.querySelectorAll('#exercise input[type=number]');
+  const breakfastNumberInputs = document.querySelectorAll("#breakfast input[type='number']");
+  const lunchNumberInputs = document.querySelectorAll("#lunch input[type='number']");
+  const dinnerNumberInputs = document.querySelectorAll("#dinner input[type='number']");
+  const snacksNumberInputs = document.querySelectorAll("#snacks input[type='number']");
+  const exerciseNumberInputs = document.querySelectorAll("#exercise input[type='number']");
 
   const breakfastCalories = getCaloriesFromInputs(breakfastNumberInputs);
   const lunchCalories = getCaloriesFromInputs(lunchNumberInputs);

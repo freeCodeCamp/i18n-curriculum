@@ -1,6 +1,6 @@
 ---
 id: 6555d8faed60b9d3e4a6cefb
-title: Step 72
+title: Schritt 72
 challengeType: 0
 dashedName: step-72
 ---

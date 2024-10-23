@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1ca22
-title: Step 69
+title: 步驟 69
 challengeType: 0
 dashedName: step-69
 ---
@@ -140,7 +140,7 @@ assert(
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
@@ -148,7 +148,7 @@ assert(
     .attr('cx', d => xScale(d.year))
     .attr('cy', d => yScale(d.followers.twitter))
     .attr('r', 6)
-    
+
 
 
 </script>
@@ -241,7 +241,7 @@ assert(
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
@@ -252,7 +252,7 @@ assert(
     .attr('fill', 'white')
     .attr('stroke', twitterColor)
 
-    
+
 
 </script>
 ```

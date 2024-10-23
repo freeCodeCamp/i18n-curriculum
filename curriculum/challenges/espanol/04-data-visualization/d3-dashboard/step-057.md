@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1ca16
-title: Step 57
+title: Paso 57
 challengeType: 0
 dashedName: step-57
 ---

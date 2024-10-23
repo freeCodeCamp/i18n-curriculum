@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1ca1b
-title: Step 62
+title: Hatua ya 62
 challengeType: 0
 dashedName: step-62
 ---
@@ -145,9 +145,9 @@ assert(
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
 
-  
+
+
 </script>
 ```
 
@@ -238,7 +238,7 @@ assert(
     .attr('stroke', instagramColor)
     .attr('stroke-width', '3')
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')  
 
 

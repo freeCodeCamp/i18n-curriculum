@@ -1,6 +1,6 @@
 ---
 id: 6555c1d3e11a1574434cf8b5
-title: Build a Pokémon Search App
+title: 포켓몬 검색 앱을 만들어 보세요
 challengeType: 14
 forumTopicId: 16003
 dashedName: build-a-pokemon-search-app
@@ -8,32 +8,34 @@ dashedName: build-a-pokemon-search-app
 
 # --description--
 
-In this project, you'll build an app that will search for Pokémon by name or ID and display the results to the user. To retrieve the Pokémon data and images, you'll use freeCodeCamp's <a href="https://pokeapi-proxy.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">PokéAPI Proxy</a>.
+이 프로젝트에서는 이름이나 ID로 포켓몬을 검색하고, 그 결과를 사용자에게 보여주는 어플리케이션을 만들 것입니다. 포켓몬의 데이터와 이미지들을 가지고 오기 위하여 당신은 프리코드캠프의 <a href="https://pokeapi-proxy.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">PokéAPI Proxy</a>를 사용할 것입니다.
 
-**Objective:** Build an app that is functionally similar to <a href="https://pokemon-search-app.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://pokemon-search-app.freecodecamp.rocks</a>
+ **Note:** 처음 열세개의 단계는 반드시 `index.html` 안에서 작업해야 합니다.
+
+**Objective:** Build an app that is functionally similar to <a href="https://pokemon-search-app.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://pokemon-search-app.freecodecamp.rocks</a>.
 
 **User Stories:**
 
-1. You should have an `input` element with an `id` of `"search-input"`
-1. You should have a `button` element with an `id` of `"search-button`
-1. You should have an element with an `id` of `"pokemon-name"`
-1. You should have an element with an `id` of `"pokemon-id"`
-1. You should have an element with an `id` of `"weight"`
-1. You should have an element with an `id` of `"height"`
-1. You should have an element with an `id` of `"types"`
-1. You should have an element with an `id` of `"hp"`
-1. You should have an element with an `id` of `"attack"`
-1. You should have an element with an `id` of `"defense"`
-1. You should have an element with an `id` of `"special-attack"`
-1. You should have an element with an `id` of `"special-defense"`
-1. You should have an element with an `id` of `"speed"`
-1. When the `#search-input` element contains the value `Red` and the `#search-button` element is clicked, an alert should appear with the text `"Pokémon not found"`
-1. When the `#search-input` element contains the value `Pikachu` and the `#search-button` element is clicked, the values in the `#pokemon-name`, `#pokemon-id`, `#weight`, `#height`, `#hp`, `#attack`, `#defense`, `#special-attack`, `#special-defense`, and `#speed` elements should be `PIKACHU`, `#25` or `25`, `Weight: 60` or `60`, `Height: 4` or `4`, `35`, `55`, `40`, `50`, `50`, and `90`, respectively
-1. When the `#search-input` element contains the value `Pikachu` and the `#search-button` element is clicked, you should add an `img` element with the `id` of `"sprite"` and the `src` set to the Pokémon's `front_default` sprite to the page
-1. When the `#search-input` element contains the value `Pikachu` and the `#search-button` element is clicked, the `#types` element should contain a single inner element with the value `ELECTRIC`. The `#types` element content should be cleared between searches
-1. When the `#search-input` element contains the value `94` and the `#search-button` element is clicked, the values in the `#pokemon-name`, `#pokemon-id`, `#weight`, `#height`, `#hp`, `#attack`, `#defense`, `#special-attack`, `#special-defense`, and `#speed`elements should be `GENGAR`, `#94` or `94`, `Weight: 405` or `405`, `Height: 15` or `15`, `60`, `65`, `60`, `130`, `75`, and `110`, respectively
-1. When the `#search-input` element contains the value `94` and the `#search-button` element is clicked, you should add an `img` element with the `id` of `sprite` and the `src` set to the Pokémon's `front_default` sprite to the page
-1. When the `#search-input` element contains the value `94` and the `#search-button` element is clicked, the `#types` element should contain two inner elements with the text values `GHOST` and `POISON`, respectively. The `#types` element content should be cleared between searches
+1. You should have an `input` element with an `id` of `"search-input"`.
+1. You should have a `button` element with an `id` of `"search-button"`.
+1. You should have an element with an `id` of `"pokemon-name"`.
+1. You should have an element with an `id` of `"pokemon-id"`.
+1. You should have an element with an `id` of `"weight"`.
+1. You should have an element with an `id` of `"height"`.
+1. You should have an element with an `id` of `"types"`.
+1. You should have an element with an `id` of `"hp"`.
+1. You should have an element with an `id` of `"attack"`.
+1. You should have an element with an `id` of `"defense"`.
+1. You should have an element with an `id` of `"special-attack"`.
+1. You should have an element with an `id` of `"special-defense"`.
+1. You should have an element with an `id` of `"speed"`.
+1. When the `#search-input` element contains the value `Red` and the `#search-button` element is clicked, an alert should appear with the text `"Pokémon not found"`.
+1. When the `#search-input` element contains the value `Pikachu` and the `#search-button` element is clicked, the values in the `#pokemon-name`, `#pokemon-id`, `#weight`, `#height`, `#hp`, `#attack`, `#defense`, `#special-attack`, `#special-defense`, and `#speed` elements should be `PIKACHU`, `#25` or `25`, `Weight: 60` or `60`, `Height: 4` or `4`, `35`, `55`, `40`, `50`, `50`, and `90`, respectively.
+1. When the `#search-input` element contains the value `Pikachu` and the `#search-button` element is clicked, you should add an `img` element with the `id` of `"sprite"` and the `src` set to the Pokémon's `front_default` sprite to the page.
+1. `#search-input` 요소에 `Pikachu` 값이 입력되어 있고 `#search-button`을 클릭하면, `#types` 요소는 `ELECTRIC` 값을 가진 하나의 자식 요소를 포함해야 합니다. The `#types` element content should be cleared between searches.
+1. When the `#search-input` element contains the value `94` and the `#search-button` element is clicked, the values in the `#pokemon-name`, `#pokemon-id`, `#weight`, `#height`, `#hp`, `#attack`, `#defense`, `#special-attack`, `#special-defense`, and `#speed`elements should be `GENGAR`, `#94` or `94`, `Weight: 405` or `405`, `Height: 15` or `15`, `60`, `65`, `60`, `130`, `75`, and `110`, respectively.
+1. When the `#search-input` element contains the value `94` and the `#search-button` element is clicked, you should add an `img` element with the `id` of `sprite` and the `src` set to the Pokémon's `front_default` sprite to the page.
+1. `#search-input` 요소에 `94` 값이 입력되어 있고 `#search-button`이 클릭되면, `#types` 요소는 각각 `GHOST`와 `POISON` 텍스트 값을 가진 두 개의 자식 요소를 포함해야 합니다. The `#types` element content should be cleared between searches.
 
 Fulfill the user stories and pass all the tests below to complete this project. Give it your own personal style. Happy Coding!
 

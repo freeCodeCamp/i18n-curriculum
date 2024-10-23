@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1c9f8
-title: Step 27
+title: 步骤 27
 challengeType: 0
 dashedName: step-27
 ---

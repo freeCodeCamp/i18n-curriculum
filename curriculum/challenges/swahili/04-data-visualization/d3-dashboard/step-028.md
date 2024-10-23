@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1c9f9
-title: Step 28
+title: Hatua ya 28
 challengeType: 0
 dashedName: step-28
 ---

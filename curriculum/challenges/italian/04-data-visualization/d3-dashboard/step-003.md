@@ -28,7 +28,7 @@ assert(
 <html>
   <head>
 
-  
+
   </head>
 
   <body>

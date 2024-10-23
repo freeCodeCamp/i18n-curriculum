@@ -1,23 +1,23 @@
 ---
 id: 655b4bbff1dbf66cb2ed4dac
-title: Step 97
+title: Крок 97
 challengeType: 0
 dashedName: step-97
 ---
 
 # --description--
 
-Use an `if` statement to check if `nextSongExists` exists, then call the `playNextSong()` function in the `if` block. This will automatically play the next song when the current song ends.
+Використайте інструкцію `if`, щоб перевірити, чи існує `nextSongExists`, а потім викличте функцію `playNextSong()` в межах блоку `if`. Це автоматично відтворить наступну пісню, коли поточна пісня закінчиться.
 
 # --hints--
 
-You should create an `if` statement with the condition `nextSongExists`.
+Створіть інструкцію `if` з умовою `nextSongExists`.
 
 ```js
 assert.match(code, /if\s*\(\s*nextSongExists\s*\)\s*\{\s*/)
 ```
 
-You should call the `playNextSong` function inside your `if` statement.
+Викличте функцію `playNextSong` у своєї інструкції `if`.
 
 ```js
 assert.match(code, /if\s*\(\s*nextSongExists\s*\)\s*\{\s*playNextSong\(\s*\)\s*;?\s*\}/)

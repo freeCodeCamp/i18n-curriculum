@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1ca02
-title: Step 37
+title: 步骤 37
 challengeType: 0
 dashedName: step-37
 ---
@@ -106,7 +106,7 @@ assert(
     .call(xAxis)
     .attr('transform', `translate(0, ${svgHeight - svgMargin})`)
     .selectAll('text')
-    
+
 
 </script>
 ```
@@ -163,6 +163,6 @@ assert(
     .selectAll('text')
     .style('transform', 'translate(-12px, 0) rotate(-50deg)')
 
-  
+
 </script>
 ```

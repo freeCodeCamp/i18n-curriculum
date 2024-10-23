@@ -110,7 +110,7 @@ assert(
     .style('transform', 'translate(-12px, 0) rotate(-50deg)')
     .style('text-anchor', 'end')
 
-  
+
 </script>
 ```
 

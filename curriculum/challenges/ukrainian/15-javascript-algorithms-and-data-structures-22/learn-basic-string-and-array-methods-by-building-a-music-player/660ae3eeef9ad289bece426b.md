@@ -1,23 +1,23 @@
 ---
 id: 660ae3eeef9ad289bece426b
-title: Step 11
+title: Крок 11
 challengeType: 0
 dashedName: step-11
 ---
 
 # --description--
 
-In the previous projects, you used regular functions. But in the rest of the projects, you will be working with <dfn>arrow functions</dfn>. The next few steps will focus on teaching you the basics of arrow functions.
+У попередніх проєктах ви використовували звичайні функції. Але в решті проєктів ви працюватимете з <dfn>стрілковими функціями</dfn>. Наступні кілька кроків будуть зосереджені на тому, щоб навчити вас базам праці зі стрілковими функціями.
 
-An arrow function is an anonymous function expression and a shorter way to write functions. Anonymous means that the function does not have a name. Arrow functions are always anonymous.
+Стрілкова функція — це анонімний вираз функції та коротший спосіб написання функцій. Анонімний означає, що функція не має імені. Стрілкові функції завжди анонімні.
 
-Here is the basic syntax:
+Ось основний синтаксис:
 
 ```js
 () => {}
 ```
 
-To create a named arrow function, you can assign the function to a variable:
+Щоб створити іменовану стрілкову функцію, можна призначити функцію до змінної:
 
 ```js
 const exampleFunction = () => {
@@ -25,23 +25,23 @@ const exampleFunction = () => {
 }
 ```
 
-Create a new named arrow function called `printGreeting`. Inside the body of that function use the `console.log()` method to print the string `"Hello there!"`.
+Створіть нову стрілкову функцію під назвою `printGreeting`. Усередині тіла цієї функції використовуйте метод `console.log()`, щоб надрукувати рядок `"Hello there!"`.
 
 # --hints--
 
-You should have a function called `printGreeting`.
+Ви повинні мати функцію під назвою `printGreeting`.
 
 ```js
 assert.isFunction(printGreeting);
 ```
 
-You should use arrow syntax to create the `printGreeting` function.
+Використовуйте стрілковий синтаксис, щоб створити функцію `printGreeting`.
 
 ```js
 assert.match(code, /(let|const)\s+printGreeting\s*=\s*\(.*\)\s*=>\s*{\s*[\s\S]*}\s*;?/)
 ```
 
-Your `printGreeting` function should include a `console.log('Hello there!')`.
+Функція `printGreeting` має містити `console.log('Hello there!')`.
 
 ```js
 assert.match(printGreeting.toString(), /console\.log\(['"]Hello\s+there!['"]\)/);

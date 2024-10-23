@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1ca0f
-title: Step 50
+title: 步驟 50
 challengeType: 0
 dashedName: step-50
 ---

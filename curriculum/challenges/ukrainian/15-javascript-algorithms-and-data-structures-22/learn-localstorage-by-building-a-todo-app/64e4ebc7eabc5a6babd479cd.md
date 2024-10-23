@@ -7,37 +7,37 @@ dashedName: step-9
 
 # --description--
 
-If the user clicks the `Discard` button, you want to close the modal showing the `Cancel` and `Discard` buttons, then hide the form modal.
+Якщо користувач натискає кнопку `Discard`, ви бажаєте закрити модальний який показує кнопки `Cancel` та `Discard`, а потім сховати модальний форми.
 
-Add a click event listener to `discardBtn`, then use the `close()` method on the `confirmCloseDialog` variable. Also, use `classList` to toggle the class `hidden` on `taskForm` so the form modal will close too.
+Додайте слухач подій клацання до `discardBtn`, а потім скористайтеся методом `close()` на змінній `confirmCloseDialog`. Також використайте `classList`, щоб перемкнути клас `hidden` на `taskForm`, щоб модальний форми також закрився.
 
 # --hints--
 
-You should call the `addEventListener()` method on your `discardBtn` variable.
+Викличте метод `addEventListener()` на змінній `discardBtn`.
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(/)
 ```
 
-Your event listener should listen for a `click` event.
+Ваш слухач подій повинен слухати подію `click`.
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1/)
 ```
 
-You should use arrow syntax to set your event listener to an empty pair of curly braces.
+Ви повинні використати стрілковий синтаксис, щоб встановити ваш слухач подій на порожню пару фігурних дужок.
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{/)
 ```
 
-Your event listener should use the `close()` method on `confirmCloseDialog`.
+Ваш слухач подій має використовувати метод `close()` на `confirmCloseDialog`.
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{\s*confirmCloseDialog\.close\(\s*\)\s*;?/)
 ```
 
-Your event listener should use `classList` to toggle the class `hidden` on `taskForm`.
+Ваш слухач подій має використовувати `classList` для перемикання класу `hidden` на `taskForm`.
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{\s*confirmCloseDialog\.close\(\s*\)\s*;?\s*taskForm\.classList\.toggle\(\s*('|"|`)hidden\2\s*\)\s*;?\s*\}\s*\)\s*;?/)

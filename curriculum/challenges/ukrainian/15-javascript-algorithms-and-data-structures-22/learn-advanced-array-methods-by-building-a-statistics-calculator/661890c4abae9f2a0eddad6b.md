@@ -1,17 +1,17 @@
 ---
 id: 661890c4abae9f2a0eddad6b
-title: Step 22
+title: Крок 22
 challengeType: 0
 dashedName: step-22
 ---
 
 # --description--
 
-In the next few steps, you'll learn how to determine if an array's length is even or odd, as well as how to find the median. You will then be able to apply what you learned to the `getMedian` function.
+У наступних кількох кроках ви дізнаєтеся, як визначити, чи довжина масиву парна або непарна, а також як знайти медіану. Тоді ви зможете застосувати отримані знання до функції `getMedian`.
 
-To check if a number is even or odd, you can use the <dfn>modulus operator</dfn> `%`. The modulus operator returns the remainder of the division of two numbers.
+Щоб перевірити, чи число парне або непарне, можна скористатися <dfn>оператором модуля</dfn> `%`. Оператор модуля повертає залишок від ділення двох чисел.
 
-Here is an example checking if an array length is even or odd:
+Ось приклад перевірки чи довжина масиву парна або непарна:
 
 ```js
 // check if array length is even
@@ -21,13 +21,13 @@ arr.length % 2 === 0;
 arr.length % 2 === 1;
 ```
 
-If the remainder is `0`, the number is even. If the remainder is `1`, the number is odd.
+Якщо залишком є `0`, то кількість парна. Якщо залишком є `1`, то кількість непарна.
 
-Create a variable called `isEven`. Then use the modulus operator to check if the length of the `testArr2` array is even. Assign that expression to the `isEven` variable.
+Створіть змінну під назвою `isEven`. Потім скористайтеся оператором модуля, щоб перевірити, чи є парною довжина масиву `testArr2`. Призначте цей вираз до змінної `isEven`.
 
-Below your `isEven` variable, log out the `isEven` variable to the console.
+Під змінною `isEven` зареєструйте на консолі змінну `isEven`.
 
-Open up the console to see the result.
+Відкрийте консоль, щоб побачити результат.
 
 # --hints--
 
@@ -37,13 +37,13 @@ Open up the console to see the result.
 assert.isDefined(isEven);
 ```
 
-You should check if the length of the `testArr2` array is even. Refer back to the example provided for you: `arr.length % 2 === 0;`
+Перевірте, чи довжина масиву `testArr2` парна. Поверніться до наданого вам прикладу: `arr.length % 2 === 0;`
 
 ```js
 assert.isTrue(isEven);
 ```
 
-You should have a `console.log` statement that logs the `isEven` variable.
+Ви повинні мати інструкцію `console.log`, яка реєструє змінну `isEven`.
 
 ```js
 assert.match(code, /console\.log\(isEven\)/);

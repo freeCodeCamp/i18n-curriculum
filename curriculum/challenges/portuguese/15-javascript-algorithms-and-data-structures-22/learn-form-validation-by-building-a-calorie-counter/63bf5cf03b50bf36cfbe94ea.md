@@ -1,15 +1,23 @@
 ---
 id: 63bf5cf03b50bf36cfbe94ea
-title: Passo 38
+title: Step 39
 challengeType: 0
-dashedName: step-38
+dashedName: step-39
 ---
 
 # --description--
 
+Now that you have finished testing the value of `entryDropdown.value`, you can remove the `console.log` statement.
+
 O próximo passo é permitir que os usuários adicionem entradas ao contador de calorias. Declare uma função vazia `addEntry`. A função não deve receber parâmetros.
 
 # --hints--
+
+You should remove the `console.log` statement.
+
+```js
+assert.notMatch(code, /console\.log\s*\(.*\)/)
+```
 
 You should declare an `addEntry` function.
 
@@ -17,7 +25,7 @@ You should declare an `addEntry` function.
 assert.isFunction(addEntry);
 ```
 
-A função `addEntry` não deve receber nenhum parâmetro.
+Your `addEntry` function should not take any parameters.
 
 ```js
 assert.match(addEntry?.toString(), /\(\s*\)/);
@@ -207,6 +215,6 @@ function isInvalidInput(str) {
 }
 
 --fcc-editable-region--
-
+console.log(entryDropdown.value)
 --fcc-editable-region--
 ```

@@ -1,15 +1,15 @@
 ---
 id: 62aa264d23cdaa45a20efada
-title: Step 163
+title: Paso 163
 challengeType: 0
 dashedName: step-163
 ---
 
 # --description--
 
-After your `numbers` array, create a `while` loop that runs as long as `numbers.length` is less than `10`.
+Después de tu arreglo `numbers`, crea un bucle `while` que se ejecute mientras `numbers.length` sea menor que `10`.
 
-In the previous project, you learned how to work with `while` loops like this:
+En el proyecto anterior, aprendiste cómo trabajar con bucles `while` de esta manera:
 
 ```js
 while (condition) {
@@ -19,13 +19,13 @@ while (condition) {
 
 # --hints--
 
-Your `pick` function should have a `while` loop.
+Tu función `pick` debe tener un bucle `while`.
 
 ```js
 assert.match(pick.toString(), /while\s*\(/);
 ```
 
-Your `while` loop should run while `numbers.length < 10`.
+Tu bucle `while` debe ejecutarse mientras `numbers.length < 10`.
 
 ```js
 assert.match(pick.toString(), /while\s*\(\s*numbers\.length\s*<\s*10\s*\)/);

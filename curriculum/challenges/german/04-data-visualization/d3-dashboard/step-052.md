@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1ca11
-title: Step 52
+title: Schritt 52
 challengeType: 0
 dashedName: step-52
 ---
@@ -124,7 +124,7 @@ assert(
 
   const tumblrLine = d3.line()
     .x(d => xScale(d.year))
-    
+
 
 </script>
 ```

@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1ca03
-title: Step 38
+title: ステップ 38
 challengeType: 0
 dashedName: step-38
 ---
@@ -106,7 +106,7 @@ assert(
     .selectAll('text')
     .style('transform', 'translate(-12px, 0) rotate(-50deg)')
 
-  
+
 </script>
 ```
 
@@ -163,6 +163,6 @@ assert(
     .style('transform', 'translate(-12px, 0) rotate(-50deg)')
     .style('text-anchor', 'end')
 
-  
+
 </script>
 ```

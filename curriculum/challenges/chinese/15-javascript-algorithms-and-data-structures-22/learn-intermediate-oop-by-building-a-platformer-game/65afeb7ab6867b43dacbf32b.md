@@ -1,31 +1,31 @@
 ---
 id: 65afeb7ab6867b43dacbf32b
-title: Step 10
+title: 步骤 10
 challengeType: 0
 dashedName: step-10
 ---
 
 # --description--
 
-As you are designing the game, you will need to make sure that the size of the elements in the game are responsive and adapt to different screen sizes.
+在设计游戏时，你需要确保游戏中元素的尺寸具有响应性并适应不同的屏幕尺寸。
 
-Start by creating an arrow function called `proportionalSize` that takes in a `size` parameter.
+首先创建一个名为 `proportionalSize` 的箭头函数，该函数接受一个 `size` 参数。
 
 # --hints--
 
-`proportionalSize` should be a function.
+`proportionalSize` 应该是一个函数。
 
 ```js
 assert.isFunction(proportionalSize);
 ```
 
-Your `proportionalSize` function should use arrow syntax.
+你的 `proportionalSize` 函数应该使用箭头语法。
 
 ```js
 assert.match(code, /const\s+proportionalSize\s*=\s*\(?\s*.*\s*\)?\s*=>/);
 ```
 
-Your `proportionalSize` function should have a `size` parameter.
+你的 `proportionalSize` 函数应该有一个 `size` 参数。
 
 ```js
 assert.match(code, /const\s+proportionalSize\s*=\s*\(?\s*size\s*\)?\s*=>/);

@@ -1,25 +1,25 @@
 ---
 id: 6608bee87c43ca194effebdf
-title: Step 53
+title: 步驟 53
 challengeType: 0
 dashedName: step-53
 ---
 
 # --description--
 
-Later on in the curriculum, you will dive deeper into objects. But for now, it is time to apply what you have learned to your role playing game.
+在課程的後面，你將更深入地瞭解對象。 但是現在，是時候將你所學到的知識應用到你的角色扮演遊戲中了。
 
-Start by deleting your `cat` object and console statement.
+首先刪除你的 `cat` 對象和控制檯語句。
 
 # --hints--
 
-You should remove your `cat` object.
+你應該刪除你的 `cat` 對象。
 
 ```js
 assert.notInclude(code, "const cat = {");
 ```
 
-You should remove your console statement.
+你應該刪除你的控制檯語句。
 
 ```js
 assert.notInclude(code, "console.log(cat[\"Number of legs\"]);");

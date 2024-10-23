@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1ca72
-title: Step 146
+title: Schritt 146
 challengeType: 0
 dashedName: step-146
 ---
@@ -144,7 +144,7 @@ assert(/\.text\s*\(\s*`\s*\$\{\s*year\s*\} followers`\s*\)/g.test(code));
       .attr('stroke', instagramColor)
       .attr('stroke-width', 3)
       .attr('fill', 'transparent');
-      
+
     lineGraph.selectAll('twitter-circles')
       .data(data)
       .enter()
@@ -200,7 +200,7 @@ assert(/\.text\s*\(\s*`\s*\$\{\s*year\s*\} followers`\s*\)/g.test(code));
 
     const pie = d3.pie()
       .value(d => d.value);
-      
+
     const pieGraphData = pieGraph.selectAll('pieSlices')
       .data(pie(d3.entries(data[index].followers)))
       .enter()
@@ -359,7 +359,7 @@ assert(/\.text\s*\(\s*`\s*\$\{\s*year\s*\} followers`\s*\)/g.test(code));
       .attr('stroke', instagramColor)
       .attr('stroke-width', 3)
       .attr('fill', 'transparent');
-      
+
     lineGraph.selectAll('twitter-circles')
       .data(data)
       .enter()
@@ -415,7 +415,7 @@ assert(/\.text\s*\(\s*`\s*\$\{\s*year\s*\} followers`\s*\)/g.test(code));
 
     const pie = d3.pie()
       .value(d => d.value);
-      
+
     const pieGraphData = pieGraph.selectAll('pieSlices')
       .data(pie(d3.entries(data[index].followers)))
       .enter()

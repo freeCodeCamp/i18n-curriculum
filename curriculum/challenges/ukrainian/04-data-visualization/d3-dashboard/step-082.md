@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1ca2f
-title: Step 82
+title: Крок 82
 challengeType: 0
 dashedName: step-82
 ---
@@ -141,7 +141,7 @@ assert(
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
@@ -269,7 +269,7 @@ assert(
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
@@ -306,7 +306,7 @@ assert(
   const rightDashboard = d3.select('.dashboard')
     .append('div');
 
-    
+
 
 </script>
 ```

@@ -184,6 +184,6 @@ assert(
     .y(d => yScale(d.followers.twitter));
 
 
-    
+
 </script>
 ```

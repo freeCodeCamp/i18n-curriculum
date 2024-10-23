@@ -1,8 +1,9 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1c9de
-title: Step 1
+title: Passo 1
 challengeType: 0
 dashedName: step-1
+demoType: onLoad
 ---
 
 # --description--
@@ -22,7 +23,6 @@ assert(/<!DOCTYPE\s+html\s*>/gi.test(code));
 # --seed--
 
 ## --seed-contents--
-
 ```html
 ```
 

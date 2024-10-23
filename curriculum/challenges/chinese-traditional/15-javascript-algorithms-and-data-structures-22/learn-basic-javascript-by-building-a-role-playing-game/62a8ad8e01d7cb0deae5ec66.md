@@ -1,47 +1,47 @@
 ---
 id: 62a8ad8e01d7cb0deae5ec66
-title: Step 57
+title: 步驟 57
 challengeType: 0
 dashedName: step-57
 ---
 
 # --description--
 
-Create another property in your object called `button functions`. Give this property an array containing the three functions assigned to the `onclick` properties in the `goTown` function. Remember that these functions are variables, not strings, and should not be wrapped in quotes.
+在你的對象中創建另一個名爲 `button functions` 的屬性。 爲該屬性賦予一個數組，其中包含分配給 `goTown` 函數中的 `onclick` 屬性的三個函數。 請記住，這些函數是變量，而不是字符串，不應用引號引起來。
 
 # --hints--
 
-Your first `locations` object should have a `button functions` property.
+你的第一個 `locations` 對象應該具有 `button functions` 屬性。
 
 ```js
 assert.isDefined(locations[0]["button functions"]);
 ```
 
-Your `button functions` property should be an array.
+你的 `button functions` 屬性應該是一個數組。
 
 ```js
 assert.isArray(locations[0]["button functions"]);
 ```
 
-Your `button functions` property should have three values in it.
+你的 `button functions` 屬性應該包含三個值。
 
 ```js
 assert.lengthOf(locations[0]["button functions"], 3);
 ```
 
-Your first `button functions` array value should be the function `goStore`.
+你的第一個 `button functions` 數組值應該是函數 `goStore`。
 
 ```js
 assert.equal(locations[0]["button functions"][0], goStore);
 ```
 
-Your second `button functions` array value should be the function `goCave`.
+你的第二個 `button functions` 數組值應該是函數 `goCave`。
 
 ```js
 assert.equal(locations[0]["button functions"][1], goCave);
 ```
 
-Your third `button functions` array value should be the function `fightDragon`.
+你的第三個 `button functions` 數組值應該是函數 `fightDragon`。
 
 ```js
 assert.equal(locations[0]["button functions"][2], fightDragon);

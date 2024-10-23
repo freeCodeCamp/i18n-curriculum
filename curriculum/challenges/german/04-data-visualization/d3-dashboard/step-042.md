@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1ca07
-title: Step 42
+title: Schritt 42
 challengeType: 0
 dashedName: step-42
 ---

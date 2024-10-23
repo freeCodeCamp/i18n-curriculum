@@ -107,7 +107,7 @@ assert(
   lineGraph.append('g')
     .call(xAxis)
     .attr('transform', `translate(0, ${svgHeight - svgMargin})`)
-    
+
 
 </script>
 ```
@@ -162,7 +162,7 @@ assert(
     .call(xAxis)
     .attr('transform', `translate(0, ${svgHeight - svgMargin})`)
     .selectAll('text')
-    
+
 
 </script>
 ```

@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1ca27
-title: Step 74
+title: 步驟 74
 challengeType: 0
 dashedName: step-74
 ---
@@ -141,7 +141,7 @@ assert(
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
@@ -160,7 +160,7 @@ assert(
     .attr('cx', d => xScale(d.year))
     .attr('cy', d => yScale(d.followers.tumblr))
 
-    
+
 
 </script>
 ```
@@ -252,7 +252,7 @@ assert(
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()

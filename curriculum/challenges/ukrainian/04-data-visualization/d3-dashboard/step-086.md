@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1ca33
-title: Step 86
+title: Крок 86
 challengeType: 0
 dashedName: step-86
 ---
@@ -139,7 +139,7 @@ assert(
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
@@ -274,7 +274,7 @@ assert(
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
@@ -317,7 +317,7 @@ assert(
 
   const pieArc = d3.arc()
     .outerRadius(100)
-    
+
 
 
 </script>

@@ -95,11 +95,11 @@ assert($('svg > g')[1].attributes.transform.nodeValue === 'translate(0, 430)');
     .call(yAxis)
     .attr('transform', `translate(${svgMargin}, 0)`)
     .style('font', '10px verdana');
-    
+
   lineGraph.append('g')
     .call(xAxis)
 
-  
+
 </script>
 ```
 
@@ -152,7 +152,7 @@ assert($('svg > g')[1].attributes.transform.nodeValue === 'translate(0, 430)');
   lineGraph.append('g')
     .call(xAxis)
     .attr('transform', `translate(0, ${svgHeight - svgMargin})`)
-    
+
 
 </script>
 ```

@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1ca3d
-title: Step 96
+title: 步驟 96
 challengeType: 0
 dashedName: step-96
 ---
@@ -141,7 +141,7 @@ assert(
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
@@ -192,7 +192,7 @@ assert(
 
   const pie = d3.pie()
     .value(d => d.value);
-    
+
   const pieGraphData = pieGraph.selectAll('pieSlices')
     .data(pie(d3.entries(data[8].followers)))
 
@@ -288,7 +288,7 @@ assert(
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
@@ -339,7 +339,7 @@ assert(
 
   const pie = d3.pie()
     .value(d => d.value);
-    
+
   const pieGraphData = pieGraph.selectAll('pieSlices')
     .data(pie(d3.entries(data[8].followers)))
     .enter()

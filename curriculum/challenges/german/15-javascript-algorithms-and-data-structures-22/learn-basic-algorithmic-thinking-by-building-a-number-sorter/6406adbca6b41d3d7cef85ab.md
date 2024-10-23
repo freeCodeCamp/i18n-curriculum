@@ -9,11 +9,11 @@ dashedName: step-5
 
 Zurück in deiner `sortInputArray`-Funktion musst du die Werte aus deinen `select`-Elementen abrufen. Da sie alle die Klasse `values-dropdown` verwenden, kannst du sie alle gleichzeitig abfragen.
 
-Use `document.getElementsByClassName()` to get all the elements with this class by passing in the argument `"values-dropdown"`. Assign that to an `inputValues` variable with `const`.
+Use `document.getElementsByClassName()` to get all the elements with this class by passing in the argument `"values-dropdown"`. Weise diese einer `inputValues`-Variable mit `const` zu.
 
 # --hints--
 
-You should use `document.getElementsByClassName()` to get all the elements with the class `"values-dropdown"`.
+Du solltest `document.getElementsByClassName()` verwenden, um alle Elemente mit der Klasse `"values-dropdown"` abzurufen.
 
 ```js
 assert.match(sortInputArray.toString(), /document\.getElementsByClassName\(\s*('|"|`)values-dropdown\1\s*\)/);

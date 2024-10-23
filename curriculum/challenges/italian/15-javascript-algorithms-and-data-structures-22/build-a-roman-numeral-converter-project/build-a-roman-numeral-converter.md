@@ -8,7 +8,7 @@ dashedName: build-a-roman-numeral-converter
 
 # --description--
 
-Roman numerals are based on seven symbols and can be written using various combinations to represent Arabic numerals. Ad esempio:
+Roman numerals are based on seven symbols and can be written using various combinations to represent Arabic numerals. Per esempio:
 
 | Roman numerals | Numeri arabi |
 | -------------- | ------------ |

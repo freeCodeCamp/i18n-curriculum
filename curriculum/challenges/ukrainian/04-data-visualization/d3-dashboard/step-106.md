@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1ca49
-title: Step 106
+title: Крок 106
 challengeType: 0
 dashedName: step-106
 ---
@@ -137,7 +137,7 @@ assert(/const\s*sum\s*=\s*d3\s*\.\s*sum\s*\(\s*values\s*\)\s*;?/g.test(code));
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
@@ -188,7 +188,7 @@ assert(/const\s*sum\s*=\s*d3\s*\.\s*sum\s*\(\s*values\s*\)\s*;?/g.test(code));
 
   const pie = d3.pie()
     .value(d => d.value);
-    
+
   const pieGraphData = pieGraph.selectAll('pieSlices')
     .data(pie(d3.entries(data[8].followers)))
     .enter()
@@ -297,7 +297,7 @@ assert(/const\s*sum\s*=\s*d3\s*\.\s*sum\s*\(\s*values\s*\)\s*;?/g.test(code));
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
@@ -348,7 +348,7 @@ assert(/const\s*sum\s*=\s*d3\s*\.\s*sum\s*\(\s*values\s*\)\s*;?/g.test(code));
 
   const pie = d3.pie()
     .value(d => d.value);
-    
+
   const pieGraphData = pieGraph.selectAll('pieSlices')
     .data(pie(d3.entries(data[8].followers)))
     .enter()

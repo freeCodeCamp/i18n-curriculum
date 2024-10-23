@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1ca0b
-title: Step 46
+title: Hatua ya 46
 challengeType: 0
 dashedName: step-46
 ---
@@ -184,6 +184,6 @@ assert(
     .y(d => yScale(d.followers.twitter));
 
 
-    
+
 </script>
 ```

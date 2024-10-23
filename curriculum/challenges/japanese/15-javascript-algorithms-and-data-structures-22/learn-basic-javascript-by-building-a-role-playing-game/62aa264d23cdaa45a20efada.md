@@ -1,6 +1,6 @@
 ---
 id: 62aa264d23cdaa45a20efada
-title: Step 163
+title: ステップ 163
 challengeType: 0
 dashedName: step-163
 ---

@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1ca06
-title: Step 41
+title: Paso 41
 challengeType: 0
 dashedName: step-41
 ---

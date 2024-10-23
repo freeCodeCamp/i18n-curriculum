@@ -1,6 +1,6 @@
 ---
 id: 657bdc55a322aae1eac3838f
-title: Build a Palindrome Checker
+title: Crie um verificador de palíndromo
 challengeType: 14
 forumTopicId: 16004
 dashedName: build-a-palindrome-checker
@@ -34,7 +34,7 @@ Um <dfn>palíndromo</dfn> é uma palavra ou frase que pode ser lida da mesma man
 1. When the `#text-input` element contains the text `0_0 (: /-\ :) 0-0` and the `#check-btn` element is clicked, the `#result` element should contain the text `"0_0 (: /-\ :) 0-0 is a palindrome"`
 1. When the `#text-input` element contains the text `five|\_/|four` and the `#check-btn` element is clicked, the `#result` element should contain the text `"five|\_/|four is not a palindrome"`
 
-Fulfill the user stories and pass all the tests below to complete this project. Dê ao projeto o seu próprio estilo pessoal. Happy Coding!
+Atenda às histórias de usuário e passe em todos os testes abaixo para concluir este projeto. Dê ao projeto o seu próprio estilo pessoal. Boa programação!
 
 # --hints--
 

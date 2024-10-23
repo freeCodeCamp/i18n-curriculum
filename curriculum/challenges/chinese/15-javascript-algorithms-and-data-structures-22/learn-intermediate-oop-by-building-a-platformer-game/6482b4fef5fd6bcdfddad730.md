@@ -1,19 +1,19 @@
 ---
 id: 6482b4fef5fd6bcdfddad730
-title: Step 12
+title: 步骤 12
 challengeType: 0
 dashedName: step-12
 ---
 
 # --description--
 
-The next step is to define some characteristics for the main player of the game.
+下一步是为游戏的主要玩家定义一些特征。
 
-Start by creating a new `class` called `Player`.
+首先创建一个名为 `Player` 的新 `class`。
 
 # --hints--
 
-`Player` should be a class.
+`Player` 应该是一个类。
 
 ```js
 assert(
@@ -21,13 +21,13 @@ assert(
 );
 ```
 
-The `class` keyword should be used.
+应该使用 `class` 关键字。
 
 ```js
-assert(code.match(/class/g));
+assert.match(code, /^\s*class/m);
 ```
 
-You should create a new class called `Player`
+你应该创建一个名为 `Player` 的新类。
 
 ```js
 assert.match(code, /class\s+Player\s*{\s*}\s*/);

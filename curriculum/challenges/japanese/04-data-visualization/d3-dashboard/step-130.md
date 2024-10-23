@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1ca61
-title: Step 130
+title: ステップ 130
 challengeType: 0
 dashedName: step-130
 ---
@@ -137,7 +137,7 @@ assert($('.dashboard div table tbody tr td').length === 9);
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
@@ -188,7 +188,7 @@ assert($('.dashboard div table tbody tr td').length === 9);
 
   const pie = d3.pie()
     .value(d => d.value);
-    
+
   const pieGraphData = pieGraph.selectAll('pieSlices')
     .data(pie(d3.entries(data[8].followers)))
     .enter()
@@ -332,7 +332,7 @@ assert($('.dashboard div table tbody tr td').length === 9);
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
@@ -383,7 +383,7 @@ assert($('.dashboard div table tbody tr td').length === 9);
 
   const pie = d3.pie()
     .value(d => d.value);
-    
+
   const pieGraphData = pieGraph.selectAll('pieSlices')
     .data(pie(d3.entries(data[8].followers)))
     .enter()

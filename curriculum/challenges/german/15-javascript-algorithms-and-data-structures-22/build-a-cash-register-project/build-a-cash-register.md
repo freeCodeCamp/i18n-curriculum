@@ -1,6 +1,6 @@
 ---
 id: 657bdcc3a322aae1eac38392
-title: Build a Cash Register
+title: Erstelle eine Registrierkasse
 challengeType: 14
 forumTopicId: 16012
 dashedName: build-a-cash-register
@@ -8,9 +8,9 @@ dashedName: build-a-cash-register
 
 # --description--
 
-Here you'll build a cash register app that will return change to the customer based on the price of the item, the amount of cash provided by the customer, and the amount of cash in the cash drawer. You'll also need to show different messages to the user in different scenarios, such as when the customer provides too little cash or when the cash drawer doesn't have enough to issue the correct change.
+Hier erstellst du eine App für eine Registrierkasse, die dem Kunden Rückgeld herausgibt, basierend auf dem Preis des Produktes, dem Bargeldbetrag, den der Kunde gezahlt hat und der Menge an Bargeld im Geldfach. Du musst dem Kunden auch verschiedene Nachrichten in verschiedenen Szenarien anzeigen, B. wenn der Kunde zu wenig Bargeld einzahlt oder die Kassenschublade nicht genug Bargeld enthält, um das Wechselgeld herauszugeben.
 
-In the `script.js` file, you have been provided with the `price` and `cid` variables. The `price` variable is the price of the item, and the `cid` variable is the cash-in-drawer, which is a 2D array listing the available currency in the cash drawer.
+In der `script.js` Datei findest du den `Preis` und den `cid` -Wert als Variablen. Der `price` -Wert ist der Preis des Produktes, und der `cid` -Wert ist das Geldfach, welche eine 2D-Array ist, in dem die verfügbaren Währungen aus dem Geldfach aufgelistet sind.
 
 The other variable you will need to add is the `cash` variable, which is the amount of cash provided by the customer for the item, which is provided via an `input` element on the page.
 
@@ -22,23 +22,23 @@ Your application should show different messages depending on the price of the it
 - `"Status: CLOSED"`: if `cash-in-drawer` is equal to the change due.
 - `"Status: OPEN"`: if `cash-in-drawer` is greater than the change due and you can return change, with the change due in coins and bills sorted in highest to lowest order.
 
-|    Currency Unit    |       Amount       |
-|:-------------------:|:------------------:|
-|        Penny        |   $0.01 (PENNY)    |
-|       Nickel        |   $0.05 (NICKEL)   |
-|        Dime         |    $0.1 (DIME)     |
-|       Quarter       |  $0.25 (QUARTER)   |
-|       Dollar        |      $1 (ONE)      |
-|    Five Dollars     |     $5 (FIVE)      |
-|     Ten Dollars     |     $10 (TEN)      |
-|   Twenty Dollars    |    $20 (TWENTY)    |
-| One Hundred Dollars | $100 (ONE HUNDRED) |
+|  Währungseinheit  |       Betrag       |
+|:-----------------:|:------------------:|
+|       Penny       |   $0.01 (PENNY)    |
+|      Nickel       |   $0.05 (NICKEL)   |
+|       Dime        |    $0.1 (DIME)     |
+|      Quarter      |  $0.25 (QUARTER)   |
+|      Dollar       |      $1 (ONE)      |
+|   Fünf Dollars    |     $5 (FIVE)      |
+|    Zehn Dollar    |     $10 (TEN)      |
+|  Zwanzig Dollar   |    $20 (TWENTY)    |
+| Einhundert Dollar | $100 (ONE HUNDRED) |
 
-**Aufgabe:** Erstelle eine Applikation, die eine ähnliche Funktionalität wie <a href="https://cash-register.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://cash-register.freecodecamp.rocks</a> aufweist
+**Objective:** Build an app that is functionally similar to <a href="https://cash-register.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://cash-register.freecodecamp.rocks</a>
 
 **User Stories:**
 
-1. You should have an `input` element with an `id` of `"cash"`
+1. Du solltest ein `input` -Element mit einer `id` von `cash` haben
 1. You should have a `div`, `span` or `p` element with an `id` of `"change-due"`
 1. You should have a `button` element with an `id` of `"purchase-btn"`
 1. When the value in the `#cash` element is less than `price`, an alert should appear with the text `"Customer does not have enough money to purchase the item"`
@@ -372,7 +372,7 @@ assert.strictEqual(
 );
 ```
 
-When `price` is less than the value in the `#cash` element, total cash in drawer `cid` is greater than change due, individual denomination amounts make impossible to return needed change, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: INSUFFICIENT_FUNDS"`
+When the `price` is less than the value in the `#cash` element and the total cash in the drawer (`cid`) is insufficient to cover the change due, the purchase should not proceed. When the `#purchase-btn` is clicked under these conditions, the `#change-due` element should display `"Status: INSUFFICIENT_FUNDS"`.
 
 ```js
 const cashInput = document.getElementById('cash');
@@ -387,26 +387,22 @@ price = (randomCash - randomChange) / 100;
 cashInput.value = `${randomCash / 100}`;
 
 let changeLeft = randomChange;
-const _expectedChangeDue = [];
 const _cashInDrawer = [];
 for (const [denominationName, denomination] of _money) {
   const maxCountInChange = Math.floor(changeLeft / denomination);
-  // If denomination can complete required changeLeft, available amount in drawer cannot
-  // equal the maximum. Otherwise count in drawer can be greater than maximum count in change.
-  const drawerCount = _randomNumber(
-    changeLeft % denomination === 0 ? Math.min(15, maxCountInChange - 1) : 15
-  );
+  // Amount lower than maximum (adjusted to changeLeft) will ensure total in drawer
+  // will be lower than needed change.
+  const drawerCount = _randomNumber(Math.max(0, Math.min(15, maxCountInChange - 1)));
   const amountInDrawer = drawerCount * denomination;
   _cashInDrawer.push([denominationName, amountInDrawer / 100]);
-  const changeCount = Math.min(drawerCount, maxCountInChange);
-  if (denomination <= changeLeft && changeCount > 0) {
-    changeLeft -= changeCount * denomination;
+  if (denomination <= changeLeft && drawerCount > 0) {
+    changeLeft -= amountInDrawer;
   }
 }
 
-// Less pennies than changeLeft makes impossible to return change due.
-const drawerCount = _randomNumber(Math.min(15, changeLeft - 1));
-_cashInDrawer.push(['PENNY', drawerCount / 100]);
+// Less pennies than changeLeft makes sure total cash in drawer is less than change due.
+const count = _randomNumber(Math.min(15, changeLeft - 1));
+_cashInDrawer.push(['PENNY', count / 100]);
 
 cid = _cashInDrawer.reverse();
 
@@ -447,7 +443,8 @@ assert.strictEqual(
 );
 ```
 
-When `price` is less than the value in the `#cash` element, total cash in drawer `cid` is less than the change due, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: INSUFFICIENT_FUNDS"`.
+
+When `price` is less than the value in the `#cash` element, total cash in drawer `cid` is greater than change due, but the individual denomination amounts make it impossible to return needed change, when the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: INSUFFICIENT_FUNDS"`
 
 ```js
 const cashInput = document.getElementById('cash');
@@ -462,22 +459,26 @@ price = (randomCash - randomChange) / 100;
 cashInput.value = `${randomCash / 100}`;
 
 let changeLeft = randomChange;
+const _expectedChangeDue = [];
 const _cashInDrawer = [];
 for (const [denominationName, denomination] of _money) {
   const maxCountInChange = Math.floor(changeLeft / denomination);
-  // Amount lower than maximum (adjusted to changeLeft) will ensure total in drawer
-  // will be lower than needed change.
-  const drawerCount = _randomNumber(Math.max(0, Math.min(15, maxCountInChange - 1)));
+  // If denomination can complete required changeLeft, available amount in drawer cannot
+  // equal the maximum. Otherwise count in drawer can be greater than maximum count in change.
+  const drawerCount = _randomNumber(
+    changeLeft % denomination === 0 ? Math.min(15, maxCountInChange - 1) : 15
+  );
   const amountInDrawer = drawerCount * denomination;
   _cashInDrawer.push([denominationName, amountInDrawer / 100]);
-  if (denomination <= changeLeft && drawerCount > 0) {
-    changeLeft -= amountInDrawer;
+  const changeCount = Math.min(drawerCount, maxCountInChange);
+  if (denomination <= changeLeft && changeCount > 0) {
+    changeLeft -= changeCount * denomination;
   }
 }
 
-// Less pennies than changeLeft makes sure total cash in drawer is less than change due.
-const count = _randomNumber(Math.min(15, changeLeft - 1));
-_cashInDrawer.push(['PENNY', count / 100]);
+// Less pennies than changeLeft makes impossible to return change due.
+const drawerCount = _randomNumber(Math.min(15, changeLeft - 1));
+_cashInDrawer.push(['PENNY', drawerCount / 100]);
 
 cid = _cashInDrawer.reverse();
 

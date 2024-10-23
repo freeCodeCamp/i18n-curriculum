@@ -1,19 +1,19 @@
 ---
 id: 64aced3e88b0a38cec824dea
-title: Step 43
+title: 第 43 步
 challengeType: 0
 dashedName: step-43
 ---
 
 # --description--
 
-The next step is to update the player's position as it moves throughout the game.
+下一步是更新玩家在整个游戏过程中移动时的位置。
 
-Below your `ctx.clearRect()`, call the `update()` method on the player.
+在 `ctx.clearRect()` 下方，调用玩家上的 `update()` 方法。
 
 # --hints--
 
-You should call the `update()` method on the player.
+你应该在玩家上调用 `update()` 方法。
 
 ```js
 assert.match(code, /\s*player\s*\.\s*update\s*\(\s*\)\s*;?/);
@@ -209,8 +209,8 @@ class Player {
       this.position.x = this.width;
     }
 
-    if (this.position.x >= canvas.width - 2 * this.width) {
-      this.position.x = canvas.width - 2 * this.width;
+    if (this.position.x >= canvas.width - this.width * 2) {
+      this.position.x = canvas.width - this.width * 2;
     }
   }
 }

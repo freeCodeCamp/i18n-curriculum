@@ -95,7 +95,7 @@ assert($('g')[0].attributes.transform.nodeValue === 'translate(70, 0)');
 
   lineGraph.append('g')
     .call(yAxis)
-    
+
 
 
 </script>

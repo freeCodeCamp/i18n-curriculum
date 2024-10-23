@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1ca6d
-title: Step 141
+title: 步驟 141
 challengeType: 0
 dashedName: step-141
 ---
@@ -11,7 +11,7 @@ Now when you hover a label, you can see the data for the different years.
 
 Where you created the `text` elements for the x-axis labels, change the `font` to `bold 10px verdana` for the currently displayed year.
 
-To do this, create a "d function" in the `font` value area and return the above sting if `d` equals `year`. Otherwise, return the string that is currently there (`10px verdana`). It's easiest to use a ternary operator for this.
+To do this, create a "d function" in the `font` value area and return the above string if `d` equals `year`. Otherwise, return the string that is currently there (`10px verdana`). It's easiest to use a ternary operator for this.
 
 Here's a hint:
 
@@ -158,7 +158,7 @@ assert(
       .attr('stroke', instagramColor)
       .attr('stroke-width', 3)
       .attr('fill', 'transparent');
-      
+
     lineGraph.selectAll('twitter-circles')
       .data(data)
       .enter()
@@ -211,7 +211,7 @@ assert(
 
     const pie = d3.pie()
       .value(d => d.value);
-      
+
     const pieGraphData = pieGraph.selectAll('pieSlices')
       .data(pie(d3.entries(data[index].followers)))
       .enter()
@@ -368,7 +368,7 @@ assert(
       .attr('stroke', instagramColor)
       .attr('stroke-width', 3)
       .attr('fill', 'transparent');
-      
+
     lineGraph.selectAll('twitter-circles')
       .data(data)
       .enter()
@@ -380,7 +380,7 @@ assert(
       .attr('stroke', twitterColor)
       .style('cursor', 'pointer')
 
-  
+
 
     lineGraph.selectAll('tumblr-circles')
       .data(data)
@@ -423,7 +423,7 @@ assert(
 
     const pie = d3.pie()
       .value(d => d.value);
-      
+
     const pieGraphData = pieGraph.selectAll('pieSlices')
       .data(pie(d3.entries(data[index].followers)))
       .enter()

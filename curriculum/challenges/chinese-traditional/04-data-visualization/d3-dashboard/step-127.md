@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1ca5e
-title: Step 127
+title: 步驟 127
 challengeType: 0
 dashedName: step-127
 ---
@@ -137,7 +137,7 @@ assert($('.dashboard div table tbody tr td div').length === 3);
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
@@ -188,7 +188,7 @@ assert($('.dashboard div table tbody tr td div').length === 3);
 
   const pie = d3.pie()
     .value(d => d.value);
-    
+
   const pieGraphData = pieGraph.selectAll('pieSlices')
     .data(pie(d3.entries(data[8].followers)))
     .enter()
@@ -329,7 +329,7 @@ assert($('.dashboard div table tbody tr td div').length === 3);
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
@@ -380,7 +380,7 @@ assert($('.dashboard div table tbody tr td div').length === 3);
 
   const pie = d3.pie()
     .value(d => d.value);
-    
+
   const pieGraphData = pieGraph.selectAll('pieSlices')
     .data(pie(d3.entries(data[8].followers)))
     .enter()

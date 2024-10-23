@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1ca4c
-title: Step 109
+title: 步骤 109
 challengeType: 0
 dashedName: step-109
 ---
@@ -144,7 +144,7 @@ assert(transform[0] < 39 && transform[1] > 31);
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
@@ -195,7 +195,7 @@ assert(transform[0] < 39 && transform[1] > 31);
 
   const pie = d3.pie()
     .value(d => d.value);
-    
+
   const pieGraphData = pieGraph.selectAll('pieSlices')
     .data(pie(d3.entries(data[8].followers)))
     .enter()
@@ -309,7 +309,7 @@ assert(transform[0] < 39 && transform[1] > 31);
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
@@ -360,7 +360,7 @@ assert(transform[0] < 39 && transform[1] > 31);
 
   const pie = d3.pie()
     .value(d => d.value);
-    
+
   const pieGraphData = pieGraph.selectAll('pieSlices')
     .data(pie(d3.entries(data[8].followers)))
     .enter()

@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1c9ea
-title: Step 13
+title: 13 단계
 challengeType: 0
 dashedName: step-13
 ---
@@ -66,7 +66,7 @@ assert(/src\s*=\s*('|")\s*(\.\/)?data.js\s*\1/gi.test(script));
     <link rel="stylesheet" href="./dashboard.css">
     <script src="./d3-5.9.2.min.js"></script>
 
-    
+
  </head>
 
   <body>
@@ -90,7 +90,7 @@ assert(/src\s*=\s*('|")\s*(\.\/)?data.js\s*\1/gi.test(script));
   <body>
     <div class="dashboard"></div>
 
-    
+
   </body>
 </html>
 ```

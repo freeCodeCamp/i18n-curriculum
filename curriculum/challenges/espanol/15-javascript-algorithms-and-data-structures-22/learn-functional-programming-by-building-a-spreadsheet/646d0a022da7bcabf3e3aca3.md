@@ -1,6 +1,6 @@
 ---
 id: 646d0a022da7bcabf3e3aca3
-title: Step 45
+title: Paso 45
 challengeType: 0
 dashedName: step-45
 ---
@@ -16,7 +16,7 @@ const innerOne = elemValue(1);
 const final = innerOne("A");
 ```
 
-`innerOne` would be your `inner` function, with `num` set to `1`, and `final` would have the value of the cell with the `id` of `A1`. This is possible because functions have access to all variables declared at their creation. This is called <dfn>closure</dfn>.
+`innerOne` sería tu función `inner`, con `num` ajustado a `1`, y `final` tendría el valor de la celda con el `id` de `"A1"`. This is possible because functions have access to all variables declared at their creation. This is called <dfn>closure</dfn>.
 
 You'll get some more practice with this. Declare a function called `addCharacters` which takes a `character1` parameter.
 

@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1ca2a
-title: Step 77
+title: Paso 77
 challengeType: 0
 dashedName: step-77
 ---
@@ -137,7 +137,7 @@ assert($('svg circle').length === 27);
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
@@ -254,7 +254,7 @@ assert($('svg circle').length === 27);
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
@@ -281,8 +281,8 @@ assert($('svg circle').length === 27);
     .data(data)
     .enter()
     .append('circle')
-    
-    
+
+
 
 </script>
 ```

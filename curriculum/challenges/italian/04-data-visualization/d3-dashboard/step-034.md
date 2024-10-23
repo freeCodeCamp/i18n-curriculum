@@ -147,10 +147,10 @@ assert($('g').length === 22);
     .call(yAxis)
     .attr('transform', `translate(${svgMargin}, 0)`)
     .style('font', '10px verdana');
-    
+
   lineGraph.append('g')
     .call(xAxis)
 
-  
+
 </script>
 ```

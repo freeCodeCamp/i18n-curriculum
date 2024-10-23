@@ -1,28 +1,30 @@
 ---
 id: 65b006efc74c675c2bdfccba
-title: Step 33
+title: 步骤 33
 challengeType: 0
 dashedName: step-33
 ---
 
 # --description--
 
-For the last condition, you will need to check if the player's `x` position has exceeded the right edge of the canvas. If it has, you will need to set the player's `x` position to the maximum value so the player does not accidentally go off screen to the right.
+对于最后一个条件，你需要检查玩家的 `x` 位置是否超出了画布的右边缘。 如果超出，你需要将玩家的 `x` 位置设置为最大值，以便玩家不会意外地向右偏离屏幕。
 
-Inside your `update` method, create an `if` statement that checks if `this.position.x >= canvas.width - 2 * this.width`.
+在 `update` 方法中，创建一个 `if` 语句，检查 `this.position.x >= canvas.width - this.width * 2` 是否成立。
 
 # --hints--
 
-You should have an `if` statement inside your `update` method.
+你的 `update` 方法内应该有另一个 `if` 语句。
 
 ```js
-assert.match(code, /if\s*\(\s*.*\s*\)\s*{/g);
+const player = new Player();
+assert.lengthOf(player?.update?.toString().match(/if\s*\(\s*.*\s*\)\s*{/g), 4);
 ```
 
-Your `if` statement should check if `this.position.x >= canvas.width - 2 * this.width`.
+你的 `if` 语句应该检查是否 `this.position.x >= canvas.width - this.width * 2`。
 
 ```js
-assert.match(code, /if\s*\(\s*this\.position\.x\s*>=\s*canvas\.width\s*-\s*2\s*\*\s*this\.width\s*\)\s*{/gi);
+const player = new Player();
+assert.match(player?.update?.toString(), /if\s*\(\s*this\.position\.x\s*>=\s*canvas\.width\s*-\s*this\.width\s*\*\s*2\s*\)\s*{/gi);
 ```
 
 # --seed--

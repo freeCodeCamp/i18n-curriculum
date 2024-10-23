@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1c9ec
-title: Step 15
+title: Hatua ya 15
 challengeType: 0
 dashedName: step-15
 ---
@@ -97,7 +97,7 @@ assert(svgMargin === 70 && svgWidth === 700 && svgHeight === 500);
   const svgMargin = 70,
     svgWidth = 700,
     svgHeight = 500;
-  
+
 
 </script>  
 ```

@@ -1,23 +1,31 @@
 ---
 id: 63bf5cf03b50bf36cfbe94ea
-title: Step 38
+title: 步骤 39
 challengeType: 0
-dashedName: step-38
+dashedName: step-39
 ---
 
 # --description--
 
-Your next step is to allow users to add entries to the calorie counter. Declare an empty function `addEntry`. This function should not take any parameters.
+现在你已经完成测试 `entryDropdown.value` 的值，你可以删除 `console.log` 语句。
+
+你的下一步是允许用户向卡路里计数器添加条目。 声明一个空函数 `addEntry`。 此函数不应接受任何参数。
 
 # --hints--
 
-You should declare an `addEntry` function.
+你应该删除 `console.log` 语句。
+
+```js
+assert.notMatch(code, /console\.log\s*\(.*\)/)
+```
+
+你应该声明一个 `addEntry` 函数。
 
 ```js
 assert.isFunction(addEntry);
 ```
 
-Your `addEntry` function should not take any parameters.
+你的 `addEntry` 函数不应接受任何参数。
 
 ```js
 assert.match(addEntry?.toString(), /\(\s*\)/);
@@ -207,6 +215,6 @@ function isInvalidInput(str) {
 }
 
 --fcc-editable-region--
-
+console.log(entryDropdown.value)
 --fcc-editable-region--
 ```

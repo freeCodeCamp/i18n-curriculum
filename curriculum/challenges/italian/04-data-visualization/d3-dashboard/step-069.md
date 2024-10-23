@@ -140,7 +140,7 @@ assert(
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
@@ -148,7 +148,7 @@ assert(
     .attr('cx', d => xScale(d.year))
     .attr('cy', d => yScale(d.followers.twitter))
     .attr('r', 6)
-    
+
 
 
 </script>
@@ -241,7 +241,7 @@ assert(
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
@@ -252,7 +252,7 @@ assert(
     .attr('fill', 'white')
     .attr('stroke', twitterColor)
 
-    
+
 
 </script>
 ```

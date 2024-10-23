@@ -7,37 +7,37 @@ dashedName: step-9
 
 # --description--
 
-If the user clicks the `Discard` button, you want to close the modal showing the `Cancel` and `Discard` buttons, then hide the form modal.
+如果用户点击 `Discard` 按钮，你需要关闭显示 `Cancel` 和 `Discard` 按钮的窗口，然后隐藏表单模式。
 
-Add a click event listener to `discardBtn`, then use the `close()` method on the `confirmCloseDialog` variable. Also, use `classList` to toggle the class `hidden` on `taskForm` so the form modal will close too.
+为 `discardBtn` 添加一个点击事件监听器，然后对 `confirmCloseDialog` 变量使用 `close()` 方法。 另外，使用 `classList` 切换 `taskForm` 上的 `hidden` 类，这样表单模式也会关闭。
 
 # --hints--
 
-You should call the `addEventListener()` method on your `discardBtn` variable.
+你应该在 `discardBtn` 变量上调用 `addEventListener()` 方法。
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(/)
 ```
 
-Your event listener should listen for a `click` event.
+你的事件监听器应该监听 `click` 事件。
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1/)
 ```
 
-You should use arrow syntax to set your event listener to an empty pair of curly braces.
+你应该使用箭头语法将事件监听器设置为一对空的花括号。
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{/)
 ```
 
-Your event listener should use the `close()` method on `confirmCloseDialog`.
+你的事件监听器应该在 `confirmCloseDialog` 上使用 `close()` 方法。
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{\s*confirmCloseDialog\.close\(\s*\)\s*;?/)
 ```
 
-Your event listener should use `classList` to toggle the class `hidden` on `taskForm`.
+你的事件监听器应该使用 `classList` 来切换 `taskForm` 上的 `hidden` 类。
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{\s*confirmCloseDialog\.close\(\s*\)\s*;?\s*taskForm\.classList\.toggle\(\s*('|"|`)hidden\2\s*\)\s*;?\s*\}\s*\)\s*;?/)

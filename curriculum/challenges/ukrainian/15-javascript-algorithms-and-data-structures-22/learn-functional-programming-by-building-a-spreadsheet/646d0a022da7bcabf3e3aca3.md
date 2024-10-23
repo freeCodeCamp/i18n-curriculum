@@ -7,7 +7,7 @@ dashedName: step-45
 
 # --description--
 
-The concept of returning a function within a function is called <dfn>currying</dfn>. This approach allows you to create a variable that holds a function to be called later, but with a reference to the parameters of the outer function call.
+Поняття повернення функції всередині функції називається <dfn>каррування</dfn> або <dfn>каррінг</dfn> (від прізвища відомого математика Каррі). Цей підхід дозволяє створити змінну, яка містить функцію, яка буде викликана пізніше, але з посиланням на параметри зовнішнього виклику функції.
 
 Наприклад:
 
@@ -16,9 +16,9 @@ const innerOne = elemValue(1);
 const final = innerOne("A");
 ```
 
-`innerOne` would be your `inner` function, with `num` set to `1`, and `final` would have the value of the cell with the `id` of `A1`. This is possible because functions have access to all variables declared at their creation. This is called <dfn>closure</dfn>.
+`innerOne` буде функцією `inner`, де `num` має значення `1`, а `final` матиме значення клітинки з `id` зі значенням `"A1"`. Це можливо, оскільки функції мають доступ до всіх змінних, оголошених при їх створенні. Це називається <dfn>замикання</dfn>.
 
-You'll get some more practice with this. Declare a function called `addCharacters` which takes a `character1` parameter.
+Ви отримаєте більше практики з ними. Оголосіть функцію під назвою `addCharacters`, яка приймає параметр `character1`.
 
 # --hints--
 

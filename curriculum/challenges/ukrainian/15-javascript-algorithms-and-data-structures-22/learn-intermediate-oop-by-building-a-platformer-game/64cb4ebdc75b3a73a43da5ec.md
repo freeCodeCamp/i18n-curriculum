@@ -1,45 +1,45 @@
 ---
 id: 64cb4ebdc75b3a73a43da5ec
-title: Step 108
+title: Крок 108
 challengeType: 0
 dashedName: step-108
 ---
 
 # --description--
 
-Create an `if` statement that checks if `isCheckpointCollisionDetectionActive` is true.
+Створіть інструкцію `if`, яка перевіряє, чи значення `isCheckpointCollisionDetectionActive` є істинним.
 
-Inside the `if` statement, add a `setTimeout()` that takes in a callback function and a delay of 2000 milliseconds.
+У інструкції `if` додайте `setTimeout()`, яка приймає функцію зворотного виклику та затримку у 2000 мілісекунд.
 
-For the callback function, it should set the `checkpointScreen` `style.display` property to `"none"`.
+Для функції зворотного виклику, вона має встановити властивості `style.display` з `checkpointScreen` на `"none"`.
 
 # --hints--
 
-You should have an `if` statement that checks if `isCheckpointCollisionDetectionActive` is true.
+Ви повинні мати інструкцію `if`, яка перевіряє, чи значення `isCheckpointCollisionDetectionActive` є істинним.
 
 ```js
 assert.match(code, /\s*if\s*\(\s*isCheckpointCollisionDetectionActive\s*\)\s*{/s);
 ```
 
-You should have a `setTimeout()` function inside the `if` statement.
+Інструкція `if` повинна містити функцію `setTimeout()`.
 
 ```js
 assert.match(code, /\s*if\s*\(\s*isCheckpointCollisionDetectionActive\s*\)\s*{\s*setTimeout\s*\(/s);
 ```
 
-Your `setTimeout()` function should have a callback function as the first argument.
+Функція `setTimeout()` повинна мати функцію зворотного виклику як перший аргумент.
 
 ```js
 assert.match(code, /\s*setTimeout\s*\(\s*\(\s*\)\s*=>/s);
 ```
 
-Your `setTimeout()` function should have a delay of 2000 milliseconds as the second argument.
+Функція `setTimeout()` повинна мати затримку в 2000 мілісекунд як другий аргумент.
 
 ```js
 assert.match(code, /\s*setTimeout\s*\(\s*\(\s*\)\s*=>[^,]*,\s*2000\s*\)/s);
 ```
 
-Your callback function should set the `checkpointScreen` `style.display` property to `"none"`.
+Функція зворотного виклику має встановіть властивість `checkpointScreen` `style.display` на `"none"`.
 
 ```js
 assert.match(code, /\s*if\s*\(\s*isCheckpointCollisionDetectionActive\s*\)\s*{\s*setTimeout\s*\(\s*\(\s*\)\s*=>\s*(\(\s*checkpointScreen\.style\.display\s*=\s*("|')none\2\s*\)|\{\s*checkpointScreen\.style\.display\s*=\s*("|')none\3\s*;?\s*\}|\s*checkpointScreen\.style\.display\s*=\s*("|')none\4\s*)\s*,\s*2000\s*\)\s*;?\s*}/s);
@@ -235,8 +235,8 @@ class Player {
       this.position.x = this.width;
     }
 
-    if (this.position.x >= canvas.width - 2 * this.width) {
-      this.position.x = canvas.width - 2 * this.width;
+    if (this.position.x >= canvas.width - this.width * 2) {
+      this.position.x = canvas.width - this.width * 2;
     }
   }
 }

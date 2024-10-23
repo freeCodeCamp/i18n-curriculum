@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1ca34
-title: Step 87
+title: Paso 87
 challengeType: 0
 dashedName: step-87
 ---
@@ -141,7 +141,7 @@ assert(
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
@@ -184,7 +184,7 @@ assert(
 
   const pieArc = d3.arc()
     .outerRadius(100)
-    
+
 
 
 </script>
@@ -277,7 +277,7 @@ assert(
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()

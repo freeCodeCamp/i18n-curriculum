@@ -1,6 +1,6 @@
 ---
 id: 660ae3eeef9ad289bece426b
-title: Step 11
+title: Hatua ya 11
 challengeType: 0
 dashedName: step-11
 ---

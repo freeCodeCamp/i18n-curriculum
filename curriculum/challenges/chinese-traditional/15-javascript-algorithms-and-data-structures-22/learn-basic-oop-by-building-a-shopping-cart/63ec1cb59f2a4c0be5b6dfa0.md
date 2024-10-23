@@ -1,6 +1,6 @@
 ---
 id: 63ec1cb59f2a4c0be5b6dfa0
-title: 步驟 5
+title: 步驟5
 challengeType: 0
 dashedName: step-5
 ---
@@ -14,7 +14,7 @@ dashedName: step-5
 你應該使用 `const` 聲明 `products` 變量。
 
 ```js
-assert.match(code, /const\s+products/);
+assert.match(code, /const\s+products\b/);
 ```
 
 你應該將變量 `products` 賦值爲一個空數組。

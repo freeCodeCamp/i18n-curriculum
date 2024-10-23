@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1ca23
-title: Step 70
+title: 步骤 70
 challengeType: 0
 dashedName: step-70
 ---
@@ -137,7 +137,7 @@ assert($('svg circle')[0].style.cursor === 'pointer');
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
@@ -148,7 +148,7 @@ assert($('svg circle')[0].style.cursor === 'pointer');
     .attr('fill', 'white')
     .attr('stroke', twitterColor)
 
-    
+
 
 </script>
 ```
@@ -240,7 +240,7 @@ assert($('svg circle')[0].style.cursor === 'pointer');
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
@@ -252,7 +252,7 @@ assert($('svg circle')[0].style.cursor === 'pointer');
     .attr('stroke', twitterColor)
     .style('cursor', 'pointer')
 
-  
+
 
 </script>
 ```

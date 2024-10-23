@@ -146,7 +146,7 @@ assert.match(code, /d3\.select\(('|"|`)\.dashboard\1\)\.html\(('|"|`)\2\)/g);
       .attr('stroke', instagramColor)
       .attr('stroke-width', 3)
       .attr('fill', 'transparent');
-      
+
     lineGraph.selectAll('twitter-circles')
       .data(data)
       .enter()
@@ -199,7 +199,7 @@ assert.match(code, /d3\.select\(('|"|`)\.dashboard\1\)\.html\(('|"|`)\2\)/g);
 
     const pie = d3.pie()
       .value(d => d.value);
-      
+
     const pieGraphData = pieGraph.selectAll('pieSlices')
       .data(pie(d3.entries(data[index].followers)))
       .enter()
@@ -358,7 +358,7 @@ assert.match(code, /d3\.select\(('|"|`)\.dashboard\1\)\.html\(('|"|`)\2\)/g);
       .attr('stroke', instagramColor)
       .attr('stroke-width', 3)
       .attr('fill', 'transparent');
-      
+
     lineGraph.selectAll('twitter-circles')
       .data(data)
       .enter()
@@ -411,7 +411,7 @@ assert.match(code, /d3\.select\(('|"|`)\.dashboard\1\)\.html\(('|"|`)\2\)/g);
 
     const pie = d3.pie()
       .value(d => d.value);
-      
+
     const pieGraphData = pieGraph.selectAll('pieSlices')
       .data(pie(d3.entries(data[index].followers)))
       .enter()

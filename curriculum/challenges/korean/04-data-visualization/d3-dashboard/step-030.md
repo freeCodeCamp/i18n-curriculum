@@ -140,7 +140,7 @@ assert($('.tick').length === 11 && /\.call\(\s*yAxis\s*\)/.test(code));
 
   lineGraph.append('g')
     .call(yAxis)
-    
+
 
 
 </script>

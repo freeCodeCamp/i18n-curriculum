@@ -14,7 +14,7 @@ dashedName: step-5
 Оголосіть змінну `products` за допомогою `const`.
 
 ```js
-assert.match(code, /const\s+products/);
+assert.match(code, /const\s+products\b/);
 ```
 
 Ви повинні встановити змінну `products` в порожній масив.

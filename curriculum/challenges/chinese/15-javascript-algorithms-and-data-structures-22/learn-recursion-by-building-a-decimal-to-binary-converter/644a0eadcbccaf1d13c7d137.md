@@ -7,9 +7,9 @@ dashedName: step-19
 
 # --description--
 
-In the base-2 number system, the rightmost digit represents the ones place, the next digit to the left represents the twos place, then the fours place, then the eights place, and so on. In this system, each digit's place value is two times greater than the digit to its right.
+在以二进制为基数的数字系统中，最右边的数字代表个位，左边的下一位数字代表两位，然后是四位，然后是八位，依此类推。 在这个系统中，每个数字的位值是其右边数字的两倍。
 
-Here are numbers zero to nine in the base-10 and base-2 number systems:
+以下是十进制和二进制数字系统中从零到九的数字：
 
 ```md
 | Base-10 | Base-2 |
@@ -26,25 +26,25 @@ Here are numbers zero to nine in the base-10 and base-2 number systems:
 |    9    |  1001  |
 ```
 
-Notice that binary numbers are formed from left to right, from the digit with the greatest place value on the left, to the least significant on the right. For example, the number `3` in binary is `11`, or `1` in the twos place and `1` in the ones place. Then for the number `4`, a digit to represent the fours place is included on the left and set to `1`, the twos place is `0`, and the ones place is `0`.
+请注意，二进制数是从左到右形成的，从左边位值最高的数字到右边位值最低的数字。 例如，二进制中的数字 `3` 是 `11`，或者两位的数字是 `1`，个位的数字是 `1`。 然后对于数字 `4`，左边包含一个表示四位的数字并设置为 `1`，两位为 `0`，个位为 `0`。
 
-In your `decimalToBinary` function, convert the number `10` into binary and `return` it as a string.
+在 `decimalToBinary` 函数中，将数字 `10` 转换为二进制并将其 `return` 为字符串。
 
 # --hints--
 
-Your `decimalToBinary` function should return a string.
+你的 `decimalToBinary` 函数应该返回一个字符串。
 
 ```js
 assert.isString(decimalToBinary());
 ```
 
-Your `decimalToBinary` function should return a string with a length of `4`.
+你的 `decimalToBinary` 函数应返回长度为 `4` 的字符串。
 
 ```js
 assert.strictEqual(decimalToBinary().length, 4);
 ```
 
-Your `decimalToBinary` function should return `1010` as a string.
+你的 `decimalToBinary` 函数应返回 `"1010"` 字符串。
 
 ```js
 assert.strictEqual(decimalToBinary(), '1010');
@@ -65,8 +65,11 @@ assert.strictEqual(decimalToBinary(), '1010');
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Decimal to Binary Converter</h1>
-    <div class="input-container">
+    <h1>
+      Decimal to Binary <br />
+      Converter
+    </h1>
+    <section class="input-container">
       <label for="number-input">Enter a decimal number:</label>
       <input
         value=""
@@ -76,9 +79,12 @@ assert.strictEqual(decimalToBinary(), '1010');
         class="number-input"
       />
       <button class="convert-btn" id="convert-btn">Convert</button>
-    </div>
-    <output id="result" for="number-input"></output>
-    <div id="animation-container"></div>
+    </section>
+    <section class="output-container">
+      <output id="result" for="number-input"></output>
+      <h2>Call stack</h2>
+      <div id="animation-container"></div>
+    </section>
     <script src="script.js"></script>
   </body>
 </html>
@@ -100,74 +106,113 @@ assert.strictEqual(decimalToBinary(), '1010');
 }
 
 body {
-  background-color: var(--dark-blue);
-  font-family: "Times New Roman", Times, serif;
-  font-size: 18px;
-  color: var(--light-grey);
-  padding: 0 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console,
+    monospace;
+  font-size: 1.125rem;
+  color: var(--light-grey);
+  background-color: var(--dark-blue);
+  padding: 0 4px;
 }
 
 h1 {
+  font-size: 2.125rem;
   text-align: center;
-  font-size: 2.3rem;
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 1.5rem;
+  text-align: center;
   margin: 20px 0;
 }
 
 .input-container {
-  margin: 10px 0;
   display: flex;
   flex-direction: column;
   gap: 10px;
   justify-content: center;
   align-items: center;
+  width: clamp(320px, 50vw, 460px);
+  margin: 10px auto;
+}
+
+.input-container label {
+  white-space: nowrap;
+  word-spacing: -6px;
 }
 
 .convert-btn {
+  font-size: inherit;
+  font-family: inherit;
   background-color: var(--orange);
-  cursor: pointer;
+  width: 100%;
+  height: 2rem;
+  padding: 0 6px;
   border: none;
-  padding: 4px;
+  border-radius: 2px;
+  cursor: pointer;
 }
 
 .number-input {
-  height: 25px;
+  font-size: inherit;
+  padding: 0.3rem;
+  width: 100%;
+}
+
+.output-container {
+  margin-inline: auto;
+  width: clamp(320px, 50vw, 460px);
 }
 
 #result {
-  margin: 10px 0;
-  min-width: 200px;
-  width: fit-content;
-  min-height: 80px;
-  word-break: break-word;
-  padding: 15px;
-  border: 5px solid var(--orange);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 2rem;
   text-align: center;
+  min-height: 80px;
+  margin-block-start: 20px;
+  padding: 15px;
+  border: 2px solid var(--orange);
+  border-radius: 2px;
 }
 
 #animation-container {
-  margin: auto;
-  max-width: 300px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: end;
+  gap: 1rem;
+  margin-block-end: 1rem;
+  min-height: 40vh;
+  border: 2px dashed var(--orange);
+  padding: 1rem;
 }
 
 .animation-frame {
-  margin: 250px auto 0;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+    helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial,
+    sans-serif;
   padding: 15px 10px;
   border: 5px solid var(--orange);
   font-size: 1.2rem;
   text-align: center;
 }
 
-@media screen and (min-width: 500px) {
-  .input-container {
-    flex-direction: row;
+@media screen and (min-width: 36em) {
+  body {
+    font-size: 1rem;
   }
 
-  #result {
-    max-width: 460px;
+  .input-container {
+    flex-direction: row;
+    width: unset;
+  }
+
+  .number-input {
+    width: unset;
   }
 }
 ```

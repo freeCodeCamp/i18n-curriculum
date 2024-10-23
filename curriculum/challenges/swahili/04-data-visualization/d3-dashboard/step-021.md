@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1c9f2
-title: Step 21
+title: Hatua ya 21
 challengeType: 0
 dashedName: step-21
 ---

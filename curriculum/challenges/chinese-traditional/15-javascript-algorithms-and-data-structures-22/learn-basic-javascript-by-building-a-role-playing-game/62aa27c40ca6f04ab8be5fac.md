@@ -1,13 +1,13 @@
 ---
 id: 62aa27c40ca6f04ab8be5fac
-title: Step 167
+title: 步驟 167
 challengeType: 0
 dashedName: step-167
 ---
 
 # --description--
 
-In the previous project, you learned how to work with `for` loops like this:
+在上一個項目中，你學習瞭如何使用 `for` 循環，如下所示：
 
 ```js
 for (let i = 0; i < 5; i++) {
@@ -15,26 +15,26 @@ for (let i = 0; i < 5; i++) {
 }
 ```
 
-`for` loops are declared with three expressions separated by semicolons: `for (a; b; c)`, where `a` is the initialization expression, `b` is the condition, and `c` is the final expression.
+`for` 循環由三個以分號分隔的表達式聲明：`for (a; b; c)`，其中 `a` 是初始化表達式，`b` 是條件，`c` 是最終表達式。
 
-In this step, create a `for` loop where `i` is initialized to `0`, the loop runs as long as `i` is less than `10`, and `i` is incremented by `1` after each iteration using the increment operator `++`.
+在此步驟中，創建一個 `for` 循環，其中 `i` 初始化爲 `0`，只要 `i` 小於 `10`，循環就會運行，並且每次迭代後使用增量運算符 `++` 將 `i` 增加 `1`。
 
 
 # --hints--
 
-Your `for` loop initialization should have `i` initialized to `0`.
+你的 `for` 循環初始化應該將 `i` 初始化爲 `0`。
 
 ```js
 assert.match(pick.toString(), /for\s*\(\s*(let|var)\s+i\s*=\s*0\s*;/)
 ```
 
-Your loop condition should run as long as `i` is less than `10`.
+只要 `i` 小於 `10`，你的循環條件就應該運行。
 
 ```js
 assert.match(pick.toString(), /for\s*\(\s*(let|var)\s+i\s*=\s*0\s*;\s*i\s*<\s*10\s*;/)
 ```
 
-Your loop should increment `i` by `1` after each iteration. Remember to use the increment operator `++`.
+你的循環應該在每次迭代之後將 `i` 增加 `1`。 記得使用增量運算符 `++`。
 
 ```js
 assert.match(pick.toString(), /for\s*\(\s*(let|var)\s+i\s*=\s*0\s*;\s*i\s*<\s*10\s*;\s*i\+\+\s*\)/)

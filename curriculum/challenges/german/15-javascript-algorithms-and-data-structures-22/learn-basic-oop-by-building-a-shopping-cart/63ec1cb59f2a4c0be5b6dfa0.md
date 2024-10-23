@@ -14,7 +14,7 @@ Ein Einkaufswagen erfüllt ohne Produkte kaum einen Zweck. Deklariere die `produ
 Du solltest eine `products`-Variable mit `const` deklarieren.
 
 ```js
-assert.match(code, /const\s+products/);
+assert.match(code, /const\s+products\b/);
 ```
 
 Du solltest die `products`-Variable auf ein leeres Array setzen.

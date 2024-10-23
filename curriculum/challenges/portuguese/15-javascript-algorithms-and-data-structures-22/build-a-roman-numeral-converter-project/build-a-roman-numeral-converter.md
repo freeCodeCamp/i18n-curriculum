@@ -1,6 +1,6 @@
 ---
 id: 657bdc8ba322aae1eac38390
-title: Build a Roman Numeral Converter
+title: Crie um conversor de números romanos
 challengeType: 14
 forumTopicId: 16044
 dashedName: build-a-roman-numeral-converter
@@ -10,25 +10,25 @@ dashedName: build-a-roman-numeral-converter
 
 Roman numerals are based on seven symbols and can be written using various combinations to represent Arabic numerals. Por exemplo:
 
-| Roman numerals | Números arábicos |
-| -------------- | ---------------- |
-| M              | 1000             |
-| CM             | 900              |
-| D              | 500              |
-| CD             | 400              |
-| C              | 100              |
-| XC             | 90               |
-| L              | 50               |
-| XL             | 40               |
-| X              | 10               |
-| IX             | 9                |
-| V              | 5                |
-| IV             | 4                |
-| I              | 1                |
+| Números romanos | Números arábicos |
+| --------------- | ---------------- |
+| M               | 1000             |
+| CM              | 900              |
+| D               | 500              |
+| CD              | 400              |
+| C               | 100              |
+| XC              | 90               |
+| L               | 50               |
+| XL              | 40               |
+| X               | 10               |
+| IX              | 9                |
+| V               | 5                |
+| IV              | 4                |
+| I               | 1                |
 
-**Objective:** Build an app that is functionally similar to <a href="https://roman-numeral-converter.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://roman-numeral-converter.freecodecamp.rocks</a>
+**Objetivo:** crie uma aplicação que seja funcionalmente igual a <a href="https://roman-numeral-converter.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://roman-numeral-converter.freecodecamp.rocks</a>
 
-**User Stories:**
+**Histórias de usuário:**
 
 1. You should have an `input` element with an `id` of `"number"`
 1. You should have a `button` element with an `id` of `"convert-btn"`
@@ -42,7 +42,7 @@ Roman numerals are based on seven symbols and can be written using various combi
 1. When the `#number` element contains the number `1023` and the `#convert-btn` element is clicked, the `#output` element should contain the text `"MXXIII"`
 1. When the `#number` element contains the number `3999` and the `#convert-btn` element is clicked, the `#output` element should contain the text `"MMMCMXCIX"`
 
-Fulfill the user stories and pass all the tests below to complete this project. Dê ao projeto o seu próprio estilo pessoal. Happy Coding!
+Atenda às histórias de usuário e passe em todos os testes abaixo para concluir este projeto. Dê ao projeto o seu próprio estilo pessoal. Boa programação!
 
 # --hints--
 

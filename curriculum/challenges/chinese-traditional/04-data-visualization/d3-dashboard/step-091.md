@@ -137,7 +137,7 @@ assert(/const\s*pie\s*=\s*d3\s*\.\s*pie\s*\(\s*\)/g.test(code));
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
@@ -278,7 +278,7 @@ assert(/const\s*pie\s*=\s*d3\s*\.\s*pie\s*\(\s*\)/g.test(code));
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
