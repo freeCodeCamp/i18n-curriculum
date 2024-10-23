@@ -106,7 +106,7 @@ assert(
     .call(xAxis)
     .attr('transform', `translate(0, ${svgHeight - svgMargin})`)
     .selectAll('text')
-    
+
 
 </script>
 ```
@@ -163,6 +163,6 @@ assert(
     .selectAll('text')
     .style('transform', 'translate(-12px, 0) rotate(-50deg)')
 
-  
+
 </script>
 ```

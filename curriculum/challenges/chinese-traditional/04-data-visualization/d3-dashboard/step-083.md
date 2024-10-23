@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1ca30
-title: Step 83
+title: 步驟 83
 challengeType: 0
 dashedName: step-83
 ---
@@ -141,7 +141,7 @@ assert(
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
@@ -178,7 +178,7 @@ assert(
   const rightDashboard = d3.select('.dashboard')
     .append('div');
 
-    
+
 
 </script>
 ```
@@ -270,7 +270,7 @@ assert(
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()

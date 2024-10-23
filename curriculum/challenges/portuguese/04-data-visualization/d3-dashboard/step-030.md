@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1c9fb
-title: Step 30
+title: Passo 30
 challengeType: 0
 dashedName: step-30
 ---
@@ -140,7 +140,7 @@ assert($('.tick').length === 11 && /\.call\(\s*yAxis\s*\)/.test(code));
 
   lineGraph.append('g')
     .call(yAxis)
-    
+
 
 
 </script>

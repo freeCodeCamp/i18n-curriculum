@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1c9fc
-title: Step 31
+title: ステップ 31
 challengeType: 0
 dashedName: step-31
 ---
@@ -95,7 +95,7 @@ assert($('g')[0].attributes.transform.nodeValue === 'translate(70, 0)');
 
   lineGraph.append('g')
     .call(yAxis)
-    
+
 
 
 </script>

@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1ca19
-title: Step 60
+title: 步骤 60
 challengeType: 0
 dashedName: step-60
 ---
@@ -224,7 +224,7 @@ assert($('svg path')[4].getAttribute('d').length === 171);
   lineGraph.append('path')
     .attr('d', instagramLine(data))
 
-    
+
 
 </script>
 ```

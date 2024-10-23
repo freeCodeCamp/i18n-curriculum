@@ -1,6 +1,6 @@
 ---
 id: 657bdc8ba322aae1eac38390
-title: Build a Roman Numeral Converter
+title: 創建一個羅馬數字轉換器
 challengeType: 14
 forumTopicId: 16044
 dashedName: build-a-roman-numeral-converter
@@ -8,66 +8,66 @@ dashedName: build-a-roman-numeral-converter
 
 # --description--
 
-Roman numerals are based on seven symbols and can be written using various combinations to represent Arabic numerals. 例如：
+羅馬數字以七個符號爲基礎，可以用不同的組合來表示阿拉伯數字。 舉個例子：
 
-| Roman numerals | 阿拉伯數字 |
-| -------------- | ----- |
-| M              | 1000  |
-| CM             | 900   |
-| D              | 500   |
-| CD             | 400   |
-| C              | 100   |
-| XC             | 90    |
-| L              | 50    |
-| XL             | 40    |
-| X              | 10    |
-| IX             | 9     |
-| V              | 5     |
-| IV             | 4     |
-| I              | 1     |
+| 羅馬數字 | 阿拉伯數字 |
+| ---- | ----- |
+| M    | 1000  |
+| CM   | 900   |
+| D    | 500   |
+| CD   | 400   |
+| C    | 100   |
+| XC   | 90    |
+| L    | 50    |
+| XL   | 40    |
+| X    | 10    |
+| IX   | 9     |
+| V    | 5     |
+| IV   | 4     |
+| I    | 1     |
 
-**Objective:** Build an app that is functionally similar to <a href="https://roman-numeral-converter.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://roman-numeral-converter.freecodecamp.rocks</a>
+**目標：** 構建一個功能上與 <a href="https://roman-numeral-converter.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://roman-numeral-converter.freecodecamp.rocks</a> 相似的應用程序。
 
-**User Stories:**
+**用戶需求：**
 
-1. You should have an `input` element with an `id` of `"number"`
-1. You should have a `button` element with an `id` of `"convert-btn"`
-1. You should have a `div`, `span` or `p` element with an `id` of `output`
-1. When you click on the `#convert-btn` element without entering a value into the `#number` element, the `#output` element should contain the text `"Please enter a valid number"`
-1. When the `#number` element contains the number `-1` and the `#convert-btn` element is clicked, the `#output` element should contain the text `"Please enter a number greater than or equal to 1"`
-1. When the `#number` element contains the number `4000` or greater and the `#convert-btn` element is clicked, the `#output` element should contain the text `"Please enter a number less than or equal to 3999"`
-1. When the `#number` element contains the number `9` and the `#convert-btn` element is clicked, the `#output` element should contain the text `"IX"`
-1. When the `#number` element contains the number `16` and the `#convert-btn` element is clicked, the `#output` element should contain the text `"XVI"`
-1. When the `#number` element contains the number `649` and the `#convert-btn` element is clicked, the `#output` element should contain the text `"DCXLIX"`
-1. When the `#number` element contains the number `1023` and the `#convert-btn` element is clicked, the `#output` element should contain the text `"MXXIII"`
-1. When the `#number` element contains the number `3999` and the `#convert-btn` element is clicked, the `#output` element should contain the text `"MMMCMXCIX"`
+1. 你應該有一個 `id` 爲 `"number"` 的 `input` 元素
+1. 你應該有一個 `id` 爲 `"convert-btn"` 的 `button` 元素
+1. 你應該有一個 `id` 爲 `output` 的 `div`、`span` 或 `p` 元素
+1. 當你點擊 `#convert-btn` 元素，但沒有給 `#number` 元素輸入一個值時，`#output` 元素應該包含文本 `"Please enter a valid number"`
+1. 當 `#number` 元素包含數字 `-1`，並點擊 `#convert-btn` 元素時，`#output` 元素應該包含文本 `"Please enter a number greater than or equal to 1"`
+1. 當 `#number` 元素包含 `4000` 或更大的數字，並點擊 `#convert-btn` 元素時，`#output` 元素應該包含文本 `"Please enter a number less than or equal to 3999"`
+1. 當 `#number` 元素包含數字 `9`，並點擊 `#convert-btn` 元素時，`#output` 元素應該包含文本 `"IX"`
+1. 當 `#number` 元素包含數字 `16`，並點擊 `#convert-btn` 元素時，`#output` 元素應該包含文本 `"XVI"`
+1. 當 `#number` 元素包含數字 `649`，並點擊 `#convert-btn` 元素時，`#output` 元素應該包含文本 `"DCXLIX"`
+1. 當 `#number` 元素包含數字 `1023`，並點擊 `#convert-btn` 元素時，`#output` 元素應該包含文本 `"MXXIII"`
+1. 當 `#number` 元素包含數字 `3999`，並點擊 `#convert-btn` 元素時，`#output` 元素應該包含文本 `"MMMCMXCIX"`
 
-Fulfill the user stories and pass all the tests below to complete this project. 樣式的話沒有要求，可以根據你的喜好自由發揮。 Happy Coding!
+完成用戶需求並通過下面的所有測試來完成這個項目。 賦予它你的個人風格。 祝你編碼愉快！
 
 # --hints--
 
-You should have an `input` element with an `id` of `"number"`.
+你應該有一個 `id` 爲 `"number"` 的 `input` 元素。
 
 ```js
 const el = document.getElementById('number');
 assert.strictEqual(el?.nodeName?.toLowerCase(), 'input');
 ```
 
-You should have a `button` element with an `id` of `"convert-btn"`.
+你應該有一個 `id` 爲 `"convert-btn"` 的 `button` 元素。
 
 ```js
 const el = document.getElementById('convert-btn');
 assert.strictEqual(el?.nodeName?.toLowerCase(), 'button');
 ```
 
-You should have a `div`, `span`, or `p` element with an `id` of `"output"`.
+你應該有一個 `id` 爲 `"output"` 的 `div`、`span` 或 `p` 元素。
 
 ```js
 const el = document.getElementById('output');
 assert(['div', 'span', 'p'].includes(el?.nodeName?.toLowerCase()));
 ```
 
-When you click on the `#convert-btn` element without entering a value into the `#number` element, the `#output` element should contain the text `"Please enter a valid number"`.
+當你點擊 `#convert-btn` 元素，但沒有給 `#number` 元素輸入一個值時，`#output` 元素應該包含文本 `"Please enter a valid number"`。
 
 ```js
 const numberInputEl = document.getElementById('number');
@@ -79,7 +79,7 @@ convertBtnEl.click();
 assert.strictEqual(outputEl.innerText.trim().replace(/[.,?!]+$/g, '').toLowerCase(), 'please enter a valid number');
 ```
 
-When the `#number` element contains the number `-1` and the `#convert-btn` element is clicked, the `#output` element should contain the text `"Please enter a number greater than or equal to 1"`.
+當 `#number` 元素包含數字 `-1`，並點擊 `#convert-btn` 元素時，`#output` 元素應該包含文本 `"Please enter a number greater than or equal to 1"`。
 
 ```js
 const numberInputEl = document.getElementById('number');
@@ -92,7 +92,7 @@ convertBtnEl.click();
 assert.strictEqual(outputEl.innerText.trim().replace(/[.,?!]+$/g, '').toLowerCase(), 'please enter a number greater than or equal to 1');
 ```
 
-When the `#number` element contains the number `4000` or greater and the `#convert-btn` element is clicked, the `#output` element should contain the text `"Please enter a number less than or equal to 3999"`.
+當 `#number` 元素包含 `4000` 或更大的數字，並點擊 `#convert-btn` 元素時，`#output` 元素應該包含文本 `"Please enter a number less than or equal to 3999"`。
 
 ```js
 const numberInputEl = document.getElementById('number');
@@ -105,7 +105,7 @@ convertBtnEl.click();
 assert.strictEqual(outputEl.innerText.trim().replace(/[.,?!]+$/g, '').toLowerCase(), 'please enter a number less than or equal to 3999');
 ```
 
-When the `#number` element contains the number `9` and the `#convert-btn` element is clicked, the `#output` element should contain the text `"IX"`.
+當 `#number` 元素包含數字 `9`，並點擊 `#convert-btn` 元素時，`#output` 元素應該包含文本 `"IX"`。
 
 ```js
 const numberInputEl = document.getElementById('number');
@@ -118,7 +118,7 @@ convertBtnEl.click();
 assert.strictEqual(outputEl.innerText.trim(), 'IX');
 ```
 
-When the `#number` element contains the number `16` and the `#convert-btn` element is clicked, the `#output` element should contain the text `"XVI"`.
+當 `#number` 元素包含數字 `16`，並點擊 `#convert-btn` 元素時，`#output` 元素應該包含文本 `"XVI"`。
 
 ```js
 const numberInputEl = document.getElementById('number');
@@ -131,7 +131,7 @@ convertBtnEl.click();
 assert.strictEqual(outputEl.innerText.trim(), 'XVI');
 ```
 
-When the `#number` element contains the number `649` and the `#convert-btn` element is clicked, the `#output` element should contain the text `"DCXLIX"`.
+當 `#number` 元素包含數字 `649`，並點擊 `#convert-btn` 元素時，`#output` 元素應該包含文本 `"DCXLIX"`。
 
 ```js
 const numberInputEl = document.getElementById('number');
@@ -144,7 +144,7 @@ convertBtnEl.click();
 assert.strictEqual(outputEl.innerText.trim(), 'DCXLIX');
 ```
 
-When the `#number` element contains the number `1023` and the `#convert-btn` element is clicked, the `#output` element should contain the text `"MXXIII"`.
+當 `#number` 元素包含數字 `1023`，並點擊 `#convert-btn` 元素時，`#output` 元素應該包含文本 `"MXXIII"`。
 
 ```js
 const numberInputEl = document.getElementById('number');
@@ -157,7 +157,7 @@ convertBtnEl.click();
 assert.strictEqual(outputEl.innerText.trim(), 'MXXIII');
 ```
 
-When the `#number` element contains the number `3999` and the `#convert-btn` element is clicked, the `#output` element should contain the text `"MMMCMXCIX"`.
+當 `#number` 元素包含數字 `3999`，並點擊 `#convert-btn` 元素時，`#output` 元素應該包含文本 `"MMMCMXCIX"`。
 
 ```js
 const numberInputEl = document.getElementById('number');
@@ -170,7 +170,7 @@ convertBtnEl.click();
 assert.strictEqual(outputEl.innerText.trim(), 'MMMCMXCIX');
 ```
 
-When the `#number` element contains a random negative number and the `#convert-btn` element is clicked, the `#output` element should contain the text `"Please enter a number greater than or equal to 1"`.
+當 `#number` 元素包含一個任意的負數，並點擊 `#convert-btn` 元素時，`#output` 元素應該包含文本 `"Please enter a number greater than or equal to 1"`。
 
 ```js
 const numberInputEl = document.getElementById('number');
@@ -185,7 +185,7 @@ convertBtnEl.click();
 assert.strictEqual(outputEl.innerText.trim().replace(/[.,?!]+$/g, '').toLowerCase(), 'please enter a number greater than or equal to 1');
 ```
 
-When the `#number` element contains a number greater than 4000 and the `#convert-btn` element is clicked, the `#output` element should contain the text `"Please enter a number less than or equal to 3999"`.
+當 `#number` 元素包含一個大於 4000 的數字，並點擊 `#convert-btn` 元素時，`#output` 元素應該包含文本 `"Please enter a number less than or equal to 3999"`。
 
 ```js
 const numberInputEl = document.getElementById('number');

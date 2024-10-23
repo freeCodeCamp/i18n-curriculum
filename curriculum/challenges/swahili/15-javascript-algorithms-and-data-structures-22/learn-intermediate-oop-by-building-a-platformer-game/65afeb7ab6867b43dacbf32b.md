@@ -1,6 +1,6 @@
 ---
 id: 65afeb7ab6867b43dacbf32b
-title: Step 10
+title: Hatua ya 10
 challengeType: 0
 dashedName: step-10
 ---

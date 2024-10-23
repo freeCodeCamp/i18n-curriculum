@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1ca52
-title: Step 115
+title: ステップ 115
 challengeType: 0
 dashedName: step-115
 ---
@@ -137,7 +137,7 @@ assert($('.dashboard div table thead tr th').length === 1);
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
@@ -188,7 +188,7 @@ assert($('.dashboard div table thead tr th').length === 1);
 
   const pie = d3.pie()
     .value(d => d.value);
-    
+
   const pieGraphData = pieGraph.selectAll('pieSlices')
     .data(pie(d3.entries(data[8].followers)))
     .enter()
@@ -311,7 +311,7 @@ assert($('.dashboard div table thead tr th').length === 1);
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
@@ -362,7 +362,7 @@ assert($('.dashboard div table thead tr th').length === 1);
 
   const pie = d3.pie()
     .value(d => d.value);
-    
+
   const pieGraphData = pieGraph.selectAll('pieSlices')
     .data(pie(d3.entries(data[8].followers)))
     .enter()

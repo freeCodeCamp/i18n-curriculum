@@ -1,6 +1,6 @@
 ---
 id: 62a8ae85fcaedc0fddc7ca4f
-title: Step 59
+title: Schritt 59
 challengeType: 0
 dashedName: step-59
 ---
@@ -65,7 +65,7 @@ Dein zweites `locations`-Objekt sollte eine `text`-Eigenschaft haben, welche ein
 assert.isString(locations[1].text);
 ```
 
-Your second `locations` object should have a `text` property with the value of `"You enter the store."`.
+Dein zweites `locations`-Objekt sollte eine `text`-Eigenschaft mit dem Wert `"You enter the store."` enthalten.
 
 ```js
 assert.equal(locations[1].text, "You enter the store.");

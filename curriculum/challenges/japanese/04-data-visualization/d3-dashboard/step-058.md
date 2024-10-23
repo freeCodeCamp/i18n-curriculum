@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1ca17
-title: Step 58
+title: ステップ 58
 challengeType: 0
 dashedName: step-58
 ---

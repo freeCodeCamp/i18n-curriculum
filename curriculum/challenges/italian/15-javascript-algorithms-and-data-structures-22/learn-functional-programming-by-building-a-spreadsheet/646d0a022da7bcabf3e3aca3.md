@@ -16,7 +16,7 @@ const innerOne = elemValue(1);
 const final = innerOne("A");
 ```
 
-`innerOne` sarebbe la tua funzione `inner`, con `num` impostato a `1`, e `final` avrebbe il valore della cella con l'`id` di `A1`. Questo è possibile perché le funzioni hanno accesso a tutte le variabili dichiarate alla loro creazione. Ciò è detto <dfn>closure</dfn> (chiusura).
+`innerOne` would be your `inner` function, with `num` set to `1`, and `final` would have the value of the cell with the `id` of `"A1"`. Questo è possibile perché le funzioni hanno accesso a tutte le variabili dichiarate alla loro creazione. Ciò è detto <dfn>closure</dfn> (chiusura).
 
 Farai un po' di pratica su questo aspetto. Dichiara una funzione chiamata `addCharacters` che richiede un parametro `character1`.
 

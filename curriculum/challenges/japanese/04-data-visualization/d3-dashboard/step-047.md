@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1ca0c
-title: Step 47
+title: ステップ 47
 challengeType: 0
 dashedName: step-47
 ---
@@ -116,7 +116,7 @@ assert(
     .y(d => yScale(d.followers.twitter));
 
 
-    
+
 </script>
 ```
 

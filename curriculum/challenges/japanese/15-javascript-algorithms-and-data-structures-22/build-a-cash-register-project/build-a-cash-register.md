@@ -1,6 +1,6 @@
 ---
 id: 657bdcc3a322aae1eac38392
-title: Build a Cash Register
+title: キャッシュレジスターを作成する
 challengeType: 14
 forumTopicId: 16012
 dashedName: build-a-cash-register
@@ -8,94 +8,94 @@ dashedName: build-a-cash-register
 
 # --description--
 
-Here you'll build a cash register app that will return change to the customer based on the price of the item, the amount of cash provided by the customer, and the amount of cash in the cash drawer. You'll also need to show different messages to the user in different scenarios, such as when the customer provides too little cash or when the cash drawer doesn't have enough to issue the correct change.
+このプロジェクトでは、キャッシュレジスターアプリを作成します。このアプリでは、商品の価格、顧客が渡した金額、およびキャッシュドロアに入っている金額に基づいて、おつりを返します。 また、顧客が渡した金額が少なすぎたり、キャッシュドロア内の現金が不足していて正しいおつりが出せないなどの場合、状況に応じたメッセージを表示します。
 
-In the `script.js` file, you have been provided with the `price` and `cid` variables. The `price` variable is the price of the item, and the `cid` variable is the cash-in-drawer, which is a 2D array listing the available currency in the cash drawer.
+`script.js` ファイル内に、変数 `price` および `cid` があらかじめ用意してあります。 変数 `price` は商品の価格です。変数 `cid` は「cash-in-drawer」の略で、キャッシュドロア内にある利用可能な通貨のリストを表した二次元配列です。
 
-The other variable you will need to add is the `cash` variable, which is the amount of cash provided by the customer for the item, which is provided via an `input` element on the page.
+もう 1 つ、`cash` という変数を追加する必要があります。この変数で表されるのは、ページ上の `input` 要素を通して入力される、顧客が渡した金額です。
 
-If you'd like to test your application with different values for `price` and `cid`, make sure to declare them with the `let` keyword so they can be reassigned by our tests.
+`price` と `cid` の値を変えてアプリの動作をテストする場合も、これらの変数は必ず `let` キーワードで宣言するようにしてください。freeCodeCamp 側のテストで再代入できるようにする必要があるためです。
 
-Your application should show different messages depending on the price of the item, the amount of cash provided by the customer, and the amount of cash in the drawer:
+アプリでは、商品の価格、顧客が渡した金額、およびキャッシュドロアに入っている金額に基づいて、異なるメッセージを表示します:
 
-- `"Status: INSUFFICIENT_FUNDS"`: if `cash-in-drawer` is less than the change due, or if you cannot return the exact change.
-- `"Status: CLOSED"`: if `cash-in-drawer` is equal to the change due.
-- `"Status: OPEN"`: if `cash-in-drawer` is greater than the change due and you can return change, with the change due in coins and bills sorted in highest to lowest order.
+- `"Status: INSUFFICIENT_FUNDS"`: `cash-in-drawer` が、返すべきおつりの額より少ない場合、または正確なおつりを返すことができない場合。
+- `"Status: CLOSED"`: `cash-in-drawer` が、返すべきおつりの額と等しい場合。
+- `"Status: OPEN"`: `cash-in-drawer` が、返すべきおつりの額より多く、おつりを返すことができる場合。あわせて、返すべきおつりに含まれる各硬貨と紙幣の金額を、高額紙幣 (硬貨) から低額へ順にソートして表示する。
 
-|    Currency Unit    |       Amount       |
-|:-------------------:|:------------------:|
-|        Penny        |   $0.01 (PENNY)    |
-|       Nickel        |   $0.05 (NICKEL)   |
-|        Dime         |    $0.1 (DIME)     |
-|       Quarter       |  $0.25 (QUARTER)   |
-|       Dollar        |      $1 (ONE)      |
-|    Five Dollars     |     $5 (FIVE)      |
-|     Ten Dollars     |     $10 (TEN)      |
-|   Twenty Dollars    |    $20 (TWENTY)    |
-| One Hundred Dollars | $100 (ONE HUNDRED) |
+|   通貨単位   |         金額         |
+|:--------:|:------------------:|
+| 1 セント硬貨  |   $0.01 (PENNY)    |
+| 5 セント硬貨  |   $0.05 (NICKEL)   |
+| 10 セント硬貨 |    $0.1 (DIME)     |
+| 25 セント硬貨 |  $0.25 (QUARTER)   |
+|  1 ドル札   |      $1 (ONE)      |
+|  5 ドル札   |     $5 (FIVE)      |
+|  10 ドル札  |     $10 (TEN)      |
+|  20 ドル札  |    $20 (TWENTY)    |
+| 100 ドル札  | $100 (ONE HUNDRED) |
 
-**Objective:** Build an app that is functionally similar to <a href="https://cash-register.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://cash-register.freecodecamp.rocks</a>
+**目標:** <a href="https://cash-register.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://cash-register.freecodecamp.rocks</a> と似た機能を持つアプリを作成します。
 
-**User Stories:**
+**ユーザーストーリー:**
 
-1. You should have an `input` element with an `id` of `"cash"`
-1. You should have a `div`, `span` or `p` element with an `id` of `"change-due"`
-1. You should have a `button` element with an `id` of `"purchase-btn"`
-1. When the value in the `#cash` element is less than `price`, an alert should appear with the text `"Customer does not have enough money to purchase the item"`
-1. When the value in the `#cash` element is equal to `price`, the value in the `#change-due` element should be `"No change due - customer paid with exact cash"`
-1. When `price` is `19.5`, the value in the `#cash` element is `20`, `cid` is `[["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.1], ["QUARTER", 4.25], ["ONE", 90], ["FIVE", 55], ["TEN", 20], ["TWENTY", 60], ["ONE HUNDRED", 100]]`, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: OPEN QUARTER: $0.5"`
-1. When `price` is `3.26`, the value in the `#cash` element is `100`, `cid` is `[["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.1], ["QUARTER", 4.25], ["ONE", 90], ["FIVE", 55], ["TEN", 20], ["TWENTY", 60], ["ONE HUNDRED", 100]]`, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: OPEN TWENTY: $60 TEN: $20 FIVE: $15 ONE: $1 QUARTER: $0.5 DIME: $0.2 PENNY: $0.04"`
-1. When `price` is `19.5`, the value in the `#cash` element is `20`, `cid` is `[["PENNY", 0.01], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 0], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]`, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: INSUFFICIENT_FUNDS"`
-1. When `price` is `19.5`, the value in the `#cash` element is `20`, `cid` is `[["PENNY", 0.01], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 1], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]`, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: INSUFFICIENT_FUNDS"`
-1. When `price` is `19.5`, the value in the `#cash` element is `20`, `cid` is `[["PENNY", 0.5], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 0], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]`, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: CLOSED PENNY: $0.5"`
+1. `id` が `"cash"` に設定された `input` 要素が必要です。
+1. `id` が `"change-due"` に設定された、`div`、`span`、または `p` 要素のいずれかが必要です。
+1. `id` が `"purchase-btn"` に設定された `button` 要素が必要です。
+1. `#cash` の要素に入力された値が `price` より少ない場合、`"Customer does not have enough money to purchase the item"` というテキストのアラートが表示されます。
+1. `#cash` の要素に入力された値が `price` に等しい場合、`#change-due` の要素に表示する値は `"No change due - customer paid with exact cash"` となります。
+1. `price` が `19.5`、`#cash` の要素に入力された値が `20`、`cid` が `[["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.1], ["QUARTER", 4.25], ["ONE", 90], ["FIVE", 55], ["TEN", 20], ["TWENTY", 60], ["ONE HUNDRED", 100]]` の状態で、`#purchase-btn` の要素をクリックした場合、`#change-due` の要素に表示する値は `"Status: OPEN QUARTER: $0.5"` となります。
+1. `price` が `3.26`、`#cash` の要素に入力された値が `100`、`cid` が `[["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.1], ["QUARTER", 4.25], ["ONE", 90], ["FIVE", 55], ["TEN", 20], ["TWENTY", 60], ["ONE HUNDRED", 100]]` の状態で、`#purchase-btn` の要素をクリックした場合、`#change-due` の要素に表示する値は `"Status: OPEN TWENTY: $60 TEN: $20 FIVE: $15 ONE: $1 QUARTER: $0.5 DIME: $0.2 PENNY: $0.04"` となります。
+1. `price` が `19.5`、`#cash` の要素に入力された値が `20`、`cid` が `[["PENNY", 0.01], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 0], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]` の状態で、`#purchase-btn` の要素をクリックした場合、`#change-due` の要素に表示する値は `"Status: INSUFFICIENT_FUNDS"` となります。
+1. `price` が `19.5`、`#cash` の要素に入力された値が `20`、`cid` が `[["PENNY", 0.01], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 1], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]` の状態で、`#purchase-btn` の要素をクリックした場合、`#change-due` の要素に表示する値は `"Status: INSUFFICIENT_FUNDS"` となります。
+1. `price` が `19.5`、`#cash` の要素に入力された値が `20`、`cid` が `[["PENNY", 0.5], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 0], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]` の状態で、`#purchase-btn` の要素をクリックした場合、`#change-due` の要素に表示する値は `"Status: CLOSED PENNY: $0.5"` となります。
 
-Fulfill the user stories and pass all the tests below to complete this project. Give it your own personal style. Happy Coding!
+上記のユーザーストーリーを満たし、以下のすべてのテストが通るようにして、このプロジェクトを完成させてください。 あなた独自のアレンジを加えましょう。 ハッピーコーディング！
 
 # --hints--
 
-You should have the HTML file link to the JavaScript file.
+HTML ファイルを JavaScript ファイルにリンクさせる必要があります。
 
 ```js
 const script = document.querySelector('script[data-src$="script.js"]');
 assert.isNotNull(script); 
 ```
 
-You should have a global variable called `price`.
+`price` というグローバル変数が必要です。
 
 ```js
 price = 10;
 assert.strictEqual(price, 10);
 ```
 
-You should have a global variable called `cid`.
+`cid` というグローバル変数が必要です。
 
 ```js
 cid = []; 
 assert.isDefined(cid); 
 ```
 
-You should have an `input` element with an `id` of `"cash"`.
+`id` が `"cash"` に設定された `input` 要素が必要です。
 
 ```js
 const el = document.getElementById('cash');
 assert.strictEqual(el?.nodeName?.toLowerCase(), 'input');
 ```
 
-You should have a `div`, `span`, or `p` element with an `id` of `"change-due"`.
+`id` が `"change-due"` に設定された、`div`、`span`、または `p` 要素のいずれかが必要です。
 
 ```js
 const el = document.getElementById('change-due');
 assert(['div', 'span', 'p'].includes(el?.nodeName?.toLowerCase()));
 ```
 
-You should have a `button` element with an `id` of `"purchase-btn"`.
+`id` が `"purchase-btn"` に設定された `button` 要素が必要です。
 
 ```js
 const el = document.getElementById('purchase-btn');
 assert.strictEqual(el?.nodeName?.toLowerCase(), 'button');
 ```
 
-When `price` is `20` and the value in the `#cash` element is `10`, an alert should appear with the text `"Customer does not have enough money to purchase the item"`.
+`price` が `20`で、`#cash` の要素に入力された値が `10` の場合、`"Customer does not have enough money to purchase the item"` というテキストのアラートが表示されます。
 
 ```js
 const cashInput = document.getElementById('cash');
@@ -118,7 +118,7 @@ assert.strictEqual(
 );
 ```
 
-When the value in the `#cash` element is less than `price`, an alert should appear with the text `"Customer does not have enough money to purchase the item"`.
+`#cash` の要素に入力された値が `price` より少ない場合、`"Customer does not have enough money to purchase the item"` というテキストのアラートが表示されます。
 
 ```js
 const cashInput = document.getElementById('cash');
@@ -155,7 +155,7 @@ assert.strictEqual(
 );
 ```
 
-When `price` is `11.95` and the value in the `#cash` element is `11.95`, the value in the `#change-due` element should be `"No change due - customer paid with exact cash"`.
+`price` が `11.95`で、`#cash` の要素に入力された値も `11.95` の場合、`#change-due` の要素に表示する値は `"No change due - customer paid with exact cash"` となります。
 
 ```js
 const cashInput = document.getElementById('cash');
@@ -177,7 +177,7 @@ assert.strictEqual(
 );
 ```
 
-When the value in the `#cash` element is equal to `price`, the value in the `#change-due` element should be `"No change due - customer paid with exact cash"`.
+`#cash` の要素に入力された値が `price` に等しい場合、`#change-due` の要素に表示する値は `"No change due - customer paid with exact cash"` となります。
 
 ```js
 const cashInput = document.getElementById('cash');
@@ -211,7 +211,7 @@ assert.strictEqual(
 );
 ```
 
-When `price` is `19.5`, the value in the `#cash` element is `20`, `cid` is `[["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.1], ["QUARTER", 4.25], ["ONE", 90], ["FIVE", 55], ["TEN", 20], ["TWENTY", 60], ["ONE HUNDRED", 100]]`, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: OPEN QUARTER: $0.5"`.
+`price` が `19.5`、`#cash` の要素に入力された値が `20`、`cid` が `[["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.1], ["QUARTER", 4.25], ["ONE", 90], ["FIVE", 55], ["TEN", 20], ["TWENTY", 60], ["ONE HUNDRED", 100]]` の状態で、`#purchase-btn` の要素をクリックした場合、`#change-due` の要素に表示する値は `"Status: OPEN QUARTER: $0.5"` となります。
 
 ```js
 const cashInput = document.getElementById('cash');
@@ -250,7 +250,7 @@ const notExpected = [
 assert.isTrue(!notExpected.some(regex => result.match(new RegExp(regex, 'i'))));
 ```
 
-When `price` is `3.26`, the value in the `#cash` element is `100`, `cid` is `[["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.1], ["QUARTER", 4.25], ["ONE", 90], ["FIVE", 55], ["TEN", 20], ["TWENTY", 60], ["ONE HUNDRED", 100]]`, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: OPEN TWENTY: $60 TEN: $20 FIVE: $15 ONE: $1 QUARTER: $0.5 DIME: $0.2 PENNY: $0.04"`.
+`price` が `3.26`、`#cash` の要素に入力された値が `100`、`cid` が `[["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.1], ["QUARTER", 4.25], ["ONE", 90], ["FIVE", 55], ["TEN", 20], ["TWENTY", 60], ["ONE HUNDRED", 100]]` の状態で、`#purchase-btn` の要素をクリックした場合、`#change-due` の要素に表示する値は `"Status: OPEN TWENTY: $60 TEN: $20 FIVE: $15 ONE: $1 QUARTER: $0.5 DIME: $0.2 PENNY: $0.04"` となります。
 
 ```js
 const cashInput = document.getElementById('cash');
@@ -289,7 +289,7 @@ const notExpected = [/NICKEL/];
 assert.isTrue(!notExpected.some(regex => result.match(new RegExp(regex, 'i'))));
 ```
 
-When `price` is less than the value in the `#cash` element, total cash in drawer `cid` is greater than the change due, individual denomination amounts allows for returning change due, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: OPEN"` with required change due in coins and bills sorted in highest to lowest order.
+`price` が `#cash` の要素に入力された値より小さく、キャッシュドロア `cid` の合計額が返すべきおつりの額より大きく、また、各通貨の額がおつりを返すのに十分な状態で、`#purchase-btn` の要素をクリックした場合、`#change-due` の要素に表示する値は `"Status: OPEN"` と、返すべきおつりに含まれる各硬貨と紙幣の金額を、高額紙幣 (硬貨) から低額へ順にソートした物となります。
 
 ```js
 const cashInput = document.getElementById('cash');
@@ -343,7 +343,7 @@ assert.isTrue(expected.every(str => result.includes(str.toLowerCase())));
 assert.isTrue(!notExpected.some(regex => result.match(new RegExp(regex, 'i'))));
 ```
 
-When `price` is `19.5`, the value in the `#cash` element is `20`, `cid` is `[["PENNY", 0.01], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 0], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]`, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: INSUFFICIENT_FUNDS"`
+`price` が `19.5`、`#cash` の要素に入力された値が `20`、`cid` が `[["PENNY", 0.01], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 0], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]` の状態で、`#purchase-btn` の要素をクリックした場合、`#change-due` の要素に表示する値は `"Status: INSUFFICIENT_FUNDS"` となります。
 
 ```js
 const cashInput = document.getElementById('cash');
@@ -372,7 +372,79 @@ assert.strictEqual(
 );
 ```
 
-When `price` is less than the value in the `#cash` element, total cash in drawer `cid` is greater than change due, individual denomination amounts make impossible to return needed change, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: INSUFFICIENT_FUNDS"`
+`price`が`#cash`要素の値より少なく、且つドロア内の合計現金（`cid`）がお釣りの金額を下回る場合、この購入は進みません。 これらの条件下で、`#purchase-btn`がクリックされると、`#change-due`要素に`"Status: INSUFFICIENT_FUNDS"`が表示されます。
+
+```js
+const cashInput = document.getElementById('cash');
+const purchaseBtn = document.getElementById('purchase-btn');
+const changeDueDiv = document.getElementById('change-due');
+
+// Min $50, max $100, changes by $10, in cents.
+const randomCash = _randomNumber(5) * 1000 + 5000;
+// Min $5.00, max $30.00, changes by $0.01, in cents.
+const randomChange = _randomNumber(2500) + 500;
+price = (randomCash - randomChange) / 100;
+cashInput.value = `${randomCash / 100}`;
+
+let changeLeft = randomChange;
+const _cashInDrawer = [];
+for (const [denominationName, denomination] of _money) {
+  const maxCountInChange = Math.floor(changeLeft / denomination);
+  // Amount lower than maximum (adjusted to changeLeft) will ensure total in drawer
+  // will be lower than needed change.
+  const drawerCount = _randomNumber(Math.max(0, Math.min(15, maxCountInChange - 1)));
+  const amountInDrawer = drawerCount * denomination;
+  _cashInDrawer.push([denominationName, amountInDrawer / 100]);
+  if (denomination <= changeLeft && drawerCount > 0) {
+    changeLeft -= amountInDrawer;
+  }
+}
+
+// Less pennies than changeLeft makes sure total cash in drawer is less than change due.
+const count = _randomNumber(Math.min(15, changeLeft - 1));
+_cashInDrawer.push(['PENNY', count / 100]);
+
+cid = _cashInDrawer.reverse();
+
+cashInput.dispatchEvent(new Event('change'));
+purchaseBtn.click();
+assert.strictEqual(
+  changeDueDiv.innerText.trim().toLowerCase(),
+  'status: insufficient_funds'
+);
+```
+
+`price` が `19.5`、`#cash` の要素に入力された値が `20`、`cid` が `[["PENNY", 0.01], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 1], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]` の状態で、`#purchase-btn` の要素をクリックした場合、`#change-due` の要素に表示する値は `"Status: INSUFFICIENT_FUNDS"` となります。
+
+```js
+const cashInput = document.getElementById('cash');
+const purchaseBtn = document.getElementById('purchase-btn');
+const changeDueDiv = document.getElementById('change-due');
+// set price, customer cash, and cid
+price = 19.5;
+cashInput.value = 20;
+cid = [
+  ['PENNY', 0.01],
+  ['NICKEL', 0],
+  ['DIME', 0],
+  ['QUARTER', 0],
+  ['ONE', 1],
+  ['FIVE', 0],
+  ['TEN', 0],
+  ['TWENTY', 0],
+  ['ONE HUNDRED', 0]
+];
+
+cashInput.dispatchEvent(new Event('change'));
+purchaseBtn.click();
+assert.strictEqual(
+  changeDueDiv.innerText.trim().toLowerCase(),
+  'status: insufficient_funds'
+);
+```
+
+
+`price`が`#cash`要素の値より少なく、ドロア内の合計現金がお釣りの金額を上回るが、個々の額面の関係で必要なお釣りを返すことが不可能な場合、`#purchase-btn`がクリックされると、`#change-due`要素内の値が`"Status: INSUFFICIENT_FUNDS"`になります。
 
 ```js
 const cashInput = document.getElementById('cash');
@@ -418,78 +490,7 @@ assert.strictEqual(
 );
 ```
 
-When `price` is `19.5`, the value in the `#cash` element is `20`, `cid` is `[["PENNY", 0.01], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 1], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]`, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: INSUFFICIENT_FUNDS"`.
-
-```js
-const cashInput = document.getElementById('cash');
-const purchaseBtn = document.getElementById('purchase-btn');
-const changeDueDiv = document.getElementById('change-due');
-// set price, customer cash, and cid
-price = 19.5;
-cashInput.value = 20;
-cid = [
-  ['PENNY', 0.01],
-  ['NICKEL', 0],
-  ['DIME', 0],
-  ['QUARTER', 0],
-  ['ONE', 1],
-  ['FIVE', 0],
-  ['TEN', 0],
-  ['TWENTY', 0],
-  ['ONE HUNDRED', 0]
-];
-
-cashInput.dispatchEvent(new Event('change'));
-purchaseBtn.click();
-assert.strictEqual(
-  changeDueDiv.innerText.trim().toLowerCase(),
-  'status: insufficient_funds'
-);
-```
-
-When `price` is less than the value in the `#cash` element, total cash in drawer `cid` is less than the change due, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: INSUFFICIENT_FUNDS"`.
-
-```js
-const cashInput = document.getElementById('cash');
-const purchaseBtn = document.getElementById('purchase-btn');
-const changeDueDiv = document.getElementById('change-due');
-
-// Min $50, max $100, changes by $10, in cents.
-const randomCash = _randomNumber(5) * 1000 + 5000;
-// Min $5.00, max $30.00, changes by $0.01, in cents.
-const randomChange = _randomNumber(2500) + 500;
-price = (randomCash - randomChange) / 100;
-cashInput.value = `${randomCash / 100}`;
-
-let changeLeft = randomChange;
-const _cashInDrawer = [];
-for (const [denominationName, denomination] of _money) {
-  const maxCountInChange = Math.floor(changeLeft / denomination);
-  // Amount lower than maximum (adjusted to changeLeft) will ensure total in drawer
-  // will be lower than needed change.
-  const drawerCount = _randomNumber(Math.max(0, Math.min(15, maxCountInChange - 1)));
-  const amountInDrawer = drawerCount * denomination;
-  _cashInDrawer.push([denominationName, amountInDrawer / 100]);
-  if (denomination <= changeLeft && drawerCount > 0) {
-    changeLeft -= amountInDrawer;
-  }
-}
-
-// Less pennies than changeLeft makes sure total cash in drawer is less than change due.
-const count = _randomNumber(Math.min(15, changeLeft - 1));
-_cashInDrawer.push(['PENNY', count / 100]);
-
-cid = _cashInDrawer.reverse();
-
-cashInput.dispatchEvent(new Event('change'));
-purchaseBtn.click();
-assert.strictEqual(
-  changeDueDiv.innerText.trim().toLowerCase(),
-  'status: insufficient_funds'
-);
-```
-
-When `price` is `19.5`, the value in the `#cash` element is `20`, `cid` is `[["PENNY", 0.5], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 0], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]`, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: CLOSED PENNY: $0.5"`.
+`price` が `19.5`、`#cash` の要素に入力された値が `20`、`cid` が `[["PENNY", 0.5], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 0], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]` の状態で、`#purchase-btn` の要素をクリックした場合、`#change-due` の要素に表示する値は `"Status: CLOSED PENNY: $0.5"` となります。
 
 ```js
 const cashInput = document.getElementById('cash');
@@ -528,7 +529,7 @@ const notExpected = [
 assert.isTrue(!notExpected.some(regex => result.match(new RegExp(regex, 'i'))));
 ```
 
-When `price` is less than the value in the `#cash` element, total cash in drawer `cid` is equal to change due, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: CLOSED"` with change due in coins and bills sorted in highest to lowest order.
+`price` が `#cash` の要素に入力された値より小さく、キャッシュドロア `cid` の合計額が返すべきおつりの額に等しい状態で、`#purchase-btn` の要素をクリックした場合、`#change-due` の要素に表示する値は `"Status: CLOSED"` と、返すべきおつりに含まれる各硬貨と紙幣の金額を、高額紙幣 (硬貨) から低額へ順にソートした物となります。
 
 ```js
 const cashInput = document.getElementById('cash');

@@ -7,25 +7,25 @@ dashedName: step-21
 
 # --description--
 
-You now need a total count of each product that the user has in the cart. Declare a `totalCountPerProduct` variable, and assign it an empty object.
+現在你需要用戶在購物車中每個產品的總計數。 聲明一個 `totalCountPerProduct` 變量，併爲其分配一個空對象。
 
 # --hints--
 
-You should declare a `totalCountPerProduct` variable in your `addItem` function.
+你應該在 `addItem` 函數中聲明一個 `totalCountPerProduct` 變量。
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /totalCountPerProduct\s*=/);
 ```
 
-You should use `const` to declare `totalCountPerProduct`.
+你應該使用 `const` 來聲明 `totalCountPerProduct` 變量。
 
 ```js
 const afterAdd = code.split("addItem")[1];
 assert.match(afterAdd, /const\s+totalCountPerProduct\s*=/);
 ```
 
-You should assign an empty object to `totalCountPerProduct`.
+你應該爲 `totalCountPerProduct` 分配一個空對象。
 
 ```js
 const afterAdd = code.split("addItem")[1];

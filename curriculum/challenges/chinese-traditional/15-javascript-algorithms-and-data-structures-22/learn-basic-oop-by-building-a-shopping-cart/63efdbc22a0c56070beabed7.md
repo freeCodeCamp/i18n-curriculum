@@ -7,32 +7,32 @@ dashedName: step-23
 
 # --description--
 
-In your `forEach` callback, you need to update the `totalCountPerProduct` object. Using the `id` of the current `dessert` as your property, update the value of the property to be the current value plus one. Do not use the addition assignment operator for this.
+在你的 `forEach` 回調中，你需要更新 `totalCountPerProduct` 對象。 使用當前 `dessert` 的 `id` 作爲你的屬性，將屬性的值更新爲當前值加一。 不要爲此使用加法賦值運算符。
 
 # --hints--
 
-You should use dot notation to access the `id` property of `dessert`.
+你應該使用點符號來訪問 `dessert` 的 `id` 屬性。
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /dessert\.id/);
 ```
 
-You should use bracket notation to access the property of `totalCountPerProduct` that corresponds to `dessert.id`.
+你應該使用方括號表示法來訪問對應於 `dessert.id` 的 `totalCountPerProduct` 的屬性。
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /totalCountPerProduct\s*\[\s*dessert\.id\s*\]/);
 ```
 
-You should use the assignment operator to update the value of the property of `totalCountPerProduct` that corresponds to `dessert.id`.
+你應該使用賦值運算符來更新對應於 `dessert.id` 的 `totalCountPerProduct` 的屬性的值。
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /totalCountPerProduct\s*\[\s*dessert\.id\s*\]\s*=/);
 ```
 
-You should update the value of `totalCountPerProduct` to be the current value plus one.
+你應該將 `totalCountPerProduct` 的值更新爲當前值加一。
 
 ```js
 const cart = new ShoppingCart();

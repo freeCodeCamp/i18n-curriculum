@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1c9f1
-title: Step 20
+title: Passo 20
 challengeType: 0
 dashedName: step-20
 ---

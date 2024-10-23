@@ -8,7 +8,7 @@ dashedName: build-a-telephone-number-validator
 
 # --description--
 
-In the US, phone numbers can be formatted in many ways. Here are some examples of valid formats for US phone numbers:
+In den USA können Telefonnummern auf verschiedene Arten formatiert werden. Hier sind einige Beispiele für gültige Formate bei amerikanischen Telefonnummern:
 
 <blockquote>
 1 555-555-5555<br>
@@ -20,22 +20,22 @@ In the US, phone numbers can be formatted in many ways. Here are some examples o
 (555)555-5555<br>
 </blockquote>
 
-Note that the area code is required. Also, if the country code is provided, you must confirm that the country code is `1`.
+Beachte, dass die Vorwahl erforderlich ist. Auch wenn eine Landesvorwahl angegeben ist, musst du bestätigen, dass die Landesvorwahl `1` ist.
 
 **Aufgabe:** Erstelle eine Applikation, die eine ähnliche Funktionalität wie <a href="https://telephone-number-validator.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://telephone-number-validator.freecodecamp.rocks</a> aufweist
 
 **User Stories:**
 
-1. You should have an `input` element with an `id` of `"user-input"`
-1. You should have a `button` element with an `id` of `"check-btn"`
-1. You should have a `button` element with an `id` of `"clear-btn"`
-1. You should have a `div`, `span` or `p` element with an `id` of `"results-div"`
-1. When you click on the `#check-btn` element without entering a value into the `#user-input` element, an alert should appear with the text `"Please provide a phone number"`
+1. Du solltest ein `input`-Element mit einer `id` von `"user-input"` haben
+1. Du solltest ein `button`-Element mit einer `id` von `"check-btn"` haben
+1. Du solltest ein `button`-Element mit einer `id` von `"clear-btn"` haben
+1. Du solltest ein `div`-, `span` oder `p` Element mit einer `id` von `"results-div"` haben
+1. Wenn man auf das`#check-btn` Element klickt, ohne einen Wert in das `#user-input` Feld einzugeben, sollte ein Warnhinweis erscheinen mit dem Text `"Please provide a phone number"`
 1. When you click on the `#clear-btn` element, the content within the `#results-div` element should be removed
 1. When the `#user-input` element contains `1 555-555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: 1 555-555-5555"`
 1. When the `#user-input` element contains `1 (555) 555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: 1 (555) 555-5555"`
 1. When the `#user-input` element contains `5555555555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: 5555555555"`
-1. When the `#user-input` element contains `555-555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: 555-555-5555"
+1. When the `#user-input` element contains `555-555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: 555-555-5555"`
 1. When the `#user-input` element contains `(555)555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: (555)555-5555"`
 1. When the `#user-input` element contains `1(555)555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: 1(555)555-5555"`
 1. When the `#user-input` element contains `555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 555-5555"`
@@ -72,7 +72,7 @@ const el = document.getElementById('user-input');
 assert.strictEqual(el?.nodeName?.toLowerCase(), 'input');
 ```
 
-You should have a `button` element with an `id` of `"check-btn"`.
+Du solltest ein `button`-Element mit einer `id` von `"check-btn"` haben.
 
 ```js
 const el = document.getElementById('check-btn');

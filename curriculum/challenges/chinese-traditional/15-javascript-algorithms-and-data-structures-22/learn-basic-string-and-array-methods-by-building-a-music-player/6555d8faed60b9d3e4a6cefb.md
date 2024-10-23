@@ -1,37 +1,37 @@
 ---
 id: 6555d8faed60b9d3e4a6cefb
-title: Step 72
+title: 步驟 72
 challengeType: 0
 dashedName: step-72
 ---
 
 # --description--
 
-To make the application more accessible, it is important that the play button describes the current song or the first song in the playlist.
+爲了使應用程序更易於訪問，播放按鈕描述當前歌曲或播放列表中的第一首歌曲非常重要。
 
-Start by creating an empty arrow function called `setPlayButtonAccessibleText`.
+首先創建一個名爲 `setPlayButtonAccessibleText` 的空箭頭函數。
 
 # --hints--
 
-You should use `const` to create an empty function named `setPlayButtonAccessibleText`.
+你應該使用 `const` 創建一個名爲 `setPlayButtonAccessibleText` 的空函數。
 
 ```js
 assert.match(code, /const\s+setPlayButtonAccessibleText\s*=\s*/)
 ```
 
-`setPlayButtonAccessibleText` should be a function.
+`setPlayButtonAccessibleText` 應該是一個函數。
 
 ```js
 assert.isFunction(setPlayButtonAccessibleText)
 ```
 
-Your `setPlayButtonAccessibleText` function should use an arrow syntax.
+你的 `setPlayButtonAccessibleText` 函數應該使用箭頭語法。
 
 ```js
 assert.match(code, /const\s+setPlayButtonAccessibleText\s*=\s*\(\s*\)\s*=>\s*/)
 ```
 
-Your `setPlayButtonAccessibleText` function  should be empty.
+你的 `setPlayButtonAccessibleText` 函數應該是空的。
 
 ```js
 assert.match(code, /const\s+setPlayButtonAccessibleText\s*=\s*\(\s*\)\s*=>\s*\{\n?\s*?\}\s*;?/)

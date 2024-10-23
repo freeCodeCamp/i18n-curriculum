@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1ca29
-title: Step 76
+title: ステップ 76
 challengeType: 0
 dashedName: step-76
 ---
@@ -141,7 +141,7 @@ assert(
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
@@ -164,7 +164,7 @@ assert(
     .attr('stroke', tumblrColor)
     .style('cursor', 'pointer')
 
-  
+
 
 </script>
 ```
@@ -256,7 +256,7 @@ assert(
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()

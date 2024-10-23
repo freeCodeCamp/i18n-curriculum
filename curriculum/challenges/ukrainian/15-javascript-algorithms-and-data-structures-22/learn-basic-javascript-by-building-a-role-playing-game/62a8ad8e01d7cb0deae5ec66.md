@@ -1,6 +1,6 @@
 ---
 id: 62a8ad8e01d7cb0deae5ec66
-title: Step 57
+title: Крок 57
 challengeType: 0
 dashedName: step-57
 ---

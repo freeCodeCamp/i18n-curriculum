@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1ca24
-title: Step 71
+title: Paso 71
 challengeType: 0
 dashedName: step-71
 ---
@@ -139,7 +139,7 @@ assert(
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
@@ -151,7 +151,7 @@ assert(
     .attr('stroke', twitterColor)
     .style('cursor', 'pointer')
 
-  
+
 
 </script>
 ```
@@ -243,7 +243,7 @@ assert(
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()

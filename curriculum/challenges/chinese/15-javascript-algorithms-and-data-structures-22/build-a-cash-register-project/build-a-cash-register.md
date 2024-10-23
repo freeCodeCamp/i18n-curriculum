@@ -8,19 +8,19 @@ dashedName: build-a-cash-register
 
 # --description--
 
-在这里，你将构建一个收银机应用程序，该应用程序将根据商品的价格、客户提供的现金金额以及现金抽屉中的现金金额将零钱退还给客户。 You'll also need to show different messages to the user in different scenarios, such as when the customer provides too little cash or when the cash drawer doesn't have enough to issue the correct change.
+在这里，你将构建一个收银机应用程序，该应用程序将根据商品的价格、客户提供的现金金额以及现金抽屉中的现金金额将零钱退还给客户。 你还需要在不同的情况下向用户显示不同的消息，例如当客户提供的现金太少或现金抽屉没有足够的钱来进行正确的找零时。
 
-In the `script.js` file, you have been provided with the `price` and `cid` variables. The `price` variable is the price of the item, and the `cid` variable is the cash-in-drawer, which is a 2D array listing the available currency in the cash drawer.
+在 `script.js` 文件中，你已经有了 `price` 和 `cid` 变量。 `price` 变量是商品的价格，而 `cid` 变量是抽屉里的现金， 它是一个二维数组，列出现金抽屉中可用货币。
 
-The other variable you will need to add is the `cash` variable, which is the amount of cash provided by the customer for the item, which is provided via an `input` element on the page.
+你需要添加的另一个变量是 `cash` 变量，它是客户为商品提供的现金金额，通过页面上的 `input` 元素提供。
 
-If you'd like to test your application with different values for `price` and `cid`, make sure to declare them with the `let` keyword so they can be reassigned by our tests.
+如果您想要用不同的 `price` 和 `cid` 的值来测试您的应用程序，确保使用 `let` 关键字来声明变量，以便它们可以在测试中被重新赋值。
 
-Your application should show different messages depending on the price of the item, the amount of cash provided by the customer, and the amount of cash in the drawer:
+你的应用程序应该根据商品的价格、顾客提供的现金数额以及抽屉中的现金数额显示不同的信息：
 
-- `"Status: INSUFFICIENT_FUNDS"`: if `cash-in-drawer` is less than the change due, or if you cannot return the exact change.
-- `"Status: CLOSED"`: if `cash-in-drawer` is equal to the change due.
-- `"Status: OPEN"`: if `cash-in-drawer` is greater than the change due and you can return change, with the change due in coins and bills sorted in highest to lowest order.
+- `"Status: INSUFFICIENT_FUNDS"`：如果 `cash-in-drawer` 少于应找回的零钱数，或者你无法返回准确的零钱数。
+- `"Status: CLOSED"`：如果 `cash-in-drawer` 等于应找回的零钱数。
+- `"Status: OPEN"`：如果 `cash-in-drawer` 大于应找回的零钱数并且你可以返回找零，找零金额以硬币和纸币按照从高到低顺序排序。
 
 |        货币单位         |         面值          |
 |:-------------------:|:-------------------:|
@@ -34,68 +34,68 @@ Your application should show different messages depending on the price of the it
 |   Twenty Dollars    |    20 美元（TWENTY）    |
 | One Hundred Dollars | 100 美元（ONE HUNDRED） |
 
-**Objective:** Build an app that is functionally similar to <a href="https://cash-register.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://cash-register.freecodecamp.rocks</a>
+**目标：** 构建一个功能和 <a href="https://cash-register.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://cash-register.freecodecamp.rocks</a> 类似的应用。
 
-**User Stories:**
+**用户需求：**
 
-1. You should have an `input` element with an `id` of `"cash"`
-1. You should have a `div`, `span` or `p` element with an `id` of `"change-due"`
-1. You should have a `button` element with an `id` of `"purchase-btn"`
-1. When the value in the `#cash` element is less than `price`, an alert should appear with the text `"Customer does not have enough money to purchase the item"`
-1. When the value in the `#cash` element is equal to `price`, the value in the `#change-due` element should be `"No change due - customer paid with exact cash"`
-1. When `price` is `19.5`, the value in the `#cash` element is `20`, `cid` is `[["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.1], ["QUARTER", 4.25], ["ONE", 90], ["FIVE", 55], ["TEN", 20], ["TWENTY", 60], ["ONE HUNDRED", 100]]`, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: OPEN QUARTER: $0.5"`
-1. When `price` is `3.26`, the value in the `#cash` element is `100`, `cid` is `[["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.1], ["QUARTER", 4.25], ["ONE", 90], ["FIVE", 55], ["TEN", 20], ["TWENTY", 60], ["ONE HUNDRED", 100]]`, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: OPEN TWENTY: $60 TEN: $20 FIVE: $15 ONE: $1 QUARTER: $0.5 DIME: $0.2 PENNY: $0.04"`
-1. When `price` is `19.5`, the value in the `#cash` element is `20`, `cid` is `[["PENNY", 0.01], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 0], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]`, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: INSUFFICIENT_FUNDS"`
-1. When `price` is `19.5`, the value in the `#cash` element is `20`, `cid` is `[["PENNY", 0.01], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 1], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]`, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: INSUFFICIENT_FUNDS"`
-1. When `price` is `19.5`, the value in the `#cash` element is `20`, `cid` is `[["PENNY", 0.5], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 0], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]`, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: CLOSED PENNY: $0.5"`
+1. 你应该有一个 `id` 为 `"cash"` 的 `input` 元素
+1. 你应该有一个 `id` 为 `"change-due"` 的 `div`、`span` 或者 `p` 元素。
+1. 你应该有一个 `button` 元素，它的`id` 为 `"purchase-btn"`
+1. 当 `#cash` 元素中的值小于 `price`，应该出现提示 `"Customer does not have enough money to purchase the item"`
+1. 当 `#cash` 元素中的值等于 `price` 时，`#change-due` 元素的值应为 `"No change due - customer paid with exact cash"`
+1. 当 `price` 为 `19.5` 时，`#cash` 元素的值为 `20`，`cid` 是 `[["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.1], ["QUARTER", 4.25], ["ONE", 90], ["FIVE", 55], ["TEN", 20], ["TWENTY", 60], ["ONE HUNDRED", 100]]`，当 `#purchase-btn` 元素被点击后，`#change-due` 元素的值应该是 `"Status: OPEN QUARTER: $0.5"`
+1. 当 `price` 为 `3.26` 时，`#cash` 元素中的值为 `100`，`cid` 为 `[["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.1], ["QUARTER", 4.25], ["ONE", 90], ["FIVE", 55], ["TEN", 20], ["TWENTY", 60], ["ONE HUNDRED", 100]]`，并且点击 `#purchase-btn` 元素时，`#change-due` 元素中的值应为 `"Status: OPEN TWENTY: $60 TEN: $20 FIVE: $15 ONE: $1 QUARTER: $0.5 DIME: $0.2 PENNY: $0.04"`
+1. 当 `price` 为 `19.5` 时，`#cash` 元素中的值为 `20`，`cid` 为 `[["PENNY", 0.01], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 0], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]`，并且点击 `#purchase-btn` 元素时，`#change-due` 元素中的值应为 `"Status: INSUFFICIENT_FUNDS"`
+1. 当 `price` 为 `19.5` 时，`#cash` 元素中的值为 `20`，`cid` 为 `[["PENNY", 0.01], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 1], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]`，并且点击 `#purchase-btn` 元素时，`#change-due` 元素中的值应为 `"Status: INSUFFICIENT_FUNDS"`
+1. 当 `price` 为 `19.5` 时，`#cash` 元素中的值为 `20`，`cid` 为 `[["PENNY", 0.5], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 0], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]`，并且点击 `#purchase-btn` 元素时，`#change-due` 元素中的值应为 `"Status: CLOSED PENNY: $0.5"`
 
-Fulfill the user stories and pass all the tests below to complete this project. Give it your own personal style. Happy Coding!
+满足用户故事并通过下面的所有测试来完成这个项目。 赋予它你的个人风格. 祝你编码愉快！
 
 # --hints--
 
-You should have the HTML file link to the JavaScript file.
+你应该有一个 HTML 文件链接到一个 JavaScript 文件。
 
 ```js
 const script = document.querySelector('script[data-src$="script.js"]');
 assert.isNotNull(script); 
 ```
 
-You should have a global variable called `price`.
+你应该有一个名为 `price` 的全局变量。
 
 ```js
 price = 10;
 assert.strictEqual(price, 10);
 ```
 
-You should have a global variable called `cid`.
+你应该有一个名为 `cid` 的全局变量。
 
 ```js
 cid = []; 
 assert.isDefined(cid); 
 ```
 
-You should have an `input` element with an `id` of `"cash"`.
+你应该有一个 `id` 为 `"cash"` 的 `input` 元素。
 
 ```js
 const el = document.getElementById('cash');
 assert.strictEqual(el?.nodeName?.toLowerCase(), 'input');
 ```
 
-You should have a `div`, `span`, or `p` element with an `id` of `"change-due"`.
+你应该有一个 `div`、`span` 或 `p` 元素，元素 `id` 为 `"change-due"`。
 
 ```js
 const el = document.getElementById('change-due');
 assert(['div', 'span', 'p'].includes(el?.nodeName?.toLowerCase()));
 ```
 
-You should have a `button` element with an `id` of `"purchase-btn"`.
+你应该有一个 `button` 元素，`id` 为 `"purchase-btn"`。
 
 ```js
 const el = document.getElementById('purchase-btn');
 assert.strictEqual(el?.nodeName?.toLowerCase(), 'button');
 ```
 
-When `price` is `20` and the value in the `#cash` element is `10`, an alert should appear with the text `"Customer does not have enough money to purchase the item"`.
+当 `price` 为 `20`、`#cash` 元素中的值为 `10` 时，应该出现提示，文本为 `"Customer does not have enough money to purchase the item"`。
 
 ```js
 const cashInput = document.getElementById('cash');
@@ -118,7 +118,7 @@ assert.strictEqual(
 );
 ```
 
-When the value in the `#cash` element is less than `price`, an alert should appear with the text `"Customer does not have enough money to purchase the item"`.
+当 `#cash` 元素中的值小于 `price`，应该出现提示，文本为 `"Customer does not have enough money to purchase the item"`。
 
 ```js
 const cashInput = document.getElementById('cash');
@@ -155,7 +155,7 @@ assert.strictEqual(
 );
 ```
 
-When `price` is `11.95` and the value in the `#cash` element is `11.95`, the value in the `#change-due` element should be `"No change due - customer paid with exact cash"`.
+当 `price` 为 `11.95`、`#cash` 元素中的值为 `11.95` 时，`#change-due` 元素中的值应该是 `"No change due - customer paid with exact cash"`。
 
 ```js
 const cashInput = document.getElementById('cash');
@@ -177,7 +177,7 @@ assert.strictEqual(
 );
 ```
 
-When the value in the `#cash` element is equal to `price`, the value in the `#change-due` element should be `"No change due - customer paid with exact cash"`.
+当 `#cash` 元素中的值等于 `price` 时，`#change-due` 元素中的值应该是 `"No change due - customer paid with exact cash"`。
 
 ```js
 const cashInput = document.getElementById('cash');
@@ -211,7 +211,7 @@ assert.strictEqual(
 );
 ```
 
-When `price` is `19.5`, the value in the `#cash` element is `20`, `cid` is `[["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.1], ["QUARTER", 4.25], ["ONE", 90], ["FIVE", 55], ["TEN", 20], ["TWENTY", 60], ["ONE HUNDRED", 100]]`, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: OPEN QUARTER: $0.5"`.
+当 `price` 为 `19.5`、`#cash` 元素中的值为 `20`、`cid` 为 `[["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.1], ["QUARTER", 4.25], ["ONE", 90], ["FIVE", 55], ["TEN", 20], ["TWENTY", 60], ["ONE HUNDRED", 100]]` 时，并点击 `#purchase-btn` 元素，`#change-due` 元素中的值应该为 `"Status: OPEN QUARTER: $0.5"`。
 
 ```js
 const cashInput = document.getElementById('cash');
@@ -250,7 +250,7 @@ const notExpected = [
 assert.isTrue(!notExpected.some(regex => result.match(new RegExp(regex, 'i'))));
 ```
 
-When `price` is `3.26`, the value in the `#cash` element is `100`, `cid` is `[["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.1], ["QUARTER", 4.25], ["ONE", 90], ["FIVE", 55], ["TEN", 20], ["TWENTY", 60], ["ONE HUNDRED", 100]]`, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: OPEN TWENTY: $60 TEN: $20 FIVE: $15 ONE: $1 QUARTER: $0.5 DIME: $0.2 PENNY: $0.04"`.
+当 `price` 为 `3.26`、`#cash` 元素中的值为 `100`、`cid` 为 `[["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.1], ["QUARTER", 4.25], ["ONE", 90], ["FIVE", 55], ["TEN", 20], ["TWENTY", 60], ["ONE HUNDRED", 100]]`，并点击 `#purchase-btn` 元素，`#change-due` 元素中的值应该为 `"Status: OPEN TWENTY: $60 TEN: $20 FIVE: $15 ONE: $1 QUARTER: $0.5 DIME: $0.2 PENNY: $0.04"`。
 
 ```js
 const cashInput = document.getElementById('cash');
@@ -289,7 +289,7 @@ const notExpected = [/NICKEL/];
 assert.isTrue(!notExpected.some(regex => result.match(new RegExp(regex, 'i'))));
 ```
 
-When `price` is less than the value in the `#cash` element, total cash in drawer `cid` is greater than the change due, individual denomination amounts allows for returning change due, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: OPEN"` with required change due in coins and bills sorted in highest to lowest order.
+当 `price` 小于 `#cash` 元素中的值、抽屉 `cid` 中的现金总额大于应付零钱、单个面额的金额允许返回应付零钱，并点击 `#purchase-btn` 元素时，`#change-due` 元素中的值应该为 `"Status: OPEN"`，所需零钱按硬币和纸币从高到低排序。
 
 ```js
 const cashInput = document.getElementById('cash');
@@ -343,7 +343,7 @@ assert.isTrue(expected.every(str => result.includes(str.toLowerCase())));
 assert.isTrue(!notExpected.some(regex => result.match(new RegExp(regex, 'i'))));
 ```
 
-When `price` is `19.5`, the value in the `#cash` element is `20`, `cid` is `[["PENNY", 0.01], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 0], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]`, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: INSUFFICIENT_FUNDS"`
+当 `price` 为 `19.5`、`#cash` 元素中的值为 `20`、`cid` 为 `[["PENNY", 0.01], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 0], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]`，并点击 `#purchase-btn` 元素时，`#change-due` 元素中的值应该为 `"Status: INSUFFICIENT_FUNDS"`。
 
 ```js
 const cashInput = document.getElementById('cash');
@@ -372,7 +372,79 @@ assert.strictEqual(
 );
 ```
 
-When `price` is less than the value in the `#cash` element, total cash in drawer `cid` is greater than change due, individual denomination amounts make impossible to return needed change, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: INSUFFICIENT_FUNDS"`
+当 `price` 小于 `#cash` 元素中的值，而抽屉中的现金总额（`cid`）不足以支付应付的零钱时，不应继续购买。 在这些条件下点击 `#purchase-btn` 时，`#change-due` 元素应显示 `"Status: INSUFFICIENT_FUNDS"`。
+
+```js
+const cashInput = document.getElementById('cash');
+const purchaseBtn = document.getElementById('purchase-btn');
+const changeDueDiv = document.getElementById('change-due');
+
+// Min $50, max $100, changes by $10, in cents.
+const randomCash = _randomNumber(5) * 1000 + 5000;
+// Min $5.00, max $30.00, changes by $0.01, in cents.
+const randomChange = _randomNumber(2500) + 500;
+price = (randomCash - randomChange) / 100;
+cashInput.value = `${randomCash / 100}`;
+
+let changeLeft = randomChange;
+const _cashInDrawer = [];
+for (const [denominationName, denomination] of _money) {
+  const maxCountInChange = Math.floor(changeLeft / denomination);
+  // Amount lower than maximum (adjusted to changeLeft) will ensure total in drawer
+  // will be lower than needed change.
+  const drawerCount = _randomNumber(Math.max(0, Math.min(15, maxCountInChange - 1)));
+  const amountInDrawer = drawerCount * denomination;
+  _cashInDrawer.push([denominationName, amountInDrawer / 100]);
+  if (denomination <= changeLeft && drawerCount > 0) {
+    changeLeft -= amountInDrawer;
+  }
+}
+
+// Less pennies than changeLeft makes sure total cash in drawer is less than change due.
+const count = _randomNumber(Math.min(15, changeLeft - 1));
+_cashInDrawer.push(['PENNY', count / 100]);
+
+cid = _cashInDrawer.reverse();
+
+cashInput.dispatchEvent(new Event('change'));
+purchaseBtn.click();
+assert.strictEqual(
+  changeDueDiv.innerText.trim().toLowerCase(),
+  'status: insufficient_funds'
+);
+```
+
+当 `price` 为 `19.5`、`#cash` 元素中的值为 `20`、`cid` 为`[["PENNY", 0.01], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 1], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]`，并点击元素 `#purchase-btn`时，`#change-due` 元素中的值应该为 `"Status: INSUFFICIENT_FUNDS"`。
+
+```js
+const cashInput = document.getElementById('cash');
+const purchaseBtn = document.getElementById('purchase-btn');
+const changeDueDiv = document.getElementById('change-due');
+// set price, customer cash, and cid
+price = 19.5;
+cashInput.value = 20;
+cid = [
+  ['PENNY', 0.01],
+  ['NICKEL', 0],
+  ['DIME', 0],
+  ['QUARTER', 0],
+  ['ONE', 1],
+  ['FIVE', 0],
+  ['TEN', 0],
+  ['TWENTY', 0],
+  ['ONE HUNDRED', 0]
+];
+
+cashInput.dispatchEvent(new Event('change'));
+purchaseBtn.click();
+assert.strictEqual(
+  changeDueDiv.innerText.trim().toLowerCase(),
+  'status: insufficient_funds'
+);
+```
+
+
+当 `price` 小于 `#cash` 元素中的值、抽屉中的现金总额 `cid` 大于应付零钱，但是单个面额的金额无法退还所需的零钱时，点击 `#purchase-btn` 元素，`#change-due` 元素中的值应该为 `"Status: INSUFFICIENT_FUNDS"`。
 
 ```js
 const cashInput = document.getElementById('cash');
@@ -418,78 +490,7 @@ assert.strictEqual(
 );
 ```
 
-When `price` is `19.5`, the value in the `#cash` element is `20`, `cid` is `[["PENNY", 0.01], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 1], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]`, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: INSUFFICIENT_FUNDS"`.
-
-```js
-const cashInput = document.getElementById('cash');
-const purchaseBtn = document.getElementById('purchase-btn');
-const changeDueDiv = document.getElementById('change-due');
-// set price, customer cash, and cid
-price = 19.5;
-cashInput.value = 20;
-cid = [
-  ['PENNY', 0.01],
-  ['NICKEL', 0],
-  ['DIME', 0],
-  ['QUARTER', 0],
-  ['ONE', 1],
-  ['FIVE', 0],
-  ['TEN', 0],
-  ['TWENTY', 0],
-  ['ONE HUNDRED', 0]
-];
-
-cashInput.dispatchEvent(new Event('change'));
-purchaseBtn.click();
-assert.strictEqual(
-  changeDueDiv.innerText.trim().toLowerCase(),
-  'status: insufficient_funds'
-);
-```
-
-When `price` is less than the value in the `#cash` element, total cash in drawer `cid` is less than the change due, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: INSUFFICIENT_FUNDS"`.
-
-```js
-const cashInput = document.getElementById('cash');
-const purchaseBtn = document.getElementById('purchase-btn');
-const changeDueDiv = document.getElementById('change-due');
-
-// Min $50, max $100, changes by $10, in cents.
-const randomCash = _randomNumber(5) * 1000 + 5000;
-// Min $5.00, max $30.00, changes by $0.01, in cents.
-const randomChange = _randomNumber(2500) + 500;
-price = (randomCash - randomChange) / 100;
-cashInput.value = `${randomCash / 100}`;
-
-let changeLeft = randomChange;
-const _cashInDrawer = [];
-for (const [denominationName, denomination] of _money) {
-  const maxCountInChange = Math.floor(changeLeft / denomination);
-  // Amount lower than maximum (adjusted to changeLeft) will ensure total in drawer
-  // will be lower than needed change.
-  const drawerCount = _randomNumber(Math.max(0, Math.min(15, maxCountInChange - 1)));
-  const amountInDrawer = drawerCount * denomination;
-  _cashInDrawer.push([denominationName, amountInDrawer / 100]);
-  if (denomination <= changeLeft && drawerCount > 0) {
-    changeLeft -= amountInDrawer;
-  }
-}
-
-// Less pennies than changeLeft makes sure total cash in drawer is less than change due.
-const count = _randomNumber(Math.min(15, changeLeft - 1));
-_cashInDrawer.push(['PENNY', count / 100]);
-
-cid = _cashInDrawer.reverse();
-
-cashInput.dispatchEvent(new Event('change'));
-purchaseBtn.click();
-assert.strictEqual(
-  changeDueDiv.innerText.trim().toLowerCase(),
-  'status: insufficient_funds'
-);
-```
-
-When `price` is `19.5`, the value in the `#cash` element is `20`, `cid` is `[["PENNY", 0.5], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 0], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]`, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: CLOSED PENNY: $0.5"`.
+当 `price` 为 `19.5`、`#cash` 元素中的值为`20`、`cid` 为 `[["PENNY", 0.5], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 0], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]`，并且 `#purchase-btn` 元素被点击时，`#change-due` 元素中的值应该为 `"Status: CLOSED PENNY: $0.5"`。
 
 ```js
 const cashInput = document.getElementById('cash');
@@ -528,7 +529,7 @@ const notExpected = [
 assert.isTrue(!notExpected.some(regex => result.match(new RegExp(regex, 'i'))));
 ```
 
-When `price` is less than the value in the `#cash` element, total cash in drawer `cid` is equal to change due, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: CLOSED"` with change due in coins and bills sorted in highest to lowest order.
+当 `price` 小于 `#cash` 元素中的值、抽屉 `cid` 中的现金总额等于应付零钱，并点击 `#purchase-btn` 元素时，`#change-due` 元素中的值应该为 `"Status: CLOSED"`，所需零钱按硬币和纸币从高到低排序。
 
 ```js
 const cashInput = document.getElementById('cash');

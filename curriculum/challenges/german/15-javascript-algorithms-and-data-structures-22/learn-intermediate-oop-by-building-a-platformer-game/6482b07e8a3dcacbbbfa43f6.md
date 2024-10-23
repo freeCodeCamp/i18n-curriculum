@@ -1,19 +1,19 @@
 ---
 id: 6482b07e8a3dcacbbbfa43f6
-title: Step 9
+title: Schritt 9
 challengeType: 0
 dashedName: step-9
 ---
 
 # --description--
 
-In the game, the player will have the opportunity to cross different checkpoints. You will need to keep track of the status for the checkpoint collision detection.
+Im Spiel hat der Spieler die Möglichkeit verschiedene Kontrollpunkte zu überqueren. You will need to keep track of the status for the checkpoint collision detection.
 
 Use `let` to create a new variable called `isCheckpointCollisionDetectionActive` and assign it the value of `true`.
 
 # --hints--
 
-You should use the `let` keyword to declare your `isCheckpointCollisionDetectionActive` variable.
+Du solltest mit dem `let`-Schlüsselwort deine `isCheckpointCollisionDetectionActive`-Variable deklarieren.
 
 ```js
 assert.match(code, /let\s+isCheckpointCollisionDetectionActive/);

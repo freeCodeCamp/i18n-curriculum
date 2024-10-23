@@ -1,6 +1,6 @@
 ---
 id: 62aa27c40ca6f04ab8be5fac
-title: Step 167
+title: Schritt 167
 challengeType: 0
 dashedName: step-167
 ---
@@ -28,13 +28,13 @@ Your `for` loop initialization should have `i` initialized to `0`.
 assert.match(pick.toString(), /for\s*\(\s*(let|var)\s+i\s*=\s*0\s*;/)
 ```
 
-Your loop condition should run as long as `i` is less than `10`.
+Deine Schleifenbedingung sollte so lange laufen, wie `i` kleiner als `10` ist.
 
 ```js
 assert.match(pick.toString(), /for\s*\(\s*(let|var)\s+i\s*=\s*0\s*;\s*i\s*<\s*10\s*;/)
 ```
 
-Your loop should increment `i` by `1` after each iteration. Remember to use the increment operator `++`.
+Deine Schleife sollte `i` nach jeder Iteration um `1` erhöhen. Remember to use the increment operator `++`.
 
 ```js
 assert.match(pick.toString(), /for\s*\(\s*(let|var)\s+i\s*=\s*0\s*;\s*i\s*<\s*10\s*;\s*i\+\+\s*\)/)

@@ -1,6 +1,6 @@
 ---
 id: 657bdcc3a322aae1eac38392
-title: Build a Cash Register
+title: Створіть касовий апарат
 challengeType: 14
 forumTopicId: 16012
 dashedName: build-a-cash-register
@@ -8,24 +8,24 @@ dashedName: build-a-cash-register
 
 # --description--
 
-Here you'll build a cash register app that will return change to the customer based on the price of the item, the amount of cash provided by the customer, and the amount of cash in the cash drawer. You'll also need to show different messages to the user in different scenarios, such as when the customer provides too little cash or when the cash drawer doesn't have enough to issue the correct change.
+Ви створите застосунок «Касовий апарат», який повертає решту на основі ціни товару, оплати за товар та суми готівки в касі. Також потрібно відтворити різні повідомлення користувачеві у різних сценаріях (наприклад, коли покупець надає замало готівки або коли в касі немає достатньо коштів, щоб віддати правильну решту).
 
-In the `script.js` file, you have been provided with the `price` and `cid` variables. The `price` variable is the price of the item, and the `cid` variable is the cash-in-drawer, which is a 2D array listing the available currency in the cash drawer.
+У файлі `script.js` вам надано змінні `price` та `cid`. Змінна `price` — це ціна товару, а змінна `cid` — це cash-in-drawer(готівковий ящик), який є 2D-масивом із переліком доступної валюти в касі.
 
-The other variable you will need to add is the `cash` variable, which is the amount of cash provided by the customer for the item, which is provided via an `input` element on the page.
+Ще одна змінна, яку потрібно буде додати, — це змінна `cash`, тобто сума готівки, надана клієнтом за товар, яка надається через елемент `input` на сторінці.
 
-If you'd like to test your application with different values for `price` and `cid`, make sure to declare them with the `let` keyword so they can be reassigned by our tests.
+Якщо ви бажаєте протестувати застосунок з різними значеннями `price` та `cid`, то переконайтесь, що оголосили їх за допомогою ключового слова `let`, щоб їх можна було перепризначати нашими тестами.
 
-Your application should show different messages depending on the price of the item, the amount of cash provided by the customer, and the amount of cash in the drawer:
+Застосунок повинен відтворювати різні повідомлення на основі ціни товару, оплати за товар та суми готівки в касі:
 
-- `"Status: INSUFFICIENT_FUNDS"`: if `cash-in-drawer` is less than the change due, or if you cannot return the exact change.
-- `"Status: CLOSED"`: if `cash-in-drawer` is equal to the change due.
-- `"Status: OPEN"`: if `cash-in-drawer` is greater than the change due and you can return change, with the change due in coins and bills sorted in highest to lowest order.
+- `"Status: INSUFFICIENT_FUNDS"`, якщо значення `cash-in-drawer` менше за решту або ви не можете віддати решту.
+- `"Status: CLOSED"`, якщо значення `cash-in-drawer` дорівнює решті.
+- `"Status: OPEN"`, якщо значення `cash-in-drawer` більше за решту і ви можете віддати решту, вказавши її в монетах та банкнотах в порядку від найвищого до найменшого номіналу.
 
 |  Грошовий обіг   |      Сума      |
 |:----------------:|:--------------:|
 |      Пенні       | $0.01 (ПЕННІ)  |
-|      Nickel      | $0.05 (НІКЕЛЬ) |
+|      Нікель      | $0.05 (НІКЕЛЬ) |
 |       Дайм       |  $0.1 (ДАЙМ)   |
 |      Чверть      | $0.25 (ЧВЕРТЬ) |
 |      Долар       |   $1 (ОДИН)    |
@@ -38,36 +38,36 @@ Your application should show different messages depending on the price of the it
 
 **Історія користувача:**
 
-1. You should have an `input` element with an `id` of `"cash"`
-1. You should have a `div`, `span` or `p` element with an `id` of `"change-due"`
-1. You should have a `button` element with an `id` of `"purchase-btn"`
-1. When the value in the `#cash` element is less than `price`, an alert should appear with the text `"Customer does not have enough money to purchase the item"`
-1. When the value in the `#cash` element is equal to `price`, the value in the `#change-due` element should be `"No change due - customer paid with exact cash"`
-1. When `price` is `19.5`, the value in the `#cash` element is `20`, `cid` is `[["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.1], ["QUARTER", 4.25], ["ONE", 90], ["FIVE", 55], ["TEN", 20], ["TWENTY", 60], ["ONE HUNDRED", 100]]`, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: OPEN QUARTER: $0.5"`
-1. When `price` is `3.26`, the value in the `#cash` element is `100`, `cid` is `[["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.1], ["QUARTER", 4.25], ["ONE", 90], ["FIVE", 55], ["TEN", 20], ["TWENTY", 60], ["ONE HUNDRED", 100]]`, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: OPEN TWENTY: $60 TEN: $20 FIVE: $15 ONE: $1 QUARTER: $0.5 DIME: $0.2 PENNY: $0.04"`
-1. When `price` is `19.5`, the value in the `#cash` element is `20`, `cid` is `[["PENNY", 0.01], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 0], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]`, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: INSUFFICIENT_FUNDS"`
-1. When `price` is `19.5`, the value in the `#cash` element is `20`, `cid` is `[["PENNY", 0.01], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 1], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]`, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: INSUFFICIENT_FUNDS"`
-1. When `price` is `19.5`, the value in the `#cash` element is `20`, `cid` is `[["PENNY", 0.5], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 0], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]`, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: CLOSED PENNY: $0.5"`
+1. Ви повинні мати елемент `input` з `id` зі значенням `"cash"`
+1. Ви повинні мати елемент `div`, `span` або `p` з `id` `"change-due"`
+1. Ви повинні мати елемент `button` з `id` зі значенням `"purchase-btn"`
+1. Якщо значення в елементі `#cash` менше за `price`, то має з’явитись попередження з текстом `"Customer does not have enough money to purchase the item"`
+1. Якщо значення в елементі `#cash` дорівнює `price`, то значенням в елементі `#change-due` має бути `"No change due - customer paid with exact cash"`
+1. Якщо `price` дорівнює `19.5`, значенням в елементі `#cash` є `20`, `cid` становить `[["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.1], ["QUARTER", 4.25], ["ONE", 90], ["FIVE", 55], ["TEN", 20], ["TWENTY", 60], ["ONE HUNDRED", 100]]` та натиснути на елемент `#purchase-btn`, то значенням в елементі `#change-due` має бути `"Status: OPEN QUARTER: $0.5"`
+1. Якщо `price` дорівнює `3.26`, значенням в елементі `#cash` є `100`, `cid` становить `[["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.1], ["QUARTER", 4.25], ["ONE", 90], ["FIVE", 55], ["TEN", 20], ["TWENTY", 60], ["ONE HUNDRED", 100]]` та натиснути на елемент `#purchase-btn`, то значенням в елементі `#change-due` має бути `"Status: OPEN TWENTY: $60 TEN: $20 FIVE: $15 ONE: $1 QUARTER: $0.5 DIME: $0.2 PENNY: $0.04"`
+1. Якщо `price` дорівнює `19.5`, значенням в елементі `#cash` є `20`, `cid` становить `[["PENNY", 0.01], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 0], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]` та натиснути на елемент `#purchase-btn`, то значенням в елементі `#change-due` має бути `"Status: INSUFFICIENT_FUNDS"`
+1. Якщо `price` дорівнює `19.5`, значенням в елементі `#cash` є `20`, `cid` становить `[["PENNY", 0.01], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 1], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]` та натиснути на елемент `#purchase-btn`, то значенням в елементі `#change-due` має бути `"Status: INSUFFICIENT_FUNDS"`
+1. Якщо `price` дорівнює `19.5`, значенням в елементі `#cash` є `20`, `cid` становить `[["PENNY", 0.5], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 0], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]` та натиснути на елемент `#purchase-btn`, то значенням в елементі `#change-due` має бути `"Status: CLOSED PENNY: $0.5"`
 
 Виконайте історію користувача та пройдіть тести, наведені нижче, щоб завершити цей проєкт. Оформте за власним стилем. Щасливого програмування!
 
 # --hints--
 
-You should have the HTML file link to the JavaScript file.
+Ви повинні мати посилання файлу HTML на файл JavaScript.
 
 ```js
 const script = document.querySelector('script[data-src$="script.js"]');
 assert.isNotNull(script); 
 ```
 
-You should have a global variable called `price`.
+Ви повинні мати глобальну змінну під назвою `price`.
 
 ```js
 price = 10;
 assert.strictEqual(price, 10);
 ```
 
-You should have a global variable called `cid`.
+Ви повинні мати глобальну змінну під назвою `cid`.
 
 ```js
 cid = []; 
@@ -81,7 +81,7 @@ const el = document.getElementById('cash');
 assert.strictEqual(el?.nodeName?.toLowerCase(), 'input');
 ```
 
-You should have a `div`, `span`, or `p` element with an `id` of `"change-due"`.
+Ви повинні мати елемент `div`, `span` або `p` з `id` `"change-due"`.
 
 ```js
 const el = document.getElementById('change-due');
@@ -95,7 +95,7 @@ const el = document.getElementById('purchase-btn');
 assert.strictEqual(el?.nodeName?.toLowerCase(), 'button');
 ```
 
-When `price` is `20` and the value in the `#cash` element is `10`, an alert should appear with the text `"Customer does not have enough money to purchase the item"`.
+Якщо `price` є `20` та значення в елементі `#cash` є `10`, то має з’явитись попередження з текстом `"Customer does not have enough money to purchase the item"`.
 
 ```js
 const cashInput = document.getElementById('cash');
@@ -155,7 +155,7 @@ assert.strictEqual(
 );
 ```
 
-When `price` is `11.95` and the value in the `#cash` element is `11.95`, the value in the `#change-due` element should be `"No change due - customer paid with exact cash"`.
+Якщо `price` є `11.95` та значення в елементі `#cash` є `11.95`, то значенням в елементі `#change-due` має бути `"No change due - customer paid with exact cash"`.
 
 ```js
 const cashInput = document.getElementById('cash');
@@ -289,7 +289,7 @@ const notExpected = [/NICKEL/];
 assert.isTrue(!notExpected.some(regex => result.match(new RegExp(regex, 'i'))));
 ```
 
-When `price` is less than the value in the `#cash` element, total cash in drawer `cid` is greater than the change due, individual denomination amounts allows for returning change due, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: OPEN"` with required change due in coins and bills sorted in highest to lowest order.
+Коли `price` менша за значення в елементі `#cash`, загальна сума грошей в ящику `cid` більша за здачу, індивідуальні суми номіналу дозволяють повернути здачу, і клацнуто елемент `#purchase-btn`, значення в елементі `#change-due` має бути `"Status: OPEN"` з необхідною здачею в монетах та банкнотах, відсортованих з більшої до найнижчої.
 
 ```js
 const cashInput = document.getElementById('cash');
@@ -372,7 +372,7 @@ assert.strictEqual(
 );
 ```
 
-When `price` is less than the value in the `#cash` element, total cash in drawer `cid` is greater than change due, individual denomination amounts make impossible to return needed change, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: INSUFFICIENT_FUNDS"`
+Коли `price` менша за значення в елементі `#cash`, а загальна сума готівки в ящику (`cid`) недостатня для покриття здачи купівля не повинна пройти. Якщо за цих умов натиснути `#purchase-btn`, елемент `#change-due` має відображати `"Status: INSUFFICIENT_FUNDS"`.
 
 ```js
 const cashInput = document.getElementById('cash');
@@ -387,26 +387,22 @@ price = (randomCash - randomChange) / 100;
 cashInput.value = `${randomCash / 100}`;
 
 let changeLeft = randomChange;
-const _expectedChangeDue = [];
 const _cashInDrawer = [];
 for (const [denominationName, denomination] of _money) {
   const maxCountInChange = Math.floor(changeLeft / denomination);
-  // If denomination can complete required changeLeft, available amount in drawer cannot
-  // equal the maximum. Otherwise count in drawer can be greater than maximum count in change.
-  const drawerCount = _randomNumber(
-    changeLeft % denomination === 0 ? Math.min(15, maxCountInChange - 1) : 15
-  );
+  // Amount lower than maximum (adjusted to changeLeft) will ensure total in drawer
+  // will be lower than needed change.
+  const drawerCount = _randomNumber(Math.max(0, Math.min(15, maxCountInChange - 1)));
   const amountInDrawer = drawerCount * denomination;
   _cashInDrawer.push([denominationName, amountInDrawer / 100]);
-  const changeCount = Math.min(drawerCount, maxCountInChange);
-  if (denomination <= changeLeft && changeCount > 0) {
-    changeLeft -= changeCount * denomination;
+  if (denomination <= changeLeft && drawerCount > 0) {
+    changeLeft -= amountInDrawer;
   }
 }
 
-// Less pennies than changeLeft makes impossible to return change due.
-const drawerCount = _randomNumber(Math.min(15, changeLeft - 1));
-_cashInDrawer.push(['PENNY', drawerCount / 100]);
+// Less pennies than changeLeft makes sure total cash in drawer is less than change due.
+const count = _randomNumber(Math.min(15, changeLeft - 1));
+_cashInDrawer.push(['PENNY', count / 100]);
 
 cid = _cashInDrawer.reverse();
 
@@ -447,7 +443,8 @@ assert.strictEqual(
 );
 ```
 
-When `price` is less than the value in the `#cash` element, total cash in drawer `cid` is less than the change due, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: INSUFFICIENT_FUNDS"`.
+
+Коли `price` менша за значення в елементі `#cash`, загальна сума грошей в ящику `cid` більша за здачу, але індивідуальні суми номіналу роблять неможливим повернення необхідної здачі, коли клацнуто елемент `#purchase-btn`, значення в елементі `#change-due` має бути `"Status: INSUFFICIENT_FUNDS"`
 
 ```js
 const cashInput = document.getElementById('cash');
@@ -462,22 +459,26 @@ price = (randomCash - randomChange) / 100;
 cashInput.value = `${randomCash / 100}`;
 
 let changeLeft = randomChange;
+const _expectedChangeDue = [];
 const _cashInDrawer = [];
 for (const [denominationName, denomination] of _money) {
   const maxCountInChange = Math.floor(changeLeft / denomination);
-  // Amount lower than maximum (adjusted to changeLeft) will ensure total in drawer
-  // will be lower than needed change.
-  const drawerCount = _randomNumber(Math.max(0, Math.min(15, maxCountInChange - 1)));
+  // If denomination can complete required changeLeft, available amount in drawer cannot
+  // equal the maximum. Otherwise count in drawer can be greater than maximum count in change.
+  const drawerCount = _randomNumber(
+    changeLeft % denomination === 0 ? Math.min(15, maxCountInChange - 1) : 15
+  );
   const amountInDrawer = drawerCount * denomination;
   _cashInDrawer.push([denominationName, amountInDrawer / 100]);
-  if (denomination <= changeLeft && drawerCount > 0) {
-    changeLeft -= amountInDrawer;
+  const changeCount = Math.min(drawerCount, maxCountInChange);
+  if (denomination <= changeLeft && changeCount > 0) {
+    changeLeft -= changeCount * denomination;
   }
 }
 
-// Less pennies than changeLeft makes sure total cash in drawer is less than change due.
-const count = _randomNumber(Math.min(15, changeLeft - 1));
-_cashInDrawer.push(['PENNY', count / 100]);
+// Less pennies than changeLeft makes impossible to return change due.
+const drawerCount = _randomNumber(Math.min(15, changeLeft - 1));
+_cashInDrawer.push(['PENNY', drawerCount / 100]);
 
 cid = _cashInDrawer.reverse();
 
@@ -528,7 +529,7 @@ const notExpected = [
 assert.isTrue(!notExpected.some(regex => result.match(new RegExp(regex, 'i'))));
 ```
 
-When `price` is less than the value in the `#cash` element, total cash in drawer `cid` is equal to change due, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: CLOSED"` with change due in coins and bills sorted in highest to lowest order.
+Коли `price` менша за значення в елементі `#cash`, загальна сума грошей в ящику `cid` рівна здачі, і клацнуто елемент `#purchase-btn`, значення в елементі `#change-due` має бути `"Status: CLOSED"` зі здачею в монетах та банкнотах, відсортованих з більшої до найнижчої.
 
 ```js
 const cashInput = document.getElementById('cash');

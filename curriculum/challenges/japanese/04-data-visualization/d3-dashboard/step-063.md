@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1ca1c
-title: Step 63
+title: ステップ 63
 challengeType: 0
 dashedName: step-63
 ---
@@ -141,7 +141,7 @@ assert(/\.data\s*\(\s*data\s*\)/g.test(code));
     .attr('stroke', instagramColor)
     .attr('stroke-width', '3')
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')  
 
 
@@ -236,7 +236,7 @@ assert(/\.data\s*\(\s*data\s*\)/g.test(code));
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
 

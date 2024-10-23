@@ -137,7 +137,7 @@ assert(/const\s*pieArc\s*=\s*d3\s*\.\s*arc\s*\(\s*\)/g.test(code));
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
@@ -178,7 +178,7 @@ assert(/const\s*pieArc\s*=\s*d3\s*\.\s*arc\s*\(\s*\)/g.test(code));
     .attr('width', 200)
     .attr('height', 200)
 
-    
+
 
 </script>
 ```
@@ -270,7 +270,7 @@ assert(/const\s*pieArc\s*=\s*d3\s*\.\s*arc\s*\(\s*\)/g.test(code));
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()

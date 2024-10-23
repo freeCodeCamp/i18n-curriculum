@@ -124,7 +124,7 @@ assert(
 
   const tumblrLine = d3.line()
     .x(d => xScale(d.year))
-    
+
 
 </script>
 ```

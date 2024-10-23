@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1ca15
-title: Step 56
+title: Schritt 56
 challengeType: 0
 dashedName: step-56
 ---

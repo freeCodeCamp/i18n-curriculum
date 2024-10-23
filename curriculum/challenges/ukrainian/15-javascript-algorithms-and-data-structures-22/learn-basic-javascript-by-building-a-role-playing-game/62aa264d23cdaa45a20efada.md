@@ -1,15 +1,15 @@
 ---
 id: 62aa264d23cdaa45a20efada
-title: Step 163
+title: Крок 163
 challengeType: 0
 dashedName: step-163
 ---
 
 # --description--
 
-After your `numbers` array, create a `while` loop that runs as long as `numbers.length` is less than `10`.
+Після масиву `numbers` створіть цикл `while`, який працюватиме поки `numbers.length` менше `10`.
 
-In the previous project, you learned how to work with `while` loops like this:
+У попередньому проєкті ви навчилися як працювати з циклами `while` ось так:
 
 ```js
 while (condition) {
@@ -19,13 +19,13 @@ while (condition) {
 
 # --hints--
 
-Ваша функція `pick` повинна мати цикл `while`.
+Your `pick` function should have a `while` loop.
 
 ```js
 assert.match(pick.toString(), /while\s*\(/);
 ```
 
-Ваш цикл `while` повинен виконуватись, поки `numbers.length < 10`.
+Your `while` loop should run while `numbers.length < 10`.
 
 ```js
 assert.match(pick.toString(), /while\s*\(\s*numbers\.length\s*<\s*10\s*\)/);

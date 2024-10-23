@@ -31,7 +31,7 @@ assert(
   <head>
     <title>D3 Dashboard</title>
 
-    
+
   </head>
 
   <body>

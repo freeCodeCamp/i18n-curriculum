@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1ca6e
-title: Step 142
+title: Крок 142
 challengeType: 0
 dashedName: step-142
 ---
@@ -144,7 +144,7 @@ assert.match(code,
       .attr('stroke', instagramColor)
       .attr('stroke-width', 3)
       .attr('fill', 'transparent');
-      
+
     lineGraph.selectAll('twitter-circles')
       .data(data)
       .enter()
@@ -156,7 +156,7 @@ assert.match(code,
       .attr('stroke', twitterColor)
       .style('cursor', 'pointer')
 
-  
+
 
     lineGraph.selectAll('tumblr-circles')
       .data(data)
@@ -199,7 +199,7 @@ assert.match(code,
 
     const pie = d3.pie()
       .value(d => d.value);
-      
+
     const pieGraphData = pieGraph.selectAll('pieSlices')
       .data(pie(d3.entries(data[index].followers)))
       .enter()
@@ -356,7 +356,7 @@ assert.match(code,
       .attr('stroke', instagramColor)
       .attr('stroke-width', 3)
       .attr('fill', 'transparent');
-      
+
     lineGraph.selectAll('twitter-circles')
       .data(data)
       .enter()
@@ -412,7 +412,7 @@ assert.match(code,
 
     const pie = d3.pie()
       .value(d => d.value);
-      
+
     const pieGraphData = pieGraph.selectAll('pieSlices')
       .data(pie(d3.entries(data[index].followers)))
       .enter()

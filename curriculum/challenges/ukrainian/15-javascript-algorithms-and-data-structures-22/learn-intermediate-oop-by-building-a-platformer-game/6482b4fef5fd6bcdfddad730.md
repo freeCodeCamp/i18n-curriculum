@@ -1,19 +1,19 @@
 ---
 id: 6482b4fef5fd6bcdfddad730
-title: Step 12
+title: Крок 12
 challengeType: 0
 dashedName: step-12
 ---
 
 # --description--
 
-The next step is to define some characteristics for the main player of the game.
+Наступний крок — визначення деяких характеристик головного гравця гри.
 
-Start by creating a new `class` called `Player`.
+Почніть зі створення нового `class` під назвою `Player`.
 
 # --hints--
 
-`Player` should be a class.
+`Player` має бути класом.
 
 ```js
 assert(
@@ -21,13 +21,13 @@ assert(
 );
 ```
 
-The `class` keyword should be used.
+Використайте ключове слово `class`.
 
 ```js
-assert(code.match(/class/g));
+assert.match(code, /^\s*class/m);
 ```
 
-You should create a new class called `Player`
+Ви повинні створити новий клас під назвою `Player`
 
 ```js
 assert.match(code, /class\s+Player\s*{\s*}\s*/);

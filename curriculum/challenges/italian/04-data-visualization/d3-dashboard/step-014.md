@@ -69,7 +69,7 @@ assert(/src\s*=\s*('|")\s*(\.\/)?dashboard.js\s*\1/gi.test(script));
   <body>
     <div class="dashboard"></div>
 
-    
+
   </body>
 </html>
 ```

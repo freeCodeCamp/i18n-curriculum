@@ -1,6 +1,6 @@
 ---
 id: 6555c1d3e11a1574434cf8b5
-title: Build a Pokémon Search App
+title: 創建寶可夢搜索應用程序
 challengeType: 14
 forumTopicId: 16003
 dashedName: build-a-pokemon-search-app
@@ -8,40 +8,42 @@ dashedName: build-a-pokemon-search-app
 
 # --description--
 
-In this project, you'll build an app that will search for Pokémon by name or ID and display the results to the user. To retrieve the Pokémon data and images, you'll use freeCodeCamp's <a href="https://pokeapi-proxy.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">PokéAPI Proxy</a>.
+在這個項目中，你將構建一個應用程序，通過名稱或 ID 搜索寶可夢的信息，並向用戶顯示結果。 要搜索寶可夢的數據和圖像，你將使用 freeCodeCamp 的 <a href="https://pokeapi-proxy.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">PokeAPI Proxy</a>。
 
-**Objective:** Build an app that is functionally similar to <a href="https://pokemon-search-app.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://pokemon-search-app.freecodecamp.rocks</a>
+ **注意：** 前 13 個步驟必須在 `index.html` 文件中完成。
 
-**User Stories:**
+**Objective:** Build an app that is functionally similar to <a href="https://pokemon-search-app.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://pokemon-search-app.freecodecamp.rocks</a>.
 
-1. You should have an `input` element with an `id` of `"search-input"`
-1. You should have a `button` element with an `id` of `"search-button`
-1. You should have an element with an `id` of `"pokemon-name"`
-1. You should have an element with an `id` of `"pokemon-id"`
-1. You should have an element with an `id` of `"weight"`
-1. You should have an element with an `id` of `"height"`
-1. You should have an element with an `id` of `"types"`
-1. You should have an element with an `id` of `"hp"`
-1. You should have an element with an `id` of `"attack"`
-1. You should have an element with an `id` of `"defense"`
-1. You should have an element with an `id` of `"special-attack"`
-1. You should have an element with an `id` of `"special-defense"`
-1. You should have an element with an `id` of `"speed"`
-1. When the `#search-input` element contains the value `Red` and the `#search-button` element is clicked, an alert should appear with the text `"Pokémon not found"`
-1. When the `#search-input` element contains the value `Pikachu` and the `#search-button` element is clicked, the values in the `#pokemon-name`, `#pokemon-id`, `#weight`, `#height`, `#hp`, `#attack`, `#defense`, `#special-attack`, `#special-defense`, and `#speed` elements should be `PIKACHU`, `#25` or `25`, `Weight: 60` or `60`, `Height: 4` or `4`, `35`, `55`, `40`, `50`, `50`, and `90`, respectively
-1. When the `#search-input` element contains the value `Pikachu` and the `#search-button` element is clicked, you should add an `img` element with the `id` of `"sprite"` and the `src` set to the Pokémon's `front_default` sprite to the page
-1. When the `#search-input` element contains the value `Pikachu` and the `#search-button` element is clicked, the `#types` element should contain a single inner element with the value `ELECTRIC`. The `#types` element content should be cleared between searches
-1. When the `#search-input` element contains the value `94` and the `#search-button` element is clicked, the values in the `#pokemon-name`, `#pokemon-id`, `#weight`, `#height`, `#hp`, `#attack`, `#defense`, `#special-attack`, `#special-defense`, and `#speed`elements should be `GENGAR`, `#94` or `94`, `Weight: 405` or `405`, `Height: 15` or `15`, `60`, `65`, `60`, `130`, `75`, and `110`, respectively
-1. When the `#search-input` element contains the value `94` and the `#search-button` element is clicked, you should add an `img` element with the `id` of `sprite` and the `src` set to the Pokémon's `front_default` sprite to the page
-1. When the `#search-input` element contains the value `94` and the `#search-button` element is clicked, the `#types` element should contain two inner elements with the text values `GHOST` and `POISON`, respectively. The `#types` element content should be cleared between searches
+**用戶需求：**
 
-Fulfill the user stories and pass all the tests below to complete this project. 樣式的話沒有要求，可以根據你的喜好自由發揮。 Happy Coding!
+1. You should have an `input` element with an `id` of `"search-input"`.
+1. You should have a `button` element with an `id` of `"search-button"`.
+1. You should have an element with an `id` of `"pokemon-name"`.
+1. You should have an element with an `id` of `"pokemon-id"`.
+1. You should have an element with an `id` of `"weight"`.
+1. You should have an element with an `id` of `"height"`.
+1. You should have an element with an `id` of `"types"`.
+1. You should have an element with an `id` of `"hp"`.
+1. You should have an element with an `id` of `"attack"`.
+1. You should have an element with an `id` of `"defense"`.
+1. You should have an element with an `id` of `"special-attack"`.
+1. You should have an element with an `id` of `"special-defense"`.
+1. You should have an element with an `id` of `"speed"`.
+1. When the `#search-input` element contains the value `Red` and the `#search-button` element is clicked, an alert should appear with the text `"Pokémon not found"`.
+1. When the `#search-input` element contains the value `Pikachu` and the `#search-button` element is clicked, the values in the `#pokemon-name`, `#pokemon-id`, `#weight`, `#height`, `#hp`, `#attack`, `#defense`, `#special-attack`, `#special-defense`, and `#speed` elements should be `PIKACHU`, `#25` or `25`, `Weight: 60` or `60`, `Height: 4` or `4`, `35`, `55`, `40`, `50`, `50`, and `90`, respectively.
+1. When the `#search-input` element contains the value `Pikachu` and the `#search-button` element is clicked, you should add an `img` element with the `id` of `"sprite"` and the `src` set to the Pokémon's `front_default` sprite to the page.
+1. 當 `#search-input` 元素包含值 `Pikachu`，並點擊 `#search-button` 元素時，`#types` 元素應該包含一個值爲 `ELECTRIC` 的內部元素。 The `#types` element content should be cleared between searches.
+1. When the `#search-input` element contains the value `94` and the `#search-button` element is clicked, the values in the `#pokemon-name`, `#pokemon-id`, `#weight`, `#height`, `#hp`, `#attack`, `#defense`, `#special-attack`, `#special-defense`, and `#speed`elements should be `GENGAR`, `#94` or `94`, `Weight: 405` or `405`, `Height: 15` or `15`, `60`, `65`, `60`, `130`, `75`, and `110`, respectively.
+1. When the `#search-input` element contains the value `94` and the `#search-button` element is clicked, you should add an `img` element with the `id` of `sprite` and the `src` set to the Pokémon's `front_default` sprite to the page.
+1. 當 `#search-input` 元素包含值 `94`，並點擊 `#search-button` 元素時，`#types` 元素應該包含兩個內部元素，它們的值分別爲 `GHOST` 和 `POISON`。 The `#types` element content should be cleared between searches.
 
-**Note:** When running the tests there will be a slight delay. Please wait a few seconds to allow the tests to finish. Do not refresh the page before they are done.
+完成用戶需求並通過下面的所有測試來完成這個項目。 賦予它你的個人風格。 祝你編碼愉快！
+
+**注意：** 運行測試時會有輕微的延遲。 請稍等片刻，以便測試完成。 在完成之前不要刷新頁面。
 
 # --hints--
 
-You should have an `input` element with an `id` of `"search-input"` and is **required**.
+你應該有一個 `id` 爲 `"search-input"` 且是**必填項**的 `input` 元素。
 
 ```js
 const el = document.getElementById('search-input');
@@ -49,91 +51,91 @@ assert.strictEqual(el?.nodeName?.toLowerCase(), 'input');
 assert.isTrue(el?.required);
 ```
 
-You should have a `button` element with an `id` of `"search-button"`.
+你應該有一個 `id` 爲 `"search-button"` 的 `button` 元素。
 
 ```js
 const el = document.getElementById('search-button');
 assert.strictEqual(el?.nodeName?.toLowerCase(), 'button');
 ```
 
-You should have an element with an `id` of `"pokemon-name"`.
+你應該有一個 `id` 爲 `"pokemon-name"` 的元素。
 
 ```js
 const el = document.getElementById('pokemon-name');
 assert.exists(el);
 ```
 
-You should have an element with an `id` of `"pokemon-id"`.
+你應該有一個 `id` 爲 `"pokemon-id"` 的元素。
 
 ```js
 const el = document.getElementById('pokemon-id');
 assert.exists(el);
 ```
 
-You should have an element with an `id` of `"weight"`.
+你應該有一個 `id` 爲 `"weight"` 的元素。
 
 ```js
 const el = document.getElementById('weight');
 assert.exists(el);
 ```
 
-You should have an element with an `id` of `"height"`.
+你應該有一個 `id` 爲 `"height"` 的元素。
 
 ```js
 const el = document.getElementById('height');
 assert.exists(el);
 ```
 
-You should have an element with an `id` of `"types"`.
+你應該有一個 `id` 爲 `"types"` 的元素。
 
 ```js
 const el = document.getElementById('types');
 assert.exists(el);
 ```
 
-You should have an element with an `id` of `"hp"`.
+你應該有一個 `id` 爲 `"hp"` 的元素。
 
 ```js
 const el = document.getElementById('hp');
 assert.exists(el);
 ```
 
-You should have an element with an `id` of `"attack"`.
+你應該有一個 `id` 爲 `"attack"` 的元素。
 
 ```js
 const el = document.getElementById('attack');
 assert.exists(el);
 ```
 
-You should have an element with an `id` of `"defense"`.
+你應該有一個 `id` 爲 `"defense"` 的元素。
 
 ```js
 const el = document.getElementById('defense');
 assert.exists(el);
 ```
 
-You should have an element with an `id` of `"special-attack"`.
+你應該有一個 `id` 爲 `"special-attack"` 的元素。
 
 ```js
 const el = document.getElementById('special-attack');
 assert.exists(el);
 ```
 
-You should have an element with an `id` of `"special-defense"`.
+有一個 `id` 爲 `"special-defense"` 的元素。
 
 ```js
 const el = document.getElementById('special-defense');
 assert.exists(el);
 ```
 
-You should have an element with an `id` of `"speed"`.
+你應該有一個 `id` 爲 `"speed"` 的元素。
 
 ```js
 const el = document.getElementById('speed');
 assert.exists(el);
 ```
 
-When the `#search-input` element contains the value `Red` and the `#search-button` element is clicked, an alert should appear with the text `"Pokémon not found"`.
+當 `#search-input` 元素包含值 `Red`，並點擊 `#search-button` 元素時，應出現提示，文本爲 `"Pokémon not found"`。
 
 ```js
 async () => {
@@ -159,7 +161,7 @@ async () => {
 };
 ```
 
-When the `#search-input` element contains the value `Pikachu` and the `#search-button` element is clicked, the values in the `#pokemon-name`, `#pokemon-id`, `#weight`, `#height`, `#hp`, `#attack`, `#defense`, `#special-attack`, `#special-defense`, and `#speed` elements should be `PIKACHU`, `#25` or `25`, `Weight: 60` or `60`, `Height: 4` or `4`, `35`, `55`, `40`, `50`, `50`, and `90`, respectively.
+當 `#search-input` 元素包含值 `Pikachu`，並點擊 `#search-button` 元素時，`#pokemon-name`、`#pokemon-id`、`#weight`、`#height`、`#hp`、`#attack`、`#defense`、`#special-attack`、`#special-defense` 和 `#speed` 元素中的值應該分別爲 `PIKACHU`、`#25` 或 `25`、`Weight: 60` 或 `60`、`Height: 4` 或 `4`、`35`、`55`、`40`、`50`、`50` 和 `90`。
 
 ```js
 async () => {
@@ -203,7 +205,7 @@ async () => {
 };
 ```
 
-When the `#search-input` element contains the value `Pikachu` and the `#search-button` element is clicked, you should add an `img` element with the `id` of `"sprite"` and the `src` set to the Pokémon's `front_default` sprite to the page.
+當 `#search-input` 元素包含值 `Pikachu`，並且點擊 `#search-button` 元素時，你應該在頁面中添加一個 `img` 元素，其 `id` 爲 `"sprite"`、`src` 爲寶可夢的 `front_default` 精靈。
 
 ```js
 async () => {
@@ -228,7 +230,7 @@ async () => {
 };
 ```
 
-When the `#search-input` element contains the value `Pikachu` and the `#search-button` element is clicked, the `#types` element should contain a single inner element with the value `ELECTRIC`. Make sure the `#types` element content is cleared between searches.
+當 `#search-input` 元素包含值 `Pikachu`，並點擊 `#search-button` 元素時，`#types` 元素應該包含一個值爲 `ELECTRIC` 的內部元素。 確保在每次搜索之間清除 `#types` 元素的內容。
 
 ```js
 async () => {
@@ -255,7 +257,7 @@ async () => {
 };
 ```
 
-When the `#search-input` element contains the value `94` and the `#search-button` element is clicked, the values in the `#pokemon-name`, `#pokemon-id`, `#weight`, `#height`, `#hp`, `#attack`, `#defense`, `#special-attack`, `#special-defense`, and `#speed` elements should be `GENGAR`, `#94` or `94`, `Weight: 405` or `405`, `Height: 15` or `15`, `60`, `65`, `60`, `130`, `75`, and `110`, respectively.
+當 `#search-input` 元素包含值 `94`，並點擊 `#search-button` 元素時，`#pokemon-name`、`#pokemon-id`、`#weight`、`#height`、`#hp`、`#attack`、`#defense`、`#special-attack`、`#special-defense` 和 `#speed` 元素中的值應該分別爲 `GENGAR`、`#94` 或 `94`、`Weight: 405` 或 `405`、`Height: 15` 或 `15`、`60`、`65`、`60`、`130`、`75` 和 `110`。
 
 ```js
 async () => {
@@ -299,7 +301,7 @@ async () => {
 };
 ```
 
-When the `#search-input` element contains the value `94` and the `#search-button` element is clicked, you should add an `img` element with the `id` of `"sprite"` and the `src` set to the Pokémon's `front_default` sprite to the page.
+當 `#search-input` 元素包含值 `94`，並點擊 `#search-button` 元素時，你應該在頁面中添加一個 `img` 元素，其 `id` 爲 `"sprite"`、`src` 爲寶可夢的 `front_default` 精靈。
 
 ```js
 async () => {
@@ -324,7 +326,7 @@ async () => {
 };
 ```
 
-When the `#search-input` element contains the value `94` and the `#search-button` element is clicked, the `#types` element should contain two inner elements with the text values `GHOST` and `POISON`, respectively. Make sure the `#types` element content is cleared between searches.
+當 `#search-input` 元素包含值 `94`，並點擊 `#search-button` 元素時，`#types` 元素應該包含兩個內部元素，它們的值分別爲 `GHOST` 和 `POISON`。 確保在每次搜索之間清除 `#types` 元素的內容。
 
 ```js
 async () => {
@@ -352,7 +354,7 @@ async () => {
 };
 ```
 
-When the `#search-input` element contains an invalid Pokemon name and the `#search-button` element is clicked, an alert should appear with the text `"Pokémon not found"`.
+當 `#search-input` 元素包含無效的寶可夢名稱，並點擊 `#search-button` 元素時，應出現提示，文本爲 `"Pokémon not found"`。
 
 ```js
 async () => {
@@ -382,7 +384,7 @@ async () => {
 ```
 
 
-When the `#search-input` element contains a valid Pokemon id and the `#search-button` element is clicked, the UI should be filled with the correct data.
+當 `#search-input` 元素包含有效的寶可夢 id，並點擊 `#search-button` 元素時，用戶界面中應填入正確的數據。
 
 ```js
 async () => {

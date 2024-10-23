@@ -137,7 +137,7 @@ assert($('.dashboard div table thead tr th')[0].getAttribute('colspan') == 3);
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
@@ -188,7 +188,7 @@ assert($('.dashboard div table thead tr th')[0].getAttribute('colspan') == 3);
 
   const pie = d3.pie()
     .value(d => d.value);
-    
+
   const pieGraphData = pieGraph.selectAll('pieSlices')
     .data(pie(d3.entries(data[8].followers)))
     .enter()
@@ -314,7 +314,7 @@ assert($('.dashboard div table thead tr th')[0].getAttribute('colspan') == 3);
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
@@ -365,7 +365,7 @@ assert($('.dashboard div table thead tr th')[0].getAttribute('colspan') == 3);
 
   const pie = d3.pie()
     .value(d => d.value);
-    
+
   const pieGraphData = pieGraph.selectAll('pieSlices')
     .data(pie(d3.entries(data[8].followers)))
     .enter()
@@ -400,7 +400,7 @@ assert($('.dashboard div table thead tr th')[0].getAttribute('colspan') == 3);
     .text('2020 followers')
     .attr('colspan', 3)
 
-    
+
 
 </script>
 ```

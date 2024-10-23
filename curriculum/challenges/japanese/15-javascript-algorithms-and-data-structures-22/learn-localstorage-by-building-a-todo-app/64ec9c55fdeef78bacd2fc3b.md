@@ -1,27 +1,27 @@
 ---
 id: 64ec9c55fdeef78bacd2fc3b
-title: Step 30
+title: ステップ 30
 challengeType: 0
 dashedName: step-30
 ---
 
 # --description--
 
-If you attempt to add another task now, you'll notice that the input fields retain the values you entered for the previous task. To resolve this, you need to clear the input fields after adding a task.
+この段階で別のタスクを追加しようとすると、入力フィールドに前のタスクで入力した値が保持されていることに気付くでしょう。 この問題を解決するには、タスクを追加した後に入力フィールドをクリアする必要があります。
 
-Instead of clearing the input fields one by one, it's a good practice to create a function that handles clearing those fields. You can then call this function whenever you need to clear the input fields again.
+入力フィールドを一つ一つクリアする代わりに、これらのフィールドをクリアする処理をまとめた関数を作成するのが良いでしょう。 その後は、入力フィールドを再度クリアする必要があるときには毎回この関数を呼び出せば良いのです。
 
-Use arrow syntax to create a `reset` function and set it to a pair of curly braces.
+アロー構文を使用して `reset` 関数を作成し、波括弧のペアに設定してください。
 
 # --hints--
 
-You should use `const` and arrow syntax to create a `reset` function.
+`const` とアロー構文を使用して `reset` 関数を作成してください。
 
 ```js
 assert.match(code, /const\s+reset\s*=\s*\(\s*\)\s*=>\s*\{\s*/)
 ```
 
-Your `reset` function should be empty.
+`reset` 関数は空にしてください。
 
 ```js
 assert.match(reset.toString(), /\(\s*\)\s*\{\s*\}/);
@@ -331,7 +331,7 @@ taskForm.addEventListener("submit", (e) => {
   }
 
   taskData.forEach(({id, title, date, description}) => {
-      (tasksContainer.innerHTML += `
+      tasksContainer.innerHTML += `
         <div class="task" id="${id}">
           <p><strong>Title:</strong> ${title}</p>
           <p><strong>Date:</strong> ${date}</p>
@@ -339,7 +339,7 @@ taskForm.addEventListener("submit", (e) => {
           <button type="button" class="btn">Edit</button>
           <button type="button" class="btn">Delete</button>
         </div>
-      `)
+      `
     } 
   );
 

@@ -139,14 +139,14 @@ assert($('svg circle')[0].getAttribute('cy') == '243.232');
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
     .append('circle')
     .attr('cx', d => xScale(d.year))
-    
-    
+
+
 
 </script>
 ```
@@ -238,14 +238,14 @@ assert($('svg circle')[0].getAttribute('cy') == '243.232');
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
     .append('circle')
     .attr('cx', d => xScale(d.year))
     .attr('cy', d => yScale(d.followers.twitter))
-    
+
 
 
 </script>

@@ -141,7 +141,7 @@ assert(/\.data\(data\)\s*\.enter\s*\(\s*\)/g.test(code));
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
 
@@ -237,12 +237,12 @@ assert(/\.data\(data\)\s*\.enter\s*\(\s*\)/g.test(code));
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')  
     .data(data)
     .enter()
 
-  
+
 
 </script>
 ```

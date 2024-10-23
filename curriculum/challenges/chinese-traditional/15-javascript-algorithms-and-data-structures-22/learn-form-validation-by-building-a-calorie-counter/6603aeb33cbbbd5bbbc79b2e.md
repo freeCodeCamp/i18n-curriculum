@@ -1,19 +1,19 @@
 ---
 id: 6603aeb33cbbbd5bbbc79b2e
-title: Step 26
+title: 步驟 26
 challengeType: 0
 dashedName: step-26
 ---
 
 # --description--
 
-To see the results from the `cleanInputString` function, you will need to add a `console.log()` statement. Inside that console statement, call the `cleanInputString` function with the string value of `"+-99"` as an argument.
+要查看 `cleanInputString` 函數的結果，你需要添加 `console.log()` 語句。 在該控制檯語句中，使用 `"+-99"` 的字符串值作爲參數調用 `cleanInputString` 函數。
 
-Open up the console and you should see the original string followed by the cleaned string value with the `+-` removed.
+打開控制檯，你應該看到原始字符串，後面跟着刪除了 `+-` 的清理後的字符串值。
 
 # --hints--
 
-You should have a `console.log(cleanInputString("+-99"))` statement.
+你應該有一個 `console.log(cleanInputString("+-99"))` 語句。
 
 ```js
 assert.match(code, /console\.log\(\s*cleanInputString\(\s*('|")\s*\+\-9\s*9\s*\1\s*\)\s*\);?/);

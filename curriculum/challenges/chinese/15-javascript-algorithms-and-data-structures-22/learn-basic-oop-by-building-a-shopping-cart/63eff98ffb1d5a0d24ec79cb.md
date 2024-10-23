@@ -7,43 +7,43 @@ dashedName: step-26
 
 # --description--
 
-You haven't written the code to generate the HTML yet, but if a product has already been added to the user's cart then there will be a matching element which you'll need.
+你尚未编写生成 HTML 的代码，但如果产品已被添加到用户的购物车中，那么需要一个匹配的元素。
 
-Use `.getElementById()` to get the matching element - you'll be setting the `id` value to `product-count-for-id${product.id}`, so use a template literal to query that value.
+使用 `.getElementById()` 来获取匹配的元素 - 你将把 `id` 的值设置为 `product-count-for-id${product.id}`，所以使用模板文字来查询该值。
 
-Assign your query to a `currentProductCountSpan` variable.
+将你的查询分配给 `currentProductCountSpan` 变量。
 
 # --hints--
 
-You should declare a `currentProductCountSpan` variable.
+你应该声明一个 `currentProductCountSpan` 变量。
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /currentProductCountSpan\s*=/);
 ```
 
-You should use `const` to declare `currentProductCountSpan`.
+你应该使用 `const` 来声明 `currentProductCountSpan`。
 
 ```js
 const afterAdd = code.split("addItem")[1];
 assert.match(afterAdd, /const\s+currentProductCountSpan\s*=/);
 ```
 
-You should use `document.getElementById()` to get the matching element.
+你应该使用 `document.getElementById()` 来获取匹配的元素。
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /document\.getElementById\(/);
 ```
 
-You should use a template literal to query the `id` value.
+你应该使用模板文字来查询 `id` 的值。
 
 ```js
 const afterAdd = code.split("addItem")[1];
 assert.match(afterAdd, /document\.getElementById\(\s*`product-count-for-id\$\{(product\.)?id\}`\s*\)/);
 ```
 
-You should assign the value of `document.getElementById()` to `currentProductCountSpan`.
+你应该将 `document.getElementById()` 的值分配给 `currentProductCountSpan`。
 
 ```js
 const cart = new ShoppingCart();

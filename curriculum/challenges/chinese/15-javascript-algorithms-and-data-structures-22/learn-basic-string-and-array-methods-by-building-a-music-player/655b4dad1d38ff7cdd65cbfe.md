@@ -1,40 +1,40 @@
 ---
 id: 655b4dad1d38ff7cdd65cbfe
-title: Step 99
+title: 步骤 99
 challengeType: 0
 dashedName: step-99
 ---
 
 # --description--
 
-With everything set in place, call the `pauseSong()`, `setPlayerDisplay()`, `highlightCurrentSong()`, and `setPlayButtonAccessibleText()` functions to correctly update the player.
+所有设置就绪后，调用 `pauseSong()`、`setPlayerDisplay()`、`highlightCurrentSong()` 和 `setPlayButtonAccessibleText()` 函数以正确更新播放器。
 
-Congratulations on completing your music player! Now that we've finished testing and using the shorter songs, we've replaced them with the original tracks specially selected by Quincy for you to enjoy.
+恭喜你完成你的音乐播放器！ 现在我们已经完成了对较短歌曲的测试和使用，我们已将它们替换为 Quincy 特别挑选的原始曲目，供你欣赏。
 
 # --hints--
 
-You should call the `pauseSong` function.
+你应该调用 `pauseSong` 函数。
 
 ```js
 const splitter = code.split('audio.addEventListener("ended", () => {')
 assert.match(splitter[1], /pauseSong\(\s*\)\s*;?/)
 ```
 
-You should call the `setPlayerDisplay` function.
+你应该调用 `setPlayerDisplay` 函数。
 
 ```js
 const splitter = code.split('audio.addEventListener("ended", () => {')
 assert.match(splitter[1], /setPlayerDisplay\(\s*\)\s*;?/)
 ```
 
-You should call the `highlightCurrentSong` function.
+你应该调用 `highlightCurrentSong` 函数。
 
 ```js
 const splitter = code.split('audio.addEventListener("ended", () => {')
 assert.match(splitter[1], /highlightCurrentSong\(\s*\)\s*;?/)
 ```
 
-You should call the `setPlayButtonAccessibleText` function.
+你应该调用 `setPlayButtonAccessibleText` 函数。
 
 ```js
 const splitter = code.split('audio.addEventListener("ended", () => {')
@@ -665,7 +665,7 @@ const playNextSong = () => {
   }
 };
 
-const playPreviousSong = () =>{
+const playPreviousSong = () => {
    if (userData?.currentSong === null) return;
    else {
     const currentSongIndex = getCurrentSongIndex();
@@ -1451,7 +1451,7 @@ const playNextSong = () => {
   }
 };
 
-const playPreviousSong = () =>{
+const playPreviousSong = () => {
    if (userData?.currentSong === null) return;
    else {
     const currentSongIndex = getCurrentSongIndex();

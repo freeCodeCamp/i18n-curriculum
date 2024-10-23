@@ -1,6 +1,6 @@
 ---
 id: 660ae3eeef9ad289bece426b
-title: Passo 10
+title: Passo 11
 challengeType: 0
 dashedName: step-11
 ---
@@ -11,7 +11,7 @@ In the previous projects, you used regular functions. But in the rest of the pro
 
 An arrow function is an anonymous function expression and a shorter way to write functions. Anonymous means that the function does not have a name. Arrow functions are always anonymous.
 
-Here is the basic syntax:
+Aqui está a sintaxe básica:
 
 ```js
 () => {}

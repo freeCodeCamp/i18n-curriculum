@@ -74,7 +74,7 @@ assert(
   const svgMargin = 70,
     svgWidth = 700,
     svgHeight = 500;
-  
+
 
 </script>  
 ```

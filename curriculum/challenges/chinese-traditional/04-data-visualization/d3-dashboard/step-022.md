@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1c9f3
-title: Step 22
+title: 步驟 22
 challengeType: 0
 dashedName: step-22
 ---

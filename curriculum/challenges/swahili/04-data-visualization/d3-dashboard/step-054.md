@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1ca13
-title: Step 54
+title: Hatua ya 54
 challengeType: 0
 dashedName: step-54
 ---
@@ -203,7 +203,7 @@ assert($('svg path')[3].getAttribute('d').length === 115);
   lineGraph.append('path')
     .attr('d', tumblrLine(data))
 
-  
+
 
 </script>
 ```

@@ -1,6 +1,6 @@
 ---
 id: 657bdcb9a322aae1eac38391
-title: 構建電話號碼驗證器
+title: 創建電話號碼驗證器
 challengeType: 14
 forumTopicId: 16090
 dashedName: build-a-telephone-number-validator
@@ -8,7 +8,7 @@ dashedName: build-a-telephone-number-validator
 
 # --description--
 
-In the US, phone numbers can be formatted in many ways. Here are some examples of valid formats for US phone numbers:
+在美國，電話號碼的格式有很多種。 以下是一些美國電話號碼有效格式的示例：
 
 <blockquote>
 1 555-555-5555<br>
@@ -20,80 +20,80 @@ In the US, phone numbers can be formatted in many ways. Here are some examples o
 (555)555-5555<br>
 </blockquote>
 
-Note that the area code is required. Also, if the country code is provided, you must confirm that the country code is `1`.
+注意區域代碼是必需的。 此外，如果有國家代碼，你必須確保國家代碼爲 `1`。
 
-**Objective:** Build an app that is functionally similar to <a href="https://telephone-number-validator.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://telephone-number-validator.freecodecamp.rocks</a>
+**目標：**構建一個功能上與 <a href="https://telephone-number-validator.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://telephone-number-validator.freecodecamp.rocks</a> 相似的應用程序。
 
-**User Stories:**
+**用戶需求：**
 
-1. You should have an `input` element with an `id` of `"user-input"`
-1. You should have a `button` element with an `id` of `"check-btn"`
-1. You should have a `button` element with an `id` of `"clear-btn"`
-1. You should have a `div`, `span` or `p` element with an `id` of `"results-div"`
-1. When you click on the `#check-btn` element without entering a value into the `#user-input` element, an alert should appear with the text `"Please provide a phone number"`
-1. When you click on the `#clear-btn` element, the content within the `#results-div` element should be removed
-1. When the `#user-input` element contains `1 555-555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: 1 555-555-5555"`
-1. When the `#user-input` element contains `1 (555) 555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: 1 (555) 555-5555"`
-1. When the `#user-input` element contains `5555555555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: 5555555555"`
-1. When the `#user-input` element contains `555-555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: 555-555-5555"
-1. When the `#user-input` element contains `(555)555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: (555)555-5555"`
-1. When the `#user-input` element contains `1(555)555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: 1(555)555-5555"`
-1. When the `#user-input` element contains `555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 555-5555"`
-1. When the `#user-input` element contains `5555555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 5555555"`
-1. When the `#user-input` element contains `1 555)555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 1 555)555-5555"`
-1. When the `#user-input` element contains `1 555 555 5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: 1 555 555 5555"`
-1. When the `#user-input` element contains `1 456 789 4444` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: 1 456 789 4444"`
-1. When `#user-input` contains `123**&!!asdf#` and `#check-btn` is clicked, `#results-div` should contain the text `"Invalid US number: 123**&!!asdf#"`
-1. When the `#user-input` element contains `55555555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 55555555"`
-1. When the `#user-input` element contains `(6054756961)` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: (6054756961)"`
-1. When the `#user-input` element contains `2 (757) 622-7382` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 2 (757) 622-7382"`
-1. When the `#user-input` element contains `0 (757) 622-7382` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 0 (757) 622-7382"`
-1. When the `#user-input` element contains `-1 (757) 622-7382` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: -1 (757) 622-7382"`
-1. When the `#user-input` element contains `2 757 622-7382` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 2 757 622-7382"`
-1. When the `#user-input` element contains `10 (757) 622-7382` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 10 (757) 622-7382"`
-1. When the `#user-input` element contains `27576227382` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 27576227382"`
-1. When the `#user-input` element contains `(275)76227382` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: (275)76227382"`
-1. When the `#user-input` element contains `2(757)6227382` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 2(757)6227382"`
-1. When the `#user-input` element contains `2(757)622-7382` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 2(757)622-7382"`
-1. When the `#user-input` element contains `555)-555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 555)-555-5555"`
-1. When the `#user-input` element contains `(555-555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: (555-555-5555"`
-1. When `#user-input` contains `(555)5(55?)-5555` and `#check-btn` is clicked, `#results-div` should contain the text `"Invalid US number: (555)5(55?)-5555"`
-1. When the `#user-input` element contains `55 55-55-555-5` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 55 55-55-555-5"`
-1. When the `#user-input` element contains `11 555-555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 11 555-555-5555"`
+1. 你應該有一個 `id` 爲 `"user-input"` 的 `input` 元素
+1. 你應該有一個 `id` 爲 `"check-btn"` 的 `button` 元素
+1. 你應該有一個 `id` 爲 `"clear-btn"` 的 `button` 元素
+1. 你應該有一個 `id` 爲 `"results-div"` 的 `div`、`span` 或 `p` 元素
+1. 當你點擊 `#check-btn` 元素但沒有給 `#user-input` 元素輸入一個值時，會出現提示 `"Please provide a phone number"`
+1. 當你點擊 `#clear-btn` 元素時，`#results-div` 元素中的內容應被刪除
+1. 當 `#user-input` 元素包含 `1 555-555-5555`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Valid US number: 1 555-555-5555"`
+1. 當 `#user-input` 元素包含 `1 (555) 555-5555`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Valid US number: 1 (555) 555-5555"`
+1. 當 `#user-input` 元素包含 `5555555555`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Valid US number: 5555555555"`
+1. 當 `#user-input` 元素包含 `555-555-5555`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Valid US number: 555-555-5555"`
+1. 當 `#user-input` 元素包含 `(555)555-5555`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Valid US number: (555)555-5555"`
+1. 當 `#user-input` 元素包含 `1(555)555-5555`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Valid US number: 1(555)555-5555"`
+1. 當 `#user-input` 元素包含 `555-5555`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Invalid US number: 555-5555"`
+1. 當 `#user-input` 元素包含 `5555555`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Invalid US number: 5555555"`
+1. 當 `#user-input` 元素包含 `1 555)555-5555`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Invalid US number: 1 555)555-5555"`
+1. 當 `#user-input` 元素包含 `1 555 555 5555`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Valid US number: 1 555 555 5555"`
+1. 當 `#user-input` 元素包含 `1 456 789 4444`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Valid US number: 1 456 789 4444"`
+1. 當 `#user-input` 包含 `123**&!!asdf#`，並點擊 `#check-btn` 元素時，`#results-div` 應該包含文本 `"Invalid US number: 123**&!!asdf#"`
+1. 當 `#user-input` 元素包含 `55555555`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Invalid US number: 55555555"`
+1. 當 `#user-input` 元素包含 `(6054756961)`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Invalid US number: (6054756961)"`
+1. 當 `#user-input` 元素包含 `2 (757) 622-7382`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Invalid US number: 2 (757) 622-7382"`
+1. 當 `#user-input` 元素包含 `0 (757) 622-7382`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Invalid US number: 0 (757) 622-7382"`
+1. 當 `#user-input` 元素包含 `-1 (757) 622-7382`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Invalid US number: -1 (757) 622-7382"`
+1. 當 `#user-input` 元素包含 `2 757 622-7382`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Invalid US number: 2 757 622-7382"`
+1. 當 `#user-input` 元素包含 `10 (757) 622-7382`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Invalid US number: 10 (757) 622-7382"`
+1. 當 `#user-input` 元素包含 `27576227382`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Invalid US number: 27576227382"`
+1. 當 `#user-input` 元素包含 `(275)76227382`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Invalid US number: (275)76227382"`
+1. 當 `#user-input` 元素包含 `2(757)6227382`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Invalid US number: 2(757)6227382"`
+1. 當 `#user-input` 元素包含 `2(757)622-7382`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Invalid US number: 2(757)622-7382"`
+1. 當 `#user-input` 元素包含 `555)-555-5555`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Invalid US number: 555)-555-5555"`
+1. 當 `#user-input` 元素包含 `(555-555-5555`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Invalid US number: (555-555-5555"`
+1. 當 `#user-input` 包含 `(555)5(55?)-5555`，並點擊 `#check-btn` 元素時，`#results-div` 應該包含文本 `"Invalid US number: (555)5(55?)-5555"`
+1. 當 `#user-input` 元素包含 `55 55-55-555-5`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Invalid US number: 55 55-55-555-5"`
+1. 當 `#user-input` 元素包含 `11 555-555-5555`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Invalid US number: 11 555-555-5555"`
 
-Fulfill the user stories and pass all the tests below to complete this project. 樣式的話沒有要求，可以根據你的喜好自由發揮。 Happy Coding!
+完成用戶需求並通過下面的所有測試來完成這個項目。 賦予它你的個人風格。 祝你編碼愉快！
 
 # --hints--
 
-You should have an `input` element with an `id` of `"user-input"`.
+你應該有一個 `id` 爲 `"user-input"` 的 `input` 元素。
 
 ```js
 const el = document.getElementById('user-input');
 assert.strictEqual(el?.nodeName?.toLowerCase(), 'input');
 ```
 
-You should have a `button` element with an `id` of `"check-btn"`.
+你應該有一個 `id` 爲 `"check-btn"` 的 `button` 元素。
 
 ```js
 const el = document.getElementById('check-btn');
 assert.strictEqual(el?.nodeName?.toLowerCase(), 'button');
 ```
 
-You should have a `button` element with an `id` of `"clear-btn"`.
+你應該有一個 `id` 爲 `"clear-btn"` 的 `button` 元素。
 
 ```js
 const el = document.getElementById('clear-btn');
 assert.strictEqual(el?.nodeName?.toLowerCase(), 'button');
 ```
 
-You should have a `div`, `span`, or `p` element with an `id` of `"results-div"`.
+你應該有一個 `id` 爲 `"results-div"` 的 `div`、`span` 或 `p` 元素。
 
 ```js
 const el = document.getElementById('results-div');
 assert(['div', 'span', 'p'].includes(el?.nodeName?.toLowerCase()));
 ```
 
-When you click on the `#check-btn` element without entering a value into the `#user-input` element, an alert should appear with the text `"Please provide a phone number"`.
+當你點擊 `#check-btn` 元素但沒有給 `#user-input` 元素輸入一個值時，會出現提示 `"Please provide a phone number"`。
 
 ```js
 const userInput = document.getElementById('user-input');
@@ -106,7 +106,7 @@ checkBtn.click();
 assert.strictEqual(alertMessage.trim().replace(/[.,?!]+$/g, '').toLowerCase(), 'please provide a phone number');
 ```
 
-When you click on the `#clear-btn` element, the content within the `#results-div` element should be removed.
+當你點擊 `#clear-btn` 元素時，`#results-div` 元素中的內容應被刪除。
 
 ```js
 const resultsDiv = document.getElementById('results-div');
@@ -118,7 +118,7 @@ clearBtn.click();
 assert.isEmpty(resultsDiv.textContent);
 ```
 
-When the `#user-input` element contains `1 555-555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: 1 555-555-5555"`.
+當 `#user-input` 元素包含 `1 555-555-5555`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Valid US number: 1 555-555-5555"`。
 
 ```js
 const userInput = document.getElementById('user-input');
@@ -132,7 +132,7 @@ checkBtn.click();
 assert.strictEqual(resultsDiv.innerText.trim().toLowerCase(), 'valid us number: 1 555-555-5555');
 ```
 
-When the `#user-input` element contains `1 (555) 555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: 1 (555) 555-5555"`.
+當 `#user-input` 元素包含 `1 (555) 555-5555`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Valid US number: 1 (555) 555-5555"`。
 
 ```js
 const userInput = document.getElementById('user-input');
@@ -146,7 +146,7 @@ checkBtn.click();
 assert.strictEqual(resultsDiv.innerText.trim().toLowerCase(), 'valid us number: 1 (555) 555-5555');
 ```
 
-When the `#user-input` element contains `5555555555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: 5555555555"`.
+當 `#user-input` 元素包含 `5555555555`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Valid US number: 5555555555"`。
 
 ```js
 const userInput = document.getElementById('user-input');
@@ -160,7 +160,7 @@ checkBtn.click();
 assert.strictEqual(resultsDiv.innerText.trim().toLowerCase(), 'valid us number: 5555555555');
 ```
 
-When the `#user-input` element contains `555-555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: 555-555-5555"`.
+當 `#user-input` 元素包含 `555-555-5555`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Valid US number: 555-555-5555"`。
 
 ```js
 const userInput = document.getElementById('user-input');
@@ -174,7 +174,7 @@ checkBtn.click();
 assert.strictEqual(resultsDiv.innerText.trim().toLowerCase(), 'valid us number: 555-555-5555');
 ```
 
-When the `#user-input` element contains `(555)555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: (555)555-5555"`.
+當 `#user-input` 元素包含 `(555)555-5555`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Valid US number: (555)555-5555"`。
 
 ```js
 const userInput = document.getElementById('user-input');
@@ -188,7 +188,7 @@ checkBtn.click();
 assert.strictEqual(resultsDiv.innerText.trim().toLowerCase(), 'valid us number: (555)555-5555');
 ```
 
-When the `#user-input` element contains `1(555)555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: 1(555)555-5555"`.
+當 `#user-input` 元素包含 `1(555)555-5555`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Valid US number: 1(555)555-5555"`。
 
 ```js
 const userInput = document.getElementById('user-input');
@@ -202,7 +202,7 @@ checkBtn.click();
 assert.strictEqual(resultsDiv.innerText.trim().toLowerCase(), 'valid us number: 1(555)555-5555');
 ```
 
-When the `#user-input` element contains `555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 555-5555"`.
+當 `#user-input` 元素包含 `555-5555`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Invalid US number: 555-5555"`。
 
 ```js
 const userInput = document.getElementById('user-input');
@@ -216,7 +216,7 @@ checkBtn.click();
 assert.strictEqual(resultsDiv.innerText.trim().toLowerCase(), 'invalid us number: 555-5555');
 ```
 
-When the `#user-input` element contains `5555555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 5555555"`.
+當 `#user-input` 元素包含 `5555555`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Invalid US number: 5555555"`。
 
 ```js
 const userInput = document.getElementById('user-input');
@@ -230,7 +230,7 @@ checkBtn.click();
 assert.strictEqual(resultsDiv.innerText.trim().toLowerCase(), 'invalid us number: 5555555');
 ```
 
-When the `#user-input` element contains `1 555)555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 1 555)555-5555"`.
+當 `#user-input` 元素包含 `1 555)555-5555`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Invalid US number: 1 555)555-5555"`。
 
 ```js
 const userInput = document.getElementById('user-input');
@@ -244,7 +244,7 @@ checkBtn.click();
 assert.strictEqual(resultsDiv.innerText.trim().toLowerCase(), 'invalid us number: 1 555)555-5555');
 ```
 
-When the `#user-input` element contains `1 555 555 5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: 1 555 555 5555"`.
+當 `#user-input` 元素包含 `1 555 555 5555`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Valid US number: 1 555 555 5555"`。
 
 ```js
 const userInput = document.getElementById('user-input');
@@ -258,7 +258,7 @@ checkBtn.click();
 assert.strictEqual(resultsDiv.innerText.trim().toLowerCase(), 'valid us number: 1 555 555 5555');
 ```
 
-When the `#user-input` element contains `1 456 789 4444` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: 1 456 789 4444"`.
+當 `#user-input` 元素包含 `1 456 789 4444`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Valid US number: 1 456 789 4444"`。
 
 ```js
 const userInput = document.getElementById('user-input');
@@ -272,7 +272,7 @@ checkBtn.click();
 assert.strictEqual(resultsDiv.innerText.trim().toLowerCase(), 'valid us number: 1 456 789 4444');
 ```
 
-When `#user-input` contains `123**&!!asdf#` and `#check-btn` is clicked, `#results-div` should contain the text `"Invalid US number: 123**&!!asdf#"`.
+當 `#user-input` 包含 `123**&!!asdf#`，並點擊 `#check-btn` 元素時，`#results-div` 應該包含文本 `"Invalid US number: 123**&!!asdf#"`。
 
 ```js
 const userInput = document.getElementById('user-input');
@@ -286,7 +286,7 @@ checkBtn.click();
 assert.strictEqual(resultsDiv.innerText.trim().toLowerCase(), 'invalid us number: 123**&!!asdf#');
 ```
 
-When the `#user-input` element contains `55555555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 55555555"`.
+當 `#user-input` 元素包含 `55555555`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Invalid US number: 55555555"`。
 
 ```js
 const userInput = document.getElementById('user-input');
@@ -300,7 +300,7 @@ checkBtn.click();
 assert.strictEqual(resultsDiv.innerText.trim().toLowerCase(), 'invalid us number: 55555555');
 ```
 
-When the `#user-input` element contains `(6054756961)` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: (6054756961)"`.
+當 `#user-input` 元素包含 `(6054756961)`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Invalid US number: (6054756961)"`。
 
 ```js
 const userInput = document.getElementById('user-input');
@@ -314,7 +314,7 @@ checkBtn.click();
 assert.strictEqual(resultsDiv.innerText.trim().toLowerCase(), 'invalid us number: (6054756961)');
 ```
 
-When the `#user-input` element contains `2 (757) 622-7382` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 2 (757) 622-7382"`.
+當 `#user-input` 元素包含 `2 (757) 622-7382`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Invalid US number: 2 (757) 622-7382"`。
 
 ```js
 const userInput = document.getElementById('user-input');
@@ -328,7 +328,7 @@ checkBtn.click();
 assert.strictEqual(resultsDiv.innerText.trim().toLowerCase(), 'invalid us number: 2 (757) 622-7382');
 ```
 
-When the `#user-input` element contains `0 (757) 622-7382` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 0 (757) 622-7382"`.
+當 `#user-input` 元素包含 `0 (757) 622-7382`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Invalid US number: 0 (757) 622-7382"`。
 
 ```js
 const userInput = document.getElementById('user-input');
@@ -342,7 +342,7 @@ checkBtn.click();
 assert.strictEqual(resultsDiv.innerText.trim().toLowerCase(), 'invalid us number: 0 (757) 622-7382');
 ```
 
-When the `#user-input` element contains `-1 (757) 622-7382` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: -1 (757) 622-7382"`.
+當 `#user-input` 元素包含 `-1 (757) 622-7382`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Invalid US number: -1 (757) 622-7382"`。
 
 ```js
 const userInput = document.getElementById('user-input');
@@ -356,7 +356,7 @@ checkBtn.click();
 assert.strictEqual(resultsDiv.innerText.trim().toLowerCase(), 'invalid us number: -1 (757) 622-7382');
 ```
 
-When the `#user-input` element contains `2 757 622-7382` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 2 757 622-7382"`.
+當 `#user-input` 元素包含 `2 757 622-7382`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Invalid US number: 2 757 622-7382"`。
 
 ```js
 const userInput = document.getElementById('user-input');
@@ -370,7 +370,7 @@ checkBtn.click();
 assert.strictEqual(resultsDiv.innerText.trim().toLowerCase(), 'invalid us number: 2 757 622-7382');
 ```
 
-When the `#user-input` element contains `10 (757) 622-7382` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 10 (757) 622-7382"`.
+當 `#user-input` 元素包含 `10 (757) 622-7382`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Invalid US number: 10 (757) 622-7382"`。
 
 ```js
 const userInput = document.getElementById('user-input');
@@ -384,7 +384,7 @@ checkBtn.click();
 assert.strictEqual(resultsDiv.innerText.trim().toLowerCase(), 'invalid us number: 10 (757) 622-7382');
 ```
 
-When the `#user-input` element contains `27576227382` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 27576227382"`.
+當 `#user-input` 元素包含 `27576227382`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Invalid US number: 27576227382"`。
 
 ```js
 const userInput = document.getElementById('user-input');
@@ -398,7 +398,7 @@ checkBtn.click();
 assert.strictEqual(resultsDiv.innerText.trim().toLowerCase(), 'invalid us number: 27576227382');
 ```
 
-When the `#user-input` element contains `(275)76227382` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: (275)76227382"`.
+當 `#user-input` 元素包含 `(275)76227382`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Invalid US number: (275)76227382"`。
 
 ```js
 const userInput = document.getElementById('user-input');
@@ -412,7 +412,7 @@ checkBtn.click();
 assert.strictEqual(resultsDiv.innerText.trim().toLowerCase(), 'invalid us number: (275)76227382');
 ```
 
-When the `#user-input` element contains `2(757)6227382` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 2(757)6227382"`.
+當 `#user-input` 元素包含 `2(757)6227382`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Invalid US number: 2(757)6227382"`。
 
 ```js
 const userInput = document.getElementById('user-input');
@@ -426,7 +426,7 @@ checkBtn.click();
 assert.strictEqual(resultsDiv.innerText.trim().toLowerCase(), 'invalid us number: 2(757)6227382');
 ```
 
-When the `#user-input` element contains `2(757)622-7382` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 2(757)622-7382"`.
+當 `#user-input` 元素包含 `2(757)622-7382`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Invalid US number: 2(757)622-7382"`。
 
 ```js
 const userInput = document.getElementById('user-input');
@@ -440,7 +440,7 @@ checkBtn.click();
 assert.strictEqual(resultsDiv.innerText.trim().toLowerCase(), 'invalid us number: 2(757)622-7382');
 ```
 
-When the `#user-input` element contains `555)-555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 555)-555-5555"`.
+當 `#user-input` 元素包含 `555)-555-5555`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Invalid US number: 555)-555-5555"`。
 
 ```js
 const userInput = document.getElementById('user-input');
@@ -454,7 +454,7 @@ checkBtn.click();
 assert.strictEqual(resultsDiv.innerText.trim().toLowerCase(), 'invalid us number: 555)-555-5555');
 ```
 
-When the `#user-input` element contains `(555-555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: (555-555-5555"`.
+當 `#user-input` 元素包含 `(555-555-5555`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Invalid US number: (555-555-5555"`。
 
 ```js
 const userInput = document.getElementById('user-input');
@@ -468,7 +468,7 @@ checkBtn.click();
 assert.strictEqual(resultsDiv.innerText.trim().toLowerCase(), 'invalid us number: (555-555-5555');
 ```
 
-When `#user-input` contains `(555)5(55?)-5555` and `#check-btn` is clicked, `#results-div` should contain the text `"Invalid US number: (555)5(55?)-5555"`.
+當 `#user-input` 包含 `(555)5(55?)-5555`，並點擊 `#check-btn` 元素時，`#results-div` 應該包含文本 `"Invalid US number: (555)5(55?)-5555"`。
 
 ```js
 const userInput = document.getElementById('user-input');
@@ -482,7 +482,7 @@ checkBtn.click();
 assert.strictEqual(resultsDiv.innerText.trim().toLowerCase(), 'invalid us number: (555)5(55?)-5555');
 ```
 
-When the `#user-input` element contains `55 55-55-555-5` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 55 55-55-555-5"`.
+當 `#user-input` 元素包含 `55 55-55-555-5`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Invalid US number: 55 55-55-555-5"`。
 
 ```js
 const userInput = document.getElementById('user-input');
@@ -496,7 +496,7 @@ checkBtn.click();
 assert.strictEqual(resultsDiv.innerText.trim().toLowerCase(), 'invalid us number: 55 55-55-555-5');
 ```
 
-When the `#user-input` element contains `11 555-555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 11 555-555-5555"`.
+當 `#user-input` 元素包含 `11 555-555-5555`，並點擊 `#check-btn` 元素時，`#results-div` 元素應該包含文本 `"Invalid US number: 11 555-555-5555"`。
 
 ```js
 const userInput = document.getElementById('user-input');

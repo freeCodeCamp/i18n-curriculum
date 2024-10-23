@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1c9ee
-title: Step 17
+title: Hatua ya 17
 challengeType: 0
 dashedName: step-17
 ---

@@ -1,6 +1,6 @@
 ---
 id: 6482b4fef5fd6bcdfddad730
-title: Step 12
+title: Schritt 12
 challengeType: 0
 dashedName: step-12
 ---
@@ -13,7 +13,7 @@ Start by creating a new `class` called `Player`.
 
 # --hints--
 
-`Player` should be a class.
+`Player` sollte eine Klasse sein.
 
 ```js
 assert(
@@ -21,13 +21,13 @@ assert(
 );
 ```
 
-The `class` keyword should be used.
+Das `class`-Schlüsselwort sollte verwendet werden.
 
 ```js
-assert(code.match(/class/g));
+assert.match(code, /^\s*class/m);
 ```
 
-You should create a new class called `Player`
+Du solltest eine neue Klasse namens `Player` erstellen
 
 ```js
 assert.match(code, /class\s+Player\s*{\s*}\s*/);

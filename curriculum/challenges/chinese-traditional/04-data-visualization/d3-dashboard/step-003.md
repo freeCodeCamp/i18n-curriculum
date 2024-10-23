@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1c9e0
-title: Step 3
+title: 步驟 3
 challengeType: 0
 dashedName: step-3
 ---
@@ -28,7 +28,7 @@ assert(
 <html>
   <head>
 
-  
+
   </head>
 
   <body>

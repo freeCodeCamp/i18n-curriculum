@@ -1,17 +1,17 @@
 ---
 id: 661890c4abae9f2a0eddad6b
-title: Step 22
+title: 步驟 22
 challengeType: 0
 dashedName: step-22
 ---
 
 # --description--
 
-In the next few steps, you'll learn how to determine if an array's length is even or odd, as well as how to find the median. You will then be able to apply what you learned to the `getMedian` function.
+在接下來的幾個步驟中，你將學習如何判斷數組的長度是偶數還是奇數，以及如何求中位數。 然後，你就可以將所學知識應用到 `getMedian` 函數中。
 
-To check if a number is even or odd, you can use the <dfn>modulus operator</dfn> `%`. The modulus operator returns the remainder of the division of two numbers.
+要檢查一個數字是偶數還是奇數，可以使用<dfn>模運算符</dfn> `%`。 模運算符返回兩個數相除的餘數。
 
-Here is an example checking if an array length is even or odd:
+下面是一個檢查數組長度是奇數還是偶數的示例：
 
 ```js
 // check if array length is even
@@ -21,29 +21,29 @@ arr.length % 2 === 0;
 arr.length % 2 === 1;
 ```
 
-If the remainder is `0`, the number is even. If the remainder is `1`, the number is odd.
+如果餘數是 `0`，則這個數是偶數。 如果餘數是 `1`，則這個數是奇數。
 
-Create a variable called `isEven`. Then use the modulus operator to check if the length of the `testArr2` array is even. Assign that expression to the `isEven` variable.
+創建一個名爲 `isEven` 的變量。 然後使用模運算符檢查 `testArr2` 數組的長度是否爲偶數。 將該表達式賦值給 `isEven` 變量。
 
-Below your `isEven` variable, log out the `isEven` variable to the console.
+在你的 `isEven` 變量下方，將 `isEven` 變量記錄到控制檯。
 
-Open up the console to see the result.
+打開控制檯查看結果。
 
 # --hints--
 
-You should have an `isEven` variable.
+你應該有一個 `isEven` 變量。
 
 ```js
 assert.isDefined(isEven);
 ```
 
-You should check if the length of the `testArr2` array is even. Refer back to the example provided for you: `arr.length % 2 === 0;`
+你應該檢查 `testArr2` 數組的長度是否爲偶數。 請參考爲你提供的示例：`arr.length % 2 === 0;`
 
 ```js
 assert.isTrue(isEven);
 ```
 
-You should have a `console.log` statement that logs the `isEven` variable.
+你應該有一條記錄 `isEven` 變量的 `console.log` 語句。
 
 ```js
 assert.match(code, /console\.log\(isEven\)/);

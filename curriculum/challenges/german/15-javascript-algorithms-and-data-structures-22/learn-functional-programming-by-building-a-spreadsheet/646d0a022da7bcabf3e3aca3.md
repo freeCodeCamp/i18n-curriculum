@@ -7,7 +7,7 @@ dashedName: step-45
 
 # --description--
 
-Das Konzept der Rückgabe einer Funktion innerhalb einer Funktion wird <dfn>currying</dfn> genannt. This approach allows you to create a variable that holds a function to be called later, but with a reference to the parameters of the outer function call.
+Das Konzept der Rückgabe einer Funktion innerhalb einer Funktion wird <dfn>currying</dfn> genannt. Dieser Ansatz erlaubt dir, eine Variable zu erstellen, die eine Funktion enthält, die später aufgerufen werden soll, aber mit einem Verweis auf die Parameter des äußeren Funktionsaufrufs.
 
 Zum Beispiel:
 
@@ -16,7 +16,7 @@ const innerOne = elemValue(1);
 const final = innerOne("A");
 ```
 
-`innerOne` wäre deine `inner`-Funktion mit einem `num` von `1` und `final` wäre der Wert der Zelle mit einer `id` von `A1`. Dies ist möglich, da Funktionen Zugriff auf alle Variablen haben, die bei der Erstellung deklariert wurden. Das nennt man <dfn>closure</dfn>.
+`innerOne` would be your `inner` function, with `num` set to `1`, and `final` would have the value of the cell with the `id` of `"A1"`. Dies ist möglich, da Funktionen Zugriff auf alle Variablen haben, die bei der Erstellung deklariert wurden. Das nennt man <dfn>closure</dfn>.
 
 Du wirst noch mehr Übung darin bekommen. Deklariere eine Funktion namens `addCharacters`, die einen `character1`-Parameter verwendet.
 

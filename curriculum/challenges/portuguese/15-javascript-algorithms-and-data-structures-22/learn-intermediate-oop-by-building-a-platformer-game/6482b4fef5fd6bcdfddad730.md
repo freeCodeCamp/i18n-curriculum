@@ -1,6 +1,6 @@
 ---
 id: 6482b4fef5fd6bcdfddad730
-title: Etapa 12
+title: Passo 12
 challengeType: 0
 dashedName: step-12
 ---
@@ -24,7 +24,7 @@ assert(
 A palavra-chave `class` deve ser usada.
 
 ```js
-assert(code.match(/class/g));
+assert.match(code, /^\s*class/m);
 ```
 
 You should create a new class called `Player`

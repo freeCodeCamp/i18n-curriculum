@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1c9ff
-title: Step 34
+title: ステップ 34
 challengeType: 0
 dashedName: step-34
 ---
@@ -147,10 +147,10 @@ assert($('g').length === 22);
     .call(yAxis)
     .attr('transform', `translate(${svgMargin}, 0)`)
     .style('font', '10px verdana');
-    
+
   lineGraph.append('g')
     .call(xAxis)
 
-  
+
 </script>
 ```

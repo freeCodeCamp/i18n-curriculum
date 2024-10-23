@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1c9eb
-title: Step 14
+title: Крок 14
 challengeType: 0
 dashedName: step-14
 ---
@@ -69,7 +69,7 @@ assert(/src\s*=\s*('|")\s*(\.\/)?dashboard.js\s*\1/gi.test(script));
   <body>
     <div class="dashboard"></div>
 
-    
+
   </body>
 </html>
 ```

@@ -31,7 +31,7 @@ assert($('div.dashboard').length === 1);
 
   <body>
 
-  
+
   </body>
 </html>
 ```
@@ -45,7 +45,7 @@ assert($('div.dashboard').length === 1);
     <title>D3 Dashboard</title>
     <link rel="stylesheet" href="./dashboard.css">
 
-    
+
   </head>
 
   <body>

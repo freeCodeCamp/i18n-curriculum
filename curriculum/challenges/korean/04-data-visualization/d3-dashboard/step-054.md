@@ -203,7 +203,7 @@ assert($('svg path')[3].getAttribute('d').length === 115);
   lineGraph.append('path')
     .attr('d', tumblrLine(data))
 
-  
+
 
 </script>
 ```

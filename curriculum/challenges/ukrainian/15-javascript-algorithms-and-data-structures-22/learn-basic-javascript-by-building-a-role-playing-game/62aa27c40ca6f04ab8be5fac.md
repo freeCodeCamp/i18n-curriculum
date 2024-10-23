@@ -1,13 +1,13 @@
 ---
 id: 62aa27c40ca6f04ab8be5fac
-title: Step 167
+title: Крок 167
 challengeType: 0
 dashedName: step-167
 ---
 
 # --description--
 
-In the previous project, you learned how to work with `for` loops like this:
+У попередньому проєкті ви навчилися як працювати з циклами `for` ось так:
 
 ```js
 for (let i = 0; i < 5; i++) {
@@ -15,26 +15,26 @@ for (let i = 0; i < 5; i++) {
 }
 ```
 
-`for` loops are declared with three expressions separated by semicolons: `for (a; b; c)`, where `a` is the initialization expression, `b` is the condition, and `c` is the final expression.
+Цикли `for` оголошуються трьома виразами, розділеними крапкою з комою: `for (a; b; c)`, де `a` — вираз ініціалізації, `b` — умова, а `c` — остаточний вираз.
 
-In this step, create a `for` loop where `i` is initialized to `0`, the loop runs as long as `i` is less than `10`, and `i` is incremented by `1` after each iteration using the increment operator `++`.
+На цьому кроці створіть цикл `for`, де `i` ініціалізовано значенням `0`, цикл виконується, поки `i` менший за `10`, а `i` збільшується на `1` після кожної ітерації за допомогою оператора збільшення `++`.
 
 
 # --hints--
 
-Your `for` loop initialization should have `i` initialized to `0`.
+Ініціалізація циклу `for` повинна мати `i`, ініціалізований на `0`.
 
 ```js
 assert.match(pick.toString(), /for\s*\(\s*(let|var)\s+i\s*=\s*0\s*;/)
 ```
 
-Your loop condition should run as long as `i` is less than `10`.
+Умова циклу має виконуватися, доки `i` менше `10`.
 
 ```js
 assert.match(pick.toString(), /for\s*\(\s*(let|var)\s+i\s*=\s*0\s*;\s*i\s*<\s*10\s*;/)
 ```
 
-Your loop should increment `i` by `1` after each iteration. Remember to use the increment operator `++`.
+Цикл має збільшувати `i` на `1` після кожної ітерації. Пам’ятайте про використання оператора збільшення `++`.
 
 ```js
 assert.match(pick.toString(), /for\s*\(\s*(let|var)\s+i\s*=\s*0\s*;\s*i\s*<\s*10\s*;\s*i\+\+\s*\)/)

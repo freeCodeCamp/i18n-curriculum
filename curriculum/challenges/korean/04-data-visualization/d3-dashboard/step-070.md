@@ -137,7 +137,7 @@ assert($('svg circle')[0].style.cursor === 'pointer');
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
@@ -148,7 +148,7 @@ assert($('svg circle')[0].style.cursor === 'pointer');
     .attr('fill', 'white')
     .attr('stroke', twitterColor)
 
-    
+
 
 </script>
 ```
@@ -240,7 +240,7 @@ assert($('svg circle')[0].style.cursor === 'pointer');
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
@@ -252,7 +252,7 @@ assert($('svg circle')[0].style.cursor === 'pointer');
     .attr('stroke', twitterColor)
     .style('cursor', 'pointer')
 
-  
+
 
 </script>
 ```

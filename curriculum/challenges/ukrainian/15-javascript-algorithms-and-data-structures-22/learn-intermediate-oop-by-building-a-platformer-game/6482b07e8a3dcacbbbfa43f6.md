@@ -7,20 +7,20 @@ dashedName: step-9
 
 # --description--
 
-In the game, the player will have the opportunity to cross different checkpoints. You will need to keep track of the status for the checkpoint collision detection.
+У грі у гравця буде можливість проходити різні контрольні пункти. Вам потрібно буде відстежувати статус для виявлення зіткнення контрольної точки.
 
-Use `let` to create a new variable called `isCheckpointCollisionDetectionActive` and assign it the value of `true`.
+Використайте `let`, щоб створити нову змінну під назвою `isCheckpointCollisionDetectionActive` та призначте до неї значення `true`.
 
 # --hints--
 
-You should use the `let` keyword to declare your `isCheckpointCollisionDetectionActive` variable.
+Використайте ключове слово `let`, щоб оголосити змінну `isCheckpointCollisionDetectionActive`.
 
 ```js
 assert.match(code, /let\s+isCheckpointCollisionDetectionActive/);
 ```
 
 
-You should assign the value of `true` to `isCheckpointCollisionDetectionActive`
+Призначте значення `true` до `isCheckpointCollisionDetectionActive`
 
 ```js
 assert.match(code, /let\s+isCheckpointCollisionDetectionActive\s*=\s*true/);

@@ -145,9 +145,9 @@ assert(
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
 
-  
+
+
 </script>
 ```
 
@@ -238,7 +238,7 @@ assert(
     .attr('stroke', instagramColor)
     .attr('stroke-width', '3')
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')  
 
 

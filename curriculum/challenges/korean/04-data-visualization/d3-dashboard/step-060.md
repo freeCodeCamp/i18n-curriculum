@@ -224,7 +224,7 @@ assert($('svg path')[4].getAttribute('d').length === 171);
   lineGraph.append('path')
     .attr('d', instagramLine(data))
 
-    
+
 
 </script>
 ```

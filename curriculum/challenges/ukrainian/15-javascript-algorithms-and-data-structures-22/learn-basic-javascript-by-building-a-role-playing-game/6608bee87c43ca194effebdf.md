@@ -1,25 +1,25 @@
 ---
 id: 6608bee87c43ca194effebdf
-title: Step 53
+title: Крок 53
 challengeType: 0
 dashedName: step-53
 ---
 
 # --description--
 
-Later on in the curriculum, you will dive deeper into objects. But for now, it is time to apply what you have learned to your role playing game.
+Далі в навчальній програмі ви глибше зануритеся в об’єкти. Але зараз настав час застосувати те, чого ви навчилися, у рольовій грі.
 
-Start by deleting your `cat` object and console statement.
+Почніть із видалення об’єкта `cat` та консольної інструкції.
 
 # --hints--
 
-You should remove your `cat` object.
+Видаліть об’єкт `cat`.
 
 ```js
 assert.notInclude(code, "const cat = {");
 ```
 
-You should remove your console statement.
+Видаліть інструкцію консолі.
 
 ```js
 assert.notInclude(code, "console.log(cat[\"Number of legs\"]);");

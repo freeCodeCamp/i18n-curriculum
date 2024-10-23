@@ -50,7 +50,7 @@ assert(/src\s*=\s*('|")\s*(\.\/)?d3-5.9.2.min.js\s*\1/gi.test(script));
     <title>D3 Dashboard</title>
     <link rel="stylesheet" href="./dashboard.css">
 
-    
+
   </head>
 
   <body>
@@ -69,7 +69,7 @@ assert(/src\s*=\s*('|")\s*(\.\/)?d3-5.9.2.min.js\s*\1/gi.test(script));
     <link rel="stylesheet" href="./dashboard.css">
     <script src="./d3-5.9.2.min.js"></script>
 
-    
+
  </head>
 
   <body>

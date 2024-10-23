@@ -19,13 +19,13 @@ while (condition) {
 
 # --hints--
 
-La funzione `pick` dovrebbe avere un loop `while`.
+Your `pick` function should have a `while` loop.
 
 ```js
 assert.match(pick.toString(), /while\s*\(/);
 ```
 
-Il loop `while` dovrebbe essere eseguito mentre `numbers.length < 10`.
+Your `while` loop should run while `numbers.length < 10`.
 
 ```js
 assert.match(pick.toString(), /while\s*\(\s*numbers\.length\s*<\s*10\s*\)/);

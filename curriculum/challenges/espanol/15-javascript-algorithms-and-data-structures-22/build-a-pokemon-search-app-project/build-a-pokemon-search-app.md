@@ -1,6 +1,6 @@
 ---
 id: 6555c1d3e11a1574434cf8b5
-title: Build a Pokémon Search App
+title: Construye una aplicación de búsqueda de Pokémon
 challengeType: 14
 forumTopicId: 16003
 dashedName: build-a-pokemon-search-app
@@ -8,40 +8,42 @@ dashedName: build-a-pokemon-search-app
 
 # --description--
 
-In this project, you'll build an app that will search for Pokémon by name or ID and display the results to the user. To retrieve the Pokémon data and images, you'll use freeCodeCamp's <a href="https://pokeapi-proxy.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">PokéAPI Proxy</a>.
+En este proyecto, construirás una aplicación que buscará Pokémon por nombre o ID y mostrará los resultados al usuario. Para recuperar los datos e imágenes de Pokémon, usarás <a href="https://pokeapi-proxy.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">PokéApi Proxy</a> de freeCodeCamp.
 
-**Objective:** Build an app that is functionally similar to <a href="https://pokemon-search-app.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://pokemon-search-app.freecodecamp.rocks</a>
+ **Note:** The first 13 steps must be completed inside the `index.html` file.
 
-**User Stories:**
+**Objective:** Build an app that is functionally similar to <a href="https://pokemon-search-app.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://pokemon-search-app.freecodecamp.rocks</a>.
 
-1. You should have an `input` element with an `id` of `"search-input"`
-1. You should have a `button` element with an `id` of `"search-button`
-1. You should have an element with an `id` of `"pokemon-name"`
-1. You should have an element with an `id` of `"pokemon-id"`
-1. You should have an element with an `id` of `"weight"`
-1. You should have an element with an `id` of `"height"`
-1. You should have an element with an `id` of `"types"`
-1. You should have an element with an `id` of `"hp"`
-1. You should have an element with an `id` of `"attack"`
-1. You should have an element with an `id` of `"defense"`
-1. You should have an element with an `id` of `"special-attack"`
-1. You should have an element with an `id` of `"special-defense"`
-1. You should have an element with an `id` of `"speed"`
-1. When the `#search-input` element contains the value `Red` and the `#search-button` element is clicked, an alert should appear with the text `"Pokémon not found"`
-1. When the `#search-input` element contains the value `Pikachu` and the `#search-button` element is clicked, the values in the `#pokemon-name`, `#pokemon-id`, `#weight`, `#height`, `#hp`, `#attack`, `#defense`, `#special-attack`, `#special-defense`, and `#speed` elements should be `PIKACHU`, `#25` or `25`, `Weight: 60` or `60`, `Height: 4` or `4`, `35`, `55`, `40`, `50`, `50`, and `90`, respectively
-1. When the `#search-input` element contains the value `Pikachu` and the `#search-button` element is clicked, you should add an `img` element with the `id` of `"sprite"` and the `src` set to the Pokémon's `front_default` sprite to the page
-1. When the `#search-input` element contains the value `Pikachu` and the `#search-button` element is clicked, the `#types` element should contain a single inner element with the value `ELECTRIC`. The `#types` element content should be cleared between searches
-1. When the `#search-input` element contains the value `94` and the `#search-button` element is clicked, the values in the `#pokemon-name`, `#pokemon-id`, `#weight`, `#height`, `#hp`, `#attack`, `#defense`, `#special-attack`, `#special-defense`, and `#speed`elements should be `GENGAR`, `#94` or `94`, `Weight: 405` or `405`, `Height: 15` or `15`, `60`, `65`, `60`, `130`, `75`, and `110`, respectively
-1. When the `#search-input` element contains the value `94` and the `#search-button` element is clicked, you should add an `img` element with the `id` of `sprite` and the `src` set to the Pokémon's `front_default` sprite to the page
-1. When the `#search-input` element contains the value `94` and the `#search-button` element is clicked, the `#types` element should contain two inner elements with the text values `GHOST` and `POISON`, respectively. The `#types` element content should be cleared between searches
+**Historias de usuario:**
 
-Fulfill the user stories and pass all the tests below to complete this project. Give it your own personal style. Happy Coding!
+1. You should have an `input` element with an `id` of `"search-input"`.
+1. You should have a `button` element with an `id` of `"search-button"`.
+1. You should have an element with an `id` of `"pokemon-name"`.
+1. You should have an element with an `id` of `"pokemon-id"`.
+1. You should have an element with an `id` of `"weight"`.
+1. You should have an element with an `id` of `"height"`.
+1. You should have an element with an `id` of `"types"`.
+1. You should have an element with an `id` of `"hp"`.
+1. You should have an element with an `id` of `"attack"`.
+1. You should have an element with an `id` of `"defense"`.
+1. You should have an element with an `id` of `"special-attack"`.
+1. You should have an element with an `id` of `"special-defense"`.
+1. You should have an element with an `id` of `"speed"`.
+1. When the `#search-input` element contains the value `Red` and the `#search-button` element is clicked, an alert should appear with the text `"Pokémon not found"`.
+1. When the `#search-input` element contains the value `Pikachu` and the `#search-button` element is clicked, the values in the `#pokemon-name`, `#pokemon-id`, `#weight`, `#height`, `#hp`, `#attack`, `#defense`, `#special-attack`, `#special-defense`, and `#speed` elements should be `PIKACHU`, `#25` or `25`, `Weight: 60` or `60`, `Height: 4` or `4`, `35`, `55`, `40`, `50`, `50`, and `90`, respectively.
+1. When the `#search-input` element contains the value `Pikachu` and the `#search-button` element is clicked, you should add an `img` element with the `id` of `"sprite"` and the `src` set to the Pokémon's `front_default` sprite to the page.
+1. Cuando el elemento `#search-input` contiene el valor `Pikachu` y se hace clic en el elemento `#search-button`, el elemento `#types` debe contener un solo elemento interno con el valor de `ELECTRIC`. The `#types` element content should be cleared between searches.
+1. When the `#search-input` element contains the value `94` and the `#search-button` element is clicked, the values in the `#pokemon-name`, `#pokemon-id`, `#weight`, `#height`, `#hp`, `#attack`, `#defense`, `#special-attack`, `#special-defense`, and `#speed`elements should be `GENGAR`, `#94` or `94`, `Weight: 405` or `405`, `Height: 15` or `15`, `60`, `65`, `60`, `130`, `75`, and `110`, respectively.
+1. When the `#search-input` element contains the value `94` and the `#search-button` element is clicked, you should add an `img` element with the `id` of `sprite` and the `src` set to the Pokémon's `front_default` sprite to the page.
+1. Cuando el elemento `#search-input` contiene el valor `94` y se hace clic en el elemento `#search-button`, el elemento `#types` debe contener dos elementos internos con el texto de `GHOST` y `POISON`, respectivamente. The `#types` element content should be cleared between searches.
 
-**Note:** When running the tests there will be a slight delay. Please wait a few seconds to allow the tests to finish. Do not refresh the page before they are done.
+Completa las historias de usuario y pasa todas las pruebas a continuación para completar este proyecto. Dale tu propio estilo personal. ¡Feliz día programando!
+
+**Nota:** Al ejecutar las pruebas habrá un ligero retraso. Por favor, espera unos segundos para permitir que las pruebas terminen. No actualices la página antes de que hayan terminado.
 
 # --hints--
 
-You should have an `input` element with an `id` of `"search-input"` and is **required**.
+Debes tener un elemento `input` con un `id` de `"search-input"` y es **requerido**.
 
 ```js
 const el = document.getElementById('search-input');
@@ -49,91 +51,91 @@ assert.strictEqual(el?.nodeName?.toLowerCase(), 'input');
 assert.isTrue(el?.required);
 ```
 
-You should have a `button` element with an `id` of `"search-button"`.
+Debes tener un elemento `button` con un `id` de `"search-button"`.
 
 ```js
 const el = document.getElementById('search-button');
 assert.strictEqual(el?.nodeName?.toLowerCase(), 'button');
 ```
 
-You should have an element with an `id` of `"pokemon-name"`.
+Debes tener un elemento con un `id` de `"pokemon-name"`.
 
 ```js
 const el = document.getElementById('pokemon-name');
 assert.exists(el);
 ```
 
-You should have an element with an `id` of `"pokemon-id"`.
+Debes tener un elemento con un `id` de `"pokemon-id"`.
 
 ```js
 const el = document.getElementById('pokemon-id');
 assert.exists(el);
 ```
 
-You should have an element with an `id` of `"weight"`.
+Debes tener un elemento con un `id` de `"weight"`.
 
 ```js
 const el = document.getElementById('weight');
 assert.exists(el);
 ```
 
-You should have an element with an `id` of `"height"`.
+Debes tener un elemento con un `id` de `"height"`.
 
 ```js
 const el = document.getElementById('height');
 assert.exists(el);
 ```
 
-You should have an element with an `id` of `"types"`.
+Debes tener un elemento con un `id` de `"types"`.
 
 ```js
 const el = document.getElementById('types');
 assert.exists(el);
 ```
 
-You should have an element with an `id` of `"hp"`.
+Debes tener un elemento con un `id` de `"hp"`.
 
 ```js
 const el = document.getElementById('hp');
 assert.exists(el);
 ```
 
-You should have an element with an `id` of `"attack"`.
+Debes tener un elemento con un `id` de `"attack"`.
 
 ```js
 const el = document.getElementById('attack');
 assert.exists(el);
 ```
 
-You should have an element with an `id` of `"defense"`.
+Debes tener un elemento con un `id` de `"defense"`.
 
 ```js
 const el = document.getElementById('defense');
 assert.exists(el);
 ```
 
-You should have an element with an `id` of `"special-attack"`.
+Debes tener un elemento con un `id` de `"special-attack"`.
 
 ```js
 const el = document.getElementById('special-attack');
 assert.exists(el);
 ```
 
-You should have an element with an `id` of `"special-defense"`.
+Debes tener un elemento con un `id` de `"special-defense"`.
 
 ```js
 const el = document.getElementById('special-defense');
 assert.exists(el);
 ```
 
-You should have an element with an `id` of `"speed"`.
+Debes tener un elemento con un `id` de `"speed"`.
 
 ```js
 const el = document.getElementById('speed');
 assert.exists(el);
 ```
 
-When the `#search-input` element contains the value `Red` and the `#search-button` element is clicked, an alert should appear with the text `"Pokémon not found"`.
+Cuando el elemento `#search-input` contiene el valor `Red` y se hace clic en el elemento `#search-button`, debe aparecer una alerta con el texto `"Pokémon not found"`.
 
 ```js
 async () => {
@@ -228,7 +230,7 @@ async () => {
 };
 ```
 
-When the `#search-input` element contains the value `Pikachu` and the `#search-button` element is clicked, the `#types` element should contain a single inner element with the value `ELECTRIC`. Make sure the `#types` element content is cleared between searches.
+Cuando el elemento `#search-input` contiene el valor `Pikachu` y se hace clic en el elemento `#search-button`, el elemento `#types` debe contener un solo elemento interno con el valor de `ELECTRIC`. Make sure the `#types` element content is cleared between searches.
 
 ```js
 async () => {
@@ -324,7 +326,7 @@ async () => {
 };
 ```
 
-When the `#search-input` element contains the value `94` and the `#search-button` element is clicked, the `#types` element should contain two inner elements with the text values `GHOST` and `POISON`, respectively. Make sure the `#types` element content is cleared between searches.
+Cuando el elemento `#search-input` contiene el valor `94` y se hace clic en el elemento `#search-button`, el elemento `#types` debe contener dos elementos internos con el texto de `GHOST` y `POISON`, respectivamente. Make sure the `#types` element content is cleared between searches.
 
 ```js
 async () => {

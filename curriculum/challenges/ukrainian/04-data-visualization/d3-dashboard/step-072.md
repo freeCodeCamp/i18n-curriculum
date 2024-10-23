@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1ca25
-title: Step 72
+title: Крок 72
 challengeType: 0
 dashedName: step-72
 ---
@@ -139,7 +139,7 @@ assert($('svg circle').length === 18);
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
@@ -245,7 +245,7 @@ assert($('svg circle').length === 18);
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
@@ -262,7 +262,7 @@ assert($('svg circle').length === 18);
     .enter()
     .append('circle')
 
-    
+
 
 </script>
 ```

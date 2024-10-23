@@ -1,27 +1,27 @@
 ---
 id: 64ec9c55fdeef78bacd2fc3b
-title: Step 30
+title: Крок 30
 challengeType: 0
 dashedName: step-30
 ---
 
 # --description--
 
-If you attempt to add another task now, you'll notice that the input fields retain the values you entered for the previous task. To resolve this, you need to clear the input fields after adding a task.
+Якщо ви спробуєте зараз додати інше завдання, ви помітите, що поля введення залишають значення, які ви ввели для попереднього завдання. Щоб розв’язати це, потрібно очистити поля введення після додавання завдання.
 
-Instead of clearing the input fields one by one, it's a good practice to create a function that handles clearing those fields. You can then call this function whenever you need to clear the input fields again.
+Замість того, щоб очищати поля введення одне за одним, хороша практика створити функцію, яка обробляє очищення цих полів. Потім можна викликати цю функцію щоразу, коли потрібно знову очистити поля введення.
 
-Use arrow syntax to create a `reset` function and set it to a pair of curly braces.
+Використайте стрілковий синтаксис, щоб створити функцію `reset` та встановити її на пару фігурних дужок.
 
 # --hints--
 
-You should use `const` and arrow syntax to create a `reset` function.
+Використайте `const` та стрілковий синтаксис, щоб створити функцію `reset`.
 
 ```js
 assert.match(code, /const\s+reset\s*=\s*\(\s*\)\s*=>\s*\{\s*/)
 ```
 
-Your `reset` function should be empty.
+Функція `reset` має бути порожньою.
 
 ```js
 assert.match(reset.toString(), /\(\s*\)\s*\{\s*\}/);
@@ -331,7 +331,7 @@ taskForm.addEventListener("submit", (e) => {
   }
 
   taskData.forEach(({id, title, date, description}) => {
-      (tasksContainer.innerHTML += `
+      tasksContainer.innerHTML += `
         <div class="task" id="${id}">
           <p><strong>Title:</strong> ${title}</p>
           <p><strong>Date:</strong> ${date}</p>
@@ -339,7 +339,7 @@ taskForm.addEventListener("submit", (e) => {
           <button type="button" class="btn">Edit</button>
           <button type="button" class="btn">Delete</button>
         </div>
-      `)
+      `
     } 
   );
 

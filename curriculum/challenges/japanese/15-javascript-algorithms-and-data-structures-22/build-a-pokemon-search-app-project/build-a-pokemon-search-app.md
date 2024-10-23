@@ -1,6 +1,6 @@
 ---
 id: 6555c1d3e11a1574434cf8b5
-title: Build a Pokémon Search App
+title: ポケモン検索アプリを作成する
 challengeType: 14
 forumTopicId: 16003
 dashedName: build-a-pokemon-search-app
@@ -8,40 +8,42 @@ dashedName: build-a-pokemon-search-app
 
 # --description--
 
-In this project, you'll build an app that will search for Pokémon by name or ID and display the results to the user. To retrieve the Pokémon data and images, you'll use freeCodeCamp's <a href="https://pokeapi-proxy.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">PokéAPI Proxy</a>.
+このプロジェクトでは、ポケモンを名前または ID で検索して結果を表示するアプリを作成します。 ポケモンのデータや画像の取得には、freeCodeCamp の <a href="https://pokeapi-proxy.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">PokéAPI プロキシー</a>を使用します。
 
-**Objective:** Build an app that is functionally similar to <a href="https://pokemon-search-app.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://pokemon-search-app.freecodecamp.rocks</a>
+ **注:** 最初の 13 項目は、`index.html` ファイル内で完了させてください。
 
-**User Stories:**
+**Objective:** Build an app that is functionally similar to <a href="https://pokemon-search-app.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://pokemon-search-app.freecodecamp.rocks</a>.
 
-1. You should have an `input` element with an `id` of `"search-input"`
-1. You should have a `button` element with an `id` of `"search-button`
-1. You should have an element with an `id` of `"pokemon-name"`
-1. You should have an element with an `id` of `"pokemon-id"`
-1. You should have an element with an `id` of `"weight"`
-1. You should have an element with an `id` of `"height"`
-1. You should have an element with an `id` of `"types"`
-1. You should have an element with an `id` of `"hp"`
-1. You should have an element with an `id` of `"attack"`
-1. You should have an element with an `id` of `"defense"`
-1. You should have an element with an `id` of `"special-attack"`
-1. You should have an element with an `id` of `"special-defense"`
-1. You should have an element with an `id` of `"speed"`
-1. When the `#search-input` element contains the value `Red` and the `#search-button` element is clicked, an alert should appear with the text `"Pokémon not found"`
-1. When the `#search-input` element contains the value `Pikachu` and the `#search-button` element is clicked, the values in the `#pokemon-name`, `#pokemon-id`, `#weight`, `#height`, `#hp`, `#attack`, `#defense`, `#special-attack`, `#special-defense`, and `#speed` elements should be `PIKACHU`, `#25` or `25`, `Weight: 60` or `60`, `Height: 4` or `4`, `35`, `55`, `40`, `50`, `50`, and `90`, respectively
-1. When the `#search-input` element contains the value `Pikachu` and the `#search-button` element is clicked, you should add an `img` element with the `id` of `"sprite"` and the `src` set to the Pokémon's `front_default` sprite to the page
-1. When the `#search-input` element contains the value `Pikachu` and the `#search-button` element is clicked, the `#types` element should contain a single inner element with the value `ELECTRIC`. The `#types` element content should be cleared between searches
-1. When the `#search-input` element contains the value `94` and the `#search-button` element is clicked, the values in the `#pokemon-name`, `#pokemon-id`, `#weight`, `#height`, `#hp`, `#attack`, `#defense`, `#special-attack`, `#special-defense`, and `#speed`elements should be `GENGAR`, `#94` or `94`, `Weight: 405` or `405`, `Height: 15` or `15`, `60`, `65`, `60`, `130`, `75`, and `110`, respectively
-1. When the `#search-input` element contains the value `94` and the `#search-button` element is clicked, you should add an `img` element with the `id` of `sprite` and the `src` set to the Pokémon's `front_default` sprite to the page
-1. When the `#search-input` element contains the value `94` and the `#search-button` element is clicked, the `#types` element should contain two inner elements with the text values `GHOST` and `POISON`, respectively. The `#types` element content should be cleared between searches
+**ユーザーストーリー:**
 
-Fulfill the user stories and pass all the tests below to complete this project. あなた独自のアレンジを加えましょう。 Happy Coding!
+1. You should have an `input` element with an `id` of `"search-input"`.
+1. You should have a `button` element with an `id` of `"search-button"`.
+1. You should have an element with an `id` of `"pokemon-name"`.
+1. You should have an element with an `id` of `"pokemon-id"`.
+1. You should have an element with an `id` of `"weight"`.
+1. You should have an element with an `id` of `"height"`.
+1. You should have an element with an `id` of `"types"`.
+1. You should have an element with an `id` of `"hp"`.
+1. You should have an element with an `id` of `"attack"`.
+1. You should have an element with an `id` of `"defense"`.
+1. You should have an element with an `id` of `"special-attack"`.
+1. You should have an element with an `id` of `"special-defense"`.
+1. You should have an element with an `id` of `"speed"`.
+1. When the `#search-input` element contains the value `Red` and the `#search-button` element is clicked, an alert should appear with the text `"Pokémon not found"`.
+1. When the `#search-input` element contains the value `Pikachu` and the `#search-button` element is clicked, the values in the `#pokemon-name`, `#pokemon-id`, `#weight`, `#height`, `#hp`, `#attack`, `#defense`, `#special-attack`, `#special-defense`, and `#speed` elements should be `PIKACHU`, `#25` or `25`, `Weight: 60` or `60`, `Height: 4` or `4`, `35`, `55`, `40`, `50`, `50`, and `90`, respectively.
+1. When the `#search-input` element contains the value `Pikachu` and the `#search-button` element is clicked, you should add an `img` element with the `id` of `"sprite"` and the `src` set to the Pokémon's `front_default` sprite to the page.
+1. `#search-input` の要素に `Pikachu` という値を入力した状態で `#search-button` の要素をクリックした場合、`#types` の要素の中には、`ELECTRIC` という値を持つ要素が 1 つ入ります。 The `#types` element content should be cleared between searches.
+1. When the `#search-input` element contains the value `94` and the `#search-button` element is clicked, the values in the `#pokemon-name`, `#pokemon-id`, `#weight`, `#height`, `#hp`, `#attack`, `#defense`, `#special-attack`, `#special-defense`, and `#speed`elements should be `GENGAR`, `#94` or `94`, `Weight: 405` or `405`, `Height: 15` or `15`, `60`, `65`, `60`, `130`, `75`, and `110`, respectively.
+1. When the `#search-input` element contains the value `94` and the `#search-button` element is clicked, you should add an `img` element with the `id` of `sprite` and the `src` set to the Pokémon's `front_default` sprite to the page.
+1. `#search-input` の要素に `94` という値を入力した状態で `#search-button` の要素をクリックした場合、`#types` の要素の中には、`GHOST` と `POISON` という値を持つ 2 つの要素が入ります。 The `#types` element content should be cleared between searches.
 
-**Note:** When running the tests there will be a slight delay. Please wait a few seconds to allow the tests to finish. Do not refresh the page before they are done.
+上記のユーザーストーリーを満たし、以下のすべてのテストが通るようにして、このプロジェクトを完成させてください。 あなた独自のアレンジを加えましょう。 ハッピーコーディング！
+
+**注:** テストの実行時、多少の遅延が発生します。 テストが終了するまで数秒お待ちください。 完了する前にページを更新しないでください。
 
 # --hints--
 
-You should have an `input` element with an `id` of `"search-input"` and is **required**.
+`id` が `"search-input"` に設定された、入力必須 (**required**) の `input` 要素が必要です。
 
 ```js
 const el = document.getElementById('search-input');
@@ -49,91 +51,91 @@ assert.strictEqual(el?.nodeName?.toLowerCase(), 'input');
 assert.isTrue(el?.required);
 ```
 
-You should have a `button` element with an `id` of `"search-button"`.
+`id` が `"search-button"` に設定された `button` 要素が必要です。
 
 ```js
 const el = document.getElementById('search-button');
 assert.strictEqual(el?.nodeName?.toLowerCase(), 'button');
 ```
 
-You should have an element with an `id` of `"pokemon-name"`.
+`id` が `"pokemon-name"` に設定された要素が必要です。
 
 ```js
 const el = document.getElementById('pokemon-name');
 assert.exists(el);
 ```
 
-You should have an element with an `id` of `"pokemon-id"`.
+`id` が `"pokemon-id"` に設定された要素が必要です。
 
 ```js
 const el = document.getElementById('pokemon-id');
 assert.exists(el);
 ```
 
-You should have an element with an `id` of `"weight"`.
+`id` が `"weight"` に設定された要素が必要です。
 
 ```js
 const el = document.getElementById('weight');
 assert.exists(el);
 ```
 
-You should have an element with an `id` of `"height"`.
+`id` が `"height"` に設定された要素が必要です。
 
 ```js
 const el = document.getElementById('height');
 assert.exists(el);
 ```
 
-You should have an element with an `id` of `"types"`.
+`id` が `"types"` に設定された要素が必要です。
 
 ```js
 const el = document.getElementById('types');
 assert.exists(el);
 ```
 
-You should have an element with an `id` of `"hp"`.
+`id` が `"hp"` に設定された要素が必要です。
 
 ```js
 const el = document.getElementById('hp');
 assert.exists(el);
 ```
 
-You should have an element with an `id` of `"attack"`.
+`id` が `"attack"` に設定された要素が必要です。
 
 ```js
 const el = document.getElementById('attack');
 assert.exists(el);
 ```
 
-You should have an element with an `id` of `"defense"`.
+`id` が `"defense"` に設定された要素が必要です。
 
 ```js
 const el = document.getElementById('defense');
 assert.exists(el);
 ```
 
-You should have an element with an `id` of `"special-attack"`.
+`id` が `"special-attack"` に設定された要素が必要です。
 
 ```js
 const el = document.getElementById('special-attack');
 assert.exists(el);
 ```
 
-You should have an element with an `id` of `"special-defense"`.
+`id` が `"special-defense"` に設定された要素が必要です。
 
 ```js
 const el = document.getElementById('special-defense');
 assert.exists(el);
 ```
 
-You should have an element with an `id` of `"speed"`.
+`id` が `"speed"` に設定された要素が必要です。
 
 ```js
 const el = document.getElementById('speed');
 assert.exists(el);
 ```
 
-When the `#search-input` element contains the value `Red` and the `#search-button` element is clicked, an alert should appear with the text `"Pokémon not found"`.
+`#search-input` の要素に `Red` という値を入力した状態で `#search-button` の要素をクリックした場合、`"Pokémon not found"` というテキストのアラートが表示されます。
 
 ```js
 async () => {
@@ -159,7 +161,7 @@ async () => {
 };
 ```
 
-When the `#search-input` element contains the value `Pikachu` and the `#search-button` element is clicked, the values in the `#pokemon-name`, `#pokemon-id`, `#weight`, `#height`, `#hp`, `#attack`, `#defense`, `#special-attack`, `#special-defense`, and `#speed` elements should be `PIKACHU`, `#25` or `25`, `Weight: 60` or `60`, `Height: 4` or `4`, `35`, `55`, `40`, `50`, `50`, and `90`, respectively.
+`#search-input` の要素に `Pikachu` という値を入力した状態で `#search-button` の要素をクリックした場合、`#pokemon-name`、`#pokemon-id`、`#weight`、`#height`、`#hp`、`#attack`、`#defense`、`#special-attack`、`#special-defense`、`#speed` の各要素の値はそれぞれ、`PIKACHU`、`#25` または `25`、`Weight: 60` または `60`、`Height: 4` または `4`、`35`、`55`、`40`、`50`、`50`、`90` となります。
 
 ```js
 async () => {
@@ -203,7 +205,7 @@ async () => {
 };
 ```
 
-When the `#search-input` element contains the value `Pikachu` and the `#search-button` element is clicked, you should add an `img` element with the `id` of `"sprite"` and the `src` set to the Pokémon's `front_default` sprite to the page.
+`#search-input` の要素に `Pikachu` という値を入力した状態で `#search-button` の要素をクリックした場合、`id` が `"sprite"`、`src` がそのポケモンの `front_default` のスプライト画像 (sprites) に設定された `img` 要素を、ページに追加してください。
 
 ```js
 async () => {
@@ -228,7 +230,7 @@ async () => {
 };
 ```
 
-When the `#search-input` element contains the value `Pikachu` and the `#search-button` element is clicked, the `#types` element should contain a single inner element with the value `ELECTRIC`. Make sure the `#types` element content is cleared between searches.
+`#search-input` の要素に `Pikachu` という値を入力した状態で `#search-button` の要素をクリックした場合、`#types` の要素の中には、`ELECTRIC` という値を持つ要素が 1 つ入ります。 `#types` 要素の中身は、検索の度にクリアされるようにしてください。
 
 ```js
 async () => {
@@ -255,7 +257,7 @@ async () => {
 };
 ```
 
-When the `#search-input` element contains the value `94` and the `#search-button` element is clicked, the values in the `#pokemon-name`, `#pokemon-id`, `#weight`, `#height`, `#hp`, `#attack`, `#defense`, `#special-attack`, `#special-defense`, and `#speed` elements should be `GENGAR`, `#94` or `94`, `Weight: 405` or `405`, `Height: 15` or `15`, `60`, `65`, `60`, `130`, `75`, and `110`, respectively.
+`#search-input` の要素に `94` という値を入力した状態で `#search-button` の要素をクリックした場合、`#pokemon-name`、`#pokemon-id`、`#weight`、`#height`、`#hp`、`#attack`、`#defense`、`#special-attack`、`#special-defense`、`#speed` の各要素の値はそれぞれ、`GENGAR`、`#94` または `94`、`Weight: 405` または `405`、`Height: 15` または `15`、`60`、`65`、`60`、`130`、`75`、`110` となります。
 
 ```js
 async () => {
@@ -299,7 +301,7 @@ async () => {
 };
 ```
 
-When the `#search-input` element contains the value `94` and the `#search-button` element is clicked, you should add an `img` element with the `id` of `"sprite"` and the `src` set to the Pokémon's `front_default` sprite to the page.
+`#search-input` の要素に `94` という値を入力した状態で `#search-button` の要素をクリックした場合、`id` が `"sprite"`、`src` がそのポケモンの `front_default` のスプライト画像 (sprites) に設定された `img` 要素を、ページに追加してください。
 
 ```js
 async () => {
@@ -324,7 +326,7 @@ async () => {
 };
 ```
 
-When the `#search-input` element contains the value `94` and the `#search-button` element is clicked, the `#types` element should contain two inner elements with the text values `GHOST` and `POISON`, respectively. Make sure the `#types` element content is cleared between searches.
+`#search-input` の要素に `94` という値を入力した状態で `#search-button` の要素をクリックした場合、`#types` の要素の中には、`GHOST` と `POISON` という値を持つ 2 つの要素が入ります。 `#types` 要素の中身は、検索の度にクリアされるようにしてください。
 
 ```js
 async () => {
@@ -352,7 +354,7 @@ async () => {
 };
 ```
 
-When the `#search-input` element contains an invalid Pokemon name and the `#search-button` element is clicked, an alert should appear with the text `"Pokémon not found"`.
+`#search-input` の要素に無効なポケモンの名前を入力した状態で `#search-button` の要素をクリックした場合、`"Pokémon not found"` というテキストのアラートが表示されます。
 
 ```js
 async () => {
@@ -382,7 +384,7 @@ async () => {
 ```
 
 
-When the `#search-input` element contains a valid Pokemon id and the `#search-button` element is clicked, the UI should be filled with the correct data.
+`#search-input` の要素に有効なポケモンの ID を入力した状態で `#search-button` の要素をクリックした場合、正しいデータが UI に表示されます。
 
 ```js
 async () => {

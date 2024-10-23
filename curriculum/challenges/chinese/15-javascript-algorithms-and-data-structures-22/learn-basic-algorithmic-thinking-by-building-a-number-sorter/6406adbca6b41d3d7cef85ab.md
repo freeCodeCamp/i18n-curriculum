@@ -1,31 +1,31 @@
 ---
 id: 6406adbca6b41d3d7cef85ab
-title: Step 5
+title: 步骤5
 challengeType: 0
 dashedName: step-5
 ---
 
 # --description--
 
-Back in your `sortInputArray` function, you need to get the values from your `select` elements. Since they all have the class `values-dropdown`, you can query them all at once.
+回到 `sortInputArray` 函数，你需要从 `select` 元素中获取值。 由于它们都具有 `values-dropdown` 类，因此你可以一次查询所有这些内容。
 
-Use `document.getElementsByClassName()` to get all the elements with this class by passing in the argument `"values-dropdown"`. Assign that to an `inputValues` variable with `const`.
+使用 `document.getElementsByClassName()`，传入参数 `"values-dropdown"`，获取具有该类的所有元素。 使用 `const` 将其赋值给 `inputValues` 变量。
 
 # --hints--
 
-You should use `document.getElementsByClassName()` to get all the elements with the class `"values-dropdown"`.
+你应该使用 `document.getElementsByClassName()` 获取所有具有 `"values-dropdown"` 类的元素。
 
 ```js
 assert.match(sortInputArray.toString(), /document\.getElementsByClassName\(\s*('|"|`)values-dropdown\1\s*\)/);
 ```
 
-You should assign the result of `document.getElementsByClassName()` to a variable named `inputValues`.
+你应该将 `document.getElementsByClassName()` 的结果赋值给名为 `inputValues` 的变量。
 
 ```js
 assert.match(sortInputArray.toString(), /inputValues\s*=\s*document\.getElementsByClassName\(\s*('|"|`)values-dropdown\1\s*\)/);
 ```
 
-You should use `const` to declare `inputValues`.
+你应该使用 `const` 声明变量 `inputValues`。
 
 ```js
 assert.match(code, /const\s+inputValues\s*=\s*document\.getElementsByClassName\(\s*('|"|`)values-dropdown\1\s*\)/);

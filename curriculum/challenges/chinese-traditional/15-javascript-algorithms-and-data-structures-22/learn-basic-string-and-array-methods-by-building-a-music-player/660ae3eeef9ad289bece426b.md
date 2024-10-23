@@ -1,23 +1,23 @@
 ---
 id: 660ae3eeef9ad289bece426b
-title: Step 11
+title: 步驟11
 challengeType: 0
 dashedName: step-11
 ---
 
 # --description--
 
-In the previous projects, you used regular functions. But in the rest of the projects, you will be working with <dfn>arrow functions</dfn>. The next few steps will focus on teaching you the basics of arrow functions.
+在以前的項目中，你使用了常規函數。 但在其餘的項目中，你將使用<dfn>箭頭函數</dfn>。 接下來的幾個步驟將重點教你箭頭函數的基礎知識。
 
-An arrow function is an anonymous function expression and a shorter way to write functions. Anonymous means that the function does not have a name. Arrow functions are always anonymous.
+箭頭函數是一種匿名函數表達式，是一種更簡短的函數編寫方式。 匿名是指函數沒有名字。 箭頭函數始終是匿名的。
 
-Here is the basic syntax:
+基本語法如下：
 
 ```js
 () => {}
 ```
 
-To create a named arrow function, you can assign the function to a variable:
+要創建命名箭頭函數，可以將該函數分配給變量：
 
 ```js
 const exampleFunction = () => {
@@ -25,23 +25,23 @@ const exampleFunction = () => {
 }
 ```
 
-Create a new named arrow function called `printGreeting`. Inside the body of that function use the `console.log()` method to print the string `"Hello there!"`.
+創建一個名爲 `printGreeting` 的新命名箭頭函數。 在該函數主體內使用 `console.log()` 方法打印字符串 `"Hello there!"`。
 
 # --hints--
 
-You should have a function called `printGreeting`.
+你應該有一個名爲 `printGreeting` 的函數。
 
 ```js
 assert.isFunction(printGreeting);
 ```
 
-You should use arrow syntax to create the `printGreeting` function.
+你應該使用箭頭語法來創建 `printGreeting` 函數。
 
 ```js
 assert.match(code, /(let|const)\s+printGreeting\s*=\s*\(.*\)\s*=>\s*{\s*[\s\S]*}\s*;?/)
 ```
 
-Your `printGreeting` function should include a `console.log('Hello there!')`.
+你的 `printGreeting` 函數應該包含 `console.log('Hello there!')`。
 
 ```js
 assert.match(printGreeting.toString(), /console\.log\(['"]Hello\s+there!['"]\)/);

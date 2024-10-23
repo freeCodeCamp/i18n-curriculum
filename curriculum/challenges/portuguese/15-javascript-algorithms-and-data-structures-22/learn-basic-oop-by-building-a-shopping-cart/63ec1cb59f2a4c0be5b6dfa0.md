@@ -14,7 +14,7 @@ Um carrinho de compras não tem muito propósito sem produtos. Declare uma vari�
 Você deve declarar uma variável `products` com `const`.
 
 ```js
-assert.match(code, /const\s+products/);
+assert.match(code, /const\s+products\b/);
 ```
 
 Você deve definir a variável `products` como um array vazio.

@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1c9e7
-title: Step 10
+title: 步骤 10
 challengeType: 0
 dashedName: step-10
 ---
@@ -42,7 +42,7 @@ assert(/padding\s*:\s*100px\s*10px\s*(;|})/g.test(body));
 body {
   background-color: #ccc;
 
-  
+
 }
 
 .dashboard {

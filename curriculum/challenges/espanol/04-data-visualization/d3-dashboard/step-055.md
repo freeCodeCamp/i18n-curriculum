@@ -130,7 +130,7 @@ assert(
   lineGraph.append('path')
     .attr('d', tumblrLine(data))
 
-  
+
 
 </script>
 ```

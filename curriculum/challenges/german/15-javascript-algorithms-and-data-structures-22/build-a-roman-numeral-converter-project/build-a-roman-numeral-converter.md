@@ -1,6 +1,6 @@
 ---
 id: 657bdc8ba322aae1eac38390
-title: Build a Roman Numeral Converter
+title: Erstelle einen Konverter für römische Zahlen
 challengeType: 14
 forumTopicId: 16044
 dashedName: build-a-roman-numeral-converter
@@ -8,31 +8,31 @@ dashedName: build-a-roman-numeral-converter
 
 # --description--
 
-Roman numerals are based on seven symbols and can be written using various combinations to represent Arabic numerals. Zum Beispiel:
+Römische Ziffern basieren auf sieben Symbolen und können mit verschiedenen Kombinationen geschrieben werden, um arabische Ziffern zu darzustellen. Hier ein Beispiel:
 
-| Roman numerals | Arabische Ziffern |
-| -------------- | ----------------- |
-| M              | 1000              |
-| CM             | 900               |
-| D              | 500               |
-| CD             | 400               |
-| C              | 100               |
-| XC             | 90                |
-| L              | 50                |
-| XL             | 40                |
-| X              | 10                |
-| IX             | 9                 |
-| V              | 5                 |
-| IV             | 4                 |
-| I              | 1                 |
+| Römische Ziffern | Arabische Ziffern |
+| ---------------- | ----------------- |
+| M                | 1000              |
+| CM               | 900               |
+| D                | 500               |
+| CD               | 400               |
+| C                | 100               |
+| XC               | 90                |
+| L                | 50                |
+| XL               | 40                |
+| X                | 10                |
+| IX               | 9                 |
+| V                | 5                 |
+| IV               | 4                 |
+| I                | 1                 |
 
 **Aufgabe:** Erstelle eine Applikation, die eine ähnliche Funktionalität wie <a href="https://roman-numeral-converter.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://roman-numeral-converter.freecodecamp.rocks</a> aufweist
 
 **User Stories:**
 
-1. You should have an `input` element with an `id` of `"number"`
-1. You should have a `button` element with an `id` of `"convert-btn"`
-1. You should have a `div`, `span` or `p` element with an `id` of `output`
+1. Du solltest ein `input`-Element mit einer `id` von `number` haben
+1. Du solltest ein `button`-Element mit einer `id` von `convert-btn` haben
+1. Du solltest ein `div`-, `span` oder `p` Element mit einer `id` von `output` haben
 1. When you click on the `#convert-btn` element without entering a value into the `#number` element, the `#output` element should contain the text `"Please enter a valid number"`
 1. When the `#number` element contains the number `-1` and the `#convert-btn` element is clicked, the `#output` element should contain the text `"Please enter a number greater than or equal to 1"`
 1. When the `#number` element contains the number `4000` or greater and the `#convert-btn` element is clicked, the `#output` element should contain the text `"Please enter a number less than or equal to 3999"`

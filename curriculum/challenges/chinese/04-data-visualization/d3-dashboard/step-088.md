@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1ca35
-title: Step 88
+title: 步骤 88
 challengeType: 0
 dashedName: step-88
 ---
@@ -139,7 +139,7 @@ assert(/const\s*pieColors\s*=\s*d3\s*\.\s*scaleOrdinal\s*\(\s*\)/g.test(code));
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()
@@ -276,7 +276,7 @@ assert(/const\s*pieColors\s*=\s*d3\s*\.\s*scaleOrdinal\s*\(\s*\)/g.test(code));
     .attr('stroke', instagramColor)
     .attr('stroke-width', 3)
     .attr('fill', 'transparent');
-    
+
   lineGraph.selectAll('twitter-circles')
     .data(data)
     .enter()

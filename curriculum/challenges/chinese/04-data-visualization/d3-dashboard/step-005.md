@@ -1,6 +1,6 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1c9e2
-title: Step 5
+title: 步骤5
 challengeType: 0
 dashedName: step-5
 ---
@@ -31,7 +31,7 @@ assert($('div.dashboard').length === 1);
 
   <body>
 
-  
+
   </body>
 </html>
 ```
@@ -45,7 +45,7 @@ assert($('div.dashboard').length === 1);
     <title>D3 Dashboard</title>
     <link rel="stylesheet" href="./dashboard.css">
 
-    
+
   </head>
 
   <body>
