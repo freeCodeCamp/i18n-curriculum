@@ -7,7 +7,7 @@ dashedName: step-2
 
 # --description--
 
-變量可以存儲不同數據類型的值。 You just assigned an integer value, but if you want to represent some text, you need to assign a string. Strings are sequences of characters enclosed by single or double quotes, but you cannot start a string with a single quote and end it with a double quote or vice versa:
+變量可以存儲不同數據類型的值。 You just assigned an integer value, but if you want to represent some text, you need to assign a string. 字符串是由單引號或雙引號包含的字符序列， 但你不能以單引號開始一個字符串，然後以雙引號結尾，反之亦然：
 
 ```py
 string_1 = "I am a string"
@@ -15,7 +15,7 @@ string_2 = 'I am also a string'
 string_3 = 'This is not valid"
 ```
 
-刪除你的 `number` 變量及其值。 Then, declare another variable called `text` and assign the string `'Hello World'` to this variable.
+刪除你的 `number` 變量及其值。 然後聲明另一個變量名爲 `text` 並將字符串 `'Hello World'` 分配到這個變量。
 
 # --hints--
 
@@ -32,7 +32,7 @@ You should declare a variable called `text`. 注意將變量名放在行首。
 assert.match(code, /^text\s*=/m)
 ```
 
-You should assign the string `'Hello World'` to your `text` variable. Remember to use either single or double quotes to enclose the string and pay attention to the letter case.
+You should assign the string `'Hello World'` to your `text` variable. 請記住使用單引號或雙引號將字符串括起來，並注意字母大小寫。
 
 ```js
 assert.match(code, /^text\s*=\s*("|')Hello World\1\s*(#.*)?$/m)

@@ -12,27 +12,27 @@ Ein <dfn>Palindrom</dfn> kann sowohl ein Wort als auch ein Satz sein, das sowohl
 
 **Hinweis:** Du musst **alle nicht-alphanumerischen Zeichen** (Satzzeichen, Leerzeichen und Symbole) entfernen und alle Zeichen in ein und dieselbe Schreibweise (Klein- oder Großbuchstaben) bringen, um Palindrome zu prüfen.
 
-**Aufgabe:** Erstelle eine Applikation, die eine ähnliche Funktionalität wie <a href="https://palindrome-checker.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://palindrome-checker.freecodecamp.rocks</a> aufweist
+**Objective:** Build an app that is functionally similar to <a href="https://palindrome-checker.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://palindrome-checker.freecodecamp.rocks</a>.
 
 **User Stories:**
 
-1. Du solltest ein `input`-Element mit einer `id` von `text-input` haben
-1. Du solltest ein `button`-Element mit einer `id` von `"check-btn"` haben
-1. Du solltest ein `div`-, `span` oder `p` Element mit einer `id` von `result` haben
-1. Wenn man auf das`#check-btn` Element klickt ohne einen Wert in das `#text-input` Feld einzugeben, sollte ein Warnhinweis erscheinen mit dem Text `"Please input a value"`
-1. Wenn das `#text-input`-Element den Buchstaben `A` enthält und das `#check-btn`-Element angeklickt wird, sollte das `#result`-Element den Text `"A is a palindrome"` enthalten
-1. Wenn das `#text-input`-Element einen Text `eye` enthält und das `#check-btn`-Element angeklickt wird, sollte das `#result`-Element den Text `eye is a palindrome` enthalten
-1. Wenn das `#text-input`-Element einen Text `_eye` enthält und das `#check-btn`-Element angeklickt wird, sollte das `#result`-Element den Text `_eye is a palindrome` enthalten
-1. Wenn das `#text-input`-Element einen Text `race car` enthält und das `#check-btn`-Element angeklickt wird, sollte das `#result`-Element den Text `race car is a palindrome` enthalten
-1. Wenn das `#text-input`-Element einen Text `not a palindrome` enthält und das `#check-btn`-Element angeklickt wird, sollte das `#result`-Element den Text `"not a palindrome" is not a palindrome` enthalten
-1. Wenn das `#text-input` Element den Text `A man, a plan, a canal. Panama` enthält und das `#check-btn` Element angeklickt wird, sollte das `#result` Element den Text `"Ein Mann, ein Plan, ein Kanal. Panama ist ein Palindrom"` ausgeben
-1. Wenn das `#text-input`-Element einen Text `never odd or even` enthält und das `#check-btn`-Element angeklickt wird, sollte das `#result`-Element den Text `never odd or even is a palindrome` ausgeben
-1. Wenn das `#text-input`-Element einen Text `nope` enthält und das `#check-btn`-Element angeklickt wird, sollte das `#result`-Element den Text `nope is not a palindrome` ausgeben
-1. Wenn das `#text-input`-Element einen Text ` almostomla` enthält und das `#check-btn`-Element angeklickt wird, sollte das `#result`-Element den Text ` "almostomla is not a palindrome"` ausgeben
-1. Wenn das `#text-input`-Element einen Text `My age is 0, 0 si ega ym.` enthält und das `#check-btn`-Element angeklickt wird, sollte das `#result`-Element den Text `My age is 0, 0 si ega ym. is a palindrome"` ausgeben
-1. Wenn das `#text-input`-Element einen Text `1 eye for of 1 eye.` enthält und das `#check-btn`-Element angeklickt wird, sollte das `#result`-Element den Text `"1 eye for od 1 eye. is not a palindrome"` ausgeben
-1. Wenn das `#text-input`-Element einen Text `0_0 (: /-\ :) 0-0` enthält und das `#check-btn`-Element angeklickt wird, sollte das `#result`-Element den Text `0_0 (: /-\ :) 0-0 is a palindrome` ausgeben
-1. Wenn das `#text-input`-Element einen Text `five|\_/|four` enthält und das `#check-btn`-Element angeklickt wird, sollte das `#result`-Element den Text `five|\_/|four is not a palindrome` ausgeben
+1. You should have an `input` element with an `id` of `"text-input"`.
+1. You should have a `button` element with an `id` of `"check-btn"`.
+1. You should have a `div`, `span` or `p` element with an `id` of `"result"`.
+1. When you click on the `#check-btn` element without entering a value into the `#text-input` element, an alert should appear with the text `"Please input a value"`.
+1. When the `#text-input` element only contains the letter `A` and the `#check-btn` element is clicked, the `#result` element should contain the text `"A is a palindrome"`.
+1. When the `#text-input` element contains the text `eye` and the `#check-btn` element is clicked, the `#result` element should contain the text `"eye is a palindrome"`.
+1. When the `#text-input` element contains the text `_eye` and the `#check-btn` element is clicked, the `#result` element should contain the text `"_eye is a palindrome"`.
+1. When the `#text-input` element contains the text `race car` and the `#check-btn` element is clicked, the `#result` element should contain the text `"race car is a palindrome"`.
+1. When the `#text-input` element contains the text `not a palindrome` and the `#check-btn` element is clicked, the `#result` element should contain the text `"not a palindrome is not a palindrome"`.
+1. Wenn das `#text-input` Element den Text `A man, a plan, a canal. Panama` enthält und das `#check-btn` Element angeklickt wird, sollte das `#result` Element den Text `"Ein Mann, ein Plan, ein Kanal. Panama is a palindrome"`.
+1. When the `#text-input` element contains the text `never odd or even` and the `#check-btn` element is clicked, the `#result` element should contain the text `"never odd or even is a palindrome"`.
+1. When the `#text-input` element contains the text `nope` and the `#check-btn` element is clicked, the `#result` element should contain the text `"nope is not a palindrome"`.
+1. When the `#text-input` element contains the text `almostomla` and the `#check-btn` element is clicked, the `#result` element should contain the text `"almostomla is not a palindrome"`.
+1. When the `#text-input` element contains the text `My age is 0, 0 si ega ym.` and the `#check-btn` element is clicked, the `#result` element should contain the text `"My age is 0, 0 si ega ym. is a palindrome"`.
+1. Wenn das `#text-input`-Element einen Text `1 eye for of 1 eye.` enthält und das `#check-btn`-Element angeklickt wird, sollte das `#result`-Element den Text `"1 eye for od 1 eye. is not a palindrome"`.
+1. When the `#text-input` element contains the text `0_0 (: /-\ :) 0-0` and the `#check-btn` element is clicked, the `#result` element should contain the text `"0_0 (: /-\ :) 0-0 is a palindrome"`.
+1. When the `#text-input` element contains the text `five|\_/|four` and the `#check-btn` element is clicked, the `#result` element should contain the text `"five|\_/|four is not a palindrome"`.
 
 Erfülle die folgenden User Stories und bestehe alle Tests, um dieses Projekt abzuschließen. Gib dem Ganzen deinen persönlichen Stil. Viel Spaß beim Programmieren!
 

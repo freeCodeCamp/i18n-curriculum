@@ -8,12 +8,12 @@ dashedName: build-a-tribute-page
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to <a href="https://tribute-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://tribute-page.freecodecamp.rocks</a>. **Bitte kopiere nicht dieses Demo-Projekt **.
+**Aufgabe:** Erstelle eine Applikation, die eine ähnliche Funktionalität wie <a href="https://tribute-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://tribute-page.freecodecamp.rocks</a> aufweist. **Bitte kopiere nicht dieses Demo-Projekt **.
 
 
 **User Stories:**
 
-1. Your tribute page should have a `main` element with a corresponding `id` of `main`, which contains all other elements
+1. Deine Tribute-Seite sollte über ein `main`-Element mit einer zugehörigen `id` von `main` verfügen, die alle anderen Elemente enthält
 1. Du solltest ein Element mit einer `id` von `title` sehen, das einen String (d.h. Text) enthält, der das Thema der Tribute-Seite beschreibt (z.B. „Dr. Norman Borlaug“)
 1. Du solltest entweder ein `figure`- oder ein `div`-Element mit einer `id` von `img-div` sehen
 1. Innerhalb des `#img-div` Elements, solltest du ein `img` Element mit zugehöriger `id="image"` sehen

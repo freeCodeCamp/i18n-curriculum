@@ -34,20 +34,20 @@ dashedName: build-a-cash-register
 |   Twenty Dollars    |    20 美元（TWENTY）    |
 | One Hundred Dollars | 100 美元（ONE HUNDRED） |
 
-**目標：** 構建一個功能和 <a href="https://cash-register.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://cash-register.freecodecamp.rocks</a> 類似的應用。
+**Objective:** Build an app that is functionally similar to <a href="https://cash-register.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://cash-register.freecodecamp.rocks</a>.
 
 **用戶需求：**
 
-1. 你應該有一個 `id` 爲 `"cash"` 的 `input` 元素
-1. 你應該有一個 `id` 爲 `"change-due"` 的 `div`、`span` 或者 `p` 元素。
-1. 你應該有一個 `button` 元素，它的`id` 爲 `"purchase-btn"`
-1. 當 `#cash` 元素中的值小於 `price`，應該出現提示 `"Customer does not have enough money to purchase the item"`
-1. 當 `#cash` 元素中的值等於 `price` 時，`#change-due` 元素的值應爲 `"No change due - customer paid with exact cash"`
-1. 當 `price` 爲 `19.5` 時，`#cash` 元素的值爲 `20`，`cid` 是 `[["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.1], ["QUARTER", 4.25], ["ONE", 90], ["FIVE", 55], ["TEN", 20], ["TWENTY", 60], ["ONE HUNDRED", 100]]`，當 `#purchase-btn` 元素被點擊後，`#change-due` 元素的值應該是 `"Status: OPEN QUARTER: $0.5"`
-1. 當 `price` 爲 `3.26` 時，`#cash` 元素中的值爲 `100`，`cid` 爲 `[["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.1], ["QUARTER", 4.25], ["ONE", 90], ["FIVE", 55], ["TEN", 20], ["TWENTY", 60], ["ONE HUNDRED", 100]]`，並且點擊 `#purchase-btn` 元素時，`#change-due` 元素中的值應爲 `"Status: OPEN TWENTY: $60 TEN: $20 FIVE: $15 ONE: $1 QUARTER: $0.5 DIME: $0.2 PENNY: $0.04"`
-1. 當 `price` 爲 `19.5` 時，`#cash` 元素中的值爲 `20`，`cid` 爲 `[["PENNY", 0.01], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 0], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]`，並且點擊 `#purchase-btn` 元素時，`#change-due` 元素中的值應爲 `"Status: INSUFFICIENT_FUNDS"`
-1. 當 `price` 爲 `19.5` 時，`#cash` 元素中的值爲 `20`，`cid` 爲 `[["PENNY", 0.01], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 1], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]`，並且點擊 `#purchase-btn` 元素時，`#change-due` 元素中的值應爲 `"Status: INSUFFICIENT_FUNDS"`
-1. 當 `price` 爲 `19.5` 時，`#cash` 元素中的值爲 `20`，`cid` 爲 `[["PENNY", 0.5], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 0], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]`，並且點擊 `#purchase-btn` 元素時，`#change-due` 元素中的值應爲 `"Status: CLOSED PENNY: $0.5"`
+1. You should have an `input` element with an `id` of `"cash"`.
+1. You should have a `div`, `span` or `p` element with an `id` of `"change-due"`.
+1. You should have a `button` element with an `id` of `"purchase-btn"`.
+1. When the value in the `#cash` element is less than `price`, an alert should appear with the text `"Customer does not have enough money to purchase the item"`.
+1. When the value in the `#cash` element is equal to `price`, the value in the `#change-due` element should be `"No change due - customer paid with exact cash"`.
+1. When `price` is `19.5`, the value in the `#cash` element is `20`, `cid` is `[["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.1], ["QUARTER", 4.25], ["ONE", 90], ["FIVE", 55], ["TEN", 20], ["TWENTY", 60], ["ONE HUNDRED", 100]]`, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: OPEN QUARTER: $0.5"`.
+1. When `price` is `3.26`, the value in the `#cash` element is `100`, `cid` is `[["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.1], ["QUARTER", 4.25], ["ONE", 90], ["FIVE", 55], ["TEN", 20], ["TWENTY", 60], ["ONE HUNDRED", 100]]`, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: OPEN TWENTY: $60 TEN: $20 FIVE: $15 ONE: $1 QUARTER: $0.5 DIME: $0.2 PENNY: $0.04"`.
+1. When `price` is `19.5`, the value in the `#cash` element is `20`, `cid` is `[["PENNY", 0.01], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 0], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]`, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: INSUFFICIENT_FUNDS"`.
+1. When `price` is `19.5`, the value in the `#cash` element is `20`, `cid` is `[["PENNY", 0.01], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 1], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]`, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: INSUFFICIENT_FUNDS"`.
+1. When `price` is `19.5`, the value in the `#cash` element is `20`, `cid` is `[["PENNY", 0.5], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 0], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]`, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: CLOSED PENNY: $0.5"`.
 
 滿足用戶故事並通過下面的所有測試來完成這個項目。 賦予它你的個人風格. 祝你編碼愉快！
 
@@ -465,8 +465,9 @@ for (const [denominationName, denomination] of _money) {
   const maxCountInChange = Math.floor(changeLeft / denomination);
   // If denomination can complete required changeLeft, available amount in drawer cannot
   // equal the maximum. Otherwise count in drawer can be greater than maximum count in change.
+  let defaultAmount = denomination < 100 ? 3 : 15
   const drawerCount = _randomNumber(
-    changeLeft % denomination === 0 ? Math.min(15, maxCountInChange - 1) : 15
+    changeLeft % denomination === 0 ? Math.min(defaultAmount, maxCountInChange - 1) : defaultAmount
   );
   const amountInDrawer = drawerCount * denomination;
   _cashInDrawer.push([denominationName, amountInDrawer / 100]);
