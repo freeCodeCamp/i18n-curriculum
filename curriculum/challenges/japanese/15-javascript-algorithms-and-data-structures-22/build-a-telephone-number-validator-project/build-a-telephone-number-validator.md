@@ -22,44 +22,44 @@ dashedName: build-a-telephone-number-validator
 
 市外局番は必須です。 また、国コードが指定されている場合は、国コードが `1` であることを確認する必要があります。
 
-**目標:** <a href="https://telephone-number-validator.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://telephone-number-validator.freecodecamp.rocks</a> と似た機能を持つアプリを作成します。
+**Objective:** Build an app that is functionally similar to <a href="https://telephone-number-validator.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://telephone-number-validator.freecodecamp.rocks</a>.
 
 **ユーザーストーリー:**
 
-1. `id` が `"user-input"` に設定された `input` 要素が必要です。
-1. `id` が `"check-btn"` に設定された `button` 要素が必要です。
-1. `id` が `"clear-btn"` に設定された `button` 要素が必要です。
-1. `id` が `"results-div"` に設定された、`div`、`span`、または `p` 要素のいずれかが必要です。
-1. `#user-input` の要素に値を入力せずに `#check-btn` の要素をクリックした場合、`"Please provide a phone number"` というテキストのアラートが表示されます。
-1. `#clear-btn` の要素をクリックすると、`#results-div` の要素のコンテンツが削除されます。
-1. `#user-input` の要素に `1 555-555-5555` と入力した状態で `#check-btn` の要素をクリックした場合、`#results-div` の要素に `"Valid US number: 1 555-555-5555"` というテキストが表示されます。
-1. `#user-input` の要素に `1 (555) 555-5555` と入力した状態で `#check-btn` の要素をクリックした場合、`#results-div` の要素に `"Valid US number: 1 (555) 555-5555"` というテキストが表示されます。
-1. `#user-input` の要素に `5555555555` と入力した状態で `#check-btn` の要素をクリックした場合、`#results-div` の要素に `"Valid US number: 5555555555"` というテキストが表示されます。
-1. `#user-input` の要素に `555-555-5555` と入力した状態で `#check-btn` の要素をクリックした場合、`#results-div` の要素に `"Valid US number: 555-555-5555"` というテキストが表示されます。
-1. `#user-input` の要素に `(555)555-5555` と入力した状態で `#check-btn` の要素をクリックした場合、`#results-div` の要素に `"Valid US number: (555)555-5555"` というテキストが表示されます。
-1. `#user-input` の要素に `1(555)555-5555` と入力した状態で `#check-btn` の要素をクリックした場合、`#results-div` の要素に `"Valid US number: 1(555)555-5555"` というテキストが表示されます。
-1. `#user-input` の要素に `555-5555` と入力した状態で `#check-btn` の要素をクリックした場合、`#results-div` の要素に `"Invalid US number: 555-5555"` というテキストが表示されます。
-1. `#user-input` の要素に `5555555` と入力した状態で `#check-btn` の要素をクリックした場合、`#results-div` の要素に `"Invalid US number: 5555555"` というテキストが表示されます。
-1. `#user-input` の要素に `1 555)555-5555` と入力した状態で `#check-btn` の要素をクリックした場合、`#results-div` の要素に `"Invalid US number: 1 555)555-5555"` というテキストが表示されます。
-1. `#user-input` の要素に `1 555 555 5555` と入力した状態で `#check-btn` の要素をクリックした場合、`#results-div` の要素に `"Valid US number: 1 555 555 5555"` というテキストが表示されます。
-1. `#user-input` の要素に `1 456 789 4444` と入力した状態で `#check-btn` の要素をクリックした場合、`#results-div` の要素に `"Valid US number: 1 456 789 4444"` というテキストが表示されます。
-1. `#user-input` の要素に `123**&!!asdf#` と入力した状態で `#check-btn` の要素をクリックした場合、`#results-div` の要素に `"Invalid US number: 123**&!!asdf#"` というテキストが表示されます。
-1. `#user-input` の要素に `55555555` と入力した状態で `#check-btn` の要素をクリックした場合、`#results-div` の要素に `"Invalid US number: 55555555"` というテキストが表示されます。
-1. `#user-input` の要素に `(6054756961)` と入力した状態で `#check-btn` の要素をクリックした場合、`#results-div` の要素に `"Invalid US number: (6054756961)"` というテキストが表示されます。
-1. `#user-input` の要素に `2 (757) 622-7382` と入力した状態で `#check-btn` の要素をクリックした場合、`#results-div` の要素に `"Invalid US number: 2 (757) 622-7382"` というテキストが表示されます。
-1. `#user-input` の要素に `0 (757) 622-7382` と入力した状態で `#check-btn` の要素をクリックした場合、`#results-div` の要素に `"Invalid US number: 0 (757) 622-7382"` というテキストが表示されます。
-1. `#user-input` の要素に `-1 (757) 622-7382` と入力した状態で `#check-btn` の要素をクリックした場合、`#results-div` の要素に `"Invalid US number: -1 (757) 622-7382"` というテキストが表示されます。
-1. `#user-input` の要素に `2 757 622-7382` と入力した状態で `#check-btn` の要素をクリックした場合、`#results-div` の要素に `"Invalid US number: 2 757 622-7382"` というテキストが表示されます。
-1. `#user-input` の要素に `10 (757) 622-7382` と入力した状態で `#check-btn` の要素をクリックした場合、`#results-div` の要素に `"Invalid US number: 10 (757) 622-7382"` というテキストが表示されます。
-1. `#user-input` の要素に `27576227382` と入力した状態で `#check-btn` の要素をクリックした場合、`#results-div` の要素に `"Invalid US number: 27576227382"` というテキストが表示されます。
-1. `#user-input` の要素に `(275)76227382` と入力した状態で `#check-btn` の要素をクリックした場合、`#results-div` の要素に `"Invalid US number: (275)76227382"` というテキストが表示されます。
-1. `#user-input` の要素に `2(757)6227382` と入力した状態で `#check-btn` の要素をクリックした場合、`#results-div` の要素に `"Invalid US number: 2(757)6227382"` というテキストが表示されます。
-1. `#user-input` の要素に `2(757)622-7382` と入力した状態で `#check-btn` の要素をクリックした場合、`#results-div` の要素に `"Invalid US number: 2(757)622-7382"` というテキストが表示されます。
-1. `#user-input` の要素に `555)-555-5555` と入力した状態で `#check-btn` の要素をクリックした場合、`#results-div` の要素に `"Invalid US number: 555)-555-5555"` というテキストが表示されます。
-1. `#user-input` の要素に `(555-555-5555` と入力した状態で `#check-btn` の要素をクリックした場合、`#results-div` の要素に `"Invalid US number: (555-555-5555"` というテキストが表示されます。
-1. `#user-input` の要素に `(555)5(55?)-5555` と入力した状態で `#check-btn` の要素をクリックした場合、`#results-div` の要素に `"Invalid US number: (555)5(55?)-5555"` というテキストが表示されます。
-1. `#user-input` の要素に `55 55-55-555-5` と入力した状態で `#check-btn` の要素をクリックした場合、`#results-div` の要素に `"Invalid US number: 55 55-55-555-5"` というテキストが表示されます。
-1. `#user-input` の要素に `11 555-555-5555` と入力した状態で `#check-btn` の要素をクリックした場合、`#results-div` の要素に `"Invalid US number: 11 555-555-5555"` というテキストが表示されます。
+1. You should have an `input` element with an `id` of `"user-input"`.
+1. You should have a `button` element with an `id` of `"check-btn"`.
+1. You should have a `button` element with an `id` of `"clear-btn"`.
+1. You should have a `div`, `span` or `p` element with an `id` of `"results-div"`.
+1. When you click on the `#check-btn` element without entering a value into the `#user-input` element, an alert should appear with the text `"Please provide a phone number"`.
+1. When you click on the `#clear-btn` element, the content within the `#results-div` element should be removed.
+1. When the `#user-input` element contains `1 555-555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: 1 555-555-5555"`.
+1. When the `#user-input` element contains `1 (555) 555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: 1 (555) 555-5555"`.
+1. When the `#user-input` element contains `5555555555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: 5555555555"`.
+1. When the `#user-input` element contains `555-555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: 555-555-5555"`.
+1. When the `#user-input` element contains `(555)555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: (555)555-5555"`.
+1. When the `#user-input` element contains `1(555)555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: 1(555)555-5555"`.
+1. When the `#user-input` element contains `555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 555-5555"`.
+1. When the `#user-input` element contains `5555555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 5555555"`.
+1. When the `#user-input` element contains `1 555)555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 1 555)555-5555"`.
+1. When the `#user-input` element contains `1 555 555 5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: 1 555 555 5555"`.
+1. When the `#user-input` element contains `1 456 789 4444` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: 1 456 789 4444"`.
+1. When `#user-input` contains `123**&!!asdf#` and `#check-btn` is clicked, `#results-div` should contain the text `"Invalid US number: 123**&!!asdf#"`.
+1. When the `#user-input` element contains `55555555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 55555555"`.
+1. When the `#user-input` element contains `(6054756961)` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: (6054756961)"`.
+1. When the `#user-input` element contains `2 (757) 622-7382` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 2 (757) 622-7382"`.
+1. When the `#user-input` element contains `0 (757) 622-7382` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 0 (757) 622-7382"`.
+1. When the `#user-input` element contains `-1 (757) 622-7382` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: -1 (757) 622-7382"`.
+1. When the `#user-input` element contains `2 757 622-7382` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 2 757 622-7382"`.
+1. When the `#user-input` element contains `10 (757) 622-7382` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 10 (757) 622-7382"`.
+1. When the `#user-input` element contains `27576227382` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 27576227382"`.
+1. When the `#user-input` element contains `(275)76227382` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: (275)76227382"`.
+1. When the `#user-input` element contains `2(757)6227382` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 2(757)6227382"`.
+1. When the `#user-input` element contains `2(757)622-7382` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 2(757)622-7382"`.
+1. When the `#user-input` element contains `555)-555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 555)-555-5555"`.
+1. When the `#user-input` element contains `(555-555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: (555-555-5555"`.
+1. When `#user-input` contains `(555)5(55?)-5555` and `#check-btn` is clicked, `#results-div` should contain the text `"Invalid US number: (555)5(55?)-5555"`.
+1. When the `#user-input` element contains `55 55-55-555-5` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 55 55-55-555-5"`.
+1. When the `#user-input` element contains `11 555-555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 11 555-555-5555"`.
 
 上記のユーザーストーリーを満たし、以下のすべてのテストが通るようにして、このプロジェクトを完成させてください。 あなた独自のアレンジを加えましょう。 ハッピーコーディング！
 
