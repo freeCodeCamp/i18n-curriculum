@@ -26,21 +26,21 @@ Los números romanos se basan en siete símbolos y pueden ser escritos utilizand
 | IV              | 4                |
 | I               | 1                |
 
-**Objetivo:** Construir una aplicación que sea funcionalmente similar a <a href="https://roman-numeral-converter.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://roman-numeral-converter.freecodecamp.rocks</a>
+**Objective:** Build an app that is functionally similar to <a href="https://roman-numeral-converter.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://roman-numeral-converter.freecodecamp.rocks</a>.
 
 **Historia de usuario:**
 
-1. Debes tener un elemento `input` con un `id` de `"number"`
-1. Debes tener un elemento `button` con un `id` de `"convert-btn"`
-1. Debes tener un elemento `div`, `span` o `p` con un `id` de `output`
-1. Cuando haces clic en el elemento `#convert-btn` sin ingresar un valor en el elemento `#number`, el elemento `#output` debe contener el texto `"Please enter a valid number"`
-1. Cuando el elemento `#number` contiene el número `-1` y se hace clic en el elemento `#convert-btn`, el elemento `#output` debe contener el texto `"Please enter a number greater than or equal to 1"`
-1. Cuando el elemento `#number` contiene un número mayor o igual a `4000` y se hace clic en el elemento `#convert-btn`, el elemento `#output` debe contener el texto `"Please enter a number less than or equal to 3999"`
-1. Cuando el elemento `#number` contiene el número `9` y se hace clic en el elemento `#convert-btn`, el elemento `#output` debe contener el texto `"IX"`
-1. Cuando el elemento `#number` contiene el número `16` y se hace clic en el elemento `#convert-btn`, el elemento `#output` debe contener el texto `"XVI"`
-1. Cuando el elemento `#number` contiene el número `649` y se hace clic en el elemento `#convert-btn`, el elemento `#output` debe contener el texto `"DCXLIX"`
-1. Cuando el elemento `#number` contiene el número `1023` y se hace clic en el elemento `#convert-btn`, el elemento `#output` debe contener el texto `"MXXIII"`
-1. Cuando el elemento `#number` contiene el número `3999` y se hace clic en el elemento `#convert-btn`, el elemento `#output` debe contener el texto `"MMMCMXCIX"`
+1. You should have an `input` element with an `id` of `"number"`.
+1. You should have a `button` element with an `id` of `"convert-btn"`.
+1. You should have a `div`, `span` or `p` element with an `id` of `output`.
+1. When you click on the `#convert-btn` element without entering a value into the `#number` element, the `#output` element should contain the text `"Please enter a valid number"`.
+1. When the `#number` element contains the number `-1` and the `#convert-btn` element is clicked, the `#output` element should contain the text `"Please enter a number greater than or equal to 1"`.
+1. When the `#number` element contains the number `4000` or greater and the `#convert-btn` element is clicked, the `#output` element should contain the text `"Please enter a number less than or equal to 3999"`.
+1. When the `#number` element contains the number `9` and the `#convert-btn` element is clicked, the `#output` element should contain the text `"IX"`.
+1. When the `#number` element contains the number `16` and the `#convert-btn` element is clicked, the `#output` element should contain the text `"XVI"`.
+1. When the `#number` element contains the number `649` and the `#convert-btn` element is clicked, the `#output` element should contain the text `"DCXLIX"`.
+1. When the `#number` element contains the number `1023` and the `#convert-btn` element is clicked, the `#output` element should contain the text `"MXXIII"`.
+1. When the `#number` element contains the number `3999` and the `#convert-btn` element is clicked, the `#output` element should contain the text `"MMMCMXCIX"`.
 
 Completa las historias de usuario y pasa todas las pruebas a continuación para completar este proyecto. Dale tu propio estilo personal. ¡Feliz día programando!
 

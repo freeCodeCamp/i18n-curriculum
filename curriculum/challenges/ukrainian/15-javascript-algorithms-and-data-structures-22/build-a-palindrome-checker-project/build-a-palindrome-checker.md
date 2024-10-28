@@ -12,27 +12,27 @@ dashedName: build-a-palindrome-checker
 
 **Примітка:** потрібно прибрати всі символи, що **не є абетко-цифровими** (розділові знаки, пробіли та символи) і написати весь текст одинаково (великими або малими літерами) для перевірки паліндромів.
 
-**Мета:** створити застосунок, функціонально схожий до <a href="https://palindrome-checker.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://palindrome-checker.freecodecamp.rocks</a>
+**Objective:** Build an app that is functionally similar to <a href="https://palindrome-checker.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://palindrome-checker.freecodecamp.rocks</a>.
 
 **Історія користувача:**
 
-1. Ви повинні мати елемент `input` з `id` зі значенням `"text-input"`
-1. Ви повинні мати елемент `button` з `id` зі значенням `"check-btn"`
-1. Ви повинні мати елемент `div`, `span` або `p` з `id` `"result"`
-1. Якщо натиснути на елемент `#check-btn`, не вводячи значення в `#text-input`, то має з’явитись попередження з текстом `"Please input a value"`
-1. Якщо елемент `#text-input` містить лише літеру `A` та натиснути на елемент `#check-btn`, то елемент `#result` повинен містити текст `"A is a palindrome"`
-1. Якщо елемент `#text-input` містить текст `eye` та натиснути на елемент `#check-btn`, то елемент `#result` повинен містити текст `"eye is a palindrome"`
-1. Якщо елемент `#text-input` містить текст `_eye` та натиснути на елемент `#check-btn`, то елемент `#result` повинен містити текст `"_eye is a palindrome"`
-1. Якщо елемент `#text-input` містить текст `race car` та натиснути на елемент `#check-btn`, то елемент `#result` повинен містити текст `"race car is a palindrome"`
-1. Якщо елемент `#text-input` містить текст `not a palindrome` та натиснути на елемент `#check-btn`, то елемент `#result` повинен містити текст `"not a palindrome is not a palindrome"`
-1. Якщо елемент `#text-input` містить текст `A man, a plan, a canal. Panama` та натиснути на елемент `#check-btn`, то елемент `#result` повинен містити текст `"A man, a plan, a canal. Panama is a palindrome"`
-1. Якщо елемент `#text-input` містить текст `never odd or even` та натиснути на елемент `#check-btn`, то елемент `#result` повинен містити текст `"never odd or even is a palindrome"`
-1. Якщо елемент `#text-input` містить текст `nope` та натиснути на елемент `#check-btn`, то елемент `#result` повинен містити текст `"nope is not a palindrome"`
-1. Якщо елемент `#text-input` містить текст `almostomla` та натиснути на елемент `#check-btn`, то елемент `#result` повинен містити текст `"almostomla is not a palindrome"`
-1. Якщо елемент `#text-input` містить текст `My age is 0, 0 si ega ym.` та натиснути на елемент `#check-btn`, то елемент `#result` повинен містити текст `"My age is 0, 0 si ega ym. is a palindrome"`
-1. Якщо елемент `#text-input` містить текст `1 eye for of 1 eye.` та натиснути на елемент `#check-btn`, то елемент `#result` повинен містити текст `"1 eye for of 1 eye. is not a palindrome"`
-1. Якщо елемент `#text-input` містить текст `0_0 (: /-\ :) 0-0` та натиснути на елемент `#check-btn`, то елемент `#result` повинен містити текст `"0_0 (: /-\ :) 0-0 is a palindrome"`
-1. Якщо елемент `#text-input` містить текст `five|\_/|four` та натиснути на елемент `#check-btn`, то елемент `#result` повинен містити текст `"five|\_/|four is not a palindrome"`
+1. You should have an `input` element with an `id` of `"text-input"`.
+1. You should have a `button` element with an `id` of `"check-btn"`.
+1. You should have a `div`, `span` or `p` element with an `id` of `"result"`.
+1. When you click on the `#check-btn` element without entering a value into the `#text-input` element, an alert should appear with the text `"Please input a value"`.
+1. When the `#text-input` element only contains the letter `A` and the `#check-btn` element is clicked, the `#result` element should contain the text `"A is a palindrome"`.
+1. When the `#text-input` element contains the text `eye` and the `#check-btn` element is clicked, the `#result` element should contain the text `"eye is a palindrome"`.
+1. When the `#text-input` element contains the text `_eye` and the `#check-btn` element is clicked, the `#result` element should contain the text `"_eye is a palindrome"`.
+1. When the `#text-input` element contains the text `race car` and the `#check-btn` element is clicked, the `#result` element should contain the text `"race car is a palindrome"`.
+1. When the `#text-input` element contains the text `not a palindrome` and the `#check-btn` element is clicked, the `#result` element should contain the text `"not a palindrome is not a palindrome"`.
+1. Якщо елемент `#text-input` містить текст `A man, a plan, a canal. Panama` та натиснути на елемент `#check-btn`, то елемент `#result` повинен містити текст `"A man, a plan, a canal. Panama is a palindrome"`.
+1. When the `#text-input` element contains the text `never odd or even` and the `#check-btn` element is clicked, the `#result` element should contain the text `"never odd or even is a palindrome"`.
+1. When the `#text-input` element contains the text `nope` and the `#check-btn` element is clicked, the `#result` element should contain the text `"nope is not a palindrome"`.
+1. When the `#text-input` element contains the text `almostomla` and the `#check-btn` element is clicked, the `#result` element should contain the text `"almostomla is not a palindrome"`.
+1. When the `#text-input` element contains the text `My age is 0, 0 si ega ym.` and the `#check-btn` element is clicked, the `#result` element should contain the text `"My age is 0, 0 si ega ym. is a palindrome"`.
+1. Якщо елемент `#text-input` містить текст `1 eye for of 1 eye.` та натиснути на елемент `#check-btn`, то елемент `#result` повинен містити текст `"1 eye for of 1 eye. is not a palindrome"`.
+1. When the `#text-input` element contains the text `0_0 (: /-\ :) 0-0` and the `#check-btn` element is clicked, the `#result` element should contain the text `"0_0 (: /-\ :) 0-0 is a palindrome"`.
+1. When the `#text-input` element contains the text `five|\_/|four` and the `#check-btn` element is clicked, the `#result` element should contain the text `"five|\_/|four is not a palindrome"`.
 
 Виконайте історію користувача та пройдіть тести, наведені нижче, щоб завершити цей проєкт. Оформте за власним стилем. Щасливого програмування!
 
