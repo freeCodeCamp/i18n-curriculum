@@ -15,8 +15,9 @@ La nueva version de JavaScript os proporciona un objeto de Mapa integrado que pr
 - `.set(key, value)` establece un nuevo par clave, valor
 - `.delete(key)` elimina un par clave, valor
 - `.clear()` elimina todos los pares clave, valor
-- `.entries()` devuelve un arreglo de todas las claves en orden de inserción
-- `.values()` devuelve un arreglo de todos los valores en orden de inserción
+- `.keys()` returns a new map iterator object that contains all the keys in insertion order
+- `.values()` returns a new map iterator object that contains all the values in insertion order
+- `.entries()` returns a new map iterator object that contains all the key, value pairs in insertion order
 
 # --instructions--
 
