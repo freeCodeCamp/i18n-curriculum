@@ -43,29 +43,32 @@ Dateiname: medical_examination.csv
 
 
 ## Instructions
+
+Create a chart similar to `examples/Figure_1.png`, where we show the counts of good and bad outcomes for the `cholesterol`, `gluc`, `alco`, `active`, and `smoke` variables for patients with `cardio=1` and `cardio=0` in different panels.
+
 By each number in the `medical_data_visualizer.py` file, add the code from the associated instruction number below.
 
-1. Import the data from `medical_examination.csv` and assign it to the `df` variable
-2. Erstelle die `overweight`-Spalte in der `df`-Variable
+1. Import the data from `medical_examination.csv` and assign it to the `df` variable.
+2. Add an `overweight` column to the data. To determine if a person is overweight, first calculate their BMI by dividing their weight in kilograms by the square of their height in meters. If that value is > 25 then the person is overweight. Use the value `0` for NOT overweight and the value `1` for overweight.
 3. Normalisiere die Daten, indem du `0` immer für gut und `1` immer für schlecht verwendest. Wenn der Wert von `cholesterol` oder `gluc` 1 ist, wird der Wert auf `0` gesetzt. Setze den Wert auf `1`, wenn der Wert größer als `1` ist.
-4. Zeichne das kategorische Plot in der `draw_cat_plot`-Funktion
+4. Draw the Categorical Plot in the `draw_cat_plot` function.
 5. Create a DataFrame for the cat plot using `pd.melt` with values from `cholesterol`, `gluc`, `smoke`, `alco`, `active`, and `overweight` in the `df_cat` variable.
 6. Die Daten in `df_cat` gruppieren und neu formatieren, um sie durch `cardio` aufzuteilen. Zeigt die Anzahl der einzelnen Merkmale an. You will have to rename one of the columns for the `catplot` to work correctly.
-7. Convert the data into `long` format and create a chart that shows the value counts of the categorical features using the following method provided by the seaborn library import : `sns.catplot()`
-8. Get the figure for the output and store it in the `fig` variable
-9. Ändere die nächsten zwei Zeilen nicht
-10. Draw the Heat Map in the `draw_heat_map` function
+7. Convert the data into `long` format and create a chart that shows the value counts of the categorical features using the following method provided by the seaborn library import: `sns.catplot()`.
+8. Get the figure for the output and store it in the `fig` variable.
+9. Do not modify the next two lines.
+10. Draw the Heat Map in the `draw_heat_map` function.
 11. Bereinige die Daten in der `df_heat`-Variablen, indem du die folgenden Patientensegmente herausfilterst, die falsche Daten darstellen:
     - diastolic pressure is higher than systolic (Keep the correct data with `(df['ap_lo'] <= df['ap_hi'])`)
     - height is less than the 2.5th percentile (Keep the correct data with `(df['height'] >= df['height'].quantile(0.025))`)
     - height is more than the 97.5th percentile
     - weight is less than the 2.5th percentile
     - weight is more than the 97.5th percentile
-12. Calculate the correlation matrix and store it in the `corr` variable
-13. Generate a mask for the upper triangle and store it in the `mask` variable
-14. Richte die `matplotlib`- ein
-15. Plot the correlation matrix using the method provided by the `seaborn` library import: `sns.heatmap()`
-16. Ändere die nächsten zwei Zeilen nicht
+12. Calculate the correlation matrix and store it in the `corr` variable.
+13. Generate a mask for the upper triangle and store it in the `mask` variable.
+14. Set up the `matplotlib` figure.
+15. Plot the correlation matrix using the method provided by the `seaborn` library import: `sns.heatmap()`.
+16. Do not modify the next two lines.
 
 ## Entwicklung
 

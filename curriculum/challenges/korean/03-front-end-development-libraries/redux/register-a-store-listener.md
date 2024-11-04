@@ -32,19 +32,25 @@ assert(
 `store.subscribe`를 사용하여 스토어에 구독하는 리스너 함수가 있어야 합니다.
 
 ```js
-(getUserInput) => assert(getUserInput('index').match(/store\s*\.\s*subscribe\(/gm));
+assert.match(code, /store\s*\.\s*subscribe\(/gm);
 ```
 
 `store.subscribe`가 함수를 받아야 합니다.
 
 ```js
-(getUserInput) => assert(getUserInput('index').match(/(\s*function\s*)|(\s*\(\s*\)\s*=>)/gm)) 
+assert.match(code, /(\s*function\s*)|(\s*\(\s*\)\s*=>)/gm);
+```
+
+The function passed to `store.subscribe` should not be called.
+
+```js
+assert.notMatch(code, /store\.subscribe\(.+\(\)\)/);
 ```
 
 `store.subscribe`에 대한 콜백은 스토어가 업데이트될 때 글로벌 `count` 변수를 증가시켜야 합니다.
 
 ```js
-assert(store.getState() === count);
+assert.strictEqual(store.getState(), count);
 ```
 
 # --seed--
