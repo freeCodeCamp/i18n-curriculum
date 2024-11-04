@@ -24,7 +24,7 @@ Execute o código do notebook para <a href="https://colab.research.google.com/dr
 
 ## --text--
 
-Qual das linguagens a seguir você não pode usar no Google Colaboratory?
+Which of the following languages can you use in a Google Colaboratory text field?
 
 ## --answers--
 
@@ -40,7 +40,7 @@ Inglês
 
 ---
 
-Sânscrito
+All of the above
 
 ## --video-solution--
 

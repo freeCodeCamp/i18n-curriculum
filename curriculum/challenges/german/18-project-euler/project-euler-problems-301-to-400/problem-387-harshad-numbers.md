@@ -10,7 +10,7 @@ dashedName: problem-387-harshad-numbers
 
 Eine Harshad- oder Niven-Zahl ist eine Zahl, die durch die Summe ihrer Ziffern teilbar ist.
 
-201 ist eine Harshad-Zahl, weil sie durch 3 teilbar ist (die Summe ihrer Ziffern.)
+201 is a Harshad number because it is divisible by 3 (the sum of its digits).
 
 Wenn wir die letzte Ziffer von 201 abschneiden, erhalten wir 20, was eine Harshad-Zahl ist.
 

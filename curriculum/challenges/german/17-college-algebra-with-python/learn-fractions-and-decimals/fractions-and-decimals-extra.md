@@ -24,7 +24,7 @@ Führe den Code im folgenden Notizbuch aus, um <a href="https://colab.research.g
 
 ## --text--
 
-Welche der folgenden Sprachen kannst du nicht in Google Colaboratory verwenden?
+Which of the following languages can you use in a Google Colaboratory text field?
 
 ## --answers--
 
@@ -40,7 +40,7 @@ Englisch
 
 ---
 
-Sanskrit
+All of the above
 
 ## --video-solution--
 
