@@ -313,7 +313,7 @@ L'elemento `#navbar` dovrebbe sempre essere in cima al viewport.
         </p>
         <p>
             &copy; Created for
-            <a href="https://www.freecodecamp.com/" target="_blank">freeCodeCamp <i
+            <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp <i
                     class="fab fa-free-code-camp"></i></a>
         </p>
     </footer>

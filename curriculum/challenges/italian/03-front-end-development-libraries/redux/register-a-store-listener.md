@@ -32,19 +32,25 @@ assert(
 Dovrebbe esserci una funzione listener iscritta allo store usando `store.subscribe`.
 
 ```js
-(getUserInput) => assert(getUserInput('index').match(/store\s*\.\s*subscribe\(/gm));
+assert.match(code, /store\s*\.\s*subscribe\(/gm);
 ```
 
 `store.subscribe` dovrebbe ricevere una funzione.
 
 ```js
-(getUserInput) => assert(getUserInput('index').match(/(\s*function\s*)|(\s*\(\s*\)\s*=>)/gm)) 
+assert.match(code, /(\s*function\s*)|(\s*\(\s*\)\s*=>)/gm);
+```
+
+The function passed to `store.subscribe` should not be called.
+
+```js
+assert.notMatch(code, /store\.subscribe\(.+\(\)\)/);
 ```
 
 La callback `store.subscribe` dovrebbe anche aumentare la variabile globale `count` quando lo store viene aggiornato.
 
 ```js
-assert(store.getState() === count);
+assert.strictEqual(store.getState(), count);
 ```
 
 # --seed--

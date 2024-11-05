@@ -28,7 +28,7 @@ img {
 `h4` の `height` プロパティを 25 ピクセルに変更する必要があります。
 
 ```js
-const spaceFreeText = document.querySelector("style")?.textContent?.replace(/\s/g, ''); 
+const spaceFreeText = document.querySelector("style:not(.fcc-hide-header)")?.textContent?.replace(/\s/g, ''); 
 const h4Element = document.querySelector('h4');
 assert.equal(Math.round(h4Element?.getBoundingClientRect()?.height),25);
 assert.match(spaceFreeText,/h4{\S*height:25px(;\S*}|})/);

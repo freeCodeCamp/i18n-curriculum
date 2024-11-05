@@ -15,7 +15,7 @@ Recuerda, puedes dar estilo a tu elemento `body` como a cualquier otro elemento 
 
 # --instructions--
 
-Primero, crea un elemento `h1` con el texto `Hello World`
+First, create an `h1` element with the text `Hello World`.
 
 Luego, demos el color `green` (verde) a todos los elementos de tu página, añadiendo `color: green;` a tu declaración de estilo del elemento `body`.
 

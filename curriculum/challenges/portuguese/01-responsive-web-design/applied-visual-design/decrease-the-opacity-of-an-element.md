@@ -25,7 +25,7 @@ A propriedade `opacity` deve ter o valor de 0.7 na classe `links`.
 
 ```js
 assert.match(
-  document.querySelector('style')?.textContent,
+  document.querySelector("style:not(.fcc-hide-header)")?.textContent,
   /\.links\s*{([\s\S]*?;)*\s*opacity\s*:\s*0*\.70*\s*(;[\s\S]*?|\s*)}/
   );
 ```

@@ -10,9 +10,9 @@ dashedName: label-bootstrap-wells
 
 For the sake of clarity, let's label both of our wells with their ids.
 
-在 left-well 的上一层，class 属性为 `col-xs-6` 的 `div` 元素里面，增加一个文本为 `#left-well` 的 `h4` 元素。
+Above your left-well, inside its `col-xs-6` `div` element, add an `h4` element with the text `#left-well`.
 
-在 right-well 的上一层，class 属性为 `col-xs-6` 的 `div` 元素里面，增加一个文本为 `#right-well` 的 `h4` 元素。
+Above your right-well, inside its `col-xs-6` `div` element, add an `h4` element with the text `#right-well`.
 
 # --hints--
 
