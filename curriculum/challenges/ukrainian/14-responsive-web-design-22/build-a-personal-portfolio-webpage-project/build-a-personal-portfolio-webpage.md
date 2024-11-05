@@ -13,7 +13,7 @@ dashedName: build-a-personal-portfolio-webpage
 
 **Історія користувача:**
 
-1. Your portfolio should have a welcome section with an `id` of `welcome-section`
+1. Портфоліо має містити вітальний розділ з `id` зі значенням `welcome-section`
 1. Вітальний розділ повинен мати елемент `h1`, який містить текст
 1. Портфоліо повинне мати розділ проєктів з `id` зі значенням `projects`
 1. Розділ проєктів повинен містити принаймні один елемент з `class` зі значенням `project-tile`, щоб містити проєкт

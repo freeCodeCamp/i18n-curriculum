@@ -15,7 +15,7 @@ Now we've proven that every HTML page has a `body` element, and that its `body` 
 
 # --instructions--
 
-首先，創建一個內容文本爲 `Hello World` 的 `h1` 元素。
+First, create an `h1` element with the text `Hello World`.
 
 接着，在 `body` 的 CSS 規則裏面添加 `color: green;`，這會將頁面內所有字體的顏色都設置爲 `green`。
 

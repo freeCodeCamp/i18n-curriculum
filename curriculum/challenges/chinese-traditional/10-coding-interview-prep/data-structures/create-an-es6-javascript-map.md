@@ -15,8 +15,9 @@ The new version of JavaScript provides us with a built-in Map object which provi
 - `.set(key, value)` 設置一個新的鍵值對
 - `.delete(key)` 移除一個鍵值對
 - `.clear()` 移除所有鍵值對
-- `.entries()` 返回一個所有按鍵插入順序排列的鍵的數組
-- `.entries()` 返回一個所有按值的插入順序排列的值的數組
+- `.keys()` returns a new map iterator object that contains all the keys in insertion order
+- `.values()` returns a new map iterator object that contains all the values in insertion order
+- `.entries()` returns a new map iterator object that contains all the key, value pairs in insertion order
 
 # --instructions--
 

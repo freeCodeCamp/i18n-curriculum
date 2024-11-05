@@ -10,9 +10,9 @@ dashedName: label-bootstrap-wells
 
 For the sake of clarity, let's label both of our wells with their ids.
 
-왼쪽 well 위 `col-xs-6` `div` 요소 안에 `#left-well`라는 글자를 가진 `h4` 요소를 추가하시오.
+Above your left-well, inside its `col-xs-6` `div` element, add an `h4` element with the text `#left-well`.
 
-오른쪽 well 위에 `col-xs-6` `div` 요소 안에 `#right-well`이라는 글자를 가진 `h4` 요소를 추가하시오.
+Above your right-well, inside its `col-xs-6` `div` element, add an `h4` element with the text `#right-well`.
 
 # --hints--
 

@@ -50,7 +50,7 @@ Você deve ter um elemento `title` dentro do elemento `head` com o texto `The Od
 assert(document.querySelectorAll('HEAD > TITLE')[0].innerText == 'The Odin Recipes');
 ```
 
-Você deve ter um elemento `h1` dentro do elemento `body` com o texto `Creamy Chocolate Fudge`.
+You should have an `h1` element within your `body` element that contains the text `Creamy Chocolate Fudge`.
 
 ```js
 assert(document.querySelectorAll('BODY > H1')[0].innerText == 'Creamy Chocolate Fudge');

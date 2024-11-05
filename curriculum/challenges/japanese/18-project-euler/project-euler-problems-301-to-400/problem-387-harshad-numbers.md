@@ -10,7 +10,7 @@ dashedName: problem-387-harshad-numbers
 
 ハーシャッド数またはニーベン数とは、その各位の和によって整除できる数のことです。
 
-201 は 3 (各位の和) で整除できるのでハーシャッド数です。
+201 is a Harshad number because it is divisible by 3 (the sum of its digits).
 
 201 の最下位の桁を切り詰めると 20 になり、これはハーシャッド数です。
 

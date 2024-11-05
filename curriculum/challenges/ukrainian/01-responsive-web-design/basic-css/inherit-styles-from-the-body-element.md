@@ -15,7 +15,7 @@ Now we've proven that every HTML page has a `body` element, and that its `body` 
 
 # --instructions--
 
-Спершу створіть елемент `h1` з текстом `Hello World`
+First, create an `h1` element with the text `Hello World`.
 
 Тепер, давайте задамо всім елементам на сторінці колір `green`, додавши `color: green;` до об'яви стилю елемента `body`.
 

@@ -10,7 +10,7 @@ dashedName: problem-387-harshad-numbers
 
 A Harshad or Niven number is a number that is divisible by the sum of its digits.
 
-201是一個Harshad數，因爲它可以被3整數（它的數字之和）。
+201 is a Harshad number because it is divisible by 3 (the sum of its digits).
 
 當我們截斷201的最後一個數字時，我們得到20，這是一個Harshad數。
 

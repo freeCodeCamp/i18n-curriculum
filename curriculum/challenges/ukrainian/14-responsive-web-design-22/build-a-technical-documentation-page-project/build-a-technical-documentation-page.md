@@ -12,7 +12,7 @@ dashedName: build-a-technical-documentation-page
 
 **Історія користувача:**
 
-1. You can see a `main` element with a corresponding `id="main-doc"`, which contains the page's main content (technical documentation)
+1. Ви можете бачити елемент `main` з відповідним `id="main-doc"`, який містить основний вміст сторінки (технічна документація)
 1. В межах елемента `#main-doc` можна побачити декілька елементів `section`, кожен з яких має клас `main-section`. Їх має бути щонайменше п'ять
 1. Перший елемент кожної `.main-section` повинен бути елементом `header`, який має текст, що описує тему секції.
 1. Кожен елемент `section` класу `main-section` також повинен мати `id`, що відповідає тексту кожного `header`, вміщеного в ньому. Будь-які прогалини слід замінити знаками підкреслення (наприклад, секція із заголовком «JavaScript and Java» повинна мати відповідний `id="JavaScript_and_Java"`)

@@ -10,9 +10,9 @@ dashedName: label-bootstrap-wells
 
 For the sake of clarity, let's label both of our wells with their ids.
 
-Sopra il well di sinistra, all'interno del `div` di classe `col-xs-6`, aggiungi un elemento `h4` con il testo `#left-well`.
+Above your left-well, inside its `col-xs-6` `div` element, add an `h4` element with the text `#left-well`.
 
-Sopra il well di destra, all'interno del suo elemento `div` di classe `col-xs-6`, aggiungi un elemento `h4` con il testo `#right-well`.
+Above your right-well, inside its `col-xs-6` `div` element, add an `h4` element with the text `#right-well`.
 
 # --hints--
 

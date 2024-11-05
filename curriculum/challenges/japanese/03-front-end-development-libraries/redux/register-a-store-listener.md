@@ -32,19 +32,25 @@ assert(
 `store.subscribe` を使用してストアにリスナー関数をサブスクライブします。
 
 ```js
-(getUserInput) => assert(getUserInput('index').match(/store\s*\.\s*subscribe\(/gm));
+assert.match(code, /store\s*\.\s*subscribe\(/gm);
 ```
 
 `store.subscribe` は関数を受け取ります。
 
 ```js
-(getUserInput) => assert(getUserInput('index').match(/(\s*function\s*)|(\s*\(\s*\)\s*=>)/gm)) 
+assert.match(code, /(\s*function\s*)|(\s*\(\s*\)\s*=>)/gm);
+```
+
+`store.subscribe` に渡される関数は呼び出してはいけません。
+
+```js
+assert.notMatch(code, /store\.subscribe\(.+\(\)\)/);
 ```
 
 `store.subscribe` へのコールバックでも、ストアが更新されたときにグローバルの `count` 変数を 1 増やします。
 
 ```js
-assert(store.getState() === count);
+assert.strictEqual(store.getState(), count);
 ```
 
 # --seed--

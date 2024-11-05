@@ -28,7 +28,7 @@ Añadir la propiedad `height` a la etiqueta `h4` y establecerlo a 25px.
 El código debe cambiar la propiedad `height` del `h4` a un valor de 25 píxeles.
 
 ```js
-const spaceFreeText = document.querySelector("style")?.textContent?.replace(/\s/g, ''); 
+const spaceFreeText = document.querySelector("style:not(.fcc-hide-header)")?.textContent?.replace(/\s/g, ''); 
 const h4Element = document.querySelector('h4');
 assert.equal(Math.round(h4Element?.getBoundingClientRect()?.height),25);
 assert.match(spaceFreeText,/h4{\S*height:25px(;\S*}|})/);

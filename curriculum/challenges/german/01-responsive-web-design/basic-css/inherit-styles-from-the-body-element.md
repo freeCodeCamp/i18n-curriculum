@@ -15,7 +15,7 @@ Denke daran, dass du dein `body`-Element wie jedes andere HTML-Element stylen ka
 
 # --instructions--
 
-Erstelle zuerst ein `h1`-Element mit dem Text `Hello World`
+First, create an `h1` element with the text `Hello World`.
 
 Dann geben wir allen Elementen auf deiner Seite die Farbe `green` (grün), indem wir `color: green;` zur Style-Deklaration deines `body`-Elements hinzufügen.
 

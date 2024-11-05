@@ -50,7 +50,7 @@ assert(html && head && body);
 assert(document.querySelectorAll('HEAD > TITLE')[0].innerText == 'The Odin Recipes');
 ```
 
-在包含文本 `Creamy Chocolate Fudge` 的 `body` 元素中，你应该有一个 `h1` 元素。
+You should have an `h1` element within your `body` element that contains the text `Creamy Chocolate Fudge`.
 
 ```js
 assert(document.querySelectorAll('BODY > H1')[0].innerText == 'Creamy Chocolate Fudge');

@@ -15,7 +15,7 @@ Now we've proven that every HTML page has a `body` element, and that its `body` 
 
 # --instructions--
 
-먼저, `Hello World`라는 텍스트를 가진 `h1` 요소를 생성해주세요.
+First, create an `h1` element with the text `Hello World`.
 
 `body` 요소의 스타일 선언에 `color: green;`을 추가해 페이지의 모든 요소들에 `green` 색상을 적용해 주세요.
 

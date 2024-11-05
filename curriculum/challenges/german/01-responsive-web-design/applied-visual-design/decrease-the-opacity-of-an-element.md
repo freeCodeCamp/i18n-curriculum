@@ -25,7 +25,7 @@ Dein Code sollte die Eigenschaft `opacity` der Ankertags auf 0.7 setzen, indem d
 
 ```js
 assert.match(
-  document.querySelector('style')?.textContent,
+  document.querySelector("style:not(.fcc-hide-header)")?.textContent,
   /\.links\s*{([\s\S]*?;)*\s*opacity\s*:\s*0*\.70*\s*(;[\s\S]*?|\s*)}/
   );
 ```
