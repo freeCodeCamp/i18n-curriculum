@@ -37,7 +37,7 @@ If a same-named variable is declared inside the function then it shadows the out
 
 ## --text--
 
-What will be the output of the following code?
+¿Cuál será la salida del siguiente código?
 
 ```js
 let x = 10;

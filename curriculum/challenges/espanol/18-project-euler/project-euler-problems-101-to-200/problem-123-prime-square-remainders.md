@@ -8,7 +8,7 @@ dashedName: problem-123-prime-square-remainders
 
 # --description--
 
-Let $p_n$ be the $n$th prime: 2, 3, 5, 7, 11, ..., and let $r$ be the remainder when ${(p_n−1)}^n + {(p_n+1)}^n$ is divided by ${p_n}^2$.
+Sea $p_n$ el $n$-ésimo primo: 2, 3, 5, 7, 11, ..., y sea $r$ el residuo cuando ${(p_n−1)}^n + {(p_n+1)}^n$ es dividido por ${p_n}^2$.
 
 Por ejemplo, cuando $n = 3, p_3 = 5$, y $4^3 + 6^3 = 280 ≡ 5\\ mod\\ 25$.
 

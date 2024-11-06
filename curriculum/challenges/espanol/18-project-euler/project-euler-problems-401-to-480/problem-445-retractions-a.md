@@ -8,7 +8,7 @@ dashedName: problem-445-retractions-a
 
 # --description--
 
-For every integer $n > 1$, the family of functions $f_{n, a, b}$ is defined by:
+Para cada entero $n > 1$, la familia de funciones $f_{n, a, b}$ se define por:
 
 $f_{n, a, b}(x) ≡ ax + b\bmod n$ para $a, b, x$ entero y $0 \lt a \lt n$, $0 \le b \lt n$, $0 \le x \lt n$.
 

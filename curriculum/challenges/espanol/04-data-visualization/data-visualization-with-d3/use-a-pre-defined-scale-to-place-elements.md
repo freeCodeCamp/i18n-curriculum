@@ -8,7 +8,7 @@ dashedName: use-a-pre-defined-scale-to-place-elements
 
 # --description--
 
-With the scales set up, it's time to map the scatter plot again. The scales are like processing functions that turn the `x` and `y` raw data into values that fit and render correctly on the SVG. They keep the data within the screen's plotting area.
+Con las escalas configuradas, es hora de trazar el diagrama de dispersión nuevamente. Las escalas son como funciones de procesamiento que convierten los datos brutos `x` y `y` en valores que se ajustan y representan correctamente en el SVG. Mantienen los datos dentro del área de trazado de la pantalla.
 
 Establece los valores de los atributos de coordenada para una forma SVG con la función escaladora. Esto incluye los atributos `x` e `y` para `rect` o elementos `text`, o `cx` y `cy` para `circles`. He aquí un ejemplo:
 

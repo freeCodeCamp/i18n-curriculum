@@ -33,7 +33,7 @@ The pseudocode for the algorithm is:
 
 # --instructions--
 
-Write a function to implement the above pseudo code. The function should return the sorted array.
+Write a function to implement the above pseudo code. La función debe devolver el arreglo ordenado.
 
 # --hints--
 

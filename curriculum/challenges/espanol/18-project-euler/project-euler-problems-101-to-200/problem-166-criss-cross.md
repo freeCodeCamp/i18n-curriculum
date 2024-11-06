@@ -8,7 +8,7 @@ dashedName: problem-166-criss-cross
 
 # --description--
 
-A 4x4 grid is filled with digits $d$, $0 ≤ d ≤ 9$.
+Una cuadrícula de 4x4 esta llena con dígitos $d$, $0 ≤ d ≤ 9$.
 
 Se puede ver que en la cuadrícula
 

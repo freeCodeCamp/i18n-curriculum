@@ -8,7 +8,7 @@ dashedName: vector-dot-product
 
 # --description--
 
-A vector can have one or more values represented by an ordered collection. Examples could be (x), (x, y), or (x, y, z).
+Un vector puede tener uno o más valores representados por una colección ordenada. Por ejemplo (x), (x, y), o (x, y, z).
 
 # --instructions--
 

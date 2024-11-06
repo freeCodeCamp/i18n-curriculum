@@ -25,7 +25,7 @@ anchor element
 
 ---
 
-image element
+elemento imagen
 
 ---
 

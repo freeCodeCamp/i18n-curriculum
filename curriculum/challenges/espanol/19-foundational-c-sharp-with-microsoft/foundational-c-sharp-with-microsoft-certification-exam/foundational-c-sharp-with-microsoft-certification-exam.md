@@ -1,6 +1,6 @@
 ---
 id: 647e22d18acb466c97ccbef8
-title: 'Foundational C# with Microsoft Certification Exam'
+title: 'Fundamentos de C# con examen de certificación de Microsoft'
 challengeType: 17
 dashedName: foundational-c-sharp-with-microsoft-certification-exam
 prerequisites:

@@ -13,11 +13,11 @@ Implement basic element-wise matrix-matrix and scalar-matrix operations.
 **Implement:**
 
 <ul>
-  <li>addition</li>
-  <li>subtraction</li>
-  <li>multiplication</li>
-  <li>division</li>
-  <li>exponentiation</li>
+  <li>adición</li>
+  <li>sustracción</li>
+  <li>multiplicación</li>
+  <li>división</li>
+  <li>exponenciación</li>
 </ul>
 
 The first parameter will be the operation to be performed, for example, "m_add" for matrix addition and "s_add" for scalar addition. The second and third parameters will be the matrices on which the operations are to be performed.

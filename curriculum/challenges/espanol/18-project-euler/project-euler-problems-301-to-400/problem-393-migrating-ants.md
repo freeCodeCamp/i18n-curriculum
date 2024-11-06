@@ -16,7 +16,7 @@ We define $f(n)$ to be the number of ways this can happen without any ants endin
 
 You are given that $f(4) = 88$.
 
-Find $f(10)$.
+Encuentra $f(10)$.
 
 # --hints--
 
