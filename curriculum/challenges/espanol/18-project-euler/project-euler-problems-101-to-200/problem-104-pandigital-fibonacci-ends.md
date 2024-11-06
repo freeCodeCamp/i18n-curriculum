@@ -8,7 +8,7 @@ dashedName: problem-104-pandigital-fibonacci-ends
 
 # --description--
 
-The Fibonacci sequence is defined by the recurrence relation:
+La sucesión de Fibonacci se define por la siguiente relación recursiva:
 
 $F_n = F_{n − 1} + F_{n − 2}$, where $F_1 = 1$ and $F_2 = 1$
 

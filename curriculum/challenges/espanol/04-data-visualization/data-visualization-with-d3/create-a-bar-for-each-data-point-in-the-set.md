@@ -8,7 +8,7 @@ dashedName: create-a-bar-for-each-data-point-in-the-set
 
 # --description--
 
-The last challenge added only one rectangle to the `svg` element to represent a bar. Here, you'll combine what you've learned so far about `data()`, `enter()`, and SVG shapes to create and append a rectangle for each data point in `dataset`.
+El anterior desafío agrega solo un rectángulo al elemento `svg` para representar una barra. Ahora, combinarás lo que has aprendido hasta ahora sobre `data()`, `enter()`, y formas SVG para crear y añadir un rectángulo para cada punto de dato en `dataset`.
 
 Uno de los desafíos anteriores mostró el formato para cómo crear y añadir un `div` para cada elemento en `dataset`:
 

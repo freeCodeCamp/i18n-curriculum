@@ -8,7 +8,7 @@ dashedName: problem-121-disc-game-prize-fund
 
 # --description--
 
-A bag contains one red disc and one blue disc. In a game of chance a player takes a disc at random and its colour is noted. After each turn the disc is returned to the bag, an extra red disc is added, and another disc is taken at random.
+Una bolsa contiene un disco rojo y un disco azul. En un juego de azar, un jugador toma un disco al azar y se anota su color. Después de cada turno, el disco se devuelve a la bolsa, se añade un disco rojo adicional, y se saca otro disco al azar.
 
 El jugador paga £1 para jugar y gana si ha tomado más discos azules que discos rojos al final del juego.
 

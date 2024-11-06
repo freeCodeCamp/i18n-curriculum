@@ -8,11 +8,11 @@ dashedName: kaprekar-numbers
 
 # --description--
 
-A positive integer is a Kaprekar number if:
+Un entero positivo es un número Kaprekar si:
 
 <ul>
-  <li>It is 1, or,</li>
-  <li>The decimal representation of its square may be split once into two parts consisting of positive integers which sum to the original number. </li>
+  <li>Es 1, o</li>
+  <li>La representación decimal de su cuadrado puede dividirse una vez en dos partes que consisten en enteros positivos que suman al número original. </li>
 </ul>
 
 Tenga en cuenta que una división que resulta en una parte que consiste exclusivamente en 0s no es válida, ya que 0 no se considera positiva.
@@ -20,7 +20,7 @@ Tenga en cuenta que una división que resulta en una parte que consiste exclusiv
 Ejemplo Kaprekar números:
 
 <ul>
-  <li><code>2223</code> is a Kaprekar number, as <code>2223 * 2223 = 4941729</code>, <code>4941729</code> may be split to <code>494</code> and <code>1729</code>, and <code>494 + 1729 = 2223</code></li>
+  <li><code>2223</code> es un número Kaprekar, como <code>2223 * 2223 = 4941729</code>, <code>4941729</code> puede dividirse en <code>494</code> y <code>1729</code>, y <code>494 + 1729 = 2223</code></li>
   <li>La serie de números Kaprekar se conoce como A006886, y comienza como <code>1, 9, 45, 55, ...</code></li>
 </ul>
 

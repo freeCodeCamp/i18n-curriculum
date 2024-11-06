@@ -8,7 +8,7 @@ dashedName: sum-multiples-of-3-and-5
 
 # --description--
 
-The objective is to write a function that finds the sum of all positive multiples of 3 or 5 below *n*.
+El objetivo es escribir una función que encuentre la suma de todos los múltiplos positivos de 3 o 5 debajo de *n*.
 
 # --hints--
 

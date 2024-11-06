@@ -8,7 +8,7 @@ dashedName: knapsack-problembounded
 
 # --description--
 
-The bounded knapsack problem is defined as follows:
+El problema de la mochila se define de la siguiente manera:
 
 Se le da un arreglo de objetos representando elementos a ser puestos en una mochila. Los objetos tienen 4 atributos: nombre, piezas (el número de el elemento particular), peso, y valor. Los elementos requieren ser seleccionados para que el peso total no exceda el peso máximo y el valor sea maximizado. Ten en cuenta que cada elemento puede aparecer entre 0 y `pieces` veces.
 

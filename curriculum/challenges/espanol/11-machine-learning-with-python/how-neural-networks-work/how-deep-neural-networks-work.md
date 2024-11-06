@@ -10,7 +10,7 @@ dashedName: how-deep-neural-networks-work
 
 ## --text--
 
-Why is it better to calculate the gradient (slope) directly rather than numerically?
+¿Por qué es mejor calcular el gradiente (pendiente) directamente en lugar de hacerlo numéricamente?
 
 ## --answers--
 

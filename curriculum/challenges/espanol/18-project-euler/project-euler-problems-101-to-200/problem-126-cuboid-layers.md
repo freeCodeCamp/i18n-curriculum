@@ -8,7 +8,7 @@ dashedName: problem-126-cuboid-layers
 
 # --description--
 
-The minimum number of cubes to cover every visible face on a cuboid measuring 3 x 2 x 1 is twenty-two.
+El número minimo de cubos para cubrir cada cara visible de un cuboide que mide 3 x 2 x 1 es veintidós.
 
 <img alt="3x2x1 cuboid covered by twenty-two 1x1x1 cubes" src="https://cdn.freecodecamp.org/curriculum/project-euler/cuboid-layers.png" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
