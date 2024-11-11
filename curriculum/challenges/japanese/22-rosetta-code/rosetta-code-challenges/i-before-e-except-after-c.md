@@ -8,7 +8,7 @@ dashedName: i-before-e-except-after-c
 
 # --description--
 
-**<a href="http://www.rosettacode.org/wiki/I_before_E_except_after_C" target="_blank" rel="noopener noreferrer nofollow">"I before E, except after C"</a>** is a general rule for English language spelling. このルールは、ある単語が二重字 `ei` と `ie` のどちらでつづられているかわからない場合、正しい順序は `ie` であるが、前の文字が `c` の場合は `ei` となる場合がある、ということを示しています。
+**<a href="http://www.rosettacode.org/wiki/I_before_E_except_after_C" target="_blank" rel="noopener noreferrer nofollow">"I before E, except after C"</a>** は英語のスペルの一般的なルールです。 このルールは、ある単語が二重字 `ei` と `ie` のどちらでつづられているかわからない場合、正しい順序は `ie` であるが、前の文字が `c` の場合は `ei` となる場合がある、ということを示しています。
 
 与えられた単語を使用して、フレーズの2つの従属節がそれぞれ妥当かどうかを確認します。
 

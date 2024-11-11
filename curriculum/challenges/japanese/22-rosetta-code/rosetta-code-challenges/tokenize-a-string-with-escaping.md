@@ -13,7 +13,7 @@ dashedName: tokenize-a-string-with-escaping
 次の 3 つの入力パラメータを受け取る必要があります:
 
 <ul>
-  <li>The <strong>string</strong></li>
+  <li><strong>文字列</strong></li>
   <li><strong>区切り文字</strong></li>
   <li><strong>エスケープ文字</strong></li>
 </ul>
@@ -72,7 +72,7 @@ assert.deepEqual(tokenize(testStr1, '|', '^'), res1);
 assert.deepEqual(tokenize(testStr2, '&', '@'), res2);
 ```
 
-`tokenize('hello^|world|how^are^you^|', '|', '^')` should return `['hello|world', 'howareyou|']`
+`tokenize('hello^|world|how^are^you^|', '|', '^')` は `['hello|world', 'howareyou|']` を返す必要があります。
 
 ```js
 assert.deepEqual(tokenize(testStr3, '|', '^'), res3);

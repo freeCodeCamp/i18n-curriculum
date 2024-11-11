@@ -12,7 +12,7 @@ dashedName: convolutional-neural-networks
 
 # --description--
 
-The next few video lessons will reference [this Colab notebook](https://colab.research.google.com/drive/1ZZXnCjFEOkp_KdNcNabd14yok0BAIuwS#forceEdit=true&sandboxMode=true).
+ここからの動画レッスンでは[こちらの Colab ノートブック](https://colab.research.google.com/drive/1ZZXnCjFEOkp_KdNcNabd14yok0BAIuwS#forceEdit=true&sandboxMode=true)を参照します。
 
 # --questions--
 

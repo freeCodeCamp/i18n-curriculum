@@ -21,7 +21,7 @@ dashedName: self-describing-numbers
     <li> 3 の位置の値は 0 で、この数字内には 3 がありません。 </li>
 </ul>
 
-Self-describing numbers &lt; 100,000,000 are: 1210, 2020, 21200, 3211000, 42101000.
+100000000 より小さい自己記述数は、1210, 2020, 21200, 3211000, 42100000 です。
 
 # --instructions--
 

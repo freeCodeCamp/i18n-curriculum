@@ -8,12 +8,12 @@ dashedName: averagespythagorean-means
 
 # --description--
 
-Compute all three of the <a href="https://en.wikipedia.org/wiki/Pythagorean_means" target="_blank" rel="noopener noreferrer nofollow">Pythagorean means</a> of the set of integers $1$ through $10$ (inclusive).
+$1$ から $10$ を含む整数の集合における全部で 3 つの<a href="https://en.wikipedia.org/wiki/Pythagorean_means" target="_blank" rel="noopener noreferrer nofollow">ピタゴラス平均</a>を計算します。
 
 正の整数の集合において、$A(x_1,\\ldots,x_n) \\geq G(x_1,\\ldots,x_n) \\geq H(x_1,\\ldots,x_n)$ を示します。
 
 <ul>
-  <li>The most common of the three means, the <a class='rosetta__link--rosetta' href='https://rosettacode.org/wiki/Averages/Arithmetic mean' title='Averages/Arithmetic mean' target='_blank'>arithmetic mean</a>, is the sum of the list divided by its length:<br>
+  <li>3 つの平均の最も一般的なものである <a class='rosetta__link--rosetta' href='https://rosettacode.org/wiki/Averages/Arithmetic mean' title='Averages/Arithmetic mean' target='_blank'>算術平均</a>は、リストの総和をその長さで割ったものです。<br>
   <big>$ A(x_1, \ldots, x_n) = \frac{x_1 + \cdots + x_n}{n}$</big></li>
   <li><a class='rosetta__link--wiki' href='https://en.wikipedia.org/wiki/Geometric mean' title='wp: Geometric mean' target='_blank'>幾何平均</a> は、リストの総乗の $n$乗根です。<br>
   <big>$ G(x_1, \ldots, x_n) = \sqrt[n]{x_1 \cdots x_n} $</big></li>
@@ -23,7 +23,7 @@ Compute all three of the <a href="https://en.wikipedia.org/wiki/Pythagorean_mean
 
 # --instructions--
 
-When writing your function, assume the input is an ordered array of all-inclusive numbers.
+関数を書くときは、入力がすべての包括的数値の規則配列であると想定します。
 
 答えは、以下の形式でオブジェクトを出力してください。
 

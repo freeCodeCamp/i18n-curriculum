@@ -8,7 +8,7 @@ dashedName: symmetric-difference
 
 # --description--
 
-2 つの集合 *A* と *B* について、$(A \\setminus B) \\cup (B \\setminus A)$ を計算します。つまり、*A* または *B* に属しているが、両方共には属していない項目を列挙します。 This set is called the symmetric difference of *A* and *B*. 言い換えれば: $(A \\cup B) \\setminus (A \\cap B)$ となります。(少なくとも *A* または *B* のいずれかに属している項目の集合から *A* と *B* の両方に属している項目の集合を引きます)。
+2 つの集合 *A* と *B* について、$(A \\setminus B) \\cup (B \\setminus A)$ を計算します。つまり、*A* または *B* に属しているが、両方共には属していない項目を列挙します。 このような集合のことを *A* と *B* の対称差と呼びます。 言い換えれば: $(A \\cup B) \\setminus (A \\cap B)$ となります。(少なくとも *A* または *B* のいずれかに属している項目の集合から *A* と *B* の両方に属している項目の集合を引きます)。
 
 例:
 

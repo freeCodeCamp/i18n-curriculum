@@ -10,7 +10,7 @@ dashedName: rock-paper-scissors
 
 このチャレンジでは、じゃんけんするプログラムを作成します。 手をランダムに選択するプログラムの勝率は、通常は 50% になります。 このチャレンジを成功させるには、プログラムで 4 つの異なるボットを相手に試合を行う必要があり、各試合で 60％ 以上の勝率を達成しなければなりません。
 
-You will be <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-rock-paper-scissors/" target="_blank" rel="noopener noreferrer nofollow">working on this project with our Gitpod starter code</a>.
+このプロジェクトは<a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-rock-paper-scissors/" target="_blank" rel="noopener noreferrer nofollow">こちらの Gitpod スターターコード</a>を使用して作業を行います。
 
 機械学習カリキュラム用の対話型教育コンテンツは、現在開発中です。 現在、このチャレンジに合格する方法を学ぶには他の資料を活用する必要があります。
 
@@ -48,7 +48,7 @@ play(player, quincy, 1000, verbose=True)
 
 ## テスト
 
-このプロジェクトの単体テストは `test_module.py` にあります。 すでに `test_module.py` から `main.py` にテストをインポートしてあります。 If you uncomment the last line in `main.py`, the tests will run automatically whenever you run `python main.py` in the console.
+このプロジェクトの単体テストは `test_module.py` にあります。 すでに `test_module.py` から `main.py` にテストをインポートしてあります。 `main.py` の最後の行のコメントを外すと、コンソールで `python main.py` を実行するたび自動的にテストも実行されます。
 
 ## 提出
 

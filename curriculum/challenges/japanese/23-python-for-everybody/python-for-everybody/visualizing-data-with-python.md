@@ -14,7 +14,7 @@ dashedName: visualizing-data-with-python
 
 ## --text--
 
-Most data needs to be ______ before using it.
+ほとんどのデータは使用する前に ______ する必要があります。
 
 ## --answers--
 

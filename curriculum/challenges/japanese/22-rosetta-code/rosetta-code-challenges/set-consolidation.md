@@ -15,7 +15,7 @@ dashedName: set-consolidation
   <li>共通項目がある場合は、2つの入力セットを結合した単一のセット。</li>
 </ul>
 
-Given N sets of items where N > 2 then the result is the same as repeatedly replacing all combinations of two sets by their consolidation until no further consolidation between set pairs is possible. If N &lt; 2 then consolidation has no strict meaning and the input can be returned.
+N > 2 の N 個の項目セット が与えられている場合は、セット間の結合が不可能になるまで、2 つのセットのすべての組み合わせの結合を繰り返すのと同じ結果になります。 N &lt; 2 の場合は、結合には厳密に意味がなく、その入力を返すことになります。
 
 いくつかの例を次に示します。
 

@@ -85,13 +85,13 @@ assert.equal(new Num(3) * new Num(4), 12);
 assert.equal(new Num(3) / new Num(4), 0.75);
 ```
 
-`new Num(3) < new Num(4)` should be true.
+`new Num(3) < new Num(4)` は真となります。
 
 ```js
 assert(new Num(3) < new Num(4));
 ```
 
-`new Num(3) > new Num(4)` should be false.
+`new Num(3) > new Num(4)` は偽となります。
 
 ```js
 assert(!(new Num(3) > new Num(4)));

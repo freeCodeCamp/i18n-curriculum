@@ -15,7 +15,7 @@ dashedName: inherit-styles-from-the-body-element
 
 # --instructions--
 
-First, create an `h1` element with the text `Hello World`.
+まず、`Hello World` というテキストを持つ `h1` 要素を作成します。
 
 次に、`body` 要素のスタイル宣言に `color: green;` を追加して、あなたのページにあるすべての要素の文字色を `green` にしましょう。
 

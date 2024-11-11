@@ -15,7 +15,7 @@ dashedName: state-name-puzzle
 
 Write a function to solve the challenge for a given array of actual U.S. state names, and for fictional state names.
 
-この関数は配列を返す必要があります。 各要素は (`{"from":[],"to":[]}`) という形式のオブジェクトでなければなりません。 The `from` array should contain the original names and the `to` array should contain the resultant names.
+この関数は配列を返す必要があります。 各要素は (`{"from":[],"to":[]}`) という形式のオブジェクトでなければなりません。 `from` 配列には元の名前を含め、`to` 配列には結果として得られる名前を含める必要があります。
 
 # --hints--
 

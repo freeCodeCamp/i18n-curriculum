@@ -8,7 +8,7 @@ dashedName: set-of-real-numbers
 
 # --description--
 
-すべての実数は非可算集合 ℝ を形成します。 Among its subsets, relatively simple are the convex sets, each expressed as a range between two real numbers *a* and *b* where *a* ≤ *b*. 実際には、「区間」の意味は境界の開・閉に応じて、4 つのケースがあります。
+すべての実数は非可算集合 ℝ を形成します。 その部分集合のうち、比較的単純なものが凸集合です。それぞれが実数 *a* と *b* の区間として表されます (*a* ≤ *b*)。 実際には、「区間」の意味は境界の開・閉に応じて、4 つのケースがあります。
 
 <ul>
   <li>[<i>a</i>, <i>b</i>]: {<i>x</i> | <i>a</i> ≤ <i>x</i> and <i>x</i> ≤ <i>b</i> }</li>

@@ -13,7 +13,7 @@ dashedName: iban
 <abbr title="International Bank Account Number">IBAN</abbr> は最長 34 文字の英数字で構成されます:
 
 <ul>
-  <li>first the two-letter <abbr title="International Organization for Standardization">ISO</abbr> 3166-1 alpha-2 country code</li>
+  <li>最初の 2 文字の <abbr title="International Organization for Standardization">ISO</abbr> 3166-1 alpha-2 国コード</li>
   <li>続いて 2 桁のチェックデジット、</li>
   <li>最後に、国ごとの基本銀行口座番号 (BBAN) となっています。</li>
 </ul>

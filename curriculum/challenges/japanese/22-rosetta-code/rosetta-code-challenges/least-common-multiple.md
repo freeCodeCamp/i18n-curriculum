@@ -8,7 +8,7 @@ dashedName: least-common-multiple
 
 # --description--
 
-12 と 18 の最小公倍数は 36 です。なぜなら、12 は倍数 (12×3 = 36) そして 18 は倍数 (18×2=36) を持ち、36 より小さい両方の倍数となる正の整数はないからです。 特殊なケースとして、$m$ または $n$ のどちらかがゼロの場合、最小公倍数はゼロになります。 最小公倍数を計算する 1 つの方法は、$m$ のすべての倍数を、$n$の倍数でもあるものが見つかるまで繰り返すことです。 If you already have $gcd$ for <a href="https://rosettacode.org/wiki/Greatest_common_divisor" target="_blank" rel="noopener noreferrer nofollow">greatest common divisor</a>, then this formula calculates $lcm$.
+12 と 18 の最小公倍数は 36 です。なぜなら、12 は倍数 (12×3 = 36) そして 18 は倍数 (18×2=36) を持ち、36 より小さい両方の倍数となる正の整数はないからです。 特殊なケースとして、$m$ または $n$ のどちらかがゼロの場合、最小公倍数はゼロになります。 最小公倍数を計算する 1 つの方法は、$m$ のすべての倍数を、$n$の倍数でもあるものが見つかるまで繰り返すことです。 すでに<a href="https://rosettacode.org/wiki/Greatest_common_divisor" target="_blank" rel="noopener noreferrer nofollow">最大公約数</a> $gcd$ がわかっている場合は、次の式で $lcm$ を計算します。
 
 $$ \\operatorname{lcm}(m, n) = \\frac{|m \\times n|}{\\operatorname{gcd}(m, n)} $$
 

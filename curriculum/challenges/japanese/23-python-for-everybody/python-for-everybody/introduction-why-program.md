@@ -34,7 +34,7 @@ dashedName: introduction-why-program
 
 ### --feedback--
 
-College students should learn to program, but there's a better answer.
+もちろん大学生もプログラミングを学ぶべきですが、他にもっと適切な答えがあります。
 
 ---
 
@@ -42,7 +42,7 @@ College students should learn to program, but there's a better answer.
 
 ### --feedback--
 
-People who want to become software developers should learn to program, but there's a better answer.
+もちろんソフトウェア開発者になりたい人もプログラミングを学ぶべきですが、他にもっと適切な答えがあります。
 
 ---
 

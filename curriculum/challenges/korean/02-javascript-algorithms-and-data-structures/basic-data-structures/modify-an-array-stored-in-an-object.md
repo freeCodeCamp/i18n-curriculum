@@ -8,7 +8,7 @@ dashedName: modify-an-array-stored-in-an-object
 
 # --description--
 
-Now you've seen all the basic operations for JavaScript objects. You can add, modify, and remove key-value pairs, check if keys exist, and iterate over all the keys in an object. As you continue learning JavaScript you will see even more versatile applications of objects. Additionally, the Data Structures lessons located in the Coding Interview Prep section of the curriculum also cover the ES6 <dfn>Map</dfn> and <dfn>Set</dfn> objects, both of which are similar to ordinary objects but provide some additional features. Now that you've learned the basics of arrays and objects, you're fully prepared to begin tackling more complex problems using JavaScript!
+이제 자바스크립트 객체에 대한 모든 연산 종류들을 살펴보았습니다. 이제 여러분은 키-값 쌍을 추가, 수정, 삭제, 혹은 어떤 키가 존재하는지 확인하거나, 객체에 담긴 모든 키를 순회할 수 있습니다. 자바스크립트를 계속 학습하다 보면, 객체를 훨씬 더 다양한 용도로 사용하는 것을 볼 수 있을 것입니다. 또한, 커리큘럼의 코딩 인터뷰 준비 섹션에 있는 데이터 구조 레슨에서는 ES6의 <dfn>Map</dfn>과 <dfn>Set</dfn> 객체들도 다룹니다. 이들은 기본적인 객체와 비슷하지만 약간의 부가적인 기능들이 더 있습니다. 이제 여러분은 배열과 객체의 기본을 배웠으므로, 자바스크립트를 사용하여 더 복잡한 문제들을 해결할 준비가 되었습니다!
 
 # --instructions--
 

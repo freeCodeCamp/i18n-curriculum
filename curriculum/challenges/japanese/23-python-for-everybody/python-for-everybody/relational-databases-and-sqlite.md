@@ -14,11 +14,11 @@ dashedName: relational-databases-and-sqlite
 
 その他のリソース:
 
-\- <a href="https://www.sqlite.org/download.html" target="_blank" rel="noopener noreferrer nofollow">Download SQLite</a>
+\- <a href="https://www.sqlite.org/download.html" target="_blank" rel="noopener noreferrer nofollow">SQLite のダウンロード</a>
 
-\- <a href="https://sqlitebrowser.org/dl/" target="_blank" rel="noopener noreferrer nofollow">Download DB Browser for SQLite</a>
+\- <a href="https://sqlitebrowser.org/dl/" target="_blank" rel="noopener noreferrer nofollow">DB Browser for SQLite のダウンロード</a>
 
-\- <a href="https://www.sqlite.org/famous.html" target="_blank" rel="noopener noreferrer nofollow">SQLite usage</a>
+\- <a href="https://www.sqlite.org/famous.html" target="_blank" rel="noopener noreferrer nofollow">SQLite の利用事例</a>
 
 # --questions--
 

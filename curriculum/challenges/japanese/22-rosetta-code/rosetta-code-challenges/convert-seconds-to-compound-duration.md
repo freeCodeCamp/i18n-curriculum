@@ -28,9 +28,9 @@ dashedName: convert-seconds-to-compound-duration
 <div style="font-size:115%; font-weight: bold;">詳細</div>
 <ul>
   <li>
-    The following five units should be used:
+    以下の5つの単位を使用する必要があります。
 
-| Unit   | Suffix used in Output | Conversion            |
+| 単位   | アウトプットで使用される接尾辞 | 換算            |
 | ------ | --------------------- | --------------------- |
 | week   | <code>wk</code>       | 1 week = 7 days       |
 | day    | <code>d</code>        | 1 day = 24 hours      |

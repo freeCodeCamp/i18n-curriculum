@@ -15,9 +15,9 @@ JavaScript の新バージョンでは、前回のチャレンジで手書きし
 - `.set(key, value)` は新しいキーと値のペアを設定します。
 - `.delete(key)` はキーと値のペアを削除します。
 - `.clear()` はキーと値のペアをすべて削除します。
-- `.keys()` returns a new map iterator object that contains all the keys in insertion order
-- `.values()` returns a new map iterator object that contains all the values in insertion order
-- `.entries()` returns a new map iterator object that contains all the key, value pairs in insertion order
+- `.keys()` はすべてのキーを挿入順に並べた新しい Map イテレーターオブジェクトを返します。
+- `.values()` はすべての値を挿入順に並べた新しい Map イテレーターオブジェクトを返します。
+- `.entries()` はすべてのキーと値のペアを挿入順に並べた新しい Map イテレーターオブジェクトを返します。
 
 # --instructions--
 
