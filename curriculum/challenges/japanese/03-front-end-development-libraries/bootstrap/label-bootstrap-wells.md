@@ -10,9 +10,9 @@ dashedName: label-bootstrap-wells
 
 両方のウェルに、対応する id のラベルを付けて、わかりやすくしましょう。
 
-Above your left-well, inside its `col-xs-6` `div` element, add an `h4` element with the text `#left-well`.
+左側のウェルの上で、その `col-xs-6` `div` 要素の内側に、テキスト `#left-well` を持つ `h4` 要素を追加してください。
 
-Above your right-well, inside its `col-xs-6` `div` element, add an `h4` element with the text `#right-well`.
+右側のウェルの上で、その `col-xs-6` `div` 要素の内側に、テキスト `#right-well` を持つ `h4` 要素を追加してください。
 
 # --hints--
 

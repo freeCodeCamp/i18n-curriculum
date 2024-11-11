@@ -8,7 +8,7 @@ dashedName: general-fizzbuzz
 
 # --description--
 
-Write a generalized version of <a href="https://rosettacode.org/wiki/FizzBuzz" target="_blank" rel="noopener noreferrer nofollow">FizzBuzz</a> that works for any list of factors, along with their words.
+<a href="https://rosettacode.org/wiki/FizzBuzz" target="_blank" rel="noopener noreferrer nofollow">FizzBuzz</a> プログラムを、任意の倍数と単語のリストに対して動作するよう一般化したバージョンを記述します。
 
 これは基本的に、このゲームのルールをユーザーに提供する "fizzbuzz" 実装です。 これを実装する関数を作成します。 この関数は 2 つのパラメーターを取得する必要があります。
 

@@ -8,7 +8,7 @@ dashedName: euler-method
 
 # --description--
 
-オイラー法は、所定の初期値を持つ 1 階の常微分方程式 (ODE) の解における近似値を求めます。 It is an explicit method for solving initial value problems (IVPs), as described in <a href="https://www.freecodecamp.org/news/eulers-method-explained-with-examples/" title="Euler's Method Explained with Examples" target="_blank" rel="noopener noreferrer nofollow">this article</a>.
+オイラー法は、所定の初期値を持つ 1 階の常微分方程式 (ODE) の解における近似値を求めます。 <a href="https://www.freecodecamp.org/news/eulers-method-explained-with-examples/" title="Euler's Method Explained with Examples" target="_blank" rel="noopener noreferrer nofollow">こちらの記事</a>で論説されているように、初期値の問題 (IVP) を解くための明示的な方法です。
 
 ODEは以下の形式で書きます。
 

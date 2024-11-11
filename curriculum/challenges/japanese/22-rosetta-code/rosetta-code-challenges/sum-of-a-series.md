@@ -8,7 +8,7 @@ dashedName: sum-of-a-series
 
 # --description--
 
-Compute the **n**<sup>th</sup> term of a <em>series</em>, i.e. the sum of the **n** first terms of the corresponding <em>sequence</em>. この値、または**n**が無限となる傾向がある場合の極限を、非公式に、*級数の和*とも呼ぶため、このタスクのタイトルにしています。 このタスクでは以下を使用します: $S_n = \displaystyle\sum_{k=1}^n \frac{1}{k^2}$
+<em>級数</em>の第 **n** 項までの和、つまり対応する<em>数列</em>の最初の **n** 項の和を計算します。 この値、または**n**が無限となる傾向がある場合の極限を、非公式に、*級数の和*とも呼ぶため、このタスクのタイトルにしています。 このタスクでは以下を使用します: $S_n = \displaystyle\sum_{k=1}^n \frac{1}{k^2}$
 
 # --instructions--
 

@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 ```
 
-`DOMContentLoaded` 関数の中に入るイベントハンドラを実装できます。 You can implement an `onclick` event handler which triggers when the user clicks on the `#getMessage` element, by adding the following code:
+`DOMContentLoaded` 関数の中に入るイベントハンドラを実装できます。 `#getMessage` の要素をユーザーがクリックしたときにトリガーされる `onclick` イベントハンドラを実装するには、次のコードを追加します。
 
 ```js
 document.getElementById('getMessage').onclick = function(){};
@@ -28,7 +28,7 @@ document.getElementById('getMessage').onclick = function(){};
 
 # --hints--
 
-Your code should use the `document.getElementById` method to select the element whose id is `getMessage`.
+`document.getElementById` メソッドを使用して、id が `getMessage` の要素を選択する必要があります。
 
 ```js
 assert(code.match(/document\s*\.getElementById\(\s*?('|")getMessage\1\s*?\)/g));

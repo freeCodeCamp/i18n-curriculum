@@ -8,7 +8,7 @@ dashedName: sorting-algorithmscocktail-sort
 
 # --description--
 
-The <a href="https://rosettacode.org/wiki/Sorting_algorithms/Cocktail_sort" target="_blank" rel="noopener noreferrer nofollow">cocktail sort</a> is an improvement on the Bubble Sort. カクテルソートでは、与えられた数値配列について、先頭から末尾まで横断し、最大の数値を末尾に移動します。 次に、配列を逆行して、最小の数値を先頭に移動します。 これら 2 つのパスを繰り返して、次の最大 / 最小の数を配列内の正しい位置に移動し、それをソートされるまで繰り返します。
+<a href="https://rosettacode.org/wiki/Sorting_algorithms/Cocktail_sort" target="_blank" rel="noopener noreferrer nofollow">カクテルシェーカーソート</a>は、バブルソートの改良版です。 カクテルソートでは、与えられた数値配列について、先頭から末尾まで横断し、最大の数値を末尾に移動します。 次に、配列を逆行して、最小の数値を先頭に移動します。 これら 2 つのパスを繰り返して、次の最大 / 最小の数を配列内の正しい位置に移動し、それをソートされるまで繰り返します。
 
 # --instructions--
 

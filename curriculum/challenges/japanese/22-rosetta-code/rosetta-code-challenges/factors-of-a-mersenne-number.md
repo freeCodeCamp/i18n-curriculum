@@ -50,7 +50,7 @@ square        top bit  multiply by 2  mod 47
 
 最後に、潜在的因数 `q` は<a href="https://rosettacode.org/wiki/Primality_by_trial_division" target="_blank" rel="noopener noreferrer nofollow">素数</a>でなければなりません。
 
-As in other trial division algorithms, the algorithm stops when `2kP+1 > sqrt(N)`.These primarily tests only work on Mersenne numbers where `P` is prime. 例えば、<code>M<sub>4</sub>=15</code> はこれらの手法で因数を生成しません。3 と 5 を考えると、いずれも `2kP+1` に適合しません。
+他の試行徐算アルゴリズムと同様に、アルゴリズムは `2kP+1 > sqrt(N)`となった場合に停止します。これらのテストは、`P` が素数である場合に、メルセンヌ数に対してのみ働きます。 例えば、<code>M<sub>4</sub>=15</code> はこれらの手法で因数を生成しません。3 と 5 を考えると、いずれも `2kP+1` に適合しません。
 
 # --instructions--
 

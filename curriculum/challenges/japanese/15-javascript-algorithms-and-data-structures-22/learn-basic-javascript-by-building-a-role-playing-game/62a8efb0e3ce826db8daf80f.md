@@ -7,17 +7,17 @@ dashedName: step-133
 
 # --description--
 
-Finish the `defeatMonster` function by calling the `update` function with `locations[4]` as the argument.
+関数 `defeatMonster` を完成させるために、`update` 関数に引数として `locations[4]` を渡して呼び出してください。
 
 # --hints--
 
-You should call the `update` function.
+関数 `update` を呼び出してください。
 
 ```js
 assert.match(defeatMonster.toString(), /update/);
 ```
 
-You should pass `locations[4]` as the argument.
+`locations[4]` を引数として渡してください。
 
 ```js
 assert.match(defeatMonster.toString(), /update\(\s*locations\s*\[\s*4\s*\]\s*\)/);

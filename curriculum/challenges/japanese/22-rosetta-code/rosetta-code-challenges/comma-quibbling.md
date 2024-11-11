@@ -8,7 +8,7 @@ dashedName: comma-quibbling
 
 # --description--
 
-<a href="https://rosettacode.org/wiki/Comma_quibbling" target="_blank" rel="noopener noreferrer nofollow">Comma quibbling</a> is a task originally set by Eric Lippert in his blog.
+<a href="https://rosettacode.org/wiki/Comma_quibbling" target="_blank" rel="noopener noreferrer nofollow">カンマキブリング</a>はもともとエリック・リッパートが彼のブログで提示したタスクです。
 
 # --instructions--
 
