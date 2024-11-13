@@ -7,7 +7,7 @@ dashedName: dialogue-meeting-a-client
 
 # --description--
 
-Assista ao vídeo para entender o contexto das próximas lições.
+Watch the video below to understand the context of the upcoming lessons.
 
 # --assignment--
 
