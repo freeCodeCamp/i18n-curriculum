@@ -13,7 +13,7 @@ Para subrayar texto, puedes usar la etiqueta `u`. Esto se utiliza a menudo para 
 
 # --instructions--
 
-Envuelve la etiqueta `u` solo alrededor del texto `Ph.D. students `.
+Wrap the `u` tag only around the text `Ph.D. students`.
 
 **Nota:** Trata de evitar el uso de la etiqueta `u`, ya que podría confundirse con un enlace. Las etiquetas de enlaces tienen un formato subrayado por defecto.
 
@@ -25,7 +25,7 @@ Tu código debe agregar una etiqueta `u` al lenguaje de marcado.
 assert.lengthOf(document.querySelectorAll('u'), 1);
 ```
 
-Envuelve la etiqueta `u` solo alrededor del texto `Ph.D. students` </code>.
+The `u` tag should wrap around the text `Ph.D. students`.
 
 ```js
 assert.equal(document.querySelector('u')?.textContent , 'Ph.D. students');
