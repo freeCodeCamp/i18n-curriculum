@@ -1,6 +1,6 @@
 ---
 id: 5c3dda8b4d8df89bea71600f
-title: Check For Mixed Grouping of Characters
+title: 문자 혼합 그룹 확인
 challengeType: 1
 forumTopicId: 301339
 dashedName: check-for-mixed-grouping-of-characters
@@ -8,11 +8,11 @@ dashedName: check-for-mixed-grouping-of-characters
 
 # --description--
 
-Sometimes we want to check for groups of characters using a Regular Expression and to achieve that we use parentheses `()`.
+때때로 우리는 정규 표현식을 사용하여 문자 그룹을 확인하고 이를 달성하기 위해 괄호 `()`를 사용합니다.
 
-If you want to find either `Penguin` or `Pumpkin` in a string, you can use the following Regular Expression: `/P(engu|umpk)in/g`
+문자열에서 `Penguin` 또는 `Pumpkin`을 찾고 싶다면 다음 정규 표현식을 사용할 수 있습니다: `/P(engu|umpk)in/g`
 
-Then check whether the desired string groups are in the test string by using the `test()` method.
+그런 다음 `test()` 메서드를 사용하여 원하는 문자열 그룹이 테스트 문자열에 있는지 여부를 확인하십시오.
 
 ```js
 let testStr = "Pumpkin";
@@ -20,65 +20,65 @@ let testRegex = /P(engu|umpk)in/;
 testRegex.test(testStr);
 ```
 
-The `test` method here would return `true`.
+여기에서는 `test` 메서드가 `true`를 반환합니다.
 
 # --instructions--
 
-Fix the regex so that it checks for the names of `Franklin Roosevelt` or `Eleanor Roosevelt` in a case sensitive manner and it should make concessions for middle names.
+정규 표현식을 수정하여 `Franklin Roosevelt` 또는 `Eleanor Roosevelt`의 이름을 대소문자 구분 방식으로 확인하고 중간 이름에 대한 유연성을 부여하도록 만드십시오.
 
-Then fix the code so that the regex that you have created is checked against `myString` and either `true` or `false` is returned depending on whether the regex matches.
+그런 다음 코드도 수정하여 생성한 정규 표현식이 `myString`과 비교되어 정규 표현식이 일치하는지에 따라 `true` 또는 `false`가 반환되도록 하십시오.
 
 # --hints--
 
-Your regex `myRegex` should return `true` for the string `Franklin D. Roosevelt`
+정규 표현식 `myRegex`는 문자열 `Franklin D. Roosevelt`에 대해 `true`를 반환해야 합니다.
 
 ```js
 myRegex.lastIndex = 0;
 assert(myRegex.test('Franklin D. Roosevelt'));
 ```
 
-Your regex `myRegex` should return `true` for the string `Eleanor Roosevelt`
+정규 표현식 `myRegex`는 문자열 `Eleanor Roosevelt`에 대해 `true`를 반환해야 합니다.
 
 ```js
 myRegex.lastIndex = 0;
 assert(myRegex.test('Eleanor Roosevelt'));
 ```
 
-Your regex `myRegex` should return `false` for the string `Franklin Rosevelt`
+정규 표현식 `myRegex`는 문자열 `Franklin Rosevelt`에 대해 `false`를 반환해야 합니다.
 
 ```js
 myRegex.lastIndex = 0;
 assert(!myRegex.test('Franklin Rosevelt'));
 ```
 
-Your regex `myRegex` should return `false` for the string `Frank Roosevelt`
+정규 표현식 `myRegex`는 문자열 `Frank Roosevelt`에 대해 `false`를 반환해야 합니다.
 
 ```js
 myRegex.lastIndex = 0;
 assert(!myRegex.test('Frank Roosevelt'));
 ```
 
-Your regex `myRegex` should return `false` for the string `FranklinRoosevelt`
+정규 표현식 `myRegex`는 문자열 `FranklinRoosevelt`에 대해 `false`를 반환해야 합니다.
 
 ```js
 myRegex.lastIndex = 0;
 assert(!myRegex.test('FranklinRoosevelt'));
 ```
 
-Your regex `myRegex` should return `false` for the string `EleanorRoosevelt`
+정규 표현식 `myRegex`는 문자열 `EleanorRoosevelt`에 대해 `false`를 반환해야 합니다.
 
 ```js
 myRegex.lastIndex = 0;
 assert(!myRegex.test('EleanorRoosevelt'));
 ```
 
-You should use `.test()` to test the regex.
+정규 표현식을 테스트하려면 `.test()`를 사용해야 합니다.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/myRegex.test\(\s*myString\s*\)/));
 ```
 
-Your result should return `true`.
+결과는 `true`를 반환해야 합니다.
 
 ```js
 assert(result === true);

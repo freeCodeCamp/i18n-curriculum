@@ -1,6 +1,6 @@
 ---
 id: a5deed1811a43193f9f1c841
-title: Drop it
+title: 드롭하세요
 challengeType: 1
 forumTopicId: 16010
 dashedName: drop-it
@@ -8,13 +8,13 @@ dashedName: drop-it
 
 # --description--
 
-Given the array `arr`, iterate through and remove each element starting from the first element (the 0 index) until the function `func` returns `true` when the iterated element is passed through it.
+배열 `arr`이 주어졌을 때, `func` 함수가 반복되는 요소를 통해 전달되어 `true`를 반환할 때까지 첫 번째 요소(0번 인덱스)부터 시작하여 각 요소를 반복하면서 제거하세요.
 
-Then return the rest of the array once the condition is satisfied, otherwise, `arr` should be returned as an empty array.
+그런 다음 조건이 만족되면 나머지 배열을 반환하고, 그렇지 않으면 `arr`는 빈 배열로 반환됩니다.
 
 # --hints--
 
-`dropElements([1, 2, 3, 4], function(n) {return n >= 3;})` should return `[3, 4]`.
+`dropElements([1, 2, 3, 4], function(n) {return n >= 3;})`는 `[3, 4]`을 반환해야 합니다.
 
 ```js
 assert.deepEqual(
@@ -25,7 +25,7 @@ assert.deepEqual(
 );
 ```
 
-`dropElements([0, 1, 0, 1], function(n) {return n === 1;})` should return `[1, 0, 1]`.
+`dropElements([0, 1, 0, 1], function(n) {return n === 1;})`는 `[1, 0, 1]`을 반환해야 합니다.
 
 ```js
 assert.deepEqual(
@@ -36,7 +36,7 @@ assert.deepEqual(
 );
 ```
 
-`dropElements([1, 2, 3], function(n) {return n > 0;})` should return `[1, 2, 3]`.
+`dropElements([1, 2, 3], function(n) {return n > 0;})`는 `[1, 2, 3]`을 반환해야 합니다.
 
 ```js
 assert.deepEqual(
@@ -47,7 +47,7 @@ assert.deepEqual(
 );
 ```
 
-`dropElements([1, 2, 3, 4], function(n) {return n > 5;})` should return `[]`.
+`dropElements([1, 2, 3, 4], function(n) {return n > 5;})`는 `[]`을 반환해야 합니다.
 
 ```js
 assert.deepEqual(
@@ -58,7 +58,7 @@ assert.deepEqual(
 );
 ```
 
-`dropElements([1, 2, 3, 7, 4], function(n) {return n > 3;})` should return `[7, 4]`.
+`dropElements([1, 2, 3, 7, 4], function(n) {return n > 3;})`는 `[7, 4]`을 반환해야 합니다.
 
 ```js
 assert.deepEqual(
@@ -69,7 +69,7 @@ assert.deepEqual(
 );
 ```
 
-`dropElements([1, 2, 3, 9, 2], function(n) {return n > 2;})` should return `[3, 9, 2]`.
+`dropElements([1, 2, 3, 9, 2], function(n) {return n > 2;})`는 `[3, 9, 2]`을 반환해야 합니다.
 
 ```js
 assert.deepEqual(

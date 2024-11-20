@@ -9,7 +9,7 @@ dashedName: return-early-pattern-for-functions
 
 # --description--
 
-When a `return` statement is reached, the execution of the current function stops and control returns to the calling location.
+`return`문에 도달했을 때 현재 함수 실행은 멈추고 호출하는 위치에서 반환값을 제어합니다.
 
 **예)**
 
@@ -50,7 +50,7 @@ assert(abTest(2, 2) === 8);
 assert(abTest(-2, 2) === undefined);
 ```
 
-`abTest(2, -2)` should return `undefined`
+`abTest(2, -2)`은 `undefined`을 반환해야 합니다
 
 ```js
 assert(abTest(2, -2) === undefined);

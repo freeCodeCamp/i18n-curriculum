@@ -17,7 +17,7 @@ Dovresti assegnare alla classe dell'elemento `p` il valore `established`.
 assert.match(code,/<p class=('|")established\1>/i);
 ```
 
-La tua classe `established` dovrebbe essere sull'elemento con il testo `Est. 2020` testo.
+Your `established` class should be on the element with the text `Est. 2020`.
 
 ```js
 assert.match(document.querySelector('.established')?.innerText, /Est\.\s2020/i);

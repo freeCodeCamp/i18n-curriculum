@@ -14,7 +14,7 @@ Si el número entero es representado con la letra `n`, un factorial es el produc
 
 Los factoriales suelen representarse con la abreviatura `n!`
 
-Por ejemplo: `5! = 1 * 2 * 3 * 4 * 5 = 120`
+For example: `5! = 1 * 2 * 3 * 4 * 5 = 120`
 
 Sólo se proporcionarán a la función los enteros mayores o iguales a cero.
 
