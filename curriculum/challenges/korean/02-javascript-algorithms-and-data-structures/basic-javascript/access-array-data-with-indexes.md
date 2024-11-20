@@ -1,6 +1,6 @@
 ---
 id: 56bbb991ad1ed5201cd392ca
-title: 인덱스로 배열의 데이터에 접촉하기
+title: 인덱스로 배열의 데이터에 접근하기
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cBZQbTz'
 forumTopicId: 16158
@@ -9,7 +9,7 @@ dashedName: access-array-data-with-indexes
 
 # --description--
 
-We can access the data inside arrays using <dfn>indexes</dfn>.
+우리는 <dfn>인덱스</dfn>를 사용해서 배열 내의 데이터에 접근하는 것도 가능합니다.
 
 배열 인덱스는 문자열에서 사용하는 것과 동일하게 브라켓 표기법으로 작성합니다. 다른 점은 문자 대신에 배열 내에 있는 데이터를 순서로 지정한다는 점입니다. 문자열과 동일하게, 배열에서도 <dfn>0부터 시작</dfn>하는 인덱스를 사용하기 때문에, 배열 최초 요소의 인덱스는 `0`이 됩니다.
 

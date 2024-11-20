@@ -14,7 +14,7 @@ Se l'intero è rappresentato con la lettera `n`, un fattoriale è il prodotto di
 
 I fattoriali sono spesso rappresentati con la notazione abbreviata `n!`
 
-Per esempio: `5! = 1 * 2 * 3 * 4 * 5 = 120`
+For example: `5! = 1 * 2 * 3 * 4 * 5 = 120`
 
 Verranno passati alla funzione solo interi maggiori o uguali a zero.
 

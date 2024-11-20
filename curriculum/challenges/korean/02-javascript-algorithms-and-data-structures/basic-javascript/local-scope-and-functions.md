@@ -9,7 +9,7 @@ dashedName: local-scope-and-functions
 
 # --description--
 
-Variables which are declared within a function, as well as the function parameters, have <dfn>local</dfn> scope. That means they are only visible within that function.
+함수 내에 선언되는 변수나 함수의 파라미터는 <dfn>지역(local)</dfn> 스코프라고 합니다. 이 의미는 그 함수 내에서만 해당 변수를 확인할 수 있다는 것입니다.
 
 여기에 `loc`이라는 로컬 변수를 가지는 함수 `myTest`가 있습니다.
 

@@ -8,7 +8,7 @@ dashedName: check-for-all-or-none
 
 # --description--
 
-Sometimes the patterns you want to search for may have parts of it that may or may not exist. However, it may be important to check for them nonetheless.
+내가 찾고자 하는 패턴에 어떤 일정 부분이 있을 수도 있고 없을 수도 있습니다. 그럼에도 확인을 하는 것이 중요할 수 있습니다.
 
 물음표 `?`를 사용하여 요소의 존재 가능성을 지정할 수 있습니다. 이것은 이전 요소의 0 또는 1의 존재를 확인합니다. 이 기호를 이전 요소는 선택적이라고 말하는 것으로 생각할 수 있습니다.
 

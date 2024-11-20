@@ -1,6 +1,6 @@
 ---
 id: 56533eb9ac21ba0edf2244ca
-title: Using Objects for Lookups
+title: 객체를 사용한 조회하기
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/cdBk8sM'
 forumTopicId: 18373
@@ -9,9 +9,9 @@ dashedName: using-objects-for-lookups
 
 # --description--
 
-Objects can be thought of as a key/value storage, like a dictionary. If you have tabular data, you can use an object to lookup values rather than a `switch` statement or an `if/else` chain. This is most useful when you know that your input data is limited to a certain range.
+객체는 사전처럼 키와 값의 저장소로 생각할 수 있습니다. 테이블 형태의 데이터를 가지고 있다면 값을 조회하기 위해 `switch` 문이나 `if/else` 문을 사용하기보단 객체를 사용할 수 있습니다. 이는 입력 데이터가 특정 범위에 제한되어 있다는 것을 알 때 가장 유용합니다.
 
-Here is an example of an article object:
+여기 글 객체에 대한 예시가 있습니다:
 
 ```js
 const article = {
@@ -30,63 +30,63 @@ const value = "title";
 const valueLookup = article[value];
 ```
 
-`articleAuthor` is the string `Kaashan Hussain`, `articleLink` is the string `https://www.freecodecamp.org/news/a-complete-guide-to-creating-objects-in-javascript-b0e2450655e8/`, and `valueLookup` is the string `How to create objects in JavaScript`.
+`articleAuthor`는 문자열 `Kaashan Hussain`이며, `articleLink`는 문자열 `https://www.freecodecamp.org/news/a-complete-guide-to-creating-objects-in-javascript-b0e2450655e8/`이고, `valueLookup`는 문자열 `How to create objects in JavaScript`입니다.
 
 # --instructions--
 
-Convert the switch statement into an object called `lookup`. Use it to look up `val` and assign the associated string to the `result` variable.
+switch 문을 `lookup`이라는 객체로 변환하시오. `val` 을 찾고 연관된 문자열을 `result`에 할당하도록 해당 객체를 사용하시오.
 
 # --hints--
 
-`phoneticLookup("alpha")` should equal the string `Adams`
+`phoneticLookup("alpha")`은 문자열 `Adams`과 같아야 합니다
 
 ```js
 assert(phoneticLookup('alpha') === 'Adams');
 ```
 
-`phoneticLookup("bravo")` should equal the string `Boston`
+`phoneticLookup("bravo")`은 문자열 `Boston`과 같아야 합니다
 
 ```js
 assert(phoneticLookup('bravo') === 'Boston');
 ```
 
-`phoneticLookup("charlie")` should equal the string `Chicago`
+`phoneticLookup("charlie")`은 문자열 `Chicago`과 같아야 합니다
 
 ```js
 assert(phoneticLookup('charlie') === 'Chicago');
 ```
 
-`phoneticLookup("delta")` should equal the string `Denver`
+`phoneticLookup("delta")`은 문자열 `Denver`과 같아야 합니다.
 
 ```js
 assert(phoneticLookup('delta') === 'Denver');
 ```
 
-`phoneticLookup("echo")` should equal the string `Easy`
+`phoneticLookup("echo")`은 문자열 `Easy`과 같아야 합니다
 
 ```js
 assert(phoneticLookup('echo') === 'Easy');
 ```
 
-`phoneticLookup("foxtrot")` should equal the string `Frank`
+`phoneticLookup("foxtrot")`은 문자열 `Frank`과 같아야 합니다
 
 ```js
 assert(phoneticLookup('foxtrot') === 'Frank');
 ```
 
-`phoneticLookup("")` should equal `undefined`
+`phoneticLookup("")`은 `undefined`과 같아야 합니다
 
 ```js
 assert(typeof phoneticLookup('') === 'undefined');
 ```
 
-You should not modify the `return` statement
+`return`문을 수정하지 않아야 합니다
 
 ```js
 assert(__helpers.removeJSComments(code).match(/return\sresult;/));
 ```
 
-You should not use `case`, `switch`, or `if` statements
+`case`, `switch`, 혹은 `if`문을 사용하지 않아야 합니다.
 
 ```js
 assert(

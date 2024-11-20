@@ -8,7 +8,7 @@ dashedName: explore-differences-between-the-var-and-let-keywords
 
 # --description--
 
-One of the biggest problems with declaring variables with the `var` keyword is that you can easily overwrite variable declarations:
+`var` 키워드에 관한 변수 선언의 가장 큰 문제의 하나는, 간단히 변수 선언을 덮어쓰기 할 수 있다는 점입니다.
 
 ```js
 var camper = "James";

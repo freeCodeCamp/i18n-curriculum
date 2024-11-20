@@ -9,7 +9,7 @@ dashedName: accessing-object-properties-with-variables
 
 # --description--
 
-Another use of bracket notation on objects is to access a property which is stored as the value of a variable. This can be very useful for iterating through an object's properties or when accessing a lookup table.
+객체에서 대괄호 표기법을 사용하는 또 다른 방법은 변수의 값으로 저장된 속성에 접근하는 것입니다. 이는 객체의 속성을 반복하거나 룩업 테이블에 접근할 때 매우 유용할 수 있습니다.
 
 여기 속성에 접근하기 위해 변수를 사용하는 예시입니다:
 

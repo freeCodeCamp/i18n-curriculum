@@ -1,6 +1,6 @@
 ---
 id: 56533eb9ac21ba0edf2244de
-title: Adding a Default Option in Switch Statements
+title: Switch문에 기본값 옵션 추가하기
 challengeType: 1
 videoUrl: 'https://scrimba.com/c/c3JvVfg'
 forumTopicId: 16653
@@ -9,9 +9,9 @@ dashedName: adding-a-default-option-in-switch-statements
 
 # --description--
 
-In a `switch` statement you may not be able to specify all possible values as `case` statements. Instead, you can add the `default` statement which will be executed if no matching `case` statements are found. Think of it like the final `else` statement in an `if/else` chain.
+`switch`문을 사용할 때, 가능한 모든 값들을 `case`문으로 정의하는 것이 불가능할 지도 모릅니다. 대신, 주어진 값에 해당하는 `case`문이 존재하지 않을 때 실행되는 `default`문을 사용할 수 있습니다. 이는 `if/else`문에서의 마지막 `else`문과 비슷하게 적용됩니다.
 
-A `default` statement should be the last case.
+`default`문은 반드시 마지막에 위치해야 합니다.
 
 ```js
 switch (num) {
@@ -30,39 +30,38 @@ switch (num) {
 
 # --instructions--
 
-Write a switch statement to set `answer` for the following conditions:  
-`a` - `apple`  
+주어진 조건들에 따라 `answer`를 설정하는 switch문을 작성해보세요: `a` - `apple`  
 `b` - `bird`  
 `c` - `cat`  
 `default` - `stuff`
 
 # --hints--
 
-`switchOfStuff("a")` should return the string `apple`
+`switchOfStuff("a")` 를 실행하면 `apple`이라는 문자열을 반환해야 합니다.
 
 ```js
 assert(switchOfStuff('a') === 'apple');
 ```
 
-`switchOfStuff("b")` should return the string `bird`
+`switchOfStuff("b")` 를 실행하면 `bird`라는 문자열을 반환해야 합니다.
 
 ```js
 assert(switchOfStuff('b') === 'bird');
 ```
 
-`switchOfStuff("c")` should return the string `cat`
+`switchOfStuff("c")` 를 실행하면 `cat`이라는 문자열을 반환해야 합니다.
 
 ```js
 assert(switchOfStuff('c') === 'cat');
 ```
 
-`switchOfStuff("d")` should return the string `stuff`
+`switchOfStuff("d")` 를 실행하면 `stuff`라는 문자열을 반환해야 합니다.
 
 ```js
 assert(switchOfStuff('d') === 'stuff');
 ```
 
-`switchOfStuff(4)` should return the string `stuff`
+`switchOfStuff(4)` 를 실행하면 `stuff`이라는 문자열을 반환해야 합니다.
 
 ```js
 assert(switchOfStuff(4) === 'stuff');
@@ -74,13 +73,13 @@ assert(switchOfStuff(4) === 'stuff');
 assert(!/else/g.test(__helpers.removeJSComments(code)) || !/if/g.test(__helpers.removeJSComments(code)));
 ```
 
-You should use a `default` statement
+`default`문을 사용해야 합니다.
 
 ```js
 assert(switchOfStuff('string-to-trigger-default-case') === 'stuff');
 ```
 
-You should have at least 3 `break` statements
+최소한 3개의 `break`문을 사용해야 합니다.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/break/g).length > 2);

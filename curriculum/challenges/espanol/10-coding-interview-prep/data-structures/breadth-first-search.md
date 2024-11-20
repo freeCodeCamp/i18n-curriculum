@@ -16,116 +16,74 @@ Este algoritmo empieza en un nodo y visita todos los vecinos que están a una ar
 
 Una estructura de datos importante que ayudará a implementar el algoritmo de búsqueda en anchura es la cola. Esta es un arreglo donde tu puedes agregar elementos en un extremos y eliminarlos desde el otro extremo. Esta también es conocida como una estructura de datos <dfn>FIFO</dfn> o <dfn>First-In-First-Out</dfn>.
 
-Visualmente, esto es lo que el algoritmo hace. ![Algortimo de Búsqueda en anchura moviéndose a través del árbol](https://camo.githubusercontent.com/2f57e6239884a1a03402912f13c49555dec76d06/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f342f34362f416e696d617465645f4246532e676966)
+Visually, this is what the algorithm is doing:
+<img alt="animation showing the breadth first search algorithm" src='https://cdn.freecodecamp.org/curriculum/coding-interview-prep/breadth-first-search.gif' />
 
-El sombreado gris representa un nodo siendo agregado a la cola y el sombreado negro representa un nodo siendo removido de la cola. Ve como cada vez un nodo se elimina de la cola (el nodo se vuelve negro), todos los vecinos son agregados en la cola ( los nodos se vuelven gris).
+The grey shading represents a node getting added into the queue and the black shading represents a node getting removed from the queue. See how every time a node gets removed from the queue (node turns black), all their neighbors get added into the queue (node turns grey).
 
-Para implementar este algoritmo, necesitarás un estructura de grafo y un nodo en el que quieras comenzar.
+To implement this algorithm, you'll need to input a graph structure and a node you want to start at.
 
-Primero, querrá ser consciente de las distancias desde, o números de aristas de distancias, el nodo inicial. Querrás empezar todas las distancias con un número largo como el `Infinity`. Esto evita que existan problemas cuando un nodo no puede ser alcanzado desde el nodo inicial. Luego, querrás ir desde el nodo inicial a sus vecinos. Estos vecinos estan a una arista de distancia y en este punto debes agregar una unidad de distancia a las distancia que has estado guardando.
+First, you'll want to be aware of the distances from, or number of edges away from, the start node. You'll want to start all your distances with some large number, like `Infinity`. This prevents counting issues for when a node may not be reachable from your start node. Next, you'll want to go from the start node to its neighbors. These neighbors are one edge away and at this point you should add one unit of distance to the distances you're keeping track of.
 
 # --instructions--
 
-Escribe una función `bfs()` que tome una matriz de adyacencia de un grafo ( un arreglo de dos-dimensiones) y una etiqueta para el nodo raíz como parámetro. La etiqueta del nodo solo debe ser el valor entero del nodo entre `0` y `n - 1`, donde `n` es el total de números de nodos en el grafo.
+Write a function `bfs()` that takes an adjacency matrix graph (a two-dimensional array) and a node label root as parameters. The node label will just be the integer value of the node between `0` and `n - 1`, where `n` is the total number of nodes in the graph.
 
-Tu función mostrará pares clave-valor como un objeto JavaScript con el nodo y su distancia desde la raíz. Si el nodo no puede ser alcanzado, deberá tener una distancia de `Infinity`.
+Your function will output a JavaScript object key-value pairs with the node and its distance from the root. If the node could not be reached, it should have a distance of `Infinity`.
 
 # --hints--
 
-El grafo de entrada `[[0, 1, 0, 0], [1, 0, 1, 0], [0, 1, 0, 1], [0, 0, 1, 0]]` con un nodo inicial `1` debe devolver `{0: 1, 1: 0, 2: 1, 3: 2}`
+The input graph `[[0, 1, 0, 0], [1, 0, 1, 0], [0, 1, 0, 1], [0, 0, 1, 0]]` with a start node of `1` should return `{0: 1, 1: 0, 2: 1, 3: 2}`
 
 ```js
-assert(
-  (function () {
-    var graph = [
-      [0, 1, 0, 0],
-      [1, 0, 1, 0],
-      [0, 1, 0, 1],
-      [0, 0, 1, 0]
-    ];
-    var results = bfs(graph, 1);
-    return isEquivalent(results, { 0: 1, 1: 0, 2: 1, 3: 2 });
-  })()
-);
+var graph = [
+  [0, 1, 0, 0],
+  [1, 0, 1, 0],
+  [0, 1, 0, 1],
+  [0, 0, 1, 0]
+];
+var results = bfs(graph, 1);
+assert.deepEqual(results, { 0: 1, 1: 0, 2: 1, 3: 2 });
 ```
 
-El grafo de entrada `[[0, 1, 0, 0], [1, 0, 1, 0], [0, 1, 0, 0], [0, 0, 0, 0]]` con un nodo inicial `1` debe devolver `{0: 1, 1: 0, 2: 1, 3: Infinity}`
+The input graph `[[0, 1, 0, 0], [1, 0, 1, 0], [0, 1, 0, 0], [0, 0, 0, 0]]` with a start node of `1` should return `{0: 1, 1: 0, 2: 1, 3: Infinity}`
 
 ```js
-assert(
-  (function () {
-    var graph = [
-      [0, 1, 0, 0],
-      [1, 0, 1, 0],
-      [0, 1, 0, 0],
-      [0, 0, 0, 0]
-    ];
-    var results = bfs(graph, 1);
-    return isEquivalent(results, { 0: 1, 1: 0, 2: 1, 3: Infinity });
-  })()
-);
+var graph = [
+  [0, 1, 0, 0],
+  [1, 0, 1, 0],
+  [0, 1, 0, 0],
+  [0, 0, 0, 0]
+];
+var results = bfs(graph, 1);
+ assert.deepEqual(results, { 0: 1, 1: 0, 2: 1, 3: Infinity });
 ```
 
-El grafo de entrada `[[0, 1, 0, 0], [1, 0, 1, 0], [0, 1, 0, 1], [0, 0, 1, 0]]` con un nodo inicial `0` debe devolver `{0: 0, 1: 1, 2: 2, 3: 3}`
+The input graph `[[0, 1, 0, 0], [1, 0, 1, 0], [0, 1, 0, 1], [0, 0, 1, 0]]` with a start node of `0` should return `{0: 0, 1: 1, 2: 2, 3: 3}`
 
 ```js
-assert(
-  (function () {
-    var graph = [
-      [0, 1, 0, 0],
-      [1, 0, 1, 0],
-      [0, 1, 0, 1],
-      [0, 0, 1, 0]
-    ];
-    var results = bfs(graph, 0);
-    return isEquivalent(results, { 0: 0, 1: 1, 2: 2, 3: 3 });
-  })()
-);
+var graph = [
+  [0, 1, 0, 0],
+  [1, 0, 1, 0],
+  [0, 1, 0, 1],
+  [0, 0, 1, 0]
+];
+var results = bfs(graph, 0);
+ assert.deepEqual(results, { 0: 0, 1: 1, 2: 2, 3: 3 });
 ```
 
-El grafo de entrada `[[0, 1], [1, 0]]` con un nodo inicial `0` debe devolver `{0: 0, 1: 1}`
+The input graph `[[0, 1], [1, 0]]` with a start node of `0` should return `{0: 0, 1: 1}`
 
 ```js
-assert(
-  (function () {
-    var graph = [
-      [0, 1],
-      [1, 0]
-    ];
-    var results = bfs(graph, 0);
-    return isEquivalent(results, { 0: 0, 1: 1 });
-  })()
-);
+var graph = [
+  [0, 1],
+  [1, 0]
+];
+var results = bfs(graph, 0);
+assert.deepEqual(results, { 0: 0, 1: 1 });
 ```
 
 # --seed--
-
-## --after-user-code--
-
-```js
-// Source: http://adripofjavascript.com/blog/drips/object-equality-in-javascript.html
-function isEquivalent(a, b) {
-    // Create arrays of property names
-    var aProps = Object.getOwnPropertyNames(a);
-    var bProps = Object.getOwnPropertyNames(b);
-    // If number of properties is different,
-    // objects are not equivalent
-    if (aProps.length != bProps.length) {
-        return false;
-    }
-    for (var i = 0; i < aProps.length; i++) {
-        var propName = aProps[i];
-        // If values of same property are not equal,
-        // objects are not equivalent
-        if (a[propName] !== b[propName]) {
-            return false;
-        }
-    }
-    // If we made it this far, objects
-    // are considered equivalent
-    return true;
-}
-```
 
 ## --seed-contents--
 
