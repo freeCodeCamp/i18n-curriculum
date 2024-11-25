@@ -20,7 +20,7 @@ dashedName: perform-basic-string-formatting-in-c-sharp
 
 ## --text--
 
-Which of the following lines of code correctly uses string interpolation assuming that the variable `value` is a string?
+Який з перелічених рядків правильно використовує інтерполяцію рядка, припускаючи, що змінна `value` є рядком?
 
 ## --answers--
 

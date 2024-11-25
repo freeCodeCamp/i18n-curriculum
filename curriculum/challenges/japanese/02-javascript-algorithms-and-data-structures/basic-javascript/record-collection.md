@@ -19,13 +19,13 @@ The `updateRecords` function takes 4 arguments represented by the following func
 
 次に示すルールに従って、渡されたオブジェクトを変更する関数を完成させてください。
 
--   Your function must always return the entire `records` object.
+-   関数は常に `records` オブジェクト全体を返す必要があります。
 -   `value` が空文字列の場合は、指定された `prop` プロパティをアルバムから削除します。
 -   If `prop` isn't `tracks` and `value` isn't an empty string, assign the `value` to that album's `prop`.
 -   If `prop` is `tracks` and `value` isn't an empty string, but the album doesn't have a `tracks` property, create an empty array and add `value` to it.
--   If prop is `tracks` and `value` isn't an empty string, add `value` to the end of the album's existing `tracks` array.
+-   prop が `tracks` であり、`value` が空文字列ではない場合は、`value` をアルバムの既存の `tracks` 配列の末尾に追加します。
 
-**注:** テストには `recordCollection` オブジェクトのコピーが使用されます。 You should not directly modify the `recordCollection` object.
+**注:** テストには `recordCollection` オブジェクトのコピーが使用されます。 `recordCollection` オブジェクトは直接変更しないでください。
 
 # --hints--
 

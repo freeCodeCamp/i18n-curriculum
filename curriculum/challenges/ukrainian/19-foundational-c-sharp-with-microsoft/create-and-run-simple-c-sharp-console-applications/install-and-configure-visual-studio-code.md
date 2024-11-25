@@ -20,19 +20,19 @@ dashedName: install-and-configure-visual-studio-code
 
 ## --text--
 
-Which of the following choices provides the best description of an Integrated Development Environment (IDE)?
+Що з переліченого найкраще описує інтегроване середовище розробки (IDE)?
 
 ## --answers--
 
-Visual Studio Code is an Integrated Development Environment.
+Visual Studio Code — це інтегроване середовище розробки.
 
 ---
 
-An Integrated Development Environment is tool that makes it easier to write code.
+Інтегроване середовище розробки — це інструмент, який полегшує написання коду.
 
 ---
 
-An IDE is a suite of tools that supports the full software development lifecycle.
+IDE — це набір інструментів, що підтримують повний цикл розробки програмного забезпечення.
 
 ## --video-solution--
 

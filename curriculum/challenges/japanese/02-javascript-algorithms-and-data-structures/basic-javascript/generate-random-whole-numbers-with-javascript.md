@@ -9,25 +9,25 @@ dashedName: generate-random-whole-numbers-with-javascript
 
 # --description--
 
-You can generate random decimal numbers with `Math.random()`, but sometimes you need to generate random whole numbers. The following process will give you a random whole number less than `20`:
+`Math.random()` を使って小数の乱数を生成できますが、整数の乱数が必要なこともあります。 以下の方法で、`20` 未満のランダムな整数が得られます。
 
-1. Use `Math.random()` to generate a random decimal number.
-2. Multiply that random decimal number by `20`.
-3. Use `Math.floor()` to round this number down to its nearest whole number.
+1. `Math.random()` を使用して小数の乱数を生成する
+2. その小数の乱数に `20` を掛ける
+3. `Math.floor()` を使用して小数点以下の端数を切り捨て、最も近い整数を得る
 
-Remember that `Math.random()` can never quite return a `1`, so it's impossible to actually get `20` since you are rounding down with `Math.floor()`. This process will give you a random whole number in the range from `0` to `19`.
+`Math.random()` は決して `1` を返しません。そして `Math.floor()` で切り捨てを行うため、結果が `20` となる可能性はありません。 この方法では `0` ～ `19` のランダムな整数が得られます。
 
-Putting everything together, this is what your code looks like:
+すべてをまとめると次のようなコードになります。
 
 ```js
 Math.floor(Math.random() * 20);
 ```
 
-You are calling `Math.random()`, multiplying the result by 20, then passing the value to `Math.floor()` to round the value down to the nearest whole number.
+`Math.random()` を呼び出して、その結果に 20 を掛け、その値を `Math.floor()` に渡して端数を切り捨て、最も近い整数を求めています。
 
 # --instructions--
 
-Use this technique to generate and return a random whole number in the range from `0` to `9`.
+ここで紹介した方法で、`0` ～ `9` の整数の乱数を生成して返してください。
 
 # --hints--
 
@@ -49,7 +49,7 @@ assert(
 assert(__helpers.removeJSComments(code).match(/Math.random/g).length >= 1);
 ```
 
-You should have multiplied the result of `Math.random` by 10 to make it a number in the range from zero to nine.
+`Math.random` の結果に 10 を掛けて、0 ～ 9 の数値を求める必要があります。
 
 ```js
 assert(

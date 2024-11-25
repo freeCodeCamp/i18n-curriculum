@@ -20,19 +20,19 @@ dashedName: implement-the-visual-studio-code-debugging-tools-for-c-sharp
 
 ## --text--
 
-Which section of the RUN AND DEBUG view is used to track the current point of execution within the running application?
+Який з розділів RUN AND DEBUG використовують, щоб відслідкувати поточну точку виконання в запущеному застосунку?
 
 ## --answers--
 
-The VARIABLES section.
+Розділ VARIABLES.
 
 ---
 
-The CALL STACK section.
+Розділ CALL STACK.
 
 ---
 
-The WATCH section.
+Розділ WATCH.
 
 ## --video-solution--
 

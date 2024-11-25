@@ -16,7 +16,8 @@ dashedName: breadth-first-search
 
 幅優先探索アルゴリズムを実装するのに役立つ重要なデータ構造は、キューです。 これは、一方の端に要素を追加し、もう一方の端から要素を削除することができる配列です。 これは、<dfn>FIFO</dfn> または<dfn>先入れ先出し</dfn>のデータ構造とも呼ばれます。
 
-このアルゴリズムが行っていることを視覚的に表すと、このようになります。 ![木の中を移動する幅優先探索アルゴリズム](https://camo.githubusercontent.com/2f57e6239884a1a03402912f13c49555dec76d06/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f342f34362f416e696d617465645f4246532e676966)
+このアルゴリズムが行っていることを視覚的に表すと、このようになります。
+<img alt="幅優先探索のアルゴリズムを表すアニメーション" src='https://cdn.freecodecamp.org/curriculum/coding-interview-prep/breadth-first-search.gif' />
 
 灰色はキューに追加されるノードを表し、黒はキューから削除されるノードを表します。 ノードがキューから削除される (ノードが黒に変わる) たびに、すべての隣接ノードがキューに追加される (ノードが灰色に変わる) 様子を確認してください。
 
@@ -35,97 +36,54 @@ dashedName: breadth-first-search
 `1` の開始ノードを持つ入力グラフ `[[0, 1, 0, 0], [1, 0, 1, 0], [0, 1, 0, 1], [0, 0, 1, 0]]` は、`{0: 1, 1: 0, 2: 1, 3: 2}` を返す必要があります。
 
 ```js
-assert(
-  (function () {
-    var graph = [
-      [0, 1, 0, 0],
-      [1, 0, 1, 0],
-      [0, 1, 0, 1],
-      [0, 0, 1, 0]
-    ];
-    var results = bfs(graph, 1);
-    return isEquivalent(results, { 0: 1, 1: 0, 2: 1, 3: 2 });
-  })()
-);
+var graph = [
+  [0, 1, 0, 0],
+  [1, 0, 1, 0],
+  [0, 1, 0, 1],
+  [0, 0, 1, 0]
+];
+var results = bfs(graph, 1);
+assert.deepEqual(results, { 0: 1, 1: 0, 2: 1, 3: 2 });
 ```
 
 `1` の開始ノードを持つ入力グラフ `[[0, 1, 0, 0], [1, 0, 1, 0], [0, 1, 0, 0], [0, 0, 0, 0]]` は、`{0: 1, 1: 0, 2: 1, 3: Infinity}` を返す必要があります。
 
 ```js
-assert(
-  (function () {
-    var graph = [
-      [0, 1, 0, 0],
-      [1, 0, 1, 0],
-      [0, 1, 0, 0],
-      [0, 0, 0, 0]
-    ];
-    var results = bfs(graph, 1);
-    return isEquivalent(results, { 0: 1, 1: 0, 2: 1, 3: Infinity });
-  })()
-);
+var graph = [
+  [0, 1, 0, 0],
+  [1, 0, 1, 0],
+  [0, 1, 0, 0],
+  [0, 0, 0, 0]
+];
+var results = bfs(graph, 1);
+ assert.deepEqual(results, { 0: 1, 1: 0, 2: 1, 3: Infinity });
 ```
 
 `0` の開始ノードを持つ入力グラフ `[[0, 1, 0, 0], [1, 0, 1, 0], [0, 1, 0, 1], [0, 0, 1, 0]]` は、`{0: 0, 1: 1, 2: 2, 3: 3}` を返す必要があります。
 
 ```js
-assert(
-  (function () {
-    var graph = [
-      [0, 1, 0, 0],
-      [1, 0, 1, 0],
-      [0, 1, 0, 1],
-      [0, 0, 1, 0]
-    ];
-    var results = bfs(graph, 0);
-    return isEquivalent(results, { 0: 0, 1: 1, 2: 2, 3: 3 });
-  })()
-);
+var graph = [
+  [0, 1, 0, 0],
+  [1, 0, 1, 0],
+  [0, 1, 0, 1],
+  [0, 0, 1, 0]
+];
+var results = bfs(graph, 0);
+ assert.deepEqual(results, { 0: 0, 1: 1, 2: 2, 3: 3 });
 ```
 
 入力グラフ `[[0, 1], [1, 0]]` の開始ノードが `0` の場合、`{0: 0, 1: 1}` を返す必要があります。
 
 ```js
-assert(
-  (function () {
-    var graph = [
-      [0, 1],
-      [1, 0]
-    ];
-    var results = bfs(graph, 0);
-    return isEquivalent(results, { 0: 0, 1: 1 });
-  })()
-);
+var graph = [
+  [0, 1],
+  [1, 0]
+];
+var results = bfs(graph, 0);
+assert.deepEqual(results, { 0: 0, 1: 1 });
 ```
 
 # --seed--
-
-## --after-user-code--
-
-```js
-// Source: http://adripofjavascript.com/blog/drips/object-equality-in-javascript.html
-function isEquivalent(a, b) {
-    // Create arrays of property names
-    var aProps = Object.getOwnPropertyNames(a);
-    var bProps = Object.getOwnPropertyNames(b);
-    // If number of properties is different,
-    // objects are not equivalent
-    if (aProps.length != bProps.length) {
-        return false;
-    }
-    for (var i = 0; i < aProps.length; i++) {
-        var propName = aProps[i];
-        // If values of same property are not equal,
-        // objects are not equivalent
-        if (a[propName] !== b[propName]) {
-            return false;
-        }
-    }
-    // If we made it this far, objects
-    // are considered equivalent
-    return true;
-}
-```
 
 ## --seed-contents--
 

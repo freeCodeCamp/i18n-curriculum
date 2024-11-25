@@ -8,13 +8,13 @@ dashedName: create-a-linear-scale-with-d3
 
 # --description--
 
-The bar and scatter plot charts both plotted data directly onto the SVG. しかし、バーまたは 1 つのデータポイントの高さが SVG の高さや幅の値よりも大きいと、そのバーまたはデータポイントは SVG 領域からはみ出てしまいます。
+棒グラフと散布図グラフは、どちらも直接 SVG にプロットされています。 しかし、バーまたは 1 つのデータポイントの高さが SVG の高さや幅の値よりも大きいと、そのバーまたはデータポイントは SVG 領域からはみ出てしまいます。
 
-D3では、データのプロットに役立つスケールがあります。 `scales` are functions that tell the program how to map a set of raw data points onto the pixels of the SVG.
+D3では、データのプロットに役立つスケールがあります。 `scales` は、生のデータポイント群をどのように SVG のピクセルにマッピングするかをプログラムに伝える関数です。
 
-For example, say you have a 100x500-sized SVG and you want to plot Gross Domestic Product (GDP) for a number of countries. 一連の数値の単位は 10 億ドルや 1 兆ドルの範囲になるでしょう。 大きな GDP 値を100 x 500 サイズの領域にどのように配置するかを伝えるために、スケールのタイプを D3 に提供します。
+例えば、100 x 500 サイズの SVG があり、そこに多数の国の国内総生産 (GDP) をプロットするとします。 一連の数値の単位は 10 億ドルや 1 兆ドルの範囲になるでしょう。 大きな GDP 値を100 x 500 サイズの領域にどのように配置するかを伝えるために、スケールのタイプを D3 に提供します。
 
-生データのままではプロットできなさそうです。 Before plotting it, you set the scale for your entire data set, so that the `x` and `y` values fit your SVG width and height.
+生データのままではプロットできなさそうです。 プロットする前にデータセット全体のスケールを設定することで、`x` と `y` の値を SVG の幅と高さに適合させます。
 
 D3 にはいくつかのタイプのスケールがあります。 (通常は定量的データで使用される) 線形スケールの場合、`scaleLinear()` という D3 メソッドがあります。
 

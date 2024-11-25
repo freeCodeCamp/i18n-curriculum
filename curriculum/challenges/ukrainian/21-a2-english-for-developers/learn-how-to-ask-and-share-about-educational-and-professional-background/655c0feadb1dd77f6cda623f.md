@@ -7,7 +7,7 @@ dashedName: dialogue-1-a-job-interview
 
 # --description--
 
-Перегляньте відео, щоб зрозуміти контекст майбутніх уроків.
+Watch the video below to understand the context of the upcoming lessons.
 
 # --assignment--
 

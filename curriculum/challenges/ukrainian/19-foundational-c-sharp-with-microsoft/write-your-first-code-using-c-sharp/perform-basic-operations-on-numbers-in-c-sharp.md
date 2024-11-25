@@ -20,7 +20,7 @@ dashedName: perform-basic-operations-on-numbers-in-c-sharp
 
 ## --text--
 
-What is the value of the following result?
+Яке значення матиме результат?
 
 ```clike
 int result = 3 + 1 * 5 / 2;

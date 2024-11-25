@@ -19,7 +19,7 @@ Wie viele zusammengesetzte Integer, $n &lt; {10}^8$, haben genau zwei, nicht not
 `semiPrimes()` sollte `17427258` zurückgeben.
 
 ```js
-assert.strictEqual(euler187(), 17427258);
+assert.strictEqual(semiPrimes(), 17427258);
 ```
 
 # --seed--

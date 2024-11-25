@@ -41,7 +41,7 @@ You should not reassign the `last` parameter.
 assert.notMatch(code, /\blast\s*=\s*/);
 ```
 
-プロパティを追加しないでください。 `Object.keys(Person).length` should always return 6.
+プロパティを追加しないでください。 `Object.keys(Person).length` は常に 6 を返す必要があります。
 
 ```js
 const _person = new Person('Bob', 'Ross');

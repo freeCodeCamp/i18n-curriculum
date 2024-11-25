@@ -11,17 +11,17 @@ dashedName: metric-imperial-converter
 <a href="https://metric-imperial-converter.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://metric-imperial-converter.freecodecamp.rocks/</a> と同じような機能を持つ、フルスタック JavaScript アプリを構築してください。 プロジェクトに取り組むにあたり、以下の方法のうち 1 つを用いてコードを記述します。
 
 - <a href="https://github.com/freeCodeCamp/boilerplate-project-metricimpconverter/" target="_blank" rel="noopener noreferrer nofollow">GitHub リポジトリ</a>をクローンし、ローカル環境でチャレンジを完了させる。
-- Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-metricimpconverter/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete your project.
+- <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-metricimpconverter/" target="_blank" rel="noopener noreferrer nofollow">Gitpod スタータープロジェクト</a>を使用して、プロジェクトを完了させる。
 - ご自身で選んだサイトビルダーを使用して、プロジェクトを完了させてください。 必ず GitHub リポジトリのすべてのファイルを取り込む。
 
-**Note:** This project's tests do not work when using `glitch.com`.
+**注:** `glitch.com` を使用する場合、このプロジェクトのテストは動作しません。
 
 # --instructions--
 
 - `/controllers/convertHandler.js` で、必要な変換ロジックを完成させてください。
 - `/routes/api.js` で、必要なルートを完成させてください。
 - `sample.env` ファイルを `.env` にコピーし、変数を適切に設定してください。
-- To run the tests automatically, add `NODE_ENV=test` in your `.env` file
+- テストを自動的に実行するには、`.env` ファイルに `NODE_ENV=test` を追加してください。
 - コンソールでテストを実行するには、コマンド `npm run test` を使用してください。
 
 `tests/1_unit-tests.js` に以下のテストを記述してください。

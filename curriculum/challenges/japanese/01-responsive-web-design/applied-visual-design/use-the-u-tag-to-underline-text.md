@@ -13,7 +13,7 @@ dashedName: use-the-u-tag-to-underline-text
 
 # --instructions--
 
-テキストの次の部分を `u` タグで囲んでください: `Ph.D. students`.
+テキストの `Ph.D. students` の部分だけを `u` タグで囲んでください。
 
 **注:** リンクと混同する可能性がある場合には、`u` タグを使うのは避けるようにしましょう。 アンカータグもデフォルトで下線付きで表示されるためです。
 
@@ -25,7 +25,7 @@ dashedName: use-the-u-tag-to-underline-text
 assert.lengthOf(document.querySelectorAll('u'), 1);
 ```
 
-テキストの次の部分を `u` タグで囲む必要があります: `Ph.D. students`.
+`u` タグが `Ph.D. students` のテキストを囲むようにしてください。
 
 ```js
 assert.equal(document.querySelector('u')?.textContent , 'Ph.D. students');

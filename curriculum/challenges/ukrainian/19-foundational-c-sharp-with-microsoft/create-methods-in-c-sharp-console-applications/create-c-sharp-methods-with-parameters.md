@@ -20,13 +20,13 @@ dashedName: create-c-sharp-methods-with-parameters
 
 ## --text--
 
-Given the method signature,
+Вам надано сигнатуру методу:
 
 ```clike
 void Print(string name, string number = "", bool member = false)
 ```
 
-Which of the following options correctly uses named and optional arguments?
+Що з перелічного правильно використовує іменовані та додаткові аргументи?
 
 ## --answers--
 

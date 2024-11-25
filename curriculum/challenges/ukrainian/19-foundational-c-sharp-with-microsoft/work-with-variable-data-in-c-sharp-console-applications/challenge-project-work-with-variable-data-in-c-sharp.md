@@ -20,19 +20,19 @@ dashedName: challenge-project-work-with-variable-data-in-c-sharp
 
 ## --text--
 
-To sort a string array, why is it important to use the `String.Trim()` method on each array element before sorting?
+Чому перед сортуванням масиву рядків важливо використовувати метод `String.Trim()` до кожного елемента масиву?
 
 ## --answers--
 
-Only string arrays with elements trimmed with `String.Trim()` can sort
+Можна відсортувати лише масиви рядків, елементи яких обрізані методом `String.Trim()`
 
 ---
 
-`String.Trim()` removes leading white space that would sort before numbers and letters.
+`String.Trim()` видаляє початкові пробіли, які були б відсортовані перед числами та літерами.
 
 ---
 
-The array sort is noticeably faster using `String.Trim()` on each element.
+Сортування масиву помітно пришвидшується, якщо використати `String.Trim()` до кожного елемента.
 
 ## --video-solution--
 

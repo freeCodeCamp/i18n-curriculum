@@ -20,7 +20,7 @@ dashedName: guided-project-calculate-and-print-student-grades
 
 ## --text--
 
-What is wrong with the following code?
+Що не так з наданим кодом?
 
 ```clike
 int sophiaSum;

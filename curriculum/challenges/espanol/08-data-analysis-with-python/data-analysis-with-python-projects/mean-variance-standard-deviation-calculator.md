@@ -52,7 +52,7 @@ Por ejemplo, `calculate([0,1,2,3,4,5,6,7,8])` debe regresar:
 
 ## Dessarrollo
 
-Write your code in `mean_var_std.py`. Para el desarrollo, puedes utilizar `main.py` para probar tu código.
+Write your code in `mean_var_std.py`. Para el desarrollo, puedes utilizar `main.py` para probar tu código. In order to run your code, type `python3 main.py` into the GitPod terminal and hit enter. This will cause the included CPython interpreter to run the `main.py` file.
 
 ## Pruebas
 

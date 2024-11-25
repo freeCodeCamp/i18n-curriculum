@@ -20,19 +20,19 @@ dashedName: guided-project-plan-a-petting-zoo-visit
 
 ## --text--
 
-What is the purpose of defining an optional parameter in a method?
+Навіщо потрібно визначати додатковий параметр в методі?
 
 ## --answers--
 
-To cause a method to perform a different task.
+Щоб метод виконував інше завдання.
 
 ---
 
-To overload a method.
+Щоб перезавантажити метод.
 
 ---
 
-To simplify the required parameters when a parameter isn't significant to the result.
+Щоб спростити обов’язкові параметри, якщо параметр неважливий для результату.
 
 ## --video-solution--
 

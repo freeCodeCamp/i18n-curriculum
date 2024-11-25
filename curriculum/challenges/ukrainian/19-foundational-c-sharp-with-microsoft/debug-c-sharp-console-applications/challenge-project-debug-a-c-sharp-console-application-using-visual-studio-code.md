@@ -24,15 +24,15 @@ dashedName: challenge-project-debug-a-c-sharp-console-application-using-visual-s
 
 ## --answers--
 
-Left-click in the column to the left of a line number in the code editor.
+Натисніть лівою кнопкою миші в стовпці зліва в редакторі коду.
 
 ---
 
-Select Toggle Breakpoint on the Edit menu.
+Виберіть «Toggle Breakpoint» з меню «Edit».
 
 ---
 
-Right-click in the middle of a line of code, and then select Toggle Breakpoint.
+Натисніть правою кнопкою миші посередині рядка коду та виберіть «Toggle Breakpoint».
 
 ## --video-solution--
 

@@ -19,7 +19,7 @@ Quantos números compostos inteiros, $n &lt; {10}^8$, têm precisamente dois fat
 `semiPrimes()` deve retornar `17427258`.
 
 ```js
-assert.strictEqual(euler187(), 17427258);
+assert.strictEqual(semiPrimes(), 17427258);
 ```
 
 # --seed--

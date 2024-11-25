@@ -50,7 +50,7 @@ assert(html && head && body);
 assert(document.querySelectorAll('HEAD > TITLE')[0].innerText == 'The Odin Recipes');
 ```
 
-You should have an `h1` element within your `body` element that contains the text `Creamy Chocolate Fudge`.
+Ви повинні мати елемент `h1` в межах елемента `body`, який містить текст `Creamy Chocolate Fudge`.
 
 ```js
 assert(document.querySelectorAll('BODY > H1')[0].innerText == 'Creamy Chocolate Fudge');

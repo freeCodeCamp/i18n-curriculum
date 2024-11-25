@@ -44,13 +44,13 @@ Your `index.pug` file included in your project, uses the variables `title` and `
 
 Pass those from your server to the Pug file by adding an object as a second argument to your `res.render` call with the variables and their values. Give the `title` a value of `Hello` and `message` a value of `Please log in`.
 
-It should look like:
+次のようになります。
 
 ```javascript
 res.render('index', { title: 'Hello', message: 'Please log in' });
 ```
 
-Now refresh your page, and you should see those values rendered in your view in the correct spot as laid out in your `index.pug` file!
+これでページを更新すると、`index.pug` ファイルに配置されているビュー内の正しい場所に、これらの値がレンダーされるはずです！
 
 完成したと思ったら、ページを送信してください。 エラーが発生している場合、<a href="https://forum.freecodecamp.org/t/advanced-node-and-express/567135#use-a-template-engines-power-2" target="_blank" rel="noopener noreferrer nofollow">この時点までの完成形のコードをこちらで確認できます</a>。
 

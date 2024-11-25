@@ -19,7 +19,7 @@ while (condition) {
 
 # --hints--
 
-Your `pick` function should have a `while` loop.
+Функція `pick` повинна мати цикл `while`.
 
 ```js
 assert.match(pick.toString(), /while\s*\(/);

@@ -8,7 +8,7 @@ dashedName: medical-data-visualizer
 
 # --description--
 
-You will be <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-medical-data-visualizer/" target="_blank" rel="noopener noreferrer nofollow">working on this project with our Gitpod starter code</a>.
+このプロジェクトは<a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-medical-data-visualizer/" target="_blank" rel="noopener noreferrer nofollow">こちらの Gitpod スターターコード</a>を使用して作業を行います。
 
 Python カリキュラムの対話式教育コンテンツを引き続き開発中です。 現在、下記の freeCodeCamp.org YouTube チャンネルで、このプロジェクトの完了に必要なすべての知識について説明する動画をいくつか公開しています。
 
@@ -18,7 +18,7 @@ Python カリキュラムの対話式教育コンテンツを引き続き開発�
 
 # --instructions--
 
-In this project, you will visualize and make calculations from medical examination data using `matplotlib`, `seaborn`, and `pandas`. データセットの値は診察時に収集されたものです。
+このプロジェクトでは、`matplotlib`、`seaborn`、`pandas` を使用して診察データを可視化し、計算を行います。 データセットの値は診察時に収集されたものです。
 
 ## データの説明
 
@@ -44,35 +44,35 @@ In this project, you will visualize and make calculations from medical examinati
 
 ## 手順書
 
-Create a chart similar to `examples/Figure_1.png`, where we show the counts of good and bad outcomes for the `cholesterol`, `gluc`, `alco`, `active`, and `smoke` variables for patients with `cardio=1` and `cardio=0` in different panels.
+`examples/Figure_1.png` のようなグラフを作成してください。この例では、患者の `cholesterol`、`gluc`、`alco`、`active`、`smoke` について良い結果と悪い結果の数を示し、`cardio=1` の場合と `cardio=0` の場合を別々のパネルに表示しています。
 
-By each number in the `medical_data_visualizer.py` file, add the code from the associated instruction number below.
+以下の指示に従って、`medical_data_visualizer.py` ファイル内の対応する番号の箇所にコードを追加してください。
 
-1. Import the data from `medical_examination.csv` and assign it to the `df` variable.
-2. Add an `overweight` column to the data. To determine if a person is overweight, first calculate their BMI by dividing their weight in kilograms by the square of their height in meters. If that value is > 25 then the person is overweight. Use the value `0` for NOT overweight and the value `1` for overweight.
-3. Normalize data by making `0` always good and `1` always bad. If the value of `cholesterol` or `gluc` is 1, set the value to `0`. If the value is more than `1`, set the value to `1`.
-4. Draw the Categorical Plot in the `draw_cat_plot` function.
-5. Create a DataFrame for the cat plot using `pd.melt` with values from `cholesterol`, `gluc`, `smoke`, `alco`, `active`, and `overweight` in the `df_cat` variable.
-6. Group and reformat the data in `df_cat` to split it by `cardio`. Show the counts of each feature. You will have to rename one of the columns for the `catplot` to work correctly.
-7. Convert the data into `long` format and create a chart that shows the value counts of the categorical features using the following method provided by the seaborn library import: `sns.catplot()`.
-8. Get the figure for the output and store it in the `fig` variable.
-9. Do not modify the next two lines.
-10. Draw the Heat Map in the `draw_heat_map` function.
-11. Clean the data in the `df_heat` variable by filtering out the following patient segments that represent incorrect data:
+1. `medical_examination.csv` からデータをインポートして、変数 `df` に代入します。
+2. データに `overweight` 列を追加します。 overweight (太りすぎ) かどうかを判断するには、まず、体重 (キログラム単位) を身長 (メートル単位) の 2 乗で割って BMI (ボディマス指数) を計算します。 その値が 25 より大きい場合、その人は太りすぎです。 太りすぎではない場合は値 `0` を使用し、太りすぎの場合は値 `1` を使用します。
+3. `0` を常に良とし、`1` を常に悪としてデータを正規化します。 `cholesterol` または `gluc` の値が 1 の場合は、この値を `0` に設定します。 値が `1` より大きい場合は、値を `1` に設定します。
+4. `draw_cat_plot` 関数内でカテゴリカルプロット (Categorical Plot) を描画してください。
+5. `cholesterol`、`gluc`、`smoke`、`alco`、`active`、`overweight` の値を使って、`pd.melt` でカテゴリプロット用の DataFrame を作成し、変数 `df_cat` に格納します。
+6. `df_cat` のデータを `cardio` で分割してグループ化し、再フォーマットします。 各特徴の数を示してください。 `catplot` が正しく動作するためには、列の名前を一つ変更する必要があります。
+7. データを `long` 形式に変換し、seaborn ライブラリのインポートにより提供される `sns.catplot()` メソッドを使用して、カテゴリ特徴の値のカウントを示すグラフを作成します。
+8. 出力の図を取得し、変数 `fig` に格納します。
+9. この 2 行は変更しないでください。
+10. `draw_heat_map` 関数内でヒートマップを描画してください。
+11. 不正なデータを表す以下の患者セグメントをフィルタリングすることで、変数 `df_heat` 内のデータをクリーンアップします。
     - 最低血圧が最高血圧よりも高い (`(df['ap_lo'] <= df['ap_hi'])`) で正しいデータを保持できます)
     - 身長が 2.5 パーセンタイルを下回る (`(df['height'] >= df['height'].quantile(0.025))` で正しいデータを保持できます)
     - 身長が 97.5 パーセンタイルを上回る
     - 体重が 2.5 パーセンタイルを下回る
     - 体重が 97.5 パーセンタイルを上回る
-12. Calculate the correlation matrix and store it in the `corr` variable.
-13. Generate a mask for the upper triangle and store it in the `mask` variable.
-14. Set up the `matplotlib` figure.
-15. Plot the correlation matrix using the method provided by the `seaborn` library import: `sns.heatmap()`.
-16. Do not modify the next two lines.
+12. 相関行列を計算し、変数 `corr` に格納します。
+13. 上側の三角形のマスクを生成し、変数 `mask` に格納します。
+14. `matplotlib` 図を設定します。
+15. `seaborn` ライブラリのインポートで提供される `sns.heatmap()` メソッドを使用して、相関行列をプロットします。
+16. この 2 行は変更しないでください。
 
 ## 開発
 
-Write your code in `medical_data_visualizer.py`. 開発には `main.py` を使用してコードをテストすることができます。
+`medical_data_visualizer.py` にコードを記述してください。 開発には `main.py` を使用してコードをテストすることができます。
 
 ## テスト
 

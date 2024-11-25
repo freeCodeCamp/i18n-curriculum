@@ -20,7 +20,7 @@ dashedName: add-looping-logic-to-your-code-using-the-do-while-and-while-statemen
 
 ## --text--
 
-A developer needs to iterate through an array of items to find one that matches a certain criteria. Which is the best iteration statement for this purpose?
+Розробнику потрібно перебрати масив, щоб знайти елемент, який відповідає певному критерію. Яка інструкція підходить найкраще?
 
 ## --answers--
 

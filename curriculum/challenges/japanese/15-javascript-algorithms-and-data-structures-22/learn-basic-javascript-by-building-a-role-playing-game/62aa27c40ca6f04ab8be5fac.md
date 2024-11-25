@@ -7,7 +7,7 @@ dashedName: step-167
 
 # --description--
 
-In the previous project, you learned how to work with `for` loops like this:
+以前のプロジェクトで、次のような `for` ループの使い方を学びました。
 
 ```js
 for (let i = 0; i < 5; i++) {
@@ -15,26 +15,26 @@ for (let i = 0; i < 5; i++) {
 }
 ```
 
-`for` loops are declared with three expressions separated by semicolons: `for (a; b; c)`, where `a` is the initialization expression, `b` is the condition, and `c` is the final expression.
+`for` ループは `for (a; b; c)` のように、セミコロンで区切られた 3 つの式で宣言されます。`a` は初期化式、`b` は条件式、`c` は反復処理後の式です。
 
-In this step, create a `for` loop where `i` is initialized to `0`, the loop runs as long as `i` is less than `10`, and `i` is incremented by `1` after each iteration using the increment operator `++`.
+では、次のような `for` ループを作成してください: `i` を `0` で初期化し、`i` が `10` 未満の間繰り返し処理を実行し、各反復処理後にインクリメント演算子 `++` で `i` を `1` 増加させる。
 
 
 # --hints--
 
-Your `for` loop initialization should have `i` initialized to `0`.
+`for` ループの初期化では `i` を `0` に初期化してください。
 
 ```js
 assert.match(pick.toString(), /for\s*\(\s*(let|var)\s+i\s*=\s*0\s*;/)
 ```
 
-Your loop condition should run as long as `i` is less than `10`.
+ループ条件は、`i` が `10` 未満である限り実行されるようにしてください。
 
 ```js
 assert.match(pick.toString(), /for\s*\(\s*(let|var)\s+i\s*=\s*0\s*;\s*i\s*<\s*10\s*;/)
 ```
 
-Your loop should increment `i` by `1` after each iteration. Remember to use the increment operator `++`.
+ループは、各反復処理後に `i` を `1` ずつインクリメントするようにしてください。 インクリメント演算子 `++` を使用することを忘れないでください。
 
 ```js
 assert.match(pick.toString(), /for\s*\(\s*(let|var)\s+i\s*=\s*0\s*;\s*i\s*<\s*10\s*;\s*i\+\+\s*\)/)

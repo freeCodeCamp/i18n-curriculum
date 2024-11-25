@@ -20,7 +20,7 @@ dashedName: create-c-sharp-methods-that-return-values
 
 ## --text--
 
-Which of the following options correctly returns a `string` value?
+Що з переліченого правильно повертає значення `string`?
 
 ## --answers--
 

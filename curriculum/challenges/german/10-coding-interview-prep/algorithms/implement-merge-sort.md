@@ -25,13 +25,20 @@ Dies ist übrigens der letzte Sortieralgorithmus mit dem wir uns hier beschäfti
 `mergeSort` sollte eine Funktion sein.
 
 ```js
-assert(typeof mergeSort == 'function');
+assert.isFunction(mergeSort);
 ```
 
 `mergeSort` sollte ein sortiertes Array zurückgeben (vom kleinsten zum größten).
 
 ```js
-assert(
+function isSorted(a){
+  for(let i = 0; i < a.length - 1; i++)
+    if(a[i] > a[i + 1])
+      return false;
+  return true;
+}
+
+assert.isTrue(
   isSorted(
     mergeSort([
       1,
@@ -86,28 +93,16 @@ assert.sameMembers(
 `mergeSort` sollte nicht die eingebaute Methode `.sort()` verwenden.
 
 ```js
-assert(isBuiltInSortUsed());
-```
-
-# --seed--
-
-## --after-user-code--
-
-```js
-function isSorted(a){
-  for(let i = 0; i < a.length - 1; i++)
-    if(a[i] > a[i + 1])
-      return false;
-  return true;
-}
-
 function isBuiltInSortUsed(){
   let sortUsed = false;
   Array.prototype.sort = () => sortUsed = true;
   mergeSort([0, 1]);
-  return !sortUsed;
+  return sortUsed;
 }
+assert.isFalse(isBuiltInSortUsed());
 ```
+
+# --seed--
 
 ## --seed-contents--
 

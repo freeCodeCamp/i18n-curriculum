@@ -8,7 +8,7 @@ dashedName: iterate-through-the-keys-of-an-object-with-a-for---in-statement
 
 # --description--
 
-Sometimes you need to iterate through all the keys within an object. You can use a <dfn>for...in</dfn> loop to do this. The for...in loop looks like:
+オブジェクト内のすべてのキーの繰り返し処理を必要とする場合があります。 You can use a <dfn>for...in</dfn> loop to do this. The for...in loop looks like:
 
 ```javascript
 const refrigerator = {
@@ -29,7 +29,7 @@ We defined the variable `food` in the loop head and this variable was set to eac
 
 # --instructions--
 
-We've defined a function `countOnline` which accepts one argument, `allUsers`. Use a <dfn>for...in</dfn> statement inside this function to loop through the `allUsers` object and return the number of users whose `online` property is set to `true`. An example of an object which could be passed to `countOnline` is shown below. Each user will have an `online` property set to either `true` or `false`.
+関数 `countOnline` を定義しました。この関数は 1 つの引数 `allUsers` を受け取ります。 Use a <dfn>for...in</dfn> statement inside this function to loop through the `allUsers` object and return the number of users whose `online` property is set to `true`. たとえば、`countOnline` には次のようなオブジェクトが渡されます。 Each user will have an `online` property set to either `true` or `false`.
 
 ```js
 {

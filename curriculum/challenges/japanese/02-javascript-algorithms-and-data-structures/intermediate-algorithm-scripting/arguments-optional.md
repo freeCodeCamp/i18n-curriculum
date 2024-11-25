@@ -54,7 +54,7 @@ assert.isUndefined(addTogether(5, undefined));
 assert.isUndefined(addTogether('https://www.youtube.com/watch?v=dQw4w9WgXcQ'));
 ```
 
-`addTogether(5)` should return a function.
+`addTogether(5)` は関数を返します。
 
 ```js
 assert.deepEqual(typeof(addTogether(5)), 'function');

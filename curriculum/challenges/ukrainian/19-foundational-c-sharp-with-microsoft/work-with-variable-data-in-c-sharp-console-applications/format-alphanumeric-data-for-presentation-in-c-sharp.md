@@ -20,7 +20,7 @@ dashedName: format-alphanumeric-data-for-presentation-in-c-sharp
 
 ## --text--
 
-For the C# code `Console.WriteLine("C110".PadLeft(6, '0'));`, which is the expected output?
+Який очікуваний вивід коду `Console.WriteLine("C110".PadLeft(6, '0'));`?
 
 ## --answers--
 

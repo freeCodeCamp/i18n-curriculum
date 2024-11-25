@@ -20,7 +20,7 @@ dashedName: store-and-iterate-through-sequences-of-data-using-arrays-and-the-for
 
 ## --text--
 
-Which of the following foreach statements is syntactically correct?
+Яка з перелічених інструкцій foreach синтаксично правильна?
 
 ## --answers--
 

@@ -18,7 +18,7 @@ socket.on('disconnect', () => {
 });
 ```
 
-To make sure clients continuously have the updated count of current users, you should decrease `currentUsers` by 1 when the disconnect happens then emit the `'user count'` event with the updated count.
+クライアントで現在のユーザーの更新されたカウントを継続的に保つようにするには、切断が発生したときに `currentUsers` を 1 減らし、それから、更新されたカウントで `'user count'` イベントをエミットする必要があります。
 
 **注:** `'disconnect'` とまったく同様に、ソケットがサーバーへエミットできる他のすべてのイベントについても、「socket」を定義しているコネクションリスナーの中で処理する必要があります。
 
@@ -37,7 +37,7 @@ async (getUserInput) => {
 }
 ```
 
-Your client should be listening for `'user count'` event.
+クライアントでは `'user count'` イベントをリッスンしている必要があります。
 
 ```js
 async (getUserInput) => {

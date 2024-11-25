@@ -20,7 +20,7 @@ dashedName: store-and-retrieve-data-using-literal-and-variable-values-in-c-sharp
 
 ## --text--
 
-Which of the following lines of code creates a variable correctly?
+Який з перелічених рядків правильно створює змінну?
 
 ## --answers--
 
