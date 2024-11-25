@@ -17,7 +17,7 @@ dashedName: step-61
 assert.match(code,/<p class=('|")established\1>/i);
 ```
 
-`established` クラスは `Est. 2020` というテキストを持つ要素に設定される必要があります。
+`Est. 2020` というテキストを持つ要素に `established` クラスを設定する必要があります。
 
 ```js
 assert.match(document.querySelector('.established')?.innerText, /Est\.\s2020/i);

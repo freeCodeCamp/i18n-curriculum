@@ -20,7 +20,7 @@ dashedName: iterate-through-a-code-block-using-the-for-statement-in-c-sharp
 
 ## --text--
 
-Which of the following `for` statements is correct?
+Яка з перелічених інструкцій `for` правильна?
 
 ## --answers--
 

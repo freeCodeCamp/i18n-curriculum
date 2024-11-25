@@ -16,7 +16,7 @@ Erreicht er ein Ende eines Pfades, geht die Suche zurück zum letzten Knoten mit
 
 Die folgende Animation zeigt, wie der Algorithmus funktioniert. Der Algorithmus beginnt mit dem obersten Knoten und besucht die Knoten in der nummerierten Reihenfolge.
 
-<img alt="" src='https://camo.githubusercontent.com/aaad9e39961daf34d967c616edeb50abf3bf1235/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f372f37662f44657074682d46697273742d5365617263682e676966' />
+<img alt="animation showing the depth first search algorithm" src='https://cdn.freecodecamp.org/curriculum/coding-interview-prep/depth-first-search.gif' />
 
 Im Gegensatz zur Breadth-First-Suche besucht er nicht jedes Mal, wenn ein Knoten besucht wird, alle seine Nachbarn. Stattdessen besucht er zunächst einen seiner Nachbarn und setzt diesen Weg fort, bis es auf diesem Weg keine weiteren Knoten mehr gibt, die besucht werden müssen.
 

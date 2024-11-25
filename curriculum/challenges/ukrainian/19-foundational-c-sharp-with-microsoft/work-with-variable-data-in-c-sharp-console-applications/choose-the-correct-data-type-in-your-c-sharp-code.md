@@ -20,7 +20,7 @@ dashedName: choose-the-correct-data-type-in-your-c-sharp-code
 
 ## --text--
 
-A piece of code must store whole numeric values between negative and positive `1,000,000`. Which data type should you choose?
+Фрагмент коду має зберігати цілі числові значення від `-1,000,000` до `1,000,000`. Який тип даних оберете?
 
 ## --answers--
 

@@ -20,19 +20,19 @@ dashedName: write-your-first-c-sharp-code
 
 ## --text--
 
-What is the difference between `Console.Write` and `Console.WriteLine`?
+Яка різниця між `Console.Write` та `Console.WriteLine`?
 
 ## --answers--
 
-`Console.Write` prints the output on a new line.
+`Console.Write` друкує вивід в новому рядку.
 
 ---
 
-`Console.WriteLine` prints the output on a new line.
+`Console.WriteLine` друкує вивід в новому рядку.
 
 ---
 
-`Console.WriteLine` appends a new line after the output.
+`Console.WriteLine` додає новий рядок після виводу.
 
 ## --video-solution--
 

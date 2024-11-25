@@ -7,17 +7,17 @@ dashedName: step-151
 
 # --description--
 
-Add an `else` statement to the first `if` statement inside your `attack()` function. In the `else` statement, use the `+=` operator to add the text `" You miss."` to the end of `text.innerText`.
+`attack()`関数内の最初の `if`文に、`else`文を追加してください。 `else`文の中では、`+=` 演算子を使って、`text.innerText`の末尾に `" You miss."` のテキストを追加してください。
 
 # --hints--
 
-You should add an `else` block after your `if (isMonsterHit())` block.
+`if (isMonsterHit())` ブロックの後に `else` ブロックを追加してください。
 
 ```js
 assert.match(attack.toString(), /if\s*\(\s*isMonsterHit\(\s*\)\s*\)\s*\{\s*monsterHealth\s*-=\s*weapons\s*\[\s*currentWeaponIndex\s*\]\s*\.power\s*\+\s*Math\.floor\(\s*Math\.random\(\s*\)\s*\*\s*xp\s*\)\s*\+\s*1\s*;?\s*\}\s*else/)
 ```
 
-You should add the text `" You miss."` to the end of `text.innerText`. Remember to use compound assignment and make sure there is a space before the word `You`.
+`text.innerText` の末尾にテキスト `" You miss."` を追加してください。 複合代入を使用してください。また、単語 `You` の前に必ずスペースを入れてください。
 
 ```js
 assert.match(attack.toString(), /if\s*\(\s*isMonsterHit\(\s*\)\s*\)\s*\{\s*monsterHealth\s*-=\s*weapons\s*\[\s*currentWeaponIndex\s*\]\s*\.power\s*\+\s*Math\.floor\(\s*Math\.random\(\s*\)\s*\*\s*xp\s*\)\s*\+\s*1\s*;?\s*\}\s*else\s*\{\s*text\.innerText\s*\+=\s*('|")\sYou miss\.\1/)

@@ -19,7 +19,7 @@ dashedName: problem-187-semiprimes
 `semiPrimes()` має повернути `17427258`.
 
 ```js
-assert.strictEqual(euler187(), 17427258);
+assert.strictEqual(semiPrimes(), 17427258);
 ```
 
 # --seed--

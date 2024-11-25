@@ -8,7 +8,7 @@ dashedName: demographic-data-analyzer
 
 # --description--
 
-You will be <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-demographic-data-analyzer/" target="_blank" rel="noopener noreferrer nofollow">working on this project with our Gitpod starter code</a>.
+このプロジェクトは<a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-demographic-data-analyzer/" target="_blank" rel="noopener noreferrer nofollow">こちらの Gitpod スターターコード</a>を使用して作業を行います。
 
 Python カリキュラムの対話式教育コンテンツを引き続き開発中です。 現在、下記の freeCodeCamp.org YouTube チャンネルで、このプロジェクトの完了に必要なすべての知識について説明する動画をいくつか公開しています。
 
@@ -32,7 +32,7 @@ Python カリキュラムの対話式教育コンテンツを引き続き開発�
 
 Pandas を使用して次の問いに答える必要があります。
 
-- このデータセットで表現される各人種の人数は何人ですか？ これは、人種名 (`race` column)
+- このデータセットで表現される各人種の人数は何人ですか？ これは、人種名 (`race` 列) をインデックスラベルに持つ Pandas のシリーズとして表現する必要があります。
 - 男性の平均年齢は何歳ですか？
 - 学士号を取得した人の割合は何パーセントですか？
 - 高等教育 (`Bachelors` (学士)、`Masters` (修士)、または `Doctorate` (博士)) を受けた人のうち給料が 50K を超えているのは何パーセントですか？
@@ -42,11 +42,11 @@ Pandas を使用して次の問いに答える必要があります。
 - 50K 超を稼いでいる人の割合が最も高い国はどこですか？その割合は何パーセントですか？
 - インドで 50K 超を稼いでいる人に最も人気のある職業を特定してください。
 
-Use the starter code in the file `demographic_data_analyzer.py`. Update the code so all variables set to `None` are set to the appropriate calculation or code. 小数はすべて最も近い小数点以下 1 桁に丸めてください。
+ファイル `demographic_data_analyzer.py` のスターターコードを使用してください。 `None` に設定されているすべての変数が適切な計算またはコードに設定されるように、コードを更新してください。 小数はすべて最も近い小数点以下 1 桁に丸めてください。
 
 ## 開発
 
-Write your code in `demographic_data_analyzer.py`. 開発には `main.py` を使用してコードをテストすることができます。
+`demographic_data_analyzer.py` にコードを記述してください。 開発には `main.py` を使用してコードをテストすることができます。
 
 ## テスト
 

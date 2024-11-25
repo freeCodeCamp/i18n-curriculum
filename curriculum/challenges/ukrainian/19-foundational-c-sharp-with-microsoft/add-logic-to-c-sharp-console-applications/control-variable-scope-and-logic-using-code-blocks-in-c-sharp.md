@@ -1,38 +1,38 @@
 ---
 id: 647e21658acb466c97ccbee2
-title: 'Control Variable Scope and Logic Using Code Blocks in C#'
+title: 'Керуйте областю та логікою змінної, використовуючи блоки коду в C#'
 challengeType: 19
 dashedName: control-variable-scope-and-logic-using-code-blocks-in-c-sharp
 ---
 
 # --description--
 
-This challenge will be partially completed on the Microsoft Learn platform. Follow these instructions to complete the challenge:
+Це завдання буде частково виконано на платформі Microsoft Learn. Дотримуйтесь цих інструкцій, щоб виконати завдання:
 
-1. Go to <a href="https://learn.microsoft.com/training/modules/csharp-code-blocks/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/csharp-code-blocks/</a> and complete all the tasks for the "Control Variable Scope and Logic Using Code Blocks in C#" module. This is **required** to earn the "Add Logic to C# Console Applications" trophy on Microsoft Learn, and qualify for the certification exam.
-1. When you are finished, come back and correctly answer the question below.
+1. Перейдіть до <a href="https://learn.microsoft.com/training/modules/csharp-code-blocks/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/csharp-code-blocks/</a> та виконайте всі завдання модуля «Керуйте областю та логікою змінної, використовуючи блоки коду в C#». Це **обов’язково**, щоб отримати трофей з «Додавання логіки до консольних застосунків C#» на Microsoft Learn та мати змогу скласти сертифікаційний екзамен.
+1. Як тільки завершите, поверніться та дайте правильну відповідь на запитання нижче.
 
 # --assignment--
 
-Complete the <a href="https://learn.microsoft.com/training/modules/csharp-code-blocks/" target="_blank" rel="noreferrer">Control Variable Scope and Logic Using Code Blocks in C#</a> module on Microsoft Learn. Then, answer the question below.
+Complete the <a href="https://learn.microsoft.com/training/modules/csharp-code-blocks/" target="_blank" rel="noreferrer">Control Variable Scope and Logic Using Code Blocks in C#</a> module on Microsoft Learn. Потім дайте відповідь на запитання нижче.
 
 # --questions--
 
 ## --text--
 
-Which of the following statements is true about showing/removing the curly braces for code blocks associated with an `if` statement?
+Яке з перелічених тверджень правильне щодо показу/видалення фігурних дужок в блоках коду, пов’язаних інструкцією `if`?
 
 ## --answers--
 
-The curly braces can't be removed from the code block for `else if` and `else` statements.
+Фігурні дужки не можна видалити з блоків коду інструкцій `else if` та `else`.
 
 ---
 
-If the curly braces are removed from the code blocks of an `if-elseif-else`, the white space must also be removed.
+Якщо видалити фігурні дужки з блоків коду `if-elseif-else`, також потрібно видалити пробіл.
 
 ---
 
-Always choose a style that improves readability.
+Завжди потрібно вибирати стиль, який покращує читабельність.
 
 ## --video-solution--
 

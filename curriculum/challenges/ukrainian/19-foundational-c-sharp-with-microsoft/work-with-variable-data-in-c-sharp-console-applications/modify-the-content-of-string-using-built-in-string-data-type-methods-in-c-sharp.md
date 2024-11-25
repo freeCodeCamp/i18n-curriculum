@@ -20,7 +20,7 @@ dashedName: modify-the-content-of-string-using-built-in-string-data-type-methods
 
 ## --text--
 
-Which method finds the next index of either the `-` char, the `=` char, or the `_` char?
+Який метод знаходить наступний індекс символа `-`, `=` або `_`?
 
 ## --answers--
 

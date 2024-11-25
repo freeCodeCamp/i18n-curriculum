@@ -8,7 +8,7 @@ dashedName: mean-variance-standard-deviation-calculator
 
 # --description--
 
-You will be <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mean-variance-standard-deviation-calculator/" target="_blank" rel="noopener noreferrer nofollow">working on this project with our Gitpod starter code</a>.
+このプロジェクトは<a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-mean-variance-standard-deviation-calculator/" target="_blank" rel="noopener noreferrer nofollow">こちらの Gitpod スターターコード</a>を使用して作業を行います。
 
 Python カリキュラムの対話式教育コンテンツを引き続き開発中です。 現在、下記の freeCodeCamp.org YouTube チャンネルで、このプロジェクトの完了に必要なすべての知識について説明する動画をいくつか公開しています。
 
@@ -52,7 +52,7 @@ Python カリキュラムの対話式教育コンテンツを引き続き開発�
 
 ## 開発
 
-Write your code in `mean_var_std.py`. 開発には `main.py` を使用してコードをテストすることができます。
+`mean_var_std.py` にコードを記述してください。 開発には `main.py` を使用してコードをテストすることができます。 In order to run your code, type `python3 main.py` into the GitPod terminal and hit enter. This will cause the included CPython interpreter to run the `main.py` file.
 
 ## テスト
 

@@ -8,12 +8,12 @@ dashedName: state-name-puzzle
 
 # --description--
 
-**State name** is a <em>word puzzle</em> in which you take the letters from two U.S. state names and rearrange them to form the names of two different U.S. states.
+**州名のパズル**は、アメリカ合衆国の 2 つの州名の文字を並べ替えて 2 つの異なる州の名前を作る<em>言葉のパズル</em>です。
 
 
 # --instructions--
 
-Write a function to solve the challenge for a given array of actual U.S. state names, and for fictional state names.
+与えられた実際の米国の州名と、架空の州名についてのチャレンジを解決する関数を記述してください。
 
 この関数は配列を返す必要があります。 各要素は (`{"from":[],"to":[]}`) という形式のオブジェクトでなければなりません。 `from` 配列には元の名前を含め、`to` 配列には結果として得られる名前を含める必要があります。
 

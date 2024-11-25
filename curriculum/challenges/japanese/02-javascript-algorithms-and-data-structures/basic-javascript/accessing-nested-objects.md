@@ -45,19 +45,19 @@ ourStorage.desk.drawer;
 assert(gloveBoxContents === 'maps');
 ```
 
-Your code should use dot notation, where possible, to access `myStorage`.
+可能な限りドット記法を使用して `myStorage` にアクセスする必要があります。
 
 ```js
 assert.match(code, /myStorage\.car\.inside/);
 ```
 
-`gloveBoxContents` should still be declared with `const`.
+`gloveBoxContents` は `const` で宣言する必要があります。
 
 ```js
 assert.match(code, /const\s+gloveBoxContents\s*=/);
 ```
 
-You should not change the `myStorage` object.
+`myStorage` オブジェクトは変更しないでください。
 
 ```js
 const expectedMyStorage = {

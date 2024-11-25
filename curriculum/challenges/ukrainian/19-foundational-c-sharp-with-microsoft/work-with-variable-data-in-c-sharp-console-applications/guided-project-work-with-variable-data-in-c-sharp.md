@@ -20,21 +20,21 @@ dashedName: guided-project-work-with-variable-data-in-c-sharp
 
 ## --text--
 
-For the code `decimal.TryParse(numberString, out myConvert))` when the type of `numberString` is a String.
+Дано код `decimal.TryParse(numberString, out myConvert))`, де типом `numberString` є рядок.
 
-Which best describes the value type for `myConvert` when the `TryParse()` is successful?
+Що найкраще описує тип значення `myConvert`, коли `TryParse()` успішний?
 
 ## --answers--
 
-A string representing numeric digits.
+Рядок, який представляє числа.
 
 ---
 
-A Boolean value.
+Булеве значення.
 
 ---
 
-A decimal
+Десяткове число
 
 ## --video-solution--
 

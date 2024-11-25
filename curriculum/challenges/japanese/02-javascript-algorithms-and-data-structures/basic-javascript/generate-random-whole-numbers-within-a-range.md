@@ -21,7 +21,7 @@ Math.floor(Math.random() * (max - min + 1)) + min
 
 # --instructions--
 
-Create a function called `randomRange` that takes a range `myMin` and `myMax` and returns a random whole number that's greater than or equal to `myMin` and less than or equal to `myMax`.
+`myMin` から `myMax` までを範囲とする `randomRange` という関数を作成し、`myMin` 以上 `myMax` 以下の整数の乱数を返してください。
 
 # --hints--
 

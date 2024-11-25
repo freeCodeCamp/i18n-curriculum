@@ -8,7 +8,7 @@ dashedName: page-view-time-series-visualizer
 
 # --description--
 
-You will be <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-page-view-time-series-visualizer" target="_blank" rel="noopener noreferrer nofollow">working on this project with our Gitpod starter code</a>.
+このプロジェクトは<a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-page-view-time-series-visualizer" target="_blank" rel="noopener noreferrer nofollow">こちらの Gitpod スターターコード</a>を使用して作業を行います。
 
 Python カリキュラムの対話式教育コンテンツを引き続き開発中です。 現在、下記の freeCodeCamp.org YouTube チャンネルで、このプロジェクトの完了に必要なすべての知識について説明する動画をいくつか公開しています。
 
@@ -34,7 +34,7 @@ Python カリキュラムの対話式教育コンテンツを引き続き開発�
 
 ## 開発
 
-Write your code in `time_series_visualizer.py`. 開発には `main.py` を使用してコードをテストすることができます。
+`time_series_visualizer.py` にコードを記述してください。 開発には `main.py` を使用してコードをテストすることができます。
 
 ## テスト
 

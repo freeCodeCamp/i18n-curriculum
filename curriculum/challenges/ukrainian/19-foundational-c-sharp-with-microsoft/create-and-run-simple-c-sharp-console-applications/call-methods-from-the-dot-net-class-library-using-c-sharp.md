@@ -20,19 +20,19 @@ dashedName: call-methods-from-the-dot-net-class-library-using-c-sharp
 
 ## --text--
 
-What is an object?
+Що таке об’єкт?
 
 ## --answers--
 
-A memory address.
+Адреса пам’яті.
 
 ---
 
-A stateless class.
+Клас без стану.
 
 ---
 
-An instance of a class.
+Екземпляр класу.
 
 ## --video-solution--
 

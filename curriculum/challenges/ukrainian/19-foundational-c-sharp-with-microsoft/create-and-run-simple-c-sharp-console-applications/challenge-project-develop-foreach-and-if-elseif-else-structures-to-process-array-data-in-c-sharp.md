@@ -20,19 +20,19 @@ dashedName: challenge-project-develop-foreach-and-if-elseif-else-structures-to-p
 
 ## --text--
 
-A developer is working with two other developers to update a collection of applications. The developers will use code comments during the update process. Which of the following describes an appropriate use of code comments?
+Розробник працює з двома іншими розробниками над оновленням застосунків. Вони використовуватимуть коментарі під час процесу оновлення. У якому випадку доречно використовувати коментарі в коді?
 
 ## --answers--
 
-When updates are made, the developers use line and block comments to identify each individual code update.
+Розробники використовують лінійні та блокові коментарі, щоб ідентифікувати оновлення кожного з них.
 
 ---
 
-When updates are made, the developers leave all existing code comments intact. New comments are added to indicate when old comments no longer apply.
+Розробники не змінюють наявних коментарів коду. Вони додають нові коментарі, щоб вказати, що старі коментарі більше не застосовуються.
 
 ---
 
-When updates are made, the developers summarize changes using block comments.
+Розробники узагальнюють зміни, використовуючи блокові коментарі.
 
 ## --video-solution--
 

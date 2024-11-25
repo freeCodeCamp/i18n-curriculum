@@ -20,19 +20,19 @@ dashedName: create-readable-code-with-conventions-whitespace-and-comments-in-c-s
 
 ## --text--
 
-Which of the following is a bad reason to use a code comment?
+З якою метою краще не використовувати коментар в коді?
 
 ## --answers--
 
-To describe the high-level intent of the code.
+Щоб описати код на високому рівні.
 
 ---
 
-To temporarily comment out a line of code while evaluating a feature in a different way.
+Щоб тимчасово прокоментувати рядок коду під час обчислення функції по-іншому.
 
 ---
 
-To explain how a new C# keyword works.
+Щоб пояснити, як працює нове ключове слово C#.
 
 ## --video-solution--
 

@@ -20,19 +20,19 @@ dashedName: implement-exception-handling-in-c-sharp-console-applications
 
 ## --text--
 
-When is an `ArrayTypeMismatchException` exception thrown?
+Коли викидається виняток `ArrayTypeMismatchException`?
 
 ## --answers--
 
-An `ArrayTypeMismatchException` exception is thrown when an attempt is made to store a value of one type in an array of another type.
+Виняток `ArrayTypeMismatchException` викидається при спробі зберегти значення одного типу в масиві іншого типу.
 
 ---
 
-An `ArrayTypeMismatchException` exception is thrown when attempting to access a member on a type whose value is null.
+Виняток `ArrayTypeMismatchException` викидається при спробі отримати доступ до елемента, значення якого рівне нулю.
 
 ---
 
-An `ArrayTypeMismatchException` exception is thrown when an attempt is made to index an array outside the bounds of the array.
+Виняток `ArrayTypeMismatchException` викидається при спробі індексувати масив за межами масиву.
 
 ## --video-solution--
 

@@ -20,19 +20,19 @@ dashedName: challenge-project-develop-branching-and-looping-structures-in-c-shar
 
 ## --text--
 
-A developer needs to create an iteration statement. Under what condition is a `while` statement a better choice than a `do` statement?
+Розробнику потрібно створити інструкцію ітерації. У якому випадку краще використати інструкцію `while`, а не `do`?
 
 ## --answers--
 
-When the expression values evaluated by the iteration statement are unknown prior to the iteration code block.
+Коли значення виразу, обчислені інструкцією ітерації, невідомі перед блоком коду ітерації.
 
 ---
 
-When the expression values evaluated by the iteration statement are known prior to the iteration code block.
+Коли значення виразу, обчислені інструкцією ітерації, відомі перед блоком коду ітерації.
 
 ---
 
-When the developer creates nested `do` or `while` loops.
+Коли розробник створює вкладені цикли `do` або `while`.
 
 ## --video-solution--
 

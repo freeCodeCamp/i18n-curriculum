@@ -9,11 +9,11 @@ dashedName: mitigate-the-risk-of-cross-site-scripting-xss-attacks-with-helmet-xs
 
 # --description--
 
-As a reminder, this project is being built upon the following starter project on <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-infosec/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>, or cloned from <a href="https://github.com/freeCodeCamp/boilerplate-infosec/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
+注意点として、このプロジェクトは <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-infosec/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a> にある次のスタータープロジェクトをベースに構築されているか、または <a href="https://github.com/freeCodeCamp/boilerplate-infosec/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a> からクローンされています。
 
 クロスサイトスクリプティング (XSS) はよくある攻撃の一種で、セッションの cookie やパスワードなどの機密データを盗む目的で、悪意のあるスクリプトを脆弱なページに挿入するものです。
 
-The basic rule to lower the risk of an XSS attack is simple: "Never trust user's input". 開発者は外部からのすべての入力を常にサニタイズ (洗浄) する必要があります。 そうした入力には、フォームからのデータ、GET クエリ URL からのデータ、さらには POST ボディからのデータなどがあります。 サニタイズとは、&lt;、> といったの危険性のある文字を検出してエンコードすることです。
+XSS 攻撃のリスクを軽減するための基本的なルールはシンプルで、「ユーザーの入力を決して信用しない」ことです。 開発者は外部からのすべての入力を常にサニタイズ (洗浄) する必要があります。 そうした入力には、フォームからのデータ、GET クエリ URL からのデータ、さらには POST ボディからのデータなどがあります。 サニタイズとは、&lt;、> といったの危険性のある文字を検出してエンコードすることです。
 
 最新のブラウザーでは、より優れたソフトウェア戦略が採用されており、リスクの軽減に役立つ可能性があります。 多くの場合、それらは http ヘッダーを介して設定できます。
 

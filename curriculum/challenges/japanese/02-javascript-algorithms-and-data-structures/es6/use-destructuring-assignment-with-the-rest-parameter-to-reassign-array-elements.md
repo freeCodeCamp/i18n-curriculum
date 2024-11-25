@@ -50,7 +50,7 @@ assert.deepEqual(_testArr, [1, 2, 3, 4, 5])
 assert(!__helpers.removeJSComments(code).match(/\.\s*slice\s*\(/));
 ```
 
-You should use the rest syntax.
+残余構文を使用してください。
 
 ```js
 assert.match(code, /\.\.\./);

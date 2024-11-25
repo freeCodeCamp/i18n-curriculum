@@ -19,7 +19,7 @@ Quanti numeri interi composti, $n &lt; {10}^8$, hanno precisamente due, non nece
 `semiPrimes()` dovrebbe restituire `17427258`.
 
 ```js
-assert.strictEqual(euler187(), 17427258);
+assert.strictEqual(semiPrimes(), 17427258);
 ```
 
 # --seed--

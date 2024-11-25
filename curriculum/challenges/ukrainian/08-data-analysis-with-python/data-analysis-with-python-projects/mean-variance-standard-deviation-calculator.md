@@ -52,7 +52,7 @@ You will be <a href="https://gitpod.io/?autostart=true#https://github.com/freeCo
 
 ## Development
 
-Напишіть свій код в `mean_var_std.py`. Для розробки ви можете використати `main.py`, щоб протестувати свій код.
+Напишіть свій код в `mean_var_std.py`. Для розробки ви можете використати `main.py`, щоб протестувати свій код. In order to run your code, type `python3 main.py` into the GitPod terminal and hit enter. This will cause the included CPython interpreter to run the `main.py` file.
 
 ## Тестування
 

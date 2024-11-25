@@ -20,19 +20,19 @@ dashedName: convert-data-types-using-casting-and-conversion-techniques-in-c-shar
 
 ## --text--
 
-What type of action is being performed when changing a `float` into an `int`?
+Яка дія виконується при зміні `float` на `int`?
 
 ## --answers--
 
-A narrowing conversion.
+Звуження.
 
 ---
 
-A widening conversion.
+Розширення.
 
 ---
 
-An illegal conversion.
+Заборонене перетворення.
 
 ## --video-solution--
 

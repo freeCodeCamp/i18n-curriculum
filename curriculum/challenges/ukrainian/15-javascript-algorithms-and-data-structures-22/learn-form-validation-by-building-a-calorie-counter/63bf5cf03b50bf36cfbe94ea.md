@@ -1,6 +1,6 @@
 ---
 id: 63bf5cf03b50bf36cfbe94ea
-title: Step 39
+title: Крок 39
 challengeType: 0
 dashedName: step-39
 ---
@@ -13,7 +13,7 @@ Now that you have finished testing the value of `entryDropdown.value`, you can r
 
 # --hints--
 
-You should remove the `console.log` statement.
+Видаліть інструкцію `console.log`.
 
 ```js
 assert.notMatch(code, /console\.log\s*\(.*\)/)

@@ -16,7 +16,7 @@ Similar to <dfn>breadth-first search</dfn>, here we will learn about another gra
 
 На анімації нижче наочно показано, яким чином працює цей алгоритм. Алгоритм починається з верхньої вершини і проходить по вершинах так, як пронумеровано на анімації.
 
-<img alt="" src='https://camo.githubusercontent.com/aaad9e39961daf34d967c616edeb50abf3bf1235/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f372f37662f44657074682d46697273742d5365617263682e676966' />
+<img alt="animation showing the depth first search algorithm" src='https://cdn.freecodecamp.org/curriculum/coding-interview-prep/depth-first-search.gif' />
 
 Зверніть увагу: щоразу, коли цей алгоритм відвідує якусь вершину, він не проходить всіх сусідів (на відміну від пошуку в ширину). Натомість він спочатку відвідує одну з сусідніх вершин і далі проходить вниз, допоки не відвідає всі вершини на цьому шляху.
 

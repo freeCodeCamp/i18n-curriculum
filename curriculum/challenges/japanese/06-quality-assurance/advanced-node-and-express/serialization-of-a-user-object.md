@@ -8,9 +8,9 @@ dashedName: serialization-of-a-user-object
 
 # --description--
 
-Serialization and deserialization are important concepts in regard to authentication. オブジェクトをシリアライズするとは、その内容を小さな*キー*に変換して、元のオブジェクトにデシリアライズできるようにすることを意味します。 これにより、 新しいページをリクエストするたびにユーザー名とパスワードのような認証データを送信することなく、誰がサーバーと通信したかを知ることができます。
+シリアライズとデシリアライズは認証に関する重要な概念です。 オブジェクトをシリアライズするとは、その内容を小さな*キー*に変換して、元のオブジェクトにデシリアライズできるようにすることを意味します。 これにより、 新しいページをリクエストするたびにユーザー名とパスワードのような認証データを送信することなく、誰がサーバーと通信したかを知ることができます。
 
-To set this up properly, you need to have a serialize function and a deserialize function. In Passport, these can be created with:
+これを適切に設定するには、シリアライズ関数とデシリアライズ関数が必要です。 In Passport, these can be created with:
 
 ```javascript
 passport.serializeUser(cb);

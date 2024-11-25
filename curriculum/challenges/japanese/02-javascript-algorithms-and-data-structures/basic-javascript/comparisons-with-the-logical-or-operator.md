@@ -13,7 +13,7 @@ dashedName: comparisons-with-the-logical-or-operator
 
 <dfn>論理和</dfn>演算子は 2 本のパイプ記号 (`||`) で構成されます。 この記号のキーは通常、バックスペースキーと Enter キーの間近くにあります。
 
-The pattern below should look familiar from prior waypoints.
+次のようなパターンは以前のチャレンジでも登場しています。
 
 ```js
 if (num > 10) {

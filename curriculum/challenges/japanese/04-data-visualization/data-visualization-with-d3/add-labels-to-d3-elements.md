@@ -10,7 +10,7 @@ dashedName: add-labels-to-d3-elements
 
 D3 では、SVG `text` 要素を使用して、バーなどのグラフ要素にラベルを付けることができます。
 
-Like the `rect` element, a `text` element needs to have `x` and `y` attributes, to place it on the SVG. これらの値を表示するにはデータへのアクセスも必要です。
+SVG 上の配置を調整するため、`rect` 要素の場合と同様に `text` 要素にも `x` および `y` 属性が必要です。 これらの値を表示するにはデータへのアクセスも必要です。
 
 D3 では、バーにラベルを付ける方法を高度にコントロールできます。
 

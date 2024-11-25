@@ -19,7 +19,7 @@ dashedName: problem-187-semiprimes
 `semiPrimes()` は `17427258` を返す必要があります。
 
 ```js
-assert.strictEqual(euler187(), 17427258);
+assert.strictEqual(semiPrimes(), 17427258);
 ```
 
 # --seed--

@@ -39,7 +39,7 @@ assert(__helpers.removeJSComments(code).match(/\.slice/g));
 assert(!__helpers.removeJSComments(code).match(/\.?[\s\S]*?splice/g));
 ```
 
-You should not mutate the original array passed to the function.
+関数に渡された元の配列をミューテートさせないでください。
 
 ```js
 assert.deepEqual(_inputCities, ["Chicago", "Delhi", "Islamabad", "London", "Berlin"]);

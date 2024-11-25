@@ -20,9 +20,9 @@ dashedName: guided-project-calculate-final-gpa
 
 ## --text--
 
-Suppose `decimal gradePointAverage = 3.99872831m;`.
+Припустимо, що `decimal gradePointAverage = 3.99872831m;`.
 
-What is the value of `(int) gradePointAverage`?
+Яким буде значення `(int) gradePointAverage`?
 
 ## --answers--
 

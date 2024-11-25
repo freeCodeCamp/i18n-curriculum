@@ -20,19 +20,19 @@ dashedName: review-the-principles-of-code-debugging-and-exception-handling
 
 ## --text--
 
-What is the relationship between the type of exception and the information it contains?
+Який зв’язок між типом винятку та інформацією, яку він містить?
 
 ## --answers--
 
-The type of exception determines the information it contains.
+Тип винятку визначає інформацію, яку він містить.
 
 ---
 
-The type of exception and the information it contains are unrelated.
+Тип винятку та інформація, яку він містить, не пов’язані.
 
 ---
 
-The information contained in an exception determines the type of exception.
+Інформація, яку містить виняток, визначає тип винятку.
 
 ## --video-solution--
 

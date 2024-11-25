@@ -20,7 +20,7 @@ dashedName: add-decision-logic-to-your-code-using-if-else-and-else-if-statements
 
 ## --text--
 
-Which of the choices below is not a valid operator in C#?
+Що з переліченого не є дійсним оператором в C#?
 
 ## --answers--
 
