@@ -1,13 +1,13 @@
 ---
 id: 5efada803cbd2bbdab94e332
-title: Step 31
+title: 步驟 31
 challengeType: 0
 dashedName: step-31
 ---
 
 # --description--
 
-Inside the `figure` element you just added, nest an `img` element with a `src` attribute set to `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
+在你剛剛添加的 `figure` 元素中，嵌套一個 `img` 元素，其中 `src` 屬性設置爲 `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`。
 
 # --hints--
 

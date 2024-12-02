@@ -14,7 +14,7 @@ Return the factorial of the provided integer.
 
 階乘通常用符號 `n!` 來表示。
 
-例如：`5! = 1 * 2 * 3 * 4 * 5 = 120`
+For example: `5! = 1 * 2 * 3 * 4 * 5 = 120`
 
 在這個挑戰中，只有非負整數會作爲參數傳入函數。
 

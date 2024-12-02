@@ -16,7 +16,7 @@ Similar to <dfn>breadth-first search</dfn>, here we will learn about another gra
 
 下面的动画展示了算法的工作原理。 该算法从顶部节点开始，并按编号顺序访问节点。
 
-<img alt="" src='https://camo.githubusercontent.com/aaad9e39961daf34d967c616edeb50abf3bf1235/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f372f37662f44657074682d46697273742d5365617263682e676966' />
+<img alt="animation showing the depth first search algorithm" src='https://cdn.freecodecamp.org/curriculum/coding-interview-prep/depth-first-search.gif' />
 
 请注意，与广度优先搜索不同的是，每次访问一个节点时，它不会访问其所有邻居。 相反，它首先访问它的一个邻居，并继续沿着该路径前进，直到该路径上没有更多的节点可供访问。
 

@@ -1,13 +1,13 @@
 ---
 id: 5efae0543cbd2bbdab94e333
-title: Step 32
+title: 步驟 32
 challengeType: 0
 dashedName: step-32
 ---
 
 # --description--
 
-To improve accessibility of the image you added, add an `alt` attribute with the text:
+爲了提高你剛剛添加的圖像的可訪問性，添加具有以下文本的 `alt` 屬性。
 
 `Five cats looking around a field.`
 
