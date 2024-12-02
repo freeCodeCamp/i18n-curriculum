@@ -19,7 +19,7 @@ A composite is a number containing at least two prime factors. For example, $15 
 `semiPrimes()` 应该返回 `17427258`.
 
 ```js
-assert.strictEqual(euler187(), 17427258);
+assert.strictEqual(semiPrimes(), 17427258);
 ```
 
 # --seed--

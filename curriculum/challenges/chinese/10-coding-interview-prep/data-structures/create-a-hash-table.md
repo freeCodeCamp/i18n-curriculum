@@ -24,176 +24,126 @@ In this challenge we will learn about hash tables. A Hash table is used to imple
 
 # --hints--
 
+The `hash` function should be valid.
+
+```js
+let calls = 0;
+const ourHash = string => {
+  calls++;
+  let hashCode = 0;
+  for (let i = 0; i < string.length; i++) {
+    hashCode += string.charCodeAt(i);
+  }
+  return hashCode;
+};
+
+assert.strictEqual(hash('yek'),ourHash('yek'));
+
+assert.strictEqual(hash('key'),ourHash('key'));
+assert.strictEqual(hash('key1'),ourHash('key1'));
+assert.strictEqual(hash('key2'),ourHash('key2'));
+assert.strictEqual(hash('key3'),ourHash('key3'));
+
+assert.strictEqual(hash('1key'),ourHash('1key'));
+assert.strictEqual(hash('ke1y'),ourHash('ke1y'));
+assert.strictEqual(hash('altKey'),ourHash('altKey'));
+
+assert.strictEqual(called,calls); 
+```
+
 叫做 `HashTable` 的数据接口应当存在。
 
 ```js
-assert(
-  (function () {
-    var test = false;
-    if (typeof HashTable !== 'undefined') {
-      test = new HashTable();
-    }
-    return typeof test === 'object';
-  })()
-);
+assert.isDefined(HashTable); 
+let newHashTable = new HashTable(); 
+assert.isObject(newHashTable); 
 ```
 
 哈希表应当包含一个`add` 方法。
 
 ```js
-assert(
-  (function () {
-    var test = false;
-    if (typeof HashTable !== 'undefined') {
-      test = new HashTable();
-    }
-    return typeof test.add === 'function';
-  })()
-);
+let newHashTable = new HashTable(); 
+assert.isFunction(newHashTable.add); 
 ```
 
 哈希表，又叫 `HashTable` ，应当包含一个 `lookup` ，即查询的方法。
 
 ```js
-assert(
-  (function () {
-    var test = false;
-    if (typeof HashTable !== 'undefined') {
-      test = new HashTable();
-    }
-    return typeof test.lookup === 'function';
-  })()
-);
+let newHashTable = new HashTable(); 
+assert.isFunction(newHashTable.lookup); 
 ```
 
 哈希表 `HashTable` 应当包含一个 `remove`，即删除的方法。
 
 ```js
-assert(
-  (function () {
-    var test = false;
-    if (typeof HashTable !== 'undefined') {
-      test = new HashTable();
-    }
-    return typeof test.remove === 'function';
-  })()
-);
+let newHashTable = new HashTable(); 
+assert.isFunction(newHashTable.remove); 
 ```
 
 哈希表中的新增，即 `add` 方法，应当存在一个键值对，而 查找，即`lookup` 方法应当返回一个由特定的key关联的值。
 
 ```js
-assert(
-  (function () {
-    var test = false;
-    if (typeof HashTable !== 'undefined') {
-      test = new HashTable();
-    }
-    test.add('key', 'value');
-    return test.lookup('key') === 'value';
-  })()
-);
+let newHashTable = new HashTable(); 
+newHashTable.add('key','value');
+assert.strictEqual(newHashTable.lookup('key'),'value'); 
 ```
 
 删除，即`remove`方法，应当接受一个key作为输入，并且删除对应的键值对。
 
 ```js
-assert(
-  (function () {
-    var test = false;
-    var hashValue = hash('key');
-    if (typeof HashTable !== 'undefined') {
-      test = new HashTable();
-    }
-    test.add('key', 'value');
-
-    test.remove('key');
-    return !test.collection.hasOwnProperty(hashValue);
-  })()
-);
+let hashValue = hash('key');
+let newHashTable = new HashTable(); 
+newHashTable.add('key','value');
+newHashTable.remove('key'); 
+assert.notProperty(newHashTable.collection,hashValue); 
 ```
 
 `remove` 方法应该删除正确的键值对。
 
 ```js
-assert(
-  (function () {
-    var test = false;
-    var hashValue = hash('key');
-    if (typeof HashTable !== 'undefined') {
-      test = new HashTable();
-    }
-    test.add('key', 'value');
-    test.add('yek', 'value');
-    test.add('altKey', 'value');
+let newHashTable = new HashTable(); 
+let hashValue = hash('key');
+newHashTable.add('key','value');
+newHashTable.add('yek','value');
+newHashTable.add('altKey','value');
+newHashTable.remove('yek');
 
-    test.remove('yek');
-    if (test.lookup('yek') || !test.lookup('key') || !test.lookup('altKey')) {
-      return false;
-    }
+assert.notExists(newHashTable.lookup('yek'));
+assert.exists(newHashTable.lookup('altKey'));
+assert.exists(newHashTable.lookup('key'));
 
-    test.remove('key');
+newHashTable.remove('key');
 
-    return !test.collection.hasOwnProperty(hashValue) && test.lookup('altKey');
-  })()
-);
+assert.notProperty(newHashTable.collection,hashValue); 
+assert.exists(newHashTable.lookup('altKey'));
+
 ```
 
 应使用哈希函数添加项目。
 
 ```js
-assert(
-  (function () {
-    var test = false;
-    if (typeof HashTable !== 'undefined') {
-      test = new HashTable();
-    }
-    called = 0;
-    test.add('key1', 'value1');
-    test.add('key2', 'value2');
-    test.add('key3', 'value3');
-    return called >= 3 && called % 3 === 0;
-  })()
-);
+let newHashTable = new HashTable(); 
+called = 0;
+newHashTable.add('key1', 'value1')
+newHashTable.add('key2', 'value2');
+newHashTable.add('key3', 'value3');
+assert.strictEqual(called,3); 
 ```
 
 哈希表应该处理冲突。
 
 ```js
-assert(
-  (function () {
-    var test = false;
-    if (typeof HashTable !== 'undefined') {
-      test = new HashTable();
-    }
-    called = 0;
-    test.add('key1', 'value1');
-    test.add('1key', 'value2');
-    test.add('ke1y', 'value3');
-    return (
-      test.lookup('key1') === 'value1' &&
-      test.lookup('1key') == 'value2' &&
-      test.lookup('ke1y') == 'value3'
-    );
-  })()
-);
+let newHashTable = new HashTable(); 
+called = 0;
+newHashTable.add('key1','value1');
+newHashTable.add('1key', 'value2'); 
+newHashTable.add('ke1y', 'value3'); 
+assert.strictEqual(newHashTable.lookup('key1'),'value1');
+assert.strictEqual(newHashTable.lookup('1key'),'value2');
+assert.strictEqual(newHashTable.lookup('ke1y'),'value3');
 ```
 
 # --seed--
-
-## --before-user-code--
-
-```js
-var called = 0;
-var hash = string => {
-  called++;
-  var hash = 0;
-  for (var i = 0; i < string.length; i++) {
-    hash += string.charCodeAt(i);
-  }
-  return hash;
-};
-```
 
 ## --seed-contents--
 

@@ -1,13 +1,13 @@
 ---
 id: 5efae16e3cbd2bbdab94e334
-title: Step 33
+title: 步骤 33
 challengeType: 0
 dashedName: step-33
 ---
 
 # --description--
 
-After the last `img` element, add a `figcaption` element with the text `Cats hate other cats.`
+在最后一个 `img` 元素之后，添加一个 `figcaption` 元素，其文本为 `Cats hate other cats.`。
 
 # --hints--
 

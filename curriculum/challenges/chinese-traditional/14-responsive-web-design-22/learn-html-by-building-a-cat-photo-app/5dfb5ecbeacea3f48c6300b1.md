@@ -1,13 +1,13 @@
 ---
 id: 5dfb5ecbeacea3f48c6300b1
-title: Step 23
+title: 步驟 23
 challengeType: 0
 dashedName: step-23
 ---
 
 # --description--
 
-The `li` element is used to create a list item in an ordered or unordered list.
+`li` 元素用於在有序或無序列表中創建一個列表項。
 
 這是一個無序列表中列表項的示例：
 
