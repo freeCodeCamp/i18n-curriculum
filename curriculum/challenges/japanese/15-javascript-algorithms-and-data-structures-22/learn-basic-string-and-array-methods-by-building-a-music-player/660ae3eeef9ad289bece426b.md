@@ -7,17 +7,17 @@ dashedName: step-11
 
 # --description--
 
-In the previous projects, you used regular functions. But in the rest of the projects, you will be working with <dfn>arrow functions</dfn>. The next few steps will focus on teaching you the basics of arrow functions.
+ここまでのプロジェクトでは、通常の関数を使用しました。 ここからのプロジェクトでは<dfn>アロー関数</dfn>を使用します。 ここからいくつかのステップで、アロー関数の基本について学びます。
 
-An arrow function is an anonymous function expression and a shorter way to write functions. Anonymous means that the function does not have a name. Arrow functions are always anonymous.
+アロー関数は無名関数式であり、関数をより短く書ける方法です。 無名 (Anonymous) とは、関数に名前がないことを意味します。 アロー関数は常に無名です。
 
-Here is the basic syntax:
+基本的な構文は次のとおりです。
 
 ```js
 () => {}
 ```
 
-To create a named arrow function, you can assign the function to a variable:
+名前付きアロー関数を作成するには、関数を変数に代入します。
 
 ```js
 const exampleFunction = () => {
@@ -25,23 +25,23 @@ const exampleFunction = () => {
 }
 ```
 
-Create a new named arrow function called `printGreeting`. Inside the body of that function use the `console.log()` method to print the string `"Hello there!"`.
+では、`printGreeting` という新しい名前付きアロー関数を作成してください。 その関数の本体内で、`console.log()` メソッドを使用して文字列 `"Hello there!"` を出力してください。
 
 # --hints--
 
-You should have a function called `printGreeting`.
+`printGreeting` という関数が必要です。
 
 ```js
 assert.isFunction(printGreeting);
 ```
 
-You should use arrow syntax to create the `printGreeting` function.
+`printGreeting` 関数を作成するにはアロー構文を使用してください。
 
 ```js
 assert.match(code, /(let|const)\s+printGreeting\s*=\s*\(.*\)\s*=>\s*{\s*[\s\S]*}\s*;?/)
 ```
 
-Your `printGreeting` function should include a `console.log('Hello there!')`.
+`printGreeting` 関数内に `console.log('Hello there!')` が必要です。
 
 ```js
 assert.match(printGreeting.toString(), /console\.log\(['"]Hello\s+there!['"]\)/);
