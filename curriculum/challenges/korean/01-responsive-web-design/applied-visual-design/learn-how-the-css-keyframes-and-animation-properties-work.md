@@ -9,7 +9,7 @@ dashedName: learn-how-the-css-keyframes-and-animation-properties-work
 
 # --description--
 
-To animate an element, you need to know about the animation properties and the `@keyframes` rule. The animation properties control how the animation should behave and the `@keyframes` rule controls what happens during that animation. There are eight animation properties in total. This challenge will keep it simple and cover the two most important ones first:
+요소에 애니메이션을 적용하려면 animation 속성 및 `@keyframes`규칙에 대해 이해해야 합니다 Animation 속성은 애니메이션 동작을 제어하며, `@keyframes` 규칙은 애니메이션이 진행되는 동안 중간 동작을 정의합니다. Animation 속성은 총 8가지가 있습니다. 이 챌린지에서는 간단하게 두 가지 주요 측면을 다룰 것입니다.
 
 `animation-name` 속성은 애니메이션의 이름을 설정합니다. 이 이름은 `@keyframes`를 사용할 때 CSS에게 어떤 규칙이 어떤 애니메이션에 적용되어야 하는지 알려줍니다.
 

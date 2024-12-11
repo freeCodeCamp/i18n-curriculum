@@ -7,7 +7,7 @@ dashedName: step-37
 
 # --description--
 
-Notice that the red and cyan colors are very bright right next to each other. This contrast can be distracting if it's overused on a website, and can make text hard to read if it's placed on a complementary-colored background.
+Beachte, dass die roten und cyanischen Farben nebeneinander sehr hell sind. Dieser Kontrast kann ablenkend sein, wenn er auf einer Webseite übermäßig verwendet wird und er kann den Text schwer lesbar machen, wenn er auf einem komplementärfarbenen Hintergrund platziert ist.
 
 Es ist besser eine Farbe als dominante Farbe zu wählen und seine Komplementärfarbe als Akzent zu verwenden, um auf bestimmte Inhalte der Seite aufmerksam zu machen.
 

@@ -9,7 +9,7 @@ dashedName: give-links-meaning-by-using-descriptive-link-text
 
 # --description--
 
-Screen reader users have various options for what type of content their device reads. These options include skipping to (or over) landmark elements, jumping to the main content, or getting a page summary from the headings. Another option is to only hear the links available on a page.
+스크린 리더(screen reader) 사용자들은 자신들의 기기가 어떤 유형의 내용을 읽는지에 관해 다양한 선택지가 있습니다. 이 선택지들은 랜드마크(landmark) 요소로 건너뛰기, 본문으로 넘어가기 혹은 글머리에서 페이지 요약 가져오기 등이 있습니다. 다른 선택지로는 한 페이지 내에서 가능한 링크들을 듣는 것입니다.
 
 스크린 리더는 링크 텍스트 혹은 (`a`) 태그 사이에 무엇이 있는지 읽어서 이 작업을 합니다. "여기를 클릭하세요" 혹은 "더보기" 같은 링크들은 도움이 되지 않습니다. 대신에 스크린 리더 사용자들에게 더 많은 의미를 제공하려면 `a` 태그에 설명이 간결하고 명확한 텍스트를 사용하면 됩니다.
 

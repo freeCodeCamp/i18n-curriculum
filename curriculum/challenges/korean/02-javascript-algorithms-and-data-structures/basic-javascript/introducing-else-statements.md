@@ -9,7 +9,7 @@ dashedName: introducing-else-statements
 
 # --description--
 
-When a condition for an `if` statement is true, the block of code following it is executed. What about when that condition is false? Normally nothing would happen. With an `else` statement, an alternate block of code can be executed.
+`if`문에 대한 조건이 참일 때 뒤따르는 코드 블럭이 실행됩니다. 해당 조건이 거짓일 때는 어떨까요? 보통 아무 일도 일어나지 않습니다. `else` 문으로 다른 코드 블럭이 실행될 수 있습니다.
 
 ```js
 if (num > 10) {

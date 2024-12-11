@@ -9,7 +9,7 @@ dashedName: create-an-ordered-list
 
 # --description--
 
-HTML has another special element for creating <dfn>ordered lists</dfn>, or numbered lists.
+HTML은 <dfn>순서가 있는 목록</dfn> 혹은 번호가 매겨진 목록을 만들기 위한 특별한 요소를 제공합니다.
 
 순서가 있는 목록은 `<ol>` 요소로 시작하며 `<li>` 요소가 뒤따릅니다. 마지막으로 순서가 있는 목록은 `</ol>` 태그로 닫힙니다.
 

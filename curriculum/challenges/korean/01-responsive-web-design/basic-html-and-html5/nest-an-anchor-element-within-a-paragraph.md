@@ -8,7 +8,7 @@ dashedName: nest-an-anchor-element-within-a-paragraph
 
 # --description--
 
-You can nest links within other text elements.
+다른 텍스트 요소 내에 링크를 중첩할 수 있습니다.
 
 ```html
 <p>

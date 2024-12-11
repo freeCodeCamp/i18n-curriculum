@@ -9,7 +9,7 @@ dashedName: override-styles-in-subsequent-css
 
 # --description--
 
-Our `pink-text` class overrode our `body` element's CSS declaration!
+우리의 `pink-text` 클래스가 `body` 요소의 CSS 선언을 덮어쓰게 되었습니다!
 
 우리는 방금 클래스가 `body` 요소의 CSS를 덮어쓸 수 있음을 증명했습니다. 그러면 논리적으로 할 수 있는 다음 질문은, `pink-text` 클래스를 덮어쓰기 위해 우리가 할 수 있는 일은 무엇일까요?
 

@@ -8,7 +8,7 @@ dashedName: use-the-delete-keyword-to-remove-object-properties
 
 # --description--
 
-Now you know what objects are and their basic features and advantages. In short, they are key-value stores which provide a flexible, intuitive way to structure data, ***and***, they provide very fast lookup time. Throughout the rest of these challenges, we will describe several common operations you can perform on objects so you can become comfortable applying these useful data structures in your programs.
+이제 객체가 무엇이며 그들의 기본적인 특징과 장점을 알게 되었습니다. 간단히 말해, 그들은 데이터를 구조화하는 유연하고 직관적인 방법을 제공하는 키-값 저장소임과 ***동시에*** 매우 빠른 조회 시간을 제공합니다. 이 과제의 나머지 부분에서는 객체에서 수행할 수 있는 여러 일반적인 작업에 대해 설명하여 여러분이 프로그램에서 이 유용한 데이터 구조를 적용하는 데 익숙해지도록 도와드리겠습니다.
 
 이전 과제에서 객체의 키-값 쌍을 추가하고 수정해봤습니다. 여기에서는 어떻게 객체로부터 키-값 쌍을 지울 수 있는지 알아보겠습니다.
 

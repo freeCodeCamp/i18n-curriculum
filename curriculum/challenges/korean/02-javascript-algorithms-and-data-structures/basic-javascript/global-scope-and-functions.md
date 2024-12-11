@@ -9,7 +9,7 @@ dashedName: global-scope-and-functions
 
 # --description--
 
-In JavaScript, <dfn>scope</dfn> refers to the visibility of variables. Variables which are defined outside of a function block have <dfn>Global</dfn> scope. This means, they can be seen everywhere in your JavaScript code.
+자바스크립트에서 변수를 사용할 수 있는 범위를 <dfn>스코프(scope)</dfn> 라고 부릅니다. 함수 블록 바깥 쪽에 정의된 변수는 <dfn>글로벌(Global)</dfn> 스코프를 가집니다. 이것이 의미하는 것은 자바스크립트 코드의 어디에서나 그 변수들을 확인할 수 있다는 것입니다.
 
 `let` 키워드 또는`const` 키워드를 사용하지 않고 선언한 변수는 자동적으로 `글로벌(global)` 스코프로 작성됩니다. 이것은 코드 내의 다른 장소에서, 또는 함수를 다시 실행할 때, 의도하지 않은 결과를 일으킬 수도 있습니다. 당신은 항상 당신의 변수를 `let` 또는 `const`로 선언해야 합니다.
 
@@ -17,7 +17,7 @@ In JavaScript, <dfn>scope</dfn> refers to the visibility of variables. Variables
 
 `let` 또는 `const`를 사용해서, 함수 외부에서 `myGlobal`이라는 글로벌 변수를 선언하세요. 그 값을 `10`으로 초기화하세요.
 
-Inside function `fun1`, assign `5` to `oopsGlobal` ***without*** using the `var`, `let` or `const` keywords.
+함수 `fun1` 내부에서 `var`, `let` 또는 `const` 키워드를 사용하지 ***않고*** `oopsGlobal`에 `5`를 할당하세요.
 
 # --hints--
 

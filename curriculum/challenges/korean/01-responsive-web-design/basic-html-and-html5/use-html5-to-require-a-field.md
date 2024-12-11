@@ -9,7 +9,7 @@ dashedName: use-html5-to-require-a-field
 
 # --description--
 
-You can require specific form fields so that your user will not be able to submit your form until he or she has filled them out.
+특정 필드를 필수로 만들어 사용자가 해당 필드를 채울 때까지 폼을 전달하지 못하도록 만들 수 있습니다.
 
 예를 들면 글자 입력 필드를 필수로 만들고 싶다면 다음과 같이 `input` 요소에 `required` 속성을 추가하면 됩니다: `<input type="text" required>`
 

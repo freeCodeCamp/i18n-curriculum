@@ -9,7 +9,7 @@ dashedName: introduction-to-html5-elements
 
 # --description--
 
-HTML5 introduces more descriptive HTML tags. These include `main`, `header`, `footer`, `nav`, `video`, `article`, `section` and others.
+HTML5는 더 설명적인 HTML 태그를 도입합니다. These include `main`, `header`, `footer`, `nav`, `video`, `article`, `section` and others.
 
 이러한 태그는 자세한 HTML 구조를 제공하고, HTML을 읽기 쉽게 만들고, 검색 엔진 최적화 (Search Engine Optimization, SEO) 및 접근성을 지원합니다. `main` HTML5 태그는 검색 엔진과 다른 개발자가 페이지의 주요 콘텐츠를 찾는 데 도움이 됩니다.
 

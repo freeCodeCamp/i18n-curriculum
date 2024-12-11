@@ -9,7 +9,7 @@ dashedName: create-a-set-of-checkboxes
 
 # --description--
 
-Forms commonly use <dfn>checkboxes</dfn> for questions that may have more than one answer.
+폼(form)은 일반적으로 하나 이상의 답을 가진 질문을 위한 <dfn>체크박스</dfn>를 사용합니다.
 
 체크박스는 `input`의 한 유형입니다.
 

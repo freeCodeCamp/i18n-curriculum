@@ -9,7 +9,7 @@ dashedName: change-the-position-of-overlapping-elements-with-the-z-index-propert
 
 # --description--
 
-When elements are positioned to overlap (i.e. using `position: absolute | relative | fixed | sticky`), the element coming later in the HTML markup will, by default, appear on the top of the other elements. However, the `z-index` property can specify the order of how elements are stacked on top of one another. It must be an integer (i.e. a whole number and not a decimal), and higher values for the `z-index` property of an element move it higher in the stack than those with lower values.
+요소가 겹쳐질 때 (즉, `position: absolute | relative | fixed | sticky`를 사용할 때), HTML 마크업에서 뒤에 나오는 요소는 기본적으로 다른 요소들 위에 나타납니다. 그러나 `z-index` 속성은 요소가 서로 어떻게 쌓이는지의 순서를 지정할 수 있습니다. 이 값은 정수(즉, 소수점이 없는 정수)이어야 하며, 요소의 `z-index` 속성이 더 높은 값을 가지면 그 요소는 낮은 값을 가진 요소들보다 더 위에 쌓입니다.
 
 # --instructions--
 

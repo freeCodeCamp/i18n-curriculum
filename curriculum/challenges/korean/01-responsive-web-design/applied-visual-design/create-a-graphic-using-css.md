@@ -9,7 +9,7 @@ dashedName: create-a-graphic-using-css
 
 # --description--
 
-By manipulating different selectors and properties, you can make interesting shapes. One of the easier ones to try is a crescent moon shape. For this challenge you need to work with the `box-shadow` property that sets the shadow of an element, along with the `border-radius` property that controls the roundness of the element's corners.
+다양한 선택자와 속성들을 조절함으로써 흥미로운 도형들을 만들 수 있습니다. 쉽게 시도해볼 수 있는 도형으로는 초승달 모양이 있습니다. 이 챌린지에서는 요소의 그림자를 설정하는 `box-shadow` 속성과 요소 모서리의 둥글기를 조정하는 `border-radius` 속성을 사용해야 합니다.
 
 옆쪽으로 살짝 치우진 선명한 그림자를 가진 둥글고 투명한 도형을 만들어보세요. 사실은 이 그림자가 달 모양이 될 것입니다.
 

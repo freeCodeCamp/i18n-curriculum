@@ -9,12 +9,12 @@ dashedName: add-a-box-shadow-to-a-card-like-element
 
 # --description--
 
-The `box-shadow` property applies one or more shadows to an element.
+`box-shadow` 속성은 요소에 하나 이상의 그림자 효과를 적용합니다.
 
 `box-shadow` 속성은 순서대로 아래의 값을 취합니다:
 
 <ul>
-  <li><code>offset-x</code> (how far to push the shadow horizontally from the element)</li>
+  <li><code>offset-x</code> (요소의 가로 방향으로 얼마나 그림자를 적용할지)</li>
   <li><code>offset-y</code> (엘리먼트의 세로 방향으로 얼마나 그림자를 적용할지)</li>
   <li><code>blur-radius</code></li>
   <li><code>spread-radius</code></li>

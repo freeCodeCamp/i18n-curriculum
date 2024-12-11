@@ -11,7 +11,7 @@ dashedName: set-up-a-template-engine
 Trabajar en estos desafíos implica escribir tu código usando uno de los siguientes métodos:
 
 - Clone <a href="https://github.com/freeCodeCamp/boilerplate-advancednode/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete these challenges locally.
-- Utilice <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-advancednode/" target="_blank" rel="noopener noreferrer nofollow">nuestro proyecto inicial de Gitpod</a> para completar estos desafíos.
+- Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-advancednode/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete these challenges. Learn <a href="https://forum.freecodecamp.org/t/how-to-use-gitpod-in-the-curriculum/668669#how-can-i-share-my-workspace-to-get-help-8" target="_blank" rel="noopener noreferrer nofollow">how to share your Gitpod workspace to get help</a>.
 - Usa un constructor de sitios de tu elección para completar el proyecto. Asegúrate de incorporar todos los archivos de nuestro repositorio de GitHub.
 
 Un motor de plantillas te permite utilizar archivos de plantillas estáticas (como los escritos en *Pug*) en tu aplicación. En tiempo de ejecución, el motor de plantillas sustituye las variables de un archivo de plantilla por valores reales que pueden ser suministrados por tu servidor. A continuación, transforma la plantilla en un archivo HTML estático que se envía al cliente. Este enfoque facilita el diseño de una página HTML y permite mostrar variables en la página sin necesidad de realizar una llamada a la API desde el cliente.

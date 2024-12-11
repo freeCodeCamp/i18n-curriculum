@@ -9,7 +9,7 @@ dashedName: make-circular-images-with-a-border-radius
 
 # --description--
 
-In addition to pixels, you can also specify the `border-radius` using a percentage.
+픽셀뿐만 아니라 퍼센트로도 `border-radius`를 지정할 수 있습니다.
 
 # --instructions--
 

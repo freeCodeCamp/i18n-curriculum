@@ -7,7 +7,7 @@ dashedName: step-18
 
 # --description--
 
-Below your `.text` element, create a new `section` element and give it a `class` of `text text-with-images`. Within that, create an `article` element with a `class` set to `brief-history`, and an `aside` element with the `class` set to `image-wrapper`.
+Під елементом `.text` створіть новий елемент `section` та надайте йому `class` зі значенням `text text-with-images`. В його межах створіть елемент `article` з `class` зі значенням `brief-history` та елемент `aside` з `class` зі значенням `image-wrapper`.
 
 # --hints--
 

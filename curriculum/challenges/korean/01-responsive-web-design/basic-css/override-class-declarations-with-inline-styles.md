@@ -9,7 +9,7 @@ dashedName: override-class-declarations-with-inline-styles
 
 # --description--
 
-So we've proven that id declarations override class declarations, regardless of where they are declared in your `style` element CSS.
+우리는 id 선언이 class 선언을 덮어쓸 수 있다는 것을 증명했습니다. 이는 `style` 요소의 CSS에서 어디에 선언되었는지와 관계없이 적용됩니다.
 
 CSS를 덮어쓸 수 있는 다른 방법들이 있습니다. 인라인 스타일을 기억하시나요?
 

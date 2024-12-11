@@ -7,17 +7,17 @@ dashedName: step-17
 
 # --description--
 
-Give the `.key` a `margin` of `2px` and a `float` property set to `left`.
+Надайте селектору `.key` властивість `margin` зі значенням `2px` та властивість `float` зі значенням `left`.
 
 # --hints--
 
-Your `.key` selector should have a `margin` property set to `2px`.
+Селектор `.key` повинен мати властивість `margin` зі значенням `2px`.
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('.key')?.margin === '2px');
 ```
 
-Your `.key` selector should have a `float` property set to `left`.
+Селектор `.key` повинен мати властивість `float` зі значенням `left`.
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('.key')?.float === 'left');

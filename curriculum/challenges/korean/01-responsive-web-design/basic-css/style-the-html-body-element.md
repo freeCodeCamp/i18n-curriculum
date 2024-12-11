@@ -9,7 +9,7 @@ dashedName: style-the-html-body-element
 
 # --description--
 
-Now let's start fresh and talk about CSS inheritance.
+이제 다시 시작하여 CSS 상속에 대해 이야기해 봅시다.
 
 모든 HTML 페이지에는 `body` 요소가 있습니다.
 

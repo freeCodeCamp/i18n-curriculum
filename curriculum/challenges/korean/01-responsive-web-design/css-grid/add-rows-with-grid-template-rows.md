@@ -9,7 +9,7 @@ dashedName: add-rows-with-grid-template-rows
 
 # --description--
 
-The grid you created in the last challenge will set the number of rows automatically. To adjust the rows manually, use the `grid-template-rows` property in the same way you used `grid-template-columns` in the previous challenge.
+이전 과제에서 생성한 그리드는 자동으로 행의 수를 설정하게 됩니다. 행을 수동으로 조정하려면 이전 과제에서 `grid-template-columns`를 사용한 것처럼 `grid-template-rows` 속성을 사용하면 됩니다.
 
 # --instructions--
 

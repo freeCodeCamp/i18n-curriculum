@@ -8,7 +8,7 @@ dashedName: understand-bcrypt-hashes
 
 # --description--
 
-以降のチャレンジについては、以前のチャレンジとは異なる新しいスタータープロジェクトで作業します。 新しいスタータープロジェクトは <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-bcrypt/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a> にあります。または <a href="https://github.com/freeCodeCamp/boilerplate-bcrypt/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a> からクローンできます。
+以降のチャレンジについては、以前のチャレンジとは異なる新しいスタータープロジェクトで作業します。 新しいスタータープロジェクトは <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-bcrypt/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a> にあります。または <a href="https://github.com/freeCodeCamp/boilerplate-bcrypt/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a> からクローンできます。 Learn <a href="https://forum.freecodecamp.org/t/how-to-use-gitpod-in-the-curriculum/668669#how-can-i-share-my-workspace-to-get-help-8" target="_blank" rel="noopener noreferrer nofollow">how to share your Gitpod workspace to get help</a>.
 
 BCrypt ハッシュは非常に安全です。 ハッシュは、基本的には元のデータのフィンガープリントであり、常に一意です。 元のデータをアルゴリズムに入力し、固定長の結果を返すことで実現しています。 このプロセスをさらに複雑にして安全性を高めるため、ハッシュをソルト (*salt*) することもできます。 ハッシュをソルトするには、ハッシュ処理の前にランダムなデータを元のデータに追加する必要があります。これにより、ハッシュの解読がさらに困難になります。
 

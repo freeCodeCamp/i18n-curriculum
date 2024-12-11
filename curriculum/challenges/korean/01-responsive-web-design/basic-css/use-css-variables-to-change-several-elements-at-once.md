@@ -9,7 +9,7 @@ dashedName: use-css-variables-to-change-several-elements-at-once
 
 # --description--
 
-<dfn>CSS Variables</dfn> are a powerful way to change many CSS style properties at once by changing only one value.
+<dfn>CSS 변수</dfn>는 하나의 값만 변경하여 여러 개의 CSS 스타일 속성을 한번에 변경할 수 있는 강력한 방법입니다.
 
 아래 설명에 따라 세 가지의 값만 변경하는 것이 얼마나 많은 엘리먼트의 스타일을 바꿀 수 있는지 확인해보세요.
 

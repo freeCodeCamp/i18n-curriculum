@@ -9,7 +9,7 @@ dashedName: use-abbreviated-hex-code
 
 # --description--
 
-Many people feel overwhelmed by the possibilities of more than 16 million colors. And it's difficult to remember hex code. Fortunately, you can shorten it.
+많은 사람들이 1,600만 가지가 넘는 색상의 가능성에 망연자실합니다. 게다가 헥스 코드는 외우기 어렵지요. 다행히도 축약해서 쓰는 것이 가능합니다.
 
 예를 들어 빨간색의 헥스 코드인 `#FF0000`는 `#F00`로 줄여 쓸 수 있습니다. 이 축약형에서는 빨간색에 한 자리, 초록색에 한 자리, 파란색에 한 자리가 주어집니다.
 
@@ -19,7 +19,7 @@ Many people feel overwhelmed by the possibilities of more than 16 million colors
 
 자 이제, 헥스 코드의 축약형을 사용하여 올바른 요소에 색상을 지정해 보십시오.
 
-<table><tbody><tr><th>Color</th><th>Short Hex Code</th></tr><tr><td>Cyan</td><td><code>#0FF</code></td></tr><tr><td>Green</td><td><code>#0F0</code></td></tr><tr><td>Red</td><td><code>#F00</code></td></tr><tr><td>Fuchsia</td><td><code>#F0F</code></td></tr></tbody></table>
+<table><tbody><tr><th>색상</th><th>헥스 코드 축약형</th></tr><tr><td>청록색(cyan)</td><td><code>#0FF</code></td></tr><tr><td>초록</td><td><code>#0F0</code></td></tr><tr><td>빨강</td><td><code>#F00</code></td></tr><tr><td>자홍색(Fuchsia)</td><td><code>#F0F</code></td></tr></tbody></table>
 
 # --hints--
 

@@ -8,7 +8,7 @@ dashedName: use-the-value-attribute-with-radio-buttons-and-checkboxes
 
 # --description--
 
-When a form gets submitted, the data is sent to the server and includes entries for the options selected. Inputs of type `radio` and `checkbox` report their values from the `value` attribute.
+폼이 제출되면 데이터는 서버로 전송되며, 선택된 옵션들에 대한 항목들이 포함됩니다. `radio`와 `checkbox` 입력은 `value` 속성으로부터 값을 알립니다.
 
 예시:
 

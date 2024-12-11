@@ -9,7 +9,7 @@ dashedName: count-backwards-with-a-for-loop
 
 # --description--
 
-A for loop can also count backwards, so long as we can define the right conditions.
+알맞은 조건을 정의할 수 있다면 for 루프를 이용해서도 거꾸로 세어갈 수 있습니다.
 
 반복마다 2씩 감소시키려면 초기화, 조건 및 최종 표현식을 변경해야 합니다.
 

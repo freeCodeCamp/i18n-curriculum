@@ -9,7 +9,7 @@ dashedName: push-elements-left-or-right-with-the-float-property
 
 # --description--
 
-The next positioning tool does not actually use `position`, but sets the `float` property of an element. Floating elements are removed from the normal flow of a document and pushed to either the `left` or `right` of their containing parent element. It's commonly used with the `width` property to specify how much horizontal space the floated element requires.
+다음 위치 조정 툴은 실제로 `position`을 사용하지는 않지만 요소의 `float` 속성을 설정합니다. 플로팅하는 요소는 document의 일반적인 흐름에서 벗어나 그 요소를 포함하고 있는 부모 요소의 `left` 혹은 `right`에 배치됩니다. 보통 `width` 속성을 함께 사용하여 플로팅하는 요소에 필요한 수평 공간을 지정합니다.
 
 # --instructions--
 

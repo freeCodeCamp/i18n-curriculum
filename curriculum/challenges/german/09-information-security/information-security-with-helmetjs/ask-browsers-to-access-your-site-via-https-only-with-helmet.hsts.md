@@ -8,7 +8,7 @@ dashedName: ask-browsers-to-access-your-site-via-https-only-with-helmet-hsts
 
 # --description--
 
-As a reminder, this project is being built upon the following starter project on <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-infosec/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>, or cloned from <a href="https://github.com/freeCodeCamp/boilerplate-infosec/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
+As a reminder, this project is being built upon the following starter project on <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-infosec/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>, or cloned from <a href="https://github.com/freeCodeCamp/boilerplate-infosec/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>. Learn <a href="https://forum.freecodecamp.org/t/how-to-use-gitpod-in-the-curriculum/668669#how-can-i-share-my-workspace-to-get-help-8" target="_blank" rel="noopener noreferrer nofollow">how to share your Gitpod workspace to get help</a>.
 
 HTTP Strict Transport Security (HSTS) ist eine Web-Sicherheitsrichtlinie, die dazu beiträgt, Websites vor Protokoll-Downgrad-Attacken und Cookie-Hijacking zu schützen. Wenn du über HTTPS auf deine Website zugreifen kannst, kannst du den Browser des Benutzers bitten, unsichere HTTP zu vermeiden. Indem du den Header Strict-Transport-Security einstellst, gibst du den Browsern an, HTTPS für zukünftige Anfragen in einer bestimmten Zeit zu verwenden. Dies gilt auch für Anfragen, die nach der ersten Anfrage kommen.
 

@@ -9,7 +9,7 @@ dashedName: adjust-the-hover-state-of-an-anchor-tag
 
 # --description--
 
-This challenge will touch on the usage of pseudo-classes. A pseudo-class is a keyword that can be added to selectors, in order to select a specific state of the element.
+이 도전 과제에서는 가상 클래스의 사용에 대해 다룹니다. 가상 클래스는 요소의 특정 상태를 선택하기 위해 선택자에 추가할 수 있는 키워드입니다.
 
 예를 들어, 앵커 태그의 스타일은 `:hover` 가상 클래스 선택기를 사용하여 hover 상태에 대해 변경될 수 있습니다. 다음은 hover 상태일때 앵커 태그의 `color`를 빨간색으로 변경하는 CSS입니다.
 

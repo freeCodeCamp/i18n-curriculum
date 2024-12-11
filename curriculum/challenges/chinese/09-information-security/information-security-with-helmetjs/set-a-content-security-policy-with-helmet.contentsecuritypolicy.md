@@ -8,7 +8,7 @@ dashedName: set-a-content-security-policy-with-helmet-contentsecuritypolicy
 
 # --description--
 
-As a reminder, this project is being built upon the following starter project on <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-infosec/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>, or cloned from <a href="https://github.com/freeCodeCamp/boilerplate-infosec/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
+As a reminder, this project is being built upon the following starter project on <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-infosec/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>, or cloned from <a href="https://github.com/freeCodeCamp/boilerplate-infosec/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>. Learn <a href="https://forum.freecodecamp.org/t/how-to-use-gitpod-in-the-curriculum/668669#how-can-i-share-my-workspace-to-get-help-8" target="_blank" rel="noopener noreferrer nofollow">how to share your Gitpod workspace to get help</a>.
 
 在这个挑战中，我们要重点讨论现代浏览器中一种能有效减轻安全风险和防御很多种类型常见攻击的安全防护。 通过设置和配置内容安全策略，你可以防止在页面中无意中注入任何内容。 这会让你的应用远离 XSS 漏洞、恶意追踪、恶意 frames 和很多其他攻击。 CSP 通过配置资源白名单来避免这些问题。 You can configure them for each kind of resource a web page may need (scripts, stylesheets, fonts, frames, media, and so on...). 它支持很多指令，所以网站管理员可以做细致的控制。 更多详情请参考 HTML 5 Rocks 和 KeyCDN。 不幸的是，一些旧的浏览器不支持 CSP。
 

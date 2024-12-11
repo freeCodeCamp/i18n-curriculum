@@ -9,7 +9,7 @@ dashedName: wrap-radio-buttons-in-a-fieldset-element-for-better-accessibility
 
 # --description--
 
-The next form topic covers the accessibility of radio buttons. Each choice is given a `label` with a `for` attribute tying to the `id` of the corresponding item as covered in the last challenge. Since radio buttons often come in a group where the user must choose one, there's a way to semantically show the choices are part of a set.
+다음 양식 주제는 라디오 버튼의 접근성에 관한 것입니다. 각 선택지는 마지막 챌린지에서 다룬 것처럼 해당 항목의 `id`와 연결된 `for` 속성이 있는 `label`이 제공됩니다. 라디오 버튼은 사용자가 하나를 선택해야 하는 그룹으로 자주 나타납니다. 선택지가 집합의 일부임을 시맨틱적으로 나타내는 방법이 있습니다.
 
 이를 위해 `fieldset` 태그는 라디오 버튼의 전체 그룹을 둘러싸고 있습니다. 종종 `legend` 태그를 사용하여 그룹에 대한 설명을 제공하며, 이 설명은 화면 낭독기가 `fieldset` 요소의 각 선택 항목에 대해 읽습니다.
 

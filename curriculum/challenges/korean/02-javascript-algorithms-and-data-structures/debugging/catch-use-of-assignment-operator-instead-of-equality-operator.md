@@ -8,7 +8,7 @@ dashedName: catch-use-of-assignment-operator-instead-of-equality-operator
 
 # --description--
 
-Branching programs, i.e. ones that do different things if certain conditions are met, rely on `if`, `else if`, and `else` statements in JavaScript. The condition sometimes takes the form of testing whether a result is equal to a value.
+조건문 프로그램, 즉 특정 조건이 충족되면 다른 작업을 수행하는 프로그램은 자바스크립트에서 `if`, `else if`, 및 `else` 문에 의존합니다. 조건은 때때로 결과가 어떤 값과 같은지 테스트하는 형태를 취합니다.
 
 이 논리는 (적어도 영어에서는) "x가 y와 같으면 ..."이라고 말하며, 이는 코드에서 `=` 또는 할당 연산자를 사용하여 문자 그대로 코드에 적용될 수 있습니다. 이는 프로그램에서 예상치 못한 제어 흐름을 초래할 수 있습니다.
 

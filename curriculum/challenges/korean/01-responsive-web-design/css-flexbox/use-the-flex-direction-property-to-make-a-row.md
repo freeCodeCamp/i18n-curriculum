@@ -9,7 +9,7 @@ dashedName: use-the-flex-direction-property-to-make-a-row
 
 # --description--
 
-Adding `display: flex` to an element turns it into a flex container. This makes it possible to align any children of that element into rows or columns. You do this by adding the `flex-direction` property to the parent item and setting it to row or column. Creating a row will align the children horizontally, and creating a column will align the children vertically.
+요소에 `display: flex`를 추가하면 해당 요소는 플렉스 컨테이너가 됩니다. 이로써 해당 요소의 자식 요소를 행이나 열로 정렬할 수 있게 됩니다. `flex-direction` 속성을 부모 아이템에 추가하고 이 속성을 row 혹은 column으로 설정하면 됩니다. 행을 생성하면 자식 요소들을 수평으로 정렬하고 열을 생성하면 자식 요소들을 수직으로 정렬할 것입니다.
 
 `flex-direction`을 위한 다른 선택지는 `row-reverse`와 `column-reverse`가 있습니다.
 

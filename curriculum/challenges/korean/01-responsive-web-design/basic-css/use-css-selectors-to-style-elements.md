@@ -9,7 +9,7 @@ dashedName: use-css-selectors-to-style-elements
 
 # --description--
 
-With CSS, there are hundreds of CSS properties that you can use to change the way an element looks on your page.
+페이지에서 요소가 보이는 방식을 변경할 수 있는 수백 가지의 CSS 속성이 있습니다.
 
 `<h2 style="color: red;">CatPhotoApp</h2>`를 입력했을 때는 해당 개별 `h2` 요소에 인라인 CSS(캐스케이딩 스타일 시트)를 사용하여 스타일을 지정한 것입니다.
 

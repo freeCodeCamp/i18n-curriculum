@@ -9,7 +9,7 @@ dashedName: use-css-animation-to-change-the-hover-state-of-a-button
 
 # --description--
 
-You can use CSS `@keyframes` to change the color of a button in its hover state.
+CSS의 `@keyframes`를 사용하여 마우스 호버(hover) 시 버튼의 색상을 변경할 수 있습니다.
 
 다음은 마우스를 호버했을 때 이미지의 너비를 변경하는 예제입니다.
 

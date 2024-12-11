@@ -9,7 +9,7 @@ dashedName: apply-the-flex-direction-property-to-create-a-column-in-the-tweet-em
 
 # --description--
 
-The tweet embed `header` and `footer` used the `flex-direction` property earlier with a row value. Similarly, the items inside the `.profile-name` element would work well stacked as a column.
+트윗 임베드 `header`와 `footer`는 row 값을 가진 `flex-direction` 속성을 사용했습니다. 마찬가지로 `.profile-name` 요소 안에 있는 아이템은 열로 정렬되며 잘 동작할 것입니다.
 
 # --instructions--
 
