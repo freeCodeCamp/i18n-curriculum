@@ -11,7 +11,7 @@ dashedName: how-to-use-package-json-the-core-of-any-node-js-project-or-npm-packa
 Робота над цими завданнями передбачає написання коду за допомогою одного з наступних методів:
 
 - Clone <a href="https://github.com/freeCodeCamp/boilerplate-npm/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete these challenges locally.
-- Використайте <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-npm/" target="_blank" rel="noopener noreferrer nofollow">наш стартовий проєкт Gitpod</a>, щоб виконати ці завдання.
+- Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-npm/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete these challenges. Learn <a href="https://forum.freecodecamp.org/t/how-to-use-gitpod-in-the-curriculum/668669#how-can-i-share-my-workspace-to-get-help-8" target="_blank" rel="noopener noreferrer nofollow">how to share your Gitpod workspace to get help</a>.
 - Використовуйте конструктор сайту на власний розсуд, щоб завершити проєкт. Переконайтеся, що ви зберегли всі файли з нашого репозиторію GitHub.
 
 Файл `package.json` є центром будь-якого проєкту Node.js або пакету npm. Він зберігає інформацію про проєкт. Він складається з одного об’єкту JSON, де зберігається інформація у парах ключ-значення. Лише два поля є обов’язковими: `name` та `version`, але краще надавати додаткову інформацію.

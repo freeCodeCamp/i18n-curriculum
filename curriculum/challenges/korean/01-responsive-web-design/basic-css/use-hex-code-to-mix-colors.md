@@ -9,7 +9,7 @@ dashedName: use-hex-code-to-mix-colors
 
 # --description--
 
-To review, hex codes use 6 hexadecimal digits to represent colors, two each for red (R), green (G), and blue (B) components.
+검토하면, 16진수 코드는 색을 나타내기 위해 6개의 16진수 숫자를 사용하며, 각각이 빨강 (R), 초록 (G), 그리고 파랑 (B) 구성 요소를 나타냅니다.
 
 이 세 개의 원색(빨강, 초록 그리고 파랑)으로부터 1,600만의 다른 색을 만들도록 각 색의 양을 조절할 수 있습니다.
 
@@ -23,7 +23,7 @@ To review, hex codes use 6 hexadecimal digits to represent colors, two each for 
 
 `style` 요소에 있는 색 관련 단어들을 올바른 16진수로 대체하시오.
 
-<table><tbody><tr><th>Color</th><th>Hex Code</th></tr><tr><td>Dodger Blue</td><td><code>#1E90FF</code></td></tr><tr><td>Green</td><td><code>#00FF00</code></td></tr><tr><td>Orange</td><td><code>#FFA500</code></td></tr><tr><td>Red</td><td><code>#FF0000</code></td></tr></tbody></table>
+<table><tbody><tr><th>색상</th><th>헥스 코드</th></tr><tr><td>다저 블루</td><td><code>#1E90FF</code></td></tr><tr><td>초록</td><td><code>#00FF00</code></td></tr><tr><td>주황</td><td><code>#FFA500</code></td></tr><tr><td>빨강</td><td><code>#FF0000</code></td></tr></tbody></table>
 
 # --hints--
 

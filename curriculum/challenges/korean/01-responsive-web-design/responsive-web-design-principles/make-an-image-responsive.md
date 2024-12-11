@@ -8,7 +8,7 @@ dashedName: make-an-image-responsive
 
 # --description--
 
-Making images responsive with CSS is actually very simple. You just need to add these properties to an image:
+CSS로 반응형 이미지 만들기는 아주 간단합니다. 이미지에 아래 속성을 추가하기만 하면 됩니다.
 
 ```css
 img {

@@ -9,7 +9,7 @@ dashedName: inherit-styles-from-the-body-element
 
 # --description--
 
-Now we've proven that every HTML page has a `body` element, and that its `body` element can also be styled with CSS.
+이제 모든 HTML 페이지에는 `body` 요소가 있고, 해당 `body` 요소에 대해 CSS로 스타일을 지정할 수 있음을 확인했습니다.
 
 `body` 요소에도 다른 HTML 요소들과 마찬가지로 CSS를 통해 스타일을 지정할 수 있고, 다른 모든 요소들은 `body` 요소에 지정된 스타일을 상속받게 된다는 점을 기억하세요.
 

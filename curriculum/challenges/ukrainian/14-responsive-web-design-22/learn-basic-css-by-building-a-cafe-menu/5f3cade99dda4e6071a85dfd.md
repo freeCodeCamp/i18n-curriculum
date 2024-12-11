@@ -7,29 +7,29 @@ dashedName: step-46
 
 # --description--
 
-You will come back to styling the menu in a few steps, but for now, go ahead and add a second `section` element below the first for displaying the desserts offered by the cafe.
+Через декілька кроків ви повернетесь до стилізації сторінки, а зараз додайте другий елемент `section` під першим, щоб зобразити десерти в кафе.
 
 # --hints--
 
-You should have an opening `section` tag.
+Ви повинні мати початковий тег `section`.
 
 ```js
 assert.lengthOf(code.match(/<section>/ig) ,2);
 ```
 
-You should have a closing `section` tag.
+Ви повинні мати кінцевий тег `section`.
 
 ```js
 assert.lengthOf(code.match(/<\/section>/ig) ,2);
 ```
 
-You should not change the existing `main` element.
+Не змінюйте наявний елемент `main`.
 
 ```js
 assert.lengthOf (document.querySelectorAll('main'), 1);
 ```
 
-Your new `section` element should be nested in the `main` element.
+Новий елемент `section` повинен бути вкладеним в елементі `main`.
 
 ```js
 const main = document.querySelector('main');

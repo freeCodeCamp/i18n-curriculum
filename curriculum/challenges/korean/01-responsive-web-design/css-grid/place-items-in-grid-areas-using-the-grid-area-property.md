@@ -9,7 +9,7 @@ dashedName: place-items-in-grid-areas-using-the-grid-area-property
 
 # --description--
 
-After creating an area template for your grid container, as shown in the previous challenge, you can place an item in your custom area by referencing the name you gave it. To do this, you use the `grid-area` property on an item like this:
+이전 도전에서와 마찬가지로 그리드 컨테이너에 대한 영역 템플릿을 생성한 후에는 원하는 아이템을 해당 이름을 참조하여 사용자 정의 영역에 배치할 수 있습니다. 이를 위해 다음과 같이 `grid-area` 속성을 사용하면 됩니다.
 
 ```css
 .item1 {

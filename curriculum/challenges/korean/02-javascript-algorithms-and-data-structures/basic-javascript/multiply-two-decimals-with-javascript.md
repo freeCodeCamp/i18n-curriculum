@@ -9,7 +9,7 @@ dashedName: multiply-two-decimals-with-javascript
 
 # --description--
 
-In JavaScript, you can also perform calculations with decimal numbers, just like whole numbers.
+자바스크립트에서 실수의 계산도 정수와 동일하게 진행합니다.
 
 자, 2개의 실수를 곱해서 값을 계산해 봅시다.
 

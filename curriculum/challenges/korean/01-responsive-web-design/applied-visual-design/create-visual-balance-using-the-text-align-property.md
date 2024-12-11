@@ -9,7 +9,7 @@ dashedName: create-visual-balance-using-the-text-align-property
 
 # --description--
 
-This section of the curriculum focuses on Applied Visual Design. The first group of challenges build on the given card layout to show a number of core principles.
+이번 단원에서는 응용 시각 디자인에 중점을 둡니다. 첫 번째 과제는 주어진 카드 레이아웃을 기반으로 여러 핵심 원칙을 보여줍니다.
 
 글자는 웹 컨텐츠에서 큰 부분을 차지합니다. CSS에는 `text-align` 속성을 사용하여 텍스트를 정렬하는 여러 옵션이 있습니다.
 

@@ -9,7 +9,7 @@ dashedName: declare-the-doctype-of-an-html-document
 
 # --description--
 
-The challenges so far have covered specific HTML elements and their uses. However, there are a few elements that give overall structure to your page, and should be included in every HTML document.
+지금까지 과제들은 특정 HTML 요소와 그 사용에 관한 것이었습니다. 그러나 페이지에 전반적인 구조를 잡고 모든 HTML 문서에 포함되는 몇몇 요소가 있습니다.
 
 문서 상단에 브라우저에게 페이지가 어떤 HTML 버전을 사용하는지 알려줄 필요가 있습니다. HTML은 진화하는 언어이고 정기적으로 업데이트가 됩니다. 대부분의 브라우저는 최신 사양인 HTML5을 지원합니다. 하지만 오래된 웹페이지는 이전 버전을 사용할지도 모릅니다.
 

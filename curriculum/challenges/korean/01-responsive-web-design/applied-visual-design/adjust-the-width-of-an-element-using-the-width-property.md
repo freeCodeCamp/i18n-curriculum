@@ -9,7 +9,7 @@ dashedName: adjust-the-width-of-an-element-using-the-width-property
 
 # --description--
 
-You can specify the width of an element using the `width` property in CSS. Values can be given in relative length units (such as `em`), absolute length units (such as `px`), or as a percentage of its containing parent element. Here's an example that changes the width of an image to 220px:
+요소의 너비를 지정하려면 CSS에서 `width` 속성을 사용할 수 있습니다. 너비 값은 상대 길이 단위(예: `em`), 절대 길이 단위(예: `px`), 또는 포함하고 있는 부모 요소의 백분율로 지정할 수 있습니다. 이미지의 너비를 220px로 변경하는 예제입니다.
 
 ```css
 img {

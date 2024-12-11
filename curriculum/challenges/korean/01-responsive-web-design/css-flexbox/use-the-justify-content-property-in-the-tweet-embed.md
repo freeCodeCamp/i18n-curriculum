@@ -9,7 +9,7 @@ dashedName: use-the-justify-content-property-in-the-tweet-embed
 
 # --description--
 
-The last challenge showed an example of the `justify-content` property. For the tweet embed, this property can be applied to align the items in the `.profile-name` element.
+지난 과제에서 `justify-content` 속성의 예시를 보았습니다. 트윗 임베드에 대해 이 속성은 `.profile-name` 요소에 있는 아이템을 정렬하기 위해 적용됩니다.
 
 # --instructions--
 

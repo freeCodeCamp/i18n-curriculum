@@ -9,7 +9,7 @@ dashedName: improve-readability-with-high-contrast-text
 
 # --description--
 
-Low contrast between the foreground and background colors can make text difficult to read. Sufficient contrast improves your content's readability, but what exactly does "sufficient" mean?
+배경색과 전경색 간의 낮은 색채 대비는 글씨를 읽기 어렵게 만들 수 있습니다. 충분한 대비는 콘텐츠의 가독성을 향상시킵니다. 그러나 여기서 "충분한"이란 정확히 무엇을 의미할까요?
 
 웹 콘텐츠 접근성 지침(WCAG)은 일반 텍스트의 최소 대비 비율로 4.5 대 1을 권장합니다. 이 비율은 두 색상의 상대 밝기 값을 비교하여 계산됩니다. 이 비율은 동일한 색상인 경우나 대비가 없을 경우에 1:1 부터 가장 큰 대비인 흰색 대 검정의 경우 21:1까지 범위가 있습니다. 인터넷에서 색채 대비 비율을 계산해주는 검사 도구들을 쉽게 찾아볼 수 있습니다.
 

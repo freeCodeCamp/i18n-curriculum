@@ -8,7 +8,7 @@ dashedName: understand-bcrypt-hashes
 
 # --description--
 
-Para los siguientes ejercicios, utilizarás un nuevo proyecto que es diferente al anterior. Puede encontrar el nuevo proyecto inicial en <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-bcrypt/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>, o clonarlo desde <a href="https://github.com/freeCodeCamp/boilerplate-bcrypt/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
+Para los siguientes ejercicios, utilizarás un nuevo proyecto que es diferente al anterior. Puede encontrar el nuevo proyecto inicial en <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-bcrypt/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>, o clonarlo desde <a href="https://github.com/freeCodeCamp/boilerplate-bcrypt/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>. Learn <a href="https://forum.freecodecamp.org/t/how-to-use-gitpod-in-the-curriculum/668669#how-can-i-share-my-workspace-to-get-help-8" target="_blank" rel="noopener noreferrer nofollow">how to share your Gitpod workspace to get help</a>.
 
 Las hash de BCrypt son muy seguras. Un hash es básicamente una huella dactilar de los datos originales- siempre única. Esto se consigue al introducir los datos originales en un algoritmo y retornando un resultado de longitud fija. Para complicar aún más este proceso y hacerlo más seguro, puedes *añadir un salt* a tu hash. Añadir un salt al hash implica agregar datos aleatorios a los datos originales antes de realizar el proceso de hash, lo cual hace que sea aún más díficil de descifrar el hash.
 

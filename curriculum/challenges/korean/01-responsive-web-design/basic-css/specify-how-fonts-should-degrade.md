@@ -9,7 +9,7 @@ dashedName: specify-how-fonts-should-degrade
 
 # --description--
 
-There are several default fonts that are available in all browsers. These generic font families include `monospace`, `serif` and `sans-serif`.
+모든 브라우저에 이용할 수 있는 여러 기본값 글꼴이 있습니다. 이러한 일반적인 글꼴로는 `monospace`, `serif` 그리고 `sans-serif`가 있습니다.
 
 한 글꼴이 사용 불가할 때 브라우저에게 다른 글꼴로 대체하라고 지시할 수 있습니다.
 

@@ -9,7 +9,7 @@ dashedName: create-flexible-layouts-using-auto-fill
 
 # --description--
 
-The repeat function comes with an option called <dfn>auto-fill</dfn>. This allows you to automatically insert as many rows or columns of your desired size as possible depending on the size of the container. You can create flexible layouts when combining `auto-fill` with `minmax`, like this:
+repeat 함수는 <dfn>auto-fill</dfn>이라는 옵션과 함께 사용됩니다. 이는 컨테이너의 크기에 따라 가능한 범위 내에서 원하는 크기의 행 혹은 열을 자동으로 삽입할 수 있게 해줍니다. 다음과 같이 `auto-fill`과 `minmax`을 조합하면 유연한 레이아웃을 생성할 수 있습니다.
 
 ```css
 repeat(auto-fill, minmax(60px, 1fr));

@@ -7,7 +7,7 @@ dashedName: step-43
 
 # --description--
 
-The HTML for the registration form is finished. Now, you can spruce it up a bit.
+HTML для реєстраційної форми завершено. Тепер ви можете його трохи прикрасити.
 
 Почніть зі зміни шрифту на `Tahoma` та розміру шрифту на `16px` в `body`.
 

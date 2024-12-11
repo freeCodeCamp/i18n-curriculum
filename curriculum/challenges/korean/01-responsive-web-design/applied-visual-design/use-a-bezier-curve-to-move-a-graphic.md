@@ -9,7 +9,7 @@ dashedName: use-a-bezier-curve-to-move-a-graphic
 
 # --description--
 
-A previous challenge discussed the `ease-out` keyword that describes an animation change that speeds up first and then slows down at the end of the animation. On the right, the difference between the `ease-out` keyword (for the blue element) and `linear` keyword (for the red element) is demonstrated. Similar animation progressions to the `ease-out` keyword can be achieved by using a custom cubic Bezier curve function.
+지난 과제에서 처음에는 속도를 내다가 마지막에 느려지는 애니메이션을 만들때 사용하는 `ease-out` 키워드에 대해 다루었습니다. 우측에는 `ease-out`키워드(파란색 요소의 경우) 와 `linear`키워드(빨간색 요소의 경우) 의 차이가 시연되고 있습니다. 커스텀 cubic Bezier curve 함수를 사용하여 `ease-out`키워드와 비슷한 애니메이션을 만들 수 있습니다.
 
 일반적으로, `p1`과 `p2` 고정점의 변화는 시간 동안 애니메이션의 진행을 제어하는 다양한 Bezier curve를 만들어 냅니다. 다음은 `ease-out`스타일을 따라하기 위한 값을 사용하는 Bezier curve 예제입니다:
 

@@ -9,7 +9,7 @@ dashedName: create-flexible-layouts-using-auto-fit
 
 # --description--
 
-`auto-fit` works almost identically to `auto-fill`. The only difference is that when the container's size exceeds the size of all the items combined, `auto-fill` keeps inserting empty rows or columns and pushes your items to the side, while `auto-fit` collapses those empty rows or columns and stretches your items to fit the size of the container.
+`auto-fit`은 `auto-fill`과 거의 비슷하게 동작합니다. 유일한 차이점은 컨테이너의 크기가 모든 항목들의 결합된 크기를 초과할 때, `auto-fill`은 빈 행이나 열을 계속 삽입하고 항목들을 측면으로 밀어내는 반면, `auto-fit`은 그러한 빈 행이나 열을 축소하고 항목들을 컨테이너의 크기에 맞게 늘린다는 것입니다.
 
 **주의:** 컨테이너가 한 행에 모든 아이템을 담을 수 없다면 아이템은 다음 행에 위치하게 됩니다.
 

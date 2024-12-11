@@ -1,6 +1,6 @@
 ---
 id: 5d712346c441eddfaeb5bdef
-title: Match All Numbers
+title: 모든 숫자 일치시키기
 challengeType: 1
 forumTopicId: 18181
 dashedName: match-all-numbers
@@ -8,17 +8,17 @@ dashedName: match-all-numbers
 
 # --description--
 
-You've learned shortcuts for common string patterns like alphanumerics. Another common pattern is looking for just digits or numbers.
+일반적인 영숫자 같은 문자열 패턴을 위한 단축키를 배웠습니다. 또 다른 일반적인 패턴은 숫자만을 찾는 것입니다.
 
-The shortcut to look for digit characters is `\d`, with a lowercase `d`. This is equal to the character class `[0-9]`, which looks for a single character of any number between zero and nine.
+숫자를 찾기 위한 단축키는 `\d`이며, 소문자 `d`를 사용합니다. 이것은 숫자 0에서 9 사이 임의의 한 문자와 일치하는 문자 클래스 `[0-9]`와 같습니다.
 
 # --instructions--
 
-Use the shorthand character class `\d` to count how many digits are in movie titles. Written out numbers ("six" instead of 6) do not count.
+숫자들이 영화 제목에 몇 개나 있는지 세기 위해 단축 문자 클래스 `\d`를 사용하세요. 쓰기 형식의 숫자(6 대신에 "six")는 포함되지 않습니다.
 
 # --hints--
 
-Your regex should use the shortcut character to match digit characters
+정규 표현식은 숫자 문자를 일치시키기 위해 단축 문자를 사용해야 합니다
 
 ```js
 assert(/\\d/.test(numRegex.source));
@@ -30,37 +30,37 @@ assert(/\\d/.test(numRegex.source));
 assert(numRegex.global);
 ```
 
-Your regex should find 1 digit in the string `9`.
+정규 표현식은 문자열 `9`에서 1개의 숫자를 찾아야 합니다.
 
 ```js
 assert('9'.match(numRegex).length == 1);
 ```
 
-Your regex should find 2 digits in the string `Catch 22`.
+정규 표현식은 문자열 `Catch 22`에서 2개의 숫자를 찾아야 합니다.
 
 ```js
 assert('Catch 22'.match(numRegex).length == 2);
 ```
 
-Your regex should find 3 digits in the string `101 Dalmatians`.
+정규 표현식은 문자열 `101 Dalmatians`에서 3개의 숫자를 찾아야 합니다.
 
 ```js
 assert('101 Dalmatians'.match(numRegex).length == 3);
 ```
 
-Your regex should find no digits in the string `One, Two, Three`.
+정규 표현식은 문자열 `One, Two, Three`에서 숫자를 찾지 않아야 합니다.
 
 ```js
 assert('One, Two, Three'.match(numRegex) == null);
 ```
 
-Your regex should find 2 digits in the string `21 Jump Street`.
+정규 표현식은 문자열 `21 Jump Street`에서 2개의 숫자를 찾아야 합니다.
 
 ```js
 assert('21 Jump Street'.match(numRegex).length == 2);
 ```
 
-Your regex should find 4 digits in the string `2001: A Space Odyssey`.
+정규 표현식은 문자열 `2001: A Space Odyssey`에서 4개의 숫자를 찾아야 합니다.
 
 ```js
 assert('2001: A Space Odyssey'.match(numRegex).length == 4);

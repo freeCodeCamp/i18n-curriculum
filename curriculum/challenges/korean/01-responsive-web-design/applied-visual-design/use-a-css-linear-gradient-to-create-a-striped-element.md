@@ -9,7 +9,7 @@ dashedName: use-a-css-linear-gradient-to-create-a-striped-element
 
 # --description--
 
-The `repeating-linear-gradient()` function is very similar to `linear-gradient()` with the major difference that it repeats the specified gradient pattern. `repeating-linear-gradient()` accepts a variety of values, but for simplicity, you'll work with an angle value and color stop values in this challenge.
+`repeating-linear-gradient()` 함수는 `linear-gradient()`과 매우 유사하지만 주요 차이점은 지정된 특정한 그라데이션 패턴을 반복한다는 것입니다. `repeating-linear-gradient()`는 다양한 값들을 허용하지만 이번 과제에서는 간단히 각도 값과 색상 정지 값들을 사용할 것입니다.
 
 각도 값은 그라디언트의 방향을 나타냅니다. 색상 정지점는 전환이 발생하는 위치를 나타내며, 백분율이나 픽셀 수로 지정됩니다.
 

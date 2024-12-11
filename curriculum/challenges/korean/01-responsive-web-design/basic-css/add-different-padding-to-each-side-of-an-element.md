@@ -9,7 +9,7 @@ dashedName: add-different-padding-to-each-side-of-an-element
 
 # --description--
 
-Sometimes you will want to customize an element so that it has different amounts of `padding` on each of its sides.
+가끔은 각 측면마다 다른 `padding`을 갖도록 요소를 커스터마이징하고 싶을 수도 있습니다.
 
 CSS는`padding-top`, `padding-right`, `padding-bottom`, 그리고`padding-left` 속성을 사용하여 요소의 네 가지 개별 측면에 대한 `padding`을 제어할 수 있습니다.
 

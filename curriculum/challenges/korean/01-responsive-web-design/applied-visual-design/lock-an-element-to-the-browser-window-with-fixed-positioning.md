@@ -9,7 +9,7 @@ dashedName: lock-an-element-to-the-browser-window-with-fixed-positioning
 
 # --description--
 
-The next layout scheme that CSS offers is the `fixed` position, which is a type of absolute positioning that locks an element relative to the browser window. Similar to absolute positioning, it's used with the CSS offset properties and also removes the element from the normal flow of the document. Other items no longer "realize" where it is positioned, which may require some layout adjustments elsewhere.
+CSS가 제공하는 다음 레이아웃 방식은 `fixed` 포지션으로, 브라우저 창을 기준으로 요소를 고정하는 절대 위치 지정 방식의 한 종류입니다. 절대 위치 지정과 유사하게 CSS 오프셋 속성과 함께 사용되며 문서의 정상 흐름에서 요소를 제거합니다. 다른 항목들은 이제 해당 요소가 어디에 위치한지 "인식"하지 못하게 되며, 이로 인해 다른 곳에서 일부 레이아웃 조정이 필요할 수 있습니다.
 
 `fixed`와 `absolute` 위치의 주요 차이점 중 하나는 fixed 위치를 가진 요소는 사용자가 스크롤할 때 움직이지 않는다는 것입니다.
 

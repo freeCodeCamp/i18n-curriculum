@@ -9,7 +9,7 @@ dashedName: use-clockwise-notation-to-specify-the-padding-of-an-element
 
 # --description--
 
-Instead of specifying an element's `padding-top`, `padding-right`, `padding-bottom`, and `padding-left` properties individually, you can specify them all in one line, like this:
+요소의 `padding-top`, `padding-right`, `padding-bottom`, `padding-left` 속성을 개별적으로 지정하는 대신 다음과 같이 한 줄에 모두 지정할 수 있습니다.
 
 ```css
 padding: 10px 20px 10px 20px;

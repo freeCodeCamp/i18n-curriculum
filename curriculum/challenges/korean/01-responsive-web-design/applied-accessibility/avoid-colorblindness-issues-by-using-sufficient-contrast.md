@@ -9,7 +9,7 @@ dashedName: avoid-colorblindness-issues-by-using-sufficient-contrast
 
 # --description--
 
-Color is a large part of visual design, but its use introduces two accessibility issues. First, color alone should not be used as the only way to convey important information because screen reader users won't see it. Second, foreground and background colors need sufficient contrast so colorblind users can distinguish them.
+시각 디자인에서 색상은 큰 부분을 차지하지만, 여기서는 두 가지 접근성 이슈를 소개합니다. 첫째로, 중요한 정보를 전달하는 유일한 방법이 색상이어서는 안 됩니다. 스크린 리더를 이용하는 사용자들은 볼 수 없기 때문이죠. 둘째로, 전경과 배경 색상이 충분한 대비를 가져야 색약 사용자들이 이를 구분할 수 있습니다.
 
 이전의 챌린지는 대체 텍스트를 넣는 것으로 첫 번째 이슈를 해결합니다. 마지막 챌린지는 대비 체크 도구를 사용해서 두 번째 이슈를 해결하는 것을 소개합니다. WCAG가 권장하는 대비 비율인 4.5:1은 색상 사용 뿐만 아니라 회색조 조합에도 사용됩니다.
 

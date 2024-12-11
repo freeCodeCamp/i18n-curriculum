@@ -9,7 +9,7 @@ dashedName: accessing-object-properties-with-dot-notation
 
 # --description--
 
-There are two ways to access the properties of an object: dot notation (`.`) and bracket notation (`[]`), similar to an array.
+객체의 속성에 접근하기 위한 방법이 두가지 있습니다. 점 표기법 (`.`)과 배열과 유사한 괄호 표기법(`[]`) 입니다.
 
 점 표기법은 미리 접근하려는 속성의 이름을 알 때 사용하는 것입니다.
 

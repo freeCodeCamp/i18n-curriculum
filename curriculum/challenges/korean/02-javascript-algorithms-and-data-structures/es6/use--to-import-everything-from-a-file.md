@@ -1,6 +1,6 @@
 ---
 id: 587d7b8c367417b2b2512b57
-title: Use * to Import Everything from a File
+title: '* 을 사용하여 파일에서 모든 것을 가져오기'
 challengeType: 1
 forumTopicId: 301210
 dashedName: use--to-import-everything-from-a-file
@@ -8,13 +8,13 @@ dashedName: use--to-import-everything-from-a-file
 
 # --description--
 
-Suppose you have a file and you wish to import all of its contents into the current file. This can be done with the `import * as` syntax. Here's an example where the contents of a file named `math_functions.js` are imported into a file in the same directory:
+파일이 있고 그 안의 모든 내용을 현재 파일로 가져오고 싶다고 가정해봅시다. 이는 `import * as` 구문으로 할 수 있습니다. 다음은 같은 디렉토리에 있는 파일에 `math_functions.js`라는 파일의 내용을 가져오는 예입니다:
 
 ```js
 import * as myMathModule from "./math_functions.js";
 ```
 
-The above `import` statement will create an object called `myMathModule`. This is just a variable name, you can name it anything. The object will contain all of the exports from `math_functions.js` in it, so you can access the functions like you would any other object property. Here's how you can use the `add` and `subtract` functions that were imported:
+위의 `import` 문은 `myMathModule`이라는 객체를 생성할 것입니다. 이것은 단지 변수 이름일 뿐이며, 원하는 대로 이름을 지을 수 있습니다. 이 객체는 `math_functions.js`의 모든 내보내기를 포함하게 되어, 다른 객체 속성과 마찬가지로 함수에 접근할 수 있습니다. 가져온 `add` 및 `subtract` 함수를 사용하는 방법은 다음과 같습니다.
 
 ```js
 myMathModule.add(2,3);
@@ -23,11 +23,11 @@ myMathModule.subtract(5,3);
 
 # --instructions--
 
-The code in this file requires the contents of the file: `string_functions.js`, that is in the same directory as the current file. Use the `import * as` syntax to import everything from the file into an object called `stringFunctions`.
+이 파일의 코드는 현재 파일과 같은 디렉토리에 있는 파일인 `string_functions.js`의 내용을 필요로 합니다. `import * as` 구문을 사용하여 파일에서 모든 것을 `stringFunctions`라는 객체로 가져옵니다.
 
 # --hints--
 
-Your code should properly use `import * as` syntax.
+코드는 `import * as` 구문을 제대로 사용해야 합니다.
 
 ```js
 assert(

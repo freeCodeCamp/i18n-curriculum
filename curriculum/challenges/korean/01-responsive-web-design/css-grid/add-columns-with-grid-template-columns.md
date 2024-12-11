@@ -9,7 +9,7 @@ dashedName: add-columns-with-grid-template-columns
 
 # --description--
 
-Simply creating a grid element doesn't get you very far. You need to define the structure of the grid as well. To add some columns to the grid, use the `grid-template-columns` property on a grid container as demonstrated below:
+하나의 그리드 요소만 생성한다고 해서 다 된 것은 아닙니다. 그리드의 구조도 정의해야 합니다. 그리드에 열을 추가하려면 아래 보이는 것처럼 그리드 컨테이너에 `grid-template-columns` 속성을 사용해야 합니다.
 
 ```css
 .container {

@@ -9,7 +9,7 @@ dashedName: add-a-negative-margin-to-an-element
 
 # --description--
 
-An element's `margin` controls the amount of space between an element's `border` and surrounding elements.
+요소의 `margin`은 요소의 `border`와 주위 요소 사이의 공간을 설정합니다.
 
 요소의 `margin`를 음수 값으로 설정하면, 해당 요소의 크기가 커집니다.
 

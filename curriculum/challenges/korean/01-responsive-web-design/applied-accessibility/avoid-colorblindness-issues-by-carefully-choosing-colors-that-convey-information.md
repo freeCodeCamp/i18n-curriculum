@@ -11,7 +11,7 @@ dashedName: >-
 
 # --description--
 
-There are various forms of colorblindness. These can range from a reduced sensitivity to a certain wavelength of light to the inability to see color at all. The most common form is a reduced sensitivity to detect greens.
+색약에는 많은 종류가 있습니다. 특정 파장의 빛에 감도가 떨어지는 것부터 색상을 구별할 수 없는 것까지 포함됩니다. 초록색에 대한 감도가 떨어지는 것이 가장 일반적인 형태입니다.
 
 예를 들어, 내용의 전경과 배경이 각각 서로 비슷한 초록색이라면, 색약 유저는 이를 구별하기 어려울 것입니다. 중요한 정보를 전달할 때는 색상환에서 서로 근접한 색상의 조합을 피해야 합니다.
 

@@ -8,7 +8,7 @@ dashedName: disable-dns-prefetching-with-helmet-dnsprefetchcontrol
 
 # --description--
 
-As a reminder, this project is being built upon the following starter project on <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-infosec/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>, or cloned from <a href="https://github.com/freeCodeCamp/boilerplate-infosec/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
+As a reminder, this project is being built upon the following starter project on <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-infosec/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>, or cloned from <a href="https://github.com/freeCodeCamp/boilerplate-infosec/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>. Learn <a href="https://forum.freecodecamp.org/t/how-to-use-gitpod-in-the-curriculum/668669#how-can-i-share-my-workspace-to-get-help-8" target="_blank" rel="noopener noreferrer nofollow">how to share your Gitpod workspace to get help</a>.
 
 Para melhorar o desempenho, a maioria dos navegadores registra antes do fetching o DNS dos links de uma página. Desta maneira, o IP de destino já é conhecido quando o usuário clica em um link. Isso pode levar a um uso excessivo do serviço de DNS (se você possui um site grande, visitado por milhões de pessoas…), problemas de privacidade (uma escuta pode inferir que você está em uma determinada página), ou em alterações das estatísticas da página (alguns links podem aparecer visitados, mesmo que não sejam). Se você tem elevadas necessidades de segurança, pode desativar a pré-busca de DNS, ao custo de uma penalização de desempenho.
 

@@ -9,7 +9,7 @@ dashedName: use-the-css-transform-scale-property-to-change-the-size-of-an-elemen
 
 # --description--
 
-To change the scale of an element, CSS has the `transform` property, along with its `scale()` function. The following code example doubles the size of all the paragraph elements on the page:
+CSS에서는 `transform` 속성과 `scale()` 함수를 함께 사용하여 요소의 크기를 변경합니다. 다음은 페이지의 모든 단락(paragraph) 요소 사이즈를 두 배로 늘리는 코드 예제입니다.
 
 ```css
 p {

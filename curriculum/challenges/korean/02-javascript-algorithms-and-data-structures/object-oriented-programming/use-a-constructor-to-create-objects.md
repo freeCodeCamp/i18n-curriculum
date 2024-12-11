@@ -8,7 +8,7 @@ dashedName: use-a-constructor-to-create-objects
 
 # --description--
 
-Here's the `Bird` constructor from the previous challenge:
+여기 이전 과제에서 본 생성자 `Bird`가 있습니다.
 
 ```js
 function Bird() {

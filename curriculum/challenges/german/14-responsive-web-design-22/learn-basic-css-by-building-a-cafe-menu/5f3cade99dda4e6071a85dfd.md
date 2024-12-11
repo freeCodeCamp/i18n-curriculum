@@ -7,29 +7,29 @@ dashedName: step-46
 
 # --description--
 
-You will come back to styling the menu in a few steps, but for now, go ahead and add a second `section` element below the first for displaying the desserts offered by the cafe.
+Du wirst in ein paar Schritten auf die Gestaltung der Speisekarte zurückkommen, aber füge jetzt ein zweites `section`-Element unterhalb des ersten hinzu, um die vom Café angebotenen Desserts anzuzeigen.
 
 # --hints--
 
-You should have an opening `section` tag.
+Du solltest ein öffnendes `section`-Tag haben.
 
 ```js
 assert.lengthOf(code.match(/<section>/ig) ,2);
 ```
 
-You should have a closing `section` tag.
+Du solltest ein schließendes `section`-Tag haben.
 
 ```js
 assert.lengthOf(code.match(/<\/section>/ig) ,2);
 ```
 
-You should not change the existing `main` element.
+Du solltest das vorhandene `main`-Element nicht ändern.
 
 ```js
 assert.lengthOf (document.querySelectorAll('main'), 1);
 ```
 
-Your new `section` element should be nested in the `main` element.
+Dein neues `section`-Element sollte im `main`-Element verschachtelt sein.
 
 ```js
 const main = document.querySelector('main');

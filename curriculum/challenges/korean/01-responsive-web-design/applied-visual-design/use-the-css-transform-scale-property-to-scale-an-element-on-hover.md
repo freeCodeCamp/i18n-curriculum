@@ -9,7 +9,7 @@ dashedName: use-the-css-transform-scale-property-to-scale-an-element-on-hover
 
 # --description--
 
-The `transform` property has a variety of functions that let you scale, move, rotate, skew, etc., your elements. When used with pseudo-classes such as `:hover` that specify a certain state of an element, the `transform` property can easily add interactivity to your elements.
+`transform` 속성에는 요소를 확대, 이동, 회전, 비틀기 등 다양한 기능을 적용할 수 있는 함수들이 있습니다. `:hover`와 같은 가상 클래스와 함께 사용될 때, `transform` 속성은 요소에 상호 작용을 쉽게 추가할 수 있습니다.
 
 다음은 사용자가 그 위에 마우스를 올리면 문단 요소를 원래 크기의 2.1배로 확대하는 예제입니다.
 

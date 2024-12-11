@@ -9,7 +9,7 @@ dashedName: comment-out-html
 
 # --description--
 
-Remember that in order to start a comment, you need to use `<!--` and to end a comment, you need to use `-->`
+주석을 시작하려면 `<!--`를 사용해야 하고, 주석을 끝내려면 `-->`를 사용해야 합니다.
 
 여기에서는 `h2` 요소가 시작되기 전에 주석을 끝내야 합니다.
 
