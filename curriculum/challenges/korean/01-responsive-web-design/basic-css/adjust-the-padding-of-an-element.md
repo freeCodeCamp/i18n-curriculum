@@ -30,7 +30,9 @@ dashedName: adjust-the-padding-of-an-element
 `blue-box` 클래스는 요소에 `20px`의 `padding`을 부여합니다.
 
 ```js
-assert($('.blue-box').css('padding-top') === '20px');
+const blueBox = document.querySelector('.blue-box');
+const paddingTop = window.getComputedStyle(blueBox)['padding-top'];
+assert.strictEqual(paddingTop, '20px');
 ```
 
 # --seed--

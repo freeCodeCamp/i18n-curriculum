@@ -39,14 +39,16 @@ Solo debe haber un elemento `head` en la página.
 
 ```js
 const headElems = code.replace(/\n/g, '').match(/\<head\s*>.*?\<\/head\s*>/g);
-assert(headElems && headElems.length === 1);
+assert.exists(headElems); 
+assert.lengthOf(headElems,1);
 ```
 
 Solo debe haber un elemento `body` en la página.
 
 ```js
 const bodyElems = code.replace(/\n/g, '').match(/<body\s*>.*?<\/body\s*>/g);
-assert(bodyElems && bodyElems.length === 1);
+assert.exists(bodyElems); 
+assert.lengthOf(bodyElems,1);
 ```
 
 El elemento `head` debe ser hijo del elemento `html`.
@@ -61,7 +63,7 @@ if (htmlChildren) {
 
   foundHead = children.match(/<head\s*>.*<\/head\s*>/);
 }
-assert(foundHead);
+assert.exists(foundHead);
 ```
 
 El elemento `body` debe ser hijo del elemento `html`.
@@ -75,7 +77,7 @@ if (htmlChildren) {
   const { children } = htmlChildren.groups;
   foundBody = children.match(/<body\s*>.*<\/body\s*>/);
 }
-assert(foundBody);
+assert.exists(foundBody);
 ```
 
 El elemento `head` debe envolver alrededor un elemento `title`.
@@ -89,7 +91,7 @@ if (headChildren) {
   const { children } = headChildren.groups;
   foundTitle = children.match(/<title\s*>.*?<\/title\s*>/);
 }
-assert(foundTitle);
+assert.exists(foundTitle);
 ```
 
 El elemento `body` debe envolver ambos elementos `h1` y `p`.
@@ -107,7 +109,7 @@ if (bodyChildren) {
   const numPs = ps ? ps.length : 0;
   foundElems = numH1s === 1 && numPs === 1;
 }
-assert(foundElems);
+assert.exists(foundElems);
 ```
 
 # --seed--

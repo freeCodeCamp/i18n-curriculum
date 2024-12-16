@@ -9,7 +9,7 @@ dashedName: use-hex-code-for-specific-colors
 
 # --description--
 
-Did you know there are other ways to represent colors in CSS? One of these ways is called hexadecimal code, or hex code for short.
+CSS에서 색상을 표현하는 다른 방법이 있다는 것을 알고 계셨나요? 그 중 하나는 16진수 코드 또는 간단히 헥스(hex) 코드를 사용하는 방법입니다.
 
 보통 우리는 <dfn>decimals</dfn>, 또는 기수 10 숫자를 사용하며, 각 자릿수에 0에서 9까지의 기호를 사용합니다. <dfn>Hexadecimals</dfn> (또는 <dfn>hex</dfn>)는 기수 16 숫자입니다. 이는 16개의 구별되는 기호를 사용한다는 것을 의미합니다. 10진수와 마찬가지로 기호 0에서 9는 숫자 영부터 아홉까지의 값을 나타냅니다. 그런 다음 A, B, C, D, E, F는 10부터 15까지의 값을 나타냅니다. 모두 합쳐 0부터 F까지는 16진수에서 한 자리 숫자를 나타낼 수 있으며, 이로써 16가지의 가능한 값이 생깁니다. <a href="https://www.freecodecamp.org/news/hexadecimal-number-system/" target="_blank" rel="noopener noreferrer nofollow">여기에서 16진수</a>에 대한 더 많은 정보를 찾을 수 있습니다.
 
@@ -30,17 +30,15 @@ body {
 `body` 요소는 검정색의 `background-color`를 가져야 합니다.
 
 ```js
-assert($('body').css('background-color') === 'rgb(0, 0, 0)');
+const body = document.querySelector('body');
+const backgroundColor = window.getComputedStyle(body)['background-color']; 
+assert.strictEqual(backgroundColor, 'rgb(0, 0, 0)');
 ```
 
 검정색을 나타내는 색상 헥스 코드 대신에 헤당 단어 `black`이 사용되어서는 안 됩니다.
 
 ```js
-assert(
-  code.match(
-    /body\s*{(([\s\S]*;\s*?)|\s*?)background.*\s*:\s*?#000(000)?((\s*})|(;[\s\S]*?}))/gi
-  )
-);
+assert.match(code, /body\s*{(([\s\S]*;\s*?)|\s*?)background.*\s*:\s*?#000(000)?((\s*})|(;[\s\S]*?}))/gi);
 ```
 
 # --seed--

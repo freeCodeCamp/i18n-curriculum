@@ -9,41 +9,49 @@ dashedName: style-multiple-elements-with-a-css-class
 
 # --description--
 
-Classes allow you to use the same CSS styles on multiple HTML elements. You can see this by applying your `red-text` class to the first `p` element.
+클래스를 사용하면 여러 HTML 요소에 동일한 CSS 스타일을 사용할 수 있습니다. `red-text` 클래스를 첫번째 `p` 요소에 적용하면 이를 확인할 수 있습니다.
 
 # --hints--
 
 `h2` 요소는 빨간색이어야 합니다.
 
 ```js
-assert($('h2').css('color') === 'rgb(255, 0, 0)');
+const h2Element = document.querySelector('h2');
+const color = window.getComputedStyle(h2Element)['color']; 
+assert.strictEqual(color, 'rgb(255, 0, 0)');
 ```
 
 `h2` 요소는 `red-text` 클래스가 있어야 합니다.
 
 ```js
-assert($('h2').hasClass('red-text'));
+assert.isTrue(document.querySelector('h2').classList.contains('red-text'));
 ```
 
 첫 번째 `p` 요소는 빨간색이어야 합니다.
 
 ```js
-assert($('p:eq(0)').css('color') === 'rgb(255, 0, 0)');
+const paragraph = document.querySelectorAll('p')[0];
+const color = window.getComputedStyle(paragraph )['color'];
+assert.strictEqual(color, 'rgb(255, 0, 0)');
 ```
 
 두 번째와 세 번째 `p` 요소는 빨간색이 아니어야 합니다.
 
 ```js
-assert(
-  !($('p:eq(1)').css('color') === 'rgb(255, 0, 0)') &&
-    !($('p:eq(2)').css('color') === 'rgb(255, 0, 0)')
-);
+const paragraph2 = document.querySelectorAll('p')[1];
+const paragraph3 = document.querySelectorAll('p')[2];
+
+const color2 = window.getComputedStyle(paragraph2)['color'];
+const color3 = window.getComputedStyle(paragraph3)['color'];
+
+assert.notStrictEqual(color2, 'rgb(255, 0, 0)');
+assert.notStrictEqual(color3, 'rgb(255, 0, 0)');
 ```
 
 첫 번째 `p` 요소는 `red-text` 클래스가 있어야 합니다.
 
 ```js
-assert($('p:eq(0)').hasClass('red-text'));
+assert.isTrue(document.querySelectorAll('p')[0].classList.contains('red-text'));
 ```
 
 # --seed--

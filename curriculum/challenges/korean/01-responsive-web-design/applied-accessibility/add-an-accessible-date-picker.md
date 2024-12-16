@@ -9,7 +9,7 @@ dashedName: add-an-accessible-date-picker
 
 # --description--
 
-Forms often include the `input` field, which can be used to create several different form controls. The `type` attribute on this element indicates what kind of `input` element will be created.
+폼(Form)은 여러 다양한 폼 컨트롤에 사용되는 `input` 필드를 포함합니다. 이러한 HTML 요소의 `type` 속성을 통해 해당 요소가 어떤 `input`인지 알 수 있습니다.
 
 이전 도전 과제에서 `text`와 `submit` 타입을 확인했을 텐데, HTML5에서는 `date` 필드를 지정할 수 있는 옵션도 도입되었습니다. 브라우저별로 다르지만, 날짜 선택기는 어떤 유저든 폼을 채우기 쉽게 `input` 필드가 포커스 상태일 때 나타납니다.
 

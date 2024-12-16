@@ -33,39 +33,35 @@ Entferne die letzten beiden `p`-Elemente und erstellen unten auf der Seite eine 
 Erstelle ein `ul`-Element.
 
 ```js
-assert($('ul').length > 0);
+assert.isNotEmpty(document.querySelectorAll('ul'));
 ```
 
 Du solltest drei `li`-Elemente innerhalb deines `ul`-Elements verwenden.
 
 ```js
-assert($('ul li').length > 2);
+assert.lengthOf(document.querySelectorAll('ul li'),3);
 ```
 
 Dein `ul`-Element sollte einen schließenden Tag besitzen.
 
 ```js
-assert(
-  code.match(/<\/ul>/gi) &&
-    code.match(/<ul/gi) &&
-    code.match(/<\/ul>/gi).length === code.match(/<ul/gi).length
-);
+assert.match(code,/<\/ul>/gi);
+assert.match(code,/<ul/gi);
+assert.strictEqual(code.match(/<\/ul>/gi).length,code.match(/<ul/gi).length);
 ```
 
 Deine `li`-Elemente sollten schließende Tags besitzen.
 
 ```js
-assert(
-  code.match(/<\/li>/gi) &&
-    code.match(/<li[\s>]/gi) &&
-    code.match(/<\/li>/gi).length === code.match(/<li[\s>]/gi).length
-);
+assert.match(code,/<\/li>/gi);
+assert.match(code,/<li[\s>]/gi);
+assert.strictEqual(code.match(/<\/li>/gi).length,code.match(/<li[\s>]/gi).length);
 ```
 
 Deine `li`-Elemente sollten weder einen leeren String noch reine Leerzeichen enthalten.
 
 ```js
-assert($('ul li').filter((_, item) => !$(item).text().trim()).length === 0);
+assert.isEmpty([...document.querySelectorAll('ul li')].filter((item) => item.textContent.trim() === ""));
 ```
 
 # --seed--

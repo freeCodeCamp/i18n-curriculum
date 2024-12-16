@@ -28,22 +28,20 @@ Erstelle ein `p`-Element unterhalb deines `h2`-Elements, und gib ihm den Text `H
 Dein Code sollte ein gültiges `p`-Element haben.
 
 ```js
-assert($('p').length > 0);
+assert.lengthOf(document.querySelectorAll('p'),1);
 ```
 
 Dein `p`-Element sollte den Text `Hello Paragraph` haben.
 
 ```js
-assert.isTrue(/hello(\s)+paragraph/gi.test($('p').text()));
+assert.match(document.querySelector('p').textContent,/hello(\s)+paragraph/gi);
 ```
 
 Dein `p`-Element sollte ein schließendes Tag haben.
 
 ```js
-assert(
-  code.match(/<\/p>/g) &&
-    code.match(/<\/p>/g).length === code.match(/<p/g).length
-);
+assert.match(code,/<\/p>/g);
+assert.strictEqual(code.match(/<\/p>/g).length,code.match(/<p/g).length);
 ```
 
 # --seed--

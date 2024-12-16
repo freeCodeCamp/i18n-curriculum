@@ -22,18 +22,23 @@ Puedes especificar un `border-radius` usando píxeles como unidad de medida. Dal
 Tu elemento img debe incluir la clase `thick-green-border`.
 
 ```js
-assert($('img').hasClass('thick-green-border'));
+assert.isTrue(document.querySelector('img').classList.contains('thick-green-border'));
 ```
 
 Tu imagen debe tener un "border-radius" (radio del borde) de `10px`.
 
 ```js
-assert(
-  $('img').css('border-top-left-radius') === '10px' &&
-    $('img').css('border-top-right-radius') === '10px' &&
-    $('img').css('border-bottom-left-radius') === '10px' &&
-    $('img').css('border-bottom-right-radius') === '10px'
-);
+const image = document.querySelector('img');
+const style = window.getComputedStyle(image);  
+const borderTopLeftRadius = style['border-top-left-radius']; 
+const borderTopRightRadius = style['border-top-right-radius'];
+const borderBottomLeftRadius = style['border-bottom-left-radius'];
+const borderBottomRightRadius = style['border-bottom-right-radius'];
+
+assert.strictEqual(borderTopLeftRadius, '10px');
+assert.strictEqual(borderTopRightRadius, '10px');
+assert.strictEqual(borderBottomLeftRadius, '10px');
+assert.strictEqual(borderBottomRightRadius, '10px');
 ```
 
 # --seed--

@@ -9,7 +9,7 @@ dashedName: create-a-text-field
 
 # --description--
 
-Now let's create a web form.
+이제 웹폼을 만들어보겠습니다.
 
 `input` 요소는 사용자로부터 입력을 받는 편리한 방법입니다.
 
@@ -30,7 +30,7 @@ Note that `input` is a void element.
 어플리케이션은 `text` 유형의 `input` 요소를 가져야 합니다.
 
 ```js
-assert($('input[type=text]').length > 0);
+assert.isNotEmpty(document.querySelectorAll('input[type=text]'));
 ```
 
 # --seed--

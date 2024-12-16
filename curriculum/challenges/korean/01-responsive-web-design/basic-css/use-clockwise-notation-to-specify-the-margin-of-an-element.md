@@ -9,7 +9,7 @@ dashedName: use-clockwise-notation-to-specify-the-margin-of-an-element
 
 # --description--
 
-Let's try this again, but with `margin` this time.
+이번에는 `margin`을 사용해 봅시다.
 
 요소의 `margin-top`, `margin-right`, `margin-bottom`, `margin-left` 속성을 개별적으로 지정하는 대신 다음과 같이 한 줄에 모두 지정할 수 있습니다.
 
@@ -28,35 +28,40 @@ margin: 10px 20px 10px 20px;
 `blue-box` 클래스는 요소의 상단에 `40px`의 `margin`을 주어야 합니다.
 
 ```js
-assert($('.blue-box').css('margin-top') === '40px');
+const blueBox = document.querySelector('.blue-box');
+const marginTop = window.getComputedStyle(blueBox)['margin-top'];
+assert.strictEqual(marginTop, '40px');
 ```
 
 `blue-box` 클래스는 요소의 오른쪽에 `20px`의 `margin`을 주어야 합니다.
 
 ```js
-assert($('.blue-box').css('margin-right') === '20px');
+const blueBox = document.querySelector('.blue-box');
+const marginRight = window.getComputedStyle(blueBox)['margin-right'];
+assert.strictEqual(marginRight, '20px');
 ```
 
 `blue-box` 클래스는 요소의 하단에 `20px`의 `margin`을 주어야 합니다.
 
 ```js
-assert($('.blue-box').css('margin-bottom') === '20px');
+const blueBox = document.querySelector('.blue-box');
+const marginBottom = window.getComputedStyle(blueBox)['margin-bottom'];
+assert.strictEqual(marginBottom, '20px');
 ```
 
 `blue-box` 클래스는 요소의 왼쪽에 `40px`의 `margin`을 주어야 합니다.
 
 ```js
-assert($('.blue-box').css('margin-left') === '40px');
+const blueBox = document.querySelector('.blue-box');
+const marginLeft = window.getComputedStyle(blueBox)['margin-left'];
+assert.strictEqual(marginLeft, '40px');
 ```
 
 시계 방향 표기법을 사용하여 `blue-box` 클래스의 마진을 설정해야 합니다.
 
 ```js
-assert(
-  /\.blue-box\s*{[\s\S]*margin[\s]*:\s*\d+px\s+\d+px\s+\d+px\s+\d+px(;\s*[^}]+\s*}|;?\s*})/.test(
-    __helpers.removeCssComments($('style').text())
-  )
-);
+const cssCode = __helpers.removeCssComments(document.querySelector('style:not(.fcc-hide-header)').textContent);
+assert.match(cssCode, /\.blue-box\s*{[\s\S]*margin[\s]*:\s*\d+px\s+\d+px\s+\d+px\s+\d+px(;\s*[^}]+\s*}|;?\s*})/);
 ```
 
 # --seed--

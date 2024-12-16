@@ -20,13 +20,15 @@ dashedName: make-circular-images-with-a-border-radius
 이미지는 완벽한 원 모양이기 위해서 `50%`의 테두리 반지름을 가져야 합니다.
 
 ```js
-assert(parseInt($('img').css('border-top-left-radius')) > 48);
+const image = document.querySelector('img');
+const borderTopLeftRadius = window.getComputedStyle(image)['border-top-left-radius'];
+assert.strictEqual(parseInt(borderTopLeftRadius), 50);
 ```
 
 `border-radius` 값은 `50%`의 퍼센트 값을 사용해야 합니다.
 
 ```js
-assert(code.match(/50%/g));
+assert.match(__helpers.removeCssComments(code), /50%/g);
 ```
 
 # --seed--

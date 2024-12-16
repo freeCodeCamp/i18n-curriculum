@@ -24,7 +24,7 @@ dashedName: use-html5-to-require-a-field
 글자 `input` 요소는 `required` 속성을 가져야 합니다.
 
 ```js
-assert($('input').prop('required'));
+assert.isTrue(document.querySelector('input').required);
 ```
 
 # --seed--

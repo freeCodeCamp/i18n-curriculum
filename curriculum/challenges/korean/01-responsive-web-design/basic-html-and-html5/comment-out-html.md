@@ -22,35 +22,33 @@ dashedName: comment-out-html
 `h1` 요소는 주석 처리되어 페이지에 보이지 않아야 합니다.
 
 ```js
-assert($('h1').length === 0);
+assert.isEmpty(document.querySelectorAll('h1'));
 ```
 
 `h2` 요소는 주석 처리되지 않아서 페이지에 보여야 합니다.
 
 ```js
-assert($('h2').length > 0);
+assert.isNotEmpty(document.querySelectorAll('h2'));
 ```
 
 `p` 요소는 주석 처리되어 페이지에 보이지 않아야 합니다.
 
 ```js
-assert($('p').length === 0);
+assert.isEmpty(document.querySelectorAll('p'));
 ```
 
 모든 주석은 `-->`로 끝나야 합니다.
 
 ```js
-assert(code.match(/[^fc]-->/g).length > 1);
+assert.isAbove(code.match(/[^fc]-->/g).length, 1);
 ```
 
 `h1`, `h2` 또는 `p` 요소의 순서가 변경되면 안 됩니다.
 
 ```js
-assert(
-  code.match(/<([a-z0-9]){1,2}>/g)[0] === '<h1>' &&
-    code.match(/<([a-z0-9]){1,2}>/g)[1] === '<h2>' &&
-    code.match(/<([a-z0-9]){1,2}>/g)[2] === '<p>'
-);
+assert.strictEqual(code.match(/<([a-z0-9]){1,2}>/g)[0],'<h1>');
+assert.strictEqual(code.match(/<([a-z0-9]){1,2}>/g)[1],'<h2>');
+assert.strictEqual(code.match(/<([a-z0-9]){1,2}>/g)[2],'<p>');
 ```
 
 # --seed--

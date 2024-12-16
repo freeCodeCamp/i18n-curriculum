@@ -22,35 +22,33 @@ Kommentiere dein `h1`-Element und dein `p`-Element aus, aber nicht dein `h2`-Ele
 Dein `h1`-Element sollte auskommentiert werden, damit es auf der Seite nicht sichtbar ist.
 
 ```js
-assert($('h1').length === 0);
+assert.isEmpty(document.querySelectorAll('h1'));
 ```
 
 Dein `h2`-Element sollte nicht auskommentiert werden, damit es auf der Seite sichtbar ist.
 
 ```js
-assert($('h2').length > 0);
+assert.isNotEmpty(document.querySelectorAll('h2'));
 ```
 
 Dein `p`-Element sollte auskommentiert werden, damit es auf der Seite nicht sichtbar ist.
 
 ```js
-assert($('p').length === 0);
+assert.isEmpty(document.querySelectorAll('p'));
 ```
 
 Jeder deiner Kommentare sollte mit `-->` abgeschlossen werden.
 
 ```js
-assert(code.match(/[^fc]-->/g).length > 1);
+assert.isAbove(code.match(/[^fc]-->/g).length, 1);
 ```
 
 Du solltest die Reihenfolge des `h1`, `h2`, oder `p` Elements in deinem Code nicht ändern.
 
 ```js
-assert(
-  code.match(/<([a-z0-9]){1,2}>/g)[0] === '<h1>' &&
-    code.match(/<([a-z0-9]){1,2}>/g)[1] === '<h2>' &&
-    code.match(/<([a-z0-9]){1,2}>/g)[2] === '<p>'
-);
+assert.strictEqual(code.match(/<([a-z0-9]){1,2}>/g)[0],'<h1>');
+assert.strictEqual(code.match(/<([a-z0-9]){1,2}>/g)[1],'<h2>');
+assert.strictEqual(code.match(/<([a-z0-9]){1,2}>/g)[2],'<p>');
 ```
 
 # --seed--

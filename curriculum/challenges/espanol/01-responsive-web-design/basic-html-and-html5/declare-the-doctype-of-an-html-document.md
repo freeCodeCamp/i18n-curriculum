@@ -37,19 +37,19 @@ Agrega una etiqueta `DOCTYPE` para HTML5 a la parte superior del documento en el
 Tu código debe incluir una etiqueta `<!DOCTYPE html>`.
 
 ```js
-assert(code.match(/<!DOCTYPE\s+?html\s*?>/gi));
+assert.match(code,/<!DOCTYPE\s+?html\s*?>/gi);
 ```
 
 Debe haber un elemento `html`.
 
 ```js
-assert($('html').length == 1);
+assert.lengthOf(document.querySelectorAll('html'), 1);
 ```
 
 Las etiquetas `html` deben envolver alrededor un elemento `h1`.
 
 ```js
-assert(code.match(/<html>\s*?<h1>\s*?.*?\s*?<\/h1>\s*?<\/html>/gi));
+assert.match(code,/<html>\s*?<h1>\s*?.*?\s*?<\/h1>\s*?<\/html>/gi);
 ```
 
 # --seed--

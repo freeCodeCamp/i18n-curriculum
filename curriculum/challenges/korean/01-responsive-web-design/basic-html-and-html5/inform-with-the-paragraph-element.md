@@ -28,22 +28,20 @@ dashedName: inform-with-the-paragraph-element
 코드에는 유효한 `p` 요소가 있어야 합니다.
 
 ```js
-assert($('p').length > 0);
+assert.lengthOf(document.querySelectorAll('p'),1);
 ```
 
 `p` 요소에는 `Hello Paragraph` 라는 텍스트가 있어야 합니다.
 
 ```js
-assert.isTrue(/hello(\s)+paragraph/gi.test($('p').text()));
+assert.match(document.querySelector('p').textContent,/hello(\s)+paragraph/gi);
 ```
 
 `p` 요소에는 닫는 태그가 있어야 합니다.
 
 ```js
-assert(
-  code.match(/<\/p>/g) &&
-    code.match(/<\/p>/g).length === code.match(/<p/g).length
-);
+assert.match(code,/<\/p>/g);
+assert.strictEqual(code.match(/<\/p>/g).length,code.match(/<p/g).length);
 ```
 
 # --seed--

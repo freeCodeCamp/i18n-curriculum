@@ -30,21 +30,13 @@ background: var(--penguin-skin, black);
 Fallback 값 `black`은 `penguin-top` 클래스의 `background` 속성에 사용되어야 합니다.
 
 ```js
-assert(
-  code.match(
-    /.penguin-top\s*?{[\s\S]*background\s*?:\s*?var\(\s*?--pengiun-skin\s*?,\s*?black\s*?\)\s*?;[\s\S]*}[\s\S]*.penguin-bottom\s{/gi
-  )
-);
+assert.match(__helpers.removeCssComments(code), /.penguin-top\s*?{[\s\S]*background\s*?:\s*?var\(\s*?--pengiun-skin\s*?,\s*?black\s*?\)\s*?;[\s\S]*}[\s\S]*.penguin-bottom\s{/gi);
 ```
 
 Fallback 값 `black`은 `penguin-bottom` 클래스의 `background` 속성에 사용되어야 합니다.
 
 ```js
-assert(
-  code.match(
-    /.penguin-bottom\s*?{[\s\S]*background\s*?:\s*?var\(\s*?--pengiun-skin\s*?,\s*?black\s*?\)\s*?;[\s\S]*}/gi
-  )
-);
+assert.match(__helpers.removeCssComments(code), /.penguin-bottom\s*?{[\s\S]*background\s*?:\s*?var\(\s*?--pengiun-skin\s*?,\s*?black\s*?\)\s*?;[\s\S]*}/gi);
 ```
 
 # --seed--

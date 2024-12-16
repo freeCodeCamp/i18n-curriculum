@@ -26,35 +26,40 @@ Verwende die Uhrzeigersinnnotation um dem Element mit der `.blue-box`-Klasse ein
 Deine `blue-box`-Klasse sollte der oberen Seite der Elemente `40px` `padding` zuweisen.
 
 ```js
-assert($('.blue-box').css('padding-top') === '40px');
+const blueBox = document.querySelector('.blue-box');
+const paddingTop = window.getComputedStyle(blueBox)['padding-top'];
+assert.strictEqual(paddingTop, '40px');
 ```
 
 Deine `blue-box`-Klasse sollte der rechten Seite der Elemente `20px` `padding` zuweisen.
 
 ```js
-assert($('.blue-box').css('padding-right') === '20px');
+const blueBox = document.querySelector('.blue-box');
+const paddingRight = window.getComputedStyle(blueBox)['padding-right'];
+assert.strictEqual(paddingRight, '20px');
 ```
 
 Deine `blue-box`-Klasse sollte der unteren Seite der Elemente `20px` `padding` zuweisen.
 
 ```js
-assert($('.blue-box').css('padding-bottom') === '20px');
+const blueBox = document.querySelector('.blue-box');
+const paddingBottom = window.getComputedStyle(blueBox)['padding-bottom'];
+assert.strictEqual(paddingBottom, '20px');
 ```
 
 Deine `blue-box`-Klasse sollte der linken Seite der Elemente `40px` `padding` zuweisen.
 
 ```js
-assert($('.blue-box').css('padding-left') === '40px');
+const blueBox = document.querySelector('.blue-box');
+const paddingLeft = window.getComputedStyle(blueBox)['padding-left'];
+assert.strictEqual(paddingLeft, '40px');
 ```
 
 Du solltest die Uhrzeigersinnnotation verwenden, um das Padding der `blue-box`-Klasse festzulegen.
 
 ```js
-assert(
-  /\.blue-box\s*{[\s\S]*padding[\s]*:\s*\d+px\s+\d+px\s+\d+px\s+\d+px(;\s*[^}]+\s*}|;?\s*})/.test(
-    __helpers.removeCssComments($('style').text())
-  )
-);
+const css =  __helpers.removeCssComments(document.querySelector('style:not(.fcc-hide-header)').textContent);
+assert.match(css, /\.blue-box\s*{[\s\S]*padding\s*:\s*\d+px\s+\d+px\s+\d+px\s+\d+px(;\s*[^}]+\s*}|;?\s*})/);
 ```
 
 # --seed--

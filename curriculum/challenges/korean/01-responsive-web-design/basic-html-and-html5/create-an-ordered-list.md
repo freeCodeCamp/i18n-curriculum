@@ -33,80 +33,76 @@ HTML은 <dfn>순서가 있는 목록</dfn> 혹은 번호가 매겨진 목록을 
 `Top 3 things cats hate:`을 위한 순서가 있는 목록을 가져야 합니다.
 
 ```js
-assert(/Top 3 things cats hate:/i.test($('ol').prev().text()));
+const previousElement = document.querySelector('ol').previousElementSibling; 
+assert.match(previousElement.textContent,/Top 3 things cats hate:/i);
 ```
 
 `Things cats love:`을 위한 순서가 없는 목록을 가져야 합니다.
 
 ```js
-assert(/Things cats love:/i.test($('ul').prev().text()));
+const previousElement = document.querySelector('ul').previousElementSibling; 
+assert.match(previousElement.textContent,/Things cats love:/i);
 ```
 
 `ul` 요소는 하나만 있어야 합니다.
 
 ```js
-assert.equal($('ul').length, 1);
+assert.lengthOf(document.querySelectorAll('ul'), 1);
 ```
 
 `ol` 요소는 하나만 있어야 합니다.
 
 ```js
-assert.equal($('ol').length, 1);
+assert.lengthOf(document.querySelectorAll('ol'), 1);
 ```
 
 `ul` 요소 안에 세 개의 `li` 요소가 있어야 합니다.
 
 ```js
-assert.equal($('ul li').length, 3);
+assert.lengthOf(document.querySelectorAll('ul li'), 3);
 ```
 
 `ol` 요소 안에 세 개의 `li` 요소가 있어야 합니다.
 
 ```js
-assert.equal($('ol li').length, 3);
+assert.lengthOf(document.querySelectorAll('ol li'), 3);
 ```
 
 `ul` 요소는 닫는 태그를 가져야 합니다.
 
 ```js
-assert(
-  code.match(/<\/ul>/g) &&
-    code.match(/<\/ul>/g).length === code.match(/<ul>/g).length
-);
+assert.match(code,/<\/ul>/g);
+assert.strictEqual(code.match(/<\/ul>/g).length ,code.match(/<ul>/g).length);
 ```
 
 `ol` 요소는 닫는 태그를 가져야 합니다.
 
 ```js
-assert(
-  code.match(/<\/ol>/g) &&
-    code.match(/<\/ol>/g).length === code.match(/<ol>/g).length
-);
+assert.match(code,/<\/ol>/g);
+assert.strictEqual(code.match(/<\/ol>/g).length ,code.match(/<ol>/g).length);
 ```
 
 `li` 요소는 닫는 태그를 가져야 합니다.
 
 ```js
-assert(
-  code.match(/<\/li>/g) &&
-    code.match(/<li>/g) &&
-    code.match(/<\/li>/g).length === code.match(/<li>/g).length
-);
+assert.match(code,/<\/li>/g);
+assert.match(code,/<li>/g);
+assert.strictEqual(code.match(/<\/li>/g).length ,code.match(/<li>/g).length);
 ```
 
 순서가 없는 목록에 있는 `li` 요소는 비어있지 않아야 합니다.
 
 ```js
-$('ul li').each((i, val) =>
-  assert(__helpers.removeWhiteSpace(val.textContent))
+[...document.querySelectorAll('ul li')].forEach((val) =>
+  assert.isNotEmpty(__helpers.removeWhiteSpace(val.textContent))
 );
 ```
 
 순서가 있는 목록 안에 있는 `li` 요소는 비어있지 않아야 합니다.
 
 ```js
-$('ol li').each((i, val) =>
-  assert(!!__helpers.removeWhiteSpace(val.textContent))
+[...document.querySelectorAll('ol li')].forEach((val) =>
+  assert.isNotEmpty(__helpers.removeWhiteSpace(val.textContent))
 );
 ```
 

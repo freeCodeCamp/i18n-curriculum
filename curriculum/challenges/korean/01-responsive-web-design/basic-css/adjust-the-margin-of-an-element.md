@@ -24,7 +24,9 @@ dashedName: adjust-the-margin-of-an-element
 `blue-box` 클래스는 요소에 `20px`의 `margin`을 부여합니다.
 
 ```js
-assert($('.blue-box').css('margin-top') === '20px');
+const blueBox = document.querySelector('.blue-box');
+const marginTop = window.getComputedStyle(blueBox)['margin-top'];
+assert.strictEqual(marginTop, '20px');
 ```
 
 # --seed--

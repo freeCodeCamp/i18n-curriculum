@@ -35,46 +35,46 @@ Erstelle dann ein `main`-Element und ordne nur die zwei `p` Elemente im `main`-E
 Du solltest 2 `p`-Elemente mit Kitty Ipsum Text haben.
 
 ```js
-assert($('p').length > 1);
+assert.lengthOf(document.querySelectorAll('p'),2);
 ```
 
 Jedes deiner `p`-Elemente sollte ein schließendes Tag haben.
 
 ```js
-assert(
-  code.match(/<\/p>/g) &&
-    code.match(/<\/p>/g).length === code.match(/<p/g).length
-);
+assert.match(code,/<\/p>/g);
+assert.strictEqual(code.match(/<\/p>/g).length,code.match(/<p/g).length);
 ```
 
 Dein `p`-Element sollte die ersten Worte des mitgelieferten zusätzlichen `kitty ipsum`-Textes enthalten.
 
 ```js
-assert.isTrue(/Purr\s+jump\s+eat/gi.test($('p').text()));
+assert.match(document.querySelectorAll('p')[1].textContent,/Purr\s+jump\s+eat/gi);
 ```
 
 Dein Code sollte ein `main`-Element enthalten.
 
 ```js
-assert($('main').length === 1);
+assert.lengthOf(document.querySelectorAll('main'),1);
 ```
 
 Das `main`-Element sollte zwei Absatzelemente (p) als Kinder haben.
 
 ```js
-assert($('main').children('p').length === 2);
+const main = document.querySelector('main');
+const children = main.querySelectorAll("p"); 
+assert.lengthOf(children,2);
 ```
 
 Das öffnende `main`-Tag sollte vor dem ersten Absatz-Tag stehen.
 
 ```js
-assert(code.match(/<main>\s*?<p>/g));
+assert.match(code,(/<main>\s*?<p>/g));
 ```
 
 Das schließende `main`-Tag sollte nach dem zweiten schließenden Absatz-Tag stehen.
 
 ```js
-assert(code.match(/<\/p>\s*?<\/main>/g));
+assert.match(code,(/<\/p>\s*?<\/main>/g));
 ```
 
 # --seed--

@@ -9,7 +9,7 @@ dashedName: understand-absolute-versus-relative-units
 
 # --description--
 
-The last several challenges all set an element's margin or padding with pixels (`px`). Pixels are a type of length unit, which is what tells the browser how to size or space an item. In addition to `px`, CSS has a number of different length unit options that you can use.
+마지막 여러 도전에서는 요소의 마진(margin) 또는 패딩(padding)을 픽셀(`px`)로 설정했습니다. 픽셀은 브라우저에 항목의 크기 또는 간격을 알려주는 길이 단위의 한 유형입니다. `px` 외에도 CSS에는 사용할 수 있는 여러 다양한 길이 단위 옵션이 있습니다.
 
 길이 단위의 주요 두 유형은 절대 단위와 상대 단위입니다. 절대 단위는 길이의 물리적 단위에 결합됩니다. 예를 들어, `in`은 인치를, `mm`은 밀리미터를 나타냅니다. 절대 길이 단위는 화면상의 실제 측정을 근사화하지만, 화면의 해상도에 따라 몇 가지 차이가 있을 수 있습니다.
 
@@ -26,18 +26,19 @@ The last several challenges all set an element's margin or padding with pixels (
 `red-box` 클래스는 `padding` 속성을 가져야 합니다.
 
 ```js
-assert(
-  $('.red-box').css('padding-top') != '0px' &&
-    $('.red-box').css('padding-right') != '0px' &&
-    $('.red-box').css('padding-bottom') != '0px' &&
-    $('.red-box').css('padding-left') != '0px'
-);
+const redBox =document.querySelector('.red-box'); 
+const style = window.getComputedStyle(redBox); 
+
+assert.notEqual(style['padding-top'], '0px');
+assert.notEqual(style['padding-right'], '0px');
+assert.notEqual(style['padding-bottom'], '0px');
+assert.notEqual(style['padding-left'], '0px');
 ```
 
 `red-box` 클래스는 요소에 1.5em의 `padding`을 지정해야 합니다.
 
 ```js
-assert(code.match(/\.red-box\s*?{[\s\S]*padding\s*:\s*?1\.5em/gi));
+assert.match(__helpers.removeCssComments(code), /\.red-box\s*?{[\s\S]*padding\s*:\s*?1\.5em/gi);
 ```
 
 # --seed--

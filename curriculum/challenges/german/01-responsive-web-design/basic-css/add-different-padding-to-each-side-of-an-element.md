@@ -22,25 +22,33 @@ Gib der blauen Box ein `padding` von `40px` oben und links, aber nur `20px` auf 
 Deine `blue-box` Klasse sollte der oberen Seite der Elemente `40px` `padding` zuweisen.
 
 ```js
-assert($('.blue-box').css('padding-top') === '40px');
+const blueBox = document.querySelector('.blue-box');
+const paddingTop = window.getComputedStyle(blueBox)['padding-top'];
+assert.strictEqual(paddingTop, '40px');
 ```
 
 Deine `blue-box` Klasse sollte der rechten Seite der Elemente `20px` `padding` zuweisen.
 
 ```js
-assert($('.blue-box').css('padding-right') === '20px');
+const blueBox = document.querySelector('.blue-box');
+const paddingRight = window.getComputedStyle(blueBox)['padding-right'];
+assert.strictEqual(paddingRight, '20px');
 ```
 
 Deine `blue-box` Klasse sollte der unteren Seite der Elemente `20px` `padding` zuweisen.
 
 ```js
-assert($('.blue-box').css('padding-bottom') === '20px');
+const blueBox = document.querySelector('.blue-box');
+const paddingBottom = window.getComputedStyle(blueBox)['padding-bottom'];
+assert.strictEqual(paddingBottom, '20px');
 ```
 
 Deine `blue-box` Klasse sollte der linken Seite der Elemente `40px` `padding` zuweisen.
 
 ```js
-assert($('.blue-box').css('padding-left') === '40px');
+const blueBox = document.querySelector('.blue-box');
+const paddingLeft = window.getComputedStyle(blueBox)['padding-left'];
+assert.strictEqual(paddingLeft, '40px');
 ```
 
 # --seed--

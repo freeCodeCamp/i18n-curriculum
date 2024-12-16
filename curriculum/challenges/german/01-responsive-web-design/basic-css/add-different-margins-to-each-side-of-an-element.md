@@ -22,25 +22,33 @@ Gib der blauen Box einen `margin` von `40px` an ihrer oberen und linken Seite, a
 Deine `blue-box`-Klasse sollte der oberen Seite der Elemente `40px` `margin` zuweisen.
 
 ```js
-assert($('.blue-box').css('margin-top') === '40px');
+const blueBox = document.querySelector('.blue-box');
+const marginTop = window.getComputedStyle(blueBox)['margin-top'];
+assert.strictEqual(marginTop, '40px');
 ```
 
 Deine `blue-box`-Klasse sollte der rechten Seite der Elemente `20px` `margin` zuweisen.
 
 ```js
-assert($('.blue-box').css('margin-right') === '20px');
+const blueBox = document.querySelector('.blue-box');
+const marginRight = window.getComputedStyle(blueBox)['margin-right'];
+assert.strictEqual(marginRight, '20px');
 ```
 
 Deine `blue-box`-Klasse sollte der unteren Seite der Elemente `20px` `margin` zuweisen.
 
 ```js
-assert($('.blue-box').css('margin-bottom') === '20px');
+const blueBox = document.querySelector('.blue-box');
+const marginBottom = window.getComputedStyle(blueBox)['margin-bottom'];
+assert.strictEqual(marginBottom, '20px');
 ```
 
 Deine `blue-box`-Klasse sollte der linken Seite der Elemente `40px` `margin` zuweisen.
 
 ```js
-assert($('.blue-box').css('margin-left') === '40px');
+const blueBox = document.querySelector('.blue-box');
+const marginLeft = window.getComputedStyle(blueBox)['margin-left'];
+assert.strictEqual(marginLeft,'40px');
 ```
 
 # --seed--

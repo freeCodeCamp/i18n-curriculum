@@ -22,17 +22,13 @@ Du kannst diese Variablen überschreiben, indem du sie innerhalb eines bestimmte
 Die Klasse `penguin` sollte die Variable `--penguin-belly` mit `white` neu deklarieren.
 
 ```js
-assert(
-  code.match(/\.penguin\s*?{[\s\S]*--penguin-belly\s*?:\s*?white\s*?;[\s\S]*}/gi)
-);
+assert.match(__helpers.removeCssComments(code), /\.penguin\s*?{[\s\S]*--penguin-belly\s*?:\s*?white\s*?;[\s\S]*}/gi);
 ```
 
 Die `penguin` Klasse sollte keine `background-color` Eigenschaft enthalten.
 
 ```js
-assert(
-  code.match(/^((?!background-color\s*?:\s*?)[\s\S])*$/g)
-);
+assert.match(__helpers.removeCssComments(code), /^((?!background-color\s*?:\s*?)[\s\S])*$/g);
 ```
 
 

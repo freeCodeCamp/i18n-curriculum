@@ -34,49 +34,36 @@ Agrega a cada una de los inputs de tipo `radio` y de tipo `checkbox` el atributo
 Uno de tus botones de radio debe tener el atributo `value` establecido con el valor `indoor` (de interior).
 
 ```js
-assert(
-  $('label:contains("Indoor") > input[type="radio"]').filter("[value='indoor']")
-    .length > 0
-);
+const indoorRadioButton = [...document.querySelectorAll('label > input[type="radio"]')].filter(x => x.value === "indoor");
+assert.notEmpty(indoorRadioButton)
 ```
 
 Uno de tus botones de radio debe tener el atributo `value` establecido con el valor `outdoor` (de exterior).
 
 ```js
-assert(
-  $('label:contains("Outdoor") > input[type="radio"]').filter(
-    "[value='outdoor']"
-  ).length > 0
-);
+const outdoorRadioButton = [...document.querySelectorAll('label > input[type="radio"]')].filter(x => x.value === "outdoor");
+assert.notEmpty(outdoorRadioButton);
 ```
 
 Una de tus casillas de verificación debe tener el atributo `value` establecido con el valor `loving` (cariñoso).
 
 ```js
-assert(
-  $('label:contains("Loving") > input[type="checkbox"]').filter(
-    "[value='loving']"
-  ).length > 0
-);
+const lovingCheckbox = [...document.querySelectorAll('label > input[type="checkbox"]')].filter(x => x.value === "loving");
+assert.notEmpty(lovingCheckbox); 
 ```
 
 Una de tus casillas de verificación debe tener el atributo `value` establecido con el valor `lazy` (perezoso).
 
 ```js
-assert(
-  $('label:contains("Lazy") > input[type="checkbox"]').filter("[value='lazy']")
-    .length > 0
-);
+const lazyCheckbox = [...document.querySelectorAll('label > input[type="checkbox"]')].filter(x => x.value === "lazy");
+assert.notEmpty(lazyCheckbox); 
 ```
 
 Una de tus casillas de verificación debe tener el atributo `value` establecido con el valor `energetic` (energético).
 
 ```js
-assert(
-  $('label:contains("Energetic") > input[type="checkbox"]').filter(
-    "[value='energetic']"
-  ).length > 0
-);
+const energeticCheckbox =  [...document.querySelectorAll('label > input[type="checkbox"]')].filter(x => x.value === "energetic");
+assert.notEmpty(energeticCheckbox);
 ```
 
 # --seed--

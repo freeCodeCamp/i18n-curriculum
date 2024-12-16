@@ -37,19 +37,19 @@ Füge einen `DOCTYPE`-Tag für HTML5 am Anfang des leeren HTML-Dokuments im Code
 Dein Code sollte ein `<!DOCTYPE html>`-Tag enthalten.
 
 ```js
-assert(code.match(/<!DOCTYPE\s+?html\s*?>/gi));
+assert.match(code,/<!DOCTYPE\s+?html\s*?>/gi);
 ```
 
 Es sollte ein `html`-Element vorhanden sein.
 
 ```js
-assert($('html').length == 1);
+assert.lengthOf(document.querySelectorAll('html'), 1);
 ```
 
 Die `html`-Tags sollten ein `h1`-Element einschließen.
 
 ```js
-assert(code.match(/<html>\s*?<h1>\s*?.*?\s*?<\/h1>\s*?<\/html>/gi));
+assert.match(code,/<html>\s*?<h1>\s*?.*?\s*?<\/h1>\s*?<\/html>/gi);
 ```
 
 # --seed--

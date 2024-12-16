@@ -24,25 +24,27 @@ HTML 주석은 `<!--` 로 시작하고 `-->`로 끝납니다.
 `h1` 요소가 주석이 제거되어 페이지에 표시되어야 합니다.
 
 ```js
-assert($('h1').length > 0);
+assert.notEmpty(document.querySelectorAll('h1'));
 ```
 
 `h2` 요소가 주석이 제거되어 페이지에 표시되어야 합니다.
 
 ```js
-assert($('h2').length > 0);
+assert.notEmpty(document.querySelectorAll('h2'));
 ```
 
 `p` 요소가 주석이 제거되어 페이지에 표시되어야 합니다.
 
 ```js
-assert($('p').length > 0);
+assert.notEmpty(document.querySelectorAll('p'));
 ```
 
 페이지에 주석이 표시되지 않아야 합니다 (예: `-->`).
 
 ```js
-assert(!$('*:contains("-->")')[1]);
+const elements = document.querySelectorAll('*');
+const potentialComments = Array.from(elements).filter(el => el.textContent.includes('-->'));
+assert.notExists(potentialComments[1])
 ```
 
 # --seed--

@@ -28,31 +28,33 @@ CSS를 덮어쓸 수 있는 다른 방법들이 있습니다. 인라인 스타�
 `h1` 요소는 `pink-text` 클래스를 갖고 있어야 합니다.
 
 ```js
-assert($('h1').hasClass('pink-text'));
+assert.isTrue(document.querySelector('h1').classList.contains('pink-text'));
 ```
 
 `h1` 요소는 `blue-text` 클래스를 갖고 있어야 합니다.
 
 ```js
-assert($('h1').hasClass('blue-text'));
+assert.isTrue(document.querySelector('h1').classList.contains('blue-text'));
 ```
 
 `h1` 요소는 `orange-text` 라는 id를 갖고 있어야 합니다.
 
 ```js
-assert($('h1').attr('id') === 'orange-text');
+assert.strictEqual(document.querySelector('h1').getAttribute('id'), 'orange-text');
 ```
 
 `h1` 요소는 인라인 스타일을 갖고 있어야 합니다.
 
 ```js
-assert(document.querySelector('h1[style]'));
+assert.exists(document.querySelector('h1[style]'));
 ```
 
 `h1` 요소는 흰색으로 나타나야 합니다.
 
 ```js
-assert($('h1').css('color') === 'rgb(255, 255, 255)');
+const h1Element = document.querySelector('h1');
+const color = window.getComputedStyle(h1Element)['color']; 
+assert.strictEqual(color, 'rgb(255, 255, 255)');
 ```
 
 # --seed--

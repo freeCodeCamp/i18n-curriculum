@@ -22,17 +22,13 @@ Cambia el valor de `--penguin-belly` a `white` en la clase `penguin`.
 La clase `penguin` debe reasignar la variable `--penguin-belly` a `white`.
 
 ```js
-assert(
-  code.match(/\.penguin\s*?{[\s\S]*--penguin-belly\s*?:\s*?white\s*?;[\s\S]*}/gi)
-);
+assert.match(__helpers.removeCssComments(code), /\.penguin\s*?{[\s\S]*--penguin-belly\s*?:\s*?white\s*?;[\s\S]*}/gi);
 ```
 
 La clase `penguin` no debe de tener la propiedad `background-color`.
 
 ```js
-assert(
-  code.match(/^((?!background-color\s*?:\s*?)[\s\S])*$/g)
-);
+assert.match(__helpers.removeCssComments(code), /^((?!background-color\s*?:\s*?)[\s\S])*$/g);
 ```
 
 

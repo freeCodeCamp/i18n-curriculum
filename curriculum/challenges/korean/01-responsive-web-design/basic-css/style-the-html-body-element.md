@@ -30,23 +30,22 @@ body {
 `body` 요소는 검정색의 `background-color`를 가져야 합니다.
 
 ```js
-assert($('body').css('background-color') === 'rgb(0, 0, 0)');
+const body = document.querySelector('body');
+const backgroundColor = window.getComputedStyle(body)['background-color'];
+
+assert.strictEqual(backgroundColor, 'rgb(0, 0, 0)');
 ```
 
 CSS 규칙은 올바른 형식으로 여는 중괄호와 닫는 중괄호를 가져야 합니다.
 
 ```js
-assert(
-  code.match(/<style>\s*body\s*\{\s*background.*\s*:\s*.*;\s*\}\s*<\/style>/i)
-);
+assert.match(code, /<style>\s*body\s*\{\s*background.*\s*:\s*.*;\s*\}\s*<\/style>/i);
 ```
 
 Your CSS rule should end with a semicolon.
 
 ```js
-assert(
-  code.match(/<style>\s*body\s*\{\s*background.*\s*:\s*.*;\s*\}\s*<\/style>/i)
-);
+assert.match(code, /<style>\s*body\s*\{\s*background.*\s*:\s*.*;\s*\}\s*<\/style>/i);
 ```
 
 # --seed--

@@ -28,22 +28,20 @@ Crea un elemento `a` que enlaza a `https://www.freecatphotoapp.com` y tiene "cat
 Tu elemento `a` debe contener el texto anchor: `cat photos`.
 
 ```js
-assert(/cat photos/gi.test($('a').text()));
+assert.match(document.querySelector('a').textContent,/cat photos/gi);
 ```
 
 Necesitas un elemento `a` que enlace a `https://www.freecatphotoapp.com`
 
 ```js
-assert(/^https?:\/\/(www\.)?freecatphotoapp\.com\/?$/i.test($('a').attr('href')));
+assert.match(document.querySelector('a').getAttribute('href'),/^https?:\/\/(www\.)?freecatphotoapp\.com\/?$/i);
 ```
 
 Tu elemento `a` debe tener una etiqueta de cierre.
 
 ```js
-assert(
-  code.match(/<\/a>/g) &&
-    code.match(/<\/a>/g).length === code.match(/<a/g).length
-);
+assert.match(code,/<\/a>/g);
+assert.strictEqual(code.match(/<\/a>/g).length,code.match(/<a/g).length);
 ```
 
 # --seed--

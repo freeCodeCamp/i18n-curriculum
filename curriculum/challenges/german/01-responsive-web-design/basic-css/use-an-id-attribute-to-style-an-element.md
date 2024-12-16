@@ -32,28 +32,29 @@ Versuche dem Formular das nun ein `id`-Attribut von `cat-photo-form` hat einen g
 Dein `form`-Element sollte eine ID namens `cat-photo-form` haben.
 
 ```js
-assert($('form').attr('id') === 'cat-photo-form');
+assert.strictEqual(document.querySelector('form').getAttribute('id'), 'cat-photo-form');
 ```
 
 Dein `form`-Element sollte eine grüne `background-color` aufweisen.
 
 ```js
-assert($('#cat-photo-form').css('background-color') === 'rgb(0, 128, 0)');
+const catPhotoForm = document.querySelector('#cat-photo-form');
+const backgroundColor = window.getComputedStyle(catPhotoForm)['background-color'];
+assert.strictEqual(backgroundColor, 'rgb(0, 128, 0)');
 ```
 
 Dein `form`-Element sollte ein `id`-Attribut haben.
 
 ```js
-assert(
-  code.match(/<form.*cat-photo-form.*>/gi) &&
-    code.match(/<form.*cat-photo-form.*>/gi).length > 0
-);
+assert.match(__helpers.removeHtmlComments(code), /<form.*cat-photo-form.*>/gi);
+assert.lengthOf(__helpers.removeHtmlComments(code).match(/<form.*cat-photo-form.*>/gi), 1)
 ```
 
 Du solltest deinem `form`-Element weder `class` noch `style`-Attribute zuweisen.
 
 ```js
-assert(!code.match(/<form.*style.*>/gi) && !code.match(/<form.*class.*>/gi));
+assert.notMatch(__helpers.removeHtmlComments(code), /<form.*style.*>/gi);
+assert.notMatch(__helpers.removeHtmlComments(code), /<form.*class.*>/gi);
 ```
 
 # --seed--

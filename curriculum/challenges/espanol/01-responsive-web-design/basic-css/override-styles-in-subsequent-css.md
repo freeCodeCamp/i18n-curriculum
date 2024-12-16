@@ -34,25 +34,27 @@ Sin embargo, lo importante es el orden de las declaraciones de `class` clases en
 Tu elemento `h1` debe incluir la clase `pink-text`.
 
 ```js
-assert($('h1').hasClass('pink-text'));
+assert.isTrue(document.querySelector('h1').classList.contains('pink-text'));
 ```
 
 Tu elemento `h1` debe incluir la clase `blue-text`.
 
 ```js
-assert($('h1').hasClass('blue-text'));
+assert.isTrue(document.querySelector('h1').classList.contains('blue-text'));
 ```
 
 Tanto `blue-text` como `pink-text` deben pertenecer al mismo elemento `h1`.
 
 ```js
-assert($('.pink-text').hasClass('blue-text'));
+assert.isTrue(document.querySelector('.pink-text').classList.contains('blue-text'));
 ```
 
 Tu elemento `h1` debe ser de color azul ("blue").
 
 ```js
-assert($('h1').css('color') === 'rgb(0, 0, 255)');
+const h1Element = document.querySelector('h1');
+const color = window.getComputedStyle(h1Element)['color']; 
+assert.strictEqual(color, 'rgb(0, 0, 255)');
 ```
 
 # --seed--

@@ -40,43 +40,45 @@ Crea una declaración CSS para el id `orange-text` en el elemento `style`. Aquí
 Tu elemento `h1` debe incluir la clase `pink-text`.
 
 ```js
-assert($('h1').hasClass('pink-text'));
+assert.isTrue(document.querySelector('h1').classList.contains('pink-text'));
 ```
 
 Tu elemento `h1` debe incluir la clase `blue-text`.
 
 ```js
-assert($('h1').hasClass('blue-text'));
+assert.isTrue(document.querySelector('h1').classList.contains('blue-text'));
 ```
 
 Tu elemento `h1` debe incluir el id `orange-text`.
 
 ```js
-assert($('h1').attr('id') === 'orange-text');
+assert.strictEqual(document.querySelector('h1').getAttribute('id'),'orange-text');
 ```
 
 Debe haber un solo elemento `h1`.
 
 ```js
-assert($('h1').length === 1);
+assert.lengthOf(document.querySelectorAll('h1'), 1);
 ```
 
 El id `orange-text` debe tener una declaración CSS.
 
 ```js
-assert(code.match(/#orange-text\s*{/gi));
+assert.match(__helpers.removeCssComments(code), /#orange-text\s*{/gi);
 ```
 
 Tu `h1` no debe tener ningún atributo `style`.
 
 ```js
-assert(!code.match(/<h1.*style.*>/gi));
+assert.notMatch(__helpers.removeHtmlComments(code), /<h1.*style.*>/gi);
 ```
 
 Tu elemento `h1` debe ser naranja.
 
 ```js
-assert($('h1').css('color') === 'rgb(255, 165, 0)');
+const h1Element = document.querySelector('h1');
+const color = window.getComputedStyle(h1Element)['color']; 
+assert.strictEqual(color, 'rgb(255, 165, 0)');
 ```
 
 # --seed--

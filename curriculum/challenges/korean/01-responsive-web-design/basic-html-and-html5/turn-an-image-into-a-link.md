@@ -9,7 +9,7 @@ dashedName: turn-an-image-into-a-link
 
 # --description--
 
-You can make elements into links by nesting them within an `a` element.
+`a` 요소 내에 요소를 중첩하여 링크로 만들 수 있습니다.
 
 `a` 요소 내에서 이미지를 중첩합니다. 여기 예시가 있습니다.
 
@@ -30,23 +30,25 @@ You can make elements into links by nesting them within an `a` element.
 기존 `img` 요소는 `a` 요소 안에 중첩되어야 합니다.
 
 ```js
-assert($('a').children('img').length > 0);
+const anchor = document.querySelectorAll('a')[1];
+const children = anchor.querySelectorAll("img");
+assert.notEmpty(children);
 ```
 
 Your `a` element should be a dead link with an `href` attribute set to `#`.
 
 ```js
-assert(new RegExp('#').test($('a').children('img').parent().attr('href')));
+const anchor = document.querySelectorAll('a')[1];
+const parentHREF = anchor.querySelector("img").parentNode.getAttribute('href');
+assert.match(parentHREF,new RegExp('#'));
 ```
 
 모든 `a` 요소에는 닫는 태그가 있어야 합니다.
 
 ```js
-assert(
-  code.match(/<\/a>/g) &&
-    code.match(/<a/g) &&
-    code.match(/<\/a>/g).length === code.match(/<a/g).length
-);
+assert.match(code,/<\/a>/g);
+assert.match(code,/<a/g);
+assert.strictEqual(code.match(/<\/a>/g).length, code.match(/<a/g).length)
 ```
 
 # --seed--

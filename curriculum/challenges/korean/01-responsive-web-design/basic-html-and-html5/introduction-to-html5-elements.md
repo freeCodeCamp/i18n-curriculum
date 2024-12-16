@@ -35,46 +35,46 @@ HTML5는 더 설명적인 HTML 태그를 도입합니다. These include `main`, 
 Kitty Ipsum 텍스트가 있는 2개의 `p` 요소가 있어야 합니다.
 
 ```js
-assert($('p').length > 1);
+assert.lengthOf(document.querySelectorAll('p'),2);
 ```
 
 모든 `p` 요소에는 닫는 태그가 있어야 합니다.
 
 ```js
-assert(
-  code.match(/<\/p>/g) &&
-    code.match(/<\/p>/g).length === code.match(/<p/g).length
-);
+assert.match(code,/<\/p>/g);
+assert.strictEqual(code.match(/<\/p>/g).length,code.match(/<p/g).length);
 ```
 
 `p` 요소는 제공된 `kitty ipsum` 텍스트의 처음 몇 단어를 포함해야 합니다.
 
 ```js
-assert.isTrue(/Purr\s+jump\s+eat/gi.test($('p').text()));
+assert.match(document.querySelectorAll('p')[1].textContent,/Purr\s+jump\s+eat/gi);
 ```
 
 코드에는 `main` 요소가 있어야 합니다.
 
 ```js
-assert($('main').length === 1);
+assert.lengthOf(document.querySelectorAll('main'),1);
 ```
 
 `main` 요소에는 두 개의 문단 요소가 중첩돼 있어야 합니다.
 
 ```js
-assert($('main').children('p').length === 2);
+const main = document.querySelector('main');
+const children = main.querySelectorAll("p"); 
+assert.lengthOf(children,2);
 ```
 
 `main`의 여는 태그는 첫 번째 문단 태그 앞에 와야 합니다.
 
 ```js
-assert(code.match(/<main>\s*?<p>/g));
+assert.match(code,(/<main>\s*?<p>/g));
 ```
 
 `main`의 닫는 태그는 두 번째 문단의 닫는 태그 뒤에 와야 합니다.
 
 ```js
-assert(code.match(/<\/p>\s*?<\/main>/g));
+assert.match(code,(/<\/p>\s*?<\/main>/g));
 ```
 
 # --seed--

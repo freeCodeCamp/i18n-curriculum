@@ -37,19 +37,19 @@ HTML5를 위한 `DOCTYPE` 태그를 코드 편집기의 빈 HTML 문서 상단�
 코드에 `<!DOCTYPE html>` 태그가 있어야 합니다.
 
 ```js
-assert(code.match(/<!DOCTYPE\s+?html\s*?>/gi));
+assert.match(code,/<!DOCTYPE\s+?html\s*?>/gi);
 ```
 
 하나의 `html` 요소가 있어야 합니다.
 
 ```js
-assert($('html').length == 1);
+assert.lengthOf(document.querySelectorAll('html'), 1);
 ```
 
 `html` 태그는 하나의 `h1` 요소를 감싸야 합니다.
 
 ```js
-assert(code.match(/<html>\s*?<h1>\s*?.*?\s*?<\/h1>\s*?<\/html>/gi));
+assert.match(code,/<html>\s*?<h1>\s*?.*?\s*?<\/h1>\s*?<\/html>/gi);
 ```
 
 # --seed--

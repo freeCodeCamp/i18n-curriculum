@@ -24,7 +24,7 @@ Versuche dann, das Formular abzusenden, ohne einen Text einzugeben. Siehst du, w
 Dein `input`-Element sollte das `required`-Attribut besitzen.
 
 ```js
-assert($('input').prop('required'));
+assert.isTrue(document.querySelector('input').required);
 ```
 
 # --seed--

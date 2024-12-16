@@ -34,25 +34,27 @@ Asigna a tu elemento `h2` el atributo `class` con un valor de `red-text`.
 Tu elemento `h2` debe ser de color rojo ("red").
 
 ```js
-assert($('h2').css('color') === 'rgb(255, 0, 0)');
+const h2Element = document.querySelector('h2'); 
+const color = window.getComputedStyle(h2Element)['color']; 
+assert.strictEqual(color, 'rgb(255, 0, 0)');
 ```
 
 Tu elemento `h2` debe incluir la clase `red-text`.
 
 ```js
-assert($('h2').hasClass('red-text'));
+assert.isTrue(document.querySelector('h2').classList.contains('red-text'));
 ```
 
 Tu hoja de estilos debe declarar una clase `red-text` y su color debe ser `red` (rojo).
 
 ```js
-assert(code.match(/\.red-text\s*\{\s*color\s*:\s*red;?\s*\}/g));
+assert.match(__helpers.removeCssComments(code), /\.red-text\s*\{\s*color\s*:\s*red;?\s*\}/g);
 ```
 
 No debes usar declaraciones de tipo inline style como `style="color: red"` en tu elemento `h2`.
 
 ```js
-assert($('h2').attr('style') === undefined);
+assert.notExists(document.querySelector('h2').getAttribute('style'));
 ```
 
 # --seed--

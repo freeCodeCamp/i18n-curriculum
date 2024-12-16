@@ -28,22 +28,20 @@ dashedName: link-to-external-pages-with-anchor-elements
 `a` 요소에는 `cat photos`이라는 앵커 텍스트가 있어야 합니다.
 
 ```js
-assert(/cat photos/gi.test($('a').text()));
+assert.match(document.querySelector('a').textContent,/cat photos/gi);
 ```
 
 `https://www.freecatphotoapp.com` 으로 연결되는 `a` 요소가 필요합니다.
 
 ```js
-assert(/^https?:\/\/(www\.)?freecatphotoapp\.com\/?$/i.test($('a').attr('href')));
+assert.match(document.querySelector('a').getAttribute('href'),/^https?:\/\/(www\.)?freecatphotoapp\.com\/?$/i);
 ```
 
 `a` 요소에는 닫는 태그가 있어야 합니다.
 
 ```js
-assert(
-  code.match(/<\/a>/g) &&
-    code.match(/<\/a>/g).length === code.match(/<a/g).length
-);
+assert.match(code,/<\/a>/g);
+assert.strictEqual(code.match(/<\/a>/g).length,code.match(/<a/g).length);
 ```
 
 # --seed--

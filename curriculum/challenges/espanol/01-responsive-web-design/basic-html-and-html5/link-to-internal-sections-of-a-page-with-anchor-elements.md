@@ -36,45 +36,37 @@ Luego agrega un atributo `id` con un valor de `footer` al elemento `<footer>` en
 Solo debe haber una etiqueta anchor en tu página.
 
 ```js
-assert($('a').length == 1);
+assert.lengthOf(document.querySelectorAll('a'), 1);
 ```
 
 Solo debe haber una etiqueta `footer` en tu página.
 
 ```js
-assert($('footer').length == 1);
+assert.lengthOf(document.querySelectorAll('footer'),1);
 ```
 
 La etiqueta `a` debe tener un atributo `href` establecido como "#footer".
 
 ```js
-assert($('a').eq(0).attr('href') == '#footer');
+assert.strictEqual(document.querySelector('a').getAttribute('href'), '#footer');
 ```
 
 La etiqueta `a` no debe tener un atributo `target`.
 
 ```js
-assert(
-  typeof $('a').eq(0).attr('target') == typeof undefined ||
-    $('a').eq(0).attr('target') == true
-);
+assert.notExists(document.querySelector('a').getAttribute('target'));
 ```
 
 El texto de `a` debe ser "Jump to Bottom".
 
 ```js
-assert(
-  $('a')
-    .eq(0)
-    .text()
-    .match(/Jump to Bottom/gi)
-);
+assert.match(document.querySelector('a').textContent,/Jump to Bottom/gi);
 ```
 
 La etiqueta `footer` debe tener un atributo `id` establecido como "footer".
 
 ```js
-assert($('footer').eq(0).attr('id') == 'footer');
+assert.strictEqual(document.querySelector('footer').getAttribute('id'),'footer');
 ```
 
 # --seed--

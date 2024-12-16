@@ -26,28 +26,32 @@ Tipp: Versuche dein öffnendes `div`-Tag über dein `p`-Element "Dinge, die Katz
 Dein `p`-Element sollte in deinem `div`-Element eingebettet sein.
 
 ```js
-assert($('div').children('p').length > 1);
+const div = document.querySelector('div');
+const children = div.querySelectorAll('p');
+assert.isAbove(children.length,1);
 ```
 
 Dein `ul`-Element sollte in deinem `div`-Element eingebettet sein.
 
 ```js
-assert($('div').children('ul').length > 0);
+const div = document.querySelector('div');
+const children = div.querySelectorAll('ul');
+assert.notEmpty(children);
 ```
 
 Dein `ol`-Element sollte in deinem `div`-Element eingebettet sein.
 
 ```js
-assert($('div').children('ol').length > 0);
+const div = document.querySelector('div');
+const children = div.querySelectorAll('ol');
+assert.notEmpty(children);
 ```
 
 Dein `div`-Element sollte einen schließenden Tag haben.
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div>/g).length
-);
+assert.match(code,/<\/div>/g);
+assert.strictEqual(code.match(/<\/div>/g).length,code.match(/<div>/g).length);
 ```
 
 # --seed--

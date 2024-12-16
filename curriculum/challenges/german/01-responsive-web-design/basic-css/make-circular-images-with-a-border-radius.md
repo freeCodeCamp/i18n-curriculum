@@ -20,13 +20,15 @@ Gib deinem Katzenfoto einen `border-radius` von `50%`.
 Dein Bild sollte einen Rahmenradius von `50%` haben, damit es perfekt kreisförmig ist.
 
 ```js
-assert(parseInt($('img').css('border-top-left-radius')) > 48);
+const image = document.querySelector('img');
+const borderTopLeftRadius = window.getComputedStyle(image)['border-top-left-radius'];
+assert.strictEqual(parseInt(borderTopLeftRadius), 50);
 ```
 
 Der Wert des `border-radius` sollte einen Prozentwert von `50%` verwenden.
 
 ```js
-assert(code.match(/50%/g));
+assert.match(__helpers.removeCssComments(code), /50%/g);
 ```
 
 # --seed--

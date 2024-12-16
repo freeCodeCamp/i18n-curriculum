@@ -9,7 +9,7 @@ dashedName: add-placeholder-text-to-a-text-field
 
 # --description--
 
-Placeholder text is what is displayed in your `input` element before your user has inputted anything.
+플레이스홀더(Placeholder) 텍스트는 사용자가 무언가를 입력하기 전에 `input` 요소에 표시되는 내용입니다.
 
 다음과 같이 플레이스홀더 텍스트를 생성할 수 있습니다.
 
@@ -28,31 +28,28 @@ Placeholder text is what is displayed in your `input` element before your user h
 기존 텍스트 `input` 엘리먼트에 `placeholder` 속성을 추가해야 합니다.
 
 ```js
-assert($('input[placeholder]').length > 0);
+assert.notEmpty(document.querySelectorAll('input[placeholder]'));
 ```
 
 `placeholder` 속성값을 `cat photo URL`로 설정해야 합니다.
 
 ```js
-assert(
-  $('input') &&
-    $('input').attr('placeholder') &&
-    $('input')
-      .attr('placeholder')
-      .match(/cat\s+photo\s+URL/gi)
-);
+assert.exists(document.querySelector('input'));
+assert.exists(document.querySelector('input').getAttribute('placeholder'));
+const placeholder = document.querySelector('input').getAttribute('placeholder');
+assert.match(placeholder,/cat\s+photo\s+URL/gi);
 ```
 
 완성된 `input` 요소에는 닫는 태그(closing tag)가 있으면 안됩니다.
 
 ```js
-assert(!code.match(/<input.*\/?>.*<\/input>/gi));
+assert.notMatch(code,/<input.*\/?>.*<\/input>/gi);
 ```
 
 완성된 `input` 요소에는 정확한 문법(syntax)이 사용되어야 합니다.
 
 ```js
-assert($('input[type=text]').length > 0);
+assert.notEmpty(document.querySelectorAll('input[type=text]'));
 ```
 
 # --seed--

@@ -26,13 +26,13 @@ dashedName: check-radio-buttons-and-checkboxes-by-default
 Form의 첫 번째 라디오 버튼이 기본적으로 선택되어 있어야 합니다.
 
 ```js
-assert($('input[type="radio"]').prop('checked'));
+assert.isTrue(document.querySelector('input[type="radio"]').checked);
 ```
 
 Form의 첫 번째 체크박스가 기본적으로 선택되어 있어야 합니다.
 
 ```js
-assert($('input[type="checkbox"]').prop('checked'));
+assert.isTrue(document.querySelector('input[type="checkbox"]').checked);
 ```
 
 `Indoor` 라벨 내부의 텍스트를 변경하지 마세요.

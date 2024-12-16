@@ -26,13 +26,13 @@ Definiere den ersten deiner Radiobutton und die erste deiner Checkboxen so, dass
 Der erste Radiobutton in deinem Formular sollte standardmäßig aktiviert sein.
 
 ```js
-assert($('input[type="radio"]').prop('checked'));
+assert.isTrue(document.querySelector('input[type="radio"]').checked);
 ```
 
 Die erste Checkbox in deinem Formular sollte standardmäßig aktiviert sein.
 
 ```js
-assert($('input[type="checkbox"]').prop('checked'));
+assert.isTrue(document.querySelector('input[type="checkbox"]').checked);
 ```
 
 Du solltest den inneren Text des Labels `Indoor` nicht ändern.

@@ -34,49 +34,36 @@ Gib jedem der vorhandenen Inputs `radio` und `checkbox` das Attribut `value`. Er
 Einer deiner Radiobutton sollte das `value`-Attribut `indoor` besitzen.
 
 ```js
-assert(
-  $('label:contains("Indoor") > input[type="radio"]').filter("[value='indoor']")
-    .length > 0
-);
+const indoorRadioButton = [...document.querySelectorAll('label > input[type="radio"]')].filter(x => x.value === "indoor");
+assert.notEmpty(indoorRadioButton)
 ```
 
 Einer deiner Radiobutton sollte das `value`-Attribut `outdoor` besitzen.
 
 ```js
-assert(
-  $('label:contains("Outdoor") > input[type="radio"]').filter(
-    "[value='outdoor']"
-  ).length > 0
-);
+const outdoorRadioButton = [...document.querySelectorAll('label > input[type="radio"]')].filter(x => x.value === "outdoor");
+assert.notEmpty(outdoorRadioButton);
 ```
 
 Eine deiner Checkboxen sollte das `value`-Attribut `loving` besitzen.
 
 ```js
-assert(
-  $('label:contains("Loving") > input[type="checkbox"]').filter(
-    "[value='loving']"
-  ).length > 0
-);
+const lovingCheckbox = [...document.querySelectorAll('label > input[type="checkbox"]')].filter(x => x.value === "loving");
+assert.notEmpty(lovingCheckbox); 
 ```
 
 Eine deiner Checkboxen sollte das `value`-Attribut `lazy` besitzen.
 
 ```js
-assert(
-  $('label:contains("Lazy") > input[type="checkbox"]').filter("[value='lazy']")
-    .length > 0
-);
+const lazyCheckbox = [...document.querySelectorAll('label > input[type="checkbox"]')].filter(x => x.value === "lazy");
+assert.notEmpty(lazyCheckbox); 
 ```
 
 Eine deiner Checkboxen sollte das `value`-Attribut `energetic` besitzen.
 
 ```js
-assert(
-  $('label:contains("Energetic") > input[type="checkbox"]').filter(
-    "[value='energetic']"
-  ).length > 0
-);
+const energeticCheckbox =  [...document.querySelectorAll('label > input[type="checkbox"]')].filter(x => x.value === "energetic");
+assert.notEmpty(energeticCheckbox);
 ```
 
 # --seed--

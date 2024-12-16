@@ -9,7 +9,7 @@ dashedName: change-animation-timing-with-keywords
 
 # --description--
 
-In CSS animations, the `animation-timing-function` property controls how quickly an animated element changes over the duration of the animation. If the animation is a car moving from point A to point B in a given time (your `animation-duration`), the `animation-timing-function` says how the car accelerates and decelerates over the course of the drive.
+CSS 애니메이션에서, `animation-timing-function` 속성은 애니메이션 실행 시간 동안 애니메이션의 속도를 조절합니다. 예를 들어, A지점에서 B지점으로 지정된 시간(`animation-duration`) 동안 자동차가 이동하는 애니메이션이 있다고 합시다. 이때 `animation-timing-function` 속성은 차가 이동하는 동안 어떤 식으로 가속하거나 감속하는지를 결정합니다.
 
 이 속성값으로 자주 사용되는 몇 가지 사전 지정된 키워드들이 있습니다. 예를 들어, 기본값은 `ease`로 설정되어 있습니다. 이 속성값을 가질 때는 애니메이션이 느리게 시작했다가 중간 지점에서 속도가 빨라지고, 서서히 느려지며 끝납니다. 다른 옵션으로는 애니메이션이 빠르게 시작했다가 끝으로 갈수록 점점 느려지는 `ease-out`, 느리게 시작했다가 끝으로 갈수록 점점 빨라지는 `ease-in`, 내내 일정한 속도가 적용되는 `linear` 등이 있습니다.
 

@@ -30,21 +30,13 @@ Aparentemente hay un problema con las variables proporcionadas a las clases `.pe
 El valor de reserva `black` debe utilizarse en la propiedad `background` de la clase `penguin-top`.
 
 ```js
-assert(
-  code.match(
-    /.penguin-top\s*?{[\s\S]*background\s*?:\s*?var\(\s*?--pengiun-skin\s*?,\s*?black\s*?\)\s*?;[\s\S]*}[\s\S]*.penguin-bottom\s{/gi
-  )
-);
+assert.match(__helpers.removeCssComments(code), /.penguin-top\s*?{[\s\S]*background\s*?:\s*?var\(\s*?--pengiun-skin\s*?,\s*?black\s*?\)\s*?;[\s\S]*}[\s\S]*.penguin-bottom\s{/gi);
 ```
 
 El valor de reserva `black` debe utilizarse en la propiedad `background` de la clase `penguin-bottom`.
 
 ```js
-assert(
-  code.match(
-    /.penguin-bottom\s*?{[\s\S]*background\s*?:\s*?var\(\s*?--pengiun-skin\s*?,\s*?black\s*?\)\s*?;[\s\S]*}/gi
-  )
-);
+assert.match(__helpers.removeCssComments(code), /.penguin-bottom\s*?{[\s\S]*background\s*?:\s*?var\(\s*?--pengiun-skin\s*?,\s*?black\s*?\)\s*?;[\s\S]*}/gi);
 ```
 
 # --seed--

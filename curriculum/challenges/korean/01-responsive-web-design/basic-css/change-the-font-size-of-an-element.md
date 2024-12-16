@@ -9,7 +9,7 @@ dashedName: change-the-font-size-of-an-element
 
 # --description--
 
-Font size is controlled by the `font-size` CSS property, like this:
+폰트 크기는 다음과 같이 `font-size` CSS 속성으로 제어됩니다.
 
 ```css
 h1 {
@@ -26,7 +26,7 @@ h1 {
 `style` 태그 사이에서 `p` 요소에 `font-size`를 `16px`로 지정하세요. 브라우저와 텍스트 줌을 100%로 설정해야 합니다.
 
 ```js
-assert(code.match(/p\s*{\s*font-size\s*:\s*16\s*px\s*;\s*}/i));
+assert.match(__helpers.removeCssComments(code), /p\s*{\s*font-size\s*:\s*16\s*px\s*;\s*}/i);
 ```
 
 # --seed--

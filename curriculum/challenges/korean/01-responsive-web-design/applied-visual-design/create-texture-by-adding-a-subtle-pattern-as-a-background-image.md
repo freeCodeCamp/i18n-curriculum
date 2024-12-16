@@ -9,7 +9,7 @@ dashedName: create-texture-by-adding-a-subtle-pattern-as-a-background-image
 
 # --description--
 
-One way to add texture and interest to a background and have it stand out more is to add a subtle pattern. The key is balance, as you don't want the background to stand out too much, and take away from the foreground. The `background` property supports the `url()` function in order to link to an image of the chosen texture or pattern. The link address is wrapped in quotes inside the parentheses.
+아주 작은 패턴을 배경 이미지로 추가하는 것은 배경에 질감과 흥미를 더하고 두드러지게 만드는 한 가지 방법입니다. 핵심은 균형을 맞추는 것입니다. 배경이 너무 두드러지거나 전경에 맞춰져야 할 집중을 빼앗지 않아야 합니다. `background` 속성은 선택한 질감이나 패턴의 이미지에 링크하기 위해 `url()` 함수를 지원합니다. 링크 주소는 괄호 내에서 따옴표로 묶여 있습니다.
 
 # --instructions--
 

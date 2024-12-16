@@ -24,7 +24,7 @@ Luego intenta enviar el formulario sin introducir ningún texto. ¿Ves cómo tu 
 Tu elemento de entrada de texto `input` debe tener el atributo `required`.
 
 ```js
-assert($('input').prop('required'));
+assert.isTrue(document.querySelector('input').required);
 ```
 
 # --seed--

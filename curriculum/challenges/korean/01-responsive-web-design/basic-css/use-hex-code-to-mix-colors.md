@@ -30,49 +30,58 @@ dashedName: use-hex-code-to-mix-colors
 `I am red!`를 가진 `h1`은 `color`가 빨간색으로 주어져야 합니다.
 
 ```js
-assert($('.red-text').css('color') === 'rgb(255, 0, 0)');
+const redText = document.querySelector('.red-text');
+const color = window.getComputedStyle(redText)['color']; 
+assert.strictEqual(color, 'rgb(255, 0, 0)');
 ```
 
 단어 `red` 대신에 빨간색에 맞는 `hex code`가 사용되어야 합니다.
 
 ```js
-assert(code.match(/\.red-text\s*?{\s*?color\s*:\s*?(#FF0000|#F00)\s*?;?\s*?}/gi));
+assert.match(code, /\.red-text\s*?{\s*?color\s*:\s*?(#FF0000|#F00)\s*?;?\s*?}/gi);
 ```
 
 `I am green!`를 가진 `h1` 요소는 `color`가 초록으로 주어져야 합니다.
 
 ```js
-assert($('.green-text').css('color') === 'rgb(0, 255, 0)');
+const greenText = document.querySelector('.green-text');
+const color = window.getComputedStyle(greenText)['color']; 
+assert.strictEqual(color, 'rgb(0, 255, 0)');
 ```
 
 단어 `green` 대신에 초록색에 맞는 `hex code`가 사용되어야 합니다.
 
 ```js
-assert(code.match(/\.green-text\s*?{\s*?color\s*:\s*?(#00FF00|#0F0)\s*?;?\s*?}/gi));
+assert.match(code, /\.green-text\s*?{\s*?color\s*:\s*?(#00FF00|#0F0)\s*?;?\s*?}/gi);
 ```
 
 `I am dodger blue!`를 가진 `h1` 요소는 `color`가 다저 블루로 주어져야 합니다.
 
 ```js
-assert($('.dodger-blue-text').css('color') === 'rgb(30, 144, 255)');
+const blueText = document.querySelector('.dodger-blue-text');
+const color = window.getComputedStyle(blueText)['color']; 
+assert.strictEqual(color, 'rgb(30, 144, 255)');
 ```
 
 단어 `dodgerblue` 대신에 다저 블루색에 맞는 `hex code`가 사용되어야 합니다.
 
 ```js
-assert(code.match(/\.dodger-blue-text\s*?{\s*?color\s*:\s*?#1E90FF\s*?;?\s*?}/gi));
+assert.match(code, /\.dodger-blue-text\s*?{\s*?color\s*:\s*?#1E90FF\s*?;?\s*?}/gi);
 ```
 
 `I am orange!`를 가진 `h1` 요소는 `color`가 주황으로 주어져야 합니다.
 
 ```js
-assert($('.orange-text').css('color') === 'rgb(255, 165, 0)');
+const orangeText = document.querySelector('.orange-text');
+const color = window.getComputedStyle(orangeText)['color']; 
+
+assert.strictEqual(color, 'rgb(255, 165, 0)');
 ```
 
 단어 `orange` 대신에 주황색에 맞는 `hex code`가 사용되어야 합니다.
 
 ```js
-assert(code.match(/\.orange-text\s*?{\s*?color\s*:\s*?#FFA500\s*?;?\s*?}/gi));
+assert.match(code, /\.orange-text\s*?{\s*?color\s*:\s*?#FFA500\s*?;?\s*?}/gi);
 ```
 
 # --seed--

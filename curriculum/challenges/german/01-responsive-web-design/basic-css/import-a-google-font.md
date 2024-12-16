@@ -40,37 +40,29 @@ Importiere die `Lobster` Schriftart auf deine Webseite. Verwende dann einen Elem
 Du sollst die `Lobster` Schriftart importieren.
 
 ```js
-assert($('link[href*="googleapis" i]').length);
+assert.exists(document.querySelector('link[href*="googleapis" i]'));
 ```
 
 Dein `h2`-Element sollte die Schriftart `Lobster` verwenden.
 
 ```js
-assert(
-  $('h2')
-    .css('font-family')
-    .match(/lobster/i)
-);
+const h2 = document.querySelector('h2'); 
+const fontFamily = window.getComputedStyle(h2)['font-family']; 
+assert.match(fontFamily, /lobster/i);
 ```
 
 Du solltest nur einen `h2`-Elementselektor verwenden, um die Schriftart zu ändern.
 
 ```js
-assert(
-  /\s*[^\.]h2\s*\{\s*font-family\s*:\s*('|"|)Lobster\1\s*(,\s*('|"|)[a-z -]+\3\s*)?(;\s*\}|\})/gi.test(
-    code
-  )
-);
+assert.match(__helpers.removeHtmlComments(code), /\s*[^\.]h2\s*\{\s*font-family\s*:\s*('|"|)Lobster\1\s*(,\s*('|"|)[a-z -]+\3\s*)?(;\s*\}|\})/gi);
 ```
 
 Dein `p`-Element sollte weiterhin die Schriftart `monospace` verwenden.
 
 ```js
-assert(
-  $('p')
-    .css('font-family')
-    .match(/monospace/i)
-);
+const paragraphElement = document.querySelector('p');
+const fontFamily = window.getComputedStyle(paragraphElement)['font-family']; 
+assert.match(fontFamily, /monospace/i);
 ```
 
 # --seed--

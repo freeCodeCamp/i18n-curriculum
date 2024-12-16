@@ -45,25 +45,22 @@ Vergiss nicht, deinem `img`-Element ein `alt`-Attribut mit geeignetem Text zu ge
 Deine Seite sollte ein Bildelement besitzen.
 
 ```js
-assert($('img').length);
+assert.exists(document.querySelector('img'));
 ```
 
 Dein Bild sollte ein `src`-Attribut haben, das auf das Kätzchen-Bild zeigt.
 
 ```js
-assert(/^https:\/\/cdn\.freecodecamp\.org\/curriculum\/cat-photo-app\/relaxing-cat\.jpg$/i.test($('img').attr('src')));
+const url = document.querySelector('img').getAttribute('src');
+assert.match(url,/^https:\/\/cdn\.freecodecamp\.org\/curriculum\/cat-photo-app\/relaxing-cat\.jpg$/i);
 ```
 
 Das `alt`-Attribut deines Bildelements sollte nicht leer sein.
 
 ```js
-assert(
-  $('img').attr('alt') &&
-    $('img').attr('alt').length &&
-    /<(?:img|IMG)\S*alt=(['"])(?!\1|>)\S+\1\S*\/?>/.test(
-      __helpers.removeWhiteSpace(code)
-    )
-);
+assert.exists(document.querySelector('img').getAttribute('alt'));
+assert.isNotEmpty(document.querySelector('img').getAttribute('alt'));
+assert.match(__helpers.removeWhiteSpace(code),/<(?:img|IMG)\S*alt=(['"])(?!\1|>)\S+\1\S*\/?>/)
 ```
 
 # --seed--

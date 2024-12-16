@@ -26,9 +26,7 @@ CSS 변수를 만들려면 변수 이름 앞에 두 개의 하이픈을 넣고 �
 `penguin` 클래스는 `--penguin-skin` 변수를 선언하고 `gray`에 할당해야 합니다.
 
 ```js
-assert(
-  code.match(/\.penguin\s*\{[^{}]*?--penguin-skin\s*:\s*gr[ae]y\s*;[^{}]*?\}/gi)
-);
+assert.match(__helpers.removeHtmlComments(code), /\.penguin\s*\{[^{}]*?--penguin-skin\s*:\s*gr[ae]y\s*;[^{}]*?\}/gi);
 ```
 
 # --seed--

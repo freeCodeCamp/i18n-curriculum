@@ -34,25 +34,27 @@ class="class1 class2"
 `h1` 요소에는 `pink-text`라는 클래스가 있어야 합니다.
 
 ```js
-assert($('h1').hasClass('pink-text'));
+assert.isTrue(document.querySelector('h1').classList.contains('pink-text'));
 ```
 
 `h1` 요소에는 `blue-text`라는 클래스가 있어야 합니다.
 
 ```js
-assert($('h1').hasClass('blue-text'));
+assert.isTrue(document.querySelector('h1').classList.contains('blue-text'));
 ```
 
 `blue-text` 클래스와 `pink-text` 클래스 모두 `h1`에 속합니다.
 
 ```js
-assert($('.pink-text').hasClass('blue-text'));
+assert.isTrue(document.querySelector('.pink-text').classList.contains('blue-text'));
 ```
 
 `h1` 요소는 파란색으로 나타나야 합니다.
 
 ```js
-assert($('h1').css('color') === 'rgb(0, 0, 255)');
+const h1Element = document.querySelector('h1');
+const color = window.getComputedStyle(h1Element)['color']; 
+assert.strictEqual(color, 'rgb(0, 0, 255)');
 ```
 
 # --seed--

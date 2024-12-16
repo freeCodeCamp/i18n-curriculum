@@ -24,7 +24,9 @@ Versuche, den `margin` auf einen negativen Wert zu setzen, wie bei der roten Box
 Deine `blue-box`-Klasse sollte Elementen einen `margin` von `-15px` geben.
 
 ```js
-assert($('.blue-box').css('margin-top') === '-15px');
+const blueBox = document.querySelector('.blue-box');
+const marginTop = window.getComputedStyle(blueBox)["margin-top"]; 
+assert.strictEqual(marginTop, "-15px"); 
 ```
 
 # --seed--

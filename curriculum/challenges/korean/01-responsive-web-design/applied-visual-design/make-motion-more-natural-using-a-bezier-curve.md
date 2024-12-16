@@ -9,7 +9,7 @@ dashedName: make-motion-more-natural-using-a-bezier-curve
 
 # --description--
 
-This challenge animates an element to replicate the movement of a ball being juggled. Prior challenges covered the `linear` and `ease-out` cubic Bezier curves, however neither depicts the juggling movement accurately. You need to customize a Bezier curve for this.
+이번 과제는 저글링 중인 공의 움직임을 따라하기 위해 HTML 요소를 애니메이션화합니다. 지난 과제에서는 `linear`와`ease-out` cubic Bezier curves를 다루었지만, 둘 모두 저글링 움직임을 정확하게 묘사하지 못합니다. 이를 위해 Bezier curve을 커스터마이징해야 합니다.
 
 `animation-timing-function`은 `animation-iteration-count`이 무한으로 설정되어 있을 때 모든 키프레임에서 자동적으로 반복됩니다. Animation duration중간에 설정된 키프레임 규칙이 있기 때문에(`50%`에서), 공의 위쪽 이동 및 아래쪽 이동에서 두 개의 동일한 애니메이션이 진행됩니다.
 

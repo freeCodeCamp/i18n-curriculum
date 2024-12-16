@@ -24,7 +24,9 @@ dashedName: add-a-negative-margin-to-an-element
 `blue-box` 클래스가 요소에 `-15px`의 `margin`을 부여해야 합니다.
 
 ```js
-assert($('.blue-box').css('margin-top') === '-15px');
+const blueBox = document.querySelector('.blue-box');
+const marginTop = window.getComputedStyle(blueBox)["margin-top"]; 
+assert.strictEqual(marginTop, "-15px"); 
 ```
 
 # --seed--

@@ -30,17 +30,15 @@ Ersetze das Wort `black` der Hintergrundfarbe unseres `body`-Elements mit seinem
 Deine `body`-Elemente sollten die `background-color` Schwarz haben.
 
 ```js
-assert($('body').css('background-color') === 'rgb(0, 0, 0)');
+const body = document.querySelector('body');
+const backgroundColor = window.getComputedStyle(body)['background-color']; 
+assert.strictEqual(backgroundColor, 'rgb(0, 0, 0)');
 ```
 
 Der Hex-Code der Farbe Schwarz sollte anstelle des Wortes `black` verwendet werden.
 
 ```js
-assert(
-  code.match(
-    /body\s*{(([\s\S]*;\s*?)|\s*?)background.*\s*:\s*?#000(000)?((\s*})|(;[\s\S]*?}))/gi
-  )
-);
+assert.match(code, /body\s*{(([\s\S]*;\s*?)|\s*?)background.*\s*:\s*?#000(000)?((\s*})|(;[\s\S]*?}))/gi);
 ```
 
 # --seed--

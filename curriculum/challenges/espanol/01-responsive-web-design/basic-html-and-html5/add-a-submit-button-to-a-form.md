@@ -26,33 +26,30 @@ Agrega un botón del tipo `submit` como último elemento de tu formulario `form`
 Tu formulario `form` debe tener un botón `button` dentro de él.
 
 ```js
-assert($('form').children('button').length > 0);
+const form = document.querySelector('form');
+const children = form.querySelectorAll(`:scope ${"button"}`); 
+assert.isNotEmpty(children); 
 ```
 
 Tu botón de envío debe tener el atributo `type` establecido como `submit`.
 
 ```js
-assert($('button').attr('type') === 'submit');
+assert.strictEqual(document.querySelector('button').getAttribute('type'), 'submit');
 ```
 
 Tu botón de envío solo debe contener el texto `Submit`.
 
 ```js
-assert(
-  $('button')
-    .text()
-    .match(/^\s*submit\s*$/gi)
-);
+const text = document.querySelector('button').textContent;
+assert.match(text,/^\s*submit\s*$/gi);
 ```
 
 Tu elemento `button` debe tener una etiqueta de cierre.
 
 ```js
-assert(
-  code.match(/<\/button>/g) &&
-    code.match(/<button/g) &&
-    code.match(/<\/button>/g).length === code.match(/<button/g).length
-);
+assert.match(code,/<\/button>/g);
+assert.match(code,/<button/g);
+assert.strictEqual(code.match(/<\/button>/g).length,code.match(/<button/g).length);
 ```
 
 # --seed--

@@ -26,28 +26,32 @@ dashedName: nest-many-elements-within-a-single-div-element
 `p` 요소는 `div` 요소 안에 중첩되어야 합니다.
 
 ```js
-assert($('div').children('p').length > 1);
+const div = document.querySelector('div');
+const children = div.querySelectorAll('p');
+assert.isAbove(children.length,1);
 ```
 
 `ul` 요소는 `div` 요소 안에 중첩되어야 합니다.
 
 ```js
-assert($('div').children('ul').length > 0);
+const div = document.querySelector('div');
+const children = div.querySelectorAll('ul');
+assert.notEmpty(children);
 ```
 
 `ol` 요소는 `div` 요소 안에 중첩되어야 합니다.
 
 ```js
-assert($('div').children('ol').length > 0);
+const div = document.querySelector('div');
+const children = div.querySelectorAll('ol');
+assert.notEmpty(children);
 ```
 
 `div` 요소는 닫는 태그를 가져야 합니다.
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div>/g).length
-);
+assert.match(code,/<\/div>/g);
+assert.strictEqual(code.match(/<\/div>/g).length,code.match(/<div>/g).length);
 ```
 
 # --seed--

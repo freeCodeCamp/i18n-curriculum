@@ -30,23 +30,22 @@ body {
 Tu elemento `body` debe tener un `background-color` black (negro).
 
 ```js
-assert($('body').css('background-color') === 'rgb(0, 0, 0)');
+const body = document.querySelector('body');
+const backgroundColor = window.getComputedStyle(body)['background-color'];
+
+assert.strictEqual(backgroundColor, 'rgb(0, 0, 0)');
 ```
 
 Tu regla CSS debe tener el formato correcto, usando llaves de apertura y de cierre.
 
 ```js
-assert(
-  code.match(/<style>\s*body\s*\{\s*background.*\s*:\s*.*;\s*\}\s*<\/style>/i)
-);
+assert.match(code, /<style>\s*body\s*\{\s*background.*\s*:\s*.*;\s*\}\s*<\/style>/i);
 ```
 
 La regla de CSS debe terminar con un punto y coma.
 
 ```js
-assert(
-  code.match(/<style>\s*body\s*\{\s*background.*\s*:\s*.*;\s*\}\s*<\/style>/i)
-);
+assert.match(code, /<style>\s*body\s*\{\s*background.*\s*:\s*.*;\s*\}\s*<\/style>/i);
 ```
 
 # --seed--

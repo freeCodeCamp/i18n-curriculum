@@ -35,46 +35,46 @@ Luego, crea un elemento `main` y anida los dos elementos `p` dentro del elemento
 Debes tener 2 elementos `p` con texto Ipsum Gatuno.
 
 ```js
-assert($('p').length > 1);
+assert.lengthOf(document.querySelectorAll('p'),2);
 ```
 
 Cada uno de tus elementos `p` debe tener una etiqueta de cierre.
 
 ```js
-assert(
-  code.match(/<\/p>/g) &&
-    code.match(/<\/p>/g).length === code.match(/<p/g).length
-);
+assert.match(code,/<\/p>/g);
+assert.strictEqual(code.match(/<\/p>/g).length,code.match(/<p/g).length);
 ```
 
 Tu elemento `p` debe contener las primeras palabras del texto adicional `kitty ipsum` proporcionado.
 
 ```js
-assert.isTrue(/Purr\s+jump\s+eat/gi.test($('p').text()));
+assert.match(document.querySelectorAll('p')[1].textContent,/Purr\s+jump\s+eat/gi);
 ```
 
 Tu código debe tener un elemento `main`.
 
 ```js
-assert($('main').length === 1);
+assert.lengthOf(document.querySelectorAll('main'),1);
 ```
 
 El elemento `main` debe tener dos elementos párrafo como hijos.
 
 ```js
-assert($('main').children('p').length === 2);
+const main = document.querySelector('main');
+const children = main.querySelectorAll("p"); 
+assert.lengthOf(children,2);
 ```
 
 La etiqueta de apertura `main` debe aparecer antes de la primera etiqueta párrafo.
 
 ```js
-assert(code.match(/<main>\s*?<p>/g));
+assert.match(code,(/<main>\s*?<p>/g));
 ```
 
 La etiquete de cierre `main` debe aparecer después de la segunda etiqueta de cierre párrafo.
 
 ```js
-assert(code.match(/<\/p>\s*?<\/main>/g));
+assert.match(code,(/<\/p>\s*?<\/main>/g));
 ```
 
 # --seed--

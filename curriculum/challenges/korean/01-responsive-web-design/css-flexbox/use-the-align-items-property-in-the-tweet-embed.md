@@ -9,7 +9,7 @@ dashedName: use-the-align-items-property-in-the-tweet-embed
 
 # --description--
 
-The last challenge introduced the `align-items` property and gave an example. This property can be applied to a few tweet embed elements to align the flex items inside them.
+이전 과제에서 `align-items` 속성을 소개하고 예시를 살펴보았습니다. 이 속성은 몇몇 트윗 임베드 요소 안에 있는 플렉스 아이템을 정렬시키도록 적용될 수 있습니다.
 
 # --instructions--
 

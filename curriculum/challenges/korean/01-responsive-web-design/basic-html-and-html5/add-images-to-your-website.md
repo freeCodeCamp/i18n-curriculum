@@ -8,7 +8,7 @@ dashedName: add-images-to-your-website
 
 # --description--
 
-You can add images to your website by using the `img` element, and point to a specific image's URL using the `src` attribute.
+`img` 요소를 이용해서 웹사이트에 이미지를 추가하고 `src` 속성을 이용하여 특정 이미지의 URL을 지정할 수 있습니다.
 
 이에 대한 예는 다음과 같습니다.
 
@@ -45,25 +45,22 @@ Note that `img` is a void element.
 페이지에는 이미지 요소가 있어야 합니다.
 
 ```js
-assert($('img').length);
+assert.exists(document.querySelector('img'));
 ```
 
 이미지에는 아기 고양이 사진을 지정하는 `src` 속성이 있어야 합니다.
 
 ```js
-assert(/^https:\/\/cdn\.freecodecamp\.org\/curriculum\/cat-photo-app\/relaxing-cat\.jpg$/i.test($('img').attr('src')));
+const url = document.querySelector('img').getAttribute('src');
+assert.match(url,/^https:\/\/cdn\.freecodecamp\.org\/curriculum\/cat-photo-app\/relaxing-cat\.jpg$/i);
 ```
 
 이미지 요소의 `alt` 속성은 비어 있지 않아야 합니다.
 
 ```js
-assert(
-  $('img').attr('alt') &&
-    $('img').attr('alt').length &&
-    /<(?:img|IMG)\S*alt=(['"])(?!\1|>)\S+\1\S*\/?>/.test(
-      __helpers.removeWhiteSpace(code)
-    )
-);
+assert.exists(document.querySelector('img').getAttribute('alt'));
+assert.isNotEmpty(document.querySelector('img').getAttribute('alt'));
+assert.match(__helpers.removeWhiteSpace(code),/<(?:img|IMG)\S*alt=(['"])(?!\1|>)\S+\1\S*\/?>/)
 ```
 
 # --seed--
