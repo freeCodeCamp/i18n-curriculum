@@ -9,7 +9,7 @@ dashedName: create-visual-direction-by-fading-an-element-from-left-to-right
 
 # --description--
 
-For this challenge, you'll change the `opacity` of an animated element so it gradually fades as it reaches the right side of the screen.
+이번 도전 과제에서는 애니메이션된 요소의 `opacity`를 변경하여 화면 오른쪽으로 갈수록 서서히 투명해지도록합니다.
 
 표시된 애니메이션에서는 그라데이션 배경을 가진 둥근 요소가 애니메이션의 50% 지점까지 오른쪽으로 이동합니다. 이는 `@keyframes` 규칙에 따른 것입니다.
 

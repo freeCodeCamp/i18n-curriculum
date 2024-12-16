@@ -24,7 +24,7 @@ Lorem ipsum text는 16세기부터 식자공들에 의해 무작위 텍스트로
 `p` 요소에는 제공된 "kitty ipsum" 텍스트의 처음 몇 단어가 포함되야 합니다.
 
 ```js
-assert.isTrue(/Kitty(\s)+ipsum/gi.test($('p').text()));
+assert.match(document.querySelector('p').textContent,/Kitty(\s)+ipsum/gi);
 ```
 
 # --seed--

@@ -28,22 +28,20 @@ Erstelle ein `a`-Element, das auf `https://www.freecatphotoapp.com` verlinkt und
 Dein `a`-Element sollte den Ankertext `cat photos` haben.
 
 ```js
-assert(/cat photos/gi.test($('a').text()));
+assert.match(document.querySelector('a').textContent,/cat photos/gi);
 ```
 
 Du benötigst ein `a`-Element, das auf `https://www.freecatphotoapp.com` verlinkt
 
 ```js
-assert(/^https?:\/\/(www\.)?freecatphotoapp\.com\/?$/i.test($('a').attr('href')));
+assert.match(document.querySelector('a').getAttribute('href'),/^https?:\/\/(www\.)?freecatphotoapp\.com\/?$/i);
 ```
 
 Dein `a`-Element sollte einen schließenden Tag besitzen.
 
 ```js
-assert(
-  code.match(/<\/a>/g) &&
-    code.match(/<\/a>/g).length === code.match(/<a/g).length
-);
+assert.match(code,/<\/a>/g);
+assert.strictEqual(code.match(/<\/a>/g).length,code.match(/<a/g).length);
 ```
 
 # --seed--

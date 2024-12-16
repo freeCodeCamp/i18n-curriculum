@@ -44,13 +44,15 @@ Reemplacemos el código hexadecimal en el color de fondo de nuestro elemento `bo
 Tu elemento `body` debe tener un color de fondo "black" (negro).
 
 ```js
-assert($('body').css('background-color') === 'rgb(0, 0, 0)');
+const body = document.querySelector('body');
+const backgroundColor = window.getComputedStyle(body)['background-color']; 
+assert.strictEqual(backgroundColor, 'rgb(0, 0, 0)');
 ```
 
 Debes usar `rgb` para asignar a tu elemento `body` un color de fondo de negro.
 
 ```js
-assert(code.match(/rgb\s*\(\s*0\s*,\s*0\s*,\s*0\s*\)/gi));
+assert.match(__helpers.removeCssComments(code), /rgb\s*\(\s*0\s*,\s*0\s*,\s*0\s*\)/gi);
 ```
 
 # --seed--

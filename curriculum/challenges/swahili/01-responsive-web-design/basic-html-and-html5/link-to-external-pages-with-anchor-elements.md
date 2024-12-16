@@ -28,22 +28,20 @@ Unda kipengele cha `a` kinachounganishwa na `https://www.freecatphotoapp.com` na
 Kipengele chako cha `a` kinafaa kuwa na maandishi ya `cat photos`.
 
 ```js
-assert(/cat photos/gi.test($('a').text()));
+assert.match(document.querySelector('a').textContent,/cat photos/gi);
 ```
 
 Unahitaji kipengele cha `a` kinachounganishwa na `https://www.freecatphotoapp.com`
 
 ```js
-assert(/^https?:\/\/(www\.)?freecatphotoapp\.com\/?$/i.test($('a').attr('href')));
+assert.match(document.querySelector('a').getAttribute('href'),/^https?:\/\/(www\.)?freecatphotoapp\.com\/?$/i);
 ```
 
 Kipengele chako cha `a` kinapaswa kuwa na lebo ya kufunga.
 
 ```js
-assert(
-  code.match(/<\/a>/g) &&
-    code.match(/<\/a>/g).length === code.match(/<a/g).length
-);
+assert.match(code,/<\/a>/g);
+assert.strictEqual(code.match(/<\/a>/g).length,code.match(/<a/g).length);
 ```
 
 # --seed--

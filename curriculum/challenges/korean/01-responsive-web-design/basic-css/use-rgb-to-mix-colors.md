@@ -22,65 +22,57 @@ dashedName: use-rgb-to-mix-colors
 `I am red!`라는 텍스트가 있는 `h1` 엘리먼트의 `color`는 빨간색이어야 합니다.
 
 ```js
-assert($('.red-text').css('color') === 'rgb(255, 0, 0)');
+const redText = document.querySelector('.red-text');
+const color = window.getComputedStyle(redText)['color']; 
+assert.strictEqual(color, 'rgb(255, 0, 0)');
 ```
 
 빨간색을 나타내기 위해 `rgb`를 사용해야 합니다.
 
 ```js
-assert(
-  code.match(
-    /\.red-text\s*{\s*color\s*:\s*rgb\(\s*255\s*,\s*0\s*,\s*0\s*\)\s*;?\s*}/gi
-  )
-);
+assert.match(code, /\.red-text\s*{\s*color\s*:\s*rgb\(\s*255\s*,\s*0\s*,\s*0\s*\)\s*;?\s*}/gi);
 ```
 
 `I am orchid!`라는 텍스트가 있는 `h1` 엘리먼트의 `color`는 오키드색이어야 합니다.
 
 ```js
-assert($('.orchid-text').css('color') === 'rgb(218, 112, 214)');
+const orchidText = document.querySelector('.orchid-text');
+const color = window.getComputedStyle(orchidText)['color']; 
+assert.strictEqual(color, 'rgb(218, 112, 214)');
 ```
 
 오키드색을 나타내기 위해 `rgb`를 사용해야 합니다.
 
 ```js
-assert(
-  code.match(
-    /\.orchid-text\s*{\s*color\s*:\s*rgb\(\s*218\s*,\s*112\s*,\s*214\s*\)\s*;?\s*}/gi
-  )
-);
+assert.match(__helpers.removeCssComments(code), /\.orchid-text\s*{\s*color\s*:\s*rgb\(\s*218\s*,\s*112\s*,\s*214\s*\)\s*;?\s*}/gi);
 ```
 
 `I am blue!`라는 텍스트가 있는 `h1` 엘리먼트의 `color`는 파란색이어야 합니다.
 
 ```js
-assert($('.blue-text').css('color') === 'rgb(0, 0, 255)');
+const blueText = document.querySelector('.blue-text');
+const color = window.getComputedStyle(blueText)['color']; 
+assert.strictEqual(color, 'rgb(0, 0, 255)');
 ```
 
 파란색을 나타내기 위해 `rgb`를 사용해야 합니다.
 
 ```js
-assert(
-  code.match(
-    /\.blue-text\s*{\s*color\s*:\s*rgb\(\s*0\s*,\s*0\s*,\s*255\s*\)\s*;?\s*}/gi
-  )
-);
+assert.match(__helpers.removeCssComments(code), /\.blue-text\s*{\s*color\s*:\s*rgb\(\s*0\s*,\s*0\s*,\s*255\s*\)\s*;?\s*}/gi);
 ```
 
 `I am sienna!`라는 텍스트가 있는 `h1` 엘리먼트의 `color`는 시에나색이어야 합니다.
 
 ```js
-assert($('.sienna-text').css('color') === 'rgb(160, 82, 45)');
+const siennaText = document.querySelector('.sienna-text');
+const color = window.getComputedStyle(siennaText)['color']; 
+assert.strictEqual(color, 'rgb(160, 82, 45)');
 ```
 
 시에나색을 나타내기 위해 `rgb`를 사용해야 합니다.
 
 ```js
-assert(
-  code.match(
-    /\.sienna-text\s*{\s*color\s*:\s*rgb\(\s*160\s*,\s*82\s*,\s*45\s*\)\s*;?\s*}/gi
-  )
-);
+assert.match(__helpers.removeCssComments(code), /\.sienna-text\s*{\s*color\s*:\s*rgb\(\s*160\s*,\s*82\s*,\s*45\s*\)\s*;?\s*}/gi);
 ```
 
 # --seed--

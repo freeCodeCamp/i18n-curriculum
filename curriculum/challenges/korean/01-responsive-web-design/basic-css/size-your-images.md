@@ -8,7 +8,7 @@ dashedName: size-your-images
 
 # --description--
 
-CSS has a property called `width` that controls an element's width. Just like with fonts, we'll use `px` (pixels) to specify the image's width.
+CSS에는 `width`라는 요소가 있는데, 이는 요소의 가로 너비를 조정하는 데 사용됩니다. 폰트 크기와 마찬가지로, 이미지의 가로 너비를 정의할 때 `px`(픽셀) 단위를 사용할 것입니다.
 
 예를 들어 HTML 요소에 500픽셀의 너비를 부여하는 ` larger-image`라는 CSS 클래스를 만들고 싶다면 다음과 같이 작성하면 됩니다:
 
@@ -29,19 +29,18 @@ CSS has a property called `width` that controls an element's width. Just like wi
 `img` 요소는 `smaller-image` 라는 클래스를 갖고 있어야 합니다.
 
 ```js
-assert(
-  $("img[src='https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg']").attr('class')
-    .trim().split(/\s+/g).includes('smaller-image')
-);
+const relaxingCatImage = document.querySelector("img[src='https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg']");
+const catImageClass = relaxingCatImage.getAttribute('class').trim().split(/\s+/g);
+assert.include(catImageClass, 'smaller-image');
 ```
 
 이미지는 가로 너비가 100픽셀이어야 합니다.
 
 ```js
-assert(
-  $('img').width() < 200 &&
-    code.match(/\.smaller-image\s*{\s*width\s*:\s*100px\s*(;\s*}|})/i)
-);
+const image = document.querySelector('img');
+const width = image.getBoundingClientRect().width;
+assert.isBelow(width, 200); 
+assert.match(__helpers.removeCssComments(code), /\.smaller-image\s*{\s*width\s*:\s*100px\s*(;\s*}|})/i);
 ```
 
 # --seed--

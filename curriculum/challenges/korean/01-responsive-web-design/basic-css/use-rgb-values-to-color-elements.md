@@ -44,13 +44,15 @@ body {
 `body` 요소는 검정 배경색을 갖고 있어야 합니다.
 
 ```js
-assert($('body').css('background-color') === 'rgb(0, 0, 0)');
+const body = document.querySelector('body');
+const backgroundColor = window.getComputedStyle(body)['background-color']; 
+assert.strictEqual(backgroundColor, 'rgb(0, 0, 0)');
 ```
 
 `body` 요소의 배경색을 검정색으로 지정하려면 `rgb`를 사용해야 합니다.
 
 ```js
-assert(code.match(/rgb\s*\(\s*0\s*,\s*0\s*,\s*0\s*\)/gi));
+assert.match(__helpers.removeCssComments(code), /rgb\s*\(\s*0\s*,\s*0\s*,\s*0\s*\)/gi);
 ```
 
 # --seed--

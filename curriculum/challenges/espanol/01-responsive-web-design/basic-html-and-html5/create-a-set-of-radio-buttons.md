@@ -48,55 +48,50 @@ Añade un par de botones de radio a tu formulario, cada uno de ellos anidado en 
 Tu página debe tener dos elementos de botón de `radio`.
 
 ```js
-assert($('input[type="radio"]').length > 1);
+assert.lengthOf(document.querySelectorAll('input[type="radio"]'),2);
 ```
 
 Tus botones de radio deben poseer el atributo `name` con el valor `indoor-outdoor`.
 
 ```js
-assert($('input[type="radio"]').filter("[name='indoor-outdoor']").length > 1);
+assert.lengthOf([...document.querySelectorAll('input[type="radio"]')].filter(input => input.name === "indoor-outdoor"),2);
 ```
 
 Cada uno de tus dos elementos de botón de radio debe estar anidado en su propio elemento `label`.
 
 ```js
-assert($('label > input[type="radio"]:only-child').length > 1);
+assert.lengthOf(document.querySelectorAll('label > input[type="radio"]:only-child'),2);
 ```
 
 Cada uno de tus elementos `label` debe tener una etiqueta de cierre.
 
 ```js
-assert(
-  code.match(/<\/label>/g) &&
-    code.match(/<label/g) &&
-    code.match(/<\/label>/g).length === code.match(/<label/g).length
-);
+assert.match(code,/<\/label>/g);
+assert.match(code,/<label/g);
+assert.strictEqual(code.match(/<\/label>/g).length,code.match(/<label/g).length);
 ```
 
 Uno de tus botones de radio debe tener la etiqueta `indoor`.
 
 ```js
-assert(
-  $('label')
-    .text()
-    .match(/indoor/gi)
-);
+const labelTexts = [...document.querySelectorAll('label')].map(label => label.textContent);
+const hasMatch = labelTexts.some(label =>  label.match(/indoor/gi));
+assert.isTrue(hasMatch); 
 ```
 
 Uno de tus botones de radio debe tener la etiqueta `outdoor`.
 
 ```js
-assert(
-  $('label')
-    .text()
-    .match(/outdoor/gi)
-);
+const labelTexts = [...document.querySelectorAll('label')].map(label => label.textContent);
+const hasMatch = labelTexts.some(label => label.match(/outdoor/gi));
+assert.isTrue(hasMatch); 
 ```
 
 Cada uno de tus elementos de botón de radio debe ser agregado dentro de la etiqueta `form`.
 
 ```js
-assert($('label').parent().get(0).tagName.match('FORM'));
+const labelParent = document.querySelector('label').parentNode;
+assert.strictEqual(labelParent.tagName,'FORM');
 ```
 
 # --seed--

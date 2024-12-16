@@ -28,27 +28,23 @@ dashedName: create-a-form-element
 
 ```js
 const inputElem = document.querySelector('form input');
-assert(
-  inputElem.getAttribute('type') === 'text' &&
-    inputElem.getAttribute('placeholder') === 'cat photo URL'
-);
+assert.strictEqual(inputElem.getAttribute('type'),'text'); 
+assert.strictEqual(inputElem.getAttribute('placeholder'),'cat photo URL');
 ```
 
 `form`는 `https://www.freecatphotoapp.com/submit-cat-photo`로 설정된 `action` 속성을 가져야 합니다.
 
 ```js
-const action = $('form').attr('action');
-assert(action.match(/^https:\/\/(www\.)?freecatphotoapp\.com\/submit-cat-photo$/i))
+const action = document.querySelector('form').getAttribute('action');
+assert.match(action,/^https:\/\/(www\.)?freecatphotoapp\.com\/submit-cat-photo$/i);
 ```
 
 `form` 요소는 여는/닫는 태그로 정확한 형식을 갖추어야 합니다.
 
 ```js
-assert(
-  code.match(/<\/form>/g) &&
-    code.match(/<form [^<]*>/g) &&
-    code.match(/<\/form>/g).length === code.match(/<form [^<]*>/g).length
-);
+assert.match(code,/<\/form>/g);
+assert.match(code,/<form [^<]*>/g);
+assert.strictEqual(code.match(/<\/form>/g).length,code.match(/<form [^<]*>/g).length);
 ```
 
 # --seed--

@@ -43,39 +43,38 @@ dashedName: use-css-selectors-to-style-elements
 `h2` 요소의 `style` 속성을 제거해야 합니다.
 
 ```js
-assert(!$('h2').attr('style'));
+assert.notExists(document.querySelector('h2').getAttribute('style'));
 ```
 
 그리고 `style` 요소를 생성해야 합니다.
 
 ```js
-assert($('style') && $('style').length >= 1);
+assert.exists(document.querySelector('style:not(.fcc-hide-header)'));
+assert.isAtLeast(document.querySelectorAll('style:not(.fcc-hide-header)').length, 1);
 ```
 
 `h2` 요소는 파란색으로 나타나야 합니다.
 
 ```js
-assert($('h2').css('color') === 'rgb(0, 0, 255)');
+const h2Element = document.querySelector('h2');
+const color = window.getComputedStyle(h2Element)['color']; 
+assert.strictEqual(color, 'rgb(0, 0, 255)');
 ```
 
 스타일시트에 있는 `h2` 선언은 세미콜론과 닫는 중괄호를 갖고 있어야 합니다.
 
 ```js
-assert(code.match(/h2\s*\{\s*color\s*:.*;\s*\}/g));
+assert.match(__helpers.removeCssComments(code), /h2\s*\{\s*color\s*:.*;\s*\}/g);
 ```
 
 모든 `style` 요소는 유효하며 닫는 태그를 갖고 있어야 합니다.
 
 ```js
-assert(
-  code.match(/<\/style>/g) &&
-    code.match(/<\/style>/g).length ===
-      (
-        code.match(
-          /<style((\s)*((type|media|scoped|title|disabled)="[^"]*")?(\s)*)*>/g
-        ) || []
-      ).length
-);
+assert.match(__helpers.removeHtmlComments(code), /<\/style>/g);
+
+const closingElementLength = __helpers.removeHtmlComments(code).match(/<\/style>/g).length;
+const openingElementsLength = __helpers.removeHtmlComments(code).match(/<style((\s)*((type|media|scoped|title|disabled)="[^"]*")?(\s)*)*>/g).length;
+assert.strictEqual(closingElementLength, openingElementsLength);
 ```
 
 # --seed--

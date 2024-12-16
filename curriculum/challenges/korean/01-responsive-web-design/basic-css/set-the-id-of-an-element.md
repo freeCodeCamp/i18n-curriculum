@@ -9,7 +9,7 @@ dashedName: set-the-id-of-an-element
 
 # --description--
 
-In addition to classes, each HTML element can also have an `id` attribute.
+클래스 외에도 각 HTML 요소는 `id` 속성을 가질 수 있습니다.
 
 `id` 속성을 사용하는 여러 가지 이점이 있습니다. 하나의 요소에 스타일을 적용하는 데 `id`를 사용할 수 있으며 나중에 JavaScript에서 특정 요소를 선택하고 수정하는 데 사용할 수 있습니다.
 
@@ -30,7 +30,7 @@ In addition to classes, each HTML element can also have an `id` attribute.
 `form` 요소는 `cat-photo-form`라는 id를 가져야 합니다.
 
 ```js
-assert($('form').attr('id') === 'cat-photo-form');
+assert.strictEqual(document.querySelector('form').getAttribute('id'), 'cat-photo-form');
 ```
 
 # --seed--

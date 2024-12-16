@@ -9,7 +9,7 @@ dashedName: import-a-google-font
 
 # --description--
 
-In addition to specifying common fonts that are found on most operating systems, we can also specify non-standard, custom web fonts for use on our website. There are many sources for web fonts on the Internet. For this example we will focus on the Google Fonts library.
+다수의 운영 체제에서 찾을 수 있는 일반적인 글꼴을 지정하는 것 외에도 웹 사이트에서 사용할 비표준, 사용자 정의 웹 글꼴을 지정할 수 있습니다. 인터넷에는 웹 글꼴을 얻을 수 있는 많은 소스가 있습니다. 이 예제에서는 Google Fonts 라이브러리에 중점을 둡니다.
 
 Google Fonts는 웹 폰트의 무료 라이브러리로, 해당 폰트의 URL을 참조하여 CSS에서 사용할 수 있습니다.
 
@@ -40,37 +40,29 @@ Family names은 대소문자를 구별하며 이름에 공백이 있으면 따�
 `Lobster` 폰트를 가져와야 합니다.
 
 ```js
-assert($('link[href*="googleapis" i]').length);
+assert.exists(document.querySelector('link[href*="googleapis" i]'));
 ```
 
 `h2` 요소는 `Lobster` 폰트를 써야합니다.
 
 ```js
-assert(
-  $('h2')
-    .css('font-family')
-    .match(/lobster/i)
-);
+const h2 = document.querySelector('h2'); 
+const fontFamily = window.getComputedStyle(h2)['font-family']; 
+assert.match(fontFamily, /lobster/i);
 ```
 
 폰트를 변경하려면 `h2` 요소 선택자만 사용해야 합니다.
 
 ```js
-assert(
-  /\s*[^\.]h2\s*\{\s*font-family\s*:\s*('|"|)Lobster\1\s*(,\s*('|"|)[a-z -]+\3\s*)?(;\s*\}|\})/gi.test(
-    code
-  )
-);
+assert.match(__helpers.removeHtmlComments(code), /\s*[^\.]h2\s*\{\s*font-family\s*:\s*('|"|)Lobster\1\s*(,\s*('|"|)[a-z -]+\3\s*)?(;\s*\}|\})/gi);
 ```
 
 `p` 요소는 여전히 `monospace` 폰트를 사용해야 합니다.
 
 ```js
-assert(
-  $('p')
-    .css('font-family')
-    .match(/monospace/i)
-);
+const paragraphElement = document.querySelector('p');
+const fontFamily = window.getComputedStyle(paragraphElement)['font-family']; 
+assert.match(fontFamily, /monospace/i);
 ```
 
 # --seed--

@@ -32,28 +32,29 @@ Intenta asignar a tu formulario, que ahora tiene el atributo `id` llamado `cat-p
 Tu elemento `form` debe tener el id `cat-photo-form`.
 
 ```js
-assert($('form').attr('id') === 'cat-photo-form');
+assert.strictEqual(document.querySelector('form').getAttribute('id'), 'cat-photo-form');
 ```
 
 Tu elemento `form` debe tener `background-color` de color verde (green).
 
 ```js
-assert($('#cat-photo-form').css('background-color') === 'rgb(0, 128, 0)');
+const catPhotoForm = document.querySelector('#cat-photo-form');
+const backgroundColor = window.getComputedStyle(catPhotoForm)['background-color'];
+assert.strictEqual(backgroundColor, 'rgb(0, 128, 0)');
 ```
 
 Tu elemento `form` debe tener un atributo `id`.
 
 ```js
-assert(
-  code.match(/<form.*cat-photo-form.*>/gi) &&
-    code.match(/<form.*cat-photo-form.*>/gi).length > 0
-);
+assert.match(__helpers.removeHtmlComments(code), /<form.*cat-photo-form.*>/gi);
+assert.lengthOf(__helpers.removeHtmlComments(code).match(/<form.*cat-photo-form.*>/gi), 1)
 ```
 
 No debes asignar a tu `form` ningún atributo `class` o `style`.
 
 ```js
-assert(!code.match(/<form.*style.*>/gi) && !code.match(/<form.*class.*>/gi));
+assert.notMatch(__helpers.removeHtmlComments(code), /<form.*style.*>/gi);
+assert.notMatch(__helpers.removeHtmlComments(code), /<form.*class.*>/gi);
 ```
 
 # --seed--

@@ -26,33 +26,30 @@ Let's add a `submit` button to your form. Clicking this button will send the dat
 `button`이 `form`안에 있어야 합니다.
 
 ```js
-assert($('form').children('button').length > 0);
+const form = document.querySelector('form');
+const children = form.querySelectorAll(`:scope ${"button"}`); 
+assert.isNotEmpty(children); 
 ```
 
 제출 버튼에는 `submit`으로 설정된 `type` 속성이 있어야 합니다.
 
 ```js
-assert($('button').attr('type') === 'submit');
+assert.strictEqual(document.querySelector('button').getAttribute('type'), 'submit');
 ```
 
 제출(Submit) 버튼 안에는 `Submit` 텍스트만 있어야 합니다.
 
 ```js
-assert(
-  $('button')
-    .text()
-    .match(/^\s*submit\s*$/gi)
-);
+const text = document.querySelector('button').textContent;
+assert.match(text,/^\s*submit\s*$/gi);
 ```
 
 `h2` 요소에 닫는 태그가 있어야 합니다.
 
 ```js
-assert(
-  code.match(/<\/button>/g) &&
-    code.match(/<button/g) &&
-    code.match(/<\/button>/g).length === code.match(/<button/g).length
-);
+assert.match(code,/<\/button>/g);
+assert.match(code,/<button/g);
+assert.strictEqual(code.match(/<\/button>/g).length,code.match(/<button/g).length);
 ```
 
 # --seed--

@@ -30,7 +30,7 @@ Erstelle ein `input`-Element vom Typ (type) `text` unterhalb deiner Listen.
 Deine App sollte ein `input`-Element vom Typ `text` haben.
 
 ```js
-assert($('input[type=text]').length > 0);
+assert.isNotEmpty(document.querySelectorAll('input[type=text]'));
 ```
 
 # --seed--

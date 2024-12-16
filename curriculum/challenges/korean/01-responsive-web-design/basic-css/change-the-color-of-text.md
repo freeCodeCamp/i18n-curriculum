@@ -32,19 +32,19 @@ Now let's change the color of some of our text.
 `h2`요소에는 `style` 선언이 있어야 합니다.
 
 ```js
-assert($('h2').attr('style'));
+assert.exists(document.querySelector('h2').getAttribute('style'));
 ```
 
 `h2`요소는 `red`색상으로 설정되어야 합니다.
 
 ```js
-assert($('h2')[0].style.color === 'red');
+assert.strictEqual(document.querySelector('h2').style.color, 'red');
 ```
 
 `style`선언은 `;`로 끝나야 합니다.
 
 ```js
-assert($('h2').attr('style') && $('h2').attr('style').endsWith(';'));
+assert.isTrue(document.querySelector('h2').getAttribute('style').endsWith(';'));
 ```
 
 # --seed--

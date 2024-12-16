@@ -30,43 +30,29 @@ dashedName: use-attribute-selectors-to-style-elements
 체크박스를 선택하기 위해 `type` 속성 선택자를 사용해야 합니다.
 
 ```js
-assert(
-  code.match(
-    /<style>[\s\S]*?\[\s*?type\s*?=\s*?("|')checkbox\1\s*?\]\s*?{[\s\S]*?}[\s\S]*?<\/style>/gi
-  )
-);
+assert.match(__helpers.removeHtmlComments(code), /<style>[\s\S]*?\[\s*?type\s*?=\s*?("|')checkbox\1\s*?\]\s*?{[\s\S]*?}[\s\S]*?<\/style>/gi);
 ```
 
 체크박스의 상단 마진은 10px 이어야 합니다.
 
 ```js
-assert(
-  (function () {
-    var count = 0;
-    $("[type='checkbox']").each(function () {
-      if ($(this).css('marginTop') === '10px') {
-        count++;
-      }
-    });
-    return count === 3;
-  })()
-);
+const checkboxes = document.querySelectorAll("[type='checkbox']");
+assert.isNotEmpty(checkboxes);
+checkboxes.forEach(function(checkbox) {
+  const marginTop = window.getComputedStyle(checkbox)['margin-top']; 
+  assert.strictEqual(marginTop, '10px');
+});
 ```
 
 체크박스의 하단 마진은 15px 이어야 합니다.
 
 ```js
-assert(
-  (function () {
-    var count = 0;
-    $("[type='checkbox']").each(function () {
-      if ($(this).css('marginBottom') === '15px') {
-        count++;
-      }
-    });
-    return count === 3;
-  })()
-);
+const checkboxes = document.querySelectorAll("[type='checkbox']");
+assert.isNotEmpty(checkboxes);
+checkboxes.forEach(function(checkbox) {
+  const marginBottom = window.getComputedStyle(checkbox)['margin-bottom']; 
+  assert.strictEqual(marginBottom, '15px');
+});
 ```
 
 # --seed--

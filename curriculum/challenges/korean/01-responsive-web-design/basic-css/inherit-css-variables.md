@@ -24,8 +24,9 @@ dashedName: inherit-css-variables
 `--penguin-belly` 변수는 `:root` 안에 선언되어야 하며, `pink` 값이 할당되어야 합니다.
 
 ```js
-assert(
-  code.match(/:root\s*?{[\s\S]*--penguin-belly\s*?:\s*?pink\s*?;[\s\S]*}/gi)
+assert.match(
+  __helpers.removeCssComments(code),
+  /:root\s*?{[\s\S]*--penguin-belly\s*?:\s*?pink\s*?;[\s\S]*}/gi
 );
 ```
 

@@ -28,31 +28,28 @@ Setze den `placeholder`-Wert deines Text-`input` auf "cat photo URL".
 Du solltest ein `placeholder`-Attribut zu dem bestehenden Text-`input`-Element hinzufügen.
 
 ```js
-assert($('input[placeholder]').length > 0);
+assert.notEmpty(document.querySelectorAll('input[placeholder]'));
 ```
 
 Du solltest den Wert deines `placeholder`-Attributs auf `cat photo URL` setzen.
 
 ```js
-assert(
-  $('input') &&
-    $('input').attr('placeholder') &&
-    $('input')
-      .attr('placeholder')
-      .match(/cat\s+photo\s+URL/gi)
-);
+assert.exists(document.querySelector('input'));
+assert.exists(document.querySelector('input').getAttribute('placeholder'));
+const placeholder = document.querySelector('input').getAttribute('placeholder');
+assert.match(placeholder,/cat\s+photo\s+URL/gi);
 ```
 
 Das fertige `input`-Element sollte kein schließendes Tag besitzen.
 
 ```js
-assert(!code.match(/<input.*\/?>.*<\/input>/gi));
+assert.notMatch(code,/<input.*\/?>.*<\/input>/gi);
 ```
 
 Das fertige `input`-Element sollte eine gültige Syntax enthalten.
 
 ```js
-assert($('input[type=text]').length > 0);
+assert.notEmpty(document.querySelectorAll('input[type=text]'));
 ```
 
 # --seed--

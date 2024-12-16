@@ -26,19 +26,21 @@ Weise deinem `h1`-Element die Klasse `pink-text` zu.
 Dein `h1`-Element sollte die Klasse `pink-text` besitzen.
 
 ```js
-assert($('h1').hasClass('pink-text'));
+assert.isTrue(document.querySelector('h1').classList.contains('pink-text'));
 ```
 
 Dein `<style>` sollte eine `pink-text` CSS-Klasse haben, die `color` ändert.
 
 ```js
-assert(code.match(/\.pink-text\s*\{\s*color\s*:\s*.+\s*;?\s*\}/g));
+assert.match(__helpers.removeCssComments(code), /\.pink-text\s*\{\s*color\s*:\s*.+\s*;?\s*\}/g);
 ```
 
 Dein `h1`-Element sollte pink sein.
 
 ```js
-assert($('h1').css('color') === 'rgb(255, 192, 203)');
+const h1Element = document.querySelector('h1');
+const color = window.getComputedStyle(h1Element)['color']; 
+assert.strictEqual(color, 'rgb(255, 192, 203)');
 ```
 
 # --seed--

@@ -28,31 +28,33 @@ Lass die `blue-text` und `pink-text`-Klassen auf deinem `h1`-Element.
 Dein `h1`-Element sollte die Klasse `pink-text` haben.
 
 ```js
-assert($('h1').hasClass('pink-text'));
+assert.isTrue(document.querySelector('h1').classList.contains('pink-text'));
 ```
 
 Dein `h1`-Element sollte die Klasse `blue-text` haben.
 
 ```js
-assert($('h1').hasClass('blue-text'));
+assert.isTrue(document.querySelector('h1').classList.contains('blue-text'));
 ```
 
 Dein `h1`-Element sollte die Id `orange-text` haben.
 
 ```js
-assert($('h1').attr('id') === 'orange-text');
+assert.strictEqual(document.querySelector('h1').getAttribute('id'), 'orange-text');
 ```
 
 Dein `h1`-Element sollte einen Inline-Stil haben.
 
 ```js
-assert(document.querySelector('h1[style]'));
+assert.exists(document.querySelector('h1[style]'));
 ```
 
 Dein `h1`-Element sollte weiß sein.
 
 ```js
-assert($('h1').css('color') === 'rgb(255, 255, 255)');
+const h1Element = document.querySelector('h1');
+const color = window.getComputedStyle(h1Element)['color']; 
+assert.strictEqual(color, 'rgb(255, 255, 255)');
 ```
 
 # --seed--

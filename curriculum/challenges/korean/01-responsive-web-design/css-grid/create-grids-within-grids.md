@@ -8,7 +8,7 @@ dashedName: create-grids-within-grids
 
 # --description--
 
-Turning an element into a grid only affects the behavior of its direct descendants. So by turning a direct descendant into a grid, you have a grid within a grid.
+한 요소를 그리드로 바꾸는 것은 오직 직계 하위 요소들의 행동에만 영향을 미칩니다. 그래서 직계 하위 요소를 그리드로 바꾸면 그리드 안에 그리드를 가지게 됩니다.
 
 예를 들면 `item3` 클래스를 가진 요소의 `display` and `grid-template-columns` 속성들을 설정하여 그리드 안에 그리드를 생성할 수 있습니다.
 

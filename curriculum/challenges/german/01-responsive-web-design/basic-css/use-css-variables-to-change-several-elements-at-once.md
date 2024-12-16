@@ -22,25 +22,19 @@ Folge den Anweisungen unten, um zu sehen, wie das Ändern von nur drei Werten da
 Die `penguin`-Klasse sollte die Variable `--penguin-skin` deklarieren und ihr `gray` zuweisen.
 
 ```js
-assert(
-  code.match(/.penguin\s*?{[\s\S]*--penguin-skin\s*?:\s*?gray\s*?;[\s\S]*}/gi)
-);
+assert.match(__helpers.removeHtmlComments(code), /.penguin\s*?{[\s\S]*--penguin-skin\s*?:\s*?gray\s*?;[\s\S]*}/gi);
 ```
 
 Die `penguin`-Klasse sollte die Variable `--penguin-belly` deklarieren und ihr `white` zuweisen.
 
 ```js
-assert(
-  code.match(/.penguin\s*?{[\s\S]*--penguin-belly\s*?:\s*?white\s*?;[\s\S]*}/gi)
-);
+assert.match(code, /.penguin\s*?{[\s\S]*--penguin-belly\s*?:\s*?white\s*?;[\s\S]*}/gi);
 ```
 
 Die `penguin`-Klasse sollte die Variable `--penguin-beak` deklarieren und ihr `orange` zuweisen.
 
 ```js
-assert(
-  code.match(/.penguin\s*?{[\s\S]*--penguin-beak\s*?:\s*?orange\s*?;[\s\S]*}/gi)
-);
+assert.match(code, /.penguin\s*?{[\s\S]*--penguin-beak\s*?:\s*?orange\s*?;[\s\S]*}/gi);
 ```
 
 # --seed--

@@ -30,23 +30,25 @@ Wenn du dies getan hast, fahre mit dem Mauszeiger über dein Bild. Der normale M
 Das vorhandene `img` Element sollte innerhalb eines `a` Elements eingebettet sein.
 
 ```js
-assert($('a').children('img').length > 0);
+const anchor = document.querySelectorAll('a')[1];
+const children = anchor.querySelectorAll("img");
+assert.notEmpty(children);
 ```
 
 Dein `a`-Element sollte ein toter Link mit einem `href`-Attribut sein, das auf `#` gesetzt ist.
 
 ```js
-assert(new RegExp('#').test($('a').children('img').parent().attr('href')));
+const anchor = document.querySelectorAll('a')[1];
+const parentHREF = anchor.querySelector("img").parentNode.getAttribute('href');
+assert.match(parentHREF,new RegExp('#'));
 ```
 
 Jedes deiner `a`-Elemente sollte einen schließenden Tag besitzen.
 
 ```js
-assert(
-  code.match(/<\/a>/g) &&
-    code.match(/<a/g) &&
-    code.match(/<\/a>/g).length === code.match(/<a/g).length
-);
+assert.match(code,/<\/a>/g);
+assert.match(code,/<a/g);
+assert.strictEqual(code.match(/<\/a>/g).length, code.match(/<a/g).length)
 ```
 
 # --seed--

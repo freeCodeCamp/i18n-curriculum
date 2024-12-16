@@ -26,61 +26,57 @@ First, create an `h1` element with the text `Hello World`.
 `h1` 요소를 생성해야 합니다.
 
 ```js
-assert($('h1').length > 0);
+assert.isNotEmpty(document.querySelectorAll('h1'));
 ```
 
 `h1` 요소에는 `Hello World` 라는 텍스트가 있어야 합니다.
 
 ```js
-assert(
-  $('h1').length > 0 &&
-    $('h1')
-      .text()
-      .match(/hello world/i)
+assert.match(
+  document.querySelector('h1').textContent,
+  /hello world/i
 );
 ```
 
 `h1` 요소에는 닫는 태그가 있어야 합니다.
 
 ```js
-assert(
-  code.match(/<\/h1>/g) &&
-    code.match(/<h1/g) &&
-    code.match(/<\/h1>/g).length === code.match(/<h1/g).length
-);
+const commentlessCode = __helpers.removeHtmlComments(code);
+assert.match(commentlessCode, /<\/h1>/g);
+assert.match(commentlessCode, /<h1/g);
+assert.lengthOf(commentlessCode.match(/<\/h1>/g), commentlessCode.match(/<h1/g).length);
 ```
 
 `body`요소에는 `color` 속성이 있어야 하며 이 속성값은 `green`이어야 합니다.
 
 ```js
-assert($('body').css('color') === 'rgb(0, 128, 0)');
+const bodyElement = document.querySelector('body');
+const color = window.getComputedStyle(bodyElement)['color']; 
+assert.strictEqual(color, 'rgb(0, 128, 0)');
 ```
 
 `body`요소에는 `font-family` 속성이 있어야 하며 이 속성값은 `monospace`이어야 합니다.
 
 ```js
-assert(
-  $('body')
-    .css('font-family')
-    .match(/monospace/i)
-);
+const bodyElement = document.querySelector('body');
+const fontFamily = window.getComputedStyle(bodyElement)['font-family'];
+assert.include(fontFamily.toLowerCase(), "monospace");
 ```
 
 `h1`요소는 `body`요소로부터 `monospace` 폰트를 상속받아야 합니다.
 
 ```js
-assert(
-  $('h1').length > 0 &&
-    $('h1')
-      .css('font-family')
-      .match(/monospace/i)
-);
+const h1Element = document.querySelector('h1');
+const fontFamily = window.getComputedStyle(h1Element)['font-family'];
+assert.include(fontFamily.toLowerCase(), "monospace");
 ```
 
 `h1`요소는 `body`요소로부터 `green` 색상을 상속받아야 합니다.
 
 ```js
-assert($('h1').length > 0 && $('h1').css('color') === 'rgb(0, 128, 0)');
+const h1Element = document.querySelector('h1');
+const color = window.getComputedStyle(h1Element)['color'];
+assert.strictEqual(color, 'rgb(0, 128, 0)');
 ```
 
 # --seed--

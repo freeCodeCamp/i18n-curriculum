@@ -36,45 +36,37 @@ dashedName: link-to-internal-sections-of-a-page-with-anchor-elements
 페이지에는 하나의 앵커 태그만 있어야 합니다.
 
 ```js
-assert($('a').length == 1);
+assert.lengthOf(document.querySelectorAll('a'), 1);
 ```
 
 페이지에는 하나의 `footer` 태그만 있어야 합니다.
 
 ```js
-assert($('footer').length == 1);
+assert.lengthOf(document.querySelectorAll('footer'),1);
 ```
 
 `a` 태그에는 "#footer"로 설정된 `href` 속성이 있어야 합니다.
 
 ```js
-assert($('a').eq(0).attr('href') == '#footer');
+assert.strictEqual(document.querySelector('a').getAttribute('href'), '#footer');
 ```
 
 `a` 태그에는 `target` 속성이 없어야 합니다.
 
 ```js
-assert(
-  typeof $('a').eq(0).attr('target') == typeof undefined ||
-    $('a').eq(0).attr('target') == true
-);
+assert.notExists(document.querySelector('a').getAttribute('target'));
 ```
 
 `a` 요소의 텍스트는 "Jump to Bottom"이어야 합니다.
 
 ```js
-assert(
-  $('a')
-    .eq(0)
-    .text()
-    .match(/Jump to Bottom/gi)
-);
+assert.match(document.querySelector('a').textContent,/Jump to Bottom/gi);
 ```
 
 `footer` 태그에는 "footer"로 설정된 `id` 속성이 있어야 합니다.
 
 ```js
-assert($('footer').eq(0).attr('id') == 'footer');
+assert.strictEqual(document.querySelector('footer').getAttribute('id'),'footer');
 ```
 
 # --seed--

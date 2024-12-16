@@ -32,19 +32,19 @@ Cambia el estilo de tu elemento `h2` para que el texto de ese elemento sea de co
 Tu elemento `h2` debe incluir una declaración `style`.
 
 ```js
-assert($('h2').attr('style'));
+assert.exists(document.querySelector('h2').getAttribute('style'));
 ```
 
 Tu elemento `h2` debe tener "color" configurado como `red`.
 
 ```js
-assert($('h2')[0].style.color === 'red');
+assert.strictEqual(document.querySelector('h2').style.color, 'red');
 ```
 
 Tu declaración `style` debe terminar con punto y coma (`;`).
 
 ```js
-assert($('h2').attr('style') && $('h2').attr('style').endsWith(';'));
+assert.isTrue(document.querySelector('h2').getAttribute('style').endsWith(';'));
 ```
 
 # --seed--

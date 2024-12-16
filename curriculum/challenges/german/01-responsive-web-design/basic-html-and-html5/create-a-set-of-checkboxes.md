@@ -34,37 +34,33 @@ Füge deinem Formular eine Gruppe von drei Checkboxen hinzu. Jede Checkbox sollt
 Deine Seite sollte drei Checkbox-Elemente enthalten.
 
 ```js
-assert($('input[type="checkbox"]').length > 2);
+assert.lengthOf(document.querySelectorAll('input[type="checkbox"]'),3);
 ```
 
 Jedes deiner drei Checkbox-Elemente sollte in seinem eigenen `label`-Element eingebettet sein.
 
 ```js
-assert($('label > input[type="checkbox"]:only-child').length > 2);
+assert.lengthOf(document.querySelectorAll('label > input[type="checkbox"]:only-child'),3);
 ```
 
 Stelle sicher, dass jedes deiner `label`-Elemente einen schließenden Tag besitzt.
 
 ```js
-assert(
-  code.match(/<\/label>/g) &&
-    code.match(/<label/g) &&
-    code.match(/<\/label>/g).length === code.match(/<label/g).length
-);
+assert.match(code,/<\/label>/g);
+assert.match(code,/<label/g);
+assert.strictEqual(code.match(/<\/label>/g).length,code.match(/<label/g).length)
 ```
 
 Deine Checkboxen sollten das `name`-Attribut `personality` erhalten.
 
 ```js
-assert(
-  $('label > input[type="checkbox"]').filter('[name="personality"]').length > 2
-);
+assert.lengthOf([...document.querySelectorAll('label > input[type="checkbox"]')].filter(x => x.name === "personality"),3);
 ```
 
 Jede deiner Checkboxen sollte innerhalb des `form`-Tags hinzugefügt werden.
 
 ```js
-assert($('label').parent().get(0).tagName.match('FORM'));
+assert.strictEqual(document.querySelector('label').parentNode.tagName,'FORM');
 ```
 
 # --seed--

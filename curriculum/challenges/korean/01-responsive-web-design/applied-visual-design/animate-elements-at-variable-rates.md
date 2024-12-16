@@ -9,7 +9,7 @@ dashedName: animate-elements-at-variable-rates
 
 # --description--
 
-There are a variety of ways to alter the animation rates of similarly animated elements. So far, this has been achieved by applying an `animation-iteration-count` property and setting `@keyframes` rules.
+비슷하게 애니메이션이 적용된 요소들의 애니메이션 속도를 변경하는 다양한 방법이 있습니다. 지금까지는 `animation-iteration-count` 속성을 적용하고 `@keyframes` 규칙을 설정하여 할 수 있었습니다.
 
 예를 들어, 오른쪽의 애니메이션은 `@keyframes` 규칙의 20% 지점에서 크기와 불투명도가 줄어드는 두 개의 별로 구성되어 있어 반짝이는 애니메이션을 만듭니다. 한 요소의 `@keyframes` 규칙을 변경하여 별이 서로 다른 속도로 반짝이도록 할 수 있습니다.
 

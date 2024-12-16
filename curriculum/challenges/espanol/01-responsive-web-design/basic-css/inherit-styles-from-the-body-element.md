@@ -26,61 +26,57 @@ Finalmente, da a tu elemento `body` un valor para font-family de `monospace` añ
 Debes crear un elemento `h1`.
 
 ```js
-assert($('h1').length > 0);
+assert.isNotEmpty(document.querySelectorAll('h1'));
 ```
 
 Tu elemento `h1` debe contener el texto `Hello World`.
 
 ```js
-assert(
-  $('h1').length > 0 &&
-    $('h1')
-      .text()
-      .match(/hello world/i)
+assert.match(
+  document.querySelector('h1').textContent,
+  /hello world/i
 );
 ```
 
 Tu elemento `h1` debe tener una etiqueta de cierre.
 
 ```js
-assert(
-  code.match(/<\/h1>/g) &&
-    code.match(/<h1/g) &&
-    code.match(/<\/h1>/g).length === code.match(/<h1/g).length
-);
+const commentlessCode = __helpers.removeHtmlComments(code);
+assert.match(commentlessCode, /<\/h1>/g);
+assert.match(commentlessCode, /<h1/g);
+assert.lengthOf(commentlessCode.match(/<\/h1>/g), commentlessCode.match(/<h1/g).length);
 ```
 
 Tu elemento `body` debe tener la propiedad `color` con el valor `green`.
 
 ```js
-assert($('body').css('color') === 'rgb(0, 128, 0)');
+const bodyElement = document.querySelector('body');
+const color = window.getComputedStyle(bodyElement)['color']; 
+assert.strictEqual(color, 'rgb(0, 128, 0)');
 ```
 
 Tu elemento `body` debe tener la propiedad `font-family` con el valor `monospace`.
 
 ```js
-assert(
-  $('body')
-    .css('font-family')
-    .match(/monospace/i)
-);
+const bodyElement = document.querySelector('body');
+const fontFamily = window.getComputedStyle(bodyElement)['font-family'];
+assert.include(fontFamily.toLowerCase(), "monospace");
 ```
 
 Tu elemento `h1` debe heredar la fuente `monospace` de tu elemento `body`.
 
 ```js
-assert(
-  $('h1').length > 0 &&
-    $('h1')
-      .css('font-family')
-      .match(/monospace/i)
-);
+const h1Element = document.querySelector('h1');
+const fontFamily = window.getComputedStyle(h1Element)['font-family'];
+assert.include(fontFamily.toLowerCase(), "monospace");
 ```
 
 Tu elemento `h1` debe heredar el color `green` de tu elemento `body`.
 
 ```js
-assert($('h1').length > 0 && $('h1').css('color') === 'rgb(0, 128, 0)');
+const h1Element = document.querySelector('h1');
+const color = window.getComputedStyle(h1Element)['color'];
+assert.strictEqual(color, 'rgb(0, 128, 0)');
 ```
 
 # --seed--

@@ -9,7 +9,7 @@ dashedName: adjust-the-tone-of-a-color
 
 # --description--
 
-The `hsl()` option in CSS also makes it easy to adjust the tone of a color. Mixing white with a pure hue creates a tint of that color, and adding black will make a shade. Alternatively, a tone is produced by adding gray or by both tinting and shading. Recall that the 's' and 'l' of `hsl()` stand for saturation and lightness, respectively. The saturation percent changes the amount of gray and the lightness percent determines how much white or black is in the color. This is useful when you have a base hue you like, but need different variations of it.
+CSS에서 `hsl()` 옵션을 이용하면 색상의 톤을 조절하기 쉬워집니다. 순색(hue)에 흰색을 섞으면 그 색상의 틴트(tint)가, 검은색을 섞으면 쉐이드(shade)가 만들어집니다. 한편, 색상의 톤(tone)은 그 색상에 회색을 섞거나 틴트, 쉐이드를 사용하여 만들어집니다. `hsl()`에서 's'와 'l'은 각각 채도(saturation)와 밝기(lightness)를 뜻합니다. 채도의 퍼센티지는 회색의 양을 변화시키며 밝기 퍼센티지는 색상에 포함된 흰색이나 검은색의 양을 결정합니다. 이는 기본 순색(hue)은 마음에 들지만 다양한 변형이 필요할 때 유용합니다.
 
 # --instructions--
 

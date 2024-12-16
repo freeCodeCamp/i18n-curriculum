@@ -9,7 +9,7 @@ dashedName: add-borders-around-your-elements
 
 # --description--
 
-CSS borders have properties like `style`, `color` and `width`.
+CSS 테두리는 `style`, `color`, `width`와 같은 속성을 가집니다.
 
 예를 들면, HTML 요소의 가장자리에 5px의 테두리를 만들고 싶다고 했을 때, 우리는 다음과 같은 클래스를 사용할 수 있습니다.
 
@@ -38,35 +38,38 @@ CSS borders have properties like `style`, `color` and `width`.
 `img` 요소는 `smaller-image` 클래스를 가져야 합니다.
 
 ```js
-assert($('img').hasClass('smaller-image'));
+assert.isTrue(document.querySelector('img').classList.contains('smaller-image'));
 ```
 
 `img` 요소는 `thick-green-border` 클래스를 가져야 합니다.
 
 ```js
-assert($('img').hasClass('thick-green-border'));
+assert.isTrue(document.querySelector('img').classList.contains('thick-green-border'));
 ```
 
 이미지는 `10px` 두께의 테두리를 가져야 합니다.
 
 ```js
-assert(
-  $('img').hasClass('thick-green-border') &&
-    parseInt($('img').css('border-top-width'), 10) >= 8 &&
-    parseInt($('img').css('border-top-width'), 10) <= 12
-);
+const image = document.querySelector('img'); 
+const imageBorderTopWidth = window.getComputedStyle(image)["border-top-width"]; 
+
+assert.strictEqual(imageBorderTopWidth, "10px")
 ```
 
 이미지는 `solid` 스타일의 테두리를 가져야 합니다.
 
 ```js
-assert($('img').css('border-right-style') === 'solid');
+const image = document.querySelector('img'); 
+const borderRightStyle = window.getComputedStyle(image)["border-right-style"]; 
+assert.strictEqual(borderRightStyle, 'solid');
 ```
 
 `img` 요소 주위의 테두리는 초록색이어야 합니다.
 
 ```js
-assert($('img').css('border-left-color') === 'rgb(0, 128, 0)');
+const image = document.querySelector('img'); 
+const borderLeftColor = window.getComputedStyle(image)["border-left-color"]; 
+assert.strictEqual(borderLeftColor, 'rgb(0, 128, 0)');
 ```
 
 # --seed--

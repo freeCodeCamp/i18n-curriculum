@@ -28,12 +28,9 @@ h2 {
 `p` 요소는 `monospace` 글꼴을 사용해야 합니다.
 
 ```js
-assert(
-  $('p')
-    .not('.red-text')
-    .css('font-family')
-    .match(/monospace/i)
-);
+const notRed = document.querySelector('p:not(.red-text)');
+const fontFamily = window.getComputedStyle(notRed)['font-family']; 
+assert.match(fontFamily, /monospace/i);
 ```
 
 # --seed--

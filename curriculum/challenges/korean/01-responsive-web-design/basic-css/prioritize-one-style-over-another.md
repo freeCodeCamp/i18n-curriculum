@@ -9,7 +9,7 @@ dashedName: prioritize-one-style-over-another
 
 # --description--
 
-Sometimes your HTML elements will receive multiple styles that conflict with one another.
+때때로 HTML 요소에는 서로 충돌하는 여러 스타일이 있을 수 있습니다.
 
 예를 들어, 여러분의 `h1` 요소는 동시에 초록색과 분홍색이 될 수 없습니다.
 
@@ -26,19 +26,21 @@ Sometimes your HTML elements will receive multiple styles that conflict with one
 `h1` 요소는 `pink-text` 클래스를 갖고 있어야 합니다.
 
 ```js
-assert($('h1').hasClass('pink-text'));
+assert.isTrue(document.querySelector('h1').classList.contains('pink-text'));
 ```
 
 `<style>`에는 요소의 `color`를 바꾸는 `pink-text` 클래스가 있어야 합니다.
 
 ```js
-assert(code.match(/\.pink-text\s*\{\s*color\s*:\s*.+\s*;?\s*\}/g));
+assert.match(__helpers.removeCssComments(code), /\.pink-text\s*\{\s*color\s*:\s*.+\s*;?\s*\}/g);
 ```
 
 `h1` 요소는 핑크색으로 나타나야 합니다.
 
 ```js
-assert($('h1').css('color') === 'rgb(255, 192, 203)');
+const h1Element = document.querySelector('h1');
+const color = window.getComputedStyle(h1Element)['color']; 
+assert.strictEqual(color, 'rgb(255, 192, 203)');
 ```
 
 # --seed--

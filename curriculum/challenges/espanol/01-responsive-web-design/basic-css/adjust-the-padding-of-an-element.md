@@ -30,7 +30,9 @@ Cambia el `padding` de la caja azul para que coincida con el de la caja roja.
 Tu clase `blue-box` debe asignar a los elementos `20px` de `padding`.
 
 ```js
-assert($('.blue-box').css('padding-top') === '20px');
+const blueBox = document.querySelector('.blue-box');
+const paddingTop = window.getComputedStyle(blueBox)['padding-top'];
+assert.strictEqual(paddingTop, '20px');
 ```
 
 # --seed--

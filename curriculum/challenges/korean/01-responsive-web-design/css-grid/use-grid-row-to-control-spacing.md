@@ -9,7 +9,7 @@ dashedName: use-grid-row-to-control-spacing
 
 # --description--
 
-Of course, you can make items consume multiple rows just like you can with columns. You define the horizontal lines you want an item to start and stop at using the `grid-row` property on a grid item.
+열과 마찬가지로 아이템이 여러 행을 차지하도록 만들 수 있습니다. 아이템이 시작하고 끝나길 원하는 수평 라인은 그리드 항목의 `grid-row` 속성을 사용하여 정의합니다.
 
 # --instructions--
 

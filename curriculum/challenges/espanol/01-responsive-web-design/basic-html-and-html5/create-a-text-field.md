@@ -30,7 +30,7 @@ Crea un elemento `input` de tipo `text` debajo de tus listas.
 Tu aplicación debe tener un elemento `input` de tipo `text`.
 
 ```js
-assert($('input[type=text]').length > 0);
+assert.isNotEmpty(document.querySelectorAll('input[type=text]'));
 ```
 
 # --seed--

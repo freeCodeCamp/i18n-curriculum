@@ -32,39 +32,41 @@ color: red !important;
 Dein `h1`-Element sollte die Klasse `pink-text` haben.
 
 ```js
-assert($('h1').hasClass('pink-text'));
+assert.isTrue(document.querySelector('h1').classList.contains('pink-text'));
 ```
 
 Dein `h1`-Element sollte die Klasse `blue-text` haben.
 
 ```js
-assert($('h1').hasClass('blue-text'));
+assert.isTrue(document.querySelector('h1').classList.contains('blue-text'));
 ```
 
 Dein `h1`-Element sollte eine `id` namens `orange-text` haben.
 
 ```js
-assert($('h1').attr('id') === 'orange-text');
+assert.strictEqual(document.querySelector('h1').getAttribute('id'), 'orange-text');
 ```
 
 Dein `h1`-Element sollte den Inline-Stil `color: white` haben.
 
 ```js
-assert(code.match(/<h1.*style/gi) && code.match(/<h1.*style.*color\s*?:/gi));
+const commentessCode = __helpers.removeHtmlComments(code);
+assert.match(commentessCode, /<h1.*style/gi);
+assert.match(commentessCode, /<h1.*style.*color\s*?:/gi);
 ```
 
 Deine `pink-text`-Klassendeklaration sollte das Schlüsselwort `!important` verwenden, um alle anderen Deklarationen zu überschreiben.
 
 ```js
-assert(
-  code.match(/\.pink-text\s*?\{[\s\S]*?color:.*pink.*!important\s*;?[^\.]*\}/g)
-);
+assert.match(__helpers.removeCssComments(code), /\.pink-text\s*?\{[\s\S]*?color:.*pink.*!important\s*;?[^\.]*\}/g);
 ```
 
 Dein `h1`-Element sollte pink sein.
 
 ```js
-assert($('h1').css('color') === 'rgb(255, 192, 203)');
+const h1Element = document.querySelector('h1');
+const color = window.getComputedStyle(h1Element)['color'];
+assert.strictEqual(color, 'rgb(255, 192, 203)');
 ```
 
 # --seed--

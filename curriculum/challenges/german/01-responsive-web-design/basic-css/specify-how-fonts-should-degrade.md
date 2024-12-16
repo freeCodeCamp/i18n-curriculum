@@ -36,33 +36,27 @@ In der letzten Aufgabe hast du die Schriftart `Lobster` mit dem `link`-Tag impor
 Dein h2-Element sollte die Schriftart `Lobster` verwenden.
 
 ```js
-assert(
-  $('h2')
-    .css('font-family')
-    .match(/^"?lobster/i)
-);
+const h2Element = document.querySelector('h2');
+const fontFamily = window.getComputedStyle(h2Element)['font-family']; 
+assert.match(fontFamily, /^"?lobster/i);
 ```
 
 Dein h2-Element sollte zur Schriftart `monospace` wechseln, wenn `Lobster` nicht verfügbar ist.
 
 ```js
-assert(
-  /\s*h2\s*\{\s*font-family\s*\:\s*(\'|"|)Lobster\1\s*,\s*monospace\s*;?\s*\}/gi.test(
-    code
-  )
-);
+assert.match(__helpers.removeCssComments(code), /\s*h2\s*\{\s*font-family\s*\:\s*(\'|"|)Lobster\1\s*,\s*monospace\s*;?\s*\}/gi);
 ```
 
 Du solltest deinen Abruf bei Google für die Schriftart `Lobster` auskommentieren, indem du `<!--` voranstellst.
 
 ```js
-assert(new RegExp('<!--[^fc]', 'gi').test(code));
+assert.match(code, /<!--[^fc]/gi);
 ```
 
 Du solltest deinen Kommentar durch Hinzufügen von `-->` abschließen.
 
 ```js
-assert(new RegExp('[^fc]-->', 'gi').test(code));
+assert.match(code, /[^fc]-->/gi);
 ```
 
 # --seed--

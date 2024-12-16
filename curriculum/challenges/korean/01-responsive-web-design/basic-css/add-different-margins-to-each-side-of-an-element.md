@@ -22,25 +22,33 @@ CSS는 `margin-top`, `margin-right`, `margin-bottom`, 그리고 `margin-left` �
 `blue-box` 클래스가 요소 위쪽에 `40px`의 `margin`을 부여합니다.
 
 ```js
-assert($('.blue-box').css('margin-top') === '40px');
+const blueBox = document.querySelector('.blue-box');
+const marginTop = window.getComputedStyle(blueBox)['margin-top'];
+assert.strictEqual(marginTop, '40px');
 ```
 
 `blue-box` 클래스가 요소 오른쪽에 `20px`의 `margin`을 부여합니다.
 
 ```js
-assert($('.blue-box').css('margin-right') === '20px');
+const blueBox = document.querySelector('.blue-box');
+const marginRight = window.getComputedStyle(blueBox)['margin-right'];
+assert.strictEqual(marginRight, '20px');
 ```
 
 `blue-box` 클래스가 요소 아래쪽에 `20px`의 `margin`을 부여합니다.
 
 ```js
-assert($('.blue-box').css('margin-bottom') === '20px');
+const blueBox = document.querySelector('.blue-box');
+const marginBottom = window.getComputedStyle(blueBox)['margin-bottom'];
+assert.strictEqual(marginBottom, '20px');
 ```
 
 `blue-box` 클래스가 요소 왼쪽에 `40px`의 `margin`을 부여합니다.
 
 ```js
-assert($('.blue-box').css('margin-left') === '40px');
+const blueBox = document.querySelector('.blue-box');
+const marginLeft = window.getComputedStyle(blueBox)['margin-left'];
+assert.strictEqual(marginLeft,'40px');
 ```
 
 # --seed--

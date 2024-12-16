@@ -9,7 +9,7 @@ dashedName: add-flex-superpowers-to-the-tweet-embed
 
 # --description--
 
-To the right is the tweet embed that will be used as a practical example. Some of the elements would look better with a different layout. The last challenge demonstrated `display: flex`. Here you'll add it to several components in the tweet embed to start adjusting their positioning.
+실례로 사용될 트윗 임베드가 오른쪽에 있습니다. 일부 요소들은 다른 레이아웃으로 더 나아 보일 것입니다. 이전 과제에서 `display: flex`를 설명했습니다. 트윗 임베드의 위치 조정을 위해 그 안에 있는 여러 컴포넌트에 이를 추가할 것입니다.
 
 # --instructions--
 

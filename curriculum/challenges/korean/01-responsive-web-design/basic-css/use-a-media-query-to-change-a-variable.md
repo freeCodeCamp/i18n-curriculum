@@ -22,21 +22,13 @@ CSS 변수는 미디어 쿼리를 사용하는 방법을 간소화시킬 수 있
 `:root`는 `--penguin-size` 변수에 `200px`을 재할당해야 합니다.
 
 ```js
-assert(
-  code.match(
-    /media\s*?\(\s*?max-width\s*?:\s*?350px\s*?\)\s*?{[\s\S]*:root\s*?{[\s\S]*--penguin-size\s*?:\s*?200px\s*?;[\s\S]*}[\s\S]*}/gi
-  )
-);
+assert.match(__helpers.removeCssComments(code), /media\s*?\(\s*?max-width\s*?:\s*?350px\s*?\)\s*?{[\s\S]*:root\s*?{[\s\S]*--penguin-size\s*?:\s*?200px\s*?;[\s\S]*}[\s\S]*}/gi);
 ```
 
 `:root`는 `--penguin-skin` 변수에 `black`를 재할당해야 합니다.
 
 ```js
-assert(
-  code.match(
-    /media\s*?\(\s*?max-width\s*?:\s*?350px\s*?\)\s*?{[\s\S]*:root\s*?{[\s\S]*--penguin-skin\s*?:\s*?black\s*?;[\s\S]*}[\s\S]*}/gi
-  )
-);
+assert.match(__helpers.removeCssComments(code), /media\s*?\(\s*?max-width\s*?:\s*?350px\s*?\)\s*?{[\s\S]*:root\s*?{[\s\S]*--penguin-skin\s*?:\s*?black\s*?;[\s\S]*}[\s\S]*}/gi);
 ```
 
 # --seed--

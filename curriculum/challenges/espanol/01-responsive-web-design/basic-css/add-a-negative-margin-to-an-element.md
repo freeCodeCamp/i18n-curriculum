@@ -24,7 +24,9 @@ Cambia el `margin` de la caja azul a `-15px` para que llene todo el ancho horizo
 Tu clase `blue-box` debería dar a los elementos un `margin` de `-15px`.
 
 ```js
-assert($('.blue-box').css('margin-top') === '-15px');
+const blueBox = document.querySelector('.blue-box');
+const marginTop = window.getComputedStyle(blueBox)["margin-top"]; 
+assert.strictEqual(marginTop, "-15px"); 
 ```
 
 # --seed--

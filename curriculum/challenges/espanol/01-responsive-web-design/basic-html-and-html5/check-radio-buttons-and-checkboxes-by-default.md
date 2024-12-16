@@ -26,13 +26,13 @@ Establece el primero de tus botones de radio y la primera de tus casillas de ver
 Tu primer botón de radio en tu formulario debe ser marcado por defecto.
 
 ```js
-assert($('input[type="radio"]').prop('checked'));
+assert.isTrue(document.querySelector('input[type="radio"]').checked);
 ```
 
 Tu primera casilla de verificación en tu formulario debe ser marcado por defecto.
 
 ```js
-assert($('input[type="checkbox"]').prop('checked'));
+assert.isTrue(document.querySelector('input[type="checkbox"]').checked);
 ```
 
 No debes cambiar el texto interno de la etiqueta `Indoor`.

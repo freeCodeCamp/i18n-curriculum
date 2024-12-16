@@ -48,55 +48,50 @@ You can use <dfn>radio buttons</dfn> for questions where you want the user to on
 페이지에 두 개의 `radio` 버튼 요소가 있어야 합니다.
 
 ```js
-assert($('input[type="radio"]').length > 1);
+assert.lengthOf(document.querySelectorAll('input[type="radio"]'),2);
 ```
 
 라디오 버튼은 `indoor-outdoor`의 `name` 속성을 가져야 합니다.
 
 ```js
-assert($('input[type="radio"]').filter("[name='indoor-outdoor']").length > 1);
+assert.lengthOf([...document.querySelectorAll('input[type="radio"]')].filter(input => input.name === "indoor-outdoor"),2);
 ```
 
 두 라디오 버튼 각각은 `label` 요소 안에 중첩되어야 합니다.
 
 ```js
-assert($('label > input[type="radio"]:only-child').length > 1);
+assert.lengthOf(document.querySelectorAll('label > input[type="radio"]:only-child'),2);
 ```
 
 각 `label` 요소는 닫는 태그를 가져야 합니다.
 
 ```js
-assert(
-  code.match(/<\/label>/g) &&
-    code.match(/<label/g) &&
-    code.match(/<\/label>/g).length === code.match(/<label/g).length
-);
+assert.match(code,/<\/label>/g);
+assert.match(code,/<label/g);
+assert.strictEqual(code.match(/<\/label>/g).length,code.match(/<label/g).length);
 ```
 
 라디오 버튼 중 하나는 레이블 `indoor`를 가져야 합니다.
 
 ```js
-assert(
-  $('label')
-    .text()
-    .match(/indoor/gi)
-);
+const labelTexts = [...document.querySelectorAll('label')].map(label => label.textContent);
+const hasMatch = labelTexts.some(label =>  label.match(/indoor/gi));
+assert.isTrue(hasMatch); 
 ```
 
 라디오 버튼 중 하나는 레이블 `outdoor`를 가져야 합니다.
 
 ```js
-assert(
-  $('label')
-    .text()
-    .match(/outdoor/gi)
-);
+const labelTexts = [...document.querySelectorAll('label')].map(label => label.textContent);
+const hasMatch = labelTexts.some(label => label.match(/outdoor/gi));
+assert.isTrue(hasMatch); 
 ```
 
 라디오 버튼 각각은 `form` 태그 안에 추가되어야 합니다.
 
 ```js
-assert($('label').parent().get(0).tagName.match('FORM'));
+const labelParent = document.querySelector('label').parentNode;
+assert.strictEqual(labelParent.tagName,'FORM');
 ```
 
 # --seed--

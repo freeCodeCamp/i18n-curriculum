@@ -33,80 +33,76 @@ Crea una lista ordenada de las 3 cosas que los gatos odian (Top 3 things cats ha
 Debes tener una lista ordenada para `Top 3 things cats hate:`
 
 ```js
-assert(/Top 3 things cats hate:/i.test($('ol').prev().text()));
+const previousElement = document.querySelector('ol').previousElementSibling; 
+assert.match(previousElement.textContent,/Top 3 things cats hate:/i);
 ```
 
 Debes tener una lista no ordenada para `Things cats love:`
 
 ```js
-assert(/Things cats love:/i.test($('ul').prev().text()));
+const previousElement = document.querySelector('ul').previousElementSibling; 
+assert.match(previousElement.textContent,/Things cats love:/i);
 ```
 
 Solo debes tener un elemento `ul`.
 
 ```js
-assert.equal($('ul').length, 1);
+assert.lengthOf(document.querySelectorAll('ul'), 1);
 ```
 
 Solo debes tener un elemento `ol`.
 
 ```js
-assert.equal($('ol').length, 1);
+assert.lengthOf(document.querySelectorAll('ol'), 1);
 ```
 
 Debes tener tres elementos `li` dentro de tu elemento `ul`.
 
 ```js
-assert.equal($('ul li').length, 3);
+assert.lengthOf(document.querySelectorAll('ul li'), 3);
 ```
 
 Debes tener tres elementos `li` dentro de tu elemento `ol`.
 
 ```js
-assert.equal($('ol li').length, 3);
+assert.lengthOf(document.querySelectorAll('ol li'), 3);
 ```
 
 Tu elemento `ul` debe tener una etiqueta de cierre.
 
 ```js
-assert(
-  code.match(/<\/ul>/g) &&
-    code.match(/<\/ul>/g).length === code.match(/<ul>/g).length
-);
+assert.match(code,/<\/ul>/g);
+assert.strictEqual(code.match(/<\/ul>/g).length ,code.match(/<ul>/g).length);
 ```
 
 Tu elemento `ol` debe tener una etiqueta de cierre.
 
 ```js
-assert(
-  code.match(/<\/ol>/g) &&
-    code.match(/<\/ol>/g).length === code.match(/<ol>/g).length
-);
+assert.match(code,/<\/ol>/g);
+assert.strictEqual(code.match(/<\/ol>/g).length ,code.match(/<ol>/g).length);
 ```
 
 Tu elemento `li` debe tener una etiqueta de cierre.
 
 ```js
-assert(
-  code.match(/<\/li>/g) &&
-    code.match(/<li>/g) &&
-    code.match(/<\/li>/g).length === code.match(/<li>/g).length
-);
+assert.match(code,/<\/li>/g);
+assert.match(code,/<li>/g);
+assert.strictEqual(code.match(/<\/li>/g).length ,code.match(/<li>/g).length);
 ```
 
 Los elementos `li` de tu lista no ordenada no deben estar vacíos.
 
 ```js
-$('ul li').each((i, val) =>
-  assert(__helpers.removeWhiteSpace(val.textContent))
+[...document.querySelectorAll('ul li')].forEach((val) =>
+  assert.isNotEmpty(__helpers.removeWhiteSpace(val.textContent))
 );
 ```
 
 Los elementos `li` de tu lista ordenada no deben estar vacíos.
 
 ```js
-$('ol li').each((i, val) =>
-  assert(!!__helpers.removeWhiteSpace(val.textContent))
+[...document.querySelectorAll('ol li')].forEach((val) =>
+  assert.isNotEmpty(__helpers.removeWhiteSpace(val.textContent))
 );
 ```
 

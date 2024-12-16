@@ -22,18 +22,23 @@ Man kann die Rundung eines `border-radius` mit einem Pixelwert festlegen. Gib de
 Dein Bildelement sollte eine `thick-green-border` Klasse haben.
 
 ```js
-assert($('img').hasClass('thick-green-border'));
+assert.isTrue(document.querySelector('img').classList.contains('thick-green-border'));
 ```
 
 Dein Bild sollte einen Rahmenradius von `10px` haben.
 
 ```js
-assert(
-  $('img').css('border-top-left-radius') === '10px' &&
-    $('img').css('border-top-right-radius') === '10px' &&
-    $('img').css('border-bottom-left-radius') === '10px' &&
-    $('img').css('border-bottom-right-radius') === '10px'
-);
+const image = document.querySelector('img');
+const style = window.getComputedStyle(image);  
+const borderTopLeftRadius = style['border-top-left-radius']; 
+const borderTopRightRadius = style['border-top-right-radius'];
+const borderBottomLeftRadius = style['border-bottom-left-radius'];
+const borderBottomRightRadius = style['border-bottom-right-radius'];
+
+assert.strictEqual(borderTopLeftRadius, '10px');
+assert.strictEqual(borderTopRightRadius, '10px');
+assert.strictEqual(borderBottomLeftRadius, '10px');
+assert.strictEqual(borderBottomRightRadius, '10px');
 ```
 
 # --seed--

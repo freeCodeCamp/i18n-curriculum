@@ -24,25 +24,27 @@ Descomenta tus elementos `h1`, `h2` y `p`.
 Tu elemento `h1` debe ser visible en la página al descomentarlo.
 
 ```js
-assert($('h1').length > 0);
+assert.notEmpty(document.querySelectorAll('h1'));
 ```
 
 Tu elemento `h2` debe ser visible en la página al descomentarlo.
 
 ```js
-assert($('h2').length > 0);
+assert.notEmpty(document.querySelectorAll('h2'));
 ```
 
 Tu elemento `p` debe ser visible en la página al descomentarlo.
 
 ```js
-assert($('p').length > 0);
+assert.notEmpty(document.querySelectorAll('p'));
 ```
 
 Ninguna etiqueta de cierre de comentario debe ser visible en la página (por ejemplo, `-->`).
 
 ```js
-assert(!$('*:contains("-->")')[1]);
+const elements = document.querySelectorAll('*');
+const potentialComments = Array.from(elements).filter(el => el.textContent.includes('-->'));
+assert.notExists(potentialComments[1])
 ```
 
 # --seed--

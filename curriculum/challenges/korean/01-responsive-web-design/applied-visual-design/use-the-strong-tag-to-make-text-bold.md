@@ -9,7 +9,7 @@ dashedName: use-the-strong-tag-to-make-text-bold
 
 # --description--
 
-To make text bold, you can use the `strong` tag. This is often used to draw attention to text and symbolize that it is important. With the `strong` tag, the browser applies the CSS of `font-weight: bold;` to the element.
+텍스트를 굵게 만들기 위해, `strong`태그를 사용할 수 있습니다 이것은 텍스트에 이목을 끌고 텍스트가 중요하다는 것을 강조하기 위해 종종 쓰입니다. `strong` 태그를 사용하면, 브라우저는 요소에 `font-weight: bold;` CSS를 적용합니다.
 
 # --instructions--
 

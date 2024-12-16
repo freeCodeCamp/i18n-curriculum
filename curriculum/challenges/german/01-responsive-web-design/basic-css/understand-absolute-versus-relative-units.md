@@ -26,18 +26,19 @@ Füge eine `padding`-Eigenschaft zum Element mit der Klasse `red-box` hinzu und 
 Deine Klasse `red-box` sollte eine `padding`-Eigenschaft haben.
 
 ```js
-assert(
-  $('.red-box').css('padding-top') != '0px' &&
-    $('.red-box').css('padding-right') != '0px' &&
-    $('.red-box').css('padding-bottom') != '0px' &&
-    $('.red-box').css('padding-left') != '0px'
-);
+const redBox =document.querySelector('.red-box'); 
+const style = window.getComputedStyle(redBox); 
+
+assert.notEqual(style['padding-top'], '0px');
+assert.notEqual(style['padding-right'], '0px');
+assert.notEqual(style['padding-bottom'], '0px');
+assert.notEqual(style['padding-left'], '0px');
 ```
 
 Deine Klasse `red-box` sollte Elementen einen `padding` von 1.5em zuweisen.
 
 ```js
-assert(code.match(/\.red-box\s*?{[\s\S]*padding\s*:\s*?1\.5em/gi));
+assert.match(__helpers.removeCssComments(code), /\.red-box\s*?{[\s\S]*padding\s*:\s*?1\.5em/gi);
 ```
 
 # --seed--

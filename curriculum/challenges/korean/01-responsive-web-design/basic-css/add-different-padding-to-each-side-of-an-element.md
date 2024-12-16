@@ -22,25 +22,33 @@ CSS는`padding-top`, `padding-right`, `padding-bottom`, 그리고`padding-left` 
 `blue-box` 클래스는 요소 위쪽에 `40px`의 `padding`을 부여해야 합니다.
 
 ```js
-assert($('.blue-box').css('padding-top') === '40px');
+const blueBox = document.querySelector('.blue-box');
+const paddingTop = window.getComputedStyle(blueBox)['padding-top'];
+assert.strictEqual(paddingTop, '40px');
 ```
 
 `blue-box` 클래스는 요소 오른쪽에 `20px`의 `padding`을 부여해야 합니다.
 
 ```js
-assert($('.blue-box').css('padding-right') === '20px');
+const blueBox = document.querySelector('.blue-box');
+const paddingRight = window.getComputedStyle(blueBox)['padding-right'];
+assert.strictEqual(paddingRight, '20px');
 ```
 
 `blue-box` 클래스는 요소 아래쪽에 `20px`의 `padding`을 부여해야 합니다.
 
 ```js
-assert($('.blue-box').css('padding-bottom') === '20px');
+const blueBox = document.querySelector('.blue-box');
+const paddingBottom = window.getComputedStyle(blueBox)['padding-bottom'];
+assert.strictEqual(paddingBottom, '20px');
 ```
 
 `blue-box` 클래스는 요소 왼쪽에 `40px`의 `padding`을 부여해야 합니다.
 
 ```js
-assert($('.blue-box').css('padding-left') === '40px');
+const blueBox = document.querySelector('.blue-box');
+const paddingLeft = window.getComputedStyle(blueBox)['padding-left'];
+assert.strictEqual(paddingLeft, '40px');
 ```
 
 # --seed--

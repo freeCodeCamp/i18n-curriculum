@@ -23,12 +23,10 @@ Parece que en este código se utiliza una variable para establecer el color de f
 Tu regla `.red-box` debe incluir un valor de respaldo o "fallback" con el `background` con un valor de `red`, inmediatamente antes de la declaración `background` existente.
 
 ```js
-assert(
-  code
-    .replace(/\s/g, '')
-    .match(
-      /\.red-box{background:(red|#ff0000|#f00|rgb\(255,0,0\)|rgb\(100%,0%,0%\)|hsl\(0,100%,50%\));background:var\(--red-color\);height:200px;width:200px;}/gi
-    )
+const spacelessCode = __helpers.removeWhiteSpace(__helpers.removeCssComments(code));
+assert.match(
+  spacelessCode,
+  /\.red-box{background:(red|#ff0000|#f00|rgb\(255,0,0\)|rgb\(100%,0%,0%\)|hsl\(0,100%,50%\));background:var\(--red-color\);height:200px;width:200px;}/gi
 );
 ```
 

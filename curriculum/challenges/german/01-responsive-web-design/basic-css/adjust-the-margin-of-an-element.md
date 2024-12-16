@@ -24,7 +24,9 @@ Wenn du die `margin`-Eigenschaft der blauen Box vergrößerst, vergrößert sich
 Deine `blue-box`-Klasse sollte Elementen mittels `margin` einen Außenabstand von `20px` geben.
 
 ```js
-assert($('.blue-box').css('margin-top') === '20px');
+const blueBox = document.querySelector('.blue-box');
+const marginTop = window.getComputedStyle(blueBox)['margin-top'];
+assert.strictEqual(marginTop, '20px');
 ```
 
 # --seed--

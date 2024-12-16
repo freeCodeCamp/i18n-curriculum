@@ -9,9 +9,9 @@ dashedName: use-tabindex-to-add-keyboard-focus-to-an-element
 
 # --description--
 
-The HTML `tabindex` attribute has three distinct functions relating to an element's keyboard focus. When it's on a tag, it indicates that the element can be focused on. The value (an integer that's positive, negative, or zero) determines the behavior.
+HTML `tabindex` 속성은 요소의 키보드 포커스와 연관된 세 가지 다른 기능들을 가지고 있습니다. 태그에 있을 시 그 요소에 초점을 맞출 수 있다는 것을 나타냅니다. 정수 값에 따라 동작이 결정됩니다.
 
-링크, 폼 제어와 같은 특정 요소들은 사용자가 페이지를 탐색할 때 자동으로 키보드 포커스를 받습니다. 순서는 HTML 소스 마크업에 요소들이 오는 순서와 같습니다. `div`, `span`, `p`와 같은 다른 요소들에도 `tabindex="0"` 속성을 적용하면 동일한 기능을 부여할 수 있습니다. Here's an example:
+링크, 폼 제어와 같은 특정 요소들은 사용자가 페이지를 탐색할 때 자동으로 키보드 포커스를 받습니다. 순서는 HTML 소스 마크업에 요소들이 오는 순서와 같습니다. `div`, `span`, `p`와 같은 다른 요소들에도 `tabindex="0"` 속성을 적용하면 동일한 기능을 부여할 수 있습니다. 여기 예시가 있습니다.
 
 ```html
 <div tabindex="0">I need keyboard focus!</div>

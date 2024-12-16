@@ -38,35 +38,38 @@ Recuerda que puedes aplicar múltiples clases a un elemento usando su atributo `
 Tu elemento `img` debe incluir la "class" `smaller-image`.
 
 ```js
-assert($('img').hasClass('smaller-image'));
+assert.isTrue(document.querySelector('img').classList.contains('smaller-image'));
 ```
 
 Tu elemento `img` debe incluir la "class" `thick-green-border`.
 
 ```js
-assert($('img').hasClass('thick-green-border'));
+assert.isTrue(document.querySelector('img').classList.contains('thick-green-border'));
 ```
 
 Tu imagen debe tener un ancho de borde o "border-width" de `10px`.
 
 ```js
-assert(
-  $('img').hasClass('thick-green-border') &&
-    parseInt($('img').css('border-top-width'), 10) >= 8 &&
-    parseInt($('img').css('border-top-width'), 10) <= 12
-);
+const image = document.querySelector('img'); 
+const imageBorderTopWidth = window.getComputedStyle(image)["border-top-width"]; 
+
+assert.strictEqual(imageBorderTopWidth, "10px")
 ```
 
 Tu imagen debe tener un estilo de borde o "border-style" `solid`.
 
 ```js
-assert($('img').css('border-right-style') === 'solid');
+const image = document.querySelector('img'); 
+const borderRightStyle = window.getComputedStyle(image)["border-right-style"]; 
+assert.strictEqual(borderRightStyle, 'solid');
 ```
 
 El borde alrededor de tu elemento `img` debe ser verde.
 
 ```js
-assert($('img').css('border-left-color') === 'rgb(0, 128, 0)');
+const image = document.querySelector('img'); 
+const borderLeftColor = window.getComputedStyle(image)["border-left-color"]; 
+assert.strictEqual(borderLeftColor, 'rgb(0, 128, 0)');
 ```
 
 # --seed--

@@ -9,7 +9,7 @@ dashedName: animate-multiple-elements-at-variable-rates
 
 # --description--
 
-In the previous challenge, you changed the animation rates for two similarly animated elements by altering their `@keyframes` rules. You can achieve the same goal by manipulating the `animation-duration` of multiple elements.
+이전 챌린지에서 `@keyframes` 규칙들을 수정하여 유사하게 애니메이션화된 두 요소들의 에니메이션 속도를 변경했습니다. 여러 요소들의 `animation-duration`을 조작하여 동일한 목표를 달성할 수 있습니다.
 
 코드 편집기에서 실행 중인 애니메이션에서는 하늘에 세 개의 별들이 계속해서 동일한 속도로 반짝입니다. `animation-duration` 속성을 각각의 요소마다 다른 값을 지정해주면 다른 속도로 반짝이게 만들 수 있습니다.
 

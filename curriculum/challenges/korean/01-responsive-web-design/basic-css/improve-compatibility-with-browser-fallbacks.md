@@ -8,7 +8,7 @@ dashedName: improve-compatibility-with-browser-fallbacks
 
 # --description--
 
-When working with CSS you will likely run into browser compatibility issues at some point. This is why it's important to provide browser fallbacks to avoid potential problems.
+CSS로 작업을 할 때 브라우저 호환성 문제가 생길 가능성이 있습니다 잠재적인 문제 발생 가능성을 배제하기 위해 브라우저 fallbacks를 제공하는 것이 중요한 이유입니다.
 
 브라우저가 웹 페이지의 CSS를 파싱할 때, 이것은 브라우저가 인식하지 못하거나 지원하지 않는 모든 속성들을 무시합니다. 예를 들어, 만약 사이트의 배경색에 CSS 변수를 사용한다면 인터넷 익스플로어는 CSS 변수를 지원하지 않기 때문에 그 배경색을 무시할 것입니다. 이 경우 브라우저는 해당 속성에 관련된 어떤 값이든 사용합니다. 만약 속성에 대한 어떤 값도 찾지 못한다면, 일반적으로 적절하지 않을 수도 있을 기본 값을 사용합니다.
 
@@ -23,12 +23,10 @@ When working with CSS you will likely run into browser compatibility issues at s
 `.red-box` 규칙은 기존 `background` 선언 직전에 `background`가 `red`로 설정된 fallback을 포함해야 합니다.
 
 ```js
-assert(
-  code
-    .replace(/\s/g, '')
-    .match(
-      /\.red-box{background:(red|#ff0000|#f00|rgb\(255,0,0\)|rgb\(100%,0%,0%\)|hsl\(0,100%,50%\));background:var\(--red-color\);height:200px;width:200px;}/gi
-    )
+const spacelessCode = __helpers.removeWhiteSpace(__helpers.removeCssComments(code));
+assert.match(
+  spacelessCode,
+  /\.red-box{background:(red|#ff0000|#f00|rgb\(255,0,0\)|rgb\(100%,0%,0%\)|hsl\(0,100%,50%\));background:var\(--red-color\);height:200px;width:200px;}/gi
 );
 ```
 

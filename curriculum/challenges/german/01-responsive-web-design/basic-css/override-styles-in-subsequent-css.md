@@ -34,25 +34,27 @@ Was hingegen wichtig ist, ist die Reihenfolge der `class`-Deklarationen im `<sty
 Dein `h1`-Element sollte die Klasse `pink-text` haben.
 
 ```js
-assert($('h1').hasClass('pink-text'));
+assert.isTrue(document.querySelector('h1').classList.contains('pink-text'));
 ```
 
 Dein `h1`-Element sollte die Klasse `blue-text` haben.
 
 ```js
-assert($('h1').hasClass('blue-text'));
+assert.isTrue(document.querySelector('h1').classList.contains('blue-text'));
 ```
 
 Sowohl `blue-text` als auch `pink-text` sollten zum selben `h1`-Element gehören.
 
 ```js
-assert($('.pink-text').hasClass('blue-text'));
+assert.isTrue(document.querySelector('.pink-text').classList.contains('blue-text'));
 ```
 
 Dein `h1`-Element sollte blau sein.
 
 ```js
-assert($('h1').css('color') === 'rgb(0, 0, 255)');
+const h1Element = document.querySelector('h1');
+const color = window.getComputedStyle(h1Element)['color']; 
+assert.strictEqual(color, 'rgb(0, 0, 255)');
 ```
 
 # --seed--

@@ -36,45 +36,37 @@ Füge danach ein `id`-Attribut mit dem Wert `footer` in das `<footer>`-Element a
 Es sollte nur einen Anker-Tag auf deiner Seite geben.
 
 ```js
-assert($('a').length == 1);
+assert.lengthOf(document.querySelectorAll('a'), 1);
 ```
 
 Es sollte nur ein `footer`-Tag auf deiner Seite vorhanden sein.
 
 ```js
-assert($('footer').length == 1);
+assert.lengthOf(document.querySelectorAll('footer'),1);
 ```
 
 Der `a`-Tag sollte ein `href`-Attribut haben, das auf "#footer" gesetzt ist.
 
 ```js
-assert($('a').eq(0).attr('href') == '#footer');
+assert.strictEqual(document.querySelector('a').getAttribute('href'), '#footer');
 ```
 
 Der `a`-Tag sollte kein `target`-Attribut besitzen.
 
 ```js
-assert(
-  typeof $('a').eq(0).attr('target') == typeof undefined ||
-    $('a').eq(0).attr('target') == true
-);
+assert.notExists(document.querySelector('a').getAttribute('target'));
 ```
 
 Der `a`-Text sollte "Jump to Bottom" lauten.
 
 ```js
-assert(
-  $('a')
-    .eq(0)
-    .text()
-    .match(/Jump to Bottom/gi)
-);
+assert.match(document.querySelector('a').textContent,/Jump to Bottom/gi);
 ```
 
 Der `footer`-Tag sollte ein `id`-Attribut haben, das auf "footer" gesetzt ist.
 
 ```js
-assert($('footer').eq(0).attr('id') == 'footer');
+assert.strictEqual(document.querySelector('footer').getAttribute('id'),'footer');
 ```
 
 # --seed--

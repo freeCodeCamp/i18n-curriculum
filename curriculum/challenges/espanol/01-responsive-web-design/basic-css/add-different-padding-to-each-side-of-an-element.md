@@ -22,25 +22,33 @@ Asigna a la caja azul un `padding` de `40px` en sus lados superior e izquierdo, 
 Tu clase `blue-box` debe asignar al lado superior (top) de los elementos `40px` de `padding`.
 
 ```js
-assert($('.blue-box').css('padding-top') === '40px');
+const blueBox = document.querySelector('.blue-box');
+const paddingTop = window.getComputedStyle(blueBox)['padding-top'];
+assert.strictEqual(paddingTop, '40px');
 ```
 
 Tu clase `blue-box` debe asignar al lado derecho (right) de los elementos `20px` de `padding`.
 
 ```js
-assert($('.blue-box').css('padding-right') === '20px');
+const blueBox = document.querySelector('.blue-box');
+const paddingRight = window.getComputedStyle(blueBox)['padding-right'];
+assert.strictEqual(paddingRight, '20px');
 ```
 
 Tu clase `blue-box` debe asignar al lado inferior (bottom) de los elementos `20px` de `padding`.
 
 ```js
-assert($('.blue-box').css('padding-bottom') === '20px');
+const blueBox = document.querySelector('.blue-box');
+const paddingBottom = window.getComputedStyle(blueBox)['padding-bottom'];
+assert.strictEqual(paddingBottom, '20px');
 ```
 
 Tu clase `blue-box` debe asignar al lado izquierlo (left) de los elementos `40px` de `padding`.
 
 ```js
-assert($('.blue-box').css('padding-left') === '40px');
+const blueBox = document.querySelector('.blue-box');
+const paddingLeft = window.getComputedStyle(blueBox)['padding-left'];
+assert.strictEqual(paddingLeft, '40px');
 ```
 
 # --seed--

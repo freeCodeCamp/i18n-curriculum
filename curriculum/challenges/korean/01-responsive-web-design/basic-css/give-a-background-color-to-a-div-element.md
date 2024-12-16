@@ -28,19 +28,21 @@ dashedName: give-a-background-color-to-a-div-element
 `div` 요소에는 `silver-background` 클래스가 있어야 합니다.
 
 ```js
-assert($('div').hasClass('silver-background'));
+assert.isTrue(document.querySelector('div').classList.contains('silver-background'));
 ```
 
 `div` 요소는 silver 배경색을 갖고 있어야 합니다.
 
 ```js
-assert($('div').css('background-color') === 'rgb(192, 192, 192)');
+const div = document.querySelector('div');
+const backgroundColor = window.getComputedStyle(div)['background-color']; 
+assert.strictEqual(backgroundColor, 'rgb(192, 192, 192)');
 ```
 
 `silver-background` 클래스는 `style` 요소 내에서 정의되어야 하며, `background-color` 속성에는 `silver`의 값이 할당되어야 합니다.
 
 ```js
-assert(code.match(/\.silver-background\s*{\s*background-color\s*:\s*silver\s*;?\s*}/));
+assert.match(__helpers.removeHtmlComments(code), /\.silver-background\s*{\s*background-color\s*:\s*silver\s*;?\s*}/);
 ```
 
 # --seed--
