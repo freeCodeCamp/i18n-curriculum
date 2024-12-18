@@ -22,25 +22,19 @@ dashedName: use-css-variables-to-change-several-elements-at-once
 Клас `penguin` повинен задати змінну `--penguin-skin` і надати їй значення `gray`.
 
 ```js
-assert(
-  code.match(/.penguin\s*?{[\s\S]*--penguin-skin\s*?:\s*?gray\s*?;[\s\S]*}/gi)
-);
+assert.match(__helpers.removeHtmlComments(code), /.penguin\s*?{[\s\S]*--penguin-skin\s*?:\s*?gray\s*?;[\s\S]*}/gi);
 ```
 
 Клас `penguin` повинен задати змінну `--penguin-belly` та надати їй значення `white`.
 
 ```js
-assert(
-  code.match(/.penguin\s*?{[\s\S]*--penguin-belly\s*?:\s*?white\s*?;[\s\S]*}/gi)
-);
+assert.match(code, /.penguin\s*?{[\s\S]*--penguin-belly\s*?:\s*?white\s*?;[\s\S]*}/gi);
 ```
 
 Клас `penguin` повинен задати змінну `--penguin-beak` та надати їй значення `orange`.
 
 ```js
-assert(
-  code.match(/.penguin\s*?{[\s\S]*--penguin-beak\s*?:\s*?orange\s*?;[\s\S]*}/gi)
-);
+assert.match(code, /.penguin\s*?{[\s\S]*--penguin-beak\s*?:\s*?orange\s*?;[\s\S]*}/gi);
 ```
 
 # --seed--

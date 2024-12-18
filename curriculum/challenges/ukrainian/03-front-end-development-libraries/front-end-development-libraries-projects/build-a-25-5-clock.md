@@ -72,7 +72,7 @@ dashedName: build-a-25--5-clock
 
 **Історія користувача №28:** аудіоелемент з id зі значенням `beep` має зупинитись та перемотатись напочаток, якщо натиснути елемент з id зі значенням `reset`.
 
-Ви можете створити свій проєкт, <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">використавши цей шаблон CodePen</a> та натиснувши `Save`. Або ж ви можете скористатися цим посиланням CDN, щоб виконати тести в будь-якому середовищі: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
+Ви можете створити свій проєкт, <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">використавши цей шаблон CodePen</a> та натиснувши `Save`. If you prefer to use another environment, then put this `<script>` tag into the body of your `index.html` file: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
 
 Як тільки закінчите, надайте посилання на свій проєкт з усіма пройденими тестами.
 

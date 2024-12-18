@@ -28,22 +28,20 @@ You can use `a` (*anchor*) elements to link to content outside of your web page.
 Ваш елемент `a` має містити якірний текст `cat photos`.
 
 ```js
-assert(/cat photos/gi.test($('a').text()));
+assert.match(document.querySelector('a').textContent,/cat photos/gi);
 ```
 
 Вам потрібен елемент `a`, що покликається на `https://www.freecatphotoapp.com`
 
 ```js
-assert(/^https?:\/\/(www\.)?freecatphotoapp\.com\/?$/i.test($('a').attr('href')));
+assert.match(document.querySelector('a').getAttribute('href'),/^https?:\/\/(www\.)?freecatphotoapp\.com\/?$/i);
 ```
 
 Елемент `a` повинен мати кінцевий тег.
 
 ```js
-assert(
-  code.match(/<\/a>/g) &&
-    code.match(/<\/a>/g).length === code.match(/<a/g).length
-);
+assert.match(code,/<\/a>/g);
+assert.strictEqual(code.match(/<\/a>/g).length,code.match(/<a/g).length);
 ```
 
 # --seed--

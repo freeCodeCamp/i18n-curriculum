@@ -26,28 +26,32 @@ The `div` element, also known as a division element, is a general purpose contai
 Елементи `p` повинні бути вкладені в елемент `div`.
 
 ```js
-assert($('div').children('p').length > 1);
+const div = document.querySelector('div');
+const children = div.querySelectorAll('p');
+assert.isAbove(children.length,1);
 ```
 
 Елемент `ul` повинен бути вкладеним в елемент `div`.
 
 ```js
-assert($('div').children('ul').length > 0);
+const div = document.querySelector('div');
+const children = div.querySelectorAll('ul');
+assert.notEmpty(children);
 ```
 
 Елемент `ol` повинен бути вкладений в елемент `div`.
 
 ```js
-assert($('div').children('ol').length > 0);
+const div = document.querySelector('div');
+const children = div.querySelectorAll('ol');
+assert.notEmpty(children);
 ```
 
 Елемент `div` повинен мати кінцевий тег.
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div>/g).length
-);
+assert.match(code,/<\/div>/g);
+assert.strictEqual(code.match(/<\/div>/g).length,code.match(/<div>/g).length);
 ```
 
 # --seed--

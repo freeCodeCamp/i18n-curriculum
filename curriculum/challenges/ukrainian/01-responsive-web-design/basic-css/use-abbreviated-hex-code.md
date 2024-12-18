@@ -26,49 +26,57 @@ Many people feel overwhelmed by the possibilities of more than 16 million colors
 Ваш `h1` елемент з текстом `I am red!` має демонструватися `color` червоним кольором.
 
 ```js
-assert($('.red-text').css('color') === 'rgb(255, 0, 0)');
+const redText = document.querySelector('.red-text');
+const color = window.getComputedStyle(redText)['color']; 
+assert.strictEqual(color, 'rgb(255, 0, 0)');
 ```
 
 Замість повного шістнадцяткового коду `#FF0000` для червоного кольору потрібно використати абревіатуру.
 
 ```js
-assert(code.match(/\.red-text\s*?{\s*?color\s*:\s*?#F00\s*?;?\s*?}/gi));
+assert.match(code,/\.red-text\s*?{\s*?color\s*:\s*?#F00\s*?;?\s*?}/gi);
 ```
 
 Ваш `h1` елемент з текстом `I am green!` має демонструватися `color` зеленим кольором.
 
 ```js
-assert($('.green-text').css('color') === 'rgb(0, 255, 0)');
+const greenText = document.querySelector('.green-text');
+const color = window.getComputedStyle(greenText)['color']; 
+assert.strictEqual(color, 'rgb(0, 255, 0)');
 ```
 
 Замість повного шістнадцяткового коду `#00FF00` для зеленого кольору потрібно використати абревіатуру.
 
 ```js
-assert(code.match(/\.green-text\s*?{\s*?color\s*:\s*?#0F0\s*?;?\s*?}/gi));
+assert.match(__helpers.removeCssComments(code), /\.green-text\s*?{\s*?color\s*:\s*?#0F0\s*?;?\s*?}/gi);
 ```
 
 Ваш `h1` елемент з текстом `I am cyan!` має демонструватися `color` блакитним кольором.
 
 ```js
-assert($('.cyan-text').css('color') === 'rgb(0, 255, 255)');
+const cyanText = document.querySelector('.cyan-text');
+const color = window.getComputedStyle(cyanText)['color']; 
+assert.strictEqual(color, 'rgb(0, 255, 255)');
 ```
 
 Замість повного шістнадцяткового коду `#00FFFF` для блакитного кольору потрібно використати абревіатуру.
 
 ```js
-assert(code.match(/\.cyan-text\s*?{\s*?color\s*:\s*?#0FF\s*?;?\s*?}/gi));
+assert.match(__helpers.removeCssComments(code), /\.cyan-text\s*?{\s*?color\s*:\s*?#0FF\s*?;?\s*?}/gi);
 ```
 
 Ваш `h1` елемент з текстом `I am fuchsia!` має демонструватися `color` кольором фуксія.
 
 ```js
-assert($('.fuchsia-text').css('color') === 'rgb(255, 0, 255)');
+const fuchsiaText = document.querySelector('.fuchsia-text');
+const color = window.getComputedStyle(fuchsiaText)['color']; 
+assert.strictEqual(color,'rgb(255, 0, 255)');
 ```
 
 Замість повного шістнадцяткового коду `#FF00FF` для кольору фуксія потрібно використати абревіатуру.
 
 ```js
-assert(code.match(/\.fuchsia-text\s*?{\s*?color\s*:\s*?#F0F\s*?;?\s*?}/gi));
+assert.match(__helpers.removeCssComments(code), /\.fuchsia-text\s*?{\s*?color\s*:\s*?#F0F\s*?;?\s*?}/gi);
 ```
 
 # --seed--

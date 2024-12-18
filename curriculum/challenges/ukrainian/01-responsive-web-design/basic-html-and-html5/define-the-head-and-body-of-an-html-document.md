@@ -39,14 +39,16 @@ You can add another level of organization in your HTML document within the `html
 
 ```js
 const headElems = code.replace(/\n/g, '').match(/\<head\s*>.*?\<\/head\s*>/g);
-assert(headElems && headElems.length === 1);
+assert.exists(headElems); 
+assert.lengthOf(headElems,1);
 ```
 
 На сторінці повинен бути тільки один елемент `body`.
 
 ```js
 const bodyElems = code.replace(/\n/g, '').match(/<body\s*>.*?<\/body\s*>/g);
-assert(bodyElems && bodyElems.length === 1);
+assert.exists(bodyElems); 
+assert.lengthOf(bodyElems,1);
 ```
 
 Елемент `head` повинен бути потоком елементу `html`.
@@ -61,7 +63,7 @@ if (htmlChildren) {
 
   foundHead = children.match(/<head\s*>.*<\/head\s*>/);
 }
-assert(foundHead);
+assert.exists(foundHead);
 ```
 
 Елемент `body` має бути потоком елементу `html`.
@@ -75,7 +77,7 @@ if (htmlChildren) {
   const { children } = htmlChildren.groups;
   foundBody = children.match(/<body\s*>.*<\/body\s*>/);
 }
-assert(foundBody);
+assert.exists(foundBody);
 ```
 
 Елемент `head` повинен міститися навколо елементу `title`.
@@ -89,7 +91,7 @@ if (headChildren) {
   const { children } = headChildren.groups;
   foundTitle = children.match(/<title\s*>.*?<\/title\s*>/);
 }
-assert(foundTitle);
+assert.exists(foundTitle);
 ```
 
 Елемент `body` повинен міститися навколо обох елементів `h1` та `p`.
@@ -107,7 +109,7 @@ if (bodyChildren) {
   const numPs = ps ? ps.length : 0;
   foundElems = numH1s === 1 && numPs === 1;
 }
-assert(foundElems);
+assert.exists(foundElems);
 ```
 
 # --seed--

@@ -31,7 +31,10 @@ Sometimes the flex items within a flex container do not fill all the space in th
 Елемент `#box-container` повинен мати властивість `justify-content` зі значенням `center`.
 
 ```js
-assert($('#box-container').css('justify-content') == 'center');
+const boxContainer = document.querySelector('#box-container');
+const justifyDirection =
+  window.getComputedStyle(boxContainer)['justify-content'];
+assert.strictEqual(justifyDirection, 'center');
 ```
 
 # --seed--

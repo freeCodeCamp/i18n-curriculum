@@ -22,13 +22,17 @@ The final property for flex items is `align-self`. This property allows you to a
 Елемент `#box-1` повинен мати властивість `align-self` зі значенням `center`.
 
 ```js
-assert($('#box-1').css('align-self') == 'center');
+const boxOne = document.querySelector('#box-1');
+const alignment = window.getComputedStyle(boxOne)['align-self'];
+assert.strictEqual(alignment, 'center');
 ```
 
 Елемент `#box-2` повинен мати властивість `align-self` зі значенням `flex-end`.
 
 ```js
-assert($('#box-2').css('align-self') == 'flex-end');
+const boxTwo = document.querySelector('#box-2');
+const alignment = window.getComputedStyle(boxTwo)['align-self'];
+assert.strictEqual(alignment, 'flex-end');
 ```
 
 # --seed--

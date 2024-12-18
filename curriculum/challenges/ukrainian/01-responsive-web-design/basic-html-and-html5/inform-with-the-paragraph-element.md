@@ -28,22 +28,20 @@ The `p` element is the preferred element for paragraph text on websites. `p` is 
 Ваш код повинен містити правильний елемент `p`.
 
 ```js
-assert($('p').length > 0);
+assert.lengthOf(document.querySelectorAll('p'),1);
 ```
 
 Ваш елемент `p` повинен містити текст `Hello Paragraph`.
 
 ```js
-assert.isTrue(/hello(\s)+paragraph/gi.test($('p').text()));
+assert.match(document.querySelector('p').textContent,/hello(\s)+paragraph/gi);
 ```
 
 Елемент `p` повинен мати кінцевий тег.
 
 ```js
-assert(
-  code.match(/<\/p>/g) &&
-    code.match(/<\/p>/g).length === code.match(/<p/g).length
-);
+assert.match(code,/<\/p>/g);
+assert.strictEqual(code.match(/<\/p>/g).length,code.match(/<p/g).length);
 ```
 
 # --seed--

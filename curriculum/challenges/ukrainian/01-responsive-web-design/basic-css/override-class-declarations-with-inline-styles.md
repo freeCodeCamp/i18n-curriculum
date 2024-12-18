@@ -28,31 +28,33 @@ So we've proven that id declarations override class declarations, regardless of 
 Елемент `h1` повинен мати клас `pink-text`.
 
 ```js
-assert($('h1').hasClass('pink-text'));
+assert.isTrue(document.querySelector('h1').classList.contains('pink-text'));
 ```
 
 Елемент `h1` повинен мати клас `blue-text`.
 
 ```js
-assert($('h1').hasClass('blue-text'));
+assert.isTrue(document.querySelector('h1').classList.contains('blue-text'));
 ```
 
 Елемент `h1` повинен мати id `orange-text`.
 
 ```js
-assert($('h1').attr('id') === 'orange-text');
+assert.strictEqual(document.querySelector('h1').getAttribute('id'), 'orange-text');
 ```
 
 Елемент `h1` повинен мати вбудований стиль.
 
 ```js
-assert(document.querySelector('h1[style]'));
+assert.exists(document.querySelector('h1[style]'));
 ```
 
 Елемент `h1` повинен бути білим.
 
 ```js
-assert($('h1').css('color') === 'rgb(255, 255, 255)');
+const h1Element = document.querySelector('h1');
+const color = window.getComputedStyle(h1Element)['color']; 
+assert.strictEqual(color, 'rgb(255, 255, 255)');
 ```
 
 # --seed--

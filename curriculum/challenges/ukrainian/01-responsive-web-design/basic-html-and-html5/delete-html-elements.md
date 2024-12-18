@@ -22,19 +22,20 @@ Our phone doesn't have much vertical space.
 Елемент `h1` слід видалити.
 
 ```js
-assert(!code.match(/<h1>/gi) && !code.match(/<\/h1>/gi));
+assert.notMatch(code,/<h1>/gi);
+assert.notMatch(code,/<\/h1>/gi);
 ```
 
 Елемент `h2` має бути на сторінці.
 
 ```js
-assert(code.match(/<h2>[\w\W]*<\/h2>/gi));
+assert.match(code,/<h2>[\w\W]*<\/h2>/gi);
 ```
 
 Елемент `p` має бути на сторінці.
 
 ```js
-assert(code.match(/<p>[\w\W]*<\/p>/gi));
+assert.match(code,/<p>[\w\W]*<\/p>/gi);
 ```
 
 # --seed--

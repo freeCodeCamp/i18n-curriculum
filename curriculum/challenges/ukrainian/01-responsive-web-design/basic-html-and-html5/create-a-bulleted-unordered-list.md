@@ -33,39 +33,35 @@ HTML has a special element for creating <dfn>unordered lists</dfn>, or bullet po
 Створіть елемент `ul`.
 
 ```js
-assert($('ul').length > 0);
+assert.isNotEmpty(document.querySelectorAll('ul'));
 ```
 
 У вас має бути три елементи `li` всередині вашого елементу `ul`.
 
 ```js
-assert($('ul li').length > 2);
+assert.lengthOf(document.querySelectorAll('ul li'),3);
 ```
 
 Елемент `ul` повинен мати кінцевий тег.
 
 ```js
-assert(
-  code.match(/<\/ul>/gi) &&
-    code.match(/<ul/gi) &&
-    code.match(/<\/ul>/gi).length === code.match(/<ul/gi).length
-);
+assert.match(code,/<\/ul>/gi);
+assert.match(code,/<ul/gi);
+assert.strictEqual(code.match(/<\/ul>/gi).length,code.match(/<ul/gi).length);
 ```
 
 Елементи `li` повинні мати кінцеві теги.
 
 ```js
-assert(
-  code.match(/<\/li>/gi) &&
-    code.match(/<li[\s>]/gi) &&
-    code.match(/<\/li>/gi).length === code.match(/<li[\s>]/gi).length
-);
+assert.match(code,/<\/li>/gi);
+assert.match(code,/<li[\s>]/gi);
+assert.strictEqual(code.match(/<\/li>/gi).length,code.match(/<li[\s>]/gi).length);
 ```
 
 Ваші елементи `li` не повинні містити порожній рядок чи навіть пробіли.
 
 ```js
-assert($('ul li').filter((_, item) => !$(item).text().trim()).length === 0);
+assert.isEmpty([...document.querySelectorAll('ul li')].filter((item) => item.textContent.trim() === ""));
 ```
 
 # --seed--

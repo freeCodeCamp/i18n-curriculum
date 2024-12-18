@@ -34,37 +34,33 @@ Forms commonly use <dfn>checkboxes</dfn> for questions that may have more than o
 Ваша сторінка повинна мати три елементи прапорця.
 
 ```js
-assert($('input[type="checkbox"]').length > 2);
+assert.lengthOf(document.querySelectorAll('input[type="checkbox"]'),3);
 ```
 
 Кожен з ваших трьох прапорців повинен бути вкладеним у рамках власного елементу `label`.
 
 ```js
-assert($('label > input[type="checkbox"]:only-child').length > 2);
+assert.lengthOf(document.querySelectorAll('label > input[type="checkbox"]:only-child'),3);
 ```
 
 Переконайтеся, що кожен з ваших елементів `label` має тег, що закривається.
 
 ```js
-assert(
-  code.match(/<\/label>/g) &&
-    code.match(/<label/g) &&
-    code.match(/<\/label>/g).length === code.match(/<label/g).length
-);
+assert.match(code,/<\/label>/g);
+assert.match(code,/<label/g);
+assert.strictEqual(code.match(/<\/label>/g).length,code.match(/<label/g).length)
 ```
 
 Вашим прапорцям варто вказати атрибут `name` з `personality`.
 
 ```js
-assert(
-  $('label > input[type="checkbox"]').filter('[name="personality"]').length > 2
-);
+assert.lengthOf([...document.querySelectorAll('label > input[type="checkbox"]')].filter(x => x.name === "personality"),3);
 ```
 
 Кожному з ваших прапорців слід додати всередині тег `form`.
 
 ```js
-assert($('label').parent().get(0).tagName.match('FORM'));
+assert.strictEqual(document.querySelector('label').parentNode.tagName,'FORM');
 ```
 
 # --seed--

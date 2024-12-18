@@ -30,23 +30,22 @@ body {
 Елемент `body` повинен мати чорний `background-color`.
 
 ```js
-assert($('body').css('background-color') === 'rgb(0, 0, 0)');
+const body = document.querySelector('body');
+const backgroundColor = window.getComputedStyle(body)['background-color'];
+
+assert.strictEqual(backgroundColor, 'rgb(0, 0, 0)');
 ```
 
 Правило CSS має бути належним чином відформатовано; з фігурними дужками, що його відкривають і закривають.
 
 ```js
-assert(
-  code.match(/<style>\s*body\s*\{\s*background.*\s*:\s*.*;\s*\}\s*<\/style>/i)
-);
+assert.match(code, /<style>\s*body\s*\{\s*background.*\s*:\s*.*;\s*\}\s*<\/style>/i);
 ```
 
 CSS-правило має закінчуватися крапкою з комою.
 
 ```js
-assert(
-  code.match(/<style>\s*body\s*\{\s*background.*\s*:\s*.*;\s*\}\s*<\/style>/i)
-);
+assert.match(code, /<style>\s*body\s*\{\s*background.*\s*:\s*.*;\s*\}\s*<\/style>/i);
 ```
 
 # --seed--

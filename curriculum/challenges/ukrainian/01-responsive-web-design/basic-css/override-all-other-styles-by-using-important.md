@@ -32,39 +32,41 @@ color: red !important;
 Елемент `h1` повинен мати клас `pink-text`.
 
 ```js
-assert($('h1').hasClass('pink-text'));
+assert.isTrue(document.querySelector('h1').classList.contains('pink-text'));
 ```
 
 Елемент `h1` повинен мати клас `blue-text`.
 
 ```js
-assert($('h1').hasClass('blue-text'));
+assert.isTrue(document.querySelector('h1').classList.contains('blue-text'));
 ```
 
 Елемент `h1` повинен мати `id` з `orange-text`.
 
 ```js
-assert($('h1').attr('id') === 'orange-text');
+assert.strictEqual(document.querySelector('h1').getAttribute('id'), 'orange-text');
 ```
 
 Елемент `h1` повинен мати вбудований стиль `color: white`.
 
 ```js
-assert(code.match(/<h1.*style/gi) && code.match(/<h1.*style.*color\s*?:/gi));
+const commentessCode = __helpers.removeHtmlComments(code);
+assert.match(commentessCode, /<h1.*style/gi);
+assert.match(commentessCode, /<h1.*style.*color\s*?:/gi);
 ```
 
 Об'ява класу `pink-text` повинна мати ключове слово `!important`, щоб замінити усі інші об'яви.
 
 ```js
-assert(
-  code.match(/\.pink-text\s*?\{[\s\S]*?color:.*pink.*!important\s*;?[^\.]*\}/g)
-);
+assert.match(__helpers.removeCssComments(code), /\.pink-text\s*?\{[\s\S]*?color:.*pink.*!important\s*;?[^\.]*\}/g);
 ```
 
 Елемент `h1` має бути рожевим.
 
 ```js
-assert($('h1').css('color') === 'rgb(255, 192, 203)');
+const h1Element = document.querySelector('h1');
+const color = window.getComputedStyle(h1Element)['color'];
+assert.strictEqual(color, 'rgb(255, 192, 203)');
 ```
 
 # --seed--

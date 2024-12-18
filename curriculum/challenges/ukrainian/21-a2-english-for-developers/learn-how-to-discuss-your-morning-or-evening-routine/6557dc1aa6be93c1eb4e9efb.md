@@ -11,43 +11,42 @@ dashedName: task-29
 
 Слово `if` часто використовується в умовних реченнях для опису можливої ситуації та її наслідків. Наприклад:
 
-`If it rains, I will bring an umbrella.` (Рішення взяти з собою парасольку залежить від ймовірності дощу.)
-
-`If you need help, just ask.` (Пропозиція допомоги можлива лише за умови, що її потребує інша людина.)
+* `If it rains, I will bring an umbrella.` (The action of bringing an umbrella depends on the possibility of rain.)
+* `If you need help, just ask.` (The offer to help is conditional on the other person needing it.)
 
 # --questions--
 
 ## --text--
 
-Що має на увазі Сара, використовуючи `if` у своєму реченні про перевірку електронних листів та повідомлень?
+What does Sarah imply by using `if` in her statement about checking emails and messages?
 
 ## --answers--
 
-Вона завжди отримує невідкладні повідомлення від своєї команди
+She always finds urgent updates from her team
 
 ### --feedback--
 
-`If` вказує на те, що ви ймовірно отримаєте невідкладні повідомлення.
+`If` doesn't suggest certainty of finding urgent updates.
 
 ---
 
-Інколи бувають невідкладні повідомлення, інколи - ні
+Sometimes there are urgent updates, sometimes not
 
 ---
 
-Вона ніколи не перевіряє свою електронну пошту та повідомлення
+She never checks her emails and messages
 
 ### --feedback--
 
-Сара стверджує, що вона перевіряє свою електронну пошту та повідомлення.
+Sarah actually states that she does check her emails and messages.
 
 ---
 
-Перевірка електронної пошти не входить у її рутину
+Checking emails is not part of her routine
 
 ### --feedback--
 
-Сара зазначає, що перевірка електронної пошти та повідомлень є частиною її повсякденного життя.
+Sarah mentions that checking emails and messages is part of her routine.
 
 ## --video-solution--
 

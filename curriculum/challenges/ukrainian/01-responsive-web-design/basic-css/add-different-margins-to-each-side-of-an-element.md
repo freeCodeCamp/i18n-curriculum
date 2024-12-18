@@ -22,25 +22,33 @@ CSS дозволяє контролювати `margin` усіх чотирьох
 Клас `blue-box` повинен надати елементам `margin` зі значенням `40px` зверху.
 
 ```js
-assert($('.blue-box').css('margin-top') === '40px');
+const blueBox = document.querySelector('.blue-box');
+const marginTop = window.getComputedStyle(blueBox)['margin-top'];
+assert.strictEqual(marginTop, '40px');
 ```
 
 Клас `blue-box` повинен надати елементам `margin` зі значенням `20px` справа.
 
 ```js
-assert($('.blue-box').css('margin-right') === '20px');
+const blueBox = document.querySelector('.blue-box');
+const marginRight = window.getComputedStyle(blueBox)['margin-right'];
+assert.strictEqual(marginRight, '20px');
 ```
 
 Клас `blue-box` повинен надати елементам `margin` зі значенням `20px` знизу.
 
 ```js
-assert($('.blue-box').css('margin-bottom') === '20px');
+const blueBox = document.querySelector('.blue-box');
+const marginBottom = window.getComputedStyle(blueBox)['margin-bottom'];
+assert.strictEqual(marginBottom, '20px');
 ```
 
 Клас `blue-box` повинен надати елементам `margin` зі значенням `40px` зліва.
 
 ```js
-assert($('.blue-box').css('margin-left') === '40px');
+const blueBox = document.querySelector('.blue-box');
+const marginLeft = window.getComputedStyle(blueBox)['margin-left'];
+assert.strictEqual(marginLeft,'40px');
 ```
 
 # --seed--

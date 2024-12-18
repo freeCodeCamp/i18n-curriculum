@@ -30,7 +30,7 @@ Note that `input` is a void element.
 Ваш додаток має містити елемент `input` типу `text`.
 
 ```js
-assert($('input[type=text]').length > 0);
+assert.isNotEmpty(document.querySelectorAll('input[type=text]'));
 ```
 
 # --seed--

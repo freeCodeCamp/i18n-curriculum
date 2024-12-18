@@ -25,12 +25,12 @@ dashedName: build-a-palindrome-checker
 1. Якщо елемент `#text-input` містить текст `_eye` та натиснути на елемент `#check-btn`, то елемент `#result` повинен містити текст `"_eye is a palindrome"`.
 1. Якщо елемент `#text-input` містить текст `race car` та натиснути на елемент `#check-btn`, то елемент `#result` повинен містити текст `"race car is a palindrome"`.
 1. Якщо елемент `#text-input` містить текст `not a palindrome` та натиснути на елемент `#check-btn`, то елемент `#result` повинен містити текст `"not a palindrome is not a palindrome"`.
-1. Якщо елемент `#text-input` містить текст `A man, a plan, a canal. Panama` та натиснути на елемент `#check-btn`, то елемент `#result` повинен містити текст `"A man, a plan, a canal. Panama is a palindrome"`.
+1. When the `#text-input` element contains the text `A man, a plan, a canal. Panama` and the `#check-btn` element is clicked, the `#result` element should contain the text `"A man, a plan, a canal. Panama is a palindrome"`.
 1. Якщо елемент `#text-input` містить текст `never odd or even` та натиснути на елемент `#check-btn`, то елемент `#result` повинен містити текст `"never odd or even is a palindrome"`.
 1. Якщо елемент `#text-input` містить текст `nope` та натиснути на елемент `#check-btn`, то елемент `#result` повинен містити текст `"nope is not a palindrome"`.
 1. Якщо елемент `#text-input` містить текст `almostomla` та натиснути на елемент `#check-btn`, то елемент `#result` повинен містити текст `"almostomla is not a palindrome"`.
 1. Якщо елемент `#text-input` містить текст `My age is 0, 0 si ega ym.` та натиснути на елемент `#check-btn`, то елемент `#result` повинен містити текст `"My age is 0, 0 si ega ym. is a palindrome"`.
-1. Якщо елемент `#text-input` містить текст `1 eye for of 1 eye.` та натиснути на елемент `#check-btn`, то елемент `#result` повинен містити текст `"1 eye for of 1 eye. is not a palindrome"`.
+1. When the `#text-input` element contains the text `1 eye for of 1 eye.` and the `#check-btn` element is clicked, the `#result` element should contain the text `"1 eye for of 1 eye. is not a palindrome"`.
 1. Якщо елемент `#text-input` містить текст `0_0 (: /-\ :) 0-0` та натиснути на елемент `#check-btn`, то елемент `#result` повинен містити текст `"0_0 (: /-\ :) 0-0 is a palindrome"`.
 1. Якщо елемент `#text-input` містить текст `five|\_/|four` та натиснути на елемент `#check-btn`, то елемент `#result` повинен містити текст `"five|\_/|four is not a palindrome"`.
 
@@ -138,7 +138,7 @@ checkBtn.click();
 assert.strictEqual(resultEl.innerText.trim().replace(/[.,?!]+$/g, '').toLowerCase(), 'not a palindrome is not a palindrome');
 ```
 
-Якщо елемент `#text-input` містить текст `A man, a plan, a canal. Panama` та натиснути на елемент `#check-btn`, то елемент `#result` повинен містити текст `"A man, a plan, a canal. Panama is a palindrome"`.
+When the `#text-input` element contains the text `A man, a plan, a canal. Panama` and the `#check-btn` element is clicked, the `#result` element should contain the text `"A man, a plan, a canal. Panama is a palindrome"`.
 
 ```js
 const inputEl = document.getElementById('text-input');
@@ -203,7 +203,7 @@ checkBtn.click();
 assert.strictEqual(resultEl.innerText.trim().replace(/[.,?!]+$/g, '').toLowerCase(), 'my age is 0, 0 si ega ym. is a palindrome');
 ```
 
-Якщо елемент `#text-input` містить текст `1 eye for of 1 eye.` та натиснути на елемент `#check-btn`, то елемент `#result` повинен містити текст `"1 eye for of 1 eye. is not a palindrome"`.
+When the `#text-input` element contains the text `1 eye for of 1 eye.` and the `#check-btn` element is clicked, the `#result` element should contain the text `"1 eye for of 1 eye. is not a palindrome"`.
 
 ```js
 const inputEl = document.getElementById('text-input');
