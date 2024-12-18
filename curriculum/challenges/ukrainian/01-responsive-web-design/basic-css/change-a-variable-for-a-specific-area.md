@@ -22,17 +22,13 @@ When you create your variables in `:root` they will set the value of that variab
 Клас `penguin` повинен перерозподілити змінну `--penguin-belly` і надати їй значення `white`.
 
 ```js
-assert(
-  code.match(/\.penguin\s*?{[\s\S]*--penguin-belly\s*?:\s*?white\s*?;[\s\S]*}/gi)
-);
+assert.match(__helpers.removeCssComments(code), /\.penguin\s*?{[\s\S]*--penguin-belly\s*?:\s*?white\s*?;[\s\S]*}/gi);
 ```
 
 Клас `penguin` не повинен містити властивість `background-color`.
 
 ```js
-assert(
-  code.match(/^((?!background-color\s*?:\s*?)[\s\S])*$/g)
-);
+assert.match(__helpers.removeCssComments(code), /^((?!background-color\s*?:\s*?)[\s\S])*$/g);
 ```
 
 

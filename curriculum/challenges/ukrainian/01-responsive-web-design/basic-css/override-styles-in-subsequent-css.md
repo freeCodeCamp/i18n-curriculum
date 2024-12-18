@@ -34,25 +34,27 @@ class="class1 class2"
 Елемент `h1` повинен мати клас `pink-text`.
 
 ```js
-assert($('h1').hasClass('pink-text'));
+assert.isTrue(document.querySelector('h1').classList.contains('pink-text'));
 ```
 
 Елемент `h1` повинен мати клас `blue-text`.
 
 ```js
-assert($('h1').hasClass('blue-text'));
+assert.isTrue(document.querySelector('h1').classList.contains('blue-text'));
 ```
 
 Обидва класи `blue-text` та `pink-text` повинні належати одному елементу `h1`.
 
 ```js
-assert($('.pink-text').hasClass('blue-text'));
+assert.isTrue(document.querySelector('.pink-text').classList.contains('blue-text'));
 ```
 
 Елемент `h1` повинен бути синім.
 
 ```js
-assert($('h1').css('color') === 'rgb(0, 0, 255)');
+const h1Element = document.querySelector('h1');
+const color = window.getComputedStyle(h1Element)['color']; 
+assert.strictEqual(color, 'rgb(0, 0, 255)');
 ```
 
 # --seed--

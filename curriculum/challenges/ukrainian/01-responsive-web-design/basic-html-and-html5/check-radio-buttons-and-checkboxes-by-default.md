@@ -26,13 +26,13 @@ You can set a checkbox or radio button to be checked by default using the `check
 Перша радіокнопка у вашій формі має бути ввімкненою автоматично.
 
 ```js
-assert($('input[type="radio"]').prop('checked'));
+assert.isTrue(document.querySelector('input[type="radio"]').checked);
 ```
 
 Перший прапорець у вашій формі має бути ввімкнений автоматично.
 
 ```js
-assert($('input[type="checkbox"]').prop('checked'));
+assert.isTrue(document.querySelector('input[type="checkbox"]').checked);
 ```
 
 Ви не маєте змінювати текст всередині позначки `Indoor`.

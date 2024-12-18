@@ -43,39 +43,38 @@ With CSS, there are hundreds of CSS properties that you can use to change the wa
 Атрибут `style` слід видалити з елементу `h2`.
 
 ```js
-assert(!$('h2').attr('style'));
+assert.notExists(document.querySelector('h2').getAttribute('style'));
 ```
 
 Створіть елемент `style`.
 
 ```js
-assert($('style') && $('style').length >= 1);
+assert.exists(document.querySelector('style:not(.fcc-hide-header)'));
+assert.isAtLeast(document.querySelectorAll('style:not(.fcc-hide-header)').length, 1);
 ```
 
 Елемент `h2` має бути синім.
 
 ```js
-assert($('h2').css('color') === 'rgb(0, 0, 255)');
+const h2Element = document.querySelector('h2');
+const color = window.getComputedStyle(h2Element)['color']; 
+assert.strictEqual(color, 'rgb(0, 0, 255)');
 ```
 
 Ваша таблиця стилів `h2` має бути завершена крапкою з комою і закритою дужкою.
 
 ```js
-assert(code.match(/h2\s*\{\s*color\s*:.*;\s*\}/g));
+assert.match(__helpers.removeCssComments(code), /h2\s*\{\s*color\s*:.*;\s*\}/g);
 ```
 
 Всі елементи `style` повинні бути дійсними та мати кінцеві теги.
 
 ```js
-assert(
-  code.match(/<\/style>/g) &&
-    code.match(/<\/style>/g).length ===
-      (
-        code.match(
-          /<style((\s)*((type|media|scoped|title|disabled)="[^"]*")?(\s)*)*>/g
-        ) || []
-      ).length
-);
+assert.match(__helpers.removeHtmlComments(code), /<\/style>/g);
+
+const closingElementLength = __helpers.removeHtmlComments(code).match(/<\/style>/g).length;
+const openingElementsLength = __helpers.removeHtmlComments(code).match(/<style((\s)*((type|media|scoped|title|disabled)="[^"]*")?(\s)*)*>/g).length;
+assert.strictEqual(closingElementLength, openingElementsLength);
 ```
 
 # --seed--

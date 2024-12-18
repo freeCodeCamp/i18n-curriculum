@@ -53,82 +53,61 @@ Here's a <a href="https://www.freecodecamp.org" target="_blank">link to www.free
 У вас має бути тільки один елемент `a`.
 
 ```js
-assert(
-  $('a').length  === 1 
-);
+assert.lengthOf(document.querySelectorAll('a'), 1 );
 ```
 
 Eлемент `a` повинен покликатись на `https://www.freecatphotoapp.com`".
 
 ```js
-assert(
-  $('a[href="https://www.freecatphotoapp.com"]').length  === 1 
-);
+assert.lengthOf(document.querySelectorAll('a[href="https://www.freecatphotoapp.com"]'),1);
 ```
 
 Ваш `a` елемент повинен складатися з ідентифікатору `cat photos`
 
 ```js
-assert(
-  $('a')
-    .text()
-    .match(/cat\sphotos/gi)
-);
+assert.match(document.querySelector('a').textContent,/cat\sphotos/gi)
 ```
 
 Ви повинні створити новий  елемент `p`. У вашому HTML-коді повинно бути не менше трьох тегів.`p`.
 
 ```js
-assert($('p') && $('p').length > 2);
+assert.lengthOf(document.querySelectorAll('p'),3)
 ```
 
 Ваш `a` елемент повинен бути вкладений в новий елемент `p`.
 
 ```js
-assert(
-  $('a[href="https://www.freecatphotoapp.com"]').parent().is('p')
-);
+const anchorParent = document.querySelector('a[href="https://www.freecatphotoapp.com"]').parentNode;
+assert.strictEqual(anchorParent.tagName,"P")
 ```
 
 Елемент `p` повинен мати текст `View more` (з пропуском після нього).
 
 ```js
-assert(
-  $('a[href="https://www.freecatphotoapp.com"]')
-    .parent()
-    .text()
-    .match(/View\smore\s/gi)
-);
+const textContent = document.querySelector('a[href="https://www.freecatphotoapp.com"]').parentNode.textContent;
+assert.match(textContent,/View\smore\s/gi);
 ```
 
 Ваш елемент `a` <em>not</em> не повинен мати текст `View more`.
 
 ```js
-assert(
-  !$('a')
-    .text()
-    .match(/View\smore/gi)
-);
+assert.notMatch(document.querySelector('a').textContent,/View\smore/gi); 
 ```
 
 Кожен елемент `p` повинен мати кінцевий тег.
 
 ```js
-assert(
-  code.match(/<\/p>/g) &&
-    code.match(/<p/g) &&
-    code.match(/<\/p>/g).length === code.match(/<p/g).length
-);
+assert.match(code,/<\/p>/g);
+assert.match(code,/<p/g);
+assert.strictEqual(code.match(/<\/p>/g).length,code.match(/<p/g).length);
 ```
 
 Кожен елемент `a` повинен мати кінцевий тег.
 
 ```js
-assert(
-  code.match(/<\/a>/g) &&
-    code.match(/<a/g) &&
-    code.match(/<\/a>/g).length === code.match(/<a/g).length
-);
+assert.match(code,/<\/a>/g);
+assert.match(code,/<a/g);
+assert.strictEqual(code.match(/<\/a>/g).length,code.match(/<a/g).length);
 ```
 
 # --seed--

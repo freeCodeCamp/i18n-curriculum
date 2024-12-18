@@ -28,19 +28,21 @@ You can set an element's background color with the `background-color` property.
 Елемент `div` повинен мати клас `silver-background`.
 
 ```js
-assert($('div').hasClass('silver-background'));
+assert.isTrue(document.querySelector('div').classList.contains('silver-background'));
 ```
 
 Елемент `div` повинен мати сірий фоновий колір.
 
 ```js
-assert($('div').css('background-color') === 'rgb(192, 192, 192)');
+const div = document.querySelector('div');
+const backgroundColor = window.getComputedStyle(div)['background-color']; 
+assert.strictEqual(backgroundColor, 'rgb(192, 192, 192)');
 ```
 
 Клас з назвою `silver-background` має бути визначений в елементі `style`, а значення `silver` має бути призначено властивості `background-color`.
 
 ```js
-assert(code.match(/\.silver-background\s*{\s*background-color\s*:\s*silver\s*;?\s*}/));
+assert.match(__helpers.removeHtmlComments(code), /\.silver-background\s*{\s*background-color\s*:\s*silver\s*;?\s*}/);
 ```
 
 # --seed--

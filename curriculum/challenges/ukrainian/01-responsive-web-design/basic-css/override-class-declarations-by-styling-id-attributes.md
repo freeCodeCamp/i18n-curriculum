@@ -40,43 +40,45 @@ We just proved that browsers read CSS from top to bottom in order of their decla
 Елемент `h1` повинен мати клас `pink-text`.
 
 ```js
-assert($('h1').hasClass('pink-text'));
+assert.isTrue(document.querySelector('h1').classList.contains('pink-text'));
 ```
 
 Елемент `h1` повинен мати клас `blue-text`.
 
 ```js
-assert($('h1').hasClass('blue-text'));
+assert.isTrue(document.querySelector('h1').classList.contains('blue-text'));
 ```
 
 Елемент `h1` повинен мати id `orange-text`.
 
 ```js
-assert($('h1').attr('id') === 'orange-text');
+assert.strictEqual(document.querySelector('h1').getAttribute('id'),'orange-text');
 ```
 
 Має бути лише один елемент `h1`.
 
 ```js
-assert($('h1').length === 1);
+assert.lengthOf(document.querySelectorAll('h1'), 1);
 ```
 
 Id `orange-text` повинен мати об'яву CSS.
 
 ```js
-assert(code.match(/#orange-text\s*{/gi));
+assert.match(__helpers.removeCssComments(code), /#orange-text\s*{/gi);
 ```
 
 Елемент `h1` не повинен мати жодних атрибутів `style`.
 
 ```js
-assert(!code.match(/<h1.*style.*>/gi));
+assert.notMatch(__helpers.removeHtmlComments(code), /<h1.*style.*>/gi);
 ```
 
 Елемент `h1` повинен бути оранжевим.
 
 ```js
-assert($('h1').css('color') === 'rgb(255, 165, 0)');
+const h1Element = document.querySelector('h1');
+const color = window.getComputedStyle(h1Element)['color']; 
+assert.strictEqual(color, 'rgb(255, 165, 0)');
 ```
 
 # --seed--

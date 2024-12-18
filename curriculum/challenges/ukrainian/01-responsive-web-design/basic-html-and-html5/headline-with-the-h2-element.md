@@ -24,34 +24,32 @@ Over the next few lessons, we'll build an HTML5 cat photo web app piece-by-piece
 Створіть елемент `h2`.
 
 ```js
-assert($('h2').length > 0);
+assert.lengthOf(document.querySelectorAll('h2'),1);
 ```
 
 Елемент `h2` повинен мати кінцевий тег.
 
 ```js
-assert(
-  code.match(/<\/h2>/g) &&
-    code.match(/<\/h2>/g).length === code.match(/<h2>/g).length
-);
+assert.match(code,/<\/h2>/g);
+assert.strictEqual(code.match(/<\/h2>/g).length,code.match(/<h2>/g).length);
 ```
 
 Елемент `h2` повинен містити текст `CatPhotoApp`.
 
 ```js
-assert.isTrue(/cat(\s)?photo(\s)?app/gi.test($('h2').text()));
+assert.match(document.querySelector('h2').textContent,/cat(\s)?photo(\s)?app/gi);
 ```
 
 Елемент `h1` повинен містити текст `Hello World`.
 
 ```js
-assert.isTrue(/hello(\s)+world/gi.test($('h1').text()));
+assert.match(document.querySelector('h1').textContent,/hello(\s)+world/gi);
 ```
 
 Елемент `h1` має бути перед елементом `h2`.
 
 ```js
-assert(code.match(/<h1>\s*?.*?\s*?<\/h1>\s*<h2>\s*?.*?\s*?<\/h2>/gi));
+assert.match(code,/<h1>\s*?.*?\s*?<\/h1>\s*<h2>\s*?.*?\s*?<\/h2>/gi);
 ```
 
 # --seed--

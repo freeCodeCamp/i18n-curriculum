@@ -30,49 +30,58 @@ To review, hex codes use 6 hexadecimal digits to represent colors, two each for 
 Ваш `h1` елемент з текстом `I am red!` має демонструватися `color` червоним.
 
 ```js
-assert($('.red-text').css('color') === 'rgb(255, 0, 0)');
+const redText = document.querySelector('.red-text');
+const color = window.getComputedStyle(redText)['color']; 
+assert.strictEqual(color, 'rgb(255, 0, 0)');
 ```
 
 Замість слова `hex code` для чорного кольору варто використовувати слово `red`.
 
 ```js
-assert(code.match(/\.red-text\s*?{\s*?color\s*:\s*?(#FF0000|#F00)\s*?;?\s*?}/gi));
+assert.match(code, /\.red-text\s*?{\s*?color\s*:\s*?(#FF0000|#F00)\s*?;?\s*?}/gi);
 ```
 
 Ваш `h1` елемент з текстом `I am green!` має демонструватися `color` зеленим.
 
 ```js
-assert($('.green-text').css('color') === 'rgb(0, 255, 0)');
+const greenText = document.querySelector('.green-text');
+const color = window.getComputedStyle(greenText)['color']; 
+assert.strictEqual(color, 'rgb(0, 255, 0)');
 ```
 
 Замість слова `hex code` для чорного кольору варто використовувати слово `green`.
 
 ```js
-assert(code.match(/\.green-text\s*?{\s*?color\s*:\s*?(#00FF00|#0F0)\s*?;?\s*?}/gi));
+assert.match(code, /\.green-text\s*?{\s*?color\s*:\s*?(#00FF00|#0F0)\s*?;?\s*?}/gi);
 ```
 
 Вашому `h1` елементу з текстом `I am dodger blue!` варто надати `color` синьо-волошкового.
 
 ```js
-assert($('.dodger-blue-text').css('color') === 'rgb(30, 144, 255)');
+const blueText = document.querySelector('.dodger-blue-text');
+const color = window.getComputedStyle(blueText)['color']; 
+assert.strictEqual(color, 'rgb(30, 144, 255)');
 ```
 
 Замість слова `hex code` для синьо-волошкового кольору варто використовувати слово `dodgerblue`.
 
 ```js
-assert(code.match(/\.dodger-blue-text\s*?{\s*?color\s*:\s*?#1E90FF\s*?;?\s*?}/gi));
+assert.match(code, /\.dodger-blue-text\s*?{\s*?color\s*:\s*?#1E90FF\s*?;?\s*?}/gi);
 ```
 
 Вашому `h1` елементу з текстом `I am orange!` варто надати `color` оранжевого.
 
 ```js
-assert($('.orange-text').css('color') === 'rgb(255, 165, 0)');
+const orangeText = document.querySelector('.orange-text');
+const color = window.getComputedStyle(orangeText)['color']; 
+
+assert.strictEqual(color, 'rgb(255, 165, 0)');
 ```
 
 Замість `hex code` для оранжевого кольору варто використовувати слово `orange`.
 
 ```js
-assert(code.match(/\.orange-text\s*?{\s*?color\s*:\s*?#FFA500\s*?;?\s*?}/gi));
+assert.match(code, /\.orange-text\s*?{\s*?color\s*:\s*?#FFA500\s*?;?\s*?}/gi);
 ```
 
 # --seed--

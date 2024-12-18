@@ -42,7 +42,7 @@ Welcome to freeCodeCamp's HTML coding challenges. These will walk you through we
 Ваш `h1` елемент повинен містити текст `Hello World`.
 
 ```js
-assert.isTrue(/hello(\s)+world/gi.test($('h1').text()));
+assert.match(document.querySelector('h1').textContent,/hello(\s)+world/gi);
 ```
 
 # --seed--

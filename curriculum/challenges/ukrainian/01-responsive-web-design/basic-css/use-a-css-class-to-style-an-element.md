@@ -34,25 +34,27 @@ Classes are reusable styles that can be added to HTML elements.
 Елемент `h2` повинен бути червоним.
 
 ```js
-assert($('h2').css('color') === 'rgb(255, 0, 0)');
+const h2Element = document.querySelector('h2'); 
+const color = window.getComputedStyle(h2Element)['color']; 
+assert.strictEqual(color, 'rgb(255, 0, 0)');
 ```
 
 Елемент `h2` повинен мати клас `red-text`.
 
 ```js
-assert($('h2').hasClass('red-text'));
+assert.isTrue(document.querySelector('h2').classList.contains('red-text'));
 ```
 
 Таблиця стилів повинна об'явити клас `red-text` і встановити його колір на `red` (червоний).
 
 ```js
-assert(code.match(/\.red-text\s*\{\s*color\s*:\s*red;?\s*\}/g));
+assert.match(__helpers.removeCssComments(code), /\.red-text\s*\{\s*color\s*:\s*red;?\s*\}/g);
 ```
 
 Ви не повинні використовувати вбудовані об'яви стилів, такі як `style="color: red"` в елементі `h2`.
 
 ```js
-assert($('h2').attr('style') === undefined);
+assert.notExists(document.querySelector('h2').getAttribute('style'));
 ```
 
 # --seed--

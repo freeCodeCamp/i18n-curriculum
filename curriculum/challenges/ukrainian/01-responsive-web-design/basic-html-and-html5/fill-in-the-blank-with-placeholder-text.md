@@ -24,7 +24,7 @@ Web developers traditionally use <dfn>lorem ipsum text</dfn> as placeholder text
 Ваш елемент `p` повинен містити перші декілька слів представленого тексту "kitty ipsum".
 
 ```js
-assert.isTrue(/Kitty(\s)+ipsum/gi.test($('p').text()));
+assert.match(document.querySelector('p').textContent,/Kitty(\s)+ipsum/gi);
 ```
 
 # --seed--

@@ -36,33 +36,27 @@ p {
 Ваш h2 елемент повинен використовувати шрифт `Lobster`.
 
 ```js
-assert(
-  $('h2')
-    .css('font-family')
-    .match(/^"?lobster/i)
-);
+const h2Element = document.querySelector('h2');
+const fontFamily = window.getComputedStyle(h2Element)['font-family']; 
+assert.match(fontFamily, /^"?lobster/i);
 ```
 
 Ваш елемент h2 повинен знижуватися до шрифту `monospace`, коли `Lobster` недоступний.
 
 ```js
-assert(
-  /\s*h2\s*\{\s*font-family\s*\:\s*(\'|"|)Lobster\1\s*,\s*monospace\s*;?\s*\}/gi.test(
-    code
-  )
-);
+assert.match(__helpers.removeCssComments(code), /\s*h2\s*\{\s*font-family\s*\:\s*(\'|"|)Lobster\1\s*,\s*monospace\s*;?\s*\}/gi);
 ```
 
 Закоментуйте своє підключення в Google за шрифтом `Lobster`, помістивши перед тим `<!--`.
 
 ```js
-assert(new RegExp('<!--[^fc]', 'gi').test(code));
+assert.match(code, /<!--[^fc]/gi);
 ```
 
 Вам потрібно закрити ваш коментар, додавши `-->`.
 
 ```js
-assert(new RegExp('[^fc]-->', 'gi').test(code));
+assert.match(code, /[^fc]-->/gi);
 ```
 
 # --seed--

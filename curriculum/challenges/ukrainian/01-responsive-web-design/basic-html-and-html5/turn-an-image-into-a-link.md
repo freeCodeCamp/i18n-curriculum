@@ -30,23 +30,25 @@ You can make elements into links by nesting them within an `a` element.
 Наявний `img` елемент повинен бути вкладеним в `a` елемент.
 
 ```js
-assert($('a').children('img').length > 0);
+const anchor = document.querySelectorAll('a')[1];
+const children = anchor.querySelectorAll("img");
+assert.notEmpty(children);
 ```
 
 Елемент `a` має бути мертвим посиланням з атрибутом `href` зі значенням `#`.
 
 ```js
-assert(new RegExp('#').test($('a').children('img').parent().attr('href')));
+const anchor = document.querySelectorAll('a')[1];
+const parentHREF = anchor.querySelector("img").parentNode.getAttribute('href');
+assert.match(parentHREF,new RegExp('#'));
 ```
 
 Кожен елемент `a` повинен мати кінцевий тег.
 
 ```js
-assert(
-  code.match(/<\/a>/g) &&
-    code.match(/<a/g) &&
-    code.match(/<\/a>/g).length === code.match(/<a/g).length
-);
+assert.match(code,/<\/a>/g);
+assert.match(code,/<a/g);
+assert.strictEqual(code.match(/<\/a>/g).length, code.match(/<a/g).length)
 ```
 
 # --seed--

@@ -22,21 +22,13 @@ CSS Variables can simplify the way you use media queries.
 `:root` повинен перепризначити `--penguin-size` змінну на `200px`.
 
 ```js
-assert(
-  code.match(
-    /media\s*?\(\s*?max-width\s*?:\s*?350px\s*?\)\s*?{[\s\S]*:root\s*?{[\s\S]*--penguin-size\s*?:\s*?200px\s*?;[\s\S]*}[\s\S]*}/gi
-  )
-);
+assert.match(__helpers.removeCssComments(code), /media\s*?\(\s*?max-width\s*?:\s*?350px\s*?\)\s*?{[\s\S]*:root\s*?{[\s\S]*--penguin-size\s*?:\s*?200px\s*?;[\s\S]*}[\s\S]*}/gi);
 ```
 
 `:root` повинен перепризначити `--penguin-skin` змінну на `black`.
 
 ```js
-assert(
-  code.match(
-    /media\s*?\(\s*?max-width\s*?:\s*?350px\s*?\)\s*?{[\s\S]*:root\s*?{[\s\S]*--penguin-skin\s*?:\s*?black\s*?;[\s\S]*}[\s\S]*}/gi
-  )
-);
+assert.match(__helpers.removeCssComments(code), /media\s*?\(\s*?max-width\s*?:\s*?350px\s*?\)\s*?{[\s\S]*:root\s*?{[\s\S]*--penguin-skin\s*?:\s*?black\s*?;[\s\S]*}[\s\S]*}/gi);
 ```
 
 # --seed--

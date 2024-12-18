@@ -38,327 +38,368 @@ dashedName: build-a-survey-form
 Ви повинні мати елемент `h1` з `id` зі значенням `title`.
 
 ```js
-const el = document.getElementById('title')
-assert(!!el && el.tagName === 'H1')
+const el = document.getElementById('title');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'H1');
 ```
 
 Ваш `#title` не повинен бути порожнім.
 
 ```js
-const el = document.getElementById('title')
-assert(!!el && el.innerText.length > 0)
+const el = document.getElementById('title');
+assert.isNotNull(el);
+assert.isAbove(el.innerText.length, 0);
 ```
 
 Ви повинні мати елемент `p` з `id` зі значенням `description`.
 
 ```js
-const el = document.getElementById('description')
-assert(!!el && el.tagName === 'P')
+const el = document.getElementById('description');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'P');
 ```
 
 Ваш `#description` не повинен бути порожнім.
 
 ```js
-const el = document.getElementById('description')
-assert(!!el && el.innerText.length > 0)
+const el = document.getElementById('description');
+assert.isNotNull(el);
+assert.isAbove(el.innerText.length, 0);
 ```
 
 Ви повинні мати елемент `form` з `id` зі значенням `survey-form`.
 
 ```js
-const el = document.getElementById('survey-form')
-assert(!!el && el.tagName === 'FORM')
+const el = document.getElementById('survey-form');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'FORM');
 ```
 
 Ви повинні мати елемент `input` з `id` зі значенням `name`.
 
 ```js
-const el = document.getElementById('name')
-assert(!!el && el.tagName === 'INPUT')
+const el = document.getElementById('name');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'INPUT');
 ```
 
 Ваш `#name` повинен мати `type` зі значенням `text`.
 
 ```js
-const el = document.getElementById('name')
-assert(!!el && el.type === 'text')
+const el = document.getElementById('name');
+assert.isNotNull(el);
+assert.strictEqual(el.type, 'text');
 ```
 
 Ваш `#name` повинен вимагати введення.
 
 ```js
-const el = document.getElementById('name')
-assert(!!el && el.required)
+const el = document.getElementById('name');
+assert.isNotNull(el);
+assert.isTrue(el.required);
 ```
 
 Ваш `#name` повинен бути нащадком `#survey-form`.
 
 ```js
-const el = document.querySelector('#survey-form #name')
-assert(!!el)
+const el = document.querySelector('#survey-form #name');
+assert.isNotNull(el);
 ```
 
 Ви повинні мати елемент `input` з `id` зі значенням `email`.
 
 ```js
-const el = document.getElementById('email')
-assert(!!el && el.tagName === 'INPUT')
+const el = document.getElementById('email');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'INPUT');
 ```
 
 Ваш `#email` повинен мати `type` зі значенням `email`.
 
 ```js
-const el = document.getElementById('email')
-assert(!!el && el.type === 'email')
+const el = document.getElementById('email');
+assert.isNotNull(el);
+assert.strictEqual(el.type, 'email');
 ```
 
 Ваш `#email` повинен вимагати введення.
 
 ```js
-const el = document.getElementById('email')
-assert(!!el && el.required)
+const el = document.getElementById('email');
+assert.isNotNull(el);
+assert.isTrue(el.required);
 ```
 
 Ваш `#email` повинен бути нащадком `#survey-form`.
 
 ```js
-const el = document.querySelector('#survey-form #email')
-assert(!!el)
+const el = document.querySelector('#survey-form #email');
+assert.isNotNull(el);
 ```
 
 Ви повинні мати елемент `input` з `id` зі значенням `number`.
 
 ```js
-const el = document.getElementById('number')
-assert(!!el && el.tagName === 'INPUT')
+const el = document.getElementById('number');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'INPUT');
 ```
 
 Ваш `#number` повинен бути нащадком `#survey-form`.
 
 ```js
-const el = document.querySelector('#survey-form #number')
-assert(!!el)
+const el = document.querySelector('#survey-form #number');
+assert.isNotNull(el);
 ```
 
 Ваш `#number` повинен мати `type` зі значенням `number`.
 
 ```js
-const el = document.getElementById('number')
-assert(!!el && el.type === 'number')
+const el = document.getElementById('number');
+assert.isNotNull(el);
+assert.strictEqual(el.type, 'number');
 ```
 
 Ваш `#number` повинен мати атрибут `min` з числовим значенням.
 
 ```js
-const el = document.getElementById('number')
-assert(!!el && el.min && isFinite(el.min))
+const el = document.getElementById('number');
+assert.isNotNull(el);
+assert.isNotEmpty(el.min);
+assert.isTrue(isFinite(el.min));
 ```
 
 Ваш `#number` повинен мати атрибут `max` з числовим значенням.
 
 ```js
-const el = document.getElementById('number')
-assert(!!el && el.max && isFinite(el.max))
+const el = document.getElementById('number');
+assert.isNotNull(el);
+assert.isNotEmpty(el.max);
+assert.isTrue(isFinite(el.max));
 ```
 
 Ви повинні мати елемент `label` з `id` зі значенням `name-label`.
 
 ```js
-const el = document.getElementById('name-label')
-assert(!!el && el.tagName === 'LABEL')
+const el = document.getElementById('name-label');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'LABEL');
 ```
 
 Ви повинні мати елемент `label` з `id` зі значенням `email-label`.
 
 ```js
-const el = document.getElementById('email-label')
-assert(!!el && el.tagName === 'LABEL')
+const el = document.getElementById('email-label');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'LABEL');
 ```
 
 Ви повинні мати елемент `label` з `id` зі значенням `number-label`.
 
 ```js
-const el = document.getElementById('number-label')
-assert(!!el && el.tagName === 'LABEL')
+const el = document.getElementById('number-label');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'LABEL');
 ```
 
 Ваш `#name-label` повинен містити текст, який описує введені дані.
 
 ```js
-const el = document.getElementById('name-label')
-assert(!!el && el.innerText.length > 0)
+const el = document.getElementById('name-label');
+assert.isNotNull(el);
+assert.isAbove(el.innerText.length, 0);
 ```
 
 Ваш `#email-label` повинен містити текст, який описує введені дані.
 
 ```js
-const el = document.getElementById('email-label')
-assert(!!el && el.innerText.length > 0)
+const el = document.getElementById('email-label');
+assert.isNotNull(el);
+assert.isAbove(el.innerText.length, 0);
 ```
 
 Ваш `#number-label` повинен містити текст, який описує введені дані.
 
 ```js
-const el = document.getElementById('number-label')
-assert(!!el && el.innerText.length > 0)
+const el = document.getElementById('number-label');
+assert.isNotNull(el);
+assert.isAbove(el.innerText.length, 0);
 ```
 
 Ваш `#name-label` повинен бути нащадком `#survey-form`.
 
 ```js
-const el = document.querySelector('#survey-form #name-label')
-assert(!!el)
+const el = document.querySelector('#survey-form #name-label');
+assert.isNotNull(el);
 ```
 
 Ваш `#email-label` повинен бути нащадком `#survey-form`.
 
 ```js
-const el = document.querySelector('#survey-form #email-label')
-assert(!!el)
+const el = document.querySelector('#survey-form #email-label');
+assert.isNotNull(el);
 ```
 
 Ваш `#number-label` повинен бути нащадком `#survey-form`.
 
 ```js
-const el = document.querySelector('#survey-form #number-label')
-assert(!!el)
+const el = document.querySelector('#survey-form #number-label');
+assert.isNotNull(el);
 ```
 
 Ваш `#name` повинен мати атрибут `placeholder` та значення.
 
 ```js
-const el = document.getElementById('name')
-assert(!!el && !!el.placeholder && el.placeholder.length > 0)
+const el = document.getElementById('name');
+assert.isNotNull(el);
+assert.isNotNull(el.placeholder);
+assert.isAbove(el.placeholder.length, 0);
 ```
 
 Ваш `#email` повинен мати атрибут `placeholder` та значення.
 
 ```js
-const el = document.getElementById('email')
-assert(!!el && !!el.placeholder && el.placeholder.length > 0)
+const el = document.getElementById('email');
+assert.isNotNull(el);
+assert.isNotNull(el.placeholder);
+assert.isAbove(el.placeholder.length, 0);
 ```
 
 Ваш `#number` повинен мати атрибут `placeholder` та значення.
 
 ```js
-const el = document.getElementById('number')
-assert(!!el && !!el.placeholder && el.placeholder.length > 0)
+const el = document.getElementById('number');
+assert.isNotNull(el);
+assert.isNotNull(el.placeholder);
+assert.isAbove(el.placeholder.length, 0);
 ```
 
 Ви повинні мати поле `select` з `id` зі значенням `dropdown`.
 
 ```js
-const el = document.getElementById('dropdown')
-assert(!!el && el.tagName === 'SELECT')
+const el = document.getElementById('dropdown');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'SELECT');
 ```
 
 Ваш `#dropdown` повинен мати щонайменше два елементи `option` з можливістю вибору (не відключені).
 
 ```js
-const els = document.querySelectorAll('#dropdown option:not([disabled])')
-assert(els.length >= 2)
+const els = document.querySelectorAll('#dropdown option:not([disabled])');
+assert.isAtLeast(els.length, 2);
 ```
 
 Ваш `#dropdown` повинен бути нащадком `#survey-form`.
 
 ```js
-const el = document.querySelector('#survey-form #dropdown')
-assert(!!el)
+const el = document.querySelector('#survey-form #dropdown');
+assert.isNotNull(el);
 ```
 
 Ви повинні мати щонайменше два елементи `input` з `type` зі значенням `radio` (радіокнопки).
 
 ```js
-const els = document.querySelectorAll('input[type="radio"]')
-assert(els.length >= 2)
+const els = document.querySelectorAll('input[type="radio"]');
+assert.isAtLeast(els.length, 2);
 ```
 
 Ви повинні мати щонайменше дві радіокнопки, які є нащадками `#survey-form`.
 
 ```js
-const els = document.querySelectorAll('#survey-form input[type="radio"]')
-assert(els.length >= 2)
+const els = document.querySelectorAll('#survey-form input[type="radio"]');
+assert.isAtLeast(els.length, 2);
 ```
 
 Всі радіокнопки повинні мати атрибут `value` та значення.
 
 ```js
-const els1 = document.querySelectorAll('input[type="radio"]')
-const els2 = document.querySelectorAll('input[type="radio"][value=""], input[type="radio"]:not([value])')
-assert(els1.length > 0 && els2.length === 0)
+const els1 = document.querySelectorAll('input[type="radio"]');
+const els2 = document.querySelectorAll(
+  'input[type="radio"][value=""], input[type="radio"]:not([value])'
+);
+assert.isAbove(els1.length, 0);
+assert.lengthOf(els2, 0);
 ```
 
 Всі радіокнопки повинні мати атрибут `name` та значення.
 
 ```js
-const els1 = document.querySelectorAll('input[type="radio"]')
-const els2 = document.querySelectorAll('input[type="radio"][name=""], input[type="radio"]:not([name])')
-assert(els1.length > 0 && els2.length === 0)
+const els1 = document.querySelectorAll('input[type="radio"]');
+const els2 = document.querySelectorAll(
+  'input[type="radio"][name=""], input[type="radio"]:not([name])'
+);
+assert.isAbove(els1.length, 0);
+assert.lengthOf(els2, 0);
 ```
 
 В кожній групі радіокнопок повинно бути щонайменше 2 радіокнопки.
 
 ```js
 const radioButtons = document.querySelectorAll('input[type="radio"]');
-const groups = {}
+const groups = {};
 
 if (radioButtons) {
   radioButtons.forEach(el => {
-    if (!groups[el.name]) groups[el.name] = []
-    groups[el.name].push(el)
-  })
+    if (!groups[el.name]) groups[el.name] = [];
+    groups[el.name].push(el);
+  });
 }
 
-const groupKeys = Object.keys(groups)
+const groupKeys = Object.keys(groups);
 
 groupKeys.forEach(key => {
-  if (groups[key].length < 2) assert(false)
-})
+  if (groups[key].length < 2) assert(false);
+});
 
-assert(groupKeys.length > 0)
+assert.isAbove(groupKeys.length, 0);
 ```
 
 Ви повинні мати щонайменше два елементи `input` з `type` зі значенням `checkbox` (прапорцями), що є нащадками `#survey-form`.
 
 ```js
 const els = document.querySelectorAll('#survey-form input[type="checkbox"]');
-assert(els.length >= 2)
+assert.isAtLeast(els.length, 2);
 ```
 
 Всі прапорці всередині `#survey-form` повинні мати атрибут `value` та значення.
 
 ```js
-const els1 = document.querySelectorAll('#survey-form input[type="checkbox"]')
-const els2 = document.querySelectorAll('#survey-form input[type="checkbox"][value=""], #survey-form input[type="checkbox"]:not([value])')
-assert(els1.length > 0 && els2.length === 0)
+const els1 = document.querySelectorAll('#survey-form input[type="checkbox"]');
+const els2 = document.querySelectorAll(
+  '#survey-form input[type="checkbox"][value=""], #survey-form input[type="checkbox"]:not([value])'
+);
+assert.isAbove(els1.length, 0);
+assert.lengthOf(els2, 0);
 ```
 
 Ви повинні мати щонайменше один елемент `textarea`, що є нащадком `#survey-form`.
 
 ```js
-const el = document.querySelector('#survey-form textarea')
-assert(!!el)
+const el = document.querySelector('#survey-form textarea');
+assert.isNotNull(el);
 ```
 
 Ви повинні мати елемент `input` або `button` з `id` зі значенням `submit`.
 
 ```js
-const el = document.getElementById('submit')
-assert(!!el && (el.tagName === 'INPUT' || el.tagName === 'BUTTON'))
+const el = document.getElementById('submit');
+assert.isNotNull(el);
+assert.isTrue(el.tagName === 'INPUT' || el.tagName === 'BUTTON');
 ```
 
 Ваш `#submit` повинен мати `type` зі значенням `submit`.
 
 ```js
-const el = document.getElementById('submit')
-assert(!!el && el.type === 'submit')
+const el = document.getElementById('submit');
+assert.isNotNull(el);
+assert.strictEqual(el.type, 'submit');
 ```
 
 Ваш `#submit` повинен бути нащадком `#survey-form`.
 
 ```js
-const el = document.querySelector('#survey-form #submit')
-assert(!!el)
+const el = document.querySelector('#survey-form #submit');
+assert.isNotNull(el);
 ```
 
 # --seed--
@@ -508,7 +549,10 @@ body {
   background: #3a3240;
   color: white;
 }
-input, textarea, select, button {
+input,
+textarea,
+select,
+button {
   background: #3a3240;
   color: white;
 }

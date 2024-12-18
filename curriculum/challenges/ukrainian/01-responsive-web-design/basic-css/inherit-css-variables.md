@@ -24,8 +24,9 @@ When you create a variable, it is available for you to use inside the selector i
 Змінну `--penguin-belly` потрібно об'явити в псевдокласі `:root` і присвоїти їй значення `pink`.
 
 ```js
-assert(
-  code.match(/:root\s*?{[\s\S]*--penguin-belly\s*?:\s*?pink\s*?;[\s\S]*}/gi)
+assert.match(
+  __helpers.removeCssComments(code),
+  /:root\s*?{[\s\S]*--penguin-belly\s*?:\s*?pink\s*?;[\s\S]*}/gi
 );
 ```
 

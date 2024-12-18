@@ -20,7 +20,9 @@ The last two challenges used the `flex-direction` property set to `row`. This pr
 Елемент `#box-container` повинен мати властивість `flex-direction` зі значенням `column`.
 
 ```js
-assert($('#box-container').css('flex-direction') == 'column');
+const boxContainer = document.querySelector('#box-container');
+const flexDirection = window.getComputedStyle(boxContainer)['flex-direction'];
+assert.strictEqual(flexDirection, 'column');
 ```
 
 # --seed--

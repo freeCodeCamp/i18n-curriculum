@@ -32,28 +32,29 @@ One cool thing about `id` attributes is that, like classes, you can style them u
 Елемент `form` повинен мати ідентифікатор `cat-photo-form`.
 
 ```js
-assert($('form').attr('id') === 'cat-photo-form');
+assert.strictEqual(document.querySelector('form').getAttribute('id'), 'cat-photo-form');
 ```
 
 Елемент `form` повинен мати зелений `background-color`.
 
 ```js
-assert($('#cat-photo-form').css('background-color') === 'rgb(0, 128, 0)');
+const catPhotoForm = document.querySelector('#cat-photo-form');
+const backgroundColor = window.getComputedStyle(catPhotoForm)['background-color'];
+assert.strictEqual(backgroundColor, 'rgb(0, 128, 0)');
 ```
 
 Елемент `form` повинен мати атрибут `id`.
 
 ```js
-assert(
-  code.match(/<form.*cat-photo-form.*>/gi) &&
-    code.match(/<form.*cat-photo-form.*>/gi).length > 0
-);
+assert.match(__helpers.removeHtmlComments(code), /<form.*cat-photo-form.*>/gi);
+assert.lengthOf(__helpers.removeHtmlComments(code).match(/<form.*cat-photo-form.*>/gi), 1)
 ```
 
 Ви не повинні вказувати в `form` будь-яких атрибутів `class` або `style`.
 
 ```js
-assert(!code.match(/<form.*style.*>/gi) && !code.match(/<form.*class.*>/gi));
+assert.notMatch(__helpers.removeHtmlComments(code), /<form.*style.*>/gi);
+assert.notMatch(__helpers.removeHtmlComments(code), /<form.*class.*>/gi);
 ```
 
 # --seed--

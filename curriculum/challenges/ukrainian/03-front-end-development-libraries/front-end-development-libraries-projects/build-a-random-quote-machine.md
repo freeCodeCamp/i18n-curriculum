@@ -37,7 +37,7 @@ dashedName: build-a-random-quote-machine
 
 **Історія користувача №11:** обгортковий елемент `#quote-box` має бути горизонтально відцентрованим. Виконайте тести зі збільшенням браузера до 100% і розгорнутою сторінкою.
 
-Ви можете створити свій проєкт, <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">використавши цей шаблон CodePen</a> та натиснувши `Save`. Або ж ви можете скористатися цим CDN-посиланням, щоб провести тести на будь-якому середовищі: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
+You can build your project by <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">using this CodePen template</a> and clicking `Save` to create your own pen. If you prefer to use another environment, then put this `<script>` tag into the body of your `index.html` file: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
 
 Щойно впораєтеся, прикріпіть URL-адресу із пройденими тестами до проєкту, над яким працюєте.
 

@@ -24,7 +24,9 @@ An element's `margin` controls the amount of space between an element's `border`
 Клас `blue-box` повинен надати елементам `margin` зі значенням `-15px`.
 
 ```js
-assert($('.blue-box').css('margin-top') === '-15px');
+const blueBox = document.querySelector('.blue-box');
+const marginTop = window.getComputedStyle(blueBox)["margin-top"]; 
+assert.strictEqual(marginTop, "-15px"); 
 ```
 
 # --seed--

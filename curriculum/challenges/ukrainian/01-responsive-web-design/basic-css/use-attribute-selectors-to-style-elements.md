@@ -30,43 +30,29 @@ You have been adding `id` or `class` attributes to elements that you wish to spe
 Селектор атрибуту `type` має використовуватися для того, щоб обрати чекбокси.
 
 ```js
-assert(
-  code.match(
-    /<style>[\s\S]*?\[\s*?type\s*?=\s*?("|')checkbox\1\s*?\]\s*?{[\s\S]*?}[\s\S]*?<\/style>/gi
-  )
-);
+assert.match(__helpers.removeHtmlComments(code), /<style>[\s\S]*?\[\s*?type\s*?=\s*?("|')checkbox\1\s*?\]\s*?{[\s\S]*?}[\s\S]*?<\/style>/gi);
 ```
 
 Верхній відступ чекбоксів має бути 10px.
 
 ```js
-assert(
-  (function () {
-    var count = 0;
-    $("[type='checkbox']").each(function () {
-      if ($(this).css('marginTop') === '10px') {
-        count++;
-      }
-    });
-    return count === 3;
-  })()
-);
+const checkboxes = document.querySelectorAll("[type='checkbox']");
+assert.isNotEmpty(checkboxes);
+checkboxes.forEach(function(checkbox) {
+  const marginTop = window.getComputedStyle(checkbox)['margin-top']; 
+  assert.strictEqual(marginTop, '10px');
+});
 ```
 
 Нижній відступ чекбоксів має бути 15px.
 
 ```js
-assert(
-  (function () {
-    var count = 0;
-    $("[type='checkbox']").each(function () {
-      if ($(this).css('marginBottom') === '15px') {
-        count++;
-      }
-    });
-    return count === 3;
-  })()
-);
+const checkboxes = document.querySelectorAll("[type='checkbox']");
+assert.isNotEmpty(checkboxes);
+checkboxes.forEach(function(checkbox) {
+  const marginBottom = window.getComputedStyle(checkbox)['margin-bottom']; 
+  assert.strictEqual(marginBottom, '15px');
+});
 ```
 
 # --seed--

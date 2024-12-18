@@ -35,46 +35,46 @@ HTML5 introduces more descriptive HTML tags. These include `main`, `header`, `fo
 Ви повинні мати 2 елементи `p` з поданим текстом-прикладом.
 
 ```js
-assert($('p').length > 1);
+assert.lengthOf(document.querySelectorAll('p'),2);
 ```
 
 Кожен елемент `p` повинен мати кінцевий тег.
 
 ```js
-assert(
-  code.match(/<\/p>/g) &&
-    code.match(/<\/p>/g).length === code.match(/<p/g).length
-);
+assert.match(code,/<\/p>/g);
+assert.strictEqual(code.match(/<\/p>/g).length,code.match(/<p/g).length);
 ```
 
 Ваш `p` елемент повинен містити перші декілька слів з додаткового тексту-прикладу `kitty ipsum`.
 
 ```js
-assert.isTrue(/Purr\s+jump\s+eat/gi.test($('p').text()));
+assert.match(document.querySelectorAll('p')[1].textContent,/Purr\s+jump\s+eat/gi);
 ```
 
 Ваш код повинен містити один `main` елемент.
 
 ```js
-assert($('main').length === 1);
+assert.lengthOf(document.querySelectorAll('main'),1);
 ```
 
 Елемент `main` повинен містити два елементи абзацу в якості дочірніх.
 
 ```js
-assert($('main').children('p').length === 2);
+const main = document.querySelector('main');
+const children = main.querySelectorAll("p"); 
+assert.lengthOf(children,2);
 ```
 
 Тег `main` повинен знаходитися перед тегом першого абзацу.
 
 ```js
-assert(code.match(/<main>\s*?<p>/g));
+assert.match(code,(/<main>\s*?<p>/g));
 ```
 
 Тег `main` закриття повинен знаходитися після другого тегу, який закриває абзац.
 
 ```js
-assert(code.match(/<\/p>\s*?<\/main>/g));
+assert.match(code,(/<\/p>\s*?<\/main>/g));
 ```
 
 # --seed--

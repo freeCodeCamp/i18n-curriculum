@@ -34,49 +34,36 @@ When a form gets submitted, the data is sent to the server and includes entries 
 Одна з ваших радіокнопок повинна мати атрибут `value` з `indoor`.
 
 ```js
-assert(
-  $('label:contains("Indoor") > input[type="radio"]').filter("[value='indoor']")
-    .length > 0
-);
+const indoorRadioButton = [...document.querySelectorAll('label > input[type="radio"]')].filter(x => x.value === "indoor");
+assert.notEmpty(indoorRadioButton)
 ```
 
 Одна з ваших радіокнопок повинна мати атрибут `value` з `outdoor`.
 
 ```js
-assert(
-  $('label:contains("Outdoor") > input[type="radio"]').filter(
-    "[value='outdoor']"
-  ).length > 0
-);
+const outdoorRadioButton = [...document.querySelectorAll('label > input[type="radio"]')].filter(x => x.value === "outdoor");
+assert.notEmpty(outdoorRadioButton);
 ```
 
 Один із ваших прапорців повинен мати атрибут `value` з `loving`.
 
 ```js
-assert(
-  $('label:contains("Loving") > input[type="checkbox"]').filter(
-    "[value='loving']"
-  ).length > 0
-);
+const lovingCheckbox = [...document.querySelectorAll('label > input[type="checkbox"]')].filter(x => x.value === "loving");
+assert.notEmpty(lovingCheckbox); 
 ```
 
 Один із ваших прапорців повинен мати атрибут `value` з`lazy`.
 
 ```js
-assert(
-  $('label:contains("Lazy") > input[type="checkbox"]').filter("[value='lazy']")
-    .length > 0
-);
+const lazyCheckbox = [...document.querySelectorAll('label > input[type="checkbox"]')].filter(x => x.value === "lazy");
+assert.notEmpty(lazyCheckbox); 
 ```
 
 Один із ваших прапорців повинен мати атрибут `value` з `energetic`.
 
 ```js
-assert(
-  $('label:contains("Energetic") > input[type="checkbox"]').filter(
-    "[value='energetic']"
-  ).length > 0
-);
+const energeticCheckbox =  [...document.querySelectorAll('label > input[type="checkbox"]')].filter(x => x.value === "energetic");
+assert.notEmpty(energeticCheckbox);
 ```
 
 # --seed--

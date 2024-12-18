@@ -36,45 +36,37 @@ dashedName: link-to-internal-sections-of-a-page-with-anchor-elements
 На вашій сторінці повинен бути лише один тег прив'язки.
 
 ```js
-assert($('a').length == 1);
+assert.lengthOf(document.querySelectorAll('a'), 1);
 ```
 
 На вашій сторінці повинен бути тільки один тег `footer`.
 
 ```js
-assert($('footer').length == 1);
+assert.lengthOf(document.querySelectorAll('footer'),1);
 ```
 
 Тег `a` повинен мати атрибут `href` налаштований до "#footer".
 
 ```js
-assert($('a').eq(0).attr('href') == '#footer');
+assert.strictEqual(document.querySelector('a').getAttribute('href'), '#footer');
 ```
 
 Тег `a` не повинен мати атрибут `target`.
 
 ```js
-assert(
-  typeof $('a').eq(0).attr('target') == typeof undefined ||
-    $('a').eq(0).attr('target') == true
-);
+assert.notExists(document.querySelector('a').getAttribute('target'));
 ```
 
 Текст `a` має бути "Jump to Bottom".
 
 ```js
-assert(
-  $('a')
-    .eq(0)
-    .text()
-    .match(/Jump to Bottom/gi)
-);
+assert.match(document.querySelector('a').textContent,/Jump to Bottom/gi);
 ```
 
 Тег `footer` повинен мати атрибут `id` налаштований до "footer".
 
 ```js
-assert($('footer').eq(0).attr('id') == 'footer');
+assert.strictEqual(document.querySelector('footer').getAttribute('id'),'footer');
 ```
 
 # --seed--

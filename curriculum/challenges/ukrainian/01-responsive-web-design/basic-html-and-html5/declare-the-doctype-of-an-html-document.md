@@ -37,19 +37,19 @@ The challenges so far have covered specific HTML elements and their uses. Howeve
 Ваш код повинен включати тег `<!DOCTYPE html>`.
 
 ```js
-assert(code.match(/<!DOCTYPE\s+?html\s*?>/gi));
+assert.match(code,/<!DOCTYPE\s+?html\s*?>/gi);
 ```
 
 Має бути один елемент `html`.
 
 ```js
-assert($('html').length == 1);
+assert.lengthOf(document.querySelectorAll('html'), 1);
 ```
 
 Теги `html` повинні бути пронумерованими навколо елементу `h1`.
 
 ```js
-assert(code.match(/<html>\s*?<h1>\s*?.*?\s*?<\/h1>\s*?<\/html>/gi));
+assert.match(code,/<html>\s*?<h1>\s*?.*?\s*?<\/h1>\s*?<\/html>/gi);
 ```
 
 # --seed--

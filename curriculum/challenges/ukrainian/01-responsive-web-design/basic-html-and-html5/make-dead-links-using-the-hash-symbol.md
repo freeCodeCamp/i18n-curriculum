@@ -24,7 +24,7 @@ Sometimes you want to add `a` elements to your website before you know where the
 Ваш `a` елемент повинен бути мертвим посиланням з `href` атрибутом, встановленим на"#".
 
 ```js
-assert($('a').attr('href') === '#');
+assert.strictEqual(document.querySelector('a').getAttribute('href'),'#');
 ```
 
 # --seed--

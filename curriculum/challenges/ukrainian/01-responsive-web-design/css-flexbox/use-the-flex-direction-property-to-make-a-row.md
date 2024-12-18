@@ -24,7 +24,9 @@ Adding `display: flex` to an element turns it into a flex container. This makes 
 Елемент `#box-container` повинен мати властивість `flex-direction` зі значенням `row-reverse`.
 
 ```js
-assert($('#box-container').css('flex-direction') == 'row-reverse');
+const boxContainer = document.querySelector('#box-container');
+const flexDirection = window.getComputedStyle(boxContainer)['flex-direction'];
+assert.strictEqual(flexDirection, 'row-reverse');
 ```
 
 # --seed--

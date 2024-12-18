@@ -45,25 +45,22 @@ Note that `img` is a void element.
 На вашій сторінці має бути зображення.
 
 ```js
-assert($('img').length);
+assert.exists(document.querySelector('img'));
 ```
 
 Ваше зображення має містити атрибут `src`, який вказує на зображення кошеня.
 
 ```js
-assert(/^https:\/\/cdn\.freecodecamp\.org\/curriculum\/cat-photo-app\/relaxing-cat\.jpg$/i.test($('img').attr('src')));
+const url = document.querySelector('img').getAttribute('src');
+assert.match(url,/^https:\/\/cdn\.freecodecamp\.org\/curriculum\/cat-photo-app\/relaxing-cat\.jpg$/i);
 ```
 
 Атрибут `alt` вашого елементу зображення не має бути порожнім.
 
 ```js
-assert(
-  $('img').attr('alt') &&
-    $('img').attr('alt').length &&
-    /<(?:img|IMG)\S*alt=(['"])(?!\1|>)\S+\1\S*\/?>/.test(
-      __helpers.removeWhiteSpace(code)
-    )
-);
+assert.exists(document.querySelector('img').getAttribute('alt'));
+assert.isNotEmpty(document.querySelector('img').getAttribute('alt'));
+assert.match(__helpers.removeWhiteSpace(code),/<(?:img|IMG)\S*alt=(['"])(?!\1|>)\S+\1\S*\/?>/)
 ```
 
 # --seed--

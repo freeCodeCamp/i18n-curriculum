@@ -22,35 +22,33 @@ Remember that in order to start a comment, you need to use `<!--` and to end a c
 Ваш елемент `h1` повинен бути прокоментованим так, щоб його не було видно на сторінці.
 
 ```js
-assert($('h1').length === 0);
+assert.isEmpty(document.querySelectorAll('h1'));
 ```
 
 Ваш елемент `h2` не повинен бути прокоментованим так, щоб його було видно на сторінці.
 
 ```js
-assert($('h2').length > 0);
+assert.isNotEmpty(document.querySelectorAll('h2'));
 ```
 
 Ваш елемент `p` має бути прокоментованим так, щоб його не було видно на сторінці.
 
 ```js
-assert($('p').length === 0);
+assert.isEmpty(document.querySelectorAll('p'));
 ```
 
 Кожен ваш коментар має бути закритий з `-->`.
 
 ```js
-assert(code.match(/[^fc]-->/g).length > 1);
+assert.isAbove(code.match(/[^fc]-->/g).length, 1);
 ```
 
 Ви не повинні змінювати порядок елементів `h1`, `h2` чи `p` у коді.
 
 ```js
-assert(
-  code.match(/<([a-z0-9]){1,2}>/g)[0] === '<h1>' &&
-    code.match(/<([a-z0-9]){1,2}>/g)[1] === '<h2>' &&
-    code.match(/<([a-z0-9]){1,2}>/g)[2] === '<p>'
-);
+assert.strictEqual(code.match(/<([a-z0-9]){1,2}>/g)[0],'<h1>');
+assert.strictEqual(code.match(/<([a-z0-9]){1,2}>/g)[1],'<h2>');
+assert.strictEqual(code.match(/<([a-z0-9]){1,2}>/g)[2],'<p>');
 ```
 
 # --seed--

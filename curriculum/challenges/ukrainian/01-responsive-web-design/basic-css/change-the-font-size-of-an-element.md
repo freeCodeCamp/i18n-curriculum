@@ -26,7 +26,7 @@ h1 {
 Між тегами `style` встановіть елементам `p``font-size` рівним `16px`. Масштаб браузера та тексту повинні бути 100%.
 
 ```js
-assert(code.match(/p\s*{\s*font-size\s*:\s*16\s*px\s*;\s*}/i));
+assert.match(__helpers.removeCssComments(code), /p\s*{\s*font-size\s*:\s*16\s*px\s*;\s*}/i);
 ```
 
 # --seed--

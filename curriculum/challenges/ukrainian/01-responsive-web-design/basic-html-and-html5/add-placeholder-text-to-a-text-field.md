@@ -28,31 +28,28 @@ Placeholder text is what is displayed in your `input` element before your user h
 Вам треба додати атрибут `placeholder` до чинного елемента тексту `input`.
 
 ```js
-assert($('input[placeholder]').length > 0);
+assert.notEmpty(document.querySelectorAll('input[placeholder]'));
 ```
 
 Зробіть `cat photo URL` значенням вашого атрибуту `placeholder`.
 
 ```js
-assert(
-  $('input') &&
-    $('input').attr('placeholder') &&
-    $('input')
-      .attr('placeholder')
-      .match(/cat\s+photo\s+URL/gi)
-);
+assert.exists(document.querySelector('input'));
+assert.exists(document.querySelector('input').getAttribute('placeholder'));
+const placeholder = document.querySelector('input').getAttribute('placeholder');
+assert.match(placeholder,/cat\s+photo\s+URL/gi);
 ```
 
 Готовий елемент `input` не повинен мати кінцевий теґ.
 
 ```js
-assert(!code.match(/<input.*\/?>.*<\/input>/gi));
+assert.notMatch(code,/<input.*\/?>.*<\/input>/gi);
 ```
 
 Готовий елемент `input` повинен мати дійсний синтаксис.
 
 ```js
-assert($('input[type=text]').length > 0);
+assert.notEmpty(document.querySelectorAll('input[type=text]'));
 ```
 
 # --seed--

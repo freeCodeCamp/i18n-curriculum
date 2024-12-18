@@ -33,80 +33,76 @@ HTML has another special element for creating <dfn>ordered lists</dfn>, or numbe
 Ви повинні мати впорядкований список для `Top 3 things cats hate:` (3 речі, які коти ненавидять найбільше)
 
 ```js
-assert(/Top 3 things cats hate:/i.test($('ol').prev().text()));
+const previousElement = document.querySelector('ol').previousElementSibling; 
+assert.match(previousElement.textContent,/Top 3 things cats hate:/i);
 ```
 
 Ви повинні мати невпорядкований список `Things cats love:` (Те, що люблять коти)
 
 ```js
-assert(/Things cats love:/i.test($('ul').prev().text()));
+const previousElement = document.querySelector('ul').previousElementSibling; 
+assert.match(previousElement.textContent,/Things cats love:/i);
 ```
 
 Ви повинні мати тільки один елемент `ul`.
 
 ```js
-assert.equal($('ul').length, 1);
+assert.lengthOf(document.querySelectorAll('ul'), 1);
 ```
 
 Ви повинні мати тільки один елемент `ol`.
 
 ```js
-assert.equal($('ol').length, 1);
+assert.lengthOf(document.querySelectorAll('ol'), 1);
 ```
 
 У вас має бути три елементи `li` всередині вашого елементу `ul`.
 
 ```js
-assert.equal($('ul li').length, 3);
+assert.lengthOf(document.querySelectorAll('ul li'), 3);
 ```
 
 Ви повинні мати три елементи `li` всередині елементу `ol`.
 
 ```js
-assert.equal($('ol li').length, 3);
+assert.lengthOf(document.querySelectorAll('ol li'), 3);
 ```
 
 Елемент `ul` повинен мати кінцевий тег.
 
 ```js
-assert(
-  code.match(/<\/ul>/g) &&
-    code.match(/<\/ul>/g).length === code.match(/<ul>/g).length
-);
+assert.match(code,/<\/ul>/g);
+assert.strictEqual(code.match(/<\/ul>/g).length ,code.match(/<ul>/g).length);
 ```
 
 Елемент `ol` повинен мати кінцевий тег.
 
 ```js
-assert(
-  code.match(/<\/ol>/g) &&
-    code.match(/<\/ol>/g).length === code.match(/<ol>/g).length
-);
+assert.match(code,/<\/ol>/g);
+assert.strictEqual(code.match(/<\/ol>/g).length ,code.match(/<ol>/g).length);
 ```
 
 Елемент `li` повинен мати кінцевий тег.
 
 ```js
-assert(
-  code.match(/<\/li>/g) &&
-    code.match(/<li>/g) &&
-    code.match(/<\/li>/g).length === code.match(/<li>/g).length
-);
+assert.match(code,/<\/li>/g);
+assert.match(code,/<li>/g);
+assert.strictEqual(code.match(/<\/li>/g).length ,code.match(/<li>/g).length);
 ```
 
 Елементи `li` у вашому невпорядкованому списку не повинні бути порожніми.
 
 ```js
-$('ul li').each((i, val) =>
-  assert(__helpers.removeWhiteSpace(val.textContent))
+[...document.querySelectorAll('ul li')].forEach((val) =>
+  assert.isNotEmpty(__helpers.removeWhiteSpace(val.textContent))
 );
 ```
 
 Елементи `li` у вашому впорядкованому списку не повинні бути порожніми.
 
 ```js
-$('ol li').each((i, val) =>
-  assert(!!__helpers.removeWhiteSpace(val.textContent))
+[...document.querySelectorAll('ol li')].forEach((val) =>
+  assert.isNotEmpty(__helpers.removeWhiteSpace(val.textContent))
 );
 ```
 

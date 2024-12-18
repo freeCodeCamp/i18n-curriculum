@@ -22,6 +22,8 @@ fetch('/json/cats.json')
 
 ```
 
+Note: The `fetch()` method uses `GET` as the default `HTTP` method. This means you don’t need to specify it explicitly for basic data retrieval.
+
 Зверніть увагу на кожен фрагмент коду.
 
 Перший рядок здійснює запит. Таким чином `fetch(URL)` робить запит `GET` до конкретної URL-адреси. Метод повертає проміс.

@@ -20,13 +20,15 @@ In addition to pixels, you can also specify the `border-radius` using a percenta
 Ваше зображення має радіус, що межує з `50%`, роблячи його при цьому ідеально круглим.
 
 ```js
-assert(parseInt($('img').css('border-top-left-radius')) > 48);
+const image = document.querySelector('img');
+const borderTopLeftRadius = window.getComputedStyle(image)['border-top-left-radius'];
+assert.strictEqual(parseInt(borderTopLeftRadius), 50);
 ```
 
 Значення `border-radius` повинне використовувати відсоткове відношення значення `50%`.
 
 ```js
-assert(code.match(/50%/g));
+assert.match(__helpers.removeCssComments(code), /50%/g);
 ```
 
 # --seed--

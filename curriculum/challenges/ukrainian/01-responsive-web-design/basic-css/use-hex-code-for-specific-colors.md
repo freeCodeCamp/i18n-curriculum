@@ -30,17 +30,15 @@ body {
 Елемент `body` повинен мати чорний `background-color`.
 
 ```js
-assert($('body').css('background-color') === 'rgb(0, 0, 0)');
+const body = document.querySelector('body');
+const backgroundColor = window.getComputedStyle(body)['background-color']; 
+assert.strictEqual(backgroundColor, 'rgb(0, 0, 0)');
 ```
 
 Замість слова `black` потрібно використати шістнадцятковий код для чорного кольору.
 
 ```js
-assert(
-  code.match(
-    /body\s*{(([\s\S]*;\s*?)|\s*?)background.*\s*:\s*?#000(000)?((\s*})|(;[\s\S]*?}))/gi
-  )
-);
+assert.match(code, /body\s*{(([\s\S]*;\s*?)|\s*?)background.*\s*:\s*?#000(000)?((\s*})|(;[\s\S]*?}))/gi);
 ```
 
 # --seed--
