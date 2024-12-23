@@ -21,17 +21,16 @@ dashedName: create-grids-within-grids
 `item3` 클래스는 `auto`와 `1fr` 값을 가진 `grid-template-columns` 속성을 가져야 합니다.
 
 ```js
-assert(
-  code.match(
-    /.item3\s*?{[\s\S]*grid-template-columns\s*?:\s*?auto\s*?1fr\s*?;[\s\S]*}/gi
-  )
+assert.match(
+  code,
+  /.item3\s*?{[\s\S]*grid-template-columns\s*?:\s*?auto\s*?1fr\s*?;[\s\S]*}/gi
 );
 ```
 
 `item3` 클래스는 `grid` 값을 가진 `display` 속성을 가져야 합니다.
 
 ```js
-assert(code.match(/.item3\s*?{[\s\S]*display\s*?:\s*?grid\s*?;[\s\S]*}/gi));
+assert.match(code, /.item3\s*?{[\s\S]*display\s*?:\s*?grid\s*?;[\s\S]*}/gi);
 ```
 
 # --seed--
@@ -50,9 +49,9 @@ assert(code.match(/.item3\s*?{[\s\S]*display\s*?:\s*?grid\s*?;[\s\S]*}/gi));
     grid-template-rows: auto 1fr auto;
     grid-gap: 10px;
     grid-template-areas:
-      "advert header"
-      "advert content"
-      "advert footer";
+      'advert header'
+      'advert content'
+      'advert footer';
   }
   .item1 {
     background: LightSkyBlue;
@@ -85,7 +84,6 @@ assert(code.match(/.item3\s*?{[\s\S]*display\s*?:\s*?grid\s*?;[\s\S]*}/gi));
   .itemTwo {
     background: BlanchedAlmond;
   }
-
 </style>
 
 <div class="container">
@@ -102,5 +100,10 @@ assert(code.match(/.item3\s*?{[\s\S]*display\s*?:\s*?grid\s*?;[\s\S]*}/gi));
 # --solutions--
 
 ```html
-<style>.item3 {grid-template-columns: auto 1fr; display: grid;}</style>
+<style>
+  .item3 {
+    grid-template-columns: auto 1fr;
+    display: grid;
+  }
+</style>
 ```

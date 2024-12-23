@@ -37,7 +37,7 @@ dashedName: build-a-random-quote-machine
 
 **유저 스토리 #11:** `#quote-box` 래퍼(wrapper) 요소는 가로 중앙에 위치해야 합니다. 브라우저 줌 레벨을 100%로 설정하고 페이지를 최대화한 상태에서 테스트를 실행하세요.
 
-<a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">이 CodePen 템플릿을 사용</a>하여 프로젝트를 빌드할 수 있으며 `Save`을 클릭하여 자신만의 펜을 만들 수 있습니다. 또는 원하는 모든 환경에서 테스트를 실행하기 위해 이 CDN 링크를 사용할 수 있습니다: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
+You can build your project by <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">using this CodePen template</a> and clicking `Save` to create your own pen. If you prefer to use another environment, then put this `<script>` tag into the body of your `index.html` file: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
 
 완료가 되면 모든 테스트를 통과한 프로젝트의 URL을 제출하시오.
 

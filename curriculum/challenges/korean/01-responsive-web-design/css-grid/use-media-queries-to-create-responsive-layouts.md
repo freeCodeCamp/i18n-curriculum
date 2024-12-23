@@ -22,12 +22,9 @@ viewport 너비가 `400px` 이상일 때 헤더 영역이 상단 행을 완전�
 viewport가 `400px` 이상인 경우, `container` 클래스는 헤더와 푸터 영역이 각각 상단과 하단 행을 차지하고 광고와 내용이 가운데 행의 왼쪽과 오른쪽 열을 차지하는 `grid-template-areas` 속성을 가져야 합니다.
 
 ```js
-assert(
-  __helpers
-    .removeCssComments(code)
-    .match(
-      /@media\s*?\(\s*?min-width\s*?:\s*?400px\s*?\)[\s\S]*.container\s*?{[\s\S]*grid-template-areas\s*?:\s*?"\s*?header\s*?header\s*?"\s*?"\s*?advert\s*?content\s*?"\s*?"\s*?footer\s*?footer\s*?"\s*?;[\s\S]*}/gi
-    )
+assert.match(
+  __helpers.removeCssComments(code),
+  /@media\s*?\(\s*?min-width\s*?:\s*?400px\s*?\)[\s\S]*.container\s*?{[\s\S]*grid-template-areas\s*?:\s*?["|']\s*?header\s*?header\s*?["|']\s*?["|']\s*?advert\s*?content\s*?["|']\s*?["|']\s*?footer\s*?footer\s*?["|']\s*?;[\s\S]*}/gi
 );
 ```
 
@@ -67,30 +64,30 @@ assert(
     grid-template-rows: 50px auto 1fr auto;
     grid-gap: 10px;
     grid-template-areas:
-      "header"
-      "advert"
-      "content"
-      "footer";
+      'header'
+      'advert'
+      'content'
+      'footer';
   }
 
-  @media (min-width: 300px){
-    .container{
+  @media (min-width: 300px) {
+    .container {
       grid-template-columns: auto 1fr;
       grid-template-rows: auto 1fr auto;
       grid-template-areas:
-        "advert header"
-        "advert content"
-        "advert footer";
+        'advert header'
+        'advert content'
+        'advert footer';
     }
   }
 
-  @media (min-width: 400px){
-    .container{
+  @media (min-width: 400px) {
+    .container {
       grid-template-areas:
       /* Only change code below this line */
-        "advert header"
-        "advert content"
-        "advert footer";
+        'advert header'
+        'advert content'
+        'advert footer';
       /* Only change code above this line */
     }
   }
@@ -138,29 +135,29 @@ assert(
     grid-template-rows: 50px auto 1fr auto;
     grid-gap: 10px;
     grid-template-areas:
-      "header"
-      "advert"
-      "content"
-      "footer";
+      'header'
+      'advert'
+      'content'
+      'footer';
   }
 
-  @media (min-width: 300px){
-    .container{
+  @media (min-width: 300px) {
+    .container {
       grid-template-columns: auto 1fr;
       grid-template-rows: auto 1fr auto;
       grid-template-areas:
-        "advert header"
-        "advert content"
-        "advert footer";
+        'advert header'
+        'advert content'
+        'advert footer';
     }
   }
 
-  @media (min-width: 400px){
-    .container{
+  @media (min-width: 400px) {
+    .container {
       grid-template-areas:
-        "header header"
-        "advert content"
-        "footer footer";
+        'header header'
+        'advert content'
+        'footer footer';
     }
   }
 </style>

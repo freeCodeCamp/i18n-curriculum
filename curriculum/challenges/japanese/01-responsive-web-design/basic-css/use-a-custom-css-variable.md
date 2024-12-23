@@ -26,41 +26,25 @@ background: var(--penguin-skin);
 `--penguin-skin` 変数を `penguin-top` クラスの `background` プロパティに適用してください。
 
 ```js
-assert(
-  code.match(
-    /.penguin-top\s*?{[\s\S]*background\s*?:\s*?var\s*?\(\s*?--penguin-skin\s*?\)\s*?;[\s\S]*}[\s\S]*.penguin-bottom\s{/gi
-  )
-);
+assert.match(__helpers.removeCssComments(code), /.penguin-top\s*?{[\s\S]*background\s*?:\s*?var\s*?\(\s*?--penguin-skin\s*?\)\s*?;[\s\S]*}[\s\S]*.penguin-bottom\s{/gi);
 ```
 
 `--penguin-skin` 変数を `penguin-bottom` クラスの `background` プロパティに適用してください。
 
 ```js
-assert(
-  code.match(
-    /.penguin-bottom\s*?{[\s\S]*background\s*?:\s*?var\s*?\(\s*?--penguin-skin\s*?\)\s*?;[\s\S]*}[\s\S]*.right-hand\s{/gi
-  )
-);
+assert.match(__helpers.removeCssComments(code), /.penguin-bottom\s*?{[\s\S]*background\s*?:\s*?var\s*?\(\s*?--penguin-skin\s*?\)\s*?;[\s\S]*}[\s\S]*.right-hand\s{/gi);
 ```
 
 `--penguin-skin` 変数を `right-hand` クラスの `background` プロパティに適用してください。
 
 ```js
-assert(
-  code.match(
-    /.right-hand\s*?{[\s\S]*background\s*?:\s*?var\s*?\(\s*?--penguin-skin\s*?\)\s*?;[\s\S]*}[\s\S]*.left-hand\s{/gi
-  )
-);
+assert.match(__helpers.removeCssComments(code), /.right-hand\s*?{[\s\S]*background\s*?:\s*?var\s*?\(\s*?--penguin-skin\s*?\)\s*?;[\s\S]*}[\s\S]*.left-hand\s{/gi);
 ```
 
 `--penguin-skin` 変数を `left-hand` クラスの `background` プロパティに適用してください。
 
 ```js
-assert(
-  code.match(
-    /.left-hand\s*?{[\s\S]*background\s*?:\s*?var\s*?\(\s*?--penguin-skin\s*?\)\s*?;[\s\S]*}/gi
-  )
-);
+assert.match(__helpers.removeCssComments(code), /.left-hand\s*?{[\s\S]*background\s*?:\s*?var\s*?\(\s*?--penguin-skin\s*?\)\s*?;[\s\S]*}/gi);
 ```
 
 # --seed--

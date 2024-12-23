@@ -26,7 +26,9 @@ La disposición actual tiene demasiadas cajas para una sola fila. Agrega la prop
 El elemento `#box-container` debe tener la propiedad `flex-wrap` establecida en un valor de `wrap`.
 
 ```js
-assert($('#box-container').css('flex-wrap') == 'wrap');
+const boxContainer = document.querySelector('#box-container');
+const flexWrap = window.getComputedStyle(boxContainer)['flex-wrap'];
+assert.strictEqual(flexWrap, 'wrap');
 ```
 
 # --seed--

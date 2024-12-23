@@ -8,7 +8,7 @@ dashedName: create-a-set-of-radio-buttons
 
 # --description--
 
-You can use <dfn>radio buttons</dfn> for questions where you want the user to only give you one answer out of multiple options.
+사용자가 여러 선택지 중 하나를 선택하게 만드는 상황에 필요한 질문을 위한 <dfn>라디오 버튼</dfn>을 사용할 수 있습니다.
 
 라디오 버튼은 `input`의 한 유형입니다.
 

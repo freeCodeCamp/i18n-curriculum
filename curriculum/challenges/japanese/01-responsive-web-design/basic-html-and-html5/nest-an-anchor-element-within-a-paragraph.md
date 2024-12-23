@@ -53,82 +53,61 @@ Here's a <a href="https://www.freecodecamp.org" target="_blank">link to www.free
 `a` 要素が 1 つだけあるようにしてください。
 
 ```js
-assert(
-  $('a').length  === 1 
-);
+assert.lengthOf(document.querySelectorAll('a'), 1 );
 ```
 
 `a` 要素は "`https://www.freecatphotoapp.com`" にリンクする必要があります。
 
 ```js
-assert(
-  $('a[href="https://www.freecatphotoapp.com"]').length  === 1 
-);
+assert.lengthOf(document.querySelectorAll('a[href="https://www.freecatphotoapp.com"]'),1);
 ```
 
 `a` 要素は、`cat photos` というアンカーテキストを持つ必要があります。
 
 ```js
-assert(
-  $('a')
-    .text()
-    .match(/cat\sphotos/gi)
-);
+assert.match(document.querySelector('a').textContent,/cat\sphotos/gi)
 ```
 
 新しい `p` 要素を作成してください。 HTML コードには、`p` タグが少なくとも合計 3 つあるはずです。
 
 ```js
-assert($('p') && $('p').length > 2);
+assert.lengthOf(document.querySelectorAll('p'),3)
 ```
 
 `a` 要素は新しく作成した `p` 要素の中にネストされている必要があります。
 
 ```js
-assert(
-  $('a[href="https://www.freecatphotoapp.com"]').parent().is('p')
-);
+const anchorParent = document.querySelector('a[href="https://www.freecatphotoapp.com"]').parentNode;
+assert.strictEqual(anchorParent.tagName,"P")
 ```
 
 `p` 要素には `View more` (その後に半角スペース) というテキストが必要です。
 
 ```js
-assert(
-  $('a[href="https://www.freecatphotoapp.com"]')
-    .parent()
-    .text()
-    .match(/View\smore\s/gi)
-);
+const textContent = document.querySelector('a[href="https://www.freecatphotoapp.com"]').parentNode.textContent;
+assert.match(textContent,/View\smore\s/gi);
 ```
 
 `a` 要素には `View more` というテキストが含まれ<em>ない</em>ようにしてください。
 
 ```js
-assert(
-  !$('a')
-    .text()
-    .match(/View\smore/gi)
-);
+assert.notMatch(document.querySelector('a').textContent,/View\smore/gi); 
 ```
 
 それぞれの `p` 要素に終了タグが必要です。
 
 ```js
-assert(
-  code.match(/<\/p>/g) &&
-    code.match(/<p/g) &&
-    code.match(/<\/p>/g).length === code.match(/<p/g).length
-);
+assert.match(code,/<\/p>/g);
+assert.match(code,/<p/g);
+assert.strictEqual(code.match(/<\/p>/g).length,code.match(/<p/g).length);
 ```
 
 それぞれの `a` 要素に終了タグが必要です。
 
 ```js
-assert(
-  code.match(/<\/a>/g) &&
-    code.match(/<a/g) &&
-    code.match(/<\/a>/g).length === code.match(/<a/g).length
-);
+assert.match(code,/<\/a>/g);
+assert.match(code,/<a/g);
+assert.strictEqual(code.match(/<\/a>/g).length,code.match(/<a/g).length);
 ```
 
 # --seed--

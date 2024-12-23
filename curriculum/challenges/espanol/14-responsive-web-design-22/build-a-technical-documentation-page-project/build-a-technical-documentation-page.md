@@ -37,141 +37,147 @@ Completa las intrucciones y pasa los tests de abajo para completar este projecto
 Debes tener un elemento `main` con un `id` de `main-doc`.
 
 ```js
-const el = document.getElementById('main-doc')
-assert(!!el)
+const el = document.getElementById('main-doc');
+assert.isNotNull(el);
 ```
 
 Debes tener al menos cinco elementos `section` con la clase `main-section`.
 
 ```js
-const els = document.querySelectorAll('#main-doc section')
-assert(els.length >= 5)
+const els = document.querySelectorAll('#main-doc section');
+assert.isAtLeast(els.length, 5);
 ```
 
 Todos tus elementos `.main-section` deben ser elementos `section`.
 
 ```js
-const els = document.querySelectorAll('.main-section')
+const els = document.querySelectorAll('.main-section');
 els.forEach(el => {
-  if (el.tagName !== 'SECTION') assert(false)
-})
-assert(els.length > 0)
+  if (el.tagName !== 'SECTION') {
+    assert.fail();
+  }
+});
+assert.isAbove(els.length, 0);
 ```
 
 Debes tener al menos cinco elementos `.main-section` que sean descendientes de `#main-doc`.
 
 ```js
-const els = document.querySelectorAll('#main-doc .main-section')
-assert(els.length >= 5)
+const els = document.querySelectorAll('#main-doc .main-section');
+assert.isAtLeast(els.length, 5);
 ```
 
 El primer hijo de cada `.main-section` debe ser un elemento `header`.
 
 ```js
-const els = document.querySelectorAll('.main-section')
+const els = document.querySelectorAll('.main-section');
 els.forEach(el => {
-  if(el.firstElementChild?.tagName !== 'HEADER') assert(false)
-})
-assert(els.length > 0)
+  if (el.firstElementChild?.tagName !== 'HEADER') assert.fail();
+});
+assert.isNotEmpty(els);
 ```
 
 Ninguno de tus elementos `header` debe estar vacío.
 
 ```js
-const els = document.querySelectorAll('header')
+const els = document.querySelectorAll('header');
 els.forEach(el => {
-  if (el.innerText?.length <= 0) assert(false)
-})
-assert(els.length > 0)
+  if (el.innerText?.length <= 0) assert.fail();
+});
+assert.isNotEmpty(els);
 ```
 
 Todos tus elementos `.main-section` deben tener un `id`.
 
 ```js
-const els = document.querySelectorAll('.main-section')
+const els = document.querySelectorAll('.main-section');
 els.forEach(el => {
-  if (!el.id || el.id === '') assert(false)
-})
-assert(els.length > 0)
+  if (!el.id || el.id === '') assert.fail();
+});
+assert.isNotEmpty(els);
 ```
 
 Cada `.main-section` debe tener un `id` que coincida con el texto de su primer hijo, reemplazando los espacios en el texto del hijo con guiones bajos (`_`) para los id.
 
 ```js
-const els = document.querySelectorAll('.main-section')
+const els = document.querySelectorAll('.main-section');
 els.forEach(el => {
-  const text = el.firstElementChild?.innerText?.replaceAll(' ', '_')
-  if (el.id?.toUpperCase() !== text?.toUpperCase()) assert(false)
-})
-assert(els.length > 0)
+  const text = el.firstElementChild?.innerText?.replaceAll(' ', '_');
+  if (el.id?.toUpperCase() !== text?.toUpperCase()) assert.fail();
+});
+assert.isNotEmpty(els);
 ```
 
 Debes tener al menos 10 elementos (en total) `p` dentro de tus elementos `.main-section`.
 
 ```js
-const els = document.querySelectorAll('.main-section p')
-assert(els.length >= 10)
+const els = document.querySelectorAll('.main-section p');
+assert.isAtLeast(els.length, 10);
 ```
 
 Debes tener al menos cinco elementos `code` que sean descendientes de los elementos `.main-section`.
 
 ```js
-const els = document.querySelectorAll('.main-section code')
-assert(els.length >= 5)
+const els = document.querySelectorAll('.main-section code');
+assert.isAtLeast(els.length, 5);
 ```
 
 Debes tener al menos cinco elementos `li` que sean descendientes de los elementos `.main-section`.
 
 ```js
-const els = document.querySelectorAll('.main-section li')
-assert(els.length >= 5)
+const els = document.querySelectorAll('.main-section li');
+assert.isAtLeast(els.length, 5);
 ```
 
 Debes tener un elemento `nav` con un `id` de `navbar`.
 
 ```js
-const el = document.getElementById('navbar')
-assert(!!el && el.tagName === 'NAV')
+const el = document.getElementById('navbar');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'NAV');
 ```
 
 Tu `#navbar` debe tener exactamente un elemento `header` dentro de él.
 
 ```js
-const els = document.querySelectorAll('#navbar header')
-assert(els.length === 1)
+const els = document.querySelectorAll('#navbar header');
+assert.lengthOf(els, 1);
 ```
 
 Debes tener al menos un elemento `a` con la clase `nav-link`.
 
 ```js
-const els = document.querySelectorAll('a.nav-link')
-assert(els.length >= 1)
+const els = document.querySelectorAll('a.nav-link');
+assert.isAtLeast(els.length, 1);
 ```
 
 Todos tus elementos `.nav-link` deben ser elementos ancla (`a`).
 
 ```js
-const els = document.querySelectorAll('.nav-link')
+const els = document.querySelectorAll('.nav-link');
 els.forEach(el => {
-  if (el.tagName !== 'A') assert(false)
-})
-assert(els.length > 0)
+  if (el.tagName !== 'A') assert.fail();
+});
+assert.isNotEmpty(els);
 ```
 
 Todos tus elementos `.nav-link` deben estar en el `#navbar`.
 
 ```js
-const els1 = document.querySelectorAll('.nav-link')
-const els2 = document.querySelectorAll('#navbar .nav-link')
-assert(els2.length > 0 && els1.length === els2.length)
+const els1 = document.querySelectorAll('.nav-link');
+const els2 = document.querySelectorAll('#navbar .nav-link');
+assert.isNotEmpty(els2);
+assert.strictEqual(els1.length, els2.length);
 ```
 
 Debes tener el mismo número de elementos `.nav-link` y `.main-section`.
 
 ```js
-const els1 = document.querySelectorAll('.main-section')
-const els2 = document.querySelectorAll('.nav-link')
-assert(els1.length > 0 && els2.length > 0 && els1.length === els2.length)
+const els1 = document.querySelectorAll('.main-section');
+const els2 = document.querySelectorAll('.nav-link');
+assert.isNotEmpty(els1);
+assert.isNotEmpty(els2);
+assert.strictEqual(els1.length, els2.length);
 ```
 
 El elemento `header` en el `#navbar` debe estar antes de cualquiera de los elementos enlace (`a`) también en la `#navbar`.
@@ -179,54 +185,66 @@ El elemento `header` en el `#navbar` debe estar antes de cualquiera de los eleme
 ```js
 const navLinks = document.querySelectorAll('#navbar a.nav-link');
 const header = document.querySelector('#navbar header');
-navLinks.forEach((navLink) => {
+navLinks.forEach(navLink => {
   if (
-    (
-      header.compareDocumentPosition(navLink) &
-      Node.DOCUMENT_POSITION_PRECEDING
-    ) 
-  ) assert(false)
+    header.compareDocumentPosition(navLink) & Node.DOCUMENT_POSITION_PRECEDING
+  )
+    assert.fail();
 });
-assert(!!header)
+assert.isNotNull(header);
 ```
 
 Cada `.nav-link` debe tener un texto que corresponda con el texto del `header` de su `section` relacionado (por ejemplo, si tienes un section/header "Hello world", tu `#navbar` debe tener un `.nav-link` que tenga el texto "Hello world").
 
 ```js
-const headerText = Array.from(document.querySelectorAll('.main-section')).map(el =>
-  el.firstElementChild?.innerText?.trim().toUpperCase()
-)
+const headerText = Array.from(document.querySelectorAll('.main-section')).map(
+  el => el.firstElementChild?.innerText?.trim().toUpperCase()
+);
 const linkText = Array.from(document.querySelectorAll('.nav-link')).map(el =>
   el.innerText?.trim().toUpperCase()
-)
-const remainder = headerText.filter(str => linkText.indexOf(str) === -1)
-assert(headerText.length > 0 && linkText.length > 0 && remainder.length === 0)
+);
+const remainder = headerText.filter(str => linkText.indexOf(str) === -1);
+
+assert.isNotEmpty(headerText);
+assert.isNotEmpty(linkText);
+assert.isEmpty(remainder);
 ```
 
 Cada `.nav-link` debe tener un atributo `href` que enlace a su correspondiente `.main-section` (por ejemplo, si haces clic en un elemento `.nav-link` que contenga el texto "Hello world", la página navega al elemento `section` con ese id).
 
 ```js
-const hrefValues = Array.from(document.querySelectorAll('.nav-link')).map(el => el.getAttribute('href'))
-const mainSectionIDs = Array.from(document.querySelectorAll('.main-section')).map(el => el.id)
-const missingHrefValues = mainSectionIDs.filter(str => hrefValues.indexOf('#' + str) === -1)
-assert(hrefValues.length > 0 && mainSectionIDs.length > 0 && missingHrefValues.length === 0)
+const hrefValues = Array.from(document.querySelectorAll('.nav-link')).map(el =>
+  el.getAttribute('href')
+);
+const mainSectionIDs = Array.from(
+  document.querySelectorAll('.main-section')
+).map(el => el.id);
+const missingHrefValues = mainSectionIDs.filter(
+  str => hrefValues.indexOf('#' + str) === -1
+);
+assert.isNotEmpty(hrefValues);
+assert.isNotEmpty(mainSectionIDs);
+assert.isEmpty(missingHrefValues, 0);
 ```
 
 Tu `#navbar` siempre debe estar en el borde izquierdo de la ventana.
 
 ```js
-const el = document.getElementById('navbar')
-const left1 = el?.offsetLeft
-const left2 = el?.offsetLeft
-assert(!!el && left1 >= -15 && left1 <= 15 && left2 >= -15 && left2 <= 15)
+const el = document.getElementById('navbar');
+const left1 = el?.offsetLeft;
+assert.isNotNull(el);
+assert.isAtLeast(left1, -15);
+assert.isAtMost(left1, 15);
 ```
 
 Tu proyecto de documentación técnica debe usar al menos una consulta de medios.
 
 ```js
-const htmlSourceAttr = Array.from(document.querySelectorAll('source')).map(el => el.getAttribute('media'))
-const cssCheck = new __helpers.CSSHelp(document).getCSSRules('media')
-assert(cssCheck.length > 0 || htmlSourceAttr.length > 0);
+const htmlSourceAttr = Array.from(document.querySelectorAll('source')).map(el =>
+  el.getAttribute('media')
+);
+const cssCheck = new __helpers.CSSHelp(document).getCSSRules('media');
+assert.isTrue(cssCheck.length > 0 || htmlSourceAttr.length > 0);
 ```
 
 # --seed--
@@ -501,7 +519,7 @@ a:hover {
   left: -5px;
   padding: 5px;
   text-align: center;
-  color: #92869c
+  color: #92869c;
 }
 @media (min-width: 480px) {
   #navbar {
@@ -510,7 +528,7 @@ a:hover {
 }
 main {
   margin-left: 220px;
-  color: #92869c
+  color: #92869c;
 }
 header {
   font-size: 20pt;

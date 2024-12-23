@@ -20,13 +20,17 @@ Agrega la propiedad CSS `order` tanto a `#box-1` como a `#box-2`. Da a `#box-1` 
 El elemento `#box-1` debe tener la propiedad `order` establecida en un valor de `2`.
 
 ```js
-assert($('#box-1').css('order') == '2');
+const boxOne = document.querySelector('#box-1');
+const order = window.getComputedStyle(boxOne)['order'];
+assert.strictEqual(order, '2');
 ```
 
 El elemento `#box-2` debe tener la propiedad `order` establecida en un valor de `1`.
 
 ```js
-assert($('#box-2').css('order') == '1');
+const boxTwo = document.querySelector('#box-2');
+const order = window.getComputedStyle(boxTwo)['order'];
+assert.strictEqual(order, '1');
 ```
 
 # --seed--

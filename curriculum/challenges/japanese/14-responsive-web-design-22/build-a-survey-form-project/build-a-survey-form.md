@@ -38,327 +38,368 @@ dashedName: build-a-survey-form
 `id` の値が `title` に設定されている `h1` 要素が 1 つ必要です。
 
 ```js
-const el = document.getElementById('title')
-assert(!!el && el.tagName === 'H1')
+const el = document.getElementById('title');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'H1');
 ```
 
 `#title` が空でないようにしてください。
 
 ```js
-const el = document.getElementById('title')
-assert(!!el && el.innerText.length > 0)
+const el = document.getElementById('title');
+assert.isNotNull(el);
+assert.isAbove(el.innerText.length, 0);
 ```
 
 `id` が `description` である `p` 要素が 1 つ必要です。
 
 ```js
-const el = document.getElementById('description')
-assert(!!el && el.tagName === 'P')
+const el = document.getElementById('description');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'P');
 ```
 
 `#description` が空でないようにしてください。
 
 ```js
-const el = document.getElementById('description')
-assert(!!el && el.innerText.length > 0)
+const el = document.getElementById('description');
+assert.isNotNull(el);
+assert.isAbove(el.innerText.length, 0);
 ```
 
 `id` の値が `survey-form` に設定されている `form` 要素が 1 つ必要です。
 
 ```js
-const el = document.getElementById('survey-form')
-assert(!!el && el.tagName === 'FORM')
+const el = document.getElementById('survey-form');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'FORM');
 ```
 
 `id` の値が `name` に設定されている `input` 要素が 1 つ必要です。
 
 ```js
-const el = document.getElementById('name')
-assert(!!el && el.tagName === 'INPUT')
+const el = document.getElementById('name');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'INPUT');
 ```
 
 `#name` の `type` の値は `text` に設定されている必要があります。
 
 ```js
-const el = document.getElementById('name')
-assert(!!el && el.type === 'text')
+const el = document.getElementById('name');
+assert.isNotNull(el);
+assert.strictEqual(el.type, 'text');
 ```
 
 `#name` の入力が必須である必要があります。
 
 ```js
-const el = document.getElementById('name')
-assert(!!el && el.required)
+const el = document.getElementById('name');
+assert.isNotNull(el);
+assert.isTrue(el.required);
 ```
 
 `#name` は `#survey-form` の子孫要素である必要があります。
 
 ```js
-const el = document.querySelector('#survey-form #name')
-assert(!!el)
+const el = document.querySelector('#survey-form #name');
+assert.isNotNull(el);
 ```
 
 `id` の値が `email` に設定されている `input` 要素が 1 つ必要です。
 
 ```js
-const el = document.getElementById('email')
-assert(!!el && el.tagName === 'INPUT')
+const el = document.getElementById('email');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'INPUT');
 ```
 
 `#email` の `type` の値は `email` に設定されている必要があります。
 
 ```js
-const el = document.getElementById('email')
-assert(!!el && el.type === 'email')
+const el = document.getElementById('email');
+assert.isNotNull(el);
+assert.strictEqual(el.type, 'email');
 ```
 
 `#email` の入力が必須である必要があります。
 
 ```js
-const el = document.getElementById('email')
-assert(!!el && el.required)
+const el = document.getElementById('email');
+assert.isNotNull(el);
+assert.isTrue(el.required);
 ```
 
 `#email` は `#survey-form` の子孫要素である必要があります
 
 ```js
-const el = document.querySelector('#survey-form #email')
-assert(!!el)
+const el = document.querySelector('#survey-form #email');
+assert.isNotNull(el);
 ```
 
 `id` の値が `number` に設定されている `input` 要素が 1 つ必要です。
 
 ```js
-const el = document.getElementById('number')
-assert(!!el && el.tagName === 'INPUT')
+const el = document.getElementById('number');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'INPUT');
 ```
 
 `#number` は `#survey-form` の子孫要素である必要があります。
 
 ```js
-const el = document.querySelector('#survey-form #number')
-assert(!!el)
+const el = document.querySelector('#survey-form #number');
+assert.isNotNull(el);
 ```
 
 `#number` の `type` の値は `number` に設定されている必要があります。
 
 ```js
-const el = document.getElementById('number')
-assert(!!el && el.type === 'number')
+const el = document.getElementById('number');
+assert.isNotNull(el);
+assert.strictEqual(el.type, 'number');
 ```
 
 `#number` は数値が設定された `min` 属性をもつ必要があります。
 
 ```js
-const el = document.getElementById('number')
-assert(!!el && el.min && isFinite(el.min))
+const el = document.getElementById('number');
+assert.isNotNull(el);
+assert.isNotEmpty(el.min);
+assert.isTrue(isFinite(el.min));
 ```
 
 `#number` は数値が設定された `max` 属性をもつ必要があります。
 
 ```js
-const el = document.getElementById('number')
-assert(!!el && el.max && isFinite(el.max))
+const el = document.getElementById('number');
+assert.isNotNull(el);
+assert.isNotEmpty(el.max);
+assert.isTrue(isFinite(el.max));
 ```
 
 `id` の値が `name-label` に設定されている `label` 要素が 1 つ必要です。
 
 ```js
-const el = document.getElementById('name-label')
-assert(!!el && el.tagName === 'LABEL')
+const el = document.getElementById('name-label');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'LABEL');
 ```
 
 `id` の値が `email-label` に設定されている `label` 要素が 1 つ必要です。
 
 ```js
-const el = document.getElementById('email-label')
-assert(!!el && el.tagName === 'LABEL')
+const el = document.getElementById('email-label');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'LABEL');
 ```
 
 `id` の値が `number-label` に設定されている `label` 要素が 1 つ必要です。
 
 ```js
-const el = document.getElementById('number-label')
-assert(!!el && el.tagName === 'LABEL')
+const el = document.getElementById('number-label');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'LABEL');
 ```
 
 `#name-label` には入力欄について説明するテキストを含める必要があります。
 
 ```js
-const el = document.getElementById('name-label')
-assert(!!el && el.innerText.length > 0)
+const el = document.getElementById('name-label');
+assert.isNotNull(el);
+assert.isAbove(el.innerText.length, 0);
 ```
 
 `#email-label` には入力欄について説明するテキストを含める必要があります。
 
 ```js
-const el = document.getElementById('email-label')
-assert(!!el && el.innerText.length > 0)
+const el = document.getElementById('email-label');
+assert.isNotNull(el);
+assert.isAbove(el.innerText.length, 0);
 ```
 
 `#number-label` には入力欄について説明するテキストを含める必要があります。
 
 ```js
-const el = document.getElementById('number-label')
-assert(!!el && el.innerText.length > 0)
+const el = document.getElementById('number-label');
+assert.isNotNull(el);
+assert.isAbove(el.innerText.length, 0);
 ```
 
 `#name-label` は `#survey-form` の子孫要素である必要があります。
 
 ```js
-const el = document.querySelector('#survey-form #name-label')
-assert(!!el)
+const el = document.querySelector('#survey-form #name-label');
+assert.isNotNull(el);
 ```
 
 `#email-label` は `#survey-form` の子孫要素である必要があります。
 
 ```js
-const el = document.querySelector('#survey-form #email-label')
-assert(!!el)
+const el = document.querySelector('#survey-form #email-label');
+assert.isNotNull(el);
 ```
 
 `#number-label` は `#survey-form` の子孫要素である必要があります。
 
 ```js
-const el = document.querySelector('#survey-form #number-label')
-assert(!!el)
+const el = document.querySelector('#survey-form #number-label');
+assert.isNotNull(el);
 ```
 
 `#name` は `placeholder` 属性とその値をもつ必要があります。
 
 ```js
-const el = document.getElementById('name')
-assert(!!el && !!el.placeholder && el.placeholder.length > 0)
+const el = document.getElementById('name');
+assert.isNotNull(el);
+assert.isNotNull(el.placeholder);
+assert.isAbove(el.placeholder.length, 0);
 ```
 
 `#email` は `placeholder` 属性とその値をもつ必要があります。
 
 ```js
-const el = document.getElementById('email')
-assert(!!el && !!el.placeholder && el.placeholder.length > 0)
+const el = document.getElementById('email');
+assert.isNotNull(el);
+assert.isNotNull(el.placeholder);
+assert.isAbove(el.placeholder.length, 0);
 ```
 
 `#number` は `placeholder` 属性とその値をもつ必要があります。
 
 ```js
-const el = document.getElementById('number')
-assert(!!el && !!el.placeholder && el.placeholder.length > 0)
+const el = document.getElementById('number');
+assert.isNotNull(el);
+assert.isNotNull(el.placeholder);
+assert.isAbove(el.placeholder.length, 0);
 ```
 
 `id` の値が `dropdown` に設定されている `select` 欄が 1 つ必要です。
 
 ```js
-const el = document.getElementById('dropdown')
-assert(!!el && el.tagName === 'SELECT')
+const el = document.getElementById('dropdown');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'SELECT');
 ```
 
 `#dropdown` は少なくとも 2 つの選択可能な (無効化されていない) `option` 要素をもつ必要があります。
 
 ```js
-const els = document.querySelectorAll('#dropdown option:not([disabled])')
-assert(els.length >= 2)
+const els = document.querySelectorAll('#dropdown option:not([disabled])');
+assert.isAtLeast(els.length, 2);
 ```
 
 `#dropdown` は `#survey-form` の子孫要素である必要があります。
 
 ```js
-const el = document.querySelector('#survey-form #dropdown')
-assert(!!el)
+const el = document.querySelector('#survey-form #dropdown');
+assert.isNotNull(el);
 ```
 
 `type` の値が `radio` (ラジオボタン) に設定されている `input` 要素が少なくとも 2 つ必要です。
 
 ```js
-const els = document.querySelectorAll('input[type="radio"]')
-assert(els.length >= 2)
+const els = document.querySelectorAll('input[type="radio"]');
+assert.isAtLeast(els.length, 2);
 ```
 
 少なくとも 2 つのラジオボタンが `#survey-form` の子孫要素として必要です。
 
 ```js
-const els = document.querySelectorAll('#survey-form input[type="radio"]')
-assert(els.length >= 2)
+const els = document.querySelectorAll('#survey-form input[type="radio"]');
+assert.isAtLeast(els.length, 2);
 ```
 
 すべてのラジオボタンには `value` 属性とその値が必要です。
 
 ```js
-const els1 = document.querySelectorAll('input[type="radio"]')
-const els2 = document.querySelectorAll('input[type="radio"][value=""], input[type="radio"]:not([value])')
-assert(els1.length > 0 && els2.length === 0)
+const els1 = document.querySelectorAll('input[type="radio"]');
+const els2 = document.querySelectorAll(
+  'input[type="radio"][value=""], input[type="radio"]:not([value])'
+);
+assert.isAbove(els1.length, 0);
+assert.lengthOf(els2, 0);
 ```
 
 すべてのラジオボタンには `name` 属性とその値が必要です。
 
 ```js
-const els1 = document.querySelectorAll('input[type="radio"]')
-const els2 = document.querySelectorAll('input[type="radio"][name=""], input[type="radio"]:not([name])')
-assert(els1.length > 0 && els2.length === 0)
+const els1 = document.querySelectorAll('input[type="radio"]');
+const els2 = document.querySelectorAll(
+  'input[type="radio"][name=""], input[type="radio"]:not([name])'
+);
+assert.isAbove(els1.length, 0);
+assert.lengthOf(els2, 0);
 ```
 
 ラジオボタンの各グループには少なくとも 2 つのラジオボタンが必要です。
 
 ```js
 const radioButtons = document.querySelectorAll('input[type="radio"]');
-const groups = {}
+const groups = {};
 
 if (radioButtons) {
   radioButtons.forEach(el => {
-    if (!groups[el.name]) groups[el.name] = []
-    groups[el.name].push(el)
-  })
+    if (!groups[el.name]) groups[el.name] = [];
+    groups[el.name].push(el);
+  });
 }
 
-const groupKeys = Object.keys(groups)
+const groupKeys = Object.keys(groups);
 
 groupKeys.forEach(key => {
-  if (groups[key].length < 2) assert(false)
-})
+  if (groups[key].length < 2) assert(false);
+});
 
-assert(groupKeys.length > 0)
+assert.isAbove(groupKeys.length, 0);
 ```
 
 `type` の値が `checkbox` (チェックボックス) に設定されている `input` 要素が `#survey-form` の子孫要素として少なくとも 2 つ必要です。
 
 ```js
 const els = document.querySelectorAll('#survey-form input[type="checkbox"]');
-assert(els.length >= 2)
+assert.isAtLeast(els.length, 2);
 ```
 
 `#survey-form` 内のすべてのチェックボックスには `value` 属性とその値が必要です。
 
 ```js
-const els1 = document.querySelectorAll('#survey-form input[type="checkbox"]')
-const els2 = document.querySelectorAll('#survey-form input[type="checkbox"][value=""], #survey-form input[type="checkbox"]:not([value])')
-assert(els1.length > 0 && els2.length === 0)
+const els1 = document.querySelectorAll('#survey-form input[type="checkbox"]');
+const els2 = document.querySelectorAll(
+  '#survey-form input[type="checkbox"][value=""], #survey-form input[type="checkbox"]:not([value])'
+);
+assert.isAbove(els1.length, 0);
+assert.lengthOf(els2, 0);
 ```
 
 少なくとも 1 つの `textarea` 要素が `#survey-form` の子孫要素として必要です。
 
 ```js
-const el = document.querySelector('#survey-form textarea')
-assert(!!el)
+const el = document.querySelector('#survey-form textarea');
+assert.isNotNull(el);
 ```
 
 `id` の値が `submit` に設定されている、`input` または `button` 要素が 1 つ必要です。
 
 ```js
-const el = document.getElementById('submit')
-assert(!!el && (el.tagName === 'INPUT' || el.tagName === 'BUTTON'))
+const el = document.getElementById('submit');
+assert.isNotNull(el);
+assert.isTrue(el.tagName === 'INPUT' || el.tagName === 'BUTTON');
 ```
 
 `#submit` は `type` が `submit` に設定されている必要があります。
 
 ```js
-const el = document.getElementById('submit')
-assert(!!el && el.type === 'submit')
+const el = document.getElementById('submit');
+assert.isNotNull(el);
+assert.strictEqual(el.type, 'submit');
 ```
 
 `#submit` は `#survey-form` の子孫要素である必要があります。
 
 ```js
-const el = document.querySelector('#survey-form #submit')
-assert(!!el)
+const el = document.querySelector('#survey-form #submit');
+assert.isNotNull(el);
 ```
 
 # --seed--
@@ -508,7 +549,10 @@ body {
   background: #3a3240;
   color: white;
 }
-input, textarea, select, button {
+input,
+textarea,
+select,
+button {
   background: #3a3240;
   color: white;
 }

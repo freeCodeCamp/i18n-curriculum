@@ -37,141 +37,147 @@ dashedName: build-a-technical-documentation-page
 `id` の値が `main-doc` に設定されている `main` 要素が 1 つ必要です。
 
 ```js
-const el = document.getElementById('main-doc')
-assert(!!el)
+const el = document.getElementById('main-doc');
+assert.isNotNull(el);
 ```
 
 クラスが `main-section` である `section` 要素が少なくとも 5 つ必要です。
 
 ```js
-const els = document.querySelectorAll('#main-doc section')
-assert(els.length >= 5)
+const els = document.querySelectorAll('#main-doc section');
+assert.isAtLeast(els.length, 5);
 ```
 
 `.main-section` の要素はすべて `section` 要素である必要があります。
 
 ```js
-const els = document.querySelectorAll('.main-section')
+const els = document.querySelectorAll('.main-section');
 els.forEach(el => {
-  if (el.tagName !== 'SECTION') assert(false)
-})
-assert(els.length > 0)
+  if (el.tagName !== 'SECTION') {
+    assert.fail();
+  }
+});
+assert.isAbove(els.length, 0);
 ```
 
 `#main-doc` の子孫要素として、少なくとも 5 つの `.main-section` 要素が必要です。
 
 ```js
-const els = document.querySelectorAll('#main-doc .main-section')
-assert(els.length >= 5)
+const els = document.querySelectorAll('#main-doc .main-section');
+assert.isAtLeast(els.length, 5);
 ```
 
 各 `.main-section` の最初の子要素は `header` 要素である必要があります。
 
 ```js
-const els = document.querySelectorAll('.main-section')
+const els = document.querySelectorAll('.main-section');
 els.forEach(el => {
-  if(el.firstElementChild?.tagName !== 'HEADER') assert(false)
-})
-assert(els.length > 0)
+  if (el.firstElementChild?.tagName !== 'HEADER') assert.fail();
+});
+assert.isNotEmpty(els);
 ```
 
 どの `header` 要素も空でないようにしてください。
 
 ```js
-const els = document.querySelectorAll('header')
+const els = document.querySelectorAll('header');
 els.forEach(el => {
-  if (el.innerText?.length <= 0) assert(false)
-})
-assert(els.length > 0)
+  if (el.innerText?.length <= 0) assert.fail();
+});
+assert.isNotEmpty(els);
 ```
 
 すべての `.main-section` 要素が `id` を持つようにしてください。
 
 ```js
-const els = document.querySelectorAll('.main-section')
+const els = document.querySelectorAll('.main-section');
 els.forEach(el => {
-  if (!el.id || el.id === '') assert(false)
-})
-assert(els.length > 0)
+  if (!el.id || el.id === '') assert.fail();
+});
+assert.isNotEmpty(els);
 ```
 
 各 `.main-section` が、その最初の子要素のテキストに対応する `id` を持つように、子要素のテキストのスペースをアンダースコア (`_`) に置き換えた id を設定してください。
 
 ```js
-const els = document.querySelectorAll('.main-section')
+const els = document.querySelectorAll('.main-section');
 els.forEach(el => {
-  const text = el.firstElementChild?.innerText?.replaceAll(' ', '_')
-  if (el.id?.toUpperCase() !== text?.toUpperCase()) assert(false)
-})
-assert(els.length > 0)
+  const text = el.firstElementChild?.innerText?.replaceAll(' ', '_');
+  if (el.id?.toUpperCase() !== text?.toUpperCase()) assert.fail();
+});
+assert.isNotEmpty(els);
 ```
 
 `.main-section` の要素内に、(合計で) 少なくとも 10 個の `p` 要素が必要です。
 
 ```js
-const els = document.querySelectorAll('.main-section p')
-assert(els.length >= 10)
+const els = document.querySelectorAll('.main-section p');
+assert.isAtLeast(els.length, 10);
 ```
 
 `.main-section` の子孫要素として、(合計で) 少なくとも 5 個の `code` 要素が必要です。
 
 ```js
-const els = document.querySelectorAll('.main-section code')
-assert(els.length >= 5)
+const els = document.querySelectorAll('.main-section code');
+assert.isAtLeast(els.length, 5);
 ```
 
 `.main-section` の子孫要素として、(合計で) 少なくとも 5 個の `li` 要素が必要です。
 
 ```js
-const els = document.querySelectorAll('.main-section li')
-assert(els.length >= 5)
+const els = document.querySelectorAll('.main-section li');
+assert.isAtLeast(els.length, 5);
 ```
 
 `id` が `navbar` である `nav` 要素が 1 つ必要です。
 
 ```js
-const el = document.getElementById('navbar')
-assert(!!el && el.tagName === 'NAV')
+const el = document.getElementById('navbar');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'NAV');
 ```
 
 `#navbar` 内に `header` 要素が 1 つだけあるようにしてください。
 
 ```js
-const els = document.querySelectorAll('#navbar header')
-assert(els.length === 1)
+const els = document.querySelectorAll('#navbar header');
+assert.lengthOf(els, 1);
 ```
 
 クラスが `nav-link` である `a` 要素が少なくとも 1 つ必要です。
 
 ```js
-const els = document.querySelectorAll('a.nav-link')
-assert(els.length >= 1)
+const els = document.querySelectorAll('a.nav-link');
+assert.isAtLeast(els.length, 1);
 ```
 
 `.nav-link` の要素はすべてアンカー (`a`) 要素である必要があります。
 
 ```js
-const els = document.querySelectorAll('.nav-link')
+const els = document.querySelectorAll('.nav-link');
 els.forEach(el => {
-  if (el.tagName !== 'A') assert(false)
-})
-assert(els.length > 0)
+  if (el.tagName !== 'A') assert.fail();
+});
+assert.isNotEmpty(els);
 ```
 
 `.nav-link` の要素はすべて `#navbar` の中にある必要があります。
 
 ```js
-const els1 = document.querySelectorAll('.nav-link')
-const els2 = document.querySelectorAll('#navbar .nav-link')
-assert(els2.length > 0 && els1.length === els2.length)
+const els1 = document.querySelectorAll('.nav-link');
+const els2 = document.querySelectorAll('#navbar .nav-link');
+assert.isNotEmpty(els2);
+assert.strictEqual(els1.length, els2.length);
 ```
 
 `.nav-link` の要素と `.main-section` の要素の数が同じである必要があります。
 
 ```js
-const els1 = document.querySelectorAll('.main-section')
-const els2 = document.querySelectorAll('.nav-link')
-assert(els1.length > 0 && els2.length > 0 && els1.length === els2.length)
+const els1 = document.querySelectorAll('.main-section');
+const els2 = document.querySelectorAll('.nav-link');
+assert.isNotEmpty(els1);
+assert.isNotEmpty(els2);
+assert.strictEqual(els1.length, els2.length);
 ```
 
 `#navbar` 内の `header` 要素は、同じく `#navbar` 内にあるどのリンク (`a`) 要素よりも前に置かれなければなりません。
@@ -179,54 +185,66 @@ assert(els1.length > 0 && els2.length > 0 && els1.length === els2.length)
 ```js
 const navLinks = document.querySelectorAll('#navbar a.nav-link');
 const header = document.querySelector('#navbar header');
-navLinks.forEach((navLink) => {
+navLinks.forEach(navLink => {
   if (
-    (
-      header.compareDocumentPosition(navLink) &
-      Node.DOCUMENT_POSITION_PRECEDING
-    ) 
-  ) assert(false)
+    header.compareDocumentPosition(navLink) & Node.DOCUMENT_POSITION_PRECEDING
+  )
+    assert.fail();
 });
-assert(!!header)
+assert.isNotNull(header);
 ```
 
 各 `.nav-link` には、関連する `section` の `header` テキストに対応するテキストが必要です (例えば、もし "Hello world" セクション / ヘッダーがあるならば、`#navbar` には "Hello world" というテキストを含む `.nav-link` が必要です)。
 
 ```js
-const headerText = Array.from(document.querySelectorAll('.main-section')).map(el =>
-  el.firstElementChild?.innerText?.trim().toUpperCase()
-)
+const headerText = Array.from(document.querySelectorAll('.main-section')).map(
+  el => el.firstElementChild?.innerText?.trim().toUpperCase()
+);
 const linkText = Array.from(document.querySelectorAll('.nav-link')).map(el =>
   el.innerText?.trim().toUpperCase()
-)
-const remainder = headerText.filter(str => linkText.indexOf(str) === -1)
-assert(headerText.length > 0 && linkText.length > 0 && remainder.length === 0)
+);
+const remainder = headerText.filter(str => linkText.indexOf(str) === -1);
+
+assert.isNotEmpty(headerText);
+assert.isNotEmpty(linkText);
+assert.isEmpty(remainder);
 ```
 
 各 `.nav-link` には、対応する `.main-section` へとリンクする `href` 属性が必要です (例えば、"Hello world" のテキストを含む `.nav-link` 要素をクリックしたならば、その id を持つ `section` 要素に移動しなければなりません)。
 
 ```js
-const hrefValues = Array.from(document.querySelectorAll('.nav-link')).map(el => el.getAttribute('href'))
-const mainSectionIDs = Array.from(document.querySelectorAll('.main-section')).map(el => el.id)
-const missingHrefValues = mainSectionIDs.filter(str => hrefValues.indexOf('#' + str) === -1)
-assert(hrefValues.length > 0 && mainSectionIDs.length > 0 && missingHrefValues.length === 0)
+const hrefValues = Array.from(document.querySelectorAll('.nav-link')).map(el =>
+  el.getAttribute('href')
+);
+const mainSectionIDs = Array.from(
+  document.querySelectorAll('.main-section')
+).map(el => el.id);
+const missingHrefValues = mainSectionIDs.filter(
+  str => hrefValues.indexOf('#' + str) === -1
+);
+assert.isNotEmpty(hrefValues);
+assert.isNotEmpty(mainSectionIDs);
+assert.isEmpty(missingHrefValues, 0);
 ```
 
 `#navbar` は常にウィンドウの左端にある必要があります。
 
 ```js
-const el = document.getElementById('navbar')
-const left1 = el?.offsetLeft
-const left2 = el?.offsetLeft
-assert(!!el && left1 >= -15 && left1 <= 15 && left2 >= -15 && left2 <= 15)
+const el = document.getElementById('navbar');
+const left1 = el?.offsetLeft;
+assert.isNotNull(el);
+assert.isAtLeast(left1, -15);
+assert.isAtMost(left1, 15);
 ```
 
 技術ドキュメントのプロジェクトに、少なくとも 1 つのメディアクエリが使われている必要があります。
 
 ```js
-const htmlSourceAttr = Array.from(document.querySelectorAll('source')).map(el => el.getAttribute('media'))
-const cssCheck = new __helpers.CSSHelp(document).getCSSRules('media')
-assert(cssCheck.length > 0 || htmlSourceAttr.length > 0);
+const htmlSourceAttr = Array.from(document.querySelectorAll('source')).map(el =>
+  el.getAttribute('media')
+);
+const cssCheck = new __helpers.CSSHelp(document).getCSSRules('media');
+assert.isTrue(cssCheck.length > 0 || htmlSourceAttr.length > 0);
 ```
 
 # --seed--
@@ -501,7 +519,7 @@ a:hover {
   left: -5px;
   padding: 5px;
   text-align: center;
-  color: #92869c
+  color: #92869c;
 }
 @media (min-width: 480px) {
   #navbar {
@@ -510,7 +528,7 @@ a:hover {
 }
 main {
   margin-left: 220px;
-  color: #92869c
+  color: #92869c;
 }
 header {
   font-size: 20pt;

@@ -9,7 +9,7 @@ dashedName: adjust-the-background-color-property-of-text
 
 # --description--
 
-Instead of adjusting your overall background or the color of the text to make the foreground easily readable, you can add a `background-color` to the element holding the text you want to emphasize. This challenge uses `rgba()` instead of `hex` codes or normal `rgb()`.
+전체 배경을 조정하거나 전경의 가독성을 위해 텍스트 색상을 바꾸는 대신, 강조하고자 하는 텍스트를 가진 요소 자체에 `background-color`를 입힐 수 있습니다. 이번 도전 과제는 `hex` 코드나 보통의 `rgb()`를 사용하는 대신 `rgba()`를 사용합니다.
 
 <blockquote>rgba는 아래의 약어입니다:<br>  r = red<br>  g = green<br>  b = blue<br>  a = alpha 값/불투명도 수준</blockquote>
 

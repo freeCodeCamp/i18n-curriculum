@@ -20,13 +20,17 @@ CSS プロパティ `order` を `#box-1` と `#box-2` の両方に追加して�
 `#box-1` 要素の `order` プロパティを `2` に設定してください。
 
 ```js
-assert($('#box-1').css('order') == '2');
+const boxOne = document.querySelector('#box-1');
+const order = window.getComputedStyle(boxOne)['order'];
+assert.strictEqual(order, '2');
 ```
 
 `#box-2` 要素の `order` プロパティを `1` に設定してください。
 
 ```js
-assert($('#box-2').css('order') == '1');
+const boxTwo = document.querySelector('#box-2');
+const order = window.getComputedStyle(boxTwo)['order'];
+assert.strictEqual(order, '1');
 ```
 
 # --seed--

@@ -41,7 +41,7 @@ Aquí tienes algunas muestras de audio que puedes usar para tu batería electró
 - [Kick](https://cdn.freecodecamp.org/testable-projects-fcc/audio/RP4_KICK_1.mp3)
 - [Closed-HH](https://cdn.freecodecamp.org/testable-projects-fcc/audio/Cev_H2.mp3)
 
-Puedes crear tu proyecto <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">usando esta plantilla de CodePen</a> y dando clic en `Save` para crear la tuya. O puedes usar este enlace CDN para ejecutar las pruebas en el ambiente que más te guste: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
+Puedes crear tu proyecto <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">usando esta plantilla de CodePen</a> y dando clic en `Save` para crear la tuya. If you prefer to use another environment, then put this `<script>` tag into the body of your `index.html` file: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
 
 Una vez que hayas terminado, envía la URL de tu proyecto funcional con todos los tests aprobados.
 

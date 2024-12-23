@@ -10,7 +10,6 @@ dashedName: build-a-tribute-page
 
 **目標:** <a href="https://tribute-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://tribute-page.freecodecamp.rocks</a> と似た機能を持つアプリを作成してください。 **このデモプロジェクトをコピーしないでください**。
 
-
 **ユーザーストーリー:**
 
 1. トリビュートページには `id` が `main` に設定された `main` 要素が 1 つあり、その中に他のすべての要素が含まれます
@@ -32,111 +31,125 @@ dashedName: build-a-tribute-page
 `id` の値が `main` に設定されている `main` 要素が 1 つ必要です。
 
 ```js
-const el = document.getElementById('main')
-assert(!!el && el.tagName === 'MAIN')
+const el = document.getElementById('main');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'MAIN');
 ```
 
 `#img-div`、`#image`、`#img-caption`、`#tribute-info`、および `#tribute-link` は、すべて `#main` の子孫要素である必要があります。
 
 ```js
-const el1 = document.querySelector('#main #img-div')
-const el2 = document.querySelector('#main #image')
-const el3 = document.querySelector('#main #img-caption')
-const el4 = document.querySelector('#main #tribute-info')
-const el5 = document.querySelector('#main #tribute-link')
-assert(!!el1 & !!el2 && !!el3 && !!el4 && !!el5)
+const el1 = document.querySelector('#main #img-div');
+const el2 = document.querySelector('#main #image');
+const el3 = document.querySelector('#main #img-caption');
+const el4 = document.querySelector('#main #tribute-info');
+const el5 = document.querySelector('#main #tribute-link');
+assert.isNotNull(el1);
+assert.isNotNull(el2);
+assert.isNotNull(el3);
+assert.isNotNull(el4);
+assert.isNotNull(el5);
 ```
 
 `id` が `title` の要素が 1 つ必要です。
 
 ```js
-const el = document.getElementById('title')
-assert(!!el)
+const el = document.getElementById('title');
+assert.isNotNull(el);
 ```
 
 `#title` が空でないようにしてください。
 
 ```js
-const el = document.getElementById('title')
-assert(!!el && el.innerText.length > 0)
-
+const el = document.getElementById('title');
+assert.isNotNull(el);
+assert.isNotEmpty(el.innerText, 0);
 ```
 
 `id` の値が `img-div` に設定されている、`figure` または `div` 要素が 1 つ必要です。
 
 ```js
-const el = document.getElementById('img-div')
-assert(!!el && (el.tagName === 'DIV' || el.tagName === 'FIGURE'))
+const el = document.getElementById('img-div');
+assert.isNotNull(el);
+assert.isTrue(el.tagName === 'DIV' || el.tagName === 'FIGURE');
 ```
 
 `id` の値が `image` に設定されている `img` 要素が 1 つ必要です。
 
 ```js
-const el = document.getElementById('image')
-assert(!!el && el.tagName === 'IMG')
+const el = document.getElementById('image');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'IMG');
 ```
 
 `#image` は `#img-div` の子孫要素である必要があります。
 
 ```js
-const el = document.querySelector('#img-div #image')
-assert(!!el)
+const el = document.querySelector('#img-div #image');
+assert.isNotNull(el);
 ```
 
 `id` の値が `img-caption` に設定されている、`figcaption` または `div` 要素が 1 つ必要です。
 
 ```js
-const el = document.getElementById('img-caption')
-assert(!!el && (el.tagName === 'DIV' || el.tagName === 'FIGCAPTION'))
+const el = document.getElementById('img-caption');
+assert.isNotNull(el);
+assert.isTrue(el.tagName === 'DIV' || el.tagName === 'FIGCAPTION');
 ```
 
 `#img-caption` は `#img-div` の子孫要素である必要があります。
 
 ```js
-const el = document.querySelector('#img-div #img-caption')
-assert(!!el)
+const el = document.querySelector('#img-div #img-caption');
+assert.isNotNull(el);
 ```
 
 `#img-caption` が空でないようにしてください。
 
 ```js
-const el = document.getElementById('img-caption')
-assert(!!el && el.innerText.length > 0)
+const el = document.getElementById('img-caption');
+assert.isNotNull(el);
+assert.isNotEmpty(el.innerText);
 ```
 
 `id` が `tribute-info` の要素が 1 つ必要です。
 
 ```js
-const el = document.getElementById('tribute-info')
-assert(!!el)
+const el = document.getElementById('tribute-info');
+assert.isNotNull(el);
 ```
 
 `#tribute-info` が空でないようにしてください。
 
 ```js
-const el = document.getElementById('tribute-info')
-assert(!!el && el.innerText.length > 0)
+const el = document.getElementById('tribute-info');
+assert.isNotNull(el);
+assert.isNotEmpty(el.innerText);
 ```
 
 `id` の値が `tribute-link` に設定されている `a` 要素が 1 つ必要です。
 
 ```js
-const el = document.getElementById('tribute-link')
-assert(!!el && el.tagName === 'A')
+const el = document.getElementById('tribute-link');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'A');
 ```
 
 `#tribute-link` は `href` 属性とその値をもつ必要があります。
 
 ```js
-const el = document.getElementById('tribute-link')
-assert(!!el && !!el.href && el.href.length > 0)
+const el = document.getElementById('tribute-link');
+assert.isNotNull(el);
+assert.isNotNull(el.href);
+assert.isNotEmpty(el.href);
 ```
 
 `#tribute-link` は、値が `_blank` に設定されている `target` 属性をもつ必要があります。
 
 ```js
-const el = document.getElementById('tribute-link')
-assert(!!el && el.target === '_blank')
+const el = document.getElementById('tribute-link');
+assert.isNotNull(el);
+assert.strictEqual(el.target, '_blank');
 ```
 
 `img` 要素の `display` の値は `block` に設定されている必要があります。
@@ -144,8 +157,8 @@ assert(!!el && el.target === '_blank')
 ```js
 const img = document.getElementById('image');
 const imgStyle = window.getComputedStyle(img);
-const style = imgStyle?.getPropertyValue('display')
-assert(style === 'block')
+const style = imgStyle?.getPropertyValue('display');
+assert.strictEqual(style, 'block');
 ```
 
 `#image` の `max-width` の値は `100%` に設定されている必要があります。
@@ -153,8 +166,8 @@ assert(style === 'block')
 ```js
 const img = document.getElementById('image');
 const imgStyle = window.getComputedStyle(img);
-const style = imgStyle?.getPropertyValue('max-width')
-assert(style === '100%')
+const style = imgStyle?.getPropertyValue('max-width');
+assert.strictEqual(style, '100%');
 ```
 
 `#image` の `height` の値は `auto` に設定されている必要があります。
@@ -166,9 +179,9 @@ const imgStyle = window.getComputedStyle(img);
 const oldDisplayValue = imgStyle.getPropertyValue('display');
 const oldDisplayPriority = imgStyle.getPropertyPriority('display');
 img?.style.setProperty('display', 'none', 'important');
-const heightValue = imgStyle?.getPropertyValue('height')
+const heightValue = imgStyle?.getPropertyValue('height');
 img?.style.setProperty('display', oldDisplayValue, oldDisplayPriority);
-assert(heightValue === 'auto')
+assert.strictEqual(heightValue, 'auto');
 ```
 
 `#image` は親要素内の中央に配置する必要があります。
@@ -183,7 +196,8 @@ const img = document.getElementById('image'),
   parentRight = imgParent?.getBoundingClientRect().right,
   leftMargin = imgLeft - parentLeft,
   rightMargin = parentRight - imgRight;
-assert(leftMargin - rightMargin < 6 && rightMargin - leftMargin < 6)
+assert.isBelow(leftMargin - rightMargin, 6);
+assert.isBelow(rightMargin - leftMargin, 6);
 ```
 
 # --seed--
@@ -208,12 +222,10 @@ assert(leftMargin - rightMargin < 6 && rightMargin - leftMargin < 6)
     <link
       href="https://fonts.googleapis.com/css?family=Pacifico"
       rel="stylesheet"
-
     />
     <link
       href="https://fonts.googleapis.com/css?family=Lobster"
       rel="stylesheet"
-
     />
     <link href="styles.css" rel="stylesheet" />
     <title>Tribute Page</title>

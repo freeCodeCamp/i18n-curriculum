@@ -22,25 +22,19 @@ dashedName: use-css-variables-to-change-several-elements-at-once
 `penguin` クラスは `--penguin-skin` 変数を宣言し、`gray` を代入している必要があります。
 
 ```js
-assert(
-  code.match(/.penguin\s*?{[\s\S]*--penguin-skin\s*?:\s*?gray\s*?;[\s\S]*}/gi)
-);
+assert.match(__helpers.removeHtmlComments(code), /.penguin\s*?{[\s\S]*--penguin-skin\s*?:\s*?gray\s*?;[\s\S]*}/gi);
 ```
 
 `penguin` クラスは `--penguin-belly` 変数を宣言し、`white` を代入している必要があります。
 
 ```js
-assert(
-  code.match(/.penguin\s*?{[\s\S]*--penguin-belly\s*?:\s*?white\s*?;[\s\S]*}/gi)
-);
+assert.match(code, /.penguin\s*?{[\s\S]*--penguin-belly\s*?:\s*?white\s*?;[\s\S]*}/gi);
 ```
 
 `penguin` クラスは `--penguin-beak` 変数を宣言し、`orange` を代入している必要があります。
 
 ```js
-assert(
-  code.match(/.penguin\s*?{[\s\S]*--penguin-beak\s*?:\s*?orange\s*?;[\s\S]*}/gi)
-);
+assert.match(code, /.penguin\s*?{[\s\S]*--penguin-beak\s*?:\s*?orange\s*?;[\s\S]*}/gi);
 ```
 
 # --seed--

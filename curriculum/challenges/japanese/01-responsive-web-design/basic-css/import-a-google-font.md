@@ -40,37 +40,29 @@ GENERIC_NAME は必須ではなく、他の指定したフォントが使用で�
 `Lobster` フォントをインポートする必要があります。
 
 ```js
-assert($('link[href*="googleapis" i]').length);
+assert.exists(document.querySelector('link[href*="googleapis" i]'));
 ```
 
 `h2` 要素はフォント `Lobster` を使用する必要があります。
 
 ```js
-assert(
-  $('h2')
-    .css('font-family')
-    .match(/lobster/i)
-);
+const h2 = document.querySelector('h2'); 
+const fontFamily = window.getComputedStyle(h2)['font-family']; 
+assert.match(fontFamily, /lobster/i);
 ```
 
 フォントを変更するために `h2` 要素セレクターのみを使用してください。
 
 ```js
-assert(
-  /\s*[^\.]h2\s*\{\s*font-family\s*:\s*('|"|)Lobster\1\s*(,\s*('|"|)[a-z -]+\3\s*)?(;\s*\}|\})/gi.test(
-    code
-  )
-);
+assert.match(__helpers.removeHtmlComments(code), /\s*[^\.]h2\s*\{\s*font-family\s*:\s*('|"|)Lobster\1\s*(,\s*('|"|)[a-z -]+\3\s*)?(;\s*\}|\})/gi);
 ```
 
 `p` 要素は変わらず、フォント `monospace` を使用する必要があります。
 
 ```js
-assert(
-  $('p')
-    .css('font-family')
-    .match(/monospace/i)
-);
+const paragraphElement = document.querySelector('p');
+const fontFamily = window.getComputedStyle(paragraphElement)['font-family']; 
+assert.match(fontFamily, /monospace/i);
 ```
 
 # --seed--

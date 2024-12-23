@@ -9,7 +9,7 @@ dashedName: change-the-color-of-text
 
 # --description--
 
-Now let's change the color of some of our text.
+이제 일부 텍스트의 색상을 변경해 보겠습니다.
 
 `h2`요소의 `style`를 변경함으로써 색상을 변경할 수 있습니다.
 

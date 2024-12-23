@@ -22,17 +22,13 @@ dashedName: change-a-variable-for-a-specific-area
 `penguin` クラスは `--penguin-belly` 変数に `white` を再代入しているはずです。
 
 ```js
-assert(
-  code.match(/\.penguin\s*?{[\s\S]*--penguin-belly\s*?:\s*?white\s*?;[\s\S]*}/gi)
-);
+assert.match(__helpers.removeCssComments(code), /\.penguin\s*?{[\s\S]*--penguin-belly\s*?:\s*?white\s*?;[\s\S]*}/gi);
 ```
 
 `penguin` クラスに `background-color` プロパティを含めないようにしてください。
 
 ```js
-assert(
-  code.match(/^((?!background-color\s*?:\s*?)[\s\S])*$/g)
-);
+assert.match(__helpers.removeCssComments(code), /^((?!background-color\s*?:\s*?)[\s\S])*$/g);
 ```
 
 

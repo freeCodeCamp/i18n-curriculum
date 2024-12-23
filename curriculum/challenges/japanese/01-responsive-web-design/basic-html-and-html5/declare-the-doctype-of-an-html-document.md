@@ -37,19 +37,19 @@ HTML5 の `DOCTYPE` タグを、コードエディタに表示されている空
 あなたのコードには `<!DOCTYPE html>` タグが含まれている必要があります。
 
 ```js
-assert(code.match(/<!DOCTYPE\s+?html\s*?>/gi));
+assert.match(code,/<!DOCTYPE\s+?html\s*?>/gi);
 ```
 
 `html` 要素が 1 つ必要です。
 
 ```js
-assert($('html').length == 1);
+assert.lengthOf(document.querySelectorAll('html'), 1);
 ```
 
 `html` タグは 1 つの `h1` 要素を囲む必要があります。
 
 ```js
-assert(code.match(/<html>\s*?<h1>\s*?.*?\s*?<\/h1>\s*?<\/html>/gi));
+assert.match(code,/<html>\s*?<h1>\s*?.*?\s*?<\/h1>\s*?<\/html>/gi);
 ```
 
 # --seed--

@@ -9,11 +9,11 @@ dashedName: use-the-text-transform-property-to-make-text-uppercase
 
 # --description--
 
-The `text-transform` property in CSS is used to change the appearance of text. It's a convenient way to make sure text on a webpage appears consistently, without having to change the text content of the actual HTML elements.
+CSS에서 `text-transform` 속성은 글자의 생김새를 변형시킵니다. 실제 HTML 요소의 글자 내용을 변형할 필요 없이 웹페이지에 있는 글자가 일관되게 나타나도록 만들어주는 간편한 방법입니다.
 
 다음 표는 각기 다른 `text-transform` 값들이 어떻게 예시 글자인 "Transform me"를 변형시키는지를 보여줍니다.
 
-<table><thead><tr><th>Value</th><th>결과</th></tr></thead><tbody><tr><td><code>lowercase</code></td><td>"transform me"</td></tr><tr><td><code>uppercase</code></td><td>"TRANSFORM ME"</td></tr><tr><td><code>capitalize</code></td><td>"Transform Me"</td></tr><tr><td><code>initial</code></td><td>기본값을 사용</td></tr><tr><td><code>inherit</code></td><td>부모 요소의 <code>text-transform</code> 값 사용</td></tr><tr><td><code>none</code></td><td><strong>디폴트:</strong> 원래 글자 사용</td></tr></tbody></table>
+<table><thead><tr><th>값 (value)</th><th>결과</th></tr></thead><tbody><tr><td><code>lowercase</code></td><td>"transform me"</td></tr><tr><td><code>uppercase</code></td><td>"TRANSFORM ME"</td></tr><tr><td><code>capitalize</code></td><td>"Transform Me"</td></tr><tr><td><code>initial</code></td><td>기본값을 사용</td></tr><tr><td><code>inherit</code></td><td>부모 요소의 <code>text-transform</code> 값 사용</td></tr><tr><td><code>none</code></td><td><strong>디폴트:</strong> 원래 글자 사용</td></tr></tbody></table>
 
 # --instructions--
 

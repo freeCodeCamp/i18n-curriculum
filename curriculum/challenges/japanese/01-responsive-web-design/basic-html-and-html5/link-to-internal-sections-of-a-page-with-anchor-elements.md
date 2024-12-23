@@ -36,45 +36,37 @@ dashedName: link-to-internal-sections-of-a-page-with-anchor-elements
 ページにアンカータグが 1 つだけあるようにしてください。
 
 ```js
-assert($('a').length == 1);
+assert.lengthOf(document.querySelectorAll('a'), 1);
 ```
 
 ページに `footer` タグが 1 つだけあるようにしてください。
 
 ```js
-assert($('footer').length == 1);
+assert.lengthOf(document.querySelectorAll('footer'),1);
 ```
 
 `a` タグの `href` 属性は "#footer" に設定されている必要があります。
 
 ```js
-assert($('a').eq(0).attr('href') == '#footer');
+assert.strictEqual(document.querySelector('a').getAttribute('href'), '#footer');
 ```
 
 `a` タグが `target` 属性を持たないようにしてください。
 
 ```js
-assert(
-  typeof $('a').eq(0).attr('target') == typeof undefined ||
-    $('a').eq(0).attr('target') == true
-);
+assert.notExists(document.querySelector('a').getAttribute('target'));
 ```
 
 `a` タグのテキストは "Jump to Bottom" である必要があります。
 
 ```js
-assert(
-  $('a')
-    .eq(0)
-    .text()
-    .match(/Jump to Bottom/gi)
-);
+assert.match(document.querySelector('a').textContent,/Jump to Bottom/gi);
 ```
 
 `footer` タグの `id` 属性は "footer" に設定されている必要があります。
 
 ```js
-assert($('footer').eq(0).attr('id') == 'footer');
+assert.strictEqual(document.querySelector('footer').getAttribute('id'),'footer');
 ```
 
 # --seed--

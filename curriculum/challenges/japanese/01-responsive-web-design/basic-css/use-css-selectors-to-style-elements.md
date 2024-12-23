@@ -43,39 +43,38 @@ CSS では、ページ上の要素の見た目を変更するために使える 
 `h2` 要素から `style` 属性を削除してください。
 
 ```js
-assert(!$('h2').attr('style'));
+assert.notExists(document.querySelector('h2').getAttribute('style'));
 ```
 
 `style` 要素を作成してください。
 
 ```js
-assert($('style') && $('style').length >= 1);
+assert.exists(document.querySelector('style:not(.fcc-hide-header)'));
+assert.isAtLeast(document.querySelectorAll('style:not(.fcc-hide-header)').length, 1);
 ```
 
 `h2` 要素が青で表示されている必要があります。
 
 ```js
-assert($('h2').css('color') === 'rgb(0, 0, 255)');
+const h2Element = document.querySelector('h2');
+const color = window.getComputedStyle(h2Element)['color']; 
+assert.strictEqual(color, 'rgb(0, 0, 255)');
 ```
 
 スタイルシートの `h2` の宣言は、セミコロンと閉じ括弧を持つ有効な状態でなければなりません。
 
 ```js
-assert(code.match(/h2\s*\{\s*color\s*:.*;\s*\}/g));
+assert.match(__helpers.removeCssComments(code), /h2\s*\{\s*color\s*:.*;\s*\}/g);
 ```
 
 すべての `style` 要素は有効でなければならず、また終了タグが必要です。
 
 ```js
-assert(
-  code.match(/<\/style>/g) &&
-    code.match(/<\/style>/g).length ===
-      (
-        code.match(
-          /<style((\s)*((type|media|scoped|title|disabled)="[^"]*")?(\s)*)*>/g
-        ) || []
-      ).length
-);
+assert.match(__helpers.removeHtmlComments(code), /<\/style>/g);
+
+const closingElementLength = __helpers.removeHtmlComments(code).match(/<\/style>/g).length;
+const openingElementsLength = __helpers.removeHtmlComments(code).match(/<style((\s)*((type|media|scoped|title|disabled)="[^"]*")?(\s)*)*>/g).length;
+assert.strictEqual(closingElementLength, openingElementsLength);
 ```
 
 # --seed--

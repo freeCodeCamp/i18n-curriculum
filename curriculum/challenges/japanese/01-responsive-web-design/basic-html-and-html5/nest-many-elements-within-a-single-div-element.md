@@ -26,28 +26,32 @@ dashedName: nest-many-elements-within-a-single-div-element
 `p` 要素は、`div` 要素の中にネストする必要があります。
 
 ```js
-assert($('div').children('p').length > 1);
+const div = document.querySelector('div');
+const children = div.querySelectorAll('p');
+assert.isAbove(children.length,1);
 ```
 
 `ul` 要素は、`div` 要素の中にネストする必要があります。
 
 ```js
-assert($('div').children('ul').length > 0);
+const div = document.querySelector('div');
+const children = div.querySelectorAll('ul');
+assert.notEmpty(children);
 ```
 
 `ol` 要素は、`div` 要素の中にネストする必要があります。
 
 ```js
-assert($('div').children('ol').length > 0);
+const div = document.querySelector('div');
+const children = div.querySelectorAll('ol');
+assert.notEmpty(children);
 ```
 
 `div` 要素には終了タグが必要です。
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div>/g).length
-);
+assert.match(code,/<\/div>/g);
+assert.strictEqual(code.match(/<\/div>/g).length,code.match(/<div>/g).length);
 ```
 
 # --seed--

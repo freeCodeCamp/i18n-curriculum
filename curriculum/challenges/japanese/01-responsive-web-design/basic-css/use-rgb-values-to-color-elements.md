@@ -44,13 +44,15 @@ body {
 `body` 要素の背景は黒になるはずです。
 
 ```js
-assert($('body').css('background-color') === 'rgb(0, 0, 0)');
+const body = document.querySelector('body');
+const backgroundColor = window.getComputedStyle(body)['background-color']; 
+assert.strictEqual(backgroundColor, 'rgb(0, 0, 0)');
 ```
 
 `body` 要素の背景色を黒にするために `rgb` を使用してください。
 
 ```js
-assert(code.match(/rgb\s*\(\s*0\s*,\s*0\s*,\s*0\s*\)/gi));
+assert.match(__helpers.removeCssComments(code), /rgb\s*\(\s*0\s*,\s*0\s*,\s*0\s*\)/gi);
 ```
 
 # --seed--

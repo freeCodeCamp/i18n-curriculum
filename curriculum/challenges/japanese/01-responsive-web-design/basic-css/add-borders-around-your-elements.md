@@ -38,35 +38,42 @@ CSSの border には `style`、`color` および `width` のようなプロパ�
 `img` 要素にはクラス `smaller-image` が必要です。
 
 ```js
-assert($('img').hasClass('smaller-image'));
+assert.isTrue(document.querySelector('img').classList.contains('smaller-image'));
 ```
 
 `img` 要素にはクラス `thick-green-border` が必要です。
 
 ```js
-assert($('img').hasClass('thick-green-border'));
+assert.isTrue(document.querySelector('img').classList.contains('thick-green-border'));
 ```
 
 画像の境界線の幅は `10px` である必要があります。
 
 ```js
-assert(
-  $('img').hasClass('thick-green-border') &&
-    parseInt($('img').css('border-top-width'), 10) >= 8 &&
-    parseInt($('img').css('border-top-width'), 10) <= 12
-);
+// Note: to any future maintainers, the read width of the border is dependent on 
+// the zoom. For example we cannot match 10px exactly because if a campers set the zoom to 110% 
+// it will be read as 9~px. 
+const image = document.querySelector('img'); 
+const imageBorderTopWidth = window.getComputedStyle(image)["border-top-width"]; 
+const widthNumber = parseInt(imageBorderTopWidth);
+assert.isAtLeast(widthNumber, 8);
+assert.isAtMost(widthNumber, 12);
 ```
 
 画像の境界線のスタイルは `solid` である必要があります。
 
 ```js
-assert($('img').css('border-right-style') === 'solid');
+const image = document.querySelector('img'); 
+const borderRightStyle = window.getComputedStyle(image)["border-right-style"]; 
+assert.strictEqual(borderRightStyle, 'solid');
 ```
 
 `img` 要素の周りの境界線は緑色でなければなりません。
 
 ```js
-assert($('img').css('border-left-color') === 'rgb(0, 128, 0)');
+const image = document.querySelector('img'); 
+const borderLeftColor = window.getComputedStyle(image)["border-left-color"]; 
+assert.strictEqual(borderLeftColor, 'rgb(0, 128, 0)');
 ```
 
 # --seed--

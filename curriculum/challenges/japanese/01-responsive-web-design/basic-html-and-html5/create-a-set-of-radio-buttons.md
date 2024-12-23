@@ -48,55 +48,50 @@ dashedName: create-a-set-of-radio-buttons
 ページには `radio` ボタン要素が 2 つ必要です。
 
 ```js
-assert($('input[type="radio"]').length > 1);
+assert.lengthOf(document.querySelectorAll('input[type="radio"]'),2);
 ```
 
 ラジオボタンの `name` 属性は `indoor-outdoor` に設定してください。
 
 ```js
-assert($('input[type="radio"]').filter("[name='indoor-outdoor']").length > 1);
+assert.lengthOf([...document.querySelectorAll('input[type="radio"]')].filter(input => input.name === "indoor-outdoor"),2);
 ```
 
 2 つのラジオボタン要素は、それぞれ対応する `label` 要素にネストされている必要があります。
 
 ```js
-assert($('label > input[type="radio"]:only-child').length > 1);
+assert.lengthOf(document.querySelectorAll('label > input[type="radio"]:only-child'),2);
 ```
 
 それぞれの `label` 要素に終了タグが必要です。
 
 ```js
-assert(
-  code.match(/<\/label>/g) &&
-    code.match(/<label/g) &&
-    code.match(/<\/label>/g).length === code.match(/<label/g).length
-);
+assert.match(code,/<\/label>/g);
+assert.match(code,/<label/g);
+assert.strictEqual(code.match(/<\/label>/g).length,code.match(/<label/g).length);
 ```
 
 ラジオボタンの 1 つに `indoor` というラベルを付けてください。
 
 ```js
-assert(
-  $('label')
-    .text()
-    .match(/indoor/gi)
-);
+const labelTexts = [...document.querySelectorAll('label')].map(label => label.textContent);
+const hasMatch = labelTexts.some(label =>  label.match(/indoor/gi));
+assert.isTrue(hasMatch); 
 ```
 
 ラジオボタンの 1 つに `outdoor` というラベルを付けてください。
 
 ```js
-assert(
-  $('label')
-    .text()
-    .match(/outdoor/gi)
-);
+const labelTexts = [...document.querySelectorAll('label')].map(label => label.textContent);
+const hasMatch = labelTexts.some(label => label.match(/outdoor/gi));
+assert.isTrue(hasMatch); 
 ```
 
 各ラジオボタン要素は `form` タグ内に追加する必要があります。
 
 ```js
-assert($('label').parent().get(0).tagName.match('FORM'));
+const labelParent = document.querySelector('label').parentNode;
+assert.strictEqual(labelParent.tagName,'FORM');
 ```
 
 # --seed--

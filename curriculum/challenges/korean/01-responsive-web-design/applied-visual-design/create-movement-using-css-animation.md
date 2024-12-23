@@ -9,7 +9,7 @@ dashedName: create-movement-using-css-animation
 
 # --description--
 
-When elements have a specified `position`, such as `fixed` or `relative`, the CSS offset properties `right`, `left`, `top`, and `bottom` can be used in animation rules to create movement.
+CSS에서 `fixed`나 `relative`와 같은 특정 `position`이 지정된 요소들은, `right`, `left`, `top`, `bottom`과 같은 CSS 오프셋 속성들을 애니메이션 규칙에서 사용하여 움직임을 만들 수 있습니다.
 
 아래 예제에서 보는 것처럼, `50%` 키프레임의 `top` 속성을 50px로 설정하고, 첫 번째(`0%`)와 마지막(`100%`) 키프레임에서는 0px로 설정하여 항목을 아래로 밀고 다시 위로 당길 수 있습니다
 

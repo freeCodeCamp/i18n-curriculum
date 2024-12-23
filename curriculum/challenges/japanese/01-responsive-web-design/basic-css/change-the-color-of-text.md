@@ -32,19 +32,19 @@ dashedName: change-the-color-of-text
 `h2` 要素は `style` 宣言を持つ必要があります。
 
 ```js
-assert($('h2').attr('style'));
+assert.exists(document.querySelector('h2').getAttribute('style'));
 ```
 
 `h2` 要素の色は `red` に設定してください。
 
 ```js
-assert($('h2')[0].style.color === 'red');
+assert.strictEqual(document.querySelector('h2').style.color, 'red');
 ```
 
 `style` の宣言は `;` で終わるようにしてください。
 
 ```js
-assert($('h2').attr('style') && $('h2').attr('style').endsWith(';'));
+assert.isTrue(document.querySelector('h2').getAttribute('style').endsWith(';'));
 ```
 
 # --seed--

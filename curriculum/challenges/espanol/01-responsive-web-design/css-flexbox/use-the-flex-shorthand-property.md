@@ -26,27 +26,33 @@ Estos valores causarán que para llenar el espacio extra `#box-1` crezca el dobl
 El elemento `#box-1` debe tener la propiedad `flex` establecida en un valor de `2 2 150px`.
 
 ```js
-assert(
-  $('#box-1').css('flex-grow') == '2' &&
-    $('#box-1').css('flex-shrink') == '2' &&
-    $('#box-1').css('flex-basis') == '150px'
-);
+const boxOne = document.querySelector('#box-1');
+const flexGrow = window.getComputedStyle(boxOne)['flex-grow'];
+const flexShrink = window.getComputedStyle(boxOne)['flex-shrink'];
+const flexBasis = window.getComputedStyle(boxOne)['flex-basis'];
+
+assert.equal(flexGrow, '2');
+assert.equal(flexShrink, '2');
+assert.equal(flexBasis, '150px');
 ```
 
 El elemento `#box-2` debe tener la propiedad `flex` establecida en un valor de `1 1 150px`.
 
 ```js
-assert(
-  $('#box-2').css('flex-grow') == '1' &&
-    $('#box-2').css('flex-shrink') == '1' &&
-    $('#box-2').css('flex-basis') == '150px'
-);
+const boxTwo = document.querySelector('#box-2');
+const flexGrow = window.getComputedStyle(boxTwo)['flex-grow'];
+const flexShrink = window.getComputedStyle(boxTwo)['flex-shrink'];
+const flexBasis = window.getComputedStyle(boxTwo)['flex-basis'];
+
+assert.equal(flexGrow, '1');
+assert.equal(flexShrink, '1');
+assert.equal(flexBasis, '150px');
 ```
 
 Tu código debe usar la propiedad `flex` para `#box-1` y `#box-2`.
 
 ```js
-assert(code.match(/flex:\s*?\d\s+?\d\s+?150px;/g).length == 2);
+assert.lengthOf(code.match(/flex:\s*?\d\s+?\d\s+?150px;/g), 2);
 ```
 
 # --seed--

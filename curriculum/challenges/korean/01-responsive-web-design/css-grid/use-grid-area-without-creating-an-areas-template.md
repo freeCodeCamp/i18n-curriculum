@@ -12,13 +12,16 @@ dashedName: use-grid-area-without-creating-an-areas-template
 이전 과제에서 배운 `grid-area` 속성은 다른 방식으로 사용될 수 있습니다. 만약 그리드에 참조할 영역 템플릿이 없다면, 다음과 같이 항목을 배치할 영역을 즉석에서 생성할 수 있습니다.
 
 ```css
-item1 { grid-area: 1/1/2/4; }
+item1 {
+  grid-area: 1/1/2/4;
+}
 ```
 
 아이템 영역의 위치를 정의하기 위해 이전에 배운 라인 번호를 사용합니다. 위 예시의 번호들은 다음 값들을 나타냅니다:
 
 ```css
-grid-area: horizontal line to start at / vertical line to start at / horizontal line to end at / vertical line to end at;
+grid-area: horizontal line to start at / vertical line to start at / horizontal
+  line to end at / vertical line to end at;
 ```
 
 예시에 있는 아이템은 라인 1과 2 사이의 행과 라인 1과 4 사이의 열을 차지할 것입니다.
@@ -32,10 +35,9 @@ grid-area: horizontal line to start at / vertical line to start at / horizontal 
 `item5` 클래스는 수평으로 세 번째와 네 번째 라인 사이, 그리고 수직으로 첫 번째와 네 번째 라인 사이의 전체 영역을 채우기 위해 `grid-area` 속성을 가져야 합니다.
 
 ```js
-assert(
-  code.match(
-    /.item5\s*?{[\s\S]*grid-area\s*?:\s*?3\s*?\/\s*?1\s*?\/\s*?4\s*?\/\s*?4\s*?;[\s\S]*}/gi
-  )
+assert.match(
+  code,
+  /.item5\s*?{[\s\S]*grid-area\s*?:\s*?3\s*?\/\s*?1\s*?\/\s*?4\s*?\/\s*?4\s*?;[\s\S]*}/gi
 );
 ```
 
@@ -45,10 +47,18 @@ assert(
 
 ```html
 <style>
-  .item1{background:LightSkyBlue;}
-  .item2{background:LightSalmon;}
-  .item3{background:PaleTurquoise;}
-  .item4{background:LightPink;}
+  .item1 {
+    background: LightSkyBlue;
+  }
+  .item2 {
+    background: LightSalmon;
+  }
+  .item3 {
+    background: PaleTurquoise;
+  }
+  .item4 {
+    background: LightPink;
+  }
 
   .item5 {
     background: PaleGreen;
@@ -82,5 +92,9 @@ assert(
 # --solutions--
 
 ```html
-<style>.item5 {grid-area: 3/1/4/4;}</style>
+<style>
+  .item5 {
+    grid-area: 3/1/4/4;
+  }
+</style>
 ```

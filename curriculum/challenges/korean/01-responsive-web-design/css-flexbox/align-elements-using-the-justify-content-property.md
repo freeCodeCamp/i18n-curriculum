@@ -31,7 +31,10 @@ dashedName: align-elements-using-the-justify-content-property
 `#box-container` 요소는 `center`로 설정된 `justify-content` 속성을 가져야 합니다.
 
 ```js
-assert($('#box-container').css('justify-content') == 'center');
+const boxContainer = document.querySelector('#box-container');
+const justifyDirection =
+  window.getComputedStyle(boxContainer)['justify-content'];
+assert.strictEqual(justifyDirection, 'center');
 ```
 
 # --seed--

@@ -26,49 +26,57 @@ dashedName: use-abbreviated-hex-code
 テキストが `I am red!` の `h1` 要素の `color` は赤にしてください。
 
 ```js
-assert($('.red-text').css('color') === 'rgb(255, 0, 0)');
+const redText = document.querySelector('.red-text');
+const color = window.getComputedStyle(redText)['color']; 
+assert.strictEqual(color, 'rgb(255, 0, 0)');
 ```
 
 赤を指定するために、16 進数コード `#FF0000` の代わりに短縮形の 16 進数コードを使用してください。
 
 ```js
-assert(code.match(/\.red-text\s*?{\s*?color\s*:\s*?#F00\s*?;?\s*?}/gi));
+assert.match(code,/\.red-text\s*?{\s*?color\s*:\s*?#F00\s*?;?\s*?}/gi);
 ```
 
 テキストが `I am green!` の `h1` 要素の `color` は緑にしてください。
 
 ```js
-assert($('.green-text').css('color') === 'rgb(0, 255, 0)');
+const greenText = document.querySelector('.green-text');
+const color = window.getComputedStyle(greenText)['color']; 
+assert.strictEqual(color, 'rgb(0, 255, 0)');
 ```
 
 緑を指定するために、16 進数コード `#00FF00` の代わりに短縮形の 16 進数コードを使用してください。
 
 ```js
-assert(code.match(/\.green-text\s*?{\s*?color\s*:\s*?#0F0\s*?;?\s*?}/gi));
+assert.match(__helpers.removeCssComments(code), /\.green-text\s*?{\s*?color\s*:\s*?#0F0\s*?;?\s*?}/gi);
 ```
 
 テキストが `I am cyan!` の `h1` 要素の `color` はシアンにしてください。
 
 ```js
-assert($('.cyan-text').css('color') === 'rgb(0, 255, 255)');
+const cyanText = document.querySelector('.cyan-text');
+const color = window.getComputedStyle(cyanText)['color']; 
+assert.strictEqual(color, 'rgb(0, 255, 255)');
 ```
 
 シアンを指定するために、16 進数コード `#00FFFF` の代わりに短縮形の 16 進数コードを使用してください。
 
 ```js
-assert(code.match(/\.cyan-text\s*?{\s*?color\s*:\s*?#0FF\s*?;?\s*?}/gi));
+assert.match(__helpers.removeCssComments(code), /\.cyan-text\s*?{\s*?color\s*:\s*?#0FF\s*?;?\s*?}/gi);
 ```
 
 テキストが `I am fuchsia!` の `h1` 要素の `color` はフューシャにしてください。
 
 ```js
-assert($('.fuchsia-text').css('color') === 'rgb(255, 0, 255)');
+const fuchsiaText = document.querySelector('.fuchsia-text');
+const color = window.getComputedStyle(fuchsiaText)['color']; 
+assert.strictEqual(color,'rgb(255, 0, 255)');
 ```
 
 フューシャを指定するために、16 進数コード `#FF00FF` の代わりに短縮形の 16 進数コードを使用してください。
 
 ```js
-assert(code.match(/\.fuchsia-text\s*?{\s*?color\s*:\s*?#F0F\s*?;?\s*?}/gi));
+assert.match(__helpers.removeCssComments(code), /\.fuchsia-text\s*?{\s*?color\s*:\s*?#F0F\s*?;?\s*?}/gi);
 ```
 
 # --seed--

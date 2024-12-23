@@ -33,39 +33,35 @@ HTML には<dfn>順序なしリスト (unordered lists) </dfn> または箇条�
 `ul` 要素を作成してください。
 
 ```js
-assert($('ul').length > 0);
+assert.isNotEmpty(document.querySelectorAll('ul'));
 ```
 
 `ul` 要素の中に、3 つの `li` 要素を入れてください。
 
 ```js
-assert($('ul li').length > 2);
+assert.lengthOf(document.querySelectorAll('ul li'),3);
 ```
 
 `ul` 要素には終了タグが必要です。
 
 ```js
-assert(
-  code.match(/<\/ul>/gi) &&
-    code.match(/<ul/gi) &&
-    code.match(/<\/ul>/gi).length === code.match(/<ul/gi).length
-);
+assert.match(code,/<\/ul>/gi);
+assert.match(code,/<ul/gi);
+assert.strictEqual(code.match(/<\/ul>/gi).length,code.match(/<ul/gi).length);
 ```
 
 それぞれの `li` 要素には終了タグが必要です。
 
 ```js
-assert(
-  code.match(/<\/li>/gi) &&
-    code.match(/<li[\s>]/gi) &&
-    code.match(/<\/li>/gi).length === code.match(/<li[\s>]/gi).length
-);
+assert.match(code,/<\/li>/gi);
+assert.match(code,/<li[\s>]/gi);
+assert.strictEqual(code.match(/<\/li>/gi).length,code.match(/<li[\s>]/gi).length);
 ```
 
 `li` 要素は、空の文字列または空白のみを含めた状態ではいけません。
 
 ```js
-assert($('ul li').filter((_, item) => !$(item).text().trim()).length === 0);
+assert.isEmpty([...document.querySelectorAll('ul li')].filter((item) => item.textContent.trim() === ""));
 ```
 
 # --seed--

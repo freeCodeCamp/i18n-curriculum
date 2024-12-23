@@ -22,10 +22,9 @@ En la segunda cuadrícula (grid), usa `auto-fit` con `repeat` para rellenar la c
 La clase `container2` debe tener una propiedad `grid-template-columns` con `repeat` y `auto-fit` que cubra la cuadrícula con columnas que tengan un ancho mínimo de `60px` y un máximo de `1fr`.
 
 ```js
-assert(
-  code.match(
-    /.container2\s*?{[\s\S]*grid-template-columns\s*?:\s*?repeat\s*?\(\s*?auto-fit\s*?,\s*?minmax\s*?\(\s*?60px\s*?,\s*?1fr\s*?\)\s*?\)\s*?;[\s\S]*}/gi
-  )
+assert.match(
+  code,
+  /.container2\s*?{[\s\S]*grid-template-columns\s*?:\s*?repeat\s*?\(\s*?auto-fit\s*?,\s*?minmax\s*?\(\s*?60px\s*?,\s*?1fr\s*?\)\s*?\)\s*?;[\s\S]*}/gi
 );
 ```
 
@@ -35,11 +34,21 @@ assert(
 
 ```html
 <style>
-  .item1{background:LightSkyBlue;}
-  .item2{background:LightSalmon;}
-  .item3{background:PaleTurquoise;}
-  .item4{background:LightPink;}
-  .item5{background:PaleGreen;}
+  .item1 {
+    background: LightSkyBlue;
+  }
+  .item2 {
+    background: LightSalmon;
+  }
+  .item3 {
+    background: PaleTurquoise;
+  }
+  .item4 {
+    background: LightPink;
+  }
+  .item5 {
+    background: PaleGreen;
+  }
 
   .container {
     font-size: 40px;
@@ -87,5 +96,12 @@ assert(
 # --solutions--
 
 ```html
-<style>.container {grid-template-columns: repeat( auto-fill, minmax(60px, 1fr));} .container2 {grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));}</style>
+<style>
+  .container {
+    grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+  }
+  .container2 {
+    grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+  }
+</style>
 ```

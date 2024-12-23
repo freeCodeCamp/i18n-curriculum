@@ -20,7 +20,9 @@ CSS プロパティ `flex-direction` を `#box-container` 要素に追加し、`
 `#box-container` 要素の `flex-direction` プロパティを `column` に設定する必要があります。
 
 ```js
-assert($('#box-container').css('flex-direction') == 'column');
+const boxContainer = document.querySelector('#box-container');
+const flexDirection = window.getComputedStyle(boxContainer)['flex-direction'];
+assert.strictEqual(flexDirection, 'column');
 ```
 
 # --seed--

@@ -32,28 +32,29 @@ dashedName: use-an-id-attribute-to-style-an-element
 `form` 要素は、`cat-photo-form` という id を持つ必要があります。
 
 ```js
-assert($('form').attr('id') === 'cat-photo-form');
+assert.strictEqual(document.querySelector('form').getAttribute('id'), 'cat-photo-form');
 ```
 
 `form` 要素は `background-color` を緑に設定されている必要があります。
 
 ```js
-assert($('#cat-photo-form').css('background-color') === 'rgb(0, 128, 0)');
+const catPhotoForm = document.querySelector('#cat-photo-form');
+const backgroundColor = window.getComputedStyle(catPhotoForm)['background-color'];
+assert.strictEqual(backgroundColor, 'rgb(0, 128, 0)');
 ```
 
 `form` 要素には `id` 属性が必要です。
 
 ```js
-assert(
-  code.match(/<form.*cat-photo-form.*>/gi) &&
-    code.match(/<form.*cat-photo-form.*>/gi).length > 0
-);
+assert.match(__helpers.removeHtmlComments(code), /<form.*cat-photo-form.*>/gi);
+assert.lengthOf(__helpers.removeHtmlComments(code).match(/<form.*cat-photo-form.*>/gi), 1)
 ```
 
 `form` には `class` および `style` 属性を指定しないでください。
 
 ```js
-assert(!code.match(/<form.*style.*>/gi) && !code.match(/<form.*class.*>/gi));
+assert.notMatch(__helpers.removeHtmlComments(code), /<form.*style.*>/gi);
+assert.notMatch(__helpers.removeHtmlComments(code), /<form.*class.*>/gi);
 ```
 
 # --seed--

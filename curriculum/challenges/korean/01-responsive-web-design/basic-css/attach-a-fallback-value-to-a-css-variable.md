@@ -9,7 +9,7 @@ dashedName: attach-a-fallback-value-to-a-css-variable
 
 # --description--
 
-When using your variable as a CSS property value, you can attach a fallback value that your browser will revert to if the given variable is invalid.
+CSS 속성 값으로 변수를 사용할 때, 지정된 변수가 유효하지 않을 경우 브라우저가 반환할 fallback 값을 추가할 수 있습니다.
 
 **Note:** fallback은 브라우저 호환성을 높이는데 사용되지는 않으며, IE(인터넷 익스플로어) 브라우저에서는 작동하지 않습니다. 오히려, 브라우저가 변수를 찾을 수 없는 경우 표시할 색상을 갖도록 사용됩니다.
 

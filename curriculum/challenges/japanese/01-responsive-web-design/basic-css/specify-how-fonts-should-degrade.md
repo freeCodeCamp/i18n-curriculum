@@ -36,33 +36,27 @@ p {
 h2 要素はフォント `Lobster` を使用する必要があります。
 
 ```js
-assert(
-  $('h2')
-    .css('font-family')
-    .match(/^"?lobster/i)
-);
+const h2Element = document.querySelector('h2');
+const fontFamily = window.getComputedStyle(h2Element)['font-family']; 
+assert.match(fontFamily, /^"?lobster/i);
 ```
 
 h2 要素は、`Lobster` が利用できない場合 `monospace` フォントで表示されるはずです。
 
 ```js
-assert(
-  /\s*h2\s*\{\s*font-family\s*\:\s*(\'|"|)Lobster\1\s*,\s*monospace\s*;?\s*\}/gi.test(
-    code
-  )
-);
+assert.match(__helpers.removeCssComments(code), /\s*h2\s*\{\s*font-family\s*\:\s*(\'|"|)Lobster\1\s*,\s*monospace\s*;?\s*\}/gi);
 ```
 
 `Lobster` フォントを取得する Google への呼び出しを、その前に `<!--` を置いてコメントアウトしてください。
 
 ```js
-assert(new RegExp('<!--[^fc]', 'gi').test(code));
+assert.match(code, /<!--[^fc]/gi);
 ```
 
 `-->` を追加してコメントを閉じる必要があります。
 
 ```js
-assert(new RegExp('[^fc]-->', 'gi').test(code));
+assert.match(code, /[^fc]-->/gi);
 ```
 
 # --seed--

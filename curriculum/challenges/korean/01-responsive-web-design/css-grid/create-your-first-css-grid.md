@@ -22,7 +22,7 @@ dashedName: create-your-first-css-grid
 `container` 클래스는 `grid` 값을 가지는 `display` 속성을 가져야 합니다.
 
 ```js
-assert(code.match(/.container\s*?{[\s\S]*display\s*?:\s*?grid\s*?;[\s\S]*}/gi));
+assert.match(code, /.container\s*?{[\s\S]*display\s*?:\s*?grid\s*?;[\s\S]*}/gi);
 ```
 
 # --seed--
@@ -31,11 +31,21 @@ assert(code.match(/.container\s*?{[\s\S]*display\s*?:\s*?grid\s*?;[\s\S]*}/gi));
 
 ```html
 <style>
-  .d1{background:LightSkyBlue;}
-  .d2{background:LightSalmon;}
-  .d3{background:PaleTurquoise;}
-  .d4{background:LightPink;}
-  .d5{background:PaleGreen;}
+  .d1 {
+    background: LightSkyBlue;
+  }
+  .d2 {
+    background: LightSalmon;
+  }
+  .d3 {
+    background: PaleTurquoise;
+  }
+  .d4 {
+    background: LightPink;
+  }
+  .d5 {
+    background: PaleGreen;
+  }
 
   .container {
     font-size: 40px;
@@ -60,5 +70,9 @@ assert(code.match(/.container\s*?{[\s\S]*display\s*?:\s*?grid\s*?;[\s\S]*}/gi));
 # --solutions--
 
 ```html
-<style>.container {display: grid;}</style>
+<style>
+  .container {
+    display: grid;
+  }
+</style>
 ```

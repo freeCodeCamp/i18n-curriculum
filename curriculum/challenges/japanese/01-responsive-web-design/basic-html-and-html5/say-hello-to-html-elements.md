@@ -42,7 +42,7 @@ freeCodeCamp の HTML コーディングチャレンジへようこそ。 この
 `h1` 要素のテキストは `Hello World` でなければなりません。
 
 ```js
-assert.isTrue(/hello(\s)+world/gi.test($('h1').text()));
+assert.match(document.querySelector('h1').textContent,/hello(\s)+world/gi);
 ```
 
 # --seed--

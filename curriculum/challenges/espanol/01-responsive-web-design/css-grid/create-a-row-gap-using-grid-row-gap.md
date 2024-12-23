@@ -20,8 +20,9 @@ Crea un espacio para las filas que tenga `5px` de alto.
 La clase `container` debe tener una propiedad `grid-row-gap` que tenga como valor `5px`.
 
 ```js
-assert(
-  code.match(/.container\s*?{[\s\S]*grid-row-gap\s*?:\s*?5px\s*?;[\s\S]*}/gi)
+assert.match(
+  code,
+  /.container\s*?{[\s\S]*grid-row-gap\s*?:\s*?5px\s*?;[\s\S]*}/gi
 );
 ```
 
@@ -31,11 +32,21 @@ assert(
 
 ```html
 <style>
-  .d1{background:LightSkyBlue;}
-  .d2{background:LightSalmon;}
-  .d3{background:PaleTurquoise;}
-  .d4{background:LightPink;}
-  .d5{background:PaleGreen;}
+  .d1 {
+    background: LightSkyBlue;
+  }
+  .d2 {
+    background: LightSalmon;
+  }
+  .d3 {
+    background: PaleTurquoise;
+  }
+  .d4 {
+    background: LightPink;
+  }
+  .d5 {
+    background: PaleGreen;
+  }
 
   .container {
     font-size: 40px;
@@ -64,5 +75,9 @@ assert(
 # --solutions--
 
 ```html
-<style>.container {grid-row-gap: 5px;}</style>
+<style>
+  .container {
+    grid-row-gap: 5px;
+  }
+</style>
 ```

@@ -15,7 +15,7 @@ CSS 그리드에서 행열의 크기를 정의하기 위해 `px`와 `em`같이 �
 
 `auto`: 행 혹은 열을 자동적으로 그 내용의 너비나 높이로 설정
 
-`%`: adjusts the column or row to the percent width of its container.
+`%`: 행 혹은 열을 컨테이너 너비의 백분율로 조정
 
 여기 프리뷰에서 결과를 생성하는 코드입니다:
 
@@ -34,10 +34,9 @@ grid-template-columns: auto 50px 10% 2fr 1fr;
 `container` 클래스는 `1fr`, `100px` 그리고 `2fr` 너비를 준 세 개의 열을 가진 `grid-template-columns` 속성을 가져야 합니다.
 
 ```js
-assert(
-  code.match(
-    /.container\s*?{[\s\S]*grid-template-columns\s*?:\s*?1fr\s*?100px\s*?2fr\s*?;[\s\S]*}/gi
-  )
+assert.match(
+  code,
+  /.container\s*?{[\s\S]*grid-template-columns\s*?:\s*?1fr\s*?100px\s*?2fr\s*?;[\s\S]*}/gi
 );
 ```
 
@@ -47,11 +46,21 @@ assert(
 
 ```html
 <style>
-  .d1{background:LightSkyBlue;}
-  .d2{background:LightSalmon;}
-  .d3{background:PaleTurquoise;}
-  .d4{background:LightPink;}
-  .d5{background:PaleGreen;}
+  .d1 {
+    background: LightSkyBlue;
+  }
+  .d2 {
+    background: LightSalmon;
+  }
+  .d3 {
+    background: PaleTurquoise;
+  }
+  .d4 {
+    background: LightPink;
+  }
+  .d5 {
+    background: PaleGreen;
+  }
 
   .container {
     font-size: 40px;
@@ -79,5 +88,9 @@ assert(
 # --solutions--
 
 ```html
-<style>.container {grid-template-columns: 1fr 100px 2fr;}</style>
+<style>
+  .container {
+    grid-template-columns: 1fr 100px 2fr;
+  }
+</style>
 ```

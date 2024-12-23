@@ -30,7 +30,9 @@ dashedName: adjust-the-padding-of-an-element
 `blue-box` クラスは、要素に `20px` の `padding` を与える必要があります。
 
 ```js
-assert($('.blue-box').css('padding-top') === '20px');
+const blueBox = document.querySelector('.blue-box');
+const paddingTop = window.getComputedStyle(blueBox)['padding-top'];
+assert.strictEqual(paddingTop, '20px');
 ```
 
 # --seed--

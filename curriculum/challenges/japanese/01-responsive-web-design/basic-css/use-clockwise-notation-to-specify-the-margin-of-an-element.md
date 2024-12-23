@@ -28,35 +28,40 @@ margin: 10px 20px 10px 20px;
 `blue-box` クラスは、要素の上側に `40px` の `margin` を与える必要があります。
 
 ```js
-assert($('.blue-box').css('margin-top') === '40px');
+const blueBox = document.querySelector('.blue-box');
+const marginTop = window.getComputedStyle(blueBox)['margin-top'];
+assert.strictEqual(marginTop, '40px');
 ```
 
 `blue-box` クラスは、要素の右側に `20px` の `margin` を与える必要があります。
 
 ```js
-assert($('.blue-box').css('margin-right') === '20px');
+const blueBox = document.querySelector('.blue-box');
+const marginRight = window.getComputedStyle(blueBox)['margin-right'];
+assert.strictEqual(marginRight, '20px');
 ```
 
 `blue-box` クラスは、要素の下側に `20px` の `margin` を与える必要があります。
 
 ```js
-assert($('.blue-box').css('margin-bottom') === '20px');
+const blueBox = document.querySelector('.blue-box');
+const marginBottom = window.getComputedStyle(blueBox)['margin-bottom'];
+assert.strictEqual(marginBottom, '20px');
 ```
 
 `blue-box` クラスは、要素の左側に `40px` の `margin` を与える必要があります。
 
 ```js
-assert($('.blue-box').css('margin-left') === '40px');
+const blueBox = document.querySelector('.blue-box');
+const marginLeft = window.getComputedStyle(blueBox)['margin-left'];
+assert.strictEqual(marginLeft, '40px');
 ```
 
 `blue-box` クラスのマージンの設定に時計回りの表記を使用してください。
 
 ```js
-assert(
-  /\.blue-box\s*{[\s\S]*margin[\s]*:\s*\d+px\s+\d+px\s+\d+px\s+\d+px(;\s*[^}]+\s*}|;?\s*})/.test(
-    __helpers.removeCssComments($('style').text())
-  )
-);
+const cssCode = __helpers.removeCssComments(document.querySelector('style:not(.fcc-hide-header)').textContent);
+assert.match(cssCode, /\.blue-box\s*{[\s\S]*margin[\s]*:\s*\d+px\s+\d+px\s+\d+px\s+\d+px(;\s*[^}]+\s*}|;?\s*})/);
 ```
 
 # --seed--

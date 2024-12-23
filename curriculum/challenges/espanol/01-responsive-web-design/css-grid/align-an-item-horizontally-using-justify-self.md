@@ -26,8 +26,9 @@ Usa la propiedad `justify-self` para centrar el elemento con la clase `item2`.
 La clase `item2` debe tener una propiedad `justify-self` que tenga como valor `center`.
 
 ```js
-assert(
-  code.match(/.item2\s*?{[\s\S]*justify-self\s*?:\s*?center\s*?;[\s\S]*}/gi)
+assert.match(
+  code,
+  /.item2\s*?{[\s\S]*justify-self\s*?:\s*?center\s*?;[\s\S]*}/gi
 );
 ```
 
@@ -37,7 +38,9 @@ assert(
 
 ```html
 <style>
-  .item1{background: LightSkyBlue;}
+  .item1 {
+    background: LightSkyBlue;
+  }
 
   .item2 {
     background: LightSalmon;
@@ -47,9 +50,15 @@ assert(
     /* Only change code above this line */
   }
 
-  .item3{background:PaleTurquoise;}
-  .item4{background:LightPink;}
-  .item5{background:PaleGreen;}
+  .item3 {
+    background: PaleTurquoise;
+  }
+  .item4 {
+    background: LightPink;
+  }
+  .item5 {
+    background: PaleGreen;
+  }
 
   .container {
     font-size: 40px;
@@ -75,5 +84,9 @@ assert(
 # --solutions--
 
 ```html
-<style>.item2 {justify-self: center;}</style>
+<style>
+  .item2 {
+    justify-self: center;
+  }
+</style>
 ```

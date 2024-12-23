@@ -9,7 +9,7 @@ dashedName: learn-how-bezier-curves-work
 
 # --description--
 
-The last challenge introduced the `animation-timing-function` property and a few keywords that change the speed of an animation over its duration. CSS offers an option other than keywords that provides even finer control over how the animation plays out, through the use of Bezier curves.
+지난 도전 과제에서는 `animation-timing-function` 속성과 애니메이션 기간 동안 애니메이션 속도를 변경하는 몇 가지 키워드를 소개했습니다. CSS는 키워드 사용 이외에도 베지에 곡선을 사용하여 애니메이션이 어떻게 진행되는지에 대한 더 정교한 제어를 가능하게 해줍니다.
 
 CSS 애니메이션에서 베지에 곡선은 `cubic-bezier` 함수와 함께 사용됩니다. 곡선의 모양은 애니메이션이 어떻게 진행되는지를 나타냅니다. 그 곡선은 1x1 좌표 시스템에서 존재합니다. 이 좌표 시스템의 X 축은 애니메이션의 지속 시간입니다(시간 척도로 생각할 수 있습니다), Y 축은 애니메이션의 변화입니다.
 

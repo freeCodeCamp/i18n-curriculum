@@ -28,22 +28,20 @@ dashedName: inform-with-the-paragraph-element
 正しい `p` 要素が必要です。
 
 ```js
-assert($('p').length > 0);
+assert.lengthOf(document.querySelectorAll('p'),1);
 ```
 
 `p` 要素には `Hello Paragraph` というテキストが必要です。
 
 ```js
-assert.isTrue(/hello(\s)+paragraph/gi.test($('p').text()));
+assert.match(document.querySelector('p').textContent,/hello(\s)+paragraph/gi);
 ```
 
 `p` 要素には終了タグが必要です。
 
 ```js
-assert(
-  code.match(/<\/p>/g) &&
-    code.match(/<\/p>/g).length === code.match(/<p/g).length
-);
+assert.match(code,/<\/p>/g);
+assert.strictEqual(code.match(/<\/p>/g).length,code.match(/<p/g).length);
 ```
 
 # --seed--

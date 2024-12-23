@@ -16,7 +16,7 @@ dashedName: add-images-to-your-website
 <img src="https://www.freecatphotoapp.com/your-image.jpg">
 ```
 
-Note that `img` is a void element.
+`img`은 빈 요소라는 점을 참고하세요.
 
 모든 `img` 요소는 **반드시** `alt` 속성이 있어야 합니다. `alt` 속성 안의 텍스트는 접근성을 향상시키기 위해 스크린 리더에 사용되며 이미지가 로딩에 실패하면 표시됩니다.
 

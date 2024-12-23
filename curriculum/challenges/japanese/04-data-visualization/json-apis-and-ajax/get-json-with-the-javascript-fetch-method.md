@@ -22,6 +22,8 @@ fetch('/json/cats.json')
 
 ```
 
+Note: The `fetch()` method uses `GET` as the default `HTTP` method. This means you don’t need to specify it explicitly for basic data retrieval.
+
 コードを細かく見ていきましょう。
 
 最初の行ではリクエストを実行しています。 `fetch(URL)` は、指定された URL に対して `GET` リクエストを行います。 このメソッドはプロミスを返します。

@@ -9,7 +9,7 @@ dashedName: make-screen-reader-navigation-easier-with-the-nav-landmark
 
 # --description--
 
-The `nav` element is another HTML5 item with the embedded landmark feature for easy screen reader navigation. This tag is meant to wrap around the main navigation links in your page.
+`nav` 요소는 화면 낭독기 내비게이션을 위한 내장된 랜드마크 기능을 가진 또 다른 HTML5 항목입니다. 이 태그는 페이지의 주요 내비게이션 링크를 감싸기 위해 사용됩니다.
 
 페이지 하단에 반복되는 사이트 링크가 있다면, 해당 부분은 `nav` 태그로 표시할 필요가 없습니다. `footer` 태그만 사용하더라도 충분합니다 (다음 도전 과제에서 다룰 예정입니다).
 

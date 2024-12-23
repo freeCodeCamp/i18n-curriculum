@@ -16,34 +16,42 @@ dashedName: style-multiple-elements-with-a-css-class
 `h2` 要素が赤で表示されている必要があります。
 
 ```js
-assert($('h2').css('color') === 'rgb(255, 0, 0)');
+const h2Element = document.querySelector('h2');
+const color = window.getComputedStyle(h2Element)['color']; 
+assert.strictEqual(color, 'rgb(255, 0, 0)');
 ```
 
 `h2` 要素にはクラス `red-text` が必要です。
 
 ```js
-assert($('h2').hasClass('red-text'));
+assert.isTrue(document.querySelector('h2').classList.contains('red-text'));
 ```
 
 最初の `p` 要素が赤で表示されている必要があります。
 
 ```js
-assert($('p:eq(0)').css('color') === 'rgb(255, 0, 0)');
+const paragraph = document.querySelectorAll('p')[0];
+const color = window.getComputedStyle(paragraph )['color'];
+assert.strictEqual(color, 'rgb(255, 0, 0)');
 ```
 
 2 番目と 3 番目の `p` 要素は赤で表示されてはいけません。
 
 ```js
-assert(
-  !($('p:eq(1)').css('color') === 'rgb(255, 0, 0)') &&
-    !($('p:eq(2)').css('color') === 'rgb(255, 0, 0)')
-);
+const paragraph2 = document.querySelectorAll('p')[1];
+const paragraph3 = document.querySelectorAll('p')[2];
+
+const color2 = window.getComputedStyle(paragraph2)['color'];
+const color3 = window.getComputedStyle(paragraph3)['color'];
+
+assert.notStrictEqual(color2, 'rgb(255, 0, 0)');
+assert.notStrictEqual(color3, 'rgb(255, 0, 0)');
 ```
 
 最初の `p` 要素にはクラス `red-text` が必要です。
 
 ```js
-assert($('p:eq(0)').hasClass('red-text'));
+assert.isTrue(document.querySelectorAll('p')[0].classList.contains('red-text'));
 ```
 
 # --seed--

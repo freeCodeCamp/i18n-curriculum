@@ -26,10 +26,9 @@ grid-template-columns: 100px minmax(50px, 200px);
 `container` 클래스는 최소 너비 `90px`와 최대 너비 `1fr`를 가진 3개의 열을 반복하도록 설정된 `grid-template-columns` 속성을 가져야 합니다.
 
 ```js
-assert(
-  code.match(
-    /.container\s*?{[\s\S]*grid-template-columns\s*?:\s*?repeat\s*?\(\s*?3\s*?,\s*?minmax\s*?\(\s*?90px\s*?,\s*?1fr\s*?\)\s*?\)\s*?;[\s\S]*}/gi
-  )
+assert.match(
+  code,
+  /.container\s*?{[\s\S]*grid-template-columns\s*?:\s*?repeat\s*?\(\s*?3\s*?,\s*?minmax\s*?\(\s*?90px\s*?,\s*?1fr\s*?\)\s*?\)\s*?;[\s\S]*}/gi
 );
 ```
 
@@ -39,11 +38,21 @@ assert(
 
 ```html
 <style>
-  .item1{background:LightSkyBlue;}
-  .item2{background:LightSalmon;}
-  .item3{background:PaleTurquoise;}
-  .item4{background:LightPink;}
-  .item5{background:PaleGreen;}
+  .item1 {
+    background: LightSkyBlue;
+  }
+  .item2 {
+    background: LightSalmon;
+  }
+  .item3 {
+    background: PaleTurquoise;
+  }
+  .item4 {
+    background: LightPink;
+  }
+  .item5 {
+    background: PaleGreen;
+  }
 
   .container {
     font-size: 40px;
@@ -73,5 +82,9 @@ assert(
 # --solutions--
 
 ```html
-<style>.container {grid-template-columns: repeat(3, minmax(90px, 1fr));}</style>
+<style>
+  .container {
+    grid-template-columns: repeat(3, minmax(90px, 1fr));
+  }
+</style>
 ```

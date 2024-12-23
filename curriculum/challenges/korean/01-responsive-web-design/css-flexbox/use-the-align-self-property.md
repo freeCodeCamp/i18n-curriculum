@@ -22,13 +22,17 @@ dashedName: use-the-align-self-property
 `#box-1` 요소는 `center`으로 설정된 `align-self` 속성을 가져야 합니다.
 
 ```js
-assert($('#box-1').css('align-self') == 'center');
+const boxOne = document.querySelector('#box-1');
+const alignment = window.getComputedStyle(boxOne)['align-self'];
+assert.strictEqual(alignment, 'center');
 ```
 
 `#box-2` 요소는 `flex-end`로 설정된 `align-self` 속성을 가져야 합니다.
 
 ```js
-assert($('#box-2').css('align-self') == 'flex-end');
+const boxTwo = document.querySelector('#box-2');
+const alignment = window.getComputedStyle(boxTwo)['align-self'];
+assert.strictEqual(alignment, 'flex-end');
 ```
 
 # --seed--

@@ -26,7 +26,7 @@ h1 {
 `style` タグの中で `p` 要素の `font-size` を `16px` に設定してください。 ブラウザとテキストのズーム設定は 100% にする必要があります。
 
 ```js
-assert(code.match(/p\s*{\s*font-size\s*:\s*16\s*px\s*;\s*}/i));
+assert.match(__helpers.removeCssComments(code), /p\s*{\s*font-size\s*:\s*16\s*px\s*;\s*}/i);
 ```
 
 # --seed--

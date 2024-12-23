@@ -42,7 +42,7 @@ CSS 규칙은 올바른 형식으로 여는 중괄호와 닫는 중괄호를 가
 assert.match(code, /<style>\s*body\s*\{\s*background.*\s*:\s*.*;\s*\}\s*<\/style>/i);
 ```
 
-Your CSS rule should end with a semicolon.
+CSS 규칙은 세미콜론으로 끝나야 합니다.
 
 ```js
 assert.match(code, /<style>\s*body\s*\{\s*background.*\s*:\s*.*;\s*\}\s*<\/style>/i);

@@ -28,31 +28,28 @@ dashedName: add-placeholder-text-to-a-text-field
 既存のテキストタイプの `input` 要素に、`placeholder` 属性を追加してください。
 
 ```js
-assert($('input[placeholder]').length > 0);
+assert.notEmpty(document.querySelectorAll('input[placeholder]'));
 ```
 
 `placeholder` 属性の値を `cat photo URL` に設定してください。
 
 ```js
-assert(
-  $('input') &&
-    $('input').attr('placeholder') &&
-    $('input')
-      .attr('placeholder')
-      .match(/cat\s+photo\s+URL/gi)
-);
+assert.exists(document.querySelector('input'));
+assert.exists(document.querySelector('input').getAttribute('placeholder'));
+const placeholder = document.querySelector('input').getAttribute('placeholder');
+assert.match(placeholder,/cat\s+photo\s+URL/gi);
 ```
 
 完成した `input` 要素は終了タグを持たないはずです。
 
 ```js
-assert(!code.match(/<input.*\/?>.*<\/input>/gi));
+assert.notMatch(code,/<input.*\/?>.*<\/input>/gi);
 ```
 
 完成した `input` 要素は正しい構文でなければなりません。
 
 ```js
-assert($('input[type=text]').length > 0);
+assert.notEmpty(document.querySelectorAll('input[type=text]'));
 ```
 
 # --seed--

@@ -50,10 +50,14 @@ assert.isTrue(document.querySelector('img').classList.contains('thick-green-bord
 Tu imagen debe tener un ancho de borde o "border-width" de `10px`.
 
 ```js
+// Note: to any future maintainers, the read width of the border is dependent on 
+// the zoom. For example we cannot match 10px exactly because if a campers set the zoom to 110% 
+// it will be read as 9~px. 
 const image = document.querySelector('img'); 
 const imageBorderTopWidth = window.getComputedStyle(image)["border-top-width"]; 
-
-assert.strictEqual(imageBorderTopWidth, "10px")
+const widthNumber = parseInt(imageBorderTopWidth);
+assert.isAtLeast(widthNumber, 8);
+assert.isAtMost(widthNumber, 12);
 ```
 
 Tu imagen debe tener un estilo de borde o "border-style" `solid`.

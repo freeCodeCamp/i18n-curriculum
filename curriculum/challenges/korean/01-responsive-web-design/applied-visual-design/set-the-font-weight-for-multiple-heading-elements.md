@@ -9,13 +9,13 @@ dashedName: set-the-font-weight-for-multiple-heading-elements
 
 # --description--
 
-You set the `font-size` of each heading tag in the last challenge, here you'll adjust the `font-weight`.
+지난 과제에서 각각의 제목 태그의 `font-size`를 설정했습니다. 여기에서는 `font-weight`를 조정합니다.
 
 `font-weight` 속성은 텍스트 영역에서 문자의 굵기를 설정합니다.
 
 # --instructions--
 
-<ul><li>Set the <code>font-weight</code> of the <code>h1</code> tag to 800.</li><li><code>h2</code>태그의 <code>font-weight</code>를 600으로 설정합니다.</li><li><code>h3</code>태그의 <code>font-weight</code>를 500으로 설정합니다.</li><li><code>h4</code>태그의 <code>font-weight</code>를 400으로 설정합니다.</li><li><code>h5</code>태그의 <code>font-weight</code>를 300으로 설정합니다.</li><li><code>h6</code>태그의 <code>font-weight</code>를 200으로 설정합니다.</li></ul>
+<ul><li><code>h1</code>태그의 <code>font-weight</code>를 800으로 설정합니다.</li><li><code>h2</code>태그의 <code>font-weight</code>를 600으로 설정합니다.</li><li><code>h3</code>태그의 <code>font-weight</code>를 500으로 설정합니다.</li><li><code>h4</code>태그의 <code>font-weight</code>를 400으로 설정합니다.</li><li><code>h5</code>태그의 <code>font-weight</code>를 300으로 설정합니다.</li><li><code>h6</code>태그의 <code>font-weight</code>를 200으로 설정합니다.</li></ul>
 
 # --hints--
 

@@ -20,13 +20,15 @@ dashedName: make-circular-images-with-a-border-radius
 画像の境界線の角の半径は `50%` に設定されており、完全に丸くなるはずです。
 
 ```js
-assert(parseInt($('img').css('border-top-left-radius')) > 48);
+const image = document.querySelector('img');
+const borderTopLeftRadius = window.getComputedStyle(image)['border-top-left-radius'];
+assert.strictEqual(parseInt(borderTopLeftRadius), 50);
 ```
 
 `border-radius` の値は `50%` のパーセンテージ値を使用する必要があります。
 
 ```js
-assert(code.match(/50%/g));
+assert.match(__helpers.removeCssComments(code), /50%/g);
 ```
 
 # --seed--

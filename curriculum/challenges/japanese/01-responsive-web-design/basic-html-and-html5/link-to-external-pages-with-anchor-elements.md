@@ -28,22 +28,20 @@ dashedName: link-to-external-pages-with-anchor-elements
 `a` 要素は、`cat photos` というアンカーテキストを持つ必要があります。
 
 ```js
-assert(/cat photos/gi.test($('a').text()));
+assert.match(document.querySelector('a').textContent,/cat photos/gi);
 ```
 
 `https://www.freecatphotoapp.com` にリンクする `a` 要素が必要です。
 
 ```js
-assert(/^https?:\/\/(www\.)?freecatphotoapp\.com\/?$/i.test($('a').attr('href')));
+assert.match(document.querySelector('a').getAttribute('href'),/^https?:\/\/(www\.)?freecatphotoapp\.com\/?$/i);
 ```
 
 `a` 要素には終了タグが必要です。
 
 ```js
-assert(
-  code.match(/<\/a>/g) &&
-    code.match(/<\/a>/g).length === code.match(/<a/g).length
-);
+assert.match(code,/<\/a>/g);
+assert.strictEqual(code.match(/<\/a>/g).length,code.match(/<a/g).length);
 ```
 
 # --seed--

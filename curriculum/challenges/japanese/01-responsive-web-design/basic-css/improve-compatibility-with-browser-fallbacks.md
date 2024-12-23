@@ -23,12 +23,10 @@ CSS の作業をしているうちに、いつかブラウザの互換性の問�
 `.red-box` のルール内において、既存の `background` 宣言の直前に、`background` が `red` に設定されたフォールバックを追加してください。
 
 ```js
-assert(
-  code
-    .replace(/\s/g, '')
-    .match(
-      /\.red-box{background:(red|#ff0000|#f00|rgb\(255,0,0\)|rgb\(100%,0%,0%\)|hsl\(0,100%,50%\));background:var\(--red-color\);height:200px;width:200px;}/gi
-    )
+const spacelessCode = __helpers.removeWhiteSpace(__helpers.removeCssComments(code));
+assert.match(
+  spacelessCode,
+  /\.red-box{background:(red|#ff0000|#f00|rgb\(255,0,0\)|rgb\(100%,0%,0%\)|hsl\(0,100%,50%\));background:var\(--red-color\);height:200px;width:200px;}/gi
 );
 ```
 

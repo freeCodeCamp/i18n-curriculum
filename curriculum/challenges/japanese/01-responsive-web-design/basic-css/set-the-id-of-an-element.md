@@ -30,7 +30,7 @@ dashedName: set-the-id-of-an-element
 `form` 要素は、`cat-photo-form` という id を持つ必要があります。
 
 ```js
-assert($('form').attr('id') === 'cat-photo-form');
+assert.strictEqual(document.querySelector('form').getAttribute('id'), 'cat-photo-form');
 ```
 
 # --seed--

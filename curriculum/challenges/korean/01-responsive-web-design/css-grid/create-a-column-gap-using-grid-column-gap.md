@@ -26,10 +26,9 @@ grid-column-gap: 10px;
 `container` 클래스는 `20px`의 갑을 가지는 `grid-column-gap` 속성을 가져야 합니다.
 
 ```js
-assert(
-  code.match(
-    /.container\s*?{[\s\S]*grid-column-gap\s*?:\s*?20px\s*?;[\s\S]*}/gi
-  )
+assert.match(
+  code,
+  /.container\s*?{[\s\S]*grid-column-gap\s*?:\s*?20px\s*?;[\s\S]*}/gi
 );
 ```
 
@@ -39,11 +38,21 @@ assert(
 
 ```html
 <style>
-  .d1{background:LightSkyBlue;}
-  .d2{background:LightSalmon;}
-  .d3{background:PaleTurquoise;}
-  .d4{background:LightPink;}
-  .d5{background:PaleGreen;}
+  .d1 {
+    background: LightSkyBlue;
+  }
+  .d2 {
+    background: LightSalmon;
+  }
+  .d3 {
+    background: PaleTurquoise;
+  }
+  .d4 {
+    background: LightPink;
+  }
+  .d5 {
+    background: PaleGreen;
+  }
 
   .container {
     font-size: 40px;
@@ -72,5 +81,9 @@ assert(
 # --solutions--
 
 ```html
-<style>.container {grid-column-gap: 20px;}</style>
+<style>
+  .container {
+    grid-column-gap: 20px;
+  }
+</style>
 ```

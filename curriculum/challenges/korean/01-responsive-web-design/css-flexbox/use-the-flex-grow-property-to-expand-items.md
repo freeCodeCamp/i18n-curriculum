@@ -22,13 +22,17 @@ dashedName: use-the-flex-grow-property-to-expand-items
 `#box-1` 요소는 `1`로 설정된 `flex-grow` 속성을 가져야 합니다.
 
 ```js
-assert($('#box-1').css('flex-grow') == '1');
+const boxOne = document.querySelector('#box-1');
+const flexGrow = window.getComputedStyle(boxOne)['flex-grow'];
+assert.equal(flexGrow, '1');
 ```
 
 `#box-2` 요소는 `2`로 설정된 `flex-grow` 속성을 가져야 합니다.
 
 ```js
-assert($('#box-2').css('flex-grow') == '2');
+const boxTwo = document.querySelector('#box-2');
+const flexGrow = window.getComputedStyle(boxTwo)['flex-grow'];
+assert.equal(flexGrow, '2');
 ```
 
 # --seed--

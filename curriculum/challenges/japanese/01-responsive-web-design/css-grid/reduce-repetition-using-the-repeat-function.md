@@ -42,10 +42,9 @@ grid-template-columns: 1fr 50px 1fr 50px 20px;
 `container` クラスは、`grid-template-columns` プロパティを持ち、`1fr` の幅で 3 列を繰り返すように設定する必要があります。
 
 ```js
-assert(
-  code.match(
-    /.container\s*?{[\s\S]*grid-template-columns\s*?:\s*?repeat\s*?\(\s*?3\s*?,\s*?1fr\s*?\)\s*?;[\s\S]*}/gi
-  )
+assert.match(
+  code,
+  /.container\s*?{[\s\S]*grid-template-columns\s*?:\s*?repeat\s*?\(\s*?3\s*?,\s*?1fr\s*?\)\s*?;[\s\S]*}/gi
 );
 ```
 
@@ -55,11 +54,21 @@ assert(
 
 ```html
 <style>
-  .item1{background:LightSkyBlue;}
-  .item2{background:LightSalmon;}
-  .item3{background:PaleTurquoise;}
-  .item4{background:LightPink;}
-  .item5{background:PaleGreen;}
+  .item1 {
+    background: LightSkyBlue;
+  }
+  .item2 {
+    background: LightSalmon;
+  }
+  .item3 {
+    background: PaleTurquoise;
+  }
+  .item4 {
+    background: LightPink;
+  }
+  .item5 {
+    background: PaleGreen;
+  }
 
   .container {
     font-size: 40px;
@@ -89,5 +98,9 @@ assert(
 # --solutions--
 
 ```html
-<style>.container {grid-template-columns: repeat(3, 1fr);}</style>
+<style>
+  .container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+</style>
 ```

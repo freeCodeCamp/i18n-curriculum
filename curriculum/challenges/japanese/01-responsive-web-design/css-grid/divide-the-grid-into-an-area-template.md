@@ -12,9 +12,9 @@ dashedName: divide-the-grid-into-an-area-template
 
 ```css
 grid-template-areas:
-  "header header header"
-  "advert content content"
-  "advert footer footer";
+  'header header header'
+  'advert content content'
+  'advert footer footer';
 ```
 
 上記のコードは、グリッドのセルを `header`, `advert`, `content`, `footer` の 4 つのエリアにグループ化します。 すべての単語はセルを表し、引用符のすべてのペアは行を表します。
@@ -28,12 +28,9 @@ grid-template-areas:
 `container` クラスは、例のような `grid-template-areas` プロパティを持つ必要がありますが、`footer` エリアは下の行全体に広がるようにしてください。
 
 ```js
-assert(
-  __helpers
-    .removeCssComments(code)
-    .match(
-      /.container\s*?{[\s\S]*grid-template-areas\s*?:\s*?"\s*?header\s*?header\s*?header\s*?"\s*?"\s*?advert\s*?content\s*?content\s*?"\s*?"\s*?footer\s*?footer\s*?footer\s*?"\s*?;[\s\S]*}/gi
-    )
+assert.match(
+  __helpers.removeCssComments(code),
+  /.container\s*?{[\s\S]*grid-template-areas\s*?:\s*?["|']\s*?header\s*?header\s*?header\s*?["|']\s*?["|']\s*?advert\s*?content\s*?content\s*?["|']\s*?["|']\s*?footer\s*?footer\s*?footer\s*?["|']\s*?;[\s\S]*}/gi
 );
 ```
 
@@ -43,11 +40,21 @@ assert(
 
 ```html
 <style>
-  .item1{background:LightSkyBlue;}
-  .item2{background:LightSalmon;}
-  .item3{background:PaleTurquoise;}
-  .item4{background:LightPink;}
-  .item5{background:PaleGreen;}
+  .item1 {
+    background: LightSkyBlue;
+  }
+  .item2 {
+    background: LightSalmon;
+  }
+  .item3 {
+    background: PaleTurquoise;
+  }
+  .item4 {
+    background: LightPink;
+  }
+  .item5 {
+    background: PaleGreen;
+  }
 
   .container {
     font-size: 40px;
@@ -60,9 +67,9 @@ assert(
     grid-gap: 10px;
     grid-template-areas:
     /* Only change code below this line */
-      "header header header"
-      "advert content content"
-      "advert footer footer";
+      'header header header'
+      'advert content content'
+      'advert footer footer';
     /* Only change code above this line */
   }
 </style>
@@ -80,11 +87,21 @@ assert(
 
 ```html
 <style>
-  .item1{background:LightSkyBlue;}
-  .item2{background:LightSalmon;}
-  .item3{background:PaleTurquoise;}
-  .item4{background:LightPink;}
-  .item5{background:PaleGreen;}
+  .item1 {
+    background: LightSkyBlue;
+  }
+  .item2 {
+    background: LightSalmon;
+  }
+  .item3 {
+    background: PaleTurquoise;
+  }
+  .item4 {
+    background: LightPink;
+  }
+  .item5 {
+    background: PaleGreen;
+  }
 
   .container {
     font-size: 40px;
@@ -97,9 +114,9 @@ assert(
     grid-gap: 10px;
 
     grid-template-areas:
-      "header header header"
-      "advert content content"
-      "footer footer footer";
+      'header header header'
+      'advert content content'
+      'footer footer footer';
   }
 </style>
 

@@ -24,7 +24,7 @@ lorem ipsum テキストはプレイスホルダーテキストとして 16 世�
 `p` 要素には、与えられた「kitty ipsum」テキスト冒頭の数単語を含める必要があります。
 
 ```js
-assert.isTrue(/Kitty(\s)+ipsum/gi.test($('p').text()));
+assert.match(document.querySelector('p').textContent,/Kitty(\s)+ipsum/gi);
 ```
 
 # --seed--

@@ -22,35 +22,33 @@ dashedName: comment-out-html
 `h1` 要素がページに表示されないようにコメントアウトする必要があります。
 
 ```js
-assert($('h1').length === 0);
+assert.isEmpty(document.querySelectorAll('h1'));
 ```
 
 `h2` 要素は、ページに表示されるようにコメントアウトしないでください。
 
 ```js
-assert($('h2').length > 0);
+assert.isNotEmpty(document.querySelectorAll('h2'));
 ```
 
 `p` 要素がページに表示されないようにコメントアウトする必要があります。
 
 ```js
-assert($('p').length === 0);
+assert.isEmpty(document.querySelectorAll('p'));
 ```
 
 それぞれのコメントは `-->` で閉じる必要があります
 
 ```js
-assert(code.match(/[^fc]-->/g).length > 1);
+assert.isAbove(code.match(/[^fc]-->/g).length, 1);
 ```
 
 コード内の `h1`、`h2`、または `p` 要素の順序を変更してはいけません。
 
 ```js
-assert(
-  code.match(/<([a-z0-9]){1,2}>/g)[0] === '<h1>' &&
-    code.match(/<([a-z0-9]){1,2}>/g)[1] === '<h2>' &&
-    code.match(/<([a-z0-9]){1,2}>/g)[2] === '<p>'
-);
+assert.strictEqual(code.match(/<([a-z0-9]){1,2}>/g)[0],'<h1>');
+assert.strictEqual(code.match(/<([a-z0-9]){1,2}>/g)[1],'<h2>');
+assert.strictEqual(code.match(/<([a-z0-9]){1,2}>/g)[2],'<p>');
 ```
 
 # --seed--

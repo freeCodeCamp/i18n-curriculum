@@ -40,43 +40,45 @@ dashedName: override-class-declarations-by-styling-id-attributes
 `h1` 要素にはクラス `pink-text` が必要です。
 
 ```js
-assert($('h1').hasClass('pink-text'));
+assert.isTrue(document.querySelector('h1').classList.contains('pink-text'));
 ```
 
 `h1` 要素にはクラス `blue-text` が必要です。
 
 ```js
-assert($('h1').hasClass('blue-text'));
+assert.isTrue(document.querySelector('h1').classList.contains('blue-text'));
 ```
 
 `h1` 要素には id `orange-text` が必要です。
 
 ```js
-assert($('h1').attr('id') === 'orange-text');
+assert.strictEqual(document.querySelector('h1').getAttribute('id'),'orange-text');
 ```
 
 `h1` 要素は 1 つだけ必要です。
 
 ```js
-assert($('h1').length === 1);
+assert.lengthOf(document.querySelectorAll('h1'), 1);
 ```
 
 `orange-text` の id には CSS 宣言が必要です。
 
 ```js
-assert(code.match(/#orange-text\s*{/gi));
+assert.match(__helpers.removeCssComments(code), /#orange-text\s*{/gi);
 ```
 
 `h1` には `style` 属性を設定してはいけません。
 
 ```js
-assert(!code.match(/<h1.*style.*>/gi));
+assert.notMatch(__helpers.removeHtmlComments(code), /<h1.*style.*>/gi);
 ```
 
 `h1` 要素がオレンジで表示されている必要があります。
 
 ```js
-assert($('h1').css('color') === 'rgb(255, 165, 0)');
+const h1Element = document.querySelector('h1');
+const color = window.getComputedStyle(h1Element)['color']; 
+assert.strictEqual(color, 'rgb(255, 165, 0)');
 ```
 
 # --seed--

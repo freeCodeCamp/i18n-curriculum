@@ -24,25 +24,27 @@ HTML のコメントは `<!--` で始まり、`-->` で終わります。
 コメントを解除すると `h1` 要素はページに表示されるはずです。
 
 ```js
-assert($('h1').length > 0);
+assert.notEmpty(document.querySelectorAll('h1'));
 ```
 
 コメントを解除すると `h2` 要素はページに表示されるはずです。
 
 ```js
-assert($('h2').length > 0);
+assert.notEmpty(document.querySelectorAll('h2'));
 ```
 
 コメントを解除すると `p` 要素はページに表示されるはずです。
 
 ```js
-assert($('p').length > 0);
+assert.notEmpty(document.querySelectorAll('p'));
 ```
 
 コメントタグの末尾がページに表示されてはいけません (例: `-->`) 。
 
 ```js
-assert(!$('*:contains("-->")')[1]);
+const elements = document.querySelectorAll('*');
+const potentialComments = Array.from(elements).filter(el => el.textContent.includes('-->'));
+assert.notExists(potentialComments[1])
 ```
 
 # --seed--

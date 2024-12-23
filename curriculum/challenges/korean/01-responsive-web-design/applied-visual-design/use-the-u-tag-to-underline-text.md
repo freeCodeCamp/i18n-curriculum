@@ -9,11 +9,11 @@ dashedName: use-the-u-tag-to-underline-text
 
 # --description--
 
-To underline text, you can use the `u` tag. This is often used to signify that a section of text is important, or something to remember. With the `u` tag, the browser applies the CSS of `text-decoration: underline;` to the element.
+밑줄 텍스트를 만들기 위해서, `u` 태그를 사용할 수 있습니다. 이것은 종종 텍스트의 어느 한 부분이 중요하거나 기억할만하다는 것을 의미할 때 사용됩니다. `u` 태그를 사용하면, 브라우저는 요소에 `text-decoration: underline;` CSS를 적용합니다.
 
 # --instructions--
 
-Wrap the `u` tag only around the text `Ph.D. students`.
+`u` 태그로 `Ph.D. students` 텍스트만 감싸보세요.
 
 **Note:** 링크로 착각될 수 있는 경우에는 `u`태그를 사용하는 것을 삼가하세요. Anchor 태그 또한 기본 밑줄 형태를 가집니다.
 
@@ -25,7 +25,7 @@ Wrap the `u` tag only around the text `Ph.D. students`.
 assert.lengthOf(document.querySelectorAll('u'), 1);
 ```
 
-The `u` tag should wrap around the text `Ph.D. students`.
+`u` 태그는 `Ph.D. students`라는 텍스트를 감싸야 합니다.
 
 ```js
 assert.equal(document.querySelector('u')?.textContent , 'Ph.D. students');
