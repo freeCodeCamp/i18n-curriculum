@@ -26,19 +26,21 @@ HTML 要素が、互いに競合する複数のスタイル指定を受け取る
 `h1` 要素にはクラス `pink-text` が必要です。
 
 ```js
-assert($('h1').hasClass('pink-text'));
+assert.isTrue(document.querySelector('h1').classList.contains('pink-text'));
 ```
 
 `<style>` 内に `color` を変更する `pink-text` CSS クラスが必要です。
 
 ```js
-assert(code.match(/\.pink-text\s*\{\s*color\s*:\s*.+\s*;?\s*\}/g));
+assert.match(__helpers.removeCssComments(code), /\.pink-text\s*\{\s*color\s*:\s*.+\s*;?\s*\}/g);
 ```
 
 `h1` 要素がピンクで表示されている必要があります。
 
 ```js
-assert($('h1').css('color') === 'rgb(255, 192, 203)');
+const h1Element = document.querySelector('h1');
+const color = window.getComputedStyle(h1Element)['color']; 
+assert.strictEqual(color, 'rgb(255, 192, 203)');
 ```
 
 # --seed--

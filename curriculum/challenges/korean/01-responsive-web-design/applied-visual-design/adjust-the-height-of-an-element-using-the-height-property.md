@@ -9,7 +9,7 @@ dashedName: adjust-the-height-of-an-element-using-the-height-property
 
 # --description--
 
-You can specify the height of an element using the `height` property in CSS, similar to the `width` property. Here's an example that changes the height of an image to 20px:
+요소의 높이는 CSS에서 `height` 속성을 사용하여 지정할 수 있습니다. 이것은 `width` 속성과 유사합니다. 다음은 이미지의 높이를 20픽셀로 변경하는 예제입니다.
 
 ```css
 img {

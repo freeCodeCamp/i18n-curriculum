@@ -29,7 +29,7 @@ Puedes utilizar cualquier combinición de HTML, JavaScript, CSS, Bootstrap, SASS
 
 **Historia opcional (No necesitas hacer esto para pasar esta prueba):** Mi previsualizador de markdown interpreta los retornos de carro y los visualiza como elementos `br` (salto de línea).
 
-Puedes construir tu proyecto <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">usando esta plantilla de CodePen</a> y seleccionando `Save` (Guardar) para crear tu propio documento de CodePen. O puedes usar este enlace CDN para ejecutar las pruebas en el ambiente que más te guste: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
+You can build your project by <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">using this CodePen template</a> and clicking `Save` to create your own pen. If you prefer to use another environment, then put this `<script>` tag into the body of your `index.html` file: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
 
 Una vez que hayas terminado, envía la URL a tu proyecto de trabajo con todas sus pruebas verificadas.
 

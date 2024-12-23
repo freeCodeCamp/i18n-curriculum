@@ -22,13 +22,17 @@ CSS プロパティ `align-self` を `#box-1` と `#box-2` の両方に追加し
 `#box-1` 要素の `align-self` プロパティを `center` に設定してください。
 
 ```js
-assert($('#box-1').css('align-self') == 'center');
+const boxOne = document.querySelector('#box-1');
+const alignment = window.getComputedStyle(boxOne)['align-self'];
+assert.strictEqual(alignment, 'center');
 ```
 
 `#box-2` 要素の `align-self` プロパティを `flex-end` に設定してください。
 
 ```js
-assert($('#box-2').css('align-self') == 'flex-end');
+const boxTwo = document.querySelector('#box-2');
+const alignment = window.getComputedStyle(boxTwo)['align-self'];
+assert.strictEqual(alignment, 'flex-end');
 ```
 
 # --seed--

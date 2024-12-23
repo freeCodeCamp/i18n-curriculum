@@ -29,19 +29,18 @@ CSS には要素の幅を制御する `width` というプロパティがあり�
 `img` 要素にはクラス `smaller-image` が必要です。
 
 ```js
-assert(
-  $("img[src='https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg']").attr('class')
-    .trim().split(/\s+/g).includes('smaller-image')
-);
+const relaxingCatImage = document.querySelector("img[src='https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg']");
+const catImageClass = relaxingCatImage.getAttribute('class').trim().split(/\s+/g);
+assert.include(catImageClass, 'smaller-image');
 ```
 
 画像の幅が 100 ピクセルになるようにしてください。
 
 ```js
-assert(
-  $('img').width() < 200 &&
-    code.match(/\.smaller-image\s*{\s*width\s*:\s*100px\s*(;\s*}|})/i)
-);
+const image = document.querySelector('img');
+const width = image.getBoundingClientRect().width;
+assert.isBelow(width, 200); 
+assert.match(__helpers.removeCssComments(code), /\.smaller-image\s*{\s*width\s*:\s*100px\s*(;\s*}|})/i);
 ```
 
 # --seed--

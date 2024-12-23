@@ -20,10 +20,9 @@ CSS 그리드에 동일하게 정렬하고 싶을 때가 있습니다. 이전에
 `container` 클래스 `center`의 값을 가진 `justify-items` 속성을 가져야 합니다.
 
 ```js
-assert(
-  code.match(
-    /.container\s*?{[\s\S]*justify-items\s*?:\s*?center\s*?;[\s\S]*}/gi
-  )
+assert.match(
+  code,
+  /.container\s*?{[\s\S]*justify-items\s*?:\s*?center\s*?;[\s\S]*}/gi
 );
 ```
 
@@ -33,11 +32,21 @@ assert(
 
 ```html
 <style>
-  .item1{background:LightSkyBlue;}
-  .item2{background:LightSalmon;}
-  .item3{background:PaleTurquoise;}
-  .item4{background:LightPink;}
-  .item5{background:PaleGreen;}
+  .item1 {
+    background: LightSkyBlue;
+  }
+  .item2 {
+    background: LightSalmon;
+  }
+  .item3 {
+    background: PaleTurquoise;
+  }
+  .item4 {
+    background: LightPink;
+  }
+  .item5 {
+    background: PaleGreen;
+  }
 
   .container {
     font-size: 40px;
@@ -67,5 +76,9 @@ assert(
 # --solutions--
 
 ```html
-<style>.container {justify-items: center;}</style>
+<style>
+  .container {
+    justify-items: center;
+  }
+</style>
 ```

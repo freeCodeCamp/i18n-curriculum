@@ -34,19 +34,19 @@ dashedName: build-a-cash-register
 |  20 ドル札  |    $20 (TWENTY)    |
 | 100 ドル札  | $100 (ONE HUNDRED) |
 
-**Objective:** Build an app that is functionally similar to <a href="https://cash-register.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://cash-register.freecodecamp.rocks</a>.
+**目標:** <a href="https://cash-register.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://cash-register.freecodecamp.rocks</a> と似た機能を持つアプリを作成してください。
 
 **ユーザーストーリー:**
 
-1. You should have an `input` element with an `id` of `"cash"`.
-1. You should have a `div`, `span` or `p` element with an `id` of `"change-due"`.
-1. You should have a `button` element with an `id` of `"purchase-btn"`.
-1. When the value in the `#cash` element is less than `price`, an alert should appear with the text `"Customer does not have enough money to purchase the item"`.
-1. When the value in the `#cash` element is equal to `price`, the value in the `#change-due` element should be `"No change due - customer paid with exact cash"`.
-1. When `price` is `19.5`, the value in the `#cash` element is `20`, `cid` is `[["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.1], ["QUARTER", 4.25], ["ONE", 90], ["FIVE", 55], ["TEN", 20], ["TWENTY", 60], ["ONE HUNDRED", 100]]`, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: OPEN QUARTER: $0.5"`.
-1. When `price` is `3.26`, the value in the `#cash` element is `100`, `cid` is `[["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.1], ["QUARTER", 4.25], ["ONE", 90], ["FIVE", 55], ["TEN", 20], ["TWENTY", 60], ["ONE HUNDRED", 100]]`, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: OPEN TWENTY: $60 TEN: $20 FIVE: $15 ONE: $1 QUARTER: $0.5 DIME: $0.2 PENNY: $0.04"`.
-1. When `price` is `19.5`, the value in the `#cash` element is `20`, `cid` is `[["PENNY", 0.01], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 0], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]`, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: INSUFFICIENT_FUNDS"`.
-1. When `price` is `19.5`, the value in the `#cash` element is `20`, `cid` is `[["PENNY", 0.01], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 1], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]`, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: INSUFFICIENT_FUNDS"`.
+1. `id` が `"cash"` に設定された `input` 要素が必要です。
+1. `id` が `"change-due"` に設定された、`div`、`span`、または `p` 要素のいずれかが必要です。
+1. `id` が `"purchase-btn"` に設定された `button` 要素が必要です。
+1. `#cash` の要素に入力された値が `price` より少ない場合、`"Customer does not have enough money to purchase the item"` というテキストのアラートが表示されます。
+1. `#cash` の要素に入力された値が `price` に等しい場合、`#change-due` の要素に表示する値は `"No change due - customer paid with exact cash"` となります。
+1. `price` が `19.5`、`#cash` の要素に入力された値が `20`、`cid` が `[["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.1], ["QUARTER", 4.25], ["ONE", 90], ["FIVE", 55], ["TEN", 20], ["TWENTY", 60], ["ONE HUNDRED", 100]]` の状態で、`#purchase-btn` の要素をクリックした場合、`#change-due` の要素に表示する値は `"Status: OPEN QUARTER: $0.5"` となります。
+1. `price` が `3.26`、`#cash` の要素に入力された値が `100`、`cid` が `[["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.1], ["QUARTER", 4.25], ["ONE", 90], ["FIVE", 55], ["TEN", 20], ["TWENTY", 60], ["ONE HUNDRED", 100]]` の状態で、`#purchase-btn` の要素をクリックした場合、`#change-due` の要素に表示する値は `"Status: OPEN TWENTY: $60 TEN: $20 FIVE: $15 ONE: $1 QUARTER: $0.5 DIME: $0.2 PENNY: $0.04"` となります。
+1. `price` が `19.5`、`#cash` の要素に入力された値が `20`、`cid` が `[["PENNY", 0.01], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 0], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]` の状態で、`#purchase-btn` の要素をクリックした場合、`#change-due` の要素に表示する値は `"Status: INSUFFICIENT_FUNDS"` となります。
+1. `price` が `19.5`、`#cash` の要素に入力された値が `20`、`cid` が `[["PENNY", 0.01], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 1], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]` の状態で、`#purchase-btn` の要素をクリックした場合、`#change-due` の要素に表示する値は `"Status: INSUFFICIENT_FUNDS"` となります。
 1. When `price` is `19.5`, the value in the `#cash` element is `20`, `cid` is `[["PENNY", 0.5], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 0], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]`, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: CLOSED PENNY: $0.5"`.
 
 上記のユーザーストーリーを満たし、以下のすべてのテストが通るようにして、このプロジェクトを完成させてください。 あなた独自のアレンジを加えましょう。 ハッピーコーディング！

@@ -10,7 +10,6 @@ dashedName: build-a-personal-portfolio-webpage
 
 **目標:** <a href="https://personal-portfolio.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://personal-portfolio.freecodecamp.rocks</a> と似た機能を持つアプリを作成してください。 **このデモプロジェクトをコピーしないでください**。
 
-
 **ユーザーストーリー:**
 
 1. あなたのポートフォリオには `id` が `welcome-section` に設定されているウェルカムセクションが 1 つあります
@@ -34,8 +33,8 @@ dashedName: build-a-personal-portfolio-webpage
 ポートフォリオには `id` が `welcome-section` であるウェルカムセクションが 1 つ必要です。
 
 ```js
-const el = document.getElementById('welcome-section')
-assert(!!el);
+const el = document.getElementById('welcome-section');
+assert.isNotNull(el);
 ```
 
 `#welcome-section` 要素内には `h1` 要素が必要です。
@@ -54,25 +53,21 @@ assert.isAbove(
 assert.isAbove(
   document.querySelectorAll('#welcome-section h1')?.[0]?.innerText?.length,
   0,
-  'h1 element in welcome section should contain your name or camper ' +
-    'name '
+  'h1 element in welcome section should contain your name or camper ' + 'name '
 );
 ```
 
 `id` が `projects` であるプロジェクトセクションが 1 つ必要です。
 
 ```js
-const el = document.getElementById('projects')
-assert(!!el);
+const el = document.getElementById('projects');
+assert.isNotNull(el);
 ```
 
 ポートフォリオにはクラスの値が `project-tile` に設定されている要素が少なくとも 1 つ必要です。
 
 ```js
-assert.isAbove(
-  document.querySelectorAll('#projects .project-tile').length,
-  0
-);
+assert.isAbove(document.querySelectorAll('#projects .project-tile').length, 0);
 ```
 
 `#projects` 要素には `a` 要素を少なくとも 1 つ入れる必要があります。
@@ -85,35 +80,33 @@ assert.isAbove(document.querySelectorAll('#projects a').length, 0);
 
 ```js
 const el = document.getElementById('navbar');
-assert(!!el);
+assert.isNotNull(el);
 ```
 
 `#navbar` 要素には `href` 属性の値が `#` で始まる `a` 要素を少なくとも 1 つ入れる必要があります。
 
 ```js
 const links = [...document.querySelectorAll('#navbar a')].filter(
-  (nav) => (nav?.getAttribute('href') || '').substring(0, 1) === '#'
+  nav => (nav?.getAttribute('href') || '').substring(0, 1) === '#'
 );
 
-assert.isAbove(
-  links.length,
-  0,
-  'Navbar should contain an anchor link '
-);
+assert.isAbove(links.length, 0, 'Navbar should contain an anchor link ');
 ```
 
 ポートフォリオには `id` が `profile-link` である `a` 要素が 1 つ必要です。
 
 ```js
 const el = document.getElementById('profile-link');
-assert(!!el && el.tagName === 'A')
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'A');
 ```
 
 `#profile-link` 要素は値が `_blank` に設定されている `target` 属性をもつ必要があります。
 
 ```js
 const el = document.getElementById('profile-link');
-assert(!!el && el.target === '_blank')
+assert.isNotNull(el);
+assert.strictEqual(el.target, '_blank');
 ```
 
 ポートフォリオはメディアクエリを少なくとも 1 つ使用する必要があります。
@@ -121,14 +114,15 @@ assert(!!el && el.target === '_blank')
 ```js
 const htmlSourceAttr = Array.from(document.querySelectorAll('source')).map(el => el.getAttribute('media'))
 const cssCheck = new __helpers.CSSHelp(document).getCSSRules('media')
-assert(cssCheck.length > 0 || htmlSourceAttr.length > 0);
+assert.isTrue(cssCheck.length > 0 || htmlSourceAttr.length > 0);
 ```
 
 `#navbar` 要素は常にビューポートの上部にある必要があります。
 
 ```js
 (async () => {
-  const timeout = (milliseconds) => new Promise((resolve) => setTimeout(resolve, milliseconds));
+  const timeout = milliseconds =>
+    new Promise(resolve => setTimeout(resolve, milliseconds));
 
   const navbar = document.getElementById('navbar');
   assert.approximately(
@@ -136,7 +130,7 @@ assert(cssCheck.length > 0 || htmlSourceAttr.length > 0);
     0,
     15,
     "Navbar's parent should be body and it should be at the top of " +
-    'the viewport '
+      'the viewport '
   );
 
   window.scroll(0, 500);
@@ -147,8 +141,7 @@ assert(cssCheck.length > 0 || htmlSourceAttr.length > 0);
     navbar?.getBoundingClientRect().top,
     0,
     15,
-    'Navbar should be at the top of the viewport even after ' +
-    'scrolling '
+    'Navbar should be at the top of the viewport even after ' + 'scrolling '
   );
   window.scroll(0, 0);
 })();
@@ -223,7 +216,7 @@ assert(cssCheck.length > 0 || htmlSourceAttr.length > 0);
 ```
 
 ```css
-nav{
+nav {
   position: fixed;
   width: 100%;
   text-align: right;
@@ -233,37 +226,37 @@ nav{
   background-color: #000000;
   color: #ffffff;
 }
-@media (max-width: 500px){
-  nav{
+@media (max-width: 500px) {
+  nav {
     display: none;
   }
 }
-a{
+a {
   color: #ffffff;
 }
-main{
+main {
   text-align: center;
   background-color: black;
-  font-family:Pacifico
+  font-family: Pacifico;
 }
-h1{
+h1 {
   font-size: 48pt;
 }
-h2{
+h2 {
   font-size: 24pt;
 }
-p{
+p {
   font-size: 12pt;
 }
-#welcome-section{
-  background-color:#251a4a;
-  color: #FFFFFF;
+#welcome-section {
+  background-color: #251a4a;
+  color: #ffffff;
   display: table-cell;
   vertical-align: middle;
   width: 100vw;
   height: 100vh;
 }
-#projects{
+#projects {
   background-color: #060a9c;
   color: #ffffff;
   display: table-cell;
@@ -271,7 +264,7 @@ p{
   width: 100vw;
   height: 100vh;
 }
-#contact{
+#contact {
   background-color: #03300b;
   color: #ffffff;
   display: table-cell;

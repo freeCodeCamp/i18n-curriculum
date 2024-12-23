@@ -19,7 +19,7 @@ dashedName: create-a-text-field
 <input type="text">
 ```
 
-Note that `input` is a void element.
+`input`은 빈 요소라는 점을 참고하세요.
 
 # --instructions--
 

@@ -22,13 +22,17 @@ Agrega la propiedad CSS `align-self` tanto a `#box-1` como a `#box-2`. Da a `#bo
 El elemento `#box-1` debe tener la propiedad `align-self` establecida en un valor de `center`.
 
 ```js
-assert($('#box-1').css('align-self') == 'center');
+const boxOne = document.querySelector('#box-1');
+const alignment = window.getComputedStyle(boxOne)['align-self'];
+assert.strictEqual(alignment, 'center');
 ```
 
 El elemento `#box-2` debe tener la propiedad `align-self` establecida en un valor de `flex-end`.
 
 ```js
-assert($('#box-2').css('align-self') == 'flex-end');
+const boxTwo = document.querySelector('#box-2');
+const alignment = window.getComputedStyle(boxTwo)['align-self'];
+assert.strictEqual(alignment, 'flex-end');
 ```
 
 # --seed--

@@ -72,7 +72,7 @@ dashedName: build-a-25--5-clock
 
 **유저 스토리 #28:** `reset`의 ID를 가진 요소를 클릭하면 `beep`의 ID를 가진 오디오 요소가 재생을 중지하고 처음으로 되감아져야 합니다.
 
-이 프로젝트를 <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">이 CodePen 템플릿</a>을 사용하여 빌드하고 `Save`를 클릭하여 자체 펜을 만들 수 있습니다. 또는 원하는 모든 환경에서 테스트를 실행하기 위해 이 CDN 링크를 사용할 수 있습니다: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
+이 프로젝트를 <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">이 CodePen 템플릿</a>을 사용하여 빌드하고 `Save`를 클릭하여 자체 펜을 만들 수 있습니다. If you prefer to use another environment, then put this `<script>` tag into the body of your `index.html` file: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
 
 완료되면 모든 테스트가 통과되는 작동 프로젝트의 URL을 제출하십시오.
 

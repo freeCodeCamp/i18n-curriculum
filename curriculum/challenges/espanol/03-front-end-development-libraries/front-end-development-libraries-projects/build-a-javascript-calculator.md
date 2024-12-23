@@ -52,7 +52,7 @@ Puedes utilizar cualquier combinición de HTML, JavaScript, CSS, Bootstrap, SASS
 -   **Immediate Execution Logic:** `11.5`
 -   **Fórmula/Expresión lógica:** `32.5`
 
-Puedes crear tu proyecto <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow"> usando esta plantilla, </a> y haciendo clic en `Save` para crear tu propio proyecto CodePen. O puedes utilizar este enlace CDN para ejecutar las pruebas en cualquier entorno que desees: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
+You can build your project by <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">using this CodePen template</a> and clicking `Save` to create your own pen. If you prefer to use another environment, then put this `<script>` tag into the body of your `index.html` file: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
 
 Una vez que hayas terminado, envía la URL de tu proyecto funcional con todas las pruebas realizadas.
 

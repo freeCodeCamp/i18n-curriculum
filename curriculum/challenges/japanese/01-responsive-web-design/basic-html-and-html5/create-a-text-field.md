@@ -30,7 +30,7 @@ dashedName: create-a-text-field
 `text` タイプの `input` 要素が必要です。
 
 ```js
-assert($('input[type=text]').length > 0);
+assert.isNotEmpty(document.querySelectorAll('input[type=text]'));
 ```
 
 # --seed--

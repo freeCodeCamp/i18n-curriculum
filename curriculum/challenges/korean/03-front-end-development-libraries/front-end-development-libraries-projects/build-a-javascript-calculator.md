@@ -52,7 +52,7 @@ dashedName: build-a-javascript-calculator
 -   **Immediate Execution Logic:** `11.5`
 -   **수식/표현 논리:** `32.5`
 
-프로젝트를 만들려면 <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">이 CodePen 템플릿을 사용</a>하여 `Save`를 클릭하여 자신의 펜을 만들 수 있습니다. 또는 원하는 환경에서 테스트를 실행하기 위해 이 CDN 링크를 사용할 수 있습니다.`https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
+You can build your project by <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">using this CodePen template</a> and clicking `Save` to create your own pen. If you prefer to use another environment, then put this `<script>` tag into the body of your `index.html` file: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
 
 완료되면 모든 테스트가 통과되는 작동 프로젝트의 URL을 제출하십시오.
 

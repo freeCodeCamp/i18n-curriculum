@@ -26,33 +26,30 @@ dashedName: add-a-submit-button-to-a-form
 `form` の中に `button` が必要です。
 
 ```js
-assert($('form').children('button').length > 0);
+const form = document.querySelector('form');
+const children = form.querySelectorAll(`:scope ${"button"}`); 
+assert.isNotEmpty(children); 
 ```
 
 送信ボタンは `type` 属性を `submit` に設定する必要があります。
 
 ```js
-assert($('button').attr('type') === 'submit');
+assert.strictEqual(document.querySelector('button').getAttribute('type'), 'submit');
 ```
 
 送信ボタンのテキストは `Submit` にしてください。
 
 ```js
-assert(
-  $('button')
-    .text()
-    .match(/^\s*submit\s*$/gi)
-);
+const text = document.querySelector('button').textContent;
+assert.match(text,/^\s*submit\s*$/gi);
 ```
 
 `button` 要素には終了タグが必要です。
 
 ```js
-assert(
-  code.match(/<\/button>/g) &&
-    code.match(/<button/g) &&
-    code.match(/<\/button>/g).length === code.match(/<button/g).length
-);
+assert.match(code,/<\/button>/g);
+assert.match(code,/<button/g);
+assert.strictEqual(code.match(/<\/button>/g).length,code.match(/<button/g).length);
 ```
 
 # --seed--

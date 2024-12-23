@@ -24,13 +24,17 @@ CSS プロパティ `flex-shrink` を `#box-1` と `#box-2` の両方に追加�
 `#box-1` 要素の `flex-shrink` プロパティを `1` に設定してください。
 
 ```js
-assert($('#box-1').css('flex-shrink') == '1');
+const boxOne = document.querySelector('#box-1');
+const flexShrink = window.getComputedStyle(boxOne)['flex-shrink'];
+assert.equal(flexShrink, '1');
 ```
 
 `#box-2` 要素の `flex-shrink` プロパティを `2` に設定してください。
 
 ```js
-assert($('#box-2').css('flex-shrink') == '2');
+const boxTwo = document.querySelector('#box-2');
+const flexShrink = window.getComputedStyle(boxTwo)['flex-shrink'];
+assert.equal(flexShrink, '2');
 ```
 
 # --seed--

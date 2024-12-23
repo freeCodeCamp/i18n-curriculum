@@ -24,7 +24,9 @@ CSS プロパティ `flex-direction` を `#box-container` 要素に追加し、`
 `#box-container` 要素の `flex-direction` プロパティを `row-reverse` に設定する必要があります 。
 
 ```js
-assert($('#box-container').css('flex-direction') == 'row-reverse');
+const boxContainer = document.querySelector('#box-container');
+const flexDirection = window.getComputedStyle(boxContainer)['flex-direction'];
+assert.strictEqual(flexDirection, 'row-reverse');
 ```
 
 # --seed--

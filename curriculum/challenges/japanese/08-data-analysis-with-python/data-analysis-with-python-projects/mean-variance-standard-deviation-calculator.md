@@ -52,7 +52,7 @@ Python カリキュラムの対話式教育コンテンツを引き続き開発�
 
 ## 開発
 
-`mean_var_std.py` にコードを記述してください。 開発には `main.py` を使用してコードをテストすることができます。 In order to run your code, type `python3 main.py` into the GitPod terminal and hit enter. This will cause the included CPython interpreter to run the `main.py` file.
+`mean_var_std.py` にコードを記述してください。 開発には `main.py` を使用してコードをテストすることができます。 コードを実行するには、GitPod ターミナルに `python3 main.py` と入力してエンターを押してください。 これにより CPython インタープリターで `main.py` が実行されます。
 
 ## テスト
 

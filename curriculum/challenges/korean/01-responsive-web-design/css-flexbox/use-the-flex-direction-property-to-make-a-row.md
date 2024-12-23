@@ -24,7 +24,9 @@ dashedName: use-the-flex-direction-property-to-make-a-row
 `#box-container` 요소는 `row-reverse`로 설정된 `flex-direction` 속성을 가져야 합니다.
 
 ```js
-assert($('#box-container').css('flex-direction') == 'row-reverse');
+const boxContainer = document.querySelector('#box-container');
+const flexDirection = window.getComputedStyle(boxContainer)['flex-direction'];
+assert.strictEqual(flexDirection, 'row-reverse');
 ```
 
 # --seed--

@@ -16,13 +16,17 @@ dashedName: create-a-media-query
 아래는 단말기의 가로 길이가 `100px`보다 작거나 같을 경우 해당 내용을 반환하는 미디어 쿼리에 대한 예제입니다.
 
 ```css
-@media (max-width: 100px) { /* CSS Rules */ }
+@media (max-width: 100px) {
+  /* CSS Rules */
+}
 ```
 
 아래는 단말기의 세로 길이가 `350px`보다 길거나 같을 경우 해당 내용을 반환하는 미디어 쿼리 예제입니다.
 
 ```css
-@media (min-height: 350px) { /* CSS Rules */ }
+@media (min-height: 350px) {
+  /* CSS Rules */
+}
 ```
 
 미디어 쿼리 내부의 CSS는 오직 해당 미디어의 유형이 현재 사용되는 단말기의 것과 일치해야만 적용된다는 것을 기억해두세요.
@@ -37,21 +41,30 @@ dashedName: create-a-media-query
 
 ```js
 const media = new __helpers.CSSHelp(document).getCSSRules('media');
-assert(media.some(x => x.media?.mediaText?.includes('(max-height: 800px)')));
+assert.isTrue(
+  media.some(x => x.media?.mediaText?.includes('(max-height: 800px)'))
+);
 ```
 
 `p` 요소는 단말기의 `height`가 `800px`보다 작거나 같을 경우 `font-size`가 `10px`이어야 합니다.
 
 ```js
-const rules = new __helpers.CSSHelp(document).getRuleListsWithinMedia('(max-height: 800px)');
-assert(rules?.find(x => x.selectorText === 'p')?.style?.fontSize === "10px");
+const rules = new __helpers.CSSHelp(document).getRuleListsWithinMedia(
+  '(max-height: 800px)'
+);
+assert.strictEqual(
+  rules?.find(x => x.selectorText === 'p')?.style?.fontSize,
+  '10px'
+);
 ```
 
 `p` 요소는 단말기의 `height`가 `800px`보다 큰 경우 `font-size`의 초기값으로 `20px`을 가집니다.
 
 ```js
-const ifPFirst = new __helpers.CSSHelp(document).getCSSRules()?.find(x => x?.selectorText === 'p' || x?.media);
-assert(ifPFirst?.style?.fontSize === '20px');
+const ifPFirst = new __helpers.CSSHelp(document)
+  .getCSSRules()
+  ?.find(x => x?.selectorText === 'p' || x?.media);
+assert.strictEqual(ifPFirst?.style?.fontSize, '20px');
 ```
 
 # --seed--
@@ -69,7 +82,14 @@ assert(ifPFirst?.style?.fontSize === '20px');
   /* Only change code above this line */
 </style>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis tempus massa. Aenean erat nisl, gravida vel vestibulum cursus, interdum sit amet lectus. Sed sit amet quam nibh. Suspendisse quis tincidunt nulla. In hac habitasse platea dictumst. Ut sit amet pretium nisl. Vivamus vel mi sem. Aenean sit amet consectetur sem. Suspendisse pretium, purus et gravida consequat, nunc ligula ultricies diam, at aliquet velit libero a dui.</p>
+<p>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis tempus
+  massa. Aenean erat nisl, gravida vel vestibulum cursus, interdum sit amet
+  lectus. Sed sit amet quam nibh. Suspendisse quis tincidunt nulla. In hac
+  habitasse platea dictumst. Ut sit amet pretium nisl. Vivamus vel mi sem.
+  Aenean sit amet consectetur sem. Suspendisse pretium, purus et gravida
+  consequat, nunc ligula ultricies diam, at aliquet velit libero a dui.
+</p>
 ```
 
 # --solutions--
@@ -87,5 +107,12 @@ assert(ifPFirst?.style?.fontSize === '20px');
   }
 </style>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis tempus massa. Aenean erat nisl, gravida vel vestibulum cursus, interdum sit amet lectus. Sed sit amet quam nibh. Suspendisse quis tincidunt nulla. In hac habitasse platea dictumst. Ut sit amet pretium nisl. Vivamus vel mi sem. Aenean sit amet consectetur sem. Suspendisse pretium, purus et gravida consequat, nunc ligula ultricies diam, at aliquet velit libero a dui.</p>
+<p>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis tempus
+  massa. Aenean erat nisl, gravida vel vestibulum cursus, interdum sit amet
+  lectus. Sed sit amet quam nibh. Suspendisse quis tincidunt nulla. In hac
+  habitasse platea dictumst. Ut sit amet pretium nisl. Vivamus vel mi sem.
+  Aenean sit amet consectetur sem. Suspendisse pretium, purus et gravida
+  consequat, nunc ligula ultricies diam, at aliquet velit libero a dui.
+</p>
 ```

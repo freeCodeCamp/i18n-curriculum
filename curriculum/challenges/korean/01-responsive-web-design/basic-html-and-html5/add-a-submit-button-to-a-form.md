@@ -9,7 +9,7 @@ dashedName: add-a-submit-button-to-a-form
 
 # --description--
 
-Let's add a `submit` button to your form. Clicking this button will send the data from your form to the URL you specified with your form's `action` attribute.
+`submit` 버튼을 설문 조사 양식에 생성해 보겠습니다. 이 버튼을 클릭하면 폼에 있는 데이터를 `action` 속성으로 지정한 URL로 제출할 수 있습니다.
 
 다음은 제출 버튼의 예시입니다.
 

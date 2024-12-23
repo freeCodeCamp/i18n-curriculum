@@ -26,13 +26,13 @@ dashedName: check-radio-buttons-and-checkboxes-by-default
 フォームの一番目のラジオボタンがデフォルトで選択されている必要があります。
 
 ```js
-assert($('input[type="radio"]').prop('checked'));
+assert.isTrue(document.querySelector('input[type="radio"]').checked);
 ```
 
 フォームの一番目のチェックボックスがデフォルトで選択されている必要があります。
 
 ```js
-assert($('input[type="checkbox"]').prop('checked'));
+assert.isTrue(document.querySelector('input[type="checkbox"]').checked);
 ```
 
 `Indoor` ラベルの内部テキストを変更しないようにしてください。

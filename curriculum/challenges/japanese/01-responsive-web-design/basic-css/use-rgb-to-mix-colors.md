@@ -22,65 +22,57 @@ dashedName: use-rgb-to-mix-colors
 テキストが `I am red!` の `h1` 要素の `color` は赤にしてください。
 
 ```js
-assert($('.red-text').css('color') === 'rgb(255, 0, 0)');
+const redText = document.querySelector('.red-text');
+const color = window.getComputedStyle(redText)['color']; 
+assert.strictEqual(color, 'rgb(255, 0, 0)');
 ```
 
 赤色の指定には `rgb` を使用してください。
 
 ```js
-assert(
-  code.match(
-    /\.red-text\s*{\s*color\s*:\s*rgb\(\s*255\s*,\s*0\s*,\s*0\s*\)\s*;?\s*}/gi
-  )
-);
+assert.match(code, /\.red-text\s*{\s*color\s*:\s*rgb\(\s*255\s*,\s*0\s*,\s*0\s*\)\s*;?\s*}/gi);
 ```
 
 テキストが `I am orchid!` の `h1` 要素の `color` はオーキッドにしてください。
 
 ```js
-assert($('.orchid-text').css('color') === 'rgb(218, 112, 214)');
+const orchidText = document.querySelector('.orchid-text');
+const color = window.getComputedStyle(orchidText)['color']; 
+assert.strictEqual(color, 'rgb(218, 112, 214)');
 ```
 
 オーキッドの指定には `rgb` を使用してください。
 
 ```js
-assert(
-  code.match(
-    /\.orchid-text\s*{\s*color\s*:\s*rgb\(\s*218\s*,\s*112\s*,\s*214\s*\)\s*;?\s*}/gi
-  )
-);
+assert.match(__helpers.removeCssComments(code), /\.orchid-text\s*{\s*color\s*:\s*rgb\(\s*218\s*,\s*112\s*,\s*214\s*\)\s*;?\s*}/gi);
 ```
 
 テキストが `I am blue!` の `h1` 要素の `color` は青にしてください。
 
 ```js
-assert($('.blue-text').css('color') === 'rgb(0, 0, 255)');
+const blueText = document.querySelector('.blue-text');
+const color = window.getComputedStyle(blueText)['color']; 
+assert.strictEqual(color, 'rgb(0, 0, 255)');
 ```
 
 青色の指定には `rgb` を使用してください。
 
 ```js
-assert(
-  code.match(
-    /\.blue-text\s*{\s*color\s*:\s*rgb\(\s*0\s*,\s*0\s*,\s*255\s*\)\s*;?\s*}/gi
-  )
-);
+assert.match(__helpers.removeCssComments(code), /\.blue-text\s*{\s*color\s*:\s*rgb\(\s*0\s*,\s*0\s*,\s*255\s*\)\s*;?\s*}/gi);
 ```
 
 テキストが `I am sienna!` の `h1` 要素の `color` はシエナにしてください。
 
 ```js
-assert($('.sienna-text').css('color') === 'rgb(160, 82, 45)');
+const siennaText = document.querySelector('.sienna-text');
+const color = window.getComputedStyle(siennaText)['color']; 
+assert.strictEqual(color, 'rgb(160, 82, 45)');
 ```
 
 シエナの指定には `rgb` を使用してください。
 
 ```js
-assert(
-  code.match(
-    /\.sienna-text\s*{\s*color\s*:\s*rgb\(\s*160\s*,\s*82\s*,\s*45\s*\)\s*;?\s*}/gi
-  )
-);
+assert.match(__helpers.removeCssComments(code), /\.sienna-text\s*{\s*color\s*:\s*rgb\(\s*160\s*,\s*82\s*,\s*45\s*\)\s*;?\s*}/gi);
 ```
 
 # --seed--

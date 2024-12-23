@@ -9,7 +9,7 @@ dashedName: use-rgb-values-to-color-elements
 
 # --description--
 
-Another way you can represent colors in CSS is by using `RGB` values.
+CSS에서 색상을 표현하는 또 다른 방법은 `RGB` 값을 사용하는 것입니다.
 
 검정색의 `RGB` 값은 다음과 같습니다:
 

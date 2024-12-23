@@ -34,25 +34,27 @@ dashedName: use-a-css-class-to-style-an-element
 `h2` 要素が赤で表示されている必要があります。
 
 ```js
-assert($('h2').css('color') === 'rgb(255, 0, 0)');
+const h2Element = document.querySelector('h2'); 
+const color = window.getComputedStyle(h2Element)['color']; 
+assert.strictEqual(color, 'rgb(255, 0, 0)');
 ```
 
 `h2` 要素にはクラス `red-text` が必要です。
 
 ```js
-assert($('h2').hasClass('red-text'));
+assert.isTrue(document.querySelector('h2').classList.contains('red-text'));
 ```
 
 スタイルシートに `red-text` クラスの宣言があり、color が `red` に設定されている必要があります。
 
 ```js
-assert(code.match(/\.red-text\s*\{\s*color\s*:\s*red;?\s*\}/g));
+assert.match(__helpers.removeCssComments(code), /\.red-text\s*\{\s*color\s*:\s*red;?\s*\}/g);
 ```
 
 `h2` 要素で `style="color: red"` のようなインラインスタイル宣言を使用しないでください。
 
 ```js
-assert($('h2').attr('style') === undefined);
+assert.notExists(document.querySelector('h2').getAttribute('style'));
 ```
 
 # --seed--

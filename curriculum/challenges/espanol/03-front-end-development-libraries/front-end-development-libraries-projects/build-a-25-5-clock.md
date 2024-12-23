@@ -72,7 +72,7 @@ Puedes utilizar cualquier combinición de HTML, JavaScript, CSS, Bootstrap, SASS
 
 **Historia de usuario #28:** El elemento de audio con id: `beep` debe dejar de reproducirse y se reiniciará al hacer clic en el elemento con id: `reset`.
 
-Puedes construir tu proyecto <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">usando esta plantilla de CodePen</a> y haciendo clic en `Save` para crear una copia. O puedes usar el siguiente enlace de CDN (Red de distribución de contenidos) para ejecutar las pruebas en el ambiente que desees: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
+Puedes construir tu proyecto <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">usando esta plantilla de CodePen</a> y haciendo clic en `Save` para crear una copia. If you prefer to use another environment, then put this `<script>` tag into the body of your `index.html` file: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
 
 Una vez que hayas terminado, envía la URL de tu proyecto funcional con todas las pruebas aprobadas.
 

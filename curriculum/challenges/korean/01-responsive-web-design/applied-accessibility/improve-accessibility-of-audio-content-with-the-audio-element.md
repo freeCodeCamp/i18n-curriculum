@@ -26,7 +26,7 @@ HTML5의 `audio` 요소는 마크업에서 음향 또는 오디오 스트림 콘
 
 # --instructions--
 
-캠퍼 캣(Camper Cat)에서 쉬는 시간입니다. 이번에는 캠퍼 Zersiax(@zersiax)를 만나보겠습니다. 그는 스크린 리더 사용자이자 접근성 마스터 입니다. `p` 요소 뒤에 `audio` 요소를 추가하면 스크린 리더 작동 소리를 듣을 수 있습니다. `controls` 속성을 포함하세요. Then place a `source` element inside the `audio` tags with the `src` attribute set to `https://cdn.freecodecamp.org/curriculum/applied-accessibility/screen-reader.mp3` and `type` attribute set to `"audio/mpeg"`.
+캠퍼 캣(Camper Cat)에서 쉬는 시간입니다. 이번에는 캠퍼 Zersiax(@zersiax)를 만나보겠습니다. 그는 스크린 리더 사용자이자 접근성 마스터 입니다. `p` 요소 뒤에 `audio` 요소를 추가하면 스크린 리더 작동 소리를 듣을 수 있습니다. `controls` 속성을 포함하세요. 그런 다음 `audio` 태그 안에 `source` 요소를 배치하고, `src` 속성을 `https://cdn.freecodecamp.org/curriculum/applied-accessibility/screen-reader.mp3`로, `type` 속성을 `"audio/mpeg"`로 설정하세요.
 
 **참고:** 오디오 클립이 빠르게 들릴 수 있고 이해하기 어려울 수 있지만, 이는 스크린 리더 사용자에게 정상적인 속도입니다.
 

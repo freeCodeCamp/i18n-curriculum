@@ -26,7 +26,9 @@ CSS には折り返す方向のオプションもあります:
 `#box-container` 要素の `flex-wrap` プロパティを `wrap` に設定してください。
 
 ```js
-assert($('#box-container').css('flex-wrap') == 'wrap');
+const boxContainer = document.querySelector('#box-container');
+const flexWrap = window.getComputedStyle(boxContainer)['flex-wrap'];
+assert.strictEqual(flexWrap, 'wrap');
 ```
 
 # --seed--

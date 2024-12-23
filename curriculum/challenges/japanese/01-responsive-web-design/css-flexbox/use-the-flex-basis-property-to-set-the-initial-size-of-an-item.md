@@ -22,25 +22,29 @@ dashedName: use-the-flex-basis-property-to-set-the-initial-size-of-an-item
 `#box-1` 要素は `flex-basis` プロパティを持つ必要があります。
 
 ```js
-assert($('#box-1').css('flex-basis') != 'auto');
+const boxOne = document.querySelector('#box-1');
+const flexBasis = window.getComputedStyle(boxOne)['flex-basis'];
+assert.notStrictEqual(flexBasis, 'auto');
 ```
 
 `#box-1` 要素の `flex-basis` プロパティを `10em` に設定してください。
 
 ```js
-assert(code.match(/#box-1\s*?{\s*?.*?\s*?.*?\s*?flex-basis:\s*?10em;/g));
+assert.match(code, /#box-1\s*?{\s*?.*?\s*?.*?\s*?flex-basis:\s*?10em;/g);
 ```
 
 `#box-2` 要素は `flex-basis` プロパティを持つ必要があります。
 
 ```js
-assert($('#box-2').css('flex-basis') != 'auto');
+const boxTwo = document.querySelector('#box-2');
+const flexBasis = window.getComputedStyle(boxTwo)['flex-basis'];
+assert.notStrictEqual(flexBasis, 'auto');
 ```
 
 `#box-2` 要素の `flex-basis` プロパティを `20em` に設定してください。
 
 ```js
-assert(code.match(/#box-2\s*?{\s*?.*?\s*?.*?\s*?flex-basis:\s*?20em;/g));
+assert.match(code, /#box-2\s*?{\s*?.*?\s*?.*?\s*?flex-basis:\s*?20em;/g);
 ```
 
 # --seed--

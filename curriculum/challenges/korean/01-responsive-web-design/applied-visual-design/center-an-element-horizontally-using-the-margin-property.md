@@ -9,7 +9,7 @@ dashedName: center-an-element-horizontally-using-the-margin-property
 
 # --description--
 
-Another positioning technique is to center a block element horizontally. One way to do this is to set its `margin` to a value of auto.
+또 다른 위치 지정 기술은 블록 요소를 수평으로 가운데 정렬하는 것입니다. 한 가지 방법은 `margin` 값을 자동으로 설정하는 것입니다.
 
 이 방법은 사진들에도 사용할 수 있습니다. 사진들은 기본적으로 인라인 요소들이지만 `display` 속성을 `block`로 설정하면 블록 요소로 바꿀 수 있습니다.
 

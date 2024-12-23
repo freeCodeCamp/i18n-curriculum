@@ -12,27 +12,27 @@ dashedName: build-a-palindrome-checker
 
 **注:** **英数字以外のすべての文字** (句読点、スペース、記号) を削除する必要があります。また、回文かどうかをチェックするために、すべてを同じケース (小文字または大文字) に変換する必要があります。
 
-**Objective:** Build an app that is functionally similar to <a href="https://palindrome-checker.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://palindrome-checker.freecodecamp.rocks</a>.
+**目標:** <a href="https://palindrome-checker.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://palindrome-checker.freecodecamp.rocks</a> と似た機能を持つアプリを作成してください。
 
 **ユーザーストーリー:**
 
-1. You should have an `input` element with an `id` of `"text-input"`.
-1. You should have a `button` element with an `id` of `"check-btn"`.
-1. You should have a `div`, `span` or `p` element with an `id` of `"result"`.
-1. When you click on the `#check-btn` element without entering a value into the `#text-input` element, an alert should appear with the text `"Please input a value"`.
-1. When the `#text-input` element only contains the letter `A` and the `#check-btn` element is clicked, the `#result` element should contain the text `"A is a palindrome"`.
-1. When the `#text-input` element contains the text `eye` and the `#check-btn` element is clicked, the `#result` element should contain the text `"eye is a palindrome"`.
-1. When the `#text-input` element contains the text `_eye` and the `#check-btn` element is clicked, the `#result` element should contain the text `"_eye is a palindrome"`.
-1. When the `#text-input` element contains the text `race car` and the `#check-btn` element is clicked, the `#result` element should contain the text `"race car is a palindrome"`.
-1. When the `#text-input` element contains the text `not a palindrome` and the `#check-btn` element is clicked, the `#result` element should contain the text `"not a palindrome is not a palindrome"`.
-1. `#text-input` の要素に `A man, a plan, a canal. Panama` というテキストを入力した状態で `#check-btn` の要素をクリックした場合、`#result` の要素に `"A man, a plan, a canal. Panama is a palindrome"`.
-1. When the `#text-input` element contains the text `never odd or even` and the `#check-btn` element is clicked, the `#result` element should contain the text `"never odd or even is a palindrome"`.
-1. When the `#text-input` element contains the text `nope` and the `#check-btn` element is clicked, the `#result` element should contain the text `"nope is not a palindrome"`.
-1. When the `#text-input` element contains the text `almostomla` and the `#check-btn` element is clicked, the `#result` element should contain the text `"almostomla is not a palindrome"`.
-1. When the `#text-input` element contains the text `My age is 0, 0 si ega ym.` and the `#check-btn` element is clicked, the `#result` element should contain the text `"My age is 0, 0 si ega ym. is a palindrome"`.
-1. `#text-input` の要素に `1 eye for of 1 eye.` というテキストを入力した状態で `#check-btn` の要素をクリックした場合、`#result` の要素に `"1 eye for of 1 eye. is not a palindrome"`.
-1. When the `#text-input` element contains the text `0_0 (: /-\ :) 0-0` and the `#check-btn` element is clicked, the `#result` element should contain the text `"0_0 (: /-\ :) 0-0 is a palindrome"`.
-1. When the `#text-input` element contains the text `five|\_/|four` and the `#check-btn` element is clicked, the `#result` element should contain the text `"five|\_/|four is not a palindrome"`.
+1. `id` が `"text-input"` に設定された `input` 要素が必要です。
+1. `id` が `"check-btn"` に設定された `button` 要素が必要です。
+1. `id` が `"result"` に設定された、`div`、`span`、または `p` 要素のいずれかが必要です。
+1. `#text-input` の要素に値を入力せずに `#check-btn` の要素をクリックした場合、`"Please input a value"` というテキストのアラートが表示されます。
+1. `#text-input` の要素に `A` という文字だけを入力した状態で `#check-btn` の要素をクリックした場合、`#result` の要素に `"A is a palindrome"` というテキストが表示されます。
+1. `#text-input` の要素に `eye` というテキストを入力した状態で `#check-btn` の要素をクリックした場合、`#result` の要素に `"eye is a palindrome"` というテキストが表示されます。
+1. `#text-input` の要素に `_eye` というテキストを入力した状態で `#check-btn` の要素をクリックした場合、`#result` の要素に `"_eye is a palindrome"` というテキストが表示されます。
+1. `#text-input` の要素に `race car` というテキストを入力した状態で `#check-btn` の要素をクリックした場合、`#result` の要素に `"race car is a palindrome"` というテキストが表示されます。
+1. `#text-input` の要素に `not a palindrome` というテキストを入力した状態で `#check-btn` の要素をクリックした場合、`#result` の要素に `"not a palindrome is not a palindrome"` というテキストが表示されます。
+1. `#text-input` の要素に `A man, a plan, a canal. Panama` というテキストを入力した状態で `#check-btn` の要素をクリックした場合、`#result` の要素に `"A man, a plan, a canal. Panama is a palindrome"` というテキストが表示されます。
+1. `#text-input` の要素に `never odd or even` というテキストを入力した状態で `#check-btn` の要素をクリックした場合、`#result` の要素に `"never odd or even is a palindrome"` というテキストが表示されます。
+1. `#text-input` の要素に `nope` というテキストを入力した状態で `#check-btn` の要素をクリックした場合、`#result` の要素に `"nope is not a palindrome"` というテキストが表示されます。
+1. `#text-input` の要素に `almostomla` というテキストを入力した状態で `#check-btn` の要素をクリックした場合、`#result` の要素に `"almostomla is not a palindrome"` というテキストが表示されます。
+1. `#text-input` の要素に `My age is 0, 0 si ega ym.` というテキストを入力した状態で `#check-btn` の要素をクリックした場合、`#result` の要素に `"My age is 0, 0 si ega ym. is a palindrome"` というテキストが表示されます。
+1. `#text-input` の要素に `1 eye for of 1 eye.` というテキストを入力した状態で `#check-btn` の要素をクリックした場合、`#result` の要素に `"1 eye for of 1 eye. is not a palindrome"` というテキストが表示されます。
+1. `#text-input` の要素に `0_0 (: /-\ :) 0-0` というテキストを入力した状態で `#check-btn` の要素をクリックした場合、`#result` の要素に `"0_0 (: /-\ :) 0-0 is a palindrome"` というテキストが表示されます。
+1. `#text-input` の要素に `five|\_/|four` というテキストを入力した状態で `#check-btn` の要素をクリックした場合、`#result` の要素に `"five|\_/|four is not a palindrome"` というテキストが表示されます。
 
 上記のユーザーストーリーを満たし、以下のすべてのテストが通るようにして、このプロジェクトを完成させてください。 あなた独自のアレンジを加えましょう。 ハッピーコーディング！
 

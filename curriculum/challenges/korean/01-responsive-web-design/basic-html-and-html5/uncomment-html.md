@@ -9,7 +9,7 @@ dashedName: uncomment-html
 
 # --description--
 
-Commenting is a way that you can leave comments for other developers within your code without affecting the resulting output that is displayed to the end user.
+주석 달기는 웹 사용자에게는 보이지 않게 하면서 코드 내에서 다른 개발자를 위해 주석을 남길 수 있는 방법입니다.
 
 주석 달기는 코드를 완전히 삭제하지 않고도 코드를 비활성화할 수 있는 편리한 방법이기도 합니다.
 

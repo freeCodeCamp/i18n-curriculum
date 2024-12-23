@@ -26,9 +26,7 @@ CSS 変数を作成するには、2 つのハイフンで始まる名前を付�
 `penguin` クラスは `--penguin-skin` 変数を宣言し、`gray` を代入している必要があります。
 
 ```js
-assert(
-  code.match(/\.penguin\s*\{[^{}]*?--penguin-skin\s*:\s*gr[ae]y\s*;[^{}]*?\}/gi)
-);
+assert.match(__helpers.removeHtmlComments(code), /\.penguin\s*\{[^{}]*?--penguin-skin\s*:\s*gr[ae]y\s*;[^{}]*?\}/gi);
 ```
 
 # --seed--

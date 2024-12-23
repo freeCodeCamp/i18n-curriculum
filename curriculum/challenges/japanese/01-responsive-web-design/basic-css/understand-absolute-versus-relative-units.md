@@ -26,18 +26,19 @@ dashedName: understand-absolute-versus-relative-units
 `red-box` クラスが `padding` プロパティを持つようにしてください。
 
 ```js
-assert(
-  $('.red-box').css('padding-top') != '0px' &&
-    $('.red-box').css('padding-right') != '0px' &&
-    $('.red-box').css('padding-bottom') != '0px' &&
-    $('.red-box').css('padding-left') != '0px'
-);
+const redBox =document.querySelector('.red-box'); 
+const style = window.getComputedStyle(redBox); 
+
+assert.notEqual(style['padding-top'], '0px');
+assert.notEqual(style['padding-right'], '0px');
+assert.notEqual(style['padding-bottom'], '0px');
+assert.notEqual(style['padding-left'], '0px');
 ```
 
 `red-box` クラスは、要素に 1.5em の `padding` を与える必要があります。
 
 ```js
-assert(code.match(/\.red-box\s*?{[\s\S]*padding\s*:\s*?1\.5em/gi));
+assert.match(__helpers.removeCssComments(code), /\.red-box\s*?{[\s\S]*padding\s*:\s*?1\.5em/gi);
 ```
 
 # --seed--

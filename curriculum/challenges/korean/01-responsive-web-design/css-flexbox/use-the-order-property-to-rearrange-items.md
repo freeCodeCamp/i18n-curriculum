@@ -20,13 +20,17 @@ dashedName: use-the-order-property-to-rearrange-items
 `#box-1` 요소는 `2`로 설정된 `order` 속성을 가져야 합니다.
 
 ```js
-assert($('#box-1').css('order') == '2');
+const boxOne = document.querySelector('#box-1');
+const order = window.getComputedStyle(boxOne)['order'];
+assert.strictEqual(order, '2');
 ```
 
 `#box-2` 요소는 `1`로 설정된 `order` 속성을 가져야 합니다.
 
 ```js
-assert($('#box-2').css('order') == '1');
+const boxTwo = document.querySelector('#box-2');
+const order = window.getComputedStyle(boxTwo)['order'];
+assert.strictEqual(order, '1');
 ```
 
 # --seed--

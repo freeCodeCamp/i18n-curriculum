@@ -9,7 +9,7 @@ dashedName: use-a-custom-css-variable
 
 # --description--
 
-After you create your variable, you can assign its value to other CSS properties by referencing the name you gave it.
+변수를 생성한 후 이 변수의 이름을 참조하여 다른 CSS 속성에 해당 값을 할당할 수 있습니다.
 
 ```css
 background: var(--penguin-skin);

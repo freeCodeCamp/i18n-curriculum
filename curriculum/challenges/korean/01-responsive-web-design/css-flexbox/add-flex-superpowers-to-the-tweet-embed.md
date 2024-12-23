@@ -22,49 +22,66 @@ dashedName: add-flex-superpowers-to-the-tweet-embed
 `.follow-btn`는 페이지에 렌더링 되어야 합니다. 광고 차단기 같은 모든 확장 프로그램은 꺼야 합니다.
 
 ```js
-assert($('.follow-btn').length > 0 && $('.follow-btn').css('display') !== 'none');
+const followButton = document.querySelector('.follow-btn');
+const displayStyle = window.getComputedStyle(followButton)['display'];
+assert.isNotNull(followButton);
+assert.notStrictEqual(displayStyle, 'none');
 ```
 
 `header`는 `flex`로 설정된 `display` 속성을 가져야 합니다.
 
 ```js
-assert($('header').css('display') == 'flex');
+const header = document.querySelector('header');
+const displayStyle = window.getComputedStyle(header)['display'];
+assert.strictEqual(displayStyle, 'flex');
 ```
 
 `footer`는 `flex`로 설정된 `display` 속성을 가져야 합니다.
 
 ```js
-assert($('footer').css('display') == 'flex');
+const footer = document.querySelector('footer');
+const displayStyle = window.getComputedStyle(footer)['display'];
+assert.strictEqual(displayStyle, 'flex');
 ```
 
 `h3`는 `flex`로 설정된 `display` 속성을 가져야 합니다.
 
 ```js
-assert($('h3').css('display') == 'flex');
+const h3Element = document.querySelector('h3');
+const displayStyle = window.getComputedStyle(h3Element)['display'];
+assert.strictEqual(displayStyle, 'flex');
 ```
 
 `h4`는 `flex`로 설정된 `display` 속성을 가져야 합니다.
 
 ```js
-assert($('h4').css('display') == 'flex');
+const h4Element = document.querySelector('h4');
+const displayStyle = window.getComputedStyle(h4Element)['display'];
+assert.strictEqual(displayStyle, 'flex');
 ```
 
 `.profile-name`는 `flex`로 설정된 `display` 속성을 가져야 합니다.
 
 ```js
-assert($('.profile-name').css('display') == 'flex');
+const profileName = document.querySelector('.profile-name');
+const displayStyle = window.getComputedStyle(profileName)['display'];
+assert.strictEqual(displayStyle, 'flex');
 ```
 
 `.follow-btn`는 `flex`로 설정된 `display` 속성을 가져야 합니다.
 
 ```js
-assert($('.follow-btn').css('display') == 'flex');
+const followButton = document.querySelector('.follow-btn');
+const displayStyle = window.getComputedStyle(followButton)['display'];
+assert.strictEqual(displayStyle, 'flex');
 ```
 
 `.stats`는 `flex`로 설정된 `display` 속성을 가져야 합니다.
 
 ```js
-assert($('.stats').css('display') == 'flex');
+const stats = document.querySelector('.stats');
+const displayStyle = window.getComputedStyle(stats)['display'];
+assert.strictEqual(displayStyle, 'flex');
 ```
 
 # --seed--
@@ -142,18 +159,17 @@ assert($('.stats').css('display') == 'flex');
   </div>
 </header>
 <div id="inner">
-  <p>I meet so many people who are in search of that one trick that will help them work smart. Even if you work smart, you still have to work hard.</p>
+  <p>
+    I meet so many people who are in search of that one trick that will help
+    them work smart. Even if you work smart, you still have to work hard.
+  </p>
   <span class="date">1:32 PM - 12 Jan 2018</span>
-  <hr>
+  <hr />
 </div>
 <footer>
   <div class="stats">
-    <div class="Retweets">
-      <strong>107</strong> Retweets
-    </div>
-    <div class="likes">
-      <strong>431</strong> Likes
-    </div>
+    <div class="Retweets"><strong>107</strong> Retweets</div>
+    <div class="likes"><strong>431</strong> Likes</div>
   </div>
   <div class="cta">
     <button class="share-btn">Share</button>
@@ -171,7 +187,7 @@ assert($('.stats').css('display') == 'flex');
     font-family: Arial, sans-serif;
   }
   header {
-   display: flex;
+    display: flex;
   }
   header .profile-thumbnail {
     width: 50px;
@@ -191,7 +207,8 @@ assert($('.stats').css('display') == 'flex');
     border-radius: 3px;
     padding: 5px;
   }
-  header h3, header h4 {
+  header h3,
+  header h4 {
     display: flex;
     margin: 0;
   }
@@ -226,7 +243,11 @@ assert($('.stats').css('display') == 'flex');
   }
 </style>
 <header>
-  <img src="https://cdn.freecodecamp.org/curriculum/legacy-css-flexbox/quincy-twitter-photo.jpg" alt="Quincy Larson's profile picture" class="profile-thumbnail">
+  <img
+    src="https://cdn.freecodecamp.org/curriculum/legacy-css-flexbox/quincy-twitter-photo.jpg"
+    alt="Quincy Larson's profile picture"
+    class="profile-thumbnail"
+  />
   <div class="profile-name">
     <h3>Quincy Larson</h3>
     <h4>@ossia</h4>
@@ -236,18 +257,17 @@ assert($('.stats').css('display') == 'flex');
   </div>
 </header>
 <div id="inner">
-  <p>I meet so many people who are in search of that one trick that will help them work smart. Even if you work smart, you still have to work hard.</p>
+  <p>
+    I meet so many people who are in search of that one trick that will help
+    them work smart. Even if you work smart, you still have to work hard.
+  </p>
   <span class="date">1:32 PM - 12 Jan 2018</span>
-  <hr>
+  <hr />
 </div>
 <footer>
   <div class="stats">
-    <div class="Retweets">
-      <strong>107</strong> Retweets
-    </div>
-    <div class="likes">
-      <strong>431</strong> Likes
-    </div>
+    <div class="Retweets"><strong>107</strong> Retweets</div>
+    <div class="likes"><strong>431</strong> Likes</div>
   </div>
   <div class="cta">
     <button class="share-btn">Share</button>

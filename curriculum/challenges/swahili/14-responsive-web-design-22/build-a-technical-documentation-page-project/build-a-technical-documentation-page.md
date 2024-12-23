@@ -37,141 +37,147 @@ Timiza maelezo na upite majaribio yote hapa chini ili kukamilisha mradi huu. Ipe
 Unapaswa kuwa na kipengele cha `main` chenye `id` ya `main-doc`.
 
 ```js
-const el = document.getElementById('main-doc')
-assert(!!el)
+const el = document.getElementById('main-doc');
+assert.isNotNull(el);
 ```
 
 Unapaswa kuwa na angalau vipengele vitano vya `section` vyenye class ya `main-section`.
 
 ```js
-const els = document.querySelectorAll('#main-doc section')
-assert(els.length >= 5)
+const els = document.querySelectorAll('#main-doc section');
+assert.isAtLeast(els.length, 5);
 ```
 
 Vipengele vyako vyote vya `.main-section` vinapaswa kuwa vipenegele vya `section`.
 
 ```js
-const els = document.querySelectorAll('.main-section')
+const els = document.querySelectorAll('.main-section');
 els.forEach(el => {
-  if (el.tagName !== 'SECTION') assert(false)
-})
-assert(els.length > 0)
+  if (el.tagName !== 'SECTION') {
+    assert.fail();
+  }
+});
+assert.isAbove(els.length, 0);
 ```
 
 Unapaswa kuwa na angalau vipengele vitano vya `.main-section` ambavyo ni vizazi vya `#main-doc`.
 
 ```js
-const els = document.querySelectorAll('#main-doc .main-section')
-assert(els.length >= 5)
+const els = document.querySelectorAll('#main-doc .main-section');
+assert.isAtLeast(els.length, 5);
 ```
 
 Mtoto wa kwanza wa `.main-section` inapaswa kuwa na kipengele cha `header`.
 
 ```js
-const els = document.querySelectorAll('.main-section')
+const els = document.querySelectorAll('.main-section');
 els.forEach(el => {
-  if(el.firstElementChild?.tagName !== 'HEADER') assert(false)
-})
-assert(els.length > 0)
+  if (el.firstElementChild?.tagName !== 'HEADER') assert.fail();
+});
+assert.isNotEmpty(els);
 ```
 
 Hakuna kati ya vipengele vyako vya `header` vinavyopaswa kuwa tupu.
 
 ```js
-const els = document.querySelectorAll('header')
+const els = document.querySelectorAll('header');
 els.forEach(el => {
-  if (el.innerText?.length <= 0) assert(false)
-})
-assert(els.length > 0)
+  if (el.innerText?.length <= 0) assert.fail();
+});
+assert.isNotEmpty(els);
 ```
 
 Vipengele vyako vyote vya `.main-section` vinapaswa kuwa na `id`.
 
 ```js
-const els = document.querySelectorAll('.main-section')
+const els = document.querySelectorAll('.main-section');
 els.forEach(el => {
-  if (!el.id || el.id === '') assert(false)
-})
-assert(els.length > 0)
+  if (!el.id || el.id === '') assert.fail();
+});
+assert.isNotEmpty(els);
 ```
 
 Kila `.main-section` inapaswa kuwa na `id` inayolingana na maandishi ya mtoto wake wa kwanza, na nafasi yoyote katika maandishi ya mtoto ikibadilishwa na underscores (`_`) kwa id's.
 
 ```js
-const els = document.querySelectorAll('.main-section')
+const els = document.querySelectorAll('.main-section');
 els.forEach(el => {
-  const text = el.firstElementChild?.innerText?.replaceAll(' ', '_')
-  if (el.id?.toUpperCase() !== text?.toUpperCase()) assert(false)
-})
-assert(els.length > 0)
+  const text = el.firstElementChild?.innerText?.replaceAll(' ', '_');
+  if (el.id?.toUpperCase() !== text?.toUpperCase()) assert.fail();
+});
+assert.isNotEmpty(els);
 ```
 
 Unapaswa kuwa na angalau vipengele 10 vya `p` (jumla) ndani ya vipengee vyako vya `.main-section`.
 
 ```js
-const els = document.querySelectorAll('.main-section p')
-assert(els.length >= 10)
+const els = document.querySelectorAll('.main-section p');
+assert.isAtLeast(els.length, 10);
 ```
 
 Unapaswa kuwa na angalau vipengele vitano vya `code` ambavyo ni vizazi vya vipengele vya `.main-section`.
 
 ```js
-const els = document.querySelectorAll('.main-section code')
-assert(els.length >= 5)
+const els = document.querySelectorAll('.main-section code');
+assert.isAtLeast(els.length, 5);
 ```
 
 Unapaswa kuwa na angalau vipengele vitano vya `li` ambavyo ni vizazi vya vipengele vya `.main-section`.
 
 ```js
-const els = document.querySelectorAll('.main-section li')
-assert(els.length >= 5)
+const els = document.querySelectorAll('.main-section li');
+assert.isAtLeast(els.length, 5);
 ```
 
 Unapaswa kuwa na kipengele cha `nav` chenye `id` ya `navbar`.
 
 ```js
-const el = document.getElementById('navbar')
-assert(!!el && el.tagName === 'NAV')
+const el = document.getElementById('navbar');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'NAV');
 ```
 
 `#navbar` yako inapaswa kuwa na `header` kimoja ndani yake.
 
 ```js
-const els = document.querySelectorAll('#navbar header')
-assert(els.length === 1)
+const els = document.querySelectorAll('#navbar header');
+assert.lengthOf(els, 1);
 ```
 
 Unapaswa kuwa na angalau kipengele kimoja cha `a` chenye class ya `nav-link`.
 
 ```js
-const els = document.querySelectorAll('a.nav-link')
-assert(els.length >= 1)
+const els = document.querySelectorAll('a.nav-link');
+assert.isAtLeast(els.length, 1);
 ```
 
 Vipengele vyako vyote vya `.nav-link` vinapaswa kuwa na vipengee (`a`).
 
 ```js
-const els = document.querySelectorAll('.nav-link')
+const els = document.querySelectorAll('.nav-link');
 els.forEach(el => {
-  if (el.tagName !== 'A') assert(false)
-})
-assert(els.length > 0)
+  if (el.tagName !== 'A') assert.fail();
+});
+assert.isNotEmpty(els);
 ```
 
 Vipengele vyako vyote vya `.nav-link` vinapaswa kuwa katika `#navbar`.
 
 ```js
-const els1 = document.querySelectorAll('.nav-link')
-const els2 = document.querySelectorAll('#navbar .nav-link')
-assert(els2.length > 0 && els1.length === els2.length)
+const els1 = document.querySelectorAll('.nav-link');
+const els2 = document.querySelectorAll('#navbar .nav-link');
+assert.isNotEmpty(els2);
+assert.strictEqual(els1.length, els2.length);
 ```
 
 Unapaswa kuwa na nambari sawa ya vipengele vya `.nav-link` na `.main-section`.
 
 ```js
-const els1 = document.querySelectorAll('.main-section')
-const els2 = document.querySelectorAll('.nav-link')
-assert(els1.length > 0 && els2.length > 0 && els1.length === els2.length)
+const els1 = document.querySelectorAll('.main-section');
+const els2 = document.querySelectorAll('.nav-link');
+assert.isNotEmpty(els1);
+assert.isNotEmpty(els2);
+assert.strictEqual(els1.length, els2.length);
 ```
 
 Kipengele cha `header` katika `#navbar` kinafaa kuja kabla ya vipengele vyovyote vya kiungo (`a`) katika `#navbar`.
@@ -179,54 +185,66 @@ Kipengele cha `header` katika `#navbar` kinafaa kuja kabla ya vipengele vyovyote
 ```js
 const navLinks = document.querySelectorAll('#navbar a.nav-link');
 const header = document.querySelector('#navbar header');
-navLinks.forEach((navLink) => {
+navLinks.forEach(navLink => {
   if (
-    (
-      header.compareDocumentPosition(navLink) &
-      Node.DOCUMENT_POSITION_PRECEDING
-    ) 
-  ) assert(false)
+    header.compareDocumentPosition(navLink) & Node.DOCUMENT_POSITION_PRECEDING
+  )
+    assert.fail();
 });
-assert(!!header)
+assert.isNotNull(header);
 ```
 
 Kila `.nav-link` inapaswa kuwa na maandishi yanayolingana na `header` maandishi ya `section` yake inayohusiana (k.m. ikiwa una sehemu ya "Hello world", `#navbar` yako inapaswa kuwa na `.nav-link` ambayo ina maandishi "Hello world").
 
 ```js
-const headerText = Array.from(document.querySelectorAll('.main-section')).map(el =>
-  el.firstElementChild?.innerText?.trim().toUpperCase()
-)
+const headerText = Array.from(document.querySelectorAll('.main-section')).map(
+  el => el.firstElementChild?.innerText?.trim().toUpperCase()
+);
 const linkText = Array.from(document.querySelectorAll('.nav-link')).map(el =>
   el.innerText?.trim().toUpperCase()
-)
-const remainder = headerText.filter(str => linkText.indexOf(str) === -1)
-assert(headerText.length > 0 && linkText.length > 0 && remainder.length === 0)
+);
+const remainder = headerText.filter(str => linkText.indexOf(str) === -1);
+
+assert.isNotEmpty(headerText);
+assert.isNotEmpty(linkText);
+assert.isEmpty(remainder);
 ```
 
 Kila `.nav-link` inapaswa kuwa na sifa ya `href` inayounganishwa na `.main-section` inayolingana (k.m. Ukibofya kipengele cha `.nav-link` ambacho kina maandishi "Hello world", ukurasa husogea hadi kwenye kipengele cha `section` chenye kitambulisho hicho).
 
 ```js
-const hrefValues = Array.from(document.querySelectorAll('.nav-link')).map(el => el.getAttribute('href'))
-const mainSectionIDs = Array.from(document.querySelectorAll('.main-section')).map(el => el.id)
-const missingHrefValues = mainSectionIDs.filter(str => hrefValues.indexOf('#' + str) === -1)
-assert(hrefValues.length > 0 && mainSectionIDs.length > 0 && missingHrefValues.length === 0)
+const hrefValues = Array.from(document.querySelectorAll('.nav-link')).map(el =>
+  el.getAttribute('href')
+);
+const mainSectionIDs = Array.from(
+  document.querySelectorAll('.main-section')
+).map(el => el.id);
+const missingHrefValues = mainSectionIDs.filter(
+  str => hrefValues.indexOf('#' + str) === -1
+);
+assert.isNotEmpty(hrefValues);
+assert.isNotEmpty(mainSectionIDs);
+assert.isEmpty(missingHrefValues, 0);
 ```
 
 `#navbar` inapaswa kuwa juu ya viewport kila wakati.
 
 ```js
-const el = document.getElementById('navbar')
-const left1 = el?.offsetLeft
-const left2 = el?.offsetLeft
-assert(!!el && left1 >= -15 && left1 <= 15 && left2 >= -15 && left2 <= 15)
+const el = document.getElementById('navbar');
+const left1 = el?.offsetLeft;
+assert.isNotNull(el);
+assert.isAtLeast(left1, -15);
+assert.isAtMost(left1, 15);
 ```
 
 Hati zako za kiufundi zinapaswa kutumia angalau media query moja.
 
 ```js
-const htmlSourceAttr = Array.from(document.querySelectorAll('source')).map(el => el.getAttribute('media'))
-const cssCheck = new __helpers.CSSHelp(document).getCSSRules('media')
-assert(cssCheck.length > 0 || htmlSourceAttr.length > 0);
+const htmlSourceAttr = Array.from(document.querySelectorAll('source')).map(el =>
+  el.getAttribute('media')
+);
+const cssCheck = new __helpers.CSSHelp(document).getCSSRules('media');
+assert.isTrue(cssCheck.length > 0 || htmlSourceAttr.length > 0);
 ```
 
 # --seed--
@@ -501,7 +519,7 @@ a:hover {
   left: -5px;
   padding: 5px;
   text-align: center;
-  color: #92869c
+  color: #92869c;
 }
 @media (min-width: 480px) {
   #navbar {
@@ -510,7 +528,7 @@ a:hover {
 }
 main {
   margin-left: 220px;
-  color: #92869c
+  color: #92869c;
 }
 header {
   font-size: 20pt;

@@ -35,46 +35,46 @@ HTML5 では、より説明的な HTML タグが導入されています。 例�
 Kitty Ipsum テキストを持つ 2 つの `p` 要素が必要です。
 
 ```js
-assert($('p').length > 1);
+assert.lengthOf(document.querySelectorAll('p'),2);
 ```
 
 それぞれの `p` 要素に終了タグが必要です。
 
 ```js
-assert(
-  code.match(/<\/p>/g) &&
-    code.match(/<\/p>/g).length === code.match(/<p/g).length
-);
+assert.match(code,/<\/p>/g);
+assert.strictEqual(code.match(/<\/p>/g).length,code.match(/<p/g).length);
 ```
 
 `p` 要素には、追加で与えられた `kitty ipsum` テキストの、はじめの数単語を含む必要があります。
 
 ```js
-assert.isTrue(/Purr\s+jump\s+eat/gi.test($('p').text()));
+assert.match(document.querySelectorAll('p')[1].textContent,/Purr\s+jump\s+eat/gi);
 ```
 
 コードには `main` 要素が1つ必要です。
 
 ```js
-assert($('main').length === 1);
+assert.lengthOf(document.querySelectorAll('main'),1);
 ```
 
 `main` 要素は、子要素として 2 つの段落要素を持つ必要があります。
 
 ```js
-assert($('main').children('p').length === 2);
+const main = document.querySelector('main');
+const children = main.querySelectorAll("p"); 
+assert.lengthOf(children,2);
 ```
 
 `main` の開始タグは、最初の段落タグの前になければなりません。
 
 ```js
-assert(code.match(/<main>\s*?<p>/g));
+assert.match(code,(/<main>\s*?<p>/g));
 ```
 
 `main` の終了タグは、2 番目の段落の終了タグの後になければなりません。
 
 ```js
-assert(code.match(/<\/p>\s*?<\/main>/g));
+assert.match(code,(/<\/p>\s*?<\/main>/g));
 ```
 
 # --seed--

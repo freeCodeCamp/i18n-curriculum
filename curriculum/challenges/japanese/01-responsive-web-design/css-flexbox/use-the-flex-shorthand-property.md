@@ -26,27 +26,33 @@ CSS プロパティ `flex` を `#box-1` と `#box-2` の両方に追加します
 `#box-1` 要素の `flex` プロパティを `2 2 150px` に設定してください。
 
 ```js
-assert(
-  $('#box-1').css('flex-grow') == '2' &&
-    $('#box-1').css('flex-shrink') == '2' &&
-    $('#box-1').css('flex-basis') == '150px'
-);
+const boxOne = document.querySelector('#box-1');
+const flexGrow = window.getComputedStyle(boxOne)['flex-grow'];
+const flexShrink = window.getComputedStyle(boxOne)['flex-shrink'];
+const flexBasis = window.getComputedStyle(boxOne)['flex-basis'];
+
+assert.equal(flexGrow, '2');
+assert.equal(flexShrink, '2');
+assert.equal(flexBasis, '150px');
 ```
 
 `#box-2` 要素の `flex` プロパティを `1 1 150px` に設定してください。
 
 ```js
-assert(
-  $('#box-2').css('flex-grow') == '1' &&
-    $('#box-2').css('flex-shrink') == '1' &&
-    $('#box-2').css('flex-basis') == '150px'
-);
+const boxTwo = document.querySelector('#box-2');
+const flexGrow = window.getComputedStyle(boxTwo)['flex-grow'];
+const flexShrink = window.getComputedStyle(boxTwo)['flex-shrink'];
+const flexBasis = window.getComputedStyle(boxTwo)['flex-basis'];
+
+assert.equal(flexGrow, '1');
+assert.equal(flexShrink, '1');
+assert.equal(flexBasis, '150px');
 ```
 
 コードは `#box-1` と `#box-2` の両方で `flex` プロパティを使用してください。
 
 ```js
-assert(code.match(/flex:\s*?\d\s+?\d\s+?150px;/g).length == 2);
+assert.lengthOf(code.match(/flex:\s*?\d\s+?\d\s+?150px;/g), 2);
 ```
 
 # --seed--

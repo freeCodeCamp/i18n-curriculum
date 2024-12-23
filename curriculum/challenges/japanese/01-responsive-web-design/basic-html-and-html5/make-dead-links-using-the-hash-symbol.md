@@ -24,7 +24,7 @@ dashedName: make-dead-links-using-the-hash-symbol
 `a` 要素は、`href` 属性の値が "#" に設定されたデッドリンクである必要があります。
 
 ```js
-assert($('a').attr('href') === '#');
+assert.strictEqual(document.querySelector('a').getAttribute('href'),'#');
 ```
 
 # --seed--

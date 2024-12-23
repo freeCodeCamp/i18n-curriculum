@@ -24,7 +24,9 @@ dashedName: adjust-the-margin-of-an-element
 `blue-box` クラスは、要素に `20px` の `margin` を与える必要があります。
 
 ```js
-assert($('.blue-box').css('margin-top') === '20px');
+const blueBox = document.querySelector('.blue-box');
+const marginTop = window.getComputedStyle(blueBox)['margin-top'];
+assert.strictEqual(marginTop, '20px');
 ```
 
 # --seed--

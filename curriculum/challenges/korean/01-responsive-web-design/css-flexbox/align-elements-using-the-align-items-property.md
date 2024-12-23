@@ -9,7 +9,7 @@ dashedName: align-elements-using-the-align-items-property
 
 # --description--
 
-The `align-items` property is similar to `justify-content`. Recall that the `justify-content` property aligned flex items along the main axis. For rows, the main axis is a horizontal line and for columns it is a vertical line.
+`align-items` 속성은 `justify-content`와 유사합니다. `justify-content` 속성은 주축을 따라 플렉스 아이템을 정렬시킨다는 것을 배웠습니다. 행의 주축이 수평선이고 열의 주축은 수직선입니다.
 
 플렉스 컨테이너는 주축과는 반대인 **교차 축**도 있습니다. 행의 교차 축은 수직이고 열의 교차 축은 수평입니다.
 
@@ -17,7 +17,7 @@ CSS는 교차 축을 따라 플렉스 아이템을 정렬시키도록 `align-ite
 
 `align-items`에 이용 가능한 값들은 다음과 같습니다.
 
-<ul><li><code>flex-start</code>: aligns items to the start of the flex container. For rows, this aligns items to the top of the container. For columns, this aligns items to the left of the container.</li><li><code>flex-end</code>: 플렉스 컨테이너 끝에 아이템을 정렬. 행에 대해 이 값은 컨테이너의 하단에 아이템을 정렬시킵니다. 열에 대해 이 값은 컨테이너 우측에 아이템을 정렬시킵니다.</li><li><code>center</code>: 중앙에 아이템을 정렬. 행에 대해 이 값은 수직으로 아이템을 정렬시킵니다(아이템 위아래로 동일한 간격). 열에 대해 이 값은 수평으로 아이템을 정렬시킵니다(아이템의 좌우에 동일한 간격).</li><li><code>stretch</code>: 플렉스 컨테이너를 채우도록 아이템을 늘림. 예를 들면 행의 아이템은 위아래로 플렉스 컨테이너를 채우도록 늘어납니다. <code>align-items</code> 값이 특정되지 않는다면 이 값은 기본값으로 설정됩니다.</li><li><code>baseline</code>: 아이템의 베이스라인에 아이템을 정렬. 베이스 라인은 텍스트 개념으로, 글자가 올라가 있는 선으로 생각할 수 있습니다.</li></ul>
+<ul><li><code>flex-start</code>: 플렉스 컨테이너 시작에 아이템 정렬. 행에 대해 이 값은 컨테이너 상단에 아이템을 정렬시킵니다. 열에 대해 이 값은 컨테이너의 좌측에 아이템을 정렬시킵니다.</li><li><code>flex-end</code>: 플렉스 컨테이너 끝에 아이템을 정렬. 행에 대해 이 값은 컨테이너의 하단에 아이템을 정렬시킵니다. 열에 대해 이 값은 컨테이너 우측에 아이템을 정렬시킵니다.</li><li><code>center</code>: 중앙에 아이템을 정렬. 행에 대해 이 값은 수직으로 아이템을 정렬시킵니다(아이템 위아래로 동일한 간격). 열에 대해 이 값은 수평으로 아이템을 정렬시킵니다(아이템의 좌우에 동일한 간격).</li><li><code>stretch</code>: 플렉스 컨테이너를 채우도록 아이템을 늘림. 예를 들면 행의 아이템은 위아래로 플렉스 컨테이너를 채우도록 늘어납니다. <code>align-items</code> 값이 특정되지 않는다면 이 값은 기본값으로 설정됩니다.</li><li><code>baseline</code>: 아이템의 베이스라인에 아이템을 정렬. 베이스 라인은 텍스트 개념으로, 글자가 올라가 있는 선으로 생각할 수 있습니다.</li></ul>
 
 # --instructions--
 
@@ -31,7 +31,9 @@ CSS는 교차 축을 따라 플렉스 아이템을 정렬시키도록 `align-ite
 `#box-container` 요소는 `center` 값으로 설정된 `align-items` 속성을 가져야 합니다.
 
 ```js
-assert($('#box-container').css('align-items') == 'center');
+const boxContainer = document.querySelector('#box-container');
+const alignment = window.getComputedStyle(boxContainer)['align-items'];
+assert.strictEqual(alignment, 'center');
 ```
 
 # --seed--

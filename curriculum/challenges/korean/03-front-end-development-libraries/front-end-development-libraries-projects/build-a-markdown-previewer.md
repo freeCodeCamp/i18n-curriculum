@@ -29,7 +29,7 @@ dashedName: build-a-markdown-previewer
 
 **선택적 보너스 (이 테스트를 통과해야 할 필요는 없음):** 마크다운 미리보기는 개행 문자를 해석하고 이를 `br` (줄 바꿈) 요소로 렌더링합니다.
 
-프로젝트를 구축하려면 이 <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">CodePen 템플릿을 사용</a>하고 `Save`를 클릭하여 자신의 펜을 생성할 수 있습니다. 또는 원하는 모든 환경에서 테스트를 실행하기 위해 이 CDN 링크를 사용할 수 있습니다: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
+You can build your project by <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">using this CodePen template</a> and clicking `Save` to create your own pen. If you prefer to use another environment, then put this `<script>` tag into the body of your `index.html` file: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
 
 완료되면 모든 테스트가 통과되는 작동 프로젝트의 URL을 제출하십시오.
 

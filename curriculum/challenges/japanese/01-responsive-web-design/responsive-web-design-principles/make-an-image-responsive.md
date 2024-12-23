@@ -28,13 +28,13 @@ img {
 `responsive-img` クラスは `max-width` を `100%` に設定する必要があります。
 
 ```js
-assert(getComputedStyle($('.responsive-img')[0]).maxWidth === '100%');
+assert.strictEqual(getComputedStyle(document.querySelector('.responsive-img')).maxWidth, '100%');
 ```
 
 `responsive-img` クラスは `height` を `auto` に設定する必要があります。
 
 ```js
-assert(code.match(/height:\s*?auto;/g));
+assert.match(code, /height:\s*?auto;/g);
 ```
 
 # --seed--
@@ -53,24 +53,38 @@ img {
 }
 </style>
 
-<img class="responsive-img" src="https://cdn.freecodecamp.org/curriculum/responsive-web-design-principles/FCCStickerPack.jpg" alt="freeCodeCamp stickers set">
-<img src="https://cdn.freecodecamp.org/curriculum/responsive-web-design-principles/FCCStickerPack.jpg" alt="freeCodeCamp stickers set">
+<img
+  class="responsive-img"
+  src="https://cdn.freecodecamp.org/curriculum/responsive-web-design-principles/FCCStickerPack.jpg"
+  alt="freeCodeCamp stickers set"
+/>
+<img
+  src="https://cdn.freecodecamp.org/curriculum/responsive-web-design-principles/FCCStickerPack.jpg"
+  alt="freeCodeCamp stickers set"
+/>
 ```
 
 # --solutions--
 
 ```html
 <style>
-.responsive-img {
-  max-width: 100%;
-  height: auto;
-}
+  .responsive-img {
+    max-width: 100%;
+    height: auto;
+  }
 
-img {
-  width: 600px;
-}
+  img {
+    width: 600px;
+  }
 </style>
 
-<img class="responsive-img" src="https://cdn.freecodecamp.org/curriculum/responsive-web-design-principles/FCCStickerPack.jpg" alt="freeCodeCamp stickers set">
-<img src="https://cdn.freecodecamp.org/curriculum/responsive-web-design-principles/FCCStickerPack.jpg" alt="freeCodeCamp stickers set">
+<img
+  class="responsive-img"
+  src="https://cdn.freecodecamp.org/curriculum/responsive-web-design-principles/FCCStickerPack.jpg"
+  alt="freeCodeCamp stickers set"
+/>
+<img
+  src="https://cdn.freecodecamp.org/curriculum/responsive-web-design-principles/FCCStickerPack.jpg"
+  alt="freeCodeCamp stickers set"
+/>
 ```

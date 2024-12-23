@@ -31,7 +31,9 @@ Prueba las otras opciones de la propiedad `align-items` en el editor de código 
 El elemento `#box-container` debe tener una propiedad `align-items` establecida en un valor de `center`.
 
 ```js
-assert($('#box-container').css('align-items') == 'center');
+const boxContainer = document.querySelector('#box-container');
+const alignment = window.getComputedStyle(boxContainer)['align-items'];
+assert.strictEqual(alignment, 'center');
 ```
 
 # --seed--

@@ -24,13 +24,17 @@ dashedName: use-the-flex-shrink-property-to-shrink-items
 `#box-1` 요소는 `1`로 설정된 `flex-shrink` 속성을 가져야 합니다.
 
 ```js
-assert($('#box-1').css('flex-shrink') == '1');
+const boxOne = document.querySelector('#box-1');
+const flexShrink = window.getComputedStyle(boxOne)['flex-shrink'];
+assert.equal(flexShrink, '1');
 ```
 
 `#box-2` 요소는 `2`로 설정된 `flex-shrink` 속성을 가져야 합니다.
 
 ```js
-assert($('#box-2').css('flex-shrink') == '2');
+const boxTwo = document.querySelector('#box-2');
+const flexShrink = window.getComputedStyle(boxTwo)['flex-shrink'];
+assert.equal(flexShrink, '2');
 ```
 
 # --seed--

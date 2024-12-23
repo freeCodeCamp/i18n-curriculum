@@ -22,7 +22,9 @@ Agrega la propiedad CSS `display` a `#box-container` y establece su valor como `
 `#box-container` debería tener la propiedad `display` establecida en un valor de `flex`.
 
 ```js
-assert($('#box-container').css('display') == 'flex');
+const boxContainer = document.querySelector('#box-container');
+const displayStyle = window.getComputedStyle(boxContainer)['display'];
+assert.strictEqual(displayStyle, 'flex');
 ```
 
 # --seed--

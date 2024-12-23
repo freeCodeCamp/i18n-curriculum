@@ -22,13 +22,17 @@ CSS プロパティ `flex-grow` を `#box-1` と `#box-2` の両方に追加し�
 `#box-1` 要素の `flex-grow` プロパティを `1` に設定してください。
 
 ```js
-assert($('#box-1').css('flex-grow') == '1');
+const boxOne = document.querySelector('#box-1');
+const flexGrow = window.getComputedStyle(boxOne)['flex-grow'];
+assert.equal(flexGrow, '1');
 ```
 
 `#box-2` 要素の `flex-grow` プロパティを `2` に設定してください。
 
 ```js
-assert($('#box-2').css('flex-grow') == '2');
+const boxTwo = document.querySelector('#box-2');
+const flexGrow = window.getComputedStyle(boxTwo)['flex-grow'];
+assert.equal(flexGrow, '2');
 ```
 
 # --seed--

@@ -9,7 +9,7 @@ dashedName: set-the-font-family-of-an-element
 
 # --description--
 
-You can set which font an element should use, by using the `font-family` property.
+`font-family` 속성을 사용하여 요소가 사용할 글꼴을 설정할 수 있습니다.
 
 예를 들어, `h2` 요소의 글꼴을 `sans-serif`로 설정하려면 다음과 같은 CSS를 사용할 수 있습니다.
 

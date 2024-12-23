@@ -20,13 +20,18 @@ CSS プロパティ `align-items` をヘッダーの `.follow-btn` 要素に追�
 `.follow-btn` がページ上に表示されている必要があります。 必ず広告ブロッカーなどの拡張機能をオフにしてください。
 
 ```js
-assert($('.follow-btn').length > 0 && $('.follow-btn').css('display') !== 'none');
+const followButton = document.querySelector('.follow-btn');
+const displayStyle = window.getComputedStyle(followButton)['display'];
+assert.isNotNull(followButton);
+assert.notStrictEqual(displayStyle, 'none');
 ```
 
 `.follow-btn` 要素の `align-items` プロパティを `center` に設定してください。
 
 ```js
-assert($('.follow-btn').css('align-items') == 'center');
+const followButton = document.querySelector('.follow-btn');
+const alignItems = window.getComputedStyle(followButton)['align-items'];
+assert.strictEqual(alignItems, 'center');
 ```
 
 # --seed--
@@ -38,7 +43,8 @@ assert($('.follow-btn').css('align-items') == 'center');
   body {
     font-family: Arial, sans-serif;
   }
-  header, footer {
+  header,
+  footer {
     display: flex;
     flex-direction: row;
   }
@@ -63,7 +69,8 @@ assert($('.follow-btn').css('align-items') == 'center');
     border-radius: 3px;
     padding: 5px;
   }
-  header h3, header h4 {
+  header h3,
+  header h4 {
     display: flex;
     margin: 0;
   }
@@ -95,7 +102,11 @@ assert($('.follow-btn').css('align-items') == 'center');
   }
 </style>
 <header>
-  <img src="https://cdn.freecodecamp.org/curriculum/legacy-css-flexbox/quincy-twitter-photo.jpg" alt="Quincy Larson's profile picture" class="profile-thumbnail">
+  <img
+    src="https://cdn.freecodecamp.org/curriculum/legacy-css-flexbox/quincy-twitter-photo.jpg"
+    alt="Quincy Larson's profile picture"
+    class="profile-thumbnail"
+  />
   <div class="profile-name">
     <h3>Quincy Larson</h3>
     <h4>@ossia</h4>
@@ -105,18 +116,17 @@ assert($('.follow-btn').css('align-items') == 'center');
   </div>
 </header>
 <div id="inner">
-  <p>I meet so many people who are in search of that one trick that will help them work smart. Even if you work smart, you still have to work hard.</p>
+  <p>
+    I meet so many people who are in search of that one trick that will help
+    them work smart. Even if you work smart, you still have to work hard.
+  </p>
   <span class="date">1:32 PM - 12 Jan 2018</span>
-  <hr>
+  <hr />
 </div>
 <footer>
   <div class="stats">
-    <div class="Retweets">
-      <strong>107</strong> Retweets
-    </div>
-    <div class="likes">
-      <strong>431</strong> Likes
-    </div>
+    <div class="Retweets"><strong>107</strong> Retweets</div>
+    <div class="likes"><strong>431</strong> Likes</div>
   </div>
   <div class="cta">
     <button class="share-btn">Share</button>
@@ -133,7 +143,8 @@ assert($('.follow-btn').css('align-items') == 'center');
   body {
     font-family: Arial, sans-serif;
   }
-  header, footer {
+  header,
+  footer {
     display: flex;
     flex-direction: row;
   }
@@ -158,7 +169,8 @@ assert($('.follow-btn').css('align-items') == 'center');
     border-radius: 3px;
     padding: 5px;
   }
-  header h3, header h4 {
+  header h3,
+  header h4 {
     display: flex;
     margin: 0;
   }
@@ -190,7 +202,11 @@ assert($('.follow-btn').css('align-items') == 'center');
   }
 </style>
 <header>
-  <img src="https://cdn.freecodecamp.org/curriculum/legacy-css-flexbox/quincy-twitter-photo.jpg" alt="Quincy Larson's profile picture" class="profile-thumbnail">
+  <img
+    src="https://cdn.freecodecamp.org/curriculum/legacy-css-flexbox/quincy-twitter-photo.jpg"
+    alt="Quincy Larson's profile picture"
+    class="profile-thumbnail"
+  />
   <div class="profile-name">
     <h3>Quincy Larson</h3>
     <h4>@ossia</h4>
@@ -200,18 +216,17 @@ assert($('.follow-btn').css('align-items') == 'center');
   </div>
 </header>
 <div id="inner">
-  <p>I meet so many people who are in search of that one trick that will help them work smart. Even if you work smart, you still have to work hard.</p>
+  <p>
+    I meet so many people who are in search of that one trick that will help
+    them work smart. Even if you work smart, you still have to work hard.
+  </p>
   <span class="date">1:32 PM - 12 Jan 2018</span>
-  <hr>
+  <hr />
 </div>
 <footer>
   <div class="stats">
-    <div class="Retweets">
-      <strong>107</strong> Retweets
-    </div>
-    <div class="likes">
-      <strong>431</strong> Likes
-    </div>
+    <div class="Retweets"><strong>107</strong> Retweets</div>
+    <div class="likes"><strong>431</strong> Likes</div>
   </div>
   <div class="cta">
     <button class="share-btn">Share</button>

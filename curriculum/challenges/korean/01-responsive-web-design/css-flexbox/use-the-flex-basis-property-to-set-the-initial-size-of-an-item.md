@@ -22,25 +22,29 @@ dashedName: use-the-flex-basis-property-to-set-the-initial-size-of-an-item
 `#box-1` 요소는 `flex-basis` 속성을 가져야 합니다.
 
 ```js
-assert($('#box-1').css('flex-basis') != 'auto');
+const boxOne = document.querySelector('#box-1');
+const flexBasis = window.getComputedStyle(boxOne)['flex-basis'];
+assert.notStrictEqual(flexBasis, 'auto');
 ```
 
 `#box-1` 요소는 `10em` 값을 준 `flex-basis` 속성을 가져야 합니다.
 
 ```js
-assert(code.match(/#box-1\s*?{\s*?.*?\s*?.*?\s*?flex-basis:\s*?10em;/g));
+assert.match(code, /#box-1\s*?{\s*?.*?\s*?.*?\s*?flex-basis:\s*?10em;/g);
 ```
 
 `#box-2` 요소는 `flex-basis` 속성을 가져야 합니다.
 
 ```js
-assert($('#box-2').css('flex-basis') != 'auto');
+const boxTwo = document.querySelector('#box-2');
+const flexBasis = window.getComputedStyle(boxTwo)['flex-basis'];
+assert.notStrictEqual(flexBasis, 'auto');
 ```
 
 `#box-2` 요소는 `20em` 값을 준 `flex-basis` 속성을 가져야 합니다.
 
 ```js
-assert(code.match(/#box-2\s*?{\s*?.*?\s*?.*?\s*?flex-basis:\s*?20em;/g));
+assert.match(code, /#box-2\s*?{\s*?.*?\s*?.*?\s*?flex-basis:\s*?20em;/g);
 ```
 
 # --seed--

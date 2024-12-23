@@ -15,7 +15,7 @@ dashedName: create-a-horizontal-line-using-the-hr-element
 
 카드 제목을 포함하는 `h4` 아래에 `hr` 태그를 추가하세요.
 
-**Note:** In HTML, `hr` is a void element, and therefore doesn't need a separate closing tag.
+**참고:** HTML에서 `hr`은 빈 요소이므로 별도의 닫는 태그가 필요하지 않습니다.
 
 # --hints--
 

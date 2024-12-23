@@ -22,7 +22,9 @@ CSS プロパティ `display` を `#box-container` に追加し、値を `flex` 
 `#box-container` は `display` プロパティを `flex` に設定しなければなりません。
 
 ```js
-assert($('#box-container').css('display') == 'flex');
+const boxContainer = document.querySelector('#box-container');
+const displayStyle = window.getComputedStyle(boxContainer)['display'];
+assert.strictEqual(displayStyle, 'flex');
 ```
 
 # --seed--

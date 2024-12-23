@@ -35,7 +35,7 @@ const children = anchor.querySelectorAll("img");
 assert.notEmpty(children);
 ```
 
-Your `a` element should be a dead link with an `href` attribute set to `#`.
+`a` 요소는 `href` 속성을 `#`로 설정한 비활성 링크여야 합니다.
 
 ```js
 const anchor = document.querySelectorAll('a')[1];

@@ -24,7 +24,9 @@ Agrega la propiedad CSS `flex-direction` al elemento `#box-container` y asígnal
 El elemento `#box-container` debe tener una propiedad `flex-direction` establecida en `row-reverse`.
 
 ```js
-assert($('#box-container').css('flex-direction') == 'row-reverse');
+const boxContainer = document.querySelector('#box-container');
+const flexDirection = window.getComputedStyle(boxContainer)['flex-direction'];
+assert.strictEqual(flexDirection, 'row-reverse');
 ```
 
 # --seed--

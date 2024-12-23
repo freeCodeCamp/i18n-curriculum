@@ -31,7 +31,9 @@ CSS は `align-items` プロパティを提供しており、フレックスア�
 `#box-container` 要素の `align-items` プロパティを `center` に設定してください。
 
 ```js
-assert($('#box-container').css('align-items') == 'center');
+const boxContainer = document.querySelector('#box-container');
+const alignment = window.getComputedStyle(boxContainer)['align-items'];
+assert.strictEqual(alignment, 'center');
 ```
 
 # --seed--

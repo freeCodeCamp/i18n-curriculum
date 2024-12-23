@@ -20,7 +20,9 @@ dashedName: use-the-flex-direction-property-to-make-a-column
 `#box-container` 요소는 `column`로 설정된 `flex-direction` 속성을 가져야 합니다.
 
 ```js
-assert($('#box-container').css('flex-direction') == 'column');
+const boxContainer = document.querySelector('#box-container');
+const flexDirection = window.getComputedStyle(boxContainer)['flex-direction'];
+assert.strictEqual(flexDirection, 'column');
 ```
 
 # --seed--
