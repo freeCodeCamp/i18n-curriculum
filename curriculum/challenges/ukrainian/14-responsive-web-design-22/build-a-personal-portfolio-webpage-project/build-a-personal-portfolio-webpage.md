@@ -10,7 +10,6 @@ dashedName: build-a-personal-portfolio-webpage
 
 **Мета:** створити застосунок, функціонально схожий до <a href="https://personal-portfolio.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://personal-portfolio.freecodecamp.rocks</a>. **Не копіюйте цей демонстраційний проєкт**.
 
-
 **Історія користувача:**
 
 1. Портфоліо має містити вітальний розділ з `id` зі значенням `welcome-section`
@@ -34,8 +33,8 @@ dashedName: build-a-personal-portfolio-webpage
 Портфоліо повинне містити розділ «Вітання» з `id` зі значенням `welcome-section`.
 
 ```js
-const el = document.getElementById('welcome-section')
-assert(!!el);
+const el = document.getElementById('welcome-section');
+assert.isNotNull(el);
 ```
 
 Елемент `#welcome-section` повинен містити елемент `h1`.
@@ -54,25 +53,21 @@ assert.isAbove(
 assert.isAbove(
   document.querySelectorAll('#welcome-section h1')?.[0]?.innerText?.length,
   0,
-  'h1 element in welcome section should contain your name or camper ' +
-    'name '
+  'h1 element in welcome section should contain your name or camper ' + 'name '
 );
 ```
 
 Ви повинні мати розділ «Проєкти» з `id` зі значенням `projects`.
 
 ```js
-const el = document.getElementById('projects')
-assert(!!el);
+const el = document.getElementById('projects');
+assert.isNotNull(el);
 ```
 
 Портфоліо повинне містити принаймні один елемент з класом `project-tile`.
 
 ```js
-assert.isAbove(
-  document.querySelectorAll('#projects .project-tile').length,
-  0
-);
+assert.isAbove(document.querySelectorAll('#projects .project-tile').length, 0);
 ```
 
 Елемент `#projects` повинен містити принаймні один елемент `a`.
@@ -85,35 +80,33 @@ assert.isAbove(document.querySelectorAll('#projects a').length, 0);
 
 ```js
 const el = document.getElementById('navbar');
-assert(!!el);
+assert.isNotNull(el);
 ```
 
 Елемент `#navbar` повинен містити принаймні один елемент `a`, чий атрибут `href` починається з `#`.
 
 ```js
 const links = [...document.querySelectorAll('#navbar a')].filter(
-  (nav) => (nav?.getAttribute('href') || '').substring(0, 1) === '#'
+  nav => (nav?.getAttribute('href') || '').substring(0, 1) === '#'
 );
 
-assert.isAbove(
-  links.length,
-  0,
-  'Navbar should contain an anchor link '
-);
+assert.isAbove(links.length, 0, 'Navbar should contain an anchor link ');
 ```
 
 Портфоліо повинне мати елемент `a` з `id` зі значенням `profile-link`.
 
 ```js
 const el = document.getElementById('profile-link');
-assert(!!el && el.tagName === 'A')
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'A');
 ```
 
 Елемент `#profile-link` повинен мати атрибут `target` зі значенням `_blank`.
 
 ```js
 const el = document.getElementById('profile-link');
-assert(!!el && el.target === '_blank')
+assert.isNotNull(el);
+assert.strictEqual(el.target, '_blank');
 ```
 
 Портфоліо повинне містити принаймні один медіазапит.
@@ -121,14 +114,15 @@ assert(!!el && el.target === '_blank')
 ```js
 const htmlSourceAttr = Array.from(document.querySelectorAll('source')).map(el => el.getAttribute('media'))
 const cssCheck = new __helpers.CSSHelp(document).getCSSRules('media')
-assert(cssCheck.length > 0 || htmlSourceAttr.length > 0);
+assert.isTrue(cssCheck.length > 0 || htmlSourceAttr.length > 0);
 ```
 
 Елемент `#navbar` завжди повинен знаходитись у верхній частині демонстраційного вікна.
 
 ```js
 (async () => {
-  const timeout = (milliseconds) => new Promise((resolve) => setTimeout(resolve, milliseconds));
+  const timeout = milliseconds =>
+    new Promise(resolve => setTimeout(resolve, milliseconds));
 
   const navbar = document.getElementById('navbar');
   assert.approximately(
@@ -136,7 +130,7 @@ assert(cssCheck.length > 0 || htmlSourceAttr.length > 0);
     0,
     15,
     "Navbar's parent should be body and it should be at the top of " +
-    'the viewport '
+      'the viewport '
   );
 
   window.scroll(0, 500);
@@ -147,8 +141,7 @@ assert(cssCheck.length > 0 || htmlSourceAttr.length > 0);
     navbar?.getBoundingClientRect().top,
     0,
     15,
-    'Navbar should be at the top of the viewport even after ' +
-    'scrolling '
+    'Navbar should be at the top of the viewport even after ' + 'scrolling '
   );
   window.scroll(0, 0);
 })();
@@ -223,7 +216,7 @@ assert(cssCheck.length > 0 || htmlSourceAttr.length > 0);
 ```
 
 ```css
-nav{
+nav {
   position: fixed;
   width: 100%;
   text-align: right;
@@ -233,37 +226,37 @@ nav{
   background-color: #000000;
   color: #ffffff;
 }
-@media (max-width: 500px){
-  nav{
+@media (max-width: 500px) {
+  nav {
     display: none;
   }
 }
-a{
+a {
   color: #ffffff;
 }
-main{
+main {
   text-align: center;
   background-color: black;
-  font-family:Pacifico
+  font-family: Pacifico;
 }
-h1{
+h1 {
   font-size: 48pt;
 }
-h2{
+h2 {
   font-size: 24pt;
 }
-p{
+p {
   font-size: 12pt;
 }
-#welcome-section{
-  background-color:#251a4a;
-  color: #FFFFFF;
+#welcome-section {
+  background-color: #251a4a;
+  color: #ffffff;
   display: table-cell;
   vertical-align: middle;
   width: 100vw;
   height: 100vh;
 }
-#projects{
+#projects {
   background-color: #060a9c;
   color: #ffffff;
   display: table-cell;
@@ -271,7 +264,7 @@ p{
   width: 100vw;
   height: 100vh;
 }
-#contact{
+#contact {
   background-color: #03300b;
   color: #ffffff;
   display: table-cell;

@@ -12,9 +12,9 @@ You can group cells of your grid together into an <dfn>area</dfn> and give the a
 
 ```css
 grid-template-areas:
-  "header header header"
-  "advert content content"
-  "advert footer footer";
+  'header header header'
+  'advert content content'
+  'advert footer footer';
 ```
 
 Der obige Code gruppiert die Zellen des Rasters in vier Bereiche: `header`, `advert`, `content` und `footer`. Jedes Wort steht für eine Zelle und jedes Paar Anführungszeichen für eine Zeile.
@@ -28,12 +28,9 @@ Der obige Code gruppiert die Zellen des Rasters in vier Bereiche: `header`, `adv
 Die `container`-Klasse sollte eine `grid-template-areas`-Eigenschaft besitzen, ähnlich wie im Beispiel, aber mit dem `footer`-Bereich, der sich über die gesamte untere Zeile erstreckt.
 
 ```js
-assert(
-  __helpers
-    .removeCssComments(code)
-    .match(
-      /.container\s*?{[\s\S]*grid-template-areas\s*?:\s*?"\s*?header\s*?header\s*?header\s*?"\s*?"\s*?advert\s*?content\s*?content\s*?"\s*?"\s*?footer\s*?footer\s*?footer\s*?"\s*?;[\s\S]*}/gi
-    )
+assert.match(
+  __helpers.removeCssComments(code),
+  /.container\s*?{[\s\S]*grid-template-areas\s*?:\s*?["|']\s*?header\s*?header\s*?header\s*?["|']\s*?["|']\s*?advert\s*?content\s*?content\s*?["|']\s*?["|']\s*?footer\s*?footer\s*?footer\s*?["|']\s*?;[\s\S]*}/gi
 );
 ```
 
@@ -43,11 +40,21 @@ assert(
 
 ```html
 <style>
-  .item1{background:LightSkyBlue;}
-  .item2{background:LightSalmon;}
-  .item3{background:PaleTurquoise;}
-  .item4{background:LightPink;}
-  .item5{background:PaleGreen;}
+  .item1 {
+    background: LightSkyBlue;
+  }
+  .item2 {
+    background: LightSalmon;
+  }
+  .item3 {
+    background: PaleTurquoise;
+  }
+  .item4 {
+    background: LightPink;
+  }
+  .item5 {
+    background: PaleGreen;
+  }
 
   .container {
     font-size: 40px;
@@ -60,9 +67,9 @@ assert(
     grid-gap: 10px;
     grid-template-areas:
     /* Only change code below this line */
-      "header header header"
-      "advert content content"
-      "advert footer footer";
+      'header header header'
+      'advert content content'
+      'advert footer footer';
     /* Only change code above this line */
   }
 </style>
@@ -80,11 +87,21 @@ assert(
 
 ```html
 <style>
-  .item1{background:LightSkyBlue;}
-  .item2{background:LightSalmon;}
-  .item3{background:PaleTurquoise;}
-  .item4{background:LightPink;}
-  .item5{background:PaleGreen;}
+  .item1 {
+    background: LightSkyBlue;
+  }
+  .item2 {
+    background: LightSalmon;
+  }
+  .item3 {
+    background: PaleTurquoise;
+  }
+  .item4 {
+    background: LightPink;
+  }
+  .item5 {
+    background: PaleGreen;
+  }
 
   .container {
     font-size: 40px;
@@ -97,9 +114,9 @@ assert(
     grid-gap: 10px;
 
     grid-template-areas:
-      "header header header"
-      "advert content content"
-      "footer footer footer";
+      'header header header'
+      'advert content content'
+      'footer footer footer';
   }
 </style>
 

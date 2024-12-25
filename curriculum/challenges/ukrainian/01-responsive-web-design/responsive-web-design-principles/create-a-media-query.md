@@ -16,13 +16,17 @@ Media Queries are a new technique introduced in CSS3 that change the presentatio
 Ось приклад медіа-запиту, який повертає контент, якщо ширина пристрою менше або дорівнює `100px`:
 
 ```css
-@media (max-width: 100px) { /* CSS Rules */ }
+@media (max-width: 100px) {
+  /* CSS Rules */
+}
 ```
 
 а наступний медіа-запит повертає контент, якщо висота пристрою більше або дорівнює `350px`:
 
 ```css
-@media (min-height: 350px) { /* CSS Rules */ }
+@media (min-height: 350px) {
+  /* CSS Rules */
+}
 ```
 
 Пам'ятайте, що CSS всередині медіа-запиту застосовується тільки в тому випадку, якщо тип медіа відповідає типу пристрою, який використовується.
@@ -37,21 +41,30 @@ Media Queries are a new technique introduced in CSS3 that change the presentatio
 
 ```js
 const media = new __helpers.CSSHelp(document).getCSSRules('media');
-assert(media.some(x => x.media?.mediaText?.includes('(max-height: 800px)')));
+assert.isTrue(
+  media.some(x => x.media?.mediaText?.includes('(max-height: 800px)'))
+);
 ```
 
 Величина `font-size` вашого елементу `p` повинна становити `10px`, якщо `height` приладу менше або ж дорівнює `800px`.
 
 ```js
-const rules = new __helpers.CSSHelp(document).getRuleListsWithinMedia('(max-height: 800px)');
-assert(rules?.find(x => x.selectorText === 'p')?.style?.fontSize === "10px");
+const rules = new __helpers.CSSHelp(document).getRuleListsWithinMedia(
+  '(max-height: 800px)'
+);
+assert.strictEqual(
+  rules?.find(x => x.selectorText === 'p')?.style?.fontSize,
+  '10px'
+);
 ```
 
 У елемента `p` повинен бути заданий початковий `font-size` в `20px`, якщо `height` пристрою перевищує `800px`.
 
 ```js
-const ifPFirst = new __helpers.CSSHelp(document).getCSSRules()?.find(x => x?.selectorText === 'p' || x?.media);
-assert(ifPFirst?.style?.fontSize === '20px');
+const ifPFirst = new __helpers.CSSHelp(document)
+  .getCSSRules()
+  ?.find(x => x?.selectorText === 'p' || x?.media);
+assert.strictEqual(ifPFirst?.style?.fontSize, '20px');
 ```
 
 # --seed--
@@ -69,7 +82,14 @@ assert(ifPFirst?.style?.fontSize === '20px');
   /* Only change code above this line */
 </style>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis tempus massa. Aenean erat nisl, gravida vel vestibulum cursus, interdum sit amet lectus. Sed sit amet quam nibh. Suspendisse quis tincidunt nulla. In hac habitasse platea dictumst. Ut sit amet pretium nisl. Vivamus vel mi sem. Aenean sit amet consectetur sem. Suspendisse pretium, purus et gravida consequat, nunc ligula ultricies diam, at aliquet velit libero a dui.</p>
+<p>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis tempus
+  massa. Aenean erat nisl, gravida vel vestibulum cursus, interdum sit amet
+  lectus. Sed sit amet quam nibh. Suspendisse quis tincidunt nulla. In hac
+  habitasse platea dictumst. Ut sit amet pretium nisl. Vivamus vel mi sem.
+  Aenean sit amet consectetur sem. Suspendisse pretium, purus et gravida
+  consequat, nunc ligula ultricies diam, at aliquet velit libero a dui.
+</p>
 ```
 
 # --solutions--
@@ -87,5 +107,12 @@ assert(ifPFirst?.style?.fontSize === '20px');
   }
 </style>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis tempus massa. Aenean erat nisl, gravida vel vestibulum cursus, interdum sit amet lectus. Sed sit amet quam nibh. Suspendisse quis tincidunt nulla. In hac habitasse platea dictumst. Ut sit amet pretium nisl. Vivamus vel mi sem. Aenean sit amet consectetur sem. Suspendisse pretium, purus et gravida consequat, nunc ligula ultricies diam, at aliquet velit libero a dui.</p>
+<p>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis tempus
+  massa. Aenean erat nisl, gravida vel vestibulum cursus, interdum sit amet
+  lectus. Sed sit amet quam nibh. Suspendisse quis tincidunt nulla. In hac
+  habitasse platea dictumst. Ut sit amet pretium nisl. Vivamus vel mi sem.
+  Aenean sit amet consectetur sem. Suspendisse pretium, purus et gravida
+  consequat, nunc ligula ultricies diam, at aliquet velit libero a dui.
+</p>
 ```

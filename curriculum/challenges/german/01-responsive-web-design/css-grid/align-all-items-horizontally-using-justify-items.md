@@ -20,10 +20,9 @@ Verwende diese Eigenschaft, um alle unsere Elemente horizontal zu zentrieren.
 Die Klasse `container` sollte eine Eigenschaft `justify-items` besitzen, die den Wert `center` hat.
 
 ```js
-assert(
-  code.match(
-    /.container\s*?{[\s\S]*justify-items\s*?:\s*?center\s*?;[\s\S]*}/gi
-  )
+assert.match(
+  code,
+  /.container\s*?{[\s\S]*justify-items\s*?:\s*?center\s*?;[\s\S]*}/gi
 );
 ```
 
@@ -33,11 +32,21 @@ assert(
 
 ```html
 <style>
-  .item1{background:LightSkyBlue;}
-  .item2{background:LightSalmon;}
-  .item3{background:PaleTurquoise;}
-  .item4{background:LightPink;}
-  .item5{background:PaleGreen;}
+  .item1 {
+    background: LightSkyBlue;
+  }
+  .item2 {
+    background: LightSalmon;
+  }
+  .item3 {
+    background: PaleTurquoise;
+  }
+  .item4 {
+    background: LightPink;
+  }
+  .item5 {
+    background: PaleGreen;
+  }
 
   .container {
     font-size: 40px;
@@ -67,5 +76,9 @@ assert(
 # --solutions--
 
 ```html
-<style>.container {justify-items: center;}</style>
+<style>
+  .container {
+    justify-items: center;
+  }
+</style>
 ```

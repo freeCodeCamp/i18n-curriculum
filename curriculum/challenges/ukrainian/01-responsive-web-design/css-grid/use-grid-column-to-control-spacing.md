@@ -36,18 +36,19 @@ grid-column: 1 / 3;
 `item5` клас повинен мати властивість `grid-column`.
 
 ```js
-assert(
-  __helpers
-    .removeWhiteSpace($('style').text())
-    .match(/\.item5{.*grid-column:.*}/g)
+const styleElement = document.querySelector('style:not(.fcc-hide-header)');
+assert.match(
+  __helpers.removeWhiteSpace(styleElement.textContent),
+  /\.item5{.*grid-column:.*}/g
 );
 ```
 
 `item5` клас повинен мати властивість `grid-column`, що призведе до використання двох останніх колонок сітки.
 
 ```js
-const colStart = getComputedStyle($('.item5')[0]).gridColumnStart;
-const colEnd = getComputedStyle($('.item5')[0]).gridColumnEnd;
+const itemFive = document.querySelector('.item5');
+const colStart = getComputedStyle(itemFive).gridColumnStart;
+const colEnd = getComputedStyle(itemFive).gridColumnEnd;
 const result = colStart.toString() + colEnd.toString();
 const correctResults = [
   '24',
@@ -60,7 +61,7 @@ const correctResults = [
   'span 2auto',
   'autospan 2'
 ];
-assert(correctResults.includes(result));
+assert.include(correctResults, result);
 ```
 
 # --seed--
@@ -69,10 +70,18 @@ assert(correctResults.includes(result));
 
 ```html
 <style>
-  .item1{background:LightSkyBlue;}
-  .item2{background:LightSalmon;}
-  .item3{background:PaleTurquoise;}
-  .item4{background:LightPink;}
+  .item1 {
+    background: LightSkyBlue;
+  }
+  .item2 {
+    background: LightSalmon;
+  }
+  .item3 {
+    background: PaleTurquoise;
+  }
+  .item4 {
+    background: LightPink;
+  }
 
   .item5 {
     background: PaleGreen;
@@ -107,10 +116,18 @@ assert(correctResults.includes(result));
 
 ```html
 <style>
-  .item1{background:LightSkyBlue;}
-  .item2{background:LightSalmon;}
-  .item3{background:PaleTurquoise;}
-  .item4{background:LightPink;}
+  .item1 {
+    background: LightSkyBlue;
+  }
+  .item2 {
+    background: LightSalmon;
+  }
+  .item3 {
+    background: PaleTurquoise;
+  }
+  .item4 {
+    background: LightPink;
+  }
 
   .item5 {
     background: PaleGreen;

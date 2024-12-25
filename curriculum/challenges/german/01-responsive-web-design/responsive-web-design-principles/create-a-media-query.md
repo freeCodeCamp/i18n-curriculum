@@ -16,13 +16,17 @@ Medienabfragen bestehen aus einem Medientyp, und wenn dieser Medientyp mit dem G
 Hier ist ein Beispiel für eine Medienabfrage, die den Inhalt zurückgibt, wenn die Breite des Geräts kleiner oder gleich `100px` ist:
 
 ```css
-@media (max-width: 100px) { /* CSS Rules */ }
+@media (max-width: 100px) {
+  /* CSS Rules */
+}
 ```
 
 und die folgende Medienabfrage gibt den Inhalt zurück, wenn die Höhe des Geräts größer oder gleich `350px` ist:
 
 ```css
-@media (min-height: 350px) { /* CSS Rules */ }
+@media (min-height: 350px) {
+  /* CSS Rules */
+}
 ```
 
 Denk daran, dass das CSS in der Medienabfrage nur angewendet wird, wenn der Medientyp mit dem des verwendeten Geräts übereinstimmt.
@@ -37,21 +41,30 @@ Du solltest eine `@media`-Abfrage für Geräte mit einer Höhe (`height`) kleine
 
 ```js
 const media = new __helpers.CSSHelp(document).getCSSRules('media');
-assert(media.some(x => x.media?.mediaText?.includes('(max-height: 800px)')));
+assert.isTrue(
+  media.some(x => x.media?.mediaText?.includes('(max-height: 800px)'))
+);
 ```
 
 Dein `p`-Element sollte eine Schriftgröße (`font-size`) von `10px` haben, wenn die Höhe ( `height`) des Geräts kleiner als oder gleich `800px` ist.
 
 ```js
-const rules = new __helpers.CSSHelp(document).getRuleListsWithinMedia('(max-height: 800px)');
-assert(rules?.find(x => x.selectorText === 'p')?.style?.fontSize === "10px");
+const rules = new __helpers.CSSHelp(document).getRuleListsWithinMedia(
+  '(max-height: 800px)'
+);
+assert.strictEqual(
+  rules?.find(x => x.selectorText === 'p')?.style?.fontSize,
+  '10px'
+);
 ```
 
 Dein `p`-Element sollte eine anfängliche Schriftgröße (`font-size`) von `20px` haben, wenn die Höhe (`height`) des Geräts mehr als `800px` beträgt.
 
 ```js
-const ifPFirst = new __helpers.CSSHelp(document).getCSSRules()?.find(x => x?.selectorText === 'p' || x?.media);
-assert(ifPFirst?.style?.fontSize === '20px');
+const ifPFirst = new __helpers.CSSHelp(document)
+  .getCSSRules()
+  ?.find(x => x?.selectorText === 'p' || x?.media);
+assert.strictEqual(ifPFirst?.style?.fontSize, '20px');
 ```
 
 # --seed--
@@ -69,7 +82,14 @@ assert(ifPFirst?.style?.fontSize === '20px');
   /* Only change code above this line */
 </style>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis tempus massa. Aenean erat nisl, gravida vel vestibulum cursus, interdum sit amet lectus. Sed sit amet quam nibh. Suspendisse quis tincidunt nulla. In hac habitasse platea dictumst. Ut sit amet pretium nisl. Vivamus vel mi sem. Aenean sit amet consectetur sem. Suspendisse pretium, purus et gravida consequat, nunc ligula ultricies diam, at aliquet velit libero a dui.</p>
+<p>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis tempus
+  massa. Aenean erat nisl, gravida vel vestibulum cursus, interdum sit amet
+  lectus. Sed sit amet quam nibh. Suspendisse quis tincidunt nulla. In hac
+  habitasse platea dictumst. Ut sit amet pretium nisl. Vivamus vel mi sem.
+  Aenean sit amet consectetur sem. Suspendisse pretium, purus et gravida
+  consequat, nunc ligula ultricies diam, at aliquet velit libero a dui.
+</p>
 ```
 
 # --solutions--
@@ -87,5 +107,12 @@ assert(ifPFirst?.style?.fontSize === '20px');
   }
 </style>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis tempus massa. Aenean erat nisl, gravida vel vestibulum cursus, interdum sit amet lectus. Sed sit amet quam nibh. Suspendisse quis tincidunt nulla. In hac habitasse platea dictumst. Ut sit amet pretium nisl. Vivamus vel mi sem. Aenean sit amet consectetur sem. Suspendisse pretium, purus et gravida consequat, nunc ligula ultricies diam, at aliquet velit libero a dui.</p>
+<p>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis tempus
+  massa. Aenean erat nisl, gravida vel vestibulum cursus, interdum sit amet
+  lectus. Sed sit amet quam nibh. Suspendisse quis tincidunt nulla. In hac
+  habitasse platea dictumst. Ut sit amet pretium nisl. Vivamus vel mi sem.
+  Aenean sit amet consectetur sem. Suspendisse pretium, purus et gravida
+  consequat, nunc ligula ultricies diam, at aliquet velit libero a dui.
+</p>
 ```

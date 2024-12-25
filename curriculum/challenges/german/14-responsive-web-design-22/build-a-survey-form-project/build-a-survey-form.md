@@ -38,327 +38,368 @@ Erfülle die folgenden User Stories und bestehe alle Tests, um dieses Projekt ab
 Du solltest ein `h1`-Element mit einer `id` von `title` haben.
 
 ```js
-const el = document.getElementById('title')
-assert(!!el && el.tagName === 'H1')
+const el = document.getElementById('title');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'H1');
 ```
 
 Dein `#title` sollte nicht leer sein.
 
 ```js
-const el = document.getElementById('title')
-assert(!!el && el.innerText.length > 0)
+const el = document.getElementById('title');
+assert.isNotNull(el);
+assert.isAbove(el.innerText.length, 0);
 ```
 
 Du solltest ein `p` Element mit einer `id` von `description` haben.
 
 ```js
-const el = document.getElementById('description')
-assert(!!el && el.tagName === 'P')
+const el = document.getElementById('description');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'P');
 ```
 
 Deine `#description` sollte nicht leer sein.
 
 ```js
-const el = document.getElementById('description')
-assert(!!el && el.innerText.length > 0)
+const el = document.getElementById('description');
+assert.isNotNull(el);
+assert.isAbove(el.innerText.length, 0);
 ```
 
 Du solltest ein `form` Element mit einer `id` von `survey-form` haben.
 
 ```js
-const el = document.getElementById('survey-form')
-assert(!!el && el.tagName === 'FORM')
+const el = document.getElementById('survey-form');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'FORM');
 ```
 
 Du solltest ein `input` Element mit einer `id` von `name` haben.
 
 ```js
-const el = document.getElementById('name')
-assert(!!el && el.tagName === 'INPUT')
+const el = document.getElementById('name');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'INPUT');
 ```
 
 Dein `#name` sollte einen `type` von `text` haben.
 
 ```js
-const el = document.getElementById('name')
-assert(!!el && el.type === 'text')
+const el = document.getElementById('name');
+assert.isNotNull(el);
+assert.strictEqual(el.type, 'text');
 ```
 
 Dein `#name` sollte eine Eingabe benötigen.
 
 ```js
-const el = document.getElementById('name')
-assert(!!el && el.required)
+const el = document.getElementById('name');
+assert.isNotNull(el);
+assert.isTrue(el.required);
 ```
 
 Dein `#name` sollte ein Nachfahre von `#survey-form` sein.
 
 ```js
-const el = document.querySelector('#survey-form #name')
-assert(!!el)
+const el = document.querySelector('#survey-form #name');
+assert.isNotNull(el);
 ```
 
 Du solltest ein `input`-Element mit einer `id` von `email` haben.
 
 ```js
-const el = document.getElementById('email')
-assert(!!el && el.tagName === 'INPUT')
+const el = document.getElementById('email');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'INPUT');
 ```
 
 Deine `#email` sollte einen `type` von `email` haben.
 
 ```js
-const el = document.getElementById('email')
-assert(!!el && el.type === 'email')
+const el = document.getElementById('email');
+assert.isNotNull(el);
+assert.strictEqual(el.type, 'email');
 ```
 
 Deine `#email` sollte eine Eingabe benötigen.
 
 ```js
-const el = document.getElementById('email')
-assert(!!el && el.required)
+const el = document.getElementById('email');
+assert.isNotNull(el);
+assert.isTrue(el.required);
 ```
 
 Deine `#email` sollte ein Nachfahre von `#survey-form` sein.
 
 ```js
-const el = document.querySelector('#survey-form #email')
-assert(!!el)
+const el = document.querySelector('#survey-form #email');
+assert.isNotNull(el);
 ```
 
 Du solltest ein `input` Element mit einer `id` von `number` haben.
 
 ```js
-const el = document.getElementById('number')
-assert(!!el && el.tagName === 'INPUT')
+const el = document.getElementById('number');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'INPUT');
 ```
 
 Deine `#number` sollte ein Nachfahre von `#survey-form` sein.
 
 ```js
-const el = document.querySelector('#survey-form #number')
-assert(!!el)
+const el = document.querySelector('#survey-form #number');
+assert.isNotNull(el);
 ```
 
 Deine `#number` sollte einen `type` von `number` haben.
 
 ```js
-const el = document.getElementById('number')
-assert(!!el && el.type === 'number')
+const el = document.getElementById('number');
+assert.isNotNull(el);
+assert.strictEqual(el.type, 'number');
 ```
 
 Deine `#number` sollte ein `min`-Attribut mit numerischen Wert haben.
 
 ```js
-const el = document.getElementById('number')
-assert(!!el && el.min && isFinite(el.min))
+const el = document.getElementById('number');
+assert.isNotNull(el);
+assert.isNotEmpty(el.min);
+assert.isTrue(isFinite(el.min));
 ```
 
 Deine `#number` sollte ein `max`-Attribut mit numerischen Wert haben.
 
 ```js
-const el = document.getElementById('number')
-assert(!!el && el.max && isFinite(el.max))
+const el = document.getElementById('number');
+assert.isNotNull(el);
+assert.isNotEmpty(el.max);
+assert.isTrue(isFinite(el.max));
 ```
 
 Du solltest ein `label` Element mit einer `id` von `name-label` haben.
 
 ```js
-const el = document.getElementById('name-label')
-assert(!!el && el.tagName === 'LABEL')
+const el = document.getElementById('name-label');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'LABEL');
 ```
 
 Du solltest ein `label` Element mit einer `id` von `email-label` haben.
 
 ```js
-const el = document.getElementById('email-label')
-assert(!!el && el.tagName === 'LABEL')
+const el = document.getElementById('email-label');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'LABEL');
 ```
 
 Du solltest ein `label`-Element mit einer `id` von `number-label` haben.
 
 ```js
-const el = document.getElementById('number-label')
-assert(!!el && el.tagName === 'LABEL')
+const el = document.getElementById('number-label');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'LABEL');
 ```
 
 Dein `#name-label` sollte Text enthalten, der die Eingabe beschreibt.
 
 ```js
-const el = document.getElementById('name-label')
-assert(!!el && el.innerText.length > 0)
+const el = document.getElementById('name-label');
+assert.isNotNull(el);
+assert.isAbove(el.innerText.length, 0);
 ```
 
 Dein `#email-label` sollte Text enthalten, der die Eingabe beschreibt.
 
 ```js
-const el = document.getElementById('email-label')
-assert(!!el && el.innerText.length > 0)
+const el = document.getElementById('email-label');
+assert.isNotNull(el);
+assert.isAbove(el.innerText.length, 0);
 ```
 
 Dein `#number-label` sollte Text enthalten, der die Eingabe beschreibt.
 
 ```js
-const el = document.getElementById('number-label')
-assert(!!el && el.innerText.length > 0)
+const el = document.getElementById('number-label');
+assert.isNotNull(el);
+assert.isAbove(el.innerText.length, 0);
 ```
 
 Dein `#name-label` sollte ein Nachfahre von `#survey-form` sein.
 
 ```js
-const el = document.querySelector('#survey-form #name-label')
-assert(!!el)
+const el = document.querySelector('#survey-form #name-label');
+assert.isNotNull(el);
 ```
 
 Dein `#email-label` sollte ein Nachfahre von `#survey-form` sein.
 
 ```js
-const el = document.querySelector('#survey-form #email-label')
-assert(!!el)
+const el = document.querySelector('#survey-form #email-label');
+assert.isNotNull(el);
 ```
 
 Dein `#number-label` sollte ein Nachfahre von `#survey-form` sein.
 
 ```js
-const el = document.querySelector('#survey-form #number-label')
-assert(!!el)
+const el = document.querySelector('#survey-form #number-label');
+assert.isNotNull(el);
 ```
 
 Dein `#name` sollte ein `placeholder`-Attribut und -Wert haben.
 
 ```js
-const el = document.getElementById('name')
-assert(!!el && !!el.placeholder && el.placeholder.length > 0)
+const el = document.getElementById('name');
+assert.isNotNull(el);
+assert.isNotNull(el.placeholder);
+assert.isAbove(el.placeholder.length, 0);
 ```
 
 Deine `#email` sollte ein `placeholder`-Attribut und -Wert haben.
 
 ```js
-const el = document.getElementById('email')
-assert(!!el && !!el.placeholder && el.placeholder.length > 0)
+const el = document.getElementById('email');
+assert.isNotNull(el);
+assert.isNotNull(el.placeholder);
+assert.isAbove(el.placeholder.length, 0);
 ```
 
 Deine `#number` sollte ein `placeholder`-Attribut und -Wert haben.
 
 ```js
-const el = document.getElementById('number')
-assert(!!el && !!el.placeholder && el.placeholder.length > 0)
+const el = document.getElementById('number');
+assert.isNotNull(el);
+assert.isNotNull(el.placeholder);
+assert.isAbove(el.placeholder.length, 0);
 ```
 
 Du solltest ein `select`-Feld mit einer `id` von `dropdown` haben.
 
 ```js
-const el = document.getElementById('dropdown')
-assert(!!el && el.tagName === 'SELECT')
+const el = document.getElementById('dropdown');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'SELECT');
 ```
 
 Dein `#dropdown` sollte mindestens zwei auswählbare (nicht deaktivierte) `option`-Elemente haben.
 
 ```js
-const els = document.querySelectorAll('#dropdown option:not([disabled])')
-assert(els.length >= 2)
+const els = document.querySelectorAll('#dropdown option:not([disabled])');
+assert.isAtLeast(els.length, 2);
 ```
 
 Dein `#dropdown` sollte ein Nachfahre von `#survey-form` sein.
 
 ```js
-const el = document.querySelector('#survey-form #dropdown')
-assert(!!el)
+const el = document.querySelector('#survey-form #dropdown');
+assert.isNotNull(el);
 ```
 
 Du solltest mindestens zwei `input`-Elemente mit einem `type` von `radio` (Radio-Buttons) haben.
 
 ```js
-const els = document.querySelectorAll('input[type="radio"]')
-assert(els.length >= 2)
+const els = document.querySelectorAll('input[type="radio"]');
+assert.isAtLeast(els.length, 2);
 ```
 
 Du solltest mindestens zwei Radio-Buttons haben, die Nachfahren der `#survey-form` sind.
 
 ```js
-const els = document.querySelectorAll('#survey-form input[type="radio"]')
-assert(els.length >= 2)
+const els = document.querySelectorAll('#survey-form input[type="radio"]');
+assert.isAtLeast(els.length, 2);
 ```
 
 All deine Radio-Buttons sollten ein `value`-Attribut und -Wert haben.
 
 ```js
-const els1 = document.querySelectorAll('input[type="radio"]')
-const els2 = document.querySelectorAll('input[type="radio"][value=""], input[type="radio"]:not([value])')
-assert(els1.length > 0 && els2.length === 0)
+const els1 = document.querySelectorAll('input[type="radio"]');
+const els2 = document.querySelectorAll(
+  'input[type="radio"][value=""], input[type="radio"]:not([value])'
+);
+assert.isAbove(els1.length, 0);
+assert.lengthOf(els2, 0);
 ```
 
 All deine Radio-Buttons sollten ein `name`-Attribut und -Wert haben.
 
 ```js
-const els1 = document.querySelectorAll('input[type="radio"]')
-const els2 = document.querySelectorAll('input[type="radio"][name=""], input[type="radio"]:not([name])')
-assert(els1.length > 0 && els2.length === 0)
+const els1 = document.querySelectorAll('input[type="radio"]');
+const els2 = document.querySelectorAll(
+  'input[type="radio"][name=""], input[type="radio"]:not([name])'
+);
+assert.isAbove(els1.length, 0);
+assert.lengthOf(els2, 0);
 ```
 
 Jede Gruppe der Radio-Buttons sollte mindestens 2 Radio-Buttons enthalten.
 
 ```js
 const radioButtons = document.querySelectorAll('input[type="radio"]');
-const groups = {}
+const groups = {};
 
 if (radioButtons) {
   radioButtons.forEach(el => {
-    if (!groups[el.name]) groups[el.name] = []
-    groups[el.name].push(el)
-  })
+    if (!groups[el.name]) groups[el.name] = [];
+    groups[el.name].push(el);
+  });
 }
 
-const groupKeys = Object.keys(groups)
+const groupKeys = Object.keys(groups);
 
 groupKeys.forEach(key => {
-  if (groups[key].length < 2) assert(false)
-})
+  if (groups[key].length < 2) assert(false);
+});
 
-assert(groupKeys.length > 0)
+assert.isAbove(groupKeys.length, 0);
 ```
 
 Du solltest mindestens zwei `input`-Elemente mit einem `type` von `checkbox` (Checkboxen) haben, die Nachfahren (descendants) von `#survey-form` sind.
 
 ```js
 const els = document.querySelectorAll('#survey-form input[type="checkbox"]');
-assert(els.length >= 2)
+assert.isAtLeast(els.length, 2);
 ```
 
 All deine Checkboxen innerhalb von `#survey-form` sollten ein `value`-Attribut und -Wert haben.
 
 ```js
-const els1 = document.querySelectorAll('#survey-form input[type="checkbox"]')
-const els2 = document.querySelectorAll('#survey-form input[type="checkbox"][value=""], #survey-form input[type="checkbox"]:not([value])')
-assert(els1.length > 0 && els2.length === 0)
+const els1 = document.querySelectorAll('#survey-form input[type="checkbox"]');
+const els2 = document.querySelectorAll(
+  '#survey-form input[type="checkbox"][value=""], #survey-form input[type="checkbox"]:not([value])'
+);
+assert.isAbove(els1.length, 0);
+assert.lengthOf(els2, 0);
 ```
 
 Du solltest mindestens ein `textarea`-Element haben, das ein Nachfahre von `#survey-form` ist.
 
 ```js
-const el = document.querySelector('#survey-form textarea')
-assert(!!el)
+const el = document.querySelector('#survey-form textarea');
+assert.isNotNull(el);
 ```
 
 Du solltest ein `input`- oder `button`-Element mit einer `id` von `submit` haben.
 
 ```js
-const el = document.getElementById('submit')
-assert(!!el && (el.tagName === 'INPUT' || el.tagName === 'BUTTON'))
+const el = document.getElementById('submit');
+assert.isNotNull(el);
+assert.isTrue(el.tagName === 'INPUT' || el.tagName === 'BUTTON');
 ```
 
 Dein `#submit` sollte ein `type` von `submit` haben.
 
 ```js
-const el = document.getElementById('submit')
-assert(!!el && el.type === 'submit')
+const el = document.getElementById('submit');
+assert.isNotNull(el);
+assert.strictEqual(el.type, 'submit');
 ```
 
 Dein `#submit` sollte ein Nachfahre von `#survey-form` sein.
 
 ```js
-const el = document.querySelector('#survey-form #submit')
-assert(!!el)
+const el = document.querySelector('#survey-form #submit');
+assert.isNotNull(el);
 ```
 
 # --seed--
@@ -508,7 +549,10 @@ body {
   background: #3a3240;
   color: white;
 }
-input, textarea, select, button {
+input,
+textarea,
+select,
+button {
   background: #3a3240;
   color: white;
 }

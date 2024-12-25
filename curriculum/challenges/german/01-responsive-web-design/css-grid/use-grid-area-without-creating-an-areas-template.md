@@ -12,13 +12,16 @@ dashedName: use-grid-area-without-creating-an-areas-template
 The `grid-area` property you learned in the last challenge can be used in another way. If your grid doesn't have an areas template to reference, you can create an area on the fly for an item to be placed like this:
 
 ```css
-item1 { grid-area: 1/1/2/4; }
+item1 {
+  grid-area: 1/1/2/4;
+}
 ```
 
 Hier werden die Zeilennummern verwendet, die du bereits kennengelernt hast, um zu bestimmen, wo der Bereich für dieses Element liegen soll. Die Zahlen im obigen Beispiel stellen diese Werte dar:
 
 ```css
-grid-area: horizontal line to start at / vertical line to start at / horizontal line to end at / vertical line to end at;
+grid-area: horizontal line to start at / vertical line to start at / horizontal
+  line to end at / vertical line to end at;
 ```
 
 Das Element im Beispiel wird also die Zeilen zwischen den Zeilen 1 und 2 und die Spalten zwischen den Zeilen 1 und 4 verbrauchen.
@@ -32,10 +35,9 @@ Platziere das Element mit der Klasse `item5` mithilfe der Eigenschaft `grid-area
 Die Klasse `item5` sollte eine Eigenschaft von `grid-area` haben, um die gesamte Fläche zwischen der dritten und vierten horizontalen Linie zu füllen und erste und vierte vertikale Linien.
 
 ```js
-assert(
-  code.match(
-    /.item5\s*?{[\s\S]*grid-area\s*?:\s*?3\s*?\/\s*?1\s*?\/\s*?4\s*?\/\s*?4\s*?;[\s\S]*}/gi
-  )
+assert.match(
+  code,
+  /.item5\s*?{[\s\S]*grid-area\s*?:\s*?3\s*?\/\s*?1\s*?\/\s*?4\s*?\/\s*?4\s*?;[\s\S]*}/gi
 );
 ```
 
@@ -45,10 +47,18 @@ assert(
 
 ```html
 <style>
-  .item1{background:LightSkyBlue;}
-  .item2{background:LightSalmon;}
-  .item3{background:PaleTurquoise;}
-  .item4{background:LightPink;}
+  .item1 {
+    background: LightSkyBlue;
+  }
+  .item2 {
+    background: LightSalmon;
+  }
+  .item3 {
+    background: PaleTurquoise;
+  }
+  .item4 {
+    background: LightPink;
+  }
 
   .item5 {
     background: PaleGreen;
@@ -82,5 +92,9 @@ assert(
 # --solutions--
 
 ```html
-<style>.item5 {grid-area: 3/1/4/4;}</style>
+<style>
+  .item5 {
+    grid-area: 3/1/4/4;
+  }
+</style>
 ```

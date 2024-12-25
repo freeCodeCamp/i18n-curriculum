@@ -34,10 +34,9 @@ grid-template-columns: auto 50px 10% 2fr 1fr;
 Ваш клас `container` повинен мати властивість `grid-template-columns`, яка має три стовпці шириною `1fr`, `100px` та `2fr`.
 
 ```js
-assert(
-  code.match(
-    /.container\s*?{[\s\S]*grid-template-columns\s*?:\s*?1fr\s*?100px\s*?2fr\s*?;[\s\S]*}/gi
-  )
+assert.match(
+  code,
+  /.container\s*?{[\s\S]*grid-template-columns\s*?:\s*?1fr\s*?100px\s*?2fr\s*?;[\s\S]*}/gi
 );
 ```
 
@@ -47,11 +46,21 @@ assert(
 
 ```html
 <style>
-  .d1{background:LightSkyBlue;}
-  .d2{background:LightSalmon;}
-  .d3{background:PaleTurquoise;}
-  .d4{background:LightPink;}
-  .d5{background:PaleGreen;}
+  .d1 {
+    background: LightSkyBlue;
+  }
+  .d2 {
+    background: LightSalmon;
+  }
+  .d3 {
+    background: PaleTurquoise;
+  }
+  .d4 {
+    background: LightPink;
+  }
+  .d5 {
+    background: PaleGreen;
+  }
 
   .container {
     font-size: 40px;
@@ -79,5 +88,9 @@ assert(
 # --solutions--
 
 ```html
-<style>.container {grid-template-columns: 1fr 100px 2fr;}</style>
+<style>
+  .container {
+    grid-template-columns: 1fr 100px 2fr;
+  }
+</style>
 ```

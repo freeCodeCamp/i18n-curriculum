@@ -10,7 +10,6 @@ dashedName: build-a-tribute-page
 
 **Aufgabe:** Erstelle eine Applikation, die eine ähnliche Funktionalität wie <a href="https://tribute-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://tribute-page.freecodecamp.rocks</a> aufweist. **Bitte kopiere nicht dieses Demo-Projekt **.
 
-
 **User Stories:**
 
 1. Deine Tribute-Seite sollte über ein `main`-Element mit einer zugehörigen `id` von `main` verfügen, die alle anderen Elemente enthält
@@ -32,111 +31,125 @@ Erfülle die folgenden User Stories und bestehe alle Tests, um dieses Projekt ab
 Du solltest ein `main`-Element mit einer `id` von `main` haben.
 
 ```js
-const el = document.getElementById('main')
-assert(!!el && el.tagName === 'MAIN')
+const el = document.getElementById('main');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'MAIN');
 ```
 
 Dein `#img-div`, `#image`, `#img-caption`, `#tribute-info` und `#tribute-link` sollten alle Nachfahren (descendants) von `#main` sein.
 
 ```js
-const el1 = document.querySelector('#main #img-div')
-const el2 = document.querySelector('#main #image')
-const el3 = document.querySelector('#main #img-caption')
-const el4 = document.querySelector('#main #tribute-info')
-const el5 = document.querySelector('#main #tribute-link')
-assert(!!el1 & !!el2 && !!el3 && !!el4 && !!el5)
+const el1 = document.querySelector('#main #img-div');
+const el2 = document.querySelector('#main #image');
+const el3 = document.querySelector('#main #img-caption');
+const el4 = document.querySelector('#main #tribute-info');
+const el5 = document.querySelector('#main #tribute-link');
+assert.isNotNull(el1);
+assert.isNotNull(el2);
+assert.isNotNull(el3);
+assert.isNotNull(el4);
+assert.isNotNull(el5);
 ```
 
 Du solltest ein Element mit einer `id` von `title` haben.
 
 ```js
-const el = document.getElementById('title')
-assert(!!el)
+const el = document.getElementById('title');
+assert.isNotNull(el);
 ```
 
 Dein `#title` sollte nicht leer sein.
 
 ```js
-const el = document.getElementById('title')
-assert(!!el && el.innerText.length > 0)
-
+const el = document.getElementById('title');
+assert.isNotNull(el);
+assert.isNotEmpty(el.innerText, 0);
 ```
 
 Du solltest ein `figure`- oder `div`-Element mit einer `id` von `img-div` haben.
 
 ```js
-const el = document.getElementById('img-div')
-assert(!!el && (el.tagName === 'DIV' || el.tagName === 'FIGURE'))
+const el = document.getElementById('img-div');
+assert.isNotNull(el);
+assert.isTrue(el.tagName === 'DIV' || el.tagName === 'FIGURE');
 ```
 
 Du solltest ein `img`-Element mit einer `id` von `image` haben.
 
 ```js
-const el = document.getElementById('image')
-assert(!!el && el.tagName === 'IMG')
+const el = document.getElementById('image');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'IMG');
 ```
 
 Dein `#image` sollte ein Nachfahre (descendant) von `#img-div` sein.
 
 ```js
-const el = document.querySelector('#img-div #image')
-assert(!!el)
+const el = document.querySelector('#img-div #image');
+assert.isNotNull(el);
 ```
 
 Du solltest ein `figcaption`- oder `div`-Element mit einer `id` von `img-caption` haben.
 
 ```js
-const el = document.getElementById('img-caption')
-assert(!!el && (el.tagName === 'DIV' || el.tagName === 'FIGCAPTION'))
+const el = document.getElementById('img-caption');
+assert.isNotNull(el);
+assert.isTrue(el.tagName === 'DIV' || el.tagName === 'FIGCAPTION');
 ```
 
 Dein `#img-caption` sollte ein Nachfahre (descendant) von `#img-div` sein.
 
 ```js
-const el = document.querySelector('#img-div #img-caption')
-assert(!!el)
+const el = document.querySelector('#img-div #img-caption');
+assert.isNotNull(el);
 ```
 
 Dein `#img-caption` sollte nicht leer sein.
 
 ```js
-const el = document.getElementById('img-caption')
-assert(!!el && el.innerText.length > 0)
+const el = document.getElementById('img-caption');
+assert.isNotNull(el);
+assert.isNotEmpty(el.innerText);
 ```
 
 Du solltest ein Element mit einer `id` von `tribute-info` haben.
 
 ```js
-const el = document.getElementById('tribute-info')
-assert(!!el)
+const el = document.getElementById('tribute-info');
+assert.isNotNull(el);
 ```
 
 Dein `#tribute-info` sollte nicht leer sein.
 
 ```js
-const el = document.getElementById('tribute-info')
-assert(!!el && el.innerText.length > 0)
+const el = document.getElementById('tribute-info');
+assert.isNotNull(el);
+assert.isNotEmpty(el.innerText);
 ```
 
 Du solltest ein `a`-Element mit einer `id` von `tribute-link` haben.
 
 ```js
-const el = document.getElementById('tribute-link')
-assert(!!el && el.tagName === 'A')
+const el = document.getElementById('tribute-link');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'A');
 ```
 
 Dein `#tribute-link` sollte ein `href`-Attribut und einen -Wert haben.
 
 ```js
-const el = document.getElementById('tribute-link')
-assert(!!el && !!el.href && el.href.length > 0)
+const el = document.getElementById('tribute-link');
+assert.isNotNull(el);
+assert.isNotNull(el.href);
+assert.isNotEmpty(el.href);
 ```
 
 Dein `#tribute-link` sollte ein, auf `_blank` gesetztes, `target`-Attribut haben.
 
 ```js
-const el = document.getElementById('tribute-link')
-assert(!!el && el.target === '_blank')
+const el = document.getElementById('tribute-link');
+assert.isNotNull(el);
+assert.strictEqual(el.target, '_blank');
 ```
 
 Dein `img`-Element sollte ein `display` von `block` enthalten.
@@ -144,8 +157,8 @@ Dein `img`-Element sollte ein `display` von `block` enthalten.
 ```js
 const img = document.getElementById('image');
 const imgStyle = window.getComputedStyle(img);
-const style = imgStyle?.getPropertyValue('display')
-assert(style === 'block')
+const style = imgStyle?.getPropertyValue('display');
+assert.strictEqual(style, 'block');
 ```
 
 Dein `#image` sollte eine `max-width` von `100%` haben.
@@ -153,8 +166,8 @@ Dein `#image` sollte eine `max-width` von `100%` haben.
 ```js
 const img = document.getElementById('image');
 const imgStyle = window.getComputedStyle(img);
-const style = imgStyle?.getPropertyValue('max-width')
-assert(style === '100%')
+const style = imgStyle?.getPropertyValue('max-width');
+assert.strictEqual(style, '100%');
 ```
 
 Dein `#image` sollte eine `height` von `auto` haben.
@@ -166,9 +179,9 @@ const imgStyle = window.getComputedStyle(img);
 const oldDisplayValue = imgStyle.getPropertyValue('display');
 const oldDisplayPriority = imgStyle.getPropertyPriority('display');
 img?.style.setProperty('display', 'none', 'important');
-const heightValue = imgStyle?.getPropertyValue('height')
+const heightValue = imgStyle?.getPropertyValue('height');
 img?.style.setProperty('display', oldDisplayValue, oldDisplayPriority);
-assert(heightValue === 'auto')
+assert.strictEqual(heightValue, 'auto');
 ```
 
 Dein `#image` sollte innerhalb der übergeordneten Klasse zentriert werden.
@@ -183,7 +196,8 @@ const img = document.getElementById('image'),
   parentRight = imgParent?.getBoundingClientRect().right,
   leftMargin = imgLeft - parentLeft,
   rightMargin = parentRight - imgRight;
-assert(leftMargin - rightMargin < 6 && rightMargin - leftMargin < 6)
+assert.isBelow(leftMargin - rightMargin, 6);
+assert.isBelow(rightMargin - leftMargin, 6);
 ```
 
 # --seed--
@@ -208,12 +222,10 @@ assert(leftMargin - rightMargin < 6 && rightMargin - leftMargin < 6)
     <link
       href="https://fonts.googleapis.com/css?family=Pacifico"
       rel="stylesheet"
-
     />
     <link
       href="https://fonts.googleapis.com/css?family=Lobster"
       rel="stylesheet"
-
     />
     <link href="styles.css" rel="stylesheet" />
     <title>Tribute Page</title>

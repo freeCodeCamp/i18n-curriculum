@@ -11,43 +11,42 @@ dashedName: task-29
 
 Das Wort `if` wird oft in bedingten Aussagen verwendet, um über eine mögliche Situation und ihre Konsequenzen zu sprechen. Hier ein Beispiel:
 
-`If it rains, I will bring an umbrella.` (Die Aktion einen Regenschirm mitzubringen, hängt von der Möglichkeit ab, ob es regnet.)
-
-`If you need help, just ask.` (Das Angebot zu helfen, ist an die Bedingung geknüpft, dass die andere Person sie benötigt.)
+* `If it rains, I will bring an umbrella.` (The action of bringing an umbrella depends on the possibility of rain.)
+* `If you need help, just ask.` (The offer to help is conditional on the other person needing it.)
 
 # --questions--
 
 ## --text--
 
-Was impliziert Sarah mit der Verwendung von `if` in ihrer Aussage bezüglich der Überprüfung von E-Mails und Nachrichten?
+What does Sarah imply by using `if` in her statement about checking emails and messages?
 
 ## --answers--
 
-Sie findet immer dringende Updates von ihrem Team
+She always finds urgent updates from her team
 
 ### --feedback--
 
-`If` suggeriert nicht das Finden dringender Updates.
+`If` doesn't suggest certainty of finding urgent updates.
 
 ---
 
-Manchmal sind da dringende Updates, manchmal nicht
+Sometimes there are urgent updates, sometimes not
 
 ---
 
-Sie überprüft nie ihre E-Mails und Nachrichten
+She never checks her emails and messages
 
 ### --feedback--
 
-Sarah erklärt tatsächlich, dass sie ihre E-Mails und Nachrichten überprüft.
+Sarah actually states that she does check her emails and messages.
 
 ---
 
-Das Überprüfen von E-Mails ist nicht Teil ihrer Routine
+Checking emails is not part of her routine
 
 ### --feedback--
 
-Sarah erwähnt, dass das Überprüfen von E-Mails und Nachrichten Teil ihrer Routine ist.
+Sarah mentions that checking emails and messages is part of her routine.
 
 ## --video-solution--
 

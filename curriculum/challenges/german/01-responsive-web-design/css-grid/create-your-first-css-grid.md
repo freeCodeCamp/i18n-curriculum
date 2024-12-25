@@ -22,7 +22,7 @@ Turn any HTML element into a grid container by setting its `display` property to
 Die Klasse `container` sollte eine Eigenschaft `display` mit dem Wert `grid` besitzen.
 
 ```js
-assert(code.match(/.container\s*?{[\s\S]*display\s*?:\s*?grid\s*?;[\s\S]*}/gi));
+assert.match(code, /.container\s*?{[\s\S]*display\s*?:\s*?grid\s*?;[\s\S]*}/gi);
 ```
 
 # --seed--
@@ -31,11 +31,21 @@ assert(code.match(/.container\s*?{[\s\S]*display\s*?:\s*?grid\s*?;[\s\S]*}/gi));
 
 ```html
 <style>
-  .d1{background:LightSkyBlue;}
-  .d2{background:LightSalmon;}
-  .d3{background:PaleTurquoise;}
-  .d4{background:LightPink;}
-  .d5{background:PaleGreen;}
+  .d1 {
+    background: LightSkyBlue;
+  }
+  .d2 {
+    background: LightSalmon;
+  }
+  .d3 {
+    background: PaleTurquoise;
+  }
+  .d4 {
+    background: LightPink;
+  }
+  .d5 {
+    background: PaleGreen;
+  }
 
   .container {
     font-size: 40px;
@@ -60,5 +70,9 @@ assert(code.match(/.container\s*?{[\s\S]*display\s*?:\s*?grid\s*?;[\s\S]*}/gi));
 # --solutions--
 
 ```html
-<style>.container {display: grid;}</style>
+<style>
+  .container {
+    display: grid;
+  }
+</style>
 ```
