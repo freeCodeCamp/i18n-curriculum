@@ -20,7 +20,7 @@ Just as you can align an item horizontally, there's a way to align an item verti
 Клас `item3` повинен містити властивість `align-self` зі значенням `end`.
 
 ```js
-assert(code.match(/.item3\s*?{[\s\S]*align-self\s*?:\s*?end\s*?;[\s\S]*}/gi));
+assert.match(code, /.item3\s*?{[\s\S]*align-self\s*?:\s*?end\s*?;[\s\S]*}/gi);
 ```
 
 # --seed--
@@ -29,8 +29,12 @@ assert(code.match(/.item3\s*?{[\s\S]*align-self\s*?:\s*?end\s*?;[\s\S]*}/gi));
 
 ```html
 <style>
-  .item1{background:LightSkyBlue;}
-  .item2{background:LightSalmon;}
+  .item1 {
+    background: LightSkyBlue;
+  }
+  .item2 {
+    background: LightSalmon;
+  }
 
   .item3 {
     background: PaleTurquoise;
@@ -40,8 +44,12 @@ assert(code.match(/.item3\s*?{[\s\S]*align-self\s*?:\s*?end\s*?;[\s\S]*}/gi));
     /* Only change code above this line */
   }
 
-  .item4{background:LightPink;}
-  .item5{background:PaleGreen;}
+  .item4 {
+    background: LightPink;
+  }
+  .item5 {
+    background: PaleGreen;
+  }
 
   .container {
     font-size: 40px;
@@ -67,5 +75,9 @@ assert(code.match(/.item3\s*?{[\s\S]*align-self\s*?:\s*?end\s*?;[\s\S]*}/gi));
 # --solutions--
 
 ```html
-<style>.item3 {align-self: end;}</style>
+<style>
+  .item3 {
+    align-self: end;
+  }
+</style>
 ```

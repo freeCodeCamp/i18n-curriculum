@@ -26,27 +26,33 @@ Diese Werte werden auslösen, dass sich `#box-1` doppelt so viel ausdehnt, um Le
 Das `#box-1` Element sollte eine `flex` Eigenschaft mit einem Wert von `2 2 150px` besitzen.
 
 ```js
-assert(
-  $('#box-1').css('flex-grow') == '2' &&
-    $('#box-1').css('flex-shrink') == '2' &&
-    $('#box-1').css('flex-basis') == '150px'
-);
+const boxOne = document.querySelector('#box-1');
+const flexGrow = window.getComputedStyle(boxOne)['flex-grow'];
+const flexShrink = window.getComputedStyle(boxOne)['flex-shrink'];
+const flexBasis = window.getComputedStyle(boxOne)['flex-basis'];
+
+assert.equal(flexGrow, '2');
+assert.equal(flexShrink, '2');
+assert.equal(flexBasis, '150px');
 ```
 
 Das `#box-2` Element sollte eine `flex` Eigenschaft mit einem Wert von `1 1 150px` haben.
 
 ```js
-assert(
-  $('#box-2').css('flex-grow') == '1' &&
-    $('#box-2').css('flex-shrink') == '1' &&
-    $('#box-2').css('flex-basis') == '150px'
-);
+const boxTwo = document.querySelector('#box-2');
+const flexGrow = window.getComputedStyle(boxTwo)['flex-grow'];
+const flexShrink = window.getComputedStyle(boxTwo)['flex-shrink'];
+const flexBasis = window.getComputedStyle(boxTwo)['flex-basis'];
+
+assert.equal(flexGrow, '1');
+assert.equal(flexShrink, '1');
+assert.equal(flexBasis, '150px');
 ```
 
 Dein Code sollte die `flex` Eigenschaft für `#box-1` und `#box-2` verwenden.
 
 ```js
-assert(code.match(/flex:\s*?\d\s+?\d\s+?150px;/g).length == 2);
+assert.lengthOf(code.match(/flex:\s*?\d\s+?\d\s+?150px;/g), 2);
 ```
 
 # --seed--

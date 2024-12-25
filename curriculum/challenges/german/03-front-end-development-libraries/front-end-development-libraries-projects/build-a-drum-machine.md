@@ -41,7 +41,7 @@ Hier sind einige Audio-Beispiele, die du für deine Schlagzeug-Maschine verwende
 - [Kick](https://cdn.freecodecamp.org/testable-projects-fcc/audio/RP4_KICK_1.mp3)
 - [Geschlossene Hi-Hat](https://cdn.freecodecamp.org/testable-projects-fcc/audio/Cev_H2.mp3)
 
-Du kannst dein Projekt erstellen, <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">indem du diese CodePen-Vorlage</a> verwendest und auf `Save` klickst, um deinen eigenen Pen zu erstellen. Oder du kannst diesen CDN-Link verwenden, um die Tests in jeder beliebigen Umgebung auszuführen: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
+Du kannst dein Projekt erstellen, <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">indem du diese CodePen-Vorlage</a> verwendest und auf `Save` klickst, um deinen eigenen Pen zu erstellen. If you prefer to use another environment, then put this `<script>` tag into the body of your `index.html` file: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
 
 Sobald du fertig bist, übermittle die URL zu deinem Arbeitsprojekt, bei dem alle Tests bestehen.
 

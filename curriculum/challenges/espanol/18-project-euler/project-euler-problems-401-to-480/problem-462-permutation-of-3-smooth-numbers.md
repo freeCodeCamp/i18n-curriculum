@@ -22,14 +22,14 @@ Esto no es una permutación válida, porque 12 se anteponen a su divisor 6.
 
 Podemos verificar que $F(6) = 5$, $F(8) = 9$, $F(20) = 450$ y $F(1000).8521816557e\\,21$.
 
-Calcular $F({10}^{18})$. Dar como respuesta una cadena en su noción científica redondeada a diez dígitos después del punto decimal. Al dar tu respuesta, usa una minúscula `e` para separar mantissa y exponente. Ejemplo. si la respuesta es $112\\,233\\,445\\,566\\,778\\,899$, entonces el formato de respuesta sería `1.1223344557e17`.
+Calcular $F({10}^{18})$. Give your answer as a string in scientific notation rounded to ten digits after the decimal point. Al dar tu respuesta, usa una minúscula `e` para separar mantissa y exponente. Ejemplo. si la respuesta es $112\\,233\\,445\\,566\\,778\\,899$, entonces el formato de respuesta sería `1.1223344557e17`.
 
 # --hints--
 
 `permutationOf3SmoothNumbers()` debería devolver una cadena.
 
 ```js
-assert.strictEqual(typeof permutationOf3SmoothNumbers() === 'string');
+assert.strictEqual(typeof permutationOf3SmoothNumbers(), 'string');
 ```
 
 `permutationOf3SmoothNumbers()` debe devolver la cadena `5.5350769703e1512`.

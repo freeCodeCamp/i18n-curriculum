@@ -22,14 +22,14 @@ dashedName: problem-462-permutation-of-3-smooth-numbers
 
 Можна довести, що $F(6) = 5$, $F(8) = 9$, $F(20) = 450$ та $F(1000) ≈ 8.8521816557e\\,21$.
 
-Знайдіть $F({10}^{18})$. Надайте відповідь у вигляді рядка в експоненційному записі, заокругливши до десяти знаків після коми. При цьому використайте `e` в нижньому регістрі, щоб розділити мантису та показник степеня. Наприклад: якщо відповідь дорівнює $112\\,233\\,445\\,566\\,778\\,899$, то форматом буде `1.1223344557e17`.
+Знайдіть $F({10}^{18})$. Give your answer as a string in scientific notation rounded to ten digits after the decimal point. При цьому використайте `e` в нижньому регістрі, щоб розділити мантису та показник степеня. Наприклад: якщо відповідь дорівнює $112\\,233\\,445\\,566\\,778\\,899$, то форматом буде `1.1223344557e17`.
 
 # --hints--
 
 `permutationOf3SmoothNumbers()` має повернути рядок.
 
 ```js
-assert.strictEqual(typeof permutationOf3SmoothNumbers() === 'string');
+assert.strictEqual(typeof permutationOf3SmoothNumbers(), 'string');
 ```
 
 `permutationOf3SmoothNumbers()` має повернути рядок `5.5350769703e1512`.

@@ -37,7 +37,7 @@ Du kannst eine beliebige Kombination aus HTML, JavaScript, CSS, Bootstrap, SASS,
 
 **User Story #11:** Das `#quote-box`-Wrapper-Element sollte horizontal zentriert sein. Bitte führe die Tests mit einer Zoomstufe von 100 % und maximierter Seite durch.
 
-Du kannst dein Projekt erstellen, indem du <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">diese CodePen-Vorlage</a> verwendest und auf `Save` klickst, um deinen eigenen Pen zu erstellen. Oder du kannst diesen CDN-Link verwenden, um die Tests in jeder beliebigen Umgebung auszuführen: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
+You can build your project by <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">using this CodePen template</a> and clicking `Save` to create your own pen. If you prefer to use another environment, then put this `<script>` tag into the body of your `index.html` file: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
 
 Sobald du fertig bist, übermittle die URL zu deinem Arbeitsprojekt, wenn alle Tests bestanden sind.
 

@@ -22,118 +22,132 @@ Fulfill the user stories below and get all the tests to pass to complete the lab
 1. `#image` повинен використовувати властивості `max-width` та `height`, щоб змінювати розмір відповідно до ширини батьківського елемента, не перевищуючи початковий розмір.
 1. Ваш елемент `img` повинен бути зцентрованим відповідно до батьківського елемента.
 
-**Примітка:** обов’язково зв’яжіть таблицю стилів у HTML та застосуйте CSS.
+**Note:** Be sure to link your stylesheet in your HTML and apply your CSS.
 
 # --hints--
 
 Ви повинні мати елемент `main` з `id` зі значенням `main`.
 
 ```js
-const el = document.getElementById('main')
-assert(!!el && el.tagName === 'MAIN')
+const el = document.getElementById('main');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'MAIN');
 ```
 
 Your `#img-div`, `#image`, `#img-caption`, `#tribute-info`, and `#tribute-link` should all be descendants of `#main`.
 
 ```js
-const el1 = document.querySelector('#main #img-div')
-const el2 = document.querySelector('#main #image')
-const el3 = document.querySelector('#main #img-caption')
-const el4 = document.querySelector('#main #tribute-info')
-const el5 = document.querySelector('#main #tribute-link')
-assert(!!el1 & !!el2 && !!el3 && !!el4 && !!el5)
+const el1 = document.querySelector('#main #img-div');
+const el2 = document.querySelector('#main #image');
+const el3 = document.querySelector('#main #img-caption');
+const el4 = document.querySelector('#main #tribute-info');
+const el5 = document.querySelector('#main #tribute-link');
+assert.isNotNull(el1);
+assert.isNotNull(el2);
+assert.isNotNull(el3);
+assert.isNotNull(el4);
+assert.isNotNull(el5);
 ```
 
 Ви повинні мати елемент з `id` зі значенням `title`.
 
 ```js
-const el = document.getElementById('title')
-assert(!!el)
+const el = document.getElementById('title');
+assert.isNotNull(el);
 ```
 
 `#title` не повинен бути порожнім.
 
 ```js
-const el = document.getElementById('title')
-assert(!!el && el.innerText.length > 0)
-
+const el = document.getElementById('title');
+assert.isNotNull(el);
+assert.isNotEmpty(el.innerText, 0);
 ```
 
 Ви повинні мати елемент `figure` або `div` з `id` зі значенням `img-div`.
 
 ```js
-const el = document.getElementById('img-div')
-assert(!!el && (el.tagName === 'DIV' || el.tagName === 'FIGURE'))
+const el = document.getElementById('img-div');
+assert.isNotNull(el);
+assert.isTrue(el.tagName === 'DIV' || el.tagName === 'FIGURE');
 ```
 
 Ви повинні мати елемент `img` з `id` зі значенням `image`.
 
 ```js
-const el = document.getElementById('image')
-assert(!!el && el.tagName === 'IMG')
+const el = document.getElementById('image');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'IMG');
 ```
 
 `#image` повинен бути нащадком `#img-div`.
 
 ```js
-const el = document.querySelector('#img-div #image')
-assert(!!el)
+const el = document.querySelector('#img-div #image');
+assert.isNotNull(el);
 ```
 
 You should have a `figcaption` or `div` element with an `id` of `img-caption`.
 
 ```js
-const el = document.getElementById('img-caption')
-assert(!!el && (el.tagName === 'DIV' || el.tagName === 'FIGCAPTION'))
+const el = document.getElementById('img-caption');
+assert.isNotNull(el);
+assert.isTrue(el.tagName === 'DIV' || el.tagName === 'FIGCAPTION');
 ```
 
 `#img-caption` повинен бути нащадком `#img-div`.
 
 ```js
-const el = document.querySelector('#img-div #img-caption')
-assert(!!el)
+const el = document.querySelector('#img-div #img-caption');
+assert.isNotNull(el);
 ```
 
 `#img-caption` не повинен бути порожнім.
 
 ```js
-const el = document.getElementById('img-caption')
-assert(!!el && el.innerText.length > 0)
+const el = document.getElementById('img-caption');
+assert.isNotNull(el);
+assert.isNotEmpty(el.innerText);
 ```
 
 Ви повинні мати елемент з `id` зі значенням `tribute-info`.
 
 ```js
-const el = document.getElementById('tribute-info')
-assert(!!el)
+const el = document.getElementById('tribute-info');
+assert.isNotNull(el);
 ```
 
 `#tribute-info` не повинен бути порожнім.
 
 ```js
-const el = document.getElementById('tribute-info')
-assert(!!el && el.innerText.length > 0)
+const el = document.getElementById('tribute-info');
+assert.isNotNull(el);
+assert.isNotEmpty(el.innerText);
 ```
 
 Ви повинні мати елемент `a` з `id` зі значенням `tribute-link`.
 
 ```js
-const el = document.getElementById('tribute-link')
-assert(!!el && el.tagName === 'A')
+const el = document.getElementById('tribute-link');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'A');
 ```
 
 `#tribute-link` повинен мати атрибут `href` та значення.
 
 ```js
-const el = document.getElementById('tribute-link')
-assert(!!el && !!el.href && el.href.length > 0)
+const el = document.getElementById('tribute-link');
+assert.isNotNull(el);
+assert.isNotNull(el.href);
+assert.isNotEmpty(el.href);
 ```
 
 `#tribute-link` повинен мати атрибут `target` зі значенням `_blank`.
 
 ```js
-const el = document.getElementById('tribute-link')
-assert(!!el && el.target === '_blank')
+const el = document.getElementById('tribute-link');
+assert.isNotNull(el);
+assert.strictEqual(el.target, '_blank');
 ```
 
 Your `img` element should have a `display` of `block`.
@@ -141,8 +155,8 @@ Your `img` element should have a `display` of `block`.
 ```js
 const img = document.getElementById('image');
 const imgStyle = window.getComputedStyle(img);
-const style = imgStyle?.getPropertyValue('display')
-assert(style === 'block')
+const style = imgStyle?.getPropertyValue('display');
+assert.strictEqual(style, 'block');
 ```
 
 `#image` повинен мати `max-width` зі значенням `100%`.
@@ -150,8 +164,8 @@ assert(style === 'block')
 ```js
 const img = document.getElementById('image');
 const imgStyle = window.getComputedStyle(img);
-const style = imgStyle?.getPropertyValue('max-width')
-assert(style === '100%')
+const style = imgStyle?.getPropertyValue('max-width');
+assert.strictEqual(style, '100%');
 ```
 
 Your `#image` should have a `height` of `auto`.
@@ -163,9 +177,9 @@ const imgStyle = window.getComputedStyle(img);
 const oldDisplayValue = imgStyle.getPropertyValue('display');
 const oldDisplayPriority = imgStyle.getPropertyPriority('display');
 img?.style.setProperty('display', 'none', 'important');
-const heightValue = imgStyle?.getPropertyValue('height')
+const heightValue = imgStyle?.getPropertyValue('height');
 img?.style.setProperty('display', oldDisplayValue, oldDisplayPriority);
-assert(heightValue === 'auto')
+assert.strictEqual(heightValue, 'auto');
 ```
 
 `#image` повинен бути зцентрованим відповідно до батьківського елемента.
@@ -180,7 +194,8 @@ const img = document.getElementById('image'),
   parentRight = imgParent?.getBoundingClientRect().right,
   leftMargin = imgLeft - parentLeft,
   rightMargin = parentRight - imgRight;
-assert(leftMargin - rightMargin < 6 && rightMargin - leftMargin < 6)
+assert.isBelow(leftMargin - rightMargin, 6);
+assert.isBelow(rightMargin - leftMargin, 6);
 ```
 
 # --seed--
@@ -190,16 +205,12 @@ assert(leftMargin - rightMargin < 6 && rightMargin - leftMargin < 6)
 ```html
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Tribute Page</title>
-</head>
+  </head>
 
-<body>
-
-</body>
-
+  <body></body>
 </html>
 ```
 

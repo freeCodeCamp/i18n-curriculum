@@ -22,14 +22,14 @@ Dies ist keine gültige Permutation, da 12 vor ihrem Teiler 6 steht.
 
 Wir können nachweisen, dass $F(6) = 5$, $F(8) = 9$, $F(20) = 450$ und $F(1000) ≈ 8,8521816557e\\,21$.
 
-Find $F({10}^{18})$. Gib deine Antwort als String in wissenschaftlicher Notation an, gerundet auf zehn Stellen nach dem Komma. Wenn du deine Antwort gibst, benutze ein kleingeschriebenes `e`, um Mantisse und Exponent zu trennen. z.B. wenn die Antwort $112\\,233\\,445\\,566\\,778\\,899$ lautet, würde das Antwortformat `1.1223344557e17` lauten.
+Find $F({10}^{18})$. Give your answer as a string in scientific notation rounded to ten digits after the decimal point. Wenn du deine Antwort gibst, benutze ein kleingeschriebenes `e`, um Mantisse und Exponent zu trennen. z.B. wenn die Antwort $112\\,233\\,445\\,566\\,778\\,899$ lautet, würde das Antwortformat `1.1223344557e17` lauten.
 
 # --hints--
 
 `permutationOf3SmoothNumbers()` sollte einen String zurückgeben.
 
 ```js
-assert.strictEqual(typeof permutationOf3SmoothNumbers() === 'string');
+assert.strictEqual(typeof permutationOf3SmoothNumbers(), 'string');
 ```
 
 `permutationOf3SmoothNumbers()` sollte den String `5.5350769703e1512` zurückgeben.

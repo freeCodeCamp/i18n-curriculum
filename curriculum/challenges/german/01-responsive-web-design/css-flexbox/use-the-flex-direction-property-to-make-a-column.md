@@ -20,7 +20,9 @@ Füge die CSS-Eigenschaft `flex-direction` zum `#box-container` Element hinzu un
 Das `#box-container` Element sollte eine `flex-direction` Eigenschaft mit Wert `column` besitzen.
 
 ```js
-assert($('#box-container').css('flex-direction') == 'column');
+const boxContainer = document.querySelector('#box-container');
+const flexDirection = window.getComputedStyle(boxContainer)['flex-direction'];
+assert.strictEqual(flexDirection, 'column');
 ```
 
 # --seed--

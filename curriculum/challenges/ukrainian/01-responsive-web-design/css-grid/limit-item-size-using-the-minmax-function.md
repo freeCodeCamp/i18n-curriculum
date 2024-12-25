@@ -26,10 +26,9 @@ grid-template-columns: 100px minmax(50px, 200px);
 Клас `container` повинен мати властивість `grid-template-columns`, яка повинна повторювати 3 колонки із мінімальною шириною `90px` та максимальною шириною `1fr`.
 
 ```js
-assert(
-  code.match(
-    /.container\s*?{[\s\S]*grid-template-columns\s*?:\s*?repeat\s*?\(\s*?3\s*?,\s*?minmax\s*?\(\s*?90px\s*?,\s*?1fr\s*?\)\s*?\)\s*?;[\s\S]*}/gi
-  )
+assert.match(
+  code,
+  /.container\s*?{[\s\S]*grid-template-columns\s*?:\s*?repeat\s*?\(\s*?3\s*?,\s*?minmax\s*?\(\s*?90px\s*?,\s*?1fr\s*?\)\s*?\)\s*?;[\s\S]*}/gi
 );
 ```
 
@@ -39,11 +38,21 @@ assert(
 
 ```html
 <style>
-  .item1{background:LightSkyBlue;}
-  .item2{background:LightSalmon;}
-  .item3{background:PaleTurquoise;}
-  .item4{background:LightPink;}
-  .item5{background:PaleGreen;}
+  .item1 {
+    background: LightSkyBlue;
+  }
+  .item2 {
+    background: LightSalmon;
+  }
+  .item3 {
+    background: PaleTurquoise;
+  }
+  .item4 {
+    background: LightPink;
+  }
+  .item5 {
+    background: PaleGreen;
+  }
 
   .container {
     font-size: 40px;
@@ -73,5 +82,9 @@ assert(
 # --solutions--
 
 ```html
-<style>.container {grid-template-columns: repeat(3, minmax(90px, 1fr));}</style>
+<style>
+  .container {
+    grid-template-columns: repeat(3, minmax(90px, 1fr));
+  }
+</style>
 ```

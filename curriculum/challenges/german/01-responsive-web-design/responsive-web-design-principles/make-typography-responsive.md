@@ -18,7 +18,9 @@ Die vier verschiedenen Viewport-Einheiten sind:
 Hier ist ein Beispiel, das ein `body` Tag auf 30% der Breite des Viewports setzt.
 
 ```css
-body { width: 30vw; }
+body {
+  width: 30vw;
+}
 ```
 
 # --instructions--
@@ -30,20 +32,18 @@ Setze die `width` des `h2`-Tags auf 80% der Breite des Viewports und die `width`
 Dein `h2`-Tag sollte eine `width` von 80vw besitzen.
 
 ```js
-assert(
-  __helpers
-    .removeCssComments(code)
-    .match(/h2\s*?{\s*?width:\s*?80vw;\s*?}/g)
+assert.match(
+  __helpers.removeCssComments(code),
+  /h2\s*?{\s*?width:\s*?80vw;\s*?}/g
 );
 ```
 
 Dein `p`-Tag sollte eine `width` von 75vmin besitzen.
 
 ```js
-assert(
-  __helpers
-    .removeCssComments(code)
-    .match(/p\s*?{\s*?width:\s*?75vmin;\s*?}/g)
+assert.match(
+  __helpers.removeCssComments(code),
+  /p\s*?{\s*?width:\s*?75vmin;\s*?}/g
 );
 ```
 
@@ -57,7 +57,14 @@ assert(
 </style>
 
 <h2>Importantus Ipsum</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis tempus massa. Aenean erat nisl, gravida vel vestibulum cursus, interdum sit amet lectus. Sed sit amet quam nibh. Suspendisse quis tincidunt nulla. In hac habitasse platea dictumst. Ut sit amet pretium nisl. Vivamus vel mi sem. Aenean sit amet consectetur sem. Suspendisse pretium, purus et gravida consequat, nunc ligula ultricies diam, at aliquet velit libero a dui.</p>
+<p>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis tempus
+  massa. Aenean erat nisl, gravida vel vestibulum cursus, interdum sit amet
+  lectus. Sed sit amet quam nibh. Suspendisse quis tincidunt nulla. In hac
+  habitasse platea dictumst. Ut sit amet pretium nisl. Vivamus vel mi sem.
+  Aenean sit amet consectetur sem. Suspendisse pretium, purus et gravida
+  consequat, nunc ligula ultricies diam, at aliquet velit libero a dui.
+</p>
 ```
 
 # --solutions--
@@ -65,13 +72,20 @@ assert(
 ```html
 <style>
   h2 {
-      width: 80vw;
+    width: 80vw;
   }
   p {
-      width: 75vmin;
+    width: 75vmin;
   }
 </style>
 
 <h2>Importantus Ipsum</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis tempus massa. Aenean erat nisl, gravida vel vestibulum cursus, interdum sit amet lectus. Sed sit amet quam nibh. Suspendisse quis tincidunt nulla. In hac habitasse platea dictumst. Ut sit amet pretium nisl. Vivamus vel mi sem. Aenean sit amet consectetur sem. Suspendisse pretium, purus et gravida consequat, nunc ligula ultricies diam, at aliquet velit libero a dui.</p>
+<p>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis tempus
+  massa. Aenean erat nisl, gravida vel vestibulum cursus, interdum sit amet
+  lectus. Sed sit amet quam nibh. Suspendisse quis tincidunt nulla. In hac
+  habitasse platea dictumst. Ut sit amet pretium nisl. Vivamus vel mi sem.
+  Aenean sit amet consectetur sem. Suspendisse pretium, purus et gravida
+  consequat, nunc ligula ultricies diam, at aliquet velit libero a dui.
+</p>
 ```

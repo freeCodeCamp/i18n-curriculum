@@ -22,13 +22,17 @@ Füge die CSS-Eigenschaft `align-self` sowohl zur `#box-1` als auch zur `#box-2`
 Das `#box-1` Element sollte eine `align-self` Eigenschaft mit einem Wert von `center` haben.
 
 ```js
-assert($('#box-1').css('align-self') == 'center');
+const boxOne = document.querySelector('#box-1');
+const alignment = window.getComputedStyle(boxOne)['align-self'];
+assert.strictEqual(alignment, 'center');
 ```
 
 Auf dem `#box-2` Element sollte die `align-self` Eigenschaft auf `flex-end` gesetzt sein.
 
 ```js
-assert($('#box-2').css('align-self') == 'flex-end');
+const boxTwo = document.querySelector('#box-2');
+const alignment = window.getComputedStyle(boxTwo)['align-self'];
+assert.strictEqual(alignment, 'flex-end');
 ```
 
 # --seed--

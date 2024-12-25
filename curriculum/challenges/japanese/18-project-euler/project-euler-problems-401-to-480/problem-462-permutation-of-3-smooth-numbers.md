@@ -22,14 +22,14 @@ $N = 20$ に対して考えられる順列の一例を下に示します。
 
 $F(6) = 5$, $F(8) = 9$, $F(20) = 450$, $F(1000) ≈ 8.8521816557e\\21$ であることを確認できます。
 
-$F({10}^{18})$ を求めなさい。 回答は、科学的記数法による文字列を四捨五入して小数第 10 位まで示すこと。 回答は、小文字 `e` で仮数部と指数部を区切って書くこと。 例えば、 答えが $112\\,233\\,445\\,566\\,778\\,899$ の場合、`1.1223344557e17` の形式にします。
+$F({10}^{18})$ を求めなさい。 Give your answer as a string in scientific notation rounded to ten digits after the decimal point. 回答は、小文字 `e` で仮数部と指数部を区切って書くこと。 例えば、 答えが $112\\,233\\,445\\,566\\,778\\,899$ の場合、`1.1223344557e17` の形式にします。
 
 # --hints--
 
 `permutationOf3SmoothNumbers()` は文字列を返す必要があります。
 
 ```js
-assert.strictEqual(typeof permutationOf3SmoothNumbers() === 'string');
+assert.strictEqual(typeof permutationOf3SmoothNumbers(), 'string');
 ```
 
 `permutationOf3SmoothNumbers()` は文字列 `5.5350769703e1512` を返す必要があります。
