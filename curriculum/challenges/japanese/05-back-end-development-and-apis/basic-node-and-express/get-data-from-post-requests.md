@@ -22,9 +22,9 @@ GET - 既存のリソースを変更せずに読み取る。
 
 PUT または PATCH (場合によっては POST) - 送信されたデータを使用してリソースを更新する。
 
-DELETE - Delete a resource.
+DELETE - リソースを削除する。
 
-他にもサーバーとの接続のやり取りに使用するメソッドがいくつかあります。 Except for GET, all the other methods listed above can have a payload (i.e. the data into the request body). ボディ解析ミドルウェアでもこれらのメソッドを使用できます。
+他にもサーバーとの接続のやり取りに使用するメソッドがいくつかあります。 GET を除いて、上記のメソッドはすべてペイロード (リクエストボディ内のデータ) を持つことができます。 ボディ解析ミドルウェアでもこれらのメソッドを使用できます。
 
 # --hints--
 

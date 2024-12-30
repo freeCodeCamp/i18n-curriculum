@@ -11,22 +11,22 @@ dashedName: meet-the-node-console
 これらのチャレンジに取り組むにあたり、以下の方法のうち 1 つを用いてコードを記述します。
 
 - <a href="https://github.com/freeCodeCamp/boilerplate-express/" target="_blank" rel="noopener noreferrer nofollow">GitHub リポジトリ</a>をクローンし、ローカル環境でプロジェクトを完了させる。
-- Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-express/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete these challenges. Learn <a href="https://forum.freecodecamp.org/t/how-to-use-gitpod-in-the-curriculum/668669#how-can-i-share-my-workspace-to-get-help-8" target="_blank" rel="noopener noreferrer nofollow">how to share your Gitpod workspace to get help</a>.
+- <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-express/" target="_blank" rel="noopener noreferrer nofollow">Gitpod スタータープロジェクト</a>を使用して、チャレンジを完了させる。 ※質問などの際に <a href="https://forum.freecodecamp.org/t/how-to-use-gitpod-in-the-curriculum/668669#how-can-i-share-my-workspace-to-get-help-8" target="_blank" rel="noopener noreferrer nofollow">Gitpod ワークスペースを共有する方法はこちらを参照</a>してください。
 - 使い慣れたサイトビルダーを使用してプロジェクトを完了させる。 必ず GitHub リポジトリのすべてのファイルを取り込む。
 
 開発プロセスでは、コード内で何が起きているかを確認できることが重要です。
 
-Node は単なる JavaScript 環境にすぎません。 クライアントサイド JavaScript と同様に、コンソールを使用して有用なデバッグ情報を表示できます。 ローカルマシンでは、ターミナルでコンソール出力を確認できます。 On Gitpod, a terminal is open at the bottom of the editor by default.
+Node は単なる JavaScript 環境にすぎません。 クライアントサイド JavaScript と同様に、コンソールを使用して有用なデバッグ情報を表示できます。 ローカルマシンでは、ターミナルでコンソール出力を確認できます。 Gitpod では、デフォルトでエディタの下部にターミナルが開きます。
 
 チャレンジの作業中はターミナルを開いたままにしておくことをお勧めします。 ターミナルの出力を見て、発生したエラーを確認することができます。
 
-The server must be restarted after making changes to its files.
+サーバーのファイルを変更した後は、サーバーを再起動する必要があります。
 
-You can stop the server from the terminal using `Ctrl + C` and start it using Node directly (`node mainEntryFile.js`) or using a run script in the `package.json` file with `npm run`.
+ターミナルからサーバーを停止するには `Ctrl + C` を使用します。再開するには、Node を直接使用するか (`node mainEntryFile.js`)、`npm run` コマンドで `package.json` ファイル内の実行スクリプトを使用します。
 
-For example, the `"start": "node server.js"` script would be run from the terminal using `npm run start`.
+例えば、`"start": "node server.js"` スクリプトは、ターミナルで `npm run start` コマンドを使用することで実行できます。
 
-To implement server auto restarting on file save Node provides the `--watch` flag you can add to your start script `"start": "node --watch server.js"` or you can install an npm package like `nodemon`. We will leave this to you as an exercise.
+ファイル保存時にサーバーを自動的に再起動できるように、Node は `--watch` フラグを提供しており、これを `"start": "node --watch server.js"` のように start スクリプトに追加できます。または、`nodemon` のような npm パッケージをインストールすることもできます。 これは練習も兼ねてみなさんにお任せします。
 
 # --instructions--
 

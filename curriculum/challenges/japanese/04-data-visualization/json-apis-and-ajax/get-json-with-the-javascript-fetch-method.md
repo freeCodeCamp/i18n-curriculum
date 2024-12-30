@@ -22,7 +22,7 @@ fetch('/json/cats.json')
 
 ```
 
-Note: The `fetch()` method uses `GET` as the default `HTTP` method. This means you don’t need to specify it explicitly for basic data retrieval.
+注: `fetch()` メソッドはデフォルトの `HTTP` メソッドとして `GET` を使用します。 つまり、基本的なデータ取得の際には HTTP メソッドを明示的に指定する必要はありません。
 
 コードを細かく見ていきましょう。
 

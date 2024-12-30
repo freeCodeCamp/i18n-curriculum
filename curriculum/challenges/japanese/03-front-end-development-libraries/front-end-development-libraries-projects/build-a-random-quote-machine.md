@@ -37,7 +37,7 @@ dashedName: build-a-random-quote-machine
 
 **ユーザーストーリー 11:** `#quote-box` ラッパー要素は水平方向に中央寄せされます。 ブラウザのズームレベルを 100% にし、ページを最大化してテストしてください。
 
-You can build your project by <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">using this CodePen template</a> and clicking `Save` to create your own pen. If you prefer to use another environment, then put this `<script>` tag into the body of your `index.html` file: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
+プロジェクトの構築には<a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">この CodePen テンプレート</a>を使用できます。`Save` をクリックすると、あなた用の pen (CodePen 上の作品) が作成できます。 他の環境を使用する場合は、`index.html` ファイルのボディに次の `<script>` タグを含めてください: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
 
 完了したら、すべてのテストが成功する状態の作業プロジェクトの URL を送信してください。
 

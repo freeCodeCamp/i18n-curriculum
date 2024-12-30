@@ -40,7 +40,7 @@ Express では、ミドルウェア `express.static(path)` を使用してこの
   );
 ```
 
-Your app should not serve files from any other folders except from `/public` directory
+アプリは、`/public` ディレクトリ以外のフォルダーからファイルを提供しないようにしてください。
 
 ```js
 (getUserInput) =>

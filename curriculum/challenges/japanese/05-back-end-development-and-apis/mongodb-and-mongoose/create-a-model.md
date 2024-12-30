@@ -12,7 +12,7 @@ dashedName: create-a-model
 
 まず最初に、スキーマが必要です。 各スキーマは、MongoDB コレクションにマップされます。 スキーマにより、コレクション内のドキュメントの形状を定義します。 スキーマは、モデルを組み立てるための基礎的な要素になります。 スキーマをネストさせて複雑なモデルを作成することもできますが、この例ではシンプルな構造にします。 モデルにより、ドキュメントと呼ばれるオブジェクトのインスタンスを作成できます。
 
-Gitpod is a real server, and in real servers, the interactions with the database happen in handler functions. これらの関数は、何らかのイベントが発生した時に実行されます (たとえば、誰かが API 上のエンドポイントにアクセスしたとき)。 演習でも同じアプローチに従います。 `done()` 関数は、挿入、検索、更新または削除などの非同期操作を完了した後に処理を続行できることを示すコールバック関数です。 Node の規約に従い、成功時には `done(null, data)` を呼び出し、エラー時には `done(err)` を呼び出します。
+Gitpod はオンラインで実際に利用できるサーバーです。そしてこのサーバーの中で、ハンドラ関数を利用してデーターベースとの相互のやりとりが行われます。 これらの関数は、何らかのイベントが発生した時に実行されます (たとえば、誰かが API 上のエンドポイントにアクセスしたとき)。 演習でも同じアプローチに従います。 `done()` 関数は、挿入、検索、更新または削除などの非同期操作を完了した後に処理を続行できることを示すコールバック関数です。 Node の規約に従い、成功時には `done(null, data)` を呼び出し、エラー時には `done(err)` を呼び出します。
 
 警告 - リモートサービスとのやり取りではエラーが発生する可能性があります！
 
@@ -28,15 +28,15 @@ const someFunc = function(done) {
 
 # --instructions--
 
-Create a person schema called `personSchema` with the following shape:
+次の形状を持つ `personSchema` というパーソンスキーマを作成してください。
 
-* A required `name` field of type `String`
-* An `age` field of type `Number`
-* A `favoriteFoods` field of type `[String]`
+* 必須の `name` フィールド、型は `String`
+* `age` フィールド、型は `Number`
+* `favoriteFoods` フィールド、型は `[String]`
 
 Mongoose の基本的なスキーマタイプを使用してください。 フィールドを追加したい場合は、required や unique といった単純なバリデーターを使用し、デフォルト値を設定してください。 <a href="https://www.freecodecamp.org/news/introduction-to-mongoose-for-mongodb-d2a7aa593c57/" target="_blank" rel="noopener noreferrer nofollow">Mongoose の記事</a>を参照してください。
 
-Now, create a model from the `personSchema` and assign it to the existing variable `Person`.
+次に、`personSchema` からモデルを作成し、既存の変数 `Person` に割り当ててください。
 
 # --hints--
 
