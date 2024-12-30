@@ -8,15 +8,15 @@ dashedName: use-the-caret-character-to-use-the-latest-minor-version-of-a-depende
 
 # --description--
 
-前回のチャレンジで学んだチルダと同じように、npm では依存関係の最新の PATCH をインストールできます。npm でキャレット (`^`) を使用すると、将来のアップデートもインストールできます。 両者の違いは、キャレットでは MINOR アップデートと PATCH の両方が可能であることです。
+前回のチャレンジで学んだチルダでは、npm で依存関係の最新の PATCH をインストールできました。同様に、npm でキャレット (`^`) を使用すると、将来のアップデートもインストールできます。 両者の違いは、キャレットでは MINOR アップデートと PATCH の両方が許可されることです。
 
-Your current version of `@freecodecamp/example` should be `~1.2.13` which allows npm to install to the latest `1.2.x` version. If you were to use the caret (^) as a version prefix instead, npm would be allowed to update to any `1.x.x` version.
+`@freecodecamp/example` の現在のバージョンを `~1.2.13` にすると、npm は `1.2.x` の最新バージョンをインストールできます。 代わりにバージョン・プレフィックスとしてキャレット (^) を使用すると、npm は `1.x.x` の最新バージョンへのアップデートが可能となります。
 
 ```json
 "package": "^1.3.8"
 ```
 
-This would allow updates to any `1.x.x` version of the package.
+この記述では、`1.x.x` の範囲のバージョンへのアップデートが許可されます。
 
 # --instructions--
 
