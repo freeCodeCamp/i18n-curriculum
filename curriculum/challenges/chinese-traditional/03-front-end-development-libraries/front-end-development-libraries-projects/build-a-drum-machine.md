@@ -41,7 +41,7 @@ dashedName: build-a-drum-machine
 - [Kick](https://cdn.freecodecamp.org/testable-projects-fcc/audio/RP4_KICK_1.mp3)
 - [Closed-HH](https://cdn.freecodecamp.org/testable-projects-fcc/audio/Cev_H2.mp3)
 
-你可以通過 <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">使用此 CodePen 模板</a> 並單擊 `Save` 來創建你自己的筆，從而構建你的項目。 或者你可以使用此 CDN 鏈接在你喜歡的任何環境中運行測試：`https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
+你可以通過 <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">使用此 CodePen 模板</a> 並單擊 `Save` 來創建你自己的筆，從而構建你的項目。 If you prefer to use another environment, then put this `<script>` tag into the body of your `index.html` file: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
 
 完成項目並通過所有測試後，請輸入你的項目在 CodePen 上的鏈接並提交。
 

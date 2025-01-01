@@ -22,19 +22,20 @@ Our phone doesn't have much vertical space.
 应删除 `h1` 元素。
 
 ```js
-assert(!code.match(/<h1>/gi) && !code.match(/<\/h1>/gi));
+assert.notMatch(code,/<h1>/gi);
+assert.notMatch(code,/<\/h1>/gi);
 ```
 
 应保留 `h2` 元素。
 
 ```js
-assert(code.match(/<h2>[\w\W]*<\/h2>/gi));
+assert.match(code,/<h2>[\w\W]*<\/h2>/gi);
 ```
 
 应保留 `p` 元素。
 
 ```js
-assert(code.match(/<p>[\w\W]*<\/p>/gi));
+assert.match(code,/<p>[\w\W]*<\/p>/gi);
 ```
 
 # --seed--

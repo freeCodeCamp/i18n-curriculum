@@ -40,43 +40,45 @@ We just proved that browsers read CSS from top to bottom in order of their decla
 `h1` 元素應包含 `pink-text` class。
 
 ```js
-assert($('h1').hasClass('pink-text'));
+assert.isTrue(document.querySelector('h1').classList.contains('pink-text'));
 ```
 
 `h1` 元素應包含 `blue-text` class。
 
 ```js
-assert($('h1').hasClass('blue-text'));
+assert.isTrue(document.querySelector('h1').classList.contains('blue-text'));
 ```
 
 `h1` 元素的 id 應爲 `orange-text`。
 
 ```js
-assert($('h1').attr('id') === 'orange-text');
+assert.strictEqual(document.querySelector('h1').getAttribute('id'),'orange-text');
 ```
 
 應只有一個 `h1` 元素。
 
 ```js
-assert($('h1').length === 1);
+assert.lengthOf(document.querySelectorAll('h1'), 1);
 ```
 
 應存在名爲 `orange-text` 的 id 選擇器。
 
 ```js
-assert(code.match(/#orange-text\s*{/gi));
+assert.match(__helpers.removeCssComments(code), /#orange-text\s*{/gi);
 ```
 
 不要在 `h1` 元素裏面使用 `style` 屬性。
 
 ```js
-assert(!code.match(/<h1.*style.*>/gi));
+assert.notMatch(__helpers.removeHtmlComments(code), /<h1.*style.*>/gi);
 ```
 
 `h1` 元素的字體顏色應爲橘色。
 
 ```js
-assert($('h1').css('color') === 'rgb(255, 165, 0)');
+const h1Element = document.querySelector('h1');
+const color = window.getComputedStyle(h1Element)['color']; 
+assert.strictEqual(color, 'rgb(255, 165, 0)');
 ```
 
 # --seed--

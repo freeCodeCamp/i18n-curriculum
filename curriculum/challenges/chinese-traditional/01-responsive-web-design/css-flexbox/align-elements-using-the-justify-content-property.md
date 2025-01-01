@@ -31,7 +31,10 @@ Sometimes the flex items within a flex container do not fill all the space in th
 `#box-container` 所選擇的元素應有 `justify-content` 屬性，且其屬性值應爲 `center`。
 
 ```js
-assert($('#box-container').css('justify-content') == 'center');
+const boxContainer = document.querySelector('#box-container');
+const justifyDirection =
+  window.getComputedStyle(boxContainer)['justify-content'];
+assert.strictEqual(justifyDirection, 'center');
 ```
 
 # --seed--

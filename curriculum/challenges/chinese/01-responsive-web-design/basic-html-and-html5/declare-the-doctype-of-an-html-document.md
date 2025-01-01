@@ -37,19 +37,19 @@ The challenges so far have covered specific HTML elements and their uses. Howeve
 网页中应包含 `<!DOCTYPE html>` 标签。
 
 ```js
-assert(code.match(/<!DOCTYPE\s+?html\s*?>/gi));
+assert.match(code,/<!DOCTYPE\s+?html\s*?>/gi);
 ```
 
 网页中应只存在一个 `html` 元素。
 
 ```js
-assert($('html').length == 1);
+assert.lengthOf(document.querySelectorAll('html'), 1);
 ```
 
 `h1` 元素应该位于 `html` 元素内部。
 
 ```js
-assert(code.match(/<html>\s*?<h1>\s*?.*?\s*?<\/h1>\s*?<\/html>/gi));
+assert.match(code,/<html>\s*?<h1>\s*?.*?\s*?<\/h1>\s*?<\/html>/gi);
 ```
 
 # --seed--

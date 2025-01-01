@@ -20,13 +20,17 @@ The `order` property is used to tell CSS the order of how flex items appear in t
 `#box-1` 元素应具有 `order` 属性，其属性值应为 `2`。
 
 ```js
-assert($('#box-1').css('order') == '2');
+const boxOne = document.querySelector('#box-1');
+const order = window.getComputedStyle(boxOne)['order'];
+assert.strictEqual(order, '2');
 ```
 
 `#box-2` 元素应具有 `order` 属性，其属性值应为 `1`。
 
 ```js
-assert($('#box-2').css('order') == '1');
+const boxTwo = document.querySelector('#box-2');
+const order = window.getComputedStyle(boxTwo)['order'];
+assert.strictEqual(order, '1');
 ```
 
 # --seed--

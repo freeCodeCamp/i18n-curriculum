@@ -36,33 +36,27 @@ p {
 h2 元素的字体应设置为 `Lobster`。
 
 ```js
-assert(
-  $('h2')
-    .css('font-family')
-    .match(/^"?lobster/i)
-);
+const h2Element = document.querySelector('h2');
+const fontFamily = window.getComputedStyle(h2Element)['font-family']; 
+assert.match(fontFamily, /^"?lobster/i);
 ```
 
 当 `Lobster` 字体失效时，h2 元素应该降级使用 `monospace` 字体。
 
 ```js
-assert(
-  /\s*h2\s*\{\s*font-family\s*\:\s*(\'|"|)Lobster\1\s*,\s*monospace\s*;?\s*\}/gi.test(
-    code
-  )
-);
+assert.match(__helpers.removeCssComments(code), /\s*h2\s*\{\s*font-family\s*\:\s*(\'|"|)Lobster\1\s*,\s*monospace\s*;?\s*\}/gi);
 ```
 
 通过添加`<!--`，注释掉 `Lobster` 字体的引入。
 
 ```js
-assert(new RegExp('<!--[^fc]', 'gi').test(code));
+assert.match(code, /<!--[^fc]/gi);
 ```
 
 确保注释要以 `-->` 结束。
 
 ```js
-assert(new RegExp('[^fc]-->', 'gi').test(code));
+assert.match(code, /[^fc]-->/gi);
 ```
 
 # --seed--

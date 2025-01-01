@@ -26,7 +26,7 @@ h1 {
 在 `style` 样式声明区域里，`p` 元素的 `font-size` 的值应为 `16px`。 请注意，浏览器和文本缩放应设置为 100％。
 
 ```js
-assert(code.match(/p\s*{\s*font-size\s*:\s*16\s*px\s*;\s*}/i));
+assert.match(__helpers.removeCssComments(code), /p\s*{\s*font-size\s*:\s*16\s*px\s*;\s*}/i);
 ```
 
 # --seed--

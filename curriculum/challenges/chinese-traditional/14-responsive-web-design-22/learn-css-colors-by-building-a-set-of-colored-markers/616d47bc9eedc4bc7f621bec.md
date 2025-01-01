@@ -1,6 +1,6 @@
 ---
 id: 616d47bc9eedc4bc7f621bec
-title: Step 10
+title: 步驟 10
 challengeType: 0
 dashedName: step-10
 ---
@@ -11,25 +11,25 @@ Next, within the `div` element, add another `div` element and give it a class of
 
 # --hints--
 
-Your new `div` element should have an opening tag.
+你的新 `div` 元素應該有一個開始標籤。
 
 ```js
 assert([...code.matchAll(/<div.*?>/gi)][1]);
 ```
 
-Your new `div` element should have a closing tag.
+你的新 `div` 元素應該有一個結束標籤。
 
 ```js
 assert([...code.matchAll(/<\/div\s*>/gi)][1]);
 ```
 
-You should nest your new `div` element within the `div` with the class `container`.
+你應該使用類 `container` 將新的 `div` 元素嵌套在 `div` 中。
 
 ```js
 assert(document.querySelector('.container')?.children[0]?.localName === 'div');
 ```
 
-You should give your new `div` element a class of `marker`.
+你應該給你的新 `div` 元素一個 `marker` 類。
 
 ```js
 const containerChildren = [...document.querySelector('.container')?.children];

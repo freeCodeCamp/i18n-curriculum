@@ -20,7 +20,9 @@ The last two challenges used the `flex-direction` property set to `row`. This pr
 `#box-container` 应有 `flex-direction` 属性，其属性值应为 `column`。
 
 ```js
-assert($('#box-container').css('flex-direction') == 'column');
+const boxContainer = document.querySelector('#box-container');
+const flexDirection = window.getComputedStyle(boxContainer)['flex-direction'];
+assert.strictEqual(flexDirection, 'column');
 ```
 
 # --seed--

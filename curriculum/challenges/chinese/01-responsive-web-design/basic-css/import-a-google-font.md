@@ -40,37 +40,29 @@ GENERIC_NAME 是可选的，它用来指明在其他字体不可用时的后备�
 应引入 `Lobster` 字体。
 
 ```js
-assert($('link[href*="googleapis" i]').length);
+assert.exists(document.querySelector('link[href*="googleapis" i]'));
 ```
 
 `h2` 元素应使用 `Lobster` 字体。
 
 ```js
-assert(
-  $('h2')
-    .css('font-family')
-    .match(/lobster/i)
-);
+const h2 = document.querySelector('h2'); 
+const fontFamily = window.getComputedStyle(h2)['font-family']; 
+assert.match(fontFamily, /lobster/i);
 ```
 
 应使用元素选择器（`h2`）来改变字体样式。
 
 ```js
-assert(
-  /\s*[^\.]h2\s*\{\s*font-family\s*:\s*('|"|)Lobster\1\s*(,\s*('|"|)[a-z -]+\3\s*)?(;\s*\}|\})/gi.test(
-    code
-  )
-);
+assert.match(__helpers.removeHtmlComments(code), /\s*[^\.]h2\s*\{\s*font-family\s*:\s*('|"|)Lobster\1\s*(,\s*('|"|)[a-z -]+\3\s*)?(;\s*\}|\})/gi);
 ```
 
 `p` 元素应保持使用 `monospace` 字体。
 
 ```js
-assert(
-  $('p')
-    .css('font-family')
-    .match(/monospace/i)
-);
+const paragraphElement = document.querySelector('p');
+const fontFamily = window.getComputedStyle(paragraphElement)['font-family']; 
+assert.match(fontFamily, /monospace/i);
 ```
 
 # --seed--

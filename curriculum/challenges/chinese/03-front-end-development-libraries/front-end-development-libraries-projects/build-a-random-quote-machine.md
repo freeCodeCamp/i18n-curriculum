@@ -37,7 +37,7 @@ dashedName: build-a-random-quote-machine
 
 **用户故事 #11：** `#quote-box` 包装元素应水平居中。 请在浏览器缩放级别为 100% 且页面最大化的情况下运行测试。
 
-你可以<a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">使用这份 CodePen 模版</a>来创建你的新项目，点击 `Save` 即可创建属于你自己的项目。 或者你可以在任何你喜欢的环境中使用以下 CDN 链接来运行测试：`https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`.
+You can build your project by <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">using this CodePen template</a> and clicking `Save` to create your own pen. If you prefer to use another environment, then put this `<script>` tag into the body of your `index.html` file: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
 
 当你完成了本项目并且该项目所有测试运行通过，请提交项目的 URL。
 

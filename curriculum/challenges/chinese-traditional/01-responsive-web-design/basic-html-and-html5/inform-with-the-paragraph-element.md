@@ -28,22 +28,20 @@ The `p` element is the preferred element for paragraph text on websites. `p` is 
 應包含一個 `p` 元素。
 
 ```js
-assert($('p').length > 0);
+assert.lengthOf(document.querySelectorAll('p'),1);
 ```
 
 `p` 元素的內容文本應爲 `Hello Paragraph`。
 
 ```js
-assert.isTrue(/hello(\s)+paragraph/gi.test($('p').text()));
+assert.match(document.querySelector('p').textContent,/hello(\s)+paragraph/gi);
 ```
 
 `p` 元素應有結束標籤。
 
 ```js
-assert(
-  code.match(/<\/p>/g) &&
-    code.match(/<\/p>/g).length === code.match(/<p/g).length
-);
+assert.match(code,/<\/p>/g);
+assert.strictEqual(code.match(/<\/p>/g).length,code.match(/<p/g).length);
 ```
 
 # --seed--

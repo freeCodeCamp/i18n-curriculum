@@ -30,7 +30,9 @@ Now let's put our Cat Photo App away for a little while and learn more about sty
 `blue-box` 这一 class 应将元素的 `padding` 值设置为 `20px`。
 
 ```js
-assert($('.blue-box').css('padding-top') === '20px');
+const blueBox = document.querySelector('.blue-box');
+const paddingTop = window.getComputedStyle(blueBox)['padding-top'];
+assert.strictEqual(paddingTop, '20px');
 ```
 
 # --seed--

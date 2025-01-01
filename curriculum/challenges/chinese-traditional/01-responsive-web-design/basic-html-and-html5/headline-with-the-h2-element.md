@@ -24,34 +24,32 @@ Over the next few lessons, we'll build an HTML5 cat photo web app piece-by-piece
 應創建一個 `h2` 元素。
 
 ```js
-assert($('h2').length > 0);
+assert.lengthOf(document.querySelectorAll('h2'),1);
 ```
 
 `h2` 元素應該有結束標籤。
 
 ```js
-assert(
-  code.match(/<\/h2>/g) &&
-    code.match(/<\/h2>/g).length === code.match(/<h2>/g).length
-);
+assert.match(code,/<\/h2>/g);
+assert.strictEqual(code.match(/<\/h2>/g).length,code.match(/<h2>/g).length);
 ```
 
 `h2` 元素的內容應爲：`CatPhotoApp`。
 
 ```js
-assert.isTrue(/cat(\s)?photo(\s)?app/gi.test($('h2').text()));
+assert.match(document.querySelector('h2').textContent,/cat(\s)?photo(\s)?app/gi);
 ```
 
 `h1` 元素的內容應爲：`Hello World`。
 
 ```js
-assert.isTrue(/hello(\s)+world/gi.test($('h1').text()));
+assert.match(document.querySelector('h1').textContent,/hello(\s)+world/gi);
 ```
 
 `h1` 元素應出現在 `h2` 元素之前。
 
 ```js
-assert(code.match(/<h1>\s*?.*?\s*?<\/h1>\s*<h2>\s*?.*?\s*?<\/h2>/gi));
+assert.match(code,/<h1>\s*?.*?\s*?<\/h1>\s*<h2>\s*?.*?\s*?<\/h2>/gi);
 ```
 
 # --seed--

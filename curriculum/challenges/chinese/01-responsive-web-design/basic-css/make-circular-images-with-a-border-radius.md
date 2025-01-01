@@ -20,13 +20,15 @@ In addition to pixels, you can also specify the `border-radius` using a percenta
 图片的边框圆角应设置为 `50%`，这样图片就会是圆形的。
 
 ```js
-assert(parseInt($('img').css('border-top-left-radius')) > 48);
+const image = document.querySelector('img');
+const borderTopLeftRadius = window.getComputedStyle(image)['border-top-left-radius'];
+assert.strictEqual(parseInt(borderTopLeftRadius), 50);
 ```
 
 `border-radius` 的值应为 `50%`。
 
 ```js
-assert(code.match(/50%/g));
+assert.match(__helpers.removeCssComments(code), /50%/g);
 ```
 
 # --seed--

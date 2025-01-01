@@ -29,7 +29,7 @@ dashedName: build-a-markdown-previewer
 
 **可选奖励（你不需要通过此测试）：** 我的 markdown 预览器解释回车符并将其呈现为 `br`（换行符）元素。
 
-你可以通过 <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">使用此 CodePen 模板</a> 并单击 `Save` 来创建你自己的笔，从而构建你的项目。 或者你可以在任何你喜欢的环境中使用以下 CDN 链接来运行测试：`https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`。
+You can build your project by <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">using this CodePen template</a> and clicking `Save` to create your own pen. If you prefer to use another environment, then put this `<script>` tag into the body of your `index.html` file: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
 
 当你完成了本项目，并且项目通过所有测试，请提交项目的 URL。
 

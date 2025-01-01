@@ -24,7 +24,7 @@ You can require specific form fields so that your user will not be able to submi
 `input` 元素应有 `required` 属性。
 
 ```js
-assert($('input').prop('required'));
+assert.isTrue(document.querySelector('input').required);
 ```
 
 # --seed--

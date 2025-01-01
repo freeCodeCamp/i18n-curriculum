@@ -26,49 +26,57 @@ Many people feel overwhelmed by the possibilities of more than 16 million colors
 文本內容爲 `I am red!` 的 `h1` 元素的字體顏色 `color` 應該爲紅色。
 
 ```js
-assert($('.red-text').css('color') === 'rgb(255, 0, 0)');
+const redText = document.querySelector('.red-text');
+const color = window.getComputedStyle(redText)['color']; 
+assert.strictEqual(color, 'rgb(255, 0, 0)');
 ```
 
 應使用紅色的縮寫十六進制代碼，而不是十六進制代碼 `#FF0000`。
 
 ```js
-assert(code.match(/\.red-text\s*?{\s*?color\s*:\s*?#F00\s*?;?\s*?}/gi));
+assert.match(code,/\.red-text\s*?{\s*?color\s*:\s*?#F00\s*?;?\s*?}/gi);
 ```
 
 文本內容爲 `I am green!` 的 `h1` 元素的字體顏色 `color` 應該爲綠色。
 
 ```js
-assert($('.green-text').css('color') === 'rgb(0, 255, 0)');
+const greenText = document.querySelector('.green-text');
+const color = window.getComputedStyle(greenText)['color']; 
+assert.strictEqual(color, 'rgb(0, 255, 0)');
 ```
 
 應使用綠色的縮寫十六進制代碼，而不是十六進制代碼 `#00FF00`。
 
 ```js
-assert(code.match(/\.green-text\s*?{\s*?color\s*:\s*?#0F0\s*?;?\s*?}/gi));
+assert.match(__helpers.removeCssComments(code), /\.green-text\s*?{\s*?color\s*:\s*?#0F0\s*?;?\s*?}/gi);
 ```
 
 文本內容爲 `I am cyan!` 的 `h1` 元素的字體顏色 `color` 應該爲藍綠色。
 
 ```js
-assert($('.cyan-text').css('color') === 'rgb(0, 255, 255)');
+const cyanText = document.querySelector('.cyan-text');
+const color = window.getComputedStyle(cyanText)['color']; 
+assert.strictEqual(color, 'rgb(0, 255, 255)');
 ```
 
 應使用青色的簡寫十六進制代碼，而不是十六進制代碼 `#00FFFF`。
 
 ```js
-assert(code.match(/\.cyan-text\s*?{\s*?color\s*:\s*?#0FF\s*?;?\s*?}/gi));
+assert.match(__helpers.removeCssComments(code), /\.cyan-text\s*?{\s*?color\s*:\s*?#0FF\s*?;?\s*?}/gi);
 ```
 
 文本內容爲 `I am fuchsia!` 的 `h1` 元素的字體顏色 `color` 應該爲紫紅色。
 
 ```js
-assert($('.fuchsia-text').css('color') === 'rgb(255, 0, 255)');
+const fuchsiaText = document.querySelector('.fuchsia-text');
+const color = window.getComputedStyle(fuchsiaText)['color']; 
+assert.strictEqual(color,'rgb(255, 0, 255)');
 ```
 
 應使用紫紅色的簡寫十六進制代碼，而不是十六進制代碼 `#FF00FF`。
 
 ```js
-assert(code.match(/\.fuchsia-text\s*?{\s*?color\s*:\s*?#F0F\s*?;?\s*?}/gi));
+assert.match(__helpers.removeCssComments(code), /\.fuchsia-text\s*?{\s*?color\s*:\s*?#F0F\s*?;?\s*?}/gi);
 ```
 
 # --seed--

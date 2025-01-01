@@ -28,31 +28,28 @@ Placeholder text is what is displayed in your `input` element before your user h
 給現有的 `input` 輸入框添加一個 `placeholder` 屬性。
 
 ```js
-assert($('input[placeholder]').length > 0);
+assert.notEmpty(document.querySelectorAll('input[placeholder]'));
 ```
 
 設置 `placeholder` 屬性的值爲 `cat photo URL`。
 
 ```js
-assert(
-  $('input') &&
-    $('input').attr('placeholder') &&
-    $('input')
-      .attr('placeholder')
-      .match(/cat\s+photo\s+URL/gi)
-);
+assert.exists(document.querySelector('input'));
+assert.exists(document.querySelector('input').getAttribute('placeholder'));
+const placeholder = document.querySelector('input').getAttribute('placeholder');
+assert.match(placeholder,/cat\s+photo\s+URL/gi);
 ```
 
 `input` 元素不該有結束標籤。
 
 ```js
-assert(!code.match(/<input.*\/?>.*<\/input>/gi));
+assert.notMatch(code,/<input.*\/?>.*<\/input>/gi);
 ```
 
 `input` 輸入框的語法必須正確。
 
 ```js
-assert($('input[type=text]').length > 0);
+assert.notEmpty(document.querySelectorAll('input[type=text]'));
 ```
 
 # --seed--

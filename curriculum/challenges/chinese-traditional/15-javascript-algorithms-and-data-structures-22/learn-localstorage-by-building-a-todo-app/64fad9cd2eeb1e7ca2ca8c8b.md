@@ -7,7 +7,7 @@ dashedName: step-37
 
 # --description--
 
-使用箭頭語法創建 `updateTaskContainer` 函數。 然後將 `taskData.forEach()` 及其內容移入其中。
+使用箭頭語法創建 `updateTaskContainer` 函數。 Then move the `taskData.forEach()` and its content from the `taskForm`'s `submit` event listener into the newly created function.
 
 # --hints--
 
@@ -20,7 +20,7 @@ assert.match(code, /const\s+updateTaskContainer\s*=\s*\(\s*\)\s*=>\s*\{/)
 你應該將 `taskData.forEach()` 及其內容移至 `updateTaskContainer()` 函數中。
 
 ```js
-assert.match(code, /const\s+updateTaskContainer\s*=\s*\(\s*\)\s*=>\s*\{\s*taskData\.forEach\(\s*\(\s*\{\s*id\s*,\s*title\s*,\s*date\s*,\s*description\s*\}\s*\)\s*=>\s*{\s*tasksContainer\.innerHTML\s*\+=\s*`\s*<div\s+class\s*=\s*('|")task\1\s*id\s*=\s*('|")\$\{id\}\2>\s*<p><strong>Title:<\/strong>\s*\$\{title\}<\/p>\s*<p><strong>Date:<\/strong>\s*\$\{date\}<\/p>\s*<p><strong>Description:<\/strong>\s*\$\{description\}<\/p>\s*<button\s+type\s*=\s*('|")button\3\s*class\s*=\s*('|")btn\4>Edit<\/button>\s*<button\s+type\s*=\s*('|")button\5\s*class\s*=\s*('|")btn\6>Delete<\/button>\s*<\/div>\s*`\s*}\s*\)\s*;?\s*\}\s*;?/)
+assert.match(code, /const\s+updateTaskContainer\s*=\s*\(\s*\)\s*=>\s*\{\s*taskData\.forEach\(\s*\(\s*\{\s*id\s*,\s*title\s*,\s*date\s*,\s*description\s*\}\s*\)\s*=>\s*{\s*tasksContainer\.innerHTML\s*\+=\s*`\s*<div\s+class\s*=\s*('|")task\1\s*id\s*=\s*('|")\$\{id\}\2>\s*<p><strong>Title:<\/strong>\s*\$\{title\}<\/p>\s*<p><strong>Date:<\/strong>\s*\$\{date\}<\/p>\s*<p><strong>Description:<\/strong>\s*\$\{description\}<\/p>\s*<button\s+type\s*=\s*('|")button\3\s*class\s*=\s*('|")btn\4>Edit<\/button>\s*<button\s+type\s*=\s*('|")button\5\s*class\s*=\s*('|")btn\6>Delete<\/button>\s*<\/div>\s*`;?\s*}\s*\)\s*;?\s*\}\s*;?/)
 ```
 
 # --seed--

@@ -1,7 +1,7 @@
 ---
 id: bd7158d8c442eddfaeb5bd18
 title: 製作一個致敬頁
-challengeType: 14
+challengeType: 25
 demoType: onClick
 dashedName: build-a-tribute-page
 ---
@@ -29,111 +29,125 @@ Fulfill the user stories below and get all the tests to pass to complete the lab
 你的頁面應該包含一個 `main` 元素，且它有一個值爲`main` 的`id`屬性。
 
 ```js
-const el = document.getElementById('main')
-assert(!!el && el.tagName === 'MAIN')
+const el = document.getElementById('main');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'MAIN');
 ```
 
 你的 `#img-div`、`#image`、`#img-caption`、`#tribute-info` 和 `#tribute-link` 應該是 `#main` 的子元素。
 
 ```js
-const el1 = document.querySelector('#main #img-div')
-const el2 = document.querySelector('#main #image')
-const el3 = document.querySelector('#main #img-caption')
-const el4 = document.querySelector('#main #tribute-info')
-const el5 = document.querySelector('#main #tribute-link')
-assert(!!el1 & !!el2 && !!el3 && !!el4 && !!el5)
+const el1 = document.querySelector('#main #img-div');
+const el2 = document.querySelector('#main #image');
+const el3 = document.querySelector('#main #img-caption');
+const el4 = document.querySelector('#main #tribute-info');
+const el5 = document.querySelector('#main #tribute-link');
+assert.isNotNull(el1);
+assert.isNotNull(el2);
+assert.isNotNull(el3);
+assert.isNotNull(el4);
+assert.isNotNull(el5);
 ```
 
 你應該有一個 `id` 爲 `title` 的元素。
 
 ```js
-const el = document.getElementById('title')
-assert(!!el)
+const el = document.getElementById('title');
+assert.isNotNull(el);
 ```
 
 你的 `#title` 元素不應爲空。
 
 ```js
-const el = document.getElementById('title')
-assert(!!el && el.innerText.length > 0)
-
+const el = document.getElementById('title');
+assert.isNotNull(el);
+assert.isNotEmpty(el.innerText, 0);
 ```
 
 你應該有一個 `id` 爲 `img-div` 的 `figure` 或 `div` 元素。
 
 ```js
-const el = document.getElementById('img-div')
-assert(!!el && (el.tagName === 'DIV' || el.tagName === 'FIGURE'))
+const el = document.getElementById('img-div');
+assert.isNotNull(el);
+assert.isTrue(el.tagName === 'DIV' || el.tagName === 'FIGURE');
 ```
 
 你應該有一個 `id` 爲 `image` 的 `img` 元素。
 
 ```js
-const el = document.getElementById('image')
-assert(!!el && el.tagName === 'IMG')
+const el = document.getElementById('image');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'IMG');
 ```
 
 你的 `#image` 元素應該是 `#img-div` 元素的子元素。
 
 ```js
-const el = document.querySelector('#img-div #image')
-assert(!!el)
+const el = document.querySelector('#img-div #image');
+assert.isNotNull(el);
 ```
 
 你應該有一個 `id` 爲 `img-caption` 的 `figcaption` 元素或 `div` 元素。
 
 ```js
-const el = document.getElementById('img-caption')
-assert(!!el && (el.tagName === 'DIV' || el.tagName === 'FIGCAPTION'))
+const el = document.getElementById('img-caption');
+assert.isNotNull(el);
+assert.isTrue(el.tagName === 'DIV' || el.tagName === 'FIGCAPTION');
 ```
 
 你的 `#img-caption` 元素應該是 `#img-div` 元素的子元素。
 
 ```js
-const el = document.querySelector('#img-div #img-caption')
-assert(!!el)
+const el = document.querySelector('#img-div #img-caption');
+assert.isNotNull(el);
 ```
 
 你的 `#img-caption` 不應爲空。
 
 ```js
-const el = document.getElementById('img-caption')
-assert(!!el && el.innerText.length > 0)
+const el = document.getElementById('img-caption');
+assert.isNotNull(el);
+assert.isNotEmpty(el.innerText);
 ```
 
 你應該有一個 `id` 爲 `tribute-info` 的元素。
 
 ```js
-const el = document.getElementById('tribute-info')
-assert(!!el)
+const el = document.getElementById('tribute-info');
+assert.isNotNull(el);
 ```
 
 你的 `#tribute-info` 不應爲空。
 
 ```js
-const el = document.getElementById('tribute-info')
-assert(!!el && el.innerText.length > 0)
+const el = document.getElementById('tribute-info');
+assert.isNotNull(el);
+assert.isNotEmpty(el.innerText);
 ```
 
 你應該有一個 `id` 爲 `tribute-link` 的 `a` 元素。
 
 ```js
-const el = document.getElementById('tribute-link')
-assert(!!el && el.tagName === 'A')
+const el = document.getElementById('tribute-link');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'A');
 ```
 
 你的 `#tribute-link` 應該有一個 `href` 屬性和值。
 
 ```js
-const el = document.getElementById('tribute-link')
-assert(!!el && !!el.href && el.href.length > 0)
+const el = document.getElementById('tribute-link');
+assert.isNotNull(el);
+assert.isNotNull(el.href);
+assert.isNotEmpty(el.href);
 ```
 
 你的 `#tribute-link` 元素應該有一個值爲 `_blank` 的 `target` 屬性。
 
 ```js
-const el = document.getElementById('tribute-link')
-assert(!!el && el.target === '_blank')
+const el = document.getElementById('tribute-link');
+assert.isNotNull(el);
+assert.strictEqual(el.target, '_blank');
 ```
 
 你的 `img` 元素應該具有 `display` 值爲 `block`。
@@ -141,8 +155,8 @@ assert(!!el && el.target === '_blank')
 ```js
 const img = document.getElementById('image');
 const imgStyle = window.getComputedStyle(img);
-const style = imgStyle?.getPropertyValue('display')
-assert(style === 'block')
+const style = imgStyle?.getPropertyValue('display');
+assert.strictEqual(style, 'block');
 ```
 
 你的 `#image` 應該具有 `max-width` 值爲 `100%`。
@@ -150,8 +164,8 @@ assert(style === 'block')
 ```js
 const img = document.getElementById('image');
 const imgStyle = window.getComputedStyle(img);
-const style = imgStyle?.getPropertyValue('max-width')
-assert(style === '100%')
+const style = imgStyle?.getPropertyValue('max-width');
+assert.strictEqual(style, '100%');
 ```
 
 你的 `#image` 應該具有 `height` 值爲 `auto`。
@@ -163,9 +177,9 @@ const imgStyle = window.getComputedStyle(img);
 const oldDisplayValue = imgStyle.getPropertyValue('display');
 const oldDisplayPriority = imgStyle.getPropertyPriority('display');
 img?.style.setProperty('display', 'none', 'important');
-const heightValue = imgStyle?.getPropertyValue('height')
+const heightValue = imgStyle?.getPropertyValue('height');
 img?.style.setProperty('display', oldDisplayValue, oldDisplayPriority);
-assert(heightValue === 'auto')
+assert.strictEqual(heightValue, 'auto');
 ```
 
 你的 `#image` 元素應該在其父元素內居中。
@@ -180,7 +194,8 @@ const img = document.getElementById('image'),
   parentRight = imgParent?.getBoundingClientRect().right,
   leftMargin = imgLeft - parentLeft,
   rightMargin = parentRight - imgRight;
-assert(leftMargin - rightMargin < 6 && rightMargin - leftMargin < 6)
+assert.isBelow(leftMargin - rightMargin, 6);
+assert.isBelow(rightMargin - leftMargin, 6);
 ```
 
 # --seed--
@@ -190,16 +205,12 @@ assert(leftMargin - rightMargin < 6 && rightMargin - leftMargin < 6)
 ```html
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Tribute Page</title>
-</head>
+  </head>
 
-<body>
-
-</body>
-
+  <body></body>
 </html>
 ```
 
@@ -253,7 +264,7 @@ assert(leftMargin - rightMargin < 6 && rightMargin - leftMargin < 6)
             <strong>1938</strong> - Marries wife of 69 years Margret Gibson.
             Gets laid off due to budget cuts. Inspired by Elvin Charles Stakman,
             he returns to school study under Stakman, who teaches him about
-            breeding pest-resistent plants.
+            breeding pest-resistant plants.
           </li>
           <li>
             <strong>1941</strong> - Tries to enroll in the military after the
@@ -269,7 +280,7 @@ assert(leftMargin - rightMargin < 6 && rightMargin - leftMargin < 6)
             <strong>1944</strong> - Rejects a 100% salary increase from Dupont,
             leaves behind his pregnant wife, and flies to Mexico to head a new
             plant pathology program. Over the next 16 years, his team breeds
-            6,000 different strains of disease resistent wheat - including
+            6,000 different strains of disease resistant wheat - including
             different varieties for each major climate on Earth.
           </li>
           <li>

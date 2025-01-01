@@ -24,13 +24,17 @@ So far, all the properties in the challenges apply to the flex container (the pa
 `#box-1` 元素应具有 `flex-shrink` 属性，其属性值应为 `1`。
 
 ```js
-assert($('#box-1').css('flex-shrink') == '1');
+const boxOne = document.querySelector('#box-1');
+const flexShrink = window.getComputedStyle(boxOne)['flex-shrink'];
+assert.equal(flexShrink, '1');
 ```
 
 `#box-2` 元素应具有 `flex-shrink` 属性，其属性值应为 `2`。
 
 ```js
-assert($('#box-2').css('flex-shrink') == '2');
+const boxTwo = document.querySelector('#box-2');
+const flexShrink = window.getComputedStyle(boxTwo)['flex-shrink'];
+assert.equal(flexShrink, '2');
 ```
 
 # --seed--

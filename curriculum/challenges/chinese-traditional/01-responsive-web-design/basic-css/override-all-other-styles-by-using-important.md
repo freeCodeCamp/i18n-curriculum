@@ -32,39 +32,41 @@ color: red !important;
 `h1` 元素應包含 `pink-text` class。
 
 ```js
-assert($('h1').hasClass('pink-text'));
+assert.isTrue(document.querySelector('h1').classList.contains('pink-text'));
 ```
 
 `h1` 元素應包含 `blue-text` class。
 
 ```js
-assert($('h1').hasClass('blue-text'));
+assert.isTrue(document.querySelector('h1').classList.contains('blue-text'));
 ```
 
 `h1` 元素應有 `id`， 值爲 `orange-text`。
 
 ```js
-assert($('h1').attr('id') === 'orange-text');
+assert.strictEqual(document.querySelector('h1').getAttribute('id'), 'orange-text');
 ```
 
 `h1` 元素應有一個內聯樣式 `color: white`。
 
 ```js
-assert(code.match(/<h1.*style/gi) && code.match(/<h1.*style.*color\s*?:/gi));
+const commentessCode = __helpers.removeHtmlComments(code);
+assert.match(commentessCode, /<h1.*style/gi);
+assert.match(commentessCode, /<h1.*style.*color\s*?:/gi);
 ```
 
 `pink-text` class 應有 `!important` 關鍵詞 ，以覆蓋其他聲明。
 
 ```js
-assert(
-  code.match(/\.pink-text\s*?\{[\s\S]*?color:.*pink.*!important\s*;?[^\.]*\}/g)
-);
+assert.match(__helpers.removeCssComments(code), /\.pink-text\s*?\{[\s\S]*?color:.*pink.*!important\s*;?[^\.]*\}/g);
 ```
 
 `h1` 元素應爲粉紅色。
 
 ```js
-assert($('h1').css('color') === 'rgb(255, 192, 203)');
+const h1Element = document.querySelector('h1');
+const color = window.getComputedStyle(h1Element)['color'];
+assert.strictEqual(color, 'rgb(255, 192, 203)');
 ```
 
 # --seed--

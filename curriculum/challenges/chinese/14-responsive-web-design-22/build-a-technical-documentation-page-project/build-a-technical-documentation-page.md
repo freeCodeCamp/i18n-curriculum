@@ -8,7 +8,7 @@ dashedName: build-a-technical-documentation-page
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to <a href="https://technical-documentation-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://technical-documentation-page.freecodecamp.rocks</a>. **Do not copy this demo project**.
+**Objective:** Build an app that is functionally similar to <a href="https://technical-documentation-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://technical-documentation-page.freecodecamp.rocks</a>. **请勿复制此演示项目**。
 
 **用户需求:**
 
@@ -37,141 +37,147 @@ dashedName: build-a-technical-documentation-page
 你应该有一个 `id` 为 `main-doc` 的 `main` 元素。
 
 ```js
-const el = document.getElementById('main-doc')
-assert(!!el)
+const el = document.getElementById('main-doc');
+assert.isNotNull(el);
 ```
 
 你至少应该有 5 个 class 为 `main-section` 的 `section` 元素。
 
 ```js
-const els = document.querySelectorAll('#main-doc section')
-assert(els.length >= 5)
+const els = document.querySelectorAll('#main-doc section');
+assert.isAtLeast(els.length, 5);
 ```
 
 你所有的 `.main-section` 元素都应该是 `section` 元素。
 
 ```js
-const els = document.querySelectorAll('.main-section')
+const els = document.querySelectorAll('.main-section');
 els.forEach(el => {
-  if (el.tagName !== 'SECTION') assert(false)
-})
-assert(els.length > 0)
+  if (el.tagName !== 'SECTION') {
+    assert.fail();
+  }
+});
+assert.isAbove(els.length, 0);
 ```
 
 你至少应该有 5 个 `.main-section` 元素，它们是 `#main-doc` 的子元素。
 
 ```js
-const els = document.querySelectorAll('#main-doc .main-section')
-assert(els.length >= 5)
+const els = document.querySelectorAll('#main-doc .main-section');
+assert.isAtLeast(els.length, 5);
 ```
 
 每个 `.main-section` 的第一个子元素都应该是一个 `header` 元素。
 
 ```js
-const els = document.querySelectorAll('.main-section')
+const els = document.querySelectorAll('.main-section');
 els.forEach(el => {
-  if(el.firstElementChild?.tagName !== 'HEADER') assert(false)
-})
-assert(els.length > 0)
+  if (el.firstElementChild?.tagName !== 'HEADER') assert.fail();
+});
+assert.isNotEmpty(els);
 ```
 
 你的 `header` 元素不应为空。
 
 ```js
-const els = document.querySelectorAll('header')
+const els = document.querySelectorAll('header');
 els.forEach(el => {
-  if (el.innerText?.length <= 0) assert(false)
-})
-assert(els.length > 0)
+  if (el.innerText?.length <= 0) assert.fail();
+});
+assert.isNotEmpty(els);
 ```
 
 你所有的 `.main-section` 元素都应该有 `id`。
 
 ```js
-const els = document.querySelectorAll('.main-section')
+const els = document.querySelectorAll('.main-section');
 els.forEach(el => {
-  if (!el.id || el.id === '') assert(false)
-})
-assert(els.length > 0)
+  if (!el.id || el.id === '') assert.fail();
+});
+assert.isNotEmpty(els);
 ```
 
 每个 `.main-section` 都应该有一个与其第一个子元素的文本匹配的 `id`，把子元素的文本中的空格都替换为下划线（`_`）用于 id。
 
 ```js
-const els = document.querySelectorAll('.main-section')
+const els = document.querySelectorAll('.main-section');
 els.forEach(el => {
-  const text = el.firstElementChild?.innerText?.replaceAll(' ', '_')
-  if (el.id?.toUpperCase() !== text?.toUpperCase()) assert(false)
-})
-assert(els.length > 0)
+  const text = el.firstElementChild?.innerText?.replaceAll(' ', '_');
+  if (el.id?.toUpperCase() !== text?.toUpperCase()) assert.fail();
+});
+assert.isNotEmpty(els);
 ```
 
 在你的 `.main-section` 元素中总计应有至少 10 个 `p` 元素
 
 ```js
-const els = document.querySelectorAll('.main-section p')
-assert(els.length >= 10)
+const els = document.querySelectorAll('.main-section p');
+assert.isAtLeast(els.length, 10);
 ```
 
 所有 `.main-section` 元素内总计应有至少 5 个 `code` 元素。
 
 ```js
-const els = document.querySelectorAll('.main-section code')
-assert(els.length >= 5)
+const els = document.querySelectorAll('.main-section code');
+assert.isAtLeast(els.length, 5);
 ```
 
 所有 `.main-section` 元素内总计应有至少 5 个 `li` 元素。
 
 ```js
-const els = document.querySelectorAll('.main-section li')
-assert(els.length >= 5)
+const els = document.querySelectorAll('.main-section li');
+assert.isAtLeast(els.length, 5);
 ```
 
 你应该有一个 `id` 为 `navbar` 的 `nav` 元素。
 
 ```js
-const el = document.getElementById('navbar')
-assert(!!el && el.tagName === 'NAV')
+const el = document.getElementById('navbar');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'NAV');
 ```
 
 你的 `#navbar` 应该只有一个 `header` 元素。
 
 ```js
-const els = document.querySelectorAll('#navbar header')
-assert(els.length === 1)
+const els = document.querySelectorAll('#navbar header');
+assert.lengthOf(els, 1);
 ```
 
 你应该至少有一个 class 为 `nav-link` 的 `a` 元素。
 
 ```js
-const els = document.querySelectorAll('a.nav-link')
-assert(els.length >= 1)
+const els = document.querySelectorAll('a.nav-link');
+assert.isAtLeast(els.length, 1);
 ```
 
 你所有的 `.nav-link` 元素都应该是锚元素（`a`）。
 
 ```js
-const els = document.querySelectorAll('.nav-link')
+const els = document.querySelectorAll('.nav-link');
 els.forEach(el => {
-  if (el.tagName !== 'A') assert(false)
-})
-assert(els.length > 0)
+  if (el.tagName !== 'A') assert.fail();
+});
+assert.isNotEmpty(els);
 ```
 
 你所有的 `.nav-link` 元素都应该在 `#navbar` 中。
 
 ```js
-const els1 = document.querySelectorAll('.nav-link')
-const els2 = document.querySelectorAll('#navbar .nav-link')
-assert(els2.length > 0 && els1.length === els2.length)
+const els1 = document.querySelectorAll('.nav-link');
+const els2 = document.querySelectorAll('#navbar .nav-link');
+assert.isNotEmpty(els2);
+assert.strictEqual(els1.length, els2.length);
 ```
 
 你应该有相同数量的 `.nav-link` 和 `.main-section` 元素。
 
 ```js
-const els1 = document.querySelectorAll('.main-section')
-const els2 = document.querySelectorAll('.nav-link')
-assert(els1.length > 0 && els2.length > 0 && els1.length === els2.length)
+const els1 = document.querySelectorAll('.main-section');
+const els2 = document.querySelectorAll('.nav-link');
+assert.isNotEmpty(els1);
+assert.isNotEmpty(els2);
+assert.strictEqual(els1.length, els2.length);
 ```
 
 `#navbar` 中的 `header` 元素必须在 `#navbar` 中的任何链接（`a`）之前。
@@ -179,54 +185,66 @@ assert(els1.length > 0 && els2.length > 0 && els1.length === els2.length)
 ```js
 const navLinks = document.querySelectorAll('#navbar a.nav-link');
 const header = document.querySelector('#navbar header');
-navLinks.forEach((navLink) => {
+navLinks.forEach(navLink => {
   if (
-    (
-      header.compareDocumentPosition(navLink) &
-      Node.DOCUMENT_POSITION_PRECEDING
-    ) 
-  ) assert(false)
+    header.compareDocumentPosition(navLink) & Node.DOCUMENT_POSITION_PRECEDING
+  )
+    assert.fail();
 });
-assert(!!header)
+assert.isNotNull(header);
 ```
 
 每个 `.nav-link` 应该有与其相关 `section` 的 `header` 文本相对应的文本（例如，如果你有一个 “Hello world” 部分/标题，你的 `#navbar` 应该有一个 `.nav-link` 包含文本 “Hello world”）。
 
 ```js
-const headerText = Array.from(document.querySelectorAll('.main-section')).map(el =>
-  el.firstElementChild?.innerText?.trim().toUpperCase()
-)
+const headerText = Array.from(document.querySelectorAll('.main-section')).map(
+  el => el.firstElementChild?.innerText?.trim().toUpperCase()
+);
 const linkText = Array.from(document.querySelectorAll('.nav-link')).map(el =>
   el.innerText?.trim().toUpperCase()
-)
-const remainder = headerText.filter(str => linkText.indexOf(str) === -1)
-assert(headerText.length > 0 && linkText.length > 0 && remainder.length === 0)
+);
+const remainder = headerText.filter(str => linkText.indexOf(str) === -1);
+
+assert.isNotEmpty(headerText);
+assert.isNotEmpty(linkText);
+assert.isEmpty(remainder);
 ```
 
 每个 `.nav-link` 都应该有一个 `href` 属性，该属性链接到其对应的 `.main-section`（例如，如果你单击包含文本 “Hello world” 的 `.nav-link` 元素，页面导航到具有该 id 的 `section` 元素）。
 
 ```js
-const hrefValues = Array.from(document.querySelectorAll('.nav-link')).map(el => el.getAttribute('href'))
-const mainSectionIDs = Array.from(document.querySelectorAll('.main-section')).map(el => el.id)
-const missingHrefValues = mainSectionIDs.filter(str => hrefValues.indexOf('#' + str) === -1)
-assert(hrefValues.length > 0 && mainSectionIDs.length > 0 && missingHrefValues.length === 0)
+const hrefValues = Array.from(document.querySelectorAll('.nav-link')).map(el =>
+  el.getAttribute('href')
+);
+const mainSectionIDs = Array.from(
+  document.querySelectorAll('.main-section')
+).map(el => el.id);
+const missingHrefValues = mainSectionIDs.filter(
+  str => hrefValues.indexOf('#' + str) === -1
+);
+assert.isNotEmpty(hrefValues);
+assert.isNotEmpty(mainSectionIDs);
+assert.isEmpty(missingHrefValues, 0);
 ```
 
 你的 `#navbar` 元素应该始终位于视口的顶部。
 
 ```js
-const el = document.getElementById('navbar')
-const left1 = el?.offsetLeft
-const left2 = el?.offsetLeft
-assert(!!el && left1 >= -15 && left1 <= 15 && left2 >= -15 && left2 <= 15)
+const el = document.getElementById('navbar');
+const left1 = el?.offsetLeft;
+assert.isNotNull(el);
+assert.isAtLeast(left1, -15);
+assert.isAtMost(left1, 15);
 ```
 
 你的技术文档项目应该使用至少一个媒体查询。
 
 ```js
-const htmlSourceAttr = Array.from(document.querySelectorAll('source')).map(el => el.getAttribute('media'))
-const cssCheck = new __helpers.CSSHelp(document).getCSSRules('media')
-assert(cssCheck.length > 0 || htmlSourceAttr.length > 0);
+const htmlSourceAttr = Array.from(document.querySelectorAll('source')).map(el =>
+  el.getAttribute('media')
+);
+const cssCheck = new __helpers.CSSHelp(document).getCSSRules('media');
+assert.isTrue(cssCheck.length > 0 || htmlSourceAttr.length > 0);
 ```
 
 # --seed--
@@ -501,7 +519,7 @@ a:hover {
   left: -5px;
   padding: 5px;
   text-align: center;
-  color: #92869c
+  color: #92869c;
 }
 @media (min-width: 480px) {
   #navbar {
@@ -510,7 +528,7 @@ a:hover {
 }
 main {
   margin-left: 220px;
-  color: #92869c
+  color: #92869c;
 }
 header {
   font-size: 20pt;

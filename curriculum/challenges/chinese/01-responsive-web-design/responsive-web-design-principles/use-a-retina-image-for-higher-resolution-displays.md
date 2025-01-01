@@ -15,9 +15,12 @@ With the increase of internet connected devices, their sizes and specifications 
 
 ```html
 <style>
-  img { height: 250px; width: 250px; }
+  img {
+    height: 250px;
+    width: 250px;
+  }
 </style>
-<img src="coolPic500x500" alt="A most excellent picture">
+<img src="coolPic500x500" alt="A most excellent picture" />
 ```
 
 # --instructions--
@@ -29,13 +32,13 @@ With the increase of internet connected devices, their sizes and specifications 
 `img` 标签的 `width` 属性值应为 100px。
 
 ```js
-assert(document.querySelector('img').width === 100);
+assert.strictEqual(document.querySelector('img').width, 100);
 ```
 
 `img` 标签的 `height` 属性值应为 100px。
 
 ```js
-assert(document.querySelector('img').height === 100);
+assert.strictEqual(document.querySelector('img').height, 100);
 ```
 
 # --seed--
@@ -43,22 +46,26 @@ assert(document.querySelector('img').height === 100);
 ## --seed-contents--
 
 ```html
-<style>
+<style></style>
 
-</style>
-
-<img src="https://cdn.freecodecamp.org/curriculum/responsive-web-design-principles/FCCStickers-CamperBot200x200.jpg" alt="freeCodeCamp sticker that says 'Because CamperBot Cares'">
+<img
+  src="https://cdn.freecodecamp.org/curriculum/responsive-web-design-principles/FCCStickers-CamperBot200x200.jpg"
+  alt="freeCodeCamp sticker that says 'Because CamperBot Cares'"
+/>
 ```
 
 # --solutions--
 
 ```html
 <style>
-  img { 
-    height: 100px; 
-    width: 100px; 
+  img {
+    height: 100px;
+    width: 100px;
   }
 </style>
 
-<img src="https://cdn.freecodecamp.org/curriculum/responsive-web-design-principles/FCCStickers-CamperBot200x200.jpg" alt="freeCodeCamp sticker that says 'Because CamperBot Cares'">
+<img
+  src="https://cdn.freecodecamp.org/curriculum/responsive-web-design-principles/FCCStickers-CamperBot200x200.jpg"
+  alt="freeCodeCamp sticker that says 'Because CamperBot Cares'"
+/>
 ```

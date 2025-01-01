@@ -22,25 +22,19 @@ dashedName: use-css-variables-to-change-several-elements-at-once
 应在 `penguin` class 里声明 `--penguin-skin` 变量，且赋值为 `gray`。
 
 ```js
-assert(
-  code.match(/.penguin\s*?{[\s\S]*--penguin-skin\s*?:\s*?gray\s*?;[\s\S]*}/gi)
-);
+assert.match(__helpers.removeHtmlComments(code), /.penguin\s*?{[\s\S]*--penguin-skin\s*?:\s*?gray\s*?;[\s\S]*}/gi);
 ```
 
 `penguin` class 声明中的 `--penguin-belly` 变量值应为 `white`。
 
 ```js
-assert(
-  code.match(/.penguin\s*?{[\s\S]*--penguin-belly\s*?:\s*?white\s*?;[\s\S]*}/gi)
-);
+assert.match(code, /.penguin\s*?{[\s\S]*--penguin-belly\s*?:\s*?white\s*?;[\s\S]*}/gi);
 ```
 
 `penguin` class 声明中的 `--penguin-beak` 变量值应为 `orange`。
 
 ```js
-assert(
-  code.match(/.penguin\s*?{[\s\S]*--penguin-beak\s*?:\s*?orange\s*?;[\s\S]*}/gi)
-);
+assert.match(code, /.penguin\s*?{[\s\S]*--penguin-beak\s*?:\s*?orange\s*?;[\s\S]*}/gi);
 ```
 
 # --seed--

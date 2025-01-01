@@ -30,7 +30,7 @@ In addition to classes, each HTML element can also have an `id` attribute.
 `form` 元素的 id 应为 `cat-photo-form`。
 
 ```js
-assert($('form').attr('id') === 'cat-photo-form');
+assert.strictEqual(document.querySelector('form').getAttribute('id'), 'cat-photo-form');
 ```
 
 # --seed--

@@ -8,7 +8,7 @@ dashedName: build-a-survey-form
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to <a href="https://survey-form.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://survey-form.freecodecamp.rocks</a>. **Do not copy this demo project**.
+**Objective:** Build an app that is functionally similar to <a href="https://survey-form.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://survey-form.freecodecamp.rocks</a>. **请勿复制此演示项目**。
 
 **用户需求:**
 
@@ -38,327 +38,368 @@ dashedName: build-a-survey-form
 你应该有一个 `id` 为 `title` 的 `h1` 元素。
 
 ```js
-const el = document.getElementById('title')
-assert(!!el && el.tagName === 'H1')
+const el = document.getElementById('title');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'H1');
 ```
 
 你的 `#title` 元素不应为空。
 
 ```js
-const el = document.getElementById('title')
-assert(!!el && el.innerText.length > 0)
+const el = document.getElementById('title');
+assert.isNotNull(el);
+assert.isAbove(el.innerText.length, 0);
 ```
 
 你应该有一个 `id` 为 `description` 的 `p` 元素。
 
 ```js
-const el = document.getElementById('description')
-assert(!!el && el.tagName === 'P')
+const el = document.getElementById('description');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'P');
 ```
 
 你的 `#description` 不应为空。
 
 ```js
-const el = document.getElementById('description')
-assert(!!el && el.innerText.length > 0)
+const el = document.getElementById('description');
+assert.isNotNull(el);
+assert.isAbove(el.innerText.length, 0);
 ```
 
 你应该有一个 `id` 为 `survey-form` 的 `form` 元素。
 
 ```js
-const el = document.getElementById('survey-form')
-assert(!!el && el.tagName === 'FORM')
+const el = document.getElementById('survey-form');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'FORM');
 ```
 
 你应该有一个 `id` 为 `name` 的 `input` 元素。
 
 ```js
-const el = document.getElementById('name')
-assert(!!el && el.tagName === 'INPUT')
+const el = document.getElementById('name');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'INPUT');
 ```
 
 你的 `#name` 元素应该具有 `type` 为 `text`。
 
 ```js
-const el = document.getElementById('name')
-assert(!!el && el.type === 'text')
+const el = document.getElementById('name');
+assert.isNotNull(el);
+assert.strictEqual(el.type, 'text');
 ```
 
 你的 `#name` 元素应该在表单中是必填项。
 
 ```js
-const el = document.getElementById('name')
-assert(!!el && el.required)
+const el = document.getElementById('name');
+assert.isNotNull(el);
+assert.isTrue(el.required);
 ```
 
 你的 `#name` 元素应该是 `#survey-form` 元素的子元素。
 
 ```js
-const el = document.querySelector('#survey-form #name')
-assert(!!el)
+const el = document.querySelector('#survey-form #name');
+assert.isNotNull(el);
 ```
 
 你应该有一个 `id` 为 `email` 的 `input` 元素。
 
 ```js
-const el = document.getElementById('email')
-assert(!!el && el.tagName === 'INPUT')
+const el = document.getElementById('email');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'INPUT');
 ```
 
 你的 `#email` 元素应该具有 `type` 为 `email`。
 
 ```js
-const el = document.getElementById('email')
-assert(!!el && el.type === 'email')
+const el = document.getElementById('email');
+assert.isNotNull(el);
+assert.strictEqual(el.type, 'email');
 ```
 
 你的 `#email` 元素应该需要输入。
 
 ```js
-const el = document.getElementById('email')
-assert(!!el && el.required)
+const el = document.getElementById('email');
+assert.isNotNull(el);
+assert.isTrue(el.required);
 ```
 
 你的 `#email` 元素应该是 `#survey-form` 元素的子元素。
 
 ```js
-const el = document.querySelector('#survey-form #email')
-assert(!!el)
+const el = document.querySelector('#survey-form #email');
+assert.isNotNull(el);
 ```
 
 你应该有一个 `id` 为 `number` 的 `input` 元素。
 
 ```js
-const el = document.getElementById('number')
-assert(!!el && el.tagName === 'INPUT')
+const el = document.getElementById('number');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'INPUT');
 ```
 
 你的 `#number` 元素应该是 `#survey-form` 元素的子元素。
 
 ```js
-const el = document.querySelector('#survey-form #number')
-assert(!!el)
+const el = document.querySelector('#survey-form #number');
+assert.isNotNull(el);
 ```
 
 你的 `#number` 元素应该具有 `type` 为 `number`。
 
 ```js
-const el = document.getElementById('number')
-assert(!!el && el.type === 'number')
+const el = document.getElementById('number');
+assert.isNotNull(el);
+assert.strictEqual(el.type, 'number');
 ```
 
 你的 `#number` 应该有一个值为数字的 `min` 属性。
 
 ```js
-const el = document.getElementById('number')
-assert(!!el && el.min && isFinite(el.min))
+const el = document.getElementById('number');
+assert.isNotNull(el);
+assert.isNotEmpty(el.min);
+assert.isTrue(isFinite(el.min));
 ```
 
 你的 `#number` 应该有一个值为数字的 `max` 属性。
 
 ```js
-const el = document.getElementById('number')
-assert(!!el && el.max && isFinite(el.max))
+const el = document.getElementById('number');
+assert.isNotNull(el);
+assert.isNotEmpty(el.max);
+assert.isTrue(isFinite(el.max));
 ```
 
 你应该有一个 `id` 为 `name-label` 的 `label` 元素。
 
 ```js
-const el = document.getElementById('name-label')
-assert(!!el && el.tagName === 'LABEL')
+const el = document.getElementById('name-label');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'LABEL');
 ```
 
 你应该有一个 `id` 为 `email-label` 的 `label` 元素。
 
 ```js
-const el = document.getElementById('email-label')
-assert(!!el && el.tagName === 'LABEL')
+const el = document.getElementById('email-label');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'LABEL');
 ```
 
 你应该有一个 `id` 为 `number-label` 的 `label` 元素。
 
 ```js
-const el = document.getElementById('number-label')
-assert(!!el && el.tagName === 'LABEL')
+const el = document.getElementById('number-label');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'LABEL');
 ```
 
 你的 `#name-label` 应包含描述输入的文本。
 
 ```js
-const el = document.getElementById('name-label')
-assert(!!el && el.innerText.length > 0)
+const el = document.getElementById('name-label');
+assert.isNotNull(el);
+assert.isAbove(el.innerText.length, 0);
 ```
 
 你的 `#email-label` 应包含描述输入的文本。
 
 ```js
-const el = document.getElementById('email-label')
-assert(!!el && el.innerText.length > 0)
+const el = document.getElementById('email-label');
+assert.isNotNull(el);
+assert.isAbove(el.innerText.length, 0);
 ```
 
 你的 `#number-label` 应该包含描述输入的文本。
 
 ```js
-const el = document.getElementById('number-label')
-assert(!!el && el.innerText.length > 0)
+const el = document.getElementById('number-label');
+assert.isNotNull(el);
+assert.isAbove(el.innerText.length, 0);
 ```
 
 你的 `#name-label` 元素应该是 `#survey-form` 元素的子元素。
 
 ```js
-const el = document.querySelector('#survey-form #name-label')
-assert(!!el)
+const el = document.querySelector('#survey-form #name-label');
+assert.isNotNull(el);
 ```
 
 你的 `#email-label` 元素应该是 `#survey-form` 元素的子元素。
 
 ```js
-const el = document.querySelector('#survey-form #email-label')
-assert(!!el)
+const el = document.querySelector('#survey-form #email-label');
+assert.isNotNull(el);
 ```
 
 你的 `#number-label` 元素应该是 `#survey-form` 元素的子元素。
 
 ```js
-const el = document.querySelector('#survey-form #number-label')
-assert(!!el)
+const el = document.querySelector('#survey-form #number-label');
+assert.isNotNull(el);
 ```
 
 你的 `#name` 元素应该有 `placeholder` 属性与占位符文本。
 
 ```js
-const el = document.getElementById('name')
-assert(!!el && !!el.placeholder && el.placeholder.length > 0)
+const el = document.getElementById('name');
+assert.isNotNull(el);
+assert.isNotNull(el.placeholder);
+assert.isAbove(el.placeholder.length, 0);
 ```
 
 你的 `#email` 元素应该有 `placeholder` 属性与占位符文本。
 
 ```js
-const el = document.getElementById('email')
-assert(!!el && !!el.placeholder && el.placeholder.length > 0)
+const el = document.getElementById('email');
+assert.isNotNull(el);
+assert.isNotNull(el.placeholder);
+assert.isAbove(el.placeholder.length, 0);
 ```
 
 你的 `#number` 元素应该有 `placeholder` 属性与占位符文本。
 
 ```js
-const el = document.getElementById('number')
-assert(!!el && !!el.placeholder && el.placeholder.length > 0)
+const el = document.getElementById('number');
+assert.isNotNull(el);
+assert.isNotNull(el.placeholder);
+assert.isAbove(el.placeholder.length, 0);
 ```
 
 你应该有一个 `id` 为 `dropdown` 的 `select` 元素。
 
 ```js
-const el = document.getElementById('dropdown')
-assert(!!el && el.tagName === 'SELECT')
+const el = document.getElementById('dropdown');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'SELECT');
 ```
 
 你的 `#dropdown` 应该至少有两个可选择（未禁用）`option` 元素。
 
 ```js
-const els = document.querySelectorAll('#dropdown option:not([disabled])')
-assert(els.length >= 2)
+const els = document.querySelectorAll('#dropdown option:not([disabled])');
+assert.isAtLeast(els.length, 2);
 ```
 
 你的 `#dropdown` 元素应该是 `#survey-form` 元素的子元素。
 
 ```js
-const el = document.querySelector('#survey-form #dropdown')
-assert(!!el)
+const el = document.querySelector('#survey-form #dropdown');
+assert.isNotNull(el);
 ```
 
 你应该有至少两个 `input` 元素，`type` 为 `radio`（单选按钮）。
 
 ```js
-const els = document.querySelectorAll('input[type="radio"]')
-assert(els.length >= 2)
+const els = document.querySelectorAll('input[type="radio"]');
+assert.isAtLeast(els.length, 2);
 ```
 
 你至少应该有两个单选按钮，是 `#survey-form` 的子元素。
 
 ```js
-const els = document.querySelectorAll('#survey-form input[type="radio"]')
-assert(els.length >= 2)
+const els = document.querySelectorAll('#survey-form input[type="radio"]');
+assert.isAtLeast(els.length, 2);
 ```
 
 你所有的单选按钮都应该有一个 `value` 属性和值。
 
 ```js
-const els1 = document.querySelectorAll('input[type="radio"]')
-const els2 = document.querySelectorAll('input[type="radio"][value=""], input[type="radio"]:not([value])')
-assert(els1.length > 0 && els2.length === 0)
+const els1 = document.querySelectorAll('input[type="radio"]');
+const els2 = document.querySelectorAll(
+  'input[type="radio"][value=""], input[type="radio"]:not([value])'
+);
+assert.isAbove(els1.length, 0);
+assert.lengthOf(els2, 0);
 ```
 
 你所有的单选按钮都应该有一个 `name` 属性和值。
 
 ```js
-const els1 = document.querySelectorAll('input[type="radio"]')
-const els2 = document.querySelectorAll('input[type="radio"][name=""], input[type="radio"]:not([name])')
-assert(els1.length > 0 && els2.length === 0)
+const els1 = document.querySelectorAll('input[type="radio"]');
+const els2 = document.querySelectorAll(
+  'input[type="radio"][name=""], input[type="radio"]:not([name])'
+);
+assert.isAbove(els1.length, 0);
+assert.lengthOf(els2, 0);
 ```
 
 每个单选按钮组应至少有 2 个单选按钮。
 
 ```js
 const radioButtons = document.querySelectorAll('input[type="radio"]');
-const groups = {}
+const groups = {};
 
 if (radioButtons) {
   radioButtons.forEach(el => {
-    if (!groups[el.name]) groups[el.name] = []
-    groups[el.name].push(el)
-  })
+    if (!groups[el.name]) groups[el.name] = [];
+    groups[el.name].push(el);
+  });
 }
 
-const groupKeys = Object.keys(groups)
+const groupKeys = Object.keys(groups);
 
 groupKeys.forEach(key => {
-  if (groups[key].length < 2) assert(false)
-})
+  if (groups[key].length < 2) assert(false);
+});
 
-assert(groupKeys.length > 0)
+assert.isAbove(groupKeys.length, 0);
 ```
 
 你应该至少有两个 `input` 元素，`type` 为 `checkbox`（复选框），它们是 `#survey-form` 的子元素。
 
 ```js
 const els = document.querySelectorAll('#survey-form input[type="checkbox"]');
-assert(els.length >= 2)
+assert.isAtLeast(els.length, 2);
 ```
 
 你在 `#survey-form` 中的所有复选框都应该有 `value` 属性和值。
 
 ```js
-const els1 = document.querySelectorAll('#survey-form input[type="checkbox"]')
-const els2 = document.querySelectorAll('#survey-form input[type="checkbox"][value=""], #survey-form input[type="checkbox"]:not([value])')
-assert(els1.length > 0 && els2.length === 0)
+const els1 = document.querySelectorAll('#survey-form input[type="checkbox"]');
+const els2 = document.querySelectorAll(
+  '#survey-form input[type="checkbox"][value=""], #survey-form input[type="checkbox"]:not([value])'
+);
+assert.isAbove(els1.length, 0);
+assert.lengthOf(els2, 0);
 ```
 
 你至少应该有一个 `textarea` 元素，它是 `#survey-form` 的子元素。
 
 ```js
-const el = document.querySelector('#survey-form textarea')
-assert(!!el)
+const el = document.querySelector('#survey-form textarea');
+assert.isNotNull(el);
 ```
 
 你应该有一个 `id` 为 `submit` 的 `input` 或 `button` 元素。
 
 ```js
-const el = document.getElementById('submit')
-assert(!!el && (el.tagName === 'INPUT' || el.tagName === 'BUTTON'))
+const el = document.getElementById('submit');
+assert.isNotNull(el);
+assert.isTrue(el.tagName === 'INPUT' || el.tagName === 'BUTTON');
 ```
 
 你的 `#submit` 元素应该具有 `type` 为 `submit`。
 
 ```js
-const el = document.getElementById('submit')
-assert(!!el && el.type === 'submit')
+const el = document.getElementById('submit');
+assert.isNotNull(el);
+assert.strictEqual(el.type, 'submit');
 ```
 
 你的 `#submit` 元素应该是 `#survey-form` 元素的子元素。
 
 ```js
-const el = document.querySelector('#survey-form #submit')
-assert(!!el)
+const el = document.querySelector('#survey-form #submit');
+assert.isNotNull(el);
 ```
 
 # --seed--
@@ -508,7 +549,10 @@ body {
   background: #3a3240;
   color: white;
 }
-input, textarea, select, button {
+input,
+textarea,
+select,
+button {
   background: #3a3240;
   color: white;
 }

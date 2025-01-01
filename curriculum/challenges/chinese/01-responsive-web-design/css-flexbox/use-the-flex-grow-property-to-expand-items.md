@@ -22,13 +22,17 @@ The opposite of `flex-shrink` is the `flex-grow` property. Recall that `flex-shr
 `#box-1` 元素应具有 `flex-grow` 属性，其属性值应为 `1`。
 
 ```js
-assert($('#box-1').css('flex-grow') == '1');
+const boxOne = document.querySelector('#box-1');
+const flexGrow = window.getComputedStyle(boxOne)['flex-grow'];
+assert.equal(flexGrow, '1');
 ```
 
 `#box-2` 元素应具有 `flex-grow` 属性，其属性值应为 `2`。
 
 ```js
-assert($('#box-2').css('flex-grow') == '2');
+const boxTwo = document.querySelector('#box-2');
+const flexGrow = window.getComputedStyle(boxTwo)['flex-grow'];
+assert.equal(flexGrow, '2');
 ```
 
 # --seed--

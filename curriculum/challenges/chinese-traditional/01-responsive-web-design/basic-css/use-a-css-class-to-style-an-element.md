@@ -34,25 +34,27 @@ Classes are reusable styles that can be added to HTML elements.
 `h2` 元素應爲紅色。
 
 ```js
-assert($('h2').css('color') === 'rgb(255, 0, 0)');
+const h2Element = document.querySelector('h2'); 
+const color = window.getComputedStyle(h2Element)['color']; 
+assert.strictEqual(color, 'rgb(255, 0, 0)');
 ```
 
 `h2` 元素應有一個 `red-text` class。
 
 ```js
-assert($('h2').hasClass('red-text'));
+assert.isTrue(document.querySelector('h2').classList.contains('red-text'));
 ```
 
 樣式表應該聲明一個 `red-text` class，顏色爲 `red`。
 
 ```js
-assert(code.match(/\.red-text\s*\{\s*color\s*:\s*red;?\s*\}/g));
+assert.match(__helpers.removeCssComments(code), /\.red-text\s*\{\s*color\s*:\s*red;?\s*\}/g);
 ```
 
 不應在 `h2` 元素裏使用行內樣式 `style="color: red"`。
 
 ```js
-assert($('h2').attr('style') === undefined);
+assert.notExists(document.querySelector('h2').getAttribute('style'));
 ```
 
 # --seed--

@@ -22,13 +22,17 @@ The final property for flex items is `align-self`. This property allows you to a
 `#box-1` 元素应具有 `align-self` 属性，其属性值应为 `center`。
 
 ```js
-assert($('#box-1').css('align-self') == 'center');
+const boxOne = document.querySelector('#box-1');
+const alignment = window.getComputedStyle(boxOne)['align-self'];
+assert.strictEqual(alignment, 'center');
 ```
 
 `#box-2` 元素应具有 `align-self` 属性，其属性值应为 `flex-end`。
 
 ```js
-assert($('#box-2').css('align-self') == 'flex-end');
+const boxTwo = document.querySelector('#box-2');
+const alignment = window.getComputedStyle(boxTwo)['align-self'];
+assert.strictEqual(alignment, 'flex-end');
 ```
 
 # --seed--

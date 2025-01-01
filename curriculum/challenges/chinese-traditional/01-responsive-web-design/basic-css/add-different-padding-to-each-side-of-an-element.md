@@ -22,25 +22,33 @@ CSS 允許你使用 `padding-top`、`padding-right`、`padding-bottom`、`paddin
 class 爲 `blue-box` 的元素的上內邊距屬性值 `padding` 應爲 `40px`。
 
 ```js
-assert($('.blue-box').css('padding-top') === '40px');
+const blueBox = document.querySelector('.blue-box');
+const paddingTop = window.getComputedStyle(blueBox)['padding-top'];
+assert.strictEqual(paddingTop, '40px');
 ```
 
 class 爲 `blue-box` 的元素的右內邊距屬性值 `padding` 應爲 `20px`。
 
 ```js
-assert($('.blue-box').css('padding-right') === '20px');
+const blueBox = document.querySelector('.blue-box');
+const paddingRight = window.getComputedStyle(blueBox)['padding-right'];
+assert.strictEqual(paddingRight, '20px');
 ```
 
 class 爲 `blue-box` 的元素的下內邊距屬性值 `padding` 應爲 `20px`。
 
 ```js
-assert($('.blue-box').css('padding-bottom') === '20px');
+const blueBox = document.querySelector('.blue-box');
+const paddingBottom = window.getComputedStyle(blueBox)['padding-bottom'];
+assert.strictEqual(paddingBottom, '20px');
 ```
 
 class 爲 `blue-box` 的元素的左內邊距屬性值 `padding` 應爲 `40px`。
 
 ```js
-assert($('.blue-box').css('padding-left') === '40px');
+const blueBox = document.querySelector('.blue-box');
+const paddingLeft = window.getComputedStyle(blueBox)['padding-left'];
+assert.strictEqual(paddingLeft, '40px');
 ```
 
 # --seed--

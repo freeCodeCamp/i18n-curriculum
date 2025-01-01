@@ -22,6 +22,8 @@ fetch('/json/cats.json')
 
 ```
 
+Note: The `fetch()` method uses `GET` as the default `HTTP` method. This means you don’t need to specify it explicitly for basic data retrieval.
+
 逐行解释一下代码。
 
 第一行是发起请求。 `fetch(URL)` 向指定的 URL 发起 `GET` 请求。 这个方法返回一个 Promise。

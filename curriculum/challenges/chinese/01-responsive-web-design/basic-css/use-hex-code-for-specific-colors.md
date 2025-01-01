@@ -30,17 +30,15 @@ body {
 `body` 元素的 `background-color` 应为黑色。
 
 ```js
-assert($('body').css('background-color') === 'rgb(0, 0, 0)');
+const body = document.querySelector('body');
+const backgroundColor = window.getComputedStyle(body)['background-color']; 
+assert.strictEqual(backgroundColor, 'rgb(0, 0, 0)');
 ```
 
 应该使用黑色的十六进制代码，而不是 `black` 这个词。
 
 ```js
-assert(
-  code.match(
-    /body\s*{(([\s\S]*;\s*?)|\s*?)background.*\s*:\s*?#000(000)?((\s*})|(;[\s\S]*?}))/gi
-  )
-);
+assert.match(code, /body\s*{(([\s\S]*;\s*?)|\s*?)background.*\s*:\s*?#000(000)?((\s*})|(;[\s\S]*?}))/gi);
 ```
 
 # --seed--

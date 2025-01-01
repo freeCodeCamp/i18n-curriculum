@@ -26,7 +26,7 @@ h1 {
 在 `style` 樣式聲明區域裏，`p` 元素的 `font-size` 的值應爲 `16px`。 請注意，瀏覽器和文本縮放應設置爲 100％。
 
 ```js
-assert(code.match(/p\s*{\s*font-size\s*:\s*16\s*px\s*;\s*}/i));
+assert.match(__helpers.removeCssComments(code), /p\s*{\s*font-size\s*:\s*16\s*px\s*;\s*}/i);
 ```
 
 # --seed--

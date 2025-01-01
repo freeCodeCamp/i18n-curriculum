@@ -34,37 +34,33 @@ Forms commonly use <dfn>checkboxes</dfn> for questions that may have more than o
 表單中應存在三個複選框。
 
 ```js
-assert($('input[type="checkbox"]').length > 2);
+assert.lengthOf(document.querySelectorAll('input[type="checkbox"]'),3);
 ```
 
 每個複選框都應該被嵌套進 `label` 元素中。
 
 ```js
-assert($('label > input[type="checkbox"]:only-child').length > 2);
+assert.lengthOf(document.querySelectorAll('label > input[type="checkbox"]:only-child'),3);
 ```
 
 確保 `label` 元素有結束標籤。
 
 ```js
-assert(
-  code.match(/<\/label>/g) &&
-    code.match(/<label/g) &&
-    code.match(/<\/label>/g).length === code.match(/<label/g).length
-);
+assert.match(code,/<\/label>/g);
+assert.match(code,/<label/g);
+assert.strictEqual(code.match(/<\/label>/g).length,code.match(/<label/g).length)
 ```
 
 複選框的 `name` 屬性值均應爲 `personality`。
 
 ```js
-assert(
-  $('label > input[type="checkbox"]').filter('[name="personality"]').length > 2
-);
+assert.lengthOf([...document.querySelectorAll('label > input[type="checkbox"]')].filter(x => x.name === "personality"),3);
 ```
 
 每個複選框都應該在 `form` 標籤內。
 
 ```js
-assert($('label').parent().get(0).tagName.match('FORM'));
+assert.strictEqual(document.querySelector('label').parentNode.tagName,'FORM');
 ```
 
 # --seed--

@@ -33,39 +33,35 @@ HTML has a special element for creating <dfn>unordered lists</dfn>, or bullet po
 應存在一個 `ul` 無序列表。
 
 ```js
-assert($('ul').length > 0);
+assert.isNotEmpty(document.querySelectorAll('ul'));
 ```
 
 應在 `ul` 無序列表中添加三個 `li` 條目。
 
 ```js
-assert($('ul li').length > 2);
+assert.lengthOf(document.querySelectorAll('ul li'),3);
 ```
 
 確保 `ul` 無序列表有結束標籤。
 
 ```js
-assert(
-  code.match(/<\/ul>/gi) &&
-    code.match(/<ul/gi) &&
-    code.match(/<\/ul>/gi).length === code.match(/<ul/gi).length
-);
+assert.match(code,/<\/ul>/gi);
+assert.match(code,/<ul/gi);
+assert.strictEqual(code.match(/<\/ul>/gi).length,code.match(/<ul/gi).length);
 ```
 
 確保每個 `li` 條目都有結束標籤。
 
 ```js
-assert(
-  code.match(/<\/li>/gi) &&
-    code.match(/<li[\s>]/gi) &&
-    code.match(/<\/li>/gi).length === code.match(/<li[\s>]/gi).length
-);
+assert.match(code,/<\/li>/gi);
+assert.match(code,/<li[\s>]/gi);
+assert.strictEqual(code.match(/<\/li>/gi).length,code.match(/<li[\s>]/gi).length);
 ```
 
 每個 `li` 元素不應只包含空字符串或只包含空格。
 
 ```js
-assert($('ul li').filter((_, item) => !$(item).text().trim()).length === 0);
+assert.isEmpty([...document.querySelectorAll('ul li')].filter((item) => item.textContent.trim() === ""));
 ```
 
 # --seed--

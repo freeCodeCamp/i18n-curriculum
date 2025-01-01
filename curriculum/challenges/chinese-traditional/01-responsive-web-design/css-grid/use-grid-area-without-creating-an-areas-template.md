@@ -12,13 +12,16 @@ dashedName: use-grid-area-without-creating-an-areas-template
 The `grid-area` property you learned in the last challenge can be used in another way. If your grid doesn't have an areas template to reference, you can create an area on the fly for an item to be placed like this:
 
 ```css
-item1 { grid-area: 1/1/2/4; }
+item1 {
+  grid-area: 1/1/2/4;
+}
 ```
 
 這裏使用了你之前學習的網格線編號來定義網格項的區域。 上例中數字代表這些值：
 
 ```css
-grid-area: horizontal line to start at / vertical line to start at / horizontal line to end at / vertical line to end at;
+grid-area: horizontal line to start at / vertical line to start at / horizontal
+  line to end at / vertical line to end at;
 ```
 
 因此，示例中的網格項將佔用第 1 條水平網格線（起始）和第 2 條水平網格線（終止）之間的行，及第 1 條垂直網格線（起始）和第 4 條垂直網格線（終止）之間的列。
@@ -32,10 +35,9 @@ grid-area: horizontal line to start at / vertical line to start at / horizontal 
 class 爲 `item5` 的元素應具有 `grid-area` 屬性，且位於水平第三和第四條線、垂直第一和第四條線之間的區域。
 
 ```js
-assert(
-  code.match(
-    /.item5\s*?{[\s\S]*grid-area\s*?:\s*?3\s*?\/\s*?1\s*?\/\s*?4\s*?\/\s*?4\s*?;[\s\S]*}/gi
-  )
+assert.match(
+  code,
+  /.item5\s*?{[\s\S]*grid-area\s*?:\s*?3\s*?\/\s*?1\s*?\/\s*?4\s*?\/\s*?4\s*?;[\s\S]*}/gi
 );
 ```
 
@@ -45,10 +47,18 @@ assert(
 
 ```html
 <style>
-  .item1{background:LightSkyBlue;}
-  .item2{background:LightSalmon;}
-  .item3{background:PaleTurquoise;}
-  .item4{background:LightPink;}
+  .item1 {
+    background: LightSkyBlue;
+  }
+  .item2 {
+    background: LightSalmon;
+  }
+  .item3 {
+    background: PaleTurquoise;
+  }
+  .item4 {
+    background: LightPink;
+  }
 
   .item5 {
     background: PaleGreen;
@@ -82,5 +92,9 @@ assert(
 # --solutions--
 
 ```html
-<style>.item5 {grid-area: 3/1/4/4;}</style>
+<style>
+  .item5 {
+    grid-area: 3/1/4/4;
+  }
+</style>
 ```

@@ -11,13 +11,13 @@ Give the `.key` a `margin` of `2px` and a `float` property set to `left`.
 
 # --hints--
 
-Your `.key` selector should have a `margin` property set to `2px`.
+`.key` 選擇器應該有一個 `margin` 屬性設置爲 `2px`。
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('.key')?.margin === '2px');
 ```
 
-Your `.key` selector should have a `float` property set to `left`.
+`.key` 選擇器應該有一個 `float` 屬性設置爲 `left`。
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('.key')?.float === 'left');
