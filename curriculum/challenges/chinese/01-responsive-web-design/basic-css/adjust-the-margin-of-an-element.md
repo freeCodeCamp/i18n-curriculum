@@ -24,7 +24,9 @@ An element's `margin` controls the amount of space between an element's `border`
 class 为 `blue-box` 的元素的 `margin` 值应为 `20px`。
 
 ```js
-assert($('.blue-box').css('margin-top') === '20px');
+const blueBox = document.querySelector('.blue-box');
+const marginTop = window.getComputedStyle(blueBox)['margin-top'];
+assert.strictEqual(marginTop, '20px');
 ```
 
 # --seed--

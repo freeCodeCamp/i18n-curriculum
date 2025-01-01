@@ -72,7 +72,7 @@ dashedName: build-a-25--5-clock
 
 **用户故事 #28:** 音频元素带有id为 `beep` 必须停止播放并且倒退回开头，当id为 `reset` 的元素被点击时.
 
-你可以构建你的项目通过 <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">使用这个codepen模板</a> 并且点击`Save` 去创建你自己的作品. 或者你可以使用这个CDN链接去运行测试在你喜欢的任何环境: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
+你可以构建你的项目通过 <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">使用这个codepen模板</a> 并且点击`Save` 去创建你自己的作品. If you prefer to use another environment, then put this `<script>` tag into the body of your `index.html` file: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
 
 一旦你完成了，提交你通过所有测试的工作项目URL.
 

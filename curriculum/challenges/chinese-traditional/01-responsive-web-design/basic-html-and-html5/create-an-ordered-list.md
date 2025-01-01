@@ -33,80 +33,76 @@ HTML has another special element for creating <dfn>ordered lists</dfn>, or numbe
 應包含一個有序列表，內容是貓咪最討厭的三樣東西（`Top 3 things cats hate:`）。
 
 ```js
-assert(/Top 3 things cats hate:/i.test($('ol').prev().text()));
+const previousElement = document.querySelector('ol').previousElementSibling; 
+assert.match(previousElement.textContent,/Top 3 things cats hate:/i);
 ```
 
 應包含有一個無序列表，內容是貓咪最喜歡的東西（`Things cats love:`）。
 
 ```js
-assert(/Things cats love:/i.test($('ul').prev().text()));
+const previousElement = document.querySelector('ul').previousElementSibling; 
+assert.match(previousElement.textContent,/Things cats love:/i);
 ```
 
 頁面應只包含一個 `ul` 元素。
 
 ```js
-assert.equal($('ul').length, 1);
+assert.lengthOf(document.querySelectorAll('ul'), 1);
 ```
 
 頁面應只包含一個 `ol` 元素。
 
 ```js
-assert.equal($('ol').length, 1);
+assert.lengthOf(document.querySelectorAll('ol'), 1);
 ```
 
 `ul` 無序列表中應包含 3 個 `li` 元素。
 
 ```js
-assert.equal($('ul li').length, 3);
+assert.lengthOf(document.querySelectorAll('ul li'), 3);
 ```
 
 `ol` 有序列表應該包含 3 個 `li` 元素。
 
 ```js
-assert.equal($('ol li').length, 3);
+assert.lengthOf(document.querySelectorAll('ol li'), 3);
 ```
 
 `ul` 無序列表應有結束標籤。
 
 ```js
-assert(
-  code.match(/<\/ul>/g) &&
-    code.match(/<\/ul>/g).length === code.match(/<ul>/g).length
-);
+assert.match(code,/<\/ul>/g);
+assert.strictEqual(code.match(/<\/ul>/g).length ,code.match(/<ul>/g).length);
 ```
 
 `ol` 有序列表應有結束標籤。
 
 ```js
-assert(
-  code.match(/<\/ol>/g) &&
-    code.match(/<\/ol>/g).length === code.match(/<ol>/g).length
-);
+assert.match(code,/<\/ol>/g);
+assert.strictEqual(code.match(/<\/ol>/g).length ,code.match(/<ol>/g).length);
 ```
 
 `li` 元素應有結束標籤。
 
 ```js
-assert(
-  code.match(/<\/li>/g) &&
-    code.match(/<li>/g) &&
-    code.match(/<\/li>/g).length === code.match(/<li>/g).length
-);
+assert.match(code,/<\/li>/g);
+assert.match(code,/<li>/g);
+assert.strictEqual(code.match(/<\/li>/g).length ,code.match(/<li>/g).length);
 ```
 
 無序列表裏的 `li` 元素內容不應爲空。
 
 ```js
-$('ul li').each((i, val) =>
-  assert(__helpers.removeWhiteSpace(val.textContent))
+[...document.querySelectorAll('ul li')].forEach((val) =>
+  assert.isNotEmpty(__helpers.removeWhiteSpace(val.textContent))
 );
 ```
 
 有序列表裏的 `li` 元素內容不應該爲空。
 
 ```js
-$('ol li').each((i, val) =>
-  assert(!!__helpers.removeWhiteSpace(val.textContent))
+[...document.querySelectorAll('ol li')].forEach((val) =>
+  assert.isNotEmpty(__helpers.removeWhiteSpace(val.textContent))
 );
 ```
 

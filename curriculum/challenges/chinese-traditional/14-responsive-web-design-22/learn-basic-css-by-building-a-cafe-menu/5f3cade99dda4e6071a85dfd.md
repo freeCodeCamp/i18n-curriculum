@@ -1,6 +1,6 @@
 ---
 id: 5f3cade99dda4e6071a85dfd
-title: Step 46
+title: 步驟 46
 challengeType: 0
 dashedName: step-46
 ---
@@ -11,19 +11,19 @@ You will come back to styling the menu in a few steps, but for now, go ahead and
 
 # --hints--
 
-You should have an opening `section` tag.
+你應該有一個 `section` 開始標籤。
 
 ```js
 assert.lengthOf(code.match(/<section>/ig) ,2);
 ```
 
-You should have a closing `section` tag.
+你應該有一個 `section` 結束標籤。
 
 ```js
 assert.lengthOf(code.match(/<\/section>/ig) ,2);
 ```
 
-You should not change the existing `main` element.
+你不應該改變你現有的 `main` 元素。
 
 ```js
 assert.lengthOf (document.querySelectorAll('main'), 1);

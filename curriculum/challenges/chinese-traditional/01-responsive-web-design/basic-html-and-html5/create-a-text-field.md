@@ -30,7 +30,7 @@ Note that `input` is a void element.
 網頁中應存在一個類型爲 `text` 的 `input` 輸入框。
 
 ```js
-assert($('input[type=text]').length > 0);
+assert.isNotEmpty(document.querySelectorAll('input[type=text]'));
 ```
 
 # --seed--

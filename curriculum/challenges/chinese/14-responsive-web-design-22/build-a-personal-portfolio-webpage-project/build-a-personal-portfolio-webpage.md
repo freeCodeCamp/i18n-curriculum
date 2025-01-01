@@ -8,12 +8,11 @@ dashedName: build-a-personal-portfolio-webpage
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to <a href="https://personal-portfolio.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://personal-portfolio.freecodecamp.rocks</a>. **Do not copy this demo project**.
-
+**目标：** 构建一个功能类似于 <a href="https: personal-portfolio.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://personal-portfolio.freecodecamp.rocks</a> 的应用程序。 **请勿复制此演示项目**。
 
 **用户需求:**
 
-1. Your portfolio should have a welcome section with an `id` of `welcome-section`
+1. 你的作品集应该有一个欢迎部分，其 `id` 为 `welcome-section`
 1. 欢迎部分应该有一个包含文本的 `h1` 元素
 1. 你的作品集应该有一个 `id` 为 `projects` 的项目部分
 1. 项目部分应该包含至少一个 `class` 为 `project-tile` 的元素来保存项目
@@ -34,8 +33,8 @@ dashedName: build-a-personal-portfolio-webpage
 你的作品集应该有一个 `id` 为 `welcome-section` 的欢迎部分。
 
 ```js
-const el = document.getElementById('welcome-section')
-assert(!!el);
+const el = document.getElementById('welcome-section');
+assert.isNotNull(el);
 ```
 
 你的 `#welcome-section` 元素应该包含一个 `h1` 元素。
@@ -54,25 +53,21 @@ assert.isAbove(
 assert.isAbove(
   document.querySelectorAll('#welcome-section h1')?.[0]?.innerText?.length,
   0,
-  'h1 element in welcome section should contain your name or camper ' +
-    'name '
+  'h1 element in welcome section should contain your name or camper ' + 'name '
 );
 ```
 
 你应该有一个 `id` 为 `projects` 的项目部分。
 
 ```js
-const el = document.getElementById('projects')
-assert(!!el);
+const el = document.getElementById('projects');
+assert.isNotNull(el);
 ```
 
 你的作品集应该包含至少一个 class 为 `project-tile` 的元素。
 
 ```js
-assert.isAbove(
-  document.querySelectorAll('#projects .project-tile').length,
-  0
-);
+assert.isAbove(document.querySelectorAll('#projects .project-tile').length, 0);
 ```
 
 你的 `#projects` 元素应该包含至少一个 `a` 元素。
@@ -85,35 +80,33 @@ assert.isAbove(document.querySelectorAll('#projects a').length, 0);
 
 ```js
 const el = document.getElementById('navbar');
-assert(!!el);
+assert.isNotNull(el);
 ```
 
 你的 `#navbar` 元素应该包含至少一个 `a` 元素，它的 `href` 属性以 `#` 开头。
 
 ```js
 const links = [...document.querySelectorAll('#navbar a')].filter(
-  (nav) => (nav?.getAttribute('href') || '').substring(0, 1) === '#'
+  nav => (nav?.getAttribute('href') || '').substring(0, 1) === '#'
 );
 
-assert.isAbove(
-  links.length,
-  0,
-  'Navbar should contain an anchor link '
-);
+assert.isAbove(links.length, 0, 'Navbar should contain an anchor link ');
 ```
 
 你的作品集应该有一个 `id` 为 `profile-link` 的 `a` 元素。
 
 ```js
 const el = document.getElementById('profile-link');
-assert(!!el && el.tagName === 'A')
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'A');
 ```
 
 你的 `#profile-link` 元素应该有一个值为 `_blank` 的 `target` 属性。
 
 ```js
 const el = document.getElementById('profile-link');
-assert(!!el && el.target === '_blank')
+assert.isNotNull(el);
+assert.strictEqual(el.target, '_blank');
 ```
 
 你的作品集应该至少有一个媒体查询。
@@ -121,14 +114,15 @@ assert(!!el && el.target === '_blank')
 ```js
 const htmlSourceAttr = Array.from(document.querySelectorAll('source')).map(el => el.getAttribute('media'))
 const cssCheck = new __helpers.CSSHelp(document).getCSSRules('media')
-assert(cssCheck.length > 0 || htmlSourceAttr.length > 0);
+assert.isTrue(cssCheck.length > 0 || htmlSourceAttr.length > 0);
 ```
 
 你的 `#navbar` 元素应该始终位于视口的顶部。
 
 ```js
 (async () => {
-  const timeout = (milliseconds) => new Promise((resolve) => setTimeout(resolve, milliseconds));
+  const timeout = milliseconds =>
+    new Promise(resolve => setTimeout(resolve, milliseconds));
 
   const navbar = document.getElementById('navbar');
   assert.approximately(
@@ -136,7 +130,7 @@ assert(cssCheck.length > 0 || htmlSourceAttr.length > 0);
     0,
     15,
     "Navbar's parent should be body and it should be at the top of " +
-    'the viewport '
+      'the viewport '
   );
 
   window.scroll(0, 500);
@@ -147,8 +141,7 @@ assert(cssCheck.length > 0 || htmlSourceAttr.length > 0);
     navbar?.getBoundingClientRect().top,
     0,
     15,
-    'Navbar should be at the top of the viewport even after ' +
-    'scrolling '
+    'Navbar should be at the top of the viewport even after ' + 'scrolling '
   );
   window.scroll(0, 0);
 })();
@@ -223,7 +216,7 @@ assert(cssCheck.length > 0 || htmlSourceAttr.length > 0);
 ```
 
 ```css
-nav{
+nav {
   position: fixed;
   width: 100%;
   text-align: right;
@@ -233,37 +226,37 @@ nav{
   background-color: #000000;
   color: #ffffff;
 }
-@media (max-width: 500px){
-  nav{
+@media (max-width: 500px) {
+  nav {
     display: none;
   }
 }
-a{
+a {
   color: #ffffff;
 }
-main{
+main {
   text-align: center;
   background-color: black;
-  font-family:Pacifico
+  font-family: Pacifico;
 }
-h1{
+h1 {
   font-size: 48pt;
 }
-h2{
+h2 {
   font-size: 24pt;
 }
-p{
+p {
   font-size: 12pt;
 }
-#welcome-section{
-  background-color:#251a4a;
-  color: #FFFFFF;
+#welcome-section {
+  background-color: #251a4a;
+  color: #ffffff;
   display: table-cell;
   vertical-align: middle;
   width: 100vw;
   height: 100vh;
 }
-#projects{
+#projects {
   background-color: #060a9c;
   color: #ffffff;
   display: table-cell;
@@ -271,7 +264,7 @@ p{
   width: 100vw;
   height: 100vh;
 }
-#contact{
+#contact {
   background-color: #03300b;
   color: #ffffff;
   display: table-cell;

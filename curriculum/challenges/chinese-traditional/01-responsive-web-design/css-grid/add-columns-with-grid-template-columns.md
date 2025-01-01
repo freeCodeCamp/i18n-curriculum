@@ -29,7 +29,10 @@ Simply creating a grid element doesn't get you very far. You need to define the 
 class 爲 `container` 的元素應具有 `grid-template-columns` 屬性，該屬性應有三個屬性值，均爲 `100px`。
 
 ```js
-assert(new __helpers.CSSHelp(document).getStyle('.container')?.gridTemplateColumns === '100px 100px 100px');
+const templateColumns = new __helpers.CSSHelp(document).getStyle(
+  '.container'
+)?.gridTemplateColumns;
+assert.strictEqual(templateColumns, '100px 100px 100px');
 ```
 
 # --seed--
@@ -38,11 +41,21 @@ assert(new __helpers.CSSHelp(document).getStyle('.container')?.gridTemplateColum
 
 ```html
 <style>
-  .d1{background:LightSkyBlue;}
-  .d2{background:LightSalmon;}
-  .d3{background:PaleTurquoise;}
-  .d4{background:LightPink;}
-  .d5{background:PaleGreen;}
+  .d1 {
+    background: LightSkyBlue;
+  }
+  .d2 {
+    background: LightSalmon;
+  }
+  .d3 {
+    background: PaleTurquoise;
+  }
+  .d4 {
+    background: LightPink;
+  }
+  .d5 {
+    background: PaleGreen;
+  }
 
   .container {
     font-size: 40px;
@@ -68,5 +81,9 @@ assert(new __helpers.CSSHelp(document).getStyle('.container')?.gridTemplateColum
 # --solutions--
 
 ```html
-<style>.container {grid-template-columns: 100px 100px 100px;}</style>
+<style>
+  .container {
+    grid-template-columns: 100px 100px 100px;
+  }
+</style>
 ```

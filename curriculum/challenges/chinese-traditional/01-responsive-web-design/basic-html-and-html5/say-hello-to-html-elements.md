@@ -42,7 +42,7 @@ Welcome to freeCodeCamp's HTML coding challenges. These will walk you through we
 `h1` 元素的內容文本應爲 `Hello World`。
 
 ```js
-assert.isTrue(/hello(\s)+world/gi.test($('h1').text()));
+assert.match(document.querySelector('h1').textContent,/hello(\s)+world/gi);
 ```
 
 # --seed--

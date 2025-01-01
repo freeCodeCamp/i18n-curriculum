@@ -28,27 +28,23 @@ You can build web forms that actually submit data to a server using nothing more
 
 ```js
 const inputElem = document.querySelector('form input');
-assert(
-  inputElem.getAttribute('type') === 'text' &&
-    inputElem.getAttribute('placeholder') === 'cat photo URL'
-);
+assert.strictEqual(inputElem.getAttribute('type'),'text'); 
+assert.strictEqual(inputElem.getAttribute('placeholder'),'cat photo URL');
 ```
 
 `form` 的 `action` 屬性值應爲 `https://www.freecatphotoapp.com/submit-cat-photo`。
 
 ```js
-const action = $('form').attr('action');
-assert(action.match(/^https:\/\/(www\.)?freecatphotoapp\.com\/submit-cat-photo$/i))
+const action = document.querySelector('form').getAttribute('action');
+assert.match(action,/^https:\/\/(www\.)?freecatphotoapp\.com\/submit-cat-photo$/i);
 ```
 
 `form` 元素應有開始標籤和結束標籤。
 
 ```js
-assert(
-  code.match(/<\/form>/g) &&
-    code.match(/<form [^<]*>/g) &&
-    code.match(/<\/form>/g).length === code.match(/<form [^<]*>/g).length
-);
+assert.match(code,/<\/form>/g);
+assert.match(code,/<form [^<]*>/g);
+assert.strictEqual(code.match(/<\/form>/g).length,code.match(/<form [^<]*>/g).length);
 ```
 
 # --seed--

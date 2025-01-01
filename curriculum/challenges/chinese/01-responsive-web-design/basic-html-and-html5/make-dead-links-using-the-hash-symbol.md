@@ -24,7 +24,7 @@ Sometimes you want to add `a` elements to your website before you know where the
 `a` 的 `href` 属性值应为 "#"。
 
 ```js
-assert($('a').attr('href') === '#');
+assert.strictEqual(document.querySelector('a').getAttribute('href'),'#');
 ```
 
 # --seed--

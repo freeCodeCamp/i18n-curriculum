@@ -26,9 +26,7 @@ To create a CSS variable, you just need to give it a name with two hyphens in fr
 应在 `penguin` class 里声明 `--penguin-skin` 变量，且赋值为 `gray`。
 
 ```js
-assert(
-  code.match(/\.penguin\s*\{[^{}]*?--penguin-skin\s*:\s*gr[ae]y\s*;[^{}]*?\}/gi)
-);
+assert.match(__helpers.removeHtmlComments(code), /\.penguin\s*\{[^{}]*?--penguin-skin\s*:\s*gr[ae]y\s*;[^{}]*?\}/gi);
 ```
 
 # --seed--

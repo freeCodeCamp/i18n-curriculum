@@ -24,8 +24,9 @@ CSS 变量经常会定义在 <dfn>:root</dfn> 元素内，这样就可被所有�
 应在 `:root` 里声明 `--penguin-belly` 变量并赋值 `pink`。
 
 ```js
-assert(
-  code.match(/:root\s*?{[\s\S]*--penguin-belly\s*?:\s*?pink\s*?;[\s\S]*}/gi)
+assert.match(
+  __helpers.removeCssComments(code),
+  /:root\s*?{[\s\S]*--penguin-belly\s*?:\s*?pink\s*?;[\s\S]*}/gi
 );
 ```
 

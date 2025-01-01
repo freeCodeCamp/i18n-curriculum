@@ -22,25 +22,29 @@ The `flex-basis` property specifies the initial size of the item before CSS make
 `#box-1` 元素應具有 `flex-basis` 屬性。
 
 ```js
-assert($('#box-1').css('flex-basis') != 'auto');
+const boxOne = document.querySelector('#box-1');
+const flexBasis = window.getComputedStyle(boxOne)['flex-basis'];
+assert.notStrictEqual(flexBasis, 'auto');
 ```
 
 `#box-1` 的 `flex-basis` 屬性值應爲 `10em`。
 
 ```js
-assert(code.match(/#box-1\s*?{\s*?.*?\s*?.*?\s*?flex-basis:\s*?10em;/g));
+assert.match(code, /#box-1\s*?{\s*?.*?\s*?.*?\s*?flex-basis:\s*?10em;/g);
 ```
 
 `#box-2` 元素應具有 `flex-basis` 屬性。
 
 ```js
-assert($('#box-2').css('flex-basis') != 'auto');
+const boxTwo = document.querySelector('#box-2');
+const flexBasis = window.getComputedStyle(boxTwo)['flex-basis'];
+assert.notStrictEqual(flexBasis, 'auto');
 ```
 
 `#box-2` 的 `flex-basis` 屬性值應爲 `20em`。
 
 ```js
-assert(code.match(/#box-2\s*?{\s*?.*?\s*?.*?\s*?flex-basis:\s*?20em;/g));
+assert.match(code, /#box-2\s*?{\s*?.*?\s*?.*?\s*?flex-basis:\s*?20em;/g);
 ```
 
 # --seed--

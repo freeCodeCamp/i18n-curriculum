@@ -26,13 +26,13 @@ You can set a checkbox or radio button to be checked by default using the `check
 表單的第一個單選按鈕應被默認選中。
 
 ```js
-assert($('input[type="radio"]').prop('checked'));
+assert.isTrue(document.querySelector('input[type="radio"]').checked);
 ```
 
 表單的第一個複選框應被默認選中。
 
 ```js
-assert($('input[type="checkbox"]').prop('checked'));
+assert.isTrue(document.querySelector('input[type="checkbox"]').checked);
 ```
 
 不應該更改 `Indoor` 標籤的內部文本。

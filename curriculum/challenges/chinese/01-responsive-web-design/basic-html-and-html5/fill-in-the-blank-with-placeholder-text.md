@@ -24,7 +24,7 @@ Lorem ipsum text 自 16 世纪以来就在排版中被用作占位符，这一�
 你的 `p` 元素应包含 “kitty ipsum” 文本的前面几个词。
 
 ```js
-assert.isTrue(/Kitty(\s)+ipsum/gi.test($('p').text()));
+assert.match(document.querySelector('p').textContent,/Kitty(\s)+ipsum/gi);
 ```
 
 # --seed--

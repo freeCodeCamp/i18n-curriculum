@@ -22,25 +22,33 @@ CSS 允许你使用 `margin-top`、`margin-right`、`margin-bottom`、`margin-le
 class 为 `blue-box` 的元素的上外边距属性值 `margin` 应为 `40px`。
 
 ```js
-assert($('.blue-box').css('margin-top') === '40px');
+const blueBox = document.querySelector('.blue-box');
+const marginTop = window.getComputedStyle(blueBox)['margin-top'];
+assert.strictEqual(marginTop, '40px');
 ```
 
 class 为 `blue-box` 的元素的右外边距属性值 `margin` 应为 `20px`。
 
 ```js
-assert($('.blue-box').css('margin-right') === '20px');
+const blueBox = document.querySelector('.blue-box');
+const marginRight = window.getComputedStyle(blueBox)['margin-right'];
+assert.strictEqual(marginRight, '20px');
 ```
 
 class 为 `blue-box` 的元素的下外边距属性值 `margin` 应为 `20px`。
 
 ```js
-assert($('.blue-box').css('margin-bottom') === '20px');
+const blueBox = document.querySelector('.blue-box');
+const marginBottom = window.getComputedStyle(blueBox)['margin-bottom'];
+assert.strictEqual(marginBottom, '20px');
 ```
 
 class 为 `blue-box` 的元素的左外边距属性值 `margin` 应为 `40px`。
 
 ```js
-assert($('.blue-box').css('margin-left') === '40px');
+const blueBox = document.querySelector('.blue-box');
+const marginLeft = window.getComputedStyle(blueBox)['margin-left'];
+assert.strictEqual(marginLeft,'40px');
 ```
 
 # --seed--
