@@ -22,19 +22,20 @@ Elimina il tuo elemento `h1` in modo da semplificare la vista.
 Il tuo elemento `h1` dovrebbe essere cancellato.
 
 ```js
-assert(!code.match(/<h1>/gi) && !code.match(/<\/h1>/gi));
+assert.notMatch(code,/<h1>/gi);
+assert.notMatch(code,/<\/h1>/gi);
 ```
 
 Il tuo elemento `h2` dovrebbe essere presente nella pagina.
 
 ```js
-assert(code.match(/<h2>[\w\W]*<\/h2>/gi));
+assert.match(code,/<h2>[\w\W]*<\/h2>/gi);
 ```
 
 L'elemento `p` dovrebbe essere presente nella pagina.
 
 ```js
-assert(code.match(/<p>[\w\W]*<\/p>/gi));
+assert.match(code,/<p>[\w\W]*<\/p>/gi);
 ```
 
 # --seed--

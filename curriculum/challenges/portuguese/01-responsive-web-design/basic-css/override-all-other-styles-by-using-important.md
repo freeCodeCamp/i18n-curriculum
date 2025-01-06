@@ -32,39 +32,41 @@ color: red !important;
 O elemento `h1` deve ter a classe `pink-text`.
 
 ```js
-assert($('h1').hasClass('pink-text'));
+assert.isTrue(document.querySelector('h1').classList.contains('pink-text'));
 ```
 
 O elemento `h1` deve ter a classe `blue-text`.
 
 ```js
-assert($('h1').hasClass('blue-text'));
+assert.isTrue(document.querySelector('h1').classList.contains('blue-text'));
 ```
 
 O elemento `h1` deve ter o `id` `orange-text`.
 
 ```js
-assert($('h1').attr('id') === 'orange-text');
+assert.strictEqual(document.querySelector('h1').getAttribute('id'), 'orange-text');
 ```
 
 O elemento `h1` deve ter o estilo inline `color: white`.
 
 ```js
-assert(code.match(/<h1.*style/gi) && code.match(/<h1.*style.*color\s*?:/gi));
+const commentessCode = __helpers.removeHtmlComments(code);
+assert.match(commentessCode, /<h1.*style/gi);
+assert.match(commentessCode, /<h1.*style.*color\s*?:/gi);
 ```
 
 A classe `pink-text` deve ter a palavra-chave `!important` para sobrescrever todas as outras declarações.
 
 ```js
-assert(
-  code.match(/\.pink-text\s*?\{[\s\S]*?color:.*pink.*!important\s*;?[^\.]*\}/g)
-);
+assert.match(__helpers.removeCssComments(code), /\.pink-text\s*?\{[\s\S]*?color:.*pink.*!important\s*;?[^\.]*\}/g);
 ```
 
 O elemento `h1` deve ser rosa.
 
 ```js
-assert($('h1').css('color') === 'rgb(255, 192, 203)');
+const h1Element = document.querySelector('h1');
+const color = window.getComputedStyle(h1Element)['color'];
+assert.strictEqual(color, 'rgb(255, 192, 203)');
 ```
 
 # --seed--

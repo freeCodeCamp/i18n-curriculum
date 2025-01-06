@@ -34,37 +34,33 @@ Adicione ao formulário um grupo de três caixas de seleção. Cada caixa de sel
 A página deve ter três elementos de caixa de seleção.
 
 ```js
-assert($('input[type="checkbox"]').length > 2);
+assert.lengthOf(document.querySelectorAll('input[type="checkbox"]'),3);
 ```
 
 Cada uma das três caixas de seleção deve estar dentro de seu próprio elemento `label`.
 
 ```js
-assert($('label > input[type="checkbox"]:only-child').length > 2);
+assert.lengthOf(document.querySelectorAll('label > input[type="checkbox"]:only-child'),3);
 ```
 
 Verifique se cada um dos elementos `label` tem uma tag de fechamento.
 
 ```js
-assert(
-  code.match(/<\/label>/g) &&
-    code.match(/<label/g) &&
-    code.match(/<\/label>/g).length === code.match(/<label/g).length
-);
+assert.match(code,/<\/label>/g);
+assert.match(code,/<label/g);
+assert.strictEqual(code.match(/<\/label>/g).length,code.match(/<label/g).length)
 ```
 
 As caixas de seleção devem ter o atributo `name` com o valor de `personality`.
 
 ```js
-assert(
-  $('label > input[type="checkbox"]').filter('[name="personality"]').length > 2
-);
+assert.lengthOf([...document.querySelectorAll('label > input[type="checkbox"]')].filter(x => x.name === "personality"),3);
 ```
 
 Todas as suas caixas de seleção dever ser adicionadas dentro da tag `form`.
 
 ```js
-assert($('label').parent().get(0).tagName.match('FORM'));
+assert.strictEqual(document.querySelector('label').parentNode.tagName,'FORM');
 ```
 
 # --seed--

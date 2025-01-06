@@ -28,31 +28,28 @@ Defina o valor do `placeholder` do elemento `input` de texto para "cat photo URL
 Você deve adicionar um atributo `placeholder` ao elemento `input` de texto que já existe.
 
 ```js
-assert($('input[placeholder]').length > 0);
+assert.notEmpty(document.querySelectorAll('input[placeholder]'));
 ```
 
 Você deve definir o valor do atributo `placeholder` para `cat photo URL`.
 
 ```js
-assert(
-  $('input') &&
-    $('input').attr('placeholder') &&
-    $('input')
-      .attr('placeholder')
-      .match(/cat\s+photo\s+URL/gi)
-);
+assert.exists(document.querySelector('input'));
+assert.exists(document.querySelector('input').getAttribute('placeholder'));
+const placeholder = document.querySelector('input').getAttribute('placeholder');
+assert.match(placeholder,/cat\s+photo\s+URL/gi);
 ```
 
 O elemento `input` final não deve ter uma tag de fechamento.
 
 ```js
-assert(!code.match(/<input.*\/?>.*<\/input>/gi));
+assert.notMatch(code,/<input.*\/?>.*<\/input>/gi);
 ```
 
 O elemento `input` final deve ter uma sintaxe válida.
 
 ```js
-assert($('input[type=text]').length > 0);
+assert.notEmpty(document.querySelectorAll('input[type=text]'));
 ```
 
 # --seed--

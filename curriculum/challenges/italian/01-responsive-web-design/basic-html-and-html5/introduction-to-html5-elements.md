@@ -35,46 +35,46 @@ Crea quindi un elemento `main` e annida solo i due elementi `p` all'interno dell
 Dovresti avere 2 elementi `p` con il testo Kitty Ipsum.
 
 ```js
-assert($('p').length > 1);
+assert.lengthOf(document.querySelectorAll('p'),2);
 ```
 
 Ognuno dei tuoi elementi `p` dovrebbe avere un tag di chiusura.
 
 ```js
-assert(
-  code.match(/<\/p>/g) &&
-    code.match(/<\/p>/g).length === code.match(/<p/g).length
-);
+assert.match(code,/<\/p>/g);
+assert.strictEqual(code.match(/<\/p>/g).length,code.match(/<p/g).length);
 ```
 
 Il tuo elemento `p` dovrebbe contenere le prime parole del testo aggiuntivo `kitty ipsum` fornito.
 
 ```js
-assert.isTrue(/Purr\s+jump\s+eat/gi.test($('p').text()));
+assert.match(document.querySelectorAll('p')[1].textContent,/Purr\s+jump\s+eat/gi);
 ```
 
 Il tuo codice dovrebbe avere un tag `main`.
 
 ```js
-assert($('main').length === 1);
+assert.lengthOf(document.querySelectorAll('main'),1);
 ```
 
 L'elemento `main` dovrebbe avere due elementi paragrafo come figli.
 
 ```js
-assert($('main').children('p').length === 2);
+const main = document.querySelector('main');
+const children = main.querySelectorAll("p"); 
+assert.lengthOf(children,2);
 ```
 
 Il tag `main` di apertura dovrebbe venire prima del primo tag di paragrafo.
 
 ```js
-assert(code.match(/<main>\s*?<p>/g));
+assert.match(code,(/<main>\s*?<p>/g));
 ```
 
 Il tag `main` di chiusura dovrebbe venire dopo il secondo tag di chiusura di paragrafo.
 
 ```js
-assert(code.match(/<\/p>\s*?<\/main>/g));
+assert.match(code,(/<\/p>\s*?<\/main>/g));
 ```
 
 # --seed--

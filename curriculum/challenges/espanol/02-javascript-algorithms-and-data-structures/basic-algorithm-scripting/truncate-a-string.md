@@ -15,53 +15,55 @@ Recorta una cadena (primer argumento) si es más larga que la longitud máxima p
 `truncateString("A-tisket a-tasket A green and yellow basket", 8)` debe devolver la cadena `A-tisket...`.
 
 ```js
-assert(
-  truncateString('A-tisket a-tasket A green and yellow basket', 8) ===
-    'A-tisket...'
+assert.strictEqual(
+  truncateString('A-tisket a-tasket A green and yellow basket', 8),
+  'A-tisket...'
 );
 ```
 
 `truncateString("Peter Piper picked a peck of pickled peppers", 11)` debe devolver la cadena `Peter Piper...`.
 
 ```js
-assert(
-  truncateString('Peter Piper picked a peck of pickled peppers', 11) ===
-    'Peter Piper...'
+assert.strictEqual(
+  truncateString('Peter Piper picked a peck of pickled peppers', 11),
+  'Peter Piper...'
 );
 ```
 
 `truncateString("A-tisket a-tasket A green and yellow basket", "A-tisket a-tasket A green and yellow basket".length)` debe devolver la cadena `A-tisket a-tasket A green and yellow basket`.
 
 ```js
-assert(
+assert.strictEqual(
   truncateString(
     'A-tisket a-tasket A green and yellow basket',
     'A-tisket a-tasket A green and yellow basket'.length
-  ) === 'A-tisket a-tasket A green and yellow basket'
+  ),
+  'A-tisket a-tasket A green and yellow basket'
 );
 ```
 
 `truncateString("A-tisket a-tasket A green and yellow basket", "A-tisket a-tasket A green and yellow basket".length + 2)` debe devolver la cadena `A-tisket a-tasket A green and yellow basket`.
 
 ```js
-assert(
+assert.strictEqual(
   truncateString(
     'A-tisket a-tasket A green and yellow basket',
     'A-tisket a-tasket A green and yellow basket'.length + 2
-  ) === 'A-tisket a-tasket A green and yellow basket'
+  ),
+  'A-tisket a-tasket A green and yellow basket'
 );
 ```
 
 `truncateString("A-", 1)` debe devolver la cadena `A...`.
 
 ```js
-assert(truncateString('A-', 1) === 'A...');
+assert.strictEqual(truncateString('A-', 1), 'A...');
 ```
 
 `truncateString("Absolutely Longer", 2)` debe devolver la cadena `Ab...`.
 
 ```js
-assert(truncateString('Absolutely Longer', 2) === 'Ab...');
+assert.strictEqual(truncateString('Absolutely Longer', 2), 'Ab...');
 ```
 
 # --seed--
@@ -73,7 +75,7 @@ function truncateString(str, num) {
   return str;
 }
 
-truncateString("A-tisket a-tasket A green and yellow basket", 8);
+truncateString('A-tisket a-tasket A green and yellow basket', 8);
 ```
 
 # --solutions--
@@ -87,5 +89,5 @@ function truncateString(str, num) {
   return str.slice(0, num) + '...';
 }
 
-truncateString("A-tisket a-tasket A green and yellow basket", 8);
+truncateString('A-tisket a-tasket A green and yellow basket', 8);
 ```

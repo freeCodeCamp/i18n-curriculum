@@ -17,25 +17,28 @@ Reverse the provided string and return the reversed string.
 `reverseString("hello")` 应返回一个字符串。
 
 ```js
-assert(typeof reverseString('hello') === 'string');
+assert.isString(reverseString('hello'));
 ```
 
 `reverseString("hello")` 应返回 `olleh`。
 
 ```js
-assert(reverseString('hello') === 'olleh');
+assert.strictEqual(reverseString('hello'), 'olleh');
 ```
 
 `reverseString("Howdy")` 应返回 `ydwoH`。
 
 ```js
-assert(reverseString('Howdy') === 'ydwoH');
+assert.strictEqual(reverseString('Howdy'), 'ydwoH');
 ```
 
 `reverseString("Greetings from Earth")` 应返回 `htraE morf sgniteerG`。
 
 ```js
-assert(reverseString('Greetings from Earth') === 'htraE morf sgniteerG');
+assert.strictEqual(
+  reverseString('Greetings from Earth'),
+  'htraE morf sgniteerG'
+);
 ```
 
 # --seed--
@@ -47,7 +50,7 @@ function reverseString(str) {
   return str;
 }
 
-reverseString("hello");
+reverseString('hello');
 ```
 
 # --solutions--
@@ -57,5 +60,5 @@ function reverseString(str) {
   return str.split('').reverse().join('');
 }
 
-reverseString("hello");
+reverseString('hello');
 ```

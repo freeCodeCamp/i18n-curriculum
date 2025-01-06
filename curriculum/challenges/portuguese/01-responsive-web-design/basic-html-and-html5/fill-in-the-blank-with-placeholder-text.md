@@ -24,7 +24,7 @@ Substitua o texto dentro do elemento `p` pelas primeiras palavras desse texto: `
 O elemento `p` deve conter as primeiras palavras do texto "kitty ipsum" fornecido.
 
 ```js
-assert.isTrue(/Kitty(\s)+ipsum/gi.test($('p').text()));
+assert.match(document.querySelector('p').textContent,/Kitty(\s)+ipsum/gi);
 ```
 
 # --seed--

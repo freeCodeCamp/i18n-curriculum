@@ -20,10 +20,9 @@ Use a propriedade `grid-gap` para criar um espaçamento de `10px` entre as linha
 O elemento de classe `container` deve ter a propriedade `grid-gap` que cria um espaçamento de `10px` entre as linhas e um espaçamento de `20px` entre as colunas.
 
 ```js
-assert(
-  code.match(
-    /.container\s*?{[\s\S]*grid-gap\s*?:\s*?10px\s+?20px\s*?;[\s\S]*}/gi
-  )
+assert.match(
+  code,
+  /.container\s*?{[\s\S]*grid-gap\s*?:\s*?10px\s+?20px\s*?;[\s\S]*}/gi
 );
 ```
 
@@ -33,11 +32,21 @@ assert(
 
 ```html
 <style>
-  .d1{background:LightSkyBlue;}
-  .d2{background:LightSalmon;}
-  .d3{background:PaleTurquoise;}
-  .d4{background:LightPink;}
-  .d5{background:PaleGreen;}
+  .d1 {
+    background: LightSkyBlue;
+  }
+  .d2 {
+    background: LightSalmon;
+  }
+  .d3 {
+    background: PaleTurquoise;
+  }
+  .d4 {
+    background: LightPink;
+  }
+  .d5 {
+    background: PaleGreen;
+  }
 
   .container {
     font-size: 40px;
@@ -65,5 +74,9 @@ assert(
 # --solutions--
 
 ```html
-<style>.container {grid-gap: 10px 20px;}</style>
+<style>
+  .container {
+    grid-gap: 10px 20px;
+  }
+</style>
 ```

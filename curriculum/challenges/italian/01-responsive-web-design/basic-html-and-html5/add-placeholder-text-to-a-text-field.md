@@ -28,31 +28,28 @@ Imposta il valore del `placeholder` (segnaposto) per il tuo `input` di testo su 
 Dovresti aggiungere un attributo `placeholder` all'elemento `input` di testo esistente.
 
 ```js
-assert($('input[placeholder]').length > 0);
+assert.notEmpty(document.querySelectorAll('input[placeholder]'));
 ```
 
 Dovresti impostare il valore del tuo attributo `placeholder` su `cat photo URL`.
 
 ```js
-assert(
-  $('input') &&
-    $('input').attr('placeholder') &&
-    $('input')
-      .attr('placeholder')
-      .match(/cat\s+photo\s+URL/gi)
-);
+assert.exists(document.querySelector('input'));
+assert.exists(document.querySelector('input').getAttribute('placeholder'));
+const placeholder = document.querySelector('input').getAttribute('placeholder');
+assert.match(placeholder,/cat\s+photo\s+URL/gi);
 ```
 
 L'elemento `input` finito non dovrebbe avere un tag di chiusura.
 
 ```js
-assert(!code.match(/<input.*\/?>.*<\/input>/gi));
+assert.notMatch(code,/<input.*\/?>.*<\/input>/gi);
 ```
 
 L'elemento `input` finito dovrebbe avere una sintassi valida.
 
 ```js
-assert($('input[type=text]').length > 0);
+assert.notEmpty(document.querySelectorAll('input[type=text]'));
 ```
 
 # --seed--

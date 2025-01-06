@@ -103,7 +103,7 @@ window.alert = (message) => alertMessage = message; // Override alert and store 
 
 userInput.value = '';
 checkBtn.click();
-assert.strictEqual(alertMessage.trim().replace(/[.,?!]+$/g, '').toLowerCase(), 'please provide a phone number');
+assert.strictEqual(alertMessage?.trim().replace(/[.,?!]+$/g, '').toLowerCase(), 'please provide a phone number');
 ```
 
 當你點擊 `#clear-btn` 元素時，`#results-div` 元素中的內容應被刪除。

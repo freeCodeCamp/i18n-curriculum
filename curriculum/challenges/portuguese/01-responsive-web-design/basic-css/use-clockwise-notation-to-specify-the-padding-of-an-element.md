@@ -26,35 +26,40 @@ Use a notação no sentido horário para dar à classe `.blue-box` um preenchime
 A classe `blue-box` deve dar `40px` de preenchimento (`padding`) no lado superior dos elementos.
 
 ```js
-assert($('.blue-box').css('padding-top') === '40px');
+const blueBox = document.querySelector('.blue-box');
+const paddingTop = window.getComputedStyle(blueBox)['padding-top'];
+assert.strictEqual(paddingTop, '40px');
 ```
 
 A classe `blue-box` deve dar `20px` de preenchimento (`padding`) no lado direito dos elementos.
 
 ```js
-assert($('.blue-box').css('padding-right') === '20px');
+const blueBox = document.querySelector('.blue-box');
+const paddingRight = window.getComputedStyle(blueBox)['padding-right'];
+assert.strictEqual(paddingRight, '20px');
 ```
 
 A classe `blue-box` deve dar `20px` de preenchimento (`padding`) no lado inferior dos elementos.
 
 ```js
-assert($('.blue-box').css('padding-bottom') === '20px');
+const blueBox = document.querySelector('.blue-box');
+const paddingBottom = window.getComputedStyle(blueBox)['padding-bottom'];
+assert.strictEqual(paddingBottom, '20px');
 ```
 
 A classe `blue-box` deve dar `40px` de preenchimento (`padding`) no lado esquerdo dos elementos.
 
 ```js
-assert($('.blue-box').css('padding-left') === '40px');
+const blueBox = document.querySelector('.blue-box');
+const paddingLeft = window.getComputedStyle(blueBox)['padding-left'];
+assert.strictEqual(paddingLeft, '40px');
 ```
 
 Você deve usar a notação no sentido horário para definir o padding dos elementos da classe `blue-box`.
 
 ```js
-assert(
-  /\.blue-box\s*{[\s\S]*padding[\s]*:\s*\d+px\s+\d+px\s+\d+px\s+\d+px(;\s*[^}]+\s*}|;?\s*})/.test(
-    __helpers.removeCssComments($('style').text())
-  )
-);
+const css =  __helpers.removeCssComments(document.querySelector('style:not(.fcc-hide-header)').textContent);
+assert.match(css, /\.blue-box\s*{[\s\S]*padding\s*:\s*\d+px\s+\d+px\s+\d+px\s+\d+px(;\s*[^}]+\s*}|;?\s*})/);
 ```
 
 # --seed--

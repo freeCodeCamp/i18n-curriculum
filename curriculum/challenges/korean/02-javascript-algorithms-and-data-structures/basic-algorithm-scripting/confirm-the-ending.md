@@ -10,84 +10,85 @@ dashedName: confirm-the-ending
 
 Check if a string (first argument, `str`) ends with the given target string (second argument, `target`).
 
-This challenge *can* be solved with the `.endsWith()` method, which was introduced in ES2015. But for the purpose of this challenge, we would like you to use one of the JavaScript substring methods instead.
+This challenge _can_ be solved with the `.endsWith()` method, which was introduced in ES2015. But for the purpose of this challenge, we would like you to use one of the JavaScript substring methods instead.
 
 # --hints--
 
 `confirmEnding("Bastian", "n")`은 `true`를 반환합니다.
 
 ```js
-assert(confirmEnding('Bastian', 'n') === true);
+assert.isTrue(confirmEnding('Bastian', 'n'));
 ```
 
 `confirmEnding("Congratulation", "on")`은 `true`를 반환합니다.
 
 ```js
-assert(confirmEnding('Congratulation', 'on') === true);
+assert.isTrue(confirmEnding('Congratulation', 'on'));
 ```
 
 `confirmEnding("Connor", "n")`은 `false`를 반환합니다.
 
 ```js
-assert(confirmEnding('Connor', 'n') === false);
+assert.isFalse(confirmEnding('Connor', 'n'));
 ```
 
 `confirmEnding("Walking on water and developing software from a specification are easy if both are frozen", "specification")`은 `false`를 반환합니다.
 
 ```js
-assert(
+assert.isFalse(
   confirmEnding(
     'Walking on water and developing software from a specification are easy if both are frozen',
     'specification'
-  ) === false
+  )
 );
 ```
 
 `confirmEnding("He has to give me a new name", "name")`은 `true`를 반환합니다.
 
 ```js
-assert(confirmEnding('He has to give me a new name', 'name') === true);
+assert.isTrue(confirmEnding('He has to give me a new name', 'name'));
 ```
 
 `confirmEnding("Open sesame", "same")`은 `true`를 반환합니다.
 
 ```js
-assert(confirmEnding('Open sesame', 'same') === true);
+assert.isTrue(confirmEnding('Open sesame', 'same'));
 ```
 
 `confirmEnding("Open sesame", "sage")`은 `false`를 반환합니다.
 
 ```js
-assert(confirmEnding('Open sesame', 'sage') === false);
+assert.isFalse(confirmEnding('Open sesame', 'sage'));
 ```
 
 `confirmEnding("Open sesame", "game")`은 `false`를 반환합니다.
 
 ```js
-assert(confirmEnding('Open sesame', 'game') === false);
+assert.isFalse(confirmEnding('Open sesame', 'game'));
 ```
 
 `confirmEnding("If you want to save our world, you must hurry. We dont know how much longer we can withstand the nothing", "mountain")` should return `false`.
 
 ```js
-assert(
+assert.isFalse(
   confirmEnding(
     'If you want to save our world, you must hurry. We dont know how much longer we can withstand the nothing',
     'mountain'
-  ) === false
+  )
 );
 ```
 
 `confirmEnding("Abstraction", "action")`은 `true`를 반환합니다.
 
 ```js
-assert(confirmEnding('Abstraction', 'action') === true);
+assert.isTrue(confirmEnding('Abstraction', 'action'));
 ```
 
 해당 도전 과제를 해결하기 위해 내장 메소드인 `.endsWith()`를 사용하지 않아야 합니다.
 
 ```js
-assert(!/\.endsWith\(.*?\)\s*?;?/.test(__helpers.removeJSComments(code)) && !/\['endsWith'\]/.test(__helpers.removeJSComments(code)));
+assert.notMatch(__helpers.removeJSComments(code), /\.endsWith\(.*?\)\s*?;?/);
+assert.notMatch(__helpers.removeJSComments(code), /\['endsWith'\]/);
 ```
 
 # --seed--
@@ -99,7 +100,7 @@ function confirmEnding(str, target) {
   return str;
 }
 
-confirmEnding("Bastian", "n");
+confirmEnding('Bastian', 'n');
 ```
 
 # --solutions--
@@ -109,5 +110,5 @@ function confirmEnding(str, target) {
   return str.substring(str.length - target.length) === target;
 }
 
-confirmEnding("Bastian", "n");
+confirmEnding('Bastian', 'n');
 ```

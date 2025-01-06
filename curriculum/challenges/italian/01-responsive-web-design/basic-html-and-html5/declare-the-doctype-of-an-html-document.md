@@ -37,19 +37,19 @@ Aggiungi un tag `DOCTYPE` per HTML5 nella parte superiore del documento HTML vuo
 Il tuo codice dovrebbe includere un tag `<!DOCTYPE html>`.
 
 ```js
-assert(code.match(/<!DOCTYPE\s+?html\s*?>/gi));
+assert.match(code,/<!DOCTYPE\s+?html\s*?>/gi);
 ```
 
 Dovrebbe esserci un elemento `html`.
 
 ```js
-assert($('html').length == 1);
+assert.lengthOf(document.querySelectorAll('html'), 1);
 ```
 
 I tag `html` dovrebbero avvolgere un elemento `h1`.
 
 ```js
-assert(code.match(/<html>\s*?<h1>\s*?.*?\s*?<\/h1>\s*?<\/html>/gi));
+assert.match(code,/<html>\s*?<h1>\s*?.*?\s*?<\/h1>\s*?<\/html>/gi);
 ```
 
 # --seed--

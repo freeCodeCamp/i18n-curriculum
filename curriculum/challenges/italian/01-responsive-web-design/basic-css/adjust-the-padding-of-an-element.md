@@ -30,7 +30,9 @@ Cambia il `padding` del riquadro blu per farlo corrispondere a quello del riquad
 La tua classe `blue-box` dovrebbe dare agli elementi `20px` di `padding`.
 
 ```js
-assert($('.blue-box').css('padding-top') === '20px');
+const blueBox = document.querySelector('.blue-box');
+const paddingTop = window.getComputedStyle(blueBox)['padding-top'];
+assert.strictEqual(paddingTop, '20px');
 ```
 
 # --seed--

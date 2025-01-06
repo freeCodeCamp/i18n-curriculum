@@ -23,31 +23,31 @@ For example: `5! = 1 * 2 * 3 * 4 * 5 = 120`
 `factorialize(5)`는 숫자를 반환해야 합니다.
 
 ```js
-assert(typeof factorialize(5) === 'number');
+assert.isNumber(factorialize(5));
 ```
 
 `factorialize(5)`는 `120`을 반환해야 합니다.
 
 ```js
-assert(factorialize(5) === 120);
+assert.strictEqual(factorialize(5), 120);
 ```
 
 `factorialize(10)`는 `3628800`을 반환해야 합니다.
 
 ```js
-assert(factorialize(10) === 3628800);
+assert.strictEqual(factorialize(10), 3628800);
 ```
 
 `factorialize(20)`는 `2432902008176640000`을 반환해야 합니다.
 
 ```js
-assert(factorialize(20) === 2432902008176640000);
+assert.strictEqual(factorialize(20), 2432902008176640000);
 ```
 
 `factorialize(0)`는 `1`을 반환해야 합니다.
 
 ```js
-assert(factorialize(0) === 1);
+assert.strictEqual(factorialize(0), 1);
 ```
 
 # --seed--

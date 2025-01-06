@@ -24,7 +24,9 @@ Imposta il `margin` del riquadro blu a `-15px`, in modo che riempia l'intera lar
 La tua classe `blue-box` dovrebbe dare `-15px` di `margin` agli elementi.
 
 ```js
-assert($('.blue-box').css('margin-top') === '-15px');
+const blueBox = document.querySelector('.blue-box');
+const marginTop = window.getComputedStyle(blueBox)["margin-top"]; 
+assert.strictEqual(marginTop, "-15px"); 
 ```
 
 # --seed--

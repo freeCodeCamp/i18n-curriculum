@@ -34,25 +34,27 @@ Quello che veramente conta è l'ordine delle dichiarazioni di `class` nella sezi
 Il tuo elemento `h1` dovrebbe avere la classe `pink-text`.
 
 ```js
-assert($('h1').hasClass('pink-text'));
+assert.isTrue(document.querySelector('h1').classList.contains('pink-text'));
 ```
 
 L'elemento `h1` dovrebbe avere la classe `blue-text`.
 
 ```js
-assert($('h1').hasClass('blue-text'));
+assert.isTrue(document.querySelector('h1').classList.contains('blue-text'));
 ```
 
 Entrambe le classi `blue-text` e `pink-text` dovrebbero essere associate al tuo elemento `h1`.
 
 ```js
-assert($('.pink-text').hasClass('blue-text'));
+assert.isTrue(document.querySelector('.pink-text').classList.contains('blue-text'));
 ```
 
 Il tuo elemento `h1` dovrebbe essere blu.
 
 ```js
-assert($('h1').css('color') === 'rgb(0, 0, 255)');
+const h1Element = document.querySelector('h1');
+const color = window.getComputedStyle(h1Element)['color']; 
+assert.strictEqual(color, 'rgb(0, 0, 255)');
 ```
 
 # --seed--

@@ -34,49 +34,36 @@ Dê a cada um dos inputs do tipo `radio` e do tipo `checkbox` existentes o atrib
 Um dos botões de seleção (radio) deve ter o atributo `value` definido com o valor de `indoor`.
 
 ```js
-assert(
-  $('label:contains("Indoor") > input[type="radio"]').filter("[value='indoor']")
-    .length > 0
-);
+const indoorRadioButton = [...document.querySelectorAll('label > input[type="radio"]')].filter(x => x.value === "indoor");
+assert.notEmpty(indoorRadioButton)
 ```
 
 Um dos botões de seleção (radio) deve ter o atributo `value` definido com o valor de `outdoor`.
 
 ```js
-assert(
-  $('label:contains("Outdoor") > input[type="radio"]').filter(
-    "[value='outdoor']"
-  ).length > 0
-);
+const outdoorRadioButton = [...document.querySelectorAll('label > input[type="radio"]')].filter(x => x.value === "outdoor");
+assert.notEmpty(outdoorRadioButton);
 ```
 
 Uma das caixas de seleção (checkbox) deve ter o atributo `value` definido com o valor de `loving`.
 
 ```js
-assert(
-  $('label:contains("Loving") > input[type="checkbox"]').filter(
-    "[value='loving']"
-  ).length > 0
-);
+const lovingCheckbox = [...document.querySelectorAll('label > input[type="checkbox"]')].filter(x => x.value === "loving");
+assert.notEmpty(lovingCheckbox); 
 ```
 
 Uma das caixas de seleção (checkbox) deve ter o atributo `value` definido com o valor de `lazy`.
 
 ```js
-assert(
-  $('label:contains("Lazy") > input[type="checkbox"]').filter("[value='lazy']")
-    .length > 0
-);
+const lazyCheckbox = [...document.querySelectorAll('label > input[type="checkbox"]')].filter(x => x.value === "lazy");
+assert.notEmpty(lazyCheckbox); 
 ```
 
 Uma das caixas de seleção (checkbox) deve ter o atributo `value` definido com o valor de `energetic`.
 
 ```js
-assert(
-  $('label:contains("Energetic") > input[type="checkbox"]').filter(
-    "[value='energetic']"
-  ).length > 0
-);
+const energeticCheckbox =  [...document.querySelectorAll('label > input[type="checkbox"]')].filter(x => x.value === "energetic");
+assert.notEmpty(energeticCheckbox);
 ```
 
 # --seed--

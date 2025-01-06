@@ -24,7 +24,9 @@ Altere a `margin` da caixa azul para que combine com a da caixa vermelha.
 A classe `blue-box` deve dar `20px` de `margin` aos elementos.
 
 ```js
-assert($('.blue-box').css('margin-top') === '20px');
+const blueBox = document.querySelector('.blue-box');
+const marginTop = window.getComputedStyle(blueBox)['margin-top'];
+assert.strictEqual(marginTop, '20px');
 ```
 
 # --seed--

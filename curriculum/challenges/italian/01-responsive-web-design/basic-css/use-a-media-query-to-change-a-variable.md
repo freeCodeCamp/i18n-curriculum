@@ -22,21 +22,13 @@ Nel selettore `:root` della media query, fai in modo che `--penguin-size` venga 
 `:root` dovrebbe riassegnare alla variabile `--penguin-size` il valore di `200px`.
 
 ```js
-assert(
-  code.match(
-    /media\s*?\(\s*?max-width\s*?:\s*?350px\s*?\)\s*?{[\s\S]*:root\s*?{[\s\S]*--penguin-size\s*?:\s*?200px\s*?;[\s\S]*}[\s\S]*}/gi
-  )
-);
+assert.match(__helpers.removeCssComments(code), /media\s*?\(\s*?max-width\s*?:\s*?350px\s*?\)\s*?{[\s\S]*:root\s*?{[\s\S]*--penguin-size\s*?:\s*?200px\s*?;[\s\S]*}[\s\S]*}/gi);
 ```
 
 `:root` dovrebbe riassegnare alla variabile `--penguin-skin` il valore `black`.
 
 ```js
-assert(
-  code.match(
-    /media\s*?\(\s*?max-width\s*?:\s*?350px\s*?\)\s*?{[\s\S]*:root\s*?{[\s\S]*--penguin-skin\s*?:\s*?black\s*?;[\s\S]*}[\s\S]*}/gi
-  )
-);
+assert.match(__helpers.removeCssComments(code), /media\s*?\(\s*?max-width\s*?:\s*?350px\s*?\)\s*?{[\s\S]*:root\s*?{[\s\S]*--penguin-skin\s*?:\s*?black\s*?;[\s\S]*}[\s\S]*}/gi);
 ```
 
 # --seed--

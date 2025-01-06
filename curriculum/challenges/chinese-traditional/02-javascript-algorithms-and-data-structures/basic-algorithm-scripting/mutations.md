@@ -21,73 +21,73 @@ Return `true` if the string in the first element of the array contains all of th
 `mutation(["hello", "hey"])` 應返回 `false`。
 
 ```js
-assert(mutation(['hello', 'hey']) === false);
+assert.isFalse(mutation(['hello', 'hey']));
 ```
 
 `mutation(["hello", "Hello"])` 應返回 `true`。
 
 ```js
-assert(mutation(['hello', 'Hello']) === true);
+assert.isTrue(mutation(['hello', 'Hello']));
 ```
 
 `mutation(["zyxwvutsrqponmlkjihgfedcba", "qrstu"])` 應返回 `true`。
 
 ```js
-assert(mutation(['zyxwvutsrqponmlkjihgfedcba', 'qrstu']) === true);
+assert.isTrue(mutation(['zyxwvutsrqponmlkjihgfedcba', 'qrstu']));
 ```
 
 `mutation(["Mary", "Army"])` 應返回 `true`。
 
 ```js
-assert(mutation(['Mary', 'Army']) === true);
+assert.isTrue(mutation(['Mary', 'Army']));
 ```
 
 `mutation(["Mary", "Aarmy"])` 應返回 `true`。
 
 ```js
-assert(mutation(['Mary', 'Aarmy']) === true);
+assert.isTrue(mutation(['Mary', 'Aarmy']));
 ```
 
 `mutation(["Alien", "line"])` 應返回 `true`。
 
 ```js
-assert(mutation(['Alien', 'line']) === true);
+assert.isTrue(mutation(['Alien', 'line']));
 ```
 
 `mutation(["floor", "for"])` 應返回 `true`。
 
 ```js
-assert(mutation(['floor', 'for']) === true);
+assert.isTrue(mutation(['floor', 'for']));
 ```
 
 `mutation(["hello", "neo"])` 應返回 `false`。
 
 ```js
-assert(mutation(['hello', 'neo']) === false);
+assert.isFalse(mutation(['hello', 'neo']));
 ```
 
 `mutation(["voodoo", "no"])` 應返回 `false`。
 
 ```js
-assert(mutation(['voodoo', 'no']) === false);
+assert.isFalse(mutation(['voodoo', 'no']));
 ```
 
 `mutation(["ate", "date"])` 應返回 `false`。
 
 ```js
-assert(mutation(['ate', 'date']) === false);
+assert.isFalse(mutation(['ate', 'date']));
 ```
 
 `mutation(["Tiger", "Zebra"])` 應返回 `false`。
 
 ```js
-assert(mutation(['Tiger', 'Zebra']) === false);
+assert.isFalse(mutation(['Tiger', 'Zebra']));
 ```
 
 `mutation(["Noel", "Ole"])` 應返回 `true`。
 
 ```js
-assert(mutation(['Noel', 'Ole']) === true);
+assert.isTrue(mutation(['Noel', 'Ole']));
 ```
 
 # --seed--
@@ -99,7 +99,7 @@ function mutation(arr) {
   return arr;
 }
 
-mutation(["hello", "hey"]);
+mutation(['hello', 'hey']);
 ```
 
 # --solutions--
@@ -108,10 +108,16 @@ mutation(["hello", "hey"]);
 function mutation(arr) {
   let hash = Object.create(null);
 
-  arr[0].toLowerCase().split('').forEach(c => hash[c] = true);
+  arr[0]
+    .toLowerCase()
+    .split('')
+    .forEach(c => (hash[c] = true));
 
-  return !arr[1].toLowerCase().split('').filter(c => !hash[c]).length;
+  return !arr[1]
+    .toLowerCase()
+    .split('')
+    .filter(c => !hash[c]).length;
 }
 
-mutation(["hello", "hey"]);
+mutation(['hello', 'hey']);
 ```

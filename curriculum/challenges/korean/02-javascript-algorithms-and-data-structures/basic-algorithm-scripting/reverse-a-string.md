@@ -17,25 +17,28 @@ Reverse the provided string and return the reversed string.
 `reverseString("hello")`은 문자열을 반환해야 합니다.
 
 ```js
-assert(typeof reverseString('hello') === 'string');
+assert.isString(reverseString('hello'));
 ```
 
 `reverseString("hello")`은 문자열 `olleh`를 반환해야 합니다.
 
 ```js
-assert(reverseString('hello') === 'olleh');
+assert.strictEqual(reverseString('hello'), 'olleh');
 ```
 
 `reverseString("Howdy")`은 문자열 `ydwoH`을 반환해야 합니다.
 
 ```js
-assert(reverseString('Howdy') === 'ydwoH');
+assert.strictEqual(reverseString('Howdy'), 'ydwoH');
 ```
 
 `reverseString("Greetings from Earth")`은 문자열 `htraE morf sgniteerG`을 반환해야 합니다.
 
 ```js
-assert(reverseString('Greetings from Earth') === 'htraE morf sgniteerG');
+assert.strictEqual(
+  reverseString('Greetings from Earth'),
+  'htraE morf sgniteerG'
+);
 ```
 
 # --seed--
@@ -47,7 +50,7 @@ function reverseString(str) {
   return str;
 }
 
-reverseString("hello");
+reverseString('hello');
 ```
 
 # --solutions--
@@ -57,5 +60,5 @@ function reverseString(str) {
   return str.split('').reverse().join('');
 }
 
-reverseString("hello");
+reverseString('hello');
 ```

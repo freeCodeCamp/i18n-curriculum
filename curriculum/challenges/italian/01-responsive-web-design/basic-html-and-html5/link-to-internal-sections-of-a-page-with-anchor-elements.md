@@ -36,45 +36,37 @@ Quindi aggiungi un attributo `id` con un valore di `footer` all'elemento `<foote
 Ci dovrebbe essere un solo tag di ancoraggio nella tua pagina.
 
 ```js
-assert($('a').length == 1);
+assert.lengthOf(document.querySelectorAll('a'), 1);
 ```
 
 Ci dovrebbe essere solo un tag `footer` nella tua pagina.
 
 ```js
-assert($('footer').length == 1);
+assert.lengthOf(document.querySelectorAll('footer'),1);
 ```
 
 Il tag `a` dovrebbe avere un attributo `href` impostato a "#footer".
 
 ```js
-assert($('a').eq(0).attr('href') == '#footer');
+assert.strictEqual(document.querySelector('a').getAttribute('href'), '#footer');
 ```
 
 Il tag `a` non dovrebbe avere un attributo `target`.
 
 ```js
-assert(
-  typeof $('a').eq(0).attr('target') == typeof undefined ||
-    $('a').eq(0).attr('target') == true
-);
+assert.notExists(document.querySelector('a').getAttribute('target'));
 ```
 
 Il testo `a` dovrebbe essere "Jump to Bottom".
 
 ```js
-assert(
-  $('a')
-    .eq(0)
-    .text()
-    .match(/Jump to Bottom/gi)
-);
+assert.match(document.querySelector('a').textContent,/Jump to Bottom/gi);
 ```
 
 Il tag `footer` dovrebbe avere un attributo `id` impostato a "footer".
 
 ```js
-assert($('footer').eq(0).attr('id') == 'footer');
+assert.strictEqual(document.querySelector('footer').getAttribute('id'),'footer');
 ```
 
 # --seed--

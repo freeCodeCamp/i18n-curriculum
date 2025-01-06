@@ -22,35 +22,33 @@ Commenta il tuo elemento `h1` e il tuo elemento `p`, ma non il tuo elemento `h2`
 Il tuo elemento `h1` dovrebbe essere commentato in modo da non essere visibile nella pagina.
 
 ```js
-assert($('h1').length === 0);
+assert.isEmpty(document.querySelectorAll('h1'));
 ```
 
 Il tuo elemento `h2` non dovrebbe essere commentato in modo da essere visibile nella pagina.
 
 ```js
-assert($('h2').length > 0);
+assert.isNotEmpty(document.querySelectorAll('h2'));
 ```
 
 Il tuo elemento `p` dovrebbe essere commentato in modo che non sia visibile sulla pagina.
 
 ```js
-assert($('p').length === 0);
+assert.isEmpty(document.querySelectorAll('p'));
 ```
 
 Ciascuno dei tuoi commenti dovrebbe essere chiuso con `-->`.
 
 ```js
-assert(code.match(/[^fc]-->/g).length > 1);
+assert.isAbove(code.match(/[^fc]-->/g).length, 1);
 ```
 
 Non dovresti modificare l'ordine degli elementi `h1` `h2` o `p` nel codice.
 
 ```js
-assert(
-  code.match(/<([a-z0-9]){1,2}>/g)[0] === '<h1>' &&
-    code.match(/<([a-z0-9]){1,2}>/g)[1] === '<h2>' &&
-    code.match(/<([a-z0-9]){1,2}>/g)[2] === '<p>'
-);
+assert.strictEqual(code.match(/<([a-z0-9]){1,2}>/g)[0],'<h1>');
+assert.strictEqual(code.match(/<([a-z0-9]){1,2}>/g)[1],'<h2>');
+assert.strictEqual(code.match(/<([a-z0-9]){1,2}>/g)[2],'<p>');
 ```
 
 # --seed--

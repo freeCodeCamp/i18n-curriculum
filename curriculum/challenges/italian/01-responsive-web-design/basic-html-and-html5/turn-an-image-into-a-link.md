@@ -30,23 +30,25 @@ Una volta fatto questo, passa sopra alla tua immagine con il cursore. Il puntato
 L'elemento `img` esistente deve essere annidato all'interno di un elemento `a`.
 
 ```js
-assert($('a').children('img').length > 0);
+const anchor = document.querySelectorAll('a')[1];
+const children = anchor.querySelectorAll("img");
+assert.notEmpty(children);
 ```
 
 Your `a` element should be a dead link with an `href` attribute set to `#`.
 
 ```js
-assert(new RegExp('#').test($('a').children('img').parent().attr('href')));
+const anchor = document.querySelectorAll('a')[1];
+const parentHREF = anchor.querySelector("img").parentNode.getAttribute('href');
+assert.match(parentHREF,new RegExp('#'));
 ```
 
 Ognuno dei tuoi elementi `a` dovrebbe avere un tag di chiusura.
 
 ```js
-assert(
-  code.match(/<\/a>/g) &&
-    code.match(/<a/g) &&
-    code.match(/<\/a>/g).length === code.match(/<a/g).length
-);
+assert.match(code,/<\/a>/g);
+assert.match(code,/<a/g);
+assert.strictEqual(code.match(/<\/a>/g).length, code.match(/<a/g).length)
 ```
 
 # --seed--

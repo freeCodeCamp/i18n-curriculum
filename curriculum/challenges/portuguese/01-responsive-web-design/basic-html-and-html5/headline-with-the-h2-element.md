@@ -24,34 +24,32 @@ Adicione a tag `h2` com o texto "CatPhotoApp" para criar um segundo elemento HTM
 Você deve criar um elemento `h2`.
 
 ```js
-assert($('h2').length > 0);
+assert.lengthOf(document.querySelectorAll('h2'),1);
 ```
 
 O elemento `h2` deve ter uma tag de fechamento.
 
 ```js
-assert(
-  code.match(/<\/h2>/g) &&
-    code.match(/<\/h2>/g).length === code.match(/<h2>/g).length
-);
+assert.match(code,/<\/h2>/g);
+assert.strictEqual(code.match(/<\/h2>/g).length,code.match(/<h2>/g).length);
 ```
 
 O elemento `h2` deve conter o texto `CatPhotoApp`.
 
 ```js
-assert.isTrue(/cat(\s)?photo(\s)?app/gi.test($('h2').text()));
+assert.match(document.querySelector('h2').textContent,/cat(\s)?photo(\s)?app/gi);
 ```
 
 O elemento `h1` deve conter o texto `Hello World`.
 
 ```js
-assert.isTrue(/hello(\s)+world/gi.test($('h1').text()));
+assert.match(document.querySelector('h1').textContent,/hello(\s)+world/gi);
 ```
 
 O elemento `h1` deve estar antes do elemento `h2`.
 
 ```js
-assert(code.match(/<h1>\s*?.*?\s*?<\/h1>\s*<h2>\s*?.*?\s*?<\/h2>/gi));
+assert.match(code,/<h1>\s*?.*?\s*?<\/h1>\s*<h2>\s*?.*?\s*?<\/h2>/gi);
 ```
 
 # --seed--

@@ -26,28 +26,32 @@ Suggerimento: Prova a mettere il tuo tag `div` di apertura sopra l'elemento `p` 
 I tuoi elementi `p` dovrebbero essere annidati all'interno dell'elemento `div`.
 
 ```js
-assert($('div').children('p').length > 1);
+const div = document.querySelector('div');
+const children = div.querySelectorAll('p');
+assert.isAbove(children.length,1);
 ```
 
 Il tuo elemento `ul` dovrebbe essere annidato all'interno dell'elemento `div`.
 
 ```js
-assert($('div').children('ul').length > 0);
+const div = document.querySelector('div');
+const children = div.querySelectorAll('ul');
+assert.notEmpty(children);
 ```
 
 Il tuo elemento `ol` dovrebbe essere annidato all'interno dell'elemento `div`.
 
 ```js
-assert($('div').children('ol').length > 0);
+const div = document.querySelector('div');
+const children = div.querySelectorAll('ol');
+assert.notEmpty(children);
 ```
 
 Il tuo elemento `div` dovrebbe avere un tag di chiusura.
 
 ```js
-assert(
-  code.match(/<\/div>/g) &&
-    code.match(/<\/div>/g).length === code.match(/<div>/g).length
-);
+assert.match(code,/<\/div>/g);
+assert.strictEqual(code.match(/<\/div>/g).length,code.match(/<div>/g).length);
 ```
 
 # --seed--

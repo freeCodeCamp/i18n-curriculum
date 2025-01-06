@@ -28,22 +28,20 @@ Crea un elemento `a` che si colleghi a `https://www.freecatphotoapp.com` e abbia
 Il tuo elemento `a` dovrebbe avere il testo di ancoraggio: `cat photos`.
 
 ```js
-assert(/cat photos/gi.test($('a').text()));
+assert.match(document.querySelector('a').textContent,/cat photos/gi);
 ```
 
 Hai bisogno di un elemento `a` che si colleghi a `https://www.freecatphotoapp.com`
 
 ```js
-assert(/^https?:\/\/(www\.)?freecatphotoapp\.com\/?$/i.test($('a').attr('href')));
+assert.match(document.querySelector('a').getAttribute('href'),/^https?:\/\/(www\.)?freecatphotoapp\.com\/?$/i);
 ```
 
 Il tuo elemento `a` dovrebbe avere un tag di chiusura.
 
 ```js
-assert(
-  code.match(/<\/a>/g) &&
-    code.match(/<\/a>/g).length === code.match(/<a/g).length
-);
+assert.match(code,/<\/a>/g);
+assert.strictEqual(code.match(/<\/a>/g).length,code.match(/<a/g).length);
 ```
 
 # --seed--

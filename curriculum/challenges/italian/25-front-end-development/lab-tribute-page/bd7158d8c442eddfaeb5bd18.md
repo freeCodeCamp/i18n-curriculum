@@ -1,7 +1,7 @@
 ---
 id: bd7158d8c442eddfaeb5bd18
 title: Crea una Tribute Page
-challengeType: 14
+challengeType: 25
 demoType: onClick
 dashedName: build-a-tribute-page
 ---
@@ -29,111 +29,125 @@ Fulfill the user stories below and get all the tests to pass to complete the lab
 Dovrebbe esserci un elemento `main` con un `id` di `main`.
 
 ```js
-const el = document.getElementById('main')
-assert(!!el && el.tagName === 'MAIN')
+const el = document.getElementById('main');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'MAIN');
 ```
 
 Gli elementi `#img-div`, `#image`, `#img-caption`, `#tribute-info`, e `#tribute-link` dovrebbero essere tutti discendenti di `#main`.
 
 ```js
-const el1 = document.querySelector('#main #img-div')
-const el2 = document.querySelector('#main #image')
-const el3 = document.querySelector('#main #img-caption')
-const el4 = document.querySelector('#main #tribute-info')
-const el5 = document.querySelector('#main #tribute-link')
-assert(!!el1 & !!el2 && !!el3 && !!el4 && !!el5)
+const el1 = document.querySelector('#main #img-div');
+const el2 = document.querySelector('#main #image');
+const el3 = document.querySelector('#main #img-caption');
+const el4 = document.querySelector('#main #tribute-info');
+const el5 = document.querySelector('#main #tribute-link');
+assert.isNotNull(el1);
+assert.isNotNull(el2);
+assert.isNotNull(el3);
+assert.isNotNull(el4);
+assert.isNotNull(el5);
 ```
 
 Dovresti avere un elemento con un attributo `id` avente valore di `title`.
 
 ```js
-const el = document.getElementById('title')
-assert(!!el)
+const el = document.getElementById('title');
+assert.isNotNull(el);
 ```
 
 Il tuo elemento `#title` non dovrebbe essere vuoto.
 
 ```js
-const el = document.getElementById('title')
-assert(!!el && el.innerText.length > 0)
-
+const el = document.getElementById('title');
+assert.isNotNull(el);
+assert.isNotEmpty(el.innerText, 0);
 ```
 
 Dovrebbe esserci o un elemento `figure` o un elemento `div` con un attributo `id` di `img-div`.
 
 ```js
-const el = document.getElementById('img-div')
-assert(!!el && (el.tagName === 'DIV' || el.tagName === 'FIGURE'))
+const el = document.getElementById('img-div');
+assert.isNotNull(el);
+assert.isTrue(el.tagName === 'DIV' || el.tagName === 'FIGURE');
 ```
 
 Dovrebbe esserci un elemento `img` con un `id` di `image`.
 
 ```js
-const el = document.getElementById('image')
-assert(!!el && el.tagName === 'IMG')
+const el = document.getElementById('image');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'IMG');
 ```
 
 Il tuo elemento `#image` dovrebbe essere un discendente di `#img-div`.
 
 ```js
-const el = document.querySelector('#img-div #image')
-assert(!!el)
+const el = document.querySelector('#img-div #image');
+assert.isNotNull(el);
 ```
 
 Dovrebbe esserci o un elemento `figcaption` o un elemento `div` con un attributo `id` di `img-caption`.
 
 ```js
-const el = document.getElementById('img-caption')
-assert(!!el && (el.tagName === 'DIV' || el.tagName === 'FIGCAPTION'))
+const el = document.getElementById('img-caption');
+assert.isNotNull(el);
+assert.isTrue(el.tagName === 'DIV' || el.tagName === 'FIGCAPTION');
 ```
 
 L'elemento `#img-caption` dovrebbe essere un discendente di `#img-div`.
 
 ```js
-const el = document.querySelector('#img-div #img-caption')
-assert(!!el)
+const el = document.querySelector('#img-div #img-caption');
+assert.isNotNull(el);
 ```
 
 L'elemento `#img-caption` non dovrebbe essere vuoto.
 
 ```js
-const el = document.getElementById('img-caption')
-assert(!!el && el.innerText.length > 0)
+const el = document.getElementById('img-caption');
+assert.isNotNull(el);
+assert.isNotEmpty(el.innerText);
 ```
 
 Dovrevve esserci un elemento con un attributo `id` di `tribute-info`.
 
 ```js
-const el = document.getElementById('tribute-info')
-assert(!!el)
+const el = document.getElementById('tribute-info');
+assert.isNotNull(el);
 ```
 
 L'elemento `#tribute-info` non dovrebbe essere vuoto.
 
 ```js
-const el = document.getElementById('tribute-info')
-assert(!!el && el.innerText.length > 0)
+const el = document.getElementById('tribute-info');
+assert.isNotNull(el);
+assert.isNotEmpty(el.innerText);
 ```
 
 Dovrebbe esserci un elemento `a` con un `id` di `tribute-link`.
 
 ```js
-const el = document.getElementById('tribute-link')
-assert(!!el && el.tagName === 'A')
+const el = document.getElementById('tribute-link');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'A');
 ```
 
 L'elemento `#tribute-link` dovrebbe avere un attributo `href` con un valore.
 
 ```js
-const el = document.getElementById('tribute-link')
-assert(!!el && !!el.href && el.href.length > 0)
+const el = document.getElementById('tribute-link');
+assert.isNotNull(el);
+assert.isNotNull(el.href);
+assert.isNotEmpty(el.href);
 ```
 
 L'elemento `#tribute-link` dovrebbe avere un attributo `target` di `_blank`.
 
 ```js
-const el = document.getElementById('tribute-link')
-assert(!!el && el.target === '_blank')
+const el = document.getElementById('tribute-link');
+assert.isNotNull(el);
+assert.strictEqual(el.target, '_blank');
 ```
 
 Il tuo elemento `img` dovrebbe avere un'`display` di `block`.
@@ -141,8 +155,8 @@ Il tuo elemento `img` dovrebbe avere un'`display` di `block`.
 ```js
 const img = document.getElementById('image');
 const imgStyle = window.getComputedStyle(img);
-const style = imgStyle?.getPropertyValue('display')
-assert(style === 'block')
+const style = imgStyle?.getPropertyValue('display');
+assert.strictEqual(style, 'block');
 ```
 
 `#image` dovrebbe avere una proprietà `max-width` di `100%`.
@@ -150,8 +164,8 @@ assert(style === 'block')
 ```js
 const img = document.getElementById('image');
 const imgStyle = window.getComputedStyle(img);
-const style = imgStyle?.getPropertyValue('max-width')
-assert(style === '100%')
+const style = imgStyle?.getPropertyValue('max-width');
+assert.strictEqual(style, '100%');
 ```
 
 `#image` dovrebbe avere una proprietà `height` di `auto`.
@@ -163,9 +177,9 @@ const imgStyle = window.getComputedStyle(img);
 const oldDisplayValue = imgStyle.getPropertyValue('display');
 const oldDisplayPriority = imgStyle.getPropertyPriority('display');
 img?.style.setProperty('display', 'none', 'important');
-const heightValue = imgStyle?.getPropertyValue('height')
+const heightValue = imgStyle?.getPropertyValue('height');
 img?.style.setProperty('display', oldDisplayValue, oldDisplayPriority);
-assert(heightValue === 'auto')
+assert.strictEqual(heightValue, 'auto');
 ```
 
 L'elemento `#image` dovrebbe essere centrato dentro l'elemento genitore.
@@ -180,7 +194,8 @@ const img = document.getElementById('image'),
   parentRight = imgParent?.getBoundingClientRect().right,
   leftMargin = imgLeft - parentLeft,
   rightMargin = parentRight - imgRight;
-assert(leftMargin - rightMargin < 6 && rightMargin - leftMargin < 6)
+assert.isBelow(leftMargin - rightMargin, 6);
+assert.isBelow(rightMargin - leftMargin, 6);
 ```
 
 # --seed--
@@ -190,16 +205,12 @@ assert(leftMargin - rightMargin < 6 && rightMargin - leftMargin < 6)
 ```html
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Tribute Page</title>
-</head>
+  </head>
 
-<body>
-
-</body>
-
+  <body></body>
 </html>
 ```
 
@@ -253,7 +264,7 @@ assert(leftMargin - rightMargin < 6 && rightMargin - leftMargin < 6)
             <strong>1938</strong> - Marries wife of 69 years Margret Gibson.
             Gets laid off due to budget cuts. Inspired by Elvin Charles Stakman,
             he returns to school study under Stakman, who teaches him about
-            breeding pest-resistent plants.
+            breeding pest-resistant plants.
           </li>
           <li>
             <strong>1941</strong> - Tries to enroll in the military after the
@@ -269,7 +280,7 @@ assert(leftMargin - rightMargin < 6 && rightMargin - leftMargin < 6)
             <strong>1944</strong> - Rejects a 100% salary increase from Dupont,
             leaves behind his pregnant wife, and flies to Mexico to head a new
             plant pathology program. Over the next 16 years, his team breeds
-            6,000 different strains of disease resistent wheat - including
+            6,000 different strains of disease resistant wheat - including
             different varieties for each major climate on Earth.
           </li>
           <li>

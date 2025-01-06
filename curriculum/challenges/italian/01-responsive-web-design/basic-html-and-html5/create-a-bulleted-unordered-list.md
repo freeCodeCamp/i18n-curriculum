@@ -33,39 +33,35 @@ Rimuovi gli ultimi due elementi `p` e crea in fondo alla pagina una lista non or
 Crea un elemento `ul`.
 
 ```js
-assert($('ul').length > 0);
+assert.isNotEmpty(document.querySelectorAll('ul'));
 ```
 
 Dovresti avere tre elementi `li` all'interno del tuo elemento `ul`.
 
 ```js
-assert($('ul li').length > 2);
+assert.lengthOf(document.querySelectorAll('ul li'),3);
 ```
 
 Il tuo elemento `ul` dovrebbe avere un tag di chiusura.
 
 ```js
-assert(
-  code.match(/<\/ul>/gi) &&
-    code.match(/<ul/gi) &&
-    code.match(/<\/ul>/gi).length === code.match(/<ul/gi).length
-);
+assert.match(code,/<\/ul>/gi);
+assert.match(code,/<ul/gi);
+assert.strictEqual(code.match(/<\/ul>/gi).length,code.match(/<ul/gi).length);
 ```
 
 Il tuo elemento `li` dovrebbe avere un tag di chiusura.
 
 ```js
-assert(
-  code.match(/<\/li>/gi) &&
-    code.match(/<li[\s>]/gi) &&
-    code.match(/<\/li>/gi).length === code.match(/<li[\s>]/gi).length
-);
+assert.match(code,/<\/li>/gi);
+assert.match(code,/<li[\s>]/gi);
+assert.strictEqual(code.match(/<\/li>/gi).length,code.match(/<li[\s>]/gi).length);
 ```
 
 I tuoi elementi `li` non dovrebbero contenere una stringa vuota o solo spazi bianchi.
 
 ```js
-assert($('ul li').filter((_, item) => !$(item).text().trim()).length === 0);
+assert.isEmpty([...document.querySelectorAll('ul li')].filter((item) => item.textContent.trim() === ""));
 ```
 
 # --seed--

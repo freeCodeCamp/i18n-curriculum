@@ -26,35 +26,40 @@ Usa la notazione in senso orario per dare alla classe `.blue-box` un `padding` d
 La tua classe `blue-box` dovrebbe dare alla parte superiore degli elementi `40px` di `padding`.
 
 ```js
-assert($('.blue-box').css('padding-top') === '40px');
+const blueBox = document.querySelector('.blue-box');
+const paddingTop = window.getComputedStyle(blueBox)['padding-top'];
+assert.strictEqual(paddingTop, '40px');
 ```
 
 La tua classe `blue-box` dovrebbe dare al lato destro degli elementi `20px` di `padding`.
 
 ```js
-assert($('.blue-box').css('padding-right') === '20px');
+const blueBox = document.querySelector('.blue-box');
+const paddingRight = window.getComputedStyle(blueBox)['padding-right'];
+assert.strictEqual(paddingRight, '20px');
 ```
 
 La tua classe `blue-box` dovrebbe dare alla parte inferiore degli elementi `20px` di `padding`.
 
 ```js
-assert($('.blue-box').css('padding-bottom') === '20px');
+const blueBox = document.querySelector('.blue-box');
+const paddingBottom = window.getComputedStyle(blueBox)['padding-bottom'];
+assert.strictEqual(paddingBottom, '20px');
 ```
 
 La tua classe `blue-box` dovrebbe dare alla parte sinistra degli elementi `40px` di `padding`.
 
 ```js
-assert($('.blue-box').css('padding-left') === '40px');
+const blueBox = document.querySelector('.blue-box');
+const paddingLeft = window.getComputedStyle(blueBox)['padding-left'];
+assert.strictEqual(paddingLeft, '40px');
 ```
 
 Dovresti usare la notazione in senso orario per impostare il padding della classe `blue-box`.
 
 ```js
-assert(
-  /\.blue-box\s*{[\s\S]*padding[\s]*:\s*\d+px\s+\d+px\s+\d+px\s+\d+px(;\s*[^}]+\s*}|;?\s*})/.test(
-    __helpers.removeCssComments($('style').text())
-  )
-);
+const css =  __helpers.removeCssComments(document.querySelector('style:not(.fcc-hide-header)').textContent);
+assert.match(css, /\.blue-box\s*{[\s\S]*padding\s*:\s*\d+px\s+\d+px\s+\d+px\s+\d+px(;\s*[^}]+\s*}|;?\s*})/);
 ```
 
 # --seed--

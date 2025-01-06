@@ -16,34 +16,42 @@ Classes allow you to use the same CSS styles on multiple HTML elements. You can 
 O elemento `h2` deve ser vermelho.
 
 ```js
-assert($('h2').css('color') === 'rgb(255, 0, 0)');
+const h2Element = document.querySelector('h2');
+const color = window.getComputedStyle(h2Element)['color']; 
+assert.strictEqual(color, 'rgb(255, 0, 0)');
 ```
 
 O elemento `h2` deve ter a classe `red-text`.
 
 ```js
-assert($('h2').hasClass('red-text'));
+assert.isTrue(document.querySelector('h2').classList.contains('red-text'));
 ```
 
 O primeiro elemento `p` deve ser vermelho.
 
 ```js
-assert($('p:eq(0)').css('color') === 'rgb(255, 0, 0)');
+const paragraph = document.querySelectorAll('p')[0];
+const color = window.getComputedStyle(paragraph )['color'];
+assert.strictEqual(color, 'rgb(255, 0, 0)');
 ```
 
 O segundo e terceiro elementos `p` não devem ser vermelhos.
 
 ```js
-assert(
-  !($('p:eq(1)').css('color') === 'rgb(255, 0, 0)') &&
-    !($('p:eq(2)').css('color') === 'rgb(255, 0, 0)')
-);
+const paragraph2 = document.querySelectorAll('p')[1];
+const paragraph3 = document.querySelectorAll('p')[2];
+
+const color2 = window.getComputedStyle(paragraph2)['color'];
+const color3 = window.getComputedStyle(paragraph3)['color'];
+
+assert.notStrictEqual(color2, 'rgb(255, 0, 0)');
+assert.notStrictEqual(color3, 'rgb(255, 0, 0)');
 ```
 
 O primeiro elemento `p` deve ter a classe `red-text`.
 
 ```js
-assert($('p:eq(0)').hasClass('red-text'));
+assert.isTrue(document.querySelectorAll('p')[0].classList.contains('red-text'));
 ```
 
 # --seed--

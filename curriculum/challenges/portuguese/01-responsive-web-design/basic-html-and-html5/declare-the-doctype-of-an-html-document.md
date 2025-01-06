@@ -37,19 +37,19 @@ Adicione uma tag `DOCTYPE` na parte superior do documento HTML em branco no edit
 O código deve incluir a tag `<!DOCTYPE html>`.
 
 ```js
-assert(code.match(/<!DOCTYPE\s+?html\s*?>/gi));
+assert.match(code,/<!DOCTYPE\s+?html\s*?>/gi);
 ```
 
 Deve haver um elemento `html`.
 
 ```js
-assert($('html').length == 1);
+assert.lengthOf(document.querySelectorAll('html'), 1);
 ```
 
 As tags `html` devem estar ao redor do elemento `h1`.
 
 ```js
-assert(code.match(/<html>\s*?<h1>\s*?.*?\s*?<\/h1>\s*?<\/html>/gi));
+assert.match(code,/<html>\s*?<h1>\s*?.*?\s*?<\/h1>\s*?<\/html>/gi);
 ```
 
 # --seed--

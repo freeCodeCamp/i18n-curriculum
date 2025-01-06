@@ -17,37 +17,37 @@ The formula to convert from Celsius to Fahrenheit is the temperature in Celsius 
 `convertCtoF(0)`는 숫자를 반환해야 합니다.
 
 ```js
-assert(typeof convertCtoF(0) === 'number');
+assert.isNumber(convertCtoF(0));
 ```
 
 `convertCtoF(-30)`는 `-22` 를 반환해야 합니다.
 
 ```js
-assert(convertCtoF(-30) === -22);
+assert.strictEqual(convertCtoF(-30), -22);
 ```
 
 `convertCtoF(-10)`는 `14`를 반환해야 합니다.
 
 ```js
-assert(convertCtoF(-10) === 14);
+assert.strictEqual(convertCtoF(-10), 14);
 ```
 
 `convertCtoF(0)`는 `32`를 반환해야 합니다.
 
 ```js
-assert(convertCtoF(0) === 32);
+assert.strictEqual(convertCtoF(0), 32);
 ```
 
 `convertCtoF(20)`는 `68`을 반환해야 합니다.
 
 ```js
-assert(convertCtoF(20) === 68);
+assert.strictEqual(convertCtoF(20), 68);
 ```
 
 `convertCtoF(30)`는 `86`을 반환해야 합니다.
 
 ```js
-assert(convertCtoF(30) === 86);
+assert.strictEqual(convertCtoF(30), 86);
 ```
 
 # --seed--
@@ -67,7 +67,7 @@ convertCtoF(30);
 
 ```js
 function convertCtoF(celsius) {
-  let fahrenheit = celsius * 9/5 + 32;
+  let fahrenheit = celsius * (9 / 5) + 32;
   return fahrenheit;
 }
 

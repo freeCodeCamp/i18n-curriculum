@@ -70,7 +70,7 @@ window.alert = (message) => alertMessage = message; // Override alert and store 
 inputEl.value = '';
 inputEl.dispatchEvent(new Event('change'))
 checkBtn.click();
-assert.strictEqual(alertMessage.trim().replace(/[.,?!]+$/g, '').toLowerCase(), 'please input a value');
+assert.strictEqual(alertMessage?.trim().replace(/[.,?!]+$/g, '').toLowerCase(), 'please input a value');
 ```
 
 当 `#text-input` 元素只包含字母 `A`，并且 `#check-btn` 元素被点击时，`#result` 元素应该包含文本 `"A is a palindrome"`。

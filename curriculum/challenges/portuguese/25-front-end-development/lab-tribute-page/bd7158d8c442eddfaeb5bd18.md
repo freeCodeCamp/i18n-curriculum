@@ -1,7 +1,7 @@
 ---
 id: bd7158d8c442eddfaeb5bd18
 title: Criar uma página de homenagem
-challengeType: 14
+challengeType: 25
 demoType: onClick
 dashedName: build-a-tribute-page
 ---
@@ -29,111 +29,125 @@ Atenda às histórias de usuário abaixo e faça todos os testes passarem para c
 Você deve ter um elemento `main` com o `id` `main`.
 
 ```js
-const el = document.getElementById('main')
-assert(!!el && el.tagName === 'MAIN')
+const el = document.getElementById('main');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'MAIN');
 ```
 
 Os elementos `#img-div`, `#image`, `#img-caption`, `#tribute-info` e `#tribute-link` devem estar aninhados dentro de `#main`.
 
 ```js
-const el1 = document.querySelector('#main #img-div')
-const el2 = document.querySelector('#main #image')
-const el3 = document.querySelector('#main #img-caption')
-const el4 = document.querySelector('#main #tribute-info')
-const el5 = document.querySelector('#main #tribute-link')
-assert(!!el1 & !!el2 && !!el3 && !!el4 && !!el5)
+const el1 = document.querySelector('#main #img-div');
+const el2 = document.querySelector('#main #image');
+const el3 = document.querySelector('#main #img-caption');
+const el4 = document.querySelector('#main #tribute-info');
+const el5 = document.querySelector('#main #tribute-link');
+assert.isNotNull(el1);
+assert.isNotNull(el2);
+assert.isNotNull(el3);
+assert.isNotNull(el4);
+assert.isNotNull(el5);
 ```
 
 Você deve ter um elemento com o `id` `title`.
 
 ```js
-const el = document.getElementById('title')
-assert(!!el)
+const el = document.getElementById('title');
+assert.isNotNull(el);
 ```
 
 O elemento `#title` não deve estar vazio.
 
 ```js
-const el = document.getElementById('title')
-assert(!!el && el.innerText.length > 0)
-
+const el = document.getElementById('title');
+assert.isNotNull(el);
+assert.isNotEmpty(el.innerText, 0);
 ```
 
 Você deve ter um elemento `figure` ou um elemento `div` com o `id` `img-div`.
 
 ```js
-const el = document.getElementById('img-div')
-assert(!!el && (el.tagName === 'DIV' || el.tagName === 'FIGURE'))
+const el = document.getElementById('img-div');
+assert.isNotNull(el);
+assert.isTrue(el.tagName === 'DIV' || el.tagName === 'FIGURE');
 ```
 
 Você deve ter um elemento `img` com o `id` `image`.
 
 ```js
-const el = document.getElementById('image')
-assert(!!el && el.tagName === 'IMG')
+const el = document.getElementById('image');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'IMG');
 ```
 
 O elemento `#image` deve estar aninhado dentro de `#img-div`.
 
 ```js
-const el = document.querySelector('#img-div #image')
-assert(!!el)
+const el = document.querySelector('#img-div #image');
+assert.isNotNull(el);
 ```
 
 Você deve ter um elemento `figcaption` ou um elemento `div` com o `id` `img-caption`.
 
 ```js
-const el = document.getElementById('img-caption')
-assert(!!el && (el.tagName === 'DIV' || el.tagName === 'FIGCAPTION'))
+const el = document.getElementById('img-caption');
+assert.isNotNull(el);
+assert.isTrue(el.tagName === 'DIV' || el.tagName === 'FIGCAPTION');
 ```
 
 O elemento `#img-caption` deve estar aninhado dentro de `#img-div`.
 
 ```js
-const el = document.querySelector('#img-div #img-caption')
-assert(!!el)
+const el = document.querySelector('#img-div #img-caption');
+assert.isNotNull(el);
 ```
 
 O elemento `#img-caption` não deve estar vazio.
 
 ```js
-const el = document.getElementById('img-caption')
-assert(!!el && el.innerText.length > 0)
+const el = document.getElementById('img-caption');
+assert.isNotNull(el);
+assert.isNotEmpty(el.innerText);
 ```
 
 Você deve ter um elemento com o `id` `tribute-info`.
 
 ```js
-const el = document.getElementById('tribute-info')
-assert(!!el)
+const el = document.getElementById('tribute-info');
+assert.isNotNull(el);
 ```
 
 O elemento `#tribute-info` não deve estar vazio.
 
 ```js
-const el = document.getElementById('tribute-info')
-assert(!!el && el.innerText.length > 0)
+const el = document.getElementById('tribute-info');
+assert.isNotNull(el);
+assert.isNotEmpty(el.innerText);
 ```
 
 Você deve ter um elemento `a` com o `id` `tribute-link`.
 
 ```js
-const el = document.getElementById('tribute-link')
-assert(!!el && el.tagName === 'A')
+const el = document.getElementById('tribute-link');
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'A');
 ```
 
 O elemento `#tribute-link` deve ter o atributo `href` e um valor.
 
 ```js
-const el = document.getElementById('tribute-link')
-assert(!!el && !!el.href && el.href.length > 0)
+const el = document.getElementById('tribute-link');
+assert.isNotNull(el);
+assert.isNotNull(el.href);
+assert.isNotEmpty(el.href);
 ```
 
 O elemento `#tribute-link` deve ter um atributo `target` definido como `_blank`.
 
 ```js
-const el = document.getElementById('tribute-link')
-assert(!!el && el.target === '_blank')
+const el = document.getElementById('tribute-link');
+assert.isNotNull(el);
+assert.strictEqual(el.target, '_blank');
 ```
 
 O elemento `img` deve ter o atributo `display` com o valor `block`.
@@ -141,8 +155,8 @@ O elemento `img` deve ter o atributo `display` com o valor `block`.
 ```js
 const img = document.getElementById('image');
 const imgStyle = window.getComputedStyle(img);
-const style = imgStyle?.getPropertyValue('display')
-assert(style === 'block')
+const style = imgStyle?.getPropertyValue('display');
+assert.strictEqual(style, 'block');
 ```
 
 O elemento `#image` deve ter o atributo `max-width` com o valor `100%`.
@@ -150,8 +164,8 @@ O elemento `#image` deve ter o atributo `max-width` com o valor `100%`.
 ```js
 const img = document.getElementById('image');
 const imgStyle = window.getComputedStyle(img);
-const style = imgStyle?.getPropertyValue('max-width')
-assert(style === '100%')
+const style = imgStyle?.getPropertyValue('max-width');
+assert.strictEqual(style, '100%');
 ```
 
 O elemento `#image` deve ter o atributo `height` com o valor `auto`.
@@ -163,9 +177,9 @@ const imgStyle = window.getComputedStyle(img);
 const oldDisplayValue = imgStyle.getPropertyValue('display');
 const oldDisplayPriority = imgStyle.getPropertyPriority('display');
 img?.style.setProperty('display', 'none', 'important');
-const heightValue = imgStyle?.getPropertyValue('height')
+const heightValue = imgStyle?.getPropertyValue('height');
 img?.style.setProperty('display', oldDisplayValue, oldDisplayPriority);
-assert(heightValue === 'auto')
+assert.strictEqual(heightValue, 'auto');
 ```
 
 O elemento `#image` deve ser centralizado dentro de seu elemento pai.
@@ -180,7 +194,8 @@ const img = document.getElementById('image'),
   parentRight = imgParent?.getBoundingClientRect().right,
   leftMargin = imgLeft - parentLeft,
   rightMargin = parentRight - imgRight;
-assert(leftMargin - rightMargin < 6 && rightMargin - leftMargin < 6)
+assert.isBelow(leftMargin - rightMargin, 6);
+assert.isBelow(rightMargin - leftMargin, 6);
 ```
 
 # --seed--
@@ -190,16 +205,12 @@ assert(leftMargin - rightMargin < 6 && rightMargin - leftMargin < 6)
 ```html
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Tribute Page</title>
-</head>
+  </head>
 
-<body>
-
-</body>
-
+  <body></body>
 </html>
 ```
 
@@ -253,7 +264,7 @@ assert(leftMargin - rightMargin < 6 && rightMargin - leftMargin < 6)
             <strong>1938</strong> - Marries wife of 69 years Margret Gibson.
             Gets laid off due to budget cuts. Inspired by Elvin Charles Stakman,
             he returns to school study under Stakman, who teaches him about
-            breeding pest-resistent plants.
+            breeding pest-resistant plants.
           </li>
           <li>
             <strong>1941</strong> - Tries to enroll in the military after the
@@ -269,7 +280,7 @@ assert(leftMargin - rightMargin < 6 && rightMargin - leftMargin < 6)
             <strong>1944</strong> - Rejects a 100% salary increase from Dupont,
             leaves behind his pregnant wife, and flies to Mexico to head a new
             plant pathology program. Over the next 16 years, his team breeds
-            6,000 different strains of disease resistent wheat - including
+            6,000 different strains of disease resistant wheat - including
             different varieties for each major climate on Earth.
           </li>
           <li>

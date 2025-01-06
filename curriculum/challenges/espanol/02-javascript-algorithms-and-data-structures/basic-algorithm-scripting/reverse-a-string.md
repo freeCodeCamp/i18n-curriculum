@@ -17,25 +17,28 @@ Por ejemplo, `"hello"` debe convertirse `"olleh"`.
 `reverseString("hello")` debe devolver una cadena.
 
 ```js
-assert(typeof reverseString('hello') === 'string');
+assert.isString(reverseString('hello'));
 ```
 
 `reverseString("hello")` debe devolver la cadena `olleh`.
 
 ```js
-assert(reverseString('hello') === 'olleh');
+assert.strictEqual(reverseString('hello'), 'olleh');
 ```
 
 `reverseString("Howdy")` debe devolver la cadena `ydwoH`.
 
 ```js
-assert(reverseString('Howdy') === 'ydwoH');
+assert.strictEqual(reverseString('Howdy'), 'ydwoH');
 ```
 
 `reverseString("Greetings from Earth")` debe devolver la cadena `htraE morf sgniteerG`.
 
 ```js
-assert(reverseString('Greetings from Earth') === 'htraE morf sgniteerG');
+assert.strictEqual(
+  reverseString('Greetings from Earth'),
+  'htraE morf sgniteerG'
+);
 ```
 
 # --seed--
@@ -47,7 +50,7 @@ function reverseString(str) {
   return str;
 }
 
-reverseString("hello");
+reverseString('hello');
 ```
 
 # --solutions--
@@ -57,5 +60,5 @@ function reverseString(str) {
   return str.split('').reverse().join('');
 }
 
-reverseString("hello");
+reverseString('hello');
 ```

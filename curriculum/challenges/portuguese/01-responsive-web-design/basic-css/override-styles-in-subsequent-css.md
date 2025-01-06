@@ -34,25 +34,27 @@ O importante é a ordem em que as classes (`class`) são declaradas dentro da ta
 O elemento `h1` deve ter a classe `pink-text`.
 
 ```js
-assert($('h1').hasClass('pink-text'));
+assert.isTrue(document.querySelector('h1').classList.contains('pink-text'));
 ```
 
 O elemento `h1` deve ter a classe `blue-text`.
 
 ```js
-assert($('h1').hasClass('blue-text'));
+assert.isTrue(document.querySelector('h1').classList.contains('blue-text'));
 ```
 
 Tanto a classe `blue-text` quanto a classe `pink-text` devem pertencer ao mesmo elemento `h1`.
 
 ```js
-assert($('.pink-text').hasClass('blue-text'));
+assert.isTrue(document.querySelector('.pink-text').classList.contains('blue-text'));
 ```
 
 O texto do elemento `h1` deve ser azul.
 
 ```js
-assert($('h1').css('color') === 'rgb(0, 0, 255)');
+const h1Element = document.querySelector('h1');
+const color = window.getComputedStyle(h1Element)['color']; 
+assert.strictEqual(color, 'rgb(0, 0, 255)');
 ```
 
 # --seed--

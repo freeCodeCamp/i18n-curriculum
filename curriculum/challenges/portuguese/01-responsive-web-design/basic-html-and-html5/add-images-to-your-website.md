@@ -45,25 +45,22 @@ Por fim, não se esqueça de dar ao elemento `img` um atributo `alt` com um text
 A página deve ter um elemento de imagem.
 
 ```js
-assert($('img').length);
+assert.exists(document.querySelector('img'));
 ```
 
 A imagem deve ter um atributo `src` que aponte para o caminho da imagem do gatinho.
 
 ```js
-assert(/^https:\/\/cdn\.freecodecamp\.org\/curriculum\/cat-photo-app\/relaxing-cat\.jpg$/i.test($('img').attr('src')));
+const url = document.querySelector('img').getAttribute('src');
+assert.match(url,/^https:\/\/cdn\.freecodecamp\.org\/curriculum\/cat-photo-app\/relaxing-cat\.jpg$/i);
 ```
 
 O atributo `alt` do elemento de imagem não deve estar vazio.
 
 ```js
-assert(
-  $('img').attr('alt') &&
-    $('img').attr('alt').length &&
-    /<(?:img|IMG)\S*alt=(['"])(?!\1|>)\S+\1\S*\/?>/.test(
-      __helpers.removeWhiteSpace(code)
-    )
-);
+assert.exists(document.querySelector('img').getAttribute('alt'));
+assert.isNotEmpty(document.querySelector('img').getAttribute('alt'));
+assert.match(__helpers.removeWhiteSpace(code),/<(?:img|IMG)\S*alt=(['"])(?!\1|>)\S+\1\S*\/?>/)
 ```
 
 # --seed--

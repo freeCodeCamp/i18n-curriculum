@@ -30,17 +30,15 @@ Substitua a palavra `black` na cor de fundo do elemento `body` por sua represent
 O elemento `body` deve ter a propriedade `background-color` com o valor black (preto).
 
 ```js
-assert($('body').css('background-color') === 'rgb(0, 0, 0)');
+const body = document.querySelector('body');
+const backgroundColor = window.getComputedStyle(body)['background-color']; 
+assert.strictEqual(backgroundColor, 'rgb(0, 0, 0)');
 ```
 
 O código hexadecimal (hex code) para a cor preta deve ser usado no lugar da palavra `black`.
 
 ```js
-assert(
-  code.match(
-    /body\s*{(([\s\S]*;\s*?)|\s*?)background.*\s*:\s*?#000(000)?((\s*})|(;[\s\S]*?}))/gi
-  )
-);
+assert.match(code, /body\s*{(([\s\S]*;\s*?)|\s*?)background.*\s*:\s*?#000(000)?((\s*})|(;[\s\S]*?}))/gi);
 ```
 
 # --seed--

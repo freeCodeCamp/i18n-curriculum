@@ -34,49 +34,36 @@ Dai a ciascuno degli elementi di input esistenti di tipo `radio` e `checkbox` l'
 Uno dei tuoi pulsanti di opzione dovrebbe avere l'attributo `value` di `indoor`.
 
 ```js
-assert(
-  $('label:contains("Indoor") > input[type="radio"]').filter("[value='indoor']")
-    .length > 0
-);
+const indoorRadioButton = [...document.querySelectorAll('label > input[type="radio"]')].filter(x => x.value === "indoor");
+assert.notEmpty(indoorRadioButton)
 ```
 
 Uno dei tuoi pulsanti di opzione dovrebbe avere l'attributo `value` di `outdoor`.
 
 ```js
-assert(
-  $('label:contains("Outdoor") > input[type="radio"]').filter(
-    "[value='outdoor']"
-  ).length > 0
-);
+const outdoorRadioButton = [...document.querySelectorAll('label > input[type="radio"]')].filter(x => x.value === "outdoor");
+assert.notEmpty(outdoorRadioButton);
 ```
 
 Uno dei tuoi pulsanti di opzione dovrebbe avere l'attributo `value` di `loving`.
 
 ```js
-assert(
-  $('label:contains("Loving") > input[type="checkbox"]').filter(
-    "[value='loving']"
-  ).length > 0
-);
+const lovingCheckbox = [...document.querySelectorAll('label > input[type="checkbox"]')].filter(x => x.value === "loving");
+assert.notEmpty(lovingCheckbox); 
 ```
 
 Una delle tue caselle di spunta dovrebbe avere l'attributo `value` di `lazy`.
 
 ```js
-assert(
-  $('label:contains("Lazy") > input[type="checkbox"]').filter("[value='lazy']")
-    .length > 0
-);
+const lazyCheckbox = [...document.querySelectorAll('label > input[type="checkbox"]')].filter(x => x.value === "lazy");
+assert.notEmpty(lazyCheckbox); 
 ```
 
 Una delle tue caselle di spunta dovrebbe avere l'attributo `value` di `energetic`.
 
 ```js
-assert(
-  $('label:contains("Energetic") > input[type="checkbox"]').filter(
-    "[value='energetic']"
-  ).length > 0
-);
+const energeticCheckbox =  [...document.querySelectorAll('label > input[type="checkbox"]')].filter(x => x.value === "energetic");
+assert.notEmpty(energeticCheckbox);
 ```
 
 # --seed--

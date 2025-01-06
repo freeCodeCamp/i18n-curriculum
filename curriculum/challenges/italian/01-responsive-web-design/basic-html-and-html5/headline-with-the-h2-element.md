@@ -24,34 +24,32 @@ Aggiungi un tag `h2` che dice "CatPhotoApp" per creare un secondo elemento HTML 
 Dovresti creare un elemento `h2`.
 
 ```js
-assert($('h2').length > 0);
+assert.lengthOf(document.querySelectorAll('h2'),1);
 ```
 
 Il tuo elemento `h2` dovrebbe avere un tag di chiusura.
 
 ```js
-assert(
-  code.match(/<\/h2>/g) &&
-    code.match(/<\/h2>/g).length === code.match(/<h2>/g).length
-);
+assert.match(code,/<\/h2>/g);
+assert.strictEqual(code.match(/<\/h2>/g).length,code.match(/<h2>/g).length);
 ```
 
 Il tuo elemento `h2` dovrebbe contenere il testo `CatPhotoApp`.
 
 ```js
-assert.isTrue(/cat(\s)?photo(\s)?app/gi.test($('h2').text()));
+assert.match(document.querySelector('h2').textContent,/cat(\s)?photo(\s)?app/gi);
 ```
 
 Il tuo elemento `h1` dovrebbe contenere il testo `Hello World`.
 
 ```js
-assert.isTrue(/hello(\s)+world/gi.test($('h1').text()));
+assert.match(document.querySelector('h1').textContent,/hello(\s)+world/gi);
 ```
 
 Il tuo elemento `h1` dovrebbe venire prima del tuo elemento `h2`.
 
 ```js
-assert(code.match(/<h1>\s*?.*?\s*?<\/h1>\s*<h2>\s*?.*?\s*?<\/h2>/gi));
+assert.match(code,/<h1>\s*?.*?\s*?<\/h1>\s*<h2>\s*?.*?\s*?<\/h2>/gi);
 ```
 
 # --seed--

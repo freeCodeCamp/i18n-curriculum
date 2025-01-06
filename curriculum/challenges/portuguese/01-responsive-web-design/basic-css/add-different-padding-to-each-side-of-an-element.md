@@ -22,25 +22,33 @@ Dê à caixa azul um preenchimento (`padding`) de `40px` em seus lados superior 
 A classe `blue-box` deve criar um preenchimento (`padding`) de `40px` acima do elemento.
 
 ```js
-assert($('.blue-box').css('padding-top') === '40px');
+const blueBox = document.querySelector('.blue-box');
+const paddingTop = window.getComputedStyle(blueBox)['padding-top'];
+assert.strictEqual(paddingTop, '40px');
 ```
 
 A classe `blue-box` deve criar um preenchimento (`padding`) de `20px` à direita do elemento.
 
 ```js
-assert($('.blue-box').css('padding-right') === '20px');
+const blueBox = document.querySelector('.blue-box');
+const paddingRight = window.getComputedStyle(blueBox)['padding-right'];
+assert.strictEqual(paddingRight, '20px');
 ```
 
 A classe `blue-box` deve criar um preenchimento (`padding`) de `20px` abaixo do elemento.
 
 ```js
-assert($('.blue-box').css('padding-bottom') === '20px');
+const blueBox = document.querySelector('.blue-box');
+const paddingBottom = window.getComputedStyle(blueBox)['padding-bottom'];
+assert.strictEqual(paddingBottom, '20px');
 ```
 
 A classe `blue-box` deve criar um preenchimento (`padding`) de `40px` à esquerda do elemento.
 
 ```js
-assert($('.blue-box').css('padding-left') === '40px');
+const blueBox = document.querySelector('.blue-box');
+const paddingLeft = window.getComputedStyle(blueBox)['padding-left'];
+assert.strictEqual(paddingLeft, '40px');
 ```
 
 # --seed--

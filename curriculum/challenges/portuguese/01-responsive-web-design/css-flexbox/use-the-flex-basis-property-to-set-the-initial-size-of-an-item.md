@@ -22,25 +22,29 @@ Defina o tamanho inicial das caixas usando `flex-basis`. Adicione a propriedade 
 O elemento de id `#box-1` deve ter a propriedade `flex-basis`.
 
 ```js
-assert($('#box-1').css('flex-basis') != 'auto');
+const boxOne = document.querySelector('#box-1');
+const flexBasis = window.getComputedStyle(boxOne)['flex-basis'];
+assert.notStrictEqual(flexBasis, 'auto');
 ```
 
 O elemento de id `#box-1` deve ter a propriedade `flex-basis` com o valor de `10em`.
 
 ```js
-assert(code.match(/#box-1\s*?{\s*?.*?\s*?.*?\s*?flex-basis:\s*?10em;/g));
+assert.match(code, /#box-1\s*?{\s*?.*?\s*?.*?\s*?flex-basis:\s*?10em;/g);
 ```
 
 O elemento de id `#box-2` deve ter a propriedade `flex-basis`.
 
 ```js
-assert($('#box-2').css('flex-basis') != 'auto');
+const boxTwo = document.querySelector('#box-2');
+const flexBasis = window.getComputedStyle(boxTwo)['flex-basis'];
+assert.notStrictEqual(flexBasis, 'auto');
 ```
 
 O elemento de id `#box-2` deve ter a propriedade `flex-basis` com o valor de `20em`.
 
 ```js
-assert(code.match(/#box-2\s*?{\s*?.*?\s*?.*?\s*?flex-basis:\s*?20em;/g));
+assert.match(code, /#box-2\s*?{\s*?.*?\s*?.*?\s*?flex-basis:\s*?20em;/g);
 ```
 
 # --seed--

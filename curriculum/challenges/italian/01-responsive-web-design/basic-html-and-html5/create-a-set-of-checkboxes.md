@@ -34,37 +34,33 @@ Aggiungi al tuo modulo tre caselle di spunta. Ogni casella di spunta dovrebbe es
 La tua pagina dovrebbe avere tre caselle di spunta.
 
 ```js
-assert($('input[type="checkbox"]').length > 2);
+assert.lengthOf(document.querySelectorAll('input[type="checkbox"]'),3);
 ```
 
 Ogni casella di spunta dovrebbe essere annidata all'interno del proprio elemento `label`.
 
 ```js
-assert($('label > input[type="checkbox"]:only-child').length > 2);
+assert.lengthOf(document.querySelectorAll('label > input[type="checkbox"]:only-child'),3);
 ```
 
 Assicurati che ciascuno dei tuoi elementi `label` abbia un tag di chiusura.
 
 ```js
-assert(
-  code.match(/<\/label>/g) &&
-    code.match(/<label/g) &&
-    code.match(/<\/label>/g).length === code.match(/<label/g).length
-);
+assert.match(code,/<\/label>/g);
+assert.match(code,/<label/g);
+assert.strictEqual(code.match(/<\/label>/g).length,code.match(/<label/g).length)
 ```
 
 Alle tue caselle di spunta dovrebbe essere dato l'attributo `name` di `personality`.
 
 ```js
-assert(
-  $('label > input[type="checkbox"]').filter('[name="personality"]').length > 2
-);
+assert.lengthOf([...document.querySelectorAll('label > input[type="checkbox"]')].filter(x => x.name === "personality"),3);
 ```
 
 Ognuna delle tue caselle di spunta dovrebbe essere inserita all'interno del tag `form`.
 
 ```js
-assert($('label').parent().get(0).tagName.match('FORM'));
+assert.strictEqual(document.querySelector('label').parentNode.tagName,'FORM');
 ```
 
 # --seed--

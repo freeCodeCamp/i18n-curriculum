@@ -26,13 +26,13 @@ Faça com que seu primeiro radio button e sua primeira checkbox estejam selecion
 O primeiro radio button de seu formulário deve estar selecionado por padrão.
 
 ```js
-assert($('input[type="radio"]').prop('checked'));
+assert.isTrue(document.querySelector('input[type="radio"]').checked);
 ```
 
 A primeira checkbox de seu formulário deve estar selecionada por padrão.
 
 ```js
-assert($('input[type="checkbox"]').prop('checked'));
+assert.isTrue(document.querySelector('input[type="checkbox"]').checked);
 ```
 
 Você não deve alterar o texto interno da etiqueta `Indoor`.

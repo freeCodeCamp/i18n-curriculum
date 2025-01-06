@@ -36,33 +36,27 @@ Nell'ultima sfida, hai importato il carattere `Lobster` utilizzando il tag `link
 Il tuo elemento h2 dovrebbe usare il carattere `Lobster`.
 
 ```js
-assert(
-  $('h2')
-    .css('font-family')
-    .match(/^"?lobster/i)
-);
+const h2Element = document.querySelector('h2');
+const fontFamily = window.getComputedStyle(h2Element)['font-family']; 
+assert.match(fontFamily, /^"?lobster/i);
 ```
 
 Il tuo elemento h2 dovrebbe degradare al carattere `monospace` quando `Lobster` non è disponibile.
 
 ```js
-assert(
-  /\s*h2\s*\{\s*font-family\s*\:\s*(\'|"|)Lobster\1\s*,\s*monospace\s*;?\s*\}/gi.test(
-    code
-  )
-);
+assert.match(__helpers.removeCssComments(code), /\s*h2\s*\{\s*font-family\s*\:\s*(\'|"|)Lobster\1\s*,\s*monospace\s*;?\s*\}/gi);
 ```
 
 Dovresti commentare la tua chiamata a Google per il carattere `Lobster` inserendo `<!--` davanti.
 
 ```js
-assert(new RegExp('<!--[^fc]', 'gi').test(code));
+assert.match(code, /<!--[^fc]/gi);
 ```
 
 Dovresti chiudere il tuo commento aggiungendo `-->`.
 
 ```js
-assert(new RegExp('[^fc]-->', 'gi').test(code));
+assert.match(code, /[^fc]-->/gi);
 ```
 
 # --seed--

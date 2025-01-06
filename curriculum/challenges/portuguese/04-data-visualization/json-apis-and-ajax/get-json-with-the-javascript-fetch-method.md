@@ -22,6 +22,8 @@ fetch('/json/cats.json')
 
 ```
 
+Note: The `fetch()` method uses `GET` as the default `HTTP` method. This means you don’t need to specify it explicitly for basic data retrieval.
+
 Dê uma olhada em cada parte deste código.
 
 A primeira linha é aquela que faz a solicitação. Então, `fetch(URL)` faz uma solicitação de `GET` para o URL especificado. O método retorna uma Promise.

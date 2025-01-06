@@ -26,7 +26,7 @@ All'interno dello stesso tag `<style>` che contiene la tua classe `red-text`, cr
 All'interno dei tag `style`, dai agli elementi `p` un `font-size` di `16px`. L'ingrandimento del browser e del testo dovrebbe essere al 100%.
 
 ```js
-assert(code.match(/p\s*{\s*font-size\s*:\s*16\s*px\s*;\s*}/i));
+assert.match(__helpers.removeCssComments(code), /p\s*{\s*font-size\s*:\s*16\s*px\s*;\s*}/i);
 ```
 
 # --seed--
