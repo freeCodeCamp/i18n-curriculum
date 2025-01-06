@@ -24,7 +24,9 @@ Adicione a propriedade CSS `flex-direction` ao elemento de id `#box-container` e
 O elemento de id `#box-container` deve ter a propriedade `flex-direction` com o valor de `row-reverse`.
 
 ```js
-assert($('#box-container').css('flex-direction') == 'row-reverse');
+const boxContainer = document.querySelector('#box-container');
+const flexDirection = window.getComputedStyle(boxContainer)['flex-direction'];
+assert.strictEqual(flexDirection, 'row-reverse');
 ```
 
 # --seed--

@@ -28,27 +28,23 @@ L'elemento `input` esistente dovrebbe essere annidato in un elemento `form`.
 
 ```js
 const inputElem = document.querySelector('form input');
-assert(
-  inputElem.getAttribute('type') === 'text' &&
-    inputElem.getAttribute('placeholder') === 'cat photo URL'
-);
+assert.strictEqual(inputElem.getAttribute('type'),'text'); 
+assert.strictEqual(inputElem.getAttribute('placeholder'),'cat photo URL');
 ```
 
 Il tuo `form` dovrebbe avere un attributo `action` impostato su `https://www.freecatphotoapp.com/submit-cat-photo`.
 
 ```js
-const action = $('form').attr('action');
-assert(action.match(/^https:\/\/(www\.)?freecatphotoapp\.com\/submit-cat-photo$/i))
+const action = document.querySelector('form').getAttribute('action');
+assert.match(action,/^https:\/\/(www\.)?freecatphotoapp\.com\/submit-cat-photo$/i);
 ```
 
 Il tuo elemento `form` dovrebbe avere tag di apertura e di chiusura ben formati.
 
 ```js
-assert(
-  code.match(/<\/form>/g) &&
-    code.match(/<form [^<]*>/g) &&
-    code.match(/<\/form>/g).length === code.match(/<form [^<]*>/g).length
-);
+assert.match(code,/<\/form>/g);
+assert.match(code,/<form [^<]*>/g);
+assert.strictEqual(code.match(/<\/form>/g).length,code.match(/<form [^<]*>/g).length);
 ```
 
 # --seed--

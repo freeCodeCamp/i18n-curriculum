@@ -28,19 +28,21 @@ Crea una classe chiamata `silver-background` con il `background-color` di `silve
 Il tuo elemento `div` dovrebbe avere la classe `silver-background`.
 
 ```js
-assert($('div').hasClass('silver-background'));
+assert.isTrue(document.querySelector('div').classList.contains('silver-background'));
 ```
 
 Il tuo elemento `div` dovrebbe avere uno sfondo silver.
 
 ```js
-assert($('div').css('background-color') === 'rgb(192, 192, 192)');
+const div = document.querySelector('div');
+const backgroundColor = window.getComputedStyle(div)['background-color']; 
+assert.strictEqual(backgroundColor, 'rgb(192, 192, 192)');
 ```
 
 Una classe chiamata `silver-background` dovrebbe essere definita all'interno dell'elemento`style` e il valore di `silver` dovrebbe essere assegnato alla proprietà `background-color`.
 
 ```js
-assert(code.match(/\.silver-background\s*{\s*background-color\s*:\s*silver\s*;?\s*}/));
+assert.match(__helpers.removeHtmlComments(code), /\.silver-background\s*{\s*background-color\s*:\s*silver\s*;?\s*}/);
 ```
 
 # --seed--

@@ -30,23 +30,22 @@ body {
 O elemento `body` deve ter a propriedade `background-color` com o valor black (preto).
 
 ```js
-assert($('body').css('background-color') === 'rgb(0, 0, 0)');
+const body = document.querySelector('body');
+const backgroundColor = window.getComputedStyle(body)['background-color'];
+
+assert.strictEqual(backgroundColor, 'rgb(0, 0, 0)');
 ```
 
 O código CSS deve ser formatado corretamente, contendo chaves de abertura e fechamento.
 
 ```js
-assert(
-  code.match(/<style>\s*body\s*\{\s*background.*\s*:\s*.*;\s*\}\s*<\/style>/i)
-);
+assert.match(code, /<style>\s*body\s*\{\s*background.*\s*:\s*.*;\s*\}\s*<\/style>/i);
 ```
 
 A declaração da regra do CSS deve terminar com um ponto-e-vírgula.
 
 ```js
-assert(
-  code.match(/<style>\s*body\s*\{\s*background.*\s*:\s*.*;\s*\}\s*<\/style>/i)
-);
+assert.match(code, /<style>\s*body\s*\{\s*background.*\s*:\s*.*;\s*\}\s*<\/style>/i);
 ```
 
 # --seed--

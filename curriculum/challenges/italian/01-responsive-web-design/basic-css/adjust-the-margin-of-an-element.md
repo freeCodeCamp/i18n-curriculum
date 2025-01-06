@@ -24,7 +24,9 @@ Cambia il `margin` del riquadro blu per farlo corrispondere a quello del riquadr
 La tua classe `blue-box` dovrebbe dare agli elementi `20px` di `margin`.
 
 ```js
-assert($('.blue-box').css('margin-top') === '20px');
+const blueBox = document.querySelector('.blue-box');
+const marginTop = window.getComputedStyle(blueBox)['margin-top'];
+assert.strictEqual(marginTop, '20px');
 ```
 
 # --seed--

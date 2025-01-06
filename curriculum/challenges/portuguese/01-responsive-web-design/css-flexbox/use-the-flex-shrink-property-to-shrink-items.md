@@ -24,13 +24,17 @@ Adicione a propriedade CSS `flex-shrink` aos elementos de id `#box-1` e `#box-2`
 O elemento de id `#box-1` deve ter a propriedade `flex-shrink` com o valor de `1`.
 
 ```js
-assert($('#box-1').css('flex-shrink') == '1');
+const boxOne = document.querySelector('#box-1');
+const flexShrink = window.getComputedStyle(boxOne)['flex-shrink'];
+assert.equal(flexShrink, '1');
 ```
 
 O elemento de id `#box-2` deve ter a propriedade `flex-shrink` com o valor de `2`.
 
 ```js
-assert($('#box-2').css('flex-shrink') == '2');
+const boxTwo = document.querySelector('#box-2');
+const flexShrink = window.getComputedStyle(boxTwo)['flex-shrink'];
+assert.equal(flexShrink, '2');
 ```
 
 # --seed--

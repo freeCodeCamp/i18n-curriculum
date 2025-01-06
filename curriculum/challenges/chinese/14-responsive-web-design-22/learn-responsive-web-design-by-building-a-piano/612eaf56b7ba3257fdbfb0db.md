@@ -7,7 +7,7 @@ dashedName: step-21
 
 # --description--
 
-The piano needs the freeCodeCamp logo to make it official.
+该钢琴需要 freeCodeCamp 标志才能正式亮相。
 
 在 `.keys` 元素之前添加一个 `img` 元素。 给 `img` 一个 `logo` 的 `class`，并将 `src` 设置为 `https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg`。 给它一个 `freeCodeCamp Logo` 的 `alt` 文本。
 

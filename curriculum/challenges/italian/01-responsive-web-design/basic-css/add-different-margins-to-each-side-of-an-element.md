@@ -22,25 +22,33 @@ Dài al riquadro blu un `margin` di `40px` sul lato superiore e sinistro, ma di 
 La tua classe `blue-box` dovrebbe dare alla parte superiore degli elementi `40px` di `margin`.
 
 ```js
-assert($('.blue-box').css('margin-top') === '40px');
+const blueBox = document.querySelector('.blue-box');
+const marginTop = window.getComputedStyle(blueBox)['margin-top'];
+assert.strictEqual(marginTop, '40px');
 ```
 
 La tua classe `blue-box` dovrebbe dare alla parte destra degli elementi `20px` di `margin`.
 
 ```js
-assert($('.blue-box').css('margin-right') === '20px');
+const blueBox = document.querySelector('.blue-box');
+const marginRight = window.getComputedStyle(blueBox)['margin-right'];
+assert.strictEqual(marginRight, '20px');
 ```
 
 La tua classe `blue-box` dovrebbe dare alla parte inferiore degli elementi `20px` di `margin`.
 
 ```js
-assert($('.blue-box').css('margin-bottom') === '20px');
+const blueBox = document.querySelector('.blue-box');
+const marginBottom = window.getComputedStyle(blueBox)['margin-bottom'];
+assert.strictEqual(marginBottom, '20px');
 ```
 
 La tua classe `blue-box` dovrebbe dare alla parte sinistra degli elementi `40px` di `margin`.
 
 ```js
-assert($('.blue-box').css('margin-left') === '40px');
+const blueBox = document.querySelector('.blue-box');
+const marginLeft = window.getComputedStyle(blueBox)['margin-left'];
+assert.strictEqual(marginLeft,'40px');
 ```
 
 # --seed--

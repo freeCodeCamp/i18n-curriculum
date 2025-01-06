@@ -40,37 +40,29 @@ Importe a tipografia `Lobster` na sua página web. Então, crie um seletor para 
 Você deve importar a tipografia `Lobster`.
 
 ```js
-assert($('link[href*="googleapis" i]').length);
+assert.exists(document.querySelector('link[href*="googleapis" i]'));
 ```
 
 O elemento `h2` deve usar a tipografia `Lobster`.
 
 ```js
-assert(
-  $('h2')
-    .css('font-family')
-    .match(/lobster/i)
-);
+const h2 = document.querySelector('h2'); 
+const fontFamily = window.getComputedStyle(h2)['font-family']; 
+assert.match(fontFamily, /lobster/i);
 ```
 
 Você deve usar apenas um seletor para referenciar o elemento `h2` para alterar a tipografia.
 
 ```js
-assert(
-  /\s*[^\.]h2\s*\{\s*font-family\s*:\s*('|"|)Lobster\1\s*(,\s*('|"|)[a-z -]+\3\s*)?(;\s*\}|\})/gi.test(
-    code
-  )
-);
+assert.match(__helpers.removeHtmlComments(code), /\s*[^\.]h2\s*\{\s*font-family\s*:\s*('|"|)Lobster\1\s*(,\s*('|"|)[a-z -]+\3\s*)?(;\s*\}|\})/gi);
 ```
 
 O elemento `p` ainda deve usar a tipografia `monospace`.
 
 ```js
-assert(
-  $('p')
-    .css('font-family')
-    .match(/monospace/i)
-);
+const paragraphElement = document.querySelector('p');
+const fontFamily = window.getComputedStyle(paragraphElement)['font-family']; 
+assert.match(fontFamily, /monospace/i);
 ```
 
 # --seed--

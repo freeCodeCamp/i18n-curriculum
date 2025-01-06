@@ -24,7 +24,9 @@ Altere a propriedade `margin` da caixa azul para `-15px`, de modo a preencher to
 O elemento de classe `blue-box` deve possuir a propriedade `margin` com o valor de `-15px`.
 
 ```js
-assert($('.blue-box').css('margin-top') === '-15px');
+const blueBox = document.querySelector('.blue-box');
+const marginTop = window.getComputedStyle(blueBox)["margin-top"]; 
+assert.strictEqual(marginTop, "-15px"); 
 ```
 
 # --seed--

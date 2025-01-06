@@ -42,7 +42,7 @@ Para passar no teste deste desafio, mude o texto do elemento `h1` para que ele e
 O elemento `h1` deve conter o texto `Hello World`.
 
 ```js
-assert.isTrue(/hello(\s)+world/gi.test($('h1').text()));
+assert.match(document.querySelector('h1').textContent,/hello(\s)+world/gi);
 ```
 
 # --seed--

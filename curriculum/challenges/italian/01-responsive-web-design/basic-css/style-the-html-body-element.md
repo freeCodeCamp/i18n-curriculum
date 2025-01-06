@@ -30,23 +30,22 @@ body {
 Il tuo elemento `body` dovrebbe avere il `background-color` nero.
 
 ```js
-assert($('body').css('background-color') === 'rgb(0, 0, 0)');
+const body = document.querySelector('body');
+const backgroundColor = window.getComputedStyle(body)['background-color'];
+
+assert.strictEqual(backgroundColor, 'rgb(0, 0, 0)');
 ```
 
 La regola CSS dovrebbe essere formattata correttamente con entrambe le parentesi graffe di apertura e chiusura.
 
 ```js
-assert(
-  code.match(/<style>\s*body\s*\{\s*background.*\s*:\s*.*;\s*\}\s*<\/style>/i)
-);
+assert.match(code, /<style>\s*body\s*\{\s*background.*\s*:\s*.*;\s*\}\s*<\/style>/i);
 ```
 
 Your CSS rule should end with a semicolon.
 
 ```js
-assert(
-  code.match(/<style>\s*body\s*\{\s*background.*\s*:\s*.*;\s*\}\s*<\/style>/i)
-);
+assert.match(code, /<style>\s*body\s*\{\s*background.*\s*:\s*.*;\s*\}\s*<\/style>/i);
 ```
 
 # --seed--

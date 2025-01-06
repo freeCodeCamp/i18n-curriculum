@@ -1,29 +1,29 @@
 ---
 id: 661e131f068359c3ccf2f4d6
-title: Basic Functions Exercise B
+title: 基本函數練習 B
 challengeType: 1
 dashedName: top-basic-functions-exercise-b
 ---
 
 # --description--
 
-Write a function, named `multiply`, that takes two parameters and returns their product.
+編寫一個名爲 `multiply` 的函數，該函數採用兩個參數並返回它們的乘積。
 
 # --hints--
 
-You should have a function named `multiply`.
+你應該有一個名爲 `multiply` 的函數。
 
 ```js
 assert.isFunction(multiply);
 ```
 
-Your function should take in two integers as arguments.
+你的函數應該接受兩個整數作爲參數。
 
 ```js
 assert.match(multiply.toString(), /\s*multiply\(\s*\w+\s*,\s*\w+\s*\)/);
 ```
 
-You should return the product of the two integers.
+你應該返回兩個整數的乘積。
 
 ```js
 assert.strictEqual(multiply(10, 10), 100);

@@ -10,7 +10,6 @@ dashedName: build-a-personal-portfolio-webpage
 
 **Objective:** Build an app that is functionally similar to <a href="https://personal-portfolio.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://personal-portfolio.freecodecamp.rocks</a>. **Do not copy this demo project**.
 
-
 **Histórias de usuário:**
 
 1. Your portfolio should have a welcome section with an `id` of `welcome-section`
@@ -34,8 +33,8 @@ Atenda às histórias de usuário e passe em todos os testes abaixo para conclui
 O portfólio deve ter uma seção de boas-vindas com o `id` `welcome-section`.
 
 ```js
-const el = document.getElementById('welcome-section')
-assert(!!el);
+const el = document.getElementById('welcome-section');
+assert.isNotNull(el);
 ```
 
 O elemento `#welcome-section` deve conter um elemento `h1`.
@@ -54,25 +53,21 @@ Você não deve ter elementos `h1` vazios dentro de `#welcome-section`.
 assert.isAbove(
   document.querySelectorAll('#welcome-section h1')?.[0]?.innerText?.length,
   0,
-  'h1 element in welcome section should contain your name or camper ' +
-    'name '
+  'h1 element in welcome section should contain your name or camper ' + 'name '
 );
 ```
 
 Você deve ter uma seção de projetos com o `id` `projects`.
 
 ```js
-const el = document.getElementById('projects')
-assert(!!el);
+const el = document.getElementById('projects');
+assert.isNotNull(el);
 ```
 
 O portfólio deve conter pelo menos um elemento com a classe `project-tile`.
 
 ```js
-assert.isAbove(
-  document.querySelectorAll('#projects .project-tile').length,
-  0
-);
+assert.isAbove(document.querySelectorAll('#projects .project-tile').length, 0);
 ```
 
 O elemento `#projects` deve conter pelo menos um elemento `a`.
@@ -85,35 +80,33 @@ O portfólio precisa ter uma barra de navegação com o `id` `navbar`.
 
 ```js
 const el = document.getElementById('navbar');
-assert(!!el);
+assert.isNotNull(el);
 ```
 
 O elemento `#navbar` deve conter pelo menos um elemento `a`, cujo atributo `href` comece com `#`.
 
 ```js
 const links = [...document.querySelectorAll('#navbar a')].filter(
-  (nav) => (nav?.getAttribute('href') || '').substring(0, 1) === '#'
+  nav => (nav?.getAttribute('href') || '').substring(0, 1) === '#'
 );
 
-assert.isAbove(
-  links.length,
-  0,
-  'Navbar should contain an anchor link '
-);
+assert.isAbove(links.length, 0, 'Navbar should contain an anchor link ');
 ```
 
 O portfólio deve ter um elemento `a` com o `id` `profile-link`.
 
 ```js
 const el = document.getElementById('profile-link');
-assert(!!el && el.tagName === 'A')
+assert.isNotNull(el);
+assert.strictEqual(el.tagName, 'A');
 ```
 
 O elemento `#profile-link` deve ter um atributo `target` `_blank`.
 
 ```js
 const el = document.getElementById('profile-link');
-assert(!!el && el.target === '_blank')
+assert.isNotNull(el);
+assert.strictEqual(el.target, '_blank');
 ```
 
 O portfólio deve usar pelo menos uma media query.
@@ -121,14 +114,15 @@ O portfólio deve usar pelo menos uma media query.
 ```js
 const htmlSourceAttr = Array.from(document.querySelectorAll('source')).map(el => el.getAttribute('media'))
 const cssCheck = new __helpers.CSSHelp(document).getCSSRules('media')
-assert(cssCheck.length > 0 || htmlSourceAttr.length > 0);
+assert.isTrue(cssCheck.length > 0 || htmlSourceAttr.length > 0);
 ```
 
 O elemento `#navbar` deve estar sempre na parte superior da viewport.
 
 ```js
 (async () => {
-  const timeout = (milliseconds) => new Promise((resolve) => setTimeout(resolve, milliseconds));
+  const timeout = milliseconds =>
+    new Promise(resolve => setTimeout(resolve, milliseconds));
 
   const navbar = document.getElementById('navbar');
   assert.approximately(
@@ -136,7 +130,7 @@ O elemento `#navbar` deve estar sempre na parte superior da viewport.
     0,
     15,
     "Navbar's parent should be body and it should be at the top of " +
-    'the viewport '
+      'the viewport '
   );
 
   window.scroll(0, 500);
@@ -147,8 +141,7 @@ O elemento `#navbar` deve estar sempre na parte superior da viewport.
     navbar?.getBoundingClientRect().top,
     0,
     15,
-    'Navbar should be at the top of the viewport even after ' +
-    'scrolling '
+    'Navbar should be at the top of the viewport even after ' + 'scrolling '
   );
   window.scroll(0, 0);
 })();
@@ -223,7 +216,7 @@ O elemento `#navbar` deve estar sempre na parte superior da viewport.
 ```
 
 ```css
-nav{
+nav {
   position: fixed;
   width: 100%;
   text-align: right;
@@ -233,37 +226,37 @@ nav{
   background-color: #000000;
   color: #ffffff;
 }
-@media (max-width: 500px){
-  nav{
+@media (max-width: 500px) {
+  nav {
     display: none;
   }
 }
-a{
+a {
   color: #ffffff;
 }
-main{
+main {
   text-align: center;
   background-color: black;
-  font-family:Pacifico
+  font-family: Pacifico;
 }
-h1{
+h1 {
   font-size: 48pt;
 }
-h2{
+h2 {
   font-size: 24pt;
 }
-p{
+p {
   font-size: 12pt;
 }
-#welcome-section{
-  background-color:#251a4a;
-  color: #FFFFFF;
+#welcome-section {
+  background-color: #251a4a;
+  color: #ffffff;
   display: table-cell;
   vertical-align: middle;
   width: 100vw;
   height: 100vh;
 }
-#projects{
+#projects {
   background-color: #060a9c;
   color: #ffffff;
   display: table-cell;
@@ -271,7 +264,7 @@ p{
   width: 100vw;
   height: 100vh;
 }
-#contact{
+#contact {
   background-color: #03300b;
   color: #ffffff;
   display: table-cell;

@@ -24,7 +24,7 @@ Quindi prova a inviare il modulo senza inserire alcun testo. Vedi come il tuo mo
 Il tuo elemento `input` di testo dovrebbe avere l'attributo `required`.
 
 ```js
-assert($('input').prop('required'));
+assert.isTrue(document.querySelector('input').required);
 ```
 
 # --seed--

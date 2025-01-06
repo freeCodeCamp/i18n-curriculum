@@ -24,7 +24,7 @@ Em seguida, tente enviar seu formulário sem inserir informação alguma nele. C
 O elemento `input` do tipo de texto deve ter o atributo `required`.
 
 ```js
-assert($('input').prop('required'));
+assert.isTrue(document.querySelector('input').required);
 ```
 
 # --seed--

@@ -30,23 +30,25 @@ Uma vez feito isso, passe o cursor do mouse sobre a imagem. O ponteiro do cursor
 O elemento `img` deve estar dentro do elemento `a`.
 
 ```js
-assert($('a').children('img').length > 0);
+const anchor = document.querySelectorAll('a')[1];
+const children = anchor.querySelectorAll("img");
+assert.notEmpty(children);
 ```
 
 O elemento `a` deve ser um link morto com um atributo `href` definido como `#`.
 
 ```js
-assert(new RegExp('#').test($('a').children('img').parent().attr('href')));
+const anchor = document.querySelectorAll('a')[1];
+const parentHREF = anchor.querySelector("img").parentNode.getAttribute('href');
+assert.match(parentHREF,new RegExp('#'));
 ```
 
 Todos os elementos `a` devem ter uma tag de fechamento.
 
 ```js
-assert(
-  code.match(/<\/a>/g) &&
-    code.match(/<a/g) &&
-    code.match(/<\/a>/g).length === code.match(/<a/g).length
-);
+assert.match(code,/<\/a>/g);
+assert.match(code,/<a/g);
+assert.strictEqual(code.match(/<\/a>/g).length, code.match(/<a/g).length)
 ```
 
 # --seed--

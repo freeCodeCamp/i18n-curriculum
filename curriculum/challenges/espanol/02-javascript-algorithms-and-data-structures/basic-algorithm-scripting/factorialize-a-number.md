@@ -23,31 +23,31 @@ Sólo se proporcionarán a la función los enteros mayores o iguales a cero.
 `factorialize(5)` debe devolver un número.
 
 ```js
-assert(typeof factorialize(5) === 'number');
+assert.isNumber(factorialize(5));
 ```
 
 `factorialize(5)` debe devolver `120`.
 
 ```js
-assert(factorialize(5) === 120);
+assert.strictEqual(factorialize(5), 120);
 ```
 
 `factorialize(10)` debe devolver `3628800`.
 
 ```js
-assert(factorialize(10) === 3628800);
+assert.strictEqual(factorialize(10), 3628800);
 ```
 
 `factorialize(20)` debe devolver `2432902008176640000`.
 
 ```js
-assert(factorialize(20) === 2432902008176640000);
+assert.strictEqual(factorialize(20), 2432902008176640000);
 ```
 
 `factorialize(0)` debe devolver `1`.
 
 ```js
-assert(factorialize(0) === 1);
+assert.strictEqual(factorialize(0), 1);
 ```
 
 # --seed--

@@ -20,13 +20,15 @@ Dê à foto do gato a propriedade `border-radius` com valor de `50%`.
 A imagem deve ter a propriedade border-radius com valor de `50%`, tornando-a perfeitamente redonda.
 
 ```js
-assert(parseInt($('img').css('border-top-left-radius')) > 48);
+const image = document.querySelector('img');
+const borderTopLeftRadius = window.getComputedStyle(image)['border-top-left-radius'];
+assert.strictEqual(parseInt(borderTopLeftRadius), 50);
 ```
 
 O valor da propriedade `border-radius` deve ser `50%`.
 
 ```js
-assert(code.match(/50%/g));
+assert.match(__helpers.removeCssComments(code), /50%/g);
 ```
 
 # --seed--

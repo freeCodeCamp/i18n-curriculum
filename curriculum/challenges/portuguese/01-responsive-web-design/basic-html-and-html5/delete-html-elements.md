@@ -22,19 +22,20 @@ Exclua o elemento `h1` para poder simplificar a visualização.
 O elemento `h1` deve ser excluído.
 
 ```js
-assert(!code.match(/<h1>/gi) && !code.match(/<\/h1>/gi));
+assert.notMatch(code,/<h1>/gi);
+assert.notMatch(code,/<\/h1>/gi);
 ```
 
 O elemento `h2` deve estar na página.
 
 ```js
-assert(code.match(/<h2>[\w\W]*<\/h2>/gi));
+assert.match(code,/<h2>[\w\W]*<\/h2>/gi);
 ```
 
 O elemento `p` deve estar na página.
 
 ```js
-assert(code.match(/<p>[\w\W]*<\/p>/gi));
+assert.match(code,/<p>[\w\W]*<\/p>/gi);
 ```
 
 # --seed--

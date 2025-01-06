@@ -17,27 +17,27 @@ Return the provided string with the first letter of each word capitalized. Make 
 `titleCase("I'm a little tea pot")`은(는) 문자열을 반환해야 합니다.
 
 ```js
-assert(typeof titleCase("I'm a little tea pot") === 'string');
+assert.isString(titleCase("I'm a little tea pot"));
 ```
 
 `titleCase("I'm a little tea pot")`은(는) 문자열 `I'm A Little Tea Pot`을 반환해야 합니다.
 
 ```js
-assert(titleCase("I'm a little tea pot") === "I'm A Little Tea Pot");
+assert.strictEqual(titleCase("I'm a little tea pot"), "I'm A Little Tea Pot");
 ```
 
 `titleCase("sHoRt AnD sToUt")`는 문자열 `Short And Stout`를 반환해야 합니다.
 
 ```js
-assert(titleCase('sHoRt AnD sToUt') === 'Short And Stout');
+assert.strictEqual(titleCase('sHoRt AnD sToUt'), 'Short And Stout');
 ```
 
 `titleCase("HERE IS MY HANDLE HERE IS MY SPOUT")`는 문자열 `Here Is My Handle Here Is My Spout`를 반환해야 합니다.
 
 ```js
-assert(
-  titleCase('HERE IS MY HANDLE HERE IS MY SPOUT') ===
-    'Here Is My Handle Here Is My Spout'
+assert.strictEqual(
+  titleCase('HERE IS MY HANDLE HERE IS MY SPOUT'),
+  'Here Is My Handle Here Is My Spout'
 );
 ```
 
@@ -57,7 +57,10 @@ titleCase("I'm a little tea pot");
 
 ```js
 function titleCase(str) {
-  return str.split(' ').map(word => word.charAt(0).toUpperCase() + word.substring(1).toLowerCase()).join(' ');
+  return str
+    .split(' ')
+    .map(word => word.charAt(0).toUpperCase() + word.substring(1).toLowerCase())
+    .join(' ');
 }
 
 titleCase("I'm a little tea pot");

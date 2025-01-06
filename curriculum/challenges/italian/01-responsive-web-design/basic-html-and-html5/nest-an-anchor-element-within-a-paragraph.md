@@ -53,82 +53,61 @@ Annida l'elemento `a` esistente all'interno di un nuovo elemento `p`. Non creare
 Dovresti avere un solo elemento `a`.
 
 ```js
-assert(
-  $('a').length  === 1 
-);
+assert.lengthOf(document.querySelectorAll('a'), 1 );
 ```
 
 L'elemento `a` dovrebbe essere collegato a "`https://www.freecatphotoapp.com`".
 
 ```js
-assert(
-  $('a[href="https://www.freecatphotoapp.com"]').length  === 1 
-);
+assert.lengthOf(document.querySelectorAll('a[href="https://www.freecatphotoapp.com"]'),1);
 ```
 
 Il tuo elemento `a` dovrebbe avere il testo di ancoraggio: `cat photos`
 
 ```js
-assert(
-  $('a')
-    .text()
-    .match(/cat\sphotos/gi)
-);
+assert.match(document.querySelector('a').textContent,/cat\sphotos/gi)
 ```
 
 Dovresti creare un elemento `p`. Ci dovrebbe essere almeno 3 tag `p` nel tuo codice HTML
 
 ```js
-assert($('p') && $('p').length > 2);
+assert.lengthOf(document.querySelectorAll('p'),3)
 ```
 
 Il tuo elemento `a` dovrebbe essere annidato nel nuovo elemento `p`.
 
 ```js
-assert(
-  $('a[href="https://www.freecatphotoapp.com"]').parent().is('p')
-);
+const anchorParent = document.querySelector('a[href="https://www.freecatphotoapp.com"]').parentNode;
+assert.strictEqual(anchorParent.tagName,"P")
 ```
 
 Il tuo elemento `p` dovrebbe avere il testo `View more` (con uno spazio dopo di esso).
 
 ```js
-assert(
-  $('a[href="https://www.freecatphotoapp.com"]')
-    .parent()
-    .text()
-    .match(/View\smore\s/gi)
-);
+const textContent = document.querySelector('a[href="https://www.freecatphotoapp.com"]').parentNode.textContent;
+assert.match(textContent,/View\smore\s/gi);
 ```
 
 Il tuo elemento `a` <em>non</em> dovrebbe contenere il testo `View more`.
 
 ```js
-assert(
-  !$('a')
-    .text()
-    .match(/View\smore/gi)
-);
+assert.notMatch(document.querySelector('a').textContent,/View\smore/gi); 
 ```
 
 Ognuno dei tuoi elementi `p` dovrebbe avere un tag di chiusura.
 
 ```js
-assert(
-  code.match(/<\/p>/g) &&
-    code.match(/<p/g) &&
-    code.match(/<\/p>/g).length === code.match(/<p/g).length
-);
+assert.match(code,/<\/p>/g);
+assert.match(code,/<p/g);
+assert.strictEqual(code.match(/<\/p>/g).length,code.match(/<p/g).length);
 ```
 
 Ognuno dei tuoi elementi `a` dovrebbe avere un tag di chiusura.
 
 ```js
-assert(
-  code.match(/<\/a>/g) &&
-    code.match(/<a/g) &&
-    code.match(/<\/a>/g).length === code.match(/<a/g).length
-);
+assert.match(code,/<\/a>/g);
+assert.match(code,/<a/g);
+assert.strictEqual(code.match(/<\/a>/g).length,code.match(/<a/g).length);
 ```
 
 # --seed--

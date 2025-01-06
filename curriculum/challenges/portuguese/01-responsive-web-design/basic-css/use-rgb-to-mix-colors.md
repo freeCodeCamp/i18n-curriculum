@@ -22,65 +22,57 @@ Substitua os códigos hexadecimais em nosso elemento `style` por seus valores RG
 O elemento `h1` com o texto `I am red!` deve ter a propriedade `color` com um valor red (vermelho).
 
 ```js
-assert($('.red-text').css('color') === 'rgb(255, 0, 0)');
+const redText = document.querySelector('.red-text');
+const color = window.getComputedStyle(redText)['color']; 
+assert.strictEqual(color, 'rgb(255, 0, 0)');
 ```
 
 Você deve usar `rgb` para inserir a cor vermelha.
 
 ```js
-assert(
-  code.match(
-    /\.red-text\s*{\s*color\s*:\s*rgb\(\s*255\s*,\s*0\s*,\s*0\s*\)\s*;?\s*}/gi
-  )
-);
+assert.match(code, /\.red-text\s*{\s*color\s*:\s*rgb\(\s*255\s*,\s*0\s*,\s*0\s*\)\s*;?\s*}/gi);
 ```
 
 O elemento `h1` com o texto `I am orchid!` deve ter a propriedade `color` com um valor orchid (orquídea).
 
 ```js
-assert($('.orchid-text').css('color') === 'rgb(218, 112, 214)');
+const orchidText = document.querySelector('.orchid-text');
+const color = window.getComputedStyle(orchidText)['color']; 
+assert.strictEqual(color, 'rgb(218, 112, 214)');
 ```
 
 Você deve usar `rgb` para inserir a cor orquídea.
 
 ```js
-assert(
-  code.match(
-    /\.orchid-text\s*{\s*color\s*:\s*rgb\(\s*218\s*,\s*112\s*,\s*214\s*\)\s*;?\s*}/gi
-  )
-);
+assert.match(__helpers.removeCssComments(code), /\.orchid-text\s*{\s*color\s*:\s*rgb\(\s*218\s*,\s*112\s*,\s*214\s*\)\s*;?\s*}/gi);
 ```
 
 O elemento `h1` com o texto `I am blue!` deve ter a propriedade `color` com um valor blue (azul).
 
 ```js
-assert($('.blue-text').css('color') === 'rgb(0, 0, 255)');
+const blueText = document.querySelector('.blue-text');
+const color = window.getComputedStyle(blueText)['color']; 
+assert.strictEqual(color, 'rgb(0, 0, 255)');
 ```
 
 Você deve usar `rgb` para inserir a cor azul.
 
 ```js
-assert(
-  code.match(
-    /\.blue-text\s*{\s*color\s*:\s*rgb\(\s*0\s*,\s*0\s*,\s*255\s*\)\s*;?\s*}/gi
-  )
-);
+assert.match(__helpers.removeCssComments(code), /\.blue-text\s*{\s*color\s*:\s*rgb\(\s*0\s*,\s*0\s*,\s*255\s*\)\s*;?\s*}/gi);
 ```
 
 O elemento `h1` com o texto `I am sienna!` deve ter a propriedade `color` com um valor sienna (siena).
 
 ```js
-assert($('.sienna-text').css('color') === 'rgb(160, 82, 45)');
+const siennaText = document.querySelector('.sienna-text');
+const color = window.getComputedStyle(siennaText)['color']; 
+assert.strictEqual(color, 'rgb(160, 82, 45)');
 ```
 
 Você deve usar `rgb` para inserir a cor siena.
 
 ```js
-assert(
-  code.match(
-    /\.sienna-text\s*{\s*color\s*:\s*rgb\(\s*160\s*,\s*82\s*,\s*45\s*\)\s*;?\s*}/gi
-  )
-);
+assert.match(__helpers.removeCssComments(code), /\.sienna-text\s*{\s*color\s*:\s*rgb\(\s*160\s*,\s*82\s*,\s*45\s*\)\s*;?\s*}/gi);
 ```
 
 # --seed--

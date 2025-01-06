@@ -35,46 +35,46 @@ Em seguida, crie um elemento `main` e coloque os dois elementos `p` dentro do el
 Você deve ter 2 elementos `p` contendo o texto Kitty Ipsum.
 
 ```js
-assert($('p').length > 1);
+assert.lengthOf(document.querySelectorAll('p'),2);
 ```
 
 Todos os elementos `p` devem ter uma tag de fechamento.
 
 ```js
-assert(
-  code.match(/<\/p>/g) &&
-    code.match(/<\/p>/g).length === code.match(/<p/g).length
-);
+assert.match(code,/<\/p>/g);
+assert.strictEqual(code.match(/<\/p>/g).length,code.match(/<p/g).length);
 ```
 
 O elemento `p` deve conter as primeiras palavras do texto adicional `kitty ipsum` fornecido.
 
 ```js
-assert.isTrue(/Purr\s+jump\s+eat/gi.test($('p').text()));
+assert.match(document.querySelectorAll('p')[1].textContent,/Purr\s+jump\s+eat/gi);
 ```
 
 O código deve ter um elemento `main`.
 
 ```js
-assert($('main').length === 1);
+assert.lengthOf(document.querySelectorAll('main'),1);
 ```
 
 O elemento `main` deve ter dois elementos de parágrafo como filhos.
 
 ```js
-assert($('main').children('p').length === 2);
+const main = document.querySelector('main');
+const children = main.querySelectorAll("p"); 
+assert.lengthOf(children,2);
 ```
 
 A tag de abertura `main` deve vir antes da primeira tag de parágrafo.
 
 ```js
-assert(code.match(/<main>\s*?<p>/g));
+assert.match(code,(/<main>\s*?<p>/g));
 ```
 
 A tag de fechamento `main` deve vir depois da segunda tag de fechamento de parágrafo.
 
 ```js
-assert(code.match(/<\/p>\s*?<\/main>/g));
+assert.match(code,(/<\/p>\s*?<\/main>/g));
 ```
 
 # --seed--

@@ -34,10 +34,9 @@ Crea una griglia con tre colonne le cui larghezze sono le seguenti: 1fr, 100px e
 La classe `container` dovrebbe avere una proprietà `grid-template-columns` che ha tre colonne con le seguenti larghezze: `1fr`, `100px`e `2fr`.
 
 ```js
-assert(
-  code.match(
-    /.container\s*?{[\s\S]*grid-template-columns\s*?:\s*?1fr\s*?100px\s*?2fr\s*?;[\s\S]*}/gi
-  )
+assert.match(
+  code,
+  /.container\s*?{[\s\S]*grid-template-columns\s*?:\s*?1fr\s*?100px\s*?2fr\s*?;[\s\S]*}/gi
 );
 ```
 
@@ -47,11 +46,21 @@ assert(
 
 ```html
 <style>
-  .d1{background:LightSkyBlue;}
-  .d2{background:LightSalmon;}
-  .d3{background:PaleTurquoise;}
-  .d4{background:LightPink;}
-  .d5{background:PaleGreen;}
+  .d1 {
+    background: LightSkyBlue;
+  }
+  .d2 {
+    background: LightSalmon;
+  }
+  .d3 {
+    background: PaleTurquoise;
+  }
+  .d4 {
+    background: LightPink;
+  }
+  .d5 {
+    background: PaleGreen;
+  }
 
   .container {
     font-size: 40px;
@@ -79,5 +88,9 @@ assert(
 # --solutions--
 
 ```html
-<style>.container {grid-template-columns: 1fr 100px 2fr;}</style>
+<style>
+  .container {
+    grid-template-columns: 1fr 100px 2fr;
+  }
+</style>
 ```

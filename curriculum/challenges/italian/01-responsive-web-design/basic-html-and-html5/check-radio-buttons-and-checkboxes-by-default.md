@@ -26,13 +26,13 @@ Setta il primo dei tuoi pulsanti di opzione e la prima delle tue caselle di spun
 Il primo pulsante di opzione del tuo modulo dovrebbe essere selezionato di default.
 
 ```js
-assert($('input[type="radio"]').prop('checked'));
+assert.isTrue(document.querySelector('input[type="radio"]').checked);
 ```
 
 La prima casella di spunta del tuo modulo dovrebbe essere spuntata di default.
 
 ```js
-assert($('input[type="checkbox"]').prop('checked'));
+assert.isTrue(document.querySelector('input[type="checkbox"]').checked);
 ```
 
 Non dovresti cambiare il testo all'interno dell'etichetta `Indoor`.

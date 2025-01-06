@@ -17,27 +17,27 @@ Para o propósito desse exercício, você também deve capitalizar as palavras c
 `titleCase("I'm a little tea pot")` deve retornar uma string.
 
 ```js
-assert(typeof titleCase("I'm a little tea pot") === 'string');
+assert.isString(titleCase("I'm a little tea pot"));
 ```
 
 `titleCase("I'm a little tea pot")` deve retornar a string `I'm A Little Tea Pot`.
 
 ```js
-assert(titleCase("I'm a little tea pot") === "I'm A Little Tea Pot");
+assert.strictEqual(titleCase("I'm a little tea pot"), "I'm A Little Tea Pot");
 ```
 
 `titleCase("sHoRt AnD sToUt")` deve retornar a string `Short And Stout`.
 
 ```js
-assert(titleCase('sHoRt AnD sToUt') === 'Short And Stout');
+assert.strictEqual(titleCase('sHoRt AnD sToUt'), 'Short And Stout');
 ```
 
 `titleCase("HERE IS MY HANDLE HERE IS MY SPOUT")` deve retornar a string `Here Is My Handle Here Is My Spout`.
 
 ```js
-assert(
-  titleCase('HERE IS MY HANDLE HERE IS MY SPOUT') ===
-    'Here Is My Handle Here Is My Spout'
+assert.strictEqual(
+  titleCase('HERE IS MY HANDLE HERE IS MY SPOUT'),
+  'Here Is My Handle Here Is My Spout'
 );
 ```
 
@@ -57,7 +57,10 @@ titleCase("I'm a little tea pot");
 
 ```js
 function titleCase(str) {
-  return str.split(' ').map(word => word.charAt(0).toUpperCase() + word.substring(1).toLowerCase()).join(' ');
+  return str
+    .split(' ')
+    .map(word => word.charAt(0).toUpperCase() + word.substring(1).toLowerCase())
+    .join(' ');
 }
 
 titleCase("I'm a little tea pot");

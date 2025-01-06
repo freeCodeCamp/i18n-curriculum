@@ -22,12 +22,9 @@ Quando la larghezza della viewport è di `400px` o più, fai in modo che l'area 
 Quando la viewport è di `400px` o più, la classe `container` dovrebbe avere una proprietà `grid-template-areas` in cui le aree header e footer occupano rispettivamente le righe in alto e in basso, e l'advertisement e il contenuto occupano le colonne sinistra e destra della riga centrale.
 
 ```js
-assert(
-  __helpers
-    .removeCssComments(code)
-    .match(
-      /@media\s*?\(\s*?min-width\s*?:\s*?400px\s*?\)[\s\S]*.container\s*?{[\s\S]*grid-template-areas\s*?:\s*?"\s*?header\s*?header\s*?"\s*?"\s*?advert\s*?content\s*?"\s*?"\s*?footer\s*?footer\s*?"\s*?;[\s\S]*}/gi
-    )
+assert.match(
+  __helpers.removeCssComments(code),
+  /@media\s*?\(\s*?min-width\s*?:\s*?400px\s*?\)[\s\S]*.container\s*?{[\s\S]*grid-template-areas\s*?:\s*?["|']\s*?header\s*?header\s*?["|']\s*?["|']\s*?advert\s*?content\s*?["|']\s*?["|']\s*?footer\s*?footer\s*?["|']\s*?;[\s\S]*}/gi
 );
 ```
 
@@ -67,30 +64,30 @@ assert(
     grid-template-rows: 50px auto 1fr auto;
     grid-gap: 10px;
     grid-template-areas:
-      "header"
-      "advert"
-      "content"
-      "footer";
+      'header'
+      'advert'
+      'content'
+      'footer';
   }
 
-  @media (min-width: 300px){
-    .container{
+  @media (min-width: 300px) {
+    .container {
       grid-template-columns: auto 1fr;
       grid-template-rows: auto 1fr auto;
       grid-template-areas:
-        "advert header"
-        "advert content"
-        "advert footer";
+        'advert header'
+        'advert content'
+        'advert footer';
     }
   }
 
-  @media (min-width: 400px){
-    .container{
+  @media (min-width: 400px) {
+    .container {
       grid-template-areas:
       /* Only change code below this line */
-        "advert header"
-        "advert content"
-        "advert footer";
+        'advert header'
+        'advert content'
+        'advert footer';
       /* Only change code above this line */
     }
   }
@@ -138,29 +135,29 @@ assert(
     grid-template-rows: 50px auto 1fr auto;
     grid-gap: 10px;
     grid-template-areas:
-      "header"
-      "advert"
-      "content"
-      "footer";
+      'header'
+      'advert'
+      'content'
+      'footer';
   }
 
-  @media (min-width: 300px){
-    .container{
+  @media (min-width: 300px) {
+    .container {
       grid-template-columns: auto 1fr;
       grid-template-rows: auto 1fr auto;
       grid-template-areas:
-        "advert header"
-        "advert content"
-        "advert footer";
+        'advert header'
+        'advert content'
+        'advert footer';
     }
   }
 
-  @media (min-width: 400px){
-    .container{
+  @media (min-width: 400px) {
+    .container {
       grid-template-areas:
-        "header header"
-        "advert content"
-        "footer footer";
+        'header header'
+        'advert content'
+        'footer footer';
     }
   }
 </style>

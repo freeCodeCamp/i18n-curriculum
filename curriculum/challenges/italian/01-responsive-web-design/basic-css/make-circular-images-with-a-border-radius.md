@@ -20,13 +20,15 @@ Dai alla foto del gatto un `border-radius` del `50%`.
 La tua immagine dovrebbe avere un border-radius del `50%`, rendendola perfettamente circolare.
 
 ```js
-assert(parseInt($('img').css('border-top-left-radius')) > 48);
+const image = document.querySelector('img');
+const borderTopLeftRadius = window.getComputedStyle(image)['border-top-left-radius'];
+assert.strictEqual(parseInt(borderTopLeftRadius), 50);
 ```
 
 Il valore di `border-radius` dovrebbe usare un valore percentuale di `50%`.
 
 ```js
-assert(code.match(/50%/g));
+assert.match(__helpers.removeCssComments(code), /50%/g);
 ```
 
 # --seed--

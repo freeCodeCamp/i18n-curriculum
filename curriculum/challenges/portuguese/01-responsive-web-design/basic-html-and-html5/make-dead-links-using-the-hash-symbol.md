@@ -24,7 +24,7 @@ Por exemplo: `href="#"`
 Seu elemento `a` deve ser um link inativo com o valor do atributo `href` definido como "#".
 
 ```js
-assert($('a').attr('href') === '#');
+assert.strictEqual(document.querySelector('a').getAttribute('href'),'#');
 ```
 
 # --seed--

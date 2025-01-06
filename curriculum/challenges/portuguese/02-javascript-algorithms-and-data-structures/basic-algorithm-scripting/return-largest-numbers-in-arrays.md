@@ -17,13 +17,13 @@ Lembre-se: você pode iterar através de um array com um loop simples, e acesse 
 `largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]])` deve retornar um array.
 
 ```js
-assert(
+assert.isArray(
   largestOfFour([
     [4, 5, 1, 3],
     [13, 27, 18, 26],
     [32, 35, 37, 39],
     [1000, 1001, 857, 1]
-  ]).constructor === Array
+  ])
 );
 ```
 
@@ -78,7 +78,12 @@ function largestOfFour(arr) {
   return arr;
 }
 
-largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]);
+largestOfFour([
+  [4, 5, 1, 3],
+  [13, 27, 18, 26],
+  [32, 35, 37, 39],
+  [1000, 1001, 857, 1]
+]);
 ```
 
 # --solutions--
@@ -88,5 +93,10 @@ function largestOfFour(arr) {
   return arr.map(subArr => Math.max.apply(null, subArr));
 }
 
-largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]);
+largestOfFour([
+  [4, 5, 1, 3],
+  [13, 27, 18, 26],
+  [32, 35, 37, 39],
+  [1000, 1001, 857, 1]
+]);
 ```

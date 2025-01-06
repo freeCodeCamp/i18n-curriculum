@@ -30,7 +30,7 @@ Crie um elemento `input` do tipo `text` abaixo das listas.
 A página deve ter um elemento `input` do tipo `text`.
 
 ```js
-assert($('input[type=text]').length > 0);
+assert.isNotEmpty(document.querySelectorAll('input[type=text]'));
 ```
 
 # --seed--

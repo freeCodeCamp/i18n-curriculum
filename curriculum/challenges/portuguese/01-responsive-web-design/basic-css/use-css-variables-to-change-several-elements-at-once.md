@@ -22,25 +22,19 @@ Na classe `penguin`, altere o valor `black` para `gray`, o valor `gray` para `wh
 A classe `penguin` deve declarar a variável `--penguin-skin` e atribuir a ela o valor `gray` (cinza).
 
 ```js
-assert(
-  code.match(/.penguin\s*?{[\s\S]*--penguin-skin\s*?:\s*?gray\s*?;[\s\S]*}/gi)
-);
+assert.match(__helpers.removeHtmlComments(code), /.penguin\s*?{[\s\S]*--penguin-skin\s*?:\s*?gray\s*?;[\s\S]*}/gi);
 ```
 
 A classe `penguin` deve declarar a variável `--penguin-belly` e atribuí-la ao valor `white`.
 
 ```js
-assert(
-  code.match(/.penguin\s*?{[\s\S]*--penguin-belly\s*?:\s*?white\s*?;[\s\S]*}/gi)
-);
+assert.match(code, /.penguin\s*?{[\s\S]*--penguin-belly\s*?:\s*?white\s*?;[\s\S]*}/gi);
 ```
 
 A classe `penguin` deve declarar a variável `--penguin-beak` e atribuí-la ao valor `orange`.
 
 ```js
-assert(
-  code.match(/.penguin\s*?{[\s\S]*--penguin-beak\s*?:\s*?orange\s*?;[\s\S]*}/gi)
-);
+assert.match(code, /.penguin\s*?{[\s\S]*--penguin-beak\s*?:\s*?orange\s*?;[\s\S]*}/gi);
 ```
 
 # --seed--

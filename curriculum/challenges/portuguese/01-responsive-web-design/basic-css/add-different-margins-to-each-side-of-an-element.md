@@ -22,25 +22,33 @@ No elemento de classe "blue-box", adicione a propriedade `margin` com um valor d
 A classe `blue-box` deve dar aos elementos uma margem (`margin`) superior de `40px`.
 
 ```js
-assert($('.blue-box').css('margin-top') === '40px');
+const blueBox = document.querySelector('.blue-box');
+const marginTop = window.getComputedStyle(blueBox)['margin-top'];
+assert.strictEqual(marginTop, '40px');
 ```
 
 A classe `blue-box` deve dar aos elementos uma margem (`margin`) à direita de `20px`.
 
 ```js
-assert($('.blue-box').css('margin-right') === '20px');
+const blueBox = document.querySelector('.blue-box');
+const marginRight = window.getComputedStyle(blueBox)['margin-right'];
+assert.strictEqual(marginRight, '20px');
 ```
 
 A classe `blue-box` deve dar aos elementos uma margem (`margin`) inferior de `20px`.
 
 ```js
-assert($('.blue-box').css('margin-bottom') === '20px');
+const blueBox = document.querySelector('.blue-box');
+const marginBottom = window.getComputedStyle(blueBox)['margin-bottom'];
+assert.strictEqual(marginBottom, '20px');
 ```
 
 A classe `blue-box` deve dar aos elementos uma margem (`margin`) à esquerda de `40px`.
 
 ```js
-assert($('.blue-box').css('margin-left') === '40px');
+const blueBox = document.querySelector('.blue-box');
+const marginLeft = window.getComputedStyle(blueBox)['margin-left'];
+assert.strictEqual(marginLeft,'40px');
 ```
 
 # --seed--

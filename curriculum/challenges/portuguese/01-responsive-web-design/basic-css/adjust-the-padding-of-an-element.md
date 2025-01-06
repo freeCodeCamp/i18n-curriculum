@@ -30,7 +30,9 @@ Altere o `padding` da caixa azul para combinar com o da caixa vermelha.
 A classe `blue-box` deve criar no elemento um preenchimento (`padding`) de `20px`.
 
 ```js
-assert($('.blue-box').css('padding-top') === '20px');
+const blueBox = document.querySelector('.blue-box');
+const paddingTop = window.getComputedStyle(blueBox)['padding-top'];
+assert.strictEqual(paddingTop, '20px');
 ```
 
 # --seed--

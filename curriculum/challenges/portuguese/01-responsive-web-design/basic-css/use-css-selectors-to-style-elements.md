@@ -43,39 +43,38 @@ Exclua o atributo de estilo `h2` e, em vez disso, crie uma tag `style`. Adicione
 O atributo `style` deve ser removido do elemento `h2`.
 
 ```js
-assert(!$('h2').attr('style'));
+assert.notExists(document.querySelector('h2').getAttribute('style'));
 ```
 
 Você deve criar um elemento `style`.
 
 ```js
-assert($('style') && $('style').length >= 1);
+assert.exists(document.querySelector('style:not(.fcc-hide-header)'));
+assert.isAtLeast(document.querySelectorAll('style:not(.fcc-hide-header)').length, 1);
 ```
 
 O elemento `h2` deve ser azul.
 
 ```js
-assert($('h2').css('color') === 'rgb(0, 0, 255)');
+const h2Element = document.querySelector('h2');
+const color = window.getComputedStyle(h2Element)['color']; 
+assert.strictEqual(color, 'rgb(0, 0, 255)');
 ```
 
 O código referente ao `h2` deve ter abertura e fechamento com chaves e cada propriedade deve terminar com ponto e vírgula.
 
 ```js
-assert(code.match(/h2\s*\{\s*color\s*:.*;\s*\}/g));
+assert.match(__helpers.removeCssComments(code), /h2\s*\{\s*color\s*:.*;\s*\}/g);
 ```
 
 Os elementos `style` devem ser válidos e ter tags de fechamento.
 
 ```js
-assert(
-  code.match(/<\/style>/g) &&
-    code.match(/<\/style>/g).length ===
-      (
-        code.match(
-          /<style((\s)*((type|media|scoped|title|disabled)="[^"]*")?(\s)*)*>/g
-        ) || []
-      ).length
-);
+assert.match(__helpers.removeHtmlComments(code), /<\/style>/g);
+
+const closingElementLength = __helpers.removeHtmlComments(code).match(/<\/style>/g).length;
+const openingElementsLength = __helpers.removeHtmlComments(code).match(/<style((\s)*((type|media|scoped|title|disabled)="[^"]*")?(\s)*)*>/g).length;
+assert.strictEqual(closingElementLength, openingElementsLength);
 ```
 
 # --seed--

@@ -16,13 +16,17 @@ Media Queries consistem em um media type. Se esse media type corresponder ao tip
 Aqui está um exemplo de media query que retorna o conteúdo quando a largura do dispositivo é menor ou igual a `100px`:
 
 ```css
-@media (max-width: 100px) { /* CSS Rules */ }
+@media (max-width: 100px) {
+  /* CSS Rules */
+}
 ```
 
 e a media query a seguir retorna o conteúdo quando a altura do dispositivo é maior ou igual a `350px`:
 
 ```css
-@media (min-height: 350px) { /* CSS Rules */ }
+@media (min-height: 350px) {
+  /* CSS Rules */
+}
 ```
 
 Lembre-se de que o CSS dentro da media query é aplicado apenas se o tipo de mídia corresponder ao do dispositivo que está sendo usado.
@@ -37,21 +41,30 @@ Você deve declarar uma `@media` query para dispositivos que possuam uma altura 
 
 ```js
 const media = new __helpers.CSSHelp(document).getCSSRules('media');
-assert(media.some(x => x.media?.mediaText?.includes('(max-height: 800px)')));
+assert.isTrue(
+  media.some(x => x.media?.mediaText?.includes('(max-height: 800px)'))
+);
 ```
 
 O elemento `p` deve ter um `font-size` de `10px` quando a altura (`height`) do dispositivo for menor ou igual a `800px`.
 
 ```js
-const rules = new __helpers.CSSHelp(document).getRuleListsWithinMedia('(max-height: 800px)');
-assert(rules?.find(x => x.selectorText === 'p')?.style?.fontSize === "10px");
+const rules = new __helpers.CSSHelp(document).getRuleListsWithinMedia(
+  '(max-height: 800px)'
+);
+assert.strictEqual(
+  rules?.find(x => x.selectorText === 'p')?.style?.fontSize,
+  '10px'
+);
 ```
 
 O elemento `p` deve ter um `font-size` inicial de `20px` quando a altura (`height`) do dispositivo for menor ou igual a `800px`.
 
 ```js
-const ifPFirst = new __helpers.CSSHelp(document).getCSSRules()?.find(x => x?.selectorText === 'p' || x?.media);
-assert(ifPFirst?.style?.fontSize === '20px');
+const ifPFirst = new __helpers.CSSHelp(document)
+  .getCSSRules()
+  ?.find(x => x?.selectorText === 'p' || x?.media);
+assert.strictEqual(ifPFirst?.style?.fontSize, '20px');
 ```
 
 # --seed--
@@ -69,7 +82,14 @@ assert(ifPFirst?.style?.fontSize === '20px');
   /* Only change code above this line */
 </style>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis tempus massa. Aenean erat nisl, gravida vel vestibulum cursus, interdum sit amet lectus. Sed sit amet quam nibh. Suspendisse quis tincidunt nulla. In hac habitasse platea dictumst. Ut sit amet pretium nisl. Vivamus vel mi sem. Aenean sit amet consectetur sem. Suspendisse pretium, purus et gravida consequat, nunc ligula ultricies diam, at aliquet velit libero a dui.</p>
+<p>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis tempus
+  massa. Aenean erat nisl, gravida vel vestibulum cursus, interdum sit amet
+  lectus. Sed sit amet quam nibh. Suspendisse quis tincidunt nulla. In hac
+  habitasse platea dictumst. Ut sit amet pretium nisl. Vivamus vel mi sem.
+  Aenean sit amet consectetur sem. Suspendisse pretium, purus et gravida
+  consequat, nunc ligula ultricies diam, at aliquet velit libero a dui.
+</p>
 ```
 
 # --solutions--
@@ -87,5 +107,12 @@ assert(ifPFirst?.style?.fontSize === '20px');
   }
 </style>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis tempus massa. Aenean erat nisl, gravida vel vestibulum cursus, interdum sit amet lectus. Sed sit amet quam nibh. Suspendisse quis tincidunt nulla. In hac habitasse platea dictumst. Ut sit amet pretium nisl. Vivamus vel mi sem. Aenean sit amet consectetur sem. Suspendisse pretium, purus et gravida consequat, nunc ligula ultricies diam, at aliquet velit libero a dui.</p>
+<p>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis tempus
+  massa. Aenean erat nisl, gravida vel vestibulum cursus, interdum sit amet
+  lectus. Sed sit amet quam nibh. Suspendisse quis tincidunt nulla. In hac
+  habitasse platea dictumst. Ut sit amet pretium nisl. Vivamus vel mi sem.
+  Aenean sit amet consectetur sem. Suspendisse pretium, purus et gravida
+  consequat, nunc ligula ultricies diam, at aliquet velit libero a dui.
+</p>
 ```

@@ -30,49 +30,58 @@ Substitua as palavras que representam cores no elemento `style` por seus código
 O elemento `h1` com o texto `I am red!` deve receber a propriedade `color` com o valor hexadecimal que representa a cor vermelha.
 
 ```js
-assert($('.red-text').css('color') === 'rgb(255, 0, 0)');
+const redText = document.querySelector('.red-text');
+const color = window.getComputedStyle(redText)['color']; 
+assert.strictEqual(color, 'rgb(255, 0, 0)');
 ```
 
 O código hexadecimal (`hex code`) para a cor vermelha deve ser usado em vez da palavra `red`.
 
 ```js
-assert(code.match(/\.red-text\s*?{\s*?color\s*:\s*?(#FF0000|#F00)\s*?;?\s*?}/gi));
+assert.match(code, /\.red-text\s*?{\s*?color\s*:\s*?(#FF0000|#F00)\s*?;?\s*?}/gi);
 ```
 
 O elemento `h1` com o texto `I am green!` deve receber a propriedade `color` com o valor hexadecimal que representa a cor verde.
 
 ```js
-assert($('.green-text').css('color') === 'rgb(0, 255, 0)');
+const greenText = document.querySelector('.green-text');
+const color = window.getComputedStyle(greenText)['color']; 
+assert.strictEqual(color, 'rgb(0, 255, 0)');
 ```
 
 O código hexadecimal (`hex code`) para a cor verde deve ser usado em vez da palavra `green`.
 
 ```js
-assert(code.match(/\.green-text\s*?{\s*?color\s*:\s*?(#00FF00|#0F0)\s*?;?\s*?}/gi));
+assert.match(code, /\.green-text\s*?{\s*?color\s*:\s*?(#00FF00|#0F0)\s*?;?\s*?}/gi);
 ```
 
 O elemento `h1` com o texto `I am dodger blue!` deve receber a propriedade `color` com um valor de azul dodger.
 
 ```js
-assert($('.dodger-blue-text').css('color') === 'rgb(30, 144, 255)');
+const blueText = document.querySelector('.dodger-blue-text');
+const color = window.getComputedStyle(blueText)['color']; 
+assert.strictEqual(color, 'rgb(30, 144, 255)');
 ```
 
 O código hexadecimal (`hex code`) para a cor azul dodger deve ser usado em vez da palavra `dodgerblue`.
 
 ```js
-assert(code.match(/\.dodger-blue-text\s*?{\s*?color\s*:\s*?#1E90FF\s*?;?\s*?}/gi));
+assert.match(code, /\.dodger-blue-text\s*?{\s*?color\s*:\s*?#1E90FF\s*?;?\s*?}/gi);
 ```
 
 O elemento `h1` com o texto `I am orange!` deve receber a propriedade `color` com um valor de laranja.
 
 ```js
-assert($('.orange-text').css('color') === 'rgb(255, 165, 0)');
+const orangeText = document.querySelector('.orange-text');
+const color = window.getComputedStyle(orangeText)['color']; 
+
+assert.strictEqual(color, 'rgb(255, 165, 0)');
 ```
 
 O código hexadecimal (`hex code`) para a cor laranja deve ser usado em vez da palavra `orange`.
 
 ```js
-assert(code.match(/\.orange-text\s*?{\s*?color\s*:\s*?#FFA500\s*?;?\s*?}/gi));
+assert.match(code, /\.orange-text\s*?{\s*?color\s*:\s*?#FFA500\s*?;?\s*?}/gi);
 ```
 
 # --seed--
