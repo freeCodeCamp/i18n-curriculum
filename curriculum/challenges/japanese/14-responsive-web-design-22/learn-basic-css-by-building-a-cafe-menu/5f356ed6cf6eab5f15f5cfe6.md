@@ -37,6 +37,11 @@ assert.lengthOf(document.querySelectorAll('body'), 1);
 assert.equal(document.querySelector('div')?.parentElement?.tagName, 'BODY');
 ```
 
+他のすべての要素を新しい `div` の中に移動させてください。
+
+```js
+assert.lengthOf(document.querySelector('body > div#menu > main')?.children, 3);
+```
 
 # --seed--
 

@@ -23,31 +23,31 @@ dashedName: factorialize-a-number
 `factorialize(5)` は数値を返す必要があります。
 
 ```js
-assert(typeof factorialize(5) === 'number');
+assert.isNumber(factorialize(5));
 ```
 
 `factorialize(5)` は `120` を返す必要があります。
 
 ```js
-assert(factorialize(5) === 120);
+assert.strictEqual(factorialize(5), 120);
 ```
 
 `factorialize(10)` は `3628800` を返す必要があります。
 
 ```js
-assert(factorialize(10) === 3628800);
+assert.strictEqual(factorialize(10), 3628800);
 ```
 
 `factorialize(20)` は `2432902008176640000` を返す必要があります。
 
 ```js
-assert(factorialize(20) === 2432902008176640000);
+assert.strictEqual(factorialize(20), 2432902008176640000);
 ```
 
 `factorialize(0)` は `1` を返す必要があります。
 
 ```js
-assert(factorialize(0) === 1);
+assert.strictEqual(factorialize(0), 1);
 ```
 
 # --seed--
