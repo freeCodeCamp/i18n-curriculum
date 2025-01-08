@@ -21,73 +21,73 @@ dashedName: mutations
 `mutation(["hello", "hey"])` は `false` を返す必要があります。
 
 ```js
-assert(mutation(['hello', 'hey']) === false);
+assert.isFalse(mutation(['hello', 'hey']));
 ```
 
 `mutation(["hello", "Hello"])` は `true` を返す必要があります。
 
 ```js
-assert(mutation(['hello', 'Hello']) === true);
+assert.isTrue(mutation(['hello', 'Hello']));
 ```
 
 `mutation(["zyxwvutsrqponmlkjihgfedcba", "qrstu"])` は `true` を返す必要があります。
 
 ```js
-assert(mutation(['zyxwvutsrqponmlkjihgfedcba', 'qrstu']) === true);
+assert.isTrue(mutation(['zyxwvutsrqponmlkjihgfedcba', 'qrstu']));
 ```
 
 `mutation(["Mary", "Army"])` は `true` を返す必要があります。
 
 ```js
-assert(mutation(['Mary', 'Army']) === true);
+assert.isTrue(mutation(['Mary', 'Army']));
 ```
 
 `mutation(["Mary", "Aarmy"])` は `true` を返す必要があります。
 
 ```js
-assert(mutation(['Mary', 'Aarmy']) === true);
+assert.isTrue(mutation(['Mary', 'Aarmy']));
 ```
 
 `mutation(["Alien", "line"])` は `true` を返す必要があります。
 
 ```js
-assert(mutation(['Alien', 'line']) === true);
+assert.isTrue(mutation(['Alien', 'line']));
 ```
 
 `mutation(["floor", "for"])` は `true` を返す必要があります。
 
 ```js
-assert(mutation(['floor', 'for']) === true);
+assert.isTrue(mutation(['floor', 'for']));
 ```
 
 `mutation(["hello", "neo"])` は `false` を返す必要があります。
 
 ```js
-assert(mutation(['hello', 'neo']) === false);
+assert.isFalse(mutation(['hello', 'neo']));
 ```
 
 `mutation(["voodoo", "no"])` は `false` を返す必要があります。
 
 ```js
-assert(mutation(['voodoo', 'no']) === false);
+assert.isFalse(mutation(['voodoo', 'no']));
 ```
 
 `mutation(["ate", "date"])` は `false` を返す必要があります。
 
 ```js
-assert(mutation(['ate', 'date']) === false);
+assert.isFalse(mutation(['ate', 'date']));
 ```
 
 `mutation(["Tiger", "Zebra"])` は `false` を返す必要があります。
 
 ```js
-assert(mutation(['Tiger', 'Zebra']) === false);
+assert.isFalse(mutation(['Tiger', 'Zebra']));
 ```
 
 `mutation(["Noel", "Ole"])` は `true` を返す必要があります。
 
 ```js
-assert(mutation(['Noel', 'Ole']) === true);
+assert.isTrue(mutation(['Noel', 'Ole']));
 ```
 
 # --seed--
@@ -99,7 +99,7 @@ function mutation(arr) {
   return arr;
 }
 
-mutation(["hello", "hey"]);
+mutation(['hello', 'hey']);
 ```
 
 # --solutions--
@@ -108,10 +108,16 @@ mutation(["hello", "hey"]);
 function mutation(arr) {
   let hash = Object.create(null);
 
-  arr[0].toLowerCase().split('').forEach(c => hash[c] = true);
+  arr[0]
+    .toLowerCase()
+    .split('')
+    .forEach(c => (hash[c] = true));
 
-  return !arr[1].toLowerCase().split('').filter(c => !hash[c]).length;
+  return !arr[1]
+    .toLowerCase()
+    .split('')
+    .filter(c => !hash[c]).length;
 }
 
-mutation(["hello", "hey"]);
+mutation(['hello', 'hey']);
 ```

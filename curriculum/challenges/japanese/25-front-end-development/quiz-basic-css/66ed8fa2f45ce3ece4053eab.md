@@ -215,7 +215,7 @@ Which selector is correct to target the next sibling of an `img`?
 
 #### --text--
 
-Which selector is correct to target all siblings of an `img`?
+Which selector is correct to target all siblings preceded by an `img` element?
 
 #### --distractors--
 
@@ -307,19 +307,19 @@ Given the following selectors, which has the lowest specificity?
 
 #### --distractors--
 
-`h1`
-
----
-
 `#id`
 
 ---
 
-`p`
+`.class`
+
+---
+
+`div h1`
 
 #### --answer--
 
-`div`
+`h1`
 
 ### --question--
 

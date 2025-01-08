@@ -70,7 +70,7 @@ window.alert = (message) => alertMessage = message; // Override alert and store 
 inputEl.value = '';
 inputEl.dispatchEvent(new Event('change'))
 checkBtn.click();
-assert.strictEqual(alertMessage.trim().replace(/[.,?!]+$/g, '').toLowerCase(), 'please input a value');
+assert.strictEqual(alertMessage?.trim().replace(/[.,?!]+$/g, '').toLowerCase(), 'please input a value');
 ```
 
 `#text-input` の要素に `A` という文字だけを入力した状態で `#check-btn` の要素をクリックした場合、`#result` の要素に `"A is a palindrome"` というテキストが表示されます。
