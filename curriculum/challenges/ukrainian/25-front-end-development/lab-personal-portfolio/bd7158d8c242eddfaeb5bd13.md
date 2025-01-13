@@ -8,7 +8,7 @@ demoType: onClick
 
 # --description--
 
-Fulfill the user stories below and get all the tests to pass to complete the lab.
+Виконайте історію користувача, щоб завершити лабораторну роботу. Усі тести мають бути успішними.
 
 **Історія користувача:**
 
@@ -24,7 +24,7 @@ Fulfill the user stories below and get all the tests to pass to complete the lab
 10. Висота вітального розділу має дорівнювати висоті демонстраційного вікна.
 11. Навігаційна панель завжди повинна знаходитись у верхній частині демонстраційного вікна.
 
-**Note:** Be sure to link your stylesheet in your HTML and apply your CSS.
+**Примітка:** не забудьте прив’язати таблицю стилів до HTML та застосувати CSS.
 
 # --hints--
 

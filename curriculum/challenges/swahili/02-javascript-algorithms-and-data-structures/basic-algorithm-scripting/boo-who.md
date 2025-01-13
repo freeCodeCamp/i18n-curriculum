@@ -17,61 +17,61 @@ Primitives za Boolean ni za kweli na za uwongo.
 `booWho(true)` inapaswa kurudisha `true`.
 
 ```js
-assert.strictEqual(booWho(true), true);
+assert.isTrue(booWho(true));
 ```
 
 `booWho(true)` inapaswa kurudisha `true`.
 
 ```js
-assert.strictEqual(booWho(false), true);
+assert.isTrue(booWho(false));
 ```
 
 `booWho(true)` inapaswa kurudisha `true`.
 
 ```js
-assert.strictEqual(booWho([1, 2, 3]), false);
+assert.isFalse(booWho([1, 2, 3]));
 ```
 
 `booWho(true)` inapaswa kurudisha `true`.
 
 ```js
-assert.strictEqual(booWho([].slice), false);
+assert.isFalse(booWho([].slice));
 ```
 
 `booWho(true)` inapaswa kurudisha `true`.
 
 ```js
-assert.strictEqual(booWho({ a: 1 }), false);
+assert.isFalse(booWho({ a: 1 }));
 ```
 
 `booWho(1)` should return `false`.
 
 ```js
-assert.strictEqual(booWho(1), false);
+assert.isFalse(booWho(1));
 ```
 
 `booWho(NaN)` should return `false`.
 
 ```js
-assert.strictEqual(booWho(NaN), false);
+assert.isFalse(booWho(NaN));
 ```
 
 `booWho("a")` should return `false`.
 
 ```js
-assert.strictEqual(booWho('a'), false);
+assert.isFalse(booWho('a'));
 ```
 
 `booWho("true")` should return `false`.
 
 ```js
-assert.strictEqual(booWho('true'), false);
+assert.isFalse(booWho('true'));
 ```
 
 `booWho("false")` should return `false`.
 
 ```js
-assert.strictEqual(booWho('false'), false);
+assert.isFalse(booWho('false'));
 ```
 
 # --seed--
@@ -90,7 +90,7 @@ booWho(null);
 
 ```js
 function booWho(bool) {
-  return typeof bool === "boolean";
+  return typeof bool === 'boolean';
 }
 
 booWho(null);

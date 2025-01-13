@@ -7,7 +7,7 @@ dashedName: review-css-variables
 
 # --description--
 
-Review the concepts below to prepare for the upcoming quiz.
+Пригадайте поняття нижче, щоб підготуватись до тесту.
 
 ## CSS Custom Properties (CSS Variables)
 

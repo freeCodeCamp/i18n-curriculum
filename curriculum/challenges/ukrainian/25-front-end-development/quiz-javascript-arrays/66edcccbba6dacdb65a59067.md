@@ -1,13 +1,13 @@
 ---
 id: 66edcccbba6dacdb65a59067
-title: JavaScript Arrays Quiz
+title: Тест «Масиви в JavaScript»
 challengeType: 8
 dashedName: quiz-javascript-arrays
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 17 of the 20 questions below.
+Вам потрібно правильно відповісти на принаймні 17 запитань із 20, щоб скласти тест.
 
 # --quizzes--
 

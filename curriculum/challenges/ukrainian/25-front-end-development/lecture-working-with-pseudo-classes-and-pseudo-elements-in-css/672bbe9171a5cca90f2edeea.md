@@ -8,7 +8,7 @@ dashedName: what-are-examples-of-element-user-action-pseudo-classes
 
 # --description--
 
-Watch the lecture video and answer the questions below.
+Перегляньте відеолекцію та дайте відповідь на запитання нижче.
 
 # --questions--
 

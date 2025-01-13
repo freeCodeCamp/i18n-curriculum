@@ -1,13 +1,13 @@
 ---
 id: 66ed8fc9f45ce3ece4053eae
-title: CSS Animations Quiz
+title: Тест «Анімації в CSS»
 challengeType: 8
 dashedName: quiz-css-animations
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 17 of the 20 questions below.
+Вам потрібно правильно відповісти на принаймні 17 запитань із 20, щоб скласти тест.
 
 # --quizzes--
 

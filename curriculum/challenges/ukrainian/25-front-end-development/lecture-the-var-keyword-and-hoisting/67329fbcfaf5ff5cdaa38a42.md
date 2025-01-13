@@ -8,7 +8,7 @@ dashedName: what-is-the-var-keyword-and-why-is-it-no-longer-suggested-to-use-it
 
 # --description--
 
-Watch the video lecture and answer the questions below.
+Перегляньте відеолекцію та дайте відповідь на запитання нижче.
 
 # --questions--
 

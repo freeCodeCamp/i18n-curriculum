@@ -13,7 +13,7 @@ The division by zero is not a valid operation in mathematics.
 
 To account for this edge case, you should update your `calculateQuotient` function to instead check if `num2` is zero.
 
-If it is, the function should return the string `"Error: Division by zero"`. Otherwise, it should return the result of dividing `num1` by `num2`.
+Якщо так, то функція має повернути рядок `"Error: Division by zero"`. Otherwise, it should return the result of dividing `num1` by `num2`.
 
 # --hints--
 

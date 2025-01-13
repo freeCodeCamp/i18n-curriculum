@@ -11,7 +11,7 @@ Now target your `#piano` element with an `id` selector. Set its `background-colo
 
 # --hints--
 
-You should have a `#piano` selector.
+Ви повинні мати селектор `#piano`.
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('#piano'));

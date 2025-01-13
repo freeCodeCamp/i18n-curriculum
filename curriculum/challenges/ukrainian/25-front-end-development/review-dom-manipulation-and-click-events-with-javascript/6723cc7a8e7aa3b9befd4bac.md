@@ -7,7 +7,7 @@ dashedName: review-dom-manipulation-and-click-events-with-javascript
 
 # --description--
 
-Review the concepts below to prepare for the upcoming quiz.
+Пригадайте поняття нижче, щоб підготуватись до тесту.
 
 ## Working with the DOM and Web API's
 

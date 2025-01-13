@@ -7,7 +7,7 @@ dashedName: review-css-animations
 
 # --description--
 
-Review the concepts below to prepare for the upcoming quiz.
+Пригадайте поняття нижче, щоб підготуватись до тесту.
 
 ## CSS Animation Basics
 
