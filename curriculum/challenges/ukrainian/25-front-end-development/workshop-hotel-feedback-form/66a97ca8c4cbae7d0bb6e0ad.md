@@ -30,62 +30,62 @@ Don't forget to add the `selected` attribute to the `option` element with the va
 
 # --hints--
 
-You should have an `option` element with the value set to `"poor"`.
+Ви повинні мати елемент `option` зі значенням `"poor"`.
 
 ```js
 assert(document.querySelector('fieldset:nth-of-type(4) select#food option[value="poor"]'));
 ```
 
-Your `option` with the `value` of `"poor"` should have the text `"Poor"`.
+Елемент `option` зі значенням `"poor"` повинен мати текст `"Poor"`.
 
 ```js
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="poor"]').textContent, 'Poor');
 ```
 
-You should have an `option` element with the `value` set to `"satisfactory"`.
+Ви повинні мати елемент `option` зі значенням `"satisfactory"`.
 
 ```js
 assert(document.querySelector('fieldset:nth-of-type(4) select#food option[value="satisfactory"]'));
 ```
 
-Your `option` with the `value` of `"satisfactory"` should have the text `"Satisfactory"`.
+Елемент `option` зі значенням `"satisfactory"` повинен мати текст `"Satisfactory"`.
 
 ```js
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="satisfactory"]').textContent, 'Satisfactory');
 ```
 
-You should have an `option` element with the `value` set to `"good"`.
+Ви повинні мати елемент `option` зі значенням `"good"`.
 
 ```js
 assert(document.querySelector('fieldset:nth-of-type(4) select#food option[value="good"]'));
 ```
 
-Your `option` with the `value` of `"good"` should have the text `"Good"`.
+Елемент `option` зі значенням `"good"` повинен мати текст `"Good"`.
 
 ```js
 
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="good"]').textContent, 'Good');
 ```
 
-You should have an `option` element with the value set to `"very-good"`.
+Ви повинні мати елемент `option` зі значенням `"very-good"`.
 
 ```js
 assert(document.querySelector('fieldset:nth-of-type(4) select#food option[value="very-good"]'));
 ```
 
-Your `option` with the `value` of `"very-good"` should have the text `"Very Good"`.
+Елемент `option` зі значенням `"very-good"` повинен мати текст `"Very Good"`.
 
 ```js
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="very-good"]').textContent, 'Very Good');
 ```
 
-You should have an `option` element with the value set to `"excellent"`.
+Ви повинні мати елемент `option` зі значенням `"excellent"`.
 
 ```js
 assert(document.querySelector('fieldset:nth-of-type(4) select#food option[value="excellent"]'));
 ```
 
-Your `option` with the `value` of `"excellent"` should have the text `"Excellent"`.
+Елемент `option` зі значенням `"excellent"` повинен мати текст `"Excellent"`.
 
 ```js
 

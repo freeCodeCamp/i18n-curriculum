@@ -23,31 +23,31 @@ For example: `5! = 1 * 2 * 3 * 4 * 5 = 120`
 `factorialize(5)` має повертати число.
 
 ```js
-assert(typeof factorialize(5) === 'number');
+assert.isNumber(factorialize(5));
 ```
 
 `factorialize(5)` має повертати `120`.
 
 ```js
-assert(factorialize(5) === 120);
+assert.strictEqual(factorialize(5), 120);
 ```
 
 `factorialize(10)` має повертати `3628800`.
 
 ```js
-assert(factorialize(10) === 3628800);
+assert.strictEqual(factorialize(10), 3628800);
 ```
 
 `factorialize(20)` має повертати `2432902008176640000`.
 
 ```js
-assert(factorialize(20) === 2432902008176640000);
+assert.strictEqual(factorialize(20), 2432902008176640000);
 ```
 
 `factorialize(0)` має повертати `1`.
 
 ```js
-assert(factorialize(0) === 1);
+assert.strictEqual(factorialize(0), 1);
 ```
 
 # --seed--

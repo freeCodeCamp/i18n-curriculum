@@ -1,13 +1,13 @@
 ---
 id: 66ed8ffcf45ce3ece4053eb5
-title: CSS Positioning Quiz
+title: Тест «Позиціювання в CSS»
 challengeType: 8
 dashedName: quiz-css-positioning
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 17 of the 20 questions below.
+Вам потрібно правильно відповісти на принаймні 17 запитань із 20, щоб скласти тест.
 
 # --quizzes--
 

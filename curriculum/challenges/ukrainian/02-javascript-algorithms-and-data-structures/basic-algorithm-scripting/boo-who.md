@@ -17,61 +17,61 @@ Check if a value is classified as a boolean primitive. Return `true` or `false`.
 `booWho(true)` має повертати `true`.
 
 ```js
-assert.strictEqual(booWho(true), true);
+assert.isTrue(booWho(true));
 ```
 
 `booWho(false)` має повертати `true`.
 
 ```js
-assert.strictEqual(booWho(false), true);
+assert.isTrue(booWho(false));
 ```
 
 `booWho([1, 2, 3])` має повертати `false`.
 
 ```js
-assert.strictEqual(booWho([1, 2, 3]), false);
+assert.isFalse(booWho([1, 2, 3]));
 ```
 
 `booWho([].slice)` має повертати `false`.
 
 ```js
-assert.strictEqual(booWho([].slice), false);
+assert.isFalse(booWho([].slice));
 ```
 
 `booWho({ "a": 1 })` має повертати `false`.
 
 ```js
-assert.strictEqual(booWho({ a: 1 }), false);
+assert.isFalse(booWho({ a: 1 }));
 ```
 
 `booWho(1)` має повертати `false`.
 
 ```js
-assert.strictEqual(booWho(1), false);
+assert.isFalse(booWho(1));
 ```
 
 `booWho(NaN)` має повертати `false`.
 
 ```js
-assert.strictEqual(booWho(NaN), false);
+assert.isFalse(booWho(NaN));
 ```
 
 `booWho("a")` має повертати `false`.
 
 ```js
-assert.strictEqual(booWho('a'), false);
+assert.isFalse(booWho('a'));
 ```
 
 `booWho("true")` має повертати `false`.
 
 ```js
-assert.strictEqual(booWho('true'), false);
+assert.isFalse(booWho('true'));
 ```
 
 `booWho("false")` має повертати `false`.
 
 ```js
-assert.strictEqual(booWho('false'), false);
+assert.isFalse(booWho('false'));
 ```
 
 # --seed--
@@ -90,7 +90,7 @@ booWho(null);
 
 ```js
 function booWho(bool) {
-  return typeof bool === "boolean";
+  return typeof bool === 'boolean';
 }
 
 booWho(null);

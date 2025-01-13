@@ -8,7 +8,7 @@ dashedName: what-is-the-difference-between-content-box-and-border-box
 
 # --description--
 
-Watch the lecture video and answer the questions below.
+Перегляньте відеолекцію та дайте відповідь на запитання нижче.
 
 # --questions--
 

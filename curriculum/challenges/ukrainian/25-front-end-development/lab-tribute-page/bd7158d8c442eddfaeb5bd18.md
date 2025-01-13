@@ -8,7 +8,7 @@ dashedName: build-a-tribute-page
 
 # --description--
 
-Fulfill the user stories below and get all the tests to pass to complete the lab.
+Виконайте історію користувача, щоб завершити лабораторну роботу. Усі тести мають бути успішними.
 
 **Історія користувача:**
 
@@ -22,7 +22,7 @@ Fulfill the user stories below and get all the tests to pass to complete the lab
 1. `#image` повинен використовувати властивості `max-width` та `height`, щоб змінювати розмір відповідно до ширини батьківського елемента, не перевищуючи початковий розмір.
 1. Ваш елемент `img` повинен бути зцентрованим відповідно до батьківського елемента.
 
-**Note:** Be sure to link your stylesheet in your HTML and apply your CSS.
+**Примітка:** не забудьте прив’язати таблицю стилів до HTML та застосувати CSS.
 
 # --hints--
 

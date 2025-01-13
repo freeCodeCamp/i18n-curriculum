@@ -1,13 +1,13 @@
 ---
 id: 66ed8fb9f45ce3ece4053eac
-title: Computer Basics Quiz
+title: Тест «Основи комп’ютера»
 challengeType: 8
 dashedName: quiz-computer-basics
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 17 of the 20 questions below.
+Вам потрібно правильно відповісти на принаймні 17 запитань із 20, щоб скласти тест.
 
 # --quizzes--
 
@@ -237,7 +237,7 @@ Pressing the `Delete` key on the keyboard (`Command + Delete` on Mac)
 
 #### --text--
 
-Which of the following is not a feature when searching for files?
+Which of the following is not a feature when searching for files locally?
 
 #### --distractors--
 
@@ -413,7 +413,7 @@ Pressing the Network/Internet button in Settings
 
 #### --text--
 
-Which of these peripherals is not the same type as the others?
+Which of these peripherals is an input device?
 
 #### --distractors--
 

@@ -1,13 +1,13 @@
 ---
 id: 66f1adcf97e3e4c1bd89ebf5
-title: Web Performance Quiz
+title: Тест «Вебпродуктивність»
 challengeType: 8
 dashedName: quiz-web-performance
 ---
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 17 of the 20 questions below.
+Вам потрібно правильно відповісти на принаймні 17 запитань із 20, щоб скласти тест.
 
 # --quizzes--
 

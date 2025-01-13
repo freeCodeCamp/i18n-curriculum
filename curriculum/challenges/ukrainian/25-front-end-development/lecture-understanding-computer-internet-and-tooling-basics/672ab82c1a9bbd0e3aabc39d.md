@@ -8,7 +8,7 @@ dashedName: how-to-effectively-work-with-your-keyboard-mouse-and-other-pointing-
 
 # --description--
 
-Watch the lecture video and answer the questions below.
+Перегляньте відеолекцію та дайте відповідь на запитання нижче.
 
 # --questions--
 
