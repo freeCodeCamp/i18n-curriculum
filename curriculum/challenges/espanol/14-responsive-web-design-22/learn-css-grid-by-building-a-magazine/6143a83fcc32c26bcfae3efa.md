@@ -7,7 +7,7 @@ dashedName: step-18
 
 # --description--
 
-Debajo de su elemento `.text`, cree un nuevo elemento `section` y asígnele una `class` de `text text-with-images`. Within that, create an `article` element with a `class` set to `brief-history`, and an `aside` element with the `class` set to `image-wrapper`.
+Debajo de su elemento `.text`, cree un nuevo elemento `section` y asígnele una `class` de `text text-with-images`. Dentro de ese div crea un elemento `article` con una `class` establecida en `brief-history`, y un elemento `aside` con la `class` establecida en `image-wrapper`.
 
 # --hints--
 

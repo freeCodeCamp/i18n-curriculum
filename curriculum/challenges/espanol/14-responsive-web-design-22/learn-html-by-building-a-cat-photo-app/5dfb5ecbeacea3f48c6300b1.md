@@ -20,7 +20,11 @@ Aquí hay un ejemplo de lista de items en una lista desordenada:
 
 Dentro del elemento ul se anidan 3 elementos de la lista para mostrar tres cosas que les encantan a los gatos:
 
-`cat nip` `laser pointers` `lasagna`
+`cat nip`
+
+`laser pointers`
+
+`lasagna`
 
 # --hints--
 

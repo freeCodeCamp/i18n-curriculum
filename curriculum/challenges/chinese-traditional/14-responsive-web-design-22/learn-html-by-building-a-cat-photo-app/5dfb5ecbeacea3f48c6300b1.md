@@ -20,7 +20,11 @@ dashedName: step-23
 
 在 `ul` 元素中嵌套三個列表項以顯示貓喜歡的三件事：
 
-`cat nip` `laser pointers` `lasagna`
+`cat nip`
+
+`laser pointers`
+
+`lasagna`
 
 # --hints--
 

@@ -17,37 +17,37 @@ Du erhältst eine vorgegebene Variable namens `celsius`, die für den Temperatur
 `convertCtoF(0)` sollte eine Zahl zurückgeben
 
 ```js
-assert(typeof convertCtoF(0) === 'number');
+assert.isNumber(convertCtoF(0));
 ```
 
 `convertCtoF(-30)` sollte den Wert `-22` zurückgeben
 
 ```js
-assert(convertCtoF(-30) === -22);
+assert.strictEqual(convertCtoF(-30), -22);
 ```
 
 `convertCtoF(-10)` sollte den Wert `14` zurückgeben
 
 ```js
-assert(convertCtoF(-10) === 14);
+assert.strictEqual(convertCtoF(-10), 14);
 ```
 
 `convertCtoF(0)` sollte den Wert `32` zurückgeben
 
 ```js
-assert(convertCtoF(0) === 32);
+assert.strictEqual(convertCtoF(0), 32);
 ```
 
 `convertCtoF(20)` sollte den Wert `68` zurückgeben
 
 ```js
-assert(convertCtoF(20) === 68);
+assert.strictEqual(convertCtoF(20), 68);
 ```
 
 `convertCtoF(30)` sollte den Wert `86` zurückgeben
 
 ```js
-assert(convertCtoF(30) === 86);
+assert.strictEqual(convertCtoF(30), 86);
 ```
 
 # --seed--
@@ -67,7 +67,7 @@ convertCtoF(30);
 
 ```js
 function convertCtoF(celsius) {
-  let fahrenheit = celsius * 9/5 + 32;
+  let fahrenheit = celsius * (9 / 5) + 32;
   return fahrenheit;
 }
 

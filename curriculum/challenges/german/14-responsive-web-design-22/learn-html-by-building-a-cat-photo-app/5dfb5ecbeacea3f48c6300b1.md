@@ -20,7 +20,11 @@ Hier ist ein Beispiel für Listen-Elemente in einer unsortierten Liste:
 
 Bette innerhalb des `ul`-Elements drei Listen-Elemente ein, um drei Dinge anzuzeigen, die Katzen lieben:
 
-`cat nip` `laser pointers` `lasagna`
+`cat nip`
+
+`laser pointers`
+
+`lasagna`
 
 # --hints--
 

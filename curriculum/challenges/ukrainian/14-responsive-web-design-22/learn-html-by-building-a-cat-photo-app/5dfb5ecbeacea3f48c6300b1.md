@@ -20,7 +20,11 @@ dashedName: step-23
 
 Вкладіть три елементи списку до елемента `ul`, перерахувавши три речі, які люблять коти:
 
-`cat nip` `laser pointers` `lasagna`
+`cat nip`
+
+`laser pointers`
+
+`lasagna`
 
 # --hints--
 

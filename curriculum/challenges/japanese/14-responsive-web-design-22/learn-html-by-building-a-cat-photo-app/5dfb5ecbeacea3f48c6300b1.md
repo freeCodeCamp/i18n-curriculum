@@ -20,7 +20,11 @@ dashedName: step-23
 
 `ul` 要素内に 3 つのリスト項目をネストして、下記 3 つの猫が好きなものを表示してください:
 
-`cat nip` `laser pointers` `lasagna`
+`cat nip`
+
+`laser pointers`
+
+`lasagna`
 
 # --hints--
 
