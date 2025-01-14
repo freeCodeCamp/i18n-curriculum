@@ -22,7 +22,7 @@ Ele permite que você crie animações complexas e efeitos interativos.
 
 ---
 
-Ele permite que você crie animações complexas e efeitos interativos.
+It allows you to write desktop applications.
 
 ---
 

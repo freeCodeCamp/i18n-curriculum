@@ -23,31 +23,31 @@ Nur ganze Zahlen größer oder gleich null werden der Funktion übergeben.
 `factorialize(5)` sollte eine Zahl zurückgeben.
 
 ```js
-assert(typeof factorialize(5) === 'number');
+assert.isNumber(factorialize(5));
 ```
 
 `factorialize(5)` sollte `120` zurückgeben.
 
 ```js
-assert(factorialize(5) === 120);
+assert.strictEqual(factorialize(5), 120);
 ```
 
 `factorialize(10)` sollte `3628800` zurückgeben.
 
 ```js
-assert(factorialize(10) === 3628800);
+assert.strictEqual(factorialize(10), 3628800);
 ```
 
 `factorialize(20)` sollte `2432902008176640000` zurückgeben.
 
 ```js
-assert(factorialize(20) === 2432902008176640000);
+assert.strictEqual(factorialize(20), 2432902008176640000);
 ```
 
 `factorialize(0)` sollte `1` zurückgeben.
 
 ```js
-assert(factorialize(0) === 1);
+assert.strictEqual(factorialize(0), 1);
 ```
 
 # --seed--

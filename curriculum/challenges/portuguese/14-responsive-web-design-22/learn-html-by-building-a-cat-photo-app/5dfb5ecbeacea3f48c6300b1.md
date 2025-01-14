@@ -20,7 +20,11 @@ Aqui está um exemplo de itens em uma lista não ordenada:
 
 Aninhe no elemento `ul` uma lista de três coisas que gatos adoram:
 
-`cat nip` `laser pointers` `lasagna`
+`cat nip`
+
+`laser pointers`
+
+`lasagna`
 
 # --hints--
 
