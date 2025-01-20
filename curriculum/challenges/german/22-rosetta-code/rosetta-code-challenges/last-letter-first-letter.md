@@ -21,7 +21,7 @@ Child 2: snake
 
 # --instructions--
 
-Schreibe eine Funktion, die ein Eingabefeld mit Wörtern annimmt. Die Funktion sollte eine Anordnung von Wörtern zurückgeben, bei dem der erste Buchstabe jedes Wortes mit dem letzten Buchstaben des vorherigen Wortes identisch ist. Es werden nur die Wörter aus dem Eingabefeld verwendet, und ein einmal verwendetes Wort kann nicht wiederholt werden. Die Wörter im Rückgabefeld sollten so ausgewählt und angeordnet werden, dass ihre Länge maximiert wird.
+Schreibe eine Funktion, die ein Eingabefeld mit Wörtern annimmt. Die Funktion sollte eine Anordnung von Wörtern zurückgeben, bei dem der erste Buchstabe jedes Wortes mit dem letzten Buchstaben des vorherigen Wortes identisch ist. Es werden nur die Wörter aus dem Eingabefeld verwendet, und ein einmal verwendetes Wort kann nicht wiederholt werden. The words in the return array should be selected and sequenced so that its length is maximized.
 
 # --hints--
 

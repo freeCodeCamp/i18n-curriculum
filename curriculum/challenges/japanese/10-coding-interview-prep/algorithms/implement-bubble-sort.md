@@ -82,7 +82,7 @@ assert.sameMembers(
 `bubbleSort` には組み込みの `.sort()` メソッドを使用しないでください。
 
 ```js
-assert(isBuiltInSortUsed());
+assert.isFalse(isBuiltInSortUsed());
 ```
 
 # --seed--
@@ -99,9 +99,14 @@ function isSorted(a){
 
 function isBuiltInSortUsed(){
   let sortUsed = false;
+  const temp = Array.prototype.sort;
   Array.prototype.sort = () => sortUsed = true;
-  bubbleSort([0, 1]);
-  return !sortUsed;
+  try {
+    bubbleSort([0, 1]);
+  } finally {
+    Array.prototype.sort = temp;
+  }
+  return sortUsed;
 }
 ```
 

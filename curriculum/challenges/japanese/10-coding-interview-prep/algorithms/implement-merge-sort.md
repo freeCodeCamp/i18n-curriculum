@@ -31,13 +31,6 @@ assert.isFunction(mergeSort);
 `mergeSort` はソートされた配列を返す必要があります (最小から最大の順)。
 
 ```js
-function isSorted(a){
-  for(let i = 0; i < a.length - 1; i++)
-    if(a[i] > a[i + 1])
-      return false;
-  return true;
-}
-
 assert.isTrue(
   isSorted(
     mergeSort([
@@ -93,16 +86,33 @@ assert.sameMembers(
 `mergeSort` には組み込みの `.sort()` メソッドを使用しないでください。
 
 ```js
-function isBuiltInSortUsed(){
-  let sortUsed = false;
-  Array.prototype.sort = () => sortUsed = true;
-  mergeSort([0, 1]);
-  return sortUsed;
-}
 assert.isFalse(isBuiltInSortUsed());
 ```
 
 # --seed--
+
+## --after-user-code--
+
+```js
+function isSorted(a){
+  for(let i = 0; i < a.length - 1; i++)
+    if(a[i] > a[i + 1])
+      return false;
+  return true;
+}
+
+function isBuiltInSortUsed(){
+  let sortUsed = false;
+  const temp = Array.prototype.sort;
+  Array.prototype.sort = () => sortUsed = true;
+  try {
+    mergeSort([0, 1]);
+  } finally {
+    Array.prototype.sort = temp;
+  }
+  return sortUsed;
+}
+```
 
 ## --seed-contents--
 

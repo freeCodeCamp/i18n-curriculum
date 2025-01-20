@@ -10,7 +10,7 @@ dashedName: problem-165-intersections
 
 Un segmento è definito unicamente dai punti terminali. Considerando due segmenti in un piano geometrico ci sono tre possibilità: i due segmenti hanno zero punti, un punto, o infiniti punti in comune.
 
-In più quando i due segmenti hanno esattamente un punto in comune potrebbe essere che questo sia un terminale di uno o entrambi i segmenti. Se un punto in comune dei due segmenti non è un punto terminale di nessuno dei due allora è un punto interno di entrambi i segmenti.
+Moreover when two segments have exactly one point in common it might be the case that common point is an endpoint of either one of the segments or of both. Se un punto in comune dei due segmenti non è un punto terminale di nessuno dei due allora è un punto interno di entrambi i segmenti.
 
 Sia $T$, un punto in comune di due segmenti $L_1$ e $L_2$, un punto d'intersezione è vero se è il solo punto in comune di $L_1$ e $L_2$ ed è un punto interno di entrambi i segmenti.
 

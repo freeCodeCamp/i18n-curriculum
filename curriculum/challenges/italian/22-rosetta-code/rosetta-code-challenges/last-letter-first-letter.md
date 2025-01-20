@@ -21,7 +21,7 @@ Child 2: snake
 
 # --instructions--
 
-Scrivi una funzione che accetta un array di parole in input. La funzione dovrebbe restituire un array di parole dove la prima lettera di ogni parola è uguale a l'ultima lettera della parola precedente. Usa solo le parole nell'array di input e una volta usata una parola non può essere ripetuta. Le parole nell'array restituito devono essere selezionate e ordinate in modo che la sua lunghezza sia massimizzata.
+Scrivi una funzione che accetta un array di parole in input. La funzione dovrebbe restituire un array di parole dove la prima lettera di ogni parola è uguale a l'ultima lettera della parola precedente. Usa solo le parole nell'array di input e una volta usata una parola non può essere ripetuta. The words in the return array should be selected and sequenced so that its length is maximized.
 
 # --hints--
 

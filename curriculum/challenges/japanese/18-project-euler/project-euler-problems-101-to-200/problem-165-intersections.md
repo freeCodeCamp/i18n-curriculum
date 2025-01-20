@@ -10,7 +10,7 @@ dashedName: problem-165-intersections
 
 線分は 2 つの端点によって一意に定義されます。 平面上にある 2 本の線分について考えると、共有点がない、共有点が 1 つある、共有点が無数にある、という 3 つの可能性があります。
 
-さらに、2 本の線分が共有点をちょうど 1 つ持つ場合、その共通点が、いずれかまたは両方の線分の端点であり得ます。 2 本の線分の共有点がいずれの線分の端点でもない場合、それは両方の線分の内点です。
+Moreover when two segments have exactly one point in common it might be the case that common point is an endpoint of either one of the segments or of both. 2 本の線分の共有点がいずれの線分の端点でもない場合、それは両方の線分の内点です。
 
 点 $T$ が 2 本の線分 $L_1$ と $L_2$ の唯一の共有点であり、かつ、$T$ が両方の線分の内点である場合、$L_1$ と $L_2$ の共有点 $T$ を $L_1$ と $L_2$ の「真の交点」と呼ぶことにします。
 
