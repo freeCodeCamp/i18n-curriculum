@@ -39,7 +39,7 @@ Ich beginne mit dem ersten (linken) Plot, meine Abbildung hat zwei Zeilen und ei
 
 ---
 
-Meine Abbildung wird eine Spalte und zwei Zeilen haben, und ich beginne in dem ersten ("linken") Plot zu zeichnen.
+Meine Abbildung wird eine Zeile und zwei Spalten haben, und ich beginne in dem ersten ("linken") Plot zu zeichnen.
 
 ## --video-solution--
 

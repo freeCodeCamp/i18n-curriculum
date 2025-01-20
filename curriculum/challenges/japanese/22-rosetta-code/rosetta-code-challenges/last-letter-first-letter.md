@@ -21,7 +21,7 @@ dashedName: last-letter-first-letter
 
 # --instructions--
 
-単語の入力配列を取る関数を記述してください。 関数は、各単語の最初の文字が前の単語の最後の文字と同じである単語の配列を返す必要があります。 入力配列内の単語のみを使用し、一度使用された単語を繰り返して使うことはできません。 戻り値となる配列の単語は、その長さが最大となるよう選択され、並べられる必要があります。
+単語の入力配列を取る関数を記述してください。 関数は、各単語の最初の文字が前の単語の最後の文字と同じである単語の配列を返す必要があります。 入力配列内の単語のみを使用し、一度使用された単語を繰り返して使うことはできません。 The words in the return array should be selected and sequenced so that its length is maximized.
 
 # --hints--
 

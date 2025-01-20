@@ -11,25 +11,25 @@ Next, within the `div` element, add another `div` element and give it a class of
 
 # --hints--
 
-Your new `div` element should have an opening tag.
+Il nuovo elemento `div` dovrebbe avere un tag di apertura.
 
 ```js
 assert([...code.matchAll(/<div.*?>/gi)][1]);
 ```
 
-Your new `div` element should have a closing tag.
+Il nuovo elemento `div` dovrebbe avere un tag di chiusura.
 
 ```js
 assert([...code.matchAll(/<\/div\s*>/gi)][1]);
 ```
 
-You should nest your new `div` element within the `div` with the class `container`.
+Dovresti annidare il nuovo elemento `div` all'interno del `div` con la classe `container`.
 
 ```js
 assert(document.querySelector('.container')?.children[0]?.localName === 'div');
 ```
 
-You should give your new `div` element a class of `marker`.
+Dovresti assegnare al nuovo elemento `div` la classe `marker`.
 
 ```js
 const containerChildren = [...document.querySelector('.container')?.children];

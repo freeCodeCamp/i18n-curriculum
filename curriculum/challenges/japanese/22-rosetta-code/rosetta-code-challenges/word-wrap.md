@@ -12,7 +12,7 @@ dashedName: word-wrap
 
 # --instructions--
 
-このテキストを任意の文字数でワードラップできる関数を記述してください。 例えば、80 文字でワードラップしたテキストは以下のようになります:
+このテキストを任意の文字数でワードラップできる関数を記述してください。 Note that the input text already contains line breaks, which your function should handle appropriately. 例えば、80 文字でワードラップしたテキストは以下のようになります:
 
 <pre>
 TeX の Knuth–Plass アルゴリズムのようなより洗練されたアルゴリズムを使用してテキストをワードラップしてみましょう。 使用する言語でこのアルゴリズムを実装する場合、簡単に追加点を得られます。ただし、このアルゴリズムが単純な最小限の長さのアルゴリズムよりも優れていることを示す参考資料を提示する必要があります。
@@ -20,37 +20,37 @@ TeX の Knuth–Plass アルゴリズムのようなより洗練されたアル�
 
 # --hints--
 
-wrap は関数とします。
+`wrap` should be a function.
 
 ```js
 assert.equal(typeof wrap, 'function');
 ```
 
-wrap は文字列を返す必要があります。
+`wrap` should return a string.
 
 ```js
 assert.equal(typeof wrap('abc', 10), 'string');
 ```
 
-wrap(80) は 4 行を返す必要があります。
+`wrap(text,80)` should return 4 lines.
 
 ```js
 assert(wrapped80.split('\n').length === 4);
 ```
 
-`wrap` 関数は期待されるテキストを返す必要があります。
+Your `wrap` function should return the expected text.
 
 ```js
 assert.equal(wrapped80.split('\n')[0], firstRow80);
 ```
 
-wrap(42) は 7 行を返す必要があります。
+`wrap(text,42)` should return 7 lines.
 
 ```js
 assert(wrapped42.split('\n').length === 7);
 ```
 
-`wrap` 関数は期待されるテキストを返す必要があります。
+Your `wrap` function should return the expected text.
 
 ```js
 assert.equal(wrapped42.split('\n')[0], firstRow42);

@@ -10,7 +10,7 @@ dashedName: problem-165-intersections
 
 Ein Segment ist eindeutig durch seine beiden Endpunkte definiert. Wenn du zwei Geraden in der ebenen Geometrie betrachtest, gibt es drei Möglichkeiten: Die Segmente haben null Punkte, einen Punkt oder unendlich viele Punkte gemeinsam.
 
-Wenn zwei Segmente genau einen Punkt gemeinsam haben, kann es außerdem sein, dass dieser gemeinsame Punkt ein Endpunkt entweder eines der Segmente oder beider ist. Wenn ein gemeinsamer Punkt zweier Segmente kein Endpunkt eines der beiden Segmente ist, ist er ein Innenpunkt beider Segmente.
+Moreover when two segments have exactly one point in common it might be the case that common point is an endpoint of either one of the segments or of both. Wenn ein gemeinsamer Punkt zweier Segmente kein Endpunkt eines der beiden Segmente ist, ist er ein Innenpunkt beider Segmente.
 
 Wir nennen einen gemeinsamen Punkt $T$ zweier Segmente $L_1$ und $L_2$ einen echten Schnittpunkt von $L_1$ und $L_2$, wenn $T$ der einzige gemeinsame Punkt von $L_1$ und $L_2$ ist und $T$ ein innerer Punkt der beiden Segmente ist.
 
