@@ -10,7 +10,7 @@ dashedName: problem-165-intersections
 
 A segment is uniquely defined by its two endpoints. By considering two line segments in plane geometry there are three possibilities: the segments have zero points, one point, or infinitely many points in common.
 
-Moreover when two segments have exactly one point in common it might be the case that that common point is an endpoint of either one of the segments or of both. If a common point of two segments is not an endpoint of either of the segments it is an interior point of both segments.
+Moreover when two segments have exactly one point in common it might be the case that common point is an endpoint of either one of the segments or of both. If a common point of two segments is not an endpoint of either of the segments it is an interior point of both segments.
 
 如果T是L1和L2的唯一公共点，则我们将两个段L1和L2的公共点T称为L1和L2的真实交点，并且T是两个段的内点。
 

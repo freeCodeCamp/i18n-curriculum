@@ -21,7 +21,7 @@ Child 2: snake
 
 # --instructions--
 
-編寫一個函數，該函數接受輸入的單詞數組。 該函數應該返回一個單詞數組，其中每個單詞的第一個字母與前一個單詞的最後一個字母相同。 只使用輸入數組中的詞，一個詞一旦用過就不能重複。 應選擇返回數組中的單詞並對其進行排序，以使其長度最大化。
+編寫一個函數，該函數接受輸入的單詞數組。 該函數應該返回一個單詞數組，其中每個單詞的第一個字母與前一個單詞的最後一個字母相同。 只使用輸入數組中的詞，一個詞一旦用過就不能重複。 The words in the return array should be selected and sequenced so that its length is maximized.
 
 # --hints--
 

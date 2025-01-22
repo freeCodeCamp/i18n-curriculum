@@ -21,7 +21,7 @@ Child 2: snake
 
 # --instructions--
 
-编写一个函数，该函数接受输入的单词数组。 该函数应该返回一个单词数组，其中每个单词的第一个字母与前一个单词的最后一个字母相同。 只使用输入数组中的词，一个词一旦用过就不能重复。 应选择返回数组中的单词并对其进行排序，以使其长度最大化。
+编写一个函数，该函数接受输入的单词数组。 该函数应该返回一个单词数组，其中每个单词的第一个字母与前一个单词的最后一个字母相同。 只使用输入数组中的词，一个词一旦用过就不能重复。 The words in the return array should be selected and sequenced so that its length is maximized.
 
 # --hints--
 
