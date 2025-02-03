@@ -21,7 +21,7 @@ Criança 2: elefante
 
 # --instructions--
 
-Escreva uma função que receba um array de palavras. A função deve retornar um array de palavras em que a primeira letra de cada palavra é a mesma que a última letra da palavra anterior. Use apenas as palavras do array de entrada. Quando uma palavra for usada, ela não poderá ser repetida. As palavras no array de retorno devem ser selecionadas e sequenciadas para que o comprimento do array seja maximizado.
+Escreva uma função que receba um array de palavras. A função deve retornar um array de palavras em que a primeira letra de cada palavra é a mesma que a última letra da palavra anterior. Use apenas as palavras do array de entrada. Quando uma palavra for usada, ela não poderá ser repetida. The words in the return array should be selected and sequenced so that its length is maximized.
 
 # --hints--
 
