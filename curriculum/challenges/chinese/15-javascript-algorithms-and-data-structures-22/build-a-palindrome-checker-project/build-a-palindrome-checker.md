@@ -19,20 +19,20 @@ dashedName: build-a-palindrome-checker
 1. You should have an `input` element with an `id` of `"text-input"`.
 1. You should have a `button` element with an `id` of `"check-btn"`.
 1. You should have a `div`, `span` or `p` element with an `id` of `"result"`.
-1. When you click on the `#check-btn` element without entering a value into the `#text-input` element, an alert should appear with the text `"Please input a value"`.
-1. When the `#text-input` element only contains the letter `A` and the `#check-btn` element is clicked, the `#result` element should contain the text `"A is a palindrome"`.
-1. When the `#text-input` element contains the text `eye` and the `#check-btn` element is clicked, the `#result` element should contain the text `"eye is a palindrome"`.
-1. When the `#text-input` element contains the text `_eye` and the `#check-btn` element is clicked, the `#result` element should contain the text `"_eye is a palindrome"`.
-1. When the `#text-input` element contains the text `race car` and the `#check-btn` element is clicked, the `#result` element should contain the text `"race car is a palindrome"`.
-1. When the `#text-input` element contains the text `not a palindrome` and the `#check-btn` element is clicked, the `#result` element should contain the text `"not a palindrome is not a palindrome"`.
-1. When the `#text-input` element contains the text `A man, a plan, a canal. Panama` and the `#check-btn` element is clicked, the `#result` element should contain the text `"A man, a plan, a canal. Panama is a palindrome"`.
-1. When the `#text-input` element contains the text `never odd or even` and the `#check-btn` element is clicked, the `#result` element should contain the text `"never odd or even is a palindrome"`.
-1. When the `#text-input` element contains the text `nope` and the `#check-btn` element is clicked, the `#result` element should contain the text `"nope is not a palindrome"`.
-1. When the `#text-input` element contains the text `almostomla` and the `#check-btn` element is clicked, the `#result` element should contain the text `"almostomla is not a palindrome"`.
-1. When the `#text-input` element contains the text `My age is 0, 0 si ega ym.` and the `#check-btn` element is clicked, the `#result` element should contain the text `"My age is 0, 0 si ega ym. is a palindrome"`.
-1. When the `#text-input` element contains the text `1 eye for of 1 eye.` and the `#check-btn` element is clicked, the `#result` element should contain the text `"1 eye for of 1 eye. is not a palindrome"`.
-1. When the `#text-input` element contains the text `0_0 (: /-\ :) 0-0` and the `#check-btn` element is clicked, the `#result` element should contain the text `"0_0 (: /-\ :) 0-0 is a palindrome"`.
-1. When the `#text-input` element contains the text `five|\_/|four` and the `#check-btn` element is clicked, the `#result` element should contain the text `"five|\_/|four is not a palindrome"`.
+1. When you click on the `#check-btn` element without entering a value into the `#text-input` element, an alert should appear with the text `Please input a value`.
+1. When the `#text-input` element only contains the letter `A` and the `#check-btn` element is clicked, the `#result` element should contain the text `A is a palindrome`.
+1. When the `#text-input` element contains the text `eye` and the `#check-btn` element is clicked, the `#result` element should contain the text `eye is a palindrome`.
+1. When the `#text-input` element contains the text `_eye` and the `#check-btn` element is clicked, the `#result` element should contain the text `_eye is a palindrome`.
+1. When the `#text-input` element contains the text `race car` and the `#check-btn` element is clicked, the `#result` element should contain the text `race car is a palindrome`.
+1. When the `#text-input` element contains the text `not a palindrome` and the `#check-btn` element is clicked, the `#result` element should contain the text `not a palindrome is not a palindrome`.
+1. When the `#text-input` element contains the text `A man, a plan, a canal. Panama` and the `#check-btn` element is clicked, the `#result` element should contain the text `A man, a plan, a canal. Panama is a palindrome`.
+1. When the `#text-input` element contains the text `never odd or even` and the `#check-btn` element is clicked, the `#result` element should contain the text `never odd or even is a palindrome`.
+1. When the `#text-input` element contains the text `nope` and the `#check-btn` element is clicked, the `#result` element should contain the text `nope is not a palindrome`.
+1. When the `#text-input` element contains the text `almostomla` and the `#check-btn` element is clicked, the `#result` element should contain the text `almostomla is not a palindrome`.
+1. When the `#text-input` element contains the text `My age is 0, 0 si ega ym.` and the `#check-btn` element is clicked, the `#result` element should contain the text `My age is 0, 0 si ega ym. is a palindrome`.
+1. When the `#text-input` element contains the text `1 eye for of 1 eye.` and the `#check-btn` element is clicked, the `#result` element should contain the text `1 eye for of 1 eye. is not a palindrome`.
+1. When the `#text-input` element contains the text `0_0 (: /-\ :) 0-0` and the `#check-btn` element is clicked, the `#result` element should contain the text `0_0 (: /-\ :) 0-0 is a palindrome`.
+1. When the `#text-input` element contains the text `five|\_/|four` and the `#check-btn` element is clicked, the `#result` element should contain the text `five|\_/|four is not a palindrome`.
 
 完成用户需求并通过下面的所有测试来完成这个项目。 赋予它你的个人风格。 祝你编码愉快！
 
@@ -52,14 +52,14 @@ const el = document.getElementById('check-btn');
 assert.strictEqual(el?.nodeName?.toLowerCase(), 'button');
 ```
 
-你应该有一个 `id` 为 `result` 的 `div`、`span` 或 `p` 元素。
+You should have a `div`, `span`, or `p` element with an `id` of `"result"`.
 
 ```js
 const el = document.getElementById('result');
 assert(['div', 'span', 'p'].includes(el?.nodeName?.toLowerCase()));
 ```
 
-当你点击 `#check-btn` 元素但没有给 `#text-input` 元素输入一个值时，会出现提示 `"Please input a value"`。
+When you click on the `#check-btn` element without entering a value into the `#text-input` element, an alert should appear with the text `Please input a value`.
 
 ```js
 const inputEl = document.getElementById('text-input');
@@ -73,7 +73,7 @@ checkBtn.click();
 assert.strictEqual(alertMessage?.trim().replace(/[.,?!]+$/g, '').toLowerCase(), 'please input a value');
 ```
 
-当 `#text-input` 元素只包含字母 `A`，并且 `#check-btn` 元素被点击时，`#result` 元素应该包含文本 `"A is a palindrome"`。
+When the `#text-input` element only contains the letter `A` and the `#check-btn` element is clicked, the `#result` element should contain the text `A is a palindrome`.
 
 ```js
 const inputEl = document.getElementById('text-input');
@@ -86,7 +86,7 @@ checkBtn.click();
 assert.strictEqual(resultEl.innerText.trim().replace(/[.,?!]+$/g, '').toLowerCase(), 'a is a palindrome');
 ```
 
-当 `#text-input` 元素包含文本 `eye`，并且 `#check-btn` 元素被点击时，`#result` 元素应该包含文本 `"eye is a palindrome"`。
+When the `#text-input` element contains the text `eye` and the `#check-btn` element is clicked, the `#result` element should contain the text `eye is a palindrome`.
 
 ```js
 const inputEl = document.getElementById('text-input');
@@ -99,7 +99,7 @@ checkBtn.click();
 assert.strictEqual(resultEl.innerText.trim().replace(/[.,?!]+$/g, '').toLowerCase(), 'eye is a palindrome');
 ```
 
-当 `#text-input` 元素包含文本 `_eye`，并且 `#check-btn` 元素被点击时，`#result` 元素应该包含文本 `"_eye is a palindrome"`。
+When the `#text-input` element contains the text `_eye` and the `#check-btn` element is clicked, the `#result` element should contain the text `_eye is a palindrome`.
 
 ```js
 const inputEl = document.getElementById('text-input');
@@ -112,7 +112,7 @@ checkBtn.click();
 assert.strictEqual(resultEl.innerText.trim().replace(/[.,?!]+$/g, '').toLowerCase(), '_eye is a palindrome');
 ```
 
-当 `#text-input` 元素包含文本 `race car`，并且 `#check-btn` 元素被点击时，`#result` 元素应该包含文本 `"race car is a palindrome"`。
+When the `#text-input` element contains the text `race car` and the `#check-btn` element is clicked, the `#result` element should contain the text `race car is a palindrome`.
 
 ```js
 const inputEl = document.getElementById('text-input');
@@ -125,7 +125,7 @@ checkBtn.click();
 assert.strictEqual(resultEl.innerText.trim().replace(/[.,?!]+$/g, '').toLowerCase(), 'race car is a palindrome');
 ```
 
-当 `#text-input` 元素包含文本 `not a palindrome`，并且 `#check-btn` 元素被点击时，`#result` 元素应该包含文本 `"not a palindrome is not a palindrome"`。
+When the `#text-input` element contains the text `not a palindrome` and the `#check-btn` element is clicked, the `#result` element should contain the text `not a palindrome is not a palindrome`.
 
 ```js
 const inputEl = document.getElementById('text-input');
@@ -138,7 +138,7 @@ checkBtn.click();
 assert.strictEqual(resultEl.innerText.trim().replace(/[.,?!]+$/g, '').toLowerCase(), 'not a palindrome is not a palindrome');
 ```
 
-When the `#text-input` element contains the text `A man, a plan, a canal. Panama` and the `#check-btn` element is clicked, the `#result` element should contain the text `"A man, a plan, a canal. Panama is a palindrome"`.
+When the `#text-input` element contains the text `A man, a plan, a canal. Panama` and the `#check-btn` element is clicked, the `#result` element should contain the text `A man, a plan, a canal. Panama is a palindrome`.
 
 ```js
 const inputEl = document.getElementById('text-input');
@@ -151,7 +151,7 @@ checkBtn.click();
 assert.strictEqual(resultEl.innerText.trim().replace(/[.,?!]+$/g, '').toLowerCase(), 'a man, a plan, a canal. panama is a palindrome');
 ```
 
-当 `#text-input` 元素包含文本 `never odd or even`，并且 `#check-btn` 元素被点击时，`#result` 元素应该包含文本 `"never odd or even is a palindrome"`。
+When the `#text-input` element contains the text `never odd or even` and the `#check-btn` element is clicked, the `#result` element should contain the text `never odd or even is a palindrome`.
 
 ```js
 const inputEl = document.getElementById('text-input');
@@ -164,7 +164,7 @@ checkBtn.click();
 assert.strictEqual(resultEl.innerText.trim().replace(/[.,?!]+$/g, '').toLowerCase(), 'never odd or even is a palindrome');
 ```
 
-当 `#text-input` 元素包含文本 `nope`，并且 `#check-btn` 元素被点击时，`#result` 元素应该包含文本 `"nope is not a palindrome"`。
+When the `#text-input` element contains the text `nope` and the `#check-btn` element is clicked, the `#result` element should contain the text `nope is not a palindrome`.
 
 ```js
 const inputEl = document.getElementById('text-input');
@@ -177,7 +177,7 @@ checkBtn.click();
 assert.strictEqual(resultEl.innerText.trim().replace(/[.,?!]+$/g, '').toLowerCase(), 'nope is not a palindrome');
 ```
 
-当 `#text-input` 元素包含文本 `almostomla`，并且 `#check-btn` 元素被点击时，`#result` 元素应该包含文本 `"almostomla is not a palindrome"`。
+When the `#text-input` element contains the text `almostomla` and the `#check-btn` element is clicked, the `#result` element should contain the text `almostomla is not a palindrome`.
 
 ```js
 const inputEl = document.getElementById('text-input');
@@ -190,7 +190,7 @@ checkBtn.click();
 assert.strictEqual(resultEl.innerText.trim().replace(/[.,?!]+$/g, '').toLowerCase(), 'almostomla is not a palindrome');
 ```
 
-当 `#text-input` 元素包含文本 `My age is 0, 0 si ega ym.`，并且 `#check-btn` 元素被点击时，`#result` 元素应该包含文本 `"My age is 0, 0 si ega ym. is a palindrome"`。
+When the `#text-input` element contains the text `My age is 0, 0 si ega ym.` and the `#check-btn` element is clicked, the `#result` element should contain the text `My age is 0, 0 si ega ym. is a palindrome`.
 
 ```js
 const inputEl = document.getElementById('text-input');
@@ -203,7 +203,7 @@ checkBtn.click();
 assert.strictEqual(resultEl.innerText.trim().replace(/[.,?!]+$/g, '').toLowerCase(), 'my age is 0, 0 si ega ym. is a palindrome');
 ```
 
-When the `#text-input` element contains the text `1 eye for of 1 eye.` and the `#check-btn` element is clicked, the `#result` element should contain the text `"1 eye for of 1 eye. is not a palindrome"`.
+When the `#text-input` element contains the text `1 eye for of 1 eye.` and the `#check-btn` element is clicked, the `#result` element should contain the text `1 eye for of 1 eye. is not a palindrome`.
 
 ```js
 const inputEl = document.getElementById('text-input');
@@ -216,7 +216,7 @@ checkBtn.click();
 assert.strictEqual(resultEl.innerText.trim().replace(/[.,?!]+$/g, '').toLowerCase(), '1 eye for of 1 eye. is not a palindrome');
 ```
 
-当 `#text-input` 元素包含文本 `0_0 (: /-\ :) 0-0`，并且 `#check-btn` 元素被点击时，`#result` 元素应该包含文本 `"0_0 (: /-\ :) 0-0 is a palindrome"`。
+When the `#text-input` element contains the text `0_0 (: /-\ :) 0-0` and the `#check-btn` element is clicked, the `#result` element should contain the text `0_0 (: /-\ :) 0-0 is a palindrome`.
 
 ```js
 const inputEl = document.getElementById('text-input');
@@ -229,7 +229,7 @@ checkBtn.click();
 assert.strictEqual(resultEl.innerText.trim().replace(/[.,?!]+$/g, '').toLowerCase(), '0_0 (: /-\ :) 0-0 is a palindrome');
 ```
 
-当 `#text-input` 元素包含文本 `five|\_/|four`，并且 `#check-btn` 元素被点击时，`#result` 元素应该包含文本 `"five|\_/|four is not a palindrome"`。
+When the `#text-input` element contains the text `five|\_/|four` and the `#check-btn` element is clicked, the `#result` element should contain the text `five|\_/|four is not a palindrome`.
 
 ```js
 const inputEl = document.getElementById('text-input');

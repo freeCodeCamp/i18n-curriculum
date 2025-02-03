@@ -8,11 +8,11 @@ dashedName: build-a-product-landing-page
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to <a href="https://product-landing-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://product-landing-page.freecodecamp.rocks</a>. **Do not copy this demo project**.
+**목표:** <a href="https://product-landing-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://product-landing-page.freecodecamp.rocks</a>를 참고하여 기능적으로 유사한 페이지를 구축하세요. **이 데모 프로젝트를 복사하지 마세요.**.
 
 **유저 스토리:**
 
-1. Your product landing page should have a `header` element with a corresponding `id="header"`
+1. 제품 랜딩 페이지에는 `id="header"` 속성이 있는 `header` 요소가 있어야 합니다.
 1. `<header>` 요소 내에 있는 `id="header-img"`에 해당하는 이미지를 볼 수 있습니다. (여기에는 로고 이미지가 적합합니다.)
 1. `#header` 요소 안에 `id="nav-bar"`에 해당하는 `nav` 요소를 볼 수 있습니다.
 1. `nav` 요소 안에 클래스가 `nav-link`인 클릭할 수 있는 요소가 최소 세 개 있습니다.

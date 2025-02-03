@@ -8,11 +8,11 @@ dashedName: build-a-personal-portfolio-webpage
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to <a href="https://personal-portfolio.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://personal-portfolio.freecodecamp.rocks</a>. **Do not copy this demo project**.
+**목표:** <a href="https://personal-portfolio.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://personal-portfolio.freecodecamp.rocks</a> 와 기능적으로 유사한 웹페이지를 만드세요. **이 데모 프로젝트를 복사하지 마세요.**.
 
 **유저 스토리:**
 
-1. Your portfolio should have a welcome section with an `id` of `welcome-section`
+1. 당신의 포트폴리오에는 `welcome-section`이라는 `id`를 가진 환영 섹션이 있어야 합니다.
 1. 환영 섹션에는 텍스트가 포함된 `h1` 요소가 있어야 합니다.
 1. 당신의 포트폴리오에는 `id`가 `projects`인 프로젝트 섹션이 있어야 합니다.
 1. 프로젝트 섹션에는 프로젝트를 담을 수 있는 `class`가 `project-tile`인 요소가 최소 하나 이상 포함되어야 합니다.

@@ -8,26 +8,26 @@ dashedName: build-a-survey-form
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to <a href="https://survey-form.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://survey-form.freecodecamp.rocks</a>. **Do not copy this demo project**.
+**목적:** <a href="https://survey-form.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://survey-form.freecodecamp.rocks</a>와 기능적으로 유사한 페이지를 구축하세요. **이 데모 프로젝트를 복사하지 마세요.**.
 
 **유저 스토리:**
 
-1. You should have a page title in an `h1` element with an `id` of `title`
-1. You should have a short explanation in a `p` element with an `id` of `description`
-1. You should have a `form` element with an `id` of `survey-form`
-1. Inside the form element, you are **required** to enter your name in an `input` field that has an `id` of `name` and a `type` of `text`
-1. Inside the form element, you are **required** to enter your email in an `input` field that has an `id` of `email`
-1. If you enter an email that is not formatted correctly, you will see an HTML5 validation error
-1. Inside the form, you can enter a number in an `input` field that has an `id` of `number`
-1. The number input should not accept non-numbers, either by preventing you from typing them or by showing an HTML5 validation error (depending on your browser).
-1. If you enter numbers outside the range of the number input, which are defined by the `min` and `max` attributes, you will see an HTML5 validation error
-1. For the name, email, and number input fields, you can see corresponding `label` elements in the form, that describe the purpose of each field with the following ids: `id="name-label"`, `id="email-label"`, and `id="number-label"`
-1. For the name, email, and number input fields, you can see placeholder text that gives a description or instructions for each field
-1. Inside the form element, you should have a `select` dropdown element with an `id` of `dropdown` and at least two options to choose from
-1. Inside the form element, you can select an option from a group of at least two radio buttons that are grouped using the `name` attribute
-1. Inside the form element, you can select several fields from a series of checkboxes, each of which must have a `value` attribute
-1. Inside the form element, you are presented with a `textarea` for additional comments
-1. Inside the form element, you are presented with a button with `id` of `submit` to submit all the inputs
+1. 페이지 제목을 `id`가 `title`인 `h1` 요소 안에 넣어야 합니다.
+1. 당신은 `id`가 `description`인 `p` 요소에 짧은 설명을 넣어야 합니다.
+1. 당신은 `id`가 `survey-form`인 `form` 요소를 사용해야 합니다.
+1. form 요소 내에서, **반드시** `id`가 `name`이고 `type`이 `text`인 `input` 필드에 이름을 입력해야 합니다.
+1. form 요소 내에서, **반드시** `id`가 `email`인 `input` 필드에 이메일을 입력해야 합니다.
+1. 올바른 형식이 아닌 이메일을 입력하면 HTML5 검증 오류가 표시됩니다.
+1. form 요소 내에서, `id`가 `number`인 `input` 필드에 숫자를 입력할 수 있습니다.
+1. 숫자가 아닌 값을 입력할 수 없도록 해야 하며, 숫자가 아닌 값에 대해 입력 자체를 차단하거나 HTML5 검증 오류를 표시해야 합니다(브라우저마다 다름).
+1. `min` 및 `max` 속성으로 정의된 범위를 벗어난 숫자를 입력하면 HTML5 검증 오류가 표시됩니다.
+1. 이름, 이메일 및 숫자 입력 필드에 대해, 각 필드의 목적을 설명하는 `label` 요소가 form에 포함되어 있습니다. 이 라벨 요소들은 다음과 같은 id들을 가지고 있습니다: `id="name-label"`, `id="email-label"`, `id="number-label"`
+1. 이름, 이메일 및 숫자 입력 필드에는 각 필드에 대한 설명이나 지침을 제공하는 Placeholder 텍스트를 볼 수 있습니다.
+1. form 요소 내에는 `id`가 `dropdown`인 `select` 드롭다운 요소가 있어야 하며, 선택할 수 있는 최소한 두 가지 옵션이 있어야 합니다.
+1. form 요소 내에서, `name` 속성을 사용해 그룹화된 최소 두 개 이상의 라디오 버튼에서 원하는 옵션을 선택할 수 있습니다.
+1. form 요소 내에서 여러 개의 체크박스 시리즈 중에서 여러 필드를 선택할 수 있으며, 각각은 반드시 `value` 속성을 가져야 합니다.
+1. form 요소 내에는 추가적인 댓글을 작성할 수 있는 `textarea`가 제공됩니다.
+1. form 요소 내에 `id`가 `submit`인 버튼이 제공되며, 이는 모든 입력값들을 제출합니다.
 
 아래의 사용자 스토리를 충족시키고 모든 테스트를 통과하여 이 프로젝트를 완료하세요. 자신만의 개성을 담아 디자인을 꾸며보세요. 즐거운 코딩 하세요!
 
@@ -35,7 +35,7 @@ dashedName: build-a-survey-form
 
 # --hints--
 
-You should have an `h1` element with an `id` of `title`.
+`id`가 `title`인 `h1` 요소를 사용해야 합니다.
 
 ```js
 const el = document.getElementById('title');
@@ -43,7 +43,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.tagName, 'H1');
 ```
 
-Your `#title` should not be empty.
+`#title` 요소는 비워두면 안 됩니다.
 
 ```js
 const el = document.getElementById('title');
@@ -51,7 +51,7 @@ assert.isNotNull(el);
 assert.isAbove(el.innerText.length, 0);
 ```
 
-You should have a `p` element with an `id` of `description`.
+`id`가 `description`인 `p` 요소를 사용해야 합니다.
 
 ```js
 const el = document.getElementById('description');
@@ -59,7 +59,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.tagName, 'P');
 ```
 
-Your `#description` should not be empty.
+`#description` 요소는 비워두면 안 됩니다.
 
 ```js
 const el = document.getElementById('description');
@@ -67,7 +67,7 @@ assert.isNotNull(el);
 assert.isAbove(el.innerText.length, 0);
 ```
 
-You should have a `form` element with an `id` of `survey-form`.
+`id`가 `survey-form`인 `form` 요소를 사용해야 합니다.
 
 ```js
 const el = document.getElementById('survey-form');
@@ -75,7 +75,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.tagName, 'FORM');
 ```
 
-You should have an `input` element with an `id` of `name`.
+`id`가 `name`인 `input` 요소를 사용해야 합니다.
 
 ```js
 const el = document.getElementById('name');
@@ -83,7 +83,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.tagName, 'INPUT');
 ```
 
-Your `#name` should have a `type` of `text`.
+`#name` 요소에는 `type`이 `text`여야 합니다.
 
 ```js
 const el = document.getElementById('name');
@@ -91,7 +91,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.type, 'text');
 ```
 
-Your `#name` should require input.
+`#name` 요소는 반드시 값을 입력받아야 합니다.
 
 ```js
 const el = document.getElementById('name');
@@ -99,14 +99,14 @@ assert.isNotNull(el);
 assert.isTrue(el.required);
 ```
 
-Your `#name` should be a descendant of `#survey-form`.
+`#name` 요소는 `#survey-form`의 자손 요소여야 합니다.
 
 ```js
 const el = document.querySelector('#survey-form #name');
 assert.isNotNull(el);
 ```
 
-You should have an `input` element with an `id` of `email`.
+`id`가 `email`인 `input` 요소를 사용해야 합니다.
 
 ```js
 const el = document.getElementById('email');
@@ -114,7 +114,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.tagName, 'INPUT');
 ```
 
-Your `#email` should have a `type` of `email`.
+`#email` 요소에는 `type`이 `email`이어야 합니다.
 
 ```js
 const el = document.getElementById('email');
@@ -122,7 +122,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.type, 'email');
 ```
 
-Your `#email` should require input.
+`#email` 요소는 반드시 값을 입력받아야 합니다.
 
 ```js
 const el = document.getElementById('email');
@@ -130,14 +130,14 @@ assert.isNotNull(el);
 assert.isTrue(el.required);
 ```
 
-Your `#email` should be a descendant of `#survey-form`.
+`#email` 요소는 `#survey-form`의 자손 요소여야 합니다.
 
 ```js
 const el = document.querySelector('#survey-form #email');
 assert.isNotNull(el);
 ```
 
-You should have an `input` element with an `id` of `number`.
+`id`가 `number`인 `input` 요소를 사용해야 합니다.
 
 ```js
 const el = document.getElementById('number');
@@ -145,14 +145,14 @@ assert.isNotNull(el);
 assert.strictEqual(el.tagName, 'INPUT');
 ```
 
-Your `#number` should be a descendant of `#survey-form`.
+`#number` 요소는 `#survey-form`의 자손 요소여야 합니다.
 
 ```js
 const el = document.querySelector('#survey-form #number');
 assert.isNotNull(el);
 ```
 
-Your `#number` should have a `type` of `number`.
+`#number` 요소의 `type`이 `number`이어야 합니다.
 
 ```js
 const el = document.getElementById('number');
@@ -160,7 +160,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.type, 'number');
 ```
 
-Your `#number` should have a `min` attribute with a numeric value.
+`#number` 요소에는 숫자 값을 갖는 `min` 속성이 있어야 합니다.
 
 ```js
 const el = document.getElementById('number');
@@ -169,7 +169,7 @@ assert.isNotEmpty(el.min);
 assert.isTrue(isFinite(el.min));
 ```
 
-Your `#number` should have a `max` attribute with a numeric value.
+`#number` 요소에는 숫자 값을 갖는 `max` 속성이 있어야 합니다.
 
 ```js
 const el = document.getElementById('number');
@@ -178,7 +178,7 @@ assert.isNotEmpty(el.max);
 assert.isTrue(isFinite(el.max));
 ```
 
-You should have a `label` element with an `id` of `name-label`.
+`id`가 `name-label`인 `label` 요소를 사용해야 합니다.
 
 ```js
 const el = document.getElementById('name-label');
@@ -186,7 +186,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.tagName, 'LABEL');
 ```
 
-You should have a `label` element with an `id` of `email-label`.
+`id`가 `email-label`인 `label` 요소를 사용해야 합니다.
 
 ```js
 const el = document.getElementById('email-label');
@@ -194,7 +194,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.tagName, 'LABEL');
 ```
 
-You should have a `label` element with an `id` of `number-label`.
+`id`가 `number-label`인 `label` 요소를 사용해야 합니다.
 
 ```js
 const el = document.getElementById('number-label');
@@ -202,7 +202,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.tagName, 'LABEL');
 ```
 
-Your `#name-label` should contain text that describes the input.
+`#name-label` 요소는 입력을 설명하는 텍스트를 포함해야 합니다.
 
 ```js
 const el = document.getElementById('name-label');
@@ -210,7 +210,7 @@ assert.isNotNull(el);
 assert.isAbove(el.innerText.length, 0);
 ```
 
-Your `#email-label` should contain text that describes the input.
+`#email-label` 요소는 입력을 설명하는 텍스트를 포함해야 합니다.
 
 ```js
 const el = document.getElementById('email-label');
@@ -218,7 +218,7 @@ assert.isNotNull(el);
 assert.isAbove(el.innerText.length, 0);
 ```
 
-Your `#number-label` should contain text that describes the input.
+`#number-label` 요소는 입력을 설명하는 텍스트를 포함해야 합니다.
 
 ```js
 const el = document.getElementById('number-label');
@@ -226,14 +226,14 @@ assert.isNotNull(el);
 assert.isAbove(el.innerText.length, 0);
 ```
 
-Your `#name-label` should be a descendant of `#survey-form`.
+`#name-label` 요소는 `#survey-form`의 자손 요소여야 합니다.
 
 ```js
 const el = document.querySelector('#survey-form #name-label');
 assert.isNotNull(el);
 ```
 
-Your `#email-label` should be a descendant of `#survey-form`.
+`#email-label` 요소는 `#survey-form`의 자손 요소여야 합니다.
 
 ```js
 const el = document.querySelector('#survey-form #email-label');

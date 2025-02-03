@@ -39,7 +39,7 @@ assert(document.querySelector('fieldset:nth-of-type(4) select#food option[value=
 O elemento `option` com o `value` de `"poor"` deve ter o texto `"Poor"`.
 
 ```js
-assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="poor"]').textContent, 'Poor');
+assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="poor"]')?.textContent, 'Poor');
 ```
 
 Você deve ter um elemento `option` com o `valor` definido como `"satisfactory"`.
@@ -51,7 +51,7 @@ assert(document.querySelector('fieldset:nth-of-type(4) select#food option[value=
 O elemento `option` com o `value` de `"satisfactory"` deve ter o texto `"Satisfactory"`.
 
 ```js
-assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="satisfactory"]').textContent, 'Satisfactory');
+assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="satisfactory"]')?.textContent, 'Satisfactory');
 ```
 
 Você deve ter um elemento `option` com o `valor` definido como `"good"`.
@@ -64,7 +64,7 @@ O elemento `option` com o `value` de `"good"` deve ter o texto `"Good"`.
 
 ```js
 
-assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="good"]').textContent, 'Good');
+assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="good"]')?.textContent, 'Good');
 ```
 
 Você deve ter um elemento `option` com o valor definido como `"very-good"`.
@@ -76,7 +76,7 @@ assert(document.querySelector('fieldset:nth-of-type(4) select#food option[value=
 O elemento `option` com o `value` de `"very-good"` deve ter o texto `"Very Good"`.
 
 ```js
-assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="very-good"]').textContent, 'Very Good');
+assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="very-good"]')?.textContent, 'Very Good');
 ```
 
 Você deve ter um elemento `option` com o valor definido como `"excellent"`.
@@ -89,7 +89,7 @@ O elemento `option` com o `value` de `"excellent"` deve ter o texto `"Excellent"
 
 ```js
 
-assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="excellent"]').textContent, 'Excellent');
+assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="excellent"]')?.textContent, 'Excellent');
 ```
 
 Você deve ter um elemento `option` com o atributo `selected` definido como `"excellent"`.

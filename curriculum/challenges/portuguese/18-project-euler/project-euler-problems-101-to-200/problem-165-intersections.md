@@ -10,7 +10,7 @@ dashedName: problem-165-intersections
 
 Um segmento é definido exclusivamente por seus dois pontos de extremidade. Considerando dois segmentos de reta em geometria plana, há três possibilidades: os segmentos têm zero pontos, um ponto, ou infinitos pontos em comum.
 
-Além disso, quando dois segmentos têm exatamente um ponto em comum, pode acontecer que esse ponto comum seja um ponto de extremidade de um dos segmentos ou de ambos. Se um ponto comum de dois segmentos não for um ponto de extremidade de nenhum dos segmentos, ele é um ponto interno de ambos os segmentos.
+Moreover when two segments have exactly one point in common it might be the case that common point is an endpoint of either one of the segments or of both. Se um ponto comum de dois segmentos não for um ponto de extremidade de nenhum dos segmentos, ele é um ponto interno de ambos os segmentos.
 
 Chamaremos de ponto comum $T$ de dois segmentos $L_1$ e $L_2$ um ponto de interseção verdadeira de $L_1$ e $L_2$ se $T$ for o único ponto comum de $L_1$ e $L_2$ e se $T$ for um ponto interior de ambos os segmentos.
 
