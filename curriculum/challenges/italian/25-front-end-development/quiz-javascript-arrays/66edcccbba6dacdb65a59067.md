@@ -50,28 +50,28 @@ Which of the following is the correct way access the string `"Jessica"` from the
 
 ```js
 const developers = ["Jessica", "Naomi", "Tom"];
-developers[1] 
+developers[1]
 ```
 
 ---
 
 ```js
 const developers = ["Jessica", "Naomi", "Tom"];
-developers[2] 
+developers[2]
 ```
 
 ---
 
 ```js
 const developers = ["Jessica", "Naomi", "Tom"];
-developers[-1] 
+developers[-1]
 ```
 
 #### --answer--
 
 ```js
 const developers = ["Jessica", "Naomi", "Tom"];
-developers[0] 
+developers[0]
 ```
 
 ### --question--
