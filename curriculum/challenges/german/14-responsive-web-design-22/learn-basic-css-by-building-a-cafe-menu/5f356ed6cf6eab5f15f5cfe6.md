@@ -37,7 +37,7 @@ Dein `div`-Tag sollte innerhalb deines `body`-Elements verschachtelt sein.
 assert.equal(document.querySelector('div')?.parentElement?.tagName, 'BODY');
 ```
 
-You should move all the other elements inside the new `div`.
+Du solltest alle anderen Elemente in das neue `Div` verschieben.
 
 ```js
 assert.lengthOf(document.querySelector('body > div#menu > main')?.children, 3);
