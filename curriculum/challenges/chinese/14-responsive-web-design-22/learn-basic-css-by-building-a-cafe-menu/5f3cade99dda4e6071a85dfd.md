@@ -29,7 +29,7 @@ assert.lengthOf(code.match(/<\/section>/ig) ,2);
 assert.lengthOf (document.querySelectorAll('main'), 1);
 ```
 
-Your new `section` element should be nested in the `main` element.
+你的新 `section` 元素应该嵌套在 `main` 元素中。
 
 ```js
 const main = document.querySelector('main');

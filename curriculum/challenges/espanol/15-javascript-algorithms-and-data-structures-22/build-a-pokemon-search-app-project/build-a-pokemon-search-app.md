@@ -16,7 +16,7 @@ En este proyecto, construirás una aplicación que buscará Pokémon por nombre
 
 **Historias de usuario:**
 
-1. You should have an `input` element with an `id` of `"search-input"`.
+1. You should have an `input` element with an `id` of `"search-input"`, and is required.
 1. You should have a `button` element with an `id` of `"search-button"`.
 1. You should have an element with an `id` of `"pokemon-name"`.
 1. You should have an element with an `id` of `"pokemon-id"`.
@@ -36,6 +36,8 @@ En este proyecto, construirás una aplicación que buscará Pokémon por nombre
 1. When the `#search-input` element contains the value `94` and the `#search-button` element is clicked, the values in the `#pokemon-name`, `#pokemon-id`, `#weight`, `#height`, `#hp`, `#attack`, `#defense`, `#special-attack`, `#special-defense`, and `#speed`elements should be `GENGAR`, `#94` or `94`, `Weight: 405` or `405`, `Height: 15` or `15`, `60`, `65`, `60`, `130`, `75`, and `110`, respectively.
 1. When the `#search-input` element contains the value `94` and the `#search-button` element is clicked, you should add an `img` element with the `id` of `sprite` and the `src` set to the Pokémon's `front_default` sprite to the page.
 1. Cuando el elemento `#search-input` contiene el valor `94` y se hace clic en el elemento `#search-button`, el elemento `#types` debe contener dos elementos internos con el texto de `GHOST` y `POISON`, respectivamente. The `#types` element content should be cleared between searches.
+1. When the `#search-input` element contains an invalid Pokemon name, and the `#search-button` element is clicked, an alert should appear with the text `"Pokémon not found"`.
+1. When the `#search-input` element contains a valid Pokemon id and the `#search-button` element is clicked, the UI should be filled with the correct data.
 
 Completa las historias de usuario y pasa todas las pruebas a continuación para completar este proyecto. Dale tu propio estilo personal. ¡Feliz día programando!
 
@@ -43,7 +45,7 @@ Completa las historias de usuario y pasa todas las pruebas a continuación para 
 
 # --hints--
 
-Debes tener un elemento `input` con un `id` de `"search-input"` y es **requerido**.
+You should have an `input` element with an `id` of `"search-input"`. The `input` should be marked as required.
 
 ```js
 const el = document.getElementById('search-input');

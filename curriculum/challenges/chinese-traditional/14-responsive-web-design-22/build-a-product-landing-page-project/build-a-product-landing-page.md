@@ -8,11 +8,11 @@ dashedName: build-a-product-landing-page
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to <a href="https://product-landing-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://product-landing-page.freecodecamp.rocks</a>. **請勿複製此演示項目**。
+**目標：** 構建一個應用，它在功能上類似於 <a href="https://product-landing-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://product-landing-page.freecodecamp.rocks</a>。 **請勿複製此演示項目**。
 
 **用戶需求:**
 
-1. Your product landing page should have a `header` element with a corresponding `id="header"`
+1. 你的產品登錄頁應該有一個 `id="header"` 的 `header` 元素
 1. 你可以在 `header` 元素中看到一個 `id="header-img"` 的圖像（比如一個 logo）
 1. 在 `#header` 元素中，你可以看到一個 `id="nav-bar"` 的 `nav` 元素
 1. 在 `nav` 元素中，你可以看到至少三個可點擊的元素，每個元素的 class 爲 `nav-link`
