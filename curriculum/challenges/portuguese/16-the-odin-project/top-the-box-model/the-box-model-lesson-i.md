@@ -13,23 +13,23 @@ Como o conceito do modelo de caixas é incrivelmente fundamental, vamos aprofund
 
 ## --text--
 
-Qual é a diferença entre o modelo de caixas padrão e o modelo alternativo?
+Which of the following correctly describes the difference between the `content-box` and `border-box` box models in CSS?
 
 ## --answers--
 
-O modelo de caixas padrão calcula a largura e a altura de um elemento com base exclusivamente no conteúdo, enquanto o modelo alternativo de caixas calcula ambos com base no conteúdo mais preenchimento e borda.
+The `content-box` model includes content, padding, and border within the specified width and height, while the `border-box` model includes only the content.
 
 ---
 
-O modelo de caixas padrão inclui conteúdo, preenchimento e borda, enquanto o modelo de caixas alternativo inclui apenas o conteúdo.
+In the `content-box` model, the specified width and height apply only to the content, excluding padding and border, whereas in the `border-box` model, they include padding and border.
 
 ---
 
-O modelo de caixas padrão e o modelo de caixas alternativo são a mesma coisa, não tendo diferenças.
+The `content-box` model and the `border-box` model are the same and have no differences.
 
 ---
 
-O modelo de caixas padrão inclui apenas o conteúdo, enquanto o modelo alternativo inclui conteúdo, preenchimento e borda.
+In the `border-box` model, the width and height apply only to the content, while in the `content-box` model, they include padding and border.
 
 ## --video-solution--
 
