@@ -8,15 +8,15 @@ dashedName: build-a-time-calculator-project
 
 # --description--
 
-Write a function named `add_time` that takes in two required parameters and one optional parameter:
+Erstelle eine Funktion namens `add_time`, die zwei notwendige Parameter und einen optionalen Parameter enthält:
 
-- a start time in the 12-hour clock format (ending in AM or PM)
+- eine Startzeit im 12-Stunden-Format (endend mit AM oder PM)
 - eine Zeitdauer, die die Anzahl der Stunden und Minuten anzeigt
 - (Optional) ein Starttag der Woche, der die Groß-und Kleinschreibung ignoriert
 
-The function should add the duration time to the start time and return the result.
+Die Funktion sollte die Zeitdauer zur Startzeit hinzufügen und das Ergebnis zurückgeben.
 
-If the result will be the next day, it should show `(next day)` after the time. If the result will be more than one day later, it should show `(n days later)` after the time, where "n" is the number of days later.
+Wenn das Ergebnis am nächsten Tag ist, sollte es `(next day)` nach der Zeit anzeigen. If the result will be more than one day later, it should show `(n days later)` after the time, where "n" is the number of days later.
 
 If the function is given the optional starting day of the week parameter, then the output should display the day of the week of the result. The day of the week in the output should appear after the time and before the number of days later.
 

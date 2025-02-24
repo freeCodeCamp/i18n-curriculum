@@ -11,7 +11,7 @@ The iterative solution of Tower of Hanoi might seem complete, but change the num
 
 # --hints--
 
-You should set `NUMBER_OF_DISKS` to 4.
+Du solltest `NUMBER_OF_DISKS` auf 4 setzen.
 
 ```js
 ({ test: () => assert.equal(__userGlobals.get('NUMBER_OF_DISKS'), 4) })
