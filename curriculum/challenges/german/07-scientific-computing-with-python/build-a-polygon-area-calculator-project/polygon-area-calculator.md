@@ -8,11 +8,11 @@ dashedName: build-a-polygon-area-calculator-project
 
 # --description--
 
-In this project you will use object oriented programming to create a `Rectangle` class and a `Square` class. The `Square` class should be a subclass of `Rectangle`, and inherit its methods and attributes.
+In diesem Projekt wirst du mit Hilfe der objektorientierten Programmierung eine `Rectangle`-Klasse und eine `Square`-Klasse erstellen. Die `Square`-Klasse sollte eine Unterklasse von `Rectangle` sein und Methoden und Attribute erben.
 
-## Rectangle class
+## Rechteck-Klasse
 
-When a Rectangle object is created, it should be initialized with `width` and `height` attributes. Die Klasse sollte auch die folgenden Methoden beinhalten:
+Es sollte mit den Attributen `width` und `height` initialisiert werden, wenn ein Rechteck-Objekt erstellt wird. Die Klasse sollte auch die folgenden Methoden beinhalten:
 
 - `set_width`
 - `set_height`
@@ -54,7 +54,7 @@ rect.set_width(16)
 print(rect.get_amount_inside(sq))
 ```
 
-That code should return:
+Dieser Code sollte zurückgeben:
 
 ```bash
 50
@@ -79,7 +79,7 @@ Note: open the browser console with F12 to see a more verbose output of the test
 
 # --hints--
 
-The `Square` class should be a subclass of the `Rectangle` class.
+Die `Square`-Klasse sollte eine Unterklasse von der `Rectangle`-Klasse sein.
 
 ```js
 ({
@@ -250,7 +250,7 @@ t.result.wasSuccessful()
 })
 ```
 
-`Rectangle(3, 6).get_area()` should return `18`.
+`Rectangle(3, 6).get_area()` sollte `18` zurückgeben.
 
 ```js
 ({
@@ -285,7 +285,7 @@ t.result.wasSuccessful()
 })
 ```
 
-`Square(5).get_area()` should return `25`.
+`Square(5).get_area()` sollte `25` zurückgeben.
 
 ```js
 ({
@@ -320,7 +320,7 @@ t.result.wasSuccessful()
 })
 ```
 
-`Rectangle(3, 6).get_perimeter()` should return `18`.
+`Rectangle(3, 6).get_perimeter()` sollte `18` zurückgeben.
 
 ```js
 ({
@@ -355,7 +355,7 @@ t.result.wasSuccessful()
 })
 ```
 
-`Square(5).get_perimeter()` should return `20`.
+`Square(5).get_perimeter()` sollte `20` zurückgeben.
 
 ```js
 ({
@@ -390,7 +390,7 @@ t.result.wasSuccessful()
 })
 ```
 
-`Rectangle(3, 6).get_diagonal()` should return `6.708203932499369`.
+`Rectangle(3, 6).get_diagonal()` sollte `6.708203932499369` zurückgeben.
 
 ```js
 ({
@@ -425,7 +425,7 @@ t.result.wasSuccessful()
 })
 ```
 
-`Square(5).get_diagonal()` should return `7.0710678118654755`.
+`Square(5).get_diagonal()` sollte `7.0710678118654755` zurückgeben.
 
 ```js
 ({
@@ -683,7 +683,7 @@ t.result.wasSuccessful()
 })
 ```
 
-`Rectangle(15,10).get_amount_inside(Square(5))` should return `6`.
+`Rectangle(15,10).get_amount_inside(Square(5))` sollte `6` zurückgeben.
 
 ```js
 ({
@@ -721,7 +721,7 @@ t.result.wasSuccessful()
 })
 ```
 
-`Rectangle(4,8).get_amount_inside(Rectangle(3, 6))` should return `1`.
+`Rectangle(4,8).get_amount_inside(Rectangle(3, 6))` sollte `1` zurückgeben.
 
 ```js
 ({
@@ -757,7 +757,7 @@ t.result.wasSuccessful()
 })
 ```
 
-`Rectangle(2,3).get_amount_inside(Rectangle(3, 6))` should return `0`.
+`Rectangle(2,3).get_amount_inside(Rectangle(3, 6))` sollte `0` zurückgeben.
 
 ```js
 ({

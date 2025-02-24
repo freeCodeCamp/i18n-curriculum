@@ -8,11 +8,11 @@ dashedName: build-a-probability-calculator-project
 
 # --description--
 
-Suppose there is a hat containing 5 blue balls, 4 red balls, and 2 green balls. What is the probability that a random draw of 4 balls will contain at least 1 red ball and 2 green balls? While it would be possible to calculate the probability using advanced mathematics, an easier way is to write a program to perform a large number of experiments to estimate an approximate probability.
+Angenommen, es gibt einen Hut mit 5 blauen Kugeln, 4 roten Kugeln und 2 grünen Kugeln. Wie hoch ist die Wahrscheinlichkeit, dass bei einer zufälligen Ziehung von 4 Kugeln mindestens 1 rote Kugel und 2 grüne Kugeln gezogen werden? Es wäre zwar möglich, die Wahrscheinlichkeit mit Hilfe fortgeschrittener Mathematik zu berechnen, aber einfacher ist es, ein Programm zu schreiben, das eine große Anzahl von Experimenten durchführt, um eine ungefähre Wahrscheinlichkeit zu schätzen.
 
-For this project, you will write a program to determine the approximate probability of drawing certain balls randomly from a hat.
+Für dieses Projekt wirst du ein Programm schreiben, dass die ungefähre Wahrscheinlichkeit bestimmen soll, bestimmte Kugeln aus einem Hut zu ziehen.
 
-Erstelle zunächst eine `Hat` Klasse in `main.py`. The class should take a variable number of arguments that specify the number of balls of each color that are in the hat. For example, a class object could be created in any of these ways:
+Erstelle zunächst eine `Hat` Klasse in `main.py`. Die Klasse sollte eine variable Anzahl von Argumenten verwenden, die die Anzahl der Kugeln jeder Farbe angibt, die im Hut enthalten sind. Zum Beispiel könnte ein Klassenobjekt auf diese Weise erstellt werden:
 
 ```py
 hat1 = Hat(yellow=3, blue=2, green=6)
@@ -20,22 +20,22 @@ hat2 = Hat(red=5, orange=4)
 hat3 = Hat(red=5, orange=4, black=1, blue=0, pink=2, striped=9)
 ```
 
-A hat will always be created with at least one ball. The arguments passed into the hat object upon creation should be converted to a `contents` instance variable. `contents` should be a list of strings containing one item for each ball in the hat. Each item in the list should be a color name representing a single ball of that color. For example, if your hat is `{'red': 2, 'blue': 1}`, `contents` should be `['red', 'red', 'blue']`.
+Ein Hut wird immer mit mindestens einer Kugel erstellt. Die Argumente, die beim Erstellen an das Hut-Objekt übergeben werden, sollten in eine `contents` Instanzvariable konvertiert werden. `contents` sollte eine Liste von Strings sein, die jeweils ein Element für jede Kugel im Hut enthalten. Jedes Element in der Liste sollte ein Farbname sein, der eine einzelne Kugel dieser Farbe darstellt. For example, if your hat is `{'red': 2, 'blue': 1}`, `contents` should be `['red', 'red', 'blue']`.
 
-The `Hat` class should have a `draw` method that accepts an argument indicating the number of balls to draw from the hat. This method should remove balls at random from `contents` and return those balls as a list of strings. The balls should not go back into the hat during the draw, similar to an urn experiment without replacement. If the number of balls to draw exceeds the available quantity, return all the balls.
+Die `Hat`-Klasse sollte eine `draw`-Methode haben, die ein Argument akzeptiert, dass die Anzahl der Kugeln angibt, die aus dem Hut gezogen werden. Diese Methode sollte Kugeln zufällig aus `contents` entfernen und diese Kugeln als eine Liste von String zurückgeben. Die Kugeln sollten während des Ziehens nicht wieder in den Hut zurückkehren, wie ein Urnen-Experiment ohne Zurücklegen. Wenn die Anzahl der zu ziehenden Kugeln die verfügbare Menge übersteigt, gib alle Kugeln zurück.
 
-Erstelle als nächstes eine `experiment`-Funktion in `main.py` (nicht innerhalb der `Hat`-Klasse). This function should accept the following arguments:
+Erstelle als nächstes eine `experiment`-Funktion in `main.py` (nicht innerhalb der `Hat`-Klasse). Diese Funktion sollte die folgenden Argumente akzeptieren:
 
-- `hat`: A hat object containing balls that should be copied inside the function.
+- `hat`: Ein Hut-Objekt, dass Kugeln enthält, die innerhalb der Funktion kopiert werden sollen.
 - `expected_balls`: Ein Objekt, dass die exakte Gruppe von Kugeln anzeigt, die aus dem Hut gezogen werden sollen. For example, to determine the probability of drawing 2 blue balls and 1 red ball from the hat, set `expected_balls` to `{'blue':2, 'red':1}`.
 - `num_balls_drawn`: Die Anzahl der Kugeln, die in jedem Experiment aus dem Hut gezogen werden sollen.
 - `num_experiments`: Die Anzahl der durchzuführenden Experimente. (Je mehr Experimente durchgeführt werden, desto genauer wird die ungefähre Wahrscheinlichkeit sein.)
 
-The `experiment` function should return a probability.
+Die `experiment`-Funktion sollte eine Wahrscheinlichkeit zurückgeben.
 
-For example, if you want to determine the probability of getting at least two red balls and one green ball when you draw five balls from a hat containing six black, four red, and three green. To do this, you will perform `N` experiments, count how many times `M` you get at least two red balls and one green ball, and estimate the probability as `M/N`. Each experiment consists of starting with a hat containing the specified balls, drawing several balls, and checking if you got the balls you were attempting to draw.
+Wenn du zum Beispiel die Wahrscheinlichkeit bestimmen willst, dass du mindestens zwei rote Kugeln und eine grüne Kugel bekommst, wenn du fünf Kugeln aus einem Hut ziehst, der sechs schwarze, vier rote und drei grüne enthält. Um dies zu tun, wirst du `N` Experimente durchführen, zählen wie viele Male `M` du mindestens zwei rote Bälle und einen grünen Ball erhältst und die Wahrscheinkeit mit `M/N` bestimmen. Jedes Experiment besteht darin, dass man mit einem Hut beginnt, der die angegebenen Kugeln enthält, mehrere Kugeln zieht und überprüft, ob man die Kugeln, die man zu ziehen versucht hat, auch bekommen hat.
 
-Here is how you would call the `experiment` function based on the example above with 2000 experiments:
+So würdest du die `experiment`-Funktion, basierend auf dem obigen Beispiel von 2000 Experimenten aufrufen:
 
 ```py
 hat = Hat(black=6, red=4, green=3)
@@ -59,7 +59,7 @@ Note: open the browser console with F12 to see a more verbose output of the test
 
 # --hints--
 
-Creation of `hat` object should add correct contents.
+Die Erstellung des `hat`-Objekts sollte den richtigen Inhalt hinzufügen.
 
 ```js
 ({
@@ -187,7 +187,7 @@ t.result.wasSuccessful()
 });
 ```
 
-The `experiment` method should return a different probability.
+Die `experiment`-Methode sollte eine andere Wahrscheinlichkeit zurückgeben.
 
 
 ```js
