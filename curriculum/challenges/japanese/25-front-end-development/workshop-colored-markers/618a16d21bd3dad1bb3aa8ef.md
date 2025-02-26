@@ -1,13 +1,13 @@
 ---
 id: 618a16d21bd3dad1bb3aa8ef
-title: Step 36
+title: ステップ 36
 challengeType: 0
 dashedName: step-36
 ---
 
 # --description--
 
-Now it's time to add other details to the markers, starting with the first one.
+では最初のマーカーから、ディテールを追加し始めましょう。
 
 In the first marker `div` element, change the class `one` to `red`.
 

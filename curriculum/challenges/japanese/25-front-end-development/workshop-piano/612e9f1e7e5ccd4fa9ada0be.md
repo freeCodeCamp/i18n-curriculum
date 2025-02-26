@@ -1,13 +1,13 @@
 ---
 id: 612e9f1e7e5ccd4fa9ada0be
-title: Step 15
+title: ステップ 15
 challengeType: 0
 dashedName: step-15
 ---
 
 # --description--
 
-Give the `.key` a `margin` of `2px` and a `float` property set to `left`.
+`.key` の `margin` の値を `2px` に、`float` プロパティの値を `left` に設定してください。
 
 # --hints--
 

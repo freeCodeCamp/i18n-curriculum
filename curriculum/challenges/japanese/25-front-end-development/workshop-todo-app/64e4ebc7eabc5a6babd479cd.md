@@ -1,25 +1,25 @@
 ---
 id: 64e4ebc7eabc5a6babd479cd
-title: Step 9
+title: ステップ 9
 challengeType: 0
 dashedName: step-9
 ---
 
 # --description--
 
-If the user clicks the `Discard` button, you want to close the modal showing the `Cancel` and `Discard` buttons, then hide the form modal.
+ユーザーが `Discard` ボタンをクリックした場合は、`Cancel` と `Discard` のボタンが表示されたモーダルを閉じて、フォームモーダルも隠すようにします。
 
-Add a click event listener to `discardBtn`, then use the `close()` method on the `confirmCloseDialog` variable. Also, use `classList` to toggle the class `hidden` on `taskForm` so the form modal will close too.
+`discardBtn` にクリックイベントリスナーを追加して、`confirmCloseDialog` 変数に `close()` メソッドを使用してください。 また、フォームモーダルも閉じるようにするため、`classList` を使って `taskForm` のクラス `hidden` をトグルしてください。
 
 # --hints--
 
-You should call the `addEventListener()` method on your `discardBtn` variable.
+`discardBtn` 変数に対して `addEventListener()` メソッドを呼び出してください。
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(/)
 ```
 
-Your event listener should listen for a `click` event.
+イベントリスナーは `click` イベントを監視する必要があります。
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1/)

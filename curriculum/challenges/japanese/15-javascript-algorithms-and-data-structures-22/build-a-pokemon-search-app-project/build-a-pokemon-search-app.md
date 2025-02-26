@@ -16,7 +16,7 @@ dashedName: build-a-pokemon-search-app
 
 **ユーザーストーリー:**
 
-1. `id` が `"search-input"` に設定された `input` 要素が必要です。
+1. You should have an `input` element with an `id` of `"search-input"`, and is required.
 1. `id` が `"search-button"` に設定された `button` 要素が必要です。
 1. `id` が `"pokemon-name"` に設定された要素が必要です。
 1. `id` が `"pokemon-id"` に設定された要素が必要です。
@@ -36,6 +36,8 @@ dashedName: build-a-pokemon-search-app
 1. When the `#search-input` element contains the value `94` and the `#search-button` element is clicked, the values in the `#pokemon-name`, `#pokemon-id`, `#weight`, `#height`, `#hp`, `#attack`, `#defense`, `#special-attack`, `#special-defense`, and `#speed`elements should be `GENGAR`, `#94` or `94`, `Weight: 405` or `405`, `Height: 15` or `15`, `60`, `65`, `60`, `130`, `75`, and `110`, respectively.
 1. When the `#search-input` element contains the value `94` and the `#search-button` element is clicked, you should add an `img` element with the `id` of `sprite` and the `src` set to the Pokémon's `front_default` sprite to the page.
 1. `#search-input` の要素に `94` という値を入力した状態で `#search-button` の要素をクリックした場合、`#types` の要素の中には、`GHOST` と `POISON` という値を持つ 2 つの要素が入ります。 `#types` の要素の中身は、検索の度にクリアされるようにしてください。
+1. When the `#search-input` element contains an invalid Pokemon name, and the `#search-button` element is clicked, an alert should appear with the text `"Pokémon not found"`.
+1. `#search-input` の要素に有効なポケモンの ID を入力した状態で `#search-button` の要素をクリックした場合、正しいデータが UI に表示されます。
 
 上記のユーザーストーリーを満たし、以下のすべてのテストが通るようにして、このプロジェクトを完成させてください。 あなた独自のアレンジを加えましょう。 ハッピーコーディング！
 
@@ -43,7 +45,7 @@ dashedName: build-a-pokemon-search-app
 
 # --hints--
 
-`id` が `"search-input"` に設定された、入力必須 (**required**) の `input` 要素が必要です。
+`id` が `"search-input"` に設定された `input` 要素が必要です。 The `input` should be marked as required.
 
 ```js
 const el = document.getElementById('search-input');
@@ -384,7 +386,7 @@ async () => {
 ```
 
 
-`#search-input` の要素に有効なポケモンの ID を入力した状態で `#search-button` の要素をクリックした場合、正しいデータが UI に表示されます。
+When the `#search-input` element contains a valid Pokemon id and the `#search-button` element is clicked, the UI should be filled with the correct data.
 
 ```js
 async () => {

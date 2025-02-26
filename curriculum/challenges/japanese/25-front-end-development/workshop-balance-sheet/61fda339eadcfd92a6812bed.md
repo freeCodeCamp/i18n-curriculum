@@ -1,13 +1,13 @@
 ---
 id: 61fda339eadcfd92a6812bed
-title: Step 30
+title: ステップ 30
 challengeType: 0
 dashedName: step-30
 ---
 
 # --description--
 
-Before you get too far into your styling, you should make use of the `sr-only` class. You can use CSS to make elements with this class completely hidden from the visual page, but still be announced by screen readers.
+スタイル設定を進める前に、`sr-only` クラスを活用しましょう。 このクラスを持つ要素を、CSS を使って、視覚的なページでは非表示にしながらスクリーンリーダーでは読み上げられるようにできます。
 
 The CSS you are about to write is a common set of properties used to ensure elements are completely hidden visually.
 

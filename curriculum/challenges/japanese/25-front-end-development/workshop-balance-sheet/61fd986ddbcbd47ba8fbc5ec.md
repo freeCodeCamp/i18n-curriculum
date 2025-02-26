@@ -1,13 +1,13 @@
 ---
 id: 61fd986ddbcbd47ba8fbc5ec
-title: Step 23
+title: ステップ 23
 challengeType: 0
 dashedName: step-23
 ---
 
 # --description--
 
-Within the third `tr`, add a `th` element with the text `Credit The outstanding balance on our credit card.`. Wrap that text, except for `Credit`, within a `span` element with the `class` set to `description`.
+3 つ目の `tr` 内に `th` 要素を追加して、テキストを `Credit The outstanding balance on our credit card.` に設定してください。 テキストの `Credit` 以外の文を `span` 要素で囲み、`class` 属性を `description` に設定してください。
 
 Add three `td` elements below that, and give them the following text, in order: `$50`, `$50`, and `$75`. Give the third `td` element a `class` set to `current`.
 

@@ -1,13 +1,13 @@
 ---
 id: 60fad6dfcc0d930a59becf12
-title: Step 38
+title: ステップ 38
 challengeType: 0
 dashedName: step-38
 ---
 
 # --description--
 
-The HTML for the registration form is finished. Now, you can spruce it up a bit.
+登録フォームの HTML が完成しました。 ここから、少し見た目を整えていきましょう。
 
 Start by changing the font to `Tahoma`, and the font size to `16px` in the `body`.
 

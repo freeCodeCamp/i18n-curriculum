@@ -1,13 +1,13 @@
 ---
 id: 60ffe7d8aae62c05bcc9e7eb
-title: Step 53
+title: ステップ 53
 challengeType: 0
 dashedName: step-53
 ---
 
 # --description--
 
-With a `display` of `block` the submit button sits flush against the left edge of its parent.
+`display` を `block` に設定すると、送信ボタンは親要素の左端に表示されます。
 
 Use the same technique used to center the `form` to center the submit button.
 

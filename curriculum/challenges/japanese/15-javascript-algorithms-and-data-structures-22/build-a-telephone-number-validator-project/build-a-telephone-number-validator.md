@@ -27,7 +27,7 @@ dashedName: build-a-telephone-number-validator
 **ユーザーストーリー:**
 
 1. You should have an `input` element with an `id` of `"user-input"`.
-1. You should have a `button` element with an `id` of `"check-btn"`.
+1. `id` が `"check-btn"` に設定された `button` 要素が必要です。
 1. You should have a `button` element with an `id` of `"clear-btn"`.
 1. You should have a `div`, `span` or `p` element with an `id` of `"results-div"`.
 1. When you click on the `#check-btn` element without entering a value into the `#user-input` element, an alert should appear with the text `"Please provide a phone number"`.
@@ -60,6 +60,8 @@ dashedName: build-a-telephone-number-validator
 1. When `#user-input` contains `(555)5(55?)-5555` and `#check-btn` is clicked, `#results-div` should contain the text `"Invalid US number: (555)5(55?)-5555"`.
 1. When the `#user-input` element contains `55 55-55-555-5` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 55 55-55-555-5"`.
 1. When the `#user-input` element contains `11 555-555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 11 555-555-5555"`.
+1. When the `#user-input` element contains a valid US number and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: "` followed by the number.
+1. When the `#user-input` element contains an invalid US number and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: "` followed by the number.
 
 上記のユーザーストーリーを満たし、以下のすべてのテストが通るようにして、このプロジェクトを完成させてください。 あなた独自のアレンジを加えましょう。 ハッピーコーディング！
 
@@ -98,6 +100,10 @@ assert(['div', 'span', 'p'].includes(el?.nodeName?.toLowerCase()));
 ```js
 const userInput = document.getElementById('user-input');
 const checkBtn = document.getElementById('check-btn');
+
+assert.exists(userInput);
+assert.exists(checkBtn);
+
 let alertMessage;
 window.alert = (message) => alertMessage = message; // Override alert and store message
 
@@ -112,6 +118,9 @@ assert.strictEqual(alertMessage?.trim().replace(/[.,?!]+$/g, '').toLowerCase(), 
 const resultsDiv = document.getElementById('results-div');
 const clearBtn = document.getElementById('clear-btn');
 
+assert.exists(clearBtn);
+assert.exists(resultsDiv);
+
 resultsDiv.innerHTML = `Testing testing 123
 Ladies and gentlemen, we are floating in space.`;
 clearBtn.click();
@@ -124,6 +133,10 @@ assert.isEmpty(resultsDiv.textContent);
 const userInput = document.getElementById('user-input');
 const checkBtn = document.getElementById('check-btn');
 const resultsDiv = document.getElementById('results-div');
+
+assert.exists(userInput);
+assert.exists(checkBtn);
+assert.exists(resultsDiv);
 
 resultsDiv.innerHTML = '';
 userInput.value = '1 555-555-5555';
@@ -139,6 +152,10 @@ const userInput = document.getElementById('user-input');
 const checkBtn = document.getElementById('check-btn');
 const resultsDiv = document.getElementById('results-div');
 
+assert.exists(userInput);
+assert.exists(checkBtn);
+assert.exists(resultsDiv);
+
 resultsDiv.innerHTML = '';
 userInput.value = '1 (555) 555-5555';
 userInput.dispatchEvent(new Event('change'));
@@ -152,6 +169,10 @@ assert.strictEqual(resultsDiv.innerText.trim().toLowerCase(), 'valid us number: 
 const userInput = document.getElementById('user-input');
 const checkBtn = document.getElementById('check-btn');
 const resultsDiv = document.getElementById('results-div');
+
+assert.exists(userInput);
+assert.exists(checkBtn);
+assert.exists(resultsDiv);
 
 resultsDiv.innerHTML = '';
 userInput.value = '5555555555';
@@ -167,6 +188,10 @@ const userInput = document.getElementById('user-input');
 const checkBtn = document.getElementById('check-btn');
 const resultsDiv = document.getElementById('results-div');
 
+assert.exists(userInput);
+assert.exists(checkBtn);
+assert.exists(resultsDiv);
+
 resultsDiv.innerHTML = '';
 userInput.value = '555-555-5555';
 userInput.dispatchEvent(new Event('change'));
@@ -180,6 +205,10 @@ assert.strictEqual(resultsDiv.innerText.trim().toLowerCase(), 'valid us number: 
 const userInput = document.getElementById('user-input');
 const checkBtn = document.getElementById('check-btn');
 const resultsDiv = document.getElementById('results-div');
+
+assert.exists(userInput);
+assert.exists(checkBtn);
+assert.exists(resultsDiv);
 
 resultsDiv.innerHTML = '';
 userInput.value = '(555)555-5555';
@@ -195,6 +224,10 @@ const userInput = document.getElementById('user-input');
 const checkBtn = document.getElementById('check-btn');
 const resultsDiv = document.getElementById('results-div');
 
+assert.exists(userInput);
+assert.exists(checkBtn);
+assert.exists(resultsDiv);
+
 resultsDiv.innerHTML = '';
 userInput.value = '1(555)555-5555';
 userInput.dispatchEvent(new Event('change'));
@@ -208,6 +241,10 @@ assert.strictEqual(resultsDiv.innerText.trim().toLowerCase(), 'valid us number: 
 const userInput = document.getElementById('user-input');
 const checkBtn = document.getElementById('check-btn');
 const resultsDiv = document.getElementById('results-div');
+
+assert.exists(userInput);
+assert.exists(checkBtn);
+assert.exists(resultsDiv);
 
 resultsDiv.innerHTML = '';
 userInput.value = '555-5555';
@@ -223,6 +260,10 @@ const userInput = document.getElementById('user-input');
 const checkBtn = document.getElementById('check-btn');
 const resultsDiv = document.getElementById('results-div');
 
+assert.exists(userInput);
+assert.exists(checkBtn);
+assert.exists(resultsDiv);
+
 resultsDiv.innerHTML = '';
 userInput.value = '5555555';
 userInput.dispatchEvent(new Event('change'));
@@ -236,6 +277,10 @@ assert.strictEqual(resultsDiv.innerText.trim().toLowerCase(), 'invalid us number
 const userInput = document.getElementById('user-input');
 const checkBtn = document.getElementById('check-btn');
 const resultsDiv = document.getElementById('results-div');
+
+assert.exists(userInput);
+assert.exists(checkBtn);
+assert.exists(resultsDiv);
 
 resultsDiv.innerHTML = '';
 userInput.value = '1 555)555-5555';
@@ -251,6 +296,10 @@ const userInput = document.getElementById('user-input');
 const checkBtn = document.getElementById('check-btn');
 const resultsDiv = document.getElementById('results-div');
 
+assert.exists(userInput);
+assert.exists(checkBtn);
+assert.exists(resultsDiv);
+
 resultsDiv.innerHTML = '';
 userInput.value = '1 555 555 5555';
 userInput.dispatchEvent(new Event('change'));
@@ -264,6 +313,10 @@ assert.strictEqual(resultsDiv.innerText.trim().toLowerCase(), 'valid us number: 
 const userInput = document.getElementById('user-input');
 const checkBtn = document.getElementById('check-btn');
 const resultsDiv = document.getElementById('results-div');
+
+assert.exists(userInput);
+assert.exists(checkBtn);
+assert.exists(resultsDiv);
 
 resultsDiv.innerHTML = '';
 userInput.value = '1 456 789 4444';
@@ -279,6 +332,10 @@ const userInput = document.getElementById('user-input');
 const checkBtn = document.getElementById('check-btn');
 const resultsDiv = document.getElementById('results-div');
 
+assert.exists(userInput);
+assert.exists(checkBtn);
+assert.exists(resultsDiv);
+
 resultsDiv.innerHTML = '';
 userInput.value = '123**&!!asdf#';
 userInput.dispatchEvent(new Event('change'));
@@ -292,6 +349,10 @@ assert.strictEqual(resultsDiv.innerText.trim().toLowerCase(), 'invalid us number
 const userInput = document.getElementById('user-input');
 const checkBtn = document.getElementById('check-btn');
 const resultsDiv = document.getElementById('results-div');
+
+assert.exists(userInput);
+assert.exists(checkBtn);
+assert.exists(resultsDiv);
 
 resultsDiv.innerHTML = '';
 userInput.value = '55555555';
@@ -307,6 +368,10 @@ const userInput = document.getElementById('user-input');
 const checkBtn = document.getElementById('check-btn');
 const resultsDiv = document.getElementById('results-div');
 
+assert.exists(userInput);
+assert.exists(checkBtn);
+assert.exists(resultsDiv);
+
 resultsDiv.innerHTML = '';
 userInput.value = '(6054756961)';
 userInput.dispatchEvent(new Event('change'));
@@ -320,6 +385,10 @@ assert.strictEqual(resultsDiv.innerText.trim().toLowerCase(), 'invalid us number
 const userInput = document.getElementById('user-input');
 const checkBtn = document.getElementById('check-btn');
 const resultsDiv = document.getElementById('results-div');
+
+assert.exists(userInput);
+assert.exists(checkBtn);
+assert.exists(resultsDiv);
 
 resultsDiv.innerHTML = '';
 userInput.value = '2 (757) 622-7382';
@@ -335,6 +404,10 @@ const userInput = document.getElementById('user-input');
 const checkBtn = document.getElementById('check-btn');
 const resultsDiv = document.getElementById('results-div');
 
+assert.exists(userInput);
+assert.exists(checkBtn);
+assert.exists(resultsDiv);
+
 resultsDiv.innerHTML = '';
 userInput.value = '0 (757) 622-7382';
 userInput.dispatchEvent(new Event('change'));
@@ -348,6 +421,10 @@ assert.strictEqual(resultsDiv.innerText.trim().toLowerCase(), 'invalid us number
 const userInput = document.getElementById('user-input');
 const checkBtn = document.getElementById('check-btn');
 const resultsDiv = document.getElementById('results-div');
+
+assert.exists(userInput);
+assert.exists(checkBtn);
+assert.exists(resultsDiv);
 
 resultsDiv.innerHTML = '';
 userInput.value = '-1 (757) 622-7382';
@@ -363,6 +440,10 @@ const userInput = document.getElementById('user-input');
 const checkBtn = document.getElementById('check-btn');
 const resultsDiv = document.getElementById('results-div');
 
+assert.exists(userInput);
+assert.exists(checkBtn);
+assert.exists(resultsDiv);
+
 resultsDiv.innerHTML = '';
 userInput.value = '2 757 622-7382';
 userInput.dispatchEvent(new Event('change'));
@@ -376,6 +457,10 @@ assert.strictEqual(resultsDiv.innerText.trim().toLowerCase(), 'invalid us number
 const userInput = document.getElementById('user-input');
 const checkBtn = document.getElementById('check-btn');
 const resultsDiv = document.getElementById('results-div');
+
+assert.exists(userInput);
+assert.exists(checkBtn);
+assert.exists(resultsDiv);
 
 resultsDiv.innerHTML = '';
 userInput.value = '10 (757) 622-7382';
@@ -391,6 +476,10 @@ const userInput = document.getElementById('user-input');
 const checkBtn = document.getElementById('check-btn');
 const resultsDiv = document.getElementById('results-div');
 
+assert.exists(userInput);
+assert.exists(checkBtn);
+assert.exists(resultsDiv);
+
 resultsDiv.innerHTML = '';
 userInput.value = '27576227382';
 userInput.dispatchEvent(new Event('change'));
@@ -404,6 +493,10 @@ assert.strictEqual(resultsDiv.innerText.trim().toLowerCase(), 'invalid us number
 const userInput = document.getElementById('user-input');
 const checkBtn = document.getElementById('check-btn');
 const resultsDiv = document.getElementById('results-div');
+
+assert.exists(userInput);
+assert.exists(checkBtn);
+assert.exists(resultsDiv);
 
 resultsDiv.innerHTML = '';
 userInput.value = '(275)76227382';
@@ -419,6 +512,10 @@ const userInput = document.getElementById('user-input');
 const checkBtn = document.getElementById('check-btn');
 const resultsDiv = document.getElementById('results-div');
 
+assert.exists(userInput);
+assert.exists(checkBtn);
+assert.exists(resultsDiv);
+
 resultsDiv.innerHTML = '';
 userInput.value = '2(757)6227382';
 userInput.dispatchEvent(new Event('change'));
@@ -432,6 +529,10 @@ assert.strictEqual(resultsDiv.innerText.trim().toLowerCase(), 'invalid us number
 const userInput = document.getElementById('user-input');
 const checkBtn = document.getElementById('check-btn');
 const resultsDiv = document.getElementById('results-div');
+
+assert.exists(userInput);
+assert.exists(checkBtn);
+assert.exists(resultsDiv);
 
 resultsDiv.innerHTML = '';
 userInput.value = '2(757)622-7382';
@@ -447,6 +548,10 @@ const userInput = document.getElementById('user-input');
 const checkBtn = document.getElementById('check-btn');
 const resultsDiv = document.getElementById('results-div');
 
+assert.exists(userInput);
+assert.exists(checkBtn);
+assert.exists(resultsDiv);
+
 resultsDiv.innerHTML = '';
 userInput.value = '555)-555-5555';
 userInput.dispatchEvent(new Event('change'));
@@ -460,6 +565,10 @@ assert.strictEqual(resultsDiv.innerText.trim().toLowerCase(), 'invalid us number
 const userInput = document.getElementById('user-input');
 const checkBtn = document.getElementById('check-btn');
 const resultsDiv = document.getElementById('results-div');
+
+assert.exists(userInput);
+assert.exists(checkBtn);
+assert.exists(resultsDiv);
 
 resultsDiv.innerHTML = '';
 userInput.value = '(555-555-5555';
@@ -475,6 +584,10 @@ const userInput = document.getElementById('user-input');
 const checkBtn = document.getElementById('check-btn');
 const resultsDiv = document.getElementById('results-div');
 
+assert.exists(userInput);
+assert.exists(checkBtn);
+assert.exists(resultsDiv);
+
 resultsDiv.innerHTML = '';
 userInput.value = '(555)5(55?)-5555';
 userInput.dispatchEvent(new Event('change'));
@@ -488,6 +601,10 @@ assert.strictEqual(resultsDiv.innerText.trim().toLowerCase(), 'invalid us number
 const userInput = document.getElementById('user-input');
 const checkBtn = document.getElementById('check-btn');
 const resultsDiv = document.getElementById('results-div');
+
+assert.exists(userInput);
+assert.exists(checkBtn);
+assert.exists(resultsDiv);
 
 resultsDiv.innerHTML = '';
 userInput.value = '55 55-55-555-5';
@@ -503,11 +620,82 @@ const userInput = document.getElementById('user-input');
 const checkBtn = document.getElementById('check-btn');
 const resultsDiv = document.getElementById('results-div');
 
+assert.exists(userInput);
+assert.exists(checkBtn);
+assert.exists(resultsDiv);
+
 resultsDiv.innerHTML = '';
 userInput.value = '11 555-555-5555';
 userInput.dispatchEvent(new Event('change'));
 checkBtn.click();
 assert.strictEqual(resultsDiv.innerText.trim().toLowerCase(), 'invalid us number: 11 555-555-5555');
+```
+
+When the `#user-input` element contains a valid US number and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: "` followed by the number.
+
+```js
+const userInput = document.getElementById('user-input');
+const checkBtn = document.getElementById('check-btn');
+const resultsDiv = document.getElementById('results-div');
+
+assert.exists(userInput);
+assert.exists(checkBtn);
+assert.exists(resultsDiv);
+
+const validPatterns = [
+  '1 XXX-XXX-XXXX',
+  '1 (XXX)XXX-XXXX',
+  '1(XXX)XXX-XXXX',
+  '1 XXX XXX XXXX',
+  'XXXXXXXXXX',
+  'XXX-XXX-XXXX',
+  '(XXX)XXX-XXXX',
+];
+
+validPatterns.forEach(pattern => {
+  while (pattern.includes('X')) {
+    pattern = pattern.replace('X',  Math.floor(Math.random() * 7) + 2); //While this may seem weird at first, it's required for the CI build to pass
+    //This is apparently because the solution provided for CI purposes actually checks for valid area and exchange codes.
+  }
+  resultsDiv.innerHTML = '';
+  userInput.value = pattern;
+  userInput.dispatchEvent(new Event('change'));
+  checkBtn.click();
+  assert.strictEqual(document.getElementById('results-div').innerText.trim().toLowerCase(), `valid us number: ${pattern}`);
+});
+```
+
+When the `#user-input` element contains an invalid US number and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: "` followed by the number.
+
+```js
+const userInput = document.getElementById('user-input');
+const checkBtn = document.getElementById('check-btn');
+const resultsDiv = document.getElementById('results-div');
+
+assert.exists(userInput);
+assert.exists(checkBtn);
+assert.exists(resultsDiv);
+
+const invalidPatterns = [
+  '10 XXX-XXX-XXXX',
+  '1 (XX)XXX-XXXX',
+  '1!(XXX)XXX-XXXX',
+  '-1 XXX XXX XXXX',
+  'XXXXXXXX',
+  'XXX#XXX-XXXX',
+  '(XXXXXX-XXXX',
+];
+
+invalidPatterns.forEach(pattern => {
+  while (pattern.includes('X')) {
+    pattern = pattern.replace('X',  Math.floor(Math.random() * 10));
+  }
+  resultsDiv.innerHTML = '';
+  userInput.value = pattern;
+  userInput.dispatchEvent(new Event('change'));
+  checkBtn.click();
+  assert.strictEqual(document.getElementById('results-div').innerText.trim().toLowerCase(), `invalid us number: ${pattern}`);
+});
 ```
 
 # --seed--
