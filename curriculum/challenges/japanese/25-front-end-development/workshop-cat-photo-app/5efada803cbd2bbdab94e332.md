@@ -1,13 +1,13 @@
 ---
 id: 5efada803cbd2bbdab94e332
-title: Step 31
+title: ステップ 31
 challengeType: 0
 dashedName: step-31
 ---
 
 # --description--
 
-Inside the `figure` element you just added, nest an `img` element with a `src` attribute set to `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
+先ほど追加した `figure` 要素の中に、`img` 要素をネストして、その `src` 属性を `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg` に設定してください。
 
 # --hints--
 
@@ -20,13 +20,13 @@ assert.isAtLeast(document.querySelectorAll('figure').length, 2);
 Your second `figure` element should have a closing tag. Closing tags have a `/` just after the `<` character.
 
 ```js
-assert.isAtLeast(code.match(/<\/figure>/g).length, 2);
+assert.isAtLeast(code.match(/<\/figure>/g)?.length, 2);
 ```
 
 There should be a second `figure` element right above the second `section` element's closing tag. You have them in the wrong order.
 
 ```js
-assert.equal(document.querySelectorAll('main > section')[1].lastElementChild.nodeName, 'FIGURE');
+assert.equal(document.querySelectorAll('main > section')[1]?.lastElementChild.nodeName, 'FIGURE');
 ```
 
 You should have a third `img` element nested in the `figure` element.
@@ -38,7 +38,7 @@ assert.exists(
 );
 ```
 
-The third image should have a `src` attribute set to `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
+3 つ目の画像の `src` 属性を `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg` に設定する必要があります。
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];

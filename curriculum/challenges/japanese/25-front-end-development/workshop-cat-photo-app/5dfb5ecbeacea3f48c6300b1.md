@@ -1,15 +1,15 @@
 ---
 id: 5dfb5ecbeacea3f48c6300b1
-title: Step 23
+title: ステップ 23
 challengeType: 0
 dashedName: step-23
 ---
 
 # --description--
 
-The `li` element is used to create a list item in an ordered or unordered list.
+順序付きリストまたは順序なしリストのリスト項目を作成するには、`li` 要素を使います。
 
-Here is an example of list items in an unordered list:
+こちらが順序なしリスト内のリスト項目の例です。
 
 ```html
 <ul>
@@ -18,7 +18,7 @@ Here is an example of list items in an unordered list:
 </ul>
 ```
 
-Within the `ul` element nest three list items to display three things cats love:
+`ul` 要素内に 3 つのリスト項目をネストして、下記 3 つの猫が好きなものを表示してください:
 
 `cat nip`
 

@@ -1,13 +1,13 @@
 ---
 id: 612e8eebe3a6dc3fcc33a66f
-title: Step 9
+title: ステップ 9
 challengeType: 0
 dashedName: step-9
 ---
 
 # --description--
 
-Now target your `#piano` element with an `id` selector. Set its `background-color` property to `#00471b`, the `width` property to `992px` and the `height` property to `290px`.
+ここで、`id` セレクターで `#piano` 要素を選択してください。 Set its `background-color` property to `#00471b`, the `width` property to `992px` and the `height` property to `290px`.
 
 # --hints--
 

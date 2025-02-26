@@ -1,6 +1,6 @@
 ---
 id: 5efae0543cbd2bbdab94e333
-title: Step 32
+title: ステップ 32
 challengeType: 0
 dashedName: step-32
 ---
@@ -19,7 +19,7 @@ Your `figure` element should have an opening tag. Opening tags have this syntax:
 assert.lengthOf(document.querySelectorAll('figure'), 2);
 ```
 
-Your `figure` element should have a closing tag. Closing tags have a `/` just after the `<` character.
+Your `figure` element should have a closing tag. 終了タグは `<` の直後に `/` があるタグです。
 
 ```js
 assert.lengthOf(code.match(/<\/figure>/g), 2);
@@ -28,7 +28,7 @@ assert.lengthOf(code.match(/<\/figure>/g), 2);
 There should be a `figure` element right above the last `section` element's closing tag.
 
 ```js
-assert.equal(document.querySelectorAll('main > section')[1].lastElementChild.nodeName, 'FIGURE');
+assert.equal(document.querySelectorAll('main > section')[1]?.lastElementChild.nodeName, 'FIGURE');
 ```
 
 The Cats `img` element should be nested in the `figure` element.
@@ -46,8 +46,8 @@ The Cats `img` element should have an `alt` attribute with the value `Five cats 
 const catsImg = document.querySelectorAll('figure > img')[1];
 assert.match(
   catsImg
-    .getAttribute('alt')
-    .replace(/\s+/g, ' '),
+    ?.getAttribute('alt')
+    ?.replace(/\s+/g, ' '),
     /^Five cats looking around a field\.?$/i
 );
 ```

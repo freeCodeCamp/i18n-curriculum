@@ -1,17 +1,17 @@
 ---
 id: 618a0b2befb143baefab632b
-title: Step 32
+title: ステップ 32
 challengeType: 0
 dashedName: step-32
 ---
 
 # --description--
 
-Notice that the red and cyan colors are very bright right next to each other. This contrast can be distracting if it's overused on a website, and can make text hard to read if it's placed on a complementary-colored background.
+赤とシアンの色が隣り合わせにあると、とても明るく見えることに注目してください。 このコントラストはウェブサイト上で過度に使用すると目障りになることがあり、また、補色の背景色の上ではテキストが読みづらくなることがあります。
 
 It's better practice to choose one color as the dominant color, and use its complementary color as an accent to bring attention to certain content on the page.
 
-First, in the `h1` rule, use the `rgb` function to set its `background-color` to cyan.
+では最初に、`h1` ルール内で、`rgb` 関数を使用して `background-color` をシアンに設定してください。
 
 # --hints--
 

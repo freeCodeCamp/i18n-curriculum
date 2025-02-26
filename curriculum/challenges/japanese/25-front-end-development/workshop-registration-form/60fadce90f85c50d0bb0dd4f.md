@@ -1,13 +1,13 @@
 ---
 id: 60fadce90f85c50d0bb0dd4f
-title: Step 42
+title: ステップ 42
 challengeType: 0
 dashedName: step-42
 ---
 
 # --description--
 
-To give the `fieldset` elements a bit of separation, select them and give them a `border-bottom` of `3px solid #3b3b4f`.
+`fieldset` 要素をもう少し分離するために、fieldset を選択して `border-bottom` を `3px solid #3b3b4f` に設定してください。
 
 # --hints--
 

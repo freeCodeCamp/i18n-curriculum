@@ -1,13 +1,13 @@
 ---
 id: 5efae16e3cbd2bbdab94e334
-title: Step 33
+title: ステップ 33
 challengeType: 0
 dashedName: step-33
 ---
 
 # --description--
 
-After the last `img` element, add a `figcaption` element with the text `Cats hate other cats.`
+最後の `img` 要素の後に `figcaption` 要素を追加して、テキストを `Cats hate other cats.` としてください。
 
 # --hints--
 
@@ -26,7 +26,7 @@ assert.lengthOf(code.match(/<\/figcaption\>/g), 2);
 There should be a `figure` element right above the second `section` element's closing tag.
 
 ```js
-assert.equal(document.querySelectorAll('main > section')[1].lastElementChild.nodeName, 'FIGURE');
+assert.equal(document.querySelectorAll('main > section')[1]?.lastElementChild.nodeName, 'FIGURE');
 ```
 
 The last `img` element should be nested in the `figure` element.
@@ -44,7 +44,7 @@ Your `figure` element should have an opening tag. Opening tags have the followin
 assert.lengthOf(document.querySelectorAll('figure'), 2);
 ```
 
-Your `figure` element should have a closing tag. Closing tags have a `/` just after the `<` character.
+Your `figure` element should have a closing tag. 終了タグは `<` の直後に `/` があります。
 
 ```js
 assert.lengthOf(code.match(/<\/figure\>/g), 2);
@@ -60,18 +60,18 @@ The `figcaption` element nested in the `figure` element should be below the `img
 
 ```js
 assert.equal(
-  document.querySelectorAll('figcaption')[1].previousElementSibling.nodeName,
+  document.querySelectorAll('figcaption')[1]?.previousElementSibling.nodeName,
     'IMG'
 );
 ```
 
-The `figcaption` element should have the text `Cats hate other cats.` You have omitted a word or have a typo.
+`figcaption` 要素のテキストは `Cats hate other cats.` でなければなりません。 テキストに誤字脱字があります。
 
 ```js
 assert.match(
   document
     .querySelectorAll('figcaption')[1]
-    .innerText.toLowerCase(),
+    ?.innerText.toLowerCase(),
     /Cats hate other cats\.?$/i
 );
 ```

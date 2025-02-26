@@ -1,13 +1,13 @@
 ---
 id: 612eaf56b7ba3257fdbfb0db
-title: Step 19
+title: ステップ 19
 challengeType: 0
 dashedName: step-19
 ---
 
 # --description--
 
-The piano needs the freeCodeCamp logo to make it official.
+ピアノを公式なものにするため、freeCodeCamp のロゴを追加しましょう。
 
 Add an `img` element before your `.keys` element. Give the `img` a `class` of `logo`, and set the `src` to `https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg`. Give it an `alt` text of `freeCodeCamp Logo`.
 
@@ -19,7 +19,7 @@ You should add a new `img` element.
 assert(document.querySelectorAll('img')?.length === 1);
 ```
 
-Your `img` element should come before your first `.keys` element.
+`img` 要素は最初の `.keys` 要素の前に来る必要があります。
 
 ```js
 const img = document.querySelector('img');

@@ -1,13 +1,13 @@
 ---
 id: 644b6ad4fa8dfd600a9dff2c
-title: Step 25
+title: ステップ 25
 challengeType: 0
 dashedName: step-25
 ---
 
 # --description--
 
-To divide numbers in JavaScript, use the division operator (`/`). For example:
+To divide numbers in JavaScript, use the division operator (`/`). 例えば、次のように記述します。
 
 ```js
 const quotient = 5 / 2; // 2.5

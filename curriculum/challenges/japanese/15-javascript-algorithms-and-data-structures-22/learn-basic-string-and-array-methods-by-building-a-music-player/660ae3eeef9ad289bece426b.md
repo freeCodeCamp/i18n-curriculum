@@ -17,7 +17,7 @@ dashedName: step-11
 () => {}
 ```
 
-名前付きアロー関数を作成するには、関数を変数に代入します。
+By assigning the arrow function definition to a variable, you bind it to an identifier.
 
 ```js
 const exampleFunction = () => {
@@ -25,23 +25,23 @@ const exampleFunction = () => {
 }
 ```
 
-では、`printGreeting` という新しい名前付きアロー関数を作成してください。 その関数の本体内で、`console.log()` メソッドを使用して文字列 `"Hello there!"` を出力してください。
+Create a new arrow function and assign it to the variable `printGreeting`. Inside the function body, use the `console.log()` method to print the string `Hello there!`.
 
 # --hints--
 
-`printGreeting` という関数が必要です。
+You should have a variable named `printGreeting` and assign it an arrow function.
 
 ```js
 assert.isFunction(printGreeting);
 ```
 
-`printGreeting` 関数を作成するにはアロー構文を使用してください。
+You should create an arrow function and assign it to the `printGreeting` variable.
 
 ```js
 assert.match(code, /(let|const)\s+printGreeting\s*=\s*\(.*\)\s*=>\s*{\s*[\s\S]*}\s*;?/)
 ```
 
-`printGreeting` 関数内に `console.log('Hello there!')` が必要です。
+Your `printGreeting` function should log `Hello there!` to the console.
 
 ```js
 assert.match(printGreeting.toString(), /console\.log\(['"]Hello\s+there!['"]\)/);
