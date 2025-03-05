@@ -45,12 +45,7 @@ Kipengele cha Cats cha `img` kinapaswa kuwa na sifa ya `alt` yenye thamani `Five
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
-assert(
-  catsImg
-    .getAttribute('alt')
-    .replace(/\s+/g, ' ')
-    .match(/^Five cats looking around a field\.?$/i)
-);
+assert.match(catsImg?.getAttribute('alt')?.replace(/\s+/g, ' '), /^Five cats looking around a field\.?$/i);
 ```
 
 # --seed--
