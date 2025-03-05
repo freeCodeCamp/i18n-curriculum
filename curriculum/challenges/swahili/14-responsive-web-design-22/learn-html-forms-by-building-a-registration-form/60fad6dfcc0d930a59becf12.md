@@ -9,7 +9,7 @@ dashedName: step-43
 
 The HTML for the registration form is finished. Now, you can spruce it up a bit.
 
-Anza kwa kubadilisha fonti hadi `Tahoma`, na saizi ya fonti kuwa `16px` katika `body`.
+Start by adding `Tahoma` as the font with a font size of `16px` in the `body` selector.
 
 # --hints--
 

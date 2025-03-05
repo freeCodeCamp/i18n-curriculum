@@ -9,7 +9,7 @@ dashedName: step-43
 
 The HTML for the registration form is finished. Now, you can spruce it up a bit.
 
-首先將 `body` 的字體更改爲 `Tahoma`，字體大小更改爲 `16px`。
+Start by adding `Tahoma` as the font with a font size of `16px` in the `body` selector.
 
 # --hints--
 
