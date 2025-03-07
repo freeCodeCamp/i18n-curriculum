@@ -20,7 +20,7 @@ dashedName: perform-operations-on-arrays-using-helpers-methods-in-c-sharp
 
 ## --text--
 
-Which method changes the order of items in an `string` array?
+Який метод змінює порядок елементів у масиві `string`?
 
 ## --answers--
 

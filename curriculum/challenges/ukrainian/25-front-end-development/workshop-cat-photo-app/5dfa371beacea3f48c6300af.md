@@ -1,55 +1,55 @@
 ---
 id: 5dfa371beacea3f48c6300af
-title: Step 21
+title: Крок 21
 challengeType: 0
 dashedName: step-21
 ---
 
 # --description--
 
-When you add a lower-rank heading element to the page, it's implied that you're starting a new subsection.
+Якщо ви додаєте заголовок нижчої важливості, значить ви розпочинаєте новий підрозділ.
 
-After the last `h2` element of the second `section` element, add an `h3` element with this text:
+Після останнього елемента `h2` другого елемента `section` додайте елемент `h3` з таким текстом:
 
 `Things cats love:`
 
 # --hints--
 
-The second `section` element appears to be missing or does not have both an opening and closing tag.
+Здається, другий елемент `section` не має початкового та кінцевого тегів.
 
 ```js
 assert.exists(document.querySelectorAll('main > section')[1]);
 assert.lengthOf(code.match(/\<\/section>/g), 2);
 ```
 
-There should be an `h3` element right above the second `section` element's closing tag.
+Одразу над кінцевим тегом другого елемента `section` має бути елемент `h3`.
 
 ```js
 assert.equal(
-  document.querySelectorAll('main > section')[1].lastElementChild.nodeName,
+  document.querySelectorAll('main > section')[1]?.lastElementChild.nodeName,
     'H3'
 );
 ```
 
-The `h3` element right above the second `section` element's closing tag should have the text `Things cats love:`. Make sure to include the colon at the end of the text.
+Елемент `h3` над кінцевим тегом другого елемента `section` повинен мати текст `Things cats love:`. Переконайтеся, що поставили двокрапку в кінці тексту.
 
 ```js
 assert.equal(
   document
     .querySelectorAll('main > section')[1]
-    .lastElementChild.innerText.toLowerCase()
+    ?.lastElementChild.innerText.toLowerCase()
     .replace(/\s+/g, ' '), 'things cats love:'
 );
 ```
 
-There should be an `h2` element with the text `Cat Lists` above the last `h3` element that is nested in the last `section` element'. You may have accidentally deleted the `h2` element.
+Над останнім елементом `h3`, вкладеним в останній елемент `section`, має бути елемент `h2` з текстом `Cat Lists`. Можливо, ви випадково видалили елемент `h2`.
 
 ```js
 const secondSectionLastElemNode = document.querySelectorAll('main > section')[1]
-  .lastElementChild;
+  ?.lastElementChild;
+assert.equal( secondSectionLastElemNode?.nodeName, 'H3');
 assert.equal(
-  secondSectionLastElemNode.nodeName === 'H3' &&
-    secondSectionLastElemNode.previousElementSibling.innerText
+ secondSectionLastElemNode?.previousElementSibling.innerText
       .toLowerCase()
       .replace(/\s+/g, ' '), 'cat lists'
 );

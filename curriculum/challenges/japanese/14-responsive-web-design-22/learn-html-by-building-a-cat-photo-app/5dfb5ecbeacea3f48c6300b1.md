@@ -20,7 +20,7 @@ dashedName: step-23
 
 `ul` 要素内に 3 つのリスト項目をネストして、下記 3 つの猫が好きなものを表示してください:
 
-`cat nip`
+`catnip`
 
 `laser pointers`
 
@@ -35,14 +35,14 @@ assert.lengthOf(document.querySelectorAll('li'),3)
 assert.lengthOf(code.match(/<\/li\>/g),3);
 ```
 
-3 つの `li` 要素に、任意の順番でテキスト `cat nip`、`laser pointers`、`lasagna` が設定されている必要があります。 テキストが設定されていないか、誤字脱字があります。
+You should have three `li` elements with the text `catnip`, `laser pointers` and `lasagna` in any order. テキストが設定されていないか、誤字脱字があります。
 
 ```js
 assert.deepStrictEqual(
   [...document.querySelectorAll('li')]
     .map((item) => item.innerText.toLowerCase())
     .sort((a, b) => a.localeCompare(b)),
-  ['cat nip', 'lasagna', 'laser pointers']
+  ['catnip', 'lasagna', 'laser pointers']
 );
 ```
 

@@ -1,8 +1,7 @@
 ---
 id: 63ee35240d8d4841c3a7091b
-videoId: LGQuIIv2RVA
 title: Lição B sobre os fundamentos do CSS
-challengeType: 15
+challengeType: 19
 dashedName: css-foundations-lesson-b
 ---
 

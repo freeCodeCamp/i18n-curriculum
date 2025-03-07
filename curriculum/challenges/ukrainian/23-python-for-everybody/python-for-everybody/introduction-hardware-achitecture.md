@@ -1,6 +1,6 @@
 ---
 id: 5e6a54af58d3af90110a60a1
-title: 'Introduction: Hardware Architecture'
+title: 'Вступ: архітектура обладнання'
 challengeType: 11
 videoId: H6qtjRTfSog
 bilibiliIds:
@@ -14,19 +14,19 @@ dashedName: introduction-hardware-architecture
 
 ## --text--
 
-Where are your programs stored when they are running?
+Де зберігаються програми під час виконання?
 
 ## --answers--
 
-Hard Drive.
+На жорсткому диску.
 
 ---
 
-Memory.
+У пам’яті.
 
 ---
 
-Central Processing Unit.
+У центральному процесорі.
 
 ## --video-solution--
 

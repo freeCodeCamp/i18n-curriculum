@@ -17,7 +17,7 @@ dashedName: step-11
 () => {}
 ```
 
-Щоб створити іменовану стрілкову функцію, можна призначити функцію до змінної:
+By assigning the arrow function definition to a variable, you bind it to an identifier.
 
 ```js
 const exampleFunction = () => {
@@ -25,23 +25,23 @@ const exampleFunction = () => {
 }
 ```
 
-Створіть нову стрілкову функцію під назвою `printGreeting`. Усередині тіла цієї функції використовуйте метод `console.log()`, щоб надрукувати рядок `"Hello there!"`.
+Create a new arrow function and assign it to the variable `printGreeting`. Inside the function body, use the `console.log()` method to print the string `Hello there!`.
 
 # --hints--
 
-Ви повинні мати функцію під назвою `printGreeting`.
+You should have a variable named `printGreeting` and assign it an arrow function.
 
 ```js
 assert.isFunction(printGreeting);
 ```
 
-Використовуйте стрілковий синтаксис, щоб створити функцію `printGreeting`.
+You should create an arrow function and assign it to the `printGreeting` variable.
 
 ```js
 assert.match(code, /(let|const)\s+printGreeting\s*=\s*\(.*\)\s*=>\s*{\s*[\s\S]*}\s*;?/)
 ```
 
-Функція `printGreeting` має містити `console.log('Hello there!')`.
+Your `printGreeting` function should log `Hello there!` to the console.
 
 ```js
 assert.match(printGreeting.toString(), /console\.log\(['"]Hello\s+there!['"]\)/);

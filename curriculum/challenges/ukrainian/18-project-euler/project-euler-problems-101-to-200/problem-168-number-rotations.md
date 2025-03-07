@@ -1,6 +1,6 @@
 ---
 id: 5900f4151000cf542c50ff27
-title: 'Problem 168: Number Rotations'
+title: 'Завдання 168: обертання чисел'
 challengeType: 1
 forumTopicId: 301802
 dashedName: problem-168-number-rotations
@@ -8,23 +8,23 @@ dashedName: problem-168-number-rotations
 
 # --description--
 
-Consider the number 142857. We can right-rotate this number by moving the last digit (7) to the front of it, giving us 714285.
+Розглянемо число 142857. Ми можемо повернути його праворуч, перемістивши останню цифру (7) на початок, що дасть нам 714285.
 
-It can be verified that $714285 = 5 × 142857$.
+Можна довести, що $714285 = 5 × 142857$.
 
-This demonstrates an unusual property of 142857: it is a divisor of its right-rotation.
+Це показує незвичайну властивість числа 142857: воно є дільником своєї оберненої версії.
 
-For integer number of digits $a$ and $b$, find the last 5 digits of the sum of all integers $n$, $10^a &lt; n &lt; 10^b$, that have this property.
+Для цілої кількості чисел $a$ та $b$ знайдіть останні п’ять цифр суми всіх цілих чисел $n$, де $10^a &lt; n &lt; 10^b$, які мають цю властивість.
 
 # --hints--
 
-`numberRotations(2, 10)` should return `98311`.
+`numberRotations(2, 10)` має повернути `98311`.
 
 ```js
 assert.strictEqual(numberRotations(2, 10), 98311);
 ```
 
-`numberRotations(2, 100)` should return `59206`.
+`numberRotations(2, 100)` має повернути `59206`.
 
 ```js
 assert.strictEqual(numberRotations(2, 100), 59206);

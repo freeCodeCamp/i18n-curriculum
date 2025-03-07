@@ -20,7 +20,7 @@ Hier ist ein Beispiel für Listen-Elemente in einer unsortierten Liste:
 
 Bette innerhalb des `ul`-Elements drei Listen-Elemente ein, um drei Dinge anzuzeigen, die Katzen lieben:
 
-`cat nip`
+`catnip`
 
 `laser pointers`
 
@@ -35,14 +35,14 @@ assert.lengthOf(document.querySelectorAll('li'),3)
 assert.lengthOf(code.match(/<\/li\>/g),3);
 ```
 
-Du solltest drei `li`-Elemente mit dem Text `cat nip`, `laser pointers` und `lasagna` in beliebiger Reihenfolge haben. Du hast entweder etwas Text weggelassen oder einen Tippfehler gemacht.
+You should have three `li` elements with the text `catnip`, `laser pointers` and `lasagna` in any order. Du hast entweder etwas Text weggelassen oder einen Tippfehler gemacht.
 
 ```js
 assert.deepStrictEqual(
   [...document.querySelectorAll('li')]
     .map((item) => item.innerText.toLowerCase())
     .sort((a, b) => a.localeCompare(b)),
-  ['cat nip', 'lasagna', 'laser pointers']
+  ['catnip', 'lasagna', 'laser pointers']
 );
 ```
 

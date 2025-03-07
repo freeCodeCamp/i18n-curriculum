@@ -20,7 +20,7 @@ dashedName: step-23
 
 在 `ul` 元素中嵌套三个列表项以显示猫喜欢的三件事：
 
-`cat nip`
+`catnip`
 
 `laser pointers`
 
@@ -35,14 +35,14 @@ assert.lengthOf(document.querySelectorAll('li'),3)
 assert.lengthOf(code.match(/<\/li\>/g),3);
 ```
 
-你应该有三个 `li` 元素，其中包含任意顺序的文本 `cat nip`、`laser pointers` 和 `lasagna`。 你可能忽略了文本或有拼写错误。
+You should have three `li` elements with the text `catnip`, `laser pointers` and `lasagna` in any order. 你可能忽略了文本或有拼写错误。
 
 ```js
 assert.deepStrictEqual(
   [...document.querySelectorAll('li')]
     .map((item) => item.innerText.toLowerCase())
     .sort((a, b) => a.localeCompare(b)),
-  ['cat nip', 'lasagna', 'laser pointers']
+  ['catnip', 'lasagna', 'laser pointers']
 );
 ```
 

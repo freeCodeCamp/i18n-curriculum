@@ -66,7 +66,7 @@ assert(
 );
 ```
 
-The `figcaption` element should have the text `Cats hate other cats.` You have omitted a word or have a typo.
+Елемент `figcaption` має містити текст `Cats hate other cats.` Ви пропустили слово або допустили друкарську помилку.
 
 ```js
 assert(
@@ -96,7 +96,7 @@ assert(
         <h2>Cat Lists</h2>
         <h3>Things cats love:</h3>
         <ul>
-          <li>cat nip</li>
+          <li>catnip</li>
           <li>laser pointers</li>
           <li>lasagna</li>
         </ul>

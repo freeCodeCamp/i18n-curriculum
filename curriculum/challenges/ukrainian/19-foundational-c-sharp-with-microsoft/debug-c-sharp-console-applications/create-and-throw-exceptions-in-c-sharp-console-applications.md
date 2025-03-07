@@ -20,19 +20,19 @@ dashedName: create-and-throw-exceptions-in-c-sharp-console-applications
 
 ## --text--
 
-When should a method throw an exception?
+Коли метод повинен кинути виняток?
 
 ## --answers--
 
-A method should throw an exception when the method can complete its intended purpose.
+Метод повинен кинути виняток, коли метод може завершити своє цільове призначення.
 
 ---
 
-A method should throw an exception when the method can't complete its intended purpose.
+Метод повинен кинути виняток, коли метод не може завершити своє цільове призначення.
 
 ---
 
-A method should throw an exception when an exception type matches the intended purpose of the method.
+Метод повинен кинути виняток, коли тип винятку відповідає цільовому призначенню методу.
 
 ## --video-solution--
 

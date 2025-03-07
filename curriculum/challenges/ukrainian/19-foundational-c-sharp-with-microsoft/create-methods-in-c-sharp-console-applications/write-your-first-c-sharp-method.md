@@ -20,7 +20,7 @@ dashedName: write-your-first-c-sharp-method
 
 ## --text--
 
-Which of the following correctly declares a method?
+Що з переліченого правильно оголошує метод?
 
 ## --answers--
 

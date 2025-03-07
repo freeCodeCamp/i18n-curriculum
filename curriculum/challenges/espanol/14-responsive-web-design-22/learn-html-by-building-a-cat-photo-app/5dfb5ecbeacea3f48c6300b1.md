@@ -20,7 +20,7 @@ Aquí hay un ejemplo de lista de items en una lista desordenada:
 
 Dentro del elemento ul se anidan 3 elementos de la lista para mostrar tres cosas que les encantan a los gatos:
 
-`cat nip`
+`catnip`
 
 `laser pointers`
 
@@ -35,14 +35,14 @@ assert.lengthOf(document.querySelectorAll('li'),3)
 assert.lengthOf(code.match(/<\/li\>/g),3);
 ```
 
-Debes tener tres elementos `li` con el texto `cat nip`, `punteros láser` y `lasaña` en cualquier orden. Has omitido algún texto o tienes un error tipográfico.
+You should have three `li` elements with the text `catnip`, `laser pointers` and `lasagna` in any order. Has omitido algún texto o tienes un error tipográfico.
 
 ```js
 assert.deepStrictEqual(
   [...document.querySelectorAll('li')]
     .map((item) => item.innerText.toLowerCase())
     .sort((a, b) => a.localeCompare(b)),
-  ['cat nip', 'lasagna', 'laser pointers']
+  ['catnip', 'lasagna', 'laser pointers']
 );
 ```
 

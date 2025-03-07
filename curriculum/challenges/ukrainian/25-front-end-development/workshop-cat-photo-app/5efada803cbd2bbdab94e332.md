@@ -1,35 +1,35 @@
 ---
 id: 5efada803cbd2bbdab94e332
-title: Step 31
+title: Крок 31
 challengeType: 0
 dashedName: step-31
 ---
 
 # --description--
 
-Inside the `figure` element you just added, nest an `img` element with a `src` attribute set to `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
+В межах елемента `figure`, який ви щойно додали, вкладіть елемент `img` з атрибутом `src` зі значенням `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
 
 # --hints--
 
-Your second `figure` element should have an opening tag. Opening tags have this syntax: `<elementName>`.
+Другий елемент `figure` повинен мати початковий тег. Початкові теги мають такий синтаксис: `<elementName>`.
 
 ```js
 assert.isAtLeast(document.querySelectorAll('figure').length, 2);
 ```
 
-Your second `figure` element should have a closing tag. Closing tags have a `/` just after the `<` character.
+Другий елемент `figure` повинен мати кінцевий тег. Кінцеві теги мають `/` одразу після символу `<`.
 
 ```js
-assert.isAtLeast(code.match(/<\/figure>/g).length, 2);
+assert.isAtLeast(code.match(/<\/figure>/g)?.length, 2);
 ```
 
-There should be a second `figure` element right above the second `section` element's closing tag. You have them in the wrong order.
+Одразу над кінцевим тегом другого елемента `section` має бути другий елемент `figure`. Вони знаходяться в неправильному порядку.
 
 ```js
-assert.equal(document.querySelectorAll('main > section')[1].lastElementChild.nodeName, 'FIGURE');
+assert.equal(document.querySelectorAll('main > section')[1]?.lastElementChild.nodeName, 'FIGURE');
 ```
 
-You should have a third `img` element nested in the `figure` element.
+Третій елемент `img` має бути вкладеним в елементі `figure`.
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
@@ -38,7 +38,7 @@ assert.exists(
 );
 ```
 
-The third image should have a `src` attribute set to `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
+Третє зображення повинне мати атрибут `src` зі значенням `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
@@ -47,7 +47,7 @@ assert.equal(
 );
 ```
 
-Although you have set the new image's `src` to the correct URL, it is recommended to always surround the value of an attribute with quotation marks.
+Хоча ви встановили значення атрибута `src` нового зображення як правильне посилання, значення атрибута краще писати в лапках.
 
 ```js
 assert.notMatch(code, /\<img\s+.+\s+src\s*=\s*https:\/\/cdn\.freecodecamp\.org\/curriculum\/cat-photo-app\/cats\.jpg/);
@@ -72,7 +72,7 @@ assert.notMatch(code, /\<img\s+.+\s+src\s*=\s*https:\/\/cdn\.freecodecamp\.org\/
         <h2>Cat Lists</h2>
         <h3>Things cats love:</h3>
         <ul>
-          <li>cat nip</li>
+          <li>catnip</li>
           <li>laser pointers</li>
           <li>lasagna</li>
         </ul>

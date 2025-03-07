@@ -1,8 +1,7 @@
 ---
 id: 63ee354c0d8d4841c3a70921
-videoId: LGQuIIv2RVA
 title: Основи CSS. Урок №8
-challengeType: 15
+challengeType: 19
 dashedName: css-foundations-lesson-h
 ---
 

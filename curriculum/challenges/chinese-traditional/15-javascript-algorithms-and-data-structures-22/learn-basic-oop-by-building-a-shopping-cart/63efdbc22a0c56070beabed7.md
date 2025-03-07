@@ -7,7 +7,24 @@ dashedName: step-23
 
 # --description--
 
-在你的 `forEach` 回調中，你需要更新 `totalCountPerProduct` 對象。 使用當前 `dessert` 的 `id` 作爲你的屬性，將屬性的值更新爲當前值加一。 不要爲此使用加法賦值運算符。
+You’re on the right track! However, let’s take a moment to address a common issue when working with objects in JavaScript.
+
+When you try to access an object property that doesn’t exist, JavaScript returns `undefined`. If you then attempt to perform arithmetic operations on `undefined`, it can lead to unexpected results, such as `NaN`.
+
+To prevent this, you can use the `||` (logical OR) operator to provide a default value.
+
+```js
+  let scores = {}; 
+  let players = ["Alice", "Bob", "Charlie"];
+
+  players.forEach(player => {
+    scores[player] = scores[player] || 0;
+  });
+```
+
+Now, let’s apply this concept to your `totalCountPerProduct` object in the `forEach` callback. Make sure that each `dessert.id` property is initialized properly.
+
+Initialize `totalCountPerProduct[dessert.id]` with a default value of `0` using the `||` operator.
 
 # --hints--
 
@@ -25,20 +42,12 @@ const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /totalCountPerProduct\s*\[\s*dessert\.id\s*\]/);
 ```
 
-你應該使用賦值運算符來更新對應於 `dessert.id` 的 `totalCountPerProduct` 的屬性的值。
+You should initialize `totalCountPerProduct[dessert.id]` with `0` as a default value using `||` operator at the end of the expression.
 
 ```js
 const cart = new ShoppingCart();
-assert.match(cart.addItem.toString(), /totalCountPerProduct\s*\[\s*dessert\.id\s*\]\s*=/);
+assert.match(cart.addItem.toString(), /totalCountPerProduct\s*\[\s*dessert\.id\s*\]\s*=\s*totalCountPerProduct\s*\[\s*dessert\.id\s*\]\s*\|\|\s*0\s*/);
 ```
-
-你應該將 `totalCountPerProduct` 的值更新爲當前值加一。
-
-```js
-const cart = new ShoppingCart();
-assert.match(cart.addItem.toString(), /totalCountPerProduct\s*\[\s*dessert\.id\s*\]\s*=\s*totalCountPerProduct\s*\[\s*dessert\.id\s*\]\s*\+\s*1/);
-```
-
 
 # --seed--
 

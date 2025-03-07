@@ -37,7 +37,7 @@ assert.lengthOf(document.querySelectorAll('body'), 1);
 assert.equal(document.querySelector('div')?.parentElement?.tagName, 'BODY');
 ```
 
-You should move all the other elements inside the new `div`.
+Перемістіть всі інші елементи до нового `div`.
 
 ```js
 assert.lengthOf(document.querySelector('body > div#menu > main')?.children, 3);

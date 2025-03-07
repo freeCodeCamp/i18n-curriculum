@@ -8,12 +8,12 @@ dashedName: state-name-puzzle
 
 # --description--
 
-**State name** is a <em>word puzzle</em> in which you take the letters from two U.S. state names and rearrange them to form the names of two different U.S. states.
+**Назва штату** — це <em>головоломка зі словами</em>, у якій ви берете літери з двох назв штатів США та переставляєте їх, щоб створити назви двох інших штатів США.
 
 
 # --instructions--
 
-Write a function to solve the challenge for a given array of actual U.S. state names, and for fictional state names.
+Напишіть функцію для розв’язання задачі для заданого масиву фактичних назв штатів США та для вигаданих назв штатів.
 
 Функція має повернути масив. Кожен елемент має бути об’єктом у такому форматі: `{"from":[],"to":[]}`. Масив `from` повинен містити реальні назви, а масив `to` повинен містити отримані назви.
 

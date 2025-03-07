@@ -7,7 +7,7 @@ dashedName: step-21
 
 # --description--
 
-When you add a lower rank heading element to the page, it's implied that you're starting a new subsection.
+Якщо ви додаєте заголовковий елемент нижчого рангу, то ідеться про те, що ви починаєте новий підрозділ.
 
 Після останнього елемента `h2` другого елемента `section` додайте елемент `h3` з таким текстом:
 

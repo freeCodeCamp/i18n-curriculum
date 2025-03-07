@@ -16,7 +16,7 @@ dashedName: build-a-pokemon-search-app
 
 **Історія користувача:**
 
-1. Ви повинні мати елемент `input` з `id` зі значенням `"search-input"`.
+1. You should have an `input` element with an `id` of `"search-input"`, and is required.
 1. Ви повинні мати елемент `button` з `id` зі значенням `"search-button"`.
 1. Ви повинні мати елемент з `id` зі значенням `"pokemon-name"`.
 1. Ви повинні мати елемент з `id` зі значенням `"pokemon-id"`.
@@ -36,6 +36,8 @@ dashedName: build-a-pokemon-search-app
 1. Якщо елемент `#search-input` містить значення `94` та натиснути на елемент `#search-button`, то значеннями в елементах `#pokemon-name`, `#pokemon-id`, `#weight`, `#height`, `#hp`, `#attack`, `#defense`, `#special-attack`, `#special-defense` та `#speed` відповідно мають бути `GENGAR`, `#94` або `94`, `Weight: 405` або `405`, `Height: 15` або `15`, `60`, `65`, `60`, `130`, `75` та `110`.
 1. Якщо елемент `#search-input` містить значення `94` та натиснути на елемент `#search-button`, то на сторінку потрібно додати елемент `img` з `id` зі значенням `sprite` та `src` зі значенням спрайту покемона `front_default`.
 1. Якщо елемент `#search-input` містить значення `94` та натиснути на елемент `#search-button`, то елемент `#types` повинен містити два внутрішні елементи з текстовими значеннями `GHOST` та `POISON` відповідно. The `#types` element content should be cleared between searches.
+1. When the `#search-input` element contains an invalid Pokemon name, and the `#search-button` element is clicked, an alert should appear with the text `"Pokémon not found"`.
+1. Якщо елемент `#search-input` містить дійсний `id` Покемона та натиснути на елемент `#search-button`, то UI має бути заповненим правильними даними.
 
 Виконайте історію користувача та пройдіть тести, наведені нижче, щоб завершити цей проєкт. Оформте за власним стилем. Щасливого програмування!
 
@@ -43,7 +45,7 @@ dashedName: build-a-pokemon-search-app
 
 # --hints--
 
-Ви повинні мати **обов’язковий** елемент `input` з `id` зі значенням `"search-input"`.
+Ви повинні мати елемент `input` з `id` зі значенням `"search-input"`. The `input` should be marked as required.
 
 ```js
 const el = document.getElementById('search-input');
@@ -384,7 +386,7 @@ async () => {
 ```
 
 
-Якщо елемент `#search-input` містить дійсний `id` Покемона та натиснути на елемент `#search-button`, то UI має бути заповненим правильними даними.
+When the `#search-input` element contains a valid Pokemon id and the `#search-button` element is clicked, the UI should be filled with the correct data.
 
 ```js
 async () => {

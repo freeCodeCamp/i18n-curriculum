@@ -1,15 +1,15 @@
 ---
 id: 5dfa30b9eacea3f48c6300ad
-title: Step 17
+title: Крок 17
 challengeType: 0
 dashedName: step-17
 ---
 
 # --description--
 
-In previous steps, you used an anchor element to turn text into a link. Other types of content can also be turned into a link by wrapping it in anchor tags.
+У попередніх кроках ви використовували елемент-посилання, щоб перетворити текст на посилання. Інші типи вмісту також можна перетворити на посилання, оточивши їх тегами посилання.
 
-Here is an example of turning an image into a link:
+Ось приклад перетворення зображення на посилання:
 
 ```html
 <a href="example-link">
@@ -17,11 +17,11 @@ Here is an example of turning an image into a link:
 </a>
 ```
 
-Turn the image into a link by surrounding it with necessary element tags. Use `https://freecatphotoapp.com` as the anchor's `href` attribute value.
+Перетворіть зображення на посилання, оточивши його необхідними тегами. Використайте `https://freecatphotoapp.com` як значення атрибута `href` елемента посилання.
 
 # --hints--
 
-You should have an `img` element with a `src` value of `https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg`. You may have accidentally deleted it.
+Ви повинні мати елемент `img` з атрибутом `src` зі значенням `https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg`. Можливо, ви випадково видалили його.
 
 ```js
 assert.equal(
@@ -30,49 +30,49 @@ assert.equal(
 );
 ```
 
-Your anchor (`a`) element should have an opening tag. Opening tags have this syntax: `<elementName>`.
+Елемент посилання (`a`) повинен мати початковий тег. Початкові теги мають такий синтаксис: `<elementName>`.
 
 ```js
 assert.isAtLeast(document.querySelectorAll('a').length, 3);
 ```
 
-You are missing a closing (`a`) tag after the image.
+У вас відсутній кінцевий тег (`a`) після зображення.
 
 ```js
 assert.lengthOf(document.querySelectorAll('a'), 3);
 ```
 
-Your anchor (`a`) element should have a closing tag. Closing tags have a `/` just after the `<` character.
+Елемент посилання (`a`) повинен мати кінцевий тег. Кінцеві теги мають `/` одразу після символу `<`.
 
 ```js
-assert.isAtLeast(code.match(/<\/a>/g).length, 3);
+assert.isAtLeast(code.match(/<\/a>/g)?.length, 3);
 ```
 
-You should only add one closing anchor (`a`) tag. Please remove any extras.
+Додайте лише один кінцевий тег посилання (`a`). Будь ласка, видаліть все зайве.
 
 ```js
 assert.lengthOf(code.match(/<\/a>/g), 3);
 ```
 
-Your anchor (`a`) element does not have an `href` attribute. Check that there is a space after the opening tag's name and/or there are spaces before all attribute names.
+Елемент посилання (`a`) не має атрибута `href`. Перевірте, чи є пробіл після назви початкового тега та/або є пробіли перед усіма назвами атрибутів.
 
 ```js
-assert.isTrue(document.querySelectorAll('a')[2].hasAttribute('href'));
+assert.isTrue(document.querySelectorAll('a')[2]?.hasAttribute('href'));
 ```
 
-Your anchor (`a`) element should link to `https://freecatphotoapp.com`. You have either omitted the URL or have a typo.
+Елемент посилання (`a`) має направляти на `https://freecatphotoapp.com`. Ви або не написали посилання, або маєте друкарську помилку.
 
 ```js
 assert.equal(
-  document.querySelectorAll('a')[2].getAttribute('href'),
+  document.querySelectorAll('a')[2]?.getAttribute('href'),
     'https://freecatphotoapp.com'
 );
 ```
 
-Your `img` element should be nested within the anchor (`a`) element. The entire `img` element should be inside the opening and closing tags of the anchor (`a`) element.
+Елемент `img` має бути вкладеним в межах елемента посилання (`a`). Весь елемент `img` має бути в межах початкового та кінцевого тегів елемента посилання (`a`).
 
 ```js
-assert.equal(document.querySelector('img').parentNode.nodeName, 'A');
+assert.equal(document.querySelector('img')?.parentNode.nodeName, 'A');
 ```
 
 # --seed--
