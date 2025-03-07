@@ -1,6 +1,6 @@
 ---
 id: 647e21658acb466c97ccbee2
-title: 'Керуйте областю та логікою змінної, використовуючи блоки коду в C#'
+title: 'Керуйте областю видимості змінної та логікою, використовуючи блоки коду в C#'
 challengeType: 19
 dashedName: control-variable-scope-and-logic-using-code-blocks-in-c-sharp
 ---
@@ -9,12 +9,12 @@ dashedName: control-variable-scope-and-logic-using-code-blocks-in-c-sharp
 
 Це завдання буде частково виконано на платформі Microsoft Learn. Дотримуйтесь цих інструкцій, щоб виконати завдання:
 
-1. Перейдіть до <a href="https://learn.microsoft.com/training/modules/csharp-code-blocks/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/csharp-code-blocks/</a> та виконайте всі завдання модуля «Керуйте областю та логікою змінної, використовуючи блоки коду в C#». Це **обов’язково**, щоб отримати трофей з «Додавання логіки до консольних застосунків C#» на Microsoft Learn та мати змогу скласти сертифікаційний екзамен.
+1. Перейдіть до <a href="https://learn.microsoft.com/training/modules/csharp-code-blocks/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/csharp-code-blocks/</a> та виконайте всі завдання модуля «Керуйте областю видимості змінної та логікою, використовуючи блоки коду в C#». Це **обов’язково**, щоб отримати трофей з «Додавання логіки до консольних застосунків C#» на Microsoft Learn та мати змогу скласти сертифікаційний екзамен.
 1. Як тільки завершите, поверніться та дайте правильну відповідь на запитання нижче.
 
 # --assignment--
 
-Complete the <a href="https://learn.microsoft.com/training/modules/csharp-code-blocks/" target="_blank" rel="noreferrer">Control Variable Scope and Logic Using Code Blocks in C#</a> module on Microsoft Learn. Потім дайте відповідь на запитання нижче.
+Виконайте модуль <a href="https://learn.microsoft.com/training/modules/csharp-code-blocks/" target="_blank" rel="noreferrer">«Керуйте областю видимості змінної та логікою, використовуючи блоки коду в C#»</a> на Microsoft Learn. Потім дайте відповідь на запитання нижче.
 
 # --questions--
 

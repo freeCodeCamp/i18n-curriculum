@@ -1,15 +1,15 @@
 ---
 id: 66a97ca8c4cbae7d0bb6e0ad
-title: Крок 31
+title: Крок 32
 challengeType: 0
-dashedName: step-31
+dashedName: step-32
 ---
 
 # --description--
 
-Inside your `select` element, add the following five `option` elements with these corresponding values for the `option` text and `value` attribute:
+До елемента `select` додайте таких п’ять елементів `option` з відповідним текстом `option` і значенням атрибута `value`:
 
-**Value Attribute:**
+**Значення атрибута `value`:**
 
 - poor
 - satisfactory
@@ -17,7 +17,7 @@ Inside your `select` element, add the following five `option` elements with thes
 - very-good
 - excellent
 
-**Option Text:**
+**Текст елемента `option`:**
 
 - Poor
 - Satisfactory
@@ -26,7 +26,7 @@ Inside your `select` element, add the following five `option` elements with thes
 - Excellent
 
 
-Don't forget to add the `selected` attribute to the `option` element with the value of `"excellent"`.
+Не забудьте додати атрибут `selected` до елемента `option` зі значенням `"excellent"`.
 
 # --hints--
 
@@ -39,7 +39,7 @@ assert(document.querySelector('fieldset:nth-of-type(4) select#food option[value=
 Елемент `option` зі значенням `"poor"` повинен мати текст `"Poor"`.
 
 ```js
-assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="poor"]').textContent, 'Poor');
+assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="poor"]')?.textContent, 'Poor');
 ```
 
 Ви повинні мати елемент `option` зі значенням `"satisfactory"`.
@@ -51,7 +51,7 @@ assert(document.querySelector('fieldset:nth-of-type(4) select#food option[value=
 Елемент `option` зі значенням `"satisfactory"` повинен мати текст `"Satisfactory"`.
 
 ```js
-assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="satisfactory"]').textContent, 'Satisfactory');
+assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="satisfactory"]')?.textContent, 'Satisfactory');
 ```
 
 Ви повинні мати елемент `option` зі значенням `"good"`.
@@ -64,7 +64,7 @@ assert(document.querySelector('fieldset:nth-of-type(4) select#food option[value=
 
 ```js
 
-assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="good"]').textContent, 'Good');
+assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="good"]')?.textContent, 'Good');
 ```
 
 Ви повинні мати елемент `option` зі значенням `"very-good"`.
@@ -76,7 +76,7 @@ assert(document.querySelector('fieldset:nth-of-type(4) select#food option[value=
 Елемент `option` зі значенням `"very-good"` повинен мати текст `"Very Good"`.
 
 ```js
-assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="very-good"]').textContent, 'Very Good');
+assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="very-good"]')?.textContent, 'Very Good');
 ```
 
 Ви повинні мати елемент `option` зі значенням `"excellent"`.
@@ -89,7 +89,7 @@ assert(document.querySelector('fieldset:nth-of-type(4) select#food option[value=
 
 ```js
 
-assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="excellent"]').textContent, 'Excellent');
+assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="excellent"]')?.textContent, 'Excellent');
 ```
 
 Ви повинні мати елемент `option` з атрибутом `selected` зі значенням `"excellent"`.
@@ -122,7 +122,7 @@ assert(document.querySelector('fieldset:nth-of-type(4) select#food option[value=
         <fieldset>
           <legend>Personal Information</legend>
           <label for="full-name">Name (required):</label>
-          <input type="text" id="full-name" name="name" placeholder="Ex. John Doe" required>
+          <input type="text" id="full-name" name="name" placeholder="Ex. John Doe" required size="20">
 
           <label for="email">Email address (required):</label>
           <input
@@ -131,6 +131,7 @@ assert(document.querySelector('fieldset:nth-of-type(4) select#food option[value=
             id="email"
             type="email"
             name="email"
+            size="20"
           />
           <label for="age">Age (optional):</label>
           <input type="number" name="age" id="age" min="3" max="100" />

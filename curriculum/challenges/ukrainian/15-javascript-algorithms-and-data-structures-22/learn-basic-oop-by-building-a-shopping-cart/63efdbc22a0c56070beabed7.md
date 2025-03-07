@@ -7,7 +7,24 @@ dashedName: step-23
 
 # --description--
 
-У зворотному виклику `forEach` вам потрібно оновити об’єкт `totalCountPerProduct`. Використовуючи `id` поточного `dessert` як свою властивість, оновіть значення властивості до поточного значення плюс один. Не використайте для цього оператор присвоєння додавання.
+You’re on the right track! However, let’s take a moment to address a common issue when working with objects in JavaScript.
+
+When you try to access an object property that doesn’t exist, JavaScript returns `undefined`. If you then attempt to perform arithmetic operations on `undefined`, it can lead to unexpected results, such as `NaN`.
+
+To prevent this, you can use the `||` (logical OR) operator to provide a default value.
+
+```js
+  let scores = {}; 
+  let players = ["Alice", "Bob", "Charlie"];
+
+  players.forEach(player => {
+    scores[player] = scores[player] || 0;
+  });
+```
+
+Now, let’s apply this concept to your `totalCountPerProduct` object in the `forEach` callback. Make sure that each `dessert.id` property is initialized properly.
+
+Initialize `totalCountPerProduct[dessert.id]` with a default value of `0` using the `||` operator.
 
 # --hints--
 
@@ -25,20 +42,12 @@ const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /totalCountPerProduct\s*\[\s*dessert\.id\s*\]/);
 ```
 
-Ви повинні використовувати оператор присвоєння, щоб оновити значення властивості `totalCountPerProduct`, яка відповідає `dessert.id`.
+You should initialize `totalCountPerProduct[dessert.id]` with `0` as a default value using `||` operator at the end of the expression.
 
 ```js
 const cart = new ShoppingCart();
-assert.match(cart.addItem.toString(), /totalCountPerProduct\s*\[\s*dessert\.id\s*\]\s*=/);
+assert.match(cart.addItem.toString(), /totalCountPerProduct\s*\[\s*dessert\.id\s*\]\s*=\s*totalCountPerProduct\s*\[\s*dessert\.id\s*\]\s*\|\|\s*0\s*/);
 ```
-
-Ви повинні оновити значення `totalCountPerProduct` до поточного значення плюс один.
-
-```js
-const cart = new ShoppingCart();
-assert.match(cart.addItem.toString(), /totalCountPerProduct\s*\[\s*dessert\.id\s*\]\s*=\s*totalCountPerProduct\s*\[\s*dessert\.id\s*\]\s*\+\s*1/);
-```
-
 
 # --seed--
 

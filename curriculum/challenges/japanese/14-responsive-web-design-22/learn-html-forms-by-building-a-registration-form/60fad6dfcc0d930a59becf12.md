@@ -9,7 +9,7 @@ dashedName: step-43
 
 登録フォームの HTML が完成しました。 ここから、少し見た目を整えていきましょう。
 
-まず `body` ルール内で、フォントを `Tahoma` に、フォントサイズを `16px` に変更してください。
+Start by adding `Tahoma` as the font with a font size of `16px` in the `body` selector.
 
 # --hints--
 

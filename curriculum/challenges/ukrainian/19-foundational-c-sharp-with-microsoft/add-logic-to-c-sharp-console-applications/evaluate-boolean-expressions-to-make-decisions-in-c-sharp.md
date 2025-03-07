@@ -20,7 +20,7 @@ dashedName: evaluate-boolean-expressions-to-make-decisions-in-c-sharp
 
 ## --text--
 
-Which of the following lines of code is a valid use of the conditional operator?
+Для чого можна використати умовний оператор?
 
 ## --answers--
 

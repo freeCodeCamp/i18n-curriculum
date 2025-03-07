@@ -27,7 +27,7 @@ dashedName: soundex
 
 # --instructions--
 
-Write a function that takes a string as a parameter and returns the encoded string.
+Напишіть функцію, яка приймає рядок як параметр та повертає закодований рядок.
 
 # --hints--
 

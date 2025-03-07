@@ -20,7 +20,7 @@ Aqui está um exemplo de itens em uma lista não ordenada:
 
 Aninhe no elemento `ul` uma lista de três coisas que gatos adoram:
 
-`cat nip`
+`catnip`
 
 `laser pointers`
 
@@ -35,14 +35,14 @@ assert.lengthOf(document.querySelectorAll('li'),3)
 assert.lengthOf(code.match(/<\/li\>/g),3);
 ```
 
-Use três elementos `li` com os textos `cat nip`, `laser pointers` e `lasagna`, em qualquer ordem. Você esqueceu algum dos textos ou cometeu um erro de digitação.
+You should have three `li` elements with the text `catnip`, `laser pointers` and `lasagna` in any order. Você esqueceu algum dos textos ou cometeu um erro de digitação.
 
 ```js
 assert.deepStrictEqual(
   [...document.querySelectorAll('li')]
     .map((item) => item.innerText.toLowerCase())
     .sort((a, b) => a.localeCompare(b)),
-  ['cat nip', 'lasagna', 'laser pointers']
+  ['catnip', 'lasagna', 'laser pointers']
 );
 ```
 

@@ -1,15 +1,15 @@
 ---
 id: 5dfb5ecbeacea3f48c6300b1
-title: Step 23
+title: Крок 23
 challengeType: 0
 dashedName: step-23
 ---
 
 # --description--
 
-The `li` element is used to create a list item in an ordered or unordered list.
+Елемент `li` використовують, щоб створити елемент з впорядкованого чи невпорядкованого списку.
 
-Here is an example of list items in an unordered list:
+Ось приклад елементів невпорядкованого списку:
 
 ```html
 <ul>
@@ -18,9 +18,9 @@ Here is an example of list items in an unordered list:
 </ul>
 ```
 
-Within the `ul` element nest three list items to display three things cats love:
+Вкладіть три елементи списку до `ul`, перерахувавши три речі, які люблять коти:
 
-`cat nip`
+`catnip`
 
 `laser pointers`
 
@@ -28,25 +28,25 @@ Within the `ul` element nest three list items to display three things cats love:
 
 # --hints--
 
-You should have three `li` elements. Each `li` element should have its own opening and closing tag.
+Ви повинні мати три елементи `li`. Кожен елемент `li` повинен мати власні початковий та кінцевий теги.
 
 ```js
 assert.lengthOf(document.querySelectorAll('li'), 3);
 assert.lengthOf(code.match(/<\/li\>/g), 3);
 ```
 
-You should have three `li` elements with the text `cat nip`, `laser pointers` and `lasagna` in any order. You have either omitted some text or have a typo.
+You should have three `li` elements with the text `catnip`, `laser pointers` and `lasagna` in any order. Ви або не написали текст, або маєте друкарську помилку.
 
 ```js
 assert.deepStrictEqual(
   [...document.querySelectorAll('li')]
     .map((item) => item.innerText.toLowerCase())
     .sort((a, b) => a.localeCompare(b)),
-  ['cat nip', 'lasagna', 'laser pointers']
+  ['catnip', 'lasagna', 'laser pointers']
 );
 ```
 
-The three `li` elements should be located between the `ul` element's opening and closing tags.
+Три елементи `li` мають бути між початковим та кінцевим тегами елемента `ul`.
 
 ```js
 assert.lengthOf(

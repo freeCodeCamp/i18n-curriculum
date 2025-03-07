@@ -20,19 +20,19 @@ dashedName: guided-project-debug-and-handle-exceptions-in-a-c-sharp-console-appl
 
 ## --text--
 
-When is an `ArgumentOutOfRangeException` exception thrown?
+Коли викидається виняток `ArgumentOutOfRangeException`?
 
 ## --answers--
 
-An `ArgumentOutOfRangeException` exception is thrown when an attempt is made to index an array outside the bounds of the array.
+Виняток `ArgumentOutOfRangeException` викидається при спробі індексувати масив за межами масиву.
 
 ---
 
-An `ArgumentOutOfRangeException` exception is thrown when the value of an argument is outside the allowable range of values as defined by the method.
+Виняток `ArgumentOutOfRangeException` викидається, коли значення аргумента знаходиться поза діапазоном дозволених значень, визначених методом.
 
 ---
 
-An `ArgumentOutOfRangeException` exception is thrown when an attempt is made to store a value of one type in an array of another type.
+Виняток `ArgumentOutOfRangeException` викидається при спробі зберегти значення одного типу в масиві іншого типу.
 
 ## --video-solution--
 

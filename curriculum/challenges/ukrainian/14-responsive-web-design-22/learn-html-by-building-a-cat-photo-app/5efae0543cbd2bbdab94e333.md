@@ -7,7 +7,7 @@ dashedName: step-32
 
 # --description--
 
-To improve accessibility of the image you added, add an `alt` attribute with the text:
+Щоб покращити доступність доданого зображення, додайте атрибут `alt` із текстом:
 
 `Five cats looking around a field.`
 
@@ -45,12 +45,7 @@ assert(
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
-assert(
-  catsImg
-    .getAttribute('alt')
-    .replace(/\s+/g, ' ')
-    .match(/^Five cats looking around a field\.?$/i)
-);
+assert.match(catsImg?.getAttribute('alt')?.replace(/\s+/g, ' '), /^Five cats looking around a field\.?$/i);
 ```
 
 # --seed--
@@ -72,7 +67,7 @@ assert(
         <h2>Cat Lists</h2>
         <h3>Things cats love:</h3>
         <ul>
-          <li>cat nip</li>
+          <li>catnip</li>
           <li>laser pointers</li>
           <li>lasagna</li>
         </ul>

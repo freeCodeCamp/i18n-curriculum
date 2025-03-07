@@ -14,7 +14,7 @@ dashedName: branch-the-flow-of-code-using-the-switch-case-construct-in-c-sharp
 
 # --assignment--
 
-Complete the <a href="https://learn.microsoft.com/training/modules/csharp-switch-case/" target="_blank" rel="noreferrer">Branch the Flow of Code Using the `switch`-`case` Construct in C#</a> module on Microsoft Learn. Потім дайте відповідь на запитання нижче.
+Виконайте модуль <a href="https://learn.microsoft.com/training/modules/csharp-switch-case/" target="_blank" rel="noreferrer">«Розгалужте потік коду, використовуючи конструкцію switch-case в C#»</a> на Microsoft Learn. Потім дайте відповідь на запитання нижче.
 
 # --questions--
 

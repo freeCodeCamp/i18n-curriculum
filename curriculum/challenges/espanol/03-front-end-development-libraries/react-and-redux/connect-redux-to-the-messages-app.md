@@ -29,6 +29,17 @@ assert(
 );
 ```
 
+The `Container` component should be wrapped by a `Provider`
+
+```js
+assert(
+  (function () {
+    const mockedComponent = Enzyme.mount(React.createElement(AppWrapper));
+    return mockedComponent.find(Provider).length === 1;
+  })()
+);
+```
+
 El componente `Presentational` debe renderizarse.
 
 ```js

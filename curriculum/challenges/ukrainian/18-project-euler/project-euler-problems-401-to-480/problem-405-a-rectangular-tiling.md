@@ -1,6 +1,6 @@
 ---
 id: 5900f5021000cf542c510014
-title: 'Problem 405: A rectangular tiling'
+title: 'Завдання 405: прямокутна плитка'
 challengeType: 1
 forumTopicId: 302073
 dashedName: problem-405-a-rectangular-tiling
@@ -8,25 +8,25 @@ dashedName: problem-405-a-rectangular-tiling
 
 # --description--
 
-We wish to tile a rectangle whose length is twice its width.
+Ми хочемо викласти прямокутник, довжина якого вдвічі більша за ширину.
 
-Let $T(0)$ be the tiling consisting of a single rectangle.
+Нехай $T(0)$ буде плиткою, яка складається з одного прямокутника.
 
-For $n > 0$, let $T(n)$ be obtained from $T( n- 1)$ by replacing all tiles in the following manner:
+Нехай $T(n)$ буде отримано з $T( n- 1)$ за умови $n > 0$, якщо розкласти плитки ось так:
 
-<img alt="obtaining T(n) from T(n - 1)" src="https://cdn.freecodecamp.org/curriculum/project-euler/a-rectangular-tiling-1.png" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
+<img alt="отримання T(n) з T(n - 1)" src="https://cdn.freecodecamp.org/curriculum/project-euler/a-rectangular-tiling-1.png" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-The following animation demonstrates the tilings $T(n)$ for $n$ from 0 to 5:
+Ця анімація демонструє плитки $T(n)$ для $n$ від 0 до 5:
 
-<img alt="animation with tilings T(n) for n from 0 to 5" src="https://cdn.freecodecamp.org/curriculum/project-euler/a-rectangular-tiling-2.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
+<img alt="анімація з плитками T(n) для n від 0 до 5" src="https://cdn.freecodecamp.org/curriculum/project-euler/a-rectangular-tiling-2.gif" style="background-color: white; padding: 10px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 1.2rem;" />
 
-Let $f(n)$ be the number of points where four tiles meet in $T(n)$. For example, $f(1) = 0$, $f(4) = 82$ and $f({10}^9)\bmod {17}^7 = 126\\,897\\,180$.
+Нехай $f(n)$ буде кількістю точок, у яких перетинаються чотири плитки з $T(n)$. Наприклад, $f(1) = 0$, $f(4) = 82$ та $f({10}^9)\bmod {17}^7 = 126\\,897\\,180$.
 
-Find $f({10}^k)$ for $k = {10}^{18}$, give your answer modulo ${17}^7$.
+Знайдіть $f({10}^k)$ за умови $k = {10}^{18}$. Надайте відповідь за модулем ${17}^7$.
 
 # --hints--
 
-`rectangularTiling()` should return `237696125`.
+`rectangularTiling()` має повернути `237696125`.
 
 ```js
 assert.strictEqual(rectangularTiling(), 237696125);

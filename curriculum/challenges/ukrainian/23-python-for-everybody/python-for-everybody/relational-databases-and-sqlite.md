@@ -24,23 +24,23 @@ dashedName: relational-databases-and-sqlite
 
 ## --text--
 
-Which is NOT a primary data structure in a database?
+Що НЕ є первинною структурою даних в базі даних?
 
 ## --answers--
 
-index
+індекс
 
 ---
 
-table
+таблиця
 
 ---
 
-row
+рядок
 
 ---
 
-column
+стовпчик
 
 ## --video-solution--
 

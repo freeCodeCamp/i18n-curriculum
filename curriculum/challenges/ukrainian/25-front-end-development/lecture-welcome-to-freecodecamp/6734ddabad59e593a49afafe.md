@@ -1,6 +1,6 @@
 ---
 id: 6734ddabad59e593a49afafe
-title: Welcome Message from Quincy
+title: Привітальне повідомлення від Квінсі
 challengeType: 24
 videoId: KwZkXwDUc1o
 dashedName: welcome-message-from-quincy
@@ -8,26 +8,26 @@ dashedName: welcome-message-from-quincy
 
 # --description--
 
-Watch the video and complete the assignment below.
+Перегляньте відео або прочитайте текстову версію та виконайте завдання нижче.
 
 # --transcript--
 
-I'm Quincy Larson, teacher and founder of freeCodeCamp.org.
+Я — Квінсі Ларсон, вчитель та засновник freeCodeCamp.org.
 
-Our charity's mission is to create free learning resources to help people learn math, programming, and computer science. And that's precisely what we've done for you here.
+Мета нашої організації — створити безоплатний навчальний матеріал, щоб допомогти людям вивчати математику, програмування та інформатику. Саме це ми і зробили.
 
-This free, verified certification includes thousands of hours of lectures, interactive labs, and projects. You're going to build dozens of apps from scratch.
+Ця безоплатна підтверджена сертифікація складається з тисячі годин лекцій, інтерактивних лабораторних робіт та проєктів. Ви створите десятки застосунків з нуля.
 
-This is real coding. Everything's fully interactive. You'll immediately apply concepts as you learn them. And you'll get plenty of practice and spaced repetition along the way.
+Це справжнє програмування. Все повністю інтерактивне. Ви одразу будете застосовувати поняття, які вивчили. У процесі навчання ви отримаєте достатньо практики та повторення.
 
-Over the past decade, tens of thousands of people who've learned to code using freeCodeCamp have gotten their first developer jobs. Many of these people don't even have a university degree.
+За останнє десятиліття тисячі людей, які навчалися програмувати за допомогою freeCodeCamp, стали розробниками. Багато з цих людей навіть не мають диплому.
 
-But I'm not going to sugarcoat it: learning to code is hard. You're going to spend many nights and weekends sharpening your skills by building projects.
+Але не буду приховувати: вчитись програмувати важко. Ви проведете багато ночей і вихідних, вдосконалюючи свої навички за створенням проєктів.
 
-The good news is that the freeCodeCamp community is with you all the way. You can get help anytime you get stuck. Just use the freeCodeCamp forum or the freeCodeCamp Discord. Or you can use the search bar and search through thousands of reference articles created by the community.
+Хороші новини полягають у тому, що спільнота freeCodeCamp завжди з вами. Ви можете отримати допомогу будь-коли, коли застрягнете. Просто використовуйте форум або дискорд freeCodeCamp. Або ж ви можете скористатися пошуком і переглянути тисячі публікацій, створених спільнотою.
 
-In the next lecture, I'll explain how the freeCodeCamp curriculum and how the certifications work.
+У наступній лекції я поясню, як працюють навчальна програма та сертифікації freeCodeCamp.
 
 # --assignment--
 
-Check this box to indicate you have watched the video.
+Відмітьте прапорець, вказуючи, що ви переглянули відео.

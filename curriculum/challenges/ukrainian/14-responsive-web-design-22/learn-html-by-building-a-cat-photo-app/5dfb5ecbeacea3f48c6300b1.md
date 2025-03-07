@@ -20,7 +20,7 @@ dashedName: step-23
 
 Вкладіть три елементи списку до елемента `ul`, перерахувавши три речі, які люблять коти:
 
-`cat nip`
+`catnip`
 
 `laser pointers`
 
@@ -35,14 +35,14 @@ assert.lengthOf(document.querySelectorAll('li'),3)
 assert.lengthOf(code.match(/<\/li\>/g),3);
 ```
 
-У вас мають бути три елементи `li` з текстом `cat nip`, `laser pointers` та `lasagna` у будь-якому порядку. Ви або не написали текст, або маєте друкарську помилку.
+You should have three `li` elements with the text `catnip`, `laser pointers` and `lasagna` in any order. Ви або не написали текст, або маєте друкарську помилку.
 
 ```js
 assert.deepStrictEqual(
   [...document.querySelectorAll('li')]
     .map((item) => item.innerText.toLowerCase())
     .sort((a, b) => a.localeCompare(b)),
-  ['cat nip', 'lasagna', 'laser pointers']
+  ['catnip', 'lasagna', 'laser pointers']
 );
 ```
 

@@ -11,11 +11,11 @@ dashedName: task-8
 
 `Stay` використовується для позначення перебування в певному статусі або стані. Його часто використовують в інструкціях або порадах щодо певного стану в певній ситуації. For example:
 
-`Stay safe online` (будьте обережними під час користування інтернетом)
+- `Stay safe online.` - Continue being safe while using the internet.
 
-`Stay calm during the test` (будьте спокійними під час написання тесту)
+- `Stay calm during the test.` - Continue being calm.
 
-`Stay focused on your work` (зосередьтесь на своїй роботі)
+- `Stay focused on your work.` - Continue paying attention to your work.
 
 
 # --fillInTheBlank--
@@ -30,7 +30,7 @@ dashedName: task-8
 
 ### --feedback--
 
-Це слово вказує на те, що Софі активно надає допомогу або підтримку своїй команді. Його вжито у формі герундія `-ing`.
+This word indicates that Sophie is actively providing assistance or support to her team. It is in the gerund form `-ing`
 
 ---
 
@@ -38,7 +38,7 @@ dashedName: task-8
 
 ### --feedback--
 
-Це слово використовується для того, щоб запропонувати підтримувати певний стан. В цьому випадку — бути обережними в інтернеті.
+This word is used to suggest maintaining a certain state, in this case, being safe while online.
 
 # --scene--
 

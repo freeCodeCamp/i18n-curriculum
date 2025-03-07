@@ -1,37 +1,37 @@
 ---
 id: 5efae0543cbd2bbdab94e333
-title: Step 32
+title: Крок 32
 challengeType: 0
 dashedName: step-32
 ---
 
 # --description--
 
-To improve the accessibility of the image you added, add an `alt` attribute with the text:
+Щоб покращити доступність доданого зображення, додайте атрибут `alt` з таким текстом:
 
 `Five cats looking around a field.`
 
 # --hints--
 
-Your `figure` element should have an opening tag. Opening tags have this syntax: `<elementName>`.
+Елемент `figure` повинен мати початковий тег. Початкові теги мають такий синтаксис: `<elementName>`.
 
 ```js
 assert.lengthOf(document.querySelectorAll('figure'), 2);
 ```
 
-Your `figure` element should have a closing tag. Closing tags have a `/` just after the `<` character.
+Елемент `figure` повинен мати кінцевий тег. Кінцеві теги мають `/` одразу після символу `<`.
 
 ```js
 assert.lengthOf(code.match(/<\/figure>/g), 2);
 ```
 
-There should be a `figure` element right above the last `section` element's closing tag.
+Одразу над кінцевим тегом останнього елемента `section` має бути елемент `figure`.
 
 ```js
-assert.equal(document.querySelectorAll('main > section')[1].lastElementChild.nodeName, 'FIGURE');
+assert.equal(document.querySelectorAll('main > section')[1]?.lastElementChild.nodeName, 'FIGURE');
 ```
 
-The Cats `img` element should be nested in the `figure` element.
+Елемент `img` «cats» має бути вкладеним в елементі `figure`.
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
@@ -40,14 +40,14 @@ assert.equal(
 );
 ```
 
-The Cats `img` element should have an `alt` attribute with the value `Five cats looking around a field.`
+Елемент `img` «cats» повинен мати атрибут `alt` зі значенням `Five cats looking around a field.`
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
 assert.match(
   catsImg
-    .getAttribute('alt')
-    .replace(/\s+/g, ' '),
+    ?.getAttribute('alt')
+    ?.replace(/\s+/g, ' '),
     /^Five cats looking around a field\.?$/i
 );
 ```
@@ -71,7 +71,7 @@ assert.match(
         <h2>Cat Lists</h2>
         <h3>Things cats love:</h3>
         <ul>
-          <li>cat nip</li>
+          <li>catnip</li>
           <li>laser pointers</li>
           <li>lasagna</li>
         </ul>

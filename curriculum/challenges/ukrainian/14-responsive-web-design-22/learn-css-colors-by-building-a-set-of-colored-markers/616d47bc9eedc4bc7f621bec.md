@@ -11,19 +11,19 @@ dashedName: step-10
 
 # --hints--
 
-Your new `div` element should have an opening tag.
+Новий елемент `div` повинен мати початковий тег.
 
 ```js
 assert([...code.matchAll(/<div.*?>/gi)][1]);
 ```
 
-Your new `div` element should have a closing tag.
+Новий елемент `div` повинен мати кінцевий тег.
 
 ```js
 assert([...code.matchAll(/<\/div\s*>/gi)][1]);
 ```
 
-You should nest your new `div` element within the `div` with the class `container`.
+Вкладіть новий елемент `div` в межах `div` з класом `container`.
 
 ```js
 assert(document.querySelector('.container')?.children[0]?.localName === 'div');
