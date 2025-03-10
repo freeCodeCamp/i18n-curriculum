@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244ab
 title: Entender a sensibilidade a caracteres maiúsculos e minúsculos em variáveis
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cd6GDcD'
 forumTopicId: 18334
 dashedName: understanding-case-sensitivity-in-variables
 ---

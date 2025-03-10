@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244df
 title: Swicth문에서의 다중의 동일한 옵션
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cdBKWCV'
 forumTopicId: 18242
 dashedName: multiple-identical-options-in-switch-statements
 ---

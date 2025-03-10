@@ -2,7 +2,6 @@
 id: cf1111c1c11feddfaeb4bdef
 title: JavaScript로 한 숫자에서 다른 숫자를 빼기
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cP3yQtk'
 forumTopicId: 18314
 dashedName: subtract-one-number-from-another-with-javascript
 ---

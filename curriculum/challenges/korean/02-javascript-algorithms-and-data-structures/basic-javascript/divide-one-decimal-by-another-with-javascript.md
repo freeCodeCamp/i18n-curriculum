@@ -2,7 +2,6 @@
 id: bd7993c9ca9feddfaeb7bdef
 title: JavaScript에서 하나의 실수를 다른 실수로 나누기
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cBZe9AW'
 forumTopicId: 18255
 dashedName: divide-one-decimal-by-another-with-javascript
 ---

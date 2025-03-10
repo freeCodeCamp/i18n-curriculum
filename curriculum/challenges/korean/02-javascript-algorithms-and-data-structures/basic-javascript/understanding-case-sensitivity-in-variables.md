@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244ab
 title: 변수의 대소문자 구분을 이해하기
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cd6GDcD'
 forumTopicId: 18334
 dashedName: understanding-case-sensitivity-in-variables
 ---

@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244e0
 title: If Else를 Switch로 대체하기
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/c3JE8fy'
 forumTopicId: 18266
 dashedName: replacing-if-else-chains-with-switch
 ---

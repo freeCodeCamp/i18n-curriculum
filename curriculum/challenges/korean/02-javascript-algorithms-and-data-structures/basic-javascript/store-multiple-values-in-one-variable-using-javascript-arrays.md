@@ -2,7 +2,6 @@
 id: bd7993c9c69feddfaeb8bdef
 title: 자바스크립트 배열을 사용해서 1개의 변수에 여러 개의 값을 넣기
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/crZQWAm'
 forumTopicId: 18309
 dashedName: store-multiple-values-in-one-variable-using-javascript-arrays
 ---

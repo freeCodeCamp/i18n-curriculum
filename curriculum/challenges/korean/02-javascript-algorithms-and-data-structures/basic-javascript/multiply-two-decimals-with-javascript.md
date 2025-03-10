@@ -2,7 +2,6 @@
 id: bd7993c9c69feddfaeb7bdef
 title: JavaScript에서 2개의 실수를 곱하기
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/ce2GeHq'
 forumTopicId: 301173
 dashedName: multiply-two-decimals-with-javascript
 ---

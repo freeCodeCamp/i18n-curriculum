@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244a8
 title: Almacenar valores con el operador de asignación
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cEanysE'
 forumTopicId: 18310
 dashedName: storing-values-with-the-assignment-operator
 ---

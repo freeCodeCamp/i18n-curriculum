@@ -2,7 +2,6 @@
 id: cf1111c1c11feddfaeb1bdef
 title: 자바스크립트 While 루프로 순환하기
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/c8QbnCM'
 forumTopicId: 18220
 dashedName: iterate-with-javascript-while-loops
 ---

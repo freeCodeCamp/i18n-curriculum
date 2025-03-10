@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244c4
 title: Patrón de devolución anticipado para funciones
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cQe39Sq'
 forumTopicId: 18272
 dashedName: return-early-pattern-for-functions
 ---

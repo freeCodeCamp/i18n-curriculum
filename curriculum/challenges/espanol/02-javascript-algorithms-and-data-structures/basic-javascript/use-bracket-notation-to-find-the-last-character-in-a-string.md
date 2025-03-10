@@ -2,7 +2,6 @@
 id: bd7123c9c451eddfaeb5bdef
 title: Utiliza la notación de corchetes para encontrar el último carácter en una cadena
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cBZQGcv'
 forumTopicId: 18342
 dashedName: use-bracket-notation-to-find-the-last-character-in-a-string
 ---

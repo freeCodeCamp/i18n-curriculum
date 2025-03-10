@@ -2,7 +2,6 @@
 id: 56592a60ddddeae28f7aa8e1
 title: 인덱스로 다차원 배열에 접촉하기
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/ckND4Cq'
 forumTopicId: 16159
 dashedName: access-multi-dimensional-arrays-with-indexes
 ---

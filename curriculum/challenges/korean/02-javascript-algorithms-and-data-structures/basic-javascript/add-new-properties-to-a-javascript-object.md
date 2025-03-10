@@ -2,7 +2,6 @@
 id: 56bbb991ad1ed5201cd392d2
 title: 자바스크립트 객체에 새 속성 추가하기
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cQe38UD'
 forumTopicId: 301169
 dashedName: add-new-properties-to-a-javascript-object
 ---

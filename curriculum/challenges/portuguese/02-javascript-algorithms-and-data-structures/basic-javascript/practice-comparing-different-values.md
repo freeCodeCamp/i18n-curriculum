@@ -2,7 +2,6 @@
 id: 599a789b454f2bbd91a3ff4d
 title: Praticar a comparação de diferentes valores
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cm8PqCa'
 forumTopicId: 301174
 dashedName: practice-comparing-different-values
 ---

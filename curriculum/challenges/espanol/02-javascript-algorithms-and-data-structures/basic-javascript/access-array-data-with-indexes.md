@@ -2,7 +2,6 @@
 id: 56bbb991ad1ed5201cd392ca
 title: Accede a los datos de un arreglo con índices
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cBZQbTz'
 forumTopicId: 16158
 dashedName: access-array-data-with-indexes
 ---

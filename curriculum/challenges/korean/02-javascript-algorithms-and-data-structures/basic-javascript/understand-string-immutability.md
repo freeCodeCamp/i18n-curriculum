@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244ba
 title: 문자열의 불변성을 이해하기
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cWPVaUR'
 forumTopicId: 18331
 dashedName: understand-string-immutability
 ---

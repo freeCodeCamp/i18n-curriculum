@@ -2,7 +2,6 @@
 id: 56bbb991ad1ed5201cd392cb
 title: push 메서드를 사용하여 배열 조작하기
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cnqmVtJ'
 forumTopicId: 18237
 dashedName: manipulate-arrays-with-push
 ---

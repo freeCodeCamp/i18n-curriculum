@@ -2,7 +2,6 @@
 id: cf1231c1c11feddfaeb5bdef
 title: 자바스크립트로 2개의 수치를 곱하기
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cP3y3Aq'
 forumTopicId: 18243
 dashedName: multiply-two-numbers-with-javascript
 ---

@@ -2,7 +2,6 @@
 id: bd7123c9c549eddfaeb5bdef
 title: 브라켓 표기법을 사용해서 문자열의 첫 글자를 찾기
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/ca8JwhW'
 forumTopicId: 18341
 dashedName: use-bracket-notation-to-find-the-first-character-in-a-string
 ---

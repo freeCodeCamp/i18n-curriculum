@@ -2,7 +2,6 @@
 id: bd7123c9c450eddfaeb5bdef
 title: Utiliza la notación de corchetes para encontrar el enésimo carácter en una cadena
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cWPVJua'
 forumTopicId: 18343
 dashedName: use-bracket-notation-to-find-the-nth-character-in-a-string
 ---

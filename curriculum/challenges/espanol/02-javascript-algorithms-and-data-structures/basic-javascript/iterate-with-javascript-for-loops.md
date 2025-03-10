@@ -2,7 +2,6 @@
 id: cf1111c1c11feddfaeb5bdef
 title: Itera con los bucles "for" de JavaScript
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/c9yNVCe'
 forumTopicId: 18219
 dashedName: iterate-with-javascript-for-loops
 ---

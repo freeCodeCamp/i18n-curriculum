@@ -2,7 +2,6 @@
 id: bd7123c9c451eddfaeb5bdef
 title: 브라켓 표기법을 사용해서 문자열의 마지막 문자를 찾기
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cBZQGcv'
 forumTopicId: 18342
 dashedName: use-bracket-notation-to-find-the-last-character-in-a-string
 ---

@@ -2,7 +2,6 @@
 id: 56bbb991ad1ed5201cd392cf
 title: 함수를 사용해서 재이용 가능한 JavaScript를 작성하기
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cL6dqfy'
 forumTopicId: 18378
 dashedName: write-reusable-javascript-with-functions
 ---

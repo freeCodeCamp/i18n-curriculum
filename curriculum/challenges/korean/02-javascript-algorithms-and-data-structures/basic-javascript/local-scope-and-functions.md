@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244bf
 title: 로컬(지역) 스코프(범위) 와 함수
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cd62NhM'
 forumTopicId: 18227
 dashedName: local-scope-and-functions
 ---

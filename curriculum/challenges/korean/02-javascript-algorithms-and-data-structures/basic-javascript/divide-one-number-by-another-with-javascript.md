@@ -2,7 +2,6 @@
 id: cf1111c1c11feddfaeb6bdef
 title: JavaScript에서 하나의 숫자를 다른 숫자로 나누기
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cqkbdAr'
 forumTopicId: 17566
 dashedName: divide-one-number-by-another-with-javascript
 ---

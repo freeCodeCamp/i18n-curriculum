@@ -2,7 +2,6 @@
 id: cf1111c1c11feddfaeb5bdef
 title: 자바스크립트 for문을 사용하여 반복하기
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/c9yNVCe'
 forumTopicId: 18219
 dashedName: iterate-with-javascript-for-loops
 ---

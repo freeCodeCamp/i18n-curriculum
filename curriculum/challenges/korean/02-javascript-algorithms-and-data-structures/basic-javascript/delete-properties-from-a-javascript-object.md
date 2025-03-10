@@ -2,7 +2,6 @@
 id: 56bbb991ad1ed5201cd392d3
 title: 자바스크립트 객체에서 속성 삭제하기
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cDqKdTv'
 forumTopicId: 17560
 dashedName: delete-properties-from-a-javascript-object
 ---

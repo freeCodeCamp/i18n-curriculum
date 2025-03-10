@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244c6
 title: 줄 서기
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/ca8Q8tP'
 forumTopicId: 18307
 dashedName: stand-in-line
 ---
