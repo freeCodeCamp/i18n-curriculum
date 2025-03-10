@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244bd
 title: Passar valores para funções com argumentos
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cy8rahW'
 forumTopicId: 18254
 dashedName: passing-values-to-functions-with-arguments
 ---

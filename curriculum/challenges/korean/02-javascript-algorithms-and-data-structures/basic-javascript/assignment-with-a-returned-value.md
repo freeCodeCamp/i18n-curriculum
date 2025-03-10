@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244c3
 title: 반환된 값으로 할당하기
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/ce2pEtB'
 forumTopicId: 16658
 dashedName: assignment-with-a-returned-value
 ---

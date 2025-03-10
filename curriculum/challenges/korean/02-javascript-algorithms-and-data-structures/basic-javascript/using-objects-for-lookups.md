@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244ca
 title: 객체를 사용한 조회하기
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cdBk8sM'
 forumTopicId: 18373
 dashedName: using-objects-for-lookups
 ---

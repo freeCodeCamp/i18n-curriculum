@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244d9
 title: Comparaciones con el operador lógico "or"
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cEPrGTN'
 forumTopicId: 16800
 dashedName: comparisons-with-the-logical-or-operator
 ---

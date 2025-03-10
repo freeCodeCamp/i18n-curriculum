@@ -2,7 +2,6 @@
 id: cf1111c1c11feddfaeb6bdef
 title: Divide un número entre otro con JavaScript
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cqkbdAr'
 forumTopicId: 17566
 dashedName: divide-one-number-by-another-with-javascript
 ---

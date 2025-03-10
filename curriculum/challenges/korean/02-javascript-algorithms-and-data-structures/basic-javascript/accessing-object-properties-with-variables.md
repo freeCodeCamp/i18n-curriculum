@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244c9
 title: 변수로 객체 속성 접근하기
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cnQyKur'
 forumTopicId: 16165
 dashedName: accessing-object-properties-with-variables
 ---

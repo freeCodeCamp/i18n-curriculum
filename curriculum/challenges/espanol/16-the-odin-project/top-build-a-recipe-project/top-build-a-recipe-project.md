@@ -47,13 +47,13 @@ assert(html && head && body);
 Deberías tener un elemento `title` dentro del elemento `head` con el texto `The Odin Recipes`.
 
 ```js
-assert(document.querySelectorAll('HEAD > TITLE')[0].innerText == 'The Odin Recipes');
+assert(document.querySelectorAll('HEAD > TITLE')[0]?.innerText == 'The Odin Recipes');
 ```
 
 You should have an `h1` element within your `body` element that contains the text `Creamy Chocolate Fudge`.
 
 ```js
-assert(document.querySelectorAll('BODY > H1')[0].innerText == 'Creamy Chocolate Fudge');
+assert(document.querySelectorAll('BODY > H1')[0]?.innerText == 'Creamy Chocolate Fudge');
 ```
 
 Debes tener una imagen con un atributo `alt`.
@@ -69,7 +69,7 @@ Debes tener un elemento `h2` con el texto `Description`.
 ```js
 const h2 = document.querySelectorAll('H2')[0];
 
-assert(h2.innerText == 'Description');
+assert(h2?.innerText == 'Description');
 ```
 
 Debes tener al menos dos elementos `p` describiendo la receta.
@@ -77,7 +77,7 @@ Debes tener al menos dos elementos `p` describiendo la receta.
 ```js
 const paragraphs = document.querySelectorAll('P');
 
-assert(paragraphs.length > 1);
+assert(paragraphs?.length > 1);
 ```
 
 Debes tener un elemento `h2` con el texto `Ingredients`.
@@ -85,16 +85,27 @@ Debes tener un elemento `h2` con el texto `Ingredients`.
 ```js
 const h2 = document.querySelectorAll('H2')[1];
 
-assert(h2.innerText == 'Ingredients');
+assert(h2?.innerText == 'Ingredients');
 ```
 
-Debes tener una lista desordenada `<ul>` con algunos ingredientes como elementos de la lista `<li>`.
+You should have an `ul` element nested with `li` elements that contain the ingredients.
 
 ```js
-const unorderedList = document.querySelectorAll('UL')[0];
-const listItems = document.querySelectorAll('UL > LI');
+const headers = document.querySelectorAll("h2");
 
-assert(unorderedList && listItems && listItems.length > 1);
+headers.forEach(header => {
+    if (header.textContent.trim() === "Ingredients") {
+        const next = header.nextElementSibling;
+
+        if(next.tagName === "UL") {
+            const listItems = next.querySelectorAll("LI");
+
+            assert(listItems.length > 1);
+        } else {
+            assert(false);
+        }
+    }
+});
 ```
 
 Debes tener un elemento `h2` con el texto `Steps`.
@@ -102,10 +113,10 @@ Debes tener un elemento `h2` con el texto `Steps`.
 ```js
 const h2 = document.querySelectorAll('H2')[2];
 
-assert(h2.innerText == 'Steps');
+assert(h2?.innerText == 'Steps');
 ```
 
-Debes tener un `<ol>` con los pasos como los elementos de lista `<li>`.
+You should have an `ol` element that contains `li` elements with the steps of the recipe.
 
 ```js
 const orderedList = document.querySelectorAll('OL')[0];
@@ -119,25 +130,36 @@ Debes tener un elemento `h2` con el texto `More Recipes`.
 ```js
 const h2 = document.querySelectorAll('H2')[3];
 
-assert(h2.innerText == 'More Recipes');
+assert(h2?.innerText == 'More Recipes');
 ```
 
-Debes tener un elemento de lista desordenada `<ul>` con elementos de lista `<li>` que contienen etiquetas `<a>` que llevan a otras recetas.
+You should have an `ul` element nested with `li` elements that contain `a` elements that link to other recipes.
 
 ```js
-const unorderedList = document.querySelectorAll('UL')[1];
-const listItems = unorderedList.querySelectorAll('LI');
+const headers = document.querySelectorAll("h2");
 
-const allAreListItems = unorderedList.children.length == listItems.length;
+headers.forEach(header => {
+    if (header.textContent.trim() === "More Recipes") {
+        const next = header.nextElementSibling;
 
-const containsAnchors =  [...listItems].every(function(listItem) {
-  return listItem.querySelector("a") !== null;
+        if(next.tagName === "UL") {
+            const listItems = next.querySelectorAll("LI");
+
+            assert(listItems.length > 1);
+
+            listItems.forEach(listItem => {
+                const anchor = listItem.querySelector("A");
+
+                assert(anchor);
+            });
+        } else {
+            assert(false);
+        }
+    }
 });
-
-assert(unorderedList && allAreListItems && containsAnchors && listItems.length > 1);
 ```
 
-Tus etiquetas de ancla que enlazan a las recetas deben tener un atributo `href` con el valor `#`.
+Your anchor elements linking to the recipes should have an `href` attribute with the value set to `#`.
 
 ```js
 const anchorTags = document.querySelectorAll("a");

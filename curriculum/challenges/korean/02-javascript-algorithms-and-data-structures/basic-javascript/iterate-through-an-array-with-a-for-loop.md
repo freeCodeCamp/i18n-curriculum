@@ -2,7 +2,6 @@
 id: 5675e877dbd60be8ad28edc6
 title: For 루프로 배열 순환하기
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/caeR3HB'
 forumTopicId: 18216
 dashedName: iterate-through-an-array-with-a-for-loop
 ---

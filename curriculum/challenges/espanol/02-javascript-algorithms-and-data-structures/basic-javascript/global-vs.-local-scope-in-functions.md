@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244c0
 title: Ámbito global vs. local en funciones
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/c2QwKH2'
 forumTopicId: 18194
 dashedName: global-vs--local-scope-in-functions
 ---

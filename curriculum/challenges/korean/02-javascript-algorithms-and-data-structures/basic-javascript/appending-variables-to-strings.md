@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244ed
 title: 문자열에 변수 추가하기
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cbQmZfa'
 forumTopicId: 16656
 dashedName: appending-variables-to-strings
 ---

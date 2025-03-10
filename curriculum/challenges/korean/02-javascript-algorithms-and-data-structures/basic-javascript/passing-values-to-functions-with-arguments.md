@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244bd
 title: 인수를 사용해서 함수에 값을 전달하기
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cy8rahW'
 forumTopicId: 18254
 dashedName: passing-values-to-functions-with-arguments
 ---

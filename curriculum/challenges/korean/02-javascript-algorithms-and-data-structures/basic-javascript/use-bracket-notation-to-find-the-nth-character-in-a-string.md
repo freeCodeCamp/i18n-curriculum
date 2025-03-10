@@ -2,7 +2,6 @@
 id: bd7123c9c450eddfaeb5bdef
 title: 브라켓 표기법을 사용해서 문자열의 N번째 문자를 찾기
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cWPVJua'
 forumTopicId: 18343
 dashedName: use-bracket-notation-to-find-the-nth-character-in-a-string
 ---

@@ -2,7 +2,6 @@
 id: 56bbb991ad1ed5201cd392ca
 title: 인덱스로 배열의 데이터에 접근하기
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cBZQbTz'
 forumTopicId: 16158
 dashedName: access-array-data-with-indexes
 ---

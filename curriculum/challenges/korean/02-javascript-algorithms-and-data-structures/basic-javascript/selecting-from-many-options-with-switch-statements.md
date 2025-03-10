@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244dd
 title: Switch 문으로 여러 옵션에서 선택하기
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/c4mv4fm'
 forumTopicId: 18277
 dashedName: selecting-from-many-options-with-switch-statements
 ---

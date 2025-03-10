@@ -2,7 +2,6 @@
 id: cf1231c1c11feddfaeb5bdef
 title: Multiplica dos números con JavaScript
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cP3y3Aq'
 forumTopicId: 18243
 dashedName: multiply-two-numbers-with-javascript
 ---

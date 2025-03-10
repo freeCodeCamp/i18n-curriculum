@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244ad
 title: 자바스크립트를 이용해서 수치를 감소시키기
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cM2KeS2'
 forumTopicId: 17558
 dashedName: decrement-a-number-with-javascript
 ---

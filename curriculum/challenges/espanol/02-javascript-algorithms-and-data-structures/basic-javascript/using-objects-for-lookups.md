@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244ca
 title: Usa objetos para hacer búsquedas
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cdBk8sM'
 forumTopicId: 18373
 dashedName: using-objects-for-lookups
 ---

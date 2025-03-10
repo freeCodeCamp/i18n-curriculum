@@ -2,7 +2,6 @@
 id: cf1111c1c11feddfaeb3bdef
 title: JavaScript에서 2개의 숫자를 더하기
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cM2KBAG'
 forumTopicId: 16650
 dashedName: add-two-numbers-with-javascript
 ---

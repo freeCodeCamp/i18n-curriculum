@@ -2,7 +2,6 @@
 id: 56105e7b514f539506016a5e
 title: for 루프를 사용하여 거꾸로 세어보기
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/c2R6BHa'
 forumTopicId: 16808
 dashedName: count-backwards-with-a-for-loop
 ---

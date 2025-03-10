@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244cb
 title: 복잡한 객체 다루기
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/c9yNMfR'
 forumTopicId: 18208
 dashedName: manipulating-complex-objects
 ---

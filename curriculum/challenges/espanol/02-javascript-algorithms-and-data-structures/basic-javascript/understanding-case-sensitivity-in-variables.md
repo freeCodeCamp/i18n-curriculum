@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244ab
 title: Comprendiendo la sensibilidad de mayúsculas en las variables
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cd6GDcD'
 forumTopicId: 18334
 dashedName: understanding-case-sensitivity-in-variables
 ---

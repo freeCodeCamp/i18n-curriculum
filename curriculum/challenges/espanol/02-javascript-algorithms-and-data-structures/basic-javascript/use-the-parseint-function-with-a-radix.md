@@ -2,7 +2,6 @@
 id: 587d7b7e367417b2b2512b22
 title: Utiliza la función "parseInt" con Radix (Base)
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/c6K4Kh3'
 forumTopicId: 301182
 dashedName: use-the-parseint-function-with-a-radix
 ---

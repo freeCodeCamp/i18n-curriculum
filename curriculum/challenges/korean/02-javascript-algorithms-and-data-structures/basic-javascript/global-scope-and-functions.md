@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244be
 title: 글로벌(전역) 스코프(범위) 와 함수
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cQM7mCN'
 forumTopicId: 18193
 dashedName: global-scope-and-functions
 ---

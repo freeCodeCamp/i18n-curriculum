@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244cd
 title: 중첩 배열에 접근하기
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cLeGDtZ'
 forumTopicId: 16160
 dashedName: accessing-nested-arrays
 ---

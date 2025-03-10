@@ -2,7 +2,6 @@
 id: bd7123c9c444eddfaeb5bdef
 title: 문자열 변수를 선언하기
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/c2QvWU6'
 forumTopicId: 17557
 dashedName: declare-string-variables
 ---

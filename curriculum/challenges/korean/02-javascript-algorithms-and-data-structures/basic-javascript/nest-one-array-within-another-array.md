@@ -2,7 +2,6 @@
 id: cf1111c1c11feddfaeb7bdef
 title: 한 배열을 다른 배열 안에 중첩하기
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/crZQZf8'
 forumTopicId: 18247
 dashedName: nest-one-array-within-another-array
 ---

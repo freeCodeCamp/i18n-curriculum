@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244af
 title: 더하기를 추가해서 복합적으로 할당하기
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cDR6LCb'
 forumTopicId: 16661
 dashedName: compound-assignment-with-augmented-addition
 ---

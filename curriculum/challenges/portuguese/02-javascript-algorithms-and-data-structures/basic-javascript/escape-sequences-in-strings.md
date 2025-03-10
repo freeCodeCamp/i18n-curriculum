@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244b6
 title: Escapar sequências em strings
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cvmqRh6'
 forumTopicId: 17567
 dashedName: escape-sequences-in-strings
 ---

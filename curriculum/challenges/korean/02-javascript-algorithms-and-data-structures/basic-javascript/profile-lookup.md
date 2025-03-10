@@ -2,7 +2,6 @@
 id: 5688e62ea601b2482ff8422b
 title: 프로필 조회
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cDqW2Cg'
 forumTopicId: 18259
 dashedName: profile-lookup
 ---

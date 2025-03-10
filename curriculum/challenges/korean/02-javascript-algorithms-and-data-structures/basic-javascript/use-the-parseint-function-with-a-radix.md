@@ -2,7 +2,6 @@
 id: 587d7b7e367417b2b2512b22
 title: 진수와 함께 parseInt 함수 사용하기
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/c6K4Kh3'
 forumTopicId: 301182
 dashedName: use-the-parseint-function-with-a-radix
 ---

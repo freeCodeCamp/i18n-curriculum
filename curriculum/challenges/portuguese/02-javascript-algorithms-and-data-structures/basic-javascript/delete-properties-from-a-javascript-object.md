@@ -2,7 +2,6 @@
 id: 56bbb991ad1ed5201cd392d3
 title: Excluir propriedades de um objeto JavaScript
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cDqKdTv'
 forumTopicId: 17560
 dashedName: delete-properties-from-a-javascript-object
 ---

@@ -2,7 +2,6 @@
 id: cf1111c1c12feddfaeb2bdef
 title: 범위 내에서 무작위 정수 생성하기
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cm83yu6'
 forumTopicId: 18187
 dashedName: generate-random-whole-numbers-within-a-range
 ---

@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244d8
 title: 논리곱 연산자로 비교하기
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cvbRVtr'
 forumTopicId: 16799
 dashedName: comparisons-with-the-logical-and-operator
 ---

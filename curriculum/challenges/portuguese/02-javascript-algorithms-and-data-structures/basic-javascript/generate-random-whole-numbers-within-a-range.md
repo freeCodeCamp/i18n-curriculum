@@ -2,7 +2,6 @@
 id: cf1111c1c12feddfaeb2bdef
 title: Gerar números inteiros aleatórios dentro de um intervalo
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cm83yu6'
 forumTopicId: 18187
 dashedName: generate-random-whole-numbers-within-a-range
 ---
