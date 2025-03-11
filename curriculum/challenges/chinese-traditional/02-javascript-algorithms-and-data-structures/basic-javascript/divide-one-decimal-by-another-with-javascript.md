@@ -2,7 +2,6 @@
 id: bd7993c9ca9feddfaeb7bdef
 title: 兩個小數相除
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cBZe9AW'
 forumTopicId: 18255
 dashedName: divide-one-decimal-by-another-with-javascript
 ---

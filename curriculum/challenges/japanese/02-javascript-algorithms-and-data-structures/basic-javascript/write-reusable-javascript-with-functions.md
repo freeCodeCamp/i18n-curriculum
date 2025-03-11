@@ -2,7 +2,6 @@
 id: 56bbb991ad1ed5201cd392cf
 title: 関数を使用して再利用可能な JavaScript を記述する
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cL6dqfy'
 forumTopicId: 18378
 dashedName: write-reusable-javascript-with-functions
 ---

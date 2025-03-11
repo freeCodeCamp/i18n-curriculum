@@ -33,6 +33,12 @@ assert(
 );
 ```
 
+Your `h3` element should have a closing tag. Closing tags have a `/` just after the `<` character.
+
+```js
+assert.lengthOf(code.match(/<\/h3>/g), 1);
+```
+
 第二個 `section` 元素的結束標籤上方的 `h3` 元素應該包含文本 `Things cats love:`。 確保在文本末尾包含冒號。
 
 ```js

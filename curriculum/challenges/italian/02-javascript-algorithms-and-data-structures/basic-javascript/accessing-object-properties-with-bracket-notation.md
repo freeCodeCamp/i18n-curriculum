@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244c8
 title: Accedere alle proprietà dell'oggetto con la notazione a parentesi
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cBvmEHP'
 forumTopicId: 16163
 dashedName: accessing-object-properties-with-bracket-notation
 ---

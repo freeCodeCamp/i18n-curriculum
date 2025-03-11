@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244ab
 title: 瞭解變量名區分大小寫
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cd6GDcD'
 forumTopicId: 18334
 dashedName: understanding-case-sensitivity-in-variables
 ---

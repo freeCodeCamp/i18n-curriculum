@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244c9
 title: 通过变量访问对象属性
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cnQyKur'
 forumTopicId: 16165
 dashedName: accessing-object-properties-with-variables
 ---

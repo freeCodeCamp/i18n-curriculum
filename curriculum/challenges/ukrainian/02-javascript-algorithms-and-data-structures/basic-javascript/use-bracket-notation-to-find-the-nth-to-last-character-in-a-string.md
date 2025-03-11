@@ -2,7 +2,6 @@
 id: bd7123c9c452eddfaeb5bdef
 title: Дужкова нотація для пошуку n-го символа з кінця рядка
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cw4vkh9'
 forumTopicId: 18344
 dashedName: use-bracket-notation-to-find-the-nth-to-last-character-in-a-string
 ---

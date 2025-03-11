@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244df
 title: 在 Switch 語句添加多個相同選項
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cdBKWCV'
 forumTopicId: 18242
 dashedName: multiple-identical-options-in-switch-statements
 ---

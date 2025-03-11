@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244aa
 title: 初期化されていない変数について理解する
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cBa2JAL'
 forumTopicId: 18335
 dashedName: understanding-uninitialized-variables
 ---

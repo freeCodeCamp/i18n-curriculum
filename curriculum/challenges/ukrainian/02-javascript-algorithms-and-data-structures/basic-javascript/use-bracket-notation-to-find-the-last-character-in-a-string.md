@@ -2,7 +2,6 @@
 id: bd7123c9c451eddfaeb5bdef
 title: Дужкова нотація для пошуку останнього символа рядка
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cBZQGcv'
 forumTopicId: 18342
 dashedName: use-bracket-notation-to-find-the-last-character-in-a-string
 ---

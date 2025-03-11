@@ -2,7 +2,6 @@
 id: bd7123c9c444eddfaeb5bdef
 title: 文字列変数を宣言する
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/c2QvWU6'
 forumTopicId: 17557
 dashedName: declare-string-variables
 ---

@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244ca
 title: オブジェクトを使用して検索を行う
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cdBk8sM'
 forumTopicId: 18373
 dashedName: using-objects-for-lookups
 ---

@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244ba
 title: 文字列の不変性を理解する
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cWPVaUR'
 forumTopicId: 18331
 dashedName: understand-string-immutability
 ---

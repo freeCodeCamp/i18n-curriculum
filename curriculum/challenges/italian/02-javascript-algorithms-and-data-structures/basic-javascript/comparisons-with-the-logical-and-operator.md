@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244d8
 title: Confronti con l'operatore logico AND
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cvbRVtr'
 forumTopicId: 16799
 dashedName: comparisons-with-the-logical-and-operator
 ---

@@ -2,7 +2,6 @@
 id: bd7123c9c444eddfaeb5bdef
 title: 声明字符串变量
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/c2QvWU6'
 forumTopicId: 17557
 dashedName: declare-string-variables
 ---

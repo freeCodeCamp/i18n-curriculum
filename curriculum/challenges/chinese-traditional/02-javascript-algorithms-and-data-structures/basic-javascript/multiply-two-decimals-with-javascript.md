@@ -2,7 +2,6 @@
 id: bd7993c9c69feddfaeb7bdef
 title: 兩個小數相乘
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/ce2GeHq'
 forumTopicId: 301173
 dashedName: multiply-two-decimals-with-javascript
 ---

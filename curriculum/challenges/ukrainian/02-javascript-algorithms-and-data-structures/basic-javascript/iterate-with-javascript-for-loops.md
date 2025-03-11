@@ -2,7 +2,6 @@
 id: cf1111c1c11feddfaeb5bdef
 title: Ітерація з циклами for у JavaScript
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/c9yNVCe'
 forumTopicId: 18219
 dashedName: iterate-with-javascript-for-loops
 ---

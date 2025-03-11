@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244d7
 title: 小なりイコール演算子による比較
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cNVR7Am'
 forumTopicId: 16788
 dashedName: comparison-with-the-less-than-or-equal-to-operator
 ---

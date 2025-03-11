@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244d0
 title: 相等运算符
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cKyVMAL'
 forumTopicId: 16784
 dashedName: comparison-with-the-equality-operator
 ---

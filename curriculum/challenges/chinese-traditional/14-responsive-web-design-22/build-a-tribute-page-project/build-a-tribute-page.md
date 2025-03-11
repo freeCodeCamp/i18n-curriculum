@@ -8,11 +8,11 @@ dashedName: build-a-tribute-page
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to <a href="https://tribute-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://tribute-page.freecodecamp.rocks</a>. **請勿複製此演示項目**。
+**目標：** 構建一個應用，它在功能上類似於 <a href="https://tribute-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://tribute-page.freecodecamp.rocks</a>。 **請勿複製此演示項目**。
 
 **用戶需求:**
 
-1. Your tribute page should have a `main` element with a corresponding `id` of `main`, which contains all other elements
+1. 你的致敬頁應該包含一個 `id` 爲 `main` 的 `main` 元素，它包含所有其他元素。
 1. 你的頁面應該包含一個元素，它的屬性 `id` 值爲`title`,，元素中包含一個字符串（例如 text）描述致敬頁的主題（例如 "Dr. Norman Borlaug"）
 1. 你應該有一個 `id` 爲 `img-div` 的 `figure` 或 `div` 元素
 1. 在 `#img-div` 元素中，你應該看到一個 `id="image"` 的 `img` 元素

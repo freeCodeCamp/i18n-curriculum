@@ -2,7 +2,6 @@
 id: bd7993c9c69feddfaeb8bdef
 title: Speichern mehrerer Werte in einer Variablen mithilfe von JavaScript-Arrays
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/crZQWAm'
 forumTopicId: 18309
 dashedName: store-multiple-values-in-one-variable-using-javascript-arrays
 ---

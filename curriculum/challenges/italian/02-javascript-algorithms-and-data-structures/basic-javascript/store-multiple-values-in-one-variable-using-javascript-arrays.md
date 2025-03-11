@@ -2,7 +2,6 @@
 id: bd7993c9c69feddfaeb8bdef
 title: Memorizzare più valori in una variabile utilizzando gli array in JavaScript
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/crZQWAm'
 forumTopicId: 18309
 dashedName: store-multiple-values-in-one-variable-using-javascript-arrays
 ---

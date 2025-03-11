@@ -2,7 +2,6 @@
 id: 587d7b7e367417b2b2512b23
 title: parseInt 関数を使用する
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cm83LSW'
 forumTopicId: 301183
 dashedName: use-the-parseint-function
 ---

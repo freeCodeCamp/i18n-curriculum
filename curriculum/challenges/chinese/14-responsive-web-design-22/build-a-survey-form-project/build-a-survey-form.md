@@ -8,11 +8,11 @@ dashedName: build-a-survey-form
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to <a href="https://survey-form.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://survey-form.freecodecamp.rocks</a>. **请勿复制此演示项目**。
+**目标：** 构建一个应用，它在功能上类似于 <a href="https://survey-form.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://survey-form.freecodecamp.rocks</a>。 **请勿复制此演示项目**。
 
 **用户需求:**
 
-1. You should have a page title in an `h1` element with an `id` of `title`
+1. 你应该把页面标题放在 `h1` 元素中，`id` 为 `title`。
 1. 你应该有一个 `id` 为 `description` 的 `p` 元素
 1. 你应该有一个 `id` 为 `survey-form` 的 `form` 元素
 1. 在表单元素内，你**需要**在 `input` 字段中输入你的名字，该字段的 `id` 为 `name`，`type` 为 `text`

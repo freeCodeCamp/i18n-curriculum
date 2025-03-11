@@ -2,7 +2,6 @@
 id: 587d7b7e367417b2b2512b21
 title: 複数条件 (三項) 演算子を使用する
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cyWJBT4'
 forumTopicId: 301179
 dashedName: use-multiple-conditional-ternary-operators
 ---

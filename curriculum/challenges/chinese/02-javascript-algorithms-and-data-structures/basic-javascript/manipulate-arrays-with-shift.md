@@ -2,7 +2,6 @@
 id: 56bbb991ad1ed5201cd392cd
 title: 使用 shift 方法操作数组
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cRbVETW'
 forumTopicId: 18238
 dashedName: manipulate-arrays-with-shift
 ---

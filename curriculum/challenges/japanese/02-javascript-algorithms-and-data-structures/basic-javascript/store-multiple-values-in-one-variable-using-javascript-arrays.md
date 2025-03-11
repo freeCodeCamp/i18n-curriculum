@@ -2,7 +2,6 @@
 id: bd7993c9c69feddfaeb8bdef
 title: JavaScript の配列を使用して 1 つの変数に複数の値を格納する
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/crZQWAm'
 forumTopicId: 18309
 dashedName: store-multiple-values-in-one-variable-using-javascript-arrays
 ---

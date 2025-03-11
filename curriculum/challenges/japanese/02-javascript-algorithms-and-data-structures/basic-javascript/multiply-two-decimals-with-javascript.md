@@ -2,7 +2,6 @@
 id: bd7993c9c69feddfaeb7bdef
 title: JavaScript で 2 つの小数を掛け合わせる
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/ce2GeHq'
 forumTopicId: 301173
 dashedName: multiply-two-decimals-with-javascript
 ---

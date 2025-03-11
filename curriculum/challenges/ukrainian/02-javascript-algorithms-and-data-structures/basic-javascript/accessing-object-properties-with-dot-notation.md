@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244c7
 title: Доступ до властивостей об’єкту за допомогою точкової нотації
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cGryJs8'
 forumTopicId: 16164
 dashedName: accessing-object-properties-with-dot-notation
 ---

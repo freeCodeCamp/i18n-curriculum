@@ -2,7 +2,6 @@
 id: cf1111c1c11feddfaeb8bdef
 title: Ändern von Array-Daten mittels Indizes
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/czQM4A8'
 forumTopicId: 18241
 dashedName: modify-array-data-with-indexes
 ---

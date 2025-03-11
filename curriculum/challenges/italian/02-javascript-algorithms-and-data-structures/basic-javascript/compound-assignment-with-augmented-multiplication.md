@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244b1
 title: Assegnazione composta con moltiplicazione aumentata
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/c83vrfa'
 forumTopicId: 16662
 dashedName: compound-assignment-with-augmented-multiplication
 ---

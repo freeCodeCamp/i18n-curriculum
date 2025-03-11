@@ -2,7 +2,6 @@
 id: 565bbe00e9cc8ac0725390f4
 title: 21 點遊戲
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/c6KE7ty'
 forumTopicId: 16809
 dashedName: counting-cards
 ---

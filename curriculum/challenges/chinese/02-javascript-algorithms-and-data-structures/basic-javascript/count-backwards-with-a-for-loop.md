@@ -2,7 +2,6 @@
 id: 56105e7b514f539506016a5e
 title: 使用 For 循环反向遍历数组
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/c2R6BHa'
 forumTopicId: 16808
 dashedName: count-backwards-with-a-for-loop
 ---

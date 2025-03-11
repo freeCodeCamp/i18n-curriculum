@@ -2,7 +2,6 @@
 id: 5690307fddb111c6084545d7
 title: if else ステートメントの論理的順序
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cwNvMUV'
 forumTopicId: 18228
 dashedName: logical-order-in-if-else-statements
 ---

@@ -2,7 +2,6 @@
 id: bd7123c9c451eddfaeb5bdef
 title: 使用方括號查找字符串中的最後一個字符
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cBZQGcv'
 forumTopicId: 18342
 dashedName: use-bracket-notation-to-find-the-last-character-in-a-string
 ---

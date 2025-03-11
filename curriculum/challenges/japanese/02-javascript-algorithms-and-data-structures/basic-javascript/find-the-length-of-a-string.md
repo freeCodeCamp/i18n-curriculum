@@ -2,7 +2,6 @@
 id: bd7123c9c448eddfaeb5bdef
 title: 文字列の長さの取得
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cvmqEAd'
 forumTopicId: 18182
 dashedName: find-the-length-of-a-string
 ---

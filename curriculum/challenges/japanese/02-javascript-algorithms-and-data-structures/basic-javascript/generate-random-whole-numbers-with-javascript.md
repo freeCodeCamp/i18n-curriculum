@@ -2,7 +2,6 @@
 id: cf1111c1c12feddfaeb1bdef
 title: JavaScript で整数の乱数を生成する
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cRn6bfr'
 forumTopicId: 18186
 dashedName: generate-random-whole-numbers-with-javascript
 ---

@@ -2,7 +2,6 @@
 id: bd7123c9c451eddfaeb5bdef
 title: Verwendung der Klammer-Notation um das letzte Zeichen in einem String zu finden
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cBZQGcv'
 forumTopicId: 18342
 dashedName: use-bracket-notation-to-find-the-last-character-in-a-string
 ---

@@ -33,6 +33,12 @@ assert(
 );
 ```
 
+Your `h3` element should have a closing tag. Closing tags have a `/` just after the `<` character.
+
+```js
+assert.lengthOf(code.match(/<\/h3>/g), 1);
+```
+
 Елемент `h3` над кінцевим теґом другого елемента `section` повинен мати текст `Things cats love:`. Переконайтеся, що поставили двокрапку в кінці тексту.
 
 ```js
