@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244e0
 title: 用一个 Switch 语句来替代多个 if else 语句
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/c3JE8fy'
 forumTopicId: 18266
 dashedName: replacing-if-else-chains-with-switch
 ---

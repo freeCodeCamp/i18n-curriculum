@@ -2,7 +2,6 @@
 id: cf1111c1c11feddfaeb8bdef
 title: 通過索引修改數組中的數據
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/czQM4A8'
 forumTopicId: 18241
 dashedName: modify-array-data-with-indexes
 ---

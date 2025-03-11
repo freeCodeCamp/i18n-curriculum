@@ -33,6 +33,12 @@ assert(
 );
 ```
 
+Your `h3` element should have a closing tag. Closing tags have a `/` just after the `<` character.
+
+```js
+assert.lengthOf(code.match(/<\/h3>/g), 1);
+```
+
 L'elemento `h3` al di sopra del tag di chiusura dell'elemento `section` dovrebbe contenere il testo `Things cats love:`. Assicurati di includere i due punti alla fine del testo.
 
 ```js

@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244b7
 title: 用加号运算符连接字符串
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cNpM8AN'
 forumTopicId: 16802
 dashedName: concatenating-strings-with-plus-operator
 ---

@@ -2,7 +2,6 @@
 id: 5675e877dbd60be8ad28edc6
 title: for ループによる配列の繰り返し処理
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/caeR3HB'
 forumTopicId: 18216
 dashedName: iterate-through-an-array-with-a-for-loop
 ---

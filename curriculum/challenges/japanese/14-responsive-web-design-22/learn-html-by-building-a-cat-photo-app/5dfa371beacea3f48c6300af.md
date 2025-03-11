@@ -33,6 +33,12 @@ assert(
 );
 ```
 
+Your `h3` element should have a closing tag. Closing tags have a `/` just after the `<` character.
+
+```js
+assert.lengthOf(code.match(/<\/h3>/g), 1);
+```
+
 2 つ目の `section` 要素の終了タグのすぐ上にある `h3` 要素は、`Things cats love:` というテキストを持つ必要があります。 テキストの終わりのコロンを必ず含めてください。
 
 ```js

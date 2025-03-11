@@ -2,7 +2,6 @@
 id: cf1111c1c11feddfaeb1bdef
 title: Iterare con il ciclo While in Javascript
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/c8QbnCM'
 forumTopicId: 18220
 dashedName: iterate-with-javascript-while-loops
 ---

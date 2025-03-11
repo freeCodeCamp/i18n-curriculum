@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244dd
 title: 使用 Switch 语句从许多选项中进行选择
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/c4mv4fm'
 forumTopicId: 18277
 dashedName: selecting-from-many-options-with-switch-statements
 ---

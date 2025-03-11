@@ -2,7 +2,6 @@
 id: bd7123c9c452eddfaeb5bdef
 title: Verwendung der Klammer-Notation um das n-te bis letzte Zeichen in einem String zu finden
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cw4vkh9'
 forumTopicId: 18344
 dashedName: use-bracket-notation-to-find-the-nth-to-last-character-in-a-string
 ---

@@ -2,7 +2,6 @@
 id: 56bbb991ad1ed5201cd392cd
 title: Маніпулювання масивами за допомогою методу shift
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cRbVETW'
 forumTopicId: 18238
 dashedName: manipulate-arrays-with-shift
 ---

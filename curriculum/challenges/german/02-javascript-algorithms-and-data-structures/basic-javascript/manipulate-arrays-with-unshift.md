@@ -2,7 +2,6 @@
 id: 56bbb991ad1ed5201cd392ce
 title: Arrays mit der unshift-Methode manipulieren
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/ckNDESv'
 forumTopicId: 18239
 dashedName: manipulate-arrays-with-unshift
 ---

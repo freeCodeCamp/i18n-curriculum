@@ -2,7 +2,6 @@
 id: bd7123c9c452eddfaeb5bdef
 title: 使用方括號查找字符串中的倒數第 N 個字符
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cw4vkh9'
 forumTopicId: 18344
 dashedName: use-bracket-notation-to-find-the-nth-to-last-character-in-a-string
 ---

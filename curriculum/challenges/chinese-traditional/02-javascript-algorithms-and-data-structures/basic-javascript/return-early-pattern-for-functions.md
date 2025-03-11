@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244c4
 title: 函數執行到 return 語句就結束
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cQe39Sq'
 forumTopicId: 18272
 dashedName: return-early-pattern-for-functions
 ---

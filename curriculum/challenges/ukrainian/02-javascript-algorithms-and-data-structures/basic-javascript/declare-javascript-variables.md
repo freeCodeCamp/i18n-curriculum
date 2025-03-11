@@ -2,7 +2,6 @@
 id: bd7123c9c443eddfaeb5bdef
 title: Оголошення змінних JavaScript
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cNanrHq'
 forumTopicId: 17556
 dashedName: declare-javascript-variables
 ---

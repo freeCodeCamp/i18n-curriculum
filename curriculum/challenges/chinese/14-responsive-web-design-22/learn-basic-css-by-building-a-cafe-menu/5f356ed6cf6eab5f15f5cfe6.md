@@ -7,7 +7,7 @@ dashedName: step-20
 
 # --description--
 
-The `div` element is used mainly for design layout purposes unlike the other content elements you have used so far. Add a `div` element inside the `body` element and then move all the other elements inside the new `div`.
+`div` 元素主要用于设计布局，这与你迄今为止使用的其他内容元素不同。 在 `body` 元素内添加一个 `div` 元素，然后将所有其他元素移到新的 `div` 内。
 
 在 `div` 开始标签中，添加一个值为 `menu` 的 `id` 属性。
 
@@ -37,7 +37,7 @@ assert.lengthOf(document.querySelectorAll('body'), 1);
 assert.equal(document.querySelector('div')?.parentElement?.tagName, 'BODY');
 ```
 
-You should move all the other elements inside the new `div`.
+你应该将所有其他元素都移动到新的 `div`元素 中。
 
 ```js
 assert.lengthOf(document.querySelector('body > div#menu > main')?.children, 3);

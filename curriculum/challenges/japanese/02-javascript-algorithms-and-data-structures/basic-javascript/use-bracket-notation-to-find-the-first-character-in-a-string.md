@@ -2,7 +2,6 @@
 id: bd7123c9c549eddfaeb5bdef
 title: ブラケット記法を使用して文字列の最初の文字を取得する
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/ca8JwhW'
 forumTopicId: 18341
 dashedName: use-bracket-notation-to-find-the-first-character-in-a-string
 ---

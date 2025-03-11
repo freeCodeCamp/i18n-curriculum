@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244e1
 title: Вкладення циклів for
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cRn6GHM'
 forumTopicId: 18248
 dashedName: nesting-for-loops
 ---

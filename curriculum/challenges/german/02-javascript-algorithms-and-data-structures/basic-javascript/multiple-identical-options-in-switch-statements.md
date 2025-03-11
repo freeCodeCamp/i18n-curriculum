@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244df
 title: Mehrere identische Optionen in switch-Anweisungen
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cdBKWCV'
 forumTopicId: 18242
 dashedName: multiple-identical-options-in-switch-statements
 ---

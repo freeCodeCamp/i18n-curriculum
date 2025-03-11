@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244cd
 title: ネストされた配列へのアクセス
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cLeGDtZ'
 forumTopicId: 16160
 dashedName: accessing-nested-arrays
 ---

@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244ab
 title: Comprendere la distinzione tra maiuscole e minuscole nelle variabili
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cd6GDcD'
 forumTopicId: 18334
 dashedName: understanding-case-sensitivity-in-variables
 ---

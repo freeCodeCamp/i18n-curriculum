@@ -2,7 +2,6 @@
 id: bd7123c9c452eddfaeb5bdef
 title: Usare la notazione parentesi per trovare l'n-ultimo carattere dalla fine di una stringa
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cw4vkh9'
 forumTopicId: 18344
 dashedName: use-bracket-notation-to-find-the-nth-to-last-character-in-a-string
 ---

@@ -2,7 +2,6 @@
 id: cf1391c1c11feddfaeb4bdef
 title: JavaScript で小数を作成する
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/ca8GEuW'
 forumTopicId: 16826
 dashedName: create-decimal-numbers-with-javascript
 ---

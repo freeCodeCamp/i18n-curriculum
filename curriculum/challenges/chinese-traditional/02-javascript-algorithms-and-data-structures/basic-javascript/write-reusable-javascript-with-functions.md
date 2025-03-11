@@ -2,7 +2,6 @@
 id: 56bbb991ad1ed5201cd392cf
 title: 用函數編寫可重用代碼
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cL6dqfy'
 forumTopicId: 18378
 dashedName: write-reusable-javascript-with-functions
 ---

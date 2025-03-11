@@ -2,7 +2,6 @@
 id: bd7123c9c549eddfaeb5bdef
 title: 使用方括號查找字符串中的第一個字符
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/ca8JwhW'
 forumTopicId: 18341
 dashedName: use-bracket-notation-to-find-the-first-character-in-a-string
 ---

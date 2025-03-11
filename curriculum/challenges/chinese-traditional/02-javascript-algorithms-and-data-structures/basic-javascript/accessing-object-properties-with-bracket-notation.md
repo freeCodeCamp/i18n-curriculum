@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244c8
 title: 使用方括號表示法訪問對象屬性
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cBvmEHP'
 forumTopicId: 16163
 dashedName: accessing-object-properties-with-bracket-notation
 ---

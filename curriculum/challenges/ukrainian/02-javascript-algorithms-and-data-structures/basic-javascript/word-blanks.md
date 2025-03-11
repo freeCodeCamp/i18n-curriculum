@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244bb
 title: Пропуски у словах
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/caqn8zuP'
 forumTopicId: 18377
 dashedName: word-blanks
 ---

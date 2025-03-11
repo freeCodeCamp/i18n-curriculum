@@ -33,6 +33,12 @@ assert(
 );
 ```
 
+Your `h3` element should have a closing tag. Closing tags have a `/` just after the `<` character.
+
+```js
+assert.lengthOf(code.match(/<\/h3>/g), 1);
+```
+
 Kipengele cha `h3` kilicho juu ya tagi ya kufunga ya `section` ya pili kinapaswa kuwa na maandishi `Things cats love:`. Hakikisha umejumuisha koloni mwishoni mwa maandishi.
 
 ```js

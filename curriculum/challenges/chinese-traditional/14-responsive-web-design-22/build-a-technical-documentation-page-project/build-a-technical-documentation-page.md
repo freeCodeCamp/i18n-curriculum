@@ -8,11 +8,11 @@ dashedName: build-a-technical-documentation-page
 
 # --description--
 
-**Objective:** Build an app that is functionally similar to <a href="https://technical-documentation-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://technical-documentation-page.freecodecamp.rocks</a>. **請勿複製此演示項目**。
+**目標：** 構建一個應用，它在功能上類似於 <a href="https://technical-documentation-page.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://technical-documentation-page.freecodecamp.rocks</a>。 **請勿複製此演示項目**。
 
 **用戶需求:**
 
-1. You can see a `main` element with a corresponding `id="main-doc"`, which contains the page's main content (technical documentation)
+1. 你能看見一個 `id="main-doc"` 的 `main`元素，它包含頁面的主要內容（技術文檔）。
 1. 在 `#main-doc` 元素內，我能看見至少 5 個 `section` 元素，每個元素都有一個 class 爲 `main-section`。 應存在至少 5 個這樣的元素。
 1. 每個 `.main-section` 中的第一個元素應該是 `header` 元素，其中包含描述該部分主題的文本。
 1. class 爲 `main-section` 的每個 `section` 元素應該有一個與包含在其中的每個 `header` 的文本相對應的 `id`。 所有空格都應該被替換爲下劃線（例如，包含標題 “JavaScript and Java” 的 section 應有一個相應的 `id="JavaScript_and_Java"`）。

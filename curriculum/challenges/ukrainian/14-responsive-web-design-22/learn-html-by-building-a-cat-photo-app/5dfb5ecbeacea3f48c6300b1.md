@@ -35,7 +35,7 @@ assert.lengthOf(document.querySelectorAll('li'),3)
 assert.lengthOf(code.match(/<\/li\>/g),3);
 ```
 
-You should have three `li` elements with the text `catnip`, `laser pointers` and `lasagna` in any order. Ви або не написали текст, або маєте друкарську помилку.
+У вас мають бути три елементи `li` з текстом `catnip`, `laser pointers` та `lasagna` у будь-якому порядку. Ви або не написали текст, або маєте друкарську помилку.
 
 ```js
 assert.deepStrictEqual(

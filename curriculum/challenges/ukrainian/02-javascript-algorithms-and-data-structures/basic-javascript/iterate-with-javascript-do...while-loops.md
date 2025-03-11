@@ -2,7 +2,6 @@
 id: 5a2efd662fb457916e1fe604
 title: Ітерація з циклами do...while у JavaScript
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cDqWGcp'
 forumTopicId: 301172
 dashedName: iterate-with-javascript-do---while-loops
 ---

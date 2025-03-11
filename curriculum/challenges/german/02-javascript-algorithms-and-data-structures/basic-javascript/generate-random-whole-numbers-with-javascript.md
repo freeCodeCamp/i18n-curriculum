@@ -2,7 +2,6 @@
 id: cf1111c1c12feddfaeb1bdef
 title: Zufällige Ganzzahlen mit JavaScript generieren
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cRn6bfr'
 forumTopicId: 18186
 dashedName: generate-random-whole-numbers-with-javascript
 ---

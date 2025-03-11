@@ -2,7 +2,6 @@
 id: bd7123c9c452eddfaeb5bdef
 title: ブラケット記法を使用して文字列の最後から N 番目の文字を取得する
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cw4vkh9'
 forumTopicId: 18344
 dashedName: use-bracket-notation-to-find-the-nth-to-last-character-in-a-string
 ---

@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244a9
 title: 代入演算子で変数を初期化する
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cWJ4Bfb'
 forumTopicId: 301171
 dashedName: initializing-variables-with-the-assignment-operator
 ---

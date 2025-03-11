@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244b9
 title: Створення рядків зі змінними
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cqk8rf4'
 forumTopicId: 16805
 dashedName: constructing-strings-with-variables
 ---

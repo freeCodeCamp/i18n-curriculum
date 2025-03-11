@@ -2,7 +2,6 @@
 id: bd7993c9c69feddfaeb8bdef
 title: 使用 JavaScript 数组将多个值存储在一个变量中
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/crZQWAm'
 forumTopicId: 18309
 dashedName: store-multiple-values-in-one-variable-using-javascript-arrays
 ---

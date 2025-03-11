@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244dd
 title: Auswahl aus vielen Optionen mit switch-Anweisungen
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/c4mv4fm'
 forumTopicId: 18277
 dashedName: selecting-from-many-options-with-switch-statements
 ---

@@ -2,7 +2,6 @@
 id: 56533eb9ac21ba0edf2244cb
 title: 操作复杂对象
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/c9yNMfR'
 forumTopicId: 18208
 dashedName: manipulating-complex-objects
 ---

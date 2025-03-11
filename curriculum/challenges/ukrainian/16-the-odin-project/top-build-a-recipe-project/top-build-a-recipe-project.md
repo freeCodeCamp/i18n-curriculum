@@ -47,13 +47,13 @@ assert(html && head && body);
 Ви повинні мати елемент `title` з елементом `head`, який містить текст `The Odin Recipes`.
 
 ```js
-assert(document.querySelectorAll('HEAD > TITLE')[0].innerText == 'The Odin Recipes');
+assert(document.querySelectorAll('HEAD > TITLE')[0]?.innerText == 'The Odin Recipes');
 ```
 
 Ви повинні мати елемент `h1` в межах елемента `body`, який містить текст `Creamy Chocolate Fudge`.
 
 ```js
-assert(document.querySelectorAll('BODY > H1')[0].innerText == 'Creamy Chocolate Fudge');
+assert(document.querySelectorAll('BODY > H1')[0]?.innerText == 'Creamy Chocolate Fudge');
 ```
 
 Ви повинні мати зображення з атрибутом `alt`.
@@ -69,7 +69,7 @@ assert(img && img.alt !='' && img.src != '')
 ```js
 const h2 = document.querySelectorAll('H2')[0];
 
-assert(h2.innerText == 'Description');
+assert(h2?.innerText == 'Description');
 ```
 
 Ви повинні мати принаймні два елементи `p` з описом рецепту.
@@ -77,7 +77,7 @@ assert(h2.innerText == 'Description');
 ```js
 const paragraphs = document.querySelectorAll('P');
 
-assert(paragraphs.length > 1);
+assert(paragraphs?.length > 1);
 ```
 
 Ви повинні мати елемент `h2` з текстом `Ingredients`.
@@ -85,16 +85,27 @@ assert(paragraphs.length > 1);
 ```js
 const h2 = document.querySelectorAll('H2')[1];
 
-assert(h2.innerText == 'Ingredients');
+assert(h2?.innerText == 'Ingredients');
 ```
 
-Ви повинні мати невпорядкований список `<ul>` з декількома інгредієнтами у вигляді елементів списку `<li>`.
+You should have an `ul` element nested with `li` elements that contain the ingredients.
 
 ```js
-const unorderedList = document.querySelectorAll('UL')[0];
-const listItems = document.querySelectorAll('UL > LI');
+const headers = document.querySelectorAll("h2");
 
-assert(unorderedList && listItems && listItems.length > 1);
+headers.forEach(header => {
+    if (header.textContent.trim() === "Ingredients") {
+        const next = header.nextElementSibling;
+
+        if(next.tagName === "UL") {
+            const listItems = next.querySelectorAll("LI");
+
+            assert(listItems.length > 1);
+        } else {
+            assert(false);
+        }
+    }
+});
 ```
 
 Ви повинні мати елемент `h2` з текстом `Steps`.
@@ -102,10 +113,10 @@ assert(unorderedList && listItems && listItems.length > 1);
 ```js
 const h2 = document.querySelectorAll('H2')[2];
 
-assert(h2.innerText == 'Steps');
+assert(h2?.innerText == 'Steps');
 ```
 
-Ви повинні мати `<ol>` з кроками як елементи списку `<li>`.
+You should have an `ol` element that contains `li` elements with the steps of the recipe.
 
 ```js
 const orderedList = document.querySelectorAll('OL')[0];
@@ -119,25 +130,36 @@ assert(orderedList && listItems && listItems.length > 1);
 ```js
 const h2 = document.querySelectorAll('H2')[3];
 
-assert(h2.innerText == 'More Recipes');
+assert(h2?.innerText == 'More Recipes');
 ```
 
-Ви повинні мати елемент невпорядкованого списку `<ul>` з елементами списку `<li>`, які містять теги `<a>`, що ведуть до інших рецептів.
+You should have an `ul` element nested with `li` elements that contain `a` elements that link to other recipes.
 
 ```js
-const unorderedList = document.querySelectorAll('UL')[1];
-const listItems = unorderedList.querySelectorAll('LI');
+const headers = document.querySelectorAll("h2");
 
-const allAreListItems = unorderedList.children.length == listItems.length;
+headers.forEach(header => {
+    if (header.textContent.trim() === "More Recipes") {
+        const next = header.nextElementSibling;
 
-const containsAnchors =  [...listItems].every(function(listItem) {
-  return listItem.querySelector("a") !== null;
+        if(next.tagName === "UL") {
+            const listItems = next.querySelectorAll("LI");
+
+            assert(listItems.length > 1);
+
+            listItems.forEach(listItem => {
+                const anchor = listItem.querySelector("A");
+
+                assert(anchor);
+            });
+        } else {
+            assert(false);
+        }
+    }
 });
-
-assert(unorderedList && allAreListItems && containsAnchors && listItems.length > 1);
 ```
 
-Теги посилання, що ведуть до рецептів, повинні мати атрибут `href` зі значенням `#`.
+Your anchor elements linking to the recipes should have an `href` attribute with the value set to `#`.
 
 ```js
 const anchorTags = document.querySelectorAll("a");

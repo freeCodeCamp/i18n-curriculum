@@ -2,7 +2,6 @@
 id: 5a2efd662fb457916e1fe604
 title: JavaScript の do...while ループによる繰り返し処理
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/cDqWGcp'
 forumTopicId: 301172
 dashedName: iterate-with-javascript-do---while-loops
 ---

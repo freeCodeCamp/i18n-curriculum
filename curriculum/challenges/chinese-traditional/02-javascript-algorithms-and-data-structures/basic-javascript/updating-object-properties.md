@@ -2,7 +2,6 @@
 id: 56bbb991ad1ed5201cd392d1
 title: 更新對象屬性
 challengeType: 1
-videoUrl: 'https://scrimba.com/c/c9yEJT4'
 forumTopicId: 18336
 dashedName: updating-object-properties
 ---
