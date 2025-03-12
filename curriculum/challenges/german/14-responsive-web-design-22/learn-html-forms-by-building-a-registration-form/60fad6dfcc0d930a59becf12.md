@@ -9,7 +9,7 @@ dashedName: step-43
 
 Der HTML-Code für das Anmeldeformular ist abgeschlossen. Jetzt kannst du es ein bisschen verschönern.
 
-Start by adding `Tahoma` as the font with a font size of `16px` in the `body` selector.
+Beginne, indem du `Tahoma` als Schriftart mit einer Schriftgröße von `16px` in dem `body` Selektor festlegst.
 
 # --hints--
 

@@ -33,7 +33,7 @@ assert(
 );
 ```
 
-Your `h3` element should have a closing tag. Closing tags have a `/` just after the `<` character.
+Dein `h3`-Element sollte ein abschließendes Tag enthalten. Schließende Tags haben ein `/` direkt nach dem `<` Zeichen.
 
 ```js
 assert.lengthOf(code.match(/<\/h3>/g), 1);
