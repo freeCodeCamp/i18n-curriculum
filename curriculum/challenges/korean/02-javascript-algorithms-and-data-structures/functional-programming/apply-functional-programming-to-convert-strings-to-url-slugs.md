@@ -8,7 +8,7 @@ dashedName: apply-functional-programming-to-convert-strings-to-url-slugs
 
 # --description--
 
-The last several challenges covered a number of useful array and string methods that follow functional programming principles. We've also learned about `reduce`, which is a powerful method used to reduce problems to simpler forms. From computing averages to sorting, any array operation can be achieved by applying it. Recall that `map` and `filter` are special cases of `reduce`.
+이전 몇몇 과제에서 함수형 프로그래밍의 원칙을 따르는 유용한 배열 및 문자열 메소드를 다뤘습니다. 문제들을 간단한 형태로 줄여주기 위해 사용하는 `reduce`도 알아봤습니다. From computing averages to sorting, any array operation can be achieved by applying it. Recall that `map` and `filter` are special cases of `reduce`.
 
 실제 문제를 해결하기 위해 배운 것을 조합해보겠습니다.
 

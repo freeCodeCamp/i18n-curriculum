@@ -8,7 +8,7 @@ dashedName: access-property-names-with-bracket-notation
 
 # --description--
 
-In the first object challenge we mentioned the use of bracket notation as a way to access property values using the evaluation of a variable. For instance, imagine that our `foods` object is being used in a program for a supermarket cash register. We have some function that sets the `selectedFood` and we want to check our `foods` object for the presence of that food. This might look like:
+첫 번째 객체 챌린지에서 변수의 값을 평가하는 방법을 사용하여 객체 속성에 접근하는 대괄호 표기법에 대해서 알아봤습니다. 예를 들어, 아래 `foods` 객체가 슈퍼마켓 계산대 프로그램에서 사용되고 있다고 가정해 보세요. 우리에게는 `selectedFood`를 설정하는 함수가 있고, 해당 음식이 `foods` 객체에 있는지 확인하려고 합니다. 이렇게 보일 것 입니다:
 
 ```js
 let selectedFood = getCurrentFood(scannedItem);

@@ -1,6 +1,6 @@
 ---
 id: 587d7db3367417b2b2512b8e
-title: Using the Test Method
+title: 테스트 메서드 사용
 challengeType: 1
 forumTopicId: 301369
 dashedName: using-the-test-method
@@ -8,11 +8,11 @@ dashedName: using-the-test-method
 
 # --description--
 
-Regular expressions are used in programming languages to match parts of strings. You create patterns to help you do that matching.
+정규 표현식은 프로그래밍 언어에서 문자열의 일부분을 찾기 위해 사용됩니다. 패턴을 만들어서 그 작업을 돕습니다.
 
-If you want to find the word `the` in the string `The dog chased the cat`, you could use the following regular expression: `/the/`. Notice that quote marks are not required within the regular expression.
+문자열 `The dog chased the cat`에서 `the` 단어를 찾고 싶다면 다음과 같은 정규 표현식을 사용할 수 있습니다: `/the/`. 정규 표현식 내에 인용 부호는 필요하지 않습니다.
 
-JavaScript has multiple ways to use regexes. One way to test a regex is using the `.test()` method. The `.test()` method takes the regex, applies it to a string (which is placed inside the parentheses), and returns `true` or `false` if your pattern finds something or not.
+자바스크립트는 여러 가지 방법으로 정규 표현식을 사용할 수 있습니다. 정규 표현식을 테스트하는 한 가지 방법은 `.test()` 메소드를 사용하는 것입니다. `.test()` 메서드는 정규 표현식을 받아서 이를 문자열(괄호 안에 위치)에 적용하고, 패턴이 어떤 것을 찾았는지에 따라 `true` 또는 `false`를 반환합니다.
 
 ```js
 let testStr = "freeCodeCamp";
@@ -20,21 +20,21 @@ let testRegex = /Code/;
 testRegex.test(testStr);
 ```
 
-The `test` method here returns `true`.
+여기에서는 `test` 메서드가 `true`를 반환합니다.
 
 # --instructions--
 
-Apply the regex `myRegex` on the string `myString` using the `.test()` method.
+문자열 `myString`에 `myRegex` 정규 표현식을 `.test()` 메서드를 사용하여 적용하십시오.
 
 # --hints--
 
-You should use `.test()` to test the regex.
+정규 표현식을 테스트하기 위해 `.test()`를 사용해야 합니다.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/myRegex.test\(\s*myString\s*\)/));
 ```
 
-Your result should return `true`.
+결과는 `true`를 반환해야 합니다.
 
 ```js
 assert(result === true);
