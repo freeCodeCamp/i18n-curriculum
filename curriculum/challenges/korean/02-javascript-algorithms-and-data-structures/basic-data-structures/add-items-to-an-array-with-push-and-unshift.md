@@ -8,7 +8,7 @@ dashedName: add-items-to-an-array-with-push-and-unshift
 
 # --description--
 
-An array's length, like the data types it can contain, is not fixed. Arrays can be defined with a length of any number of elements, and elements can be added or removed over time; in other words, arrays are <dfn>mutable</dfn>. In this challenge, we will look at two methods with which we can programmatically modify an array: `Array.push()` and `Array.unshift()`.
+배열이 여러 데이터 타입을 넣을 수 있는 것처럼, 배열의 길이는 고정되어 있지 않습니다. 배열은 요소의 개수와 관계없이 정의할 수 있고, 나중에 요소를 추가하거나 삭제할 수도 있습니다. 다시 말해, 배열은 <dfn>mutable</dfn> 합니다. 즉, 만든 후 배열을 변경할 수 있습니다. 이번 챌린지에서는 배열을 프로그래밍적으로 수정할 수 있는 두 가지 메서드, `Array.push()`와 `Array.unshift()`를 살펴보겠습니다.
 
 두 메서드 모두 하나 이상의 요소를 매개변수로 받아 그 요소를 호출된 메서드가 있는 배열에 추가합니다. `push()` 메서드는 배열의 끝에 요소를 추가하고, `unshift()` 메서드는 배열의 시작에 요소를 추가합니다. 아래 코드를 참고하세요.
 

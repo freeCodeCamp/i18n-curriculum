@@ -95,7 +95,7 @@ const el = document.getElementById('purchase-btn');
 assert.strictEqual(el?.nodeName?.toLowerCase(), 'button');
 ```
 
-当 `price` 为 `20`、`#cash` 元素中的值为 `10` 时，应该出现提示，文本为 `"Customer does not have enough money to purchase the item"`。
+When `price` is `20`, the value in the `#cash` element is `10`, and the `#purchase-btn` element is clicked, an alert should appear with the text `"Customer does not have enough money to purchase the item"`.
 
 ```js
 const cashInput = document.getElementById('cash');
@@ -118,7 +118,7 @@ assert.strictEqual(
 );
 ```
 
-当 `#cash` 元素中的值小于 `price`，应该出现提示，文本为 `"Customer does not have enough money to purchase the item"`。
+When the value in the `#cash` element is less than `price`, and the `#purchase-btn` element is clicked, an alert should appear with the text `"Customer does not have enough money to purchase the item"`.
 
 ```js
 const cashInput = document.getElementById('cash');
@@ -155,7 +155,7 @@ assert.strictEqual(
 );
 ```
 
-当 `price` 为 `11.95`、`#cash` 元素中的值为 `11.95` 时，`#change-due` 元素中的值应该是 `"No change due - customer paid with exact cash"`。
+When `price` is `11.95`, the value in the `#cash` element is `11.95`, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"No change due - customer paid with exact cash"`.
 
 ```js
 const cashInput = document.getElementById('cash');
@@ -177,7 +177,7 @@ assert.strictEqual(
 );
 ```
 
-当 `#cash` 元素中的值等于 `price` 时，`#change-due` 元素中的值应该是 `"No change due - customer paid with exact cash"`。
+When the value in the `#cash` element is equal to `price`, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"No change due - customer paid with exact cash"`.
 
 ```js
 const cashInput = document.getElementById('cash');

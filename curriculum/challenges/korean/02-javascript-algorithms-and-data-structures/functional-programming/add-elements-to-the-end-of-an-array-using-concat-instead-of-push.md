@@ -8,7 +8,7 @@ dashedName: add-elements-to-the-end-of-an-array-using-concat-instead-of-push
 
 # --description--
 
-Functional programming is all about creating and using non-mutating functions.
+함수형 프로그래밍은 불변 함수를 생성하고 사용하는 것이라 할 수 있습니다.
 
 이전 과제에서 배열의 원형을 변형하지 않고 배열을 합치는 방법으로 `concat` 메소드를 소개했습니다. `concat`를 `push` 메소드와 비교해보겠습니다. `push`는 메소드가 호출되는 배열의 끝에 아이템을 추가하는데 이는 해당 배열을 변형시킵니다. 여기 예시가 있습니다.
 

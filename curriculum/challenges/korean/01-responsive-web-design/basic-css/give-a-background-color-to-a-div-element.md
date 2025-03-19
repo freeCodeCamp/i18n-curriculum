@@ -25,7 +25,7 @@ dashedName: give-a-background-color-to-a-div-element
 
 # --hints--
 
-`div` 요소에는 `silver-background` 클래스가 있어야 합니다.
+Your `div` element should have the class `silver-background`.
 
 ```js
 assert.isTrue(document.querySelector('div').classList.contains('silver-background'));

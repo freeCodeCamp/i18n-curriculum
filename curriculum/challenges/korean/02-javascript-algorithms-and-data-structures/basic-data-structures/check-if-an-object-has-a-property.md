@@ -8,7 +8,7 @@ dashedName: check-if-an-object-has-a-property
 
 # --description--
 
-Now we can add, modify, and remove keys from objects. But what if we just wanted to know if an object has a specific property? JavaScript provides us with two different ways to do this. One uses the `hasOwnProperty()` method and the other uses the `in` keyword. If we have an object `users` with a property of `Alan`, we could check for its presence in either of the following ways:
+이제 객체에 키를 추가하고 수정하고 제거할 수 있습니다. 그러나 객체가 특정 속성을 가지고 있는지 알고 싶은 경우에는 어떻게 할까요? 이를 위해서 자바스크립트는 두 가지 다른 방법을 제공합니다. 하나는 `hasOwnProperty()` 메서드를 사용하고 다른 하나는 `in` 키워드를 사용합니다. `Alan`이라는 속성을 가진 `users` 객체가 있다면 다음 두 가지 방법 중 하나로 그 존재 여부를 확인할 수 있습니다.
 
 ```js
 users.hasOwnProperty('Alan');

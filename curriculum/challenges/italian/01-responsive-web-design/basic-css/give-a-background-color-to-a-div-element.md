@@ -25,7 +25,7 @@ Crea una classe chiamata `silver-background` con il `background-color` di `silve
 
 # --hints--
 
-Il tuo elemento `div` dovrebbe avere la classe `silver-background`.
+Your `div` element should have the class `silver-background`.
 
 ```js
 assert.isTrue(document.querySelector('div').classList.contains('silver-background'));

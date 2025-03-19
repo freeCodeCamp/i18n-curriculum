@@ -25,7 +25,7 @@ You can set an element's background color with the `background-color` property.
 
 # --hints--
 
-`div` 元素應有 `silver-background` class。
+Your `div` element should have the class `silver-background`.
 
 ```js
 assert.isTrue(document.querySelector('div').classList.contains('silver-background'));
