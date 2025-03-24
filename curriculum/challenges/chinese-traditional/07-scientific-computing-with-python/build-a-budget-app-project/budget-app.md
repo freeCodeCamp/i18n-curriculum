@@ -47,7 +47,7 @@ Total: 923.96
 
 除了 `Category` 類之外，創建一個名爲 `create_spend_chart` 的函數（在類之外），它將類別列表作爲參數。 它應該返回一個作爲條形圖的字符串。
 
-該圖表應顯示在傳遞給函數的每個類別中花費的百分比。 花費的百分比應該只計算取款而不是存款。 圖表左側應該是標籤 0 - 100。 The 'bars' in the bar chart should be made out of the 'o' character. 每個條形的高度應四捨五入到最接近的 10。 條形圖下面的水平線應該超過最後一個條形圖再多兩個空格。 每個類別名稱應垂直寫在欄下方。 There should be a title at the top that says 'Percentage spent by category'.
+該圖表應顯示在傳遞給函數的每個類別中花費的百分比。 The percentage spent should be calculated only with withdrawals and not with deposits, and it should be the percentage of the amount spent for each category to the total spent for all categories. 圖表左側應該是標籤 0 - 100。 The 'bars' in the bar chart should be made out of the 'o' character. 每個條形的高度應四捨五入到最接近的 10。 條形圖下面的水平線應該超過最後一個條形圖再多兩個空格。 每個類別名稱應垂直寫在欄下方。 There should be a title at the top that says 'Percentage spent by category'.
 
 此功能將使用最多四個類別進行測試。
 

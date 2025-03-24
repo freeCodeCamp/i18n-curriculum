@@ -95,7 +95,7 @@ const el = document.getElementById('purchase-btn');
 assert.strictEqual(el?.nodeName?.toLowerCase(), 'button');
 ```
 
-Якщо `price` є `20` та значення в елементі `#cash` є `10`, то має з’явитись попередження з текстом `"Customer does not have enough money to purchase the item"`.
+When `price` is `20`, the value in the `#cash` element is `10`, and the `#purchase-btn` element is clicked, an alert should appear with the text `"Customer does not have enough money to purchase the item"`.
 
 ```js
 const cashInput = document.getElementById('cash');
@@ -118,7 +118,7 @@ assert.strictEqual(
 );
 ```
 
-Якщо значення в елементі `#cash` менше за `price`, то має з’явитись попередження з текстом `"Customer does not have enough money to purchase the item"`.
+When the value in the `#cash` element is less than `price`, and the `#purchase-btn` element is clicked, an alert should appear with the text `"Customer does not have enough money to purchase the item"`.
 
 ```js
 const cashInput = document.getElementById('cash');
@@ -155,7 +155,7 @@ assert.strictEqual(
 );
 ```
 
-Якщо `price` є `11.95` та значення в елементі `#cash` є `11.95`, то значенням в елементі `#change-due` має бути `"No change due - customer paid with exact cash"`.
+When `price` is `11.95`, the value in the `#cash` element is `11.95`, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"No change due - customer paid with exact cash"`.
 
 ```js
 const cashInput = document.getElementById('cash');
@@ -177,7 +177,7 @@ assert.strictEqual(
 );
 ```
 
-Якщо значення в елементі `#cash` дорівнює `price`, то значенням в елементі `#change-due` має бути `"No change due - customer paid with exact cash"`.
+When the value in the `#cash` element is equal to `price`, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"No change due - customer paid with exact cash"`.
 
 ```js
 const cashInput = document.getElementById('cash');

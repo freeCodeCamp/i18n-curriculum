@@ -7,7 +7,7 @@ dashedName: step-20
 
 # --description--
 
-Переважно елемент `div` використовують для дизайну розкладки, на відміну від вже використаних вами елементів. Додайте елемент `div` всередині елемента `body`, а потім перемістіть всі інші елементи всередину нового `div`.
+The `div` element is used mainly for design layout purposes, unlike the other content elements you have used so far. Додайте елемент `div` всередині елемента `body`, а потім перемістіть всі інші елементи всередину нового `div`.
 
 Додайте атрибут `id` зі значенням `menu` до початкового тегу `div`.
 

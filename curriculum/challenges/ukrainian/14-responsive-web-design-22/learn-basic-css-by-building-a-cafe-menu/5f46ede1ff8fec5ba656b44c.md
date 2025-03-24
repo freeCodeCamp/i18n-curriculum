@@ -7,7 +7,7 @@ dashedName: step-77
 
 # --description--
 
-Далі ви стилізуватимете елемент `footer`. Щоб зберегти CSS організованим, додайте коментар вкінці `styles.css` з текстом `FOOTER`.
+Next, you are going to be styling the `footer` element. Щоб зберегти CSS організованим, додайте коментар вкінці `styles.css` з текстом `FOOTER`.
 
 # --hints--
 
