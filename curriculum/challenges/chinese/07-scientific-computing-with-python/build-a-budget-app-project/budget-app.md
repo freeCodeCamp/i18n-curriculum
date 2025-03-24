@@ -47,7 +47,7 @@ Total: 923.96
 
 除了 `Category` 类之外，创建一个名为 `create_spend_chart` 的函数（在类之外），它将类别列表作为参数。 它应该返回一个作为条形图的字符串。
 
-该图表应显示在传递给函数的每个类别中花费的百分比。 花费的百分比应该只计算取款而不是存款。 图表左侧应该是标签 0 - 100。 The 'bars' in the bar chart should be made out of the 'o' character. 每个条形的高度应四舍五入到最接近的 10。 条形图下面的水平线应该超过最后一个条形图再多两个空格。 每个类别名称应垂直写在栏下方。 There should be a title at the top that says 'Percentage spent by category'.
+该图表应显示在传递给函数的每个类别中花费的百分比。 The percentage spent should be calculated only with withdrawals and not with deposits, and it should be the percentage of the amount spent for each category to the total spent for all categories. 图表左侧应该是标签 0 - 100。 The 'bars' in the bar chart should be made out of the 'o' character. 每个条形的高度应四舍五入到最接近的 10。 条形图下面的水平线应该超过最后一个条形图再多两个空格。 每个类别名称应垂直写在栏下方。 There should be a title at the top that says 'Percentage spent by category'.
 
 此功能将使用最多四个类别进行测试。
 

@@ -44,7 +44,7 @@ const body = document.querySelectorAll('html > body')[0];
 assert(html && head && body);
 ```
 
-Ви повинні мати елемент `title` з елементом `head`, який містить текст `The Odin Recipes`.
+Ви повинні мати елемент `title` в межах елемента `head`, який містить текст `The Odin Recipes`.
 
 ```js
 assert(document.querySelectorAll('HEAD > TITLE')[0]?.innerText == 'The Odin Recipes');
@@ -88,7 +88,7 @@ const h2 = document.querySelectorAll('H2')[1];
 assert(h2?.innerText == 'Ingredients');
 ```
 
-You should have an `ul` element nested with `li` elements that contain the ingredients.
+Ви повинні мати елемент `ul`, який містить елементи `li` (тобто інгредієнти).
 
 ```js
 const headers = document.querySelectorAll("h2");
@@ -116,7 +116,7 @@ const h2 = document.querySelectorAll('H2')[2];
 assert(h2?.innerText == 'Steps');
 ```
 
-You should have an `ol` element that contains `li` elements with the steps of the recipe.
+Ви повинні мати елемент `ol`, який містить елементи `li` (тобто кроки приготування).
 
 ```js
 const orderedList = document.querySelectorAll('OL')[0];
@@ -133,7 +133,7 @@ const h2 = document.querySelectorAll('H2')[3];
 assert(h2?.innerText == 'More Recipes');
 ```
 
-You should have an `ul` element nested with `li` elements that contain `a` elements that link to other recipes.
+Ви повинні мати елемент `ul`, який містить елементи `li` з елементами `a` всередині (які направляють на інші рецепти).
 
 ```js
 const headers = document.querySelectorAll("h2");
@@ -159,7 +159,7 @@ headers.forEach(header => {
 });
 ```
 
-Your anchor elements linking to the recipes should have an `href` attribute with the value set to `#`.
+Посилання, що направляють на рецепти, повинні мати атрибут `href` зі значенням `#`.
 
 ```js
 const anchorTags = document.querySelectorAll("a");
