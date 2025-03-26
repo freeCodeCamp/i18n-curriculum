@@ -7,7 +7,7 @@ dashedName: step-17
 
 # --description--
 
-Give the `.key` a `margin` of `2px` and a `float` property set to `left`.
+Dale a la `.key` un `margin` de `2px` y una propiedad `float` establecida a `left`.
 
 # --hints--
 

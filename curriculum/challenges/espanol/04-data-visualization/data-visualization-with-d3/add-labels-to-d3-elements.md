@@ -25,55 +25,91 @@ El código en el editor ya vincula los datos a cada nuevo elemento `text`. Prime
 El primer elemento `text` debe tener una etiqueta de `12` y un valor `y` de `61`.
 
 ```js
-assert($('text').eq(0).text() == '12' && $('text').eq(0).attr('y') == '61');
+assert.strictEqual(document.querySelectorAll('text')[0]?.textContent, '12');
+assert.strictEqual(
+  document.querySelectorAll('text')[0]?.getAttribute('y'),
+  '61'
+);
 ```
 
 El segundo elemento `text` debe tener una etiqueta de `31` y un valor `y` de `4`.
 
 ```js
-assert($('text').eq(1).text() == '31' && $('text').eq(1).attr('y') == '4');
+assert.strictEqual(document.querySelectorAll('text')[1]?.textContent, '31');
+assert.strictEqual(
+  document.querySelectorAll('text')[1]?.getAttribute('y'),
+  '4'
+);
 ```
 
 El tercer elemento `text` debe tener una etiqueta de `22` y un valor `y` de `31`.
 
 ```js
-assert($('text').eq(2).text() == '22' && $('text').eq(2).attr('y') == '31');
+assert.strictEqual(document.querySelectorAll('text')[2]?.textContent, '22');
+assert.strictEqual(
+  document.querySelectorAll('text')[2]?.getAttribute('y'),
+  '31'
+);
 ```
 
 El cuarto elemento `text` debe tener una etiqueta de `17` y un valor `y` de `46`.
 
 ```js
-assert($('text').eq(3).text() == '17' && $('text').eq(3).attr('y') == '46');
+assert.strictEqual(document.querySelectorAll('text')[3]?.textContent, '17');
+assert.strictEqual(
+  document.querySelectorAll('text')[3]?.getAttribute('y'),
+  '46'
+);
 ```
 
 El quinto elemento `text` debe tener una etiqueta de `25` y un valor `y` de `22`.
 
 ```js
-assert($('text').eq(4).text() == '25' && $('text').eq(4).attr('y') == '22');
+assert.strictEqual(document.querySelectorAll('text')[4]?.textContent, '25');
+assert.strictEqual(
+  document.querySelectorAll('text')[4]?.getAttribute('y'),
+  '22'
+);
 ```
 
 El sexto elemento `text` debe tener una etiqueta de `18` y un valor `y` de `43`.
 
 ```js
-assert($('text').eq(5).text() == '18' && $('text').eq(5).attr('y') == '43');
+assert.strictEqual(document.querySelectorAll('text')[5]?.textContent, '18');
+assert.strictEqual(
+  document.querySelectorAll('text')[5]?.getAttribute('y'),
+  '43'
+);
 ```
 
 El séptimo elemento `text` debe tener una etiqueta de `29` y un valor `y` de `10`.
 
 ```js
-assert($('text').eq(6).text() == '29' && $('text').eq(6).attr('y') == '10');
+assert.strictEqual(document.querySelectorAll('text')[6]?.textContent, '29');
+assert.strictEqual(
+  document.querySelectorAll('text')[6]?.getAttribute('y'),
+  '10'
+);
 ```
 
 El octavo elemento `text` debe tener una etiqueta de `14` y un valor `y` de `55`.
 
 ```js
-assert($('text').eq(7).text() == '14' && $('text').eq(7).attr('y') == '55');
+assert.strictEqual(document.querySelectorAll('text')[7]?.textContent, '14');
+assert.strictEqual(
+  document.querySelectorAll('text')[7]?.getAttribute('y'),
+  '55'
+);
 ```
 
 El noveno elemento `text` debe tener una etiqueta de `9` y un valor `y` de `70`.
 
 ```js
-assert($('text').eq(8).text() == '9' && $('text').eq(8).attr('y') == '70');
+assert.strictEqual(document.querySelectorAll('text')[8]?.textContent, '9');
+assert.strictEqual(
+  document.querySelectorAll('text')[8]?.getAttribute('y'),
+  '70'
+);
 ```
 
 # --seed--
@@ -88,32 +124,33 @@ assert($('text').eq(8).text() == '9' && $('text').eq(8).attr('y') == '70');
     const w = 500;
     const h = 100;
 
-    const svg = d3.select("body")
-                  .append("svg")
-                  .attr("width", w)
-                  .attr("height", h);
+    const svg = d3
+      .select('body')
+      .append('svg')
+      .attr('width', w)
+      .attr('height', h);
 
-    svg.selectAll("rect")
-       .data(dataset)
-       .enter()
-       .append("rect")
-       .attr("x", (d, i) => i * 30)
-       .attr("y", (d, i) => h - 3 * d)
-       .attr("width", 25)
-       .attr("height", (d, i) => 3 * d)
-       .attr("fill", "navy");
+    svg
+      .selectAll('rect')
+      .data(dataset)
+      .enter()
+      .append('rect')
+      .attr('x', (d, i) => i * 30)
+      .attr('y', (d, i) => h - 3 * d)
+      .attr('width', 25)
+      .attr('height', (d, i) => 3 * d)
+      .attr('fill', 'navy');
 
-    svg.selectAll("text")
-       .data(dataset)
-       .enter()
-       // Add your code below this line
-
-
+    svg.selectAll('text').data(dataset).enter();
+    // Add your code below this line
 
 
-       // Add your code above this line
+
+
+    // Add your code above this line
   </script>
-<body>
+  <body></body>
+</body>
 ```
 
 # --solutions--
@@ -126,28 +163,32 @@ assert($('text').eq(8).text() == '9' && $('text').eq(8).attr('y') == '70');
     const w = 500;
     const h = 100;
 
-    const svg = d3.select("body")
-                  .append("svg")
-                  .attr("width", w)
-                  .attr("height", h);
+    const svg = d3
+      .select('body')
+      .append('svg')
+      .attr('width', w)
+      .attr('height', h);
 
-    svg.selectAll("rect")
-       .data(dataset)
-       .enter()
-       .append("rect")
-       .attr("x", (d, i) => i * 30)
-       .attr("y", (d, i) => h - 3 * d)
-       .attr("width", 25)
-       .attr("height", (d, i) => 3 * d)
-       .attr("fill", "navy");
+    svg
+      .selectAll('rect')
+      .data(dataset)
+      .enter()
+      .append('rect')
+      .attr('x', (d, i) => i * 30)
+      .attr('y', (d, i) => h - 3 * d)
+      .attr('width', 25)
+      .attr('height', (d, i) => 3 * d)
+      .attr('fill', 'navy');
 
-    svg.selectAll("text")
-       .data(dataset)
-       .enter()
-       .append("text")
-       .attr("x", (d, i) => i * 30)
-       .attr("y", (d, i) => h - (3 * d) - 3)
-       .text((d) => d)
+    svg
+      .selectAll('text')
+      .data(dataset)
+      .enter()
+      .append('text')
+      .attr('x', (d, i) => i * 30)
+      .attr('y', (d, i) => h - 3 * d - 3)
+      .text(d => d);
   </script>
-<body>
+  <body></body>
+</body>
 ```

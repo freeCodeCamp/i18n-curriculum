@@ -22,12 +22,13 @@ Aquí hay un ejemplo que selecciona un elemento `ul` y crea un nuevo elemento de
 <body>
   <ul></ul>
   <script>
-    const dataset = ["a", "b", "c"];
-    d3.select("ul").selectAll("li")
+    const dataset = ['a', 'b', 'c'];
+    d3.select('ul')
+      .selectAll('li')
       .data(dataset)
       .enter()
-      .append("li")
-      .text("New item");
+      .append('li')
+      .text('New item');
   </script>
 </body>
 ```
@@ -43,29 +44,28 @@ Selecciona el nodo `body`, luego selecciona todos los elementos `h2`. Haz que D3
 Tu documento debe tener 9 elementos `h2`.
 
 ```js
-assert($('h2').length == 9);
+assert.lengthOf(document.querySelectorAll('h2'), 9);
 ```
 
 El texto en los elementos `h2` debe decir `New Title`. Las mayúsculas y los espacios deben coincidir exactamente.
 
 ```js
-assert(
-  $('h2')
-    .text()
-    .match(/New Title/g).length == 9
-);
+const h2Elements = document.querySelectorAll('h2');
+for (let i = 0; i < h2Elements.length; i++) {
+  assert.match(h2Elements[i]?.textContent, /New Title/g);
+}
 ```
 
 Tu código debe usar el método `data()`.
 
 ```js
-assert(code.match(/\.data/g));
+assert.match(code, /\.data/g);
 ```
 
 Tu código debe usar el método `enter()`.
 
 ```js
-assert(code.match(/\.enter/g));
+assert.match(code, /\.enter/g);
 ```
 
 # --seed--
@@ -93,13 +93,12 @@ assert(code.match(/\.enter/g));
   <script>
     const dataset = [12, 31, 22, 17, 25, 18, 29, 14, 9];
 
-    d3.select("body")
-      .selectAll("h2")
+    d3.select('body')
+      .selectAll('h2')
       .data(dataset)
       .enter()
-      .append("h2")
-      .text("New Title")
-
+      .append('h2')
+      .text('New Title');
   </script>
 </body>
 ```

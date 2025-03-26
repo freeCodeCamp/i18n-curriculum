@@ -29,55 +29,82 @@ SVG 領域の高さは 100 です。 セット内にデータポイント 0 が�
 最初の `rect` は `y` 値を `64` にする必要があります。
 
 ```js
-assert($('rect').eq(0).attr('y') == h - dataset[0] * 3);
+assert.strictEqual(
+  document.querySelectorAll('rect')[0]?.getAttribute('y'),
+  (h - dataset[0] * 3).toString()
+);
 ```
 
 2 番目の `rect` は `y` 値を `7` にする必要があります。
 
 ```js
-assert($('rect').eq(1).attr('y') == h - dataset[1] * 3);
+assert.strictEqual(
+  document.querySelectorAll('rect')[1]?.getAttribute('y'),
+  (h - dataset[1] * 3).toString()
+);
 ```
 
 3 番目の `rect` は `y` 値を `34` にする必要があります。
 
 ```js
-assert($('rect').eq(2).attr('y') == h - dataset[2] * 3);
+assert.strictEqual(
+  document.querySelectorAll('rect')[2]?.getAttribute('y'),
+  (h - dataset[2] * 3).toString()
+);
 ```
 
 4 番目の `rect` は `y` 値を `49` にする必要があります。
 
 ```js
-assert($('rect').eq(3).attr('y') == h - dataset[3] * 3);
+assert.strictEqual(
+  document.querySelectorAll('rect')[3]?.getAttribute('y'),
+  (h - dataset[3] * 3).toString()
+);
 ```
 
 5 番目の `rect` は `y` 値を `25` にする必要があります。
 
 ```js
-assert($('rect').eq(4).attr('y') == h - dataset[4] * 3);
+assert.strictEqual(
+  document.querySelectorAll('rect')[4]?.getAttribute('y'),
+  (h - dataset[4] * 3).toString()
+);
 ```
 
 6 番目の `rect` は `y` 値を `46` にする必要があります。
 
 ```js
-assert($('rect').eq(5).attr('y') == h - dataset[5] * 3);
+assert.strictEqual(
+  document.querySelectorAll('rect')[5]?.getAttribute('y'),
+  (h - dataset[5] * 3).toString()
+);
 ```
 
 7 番目の `rect` は `y` 値を `13` にする必要があります。
 
 ```js
-assert($('rect').eq(6).attr('y') == h - dataset[6] * 3);
+assert.strictEqual(
+  document.querySelectorAll('rect')[6]?.getAttribute('y'),
+  (h - dataset[6] * 3).toString()
+);
 ```
 
 8 番目の `rect` は `y` 値を `58` にする必要があります。
 
 ```js
-assert($('rect').eq(7).attr('y') == h - dataset[7] * 3);
+assert.strictEqual(
+  document.querySelectorAll('rect')[7]?.getAttribute('y'),
+  (h - dataset[7] * 3).toString()
+);
 ```
 
 9 番目の `rect` は `y` 値を `73` にする必要があります。
 
 ```js
-assert($('rect').eq(8).attr('y') == h - dataset[8] * 3);
+assert.strictEqual(
+  document.querySelectorAll('rect')[8]?.getAttribute('y'),
+  (h - dataset[8] * 3).toString()
+);
 ```
 
 # --seed--
@@ -92,25 +119,27 @@ assert($('rect').eq(8).attr('y') == h - dataset[8] * 3);
     const w = 500;
     const h = 100;
 
-    const svg = d3.select("body")
-                  .append("svg")
-                  .attr("width", w)
-                  .attr("height", h);
+    const svg = d3
+      .select('body')
+      .append('svg')
+      .attr('width', w)
+      .attr('height', h);
 
-    svg.selectAll("rect")
-       .data(dataset)
-       .enter()
-       .append("rect")
-       .attr("x", (d, i) => i * 30)
-       .attr("y", (d, i) => {
-         // Add your code below this line
+    svg
+      .selectAll('rect')
+      .data(dataset)
+      .enter()
+      .append('rect')
+      .attr('x', (d, i) => i * 30)
+      .attr('y', (d, i) => {
+        // Add your code below this line
 
 
 
-         // Add your code above this line
-       })
-       .attr("width", 25)
-       .attr("height", (d, i) => 3 * d);
+        // Add your code above this line
+      })
+      .attr('width', 25)
+      .attr('height', (d, i) => 3 * d);
   </script>
 </body>
 ```
@@ -125,19 +154,21 @@ assert($('rect').eq(8).attr('y') == h - dataset[8] * 3);
     const w = 500;
     const h = 100;
 
-    const svg = d3.select("body")
-                  .append("svg")
-                  .attr("width", w)
-                  .attr("height", h);
+    const svg = d3
+      .select('body')
+      .append('svg')
+      .attr('width', w)
+      .attr('height', h);
 
-    svg.selectAll("rect")
-       .data(dataset)
-       .enter()
-       .append("rect")
-       .attr("x", (d, i) => i * 30)
-       .attr("y", (d, i) => h - 3 * d)
-       .attr("width", 25)
-       .attr("height", (d, i) => 3 * d);
+    svg
+      .selectAll('rect')
+      .data(dataset)
+      .enter()
+      .append('rect')
+      .attr('x', (d, i) => i * 30)
+      .attr('y', (d, i) => h - 3 * d)
+      .attr('width', 25)
+      .attr('height', (d, i) => 3 * d);
   </script>
 </body>
 ```

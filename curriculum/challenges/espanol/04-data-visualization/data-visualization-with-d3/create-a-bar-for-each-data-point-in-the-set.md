@@ -13,10 +13,7 @@ El anterior desafío agrega solo un rectángulo al elemento `svg` para represent
 Uno de los desafíos anteriores mostró el formato para cómo crear y añadir un `div` para cada elemento en `dataset`:
 
 ```js
-d3.select("body").selectAll("div")
-  .data(dataset)
-  .enter()
-  .append("div")
+d3.select('body')?.selectAll('div').data(dataset).enter().append('div');
 ```
 
 Hay algunas diferencias cuando trabajamos con elementos `rect` en lugar de elementos `div`. Los elementos `rect` deben ser añadidos a un elemento `svg`, no directamente al `body`. Además, necesitas decirle a D3 donde colocar cada `rect` dentro del área `svg`. El posicionamiento de la barra lo veremos en el siguiente desafío.
@@ -30,25 +27,25 @@ Usa los métodos `data()`, `enter()`, y `append()` para crear y agregar un `rect
 Tu documento debe tener 9 elementos `rect`.
 
 ```js
-assert($('rect').length == 9);
+assert.lengthOf(document.querySelectorAll('rect'), 9);
 ```
 
 Tu código debe usar el método `data()`.
 
 ```js
-assert(code.match(/\.data/g));
+assert.match(code, /\.data/g);
 ```
 
 Tu código debe usar el método `enter()`.
 
 ```js
-assert(code.match(/\.enter/g));
+assert.match(code, /\.enter/g);
 ```
 
 Tu código debe usar el método `append()`.
 
 ```js
-assert(code.match(/\.append/g));
+assert.match(code, /\.append/g);
 ```
 
 # --seed--
@@ -63,21 +60,21 @@ assert(code.match(/\.append/g));
     const w = 500;
     const h = 100;
 
-    const svg = d3.select("body")
-                  .append("svg")
-                  .attr("width", w)
-                  .attr("height", h);
+    const svg = d3
+      .select('body')
+      .append('svg')
+      .attr('width', w)
+      .attr('height', h);
 
-    svg.selectAll("rect")
-       // Add your code below this line
+    svg
+      .selectAll('rect')
+      // Add your code below this line
 
-
-
-       // Add your code above this line
-       .attr("x", 0)
-       .attr("y", 0)
-       .attr("width", 25)
-       .attr("height", 100);
+      // Add your code above this line
+      .attr('x', 0)
+      .attr('y', 0)
+      .attr('width', 25)
+      .attr('height', 100);
   </script>
 </body>
 ```
@@ -92,19 +89,21 @@ assert(code.match(/\.append/g));
     const w = 500;
     const h = 100;
 
-    const svg = d3.select("body")
-                  .append("svg")
-                  .attr("width", w)
-                  .attr("height", h);
+    const svg = d3
+      .select('body')
+      .append('svg')
+      .attr('width', w)
+      .attr('height', h);
 
-    svg.selectAll("rect")
-       .data(dataset)
-       .enter()
-       .append("rect")
-       .attr("x", 0)
-       .attr("y", 0)
-       .attr("width", 25)
-       .attr("height", 100);
+    svg
+      .selectAll('rect')
+      .data(dataset)
+      .enter()
+      .append('rect')
+      .attr('x', 0)
+      .attr('y', 0)
+      .attr('width', 25)
+      .attr('height', 100);
   </script>
 </body>
 ```

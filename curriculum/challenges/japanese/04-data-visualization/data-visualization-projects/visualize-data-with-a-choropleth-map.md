@@ -38,8 +38,8 @@ HTML、JavaScript、CSS、および D3 の SVG ベースのビジュアライゼ
 
 このプロジェクトを完了するために必要なデータセットはこちらにあります:
 
--   **米国の教育データ: **`https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/for_user_education.json`
--   **米国の郡データ:** `https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/counties.json`
+- **米国の教育データ: **`https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/for_user_education.json`
+- **米国の郡データ:** `https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/counties.json`
 
 <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">この CodePen テンプレートを使用して</a>あなたのプロジェクトを構築することができます。`Save` をクリックすると、あなた用の pen を作成することができます。 または、下記の CDN リンクを使用して、使い慣れている環境でテストを実行することもできます: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
 

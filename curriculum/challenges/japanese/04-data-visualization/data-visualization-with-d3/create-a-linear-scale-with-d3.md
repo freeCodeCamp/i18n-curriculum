@@ -19,7 +19,7 @@ D3では、データのプロットに役立つスケールがあります。 `s
 D3 にはいくつかのタイプのスケールがあります。 (通常は定量的データで使用される) 線形スケールの場合、`scaleLinear()` という D3 メソッドがあります。
 
 ```js
-const scale = d3.scaleLinear()
+const scale = d3.scaleLinear();
 ```
 
 デフォルトでは、スケールは同一関係を使用します。 つまり、入力値と出力値が同じです。 これを変更する方法については別のチャレンジで説明します。
@@ -33,19 +33,20 @@ const scale = d3.scaleLinear()
 `h2` 内のテキストを `50` にする必要があります。
 
 ```js
-assert($('h2').text() == '50');
+assert.strictEqual(document.querySelector('h2')?.textContent, '50');
 ```
 
 `scaleLinear()` メソッドを使用する必要があります。
 
 ```js
-assert(code.match(/\.scaleLinear/g));
+assert.match(code, /\.scaleLinear/g);
 ```
 
 `output` 変数は `scale` を引数 `50` で呼び出す必要があります。
 
 ```js
-assert(output == 50 && code.match(/scale\(\s*?50\s*?\)/g));
+assert.strictEqual(output, 50);
+assert.match(code, /scale\(\s*50\s*\)/g);
 ```
 
 # --seed--
@@ -62,10 +63,7 @@ assert(output == 50 && code.match(/scale\(\s*?50\s*?\)/g));
 
     // Add your code above this line
 
-    d3.select("body")
-      .append("h2")
-      .text(output);
-
+    d3.select('body').append('h2').text(output);
   </script>
 </body>
 ```
@@ -75,14 +73,10 @@ assert(output == 50 && code.match(/scale\(\s*?50\s*?\)/g));
 ```html
 <body>
   <script>
-
     const scale = d3.scaleLinear();
-    const output = scale(50); 
+    const output = scale(50);
 
-    d3.select("body")
-      .append("h2")
-      .text(output);
-
+    d3.select('body').append('h2').text(output);
   </script>
 </body>
 ```

@@ -9,7 +9,7 @@ dashedName: step-43
 
 El HTML para el formulario de registro está terminado. Ahora, puedes mejorar su apariencia.
 
-Start by adding `Tahoma` as the font with a font size of `16px` in the `body` selector.
+Comience agregando `Tahoma` como la fuente con un tamaño de fuente de `16px` en el selector `body`.
 
 # --hints--
 

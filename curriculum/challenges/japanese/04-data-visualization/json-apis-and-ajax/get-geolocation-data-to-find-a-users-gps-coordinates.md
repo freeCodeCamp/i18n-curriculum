@@ -19,9 +19,13 @@ dashedName: get-geolocation-data-to-find-a-users-gps-coordinates
 これを行うコードを次に示します。
 
 ```js
-if (navigator.geolocation){
-  navigator.geolocation.getCurrentPosition(function(position) {
-    document.getElementById('data').innerHTML="latitude: " + position.coords.latitude + "<br>longitude: " + position.coords.longitude;
+if (navigator.geolocation) {
+  navigator.geolocation.getCurrentPosition(function (position) {
+    document.getElementById('data').innerHTML =
+      'latitude: ' +
+      position.coords.latitude +
+      '<br>longitude: ' +
+      position.coords.longitude;
   });
 }
 ```
@@ -37,26 +41,27 @@ if (navigator.geolocation){
 `navigator.geolocation` を使用してユーザーの現在位置にアクセスする必要があります。
 
 ```js
-assert(code.match(/navigator\.geolocation\.getCurrentPosition/g));
+assert.match(code, /navigator\.geolocation\.getCurrentPosition/g);
 ```
 
 `position.coords.latitude` を使用して、ユーザーの緯度位置を表示する必要があります。
 
 ```js
-assert(code.match(/position\.coords\.latitude/g));
+assert.match(code, /position\.coords\.latitude/g);
 ```
 
 `position.coords.longitude` を使用して、ユーザーの経度位置を表示する必要があります。
 
 ```js
-assert(code.match(/position\.coords\.longitude/g));
+assert.match(code, /position\.coords\.longitude/g);
 ```
 
 `id="data"` を持つ `div` 要素内にユーザーの位置を表示する必要があります。
 
 ```js
-assert(
-  code.match(/document\.getElementById\(\s*?('|")data\1\s*?\)\.innerHTML/g)
+assert.match(
+  code,
+  /document\.getElementById\(\s*('|")data\1\s*\)\.innerHTML/g
 );
 ```
 
@@ -68,13 +73,10 @@ assert(
 <script>
   // Add your code below this line
 
-
   // Add your code above this line
 </script>
 <h4>You are here:</h4>
-<div id="data">
-
-</div>
+<div id="data"></div>
 ```
 
 # --solutions--

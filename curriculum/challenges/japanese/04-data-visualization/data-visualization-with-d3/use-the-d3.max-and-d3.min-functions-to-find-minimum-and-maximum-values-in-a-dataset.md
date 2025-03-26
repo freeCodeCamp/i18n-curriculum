@@ -18,15 +18,19 @@ D3 には、この情報を返すための 2 つのメソッド、`min()` と `m
 
 ```js
 const exampleData = [34, 234, 73, 90, 6, 52];
-d3.min(exampleData)
-d3.max(exampleData)
+d3.min(exampleData);
+d3.max(exampleData);
 ```
 
 データセットの中で配列がネストされている場合があります。散布図の例にあった `[x, y]` 座標ペアはその一例です。 その場合、最大値と最小値の計算方法を D3 に指示する必要があります。 幸いなことに、`min()` と `max()` の両メソッドはコールバック関数を取ります。 この例では、コールバック関数の引数 `d` は現在のネストされた配列に対するものです。 このコールバック関数は、最大値または最小値の計算対象となる、ネストされた配列 (`x` または `y` の値) から要素を返す必要があります。 複数の配列中の 1 つの配列における最大値と最小値を見つけるには、例えば次の方法を使用します。
 
 ```js
-const locationData = [[1, 7],[6, 3],[8, 3]];
-const minX = d3.min(locationData, (d) => d[0]);
+const locationData = [
+  [1, 7],
+  [6, 3],
+  [8, 3]
+];
+const minX = d3.min(locationData, d => d[0]);
 ```
 
 `minX` の値は `1` です。
@@ -40,14 +44,16 @@ const minX = d3.min(locationData, (d) => d[0]);
 `h2` 内のテキストを `8` にする必要があります。
 
 ```js
-assert(output == 8 && $('h2').text() == '8');
+assert.strictEqual(output, 8);
+assert.strictEqual(document.querySelector('h2')?.textContent, '8');
 ```
 
 `max()` メソッドを使用する必要があります。
 
 ```js
-assert(
-  code.match(/\.max/g),
+assert.match(
+  code,
+  /\.max/g,
   'Your code should use the <code>max()</code> method.'
 );
 ```
@@ -59,16 +65,18 @@ assert(
 ```html
 <body>
   <script>
-    const positionData = [[1, 7, -4],[6, 3, 8],[2, 9, 3]]
+    const positionData = [
+      [1, 7, -4],
+      [6, 3, 8],
+      [2, 9, 3]
+    ];
     // Add your code below this line
 
     const output = undefined; // Change this line
 
     // Add your code above this line
 
-    d3.select("body")
-      .append("h2")
-      .text(output)
+    d3.select('body').append('h2').text(output);
   </script>
 </body>
 ```
@@ -78,13 +86,15 @@ assert(
 ```html
 <body>
   <script>
-    const positionData = [[1, 7, -4],[6, 3, 8],[2, 9, 3]]
+    const positionData = [
+      [1, 7, -4],
+      [6, 3, 8],
+      [2, 9, 3]
+    ];
 
-    const output = d3.max(positionData, (d) => d[2])
+    const output = d3.max(positionData, d => d[2]);
 
-    d3.select("body")
-      .append("h2")
-      .text(output)
+    d3.select('body').append('h2').text(output);
   </script>
 </body>
 ```

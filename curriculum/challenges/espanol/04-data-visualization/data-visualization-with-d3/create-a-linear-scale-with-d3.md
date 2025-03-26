@@ -19,7 +19,7 @@ Es muy poco probable que traces los datos en bruto tal como son. Antes de trazar
 D3 tiene varios tipos de escalas. Para una escala lineal (usualmente usada con datos cuantitativos), existe el método de D3 `scaleLinear()`:
 
 ```js
-const scale = d3.scaleLinear()
+const scale = d3.scaleLinear();
 ```
 
 Por defecto, una escala usa la relación de identidad. El valor de la entrada es el mismo que el valor de la salida. Un desafío aparte cubre como cambiar esto.
@@ -33,19 +33,20 @@ Cambia la variable `scale` para crear una escala lineal. Luego, establece la var
 El texto en el `h2` debe ser `50`.
 
 ```js
-assert($('h2').text() == '50');
+assert.strictEqual(document.querySelector('h2')?.textContent, '50');
 ```
 
 Tu código debe utilizar el método `scaleLinear()`.
 
 ```js
-assert(code.match(/\.scaleLinear/g));
+assert.match(code, /\.scaleLinear/g);
 ```
 
 La variable `output` debe llamar a `scale` con un argumento de `50`.
 
 ```js
-assert(output == 50 && code.match(/scale\(\s*?50\s*?\)/g));
+assert.strictEqual(output, 50);
+assert.match(code, /scale\(\s*50\s*\)/g);
 ```
 
 # --seed--
@@ -62,10 +63,7 @@ assert(output == 50 && code.match(/scale\(\s*?50\s*?\)/g));
 
     // Add your code above this line
 
-    d3.select("body")
-      .append("h2")
-      .text(output);
-
+    d3.select('body').append('h2').text(output);
   </script>
 </body>
 ```
@@ -75,14 +73,10 @@ assert(output == 50 && code.match(/scale\(\s*?50\s*?\)/g));
 ```html
 <body>
   <script>
-
     const scale = d3.scaleLinear();
-    const output = scale(50); 
+    const output = scale(50);
 
-    d3.select("body")
-      .append("h2")
-      .text(output);
-
+    d3.select('body').append('h2').text(output);
   </script>
 </body>
 ```

@@ -1,6 +1,6 @@
 ---
 id: 5dfa371beacea3f48c6300af
-title: Step 21
+title: Paso 21
 challengeType: 0
 dashedName: step-21
 ---
@@ -33,7 +33,7 @@ assert(
 );
 ```
 
-Your `h3` element should have a closing tag. Closing tags have a `/` just after the `<` character.
+Tu elemento `h3` debe tener una etiqueta de cierre. Las etiquetas de cierre tienen un `/` justo después del caracter `<`.
 
 ```js
 assert.lengthOf(code.match(/<\/h3>/g), 1);
