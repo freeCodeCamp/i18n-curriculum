@@ -11,7 +11,7 @@ dashedName: select-a-group-of-elements-with-d3
 D3 には、要素のグループを選択するための `selectAll()` メソッドもあります。 このメソッドは、入力文字列に一致する、ドキュメント内のすべてのアイテムについて HTML ノードの配列を返します。 ドキュメント内のすべてのアンカータグを選択するには、例えば次のように記述します。
 
 ```js
-const anchors = d3.selectAll("a");
+const anchors = d3.selectAll('a');
 ```
 
 `select()` メソッドと同様に、 `selectAll()` はメソッドチェーンをサポートしており、他のメソッドと併用できます。
@@ -25,23 +25,23 @@ const anchors = d3.selectAll("a");
 ページ上に `li` 要素が 3 個あり、それぞれのテキストが `list item` になっている必要があります。 大文字とスペースの使い方が厳密に一致する必要があります。
 
 ```js
-assert(
-  $('li')
-    .text()
-    .match(/list item/g).length == 3
-);
+const listItems = document.querySelectorAll('li');
+assert.lengthOf(listItems, 3);
+for (let i = 0; i < listItems.length; i++) {
+  assert.match(listItems[i]?.textContent, /list item/g);
+}
 ```
 
 `d3` オブジェクトにアクセスする必要があります。
 
 ```js
-assert(code.match(/d3/g));
+assert.match(code, /d3/g);
 ```
 
 `selectAll` メソッドを使用する必要があります。
 
 ```js
-assert(code.match(/\.selectAll/g));
+assert.match(code, /\.selectAll/g);
 ```
 
 # --seed--
@@ -75,8 +75,7 @@ assert(code.match(/\.selectAll/g));
     <li>Example</li>
   </ul>
   <script>
-    d3.selectAll("li")
-      .text("list item")
+    d3.selectAll('li').text('list item');
   </script>
 </body>
 ```

@@ -13,7 +13,7 @@ D3 には、ドキュメント内の要素を追加および変更するため�
 `select()` メソッドはドキュメントから 1 つの要素を選択します。 このメソッドは、取得したい要素の名前に対する引数を取り、その名前と一致するドキュメント内の最初の要素に対する HTML ノードを返します。 以下が例です:
 
 ```js
-const anchor = d3.select("a");
+const anchor = d3.select('a');
 ```
 
 上の例では、ページ上で最初のアンカータグを見つけ、それに対する HTML ノードを変数 `anchor` に保存します。 この選択範囲は他のメソッドでも使用できます。 この例の `d3` 部分は D3 オブジェクトへの参照であり、このようにして D3 メソッドにアクセスします。
@@ -27,9 +27,7 @@ const anchor = d3.select("a");
 下の例では、順序なしリストを選択し、リストアイテムを追加し、テキストを追加しています。
 
 ```js
-d3.select("ul")
-  .append("li")
-  .text("Very important item");
+d3.select('ul')?.append('li').text('Very important item');
 ```
 
 D3 では、ピリオドを使用して複数のメソッドをチェーンすると、多数のアクションを連続して実行できます。
@@ -43,37 +41,39 @@ D3 では、ピリオドを使用して複数のメソッドをチェーンす�
 `body` には `h1` 要素が 1 つ必要です。
 
 ```js
-assert($('body').children('h1').length == 1);
+const body = document.querySelector('body');
+const headers = body?.querySelectorAll('h1');
+assert.lengthOf(headers, 1);
 ```
 
 `h1` 要素にはテキスト `Learning D3` が必要です。
 
 ```js
-assert($('h1').text() == 'Learning D3');
+assert.strictEqual(document.querySelector('h1')?.textContent, 'Learning D3');
 ```
 
 `d3` オブジェクトにアクセスする必要があります。
 
 ```js
-assert(code.match(/d3/g));
+assert.match(code, /d3/g);
 ```
 
 `select` メソッドを使用する必要があります。
 
 ```js
-assert(code.match(/\.select/g));
+assert.match(code, /\.select/g);
 ```
 
 `append` メソッドを使用する必要があります。
 
 ```js
-assert(code.match(/\.append/g));
+assert.match(code, /\.append/g);
 ```
 
 `text` メソッドを使用する必要があります。
 
 ```js
-assert(code.match(/\.text/g));
+assert.match(code, /\.text/g);
 ```
 
 # --seed--
@@ -97,9 +97,7 @@ assert(code.match(/\.text/g));
 ```html
 <body>
   <script>
-    d3.select("body")
-      .append("h1")
-      .text("Learning D3")
+    d3.select('body').append('h1').text('Learning D3');
   </script>
 </body>
 ```

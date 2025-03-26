@@ -19,11 +19,11 @@ Los métodos `domain()` y `range()` establecen estos valores para la escala. Amb
 ```js
 scale.domain([50, 480]);
 scale.range([10, 500]);
-scale(50)
-scale(480)
-scale(325)
-scale(750)
-d3.scaleLinear()
+scale(50);
+scale(480);
+scale(325);
+scale(750);
+d3.scaleLinear();
 ```
 
 En orden, los siguientes valores se mostrarían en la consola: `10`, `500`, `323.37`, y `807.67`.
@@ -41,31 +41,31 @@ Crea una escala y establece su dominio a `[250, 500]` y su rango a `[10, 150]`.
 Tu código debe usar el método `domain()`.
 
 ```js
-assert(code.match(/\.domain/g));
+assert.match(code, /\.domain/g);
 ```
 
 El `domain()` de `scale` (escala) debe ser establecido a `[250, 500]`.
 
 ```js
-assert(JSON.stringify(scale.domain()) == JSON.stringify([250, 500]));
+assert.deepEqual(scale.domain(), [250, 500]);
 ```
 
 Tu código debe usar el método `range()`.
 
 ```js
-assert(code.match(/\.range/g));
+assert.match(code, /\.range/g);
 ```
 
 El `range()` de `scale` (escala) debe ser establecido a `[10, 150]`.
 
 ```js
-assert(JSON.stringify(scale.range()) == JSON.stringify([10, 150]));
+assert.deepEqual(scale.range(), [10, 150]);
 ```
 
 El texto en el `h2` debe ser `-102`.
 
 ```js
-assert($('h2').text() == '-102');
+assert.strictEqual(document.querySelector('h2')?.textContent, '-102');
 ```
 
 # --seed--
@@ -82,9 +82,7 @@ assert($('h2').text() == '-102');
 
     // Add your code above this line
     const output = scale(50);
-    d3.select("body")
-      .append("h2")
-      .text(output);
+    d3.select('body').append('h2').text(output);
   </script>
 </body>
 ```
@@ -95,12 +93,10 @@ assert($('h2').text() == '-102');
 <body>
   <script>
     const scale = d3.scaleLinear();
-    scale.domain([250, 500])
-    scale.range([10, 150])
+    scale.domain([250, 500]);
+    scale.range([10, 150]);
     const output = scale(50);
-    d3.select("body")
-      .append("h2")
-      .text(output);
+    d3.select('body').append('h2').text(output);
   </script>
 </body>
 ```

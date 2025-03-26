@@ -95,7 +95,7 @@ const el = document.getElementById('purchase-btn');
 assert.strictEqual(el?.nodeName?.toLowerCase(), 'button');
 ```
 
-`price` が `20`で、`#cash` の要素に入力された値が `10` の場合、`"Customer does not have enough money to purchase the item"` というテキストのアラートが表示されます。
+When `price` is `20`, the value in the `#cash` element is `10`, and the `#purchase-btn` element is clicked, an alert should appear with the text `"Customer does not have enough money to purchase the item"`.
 
 ```js
 const cashInput = document.getElementById('cash');
@@ -118,7 +118,7 @@ assert.strictEqual(
 );
 ```
 
-`#cash` の要素に入力された値が `price` より少ない場合、`"Customer does not have enough money to purchase the item"` というテキストのアラートが表示されます。
+When the value in the `#cash` element is less than `price`, and the `#purchase-btn` element is clicked, an alert should appear with the text `"Customer does not have enough money to purchase the item"`.
 
 ```js
 const cashInput = document.getElementById('cash');
@@ -155,7 +155,7 @@ assert.strictEqual(
 );
 ```
 
-`price` が `11.95`で、`#cash` の要素に入力された値も `11.95` の場合、`#change-due` の要素に表示する値は `"No change due - customer paid with exact cash"` となります。
+When `price` is `11.95`, the value in the `#cash` element is `11.95`, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"No change due - customer paid with exact cash"`.
 
 ```js
 const cashInput = document.getElementById('cash');
@@ -177,7 +177,7 @@ assert.strictEqual(
 );
 ```
 
-`#cash` の要素に入力された値が `price` に等しい場合、`#change-due` の要素に表示する値は `"No change due - customer paid with exact cash"` となります。
+When the value in the `#cash` element is equal to `price`, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"No change due - customer paid with exact cash"`.
 
 ```js
 const cashInput = document.getElementById('cash');

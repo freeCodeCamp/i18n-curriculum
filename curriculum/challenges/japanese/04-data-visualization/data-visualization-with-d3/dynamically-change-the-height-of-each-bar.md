@@ -11,9 +11,7 @@ dashedName: dynamically-change-the-height-of-each-bar
 `x` の値を動的に設定したときと同様の方法で、各バーの高さを配列内のデータポイントの値に設定できます。
 
 ```js
-selection.attr("property", (d, i) => {
-
-})
+selection.attr('property', (d, i) => {});
 ```
 
 ここでは `d` がデータポイント値、`i` が配列内のデータポイントのインデックスになります。
@@ -29,55 +27,82 @@ selection.attr("property", (d, i) => {
 最初の `rect` は `height` を `36` にする必要があります。
 
 ```js
-assert($('rect').eq(0).attr('height') == '36');
+assert.strictEqual(
+  document.querySelectorAll('rect')[0]?.getAttribute('height'),
+  '36'
+);
 ```
 
 2 番目の `rect` は `height` を `93` にする必要があります。
 
 ```js
-assert($('rect').eq(1).attr('height') == '93');
+assert.strictEqual(
+  document.querySelectorAll('rect')[1]?.getAttribute('height'),
+  '93'
+);
 ```
 
 3 番目の `rect` は `height` を `66` にする必要があります。
 
 ```js
-assert($('rect').eq(2).attr('height') == '66');
+assert.strictEqual(
+  document.querySelectorAll('rect')[2]?.getAttribute('height'),
+  '66'
+);
 ```
 
 4 番目の `rect` は `height` を `51` にする必要があります。
 
 ```js
-assert($('rect').eq(3).attr('height') == '51');
+assert.strictEqual(
+  document.querySelectorAll('rect')[3]?.getAttribute('height'),
+  '51'
+);
 ```
 
 5 番目の `rect` は `height` を `75` にする必要があります。
 
 ```js
-assert($('rect').eq(4).attr('height') == '75');
+assert.strictEqual(
+  document.querySelectorAll('rect')[4]?.getAttribute('height'),
+  '75'
+);
 ```
 
 6 番目の `rect` は `height` を `54` にする必要があります。
 
 ```js
-assert($('rect').eq(5).attr('height') == '54');
+assert.strictEqual(
+  document.querySelectorAll('rect')[5]?.getAttribute('height'),
+  '54'
+);
 ```
 
 7 番目の `rect` は `height` を `87` にする必要があります。
 
 ```js
-assert($('rect').eq(6).attr('height') == '87');
+assert.strictEqual(
+  document.querySelectorAll('rect')[6]?.getAttribute('height'),
+  '87'
+);
 ```
 
 8 番目の `rect` は `height` を `42` にする必要があります。
 
 ```js
-assert($('rect').eq(7).attr('height') == '42');
+assert.strictEqual(
+  document.querySelectorAll('rect')[7]?.getAttribute('height'),
+  '42'
+);
 ```
 
 9 番目の `rect` は `height` を `27` にする必要があります。
 
 ```js
-assert($('rect').eq(8).attr('height') == '27');
+assert.strictEqual(
+  document.querySelectorAll('rect')[8]?.getAttribute('height'),
+  '27'
+);
 ```
 
 # --seed--
@@ -92,25 +117,28 @@ assert($('rect').eq(8).attr('height') == '27');
     const w = 500;
     const h = 100;
 
-    const svg = d3.select("body")
-                  .append("svg")
-                  .attr("width", w)
-                  .attr("height", h);
+    const svg = d3
+      .select('body')
+      .append('svg')
+      .attr('width', w)
+      .attr('height', h);
 
-    svg.selectAll("rect")
-       .data(dataset)
-       .enter()
-       .append("rect")
-       .attr("x", (d, i) => i * 30)
-       .attr("y", 0)
-       .attr("width", 25)
-       .attr("height", (d, i) => {
-         // Add your code below this line
+    svg
+      .selectAll('rect')
+      .data(dataset)
+      .enter()
+      .append('rect')
+      .attr('x', (d, i) => i * 30)
+      .attr('y', 0)
+      .attr('width', 25)
+      .attr('height', (d, i) => {
+        // Add your code below this line
 
 
 
-         // Add your code above this line
-       });
+
+        // Add your code above this line
+      });
   </script>
 </body>
 ```
@@ -125,21 +153,23 @@ assert($('rect').eq(8).attr('height') == '27');
     const w = 500;
     const h = 100;
 
-    const svg = d3.select("body")
-                  .append("svg")
-                  .attr("width", w)
-                  .attr("height", h);
+    const svg = d3
+      .select('body')
+      .append('svg')
+      .attr('width', w)
+      .attr('height', h);
 
-    svg.selectAll("rect")
-       .data(dataset)
-       .enter()
-       .append("rect")
-       .attr("x", (d, i) => i * 30)
-       .attr("y", 0)
-       .attr("width", 25)
-       .attr("height", (d, i) => {
-         return d * 3
-       });
+    svg
+      .selectAll('rect')
+      .data(dataset)
+      .enter()
+      .append('rect')
+      .attr('x', (d, i) => i * 30)
+      .attr('y', 0)
+      .attr('width', 25)
+      .attr('height', (d, i) => {
+        return d * 3;
+      });
   </script>
 </body>
 ```

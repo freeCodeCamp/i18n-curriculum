@@ -13,7 +13,7 @@ HTML 要素に多くのインラインスタイルを使用すると、小さな
 `attr()` メソッドは `style()` と同じように動作します。 このメソッドはカンマ区切りの値を取得します。また、コールバック関数を使用できます。 次のコードは、`container` のクラスを選択範囲に追加する例です。
 
 ```js
-selection.attr("class", "container");
+selection.attr('class', 'container');
 ```
 
 注意点として、クラスを追加する必要があり `container` パラメータのみが変更される場合は常に、`class` パラメータは同じままです。
@@ -27,13 +27,13 @@ selection.attr("class", "container");
 `div` 要素には `bar` のクラスが必要です。
 
 ```js
-assert($('div').attr('class').trim().split(/\s+/g).includes('bar'));
+assert.isTrue(document.querySelector('div')?.classList.contains('bar'));
 ```
 
 `attr()` メソッドを使用する必要があります。
 
 ```js
-assert(code.match(/\.attr/g));
+assert.match(code, /\.attr/g);
 ```
 
 # --seed--
@@ -53,15 +53,12 @@ assert(code.match(/\.attr/g));
   <script>
     const dataset = [12, 31, 22, 17, 25, 18, 29, 14, 9];
 
-    d3.select("body").selectAll("div")
-      .data(dataset)
-      .enter()
-      .append("div")
-      // Add your code below this line
+    d3.select('body')?.selectAll('div').data(dataset).enter().append('div');
+    // Add your code below this line
 
 
 
-      // Add your code above this line
+    // Add your code above this line
   </script>
 </body>
 ```
@@ -81,13 +78,14 @@ assert(code.match(/\.attr/g));
   <script>
     const dataset = [12, 31, 22, 17, 25, 18, 29, 14, 9];
 
-    d3.select("body").selectAll("div")
+    d3.select('body')
+      .selectAll('div')
       .data(dataset)
       .enter()
-      .append("div")
+      .append('div')
       // Add your code below this line
-      .attr("class","bar");
-      // Add your code above this line
+      .attr('class', 'bar');
+    // Add your code above this line
   </script>
 </body>
 ```

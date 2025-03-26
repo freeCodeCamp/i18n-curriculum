@@ -15,7 +15,7 @@ dashedName: work-with-dynamic-data-in-d3
 D3 の `text()` メソッドは、引数として文字列またはコールバック関数を取ることができます。
 
 ```js
-selection.text((d) => d)
+selection.text(d => d);
 ```
 
 上の例では、パラメータ `d` は、選択範囲のバインド先であるデータセット内の単一のエントリを参照します。
@@ -31,55 +31,55 @@ selection.text((d) => d)
 最初の `h2` にはテキスト `12 USD` が必要です。
 
 ```js
-assert($('h2').eq(0).text() == '12 USD');
+assert.strictEqual(document.querySelectorAll('h2')[0]?.textContent, '12 USD');
 ```
 
 2 番目の `h2` にはテキスト `31 USD` が必要です。
 
 ```js
-assert($('h2').eq(1).text() == '31 USD');
+assert.strictEqual(document.querySelectorAll('h2')[1]?.textContent, '31 USD');
 ```
 
 3 番目の `h2` にはテキスト `22 USD` が必要です。
 
 ```js
-assert($('h2').eq(2).text() == '22 USD');
+assert.strictEqual(document.querySelectorAll('h2')[2]?.textContent, '22 USD');
 ```
 
 4 番目の `h2` にはテキスト `17 USD` が必要です。
 
 ```js
-assert($('h2').eq(3).text() == '17 USD');
+assert.strictEqual(document.querySelectorAll('h2')[3]?.textContent, '17 USD');
 ```
 
 5 番目の `h2` にはテキスト `25 USD` が必要です。
 
 ```js
-assert($('h2').eq(4).text() == '25 USD');
+assert.strictEqual(document.querySelectorAll('h2')[4]?.textContent, '25 USD');
 ```
 
 6 番目の `h2`にはテキスト `18 USD` が必要です。
 
 ```js
-assert($('h2').eq(5).text() == '18 USD');
+assert.strictEqual(document.querySelectorAll('h2')[5]?.textContent, '18 USD');
 ```
 
 7 番目の `h2` にはテキスト `29 USD` が必要です。
 
 ```js
-assert($('h2').eq(6).text() == '29 USD');
+assert.strictEqual(document.querySelectorAll('h2')[6]?.textContent, '29 USD');
 ```
 
 8 番目の `h2` にはテキスト `14 USD` が必要です。
 
 ```js
-assert($('h2').eq(7).text() == '14 USD');
+assert.strictEqual(document.querySelectorAll('h2')[7]?.textContent, '14 USD');
 ```
 
 9 番目の `h2` にはテキスト `9 USD` が必要です。
 
 ```js
-assert($('h2').eq(8).text() == '9 USD');
+assert.strictEqual(document.querySelectorAll('h2')[8]?.textContent, '9 USD');
 ```
 
 # --seed--
@@ -91,15 +91,16 @@ assert($('h2').eq(8).text() == '9 USD');
   <script>
     const dataset = [12, 31, 22, 17, 25, 18, 29, 14, 9];
 
-    d3.select("body").selectAll("h2")
+    d3.select('body')
+      .selectAll('h2')
       .data(dataset)
       .enter()
-      .append("h2")
+      .append('h2')
       // Add your code below this line
 
-      .text("New Title");
+      .text('New Title');
 
-      // Add your code above this line
+    // Add your code above this line
   </script>
 </body>
 ```
@@ -111,12 +112,12 @@ assert($('h2').eq(8).text() == '9 USD');
   <script>
     const dataset = [12, 31, 22, 17, 25, 18, 29, 14, 9];
 
-    d3.select("body").selectAll("h2")
+    d3.select('body')
+      .selectAll('h2')
       .data(dataset)
       .enter()
-      .append("h2")
-      .text((d) => `${d} USD`);
-
+      .append('h2')
+      .text(d => `${d} USD`);
   </script>
 </body>
 ```

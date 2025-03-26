@@ -38,9 +38,9 @@ HTML、JavaScript、CSS、および D3 の SVG ベースのビジュアライゼ
 
 このプロジェクトでは、以下のいずれかのデータセットを使用できます。
 
--   **キックスタータープレッジ:** `https://cdn.freecodecamp.org/testable-projects-fcc/data/tree_map/kickstarter-funding-data.json`
--   **ムービーセールス:** `https://cdn.freecodecamp.org/testable-projects-fcc/data/tree_map/movie-data.json`
--   **ビデオゲームセールス:** `https://cdn.freecodecamp.org/testable-projects-fcc/data/tree_map/video-game-sales-data.json`
+- **キックスタータープレッジ:** `https://cdn.freecodecamp.org/testable-projects-fcc/data/tree_map/kickstarter-funding-data.json`
+- **ムービーセールス:** `https://cdn.freecodecamp.org/testable-projects-fcc/data/tree_map/movie-data.json`
+- **ビデオゲームセールス:** `https://cdn.freecodecamp.org/testable-projects-fcc/data/tree_map/video-game-sales-data.json`
 
 <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">この CodePen テンプレートを使用して</a>あなたのプロジェクトを構築することができます。`Save` をクリックすると、あなた用の pen を作成することができます。 または、下記の CDN リンクを使用して、使い慣れている環境でテストを実行することもできます: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
 

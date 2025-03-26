@@ -95,7 +95,7 @@ const el = document.getElementById('purchase-btn');
 assert.strictEqual(el?.nodeName?.toLowerCase(), 'button');
 ```
 
-Cuando `price` es `20` y el valor del elemento `#cash` es `10`, debe aparecer una alaerta con el texto `"Customer does not have enough money to purchase the item"`.
+When `price` is `20`, the value in the `#cash` element is `10`, and the `#purchase-btn` element is clicked, an alert should appear with the text `"Customer does not have enough money to purchase the item"`.
 
 ```js
 const cashInput = document.getElementById('cash');
@@ -118,7 +118,7 @@ assert.strictEqual(
 );
 ```
 
-Cuando el valor del elemento `#cash` es menor al valor del elemento `price`, debe aparecer una alerta con el texto `"Customer does not have enough money to purchase the item"`.
+When the value in the `#cash` element is less than `price`, and the `#purchase-btn` element is clicked, an alert should appear with the text `"Customer does not have enough money to purchase the item"`.
 
 ```js
 const cashInput = document.getElementById('cash');
@@ -155,7 +155,7 @@ assert.strictEqual(
 );
 ```
 
-Cuando `price` es `11.95` y el valor del elemento `#cash` es `11.95`, entonces el valor del elemento `#change-due` debe ser `"No change due - customer paid with exact cash"`.
+When `price` is `11.95`, the value in the `#cash` element is `11.95`, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"No change due - customer paid with exact cash"`.
 
 ```js
 const cashInput = document.getElementById('cash');
@@ -177,7 +177,7 @@ assert.strictEqual(
 );
 ```
 
-Cuando el valor del elemento `#cash` es igual al valor del elemento `price`, entonces el valor en el elemento `#change-due` debe ser `"No change due - customer paid with exact cash"`.
+When the value in the `#cash` element is equal to `price`, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"No change due - customer paid with exact cash"`.
 
 ```js
 const cashInput = document.getElementById('cash');

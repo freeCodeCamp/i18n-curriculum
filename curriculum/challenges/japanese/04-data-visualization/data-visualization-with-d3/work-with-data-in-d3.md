@@ -22,12 +22,13 @@ D3 ライブラリはデータ駆動型アプローチに焦点を当ててい�
 <body>
   <ul></ul>
   <script>
-    const dataset = ["a", "b", "c"];
-    d3.select("ul").selectAll("li")
+    const dataset = ['a', 'b', 'c'];
+    d3.select('ul')
+      .selectAll('li')
       .data(dataset)
       .enter()
-      .append("li")
-      .text("New item");
+      .append('li')
+      .text('New item');
   </script>
 </body>
 ```
@@ -43,29 +44,28 @@ D3 ライブラリはデータ駆動型アプローチに焦点を当ててい�
 ドキュメントには 9 個の `h2` 要素が必要です。
 
 ```js
-assert($('h2').length == 9);
+assert.lengthOf(document.querySelectorAll('h2'), 9);
 ```
 
 `h2` 要素内のテキストを `New Title` にする必要があります。 大文字とスペースの使い方が厳密に一致する必要があります。
 
 ```js
-assert(
-  $('h2')
-    .text()
-    .match(/New Title/g).length == 9
-);
+const h2Elements = document.querySelectorAll('h2');
+for (let i = 0; i < h2Elements.length; i++) {
+  assert.match(h2Elements[i]?.textContent, /New Title/g);
+}
 ```
 
 `data()` メソッドを使用する必要があります。
 
 ```js
-assert(code.match(/\.data/g));
+assert.match(code, /\.data/g);
 ```
 
 `enter()` メソッドを使用する必要があります。
 
 ```js
-assert(code.match(/\.enter/g));
+assert.match(code, /\.enter/g);
 ```
 
 # --seed--
@@ -93,13 +93,12 @@ assert(code.match(/\.enter/g));
   <script>
     const dataset = [12, 31, 22, 17, 25, 18, 29, 14, 9];
 
-    d3.select("body")
-      .selectAll("h2")
+    d3.select('body')
+      .selectAll('h2')
       .data(dataset)
       .enter()
-      .append("h2")
-      .text("New Title")
-
+      .append('h2')
+      .text('New Title');
   </script>
 </body>
 ```

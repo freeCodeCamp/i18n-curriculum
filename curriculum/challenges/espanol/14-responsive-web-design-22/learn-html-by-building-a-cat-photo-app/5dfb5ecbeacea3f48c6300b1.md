@@ -1,6 +1,6 @@
 ---
 id: 5dfb5ecbeacea3f48c6300b1
-title: Step 23
+title: Paso 23
 challengeType: 0
 dashedName: step-23
 ---
@@ -35,7 +35,7 @@ assert.lengthOf(document.querySelectorAll('li'),3)
 assert.lengthOf(code.match(/<\/li\>/g),3);
 ```
 
-You should have three `li` elements with the text `catnip`, `laser pointers` and `lasagna` in any order. Has omitido algún texto o tienes un error tipográfico.
+Debes tener tres elementos `li` con los textos `catnip`, `laser pointers` y `lasagna` en cualquier orden. Has omitido algún texto o tienes un error tipográfico.
 
 ```js
 assert.deepStrictEqual(

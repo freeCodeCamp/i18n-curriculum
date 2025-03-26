@@ -7,7 +7,7 @@ dashedName: step-20
 
 # --description--
 
-`div` 要素はこれまで使用してきた他のコンテンツ要素とは異なり、主にレイアウトデザイン目的で使用されます。 `body` 要素内に `div` 要素を追加し、他のすべての要素を新しい `div` の中に移動させてください。
+The `div` element is used mainly for design layout purposes, unlike the other content elements you have used so far. `body` 要素内に `div` 要素を追加し、他のすべての要素を新しい `div` の中に移動させてください。
 
 そして `div` の開始タグには、`id` 属性と `menu` という値を追加してください。
 

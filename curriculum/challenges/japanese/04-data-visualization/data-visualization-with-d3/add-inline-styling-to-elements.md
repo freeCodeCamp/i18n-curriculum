@@ -13,7 +13,7 @@ D3 では、`style()` メソッドを使用して動的要素にインライン 
 `style()` メソッドは、カンマ区切りのキーと値のペアを引数に取ります。 選択したテキストの色を青に設定する例を下に示します。
 
 ```js
-selection.style("color","blue");
+selection.style('color', 'blue');
 ```
 
 # --instructions--
@@ -25,13 +25,16 @@ selection.style("color","blue");
 `h2` 要素に `verdana` の `font-family` を設定する必要があります。
 
 ```js
-assert($('h2').css('font-family') == 'verdana');
+const headingTwo = document.querySelector('h2');
+assert.exists(headingTwo); 
+const fontFamily = window.getComputedStyle(headingTwo)['font-family'];
+assert.strictEqual(fontFamily, 'verdana');
 ```
 
 `style()` メソッドを使用する必要があります。
 
 ```js
-assert(code.match(/\.style/g));
+assert.match(code, /\.style/g);
 ```
 
 # --seed--
@@ -43,16 +46,17 @@ assert(code.match(/\.style/g));
   <script>
     const dataset = [12, 31, 22, 17, 25, 18, 29, 14, 9];
 
-    d3.select("body").selectAll("h2")
+    d3.select('body')
+      .selectAll('h2')
       .data(dataset)
       .enter()
-      .append("h2")
-      .text((d) => (d + " USD"))
-      // Add your code below this line
+      .append('h2')
+      .text(d => d + ' USD');
+    // Add your code below this line
 
 
 
-      // Add your code above this line
+    // Add your code above this line
   </script>
 </body>
 ```
@@ -64,13 +68,13 @@ assert(code.match(/\.style/g));
   <script>
     const dataset = [12, 31, 22, 17, 25, 18, 29, 14, 9];
 
-    d3.select("body").selectAll("h2")
+    d3.select('body')
+      .selectAll('h2')
       .data(dataset)
       .enter()
-      .append("h2")
-      .text((d) => (d + " USD"))
-      .style("font-family", "verdana")
-
+      .append('h2')
+      .text(d => d + ' USD')
+      .style('font-family', 'verdana');
   </script>
 </body>
 ```

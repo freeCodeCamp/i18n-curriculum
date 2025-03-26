@@ -47,7 +47,7 @@ Total: 923.96
 
 `Category` クラスの他に、カテゴリのリストを引数に取る `create_spend_chart` という関数を (クラスの外で) 作成してください。 この関数は棒グラフとなる文字列を返す必要があります。
 
-グラフでは、関数に渡された各カテゴリについて、その出費の割合を表示するようにしてください。 出費の割合は、引き出し額でのみ計算する必要があり、預け入れ額では計算しません。 グラフの左端に沿って、0 ～ 100 のラベルを付けてください。 The 'bars' in the bar chart should be made out of the 'o' character. 各棒の高さは最も近い 10 ごとの数字に切り下げる必要があります。 グラフの下の水平線は最後の棒からスペース 2 つ分だけ伸ばす必要があります。 各カテゴリ名は棒の下に縦書きで表示してください。 There should be a title at the top that says 'Percentage spent by category'.
+グラフでは、関数に渡された各カテゴリについて、その出費の割合を表示するようにしてください。 The percentage spent should be calculated only with withdrawals and not with deposits, and it should be the percentage of the amount spent for each category to the total spent for all categories. グラフの左端に沿って、0 ～ 100 のラベルを付けてください。 The 'bars' in the bar chart should be made out of the 'o' character. 各棒の高さは最も近い 10 ごとの数字に切り下げる必要があります。 グラフの下の水平線は最後の棒からスペース 2 つ分だけ伸ばす必要があります。 各カテゴリ名は棒の下に縦書きで表示してください。 There should be a title at the top that says 'Percentage spent by category'.
 
 この関数は最大 4 つのカテゴリでテストされます。
 

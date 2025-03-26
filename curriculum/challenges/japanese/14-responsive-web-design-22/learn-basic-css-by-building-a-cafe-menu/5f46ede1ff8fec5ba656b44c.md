@@ -7,7 +7,7 @@ dashedName: step-77
 
 # --description--
 
-次に、`footer` 要素のスタイリングを行いましょう。 CSS を整理するために、`styles.css` の末尾に `FOOTER` というテキストのコメントを追加してください。
+Next, you are going to be styling the `footer` element. CSS を整理するために、`styles.css` の末尾に `FOOTER` というテキストのコメントを追加してください。
 
 # --hints--
 
