@@ -19,7 +19,7 @@ The bar and scatter plot charts both plotted data directly onto the SVG. However
 D3 має кілька типів шкал. Для лінійного масштабу (зазвичай використовується з кількісними даними) використовують метод `scaleLinear()` від D3:
 
 ```js
-const scale = d3.scaleLinear()
+const scale = d3.scaleLinear();
 ```
 
 За замовчуванням шкала використовує зв’язок ідентичності. Значення вхідних даних таке ж, як і значення вихідних даних. Для цієї теми виокремлено окреме завдання.
@@ -33,19 +33,20 @@ const scale = d3.scaleLinear()
 Текстом елемента `h2` має бути `50`.
 
 ```js
-assert($('h2').text() == '50');
+assert.strictEqual(document.querySelector('h2')?.textContent, '50');
 ```
 
 Код має використати метод `scaleLinear()`.
 
 ```js
-assert(code.match(/\.scaleLinear/g));
+assert.match(code, /\.scaleLinear/g);
 ```
 
 Змінна `output` повинна викликати `scale` з аргументом `50`.
 
 ```js
-assert(output == 50 && code.match(/scale\(\s*?50\s*?\)/g));
+assert.strictEqual(output, 50);
+assert.match(code, /scale\(\s*50\s*\)/g);
 ```
 
 # --seed--
@@ -62,10 +63,7 @@ assert(output == 50 && code.match(/scale\(\s*?50\s*?\)/g));
 
     // Add your code above this line
 
-    d3.select("body")
-      .append("h2")
-      .text(output);
-
+    d3.select('body').append('h2').text(output);
   </script>
 </body>
 ```
@@ -75,14 +73,10 @@ assert(output == 50 && code.match(/scale\(\s*?50\s*?\)/g));
 ```html
 <body>
   <script>
-
     const scale = d3.scaleLinear();
-    const output = scale(50); 
+    const output = scale(50);
 
-    d3.select("body")
-      .append("h2")
-      .text(output);
-
+    d3.select('body').append('h2').text(output);
   </script>
 </body>
 ```

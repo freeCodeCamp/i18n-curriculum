@@ -29,55 +29,82 @@ You may have noticed the bar chart looked like it's upside-down, or inverted. Th
 Перший `rect` повинен мати `y` зі значенням `64`.
 
 ```js
-assert($('rect').eq(0).attr('y') == h - dataset[0] * 3);
+assert.strictEqual(
+  document.querySelectorAll('rect')[0]?.getAttribute('y'),
+  (h - dataset[0] * 3).toString()
+);
 ```
 
 Другий `rect` повинен мати `y` зі значенням `7`.
 
 ```js
-assert($('rect').eq(1).attr('y') == h - dataset[1] * 3);
+assert.strictEqual(
+  document.querySelectorAll('rect')[1]?.getAttribute('y'),
+  (h - dataset[1] * 3).toString()
+);
 ```
 
 Третій `rect` повинен мати `y` зі значенням `34`.
 
 ```js
-assert($('rect').eq(2).attr('y') == h - dataset[2] * 3);
+assert.strictEqual(
+  document.querySelectorAll('rect')[2]?.getAttribute('y'),
+  (h - dataset[2] * 3).toString()
+);
 ```
 
 Четвертий `rect` повинен мати `y` зі значенням `49`.
 
 ```js
-assert($('rect').eq(3).attr('y') == h - dataset[3] * 3);
+assert.strictEqual(
+  document.querySelectorAll('rect')[3]?.getAttribute('y'),
+  (h - dataset[3] * 3).toString()
+);
 ```
 
 П’ятий `rect` повинен мати `y` зі значенням `25`.
 
 ```js
-assert($('rect').eq(4).attr('y') == h - dataset[4] * 3);
+assert.strictEqual(
+  document.querySelectorAll('rect')[4]?.getAttribute('y'),
+  (h - dataset[4] * 3).toString()
+);
 ```
 
 Шостий `rect` повинен мати `y` зі значенням `46`.
 
 ```js
-assert($('rect').eq(5).attr('y') == h - dataset[5] * 3);
+assert.strictEqual(
+  document.querySelectorAll('rect')[5]?.getAttribute('y'),
+  (h - dataset[5] * 3).toString()
+);
 ```
 
 Сьомий `rect` повинен мати `y` зі значенням `13`.
 
 ```js
-assert($('rect').eq(6).attr('y') == h - dataset[6] * 3);
+assert.strictEqual(
+  document.querySelectorAll('rect')[6]?.getAttribute('y'),
+  (h - dataset[6] * 3).toString()
+);
 ```
 
 Восьмий `rect` повинен мати `y` зі значенням `58`.
 
 ```js
-assert($('rect').eq(7).attr('y') == h - dataset[7] * 3);
+assert.strictEqual(
+  document.querySelectorAll('rect')[7]?.getAttribute('y'),
+  (h - dataset[7] * 3).toString()
+);
 ```
 
 Дев’ятий `rect` повинен мати `y` зі значенням `73`.
 
 ```js
-assert($('rect').eq(8).attr('y') == h - dataset[8] * 3);
+assert.strictEqual(
+  document.querySelectorAll('rect')[8]?.getAttribute('y'),
+  (h - dataset[8] * 3).toString()
+);
 ```
 
 # --seed--
@@ -92,25 +119,27 @@ assert($('rect').eq(8).attr('y') == h - dataset[8] * 3);
     const w = 500;
     const h = 100;
 
-    const svg = d3.select("body")
-                  .append("svg")
-                  .attr("width", w)
-                  .attr("height", h);
+    const svg = d3
+      .select('body')
+      .append('svg')
+      .attr('width', w)
+      .attr('height', h);
 
-    svg.selectAll("rect")
-       .data(dataset)
-       .enter()
-       .append("rect")
-       .attr("x", (d, i) => i * 30)
-       .attr("y", (d, i) => {
-         // Add your code below this line
+    svg
+      .selectAll('rect')
+      .data(dataset)
+      .enter()
+      .append('rect')
+      .attr('x', (d, i) => i * 30)
+      .attr('y', (d, i) => {
+        // Add your code below this line
 
 
 
-         // Add your code above this line
-       })
-       .attr("width", 25)
-       .attr("height", (d, i) => 3 * d);
+        // Add your code above this line
+      })
+      .attr('width', 25)
+      .attr('height', (d, i) => 3 * d);
   </script>
 </body>
 ```
@@ -125,19 +154,21 @@ assert($('rect').eq(8).attr('y') == h - dataset[8] * 3);
     const w = 500;
     const h = 100;
 
-    const svg = d3.select("body")
-                  .append("svg")
-                  .attr("width", w)
-                  .attr("height", h);
+    const svg = d3
+      .select('body')
+      .append('svg')
+      .attr('width', w)
+      .attr('height', h);
 
-    svg.selectAll("rect")
-       .data(dataset)
-       .enter()
-       .append("rect")
-       .attr("x", (d, i) => i * 30)
-       .attr("y", (d, i) => h - 3 * d)
-       .attr("width", 25)
-       .attr("height", (d, i) => 3 * d);
+    svg
+      .selectAll('rect')
+      .data(dataset)
+      .enter()
+      .append('rect')
+      .attr('x', (d, i) => i * 30)
+      .attr('y', (d, i) => h - 3 * d)
+      .attr('width', 25)
+      .attr('height', (d, i) => 3 * d);
   </script>
 </body>
 ```

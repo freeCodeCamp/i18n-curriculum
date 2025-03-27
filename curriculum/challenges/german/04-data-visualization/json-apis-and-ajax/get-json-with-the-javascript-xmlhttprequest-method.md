@@ -24,11 +24,12 @@ Du kannst die JSON-Daten der Katzenfoto-API von freeCodeCamp anfordern. Hier ist
 
 ```js
 const req = new XMLHttpRequest();
-req.open("GET",'/json/cats.json',true);
+req.open('GET', '/json/cats.json', true);
 req.send();
-req.onload = function(){
+req.onload = function () {
   const json = JSON.parse(req.responseText);
-  document.getElementsByClassName('message')[0].innerHTML = JSON.stringify(json);
+  document.getElementsByClassName('message')[0].innerHTML =
+    JSON.stringify(json);
 };
 ```
 
@@ -43,46 +44,45 @@ Aktualisiere den Code, um eine `GET`-Anfrage zu erzeugen, und an freeCodeCamp's 
 Dein Code sollte eine neue `XMLHttpRequest` erzeugen.
 
 ```js
-assert(code.match(/new\s+?XMLHttpRequest\(\s*?\)/g));
+assert.match(code, /new\s+?XMLHttpRequest\(\s*?\)/g);
 ```
 
 Dein Code sollte von der `open`-Methode Gebrauch machen, um eine `GET`-Anfrage an freeCodeCamp's Katzenfoto-API zu initialisieren.
 
 ```js
-assert(
-  code.match(
-    /\.open\(\s*?('|")GET\1\s*?,\s*?('|")\/json\/cats\.json\2\s*?,\s*?true\s*?\)/g
-  )
+assert.match(
+  code,
+  /\.open\(\s*('|")GET\1\s*,\s*('|")\/json\/cats\.json\2\s*,\s*true\s*\)/g
 );
 ```
 
 Dein Code sollte die `send`-Methode verwenden, um die Anfrage abzuschicken.
 
 ```js
-assert(code.match(/\.send\(\s*\)/g));
+assert.match(code, /\.send\(\s*\)/g);
 ```
 
 Dein Code sollte über einen auf eine Funktion gesetzten `onload`-Eventhandler verfügen.
 
 ```js
-assert(
-  code.match(/\.onload\s*=\s*(function|\(\s*?\))\s*?(\(\s*?\)|\=\>)\s*?{/g)
+assert.match(
+  code,
+  /\.onload\s*=\s*(function|\(\s*\))\s*(\(\s*\)|\=\>)\s*{/g
 );
 ```
 
 Dein Code sollte die `JSON.parse`-Methode verwenden, um den `responseText` zu parsen.
 
 ```js
-assert(code.match(/JSON\s*\.parse\(\s*.*\.responseText\s*\)/g));
+assert.match(code, /JSON\s*\.parse\(\s*.*\.responseText\s*\)/g);
 ```
 
 Dein Code sollte das Element mit der Klasse `message` aufrufen und die inneren HTML-Werte auf den String der JSON-Daten setzen.
 
 ```js
-assert(
-  code.match(
-    /document\s*\.getElementsByClassName\(\s*?('|")message\1\s*?\)\[0\]\s*\.innerHTML\s*?=\s*?JSON\.stringify\(.+?\)/g
-  )
+assert.match(
+  code,
+  /document\s*\.getElementsByClassName\(\s*?('|")message\1\s*?\)\[0\]\s*\.innerHTML\s*?=\s*?JSON\.stringify\(.+?\)/g
 );
 ```
 
@@ -92,11 +92,9 @@ assert(
 
 ```html
 <script>
-  document.addEventListener('DOMContentLoaded', function(){
-    document.getElementById('getMessage').onclick = function(){
+  document.addEventListener('DOMContentLoaded', function () {
+    document.getElementById('getMessage').onclick = function () {
       // Add your code below this line
-
-
       // Add your code above this line
     };
   });
@@ -105,7 +103,7 @@ assert(
 <style>
   body {
     text-align: center;
-    font-family: "Helvetica", sans-serif;
+    font-family: 'Helvetica', sans-serif;
   }
   h1 {
     font-size: 2em;
@@ -124,19 +122,15 @@ assert(
     padding: 5px 10px 8px 10px;
   }
   button:hover {
-    background-color: #0F5897;
-    border: 1px solid #0F5897;
+    background-color: #0f5897;
+    border: 1px solid #0f5897;
   }
 </style>
 
 <h1>Cat Photo Finder</h1>
-<p class="message box">
-  The message will go here
-</p>
+<p class="message box">The message will go here</p>
 <p>
-  <button id="getMessage">
-    Get Message
-  </button>
+  <button id="getMessage">Get Message</button>
 </p>
 ```
 
@@ -144,14 +138,15 @@ assert(
 
 ```html
 <script>
-  document.addEventListener('DOMContentLoaded',function(){
-    document.getElementById('getMessage').onclick = function(){
+  document.addEventListener('DOMContentLoaded', function () {
+    document.getElementById('getMessage').onclick = function () {
       const req = new XMLHttpRequest();
       req.open('GET', '/json/cats.json', true);
       req.send();
       req.onload = () => {
         const json = JSON.parse(req.responseText);
-        document.getElementsByClassName('message')[0].innerHTML = JSON.stringify(json);
+        document.getElementsByClassName('message')[0].innerHTML =
+          JSON.stringify(json);
       };
     };
   });
@@ -160,7 +155,7 @@ assert(
 <style>
   body {
     text-align: center;
-    font-family: "Helvetica", sans-serif;
+    font-family: 'Helvetica', sans-serif;
   }
   h1 {
     font-size: 2em;
@@ -179,18 +174,14 @@ assert(
     padding: 5px 10px 8px 10px;
   }
   button:hover {
-    background-color: #0F5897;
-    border: 1px solid #0F5897;
+    background-color: #0f5897;
+    border: 1px solid #0f5897;
   }
 </style>
 
 <h1>Cat Photo Finder</h1>
-<p class="message box">
-  The message will go here
-</p>
+<p class="message box">The message will go here</p>
 <p>
-  <button id="getMessage">
-    Get Message
-  </button>
+  <button id="getMessage">Get Message</button>
 </p>
 ```

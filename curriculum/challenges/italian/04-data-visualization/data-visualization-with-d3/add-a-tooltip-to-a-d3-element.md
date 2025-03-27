@@ -21,61 +21,61 @@ Aggiungi un elemento `title` sotto ogni nodo `rect`. Quindi chiama il metodo `te
 Il tuo codice dovrebbe avere 9 elementi `title`.
 
 ```js
-assert($('title').length == 9);
+assert.lengthOf(document.querySelectorAll('title'), 9);
 ```
 
 Il primo elemento `title` dovrebbe avere un testo tooltip di `12`.
 
 ```js
-assert($('title').eq(0).text() == '12');
+assert.strictEqual(document.querySelectorAll('title')[0]?.textContent, '12');
 ```
 
 Il secondo elemento `title` dovrebbe avere un testo tooltip di `31`.
 
 ```js
-assert($('title').eq(1).text() == '31');
+assert.strictEqual(document.querySelectorAll('title')[1]?.textContent, '31');
 ```
 
 Il terzo elemento `title` dovrebbe avere un testo tooltip di `22`.
 
 ```js
-assert($('title').eq(2).text() == '22');
+assert.strictEqual(document.querySelectorAll('title')[2]?.textContent, '22');
 ```
 
 Il quarto elemento `title` dovrebbe avere un testo tooltip di `17`.
 
 ```js
-assert($('title').eq(3).text() == '17');
+assert.strictEqual(document.querySelectorAll('title')[3]?.textContent, '17');
 ```
 
 Il quinto elemento `title` dovrebbe avere un testo tooltip di `25`.
 
 ```js
-assert($('title').eq(4).text() == '25');
+assert.strictEqual(document.querySelectorAll('title')[4]?.textContent, '25');
 ```
 
 Il sesto elemento `title` dovrebbe avere un testo tooltip di `18`.
 
 ```js
-assert($('title').eq(5).text() == '18');
+assert.strictEqual(document.querySelectorAll('title')[5]?.textContent, '18');
 ```
 
 Il settimo elemento `title` dovrebbe avere un testo tooltip di `29`.
 
 ```js
-assert($('title').eq(6).text() == '29');
+assert.strictEqual(document.querySelectorAll('title')[6]?.textContent, '29');
 ```
 
 L'ottavo elemento `title` dovrebbe avere un testo tooltip di `14`.
 
 ```js
-assert($('title').eq(7).text() == '14');
+assert.strictEqual(document.querySelectorAll('title')[7]?.textContent, '14');
 ```
 
 Il nono elemento `title` dovrebbe avere un testo tooltip di `9`.
 
 ```js
-assert($('title').eq(8).text() == '9');
+assert.strictEqual(document.querySelectorAll('title')[8]?.textContent, '9');
 ```
 
 # --seed--
@@ -95,35 +95,37 @@ assert($('title').eq(8).text() == '9');
     const w = 500;
     const h = 100;
 
-    const svg = d3.select("body")
-                  .append("svg")
-                  .attr("width", w)
-                  .attr("height", h);
+    const svg = d3
+      .select('body')
+      .append('svg')
+      .attr('width', w)
+      .attr('height', h);
 
-    svg.selectAll("rect")
-       .data(dataset)
-       .enter()
-       .append("rect")
-       .attr("x", (d, i) => i * 30)
-       .attr("y", (d, i) => h - 3 * d)
-       .attr("width", 25)
-       .attr("height", (d, i) => d * 3)
-       .attr("fill", "navy")
-       .attr("class", "bar")
-       // Add your code below this line
+    svg
+      .selectAll('rect')
+      .data(dataset)
+      .enter()
+      .append('rect')
+      .attr('x', (d, i) => i * 30)
+      .attr('y', (d, i) => h - 3 * d)
+      .attr('width', 25)
+      .attr('height', (d, i) => d * 3)
+      .attr('fill', 'navy')
+      .attr('class', 'bar');
+    // Add your code below this line
 
 
 
-       // Add your code above this line
+    // Add your code above this line
 
-    svg.selectAll("text")
-       .data(dataset)
-       .enter()
-       .append("text")
-       .text((d) => d)
-       .attr("x", (d, i) => i * 30)
-       .attr("y", (d, i) => h - (d * 3 + 3))
-
+    svg
+      .selectAll('text')
+      .data(dataset)
+      .enter()
+      .append('text')
+      .text(d => d)
+      .attr('x', (d, i) => i * 30)
+      .attr('y', (d, i) => h - (d * 3 + 3));
   </script>
 </body>
 ```
@@ -143,33 +145,34 @@ assert($('title').eq(8).text() == '9');
     const w = 500;
     const h = 100;
 
-    const svg = d3.select("body")
-                  .append("svg")
-                  .attr("width", w)
-                  .attr("height", h);
+    const svg = d3
+      .select('body')
+      .append('svg')
+      .attr('width', w)
+      .attr('height', h);
 
-    svg.selectAll("rect")
-       .data(dataset)
-       .enter()
-       .append("rect")
-       .attr("x", (d, i) => i * 30)
-       .attr("y", (d, i) => h - 3 * d)
-       .attr("width", 25)
-       .attr("height", (d, i) => d * 3)
-       .attr("fill", "navy")
-       .attr("class", "bar")
-       .append("title")
-       .text((d) => d)
+    svg
+      .selectAll('rect')
+      .data(dataset)
+      .enter()
+      .append('rect')
+      .attr('x', (d, i) => i * 30)
+      .attr('y', (d, i) => h - 3 * d)
+      .attr('width', 25)
+      .attr('height', (d, i) => d * 3)
+      .attr('fill', 'navy')
+      .attr('class', 'bar')
+      .append('title')
+      .text(d => d);
 
-
-    svg.selectAll("text")
-       .data(dataset)
-       .enter()
-       .append("text")
-       .text((d) => d)
-       .attr("x", (d, i) => i * 30)
-       .attr("y", (d, i) => h - (d * 3 + 3))
-
+    svg
+      .selectAll('text')
+      .data(dataset)
+      .enter()
+      .append('text')
+      .text(d => d)
+      .attr('x', (d, i) => i * 30)
+      .attr('y', (d, i) => h - (d * 3 + 3));
   </script>
 </body>
 ```

@@ -11,9 +11,7 @@ dashedName: dynamically-change-the-height-of-each-bar
 The height of each bar can be set to the value of the data point in the array, similar to how the `x` value was set dynamically.
 
 ```js
-selection.attr("property", (d, i) => {
-
-})
+selection.attr('property', (d, i) => {});
 ```
 
 Qui `d` sarebbe il valore del punto dati, e `i` sarebbe l'indice del punto di dati nell'array.
@@ -29,55 +27,82 @@ Modifica la funzione di callback per l'attributo altezza `height` in modo che re
 Il primo `rect` dovrebbe avere un'altezza `height` di `36`.
 
 ```js
-assert($('rect').eq(0).attr('height') == '36');
+assert.strictEqual(
+  document.querySelectorAll('rect')[0]?.getAttribute('height'),
+  '36'
+);
 ```
 
 Il secondo `rect` dovrebbe avere un'altezza `height` di `93`.
 
 ```js
-assert($('rect').eq(1).attr('height') == '93');
+assert.strictEqual(
+  document.querySelectorAll('rect')[1]?.getAttribute('height'),
+  '93'
+);
 ```
 
 Il terzo `rect` dovrebbe avere un'altezza `height` di `66`.
 
 ```js
-assert($('rect').eq(2).attr('height') == '66');
+assert.strictEqual(
+  document.querySelectorAll('rect')[2]?.getAttribute('height'),
+  '66'
+);
 ```
 
 Il quarto `rect` dovrebbe avere un'altezza `height` di `51`.
 
 ```js
-assert($('rect').eq(3).attr('height') == '51');
+assert.strictEqual(
+  document.querySelectorAll('rect')[3]?.getAttribute('height'),
+  '51'
+);
 ```
 
 Il quinto `rect` dovrebbe avere un'altezza `height` di `75`.
 
 ```js
-assert($('rect').eq(4).attr('height') == '75');
+assert.strictEqual(
+  document.querySelectorAll('rect')[4]?.getAttribute('height'),
+  '75'
+);
 ```
 
 Il sesto`rect` dovrebbe avere un'altezza `height` di `54`.
 
 ```js
-assert($('rect').eq(5).attr('height') == '54');
+assert.strictEqual(
+  document.querySelectorAll('rect')[5]?.getAttribute('height'),
+  '54'
+);
 ```
 
 Il settimo `rect` dovrebbe avere un'altezza `height` di `87`.
 
 ```js
-assert($('rect').eq(6).attr('height') == '87');
+assert.strictEqual(
+  document.querySelectorAll('rect')[6]?.getAttribute('height'),
+  '87'
+);
 ```
 
 L'ottavo `rect` dovrebbe avere un'altezza `height` di `42`.
 
 ```js
-assert($('rect').eq(7).attr('height') == '42');
+assert.strictEqual(
+  document.querySelectorAll('rect')[7]?.getAttribute('height'),
+  '42'
+);
 ```
 
 Il nono `rect` dovrebbe avere un'altezza `height` di `27`.
 
 ```js
-assert($('rect').eq(8).attr('height') == '27');
+assert.strictEqual(
+  document.querySelectorAll('rect')[8]?.getAttribute('height'),
+  '27'
+);
 ```
 
 # --seed--
@@ -92,25 +117,28 @@ assert($('rect').eq(8).attr('height') == '27');
     const w = 500;
     const h = 100;
 
-    const svg = d3.select("body")
-                  .append("svg")
-                  .attr("width", w)
-                  .attr("height", h);
+    const svg = d3
+      .select('body')
+      .append('svg')
+      .attr('width', w)
+      .attr('height', h);
 
-    svg.selectAll("rect")
-       .data(dataset)
-       .enter()
-       .append("rect")
-       .attr("x", (d, i) => i * 30)
-       .attr("y", 0)
-       .attr("width", 25)
-       .attr("height", (d, i) => {
-         // Add your code below this line
+    svg
+      .selectAll('rect')
+      .data(dataset)
+      .enter()
+      .append('rect')
+      .attr('x', (d, i) => i * 30)
+      .attr('y', 0)
+      .attr('width', 25)
+      .attr('height', (d, i) => {
+        // Add your code below this line
 
 
 
-         // Add your code above this line
-       });
+
+        // Add your code above this line
+      });
   </script>
 </body>
 ```
@@ -125,21 +153,23 @@ assert($('rect').eq(8).attr('height') == '27');
     const w = 500;
     const h = 100;
 
-    const svg = d3.select("body")
-                  .append("svg")
-                  .attr("width", w)
-                  .attr("height", h);
+    const svg = d3
+      .select('body')
+      .append('svg')
+      .attr('width', w)
+      .attr('height', h);
 
-    svg.selectAll("rect")
-       .data(dataset)
-       .enter()
-       .append("rect")
-       .attr("x", (d, i) => i * 30)
-       .attr("y", 0)
-       .attr("width", 25)
-       .attr("height", (d, i) => {
-         return d * 3
-       });
+    svg
+      .selectAll('rect')
+      .data(dataset)
+      .enter()
+      .append('rect')
+      .attr('x', (d, i) => i * 30)
+      .attr('y', 0)
+      .attr('width', 25)
+      .attr('height', (d, i) => {
+        return d * 3;
+      });
   </script>
 </body>
 ```

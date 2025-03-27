@@ -8,7 +8,7 @@ dashedName: return-part-of-an-array-using-the-slice-method
 
 # --description--
 
-The `slice` method returns a copy of certain elements of an array. It can take two arguments, the first gives the index of where to begin the slice, the second is the index for where to end the slice (and it's non-inclusive). If the arguments are not provided, the default is to start at the beginning of the array through the end, which is an easy way to make a copy of the entire array. The `slice` method does not mutate the original array, but returns a new one.
+`slice` 메소드는 배열에 있는 특정 요소들의 복사본을 반환합니다. 이 메소드는 두 개의 인자를 받을 수 있습니다. 첫 번째는 슬라이스를 시작할 인덱스이고, 두 번째 인자는 슬라이스가 끝나는 위치의 바로 이전 인덱스까지 적용됩니다. 인자가 제공되지 않으면, 기본적으로 배열의 처음부터 끝까지 선택되며, 이는 전체 배열을 복사하는 간편한 방법입니다. `slice` 메소드는 본래 배열을 변형시키지 않고 새로운 배열을 반환합니다.
 
 여기 예시가 있습니다:
 

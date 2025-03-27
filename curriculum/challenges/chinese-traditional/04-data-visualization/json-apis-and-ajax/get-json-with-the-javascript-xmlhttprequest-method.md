@@ -24,11 +24,12 @@ JSON 語法與 JavaScript 對象字面符號非常相似。 JSON 具有對象屬
 
 ```js
 const req = new XMLHttpRequest();
-req.open("GET",'/json/cats.json',true);
+req.open('GET', '/json/cats.json', true);
 req.send();
-req.onload = function(){
+req.onload = function () {
   const json = JSON.parse(req.responseText);
-  document.getElementsByClassName('message')[0].innerHTML = JSON.stringify(json);
+  document.getElementsByClassName('message')[0].innerHTML =
+    JSON.stringify(json);
 };
 ```
 
@@ -43,46 +44,45 @@ req.onload = function(){
 應該創建一個新的 `XMLHttpRequest`。
 
 ```js
-assert(code.match(/new\s+?XMLHttpRequest\(\s*?\)/g));
+assert.match(code, /new\s+?XMLHttpRequest\(\s*?\)/g);
 ```
 
 應該使用該 `open` 方法初始化對 freeCodeCamp Cat Photo API 的 `GET` 請求。
 
 ```js
-assert(
-  code.match(
-    /\.open\(\s*?('|")GET\1\s*?,\s*?('|")\/json\/cats\.json\2\s*?,\s*?true\s*?\)/g
-  )
+assert.match(
+  code,
+  /\.open\(\s*('|")GET\1\s*,\s*('|")\/json\/cats\.json\2\s*,\s*true\s*\)/g
 );
 ```
 
 應使用該 `send` 方法發送請求。
 
 ```js
-assert(code.match(/\.send\(\s*\)/g));
+assert.match(code, /\.send\(\s*\)/g);
 ```
 
 應該有一個 `onload` 設置爲函數的事件處理程序。
 
 ```js
-assert(
-  code.match(/\.onload\s*=\s*(function|\(\s*?\))\s*?(\(\s*?\)|\=\>)\s*?{/g)
+assert.match(
+  code,
+  /\.onload\s*=\s*(function|\(\s*\))\s*(\(\s*\)|\=\>)\s*{/g
 );
 ```
 
 應該使用該 `JSON.parse` 方法來解析 `responseText`。
 
 ```js
-assert(code.match(/JSON\s*\.parse\(\s*.*\.responseText\s*\)/g));
+assert.match(code, /JSON\s*\.parse\(\s*.*\.responseText\s*\)/g);
 ```
 
 應該使用 `message` 獲取元素，並將其內部 HTML 轉換爲 JSON 數據字符串。
 
 ```js
-assert(
-  code.match(
-    /document\s*\.getElementsByClassName\(\s*?('|")message\1\s*?\)\[0\]\s*\.innerHTML\s*?=\s*?JSON\.stringify\(.+?\)/g
-  )
+assert.match(
+  code,
+  /document\s*\.getElementsByClassName\(\s*?('|")message\1\s*?\)\[0\]\s*\.innerHTML\s*?=\s*?JSON\.stringify\(.+?\)/g
 );
 ```
 
@@ -92,11 +92,9 @@ assert(
 
 ```html
 <script>
-  document.addEventListener('DOMContentLoaded', function(){
-    document.getElementById('getMessage').onclick = function(){
+  document.addEventListener('DOMContentLoaded', function () {
+    document.getElementById('getMessage').onclick = function () {
       // Add your code below this line
-
-
       // Add your code above this line
     };
   });
@@ -105,7 +103,7 @@ assert(
 <style>
   body {
     text-align: center;
-    font-family: "Helvetica", sans-serif;
+    font-family: 'Helvetica', sans-serif;
   }
   h1 {
     font-size: 2em;
@@ -124,19 +122,15 @@ assert(
     padding: 5px 10px 8px 10px;
   }
   button:hover {
-    background-color: #0F5897;
-    border: 1px solid #0F5897;
+    background-color: #0f5897;
+    border: 1px solid #0f5897;
   }
 </style>
 
 <h1>Cat Photo Finder</h1>
-<p class="message box">
-  The message will go here
-</p>
+<p class="message box">The message will go here</p>
 <p>
-  <button id="getMessage">
-    Get Message
-  </button>
+  <button id="getMessage">Get Message</button>
 </p>
 ```
 
@@ -144,14 +138,15 @@ assert(
 
 ```html
 <script>
-  document.addEventListener('DOMContentLoaded',function(){
-    document.getElementById('getMessage').onclick = function(){
+  document.addEventListener('DOMContentLoaded', function () {
+    document.getElementById('getMessage').onclick = function () {
       const req = new XMLHttpRequest();
       req.open('GET', '/json/cats.json', true);
       req.send();
       req.onload = () => {
         const json = JSON.parse(req.responseText);
-        document.getElementsByClassName('message')[0].innerHTML = JSON.stringify(json);
+        document.getElementsByClassName('message')[0].innerHTML =
+          JSON.stringify(json);
       };
     };
   });
@@ -160,7 +155,7 @@ assert(
 <style>
   body {
     text-align: center;
-    font-family: "Helvetica", sans-serif;
+    font-family: 'Helvetica', sans-serif;
   }
   h1 {
     font-size: 2em;
@@ -179,18 +174,14 @@ assert(
     padding: 5px 10px 8px 10px;
   }
   button:hover {
-    background-color: #0F5897;
-    border: 1px solid #0F5897;
+    background-color: #0f5897;
+    border: 1px solid #0f5897;
   }
 </style>
 
 <h1>Cat Photo Finder</h1>
-<p class="message box">
-  The message will go here
-</p>
+<p class="message box">The message will go here</p>
 <p>
-  <button id="getMessage">
-    Get Message
-  </button>
+  <button id="getMessage">Get Message</button>
 </p>
 ```

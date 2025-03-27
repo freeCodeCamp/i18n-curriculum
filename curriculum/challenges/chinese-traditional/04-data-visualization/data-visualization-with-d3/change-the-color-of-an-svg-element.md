@@ -21,7 +21,10 @@ The bars are in the right position, but they are all the same black color. SVG h
 所有條形圖的 `fill` 顏色都應該是 navy（海軍藍）。
 
 ```js
-assert($('rect').css('fill') == 'rgb(0, 0, 128)');
+const rect = document.querySelector('rect');
+assert.exists(rect); 
+const fill = window.getComputedStyle(rect)['fill'];
+assert.strictEqual(fill, 'rgb(0, 0, 128)');
 ```
 
 # --seed--
@@ -36,24 +39,26 @@ assert($('rect').css('fill') == 'rgb(0, 0, 128)');
     const w = 500;
     const h = 100;
 
-    const svg = d3.select("body")
-                  .append("svg")
-                  .attr("width", w)
-                  .attr("height", h);
+    const svg = d3
+      .select('body')
+      .append('svg')
+      .attr('width', w)
+      .attr('height', h);
 
-    svg.selectAll("rect")
-       .data(dataset)
-       .enter()
-       .append("rect")
-       .attr("x", (d, i) => i * 30)
-       .attr("y", (d, i) => h - 3 * d)
-       .attr("width", 25)
-       .attr("height", (d, i) => 3 * d)
-       // Add your code below this line
+    svg
+      .selectAll('rect')
+      .data(dataset)
+      .enter()
+      .append('rect')
+      .attr('x', (d, i) => i * 30)
+      .attr('y', (d, i) => h - 3 * d)
+      .attr('width', 25)
+      .attr('height', (d, i) => 3 * d);
+    // Add your code below this line
 
 
 
-       // Add your code above this line
+    // Add your code above this line
   </script>
 </body>
 ```
@@ -68,21 +73,22 @@ assert($('rect').css('fill') == 'rgb(0, 0, 128)');
     const w = 500;
     const h = 100;
 
-    const svg = d3.select("body")
-                  .append("svg")
-                  .attr("width", w)
-                  .attr("height", h);
+    const svg = d3
+      .select('body')
+      .append('svg')
+      .attr('width', w)
+      .attr('height', h);
 
-    svg.selectAll("rect")
-       .data(dataset)
-       .enter()
-       .append("rect")
-       .attr("x", (d, i) => i * 30)
-       .attr("y", (d, i) => h - 3 * d)
-       .attr("width", 25)
-       .attr("height", (d, i) => 3 * d)
-       .attr("fill", "navy");
-
+    svg
+      .selectAll('rect')
+      .data(dataset)
+      .enter()
+      .append('rect')
+      .attr('x', (d, i) => i * 30)
+      .attr('y', (d, i) => h - 3 * d)
+      .attr('width', 25)
+      .attr('height', (d, i) => 3 * d)
+      .attr('fill', 'navy');
   </script>
 </body>
 ```

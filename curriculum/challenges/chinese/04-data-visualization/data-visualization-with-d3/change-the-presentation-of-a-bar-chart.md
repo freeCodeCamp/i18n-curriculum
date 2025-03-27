@@ -10,97 +10,115 @@ dashedName: change-the-presentation-of-a-bar-chart
 
 The last challenge created a bar chart, but there are a couple of formatting changes that could improve it:
 
-1) 通过在 CSS 中为 `bar` class 添加 margin 属性，给每一个条形图之间添加空格，把它们分开。
+1. Add space between each bar to visually separate them, which is done by adding a margin to the CSS for the `bar` class
 
-2) 通过给每个值乘以一个数来缩放高度，增加高度，以更好地显示值的差异。
+2. Increase the height of the bars to better show the difference in values, which is done by multiplying the value by a number to scale the height
 
 # --instructions--
 
-首先，在 `style` 标签中给 `bar` class 增加值为 `2px` 的 `margin`。 然后，更改 `style()` 方法中的回调函数，使其返回原始数据值的 `10` 倍（加上 `px`）。
+First, add a `margin` of `2px` to the `bar` class in the `style` tag. Next, change the callback function in the `style()` method so it returns a value `10` times the original data value (plus the `px`).
 
-**注意：**每一个数值点乘以*相同的*常量值，仅仅改变比例。 这就像放大，它不会改变底层数据的含义。
+**Note:** Multiplying each data point by the _same_ constant only alters the scale. It's like zooming in, and it doesn't change the meaning of the underlying data.
 
 # --hints--
 
-第一个 `div` 应有一个 `120` 像素的 `height` 和一个 `2` 像素的 `margin`。
+The first `div` should have a `height` of `120` pixels and a `margin` of `2` pixels.
 
 ```js
-assert(
-  $('div').eq(0).css('height') == '120px' &&
-    $('div').eq(0).css('margin-right') == '2px'
-);
+const firstDiv = document.querySelector('div');
+assert.exists(firstDiv); 
+const height = window.getComputedStyle(firstDiv)['height'];
+const margin = window.getComputedStyle(firstDiv)['margin-right'];
+assert.strictEqual(height, '120px');
+assert.strictEqual(margin, '2px');
 ```
 
-第二个 `div` 应有一个 `310` 像素的 `height` 和一个 `2` 像素的 `margin`。
+The second `div` should have a `height` of `310` pixels and a `margin` of `2` pixels.
 
 ```js
-assert(
-  $('div').eq(1).css('height') == '310px' &&
-    $('div').eq(1).css('margin-right') == '2px'
-);
+const secondDiv = document.querySelectorAll('div')[1];
+assert.exists(secondDiv); 
+const height = window.getComputedStyle(secondDiv)['height'];
+const margin = window.getComputedStyle(secondDiv)['margin-right'];
+assert.strictEqual(height, '310px');
+assert.strictEqual(margin, '2px');
 ```
 
-第三个 `div` 应有一个 `220` 像素的 `height` 和一个 `2` 像素的 `margin`。
+The third `div` should have a `height` of `220` pixels and a `margin` of `2` pixels.
 
 ```js
-assert(
-  $('div').eq(2).css('height') == '220px' &&
-    $('div').eq(2).css('margin-right') == '2px'
-);
+const thirdDiv = document.querySelectorAll('div')[2];
+assert.exists(thirdDiv); 
+const height = window.getComputedStyle(thirdDiv)['height'];
+const margin = window.getComputedStyle(thirdDiv)['margin-right'];
+assert.strictEqual(height, '220px');
+assert.strictEqual(margin, '2px');
 ```
 
-第四个 `div` 应有一个 `170` 像素的 `height` 和一个 `2` 像素的 `margin`。
+The fourth `div` should have a `height` of `170` pixels and a `margin` of `2` pixels.
 
 ```js
-assert(
-  $('div').eq(3).css('height') == '170px' &&
-    $('div').eq(3).css('margin-right') == '2px'
-);
+const fourthDiv = document.querySelectorAll('div')[3];
+assert.exists(fourthDiv); 
+const height = window.getComputedStyle(fourthDiv)['height'];
+const margin = window.getComputedStyle(fourthDiv)['margin-right'];
+assert.strictEqual(height, '170px');
+assert.strictEqual(margin, '2px');
 ```
 
-第五个 `div` 应有一个 `250` 像素的 `height` 和一个 `2` 像素的 `margin`。
+The fifth `div` should have a `height` of `250` pixels and a `margin` of `2` pixels.
 
 ```js
-assert(
-  $('div').eq(4).css('height') == '250px' &&
-    $('div').eq(4).css('margin-right') == '2px'
-);
+const fifthDiv = document.querySelectorAll('div')[4];
+assert.exists(fifthDiv); 
+const height = window.getComputedStyle(fifthDiv)['height'];
+const margin = window.getComputedStyle(fifthDiv)['margin-right'];
+assert.strictEqual(height, '250px');
+assert.strictEqual(margin, '2px');
 ```
 
-第六个 `div` 应有一个 `180` 像素的 `height` 和一个 `2` 像素的 `margin`。
+The sixth `div` should have a `height` of `180` pixels and a `margin` of `2` pixels.
 
 ```js
-assert(
-  $('div').eq(5).css('height') == '180px' &&
-    $('div').eq(5).css('margin-right') == '2px'
-);
+const sixthDiv = document.querySelectorAll('div')[5];
+assert.exists(sixthDiv); 
+const height = window.getComputedStyle(sixthDiv)['height'];
+const margin = window.getComputedStyle(sixthDiv)['margin-right'];
+assert.strictEqual(height, '180px');
+assert.strictEqual(margin, '2px');
 ```
 
-第七个 `div` 应有一个 `290` 像素的 `height` 和一个 `2` 像素的 `margin`。
+The seventh `div` should have a `height` of `290` pixels and a `margin` of `2` pixels.
 
 ```js
-assert(
-  $('div').eq(6).css('height') == '290px' &&
-    $('div').eq(6).css('margin-right') == '2px'
-);
+const seventhDiv = document.querySelectorAll('div')[6];
+assert.exists(seventhDiv); 
+const height = window.getComputedStyle(seventhDiv)['height'];
+const margin = window.getComputedStyle(seventhDiv)['margin-right'];
+assert.strictEqual(height, '290px');
+assert.strictEqual(margin, '2px');
 ```
 
-第八个 `div` 应有一个 `140` 像素的 `height` 和一个 `2` 像素的 `margin`。
+The eighth `div` should have a `height` of `140` pixels and a `margin` of `2` pixels.
 
 ```js
-assert(
-  $('div').eq(7).css('height') == '140px' &&
-    $('div').eq(7).css('margin-right') == '2px'
-);
+const eighthDiv = document.querySelectorAll('div')[7];
+assert.exists(eighthDiv); 
+const height = window.getComputedStyle(eighthDiv)['height'];
+const margin = window.getComputedStyle(eighthDiv)['margin-right'];
+assert.strictEqual(height, '140px');
+assert.strictEqual(margin, '2px');
 ```
 
-第九个 `div` 应有一个 `90` 像素的 `height` 和一个 `2` 像素的 `margin`。
+The ninth `div` should have a `height` of `90` pixels and a `margin` of `2` pixels.
 
 ```js
-assert(
-  $('div').eq(8).css('height') == '90px' &&
-    $('div').eq(8).css('margin-right') == '2px'
-);
+const ninthDiv = document.querySelectorAll('div')[8];
+assert.exists(ninthDiv); 
+const height = window.getComputedStyle(ninthDiv)['height'];
+const margin = window.getComputedStyle(ninthDiv)['margin-right'];
+assert.strictEqual(height, '90px');
+assert.strictEqual(margin, '2px');
 ```
 
 # --seed--
@@ -124,12 +142,13 @@ assert(
   <script>
     const dataset = [12, 31, 22, 17, 25, 18, 29, 14, 9];
 
-    d3.select("body").selectAll("div")
+    d3.select('body')
+      .selectAll('div')
       .data(dataset)
       .enter()
-      .append("div")
-      .attr("class", "bar")
-      .style("height", (d) => (d + "px")) // Change this line
+      .append('div')
+      .attr('class', 'bar')
+      .style('height', d => d + 'px'); // Change this line
   </script>
 </body>
 ```
@@ -150,12 +169,13 @@ assert(
   <script>
     const dataset = [12, 31, 22, 17, 25, 18, 29, 14, 9];
 
-    d3.select("body").selectAll("div")
+    d3.select('body')
+      .selectAll('div')
       .data(dataset)
       .enter()
-      .append("div")
-      .attr("class", "bar")
-      .style("height", (d) => (d * 10 + "px"))
+      .append('div')
+      .attr('class', 'bar')
+      .style('height', d => d * 10 + 'px');
   </script>
 </body>
 ```

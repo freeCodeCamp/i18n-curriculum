@@ -17,9 +17,10 @@ const xhr = new XMLHttpRequest();
 xhr.open('POST', url, true);
 xhr.setRequestHeader('Content-Type', 'application/json; charset=UTF-8');
 xhr.onreadystatechange = function () {
-  if (xhr.readyState === 4 && xhr.status === 201){
+  if (xhr.readyState === 4 && xhr.status === 201) {
     const serverResponse = JSON.parse(xhr.response);
-    document.getElementsByClassName('message')[0].textContent = serverResponse.userName + serverResponse.suffix;
+    document.getElementsByClassName('message')[0].textContent =
+      serverResponse.userName + serverResponse.suffix;
   }
 };
 const body = JSON.stringify({ userName: userName, suffix: ' loves cats!' });
@@ -43,45 +44,43 @@ xhr.send(body);
 你的代码应该创建一个新的 `XMLHttpRequest`。
 
 ```js
-assert(code.match(/new\s+?XMLHttpRequest\(\s*?\)/g));
+assert.match(code, /new\s*XMLHttpRequest\(\s*\)/g);
 ```
 
 你的代码应该使用 `open` 方法初始化一个发送给服务器的 `POST` 请求。
 
 ```js
-assert(code.match(/\.open\(\s*?('|")POST\1\s*?,\s*?url\s*?,\s*?true\s*?\)/g));
+assert.match(code, /\.open\(\s*('|")POST\1\s*,\s*url\s*,\s*true\s*\)/g);
 ```
 
 你的代码应该使用 `setRequestHeader` 方法。
 
 ```js
-assert(
-  code.match(
-    /\.setRequestHeader\(\s*?('|")Content-Type\1\s*?,\s*?('|")application\/json;\s*charset=UTF-8\2\s*?\)/g
-  )
+assert.match(
+  code,
+  /\.setRequestHeader\(\s*('|")Content-Type\1\s*,\s*('|")application\/json;\s*charset=UTF-8\2\s*\)/g
 );
 ```
 
 你的代码应该有一个设置为函数的 `onreadystatechange` 事件处理程序。
 
 ```js
-assert(code.match(/\.onreadystatechange\s*?=/g));
+assert.match(code, /\.onreadystatechange\s*=/g);
 ```
 
 你的代码应该获取 class 为 `message` 的元素，并将它的 `textContent` 更改为 `userName loves cats`。
 
 ```js
-assert(
-  code.match(
-    /document\.getElementsByClassName\(\s*?('|")message\1\s*?\)\[0\]\.textContent\s*?=\s*?.+?\.userName\s*?\+\s*?.+?\.suffix/g
-  )
+assert.match(
+  code,
+  /document\.getElementsByClassName\(\s*('|")message\1\s*\)\[0\]\.textContent\s*=\s*.+?\.userName\s*\+\s*.+?\.suffix/g
 );
 ```
 
 你的代码应该使用 `send` 方法。
 
 ```js
-assert(code.match(/\.send\(\s*?body\s*?\)/g));
+assert.match(code, /\.send\(\s*body\s*\)/g);
 ```
 
 # --seed--
@@ -90,13 +89,11 @@ assert(code.match(/\.send\(\s*?body\s*?\)/g));
 
 ```html
 <script>
-  document.addEventListener('DOMContentLoaded', function(){
-    document.getElementById('sendMessage').onclick = function(){
-
+  document.addEventListener('DOMContentLoaded', function () {
+    document.getElementById('sendMessage').onclick = function () {
       const userName = document.getElementById('name').value;
       const url = 'https://jsonplaceholder.typicode.com/posts';
       // Add your code below this line
-
 
       // Add your code above this line
     };
@@ -106,7 +103,7 @@ assert(code.match(/\.send\(\s*?body\s*?\)/g));
 <style>
   body {
     text-align: center;
-    font-family: "Helvetica", sans-serif;
+    font-family: 'Helvetica', sans-serif;
   }
   h1 {
     font-size: 2em;
@@ -125,22 +122,19 @@ assert(code.match(/\.send\(\s*?body\s*?\)/g));
     padding: 5px 10px 8px 10px;
   }
   button:hover {
-    background-color: #0F5897;
-    border: 1px solid #0F5897;
+    background-color: #0f5897;
+    border: 1px solid #0f5897;
   }
 </style>
 
 <h1>Cat Friends</h1>
-<p class="message box">
-  Reply from Server will be here
-</p>
+<p class="message box">Reply from Server will be here</p>
 <p>
-  <label for="name">Your name:
-    <input type="text" id="name"/>
+  <label for="name"
+    >Your name:
+    <input type="text" id="name" />
   </label>
-  <button id="sendMessage">
-    Send Message
-  </button>
+  <button id="sendMessage">Send Message</button>
 </p>
 ```
 
@@ -148,9 +142,8 @@ assert(code.match(/\.send\(\s*?body\s*?\)/g));
 
 ```html
 <script>
-  document.addEventListener('DOMContentLoaded', function(){
-    document.getElementById('sendMessage').onclick = function(){
-
+  document.addEventListener('DOMContentLoaded', function () {
+    document.getElementById('sendMessage').onclick = function () {
       const userName = document.getElementById('name').value;
       const url = 'https://jsonplaceholder.typicode.com/posts';
       // Add your code below this line
@@ -158,13 +151,17 @@ assert(code.match(/\.send\(\s*?body\s*?\)/g));
       xhr.open('POST', url, true);
       xhr.setRequestHeader('Content-Type', 'application/json; charset=UTF-8');
       xhr.onreadystatechange = function () {
-        if (xhr.readyState === 4 && xhr.status === 201){
+        if (xhr.readyState === 4 && xhr.status === 201) {
           const serverResponse = JSON.parse(xhr.response);
-          document.getElementsByClassName('message')[0].textContent = serverResponse.userName + serverResponse.suffix;
-       }
-     };
-     const body = JSON.stringify({ userName: userName, suffix: ' loves cats!' });
-     xhr.send(body);
+          document.getElementsByClassName('message')[0].textContent =
+            serverResponse.userName + serverResponse.suffix;
+        }
+      };
+      const body = JSON.stringify({
+        userName: userName,
+        suffix: ' loves cats!'
+      });
+      xhr.send(body);
       // Add your code above this line
     };
   });
@@ -173,7 +170,7 @@ assert(code.match(/\.send\(\s*?body\s*?\)/g));
 <style>
   body {
     text-align: center;
-    font-family: "Helvetica", sans-serif;
+    font-family: 'Helvetica', sans-serif;
   }
   h1 {
     font-size: 2em;
@@ -192,21 +189,18 @@ assert(code.match(/\.send\(\s*?body\s*?\)/g));
     padding: 5px 10px 8px 10px;
   }
   button:hover {
-    background-color: #0F5897;
-    border: 1px solid #0F5897;
+    background-color: #0f5897;
+    border: 1px solid #0f5897;
   }
 </style>
 
 <h1>Cat Friends</h1>
-<p class="message">
-  Reply from Server will be here
-</p>
+<p class="message">Reply from Server will be here</p>
 <p>
-  <label for="name">Your name:
-    <input type="text" id="name"/>
+  <label for="name"
+    >Your name:
+    <input type="text" id="name" />
   </label>
-  <button id="sendMessage">
-    Send Message
-  </button>
+  <button id="sendMessage">Send Message</button>
 </p>
 ```

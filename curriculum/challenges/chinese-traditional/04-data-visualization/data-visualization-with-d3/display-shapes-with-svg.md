@@ -27,31 +27,34 @@ SVG 的 `rect` 有四個屬性。 `x` 和 `y` 座標指定圖形放在 `svg` 區
 文檔應該有 1 個 `rect` 元素。
 
 ```js
-assert($('rect').length == 1);
+assert.lengthOf(document.querySelectorAll('rect'), 1);
 ```
 
 `rect` 元素的 `width` 應爲 `25`。
 
 ```js
-assert($('rect').attr('width') == '25');
+assert.strictEqual(document.querySelector('rect')?.getAttribute('width'), '25');
 ```
 
 `rect` 元素的 `height` 應爲 `100`。
 
 ```js
-assert($('rect').attr('height') == '100');
+assert.strictEqual(
+  document.querySelector('rect')?.getAttribute('height'),
+  '100'
+);
 ```
 
 `rect` 元素的 `x` 值應爲 `0`。
 
 ```js
-assert($('rect').attr('x') == '0');
+assert.strictEqual(document.querySelector('rect')?.getAttribute('x'), '0');
 ```
 
 `rect` 元素的 `y` 值應爲 `0`。
 
 ```js
-assert($('rect').attr('y') == '0');
+assert.strictEqual(document.querySelector('rect')?.getAttribute('y'), '0');
 ```
 
 # --seed--
@@ -66,15 +69,16 @@ assert($('rect').attr('y') == '0');
     const w = 500;
     const h = 100;
 
-    const svg = d3.select("body")
-                  .append("svg")
-                  .attr("width", w)
-                  .attr("height", h)
-                  // Add your code below this line
+    const svg = d3
+      .select('body')
+      .append('svg')
+      .attr('width', w)
+      .attr('height', h);
+    // Add your code below this line
 
 
 
-                  // Add your code above this line
+    // Add your code above this line
   </script>
 </body>
 ```
@@ -89,15 +93,16 @@ assert($('rect').attr('y') == '0');
     const w = 500;
     const h = 100;
 
-    const svg = d3.select("body")
-                  .append("svg")
-                  .attr("width", w)
-                  .attr("height", h)
-                  .append("rect")
-                  .attr("width", 25)
-                  .attr("height", 100)
-                  .attr("x", 0)
-                  .attr("y", 0);
+    const svg = d3
+      .select('body')
+      .append('svg')
+      .attr('width', w)
+      .attr('height', h)
+      .append('rect')
+      .attr('width', 25)
+      .attr('height', 100)
+      .attr('x', 0)
+      .attr('y', 0);
   </script>
 </body>
 ```

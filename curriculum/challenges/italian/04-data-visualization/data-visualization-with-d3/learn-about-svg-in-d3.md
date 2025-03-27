@@ -27,19 +27,25 @@ Aggiungi un nodo `svg` al `body` usando `append()`. Dagli un attributo `width` i
 Il tuo documento dovrebbe avere un elemento `svg`.
 
 ```js
-assert($('svg').length == 1);
+assert.lengthOf(document.querySelectorAll('svg'), 1);
 ```
 
 L'elemento `svg` dovrebbe avere un attributo `width` impostato a `500` o dovrebbe essere stilizzato in modo da avere una larghezza di `500px`.
 
 ```js
-assert($('svg').attr('width') == '500' || $('svg').css('width') == '500px');
+const svg = document.querySelector('svg');
+assert.exists(svg); 
+const width = window.getComputedStyle(svg)['width'];
+assert.isTrue(svg?.getAttribute('width') === '500' || width === '500px');
 ```
 
 L'elemento `svg` dovrebbe avere un attributo `height` impostato a `100` o dovrebbe essere stilizzato in modo da avere un'altezza di `100px`.
 
 ```js
-assert($('svg').attr('height') == '100' || $('svg').css('height') == '100px');
+const svg = document.querySelector('svg');
+assert.exists(svg); 
+const height = window.getComputedStyle(svg)['height'];
+assert.isTrue(svg?.getAttribute('height') === '100' || height === '100px');
 ```
 
 # --seed--
@@ -59,12 +65,12 @@ assert($('svg').attr('height') == '100' || $('svg').css('height') == '100px');
     const w = 500;
     const h = 100;
 
-    const svg = d3.select("body")
-                  // Add your code below this line
+    const svg = d3.select('body');
+    // Add your code below this line
 
 
 
-                  // Add your code above this line
+    // Add your code above this line
   </script>
 </body>
 ```
@@ -84,10 +90,11 @@ assert($('svg').attr('height') == '100' || $('svg').css('height') == '100px');
     const w = 500;
     const h = 100;
 
-    const svg = d3.select("body")
-                  .append("svg")
-                  .attr("width", w)
-                  .attr("height", h)
+    const svg = d3
+      .select('body')
+      .append('svg')
+      .attr('width', w)
+      .attr('height', h);
   </script>
 </body>
 ```

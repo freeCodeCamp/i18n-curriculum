@@ -13,7 +13,7 @@ D3 has several methods that let you add and change elements in your document.
 `select()` 方法從文檔中選擇一個元素。 它接受你想要選擇的元素的名字作爲參數，並返回文檔中第一個與名字匹配的 HTML 節點。 這是一個示例：
 
 ```js
-const anchor = d3.select("a");
+const anchor = d3.select('a');
 ```
 
 上面這個例子找到頁面上的第一個錨點標籤，將它作爲一個 HTML 節點保存在變量 `anchor` 中。 你可以使用其他方法進行選擇。 示例中的 `d3` 部分是對 D3 對象的引用，通過它訪問 D3 方法。
@@ -27,9 +27,7 @@ const anchor = d3.select("a");
 下面的例子是選擇一個無序列表，添加列表項和添加文本：
 
 ```js
-d3.select("ul")
-  .append("li")
-  .text("Very important item");
+d3.select('ul')?.append('li').text('Very important item');
 ```
 
 在 D3 中可以串聯多個方法，連續執行一系列操作。
@@ -43,37 +41,39 @@ d3.select("ul")
 `body` 元素應該包含一個 `h1` 元素。
 
 ```js
-assert($('body').children('h1').length == 1);
+const body = document.querySelector('body');
+const headers = body?.querySelectorAll('h1');
+assert.lengthOf(headers, 1);
 ```
 
 `h1` 元素應包含文本 `Learning D3`。
 
 ```js
-assert($('h1').text() == 'Learning D3');
+assert.strictEqual(document.querySelector('h1')?.textContent, 'Learning D3');
 ```
 
 你應該能訪問 `d3` 對象。
 
 ```js
-assert(code.match(/d3/g));
+assert.match(code, /d3/g);
 ```
 
 你應該使用 `select` 方法。
 
 ```js
-assert(code.match(/\.select/g));
+assert.match(code, /\.select/g);
 ```
 
 你應該使用 `append` 方法。
 
 ```js
-assert(code.match(/\.append/g));
+assert.match(code, /\.append/g);
 ```
 
 你應該使用 `text` 方法。
 
 ```js
-assert(code.match(/\.text/g));
+assert.match(code, /\.text/g);
 ```
 
 # --seed--
@@ -97,9 +97,7 @@ assert(code.match(/\.text/g));
 ```html
 <body>
   <script>
-    d3.select("body")
-      .append("h1")
-      .text("Learning D3")
+    d3.select('body').append('h1').text('Learning D3');
   </script>
 </body>
 ```
