@@ -22,12 +22,13 @@ Hier ist ein Beispiel, das ein `ul`-Element auswählt und einen neuen Dateneintr
 <body>
   <ul></ul>
   <script>
-    const dataset = ["a", "b", "c"];
-    d3.select("ul").selectAll("li")
+    const dataset = ['a', 'b', 'c'];
+    d3.select('ul')
+      .selectAll('li')
       .data(dataset)
       .enter()
-      .append("li")
-      .text("New item");
+      .append('li')
+      .text('New item');
   </script>
 </body>
 ```
@@ -43,29 +44,28 @@ Wähle den `body`-Knoten aus, dann alle `h2`-Elemente. Lass' D3 für jedes Eleme
 In deinem Dokument sollten 9 `h2`-Elemente vorkommen.
 
 ```js
-assert($('h2').length == 9);
+assert.lengthOf(document.querySelectorAll('h2'), 9);
 ```
 
 Der Text innerhalb des `h2`-Elements sollte `New Title` sein. Achte hierbei auf Groß- und Kleinschreibung und Abstände – diese müssen exakt übereinstimmen.
 
 ```js
-assert(
-  $('h2')
-    .text()
-    .match(/New Title/g).length == 9
-);
+const h2Elements = document.querySelectorAll('h2');
+for (let i = 0; i < h2Elements.length; i++) {
+  assert.match(h2Elements[i]?.textContent, /New Title/g);
+}
 ```
 
 Dein Code sollte von der `data()`-Methode Gebrauch machen.
 
 ```js
-assert(code.match(/\.data/g));
+assert.match(code, /\.data/g);
 ```
 
 Dein Code sollte von der `enter()`-Methode Gebrauch machen.
 
 ```js
-assert(code.match(/\.enter/g));
+assert.match(code, /\.enter/g);
 ```
 
 # --seed--
@@ -93,13 +93,12 @@ assert(code.match(/\.enter/g));
   <script>
     const dataset = [12, 31, 22, 17, 25, 18, 29, 14, 9];
 
-    d3.select("body")
-      .selectAll("h2")
+    d3.select('body')
+      .selectAll('h2')
       .data(dataset)
       .enter()
-      .append("h2")
-      .text("New Title")
-
+      .append('h2')
+      .text('New Title');
   </script>
 </body>
 ```

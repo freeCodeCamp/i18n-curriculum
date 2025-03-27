@@ -19,9 +19,13 @@ Ao selecionar que você permite, você verá o texto na saída do telefone mudar
 Aqui está o código para fazer isso:
 
 ```js
-if (navigator.geolocation){
-  navigator.geolocation.getCurrentPosition(function(position) {
-    document.getElementById('data').innerHTML="latitude: " + position.coords.latitude + "<br>longitude: " + position.coords.longitude;
+if (navigator.geolocation) {
+  navigator.geolocation.getCurrentPosition(function (position) {
+    document.getElementById('data').innerHTML =
+      'latitude: ' +
+      position.coords.latitude +
+      '<br>longitude: ' +
+      position.coords.longitude;
   });
 }
 ```
@@ -37,26 +41,27 @@ Adicione o código de exemplo entre as tags `script` para verificar a localizaç
 Seu código deve usar `navigator.geolocation` para acessar a localização atual do usuário.
 
 ```js
-assert(code.match(/navigator\.geolocation\.getCurrentPosition/g));
+assert.match(code, /navigator\.geolocation\.getCurrentPosition/g);
 ```
 
 Seu código deve usar `position.coords.latitude` para acessar a localização latitudinal do usuário.
 
 ```js
-assert(code.match(/position\.coords\.latitude/g));
+assert.match(code, /position\.coords\.latitude/g);
 ```
 
 Seu código deve usar `position.coords.longitude` para acessar a localização longitudinal do usuário.
 
 ```js
-assert(code.match(/position\.coords\.longitude/g));
+assert.match(code, /position\.coords\.longitude/g);
 ```
 
 Você deve exibir a posição do usuário dentro do elemento `div` com o `id="data"`.
 
 ```js
-assert(
-  code.match(/document\.getElementById\(\s*?('|")data\1\s*?\)\.innerHTML/g)
+assert.match(
+  code,
+  /document\.getElementById\(\s*('|")data\1\s*\)\.innerHTML/g
 );
 ```
 
@@ -68,13 +73,10 @@ assert(
 <script>
   // Add your code below this line
 
-
   // Add your code above this line
 </script>
 <h4>You are here:</h4>
-<div id="data">
-
-</div>
+<div id="data"></div>
 ```
 
 # --solutions--

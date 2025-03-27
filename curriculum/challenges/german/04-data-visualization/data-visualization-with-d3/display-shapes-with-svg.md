@@ -27,31 +27,34 @@ Füge eine `rect`-Form der `svg` mithilfe von `append()` hinzu und gebe ihr ein 
 Dein Dokument sollte 1 `rect`-Element beinhalten.
 
 ```js
-assert($('rect').length == 1);
+assert.lengthOf(document.querySelectorAll('rect'), 1);
 ```
 
 Das `rect`-Element sollte über ein auf `25` gesetztes `width`-Attribut verfügen.
 
 ```js
-assert($('rect').attr('width') == '25');
+assert.strictEqual(document.querySelector('rect')?.getAttribute('width'), '25');
 ```
 
 Das `rect`-Element sollte über ein auf `100` gesetztes `height`-Attribut verfügen.
 
 ```js
-assert($('rect').attr('height') == '100');
+assert.strictEqual(
+  document.querySelector('rect')?.getAttribute('height'),
+  '100'
+);
 ```
 
 Das `rect`-Element sollte über ein auf `0` gesetztes `x`-Attribut verfügen.
 
 ```js
-assert($('rect').attr('x') == '0');
+assert.strictEqual(document.querySelector('rect')?.getAttribute('x'), '0');
 ```
 
 Das `rect`-Element sollte über ein auf `0` gesetztes `y`-Attribut verfügen.
 
 ```js
-assert($('rect').attr('y') == '0');
+assert.strictEqual(document.querySelector('rect')?.getAttribute('y'), '0');
 ```
 
 # --seed--
@@ -66,15 +69,16 @@ assert($('rect').attr('y') == '0');
     const w = 500;
     const h = 100;
 
-    const svg = d3.select("body")
-                  .append("svg")
-                  .attr("width", w)
-                  .attr("height", h)
-                  // Add your code below this line
+    const svg = d3
+      .select('body')
+      .append('svg')
+      .attr('width', w)
+      .attr('height', h);
+    // Add your code below this line
 
 
 
-                  // Add your code above this line
+    // Add your code above this line
   </script>
 </body>
 ```
@@ -89,15 +93,16 @@ assert($('rect').attr('y') == '0');
     const w = 500;
     const h = 100;
 
-    const svg = d3.select("body")
-                  .append("svg")
-                  .attr("width", w)
-                  .attr("height", h)
-                  .append("rect")
-                  .attr("width", 25)
-                  .attr("height", 100)
-                  .attr("x", 0)
-                  .attr("y", 0);
+    const svg = d3
+      .select('body')
+      .append('svg')
+      .attr('width', w)
+      .attr('height', h)
+      .append('rect')
+      .attr('width', 25)
+      .attr('height', 100)
+      .attr('x', 0)
+      .attr('y', 0);
   </script>
 </body>
 ```

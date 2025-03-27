@@ -11,9 +11,7 @@ dashedName: change-styles-based-on-data
 D3 is about visualization and presentation of data. It's likely you'll want to change the styling of elements based on the data. For example, you may want to color a data point blue if it has a value less than 20, and red otherwise. You can use a callback function in the `style()` method and include the conditional logic. The callback function uses the `d` parameter to represent the data point:
 
 ```js
-selection.style("color", (d) => {
-
-});
+selection.style('color', d => {});
 ```
 
 Die `style()`-Methode kann nicht nur zum Festlegen der `color` verwendet werden - sie kann auch für andere CSS-Eigenschaften verwendet werden.
@@ -29,55 +27,82 @@ Füge die `style()`-Methode zum Code im Editor hinzu, um die `color` der `h2`-El
 Die erste `h2` sollte die `color` Rot haben.
 
 ```js
-assert($('h2').eq(0).css('color') == 'rgb(255, 0, 0)');
+const headingTwoFirst = document.querySelector('h2');
+assert.exists(headingTwoFirst); 
+const color = window.getComputedStyle(headingTwoFirst)['color'];
+assert.strictEqual(color, 'rgb(255, 0, 0)');
 ```
 
 Die zweite `h2` sollte die `color` Grün haben.
 
 ```js
-assert($('h2').eq(1).css('color') == 'rgb(0, 128, 0)');
+const headingTwoSecond = document.querySelectorAll('h2')[1];
+assert.exists(headingTwoSecond); 
+const color = window.getComputedStyle(headingTwoSecond)['color'];
+assert.strictEqual(color, 'rgb(0, 128, 0)');
 ```
 
 Die dritte `h2` sollte die `color` Grün haben.
 
 ```js
-assert($('h2').eq(2).css('color') == 'rgb(0, 128, 0)');
+const headingTwoThird = document.querySelectorAll('h2')[2];
+assert.exists(headingTwoThird); 
+const color = window.getComputedStyle(headingTwoThird)['color'];
+assert.strictEqual(color, 'rgb(0, 128, 0)');
 ```
 
 Die vierte `h2` sollte die `color` Rot haben.
 
 ```js
-assert($('h2').eq(3).css('color') == 'rgb(255, 0, 0)');
+const headingTwoFourth = document.querySelectorAll('h2')[3];
+assert.exists(headingTwoFourth); 
+const color = window.getComputedStyle(headingTwoFourth)['color'];
+assert.strictEqual(color, 'rgb(255, 0, 0)');
 ```
 
 Die fünfte `h2` sollte die `color` Grün haben.
 
 ```js
-assert($('h2').eq(4).css('color') == 'rgb(0, 128, 0)');
+const headingTwoFifth = document.querySelectorAll('h2')[4];
+assert.exists(headingTwoFifth); 
+const color = window.getComputedStyle(headingTwoFifth)['color'];
+assert.strictEqual(color, 'rgb(0, 128, 0)');
 ```
 
 Die sechste `h2` sollte die `color` Rot haben.
 
 ```js
-assert($('h2').eq(5).css('color') == 'rgb(255, 0, 0)');
+const headingTwoSixth = document.querySelectorAll('h2')[5];
+assert.exists(headingTwoSixth); 
+const color = window.getComputedStyle(headingTwoSixth)['color'];
+assert.strictEqual(color, 'rgb(255, 0, 0)');
 ```
 
 Die siebte `h2` sollte die `color` Grün haben.
 
 ```js
-assert($('h2').eq(6).css('color') == 'rgb(0, 128, 0)');
+const headingTwoSeventh = document.querySelectorAll('h2')[6];
+assert.exists(headingTwoSeventh); 
+const color = window.getComputedStyle(headingTwoSeventh)['color'];
+assert.strictEqual(color, 'rgb(0, 128, 0)');
 ```
 
 Die achte `h2` sollte die `color` Rot haben.
 
 ```js
-assert($('h2').eq(7).css('color') == 'rgb(255, 0, 0)');
+const headingTwoEighth = document.querySelectorAll('h2')[7];
+assert.exists(headingTwoEighth); 
+const color = window.getComputedStyle(headingTwoEighth)['color'];
+assert.strictEqual(color, 'rgb(255, 0, 0)');
 ```
 
 Die neunte `h2` sollte die `color` Rot haben.
 
 ```js
-assert($('h2').eq(8).css('color') == 'rgb(255, 0, 0)');
+const headingTwoNinth = document.querySelectorAll('h2')[8];
+assert.exists(headingTwoNinth); 
+const color = window.getComputedStyle(headingTwoNinth)['color'];
+assert.strictEqual(color, 'rgb(255, 0, 0)');
 ```
 
 # --seed--
@@ -89,16 +114,15 @@ assert($('h2').eq(8).css('color') == 'rgb(255, 0, 0)');
   <script>
     const dataset = [12, 31, 22, 17, 25, 18, 29, 14, 9];
 
-    d3.select("body").selectAll("h2")
+    d3.select('body')
+      .selectAll('h2')
       .data(dataset)
       .enter()
-      .append("h2")
-      .text((d) => (d + " USD"))
-      // Add your code below this line
+      .append('h2')
+      .text(d => d + ' USD');
+    // Add your code below this line
 
-
-
-      // Add your code above this line
+    // Add your code above this line
   </script>
 </body>
 ```
@@ -110,12 +134,13 @@ assert($('h2').eq(8).css('color') == 'rgb(255, 0, 0)');
   <script>
     const dataset = [12, 31, 22, 17, 25, 18, 29, 14, 9];
 
-    d3.select("body").selectAll("h2")
+    d3.select('body')
+      .selectAll('h2')
       .data(dataset)
       .enter()
-      .append("h2")
-      .text((d) => (d + " USD"))
-      .style("color", (d) => d < 20 ? "red" : "green")
+      .append('h2')
+      .text(d => d + ' USD')
+      .style('color', d => (d < 20 ? 'red' : 'green'));
   </script>
 </body>
 ```

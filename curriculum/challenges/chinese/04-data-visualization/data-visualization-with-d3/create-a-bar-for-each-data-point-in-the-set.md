@@ -13,10 +13,7 @@ The last challenge added only one rectangle to the `svg` element to represent a 
 之前的挑战展示了如何为 `dataset` 中的每个对象创建并添加一个 `div`：
 
 ```js
-d3.select("body").selectAll("div")
-  .data(dataset)
-  .enter()
-  .append("div")
+d3.select('body')?.selectAll('div').data(dataset).enter().append('div');
 ```
 
 操作 `rect` 元素和 `div` 元素有一些不同。 `rect` 元素必须添加在 `svg` 元素内，而不能直接添加在 `body` 内。 同时，你需要告诉 D3 将 `rect` 放在 `svg` 区域的哪个位置。 条形的放置会在下一个挑战中讲到。
@@ -30,25 +27,25 @@ d3.select("body").selectAll("div")
 应该包含 9 个 `rect` 元素。
 
 ```js
-assert($('rect').length == 9);
+assert.lengthOf(document.querySelectorAll('rect'), 9);
 ```
 
 应该使用 `data()` 方法。
 
 ```js
-assert(code.match(/\.data/g));
+assert.match(code, /\.data/g);
 ```
 
 应该使用 `enter()` 方法。
 
 ```js
-assert(code.match(/\.enter/g));
+assert.match(code, /\.enter/g);
 ```
 
 应该使用 `append()` 方法。
 
 ```js
-assert(code.match(/\.append/g));
+assert.match(code, /\.append/g);
 ```
 
 # --seed--
@@ -63,21 +60,21 @@ assert(code.match(/\.append/g));
     const w = 500;
     const h = 100;
 
-    const svg = d3.select("body")
-                  .append("svg")
-                  .attr("width", w)
-                  .attr("height", h);
+    const svg = d3
+      .select('body')
+      .append('svg')
+      .attr('width', w)
+      .attr('height', h);
 
-    svg.selectAll("rect")
-       // Add your code below this line
+    svg
+      .selectAll('rect')
+      // Add your code below this line
 
-
-
-       // Add your code above this line
-       .attr("x", 0)
-       .attr("y", 0)
-       .attr("width", 25)
-       .attr("height", 100);
+      // Add your code above this line
+      .attr('x', 0)
+      .attr('y', 0)
+      .attr('width', 25)
+      .attr('height', 100);
   </script>
 </body>
 ```
@@ -92,19 +89,21 @@ assert(code.match(/\.append/g));
     const w = 500;
     const h = 100;
 
-    const svg = d3.select("body")
-                  .append("svg")
-                  .attr("width", w)
-                  .attr("height", h);
+    const svg = d3
+      .select('body')
+      .append('svg')
+      .attr('width', w)
+      .attr('height', h);
 
-    svg.selectAll("rect")
-       .data(dataset)
-       .enter()
-       .append("rect")
-       .attr("x", 0)
-       .attr("y", 0)
-       .attr("width", 25)
-       .attr("height", 100);
+    svg
+      .selectAll('rect')
+      .data(dataset)
+      .enter()
+      .append('rect')
+      .attr('x', 0)
+      .attr('y', 0)
+      .attr('width', 25)
+      .attr('height', 100);
   </script>
 </body>
 ```

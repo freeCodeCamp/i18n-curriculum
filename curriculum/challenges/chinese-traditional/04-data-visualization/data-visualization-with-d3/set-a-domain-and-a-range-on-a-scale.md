@@ -19,11 +19,11 @@ By default, scales use the identity relationship. This means the input value map
 ```js
 scale.domain([50, 480]);
 scale.range([10, 500]);
-scale(50)
-scale(480)
-scale(325)
-scale(750)
-d3.scaleLinear()
+scale(50);
+scale(480);
+scale(325);
+scale(750);
+d3.scaleLinear();
 ```
 
 按順序，將在控制檯中顯示以下值：`10`、`500`、`323.37` 和 `807.67`。
@@ -41,31 +41,31 @@ d3.scaleLinear()
 應使用 `domain()` 方法。
 
 ```js
-assert(code.match(/\.domain/g));
+assert.match(code, /\.domain/g);
 ```
 
 `scale` 的 `domain()` 應爲 `[250, 500]`。
 
 ```js
-assert(JSON.stringify(scale.domain()) == JSON.stringify([250, 500]));
+assert.deepEqual(scale.domain(), [250, 500]);
 ```
 
 應使用 `range()` 方法。
 
 ```js
-assert(code.match(/\.range/g));
+assert.match(code, /\.range/g);
 ```
 
 `scale` 的 `range()` 應爲 `[10, 150]`。
 
 ```js
-assert(JSON.stringify(scale.range()) == JSON.stringify([10, 150]));
+assert.deepEqual(scale.range(), [10, 150]);
 ```
 
 `h2` 的文本應爲 `-102`。
 
 ```js
-assert($('h2').text() == '-102');
+assert.strictEqual(document.querySelector('h2')?.textContent, '-102');
 ```
 
 # --seed--
@@ -82,9 +82,7 @@ assert($('h2').text() == '-102');
 
     // Add your code above this line
     const output = scale(50);
-    d3.select("body")
-      .append("h2")
-      .text(output);
+    d3.select('body').append('h2').text(output);
   </script>
 </body>
 ```
@@ -95,12 +93,10 @@ assert($('h2').text() == '-102');
 <body>
   <script>
     const scale = d3.scaleLinear();
-    scale.domain([250, 500])
-    scale.range([10, 150])
+    scale.domain([250, 500]);
+    scale.range([10, 150]);
     const output = scale(50);
-    d3.select("body")
-      .append("h2")
-      .text(output);
+    d3.select('body').append('h2').text(output);
   </script>
 </body>
 ```

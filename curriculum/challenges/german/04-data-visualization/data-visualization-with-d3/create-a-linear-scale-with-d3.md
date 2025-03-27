@@ -19,7 +19,7 @@ Es ist unwahrscheinlich, dass du die Rohdaten so darstellen würdest, wie sie si
 D3 verfügt über verschiedene Skalierungstypen. Möchtest du eine lineare Skalierung (wie sie für quantitative Daten meist verwendet wird), verwendest du die D3-Methode `scaleLinear()`:
 
 ```js
-const scale = d3.scaleLinear()
+const scale = d3.scaleLinear();
 ```
 
 Standardmäßig verwendet eine Skala die Identitätsbeziehung. Ein- und Ausgabewerte sind gleich. Wie man das ändern kann, ist Gegenstand einer separaten Aufgabenstellung.
@@ -33,19 +33,20 @@ Standardmäßig verwendet eine Skala die Identitätsbeziehung. Ein- und Ausgabew
 Der Text im `h2` sollte `50` sein.
 
 ```js
-assert($('h2').text() == '50');
+assert.strictEqual(document.querySelector('h2')?.textContent, '50');
 ```
 
 Dein Code sollte die `scaleLinear()`-Methode verwenden.
 
 ```js
-assert(code.match(/\.scaleLinear/g));
+assert.match(code, /\.scaleLinear/g);
 ```
 
 Die `output`-Variable sollte `scale` mit dem Argument `50` aufrufen.
 
 ```js
-assert(output == 50 && code.match(/scale\(\s*?50\s*?\)/g));
+assert.strictEqual(output, 50);
+assert.match(code, /scale\(\s*50\s*\)/g);
 ```
 
 # --seed--
@@ -62,10 +63,7 @@ assert(output == 50 && code.match(/scale\(\s*?50\s*?\)/g));
 
     // Add your code above this line
 
-    d3.select("body")
-      .append("h2")
-      .text(output);
-
+    d3.select('body').append('h2').text(output);
   </script>
 </body>
 ```
@@ -75,14 +73,10 @@ assert(output == 50 && code.match(/scale\(\s*?50\s*?\)/g));
 ```html
 <body>
   <script>
-
     const scale = d3.scaleLinear();
-    const output = scale(50); 
+    const output = scale(50);
 
-    d3.select("body")
-      .append("h2")
-      .text(output);
-
+    d3.select('body').append('h2').text(output);
   </script>
 </body>
 ```

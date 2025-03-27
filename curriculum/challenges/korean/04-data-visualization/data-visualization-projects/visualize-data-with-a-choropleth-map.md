@@ -38,8 +38,8 @@ You can use HTML, JavaScript, CSS, and the D3 svg-based visualization library. R
 
 Here are the datasets you will need to complete this project:
 
--   **US Education Data:**`https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/for_user_education.json`
--   **US County Data:**`https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/counties.json`
+- **US Education Data:**`https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/for_user_education.json`
+- **US County Data:**`https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/counties.json`
 
 <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">이 CodePen 템플릿을 사용</a>하여 프로젝트를 빌드할 수 있으며 `Save`을 클릭하여 자신만의 펜을 만들 수 있습니다. 또는 원하는 모든 환경에서 테스트를 실행하기 위해 이 CDN 링크를 사용할 수 있습니다: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
 

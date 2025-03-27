@@ -10,74 +10,74 @@ dashedName: update-the-height-of-an-element-dynamically
 
 The previous challenges covered how to display data from an array and how to add CSS classes. You can combine these lessons to create a simple bar chart. There are two steps to this:
 
-1) Creare un `div` per ogni data point nell'array
+1. Create a `div` for each data point in the array
 
-2) Dare ad ogni `div` un'altezza dinamica, usanto una funzione callback nel metodo `style()` che imposta un'altezza pari al valore del dato
+2. Give each `div` a dynamic height, using a callback function in the `style()` method that sets height equal to the data value
 
-Ricordati il formato per impostare uno stile usando una funzione callback:
+Recall the format to set a style using a callback function:
 
 ```js
-selection.style("cssProperty", (d) => d)
+selection.style('cssProperty', d => d);
 ```
 
 # --instructions--
 
-Aggiungi il metodo `style()` al codice nell'editor per impostare la proprietà `height` per ogni elemento. Usa una funzione callback per restituire il valore del data point con la stringa `px` aggiunta ad esso.
+Add the `style()` method to the code in the editor to set the `height` property for each element. Use a callback function to return the value of the data point with the string `px` added to it.
 
 # --hints--
 
-Il primo `div` dovrebbe avere un'`height` di `12` pixel.
+The first `div` should have a `height` of `12` pixels.
 
 ```js
-assert($('div').eq(0)[0].style.height === '12px');
+assert.strictEqual(document.querySelectorAll('div')[0]?.style.height, '12px');
 ```
 
-Il secondo `div` dovrebbe avere un'`height` di `31` pixel.
+The second `div` should have a `height` of `31` pixels.
 
 ```js
-assert($('div').eq(1)[0].style.height === '31px');
+assert.strictEqual(document.querySelectorAll('div')[1]?.style.height, '31px');
 ```
 
-Il terzo `div` dovrebbe avere un'`height` di `22` pixel.
+The third `div` should have a `height` of `22` pixels.
 
 ```js
-assert($('div').eq(2)[0].style.height === '22px');
+assert.strictEqual(document.querySelectorAll('div')[2]?.style.height, '22px');
 ```
 
-Il quarto `div` dovrebbe avere un'`height` di `17` pixel.
+The fourth `div` should have a `height` of `17` pixels.
 
 ```js
-assert($('div').eq(3)[0].style.height === '17px');
+assert.strictEqual(document.querySelectorAll('div')[3]?.style.height, '17px');
 ```
 
-Il quinto `div` dovrebbe avere un'`height` di `25` pixel.
+The fifth `div` should have a `height` of `25` pixels.
 
 ```js
-assert($('div').eq(4)[0].style.height === '25px');
+assert.strictEqual(document.querySelectorAll('div')[4]?.style.height, '25px');
 ```
 
-Il sesto `div` dovrebbe avere un'`height` di `18` pixel.
+The sixth `div` should have a `height` of `18` pixels.
 
 ```js
-assert($('div').eq(5)[0].style.height === '18px');
+assert.strictEqual(document.querySelectorAll('div')[5]?.style.height, '18px');
 ```
 
-Il settimo `div` dovrebbe avere un'`height` di `29` pixel.
+The seventh `div` should have a `height` of `29` pixels.
 
 ```js
-assert($('div').eq(6)[0].style.height === '29px');
+assert.strictEqual(document.querySelectorAll('div')[6]?.style.height, '29px');
 ```
 
-L'ottavo `div` dovrebbe avere un'`height` di `14` pixel.
+The eighth `div` should have a `height` of `14` pixels.
 
 ```js
-assert($('div').eq(7)[0].style.height === '14px');
+assert.strictEqual(document.querySelectorAll('div')[7]?.style.height, '14px');
 ```
 
-Il nono `div` dovrebbe avere un'`height` di `9` pixel.
+The ninth `div` should have a `height` of `9` pixels.
 
 ```js
-assert($('div').eq(8)[0].style.height === '9px');
+assert.strictEqual(document.querySelectorAll('div')[8]?.style.height, '9px');
 ```
 
 # --seed--
@@ -97,16 +97,17 @@ assert($('div').eq(8)[0].style.height === '9px');
   <script>
     const dataset = [12, 31, 22, 17, 25, 18, 29, 14, 9];
 
-    d3.select("body").selectAll("div")
+    d3.select('body')
+      .selectAll('div')
       .data(dataset)
       .enter()
-      .append("div")
-      .attr("class", "bar")
-      // Add your code below this line
+      .append('div')
+      .attr('class', 'bar');
+    // Add your code below this line
 
 
 
-      // Add your code above this line
+    // Add your code above this line
   </script>
 </body>
 ```
@@ -126,12 +127,13 @@ assert($('div').eq(8)[0].style.height === '9px');
   <script>
     const dataset = [12, 31, 22, 17, 25, 18, 29, 14, 9];
 
-    d3.select("body").selectAll("div")
+    d3.select('body')
+      .selectAll('div')
       .data(dataset)
       .enter()
-      .append("div")
-      .attr("class", "bar")
-      .style('height', d => `${d}px`)
+      .append('div')
+      .attr('class', 'bar')
+      .style('height', d => `${d}px`);
   </script>
 </body>
 ```

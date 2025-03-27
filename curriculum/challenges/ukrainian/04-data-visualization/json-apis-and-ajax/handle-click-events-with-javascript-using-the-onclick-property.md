@@ -11,15 +11,13 @@ dashedName: handle-click-events-with-javascript-using-the-onclick-property
 You want your code to execute only once your page has finished loading. For that purpose, you can attach a JavaScript event to the document called `DOMContentLoaded`. Here's the code that does this:
 
 ```js
-document.addEventListener('DOMContentLoaded', function() {
-
-});
+document.addEventListener('DOMContentLoaded', function () {});
 ```
 
 Ви можете імплементувати обробники подій, які будуть всередині функції `DOMContentLoaded`. Ви можете імплементувати обробник подій `onclick`, який запускається, коли користувач натискає на елемент `#getMessage`, за допомогою цього коду:
 
 ```js
-document.getElementById('getMessage').onclick = function(){};
+document.getElementById('getMessage').onclick = function () {};
 ```
 
 # --instructions--
@@ -31,13 +29,13 @@ document.getElementById('getMessage').onclick = function(){};
 Код має використати метод `document.getElementById`, щоб вибрати елемент з id зі значенням `getMessage`.
 
 ```js
-assert(code.match(/document\s*\.getElementById\(\s*?('|")getMessage\1\s*?\)/g));
+assert.match(code, /document\s*\.getElementById\(\s*('|")getMessage\1\s*\)/g);
 ```
 
 Код має додати обробник подій `onclick`.
 
 ```js
-assert(typeof document.getElementById('getMessage').onclick === 'function');
+assert.isFunction(document.getElementById('getMessage').onclick);
 ```
 
 # --seed--
@@ -46,10 +44,8 @@ assert(typeof document.getElementById('getMessage').onclick === 'function');
 
 ```html
 <script>
-  document.addEventListener('DOMContentLoaded', function(){
+  document.addEventListener('DOMContentLoaded', function () {
     // Add your code below this line
-
-
     // Add your code above this line
   });
 </script>
@@ -57,7 +53,7 @@ assert(typeof document.getElementById('getMessage').onclick === 'function');
 <style>
   body {
     text-align: center;
-    font-family: "Helvetica", sans-serif;
+    font-family: 'Helvetica', sans-serif;
   }
   h1 {
     font-size: 2em;
@@ -76,18 +72,14 @@ assert(typeof document.getElementById('getMessage').onclick === 'function');
     padding: 5px 10px 8px 10px;
   }
   button:hover {
-    background-color: #0F5897;
-    border: 1px solid #0F5897;
+    background-color: #0f5897;
+    border: 1px solid #0f5897;
   }
 </style>
 <h1>Cat Photo Finder</h1>
-<p class="message box">
-  The message will go here
-</p>
+<p class="message box">The message will go here</p>
 <p>
-  <button id="getMessage">
-    Get Message
-  </button>
+  <button id="getMessage">Get Message</button>
 </p>
 ```
 
@@ -95,9 +87,9 @@ assert(typeof document.getElementById('getMessage').onclick === 'function');
 
 ```html
 <script>
-  document.addEventListener('DOMContentLoaded', function(){
+  document.addEventListener('DOMContentLoaded', function () {
     // Add your code below this line
-    document.getElementById('getMessage').onclick = function(){ };
+    document.getElementById('getMessage').onclick = function () {};
     // Add your code above this line
   });
 </script>
@@ -105,7 +97,7 @@ assert(typeof document.getElementById('getMessage').onclick === 'function');
 <style>
   body {
     text-align: center;
-    font-family: "Helvetica", sans-serif;
+    font-family: 'Helvetica', sans-serif;
   }
   h1 {
     font-size: 2em;
@@ -124,17 +116,13 @@ assert(typeof document.getElementById('getMessage').onclick === 'function');
     padding: 5px 10px 8px 10px;
   }
   button:hover {
-    background-color: #0F5897;
-    border: 1px solid #0F5897;
+    background-color: #0f5897;
+    border: 1px solid #0f5897;
   }
 </style>
-<h1>Cat Photo Finder</h1> 
-<p class="message box">
-  The message will go here
-</p>
+<h1>Cat Photo Finder</h1>
+<p class="message box">The message will go here</p>
 <p>
-  <button id="getMessage">
-    Get Message
-  </button>
+  <button id="getMessage">Get Message</button>
 </p>
 ```

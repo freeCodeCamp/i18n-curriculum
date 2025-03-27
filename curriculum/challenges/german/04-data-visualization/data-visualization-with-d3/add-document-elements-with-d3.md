@@ -13,7 +13,7 @@ D3 has several methods that let you add and change elements in your document.
 Die `select()`-Methode wählt ein Element aus dem Dokument aus. Sie nimmt ein Argument für den Namen des gewünschten Elements entgegen und gibt einen HTML-Knoten für das erste Element im Dokument zurück, das dem Namen entspricht. Hier ein Beispiel:
 
 ```js
-const anchor = d3.select("a");
+const anchor = d3.select('a');
 ```
 
 Im obigen Beispiel wird das erste Anker-Tag auf der Seite gefunden und ein HTML-Knoten für dieses in der Variable `anchor` gespeichert. Du kannst die Auswahl mit anderen Methoden verwenden. Der `d3`-Teil des Beispiels ist ein Verweis auf das D3-Objekt, mit dem du auf D3-Methoden zugreifst.
@@ -27,9 +27,7 @@ Die `text()`-Methode legt entweder den Text des ausgewählten Knotens fest oder 
 Hier ist ein Beispiel, das eine ungeordnete Liste auswählt, ein Listenelement anhängt und Text hinzufügt:
 
 ```js
-d3.select("ul")
-  .append("li")
-  .text("Very important item");
+d3.select('ul')?.append('li').text('Very important item');
 ```
 
 Mit D3 kannst du mithilfe von Punkten mehrere Methoden „verketten“, um verschiedene Aktionen hintereinander auszuführen.
@@ -43,37 +41,39 @@ Verwende die `select`-Methode, um das `body`-Tag im Dokument auszuwählen. Füge
 Der `body` sollte über ein `h1`-Element verfügen.
 
 ```js
-assert($('body').children('h1').length == 1);
+const body = document.querySelector('body');
+const headers = body?.querySelectorAll('h1');
+assert.lengthOf(headers, 1);
 ```
 
 Das `h1`-Element sollte den Text `Learning D3` enthalten.
 
 ```js
-assert($('h1').text() == 'Learning D3');
+assert.strictEqual(document.querySelector('h1')?.textContent, 'Learning D3');
 ```
 
 Dein Code sollte auf das `d3`-Objekt zugreifen.
 
 ```js
-assert(code.match(/d3/g));
+assert.match(code, /d3/g);
 ```
 
 Dein Code sollte die `select`-Methode verwenden.
 
 ```js
-assert(code.match(/\.select/g));
+assert.match(code, /\.select/g);
 ```
 
 Dein Code sollte die `append`-Methode verwenden.
 
 ```js
-assert(code.match(/\.append/g));
+assert.match(code, /\.append/g);
 ```
 
 Dein Code sollte die `text`-Methode verwenden.
 
 ```js
-assert(code.match(/\.text/g));
+assert.match(code, /\.text/g);
 ```
 
 # --seed--
@@ -97,9 +97,7 @@ assert(code.match(/\.text/g));
 ```html
 <body>
   <script>
-    d3.select("body")
-      .append("h1")
-      .text("Learning D3")
+    d3.select('body').append('h1').text('Learning D3');
   </script>
 </body>
 ```

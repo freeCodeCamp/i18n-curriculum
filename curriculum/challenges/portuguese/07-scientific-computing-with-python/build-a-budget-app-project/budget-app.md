@@ -47,7 +47,7 @@ Total: 923.96
 
 Além da classe `Category`, crie uma função (fora da classe) chamada `create_spend_chart`, que recebe uma lista de categorias como um argumento. Ela deve retornar uma string, que é um gráfico de barras.
 
-O gráfico deve mostrar a porcentagem gasta em cada categoria passada para a função. A porcentagem gasta deve ser calculada apenas com retiradas, não com depósitos. No lado esquerdo do gráfico, deve haver rótulos de 0 a 100. The 'bars' in the bar chart should be made out of the 'o' character. A altura de cada barra deve ser arredondada para baixo para o 10 mais próximo. A linha horizontal abaixo das barras deve ir dois espaços além da barra final. O nome de cada categoria deve ser escrito verticalmente abaixo da barra. There should be a title at the top that says 'Percentage spent by category'.
+O gráfico deve mostrar a porcentagem gasta em cada categoria passada para a função. The percentage spent should be calculated only with withdrawals and not with deposits, and it should be the percentage of the amount spent for each category to the total spent for all categories. No lado esquerdo do gráfico, deve haver rótulos de 0 a 100. The 'bars' in the bar chart should be made out of the 'o' character. A altura de cada barra deve ser arredondada para baixo para o 10 mais próximo. A linha horizontal abaixo das barras deve ir dois espaços além da barra final. O nome de cada categoria deve ser escrito verticalmente abaixo da barra. There should be a title at the top that says 'Percentage spent by category'.
 
 Esta função será testada com até quatro categorias.
 

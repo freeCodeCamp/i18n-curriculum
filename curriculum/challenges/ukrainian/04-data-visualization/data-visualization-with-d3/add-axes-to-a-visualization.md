@@ -21,9 +21,10 @@ const xAxis = d3.axisBottom(xScale);
 ```js
 const xAxis = d3.axisBottom(xScale);
 
-svg.append("g")
-   .attr("transform", "translate(0, " + (h - padding) + ")")
-   .call(xAxis);
+svg
+  .append('g')
+  .attr('transform', 'translate(0, ' + (h - padding) + ')')
+  .call(xAxis);
 ```
 
 Наведений вище код розміщує вісь х внизу SVG. Потім її передано як аргумент до методу `call()`. Вісь y працює так само, але аргумент `translate` має вигляд `(x, 0)`. Оскільки `translate` є рядком в методі `attr()` вище, ви можете використати конкатенацію, щоб включити значення змінних для аргументів.
@@ -37,24 +38,20 @@ svg.append("g")
 Код має використати метод `axisLeft()` разом із `yScale`, переданим як аргумент.
 
 ```js
-assert(code.match(/\.axisLeft\(yScale\)/g));
+assert.match(code, /\.axisLeft\(yScale\)/g);
 ```
 
 Елемент `g` осі y повинен мати атрибут `transform`, який переміщує вісь на `(60, 0)`.
 
 ```js
-assert(
-  $('g')
-    .eq(10)
-    .attr('transform')
-    .match(/translate\(60\s*?,\s*?0\)/g)
-);
+const yAxis = document.querySelectorAll('g')[10];
+assert.match(yAxis?.getAttribute('transform'), /translate\(60\s*,\s*0\)/g);
 ```
 
 Код має викликати `yAxis`.
 
 ```js
-assert(code.match(/\.call\(\s*yAxis\s*\)/g));
+assert.match(code, /\.call\(\s*yAxis\s*\)/g);
 ```
 
 # --seed--
@@ -65,66 +62,71 @@ assert(code.match(/\.call\(\s*yAxis\s*\)/g));
 <body>
   <script>
     const dataset = [
-                  [ 34,     78 ],
-                  [ 109,   280 ],
-                  [ 310,   120 ],
-                  [ 79,   411 ],
-                  [ 420,   220 ],
-                  [ 233,   145 ],
-                  [ 333,   96 ],
-                  [ 222,    333 ],
-                  [ 78,    320 ],
-                  [ 21,   123 ]
-                ];
+      [34, 78],
+      [109, 280],
+      [310, 120],
+      [79, 411],
+      [420, 220],
+      [233, 145],
+      [333, 96],
+      [222, 333],
+      [78, 320],
+      [21, 123]
+    ];
 
     const w = 500;
     const h = 500;
     const padding = 60;
 
-    const xScale = d3.scaleLinear()
-                     .domain([0, d3.max(dataset, (d) => d[0])])
-                     .range([padding, w - padding]);
+    const xScale = d3
+      .scaleLinear()
+      .domain([0, d3.max(dataset, d => d[0])])
+      .range([padding, w - padding]);
 
-    const yScale = d3.scaleLinear()
-                     .domain([0, d3.max(dataset, (d) => d[1])])
-                     .range([h - padding, padding]);
+    const yScale = d3
+      .scaleLinear()
+      .domain([0, d3.max(dataset, d => d[1])])
+      .range([h - padding, padding]);
 
-    const svg = d3.select("body")
-                  .append("svg")
-                  .attr("width", w)
-                  .attr("height", h);
+    const svg = d3
+      .select('body')
+      .append('svg')
+      .attr('width', w)
+      .attr('height', h);
 
-    svg.selectAll("circle")
-       .data(dataset)
-       .enter()
-       .append("circle")
-       .attr("cx", (d) => xScale(d[0]))
-       .attr("cy",(d) => yScale(d[1]))
-       .attr("r", (d) => 5);
+    svg
+      .selectAll('circle')
+      .data(dataset)
+      .enter()
+      .append('circle')
+      .attr('cx', d => xScale(d[0]))
+      .attr('cy', d => yScale(d[1]))
+      .attr('r', d => 5);
 
-    svg.selectAll("text")
-       .data(dataset)
-       .enter()
-       .append("text")
-       .text((d) =>  (d[0] + "," + d[1]))
-       .attr("x", (d) => xScale(d[0] + 10))
-       .attr("y", (d) => yScale(d[1]))
+    svg
+      .selectAll('text')
+      .data(dataset)
+      .enter()
+      .append('text')
+      .text(d => d[0] + ',' + d[1])
+      .attr('x', d => xScale(d[0] + 10))
+      .attr('y', d => yScale(d[1]));
 
     const xAxis = d3.axisBottom(xScale);
     // Add your code below this line
     const yAxis = undefined;
     // Add your code above this line
 
-    svg.append("g")
-       .attr("transform", "translate(0," + (h - padding) + ")")
-       .call(xAxis);
+    svg
+      .append('g')
+      .attr('transform', 'translate(0,' + (h - padding) + ')')
+      .call(xAxis);
 
     // Add your code below this line
 
 
 
     // Add your code above this line
-
   </script>
 </body>
 ```
@@ -135,64 +137,69 @@ assert(code.match(/\.call\(\s*yAxis\s*\)/g));
 <body>
   <script>
     const dataset = [
-                  [ 34,     78 ],
-                  [ 109,   280 ],
-                  [ 310,   120 ],
-                  [ 79,   411 ],
-                  [ 420,   220 ],
-                  [ 233,   145 ],
-                  [ 333,   96 ],
-                  [ 222,    333 ],
-                  [ 78,    320 ],
-                  [ 21,   123 ]
-                ];
+      [34, 78],
+      [109, 280],
+      [310, 120],
+      [79, 411],
+      [420, 220],
+      [233, 145],
+      [333, 96],
+      [222, 333],
+      [78, 320],
+      [21, 123]
+    ];
 
     const w = 500;
     const h = 500;
     const padding = 60;
 
-    const xScale = d3.scaleLinear()
-                     .domain([0, d3.max(dataset, (d) => d[0])])
-                     .range([padding, w - padding]);
+    const xScale = d3
+      .scaleLinear()
+      .domain([0, d3.max(dataset, d => d[0])])
+      .range([padding, w - padding]);
 
-    const yScale = d3.scaleLinear()
-                     .domain([0, d3.max(dataset, (d) => d[1])])
-                     .range([h - padding, padding]);
+    const yScale = d3
+      .scaleLinear()
+      .domain([0, d3.max(dataset, d => d[1])])
+      .range([h - padding, padding]);
 
-    const svg = d3.select("body")
-                  .append("svg")
-                  .attr("width", w)
-                  .attr("height", h);
+    const svg = d3
+      .select('body')
+      .append('svg')
+      .attr('width', w)
+      .attr('height', h);
 
-    svg.selectAll("circle")
-       .data(dataset)
-       .enter()
-       .append("circle")
-       .attr("cx", (d) => xScale(d[0]))
-       .attr("cy",(d) => yScale(d[1]))
-       .attr("r", (d) => 5);
+    svg
+      .selectAll('circle')
+      .data(dataset)
+      .enter()
+      .append('circle')
+      .attr('cx', d => xScale(d[0]))
+      .attr('cy', d => yScale(d[1]))
+      .attr('r', d => 5);
 
-    svg.selectAll("text")
-       .data(dataset)
-       .enter()
-       .append("text")
-       .text((d) =>  (d[0] + "," + d[1]))
-       .attr("x", (d) => xScale(d[0] + 10))
-       .attr("y", (d) => yScale(d[1]))
+    svg
+      .selectAll('text')
+      .data(dataset)
+      .enter()
+      .append('text')
+      .text(d => d[0] + ',' + d[1])
+      .attr('x', d => xScale(d[0] + 10))
+      .attr('y', d => yScale(d[1]));
 
     const xAxis = d3.axisBottom(xScale);
 
     const yAxis = d3.axisLeft(yScale);
 
+    svg
+      .append('g')
+      .attr('transform', 'translate(0,' + (h - padding) + ')')
+      .call(xAxis);
 
-    svg.append("g")
-       .attr("transform", "translate(0," + (h - padding) + ")")
-       .call(xAxis);
-
-    svg.append("g")
-       .attr("transform", "translate(" + padding + ",0)")
-       .call(yAxis)
-
+    svg
+      .append('g')
+      .attr('transform', 'translate(' + padding + ',0)')
+      .call(yAxis);
   </script>
 </body>
 ```

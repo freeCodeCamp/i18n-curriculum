@@ -13,13 +13,11 @@ Another way to request external data is to use the JavaScript `fetch()` method. 
 Ecco il codice per fare una richiesta GET a `/json/cats.json`
 
 ```js
-
 fetch('/json/cats.json')
   .then(response => response.json())
   .then(data => {
     document.getElementById('message').innerHTML = JSON.stringify(data);
-  })
-
+  });
 ```
 
 Note: The `fetch()` method uses `GET` as the default `HTTP` method. This means you don’t need to specify it explicitly for basic data retrieval.
@@ -40,59 +38,55 @@ Modifica il codice per creare e usare una richiesta `GET` all'API Cat Photo di f
 
 # --hints--
 
-
 Il tuo codice dovrebbe utilizzare i dati recuperati per sostituire l'innerHTML
 
 ```js
-const catData = "dummy data";
+const catData = 'dummy data';
 const ref = fetch;
 fetch = () => Promise.resolve({ json: () => catData });
 async () => {
   try {
-    document.getElementById("getMessage").click();
+    document.getElementById('getMessage').click();
     await new Promise((resolve, reject) => setTimeout(() => resolve(), 250));
   } catch (error) {
     console.log(error);
   } finally {
     fetch = ref;
     assert.equal(
-      document.getElementById("message").textContent,
+      document.getElementById('message').textContent,
       JSON.stringify(catData)
     );
   }
 };
 ```
 
-
 Il tuo codice dovrebbe fare una richiesta `GET` usando `fetch`.
 
 ```js
-assert(code.match(/fetch\s*\(\s*('|")\/json\/cats\.json\1\s*\)/g));
+assert.match(code, /fetch\s*\(\s*('|")\/json\/cats\.json\1\s*\)/g);
 ```
 
 Il tuo codice dovrebbe usare `then` per convertire la risposta in JSON.
 
 ```js
-assert(
-  code.match(
-    /\.then\s*\(\s*\(?(?<var>\w+)\)?\s*=>\s*\k<var>\s*\.json\s*\(\s*\)\s*\)/g
-  )
+assert.match(
+  code,
+  /\.then\s*\(\s*\(?(?<var>\w+)\)?\s*=>\s*\k<var>\s*\.json\s*\(\s*\)\s*\)/g
 );
 ```
 
 Il tuo codice dovrebbe usare `then` per gestire i dati convertiti in JSON dall'altro `then`.
 
 ```js
-assert(__helpers.removeWhiteSpace(code).match(/\.then\(\(?\w+\)?=>{[^}]*}\)/g));
+assert.match(__helpers.removeWhiteSpace(code), /\.then\(\(?\w+\)?=>{[^}]*}\)/g);
 ```
 
 Il tuo codice dovrebbe selezionare l'elemento con l'id `message` e cambiare il suo innerHTML con la stringa di dati JSON.
 
 ```js
-assert(
-  __helpers.removeWhiteSpace(code).match(
-    /document\.getElementById\(('|")message\1\)\.innerHTML=JSON\.stringify\(?\w+\)/g
-  )
+assert.match(
+  __helpers.removeWhiteSpace(code),
+  /document\.getElementById\(('|")message\1\)\.innerHTML=JSON\.stringify\(?\w+\)/g
 );
 ```
 
@@ -102,11 +96,9 @@ assert(
 
 ```html
 <script>
-  document.addEventListener('DOMContentLoaded',function(){
-    document.getElementById('getMessage').onclick= () => {
+  document.addEventListener('DOMContentLoaded', function () {
+    document.getElementById('getMessage').onclick = () => {
       // Add your code below this line
-
-
       // Add your code above this line
     };
   });
@@ -114,7 +106,7 @@ assert(
 <style>
   body {
     text-align: center;
-    font-family: "Helvetica", sans-serif;
+    font-family: 'Helvetica', sans-serif;
   }
   h1 {
     font-size: 2em;
@@ -133,18 +125,14 @@ assert(
     padding: 5px 10px 8px 10px;
   }
   button:hover {
-    background-color: #0F5897;
-    border: 1px solid #0F5897;
+    background-color: #0f5897;
+    border: 1px solid #0f5897;
   }
 </style>
 <h1>Cat Photo Finder</h1>
-<p id="message" class="box">
-  The message will go here
-</p>
+<p id="message" class="box">The message will go here</p>
 <p>
-  <button id="getMessage">
-    Get Message
-  </button>
+  <button id="getMessage">Get Message</button>
 </p>
 ```
 
@@ -152,20 +140,20 @@ assert(
 
 ```html
 <script>
-  document.addEventListener('DOMContentLoaded',function(){
-    document.getElementById('getMessage').onclick= () => {
+  document.addEventListener('DOMContentLoaded', function () {
+    document.getElementById('getMessage').onclick = () => {
       fetch('/json/cats.json')
         .then(response => response.json())
         .then(data => {
-          document.getElementById('message').innerHTML=JSON.stringify(data);
-        })
+          document.getElementById('message').innerHTML = JSON.stringify(data);
+        });
     };
   });
 </script>
 <style>
   body {
     text-align: center;
-    font-family: "Helvetica", sans-serif;
+    font-family: 'Helvetica', sans-serif;
   }
   h1 {
     font-size: 2em;
@@ -184,17 +172,13 @@ assert(
     padding: 5px 10px 8px 10px;
   }
   button:hover {
-    background-color: #0F5897;
-    border: 1px solid #0F5897;
+    background-color: #0f5897;
+    border: 1px solid #0f5897;
   }
 </style>
 <h1>Cat Photo Finder</h1>
-<p id="message" class="box">
-  The message will go here
-</p>
+<p id="message" class="box">The message will go here</p>
 <p>
-  <button id="getMessage">
-    Get Message
-  </button>
+  <button id="getMessage">Get Message</button>
 </p>
 ```

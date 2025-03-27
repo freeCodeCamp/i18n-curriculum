@@ -38,8 +38,8 @@ dashedName: visualize-data-with-a-choropleth-map
 
 Ось набір даних, необхідних для виконання цього проєкту:
 
--   **US Education Data:**`https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/for_user_education.json`
--   **Дані про округи в США:**`https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/counties.json`
+- **US Education Data:**`https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/for_user_education.json`
+- **Дані про округи в США:**`https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/counties.json`
 
 Ви можете створити свій проєкт, <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">використавши цей шаблон CodePen</a> та натиснувши `Save`. Або ж ви можете скористатися цим CDN-посиланням, щоб провести тести на будь-якому середовищі: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
 

@@ -38,8 +38,8 @@ Você pode usar HTML, JavaScript, CSS e a biblioteca de visualização D3, basea
 
 Aqui estão os conjuntos de dados de que você precisará para completar esse projeto:
 
--   **US Education Data:**`https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/for_user_education.json`
--   **Dados dos condados dos EUA:**`https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/counties.json`
+- **US Education Data:**`https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/for_user_education.json`
+- **Dados dos condados dos EUA:**`https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/counties.json`
 
 Você pode fazer o seu projeto <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">usando este modelo da CodePen</a> e clicando em `Save` para criar seu próprio pen. Como alternativa, use este link da nossa CDN para executar os testes em qualquer ambiente que você preferir: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
 
