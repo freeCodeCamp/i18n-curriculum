@@ -21,9 +21,8 @@ dashedName: delete-many-documents-with-model-remove
 一度に多数のアイテムを正しく削除する必要があります。
 
 ```js
-(getUserInput) =>
   $.ajax({
-    url: getUserInput('url') + '/_api/remove-many-people',
+    url: code + '/_api/remove-many-people',
     type: 'POST',
     contentType: 'application/json',
     data: JSON.stringify([

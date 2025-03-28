@@ -36,8 +36,8 @@ Reiche deine Seite ein, wenn du davon ausgehst, alles richtig gemacht zu haben. 
 Passport und Express-Session sollten Abhängigkeiten sein.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/package.json", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/package.json", code);
   const res = await fetch(url);
   const packJson = await res.json();
   assert.property(
@@ -56,8 +56,8 @@ async (getUserInput) => {
 Die Abhängigkeiten sollten korrekt angegeben werden.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(
@@ -76,8 +76,8 @@ async (getUserInput) => {
 Die Express-Anwendung sollte neue Abhängigkeiten verwenden.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(data, /passport\.initialize/, 'Your express app should use "passport.initialize()"');
@@ -88,8 +88,8 @@ async (getUserInput) => {
 Die Sitzung und das Sitzungsgeheimnis sollten korrekt eingerichtet sein.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(

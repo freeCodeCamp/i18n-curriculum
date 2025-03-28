@@ -27,8 +27,7 @@ Elija el rango mínimo (3er parámetro), para hacer que la prueba sea superada. 
 Se deben pasar todos los tests.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=9').then(
+  $.get(code + '/_api/get-tests?type=unit&n=9').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -41,8 +40,7 @@ Se deben pasar todos los tests.
 Debe elegir el rango correcto para la primera aserción - `approximately(actual, expected, range)`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=9').then(
+  $.get(code + '/_api/get-tests?type=unit&n=9').then(
     (data) => {
       assert.equal(data.assertions[0].method, 'approximately');
       assert.equal(
@@ -60,8 +58,7 @@ Debe elegir el rango correcto para la primera aserción - `approximately(actual,
 Debe elegir el rango correcto para la segunda aserción - `approximately(actual, expected, range)`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=9').then(
+  $.get(code + '/_api/get-tests?type=unit&n=9').then(
     (data) => {
       assert.equal(data.assertions[1].method, 'approximately');
       assert.equal(

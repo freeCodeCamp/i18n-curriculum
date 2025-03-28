@@ -23,8 +23,7 @@ As a reminder, this project is being built upon the following starter project on
 应通过所有测试。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=2').then(
+  $.get(code + '/_api/get-tests?type=unit&n=2').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -37,8 +36,7 @@ As a reminder, this project is being built upon the following starter project on
 应该第一个断言选择正确的方法：`isOk` 或 `isNotOk`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=2').then(
+  $.get(code + '/_api/get-tests?type=unit&n=2').then(
     (data) => {
       assert.equal(data.assertions[0].method, 'isNotOk', 'Null is falsy');
     },
@@ -51,8 +49,7 @@ As a reminder, this project is being built upon the following starter project on
 应该第二个断言选择正确的方法：`isOk` 或 `isNotOk`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=2').then(
+  $.get(code + '/_api/get-tests?type=unit&n=2').then(
     (data) => {
       assert.equal(data.assertions[1].method, 'isOk', 'A string is truthy');
     },
@@ -65,8 +62,7 @@ As a reminder, this project is being built upon the following starter project on
 应该第三个断言选择正确的方法：`isOk` 或 `isNotOk`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=2').then(
+  $.get(code + '/_api/get-tests?type=unit&n=2').then(
     (data) => {
       assert.equal(data.assertions[2].method, 'isOk', 'true is truthy');
     },

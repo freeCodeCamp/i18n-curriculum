@@ -43,8 +43,7 @@ Agora, crie um modelo a partir de `personSchema` e atribua-o à variável `Perso
 Você deve criar uma instância de um esquema mongoose com sucesso
 
 ```js
-(getUserInput) =>
-  $.post(getUserInput('url') + '/_api/mongoose-model', {
+  $.post(code + '/_api/mongoose-model', {
     name: 'Mike',
     age: 28,
     favoriteFoods: ['pizza', 'cheese']

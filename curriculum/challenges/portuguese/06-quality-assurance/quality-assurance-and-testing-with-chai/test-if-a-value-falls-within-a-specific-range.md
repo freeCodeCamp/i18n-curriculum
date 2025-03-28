@@ -27,8 +27,7 @@ Escolha o intervalo mínimo (terceiro parâmetro) para fazer com que o teste sem
 Todos os testes devem passar.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=9').then(
+  $.get(code + '/_api/get-tests?type=unit&n=9').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -41,8 +40,7 @@ Todos os testes devem passar.
 Você deve escolher o intervalo correto para a primeira afirmação - `approximately(actual, expected, range)`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=9').then(
+  $.get(code + '/_api/get-tests?type=unit&n=9').then(
     (data) => {
       assert.equal(data.assertions[0].method, 'approximately');
       assert.equal(
@@ -60,8 +58,7 @@ Você deve escolher o intervalo correto para a primeira afirmação - `approxima
 Você deve escolher o intervalo correto para a segunda afirmação - `approximately(actual, expected, range)`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=9').then(
+  $.get(code + '/_api/get-tests?type=unit&n=9').then(
     (data) => {
       assert.equal(data.assertions[1].method, 'approximately');
       assert.equal(

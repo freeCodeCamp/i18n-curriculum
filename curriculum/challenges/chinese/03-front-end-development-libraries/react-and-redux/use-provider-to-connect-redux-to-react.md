@@ -40,12 +40,12 @@ assert(
 `Provider` 组件应传入相当于 Redux store 的 `store` 参数。
 
 ```js
-(getUserInput) =>
+() =>
   assert(
     (function () {
       const mockedComponent = Enzyme.mount(React.createElement(AppWrapper));
       return __helpers
-        .removeWhiteSpace(getUserInput('index'))
+        .removeWhiteSpace(code)
         .includes('<Providerstore={store}>');
     })()
   );

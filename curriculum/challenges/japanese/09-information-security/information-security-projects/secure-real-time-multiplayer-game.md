@@ -34,13 +34,11 @@ HTML Canvas API と Socket.io を使用して、<a href="https://secure-real-tim
 サンプルの URL ではなく、自分で作成したプロジェクトを提出してください。
 
 ```js
-(getUserInput) => {
   assert(
     !/.*\/secure-real-time-multiplayer-game\.freecodecamp\.rocks/.test(
-      getUserInput('url')
+      code
     )
   );
-};
 ```
 
 複数のプレイヤーがサーバーに接続してプレイすることができます。
@@ -130,8 +128,8 @@ HTML Canvas API と Socket.io を使用して、<a href="https://secure-real-tim
 クライアントによる MIME タイプの推測や参照の試行を防いでください。
 
 ```js
-async (getUserInput) => {
-  const data = await fetch(getUserInput('url') + '/_api/app-info');
+async () => {
+  const data = await fetch(code + '/_api/app-info');
   const parsed = await data.json();
   assert.equal(parsed.headers['x-content-type-options'], 'nosniff');
 };
@@ -140,8 +138,8 @@ async (getUserInput) => {
 クロスサイトスクリプティング (XSS) 攻撃を防いでください。
 
 ```js
-async (getUserInput) => {
-  const data = await fetch(getUserInput('url') + '/_api/app-info');
+async () => {
+  const data = await fetch(code + '/_api/app-info');
   const parsed = await data.json();
   assert.equal(parsed.headers['x-xss-protection'], '1; mode=block');
 };
@@ -150,8 +148,8 @@ async (getUserInput) => {
 ウェブサイトからクライアントにキャッシュされるものは何もありません。
 
 ```js
-async (getUserInput) => {
-  const data = await fetch(getUserInput('url') + '/_api/app-info');
+async () => {
+  const data = await fetch(code + '/_api/app-info');
   const parsed = await data.json();
   assert.equal(parsed.headers['surrogate-control'], 'no-store');
   assert.equal(
@@ -166,8 +164,8 @@ async (getUserInput) => {
 ヘッダーには、サイトで "PHP 7.4.3" が使用されていることを記述します。ただし実際には使用されていません (セキュリティ対策が目的です)。
 
 ```js
-async (getUserInput) => {
-  const data = await fetch(getUserInput('url') + '/_api/app-info');
+async () => {
+  const data = await fetch(code + '/_api/app-info');
   const parsed = await data.json();
   assert.equal(parsed.headers['x-powered-by'], 'PHP 7.4.3');
 };

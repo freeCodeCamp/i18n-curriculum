@@ -19,8 +19,7 @@ Dentro de `tests/1_unit-tests.js` debajo de la prueba etiquetada `#11` en el `Ar
 Todas los test deben pasar.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=10').then(
+  $.get(code + '/_api/get-tests?type=unit&n=10').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -33,8 +32,7 @@ Todas los test deben pasar.
 Debes elegir el método correcto para la primera comprobación - `isArray` vs `isNotArray`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=10').then(
+  $.get(code + '/_api/get-tests?type=unit&n=10').then(
     (data) => {
       assert.equal(
         data.assertions[0].method,
@@ -51,8 +49,7 @@ Debes elegir el método correcto para la primera comprobación - `isArray` vs `i
 Debes elegir el método correcto para la segunda comprobación - `isArray` vs `isNotArray`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=10').then(
+  $.get(code + '/_api/get-tests?type=unit&n=10').then(
     (data) => {
       assert.equal(
         data.assertions[1].method,

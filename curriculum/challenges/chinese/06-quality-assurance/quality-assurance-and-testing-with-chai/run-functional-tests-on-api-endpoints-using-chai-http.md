@@ -51,8 +51,7 @@ suite('GET /hello?name=[name] => "hello [name]"', function () {
 应通过所有测试。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=0').then(
+  $.get(code + '/_api/get-tests?type=functional&n=0').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -65,8 +64,7 @@ suite('GET /hello?name=[name] => "hello [name]"', function () {
 你应该测试 `res.status` == 200。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=0').then(
+  $.get(code + '/_api/get-tests?type=functional&n=0').then(
     (data) => {
       assert.equal(data.assertions[0].method, 'equal');
       assert.equal(data.assertions[0].args[0], 'res.status');
@@ -81,8 +79,7 @@ suite('GET /hello?name=[name] => "hello [name]"', function () {
 你应该测试 `res.text` == `'hello Guest'`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=0').then(
+  $.get(code + '/_api/get-tests?type=functional&n=0').then(
     (data) => {
       assert.equal(data.assertions[1].method, 'equal');
       assert.equal(data.assertions[1].args[0], 'res.text');

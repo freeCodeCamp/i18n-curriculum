@@ -38,16 +38,15 @@ assert(store.getState().login === false);
 `store.dispatch()` 方法应该被用于 dispatch 一个类型为 `LOGIN` 的 action。
 
 ```js
-(getUserInput) =>
-  assert(
+assert(
     (function () {
-      let noWhiteSpace = getUserInput('index').replace(/\s/g, '');
+      let noWhiteSpace = code.replace(/\s/g, '');
       return (
         noWhiteSpace.includes('store.dispatch(loginAction())') ||
         noWhiteSpace.includes("store.dispatch({type: 'LOGIN'})") === true
       );
     })()
-  );
+);
 ```
 
 # --seed--

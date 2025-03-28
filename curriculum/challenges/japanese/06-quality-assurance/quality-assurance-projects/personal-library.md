@@ -26,26 +26,24 @@ dashedName: personal-library
 サンプルの URL ではなく、自分で作成したプロジェクトを提出してください。
 
 ```js
-(getUserInput) => {
   assert(
-    !/.*\/personal-library\.freecodecamp\.rocks/.test(getUserInput('url'))
+    !/.*\/personal-library\.freecodecamp\.rocks/.test(code)
   );
-};
 ```
 
 フォームデータの一部として `title` を指定して `/api/books` へ <b>POST</b> リクエストを送信し、本を追加することができます。  返されるレスポンスは、`title` と一意の `_id` をキーとして持つオブジェクトになります。  `title` がリクエストに含まれていない場合、返されるレスポンスは文字列 `missing required field title` である必要があります。
 
 ```js
-async (getUserInput) => {
+async () => {
   try {
-    let data1 = await $.post(getUserInput('url') + '/api/books', {
+    let data1 = await $.post(code + '/api/books', {
       title: 'Faux Book 1'
     });
     assert.isObject(data1);
     assert.property(data1, 'title');
     assert.equal(data1.title, 'Faux Book 1');
     assert.property(data1, '_id');
-    let data2 = await $.post(getUserInput('url') + '/api/books');
+    let data2 = await $.post(code + '/api/books');
     assert.isString(data2);
     assert.equal(data2, 'missing required field title');
   } catch (err) {
@@ -57,9 +55,9 @@ async (getUserInput) => {
 <b>GET</b> リクエストを `/api/books` へ送信し、すべての本を表す JSON レスポンスを受け取ることができます。 JSON レスポンスはオブジェクトの配列であり、それぞれのオブジェクト (book) に `title`、`_id` および `commentcount` プロパティが含まれます。
 
 ```js
-async (getUserInput) => {
+async () => {
   try {
-    let url = getUserInput('url') + '/api/books';
+    let url = code + '/api/books';
     let a = $.post(url, { title: 'Faux Book A' });
     let b = $.post(url, { title: 'Faux Book B' });
     let c = $.post(url, { title: 'Faux Book C' });
@@ -85,9 +83,9 @@ async (getUserInput) => {
 <b>GET</b> リクエストを `/api/books/{_id}` へ送信して、プロパティ `title`、`_id` および `comments` 配列 (コメントがない場合は、空の配列) を含む book のオブジェクトを 1 つ取得できます。 本が見つからない場合は、文字列 `no book exists` を返してください。
 
 ```js
-async (getUserInput) => {
+async () => {
   try {
-    let url = getUserInput('url') + '/api/books';
+    let url = code + '/api/books';
     let noBook = await $.get(url + '/5f665eb46e296f6b9b6a504d');
     assert.isString(noBook);
     assert.equal(noBook, 'no book exists');
@@ -109,9 +107,9 @@ async (getUserInput) => {
 `comment` をフォームデータ (ボディデータ) として含む <b>POST</b> リクエストを `/api/books/{_id}` へ送信し、本にコメントを追加することができます。 返されるレスポンスは、前述のテストの <b>GET</b> `/api/books/{_id}` リクエストと同様の book オブジェクトになります。 `comment` がリクエストに含まれていない場合は、文字列 `missing required field comment` を返してください。 ブックが見つからない場合は、文字列 `no book exists` を返してください。
 
 ```js
-async (getUserInput) => {
+async () => {
   try {
-    let url = getUserInput('url') + '/api/books';
+    let url = code + '/api/books';
     let commentTarget = await $.post(url, { title: 'Notable Book' });
     assert.isObject(commentTarget);
     let bookId = commentTarget._id;
@@ -147,9 +145,9 @@ async (getUserInput) => {
 <b>DELETE</b> リクエストを `/api/books/{_id}` へ送信して、コレクションから本を削除できます。 成功した場合、文字列 `delete successful` のレスポンスを返します。 本が見つからない場合は、文字列 `no book exists` を返してください。
 
 ```js
-async (getUserInput) => {
+async () => {
   try {
-    let url = getUserInput('url') + '/api/books';
+    let url = code + '/api/books';
     let deleteTarget = await $.post(url, { title: 'Deletable Book' });
     assert.isObject(deleteTarget);
     let bookId = deleteTarget._id;
@@ -171,10 +169,10 @@ async (getUserInput) => {
 <b>DELETE</b> リクエストを `/api/books` へ送信して、データベース内のすべての本を削除することができます。 成功した場合、文字列 `complete delete successful` のレスポンスを返します。
 
 ```js
-async (getUserInput) => {
+async () => {
   try {
     const deleteAll = await $.ajax({
-      url: getUserInput('url') + '/api/books',
+      url: code + '/api/books',
       type: 'DELETE'
     });
     assert.isString(deleteAll);
@@ -188,9 +186,9 @@ async (getUserInput) => {
 10 件の機能テストがすべて記述され、成功する状態になっています。
 
 ```js
-async (getUserInput) => {
+async () => {
   try {
-    const getTests = await $.get(getUserInput('url') + '/_api/get-tests');
+    const getTests = await $.get(code + '/_api/get-tests');
     assert.isArray(getTests);
     assert.isAtLeast(getTests.length, 10, 'At least 10 tests passed');
     getTests.forEach((test) => {

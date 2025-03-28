@@ -33,8 +33,8 @@ Do the same thing in your `auth.js` file with all of the things related to authe
 モジュールが存在する必要があります。
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(

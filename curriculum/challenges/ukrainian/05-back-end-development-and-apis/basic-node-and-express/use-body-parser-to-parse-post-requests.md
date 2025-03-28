@@ -37,8 +37,7 @@ name=John+Doe&age=25
 Проміжне програмне забезпечення «body-parser» має бути встановленим
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/add-body-parser').then(
+  $.get(code + '/_api/add-body-parser').then(
     (data) => {
       assert.isAbove(
         data.mountedAt,

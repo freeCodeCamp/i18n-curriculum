@@ -19,8 +19,7 @@ MongoDB ではドキュメントが保存されるときに、フィールド `_
 Id でアイテムを正しく検索する必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/find-by-id').then(
+  $.get(code + '/_api/find-by-id').then(
     (data) => {
       assert.equal(data.name, 'test', 'item.name is not what expected');
       assert.equal(data.age, 0, 'item.age is not what expected');

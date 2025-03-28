@@ -40,8 +40,7 @@ Sigue el orden de las aserciones de arriba - nos basamos en esto. AdemÃ¡s, asegÃ
 Todas las pruebas deben pasar
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=3').then(
+  $.get(code + '/_api/get-tests?type=functional&n=3').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -54,8 +53,7 @@ Todas las pruebas deben pasar
 Debes comprobar que `res.status` sea 200
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=3').then(
+  $.get(code + '/_api/get-tests?type=functional&n=3').then(
     (data) => {
       assert.equal(data.assertions[0].method, 'equal');
       assert.equal(data.assertions[0].args[0], 'res.status');
@@ -70,8 +68,7 @@ Debes comprobar que `res.status` sea 200
 Debes comprobar que `res.type` sea `'application/json'`
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=3').then(
+  $.get(code + '/_api/get-tests?type=functional&n=3').then(
     (data) => {
       assert.equal(data.assertions[1].method, 'equal');
       assert.equal(data.assertions[1].args[0], 'res.type');
@@ -86,8 +83,7 @@ Debes comprobar que `res.type` sea `'application/json'`
 Debes comprobar que `res.body.name` sea `'Giovanni'`
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=3').then(
+  $.get(code + '/_api/get-tests?type=functional&n=3').then(
     (data) => {
       assert.equal(data.assertions[2].method, 'equal');
       assert.equal(data.assertions[2].args[0], 'res.body.name');
@@ -102,8 +98,7 @@ Debes comprobar que `res.body.name` sea `'Giovanni'`
 Debes comprobar que `res.body.surname` sea `'da Verrazzano'`
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=3').then(
+  $.get(code + '/_api/get-tests?type=functional&n=3').then(
     (data) => {
       assert.equal(data.assertions[3].method, 'equal');
       assert.equal(data.assertions[3].args[0], 'res.body.surname');

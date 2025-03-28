@@ -21,8 +21,7 @@ Em `tests/1_unit-tests.js`, no teste de número `#17`, no grupo de testes `Objec
 Todos os testes devem passar.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=16').then(
+  $.get(code + '/_api/get-tests?type=unit&n=16').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -35,8 +34,7 @@ Todos os testes devem passar.
 Você deve escolher o método correto para a primeira afirmação - `typeOf` ou `notTypeOf`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=16').then(
+  $.get(code + '/_api/get-tests?type=unit&n=16').then(
     (data) => {
       assert.equal(
         data.assertions[0].method,
@@ -53,8 +51,7 @@ Você deve escolher o método correto para a primeira afirmação - `typeOf` ou 
 Você deve escolher o método correto para a segunda afirmação - `typeOf` ou `notTypeOf`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=16').then(
+  $.get(code + '/_api/get-tests?type=unit&n=16').then(
     (data) => {
       assert.equal(
         data.assertions[1].method,
@@ -71,8 +68,7 @@ Você deve escolher o método correto para a segunda afirmação - `typeOf` ou `
 Você deve escolher o método correto para a terceira afirmação - `typeOf` ou `notTypeOf`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=16').then(
+  $.get(code + '/_api/get-tests?type=unit&n=16').then(
     (data) => {
       assert.equal(
         data.assertions[2].method,
@@ -89,8 +85,7 @@ Você deve escolher o método correto para a terceira afirmação - `typeOf` ou 
 Você deve escolher o método correto para a quarta afirmação - `typeOf` ou `notTypeOf`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=16').then(
+  $.get(code + '/_api/get-tests?type=unit&n=16').then(
     (data) => {
       assert.equal(
         data.assertions[3].method,
@@ -107,8 +102,7 @@ Você deve escolher o método correto para a quarta afirmação - `typeOf` ou `n
 Você deve escolher o método correto para a quinta afirmação - `typeOf` ou `notTypeOf`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=16').then(
+  $.get(code + '/_api/get-tests?type=unit&n=16').then(
     (data) => {
       assert.equal(
         data.assertions[4].method,

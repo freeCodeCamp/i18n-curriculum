@@ -21,12 +21,7 @@ Now that you've learned the basics of JSX and React components, it's time to wri
 应该有一个名为 `MyComponent` 的 React 组件。
 
 ```js
-(getUserInput) =>
-  assert(
-    __helpers
-      .removeWhiteSpace(getUserInput('index'))
-      .includes('classMyComponentextendsReact.Component{')
-  );
+assert(__helpers.removeWhiteSpace(code).includes('classMyComponentextendsReact.Component{'));
 ```
 
 `MyComponent` 应该包含一个 `h1` 标签，标签的文本为 `My First React Component!`，区分大小写并有标点符号。

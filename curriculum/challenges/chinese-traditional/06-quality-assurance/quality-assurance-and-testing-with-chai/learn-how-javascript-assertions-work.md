@@ -23,8 +23,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#1` in the `Basic Asserti
 應通過所有測試。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=0').then(
+  $.get(code + '/_api/get-tests?type=unit&n=0').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -37,8 +36,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#1` in the `Basic Asserti
 請選擇正確的斷言—isNull 或 isNotNull
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=0').then(
+  $.get(code + '/_api/get-tests?type=unit&n=0').then(
     (data) => {
       assert.equal(data.assertions[0].method, 'isNull', 'Null is null');
     },
@@ -51,8 +49,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#1` in the `Basic Asserti
 You should choose the right assertion - isNull vs. isNotNull.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=0').then(
+  $.get(code + '/_api/get-tests?type=unit&n=0').then(
     (data) => {
       assert.equal(data.assertions[1].method, 'isNotNull', '1 is not null');
     },

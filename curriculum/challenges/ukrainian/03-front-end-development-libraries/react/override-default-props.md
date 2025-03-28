@@ -43,14 +43,13 @@ assert(
 Компонент `Items` повинен мати пропс `{ quantity: 10 }`, переданий з компонента `ShoppingCart`.
 
 ```js
-(getUserInput) =>
+() =>
   assert(
     (function () {
       const mockedComponent = Enzyme.mount(React.createElement(ShoppingCart));
       return (
         mockedComponent.find('Items').props().quantity == 10 &&
-        getUserInput('index')
-          .replace(/ /g, '')
+        code.replace(/ /g, '')
           .includes('<Itemsquantity={10}/>')
       );
     })()

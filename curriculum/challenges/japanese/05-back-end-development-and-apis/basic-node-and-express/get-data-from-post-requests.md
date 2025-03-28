@@ -31,8 +31,7 @@ DELETE - リソースを削除する。
 テスト 1: API エンドポイントは、正しい名前で応答する必要があります。
 
 ```js
-(getUserInput) =>
-  $.post(getUserInput('url') + '/name', { first: 'Mick', last: 'Jagger' }).then(
+  $.post(code + '/name', { first: 'Mick', last: 'Jagger' }).then(
     (data) => {
       assert.equal(
         data.name,
@@ -49,8 +48,7 @@ DELETE - リソースを削除する。
 テスト 2: API エンドポイントは、正しい名前で応答する必要があります。
 
 ```js
-(getUserInput) =>
-  $.post(getUserInput('url') + '/name', {
+  $.post(code + '/name', {
     first: 'Keith',
     last: 'Richards'
   }).then(

@@ -51,16 +51,8 @@ assert(
 El componente `Items` debe incluir una comprobación `propTypes` para requerir un valor para `quantity` y asegurar que su valor es un número.
 
 ```js
-(getUserInput) =>
-  assert(
-    (function () {
-      const noWhiteSpace = __helpers.removeWhiteSpace(getUserInput('index'));
-      return (
-        noWhiteSpace.includes('quantity:PropTypes.number.isRequired') &&
-        noWhiteSpace.includes('Items.propTypes=')
-      );
-    })()
-  );
+const noWhiteSpace = __helpers.removeWhiteSpace(code);
+assert(noWhiteSpace.includes('quantity:PropTypes.number.isRequired') && noWhiteSpace.includes('Items.propTypes='));
 ```
 
 # --seed--

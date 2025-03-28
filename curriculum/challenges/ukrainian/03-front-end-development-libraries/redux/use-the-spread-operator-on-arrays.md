@@ -60,7 +60,7 @@ assert(
 Використайте оператор розширення, щоб повернути новий стан.
 
 ```js
-(getUserInput) => assert(getUserInput('index').includes('...state'));
+assert(code.includes('...state'));
 ```
 
 # --seed--

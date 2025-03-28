@@ -43,8 +43,7 @@ Erstelle nun ein Modell aus dem `personSchema` und weise es der vorhandenen Vari
 Du solltest erfolgreich eine Instanz nach einem Mongoose-Schema erstellt haben
 
 ```js
-(getUserInput) =>
-  $.post(getUserInput('url') + '/_api/mongoose-model', {
+  $.post(code + '/_api/mongoose-model', {
     name: 'Mike',
     age: 28,
     favoriteFoods: ['pizza', 'cheese']

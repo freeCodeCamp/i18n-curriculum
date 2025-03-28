@@ -36,8 +36,8 @@ After you do all that, tell your express app to **use** `passport.initialize()` 
 Passport と express-session を依存関係にする必要があります。
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/package.json", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/package.json", code);
   const res = await fetch(url);
   const packJson = await res.json();
   assert.property(
@@ -56,8 +56,8 @@ async (getUserInput) => {
 依存関係を正しく require する必要があります。
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(
@@ -76,8 +76,8 @@ async (getUserInput) => {
 Express アプリで新しい依存関係を使用する必要があります。
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(data, /passport\.initialize/, 'Your express app should use "passport.initialize()"');
@@ -88,8 +88,8 @@ async (getUserInput) => {
 セッションとセッションシークレットを正しく設定する必要があります。
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(

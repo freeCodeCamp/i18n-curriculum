@@ -49,8 +49,8 @@ Now try loading up your app and authenticate and you should see in your server c
 `socket.io` を依存関係にする必要があります。
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/package.json", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/package.json", code);
   const res = await fetch(url);
   const packJson = await res.json();
   assert.property(
@@ -64,8 +64,8 @@ async (getUserInput) => {
 `http` を `http` として正しく require しインスタンス化する必要があります。
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(
@@ -79,8 +79,8 @@ async (getUserInput) => {
 `socket.io` を `io` として正しく require しインスタンス化する必要があります。
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(
@@ -94,8 +94,8 @@ async (getUserInput) => {
 Socket.IO で接続をリッスンする必要があります。
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(
@@ -109,8 +109,8 @@ async (getUserInput) => {
 クライアントからサーバーに接続する必要があります。
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/public/client.js", getUserInput("url"));
+async () => {
+  const url = new URL("/public/client.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(

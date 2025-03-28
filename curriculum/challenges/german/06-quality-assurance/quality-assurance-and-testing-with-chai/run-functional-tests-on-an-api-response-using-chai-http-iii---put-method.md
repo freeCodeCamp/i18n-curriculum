@@ -63,8 +63,7 @@ Folge der obigen Behauptungsreihenfolge - wir benötigen sie. Stelle außerdem s
 Alle Tests sollten bestanden werden.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=2').then(
+  $.get(code + '/_api/get-tests?type=functional&n=2').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -77,8 +76,7 @@ Alle Tests sollten bestanden werden.
 Du solltest testen ob der `res.status` 200 beträgt.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=2').then(
+  $.get(code + '/_api/get-tests?type=functional&n=2').then(
     (data) => {
       assert.equal(data.assertions[0].method, 'equal');
       assert.equal(data.assertions[0].args[0], 'res.status');
@@ -93,8 +91,7 @@ Du solltest testen ob der `res.status` 200 beträgt.
 Du solltest testen ob `res.type` Folgendes ist: `'application/json'`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=2').then(
+  $.get(code + '/_api/get-tests?type=functional&n=2').then(
     (data) => {
       assert.equal(data.assertions[1].method, 'equal');
       assert.equal(data.assertions[1].args[0], 'res.type');
@@ -109,8 +106,7 @@ Du solltest testen ob `res.type` Folgendes ist: `'application/json'`.
 Du solltest testen ob `res.body.name` Folgendes ist: `'Cristoforo'`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=2').then(
+  $.get(code + '/_api/get-tests?type=functional&n=2').then(
     (data) => {
       assert.equal(data.assertions[2].method, 'equal');
       assert.equal(data.assertions[2].args[0], 'res.body.name');
@@ -125,8 +121,7 @@ Du solltest testen ob `res.body.name` Folgendes ist: `'Cristoforo'`.
 Du solltest testen ob `res.body.surname` Folgendes ist: `'Colombo'`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=2').then(
+  $.get(code + '/_api/get-tests?type=functional&n=2').then(
     (data) => {
       assert.equal(data.assertions[3].method, 'equal');
       assert.equal(data.assertions[3].args[0], 'res.body.surname');

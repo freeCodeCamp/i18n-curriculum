@@ -60,7 +60,7 @@ assert(
 El operador de propagación debe utilizarse para devolver el nuevo estado.
 
 ```js
-(getUserInput) => assert(getUserInput('index').includes('...state'));
+assert(code.includes('...state'));
 ```
 
 # --seed--

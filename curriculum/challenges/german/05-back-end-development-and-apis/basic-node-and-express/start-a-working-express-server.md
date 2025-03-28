@@ -31,8 +31,7 @@ Benutze die `app.get()`-Methode, um den String "Hello Express" an GET Anfragen z
 Deine App sollte die Zeichenfolge "Hello Express" ausgeben
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url')).then(
+  $.get(code).then(
     (data) => {
       assert.equal(
         data,

@@ -21,8 +21,7 @@ dashedName: disable-dns-prefetching-with-helmet-dnsprefetchcontrol
 helmet.dnsPrefetchControl() ミドルウェアを正しくマウントする必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/app-info').then(
+  $.get(code + '/_api/app-info').then(
     (data) => {
       assert.include(data.appStack, 'dnsPrefetchControl');
       assert.equal(data.headers['x-dns-prefetch-control'], 'off');

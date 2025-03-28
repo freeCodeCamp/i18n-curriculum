@@ -19,8 +19,7 @@ dashedName: use-model-findone-to-return-a-single-matching-document-from-your-dat
 1 つのアイテムを正しく見つける必要があります。
 
 ```js
-(getUserInput) =>
-  $.post(getUserInput('url') + '/_api/find-one-by-food', {
+  $.post(code + '/_api/find-one-by-food', {
     name: 'Gary',
     age: 46,
     favoriteFoods: ['chicken salad']

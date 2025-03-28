@@ -29,8 +29,7 @@ Füge der package.json-Datei deines Projekts eine `description` hinzu.
 package.json sollte einen gültigen "description"-Schlüssel haben
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert(packJson.description, '"description" is missing');

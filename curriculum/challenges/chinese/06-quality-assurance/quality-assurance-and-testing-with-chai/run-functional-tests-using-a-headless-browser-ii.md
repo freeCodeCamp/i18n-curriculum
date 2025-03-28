@@ -31,8 +31,7 @@ As a reminder, this project is being built upon the following starter project on
 应通过所有测试。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=6').then(
+  $.get(code + '/_api/get-tests?type=functional&n=6').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -45,8 +44,7 @@ As a reminder, this project is being built upon the following starter project on
 应断言无头浏览器成功执行请求。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=6').then(
+  $.get(code + '/_api/get-tests?type=functional&n=6').then(
     (data) => {
       assert.equal(data.assertions[0].method, 'browser.success');
     },
@@ -59,8 +57,7 @@ As a reminder, this project is being built upon the following starter project on
 应断言元素 `span#name` 中的文本是 `'Amerigo'`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=6').then(
+  $.get(code + '/_api/get-tests?type=functional&n=6').then(
     (data) => {
       assert.equal(data.assertions[1].method, 'browser.text');
       assert.match(data.assertions[1].args[0], /('|")span#name\1/);
@@ -75,8 +72,7 @@ As a reminder, this project is being built upon the following starter project on
 应断言元素 `span#surname` 中的文本是 `'Vespucci'`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=6').then(
+  $.get(code + '/_api/get-tests?type=functional&n=6').then(
     (data) => {
       assert.equal(data.assertions[2].method, 'browser.text');
       assert.match(data.assertions[2].args[0], /('|")span#surname\1/);
@@ -91,8 +87,7 @@ As a reminder, this project is being built upon the following starter project on
 应该断言元素 `span#dates` 存在，且它的值为 1。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=6').then(
+  $.get(code + '/_api/get-tests?type=functional&n=6').then(
     (data) => {
       assert.equal(data.assertions[3].method, 'browser.elements');
       assert.match(data.assertions[3].args[0], /('|")span#dates\1/);

@@ -40,18 +40,16 @@ Build a full stack JavaScript app that is functionally similar to this: <a href=
 你可以提交你自己的项目，而不是示例的 URL。
 
 ```js
-(getUserInput) => {
   assert(
-    !/.*\/stock-price-checker\.freecodecamp\.rocks/.test(getUserInput('url'))
+    !/.*\/stock-price-checker\.freecodecamp\.rocks/.test(code)
   );
-};
 ```
 
 将内容安全策略设置为仅允许从服务器加载脚本和 CSS。
 
 ```js
-async (getUserInput) => {
-  const data = await fetch(getUserInput('url') + '/_api/app-info');
+async () => {
+  const data = await fetch(code + '/_api/app-info');
   const parsed = await data.json();
   assert.isTrue(
     parsed.headers['content-security-policy'].includes("script-src 'self'")
@@ -65,9 +63,9 @@ async (getUserInput) => {
 你可以向 `/api/stock-prices` 发送一个 `GET` 请求，将纳斯达克股票代码赋值给 `stock` 查询参数。 返回的对象将包含一个名为 `stockData` 的属性。
 
 ```js
-async (getUserInput) => {
+async () => {
   const data = await fetch(
-    getUserInput('url') + '/api/stock-prices?stock=GOOG'
+    code + '/api/stock-prices?stock=GOOG'
   );
   const parsed = await data.json();
   assert.property(parsed, 'stockData');
@@ -77,9 +75,9 @@ async (getUserInput) => {
 `stockData` 属性包括字符串 `stock` 代码、数字 `price`，以及数字 `likes`。
 
 ```js
-async (getUserInput) => {
+async () => {
   const data = await fetch(
-    getUserInput('url') + '/api/stock-prices?stock=GOOG'
+    code + '/api/stock-prices?stock=GOOG'
   );
   const parsed = await data.json();
   const ticker = parsed.stockData;
@@ -98,9 +96,9 @@ async (getUserInput) => {
 如果你传递了两只股票，返回值将是一个包含这两只股票信息的数组。 它将会显示对于两个 `stockData` 对象的 `rel_likes`（两只股票所获得的赞同数的区别），而不是 `likes`。
 
 ```js
-async (getUserInput) => {
+async () => {
   const data = await fetch(
-    getUserInput('url') + '/api/stock-prices?stock=GOOG&stock=MSFT'
+    code + '/api/stock-prices?stock=GOOG&stock=MSFT'
   );
   const parsed = await data.json();
   const ticker = parsed.stockData;
@@ -113,8 +111,8 @@ async (getUserInput) => {
 所有 5 项功能测试都已完成并通过。
 
 ```js
-async (getUserInput) => {
-  const tests = await fetch(getUserInput('url') + '/_api/get-tests');
+async () => {
+  const tests = await fetch(code + '/_api/get-tests');
   const parsed = await tests.json();
   assert.isTrue(parsed.length >= 5);
   parsed.forEach((test) => {

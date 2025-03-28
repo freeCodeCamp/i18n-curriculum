@@ -21,12 +21,7 @@ Now that you've learned the basics of JSX and React components, it's time to wri
 코드 편집기에 `MyComponent`라는 리액트 컴포넌트가 있어야 합니다.
 
 ```js
-(getUserInput) =>
-  assert(
-    __helpers
-      .removeWhiteSpace(getUserInput('index'))
-      .includes('classMyComponentextendsReact.Component{')
-  );
+assert(__helpers.removeWhiteSpace(code).includes('classMyComponentextendsReact.Component{'));
 ```
 
 `MyComponent`는 대소문자와 맞춤법이 정확한 `My First React Component!` 텍스트의 `h1` 태그를 가지고 있어야 합니다.

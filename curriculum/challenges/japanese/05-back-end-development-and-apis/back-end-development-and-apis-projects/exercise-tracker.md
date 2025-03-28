@@ -61,19 +61,16 @@ dashedName: exercise-tracker
 サンプルの URL ではなく、自分で作成したプロジェクトを提出する必要があります。
 
 ```js
-(getUserInput) => {
-  const url = getUserInput('url');
   assert(
-    !/.*\/exercise-tracker\.freecodecamp\.rocks/.test(getUserInput('url'))
+    !/.*\/exercise-tracker\.freecodecamp\.rocks/.test(code)
   );
-};
 ```
 
 フォームデータ `username` を使用して `/api/users` への `POST` リクエストを実行することで、新しいユーザーを作成することができます。
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + '/api/users', {
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -89,8 +86,8 @@ async (getUserInput) => {
 フォームデータ `username` を使用して `POST /api/users` を実行した際のレスポンスは、`username` プロパティおよび `_id` プロパティを持つオブジェクトです。
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + '/api/users', {
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -109,8 +106,8 @@ async (getUserInput) => {
 `/api/users` への `GET` リクエストを実行することにより、すべてのユーザーのリストを取得できます。
 
 ```js
-async(getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + '/api/users');
   assert.isTrue(res.ok);
   if(!res.ok) {
@@ -122,8 +119,8 @@ async(getUserInput) => {
 `/api/users` への `GET` リクエストを実行すると、配列が返されます。
 
 ```js
-async(getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + '/api/users');
   if(res.ok){
     const users = await res.json();
@@ -137,8 +134,8 @@ async(getUserInput) => {
 `GET /api/users` から返される配列の各要素は、ユーザーの `username` および `_id` を含むオブジェクトリテラルです。
 
 ```js
-async(getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + '/api/users');
   if(res.ok){
     const users = await res.json();
@@ -157,8 +154,8 @@ async(getUserInput) => {
 `/api/users/:_id/exercises` への `POST` では、フォームデータ `description`、`duration`、および `date` (省略可) を指定できます。 日付を指定しない場合は、現在の日付が使用されます。
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + '/api/users', {
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -191,8 +188,8 @@ async (getUserInput) => {
 `POST /api/users/:_id/exercises` から返されるレスポンスは、エクササイズの各フィールドが追加されたユーザーオブジェクトです。
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + '/api/users', {
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -244,8 +241,8 @@ async (getUserInput) => {
 `/api/users/:_id/logs` への `GET` リクエストを実行すると、任意のユーザーのすべてのエクササイズログを取得できます。
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + '/api/users', {
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -283,8 +280,8 @@ async (getUserInput) => {
 ユーザーログのリクエスト `GET /api/users/:_id/logs` は、そのユーザーに属するエクササイズの数を表す `count` プロパティを持つユーザーオブジェクトを返します。
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + '/api/users', {
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -324,8 +321,8 @@ async (getUserInput) => {
 `/api/users/:_id/logs` への `GET` リクエストは、全エクササイズの `log` の配列が追加されたユーザーオブジェクトを返します。
 
 ```js
-async(getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + '/api/users', {
     method: 'POST',
     headers: {
@@ -368,8 +365,8 @@ async(getUserInput) => {
 `GET /api/users/:_id/logs` から返される `log` 配列内の各アイテムは、`description`、`duration` および `date` プロパティを持つオブジェクトです。
 
 ```js
-async(getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + `/api/users`, {
     method: 'POST',
     headers: {
@@ -415,8 +412,8 @@ async(getUserInput) => {
 `GET /api/users/:_id/logs` から返される `log` 配列内のどのオブジェクトの `description` プロパティも、文字列である必要があります。
 
 ```js
-async(getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + '/api/users', {
     method: 'POST',
     headers: {
@@ -462,8 +459,8 @@ async(getUserInput) => {
 `GET /api/users/:_id/logs` から返される `log` 配列内のどのオブジェクトの `duration` プロパティも、数値である必要があります。
 
 ```js
-async(getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + '/api/users', {
     method: 'POST',
     headers: {
@@ -509,8 +506,8 @@ async(getUserInput) => {
 `GET /api/users/:_id/logs` から返される `log` 配列内のどのオブジェクトの `date` プロパティも、文字列である必要があります。 `Date` API の `dateString` 形式を使用してください。
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + '/api/users', {
     method: 'POST',
     headers: {
@@ -571,8 +568,8 @@ async (getUserInput) => {
 `GET /api/users/:_id/logs` リクエストに `from`、`to` および `limit` パラメーターを追加すると、任意のユーザーについてログの一部を取得できます。 `from` および `to` は、`yyyy-mm-dd` 形式の日付です。 `limit` は、返されるログの数を表す整数です。
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + '/api/users', {
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },

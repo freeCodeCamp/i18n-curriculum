@@ -21,8 +21,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#7` in the `Equality` sui
 すべてのテストが成功する必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=6').then(
+  $.get(code + '/_api/get-tests?type=unit&n=6').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -35,8 +34,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#7` in the `Equality` sui
 最初のアサーションに、正しいメソッドを選ぶ必要があります - `deepEqual` もしくは `notDeepEqual` です。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=6').then(
+  $.get(code + '/_api/get-tests?type=unit&n=6').then(
     (data) => {
       assert.equal(
         data.assertions[0].method,
@@ -53,8 +51,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#7` in the `Equality` sui
 2 番目のアサーションに、正しいメソッドを選ぶ必要があります - `deepEqual` もしくは `notDeepEqual` です。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=6').then(
+  $.get(code + '/_api/get-tests?type=unit&n=6').then(
     (data) => {
       assert.equal(
         data.assertions[1].method,

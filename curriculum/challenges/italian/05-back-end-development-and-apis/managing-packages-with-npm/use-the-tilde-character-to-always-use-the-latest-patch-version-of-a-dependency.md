@@ -29,8 +29,7 @@ Usa il carattere tilde (`~`) come prefisso di versione per `@freecodecamp/exampl
 `"dependencies"` dovrebbe includere `"@freecodecamp/example"`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert.property(
@@ -48,8 +47,7 @@ Usa il carattere tilde (`~`) come prefisso di versione per `@freecodecamp/exampl
 La versione di `"@freecodecamp/example"` deve corrispondere a `"~1.2.13"`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert.match(

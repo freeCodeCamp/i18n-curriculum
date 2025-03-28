@@ -29,8 +29,7 @@ dashedName: use-the-caret-character-to-use-the-latest-minor-version-of-a-depende
 `"dependencies"` に `"@freecodecamp/example"` を含める必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert.property(
@@ -48,8 +47,7 @@ dashedName: use-the-caret-character-to-use-the-latest-minor-version-of-a-depende
 `"@freecodecamp/example"` のバージョンは `"^1.x.x"` である必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert.match(

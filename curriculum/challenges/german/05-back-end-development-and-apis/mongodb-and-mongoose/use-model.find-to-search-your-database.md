@@ -21,8 +21,7 @@ Verwende das Funktionsargument `personName` als Suchbegriff.
 Die Suche nach allen Elementen, auf die bestimmte Kriterien zutreffen, sollte erfolgreich sein
 
 ```js
-(getUserInput) =>
-  $.post(getUserInput('url') + '/_api/find-all-by-name', {
+  $.post(code + '/_api/find-all-by-name', {
     name: 'r@nd0mN4m3',
     age: 24,
     favoriteFoods: ['pizza']

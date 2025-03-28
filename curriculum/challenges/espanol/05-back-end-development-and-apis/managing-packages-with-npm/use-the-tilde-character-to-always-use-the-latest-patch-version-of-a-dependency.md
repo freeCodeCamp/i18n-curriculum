@@ -29,8 +29,7 @@ Usa el carácter tilde (`~`) para fijar la versión de `@freecodecamp/example` e
 `"dependencies"` debe incluir `"@freecodecamp/example"`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert.property(
@@ -48,8 +47,7 @@ Usa el carácter tilde (`~`) para fijar la versión de `@freecodecamp/example` e
 La versión de `"@freecodecamp/example"` debe coincidir con `"~1.2.13"`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert.match(

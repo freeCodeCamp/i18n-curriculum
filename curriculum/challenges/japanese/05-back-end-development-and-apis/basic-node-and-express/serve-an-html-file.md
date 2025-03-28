@@ -25,8 +25,7 @@ GET リクエストへのレスポンスとして、`/views/index.html` ファ�
 アプリからファイル views/index.html を提供する必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url')).then(
+  $.get(code).then(
     (data) => {
       assert.match(
         data,

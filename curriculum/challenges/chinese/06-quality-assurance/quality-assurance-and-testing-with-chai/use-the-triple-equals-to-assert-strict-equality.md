@@ -21,8 +21,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#6` in the `Equality` sui
 不应有未通过的测试
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=5').then(
+  $.get(code + '/_api/get-tests?type=unit&n=5').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -35,8 +34,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#6` in the `Equality` sui
 应该为第一个断言选择正确的方法：`strictEqual` 或 `notStrictEqual`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=5').then(
+  $.get(code + '/_api/get-tests?type=unit&n=5').then(
     (data) => {
       assert.equal(
         data.assertions[0].method,
@@ -53,8 +51,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#6` in the `Equality` sui
 应该为第二个断言选择正确的方法：`strictEqual` 或 `notStrictEqual`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=5').then(
+  $.get(code + '/_api/get-tests?type=unit&n=5').then(
     (data) => {
       assert.equal(data.assertions[1].method, 'strictEqual', '3*2 = 6...');
     },
@@ -67,8 +64,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#6` in the `Equality` sui
 应该为第三个断言选择正确的方法：`strictEqual` 或 `notStrictEqual`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=5').then(
+  $.get(code + '/_api/get-tests?type=unit&n=5').then(
     (data) => {
       assert.equal(
         data.assertions[2].method,
@@ -85,8 +81,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#6` in the `Equality` sui
 应该为第四个断言选择正确的方法：`strictEqual` 或 `notStrictEqual`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=5').then(
+  $.get(code + '/_api/get-tests?type=unit&n=5').then(
     (data) => {
       assert.equal(
         data.assertions[3].method,

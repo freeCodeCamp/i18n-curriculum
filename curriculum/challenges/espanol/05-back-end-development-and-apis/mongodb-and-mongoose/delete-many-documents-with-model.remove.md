@@ -21,9 +21,8 @@ Modifica la función `removeManyPeople` para eliminar a todas las personas cuyo 
 Eliminar muchos elementos a la vez debe ser exitoso
 
 ```js
-(getUserInput) =>
   $.ajax({
-    url: getUserInput('url') + '/_api/remove-many-people',
+    url: code + '/_api/remove-many-people',
     type: 'POST',
     contentType: 'application/json',
     data: JSON.stringify([

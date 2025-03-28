@@ -51,16 +51,8 @@ assert(
 `Items` 컴포넌트는 `quantity`의 값이 숫자인지 확인하는 `propTypes`를 가지고 있어야 합니다.
 
 ```js
-(getUserInput) =>
-  assert(
-    (function () {
-      const noWhiteSpace = __helpers.removeWhiteSpace(getUserInput('index'));
-      return (
-        noWhiteSpace.includes('quantity:PropTypes.number.isRequired') &&
-        noWhiteSpace.includes('Items.propTypes=')
-      );
-    })()
-  );
+const noWhiteSpace = __helpers.removeWhiteSpace(code);
+assert(noWhiteSpace.includes('quantity:PropTypes.number.isRequired') && noWhiteSpace.includes('Items.propTypes='));
 ```
 
 # --seed--

@@ -32,8 +32,7 @@ function(req, res, next) {
 應該激活根級記錄器中間件
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/root-middleware-logger').then(
+  $.get(code + '/_api/root-middleware-logger').then(
     (data) => {
       assert.isTrue(
         data.passed,

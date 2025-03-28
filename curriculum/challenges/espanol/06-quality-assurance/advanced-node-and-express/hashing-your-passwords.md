@@ -31,8 +31,8 @@ Envía tu página cuando creas que lo ha hecho bien. Si tienes problemas, <a hre
 BCrypt debe ser una dependencia.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/package.json", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/package.json", code);
   const res = await fetch(url);
   const packJson = await res.json()
   assert.property(
@@ -46,8 +46,8 @@ async (getUserInput) => {
 BCrypt debe ser correctamente requerido e implementado.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(

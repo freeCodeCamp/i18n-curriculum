@@ -21,8 +21,7 @@ Sirve el objeto `{"message": "Hello json"}` como respuesta, en formato JSON, a l
 El endpoint `/json` debe servir el objeto JSON `{"message": "Hello json"}`
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/json').then(
+  $.get(code + '/json').then(
     (data) => {
       assert.equal(
         data.message,

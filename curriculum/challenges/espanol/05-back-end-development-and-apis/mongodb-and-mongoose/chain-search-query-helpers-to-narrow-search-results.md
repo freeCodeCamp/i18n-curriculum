@@ -19,9 +19,8 @@ Modifica la función `queryChain` para encontrar a gente que le gusta la comida 
 Las ayudas de consulta de encadenamiento deben tener éxito
 
 ```js
-(getUserInput) =>
   $.ajax({
-    url: getUserInput('url') + '/_api/query-tools',
+    url: code + '/_api/query-tools',
     type: 'POST',
     contentType: 'application/json',
     data: JSON.stringify([

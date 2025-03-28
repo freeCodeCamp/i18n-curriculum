@@ -23,8 +23,7 @@ HTTP Strict Transport Security (HSTS) は、プロトコルのダウングレー
 helmet.hsts() ミドルウェアを正しくマウントする必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/app-info').then(
+  $.get(code + '/_api/app-info').then(
     (data) => {
       assert.include(data.appStack, 'hsts');
       assert.property(data.headers, 'strict-transport-security');
@@ -38,8 +37,7 @@ helmet.hsts() ミドルウェアを正しくマウントする必要がありま
 maxAge を 7776000 秒 (90 日) にする必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/app-info').then(
+  $.get(code + '/_api/app-info').then(
     (data) => {
       assert.match(
         data.headers['strict-transport-security'],

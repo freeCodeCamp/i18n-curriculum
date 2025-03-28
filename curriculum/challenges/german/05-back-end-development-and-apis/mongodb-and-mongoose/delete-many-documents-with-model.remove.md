@@ -21,9 +21,8 @@ dashedName: delete-many-documents-with-model-remove
 Das Löschen vieler Objekte auf einmal sollte funktionieren
 
 ```js
-(getUserInput) =>
   $.ajax({
-    url: getUserInput('url') + '/_api/remove-many-people',
+    url: code + '/_api/remove-many-people',
     type: 'POST',
     contentType: 'application/json',
     data: JSON.stringify([

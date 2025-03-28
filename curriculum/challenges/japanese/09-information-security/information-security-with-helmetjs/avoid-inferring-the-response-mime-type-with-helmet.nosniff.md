@@ -19,8 +19,7 @@ dashedName: avoid-inferring-the-response-mime-type-with-helmet-nosniff
 helmet.noSniff() ミドルウェアを正しくマウントする必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/app-info').then(
+  $.get(code + '/_api/app-info').then(
     (data) => {
       assert.include(data.appStack, 'nosniff');
       assert.equal(data.headers['x-content-type-options'], 'nosniff');

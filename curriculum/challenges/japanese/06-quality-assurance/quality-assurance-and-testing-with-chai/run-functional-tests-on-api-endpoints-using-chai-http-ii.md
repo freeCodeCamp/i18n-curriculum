@@ -21,8 +21,7 @@ As a reminder, this project is being built upon the following starter project on
 すべてのテストが成功する必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=1').then(
+  $.get(code + '/_api/get-tests?type=functional&n=1').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -35,8 +34,7 @@ As a reminder, this project is being built upon the following starter project on
 `res.status` == 200 をテストする必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=1').then(
+  $.get(code + '/_api/get-tests?type=functional&n=1').then(
     (data) => {
       assert.equal(data.assertions[0].method, 'equal');
       assert.equal(data.assertions[0].args[0], 'res.status');
@@ -51,8 +49,7 @@ As a reminder, this project is being built upon the following starter project on
 `res.text` == `'hello <your_name>'` をテストする必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=1').then(
+  $.get(code + '/_api/get-tests?type=functional&n=1').then(
     (data) => {
       assert.equal(data.assertions[1].method, 'equal');
       assert.equal(data.assertions[1].args[0], 'res.text');

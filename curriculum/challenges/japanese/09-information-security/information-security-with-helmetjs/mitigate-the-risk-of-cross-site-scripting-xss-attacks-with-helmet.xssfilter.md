@@ -28,8 +28,7 @@ X-XSS-Protection HTTP ヘッダーは、基本的な保護機能です。 ブラ
 helmet.xssFilter() ミドルウェアを正しくマウントする必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/app-info').then(
+  $.get(code + '/_api/app-info').then(
     (data) => {
       assert.include(data.appStack, 'xXssProtection');
       assert.property(data.headers, 'x-xss-protection');

@@ -45,8 +45,8 @@ Reiche deine Seite ein, wenn du davon ausgehst, alles richtig gemacht zu haben. 
 `currentUsers` sollte definiert werden.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(
@@ -60,8 +60,8 @@ async (getUserInput) => {
 Der Server soll die aktuelle Benutzeranzahl bei jeder neuen Verbindung ausgeben.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(
@@ -75,8 +75,8 @@ async (getUserInput) => {
 Dein Client sollte auf das `'user count'`-Ereignis warten.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/public/client.js", getUserInput("url"));
+async () => {
+  const url = new URL("/public/client.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(

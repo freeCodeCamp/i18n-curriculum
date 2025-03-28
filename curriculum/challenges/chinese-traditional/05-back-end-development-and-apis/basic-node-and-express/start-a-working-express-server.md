@@ -31,8 +31,7 @@ function(req, res) {
 應用應該返回字符串“Hello Express”
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url')).then(
+  $.get(code).then(
     (data) => {
       assert.equal(
         data,

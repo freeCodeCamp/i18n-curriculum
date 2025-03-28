@@ -23,8 +23,7 @@ Hinweis: Die Konfiguration von HTTPS auf einer benutzerdefinierten Website erfor
 helmet.hsts()-Middleware sollte korrekt eingebaut werden
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/app-info').then(
+  $.get(code + '/_api/app-info').then(
     (data) => {
       assert.include(data.appStack, 'hsts');
       assert.property(data.headers, 'strict-transport-security');
@@ -38,8 +37,7 @@ helmet.hsts()-Middleware sollte korrekt eingebaut werden
 maxAge sollte 7776000 s (90 Tagen) entsprechen
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/app-info').then(
+  $.get(code + '/_api/app-info').then(
     (data) => {
       assert.match(
         data.headers['strict-transport-security'],

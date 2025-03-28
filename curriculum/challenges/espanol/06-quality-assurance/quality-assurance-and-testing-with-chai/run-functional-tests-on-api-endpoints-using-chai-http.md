@@ -51,8 +51,7 @@ No debe haber ninguna consulta de URL. Sin una consulta de URL de nombre, el ext
 Todas las pruebas deben pasar
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=0').then(
+  $.get(code + '/_api/get-tests?type=functional&n=0').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -65,8 +64,7 @@ Todas las pruebas deben pasar
 Debe probar para `res.status` == 200
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=0').then(
+  $.get(code + '/_api/get-tests?type=functional&n=0').then(
     (data) => {
       assert.equal(data.assertions[0].method, 'equal');
       assert.equal(data.assertions[0].args[0], 'res.status');
@@ -81,8 +79,7 @@ Debe probar para `res.status` == 200
 Debe probar `res.text` == `'hello Guest'`
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=0').then(
+  $.get(code + '/_api/get-tests?type=functional&n=0').then(
     (data) => {
       assert.equal(data.assertions[1].method, 'equal');
       assert.equal(data.assertions[1].args[0], 'res.text');

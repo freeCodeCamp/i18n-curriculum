@@ -68,7 +68,7 @@ assert(
 `Object.assign` 應該被用於返回一個新狀態。
 
 ```js
-(getUserInput) => assert(getUserInput('index').includes('Object.assign'));
+assert(code.includes('Object.assign'));
 ```
 
 # --seed--

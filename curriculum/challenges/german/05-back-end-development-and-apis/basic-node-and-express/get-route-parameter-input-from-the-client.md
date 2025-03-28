@@ -21,8 +21,7 @@ Erstelle einen Echo-Server, der über die Route `GET /:word/echo` eingebunden wi
 Test 1: Dein Echo-Server sollte Wörter korrekt wiederholen
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/eChOtEsT/echo').then(
+  $.get(code + '/eChOtEsT/echo').then(
     (data) => {
       assert.equal(
         data.echo,
@@ -39,8 +38,7 @@ Test 1: Dein Echo-Server sollte Wörter korrekt wiederholen
 Test 2: Dein Echo-Server sollte Wörter korrekt wiederholen
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/ech0-t3st/echo').then(
+  $.get(code + '/ech0-t3st/echo').then(
     (data) => {
       assert.equal(
         data.echo,

@@ -21,8 +21,7 @@ Em `tests/1_unit-tests.js`, no teste de número `#13`, no grupo de testes `Strin
 Todos os testes devem passar.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=12').then(
+  $.get(code + '/_api/get-tests?type=unit&n=12').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -35,8 +34,7 @@ Todos os testes devem passar.
 Você deve escolher o método correto para a primeira afirmação - `isString` ou `isNotString`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=12').then(
+  $.get(code + '/_api/get-tests?type=unit&n=12').then(
     (data) => {
       assert.equal(
         data.assertions[0].method,
@@ -53,8 +51,7 @@ Você deve escolher o método correto para a primeira afirmação - `isString` o
 Você deve escolher o método correto para a segunda afirmação - `isString` ou `isNotString`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=12').then(
+  $.get(code + '/_api/get-tests?type=unit&n=12').then(
     (data) => {
       assert.equal(
         data.assertions[1].method,
@@ -71,8 +68,7 @@ Você deve escolher o método correto para a segunda afirmação - `isString` ou
 Você deve escolher o método correto para a terceira afirmação - `isString` ou `isNotString`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=12').then(
+  $.get(code + '/_api/get-tests?type=unit&n=12').then(
     (data) => {
       assert.equal(data.assertions[2].method, 'isString', 'A JSON is a string');
     },

@@ -27,8 +27,7 @@ Una de las palabras clave debe ser "freecodecamp".
 el archivo package.json debe tener una clave "keywords" válida
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert(packJson.keywords, '"keywords" is missing');
@@ -42,8 +41,7 @@ el archivo package.json debe tener una clave "keywords" válida
 El campo "keywords" debe ser un arreglo
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert.isArray(packJson.keywords, '"keywords" is not an array');
@@ -57,8 +55,7 @@ El campo "keywords" debe ser un arreglo
 "keywords" debe incluir "freecodecamp"
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert.include(

@@ -77,10 +77,9 @@ assert(
 `rootReducer`는 `counterReducer`와 `authReducer`를 합치는 함수이어야 합니다.
 
 ```js
-(getUserInput) =>
-  assert(
+assert(
     (function () {
-      const noWhiteSpace = __helpers.removeWhiteSpace(getUserInput('index'));
+      const noWhiteSpace = __helpers.removeWhiteSpace(code);
       return (
         typeof rootReducer === 'function' &&
         noWhiteSpace.includes('Redux.combineReducers')

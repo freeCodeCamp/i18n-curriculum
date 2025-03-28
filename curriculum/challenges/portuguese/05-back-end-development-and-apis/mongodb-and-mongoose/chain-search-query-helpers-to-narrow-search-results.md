@@ -19,9 +19,8 @@ Modifique a função `queryChain` para que encontre pessoas que gostam do alimen
 Você deve ter sucesso em encadear auxiliares de consulta
 
 ```js
-(getUserInput) =>
   $.ajax({
-    url: getUserInput('url') + '/_api/query-tools',
+    url: code + '/_api/query-tools',
     type: 'POST',
     contentType: 'application/json',
     data: JSON.stringify([

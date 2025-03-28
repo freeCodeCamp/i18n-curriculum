@@ -19,8 +19,7 @@ Modifique `findPersonById` para encontrar a única pessoa com um `_id` dado, usa
 Você deve ter sucesso em encontrar um item por Id
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/find-by-id').then(
+  $.get(code + '/_api/find-by-id').then(
     (data) => {
       assert.equal(data.name, 'test', 'item.name is not what expected');
       assert.equal(data.age, 0, 'item.age is not what expected');

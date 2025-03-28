@@ -19,8 +19,7 @@ As a reminder, this project is being built upon the following starter project on
 すべてのテストが成功する必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=8').then(
+  $.get(code + '/_api/get-tests?type=unit&n=8').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -33,8 +32,7 @@ As a reminder, this project is being built upon the following starter project on
 最初のアサーションに対して、正しいメソッドを選ぶ必要があります - `isBelow` もしくは `isAtLeast` です。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=8').then(
+  $.get(code + '/_api/get-tests?type=unit&n=8').then(
     (data) => {
       assert.equal(
         data.assertions[0].method,
@@ -51,8 +49,7 @@ As a reminder, this project is being built upon the following starter project on
 2 番目のアサーションに対して、正しいメソッドを選ぶ必要があります - `isBelow` もしくは `isAtLeast` です。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=8').then(
+  $.get(code + '/_api/get-tests?type=unit&n=8').then(
     (data) => {
       assert.equal(
         data.assertions[1].method,
@@ -69,8 +66,7 @@ As a reminder, this project is being built upon the following starter project on
 3 番目のアサーションに対して、正しいメソッドを選ぶ必要があります - `isBelow` もしくは `isAtLeast` です。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=8').then(
+  $.get(code + '/_api/get-tests?type=unit&n=8').then(
     (data) => {
       assert.equal(data.assertions[2].method, 'isBelow', '1 is smaller than 2');
     },
@@ -83,8 +79,7 @@ As a reminder, this project is being built upon the following starter project on
 4 番目のアサーションに対して、正しいメソッドを選ぶ必要があります - `isBelow` もしくは `isAtLeast` です。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=8').then(
+  $.get(code + '/_api/get-tests?type=unit&n=8').then(
     (data) => {
       assert.equal(
         data.assertions[3].method,

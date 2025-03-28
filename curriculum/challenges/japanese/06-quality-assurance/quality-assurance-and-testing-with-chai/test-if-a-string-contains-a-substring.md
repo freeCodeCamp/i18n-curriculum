@@ -21,8 +21,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#14` in the `Strings` sui
 すべてのテストが成功する必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=13').then(
+  $.get(code + '/_api/get-tests?type=unit&n=13').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -35,8 +34,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#14` in the `Strings` sui
 最初のアサーションに対して、正しいメソッドを選ぶ必要があります - `include` もしくは `notInclude` です。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=13').then(
+  $.get(code + '/_api/get-tests?type=unit&n=13').then(
     (data) => {
       assert.equal(
         data.assertions[0].method,
@@ -53,8 +51,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#14` in the `Strings` sui
 2 番目のアサーションに対して、正しいメソッドを選ぶ必要があります - `include` もしくは `notInclude` です。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=13').then(
+  $.get(code + '/_api/get-tests?type=unit&n=13').then(
     (data) => {
       assert.equal(
         data.assertions[1].method,

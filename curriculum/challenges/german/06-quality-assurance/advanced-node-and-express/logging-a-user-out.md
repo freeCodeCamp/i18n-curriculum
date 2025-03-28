@@ -37,8 +37,8 @@ Reiche deine Seite ein, wenn du davon ausgehst, alles richtig gemacht zu haben. 
 `req.logout()` sollte in deiner `/logout`-Route aufgerufen werden.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(
@@ -52,8 +52,8 @@ async (getUserInput) => {
 `/logout` sollte auf die Startseite umleiten.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/logout", getUserInput("url"));
+async () => {
+  const url = new URL("/logout", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(

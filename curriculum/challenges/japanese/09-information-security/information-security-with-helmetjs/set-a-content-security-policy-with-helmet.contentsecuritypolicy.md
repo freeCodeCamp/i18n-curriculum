@@ -25,8 +25,7 @@ dashedName: set-a-content-security-policy-with-helmet-contentsecuritypolicy
 helmet.contentSecurityPolicy() ミドルウェアを正しくマウントする必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/app-info').then(
+  $.get(code + '/_api/app-info').then(
     (data) => {
       assert.include(data.appStack, 'csp');
     },
@@ -39,8 +38,7 @@ helmet.contentSecurityPolicy() ミドルウェアを正しくマウントする�
 csp の config は正しくありません。 defaultSrc を ["'self'"] にし、scriptSrc を ["'self'", 'trusted-cdn.com'] にする必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/app-info').then(
+  $.get(code + '/_api/app-info').then(
     (data) => {
       var cspHeader = Object.keys(data.headers).filter(function (k) {
         return (

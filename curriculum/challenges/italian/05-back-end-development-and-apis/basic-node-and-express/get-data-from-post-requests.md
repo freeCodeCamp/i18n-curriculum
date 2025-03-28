@@ -31,8 +31,7 @@ Ci sono anche un paio di altri metodi che vengono utilizzati per negoziare una c
 Test 1: Il tuo endpoint API dovrebbe rispondere con il nome corretto
 
 ```js
-(getUserInput) =>
-  $.post(getUserInput('url') + '/name', { first: 'Mick', last: 'Jagger' }).then(
+  $.post(code + '/name', { first: 'Mick', last: 'Jagger' }).then(
     (data) => {
       assert.equal(
         data.name,
@@ -49,8 +48,7 @@ Test 1: Il tuo endpoint API dovrebbe rispondere con il nome corretto
 Test 2: Il tuo endpoint API dovrebbe rispondere con il nome corretto
 
 ```js
-(getUserInput) =>
-  $.post(getUserInput('url') + '/name', {
+  $.post(code + '/name', {
     first: 'Keith',
     last: 'Richards'
   }).then(

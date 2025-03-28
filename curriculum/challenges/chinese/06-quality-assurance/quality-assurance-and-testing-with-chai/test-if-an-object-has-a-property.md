@@ -21,8 +21,7 @@ As a reminder, this project is being built upon the following starter project on
 不应有未通过的测试
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=15').then(
+  $.get(code + '/_api/get-tests?type=unit&n=15').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -35,8 +34,7 @@ As a reminder, this project is being built upon the following starter project on
 应该为第一个断言选择正确的方法：`property` 或 `notProperty`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=15').then(
+  $.get(code + '/_api/get-tests?type=unit&n=15').then(
     (data) => {
       assert.equal(
         data.assertions[0].method,
@@ -53,8 +51,7 @@ As a reminder, this project is being built upon the following starter project on
 应该为第二个断言选择正确的方法：`property` 或 `notProperty`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=15').then(
+  $.get(code + '/_api/get-tests?type=unit&n=15').then(
     (data) => {
       assert.equal(
         data.assertions[1].method,
@@ -71,8 +68,7 @@ As a reminder, this project is being built upon the following starter project on
 应该为第三个断言选择正确的方法：`property` 或 `notProperty`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=15').then(
+  $.get(code + '/_api/get-tests?type=unit&n=15').then(
     (data) => {
       assert.equal(data.assertions[2].method, 'property', 'Cars have wheels');
     },

@@ -33,8 +33,8 @@ Invia la tua pagina quando pensi che sia tutto corretto. Se incontri degli error
 Dovresti aggiungere correttamente una variabile di rendering Pug a `/profile`.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(

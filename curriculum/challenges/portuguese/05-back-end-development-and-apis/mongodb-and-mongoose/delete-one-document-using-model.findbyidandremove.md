@@ -19,8 +19,7 @@ Modifique a função `removeById` para excluir uma pessoa pelo `_id` da pessoa. 
 A exclusão de um item deve ser bem-sucedida
 
 ```js
-(getUserInput) =>
-  $.post(getUserInput('url') + '/_api/remove-one-person', {
+  $.post(code + '/_api/remove-one-person', {
     name: 'Jason Bourne',
     age: 36,
     favoriteFoods: ['apples']

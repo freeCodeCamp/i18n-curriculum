@@ -27,8 +27,7 @@ SemVer を理解しておくと、外部の依存関係を使用するソフト�
 `"dependencies"` に `"@freecodecamp/example"` を含める必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert.property(
@@ -46,8 +45,7 @@ SemVer を理解しておくと、外部の依存関係を使用するソフト�
 `"@freecodecamp/example"` のバージョンは `"1.2.13"` である必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert.equal(

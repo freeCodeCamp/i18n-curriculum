@@ -43,8 +43,7 @@ const someFunc = function(done) {
 應當成功地通過 Mongoose schema 創建實例
 
 ```js
-(getUserInput) =>
-  $.post(getUserInput('url') + '/_api/mongoose-model', {
+  $.post(code + '/_api/mongoose-model', {
     name: 'Mike',
     age: 28,
     favoriteFoods: ['pizza', 'cheese']

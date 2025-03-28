@@ -19,8 +19,7 @@ Dentro de `tests/1_unit-tests.js` bajo la prueba etiquetada `#9` en `Comparisons
 Todas los test deben pasar.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=8').then(
+  $.get(code + '/_api/get-tests?type=unit&n=8').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -33,8 +32,7 @@ Todas los test deben pasar.
 Debe elegir el método correcto para la primera aserción - `isBelow` vs `isAtLeast`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=8').then(
+  $.get(code + '/_api/get-tests?type=unit&n=8').then(
     (data) => {
       assert.equal(
         data.assertions[0].method,
@@ -51,8 +49,7 @@ Debe elegir el método correcto para la primera aserción - `isBelow` vs `isAtLe
 Debe elegir el método correcto para la segunda aserción - `isBelow` vs. `isAtLeast`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=8').then(
+  $.get(code + '/_api/get-tests?type=unit&n=8').then(
     (data) => {
       assert.equal(
         data.assertions[1].method,
@@ -69,8 +66,7 @@ Debe elegir el método correcto para la segunda aserción - `isBelow` vs. `isAtL
 Debe elegir el método correcto para la tercera aserción - `isBelow` vs. `isAtLeast`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=8').then(
+  $.get(code + '/_api/get-tests?type=unit&n=8').then(
     (data) => {
       assert.equal(data.assertions[2].method, 'isBelow', '1 is smaller than 2');
     },
@@ -83,8 +79,7 @@ Debe elegir el método correcto para la tercera aserción - `isBelow` vs. `isAtL
 Debe elegir el método correcto para la cuarta aserción - `isBelow` vs. `isAtLeast`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=8').then(
+  $.get(code + '/_api/get-tests?type=unit&n=8').then(
     (data) => {
       assert.equal(
         data.assertions[3].method,

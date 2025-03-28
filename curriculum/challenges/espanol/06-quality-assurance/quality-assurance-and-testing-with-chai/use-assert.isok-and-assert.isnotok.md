@@ -23,8 +23,7 @@ Dentro de `tests/1_unit-tests.js` bajo la prueba etiquetada `#3` en la suite `Ba
 Se deben pasar todos los tests.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=2').then(
+  $.get(code + '/_api/get-tests?type=unit&n=2').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -37,8 +36,7 @@ Se deben pasar todos los tests.
 Debe elegir el método correcto para la primera aserción - `isOk` vs `isNotOk`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=2').then(
+  $.get(code + '/_api/get-tests?type=unit&n=2').then(
     (data) => {
       assert.equal(data.assertions[0].method, 'isNotOk', 'Null is falsy');
     },
@@ -51,8 +49,7 @@ Debe elegir el método correcto para la primera aserción - `isOk` vs `isNotOk`.
 Debe elegir el método correcto para la segunda aserción - `isOk` vs `isNotOk`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=2').then(
+  $.get(code + '/_api/get-tests?type=unit&n=2').then(
     (data) => {
       assert.equal(data.assertions[1].method, 'isOk', 'A string is truthy');
     },
@@ -65,8 +62,7 @@ Debe elegir el método correcto para la segunda aserción - `isOk` vs `isNotOk`.
 Debe elegir el método correcto para la tercera aserción - `isOk` vs `isNotOk`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=2').then(
+  $.get(code + '/_api/get-tests?type=unit&n=2').then(
     (data) => {
       assert.equal(data.assertions[2].method, 'isOk', 'true is truthy');
     },

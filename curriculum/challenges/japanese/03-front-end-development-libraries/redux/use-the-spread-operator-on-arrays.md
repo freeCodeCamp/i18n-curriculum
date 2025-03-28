@@ -60,7 +60,7 @@ assert(
 スプレッド演算子を使用して新しい state を返します。
 
 ```js
-(getUserInput) => assert(getUserInput('index').includes('...state'));
+assert(code.includes('...state'));
 ```
 
 # --seed--

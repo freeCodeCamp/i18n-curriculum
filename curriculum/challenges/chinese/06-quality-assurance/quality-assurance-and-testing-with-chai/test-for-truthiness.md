@@ -29,8 +29,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#4` in the `Basic Asserti
 应通过所有测试。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=3').then(
+  $.get(code + '/_api/get-tests?type=unit&n=3').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -43,8 +42,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#4` in the `Basic Asserti
 应该为第一个断言选择正确的方法：`isTrue` 或 `isNotTrue`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=3').then(
+  $.get(code + '/_api/get-tests?type=unit&n=3').then(
     (data) => {
       assert.equal(data.assertions[0].method, 'isTrue', 'True is true');
     },
@@ -57,8 +55,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#4` in the `Basic Asserti
 应该为第二个断言选择正确的方法：`isTrue` 或 `isNotTrue`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=3').then(
+  $.get(code + '/_api/get-tests?type=unit&n=3').then(
     (data) => {
       assert.equal(
         data.assertions[1].method,
@@ -75,8 +72,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#4` in the `Basic Asserti
 应该为第三个断言选择正确的方法：`isTrue` 或 `isNotTrue`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=3').then(
+  $.get(code + '/_api/get-tests?type=unit&n=3').then(
     (data) => {
       assert.equal(
         data.assertions[2].method,

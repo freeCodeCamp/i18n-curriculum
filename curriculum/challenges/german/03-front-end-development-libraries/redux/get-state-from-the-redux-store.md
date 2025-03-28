@@ -25,10 +25,7 @@ assert(store.getState() === 5);
 Es sollte eine Variable `currentState` existieren, der der aktuelle Zustand des Redux-Stores zugewiesen wird.
 
 ```js
-(getUserInput) =>
-  assert(
-    currentState === 5 && getUserInput('index').includes('store.getState()')
-  );
+assert(currentState === 5 && code.includes('store.getState()'));
 ```
 
 # --seed--

@@ -21,8 +21,7 @@ All'interno di `tests/1_unit-test.js` sotto il test etichettato `#15` nella suit
 Tutti i test dovrebbero essere superati.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=14').then(
+  $.get(code + '/_api/get-tests?type=unit&n=14').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -35,8 +34,7 @@ Tutti i test dovrebbero essere superati.
 Dovresti scegliere il metodo corretto per la prima asserzione - `match` oppure `notMatch`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=14').then(
+  $.get(code + '/_api/get-tests?type=unit&n=14').then(
     (data) => {
       assert.equal(
         data.assertions[0].method,
@@ -53,8 +51,7 @@ Dovresti scegliere il metodo corretto per la prima asserzione - `match` oppure `
 Dovresti scegliere il metodo corretto per la seconda asserzione - `match` oppure `notMatch`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=14').then(
+  $.get(code + '/_api/get-tests?type=unit&n=14').then(
     (data) => {
       assert.equal(
         data.assertions[1].method,

@@ -29,8 +29,7 @@ package.json ファイルに、npm に許可する `@freecodecamp/example` の�
 `"dependencies"` に `"@freecodecamp/example"` を含める必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert.property(
@@ -48,8 +47,7 @@ package.json ファイルに、npm に許可する `@freecodecamp/example` の�
 `"@freecodecamp/example"` のバージョンは `"~1.2.13"` である必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert.match(

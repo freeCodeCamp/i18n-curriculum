@@ -44,15 +44,13 @@ dashedName: issue-tracker
 サンプルの URL ではなく、自分で作成したプロジェクトを提供することができます。
 
 ```js
-(getUserInput) => {
-  assert(!/.*\/issue-tracker\.freecodecamp\.rocks/.test(getUserInput('url')));
-};
+  assert(!/.*\/issue-tracker\.freecodecamp\.rocks/.test(code));
 ```
 
 必須フィールド `issue_title`、`issue_text`、`created_by`、およびオプションフィールド `assigned_to` および `status_text` を含むフォームデータを使用して、`/api/issues/{projectname}` へ `POST` リクエストを送信することができます。
 
 ```js
-async (getUserInput) => {
+async () => {
   try {
     let test_data = {
       issue_title: 'Faux Issue Title',
@@ -60,7 +58,7 @@ async (getUserInput) => {
       created_by: 'fCC'
     };
     const data = await $.post(
-      getUserInput('url') + '/api/issues/fcc-project',
+      code + '/api/issues/fcc-project',
       test_data
     );
     assert.isObject(data);
@@ -74,7 +72,7 @@ async (getUserInput) => {
 `/api/issues/{projectname}` への `POST` リクエストは、そのリクエストで作成されたオブジェクトを返します。また、送信したすべてのフィールドが含まれている必要があります。 除外したオプションフィールドは空の文字列として返します。 さらに、`created_on` (日付/時間)、`updated_on` (日付/時間)、`open` (ブール値、open の場合は `true` (こちらがデフォルト値) 、closed の場合は `false`) および `_id` を含めてください。
 
 ```js
-async (getUserInput) => {
+async () => {
   try {
     let test_data = {
       issue_title: 'Faux Issue Title 2',
@@ -83,7 +81,7 @@ async (getUserInput) => {
       assigned_to: 'Chai and Mocha'
     };
     const data = await $.post(
-      getUserInput('url') + '/api/issues/fcc-project',
+      code + '/api/issues/fcc-project',
       test_data
     );
     assert.isObject(data);
@@ -108,10 +106,10 @@ async (getUserInput) => {
 `/api/issues/{projectname}` への `POST` リクエストを必須フィールドなしで送信した場合は、エラー `{ error: 'required field(s) missing' }` を返します。
 
 ```js
-async (getUserInput) => {
+async () => {
   try {
     let test_data = { created_by: 'fCC' };
-    const data = await $.post(getUserInput('url') + '/api/issues/fcc-project', {
+    const data = await $.post(code + '/api/issues/fcc-project', {
       created_by: 'fCC'
     });
     assert.isObject(data);
@@ -126,11 +124,11 @@ async (getUserInput) => {
 `/api/issues/{projectname}` へ `GET` リクエストを送信して、特定の `projectname` に対するすべての課題の配列 (課題ごとに存在するすべてのフィールドを含む) を取得できます。
 
 ```js
-async (getUserInput) => {
+async () => {
   try {
     let test_data = { issue_text: 'Get Issues Test', created_by: 'fCC' };
     const url =
-      getUserInput('url') +
+      code +
       '/api/issues/get_issues_test_' +
       Date.now().toString().substring(7);
     const data1 = await $.post(
@@ -173,14 +171,14 @@ async (getUserInput) => {
 `/api/issues/{projectname}` へ `GET` リクエストを送信し、任意のフィールドと値を URL クエリとして渡すことにより、リクエストをフィルターで絞り込むことができます (例: `/api/issues/{project}?open=false`)。 1 つ以上のフィールド/値のペアを一度に渡すことができます。
 
 ```js
-async (getUserInput) => {
+async () => {
   try {
     let test_data = {
       issue_title: 'To be Filtered',
       issue_text: 'Filter Issues Test'
     };
     const url =
-      getUserInput('url') +
+      code +
       '/api/issues/get_issues_test_' +
       Date.now().toString().substring(7);
     const data1 = await $.post(
@@ -219,14 +217,14 @@ async (getUserInput) => {
 `_id` と 1 つ 以上の更新対象のフィールドを指定して、`/api/issues/{projectname}` へ `PUT` リクエストを送信することができます。 成功した場合は、`updated_on` フィールドを更新し、`{  result: 'successfully updated', '_id': _id }` を返す必要があります。
 
 ```js
-async (getUserInput) => {
+async () => {
   try {
     let initialData = {
       issue_title: 'Issue to be Updated',
       issue_text: 'Functional Test - Put target',
       created_by: 'fCC'
     };
-    const url = getUserInput('url') + '/api/issues/fcc-project';
+    const url = code + '/api/issues/fcc-project';
     const itemToUpdate = await $.post(url, initialData);
     const updateSuccess = await $.ajax({
       url: url,
@@ -254,9 +252,9 @@ async (getUserInput) => {
 `/api/issues/{projectname}` へ送信した `PUT` リクエストに `_id` が含まれていない場合、戻り値は `{ error: 'missing _id' }` です。
 
 ```js
-async (getUserInput) => {
+async () => {
   try {
-    const url = getUserInput('url') + '/api/issues/fcc-project';
+    const url = code + '/api/issues/fcc-project';
     const badUpdate = await $.ajax({ url: url, type: 'PUT' });
     assert.isObject(badUpdate);
     assert.property(badUpdate, 'error');
@@ -270,9 +268,9 @@ async (getUserInput) => {
 `/api/issues/{projectname}` へ送信した `PUT` リクエストに更新フィールドが含まれていない 場合、戻り値は `{ error: 'no update field(s) sent', '_id': _id }` です。 それ以外のエラーでは、戻り値は `{ error: 'could not update', '_id': _id }` です。
 
 ```js
-async (getUserInput) => {
+async () => {
   try {
-    const url = getUserInput('url') + '/api/issues/fcc-project';
+    const url = code + '/api/issues/fcc-project';
     const badUpdate = await $.ajax({
       url: url,
       type: 'PUT',
@@ -300,14 +298,14 @@ async (getUserInput) => {
 `_id` を指定して `/api/issues/{projectname}` へ `DELETE` リクエストを送信して、課題を削除することができます。 `_id` が送信されなかった場合、戻り値は `{ error: 'missing _id' }` です。 成功した場合、戻り値は `{ result: 'successfully deleted', '_id': _id }` です。 失敗した場合、戻り値は `{ error: 'could not delete', '_id': _id }` です。
 
 ```js
-async (getUserInput) => {
+async () => {
   try {
     let initialData = {
       issue_title: 'Issue to be Deleted',
       issue_text: 'Functional Test - Delete target',
       created_by: 'fCC'
     };
-    const url = getUserInput('url') + '/api/issues/fcc-project';
+    const url = code + '/api/issues/fcc-project';
     const itemToDelete = await $.post(url, initialData);
     assert.isObject(itemToDelete);
     const deleteSuccess = await $.ajax({
@@ -342,9 +340,9 @@ async (getUserInput) => {
 14 件の機能テストがすべて記述され、成功する状態になっています。
 
 ```js
-async (getUserInput) => {
+async () => {
   try {
-    const getTests = await $.get(getUserInput('url') + '/_api/get-tests');
+    const getTests = await $.get(code + '/_api/get-tests');
     assert.isArray(getTests);
     assert.isAtLeast(getTests.length, 14, 'At least 14 tests passed');
     getTests.forEach((test) => {

@@ -29,8 +29,8 @@ Envie sua página quando você achar que ela está certa. Se você estiver encon
 O servidor deve tratar do evento de desconexão a partir de um socket.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(data, /socket.on.*('|")disconnect('|")/s, '');
@@ -40,8 +40,8 @@ async (getUserInput) => {
 O client deve estar escutando o evento `'user count'`.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/public/client.js", getUserInput("url"));
+async () => {
+  const url = new URL("/public/client.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(

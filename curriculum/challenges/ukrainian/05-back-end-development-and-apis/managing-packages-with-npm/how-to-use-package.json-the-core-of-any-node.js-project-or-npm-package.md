@@ -39,8 +39,7 @@ dashedName: how-to-use-package-json-the-core-of-any-node-js-project-or-npm-packa
 `package.json` повинен мати дійсний ключ «author»
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert(packJson.author, '"author" is missing');

@@ -21,10 +21,9 @@ So far, you have been rendering React components on the client. Normally, this i
 `App` 组件应该使用 `ReactDOMServer.renderToString` 渲染一个字符串。
 
 ```js
-(getUserInput) =>
+() =>
   assert(
-    getUserInput('index')
-      .replace(/ /g, '')
+    code.replace(/ /g, '')
       .includes('ReactDOMServer.renderToString(<App/>)') &&
       Enzyme.mount(React.createElement(App)).children().name() === 'div'
   );

@@ -21,8 +21,7 @@ As a reminder, this project is being built upon the following starter project on
 應正確加載 helmet.dnsPrefetchControl() 中間件
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/app-info').then(
+  $.get(code + '/_api/app-info').then(
     (data) => {
       assert.include(data.appStack, 'dnsPrefetchControl');
       assert.equal(data.headers['x-dns-prefetch-control'], 'off');

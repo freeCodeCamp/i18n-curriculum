@@ -56,13 +56,11 @@ Escreva os testes a seguir em `tests/2_functional-tests.js`:
 Você pode fornecer seu próprio projeto, não o exemplo de URL.
 
 ```js
-getUserInput => {
   assert(
     !/.*\/metric-imperial-converter\.freecodecamp\.rocks/.test(
-      getUserInput('url')
+      code
     )
   );
-};
 ```
 
 Você pode fazer a solicitação de `GET` `/api/convert` com um único parâmetro que contém um número e unidade aceitos e fazer com que sejam convertidos. (Dica: divida a entrada procurando o índice do primeiro caractere que vai marcar o início da unidade)
@@ -74,18 +72,18 @@ Você pode fazer a solicitação de `GET` `/api/convert` com um único parâmetr
 Você pode converter `'gal'` para `'L'` e vice-versa. (1 gal para 3.78541 L)
 
 ```js
-async getUserInput => {
+async () => {
   try {
-    const data1 = await $.get(getUserInput('url') + '/api/convert?input=1gal');
+    const data1 = await $.get(code + '/api/convert?input=1gal');
     assert.equal(data1.returnNum, 3.78541);
     assert.equal(data1.returnUnit, 'L');
-    const data2 = await $.get(getUserInput('url') + '/api/convert?input=10gal');
+    const data2 = await $.get(code + '/api/convert?input=10gal');
     assert.equal(data2.returnNum, 37.8541);
     assert.equal(data2.returnUnit, 'L');
-    const data3 = await $.get(getUserInput('url') + '/api/convert?input=1l');
+    const data3 = await $.get(code + '/api/convert?input=1l');
     assert.equal(data3.returnNum, 0.26417);
     assert.equal(data3.returnUnit, 'gal');
-    const data4 = await $.get(getUserInput('url') + '/api/convert?input=10l');
+    const data4 = await $.get(code + '/api/convert?input=10l');
     assert.equal(data4.returnNum, 2.64172);
     assert.equal(data4.returnUnit, 'gal');
   } catch (xhr) {
@@ -97,18 +95,18 @@ async getUserInput => {
 Você pode converter `'lbs'` para `'kg'` e vice-versa. (1 lbs para 0.453592 kg)
 
 ```js
-async getUserInput => {
+async () => {
   try {
-    const data1 = await $.get(getUserInput('url') + '/api/convert?input=1lbs');
+    const data1 = await $.get(code + '/api/convert?input=1lbs');
     assert.equal(data1.returnNum, 0.45359);
     assert.equal(data1.returnUnit, 'kg');
-    const data2 = await $.get(getUserInput('url') + '/api/convert?input=10lbs');
+    const data2 = await $.get(code + '/api/convert?input=10lbs');
     assert.equal(data2.returnNum, 4.53592);
     assert.equal(data2.returnUnit, 'kg');
-    const data3 = await $.get(getUserInput('url') + '/api/convert?input=1kg');
+    const data3 = await $.get(code + '/api/convert?input=1kg');
     assert.equal(data3.returnNum, 2.20462);
     assert.equal(data3.returnUnit, 'lbs');
-    const data4 = await $.get(getUserInput('url') + '/api/convert?input=10kg');
+    const data4 = await $.get(code + '/api/convert?input=10kg');
     assert.equal(data4.returnNum, 22.04624);
     assert.equal(data4.returnUnit, 'lbs');
   } catch (xhr) {
@@ -120,18 +118,18 @@ async getUserInput => {
 Você pode converter `'mi'` para `'km'` e vice-versa. (1 mi para 1.60934 km)
 
 ```js
-async getUserInput => {
+async () => {
   try {
-    const data1 = await $.get(getUserInput('url') + '/api/convert?input=1mi');
+    const data1 = await $.get(code + '/api/convert?input=1mi');
     assert.equal(data1.returnNum, 1.60934);
     assert.equal(data1.returnUnit, 'km');
-    const data2 = await $.get(getUserInput('url') + '/api/convert?input=10mi');
+    const data2 = await $.get(code + '/api/convert?input=10mi');
     assert.equal(data2.returnNum, 16.0934);
     assert.equal(data2.returnUnit, 'km');
-    const data3 = await $.get(getUserInput('url') + '/api/convert?input=1km');
+    const data3 = await $.get(code + '/api/convert?input=1km');
     assert.equal(data3.returnNum, 0.62137);
     assert.equal(data3.returnUnit, 'mi');
-    const data4 = await $.get(getUserInput('url') + '/api/convert?input=10km');
+    const data4 = await $.get(code + '/api/convert?input=10km');
     assert.equal(data4.returnNum, 6.21373);
     assert.equal(data4.returnUnit, 'mi');
   } catch (xhr) {
@@ -143,18 +141,18 @@ async getUserInput => {
 Todas as unidades de entrada devem ser aceitas em letras maiúsculas e minúsculas, mas devem ser retornadas em `initUnit` e `returnUnit` em minúsculas, exceto para litro, que deve ser representado como uma maiúscula `'L'`.
 
 ```js
-async getUserInput => {
+async () => {
   try {
-    const data1 = await $.get(getUserInput('url') + '/api/convert?input=1gal');
+    const data1 = await $.get(code + '/api/convert?input=1gal');
     assert.equal(data1.initUnit, 'gal');
     assert.equal(data1.returnUnit, 'L');
-    const data2 = await $.get(getUserInput('url') + '/api/convert?input=10L');
+    const data2 = await $.get(code + '/api/convert?input=10L');
     assert.equal(data2.initUnit, 'L');
     assert.equal(data2.returnUnit, 'gal');
-    const data3 = await $.get(getUserInput('url') + '/api/convert?input=1l');
+    const data3 = await $.get(code + '/api/convert?input=1l');
     assert.equal(data3.initUnit, 'L');
     assert.equal(data3.returnUnit, 'gal');
-    const data4 = await $.get(getUserInput('url') + '/api/convert?input=10KM');
+    const data4 = await $.get(code + '/api/convert?input=10KM');
     assert.equal(data4.initUnit, 'km');
     assert.equal(data4.returnUnit, 'mi');
   } catch (xhr) {
@@ -166,9 +164,9 @@ async getUserInput => {
 Se a unidade de medida for inválida, será retornado `'invalid unit'`.
 
 ```js
-async getUserInput => {
+async () => {
   try {
-    const data = await $.get(getUserInput('url') + '/api/convert?input=1min');
+    const data = await $.get(code + '/api/convert?input=1min');
     assert(data.error === 'invalid unit' || data === 'invalid unit');
   } catch (xhr) {
     throw new Error(xhr.responseText || xhr.message);
@@ -179,10 +177,10 @@ async getUserInput => {
 Se o número for inválida, será retornado `'invalid number'`.
 
 ```js
-async getUserInput => {
+async () => {
   try {
     const data = await $.get(
-      getUserInput('url') + '/api/convert?input=1//2gal'
+      code + '/api/convert?input=1//2gal'
     );
     assert(data.error === 'invalid number' || data === 'invalid number');
   } catch (xhr) {
@@ -194,10 +192,10 @@ async getUserInput => {
 Se o número e a unidade forem inválidos, será retornado `'invalid number and unit'`.
 
 ```js
-async getUserInput => {
+async () => {
   try {
     const data = await $.get(
-      getUserInput('url') + '/api/convert?input=1//2min'
+      code + '/api/convert?input=1//2min'
     );
     assert(
       data.error === 'invalid number and unit' ||
@@ -212,24 +210,24 @@ async getUserInput => {
 Você pode usar frações, números decimais ou ambos no parâmetro (por exemplo, 5, 1/2, 2.5/6), mas se nada for fornecido, o padrão será 1.
 
 ```js
-async getUserInput => {
+async () => {
   try {
-    const data1 = await $.get(getUserInput('url') + '/api/convert?input=mi');
+    const data1 = await $.get(code + '/api/convert?input=mi');
     assert.approximately(data1.initNum, 1, 0.001);
     assert.approximately(data1.returnNum, 1.60934, 0.001);
     assert.equal(data1.returnUnit, 'km');
-    const data2 = await $.get(getUserInput('url') + '/api/convert?input=1/5mi');
+    const data2 = await $.get(code + '/api/convert?input=1/5mi');
     assert.approximately(data2.initNum, 1 / 5, 0.1);
     assert.approximately(data2.returnNum, 0.32187, 0.001);
     assert.equal(data2.returnUnit, 'km');
     const data3 = await $.get(
-      getUserInput('url') + '/api/convert?input=1.5/7km'
+      code + '/api/convert?input=1.5/7km'
     );
     assert.approximately(data3.initNum, 1.5 / 7, 0.001);
     assert.approximately(data3.returnNum, 0.13315, 0.001);
     assert.equal(data3.returnUnit, 'mi');
     const data4 = await $.get(
-      getUserInput('url') + '/api/convert?input=3/2.7km'
+      code + '/api/convert?input=3/2.7km'
     );
     assert.approximately(data4.initNum, 3 / 2.7, 0.001);
     assert.approximately(data4.returnNum, 0.69041, 0.001);
@@ -243,9 +241,9 @@ async getUserInput => {
 O retorno consistirá em `initNum`, `initUnit`, `returnNum`, `returnUnit` e `string` escrevendo as unidades no formato `'{initNum} {initUnitString} converts to {returnNum} {returnUnitString}'` com o resultado arredondado para 5 casas decimais.
 
 ```js
-async getUserInput => {
+async () => {
   try {
-    const data = await $.get(getUserInput('url') + '/api/convert?input=2mi');
+    const data = await $.get(code + '/api/convert?input=2mi');
     assert.equal(data.initNum, 2);
     assert.equal(data.initUnit, 'mi');
     assert.approximately(data.returnNum, 3.21868, 0.001);
@@ -260,9 +258,9 @@ async getUserInput => {
 Todos os 16 testes de unidade foram concluídos e deram aprovação.
 
 ```js
-async getUserInput => {
+async () => {
   try {
-    const getTests = await $.get(getUserInput('url') + '/_api/get-tests');
+    const getTests = await $.get(code + '/_api/get-tests');
     assert.isArray(getTests);
     const unitTests = getTests.filter(test => {
       return !!test.context.match(/Unit Tests/gi);
@@ -285,9 +283,9 @@ async getUserInput => {
 Todos os 5 testes funcionais foram concluídos e deram aprovação.
 
 ```js
-async getUserInput => {
+async () => {
   try {
-    const getTests = await $.get(getUserInput('url') + '/_api/get-tests');
+    const getTests = await $.get(code + '/_api/get-tests');
     assert.isArray(getTests);
     const functTests = getTests.filter(test => {
       return !!test.context.match(/Functional Tests/gi);

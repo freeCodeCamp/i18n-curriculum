@@ -68,7 +68,7 @@ assert(
 새 상태를 반환할 때 `Object.assign`을 사용해야 합니다.
 
 ```js
-(getUserInput) => assert(getUserInput('index').includes('Object.assign'));
+assert(code.includes('Object.assign'));
 ```
 
 # --seed--

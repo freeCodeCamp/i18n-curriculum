@@ -29,8 +29,7 @@ dashedName: add-a-description-to-your-package-json
 package.json で、有効な「description」キーを記述する必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert(packJson.description, '"description" is missing');

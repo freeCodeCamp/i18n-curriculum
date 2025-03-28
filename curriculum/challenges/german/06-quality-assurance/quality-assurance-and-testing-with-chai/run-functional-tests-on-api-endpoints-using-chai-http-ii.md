@@ -21,8 +21,7 @@ Sende deinen Namen als URL Query, indem du `?name=<your_name>` an den Pfad anhä
 Alle Tests sollten bestanden werden
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=1').then(
+  $.get(code + '/_api/get-tests?type=functional&n=1').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -35,8 +34,7 @@ Alle Tests sollten bestanden werden
 Du solltest auf `res.status` == 200 testen
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=1').then(
+  $.get(code + '/_api/get-tests?type=functional&n=1').then(
     (data) => {
       assert.equal(data.assertions[0].method, 'equal');
       assert.equal(data.assertions[0].args[0], 'res.status');
@@ -51,8 +49,7 @@ Du solltest auf `res.status` == 200 testen
 Du solltest auf `res.text` == `'hello <your_name>'` testen
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=1').then(
+  $.get(code + '/_api/get-tests?type=functional&n=1').then(
     (data) => {
       assert.equal(data.assertions[1].method, 'equal');
       assert.equal(data.assertions[1].args[0], 'res.text');

@@ -53,8 +53,8 @@ Reiche deine Seite ein, wenn du davon ausgehst, alles richtig gemacht zu haben. 
 Du solltest das Nutzerobjekt korrekt serialisieren.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(
@@ -73,8 +73,8 @@ async (getUserInput) => {
 Du solltest das Nutzerobjekt korrekt deserialisieren.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(
@@ -93,8 +93,8 @@ async (getUserInput) => {
 MongoDB sollte eine Abhängigkeit sein.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/package.json", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/package.json", code);
   const res = await fetch(url);
   const packJson = await res.json();
   assert.property(
@@ -108,8 +108,8 @@ async (getUserInput) => {
 Mongodb sollte ordnungsgemäß erforderlich sein, einschließlich der ObjectId.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(

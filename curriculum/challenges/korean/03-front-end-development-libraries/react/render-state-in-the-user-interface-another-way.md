@@ -40,8 +40,7 @@ assert(
 렌더링되는 `h1` 태그는 `{name}`를 포함해야 합니다.
 
 ```js
-(getUserInput) =>
-  assert(/<h1>\n*\s*\{\s*name\s*\}\s*\n*<\/h1>/.test(getUserInput('index')));
+assert(/<h1>\n*\s*\{\s*name\s*\}\s*\n*<\/h1>/.test(code));
 ```
 
 렌더링된 `h1` 제목 엘리먼트는 컴포넌트의 상태에서 가져온 텍스트가 포함되어야 합니다.

@@ -21,9 +21,8 @@ Modifica la funzione `removeManyPeople` per eliminare tutte le persone il cui no
 L'eliminazione di molti oggetti contemporaneamente dovrebbe avere successo
 
 ```js
-(getUserInput) =>
   $.ajax({
-    url: getUserInput('url') + '/_api/remove-many-people',
+    url: code + '/_api/remove-many-people',
     type: 'POST',
     contentType: 'application/json',
     data: JSON.stringify([

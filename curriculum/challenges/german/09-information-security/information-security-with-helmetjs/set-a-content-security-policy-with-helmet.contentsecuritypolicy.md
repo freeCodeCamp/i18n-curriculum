@@ -25,8 +25,7 @@ Tipp: Wenn im `'self'` keyword die einfachen Anführungszeichen Teil des keyword
 Die helmet.contentSecurityPolicy()-Middleware sollte korrekt eingebaut werden
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/app-info').then(
+  $.get(code + '/_api/app-info').then(
     (data) => {
       assert.include(data.appStack, 'csp');
     },
@@ -39,8 +38,7 @@ Die helmet.contentSecurityPolicy()-Middleware sollte korrekt eingebaut werden
 Deine csp-Konfiguration ist nicht korrekt. defaultSrc sollte ["self'"] und scriptSrc sollte ["'self'", 'trusted-cdn.com'] sein
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/app-info').then(
+  $.get(code + '/_api/app-info').then(
     (data) => {
       var cspHeader = Object.keys(data.headers).filter(function (k) {
         return (

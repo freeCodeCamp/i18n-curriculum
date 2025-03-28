@@ -21,12 +21,7 @@ JSX と React コンポーネントの基本を学んだところで、今度は
 `MyComponent` という React コンポーネントを用意します。
 
 ```js
-(getUserInput) =>
-  assert(
-    __helpers
-      .removeWhiteSpace(getUserInput('index'))
-      .includes('classMyComponentextendsReact.Component{')
-  );
+assert(__helpers.removeWhiteSpace(code).includes('classMyComponentextendsReact.Component{'));
 ```
 
 `MyComponent` に、テキスト `My First React Component!` を持つ `h1` タグを含めます。大文字小文字の区別と句読点が重要です。

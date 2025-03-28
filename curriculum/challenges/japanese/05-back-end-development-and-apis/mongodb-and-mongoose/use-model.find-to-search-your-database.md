@@ -21,8 +21,7 @@ dashedName: use-model-find-to-search-your-database
 条件に対応するすべてのアイテムを正しく見つける必要があります。
 
 ```js
-(getUserInput) =>
-  $.post(getUserInput('url') + '/_api/find-all-by-name', {
+  $.post(code + '/_api/find-all-by-name', {
     name: 'r@nd0mN4m3',
     age: 24,
     favoriteFoods: ['pizza']

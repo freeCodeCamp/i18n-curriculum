@@ -78,7 +78,7 @@ async () => {
 render メソッドでは、`this.state.display` の条件をチェックするために `&&` 論理演算子を使用する必要があります。
 
 ```js
-(getUserInput) => assert(getUserInput('index').includes('&&'));
+assert(code.includes('&&'));
 ```
 
 # --seed--

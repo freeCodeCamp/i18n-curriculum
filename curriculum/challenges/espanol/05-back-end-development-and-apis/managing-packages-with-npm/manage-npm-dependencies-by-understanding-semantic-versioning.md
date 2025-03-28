@@ -27,8 +27,7 @@ En la sección de dependencias de `package.json`, cambie la versión de `@freeco
 `"dependencies"` debería incluir `"@freecodecamp/example"`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert.property(
@@ -46,8 +45,7 @@ En la sección de dependencias de `package.json`, cambie la versión de `@freeco
 `"@freecodecamp/example"` debería tener la versión `"1.2.13"`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert.equal(

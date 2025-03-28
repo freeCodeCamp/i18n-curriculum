@@ -34,10 +34,9 @@ assert(
 `DisplayMessages` 생성자는 `super`를 올바르게 호출해야 하며, 이때 `props`를 전달해야 합니다.
 
 ```js
-(getUserInput) =>
-  assert(
+assert(
     (function () {
-      const noWhiteSpace = __helpers.removeWhiteSpace(getUserInput('index'));
+      const noWhiteSpace = __helpers.removeWhiteSpace(code);
       return (
         noWhiteSpace.includes('constructor(props)') &&
         noWhiteSpace.includes('super(props')

@@ -31,8 +31,7 @@ Vergiss nicht, den `assert.fail()`-Aufruf zu entfernen.
 Alle Tests sollten erfolgreich sein.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=6').then(
+  $.get(code + '/_api/get-tests?type=functional&n=6').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -45,8 +44,7 @@ Alle Tests sollten erfolgreich sein.
 Du solltest überprüfen, ob die Anfrage des Headless Browsers erfolgreich war.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=6').then(
+  $.get(code + '/_api/get-tests?type=functional&n=6').then(
     (data) => {
       assert.equal(data.assertions[0].method, 'browser.success');
     },
@@ -59,8 +57,7 @@ Du solltest überprüfen, ob die Anfrage des Headless Browsers erfolgreich war.
 Prüfe, ob der Text innerhalb des Elements `span#name` `'Amerigo'` ist.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=6').then(
+  $.get(code + '/_api/get-tests?type=functional&n=6').then(
     (data) => {
       assert.equal(data.assertions[1].method, 'browser.text');
       assert.match(data.assertions[1].args[0], /('|")span#name\1/);
@@ -75,8 +72,7 @@ Prüfe, ob der Text innerhalb des Elements `span#name` `'Amerigo'` ist.
 Prüfe, ob der Text innerhalb des Elements `span#surname` `'Vespucci'` ist.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=6').then(
+  $.get(code + '/_api/get-tests?type=functional&n=6').then(
     (data) => {
       assert.equal(data.assertions[2].method, 'browser.text');
       assert.match(data.assertions[2].args[0], /('|")span#surname\1/);
@@ -91,8 +87,7 @@ Prüfe, ob der Text innerhalb des Elements `span#surname` `'Vespucci'` ist.
 Du solltest überprüfen, ob das Element `span#dates` existiert und seine Anzahl 1 ist.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=6').then(
+  $.get(code + '/_api/get-tests?type=functional&n=6').then(
     (data) => {
       assert.equal(data.assertions[3].method, 'browser.elements');
       assert.match(data.assertions[3].args[0], /('|")span#dates\1/);

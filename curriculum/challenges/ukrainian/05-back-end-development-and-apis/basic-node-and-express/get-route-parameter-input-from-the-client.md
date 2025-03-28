@@ -21,8 +21,7 @@ dashedName: get-route-parameter-input-from-the-client
 Тест 1: ехо-сервер має коректно повторити слова
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/eChOtEsT/echo').then(
+  $.get(code + '/eChOtEsT/echo').then(
     (data) => {
       assert.equal(
         data.echo,
@@ -39,8 +38,7 @@ dashedName: get-route-parameter-input-from-the-client
 Тест 2: ехо-сервер має коректно повторити слова
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/ech0-t3st/echo').then(
+  $.get(code + '/ech0-t3st/echo').then(
     (data) => {
       assert.equal(
         data.echo,

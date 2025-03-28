@@ -19,8 +19,7 @@ dashedName: use-model-findone-to-return-a-single-matching-document-from-your-dat
 应成功地找到一个数据
 
 ```js
-(getUserInput) =>
-  $.post(getUserInput('url') + '/_api/find-one-by-food', {
+  $.post(code + '/_api/find-one-by-food', {
     name: 'Gary',
     age: 46,
     favoriteFoods: ['chicken salad']

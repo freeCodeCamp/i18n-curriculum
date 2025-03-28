@@ -70,14 +70,13 @@ assert(
 `authReducer` 함수는 switch 문을 사용하여 여러 액션 타입을 처리해야 합니다.
 
 ```js
-(getUserInput) =>
-  assert(
+assert(
     (function () {
       return (
         typeof authReducer === 'function' &&
-        getUserInput('index').toString().includes('switch') &&
-        getUserInput('index').toString().includes('case') &&
-        getUserInput('index').toString().includes('default')
+        code.toString().includes('switch') &&
+        code.toString().includes('case') &&
+        code.toString().includes('default')
       );
     })()
   );
@@ -94,11 +93,10 @@ assert(noWhiteSpace.includes('const'))
 액션 생성자와 리듀서는 `LOGIN`과 `LOGOUT` 상수를 참조해야 합니다.
 
 ```js
-(getUserInput) =>
   assert(
     (function () {
       const noWhiteSpace = __helpers.removeWhiteSpace(
-        getUserInput('index').toString()
+        code.toString()
       );
       return (
         noWhiteSpace.includes('caseLOGIN:') &&

@@ -19,8 +19,7 @@ As a reminder, this project is being built upon the following starter project on
 Alle Tests sollten durchlaufen.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=7').then(
+  $.get(code + '/_api/get-tests?type=unit&n=7').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -33,8 +32,7 @@ Alle Tests sollten durchlaufen.
 Du solltest die richtige Methode für die erste Assertion wählen - `isAbove` vs. `isAtMost`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=7').then(
+  $.get(code + '/_api/get-tests?type=unit&n=7').then(
     (data) => {
       assert.equal(
         data.assertions[0].method,
@@ -51,8 +49,7 @@ Du solltest die richtige Methode für die erste Assertion wählen - `isAbove` vs
 Du solltest die richtige Methode für die zweite Assertion wählen - `isAbove` vs. `isAtMost`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=7').then(
+  $.get(code + '/_api/get-tests?type=unit&n=7').then(
     (data) => {
       assert.equal(data.assertions[1].method, 'isAbove', '1 is greater than 0');
     },
@@ -65,8 +62,7 @@ Du solltest die richtige Methode für die zweite Assertion wählen - `isAbove` v
 Du solltest die richtige Methode für die dritte Assertion wählen - `isAbove` vs. `isAtMost`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=7').then(
+  $.get(code + '/_api/get-tests?type=unit&n=7').then(
     (data) => {
       assert.equal(
         data.assertions[2].method,
@@ -83,8 +79,7 @@ Du solltest die richtige Methode für die dritte Assertion wählen - `isAbove` v
 Du solltest die richtige Methode für die vierte Assertion wählen - `isAbove` vs. `isAtMost`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=7').then(
+  $.get(code + '/_api/get-tests?type=unit&n=7').then(
     (data) => {
       assert.equal(
         data.assertions[3].method,

@@ -25,8 +25,7 @@ Ora la tua app dovrebbe essere in grado di servire un foglio di stile CSS. Nota 
 La tua app dovrebbe servire i file di risorsa dalla directory `/public` al percorso `/public`
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/public/style.css').then(
+  $.get(code + '/public/style.css').then(
     (data) => {
       assert.match(
         data,
@@ -43,8 +42,7 @@ La tua app dovrebbe servire i file di risorsa dalla directory `/public` al perco
 La tua app non dovrebbe servire file da nessun'altra cartella ad eccezione della directory `/public`
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/server.js').then(
+  $.get(code + '/server.js').then(
     (data) => {
        assert.equal(
         data?.status + '',

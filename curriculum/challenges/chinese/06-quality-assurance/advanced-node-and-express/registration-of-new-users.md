@@ -65,8 +65,8 @@ app.route('/register')
 你应该有 `/register` 路由并在主页上显示注册表单。
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(
@@ -85,8 +85,8 @@ async (getUserInput) => {
 注册功能应可以正常运行。
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const user = `freeCodeCampTester${Date.now()}`;
   const xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function () {
@@ -113,8 +113,8 @@ async (getUserInput) => {
 登录功能应可以正常运行。
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const user = `freeCodeCampTester${Date.now()}`;
   const xhttpReg = new XMLHttpRequest();
   xhttpReg.onreadystatechange = function () {
@@ -162,9 +162,8 @@ async (getUserInput) => {
 退出登录功能应可以正常运行。
 
 ```js
-(getUserInput) =>
   $.ajax({
-    url: getUserInput('url') + '/logout',
+    url: code + '/logout',
     type: 'GET',
     xhrFields: { withCredentials: true }
   }).then(
@@ -180,9 +179,8 @@ async (getUserInput) => {
 退出登录后，profile 页面应无法访问。
 
 ```js
-(getUserInput) =>
   $.ajax({
-    url: getUserInput('url') + '/profile',
+    url: code + '/profile',
     type: 'GET',
     crossDomain: true,
     xhrFields: { withCredentials: true }

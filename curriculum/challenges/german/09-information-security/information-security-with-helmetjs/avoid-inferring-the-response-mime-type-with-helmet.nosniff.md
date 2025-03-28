@@ -19,8 +19,7 @@ Verwende die `helmet.noSniff()`-Methode auf deinem Server.
 Die helmet.noSniff()-Middleware sollte korrekt eingebaut werden
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/app-info').then(
+  $.get(code + '/_api/app-info').then(
     (data) => {
       assert.include(data.appStack, 'nosniff');
       assert.equal(data.headers['x-content-type-options'], 'nosniff');

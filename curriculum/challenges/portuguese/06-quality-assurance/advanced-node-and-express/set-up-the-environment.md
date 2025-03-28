@@ -49,8 +49,8 @@ Envie sua página quando você achar que ela está certa. Se você estiver encon
 `socket.io` deve ser uma dependência.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/package.json", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/package.json", code);
   const res = await fetch(url);
   const packJson = await res.json();
   assert.property(
@@ -64,8 +64,8 @@ async (getUserInput) => {
 Você deve solicitar e instanciar corretamente `http` como `http`.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(
@@ -79,8 +79,8 @@ async (getUserInput) => {
 Você deve solicitar e instanciar corretamente `socket.io` como `io`.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(
@@ -94,8 +94,8 @@ async (getUserInput) => {
 Socket.IO deve estar escutando as conexões.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(
@@ -109,8 +109,8 @@ async (getUserInput) => {
 O client deve se conectar ao servidor.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/public/client.js", getUserInput("url"));
+async () => {
+  const url = new URL("/public/client.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(

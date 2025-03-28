@@ -34,10 +34,9 @@ assert(
 `DisplayMessages` 組件的構造函數應調用 `super`，傳入 `props`。
 
 ```js
-(getUserInput) =>
-  assert(
+assert(
     (function () {
-      const noWhiteSpace = __helpers.removeWhiteSpace(getUserInput('index'));
+      const noWhiteSpace = __helpers.removeWhiteSpace(code);
       return (
         noWhiteSpace.includes('constructor(props)') &&
         noWhiteSpace.includes('super(props')

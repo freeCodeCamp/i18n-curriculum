@@ -40,8 +40,7 @@ As a reminder, this project is being built upon the following starter project on
 Всі тести повинні бути успішно пройдені
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=3').then(
+  $.get(code + '/_api/get-tests?type=functional&n=3').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -54,8 +53,7 @@ As a reminder, this project is being built upon the following starter project on
 Ви повинні перевірити, чи `res.status` має значення 200
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=3').then(
+  $.get(code + '/_api/get-tests?type=functional&n=3').then(
     (data) => {
       assert.equal(data.assertions[0].method, 'equal');
       assert.equal(data.assertions[0].args[0], 'res.status');
@@ -70,8 +68,7 @@ As a reminder, this project is being built upon the following starter project on
 Ви повинні перевірити, чи `res.type` має значення `'application/json'`
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=3').then(
+  $.get(code + '/_api/get-tests?type=functional&n=3').then(
     (data) => {
       assert.equal(data.assertions[1].method, 'equal');
       assert.equal(data.assertions[1].args[0], 'res.type');
@@ -86,8 +83,7 @@ As a reminder, this project is being built upon the following starter project on
 Ви повинні перевірити, чи `res.body.name` має значення `'Giovanni'`
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=3').then(
+  $.get(code + '/_api/get-tests?type=functional&n=3').then(
     (data) => {
       assert.equal(data.assertions[2].method, 'equal');
       assert.equal(data.assertions[2].args[0], 'res.body.name');
@@ -102,8 +98,7 @@ As a reminder, this project is being built upon the following starter project on
 Ви повинні перевірити, чи `res.body.surname` має значення `'da Verrazzano'`
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=3').then(
+  $.get(code + '/_api/get-tests?type=functional&n=3').then(
     (data) => {
       assert.equal(data.assertions[3].method, 'equal');
       assert.equal(data.assertions[3].args[0], 'res.body.surname');

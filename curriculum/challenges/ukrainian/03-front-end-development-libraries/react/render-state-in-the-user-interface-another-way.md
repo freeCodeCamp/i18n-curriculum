@@ -40,8 +40,7 @@ assert(
 Відтворений тег `h1` має містити посилання на `{name}`.
 
 ```js
-(getUserInput) =>
-  assert(/<h1>\n*\s*\{\s*name\s*\}\s*\n*<\/h1>/.test(getUserInput('index')));
+assert(/<h1>\n*\s*\{\s*name\s*\}\s*\n*<\/h1>/.test(code));
 ```
 
 Відтворений заголовок `h1` повинен містити текст, відтворений зі стану компонента.

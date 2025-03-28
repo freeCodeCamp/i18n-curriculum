@@ -23,20 +23,18 @@ dashedName: file-metadata-microservice
 サンプルの URL ではなく、自分で作成したプロジェクトを提供する必要があります。
 
 ```js
-(getUserInput) => {
   assert(
     !/.*\/file-metadata-microservice\.freecodecamp\.rocks/.test(
-      getUserInput('url')
+      code
     )
   );
-};
 ```
 
 ファイルのアップロードを含むフォームを送信できます。
 
 ```js
-async (getUserInput) => {
-  const site = await fetch(getUserInput('url'));
+async () => {
+  const site = await fetch(code);
   const data = await site.text();
   const doc = new DOMParser().parseFromString(data, 'text/html');
   assert(doc.querySelector('input[type="file"]'));
@@ -46,8 +44,8 @@ async (getUserInput) => {
 フォームのファイル入力フィールドの `name` 属性が `upfile` に設定されています。
 
 ```js
-async (getUserInput) => {
-  const site = await fetch(getUserInput('url'));
+async () => {
+  const site = await fetch(code);
   const data = await site.text();
   const doc = new DOMParser().parseFromString(data, 'text/html');
   assert(doc.querySelector('input[name="upfile"]'));
@@ -57,14 +55,14 @@ async (getUserInput) => {
 ファイルを送信すると、`name`、`type` および `size` (バイト単位) を含む JSON レスポンスを受け取ります。
 
 ```js
-async (getUserInput) => {
+async () => {
   const formData = new FormData();
   const fileData = await fetch(
     'https://cdn.freecodecamp.org/weather-icons/01d.png'
   );
   const file = await fileData.blob();
   formData.append('upfile', file, 'icon');
-  const data = await fetch(getUserInput('url') + '/api/fileanalyse', {
+  const data = await fetch(code + '/api/fileanalyse', {
     method: 'POST',
     body: formData
   });

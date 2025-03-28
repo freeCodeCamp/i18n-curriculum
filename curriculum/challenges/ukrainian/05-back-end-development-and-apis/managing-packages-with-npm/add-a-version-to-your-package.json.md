@@ -23,8 +23,7 @@ dashedName: add-a-version-to-your-package-json
 package.json повинен мати дійсний ключ «version»
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert(packJson.version, '"version" is missing');

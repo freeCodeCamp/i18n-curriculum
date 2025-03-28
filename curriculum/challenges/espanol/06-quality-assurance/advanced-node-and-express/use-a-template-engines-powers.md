@@ -59,8 +59,8 @@ Envía tu página cuando creas que lo has hecho bien. Si te encuentras con error
 Pug debe procesar correctamente las variables.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/", getUserInput("url"));
+async () => {
+  const url = new URL("/", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(

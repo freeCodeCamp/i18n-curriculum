@@ -19,9 +19,8 @@ If you don’t pass the callback as the last argument to `Model.find()` (or to t
 应该成功地链式调用辅助查询函数。
 
 ```js
-(getUserInput) =>
   $.ajax({
-    url: getUserInput('url') + '/_api/query-tools',
+    url: code + '/_api/query-tools',
     type: 'POST',
     contentType: 'application/json',
     data: JSON.stringify([

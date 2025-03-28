@@ -27,8 +27,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#10` in the `Comparisons`
 应通过所有测试。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=9').then(
+  $.get(code + '/_api/get-tests?type=unit&n=9').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -41,8 +40,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#10` in the `Comparisons`
 应该为第一个断言选择正确的范围——`approximately(actual, expected, range)`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=9').then(
+  $.get(code + '/_api/get-tests?type=unit&n=9').then(
     (data) => {
       assert.equal(data.assertions[0].method, 'approximately');
       assert.equal(
@@ -60,8 +58,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#10` in the `Comparisons`
 应该为第二个断言选择正确的范围——`approximately(actual, expected, range)`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=9').then(
+  $.get(code + '/_api/get-tests?type=unit&n=9').then(
     (data) => {
       assert.equal(data.assertions[1].method, 'approximately');
       assert.equal(

@@ -21,8 +21,7 @@ As a reminder, this project is being built upon the following starter project on
 Alle Tests sollten bestehen.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=16').then(
+  $.get(code + '/_api/get-tests?type=unit&n=16').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -35,8 +34,7 @@ Alle Tests sollten bestehen.
 Du solltest die richtige Methode für die erste Behauptung wählen - `typeOf` vs. `notTypeOf`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=16').then(
+  $.get(code + '/_api/get-tests?type=unit&n=16').then(
     (data) => {
       assert.equal(
         data.assertions[0].method,
@@ -53,8 +51,7 @@ Du solltest die richtige Methode für die erste Behauptung wählen - `typeOf` vs
 Du solltest die richtige Methode für die zweite Behauptung wählen - `typeOf` vs. `notTypeOf`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=16').then(
+  $.get(code + '/_api/get-tests?type=unit&n=16').then(
     (data) => {
       assert.equal(
         data.assertions[1].method,
@@ -71,8 +68,7 @@ Du solltest die richtige Methode für die zweite Behauptung wählen - `typeOf` v
 Du solltest die richtige Methode für die dritte Behauptung wählen - `typeOf` vs. `notTypeOf`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=16').then(
+  $.get(code + '/_api/get-tests?type=unit&n=16').then(
     (data) => {
       assert.equal(
         data.assertions[2].method,
@@ -89,8 +85,7 @@ Du solltest die richtige Methode für die dritte Behauptung wählen - `typeOf` v
 Du solltest die richtige Methode für die vierte Behauptung wählen - `typeOf` vs. `notTypeOf`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=16').then(
+  $.get(code + '/_api/get-tests?type=unit&n=16').then(
     (data) => {
       assert.equal(
         data.assertions[3].method,
@@ -107,8 +102,7 @@ Du solltest die richtige Methode für die vierte Behauptung wählen - `typeOf` v
 Du solltest die richtige Methode für die fünfte Behauptung wählen - `typeOf` vs. `notTypeOf`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=16').then(
+  $.get(code + '/_api/get-tests?type=unit&n=16').then(
     (data) => {
       assert.equal(
         data.assertions[4].method,

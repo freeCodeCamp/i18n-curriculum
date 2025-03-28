@@ -37,8 +37,7 @@ name=John+Doe&age=25
 应该挂载 “body-parser” 中间件
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/add-body-parser').then(
+  $.get(code + '/_api/add-body-parser').then(
     (data) => {
       assert.isAbove(
         data.mountedAt,

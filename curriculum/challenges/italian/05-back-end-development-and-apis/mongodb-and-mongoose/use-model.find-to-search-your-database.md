@@ -21,8 +21,7 @@ Usa l'argomento `personName` della funzione come chiave di ricerca.
 La ricerca di tutti gli elementi corrispondenti a un criterio dovrebbe avere successo
 
 ```js
-(getUserInput) =>
-  $.post(getUserInput('url') + '/_api/find-all-by-name', {
+  $.post(code + '/_api/find-all-by-name', {
     name: 'r@nd0mN4m3',
     age: 24,
     favoriteFoods: ['pizza']

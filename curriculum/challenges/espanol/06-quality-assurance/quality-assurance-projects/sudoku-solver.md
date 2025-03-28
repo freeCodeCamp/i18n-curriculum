@@ -62,21 +62,19 @@ Escribir las siguientes pruebas en `tests/2_functional-tests.js`
 Debes proporcionar tu propio proyecto, no la URL del ejemplo.
 
 ```js
-(getUserInput) => {
-  const url = getUserInput('url');
-  assert(!/.*\/sudoku-solver\.freecodecamp\.rocks/.test(getUserInput('url')));
-};
+  const url = code;
+  assert(!/.*\/sudoku-solver\.freecodecamp\.rocks/.test(code));
 ```
 
 Puedes realizar una petición `POST` `/api/solve` con datos del formulario que contienen `puzzle` que será una cadena que contiene una combinación de números (1-9) y puntos `.` para representar espacios vacíos. El objeto devuelto contendrá una propiedad de `solution` con el rompecabezas resuelto.
 
 ```js
-async (getUserInput) => {
+async () => {
   const input =
     '..9..5.1.85.4....2432......1...69.83.9.....6.62.71...9......1945....4.37.4.3..6..';
   const output =
     '769235418851496372432178956174569283395842761628713549283657194516924837947381625';
-  const data = await fetch(getUserInput('url') + '/api/solve', {
+  const data = await fetch(code + '/api/solve', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ puzzle: input })
@@ -90,11 +88,11 @@ async (getUserInput) => {
 Si el objeto enviado a `/api/solve` no existe `puzzle`, el valor devuelto será `{ error: 'Required field missing' }`
 
 ```js
-async (getUserInput) => {
+async () => {
   const input =
     '..9..5.1.85.4....2432......1...69.83.9.....6.62.71...9......1945....4.37.4.3..6..';
   const output = 'Required field missing';
-  const data = await fetch(getUserInput('url') + '/api/solve', {
+  const data = await fetch(code + '/api/solve', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ notpuzzle: input })
@@ -108,11 +106,11 @@ async (getUserInput) => {
 Si el rompecabezas enviado a `/api/solve` contiene valores que no son números o periodos, el valor devuelto será `{ error: 'Invalid characters in puzzle' }`
 
 ```js
-async (getUserInput) => {
+async () => {
   const input =
     'AA9..5.1.85.4....2432......1...69.83.9.....6.62.71...9......1945....4.37.4.3..6..';
   const output = 'Invalid characters in puzzle';
-  const data = await fetch(getUserInput('url') + '/api/solve', {
+  const data = await fetch(code + '/api/solve', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ puzzle: input })
@@ -126,14 +124,14 @@ async (getUserInput) => {
 Si el rompecabezas enviado a `/api/solve` es mayor o menor que 81 caracteres, el valor devuelto será `{ error: 'Expected puzzle to be 81 characters long' }`
 
 ```js
-async (getUserInput) => {
+async () => {
   const inputs = [
     '..9..5.1.85.4....2432......1...69.83.9.....6.62.71...9......1945....4.37.4.3..6.',
     '..9..5.1.85.4....2432......1...69.83.9.....6.62.71...9......1945....4.37.4.3..6...'
   ];
   const output = 'Expected puzzle to be 81 characters long';
   for (const input of inputs) {
-    const data = await fetch(getUserInput('url') + '/api/solve', {
+    const data = await fetch(code + '/api/solve', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ puzzle: input })
@@ -148,11 +146,11 @@ async (getUserInput) => {
 Si el rompecabezas enviado a `/api/solve` no es válido o no se puede resolver, el valor devuelto será `{ error: 'Puzzle cannot be solved' }`
 
 ```js
-async (getUserInput) => {
+async () => {
   const input =
     '9.9..5.1.85.4....2432......1...69.83.9.....6.62.71...9......1945....4.37.4.3..6..';
   const output = 'Puzzle cannot be solved';
-  const data = await fetch(getUserInput('url') + '/api/solve', {
+  const data = await fetch(code + '/api/solve', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ puzzle: input })
@@ -166,12 +164,12 @@ async (getUserInput) => {
 You can `POST` to `/api/check` an object containing `puzzle`, `coordinate`, and `value` where the `coordinate` is the letter A-I indicating the row, followed by a number 1-9 indicating the column, and `value` is a number from 1-9.
 
 ```js
-async (getUserInput) => {
+async () => {
   const input =
     '..9..5.1.85.4....2432......1...69.83.9.....6.62.71...9......1945....4.37.4.3..6..';
   const coordinate = 'A1';
   const value = '7';
-  const data = await fetch(getUserInput('url') + '/api/check', {
+  const data = await fetch(code + '/api/check', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ puzzle: input, coordinate, value })
@@ -185,13 +183,13 @@ async (getUserInput) => {
 El valor devuelto del `POST` a `/api/check` será un objeto que contenga una propiedad `valid`, que es `true` si el número puede colocarse en la coordenada proporcionada y `false` si el número no lo es. Si es falso, el objeto devuelto también contendrá una propiedad `conflict` que contiene las cadenas `"row"`, `"column"`, y/o `"region"` dependiendo de que la ubicación sea inválida.
 
 ```js
-async (getUserInput) => {
+async () => {
   const input =
     '..9..5.1.85.4....2432......1...69.83.9.....6.62.71...9......1945....4.37.4.3..6..';
   const coordinate = 'A1';
   const value = '1';
   const conflict = ['row', 'column'];
-  const data = await fetch(getUserInput('url') + '/api/check', {
+  const data = await fetch(code + '/api/check', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ puzzle: input, coordinate, value })
@@ -208,12 +206,12 @@ async (getUserInput) => {
 If `value` submitted to `/api/check` is already placed in `puzzle` on that `coordinate`, the returned value will be an object containing a `valid` property with `true` if `value` is not conflicting.
 
 ```js
-async (getUserInput) => {
+async () => {
   const input =
   '..9..5.1.85.4....2432......1...69.83.9.....6.62.71...9......1945....4.37.4.3..6..';
   const coordinate = 'C3';
   const value = '2';
-  const data = await fetch(getUserInput('url') + '/api/check', {
+  const data = await fetch(code + '/api/check', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ puzzle: input, coordinate, value })
@@ -227,13 +225,13 @@ async (getUserInput) => {
 Si el rompecabezas enviado a `/api/check` contiene valores que no son números o puntos, el valor devuelto será `{ error: 'Invalid characters in puzzle' }`
 
 ```js
-async (getUserInput) => {
+async () => {
   const input =
     'AA9..5.1.85.4....2432......1...69.83.9.....6.62.71...9......1945....4.37.4.3..6..';
   const coordinate = 'A1';
   const value = '1';
   const output = 'Invalid characters in puzzle';
-  const data = await fetch(getUserInput('url') + '/api/check', {
+  const data = await fetch(code + '/api/check', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ puzzle: input, coordinate, value })
@@ -247,7 +245,7 @@ async (getUserInput) => {
 Si el rompecabezas enviado a `/api/check` es mayor o menor que 81 caracteres, el valor devuelto será `{ error: 'Expected puzzle to be 81 characters long' }`
 
 ```js
-async (getUserInput) => {
+async () => {
   const inputs = [
     '..9..5.1.85.4....2432......1...69.83.9.....6.62.71...9......1945....4.37.4.3..6.',
     '..9..5.1.85.4....2432......1...69.83.9.....6.62.71...9......1945....4.37.4.3..6...'
@@ -256,7 +254,7 @@ async (getUserInput) => {
   const value = '1';
   const output = 'Expected puzzle to be 81 characters long';
   for (const input of inputs) {
-    const data = await fetch(getUserInput('url') + '/api/check', {
+    const data = await fetch(code + '/api/check', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ puzzle: input, coordinate, value })
@@ -271,7 +269,7 @@ async (getUserInput) => {
 Si el objeto enviado a `/api/check` no existe `puzzle`,`coordinate` o `value`, el valor devuelto será `{ error: 'Required field(s) missing' }`
 
 ```js
-async (getUserInput) => {
+async () => {
   const inputs = [
     {
       puzzle: '..9..5.1.85.4....2432......1...69.83.9.....6.62.71...9......1945....4.37.4.3..6..',
@@ -288,7 +286,7 @@ async (getUserInput) => {
   ];
   for (const input of inputs) {
     const output = 'Required field(s) missing';
-    const data = await fetch(getUserInput('url') + '/api/check', {
+    const data = await fetch(code + '/api/check', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(input)
@@ -303,14 +301,14 @@ async (getUserInput) => {
 Si la coordenada enviada a `api/check` no apunta a una celda de la cuadrícula existente, el valor devuelto será `{ error: 'Invalid coordinate'}`
 
 ```js
-async (getUserInput) => {
+async () => {
   const input =
     '..9..5.1.85.4....2432......1...69.83.9.....6.62.71...9......1945....4.37.4.3..6..';
   const output = 'Invalid coordinate';
   const coordinates = ['A0', 'A10', 'J1', 'A', '1', 'XZ18'];
   const value = '7';
   for (const coordinate of coordinates) {
-    const data = await fetch(getUserInput('url') + '/api/check', {
+    const data = await fetch(code + '/api/check', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ puzzle: input, coordinate, value })
@@ -325,14 +323,14 @@ async (getUserInput) => {
 Si el `value` enviado a `/api/check` no es un número entre 1 y 9, los valores devueltos serán `{ error: 'Invalid value' }`
 
 ```js
-async (getUserInput) => {
+async () => {
   const input =
     '..9..5.1.85.4....2432......1...69.83.9.....6.62.71...9......1945....4.37.4.3..6..';
   const output = 'Invalid value';
   const coordinate = 'A1';
   const values = ['0', '10', 'A'];
   for (const value of values) {
-    const data = await fetch(getUserInput('url') + '/api/check', {
+    const data = await fetch(code + '/api/check', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ puzzle: input, coordinate, value })
@@ -347,9 +345,9 @@ async (getUserInput) => {
 Las 12 pruebas unitarias están completas y pasan.
 
 ```js
-async (getUserInput) => {
+async () => {
   try {
-    const getTests = await $.get(getUserInput('url') + '/_api/get-tests');
+    const getTests = await $.get(code + '/_api/get-tests');
     assert.isArray(getTests);
     const unitTests = getTests.filter((test) => {
       return !!test.context.match(/Unit\s*Tests/gi);
@@ -372,9 +370,9 @@ async (getUserInput) => {
 Todas las 14 pruebas funcionales están completas y pasaron.
 
 ```js
-async (getUserInput) => {
+async () => {
   try {
-    const getTests = await $.get(getUserInput('url') + '/_api/get-tests');
+    const getTests = await $.get(code + '/_api/get-tests');
     assert.isArray(getTests);
     const functTests = getTests.filter((test) => {
       return !!test.context.match(/Functional\s*Tests/gi);

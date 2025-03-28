@@ -35,8 +35,8 @@ In `client.js`, you should now listen for event `'chat message'` and, when recei
 サーバーは、`'chat message'` をリッスンして正しくエミットする必要があります。
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(
@@ -50,8 +50,8 @@ async (getUserInput) => {
 クライアントは、イベント `'chat message'` から受信した新しいデータを適切に処理して表示する必要があります。
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/public/client.js", getUserInput("url"));
+async () => {
+  const url = new URL("/public/client.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(

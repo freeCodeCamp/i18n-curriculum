@@ -21,12 +21,7 @@ Rendere diese Komponente mit `ReactDOM.render()` in das DOM. Es gibt ein `div` m
 Es sollte eine React-Komponente namens `MyComponent` vorhanden sein.
 
 ```js
-(getUserInput) =>
-  assert(
-    __helpers
-      .removeWhiteSpace(getUserInput('index'))
-      .includes('classMyComponentextendsReact.Component{')
-  );
+assert(__helpers.removeWhiteSpace(code).includes('classMyComponentextendsReact.Component{'));
 ```
 
 `MyComponent` sollte einen `h1`-Tag mit dem Text `My First React Component!` enthalten, wobei Groß- und Kleinschreibung wichtig sind.

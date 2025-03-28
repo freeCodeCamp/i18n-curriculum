@@ -25,8 +25,7 @@ Pista: en la palabra clave `'self'`, las comillas simples son partes de la misma
 helmet.contentSecurityPolicy() middleware debe ser montado correctamente
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/app-info').then(
+  $.get(code + '/_api/app-info').then(
     (data) => {
       assert.include(data.appStack, 'csp');
     },
@@ -39,8 +38,7 @@ helmet.contentSecurityPolicy() middleware debe ser montado correctamente
 Tu configuración csp no es correcta. defaultSrc debería ser ["'self'"] y scriptSrc debe ser ["'self'", 'trusted-cdn.com']
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/app-info').then(
+  $.get(code + '/_api/app-info').then(
     (data) => {
       var cspHeader = Object.keys(data.headers).filter(function (k) {
         return (

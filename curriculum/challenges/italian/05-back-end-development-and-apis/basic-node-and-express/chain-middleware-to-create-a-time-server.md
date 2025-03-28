@@ -34,8 +34,7 @@ Nel percorso `app.get('/now', ...)` concatena una funzione middleware e il gesto
 L'endpoint /now dovrebbe avere il middleware montato
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/chain-middleware-time').then(
+  $.get(code + '/_api/chain-middleware-time').then(
     (data) => {
       assert.equal(
         data.stackLength,
@@ -52,8 +51,7 @@ L'endpoint /now dovrebbe avere il middleware montato
 L'endpoint `/now` dovrebbe restituire l'ora corrente.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/chain-middleware-time').then(
+  $.get(code + '/_api/chain-middleware-time').then(
     (data) => {
       var now = new Date();
       assert.isAtMost(

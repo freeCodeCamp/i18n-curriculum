@@ -70,14 +70,13 @@ assert(
 La funzione `authReducer` dovrebbe gestire più tipi di azione con un'istruzione switch.
 
 ```js
-(getUserInput) =>
-  assert(
+assert(
     (function () {
       return (
         typeof authReducer === 'function' &&
-        getUserInput('index').toString().includes('switch') &&
-        getUserInput('index').toString().includes('case') &&
-        getUserInput('index').toString().includes('default')
+        code.toString().includes('switch') &&
+        code.toString().includes('case') &&
+        code.toString().includes('default')
       );
     })()
   );
@@ -94,11 +93,10 @@ assert(noWhiteSpace.includes('const'))
 I creatori di azioni e il reducer dovrebbero fare riferimento alle costanti `LOGIN` e `LOGOUT`.
 
 ```js
-(getUserInput) =>
   assert(
     (function () {
       const noWhiteSpace = __helpers.removeWhiteSpace(
-        getUserInput('index').toString()
+        code.toString()
       );
       return (
         noWhiteSpace.includes('caseLOGIN:') &&

@@ -21,18 +21,15 @@ dashedName: timestamp-microservice
 サンプルの URL ではなく、自分で作成したプロジェクトを提供する必要があります。
 
 ```js
-(getUserInput) => {
   assert(
-    !/.*\/timestamp-microservice\.freecodecamp\.rocks/.test(getUserInput('url'))
+    !/.*\/timestamp-microservice\.freecodecamp\.rocks/.test(code)
   );
-};
 ```
 
 有効な日付を持つ `/api/:date?` へのリクエストに対して、JSON オブジェクトを返し、その `unix` キーの値は入力日付を表す Unix タイムスタンプ (ミリ秒単位で、データ型は Number) の値である必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/api/2016-12-25').then(
+  $.get(code + '/api/2016-12-25').then(
     (data) => {
       assert.equal(
         data.unix,
@@ -49,8 +46,7 @@ dashedName: timestamp-microservice
 有効な日付を持つ `/api/:date?` へのリクエストに対して、`Thu, 01 Jan 1970 00:00:00 GMT` 形式の入力日文字列である `utc` キーを持つ JSON オブジェクトを返す必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/api/2016-12-25').then(
+  $.get(code + '/api/2016-12-25').then(
     (data) => {
       assert.equal(
         data.utc,
@@ -67,8 +63,7 @@ dashedName: timestamp-microservice
 `/api/1451001600000` へのリクエストに対して、`{ unix: 1451001600000, utc: "Fri, 25 Dec 2015 00:00:00 GMT" }` を返す必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/api/1451001600000').then(
+  $.get(code + '/api/1451001600000').then(
     (data) => {
       assert(
         data.unix === 1451001600000 &&
@@ -84,8 +79,7 @@ dashedName: timestamp-microservice
 プロジェクトでは、`new Date(date_string)` で正常に解析できる日付を処理することができます。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/api/05 October 2011, GMT').then(
+  $.get(code + '/api/05 October 2011, GMT').then(
     (data) => {
       assert(
         data.unix === 1317772800000 &&
@@ -101,8 +95,7 @@ dashedName: timestamp-microservice
 入力された日付文字列が無効な場合、API は `{ error : "Invalid Date" }` という構造のオブジェクトを返します。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/api/this-is-not-a-date').then(
+  $.get(code + '/api/this-is-not-a-date').then(
     (data) => {
       assert.equal(data.error.toLowerCase(), 'invalid date');
     },
@@ -115,8 +108,7 @@ dashedName: timestamp-microservice
 空の日付パラメータに対して、`unix` キーを持つ JSON オブジェクトに現在時刻を返す必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/api').then(
+  $.get(code + '/api').then(
     (data) => {
       var now = Date.now();
       assert.approximately(data.unix, now, 20000);
@@ -130,8 +122,7 @@ dashedName: timestamp-microservice
 空の日付パラメータに対して、`utc` キーを持つ JSON オブジェクトに現在時刻を返す必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/api').then(
+  $.get(code + '/api').then(
     (data) => {
       var now = Date.now();
       var serverTime = new Date(data.utc).getTime();

@@ -39,8 +39,7 @@ Gitpod を使用している場合は、アプリが実行中でプレビュー�
 `package.json` ファイルには、有効な「author」キーが必要です。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert(packJson.author, '"author" is missing');

@@ -63,8 +63,7 @@ Siga a ordem de declarações acima, pois dependemos disso. Além disso, não se
 Todos os testes devem passar.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=2').then(
+  $.get(code + '/_api/get-tests?type=functional&n=2').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -77,8 +76,7 @@ Todos os testes devem passar.
 Você deve testar se `res.status` será 200.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=2').then(
+  $.get(code + '/_api/get-tests?type=functional&n=2').then(
     (data) => {
       assert.equal(data.assertions[0].method, 'equal');
       assert.equal(data.assertions[0].args[0], 'res.status');
@@ -93,8 +91,7 @@ Você deve testar se `res.status` será 200.
 Você deve testar se `res.type` será `'application/json'`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=2').then(
+  $.get(code + '/_api/get-tests?type=functional&n=2').then(
     (data) => {
       assert.equal(data.assertions[1].method, 'equal');
       assert.equal(data.assertions[1].args[0], 'res.type');
@@ -109,8 +106,7 @@ Você deve testar se `res.type` será `'application/json'`.
 Você deve testar se `res.body.name` será `'Cristoforo'`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=2').then(
+  $.get(code + '/_api/get-tests?type=functional&n=2').then(
     (data) => {
       assert.equal(data.assertions[2].method, 'equal');
       assert.equal(data.assertions[2].args[0], 'res.body.name');
@@ -125,8 +121,7 @@ Você deve testar se `res.body.name` será `'Cristoforo'`.
 Você deve testar se `res.body.surname` será `'Colombo'`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=2').then(
+  $.get(code + '/_api/get-tests?type=functional&n=2').then(
     (data) => {
       assert.equal(data.assertions[3].method, 'equal');
       assert.equal(data.assertions[3].args[0], 'res.body.surname');

@@ -33,8 +33,8 @@ Envía tu página cuando crea que lo ha hecho bien. Si tienes errores, <a href="
 Los módulos deben estar presentes.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(

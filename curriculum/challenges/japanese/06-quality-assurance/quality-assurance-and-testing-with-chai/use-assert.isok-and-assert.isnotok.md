@@ -23,8 +23,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#3` in the `Basic Asserti
 すべてのテストが成功する必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=2').then(
+  $.get(code + '/_api/get-tests?type=unit&n=2').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -37,8 +36,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#3` in the `Basic Asserti
 最初のアサーションに対して、正しいメソッドを選ぶ必要があります - `isOk` もしくは `isNotOk` です。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=2').then(
+  $.get(code + '/_api/get-tests?type=unit&n=2').then(
     (data) => {
       assert.equal(data.assertions[0].method, 'isNotOk', 'Null is falsy');
     },
@@ -51,8 +49,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#3` in the `Basic Asserti
 2 番目のアサーションに対して、正しいメソッドを選ぶ必要があります - `isOk` もしくは `isNotOk` です。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=2').then(
+  $.get(code + '/_api/get-tests?type=unit&n=2').then(
     (data) => {
       assert.equal(data.assertions[1].method, 'isOk', 'A string is truthy');
     },
@@ -65,8 +62,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#3` in the `Basic Asserti
 3 番目のアサーションに対して、正しいメソッドを選ぶ必要があります - `isOk` もしくは `isNotOk` です。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=2').then(
+  $.get(code + '/_api/get-tests?type=unit&n=2').then(
     (data) => {
       assert.equal(data.assertions[2].method, 'isOk', 'true is truthy');
     },

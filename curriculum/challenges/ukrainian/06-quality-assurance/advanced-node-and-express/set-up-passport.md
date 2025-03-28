@@ -36,8 +36,8 @@ app.use(session({
 Passport та Express-session повинні бути залежностями.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/package.json", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/package.json", code);
   const res = await fetch(url);
   const packJson = await res.json();
   assert.property(
@@ -56,8 +56,8 @@ async (getUserInput) => {
 Залежності повинні бути правильно заданими.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(
@@ -76,8 +76,8 @@ async (getUserInput) => {
 Програма Express повинна використовувати нові залежності.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(data, /passport\.initialize/, 'Your express app should use "passport.initialize()"');
@@ -88,8 +88,8 @@ async (getUserInput) => {
 Сесія і секрет сесії повинні бути правильно налаштовані.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(

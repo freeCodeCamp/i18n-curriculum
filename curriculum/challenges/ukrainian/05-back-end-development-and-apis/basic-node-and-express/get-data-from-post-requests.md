@@ -31,8 +31,7 @@ DELETE: видалити ресурс.
 Тест 1: кінцева точка API має співпадати з правильним іменем
 
 ```js
-(getUserInput) =>
-  $.post(getUserInput('url') + '/name', { first: 'Mick', last: 'Jagger' }).then(
+  $.post(code + '/name', { first: 'Mick', last: 'Jagger' }).then(
     (data) => {
       assert.equal(
         data.name,
@@ -49,8 +48,7 @@ DELETE: видалити ресурс.
 Тест 2: кінцева точка API має співпадати з правильним іменем
 
 ```js
-(getUserInput) =>
-  $.post(getUserInput('url') + '/name', {
+  $.post(code + '/name', {
     first: 'Keith',
     last: 'Richards'
   }).then(

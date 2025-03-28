@@ -27,8 +27,7 @@ BCrypt вже додано як залежність, тому вимагайт�
 BCrypt повинен бути пакетом в коді.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert.property(
@@ -46,8 +45,7 @@ BCrypt повинен бути пакетом в коді.
 BCrypt потрібно правильно вимагати.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/server.js').then(
+  $.get(code + '/_api/server.js').then(
     (data) => {
       assert.match(
         data,

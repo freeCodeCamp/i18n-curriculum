@@ -25,10 +25,7 @@ assert(store.getState() === 5);
 `currentState`라는 변수가 존재해야 하며, 리덕스 스토어의 현재 상태가 할당되어야 합니다.
 
 ```js
-(getUserInput) =>
-  assert(
-    currentState === 5 && getUserInput('index').includes('store.getState()')
-  );
+assert(currentState === 5 && code.includes('store.getState()'));
 ```
 
 # --seed--

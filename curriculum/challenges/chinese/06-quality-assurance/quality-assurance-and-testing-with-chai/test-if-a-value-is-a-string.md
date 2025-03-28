@@ -21,8 +21,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#13` in the `Strings` sui
 不应有未通过的测试
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=12').then(
+  $.get(code + '/_api/get-tests?type=unit&n=12').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -35,8 +34,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#13` in the `Strings` sui
 应该为第一个断言选择正确的方法：`isString` 或 `isNotString`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=12').then(
+  $.get(code + '/_api/get-tests?type=unit&n=12').then(
     (data) => {
       assert.equal(
         data.assertions[0].method,
@@ -53,8 +51,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#13` in the `Strings` sui
 应该为第二个断言选择正确的方法：`isString` 或 `isNotString`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=12').then(
+  $.get(code + '/_api/get-tests?type=unit&n=12').then(
     (data) => {
       assert.equal(
         data.assertions[1].method,
@@ -71,8 +68,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#13` in the `Strings` sui
 应该为第三个断言选择正确的方法：`isString` 或 `isNotString`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=12').then(
+  $.get(code + '/_api/get-tests?type=unit&n=12').then(
     (data) => {
       assert.equal(data.assertions[2].method, 'isString', 'A JSON is a string');
     },

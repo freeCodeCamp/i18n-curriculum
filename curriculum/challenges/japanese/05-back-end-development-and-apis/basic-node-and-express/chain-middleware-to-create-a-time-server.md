@@ -34,8 +34,7 @@ app.get('/user', function(req, res, next) {
 /now エンドポイントで、ミドルウェアをマウントしている必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/chain-middleware-time').then(
+  $.get(code + '/_api/chain-middleware-time').then(
     (data) => {
       assert.equal(
         data.stackLength,
@@ -52,8 +51,7 @@ app.get('/user', function(req, res, next) {
 `/now` エンドポイントは、現在の時刻を返す必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/chain-middleware-time').then(
+  $.get(code + '/_api/chain-middleware-time').then(
     (data) => {
       var now = new Date();
       assert.isAtMost(

@@ -25,10 +25,7 @@ assert(store.getState() === 5);
 Змінна `currentState` має існувати, а також до неї має бути призначений поточний стан сховища Redux.
 
 ```js
-(getUserInput) =>
-  assert(
-    currentState === 5 && getUserInput('index').includes('store.getState()')
-  );
+assert(currentState === 5 && code.includes('store.getState()'));
 ```
 
 # --seed--

@@ -70,11 +70,10 @@ assert(
 `authReducer` 함수는 `switch`문으로 다수의 action 유형을 다루어야 합니다.
 
 ```js
-(getUserInput) =>
-  assert(
-    getUserInput('index').toString().includes('switch') &&
-      getUserInput('index').toString().includes('case') &&
-      getUserInput('index').toString().includes('default')
+assert(
+    code.toString().includes('switch') &&
+      code.toString().includes('case') &&
+      code.toString().includes('default')
   );
 ```
 

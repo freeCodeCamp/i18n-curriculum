@@ -23,8 +23,7 @@ dashedName: get-query-parameter-input-from-the-client
 Тест 1: кінцева точка API має відповідати `{ "name": "Mick Jagger" }`, якщо кінцева точка `/name` викликається з `?first=Mick&last=Jagger`
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/name?first=Mick&last=Jagger').then(
+  $.get(code + '/name?first=Mick&last=Jagger').then(
     (data) => {
       assert.equal(
         data.name,
@@ -41,8 +40,7 @@ dashedName: get-query-parameter-input-from-the-client
 Тест 2: кінцева точка API повинна відповідати `{ "name": "Keith Richards" }`, якщо кінцева точка `/name` викликається з `?first=Keith&last=Richards`
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/name?last=Richards&first=Keith').then(
+  $.get(code + '/name?last=Richards&first=Keith').then(
     (data) => {
       assert.equal(
         data.name,

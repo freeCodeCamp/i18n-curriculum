@@ -43,8 +43,7 @@ const someFunc = function(done) {
 Створення екземпляру зі схеми Mongoose повинно пройти успішно
 
 ```js
-(getUserInput) =>
-  $.post(getUserInput('url') + '/_api/mongoose-model', {
+  $.post(code + '/_api/mongoose-model', {
     name: 'Mike',
     age: 28,
     favoriteFoods: ['pizza', 'cheese']

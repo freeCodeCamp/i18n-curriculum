@@ -31,8 +31,7 @@ No olvides eliminar la llamada `assert.fail()`.
 Se deben pasar todos los tests.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=6').then(
+  $.get(code + '/_api/get-tests?type=functional&n=6').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -45,8 +44,7 @@ Se deben pasar todos los tests.
 Debes asegurarte que la petición del navegador sin interfaz gráfica ha sido exitosa.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=6').then(
+  $.get(code + '/_api/get-tests?type=functional&n=6').then(
     (data) => {
       assert.equal(data.assertions[0].method, 'browser.success');
     },
@@ -59,8 +57,7 @@ Debes asegurarte que la petición del navegador sin interfaz gráfica ha sido ex
 Debes comprobar que el texto dentro del elemento `span#name` es `'Amerigo'`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=6').then(
+  $.get(code + '/_api/get-tests?type=functional&n=6').then(
     (data) => {
       assert.equal(data.assertions[1].method, 'browser.text');
       assert.match(data.assertions[1].args[0], /('|")span#name\1/);
@@ -75,8 +72,7 @@ Debes comprobar que el texto dentro del elemento `span#name` es `'Amerigo'`.
 Debes comprobar que el texto dentro del elemento `span#surname` es `'Vespucci'`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=6').then(
+  $.get(code + '/_api/get-tests?type=functional&n=6').then(
     (data) => {
       assert.equal(data.assertions[2].method, 'browser.text');
       assert.match(data.assertions[2].args[0], /('|")span#surname\1/);
@@ -91,8 +87,7 @@ Debes comprobar que el texto dentro del elemento `span#surname` es `'Vespucci'`.
 Debes comprobar que el elemento `span#dates` existe y su contador es 1.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=6').then(
+  $.get(code + '/_api/get-tests?type=functional&n=6').then(
     (data) => {
       assert.equal(data.assertions[3].method, 'browser.elements');
       assert.match(data.assertions[3].args[0], /('|")span#dates\1/);

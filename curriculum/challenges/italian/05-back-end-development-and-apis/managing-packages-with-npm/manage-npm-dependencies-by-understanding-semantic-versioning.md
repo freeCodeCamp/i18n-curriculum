@@ -27,8 +27,7 @@ Nella sezione dependencies del tuo file `package.json`, cambia la versione di `@
 `"dependencies"` dovrebbe includere `"@freecodecamp/example"`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert.property(
@@ -46,8 +45,7 @@ Nella sezione dependencies del tuo file `package.json`, cambia la versione di `@
 La versione di `"@freecodecamp/example"` dovrebbe essere `"1.2.13"`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert.equal(

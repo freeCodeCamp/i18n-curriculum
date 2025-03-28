@@ -37,8 +37,7 @@ Node は単なる JavaScript 環境にすぎません。 クライアントサ�
 `"Hello World"` がコンソールに表示されます。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/hello-console').then(
+  $.get(code + '/_api/hello-console').then(
     (data) => {
       assert.isTrue(data.passed, '"Hello World" is not in the server console');
     },

@@ -25,8 +25,7 @@ dashedName: serve-static-assets
 Застосунок має обслуговувати файли активів з директорії `/public` до шляху `/public`
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/public/style.css').then(
+  $.get(code + '/public/style.css').then(
     (data) => {
       assert.match(
         data,
@@ -43,8 +42,7 @@ dashedName: serve-static-assets
 Застосунок не повинен обслуговувати файли з будь-яких інших папок, окрім директорії `/public`
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/server.js').then(
+  $.get(code + '/server.js').then(
     (data) => {
        assert.equal(
         data?.status + '',

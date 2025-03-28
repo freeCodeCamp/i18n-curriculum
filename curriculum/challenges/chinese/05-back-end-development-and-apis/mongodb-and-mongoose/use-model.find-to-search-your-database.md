@@ -21,8 +21,7 @@ In its simplest usage, `Model.find()` accepts a query document (a JSON object) a
 应成功地找到所有符合条件的数据
 
 ```js
-(getUserInput) =>
-  $.post(getUserInput('url') + '/_api/find-all-by-name', {
+  $.post(code + '/_api/find-all-by-name', {
     name: 'r@nd0mN4m3',
     age: 24,
     favoriteFoods: ['pizza']

@@ -25,8 +25,7 @@ package.json の依存関係セクションを使用して、いくつかの方�
 `"dependencies"` が `"@freecodecamp/example"` を含んでいないようにする必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert.notProperty(

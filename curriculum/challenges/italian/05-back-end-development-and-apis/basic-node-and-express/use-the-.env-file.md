@@ -27,8 +27,7 @@ You will need to use the `dotenv` package. It loads environment variables from y
 La risposta dell'endpoint `/json` dovrebbe cambiare in base alla variabile d'ambiente `MESSAGE_STYLE`
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/use-env-vars').then(
+  $.get(code + '/_api/use-env-vars').then(
     (data) => {
       assert.isTrue(
         data.passed,

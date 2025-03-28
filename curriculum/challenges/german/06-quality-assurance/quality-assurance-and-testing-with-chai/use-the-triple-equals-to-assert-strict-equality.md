@@ -21,8 +21,7 @@ As a reminder, this project is being built upon the following starter project on
 Alle Tests sollten bestehen.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=5').then(
+  $.get(code + '/_api/get-tests?type=unit&n=5').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -35,8 +34,7 @@ Alle Tests sollten bestehen.
 Du solltest die richtige Methode für die erste Behauptung wählen - `strictEqual` vs. `notStrictEqual`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=5').then(
+  $.get(code + '/_api/get-tests?type=unit&n=5').then(
     (data) => {
       assert.equal(
         data.assertions[0].method,
@@ -53,8 +51,7 @@ Du solltest die richtige Methode für die erste Behauptung wählen - `strictEqua
 Du solltest die richtige Methode für die zweite Behauptung wählen - `strictEqual` vs. `notStrictEqual`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=5').then(
+  $.get(code + '/_api/get-tests?type=unit&n=5').then(
     (data) => {
       assert.equal(data.assertions[1].method, 'strictEqual', '3*2 = 6...');
     },
@@ -67,8 +64,7 @@ Du solltest die richtige Methode für die zweite Behauptung wählen - `strictEqu
 Du solltest die richtige Methode für die dritte Behauptung wählen - `strictEqual` vs. `notStrictEqual`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=5').then(
+  $.get(code + '/_api/get-tests?type=unit&n=5').then(
     (data) => {
       assert.equal(
         data.assertions[2].method,
@@ -85,8 +81,7 @@ Du solltest die richtige Methode für die dritte Behauptung wählen - `strictEqu
 Du solltest die richtige Methode für die vierte Behauptung wählen - `strictEqual` vs. `notStrictEqual`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=5').then(
+  $.get(code + '/_api/get-tests?type=unit&n=5').then(
     (data) => {
       assert.equal(
         data.assertions[3].method,

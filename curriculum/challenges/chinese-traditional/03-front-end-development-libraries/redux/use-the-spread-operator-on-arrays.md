@@ -60,7 +60,7 @@ assert(
 應使用擴展運算符返回新的 state。
 
 ```js
-(getUserInput) => assert(getUserInput('index').includes('...state'));
+assert(code.includes('...state'));
 ```
 
 # --seed--

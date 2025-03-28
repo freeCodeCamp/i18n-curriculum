@@ -40,8 +40,7 @@ assert(
 La etiqueta `h1` renderizada debe incluir una referencia a `{name}`.
 
 ```js
-(getUserInput) =>
-  assert(/<h1>\n*\s*\{\s*name\s*\}\s*\n*<\/h1>/.test(getUserInput('index')));
+assert(/<h1>\n*\s*\{\s*name\s*\}\s*\n*<\/h1>/.test(code));
 ```
 
 El encabezado renderizado `h1` sólo debe contener texto renderizado del estado del componente.

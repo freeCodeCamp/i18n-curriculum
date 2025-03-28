@@ -23,8 +23,7 @@ dashedName: add-a-version-to-your-package-json
 package.json で、有効な「version」キーを記述する必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert(packJson.version, '"version" is missing');

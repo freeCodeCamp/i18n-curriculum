@@ -53,8 +53,8 @@ Invia la tua pagina quando pensi che sia tutto corretto. Se incontri degli error
 Dovresti serializzare correttamente l'oggetto utente.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(
@@ -73,8 +73,8 @@ async (getUserInput) => {
 Dovresti deserializzare correttamente l'oggetto utente.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(
@@ -93,8 +93,8 @@ async (getUserInput) => {
 MongoDB dovrebbe essere una dipendenza.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/package.json", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/package.json", code);
   const res = await fetch(url);
   const packJson = await res.json();
   assert.property(
@@ -108,8 +108,8 @@ async (getUserInput) => {
 Mongodb dovrebbe essere richiesto correttamente, includendo l'ObjectId.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(

@@ -25,8 +25,7 @@ You have now tested a few ways you can manage dependencies of your project by us
 `"dependencies"` 不應包含 `"@freecodecamp/example"`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert.notProperty(

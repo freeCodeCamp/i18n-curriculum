@@ -25,8 +25,7 @@ As a reminder, this project is being built upon the following starter project on
 应正确安装 helmet.contentSecurityPolicy() 中间件。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/app-info').then(
+  $.get(code + '/_api/app-info').then(
     (data) => {
       assert.include(data.appStack, 'csp');
     },
@@ -39,8 +38,7 @@ As a reminder, this project is being built upon the following starter project on
 你的 csp 配置不正确。 defaultSrc 应为 ["'self'"]，并且 scriptSrc 应为 ["'self'", 'trusted-cdn.com']
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/app-info').then(
+  $.get(code + '/_api/app-info').then(
     (data) => {
       var cspHeader = Object.keys(data.headers).filter(function (k) {
         return (

@@ -50,8 +50,7 @@ bcrypt.hash('passw0rd!', 13, (err, hash) => {
 Асинхронне хешування повинне бути правильно згенероване та порівняне.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/server.js').then(
+  $.get(code + '/_api/server.js').then(
     (data) => {
       assert.match(
         data,

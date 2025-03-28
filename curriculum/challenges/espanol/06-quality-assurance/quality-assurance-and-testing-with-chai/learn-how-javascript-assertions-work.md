@@ -23,8 +23,7 @@ Dentro de `tests/1_unit-tests.js`, bajo la prueba etiquetada como `#1` en el con
 Todas los test deben pasar.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=0').then(
+  $.get(code + '/_api/get-tests?type=unit&n=0').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -37,8 +36,7 @@ Todas los test deben pasar.
 Debes elegir el método correcto para la primera aserción - `isNull` vs. `isNotNull`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=0').then(
+  $.get(code + '/_api/get-tests?type=unit&n=0').then(
     (data) => {
       assert.equal(data.assertions[0].method, 'isNull', 'Null is null');
     },
@@ -51,8 +49,7 @@ Debes elegir el método correcto para la primera aserción - `isNull` vs. `isNot
 Debes elegir el método correcto para la segunda aserción - `isNull` vs. `isNotNull`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=0').then(
+  $.get(code + '/_api/get-tests?type=unit&n=0').then(
     (data) => {
       assert.equal(data.assertions[1].method, 'isNotNull', '1 is not null');
     },

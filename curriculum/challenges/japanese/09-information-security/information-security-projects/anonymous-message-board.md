@@ -40,20 +40,18 @@ dashedName: anonymous-message-board
 サンプルの URL ではなく、自分で作成したプロジェクトを提出してください。
 
 ```js
-(getUserInput) => {
   assert(
     !/.*\/anonymous-message-board\.freecodecamp\.rocks/.test(
-      getUserInput('url')
+      code
     )
   );
-};
 ```
 
 自分のページの iFrame には自分のサイトだけを読み込めるようにします。
 
 ```js
-async (getUserInput) => {
-  const data = await fetch(getUserInput('url') + '/_api/app-info');
+async () => {
+  const data = await fetch(code + '/_api/app-info');
   const parsed = await data.json();
   assert.isTrue(parsed.headers['x-frame-options']?.includes('SAMEORIGIN'));
 };
@@ -62,8 +60,8 @@ async (getUserInput) => {
 DNS プリフェッチを許可しないでください。
 
 ```js
-async (getUserInput) => {
-  const data = await fetch(getUserInput('url') + '/_api/app-info');
+async () => {
+  const data = await fetch(code + '/_api/app-info');
   const parsed = await data.json();
   assert.isTrue(parsed.headers['x-dns-prefetch-control']?.includes('off'));
 };
@@ -72,8 +70,8 @@ async (getUserInput) => {
 自分のサイトだけが、自分のページに対するリファラーを送信できるようにします。
 
 ```js
-async (getUserInput) => {
-  const data = await fetch(getUserInput('url') + '/_api/app-info');
+async () => {
+  const data = await fetch(code + '/_api/app-info');
   const parsed = await data.json();
   assert.isTrue(parsed.headers['referrer-policy']?.includes('same-origin'));
 };
@@ -82,12 +80,12 @@ async (getUserInput) => {
 `text` と `delete_password` を含むフォームデータを使用して、`/api/threads/{board}` への POST リクエストを送信できます。 保存されるデータベースレコードは、少なくとも `_id`、`text`、`created_on` (日付と時刻)、`bumped_on` (日付と時刻、初期値は `created_on` と同じ時刻)、`reported` (ブール値)、`delete_password`、および `replies` (配列) のフィールドを持ちます。
 
 ```js
-async (getUserInput) => {
+async () => {
   const date = new Date();
   const text = `fcc_test_${date}`;
   const deletePassword = 'delete_me';
   const data = { text, delete_password: deletePassword };
-  const url = getUserInput('url');
+  const url = code;
   const res = await fetch(url + '/api/threads/fcc_test', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
@@ -114,8 +112,8 @@ async (getUserInput) => {
 `text`、`delete_password`、および `thread_id` を含むフォームデータを使用して、`/api/replies/{board}` への POST リクエストを送信できます。 これにより、`bumped_on` の日付がコメントの日付に更新されます。 スレッドの `replies` 配列には、少なくとも `_id`、`text`、`created_on`、`delete_password`、および `reported` のプロパティを持つオブジェクトが保存されます。
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const body = await fetch(url + '/api/threads/fcc_test');
   const thread = await body.json();
 
@@ -151,8 +149,8 @@ async (getUserInput) => {
 `/api/threads/{board}` への GET リクエストを送信できます。 掲示板で最近更新された (bumped) 10 個のスレッドと、それぞれに対する最新 3 個の返信を含む配列が返されます。 `reported` フィールドと `delete_password` フィールドはクライアントに送信されません。
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + '/api/threads/fcc_test');
 
   if (res.ok) {
@@ -182,8 +180,8 @@ async (getUserInput) => {
 `/api/replies/{board}?thread_id={thread_id}` への GET リクエストを送信できます。 すべての返信を含むスレッド全体が、1 つ前のテストと同じフィールドを除外した状態でクライアントに返されます。
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   let res = await fetch(url + '/api/threads/fcc_test');
   const threads = await res.json();
   const thread_id = threads[0]._id;
@@ -214,8 +212,8 @@ async (getUserInput) => {
 `/api/threads/{board}` への DELETE リクエストを送信し、スレッドを削除するために `thread_id` と `delete_password` を渡すことができます。 文字列 `incorrect password` または `success` が返されます。
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   let res = await fetch(url + '/api/threads/fcc_test');
   const threads = await res.json();
   const thread_id = threads[0]._id;
@@ -251,8 +249,8 @@ async (getUserInput) => {
 `/api/replies/{board}` への DELETE リクエストを送信し、`thread_id`、`reply_id`、および `delete_password` を渡すことができます。 文字列 `incorrect password` または `success` が返されます。 実行に成功すると、`reply_id` のテキストが `[deleted]` に変更されます。
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
 
   const thread_data = {
     text: "fcc_test_thread",
@@ -306,8 +304,8 @@ async (getUserInput) => {
 `/api/threads/{board}` への PUT リクエストを送信し、`thread_id` を渡すことができます。 文字列 `reported` が返されます。 `thread_id` の `reported` の値が `true` に変更されます。
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
 
   let res = await fetch(`${url}/api/threads/fcc_test`);
   const threads = await res.json();
@@ -337,8 +335,8 @@ async (getUserInput) => {
 `/api/replies/{board}` への PUT リクエストを送信し、`thread_id` と `reply_id` を渡すことができます。 文字列 `reported` が返されます。 `reply_id` の `reported` の値が `true` に変更されます。
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
 
   let res = await fetch(`${url}/api/threads/fcc_test`);
   const threads = await res.json();
@@ -369,8 +367,8 @@ async (getUserInput) => {
 10 件の機能テストがすべて記述され、成功する状態になっています。
 
 ```js
-async (getUserInput) => {
-  const tests = await fetch(getUserInput('url') + '/_api/get-tests');
+async () => {
+  const tests = await fetch(code + '/_api/get-tests');
   const parsed = await tests.json();
   assert.isTrue(parsed.length >= 10);
   parsed.forEach((test) => {

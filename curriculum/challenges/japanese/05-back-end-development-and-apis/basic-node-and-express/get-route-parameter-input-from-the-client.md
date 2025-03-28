@@ -21,8 +21,7 @@ API を構築する際は、私たちが作成するサービスから何を得�
 テスト 1: エコーサーバーは、ワードを正しく繰り返す必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/eChOtEsT/echo').then(
+  $.get(code + '/eChOtEsT/echo').then(
     (data) => {
       assert.equal(
         data.echo,
@@ -39,8 +38,7 @@ API を構築する際は、私たちが作成するサービスから何を得�
 テスト 2: エコーサーバーは、ワードを正しく繰り返す必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/ech0-t3st/echo').then(
+  $.get(code + '/ech0-t3st/echo').then(
     (data) => {
       assert.equal(
         data.echo,

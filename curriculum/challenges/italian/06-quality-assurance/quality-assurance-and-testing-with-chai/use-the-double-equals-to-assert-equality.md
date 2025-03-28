@@ -21,8 +21,7 @@ All'interno di `tests/1_unit-test.js` sotto il test etichettato `#5` nella suite
 Tutti i test dovrebbero essere superati.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=4').then(
+  $.get(code + '/_api/get-tests?type=unit&n=4').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -35,8 +34,7 @@ Tutti i test dovrebbero essere superati.
 Dovresti scegliere il metodo corretto per la prima asserzione - `equal` oppure `notEqual`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=4').then(
+  $.get(code + '/_api/get-tests?type=unit&n=4').then(
     (data) => {
       assert.equal(
         data.assertions[0].method,
@@ -53,8 +51,7 @@ Dovresti scegliere il metodo corretto per la prima asserzione - `equal` oppure `
 Dovresti scegliere il metodo corretto per la seconda asserzione - `equal` oppure `notEqual`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=4').then(
+  $.get(code + '/_api/get-tests?type=unit&n=4').then(
     (data) => {
       assert.equal(
         data.assertions[1].method,
@@ -71,8 +68,7 @@ Dovresti scegliere il metodo corretto per la seconda asserzione - `equal` oppure
 Dovresti scegliere il metodo corretto per la terza asserzione - `equal` oppure `notEqual`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=4').then(
+  $.get(code + '/_api/get-tests?type=unit&n=4').then(
     (data) => {
       assert.equal(
         data.assertions[2].method,
@@ -89,8 +85,7 @@ Dovresti scegliere il metodo corretto per la terza asserzione - `equal` oppure `
 Dovresti scegliere il metodo corretto per la quarta asserzione - `equal` oppure `notEqual`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=4').then(
+  $.get(code + '/_api/get-tests?type=unit&n=4').then(
     (data) => {
       assert.equal(data.assertions[3].method, 'notEqual', "6 + '2' is '62'...");
     },

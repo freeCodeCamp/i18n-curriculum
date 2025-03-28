@@ -25,8 +25,7 @@ Sende die `/views/index.html`-Datei als Antwort auf GET-Anfragen an den `/`-Pfad
 Die Anwendung sollte die Datei views/index.html bereitstellen
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url')).then(
+  $.get(code).then(
     (data) => {
       assert.match(
         data,

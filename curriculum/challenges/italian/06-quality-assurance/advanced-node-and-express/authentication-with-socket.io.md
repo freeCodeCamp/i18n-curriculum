@@ -72,8 +72,8 @@ Invia la tua pagina quando pensi di averlo fatto correttamente. Se incontri degl
 `passport.socketio` dovrebbe essere una dipendenza.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/package.json", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/package.json", code);
   const res = await fetch(url);
   const packJson = await res.json();
   assert.property(
@@ -87,8 +87,8 @@ async (getUserInput) => {
 `cookie-parser` dovrebbe essere una dipendenza.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/package.json", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/package.json", code);
   const res = await fetch(url);
   const packJson = await res.json();
   assert.property(
@@ -102,8 +102,8 @@ async (getUserInput) => {
 passportSocketIo dovrebbe essere richiesto correttamente.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(
@@ -117,8 +117,8 @@ async (getUserInput) => {
 passportSocketIo dovrebbe essere configurato correttamente.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(

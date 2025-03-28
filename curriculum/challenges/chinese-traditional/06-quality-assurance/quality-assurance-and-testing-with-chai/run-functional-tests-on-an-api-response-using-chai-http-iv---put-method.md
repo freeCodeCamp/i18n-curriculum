@@ -40,8 +40,7 @@ As a reminder, this project is being built upon the following starter project on
 應通過所有測試。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=3').then(
+  $.get(code + '/_api/get-tests?type=functional&n=3').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -54,8 +53,7 @@ As a reminder, this project is being built upon the following starter project on
 應該測試 `res.status` 爲 200。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=3').then(
+  $.get(code + '/_api/get-tests?type=functional&n=3').then(
     (data) => {
       assert.equal(data.assertions[0].method, 'equal');
       assert.equal(data.assertions[0].args[0], 'res.status');
@@ -70,8 +68,7 @@ As a reminder, this project is being built upon the following starter project on
 應該測試 `res.type` 是否爲 `'application/json'`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=3').then(
+  $.get(code + '/_api/get-tests?type=functional&n=3').then(
     (data) => {
       assert.equal(data.assertions[1].method, 'equal');
       assert.equal(data.assertions[1].args[0], 'res.type');
@@ -86,8 +83,7 @@ As a reminder, this project is being built upon the following starter project on
 應該測試 `res.body.name` 是否爲 `'Giovanni'`
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=3').then(
+  $.get(code + '/_api/get-tests?type=functional&n=3').then(
     (data) => {
       assert.equal(data.assertions[2].method, 'equal');
       assert.equal(data.assertions[2].args[0], 'res.body.name');
@@ -102,8 +98,7 @@ As a reminder, this project is being built upon the following starter project on
 應該測試 `res.body.surname` 是否爲 `'da Verrazzano'`
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=3').then(
+  $.get(code + '/_api/get-tests?type=functional&n=3').then(
     (data) => {
       assert.equal(data.assertions[3].method, 'equal');
       assert.equal(data.assertions[3].args[0], 'res.body.surname');

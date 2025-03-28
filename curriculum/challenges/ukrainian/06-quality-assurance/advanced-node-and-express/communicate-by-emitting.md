@@ -45,8 +45,8 @@ socket.on('user count', function(data) {
 `currentUsers` повинні бути визначеними.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(
@@ -60,8 +60,8 @@ async (getUserInput) => {
 Сервер повинен видавати поточну кількість користувачів при кожному приєднанні.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(
@@ -75,8 +75,8 @@ async (getUserInput) => {
 Ваш клієнт повинен прослухати подію `'user count'`.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/public/client.js", getUserInput("url"));
+async () => {
+  const url = new URL("/public/client.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(

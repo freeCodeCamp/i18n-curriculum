@@ -74,11 +74,7 @@ async () => {
 렌더 메서드는 `if/else`를 사용해서 `this.state.display`의 상태를 확인해야 합니다.
 
 ```js
-(getUserInput) =>
-  assert(
-    getUserInput('index').includes('if') &&
-      getUserInput('index').includes('else')
-  );
+assert(code.includes('if') && code.includes('else'));
 ```
 
 # --seed--

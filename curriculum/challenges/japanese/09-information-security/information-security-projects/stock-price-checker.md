@@ -40,18 +40,16 @@ dashedName: stock-price-checker
 サンプルの URL ではなく、自分で作成したプロジェクトを提出してください。
 
 ```js
-(getUserInput) => {
   assert(
-    !/.*\/stock-price-checker\.freecodecamp\.rocks/.test(getUserInput('url'))
+    !/.*\/stock-price-checker\.freecodecamp\.rocks/.test(code)
   );
-};
 ```
 
 コンテンツセキュリティポリシーを設定して、自分のサーバーからのみスクリプトや CSS の読み込みを許可するようにしてください。
 
 ```js
-async (getUserInput) => {
-  const data = await fetch(getUserInput('url') + '/_api/app-info');
+async () => {
+  const data = await fetch(code + '/_api/app-info');
   const parsed = await data.json();
   assert.isTrue(
     parsed.headers['content-security-policy'].includes("script-src 'self'")
@@ -65,9 +63,9 @@ async (getUserInput) => {
 `GET` リクエストを `/api/stock-prices` に送信し、NASDAQ 株式表示記号を `stock` クエリパラメーターに渡すことができます。 返されるオブジェクトには、`stockData` というプロパティが含まれます。
 
 ```js
-async (getUserInput) => {
+async () => {
   const data = await fetch(
-    getUserInput('url') + '/api/stock-prices?stock=GOOG'
+    code + '/api/stock-prices?stock=GOOG'
   );
   const parsed = await data.json();
   assert.property(parsed, 'stockData');
@@ -77,9 +75,9 @@ async (getUserInput) => {
 `stockData` プロパティには、文字列としての `stock` 記号、数値としての `price`、数値としての `likes` が含まれています。
 
 ```js
-async (getUserInput) => {
+async () => {
   const data = await fetch(
-    getUserInput('url') + '/api/stock-prices?stock=GOOG'
+    code + '/api/stock-prices?stock=GOOG'
   );
   const parsed = await data.json();
   const ticker = parsed.stockData;
@@ -98,9 +96,9 @@ async (getUserInput) => {
 2 つの株式を渡した場合、返される値は 2 つの株式に関する情報を持つ配列となります。 その場合 `likes` の代わりに、両方の `stockData` オブジェクトの `rel_likes` (両株式の「いいね！」の差) を表示します。
 
 ```js
-async (getUserInput) => {
+async () => {
   const data = await fetch(
-    getUserInput('url') + '/api/stock-prices?stock=GOOG&stock=MSFT'
+    code + '/api/stock-prices?stock=GOOG&stock=MSFT'
   );
   const parsed = await data.json();
   const ticker = parsed.stockData;
@@ -113,8 +111,8 @@ async (getUserInput) => {
 5 件の機能テストがすべて記述され、成功する状態になっています。
 
 ```js
-async (getUserInput) => {
-  const tests = await fetch(getUserInput('url') + '/_api/get-tests');
+async () => {
+  const tests = await fetch(code + '/_api/get-tests');
   const parsed = await tests.json();
   assert.isTrue(parsed.length >= 5);
   parsed.forEach((test) => {

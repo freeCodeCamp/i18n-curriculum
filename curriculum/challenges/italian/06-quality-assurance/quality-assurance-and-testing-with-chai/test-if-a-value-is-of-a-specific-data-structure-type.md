@@ -21,8 +21,7 @@ All'interno di `tests/1_unit-tests.js`, sotto il test etichettato con `#17`, nel
 Tutti i test dovrebbero essere superati.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=16').then(
+  $.get(code + '/_api/get-tests?type=unit&n=16').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -35,8 +34,7 @@ Tutti i test dovrebbero essere superati.
 Dovresti scegliere il metodo corretto per la prima asserzione - `typeOf` oppure `notTypeOf`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=16').then(
+  $.get(code + '/_api/get-tests?type=unit&n=16').then(
     (data) => {
       assert.equal(
         data.assertions[0].method,
@@ -53,8 +51,7 @@ Dovresti scegliere il metodo corretto per la prima asserzione - `typeOf` oppure 
 Dovresti scegliere il metodo corretto per la seconda asserzione - `typeOf` oppure `notTypeOf`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=16').then(
+  $.get(code + '/_api/get-tests?type=unit&n=16').then(
     (data) => {
       assert.equal(
         data.assertions[1].method,
@@ -71,8 +68,7 @@ Dovresti scegliere il metodo corretto per la seconda asserzione - `typeOf` oppur
 Dovresti scegliere il metodo corretto per la terza asserzione - `typeOf` oppure `notTypeOf`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=16').then(
+  $.get(code + '/_api/get-tests?type=unit&n=16').then(
     (data) => {
       assert.equal(
         data.assertions[2].method,
@@ -89,8 +85,7 @@ Dovresti scegliere il metodo corretto per la terza asserzione - `typeOf` oppure 
 Dovresti scegliere il metodo corretto per la quarta asserzione - `typeOf` oppure `notTypeOf`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=16').then(
+  $.get(code + '/_api/get-tests?type=unit&n=16').then(
     (data) => {
       assert.equal(
         data.assertions[3].method,
@@ -107,8 +102,7 @@ Dovresti scegliere il metodo corretto per la quarta asserzione - `typeOf` oppure
 Dovresti scegliere il metodo corretto per la quinta asserzione - `typeOf` oppure `notTypeOf`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=16').then(
+  $.get(code + '/_api/get-tests?type=unit&n=16').then(
     (data) => {
       assert.equal(
         data.assertions[4].method,

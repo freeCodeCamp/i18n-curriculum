@@ -21,12 +21,7 @@ Now that you've learned the basics of JSX and React components, it's time to wri
 Ви повинні мати компонент React під назвою `MyComponent`.
 
 ```js
-(getUserInput) =>
-  assert(
-    __helpers
-      .removeWhiteSpace(getUserInput('index'))
-      .includes('classMyComponentextendsReact.Component{')
-  );
+assert(__helpers.removeWhiteSpace(code).includes('classMyComponentextendsReact.Component{'));
 ```
 
 `MyComponent` має містити тег `h1` з текстом `My First React Component!`. Регістр та пунктуація важливі.

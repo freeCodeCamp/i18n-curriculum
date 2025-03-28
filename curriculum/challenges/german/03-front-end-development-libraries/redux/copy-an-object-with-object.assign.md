@@ -68,7 +68,7 @@ assert(
 `Object.assign` sollte verwendet werden, um einen neuen Zustand zurückzugeben.
 
 ```js
-(getUserInput) => assert(getUserInput('index').includes('Object.assign'));
+assert(code.includes('Object.assign'));
 ```
 
 # --seed--

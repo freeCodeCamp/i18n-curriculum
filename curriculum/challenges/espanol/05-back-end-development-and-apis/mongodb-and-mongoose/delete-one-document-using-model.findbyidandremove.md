@@ -19,8 +19,7 @@ Modifica la función `removeById` para eliminar una persona por el `_id` de la p
 La eliminación de un elemento debe ser exitosa
 
 ```js
-(getUserInput) =>
-  $.post(getUserInput('url') + '/_api/remove-one-person', {
+  $.post(code + '/_api/remove-one-person', {
     name: 'Jason Bourne',
     age: 36,
     favoriteFoods: ['apples']

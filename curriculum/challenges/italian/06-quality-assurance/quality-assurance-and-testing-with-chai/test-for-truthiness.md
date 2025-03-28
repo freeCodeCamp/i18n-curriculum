@@ -29,8 +29,7 @@ All'interno di `tests/1_unit-tests.js` sotto il test etichettato con `#4` nella 
 Tutti i test dovrebbero essere superati.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=3').then(
+  $.get(code + '/_api/get-tests?type=unit&n=3').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -43,8 +42,7 @@ Tutti i test dovrebbero essere superati.
 Dovresti scegliere il metodo corretto per la prima asserzione - `isTrue` oppure `isNotTrue`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=3').then(
+  $.get(code + '/_api/get-tests?type=unit&n=3').then(
     (data) => {
       assert.equal(data.assertions[0].method, 'isTrue', 'True is true');
     },
@@ -57,8 +55,7 @@ Dovresti scegliere il metodo corretto per la prima asserzione - `isTrue` oppure 
 Dovresti scegliere il metodo corretto per la seconda asserzione - `isTrue` oppure `isNotTrue`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=3').then(
+  $.get(code + '/_api/get-tests?type=unit&n=3').then(
     (data) => {
       assert.equal(
         data.assertions[1].method,
@@ -75,8 +72,7 @@ Dovresti scegliere il metodo corretto per la seconda asserzione - `isTrue` oppur
 Dovresti scegliere il metodo corretto per la terza asserzione - `isTrue` oppure `isNotTrue`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=3').then(
+  $.get(code + '/_api/get-tests?type=unit&n=3').then(
     (data) => {
       assert.equal(
         data.assertions[2].method,

@@ -33,8 +33,8 @@ a(href='/logout') Logout
 你應該正確地在 `/profile` 中添加一個 Pug 渲染變量。
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(

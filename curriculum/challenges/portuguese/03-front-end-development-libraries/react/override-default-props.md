@@ -43,14 +43,13 @@ assert(
 O componente `Items` deve ter a propriedade `{ quantity: 10 }` passada do componente `ShoppingCart`.
 
 ```js
-(getUserInput) =>
+() =>
   assert(
     (function () {
       const mockedComponent = Enzyme.mount(React.createElement(ShoppingCart));
       return (
         mockedComponent.find('Items').props().quantity == 10 &&
-        getUserInput('index')
-          .replace(/ /g, '')
+        code.replace(/ /g, '')
           .includes('<Itemsquantity={10}/>')
       );
     })()

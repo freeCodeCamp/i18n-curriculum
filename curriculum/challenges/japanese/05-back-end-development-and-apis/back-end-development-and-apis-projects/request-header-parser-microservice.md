@@ -19,20 +19,17 @@ dashedName: request-header-parser-microservice
 サンプルの URL ではなく、自分で作成したプロジェクトを提出する必要があります。
 
 ```js
-(getUserInput) => {
   assert(
     !/.*\/request-header-parser-microservice\.freecodecamp\.rocks/.test(
-      getUserInput('url')
+      code
     )
   );
-};
 ```
 
 `/api/whoami` へのリクエストに対して、`ipaddress` キーにあなた (リクエストの送信者) の IP アドレスを持つ JSON オブジェクトを返す必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/api/whoami').then(
+  $.get(code + '/api/whoami').then(
     (data) => assert(data.ipaddress && data.ipaddress.length > 0),
     (xhr) => {
       throw new Error(xhr.responseText);
@@ -43,8 +40,7 @@ dashedName: request-header-parser-microservice
 `/api/whoami` へのリクエストに対して、`language` キーにあなたの優先言語を持つ JSON オブジェクトを返す必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/api/whoami').then(
+  $.get(code + '/api/whoami').then(
     (data) => assert(data.language && data.language.length > 0),
     (xhr) => {
       throw new Error(xhr.responseText);
@@ -55,8 +51,7 @@ dashedName: request-header-parser-microservice
 `/api/whoami` へのリクエストに対して、`software` キーにあなたの使用しているソフトウェア情報を持つ JSON オブジェクトを返す必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/api/whoami').then(
+  $.get(code + '/api/whoami').then(
     (data) => assert(data.software && data.software.length > 0),
     (xhr) => {
       throw new Error(xhr.responseText);

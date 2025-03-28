@@ -29,8 +29,8 @@ Reiche deine Seite ein, wenn du davon ausgehst, alles richtig gemacht zu haben. 
 Der Server sollte das disconnect-Ereignis des Sockets verarbeiten.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(data, /socket.on.*('|")disconnect('|")/s, '');
@@ -40,8 +40,8 @@ async (getUserInput) => {
 Dein Client sollte auf das Ereignis `'user count'` warten.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/public/client.js", getUserInput("url"));
+async () => {
+  const url = new URL("/public/client.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(

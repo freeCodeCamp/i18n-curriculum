@@ -21,8 +21,7 @@ Use o método `helmet.dnsPrefetchControl()` no seu servidor.
 O middleware helmet.dnsPrefetchControl() deve ser montado corretamente
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/app-info').then(
+  $.get(code + '/_api/app-info').then(
     (data) => {
       assert.include(data.appStack, 'dnsPrefetchControl');
       assert.equal(data.headers['x-dns-prefetch-control'], 'off');

@@ -70,11 +70,10 @@ assert(
 A função `authReducer` deve lidar com vários tipos de ação com um comando `switch`.
 
 ```js
-(getUserInput) =>
-  assert(
-    getUserInput('index').toString().includes('switch') &&
-      getUserInput('index').toString().includes('case') &&
-      getUserInput('index').toString().includes('default')
+assert(
+    code.toString().includes('switch') &&
+      code.toString().includes('case') &&
+      code.toString().includes('default')
   );
 ```
 

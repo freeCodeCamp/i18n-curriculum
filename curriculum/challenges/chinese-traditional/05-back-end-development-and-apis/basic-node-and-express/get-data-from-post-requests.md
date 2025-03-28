@@ -31,8 +31,7 @@ DELETE - 刪除資源。
 測試 1：你的 API 接口應該使用正確的名字來響應
 
 ```js
-(getUserInput) =>
-  $.post(getUserInput('url') + '/name', { first: 'Mick', last: 'Jagger' }).then(
+  $.post(code + '/name', { first: 'Mick', last: 'Jagger' }).then(
     (data) => {
       assert.equal(
         data.name,
@@ -49,8 +48,7 @@ DELETE - 刪除資源。
 測試 2：你的 API 接口應該使用正確的名字來響應
 
 ```js
-(getUserInput) =>
-  $.post(getUserInput('url') + '/name', {
+  $.post(code + '/name', {
     first: 'Keith',
     last: 'Richards'
   }).then(

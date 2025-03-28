@@ -31,8 +31,7 @@ dashedName: expand-your-project-with-external-packages-from-npm
 `"dependencies"` に `"@freecodecamp/example"` を含める必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert.property(
@@ -50,8 +49,7 @@ dashedName: expand-your-project-with-external-packages-from-npm
 `"@freecodecamp/example"` のバージョンは `"1.1.0"` である必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert.match(

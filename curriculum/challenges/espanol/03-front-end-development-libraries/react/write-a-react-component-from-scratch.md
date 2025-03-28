@@ -21,12 +21,7 @@ Renderiza este componente al DOM usando `ReactDOM.render()`. Hay un `div` con `i
 Debe existir un componente React llamado `MyComponent`.
 
 ```js
-(getUserInput) =>
-  assert(
-    __helpers
-      .removeWhiteSpace(getUserInput('index'))
-      .includes('classMyComponentextendsReact.Component{')
-  );
+assert(__helpers.removeWhiteSpace(code).includes('classMyComponentextendsReact.Component{'));
 ```
 
 `MyComponent` debe contener una etiqueta `h1` con texto `My First React Component!`. Las mayúsculas, minúsculas y puntuación son importantes.

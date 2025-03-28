@@ -78,7 +78,7 @@ async () => {
 Die Render-Methode sollte den logischen Operator `&&` verwenden, um die Bedingung von `this.state.display` zu überprüfen.
 
 ```js
-(getUserInput) => assert(getUserInput('index').includes('&&'));
+assert(code.includes('&&'));
 ```
 
 # --seed--

@@ -28,8 +28,7 @@ As a reminder, this project is being built upon the following starter project on
 Проміжне ПЗ helmet.xssFilter() повинне бути встановлене правильно
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/app-info').then(
+  $.get(code + '/_api/app-info').then(
     (data) => {
       assert.include(data.appStack, 'xXssProtection');
       assert.property(data.headers, 'x-xss-protection');

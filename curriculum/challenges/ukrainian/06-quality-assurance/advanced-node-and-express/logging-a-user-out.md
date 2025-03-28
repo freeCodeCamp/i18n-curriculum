@@ -37,8 +37,8 @@ app.use((req, res, next) => {
 `req.logout()` потрібно викликати у маршруті `/logout`.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(
@@ -52,8 +52,8 @@ async (getUserInput) => {
 `/logout` повинен переадресовувати на головну сторінку.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/logout", getUserInput("url"));
+async () => {
+  const url = new URL("/logout", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(

@@ -37,8 +37,8 @@ If all went as planned, your app home page will no longer be blank. Instead, it 
 項目中應使用 Pug 作爲依賴。
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/package.json", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/package.json", code);
   const res = await fetch(url);
   const packJson = await res.json();
   assert.property(
@@ -52,8 +52,8 @@ async (getUserInput) => {
 項目中應使用 Pug 作爲模版引擎。
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/app", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/app", code);
   const res = await fetch(url);
   const app = await res.json();
   assert.equal(app?.settings?.['view engine'], "pug");
@@ -63,8 +63,8 @@ async (getUserInput) => {
 You should set the `views` property of the application to `./views/pug`.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/app", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/app", code);
   const res = await fetch(url);
   const app = await res.json();
   assert.equal(app?.settings?.views, "./views/pug");
@@ -74,8 +74,8 @@ async (getUserInput) => {
 使用正確的 ExpressJS 方法渲染來自響應的索引頁。
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/", getUserInput("url"));
+async () => {
+  const url = new URL("/", code);
   const res = await fetch(url);
   const data = await res.text();
       assert.match(
@@ -89,8 +89,8 @@ async (getUserInput) => {
 Pug 應該正常運行。
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/", getUserInput("url"));
+async () => {
+  const url = new URL("/", code);
   const res = await fetch(url);
   const data = await res.text();
       assert.match(

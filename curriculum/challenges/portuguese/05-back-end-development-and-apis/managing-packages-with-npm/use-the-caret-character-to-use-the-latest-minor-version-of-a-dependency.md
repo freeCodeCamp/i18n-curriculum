@@ -29,8 +29,7 @@ Use o circunflexo (`^`) para prefixar a versão de `@freecodecamp/example` em su
 `"dependencies"` deve incluir `"@freecodecamp/example"`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert.property(
@@ -48,8 +47,7 @@ Use o circunflexo (`^`) para prefixar a versão de `@freecodecamp/example` em su
 A versão de `"@freecodecamp/example"` deve corresponder a `"^1.x.x"`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert.match(

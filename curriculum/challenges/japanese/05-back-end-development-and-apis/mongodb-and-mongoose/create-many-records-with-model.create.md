@@ -21,9 +21,8 @@ dashedName: create-many-records-with-model-create
 一度に多数の db アイテムを正しく作成する必要がります。
 
 ```js
-(getUserInput) =>
   $.ajax({
-    url: getUserInput('url') + '/_api/create-many-people',
+    url: code + '/_api/create-many-people',
     type: 'POST',
     contentType: 'application/json',
     data: JSON.stringify([

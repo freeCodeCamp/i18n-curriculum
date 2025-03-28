@@ -21,8 +21,7 @@ HTML サーバーは HTML を提供しますが、API はデータを提供し�
 エンドポイント `/json` は JSON オブジェクト `{"message": "Hello json"}` を提供する必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/json').then(
+  $.get(code + '/json').then(
     (data) => {
       assert.equal(
         data.message,

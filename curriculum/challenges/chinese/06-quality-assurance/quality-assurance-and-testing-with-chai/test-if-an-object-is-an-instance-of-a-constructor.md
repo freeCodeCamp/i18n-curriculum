@@ -21,8 +21,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#18` in the `Objects` sui
 不应有未通过的测试
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=17').then(
+  $.get(code + '/_api/get-tests?type=unit&n=17').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -35,8 +34,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#18` in the `Objects` sui
 应该为第一个断言选择正确的方法：`instanceOf` 或 `notInstanceOf`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=17').then(
+  $.get(code + '/_api/get-tests?type=unit&n=17').then(
     (data) => {
       assert.equal(
         data.assertions[0].method,
@@ -53,8 +51,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#18` in the `Objects` sui
 应该为第二个断言选择正确的方法：`instanceOf` 或 `notInstanceOf`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=17').then(
+  $.get(code + '/_api/get-tests?type=unit&n=17').then(
     (data) => {
       assert.equal(
         data.assertions[1].method,
@@ -71,8 +68,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#18` in the `Objects` sui
 应该为第三个断言选择正确的方法：`instanceOf` 或 `notInstanceOf`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=17').then(
+  $.get(code + '/_api/get-tests?type=unit&n=17').then(
     (data) => {
       assert.equal(
         data.assertions[2].method,
@@ -89,8 +85,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#18` in the `Objects` sui
 应该为第四个断言选择正确的方法：`instanceOf` 或 `notInstanceOf`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=17').then(
+  $.get(code + '/_api/get-tests?type=unit&n=17').then(
     (data) => {
       assert.equal(
         data.assertions[3].method,

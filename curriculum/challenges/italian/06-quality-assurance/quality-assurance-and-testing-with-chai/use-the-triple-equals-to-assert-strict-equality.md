@@ -21,8 +21,7 @@ All'interno di `tests/1_unit-tests.js`, sotto il test etichettato con `#6`, nell
 Tutti i test dovrebbero essere superati.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=5').then(
+  $.get(code + '/_api/get-tests?type=unit&n=5').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -35,8 +34,7 @@ Tutti i test dovrebbero essere superati.
 Dovresti scegliere il metodo corretto per la prima asserzione - `strictEqual` oppure `notStrictEqual`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=5').then(
+  $.get(code + '/_api/get-tests?type=unit&n=5').then(
     (data) => {
       assert.equal(
         data.assertions[0].method,
@@ -53,8 +51,7 @@ Dovresti scegliere il metodo corretto per la prima asserzione - `strictEqual` op
 Dovresti scegliere il metodo corretto per la seconda asserzione - `strictEqual` oppure `notStrictEqual`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=5').then(
+  $.get(code + '/_api/get-tests?type=unit&n=5').then(
     (data) => {
       assert.equal(data.assertions[1].method, 'strictEqual', '3*2 = 6...');
     },
@@ -67,8 +64,7 @@ Dovresti scegliere il metodo corretto per la seconda asserzione - `strictEqual` 
 Dovresti scegliere il metodo corretto per la terza asserzione - `strictEqual` oppure `notStrictEqual`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=5').then(
+  $.get(code + '/_api/get-tests?type=unit&n=5').then(
     (data) => {
       assert.equal(
         data.assertions[2].method,
@@ -85,8 +81,7 @@ Dovresti scegliere il metodo corretto per la terza asserzione - `strictEqual` op
 Dovresti scegliere il metodo corretto per la quarta asserzione - `strictEqual` oppure `notStrictEqual`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=5').then(
+  $.get(code + '/_api/get-tests?type=unit&n=5').then(
     (data) => {
       assert.equal(
         data.assertions[3].method,

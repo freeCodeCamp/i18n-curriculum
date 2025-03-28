@@ -40,20 +40,18 @@ Escribe las siguientes pruebas en `tests/2_functional-tests.js`:
 Puedes proveer tu propio proyecto, no la URL de ejemplo.
 
 ```js
-(getUserInput) => {
   assert(
     !/.*\/anonymous-message-board\.freecodecamp\.rocks/.test(
-      getUserInput('url')
+      code
     )
   );
-};
 ```
 
 Solo permitele a tu sitio ser cargado dentro de un iFrame sobre tus propias páginas.
 
 ```js
-async (getUserInput) => {
-  const data = await fetch(getUserInput('url') + '/_api/app-info');
+async () => {
+  const data = await fetch(code + '/_api/app-info');
   const parsed = await data.json();
   assert.isTrue(parsed.headers['x-frame-options']?.includes('SAMEORIGIN'));
 };
@@ -62,8 +60,8 @@ async (getUserInput) => {
 No se permite DNS prefetching.
 
 ```js
-async (getUserInput) => {
-  const data = await fetch(getUserInput('url') + '/_api/app-info');
+async () => {
+  const data = await fetch(code + '/_api/app-info');
   const parsed = await data.json();
   assert.isTrue(parsed.headers['x-dns-prefetch-control']?.includes('off'));
 };
@@ -72,8 +70,8 @@ async (getUserInput) => {
 Solo permite a tu sitio enviar a lo concerniente para tus propias páginas.
 
 ```js
-async (getUserInput) => {
-  const data = await fetch(getUserInput('url') + '/_api/app-info');
+async () => {
+  const data = await fetch(code + '/_api/app-info');
   const parsed = await data.json();
   assert.isTrue(parsed.headers['referrer-policy']?.includes('same-origin'));
 };
@@ -82,12 +80,12 @@ async (getUserInput) => {
 Puedes enviar una petición POST a `/api/threads/{board}` con el formulario de datos incluyendo `text` and `delete_password`. The saved database record will have at least the fields `_id`, `text`, `created_on`(date & time), `bumped_on`(date & time, starts same as `created_on`), `reported` (boolean), `delete_password`, & `replies` (array).
 
 ```js
-async (getUserInput) => {
+async () => {
   const date = new Date();
   const text = `fcc_test_${date}`;
   const deletePassword = 'delete_me';
   const data = { text, delete_password: deletePassword };
-  const url = getUserInput('url');
+  const url = code;
   const res = await fetch(url + '/api/threads/fcc_test', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
@@ -114,8 +112,8 @@ async (getUserInput) => {
 Puedes enviar una petición POST a `/api/replies/{board}` con el fomulario de datos incluyendo:`text`, `delete_password`, & `thread_id`. Esto actualizará la fecha `bumped_on` en la fecha de comentarios. In the thread's `replies` array, an object will be saved with at least the properties `_id`, `text`, `created_on`, `delete_password`, & `reported`.
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const body = await fetch(url + '/api/threads/fcc_test');
   const thread = await body.json();
 
@@ -151,8 +149,8 @@ async (getUserInput) => {
 Puedes enviar una solicitud GET a `/api/threads/{board}`. Se devolverá un arreglo de los 10 hilos más recientes en el tablero con solo las 3 respuestas más recientes para cada uno. Los campos `reported` y `delete_password` no serán enviados al cliente.
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + '/api/threads/fcc_test');
 
   if (res.ok) {
@@ -182,8 +180,8 @@ async (getUserInput) => {
 Puedes enviar una solicitud GET a `/api/replies/{board}?thread_id={thread_id}`. Se devolverá el hilo completo con todas sus respuestas, también excluyendo los mismos campos del cliente que la prueba anterior.
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   let res = await fetch(url + '/api/threads/fcc_test');
   const threads = await res.json();
   const thread_id = threads[0]._id;
@@ -214,8 +212,8 @@ async (getUserInput) => {
 Puedes enviar una solicitud DELETE a `/api/threads/{board}` y pasar a lo largo del `thread_id` & `delete_password` para eliminar el hilo. Devuelta será la cadena `incorrect password` o `success`.
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   let res = await fetch(url + '/api/threads/fcc_test');
   const threads = await res.json();
   const thread_id = threads[0]._id;
@@ -251,8 +249,8 @@ async (getUserInput) => {
 Puedes enviar una solicitud DELETE a `/api/replies/{board}` y pasar a lo largo del `thread_id`, `reply_id`, & `delete_password`. Devuelto será la cadena `incorrect password` o `success`. En caso de éxito, el texto del `reply_id` se cambiará a `[deleted]`.
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
 
   const thread_data = {
     text: "fcc_test_thread",
@@ -306,8 +304,8 @@ async (getUserInput) => {
 Puedes enviar una solicitud PUT a `/api/threads/{board}` y pasar a lo largo del `thread_id`. Devuelta será la cadena `reported`. The `reported` value of the `thread_id` will be changed to `true`.
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
 
   let res = await fetch(`${url}/api/threads/fcc_test`);
   const threads = await res.json();
@@ -337,8 +335,8 @@ async (getUserInput) => {
 Puedes enviar una solicitud PUT a`/api/replies/{board}` y pasar a lo largo de `thread_id` & `reply_id`. Devuelta será la cadena `reported`. El valor `reported` del `reply_id` será cambiado a `true`.
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
 
   let res = await fetch(`${url}/api/threads/fcc_test`);
   const threads = await res.json();
@@ -369,8 +367,8 @@ async (getUserInput) => {
 Las 10 pruebas funcionales están completas y pasan.
 
 ```js
-async (getUserInput) => {
-  const tests = await fetch(getUserInput('url') + '/_api/get-tests');
+async () => {
+  const tests = await fetch(code + '/_api/get-tests');
   const parsed = await tests.json();
   assert.isTrue(parsed.length >= 10);
   parsed.forEach((test) => {

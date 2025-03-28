@@ -21,8 +21,7 @@ Dentro de `tests/1_unit-tests.js` bajo la prueba etiquetada `#6` en la suite `Eq
 Todas las pruebas deben pasar.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=5').then(
+  $.get(code + '/_api/get-tests?type=unit&n=5').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -35,8 +34,7 @@ Todas las pruebas deben pasar.
 Debe elegir el método correcto para la primera comprobación - `strictEqual` vs. `notStrictEqual`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=5').then(
+  $.get(code + '/_api/get-tests?type=unit&n=5').then(
     (data) => {
       assert.equal(
         data.assertions[0].method,
@@ -53,8 +51,7 @@ Debe elegir el método correcto para la primera comprobación - `strictEqual` vs
 Debe elegir el método correcto para la segunda aserción - `strictEqual` vs `notStrictEqual`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=5').then(
+  $.get(code + '/_api/get-tests?type=unit&n=5').then(
     (data) => {
       assert.equal(data.assertions[1].method, 'strictEqual', '3*2 = 6...');
     },
@@ -67,8 +64,7 @@ Debe elegir el método correcto para la segunda aserción - `strictEqual` vs `no
 Debe elegir el método correcto para la tercera aserción - `strictEqual` vs `notStrictEqual`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=5').then(
+  $.get(code + '/_api/get-tests?type=unit&n=5').then(
     (data) => {
       assert.equal(
         data.assertions[2].method,
@@ -85,8 +81,7 @@ Debe elegir el método correcto para la tercera aserción - `strictEqual` vs `no
 Debe elegir el método correcto para la cuarta aserción - `strictEqual` vs `notStrictEqual`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=5').then(
+  $.get(code + '/_api/get-tests?type=unit&n=5').then(
     (data) => {
       assert.equal(
         data.assertions[3].method,

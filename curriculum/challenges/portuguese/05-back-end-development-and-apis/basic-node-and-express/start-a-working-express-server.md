@@ -31,8 +31,7 @@ Use o método `app.get()` para servir a string "Hello Express" para solicitaçõ
 Seu aplicativo deve servir a string 'Hello Express'
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url')).then(
+  $.get(code).then(
     (data) => {
       assert.equal(
         data,

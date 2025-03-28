@@ -29,8 +29,7 @@ dashedName: use-the-tilde-character-to-always-use-the-latest-patch-version-of-a-
 `"dependencies"` має містити `"@freecodecamp/example"`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert.property(
@@ -48,8 +47,7 @@ dashedName: use-the-tilde-character-to-always-use-the-latest-patch-version-of-a-
 Версія `"@freecodecamp/example"` має відповідати `"~1.2.13"`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert.match(

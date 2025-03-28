@@ -21,8 +21,7 @@ In the good old days, this was what you needed to do if you wanted to edit a doc
 Пошук-редагування-оновлення елемента має бути успішним
 
 ```js
-(getUserInput) =>
-  $.post(getUserInput('url') + '/_api/find-edit-save', {
+  $.post(code + '/_api/find-edit-save', {
     name: 'Poldo',
     age: 40,
     favoriteFoods: ['spaghetti']

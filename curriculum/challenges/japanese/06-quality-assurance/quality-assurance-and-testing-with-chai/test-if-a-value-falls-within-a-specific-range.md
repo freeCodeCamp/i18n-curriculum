@@ -27,8 +27,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#10` in the `Comparisons`
 すべてのテストが成功する必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=9').then(
+  $.get(code + '/_api/get-tests?type=unit&n=9').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -41,8 +40,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#10` in the `Comparisons`
 最初のアサーションに対して、正しい範囲を選ぶ必要があります - `approximately(actual, expected, range)` です。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=9').then(
+  $.get(code + '/_api/get-tests?type=unit&n=9').then(
     (data) => {
       assert.equal(data.assertions[0].method, 'approximately');
       assert.equal(
@@ -60,8 +58,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#10` in the `Comparisons`
 2 番目のアサーションに対して、正しい範囲を選ぶ必要があります - `approximately(actual, expected, range)` です。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=9').then(
+  $.get(code + '/_api/get-tests?type=unit&n=9').then(
     (data) => {
       assert.equal(data.assertions[1].method, 'approximately');
       assert.equal(

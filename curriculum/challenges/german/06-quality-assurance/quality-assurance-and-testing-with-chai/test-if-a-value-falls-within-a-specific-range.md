@@ -27,8 +27,7 @@ Wählen den Minimalbereich (3. Parameter) aus, damit der Test immer bestanden wi
 Alle Tests sollten erfolgreich sein.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=9').then(
+  $.get(code + '/_api/get-tests?type=unit&n=9').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -41,8 +40,7 @@ Alle Tests sollten erfolgreich sein.
 Du solltest den richtigen Bereich für die erste Behauptung wählen - `approximately(actual, expected, range)`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=9').then(
+  $.get(code + '/_api/get-tests?type=unit&n=9').then(
     (data) => {
       assert.equal(data.assertions[0].method, 'approximately');
       assert.equal(
@@ -60,8 +58,7 @@ Du solltest den richtigen Bereich für die erste Behauptung wählen - `approxima
 Du solltest den richtigen Bereich für die zweite Behauptung wählen - `approximately(actual, expected, range)`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=9').then(
+  $.get(code + '/_api/get-tests?type=unit&n=9').then(
     (data) => {
       assert.equal(data.assertions[1].method, 'approximately');
       assert.equal(

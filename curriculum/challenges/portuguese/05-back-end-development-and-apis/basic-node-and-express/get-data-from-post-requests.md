@@ -31,8 +31,7 @@ Existem também alguns outros métodos que são usados para estabelecer uma cone
 Teste 1 : O endpoint (URL) da API deve responder com o nome correto
 
 ```js
-(getUserInput) =>
-  $.post(getUserInput('url') + '/name', { first: 'Mick', last: 'Jagger' }).then(
+  $.post(code + '/name', { first: 'Mick', last: 'Jagger' }).then(
     (data) => {
       assert.equal(
         data.name,
@@ -49,8 +48,7 @@ Teste 1 : O endpoint (URL) da API deve responder com o nome correto
 Teste 2: O endpoint da API deve responder com o nome correto
 
 ```js
-(getUserInput) =>
-  $.post(getUserInput('url') + '/name', {
+  $.post(code + '/name', {
     first: 'Keith',
     last: 'Richards'
   }).then(

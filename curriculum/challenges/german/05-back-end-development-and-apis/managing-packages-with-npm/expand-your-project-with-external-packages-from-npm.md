@@ -31,8 +31,7 @@ Füge die Version `1.1.0` des `@freecodecamp/example`-Pakets dem `dependencies`-
 `"dependencies"` sollte `"@freecodecamp/example"` enthalten.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert.property(
@@ -50,8 +49,7 @@ Füge die Version `1.1.0` des `@freecodecamp/example`-Pakets dem `dependencies`-
 Die `"@freecodecamp/example"`-Version sollte `"1.1.0"` sein.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert.match(

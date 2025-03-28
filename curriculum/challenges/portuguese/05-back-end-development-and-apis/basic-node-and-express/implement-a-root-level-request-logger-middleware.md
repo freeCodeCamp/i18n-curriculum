@@ -32,8 +32,7 @@ Crie um registrador simples. Para cada solicitação, ele deve registrar no cons
 O middleware do registrador de root deve estar ativo
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/root-middleware-logger').then(
+  $.get(code + '/_api/root-middleware-logger').then(
     (data) => {
       assert.isTrue(
         data.passed,

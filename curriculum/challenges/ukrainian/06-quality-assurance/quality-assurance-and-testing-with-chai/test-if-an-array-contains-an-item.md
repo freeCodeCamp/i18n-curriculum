@@ -19,8 +19,7 @@ As a reminder, this project is being built upon the following starter project on
 Всі тести повинні бути успішно пройдені.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=11').then(
+  $.get(code + '/_api/get-tests?type=unit&n=11').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -33,8 +32,7 @@ As a reminder, this project is being built upon the following starter project on
 Ви повинні обрати правильний метод для першого твердження: `include` або `notInclude`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=11').then(
+  $.get(code + '/_api/get-tests?type=unit&n=11').then(
     (data) => {
       assert.equal(
         data.assertions[0].method,
@@ -51,8 +49,7 @@ As a reminder, this project is being built upon the following starter project on
 Ви повинні обрати правильний метод для другого твердження: `include` або `notInclude`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=11').then(
+  $.get(code + '/_api/get-tests?type=unit&n=11').then(
     (data) => {
       assert.equal(
         data.assertions[1].method,

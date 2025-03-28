@@ -43,8 +43,7 @@ Mongoose の基本的なスキーマタイプを使用してください。 フ�
 Mongoose スキーマからインスタンスを正しく作成する必要があります。
 
 ```js
-(getUserInput) =>
-  $.post(getUserInput('url') + '/_api/mongoose-model', {
+  $.post(code + '/_api/mongoose-model', {
     name: 'Mike',
     age: 28,
     favoriteFoods: ['pizza', 'cheese']

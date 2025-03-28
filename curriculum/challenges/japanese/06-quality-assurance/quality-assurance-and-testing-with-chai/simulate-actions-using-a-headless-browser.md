@@ -50,8 +50,7 @@ suiteSetup(function(done) {
 すべてのテストが成功する必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=4').then(
+  $.get(code + '/_api/get-tests?type=functional&n=4').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },

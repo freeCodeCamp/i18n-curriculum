@@ -31,8 +31,7 @@ As a reminder, this project is being built upon the following starter project on
 Всі тести повинні бути успішно пройдені.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=6').then(
+  $.get(code + '/_api/get-tests?type=functional&n=6').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -45,8 +44,7 @@ As a reminder, this project is being built upon the following starter project on
 Ви повинні підтвердити, що запит headless браузера був успішним.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=6').then(
+  $.get(code + '/_api/get-tests?type=functional&n=6').then(
     (data) => {
       assert.equal(data.assertions[0].method, 'browser.success');
     },
@@ -59,8 +57,7 @@ As a reminder, this project is being built upon the following starter project on
 Ви повинні підтвердити, що текстом всередині елемента `span#name` є `'Amerigo'`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=6').then(
+  $.get(code + '/_api/get-tests?type=functional&n=6').then(
     (data) => {
       assert.equal(data.assertions[1].method, 'browser.text');
       assert.match(data.assertions[1].args[0], /('|")span#name\1/);
@@ -75,8 +72,7 @@ As a reminder, this project is being built upon the following starter project on
 Ви повинні підтвердити, що текстом всередині елемента `span#surname` є `'Vespucci'`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=6').then(
+  $.get(code + '/_api/get-tests?type=functional&n=6').then(
     (data) => {
       assert.equal(data.assertions[2].method, 'browser.text');
       assert.match(data.assertions[2].args[0], /('|")span#surname\1/);
@@ -91,8 +87,7 @@ As a reminder, this project is being built upon the following starter project on
 Ви повинні підтвердити, що існує лише один елемент `span#dates`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=6').then(
+  $.get(code + '/_api/get-tests?type=functional&n=6').then(
     (data) => {
       assert.equal(data.assertions[3].method, 'browser.elements');
       assert.match(data.assertions[3].args[0], /('|")span#dates\1/);

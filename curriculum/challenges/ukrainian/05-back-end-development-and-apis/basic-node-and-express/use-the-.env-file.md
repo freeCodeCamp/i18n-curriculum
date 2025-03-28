@@ -27,8 +27,7 @@ dashedName: use-the--env-file
 Відповідь кінцевої точки `/json` має змінюватися відповідно до змінної оточення `MESSAGE_STYLE`
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/use-env-vars').then(
+  $.get(code + '/_api/use-env-vars').then(
     (data) => {
       assert.isTrue(
         data.passed,

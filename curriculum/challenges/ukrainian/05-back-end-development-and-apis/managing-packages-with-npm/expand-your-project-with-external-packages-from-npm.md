@@ -31,8 +31,7 @@ dashedName: expand-your-project-with-external-packages-from-npm
 `"dependencies"` повинні містити `"@freecodecamp/example"`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert.property(
@@ -50,8 +49,7 @@ dashedName: expand-your-project-with-external-packages-from-npm
 Версією `"@freecodecamp/example"` має бути `"1.1.0"`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert.match(

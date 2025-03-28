@@ -23,11 +23,10 @@ Imprime el mensaje `'Now I know React and Redux!'` en la consola.
 El mensaje `Now I know React and Redux!` debe imprimirse en la consola.
 
 ```js
-(getUserInput) =>
+() =>
   assert(
     /console\s*\.\s*log\s*\(\s*('|"|`)Now I know React and Redux!\1\s*\)/.test(
-      getUserInput('index')
-    )
+      code)
   );
 ```
 

@@ -19,20 +19,17 @@ dashedName: request-header-parser-microservice
 Ви повинні надати власний проєкт, а не приклад URL-адреси.
 
 ```js
-(getUserInput) => {
   assert(
     !/.*\/request-header-parser-microservice\.freecodecamp\.rocks/.test(
-      getUserInput('url')
+      code
     )
   );
-};
 ```
 
 Запит до `/api/whoami` повинен повернути об’єкт JSON з вашою IP-адресою у ключі `ipaddress`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/api/whoami').then(
+  $.get(code + '/api/whoami').then(
     (data) => assert(data.ipaddress && data.ipaddress.length > 0),
     (xhr) => {
       throw new Error(xhr.responseText);
@@ -43,8 +40,7 @@ dashedName: request-header-parser-microservice
 Запит до `/api/whoami` повинен повернути об’єкт JSON з вашою бажаною мовою у ключі `language`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/api/whoami').then(
+  $.get(code + '/api/whoami').then(
     (data) => assert(data.language && data.language.length > 0),
     (xhr) => {
       throw new Error(xhr.responseText);
@@ -55,8 +51,7 @@ dashedName: request-header-parser-microservice
 Запит до `/api/whoami` повинен повернути об’єкт JSON з вашим програмним забезпеченням у ключі `software`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/api/whoami').then(
+  $.get(code + '/api/whoami').then(
     (data) => assert(data.software && data.software.length > 0),
     (xhr) => {
       throw new Error(xhr.responseText);

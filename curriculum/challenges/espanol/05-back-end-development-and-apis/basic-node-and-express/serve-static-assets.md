@@ -25,8 +25,7 @@ Ahora tu aplicación debe ser capaz de servir una hoja de estilos CSS. Ten en cu
 Tu aplicación debe servir archivos de recursos desde el directorio `/public` a la ruta `/public`
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/public/style.css').then(
+  $.get(code + '/public/style.css').then(
     (data) => {
       assert.match(
         data,
@@ -43,8 +42,7 @@ Tu aplicación debe servir archivos de recursos desde el directorio `/public` a 
 Tu aplicación no debe servir archivos de ninguna otra carpeta excepto del directorio `/public`
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/server.js').then(
+  $.get(code + '/server.js').then(
     (data) => {
        assert.equal(
         data?.status + '',

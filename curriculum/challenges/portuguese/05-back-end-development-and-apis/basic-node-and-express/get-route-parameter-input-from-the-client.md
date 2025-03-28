@@ -21,8 +21,7 @@ Crie um servidor de eco, montado na rota `GET /:word/echo`. Responda com um docu
 Teste 1: o servidor de eco deve repetir palavras corretamente
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/eChOtEsT/echo').then(
+  $.get(code + '/eChOtEsT/echo').then(
     (data) => {
       assert.equal(
         data.echo,
@@ -39,8 +38,7 @@ Teste 1: o servidor de eco deve repetir palavras corretamente
 Teste 2: o servidor de eco deve repetir palavras corretamente
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/ech0-t3st/echo').then(
+  $.get(code + '/ech0-t3st/echo').then(
     (data) => {
       assert.equal(
         data.echo,

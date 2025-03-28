@@ -34,8 +34,7 @@ En la ruta `app.get('/now', ...)` encadena una función del middleware con el co
 El endpoint /now debe tener el middleware montado
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/chain-middleware-time').then(
+  $.get(code + '/_api/chain-middleware-time').then(
     (data) => {
       assert.equal(
         data.stackLength,
@@ -52,8 +51,7 @@ El endpoint /now debe tener el middleware montado
 El endpoint `/now` debe devolver la hora actual.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/chain-middleware-time').then(
+  $.get(code + '/_api/chain-middleware-time').then(
     (data) => {
       var now = new Date();
       assert.isAtMost(

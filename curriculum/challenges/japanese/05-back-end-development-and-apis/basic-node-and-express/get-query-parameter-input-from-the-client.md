@@ -23,8 +23,7 @@ API エンドポイントを構築し、`GET /name` でマウントしてくだ�
 テスト 1: API エンドポイントは、`/name` エンドポイントが `?first=Mick&last=Jagger` を使用して呼び出された場合 `{ "name": "Mick Jagger" }` を返します。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/name?first=Mick&last=Jagger').then(
+  $.get(code + '/name?first=Mick&last=Jagger').then(
     (data) => {
       assert.equal(
         data.name,
@@ -41,8 +40,7 @@ API エンドポイントを構築し、`GET /name` でマウントしてくだ�
 テスト 2: API エンドポイントは、`/name` エンドポイントが `?first=Keith&last=Richards` を使用して呼び出された場合 `{ "name": "Keith Richards" }` を返します。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/name?last=Richards&first=Keith').then(
+  $.get(code + '/name?last=Richards&first=Keith').then(
     (data) => {
       assert.equal(
         data.name,

@@ -25,8 +25,7 @@ Preencha o campo `license` no arquivo package.json do seu projeto conforme achar
 O package.json deve ter uma chave "license" válida
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert(packJson.license, '"license" is missing');

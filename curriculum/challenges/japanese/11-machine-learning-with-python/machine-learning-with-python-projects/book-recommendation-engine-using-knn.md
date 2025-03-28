@@ -18,9 +18,9 @@ dashedName: book-recommendation-engine-using-knn
 
 このチャレンジでは、**K 近傍法**を使用して書籍推薦アルゴリズムを作成します。
 
-<a href="http://www2.informatik.uni-freiburg.de/~cziegler/BX/" target="_blank" rel="noopener noreferrer nofollow">ブッククロッシングのデータセット</a>を使用してください。 このデータセットには、90,000 人のユーザーによる 270,000 冊の本に関する 110 万件の (10 段階の) 評価が含まれています。
+In this project, you will use the Book-Crossings dataset, which contains 1.1 million ratings (scale of 1-10) of 270,000 books by 90,000 users. The dataset is already imported in the notebook, so no additional download is required.
 
-データをインポートしてクリーニングしたら、`sklearn.neighbors` の `NearestNeighbors` を使用して、指定された本と似た本を表示するモデルを作成してください。 Nearest Neighbors アルゴリズムは、distance (距離) を測定してインスタンスの「近さ」を求めます。
+Use `NearestNeighbors` from `sklearn.neighbors` to develop a model that shows books that are similar to a given book. Nearest Neighbors アルゴリズムは、distance (距離) を測定してインスタンスの「近さ」を求めます。
 
 本のタイトルを (データセットから) 引数として 1 つ取り、それと似た 5 冊の本に、引数の本からの distance を添えたリストを返す `get_recommends` という名前の関数を作成してください。
 

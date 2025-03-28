@@ -31,8 +31,7 @@ function(req, res) {
 アプリは、「Hello Express」という文字列を提供する必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url')).then(
+  $.get(code).then(
     (data) => {
       assert.equal(
         data,

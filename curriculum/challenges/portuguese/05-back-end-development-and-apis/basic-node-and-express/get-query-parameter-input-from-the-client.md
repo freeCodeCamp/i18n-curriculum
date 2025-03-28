@@ -23,8 +23,7 @@ Faça uma API de endpoint (URL), montada em `GET /name`. Responda com um documen
 Teste 1: seu endpoint de API deve responder com `{ "name": "Mick Jagger" }` quando o endpoint `/name` for chamado com `?first=Mick&last=Jagger`
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/name?first=Mick&last=Jagger').then(
+  $.get(code + '/name?first=Mick&last=Jagger').then(
     (data) => {
       assert.equal(
         data.name,
@@ -41,8 +40,7 @@ Teste 1: seu endpoint de API deve responder com `{ "name": "Mick Jagger" }` quan
 Teste 2: seu endpoint de API deve responder com `{ "name": "Keith Richards" }` quando o endpoint `/name` for chamado com `?first=Keith&last=Richards`
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/name?last=Richards&first=Keith').then(
+  $.get(code + '/name?last=Richards&first=Keith').then(
     (data) => {
       assert.equal(
         data.name,

@@ -61,19 +61,16 @@ Log:
 Você deve fornecer seu próprio projeto, não o exemplo de URL.
 
 ```js
-(getUserInput) => {
-  const url = getUserInput('url');
   assert(
-    !/.*\/exercise-tracker\.freecodecamp\.rocks/.test(getUserInput('url'))
+    !/.*\/exercise-tracker\.freecodecamp\.rocks/.test(code)
   );
-};
 ```
 
 Você pode fazer a solicitação de `POST` para `/api/users` com dados do formulário `username` para criar um usuário.
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + '/api/users', {
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -89,8 +86,8 @@ async (getUserInput) => {
 A resposta retornada de `POST /api/users` com dados do formulário `username` será um objeto com as propriedades `username` e `_id`.
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + '/api/users', {
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -109,8 +106,8 @@ async (getUserInput) => {
 Você pode fazer uma solicitação de `GET` a `/api/users` para obter uma lista com todos os usuários.
 
 ```js
-async(getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + '/api/users');
   assert.isTrue(res.ok);
   if(!res.ok) {
@@ -122,8 +119,8 @@ async(getUserInput) => {
 A solicitação de `GET` a `/api/users` retorna um array.
 
 ```js
-async(getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + '/api/users');
   if(res.ok){
     const users = await res.json();
@@ -137,8 +134,8 @@ async(getUserInput) => {
 Cada elemento do array retornado de `GET /api/users` é um objeto literal que contém o `username` e a `_id` do usuário.
 
 ```js
-async(getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + '/api/users');
   if(res.ok){
     const users = await res.json();
@@ -157,8 +154,8 @@ async(getUserInput) => {
 Você pode fazer a solicitação de `POST` para `/api/users/:_id/exercises` com dados do formulário `description`, `duration` e, como opção, a `date`. Se nenhuma data for fornecida, a data atual será utilizada.
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + '/api/users', {
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -191,8 +188,8 @@ async (getUserInput) => {
 A resposta retornada de `POST /api/users/:_id/exercises` será o objeto do usuário com os campos de exercício adicionados.
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + '/api/users', {
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -244,8 +241,8 @@ async (getUserInput) => {
 Você pode fazer uma solicitação de `GET` a `/api/users/:_id/logs` para obter um registro completo dos exercícios de qualquer usuário.
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + '/api/users', {
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -283,8 +280,8 @@ async (getUserInput) => {
 Uma solicitação para o registro (log) de um usuário `GET /api/users/:_id/logs` retornará um objeto com uma propriedade `count`, que representa o número de exercícios que pertencem àquele usuário.
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + '/api/users', {
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -324,8 +321,8 @@ async (getUserInput) => {
 Uma solicitação de `GET` a `/api/users/:_id/logs` retornará o objeto do usuário com um array `log` de todos os exercícios adicionados.
 
 ```js
-async(getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + '/api/users', {
     method: 'POST',
     headers: {
@@ -368,8 +365,8 @@ async(getUserInput) => {
 Cada item no array `log` que é retornado de `GET /api/users/:_id/logs` é um objeto que deve ter as propriedades `description`, `duration`, e `date`.
 
 ```js
-async(getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + `/api/users`, {
     method: 'POST',
     headers: {
@@ -415,8 +412,8 @@ async(getUserInput) => {
 A propriedade `description` de qualquer objeto no array `log` retornada de `GET /api/users/:_id/logs` deve ser uma string.
 
 ```js
-async(getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + '/api/users', {
     method: 'POST',
     headers: {
@@ -462,8 +459,8 @@ async(getUserInput) => {
 A propriedade `duration` de qualquer objeto no array `log` que é retornada de `GET /api/users/:_id/logs` deve ser um número.
 
 ```js
-async(getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + '/api/users', {
     method: 'POST',
     headers: {
@@ -509,8 +506,8 @@ async(getUserInput) => {
 A propriedade `date` de qualquer objeto no array `log` retornada de `GET /api/users/:_id/logs` deve ser uma string. Use o formato `dateString` da API `Date`.
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + '/api/users', {
     method: 'POST',
     headers: {
@@ -571,8 +568,8 @@ async (getUserInput) => {
 Você pode adicionar os parâmetros `from`, `to` e `limit` a uma solicitação para `GET /api/users/:_id/logs` para recuperar parte do registro de qualquer usuário. `from` e `to` são datas no formato `yyyy-mm-dd`. `limit` é um número inteiro de quantos registros devem ser enviados de volta.
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + '/api/users', {
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
