@@ -21,8 +21,7 @@ Use o método `helmet.noCache()` no seu servidor.
 O middleware helmet.noCache() deve ser montado corretamente
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/app-info').then(
+  $.get(code + '/_api/app-info').then(
     (data) => {
       assert.include(data.appStack, 'nocache');
       assert.equal(

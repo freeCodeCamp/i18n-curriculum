@@ -43,14 +43,13 @@ assert(
 `Items` 컴포넌트는 `ShoppingCart` 컴포넌트에서 전달받은 `{ quantity: 10 }` prop이 있어야 합니다.
 
 ```js
-(getUserInput) =>
+() =>
   assert(
     (function () {
       const mockedComponent = Enzyme.mount(React.createElement(ShoppingCart));
       return (
         mockedComponent.find('Items').props().quantity == 10 &&
-        getUserInput('index')
-          .replace(/ /g, '')
+        code.replace(/ /g, '')
           .includes('<Itemsquantity={10}/>')
       );
     })()

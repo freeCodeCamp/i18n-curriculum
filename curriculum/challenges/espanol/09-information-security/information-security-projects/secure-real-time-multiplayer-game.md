@@ -34,13 +34,11 @@ Asegurate que tu juego es seguro! Incluya estas medidas de seguridad:
 Puedes proporcionar tu propio proyecto, no la URL ejemplo.
 
 ```js
-(getUserInput) => {
   assert(
     !/.*\/secure-real-time-multiplayer-game\.freecodecamp\.rocks/.test(
-      getUserInput('url')
+      code
     )
   );
-};
 ```
 
 Múltiples jugadores pueden conectarse al servidor y jugar.
@@ -130,8 +128,8 @@ Los Jugadores pueden desconectarse del juego en cualquier momento.
 Previene al cliente de intentar escuchar/esnifar el tipo MIME.
 
 ```js
-async (getUserInput) => {
-  const data = await fetch(getUserInput('url') + '/_api/app-info');
+async () => {
+  const data = await fetch(code + '/_api/app-info');
   const parsed = await data.json();
   assert.equal(parsed.headers['x-content-type-options'], 'nosniff');
 };
@@ -140,8 +138,8 @@ async (getUserInput) => {
 Prevenir ataques de secuencia de comandos de sitio cruzado 'cross-site scripting' (XSS).
 
 ```js
-async (getUserInput) => {
-  const data = await fetch(getUserInput('url') + '/_api/app-info');
+async () => {
+  const data = await fetch(code + '/_api/app-info');
   const parsed = await data.json();
   assert.equal(parsed.headers['x-xss-protection'], '1; mode=block');
 };
@@ -150,8 +148,8 @@ async (getUserInput) => {
 Nada desde el sitio web es guardado en cache en el cliente.
 
 ```js
-async (getUserInput) => {
-  const data = await fetch(getUserInput('url') + '/_api/app-info');
+async () => {
+  const data = await fetch(code + '/_api/app-info');
   const parsed = await data.json();
   assert.equal(parsed.headers['surrogate-control'], 'no-store');
   assert.equal(
@@ -166,8 +164,8 @@ async (getUserInput) => {
 Las cabeceras dicen que el sitio es potenciado por "PHP 7.4.3" incluso cuado no es así (como una medida de seguridad).
 
 ```js
-async (getUserInput) => {
-  const data = await fetch(getUserInput('url') + '/_api/app-info');
+async () => {
+  const data = await fetch(code + '/_api/app-info');
   const parsed = await data.json();
   assert.equal(parsed.headers['x-powered-by'], 'PHP 7.4.3');
 };

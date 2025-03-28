@@ -21,10 +21,9 @@ dashedName: render-react-on-the-server-with-rendertostring
 `ReactDOMServer.renderToString` を使用して `App` コンポーネントを文字列にレンダーします。
 
 ```js
-(getUserInput) =>
+() =>
   assert(
-    getUserInput('index')
-      .replace(/ /g, '')
+    code.replace(/ /g, '')
       .includes('ReactDOMServer.renderToString(<App/>)') &&
       Enzyme.mount(React.createElement(App)).children().name() === 'div'
   );

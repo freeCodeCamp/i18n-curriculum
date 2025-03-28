@@ -78,7 +78,7 @@ async () => {
 El método renderizador debe usar el operador lógico `&&` para comprobar la condición de `this.state.display`.
 
 ```js
-(getUserInput) => assert(getUserInput('index').includes('&&'));
+assert(code.includes('&&'));
 ```
 
 # --seed--

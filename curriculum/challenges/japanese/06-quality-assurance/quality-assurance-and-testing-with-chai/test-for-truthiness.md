@@ -29,8 +29,7 @@ assert.isTrue(1, 'This will NOT pass with the number value 1');
 すべてのテストが成功する必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=3').then(
+  $.get(code + '/_api/get-tests?type=unit&n=3').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -43,8 +42,7 @@ assert.isTrue(1, 'This will NOT pass with the number value 1');
 最初のアサーションに対して、正しいメソッドを選ぶ必要があります - `isTrue` もしくは `isNotTrue` です。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=3').then(
+  $.get(code + '/_api/get-tests?type=unit&n=3').then(
     (data) => {
       assert.equal(data.assertions[0].method, 'isTrue', 'True is true');
     },
@@ -57,8 +55,7 @@ assert.isTrue(1, 'This will NOT pass with the number value 1');
 2 番目のアサーションに対して、正しいメソッドを選ぶ必要があります - `isTrue` もしくは `isNotTrue` です。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=3').then(
+  $.get(code + '/_api/get-tests?type=unit&n=3').then(
     (data) => {
       assert.equal(
         data.assertions[1].method,
@@ -75,8 +72,7 @@ assert.isTrue(1, 'This will NOT pass with the number value 1');
 3 番目のアサーションに対して、正しいメソッドを選ぶ必要があります - `isTrue` もしくは `isNotTrue` です。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=3').then(
+  $.get(code + '/_api/get-tests?type=unit&n=3').then(
     (data) => {
       assert.equal(
         data.assertions[2].method,

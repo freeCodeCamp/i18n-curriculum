@@ -51,8 +51,7 @@ URL クエリはなしとしてください。 名前 (name) の URL クエリ�
 すべてのテストが成功する必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=0').then(
+  $.get(code + '/_api/get-tests?type=functional&n=0').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -65,8 +64,7 @@ URL クエリはなしとしてください。 名前 (name) の URL クエリ�
 `res.status` == 200 をテストする必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=0').then(
+  $.get(code + '/_api/get-tests?type=functional&n=0').then(
     (data) => {
       assert.equal(data.assertions[0].method, 'equal');
       assert.equal(data.assertions[0].args[0], 'res.status');
@@ -81,8 +79,7 @@ URL クエリはなしとしてください。 名前 (name) の URL クエリ�
 `res.text` == `'hello Guest'` をテストする必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=0').then(
+  $.get(code + '/_api/get-tests?type=functional&n=0').then(
     (data) => {
       assert.equal(data.assertions[1].method, 'equal');
       assert.equal(data.assertions[1].args[0], 'res.text');

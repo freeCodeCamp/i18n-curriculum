@@ -21,8 +21,7 @@ Modifica la función `findAndUpdate` para encontrar a una persona por `Name` y e
 findOneAndUpdate un elemento debe ser exitoso
 
 ```js
-(getUserInput) =>
-  $.post(getUserInput('url') + '/_api/find-one-update', {
+  $.post(code + '/_api/find-one-update', {
     name: 'Dorian Gray',
     age: 35,
     favoriteFoods: ['unknown']

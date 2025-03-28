@@ -72,8 +72,8 @@ Envie sua página quando você achar que ela está certa. Se você estiver encon
 `passport.socketio` deve ser uma dependência.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/package.json", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/package.json", code);
   const res = await fetch(url);
   const packJson = await res.json();
   assert.property(
@@ -87,8 +87,8 @@ async (getUserInput) => {
 `cookie-parser` deve ser uma dependência.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/package.json", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/package.json", code);
   const res = await fetch(url);
   const packJson = await res.json();
   assert.property(
@@ -102,8 +102,8 @@ async (getUserInput) => {
 O passportSocketIo deve ser solicitado adequadamente.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(
@@ -117,8 +117,8 @@ async (getUserInput) => {
 O passportSocketIo deve ser configurado adequadamente.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(

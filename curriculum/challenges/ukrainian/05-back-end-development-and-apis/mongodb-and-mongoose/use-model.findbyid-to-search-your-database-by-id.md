@@ -19,8 +19,7 @@ When saving a document, MongoDB automatically adds the field `_id`, and set it t
 Пошук елемента за Id має бути успішним
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/find-by-id').then(
+  $.get(code + '/_api/find-by-id').then(
     (data) => {
       assert.equal(data.name, 'test', 'item.name is not what expected');
       assert.equal(data.age, 0, 'item.age is not what expected');

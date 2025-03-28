@@ -25,10 +25,7 @@ assert(store.getState() === 5);
 應該存在一個變量 `currentState`，併爲其分配 Redux store 的當前狀態。
 
 ```js
-(getUserInput) =>
-  assert(
-    currentState === 5 && getUserInput('index').includes('store.getState()')
-  );
+assert(currentState === 5 && code.includes('store.getState()'));
 ```
 
 # --seed--

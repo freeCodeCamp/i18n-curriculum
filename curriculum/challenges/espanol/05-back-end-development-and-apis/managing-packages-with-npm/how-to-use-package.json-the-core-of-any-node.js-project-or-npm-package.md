@@ -39,8 +39,7 @@ Si estás usando Gitpod, asegúrate de que la aplicación se está ejecutando y 
 `package.json` debe tener una clave válida "author"
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert(packJson.author, '"author" is missing');

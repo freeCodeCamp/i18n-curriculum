@@ -21,8 +21,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#5` in the `Equality` sui
 すべてのテストが成功する必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=4').then(
+  $.get(code + '/_api/get-tests?type=unit&n=4').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -35,8 +34,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#5` in the `Equality` sui
 最初のアサーションに対して、正しいメソッドを選ぶ必要があります - `equal` もしくは `notEqual` です。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=4').then(
+  $.get(code + '/_api/get-tests?type=unit&n=4').then(
     (data) => {
       assert.equal(
         data.assertions[0].method,
@@ -53,8 +51,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#5` in the `Equality` sui
 2 番目のアサーションに対して、正しいメソッドを選ぶ必要があります - `equal` もしくは `notEqual` です。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=4').then(
+  $.get(code + '/_api/get-tests?type=unit&n=4').then(
     (data) => {
       assert.equal(
         data.assertions[1].method,
@@ -71,8 +68,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#5` in the `Equality` sui
 3 番目のアサーションに対して、正しいメソッドを選ぶ必要があります - `equal` もしくは `notEqual` です。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=4').then(
+  $.get(code + '/_api/get-tests?type=unit&n=4').then(
     (data) => {
       assert.equal(
         data.assertions[2].method,
@@ -89,8 +85,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#5` in the `Equality` sui
 4 番目のアサーションに対して、正しいメソッドを選ぶ必要があります - `equal` もしくは `notEqual` です。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=4').then(
+  $.get(code + '/_api/get-tests?type=unit&n=4').then(
     (data) => {
       assert.equal(data.assertions[3].method, 'notEqual', "6 + '2' is '62'...");
     },

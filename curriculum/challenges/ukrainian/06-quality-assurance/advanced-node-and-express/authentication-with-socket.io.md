@@ -72,8 +72,8 @@ console.log('user ' + socket.request.user.username + ' connected');
 `passport.socketio` повинен бути залежністю.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/package.json", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/package.json", code);
   const res = await fetch(url);
   const packJson = await res.json();
   assert.property(
@@ -87,8 +87,8 @@ async (getUserInput) => {
 `cookie-parser` повинен бути залежністю.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/package.json", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/package.json", code);
   const res = await fetch(url);
   const packJson = await res.json();
   assert.property(
@@ -102,8 +102,8 @@ async (getUserInput) => {
 passportSocketIo повинен бути правильно заданий.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(
@@ -117,8 +117,8 @@ async (getUserInput) => {
 passportSocketIo потрібно правильно налаштувати.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(

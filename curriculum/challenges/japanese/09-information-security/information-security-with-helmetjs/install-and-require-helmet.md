@@ -27,8 +27,7 @@ Helmet を使用すると、さまざまな HTTP ヘッダーを設定するこ�
 `helmet` のバージョン `3.21.3` を `package.json` に含める必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       const packJson = JSON.parse(data);
       const helmet = packJson.dependencies.helmet;

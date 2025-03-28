@@ -21,8 +21,7 @@ Envie seu nome como consulta do URL, acrescentando `?name=<your_name>` à rota. 
 Todos os testes devem passar
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=1').then(
+  $.get(code + '/_api/get-tests?type=functional&n=1').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -35,8 +34,7 @@ Todos os testes devem passar
 Você deve testar que `res.status` == 200
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=1').then(
+  $.get(code + '/_api/get-tests?type=functional&n=1').then(
     (data) => {
       assert.equal(data.assertions[0].method, 'equal');
       assert.equal(data.assertions[0].args[0], 'res.status');
@@ -51,8 +49,7 @@ Você deve testar que `res.status` == 200
 Você deve testar se `res.text` == `'hello <your_name>'`
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=1').then(
+  $.get(code + '/_api/get-tests?type=functional&n=1').then(
     (data) => {
       assert.equal(data.assertions[1].method, 'equal');
       assert.equal(data.assertions[1].args[0], 'res.text');

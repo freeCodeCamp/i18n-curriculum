@@ -27,8 +27,8 @@ Reiche deine Seite ein, wenn du davon ausgehst, alles richtig gemacht zu haben. 
 Alle Schritte sollten in `server.js` korrekt implementiert sein.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(
@@ -52,8 +52,8 @@ async (getUserInput) => {
 Eine POST-Anfrage an `/login` sollte korrekt zu `/` weiterleiten.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/login", getUserInput("url"));
+async () => {
+  const url = new URL("/login", code);
   const res = await fetch(url, { method: 'POST' });
   const data = await res.text();
   assert.match(

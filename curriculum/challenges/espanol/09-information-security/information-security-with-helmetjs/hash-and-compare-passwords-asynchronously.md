@@ -50,8 +50,7 @@ Envía tu página cuando creas que está correcto.
 Hash asíncrono debería generarse y compararse correctamente.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/server.js').then(
+  $.get(code + '/_api/server.js').then(
     (data) => {
       assert.match(
         data,

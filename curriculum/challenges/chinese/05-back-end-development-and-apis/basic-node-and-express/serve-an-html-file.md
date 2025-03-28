@@ -25,8 +25,7 @@ absolutePath = __dirname + '/relativePath/file.ext'
 应用应该响应 views/index.html 文件
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url')).then(
+  $.get(code).then(
     (data) => {
       assert.match(
         data,

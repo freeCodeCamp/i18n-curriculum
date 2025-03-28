@@ -23,8 +23,7 @@ Another common way to get input from the client is by encoding the data after th
 測試一：當 `/name` 被調用爲 `?first=Mick&last=Jagger` 時，你的 API 端點應該響應爲 `{ "name": "Mick Jagger" }`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/name?first=Mick&last=Jagger').then(
+  $.get(code + '/name?first=Mick&last=Jagger').then(
     (data) => {
       assert.equal(
         data.name,
@@ -41,8 +40,7 @@ Another common way to get input from the client is by encoding the data after th
 測試二：當 `/name` 被調用爲 `?first=Keith&last=Richards` 時，你的 API 端點應該響應爲 `{ "name": "Keith Richards" }`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/name?last=Richards&first=Keith').then(
+  $.get(code + '/name?last=Richards&first=Keith').then(
     (data) => {
       assert.equal(
         data.name,

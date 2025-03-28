@@ -29,8 +29,8 @@ socket.on('disconnect', () => {
 Сервер повинен обробляти подію від’єднання від сокету.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(data, /socket.on.*('|")disconnect('|")/s, '');
@@ -40,8 +40,8 @@ async (getUserInput) => {
 Ваш клієнт повинен прослухати подію `'user count'`.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/public/client.js", getUserInput("url"));
+async () => {
+  const url = new URL("/public/client.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(

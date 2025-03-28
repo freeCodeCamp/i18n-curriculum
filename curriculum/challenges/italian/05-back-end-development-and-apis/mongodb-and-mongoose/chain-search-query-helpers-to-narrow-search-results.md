@@ -19,9 +19,8 @@ Modifica la funzione `queryChain` per trovare persone a cui piace il cibo specif
 La concatenazione degli helper delle query dovrebbe avere successo
 
 ```js
-(getUserInput) =>
   $.ajax({
-    url: getUserInput('url') + '/_api/query-tools',
+    url: code + '/_api/query-tools',
     type: 'POST',
     contentType: 'application/json',
     data: JSON.stringify([

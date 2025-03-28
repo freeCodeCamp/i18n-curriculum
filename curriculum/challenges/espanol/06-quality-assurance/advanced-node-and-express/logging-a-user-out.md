@@ -37,8 +37,8 @@ Envía tu página cuando creas que lo has hecho bien. Si tienes dudas o se produ
 `req.logout()` debe ser llamado en la ruta `/logout`.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(
@@ -52,8 +52,8 @@ async (getUserInput) => {
 `/logout` debe redireccionar a la página de inicio.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/logout", getUserInput("url"));
+async () => {
+  const url = new URL("/logout", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(

@@ -19,8 +19,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#8` in the `Comparisons` 
 すべてのテストが成功する必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=7').then(
+  $.get(code + '/_api/get-tests?type=unit&n=7').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -33,8 +32,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#8` in the `Comparisons` 
 最初のアサーションに、正しいメソッドを選ぶ必要があります - `isAbove` もしくは `isAtMost` です。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=7').then(
+  $.get(code + '/_api/get-tests?type=unit&n=7').then(
     (data) => {
       assert.equal(
         data.assertions[0].method,
@@ -51,8 +49,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#8` in the `Comparisons` 
 2 番目のアサーションに、正しいメソッドを選ぶ必要があります - `isAbove` もしくは `isAtMost` です。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=7').then(
+  $.get(code + '/_api/get-tests?type=unit&n=7').then(
     (data) => {
       assert.equal(data.assertions[1].method, 'isAbove', '1 is greater than 0');
     },
@@ -65,8 +62,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#8` in the `Comparisons` 
 3 番目のアサーションに、正しいメソッドを選ぶ必要があります - `isAbove` もしくは `isAtMost` です。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=7').then(
+  $.get(code + '/_api/get-tests?type=unit&n=7').then(
     (data) => {
       assert.equal(
         data.assertions[2].method,
@@ -83,8 +79,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#8` in the `Comparisons` 
 4 番目のアサーションに、正しいメソッドを選ぶ必要があります - `isAbove` もしくは `isAtMost` です。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=7').then(
+  $.get(code + '/_api/get-tests?type=unit&n=7').then(
     (data) => {
       assert.equal(
         data.assertions[3].method,

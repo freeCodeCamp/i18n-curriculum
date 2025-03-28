@@ -21,9 +21,8 @@ Sometimes you need to create many instances of your models, e.g. when seeding a 
 应当成功地一次性创建多条数据
 
 ```js
-(getUserInput) =>
   $.ajax({
-    url: getUserInput('url') + '/_api/create-many-people',
+    url: code + '/_api/create-many-people',
     type: 'POST',
     contentType: 'application/json',
     data: JSON.stringify([

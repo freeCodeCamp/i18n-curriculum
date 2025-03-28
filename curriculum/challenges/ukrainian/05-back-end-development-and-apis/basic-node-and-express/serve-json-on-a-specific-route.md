@@ -21,8 +21,7 @@ dashedName: serve-json-on-a-specific-route
 Кінцева точка `/json` має обслуговувати об’єкт JSON `{"message": "Hello json"}`
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/json').then(
+  $.get(code + '/json').then(
     (data) => {
       assert.equal(
         data.message,

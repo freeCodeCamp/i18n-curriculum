@@ -27,8 +27,7 @@ You will need to use the `dotenv` package. It loads environment variables from y
 端口 `/json` 響應的值，應該隨着環境變量 `MESSAGE_STYLE` 的變化而改變。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/use-env-vars').then(
+  $.get(code + '/_api/use-env-vars').then(
     (data) => {
       assert.isTrue(
         data.passed,

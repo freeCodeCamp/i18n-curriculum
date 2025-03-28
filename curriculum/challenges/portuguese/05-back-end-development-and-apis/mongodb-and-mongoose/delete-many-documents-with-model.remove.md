@@ -21,9 +21,8 @@ Modifique a função `removeManyPeople` para excluir todas as pessoas cujo nome 
 Você deve ter sucesso na exclusão de vários itens
 
 ```js
-(getUserInput) =>
   $.ajax({
-    url: getUserInput('url') + '/_api/remove-many-people',
+    url: code + '/_api/remove-many-people',
     type: 'POST',
     contentType: 'application/json',
     data: JSON.stringify([

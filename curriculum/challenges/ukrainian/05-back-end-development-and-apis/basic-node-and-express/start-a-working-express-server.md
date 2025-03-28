@@ -31,8 +31,7 @@ function(req, res) {
 Застосунок має обслуговувати рядок 'Hello Express'
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url')).then(
+  $.get(code).then(
     (data) => {
       assert.equal(
         data,

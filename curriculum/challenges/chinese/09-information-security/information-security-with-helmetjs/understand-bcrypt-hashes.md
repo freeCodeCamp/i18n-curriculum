@@ -27,8 +27,7 @@ BCrypt 已经被添加为一个依赖项，所以在你的服务器中请求它�
 BCrypt 应该是一个依赖项。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert.property(
@@ -46,8 +45,7 @@ BCrypt 应该是一个依赖项。
 应正确引入 BCrypt。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/server.js').then(
+  $.get(code + '/_api/server.js').then(
     (data) => {
       assert.match(
         data,

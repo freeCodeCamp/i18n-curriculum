@@ -56,13 +56,11 @@ dashedName: metric-imperial-converter
 サンプルの URL ではなく、自分で作成したプロジェクトを提出してください。
 
 ```js
-getUserInput => {
   assert(
     !/.*\/metric-imperial-converter\.freecodecamp\.rocks/.test(
-      getUserInput('url')
+      code
     )
   );
-};
 ```
 
 受け取った数字と単位を含む単一のパラメータを設定して `/api/convert` への `GET` を実行し、変換を実行することができます。 (ヒント: 単位の始まりを示す最初の文字のインデックスを探して入力を分割してください)
@@ -74,18 +72,18 @@ getUserInput => {
 `'gal'` を `'L'` に変換できます。その逆も可能です。 (1 gal を 3.78541 L へ)
 
 ```js
-async getUserInput => {
+async () => {
   try {
-    const data1 = await $.get(getUserInput('url') + '/api/convert?input=1gal');
+    const data1 = await $.get(code + '/api/convert?input=1gal');
     assert.equal(data1.returnNum, 3.78541);
     assert.equal(data1.returnUnit, 'L');
-    const data2 = await $.get(getUserInput('url') + '/api/convert?input=10gal');
+    const data2 = await $.get(code + '/api/convert?input=10gal');
     assert.equal(data2.returnNum, 37.8541);
     assert.equal(data2.returnUnit, 'L');
-    const data3 = await $.get(getUserInput('url') + '/api/convert?input=1l');
+    const data3 = await $.get(code + '/api/convert?input=1l');
     assert.equal(data3.returnNum, 0.26417);
     assert.equal(data3.returnUnit, 'gal');
-    const data4 = await $.get(getUserInput('url') + '/api/convert?input=10l');
+    const data4 = await $.get(code + '/api/convert?input=10l');
     assert.equal(data4.returnNum, 2.64172);
     assert.equal(data4.returnUnit, 'gal');
   } catch (xhr) {
@@ -97,18 +95,18 @@ async getUserInput => {
 `'lbs'` を `'kg'` に変換できます。その逆も可能です。 (1 lbs を 0.453592 kg へ)
 
 ```js
-async getUserInput => {
+async () => {
   try {
-    const data1 = await $.get(getUserInput('url') + '/api/convert?input=1lbs');
+    const data1 = await $.get(code + '/api/convert?input=1lbs');
     assert.equal(data1.returnNum, 0.45359);
     assert.equal(data1.returnUnit, 'kg');
-    const data2 = await $.get(getUserInput('url') + '/api/convert?input=10lbs');
+    const data2 = await $.get(code + '/api/convert?input=10lbs');
     assert.equal(data2.returnNum, 4.53592);
     assert.equal(data2.returnUnit, 'kg');
-    const data3 = await $.get(getUserInput('url') + '/api/convert?input=1kg');
+    const data3 = await $.get(code + '/api/convert?input=1kg');
     assert.equal(data3.returnNum, 2.20462);
     assert.equal(data3.returnUnit, 'lbs');
-    const data4 = await $.get(getUserInput('url') + '/api/convert?input=10kg');
+    const data4 = await $.get(code + '/api/convert?input=10kg');
     assert.equal(data4.returnNum, 22.04624);
     assert.equal(data4.returnUnit, 'lbs');
   } catch (xhr) {
@@ -120,18 +118,18 @@ async getUserInput => {
 `'mi'` を `'km'` に変換できます。その逆も可能です。 (1 mi を 1.60934 km へ)
 
 ```js
-async getUserInput => {
+async () => {
   try {
-    const data1 = await $.get(getUserInput('url') + '/api/convert?input=1mi');
+    const data1 = await $.get(code + '/api/convert?input=1mi');
     assert.equal(data1.returnNum, 1.60934);
     assert.equal(data1.returnUnit, 'km');
-    const data2 = await $.get(getUserInput('url') + '/api/convert?input=10mi');
+    const data2 = await $.get(code + '/api/convert?input=10mi');
     assert.equal(data2.returnNum, 16.0934);
     assert.equal(data2.returnUnit, 'km');
-    const data3 = await $.get(getUserInput('url') + '/api/convert?input=1km');
+    const data3 = await $.get(code + '/api/convert?input=1km');
     assert.equal(data3.returnNum, 0.62137);
     assert.equal(data3.returnUnit, 'mi');
-    const data4 = await $.get(getUserInput('url') + '/api/convert?input=10km');
+    const data4 = await $.get(code + '/api/convert?input=10km');
     assert.equal(data4.returnNum, 6.21373);
     assert.equal(data4.returnUnit, 'mi');
   } catch (xhr) {
@@ -143,18 +141,18 @@ async getUserInput => {
 すべての入力単位は大文字と小文字の両方で受け入れられるようにする必要がありますが、小文字の `initUnit` と `returnUnit` で返す必要があります。ただし、liter のみは例外で、大文字の `'L'` で表示する必要があります。
 
 ```js
-async getUserInput => {
+async () => {
   try {
-    const data1 = await $.get(getUserInput('url') + '/api/convert?input=1gal');
+    const data1 = await $.get(code + '/api/convert?input=1gal');
     assert.equal(data1.initUnit, 'gal');
     assert.equal(data1.returnUnit, 'L');
-    const data2 = await $.get(getUserInput('url') + '/api/convert?input=10L');
+    const data2 = await $.get(code + '/api/convert?input=10L');
     assert.equal(data2.initUnit, 'L');
     assert.equal(data2.returnUnit, 'gal');
-    const data3 = await $.get(getUserInput('url') + '/api/convert?input=1l');
+    const data3 = await $.get(code + '/api/convert?input=1l');
     assert.equal(data3.initUnit, 'L');
     assert.equal(data3.returnUnit, 'gal');
-    const data4 = await $.get(getUserInput('url') + '/api/convert?input=10KM');
+    const data4 = await $.get(code + '/api/convert?input=10KM');
     assert.equal(data4.initUnit, 'km');
     assert.equal(data4.returnUnit, 'mi');
   } catch (xhr) {
@@ -166,9 +164,9 @@ async getUserInput => {
 尺度の単位が無効の場合は、`'invalid unit'` を返します。
 
 ```js
-async getUserInput => {
+async () => {
   try {
-    const data = await $.get(getUserInput('url') + '/api/convert?input=1min');
+    const data = await $.get(code + '/api/convert?input=1min');
     assert(data.error === 'invalid unit' || data === 'invalid unit');
   } catch (xhr) {
     throw new Error(xhr.responseText || xhr.message);
@@ -179,10 +177,10 @@ async getUserInput => {
 数値が無効の場合は、`'invalid number'` を返します。
 
 ```js
-async getUserInput => {
+async () => {
   try {
     const data = await $.get(
-      getUserInput('url') + '/api/convert?input=1//2gal'
+      code + '/api/convert?input=1//2gal'
     );
     assert(data.error === 'invalid number' || data === 'invalid number');
   } catch (xhr) {
@@ -194,10 +192,10 @@ async getUserInput => {
 単位と数値の両方が無効な場合は、`'invalid number and unit'` を返します。
 
 ```js
-async getUserInput => {
+async () => {
   try {
     const data = await $.get(
-      getUserInput('url') + '/api/convert?input=1//2min'
+      code + '/api/convert?input=1//2min'
     );
     assert(
       data.error === 'invalid number and unit' ||
@@ -212,24 +210,24 @@ async getUserInput => {
 パラメーターでは分数、小数または両方を使用できますが (5、1/2、2.5/6 など)、何も指定されていない場合はデフォルトで 1 になります。
 
 ```js
-async getUserInput => {
+async () => {
   try {
-    const data1 = await $.get(getUserInput('url') + '/api/convert?input=mi');
+    const data1 = await $.get(code + '/api/convert?input=mi');
     assert.approximately(data1.initNum, 1, 0.001);
     assert.approximately(data1.returnNum, 1.60934, 0.001);
     assert.equal(data1.returnUnit, 'km');
-    const data2 = await $.get(getUserInput('url') + '/api/convert?input=1/5mi');
+    const data2 = await $.get(code + '/api/convert?input=1/5mi');
     assert.approximately(data2.initNum, 1 / 5, 0.1);
     assert.approximately(data2.returnNum, 0.32187, 0.001);
     assert.equal(data2.returnUnit, 'km');
     const data3 = await $.get(
-      getUserInput('url') + '/api/convert?input=1.5/7km'
+      code + '/api/convert?input=1.5/7km'
     );
     assert.approximately(data3.initNum, 1.5 / 7, 0.001);
     assert.approximately(data3.returnNum, 0.13315, 0.001);
     assert.equal(data3.returnUnit, 'mi');
     const data4 = await $.get(
-      getUserInput('url') + '/api/convert?input=3/2.7km'
+      code + '/api/convert?input=3/2.7km'
     );
     assert.approximately(data4.initNum, 3 / 2.7, 0.001);
     assert.approximately(data4.returnNum, 0.69041, 0.001);
@@ -243,9 +241,9 @@ async getUserInput => {
 `initNum`、`initUnit`、`returnNum`、`returnUnit` および `string` を返し、単位は `'{initNum} {initUnitString} converts to {returnNum} {returnUnitString}'` という形式でスペルアウトし、結果を小数点 5 桁に丸めます。
 
 ```js
-async getUserInput => {
+async () => {
   try {
-    const data = await $.get(getUserInput('url') + '/api/convert?input=2mi');
+    const data = await $.get(code + '/api/convert?input=2mi');
     assert.equal(data.initNum, 2);
     assert.equal(data.initUnit, 'mi');
     assert.approximately(data.returnNum, 3.21868, 0.001);
@@ -260,9 +258,9 @@ async getUserInput => {
 16 件のユニットテストがすべて記述され、成功する状態になっています。
 
 ```js
-async getUserInput => {
+async () => {
   try {
-    const getTests = await $.get(getUserInput('url') + '/_api/get-tests');
+    const getTests = await $.get(code + '/_api/get-tests');
     assert.isArray(getTests);
     const unitTests = getTests.filter(test => {
       return !!test.context.match(/Unit Tests/gi);
@@ -285,9 +283,9 @@ async getUserInput => {
 5 件の機能テストがすべて記述され、成功する状態になっています。
 
 ```js
-async getUserInput => {
+async () => {
   try {
-    const getTests = await $.get(getUserInput('url') + '/_api/get-tests');
+    const getTests = await $.get(code + '/_api/get-tests');
     assert.isArray(getTests);
     const functTests = getTests.filter(test => {
       return !!test.context.match(/Functional Tests/gi);

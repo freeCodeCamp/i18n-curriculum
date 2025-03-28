@@ -34,8 +34,7 @@ app.get('/user', function(req, res, next) {
 Кінцева точка /now має бути підключеною до проміжного програмного забезпечення
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/chain-middleware-time').then(
+  $.get(code + '/_api/chain-middleware-time').then(
     (data) => {
       assert.equal(
         data.stackLength,
@@ -52,8 +51,7 @@ app.get('/user', function(req, res, next) {
 Кінцева точка `/now` має повернути поточний час.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/chain-middleware-time').then(
+  $.get(code + '/_api/chain-middleware-time').then(
     (data) => {
       var now = new Date();
       assert.isAtMost(

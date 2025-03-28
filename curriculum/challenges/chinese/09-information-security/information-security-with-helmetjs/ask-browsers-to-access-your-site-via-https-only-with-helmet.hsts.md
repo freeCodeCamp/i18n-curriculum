@@ -23,8 +23,7 @@ HTTP 严格传输安全（HSTS）是一种网络安全策略，有助于保护�
 helmet.hsts() 中间件应该被正确安装。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/app-info').then(
+  $.get(code + '/_api/app-info').then(
     (data) => {
       assert.include(data.appStack, 'hsts');
       assert.property(data.headers, 'strict-transport-security');
@@ -38,8 +37,7 @@ helmet.hsts() 中间件应该被正确安装。
 maxAge 应该等于 7776000 秒（90 天）。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/app-info').then(
+  $.get(code + '/_api/app-info').then(
     (data) => {
       assert.match(
         data.headers['strict-transport-security'],

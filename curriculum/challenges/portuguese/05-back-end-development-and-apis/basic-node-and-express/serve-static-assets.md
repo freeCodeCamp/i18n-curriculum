@@ -25,8 +25,7 @@ Agora, seu aplicativo deve ser capaz de servir uma folha de estilos de CSS. Obse
 Seu aplicativo deve servir arquivos de ativos do diretório `/public` no caminho `/public`
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/public/style.css').then(
+  $.get(code + '/public/style.css').then(
     (data) => {
       assert.match(
         data,
@@ -43,8 +42,7 @@ Seu aplicativo deve servir arquivos de ativos do diretório `/public` no caminho
 A aplicação não deve servir arquivos de outras pastas além do diretório `/public`
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/server.js').then(
+  $.get(code + '/server.js').then(
     (data) => {
        assert.equal(
         data?.status + '',

@@ -23,8 +23,7 @@ As a reminder, this project is being built upon the following starter project on
 應正確加載 helmet.frameguard() 中間件
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/app-info').then(
+  $.get(code + '/_api/app-info').then(
     (data) => {
       assert.include(
         data.appStack,
@@ -41,8 +40,7 @@ As a reminder, this project is being built upon the following starter project on
 helmet.frameguard() 'action' 應該設置爲 “DENY”
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/app-info').then(
+  $.get(code + '/_api/app-info').then(
     (data) => {
       assert.property(data.headers, 'x-frame-options');
       assert.equal(data.headers['x-frame-options'], 'DENY');

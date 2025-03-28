@@ -21,9 +21,8 @@ dashedName: delete-many-documents-with-model-remove
 應一次性成功刪除多條數據
 
 ```js
-(getUserInput) =>
   $.ajax({
-    url: getUserInput('url') + '/_api/remove-many-people',
+    url: code + '/_api/remove-many-people',
     type: 'POST',
     contentType: 'application/json',
     data: JSON.stringify([

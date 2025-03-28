@@ -21,8 +21,7 @@ All'interno di `tests/1_unit-tests.js`, sotto il test etichettato con `#16`, nel
 Tutti i test dovrebbero essere superati.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=15').then(
+  $.get(code + '/_api/get-tests?type=unit&n=15').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -35,8 +34,7 @@ Tutti i test dovrebbero essere superati.
 Dovresti scegliere il metodo corretto per la prima asserzione - `property` oppure `notProperty`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=15').then(
+  $.get(code + '/_api/get-tests?type=unit&n=15').then(
     (data) => {
       assert.equal(
         data.assertions[0].method,
@@ -53,8 +51,7 @@ Dovresti scegliere il metodo corretto per la prima asserzione - `property` oppur
 Dovresti scegliere il metodo corretto per la seconda asserzione - `property` oppure `notProperty`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=15').then(
+  $.get(code + '/_api/get-tests?type=unit&n=15').then(
     (data) => {
       assert.equal(
         data.assertions[1].method,
@@ -71,8 +68,7 @@ Dovresti scegliere il metodo corretto per la seconda asserzione - `property` opp
 Dovresti scegliere il metodo corretto per la terza asserzione - `property` oppure `notProperty`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=15').then(
+  $.get(code + '/_api/get-tests?type=unit&n=15').then(
     (data) => {
       assert.equal(data.assertions[2].method, 'property', 'Cars have wheels');
     },

@@ -25,8 +25,7 @@ Suggerimento: nella parola chiave `'self'`, le virgolette singole fanno parte de
 Il middleware helmet.contentSecurityPolicy() deve essere montato correttamente
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/app-info').then(
+  $.get(code + '/_api/app-info').then(
     (data) => {
       assert.include(data.appStack, 'csp');
     },
@@ -39,8 +38,7 @@ Il middleware helmet.contentSecurityPolicy() deve essere montato correttamente
 La configurazione csp non è corretta. defaultSrc dovrebbe essere ["'self'"] e scriptSrc dovrebbe essere ["'self'", 'trusted-cdn.com']
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/app-info').then(
+  $.get(code + '/_api/app-info').then(
     (data) => {
       var cspHeader = Object.keys(data.headers).filter(function (k) {
         return (

@@ -65,8 +65,8 @@ Envie sua página quando você achar que ela está certa. Se você estiver encon
 Você deve ter uma rota `/register` e exibir um formulário de registro na página inicial.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(
@@ -85,8 +85,8 @@ async (getUserInput) => {
 O registo deve dar certo.
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const user = `freeCodeCampTester${Date.now()}`;
   const xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function () {
@@ -113,8 +113,8 @@ async (getUserInput) => {
 O login deve dar certo.
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const user = `freeCodeCampTester${Date.now()}`;
   const xhttpReg = new XMLHttpRequest();
   xhttpReg.onreadystatechange = function () {
@@ -162,9 +162,8 @@ async (getUserInput) => {
 O logout deve dar certo.
 
 ```js
-(getUserInput) =>
   $.ajax({
-    url: getUserInput('url') + '/logout',
+    url: code + '/logout',
     type: 'GET',
     xhrFields: { withCredentials: true }
   }).then(
@@ -180,9 +179,8 @@ O logout deve dar certo.
 O perfil não deve mais funcionar após o logout.
 
 ```js
-(getUserInput) =>
   $.ajax({
-    url: getUserInput('url') + '/profile',
+    url: code + '/profile',
     type: 'GET',
     crossDomain: true,
     xhrFields: { withCredentials: true }

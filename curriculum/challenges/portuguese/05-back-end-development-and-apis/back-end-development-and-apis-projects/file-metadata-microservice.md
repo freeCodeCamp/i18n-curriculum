@@ -23,20 +23,18 @@ Crie uma aplicação full-stack em JavaScript que seja funcionalmente semelhante
 Você deve fornecer seu próprio projeto, não o exemplo de URL.
 
 ```js
-(getUserInput) => {
   assert(
     !/.*\/file-metadata-microservice\.freecodecamp\.rocks/.test(
-      getUserInput('url')
+      code
     )
   );
-};
 ```
 
 Você pode enviar um formulário que inclua o upload de arquivos.
 
 ```js
-async (getUserInput) => {
-  const site = await fetch(getUserInput('url'));
+async () => {
+  const site = await fetch(code);
   const data = await site.text();
   const doc = new DOMParser().parseFromString(data, 'text/html');
   assert(doc.querySelector('input[type="file"]'));
@@ -46,8 +44,8 @@ async (getUserInput) => {
 O campo entrada do arquivo de formulário tem o atributo `name` definido como `upfile`.
 
 ```js
-async (getUserInput) => {
-  const site = await fetch(getUserInput('url'));
+async () => {
+  const site = await fetch(code);
   const data = await site.text();
   const doc = new DOMParser().parseFromString(data, 'text/html');
   assert(doc.querySelector('input[name="upfile"]'));
@@ -57,14 +55,14 @@ async (getUserInput) => {
 Ao enviar um arquivo, você recebe `name` (nome), `type` (tipo) e `size` (tamanho, em bytes) do arquivo dentro da resposta em JSON.
 
 ```js
-async (getUserInput) => {
+async () => {
   const formData = new FormData();
   const fileData = await fetch(
     'https://cdn.freecodecamp.org/weather-icons/01d.png'
   );
   const file = await fileData.blob();
   formData.append('upfile', file, 'icon');
-  const data = await fetch(getUserInput('url') + '/api/fileanalyse', {
+  const data = await fetch(code + '/api/fileanalyse', {
     method: 'POST',
     body: formData
   });

@@ -19,20 +19,17 @@ Construye una aplicacion Javascript full stack que funcione similarmente a esta:
 Debes proporcionar tu propio proyecto, no la URL ejemplo.
 
 ```js
-(getUserInput) => {
   assert(
     !/.*\/request-header-parser-microservice\.freecodecamp\.rocks/.test(
-      getUserInput('url')
+      code
     )
   );
-};
 ```
 
 Una petición a `/api/whoami` debe devolver un objeto JSON con tu dirección IP en la clave `ipaddress`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/api/whoami').then(
+  $.get(code + '/api/whoami').then(
     (data) => assert(data.ipaddress && data.ipaddress.length > 0),
     (xhr) => {
       throw new Error(xhr.responseText);
@@ -43,8 +40,7 @@ Una petición a `/api/whoami` debe devolver un objeto JSON con tu dirección IP 
 Una petición a `/api/whoami` debe devolver un objeto JSON con tu idioma preferido en la clave `language`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/api/whoami').then(
+  $.get(code + '/api/whoami').then(
     (data) => assert(data.language && data.language.length > 0),
     (xhr) => {
       throw new Error(xhr.responseText);
@@ -55,8 +51,7 @@ Una petición a `/api/whoami` debe devolver un objeto JSON con tu idioma preferi
 Una petición a `/api/whoami` debe devolver un objeto JSON con tu software en la clave de `software`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/api/whoami').then(
+  $.get(code + '/api/whoami').then(
     (data) => assert(data.software && data.software.length > 0),
     (xhr) => {
       throw new Error(xhr.responseText);

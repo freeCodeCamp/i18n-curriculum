@@ -21,8 +21,7 @@ While an HTML server serves HTML, an API serves data. A <dfn>REST</dfn> (REprese
 端口 `/json` 应该返回一个 JSON 对象 `{"message": "Hello json"}`
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/json').then(
+  $.get(code + '/json').then(
     (data) => {
       assert.equal(
         data.message,

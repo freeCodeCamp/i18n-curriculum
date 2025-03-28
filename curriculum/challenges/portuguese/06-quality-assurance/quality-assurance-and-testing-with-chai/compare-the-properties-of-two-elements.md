@@ -19,8 +19,7 @@ Em `tests/1_unit-tests.js`, no teste de número `#8`, no grupo de testes `Compar
 Todos os testes devem passar.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=7').then(
+  $.get(code + '/_api/get-tests?type=unit&n=7').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -33,8 +32,7 @@ Todos os testes devem passar.
 Você deve escolher o método correto para a primeira afirmação - `isAbove` ou `isAtMost`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=7').then(
+  $.get(code + '/_api/get-tests?type=unit&n=7').then(
     (data) => {
       assert.equal(
         data.assertions[0].method,
@@ -51,8 +49,7 @@ Você deve escolher o método correto para a primeira afirmação - `isAbove` ou
 Você deve escolher o método correto para a segunda afirmação - `isAbove` ou `isAtMost`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=7').then(
+  $.get(code + '/_api/get-tests?type=unit&n=7').then(
     (data) => {
       assert.equal(data.assertions[1].method, 'isAbove', '1 is greater than 0');
     },
@@ -65,8 +62,7 @@ Você deve escolher o método correto para a segunda afirmação - `isAbove` ou 
 Você deve escolher o método correto para a terceira afirmação - `isAbove` ou `isAtMost`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=7').then(
+  $.get(code + '/_api/get-tests?type=unit&n=7').then(
     (data) => {
       assert.equal(
         data.assertions[2].method,
@@ -83,8 +79,7 @@ Você deve escolher o método correto para a terceira afirmação - `isAbove` ou
 Você deve escolher o método correto para a quarta afirmação - `isAbove` ou `isAtMost`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=7').then(
+  $.get(code + '/_api/get-tests?type=unit&n=7').then(
     (data) => {
       assert.equal(
         data.assertions[3].method,

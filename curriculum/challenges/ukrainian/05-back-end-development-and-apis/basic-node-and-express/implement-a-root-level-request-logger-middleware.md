@@ -32,8 +32,7 @@ function(req, res, next) {
 Підпрограмне забезпечення журналу кореневого рівня має бути активним
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/root-middleware-logger').then(
+  $.get(code + '/_api/root-middleware-logger').then(
     (data) => {
       assert.isTrue(
         data.passed,

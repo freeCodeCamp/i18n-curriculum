@@ -27,8 +27,7 @@ Tendrás que usar el paquete `dotenv`. Carga variables de entorno desde tu archi
 La respuesta del endpoint `/json` debe cambiar de acuerdo a la variable de entorno `MESSAGE_STYLE`
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/use-env-vars').then(
+  $.get(code + '/_api/use-env-vars').then(
     (data) => {
       assert.isTrue(
         data.passed,

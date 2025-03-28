@@ -60,7 +60,7 @@ assert(
 전개 연산자는 새 상태를 반환하는 데 사용해야 합니다.
 
 ```js
-(getUserInput) => assert(getUserInput('index').includes('...state'));
+assert(code.includes('...state'));
 ```
 
 # --seed--

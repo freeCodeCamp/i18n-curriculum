@@ -19,8 +19,7 @@ As a reminder, this project is being built upon the following starter project on
 应通过所有测试。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=10').then(
+  $.get(code + '/_api/get-tests?type=unit&n=10').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -33,8 +32,7 @@ As a reminder, this project is being built upon the following starter project on
 请选择正确的断言——`isArray` 或 `isNotArray`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=10').then(
+  $.get(code + '/_api/get-tests?type=unit&n=10').then(
     (data) => {
       assert.equal(
         data.assertions[0].method,
@@ -51,8 +49,7 @@ As a reminder, this project is being built upon the following starter project on
 请选择正确的断言——`isArray` 或 `isNotArray`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=10').then(
+  $.get(code + '/_api/get-tests?type=unit&n=10').then(
     (data) => {
       assert.equal(
         data.assertions[1].method,

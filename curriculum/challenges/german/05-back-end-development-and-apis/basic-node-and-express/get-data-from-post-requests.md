@@ -31,8 +31,7 @@ Es gibt noch eine Reihe anderer Methoden, um eine Verbindung mit dem Server ausz
 Test 1: Dein API-Endpunkt sollte mit dem richtigen Namen antworten
 
 ```js
-(getUserInput) =>
-  $.post(getUserInput('url') + '/name', { first: 'Mick', last: 'Jagger' }).then(
+  $.post(code + '/name', { first: 'Mick', last: 'Jagger' }).then(
     (data) => {
       assert.equal(
         data.name,
@@ -49,8 +48,7 @@ Test 1: Dein API-Endpunkt sollte mit dem richtigen Namen antworten
 Test 2 : Dein API-Endpunkt sollte mit dem richtigen Namen antworten
 
 ```js
-(getUserInput) =>
-  $.post(getUserInput('url') + '/name', {
+  $.post(code + '/name', {
     first: 'Keith',
     last: 'Richards'
   }).then(

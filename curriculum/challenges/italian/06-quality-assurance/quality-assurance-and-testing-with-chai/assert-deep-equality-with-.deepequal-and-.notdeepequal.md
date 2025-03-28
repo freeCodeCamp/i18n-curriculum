@@ -21,8 +21,7 @@ All'interno di `tests/1_unit-test.js` sotto il test etichettato `#7` nella suite
 Tutti i test dovrebbero essere superati.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=6').then(
+  $.get(code + '/_api/get-tests?type=unit&n=6').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -35,8 +34,7 @@ Tutti i test dovrebbero essere superati.
 Dovresti scegliere il metodo corretto per la prima asserzione - `deepEqual` oppure `notDeepEqual`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=6').then(
+  $.get(code + '/_api/get-tests?type=unit&n=6').then(
     (data) => {
       assert.equal(
         data.assertions[0].method,
@@ -53,8 +51,7 @@ Dovresti scegliere il metodo corretto per la prima asserzione - `deepEqual` oppu
 Dovresti scegliere il metodo corretto per la seconda asserzione - `deepEqual` oppure `notDeepEqual`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=6').then(
+  $.get(code + '/_api/get-tests?type=unit&n=6').then(
     (data) => {
       assert.equal(
         data.assertions[1].method,

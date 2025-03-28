@@ -29,8 +29,7 @@ Similar to how the tilde we learned about in the last challenge allows npm to in
 `"dependencies"` 应包括 `"@freecodecamp/example"`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert.property(
@@ -48,8 +47,7 @@ Similar to how the tilde we learned about in the last challenge allows npm to in
 `"@freecodecamp/example"` 版本应匹配 `"^1.x.x"`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert.match(

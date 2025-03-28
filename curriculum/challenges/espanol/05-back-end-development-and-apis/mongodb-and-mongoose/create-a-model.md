@@ -43,8 +43,7 @@ Ahora, crea un modelo a partir del `personSchema` y asígnalo a la variable exis
 La creación de una instancia a partir de un esquema mongoose debe ser exitosa
 
 ```js
-(getUserInput) =>
-  $.post(getUserInput('url') + '/_api/mongoose-model', {
+  $.post(code + '/_api/mongoose-model', {
     name: 'Mike',
     age: 28,
     favoriteFoods: ['pizza', 'cheese']

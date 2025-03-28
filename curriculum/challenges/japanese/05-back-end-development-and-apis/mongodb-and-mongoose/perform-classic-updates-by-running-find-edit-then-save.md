@@ -21,8 +21,7 @@ dashedName: perform-classic-updates-by-running-find-edit-then-save
 アイテムの検索、編集、更新を正しく行う必要があります。
 
 ```js
-(getUserInput) =>
-  $.post(getUserInput('url') + '/_api/find-edit-save', {
+  $.post(code + '/_api/find-edit-save', {
     name: 'Poldo',
     age: 40,
     favoriteFoods: ['spaghetti']

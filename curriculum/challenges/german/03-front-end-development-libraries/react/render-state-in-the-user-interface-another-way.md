@@ -40,8 +40,7 @@ assert(
 Das gerenderte `h1`-Tag sollte einen Verweis auf `{name}` enthalten.
 
 ```js
-(getUserInput) =>
-  assert(/<h1>\n*\s*\{\s*name\s*\}\s*\n*<\/h1>/.test(getUserInput('index')));
+assert(/<h1>\n*\s*\{\s*name\s*\}\s*\n*<\/h1>/.test(code));
 ```
 
 Das gerenderte `h1`-Überschriftenelement sollte Text enthalten, der aus dem Zustand der Komponente gerendert wurde.

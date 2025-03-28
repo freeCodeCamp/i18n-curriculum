@@ -25,8 +25,7 @@ Jetzt sollte deine Anwendung ein CSS-Stylesheet liefern können. Beachte, dass d
 Deine Anwendung sollte Asset-Dateien des `/public`-Verzeichnisses an den `/public`-Pfad liefern
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/public/style.css').then(
+  $.get(code + '/public/style.css').then(
     (data) => {
       assert.match(
         data,
@@ -43,8 +42,7 @@ Deine Anwendung sollte Asset-Dateien des `/public`-Verzeichnisses an den `/publi
 Deine Anwendung sollte keine Dateien aus anderen Ordnern bereitstellen, außer aus dem `/public`-Verzeichis
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/server.js').then(
+  $.get(code + '/server.js').then(
     (data) => {
        assert.equal(
         data?.status + '',

@@ -32,8 +32,7 @@ Costruisci un semplice logger. Per ogni richiesta, esso dovrebbe scrivere nella 
 Il middleware del logger di livello radice dovrebbe essere attivo
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/root-middleware-logger').then(
+  $.get(code + '/_api/root-middleware-logger').then(
     (data) => {
       assert.isTrue(
         data.passed,

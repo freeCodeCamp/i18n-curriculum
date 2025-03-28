@@ -27,8 +27,8 @@ In the `index.pug` file supplied, there is a login form. It is hidden because of
 Усі кроки повинні бути правильно реалізовані в `server.js`.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(
@@ -52,8 +52,8 @@ async (getUserInput) => {
 Запит POST до `/login` повинен правильно перенаправляти до `/`.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/login", getUserInput("url"));
+async () => {
+  const url = new URL("/login", code);
   const res = await fetch(url, { method: 'POST' });
   const data = await res.text();
   assert.match(

@@ -21,8 +21,7 @@ As a reminder, this project is being built upon the following starter project on
 Alle Tests sollten bestehen.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=4').then(
+  $.get(code + '/_api/get-tests?type=unit&n=4').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -35,8 +34,7 @@ Alle Tests sollten bestehen.
 Du solltest die richtige Methode für die erste Behauptung wählen - `equal` vs. `notEqual`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=4').then(
+  $.get(code + '/_api/get-tests?type=unit&n=4').then(
     (data) => {
       assert.equal(
         data.assertions[0].method,
@@ -53,8 +51,7 @@ Du solltest die richtige Methode für die erste Behauptung wählen - `equal` vs.
 Du solltest die richtige Methode für die zweite Behauptung wählen - `equal` vs. `notEqual`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=4').then(
+  $.get(code + '/_api/get-tests?type=unit&n=4').then(
     (data) => {
       assert.equal(
         data.assertions[1].method,
@@ -71,8 +68,7 @@ Du solltest die richtige Methode für die zweite Behauptung wählen - `equal` vs
 Du solltest die richtige Methode für die dritte Behauptung wählen - `equal` vs. `notEqual`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=4').then(
+  $.get(code + '/_api/get-tests?type=unit&n=4').then(
     (data) => {
       assert.equal(
         data.assertions[2].method,
@@ -89,8 +85,7 @@ Du solltest die richtige Methode für die dritte Behauptung wählen - `equal` vs
 Du solltest die richtige Methode für die vierte Behauptung wählen - `equal` vs. `notEqual`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=4').then(
+  $.get(code + '/_api/get-tests?type=unit&n=4').then(
     (data) => {
       assert.equal(data.assertions[3].method, 'notEqual', "6 + '2' is '62'...");
     },

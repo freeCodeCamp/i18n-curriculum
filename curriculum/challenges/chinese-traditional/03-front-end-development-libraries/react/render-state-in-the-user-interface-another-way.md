@@ -40,8 +40,7 @@ assert(
 渲染的 `h1` 標籤應該包含 `{name}` 的引用。
 
 ```js
-(getUserInput) =>
-  assert(/<h1>\n*\s*\{\s*name\s*\}\s*\n*<\/h1>/.test(getUserInput('index')));
+assert(/<h1>\n*\s*\{\s*name\s*\}\s*\n*<\/h1>/.test(code));
 ```
 
 渲染的 `h1` 標題元素應包含從組件狀態渲染的文本。

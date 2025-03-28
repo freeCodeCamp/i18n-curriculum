@@ -28,8 +28,7 @@ person.save(function(err, data) {
 La creación y guardado de un elemento debe ser exitoso
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/create-and-save-person').then(
+  $.get(code + '/_api/create-and-save-person').then(
     (data) => {
       assert.isString(data.name, '"item.name" should be a String');
       assert.isNumber(data.age, '28', '"item.age" should be a Number');

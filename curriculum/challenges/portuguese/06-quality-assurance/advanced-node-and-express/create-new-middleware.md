@@ -40,8 +40,8 @@ Envie sua página quando você achar que ela está certa. Se você estiver encon
 O middleware `ensureAuthenticated` deve ser implementado e anexado à rota `/profile`.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(
@@ -60,8 +60,8 @@ async (getUserInput) => {
 Uma solicitação GET não autenticado para `/profile` deve redirecionar corretamente para `/`.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/profile", getUserInput("url"));
+async () => {
+  const url = new URL("/profile", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(

@@ -37,8 +37,7 @@ Cuando se utiliza `extended=false`, los valores sólo pueden ser cadenas o arreg
 El middleware 'body-parser' debe ser montado
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/add-body-parser').then(
+  $.get(code + '/_api/add-body-parser').then(
     (data) => {
       assert.isAbove(
         data.mountedAt,

@@ -78,7 +78,7 @@ async () => {
 Метод відтворення має використати логічний оператор `&&`, щоб перевірити умову `this.state.display`.
 
 ```js
-(getUserInput) => assert(getUserInput('index').includes('&&'));
+assert(code.includes('&&'));
 ```
 
 # --seed--

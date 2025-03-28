@@ -70,14 +70,13 @@ assert(
 `authReducer` 関数で、 switch ステートメントを使用して複数のアクションタイプを処理します。
 
 ```js
-(getUserInput) =>
-  assert(
+assert(
     (function () {
       return (
         typeof authReducer === 'function' &&
-        getUserInput('index').toString().includes('switch') &&
-        getUserInput('index').toString().includes('case') &&
-        getUserInput('index').toString().includes('default')
+        code.toString().includes('switch') &&
+        code.toString().includes('case') &&
+        code.toString().includes('default')
       );
     })()
   );
@@ -94,11 +93,10 @@ assert(noWhiteSpace.includes('const'))
 アクションクリエイターとレデューサーで、`LOGIN` 定数と `LOGOUT` 定数を参照します。
 
 ```js
-(getUserInput) =>
   assert(
     (function () {
       const noWhiteSpace = __helpers.removeWhiteSpace(
-        getUserInput('index').toString()
+        code.toString()
       );
       return (
         noWhiteSpace.includes('caseLOGIN:') &&

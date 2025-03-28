@@ -19,8 +19,7 @@ dashedName: delete-one-document-using-model-findbyidandremove
 應當成功地刪除一條數據
 
 ```js
-(getUserInput) =>
-  $.post(getUserInput('url') + '/_api/remove-one-person', {
+  $.post(code + '/_api/remove-one-person', {
     name: 'Jason Bourne',
     age: 36,
     favoriteFoods: ['apples']

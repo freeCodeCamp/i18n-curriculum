@@ -27,8 +27,7 @@ dashedName: use-the--env-file
 エンドポイント `/json` のレスポンスを、環境変数 `MESSAGE_STYLE` に従って変更する必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/use-env-vars').then(
+  $.get(code + '/_api/use-env-vars').then(
     (data) => {
       assert.isTrue(
         data.passed,

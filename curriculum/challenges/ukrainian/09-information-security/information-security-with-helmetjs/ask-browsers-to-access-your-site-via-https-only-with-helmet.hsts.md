@@ -23,8 +23,7 @@ HTTP Strict Transport Security (HSTS) — це політика веббезпе
 Проміжне ПЗ helmet.hsts() повинне бути встановлене правильно
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/app-info').then(
+  $.get(code + '/_api/app-info').then(
     (data) => {
       assert.include(data.appStack, 'hsts');
       assert.property(data.headers, 'strict-transport-security');
@@ -38,8 +37,7 @@ HTTP Strict Transport Security (HSTS) — це політика веббезпе
 maxAge повинен дорівнювати 7776000 сек (90 днів)
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/app-info').then(
+  $.get(code + '/_api/app-info').then(
     (data) => {
       assert.match(
         data.headers['strict-transport-security'],

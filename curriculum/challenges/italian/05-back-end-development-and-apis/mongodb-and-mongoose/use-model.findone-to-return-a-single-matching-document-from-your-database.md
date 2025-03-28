@@ -19,8 +19,7 @@ Modifica la funzione `findOneByFood` per trovare solo una persona che abbia un c
 La ricerca di un elemento dovrebbe avere successo
 
 ```js
-(getUserInput) =>
-  $.post(getUserInput('url') + '/_api/find-one-by-food', {
+  $.post(code + '/_api/find-one-by-food', {
     name: 'Gary',
     age: 46,
     favoriteFoods: ['chicken salad']

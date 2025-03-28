@@ -74,11 +74,7 @@ async () => {
 Метод відтворення має використати інструкцію `if/else`, щоб перевірити умову `this.state.display`.
 
 ```js
-(getUserInput) =>
-  assert(
-    getUserInput('index').includes('if') &&
-      getUserInput('index').includes('else')
-  );
+assert(code.includes('if') && code.includes('else'));
 ```
 
 # --seed--

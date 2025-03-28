@@ -21,18 +21,15 @@ Build a full stack JavaScript app that is functionally similar to this: <a href=
 È necessario fornire il proprio progetto, non l'URL di esempio.
 
 ```js
-(getUserInput) => {
   assert(
-    !/.*\/timestamp-microservice\.freecodecamp\.rocks/.test(getUserInput('url'))
+    !/.*\/timestamp-microservice\.freecodecamp\.rocks/.test(code)
   );
-};
 ```
 
 A request to `/api/:date?` with a valid date should return a JSON object with a `unix` key that is a Unix timestamp of the input date in milliseconds (as type Number)
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/api/2016-12-25').then(
+  $.get(code + '/api/2016-12-25').then(
     (data) => {
       assert.equal(
         data.unix,
@@ -49,8 +46,7 @@ A request to `/api/:date?` with a valid date should return a JSON object with a 
 Una richiesta a `/api/:date?` con una data valida dovrebbe restituire un oggetto JSON con una chiave `utc` che è una stringa della data di immissione nel formato: `Thu, 01 Jan 1970 00:00:00 GMT`
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/api/2016-12-25').then(
+  $.get(code + '/api/2016-12-25').then(
     (data) => {
       assert.equal(
         data.utc,
@@ -67,8 +63,7 @@ Una richiesta a `/api/:date?` con una data valida dovrebbe restituire un oggetto
 Una richiesta a `/api/1451001600000` dovrebbe restituire `{ unix: 1451001600000, utc: "Fri, 25 Dec 2015 00:00:00 GMT" }`
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/api/1451001600000').then(
+  $.get(code + '/api/1451001600000').then(
     (data) => {
       assert(
         data.unix === 1451001600000 &&
@@ -84,8 +79,7 @@ Una richiesta a `/api/1451001600000` dovrebbe restituire `{ unix: 1451001600000,
 Il tuo progetto può gestire date che possono essere lette con successo da `new Date(date_string)`
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/api/05 October 2011, GMT').then(
+  $.get(code + '/api/05 October 2011, GMT').then(
     (data) => {
       assert(
         data.unix === 1317772800000 &&
@@ -101,8 +95,7 @@ Il tuo progetto può gestire date che possono essere lette con successo da `new 
 If the input date string is invalid, the API returns an object having the structure `{ error : "Invalid Date" }`
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/api/this-is-not-a-date').then(
+  $.get(code + '/api/this-is-not-a-date').then(
     (data) => {
       assert.equal(data.error.toLowerCase(), 'invalid date');
     },
@@ -115,8 +108,7 @@ If the input date string is invalid, the API returns an object having the struct
 Un parametro data vuoto dovrebbe restituire l'ora corrente in un oggetto JSON con una chiave `unix`
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/api').then(
+  $.get(code + '/api').then(
     (data) => {
       var now = Date.now();
       assert.approximately(data.unix, now, 20000);
@@ -130,8 +122,7 @@ Un parametro data vuoto dovrebbe restituire l'ora corrente in un oggetto JSON co
 Un parametro data vuoto dovrebbe restituire l'ora corrente in un oggetto JSON con una chiave `utc`
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/api').then(
+  $.get(code + '/api').then(
     (data) => {
       var now = Date.now();
       var serverTime = new Date(data.utc).getTime();

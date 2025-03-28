@@ -28,8 +28,7 @@ person.save(function(err, data) {
 db アイテムを正しく作成して保存する必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/create-and-save-person').then(
+  $.get(code + '/_api/create-and-save-person').then(
     (data) => {
       assert.isString(data.name, '"item.name" should be a String');
       assert.isNumber(data.age, '28', '"item.age" should be a Number');

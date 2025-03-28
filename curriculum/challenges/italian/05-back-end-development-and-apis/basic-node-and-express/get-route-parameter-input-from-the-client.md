@@ -21,8 +21,7 @@ Costruisci un server echo, montato sul percorso `GET /:word/echo`. Rispondi con 
 Test 1: il tuo server echo dovrebbe ripetere correttamente le parole
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/eChOtEsT/echo').then(
+  $.get(code + '/eChOtEsT/echo').then(
     (data) => {
       assert.equal(
         data.echo,
@@ -39,8 +38,7 @@ Test 1: il tuo server echo dovrebbe ripetere correttamente le parole
 Test 2: il tuo server echo dovrebbe ripetere correttamente le parole
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/ech0-t3st/echo').then(
+  $.get(code + '/ech0-t3st/echo').then(
     (data) => {
       assert.equal(
         data.echo,

@@ -38,16 +38,15 @@ assert(store.getState().login === false);
 `store.dispatch()` 메소드는 `LOGIN` 유형의 액션을 디스패치하는 데 사용해야 합니다.
 
 ```js
-(getUserInput) =>
-  assert(
+assert(
     (function () {
-      let noWhiteSpace = getUserInput('index').replace(/\s/g, '');
+      let noWhiteSpace = code.replace(/\s/g, '');
       return (
         noWhiteSpace.includes('store.dispatch(loginAction())') ||
         noWhiteSpace.includes("store.dispatch({type: 'LOGIN'})") === true
       );
     })()
-  );
+);
 ```
 
 # --seed--

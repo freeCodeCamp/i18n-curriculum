@@ -59,8 +59,8 @@ res.render('index', { title: 'Hello', message: 'Please log in' });
 Pug で変数を正しくレンダーする必要があります。
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/", getUserInput("url"));
+async () => {
+  const url = new URL("/", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(

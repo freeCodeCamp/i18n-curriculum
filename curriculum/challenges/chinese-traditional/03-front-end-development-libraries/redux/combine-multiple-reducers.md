@@ -77,10 +77,9 @@ assert(
 `rootReducer` 應該是一個合併了 `counterReducer` 和 `authReducer` 的函數。
 
 ```js
-(getUserInput) =>
-  assert(
+assert(
     (function () {
-      const noWhiteSpace = __helpers.removeWhiteSpace(getUserInput('index'));
+      const noWhiteSpace = __helpers.removeWhiteSpace(code);
       return (
         typeof rootReducer === 'function' &&
         noWhiteSpace.includes('Redux.combineReducers')

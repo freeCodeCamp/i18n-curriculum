@@ -21,10 +21,9 @@ So far, you have been rendering React components on the client. Normally, this i
 `App` 컴포넌트는 `ReactDOMServer.renderToString` 사용해서 문자열로 렌더링해야 합니다.
 
 ```js
-(getUserInput) =>
+() =>
   assert(
-    getUserInput('index')
-      .replace(/ /g, '')
+    code.replace(/ /g, '')
       .includes('ReactDOMServer.renderToString(<App/>)') &&
       Enzyme.mount(React.createElement(App)).children().name() === 'div'
   );

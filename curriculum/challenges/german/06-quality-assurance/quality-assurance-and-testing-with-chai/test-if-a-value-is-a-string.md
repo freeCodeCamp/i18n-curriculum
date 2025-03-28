@@ -21,8 +21,7 @@ As a reminder, this project is being built upon the following starter project on
 Alle Tests sollten bestehen.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=12').then(
+  $.get(code + '/_api/get-tests?type=unit&n=12').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -35,8 +34,7 @@ Alle Tests sollten bestehen.
 Du solltest die richtige Methode für die erste Behauptung wählen - `isString` vs. `isNotString`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=12').then(
+  $.get(code + '/_api/get-tests?type=unit&n=12').then(
     (data) => {
       assert.equal(
         data.assertions[0].method,
@@ -53,8 +51,7 @@ Du solltest die richtige Methode für die erste Behauptung wählen - `isString` 
 Du solltest die richtige Methode für die zweite Behauptung wählen - `isString` vs. `isNotString`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=12').then(
+  $.get(code + '/_api/get-tests?type=unit&n=12').then(
     (data) => {
       assert.equal(
         data.assertions[1].method,
@@ -71,8 +68,7 @@ Du solltest die richtige Methode für die zweite Behauptung wählen - `isString`
 Du solltest die richtige Methode für die dritte Behauptung wählen - `isString` vs. `isNotString`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=12').then(
+  $.get(code + '/_api/get-tests?type=unit&n=12').then(
     (data) => {
       assert.equal(data.assertions[2].method, 'isString', 'A JSON is a string');
     },

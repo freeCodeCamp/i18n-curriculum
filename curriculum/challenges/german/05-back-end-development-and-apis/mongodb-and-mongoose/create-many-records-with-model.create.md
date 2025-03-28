@@ -21,9 +21,8 @@ Verändere die `createManyPeople`-Funktion so, dass mehrere Personen – mit `Mo
 Das gleichzeitige Anlegen vieler Datenbankeinträge sollte funktionieren
 
 ```js
-(getUserInput) =>
   $.ajax({
-    url: getUserInput('url') + '/_api/create-many-people',
+    url: code + '/_api/create-many-people',
     type: 'POST',
     contentType: 'application/json',
     data: JSON.stringify([

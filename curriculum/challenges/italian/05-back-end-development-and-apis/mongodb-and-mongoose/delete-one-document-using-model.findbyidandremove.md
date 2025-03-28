@@ -19,8 +19,7 @@ Modifica la funzione `removeById` in modo che elimini una persona in base al suo
 L'eliminazione di un elemento dovrebbe avere successo
 
 ```js
-(getUserInput) =>
-  $.post(getUserInput('url') + '/_api/remove-one-person', {
+  $.post(code + '/_api/remove-one-person', {
     name: 'Jason Bourne',
     age: 36,
     favoriteFoods: ['apples']

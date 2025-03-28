@@ -19,8 +19,7 @@ When saving a document, MongoDB automatically adds the field `_id`, and set it t
 應成功地根據 Id 找到對應的數據
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/find-by-id').then(
+  $.get(code + '/_api/find-by-id').then(
     (data) => {
       assert.equal(data.name, 'test', 'item.name is not what expected');
       assert.equal(data.age, 0, 'item.age is not what expected');

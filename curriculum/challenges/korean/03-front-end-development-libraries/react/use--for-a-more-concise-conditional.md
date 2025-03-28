@@ -78,7 +78,7 @@ async () => {
 렌더 메서드는 `&&` 논리 연산자를 사용해서 `this.state.display`의 상태를 확인해야 합니다.
 
 ```js
-(getUserInput) => assert(getUserInput('index').includes('&&'));
+assert(code.includes('&&'));
 ```
 
 # --seed--

@@ -21,8 +21,7 @@ dashedName: disable-client-side-caching-with-helmet-nocache
 helmet.noCache() ミドルウェアを正しくマウントする必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/app-info').then(
+  $.get(code + '/_api/app-info').then(
     (data) => {
       assert.include(data.appStack, 'nocache');
       assert.equal(

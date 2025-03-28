@@ -19,8 +19,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#2` in the `Basic Asserti
 應通過所有測試。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=1').then(
+  $.get(code + '/_api/get-tests?type=unit&n=1').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -33,8 +32,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#2` in the `Basic Asserti
 應該爲第一個斷言選擇正確的方法：`isDefined` 或 `isUndefined`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=1').then(
+  $.get(code + '/_api/get-tests?type=unit&n=1').then(
     (data) => {
       assert.equal(
         data.assertions[0].method,
@@ -51,8 +49,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#2` in the `Basic Asserti
 應該爲第二個斷言選擇正確的方法：`isDefined` 或 `isUndefined`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=1').then(
+  $.get(code + '/_api/get-tests?type=unit&n=1').then(
     (data) => {
       assert.equal(
         data.assertions[1].method,
@@ -69,8 +66,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#2` in the `Basic Asserti
 應該爲第三個斷言選擇正確的方法：`isDefined` 或 `isUndefined`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=1').then(
+  $.get(code + '/_api/get-tests?type=unit&n=1').then(
     (data) => {
       assert.equal(
         data.assertions[2].method,

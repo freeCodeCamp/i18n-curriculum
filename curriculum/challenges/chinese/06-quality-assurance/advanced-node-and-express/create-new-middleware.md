@@ -40,8 +40,8 @@ app
 中间件 `ensureAuthenticated` 应该被实现，并附加到 `/profile` 路由。
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(
@@ -60,8 +60,8 @@ async (getUserInput) => {
 未认证的 GET 请求 `/profile` 应该正确重定向到 `/`。
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/profile", getUserInput("url"));
+async () => {
+  const url = new URL("/profile", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(

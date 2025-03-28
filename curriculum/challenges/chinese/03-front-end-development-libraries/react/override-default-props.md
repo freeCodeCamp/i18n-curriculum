@@ -43,14 +43,13 @@ assert(
 `Items` 组件应该有一个 `{ quantity: 10 }` 的 prop，该 prop 是从 `ShoppingCart` 组件传递过去的。
 
 ```js
-(getUserInput) =>
+() =>
   assert(
     (function () {
       const mockedComponent = Enzyme.mount(React.createElement(ShoppingCart));
       return (
         mockedComponent.find('Items').props().quantity == 10 &&
-        getUserInput('index')
-          .replace(/ /g, '')
+        code.replace(/ /g, '')
           .includes('<Itemsquantity={10}/>')
       );
     })()

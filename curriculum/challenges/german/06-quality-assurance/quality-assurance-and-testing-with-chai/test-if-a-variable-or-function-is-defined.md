@@ -19,8 +19,7 @@ As a reminder, this project is being built upon the following starter project on
 Alle Tests sollten durchlaufen.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=1').then(
+  $.get(code + '/_api/get-tests?type=unit&n=1').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -33,8 +32,7 @@ Alle Tests sollten durchlaufen.
 Du solltest die richtige Methode für die erste Behauptung wählen - `isDefined` vs. `isUndefined`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=1').then(
+  $.get(code + '/_api/get-tests?type=unit&n=1').then(
     (data) => {
       assert.equal(
         data.assertions[0].method,
@@ -51,8 +49,7 @@ Du solltest die richtige Methode für die erste Behauptung wählen - `isDefined`
 Du solltest die richtige Methode für die zweite Behauptung wählen - `isDefined` vs. `isUndefined`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=1').then(
+  $.get(code + '/_api/get-tests?type=unit&n=1').then(
     (data) => {
       assert.equal(
         data.assertions[1].method,
@@ -69,8 +66,7 @@ Du solltest die richtige Methode für die zweite Behauptung wählen - `isDefined
 Du solltest die richtige Methode für die dritte Behauptung wählen - `isDefined` vs. `isUndefined`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=1').then(
+  $.get(code + '/_api/get-tests?type=unit&n=1').then(
     (data) => {
       assert.equal(
         data.assertions[2].method,

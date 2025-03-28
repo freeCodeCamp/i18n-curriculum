@@ -65,8 +65,8 @@ Invia la tua pagina quando pensi di averlo fatto correttamente. Se incontri degl
 Dovresti avere una rotta `/register` e visualizzare un modulo di registrazione sulla home page.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(
@@ -85,8 +85,8 @@ async (getUserInput) => {
 Deve essere possibile registrarsi.
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const user = `freeCodeCampTester${Date.now()}`;
   const xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function () {
@@ -113,8 +113,8 @@ async (getUserInput) => {
 Deve essere possibile autenticarsi.
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const user = `freeCodeCampTester${Date.now()}`;
   const xhttpReg = new XMLHttpRequest();
   xhttpReg.onreadystatechange = function () {
@@ -162,9 +162,8 @@ async (getUserInput) => {
 Deve essere possibile fare logout.
 
 ```js
-(getUserInput) =>
   $.ajax({
-    url: getUserInput('url') + '/logout',
+    url: code + '/logout',
     type: 'GET',
     xhrFields: { withCredentials: true }
   }).then(
@@ -180,9 +179,8 @@ Deve essere possibile fare logout.
 Il profilo non deve più essere accessibile dopo aver fatto logout.
 
 ```js
-(getUserInput) =>
   $.ajax({
-    url: getUserInput('url') + '/profile',
+    url: code + '/profile',
     type: 'GET',
     crossDomain: true,
     xhrFields: { withCredentials: true }

@@ -50,8 +50,7 @@ bcrypt.hash('passw0rd!', 13, (err, hash) => {
 非同期ハッシュを生成し、正しく比較する必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/server.js').then(
+  $.get(code + '/_api/server.js').then(
     (data) => {
       assert.match(
         data,

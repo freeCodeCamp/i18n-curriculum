@@ -50,8 +50,8 @@ Envía tu página cuando creas que lo has hecho bien. Si te encuentras con error
 La configuración de la estrategia de GitHub debe estar completa.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/auth.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/auth.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(

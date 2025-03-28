@@ -21,8 +21,7 @@ Dentro de `tests/1_unit-tests.js` bajo la prueba etiquetada `#15` en el suite `S
 Todas las pruebas deben pasar.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=14').then(
+  $.get(code + '/_api/get-tests?type=unit&n=14').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -35,8 +34,7 @@ Todas las pruebas deben pasar.
 Debe elegir el método correcto para la primera aserción - `match` vs `notMatch`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=14').then(
+  $.get(code + '/_api/get-tests?type=unit&n=14').then(
     (data) => {
       assert.equal(
         data.assertions[0].method,
@@ -53,8 +51,7 @@ Debe elegir el método correcto para la primera aserción - `match` vs `notMatch
 Debe elegir el método correcto para la segunda aserción - `match` vs `notMatch`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=14').then(
+  $.get(code + '/_api/get-tests?type=unit&n=14').then(
     (data) => {
       assert.equal(
         data.assertions[1].method,

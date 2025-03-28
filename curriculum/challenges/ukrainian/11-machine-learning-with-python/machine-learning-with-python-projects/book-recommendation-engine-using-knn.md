@@ -18,9 +18,9 @@ dashedName: book-recommendation-engine-using-knn
 
 У цьому завданні ви створите алгоритм книжкових рекомендацій, використовуючи метод **k-найближчих сусідів**.
 
-Ви будете використовувати набір даних <a href="http://www2.informatik.uni-freiburg.de/~cziegler/BX/" target="_blank" rel="noopener noreferrer nofollow">Book-Crossings</a>. Цей набір даних містить 1,1 млн рейтингів (за шкалою 1-10) 270 000 книжок від 90 000 користувачів.
+In this project, you will use the Book-Crossings dataset, which contains 1.1 million ratings (scale of 1-10) of 270,000 books by 90,000 users. The dataset is already imported in the notebook, so no additional download is required.
 
-Після імпортування та очищення даних використайте `NearestNeighbors` з `sklearn.neighbors`, щоб розробити модель, яка показує книжки, схожі на подану книжку. Алгоритм найближчих сусідів вимірює відстань, щоб визначити «близькість» екземплярів.
+Use `NearestNeighbors` from `sklearn.neighbors` to develop a model that shows books that are similar to a given book. Алгоритм найближчих сусідів вимірює відстань, щоб визначити «близькість» екземплярів.
 
 Створіть функцію під назвою `get_recommends`, яка приймає назву книжки (з набору даних) як аргумент та повертає список із 5 подібних книжок з відстанями до аргументу книжки.
 

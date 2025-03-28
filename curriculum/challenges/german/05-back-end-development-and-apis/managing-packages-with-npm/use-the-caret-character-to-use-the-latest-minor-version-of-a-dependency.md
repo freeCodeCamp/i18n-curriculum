@@ -29,8 +29,7 @@ Verwende das Caret (`^`), um die Version von `@freecodecamp/example` in deinen A
 `"dependencies"` sollte `"@freecodecamp/example"` enthalten.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert.property(
@@ -48,8 +47,7 @@ Verwende das Caret (`^`), um die Version von `@freecodecamp/example` in deinen A
 `"@freecodecamp/example"`-Version sollte `"^1.x.x"` entsprechen.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert.match(

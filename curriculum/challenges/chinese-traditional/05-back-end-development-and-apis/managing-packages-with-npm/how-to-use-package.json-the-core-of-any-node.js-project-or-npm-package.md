@@ -39,8 +39,7 @@ Add your name as the `author` of the project in the `package.json` file.
 `package.json` 應該有一個有效的 “author” 鍵。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert(packJson.author, '"author" is missing');

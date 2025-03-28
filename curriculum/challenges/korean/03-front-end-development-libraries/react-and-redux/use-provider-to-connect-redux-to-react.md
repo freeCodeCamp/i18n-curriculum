@@ -40,12 +40,12 @@ assert(
 `Provider` 래퍼 컴포넌트에는 Redux 저장소와 동일한 `store` 매개변수가 전달되어야 합니다.
 
 ```js
-(getUserInput) =>
+() =>
   assert(
     (function () {
       const mockedComponent = Enzyme.mount(React.createElement(AppWrapper));
       return __helpers
-        .removeWhiteSpace(getUserInput('index'))
+        .removeWhiteSpace(code)
         .includes('<Providerstore={store}>');
     })()
   );

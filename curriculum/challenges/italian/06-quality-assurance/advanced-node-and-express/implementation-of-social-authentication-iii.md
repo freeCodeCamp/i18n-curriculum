@@ -50,8 +50,8 @@ Invia la tua pagina quando pensi di averlo fatto correttamente. Se incontri degl
 La configurazione della strategia GitHub dovrebbe essere completa.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/auth.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/auth.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(

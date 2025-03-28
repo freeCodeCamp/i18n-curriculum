@@ -35,8 +35,8 @@ Envía tu página cuando creas que lo ha hecho bien. Si te encuentras con errore
 El servidor debe escuchar `'chat message'` y luego emitirlo correctamente.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(
@@ -50,8 +50,8 @@ async (getUserInput) => {
 El cliente debe gestionar y mostrar correctamente los nuevos datos del evento `'chat message'`.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/public/client.js", getUserInput("url"));
+async () => {
+  const url = new URL("/public/client.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(

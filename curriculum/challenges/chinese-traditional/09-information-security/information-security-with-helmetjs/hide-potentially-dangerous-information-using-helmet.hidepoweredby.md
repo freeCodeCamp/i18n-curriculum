@@ -17,8 +17,7 @@ As a reminder, this project is being built upon the following starter project on
 應正確地安裝 helmet.hidePoweredBy() 中間件
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/app-info').then(
+  $.get(code + '/_api/app-info').then(
     (data) => {
       assert.include(data.appStack, 'hidePoweredBy');
       assert.notEqual(data.headers['x-powered-by'], 'Express');

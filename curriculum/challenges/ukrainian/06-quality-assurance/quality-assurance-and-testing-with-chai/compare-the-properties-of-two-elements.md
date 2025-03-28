@@ -19,8 +19,7 @@ As a reminder, this project is being built upon the following starter project on
 Всі тести повинні бути успішно пройдені.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=7').then(
+  $.get(code + '/_api/get-tests?type=unit&n=7').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -33,8 +32,7 @@ As a reminder, this project is being built upon the following starter project on
 Ви повинні обрати правильний метод для першого твердження: `isAbove` або `isAtMost`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=7').then(
+  $.get(code + '/_api/get-tests?type=unit&n=7').then(
     (data) => {
       assert.equal(
         data.assertions[0].method,
@@ -51,8 +49,7 @@ As a reminder, this project is being built upon the following starter project on
 Ви повинні обрати правильний метод для другого твердження: `isAbove` або `isAtMost`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=7').then(
+  $.get(code + '/_api/get-tests?type=unit&n=7').then(
     (data) => {
       assert.equal(data.assertions[1].method, 'isAbove', '1 is greater than 0');
     },
@@ -65,8 +62,7 @@ As a reminder, this project is being built upon the following starter project on
 Ви повинні обрати правильний метод для третього твердження: `isAbove` або `isAtMost`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=7').then(
+  $.get(code + '/_api/get-tests?type=unit&n=7').then(
     (data) => {
       assert.equal(
         data.assertions[2].method,
@@ -83,8 +79,7 @@ As a reminder, this project is being built upon the following starter project on
 Ви повинні обрати правильний метод для четвертого твердження: `isAbove` або `isAtMost`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=7').then(
+  $.get(code + '/_api/get-tests?type=unit&n=7').then(
     (data) => {
       assert.equal(
         data.assertions[3].method,

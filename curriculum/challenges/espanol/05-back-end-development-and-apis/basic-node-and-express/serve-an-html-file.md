@@ -25,8 +25,7 @@ Envía el archivo `/views/index.html` como respuesta a las solicitudes GET a la 
 Tu app debe servir el archivo views/index.html
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url')).then(
+  $.get(code).then(
     (data) => {
       assert.match(
         data,

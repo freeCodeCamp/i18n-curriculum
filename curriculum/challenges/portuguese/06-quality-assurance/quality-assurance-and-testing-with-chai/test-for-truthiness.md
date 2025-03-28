@@ -29,8 +29,7 @@ Em `tests/1_unit-tests.js`, no teste de número `#4`, no grupo de testes `Basic 
 Todos os testes devem passar.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=3').then(
+  $.get(code + '/_api/get-tests?type=unit&n=3').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -43,8 +42,7 @@ Todos os testes devem passar.
 Você deve escolher o método correto para a primeira afirmação - `isTrue` ou `isNotTrue`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=3').then(
+  $.get(code + '/_api/get-tests?type=unit&n=3').then(
     (data) => {
       assert.equal(data.assertions[0].method, 'isTrue', 'True is true');
     },
@@ -57,8 +55,7 @@ Você deve escolher o método correto para a primeira afirmação - `isTrue` ou 
 Você deve escolher o método correto para a segunda afirmação - `isTrue` ou `isNotTrue`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=3').then(
+  $.get(code + '/_api/get-tests?type=unit&n=3').then(
     (data) => {
       assert.equal(
         data.assertions[1].method,
@@ -75,8 +72,7 @@ Você deve escolher o método correto para a segunda afirmação - `isTrue` ou `
 Você deve escolher o método correto para a terceira afirmação - `isTrue` ou `isNotTrue`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=3').then(
+  $.get(code + '/_api/get-tests?type=unit&n=3').then(
     (data) => {
       assert.equal(
         data.assertions[2].method,

@@ -26,26 +26,24 @@ Construye una aplicación full stack de JavaScript que sea funcionalmente simila
 Puedes proveer tu propio proyecto, no la URL del ejemplo.
 
 ```js
-(getUserInput) => {
   assert(
-    !/.*\/personal-library\.freecodecamp\.rocks/.test(getUserInput('url'))
+    !/.*\/personal-library\.freecodecamp\.rocks/.test(code)
   );
-};
 ```
 
 Puedes enviar una petición <b>POST</b> a `/api/books` con `title` como parte de los datos del formulario para agregar un libro.  La respuesta devuelta será un objeto con las propiedades `title` y un `_id` único como claves.  Si `title` no está incluido en la petición, la respuesta devuelta será una cadena con `missing required field title`.
 
 ```js
-async (getUserInput) => {
+async () => {
   try {
-    let data1 = await $.post(getUserInput('url') + '/api/books', {
+    let data1 = await $.post(code + '/api/books', {
       title: 'Faux Book 1'
     });
     assert.isObject(data1);
     assert.property(data1, 'title');
     assert.equal(data1.title, 'Faux Book 1');
     assert.property(data1, '_id');
-    let data2 = await $.post(getUserInput('url') + '/api/books');
+    let data2 = await $.post(code + '/api/books');
     assert.isString(data2);
     assert.equal(data2, 'missing required field title');
   } catch (err) {
@@ -57,9 +55,9 @@ async (getUserInput) => {
 Puedes enviar una petición <b>GET</b> a `/api/books` y recibir una respuesta JSON que representa todos los libros. La respuesta JSON será un array de objetos con cada objeto (libro) que contiene `título`, `_id`y `commentcount` propiedades.
 
 ```js
-async (getUserInput) => {
+async () => {
   try {
-    let url = getUserInput('url') + '/api/books';
+    let url = code + '/api/books';
     let a = $.post(url, { title: 'Faux Book A' });
     let b = $.post(url, { title: 'Faux Book B' });
     let c = $.post(url, { title: 'Faux Book C' });
@@ -85,9 +83,9 @@ async (getUserInput) => {
 Puedes enviar una petición <b>GET</b> a `/api/books/{_id}` para recuperar un solo objeto de un libro que contiene las propiedades `title`, `_id`, y un arreglo `comments` (arreglo vacío si no hay comentarios). Si no se encuentra ningún libro, devuelve la cadena `no book exists`.
 
 ```js
-async (getUserInput) => {
+async () => {
   try {
-    let url = getUserInput('url') + '/api/books';
+    let url = code + '/api/books';
     let noBook = await $.get(url + '/5f665eb46e296f6b9b6a504d');
     assert.isString(noBook);
     assert.equal(noBook, 'no book exists');
@@ -109,9 +107,9 @@ async (getUserInput) => {
 Puedes enviar una petición de <b>POST</b> que contenga un `comment` como los datos del cuerpo del formulario a `/api/books/{_id}` para agregar un comentario a un libro. La respuesta devuelta será el objeto de libros similar a la petición <b>GET</b> `/api/books/{_id}` en una prueba anterior. Si `comment` no está incluido en la petición, la respuesta devuelta será una cadena con `missing required field comment`. Si no se encuentra ningún libro, devuelve la cadena `no book exists`.
 
 ```js
-async (getUserInput) => {
+async () => {
   try {
-    let url = getUserInput('url') + '/api/books';
+    let url = code + '/api/books';
     let commentTarget = await $.post(url, { title: 'Notable Book' });
     assert.isObject(commentTarget);
     let bookId = commentTarget._id;
@@ -147,9 +145,9 @@ async (getUserInput) => {
 Puedes enviar una petición de <b>DELETE</b> a `/api/books/{_id}` para eliminar un libro de la colección. La respuesta devuelta será la cadena `delete successful` si tiene éxito. Si no se encuentra ningún libro, devuelve la cadena `no book exists`.
 
 ```js
-async (getUserInput) => {
+async () => {
   try {
-    let url = getUserInput('url') + '/api/books';
+    let url = code + '/api/books';
     let deleteTarget = await $.post(url, { title: 'Deletable Book' });
     assert.isObject(deleteTarget);
     let bookId = deleteTarget._id;
@@ -171,10 +169,10 @@ async (getUserInput) => {
 Puedes enviar una petición de <b>DELETE</b> a `/api/books` para eliminar todos los libros de la base de datos. La respuesta devuelta será la cadena `'complete delete successful` si tiene éxito.
 
 ```js
-async (getUserInput) => {
+async () => {
   try {
     const deleteAll = await $.ajax({
-      url: getUserInput('url') + '/api/books',
+      url: code + '/api/books',
       type: 'DELETE'
     });
     assert.isString(deleteAll);
@@ -188,9 +186,9 @@ async (getUserInput) => {
 Las 10 pruebas funcionales requeridas están completas y aprobadas.
 
 ```js
-async (getUserInput) => {
+async () => {
   try {
-    const getTests = await $.get(getUserInput('url') + '/_api/get-tests');
+    const getTests = await $.get(code + '/_api/get-tests');
     assert.isArray(getTests);
     assert.isAtLeast(getTests.length, 10, 'At least 10 tests passed');
     getTests.forEach((test) => {

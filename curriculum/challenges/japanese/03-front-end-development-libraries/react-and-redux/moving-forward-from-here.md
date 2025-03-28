@@ -23,11 +23,10 @@ dashedName: moving-forward-from-here
 メッセージ `Now I know React and Redux!` をコンソールに出力します。
 
 ```js
-(getUserInput) =>
+() =>
   assert(
     /console\s*\.\s*log\s*\(\s*('|"|`)Now I know React and Redux!\1\s*\)/.test(
-      getUserInput('index')
-    )
+      code)
   );
 ```
 

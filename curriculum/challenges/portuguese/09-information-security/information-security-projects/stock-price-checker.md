@@ -40,18 +40,16 @@ Escreva os testes a seguir em `tests/2_functional-tests.js`:
 Você pode fornecer seu próprio projeto, não o exemplo de URL.
 
 ```js
-(getUserInput) => {
   assert(
-    !/.*\/stock-price-checker\.freecodecamp\.rocks/.test(getUserInput('url'))
+    !/.*\/stock-price-checker\.freecodecamp\.rocks/.test(code)
   );
-};
 ```
 
 Você deve definir as políticas de segurança do conteúdo para permitir apenas o carregamento de scripts e CSS do seu servidor.
 
 ```js
-async (getUserInput) => {
-  const data = await fetch(getUserInput('url') + '/_api/app-info');
+async () => {
+  const data = await fetch(code + '/_api/app-info');
   const parsed = await data.json();
   assert.isTrue(
     parsed.headers['content-security-policy'].includes("script-src 'self'")
@@ -65,9 +63,9 @@ async (getUserInput) => {
 Você pode enviar uma solicitação de `GET` para `/api/stock-prices`, passando um símbolo da ação na NASDAQ para um parâmetro de consulta de `stock`. O objeto retornado conterá uma propriedade chamada `stockData`.
 
 ```js
-async (getUserInput) => {
+async () => {
   const data = await fetch(
-    getUserInput('url') + '/api/stock-prices?stock=GOOG'
+    code + '/api/stock-prices?stock=GOOG'
   );
   const parsed = await data.json();
   assert.property(parsed, 'stockData');
@@ -77,9 +75,9 @@ async (getUserInput) => {
 A propriedade `stockData` inclui o símbolo de `stock` como uma string, o `price` como um número e `likes` como um número.
 
 ```js
-async (getUserInput) => {
+async () => {
   const data = await fetch(
-    getUserInput('url') + '/api/stock-prices?stock=GOOG'
+    code + '/api/stock-prices?stock=GOOG'
   );
   const parsed = await data.json();
   const ticker = parsed.stockData;
@@ -98,9 +96,9 @@ Você também pode passar adiante um campo `like` como `true` (booleano) para te
 Se você passar 2 ações, o valor retornado será um array com informações sobre as duas. Em vez de `likes`, será exibido `rel_likes` (a diferença entre curtidas entre ambas as ações) para os dois objetos de `stockData`.
 
 ```js
-async (getUserInput) => {
+async () => {
   const data = await fetch(
-    getUserInput('url') + '/api/stock-prices?stock=GOOG&stock=MSFT'
+    code + '/api/stock-prices?stock=GOOG&stock=MSFT'
   );
   const parsed = await data.json();
   const ticker = parsed.stockData;
@@ -113,8 +111,8 @@ async (getUserInput) => {
 Todos os 5 testes funcionais foram concluídos e deram aprovação.
 
 ```js
-async (getUserInput) => {
-  const tests = await fetch(getUserInput('url') + '/_api/get-tests');
+async () => {
+  const tests = await fetch(code + '/_api/get-tests');
   const parsed = await tests.json();
   assert.isTrue(parsed.length >= 5);
   parsed.forEach((test) => {

@@ -35,8 +35,7 @@ var result = bcrypt.compareSync(myPlaintextPassword, hash);
 应同步地进行哈希并正确地执行对比
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/server.js').then(
+  $.get(code + '/_api/server.js').then(
     (data) => {
       assert.match(
         data,

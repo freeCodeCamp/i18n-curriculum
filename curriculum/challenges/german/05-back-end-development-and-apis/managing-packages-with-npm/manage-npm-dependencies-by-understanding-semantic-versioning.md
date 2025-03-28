@@ -27,8 +27,7 @@ Die MAJOR-Version sollte erhöht werden, wenn du inkompatible API-Änderungen vo
 `"dependencies"` sollte `"@freecodecamp/example"` enthalten.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert.property(
@@ -46,8 +45,7 @@ Die MAJOR-Version sollte erhöht werden, wenn du inkompatible API-Änderungen vo
 Die `"@freecodecamp/example"`-Version sollte `"1.2.13"` sein.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert.equal(

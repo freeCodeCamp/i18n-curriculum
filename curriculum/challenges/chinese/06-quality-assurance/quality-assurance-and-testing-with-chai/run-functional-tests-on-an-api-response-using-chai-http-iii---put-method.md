@@ -63,8 +63,7 @@ chai
 应通过所有测试。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=2').then(
+  $.get(code + '/_api/get-tests?type=functional&n=2').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -77,8 +76,7 @@ chai
 应该测试 `res.status` 为 200。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=2').then(
+  $.get(code + '/_api/get-tests?type=functional&n=2').then(
     (data) => {
       assert.equal(data.assertions[0].method, 'equal');
       assert.equal(data.assertions[0].args[0], 'res.status');
@@ -93,8 +91,7 @@ chai
 应该测试 `res.type` 是否为 `'application/json'`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=2').then(
+  $.get(code + '/_api/get-tests?type=functional&n=2').then(
     (data) => {
       assert.equal(data.assertions[1].method, 'equal');
       assert.equal(data.assertions[1].args[0], 'res.type');
@@ -109,8 +106,7 @@ chai
 你应该测试 `res.body.name` 是否为 `'Cristoforo'`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=2').then(
+  $.get(code + '/_api/get-tests?type=functional&n=2').then(
     (data) => {
       assert.equal(data.assertions[2].method, 'equal');
       assert.equal(data.assertions[2].args[0], 'res.body.name');
@@ -125,8 +121,7 @@ chai
 你应该测试 `res.body.surname` 是否为 `'Colombo'`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=2').then(
+  $.get(code + '/_api/get-tests?type=functional&n=2').then(
     (data) => {
       assert.equal(data.assertions[3].method, 'equal');
       assert.equal(data.assertions[3].args[0], 'res.body.surname');

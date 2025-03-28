@@ -47,8 +47,8 @@ Envía tu página cuando creas que la has hecho bien. Si tienes errores, <a href
 La conexión a la base de datos debe estar presente.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/", getUserInput("url"));
+async () => {
+  const url = new URL("/", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(
@@ -62,8 +62,8 @@ async (getUserInput) => {
 La deserialización ahora debe ser correcta usando la BD y `done(null, null)` debe ser llamado con el `doc`.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(

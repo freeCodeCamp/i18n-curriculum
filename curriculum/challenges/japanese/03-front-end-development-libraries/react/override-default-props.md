@@ -43,14 +43,13 @@ assert(
 `Items` コンポーネントに、 `ShoppingCart` コンポーネントから渡された `{ quantity: 10 }` という prop を持たせます。
 
 ```js
-(getUserInput) =>
+() =>
   assert(
     (function () {
       const mockedComponent = Enzyme.mount(React.createElement(ShoppingCart));
       return (
         mockedComponent.find('Items').props().quantity == 10 &&
-        getUserInput('index')
-          .replace(/ /g, '')
+        code.replace(/ /g, '')
           .includes('<Itemsquantity={10}/>')
       );
     })()

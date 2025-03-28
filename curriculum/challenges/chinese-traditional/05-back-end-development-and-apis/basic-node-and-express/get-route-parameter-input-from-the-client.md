@@ -21,8 +21,7 @@ When building an API, we have to allow users to communicate to us what they want
 測試 1：你的 echo 服務應該正確地重複單詞
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/eChOtEsT/echo').then(
+  $.get(code + '/eChOtEsT/echo').then(
     (data) => {
       assert.equal(
         data.echo,
@@ -39,8 +38,7 @@ When building an API, we have to allow users to communicate to us what they want
 測試 2：你的 echo 服務應該正確地重複單詞
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/ech0-t3st/echo').then(
+  $.get(code + '/ech0-t3st/echo').then(
     (data) => {
       assert.equal(
         data.echo,

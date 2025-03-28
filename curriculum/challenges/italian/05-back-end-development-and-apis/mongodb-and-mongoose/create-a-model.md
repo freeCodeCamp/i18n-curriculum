@@ -43,8 +43,7 @@ Ora, crea un modello dal `personSchema` e assegnalo alla variabile esistente `Pe
 Creare un'istanza da uno schema mongoose dovrebbe avere successo
 
 ```js
-(getUserInput) =>
-  $.post(getUserInput('url') + '/_api/mongoose-model', {
+  $.post(code + '/_api/mongoose-model', {
     name: 'Mike',
     age: 28,
     favoriteFoods: ['pizza', 'cheese']

@@ -25,8 +25,7 @@ As a reminder, this project is being built upon the following starter project on
 Проміжне ПЗ helmet.contentSecurityPolicy() повинне бути встановлене правильно
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/app-info').then(
+  $.get(code + '/_api/app-info').then(
     (data) => {
       assert.include(data.appStack, 'csp');
     },
@@ -39,8 +38,7 @@ As a reminder, this project is being built upon the following starter project on
 Ваша конфігурація csp неправильна. defaultSrc повинне бути ["'self'"] та scriptSrc повинне бути ["'self'", 'trusted-cdn.com']
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/app-info').then(
+  $.get(code + '/_api/app-info').then(
     (data) => {
       var cspHeader = Object.keys(data.headers).filter(function (k) {
         return (

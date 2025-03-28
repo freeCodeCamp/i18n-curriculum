@@ -21,8 +21,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#5` in the `Equality` sui
 不應有未通過的測試
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=4').then(
+  $.get(code + '/_api/get-tests?type=unit&n=4').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -35,8 +34,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#5` in the `Equality` sui
 應該爲第一個斷言選擇正確的方法：`equal` 或 `notEqual`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=4').then(
+  $.get(code + '/_api/get-tests?type=unit&n=4').then(
     (data) => {
       assert.equal(
         data.assertions[0].method,
@@ -53,8 +51,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#5` in the `Equality` sui
 應該爲第二個斷言選擇正確的方法：`equal` 或 `notEqual`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=4').then(
+  $.get(code + '/_api/get-tests?type=unit&n=4').then(
     (data) => {
       assert.equal(
         data.assertions[1].method,
@@ -71,8 +68,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#5` in the `Equality` sui
 應該爲第三個斷言選擇正確的方法：`equal` 或 `notEqual`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=4').then(
+  $.get(code + '/_api/get-tests?type=unit&n=4').then(
     (data) => {
       assert.equal(
         data.assertions[2].method,
@@ -89,8 +85,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#5` in the `Equality` sui
 應該爲第四個斷言選擇正確的方法：`equal` 或 `notEqual`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=4').then(
+  $.get(code + '/_api/get-tests?type=unit&n=4').then(
     (data) => {
       assert.equal(data.assertions[3].method, 'notEqual', "6 + '2' is '62'...");
     },

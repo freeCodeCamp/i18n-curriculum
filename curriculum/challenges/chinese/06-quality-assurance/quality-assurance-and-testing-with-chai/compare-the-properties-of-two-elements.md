@@ -19,8 +19,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#8` in the `Comparisons` 
 应通过所有测试。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=7').then(
+  $.get(code + '/_api/get-tests?type=unit&n=7').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -33,8 +32,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#8` in the `Comparisons` 
 请为第一个断言选择正确的方法 — `isAbove` 或 `isAtMost`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=7').then(
+  $.get(code + '/_api/get-tests?type=unit&n=7').then(
     (data) => {
       assert.equal(
         data.assertions[0].method,
@@ -51,8 +49,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#8` in the `Comparisons` 
 请为第二个断言选择正确的方法 — `isAbove` 或 `isAtMost`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=7').then(
+  $.get(code + '/_api/get-tests?type=unit&n=7').then(
     (data) => {
       assert.equal(data.assertions[1].method, 'isAbove', '1 is greater than 0');
     },
@@ -65,8 +62,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#8` in the `Comparisons` 
 请为第三个断言选择正确的方法 — `isAbove` 或 `isAtMost`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=7').then(
+  $.get(code + '/_api/get-tests?type=unit&n=7').then(
     (data) => {
       assert.equal(
         data.assertions[2].method,
@@ -83,8 +79,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#8` in the `Comparisons` 
 请为第四个断言选择正确的方法 — `isAbove` 或 `isAtMost`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=7').then(
+  $.get(code + '/_api/get-tests?type=unit&n=7').then(
     (data) => {
       assert.equal(
         data.assertions[3].method,

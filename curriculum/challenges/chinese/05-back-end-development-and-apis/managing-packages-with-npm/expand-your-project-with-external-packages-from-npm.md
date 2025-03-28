@@ -31,8 +31,7 @@ One of the biggest reasons to use a package manager, is their powerful dependenc
 `"dependencies"` 应包括 `"@freecodecamp/example"`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert.property(
@@ -50,8 +49,7 @@ One of the biggest reasons to use a package manager, is their powerful dependenc
 `"@freecodecamp/example"` 版本应为 `"1.1.0"`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert.match(

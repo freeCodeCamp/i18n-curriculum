@@ -40,12 +40,12 @@ assert(
 `Provider` ラッパーコンポーネントで、 `store` という prop を渡し、Redux ストアに等しく設定します。
 
 ```js
-(getUserInput) =>
+() =>
   assert(
     (function () {
       const mockedComponent = Enzyme.mount(React.createElement(AppWrapper));
       return __helpers
-        .removeWhiteSpace(getUserInput('index'))
+        .removeWhiteSpace(code)
         .includes('<Providerstore={store}>');
     })()
   );

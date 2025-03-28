@@ -25,10 +25,7 @@ assert(store.getState() === 5);
 Debe existir una variable `currentState` y se le debe asignar el estado actual del almacén Redux.
 
 ```js
-(getUserInput) =>
-  assert(
-    currentState === 5 && getUserInput('index').includes('store.getState()')
-  );
+assert(currentState === 5 && code.includes('store.getState()'));
 ```
 
 # --seed--

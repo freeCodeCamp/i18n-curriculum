@@ -29,8 +29,7 @@ In the last challenge, you told npm to only include a specific version of a pack
 `"dependencies"` 應包括 `"@freecodecamp/example"`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert.property(
@@ -48,8 +47,7 @@ In the last challenge, you told npm to only include a specific version of a pack
 `"@freecodecamp/example"` 版本應匹配 `"~1.2.13"`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert.match(

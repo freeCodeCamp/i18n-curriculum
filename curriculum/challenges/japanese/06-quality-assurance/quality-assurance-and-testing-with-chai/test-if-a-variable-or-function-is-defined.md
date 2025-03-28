@@ -19,8 +19,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#2` in the `Basic Asserti
 すべてのテストが成功する必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=1').then(
+  $.get(code + '/_api/get-tests?type=unit&n=1').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -33,8 +32,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#2` in the `Basic Asserti
 最初のアサーションに対して、正しいメソッドを選ぶ必要があります - `isDefined` もしくは `isUndefined` です。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=1').then(
+  $.get(code + '/_api/get-tests?type=unit&n=1').then(
     (data) => {
       assert.equal(
         data.assertions[0].method,
@@ -51,8 +49,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#2` in the `Basic Asserti
 2 番目のアサーションに対して、正しいメソッドを選ぶ必要があります - `isDefined` もしくは `isUndefined` です。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=1').then(
+  $.get(code + '/_api/get-tests?type=unit&n=1').then(
     (data) => {
       assert.equal(
         data.assertions[1].method,
@@ -69,8 +66,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#2` in the `Basic Asserti
 3 番目のアサーションに対して、正しいメソッドを選ぶ必要があります - `isDefined` もしくは `isUndefined` です。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=1').then(
+  $.get(code + '/_api/get-tests?type=unit&n=1').then(
     (data) => {
       assert.equal(
         data.assertions[2].method,

@@ -38,16 +38,15 @@ assert(store.getState().login === false);
 Використайте метод `store.dispatch()`, щоб відправити дію типу `LOGIN`.
 
 ```js
-(getUserInput) =>
-  assert(
+assert(
     (function () {
-      let noWhiteSpace = getUserInput('index').replace(/\s/g, '');
+      let noWhiteSpace = code.replace(/\s/g, '');
       return (
         noWhiteSpace.includes('store.dispatch(loginAction())') ||
         noWhiteSpace.includes("store.dispatch({type: 'LOGIN'})") === true
       );
     })()
-  );
+);
 ```
 
 # --seed--

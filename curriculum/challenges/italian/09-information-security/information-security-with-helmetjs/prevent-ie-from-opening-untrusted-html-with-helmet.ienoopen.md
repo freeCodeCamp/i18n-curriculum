@@ -21,8 +21,7 @@ Usa il metodo `helmet.ieNoOpen()` sul tuo server.
 Il middleware helmet.ieNoOpen() deve essere montato correttamente
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/app-info').then(
+  $.get(code + '/_api/app-info').then(
     (data) => {
       assert.include(data.appStack, 'ienoopen');
       assert.equal(data.headers['x-download-options'], 'noopen');

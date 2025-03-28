@@ -47,8 +47,8 @@ myDB(async client => {
 データベース接続が存在する必要があります。
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/", getUserInput("url"));
+async () => {
+  const url = new URL("/", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(
@@ -62,8 +62,8 @@ async (getUserInput) => {
 デシリアライズで DB を正しく使用している必要があり、`doc` を指定して `done(null, null)` を呼び出す必要があります。
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(

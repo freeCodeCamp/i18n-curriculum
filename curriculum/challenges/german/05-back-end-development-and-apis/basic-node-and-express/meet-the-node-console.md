@@ -37,8 +37,7 @@ To implement server auto restarting on file save Node provides the `--watch` fla
 `"Hello World"` should be in the console
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/hello-console').then(
+  $.get(code + '/_api/hello-console').then(
     (data) => {
       assert.isTrue(data.passed, '"Hello World" is not in the server console');
     },

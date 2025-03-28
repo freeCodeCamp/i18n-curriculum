@@ -68,7 +68,7 @@ assert(
 `Object.assign` を使用して新しい state を返します。
 
 ```js
-(getUserInput) => assert(getUserInput('index').includes('Object.assign'));
+assert(code.includes('Object.assign'));
 ```
 
 # --seed--

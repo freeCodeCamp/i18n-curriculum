@@ -21,8 +21,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#7` in the `Equality` sui
 不应有未通过的测试
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=6').then(
+  $.get(code + '/_api/get-tests?type=unit&n=6').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -35,8 +34,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#7` in the `Equality` sui
 请为第一个断言选择正确的方法 — `deepEqual` 或 `notDeepEqual`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=6').then(
+  $.get(code + '/_api/get-tests?type=unit&n=6').then(
     (data) => {
       assert.equal(
         data.assertions[0].method,
@@ -53,8 +51,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#7` in the `Equality` sui
 请为第二个断言选择正确的方法 — `deepEqual` 或 `notDeepEqual`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=6').then(
+  $.get(code + '/_api/get-tests?type=unit&n=6').then(
     (data) => {
       assert.equal(
         data.assertions[1].method,

@@ -23,20 +23,18 @@ Build a full stack JavaScript app that is functionally similar to this: <a href=
 Debes proporcionar tu propio proyecto, no la URL de ejemplo.
 
 ```js
-(getUserInput) => {
   assert(
     !/.*\/url-shortener-microservice\.freecodecamp\.rocks/.test(
-      getUserInput('url')
+      code
     )
   );
-};
 ```
 
 Puedes POST una URL a `/api/shorturl` y obtener una respuesta JSON con propiedades `original_url` y `short_url`. Aquí hay un ejemplo: `{ original_url : 'https://freeCodeCamp.org', short_url : 1}`
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const urlVariable = Date.now();
   const fullUrl = `${url}/?v=${urlVariable}`
   const res = await fetch(url + '/api/shorturl', {
@@ -57,8 +55,8 @@ async (getUserInput) => {
 Cuando visitas `/api/shorturl/<short_url>`, serás redirigido a la URL original.
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const urlVariable = Date.now();
   const fullUrl = `${url}/?v=${urlVariable}`
   let shortenedUrlVariable;
@@ -89,8 +87,8 @@ async (getUserInput) => {
 Si pasas una URL inválida que no sigue el formato válido `http://www.example.com`, la respuesta JSON contendrá `{ error: 'invalid url' }`
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + '/api/shorturl', {
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },

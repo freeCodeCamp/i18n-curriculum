@@ -78,7 +78,7 @@ async () => {
 render 方法應該使用 `&&` 邏輯運算符來檢查 `this.state.display` 的條件。
 
 ```js
-(getUserInput) => assert(getUserInput('index').includes('&&'));
+assert(code.includes('&&'));
 ```
 
 # --seed--

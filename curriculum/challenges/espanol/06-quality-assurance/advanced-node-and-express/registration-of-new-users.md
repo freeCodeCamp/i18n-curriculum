@@ -65,8 +65,8 @@ Envía tu página cuando creas que lo has hecho bien. Si tu ejecución lleva a e
 Deberías tener una ruta a `/register` y mostrar un formulario en la página de inicio.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(
@@ -85,8 +85,8 @@ async (getUserInput) => {
 El registro debe funcionar.
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const user = `freeCodeCampTester${Date.now()}`;
   const xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function () {
@@ -113,8 +113,8 @@ async (getUserInput) => {
 El inicio de sesión debe funcionar.
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const user = `freeCodeCampTester${Date.now()}`;
   const xhttpReg = new XMLHttpRequest();
   xhttpReg.onreadystatechange = function () {
@@ -162,9 +162,8 @@ async (getUserInput) => {
 El cierre de sesión debe funcionar.
 
 ```js
-(getUserInput) =>
   $.ajax({
-    url: getUserInput('url') + '/logout',
+    url: code + '/logout',
     type: 'GET',
     xhrFields: { withCredentials: true }
   }).then(
@@ -180,9 +179,8 @@ El cierre de sesión debe funcionar.
 El perfil ya no debe funcionar después de cerrar la sesión.
 
 ```js
-(getUserInput) =>
   $.ajax({
-    url: getUserInput('url') + '/profile',
+    url: code + '/profile',
     type: 'GET',
     crossDomain: true,
     xhrFields: { withCredentials: true }

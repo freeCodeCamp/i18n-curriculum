@@ -74,11 +74,7 @@ async () => {
 Die Render-Methode sollte eine `if/else`-Anweisung verwenden, um die Bedingung von `this.state.display` zu überprüfen.
 
 ```js
-(getUserInput) =>
-  assert(
-    getUserInput('index').includes('if') &&
-      getUserInput('index').includes('else')
-  );
+assert(code.includes('if') && code.includes('else'));
 ```
 
 # --seed--

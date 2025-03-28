@@ -38,9 +38,9 @@ Envía tu página cuando creas que lo ha hecho bien. Si te encuentras con errore
 La ruta `/auth/github` debe ser correcta.
 
 ```js
-async (getUserInput) => {
+async () => {
   try {
-    const res = await fetch(getUserInput('url') + '/_api/routes.js');
+    const res = await fetch(code + '/_api/routes.js');
     if (res.ok) {
       const data = await res.text();
       assert.match(
@@ -51,7 +51,7 @@ async (getUserInput) => {
     } else {
       throw new Error(res.statusText);
     }
-    const res2 = await fetch(getUserInput('url') + '/_api/app-stack');
+    const res2 = await fetch(code + '/_api/app-stack');
     if (res2.ok) {
       const data2 = JSON.parse(await res2.json());
       const dataLayer = data2.find(layer => layer?.route?.path === '/auth/github');
@@ -69,9 +69,9 @@ async (getUserInput) => {
 La ruta `/auth/github/callback` debe ser correcta.
 
 ```js
-async (getUserInput) => {
+async () => {
   try {
-    const res = await fetch(getUserInput('url') + '/_api/routes.js');
+    const res = await fetch(code + '/_api/routes.js');
     if (res.ok) {
       const data = await res.text();
       assert.match(
@@ -82,7 +82,7 @@ async (getUserInput) => {
     } else {
       throw new Error(res.statusText);
     }
-    const res2 = await fetch(getUserInput('url') + '/_api/app-stack');
+    const res2 = await fetch(code + '/_api/app-stack');
     if (res2.ok) {
       const data2 = JSON.parse(await res2.json());
       const dataLayer = data2.find(layer => layer?.route?.path === '/auth/github/callback');

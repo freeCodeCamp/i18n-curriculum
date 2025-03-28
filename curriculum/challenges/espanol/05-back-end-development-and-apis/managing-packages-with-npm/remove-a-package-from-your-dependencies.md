@@ -25,8 +25,7 @@ Retire el paquete `@freecodecamp/example` de sus dependencias.
 `"dependencies"` no debe incluir `"@freecodecamp/example"`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert.notProperty(

@@ -21,8 +21,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#15` in the `Strings` sui
 すべてのテストが成功する必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=14').then(
+  $.get(code + '/_api/get-tests?type=unit&n=14').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -35,8 +34,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#15` in the `Strings` sui
 最初のアサーションに対して、正しいメソッドを選ぶ必要があります - `match` もしくは `notMatch` です。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=14').then(
+  $.get(code + '/_api/get-tests?type=unit&n=14').then(
     (data) => {
       assert.equal(
         data.assertions[0].method,
@@ -53,8 +51,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#15` in the `Strings` sui
 2 番目のアサーションに対して、正しいメソッドを選ぶ必要があります - `match` もしくは `notMatch` です。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=14').then(
+  $.get(code + '/_api/get-tests?type=unit&n=14').then(
     (data) => {
       assert.equal(
         data.assertions[1].method,

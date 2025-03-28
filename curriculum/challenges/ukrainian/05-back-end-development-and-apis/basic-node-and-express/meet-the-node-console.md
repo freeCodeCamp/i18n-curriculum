@@ -37,8 +37,7 @@ Node — це всього лиш середовище JavaScript. Як і кл�
 `"Hello World"` має бути на консолі
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/hello-console').then(
+  $.get(code + '/_api/hello-console').then(
     (data) => {
       assert.isTrue(data.passed, '"Hello World" is not in the server console');
     },

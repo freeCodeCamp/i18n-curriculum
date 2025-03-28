@@ -74,11 +74,7 @@ async () => {
 El método renderizado debe usar una sentencia `if/else` para comprobar la condición de `this.state.display`.
 
 ```js
-(getUserInput) =>
-  assert(
-    getUserInput('index').includes('if') &&
-      getUserInput('index').includes('else')
-  );
+assert(code.includes('if') && code.includes('else'));
 ```
 
 # --seed--

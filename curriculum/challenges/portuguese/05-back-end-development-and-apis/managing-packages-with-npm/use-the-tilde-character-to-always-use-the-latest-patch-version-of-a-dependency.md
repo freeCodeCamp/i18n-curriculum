@@ -29,8 +29,7 @@ Use o til (`~`) para prefixar a versão de `@freecodecamp/example` nas dependên
 `"dependencies"` deve incluir `"@freecodecamp/example"`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert.property(
@@ -48,8 +47,7 @@ Use o til (`~`) para prefixar a versão de `@freecodecamp/example` nas dependên
 A versão de `"@freecodecamp/example"` deve corresponder a `"~1.2.13"`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert.match(

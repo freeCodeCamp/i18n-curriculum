@@ -74,11 +74,7 @@ async () => {
 Render 方法中应该使用 `if/else` 语句来检查 `this.state.display` 的条件。
 
 ```js
-(getUserInput) =>
-  assert(
-    getUserInput('index').includes('if') &&
-      getUserInput('index').includes('else')
-  );
+assert(code.includes('if') && code.includes('else'));
 ```
 
 # --seed--

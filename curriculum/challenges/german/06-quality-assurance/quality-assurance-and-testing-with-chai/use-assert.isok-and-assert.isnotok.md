@@ -23,8 +23,7 @@ Um mehr über wahre und falsche Werte zu erfahren, versuche unsere <a href="http
 Alle Tests sollten erfolgreich sein.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=2').then(
+  $.get(code + '/_api/get-tests?type=unit&n=2').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -37,8 +36,7 @@ Alle Tests sollten erfolgreich sein.
 Du solltest die richtige Methode für die erste Behauptung wählen - `isOk` vs. `isNotOk`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=2').then(
+  $.get(code + '/_api/get-tests?type=unit&n=2').then(
     (data) => {
       assert.equal(data.assertions[0].method, 'isNotOk', 'Null is falsy');
     },
@@ -51,8 +49,7 @@ Du solltest die richtige Methode für die erste Behauptung wählen - `isOk` vs. 
 Du solltest die richtige Methode für die zweite Behauptung wählen - `isOk` vs. `isNotOk`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=2').then(
+  $.get(code + '/_api/get-tests?type=unit&n=2').then(
     (data) => {
       assert.equal(data.assertions[1].method, 'isOk', 'A string is truthy');
     },
@@ -65,8 +62,7 @@ Du solltest die richtige Methode für die zweite Behauptung wählen - `isOk` vs.
 Du solltest die richtige Methode für die dritte Behauptung wählen - `isOk` vs. `isNotOk`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=2').then(
+  $.get(code + '/_api/get-tests?type=unit&n=2').then(
     (data) => {
       assert.equal(data.assertions[2].method, 'isOk', 'true is truthy');
     },

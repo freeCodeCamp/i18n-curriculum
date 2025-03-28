@@ -19,9 +19,8 @@ If you don’t pass the callback as the last argument to `Model.find()` (or to t
 Використання ланцюгових помічників для запитів має бути успішним
 
 ```js
-(getUserInput) =>
   $.ajax({
-    url: getUserInput('url') + '/_api/query-tools',
+    url: code + '/_api/query-tools',
     type: 'POST',
     contentType: 'application/json',
     data: JSON.stringify([

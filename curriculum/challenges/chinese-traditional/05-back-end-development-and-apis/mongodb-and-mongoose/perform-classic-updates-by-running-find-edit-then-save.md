@@ -21,8 +21,7 @@ In the good old days, this was what you needed to do if you wanted to edit a doc
 應成功地對一條數據進行查找、編輯和更新
 
 ```js
-(getUserInput) =>
-  $.post(getUserInput('url') + '/_api/find-edit-save', {
+  $.post(code + '/_api/find-edit-save', {
     name: 'Poldo',
     age: 40,
     favoriteFoods: ['spaghetti']

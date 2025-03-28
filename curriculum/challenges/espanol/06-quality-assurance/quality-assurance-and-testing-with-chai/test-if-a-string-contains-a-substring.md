@@ -21,8 +21,7 @@ Dentro de `tests/1_unit-tests.js` bajo la prueba etiquetada como `#14` en el con
 Todas las pruebas deben pasar.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=13').then(
+  $.get(code + '/_api/get-tests?type=unit&n=13').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -35,8 +34,7 @@ Todas las pruebas deben pasar.
 Debe elegir el método correcto para la primera comprobación - `include` vs. `notInclude`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=13').then(
+  $.get(code + '/_api/get-tests?type=unit&n=13').then(
     (data) => {
       assert.equal(
         data.assertions[0].method,
@@ -53,8 +51,7 @@ Debe elegir el método correcto para la primera comprobación - `include` vs. `n
 Debe elegir el método correcto para la segunda comprobación - `include` vs. `notInclude`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=13').then(
+  $.get(code + '/_api/get-tests?type=unit&n=13').then(
     (data) => {
       assert.equal(
         data.assertions[1].method,

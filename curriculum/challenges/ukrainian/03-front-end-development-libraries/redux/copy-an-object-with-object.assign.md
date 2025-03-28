@@ -68,7 +68,7 @@ assert(
 Використайте `Object.assign`, щоб повернути новий стан.
 
 ```js
-(getUserInput) => assert(getUserInput('index').includes('Object.assign'));
+assert(code.includes('Object.assign'));
 ```
 
 # --seed--

@@ -21,8 +21,7 @@ Em `tests/1_unit-tests.js`, no teste de número `#7`, no grupo de testes `Equali
 Todos os testes devem passar.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=6').then(
+  $.get(code + '/_api/get-tests?type=unit&n=6').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -35,8 +34,7 @@ Todos os testes devem passar.
 Você deve escolher o método correto para a primeira declaração - `deepEqual` ou `notDeepEqual`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=6').then(
+  $.get(code + '/_api/get-tests?type=unit&n=6').then(
     (data) => {
       assert.equal(
         data.assertions[0].method,
@@ -53,8 +51,7 @@ Você deve escolher o método correto para a primeira declaração - `deepEqual`
 Você deve escolher o método correto para a segunda declaração - `deepEqual` ou `notDeepEqual`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=6').then(
+  $.get(code + '/_api/get-tests?type=unit&n=6').then(
     (data) => {
       assert.equal(
         data.assertions[1].method,

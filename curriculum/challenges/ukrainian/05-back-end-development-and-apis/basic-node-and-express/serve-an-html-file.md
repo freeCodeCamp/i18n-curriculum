@@ -25,8 +25,7 @@ absolutePath = __dirname + '/relativePath/file.ext'
 Застосунок має обслуговувати файл views/index.html
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url')).then(
+  $.get(code).then(
     (data) => {
       assert.match(
         data,

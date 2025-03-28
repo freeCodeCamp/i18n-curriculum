@@ -40,8 +40,7 @@ assert(
 レンダーされる `h1` タグに、`{name}` への参照を含めます。
 
 ```js
-(getUserInput) =>
-  assert(/<h1>\n*\s*\{\s*name\s*\}\s*\n*<\/h1>/.test(getUserInput('index')));
+assert(/<h1>\n*\s*\{\s*name\s*\}\s*\n*<\/h1>/.test(code));
 ```
 
 レンダーされる `h1` 見出し要素には、コンポーネントの state からレンダーされたテキストのみを含めます。

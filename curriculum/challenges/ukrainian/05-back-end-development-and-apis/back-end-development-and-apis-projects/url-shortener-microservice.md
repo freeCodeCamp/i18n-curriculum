@@ -23,20 +23,18 @@ dashedName: url-shortener-microservice
 Вам необхідно вказати свій власний проєкт, а не приклад URL-адреси.
 
 ```js
-(getUserInput) => {
   assert(
     !/.*\/url-shortener-microservice\.freecodecamp\.rocks/.test(
-      getUserInput('url')
+      code
     )
   );
-};
 ```
 
 Ви можете опублікувати URL-адресу на `/api/shorturl` та отримати відповідь JSON із властивостями `original_url` та `short_url`. Ось приклад: `{ original_url : 'https://freeCodeCamp.org', short_url : 1}`
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const urlVariable = Date.now();
   const fullUrl = `${url}/?v=${urlVariable}`
   const res = await fetch(url + '/api/shorturl', {
@@ -57,8 +55,8 @@ async (getUserInput) => {
 При відвідуванні `/api/shorturl/<short_url>` вас буде перенаправлено на вихідну URL-адресу.
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const urlVariable = Date.now();
   const fullUrl = `${url}/?v=${urlVariable}`
   let shortenedUrlVariable;
@@ -89,8 +87,8 @@ async (getUserInput) => {
 Якщо ви передасте недійсну URL-адресу, яка не відповідає дійсному формату `http://www.example.com`, то відповідь JSON міститиме `{ error: 'invalid url' }`
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + '/api/shorturl', {
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },

@@ -21,8 +21,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#6` in the `Equality` sui
 すべてのテストが成功する必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=5').then(
+  $.get(code + '/_api/get-tests?type=unit&n=5').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -35,8 +34,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#6` in the `Equality` sui
 最初のアサーションに対して、正しいメソッドを選ぶ必要があります - `strictEqual` もしくは `notStrictEqual` です。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=5').then(
+  $.get(code + '/_api/get-tests?type=unit&n=5').then(
     (data) => {
       assert.equal(
         data.assertions[0].method,
@@ -53,8 +51,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#6` in the `Equality` sui
 2 番目のアサーションに対して、正しいメソッドを選ぶ必要があります - `strictEqual` もしくは `notStrictEqual` です。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=5').then(
+  $.get(code + '/_api/get-tests?type=unit&n=5').then(
     (data) => {
       assert.equal(data.assertions[1].method, 'strictEqual', '3*2 = 6...');
     },
@@ -67,8 +64,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#6` in the `Equality` sui
 3 番目のアサーションに対して、正しいメソッドを選ぶ必要があります - `strictEqual` もしくは `notStrictEqual` です。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=5').then(
+  $.get(code + '/_api/get-tests?type=unit&n=5').then(
     (data) => {
       assert.equal(
         data.assertions[2].method,
@@ -85,8 +81,7 @@ Within `tests/1_unit-tests.js` under the test labeled `#6` in the `Equality` sui
 4 番目のアサーションに対して、正しいメソッドを選ぶ必要があります - `strictEqual` もしくは `notStrictEqual` です。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=5').then(
+  $.get(code + '/_api/get-tests?type=unit&n=5').then(
     (data) => {
       assert.equal(
         data.assertions[3].method,

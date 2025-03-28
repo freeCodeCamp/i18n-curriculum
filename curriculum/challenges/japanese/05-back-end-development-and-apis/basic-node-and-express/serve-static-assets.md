@@ -25,8 +25,7 @@ Express では、ミドルウェア `express.static(path)` を使用してこの
 アプリは、`/public` ディレクトリから `/public` パスにアセットファイルを提供する必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/public/style.css').then(
+  $.get(code + '/public/style.css').then(
     (data) => {
       assert.match(
         data,
@@ -43,8 +42,7 @@ Express では、ミドルウェア `express.static(path)` を使用してこの
 アプリは、`/public` ディレクトリ以外のフォルダーからファイルを提供しないようにしてください。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/server.js').then(
+  $.get(code + '/server.js').then(
     (data) => {
        assert.equal(
         data?.status + '',

@@ -31,8 +31,7 @@ Utiliza el método `app.get()` para servir la cadena "Hello Express" a las petic
 Tu aplicación debe mostrarte en consola la cadena 'Hello Express'
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url')).then(
+  $.get(code).then(
     (data) => {
       assert.equal(
         data,

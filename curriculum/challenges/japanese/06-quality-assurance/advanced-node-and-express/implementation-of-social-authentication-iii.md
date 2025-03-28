@@ -50,8 +50,8 @@ myDataBase.findOneAndUpdate(
 GitHub ストラテジーの設定を完了する必要があります。
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/auth.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/auth.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(

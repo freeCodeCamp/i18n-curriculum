@@ -19,8 +19,7 @@ Modifique a função `findOneByFood` para encontrar apenas uma pessoa que tenha 
 Você deve ter sucesso em encontrar um item
 
 ```js
-(getUserInput) =>
-  $.post(getUserInput('url') + '/_api/find-one-by-food', {
+  $.post(code + '/_api/find-one-by-food', {
     name: 'Gary',
     age: 46,
     favoriteFoods: ['chicken salad']

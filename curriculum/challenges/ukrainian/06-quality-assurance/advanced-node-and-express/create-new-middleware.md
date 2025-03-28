@@ -40,8 +40,8 @@ app
 Проміжне програмне забезпечення `ensureAuthenticated` повинне бути реалізоване та приєднане до маршруту `/profile`.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/server.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/server.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(
@@ -60,8 +60,8 @@ async (getUserInput) => {
 Неавтентифікований запит GET до `/profile` повинен правильно перенаправляти до `/`.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/profile", getUserInput("url"));
+async () => {
+  const url = new URL("/profile", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(

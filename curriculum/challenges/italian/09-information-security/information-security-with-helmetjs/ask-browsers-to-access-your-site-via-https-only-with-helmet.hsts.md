@@ -23,8 +23,7 @@ Nota: la configurazione di HTTPS su un sito web personalizzato richiede l'acquis
 Il middleware helmet.hsts() deve essere montato correttamente
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/app-info').then(
+  $.get(code + '/_api/app-info').then(
     (data) => {
       assert.include(data.appStack, 'hsts');
       assert.property(data.headers, 'strict-transport-security');
@@ -38,8 +37,7 @@ Il middleware helmet.hsts() deve essere montato correttamente
 maxAge deve essere uguale a 7776000 s (90 giorni)
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/app-info').then(
+  $.get(code + '/_api/app-info').then(
     (data) => {
       assert.match(
         data.headers['strict-transport-security'],

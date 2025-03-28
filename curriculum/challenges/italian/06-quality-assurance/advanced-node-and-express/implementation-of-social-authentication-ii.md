@@ -38,8 +38,8 @@ Invia la tua pagina quando pensi che sia tutto corretto. Se incontri degli error
 `passport-github` dependency should be added.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/package.json", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/package.json", code);
   const res = await fetch(url);
   const packJson = await res.json();
   assert.property(
@@ -53,8 +53,8 @@ async (getUserInput) => {
 `passport-github` should be required.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/auth.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/auth.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(
@@ -68,8 +68,8 @@ async (getUserInput) => {
 La strategia di GitHub dovrebbe essere impostata correttamente finora.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/auth.js", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/auth.js", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(

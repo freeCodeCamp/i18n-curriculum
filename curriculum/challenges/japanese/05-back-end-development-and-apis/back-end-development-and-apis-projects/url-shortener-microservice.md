@@ -23,20 +23,18 @@ dashedName: url-shortener-microservice
 サンプルの URL ではなく、自分で作成したプロジェクトを提供する必要があります。
 
 ```js
-(getUserInput) => {
   assert(
     !/.*\/url-shortener-microservice\.freecodecamp\.rocks/.test(
-      getUserInput('url')
+      code
     )
   );
-};
 ```
 
 `/api/shorturl` へ URL を POST すると、`original_url` および `short_url` プロパティを持つ JSON レスポンスを取得できます。 例: `{ original_url : 'https://freeCodeCamp.org', short_url : 1}`
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const urlVariable = Date.now();
   const fullUrl = `${url}/?v=${urlVariable}`
   const res = await fetch(url + '/api/shorturl', {
@@ -57,8 +55,8 @@ async (getUserInput) => {
 `/api/shorturl/<short_url>` へアクセスすると、元の URL にリダイレクトされます。
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const urlVariable = Date.now();
   const fullUrl = `${url}/?v=${urlVariable}`
   let shortenedUrlVariable;
@@ -89,8 +87,8 @@ async (getUserInput) => {
 有効な `http://www.example.com` という形式に従っていない無効な URL を渡すと、JSON レスポンスで `{ error: 'invalid url' }` が返されます。
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + '/api/shorturl', {
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },

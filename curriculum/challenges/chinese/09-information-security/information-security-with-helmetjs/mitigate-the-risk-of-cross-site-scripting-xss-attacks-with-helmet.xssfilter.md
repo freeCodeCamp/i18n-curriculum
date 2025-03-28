@@ -28,8 +28,7 @@ X-XSS-Protection HTTP 消息头是一种基本的保护。 浏览器使用启发
 helmet.xssFilter() 中间件应正确安装。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/app-info').then(
+  $.get(code + '/_api/app-info').then(
     (data) => {
       assert.include(data.appStack, 'xXssProtection');
       assert.property(data.headers, 'x-xss-protection');

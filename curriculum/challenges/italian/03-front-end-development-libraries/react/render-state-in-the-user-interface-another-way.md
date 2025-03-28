@@ -40,8 +40,7 @@ assert(
 Il tag `h1` presentato dovrebbe includere un riferimento a `{name}`.
 
 ```js
-(getUserInput) =>
-  assert(/<h1>\n*\s*\{\s*name\s*\}\s*\n*<\/h1>/.test(getUserInput('index')));
+assert(/<h1>\n*\s*\{\s*name\s*\}\s*\n*<\/h1>/.test(code));
 ```
 
 L'intestazione `h1` dovrebbe contenere testo presentato dallo stato del componente.

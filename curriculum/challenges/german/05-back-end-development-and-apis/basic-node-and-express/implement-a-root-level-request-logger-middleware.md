@@ -32,8 +32,7 @@ Baue einen einfachen Logger. Für jede Anfrage sollte ein String folgenden Forma
 Logger-Middleware auf Hauptverzeichnisebene sollte aktiv sein
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/root-middleware-logger').then(
+  $.get(code + '/_api/root-middleware-logger').then(
     (data) => {
       assert.isTrue(
         data.passed,

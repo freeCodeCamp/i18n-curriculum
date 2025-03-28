@@ -27,8 +27,7 @@ Envie sua página quando você achar que ela está certa.
 O BCrypt deve ser uma dependência.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert.property(
@@ -46,8 +45,7 @@ O BCrypt deve ser uma dependência.
 O BCrypt deve ser devidamente solicitado.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/server.js').then(
+  $.get(code + '/_api/server.js').then(
     (data) => {
       assert.match(
         data,

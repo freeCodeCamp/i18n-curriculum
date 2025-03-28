@@ -21,8 +21,7 @@ Use o argumento `personName` da função como chave de pesquisa.
 Localize todos os itens correspondentes a um critério com sucesso
 
 ```js
-(getUserInput) =>
-  $.post(getUserInput('url') + '/_api/find-all-by-name', {
+  $.post(code + '/_api/find-all-by-name', {
     name: 'r@nd0mN4m3',
     age: 24,
     favoriteFoods: ['pizza']

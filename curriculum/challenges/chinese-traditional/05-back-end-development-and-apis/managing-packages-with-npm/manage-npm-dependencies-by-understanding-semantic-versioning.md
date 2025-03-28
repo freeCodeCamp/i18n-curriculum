@@ -27,8 +27,7 @@ dashedName: manage-npm-dependencies-by-understanding-semantic-versioning
 `"dependencies"` 應包括 `"@freecodecamp/example"`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert.property(
@@ -46,8 +45,7 @@ dashedName: manage-npm-dependencies-by-understanding-semantic-versioning
 `"@freecodecamp/example"` 版本應爲 `"1.2.13"`。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert.equal(

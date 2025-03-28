@@ -27,8 +27,7 @@ dashedName: add-keywords-to-your-package-json
 package.json で、有効な 「keywords」キーを記述する必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert(packJson.keywords, '"keywords" is missing');
@@ -42,8 +41,7 @@ package.json で、有効な 「keywords」キーを記述する必要があり�
 「keywords」フィールドは、配列である必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert.isArray(packJson.keywords, '"keywords" is not an array');
@@ -57,8 +55,7 @@ package.json で、有効な 「keywords」キーを記述する必要があり�
 「keywords」に「freecodecamp」を含める必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert.include(

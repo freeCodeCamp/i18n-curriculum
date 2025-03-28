@@ -28,8 +28,7 @@ Verwende `helmet.xssFilter()`, um die an deinen Server gesendeten Eingaben zu be
 Die helmet.xssFilter()-Middleware sollte korrekt eingebaut werden
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/app-info').then(
+  $.get(code + '/_api/app-info').then(
     (data) => {
       assert.include(data.appStack, 'xXssProtection');
       assert.property(data.headers, 'x-xss-protection');

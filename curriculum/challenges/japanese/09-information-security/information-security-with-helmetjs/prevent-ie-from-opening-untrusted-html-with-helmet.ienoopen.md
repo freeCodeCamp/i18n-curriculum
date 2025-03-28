@@ -21,8 +21,7 @@ dashedName: prevent-ie-from-opening-untrusted-html-with-helmet-ienoopen
 helmet.ieNoOpen() ミドルウェアを正しくマウントする必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/app-info').then(
+  $.get(code + '/_api/app-info').then(
     (data) => {
       assert.include(data.appStack, 'ienoopen');
       assert.equal(data.headers['x-download-options'], 'noopen');

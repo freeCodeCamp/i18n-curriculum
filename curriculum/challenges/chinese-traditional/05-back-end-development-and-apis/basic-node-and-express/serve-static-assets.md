@@ -25,8 +25,7 @@ An HTML server usually has one or more directories that are accessible by the us
 應用應該將資源文件從 `/public` 目錄發送到 `/public` 路徑
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/public/style.css').then(
+  $.get(code + '/public/style.css').then(
     (data) => {
       assert.match(
         data,
@@ -43,8 +42,7 @@ An HTML server usually has one or more directories that are accessible by the us
 你的應用不應該發送其他文件夾的文件，只能從 `/public` 目錄發送文件。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/server.js').then(
+  $.get(code + '/server.js').then(
     (data) => {
        assert.equal(
         data?.status + '',

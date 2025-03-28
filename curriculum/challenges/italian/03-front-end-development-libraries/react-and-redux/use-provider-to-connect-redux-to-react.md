@@ -40,12 +40,12 @@ assert(
 Il componente wrapper `Provider` dovrebbe avere una prop `store` passata ad esso, uguale allo store di Redux.
 
 ```js
-(getUserInput) =>
+() =>
   assert(
     (function () {
       const mockedComponent = Enzyme.mount(React.createElement(AppWrapper));
       return __helpers
-        .removeWhiteSpace(getUserInput('index'))
+        .removeWhiteSpace(code)
         .includes('<Providerstore={store}>');
     })()
   );

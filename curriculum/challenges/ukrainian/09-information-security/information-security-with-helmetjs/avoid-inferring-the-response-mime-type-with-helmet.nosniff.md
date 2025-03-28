@@ -19,8 +19,7 @@ As a reminder, this project is being built upon the following starter project on
 Проміжне ПЗ helmet.noSniff() повинне бути встановлене правильно
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/app-info').then(
+  $.get(code + '/_api/app-info').then(
     (data) => {
       assert.include(data.appStack, 'nosniff');
       assert.equal(data.headers['x-content-type-options'], 'nosniff');

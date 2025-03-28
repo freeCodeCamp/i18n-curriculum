@@ -21,8 +21,7 @@ Modifica la función `findEditThenSave` para encontrar a una persona por `_id` (
 "Find-edit-update" un elemento debe ser exitoso
 
 ```js
-(getUserInput) =>
-  $.post(getUserInput('url') + '/_api/find-edit-save', {
+  $.post(code + '/_api/find-edit-save', {
     name: 'Poldo',
     age: 40,
     favoriteFoods: ['spaghetti']

@@ -21,12 +21,7 @@ Presenta questo componente nel DOM usando `ReactDOM.render()`. C'è un `div` con
 Ci dovrebbe essere un componente React chiamato `MyComponent`.
 
 ```js
-(getUserInput) =>
-  assert(
-    __helpers
-      .removeWhiteSpace(getUserInput('index'))
-      .includes('classMyComponentextendsReact.Component{')
-  );
+assert(__helpers.removeWhiteSpace(code).includes('classMyComponentextendsReact.Component{'));
 ```
 
 `MyComponent` dovrebbe contenere un tag `h1` con testo `My First React Component!` Maiuscole e punteggiatura contano.

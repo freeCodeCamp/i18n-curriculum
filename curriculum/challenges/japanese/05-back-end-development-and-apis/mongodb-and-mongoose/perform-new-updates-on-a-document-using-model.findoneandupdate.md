@@ -21,8 +21,7 @@ dashedName: perform-new-updates-on-a-document-using-model-findoneandupdate
 アイテムを正しく findOneAndUpdate する必要があります。
 
 ```js
-(getUserInput) =>
-  $.post(getUserInput('url') + '/_api/find-one-update', {
+  $.post(code + '/_api/find-one-update', {
     name: 'Dorian Gray',
     age: 35,
     favoriteFoods: ['unknown']

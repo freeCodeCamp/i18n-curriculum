@@ -19,9 +19,8 @@ dashedName: chain-search-query-helpers-to-narrow-search-results
 クエリヘルパーを正しくチェーンする必要があります。
 
 ```js
-(getUserInput) =>
   $.ajax({
-    url: getUserInput('url') + '/_api/query-tools',
+    url: code + '/_api/query-tools',
     type: 'POST',
     contentType: 'application/json',
     data: JSON.stringify([

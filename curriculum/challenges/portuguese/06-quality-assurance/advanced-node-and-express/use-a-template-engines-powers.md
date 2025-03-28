@@ -59,8 +59,8 @@ Envie sua página quando você achar que ela está certa. Se você estiver encon
 O Pug deve renderizar as variáveis corretamente.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/", getUserInput("url"));
+async () => {
+  const url = new URL("/", code);
   const res = await fetch(url);
   const data = await res.text();
   assert.match(

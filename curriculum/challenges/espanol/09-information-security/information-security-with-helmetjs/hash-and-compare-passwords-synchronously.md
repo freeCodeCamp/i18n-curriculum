@@ -35,8 +35,7 @@ Envía tu página cuando creas que está correcto.
 Sync hash debe generarse y compararse correctamente.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/server.js').then(
+  $.get(code + '/_api/server.js').then(
     (data) => {
       assert.match(
         data,

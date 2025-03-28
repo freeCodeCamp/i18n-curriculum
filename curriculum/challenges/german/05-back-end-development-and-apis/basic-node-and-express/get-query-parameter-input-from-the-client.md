@@ -23,8 +23,7 @@ Erstelle einen API-Endpunkt, der unter `GET /name` eingebunden ist. Antworte mit
 Test 1: Dein API-Endpunkt sollte mit `{ "name": "Mick Jagger" }` antworten, wenn der `/name`-Endpunkt mit `?first=Mick&last=Jagger` aufgerufen wird
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/name?first=Mick&last=Jagger').then(
+  $.get(code + '/name?first=Mick&last=Jagger').then(
     (data) => {
       assert.equal(
         data.name,
@@ -41,8 +40,7 @@ Test 1: Dein API-Endpunkt sollte mit `{ "name": "Mick Jagger" }` antworten, wenn
 Test 2: Dein API-Endpunkt sollte mit `{ "name": "Keith Richards" }` anworten, wenn der `/name`-Endpunkt mit `?first=Keith&last=Richards` aufgerufen wird
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/name?last=Richards&first=Keith').then(
+  $.get(code + '/name?last=Richards&first=Keith').then(
     (data) => {
       assert.equal(
         data.name,

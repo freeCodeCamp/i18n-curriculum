@@ -29,8 +29,7 @@ Dentro de `tests/1_unit-tests.js` bajo la prueba etiquetada como `#4` en el conj
 Se deben pasar todos los tests.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=3').then(
+  $.get(code + '/_api/get-tests?type=unit&n=3').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -43,8 +42,7 @@ Se deben pasar todos los tests.
 Debes elegir el método correcto para la primera afirmación - `isTrue` vs. `isNotTrue`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=3').then(
+  $.get(code + '/_api/get-tests?type=unit&n=3').then(
     (data) => {
       assert.equal(data.assertions[0].method, 'isTrue', 'True is true');
     },
@@ -57,8 +55,7 @@ Debes elegir el método correcto para la primera afirmación - `isTrue` vs. `isN
 Debes elegir el método correcto para la segunda afirmación: `isTrue` vs. `isNotTrue`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=3').then(
+  $.get(code + '/_api/get-tests?type=unit&n=3').then(
     (data) => {
       assert.equal(
         data.assertions[1].method,
@@ -75,8 +72,7 @@ Debes elegir el método correcto para la segunda afirmación: `isTrue` vs. `isNo
 Debes elegir el método correcto para la tercera afirmación: `isTrue` vs. `isNotTrue`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=3').then(
+  $.get(code + '/_api/get-tests?type=unit&n=3').then(
     (data) => {
       assert.equal(
         data.assertions[2].method,

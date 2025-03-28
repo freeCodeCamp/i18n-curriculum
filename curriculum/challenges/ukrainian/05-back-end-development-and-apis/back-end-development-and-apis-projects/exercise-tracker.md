@@ -61,19 +61,16 @@ dashedName: exercise-tracker
 Ви повинні надати власний проєкт, а не приклад URL-адреси.
 
 ```js
-(getUserInput) => {
-  const url = getUserInput('url');
   assert(
-    !/.*\/exercise-tracker\.freecodecamp\.rocks/.test(getUserInput('url'))
+    !/.*\/exercise-tracker\.freecodecamp\.rocks/.test(code)
   );
-};
 ```
 
 Ви можете зробити запит `POST` до `/api/users` із даними форми `username`, щоб створити нового користувача.
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + '/api/users', {
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -89,8 +86,8 @@ async (getUserInput) => {
 Відповіддю від `POST /api/users` із даними форми `username` буде об’єкт з властивостями `username` та `_id`.
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + '/api/users', {
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -109,8 +106,8 @@ async (getUserInput) => {
 Ви можете зробити запит `GET` до `/api/users`, щоб отримати список всіх користувачів.
 
 ```js
-async(getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + '/api/users');
   assert.isTrue(res.ok);
   if(!res.ok) {
@@ -122,8 +119,8 @@ async(getUserInput) => {
 Запит `GET` до `/api/users` повертає масив.
 
 ```js
-async(getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + '/api/users');
   if(res.ok){
     const users = await res.json();
@@ -137,8 +134,8 @@ async(getUserInput) => {
 Кожен елемент у масиві, який повернувся з `GET /api/users`, є літералом об’єкта з `username` та `_id` користувача.
 
 ```js
-async(getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + '/api/users');
   if(res.ok){
     const users = await res.json();
@@ -157,8 +154,8 @@ async(getUserInput) => {
 You can `POST` to `/api/users/:_id/exercises` with form data `description`, `duration`, and optionally `date`. Якщо дата не вказана, буде використовуватись поточна дата.
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + '/api/users', {
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -191,8 +188,8 @@ async (getUserInput) => {
 Відповіддю від `POST /api/users/:_id/exercises` буде об’єкт-користувач з доданими полями вправ.
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + '/api/users', {
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -244,8 +241,8 @@ async (getUserInput) => {
 Ви можете зробити запит `GET` до `/api/users/:_id/logs`, щоб отримати всі вправи будь-якого користувача.
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + '/api/users', {
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -283,8 +280,8 @@ async (getUserInput) => {
 Запит до вправ користувача `GET /api/users/:_id/logs` повертає об’єкта-користувача разом з властивістю `count`, яка представляє кількість вправ цього користувача.
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + '/api/users', {
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -324,8 +321,8 @@ async (getUserInput) => {
 Запит `GET` до `/api/users/:_id/logs` повертає об’єкта-користувача з масивом `log`, де наявні всі вправи.
 
 ```js
-async(getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + '/api/users', {
     method: 'POST',
     headers: {
@@ -368,8 +365,8 @@ async(getUserInput) => {
 Each item in the `log` array that is returned from `GET /api/users/:_id/logs` is an object that should have a `description`, `duration`, and `date` properties.
 
 ```js
-async(getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + `/api/users`, {
     method: 'POST',
     headers: {
@@ -415,8 +412,8 @@ async(getUserInput) => {
 Властивість `description` будь-якого об’єкту в масиві `log`, що повернувся з `GET /api/users/:_id/logs`, має бути рядком.
 
 ```js
-async(getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + '/api/users', {
     method: 'POST',
     headers: {
@@ -462,8 +459,8 @@ async(getUserInput) => {
 Властивість `duration` будь-якого об’єкту в масиві `log`, що повернувся з `GET /api/users/:_id/logs`, має бути числом.
 
 ```js
-async(getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + '/api/users', {
     method: 'POST',
     headers: {
@@ -509,8 +506,8 @@ async(getUserInput) => {
 Властивість `date` будь-якого об’єкту в масиві `log`, що повернувся з `GET /api/users/:_id/logs`, має бути рядком. Використайте формат `dateString` від `Date` API.
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + '/api/users', {
     method: 'POST',
     headers: {
@@ -571,8 +568,8 @@ async (getUserInput) => {
 Ви можете додати параметри `from`, `to` та `limit` до запиту `GET /api/users/:_id/logs`, щоб отримати дані будь-якого користувача. `from` та `to` є датами у форматі `yyyy-mm-dd`. `limit` — ціле число інформації, яку потрібно надіслати назад.
 
 ```js
-async (getUserInput) => {
-  const url = getUserInput('url');
+async () => {
+  const url = code;
   const res = await fetch(url + '/api/users', {
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },

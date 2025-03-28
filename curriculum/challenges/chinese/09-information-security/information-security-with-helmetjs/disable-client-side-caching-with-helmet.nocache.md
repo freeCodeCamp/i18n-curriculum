@@ -21,8 +21,7 @@ As a reminder, this project is being built upon the following starter project on
 应正确加载 helmet.noCache() 中间件
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/app-info').then(
+  $.get(code + '/_api/app-info').then(
     (data) => {
       assert.include(data.appStack, 'nocache');
       assert.equal(

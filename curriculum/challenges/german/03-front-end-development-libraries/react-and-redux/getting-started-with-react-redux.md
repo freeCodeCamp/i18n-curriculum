@@ -34,10 +34,9 @@ assert(
 Der Konstruktor `DisplayMessages` sollte richtig mit `super` aufgerufen werden und `props` übergeben.
 
 ```js
-(getUserInput) =>
-  assert(
+assert(
     (function () {
-      const noWhiteSpace = __helpers.removeWhiteSpace(getUserInput('index'));
+      const noWhiteSpace = __helpers.removeWhiteSpace(code);
       return (
         noWhiteSpace.includes('constructor(props)') &&
         noWhiteSpace.includes('super(props')

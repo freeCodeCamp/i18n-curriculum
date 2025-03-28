@@ -62,21 +62,19 @@ dashedName: sudoku-solver
 サンプルの URL ではなく、自分で作成したプロジェクトを提出する必要があります。
 
 ```js
-(getUserInput) => {
-  const url = getUserInput('url');
-  assert(!/.*\/sudoku-solver\.freecodecamp\.rocks/.test(getUserInput('url')));
-};
+  const url = code;
+  assert(!/.*\/sudoku-solver\.freecodecamp\.rocks/.test(code));
 ```
 
 数字 (1～9) と空白を表すピリオド `.` の組み合わせを含む文字列である `puzzle` を含むフォームデータを使用して、`POST` `/api/solve` を実行することができます。 返されるオブジェクトには、パズルの解答を含む `solution` プロパティが含まれます。
 
 ```js
-async (getUserInput) => {
+async () => {
   const input =
     '..9..5.1.85.4....2432......1...69.83.9.....6.62.71...9......1945....4.37.4.3..6..';
   const output =
     '769235418851496372432178956174569283395842761628713549283657194516924837947381625';
-  const data = await fetch(getUserInput('url') + '/api/solve', {
+  const data = await fetch(code + '/api/solve', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ puzzle: input })
@@ -90,11 +88,11 @@ async (getUserInput) => {
 `/api/solve` へ送信されたオブジェクトに `puzzle` がない場合、戻り値は `{ error: 'Required field missing' }` になります。
 
 ```js
-async (getUserInput) => {
+async () => {
   const input =
     '..9..5.1.85.4....2432......1...69.83.9.....6.62.71...9......1945....4.37.4.3..6..';
   const output = 'Required field missing';
-  const data = await fetch(getUserInput('url') + '/api/solve', {
+  const data = await fetch(code + '/api/solve', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ notpuzzle: input })
@@ -108,11 +106,11 @@ async (getUserInput) => {
 `/api/solve` へ送信されたパズルに数字でもピリオドでもない値が含まれている場合、戻り値は `{ error: 'Invalid characters in puzzle' }` になります。
 
 ```js
-async (getUserInput) => {
+async () => {
   const input =
     'AA9..5.1.85.4....2432......1...69.83.9.....6.62.71...9......1945....4.37.4.3..6..';
   const output = 'Invalid characters in puzzle';
-  const data = await fetch(getUserInput('url') + '/api/solve', {
+  const data = await fetch(code + '/api/solve', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ puzzle: input })
@@ -126,14 +124,14 @@ async (getUserInput) => {
 `/api/solve` へ送信されたパズルの文字数が 81 文字より多いまたは少ない場合、戻り値は `{ error: 'Expected puzzle to be 81 characters long' }` になります。
 
 ```js
-async (getUserInput) => {
+async () => {
   const inputs = [
     '..9..5.1.85.4....2432......1...69.83.9.....6.62.71...9......1945....4.37.4.3..6.',
     '..9..5.1.85.4....2432......1...69.83.9.....6.62.71...9......1945....4.37.4.3..6...'
   ];
   const output = 'Expected puzzle to be 81 characters long';
   for (const input of inputs) {
-    const data = await fetch(getUserInput('url') + '/api/solve', {
+    const data = await fetch(code + '/api/solve', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ puzzle: input })
@@ -148,11 +146,11 @@ async (getUserInput) => {
 `/api/solve` へ送信されたパズルが無効もしくは解けない場合、戻り値は `{ error: 'Puzzle cannot be solved' }` になります。
 
 ```js
-async (getUserInput) => {
+async () => {
   const input =
     '9.9..5.1.85.4....2432......1...69.83.9.....6.62.71...9......1945....4.37.4.3..6..';
   const output = 'Puzzle cannot be solved';
-  const data = await fetch(getUserInput('url') + '/api/solve', {
+  const data = await fetch(code + '/api/solve', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ puzzle: input })
@@ -166,12 +164,12 @@ async (getUserInput) => {
 `puzzle`、`coordinate` および `value` を含むオブジェクトを `/api/check` に `POST` できます。 `coordinate` は行を示す文字 A～I で、その後に列を示す 1～9 の数字が続きます。`value` は 1～9 の数値です。
 
 ```js
-async (getUserInput) => {
+async () => {
   const input =
     '..9..5.1.85.4....2432......1...69.83.9.....6.62.71...9......1945....4.37.4.3..6..';
   const coordinate = 'A1';
   const value = '7';
-  const data = await fetch(getUserInput('url') + '/api/check', {
+  const data = await fetch(code + '/api/check', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ puzzle: input, coordinate, value })
@@ -185,13 +183,13 @@ async (getUserInput) => {
 `/api/check` への `POST` の戻り値は、`valid` プロパティを含むオブジェクトになります。このプロパティは、指定された座標に数字を配置できる場合は `true` になり、そうでない場合は `false` になります。 false の場合、返されるオブジェクトには `conflict` プロパティも含まれます。このプロパティは、文字列 `"row"`、`"column"`、`"region"` の任意の組み合わせを含む配列になります (どれが原因で配置が無効となっているかによって変わります)。
 
 ```js
-async (getUserInput) => {
+async () => {
   const input =
     '..9..5.1.85.4....2432......1...69.83.9.....6.62.71...9......1945....4.37.4.3..6..';
   const coordinate = 'A1';
   const value = '1';
   const conflict = ['row', 'column'];
-  const data = await fetch(getUserInput('url') + '/api/check', {
+  const data = await fetch(code + '/api/check', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ puzzle: input, coordinate, value })
@@ -208,12 +206,12 @@ async (getUserInput) => {
 `/api/check` へ送信された `value` がすでに `puzzle` のその `coordinate` に配置されている場合、戻り値は `valid` プロパティを含むオブジェクトになり、このプロパティの値は `value` が競合していなければ `true` となります。
 
 ```js
-async (getUserInput) => {
+async () => {
   const input =
   '..9..5.1.85.4....2432......1...69.83.9.....6.62.71...9......1945....4.37.4.3..6..';
   const coordinate = 'C3';
   const value = '2';
-  const data = await fetch(getUserInput('url') + '/api/check', {
+  const data = await fetch(code + '/api/check', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ puzzle: input, coordinate, value })
@@ -227,13 +225,13 @@ async (getUserInput) => {
 `/api/check` へ送信されたパズルに数字でもピリオドでもない値が含まれている場合、戻り値は `{ error: 'Invalid characters in puzzle' }` になります。
 
 ```js
-async (getUserInput) => {
+async () => {
   const input =
     'AA9..5.1.85.4....2432......1...69.83.9.....6.62.71...9......1945....4.37.4.3..6..';
   const coordinate = 'A1';
   const value = '1';
   const output = 'Invalid characters in puzzle';
-  const data = await fetch(getUserInput('url') + '/api/check', {
+  const data = await fetch(code + '/api/check', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ puzzle: input, coordinate, value })
@@ -247,7 +245,7 @@ async (getUserInput) => {
 `/api/check` へ送信されたパズルが 81 文字より多いか少ない場合、戻り値は `{ error: 'Expected puzzle to be 81 characters long' }` になります。
 
 ```js
-async (getUserInput) => {
+async () => {
   const inputs = [
     '..9..5.1.85.4....2432......1...69.83.9.....6.62.71...9......1945....4.37.4.3..6.',
     '..9..5.1.85.4....2432......1...69.83.9.....6.62.71...9......1945....4.37.4.3..6...'
@@ -256,7 +254,7 @@ async (getUserInput) => {
   const value = '1';
   const output = 'Expected puzzle to be 81 characters long';
   for (const input of inputs) {
-    const data = await fetch(getUserInput('url') + '/api/check', {
+    const data = await fetch(code + '/api/check', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ puzzle: input, coordinate, value })
@@ -271,7 +269,7 @@ async (getUserInput) => {
 `/api/check` へ送信されたオブジェクトに `puzzle`、`coordinate` もしくは `value` がない場合、戻り値は、`{ error: 'Required field(s) missing' }` になります。
 
 ```js
-async (getUserInput) => {
+async () => {
   const inputs = [
     {
       puzzle: '..9..5.1.85.4....2432......1...69.83.9.....6.62.71...9......1945....4.37.4.3..6..',
@@ -288,7 +286,7 @@ async (getUserInput) => {
   ];
   for (const input of inputs) {
     const output = 'Required field(s) missing';
-    const data = await fetch(getUserInput('url') + '/api/check', {
+    const data = await fetch(code + '/api/check', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(input)
@@ -303,14 +301,14 @@ async (getUserInput) => {
 `api/check` へ送信された座標が既存のグリッドセルを指し示していない場合、戻り値は `{ error: 'Invalid coordinate'}` になります。
 
 ```js
-async (getUserInput) => {
+async () => {
   const input =
     '..9..5.1.85.4....2432......1...69.83.9.....6.62.71...9......1945....4.37.4.3..6..';
   const output = 'Invalid coordinate';
   const coordinates = ['A0', 'A10', 'J1', 'A', '1', 'XZ18'];
   const value = '7';
   for (const coordinate of coordinates) {
-    const data = await fetch(getUserInput('url') + '/api/check', {
+    const data = await fetch(code + '/api/check', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ puzzle: input, coordinate, value })
@@ -325,14 +323,14 @@ async (getUserInput) => {
 `/api/check` へ送信された `value` が 1 から 9 の数字でない場合、戻り値は `{ error: 'Invalid value' }` になります。
 
 ```js
-async (getUserInput) => {
+async () => {
   const input =
     '..9..5.1.85.4....2432......1...69.83.9.....6.62.71...9......1945....4.37.4.3..6..';
   const output = 'Invalid value';
   const coordinate = 'A1';
   const values = ['0', '10', 'A'];
   for (const value of values) {
-    const data = await fetch(getUserInput('url') + '/api/check', {
+    const data = await fetch(code + '/api/check', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ puzzle: input, coordinate, value })
@@ -347,9 +345,9 @@ async (getUserInput) => {
 12 件のユニットテストがすべて記述され、成功する状態になっています。
 
 ```js
-async (getUserInput) => {
+async () => {
   try {
-    const getTests = await $.get(getUserInput('url') + '/_api/get-tests');
+    const getTests = await $.get(code + '/_api/get-tests');
     assert.isArray(getTests);
     const unitTests = getTests.filter((test) => {
       return !!test.context.match(/Unit\s*Tests/gi);
@@ -372,9 +370,9 @@ async (getUserInput) => {
 14 件の機能テストがすべて記述され、成功する状態になっています。
 
 ```js
-async (getUserInput) => {
+async () => {
   try {
-    const getTests = await $.get(getUserInput('url') + '/_api/get-tests');
+    const getTests = await $.get(code + '/_api/get-tests');
     assert.isArray(getTests);
     const functTests = getTests.filter((test) => {
       return !!test.context.match(/Functional\s*Tests/gi);

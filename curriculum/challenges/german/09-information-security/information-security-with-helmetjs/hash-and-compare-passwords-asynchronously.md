@@ -50,8 +50,7 @@ Reiche deine Seite ein, wenn du davon ausgehst, alles richtig gemacht zu haben.
 Async-Hash sollte generiert und korrekt verglichen werden.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/server.js').then(
+  $.get(code + '/_api/server.js').then(
     (data) => {
       assert.match(
         data,

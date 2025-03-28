@@ -64,8 +64,7 @@ test('Submit the surname "Polo" in the HTML form', function (done) {
 すべてのテストが成功する必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=5').then(
+  $.get(code + '/_api/get-tests?type=functional&n=5').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -78,8 +77,7 @@ test('Submit the surname "Polo" in the HTML form', function (done) {
 ヘッドレスブラウザーのリクエストが成功したことをアサートする必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=5').then(
+  $.get(code + '/_api/get-tests?type=functional&n=5').then(
     (data) => {
       assert.equal(data.assertions[0].method, 'browser.success');
     },
@@ -92,8 +90,7 @@ test('Submit the surname "Polo" in the HTML form', function (done) {
 要素 `span#name` 内のテキストが `'Cristoforo'` であることをアサートする必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=5').then(
+  $.get(code + '/_api/get-tests?type=functional&n=5').then(
     (data) => {
       assert.equal(data.assertions[1].method, 'browser.text');
       assert.match(data.assertions[1].args[0], /('|")span#name\1/);
@@ -108,8 +105,7 @@ test('Submit the surname "Polo" in the HTML form', function (done) {
 要素 `span#surname` 内のテキストが `'Colombo'` であることをアサートする必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=5').then(
+  $.get(code + '/_api/get-tests?type=functional&n=5').then(
     (data) => {
       assert.equal(data.assertions[2].method, 'browser.text');
       assert.match(data.assertions[2].args[0], /('|")span#surname\1/);
@@ -124,8 +120,7 @@ test('Submit the surname "Polo" in the HTML form', function (done) {
 要素 `span#dates` が存在し、カウントが 1 であることをアサートする必要があります。
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=functional&n=5').then(
+  $.get(code + '/_api/get-tests?type=functional&n=5').then(
     (data) => {
       assert.equal(data.assertions[3].method, 'browser.elements');
       assert.match(data.assertions[3].args[0], /('|")span#dates\1/);

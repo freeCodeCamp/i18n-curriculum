@@ -27,8 +27,7 @@ Reiche deine Seite ein, wenn du davon ausgehst, alles richtig gemacht zu haben.
 BCrypt sollte eine Abhängigkeit sein.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert.property(
@@ -46,8 +45,7 @@ BCrypt sollte eine Abhängigkeit sein.
 BCrypt sollte ordnungsgemäß angefordert werden.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/server.js').then(
+  $.get(code + '/_api/server.js').then(
     (data) => {
       assert.match(
         data,

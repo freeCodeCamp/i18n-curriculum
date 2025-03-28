@@ -37,8 +37,8 @@ Envie sua página quando você achar que ela está certa. If you're running into
 Pug should be a dependency.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/package.json", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/package.json", code);
   const res = await fetch(url);
   const packJson = await res.json();
   assert.property(
@@ -52,8 +52,8 @@ async (getUserInput) => {
 View engine should be Pug.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/app", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/app", code);
   const res = await fetch(url);
   const app = await res.json();
   assert.equal(app?.settings?.['view engine'], "pug");
@@ -63,8 +63,8 @@ async (getUserInput) => {
 You should set the `views` property of the application to `./views/pug`.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/_api/app", getUserInput("url"));
+async () => {
+  const url = new URL("/_api/app", code);
   const res = await fetch(url);
   const app = await res.json();
   assert.equal(app?.settings?.views, "./views/pug");
@@ -74,8 +74,8 @@ async (getUserInput) => {
 Use o método correto do ExpressJS para processar a página do índice a partir da resposta.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/", getUserInput("url"));
+async () => {
+  const url = new URL("/", code);
   const res = await fetch(url);
   const data = await res.text();
       assert.match(
@@ -89,8 +89,8 @@ async (getUserInput) => {
 O Pug deve funcionar.
 
 ```js
-async (getUserInput) => {
-  const url = new URL("/", getUserInput("url"));
+async () => {
+  const url = new URL("/", code);
   const res = await fetch(url);
   const data = await res.text();
       assert.match(

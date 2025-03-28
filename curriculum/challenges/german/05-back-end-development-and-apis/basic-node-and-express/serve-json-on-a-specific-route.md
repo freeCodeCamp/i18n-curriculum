@@ -21,8 +21,7 @@ Liefere das Objekt `{"message": "Hello json"}` im JSON-Format als Antwort, um GE
 Der Endpunkt `/json` sollte das JSON-Objekt `{"message": "Hello json"}` liefern
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/json').then(
+  $.get(code + '/json').then(
     (data) => {
       assert.equal(
         data.message,

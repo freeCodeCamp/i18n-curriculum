@@ -37,8 +37,7 @@ Modifica el archivo `myApp.js` para que registre "Hello World" en la consola.
 `"Hello World"` debe aparecer en la consola
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/hello-console').then(
+  $.get(code + '/_api/hello-console').then(
     (data) => {
       assert.isTrue(data.passed, '"Hello World" is not in the server console');
     },

@@ -19,8 +19,7 @@ Em `tests/1_unit-tests.js`, no teste de número `#2`, no grupo de testes `Basic 
 Todos os testes devem passar.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=1').then(
+  $.get(code + '/_api/get-tests?type=unit&n=1').then(
     (data) => {
       assert.equal(data.state, 'passed');
     },
@@ -33,8 +32,7 @@ Todos os testes devem passar.
 Você deve escolher o método correto para a primeira afirmação - `isDefined` ou `isUndefined`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=1').then(
+  $.get(code + '/_api/get-tests?type=unit&n=1').then(
     (data) => {
       assert.equal(
         data.assertions[0].method,
@@ -51,8 +49,7 @@ Você deve escolher o método correto para a primeira afirmação - `isDefined` 
 Você deve escolher o método correto para segunda afirmação - `isDefined` ou `isUndefined`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=1').then(
+  $.get(code + '/_api/get-tests?type=unit&n=1').then(
     (data) => {
       assert.equal(
         data.assertions[1].method,
@@ -69,8 +66,7 @@ Você deve escolher o método correto para segunda afirmação - `isDefined` ou 
 Você deve escolher o método correto para a terceira afirmação - `isDefined` ou `isUndefined`.
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/get-tests?type=unit&n=1').then(
+  $.get(code + '/_api/get-tests?type=unit&n=1').then(
     (data) => {
       assert.equal(
         data.assertions[2].method,

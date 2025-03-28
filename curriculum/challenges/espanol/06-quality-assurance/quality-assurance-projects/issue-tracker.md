@@ -44,15 +44,13 @@ Escribir las siguientes pruebas en `tests/2_functional-tests.js`:
 Debes proporcionar tu propio proyecto, no la URL de ejemplo.
 
 ```js
-(getUserInput) => {
-  assert(!/.*\/issue-tracker\.freecodecamp\.rocks/.test(getUserInput('url')));
-};
+  assert(!/.*\/issue-tracker\.freecodecamp\.rocks/.test(code));
 ```
 
 You can send a `POST` request to `/api/issues/{projectname}` with form data containing the required fields `issue_title`, `issue_text`, `created_by`, and optionally `assigned_to` and `status_text`.
 
 ```js
-async (getUserInput) => {
+async () => {
   try {
     let test_data = {
       issue_title: 'Faux Issue Title',
@@ -60,7 +58,7 @@ async (getUserInput) => {
       created_by: 'fCC'
     };
     const data = await $.post(
-      getUserInput('url') + '/api/issues/fcc-project',
+      code + '/api/issues/fcc-project',
       test_data
     );
     assert.isObject(data);
@@ -74,7 +72,7 @@ async (getUserInput) => {
 La solicitud `POST` a `/api/issues/{projectname}` devolverá el objeto creado, y debe incluir todos los campos envíados. Los campos excluídos opcionales serán devueltos como cadenas vacías. Adicionalmente, incluye `created_on` (fecha/hora), `updated_on` (fecha/hora), `open` (booleano, `true` par abrir - valor, predeterminado `false` para cerrar), y `_id`.
 
 ```js
-async (getUserInput) => {
+async () => {
   try {
     let test_data = {
       issue_title: 'Faux Issue Title 2',
@@ -83,7 +81,7 @@ async (getUserInput) => {
       assigned_to: 'Chai and Mocha'
     };
     const data = await $.post(
-      getUserInput('url') + '/api/issues/fcc-project',
+      code + '/api/issues/fcc-project',
       test_data
     );
     assert.isObject(data);
@@ -108,10 +106,10 @@ async (getUserInput) => {
 Si tu envías una solicitud `POST` a `/api/issues/{projectname}` sin los campos requeridos, será devuelto el error `{ error: 'required field(s) missing' }`
 
 ```js
-async (getUserInput) => {
+async () => {
   try {
     let test_data = { created_by: 'fCC' };
-    const data = await $.post(getUserInput('url') + '/api/issues/fcc-project', {
+    const data = await $.post(code + '/api/issues/fcc-project', {
       created_by: 'fCC'
     });
     assert.isObject(data);
@@ -126,11 +124,11 @@ async (getUserInput) => {
 Puedes enviar una solicitud `GET` a `/api/issues/{projectname}` para un arreglo de todos los problemas para ese específico `projectname`, con todos los campos presentes para cada problema.
 
 ```js
-async (getUserInput) => {
+async () => {
   try {
     let test_data = { issue_text: 'Get Issues Test', created_by: 'fCC' };
     const url =
-      getUserInput('url') +
+      code +
       '/api/issues/get_issues_test_' +
       Date.now().toString().substring(7);
     const data1 = await $.post(
@@ -173,14 +171,14 @@ async (getUserInput) => {
 Puedes enviar una solicitud `GET` a `/api/issues/{projectname}` y filtrar la solicitud para también pasar a lo largo de cualquier cambio y valor como una consulta URL (p. ej. `/api/issues/{project}?open=false`). Puedes pasar uno o más pares campos/valor a la vez.
 
 ```js
-async (getUserInput) => {
+async () => {
   try {
     let test_data = {
       issue_title: 'To be Filtered',
       issue_text: 'Filter Issues Test'
     };
     const url =
-      getUserInput('url') +
+      code +
       '/api/issues/get_issues_test_' +
       Date.now().toString().substring(7);
     const data1 = await $.post(
@@ -219,14 +217,14 @@ async (getUserInput) => {
 Puedes enviar una solicitud `PUT` a `/api/issues/{projectname}` con un `_id` y uno o más campos para actualizar. En caso de éxito, el campo `updated_on` debería ser actualizado, y debería ser devuelto `{  result: 'successfully updated', '_id': _id }`.
 
 ```js
-async (getUserInput) => {
+async () => {
   try {
     let initialData = {
       issue_title: 'Issue to be Updated',
       issue_text: 'Functional Test - Put target',
       created_by: 'fCC'
     };
-    const url = getUserInput('url') + '/api/issues/fcc-project';
+    const url = code + '/api/issues/fcc-project';
     const itemToUpdate = await $.post(url, initialData);
     const updateSuccess = await $.ajax({
       url: url,
@@ -254,9 +252,9 @@ async (getUserInput) => {
 Cuando la solicitud `PUT` enviada a `/api/issues/{projectname}` no incluye un `_id`, el valor devuelto es `{ error: 'missing _id' }`.
 
 ```js
-async (getUserInput) => {
+async () => {
   try {
-    const url = getUserInput('url') + '/api/issues/fcc-project';
+    const url = code + '/api/issues/fcc-project';
     const badUpdate = await $.ajax({ url: url, type: 'PUT' });
     assert.isObject(badUpdate);
     assert.property(badUpdate, 'error');
@@ -270,9 +268,9 @@ async (getUserInput) => {
 Cuando la petición `PUT` enviada a `/api/issues/{projectname}` no incluye campos actualizados, el valor devuelto es `{ error: 'no update field(s) sent', '_id': _id }`. En cualquier otro error, el valor devuelto es `{ error: 'could not update', '_id': _id }`.
 
 ```js
-async (getUserInput) => {
+async () => {
   try {
-    const url = getUserInput('url') + '/api/issues/fcc-project';
+    const url = code + '/api/issues/fcc-project';
     const badUpdate = await $.ajax({
       url: url,
       type: 'PUT',
@@ -300,14 +298,14 @@ async (getUserInput) => {
 Puedes enviar una solicitud `DELETE` a `/api/issues/{projectname}` con un `_id` para borrar un problema. Si `_id` no fue enviado, el valor devuelto es `{ error: 'missing _id' }`. En caso de éxito, el valor devuelto es `{ result: 'successfully deleted', '_id': _id }`. En caso de fallo, el valor devuelto es `{ error: 'could not delete', '_id': _id }`.
 
 ```js
-async (getUserInput) => {
+async () => {
   try {
     let initialData = {
       issue_title: 'Issue to be Deleted',
       issue_text: 'Functional Test - Delete target',
       created_by: 'fCC'
     };
-    const url = getUserInput('url') + '/api/issues/fcc-project';
+    const url = code + '/api/issues/fcc-project';
     const itemToDelete = await $.post(url, initialData);
     assert.isObject(itemToDelete);
     const deleteSuccess = await $.ajax({
@@ -342,9 +340,9 @@ async (getUserInput) => {
 Todas las 14 pruebas funcionales están completas y pasaron.
 
 ```js
-async (getUserInput) => {
+async () => {
   try {
-    const getTests = await $.get(getUserInput('url') + '/_api/get-tests');
+    const getTests = await $.get(code + '/_api/get-tests');
     assert.isArray(getTests);
     assert.isAtLeast(getTests.length, 14, 'At least 14 tests passed');
     getTests.forEach((test) => {

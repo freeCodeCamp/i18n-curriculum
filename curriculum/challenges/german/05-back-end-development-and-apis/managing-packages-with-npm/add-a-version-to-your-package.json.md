@@ -23,8 +23,7 @@ Füge der package.json-Datei deines Projekts eine `version` hinzu.
 package.json sollte einen gültigen "version"-Schlüssel haben
 
 ```js
-(getUserInput) =>
-  $.get(getUserInput('url') + '/_api/package.json').then(
+  $.get(code + '/_api/package.json').then(
     (data) => {
       var packJson = JSON.parse(data);
       assert(packJson.version, '"version" is missing');

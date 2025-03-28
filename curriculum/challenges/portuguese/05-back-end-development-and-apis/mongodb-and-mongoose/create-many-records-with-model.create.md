@@ -21,9 +21,8 @@ Modifique a função `createManyPeople` para criar muitas pessoas usando `Model.
 Você deve ter sucesso na criação de muitos itens de banco de dados ao mesmo tempo
 
 ```js
-(getUserInput) =>
   $.ajax({
-    url: getUserInput('url') + '/_api/create-many-people',
+    url: code + '/_api/create-many-people',
     type: 'POST',
     contentType: 'application/json',
     data: JSON.stringify([

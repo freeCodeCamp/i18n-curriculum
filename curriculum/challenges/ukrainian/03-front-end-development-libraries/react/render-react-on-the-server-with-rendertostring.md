@@ -21,10 +21,9 @@ So far, you have been rendering React components on the client. Normally, this i
 Компонент `App` має відтворитись як рядок за допомогою `ReactDOMServer.renderToString`.
 
 ```js
-(getUserInput) =>
+() =>
   assert(
-    getUserInput('index')
-      .replace(/ /g, '')
+    code.replace(/ /g, '')
       .includes('ReactDOMServer.renderToString(<App/>)') &&
       Enzyme.mount(React.createElement(App)).children().name() === 'div'
   );

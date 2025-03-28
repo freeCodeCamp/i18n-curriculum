@@ -40,12 +40,12 @@ assert(
 Обгортуваний компонент `Provider` повинен мати пропс переданого сховища, рівний сховищу Redux.
 
 ```js
-(getUserInput) =>
+() =>
   assert(
     (function () {
       const mockedComponent = Enzyme.mount(React.createElement(AppWrapper));
       return __helpers
-        .removeWhiteSpace(getUserInput('index'))
+        .removeWhiteSpace(code)
         .includes('<Providerstore={store}>');
     })()
   );
