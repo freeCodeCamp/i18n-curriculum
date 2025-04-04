@@ -19,15 +19,9 @@ reducer 和 action creator 被修改爲根據項目的索引從數組中刪除�
 Redux store 應該存在並初始化一個 `[0,1,2,3,4,5]` 的狀態。
 
 ```js
-assert(
-  (function () {
-    const initialState = store.getState();
-    return (
-      Array.isArray(initialState) === true &&
-      DeepEqual(initialState, [0, 1, 2, 3, 4, 5])
-    );
-  })()
-);
+const initialState = store.getState();
+assert.isArray(initialState) 
+assert.deepEqual(initialState, [0, 1, 2, 3, 4, 5])
 ```
 
 `removeItem` 和 `immutableReducer` 都應該是一個函數。
@@ -41,26 +35,22 @@ assert(
 dispatch `removeItem` action creator 應該從 state 中刪除項目，不應該改變 state。
 
 ```js
-assert(
-  (function () {
-    const initialState = store.getState();
-    const isFrozen = DeepFreeze(initialState);
-    store.dispatch(removeItem(3));
-    const state_1 = store.getState();
-    store.dispatch(removeItem(2));
-    const state_2 = store.getState();
-    store.dispatch(removeItem(0));
-    store.dispatch(removeItem(0));
-    store.dispatch(removeItem(0));
-    const state_3 = store.getState();
-    return (
-      isFrozen &&
-      DeepEqual(state_1, [0, 1, 2, 4, 5]) &&
-      DeepEqual(state_2, [0, 1, 4, 5]) &&
-      DeepEqual(state_3, [5])
-    );
-  })()
-);
+const initialState = store.getState();
+const isFrozen = !!DeepFreeze(initialState);
+store.dispatch(removeItem(3));
+const state_1 = store.getState();
+store.dispatch(removeItem(2));
+const state_2 = store.getState();
+store.dispatch(removeItem(0));
+store.dispatch(removeItem(0));
+store.dispatch(removeItem(0));
+const state_3 = store.getState();
+
+assert(isFrozen)
+assert.deepEqual(state_1, [0, 1, 2, 4, 5]) 
+assert.deepEqual(state_2, [0, 1, 4, 5]) 
+assert.deepEqual(state_3, [5])
+
 ```
 
 # --seed--

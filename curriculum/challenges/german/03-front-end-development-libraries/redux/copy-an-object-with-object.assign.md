@@ -25,18 +25,14 @@ Der Redux-Zustand und die Actions wurden geändert, um ein `object` für den `st
 Der Redux-Store sollte existieren und mit einem Zustand initialisiert werden, der dem `defaultState`-Objekt entspricht, das in Zeile 1 deklariert wurde.
 
 ```js
-assert(
-  (function () {
-    const expectedState = {
-      user: 'CamperBot',
-      status: 'offline',
-      friends: '732,982',
-      community: 'freeCodeCamp'
-    };
-    const initialState = store.getState();
-    return DeepEqual(expectedState, initialState);
-  })()
-);
+const expectedState = {
+  user: 'CamperBot',
+  status: 'offline',
+  friends: '732,982',
+  community: 'freeCodeCamp'
+};
+const initialState = store.getState();
+assert.deepEqual(expectedState, initialState);
 ```
 
 `wakeUp` und `immutableReducer` sollten beide Funktionen sein.
@@ -48,21 +44,19 @@ assert(typeof wakeUp === 'function' && typeof immutableReducer === 'function');
 Das Senden einer Aktion vom Typ `ONLINE` sollte die Eigenschaft `status` im Zustand auf `online` aktualisieren und sollte den Zustand NICHT verändern.
 
 ```js
-assert(
-  (function () {
-    const initialState = store.getState();
-    const isFrozen = DeepFreeze(initialState);
-    store.dispatch({ type: 'ONLINE' });
-    const finalState = store.getState();
-    const expectedState = {
-      user: 'CamperBot',
-      status: 'online',
-      friends: '732,982',
-      community: 'freeCodeCamp'
-    };
-    return isFrozen && DeepEqual(finalState, expectedState);
-  })()
-);
+
+const initialState = store.getState();
+const isFrozen = !!DeepFreeze(initialState);
+store.dispatch({ type: 'ONLINE' });
+const finalState = store.getState();
+const expectedState = {
+  user: 'CamperBot',
+  status: 'online',
+  friends: '732,982',
+  community: 'freeCodeCamp'
+};
+assert(isFrozen);
+assert.deepEqual(finalState, expectedState);
 ```
 
 `Object.assign` sollte verwendet werden, um einen neuen Zustand zurückzugeben.

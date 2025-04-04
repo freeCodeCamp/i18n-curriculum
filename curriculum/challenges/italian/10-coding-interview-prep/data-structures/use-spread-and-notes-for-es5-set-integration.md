@@ -31,12 +31,8 @@ Ora hai imparato con successo come usare l'oggetto ES6 `Set()`, buon lavoro!
 `checkSet(new Set([1,2,3,4,5,6,7])` dovrebbe restituire `[1, 2, 3, 4, 5, 6, 7]`.
 
 ```js
-assert(
-  (function () {
-    var test = checkSet(new Set([1, 2, 3, 4, 5, 6, 7]));
-    return DeepEqual(test, [1, 2, 3, 4, 5, 6, 7]);
-  })()
-);
+var test = checkSet(new Set([1, 2, 3, 4, 5, 6, 7]));
+assert.deepEqual(test, [1, 2, 3, 4, 5, 6, 7]);
 ```
 
 # --seed--

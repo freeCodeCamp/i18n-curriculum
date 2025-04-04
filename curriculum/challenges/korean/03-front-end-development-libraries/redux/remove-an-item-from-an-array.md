@@ -19,15 +19,9 @@ Time to practice removing items from an array. The spread operator can be used h
 Redux 저장소가 존재해야 하며 `[0,1,2,3,4,5]`와 같은 상태로 초기화되어야 합니다.
 
 ```js
-assert(
-  (function () {
-    const initialState = store.getState();
-    return (
-      Array.isArray(initialState) === true &&
-      DeepEqual(initialState, [0, 1, 2, 3, 4, 5])
-    );
-  })()
-);
+const initialState = store.getState();
+assert.isArray(initialState) 
+assert.deepEqual(initialState, [0, 1, 2, 3, 4, 5])
 ```
 
 `removeItem`와 `immutableReducer` 는 모두 함수여야 합니다.
@@ -41,26 +35,22 @@ assert(
 `removeItem` 액션 생성자를 디스패치 하면 상태(state)에서 요소를 제거해야 하며 상태를 변경하면 안됩니다.
 
 ```js
-assert(
-  (function () {
-    const initialState = store.getState();
-    const isFrozen = DeepFreeze(initialState);
-    store.dispatch(removeItem(3));
-    const state_1 = store.getState();
-    store.dispatch(removeItem(2));
-    const state_2 = store.getState();
-    store.dispatch(removeItem(0));
-    store.dispatch(removeItem(0));
-    store.dispatch(removeItem(0));
-    const state_3 = store.getState();
-    return (
-      isFrozen &&
-      DeepEqual(state_1, [0, 1, 2, 4, 5]) &&
-      DeepEqual(state_2, [0, 1, 4, 5]) &&
-      DeepEqual(state_3, [5])
-    );
-  })()
-);
+const initialState = store.getState();
+const isFrozen = !!DeepFreeze(initialState);
+store.dispatch(removeItem(3));
+const state_1 = store.getState();
+store.dispatch(removeItem(2));
+const state_2 = store.getState();
+store.dispatch(removeItem(0));
+store.dispatch(removeItem(0));
+store.dispatch(removeItem(0));
+const state_3 = store.getState();
+
+assert(isFrozen)
+assert.deepEqual(state_1, [0, 1, 2, 4, 5]) 
+assert.deepEqual(state_2, [0, 1, 4, 5]) 
+assert.deepEqual(state_3, [5])
+
 ```
 
 # --seed--

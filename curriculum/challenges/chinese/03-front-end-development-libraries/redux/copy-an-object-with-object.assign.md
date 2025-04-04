@@ -25,18 +25,14 @@ Redux state 和 actions 被修改为处理 `state` 的 `object` 。 编辑代码
 Redux store 应该存在，并使用与第一行声明的 `defaultState` 对象相同的状态进行初始化。
 
 ```js
-assert(
-  (function () {
-    const expectedState = {
-      user: 'CamperBot',
-      status: 'offline',
-      friends: '732,982',
-      community: 'freeCodeCamp'
-    };
-    const initialState = store.getState();
-    return DeepEqual(expectedState, initialState);
-  })()
-);
+const expectedState = {
+  user: 'CamperBot',
+  status: 'offline',
+  friends: '732,982',
+  community: 'freeCodeCamp'
+};
+const initialState = store.getState();
+assert.deepEqual(expectedState, initialState);
 ```
 
 `wakeUp` 和 `immutableReducer` 都应该是函数。
@@ -48,21 +44,19 @@ assert(typeof wakeUp === 'function' && typeof immutableReducer === 'function');
 调用一个类型为 `ONLINE` 的 action，应该将状态中的 `status` 更新为 `online`，并且不应该改变状态。
 
 ```js
-assert(
-  (function () {
-    const initialState = store.getState();
-    const isFrozen = DeepFreeze(initialState);
-    store.dispatch({ type: 'ONLINE' });
-    const finalState = store.getState();
-    const expectedState = {
-      user: 'CamperBot',
-      status: 'online',
-      friends: '732,982',
-      community: 'freeCodeCamp'
-    };
-    return isFrozen && DeepEqual(finalState, expectedState);
-  })()
-);
+
+const initialState = store.getState();
+const isFrozen = !!DeepFreeze(initialState);
+store.dispatch({ type: 'ONLINE' });
+const finalState = store.getState();
+const expectedState = {
+  user: 'CamperBot',
+  status: 'online',
+  friends: '732,982',
+  community: 'freeCodeCamp'
+};
+assert(isFrozen);
+assert.deepEqual(finalState, expectedState);
 ```
 
 `Object.assign` 应该被用于返回一个新状态。

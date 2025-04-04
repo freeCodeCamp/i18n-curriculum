@@ -48,22 +48,19 @@ assert(typeof addToDo === 'function' && typeof immutableReducer === 'function');
 L'invio di un'azione di tipo `ADD_TO_DO` allo store di Redux dovrebbe aggiungere un elemento `todo` e NON dovrebbe mutare lo stato.
 
 ```js
-assert(
-  (function () {
-    const initialState = store.getState();
-    const isFrozen = DeepFreeze(initialState);
-    store.dispatch(addToDo('__TEST__TO__DO__'));
-    const finalState = store.getState();
-    const expectedState = [
-      'Go to the store',
-      'Clean the house',
-      'Cook dinner',
-      'Learn to code',
-      '__TEST__TO__DO__'
-    ];
-    return isFrozen && DeepEqual(finalState, expectedState);
-  })()
-);
+const initialState = store.getState();
+const isFrozen = !!DeepFreeze(initialState);
+store.dispatch(addToDo('__TEST__TO__DO__'));
+const finalState = store.getState();
+const expectedState = [
+  'Go to the store',
+  'Clean the house',
+  'Cook dinner',
+  'Learn to code',
+  '__TEST__TO__DO__'
+];
+assert(isFrozen);
+assert.deepEqual(finalState, expectedState);
 ```
 
 # --seed--
