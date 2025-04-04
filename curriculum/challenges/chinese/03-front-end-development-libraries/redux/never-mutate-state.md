@@ -48,22 +48,19 @@ assert(typeof addToDo === 'function' && typeof immutableReducer === 'function');
 在 Redux store 上 dispatch 一个类型为 `ADD_TO_DO` 的 aciton，应该添加一个 `todo` 项，并且不应该改变 state。
 
 ```js
-assert(
-  (function () {
-    const initialState = store.getState();
-    const isFrozen = DeepFreeze(initialState);
-    store.dispatch(addToDo('__TEST__TO__DO__'));
-    const finalState = store.getState();
-    const expectedState = [
-      'Go to the store',
-      'Clean the house',
-      'Cook dinner',
-      'Learn to code',
-      '__TEST__TO__DO__'
-    ];
-    return isFrozen && DeepEqual(finalState, expectedState);
-  })()
-);
+const initialState = store.getState();
+const isFrozen = !!DeepFreeze(initialState);
+store.dispatch(addToDo('__TEST__TO__DO__'));
+const finalState = store.getState();
+const expectedState = [
+  'Go to the store',
+  'Clean the house',
+  'Cook dinner',
+  'Learn to code',
+  '__TEST__TO__DO__'
+];
+assert(isFrozen);
+assert.deepEqual(finalState, expectedState);
 ```
 
 # --seed--

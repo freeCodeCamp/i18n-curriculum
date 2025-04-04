@@ -45,16 +45,13 @@ assert(typeof addToDo === 'function' && typeof immutableReducer === 'function');
 Відправлення дії типу `ADD_TO_DO` до сховища Redux має додати елемент `todo` та НЕ змінювати стан.
 
 ```js
-assert(
-  (function () {
-    const initialState = store.getState();
-    const isFrozen = DeepFreeze(initialState);
-    store.dispatch(addToDo('__TEST__TO__DO__'));
-    const finalState = store.getState();
-    const expectedState = ['Do not mutate state!', '__TEST__TO__DO__'];
-    return isFrozen && DeepEqual(finalState, expectedState);
-  })()
-);
+const initialState = store.getState();
+const isFrozen = !!DeepFreeze(initialState);
+store.dispatch(addToDo('__TEST__TO__DO__'));
+const finalState = store.getState();
+const expectedState = ['Do not mutate state!', '__TEST__TO__DO__'];
+assert(isFrozen)
+assert.deepEqual(finalState, expectedState);
 ```
 
 Використайте оператор розширення, щоб повернути новий стан.

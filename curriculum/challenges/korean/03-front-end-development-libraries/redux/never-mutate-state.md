@@ -48,22 +48,19 @@ assert(typeof addToDo === 'function' && typeof immutableReducer === 'function');
 Redux 스토어에서 `ADD_TO_DO` 유형의 액션을 디스패치하면 `todo` 항목이 추가되어야 하며 상태를 변경해서는 안 됩니다.
 
 ```js
-assert(
-  (function () {
-    const initialState = store.getState();
-    const isFrozen = DeepFreeze(initialState);
-    store.dispatch(addToDo('__TEST__TO__DO__'));
-    const finalState = store.getState();
-    const expectedState = [
-      'Go to the store',
-      'Clean the house',
-      'Cook dinner',
-      'Learn to code',
-      '__TEST__TO__DO__'
-    ];
-    return isFrozen && DeepEqual(finalState, expectedState);
-  })()
-);
+const initialState = store.getState();
+const isFrozen = !!DeepFreeze(initialState);
+store.dispatch(addToDo('__TEST__TO__DO__'));
+const finalState = store.getState();
+const expectedState = [
+  'Go to the store',
+  'Clean the house',
+  'Cook dinner',
+  'Learn to code',
+  '__TEST__TO__DO__'
+];
+assert(isFrozen);
+assert.deepEqual(finalState, expectedState);
 ```
 
 # --seed--

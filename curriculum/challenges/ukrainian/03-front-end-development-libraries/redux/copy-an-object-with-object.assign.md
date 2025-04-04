@@ -25,18 +25,14 @@ const newObject = Object.assign({}, obj1, obj2);
 Сховище Redux має існувати та ініціалізуватися станом, що дорівнює об’єкту `defaultState`, оголошеному в рядку 1.
 
 ```js
-assert(
-  (function () {
-    const expectedState = {
-      user: 'CamperBot',
-      status: 'offline',
-      friends: '732,982',
-      community: 'freeCodeCamp'
-    };
-    const initialState = store.getState();
-    return DeepEqual(expectedState, initialState);
-  })()
-);
+const expectedState = {
+  user: 'CamperBot',
+  status: 'offline',
+  friends: '732,982',
+  community: 'freeCodeCamp'
+};
+const initialState = store.getState();
+assert.deepEqual(expectedState, initialState);
 ```
 
 `wakeUp` та `immutableReducer` мають бути функціями.
@@ -48,21 +44,19 @@ assert(typeof wakeUp === 'function' && typeof immutableReducer === 'function');
 Відправлення дії типу `ONLINE` має оновити властивість `status` в стані на `online` та НЕ змінювати стан.
 
 ```js
-assert(
-  (function () {
-    const initialState = store.getState();
-    const isFrozen = DeepFreeze(initialState);
-    store.dispatch({ type: 'ONLINE' });
-    const finalState = store.getState();
-    const expectedState = {
-      user: 'CamperBot',
-      status: 'online',
-      friends: '732,982',
-      community: 'freeCodeCamp'
-    };
-    return isFrozen && DeepEqual(finalState, expectedState);
-  })()
-);
+
+const initialState = store.getState();
+const isFrozen = !!DeepFreeze(initialState);
+store.dispatch({ type: 'ONLINE' });
+const finalState = store.getState();
+const expectedState = {
+  user: 'CamperBot',
+  status: 'online',
+  friends: '732,982',
+  community: 'freeCodeCamp'
+};
+assert(isFrozen);
+assert.deepEqual(finalState, expectedState);
 ```
 
 Використайте `Object.assign`, щоб повернути новий стан.

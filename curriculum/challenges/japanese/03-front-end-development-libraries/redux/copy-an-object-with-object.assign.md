@@ -25,18 +25,14 @@ Redux の state とアクションが、`state` に対して `object` を処理�
 Redux ストアが存在し、1 行目で宣言された `defaultState` オブジェクトに等しい state で初期化する必要があります。
 
 ```js
-assert(
-  (function () {
-    const expectedState = {
-      user: 'CamperBot',
-      status: 'offline',
-      friends: '732,982',
-      community: 'freeCodeCamp'
-    };
-    const initialState = store.getState();
-    return DeepEqual(expectedState, initialState);
-  })()
-);
+const expectedState = {
+  user: 'CamperBot',
+  status: 'offline',
+  friends: '732,982',
+  community: 'freeCodeCamp'
+};
+const initialState = store.getState();
+assert.deepEqual(expectedState, initialState);
 ```
 
 `wakeUp` と `immutableReducer` はどちらも関数である必要があります。
@@ -48,21 +44,19 @@ assert(typeof wakeUp === 'function' && typeof immutableReducer === 'function');
 タイプ `ONLINE` のアクションのディスパッチで、state 内のプロパティ `status` を `online` に更新します。state をミューテートさせてはいけません。
 
 ```js
-assert(
-  (function () {
-    const initialState = store.getState();
-    const isFrozen = DeepFreeze(initialState);
-    store.dispatch({ type: 'ONLINE' });
-    const finalState = store.getState();
-    const expectedState = {
-      user: 'CamperBot',
-      status: 'online',
-      friends: '732,982',
-      community: 'freeCodeCamp'
-    };
-    return isFrozen && DeepEqual(finalState, expectedState);
-  })()
-);
+
+const initialState = store.getState();
+const isFrozen = !!DeepFreeze(initialState);
+store.dispatch({ type: 'ONLINE' });
+const finalState = store.getState();
+const expectedState = {
+  user: 'CamperBot',
+  status: 'online',
+  friends: '732,982',
+  community: 'freeCodeCamp'
+};
+assert(isFrozen);
+assert.deepEqual(finalState, expectedState);
 ```
 
 `Object.assign` を使用して新しい state を返します。

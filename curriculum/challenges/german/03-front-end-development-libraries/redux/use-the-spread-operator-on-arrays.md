@@ -45,16 +45,13 @@ assert(typeof addToDo === 'function' && typeof immutableReducer === 'function');
 Das Senden einer Aktion des Typs `ADD_TO_DO` im Redux-Store sollte ein `todo`-Element hinzufügen und NICHT den Zustand verändern.
 
 ```js
-assert(
-  (function () {
-    const initialState = store.getState();
-    const isFrozen = DeepFreeze(initialState);
-    store.dispatch(addToDo('__TEST__TO__DO__'));
-    const finalState = store.getState();
-    const expectedState = ['Do not mutate state!', '__TEST__TO__DO__'];
-    return isFrozen && DeepEqual(finalState, expectedState);
-  })()
-);
+const initialState = store.getState();
+const isFrozen = !!DeepFreeze(initialState);
+store.dispatch(addToDo('__TEST__TO__DO__'));
+const finalState = store.getState();
+const expectedState = ['Do not mutate state!', '__TEST__TO__DO__'];
+assert(isFrozen)
+assert.deepEqual(finalState, expectedState);
 ```
 
 Der Spread-Operator sollte verwendet werden, um einen neuen Zustand zu erhalten.

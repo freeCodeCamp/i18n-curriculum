@@ -45,16 +45,13 @@ assert(typeof addToDo === 'function' && typeof immutableReducer === 'function');
 在 Redux store 上 dispatch 一個類型爲 `ADD_TO_DO` 的 aciton，應該添加一個 `todo` 項，並且不應該改變 state。
 
 ```js
-assert(
-  (function () {
-    const initialState = store.getState();
-    const isFrozen = DeepFreeze(initialState);
-    store.dispatch(addToDo('__TEST__TO__DO__'));
-    const finalState = store.getState();
-    const expectedState = ['Do not mutate state!', '__TEST__TO__DO__'];
-    return isFrozen && DeepEqual(finalState, expectedState);
-  })()
-);
+const initialState = store.getState();
+const isFrozen = !!DeepFreeze(initialState);
+store.dispatch(addToDo('__TEST__TO__DO__'));
+const finalState = store.getState();
+const expectedState = ['Do not mutate state!', '__TEST__TO__DO__'];
+assert(isFrozen)
+assert.deepEqual(finalState, expectedState);
 ```
 
 應使用擴展運算符返回新的 state。

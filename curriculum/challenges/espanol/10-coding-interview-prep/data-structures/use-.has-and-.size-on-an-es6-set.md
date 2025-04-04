@@ -37,12 +37,8 @@ En este ejercicio pasamos un arreglo y un valor a la función checkSet(). Tu fun
 `checkSet([4, 5, 6], 3)` debería devolver [ false, 3 ]
 
 ```js
-assert(
-  (function () {
-    var test = checkSet([4, 5, 6], 3);
-    return DeepEqual(test, [false, 3]);
-  })()
-);
+var test = checkSet([4, 5, 6], 3);
+assert.deepEqual(test, [false, 3]);
 ```
 
 # --seed--

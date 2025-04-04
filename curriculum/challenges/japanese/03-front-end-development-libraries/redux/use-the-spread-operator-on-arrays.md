@@ -45,16 +45,13 @@ assert(typeof addToDo === 'function' && typeof immutableReducer === 'function');
 Redux ストアでのタイプ `ADD_TO_DO` のアクションのディスパッチで、`todo` アイテムを追加します。state をミューテートしてはいけません。
 
 ```js
-assert(
-  (function () {
-    const initialState = store.getState();
-    const isFrozen = DeepFreeze(initialState);
-    store.dispatch(addToDo('__TEST__TO__DO__'));
-    const finalState = store.getState();
-    const expectedState = ['Do not mutate state!', '__TEST__TO__DO__'];
-    return isFrozen && DeepEqual(finalState, expectedState);
-  })()
-);
+const initialState = store.getState();
+const isFrozen = !!DeepFreeze(initialState);
+store.dispatch(addToDo('__TEST__TO__DO__'));
+const finalState = store.getState();
+const expectedState = ['Do not mutate state!', '__TEST__TO__DO__'];
+assert(isFrozen)
+assert.deepEqual(finalState, expectedState);
 ```
 
 スプレッド演算子を使用して新しい state を返します。
