@@ -12,7 +12,7 @@ dashedName: create-a-model
 
 Zunächst benötigen wir ein Schema. Jedes Schema wird einer MongoDB-Sammlung zugeordnet. Sie definiert die Form der Dokumente innerhalb dieser Sammlung. Schemata sind Grundbausteine für Modelle. Sie können miteinander verschachtelt werden, um komplexe Modelle zu erzeugen – in diesem Fall aber halten wir es einfach. Mit einem Modell kannst du Instanzen deiner Objekte, sogenannte Dokumente, erstellen.
 
-Gitpod ist ein echter Server, und bei echten Servern erfolgen die Interaktionen mit der Datenbank in Handler-Funktionen. Diese Funktionen werden ausgeführt, wenn ein Ereignis eintritt (z.B. wenn jemand auf einen API-Endpunkt zugreift). In diesen Übungen werden wir denselben Ansatz verfolgen. Die `done()`-Funktion ist ein Callback über welchen uns mittgeteilt wird, dass wir nach Abschluss einer asynchronen Operation (Einfügen, Suchen, Aktualisieren, Löschen) fortfahren können. Sie folgt hierbei der Node-Konvention und sollte mit `done(null, data)` bei Erfolg oder `done(err)` bei einem Fehler aufgerufen werden.
+In servers, the interactions with the database happen in handler functions. Diese Funktionen werden ausgeführt, wenn ein Ereignis eintritt (z.B. wenn jemand auf einen API-Endpunkt zugreift). We'll follow the same approach in these exercises. Die `done()`-Funktion ist ein Callback über welchen uns mittgeteilt wird, dass wir nach Abschluss einer asynchronen Operation (Einfügen, Suchen, Aktualisieren, Löschen) fortfahren können. Sie folgt hierbei der Node-Konvention und sollte mit `done(null, data)` bei Erfolg oder `done(err)` bei einem Fehler aufgerufen werden.
 
 Achtung – bei Interaktionen mit entfernten Diensten können Fehler auftreten!
 

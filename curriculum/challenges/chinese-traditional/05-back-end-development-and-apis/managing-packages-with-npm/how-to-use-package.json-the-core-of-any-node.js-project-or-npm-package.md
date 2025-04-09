@@ -11,7 +11,6 @@ dashedName: how-to-use-package-json-the-core-of-any-node-js-project-or-npm-packa
 Working on these challenges will involve you writing your code using one of the following methods:
 
 - Clone <a href="https://github.com/freeCodeCamp/boilerplate-npm/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete these challenges locally.
-- Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-npm/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete these challenges. Learn <a href="https://forum.freecodecamp.org/t/how-to-use-gitpod-in-the-curriculum/668669#how-can-i-share-my-workspace-to-get-help-8" target="_blank" rel="noopener noreferrer nofollow">how to share your Gitpod workspace to get help</a>.
 - 使用你選擇的網站生成器來完成項目。 需要包含我們 GitHub 倉庫的所有文件。
 
 The `package.json` file is the center of any Node.js project or npm package. 它存儲有關你的項目的信息。 It consists of a single JSON object where information is stored in key-value pairs. 只有兩個必需的字段：`name` 和 `version`，但提供附加信息是一個好習慣。
@@ -31,8 +30,6 @@ If you look at the file tree of your project, you will find the `package.json` f
 Add your name as the `author` of the project in the `package.json` file.
 
 **注意：** 正在修改的是一個 JSON，所有的字段名必須用雙引號（"）包裹，也必須用逗號（,）分割。
-
-如果你正在使用 Gitpod，請確保應用程序正在運行、預覽窗口已打開。 複製預覽窗口的 URL 並粘貼到下面的解決方案鏈接輸入框中。
 
 # --hints--
 

@@ -22,7 +22,7 @@ function(req, res) {
 
 # --instructions--
 
-`app.get()` メソッドを使用して、`/` (root) パスに一致する GET リクエストに対して文字列「Hello Express」を提供してください。 ログを見てコードが動作することを確認し、Gitpod を使用している場合はプレビューで結果を確認してください。
+`app.get()` メソッドを使用して、`/` (root) パスに一致する GET リクエストに対して文字列「Hello Express」を提供してください。 Be sure that your code works by looking at the logs.
 
 ** 注: ** レッスンのコードはすべて、あらかじめ用意されている数行のコードの間に追加する必要があります。
 

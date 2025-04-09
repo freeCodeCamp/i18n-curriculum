@@ -8,13 +8,13 @@ dashedName: ask-browsers-to-access-your-site-via-https-only-with-helmet-hsts
 
 # --description--
 
-As a reminder, this project is being built upon the following starter project on <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-infosec/" target="_blank" rel="noopener noreferrer nofollow">Gitpod</a>, or cloned from <a href="https://github.com/freeCodeCamp/boilerplate-infosec/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>. Learn <a href="https://forum.freecodecamp.org/t/how-to-use-gitpod-in-the-curriculum/668669#how-can-i-share-my-workspace-to-get-help-8" target="_blank" rel="noopener noreferrer nofollow">how to share your Gitpod workspace to get help</a>.
+As a reminder, this project is being built upon the following starter project cloned from <a href="https://github.com/freeCodeCamp/boilerplate-infosec/" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.
 
 HTTP Strict Transport Security (HSTS) é uma política de segurança na web que ajuda a proteger sites contra ataques com protocolo rebaixado e sequestro de cookies. Se seu site puder ser acessado via HTTPS, você pode pedir aos navegadores do usuário que evitem o uso de HTTP não seguro. Ao definir o cabeçalho Strict-Transport-Security, você avisa aos navegadores para usar HTTPS para futuras solicitações em um período de tempo específico. Isso funcionará para as solicitações que chegarem após o pedido inicial.
 
 # --instructions--
 
-Configure `helmet.hsts()` para usar HTTPS pelos próximos 90 dias. Passe o objeto de configuração `{maxAge: timeInSeconds, force: true}`. Você pode criar uma variável `ninetyDaysInSeconds = 90*24*60*60;` para usar para `timeInSeconds`. O Gitpod já tem uma versão hsts habilitada. Para sobrescrever suas configurações, você precisa definir o campo "force" como true no objeto de configuração. Nós vamos interceptar e restaurar o cabeçalho do Gitpod depois de inspecioná-lo para testes.
+Configure `helmet.hsts()` para usar HTTPS pelos próximos 90 dias. Passe o objeto de configuração `{maxAge: timeInSeconds, force: true}`. Você pode criar uma variável `ninetyDaysInSeconds = 90*24*60*60;` para usar para `timeInSeconds`.
 
 Observação: a configuração de HTTPS em um site personalizado requer a aquisição de um domínio e um certificado SSL/TLS.
 
