@@ -11,7 +11,6 @@ dashedName: how-to-use-package-json-the-core-of-any-node-js-project-or-npm-packa
 Working on these challenges will involve you writing your code using one of the following methods:
 
 - Clone <a href="https://github.com/freeCodeCamp/boilerplate-npm/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete these challenges locally.
-- Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-npm/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete these challenges. Learn <a href="https://forum.freecodecamp.org/t/how-to-use-gitpod-in-the-curriculum/668669#how-can-i-share-my-workspace-to-get-help-8" target="_blank" rel="noopener noreferrer nofollow">how to share your Gitpod workspace to get help</a>.
 - Benutze einen Website-Builder deiner Wahl, um das Projekt abzuschließen. Achte darauf, alle Dateien von unserem GitHub-Repo zu integrieren.
 
 The `package.json` file is the center of any Node.js project or npm package. Es speichert Informationen über dein Projekt. It consists of a single JSON object where information is stored in key-value pairs. There are only two required fields; `name` and `version`, but it’s good practice to provide additional information.
@@ -31,8 +30,6 @@ Eine der häufigsten Angaben in dieser Datei stellt das Feld `author` dar. Sie g
 Add your name as the `author` of the project in the `package.json` file.
 
 **Hinweis:** Denk daran, dass du JSON schreibst, daher müssen alle Feldnamen in Anführungszeichen (") gesetzt und durch ein Komma (,) getrennt werden.
-
-If you are using Gitpod, make sure the app is running and the preview window is open. Copy the preview window's URL and paste it into the Solution Link input below.
 
 # --hints--
 

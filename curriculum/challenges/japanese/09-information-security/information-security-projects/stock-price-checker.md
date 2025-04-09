@@ -15,7 +15,6 @@ dashedName: stock-price-checker
 プロジェクトに取り組むにあたり、以下の方法のうち 1 つを用いてコードを記述します。
 
 -   <a href="https://github.com/freeCodeCamp/boilerplate-project-stockchecker/" target="_blank" rel="noopener noreferrer nofollow">GitHub リポジトリ</a>をクローンし、ローカル環境でプロジェクトを完了させる。
--   <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-project-stockchecker/" target="_blank" rel="noopener noreferrer nofollow">Gitpod スタータープロジェクト</a>を使用して、プロジェクトを完了させる。 ※質問などの際に <a href="https://forum.freecodecamp.org/t/how-to-use-gitpod-in-the-curriculum/668669#how-can-i-share-my-workspace-to-get-help-8" target="_blank" rel="noopener noreferrer nofollow">Gitpod ワークスペースを共有する方法はこちらを参照</a>してください。
 -   任意のサイトビルダーを使用してプロジェクトを完了させる。 ※必ず上記 GitHub リポジトリのすべてのファイルを取り込むようにしてください。
 
 # --instructions--

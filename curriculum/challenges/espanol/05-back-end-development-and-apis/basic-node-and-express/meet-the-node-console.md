@@ -11,12 +11,11 @@ dashedName: meet-the-node-console
 Trabajar en estos desafíos implica escribir tu código usando uno de los siguientes métodos:
 
 - Clone <a href="https://github.com/freeCodeCamp/boilerplate-express/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete these challenges locally.
-- Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-express/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete these challenges. Learn <a href="https://forum.freecodecamp.org/t/how-to-use-gitpod-in-the-curriculum/668669#how-can-i-share-my-workspace-to-get-help-8" target="_blank" rel="noopener noreferrer nofollow">how to share your Gitpod workspace to get help</a>.
 - Usa un constructor de sitios de tu elección para completar el proyecto. Asegúrate de incorporar todos los archivos de nuestro repositorio de GitHub.
 
 Durante el proceso de desarrollo, es importante poder comprobar lo que ocurre en el código.
 
-Node es solo un entorno JavaScript. Al igual que el JavaScript del lado cliente, puedes hacer uso de la consola para mostrar información útil para la depuración. En tu máquina, varía la salida de la consola en un terminal. En Gitpod, un terminal está abierto en la parte inferior del editor de forma predeterminada.
+Node es solo un entorno JavaScript. Al igual que el JavaScript del lado cliente, puedes hacer uso de la consola para mostrar información útil para la depuración. En tu máquina, varía la salida de la consola en un terminal.
 
 Recomendamos mantener abierto el terminal mientras desarrolles estos retos. Al leer el resultado en el terminal, puedes ver cualquier error que pueda producirse.
 

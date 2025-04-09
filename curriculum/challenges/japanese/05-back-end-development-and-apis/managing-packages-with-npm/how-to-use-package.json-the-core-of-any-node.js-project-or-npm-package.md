@@ -11,7 +11,6 @@ dashedName: how-to-use-package-json-the-core-of-any-node-js-project-or-npm-packa
 これらのチャレンジに取り組むにあたり、以下の方法のうち 1 つを用いてコードを記述します。
 
 - <a href="https://github.com/freeCodeCamp/boilerplate-npm/" target="_blank" rel="noopener noreferrer nofollow">GitHub リポジトリ</a>をクローンし、ローカル環境でプロジェクトを完了させる。
-- <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-npm/" target="_blank" rel="noopener noreferrer nofollow">Gitpod スタータープロジェクト</a>を使用して、チャレンジを完了させる。 ※質問などの際に <a href="https://forum.freecodecamp.org/t/how-to-use-gitpod-in-the-curriculum/668669#how-can-i-share-my-workspace-to-get-help-8" target="_blank" rel="noopener noreferrer nofollow">Gitpod ワークスペースを共有する方法はこちらを参照</a>してください。
 - 使い慣れたサイトビルダーを使用してプロジェクトを完了させる。 必ず GitHub リポジトリのすべてのファイルを取り込む。
 
 `package.json` ファイルは、Node.js プロジェクトまたは npm パッケージの中心となります。 これはあなたのプロジェクトに関する情報を保存します。 ファイルは単一の JSON オブジェクトで構成され、そこに情報がキーと値のペアで保存されます。 必須フィールドは `name` と `version` の二つだけですが、追加の情報も提供すると良いでしょう。
@@ -31,8 +30,6 @@ dashedName: how-to-use-package-json-the-core-of-any-node-js-project-or-npm-packa
 あなたの名前を、プロジェクトの `author` として `package.json` ファイルに追加してください。
 
 **注: ** JSON を記述しているので、すべてのフィールド名で二重引用符 (") を使用し、コンマ (,) で区切る必要があります。
-
-Gitpod を使用している場合は、アプリが実行中でプレビューウィンドウが開いていることを確認してください。 プレビューウィンドウの URL をコピーして、以下の「回答のリンク」入力欄に貼り付けてください。
 
 # --hints--
 

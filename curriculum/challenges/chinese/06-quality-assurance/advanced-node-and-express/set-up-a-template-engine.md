@@ -11,7 +11,6 @@ dashedName: set-up-a-template-engine
 Working on these challenges will involve you writing your code using one of the following methods:
 
 - Clone <a href="https://github.com/freeCodeCamp/boilerplate-advancednode/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete these challenges locally.
-- Use <a href="https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/boilerplate-advancednode/" target="_blank" rel="noopener noreferrer nofollow">our Gitpod starter project</a> to complete these challenges. Learn <a href="https://forum.freecodecamp.org/t/how-to-use-gitpod-in-the-curriculum/668669#how-can-i-share-my-workspace-to-get-help-8" target="_blank" rel="noopener noreferrer nofollow">how to share your Gitpod workspace to get help</a>.
 - 使用你选择的网站生成器来完成项目。 需要包含我们 GitHub 仓库的所有文件。
 
 你可以在应用的模版引擎中使用静态模板文件（如那些写在 *Pug* 里的）。 At runtime, the template engine replaces variables in a template file with actual values which can be supplied by your server. 在运行时，模版引擎会用服务端的真实数据替换掉模版文件中的变量，然后将模版转译成发送给客户端的 HTML 静态文件。 这样可以轻松地构造 HTML 页面，允许在页面直接显示变量内容而不需要发送 API 请求。
