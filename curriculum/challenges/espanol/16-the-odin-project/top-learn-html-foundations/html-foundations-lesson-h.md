@@ -7,25 +7,25 @@ dashedName: html-foundations-lesson-h
 
 # --description--
 
-Muchos recursos útiles ahí afuera siguen refiriéndose a HTML y CSS como lenguajes de programación, pero si quieres ser técnico, etiquetarlos así no es del todo exacto. Esto se debe a que solo se preocupan por presentar información. No se usan para programar lógica. JavaScript, que aprenderás en la próxima sección, es un lenguaje de programación porque se usa para hacer que las páginas web hagan cosas. Sin embargo, hay mucho que puedes hacer solo con HTML y CSS, y definitivamente los necesitarás ambos. A lo largo de nuestro currículo, las siguientes lecciones se enfocan en darte las herramientas que necesitas para tener éxito una vez que llegues al contenido de JavaScript.
+HTML and CSS are primarily concerned with presenting information. No se usan para programar lógica. JavaScript, which you will learn in the next section, is used to make webpages do things. There is quite a lot you can do with just HTML and CSS, and you will definitely need them both. A lo largo de nuestro currículo, las siguientes lecciones se enfocan en darte las herramientas que necesitas para tener éxito una vez que llegues al contenido de JavaScript.
 
 # --questions--
 
 ## --text--
 
-¿Por qué HTML y CSS no se clasifican típicamente como lenguajes de programación?
+What is one way in which JavaScript is different than HTML and CSS?
 
 ## --answers--
 
-Carecen de la capacidad para crear páginas web.
+JavaScript is primarily concerned with presenting information.
 
 ---
 
-Se enfocan en presentar información en lugar de programar lógica.
+JavaScript makes webpages take actions.
 
 ---
 
-Son tecnologías obsoletas.
+You do not need HTML/CSS if you know JavaScript.
 
 ## --video-solution--
 

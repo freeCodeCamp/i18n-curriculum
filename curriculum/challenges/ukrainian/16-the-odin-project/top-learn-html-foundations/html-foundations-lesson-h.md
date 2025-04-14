@@ -7,25 +7,25 @@ dashedName: html-foundations-lesson-h
 
 # --description--
 
-Багато ресурсів продовжують називати HTML та CSS мовами програмування, але, якщо розібратися з технічної точки зору, це не зовсім правильно. Причина в тому, що їх використовують лише для представлення інформації. Їх не використовують для створення логіки програми. JavaScript, який ви вивчите в наступному розділі, є мовою програмування, оскільки його використовують для того, щоб вебсторінки виконували певні дії. Однак багато чого можна зробити, використовуючи лише HTML та CSS, тому вони обов’язково знадобляться. Наступні уроки нашої навчальної програми зосереджені на інструментах, які необхідно осягнути перед тим, як перейти до JavaScript.
+HTML and CSS are primarily concerned with presenting information. Їх не використовують для створення логіки програми. JavaScript, which you will learn in the next section, is used to make webpages do things. There is quite a lot you can do with just HTML and CSS, and you will definitely need them both. Наступні уроки нашої навчальної програми зосереджені на інструментах, які необхідно осягнути перед тим, як перейти до JavaScript.
 
 # --questions--
 
 ## --text--
 
-Чому HTML та CSS зазвичай не класифікуються як мови програмування?
+What is one way in which JavaScript is different than HTML and CSS?
 
 ## --answers--
 
-Їм не вистачає здатності створювати вебсторінки.
+JavaScript is primarily concerned with presenting information.
 
 ---
 
-Вони зосереджуються на відтворенні інформації, а не логіці програмування.
+JavaScript makes webpages take actions.
 
 ---
 
-Це застарілі технології.
+You do not need HTML/CSS if you know JavaScript.
 
 ## --video-solution--
 
