@@ -26,7 +26,7 @@ assert.lengthOf(code.match(/<\/section>/ig) ,2);
 O elemento preexistente `main` deve permanecer o mesmo.
 
 ```js
-assert.lengthOf (document.querySelectorAll('main'), 1);
+assert.lengthOf(document.querySelectorAll('main'), 1);
 ```
 
 O novo elemento `section` deve estar dentro do elemento `main`.

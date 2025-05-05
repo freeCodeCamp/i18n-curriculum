@@ -26,7 +26,7 @@ assert.lengthOf(code.match(/<\/section>/ig) ,2);
 你不应该改变你现有的 `main` 元素。
 
 ```js
-assert.lengthOf (document.querySelectorAll('main'), 1);
+assert.lengthOf(document.querySelectorAll('main'), 1);
 ```
 
 你的新 `section` 元素应该嵌套在 `main` 元素中。

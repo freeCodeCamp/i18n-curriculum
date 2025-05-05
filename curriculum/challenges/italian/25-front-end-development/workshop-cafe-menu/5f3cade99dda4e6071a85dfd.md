@@ -26,7 +26,7 @@ assert.lengthOf(code.match(/<\/section>/ig) ,2);
 Non dovresti cambiare l'elemento `main` esistente.
 
 ```js
-assert.lengthOf (document.querySelectorAll('main'), 1);
+assert.lengthOf(document.querySelectorAll('main'), 1);
 ```
 
 Il nuovo elemento `section` dovrebbe essere annidato nell'elemento `main`.

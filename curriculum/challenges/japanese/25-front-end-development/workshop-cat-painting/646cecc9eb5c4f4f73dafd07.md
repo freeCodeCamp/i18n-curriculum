@@ -14,19 +14,19 @@ Move the left ear into position by setting a position of `absolute`, a `top` of 
 `.cat-left-ear` セレクターの `position` プロパティを `absolute` に設定してください。 セミコロンを忘れないようにしましょう。
 
 ```js
-assert(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.position === 'absolute')
+assert.equal(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.position, 'absolute')
 ```
 
 `.cat-left-ear` セレクターの `top` プロパティを `-26px` に設定してください。
 
 ```js
-assert(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.top === '-26px')
+assert.equal(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.top, '-26px')
 ```
 
 `.cat-left-ear` セレクターの `left` プロパティを `-31px` に設定してください。
 
 ```js
-assert(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.left === '-31px')
+assert.equal(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.left, '-31px')
 ```
 
 # --seed--

@@ -29,7 +29,7 @@ A classe `established` deve definir o texto como itálico.
 const establishElement = document.querySelector('.established');
 
 const establishedFont = window.getComputedStyle(establishElement)?.getPropertyValue('font-style');
-assert.equal(establishedFont,"italic");
+assert.equal(establishedFont, "italic");
 ```
 
 # --seed--

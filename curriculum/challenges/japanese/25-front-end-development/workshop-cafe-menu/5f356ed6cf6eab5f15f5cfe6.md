@@ -22,7 +22,7 @@ assert.strictEqual(document.querySelector('div')?.id, 'menu');
 終了タグ `</div>` が必要です。
 
 ```js
-assert(code.match(/<\/div>/i));
+assert.match(code, /<\/div>/i);
 ```
 
 既存の `body` 要素を変更しないでください。 終了タグを削除していないか確認してください。
@@ -31,7 +31,7 @@ assert(code.match(/<\/div>/i));
 assert.lengthOf(document.querySelectorAll('body'), 1);
 ```
 
-`div` タグは `body` の中にネストされている必要があります。
+Your `div` element should be nested in the `body`.
 
 ```js
 assert.equal(document.querySelector('div')?.parentElement?.tagName, 'BODY');
@@ -79,4 +79,3 @@ h1, h2, p {
   text-align: center;
 }
 ```
-

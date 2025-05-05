@@ -12,7 +12,7 @@ In this lab, you'll practice using CSS colors by designing boxes.
 
 **Мета:** виконайте історію користувача, щоб завершити лабораторну роботу. Усі тести мають бути успішними.
 
-**User Stories:**
+**Історія користувача:**
 
 1. You should set the background color for `body` to `#f4f4f4`.
 2. You should have a `div` with a class of `color-grid` to hold all your color elements.

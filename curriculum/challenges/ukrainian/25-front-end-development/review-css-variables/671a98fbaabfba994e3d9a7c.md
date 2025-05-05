@@ -79,4 +79,4 @@ body {
 
 # --assignment--
 
-Review the CSS Variables topics and concepts.
+Пригадайте поняття з теми «Змінні в CSS».

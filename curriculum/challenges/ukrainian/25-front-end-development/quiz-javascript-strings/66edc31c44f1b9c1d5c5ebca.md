@@ -7,7 +7,7 @@ dashedName: quiz-javascript-strings
 
 # --description--
 
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
+Вам потрібно правильно відповісти на принаймні 18 запитань із 20, щоб скласти тест.
 
 # --quizzes--
 

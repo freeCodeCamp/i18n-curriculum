@@ -31,7 +31,7 @@ Você não dever alterar o elemento `body` existente. Certifique-se de que você
 assert.lengthOf(document.querySelectorAll('body'), 1);
 ```
 
-O elemento `div` deve estar dentro do elemento `body`.
+Your `div` element should be nested in the `body`.
 
 ```js
 assert.equal(document.querySelector('div')?.parentElement?.tagName, 'BODY');
@@ -79,4 +79,3 @@ h1, h2, p {
   text-align: center;
 }
 ```
-
