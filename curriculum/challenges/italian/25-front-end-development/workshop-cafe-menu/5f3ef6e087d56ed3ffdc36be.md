@@ -29,7 +29,7 @@ Il testo dell'elemento di classe `established` dovrebbe essere in corsivo.
 const establishElement = document.querySelector('.established');
 
 const establishedFont = window.getComputedStyle(establishElement)?.getPropertyValue('font-style');
-assert.equal(establishedFont,"italic");
+assert.equal(establishedFont, "italic");
 ```
 
 # --seed--

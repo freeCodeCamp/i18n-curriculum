@@ -26,7 +26,7 @@ assert.lengthOf(code.match(/<\/section>/ig) ,2);
 Hupaswi kubadilisha kipengele cha `main` kilichopo.
 
 ```js
-assert.lengthOf (document.querySelectorAll('main'), 1);
+assert.lengthOf(document.querySelectorAll('main'), 1);
 ```
 
 Kipengee chako kipya cha `section` kinapaswa kuwekwa katika kipengele cha `main`.

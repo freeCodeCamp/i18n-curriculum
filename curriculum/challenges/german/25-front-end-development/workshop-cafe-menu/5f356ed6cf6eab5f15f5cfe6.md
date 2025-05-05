@@ -22,7 +22,7 @@ assert.strictEqual(document.querySelector('div')?.id, 'menu');
 Du solltest ein abschließendes `</div>`-Tag haben.
 
 ```js
-assert(code.match(/<\/div>/i));
+assert.match(code, /<\/div>/i);
 ```
 
 Du solltest dein vorhandenes `body`-Element nicht verändern. Stelle sicher, dass du das abschließende Tag nicht gelöscht hast.
@@ -31,7 +31,7 @@ Du solltest dein vorhandenes `body`-Element nicht verändern. Stelle sicher, das
 assert.lengthOf(document.querySelectorAll('body'), 1);
 ```
 
-Dein `div`-Tag sollte innerhalb deines `body`-Elements verschachtelt sein.
+Your `div` element should be nested in the `body`.
 
 ```js
 assert.equal(document.querySelector('div')?.parentElement?.tagName, 'BODY');
@@ -79,4 +79,3 @@ h1, h2, p {
   text-align: center;
 }
 ```
-

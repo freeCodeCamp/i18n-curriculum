@@ -51,4 +51,4 @@ dashedName: review-css-animations
 
 # --assignment--
 
-Review the CSS Animations topics and concepts.
+Пригадайте поняття з теми «Анімації в CSS».

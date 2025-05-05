@@ -8,7 +8,7 @@ dashedName: how-can-you-check-if-an-array-contains-a-certain-value
 
 # --description--
 
-Watch the video or read the transcript and answer the questions below.
+Перегляньте відео або прочитайте його текстову версію. Дайте відповіді на запитання нижче.
 
 # --transcript--
 

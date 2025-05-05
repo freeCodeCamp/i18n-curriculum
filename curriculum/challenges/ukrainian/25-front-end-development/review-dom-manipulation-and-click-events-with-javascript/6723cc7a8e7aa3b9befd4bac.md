@@ -387,4 +387,4 @@ closeButton.addEventListener('click', () => {
 
 # --assignment--
 
-Review the DOM Manipulation and Click Events with JavaScript topics and concepts.
+Пригадайте поняття з теми «Маніпуляція DOM та події Click в JavaScript».

@@ -22,7 +22,7 @@ assert.strictEqual(document.querySelector('div')?.id, 'menu');
 你應該有一個 `</div>` 結束標籤。
 
 ```js
-assert(code.match(/<\/div>/i));
+assert.match(code, /<\/div>/i);
 ```
 
 你不應該改變你現有的 `body`元素。 確保你沒有刪除結束標籤。
@@ -31,7 +31,7 @@ assert(code.match(/<\/div>/i));
 assert.lengthOf(document.querySelectorAll('body'), 1);
 ```
 
-你的 `div` 元素應該嵌套在你的 `body` 元素中。
+Your `div` element should be nested in the `body`.
 
 ```js
 assert.equal(document.querySelector('div')?.parentElement?.tagName, 'BODY');
@@ -79,4 +79,3 @@ h1, h2, p {
   text-align: center;
 }
 ```
-

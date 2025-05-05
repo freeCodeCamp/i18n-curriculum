@@ -22,7 +22,7 @@ assert.strictEqual(document.querySelector('div')?.id, 'menu');
 Ви повинні мати кінцевий тег `</div>`.
 
 ```js
-assert(code.match(/<\/div>/i));
+assert.match(code, /<\/div>/i);
 ```
 
 Не змінюйте наявний елемент `body`. Переконайтеся, що не видалили кінцевий тег.
@@ -31,7 +31,7 @@ assert(code.match(/<\/div>/i));
 assert.lengthOf(document.querySelectorAll('body'), 1);
 ```
 
-Тег `div` має бути вкладеним в `body`.
+Your `div` element should be nested in the `body`.
 
 ```js
 assert.equal(document.querySelector('div')?.parentElement?.tagName, 'BODY');
@@ -79,4 +79,3 @@ h1, h2, p {
   text-align: center;
 }
 ```
-

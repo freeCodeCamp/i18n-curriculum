@@ -33,7 +33,7 @@ dashedName: step-32
 Ви повинні мати елемент `option` зі значенням `"poor"`.
 
 ```js
-assert(document.querySelector('fieldset:nth-of-type(4) select#food option[value="poor"]'));
+assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="poor"]'));
 ```
 
 Елемент `option` зі значенням `"poor"` повинен мати текст `"Poor"`.
@@ -45,7 +45,7 @@ assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food o
 Ви повинні мати елемент `option` зі значенням `"satisfactory"`.
 
 ```js
-assert(document.querySelector('fieldset:nth-of-type(4) select#food option[value="satisfactory"]'));
+assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="satisfactory"]'));
 ```
 
 Елемент `option` зі значенням `"satisfactory"` повинен мати текст `"Satisfactory"`.
@@ -57,7 +57,7 @@ assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food o
 Ви повинні мати елемент `option` зі значенням `"good"`.
 
 ```js
-assert(document.querySelector('fieldset:nth-of-type(4) select#food option[value="good"]'));
+assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="good"]'));
 ```
 
 Елемент `option` зі значенням `"good"` повинен мати текст `"Good"`.
@@ -70,7 +70,7 @@ assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food o
 Ви повинні мати елемент `option` зі значенням `"very-good"`.
 
 ```js
-assert(document.querySelector('fieldset:nth-of-type(4) select#food option[value="very-good"]'));
+assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="very-good"]'));
 ```
 
 Елемент `option` зі значенням `"very-good"` повинен мати текст `"Very Good"`.
@@ -82,7 +82,7 @@ assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food o
 Ви повинні мати елемент `option` зі значенням `"excellent"`.
 
 ```js
-assert(document.querySelector('fieldset:nth-of-type(4) select#food option[value="excellent"]'));
+assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="excellent"]'));
 ```
 
 Елемент `option` зі значенням `"excellent"` повинен мати текст `"Excellent"`.
@@ -95,7 +95,7 @@ assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food o
 Ви повинні мати елемент `option` з атрибутом `selected` зі значенням `"excellent"`.
 
 ```js
-assert(document.querySelector('fieldset:nth-of-type(4) select#food option[value="excellent"][selected]'));
+assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="excellent"][selected]'));
 ```
 
 # --seed--

@@ -29,7 +29,7 @@ assert.match(document.querySelector('.established')?.innerText, /Est\.\s2020/i);
 const establishElement = document.querySelector('.established');
 
 const establishedFont = window.getComputedStyle(establishElement)?.getPropertyValue('font-style');
-assert.equal(establishedFont,"italic");
+assert.equal(establishedFont, "italic");
 ```
 
 # --seed--

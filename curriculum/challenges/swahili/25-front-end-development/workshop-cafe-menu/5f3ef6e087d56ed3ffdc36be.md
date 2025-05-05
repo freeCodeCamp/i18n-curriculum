@@ -29,7 +29,7 @@ Kipengele chako cha class ya `established` kinapaswa kuwa na maandishi ya italik
 const establishElement = document.querySelector('.established');
 
 const establishedFont = window.getComputedStyle(establishElement)?.getPropertyValue('font-style');
-assert.equal(establishedFont,"italic");
+assert.equal(establishedFont, "italic");
 ```
 
 # --seed--

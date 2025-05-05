@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c442eddfaeb5bd18
-title: Побудуйте сторінку данини
+title: Створіть пам’ятну сторінку
 challengeType: 25
 demoType: onClick
 dashedName: build-a-tribute-page
@@ -12,15 +12,15 @@ dashedName: build-a-tribute-page
 
 **Історія користувача:**
 
-1. Ваша пам'ятна сторінка повинна містити елемент `main` з відповідним `id` зі значенням `main`, який містить всі інші елементи.
-1. Ви повинні бачити елемент з `id` зі значенням `title`, який містить рядок (наприклад, текст), що описує предмет пам'ятної сторінки (наприклад, «Доктор Норман Борлаґ»).
-1. You should see either a `figure` or a `div` element with an `id` of `img-div`.
-1. В межах елемента `#img-div` ви маєте бачити елемент `img` з відповідним `id="image"`.
-1. В межах елемента `#img-div` ви маєте бачити елемент з відповідним `id="img-caption"`, який містить текст, що описує зображення, показане в `#img-div`.
-1. Ви маєте бачити елемент з відповідним `id="tribute-info"`, який містить текст, що описує предмет пам'ятної сторінки.
-1. Ви маєте бачити елемент `a` з відповідним `id="tribute-link"`, який посилає на зовнішній сайт, що містить додаткову інформацію про предмет пам'ятної сторінки. ПІДКАЗКА: ви повинні надати своєму елементу атрибут `target` та встановити його на `_blank`, щоб ваше посилання відкривалося в новій вкладці.
-1. `#image` повинен використовувати властивості `max-width` та `height`, щоб змінювати розмір відповідно до ширини батьківського елемента, не перевищуючи початковий розмір.
-1. Ваш елемент `img` повинен бути зцентрованим відповідно до батьківського елемента.
+1. Пам’ятна сторінка має містити елемент `main` з відповідним `id` зі значенням `main`, який містить всі інші елементи.
+1. Ви повинні бачити елемент з `id` зі значенням `title`, який містить рядок (тобто текст) з назвою пам’ятної сторінки (наприклад, Норман Борлаґ).
+1. Ви повинні бачити елемент `figure` або `div` з `id` зі значенням `img-div`.
+1. В межах елемента `#img-div` ви повинні бачити елемент `img` з відповідним `id="image"`.
+1. В межах елемента `#img-div` ви повинні бачити елемент з відповідним `id="img-caption"` і який містить опис зображення, показаного в `#img-div`.
+1. Ви повинні бачити елемент з відповідним `id="tribute-info"`, який містить опис пам’ятної сторінки.
+1. Ви повинні бачити елемент `a` з відповідним `id="tribute-link"`, який направляє на зовнішній сайт, що містить додаткову інформацію про тему пам’ятної сторінки. ПІДКАЗКА: елементу потрібно надати атрибут `target` та встановити його значення на `_blank`, щоб посилання відкривалося в новій вкладці.
+1. Елемент `#image` має використовувати властивості `max-width` та `height`, щоб змінювати розмір відповідно до ширини батьківського елемента, не перевищуючи початковий розмір.
+1. Елемент `img` має бути відцентрованим відповідно до батьківського елемента.
 
 **Примітка:** не забудьте прив’язати таблицю стилів до HTML та застосувати CSS.
 
@@ -34,7 +34,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.tagName, 'MAIN');
 ```
 
-Your `#img-div`, `#image`, `#img-caption`, `#tribute-info`, and `#tribute-link` should all be descendants of `#main`.
+`#img-div`, `#image`, `#img-caption`, `#tribute-info` та `#tribute-link` мають бути нащадками елемента `#main`.
 
 ```js
 const el1 = document.querySelector('#main #img-div');
@@ -80,14 +80,14 @@ assert.isNotNull(el);
 assert.strictEqual(el.tagName, 'IMG');
 ```
 
-`#image` повинен бути нащадком `#img-div`.
+`#image` має бути нащадком `#img-div`.
 
 ```js
 const el = document.querySelector('#img-div #image');
 assert.isNotNull(el);
 ```
 
-You should have a `figcaption` or `div` element with an `id` of `img-caption`.
+Ви повинні мати елемент `figcaption` або `div` з `id` зі значенням `img-caption`.
 
 ```js
 const el = document.getElementById('img-caption');
@@ -95,7 +95,7 @@ assert.isNotNull(el);
 assert.isTrue(el.tagName === 'DIV' || el.tagName === 'FIGCAPTION');
 ```
 
-`#img-caption` повинен бути нащадком `#img-div`.
+`#img-caption` має бути нащадком `#img-div`.
 
 ```js
 const el = document.querySelector('#img-div #img-caption');
@@ -150,7 +150,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.target, '_blank');
 ```
 
-Your `img` element should have a `display` of `block`.
+Елемент `img` повинен мати `display` зі значенням `block`.
 
 ```js
 const img = document.getElementById('image');
@@ -168,7 +168,7 @@ const style = imgStyle?.getPropertyValue('max-width');
 assert.strictEqual(style, '100%');
 ```
 
-Your `#image` should have a `height` of `auto`.
+`#image` повинен мати `height` зі значенням `auto`.
 
 ```js
 // taken from the testable-projects repo
@@ -182,7 +182,7 @@ img?.style.setProperty('display', oldDisplayValue, oldDisplayPriority);
 assert.strictEqual(heightValue, 'auto');
 ```
 
-`#image` повинен бути зцентрованим відповідно до батьківського елемента.
+`#image` має бути відцентрованим відповідно до батьківського елемента.
 
 ```js
 // taken from the testable-projects repo

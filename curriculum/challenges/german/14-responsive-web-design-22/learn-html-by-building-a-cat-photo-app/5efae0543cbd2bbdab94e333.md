@@ -38,7 +38,7 @@ const catsImg = document.querySelectorAll('figure > img')[1];
 assert.exists(catsImg);
 ```
 
-The third image should have a `src` attribute set to `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
+Das dritte Bild sollte ein `src` Attribut haben, das auf `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg` gesetzt ist.
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];

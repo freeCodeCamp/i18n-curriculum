@@ -22,7 +22,7 @@ assert.strictEqual(document.querySelector('div')?.id, 'menu');
 Você deve acrescentar uma tag de fechamento `</div>`.
 
 ```js
-assert(code.match(/<\/div>/i));
+assert.match(code, /<\/div>/i);
 ```
 
 Você não dever alterar o elemento `body` existente. Certifique-se de que você não excluiu a tag de fechamento.
@@ -31,7 +31,7 @@ Você não dever alterar o elemento `body` existente. Certifique-se de que você
 assert.lengthOf(document.querySelectorAll('body'), 1);
 ```
 
-O elemento `div` deve estar dentro do elemento `body`.
+Your `div` element should be nested in the `body`.
 
 ```js
 assert.equal(document.querySelector('div')?.parentElement?.tagName, 'BODY');
@@ -79,4 +79,3 @@ h1, h2, p {
   text-align: center;
 }
 ```
-
