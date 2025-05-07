@@ -46,14 +46,14 @@ Erfülle die folgenden User Stories und bestehe alle Tests, um dieses Projekt ab
 
 # --hints--
 
-You should have an `input` element with an `id` of `"number"`.
+Du solltest ein `input`-Element mit einer `id` von `number` haben.
 
 ```js
 const el = document.getElementById('number');
 assert.strictEqual(el?.nodeName?.toLowerCase(), 'input');
 ```
 
-You should have a `button` element with an `id` of `"convert-btn"`.
+Du solltest ein `button`-Element mit einer `id` von `convert-btn` haben.
 
 ```js
 const el = document.getElementById('convert-btn');
