@@ -64,7 +64,7 @@ assert.isTrue(document.querySelectorAll('a')[2]?.hasAttribute('href'));
 
 ```js
 assert.equal(
-  document.querySelectorAll('a')[2]?.getAttribute('href'),
+  document.querySelectorAll('a')[2]?.getAttribute('href').trim(),
     'https://freecatphotoapp.com'
 );
 ```

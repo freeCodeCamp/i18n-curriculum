@@ -7,7 +7,7 @@ dashedName: step-2
 
 # --description--
 
-Variables can store values of different data types. You just assigned an integer value, but if you want to represent some text, you need to assign a string. Strings are sequences of characters enclosed by single or double quotes, but you cannot start a string with a single quote and end it with a double quote or vice versa:
+Variablen können Werte unterschiedlicher Datentypen speichern. Du hast gerade einen Integer-Wert zugewiesen, aber wenn die Variable einen Text repräsentieren soll, musst du einen String zuweisen. Strings sind Sequenzen von Zeichen, die von einfachen oder doppelten Anführungszeichen umgeben sind, aber Du kannst den String nicht mit einem einzigen Anführungszeichen starten und sie mit einem doppelten Anführungszeichen beenden, oder umgekehrt:
 
 ```py
 string_1 = "I am a string"
@@ -15,30 +15,30 @@ string_2 = 'I am also a string'
 string_3 = 'This is not valid"
 ```
 
-Delete your `number` variable and its value. Then, declare another variable called `text` and assign the string `'Hello World'` to this variable.
+Lösche deine `number` Variable und ihren Wert. Dann erstelle eine andere Variable namens `text` und weise den Wert `'Hello World'` dieser Variable zu.
 
 # --hints--
 
-You should not have `number = 5` in your code.
+Du solltest nicht `number = 5` in deinem Code haben.
 
 ```js
 const commentless_code = __helpers.python.removeComments(code);
 assert.isFalse(/number\s*=\s*5/.test(commentless_code))
 ```
 
-Du solltest eine Variable mit dem Namen `text` deklarieren. Pay attention to place the variable name at the beginning of the line.
+Du solltest eine Variable mit dem Namen `text` deklarieren. Achte darauf, dass der Variablenname am Anfang der Zeile steht.
 
 ```js
 assert.match(code, /^text\s*=/m)
 ```
 
-You should assign the string `'Hello World'` to your `text` variable. Remember to use either single or double quotes to enclose the string and pay attention to the letter case.
+Du solltest der `text`-Variablen den Wert `'Hello World'` zuweisen. Denk daran, dass du entweder einzelne oder doppelte Anführungszeichen für den string verwendest, und auf Groß- und Kleinschreibung zu achten.
 
 ```js
 assert.match(code, /^text\s*=\s*("|')Hello World\1\s*(#.*)?$/m)
 ```
 
-Your code contains invalid syntax and/or invalid indentation.
+Dein Code enthält ungültige Syntax und/oder ungültige Einrückung.
 
 ```js
 ({test: () => assert(true) })

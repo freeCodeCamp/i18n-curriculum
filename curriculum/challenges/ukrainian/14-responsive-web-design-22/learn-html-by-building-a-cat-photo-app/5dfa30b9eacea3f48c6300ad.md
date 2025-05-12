@@ -70,6 +70,21 @@ assert(
 );
 ```
 
+Your anchor (`a`) element does not have an `href` attribute. Check that there is a space after the opening tag's name and/or there are spaces before all attribute names.
+
+```js
+assert.isTrue(document.querySelectorAll('a')[2]?.hasAttribute('href'));
+```
+
+Your anchor (`a`) element should link to `https://freecatphotoapp.com`. You have either omitted the URL or have a typo.
+
+```js
+assert.equal(
+  document.querySelectorAll('a')[2]?.getAttribute('href').trim(),
+    'https://freecatphotoapp.com'
+);
+```
+
 Елемент `img` повинен бути вкладеним в межах елемента посилання (`a`). Весь елемент `img` повинен бути всередині початкового та кінцевого тегів елемента посилання (`a`).
 
 ```js

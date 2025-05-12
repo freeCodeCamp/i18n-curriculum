@@ -14,7 +14,7 @@ Next, you are going to be styling the `footer` element. Щоб зберегти 
 Ви повинні мати коментар CSS з текстом `FOOTER`.
 
 ```js
-assert(code.match(/\/\*\s*FOOTER\s*\*\//i));
+assert.match(code, /\/\*\s*FOOTER\s*\*\//i);
 ```
 
 # --seed--

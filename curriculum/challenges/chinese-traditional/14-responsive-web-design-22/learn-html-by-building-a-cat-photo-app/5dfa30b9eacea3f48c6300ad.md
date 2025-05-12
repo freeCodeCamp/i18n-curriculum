@@ -70,6 +70,21 @@ assert(
 );
 ```
 
+Your anchor (`a`) element does not have an `href` attribute. Check that there is a space after the opening tag's name and/or there are spaces before all attribute names.
+
+```js
+assert.isTrue(document.querySelectorAll('a')[2]?.hasAttribute('href'));
+```
+
+Your anchor (`a`) element should link to `https://freecatphotoapp.com`. You have either omitted the URL or have a typo.
+
+```js
+assert.equal(
+  document.querySelectorAll('a')[2]?.getAttribute('href').trim(),
+    'https://freecatphotoapp.com'
+);
+```
+
 你的 `img` 元素應該被嵌套在錨元素（`a`）之中。 整個 `img` 元素應該置於錨元素（`a`）的開始標籤和結束標籤之間。
 
 ```js

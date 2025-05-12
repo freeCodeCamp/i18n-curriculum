@@ -70,6 +70,21 @@ assert(
 );
 ```
 
+Your anchor (`a`) element does not have an `href` attribute. Check that there is a space after the opening tag's name and/or there are spaces before all attribute names.
+
+```js
+assert.isTrue(document.querySelectorAll('a')[2]?.hasAttribute('href'));
+```
+
+Your anchor (`a`) element should link to `https://freecatphotoapp.com`. You have either omitted the URL or have a typo.
+
+```js
+assert.equal(
+  document.querySelectorAll('a')[2]?.getAttribute('href').trim(),
+    'https://freecatphotoapp.com'
+);
+```
+
 `img` 要素はアンカー (`a`) 要素の中にネストされている必要があります。 `img` 要素全体が、アンカー (`a`) 要素の開始タグと終了タグの内側にあるようにしてください。
 
 ```js

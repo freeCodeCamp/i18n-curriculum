@@ -1,16 +1,16 @@
 ---
 id: 671a999cc77b7f9bceb4caeb
-title: CSS Animations Review
+title: Повторення анімацій в CSS
 challengeType: 24
 dashedName: review-css-animations
 ---
 
 # --description--
 
-## CSS Animation Basics
+## Основи CSS-анімацій
 
-- **Definition**: CSS animations allow you to create dynamic, visually engaging effects on web pages without the need for JavaScript or complex programming. They provide a way to smoothly transition elements between different styles over a specified duration.
-- **The `@keyframes` Rule**: This rule defines the stages and styles of the animation. It specifies what styles the element should have at various points during the animation.
+- **Визначення**: CSS-анімації дозволяють створювати динамічні й візуально привабливі ефекти на вебсторінці без використання JavaScript чи складного програмування. Вони забезпечують плавний перехід елементів між різними стилями протягом заданої кількості часу.
+- **Правило `@keyframes`** визначає етапи та стилі анімації. Воно описує, які стилі повинен мати елемент у різні моменти анімації.
 
 ```css
 @keyframes slide-in {
@@ -23,19 +23,19 @@ dashedName: review-css-animations
 }
 ```
 
-- **`animation` Property**: This is the shorthand property used to apply animations.
-- **`animation-name`**: This specifies the name for the `@keyframes` rule to use.
-- **`animation-duration`**: This sets how long the animation should take to complete.
-- **`animation-timing-function`**: This defines how the animation progresses over time (such as ease, linear, ease-in-out).
-- **`animation-delay`**: This specifies a delay before the animation starts.
-- **`animation-iteration-count`**: This sets how many times the animation should repeat.
-- **`animation-direction`**: This determines whether the animation should play forwards, backwards, or alternate.
-- **`animation-fill-mode`**: This specifies how the element should be styled before and after the animation.
-- **`animation-play-state`**: This allows you to pause and resume the animation.
+- **Властивість `animation`** — це скорочена властивість для додавання анімацій.
+- **`animation-name`** вказує назву правила `@keyframes`, яке потрібно використовувати.
+- **`animation-duration`** задає тривалість анімації.
+- **`animation-timing-function`** визначає, як анімація змінюється в часі (наприклад, ease, linear, ease-in-out).
+- **`animation-delay`** задає затримку перед початком анімації.
+- **`animation-iteration-count`** задає, скільки разів має повторюватися анімація.
+- **`animation-direction`** визначає, у якому напрямку має відтворюватися анімація (вперед, назад або почергово).
+- **`animation-fill-mode`** вказує, як елемент має стилізуватися до/після виконання анімації.
+- **`animation-play-state`** дозволяє призупиняти та відновлювати анімацію.
 
-## Accessibility and the `prefers-reduced-motion` Media Query
+## Доступність та медіазапит `prefers-reduced-motion`
 
-- **The `prefers-reduced-motion` Media Query**: One of the primary accessibility concerns with animations is that they can cause discomfort or even physical harm to some users. People with vestibular disorders or motion sensitivity may experience dizziness, nausea, or headaches when exposed to certain types of movement on screen. The `prefers-reduced-motion` media query allows web developers to detect if the user has requested minimal animations or motion effects at the system level.
+- **Медіазапит `prefers-reduced-motion`**: одна з поширених проблем полягає в тому, що анімації можуть спричинити дискомфорт або навіть фізичну шкоду деяким користувачам. Люди з вестибулярними розладами чи порушеннями чутливості можуть відчувати запаморочення, нудоту або головний біль при появі певних рухів на екрані. Медіазапит `prefers-reduced-motion` дозволяє веброзробникам визначити, чи користувач запросив мінімальну кількість анімацій і руху на системному рівні.
 
 ```css
 .animated-element {

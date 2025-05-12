@@ -14,7 +14,7 @@ Next, you are going to be styling the `footer` element. To keep the CSS organize
 你應該有一個CSS註釋，上面寫着 `FOOTER`。
 
 ```js
-assert(code.match(/\/\*\s*FOOTER\s*\*\//i));
+assert.match(code, /\/\*\s*FOOTER\s*\*\//i);
 ```
 
 # --seed--
