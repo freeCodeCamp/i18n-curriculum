@@ -7,7 +7,7 @@ dashedName: step-36
 
 # --description--
 
-使用箭頭語法創建 `updateTaskContainer` 函數。 Then move the `taskData.forEach()` and its content from the `taskForm`'s `submit` event listener into the newly created function.
+使用箭頭語法創建 `updateTaskContainer` 函數。 然後將 `taskData.forEach()` 及其內容從 `taskForm` 的 `submit` 事件監聽器移到新創建的函數中。
 
 # --hints--
 

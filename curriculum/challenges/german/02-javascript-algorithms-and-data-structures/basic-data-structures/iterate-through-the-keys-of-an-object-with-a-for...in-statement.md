@@ -50,34 +50,13 @@ Wir haben eine Funktion `countOnline` definiert, die ein Argument (ein Nutzer-Ob
 Die Funktion `countOnline` sollte eine `for in` Anweisung verwenden, um die Objektschlüssel des übergebenen Objekts zu durchlaufen.
 
 ```js
-assert(
-  __helpers.removeJSComments(code).match(
+assert.match(
+  __helpers.removeJSComments(code),
     /for\s*\(\s*(var|let|const)\s+[a-zA-Z_$]\w*\s+in\s+[a-zA-Z_$]\w*\s*\)/
-  )
 );
 ```
 
 Die Funktion `countOnline` sollte `1` zurückgeben, wenn das Objekt `{ Alan: { online: false }, Jeff: { online: true }, Sarah: { online: false } }` an ihn übergeben wurde
-
-```js
-assert(countOnline(usersObj1) === 1);
-```
-
-Die Funktion `countOnline` sollte `2` zurückgeben, wenn das Objekt `{ Alan: { online: true }, Jeff: { online: false }, Sarah: { online: true } }` an ihn übergeben wurde
-
-```js
-assert(countOnline(usersObj2) === 2);
-```
-
-Die Funktion `countOnline` sollte `0` zurückgeben, wenn das Objekt `{ Alan: { online: false }, Jeff: { online: false }, Sarah: { online: false } }` an ihn übergeben wurde
-
-```js
-assert(countOnline(usersObj3) === 0);
-```
-
-# --seed--
-
-## --after-user-code--
 
 ```js
 const usersObj1 = {
@@ -91,7 +70,12 @@ const usersObj1 = {
     online: false
   }
 }
+assert.equal(countOnline(usersObj1), 1);
+```
 
+Die Funktion `countOnline` sollte `2` zurückgeben, wenn das Objekt `{ Alan: { online: true }, Jeff: { online: false }, Sarah: { online: true } }` an ihn übergeben wurde
+
+```js
 const usersObj2 = {
   Alan: {
     online: true
@@ -103,8 +87,12 @@ const usersObj2 = {
     online: true
   }
 }
+assert.equal(countOnline(usersObj2), 2);
+```
 
+Die Funktion `countOnline` sollte `0` zurückgeben, wenn das Objekt `{ Alan: { online: false }, Jeff: { online: false }, Sarah: { online: false } }` an ihn übergeben wurde
 
+```js
 const usersObj3 = {
   Alan: {
     online: false
@@ -116,7 +104,10 @@ const usersObj3 = {
     online: false
   }
 }
+assert.equal(countOnline(usersObj3), 0);
 ```
+
+# --seed--
 
 ## --seed-contents--
 

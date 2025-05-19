@@ -17,7 +17,7 @@ dashedName: step-11
 () => {}
 ```
 
-By assigning the arrow function definition to a variable, you bind it to an identifier.
+通过将箭头函数的定义赋给变量，可以将其与一个标识符绑定。
 
 ```js
 const exampleFunction = () => {
@@ -25,23 +25,23 @@ const exampleFunction = () => {
 }
 ```
 
-Create a new arrow function and assign it to the variable `printGreeting`. Inside the function body, use the `console.log()` method to print the string `Hello there!`.
+创建一个新的箭头函数并把它分配给变量 `printGreeting` 。 在函数主体内使用 `console.log()` 方法输出字符串 `Hello there!`。
 
 # --hints--
 
-You should have a variable named `printGreeting` and assign it an arrow function.
+你应该有一个 `printGreeting` 变量并为它分配一个箭头函数。
 
 ```js
 assert.isFunction(printGreeting);
 ```
 
-You should create an arrow function and assign it to the `printGreeting` variable.
+你应该创建一个箭头函数并将其分配到 `printGreeting` 变量。
 
 ```js
 assert.match(code, /(let|const)\s+printGreeting\s*=\s*\(.*\)\s*=>\s*{\s*[\s\S]*}\s*;?/)
 ```
 
-Your `printGreeting` function should log `Hello there!` to the console.
+你的 `printGreeting` 函数应该在控制台输出 `Hello there!`。
 
 ```js
 assert.match(printGreeting.toString(), /console\.log\(['"]Hello\s+there!['"]\)/);

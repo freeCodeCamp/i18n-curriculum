@@ -70,13 +70,13 @@ assert(
 );
 ```
 
-Your anchor (`a`) element does not have an `href` attribute. Check that there is a space after the opening tag's name and/or there are spaces before all attribute names.
+Dein Ankerelement (`a`) hat kein `href`-Attribut. Stelle sicher, dass ein Leerzeichen nach dem Namen des öffnendes Tags und/oder dass Leerzeichen vor allen Attributnamen vorhanden sind.
 
 ```js
 assert.isTrue(document.querySelectorAll('a')[2]?.hasAttribute('href'));
 ```
 
-Your anchor (`a`) element should link to `https://freecatphotoapp.com`. You have either omitted the URL or have a typo.
+Dein Ankerelement (`a`) sollte auf `https://freecatphotoapp.com` verlinken. Du hast entweder die URL weggelassen oder einen Tippfehler gemacht.
 
 ```js
 assert.equal(

@@ -21,44 +21,49 @@ Um exemplo:
 
 Os resultados da pesquisa do jogo Mortal Kombat do Camper Cat chegaram! Envolva uma tag `time` em torno do texto `Thursday, September 15<sup>th</sup>` e adicione um atributo `datetime` definido com o valor de `2016-09-15`.
 
+# --before-all--
+
+```js
+const getTimeElement = () => {
+  const pElement = [...document.querySelectorAll("article > p")]
+  .filter(x => x?.textContent?.includes("Thank you to everyone for responding to Master Camper Cat's survey."));
+
+  return pElement[0] ? pElement[0].querySelector("time") : null;
+};
+
+const getDatetimeAttr = () => {
+  const timeElement = getTimeElement();
+  return timeElement?.getAttribute("datetime");
+};
+```
+
 # --hints--
 
 O código deve ter um elemento `p` que inclui o texto `Thank you to everyone for responding to Master Camper Cat's survey.` e inclua um elemento `time`.
 
 ```js
-assert.exists(timeElement);
+assert.exists(getTimeElement());
 ```
 
 A tag `time` que você adicionou deve estar ao redor do texto `Thursday, September 15<sup>th</sup>`.
 
 ```js
-assert.strictEqual(timeElement?.innerHTML?.trim(), 'Thursday, September 15<sup>th</sup>');
+assert.strictEqual(getTimeElement()?.innerHTML?.trim(), 'Thursday, September 15<sup>th</sup>');
 ```
 
 A tag `time` que você adicionou deve ter um atributo `datetime` que não pode estar vazio.
 
 ```js
-assert(datetimeAttr?.length != 0);
+assert(getDatetimeAttr()?.length != 0);
 ```
 
 O atributo `datetime` adicionado deve ser um conjunto de valores no formato `2016-09-15`.
 
 ```js
-assert.equal(datetimeAttr , '2016-09-15');
+assert.equal(getDatetimeAttr() , '2016-09-15');
 ```
 
 # --seed--
-
-## --after-user-code--
-
-```html
-<script>
-const pElement = [...document.querySelectorAll("article > p")]
-  .filter(x => x?.textContent?.includes("Thank you to everyone for responding to Master Camper Cat's survey."));
-const timeElement = pElement[0] ? pElement[0].querySelector("time") : null;
-const datetimeAttr = timeElement?.getAttribute("datetime");
-</script>
-```
 
 ## --seed-contents--
 

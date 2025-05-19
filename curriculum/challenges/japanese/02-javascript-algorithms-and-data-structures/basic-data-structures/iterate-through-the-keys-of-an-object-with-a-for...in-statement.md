@@ -50,34 +50,13 @@ We defined the variable `food` in the loop head and this variable was set to eac
 関数 `countOnline` では `for in` ステートメントを使用して、渡されたオブジェクトのオブジェクトキーを繰り返し処理する必要があります。
 
 ```js
-assert(
-  __helpers.removeJSComments(code).match(
+assert.match(
+  __helpers.removeJSComments(code),
     /for\s*\(\s*(var|let|const)\s+[a-zA-Z_$]\w*\s+in\s+[a-zA-Z_$]\w*\s*\)/
-  )
 );
 ```
 
 関数 `countOnline` は、オブジェクト `{ Alan: { online: false }, Jeff: { online: true }, Sarah: { online: false } }` が渡された場合、`1` を返す必要があります。
-
-```js
-assert(countOnline(usersObj1) === 1);
-```
-
-関数 `countOnline` は、オブジェクト `{ Alan: { online: true }, Jeff: { online: false }, Sarah: { online: true } }` が渡された場合、`2` を返す必要があります。
-
-```js
-assert(countOnline(usersObj2) === 2);
-```
-
-関数 `countOnline` は、オブジェクト `{ Alan: { online: false }, Jeff: { online: false }, Sarah: { online: false } }` が渡された場合、`0` を返す必要があります。
-
-```js
-assert(countOnline(usersObj3) === 0);
-```
-
-# --seed--
-
-## --after-user-code--
 
 ```js
 const usersObj1 = {
@@ -91,7 +70,12 @@ const usersObj1 = {
     online: false
   }
 }
+assert.equal(countOnline(usersObj1), 1);
+```
 
+関数 `countOnline` は、オブジェクト `{ Alan: { online: true }, Jeff: { online: false }, Sarah: { online: true } }` が渡された場合、`2` を返す必要があります。
+
+```js
 const usersObj2 = {
   Alan: {
     online: true
@@ -103,8 +87,12 @@ const usersObj2 = {
     online: true
   }
 }
+assert.equal(countOnline(usersObj2), 2);
+```
 
+関数 `countOnline` は、オブジェクト `{ Alan: { online: false }, Jeff: { online: false }, Sarah: { online: false } }` が渡された場合、`0` を返す必要があります。
 
+```js
 const usersObj3 = {
   Alan: {
     online: false
@@ -116,7 +104,10 @@ const usersObj3 = {
     online: false
   }
 }
+assert.equal(countOnline(usersObj3), 0);
 ```
+
+# --seed--
 
 ## --seed-contents--
 

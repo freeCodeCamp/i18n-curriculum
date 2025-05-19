@@ -7,11 +7,11 @@ dashedName: step-23
 
 # --description--
 
-You’re on the right track! However, let’s take a moment to address a common issue when working with objects in JavaScript.
+你已经步入正轨！ 现在，让我们花一点时间来解决 JavaScript 中对象的一个常见问题。
 
-When you try to access an object property that doesn’t exist, JavaScript returns `undefined`. If you then attempt to perform arithmetic operations on `undefined`, it can lead to unexpected results, such as `NaN`.
+当你尝试获取对象中不存在的属性时，JavaScript 会返回 `undefined`。 如果你尝试对 `undefined` 进行数学运算时，它可能会导致意外的结果，例如 `NaN`。
 
-To prevent this, you can use the `||` (logical OR) operator to provide a default value.
+为了防止这种情况，你可以使用 `||`（逻辑或） 操作符来为它提供一个默认值。
 
 ```js
   let scores = {}; 
@@ -22,9 +22,9 @@ To prevent this, you can use the `||` (logical OR) operator to provide a default
   });
 ```
 
-Now, let’s apply this concept to your `totalCountPerProduct` object in the `forEach` callback. Make sure that each `dessert.id` property is initialized properly.
+现在，让我们将这个概念应用于你的 `totalCountPerProduct` 对象的 `forEach` 回调中。 请确保每一个 `dessert.id` 属性都已经正确初始化。
 
-Initialize `totalCountPerProduct[dessert.id]` with a default value of `0` using the `||` operator.
+使用 `||` 操作符把 `totalCountPerProduct[dessert.id]` 的默认值设置为 `0`。
 
 # --hints--
 
@@ -42,7 +42,7 @@ const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /totalCountPerProduct\s*\[\s*dessert\.id\s*\]/);
 ```
 
-You should initialize `totalCountPerProduct[dessert.id]` with `0` as a default value using `||` operator at the end of the expression.
+你应该在表达式结尾使用 `||` 操作符将 `totalCountPerProduct[dessert.id]` 的默认值设置为 `0`。
 
 ```js
 const cart = new ShoppingCart();

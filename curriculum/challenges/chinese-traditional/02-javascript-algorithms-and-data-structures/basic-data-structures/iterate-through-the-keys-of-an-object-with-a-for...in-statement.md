@@ -50,34 +50,13 @@ for (const food in refrigerator) {
 函數 `countOnline` 中應使用 `for in` 語句遍歷傳入的對象的對象鍵。
 
 ```js
-assert(
-  __helpers.removeJSComments(code).match(
+assert.match(
+  __helpers.removeJSComments(code),
     /for\s*\(\s*(var|let|const)\s+[a-zA-Z_$]\w*\s+in\s+[a-zA-Z_$]\w*\s*\)/
-  )
 );
 ```
 
 當傳入 `{ Alan: { online: false }, Jeff: { online: true }, Sarah: { online: false } }` 時，函數 `countOnline` 應該返回 `1`。
-
-```js
-assert(countOnline(usersObj1) === 1);
-```
-
-當傳入 `{ Alan: { online: true }, Jeff: { online: false }, Sarah: { online: true } }` 時，函數 `countOnline` 應該返回 `2`。
-
-```js
-assert(countOnline(usersObj2) === 2);
-```
-
-當傳入 `{ Alan: { online: false }, Jeff: { online: false }, Sarah: { online: false } }` 時，函數 `countOnline` 應該返回 `0`。
-
-```js
-assert(countOnline(usersObj3) === 0);
-```
-
-# --seed--
-
-## --after-user-code--
 
 ```js
 const usersObj1 = {
@@ -91,7 +70,12 @@ const usersObj1 = {
     online: false
   }
 }
+assert.equal(countOnline(usersObj1), 1);
+```
 
+當傳入 `{ Alan: { online: true }, Jeff: { online: false }, Sarah: { online: true } }` 時，函數 `countOnline` 應該返回 `2`。
+
+```js
 const usersObj2 = {
   Alan: {
     online: true
@@ -103,8 +87,12 @@ const usersObj2 = {
     online: true
   }
 }
+assert.equal(countOnline(usersObj2), 2);
+```
 
+當傳入 `{ Alan: { online: false }, Jeff: { online: false }, Sarah: { online: false } }` 時，函數 `countOnline` 應該返回 `0`。
 
+```js
 const usersObj3 = {
   Alan: {
     online: false
@@ -116,7 +104,10 @@ const usersObj3 = {
     online: false
   }
 }
+assert.equal(countOnline(usersObj3), 0);
 ```
+
+# --seed--
 
 ## --seed-contents--
 

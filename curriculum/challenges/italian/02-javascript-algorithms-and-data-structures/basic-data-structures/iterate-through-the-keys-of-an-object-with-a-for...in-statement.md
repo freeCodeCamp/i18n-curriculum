@@ -50,34 +50,13 @@ Abbiamo definito una funzione `countOnline` che accetta un argomento, `allUsers`
 La funzione `countOnline` dovrebbe utilizzare un'istruzione `for in` per iterare sulle le chiavi dell'oggetto passato come argomento.
 
 ```js
-assert(
-  __helpers.removeJSComments(code).match(
+assert.match(
+  __helpers.removeJSComments(code),
     /for\s*\(\s*(var|let|const)\s+[a-zA-Z_$]\w*\s+in\s+[a-zA-Z_$]\w*\s*\)/
-  )
 );
 ```
 
 La funzione `countOnline` dovrebbe restituire `1` quando le viene passato l'oggetto `{ Alan: { online: false }, Jeff: { online: true }, Sarah: { online: false } }`
-
-```js
-assert(countOnline(usersObj1) === 1);
-```
-
-La funzione `countOnline` dovrebbe restituire `2` quando le viene passato l'oggetto `{ Alan: { online: true }, Jeff: { online: false }, Sarah: { online: true } }`
-
-```js
-assert(countOnline(usersObj2) === 2);
-```
-
-La funzione `countOnline` dovrebbe restituire `0` quando le viene passato l'oggetto `{ Alan: { online: false }, Jeff: { online: false }, Sarah: { online: false } }`
-
-```js
-assert(countOnline(usersObj3) === 0);
-```
-
-# --seed--
-
-## --after-user-code--
 
 ```js
 const usersObj1 = {
@@ -91,7 +70,12 @@ const usersObj1 = {
     online: false
   }
 }
+assert.equal(countOnline(usersObj1), 1);
+```
 
+La funzione `countOnline` dovrebbe restituire `2` quando le viene passato l'oggetto `{ Alan: { online: true }, Jeff: { online: false }, Sarah: { online: true } }`
+
+```js
 const usersObj2 = {
   Alan: {
     online: true
@@ -103,8 +87,12 @@ const usersObj2 = {
     online: true
   }
 }
+assert.equal(countOnline(usersObj2), 2);
+```
 
+La funzione `countOnline` dovrebbe restituire `0` quando le viene passato l'oggetto `{ Alan: { online: false }, Jeff: { online: false }, Sarah: { online: false } }`
 
+```js
 const usersObj3 = {
   Alan: {
     online: false
@@ -116,7 +104,10 @@ const usersObj3 = {
     online: false
   }
 }
+assert.equal(countOnline(usersObj3), 0);
 ```
+
+# --seed--
 
 ## --seed-contents--
 

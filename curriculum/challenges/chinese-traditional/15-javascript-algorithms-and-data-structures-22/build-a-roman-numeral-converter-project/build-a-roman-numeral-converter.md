@@ -26,21 +26,21 @@ dashedName: build-a-roman-numeral-converter
 | IV   | 4     |
 | I    | 1     |
 
-**Objective:** Build an app that is functionally similar to <a href="https://roman-numeral-converter.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://roman-numeral-converter.freecodecamp.rocks</a>.
+**目標：**構建一個功能類似於 <a href="https://roman-numeral-converter.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://roman-numeral-converter.freecodecamp.rocks</a> 的應用。
 
 **用戶需求：**
 
-1. You should have an `input` element with an `id` of `"number"`.
-1. You should have a `button` element with an `id` of `"convert-btn"`.
-1. You should have a `div`, `span` or `p` element with an `id` of `output`.
-1. When you click on the `#convert-btn` element without entering a value into the `#number` element, the `#output` element should contain the text `"Please enter a valid number"`.
-1. When the `#number` element contains the number `-1` and the `#convert-btn` element is clicked, the `#output` element should contain the text `"Please enter a number greater than or equal to 1"`.
-1. When the `#number` element contains the number `4000` or greater and the `#convert-btn` element is clicked, the `#output` element should contain the text `"Please enter a number less than or equal to 3999"`.
-1. When the `#number` element contains the number `9` and the `#convert-btn` element is clicked, the `#output` element should contain the text `"IX"`.
-1. When the `#number` element contains the number `16` and the `#convert-btn` element is clicked, the `#output` element should contain the text `"XVI"`.
-1. When the `#number` element contains the number `649` and the `#convert-btn` element is clicked, the `#output` element should contain the text `"DCXLIX"`.
-1. When the `#number` element contains the number `1023` and the `#convert-btn` element is clicked, the `#output` element should contain the text `"MXXIII"`.
-1. When the `#number` element contains the number `3999` and the `#convert-btn` element is clicked, the `#output` element should contain the text `"MMMCMXCIX"`.
+1. 你應該有一個 `input` 元素，其中 `id` 爲 `"number"`。
+1. 你應該有一個 `button` 元素，其中包含一個 `id` 元素 `"convert-btn"`。
+1. 你應該有一個 `div`、`span` 或 `p` 元素，以及一個 `id` 爲 `output`。
+1. 當你單擊 `#convert-btn` 元素而不在 `#number` 元素中輸入值時，`#output` 元素應該包含文本 `"Please enter a valid number"`。
+1. 當 `#number` 元素包含數字 `-1` 且單擊 `#convert-btn` 元素時，`#output` 元素應包含文本 `"Please enter a number greater than or equal to 1"`。
+1. 當 `#number` 元素包含數字 `4000` 或更大，並且單擊 `#convert-btn` 元素時，`#output` 元素應包含文本 `"Please enter a number less than or equal to 3999"`。
+1. 當 `#number` 元素包含數字 `9` 且單擊 `#convert-btn` 元素時，`#output` 元素應包含文本 `"IX"`。
+1. 當 `#number` 元素包含數字 `16`，並且 `#convert-btn` 元素被點擊時，`#output` 元素應該包含文本 `"XVI"`。
+1. 當 `#number` 元素包含數字 `649`，並且 `#convert-btn` 元素被點擊時，`#output` 元素應該包含文本 `"DCXLIX"`。
+1. 當 `#number` 元素包含數字 `1023`，並且 `#convert-btn` 元素被點擊時，`#output` 元素應該包含文本 `"MXXIII"`。
+1. 當 `#number` 元素包含數字 `3999`，並且 `#convert-btn` 元素被點擊時，`#output` 元素應該包含文本 `"MMMCMXCIX"`。
 
 完成用戶需求並通過下面的所有測試來完成這個項目。 賦予它你的個人風格。 祝你編碼愉快！
 

@@ -51,6 +51,35 @@ Tu aplicación debería mostrar diferentes mensajes dependiendo del precio del a
 
 Cumpla las historias de usuario y supere todas las pruebas que se indican a continuación para completar este proyecto. Dale tu propio estilo. Feliz codificación!
 
+# --before-all--
+
+```js
+const _money = [
+  ['ONE HUNDRED', 10000],
+  ['TWENTY', 2000],
+  ['TEN', 1000],
+  ['FIVE', 500],
+  ['ONE', 100],
+  ['QUARTER', 25],
+  ['DIME', 10],
+  ['NICKEL', 5]
+];
+const _denomRegexes = [
+  /PENNY/,
+  /NICKEL/,
+  /DIME/,
+  /QUARTER/,
+  /ONE [^H]/,
+  /FIVE/,
+  /TEN/,
+  /TWENTY/,
+  /ONE HUNDRED/
+];
+function _randomNumber(max) {
+  return Math.floor(Math.random() * (max + 1));
+}
+```
+
 # --hints--
 
 Deberías tener el enlace del archivo HTML al archivo JavasCript.
@@ -583,35 +612,6 @@ assert.isTrue(!notExpected.some(regex => result.match(new RegExp(regex, 'i'))));
 ```
 
 # --seed--
-
-## --after-user-code--
-
-```js
-const _money = [
-  ['ONE HUNDRED', 10000],
-  ['TWENTY', 2000],
-  ['TEN', 1000],
-  ['FIVE', 500],
-  ['ONE', 100],
-  ['QUARTER', 25],
-  ['DIME', 10],
-  ['NICKEL', 5]
-];
-const _denomRegexes = [
-  /PENNY/,
-  /NICKEL/,
-  /DIME/,
-  /QUARTER/,
-  /ONE [^H]/,
-  /FIVE/,
-  /TEN/,
-  /TWENTY/,
-  /ONE HUNDRED/
-];
-function _randomNumber(max) {
-  return Math.floor(Math.random() * (max + 1));
-}
-```
 
 ## --seed-contents--
 
