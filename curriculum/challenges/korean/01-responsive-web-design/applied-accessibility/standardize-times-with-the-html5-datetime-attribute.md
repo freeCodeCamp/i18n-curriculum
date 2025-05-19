@@ -21,44 +21,49 @@ dashedName: standardize-times-with-the-html5-datetime-attribute
 
 캠퍼 캣의 모탈 컴뱃 설문 조사 결과가 나왔습니다! 주어진 텍스트인 `Thursday, September 15<sup>th</sup>`를 `time` 태그로 감싸고 `datetime` 속성을 `2016-09-15`로 설정하세요.
 
+# --before-all--
+
+```js
+const getTimeElement = () => {
+  const pElement = [...document.querySelectorAll("article > p")]
+  .filter(x => x?.textContent?.includes("Thank you to everyone for responding to Master Camper Cat's survey."));
+
+  return pElement[0] ? pElement[0].querySelector("time") : null;
+};
+
+const getDatetimeAttr = () => {
+  const timeElement = getTimeElement();
+  return timeElement?.getAttribute("datetime");
+};
+```
+
 # --hints--
 
 코드에는 `p` 요소가 있어야 하며 그 안에는 텍스트 `Thank you to everyone for responding to Master Camper Cat's survey.`와 `time` 요소를 포함해야 합니다.
 
 ```js
-assert.exists(timeElement);
+assert.exists(getTimeElement());
 ```
 
 추가한 `time` 태그는 텍스트 `Thursday, September 15<sup>th</sup>`을 감싸야 합니다.
 
 ```js
-assert.strictEqual(timeElement?.innerHTML?.trim(), 'Thursday, September 15<sup>th</sup>');
+assert.strictEqual(getTimeElement()?.innerHTML?.trim(), 'Thursday, September 15<sup>th</sup>');
 ```
 
 `time` 태그에는 `datetime` 속성이 있어야 하며, 이 속성은 비어있으면 안 됩니다.
 
 ```js
-assert(datetimeAttr?.length != 0);
+assert(getDatetimeAttr()?.length != 0);
 ```
 
 추가한 `datetime` 속성은 `2016-09-15`로 설정되어야 합니다.
 
 ```js
-assert.equal(datetimeAttr , '2016-09-15');
+assert.equal(getDatetimeAttr() , '2016-09-15');
 ```
 
 # --seed--
-
-## --after-user-code--
-
-```html
-<script>
-const pElement = [...document.querySelectorAll("article > p")]
-  .filter(x => x?.textContent?.includes("Thank you to everyone for responding to Master Camper Cat's survey."));
-const timeElement = pElement[0] ? pElement[0].querySelector("time") : null;
-const datetimeAttr = timeElement?.getAttribute("datetime");
-</script>
-```
 
 ## --seed-contents--
 

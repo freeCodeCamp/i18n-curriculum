@@ -21,44 +21,49 @@ Continuing with the date theme, HTML5 also introduced the `time` element along w
 
 Camper Cat 格鬥的調查結果出來了！ 用 `time` 標籤包裹文本 `Thursday, September 15<sup>th</sup>`，添加一個 `datetime` 屬性，將屬性值設置爲 `2016-09-15`。
 
+# --before-all--
+
+```js
+const getTimeElement = () => {
+  const pElement = [...document.querySelectorAll("article > p")]
+  .filter(x => x?.textContent?.includes("Thank you to everyone for responding to Master Camper Cat's survey."));
+
+  return pElement[0] ? pElement[0].querySelector("time") : null;
+};
+
+const getDatetimeAttr = () => {
+  const timeElement = getTimeElement();
+  return timeElement?.getAttribute("datetime");
+};
+```
+
 # --hints--
 
 應存在一個 `time` 元素和一個內容文本爲 `Thank you to everyone for responding to Master Camper Cat's survey.` 的 `p` 元素。
 
 ```js
-assert.exists(timeElement);
+assert.exists(getTimeElement());
 ```
 
 `time` 元素的內容文本應爲 `Thursday, September 15<sup>th</sup>`。
 
 ```js
-assert.strictEqual(timeElement?.innerHTML?.trim(), 'Thursday, September 15<sup>th</sup>');
+assert.strictEqual(getTimeElement()?.innerHTML?.trim(), 'Thursday, September 15<sup>th</sup>');
 ```
 
 `time` 元素應包含非空的 `datetime` 屬性。
 
 ```js
-assert(datetimeAttr?.length != 0);
+assert(getDatetimeAttr()?.length != 0);
 ```
 
 `datetime` 的屬性值應爲 `2016-09-15`。
 
 ```js
-assert.equal(datetimeAttr , '2016-09-15');
+assert.equal(getDatetimeAttr() , '2016-09-15');
 ```
 
 # --seed--
-
-## --after-user-code--
-
-```html
-<script>
-const pElement = [...document.querySelectorAll("article > p")]
-  .filter(x => x?.textContent?.includes("Thank you to everyone for responding to Master Camper Cat's survey."));
-const timeElement = pElement[0] ? pElement[0].querySelector("time") : null;
-const datetimeAttr = timeElement?.getAttribute("datetime");
-</script>
-```
 
 ## --seed-contents--
 

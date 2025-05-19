@@ -50,34 +50,13 @@ for (const food in refrigerator) {
 함수 `countOnline`은 전달된 객체의 객체 키를 반복하는 데 `for in` 문을 사용해야 합니다.
 
 ```js
-assert(
-  __helpers.removeJSComments(code).match(
+assert.match(
+  __helpers.removeJSComments(code),
     /for\s*\(\s*(var|let|const)\s+[a-zA-Z_$]\w*\s+in\s+[a-zA-Z_$]\w*\s*\)/
-  )
 );
 ```
 
 함수 `countOnline`은 전달된 객체가 `{ Alan: { online: false }, Jeff: { online: true }, Sarah: { online: false } }`인 경우 `1`을 반환해야 합니다.
-
-```js
-assert(countOnline(usersObj1) === 1);
-```
-
-함수`countOnline`은 전달된 객체가 `{ Alan: { online: true }, Jeff: { online: false }, Sarah: { online: true } }` 인 경우 `2`을 반환해야 합니다.
-
-```js
-assert(countOnline(usersObj2) === 2);
-```
-
-함수`countOnline`은 전달된 객체가 `{ Alan: { online: false }, Jeff: { online: false }, Sarah: { online: false } }` 인 경우 `0`을 반환해야 합니다.
-
-```js
-assert(countOnline(usersObj3) === 0);
-```
-
-# --seed--
-
-## --after-user-code--
 
 ```js
 const usersObj1 = {
@@ -91,7 +70,12 @@ const usersObj1 = {
     online: false
   }
 }
+assert.equal(countOnline(usersObj1), 1);
+```
 
+함수`countOnline`은 전달된 객체가 `{ Alan: { online: true }, Jeff: { online: false }, Sarah: { online: true } }` 인 경우 `2`을 반환해야 합니다.
+
+```js
 const usersObj2 = {
   Alan: {
     online: true
@@ -103,8 +87,12 @@ const usersObj2 = {
     online: true
   }
 }
+assert.equal(countOnline(usersObj2), 2);
+```
 
+함수`countOnline`은 전달된 객체가 `{ Alan: { online: false }, Jeff: { online: false }, Sarah: { online: false } }` 인 경우 `0`을 반환해야 합니다.
 
+```js
 const usersObj3 = {
   Alan: {
     online: false
@@ -116,7 +104,10 @@ const usersObj3 = {
     online: false
   }
 }
+assert.equal(countOnline(usersObj3), 0);
 ```
+
+# --seed--
 
 ## --seed-contents--
 

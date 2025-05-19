@@ -21,44 +21,49 @@ dashedName: standardize-times-with-the-html5-datetime-attribute
 
 Camper Cat の Mortal Kombat の調査結果が出ました！ `Thursday, September 15<sup>th</sup>` というテキストの周りを `time` タグでラップし、`2016-09-15` が設定された `datetime` 属性を追加してください。
 
+# --before-all--
+
+```js
+const getTimeElement = () => {
+  const pElement = [...document.querySelectorAll("article > p")]
+  .filter(x => x?.textContent?.includes("Thank you to everyone for responding to Master Camper Cat's survey."));
+
+  return pElement[0] ? pElement[0].querySelector("time") : null;
+};
+
+const getDatetimeAttr = () => {
+  const timeElement = getTimeElement();
+  return timeElement?.getAttribute("datetime");
+};
+```
+
 # --hints--
 
 コードには `Thank you to everyone for responding to Master Camper Cat's survey.` のテキストを持つ `p` 要素と、`time` 要素が必要です。
 
 ```js
-assert.exists(timeElement);
+assert.exists(getTimeElement());
 ```
 
 追加された `time` タグは `Thursday, September 15<sup>th</sup>` テキストをラップしなければなりません。
 
 ```js
-assert.strictEqual(timeElement?.innerHTML?.trim(), 'Thursday, September 15<sup>th</sup>');
+assert.strictEqual(getTimeElement()?.innerHTML?.trim(), 'Thursday, September 15<sup>th</sup>');
 ```
 
 `time` タグは空ではない `datetime` 属性を持つ必要があります。
 
 ```js
-assert(datetimeAttr?.length != 0);
+assert(getDatetimeAttr()?.length != 0);
 ```
 
 追加された `datetime` 属性には `2016-09-15` の値を設定する必要があります。
 
 ```js
-assert.equal(datetimeAttr , '2016-09-15');
+assert.equal(getDatetimeAttr() , '2016-09-15');
 ```
 
 # --seed--
-
-## --after-user-code--
-
-```html
-<script>
-const pElement = [...document.querySelectorAll("article > p")]
-  .filter(x => x?.textContent?.includes("Thank you to everyone for responding to Master Camper Cat's survey."));
-const timeElement = pElement[0] ? pElement[0].querySelector("time") : null;
-const datetimeAttr = timeElement?.getAttribute("datetime");
-</script>
-```
 
 ## --seed-contents--
 

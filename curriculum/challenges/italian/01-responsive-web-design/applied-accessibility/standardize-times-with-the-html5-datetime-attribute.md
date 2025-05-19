@@ -21,44 +21,49 @@ Ecco un esempio:
 
 I risultati del sondaggio di Camper Cat sul torneo di Mortal Kombat sono arrivati! Metti un tag `time` intorno al testo `Thursday, September 15<sup>th</sup>` e aggiungi un attributo `datetime` impostato a `2016-09-15`.
 
+# --before-all--
+
+```js
+const getTimeElement = () => {
+  const pElement = [...document.querySelectorAll("article > p")]
+  .filter(x => x?.textContent?.includes("Thank you to everyone for responding to Master Camper Cat's survey."));
+
+  return pElement[0] ? pElement[0].querySelector("time") : null;
+};
+
+const getDatetimeAttr = () => {
+  const timeElement = getTimeElement();
+  return timeElement?.getAttribute("datetime");
+};
+```
+
 # --hints--
 
 Il tuo codice dovrebbe avere un elemento `p` che include il testo `Thank you to everyone for responding to Master Camper Cat's survey.` e che abbia un elemento `time`.
 
 ```js
-assert.exists(timeElement);
+assert.exists(getTimeElement());
 ```
 
 I tuoi tag `time` aggiuntivi dovrebbero avvolgere il testo `Thursday, September 15<sup>th</sup>`.
 
 ```js
-assert.strictEqual(timeElement?.innerHTML?.trim(), 'Thursday, September 15<sup>th</sup>');
+assert.strictEqual(getTimeElement()?.innerHTML?.trim(), 'Thursday, September 15<sup>th</sup>');
 ```
 
 Il tuo tag `time` dovrebbe avere un attributo `datetime` non vuoto.
 
 ```js
-assert(datetimeAttr?.length != 0);
+assert(getDatetimeAttr()?.length != 0);
 ```
 
 Il tuo attributo `datetime` dovrebbe essere impostato sul valore `2016-09-15`.
 
 ```js
-assert.equal(datetimeAttr , '2016-09-15');
+assert.equal(getDatetimeAttr() , '2016-09-15');
 ```
 
 # --seed--
-
-## --after-user-code--
-
-```html
-<script>
-const pElement = [...document.querySelectorAll("article > p")]
-  .filter(x => x?.textContent?.includes("Thank you to everyone for responding to Master Camper Cat's survey."));
-const timeElement = pElement[0] ? pElement[0].querySelector("time") : null;
-const datetimeAttr = timeElement?.getAttribute("datetime");
-</script>
-```
 
 ## --seed-contents--
 

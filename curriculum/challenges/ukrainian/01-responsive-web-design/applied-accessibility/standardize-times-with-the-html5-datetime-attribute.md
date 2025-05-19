@@ -21,44 +21,49 @@ Continuing with the date theme, HTML5 also introduced the `time` element along w
 
 Результати опитування Camper Cat стосовно Mortal Combat готові! Обгорніть теґ `time` навколо тексту `Thursday, September 15<sup>th</sup>` і додайте атрибут `datetime`, встановлений на значення `2016-09-15`.
 
+# --before-all--
+
+```js
+const getTimeElement = () => {
+  const pElement = [...document.querySelectorAll("article > p")]
+  .filter(x => x?.textContent?.includes("Thank you to everyone for responding to Master Camper Cat's survey."));
+
+  return pElement[0] ? pElement[0].querySelector("time") : null;
+};
+
+const getDatetimeAttr = () => {
+  const timeElement = getTimeElement();
+  return timeElement?.getAttribute("datetime");
+};
+```
+
 # --hints--
 
 Ваш код має містити елемент `p`, що включає текст `Thank you to everyone for responding to Master Camper Cat's survey.` і елемент `time`.
 
 ```js
-assert.exists(timeElement);
+assert.exists(getTimeElement());
 ```
 
 Додані теґи `time` мають обгортати текст `Thursday, September 15<sup>th</sup>`.
 
 ```js
-assert.strictEqual(timeElement?.innerHTML?.trim(), 'Thursday, September 15<sup>th</sup>');
+assert.strictEqual(getTimeElement()?.innerHTML?.trim(), 'Thursday, September 15<sup>th</sup>');
 ```
 
 Доданий теґ `time` має містити атрибут `datetime`, який не є порожнім.
 
 ```js
-assert(datetimeAttr?.length != 0);
+assert(getDatetimeAttr()?.length != 0);
 ```
 
 Доданий атрибут `datetime` має бути встановленим на значення `2016-09-15`.
 
 ```js
-assert.equal(datetimeAttr , '2016-09-15');
+assert.equal(getDatetimeAttr() , '2016-09-15');
 ```
 
 # --seed--
-
-## --after-user-code--
-
-```html
-<script>
-const pElement = [...document.querySelectorAll("article > p")]
-  .filter(x => x?.textContent?.includes("Thank you to everyone for responding to Master Camper Cat's survey."));
-const timeElement = pElement[0] ? pElement[0].querySelector("time") : null;
-const datetimeAttr = timeElement?.getAttribute("datetime");
-</script>
-```
 
 ## --seed-contents--
 

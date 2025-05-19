@@ -21,44 +21,49 @@ Hier ist ein Beispiel:
 
 Die Ergebnisse der Mortal Kombat-Umfrage von Camper Cat sind da! Umschließe den Text `Thursday, September 15<sup>th</sup>` mit einem `time`-Tag und füge ein `datetime` Attribut mit dem Wert `2016-09-15` hinzu.
 
+# --before-all--
+
+```js
+const getTimeElement = () => {
+  const pElement = [...document.querySelectorAll("article > p")]
+  .filter(x => x?.textContent?.includes("Thank you to everyone for responding to Master Camper Cat's survey."));
+
+  return pElement[0] ? pElement[0].querySelector("time") : null;
+};
+
+const getDatetimeAttr = () => {
+  const timeElement = getTimeElement();
+  return timeElement?.getAttribute("datetime");
+};
+```
+
 # --hints--
 
 Dein Code sollte ein `p`-Element enthalten, das den Text `Thank you to everyone for responding to Master Camper Cat's survey.` und ein `time`-Element enthält.
 
 ```js
-assert.exists(timeElement);
+assert.exists(getTimeElement());
 ```
 
 Deine hinzugefügten `time`-Tags sollten den Text `Thursday, September 15<sup>th</sup>` umschließen.
 
 ```js
-assert.strictEqual(timeElement?.innerHTML?.trim(), 'Thursday, September 15<sup>th</sup>');
+assert.strictEqual(getTimeElement()?.innerHTML?.trim(), 'Thursday, September 15<sup>th</sup>');
 ```
 
 Dein hinzugefügtes `time`-Tag sollte ein `datetime`-Attribut haben, das nicht leer ist.
 
 ```js
-assert(datetimeAttr?.length != 0);
+assert(getDatetimeAttr()?.length != 0);
 ```
 
 Dein hinzugefügtes `datetime`-Attribut sollte auf den Wert `2016-09-15` gesetzt werden.
 
 ```js
-assert.equal(datetimeAttr , '2016-09-15');
+assert.equal(getDatetimeAttr() , '2016-09-15');
 ```
 
 # --seed--
-
-## --after-user-code--
-
-```html
-<script>
-const pElement = [...document.querySelectorAll("article > p")]
-  .filter(x => x?.textContent?.includes("Thank you to everyone for responding to Master Camper Cat's survey."));
-const timeElement = pElement[0] ? pElement[0].querySelector("time") : null;
-const datetimeAttr = timeElement?.getAttribute("datetime");
-</script>
-```
 
 ## --seed-contents--
 

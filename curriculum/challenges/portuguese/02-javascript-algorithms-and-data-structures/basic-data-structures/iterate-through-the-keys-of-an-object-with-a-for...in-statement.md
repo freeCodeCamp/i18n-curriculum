@@ -50,34 +50,13 @@ Definimos uma função `countOnline`, a qual aceita um argumento, `allUsers`. Us
 A função `countOnline` deve usar a instrução `for in` para iterar através das chaves de um objeto passado para ele.
 
 ```js
-assert(
-  __helpers.removeJSComments(code).match(
+assert.match(
+  __helpers.removeJSComments(code),
     /for\s*\(\s*(var|let|const)\s+[a-zA-Z_$]\w*\s+in\s+[a-zA-Z_$]\w*\s*\)/
-  )
 );
 ```
 
 A função `countOnline` deve retornar `1` quando o objeto `{ Alan: { online: false }, Jeff: { online: true }, Sarah: { online: false } }` for passado para ele
-
-```js
-assert(countOnline(usersObj1) === 1);
-```
-
-A função `countOnline` deve retornar `2` quando o objeto `{ Alan: { online: true }, Jeff: { online: false }, Sarah: { online: true } }` for passado para ele
-
-```js
-assert(countOnline(usersObj2) === 2);
-```
-
-A função `countOnline` deve retornar `0` quando o objeto `{ Alan: { online: false }, Jeff: { online: false }, Sarah: { online: false } }` for passado para ele
-
-```js
-assert(countOnline(usersObj3) === 0);
-```
-
-# --seed--
-
-## --after-user-code--
 
 ```js
 const usersObj1 = {
@@ -91,7 +70,12 @@ const usersObj1 = {
     online: false
   }
 }
+assert.equal(countOnline(usersObj1), 1);
+```
 
+A função `countOnline` deve retornar `2` quando o objeto `{ Alan: { online: true }, Jeff: { online: false }, Sarah: { online: true } }` for passado para ele
+
+```js
 const usersObj2 = {
   Alan: {
     online: true
@@ -103,8 +87,12 @@ const usersObj2 = {
     online: true
   }
 }
+assert.equal(countOnline(usersObj2), 2);
+```
 
+A função `countOnline` deve retornar `0` quando o objeto `{ Alan: { online: false }, Jeff: { online: false }, Sarah: { online: false } }` for passado para ele
 
+```js
 const usersObj3 = {
   Alan: {
     online: false
@@ -116,7 +104,10 @@ const usersObj3 = {
     online: false
   }
 }
+assert.equal(countOnline(usersObj3), 0);
 ```
+
+# --seed--
 
 ## --seed-contents--
 

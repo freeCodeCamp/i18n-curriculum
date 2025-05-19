@@ -8,7 +8,7 @@ dashedName: implementation-of-social-authentication-ii
 
 # --description--
 
-The last part of setting up your GitHub authentication is to create the strategy itself. `passport-github@~1.1.0` has already been added as a dependency, so require it in your `auth.js` file as `GithubStrategy` like this: `const GitHubStrategy = require('passport-github').Strategy;`. Do not forget to require and configure `dotenv` to use your environment variables.
+The last part of setting up your GitHub authentication is to create the strategy itself. `passport-github@~1.1.0` has already been added as a dependency, so require it in your `auth.js` file as `GitHubStrategy` like this: `const GitHubStrategy = require('passport-github').Strategy;`. Do not forget to require and configure `dotenv` to use your environment variables.
 
 Para configurar a estratégia do GitHub, você precisa dizer ao Passport para usar uma `GitHubStrategy` instanciada, que aceite 2 argumentos: um objeto (contendo `clientID`, `clientSecret` e `callbackURL`) e uma função a ser chamada quando um usuário é autenticado com sucesso, que determinará se o usuário é novo e quais campos salvar inicialmente no objeto do banco de dados do usuário. Isto é comum em muitas estratégias, mas algumas podem exigir mais informações, conforme descrito no README do GitHub da estratégia específica. Por exemplo, O Google também requer um *scope*, o qual determina que tipo de informação a solicitação está pedindo que seja devolvida e pede ao usuário que aprove esse acesso.
 
