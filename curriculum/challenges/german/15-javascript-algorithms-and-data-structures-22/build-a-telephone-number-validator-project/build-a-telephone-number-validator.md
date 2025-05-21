@@ -22,12 +22,12 @@ In den USA können Telefonnummern auf verschiedene Arten formatiert werden. Hier
 
 Beachte, dass die Vorwahl erforderlich ist. Auch wenn eine Landesvorwahl angegeben ist, musst du bestätigen, dass die Landesvorwahl `1` ist.
 
-**Objective:** Build an app that is functionally similar to <a href="https://telephone-number-validator.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://telephone-number-validator.freecodecamp.rocks</a>.
+**Ziel:**Erstelle eine App, die eine ähnliche Funktion aufweist wie <a href="https://telephone-number-validator.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://telephone-number-validator.freecodecamp.rocks</a>.
 
 **User Stories:**
 
 1. You should have an `input` element with an `id` of `"user-input"`.
-1. You should have a `button` element with an `id` of `"check-btn"`.
+1. Du sollst ein `button` Element mit einem `id` von `"check-btn"` haben.
 1. You should have a `button` element with an `id` of `"clear-btn"`.
 1. You should have a `div`, `span` or `p` element with an `id` of `"results-div"`.
 1. When you click on the `#check-btn` element without entering a value into the `#user-input` element, an alert should appear with the text `"Please provide a phone number"`.
@@ -67,7 +67,7 @@ Erfülle die folgenden User Stories und bestehe alle Tests, um dieses Projekt ab
 
 # --hints--
 
-You should have an `input` element with an `id` of `"user-input"`.
+Du solltest ein `input`-Element mit einer `id` von `"user-input"` haben.
 
 ```js
 const el = document.getElementById('user-input');
@@ -81,7 +81,7 @@ const el = document.getElementById('check-btn');
 assert.strictEqual(el?.nodeName?.toLowerCase(), 'button');
 ```
 
-You should have a `button` element with an `id` of `"clear-btn"`.
+Du solltest ein `button`-Element mit einer `id` von `"clear-btn"` haben.
 
 ```js
 const el = document.getElementById('clear-btn');
@@ -95,7 +95,7 @@ const el = document.getElementById('results-div');
 assert(['div', 'span', 'p'].includes(el?.nodeName?.toLowerCase()));
 ```
 
-When you click on the `#check-btn` element without entering a value into the `#user-input` element, an alert should appear with the text `"Please provide a phone number"`.
+Wenn man auf das`#check-btn` Element klickt, ohne einen Wert in das `#user-input` Feld einzugeben, sollte ein Warnhinweis erscheinen mit dem Text `"Please provide a phone number"`.
 
 ```js
 const userInput = document.getElementById('user-input');
