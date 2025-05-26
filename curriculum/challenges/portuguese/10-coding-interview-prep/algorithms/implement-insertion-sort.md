@@ -17,13 +17,19 @@ The next sorting method we'll look at is insertion sort. This method works by bu
 `insertionSort` deve ser uma função.
 
 ```js
-assert(typeof insertionSort == 'function');
+assert.isFunction(insertionSort);
 ```
 
 `insertionSort` deve retornar um array ordenado (do menor para o maior elemento).
 
 ```js
-assert(
+function isSorted(a){
+  for(let i = 0; i < a.length - 1; i++)
+    if(a[i] > a[i + 1])
+      return false;
+  return true;
+}
+assert.isTrue(
   isSorted(
     insertionSort([
       1,
@@ -84,21 +90,6 @@ assert.deepEqual(insertionSort([5, 4, 33, 2, 8]), [2, 4, 5, 8, 33])
 `insertionSort` não deve usar o método `.sort()` integrado.
 
 ```js
-assert.isFalse(isBuiltInSortUsed());
-```
-
-# --seed--
-
-## --after-user-code--
-
-```js
-function isSorted(a){
-  for(let i = 0; i < a.length - 1; i++)
-    if(a[i] > a[i + 1])
-      return false;
-  return true;
-}
-
 function isBuiltInSortUsed(){
   let sortUsed = false;
   const temp = Array.prototype.sort;
@@ -110,7 +101,10 @@ function isBuiltInSortUsed(){
   }
   return sortUsed;
 }
+assert.isFalse(isBuiltInSortUsed());
 ```
+
+# --seed--
 
 ## --seed-contents--
 

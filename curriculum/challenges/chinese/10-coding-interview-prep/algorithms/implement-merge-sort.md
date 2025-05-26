@@ -31,6 +31,12 @@ assert.isFunction(mergeSort);
 `mergeSort` 应该返回一个已排序的数组（从小到大）。
 
 ```js
+function isSorted(a){
+  for(let i = 0; i < a.length - 1; i++)
+    if(a[i] > a[i + 1])
+      return false;
+  return true;
+}
 assert.isTrue(
   isSorted(
     mergeSort([
@@ -86,21 +92,6 @@ assert.sameMembers(
 `mergeSort` 不应使用内置的 `.sort()` 方法。
 
 ```js
-assert.isFalse(isBuiltInSortUsed());
-```
-
-# --seed--
-
-## --after-user-code--
-
-```js
-function isSorted(a){
-  for(let i = 0; i < a.length - 1; i++)
-    if(a[i] > a[i + 1])
-      return false;
-  return true;
-}
-
 function isBuiltInSortUsed(){
   let sortUsed = false;
   const temp = Array.prototype.sort;
@@ -112,7 +103,10 @@ function isBuiltInSortUsed(){
   }
   return sortUsed;
 }
+assert.isFalse(isBuiltInSortUsed());
 ```
+
+# --seed--
 
 ## --seed-contents--
 

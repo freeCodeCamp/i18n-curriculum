@@ -1,9 +1,9 @@
 ---
 id: bd7158d8c442eddfaeb5bd1c
-title: サイモンゲームを作成する
+title: Build a Memory Light Game
 challengeType: 3
 forumTopicId: 302357
-dashedName: build-a-simon-game
+dashedName: build-a-memory-light-game
 ---
 
 # --description--
@@ -28,7 +28,12 @@ dashedName: build-a-simon-game
 
 **ユーザーストーリー:** 連続で 20 のステップを正しく入力できれば、ゲームに勝利できます。 私がゲームに勝利したことが通知され、ゲームをもう一度やり直します。
 
-**ヒント:** 各ボタンの音としてこちらの MP3 を使用しても構いません: `https://cdn.freecodecamp.org/curriculum/take-home-projects/simonSound1.mp3`, `https://cdn.freecodecamp.org/curriculum/take-home-projects/simonSound2.mp3`, `https://cdn.freecodecamp.org/curriculum/take-home-projects/simonSound3.mp3`, `https://cdn.freecodecamp.org/curriculum/take-home-projects/simonSound4.mp3`
+**Hint:** Here are mp3s you can use for each button:
+
+- `https://cdn.freecodecamp.org/curriculum/take-home-projects/memory-light-game/sound-1.mp3`
+- `https://cdn.freecodecamp.org/curriculum/take-home-projects/memory-light-game/sound-2.mp3`
+- `https://cdn.freecodecamp.org/curriculum/take-home-projects/memory-light-game/sound-3.mp3`
+- `https://cdn.freecodecamp.org/curriculum/take-home-projects/memory-light-game/sound-4.mp3`
 
 完了したら、CodePen のプロジェクトへのリンクを入れて、「このチャレンジを完了しました」ボタンをクリックしてください。
 

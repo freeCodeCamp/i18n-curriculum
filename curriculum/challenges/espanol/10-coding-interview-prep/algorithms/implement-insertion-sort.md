@@ -17,13 +17,19 @@ El siguiente método de clasificación que veremos es el orden de las insercione
 `insertionSort` debería ser una función.
 
 ```js
-assert(typeof insertionSort == 'function');
+assert.isFunction(insertionSort);
 ```
 
 `insertionSort` debería devolver un arreglo ordenado (de menor al más grande).
 
 ```js
-assert(
+function isSorted(a){
+  for(let i = 0; i < a.length - 1; i++)
+    if(a[i] > a[i + 1])
+      return false;
+  return true;
+}
+assert.isTrue(
   isSorted(
     insertionSort([
       1,
@@ -84,21 +90,6 @@ assert.deepEqual(insertionSort([5, 4, 33, 2, 8]), [2, 4, 5, 8, 33])
 `insertionSort` no debe utilizar el método "buil-in" `.sort()`.
 
 ```js
-assert.isFalse(isBuiltInSortUsed());
-```
-
-# --seed--
-
-## --after-user-code--
-
-```js
-function isSorted(a){
-  for(let i = 0; i < a.length - 1; i++)
-    if(a[i] > a[i + 1])
-      return false;
-  return true;
-}
-
 function isBuiltInSortUsed(){
   let sortUsed = false;
   const temp = Array.prototype.sort;
@@ -110,7 +101,10 @@ function isBuiltInSortUsed(){
   }
   return sortUsed;
 }
+assert.isFalse(isBuiltInSortUsed());
 ```
+
+# --seed--
 
 ## --seed-contents--
 

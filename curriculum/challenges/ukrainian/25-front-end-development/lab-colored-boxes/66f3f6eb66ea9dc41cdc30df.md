@@ -1,6 +1,6 @@
 ---
 id: 66f3f6eb66ea9dc41cdc30df
-title: Design a Set of Colored Boxes
+title: Створіть кольорові блоки
 challengeType: 25
 dashedName: set-of-colored-boxes
 demoType: onClick
@@ -8,28 +8,28 @@ demoType: onClick
 
 # --description--
 
-In this lab, you'll practice using CSS colors by designing boxes.
+У цій лабораторній роботі ви будете використовувати кольори в CSS, розробивши дизайн блоків.
 
 **Мета:** виконайте історію користувача, щоб завершити лабораторну роботу. Усі тести мають бути успішними.
 
 **Історія користувача:**
 
-1. You should set the background color for `body` to `#f4f4f4`.
-2. You should have a `div` with a class of `color-grid` to hold all your color elements.
-3. You should have five `div` elements within the `.color-grid` element.
-4. The five `div` elements should each have a class of `color-box` and `color#`, where `#` is the number of the order of that `div`. For example: `color1` for the first `div`, `color2` for the second, and so on.
-5. The `.color-box` class should have a set `width` and `height` so your `div` elements are visible on the page.
-6. The `.color1` element should have a `background-color` that uses hexadecimal color value.
-7. The `.color2` element should have a `background-color` that uses an RGB color value.
-8. The `.color3` element should have a `background-color` that uses a predefined (word) color value.
-9. The `.color4` element should have a `background-color` that uses a HSL color value.
-10. The `.color5` element should have a `background-color` set.
+1. Встановіть колір фону елемента `body` на `#f4f4f4`.
+2. Ви повинні мати `div` з класом `color-grid`, який зберігатиме всі кольорові елементи.
+3. В межах елемента `.color-grid` має бути п’ять елементів `div`.
+4. Ці п’ять елементів `div` повинні мати клас `color-box` та `color#`, де `#` є порядковим номером елемента `div`. Наприклад, `color1` для першого `div`, `color2` для другого і так далі.
+5. Клас `.color-box` повинен мати встановлені властивості `width` та `height`, щоб елементи `div` були помітними на сторінці.
+6. Елемент `.color1` повинен мати `background-color` з шістнадцятковим значенням кольору.
+7. Елемент `.color2` повинен мати `background-color` зі значенням кольору RGB.
+8. Елемент `.color3` повинен мати `background-color` з іменованим значенням кольору.
+9. Елемент `.color4` повинен мати `background-color` зі значенням кольору HSL.
+10. Елемент `.color5` повинен мати встановлену властивість `background-color`.
 
 **Примітка:** не забудьте прив’язати таблицю стилів до HTML та застосувати CSS.
 
 # --hints--
 
-`body` should have a background color of `#f4f4f4`.
+Кольором фону елемента `body` має бути `#f4f4f4`.
 
 ```js
 const body = document.body;
@@ -37,21 +37,21 @@ const bodyBgColor = getComputedStyle(body).backgroundColor;
 assert.strictEqual(bodyBgColor, 'rgb(244, 244, 244)');
 ```
 
-You should have a `div` element with a class of `color-grid`.
+Ви повинні мати елемент `div` з класом `color-grid`.
 
 ```js
 const colorGrid = document.querySelector('div.color-grid');
 assert.exists(colorGrid);
 ```
 
-You should have five `div` elements within the `.color-grid` element.
+В межах елемента `.color-grid` має бути п’ять елементів `div`.
 
 ```js
 const colorGridChildren = document.querySelectorAll('div.color-grid > div');
 assert.strictEqual(colorGridChildren.length, 5);
 ```
 
-Each of the five `div` elements should each have a class of `color-box` and `color#`—substitute the order of the `div` for the `#` symbol.
+Всі п’ять елементів `div` повинні мати клас `color-box` та `color#` (замініть символ `#` на порядковий номер елемента `div`).
 
 ```js
 const colorGridChildren = document.querySelectorAll('div.color-grid > div');
@@ -64,7 +64,7 @@ colorGridChildren.forEach((child, index) => {
 });
 ```
 
-The `.color-box` element should have a set `width` and `height`.
+Елемент `.color-box` повинен мати встановлені властивості `width` та `height`.
 
 ```js
 const colorBox = document.querySelector('.color-box');
@@ -78,7 +78,7 @@ assert.notStrictEqual(width, '0px');
 assert.notStrictEqual(height, '0px');
 ```
 
-The `.color1` element should have a hexadecimal background color.
+Елемент `.color1` повинен мати колір фону з шістнадцятковим значенням.
 
 ```js
 const hexChars = "[0-9a-fA-F]"
@@ -86,13 +86,13 @@ const hexRegex = new RegExp(`\\.color1\\s*{[^}]*\\bbackground-color\\s*:\\s*#(($
 assert.match(__helpers.removeCssComments(code), hexRegex);
 ```
 
-The `.color2` element should have an RGB background color.
+Елемент `.color2` повинен мати колір фону зі значенням RGB.
 
 ```js
 assert.match(__helpers.removeCssComments(code), /\.color2\s*{[^}]*\bbackground-color\s*:\s*rgb\s*\(\s*\d+(?:\.\d+)?\s*(,|\s+)\s*\d+(?:\.\d+)?\s*\1\s*\d+(?:\.\d+)?\s*(\/\s*\d{1,2}(?:\.\d+)?%\s*)?\)\s*;[^}]*}/);
 ```
 
-The `.color3` element should have a predefined (word) background color.
+Елемент `.color3` повинен мати колір фону з іменованим значенням.
 
 ```js
 const colorSet = new Set(["black", "silver", "gray", "white", "maroon", "red", "purple", "fuchsia", "green", "lime", "olive", "yellow", "navy", "blue", "teal", "aqua", "aliceblue", "antiquewhite", "aqua", "aquamarine", "azure", "beige", "bisque", "black", "blanchedalmond", "blue", "blueviolet", "brown", "burlywood", "cadetblue", "chartreuse", "chocolate", "coral", "cornflowerblue", "cornsilk", "crimson", "cyan", "aqua", "darkblue", "darkcyan", "darkgoldenrod", "darkgray", "darkgreen", "darkgrey", "darkkhaki", "darkmagenta", "darkolivegreen", "darkorange", "darkorchid", "darkred", "darksalmon", "darkseagreen", "darkslateblue", "darkslategray", "darkslategrey", "darkturquoise", "darkviolet", "deeppink", "deepskyblue", "dimgray", "dimgrey", "dodgerblue", "firebrick", "floralwhite", "forestgreen", "fuchsia", "gainsboro", "ghostwhite", "gold", "goldenrod", "gray", "green", "greenyellow", "grey", "gray", "honeydew", "hotpink", "indianred", "indigo", "ivory", "khaki", "lavender", "lavenderblush", "lawngreen", "lemonchiffon", "lightblue", "lightcoral", "lightcyan", "lightgoldenrodyellow", "lightgray", "lightgreen", "lightgrey", "lightpink", "lightsalmon", "lightseagreen", "lightskyblue", "lightslategray", "lightslategrey", "lightsteelblue", "lightyellow", "lime", "limegreen", "linen", "magenta", "fuchsia", "maroon", "mediumaquamarine", "mediumblue", "mediumorchid", "mediumpurple", "mediumseagreen", "mediumslateblue", "mediumspringgreen", "mediumturquoise", "mediumvioletred", "midnightblue", "mintcream", "mistyrose", "moccasin", "navajowhite", "navy", "oldlace", "olive", "olivedrab", "orange", "orangered", "orchid", "palegoldenrod", "palegreen", "paleturquoise", "palevioletred", "papayawhip", "peachpuff", "peru", "pink", "plum", "powderblue", "purple", "rebeccapurple", "red", "rosybrown", "royalblue", "saddlebrown", "salmon", "sandybrown", "seagreen", "seashell", "sienna", "silver", "skyblue", "slateblue", "slategray", "slategrey", "snow", "springgreen", "steelblue", "tan", "teal", "thistle", "tomato", "transparent", "turquoise", "violet", "wheat", "white", "whitesmoke", "yellow", "yellowgreen"]);
@@ -100,7 +100,7 @@ const matchedColor = __helpers.removeCssComments(code).match(/\.color3\s*{[^}]*\
 assert.isTrue(colorSet.has(matchedColor.groups.color.toLowerCase()));
 ```
 
-The `.color4` element should have a HSL background color.
+Елемент `.color4` повинен мати колір фону зі значенням HSL.
 
 ```js
 const absHSLVals = '\\s*(none|\\d+(?:\\.\\d+)?(?:deg)?)\\s*\\d+(?:\\.\\d+)?%?\\s*\\d+(?:\\.\\d+)?%?\\s*(\\/\\s*\\d{1,2}(?:\\.\\d+)?%\\s*)?';
@@ -109,7 +109,7 @@ const hslRegex = new RegExp(`\\.color4\\s*{[^}]*\\bbackground-color\\s*:\\s*hsl\
 assert.match(__helpers.removeCssComments(code), hslRegex);
 ```
 
-The `.color5` element should have a background color set.
+Елемент `.color5` повинен мати встановлений колір фону.
 
 ```js
 assert.isNotEmpty(new __helpers.CSSHelp(document).getStyle('.color5')?.getPropVal('background-color', true));

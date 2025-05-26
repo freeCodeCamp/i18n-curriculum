@@ -1,9 +1,9 @@
 ---
 id: bd7158d8c442eddfaeb5bd1c
-title: Criar um Genius
+title: Build a Memory Light Game
 challengeType: 3
 forumTopicId: 302357
-dashedName: build-a-simon-game
+dashedName: build-a-memory-light-game
 ---
 
 # --description--
@@ -28,7 +28,12 @@ Atenda às histórias de usuário abaixo e faça com que todos os testes passem.
 
 **História de usuário:** posso vencer o jogo obtendo uma série de 20 etapas corretas. Eu fui notificado da minha vitória e, então, o jogo recomeça.
 
-**Dica:** aqui estão os mp3s que você pode usar para cada botão: `https://cdn.freecodecamp.org/curriculum/take-home-projects/simonSound1.mp3`, `https://cdn.freecodecamp.org/curriculum/take-home-projects/simonSound2.mp3`, `https://cdn.freecodecamp.org/curriculum/take-home-projects/simonSound3.mp3`, `https://cdn.freecodecamp.org/curriculum/take-home-projects/simonSound4.mp3`.
+**Hint:** Here are mp3s you can use for each button:
+
+- `https://cdn.freecodecamp.org/curriculum/take-home-projects/memory-light-game/sound-1.mp3`
+- `https://cdn.freecodecamp.org/curriculum/take-home-projects/memory-light-game/sound-2.mp3`
+- `https://cdn.freecodecamp.org/curriculum/take-home-projects/memory-light-game/sound-3.mp3`
+- `https://cdn.freecodecamp.org/curriculum/take-home-projects/memory-light-game/sound-4.mp3`
 
 Quando terminar, inclua um link para o seu projeto no CodePen e clique no botão "Eu completei esse desafio".
 

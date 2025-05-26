@@ -17,13 +17,19 @@ The next sorting method we'll look at is insertion sort. This method works by bu
 `insertionSort` 应该是一个函数。
 
 ```js
-assert(typeof insertionSort == 'function');
+assert.isFunction(insertionSort);
 ```
 
 `insertionSort` 应该返回一个排序的数组（从最小到最大）。
 
 ```js
-assert(
+function isSorted(a){
+  for(let i = 0; i < a.length - 1; i++)
+    if(a[i] > a[i + 1])
+      return false;
+  return true;
+}
+assert.isTrue(
   isSorted(
     insertionSort([
       1,
@@ -84,21 +90,6 @@ assert.deepEqual(insertionSort([5, 4, 33, 2, 8]), [2, 4, 5, 8, 33])
 `insertionSort` 不应使用内置的 `.sort()` 方法。
 
 ```js
-assert.isFalse(isBuiltInSortUsed());
-```
-
-# --seed--
-
-## --after-user-code--
-
-```js
-function isSorted(a){
-  for(let i = 0; i < a.length - 1; i++)
-    if(a[i] > a[i + 1])
-      return false;
-  return true;
-}
-
 function isBuiltInSortUsed(){
   let sortUsed = false;
   const temp = Array.prototype.sort;
@@ -110,7 +101,10 @@ function isBuiltInSortUsed(){
   }
   return sortUsed;
 }
+assert.isFalse(isBuiltInSortUsed());
 ```
+
+# --seed--
 
 ## --seed-contents--
 

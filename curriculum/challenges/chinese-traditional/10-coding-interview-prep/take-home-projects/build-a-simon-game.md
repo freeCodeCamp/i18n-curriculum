@@ -1,9 +1,9 @@
 ---
 id: bd7158d8c442eddfaeb5bd1c
-title: 建立一個西蒙遊戲
+title: Build a Memory Light Game
 challengeType: 3
 forumTopicId: 302357
-dashedName: build-a-simon-game
+dashedName: build-a-memory-light-game
 ---
 
 # --description--
@@ -28,7 +28,12 @@ dashedName: build-a-simon-game
 
 **用戶故事：**我可以通過正確完成一系列的 20 個步驟來贏得比賽。 我被告知我的勝利，然後比賽重新開始。
 
-**Hint:** Here are mp3s you can use for each button: `https://cdn.freecodecamp.org/curriculum/take-home-projects/simonSound1.mp3`, `https://cdn.freecodecamp.org/curriculum/take-home-projects/simonSound2.mp3`, `https://cdn.freecodecamp.org/curriculum/take-home-projects/simonSound3.mp3`, `https://cdn.freecodecamp.org/curriculum/take-home-projects/simonSound4.mp3`.
+**Hint:** Here are mp3s you can use for each button:
+
+- `https://cdn.freecodecamp.org/curriculum/take-home-projects/memory-light-game/sound-1.mp3`
+- `https://cdn.freecodecamp.org/curriculum/take-home-projects/memory-light-game/sound-2.mp3`
+- `https://cdn.freecodecamp.org/curriculum/take-home-projects/memory-light-game/sound-3.mp3`
+- `https://cdn.freecodecamp.org/curriculum/take-home-projects/memory-light-game/sound-4.mp3`
 
 完成後，添加一個在 CodePen 上指向你項目的鏈接，然後單擊“我已完成此挑戰”按鈕。
 

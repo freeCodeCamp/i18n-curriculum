@@ -21,13 +21,13 @@ arr.length % 2 === 0;
 arr.length % 2 === 1;
 ```
 
-If the remainder is `0`, the number is even. If the remainder is `1`, the number is odd.
+Wenn der Rest `0` ist, ist die Zahl gerade. Wenn der Rest `1` ist, ist die Zahl ungerade.
 
 Create a variable called `isEven`. Then use the modulus operator to check if the length of the `testArr2` array is even. Assign that expression to the `isEven` variable.
 
 Below your `isEven` variable, log out the `isEven` variable to the console.
 
-Open up the console to see the result.
+Öffne die Konsole, um das Ergebnis zu sehen.
 
 # --hints--
 

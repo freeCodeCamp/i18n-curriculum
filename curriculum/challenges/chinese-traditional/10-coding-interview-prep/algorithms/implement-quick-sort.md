@@ -25,7 +25,13 @@ assert(typeof quickSort == 'function');
 `quickSort` 應該返回一個排序的數組（從最小到最大）。
 
 ```js
-assert(
+function isSorted(a){
+  for(let i = 0; i < a.length - 1; i++)
+    if(a[i] > a[i + 1])
+      return false;
+  return true;
+}
+assert.isTrue(
   isSorted(
     quickSort([
       1,
@@ -80,21 +86,6 @@ assert.sameMembers(
 `quickSort` 不應使用內置的 `.sort()` 方法。
 
 ```js
-assert.isFalse(isBuiltInSortUsed());
-```
-
-# --seed--
-
-## --after-user-code--
-
-```js
-function isSorted(a){
-  for(let i = 0; i < a.length - 1; i++)
-    if(a[i] > a[i + 1])
-      return false;
-  return true;
-}
-
 function isBuiltInSortUsed(){
   let sortUsed = false;
   const temp = Array.prototype.sort;
@@ -106,7 +97,10 @@ function isBuiltInSortUsed(){
   }
   return sortUsed;
 }
+assert.isFalse(isBuiltInSortUsed());
 ```
+
+# --seed--
 
 ## --seed-contents--
 
