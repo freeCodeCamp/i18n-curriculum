@@ -1,9 +1,9 @@
 ---
 id: bd7158d8c442eddfaeb5bd1c
-title: Створіть гру «Simon»
+title: Build a Memory Light Game
 challengeType: 3
 forumTopicId: 302357
-dashedName: build-a-simon-game
+dashedName: build-a-memory-light-game
 ---
 
 # --description--
@@ -28,7 +28,12 @@ dashedName: build-a-simon-game
 
 **Історія користувача:** я можу виграти гру, набравши 20 правильних послідовних кроків. Мене повідомляють про мою перемогу і тоді гра починається спочатку.
 
-**Підказка:** ось mp3, які можна використовувати для кожної кнопки: `https://cdn.freecodecamp.org/curriculum/take-home-projects/simonSound1.mp3`, `https://cdn.freecodecamp.org/curriculum/take-home-projects/simonSound2.mp3`, `https://cdn.freecodecamp.org/curriculum/take-home-projects/simonSound3.mp3`, `https://cdn.freecodecamp.org/curriculum/take-home-projects/simonSound4.mp3`.
+**Hint:** Here are mp3s you can use for each button:
+
+- `https://cdn.freecodecamp.org/curriculum/take-home-projects/memory-light-game/sound-1.mp3`
+- `https://cdn.freecodecamp.org/curriculum/take-home-projects/memory-light-game/sound-2.mp3`
+- `https://cdn.freecodecamp.org/curriculum/take-home-projects/memory-light-game/sound-3.mp3`
+- `https://cdn.freecodecamp.org/curriculum/take-home-projects/memory-light-game/sound-4.mp3`
 
 Коли закінчите, надайте посилання на свій проєкт на CodePen та натисніть кнопку «Я виконав(-ла) це завдання».
 

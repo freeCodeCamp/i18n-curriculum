@@ -7,11 +7,11 @@ dashedName: step-36
 
 # --description--
 
-Use arrow syntax to create an `updateTaskContainer` function. Then move the `taskData.forEach()` and its content from the `taskForm`'s `submit` event listener into the newly created function.
+Verwende die Arrow-Syntax, um eine `updateTaskContainer`-Funktion zu erstellen. Then move the `taskData.forEach()` and its content from the `taskForm`'s `submit` event listener into the newly created function.
 
 # --hints--
 
-You should use `const` and arrow syntax to create a `updateTaskContainer` function.
+Du solltest `const` und Arrow-Syntax verwenden, um eine `updateTaskContainer`-Funktion zu erstellen.
 
 ```js
 assert.match(code, /const\s+updateTaskContainer\s*=\s*\(\s*\)\s*=>\s*\{/)

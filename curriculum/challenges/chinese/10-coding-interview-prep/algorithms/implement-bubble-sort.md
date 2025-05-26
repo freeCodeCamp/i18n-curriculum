@@ -21,13 +21,19 @@ This is the first of several challenges on sorting algorithms. Given an array of
 `bubbleSort` 应该是一个函数。
 
 ```js
-assert(typeof bubbleSort == 'function');
+assert.isFunction(bubbleSort);
 ```
 
 `bubbleSort` 应该返回一个已排序的数组（从小到大）。
 
 ```js
-assert(
+function isSorted(a){
+  for(let i = 0; i < a.length - 1; i++)
+    if(a[i] > a[i + 1])
+      return false;
+  return true;
+}
+assert.isTrue(
   isSorted(
     bubbleSort([
       1,
@@ -82,21 +88,6 @@ assert.sameMembers(
 `bubbleSort` 不应使用内置的 `.sort()` 方法。
 
 ```js
-assert.isFalse(isBuiltInSortUsed());
-```
-
-# --seed--
-
-## --after-user-code--
-
-```js
-function isSorted(a){
-  for(let i = 0; i < a.length - 1; i++)
-    if(a[i] > a[i + 1])
-      return false;
-  return true;
-}
-
 function isBuiltInSortUsed(){
   let sortUsed = false;
   const temp = Array.prototype.sort;
@@ -108,7 +99,10 @@ function isBuiltInSortUsed(){
   }
   return sortUsed;
 }
+assert.isFalse(isBuiltInSortUsed());
 ```
+
+# --seed--
 
 ## --seed-contents--
 

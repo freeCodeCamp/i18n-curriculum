@@ -25,7 +25,7 @@ You should declare an `addEntry` function.
 assert.isFunction(addEntry);
 ```
 
-Your `addEntry` function should not take any parameters.
+Deine `addEntry`-Funktion sollte keinen Parameter verwenden.
 
 ```js
 assert.match(addEntry?.toString(), /\(\s*\)/);
