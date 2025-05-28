@@ -12,9 +12,9 @@ Hier erstellst du eine App für eine Registrierkasse, die dem Kunden Rückgeld h
 
 In der `script.js` Datei findest du den `Preis` und den `cid` -Wert als Variablen. Der `price` -Wert ist der Preis des Produktes, und der `cid` -Wert ist das Geldfach, welche eine 2D-Array ist, in dem die verfügbaren Währungen aus dem Geldfach aufgelistet sind.
 
-The other variable you will need to add is the `cash` variable, which is the amount of cash provided by the customer for the item, which is provided via an `input` element on the page.
+Die andere Variable, die Du hinzufügen musst, ist die `cash` Variable, die den Bargeldbetrag darstellt, den der Kunde für das Produkt gibt, das über ein `Eingabeelement` auf der Seite bereitgestellt wird.
 
-If you'd like to test your application with different values for `price` and `cid`, make sure to declare them with the `let` keyword so they can be reassigned by our tests.
+Wenn Du die Anwendung mit unterschiedlichen Werten für `price` und `cid`testen mlchtest, stelle sicher, dass Du sie mit dem `let` Schlüsselwort deklarierst, damit sie von unseren Tests neu zugewiesen werden können.
 
 Your application should show different messages depending on the price of the item, the amount of cash provided by the customer, and the amount of cash in the drawer:
 
