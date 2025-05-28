@@ -8,17 +8,17 @@ dashedName: build-a-budget-app-project
 
 # --description--
 
-Complete the `Category` class. It should be able to instantiate objects based on different budget categories like *food*, *clothing*, and *entertainment*. When objects are created, they are passed in the name of the category. The class should have an instance variable called `ledger` that is a list. The class should also contain the following methods:
+Complete the `Category` class. Es sollte in der Lage sein, Objekte basierend auf verschiedenen Haushaltskategorien, wie *food*, *clothing*, und *entertainment* zu instanziieren. Wenn Objekte erstellt werden, werden sie im Namen der Kategorie übergeben. Die Klasse sollte eine Instanzvariable namens `ledger` (Hauptbuch) haben, die eine Liste ist. Die Klasse sollte ebenfalls folgende Methoden enthalten:
 
-- A `deposit` method that accepts an amount and description. If no description is given, it should default to an empty string. The method should append an object to the ledger list in the form of `{'amount': amount, 'description': description}`.
-- A `withdraw` method that is similar to the `deposit` method, but the amount passed in should be stored in the ledger as a negative number. If there are not enough funds, nothing should be added to the ledger. This method should return `True` if the withdrawal took place, and `False` otherwise.
-- A `get_balance` method that returns the current balance of the budget category based on the deposits and withdrawals that have occurred.
-- A `transfer` method that accepts an amount and another budget category as arguments. The method should add a withdrawal with the amount and the description 'Transfer to [Destination Budget Category]'. The method should then add a deposit to the other budget category with the amount and the description 'Transfer from [Source Budget Category]'. If there are not enough funds, nothing should be added to either ledgers. This method should return `True` if the transfer took place, and `False` otherwise.
-- A `check_funds` method that accepts an amount as an argument. It returns `False` if the amount is greater than the balance of the budget category and returns `True` otherwise. This method should be used by both the `withdraw` method and `transfer` method.
+- Eine `deposit`-Methode, die einen Betrag und eine Beschreibung annimmt. Wenn keine Beschreibung angegeben wird, sollte standardmäßig ein leerer String ausgegeben werden. The method should append an object to the ledger list in the form of `{'amount': amount, 'description': description}`.
+- Eine `withdraw`-Methode, die der `deposit`-Methode ähnelt, bei der der übergebene Betrag jedoch als negative Zahl im Hauptbuch gespeichert werden soll. Wenn nicht genügend Mittel zur Verfügung stehen, sollte nichts zum Hauptbuch hinzugefügt werden. Diese Methode sollte `True` zurückgeben, wenn die Auszahlung stattgefunden hat, ansonsten sollte sie `False` ausgeben.
+- Eine `get_balance`-Methode, die den aktuellen Saldo der Kategorie des Budgets auf der Grundlage der erfolgten Einzahlungen und Abhebungen zurückgibt.
+- Eine `transfer`-Methode, die einen Betrag und eine andere Budgetkategorie als Argument akzeptiert. The method should add a withdrawal with the amount and the description 'Transfer to [Destination Budget Category]'. The method should then add a deposit to the other budget category with the amount and the description 'Transfer from [Source Budget Category]'. Wenn nicht genügend Mittel vorhanden sind, sollte in keinem der beiden Hauptbücher etwas hinzugefügt werden. Diese Methode sollte `True` zurückgeben, wenn die Auszahlung bereits stattgefunden hat und ansonsten `False` ausgeben.
+- Eine `check_funds`-Methode, die einen Betrag als Argument akzeptiert. Es wird `False` zurückgegeben, wenn der Betrag größer ist als der Saldo der Budgetkategorie, ansonsten wird `True` zurückgegeben. Die Methode sollte sowohl von der `withdraw`-Methode und der `transfer`-Methode verwendet werden.
 
-When the budget object is printed it should display:
+Wenn das Budgetobjekt ausgegeben wird, sollte es folgendes anzeigen:
 
-- A title line of 30 characters where the name of the category is centered in a line of `*` characters.
+- Eine Titelzeile mit 30 Zeichen, in der der Name der Kategorie in einer Zeile mit `*`-Zeichen zentriert ist.
 - Eine Liste der Elemente im Hauptbuch. Jede Zeile sollte die Beschreibung und den Betrag anzeigen. Die ersten 23 Zeichen der Beschreibung sollten angezeigt werden, dann der Betrag. Der Betrag sollte rechts ausgerichtet sein, zwei Dezimalstellen enthalten und maximal 7 Zeichen anzeigen.
 - Eine Zeile, die die Summe der Kategorie anzeigt.
 
@@ -119,7 +119,7 @@ t.result.wasSuccessful()
 })
 ```
 
-Calling the `deposit` method with no description should create a blank description.
+Der Aufruf der `deposit`-Methode ohne Beschreibung sollte eine leere Beschreibung erzeugen.
 
 ```js
 ({
@@ -196,7 +196,7 @@ t.result.wasSuccessful()
 })
 ```
 
-Calling the `withdraw` method with no description should create a blank description.
+Der Aufruf der `withdraw`-Methode ohne Beschreibung sollte eine leere Beschreibung erzeugen.
 
 ```js
 ({
@@ -1063,7 +1063,7 @@ t.result.wasSuccessful()
 })
 ```
 
-`create_spend_chart` should print a different chart representation. Check that all spacing is exact. Open your browser console with F12 for more details.
+`create_spend_chart` should print a different chart representation. Prüfe, ob alle Abstände genau eingehalten werden. Open your browser console with F12 for more details.
 
 ```js
 ({

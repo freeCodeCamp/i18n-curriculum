@@ -8,7 +8,7 @@ dashedName: build-an-arithmetic-formatter-project
 
 # --description--
 
-Students in primary school often arrange arithmetic problems vertically to make them easier to solve. For example, "235 + 52" becomes:
+Schüler der Grundschule stellen oft arithmetische Probleme vertikal auf, um sie leichter lösen zu können. Zum Beispiel wird "235 + 52" zu:
 
 ```py
   235
@@ -16,17 +16,17 @@ Students in primary school often arrange arithmetic problems vertically to make 
 -----
 ```
 
-Finish the `arithmetic_arranger` function that receives a list of strings which are arithmetic problems, and returns the problems arranged vertically and side-by-side. The function should optionally take a second argument. When the second argument is set to `True`, the answers should be displayed.
+Finish the `arithmetic_arranger` function that receives a list of strings which are arithmetic problems, and returns the problems arranged vertically and side-by-side. Optional sollte die Funktion ein zweites Argument verwenden. Wenn das zweite Argument auf `True` gesetzt ist, sollten die Antworten gezeigt werden.
 
-## Example
+## Beispiel
 
-Function Call:
+Function-Call:
 
 ```py
 arithmetic_arranger(["32 + 698", "3801 - 2", "45 + 43", "123 + 49"])
 ```
 
-Output:
+Ausgabe:
 
 ```py
    32      3801      45      123
@@ -34,13 +34,13 @@ Output:
 -----    ------    ----    -----
 ```
 
-Function Call:
+Function-Call:
 
 ```py
 arithmetic_arranger(["32 + 8", "1 - 3801", "9999 + 9999", "523 - 49"], True)
 ```
 
-Output:
+Ausgabe:
 
 ```py
   32         1      9999      523
@@ -51,15 +51,15 @@ Output:
 
 ## Regeln
 
-The function will return the correct conversion if the supplied problems are properly formatted, otherwise, it will **return** a **string** that describes an error that is meaningful to the user.
+Die Funktion gibt die korrekte Konvertierung zurück, wenn die übergebenen Probleme richtig formatiert sind. Andernfalls **gibt** er einen **String** zurück, der einen für den Benutzer aussagekräftigen Fehler beschreibt.
 
-- Situations that will return an error:
-  - If there are **too many problems** supplied to the function. The limit is **five**, anything more will return: `'Error: Too many problems.'`
-  - The appropriate operators the function will accept are **addition** and **subtraction**. Multiplication and division will return an error. Other operators not mentioned in this bullet point will not need to be tested. The error returned will be: `"Error: Operator must be '+' or '-'."`
-  - Each number (operand) should only contain digits. Otherwise, the function will return: `'Error: Numbers must only contain digits.'`
-  - Each operand (aka number on each side of the operator) has a max of four digits in width. Otherwise, the error string returned will be: `'Error: Numbers cannot be more than four digits.'`
+- Situationen, die einen Fehler zurückgeben:
+  - Wenn **zu viele Probleme** an die Funktion übermittelt werden. Das Limit liegt bei **fünf**, alles weitere wird `'Error: Too many problems.'` zurückgeben
+  - Die entsprechenden Operatoren, die die Funktion akzeptieren wird, sind **Addition** und **Subtraktion**. Multiplikation und Division geben einen Fehler zurück. Andere Operatoren, die nicht in diesem Punkt erwähnt werden, müssen nicht getestet werden. Der zurückgegebene Fehler lautet: `"Error: Operator must be '+' or '-'."`
+  - Jede Zahl (Operand) sollte nur Ziffern enthalten. Andernfalls wird die Funktion zurückgegeben: `'Error: Numbers must only contain digits.'`
+  - Jeder Operand (d. h. die Zahl auf jeder Seite des Operators) hat maximal vier Stellen. Andernfalls lautet die zurückgegebene Fehlerzeichenfolge: `'Error: Numbers cannot be more than four digits.'`
 - Wenn der Benutzer das richtige Problemformat angegeben hat, wird die von dir zurückgegebene Konvertierung folgende Regeln folgen:
-  - There should be a single space between the operator and the longest of the two operands, the operator will be on the same line as the second operand, both operands will be in the same order as provided (the first will be the top one and the second will be the bottom).
+  - Zwischen dem Operator und dem längsten der beiden Operanden sollte ein einzelnes Leerzeichen stehen, der Operator steht in derselben Zeile wie der zweite Operand, beide Operanden stehen in derselben Reihenfolge wie angegeben (der erste ist der oberste, der zweite der unterste).
   - Zahlen sollten rechts-ausgerichtet sein.
   - Zwischen den einzelnen Aufgaben sollten vier Leerzeichen stehen.
   - Am Ende jeder Aufgabe sollten Bindestriche stehen. Die Bindestriche sollten sich über die gesamte Länge der einzelnen Aufgaben erstrecken. (Das obige Beispiel zeigt, wie dies aussehen sollte.)
@@ -68,7 +68,7 @@ Note: open the browser console with F12 to see a more verbose output of the test
 
 # --hints--
 
-`arithmetic_arranger(["3801 - 2", "123 + 49"])` should return `3801      123\n-    2    +  49\n------    -----`.
+`arithmetic_arranger(["3801 - 2", "123 + 49"])` sollte `3801      123\n-    2    +  49\n------    -----` zurückgeben.
 
 ```js
 ({
@@ -81,7 +81,7 @@ TestCase().assertEqual(arithmetic_arranger(["3801 - 2", "123 + 49"]), '  3801   
 })
 ```
 
-`arithmetic_arranger(["1 + 2", "1 - 9380"])` should return `1         1\n+ 2    - 9380\n---    ------`.
+`arithmetic_arranger(["1 + 2", "1 - 9380"])` sollte `1         1\n+ 2    - 9380\n---    ------` zurückgeben.
 
 ```js
 ({
@@ -94,7 +94,7 @@ TestCase().assertEqual(arithmetic_arranger(["1 + 2", "1 - 9380"]), '  1         
 })
 ```
 
-`arithmetic_arranger(["3 + 855", "3801 - 2", "45 + 43", "123 + 49"])` should return `3      3801      45      123\n+ 855    -    2    + 43    +  49\n-----    ------    ----    -----`.
+`arithmetic_arranger(["3 + 855", "3801 - 2", "45 + 43", "123 + 49"])` sollte `3      3801      45      123\n+ 855    -    2    + 43    +  49\n-----    ------    ----    -----` zurückgeben.
 
 ```js
 ({
@@ -107,7 +107,7 @@ TestCase().assertEqual(arithmetic_arranger(["3 + 855", "3801 - 2", "45 + 43", "1
 })
 ```
 
-`arithmetic_arranger(["11 + 4", "3801 - 2999", "1 + 2", "123 + 49", "1 - 9380"])` should return `11      3801      1      123         1\n+  4    - 2999    + 2    +  49    - 9380\n----    ------    ---    -----    ------`.
+`arithmetic_arranger(["11 + 4", "3801 - 2999", "1 + 2", "123 + 49", "1 - 9380"])` sollte `11      3801      1      123         1\n+  4    - 2999    + 2    +  49    - 9380\n----    ------    ---    -----    ------` zurückgeben.
 
 ```js
 ({
@@ -120,7 +120,7 @@ TestCase().assertEqual(arithmetic_arranger(["11 + 4", "3801 - 2999", "1 + 2", "1
 })
 ```
 
-`arithmetic_arranger(["44 + 815", "909 - 2", "45 + 43", "123 + 49", "888 + 40", "653 + 87"])` should return `'Error: Too many problems.'`.
+`arithmetic_arranger(["44 + 815", "909 - 2", "45 + 43", "123 + 49", "888 + 40", "653 + 87"])` sollte `'Error: Too many problems.'` zurückgeben.
 
 ```js
 ({
@@ -133,7 +133,7 @@ TestCase().assertEqual(arithmetic_arranger(["44 + 815", "909 - 2", "45 + 43", "1
 })
 ```
 
-`arithmetic_arranger(["3 / 855", "3801 - 2", "45 + 43", "123 + 49"])` should return `"Error: Operator must be '+' or '-'."`.
+`arithmetic_arranger(["3 / 855", "3801 - 2", "45 + 43", "123 + 49"])` sollte `"Error: Operator must be '+' or '-'."` zurückgeben.
 
 ```js
 ({
@@ -146,7 +146,7 @@ TestCase().assertEqual(arithmetic_arranger(["3 / 855", "3801 - 2", "45 + 43", "1
 })
 ```
 
-`arithmetic_arranger(["24 + 85215", "3801 - 2", "45 + 43", "123 + 49"])` should return `'Error: Numbers cannot be more than four digits.'`.
+`arithmetic_arranger(["24 + 85215", "3801 - 2", "45 + 43", "123 + 49"])` sollte `'Error: Numbers cannot be more than four digits.'` zurückgeben.
 
 ```js
 ({
@@ -159,7 +159,7 @@ TestCase().assertEqual(arithmetic_arranger(["24 + 85215", "3801 - 2", "45 + 43",
 })
 ```
 
-`arithmetic_arranger(["98 + 3g5", "3801 - 2", "45 + 43", "123 + 49"])` should return `'Error: Numbers must only contain digits.'`.
+`arithmetic_arranger(["98 + 3g5", "3801 - 2", "45 + 43", "123 + 49"])` sollte `'Error: Numbers must only contain digits.'` zurückgeben.
 
 ```js
 ({
@@ -172,7 +172,7 @@ TestCase().assertEqual(arithmetic_arranger(["98 + 3g5", "3801 - 2", "45 + 43", "
 })
 ```
 
-`arithmetic_arranger(["3 + 855", "988 + 40"], True)` should return `3      988\n+ 855    +  40\n-----    -----\n  858     1028`.
+`arithmetic_arranger(["3 + 855", "988 + 40"], True)` sollte `3      988\n+ 855    +  40\n-----    -----\n  858     1028` zurückgeben.
 
 ```js
 ({
@@ -185,7 +185,7 @@ TestCase().assertEqual(arithmetic_arranger(["3 + 855", "988 + 40"], True), "    
 })
 ```
 
-`arithmetic_arranger(["32 - 698", "1 - 3801", "45 + 43", "123 + 49", "988 + 40"], True)` should return `32         1      45      123      988\n- 698    - 3801    + 43    +  49    +  40\n-----    ------    ----    -----    -----\n -666     -3800      88      172     1028`.
+`arithmetic_arranger(["32 - 698", "1 - 3801", "45 + 43", "123 + 49", "988 + 40"], True)` sollte `32         1      45      123      988\n- 698    - 3801    + 43    +  49    +  40\n-----    ------    ----    -----    -----\n -666     -3800      88      172     1028` zurückgeben.
 
 ```js
 ({
